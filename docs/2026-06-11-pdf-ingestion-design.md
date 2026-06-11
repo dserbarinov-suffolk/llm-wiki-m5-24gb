@@ -285,11 +285,12 @@ its 59 TOC sections into roughly 15–20 chunks.
   scanned technical books will lose code indentation — possibly unusable
   for code-dense sources. May require restricting OCR path to prose
   documents initially.
-- **Figure-OCR thresholds need a text-bearing fixture.** The decorative
-  fixture pins down the empty path, but the confidence floor and
-  minimum-length guard can only be tuned against a PDF whose figures
-  actually carry text (screenshots, diagrams); pick one as the second
-  fixture before trusting the thresholds.
+- **Figure-OCR thresholds need tuning — confirmed by live data.** On the
+  first real extraction, 18 of 35 fixture images passed the filters: one
+  genuine text-bearing figure (p.24) and seventeen photo-noise hits (shop
+  signage, a newspaper). The `unverified` marker bounds the damage, so v1
+  ships as-is; tuning waits for a screenshot/diagram-heavy second fixture.
+  Tracked in `docs/open-questions.md`.
 - **Wall-clock cost.** ~20 runs × several minutes ≈ 1–2 hours per book at
   16 tok/s. Acceptable for the supervised one-source-at-a-time workflow,
   but worth revisiting with the persistent-server improvement (README,

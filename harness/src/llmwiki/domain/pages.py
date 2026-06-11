@@ -19,6 +19,14 @@ class PageError(ValueError):
     """Invalid page data; message is safe to feed back to the model."""
 
 
+def slugify(text: str) -> str:
+    """Derive a valid page-name slug from arbitrary text (e.g. a filename stem)."""
+    slug = re.sub(r"[^a-z0-9]+", "-", text.lower()).strip("-")
+    if not slug:
+        raise PageError(f"Cannot derive a page name from {text!r}.")
+    return slug
+
+
 def validate_page_name(name: str) -> str:
     if not _SLUG_RE.match(name):
         raise PageError(

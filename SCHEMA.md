@@ -22,7 +22,13 @@ The index and log formats below are also enforced in harness code
   - `synthesis` — cross-source analysis, comparisons, answers worth keeping.
 - Link to other pages inline with `[[page-name]]`. Link liberally — links to
   pages that do not exist yet mark pages worth creating.
-- Cite evidence by raw source path, e.g. `(raw/some-article.md)`.
+- Cite evidence by raw source path, e.g. `(raw/some-article.md)`. For paged
+  sources (PDFs), include the page range: `(raw/book.pdf p.28-41)`.
+- Book-scale sources get a hub `source` page named after the file (e.g.
+  `javascriptallonge`) that summarizes the whole source and links
+  per-chapter source pages named `<hub>-<chapter-slug>`.
+- Text marked `[figure text (OCR, unverified)]` was machine-recognized from
+  an image: usable as evidence with that caveat, never as a verbatim quote.
 - When a new source contradicts an existing claim, do not overwrite silently:
   state both claims, mark the conflict with `**Contradiction:**`, and cite
   both sources.

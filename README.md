@@ -94,6 +94,9 @@ chronologically.
 | Wiki conventions (live) | `SCHEMA.md` (repo root) | The pattern's "schema" layer — page categories, link/citation rules, per-operation workflows. Fed to the model verbatim; revised as usage teaches us. |
 | Dev environment | `docs/vim-tmux-unified-lsp-setup.md` | Replication guide for the no-root vim/tmux/LSP setup used to work on this repo. |
 
+Decisions deferred pending more sources live in `docs/open-questions.md` —
+each with the experiment that would resolve it.
+
 Supporting reference (not ours, load-bearing): `forge/docs/` —
 ARCHITECTURE.md, USER_GUIDE.md, WORKFLOW.md, and the ADRs, especially
 ADR-013 (the synthetic respond tool), which predicted the one live failure

@@ -13,6 +13,8 @@ tool-error channel, so they are written as corrective instructions.
 
 from __future__ import annotations
 
+from pathlib import Path
+
 from llmwiki.config import SOURCE_READ_BUDGET_CHARS, WikiPaths
 from llmwiki.domain.index import index_page_names, upsert_index_entry
 from llmwiki.domain.log import format_log_entry
@@ -45,7 +47,8 @@ class WikiStore:
 
     # -- raw layer (read-only) ---------------------------------------------
 
-    def read_source(self, rel_path: str) -> str:
+    def source_path(self, rel_path: str) -> Path:
+        """Resolve a raw-source path (read-only; confined to raw/)."""
         path = (self._paths.raw_dir / rel_path).resolve()
         if not path.is_relative_to(self._paths.raw_dir.resolve()):
             raise SourceNotFoundError(
@@ -54,7 +57,10 @@ class WikiStore:
         if not path.is_file():
             available = ", ".join(self.list_sources()) or "none"
             raise SourceNotFoundError(f"No source at raw/{rel_path}. Available: {available}.")
-        text = path.read_text(encoding="utf-8")
+        return path
+
+    def read_source(self, rel_path: str) -> str:
+        text = self.source_path(rel_path).read_text(encoding="utf-8")
         if len(text) > SOURCE_READ_BUDGET_CHARS:
             return text[:SOURCE_READ_BUDGET_CHARS] + _TRUNCATION_MARKER
         return text

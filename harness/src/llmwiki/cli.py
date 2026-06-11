@@ -13,8 +13,11 @@ from datetime import datetime
 from pathlib import Path
 
 from llmwiki.config import ConfigError, WikiPaths, load_backend_config
+from llmwiki.pdf import PdfError
+from llmwiki.pdf.pipeline import ExtractionResult, ensure_extracted
+from llmwiki.pdf.vision import AppleVisionRecognizer
 from llmwiki.runtime.backend import start_backend
-from llmwiki.runtime.session import OperationResult, Session
+from llmwiki.runtime.session import ExtractFn, OperationResult, Session
 from llmwiki.store import WikiStore
 
 
@@ -33,12 +36,31 @@ def _build_parser() -> argparse.ArgumentParser:
 
     ingest = sub.add_parser("ingest", help="Integrate one raw source into the wiki.")
     ingest.add_argument("source", help="Source path relative to raw/, e.g. article.md")
+    ingest.add_argument(
+        "--reextract",
+        action="store_true",
+        help="PDF only: discard the cached extraction/manifest and start over "
+        "(default resumes a partial ingest).",
+    )
 
     query = sub.add_parser("query", help="Answer a question from the wiki.")
     query.add_argument("question", help="The question to answer.")
 
     sub.add_parser("lint", help="Health-check the wiki.")
     return parser
+
+
+def _pdf_extractor(paths: WikiPaths) -> ExtractFn:
+    def extract(pdf_path: Path, source_rel: str, reextract: bool) -> ExtractionResult:
+        return ensure_extracted(
+            pdf_path,
+            source_rel,
+            cache_root=paths.cache_dir,
+            recognizer=AppleVisionRecognizer(),
+            reextract=reextract,
+        )
+
+    return extract
 
 
 async def _run(args: argparse.Namespace) -> OperationResult:
@@ -56,9 +78,11 @@ async def _run(args: argparse.Namespace) -> OperationResult:
             today=now.date().isoformat(),
             runs_dir=paths.runs_dir,
             run_id=now.strftime("%Y-%m-%d-%H%M%S"),
+            extract_pdf=_pdf_extractor(paths),
+            on_chunk_note=lambda note: print(note, flush=True),
         )
         if args.op == "ingest":
-            return await session.ingest(args.source)
+            return await session.ingest(args.source, reextract=args.reextract)
         if args.op == "query":
             return await session.query(args.question)
         return await session.lint()
@@ -70,7 +94,7 @@ def main() -> None:
     args = _build_parser().parse_args()
     try:
         result = asyncio.run(_run(args))
-    except ConfigError as exc:
+    except (ConfigError, PdfError) as exc:
         print(f"error: {exc}", file=sys.stderr)
         raise SystemExit(2) from exc
     print(result.output)
