@@ -186,6 +186,10 @@ teammate tone. Mirror the user's style.
 
 ## Shell and Tools
 
+- Run all project commands from the repo root via uv — never call `.venv/bin/...` directly or modify PATH inline:
+  - `uv run llmwiki ingest <file>` — ingest a source into the wiki
+  - `uv run llmwiki query "<question>"`
+  - `uv run llmwiki lint`
 - **No `&&`**: Run shell commands as separate tool calls (parallel when
   independent, sequential when dependent).
 - **Use `jq`, not Python, for JSON**: Use `jq` directly, or `--jq` flags on

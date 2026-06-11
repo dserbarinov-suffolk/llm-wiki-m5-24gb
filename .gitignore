@@ -2,3 +2,11 @@
 *.swp
 llama.cpp/
 forge/
+.venv/
+harness/runs/
+__pycache__/
+*.egg-info/
+.coverage
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
