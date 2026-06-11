@@ -51,9 +51,12 @@ security find-certificate -a -p /System/Library/Keychains/SystemRootCertificates
 security find-certificate -a -c netskope -p >> ~/.local/etc/corp-ca.pem
 security find-certificate -a -c goskope  -p >> ~/.local/etc/corp-ca.pem
 
-printf '\nexport NODE_EXTRA_CA_CERTS="$HOME/.local/etc/corp-ca.pem"\nexport UV_NATIVE_TLS=true\n' >> ~/.bash_profile
+printf '\nexport NODE_EXTRA_CA_CERTS="$HOME/.local/etc/corp-ca.pem"\nexport UV_SYSTEM_CERTS=true\n' >> ~/.bash_profile
 source ~/.bash_profile
 ```
+
+(`UV_SYSTEM_CERTS` replaces the deprecated `UV_NATIVE_TLS`; on uv < 0.12 use
+the old name.)
 
 > **Gotcha:** the proxy CA may live in a different keychain than expected.
 > If npm still fails after adding the System keychain, run the
@@ -109,7 +112,7 @@ no-root source is a `uv`-managed Python:
 
 ```bash
 curl -fLsS https://astral.sh/uv/install.sh | sh     # installs uv to ~/.local/bin
-uv python install 3.12                              # add --native-tls behind an intercepting proxy
+uv python install 3.12      # Step 0's UV_SYSTEM_CERTS covers proxy TLS here
 # Find the install path (substitute the exact version below):
 ls ~/.local/share/uv/python/
 P=~/.local/share/uv/python/cpython-3.12.13-macos-aarch64-none

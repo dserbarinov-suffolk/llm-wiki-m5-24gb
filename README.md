@@ -90,6 +90,7 @@ chronologically.
 |---|---|---|
 | The pattern itself | `docs/llm-wiki.md` | Alignment document (Karpathy's LLM Wiki idea). The north star every task is checked against. |
 | Local LLM-Wiki system | `docs/2026-06-10-local-llm-wiki-design.md` | The system design: three layers, three operations, forge harness, determinism boundary, data model. |
+| PDF ingestion | `docs/2026-06-11-pdf-ingestion-design.md` | Book-scale PDF ingest: PyMuPDF extraction, text-vs-scanned detection (OCR path), TOC-aware semantic chunking, bounded map/integrate runs. Test fixture: `raw/javascriptallonge.pdf`. |
 | Wiki conventions (live) | `SCHEMA.md` (repo root) | The pattern's "schema" layer — page categories, link/citation rules, per-operation workflows. Fed to the model verbatim; revised as usage teaches us. |
 | Dev environment | `docs/vim-tmux-unified-lsp-setup.md` | Replication guide for the no-root vim/tmux/LSP setup used to work on this repo. |
 
@@ -127,7 +128,7 @@ mode we hit.
 - **Persistent server mode** — keep llama-server warm across operations
   (forge's `SlotWorker` is the natural fit) to remove the per-run model load.
 - **Chunked ingest** — map-then-integrate flow for sources beyond the read
-  budget; the open question recorded in the design doc.
+  budget; designed (see the PDF ingestion design doc), not yet implemented.
 - **Real search** — swap the naive scorer for qmd (local hybrid BM25/vector
   with CLI + MCP) once the index outgrows flat scanning.
 - **Batch ingest** — lower-supervision mode for backfilling many sources,
