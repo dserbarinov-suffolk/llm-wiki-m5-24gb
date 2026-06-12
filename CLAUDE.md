@@ -87,30 +87,10 @@ workflows on self-hosted models; supports llama-server as a backend.
 
 ## Design Documents
 
-Place them in /docs
-There are high-level documents, so do not include code or pseudocode. 
-Use ASCII diagrams with at most 8 boxes - if you have to use more than 8, you are including too much detail. Rethink.
-
-**Structure (use these sections, in order):**
-1. **Context & Problem** — 2–4 sentences on what exists today and what's broken or missing.
-2. **Goals** — bulleted, measurable where possible.
-3. **Non-Goals** — explicit list of what this design will *not* address.
-4. **Requirements** — the constraints driving the design.
-5. **Proposed Architecture** — prose description supported by a C4 Container-level diagram (plain ASCII). Identify each component's responsibility in one sentence.
-6. **Key Interactions** — one or more sequence diagrams (plain ASCII) for the critical flows. Pick the 2–4 flows that exercise the most architectural surface.
-7. **Data Model** — entities, relationships, key access patterns. Schema sketches are fine; full DDL is not.
-8. **APIs / Interfaces** — endpoint names, methods, and purpose. No request/response payload schemas unless they're load-bearing for the design.
-9. **Cross-Cutting Concerns** — auth, observability, error handling, etc. One short paragraph each, only where relevant.
-10. **Alternatives Considered** — bulleted list, one line each, with the chosen option and a half-sentence on why.
-11. **Open Questions / Risks** — what's still unresolved.
-
-**Style constraints:**
-- No pseudocode. No implementation snippets. No function signatures.
-- State technology choices as decisions, not arguments. "Uses DynamoDB" — not three paragraphs comparing it to Postgres. If a choice needs justification, write a one-line ADR pointer instead.
-- Diagrams are Mermaid only.
-- Target length: [N] pages. If a section would exceed half a page, ask whether to split it into a separate doc or ADR rather than expanding inline.
-- Write for an engineer who already knows the stack. Don't explain what GitHub Actions or DynamoDB is.
-- Prefer prose over bullets for design rationale; prefer bullets for enumerable lists (goals, non-goals, alternatives).
+Place them in /docs, with a date and meaningful title
+(`YYYY-MM-DD-<name>.md`). Before writing ANY design document or TDD, read
+`docs/writing-tdds.md` in full and follow it exactly — it defines the
+sizing gate, the required section structure, and the style constraints.
 
 ## Code Implementation
 
