@@ -1,7 +1,7 @@
 ---
 category: synthesis
-summary: Wiki health report from the 2026-06-10 lint pass.
-updated: 2026-06-10
+summary: Wiki health report from the latest lint pass (2026-06-12).
+updated: 2026-06-12
 ---
 
-Orphan pages resolved: archimedes (linked from syracuse), corinth (linked from antikythera-mechanism), saros-cycle (linked from antikythera-mechanism), syracuse (linked from archimedes). No contradictions or index drift found. Next steps: verify all links are functional and consider creating pages for frequently mentioned concepts without existing pages.
+Fixed one orphan page by linking [[javascriptallonge-composing-and-decomposing-data]] from the *JavaScript Allongé* hub page. Remaining orphans likely require similar treatment (e.g., adding links from relevant source hubs or concept pages). Next steps: prioritize fixing orphans related to major sources like *JavaScript Allongé* and verify index consistency for other chapters.

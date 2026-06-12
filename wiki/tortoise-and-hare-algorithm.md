@@ -2,7 +2,7 @@
 category: concept
 summary: Algorithm to detect loops in linked lists using two pointers (tortoise and hare). See (raw/javascriptallonge.pdf p.158-176) for implementation details.
 sources: raw/javascriptallonge.pdf, raw/javascriptallonge.pdf p.158-176
-updated: 2026-06-11
+updated: 2026-06-12
 ---
 
 ## Tortoise and Hare Algorithm

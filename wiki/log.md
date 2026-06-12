@@ -17,3 +17,12 @@ Orphan pages resolved: archimedes (linked from syracuse), corinth (linked from a
 
 ## [2026-06-11] query | Who studied the Antikythera mechanism, and how?
 The Antikythera mechanism has been studied by various scholars and researchers over the years. Derek de Solla Price conducted the first detailed scientific study in 1974, using X-ray imaging to count gear teeth. The Antikythera Mechanism Research Project, beginning in 2005, used microfocus X-ray computed tomography to read inscriptions hidden inside the corroded fragments, effectively creating a user's manual for the device. The mechanism's complexity has led some to suggest a possible link to the school of Archimedes in Syracuse, though no direct evidence has been found to confirm this connection. [[antikythera-mechanism]]
+
+## [2026-06-12] ingest | javascriptallonge.pdf
+Created hub source page 'javascriptallonge' linking all 20 chapter-specific source pages from the book. Updated cross-links between functional-programming, closure, and iterable concepts. No contradictions detected across chunks. Final structure includes 20 source pages, 15 entity pages, and 30+ concept pages with interwiki links.
+
+## [2026-06-12] lint | wiki health
+Fixed orphan status for [[const]], [[eager-evaluation]], and [[lazy-evaluation]] by linking them from relevant *JavaScript Allongé* source pages. Remaining orphans like [[call-by-value]], [[functional-data-structures]], and [[quasi-literals]] require similar cross-references. Next steps: audit other *JavaScript Allongé* chapters for missed links and update concept pages like [[functional-programming]] to reference related orphans.
+
+## [2026-06-12] lint | wiki health
+Fixed one orphan page by linking [[javascriptallonge-composing-and-decomposing-data]] from the *JavaScript Allongé* hub page. Remaining orphans likely require similar treatment (e.g., adding links from relevant source hubs or concept pages). Next steps: prioritize fixing orphans related to major sources like *JavaScript Allongé* and verify index consistency for other chapters.

@@ -15,7 +15,7 @@ from pydantic import BaseModel, Field
 
 from llmwiki.domain.pages import WikiPage
 from llmwiki.domain.search import render_hits, search_pages
-from llmwiki.store import WikiStore
+from llmwiki.store import WikiStore, WikiStoreError
 
 
 class ReadSourceParams(BaseModel):
@@ -85,10 +85,13 @@ def search_wiki_tool(store: WikiStore) -> ToolDef:
     )
 
 
-def read_page_tool(store: WikiStore) -> ToolDef:
+def read_page_tool(store: WikiStore, read_tracker: set[str] | None = None) -> ToolDef:
     def _read_page(**kwargs: object) -> str:
         params = ReadPageParams(**kwargs)  # type: ignore[arg-type]
-        return store.read_page(params.name)
+        text = store.read_page(params.name)
+        if read_tracker is not None:
+            read_tracker.add(params.name)
+        return text
 
     return ToolDef(
         spec=ToolSpec(
@@ -104,9 +107,28 @@ def write_page_tool(
     store: WikiStore,
     today: str,
     prerequisites: list[str | dict[str, str]] | None = None,
+    read_tracker: set[str] | None = None,
 ) -> ToolDef:
+    """write_page, optionally guarded by a read-before-rewrite contract.
+
+    When *read_tracker* is shared with read_page_tool, rewriting an existing
+    page that wasn't read this run raises — write_page replaces the whole
+    page, and a 14B reliably "reconstructs" content it never saw (observed
+    live twice; docs/open-questions.md #10). New pages are unaffected.
+    """
+
     def _write_page(**kwargs: object) -> str:
         params = WritePageParams(**kwargs)  # type: ignore[arg-type]
+        if (
+            read_tracker is not None
+            and params.name not in read_tracker
+            and params.name in store.list_pages()
+        ):
+            raise WikiStoreError(
+                f"Page '{params.name}' already exists and write_page replaces "
+                f"it entirely. Call read_page(name='{params.name}') first, "
+                "then rewrite it carrying forward the content you keep."
+            )
         page = WikiPage(
             name=params.name,
             category=params.category,
@@ -121,8 +143,9 @@ def write_page_tool(
     return ToolDef(
         spec=ToolSpec(
             name="write_page",
-            description="Create or update one wiki page; the index entry is "
-            "maintained automatically.",
+            description="Create a new wiki page, or update one you have "
+            "already read this run (write replaces the whole page); the "
+            "index entry is maintained automatically.",
             parameters=WritePageParams,
         ),
         callable=_write_page,

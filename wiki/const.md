@@ -2,7 +2,7 @@
 category: concept
 summary: JavaScript's block-scoped variable declaration that prevents reassignment but allows shadowing in nested blocks.
 sources: raw/javascriptallonge.pdf p.49-61
-updated: 2026-06-11
+updated: 2026-06-12
 ---
 
 The `const` keyword in JavaScript binds values to names within the lexical scope of a block. Unlike function parameters, `const` variables cannot be rebound (reassigned) after initialization, but they can shadow outer bindings in nested blocks. This provides clearer scoping rules compared to function-based IIFEs.

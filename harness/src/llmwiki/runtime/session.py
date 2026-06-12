@@ -28,7 +28,7 @@ from llmwiki.workflows import (
 )
 from llmwiki.workflows.pdf_ingest import build_integrate_workflow, build_map_workflow
 
-_MAX_ITERATIONS = {"ingest": 24, "query": 12, "lint": 16, "pdf-chunk": 24, "pdf-integrate": 20}
+_MAX_ITERATIONS = {"ingest": 24, "query": 12, "lint": 24, "pdf-chunk": 24, "pdf-integrate": 20}
 
 # (pdf_path, source_rel, reextract) -> ExtractionResult; injectable for tests.
 ExtractFn = Callable[[Path, str, bool], ExtractionResult]

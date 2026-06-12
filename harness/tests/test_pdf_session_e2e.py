@@ -3,7 +3,6 @@ fake extractor. Covers the map loop, resume semantics, digest hand-off,
 and the single log entry on completion.
 """
 
-
 from fakes import FakeClient
 from forge.context import ContextManager, NoCompact
 from forge.core.workflow import ToolCall

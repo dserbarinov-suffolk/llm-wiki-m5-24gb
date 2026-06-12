@@ -1,15 +1,8 @@
 ---
 category: concept
-summary: Functional data structures use closures and higher-order functions to represent lists, pairs, and other structures without arrays/objects. Key example: using combinator V to create data.
+summary: Immutable data structures that persist previous states upon modification.
 sources: raw/javascriptallonge.pdf
-updated: 2026-06-11
+updated: 2026-06-12
 ---
 
-Functional data structures are implemented using closures and higher-order functions rather than traditional arrays or objects. In *JavaScript Allonge*, this is demonstrated through combinators like V (Vireo) to create linked lists and pairs:
-
-```javascript
-const pair = V;
-const list = pair(1)(pair(2)(pair(3)(EMPTY)));
-```
-
-This approach hides implementation details from consumers, allowing data structures to self-manage operations like `length` or `map`. See [[javascriptallonge-making-data-out-of-functions]] for implementation details and comparisons to object-based approaches.
+In functional programming, **functional data structures** are immutable and persistent, meaning they do not change state upon modification but instead return a new instance with the updated value. This approach avoids side effects and is discussed in *JavaScript Allongé* (raw/javascriptallonge.pdf p.257-272).

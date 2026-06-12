@@ -1,10 +1,14 @@
 ---
 category: entity
-summary: Author of JavaScript Allongé and other programming books.
+summary: Reginald Braithwaite, software developer and author of *JavaScript Allonge*, known for functional programming and JavaScript.
 sources: raw/javascriptallonge.pdf
-updated: 2026-06-11
+updated: 2026-06-12
 ---
 
-Reg "raganwald" Braithwaite is a software developer and author known for his work in functional programming and JavaScript. He wrote *JavaScript Allongé*, a book focusing on programming with functions, and other titles like *Kestrels, Quirky Birds, and Hopeless Egocentricity*. His writing often explores programming paradigms, language design, and practical software development techniques.
+Reginald Braithwaite ("Raganwald") is a software developer and author known for his work in functional programming and JavaScript. He wrote *JavaScript Allonge*, a book exploring JavaScript concepts with a pedagogical approach. Key details:
 
-Citations: (raw/javascriptallonge.pdf p.1-13)
+- **Contact**: [Twitter](https://twitter.com/raganwald), email [reg@braythwayt.com](mailto:reg@braythwayt.com)
+- **Websites**: [Raganwald](http://raganwald), [Braythwayt Dot Com](http://braythwayt.com)
+- **Other works**: Libraries for JavaScript, CoffeeScript, and Ruby (e.g., Allong.es, Method Combinators)
+
+See [[javascriptallonge-copyright-notice]] for copyright and image credits in *JavaScript Allonge*.

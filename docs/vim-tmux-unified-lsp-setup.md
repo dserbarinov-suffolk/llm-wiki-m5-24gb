@@ -10,6 +10,59 @@ installs to user space — no `sudo` anywhere.
 Each step lists exact commands. Issues encountered on the original setup are
 called out inline as **Gotcha** blocks so you recognize them when they bite.
 
+## Demo
+
+This feels natural to me - and you?
+
+- Feel the hover - rest the cursor on a variable - types appear without any keypress.
+  Too chatty? ,h toggles it; K always shows hover on demand.
+- Chase a call chain - rest the cursor on a function -> gd -> you're in the function definition -> C-o to walk back.
+- Blast-radius check - rest the cursor on a variable, gr -> location list shows up; j/Enter to hop through.
+- Unified Vim/Tmux part - in a new tmux session, vim somefile.py -> C-b c to open a new tmux window -> vim somefile.tsx
+  You now have 1 separate languages supportes - toggle between the tmux panes wth C-b 1/C-b 2 to switch between them.
+  Using the file written in a language that you haven't used earlier:
+  - hover over a variable for a type definition
+  - gd to go to it's definition
+  - gr on a variable, ,rn to rename it and watch it change
+  - make a syntax error to trigger live diagnostics; ]d to jump to it, ,d to list
+
+## Quick Reference
+
+### Controlling folds day-to-day (your space is mapped to za):
+
+- space / za — toggle the fold under the cursor; zo open, zc close (capital zO/zC for all nesting levels under cursor)
+- zR — open every fold in the file; zM — close every fold (these two are the "reset" buttons)
+- zr / zm — open/close folds one nesting level at a time, file-wide
+- zj / zk — jump to next/previous fold
+- zi — kill switch: toggles foldenable, instantly flattening the file (and restoring fold state when toggled back)
+
+### Tmux pane width control:
+
+- Drag the pane border with the mouse — mouse on is set.
+- C-b H / C-b L — repeatable 5-column resize left/right (also J/K for horizontal splits). Defined in ~/.tmux.conf.
+- C-b : resize-pane -x <N|N%> — exact width for the current pane.
+- Default for new sessions — the -l '45%' in ~/.local/bin/wiki-dev (lines 13 and 17); the percentage applies to the terminal pane since it's the newly created one.
+
+In tmux, "tabs" are called windows and splits are panes. With your config (C-b prefix):
+
+Windows (tabs)
+
+- C-b c — new window (your config opens it in the current directory)
+- C-b , — rename the current window (type the name, Enter) — this is what puts a label like python or react in the status bar
+- Or scriptably: tmux rename-window mywiki, and tmux new-window -n logs creates one pre-named
+- Switching: C-b 1, C-b 2, … (your windows start at 1), C-b n/C-b p for next/previous, C-b w for an interactive picker, or just click the name in the status bar (mouse is on)
+
+Panes (splits)
+
+- C-b | — split side-by-side (vertical divider)
+- C-b - — split stacked (horizontal divider)
+- Both are custom bindings in your ~/.tmux.conf and keep the current pane's directory. The stock bindings C-b % and C-b " still work too.
+- Move between panes with plain C-h/C-j/C-k/C-l — no prefix, same keys as vim splits
+- C-b z — zoom: temporarily fullscreen one pane (press again to restore); great for reading long llmwiki output
+- C-b x — kill the pane (or just exit the shell); C-b H/J/K/L — resize
+
+Panes themselves don't take names (only windows do) — the usual pattern is one named window per concern, panes within it for editor + terminal.
+
 ## Preconditions
 
 - macOS on Apple Silicon (arm64). Intel works too — substitute `x86_64`/`x64`

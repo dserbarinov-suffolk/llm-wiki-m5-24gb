@@ -34,6 +34,8 @@ The index and log formats below are also enforced in harness code
   both sources.
 - Frontmatter (category, summary, sources, updated date) is composed by the
   harness from `write_page` arguments — do not write it in page content.
+- `write_page` replaces the entire page. When updating an existing page,
+  `read_page` it first and carry forward the content you are not changing.
 
 ## index.md
 

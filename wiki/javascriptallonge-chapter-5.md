@@ -2,7 +2,7 @@
 category: source
 summary: Explains JavaScript's const keyword, lexical scoping, and function binding patterns like IIFEs.
 sources: raw/javascriptallonge.pdf p.49-61
-updated: 2026-06-11
+updated: 2026-06-12
 ---
 
 ## That Constant Coffee Craving
@@ -21,3 +21,5 @@ Example: Binding π to a name:
 ```
 
 The chapter demonstrates that `const` provides cleaner syntax than IIFEs for binding values while maintaining lexical scoping rules. It also explains how `const` variables shadow outer bindings in nested blocks but do not overwrite them.
+
+See [[const]] for const semantics and [[lexical-scoping]] for scoping rules.

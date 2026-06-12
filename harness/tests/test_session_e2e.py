@@ -149,6 +149,50 @@ class TestIngest:
         assert result.output == "ok"
         assert store.list_pages() == ["moon"]
 
+    async def test_rewrite_without_read_is_blocked_then_recovers(
+        self, store: WikiStore, paths: WikiPaths, source: str
+    ) -> None:
+        # write_page replaces the whole page; rewriting one the model never
+        # read this run must fail with a corrective error (open question #10),
+        # and succeed after read_page.
+        store.write_page(
+            WikiPage(
+                name="moon",
+                category="source",
+                summary="Original.",
+                body="Original rich body with [[links]].",
+                updated=TODAY,
+            )
+        )
+        script = [
+            [ToolCall(tool="read_source", args={"path": "moon.md"})],
+            [
+                ToolCall(  # blind rewrite — must be rejected
+                    tool="write_page",
+                    args={"name": "moon", "category": "source", "summary": "thin", "content": "x"},
+                )
+            ],
+            [ToolCall(tool="read_page", args={"name": "moon"})],
+            [
+                ToolCall(
+                    tool="write_page",
+                    args={
+                        "name": "moon",
+                        "category": "source",
+                        "summary": "Updated.",
+                        "content": "Original rich body with [[links]]. Plus new facts.",
+                    },
+                )
+            ],
+            [ToolCall(tool="finish_ingest", args={"report": "updated moon"})],
+        ]
+        result = await _session(store, script, paths).ingest(source)
+        assert result.output == "updated moon"
+        body = store.read_page("moon")
+        assert "Plus new facts" in body
+        # The blind rewrite never landed:
+        assert "thin" not in store.read_index()
+
     async def test_bare_text_after_work_nudged_to_terminal_tool(
         self, store: WikiStore, paths: WikiPaths, source: str
     ) -> None:

@@ -24,11 +24,12 @@ from llmwiki.workflows.tools import (
 
 
 def build_ingest_workflow(store: WikiStore, today: str) -> Workflow:
+    seen: set[str] = set()  # read-before-rewrite contract, per run
     tools = [
         read_source_tool(store),
         search_wiki_tool(store),
-        read_page_tool(store),
-        write_page_tool(store, today, prerequisites=["read_source"]),
+        read_page_tool(store, read_tracker=seen),
+        write_page_tool(store, today, prerequisites=["read_source"], read_tracker=seen),
         finish_tool(
             "finish_ingest",
             "Finish the ingest after the wiki fully reflects the source. "
@@ -46,10 +47,11 @@ def build_ingest_workflow(store: WikiStore, today: str) -> Workflow:
 
 
 def build_query_workflow(store: WikiStore, today: str) -> Workflow:
+    seen: set[str] = set()
     tools = [
         search_wiki_tool(store),
-        read_page_tool(store),
-        write_page_tool(store, today),
+        read_page_tool(store, read_tracker=seen),
+        write_page_tool(store, today, read_tracker=seen),
         respond_tool(),
     ]
     return Workflow(
@@ -63,10 +65,11 @@ def build_query_workflow(store: WikiStore, today: str) -> Workflow:
 
 
 def build_lint_workflow(store: WikiStore, today: str) -> Workflow:
+    seen: set[str] = set()
     tools = [
         search_wiki_tool(store),
-        read_page_tool(store),
-        write_page_tool(store, today),
+        read_page_tool(store, read_tracker=seen),
+        write_page_tool(store, today, read_tracker=seen),
         finish_tool(
             "finish_lint",
             "Finish the lint pass with a concise wiki health report: issues "

@@ -1,7 +1,7 @@
 {
   "source": "javascriptallonge.pdf",
   "sha256": "c98ab3e62b35ab0f89395f12c9581867baf50731cb1f45110b43e55c6f66cd72",
-  "integrated": false,
+  "integrated": true,
   "chunks": [
     {
       "id": 1,
@@ -165,8 +165,8 @@
         223
       ],
       "tokens": 5213,
-      "status": "pending",
-      "notes": ""
+      "status": "done",
+      "notes": "Key claims: Introduced iterators (functional/object-based), iterables via Symbol.iterator, and ordered collections with operations like mapWith. Pages written: [[javascriptallonge-iteration-and-iterables]] (source), [[functional-iterators]], [[iterable]], [[ordered-collection]]."
     },
     {
       "id": 16,
@@ -176,8 +176,8 @@
         245
       ],
       "tokens": 5687,
-      "status": "pending",
-      "notes": ""
+      "status": "done",
+      "notes": "Ingested chapter on JavaScript generators (pages 224-245). Key claims: Generators simplify iterators via implicit state management, enable coroutines, and streamline iterable creation. Pages written/updated: [[javascriptallonge-generating-iterables]] (source), [[generator]] (entity), [[coroutine]] (concept), and [[iterable]] (concept)."
     },
     {
       "id": 17,
@@ -187,8 +187,8 @@
         260
       ],
       "tokens": 3722,
-      "status": "pending",
-      "notes": ""
+      "status": "done",
+      "notes": "Created source page [[javascriptallonge-lazy-eager-collections]] and concept pages [[lazy-evaluation]] and [[eager-evaluation]]. Updated [[javascriptallonge-iteration-and-iterables]] to link to lazy/eager collections. Key claims: lazy collections use iterators for memory efficiency, eager collections process data immediately with copy-on-read. Entities touched: Pair, Stack, Numbers, LazyCollection, EagerCollection."
     },
     {
       "id": 18,
@@ -198,8 +198,8 @@
         272
       ],
       "tokens": 3530,
-      "status": "pending",
-      "notes": ""
+      "status": "done",
+      "notes": "Wrote source page for 'javascriptallonge-interlude-the-carpenter-interviews-for-a-job' and concept pages for 'floyd-s-cycle-finding-algorithm' and 'stateful-map'. Updated 'iterable' and 'lazy-evaluation' concepts with details from the chapter. Key claims: Using iterables and stateful mapping to detect cycles via Floyd's algorithm. Entities touched: The Carpenter, Christine, Bob Plissken. Pages written: 3."
     },
     {
       "id": 19,
@@ -209,8 +209,8 @@
         292
       ],
       "tokens": 4643,
-      "status": "pending",
-      "notes": ""
+      "status": "done",
+      "notes": "Key claims: Interactive generators enable stateful functions (e.g., Naughts and Crosses game), contrasting stateless lookups with stateful control flow. Iterable operations (mapWith, zip, memoize) are detailed. Entities: generators, stateful functions, iterables. Pages written: javascriptallonge-interactive-generators (source), updated javascriptallonge-generating-iterables and javascriptallonge-iteration-and-iterables."
     },
     {
       "id": 20,
@@ -220,8 +220,8 @@
         297
       ],
       "tokens": 3102,
-      "status": "pending",
-      "notes": ""
+      "status": "done",
+      "notes": "Wrote source page [[javascriptallonge-copyright-notice]] summarizing copyright details, authorship, and image licenses from pages 293-297. Updated entity page [[reg-raganwald-braithwaite]] with author's contact information and websites. No further pages needed; chunk fully integrated."
     }
   ]
 }
