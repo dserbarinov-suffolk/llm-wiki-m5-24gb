@@ -110,12 +110,16 @@ calls, and forge's transient-message pollution problem never arises.
 - **Window builder (pure domain)** — given stored turns and a token
   budget, returns the most recent Q/A pairs that fit (~6K tokens),
   newest-first selection, chronological order in the seed.
-- **Chat workflow (read-only)** — tools `search_wiki`, `read_page`,
-  terminal `respond`. Turn 0 of a session requires `search_wiki`
-  (grounding: the first answer must come from the wiki); follow-up turns
-  relax it so conversational turns ("shorter, please") aren't forced
-  through a pointless search. The orchestrator picks the variant — a
-  deterministic decision, not the model's.
+- **Chat workflow (read-only)** — tools `search_wiki`, `read_index`,
+  `read_page`, terminal `respond`; no required steps. Grounding is
+  **provisioned, not enforced**: the orchestrator prepends the wiki index
+  to a conversation's first message, so the opening answer starts from
+  the catalog and drills into pages (the pattern doc's index-first
+  navigation, implemented in code). REVISED during implementation: the
+  original required-`search_wiki` guardrail was removed on live evidence
+  — it interrupted a correct index-first flow ("what is this wiki
+  about?"), forced a junk search, and the model answered from the junk;
+  for a 14B, the last evidence in context wins.
 - **forge Runner** — unchanged guardrail stack; multi-turn via the
   documented `initial_messages` seeding (system prompt + windowed pairs +
   new question).

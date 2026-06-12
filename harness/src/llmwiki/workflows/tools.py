@@ -34,6 +34,10 @@ class SearchWikiParams(BaseModel):
     query: str = Field(description="Search terms to match against wiki page names and content.")
 
 
+class ReadIndexParams(BaseModel):
+    """No parameters — the index is one document."""
+
+
 class ReadPageParams(BaseModel):
     name: str = Field(description="Wiki page name (kebab-case slug), e.g. 'bronze-age-collapse'.")
 
@@ -90,6 +94,26 @@ def search_wiki_tool(store: WikiStore) -> ToolDef:
             parameters=SearchWikiParams,
         ),
         callable=_search_wiki,
+    )
+
+
+def read_index_tool(store: WikiStore) -> ToolDef:
+    """Index-first navigation (pattern doc): the catalog answers questions
+    about the wiki itself and its coverage that content search cannot."""
+
+    def _read_index(**kwargs: object) -> str:
+        ReadIndexParams(**kwargs)
+        return store.read_index()
+
+    return ToolDef(
+        spec=ToolSpec(
+            name="read_index",
+            description="Read the wiki's index: the catalog of every page "
+            "with a one-line summary, grouped by category. Use this for "
+            "questions about the wiki itself or what it covers.",
+            parameters=ReadIndexParams,
+        ),
+        callable=_read_index,
     )
 
 

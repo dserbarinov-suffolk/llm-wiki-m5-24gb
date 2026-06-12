@@ -57,6 +57,20 @@ Index-first navigation: search, read pages, answer with `[[page]]` and
 `(raw/...)` citations. Answers worth keeping (comparisons, new syntheses)
 are filed back into the wiki as `synthesis` pages before responding.
 
+**Chat** — converse with the wiki, model loaded once for the whole session:
+
+```bash
+uv run llmwiki chat            # new conversation
+uv run llmwiki chat --resume   # continue the most recent one
+```
+
+Follow-up questions work; `/new`, `/sessions`, and `/switch <id>` manage
+multiple conversations; `/ingest` and `/lint` run inside chat on the warm
+server; `/exit`, Ctrl-C, or Ctrl-D leave gracefully. Phase 1 is read-only —
+answers cite the wiki but nothing is written back (filing is Phase 2).
+History lives in `harness/chat.db` (verbatim, gitignored); conversations are
+a throwaway playground, not a knowledge store.
+
 **Lint** — periodic health check:
 
 ```bash
@@ -92,7 +106,7 @@ chronologically.
 | Local LLM-Wiki system | `docs/2026-06-10-local-llm-wiki-design.md` | The system design: three layers, three operations, forge harness, determinism boundary, data model. |
 | PDF ingestion | `docs/2026-06-11-pdf-ingestion-design.md` | Book-scale PDF ingest: PyMuPDF extraction, text-vs-scanned detection (OCR path), TOC-aware semantic chunking, bounded map/integrate runs. Test fixture: `raw/javascriptallonge.pdf`. |
 | Deterministic salience | `docs/2026-06-12-deterministic-salience-design.md` | Code-computed importance (wiki inbound links + per-ingest write counts) fed to synthesis runs so the model never ranks from memory. Implemented; `--reintegrate` rebuilds a hub with current salience. |
-| Persistent chat | `docs/2026-06-12-persistent-chat-design.md` | `llmwiki chat`: warm-model REPL with follow-ups; SQLite session store, deterministic Q/A windowing (no model-curated memory). Phase 1 read-only. Status: design under review. |
+| Persistent chat | `docs/2026-06-12-persistent-chat-design.md` | `llmwiki chat`: warm-model REPL with follow-ups; SQLite session store, deterministic Q/A windowing (no model-curated memory). Phase 1 (read-only) implemented; Phase 2 (filing answers) designed. |
 | Wiki conventions (live) | `SCHEMA.md` (repo root) | The pattern's "schema" layer — page categories, link/citation rules, per-operation workflows. Fed to the model verbatim; revised as usage teaches us. |
 | Dev environment | `docs/vim-tmux-unified-lsp-setup.md` | Replication guide for the no-root vim/tmux/LSP setup used to work on this repo. |
 
@@ -112,9 +126,10 @@ mode we hit.
 - **Source size is capped.** `read_source` truncates beyond ~24K characters
   with an explicit marker; a long PDF-dump won't be fully ingested. Chunked
   ingest is designed but not built.
-- **Server lifecycle is per-run.** Every CLI invocation loads the 8.4 GB
-  model (~20–30 s) and unloads it after. Fine for occasional ops, wasteful
-  for a burst of queries.
+- **One-shot commands load the model per run** (~20–30 s for 8.4 GB).
+  `llmwiki chat` covers the burst case — one boot per session, prompt cache
+  reused across turns — so this now only costs occasional standalone
+  `query`/`lint` invocations.
 - **Search is naive.** Term-frequency scoring over page text plus the index —
   no embeddings, no BM25. Right answer at ~tens of pages; will degrade as
   the wiki grows (the design names qmd as the upgrade path).
@@ -130,8 +145,9 @@ mode we hit.
 
 ## Future improvements
 
-- **Persistent server mode** — keep llama-server warm across operations
-  (forge's `SlotWorker` is the natural fit) to remove the per-run model load.
+- **Chat Phase 2** — filing answers back into the wiki mid-conversation
+  (`write_page` returns to the chat workflow, per the pattern doc's "good
+  answers can be filed back" guidance).
 - **Chunked ingest** — map-then-integrate flow for sources beyond the read
   budget; designed (see the PDF ingestion design doc), not yet implemented.
 - **Real search** — swap the naive scorer for qmd (local hybrid BM25/vector

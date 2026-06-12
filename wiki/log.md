@@ -35,3 +35,18 @@ Created hub source page 'javascriptallonge' linking all 20 chapter/topic pages f
 
 ## [2026-06-12] ingest | javascriptallonge.pdf
 Created/updated hub source page [[javascriptallonge]] to link all 20 chapter/topic pages from the ingested chunks. Ensured cross-links between key concepts (e.g., [[function]], [[arrays]], [[const]], [[iterable]]), entities (e.g., [[javascript]], [[generator]], [[reg-raganwald-braithwaite]]), and chapter-specific source pages. No contradictions flagged; all pages integrated per salience report.
+
+## [2026-06-12] chat | 1 turns across 1 conversation
+Conversations: 20260612-130423. History in harness/chat.db; transcripts per turn in harness/runs/.
+
+## [2026-06-12] chat | 1 turns across 1 conversation
+Conversations: 20260612-130423. History in harness/chat.db; transcripts per turn in harness/runs/.
+
+## [2026-06-12] chat | 1 turns across 1 conversation
+Conversations: 20260612-131613. History in harness/chat.db; transcripts per turn in harness/runs/.
+
+## [2026-06-12] chat | 1 turns across 1 conversation
+Conversations: 20260612-132844. History in harness/chat.db; transcripts per turn in harness/runs/.
+
+## [2026-06-12] chat | 1 turns across 1 conversation
+Conversations: 20260612-133300. History in harness/chat.db; transcripts per turn in harness/runs/.

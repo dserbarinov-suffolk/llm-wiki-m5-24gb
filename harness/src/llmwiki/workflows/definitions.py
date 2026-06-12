@@ -16,6 +16,7 @@ from llmwiki.store import WikiStore
 from llmwiki.workflows import prompts
 from llmwiki.workflows.tools import (
     finish_tool,
+    read_index_tool,
     read_page_tool,
     read_source_tool,
     search_wiki_tool,
@@ -50,6 +51,7 @@ def build_query_workflow(store: WikiStore, today: str) -> Workflow:
     seen: set[str] = set()
     tools = [
         search_wiki_tool(store),
+        read_index_tool(store),
         read_page_tool(store, read_tracker=seen),
         write_page_tool(store, today, read_tracker=seen),
         respond_tool(),
@@ -61,6 +63,32 @@ def build_query_workflow(store: WikiStore, today: str) -> Workflow:
         required_steps=["search_wiki"],
         terminal_tool="respond",
         system_prompt_template=prompts.QUERY_TEMPLATE,
+    )
+
+
+def build_chat_workflow(store: WikiStore) -> Workflow:
+    """Read-only by construction: no write tool exists in this workflow.
+
+    Grounding is provisioned, not enforced: the orchestrator prepends the
+    wiki index to a conversation's first message (pattern doc: read the
+    index first, then drill into pages). A required-search step was tried
+    and removed — live, it interrupted a correct index-first flow, forced
+    a junk search, and the model answered from the junk (recency wins in
+    a 14B).
+    """
+    tools = [
+        search_wiki_tool(store),
+        read_index_tool(store),
+        read_page_tool(store),
+        respond_tool(),
+    ]
+    return Workflow(
+        name="chat",
+        description="Converse over the wiki (read-only).",
+        tools={t.name: t for t in tools},
+        required_steps=[],
+        terminal_tool="respond",
+        system_prompt_template=prompts.CHAT_TEMPLATE,
     )
 
 

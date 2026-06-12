@@ -8,14 +8,16 @@ client and no network.
 
 from __future__ import annotations
 
-from collections.abc import Callable
+from collections.abc import Callable, Sequence
 from dataclasses import dataclass, replace
 from pathlib import Path
 from typing import Any
 
 from forge.context import ContextManager
+from forge.core.messages import Message, MessageMeta, MessageRole, MessageType
 from forge.core.runner import WorkflowRunner
 
+from llmwiki.domain.chatwindow import QAPair
 from llmwiki.domain.links import compute_findings
 from llmwiki.domain.pages import WikiPage, parse_page, slugify
 from llmwiki.domain.salience import SalienceReport, compute_salience, reconcile_key_lists
@@ -29,13 +31,21 @@ from llmwiki.pdf.pipeline import (
 from llmwiki.runtime.transcript import TranscriptWriter
 from llmwiki.store import WikiStore
 from llmwiki.workflows import (
+    build_chat_workflow,
     build_ingest_workflow,
     build_lint_workflow,
     build_query_workflow,
 )
 from llmwiki.workflows.pdf_ingest import build_integrate_workflow, build_map_workflow
 
-_MAX_ITERATIONS = {"ingest": 24, "query": 12, "lint": 24, "pdf-chunk": 24, "pdf-integrate": 20}
+_MAX_ITERATIONS = {
+    "ingest": 24,
+    "query": 12,
+    "lint": 24,
+    "pdf-chunk": 24,
+    "pdf-integrate": 20,
+    "chat": 12,
+}
 
 # (pdf_path, source_rel, reextract) -> ExtractionResult; injectable for tests.
 ExtractFn = Callable[[Path, str, bool], ExtractionResult]
@@ -69,6 +79,7 @@ _RETRY_NUDGES = {
         "are in place, call finish_ingest with your report; otherwise call "
         "the next tool you need."
     ),
+    "chat": ("Reply with exactly one tool call. Use respond to deliver your answer to the user."),
 }
 
 
@@ -190,6 +201,37 @@ class Session:
         self.store.append_log(self.today, "query", question, answer)
         return OperationResult("query", question, answer, transcript)
 
+    async def chat_turn(
+        self, question: str, window: Sequence[QAPair], grounded: bool, tag: str
+    ) -> tuple[str, Path | None]:
+        """One read-only conversation turn, seeded with windowed Q/A pairs.
+
+        The seed carries question/answer text only — prior tool calls and
+        page contents are never replayed; evidence is re-fetched on demand.
+        *grounded* (a conversation's first turn) provisions the wiki index
+        with the question, so the opening answer starts from the catalog
+        and drills into pages — grounding by provisioning, not enforcement.
+        """
+        workflow = build_chat_workflow(self.store)
+        rendered = workflow.build_system_prompt(schema=self.store.read_schema())
+        seed = [Message(MessageRole.SYSTEM, rendered, MessageMeta(MessageType.SYSTEM_PROMPT))]
+        for pair in window:
+            seed.append(
+                Message(MessageRole.USER, pair.question, MessageMeta(MessageType.USER_INPUT))
+            )
+            seed.append(
+                Message(MessageRole.ASSISTANT, pair.answer, MessageMeta(MessageType.TEXT_RESPONSE))
+            )
+        message = question + " /no_think"
+        if grounded:
+            message = (
+                "The wiki's index — the catalog of every page:\n\n"
+                f"{self.store.read_index()}\n\n"
+                f"Question: {message}"
+            )
+        seed.append(Message(MessageRole.USER, message, MessageMeta(MessageType.USER_INPUT)))
+        return await self._run(workflow, message, "chat", tag=tag, initial_messages=seed)
+
     async def lint(self) -> OperationResult:
         findings = compute_findings(
             self.store.page_texts(),
@@ -216,7 +258,12 @@ class Session:
         return OperationResult("lint", "wiki health", report, transcript)
 
     async def _run(
-        self, workflow: Any, message: str, op: str, tag: str = ""
+        self,
+        workflow: Any,
+        message: str,
+        op: str,
+        tag: str = "",
+        initial_messages: list[Message] | None = None,
     ) -> tuple[str, Path | None]:
         writer = (
             TranscriptWriter(self.runs_dir / f"{self.run_id or self.today}-{tag or op}.jsonl")
@@ -232,7 +279,10 @@ class Session:
         )
         try:
             result = await runner.run(
-                workflow, message, prompt_vars={"schema": self.store.read_schema()}
+                workflow,
+                message,
+                prompt_vars={"schema": self.store.read_schema()},
+                initial_messages=initial_messages,
             )
         finally:
             if writer:

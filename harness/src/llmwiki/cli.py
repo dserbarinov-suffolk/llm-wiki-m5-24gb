@@ -17,8 +17,10 @@ from llmwiki.pdf import PdfError
 from llmwiki.pdf.pipeline import ExtractionResult, ensure_extracted
 from llmwiki.pdf.vision import AppleVisionRecognizer
 from llmwiki.runtime.backend import start_backend
+from llmwiki.runtime.chat_repl import ChatRepl
 from llmwiki.runtime.session import ExtractFn, OperationResult, Session
 from llmwiki.store import WikiStore
+from llmwiki.store.chat_store import ChatStore
 
 
 def _build_parser() -> argparse.ArgumentParser:
@@ -53,6 +55,16 @@ def _build_parser() -> argparse.ArgumentParser:
     query.add_argument("question", help="The question to answer.")
 
     sub.add_parser("lint", help="Health-check the wiki.")
+
+    chat = sub.add_parser("chat", help="Converse with the wiki (model stays loaded).")
+    chat.add_argument(
+        "--resume",
+        nargs="?",
+        const="latest",
+        default=None,
+        metavar="SESSION_ID",
+        help="Continue a conversation (default: the most recent one).",
+    )
     return parser
 
 
@@ -93,9 +105,35 @@ async def _run(args: argparse.Namespace) -> OperationResult:
             )
         if args.op == "query":
             return await session.query(args.question)
+        if args.op == "chat":
+            return await _run_chat(session, paths, args.resume)
         return await session.lint()
     finally:
         await backend.aclose()
+
+
+async def _run_chat(session: Session, paths: WikiPaths, resume: str | None) -> OperationResult:
+    """The thin input loop; all REPL logic lives in ChatRepl (testable)."""
+    chat_store = ChatStore(paths.root / "harness" / "chat.db")
+    repl = ChatRepl(session=session, chat_store=chat_store)
+    try:
+        repl.start(resume)
+        while True:
+            try:
+                line = await asyncio.to_thread(input, "llmwiki> ")
+            except EOFError:  # Ctrl-D
+                break
+            if not await repl.handle(line):
+                break
+    except KeyboardInterrupt:  # Ctrl-C: same graceful path as /exit
+        pass
+    finally:
+        repl.finish()
+        chat_store.close()
+    summary = (
+        f"chat ended: {repl.turns} turns across {len(repl.conversations_touched)} conversation(s)"
+    )
+    return OperationResult("chat", "conversation", summary, None)
 
 
 def main() -> None:

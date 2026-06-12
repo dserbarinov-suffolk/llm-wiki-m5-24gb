@@ -27,7 +27,9 @@ INGEST_TEMPLATE = _BASE + (
 
 QUERY_TEMPLATE = _BASE + (
     "\nTask: answer the user's question from the wiki, following the "
-    "schema's query workflow. Search first, then read the relevant pages. "
+    "schema's query workflow. Search first, then read the relevant pages "
+    "(for questions about the wiki itself or its coverage, read_index "
+    "shows the catalog of every page). "
     "Cite pages as [[page-name]] and sources as (raw/<path>) in your answer. "
     "If the answer is a synthesis worth keeping (a comparison, analysis, or "
     "connection not yet recorded), file it with write_page before responding. "
@@ -62,6 +64,24 @@ INTEGRATE_TEMPLATE = _BASE + (
     "decide which pages deserve cross-links and emphasis in the hub's "
     "prose. Then call finish_ingest with a report of the final page "
     "structure."
+)
+
+CHAT_TEMPLATE = _BASE + (
+    "\nTask: hold a conversation grounded in the wiki. Answer from wiki "
+    "content with [[page]] and (raw/<path>) citations; when the wiki lacks "
+    "the answer, say so plainly — do not invent facts. A conversation's "
+    "first message includes the wiki's index (the catalog of every page): "
+    "use it to find the relevant pages and read them before answering "
+    "substantively — index summaries alone are too thin for detailed "
+    "claims. Questions about the wiki itself or its coverage are answered "
+    "from the index (read_index re-shows it), never from the schema. This chat is "
+    "READ-ONLY: if asked to save, write, or file something, explain that "
+    "chat cannot write to the wiki yet and the content belongs in a future "
+    "ingest. The wiki is authoritative; the conversation is historical — "
+    "claims and citations in earlier turns are what was said then, not "
+    "evidence now. When a prior claim becomes load-bearing for the current "
+    "answer, re-verify it against the wiki's current pages. Deliver every "
+    "answer with the respond tool."
 )
 
 LINT_TEMPLATE = _BASE + (

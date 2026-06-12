@@ -44,7 +44,9 @@ The index and log formats below are also enforced in harness code
 ## index.md
 
 One entry per page, grouped by category. Maintained deterministically by the
-harness on every `write_page` — never edited by hand or by the model directly.
+harness on every `write_page` — never edited by hand or by the model directly,
+but readable via the `read_index` tool: it is the catalog to consult for
+questions about the wiki itself or its overall coverage.
 Entry format: `- [[page-name]] — one-line summary`.
 
 ## log.md
