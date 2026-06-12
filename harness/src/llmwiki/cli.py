@@ -42,6 +42,12 @@ def _build_parser() -> argparse.ArgumentParser:
         help="PDF only: discard the cached extraction/manifest and start over "
         "(default resumes a partial ingest).",
     )
+    ingest.add_argument(
+        "--reintegrate",
+        action="store_true",
+        help="PDF only: rerun just the integrate pass of a completed ingest "
+        "(rebuilds the hub with current salience).",
+    )
 
     query = sub.add_parser("query", help="Answer a question from the wiki.")
     query.add_argument("question", help="The question to answer.")
@@ -82,7 +88,9 @@ async def _run(args: argparse.Namespace) -> OperationResult:
             on_chunk_note=lambda note: print(note, flush=True),
         )
         if args.op == "ingest":
-            return await session.ingest(args.source, reextract=args.reextract)
+            return await session.ingest(
+                args.source, reextract=args.reextract, reintegrate=args.reintegrate
+            )
         if args.op == "query":
             return await session.query(args.question)
         return await session.lint()

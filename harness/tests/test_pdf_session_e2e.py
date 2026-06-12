@@ -3,11 +3,14 @@ fake extractor. Covers the map loop, resume semantics, digest hand-off,
 and the single log entry on completion.
 """
 
+import pytest
 from fakes import FakeClient
 from forge.context import ContextManager, NoCompact
 from forge.core.workflow import ToolCall
 
 from llmwiki.config import WikiPaths
+from llmwiki.domain.pages import WikiPage
+from llmwiki.pdf import PdfError
 from llmwiki.pdf.manifest import ChunkRecord, Manifest, from_json
 from llmwiki.pdf.pipeline import ExtractionResult
 from llmwiki.runtime.session import Session
@@ -157,3 +160,117 @@ class TestPdfIngest:
         user_msgs = [m["content"] for m in first_map_turn if m.get("role") == "user"]
         assert any("functions are values" in c for c in user_msgs)
         assert any("(raw/book.pdf p.1-10)" in c for c in user_msgs)
+
+    async def test_writes_recorded_and_salience_reaches_integrate(
+        self, store: WikiStore, paths: WikiPaths
+    ) -> None:
+        # A pre-existing concept page that both chunk pages link to — it must
+        # appear ranked in the computed salience block handed to integrate.
+        store.write_page(
+            WikiPage(
+                name="iterable",
+                category="concept",
+                summary="Core protocol.",
+                body="Central concept.",
+                sources=("raw/book.pdf",),  # in scope for the book's salience
+                updated=TODAY,
+            )
+        )
+        (paths.raw_dir / "book.pdf").write_bytes(b"%PDF-1.5 fake")
+        extraction = _fake_extraction(paths)
+
+        def _linked_write(name: str) -> ToolCall:
+            return ToolCall(
+                tool="write_page",
+                args={
+                    "name": name,
+                    "category": "source",
+                    "summary": f"About {name}.",
+                    "content": "Builds on [[iterable]].",
+                    "sources": ["raw/book.pdf"],
+                },
+            )
+
+        script = [
+            [ToolCall(tool="search_wiki", args={"query": "functions"})],
+            [_linked_write("functions")],
+            [ToolCall(tool="finish_chunk", args={"report": "n1"})],
+            [ToolCall(tool="search_wiki", args={"query": "closures"})],
+            [_linked_write("closures")],
+            [ToolCall(tool="finish_chunk", args={"report": "n2"})],
+            *_INTEGRATE_TURNS,
+        ]
+        session = _session(store, script, paths, extraction)
+        await session.ingest("book.pdf")
+
+        # Machine record landed in the manifest.
+        saved = from_json((extraction.cache_dir / "manifest.json").read_text(encoding="utf-8"))
+        assert saved.chunks[0].pages_written == ("functions",)
+        assert saved.chunks[1].pages_written == ("closures",)
+        # The integrate run received the computed salience block with the
+        # linked concept ranked in it, plus the per-chunk machine record.
+        fake: FakeClient = session.client
+        integrate_msgs = [m["content"] for m in fake.sent[-2] if m.get("role") == "user"]
+        assert any("Salience report" in c and "[[iterable]] (links 2" in c for c in integrate_msgs)
+        assert any("Pages written (recorded): [[functions]]" in c for c in integrate_msgs)
+
+    async def test_hub_key_lists_reconciled_after_integrate(
+        self, store: WikiStore, paths: WikiPaths
+    ) -> None:
+        # The model writes the hub WITH its own (merged, stale) key lists;
+        # the harness must replace them with computed ones post-run.
+        (paths.raw_dir / "book.pdf").write_bytes(b"%PDF-1.5 fake")
+        extraction = _fake_extraction(paths, statuses=("done", "done"))
+        chunks_dir = extraction.cache_dir / "chunks"
+        (chunks_dir / "0001.md").write_text("iterable " * 12, encoding="utf-8")
+        store.write_page(
+            WikiPage(
+                name="iterable",
+                category="concept",
+                summary="Core protocol.",
+                body="Central.",
+                sources=("raw/book.pdf",),
+                updated=TODAY,
+            )
+        )
+        script = [
+            [
+                ToolCall(
+                    tool="write_page",
+                    args={
+                        "name": "book",  # slugify('book.pdf'.stem) == the hub
+                        "category": "source",
+                        "summary": "Hub.",
+                        "content": "Summary prose.\n\n**Key entities**: [[matthew-knox]].",
+                        "sources": ["raw/book.pdf"],
+                    },
+                )
+            ],
+            [ToolCall(tool="finish_ingest", args={"report": "hub written"})],
+        ]
+        session = _session(store, script, paths, extraction)
+        await session.ingest("book.pdf", reintegrate=True)
+
+        hub_text = store.read_page("book")
+        assert "Summary prose." in hub_text
+        assert "matthew-knox" not in hub_text  # model's stale list replaced
+        assert "**Key concepts:** [[iterable]]" in hub_text
+
+    async def test_reintegrate_runs_integrate_only(
+        self, store: WikiStore, paths: WikiPaths
+    ) -> None:
+        (paths.raw_dir / "book.pdf").write_bytes(b"%PDF-1.5 fake")
+        extraction = _fake_extraction(paths, statuses=("done", "done"))
+        session = _session(store, list(_INTEGRATE_TURNS), paths, extraction)
+        result = await session.ingest("book.pdf", reintegrate=True)
+        assert result.output == "Hub linked to 2 chapter pages."
+        assert "ingest | book.pdf" in paths.log_path.read_text(encoding="utf-8")
+
+    async def test_reintegrate_with_pending_chunks_refuses(
+        self, store: WikiStore, paths: WikiPaths
+    ) -> None:
+        (paths.raw_dir / "book.pdf").write_bytes(b"%PDF-1.5 fake")
+        extraction = _fake_extraction(paths)  # both pending
+        session = _session(store, [], paths, extraction)
+        with pytest.raises(PdfError, match="pending"):
+            await session.ingest("book.pdf", reintegrate=True)

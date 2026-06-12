@@ -193,6 +193,33 @@ class TestIngest:
         # The blind rewrite never landed:
         assert "thin" not in store.read_index()
 
+    async def test_pipeline_markers_stripped_from_written_pages(
+        self, store: WikiStore, paths: WikiPaths, source: str
+    ) -> None:
+        # The OCR caveat tag is extraction plumbing; observed quoted verbatim
+        # into a wiki page despite the schema — stripped at the boundary now.
+        script = [
+            [ToolCall(tool="read_source", args={"path": "moon.md"})],
+            [
+                ToolCall(
+                    tool="write_page",
+                    args={
+                        "name": "moon",
+                        "category": "source",
+                        "summary": "Lunar notes.",
+                        "content": "Real claim.\n\n"
+                        "[figure text (OCR, unverified): NOISE ON A MUG]\n\n"
+                        "Another claim.",
+                    },
+                )
+            ],
+            [ToolCall(tool="finish_ingest", args={"report": "ok"})],
+        ]
+        await _session(store, script, paths).ingest(source)
+        body = store.read_page("moon")
+        assert "Real claim." in body and "Another claim." in body
+        assert "OCR" not in body and "NOISE" not in body
+
     async def test_bare_text_after_work_nudged_to_terminal_tool(
         self, store: WikiStore, paths: WikiPaths, source: str
     ) -> None:

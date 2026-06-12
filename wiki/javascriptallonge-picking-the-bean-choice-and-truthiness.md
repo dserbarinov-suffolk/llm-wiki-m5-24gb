@@ -14,6 +14,4 @@ JavaScript treats values as truthy or falsy, not just boolean. Falsy values incl
 - `1 || 2` → `1`
 - `||` and `&&` short-circuit evaluation prevents unnecessary computations.
 
-[figure text (OCR, unverified): ANTIDOTE DECAF •DESVES]
-
 **Sources**: [raw/javascriptallonge.pdf p.94-108]

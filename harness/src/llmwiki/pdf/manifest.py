@@ -25,6 +25,9 @@ class ChunkRecord:
     token_estimate: int
     status: str = "pending"
     notes: str = ""
+    # Machine record of pages the chunk run actually wrote (captured at the
+    # write_page tool) — ground truth where notes have over-claimed.
+    pages_written: tuple[str, ...] = ()
 
     def __post_init__(self) -> None:
         if self.status not in _STATUSES:
@@ -46,10 +49,12 @@ class Manifest:
     def all_done(self) -> bool:
         return not self.pending
 
-    def mark_done(self, chunk_id: int, notes: str) -> Manifest:
+    def mark_done(self, chunk_id: int, notes: str, pages_written: tuple[str, ...] = ()) -> Manifest:
         capped = notes if len(notes) <= NOTE_CAP_CHARS else notes[: NOTE_CAP_CHARS - 1] + "…"
         chunks = tuple(
-            replace(c, status="done", notes=capped) if c.chunk_id == chunk_id else c
+            replace(c, status="done", notes=capped, pages_written=pages_written)
+            if c.chunk_id == chunk_id
+            else c
             for c in self.chunks
         )
         if chunks == self.chunks:
@@ -60,13 +65,30 @@ class Manifest:
         return replace(self, integrated=True)
 
     def digest(self) -> str:
-        """Concatenated per-chunk notes for the integrate run."""
-        parts = [
-            f"Chunk {c.chunk_id} — {c.heading} (p.{c.start_page}-{c.end_page}):\n{c.notes}"
-            for c in self.chunks
-            if c.status == "done" and c.notes
-        ]
+        """Concatenated per-chunk notes for the integrate run.
+
+        The recorded pages_written line is the machine record; the notes
+        above it are the model's own account.
+        """
+        parts = []
+        for c in self.chunks:
+            if c.status != "done" or not c.notes:
+                continue
+            entry = f"Chunk {c.chunk_id} — {c.heading} (p.{c.start_page}-{c.end_page}):\n{c.notes}"
+            if c.pages_written:
+                entry += "\nPages written (recorded): " + ", ".join(
+                    f"[[{p}]]" for p in c.pages_written
+                )
+            parts.append(entry)
         return "\n\n".join(parts)
+
+    def write_counts(self) -> dict[str, int]:
+        """Per-page write totals across done chunks (salience input)."""
+        counts: dict[str, int] = {}
+        for c in self.chunks:
+            for page in c.pages_written:
+                counts[page] = counts.get(page, 0) + 1
+        return counts
 
 
 def to_json(manifest: Manifest) -> str:
@@ -83,6 +105,7 @@ def to_json(manifest: Manifest) -> str:
                     "tokens": c.token_estimate,
                     "status": c.status,
                     "notes": c.notes,
+                    "pages_written": list(c.pages_written),
                 }
                 for c in manifest.chunks
             ],
@@ -107,6 +130,8 @@ def from_json(text: str) -> Manifest:
                 token_estimate=c["tokens"],
                 status=c["status"],
                 notes=c["notes"],
+                # absent in manifests written before the salience design
+                pages_written=tuple(c.get("pages_written", [])),
             )
             for c in data["chunks"]
         ),

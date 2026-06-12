@@ -15,7 +15,15 @@ from pydantic import BaseModel, Field
 
 from llmwiki.domain.pages import WikiPage
 from llmwiki.domain.search import render_hits, search_pages
+from llmwiki.pdf.intermediate import OCR_MARKER
 from llmwiki.store import WikiStore, WikiStoreError
+
+
+def _strip_pipeline_markers(content: str) -> str:
+    """Content hygiene at the wiki boundary: extraction-pipeline markers
+    (e.g. the OCR caveat tag) are internal plumbing, never wiki content —
+    observed quoted verbatim into a page despite the schema forbidding it."""
+    return "\n".join(line for line in content.splitlines() if OCR_MARKER not in line)
 
 
 class ReadSourceParams(BaseModel):
@@ -108,6 +116,7 @@ def write_page_tool(
     today: str,
     prerequisites: list[str | dict[str, str]] | None = None,
     read_tracker: set[str] | None = None,
+    write_log: list[str] | None = None,
 ) -> ToolDef:
     """write_page, optionally guarded by a read-before-rewrite contract.
 
@@ -115,6 +124,10 @@ def write_page_tool(
     page that wasn't read this run raises — write_page replaces the whole
     page, and a 14B reliably "reconstructs" content it never saw (observed
     live twice; docs/open-questions.md #10). New pages are unaffected.
+
+    *write_log*, when provided, records each successfully written page name
+    — the machine record behind manifest.pages_written and the salience
+    write-count signal.
     """
 
     def _write_page(**kwargs: object) -> str:
@@ -133,11 +146,13 @@ def write_page_tool(
             name=params.name,
             category=params.category,
             summary=params.summary,
-            body=params.content,
+            body=_strip_pipeline_markers(params.content),
             sources=tuple(params.sources),
             updated=today,
         )
         store.write_page(page)
+        if write_log is not None:
+            write_log.append(params.name)
         return f"Wrote wiki/{params.name}.md and updated its index entry."
 
     return ToolDef(

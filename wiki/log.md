@@ -26,3 +26,12 @@ Fixed orphan status for [[const]], [[eager-evaluation]], and [[lazy-evaluation]]
 
 ## [2026-06-12] lint | wiki health
 Fixed one orphan page by linking [[javascriptallonge-composing-and-decomposing-data]] from the *JavaScript Allongé* hub page. Remaining orphans likely require similar treatment (e.g., adding links from relevant source hubs or concept pages). Next steps: prioritize fixing orphans related to major sources like *JavaScript Allongé* and verify index consistency for other chapters.
+
+## [2026-06-12] ingest | javascriptallonge.pdf
+Created/updated hub source page 'javascriptallonge' linking all 20 chapter/topic pages from the ingest. Added key entities (reg-raganwald-braithwaite, michael-fogus, etc.) and concepts (array-destructuring, linked-lists) from the salience report. All per-chunk pages are now cross-linked through the hub.
+
+## [2026-06-12] ingest | javascriptallonge.pdf
+Created hub source page 'javascriptallonge' linking all 20 chapter/topic pages from the ingestion. Added cross-links for [[mapping]], [[tortoise-and-hare-algorithm]], [[floyd-s-cycle-finding-algorithm]], and [[stateful-map]] pages. Updated key concepts to include [[function]], [[arrays]], [[const]], [[iterable]], and [[functional-iterators]]. No contradictions detected in the source integration.
+
+## [2026-06-12] ingest | javascriptallonge.pdf
+Created/updated hub source page [[javascriptallonge]] to link all 20 chapter/topic pages from the ingested chunks. Ensured cross-links between key concepts (e.g., [[function]], [[arrays]], [[const]], [[iterable]]), entities (e.g., [[javascript]], [[generator]], [[reg-raganwald-braithwaite]]), and chapter-specific source pages. No contradictions flagged; all pages integrated per salience report.

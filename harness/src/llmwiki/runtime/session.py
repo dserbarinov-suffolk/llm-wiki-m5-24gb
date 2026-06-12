@@ -9,7 +9,7 @@ client and no network.
 from __future__ import annotations
 
 from collections.abc import Callable
-from dataclasses import dataclass
+from dataclasses import dataclass, replace
 from pathlib import Path
 from typing import Any
 
@@ -17,8 +17,15 @@ from forge.context import ContextManager
 from forge.core.runner import WorkflowRunner
 
 from llmwiki.domain.links import compute_findings
-from llmwiki.domain.pages import WikiPage, slugify
-from llmwiki.pdf.pipeline import ExtractionResult, chunk_file, save_manifest
+from llmwiki.domain.pages import WikiPage, parse_page, slugify
+from llmwiki.domain.salience import SalienceReport, compute_salience, reconcile_key_lists
+from llmwiki.pdf import PdfError
+from llmwiki.pdf.pipeline import (
+    ExtractionResult,
+    chunk_file,
+    read_source_text,
+    save_manifest,
+)
 from llmwiki.runtime.transcript import TranscriptWriter
 from llmwiki.store import WikiStore
 from llmwiki.workflows import (
@@ -86,9 +93,13 @@ class Session:
     extract_pdf: ExtractFn | None = None  # required for PDF ingest; CLI wires it
     on_chunk_note: Callable[[str], None] | None = None  # per-chunk supervision
 
-    async def ingest(self, source_path: str, reextract: bool = False) -> OperationResult:
+    async def ingest(
+        self, source_path: str, reextract: bool = False, reintegrate: bool = False
+    ) -> OperationResult:
         if source_path.lower().endswith(".pdf"):
-            return await self._ingest_pdf(source_path, reextract)
+            return await self._ingest_pdf(source_path, reextract, reintegrate)
+        if reintegrate:
+            raise PdfError("--reintegrate applies to chunked (PDF) sources only.")
         workflow = build_ingest_workflow(self.store, self.today)
         message = (
             f"Ingest the source 'raw/{source_path}' into the wiki. "
@@ -98,11 +109,19 @@ class Session:
         self.store.append_log(self.today, "ingest", source_path, report)
         return OperationResult("ingest", source_path, report, transcript)
 
-    async def _ingest_pdf(self, source_path: str, reextract: bool) -> OperationResult:
+    async def _ingest_pdf(
+        self, source_path: str, reextract: bool, reintegrate: bool = False
+    ) -> OperationResult:
         if self.extract_pdf is None:
             raise RuntimeError("Session has no PDF extractor wired (extract_pdf).")
         result = self.extract_pdf(self.store.source_path(source_path), source_path, reextract)
         manifest, total = result.manifest, len(result.manifest.chunks)
+        if reintegrate and manifest.pending:
+            raise PdfError(
+                f"--reintegrate requires a completed ingest; raw/{source_path} "
+                f"has {len(manifest.pending)} pending chunk(s) — run a plain "
+                "ingest to finish them first."
+            )
 
         for record in manifest.pending:
             text = chunk_file(result.cache_dir, record.chunk_id).read_text(encoding="utf-8")
@@ -112,22 +131,34 @@ class Session:
                 f"Cite this material as (raw/{source_path} "
                 f"p.{record.start_page}-{record.end_page}).\n\n<chunk>\n{text}\n</chunk>"
             )
+            write_log: list[str] = []
             notes, _ = await self._run(
-                build_map_workflow(self.store, self.today),
+                build_map_workflow(self.store, self.today, write_log=write_log),
                 message,
                 "pdf-chunk",
                 tag=f"pdf-chunk-{record.chunk_id:04d}",
             )
-            manifest = manifest.mark_done(record.chunk_id, notes)
+            manifest = manifest.mark_done(
+                record.chunk_id, notes, pages_written=tuple(dict.fromkeys(write_log))
+            )
             save_manifest(ExtractionResult(manifest=manifest, cache_dir=result.cache_dir))
             if self.on_chunk_note is not None:
                 self.on_chunk_note(f"[chunk {record.chunk_id}/{total}] {notes}")
 
         hub = slugify(Path(source_path).stem)
+        salience = compute_salience(
+            self.store.page_texts(),
+            manifest.write_counts(),
+            source_text=read_source_text(result.cache_dir),
+            scope_source=source_path,
+            exclude_inbound_from=frozenset({hub}),
+        )
+        salience_block = salience.render()
         message = (
             f"All {total} chunks of 'raw/{source_path}' are ingested. Ensure the hub "
             f"source page '{hub}' exists and links the pages written during "
-            f"chunking. Per-chunk notes:\n\n<notes>\n{manifest.digest()}\n</notes>"
+            f"chunking.\n\n{salience_block}\n\n"
+            f"Per-chunk notes:\n\n<notes>\n{manifest.digest()}\n</notes>"
         )
         report, transcript = await self._run(
             build_integrate_workflow(self.store, self.today),
@@ -135,11 +166,22 @@ class Session:
             "pdf-integrate",
             tag="pdf-integrate",
         )
+        self._reconcile_hub_key_lists(hub, salience)
         save_manifest(
             ExtractionResult(manifest=manifest.mark_integrated(), cache_dir=result.cache_dir)
         )
         self.store.append_log(self.today, "ingest", source_path, report)
         return OperationResult("ingest", source_path, report, transcript)
+
+    def _reconcile_hub_key_lists(self, hub: str, salience: SalienceReport) -> None:
+        """Harness-owned bookkeeping: the hub's key-lists mirror the salience
+        report by construction (same contract as index.md entries)."""
+        if hub not in self.store.list_pages():
+            return  # no hub page; lint's findings will surface it
+        page = parse_page(hub, self.store.read_page(hub))
+        body = reconcile_key_lists(page.body, salience)
+        if body != page.body:
+            self.store.write_page(replace(page, body=body, updated=self.today))
 
     async def query(self, question: str) -> OperationResult:
         workflow = build_query_workflow(self.store, self.today)
@@ -159,11 +201,14 @@ class Session:
             self.store.append_log(self.today, "lint", "empty wiki", report)
             return OperationResult("lint", "wiki health", report, None)
         workflow = build_lint_workflow(self.store, self.today)
+        salience_block = compute_salience(self.store.page_texts()).render()
         message = (
             "Run a lint pass. Deterministic findings from the harness:\n\n"
             f"{findings.render()}\n\n"
-            "Review the affected pages (and spot-check others), then call "
-            "finish_lint with the health report."
+            f"{salience_block}\n"
+            "The salience report names the most load-bearing pages — protect "
+            "their content. Review the affected pages (and spot-check "
+            "others), then call finish_lint with the health report."
         )
         report, transcript = await self._run(workflow, message, "lint")
         self._file_lint_report(report)

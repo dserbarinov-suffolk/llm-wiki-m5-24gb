@@ -21,12 +21,14 @@ from llmwiki.workflows.tools import (
 )
 
 
-def build_map_workflow(store: WikiStore, today: str) -> Workflow:
+def build_map_workflow(
+    store: WikiStore, today: str, write_log: list[str] | None = None
+) -> Workflow:
     seen: set[str] = set()  # read-before-rewrite contract, per run
     tools = [
         search_wiki_tool(store),
         read_page_tool(store, read_tracker=seen),
-        write_page_tool(store, today, read_tracker=seen),
+        write_page_tool(store, today, read_tracker=seen, write_log=write_log),
         finish_tool(
             "finish_chunk",
             "Finish this chunk after the wiki reflects it. Report concise "

@@ -36,6 +36,14 @@ def chunk_file(cache_dir: Path, chunk_id: int) -> Path:
     return cache_dir / _CHUNK_DIR / f"{chunk_id:04d}.md"
 
 
+def read_source_text(cache_dir: Path) -> str:
+    """The whole extracted source (all chunks) — salience's mention corpus."""
+    chunk_dir = cache_dir / _CHUNK_DIR
+    if not chunk_dir.is_dir():
+        return ""
+    return "\n\n".join(p.read_text(encoding="utf-8") for p in sorted(chunk_dir.glob("*.md")))
+
+
 def save_manifest(result: ExtractionResult) -> None:
     (result.cache_dir / _MANIFEST_FILE).write_text(to_json(result.manifest), encoding="utf-8")
 

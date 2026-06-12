@@ -53,11 +53,15 @@ MAP_TEMPLATE = _BASE + (
 
 INTEGRATE_TEMPLATE = _BASE + (
     "\nTask: finish a chunked ingest. All chunks of the source have been "
-    "ingested; the user message carries the per-chunk notes. Ensure a hub "
-    "source page exists that summarizes the whole source and links the "
-    "chapter/topic pages written during chunking; add missing cross-links "
-    "between them; flag contradictions. Then call finish_ingest with a "
-    "report of the final page structure."
+    "ingested; the user message carries a computed salience report and the "
+    "per-chunk notes. Ensure a hub source page exists that summarizes the "
+    "whole source and links the chapter/topic pages written during "
+    "chunking; add missing cross-links between them; flag contradictions. "
+    "Do NOT write key-entity or key-concept lists on the hub — the harness "
+    "maintains computed ones (see the schema). Use the salience report to "
+    "decide which pages deserve cross-links and emphasis in the hub's "
+    "prose. Then call finish_ingest with a report of the final page "
+    "structure."
 )
 
 LINT_TEMPLATE = _BASE + (

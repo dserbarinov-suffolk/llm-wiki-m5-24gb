@@ -111,6 +111,29 @@ class TestManifest:
         assert "Ch 1" in digest and "p.1-5" in digest and "[[functions]]" in digest
         assert "Ch 2" not in digest  # pending chunks contribute nothing
 
+    def test_pages_written_roundtrip_and_digest_record(self) -> None:
+        manifest = self._manifest().mark_done(1, "notes", pages_written=("functions", "scope"))
+        assert from_json(to_json(manifest)) == manifest
+        assert "Pages written (recorded): [[functions]], [[scope]]" in manifest.digest()
+        assert manifest.write_counts() == {"functions": 1, "scope": 1}
+
+    def test_legacy_manifest_without_pages_written_loads(self) -> None:
+        import json
+
+        data = json.loads(to_json(self._manifest()))
+        for chunk in data["chunks"]:
+            del chunk["pages_written"]  # manifests predating the salience design
+        manifest = from_json(json.dumps(data))
+        assert manifest.chunks[0].pages_written == ()
+
+    def test_write_counts_accumulate_across_chunks(self) -> None:
+        manifest = (
+            self._manifest()
+            .mark_done(1, "n1", pages_written=("iterable", "generator"))
+            .mark_done(2, "n2", pages_written=("iterable",))
+        )
+        assert manifest.write_counts() == {"iterable": 2, "generator": 1}
+
 
 class TestOcr:
     def test_usable_text_filters_confidence_and_length(self) -> None:
