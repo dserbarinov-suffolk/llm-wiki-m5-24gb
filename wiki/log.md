@@ -50,3 +50,6 @@ Conversations: 20260612-132844. History in harness/chat.db; transcripts per turn
 
 ## [2026-06-12] chat | 1 turns across 1 conversation
 Conversations: 20260612-133300. History in harness/chat.db; transcripts per turn in harness/runs/.
+
+## [2026-06-12] chat | 5 turns across 1 conversation
+Conversations: 20260612-133845. History in harness/chat.db; transcripts per turn in harness/runs/.
