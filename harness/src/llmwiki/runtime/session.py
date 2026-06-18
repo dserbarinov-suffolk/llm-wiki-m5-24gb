@@ -20,16 +20,25 @@ from forge.core.runner import WorkflowRunner
 from llmwiki.domain.chatwindow import QAPair
 from llmwiki.domain.links import compute_findings
 from llmwiki.domain.objects import (
+    ExtractedUnit,
     ExtractionPrompt,
     IngestRun,
     LintFinding,
     LintRun,
+    PagePlan,
     QueryRun,
+    RawSource,
     Schema,
     SourceBundle,
     SourcePlan,
 )
 from llmwiki.domain.pages import WikiPage, parse_page, slugify
+from llmwiki.domain.planning import (
+    build_page_plan,
+    observation_report,
+    page_plan_to_json,
+    planned_write_message,
+)
 from llmwiki.domain.salience import SalienceReport, compute_salience, reconcile_key_lists
 from llmwiki.pdf import PdfError
 from llmwiki.pdf.pipeline import (
@@ -46,7 +55,7 @@ from llmwiki.workflows import (
     build_lint_workflow,
     build_query_workflow,
 )
-from llmwiki.workflows.pdf_ingest import build_integrate_workflow, build_map_workflow
+from llmwiki.workflows.pdf_ingest import build_planned_write_workflow
 
 _MAX_ITERATIONS = {
     "ingest": 24,
@@ -54,6 +63,7 @@ _MAX_ITERATIONS = {
     "lint": 24,
     "pdf-chunk": 24,
     "pdf-integrate": 20,
+    "pdf-planned-write": 16,
     "chat": 12,
 }
 
@@ -87,6 +97,11 @@ _RETRY_NUDGES = {
     "pdf-integrate": (
         "Reply with exactly one tool call. If the hub page and cross-links "
         "are in place, call finish_ingest with your report; otherwise call "
+        "the next tool you need."
+    ),
+    "pdf-planned-write": (
+        "Reply with exactly one tool call. If the planned target page is "
+        "written, call finish_planned_write with your report; otherwise call "
         "the next tool you need."
     ),
     "chat": ("Reply with exactly one tool call. Use respond to deliver your answer to the user."),
@@ -144,67 +159,71 @@ class Session:
             raise RuntimeError("Session has no PDF extractor wired (extract_pdf).")
         result = self.extract_pdf(self.store.source_path(source_path), source_path, reextract)
         manifest, total = result.manifest, len(result.manifest.chunks)
-        if reintegrate and manifest.pending:
-            raise PdfError(
-                f"--reintegrate requires a completed ingest; raw/{source_path} "
-                f"has {len(manifest.pending)} pending chunk(s) — run a plain "
-                "ingest to finish them first."
-            )
+        raw_source = self.store.raw_source(source_path)
+        source_bundle = SourceBundle.one(raw_source)
+        extracted_units = self._extracted_units(result, raw_source)
+        page_plan = build_page_plan(
+            plan_id=f"{manifest.sha256[:16]}-page-plan",
+            source_bundle=source_bundle,
+            raw_source=raw_source,
+            extracted_units=extracted_units,
+            existing_pages=self.store.page_texts(),
+            wiki_structure=self.store.structure,
+            today=self.today,
+        )
+        self._write_page_plan(result.cache_dir, page_plan)
 
-        for record in manifest.pending:
-            text = chunk_file(result.cache_dir, record.chunk_id).read_text(encoding="utf-8")
-            message = (
-                f"Ingest chunk {record.chunk_id} of {total} from 'raw/{source_path}'.\n"
-                f"Section: {record.heading} (pages {record.start_page}-{record.end_page}).\n"
-                f"Cite this material as (raw/{source_path} "
-                f"p.{record.start_page}-{record.end_page}).\n\n<chunk>\n{text}\n</chunk>"
-            )
-            write_log: list[str] = []
-            notes, _ = await self._run(
-                build_map_workflow(self.store, self.today, write_log=write_log),
-                message,
-                "pdf-chunk",
-                tag=f"pdf-chunk-{record.chunk_id:04d}",
-            )
-            manifest = manifest.mark_done(
-                record.chunk_id, notes, pages_written=tuple(dict.fromkeys(write_log))
-            )
-            save_manifest(ExtractionResult(manifest=manifest, cache_dir=result.cache_dir))
-            if self.on_chunk_note is not None:
-                self.on_chunk_note(f"[chunk {record.chunk_id}/{total}] {notes}")
-
+        units = {unit.unit_id: unit for unit in extracted_units}
+        actual_pages_by_unit: dict[str, list[str]] = {}
+        reports: list[str] = []
+        last_transcript: Path | None = None
         hub = slugify(Path(source_path).stem)
+        for planned_write in page_plan.planned_writes:
+            write_log: list[str] = []
+            report, last_transcript = await self._run(
+                build_planned_write_workflow(
+                    self.store,
+                    self.today,
+                    planned_write,
+                    write_log=write_log,
+                ),
+                planned_write_message(planned_write, units),
+                "pdf-planned-write",
+                tag=f"pdf-plan-{planned_write.write_id}",
+            )
+            reports.append(f"{planned_write.page_metadata.page_id}: {report}")
+            if planned_write.page_metadata.page_id != hub:
+                for unit_id in planned_write.extracted_units:
+                    actual_pages_by_unit.setdefault(unit_id, []).extend(write_log)
+            if self.on_chunk_note is not None:
+                self.on_chunk_note(
+                    f"[planned write {len(reports)}/{len(page_plan.planned_writes)}] "
+                    f"{planned_write.page_metadata.page_id}: {report}"
+                )
+
         salience = compute_salience(
             self.store.page_texts(),
-            manifest.write_counts(),
+            self._write_counts(actual_pages_by_unit),
             source_text=read_source_text(result.cache_dir),
             scope_source=source_path,
             exclude_inbound_from=frozenset({hub}),
         )
-        salience_block = salience.render()
-        message = (
-            f"All {total} chunks of 'raw/{source_path}' are ingested. Ensure the hub "
-            f"source page '{hub}' exists and links the pages written during "
-            f"chunking.\n\n{salience_block}\n\n"
-            f"Per-chunk notes:\n\n<notes>\n{manifest.digest()}\n</notes>"
-        )
-        report, transcript = await self._run(
-            build_integrate_workflow(self.store, self.today),
-            message,
-            "pdf-integrate",
-            tag="pdf-integrate",
-        )
         self._reconcile_hub_key_lists(hub, salience)
-        save_manifest(
-            ExtractionResult(manifest=manifest.mark_integrated(), cache_dir=result.cache_dir)
+        manifest = self._mark_manifest_planned(manifest, actual_pages_by_unit).mark_integrated()
+        save_manifest(ExtractionResult(manifest=manifest, cache_dir=result.cache_dir))
+        observation_path = self._write_observation(result.cache_dir, page_plan)
+        report = (
+            f"Planned ingest completed for {total} extracted unit(s) from "
+            f"raw/{source_path}. Executed {len(page_plan.planned_writes)} planned "
+            f"page write(s). Observation: {observation_path}."
         )
         self.store.append_log(self.today, "ingest", source_path, report)
         return OperationResult(
             "ingest",
             source_path,
             report,
-            transcript,
-            self._pdf_ingest_run(source_path, manifest, hub),
+            last_transcript,
+            self._pdf_ingest_run(source_path, page_plan),
         )
 
     def _reconcile_hub_key_lists(self, hub: str, salience: SalienceReport) -> None:
@@ -376,43 +395,78 @@ class Session:
             source_plans=(source_plan,),
         )
 
-    def _pdf_ingest_run(self, source_path: str, manifest: Any, hub: str) -> IngestRun:
+    def _extracted_units(
+        self, result: ExtractionResult, raw_source: RawSource
+    ) -> tuple[ExtractedUnit, ...]:
+        units = []
+        for record in result.manifest.chunks:
+            text = chunk_file(result.cache_dir, record.chunk_id).read_text(encoding="utf-8")
+            units.append(
+                ExtractedUnit(
+                    unit_id=f"unit-{record.chunk_id:04d}",
+                    raw_source=raw_source,
+                    locator=f"p.{record.start_page}-{record.end_page}",
+                    heading_path=record.heading,
+                    text=text,
+                    extraction_status="ok",
+                    source_hash=result.manifest.sha256,
+                )
+            )
+        return tuple(units)
+
+    def _write_page_plan(self, cache_dir: Path, page_plan: PagePlan) -> Path:
+        path = cache_dir / "page_plan.json"
+        path.write_text(page_plan_to_json(page_plan), encoding="utf-8")
+        return path
+
+    def _write_observation(self, cache_dir: Path, page_plan: PagePlan) -> str:
+        path = cache_dir / "observation.md"
+        path.write_text(observation_report(page_plan), encoding="utf-8")
+        return str(path)
+
+    def _mark_manifest_planned(self, manifest: Any, pages_by_unit: dict[str, list[str]]) -> Any:
+        updated = manifest
+        for record in manifest.chunks:
+            unit_id = f"unit-{record.chunk_id:04d}"
+            pages = tuple(dict.fromkeys(pages_by_unit.get(unit_id, ())))
+            notes = "Global PagePlan executed"
+            if pages:
+                notes += ": " + ", ".join(f"[[{page}]]" for page in pages)
+            if record.status == "done" and record.notes == notes and record.pages_written == pages:
+                continue
+            updated = updated.mark_done(record.chunk_id, notes, pages_written=pages)
+        return updated
+
+    def _write_counts(self, pages_by_unit: dict[str, list[str]]) -> dict[str, int]:
+        counts: dict[str, int] = {}
+        for pages in pages_by_unit.values():
+            for page in pages:
+                counts[page] = counts.get(page, 0) + 1
+        return counts
+
+    def _pdf_ingest_run(self, source_path: str, page_plan: PagePlan) -> IngestRun:
         raw_source = self.store.raw_source(source_path)
-        plans = [
+        plans = tuple(
             SourcePlan(
                 raw_source=raw_source,
-                source_classification="pdf chunk",
-                ingest_disposition="create-or-update",
-                expected_wiki_pages=record.pages_written,
-                handling_notes=record.notes,
+                source_classification="planned pdf write",
+                ingest_disposition=write.action,
+                target_page_metadata=write.page_metadata,
+                target_page_paths=(
+                    (write.projection.page_path if write.projection else ""),
+                ),
+                expected_wiki_pages=(write.page_metadata.page_id,),
+                handling_notes="Global PagePlan write.",
             )
-            for record in manifest.chunks
-        ]
-        hub_metadata = WikiPage(
-            name=hub,
-            category="source",
-            summary=f"Source hub for raw/{source_path}.",
-            body="",
-            sources=(source_path,),
-            updated=self.today,
-        ).page_metadata
-        plans.append(
-            SourcePlan(
-                raw_source=raw_source,
-                source_classification="pdf integration",
-                ingest_disposition="create-or-update",
-                target_page_metadata=hub_metadata,
-                target_page_paths=(str(self.store.structure.render_path(hub_metadata)),),
-                expected_wiki_pages=(hub,),
-                handling_notes="Integrate chunk notes into source hub.",
-            )
+            for write in page_plan.planned_writes
         )
         return IngestRun(
             source_bundle=SourceBundle.one(raw_source),
             wiki_structure=self.store.structure,
             schema=self._schema_object(),
             extraction_prompt=self._extraction_prompt(source_path),
-            source_plans=tuple(plans),
+            source_plans=plans,
+            page_plan=page_plan,
         )
 
     def _lint_findings(self) -> tuple[LintFinding, ...]:

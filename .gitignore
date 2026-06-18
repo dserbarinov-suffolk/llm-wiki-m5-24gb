@@ -4,6 +4,8 @@ llama.cpp/
 forge/
 .venv/
 harness/runs/
+harness/.cache/
+harness/cache/
 __pycache__/
 *.egg-info/
 .coverage

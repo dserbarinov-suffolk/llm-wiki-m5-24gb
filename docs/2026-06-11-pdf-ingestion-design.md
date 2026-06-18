@@ -122,7 +122,7 @@ applied one level up).
   oversized sections at paragraph boundaries only; records heading path and
   page range per chunk.
 - **Chunk manifest + markdown cache** — derived artifacts under
-  `harness/cache/<sha256>/`, keyed by file content hash; gitignored,
+  `harness/.cache/<sha256>/`, keyed by file content hash; gitignored,
   reproducible, safely deletable. The manifest tracks per-chunk status, which
   makes the ingest resumable and idempotent.
 - **forge Runner / workflows** — unchanged guardrail stack; two new workflow

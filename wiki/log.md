@@ -59,3 +59,6 @@ Created hub source page 'javascriptallonge' linking all 20 chapter/topic pages f
 
 ## [2026-06-18] chat | 1 turns across 1 conversation
 Conversations: 20260618-113423. History in harness/chat.db; transcripts per turn in harness/runs/.
+
+## [2026-06-18] ingest | javascriptallonge.pdf
+Planned ingest completed for 20 extracted unit(s) from raw/javascriptallonge.pdf. Executed 21 planned page write(s). Observation: /Users/DSerbarinov/llm-wiki/harness/cache/c98ab3e62b35ab0f/observation.md.

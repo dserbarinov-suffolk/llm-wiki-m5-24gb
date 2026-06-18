@@ -66,6 +66,17 @@ INTEGRATE_TEMPLATE = _BASE + (
     "structure."
 )
 
+PLANNED_WRITE_TEMPLATE = _BASE + (
+    "\nTask: execute one PlannedPageWrite. The user message names the exact "
+    "target PageId, PageKind, PagePath, evidence, wiki matches, and extracted "
+    "source units. write_page is bound to that target page by the PagePlan, "
+    "so provide only the markdown body. For source pages, write a compact "
+    "replacement from the supplied evidence and do not read the existing page. "
+    "For non-source pages, read_page first when updating an existing page. "
+    "Do not create or update any other page. Write a compact source summary, not a transcript. "
+    "When the target page is written, call finish_planned_write with a concise report."
+)
+
 CHAT_TEMPLATE = _BASE + (
     "\nTask: hold a conversation grounded in the wiki. Answer from wiki "
     "content with [[page]] and (raw/<path>) citations; when the wiki lacks "

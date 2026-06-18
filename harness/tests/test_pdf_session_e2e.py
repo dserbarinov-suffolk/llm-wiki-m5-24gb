@@ -1,17 +1,17 @@
-"""End-to-end chunked-PDF ingest: real WorkflowRunner + store, fake LLM,
-fake extractor. Covers the map loop, resume semantics, digest hand-off,
-and the single log entry on completion.
+"""End-to-end planned PDF ingest: real WorkflowRunner + store, fake LLM,
+fake extractor. Covers global PagePlan creation before writes, serial
+PlannedPageWrite execution, manifest recording, and observation output.
 """
 
-import pytest
+from pathlib import Path
+
 from fakes import FakeClient
 from forge.context import ContextManager, NoCompact
-from forge.core.workflow import ToolCall
+from forge.core.workflow import LLMResponse, ToolCall
 
 from llmwiki.config import WikiPaths
 from llmwiki.domain.objects import IngestRun
 from llmwiki.domain.pages import WikiPage
-from llmwiki.pdf import PdfError
 from llmwiki.pdf.manifest import ChunkRecord, Manifest, from_json
 from llmwiki.pdf.pipeline import ExtractionResult
 from llmwiki.runtime.session import Session
@@ -32,30 +32,44 @@ def _fake_extraction(
         source="book.pdf",
         sha256="deadbeef" * 8,
         chunks=(
-            ChunkRecord(
-                1,
-                "Functions",
-                1,
-                10,
-                4000,
-                status=statuses[0],
-                notes="done already" if statuses[0] == "done" else "",
-            ),
+            ChunkRecord(1, "Functions", 1, 10, 4000, status=statuses[0]),
             ChunkRecord(2, "Closures", 11, 20, 3800, status=statuses[1]),
         ),
     )
     return ExtractionResult(manifest=manifest, cache_dir=cache_dir)
 
 
-def _write_page_call(name: str) -> ToolCall:
+def _write_page_call(name: str, content: str = "Body.") -> ToolCall:
     return ToolCall(
         tool="write_page",
-        args={"name": name, "category": "source", "summary": f"About {name}.", "content": "Body."},
+        args={"name": name, "category": "source", "summary": f"About {name}.", "content": content},
     )
 
 
+def _planned_turns(
+    page: str,
+    report: str,
+    *,
+    read_first: bool = False,
+    content: str = "Body.",
+) -> list[LLMResponse]:
+    turns: list[LLMResponse] = []
+    if read_first:
+        turns.append([ToolCall(tool="read_page", args={"name": page})])
+    turns.extend(
+        [
+            [_write_page_call(page, content)],
+            [ToolCall(tool="finish_planned_write", args={"report": report})],
+        ]
+    )
+    return turns
+
+
 def _session(
-    store: WikiStore, script: list, paths: WikiPaths, extraction: ExtractionResult
+    store: WikiStore,
+    script: list[LLMResponse],
+    paths: WikiPaths,
+    extraction: ExtractionResult,
 ) -> Session:
     notes_seen: list[str] = []
     session = Session(
@@ -72,166 +86,109 @@ def _session(
     return session
 
 
-def _map_turns(page: str, note: str) -> list:
-    return [
-        [ToolCall(tool="search_wiki", args={"query": page})],
-        [_write_page_call(page)],
-        [ToolCall(tool="finish_chunk", args={"report": note})],
-    ]
+class PlanAwareStore(WikiStore):
+    def __init__(self, paths: WikiPaths, plan_path: Path) -> None:
+        super().__init__(paths)
+        self._plan_path = plan_path
+
+    def write_page(self, page: WikiPage) -> None:
+        assert self._plan_path.exists()
+        super().write_page(page)
 
 
-_INTEGRATE_TURNS = [
-    [_write_page_call("javascriptallonge")],
-    [ToolCall(tool="finish_ingest", args={"report": "Hub linked to 2 chapter pages."})],
-]
+class TestPlannedPdfIngest:
+    async def test_plan_exists_before_any_wiki_write(self, paths: WikiPaths) -> None:
+        (paths.raw_dir / "book.pdf").write_bytes(b"%PDF-1.5 fake")
+        extraction = _fake_extraction(paths)
+        plan_path = extraction.cache_dir / "page_plan.json"
+        store = PlanAwareStore(paths, plan_path)
+        script = (
+            _planned_turns("book-functions", "functions written")
+            + _planned_turns("book-closures", "closures written")
+            + _planned_turns("book", "hub written")
+        )
+        result = await _session(store, script, paths, extraction).ingest("book.pdf")
 
+        assert "Planned ingest completed" in result.output
+        assert plan_path.exists()
+        assert {"book-functions", "book-closures", "book"} <= set(store.list_pages())
 
-class TestPdfIngest:
-    async def test_full_map_then_integrate(self, store: WikiStore, paths: WikiPaths) -> None:
-        # The PDF must exist for source_path resolution in the real flow; the
-        # fake extractor ignores it but Session resolves the raw path first.
+    async def test_page_plan_and_manifest_record_planned_writes(
+        self, store: WikiStore, paths: WikiPaths
+    ) -> None:
         (paths.raw_dir / "book.pdf").write_bytes(b"%PDF-1.5 fake")
         extraction = _fake_extraction(paths)
         script = (
-            _map_turns("functions", "noted functions")
-            + _map_turns("closures", "noted closures")
-            + _INTEGRATE_TURNS
+            _planned_turns("book-functions", "functions written")
+            + _planned_turns("book-closures", "closures written")
+            + _planned_turns("book", "hub written")
         )
         session = _session(store, script, paths, extraction)
         result = await session.ingest("book.pdf")
 
-        assert result.output == "Hub linked to 2 chapter pages."
         assert isinstance(result.run, IngestRun)
-        assert result.run.source_bundle.raw_sources[0].source_locator == "book.pdf"
+        assert result.run.page_plan is not None
+        assert len(result.run.page_plan.extracted_units) == 2
         assert [p.source_classification for p in result.run.source_plans] == [
-            "pdf chunk",
-            "pdf chunk",
-            "pdf integration",
+            "planned pdf write",
+            "planned pdf write",
+            "planned pdf write",
         ]
-        assert result.run.source_plans[-1].target_page_paths == ("book.md",)
-        # Both map chunks wrote pages; integrate wrote the hub.
-        assert {"functions", "closures", "javascriptallonge"} <= set(store.list_pages())
-        # Manifest on disk: all done + integrated, notes captured.
         saved = from_json((extraction.cache_dir / "manifest.json").read_text(encoding="utf-8"))
         assert saved.all_done and saved.integrated
-        assert saved.chunks[0].notes == "noted functions"
-        # One log entry for the whole ingest.
-        log = paths.log_path.read_text(encoding="utf-8")
-        assert log.count("ingest | book.pdf") == 1
-        # Supervision notes streamed per chunk.
-        assert len(session._notes_seen) == 2  # type: ignore[attr-defined]
-        assert "[chunk 1/2]" in session._notes_seen[0]  # type: ignore[attr-defined]
+        assert saved.chunks[0].pages_written == ("book-functions",)
+        assert saved.chunks[1].pages_written == ("book-closures",)
 
-    async def test_resume_skips_done_chunks(self, store: WikiStore, paths: WikiPaths) -> None:
-        (paths.raw_dir / "book.pdf").write_bytes(b"%PDF-1.5 fake")
-        extraction = _fake_extraction(paths, statuses=("done", "pending"))
-        script = _map_turns("closures", "resumed fine") + _INTEGRATE_TURNS
-        session = _session(store, script, paths, extraction)
-        result = await session.ingest("book.pdf")
-
-        assert result.output == "Hub linked to 2 chapter pages."
-        saved = from_json((extraction.cache_dir / "manifest.json").read_text(encoding="utf-8"))
-        assert saved.all_done and saved.integrated
-        # Chunk 1's pre-existing notes survived; only chunk 2 ran.
-        assert saved.chunks[0].notes == "done already"
-        assert saved.chunks[1].notes == "resumed fine"
-
-    async def test_digest_reaches_integrate_run(self, store: WikiStore, paths: WikiPaths) -> None:
-        (paths.raw_dir / "book.pdf").write_bytes(b"%PDF-1.5 fake")
-        extraction = _fake_extraction(paths)
-        script = (
-            _map_turns("functions", "claims about functions")
-            + _map_turns("closures", "claims about closures")
-            + _INTEGRATE_TURNS
-        )
-        session = _session(store, script, paths, extraction)
-        await session.ingest("book.pdf")
-
-        fake: FakeClient = session.client
-        integrate_first_turn = fake.sent[-2]  # first integrate request
-        user_msgs = [m["content"] for m in integrate_first_turn if m.get("role") == "user"]
-        assert any(
-            "claims about functions" in c and "claims about closures" in c for c in user_msgs
-        )
-        assert any("p.1-10" in c for c in user_msgs)
-
-    async def test_chunk_text_and_citation_reach_map_run(
+    async def test_existing_source_page_is_enriched_instead_of_duplicated(
         self, store: WikiStore, paths: WikiPaths
     ) -> None:
-        (paths.raw_dir / "book.pdf").write_bytes(b"%PDF-1.5 fake")
-        extraction = _fake_extraction(paths)
-        script = _map_turns("functions", "n1") + _map_turns("closures", "n2") + _INTEGRATE_TURNS
-        session = _session(store, script, paths, extraction)
-        await session.ingest("book.pdf")
-
-        fake: FakeClient = session.client
-        first_map_turn = fake.sent[0]
-        user_msgs = [m["content"] for m in first_map_turn if m.get("role") == "user"]
-        assert any("functions are values" in c for c in user_msgs)
-        assert any("(raw/book.pdf p.1-10)" in c for c in user_msgs)
-
-    async def test_writes_recorded_and_salience_reaches_integrate(
-        self, store: WikiStore, paths: WikiPaths
-    ) -> None:
-        # A pre-existing concept page that both chunk pages link to — it must
-        # appear ranked in the computed salience block handed to integrate.
         store.write_page(
             WikiPage(
-                name="iterable",
-                category="concept",
-                summary="Core protocol.",
-                body="Central concept.",
-                sources=("raw/book.pdf",),  # in scope for the book's salience
+                name="functions",
+                category="source",
+                summary="Existing function source page.",
+                body="functions are values from raw/book.pdf p.1-10",
+                sources=("raw/book.pdf p.1-10",),
                 updated=TODAY,
             )
         )
         (paths.raw_dir / "book.pdf").write_bytes(b"%PDF-1.5 fake")
         extraction = _fake_extraction(paths)
+        script = (
+            _planned_turns("functions", "functions enriched")
+            + _planned_turns("book-closures", "closures written")
+            + _planned_turns("book", "hub written")
+        )
+        result = await _session(store, script, paths, extraction).ingest("book.pdf")
 
-        def _linked_write(name: str) -> ToolCall:
-            return ToolCall(
-                tool="write_page",
-                args={
-                    "name": name,
-                    "category": "source",
-                    "summary": f"About {name}.",
-                    "content": "Builds on [[iterable]].",
-                    "sources": ["raw/book.pdf"],
-                },
-            )
+        assert isinstance(result.run, IngestRun)
+        assert result.run.page_plan is not None
+        first_write = result.run.page_plan.planned_writes[0]
+        assert first_write.action == "enrich-existing"
+        assert first_write.page_metadata.page_id == "functions"
+        assert "book-functions" not in store.list_pages()
 
-        script = [
-            [ToolCall(tool="search_wiki", args={"query": "functions"})],
-            [_linked_write("functions")],
-            [ToolCall(tool="finish_chunk", args={"report": "n1"})],
-            [ToolCall(tool="search_wiki", args={"query": "closures"})],
-            [_linked_write("closures")],
-            [ToolCall(tool="finish_chunk", args={"report": "n2"})],
-            *_INTEGRATE_TURNS,
-        ]
-        session = _session(store, script, paths, extraction)
-        await session.ingest("book.pdf")
-
-        # Machine record landed in the manifest.
-        saved = from_json((extraction.cache_dir / "manifest.json").read_text(encoding="utf-8"))
-        assert saved.chunks[0].pages_written == ("functions",)
-        assert saved.chunks[1].pages_written == ("closures",)
-        # The integrate run received the computed salience block with the
-        # linked concept ranked in it, plus the per-chunk machine record.
-        fake: FakeClient = session.client
-        integrate_msgs = [m["content"] for m in fake.sent[-2] if m.get("role") == "user"]
-        assert any("Salience report" in c and "[[iterable]] (links 2" in c for c in integrate_msgs)
-        assert any("Pages written (recorded): [[functions]]" in c for c in integrate_msgs)
-
-    async def test_hub_key_lists_reconciled_after_integrate(
+    async def test_observation_report_lists_counts_and_paths(
         self, store: WikiStore, paths: WikiPaths
     ) -> None:
-        # The model writes the hub WITH its own (merged, stale) key lists;
-        # the harness must replace them with computed ones post-run.
         (paths.raw_dir / "book.pdf").write_bytes(b"%PDF-1.5 fake")
-        extraction = _fake_extraction(paths, statuses=("done", "done"))
-        chunks_dir = extraction.cache_dir / "chunks"
-        (chunks_dir / "0001.md").write_text("iterable " * 12, encoding="utf-8")
+        extraction = _fake_extraction(paths)
+        script = (
+            _planned_turns("book-functions", "functions written")
+            + _planned_turns("book-closures", "closures written")
+            + _planned_turns("book", "hub written")
+        )
+        await _session(store, script, paths, extraction).ingest("book.pdf")
+
+        report = (extraction.cache_dir / "observation.md").read_text(encoding="utf-8")
+        assert "ExtractedUnits: 2" in report
+        assert "TopicClusters:" in report
+        assert "`book-functions` -> `book-functions.md`" in report
+        assert "Observation:" in paths.log_path.read_text(encoding="utf-8")
+
+    async def test_hub_key_lists_reconciled_after_planned_writes(
+        self, store: WikiStore, paths: WikiPaths
+    ) -> None:
         store.write_page(
             WikiPage(
                 name="iterable",
@@ -242,44 +199,35 @@ class TestPdfIngest:
                 updated=TODAY,
             )
         )
-        script = [
-            [
-                ToolCall(
-                    tool="write_page",
-                    args={
-                        "name": "book",  # slugify('book.pdf'.stem) == the hub
-                        "category": "source",
-                        "summary": "Hub.",
-                        "content": "Summary prose.\n\n**Key entities**: [[matthew-knox]].",
-                        "sources": ["raw/book.pdf"],
-                    },
-                )
-            ],
-            [ToolCall(tool="finish_ingest", args={"report": "hub written"})],
-        ]
-        session = _session(store, script, paths, extraction)
-        await session.ingest("book.pdf", reintegrate=True)
+        (paths.raw_dir / "book.pdf").write_bytes(b"%PDF-1.5 fake")
+        extraction = _fake_extraction(paths)
+        (extraction.cache_dir / "chunks" / "0001.md").write_text(
+            "iterable " * 12,
+            encoding="utf-8",
+        )
+        script = (
+            _planned_turns(
+                "book-functions",
+                "functions written",
+                content="Functions build on [[iterable]].",
+            )
+            + _planned_turns(
+                "book-closures",
+                "closures written",
+                content="Closures build on [[iterable]].",
+            )
+            + [
+                [
+                    _write_page_call(
+                        "book",
+                        "Hub prose with [[iterable]].\n\n**Key entities**: [[stale-person]].",
+                    )
+                ],
+                [ToolCall(tool="finish_planned_write", args={"report": "hub written"})],
+            ]
+        )
+        await _session(store, script, paths, extraction).ingest("book.pdf")
 
         hub_text = store.read_page("book")
-        assert "Summary prose." in hub_text
-        assert "matthew-knox" not in hub_text  # model's stale list replaced
+        assert "stale-person" not in hub_text
         assert "**Key concepts:** [[iterable]]" in hub_text
-
-    async def test_reintegrate_runs_integrate_only(
-        self, store: WikiStore, paths: WikiPaths
-    ) -> None:
-        (paths.raw_dir / "book.pdf").write_bytes(b"%PDF-1.5 fake")
-        extraction = _fake_extraction(paths, statuses=("done", "done"))
-        session = _session(store, list(_INTEGRATE_TURNS), paths, extraction)
-        result = await session.ingest("book.pdf", reintegrate=True)
-        assert result.output == "Hub linked to 2 chapter pages."
-        assert "ingest | book.pdf" in paths.log_path.read_text(encoding="utf-8")
-
-    async def test_reintegrate_with_pending_chunks_refuses(
-        self, store: WikiStore, paths: WikiPaths
-    ) -> None:
-        (paths.raw_dir / "book.pdf").write_bytes(b"%PDF-1.5 fake")
-        extraction = _fake_extraction(paths)  # both pending
-        session = _session(store, [], paths, extraction)
-        with pytest.raises(PdfError, match="pending"):
-            await session.ingest("book.pdf", reintegrate=True)

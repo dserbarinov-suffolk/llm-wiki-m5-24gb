@@ -1,8 +1,20 @@
 ---
 category: source
-summary: Chapter on self-similar data structures in JavaScript.
-sources: raw/javascriptallonge.pdf
-updated: 2026-06-12
+summary: Self-Similarity from raw/javascriptallonge.pdf.
+sources: raw/javascriptallonge.pdf p.109-125
+updated: 2026-06-18
+domain: javascriptallonge
+category_path: source-sections
+source_id: javascriptallonge.pdf
 ---
 
-This chapter from *JavaScript Allongé* explores self-similar data structures, such as linked lists and trees, where each node contains a reference to another node of the same type. The discussion includes implementation patterns and use cases (raw/javascriptallonge.pdf p.177-192).
+## Self-Similarity
+
+In *JavaScript Allongé*, the concept of **self-similarity** is explored through recursion and the manipulation of arrays using destructuring and spreads. This idea is rooted in the recursive definition of a list, which can be either:
+
+1. Empty (`[]`), or
+2. An element concatenated with a list (`[e, ...list]`).
+
+This parallels the use of array literals and destructuring assignments to compose and decompose data structures. For example:
+
+- Building a list: `[

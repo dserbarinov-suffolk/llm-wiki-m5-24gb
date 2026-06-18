@@ -10,7 +10,9 @@ from llmwiki.domain.pages import (
     LOCAL_FLAT_STRUCTURE,
     PageError,
     PageMetadata,
+    PathTemplate,
     WikiPage,
+    WikiStructure,
     parse_page,
     render_page,
 )
@@ -68,6 +70,37 @@ class TestPages:
         )
         assert str(LOCAL_FLAT_STRUCTURE.render_path(metadata)) == "javascriptallonge-chapter-5.md"
 
+    def test_page_metadata_projects_to_declared_folder_path(self) -> None:
+        structure = WikiStructure(
+            structure_id="domain-category",
+            default_path_template=PathTemplate(
+                template_text="{Domain}/{CategoryPath}/{PageId}.md",
+                required_page_metadata_fields=("Domain", "CategoryPath", "PageId"),
+            ),
+        )
+        metadata = PageMetadata(
+            page_id="lcn-4040xp",
+            page_kind="source",
+            summary="LCN closer source page.",
+            domain="doors",
+            category_path="hardware/closers",
+        )
+
+        assert str(structure.render_path(metadata)) == "doors/hardware/closers/lcn-4040xp.md"
+
+    def test_page_metadata_required_field_is_enforced(self) -> None:
+        structure = WikiStructure(
+            structure_id="domain-category",
+            default_path_template=PathTemplate(
+                template_text="{Domain}/{PageId}.md",
+                required_page_metadata_fields=("Domain", "PageId"),
+            ),
+        )
+        metadata = PageMetadata(page_id="lcn-4040xp", page_kind="source", summary="LCN closer.")
+
+        with pytest.raises(PageError, match="Domain"):
+            structure.render_path(metadata)
+
     def test_wiki_page_exposes_page_metadata(self) -> None:
         page = WikiPage(
             name="closure",
@@ -76,6 +109,11 @@ class TestPages:
             body="Body.",
             sources=("raw/javascriptallonge.pdf",),
             updated="2026-06-18",
+            domain="javascript",
+            category_path="language/functions",
+            source_id="javascriptallonge.pdf",
+            tags=("closure",),
+            aliases=("lexical-closure",),
         )
         assert page.page_metadata == PageMetadata(
             page_id="closure",
@@ -83,6 +121,11 @@ class TestPages:
             summary="A captured lexical environment.",
             sources=("raw/javascriptallonge.pdf",),
             updated="2026-06-18",
+            domain="javascript",
+            category_path="language/functions",
+            source_id="javascriptallonge.pdf",
+            tags=("closure",),
+            aliases=("lexical-closure",),
         )
         assert str(page.page_path()) == "closure.md"
 

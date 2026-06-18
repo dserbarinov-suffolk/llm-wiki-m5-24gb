@@ -8,11 +8,13 @@ tool-error channel for self-correction.
 
 from __future__ import annotations
 
+from dataclasses import replace
 from typing import Literal
 
 from forge.core.workflow import ToolDef, ToolSpec
 from pydantic import BaseModel, Field
 
+from llmwiki.domain.objects import PlannedPageWrite
 from llmwiki.domain.pages import WikiPage
 from llmwiki.domain.search import render_hits, search_pages
 from llmwiki.pdf.intermediate import OCR_MARKER
@@ -63,6 +65,13 @@ class WritePageParams(BaseModel):
 
 class FinishParams(BaseModel):
     report: str = Field(description="Short report of what was done and what changed.")
+
+
+class PlannedWritePageParams(BaseModel):
+    content: str = Field(
+        description="Full markdown body for the planned target page. "
+        "Link related pages inline with [[page-name]]. Do not include frontmatter."
+    )
 
 
 def read_source_tool(store: WikiStore) -> ToolDef:
@@ -189,6 +198,51 @@ def write_page_tool(
         ),
         callable=_write_page,
         prerequisites=prerequisites or [],
+    )
+
+
+def planned_write_page_tool(
+    store: WikiStore,
+    today: str,
+    planned_write: PlannedPageWrite,
+    read_tracker: set[str] | None = None,
+    write_log: list[str] | None = None,
+) -> ToolDef:
+    """write_page variant for PagePlan execution.
+
+    PagePlan owns PageId, PageKind, PageMetadata, and projection fields.
+    The model supplies only the markdown body.
+    """
+
+    target_page = planned_write.page_metadata.page_id
+
+    def _write_page(**kwargs: object) -> str:
+        params = PlannedWritePageParams(**kwargs)  # type: ignore[arg-type]
+        if (
+            read_tracker is not None
+            and target_page not in read_tracker
+            and target_page in store.list_pages()
+        ):
+            raise WikiStoreError(
+                f"Page '{target_page}' already exists and write_page replaces "
+                f"it entirely. Call read_page(name='{target_page}') first, "
+                "then rewrite it carrying forward the content you keep."
+            )
+        metadata = replace(planned_write.page_metadata, updated=today)
+        page = WikiPage.from_metadata(metadata, _strip_pipeline_markers(params.content))
+        store.write_page(page)
+        if write_log is not None:
+            write_log.append(target_page)
+        return f"Wrote wiki/{store.rendered_page_path(page)} and updated its index entry."
+
+    return ToolDef(
+        spec=ToolSpec(
+            name="write_page",
+            description=f"Write the planned target page [[{target_page}]]. "
+            "The PagePlan supplies PageId, PageKind, PageMetadata, and PagePath.",
+            parameters=PlannedWritePageParams,
+        ),
+        callable=_write_page,
     )
 
 

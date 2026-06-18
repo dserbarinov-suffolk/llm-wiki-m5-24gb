@@ -1,38 +1,37 @@
 ---
 category: source
-summary: Hub page for JavaScript Allongé, summarizing the entire book and linking to chapter-specific source pages with updated cross-references.
+summary: Hub page for raw/javascriptallonge.pdf.
 sources: raw/javascriptallonge.pdf
 updated: 2026-06-18
+domain: javascriptallonge
+category_path: sources
+source_id: javascriptallonge.pdf
 ---
 
-This is the hub page for *JavaScript Allongé*, a book focusing on functional programming with JavaScript, ECMAScript 2015 updates, and publishing via Leanpub. The following pages summarize its chapters and key concepts:
+# javascriptallonge
 
-- [[javascriptallonge-frontend]]: Front matter and publishing details.
-- [[javascriptallonge-forewords-to-the-first-edition]]: Forewords and publishing context.
-- [[javascriptallonge-as-little-as-possible-about-functions-but-no-less]]: Functions as reference types and `void` operator.
-- [[javascriptallonge-closures-and-scope]]: Closures, scope chains, and pure functions.
-- [[javascriptallonge-chapter-5]]: `const`, lexical scoping, and IIFE patterns.
-- [[javascriptallonge-naming-functions]]: Function declarations, combinators, and decorators.
-- [[javascriptallonge-recipes-with-basic-functions]]: Partial application and unary functions.
-- [[javascriptallonge-picking-the-bean-choice-and-truthiness]]: Truthiness, logical operators, and array destructuring.
-- [[javascriptallonge-composing-and-decomposing-data]]: Composing and decomposing data patterns.
-- [[javascriptallonge-self-similarity]]: Recursion, tail-call optimization, and folding.
-- [[javascriptallonge-garbage-garbage-everywhere]]: Array recursion vs. linked lists.
-- [[javascriptallonge-mutation]]: Mutation mechanics, `const`, and destructuring.
-- [[javascriptallonge-copy-on-write]]: Copy-on-write tradeoffs and functional iterators.
-- [[javascriptallonge-making-data-out-of-functions]]: Combinators and functional data structures.
-- [[javascriptallonge-object-assign]]: `Object.assign` for shallow cloning and quasi-literals.
-- [[javascriptallonge-iteration-and-iterables]]: Iterators, iterables, and ordered collections.
-- [[javascriptallonge-generating-iterables]]: Generators and coroutines.
-- [[javascriptallonge-lazy-eager-collections]]: Lazy vs. eager evaluation.
-- [[javascriptallonge-interlude-the-carpenter-interviews-for-a-job]]: Cycle detection with iterables.
-- [[javascriptallonge-interactive-generators]]: Stateful generators and games.
-- [[javascriptallonge-copyright-notice]]: Copyright details and authorship.
-- [[mapping]]: Recursion and array operations.
-- [[tortoise-and-hare-algorithm]]: Loop detection in linked lists.
-- [[floyd-s-cycle-finding-algorithm]]: Cycle detection via iterables.
-- [[stateful-map]]: Stateful mapping for cycle detection.
+This is the hub page for the source `raw/javascriptallonge.pdf`, which is a book titled *JavaScript Allongé, the "Six" Edition* by Reg "raganwald" Braithwaite. It covers programming concepts in ECMAScript 2015, focusing on functions, data structures, and functional programming.
 
-**Key concepts:** [[function]], [[arrays]], [[const]], [[iterable]], [[linked-lists]], [[combinator]], [[functional-iterators]], [[mapping]]
+## Key Concepts:
+- Functions and closures
+- Partial application and combinators
+- Data structures and iteration
+- Functional iterators and data composition
+- Copy-on-write and mutation
+
+## Key Entities:
+- [[javascriptallonge-recipes-with-basic-functions]]
+- [[javascriptallonge-as-little-as-possible-about-functions-but-no-less]]
+- [[javascriptallonge-naming-functions]]
+- [[javascriptallonge-copy-on-write]]
+- [[iterable]]
+
+## Summary:
+This book provides an in-depth exploration of JavaScript programming with a functional perspective. It is structured into chapters covering topics such as functions, data structures, and iteration, with practical examples and recipes for common programming tasks.
+
+## Source:
+- `raw/javascriptallonge.pdf`
+
+**Key concepts:** [[iterable]], [[const]], [[function]], [[arrays]], [[linked-lists]], [[combinator]], [[ecmascript-2015]], [[ordered-collection]]
 
 **Key entities:** [[javascript]], [[generator]], [[undefined]]

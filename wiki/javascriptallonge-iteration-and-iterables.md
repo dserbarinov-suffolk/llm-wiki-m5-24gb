@@ -1,31 +1,35 @@
 ---
 category: source
-summary: Updated to include iterable operations from the chunk: mapWith, filterWith, zip, zipWith, memoize, and reduceWith.
-sources: raw/javascriptallonge.pdf
-updated: 2026-06-12
+summary: Iteration and Iterables from raw/javascriptallonge.pdf.
+sources: raw/javascriptallonge.pdf p.206-223
+updated: 2026-06-18
+domain: javascriptallonge
+category_path: source-sections
+source_id: javascriptallonge.pdf
 ---
 
 ## Iteration and Iterables
 
-This page documents iterable operations from *JavaScript Allongé* (pages 273-292), including functions to transform and combine iterables:
+This page summarizes the content from `raw/javascriptallonge.pdf` pages 206-223, which discusses iteration and iterables in JavaScript.
 
-### Transforming Iterables
-- **mapWith(fn, iterable)**: Yields `fn(element)` for each element.
-- **filterWith(fn, iterable)**: Yields elements where `fn(element)` is truthy.
-- **compact(iterable)**: Yields non-null elements.
-- **untilWith(fn, iterable)**: Yields elements until `fn(element)` is truthy.
-- **take(number, iterable)**: Yields the first `number` elements.
+### Key Concepts
+- **Iteration**: The process of acting on elements of a collection one at a time.
+- **Functional Iterators**: Functions that allow iteration over collections, such as the `iterator()` method for objects.
+- **Iterator Objects**: Objects with a `.next()` method for iteration, providing a more structured approach compared to functional iterators.
 
-### Combining Iterables
-- **zip(...iterables)**: Yields tuples of elements from each iterable until one is exhausted.
-- **zipWith(zipper, ...iterables)**: Applies `zipper` to tuples from multiple iterables (e.g., `zipWith((a, b) => a + b, [1,2], [3,4])` → `[4,6]`).
-- **rest(iterable)**: Yields all elements except the first.
+### Example: Functional Iterator
+A stack object with an `iterator()` method returns a function that yields elements one by one. This function can be used with a `sum` function to compute the sum of elements in the stack.
 
-### Reducing Iterables
-- **reduceWith(fn, seed, iterable)**: Applies `fn` cumulatively to reduce the iterable to a single value.
-- **first(iterable)**: Returns the first element.
+### Example: Iterator Object
+An alternative approach uses an iterator object with a `.next()` method to iterate over elements. This is useful for large collections and allows for more structured iteration mechanics.
 
-### Memoizing Iterables
-- **memoize(generator)**: Caches results of a generator to avoid recomputation.
+### Benefits
+- **Lazy Evaluation**: Iteration is done lazily, improving efficiency.
+- **Flexibility**: Functions can work on any object that implements an `.iterator` method, without needing to know the internal implementation.
 
-Citations: (raw/javascriptallonge.pdf p.273-292)
+### Related Pages
+- [[iterable]]
+- [[javascriptallonge-recipes-with-basic-functions]]
+- [[ordered-collection]]
+- [[javascriptallonge-copy-on-write]]
+- [[javascriptallonge-chapter-5]]

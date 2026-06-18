@@ -71,6 +71,10 @@ class PageMetadata:
     summary: str
     sources: tuple[str, ...] = field(default=())
     updated: str = ""
+    domain: str = ""
+    category_path: str = ""
+    project_id: str = ""
+    source_id: str = ""
     tags: tuple[str, ...] = field(default=())
     aliases: tuple[str, ...] = field(default=())
 
@@ -93,12 +97,22 @@ class PathTemplate:
             raise PageError(
                 f"Page kind {metadata.page_kind!r} does not match this path template."
             )
-        path_text = self.template_text.format(
+        fields = dict(
             PageId=metadata.page_id,
             PageKind=metadata.page_kind,
             Summary=metadata.summary,
             Updated=metadata.updated,
+            Domain=metadata.domain,
+            CategoryPath=metadata.category_path,
+            ProjectId=metadata.project_id,
+            SourceId=metadata.source_id,
         )
+        for field_name in self.required_page_metadata_fields:
+            if field_name not in fields:
+                raise PageError(f"Unknown required PageMetadata field {field_name!r}.")
+            if not fields[field_name]:
+                raise PageError(f"PageMetadata field {field_name!r} is required.")
+        path_text = self.template_text.format(**fields)
         path = PurePosixPath(path_text)
         if path.is_absolute() or ".." in path.parts or not path.name.endswith(".md"):
             raise PageError(f"Invalid rendered page path {path_text!r}.")
@@ -136,6 +150,12 @@ class WikiPage:
     body: str
     sources: tuple[str, ...] = field(default=())
     updated: str = ""  # ISO date, supplied by the orchestrator
+    domain: str = ""
+    category_path: str = ""
+    project_id: str = ""
+    source_id: str = ""
+    tags: tuple[str, ...] = field(default=())
+    aliases: tuple[str, ...] = field(default=())
 
     def __post_init__(self) -> None:
         validate_page_name(self.name)
@@ -150,6 +170,12 @@ class WikiPage:
             summary=self.summary,
             sources=self.sources,
             updated=self.updated,
+            domain=self.domain,
+            category_path=self.category_path,
+            project_id=self.project_id,
+            source_id=self.source_id,
+            tags=self.tags,
+            aliases=self.aliases,
         )
 
     @property
@@ -172,6 +198,12 @@ class WikiPage:
             body=body,
             sources=metadata.sources,
             updated=metadata.updated,
+            domain=metadata.domain,
+            category_path=metadata.category_path,
+            project_id=metadata.project_id,
+            source_id=metadata.source_id,
+            tags=metadata.tags,
+            aliases=metadata.aliases,
         )
 
 
@@ -185,6 +217,18 @@ def render_page(page: WikiPage) -> str:
         lines.append(f"sources: {', '.join(page.sources)}")
     if page.updated:
         lines.append(f"updated: {page.updated}")
+    if page.domain:
+        lines.append(f"domain: {page.domain}")
+    if page.category_path:
+        lines.append(f"category_path: {page.category_path}")
+    if page.project_id:
+        lines.append(f"project_id: {page.project_id}")
+    if page.source_id:
+        lines.append(f"source_id: {page.source_id}")
+    if page.tags:
+        lines.append(f"tags: {', '.join(page.tags)}")
+    if page.aliases:
+        lines.append(f"aliases: {', '.join(page.aliases)}")
     lines.append(_FRONTMATTER_DELIM)
     return "\n".join(lines) + "\n\n" + page.body.strip() + "\n"
 
@@ -205,6 +249,8 @@ def parse_page(name: str, text: str) -> WikiPage:
     else:
         raise PageError(f"Page {name!r} frontmatter is unterminated.")
     sources = tuple(s.strip() for s in fields.get("sources", "").split(",") if s.strip())
+    tags = tuple(s.strip() for s in fields.get("tags", "").split(",") if s.strip())
+    aliases = tuple(s.strip() for s in fields.get("aliases", "").split(",") if s.strip())
     return WikiPage(
         name=name,
         category=fields.get("category", ""),
@@ -212,4 +258,10 @@ def parse_page(name: str, text: str) -> WikiPage:
         body="\n".join(lines[body_start:]).strip(),
         sources=sources,
         updated=fields.get("updated", ""),
+        domain=fields.get("domain", ""),
+        category_path=fields.get("category_path", ""),
+        project_id=fields.get("project_id", ""),
+        source_id=fields.get("source_id", ""),
+        tags=tags,
+        aliases=aliases,
     )

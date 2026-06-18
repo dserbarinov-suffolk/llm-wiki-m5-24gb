@@ -1,18 +1,35 @@
 ---
 category: source
-summary: JavaScript closures, scope chains, pure functions, and environment hierarchy (pages 44-48).
-sources: raw/javascriptallonge.pdf
-updated: 2026-06-11
+summary: Closures and Scope from raw/javascriptallonge.pdf.
+sources: raw/javascriptallonge.pdf p.44-48
+updated: 2026-06-18
+domain: javascriptallonge
+category_path: source-sections
+source_id: javascriptallonge.pdf
 ---
 
 ## Closures and Scope
 
-This chapter explores how nested functions access variables from outer scopes, defining key concepts:
+This page summarizes the discussion on closures and scope from *JavaScript Allongé* (raw/javascriptallonge.pdf p.44-48).
 
-- **Closures**: Functions containing free variables (e.g., `(y) => x` where `x` is from an outer scope).
-- **Scope chains**: Environments include parent environments (`'..'` references), enabling access to variables in ancestor scopes.
-- **Pure functions** vs. closures: Pure functions have no free variables (e.g., `(x) => x`), while closures rely on external variables.
-- **Shadowing**: Inner variables with the same name as outer ones override the outer bindings (e.g., `(x) => (x, y) => x + y`).
-- **Global environment**: All functions have access to a global environment, which can be isolated using IIFEs (e.g., `(() => { ... })()`).
+### Key Concepts
+- **Closures**: Functions that contain free variables (variables not bound within the function itself) are called closures.
+- **Pure Functions**: Functions with no free variables are called pure functions. They are easier to understand as their behavior is fully determined by their arguments.
+- **Environment**: When a function is evaluated, it has access to its environment, including the parent environment. This allows closures to access variables from outer scopes.
 
-Examples include the K Combinator `(x) => (y) => x` and currying/partial application patterns. The chapter also discusses how closures enable functional programming techniques.
+### Example
+- The expression `((x) => (y) => x)(1)(2)` evaluates to `1`. Here, the inner function `(y) => x` references the variable `x` from the outer function's environment, even though `x` is not bound in the inner function.
+
+### Pure vs. Closures
+- Pure functions always return the same result for the same inputs. Closures, however, depend on the environment in which they are evaluated, making their behavior context-sensitive.
+
+### Additional Notes
+- A closure can contain a pure function, but a pure function cannot contain a closure (as it would then have free variables).
+- The environment for nested functions includes references to the parent environment, enabling access to variables from outer scopes.
+
+### Related Topics
+- [[javascriptallonge-closures-and-scope]]
+- [[functional-programming]]
+- [[javascriptallonge-as-little-as-possible-about-functions-but-no-less]]
+- [[function]]
+- [[javascriptallonge-recipes-with-basic-functions]]

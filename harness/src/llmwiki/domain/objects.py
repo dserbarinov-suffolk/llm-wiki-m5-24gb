@@ -104,6 +104,98 @@ class SourcePlan:
 
 
 @dataclass(frozen=True)
+class ExtractedUnit:
+    unit_id: str
+    raw_source: RawSource
+    locator: str
+    heading_path: str
+    text: str
+    extraction_status: str
+    source_hash: str = ""
+
+
+@dataclass(frozen=True)
+class CandidateClaim:
+    claim_id: str
+    statement: str
+    evidence: Evidence
+    confidence: float = 1.0
+
+
+@dataclass(frozen=True)
+class CandidateTopic:
+    topic_id: str
+    label: str
+    candidate_claims: tuple[str, ...] = ()
+
+
+@dataclass(frozen=True)
+class CandidateEntity:
+    entity_id: str
+    label: str
+    candidate_claims: tuple[str, ...] = ()
+
+
+@dataclass(frozen=True)
+class TopicCluster:
+    cluster_id: str
+    label: str
+    extracted_units: tuple[str, ...]
+    candidate_claims: tuple[str, ...] = ()
+    candidate_topics: tuple[str, ...] = ()
+    candidate_entities: tuple[str, ...] = ()
+
+
+@dataclass(frozen=True)
+class WikiMatch:
+    wiki_page: str
+    score: float
+    match_reason: str
+    page_excerpt: str = ""
+
+
+@dataclass(frozen=True)
+class ClaimComparison:
+    candidate_claim: str
+    existing_claim: str
+    relation: str
+    wiki_page: str = ""
+
+
+@dataclass(frozen=True)
+class ProjectionMetadata:
+    page_metadata: PageMetadata
+    page_path: str
+
+
+@dataclass(frozen=True)
+class PlannedPageWrite:
+    write_id: str
+    action: str
+    page_metadata: PageMetadata
+    extracted_units: tuple[str, ...] = ()
+    evidence: tuple[Evidence, ...] = ()
+    wiki_matches: tuple[WikiMatch, ...] = ()
+    claim_comparisons: tuple[ClaimComparison, ...] = ()
+    projection: ProjectionMetadata | None = None
+    existing_page: str = ""
+
+
+@dataclass(frozen=True)
+class PagePlan:
+    plan_id: str
+    source_bundle: SourceBundle
+    extracted_units: tuple[ExtractedUnit, ...]
+    candidate_claims: tuple[CandidateClaim, ...]
+    candidate_topics: tuple[CandidateTopic, ...]
+    candidate_entities: tuple[CandidateEntity, ...]
+    topic_clusters: tuple[TopicCluster, ...]
+    wiki_matches: tuple[WikiMatch, ...]
+    claim_comparisons: tuple[ClaimComparison, ...]
+    planned_writes: tuple[PlannedPageWrite, ...]
+
+
+@dataclass(frozen=True)
 class IngestRun:
     source_bundle: SourceBundle
     wiki_structure: WikiStructure = LOCAL_FLAT_STRUCTURE
@@ -116,6 +208,7 @@ class IngestRun:
     wiki_pages: tuple[WikiPage, ...] = ()
     cross_references: tuple[CrossReference, ...] = ()
     evidence: tuple[Evidence, ...] = ()
+    page_plan: PagePlan | None = None
 
     def __post_init__(self) -> None:
         if self.ingest_topology != "serial":

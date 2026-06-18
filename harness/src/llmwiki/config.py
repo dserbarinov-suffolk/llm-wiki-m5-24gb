@@ -52,7 +52,7 @@ class WikiPaths:
     @property
     def cache_dir(self) -> Path:
         """Derived extraction artifacts (disposable; not a wiki layer)."""
-        return self.root / "harness" / "cache"
+        return self.root / "harness" / ".cache"
 
     def validate(self) -> None:
         for path in (self.raw_dir, self.wiki_dir, self.schema_path, self.index_path, self.log_path):

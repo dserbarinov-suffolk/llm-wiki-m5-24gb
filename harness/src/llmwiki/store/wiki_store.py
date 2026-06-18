@@ -21,6 +21,7 @@ from llmwiki.domain.log import format_log_entry
 from llmwiki.domain.objects import RawSource
 from llmwiki.domain.pages import (
     LOCAL_FLAT_STRUCTURE,
+    PageError,
     WikiPage,
     WikiStructure,
     parse_page,
@@ -94,7 +95,9 @@ class WikiStore:
 
     def list_pages(self) -> list[str]:
         return sorted(
-            p.stem for p in self._paths.wiki_dir.glob("*.md") if p.stem not in _RESERVED_NAMES
+            p.stem
+            for p in self._paths.wiki_dir.rglob("*.md")
+            if p.stem not in _RESERVED_NAMES and not _is_hidden_path(p, self._paths.wiki_dir)
         )
 
     def read_page(self, name: str) -> str:
@@ -125,8 +128,17 @@ class WikiStore:
         self._paths.index_path.write_text(index_text, encoding="utf-8")
 
     def page_path_for_name(self, name: str) -> Path:
-        page = WikiPage(name=name, category="source", summary="placeholder", body="")
-        return self._paths.wiki_dir / page.page_path(self._structure)
+        candidates = self._page_paths_for_name(name)
+        if len(candidates) == 1:
+            return candidates[0]
+        if len(candidates) > 1:
+            rendered = ", ".join(str(path.relative_to(self._paths.wiki_dir)) for path in candidates)
+            raise WikiStoreError(f"Multiple pages named {name!r}: {rendered}.")
+        try:
+            page = WikiPage(name=name, category="source", summary="placeholder", body="")
+            return self._paths.wiki_dir / page.page_path(self._structure)
+        except PageError:
+            return self._paths.wiki_dir / f"{name}.md"
 
     def page_path(self, page: WikiPage) -> Path:
         return self._paths.wiki_dir / page.page_path(self._structure)
@@ -137,6 +149,14 @@ class WikiStore:
     def _ensure_wiki_path(self, path: Path) -> None:
         if not path.resolve().is_relative_to(self._paths.wiki_dir.resolve()):
             raise WikiStoreError(f"Rendered page path {path} is outside wiki/.")
+
+    def _page_paths_for_name(self, name: str) -> list[Path]:
+        validate_page_name(name)
+        return sorted(
+            path
+            for path in self._paths.wiki_dir.rglob(f"{name}.md")
+            if path.stem == name and not _is_hidden_path(path, self._paths.wiki_dir)
+        )
 
     # -- navigation files ----------------------------------------------------
 
@@ -150,3 +170,7 @@ class WikiStore:
         entry = format_log_entry(date_iso, op, subject, detail)
         with self._paths.log_path.open("a", encoding="utf-8") as fh:
             fh.write(entry)
+
+
+def _is_hidden_path(path: Path, root: Path) -> bool:
+    return any(part.startswith(".") for part in path.relative_to(root).parts)

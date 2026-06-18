@@ -1,8 +1,11 @@
 ---
 category: source
-summary: Explains JavaScript's const keyword, lexical scoping, and function binding patterns like IIFEs.
-sources: raw/javascriptallonge.pdf p.49-61
-updated: 2026-06-12
+summary: That Constant Coffee Craving from raw/javascriptallonge.pdf.
+sources: raw/javascriptallonge.pdf p.49-61, raw/javascriptallonge.pdf p.206-223
+updated: 2026-06-18
+domain: javascriptallonge
+category_path: source-sections
+source_id: javascriptallonge.pdf
 ---
 
 ## That Constant Coffee Craving

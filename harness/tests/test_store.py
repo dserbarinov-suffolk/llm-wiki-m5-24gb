@@ -3,7 +3,7 @@
 import pytest
 
 from llmwiki.config import SOURCE_READ_BUDGET_CHARS, WikiPaths
-from llmwiki.domain.pages import WikiPage
+from llmwiki.domain.pages import PathTemplate, WikiPage, WikiStructure
 from llmwiki.store import PageNotFoundError, SourceNotFoundError, WikiStore, WikiStoreError
 
 
@@ -56,6 +56,31 @@ class TestWikiLayer:
         store.write_page(page)
         assert store.rendered_page_path(page) == "hittites.md"
         assert store.read_wiki_page("hittites").page_metadata == page.page_metadata
+
+    def test_write_page_can_project_to_nested_structure(self, paths: WikiPaths) -> None:
+        structure = WikiStructure(
+            structure_id="nested",
+            default_path_template=PathTemplate(
+                template_text="{Domain}/{CategoryPath}/{PageId}.md",
+                required_page_metadata_fields=("Domain", "CategoryPath", "PageId"),
+            ),
+        )
+        store = WikiStore(paths, structure=structure)
+        page = WikiPage(
+            name="lcn-4040xp",
+            category="source",
+            summary="LCN closer source page.",
+            body="Body.",
+            domain="doors",
+            category_path="hardware/closers",
+            updated="2026-06-18",
+        )
+
+        store.write_page(page)
+
+        assert (paths.wiki_dir / "doors/hardware/closers/lcn-4040xp.md").exists()
+        assert store.read_wiki_page("lcn-4040xp").page_metadata == page.page_metadata
+        assert store.list_pages() == ["lcn-4040xp"]
 
     def test_rewrite_updates_in_place(self, store: WikiStore) -> None:
         store.write_page(_page())

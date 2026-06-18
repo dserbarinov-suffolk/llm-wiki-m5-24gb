@@ -1,68 +1,42 @@
 ---
 category: source
-summary: Explains copy-on-write strategy for linked lists vs arrays, structure sharing, and trade-offs with copy-on-read. Includes code examples and the tortoise-and-hare loop detection algorithm.
-sources: raw/javascriptallonge.pdf
-updated: 2026-06-11
+summary: Copy on Write from raw/javascriptallonge.pdf.
+sources: raw/javascriptallonge.pdf p.158-176
+updated: 2026-06-18
+domain: javascriptallonge
+category_path: source-sections
+source_id: javascriptallonge.pdf
 ---
 
-## Copy-on-Write Strategy
+## Copy on Write
 
-This chapter discusses how JavaScript handles data structure sharing between arrays and linked lists. Key concepts include:
+**The Coffee Cow**
 
-- **Structure Sharing**: Arrays use copy-on-destructure (creates a copy), while linked lists share nodes by reference.
-- **Copy-on-Write**: A strategy where copies are made only when modifications occur, avoiding unnecessary duplication.
-- **Trade-offs**: Copy-on-read is safer but slower, while copy-on-write optimizes performance for infrequent modifications.
+When working with data structures like arrays and linked lists, there's a key difference in how they handle modifications:
 
-### Code Examples
+- **Arrays**: Taking the rest of an array with destructuring creates a copy of the elements. Modifications to the parent array do not affect the child array, and vice versa.
+- **Linked Lists**: Taking the rest of a linked list shares the same nodes. Modifications to the parent list affect the child list and vice versa.
 
-```javascript
-// Array vs linked list behavior
-const parentArray = [1, 2, 3];
-const [aFirst, ...childArray] = parentArray;
-parentArray[2] = "three";
-childArray[0] = "two";
-// parentArray => [1,2,"three"], childArray => ["two",3]
-```
+This can lead to unexpected behavior. For example, if you modify the parent list, the child list also changes, and vice versa.
 
-```javascript
-// Copy-on-write implementation
-const set = (index, value, list) => 
-  index === 0 
-    ? { first: value, rest: list.rest } 
-    : { first: list.first, rest: set(index - 1, value, list.rest) };
-```
+### a few utilities
 
-### Tortoise and Hare Algorithm
+To work at a higher level of abstraction, we can define a few utilities:
 
-Detects loops in linked lists using two pointers:
+- `copy(node, head = null, tail = null)`: Creates a copy of a linked list.
+- `first(node)`: Gets the first element of a list.
+- `rest(node)`: Gets the rest of a list.
+- `reverse(node, delayed = EMPTY)`: Reverses a list.
+- `mapWith(fn, node, delayed = EMPTY)`: Applies a function to each element of a list.
+- `at(index, list)`: Gets the element at a specific index.
+- `set(index, value, list, originalList = list)`: Sets the value at a specific index.
 
-```javascript
-const tortoiseAndHare = (aPair) => {
-  let tortoise = aPair, hare = aPair.rest;
-  while (true) {
-    if (isEmpty(tortoise) || isEmpty(hare)) return false;
-    if (tortoise.first === hare.first) return true;
-    hare = hare.rest;
-    if (isEmpty(hare)) return false;
-    if (tortoise.first === hare.first) return true;
-    tortoise = tortoise.rest;
-    hare = hare.rest;
-  }
-};
-```
+### copy-on-read
 
-### Functional Iterators
+One strategy to avoid problems with structure sharing is to be pessimistic. Whenever we take the rest of a list, make a copy. This is called **copy-on-read**. However, this approach can be expensive.
 
-Separates traversal from operations, enabling lazy evaluation:
+### copy-on-write
 
-```javascript
-const arrayIterator = (array) => {
-  let i = 0;
-  return () => ({
-    done: i === array.length,
-    value: i < array.length ? array[i++] : undefined
-  });
-};
-```
+An alternative is to make the copy only when we know we are modifying the list. This is called **copy-on-write**. We can achieve this by modifying the `set` function to create a copy only when needed.
 
-Sources: (raw/javascriptallonge.pdf p.158-176)
+This approach avoids unnecessary copying and ensures that modifications to the list do not interfere with other references to the same list.

@@ -5,29 +5,32 @@ automatically by the harness on every page write. See `SCHEMA.md`.
 
 ## Sources
 - [[antikythera-mechanism]] — The oldest known analog computer, an ancient Greek device for tracking astronomical events.
-- [[javascriptallonge]] — Hub page for JavaScript Allongé, summarizing the entire book and linking to chapter-specific source pages with updated cross-references.
-- [[javascriptallonge-as-little-as-possible-about-functions-but-no-less]] — JavaScript functions as values, reference types, and function application mechanics (pages 30-43).
-- [[javascriptallonge-chapter-5]] — Explains JavaScript's const keyword, lexical scoping, and function binding patterns like IIFEs.
-- [[javascriptallonge-closures-and-scope]] — JavaScript closures, scope chains, pure functions, and environment hierarchy (pages 44-48).
+- [[javascriptallonge]] — Hub page for raw/javascriptallonge.pdf.
+- [[javascriptallonge-about-the-sample-pdf]] — About The Sample PDF from raw/javascriptallonge.pdf.
+- [[javascriptallonge-as-little-as-possible-about-functions-but-no-less]] — As Little As Possible About Functions, But No Less from raw/javascriptallonge.pdf.
+- [[javascriptallonge-chapter-5]] — That Constant Coffee Craving from raw/javascriptallonge.pdf.
+- [[javascriptallonge-closures-and-scope]] — Closures and Scope from raw/javascriptallonge.pdf.
 - [[javascriptallonge-composing-and-decomposing-data]] — Chapter on composing and decomposing data in JavaScript.
-- [[javascriptallonge-copy-on-write]] — Explains copy-on-write strategy for linked lists vs arrays, structure sharing, and trade-offs with copy-on-read. Includes code examples and the tortoise-and-hare loop detection algorithm.
-- [[javascriptallonge-copyright-notice]] — Copyright information for *JavaScript Allonge*, including authorship, image credits, and licensing details (raw/javascriptallonge.pdf p.293-297).
+- [[javascriptallonge-copy-on-write]] — Copy on Write from raw/javascriptallonge.pdf.
+- [[javascriptallonge-copyright-notice]] — Copyright Notice from raw/javascriptallonge.pdf.
 - [[javascriptallonge-forewords-to-the-first-edition]] — Forewords to the first edition of JavaScript Allongé by Michael Fogus and Matthew Knox, discussing the Leanpub model and book content.
-- [[javascriptallonge-frontend]] — Front matter of JavaScript Allongé, including prefaces, table of contents, and author information.
-- [[javascriptallonge-garbage-garbage-everywhere]] — Analysis of JavaScript array recursion inefficiency, comparison to Lisp's linked lists, and object-based cons cell implementations. sources: raw/javascriptallonge.pdf p.126-140
-- [[javascriptallonge-generating-iterables]] — Updated to include interactive generators and stateful function examples from the Naughts and Crosses game.
-- [[javascriptallonge-interactive-generators]] — Explores interactive generators for stateful functions, using Naughts and Crosses as an example, and operations on iterables (map, filter, zip, etc.).
-- [[javascriptallonge-interlude-the-carpenter-interviews-for-a-job]] — A chapter where The Carpenter solves a cycle detection problem using iterables and Floyd's algorithm during a job interview.
-- [[javascriptallonge-iteration-and-iterables]] — Updated to include iterable operations from the chunk: mapWith, filterWith, zip, zipWith, memoize, and reduceWith.
-- [[javascriptallonge-lazy-eager-collections]] — Discusses lazy and eager collections in JavaScript, their implementations via iterators, and efficiency tradeoffs between on-demand computation and immediate data processing.
-- [[javascriptallonge-making-data-out-of-functions]] — Explores using combinators (K, I, V) and functions to create data structures like lists and pairs, avoiding arrays/objects. Introduces mapWith and flip functions.
-- [[javascriptallonge-mutation]] — JavaScript mutation mechanics: array/object mutation, aliases, const/let reassignment, and var pitfalls (pages 141-157).
-- [[javascriptallonge-naming-functions]] — JavaScript function naming conventions, declarations, and combinators (pages 62-78).
-- [[javascriptallonge-object-assign]] — JavaScript Object.assign method for shallow cloning and merging objects (pages 198-205).
+- [[javascriptallonge-front-matter]] — Front matter from raw/javascriptallonge.pdf.
+- [[javascriptallonge-frontend]] — Front matter from raw/javascriptallonge.pdf.
+- [[javascriptallonge-garbage-garbage-everywhere]] — Garbage, Garbage Everywhere from raw/javascriptallonge.pdf.
+- [[javascriptallonge-generating-iterables]] — Generating Iterables from raw/javascriptallonge.pdf.
+- [[javascriptallonge-interactive-generators]] — Interactive Generators from raw/javascriptallonge.pdf.
+- [[javascriptallonge-interlude-the-carpenter-interviews-for-a-job]] — Interlude: The Carpenter Interviews for a Job from raw/javascriptallonge.pdf.
+- [[javascriptallonge-iteration-and-iterables]] — Iteration and Iterables from raw/javascriptallonge.pdf.
+- [[javascriptallonge-lazy-eager-collections]] — Lazy and Eager Collections from raw/javascriptallonge.pdf.
+- [[javascriptallonge-making-data-out-of-functions]] — Making Data Out Of Functions from raw/javascriptallonge.pdf.
+- [[javascriptallonge-mutation]] — Mutation from raw/javascriptallonge.pdf.
+- [[javascriptallonge-naming-functions]] — Naming Functions from raw/javascriptallonge.pdf.
+- [[javascriptallonge-object-assign]] — Object.assign from raw/javascriptallonge.pdf.
 - [[javascriptallonge-picking-the-bean]] — Chapter on picking the bean pattern in JavaScript.
-- [[javascriptallonge-picking-the-bean-choice-and-truthiness]] — JavaScript's truthiness, logical operators (!, &&, ||), ternary operator, and control-flow semantics explained with examples.
-- [[javascriptallonge-recipes-with-basic-functions]] — JavaScript functional programming recipes: partial application, unary functions, tap, maybe, once, and left-variadic functions.
-- [[javascriptallonge-self-similarity]] — Chapter on self-similar data structures in JavaScript.
+- [[javascriptallonge-picking-the-bean-choice-and-truthiness]] — Picking the Bean: Choice and Truthiness from raw/javascriptallonge.pdf.
+- [[javascriptallonge-recipes-with-basic-functions]] — Recipes with Basic Functions from raw/javascriptallonge.pdf.
+- [[javascriptallonge-self-similarity]] — Self-Similarity from raw/javascriptallonge.pdf.
+- [[javascriptallonge-that-constant-coffee-craving]] — That Constant Coffee Craving from raw/javascriptallonge.pdf.
 
 ## Entities
 - [[archimedes]] — Ancient Greek mathematician and engineer, known for inventions like the Archimedean screw and principles of buoyancy.
