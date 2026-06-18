@@ -5,7 +5,15 @@ import pytest
 from llmwiki.domain.index import index_page_names, parse_index, upsert_index_entry
 from llmwiki.domain.links import compute_findings, extract_links
 from llmwiki.domain.log import format_log_entry
-from llmwiki.domain.pages import PageError, WikiPage, parse_page, render_page
+from llmwiki.domain.objects import IngestRun, RawSource, SourceBundle
+from llmwiki.domain.pages import (
+    LOCAL_FLAT_STRUCTURE,
+    PageError,
+    PageMetadata,
+    WikiPage,
+    parse_page,
+    render_page,
+)
 from llmwiki.domain.search import search_pages
 
 INDEX = """# Index
@@ -49,6 +57,52 @@ class TestPages:
     def test_summary_collapsed_to_one_line(self) -> None:
         with pytest.raises(PageError):
             WikiPage(name="ok", category="entity", summary="  \n ", body="b")
+
+    def test_page_metadata_projects_to_flat_path(self) -> None:
+        metadata = PageMetadata(
+            page_id="javascriptallonge-chapter-5",
+            page_kind="source",
+            summary="Chapter source page.",
+            sources=("raw/javascriptallonge.pdf p.49-61",),
+            updated="2026-06-18",
+        )
+        assert str(LOCAL_FLAT_STRUCTURE.render_path(metadata)) == "javascriptallonge-chapter-5.md"
+
+    def test_wiki_page_exposes_page_metadata(self) -> None:
+        page = WikiPage(
+            name="closure",
+            category="concept",
+            summary="A captured lexical environment.",
+            body="Body.",
+            sources=("raw/javascriptallonge.pdf",),
+            updated="2026-06-18",
+        )
+        assert page.page_metadata == PageMetadata(
+            page_id="closure",
+            page_kind="concept",
+            summary="A captured lexical environment.",
+            sources=("raw/javascriptallonge.pdf",),
+            updated="2026-06-18",
+        )
+        assert str(page.page_path()) == "closure.md"
+
+
+class TestObjectBoundaries:
+    def test_source_bundle_requires_raw_source(self) -> None:
+        with pytest.raises(ValueError):
+            SourceBundle(raw_sources=())
+
+    def test_raw_source_derives_format(self) -> None:
+        raw = RawSource.from_locator("javascriptallonge.pdf")
+        assert raw.source_locator == "javascriptallonge.pdf"
+        assert raw.source_format == "pdf"
+
+    def test_local_ingest_run_is_serial_only(self) -> None:
+        raw = RawSource.from_locator("article.md")
+        run = IngestRun(source_bundle=SourceBundle.one(raw))
+        assert run.ingest_topology == "serial"
+        with pytest.raises(ValueError):
+            IngestRun(source_bundle=SourceBundle.one(raw), ingest_topology="parallel")
 
 
 class TestIndex:

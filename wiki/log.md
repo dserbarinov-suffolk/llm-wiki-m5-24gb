@@ -53,3 +53,9 @@ Conversations: 20260612-133300. History in harness/chat.db; transcripts per turn
 
 ## [2026-06-12] chat | 5 turns across 1 conversation
 Conversations: 20260612-133845. History in harness/chat.db; transcripts per turn in harness/runs/.
+
+## [2026-06-18] ingest | javascriptallonge.pdf
+Created hub source page 'javascriptallonge' linking all 20 chapter/topic pages from 'raw/javascriptallonge.pdf'. Added cross-links for high-salience concepts (function, arrays, const, iterable) and entities (reg-raganwald-braithwaite, michael-fogus). Updated key-concept and key-entity lists in the hub based on salience data. No contradictions detected during integration.
+
+## [2026-06-18] chat | 1 turns across 1 conversation
+Conversations: 20260618-113423. History in harness/chat.db; transcripts per turn in harness/runs/.

@@ -19,6 +19,16 @@ from forge.core.runner import WorkflowRunner
 
 from llmwiki.domain.chatwindow import QAPair
 from llmwiki.domain.links import compute_findings
+from llmwiki.domain.objects import (
+    ExtractionPrompt,
+    IngestRun,
+    LintFinding,
+    LintRun,
+    QueryRun,
+    Schema,
+    SourceBundle,
+    SourcePlan,
+)
 from llmwiki.domain.pages import WikiPage, parse_page, slugify
 from llmwiki.domain.salience import SalienceReport, compute_salience, reconcile_key_lists
 from llmwiki.pdf import PdfError
@@ -89,6 +99,7 @@ class OperationResult:
     subject: str
     output: str
     transcript_path: Path | None
+    run: IngestRun | QueryRun | LintRun | None = None
 
 
 @dataclass(frozen=True)
@@ -118,7 +129,13 @@ class Session:
         )
         report, transcript = await self._run(workflow, message, "ingest")
         self.store.append_log(self.today, "ingest", source_path, report)
-        return OperationResult("ingest", source_path, report, transcript)
+        return OperationResult(
+            "ingest",
+            source_path,
+            report,
+            transcript,
+            self._markdown_ingest_run(source_path),
+        )
 
     async def _ingest_pdf(
         self, source_path: str, reextract: bool, reintegrate: bool = False
@@ -182,7 +199,13 @@ class Session:
             ExtractionResult(manifest=manifest.mark_integrated(), cache_dir=result.cache_dir)
         )
         self.store.append_log(self.today, "ingest", source_path, report)
-        return OperationResult("ingest", source_path, report, transcript)
+        return OperationResult(
+            "ingest",
+            source_path,
+            report,
+            transcript,
+            self._pdf_ingest_run(source_path, manifest, hub),
+        )
 
     def _reconcile_hub_key_lists(self, hub: str, salience: SalienceReport) -> None:
         """Harness-owned bookkeeping: the hub's key-lists mirror the salience
@@ -199,7 +222,7 @@ class Session:
         # Factual lookups don't benefit from Qwen3's thinking preamble.
         answer, transcript = await self._run(workflow, question + " /no_think", "query")
         self.store.append_log(self.today, "query", question, answer)
-        return OperationResult("query", question, answer, transcript)
+        return OperationResult("query", question, answer, transcript, QueryRun(question))
 
     async def chat_turn(
         self, question: str, window: Sequence[QAPair], grounded: bool, tag: str
@@ -241,7 +264,13 @@ class Session:
         if not self.store.list_pages():
             report = "Wiki is empty — nothing to lint."
             self.store.append_log(self.today, "lint", "empty wiki", report)
-            return OperationResult("lint", "wiki health", report, None)
+            return OperationResult(
+                "lint",
+                "wiki health",
+                report,
+                None,
+                LintRun(lint_findings=()),
+            )
         workflow = build_lint_workflow(self.store, self.today)
         salience_block = compute_salience(self.store.page_texts()).render()
         message = (
@@ -255,7 +284,13 @@ class Session:
         report, transcript = await self._run(workflow, message, "lint")
         self._file_lint_report(report)
         self.store.append_log(self.today, "lint", "wiki health", report)
-        return OperationResult("lint", "wiki health", report, transcript)
+        return OperationResult(
+            "lint",
+            "wiki health",
+            report,
+            transcript,
+            LintRun(lint_findings=self._lint_findings()),
+        )
 
     async def _run(
         self,
@@ -299,3 +334,108 @@ class Session:
                 updated=self.today,
             )
         )
+
+    def _schema_object(self) -> Schema:
+        return Schema(page_contracts=self.store.read_schema())
+
+    def _extraction_prompt(self, subject: str) -> ExtractionPrompt:
+        return ExtractionPrompt(
+            instruction_text=(
+                "Use the local LLM-Wiki ingest workflow from Schema. "
+                f"Run subject: raw/{subject}."
+            )
+        )
+
+    def _source_bundle(self, source_path: str) -> SourceBundle:
+        return SourceBundle.one(self.store.raw_source(source_path))
+
+    def _markdown_ingest_run(self, source_path: str) -> IngestRun:
+        raw_source = self.store.raw_source(source_path)
+        page_id = slugify(Path(source_path).stem)
+        metadata = WikiPage(
+            name=page_id,
+            category="source",
+            summary=f"Source page for raw/{source_path}.",
+            body="",
+            sources=(source_path,),
+            updated=self.today,
+        ).page_metadata
+        source_plan = SourcePlan(
+            raw_source=raw_source,
+            source_classification=raw_source.source_format,
+            ingest_disposition="create-or-update",
+            target_page_metadata=metadata,
+            target_page_paths=(str(self.store.structure.render_path(metadata)),),
+            handling_notes="Default one-source ingest plan.",
+        )
+        return IngestRun(
+            source_bundle=SourceBundle.one(raw_source),
+            wiki_structure=self.store.structure,
+            schema=self._schema_object(),
+            extraction_prompt=self._extraction_prompt(source_path),
+            source_plans=(source_plan,),
+        )
+
+    def _pdf_ingest_run(self, source_path: str, manifest: Any, hub: str) -> IngestRun:
+        raw_source = self.store.raw_source(source_path)
+        plans = [
+            SourcePlan(
+                raw_source=raw_source,
+                source_classification="pdf chunk",
+                ingest_disposition="create-or-update",
+                expected_wiki_pages=record.pages_written,
+                handling_notes=record.notes,
+            )
+            for record in manifest.chunks
+        ]
+        hub_metadata = WikiPage(
+            name=hub,
+            category="source",
+            summary=f"Source hub for raw/{source_path}.",
+            body="",
+            sources=(source_path,),
+            updated=self.today,
+        ).page_metadata
+        plans.append(
+            SourcePlan(
+                raw_source=raw_source,
+                source_classification="pdf integration",
+                ingest_disposition="create-or-update",
+                target_page_metadata=hub_metadata,
+                target_page_paths=(str(self.store.structure.render_path(hub_metadata)),),
+                expected_wiki_pages=(hub,),
+                handling_notes="Integrate chunk notes into source hub.",
+            )
+        )
+        return IngestRun(
+            source_bundle=SourceBundle.one(raw_source),
+            wiki_structure=self.store.structure,
+            schema=self._schema_object(),
+            extraction_prompt=self._extraction_prompt(source_path),
+            source_plans=tuple(plans),
+        )
+
+    def _lint_findings(self) -> tuple[LintFinding, ...]:
+        findings = compute_findings(
+            self.store.page_texts(),
+            self.store.index_names(),
+            exempt_from_orphans=frozenset({HEALTH_PAGE}),
+        )
+        converted: list[LintFinding] = []
+        for page, links in findings.broken_links.items():
+            converted.extend(
+                LintFinding("broken link", wiki_page=page, cross_reference=link)
+                for link in links
+            )
+        converted.extend(
+            LintFinding("orphan page", wiki_page=page) for page in findings.orphan_pages
+        )
+        converted.extend(
+            LintFinding("missing from index", wiki_page=page)
+            for page in findings.missing_from_index
+        )
+        converted.extend(
+            LintFinding("stale index entry", wiki_page=page)
+            for page in findings.stale_index_entries
+        )
+        return tuple(converted)

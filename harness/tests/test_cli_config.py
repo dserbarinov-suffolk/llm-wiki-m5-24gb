@@ -1,11 +1,17 @@
 """CLI argument contract and explicit config resolution."""
 
+import asyncio
+import signal
 from pathlib import Path
 
 import pytest
+from fakes import FakeClient
+from forge.context import ContextManager, NoCompact
 
-from llmwiki.cli import _build_parser
+from llmwiki.cli import _build_parser, _read_chat_line, _run_chat
 from llmwiki.config import ConfigError, WikiPaths, load_backend_config
+from llmwiki.runtime.session import Session
+from llmwiki.store import WikiStore
 
 
 class TestParser:
@@ -54,3 +60,54 @@ class TestWikiPathsValidation:
     def test_missing_layer_raises(self, tmp_path: Path) -> None:
         with pytest.raises(ConfigError, match="Wiki layer missing"):
             WikiPaths(root=tmp_path).validate()
+
+
+class TestChatInputLoop:
+    def test_prompt_restores_default_sigint_handler(
+        self, monkeypatch: pytest.MonkeyPatch
+    ) -> None:
+        asyncio_handler = object()
+        calls: list[tuple[int, object]] = []
+
+        def fake_signal(signum: int, handler: object) -> None:
+            calls.append((signum, handler))
+
+        def fake_input(_prompt: str) -> str:
+            assert calls[-1] == (signal.SIGINT, signal.default_int_handler)
+            raise KeyboardInterrupt
+
+        monkeypatch.setattr(signal, "getsignal", lambda _signum: asyncio_handler)
+        monkeypatch.setattr(signal, "signal", fake_signal)
+        monkeypatch.setattr("builtins.input", fake_input)
+
+        with pytest.raises(KeyboardInterrupt):
+            _read_chat_line()
+
+        assert calls == [
+            (signal.SIGINT, signal.default_int_handler),
+            (signal.SIGINT, asyncio_handler),
+        ]
+
+    async def test_ctrl_c_at_prompt_exits_without_to_thread(
+        self, paths: WikiPaths, monkeypatch: pytest.MonkeyPatch
+    ) -> None:
+        session = Session(
+            store=WikiStore(paths),
+            client=FakeClient([]),
+            context_manager=ContextManager(strategy=NoCompact(), budget_tokens=32768),
+            today="2026-06-18",
+        )
+
+        def fail_to_thread(*_args: object, **_kwargs: object) -> None:
+            raise AssertionError("chat prompt must not use asyncio.to_thread")
+
+        def interrupt_input(_prompt: str) -> str:
+            raise KeyboardInterrupt
+
+        monkeypatch.setattr(asyncio, "to_thread", fail_to_thread)
+        monkeypatch.setattr("builtins.input", interrupt_input)
+
+        result = await _run_chat(session, paths, resume=None)
+
+        assert result.output == "chat ended: 0 turns across 0 conversation(s)"
+        assert "chat |" not in paths.log_path.read_text(encoding="utf-8")

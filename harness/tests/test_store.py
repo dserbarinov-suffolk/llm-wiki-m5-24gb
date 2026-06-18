@@ -51,6 +51,12 @@ class TestWikiLayer:
         assert "- [[hittites]] — About hittites." in store.read_index()
         assert store.list_pages() == ["hittites"]
 
+    def test_write_page_uses_current_structure(self, store: WikiStore) -> None:
+        page = _page(name="hittites", category="entity")
+        store.write_page(page)
+        assert store.rendered_page_path(page) == "hittites.md"
+        assert store.read_wiki_page("hittites").page_metadata == page.page_metadata
+
     def test_rewrite_updates_in_place(self, store: WikiStore) -> None:
         store.write_page(_page())
         store.write_page(

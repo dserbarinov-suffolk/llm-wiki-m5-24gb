@@ -11,6 +11,7 @@ from forge.context import ContextManager, NoCompact
 from forge.core.workflow import TextResponse, ToolCall
 
 from llmwiki.config import WikiPaths
+from llmwiki.domain.objects import IngestRun, QueryRun
 from llmwiki.domain.pages import WikiPage
 from llmwiki.runtime.session import Session
 from llmwiki.store import WikiStore
@@ -65,6 +66,9 @@ class TestIngest:
         log = paths.log_path.read_text(encoding="utf-8")
         assert f"## [{TODAY}] ingest | moon.md" in log
         assert result.transcript_path is not None and result.transcript_path.exists()
+        assert isinstance(result.run, IngestRun)
+        assert result.run.source_bundle.raw_sources[0].source_locator == "moon.md"
+        assert result.run.source_plans[0].target_page_paths == ("moon.md",)
 
     async def test_premature_finish_is_blocked_then_recovers(
         self, store: WikiStore, paths: WikiPaths, source: str
@@ -265,6 +269,8 @@ class TestQuery:
         result = await _session(store, script, paths).query("How did the Moon form?")
         assert result.output == "A giant impact — see [[moon]]."
         assert f"## [{TODAY}] query | How did the Moon form?" in paths.log_path.read_text()
+        assert isinstance(result.run, QueryRun)
+        assert result.run.user_question == "How did the Moon form?"
 
 
 class TestLint:

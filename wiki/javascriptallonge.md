@@ -1,8 +1,8 @@
 ---
 category: source
-summary: Hub page for JavaScript Allongé, summarizing the entire book and linking to chapter-specific source pages.
+summary: Hub page for JavaScript Allongé, summarizing the entire book and linking to chapter-specific source pages with updated cross-references.
 sources: raw/javascriptallonge.pdf
-updated: 2026-06-12
+updated: 2026-06-18
 ---
 
 This is the hub page for *JavaScript Allongé*, a book focusing on functional programming with JavaScript, ECMAScript 2015 updates, and publishing via Leanpub. The following pages summarize its chapters and key concepts:

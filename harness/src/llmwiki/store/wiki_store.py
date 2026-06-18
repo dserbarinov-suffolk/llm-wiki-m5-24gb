@@ -18,7 +18,15 @@ from pathlib import Path
 from llmwiki.config import SOURCE_READ_BUDGET_CHARS, WikiPaths
 from llmwiki.domain.index import index_page_names, upsert_index_entry
 from llmwiki.domain.log import format_log_entry
-from llmwiki.domain.pages import WikiPage, render_page, validate_page_name
+from llmwiki.domain.objects import RawSource
+from llmwiki.domain.pages import (
+    LOCAL_FLAT_STRUCTURE,
+    WikiPage,
+    WikiStructure,
+    parse_page,
+    render_page,
+    validate_page_name,
+)
 
 _RESERVED_NAMES = frozenset({"index", "log"})
 _TRUNCATION_MARKER = "\n\n[TRUNCATED: source exceeds the read budget; summarize what is shown]"
@@ -37,8 +45,13 @@ class SourceNotFoundError(WikiStoreError):
 
 
 class WikiStore:
-    def __init__(self, paths: WikiPaths) -> None:
+    def __init__(self, paths: WikiPaths, structure: WikiStructure = LOCAL_FLAT_STRUCTURE) -> None:
         self._paths = paths
+        self._structure = structure
+
+    @property
+    def structure(self) -> WikiStructure:
+        return self._structure
 
     # -- schema layer -----------------------------------------------------
 
@@ -58,6 +71,10 @@ class WikiStore:
             available = ", ".join(self.list_sources()) or "none"
             raise SourceNotFoundError(f"No source at raw/{rel_path}. Available: {available}.")
         return path
+
+    def raw_source(self, rel_path: str) -> RawSource:
+        self.source_path(rel_path)
+        return RawSource.from_locator(rel_path)
 
     def read_source(self, rel_path: str) -> str:
         text = self.source_path(rel_path).read_text(encoding="utf-8")
@@ -82,12 +99,15 @@ class WikiStore:
 
     def read_page(self, name: str) -> str:
         validate_page_name(name)
-        path = self._paths.wiki_dir / f"{name}.md"
+        path = self.page_path_for_name(name)
         if name in _RESERVED_NAMES or not path.is_file():
             raise PageNotFoundError(
                 f"No page named {name!r}. Use search_wiki to find existing pages."
             )
         return path.read_text(encoding="utf-8")
+
+    def read_wiki_page(self, name: str) -> WikiPage:
+        return parse_page(name, self.read_page(name))
 
     def page_texts(self) -> dict[str, str]:
         return {name: self.read_page(name) for name in self.list_pages()}
@@ -97,10 +117,26 @@ class WikiStore:
             raise WikiStoreError(
                 f"{page.name!r} is reserved (maintained by the harness); choose another name."
             )
-        page_path = self._paths.wiki_dir / f"{page.name}.md"
+        page_path = self.page_path(page)
+        self._ensure_wiki_path(page_path)
+        page_path.parent.mkdir(parents=True, exist_ok=True)
         index_text = upsert_index_entry(self.read_index(), page.name, page.category, page.summary)
         page_path.write_text(render_page(page), encoding="utf-8")
         self._paths.index_path.write_text(index_text, encoding="utf-8")
+
+    def page_path_for_name(self, name: str) -> Path:
+        page = WikiPage(name=name, category="source", summary="placeholder", body="")
+        return self._paths.wiki_dir / page.page_path(self._structure)
+
+    def page_path(self, page: WikiPage) -> Path:
+        return self._paths.wiki_dir / page.page_path(self._structure)
+
+    def rendered_page_path(self, page: WikiPage) -> str:
+        return str(page.page_path(self._structure))
+
+    def _ensure_wiki_path(self, path: Path) -> None:
+        if not path.resolve().is_relative_to(self._paths.wiki_dir.resolve()):
+            raise WikiStoreError(f"Rendered page path {path} is outside wiki/.")
 
     # -- navigation files ----------------------------------------------------
 

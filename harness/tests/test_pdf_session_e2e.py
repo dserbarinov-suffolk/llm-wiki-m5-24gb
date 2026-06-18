@@ -9,6 +9,7 @@ from forge.context import ContextManager, NoCompact
 from forge.core.workflow import ToolCall
 
 from llmwiki.config import WikiPaths
+from llmwiki.domain.objects import IngestRun
 from llmwiki.domain.pages import WikiPage
 from llmwiki.pdf import PdfError
 from llmwiki.pdf.manifest import ChunkRecord, Manifest, from_json
@@ -100,6 +101,14 @@ class TestPdfIngest:
         result = await session.ingest("book.pdf")
 
         assert result.output == "Hub linked to 2 chapter pages."
+        assert isinstance(result.run, IngestRun)
+        assert result.run.source_bundle.raw_sources[0].source_locator == "book.pdf"
+        assert [p.source_classification for p in result.run.source_plans] == [
+            "pdf chunk",
+            "pdf chunk",
+            "pdf integration",
+        ]
+        assert result.run.source_plans[-1].target_page_paths == ("book.md",)
         # Both map chunks wrote pages; integrate wrote the hub.
         assert {"functions", "closures", "javascriptallonge"} <= set(store.list_pages())
         # Manifest on disk: all done + integrated, notes captured.

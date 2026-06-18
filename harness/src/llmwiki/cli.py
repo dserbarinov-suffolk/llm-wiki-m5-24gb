@@ -8,6 +8,7 @@ from __future__ import annotations
 
 import argparse
 import asyncio
+import signal
 import sys
 from datetime import datetime
 from pathlib import Path
@@ -120,8 +121,8 @@ async def _run_chat(session: Session, paths: WikiPaths, resume: str | None) -> O
         repl.start(resume)
         while True:
             try:
-                line = await asyncio.to_thread(input, "llmwiki> ")
-            except EOFError:  # Ctrl-D
+                line = _read_chat_line()
+            except (EOFError, KeyboardInterrupt):  # Ctrl-D / Ctrl-C at the prompt
                 break
             if not await repl.handle(line):
                 break
@@ -134,6 +135,22 @@ async def _run_chat(session: Session, paths: WikiPaths, resume: str | None) -> O
         f"chat ended: {repl.turns} turns across {len(repl.conversations_touched)} conversation(s)"
     )
     return OperationResult("chat", "conversation", summary, None)
+
+
+def _read_chat_line() -> str:
+    """Read a REPL line with normal Ctrl-C behavior under asyncio.run().
+
+    asyncio.run installs a SIGINT handler that cancels the main task. That
+    handler does not raise from blocking input(), so Ctrl-C can appear to do
+    nothing at the chat prompt. Restore the default handler only while the
+    terminal is waiting for input, then put asyncio's handler back.
+    """
+    previous = signal.getsignal(signal.SIGINT)
+    signal.signal(signal.SIGINT, signal.default_int_handler)
+    try:
+        return input("llmwiki> ")
+    finally:
+        signal.signal(signal.SIGINT, previous)
 
 
 def main() -> None:

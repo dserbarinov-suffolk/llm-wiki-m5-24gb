@@ -1,13 +1,14 @@
-"""Wiki page model: naming, categories, and frontmatter rendering/parsing.
+"""Wiki page model: metadata, structure projection, and frontmatter.
 
-Frontmatter is composed here from explicit fields — the model never writes
-it directly (see SCHEMA.md, "Page conventions").
+Frontmatter is rendered from PageMetadata — the model never writes it
+directly (see SCHEMA.md, "Page conventions").
 """
 
 from __future__ import annotations
 
 import re
 from dataclasses import dataclass, field
+from pathlib import PurePosixPath
 
 PAGE_CATEGORIES = ("source", "entity", "concept", "synthesis")
 
@@ -52,8 +53,82 @@ def validate_summary(summary: str) -> str:
 
 
 @dataclass(frozen=True)
+class PageKind:
+    """A page role declared by Schema."""
+
+    name: str
+
+    def __post_init__(self) -> None:
+        validate_category(self.name)
+
+
+@dataclass(frozen=True)
+class PageMetadata:
+    """The stable identity and queryable fields for a WikiPage."""
+
+    page_id: str
+    page_kind: str
+    summary: str
+    sources: tuple[str, ...] = field(default=())
+    updated: str = ""
+    tags: tuple[str, ...] = field(default=())
+    aliases: tuple[str, ...] = field(default=())
+
+    def __post_init__(self) -> None:
+        validate_page_name(self.page_id)
+        validate_category(self.page_kind)
+        object.__setattr__(self, "summary", validate_summary(self.summary))
+
+
+@dataclass(frozen=True)
+class PathTemplate:
+    """Renders one PagePath from one PageMetadata object."""
+
+    template_text: str = "{PageId}.md"
+    match_page_kinds: tuple[str, ...] = PAGE_CATEGORIES
+    required_page_metadata_fields: tuple[str, ...] = ("PageId",)
+
+    def render(self, metadata: PageMetadata) -> PurePosixPath:
+        if metadata.page_kind not in self.match_page_kinds:
+            raise PageError(
+                f"Page kind {metadata.page_kind!r} does not match this path template."
+            )
+        path_text = self.template_text.format(
+            PageId=metadata.page_id,
+            PageKind=metadata.page_kind,
+            Summary=metadata.summary,
+            Updated=metadata.updated,
+        )
+        path = PurePosixPath(path_text)
+        if path.is_absolute() or ".." in path.parts or not path.name.endswith(".md"):
+            raise PageError(f"Invalid rendered page path {path_text!r}.")
+        return path
+
+
+@dataclass(frozen=True)
+class WikiStructure:
+    """The active path-template set for a Wiki."""
+
+    structure_id: str
+    default_path_template: PathTemplate
+    path_templates: tuple[PathTemplate, ...] = field(default=())
+
+    def render_path(self, metadata: PageMetadata) -> PurePosixPath:
+        for template in self.path_templates:
+            if metadata.page_kind in template.match_page_kinds:
+                return template.render(metadata)
+        return self.default_path_template.render(metadata)
+
+
+LOCAL_FLAT_STRUCTURE = WikiStructure(
+    structure_id="local-flat",
+    default_path_template=PathTemplate(),
+)
+
+
+@dataclass(frozen=True)
 class WikiPage:
-    """A wiki page as explicit state; rendering is derived, never stored."""
+    """A WikiPage with legacy constructor fields kept as compatibility shims."""
 
     name: str
     category: str
@@ -65,7 +140,39 @@ class WikiPage:
     def __post_init__(self) -> None:
         validate_page_name(self.name)
         validate_category(self.category)
-        validate_summary(self.summary)
+        object.__setattr__(self, "summary", validate_summary(self.summary))
+
+    @property
+    def page_metadata(self) -> PageMetadata:
+        return PageMetadata(
+            page_id=self.name,
+            page_kind=self.category,
+            summary=self.summary,
+            sources=self.sources,
+            updated=self.updated,
+        )
+
+    @property
+    def page_id(self) -> str:
+        return self.page_metadata.page_id
+
+    @property
+    def page_kind(self) -> str:
+        return self.page_metadata.page_kind
+
+    def page_path(self, structure: WikiStructure = LOCAL_FLAT_STRUCTURE) -> PurePosixPath:
+        return structure.render_path(self.page_metadata)
+
+    @classmethod
+    def from_metadata(cls, metadata: PageMetadata, body: str) -> WikiPage:
+        return cls(
+            name=metadata.page_id,
+            category=metadata.page_kind,
+            summary=metadata.summary,
+            body=body,
+            sources=metadata.sources,
+            updated=metadata.updated,
+        )
 
 
 def render_page(page: WikiPage) -> str:

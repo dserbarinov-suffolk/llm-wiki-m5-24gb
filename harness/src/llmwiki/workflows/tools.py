@@ -177,7 +177,7 @@ def write_page_tool(
         store.write_page(page)
         if write_log is not None:
             write_log.append(params.name)
-        return f"Wrote wiki/{params.name}.md and updated its index entry."
+        return f"Wrote wiki/{store.rendered_page_path(page)} and updated its index entry."
 
     return ToolDef(
         spec=ToolSpec(

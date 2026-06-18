@@ -5,7 +5,7 @@ automatically by the harness on every page write. See `SCHEMA.md`.
 
 ## Sources
 - [[antikythera-mechanism]] — The oldest known analog computer, an ancient Greek device for tracking astronomical events.
-- [[javascriptallonge]] — Hub page for JavaScript Allongé, summarizing the entire book and linking to chapter-specific source pages.
+- [[javascriptallonge]] — Hub page for JavaScript Allongé, summarizing the entire book and linking to chapter-specific source pages with updated cross-references.
 - [[javascriptallonge-as-little-as-possible-about-functions-but-no-less]] — JavaScript functions as values, reference types, and function application mechanics (pages 30-43).
 - [[javascriptallonge-chapter-5]] — Explains JavaScript's const keyword, lexical scoping, and function binding patterns like IIFEs.
 - [[javascriptallonge-closures-and-scope]] — JavaScript closures, scope chains, pure functions, and environment hierarchy (pages 44-48).
