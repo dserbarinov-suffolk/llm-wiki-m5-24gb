@@ -49,9 +49,13 @@ _SENTENCE_RE = re.compile(r"(?<=[.!?])\s+")
 _SOURCE_PAGE_BONUS = 0.15
 _MATCH_THRESHOLD = 0.12
 _CLUSTER_THRESHOLD = 0.18
-_MAX_SOURCE_UNITS_PER_WRITE = 1
-_MAX_SOURCE_CHARS_PER_WRITE = 6_000
+_MAX_SOURCE_UNITS_PER_WRITE = 5
+_MAX_SOURCE_CHARS_PER_WRITE = 900
 _MAX_SOURCE_SUMMARY_CLAIMS = 5
+_SOURCE_WRITE_GROUPING_THRESHOLD = 40
+_SOURCE_WRITE_GROUP_UNIT_LIMIT = 5
+_SOURCE_WRITE_GROUP_TOKEN_BUDGET = 2_200
+_SOURCE_PAGE_ID_MAX_CHARS = 96
 
 _ROLE_PATTERNS: tuple[tuple[str, tuple[str, ...]], ...] = (
     ("uncertainty", (r"\bmay\b", r"\bmight\b", r"\bpossible\b", r"\bsuggest\w*\b", r"\bunknown\b")),
@@ -579,6 +583,15 @@ def _source_summary_plan(
     claims_by_id = {claim.source_claim_id: claim for claim in source_claims}
     selected: list[SourceClaim] = []
 
+    unit_ids = tuple(dict.fromkeys(claim.extracted_unit_id for claim in source_claims))
+    if len(unit_ids) <= _MAX_SOURCE_SUMMARY_CLAIMS:
+        for unit_id in unit_ids:
+            unit_claims = [
+                claim for claim in source_claims if claim.extracted_unit_id == unit_id
+            ]
+            if unit_claims:
+                selected.append(max(unit_claims, key=lambda claim: claim.claim_salience))
+
     def add_role_claim(*roles: str) -> None:
         candidates = [
             claim
@@ -599,7 +612,11 @@ def _source_summary_plan(
             break
         if any(claim.source_claim_id in group.source_claims for claim in selected):
             continue
-        group_claims = [claims_by_id[claim_id] for claim_id in group.source_claims]
+        group_claims = [
+            claims_by_id[claim_id] for claim_id in group.source_claims if claim_id in claims_by_id
+        ]
+        if not group_claims:
+            continue
         selected.append(max(group_claims, key=lambda claim: claim.claim_salience))
 
     min_claims = min(contract.min_claim_bullets or 3, len(source_claims))
@@ -776,16 +793,19 @@ def _planned_writes(
     writes: list[PlannedPageWrite] = []
     source_stem = slugify(Path(raw_source.source_locator).stem)
     matches_by_unit = _matches_by_unit(wiki_matches)
-    units_by_target: dict[str, list[ExtractedUnit]] = {}
-    for unit in extracted_units:
-        page_id = _target_source_page(unit, existing_pages, matches_by_unit.get(unit.unit_id, ()))
-        units_by_target.setdefault(page_id, []).append(unit)
-    for page_id, target_units in units_by_target.items():
+    unit_groups = _source_page_unit_groups(
+        raw_source=raw_source,
+        extracted_units=extracted_units,
+        existing_pages=existing_pages,
+        matches_by_unit=matches_by_unit,
+    )
+    for page_id, target_units in unit_groups:
         first_unit = target_units[0]
+        last_unit = target_units[-1]
         metadata = PageMetadata(
             page_id=page_id,
             page_kind="source",
-            summary=f"{first_unit.heading_path} from raw/{raw_source.source_locator}.",
+            summary=_source_page_summary(first_unit, last_unit, raw_source),
             sources=tuple(
                 f"raw/{raw_source.source_locator} {unit.locator}".strip() for unit in target_units
             ),
@@ -803,7 +823,7 @@ def _planned_writes(
             selections=source_plan_contract_selections,
             page_id=page_id,
             page_kind=metadata.page_kind,
-            required_source_citations=metadata.sources,
+            required_source_citations=_source_contract_citations(raw_source, target_units),
         )
         target_source_claims = tuple(
             claim
@@ -1053,7 +1073,7 @@ def _target_source_page(
     unit: ExtractedUnit, existing_pages: dict[str, str], matches: tuple[WikiMatch, ...]
 ) -> str:
     stem = slugify(Path(unit.raw_source.source_locator).stem)
-    default_page = slugify(f"{stem}-{unit.heading_path}")
+    default_page = _default_source_page(unit)
     if default_page in existing_pages:
         return default_page
     source_matches = [
@@ -1065,6 +1085,128 @@ def _target_source_page(
         if _same_section_identity(unit.heading_path, match.page_id):
             return match.page_id
     return default_page
+
+
+def _source_page_unit_groups(
+    *,
+    raw_source: RawSource,
+    extracted_units: tuple[ExtractedUnit, ...],
+    existing_pages: dict[str, str],
+    matches_by_unit: dict[str, tuple[WikiMatch, ...]],
+) -> tuple[tuple[str, tuple[ExtractedUnit, ...]], ...]:
+    if len(extracted_units) <= _SOURCE_WRITE_GROUPING_THRESHOLD:
+        return _exact_source_page_unit_groups(extracted_units, existing_pages, matches_by_unit)
+
+    source_stem = slugify(Path(raw_source.source_locator).stem)
+    groups: list[tuple[str, tuple[ExtractedUnit, ...]]] = []
+    current_units: list[ExtractedUnit] = []
+    current_tokens = 0
+    used_page_ids = set(existing_pages)
+
+    def flush() -> None:
+        nonlocal current_units, current_tokens
+        if not current_units:
+            return
+        page_id = _source_group_page_id(source_stem, tuple(current_units), used_page_ids)
+        groups.append((page_id, tuple(current_units)))
+        current_units = []
+        current_tokens = 0
+
+    for unit in extracted_units:
+        target_page = _target_source_page(
+            unit, existing_pages, matches_by_unit.get(unit.unit_id, ())
+        )
+        if target_page != _default_source_page(unit) or target_page in existing_pages:
+            flush()
+            groups.append((target_page, (unit,)))
+            used_page_ids.add(target_page)
+            continue
+
+        unit_tokens = max(1, len(unit.text) // 4)
+        if current_units and (
+            len(current_units) >= _SOURCE_WRITE_GROUP_UNIT_LIMIT
+            or current_tokens + unit_tokens > _SOURCE_WRITE_GROUP_TOKEN_BUDGET
+        ):
+            flush()
+        current_units.append(unit)
+        current_tokens += unit_tokens
+
+    flush()
+    return tuple(groups)
+
+
+def _exact_source_page_unit_groups(
+    extracted_units: tuple[ExtractedUnit, ...],
+    existing_pages: dict[str, str],
+    matches_by_unit: dict[str, tuple[WikiMatch, ...]],
+) -> tuple[tuple[str, tuple[ExtractedUnit, ...]], ...]:
+    groups: dict[str, list[ExtractedUnit]] = {}
+    for unit in extracted_units:
+        page_id = _target_source_page(unit, existing_pages, matches_by_unit.get(unit.unit_id, ()))
+        groups.setdefault(page_id, []).append(unit)
+    return tuple((page_id, tuple(units)) for page_id, units in groups.items())
+
+
+def _source_group_page_id(
+    source_stem: str,
+    units: tuple[ExtractedUnit, ...],
+    used_page_ids: set[str],
+) -> str:
+    first = units[0].heading_path
+    last = units[-1].heading_path
+    if len(units) == 1 or first == last:
+        base = slugify(f"{source_stem}-{first}")
+    else:
+        base = slugify(f"{source_stem}-{first}-through-{last}")
+    base = _truncate_page_id(base)
+    page_id = base
+    suffix = 2
+    while page_id in used_page_ids:
+        suffix_text = f"-{suffix}"
+        prefix = _truncate_page_id(base, _SOURCE_PAGE_ID_MAX_CHARS - len(suffix_text))
+        page_id = f"{prefix}{suffix_text}"
+        suffix += 1
+    used_page_ids.add(page_id)
+    return page_id
+
+
+def _default_source_page(unit: ExtractedUnit) -> str:
+    stem = slugify(Path(unit.raw_source.source_locator).stem)
+    return slugify(f"{stem}-{unit.heading_path}")
+
+
+def _truncate_page_id(page_id: str, max_chars: int = _SOURCE_PAGE_ID_MAX_CHARS) -> str:
+    if len(page_id) <= max_chars:
+        return page_id
+    parts: list[str] = []
+    for part in page_id.split("-"):
+        candidate = "-".join([*parts, part])
+        if len(candidate) > max_chars:
+            break
+        parts.append(part)
+    if parts:
+        return "-".join(parts)
+    return page_id[:max_chars].rstrip("-")
+
+
+def _source_page_summary(
+    first_unit: ExtractedUnit, last_unit: ExtractedUnit, raw_source: RawSource
+) -> str:
+    if first_unit.unit_id == last_unit.unit_id:
+        return f"{first_unit.heading_path} from raw/{raw_source.source_locator}."
+    return (
+        f"{first_unit.heading_path} through {last_unit.heading_path} "
+        f"from raw/{raw_source.source_locator}."
+    )
+
+
+def _source_contract_citations(
+    raw_source: RawSource, target_units: tuple[ExtractedUnit, ...]
+) -> tuple[str, ...]:
+    raw_citation = f"raw/{raw_source.source_locator}"
+    if len(target_units) > 1:
+        return (raw_citation,)
+    return tuple(f"{raw_citation} {unit.locator}".strip() for unit in target_units)
 
 
 def _same_section_identity(heading: str, page_id: str) -> bool:

@@ -54,6 +54,89 @@ def test_existing_source_section_slug_wins_over_semantic_match() -> None:
     )
 
 
+def test_source_summary_plan_filters_global_claim_groups_to_page_units() -> None:
+    raw_source = RawSource.from_locator("book.pdf")
+    units = (
+        ExtractedUnit(
+            unit_id="unit-0001",
+            raw_source=raw_source,
+            locator="p.1-10",
+            heading_path="Functions",
+            text="Functions are values. Functions may close over scope.",
+            extraction_status="ok",
+        ),
+        ExtractedUnit(
+            unit_id="unit-0002",
+            raw_source=raw_source,
+            locator="p.11-20",
+            heading_path="Closures",
+            text="Closures are functions with remembered bindings. Closures may retain state.",
+            extraction_status="ok",
+        ),
+    )
+
+    plan = build_page_plan(
+        plan_id="test-plan",
+        source_bundle=SourceBundle.one(raw_source),
+        raw_source=raw_source,
+        extracted_units=units,
+        existing_pages={},
+        wiki_structure=LOCAL_FLAT_STRUCTURE,
+        today="2026-06-19",
+    )
+
+    claims_by_id = {claim.source_claim_id: claim for claim in plan.source_claims}
+    for write in plan.planned_writes:
+        if write.page_metadata.page_id == "book":
+            continue
+        assert write.source_summary_plan is not None
+        selected_units = {
+            claims_by_id[claim_id].extracted_unit_id
+            for claim_id in write.source_summary_plan.selected_source_claims
+        }
+        assert selected_units <= set(write.extracted_units)
+        assert selected_units == set(write.extracted_units)
+
+
+def test_high_section_pdf_units_group_into_bounded_source_writes() -> None:
+    raw_source = RawSource.from_locator("book.pdf")
+    units = tuple(
+        ExtractedUnit(
+            unit_id=f"unit-{idx:04d}",
+            raw_source=raw_source,
+            locator=f"p.{idx}",
+            heading_path=f"Section {idx}",
+            text=(
+                f"Section {idx} describes function behavior, scope behavior, "
+                "and explicit limitations for the reader."
+            ),
+            extraction_status="ok",
+        )
+        for idx in range(1, 46)
+    )
+
+    plan = build_page_plan(
+        plan_id="test-plan",
+        source_bundle=SourceBundle.one(raw_source),
+        raw_source=raw_source,
+        extracted_units=units,
+        existing_pages={},
+        wiki_structure=LOCAL_FLAT_STRUCTURE,
+        today="2026-06-19",
+    )
+
+    section_writes = [
+        write for write in plan.planned_writes if write.page_metadata.page_id != "book"
+    ]
+    assert len(section_writes) == 9
+    assert all(len(write.extracted_units) <= 5 for write in section_writes)
+    assert any(len(write.extracted_units) > 1 for write in section_writes)
+    for write in section_writes:
+        assert len(write.page_metadata.sources) == len(write.extracted_units)
+        if len(write.extracted_units) > 1:
+            assert write.resolved_page_body_contract.required_source_citations == ("raw/book.pdf",)
+
+
 def test_markdown_page_plan_uses_raw_source_stem_for_page_identity() -> None:
     raw_source = RawSource.from_locator("antikythera-mechanism.md")
     plan = build_markdown_page_plan(

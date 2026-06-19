@@ -81,10 +81,7 @@ source ~/.bash_profile
 
 ## Step 0 — Corporate TLS interception (skip on a home network)
 
-On networks with SSL inspection (here: Netskope), tools that bundle their own
-certificate store (`node`, `npm`, `uv`) reject every HTTPS connection with
-errors like `SELF_SIGNED_CERT_IN_CHAIN` or `invalid peer certificate:
-UnknownIssuer`, while plain `curl` works (it uses the macOS keychain).
+On networks with SSL inspection (here: Netskope), tools that bundle their own certificate store (`node`, `npm`, `uv`) reject every HTTPS connection with errors like `SELF_SIGNED_CERT_IN_CHAIN` or `invalid peer certificate: UnknownIssuer`, while plain `curl` works because it uses the macOS keychain.
 
 Diagnose: inspect the chain a known host serves. If the issuer is your
 employer/proxy rather than a public CA, you are being intercepted:
@@ -93,10 +90,9 @@ employer/proxy rather than a public CA, you are being intercepted:
 echo | openssl s_client -connect registry.npmjs.org:443 -showcerts 2>/dev/null | grep -E "s:|i:"
 ```
 
-Fix properly (do **not** disable TLS verification): export the proxy CA from
-the keychains into a PEM bundle and point the tools at it. Replace `netskope`
-/ `goskope` with strings matching your proxy's certificate names from the
-diagnose step:
+Fix properly by exporting the proxy CA from the keychains into a PEM bundle and pointing the tools at it.
+Do **not** disable TLS verification.
+Replace `netskope` / `goskope` with strings matching your proxy's certificate names from the diagnose step:
 
 ```bash
 security find-certificate -a -p /Library/Keychains/System.keychain > ~/.local/etc/corp-ca.pem
@@ -104,17 +100,16 @@ security find-certificate -a -p /System/Library/Keychains/SystemRootCertificates
 security find-certificate -a -c netskope -p >> ~/.local/etc/corp-ca.pem
 security find-certificate -a -c goskope  -p >> ~/.local/etc/corp-ca.pem
 
-printf '\nexport NODE_EXTRA_CA_CERTS="$HOME/.local/etc/corp-ca.pem"\nexport UV_SYSTEM_CERTS=true\n' >> ~/.bash_profile
+printf '\nexport NODE_EXTRA_CA_CERTS="$HOME/.local/etc/corp-ca.pem"\nexport UV_SYSTEM_CERTS=true\nexport SSL_CERT_FILE="$HOME/.local/etc/corp-ca.pem"\nexport REQUESTS_CA_BUNDLE="$HOME/.local/etc/corp-ca.pem"\nexport CURL_CA_BUNDLE="$HOME/.local/etc/corp-ca.pem"\n' >> ~/.bash_profile
 source ~/.bash_profile
 ```
 
-(`UV_SYSTEM_CERTS` replaces the deprecated `UV_NATIVE_TLS`; on uv < 0.12 use
-the old name.)
+`UV_SYSTEM_CERTS` replaces the deprecated `UV_NATIVE_TLS`.
+On uv < 0.12 use the old name.
+`SSL_CERT_FILE`, `REQUESTS_CA_BUNDLE`, and `CURL_CA_BUNDLE` let Python and Hugging Face clients, including Docling model downloads, use the same CA bundle.
 
 > **Gotcha:** the proxy CA may live in a different keychain than expected.
-> If npm still fails after adding the System keychain, run the
-> `find-certificate -c <name>` variants against the *default* keychain (no
-> path argument) as shown above — that searches the login keychain too.
+> If npm still fails after adding the System keychain, run the `find-certificate -c <name>` variants against the *default* keychain with no path argument as shown above because that searches the login keychain too.
 
 > **Gotcha:** `npm config set cafile <path>` is also worth setting
 > (`npm config set cafile=$HOME/.local/etc/corp-ca.pem`), but verify it stuck

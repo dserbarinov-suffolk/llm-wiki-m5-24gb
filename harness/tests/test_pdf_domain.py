@@ -87,6 +87,7 @@ class TestManifest:
     def test_roundtrip(self) -> None:
         manifest = self._manifest().mark_done(1, "notes one")
         assert from_json(to_json(manifest)) == manifest
+        assert from_json(to_json(manifest)).extractor_name == "docling"
 
     def test_pending_and_resume_cursor(self) -> None:
         manifest = self._manifest()
@@ -125,6 +126,14 @@ class TestManifest:
             del chunk["pages_written"]  # manifests predating the salience design
         manifest = from_json(json.dumps(data))
         assert manifest.chunks[0].pages_written == ()
+
+    def test_legacy_manifest_without_extractor_name_loads(self) -> None:
+        import json
+
+        data = json.loads(to_json(self._manifest()))
+        del data["extractor_name"]
+        manifest = from_json(json.dumps(data))
+        assert manifest.extractor_name == "pymupdf4llm"
 
     def test_write_counts_accumulate_across_chunks(self) -> None:
         manifest = (
