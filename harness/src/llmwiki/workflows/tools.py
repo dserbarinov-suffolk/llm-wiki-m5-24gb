@@ -8,13 +8,13 @@ tool-error channel for self-correction.
 
 from __future__ import annotations
 
-import re
 from dataclasses import replace
 
 from forge.core.workflow import ToolDef, ToolSpec
 from pydantic import BaseModel, Field
 
 from llmwiki.domain.objects import PlannedPageWrite
+from llmwiki.domain.page_body_contracts import render_page_body_findings, validate_page_body
 from llmwiki.domain.pages import PageMetadata, WikiPage
 from llmwiki.domain.search import render_hits, search_pages
 from llmwiki.pdf.intermediate import OCR_MARKER
@@ -28,30 +28,28 @@ def _strip_pipeline_markers(content: str) -> str:
     return "\n".join(line for line in content.splitlines() if OCR_MARKER not in line)
 
 
-def _missing_required_links(page_body: str, page_ids: tuple[str, ...]) -> tuple[str, ...]:
-    return tuple(page_id for page_id in page_ids if f"[[{page_id}]]" not in page_body)
+def _page_body_contract_source_text(store: WikiStore, planned_write: PlannedPageWrite) -> str:
+    if not planned_write.evidence:
+        return ""
+    raw_source = planned_write.evidence[0].raw_source
+    if raw_source.source_format != "markdown":
+        return ""
+    return store.read_source(raw_source.source_locator)
 
 
-def _missing_required_citations(page_body: str, citations: tuple[str, ...]) -> tuple[str, ...]:
-    return tuple(citation for citation in citations if citation not in page_body)
-
-
-def _has_uncertainty_term(page_body: str, term: str) -> bool:
-    patterns = {
-        "may": r"\bmay\b",
-        "might": r"\bmight\b",
-        "possible": r"\bpossible\b|\bpossibly\b",
-        "suggest": r"\bsuggest\w*\b",
-        "uncertain": r"\buncertain\b",
-        "unknown": r"\bunknown\b",
-        "unconfirmed": r"\bunconfirmed\b",
-        "verify": r"\[verify\]",
-    }
-    return re.search(patterns.get(term, rf"\b{re.escape(term)}\b"), page_body.lower()) is not None
-
-
-def _preserves_uncertainty(page_body: str, terms: tuple[str, ...]) -> bool:
-    return not terms or any(_has_uncertainty_term(page_body, term) for term in terms)
+def _validate_planned_page_body(
+    store: WikiStore, planned_write: PlannedPageWrite, page_body: str
+) -> None:
+    source_text = _page_body_contract_source_text(store, planned_write)
+    findings = validate_page_body(
+        page_body,
+        planned_write.resolved_page_body_contract,
+        source_text=source_text,
+    )
+    if findings:
+        raise WikiStoreError(
+            render_page_body_findings(findings, planned_write.resolved_page_body_contract)
+        )
 
 
 class ReadSourceParams(BaseModel):
@@ -76,9 +74,7 @@ class WritePageParams(BaseModel):
     page_id: str = Field(
         description="WikiPage page_id as a kebab-case slug. Reuse an existing page_id to update."
     )
-    page_kind: str = Field(
-        description="WikiPage page_kind: source, entity, concept, or synthesis."
-    )
+    page_kind: str = Field(description="WikiPage page_kind: source, entity, concept, or synthesis.")
     summary: str = Field(description="One-line summary of the page, used in the wiki index.")
     page_body: str = Field(
         description="Full PageBody markdown. Link related pages inline with [[page_id]]. "
@@ -246,24 +242,7 @@ def planned_write_page_tool(
     def _write_page(**kwargs: object) -> str:
         params = PlannedWritePageParams(**kwargs)  # type: ignore[arg-type]
         page_body = _strip_pipeline_markers(params.page_body)
-        missing_links = _missing_required_links(page_body, planned_write.required_link_page_ids)
-        missing_citations = _missing_required_citations(
-            page_body, planned_write.required_source_citations
-        )
-        if missing_links:
-            links = ", ".join(f"[[{page_id}]]" for page_id in missing_links)
-            raise WikiStoreError(f"PageBody must include required PlannedPageWrite links: {links}.")
-        if missing_citations:
-            citations = ", ".join(missing_citations)
-            raise WikiStoreError(
-                f"PageBody must cite required PlannedPageWrite sources: {citations}."
-            )
-        if not _preserves_uncertainty(page_body, planned_write.required_uncertainty_terms):
-            terms = ", ".join(planned_write.required_uncertainty_terms)
-            raise WikiStoreError(
-                "PageBody must preserve source uncertainty using at least one "
-                f"of these terms: {terms}."
-            )
+        _validate_planned_page_body(store, planned_write, page_body)
         if (
             read_tracker is not None
             and target_page not in read_tracker

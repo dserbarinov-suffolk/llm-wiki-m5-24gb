@@ -30,6 +30,7 @@ from llmwiki.domain.objects import (
     Schema,
     SourceBundle,
     SourcePlan,
+    SourcePlanContractSelection,
 )
 from llmwiki.domain.pages import PageMetadata, WikiPage, parse_page, slugify
 from llmwiki.domain.planning import (
@@ -65,6 +66,11 @@ _MAX_ITERATIONS = {
     "pdf-planned-write": 16,
     "planned-write": 16,
     "chat": 12,
+}
+
+_MAX_TOOL_ERRORS = {
+    "pdf-planned-write": 5,
+    "planned-write": 5,
 }
 
 # (pdf_path, source_rel, reextract) -> ExtractionResult; injectable for tests.
@@ -156,6 +162,7 @@ class Session:
             existing_pages=self.store.page_texts(),
             wiki_structure=self.store.structure,
             today=self.today,
+            schema=self._schema_object(),
         )
         units = {unit.unit_id: unit for unit in page_plan.extracted_units}
         actual_pages: list[str] = []
@@ -210,6 +217,7 @@ class Session:
             existing_pages=self.store.page_texts(),
             wiki_structure=self.store.structure,
             today=self.today,
+            schema=self._schema_object(),
         )
         self._write_page_plan(result.cache_dir, page_plan)
 
@@ -369,6 +377,7 @@ class Session:
             client=self.client,
             context_manager=self.context_manager,
             max_iterations=_MAX_ITERATIONS[op],
+            max_tool_errors=_MAX_TOOL_ERRORS.get(op, 2),
             on_message=writer.on_message if writer else None,
             retry_nudge=_RETRY_NUDGES[op],
         )
@@ -403,8 +412,7 @@ class Session:
     def _extraction_prompt(self, subject: str) -> ExtractionPrompt:
         return ExtractionPrompt(
             instruction_text=(
-                "Use the local LLM-Wiki ingest workflow from Schema. "
-                f"Run subject: raw/{subject}."
+                f"Use the local LLM-Wiki ingest workflow from Schema. Run subject: raw/{subject}."
             )
         )
 
@@ -435,6 +443,12 @@ class Session:
                 source_classification="planned markdown write",
                 ingest_disposition=write.action,
                 planned_page_write_ids=(write.write_id,),
+                page_body_contract_selections=(
+                    SourcePlanContractSelection(
+                        contract_id=write.resolved_page_body_contract.contract_id,
+                        page_ids=(write.page_metadata.page_id,),
+                    ),
+                ),
                 handling_notes="PagePlan write.",
             )
             for write in page_plan.planned_writes
@@ -505,6 +519,12 @@ class Session:
                 source_classification="planned pdf write",
                 ingest_disposition=write.action,
                 planned_page_write_ids=(write.write_id,),
+                page_body_contract_selections=(
+                    SourcePlanContractSelection(
+                        contract_id=write.resolved_page_body_contract.contract_id,
+                        page_ids=(write.page_metadata.page_id,),
+                    ),
+                ),
                 handling_notes="Global PagePlan write.",
             )
             for write in page_plan.planned_writes

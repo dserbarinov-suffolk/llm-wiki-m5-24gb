@@ -44,6 +44,27 @@ def _wiki_page(
     )
 
 
+def _source_summary_body(
+    target_page_id: str,
+    citation: str,
+    *,
+    uncertainty: str = "",
+) -> str:
+    uncertainty_sentence = f" {uncertainty}" if uncertainty else ""
+    return (
+        "## Source record\n\n"
+        f"Source record for [[{target_page_id}]] using ({citation}).{uncertainty_sentence}\n\n"
+        "## Key supported claims\n\n"
+        f"- The source supports a focused note about [[{target_page_id}]]. ({citation})\n"
+        f"- The source should be used as cited evidence, not copied wholesale. ({citation})\n"
+        f"- The source leaves detailed interpretation to the target page. ({citation})"
+    )
+
+
+def _entity_body(source_page_id: str, citation: str, claim: str) -> str:
+    return f"{claim} See [[{source_page_id}]]. ({citation})"
+
+
 @pytest.fixture
 def source(paths: WikiPaths) -> str:
     (paths.raw_dir / "moon.md").write_text(
@@ -61,7 +82,7 @@ class TestIngest:
                 ToolCall(
                     tool="write_page",
                     args={
-                        "page_body": "Source summary for [[moon]]. (raw/moon.md)",
+                        "page_body": _source_summary_body("moon", "raw/moon.md"),
                     },
                 )
             ],
@@ -70,9 +91,10 @@ class TestIngest:
                 ToolCall(
                     tool="write_page",
                     args={
-                        "page_body": (
-                            "The Moon formed from a giant impact. "
-                            "See [[moon-source]]. (raw/moon.md)"
+                        "page_body": _entity_body(
+                            "moon-source",
+                            "raw/moon.md",
+                            "The Moon has a giant-impact formation account.",
                         ),
                     },
                 )
@@ -83,8 +105,8 @@ class TestIngest:
 
         assert "Planned ingest completed" in result.output
         assert "Written pages: [[moon-source]], [[moon]]" in result.output
-        assert "Source summary for [[moon]]" in store.read_page("moon-source")
-        assert "formed from a giant impact" in store.read_page("moon")
+        assert "Source record for [[moon]]" in store.read_page("moon-source")
+        assert "giant-impact formation account" in store.read_page("moon")
         assert "- [[moon-source]] — Source summary for moon." in store.read_index()
         assert "- [[moon]] — Facts about moon from an ingested RawSource." in store.read_index()
         log = paths.log_path.read_text(encoding="utf-8")
@@ -104,14 +126,20 @@ class TestIngest:
             [
                 ToolCall(
                     tool="write_page",
-                    args={"page_body": "Source summary for [[moon]]. (raw/moon.md)"},
+                    args={"page_body": _source_summary_body("moon", "raw/moon.md")},
                 )
             ],
             [ToolCall(tool="finish_planned_write", args={"report": "also wrote [[ghost]]"})],
             [
                 ToolCall(
                     tool="write_page",
-                    args={"page_body": "Moon notes with [[moon-source]]. (raw/moon.md)"},
+                    args={
+                        "page_body": _entity_body(
+                            "moon-source",
+                            "raw/moon.md",
+                            "Moon notes retain the cited source.",
+                        )
+                    },
                 )
             ],
             [ToolCall(tool="finish_planned_write", args={"report": "also wrote [[ghost]]"})],
@@ -134,23 +162,27 @@ class TestIngest:
             [
                 ToolCall(
                     tool="write_page",
-                    args={
-                        "page_body": "Corrected source summary for [[moon]]. (raw/moon.md)"
-                    },
+                    args={"page_body": _source_summary_body("moon", "raw/moon.md")},
                 )
             ],
             [ToolCall(tool="finish_planned_write", args={"report": "source written"})],
             [
                 ToolCall(
                     tool="write_page",
-                    args={"page_body": "Moon notes with [[moon-source]]. (raw/moon.md)"},
+                    args={
+                        "page_body": _entity_body(
+                            "moon-source",
+                            "raw/moon.md",
+                            "Moon notes retain the cited source.",
+                        )
+                    },
                 )
             ],
             [ToolCall(tool="finish_planned_write", args={"report": "entity written"})],
         ]
         await _session(store, script, paths).ingest(source)
         assert "Body without" not in store.read_page("moon-source")
-        assert "Corrected source summary" in store.read_page("moon-source")
+        assert "Key supported claims" in store.read_page("moon-source")
 
     async def test_uncertainty_terms_are_checked_before_write(
         self, store: WikiStore, paths: WikiPaths
@@ -165,8 +197,11 @@ class TestIngest:
                     tool="write_page",
                     args={
                         "page_body": (
-                            "Source summary for [[origin]] says the origin may be Corinth. "
-                            "(raw/origin.md)"
+                            _source_summary_body(
+                                "origin",
+                                "raw/origin.md",
+                                uncertainty="The source may place the origin near Corinth.",
+                            )
                         ),
                     },
                 )
@@ -188,8 +223,11 @@ class TestIngest:
                     tool="write_page",
                     args={
                         "page_body": (
-                            "The source says the device may have originated in Corinth. "
-                            "See [[origin-source]]. (raw/origin.md)"
+                            _entity_body(
+                                "origin-source",
+                                "raw/origin.md",
+                                "The source says the device may have a Corinthian origin.",
+                            )
                         ),
                     },
                 )
@@ -198,7 +236,7 @@ class TestIngest:
         ]
         await _session(store, script, paths).ingest("origin.md")
         assert "The device originated in Corinth." not in store.read_page("origin")
-        assert "may have originated" in store.read_page("origin")
+        assert "may have a Corinthian origin" in store.read_page("origin")
 
     async def test_rewrite_without_read_is_blocked_then_recovers(
         self, store: WikiStore, paths: WikiPaths, source: str
@@ -213,7 +251,7 @@ class TestIngest:
             [
                 ToolCall(
                     tool="write_page",
-                    args={"page_body": "Source summary for [[moon]]. (raw/moon.md)"},
+                    args={"page_body": _source_summary_body("moon", "raw/moon.md")},
                 )
             ],
             [ToolCall(tool="finish_planned_write", args={"report": "source written"})],
@@ -254,9 +292,13 @@ class TestIngest:
                 ToolCall(
                     tool="write_page",
                     args={
-                        "page_body": "Real claim for [[moon]]. (raw/moon.md)\n\n"
+                        "page_body": "## Source record\n\n"
+                        "Real claim for [[moon]]. (raw/moon.md)\n\n"
                         "[figure text (OCR, unverified): NOISE ON A MUG]\n\n"
-                        "Another claim.",
+                        "## Key supported claims\n\n"
+                        "- First compact claim. (raw/moon.md)\n"
+                        "- Another claim. (raw/moon.md)\n"
+                        "- Third compact claim. (raw/moon.md)",
                     },
                 )
             ],
@@ -264,7 +306,13 @@ class TestIngest:
             [
                 ToolCall(
                     tool="write_page",
-                    args={"page_body": "Moon notes with [[moon-source]]. (raw/moon.md)"},
+                    args={
+                        "page_body": _entity_body(
+                            "moon-source",
+                            "raw/moon.md",
+                            "Moon notes retain the cited source.",
+                        )
+                    },
                 )
             ],
             [ToolCall(tool="finish_planned_write", args={"report": "entity written"})],
@@ -284,7 +332,7 @@ class TestIngest:
             [
                 ToolCall(
                     tool="write_page",
-                    args={"page_body": "Source summary for [[moon]]. (raw/moon.md)"},
+                    args={"page_body": _source_summary_body("moon", "raw/moon.md")},
                 )
             ],
             TextResponse(content="I have finished ingesting the source."),
@@ -292,7 +340,13 @@ class TestIngest:
             [
                 ToolCall(
                     tool="write_page",
-                    args={"page_body": "Moon notes with [[moon-source]]. (raw/moon.md)"},
+                    args={
+                        "page_body": _entity_body(
+                            "moon-source",
+                            "raw/moon.md",
+                            "Moon notes retain the cited source.",
+                        )
+                    },
                 )
             ],
             [ToolCall(tool="finish_planned_write", args={"report": "entity written"})],
@@ -302,12 +356,7 @@ class TestIngest:
         assert "Written pages: [[moon-source]], [[moon]]" in result.output
         fake: FakeClient = session.client
         # The turn after the bare text must carry the terminal-tool hint.
-        nudges = [
-            m["content"]
-            for turn in fake.sent
-            for m in turn
-            if m.get("role") == "user"
-        ]
+        nudges = [m["content"] for turn in fake.sent for m in turn if m.get("role") == "user"]
         assert any("finish_planned_write" in content for content in nudges)
 
 
@@ -336,9 +385,7 @@ class TestLint:
         assert f"## [{TODAY}] lint | empty wiki" in paths.log_path.read_text()
 
     async def test_lint_files_report_page_and_log(self, store: WikiStore, paths: WikiPaths) -> None:
-        store.write_page(
-            _wiki_page("alpha", "concept", "A.", "Links to [[ghost]].")
-        )
+        store.write_page(_wiki_page("alpha", "concept", "A.", "Links to [[ghost]]."))
         script = [
             [ToolCall(tool="read_page", args={"page_id": "alpha"})],
             [ToolCall(tool="finish_lint", args={"report": "ghost link is broken."})],
@@ -358,15 +405,9 @@ class TestLint:
         self, store: WikiStore, paths: WikiPaths
     ) -> None:
         # A prior lint filed wiki-health; the next lint must not flag it.
-        store.write_page(
-            _wiki_page("alpha", "concept", "A.", "[[beta]]")
-        )
-        store.write_page(
-            _wiki_page("beta", "concept", "B.", "[[alpha]]")
-        )
-        store.write_page(
-            _wiki_page("wiki-health", "synthesis", "Old report.", "All clean.")
-        )
+        store.write_page(_wiki_page("alpha", "concept", "A.", "[[beta]]"))
+        store.write_page(_wiki_page("beta", "concept", "B.", "[[alpha]]"))
+        store.write_page(_wiki_page("wiki-health", "synthesis", "Old report.", "All clean."))
         script = [
             [ToolCall(tool="read_page", args={"page_id": "alpha"})],
             [ToolCall(tool="finish_lint", args={"report": "Still clean."})],

@@ -63,9 +63,7 @@ class TestWikiPathsValidation:
 
 
 class TestChatInputLoop:
-    def test_prompt_restores_default_sigint_handler(
-        self, monkeypatch: pytest.MonkeyPatch
-    ) -> None:
+    def test_prompt_restores_default_sigint_handler(self, monkeypatch: pytest.MonkeyPatch) -> None:
         asyncio_handler = object()
         calls: list[tuple[int, object]] = []
 

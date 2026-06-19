@@ -12,9 +12,7 @@ def _page(page_id: str, page_kind: str, body: str, sources: tuple[str, ...] = ()
         summary=f"About {page_id}.",
         sources=sources,
     )
-    return render_page(
-        WikiPage.from_metadata(metadata, body)
-    )
+    return render_page(WikiPage.from_metadata(metadata, body))
 
 
 BOOK = ("iterable protocol " * 60) + ("generator " * 20) + "by matthew knox. leanpub edition."

@@ -43,8 +43,7 @@ def compute_findings(
     lint_findings: list[LintFinding] = []
     for page_id, links in sorted(broken.items()):
         lint_findings.extend(
-            LintFinding("broken link", page_id=page_id, cross_reference=link)
-            for link in links
+            LintFinding("broken link", page_id=page_id, cross_reference=link) for link in links
         )
     lint_findings.extend(LintFinding("orphan page", page_id=page_id) for page_id in orphans)
     lint_findings.extend(

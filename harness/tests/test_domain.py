@@ -5,7 +5,20 @@ import pytest
 from llmwiki.domain.index import index_page_ids, parse_index, upsert_index_entry
 from llmwiki.domain.links import compute_findings, extract_links
 from llmwiki.domain.log import format_log_entry
-from llmwiki.domain.objects import IngestRun, RawSource, SourceBundle
+from llmwiki.domain.objects import (
+    IngestRun,
+    PageBodyContract,
+    RawSource,
+    Schema,
+    SourceBundle,
+    SourcePlan,
+    SourcePlanContractSelection,
+)
+from llmwiki.domain.page_body_contracts import (
+    contract_for_page_kind,
+    resolve_page_body_contract,
+    validate_page_body,
+)
 from llmwiki.domain.pages import (
     LOCAL_FLAT_STRUCTURE,
     PageError,
@@ -143,6 +156,107 @@ class TestObjectBoundaries:
         assert run.ingest_topology == "serial"
         with pytest.raises(ValueError):
             IngestRun(source_bundle=SourceBundle.one(raw), ingest_topology="parallel")
+
+
+class TestPageBodyContracts:
+    def test_schema_has_generic_default_page_body_contracts(self) -> None:
+        schema = Schema()
+        contracts = {contract.contract_id for contract in schema.page_body_contracts}
+        assert {"source-summary", "entity-page", "concept-page", "synthesis-page"} <= contracts
+        source_contract = contract_for_page_kind(schema, "source")
+        assert source_contract.contract_id == "source-summary"
+        assert source_contract.min_claim_bullets == 3
+        assert source_contract.coverage_policy == "main-supported-claims-and-explicit-limits"
+        assert not hasattr(RawSource.from_locator("article.md"), "page_body_contract")
+
+    def test_source_plan_can_select_page_body_contract_without_changing_raw_source(self) -> None:
+        raw = RawSource.from_locator("article.md")
+        selection = SourcePlanContractSelection(
+            contract_id="architecture-product-source",
+            page_ids=("lcn-4040xp-source",),
+            max_words_override=120,
+        )
+        plan = SourcePlan(
+            raw_source=raw,
+            source_classification="legacy source record",
+            ingest_disposition="create-new",
+            page_body_contract_selections=(selection,),
+        )
+
+        assert plan.raw_source == raw
+        assert plan.page_body_contract_selections == (selection,)
+
+    def test_source_summary_contract_rejects_near_full_source_copy(self) -> None:
+        source_text = (
+            "The Antikythera mechanism may have tracked astronomical cycles. "
+            "The device was recovered from a shipwreck and its inscriptions "
+            "suggest possible calendrical and eclipse functions."
+        )
+        contract = resolve_page_body_contract(
+            contract_for_page_kind(Schema(), "source"),
+            required_link_page_ids=("antikythera-mechanism",),
+            required_source_citations=("raw/antikythera-mechanism.md",),
+            required_uncertainty_terms=("may", "suggest", "possible"),
+        )
+        page_body = (
+            "The Antikythera mechanism may have tracked astronomical cycles. "
+            "The device was recovered from a shipwreck and its inscriptions "
+            "suggest possible calendrical and eclipse functions. "
+            "See [[antikythera-mechanism]]. (raw/antikythera-mechanism.md)"
+        )
+
+        findings = validate_page_body(page_body, contract, source_text=source_text)
+
+        assert {finding.finding_type for finding in findings} >= {
+            "RequiredSections",
+            "RequiredMarkdownShape",
+            "MaxCopiedNGramRatio",
+        }
+
+    def test_source_summary_contract_accepts_compact_grounded_claims(self) -> None:
+        source_text = (
+            "The Antikythera mechanism may have tracked astronomical cycles. "
+            "The device was recovered from a shipwreck and its inscriptions "
+            "suggest possible calendrical and eclipse functions."
+        )
+        contract = resolve_page_body_contract(
+            contract_for_page_kind(Schema(), "source"),
+            required_link_page_ids=("antikythera-mechanism",),
+            required_source_citations=("raw/antikythera-mechanism.md",),
+            required_uncertainty_terms=("may", "suggest", "possible"),
+        )
+        page_body = (
+            "## Source record\n\n"
+            "Source record for [[antikythera-mechanism]]. "
+            "The evidence may remain uncertain. (raw/antikythera-mechanism.md)\n\n"
+            "## Key supported claims\n\n"
+            "- The source supports an astronomical interpretation. "
+            "(raw/antikythera-mechanism.md)\n"
+            "- The source preserves possible functions without resolving them. "
+            "(raw/antikythera-mechanism.md)\n"
+            "- The source points to unresolved origin evidence. "
+            "(raw/antikythera-mechanism.md)"
+        )
+
+        assert validate_page_body(page_body, contract, source_text=source_text) == ()
+
+    def test_user_defined_contract_controls_page_shape(self) -> None:
+        contract = PageBodyContract(
+            contract_id="product-page",
+            match_page_kinds=("entity",),
+            required_sections=("Applications", "Limitations"),
+        )
+        resolved = resolve_page_body_contract(contract)
+
+        findings = validate_page_body("## Applications\n\nDoor closer evidence.", resolved)
+        assert [finding.finding_type for finding in findings] == ["RequiredSections"]
+        assert (
+            validate_page_body(
+                "## Applications\n\nDoor closer evidence.\n\n## Limitations\n\nOpen items.",
+                resolved,
+            )
+            == ()
+        )
 
 
 class TestIndex:

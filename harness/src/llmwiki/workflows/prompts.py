@@ -68,10 +68,10 @@ INTEGRATE_TEMPLATE = _BASE + (
 
 PLANNED_WRITE_TEMPLATE = _BASE + (
     "\nTask: execute one PlannedPageWrite. The user message names the exact "
-    "target PageId, PageKind, PageMetadata, PagePath, required PageBody links, "
-    "required source citations, uncertainty terms, SourceLocator evidence, and extracted "
-    "source units. write_page is bound to that target page by the PagePlan, "
-    "so provide only PageBody and include every required link and citation. "
+    "target PageId, PageKind, PageMetadata, PagePath, ResolvedPageBodyContract, "
+    "SourceLocator evidence, and extracted source units. write_page is bound "
+    "to that target page by the PagePlan, so provide only PageBody and satisfy "
+    "the ResolvedPageBodyContract exactly. "
     "For source pages, write a compact "
     "replacement from the supplied evidence and do not read the existing page. "
     "For non-source pages, read_page first when updating an existing page. "

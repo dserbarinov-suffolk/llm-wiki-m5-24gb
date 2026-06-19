@@ -121,9 +121,7 @@ class WikiStore:
 
     def write_page(self, page: WikiPage) -> None:
         if page.page_id in _RESERVED_PAGE_IDS:
-            raise WikiStoreError(
-                f"{page.page_id!r} is reserved; choose another page_id."
-            )
+            raise WikiStoreError(f"{page.page_id!r} is reserved; choose another page_id.")
         page_path = self.page_path(page)
         self._ensure_wiki_path(page_path)
         page_path.parent.mkdir(parents=True, exist_ok=True)

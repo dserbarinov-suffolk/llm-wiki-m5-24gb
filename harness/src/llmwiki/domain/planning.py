@@ -26,9 +26,17 @@ from llmwiki.domain.objects import (
     PlannedPageWrite,
     ProjectionMetadata,
     RawSource,
+    ResolvedPageBodyContract,
+    Schema,
     SourceBundle,
+    SourcePlanContractSelection,
     TopicCluster,
     WikiMatch,
+)
+from llmwiki.domain.page_body_contracts import (
+    contract_by_id,
+    contract_for_page_kind,
+    resolve_page_body_contract,
 )
 from llmwiki.domain.pages import PageMetadata, WikiStructure, parse_page, slugify
 
@@ -91,7 +99,10 @@ def build_page_plan(
     existing_pages: dict[str, str],
     wiki_structure: WikiStructure,
     today: str,
+    schema: Schema | None = None,
+    source_plan_contract_selections: tuple[SourcePlanContractSelection, ...] = (),
 ) -> PagePlan:
+    resolved_schema = schema or Schema()
     candidate_claims = tuple(_candidate_claim(unit) for unit in extracted_units)
     candidate_topics = _candidate_topics(extracted_units, candidate_claims)
     candidate_entities = _candidate_entities(extracted_units, candidate_claims)
@@ -106,6 +117,8 @@ def build_page_plan(
         claim_comparisons=claim_comparisons,
         wiki_structure=wiki_structure,
         today=today,
+        schema=resolved_schema,
+        source_plan_contract_selections=source_plan_contract_selections,
     )
     return PagePlan(
         plan_id=plan_id,
@@ -130,7 +143,10 @@ def build_markdown_page_plan(
     existing_pages: dict[str, str],
     wiki_structure: WikiStructure,
     today: str,
+    schema: Schema | None = None,
+    source_plan_contract_selections: tuple[SourcePlanContractSelection, ...] = (),
 ) -> PagePlan:
+    resolved_schema = schema or Schema()
     title = _document_title(source_text, raw_source.source_locator)
     unit = ExtractedUnit(
         unit_id="unit-0001",
@@ -156,6 +172,8 @@ def build_markdown_page_plan(
         wiki_matches=wiki_matches,
         wiki_structure=wiki_structure,
         today=today,
+        schema=resolved_schema,
+        source_plan_contract_selections=source_plan_contract_selections,
     )
     return PagePlan(
         plan_id=plan_id,
@@ -205,24 +223,26 @@ def planned_write_message(write: PlannedPageWrite, units: dict[str, ExtractedUni
         unit_blocks.append(
             f"<unit id='{unit.unit_id}' locator='{unit.locator}' heading='{unit.heading_path}'>\n"
             f"{_truncate(unit.text, _MAX_SOURCE_CHARS_PER_WRITE)}\n</unit>"
-    )
+        )
     matches = "\n".join(
         f"- [[{match.page_id}]] score={match.score:.3f} reason={match.match_reason}"
         for match in write.wiki_matches[:5]
     )
     evidence = ", ".join(
-        f"raw/{item.raw_source.source_locator} {item.locator}".strip()
-        for item in write.evidence
+        f"raw/{item.raw_source.source_locator} {item.locator}".strip() for item in write.evidence
     )
-    required_links = ", ".join(f"[[{page_id}]]" for page_id in write.required_link_page_ids)
-    required_citations = ", ".join(write.required_source_citations)
-    required_uncertainty = ", ".join(write.required_uncertainty_terms)
+    contract = write.resolved_page_body_contract
+    required_sections = ", ".join(contract.required_sections)
+    required_links = ", ".join(f"[[{page_id}]]" for page_id in contract.required_link_page_ids)
+    required_citations = ", ".join(contract.required_source_citations)
+    required_uncertainty = ", ".join(contract.required_uncertainty_terms)
     update_instruction = (
         "For source pages, write a compact replacement from the supplied evidence. "
         "Do not read or preserve existing source-page content.\n"
         if write.page_metadata.page_kind == "source"
         else "If the target page already exists, read_page it first and preserve useful content.\n"
     )
+    contract_guidance = _page_body_contract_guidance(write)
     return (
         "Execute this PlannedPageWrite only. Do not create or update any other page. /no_think\n\n"
         f"Action: {write.action}\n"
@@ -231,10 +251,19 @@ def planned_write_message(write: PlannedPageWrite, units: dict[str, ExtractedUni
         f"Target PagePath: {write.projection.page_path if write.projection else ''}\n"
         f"Summary: {write.page_metadata.summary}\n"
         f"Evidence: {evidence}\n"
+        f"ResolvedPageBodyContract: {contract.contract_id}\n"
+        f"Required sections: {required_sections or 'none'}\n"
+        f"Required markdown shape: {contract.required_markdown_shape}\n"
+        f"Minimum claim bullets: {contract.min_claim_bullets or 'none'}\n"
+        f"Coverage policy: {contract.coverage_policy or 'none'}\n"
+        f"Max words: {contract.max_words or 'none'}\n"
+        f"Max source word ratio: {contract.max_source_word_ratio or 'none'}\n"
+        f"Max copied n-gram ratio: {contract.max_copied_ngram_ratio}\n"
         f"Required PageBody links: {required_links or 'none'}\n"
         f"Required source citations: {required_citations or 'none'}\n"
         f"Required uncertainty terms: {required_uncertainty or 'none'}\n\n"
         f"{update_instruction}"
+        f"{contract_guidance}"
         "Call write_page with page_body for the target page. "
         "The PagePlan supplies PageId, PageKind, PageMetadata, and PagePath.\n\n"
         "Write only claims supported by the supplied ExtractedUnit text. "
@@ -242,6 +271,43 @@ def planned_write_message(write: PlannedPageWrite, units: dict[str, ExtractedUni
         "Write a compact source summary, not a transcript. Prefer concise sections and bullets.\n\n"
         f"WikiMatches:\n{matches or '- none'}\n\n"
         f"{chr(10).join(unit_blocks)}"
+    )
+
+
+def _page_body_contract_guidance(write: PlannedPageWrite) -> str:
+    contract = write.resolved_page_body_contract
+    if contract.contract_id != "source-summary":
+        return ""
+    citation = contract.required_source_citations[0] if contract.required_source_citations else ""
+    link = (
+        f"[[{contract.required_link_page_ids[0]}]]"
+        if contract.required_link_page_ids
+        else f"[[{write.page_metadata.page_id}]]"
+    )
+    uncertainty = (
+        " Use one source uncertainty term in a claim bullet, such as "
+        f"{', '.join(contract.required_uncertainty_terms[:3])}."
+        if contract.required_uncertainty_terms
+        else ""
+    )
+    return (
+        "For ResolvedPageBodyContract source-summary, replace the whole PageBody with "
+        "a short paraphrase under 120 words.\n"
+        "Coverage policy main-supported-claims-and-explicit-limits means the bullets "
+        "cover the source's central supported claims plus explicit uncertainty, gaps, "
+        "or non-confirmations when present.\n"
+        "For technical sources, cover what the thing is, what it does, and what the "
+        "source does not fully confirm.\n"
+        "Use this exact shape with three to five concise bullets:\n"
+        "## Source record\n"
+        f"Source record for {link}. ({citation})\n\n"
+        "## Key supported claims\n"
+        f"- One short claim identifying the source subject in your own words. ({citation})\n"
+        f"- One short claim covering a central function, behavior, or finding. ({citation})\n"
+        f"- One short claim preserving uncertainty, gaps, or non-confirmations when present."
+        f"{uncertainty} "
+        f"({citation})\n\n"
+        "Do not copy long source sentences or distinctive phrases.\n"
     )
 
 
@@ -386,6 +452,8 @@ def _planned_writes(
     claim_comparisons: tuple[ClaimComparison, ...],
     wiki_structure: WikiStructure,
     today: str,
+    schema: Schema,
+    source_plan_contract_selections: tuple[SourcePlanContractSelection, ...],
 ) -> tuple[PlannedPageWrite, ...]:
     writes: list[PlannedPageWrite] = []
     source_stem = slugify(Path(raw_source.source_locator).stem)
@@ -401,8 +469,7 @@ def _planned_writes(
             page_kind="source",
             summary=f"{first_unit.heading_path} from raw/{raw_source.source_locator}.",
             sources=tuple(
-                f"raw/{raw_source.source_locator} {unit.locator}".strip()
-                for unit in target_units
+                f"raw/{raw_source.source_locator} {unit.locator}".strip() for unit in target_units
             ),
             updated=today,
             domain=source_stem,
@@ -411,9 +478,7 @@ def _planned_writes(
         )
         path = str(wiki_structure.render_path(metadata))
         matches = tuple(
-            match
-            for unit in target_units
-            for match in matches_by_unit.get(unit.unit_id, ())
+            match for unit in target_units for match in matches_by_unit.get(unit.unit_id, ())
         )
         writes.append(
             PlannedPageWrite(
@@ -422,8 +487,7 @@ def _planned_writes(
                 page_metadata=metadata,
                 extracted_units=tuple(unit.unit_id for unit in target_units),
                 evidence=tuple(
-                    Evidence(raw_source=raw_source, locator=unit.locator)
-                    for unit in target_units
+                    Evidence(raw_source=raw_source, locator=unit.locator) for unit in target_units
                 ),
                 wiki_matches=matches,
                 claim_comparisons=tuple(
@@ -431,6 +495,13 @@ def _planned_writes(
                 ),
                 projection=ProjectionMetadata(page_metadata=metadata, page_path=path),
                 existing_page_id=page_id if page_id in existing_pages else "",
+                resolved_page_body_contract=_resolved_page_body_contract(
+                    schema=schema,
+                    selections=source_plan_contract_selections,
+                    page_id=page_id,
+                    page_kind=metadata.page_kind,
+                    required_source_citations=metadata.sources,
+                ),
             )
         )
     hub_metadata = PageMetadata(
@@ -456,6 +527,13 @@ def _planned_writes(
                 page_path=str(wiki_structure.render_path(hub_metadata)),
             ),
             existing_page_id=source_stem if source_stem in existing_pages else "",
+            resolved_page_body_contract=_resolved_page_body_contract(
+                schema=schema,
+                selections=source_plan_contract_selections,
+                page_id=source_stem,
+                page_kind=hub_metadata.page_kind,
+                required_source_citations=hub_metadata.sources,
+            ),
         )
     )
     return tuple(writes)
@@ -471,6 +549,8 @@ def _markdown_planned_writes(
     wiki_matches: tuple[WikiMatch, ...],
     wiki_structure: WikiStructure,
     today: str,
+    schema: Schema,
+    source_plan_contract_selections: tuple[SourcePlanContractSelection, ...],
 ) -> tuple[PlannedPageWrite, ...]:
     subject_page_id = slugify(Path(raw_source.source_locator).stem)
     source_page_id = _markdown_source_page_id(subject_page_id, existing_pages)
@@ -510,9 +590,15 @@ def _markdown_planned_writes(
                 page_path=str(wiki_structure.render_path(source_metadata)),
             ),
             existing_page_id=source_page_id if source_page_id in existing_pages else "",
-            required_link_page_ids=(subject_page_id,),
-            required_source_citations=(source_citation,),
-            required_uncertainty_terms=uncertainty_terms,
+            resolved_page_body_contract=_resolved_page_body_contract(
+                schema=schema,
+                selections=source_plan_contract_selections,
+                page_id=source_page_id,
+                page_kind=source_metadata.page_kind,
+                required_link_page_ids=(subject_page_id,),
+                required_source_citations=(source_citation,),
+                required_uncertainty_terms=uncertainty_terms,
+            ),
         ),
         PlannedPageWrite(
             write_id=f"write-{subject_page_id}",
@@ -526,11 +612,56 @@ def _markdown_planned_writes(
                 page_path=str(wiki_structure.render_path(subject_metadata)),
             ),
             existing_page_id=subject_page_id if subject_page_id in existing_pages else "",
-            required_link_page_ids=(source_page_id,),
-            required_source_citations=(source_citation,),
-            required_uncertainty_terms=uncertainty_terms,
+            resolved_page_body_contract=_resolved_page_body_contract(
+                schema=schema,
+                selections=source_plan_contract_selections,
+                page_id=subject_page_id,
+                page_kind=subject_metadata.page_kind,
+                required_link_page_ids=(source_page_id,),
+                required_source_citations=(source_citation,),
+                required_uncertainty_terms=uncertainty_terms,
+            ),
         ),
     )
+
+
+def _resolved_page_body_contract(
+    *,
+    schema: Schema,
+    selections: tuple[SourcePlanContractSelection, ...],
+    page_id: str,
+    page_kind: str,
+    required_link_page_ids: tuple[str, ...] = (),
+    required_source_citations: tuple[str, ...] = (),
+    required_uncertainty_terms: tuple[str, ...] = (),
+) -> ResolvedPageBodyContract:
+    selection = _source_plan_contract_selection(selections, page_id, page_kind)
+    contract = (
+        contract_by_id(schema, selection.contract_id)
+        if selection
+        else contract_for_page_kind(schema, page_kind)
+    )
+    return resolve_page_body_contract(
+        contract,
+        required_link_page_ids=required_link_page_ids,
+        required_source_citations=required_source_citations,
+        required_uncertainty_terms=required_uncertainty_terms,
+        selection=selection,
+    )
+
+
+def _source_plan_contract_selection(
+    selections: tuple[SourcePlanContractSelection, ...],
+    page_id: str,
+    page_kind: str,
+) -> SourcePlanContractSelection | None:
+    for selection in selections:
+        if page_id in selection.page_ids:
+            return selection
+    for selection in selections:
+        if page_kind in selection.match_page_kinds:
+            return selection
+    return None
 
 
 def _document_title(source_text: str, source_locator: str) -> str:

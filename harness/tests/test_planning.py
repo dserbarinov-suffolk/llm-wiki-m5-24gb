@@ -1,6 +1,6 @@
 """Tests for global ingest planning."""
 
-from llmwiki.domain.objects import ExtractedUnit, RawSource, SourceBundle
+from llmwiki.domain.objects import ExtractedUnit, PageBodyContract, RawSource, Schema, SourceBundle
 from llmwiki.domain.pages import LOCAL_FLAT_STRUCTURE, PageMetadata, WikiPage, render_page
 from llmwiki.domain.planning import build_markdown_page_plan, build_page_plan
 
@@ -68,5 +68,49 @@ def test_markdown_page_plan_uses_raw_source_stem_for_page_identity() -> None:
 
     planned_pages = [write.page_metadata.page_id for write in plan.planned_writes]
     assert planned_pages == ["antikythera-mechanism-source", "antikythera-mechanism"]
-    assert plan.planned_writes[0].required_link_page_ids == ("antikythera-mechanism",)
-    assert plan.planned_writes[1].required_link_page_ids == ("antikythera-mechanism-source",)
+    assert plan.planned_writes[0].resolved_page_body_contract.contract_id == "source-summary"
+    assert plan.planned_writes[0].resolved_page_body_contract.required_link_page_ids == (
+        "antikythera-mechanism",
+    )
+    assert plan.planned_writes[1].resolved_page_body_contract.contract_id == "entity-page"
+    assert plan.planned_writes[1].resolved_page_body_contract.required_link_page_ids == (
+        "antikythera-mechanism-source",
+    )
+
+
+def test_markdown_page_plan_uses_schema_page_body_contract_mapping() -> None:
+    raw_source = RawSource.from_locator("lcn-4040xp.md")
+    default_schema = Schema()
+    schema = Schema(
+        page_body_contracts=default_schema.page_body_contracts
+        + (
+            PageBodyContract(
+                contract_id="product-page",
+                match_page_kinds=("entity",),
+                required_sections=("Applications", "Limitations"),
+            ),
+        ),
+        page_body_contract_by_page_kind=(
+            ("source", "source-summary"),
+            ("entity", "product-page"),
+            ("concept", "concept-page"),
+            ("synthesis", "synthesis-page"),
+        ),
+    )
+
+    plan = build_markdown_page_plan(
+        plan_id="test-plan",
+        source_bundle=SourceBundle.one(raw_source),
+        raw_source=raw_source,
+        source_text="# LCN 4040XP\n\nDoor closer evidence.",
+        existing_pages={},
+        wiki_structure=LOCAL_FLAT_STRUCTURE,
+        today="2026-06-19",
+        schema=schema,
+    )
+
+    assert plan.planned_writes[1].resolved_page_body_contract.contract_id == "product-page"
+    assert plan.planned_writes[1].resolved_page_body_contract.required_sections == (
+        "Applications",
+        "Limitations",
+    )

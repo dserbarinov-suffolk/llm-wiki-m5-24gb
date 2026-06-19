@@ -48,10 +48,125 @@ class SourceBundle:
 
 
 @dataclass(frozen=True)
+class PageBodyContract:
+    contract_id: str
+    match_page_kinds: tuple[str, ...]
+    required_sections: tuple[str, ...] = ()
+    required_markdown_shape: str = "prose"
+    min_claim_bullets: int = 0
+    coverage_policy: str = ""
+    max_words: int = 0
+    max_source_word_ratio: float = 0.0
+    max_copied_ngram_ratio: float = 1.0
+    required_link_policy: str = "none"
+    required_citation_policy: str = "none"
+    required_uncertainty_policy: str = "none"
+
+
+@dataclass(frozen=True)
+class ResolvedPageBodyContract:
+    contract_id: str
+    required_sections: tuple[str, ...] = ()
+    required_markdown_shape: str = "prose"
+    min_claim_bullets: int = 0
+    coverage_policy: str = ""
+    max_words: int = 0
+    max_source_word_ratio: float = 0.0
+    max_copied_ngram_ratio: float = 1.0
+    required_link_page_ids: tuple[str, ...] = ()
+    required_source_citations: tuple[str, ...] = ()
+    required_uncertainty_terms: tuple[str, ...] = ()
+
+
+@dataclass(frozen=True)
+class PageBodyFinding:
+    finding_type: str
+    detail: str
+
+
+@dataclass(frozen=True)
+class SourcePlanContractSelection:
+    contract_id: str
+    match_page_kinds: tuple[str, ...] = ()
+    page_ids: tuple[str, ...] = ()
+    max_words_override: int = 0
+    max_source_word_ratio_override: float = 0.0
+    max_copied_ngram_ratio_override: float = 0.0
+
+
+def default_page_body_contracts() -> tuple[PageBodyContract, ...]:
+    return (
+        PageBodyContract(
+            contract_id="source-summary",
+            match_page_kinds=("source",),
+            required_sections=("Source record", "Key supported claims"),
+            required_markdown_shape="claim-bullets",
+            min_claim_bullets=3,
+            coverage_policy="main-supported-claims-and-explicit-limits",
+            max_words=160,
+            max_source_word_ratio=0.65,
+            max_copied_ngram_ratio=0.50,
+            required_link_policy="planned-related-pages",
+            required_citation_policy="all-raw-sources",
+            required_uncertainty_policy="preserve-source-uncertainty",
+        ),
+        PageBodyContract(
+            contract_id="entity-page",
+            match_page_kinds=("entity",),
+            required_markdown_shape="prose",
+            max_words=320,
+            max_copied_ngram_ratio=0.80,
+            required_link_policy="planned-related-pages",
+            required_citation_policy="all-raw-sources",
+            required_uncertainty_policy="preserve-source-uncertainty",
+        ),
+        PageBodyContract(
+            contract_id="concept-page",
+            match_page_kinds=("concept",),
+            required_markdown_shape="prose",
+            max_words=320,
+            max_copied_ngram_ratio=0.80,
+            required_link_policy="planned-related-pages",
+            required_citation_policy="all-raw-sources",
+            required_uncertainty_policy="preserve-source-uncertainty",
+        ),
+        PageBodyContract(
+            contract_id="synthesis-page",
+            match_page_kinds=("synthesis",),
+            required_markdown_shape="prose",
+            max_words=500,
+            max_copied_ngram_ratio=0.80,
+            required_link_policy="planned-related-pages",
+            required_citation_policy="all-raw-sources",
+            required_uncertainty_policy="preserve-source-uncertainty",
+        ),
+    )
+
+
+def default_page_body_contract_by_page_kind() -> tuple[tuple[str, str], ...]:
+    return (
+        ("source", "source-summary"),
+        ("entity", "entity-page"),
+        ("concept", "concept-page"),
+        ("synthesis", "synthesis-page"),
+    )
+
+
+def default_resolved_page_body_contract() -> ResolvedPageBodyContract:
+    return ResolvedPageBodyContract(contract_id="default")
+
+
+@dataclass(frozen=True)
 class Schema:
     schema_id: str = "local-llm-wiki"
     page_kinds: tuple[str, ...] = PAGE_KINDS
     page_metadata_fields: tuple[str, ...] = PAGE_METADATA_FIELDS
+    page_body_contracts: tuple[PageBodyContract, ...] = field(
+        default_factory=default_page_body_contracts
+    )
+    page_body_contract_by_page_kind: tuple[tuple[str, str], ...] = field(
+        default_factory=default_page_body_contract_by_page_kind
+    )
     page_contracts: str = ""
 
 
@@ -92,6 +207,7 @@ class SourcePlan:
     source_classification: str
     ingest_disposition: str
     planned_page_write_ids: tuple[str, ...] = ()
+    page_body_contract_selections: tuple[SourcePlanContractSelection, ...] = ()
     handling_notes: str = ""
 
 
@@ -171,9 +287,9 @@ class PlannedPageWrite:
     claim_comparisons: tuple[ClaimComparison, ...] = ()
     projection: ProjectionMetadata | None = None
     existing_page_id: str = ""
-    required_link_page_ids: tuple[str, ...] = ()
-    required_source_citations: tuple[str, ...] = ()
-    required_uncertainty_terms: tuple[str, ...] = ()
+    resolved_page_body_contract: ResolvedPageBodyContract = field(
+        default_factory=default_resolved_page_body_contract
+    )
 
 
 @dataclass(frozen=True)

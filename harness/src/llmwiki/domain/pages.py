@@ -39,9 +39,7 @@ def validate_page_id(page_id: str) -> str:
 
 def validate_page_kind(page_kind: str) -> str:
     if page_kind not in PAGE_KINDS:
-        raise PageError(
-            f"Invalid page_kind {page_kind!r}: must be one of {', '.join(PAGE_KINDS)}."
-        )
+        raise PageError(f"Invalid page_kind {page_kind!r}: must be one of {', '.join(PAGE_KINDS)}.")
     return page_kind
 
 
@@ -94,9 +92,7 @@ class PathTemplate:
 
     def render(self, metadata: PageMetadata) -> PurePosixPath:
         if metadata.page_kind not in self.match_page_kinds:
-            raise PageError(
-                f"Page kind {metadata.page_kind!r} does not match this path template."
-            )
+            raise PageError(f"Page kind {metadata.page_kind!r} does not match this path template.")
         fields = dict(
             PageId=metadata.page_id,
             PageKind=metadata.page_kind,

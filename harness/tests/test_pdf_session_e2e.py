@@ -59,10 +59,31 @@ def _wiki_page(
     )
 
 
-def _write_page_call(_page_id: str, page_body: str = "Body.") -> ToolCall:
+def _pdf_citation(page_id: str) -> str:
+    if "functions" in page_id:
+        return "raw/book.pdf p.1-10"
+    if "closures" in page_id:
+        return "raw/book.pdf p.11-20"
+    return "raw/book.pdf"
+
+
+def _pdf_source_summary_body(page_id: str, extra: str = "") -> str:
+    citation = _pdf_citation(page_id)
+    extra_sentence = f" {extra}" if extra else ""
+    return (
+        "## Source record\n\n"
+        f"Source record for {page_id} using ({citation}).{extra_sentence}\n\n"
+        "## Key supported claims\n\n"
+        f"- This planned page records cited source evidence. ({citation})\n"
+        f"- This page keeps the PDF evidence compact. ({citation})\n"
+        f"- This page leaves detailed interpretation to related pages. ({citation})"
+    )
+
+
+def _write_page_call(page_id: str, page_body: str = "") -> ToolCall:
     return ToolCall(
         tool="write_page",
-        args={"page_body": page_body},
+        args={"page_body": page_body or _pdf_source_summary_body(page_id)},
     )
 
 
@@ -71,7 +92,7 @@ def _planned_turns(
     report: str,
     *,
     read_first: bool = False,
-    page_body: str = "Body.",
+    page_body: str = "",
 ) -> list[LLMResponse]:
     turns: list[LLMResponse] = []
     if read_first:
@@ -227,18 +248,25 @@ class TestPlannedPdfIngest:
             _planned_turns(
                 "book-functions",
                 "functions written",
-                page_body="Functions build on [[iterable]].",
+                page_body=_pdf_source_summary_body(
+                    "book-functions", "Functions build on [[iterable]]."
+                ),
             )
             + _planned_turns(
                 "book-closures",
                 "closures written",
-                page_body="Closures build on [[iterable]].",
+                page_body=_pdf_source_summary_body(
+                    "book-closures", "Closures build on [[iterable]]."
+                ),
             )
             + [
                 [
                     _write_page_call(
                         "book",
-                        "Hub prose with [[iterable]].\n\n**Key entities**: [[stale-person]].",
+                        _pdf_source_summary_body(
+                            "book",
+                            "Hub prose with [[iterable]].\n\n**Key entities**: [[stale-person]].",
+                        ),
                     )
                 ],
                 [ToolCall(tool="finish_planned_write", args={"report": "hub written"})],
