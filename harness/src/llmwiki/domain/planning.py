@@ -121,6 +121,56 @@ def build_page_plan(
     )
 
 
+def build_markdown_page_plan(
+    *,
+    plan_id: str,
+    source_bundle: SourceBundle,
+    raw_source: RawSource,
+    source_text: str,
+    existing_pages: dict[str, str],
+    wiki_structure: WikiStructure,
+    today: str,
+) -> PagePlan:
+    title = _document_title(source_text, raw_source.source_locator)
+    unit = ExtractedUnit(
+        unit_id="unit-0001",
+        raw_source=raw_source,
+        locator="document",
+        heading_path=title,
+        text=source_text,
+        extraction_status="ok",
+    )
+    extracted_units = (unit,)
+    candidate_claims = tuple(_candidate_claim(item) for item in extracted_units)
+    candidate_topics = _candidate_topics(extracted_units, candidate_claims)
+    candidate_entities = _candidate_entities(extracted_units, candidate_claims)
+    topic_clusters = _topic_clusters(extracted_units, candidate_claims, candidate_topics)
+    wiki_matches = _wiki_matches(extracted_units, existing_pages, raw_source.source_locator)
+    claim_comparisons = _claim_comparisons(candidate_claims, wiki_matches)
+    planned_writes = _markdown_planned_writes(
+        raw_source=raw_source,
+        title=title,
+        source_text=source_text,
+        extracted_units=extracted_units,
+        existing_pages=existing_pages,
+        wiki_matches=wiki_matches,
+        wiki_structure=wiki_structure,
+        today=today,
+    )
+    return PagePlan(
+        plan_id=plan_id,
+        source_bundle=source_bundle,
+        extracted_units=extracted_units,
+        candidate_claims=candidate_claims,
+        candidate_topics=candidate_topics,
+        candidate_entities=candidate_entities,
+        topic_clusters=topic_clusters,
+        wiki_matches=wiki_matches,
+        claim_comparisons=claim_comparisons,
+        planned_writes=planned_writes,
+    )
+
+
 def page_plan_to_json(plan: PagePlan) -> str:
     return json.dumps(asdict(plan), indent=2, ensure_ascii=False)
 
@@ -155,15 +205,18 @@ def planned_write_message(write: PlannedPageWrite, units: dict[str, ExtractedUni
         unit_blocks.append(
             f"<unit id='{unit.unit_id}' locator='{unit.locator}' heading='{unit.heading_path}'>\n"
             f"{_truncate(unit.text, _MAX_SOURCE_CHARS_PER_WRITE)}\n</unit>"
-        )
+    )
     matches = "\n".join(
-        f"- [[{match.wiki_page}]] score={match.score:.3f} reason={match.match_reason}"
+        f"- [[{match.page_id}]] score={match.score:.3f} reason={match.match_reason}"
         for match in write.wiki_matches[:5]
     )
     evidence = ", ".join(
         f"raw/{item.raw_source.source_locator} {item.locator}".strip()
         for item in write.evidence
     )
+    required_links = ", ".join(f"[[{page_id}]]" for page_id in write.required_link_page_ids)
+    required_citations = ", ".join(write.required_source_citations)
+    required_uncertainty = ", ".join(write.required_uncertainty_terms)
     update_instruction = (
         "For source pages, write a compact replacement from the supplied evidence. "
         "Do not read or preserve existing source-page content.\n"
@@ -177,10 +230,15 @@ def planned_write_message(write: PlannedPageWrite, units: dict[str, ExtractedUni
         f"Target PageKind: {write.page_metadata.page_kind}\n"
         f"Target PagePath: {write.projection.page_path if write.projection else ''}\n"
         f"Summary: {write.page_metadata.summary}\n"
-        f"Evidence: {evidence}\n\n"
+        f"Evidence: {evidence}\n"
+        f"Required PageBody links: {required_links or 'none'}\n"
+        f"Required source citations: {required_citations or 'none'}\n"
+        f"Required uncertainty terms: {required_uncertainty or 'none'}\n\n"
         f"{update_instruction}"
-        "Call write_page with the markdown body for the target page. "
+        "Call write_page with page_body for the target page. "
         "The PagePlan supplies PageId, PageKind, PageMetadata, and PagePath.\n\n"
+        "Write only claims supported by the supplied ExtractedUnit text. "
+        "Preserve uncertainty instead of turning may, possibly, or suggests into certainty. "
         "Write a compact source summary, not a transcript. Prefer concise sections and bullets.\n\n"
         f"WikiMatches:\n{matches or '- none'}\n\n"
         f"{chr(10).join(unit_blocks)}"
@@ -279,24 +337,24 @@ def _wiki_matches(
     existing_pages: dict[str, str],
     source_locator: str,
 ) -> tuple[WikiMatch, ...]:
-    page_embeddings = {name: _embedding(text) for name, text in existing_pages.items()}
+    page_embeddings = {page_id: _embedding(text) for page_id, text in existing_pages.items()}
     matches: list[WikiMatch] = []
     for unit in units:
         unit_embedding = _embedding(unit.heading_path + " " + unit.text)
-        for name, page_embedding in page_embeddings.items():
+        for page_id, page_embedding in page_embeddings.items():
             score = _cosine(unit_embedding, page_embedding)
-            if source_locator in existing_pages[name]:
+            if source_locator in existing_pages[page_id]:
                 score += _SOURCE_PAGE_BONUS
             if score >= _MATCH_THRESHOLD:
                 matches.append(
                     WikiMatch(
-                        wiki_page=name,
+                        page_id=page_id,
                         score=round(score, 6),
                         match_reason=f"nearest-neighbor:{unit.unit_id}",
-                        page_excerpt=_excerpt(existing_pages[name]),
+                        page_excerpt=_excerpt(existing_pages[page_id]),
                     )
                 )
-    return tuple(sorted(matches, key=lambda item: (-item.score, item.wiki_page)))
+    return tuple(sorted(matches, key=lambda item: (-item.score, item.page_id)))
 
 
 def _claim_comparisons(
@@ -312,7 +370,7 @@ def _claim_comparisons(
                         candidate_claim=claim.claim_id,
                         existing_claim=match.page_excerpt,
                         relation="overlap",
-                        wiki_page=match.wiki_page,
+                        page_id=match.page_id,
                     )
                 )
                 break
@@ -369,10 +427,10 @@ def _planned_writes(
                 ),
                 wiki_matches=matches,
                 claim_comparisons=tuple(
-                    item for item in claim_comparisons if item.wiki_page == page_id
+                    item for item in claim_comparisons if item.page_id == page_id
                 ),
                 projection=ProjectionMetadata(page_metadata=metadata, page_path=path),
-                existing_page=page_id if page_id in existing_pages else "",
+                existing_page_id=page_id if page_id in existing_pages else "",
             )
         )
     hub_metadata = PageMetadata(
@@ -397,10 +455,115 @@ def _planned_writes(
                 page_metadata=hub_metadata,
                 page_path=str(wiki_structure.render_path(hub_metadata)),
             ),
-            existing_page=source_stem if source_stem in existing_pages else "",
+            existing_page_id=source_stem if source_stem in existing_pages else "",
         )
     )
     return tuple(writes)
+
+
+def _markdown_planned_writes(
+    *,
+    raw_source: RawSource,
+    title: str,
+    source_text: str,
+    extracted_units: tuple[ExtractedUnit, ...],
+    existing_pages: dict[str, str],
+    wiki_matches: tuple[WikiMatch, ...],
+    wiki_structure: WikiStructure,
+    today: str,
+) -> tuple[PlannedPageWrite, ...]:
+    subject_page_id = slugify(Path(raw_source.source_locator).stem)
+    source_page_id = _markdown_source_page_id(subject_page_id, existing_pages)
+    source_citation = f"raw/{raw_source.source_locator}"
+    uncertainty_terms = _uncertainty_terms(source_text)
+    unit_ids = tuple(unit.unit_id for unit in extracted_units)
+    source_metadata = PageMetadata(
+        page_id=source_page_id,
+        page_kind="source",
+        summary=f"Source summary for {title}.",
+        sources=(source_citation,),
+        updated=today,
+        domain=subject_page_id,
+        category_path="sources",
+        source_id=raw_source.source_locator,
+    )
+    subject_metadata = PageMetadata(
+        page_id=subject_page_id,
+        page_kind="entity",
+        summary=_summary_from_title(title),
+        sources=(source_citation,),
+        updated=today,
+        domain=subject_page_id,
+        category_path="entities",
+        source_id=raw_source.source_locator,
+    )
+    return (
+        PlannedPageWrite(
+            write_id=f"write-{source_page_id}",
+            action="enrich-existing" if source_page_id in existing_pages else "create-new",
+            page_metadata=source_metadata,
+            extracted_units=unit_ids,
+            evidence=(Evidence(raw_source=raw_source, locator="document"),),
+            wiki_matches=tuple(wiki_matches[:5]),
+            projection=ProjectionMetadata(
+                page_metadata=source_metadata,
+                page_path=str(wiki_structure.render_path(source_metadata)),
+            ),
+            existing_page_id=source_page_id if source_page_id in existing_pages else "",
+            required_link_page_ids=(subject_page_id,),
+            required_source_citations=(source_citation,),
+            required_uncertainty_terms=uncertainty_terms,
+        ),
+        PlannedPageWrite(
+            write_id=f"write-{subject_page_id}",
+            action="enrich-existing" if subject_page_id in existing_pages else "create-new",
+            page_metadata=subject_metadata,
+            extracted_units=unit_ids,
+            evidence=(Evidence(raw_source=raw_source, locator="document"),),
+            wiki_matches=tuple(wiki_matches[:5]),
+            projection=ProjectionMetadata(
+                page_metadata=subject_metadata,
+                page_path=str(wiki_structure.render_path(subject_metadata)),
+            ),
+            existing_page_id=subject_page_id if subject_page_id in existing_pages else "",
+            required_link_page_ids=(source_page_id,),
+            required_source_citations=(source_citation,),
+            required_uncertainty_terms=uncertainty_terms,
+        ),
+    )
+
+
+def _document_title(source_text: str, source_locator: str) -> str:
+    match = _HEADING_RE.search(source_text)
+    if match:
+        return match.group(1).strip()
+    return Path(source_locator).stem.replace("-", " ").replace("_", " ").strip()
+
+
+def _markdown_source_page_id(subject_page_id: str, existing_pages: dict[str, str]) -> str:
+    source_page_id = f"{subject_page_id}-source"
+    if source_page_id not in existing_pages:
+        return source_page_id
+    return source_page_id
+
+
+def _summary_from_title(title: str) -> str:
+    return f"Facts about {title} from an ingested RawSource."
+
+
+def _uncertainty_terms(text: str) -> tuple[str, ...]:
+    term_patterns = (
+        ("may", r"\bmay\b"),
+        ("might", r"\bmight\b"),
+        ("possible", r"\bpossible\b|\bpossibly\b"),
+        ("suggest", r"\bsuggest\w*\b"),
+        ("uncertain", r"\buncertain\b"),
+        ("unknown", r"\bunknown\b"),
+        ("unconfirmed", r"\bunconfirmed\b"),
+        ("verify", r"\[verify\]"),
+    )
+    lowered = text.lower()
+    return tuple(label for label, pattern in term_patterns if re.search(pattern, lowered))
 
 
 def _target_source_page(
@@ -413,19 +576,19 @@ def _target_source_page(
     source_matches = [
         match
         for match in matches
-        if _page_category(match.wiki_page, existing_pages) == "source" and match.wiki_page != stem
+        if _page_kind(match.page_id, existing_pages) == "source" and match.page_id != stem
     ]
     for match in source_matches:
-        if _same_section_identity(unit.heading_path, match.wiki_page):
-            return match.wiki_page
+        if _same_section_identity(unit.heading_path, match.page_id):
+            return match.page_id
     return default_page
 
 
-def _same_section_identity(heading: str, page_name: str) -> bool:
+def _same_section_identity(heading: str, page_id: str) -> bool:
     heading_terms = set(_tokens(heading))
     if not heading_terms:
         return False
-    page_terms = set(page_name.split("-"))
+    page_terms = set(page_id.split("-"))
     required_overlap = min(2, len(heading_terms))
     return len(heading_terms & page_terms) >= required_overlap
 
@@ -440,9 +603,9 @@ def _matches_by_unit(matches: tuple[WikiMatch, ...]) -> dict[str, tuple[WikiMatc
     return {key: tuple(value[:5]) for key, value in grouped.items()}
 
 
-def _page_category(name: str, existing_pages: dict[str, str]) -> str:
+def _page_kind(page_id: str, existing_pages: dict[str, str]) -> str:
     try:
-        return parse_page(name, existing_pages[name]).category
+        return parse_page(existing_pages[page_id]).page_kind
     except Exception:
         return ""
 

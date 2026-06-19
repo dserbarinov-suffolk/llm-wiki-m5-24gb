@@ -8,14 +8,14 @@ tool-error channel for self-correction.
 
 from __future__ import annotations
 
+import re
 from dataclasses import replace
-from typing import Literal
 
 from forge.core.workflow import ToolDef, ToolSpec
 from pydantic import BaseModel, Field
 
 from llmwiki.domain.objects import PlannedPageWrite
-from llmwiki.domain.pages import WikiPage
+from llmwiki.domain.pages import PageMetadata, WikiPage
 from llmwiki.domain.search import render_hits, search_pages
 from llmwiki.pdf.intermediate import OCR_MARKER
 from llmwiki.store import WikiStore, WikiStoreError
@@ -28,12 +28,40 @@ def _strip_pipeline_markers(content: str) -> str:
     return "\n".join(line for line in content.splitlines() if OCR_MARKER not in line)
 
 
+def _missing_required_links(page_body: str, page_ids: tuple[str, ...]) -> tuple[str, ...]:
+    return tuple(page_id for page_id in page_ids if f"[[{page_id}]]" not in page_body)
+
+
+def _missing_required_citations(page_body: str, citations: tuple[str, ...]) -> tuple[str, ...]:
+    return tuple(citation for citation in citations if citation not in page_body)
+
+
+def _has_uncertainty_term(page_body: str, term: str) -> bool:
+    patterns = {
+        "may": r"\bmay\b",
+        "might": r"\bmight\b",
+        "possible": r"\bpossible\b|\bpossibly\b",
+        "suggest": r"\bsuggest\w*\b",
+        "uncertain": r"\buncertain\b",
+        "unknown": r"\bunknown\b",
+        "unconfirmed": r"\bunconfirmed\b",
+        "verify": r"\[verify\]",
+    }
+    return re.search(patterns.get(term, rf"\b{re.escape(term)}\b"), page_body.lower()) is not None
+
+
+def _preserves_uncertainty(page_body: str, terms: tuple[str, ...]) -> bool:
+    return not terms or any(_has_uncertainty_term(page_body, term) for term in terms)
+
+
 class ReadSourceParams(BaseModel):
-    path: str = Field(description="Source path relative to raw/, e.g. 'article.md'.")
+    source_locator: str = Field(
+        description="RawSource locator relative to raw/, e.g. 'article.md'."
+    )
 
 
 class SearchWikiParams(BaseModel):
-    query: str = Field(description="Search terms to match against wiki page names and content.")
+    query: str = Field(description="Search terms to match against WikiPage page_ids and content.")
 
 
 class ReadIndexParams(BaseModel):
@@ -41,25 +69,24 @@ class ReadIndexParams(BaseModel):
 
 
 class ReadPageParams(BaseModel):
-    name: str = Field(description="Wiki page name (kebab-case slug), e.g. 'bronze-age-collapse'.")
+    page_id: str = Field(description="WikiPage page_id, e.g. 'bronze-age-collapse'.")
 
 
 class WritePageParams(BaseModel):
-    name: str = Field(
-        description="Page name as a kebab-case slug. Reuse an existing name to update that page."
+    page_id: str = Field(
+        description="WikiPage page_id as a kebab-case slug. Reuse an existing page_id to update."
     )
-    category: Literal["source", "entity", "concept", "synthesis"] = Field(
-        description="Page category: source (summary of one raw source), entity, "
-        "concept, or synthesis (cross-source analysis)."
+    page_kind: str = Field(
+        description="WikiPage page_kind: source, entity, concept, or synthesis."
     )
     summary: str = Field(description="One-line summary of the page, used in the wiki index.")
-    content: str = Field(
-        description="Full markdown body. Link related pages inline with [[page-name]]. "
-        "Cite evidence as (raw/<source-path>). Do not include frontmatter."
+    page_body: str = Field(
+        description="Full PageBody markdown. Link related pages inline with [[page_id]]. "
+        "Cite evidence as (raw/<source_locator>). Do not include frontmatter."
     )
     sources: list[str] = Field(
         default_factory=list,
-        description="Raw source paths this page draws on, e.g. ['article.md'].",
+        description="RawSource locators this page draws on, e.g. ['article.md'].",
     )
 
 
@@ -68,16 +95,16 @@ class FinishParams(BaseModel):
 
 
 class PlannedWritePageParams(BaseModel):
-    content: str = Field(
-        description="Full markdown body for the planned target page. "
-        "Link related pages inline with [[page-name]]. Do not include frontmatter."
+    page_body: str = Field(
+        description="Full PageBody markdown for the planned target page. "
+        "Link related pages inline with [[page_id]]. Do not include frontmatter."
     )
 
 
 def read_source_tool(store: WikiStore) -> ToolDef:
     def _read_source(**kwargs: object) -> str:
         params = ReadSourceParams(**kwargs)  # type: ignore[arg-type]
-        return store.read_source(params.path)
+        return store.read_source(params.source_locator)
 
     return ToolDef(
         spec=ToolSpec(
@@ -98,8 +125,8 @@ def search_wiki_tool(store: WikiStore) -> ToolDef:
     return ToolDef(
         spec=ToolSpec(
             name="search_wiki",
-            description="Search wiki pages by name and content; returns matching "
-            "page names with snippets.",
+            description="Search wiki pages by page_id and content; returns matching "
+            "page_ids with snippets.",
             parameters=SearchWikiParams,
         ),
         callable=_search_wiki,
@@ -118,7 +145,7 @@ def read_index_tool(store: WikiStore) -> ToolDef:
         spec=ToolSpec(
             name="read_index",
             description="Read the wiki's index: the catalog of every page "
-            "with a one-line summary, grouped by category. Use this for "
+            "with a one-line summary, grouped by page_kind. Use this for "
             "questions about the wiki itself or what it covers.",
             parameters=ReadIndexParams,
         ),
@@ -129,9 +156,9 @@ def read_index_tool(store: WikiStore) -> ToolDef:
 def read_page_tool(store: WikiStore, read_tracker: set[str] | None = None) -> ToolDef:
     def _read_page(**kwargs: object) -> str:
         params = ReadPageParams(**kwargs)  # type: ignore[arg-type]
-        text = store.read_page(params.name)
+        text = store.read_page(params.page_id)
         if read_tracker is not None:
-            read_tracker.add(params.name)
+            read_tracker.add(params.page_id)
         return text
 
     return ToolDef(
@@ -158,7 +185,7 @@ def write_page_tool(
     page, and a 14B reliably "reconstructs" content it never saw (observed
     live twice; docs/open-questions.md #10). New pages are unaffected.
 
-    *write_log*, when provided, records each successfully written page name
+    *write_log*, when provided, records each successfully written page_id
     — the machine record behind manifest.pages_written and the salience
     write-count signal.
     """
@@ -167,25 +194,25 @@ def write_page_tool(
         params = WritePageParams(**kwargs)  # type: ignore[arg-type]
         if (
             read_tracker is not None
-            and params.name not in read_tracker
-            and params.name in store.list_pages()
+            and params.page_id not in read_tracker
+            and params.page_id in store.list_pages()
         ):
             raise WikiStoreError(
-                f"Page '{params.name}' already exists and write_page replaces "
-                f"it entirely. Call read_page(name='{params.name}') first, "
+                f"WikiPage '{params.page_id}' already exists and write_page replaces "
+                f"it entirely. Call read_page(page_id='{params.page_id}') first, "
                 "then rewrite it carrying forward the content you keep."
             )
-        page = WikiPage(
-            name=params.name,
-            category=params.category,
+        metadata = PageMetadata(
+            page_id=params.page_id,
+            page_kind=params.page_kind,
             summary=params.summary,
-            body=_strip_pipeline_markers(params.content),
             sources=tuple(params.sources),
             updated=today,
         )
+        page = WikiPage.from_metadata(metadata, _strip_pipeline_markers(params.page_body))
         store.write_page(page)
         if write_log is not None:
-            write_log.append(params.name)
+            write_log.append(params.page_id)
         return f"Wrote wiki/{store.rendered_page_path(page)} and updated its index entry."
 
     return ToolDef(
@@ -211,25 +238,44 @@ def planned_write_page_tool(
     """write_page variant for PagePlan execution.
 
     PagePlan owns PageId, PageKind, PageMetadata, and projection fields.
-    The model supplies only the markdown body.
+    The model supplies only PageBody.
     """
 
     target_page = planned_write.page_metadata.page_id
 
     def _write_page(**kwargs: object) -> str:
         params = PlannedWritePageParams(**kwargs)  # type: ignore[arg-type]
+        page_body = _strip_pipeline_markers(params.page_body)
+        missing_links = _missing_required_links(page_body, planned_write.required_link_page_ids)
+        missing_citations = _missing_required_citations(
+            page_body, planned_write.required_source_citations
+        )
+        if missing_links:
+            links = ", ".join(f"[[{page_id}]]" for page_id in missing_links)
+            raise WikiStoreError(f"PageBody must include required PlannedPageWrite links: {links}.")
+        if missing_citations:
+            citations = ", ".join(missing_citations)
+            raise WikiStoreError(
+                f"PageBody must cite required PlannedPageWrite sources: {citations}."
+            )
+        if not _preserves_uncertainty(page_body, planned_write.required_uncertainty_terms):
+            terms = ", ".join(planned_write.required_uncertainty_terms)
+            raise WikiStoreError(
+                "PageBody must preserve source uncertainty using at least one "
+                f"of these terms: {terms}."
+            )
         if (
             read_tracker is not None
             and target_page not in read_tracker
             and target_page in store.list_pages()
         ):
             raise WikiStoreError(
-                f"Page '{target_page}' already exists and write_page replaces "
-                f"it entirely. Call read_page(name='{target_page}') first, "
+                f"WikiPage '{target_page}' already exists and write_page replaces "
+                f"it entirely. Call read_page(page_id='{target_page}') first, "
                 "then rewrite it carrying forward the content you keep."
             )
         metadata = replace(planned_write.page_metadata, updated=today)
-        page = WikiPage.from_metadata(metadata, _strip_pipeline_markers(params.content))
+        page = WikiPage.from_metadata(metadata, page_body)
         store.write_page(page)
         if write_log is not None:
             write_log.append(target_page)

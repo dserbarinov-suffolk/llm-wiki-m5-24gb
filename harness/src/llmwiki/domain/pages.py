@@ -10,7 +10,7 @@ import re
 from dataclasses import dataclass, field
 from pathlib import PurePosixPath
 
-PAGE_CATEGORIES = ("source", "entity", "concept", "synthesis")
+from llmwiki.domain.schema import PAGE_KINDS
 
 _SLUG_RE = re.compile(r"^[a-z0-9]+(-[a-z0-9]+)*$")
 _FRONTMATTER_DELIM = "---"
@@ -21,28 +21,28 @@ class PageError(ValueError):
 
 
 def slugify(text: str) -> str:
-    """Derive a valid page-name slug from arbitrary text (e.g. a filename stem)."""
+    """Derive a valid page_id slug from arbitrary text."""
     slug = re.sub(r"[^a-z0-9]+", "-", text.lower()).strip("-")
     if not slug:
-        raise PageError(f"Cannot derive a page name from {text!r}.")
+        raise PageError(f"Cannot derive a page_id from {text!r}.")
     return slug
 
 
-def validate_page_name(name: str) -> str:
-    if not _SLUG_RE.match(name):
+def validate_page_id(page_id: str) -> str:
+    if not _SLUG_RE.match(page_id):
         raise PageError(
-            f"Invalid page name {name!r}: use a kebab-case slug "
+            f"Invalid page_id {page_id!r}: use a kebab-case slug "
             "(lowercase letters, digits, hyphens), e.g. 'bronze-age-collapse'."
         )
-    return name
+    return page_id
 
 
-def validate_category(category: str) -> str:
-    if category not in PAGE_CATEGORIES:
+def validate_page_kind(page_kind: str) -> str:
+    if page_kind not in PAGE_KINDS:
         raise PageError(
-            f"Invalid category {category!r}: must be one of {', '.join(PAGE_CATEGORIES)}."
+            f"Invalid page_kind {page_kind!r}: must be one of {', '.join(PAGE_KINDS)}."
         )
-    return category
+    return page_kind
 
 
 def validate_summary(summary: str) -> str:
@@ -56,10 +56,10 @@ def validate_summary(summary: str) -> str:
 class PageKind:
     """A page role declared by Schema."""
 
-    name: str
+    page_kind: str
 
     def __post_init__(self) -> None:
-        validate_category(self.name)
+        validate_page_kind(self.page_kind)
 
 
 @dataclass(frozen=True)
@@ -79,8 +79,8 @@ class PageMetadata:
     aliases: tuple[str, ...] = field(default=())
 
     def __post_init__(self) -> None:
-        validate_page_name(self.page_id)
-        validate_category(self.page_kind)
+        validate_page_id(self.page_id)
+        validate_page_kind(self.page_kind)
         object.__setattr__(self, "summary", validate_summary(self.summary))
 
 
@@ -89,7 +89,7 @@ class PathTemplate:
     """Renders one PagePath from one PageMetadata object."""
 
     template_text: str = "{PageId}.md"
-    match_page_kinds: tuple[str, ...] = PAGE_CATEGORIES
+    match_page_kinds: tuple[str, ...] = PAGE_KINDS
     required_page_metadata_fields: tuple[str, ...] = ("PageId",)
 
     def render(self, metadata: PageMetadata) -> PurePosixPath:
@@ -142,41 +142,10 @@ LOCAL_FLAT_STRUCTURE = WikiStructure(
 
 @dataclass(frozen=True)
 class WikiPage:
-    """A WikiPage with legacy constructor fields kept as compatibility shims."""
+    """A wiki page is one PageMetadata object plus one page_body."""
 
-    name: str
-    category: str
-    summary: str
-    body: str
-    sources: tuple[str, ...] = field(default=())
-    updated: str = ""  # ISO date, supplied by the orchestrator
-    domain: str = ""
-    category_path: str = ""
-    project_id: str = ""
-    source_id: str = ""
-    tags: tuple[str, ...] = field(default=())
-    aliases: tuple[str, ...] = field(default=())
-
-    def __post_init__(self) -> None:
-        validate_page_name(self.name)
-        validate_category(self.category)
-        object.__setattr__(self, "summary", validate_summary(self.summary))
-
-    @property
-    def page_metadata(self) -> PageMetadata:
-        return PageMetadata(
-            page_id=self.name,
-            page_kind=self.category,
-            summary=self.summary,
-            sources=self.sources,
-            updated=self.updated,
-            domain=self.domain,
-            category_path=self.category_path,
-            project_id=self.project_id,
-            source_id=self.source_id,
-            tags=self.tags,
-            aliases=self.aliases,
-        )
+    page_metadata: PageMetadata
+    page_body: str
 
     @property
     def page_id(self) -> str:
@@ -186,58 +155,62 @@ class WikiPage:
     def page_kind(self) -> str:
         return self.page_metadata.page_kind
 
+    @property
+    def summary(self) -> str:
+        return self.page_metadata.summary
+
     def page_path(self, structure: WikiStructure = LOCAL_FLAT_STRUCTURE) -> PurePosixPath:
         return structure.render_path(self.page_metadata)
 
     @classmethod
-    def from_metadata(cls, metadata: PageMetadata, body: str) -> WikiPage:
-        return cls(
-            name=metadata.page_id,
-            category=metadata.page_kind,
-            summary=metadata.summary,
-            body=body,
-            sources=metadata.sources,
-            updated=metadata.updated,
-            domain=metadata.domain,
-            category_path=metadata.category_path,
-            project_id=metadata.project_id,
-            source_id=metadata.source_id,
-            tags=metadata.tags,
-            aliases=metadata.aliases,
-        )
+    def from_metadata(cls, metadata: PageMetadata, page_body: str) -> WikiPage:
+        return cls(page_metadata=metadata, page_body=page_body)
+
+
+@dataclass(frozen=True)
+class DomainFrontmatter:
+    """The on-disk frontmatter projection of one PageMetadata object."""
+
+    page_metadata: PageMetadata
+
+    def render(self) -> str:
+        metadata = self.page_metadata
+        lines = [
+            _FRONTMATTER_DELIM,
+            f"page_id: {metadata.page_id}",
+            f"page_kind: {metadata.page_kind}",
+            f"summary: {metadata.summary}",
+        ]
+        if metadata.sources:
+            lines.append(f"sources: {', '.join(metadata.sources)}")
+        if metadata.updated:
+            lines.append(f"updated: {metadata.updated}")
+        if metadata.domain:
+            lines.append(f"domain: {metadata.domain}")
+        if metadata.category_path:
+            lines.append(f"category_path: {metadata.category_path}")
+        if metadata.project_id:
+            lines.append(f"project_id: {metadata.project_id}")
+        if metadata.source_id:
+            lines.append(f"source_id: {metadata.source_id}")
+        if metadata.tags:
+            lines.append(f"tags: {', '.join(metadata.tags)}")
+        if metadata.aliases:
+            lines.append(f"aliases: {', '.join(metadata.aliases)}")
+        lines.append(_FRONTMATTER_DELIM)
+        return "\n".join(lines)
 
 
 def render_page(page: WikiPage) -> str:
-    lines = [
-        _FRONTMATTER_DELIM,
-        f"category: {page.category}",
-        f"summary: {page.summary}",
-    ]
-    if page.sources:
-        lines.append(f"sources: {', '.join(page.sources)}")
-    if page.updated:
-        lines.append(f"updated: {page.updated}")
-    if page.domain:
-        lines.append(f"domain: {page.domain}")
-    if page.category_path:
-        lines.append(f"category_path: {page.category_path}")
-    if page.project_id:
-        lines.append(f"project_id: {page.project_id}")
-    if page.source_id:
-        lines.append(f"source_id: {page.source_id}")
-    if page.tags:
-        lines.append(f"tags: {', '.join(page.tags)}")
-    if page.aliases:
-        lines.append(f"aliases: {', '.join(page.aliases)}")
-    lines.append(_FRONTMATTER_DELIM)
-    return "\n".join(lines) + "\n\n" + page.body.strip() + "\n"
+    frontmatter = DomainFrontmatter(page.page_metadata).render()
+    return frontmatter + "\n\n" + page.page_body.strip() + "\n"
 
 
-def parse_page(name: str, text: str) -> WikiPage:
+def parse_page(text: str) -> WikiPage:
     """Parse a rendered page back into the model. Inverse of render_page."""
     lines = text.splitlines()
     if not lines or lines[0] != _FRONTMATTER_DELIM:
-        raise PageError(f"Page {name!r} has no frontmatter block.")
+        raise PageError("WikiPage has no DomainFrontmatter block.")
     fields: dict[str, str] = {}
     body_start = 0
     for i, line in enumerate(lines[1:], start=1):
@@ -247,15 +220,14 @@ def parse_page(name: str, text: str) -> WikiPage:
         key, _, value = line.partition(":")
         fields[key.strip()] = value.strip()
     else:
-        raise PageError(f"Page {name!r} frontmatter is unterminated.")
+        raise PageError("WikiPage DomainFrontmatter is unterminated.")
     sources = tuple(s.strip() for s in fields.get("sources", "").split(",") if s.strip())
     tags = tuple(s.strip() for s in fields.get("tags", "").split(",") if s.strip())
     aliases = tuple(s.strip() for s in fields.get("aliases", "").split(",") if s.strip())
-    return WikiPage(
-        name=name,
-        category=fields.get("category", ""),
+    metadata = PageMetadata(
+        page_id=fields.get("page_id", ""),
+        page_kind=fields.get("page_kind", ""),
         summary=fields.get("summary", ""),
-        body="\n".join(lines[body_start:]).strip(),
         sources=sources,
         updated=fields.get("updated", ""),
         domain=fields.get("domain", ""),
@@ -265,3 +237,4 @@ def parse_page(name: str, text: str) -> WikiPage:
         tags=tags,
         aliases=aliases,
     )
+    return WikiPage(page_metadata=metadata, page_body="\n".join(lines[body_start:]).strip())

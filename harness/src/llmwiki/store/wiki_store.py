@@ -16,20 +16,21 @@ from __future__ import annotations
 from pathlib import Path
 
 from llmwiki.config import SOURCE_READ_BUDGET_CHARS, WikiPaths
-from llmwiki.domain.index import index_page_names, upsert_index_entry
+from llmwiki.domain.index import index_page_ids, upsert_index_entry
 from llmwiki.domain.log import format_log_entry
 from llmwiki.domain.objects import RawSource
 from llmwiki.domain.pages import (
     LOCAL_FLAT_STRUCTURE,
     PageError,
+    PageMetadata,
     WikiPage,
     WikiStructure,
     parse_page,
     render_page,
-    validate_page_name,
+    validate_page_id,
 )
 
-_RESERVED_NAMES = frozenset({"index", "log"})
+_RESERVED_PAGE_IDS = frozenset({"index", "log"})
 _TRUNCATION_MARKER = "\n\n[TRUNCATED: source exceeds the read budget; summarize what is shown]"
 
 
@@ -61,24 +62,27 @@ class WikiStore:
 
     # -- raw layer (read-only) ---------------------------------------------
 
-    def source_path(self, rel_path: str) -> Path:
-        """Resolve a raw-source path (read-only; confined to raw/)."""
-        path = (self._paths.raw_dir / rel_path).resolve()
+    def raw_source_path(self, source_locator: str) -> Path:
+        """Resolve a RawSource locator (read-only; confined to raw/)."""
+        path = (self._paths.raw_dir / source_locator).resolve()
         if not path.is_relative_to(self._paths.raw_dir.resolve()):
             raise SourceNotFoundError(
-                f"{rel_path!r} is outside raw/. Pass a path relative to raw/, e.g. 'article.md'."
+                f"{source_locator!r} is outside raw/. "
+                "Pass a source_locator relative to raw/, e.g. 'article.md'."
             )
         if not path.is_file():
             available = ", ".join(self.list_sources()) or "none"
-            raise SourceNotFoundError(f"No source at raw/{rel_path}. Available: {available}.")
+            raise SourceNotFoundError(
+                f"No RawSource at raw/{source_locator}. Available: {available}."
+            )
         return path
 
-    def raw_source(self, rel_path: str) -> RawSource:
-        self.source_path(rel_path)
-        return RawSource.from_locator(rel_path)
+    def raw_source(self, source_locator: str) -> RawSource:
+        self.raw_source_path(source_locator)
+        return RawSource.from_locator(source_locator)
 
-    def read_source(self, rel_path: str) -> str:
-        text = self.source_path(rel_path).read_text(encoding="utf-8")
+    def read_source(self, source_locator: str) -> str:
+        text = self.raw_source_path(source_locator).read_text(encoding="utf-8")
         if len(text) > SOURCE_READ_BUDGET_CHARS:
             return text[:SOURCE_READ_BUDGET_CHARS] + _TRUNCATION_MARKER
         return text
@@ -97,48 +101,49 @@ class WikiStore:
         return sorted(
             p.stem
             for p in self._paths.wiki_dir.rglob("*.md")
-            if p.stem not in _RESERVED_NAMES and not _is_hidden_path(p, self._paths.wiki_dir)
+            if p.stem not in _RESERVED_PAGE_IDS and not _is_hidden_path(p, self._paths.wiki_dir)
         )
 
-    def read_page(self, name: str) -> str:
-        validate_page_name(name)
-        path = self.page_path_for_name(name)
-        if name in _RESERVED_NAMES or not path.is_file():
+    def read_page(self, page_id: str) -> str:
+        validate_page_id(page_id)
+        path = self.page_path_for_page_id(page_id)
+        if page_id in _RESERVED_PAGE_IDS or not path.is_file():
             raise PageNotFoundError(
-                f"No page named {name!r}. Use search_wiki to find existing pages."
+                f"No WikiPage with page_id {page_id!r}. Use search_wiki to find existing pages."
             )
         return path.read_text(encoding="utf-8")
 
-    def read_wiki_page(self, name: str) -> WikiPage:
-        return parse_page(name, self.read_page(name))
+    def read_wiki_page(self, page_id: str) -> WikiPage:
+        return parse_page(self.read_page(page_id))
 
     def page_texts(self) -> dict[str, str]:
-        return {name: self.read_page(name) for name in self.list_pages()}
+        return {page_id: self.read_page(page_id) for page_id in self.list_pages()}
 
     def write_page(self, page: WikiPage) -> None:
-        if page.name in _RESERVED_NAMES:
+        if page.page_id in _RESERVED_PAGE_IDS:
             raise WikiStoreError(
-                f"{page.name!r} is reserved (maintained by the harness); choose another name."
+                f"{page.page_id!r} is reserved; choose another page_id."
             )
         page_path = self.page_path(page)
         self._ensure_wiki_path(page_path)
         page_path.parent.mkdir(parents=True, exist_ok=True)
-        index_text = upsert_index_entry(self.read_index(), page.name, page.category, page.summary)
+        index_text = upsert_index_entry(self.read_index(), page.page_metadata)
         page_path.write_text(render_page(page), encoding="utf-8")
         self._paths.index_path.write_text(index_text, encoding="utf-8")
 
-    def page_path_for_name(self, name: str) -> Path:
-        candidates = self._page_paths_for_name(name)
+    def page_path_for_page_id(self, page_id: str) -> Path:
+        candidates = self._page_paths_for_page_id(page_id)
         if len(candidates) == 1:
             return candidates[0]
         if len(candidates) > 1:
             rendered = ", ".join(str(path.relative_to(self._paths.wiki_dir)) for path in candidates)
-            raise WikiStoreError(f"Multiple pages named {name!r}: {rendered}.")
+            raise WikiStoreError(f"Multiple WikiPages with page_id {page_id!r}: {rendered}.")
         try:
-            page = WikiPage(name=name, category="source", summary="placeholder", body="")
+            metadata = PageMetadata(page_id=page_id, page_kind="source", summary="placeholder")
+            page = WikiPage.from_metadata(metadata, "")
             return self._paths.wiki_dir / page.page_path(self._structure)
         except PageError:
-            return self._paths.wiki_dir / f"{name}.md"
+            return self._paths.wiki_dir / f"{page_id}.md"
 
     def page_path(self, page: WikiPage) -> Path:
         return self._paths.wiki_dir / page.page_path(self._structure)
@@ -150,12 +155,12 @@ class WikiStore:
         if not path.resolve().is_relative_to(self._paths.wiki_dir.resolve()):
             raise WikiStoreError(f"Rendered page path {path} is outside wiki/.")
 
-    def _page_paths_for_name(self, name: str) -> list[Path]:
-        validate_page_name(name)
+    def _page_paths_for_page_id(self, page_id: str) -> list[Path]:
+        validate_page_id(page_id)
         return sorted(
             path
-            for path in self._paths.wiki_dir.rglob(f"{name}.md")
-            if path.stem == name and not _is_hidden_path(path, self._paths.wiki_dir)
+            for path in self._paths.wiki_dir.rglob(f"{page_id}.md")
+            if path.stem == page_id and not _is_hidden_path(path, self._paths.wiki_dir)
         )
 
     # -- navigation files ----------------------------------------------------
@@ -163,8 +168,8 @@ class WikiStore:
     def read_index(self) -> str:
         return self._paths.index_path.read_text(encoding="utf-8")
 
-    def index_names(self) -> set[str]:
-        return index_page_names(self.read_index())
+    def index_page_ids(self) -> set[str]:
+        return index_page_ids(self.read_index())
 
     def append_log(self, date_iso: str, op: str, subject: str, detail: str) -> None:
         entry = format_log_entry(date_iso, op, subject, detail)

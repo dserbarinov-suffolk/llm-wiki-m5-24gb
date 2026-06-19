@@ -1,13 +1,19 @@
 """Deterministic salience v2: scoping, hub exclusion, mentions, ranking,
 and harness-owned key-list reconciliation."""
 
-from llmwiki.domain.pages import WikiPage, render_page
+from llmwiki.domain.pages import PageMetadata, WikiPage, render_page
 from llmwiki.domain.salience import compute_salience, reconcile_key_lists
 
 
-def _page(name: str, category: str, body: str, sources: tuple[str, ...] = ()) -> str:
+def _page(page_id: str, page_kind: str, body: str, sources: tuple[str, ...] = ()) -> str:
+    metadata = PageMetadata(
+        page_id=page_id,
+        page_kind=page_kind,
+        summary=f"About {page_id}.",
+        sources=sources,
+    )
     return render_page(
-        WikiPage(name=name, category=category, summary=f"About {name}.", body=body, sources=sources)
+        WikiPage.from_metadata(metadata, body)
     )
 
 
@@ -46,7 +52,7 @@ class TestMetricV2:
 
     def test_mentions_outrank_foreword_trivia(self) -> None:
         report = self._report()
-        assert [e.name for e in report.top("concept")] == ["iterable", "leanpub"]
+        assert [e.page_id for e in report.top("concept")] == ["iterable", "leanpub"]
         iterable = report.top("concept")[0]
         assert iterable.source_mentions == 60
         # leanpub: 1 mention, hub link excluded -> low score despite 2 writes
@@ -54,18 +60,18 @@ class TestMetricV2:
 
     def test_hub_links_do_not_feed_the_ranking(self) -> None:
         report = self._report()
-        knox = next(e for e in report.entries if e.name == "matthew-knox")
+        knox = next(e for e in report.entries if e.page_id == "matthew-knox")
         assert knox.inbound_links == 0  # only the excluded hub links him
-        generator = next(e for e in report.entries if e.name == "generator")
-        assert [e.name for e in report.top("entity")] == ["generator", "matthew-knox"]
+        generator = next(e for e in report.entries if e.page_id == "generator")
+        assert [e.page_id for e in report.top("entity")] == ["generator", "matthew-knox"]
         assert generator.score > knox.score
 
     def test_scope_excludes_other_sources(self) -> None:
-        ranked = {e.name for e in self._report().entries}
+        ranked = {e.page_id for e in self._report().entries}
         assert "antikythera" not in ranked
 
     def test_unscoped_is_wiki_global(self) -> None:
-        ranked = {e.name for e in compute_salience(_measured_failure_wiki()).entries}
+        ranked = {e.page_id for e in compute_salience(_measured_failure_wiki()).entries}
         assert "antikythera" in ranked
 
 
@@ -146,10 +152,10 @@ class TestReconcileKeyLists:
 
     def test_mentions_floor_keeps_trivia_off_key_lists(self) -> None:
         report = self._report()
-        keys = {e.name for c in ("concept", "entity") for e in report.key_pages(c)}
+        keys = {e.page_id for c in ("concept", "entity") for e in report.key_pages(c)}
         assert keys == {"iterable", "generator"}  # leanpub (1 mention) is out
         # ...even though leanpub still appears in the report shown to the model
-        assert any(e.name == "leanpub" for e in report.top("concept"))
+        assert any(e.page_id == "leanpub" for e in report.top("concept"))
 
     def test_empty_report_strips_and_adds_nothing(self) -> None:
         body = "Prose.\n**Key entities**: [[stale]]."

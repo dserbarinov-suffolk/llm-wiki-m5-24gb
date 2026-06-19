@@ -11,7 +11,7 @@ from forge.core.workflow import LLMResponse, ToolCall
 
 from llmwiki.config import WikiPaths
 from llmwiki.domain.objects import IngestRun
-from llmwiki.domain.pages import WikiPage
+from llmwiki.domain.pages import PageMetadata, WikiPage
 from llmwiki.pdf.manifest import ChunkRecord, Manifest, from_json
 from llmwiki.pdf.pipeline import ExtractionResult
 from llmwiki.runtime.session import Session
@@ -39,26 +39,46 @@ def _fake_extraction(
     return ExtractionResult(manifest=manifest, cache_dir=cache_dir)
 
 
-def _write_page_call(name: str, content: str = "Body.") -> ToolCall:
+def _wiki_page(
+    page_id: str,
+    page_kind: str,
+    summary: str,
+    page_body: str,
+    *,
+    sources: tuple[str, ...] = (),
+) -> WikiPage:
+    return WikiPage.from_metadata(
+        PageMetadata(
+            page_id=page_id,
+            page_kind=page_kind,
+            summary=summary,
+            sources=sources,
+            updated=TODAY,
+        ),
+        page_body,
+    )
+
+
+def _write_page_call(_page_id: str, page_body: str = "Body.") -> ToolCall:
     return ToolCall(
         tool="write_page",
-        args={"name": name, "category": "source", "summary": f"About {name}.", "content": content},
+        args={"page_body": page_body},
     )
 
 
 def _planned_turns(
-    page: str,
+    page_id: str,
     report: str,
     *,
     read_first: bool = False,
-    content: str = "Body.",
+    page_body: str = "Body.",
 ) -> list[LLMResponse]:
     turns: list[LLMResponse] = []
     if read_first:
-        turns.append([ToolCall(tool="read_page", args={"name": page})])
+        turns.append([ToolCall(tool="read_page", args={"page_id": page_id})])
     turns.extend(
         [
-            [_write_page_call(page, content)],
+            [_write_page_call(page_id, page_body)],
             [ToolCall(tool="finish_planned_write", args={"report": report})],
         ]
     )
@@ -143,13 +163,12 @@ class TestPlannedPdfIngest:
         self, store: WikiStore, paths: WikiPaths
     ) -> None:
         store.write_page(
-            WikiPage(
-                name="functions",
-                category="source",
-                summary="Existing function source page.",
-                body="functions are values from raw/book.pdf p.1-10",
+            _wiki_page(
+                "functions",
+                "source",
+                "Existing function source page.",
+                "functions are values from raw/book.pdf p.1-10",
                 sources=("raw/book.pdf p.1-10",),
-                updated=TODAY,
             )
         )
         (paths.raw_dir / "book.pdf").write_bytes(b"%PDF-1.5 fake")
@@ -190,13 +209,12 @@ class TestPlannedPdfIngest:
         self, store: WikiStore, paths: WikiPaths
     ) -> None:
         store.write_page(
-            WikiPage(
-                name="iterable",
-                category="concept",
-                summary="Core protocol.",
-                body="Central.",
+            _wiki_page(
+                "iterable",
+                "concept",
+                "Core protocol.",
+                "Central.",
                 sources=("raw/book.pdf",),
-                updated=TODAY,
             )
         )
         (paths.raw_dir / "book.pdf").write_bytes(b"%PDF-1.5 fake")
@@ -209,12 +227,12 @@ class TestPlannedPdfIngest:
             _planned_turns(
                 "book-functions",
                 "functions written",
-                content="Functions build on [[iterable]].",
+                page_body="Functions build on [[iterable]].",
             )
             + _planned_turns(
                 "book-closures",
                 "closures written",
-                content="Closures build on [[iterable]].",
+                page_body="Closures build on [[iterable]].",
             )
             + [
                 [

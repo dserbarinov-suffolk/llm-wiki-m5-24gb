@@ -1,11 +1,11 @@
-"""Deterministic salience: which pages matter most, computed, never recalled.
+"""Deterministic salience: which WikiPages matter most, computed, never recalled.
 
 Metric v2 (docs/open-questions.md #12 — each element fixes a measured
 failure of v1):
 - inbound `[[link]]` counts, EXCLUDING links from the hub being rebuilt —
   v1's hub fed the ranking that wrote the next hub (feedback loop);
 - per-page write counts recorded during the ingest;
-- term frequency of the page's name in the source text itself — the only
+- term frequency of the page_id in the source text itself — the only
   signal that has read the book (iterable: 199 mentions vs a foreword
   author's 4); log-scaled so it informs without erasing the wiki signals;
 - eligibility scoped to pages that cite the source — v1 ranked an
@@ -25,12 +25,12 @@ from dataclasses import dataclass
 from llmwiki.domain.links import extract_links
 from llmwiki.domain.pages import PageError, WikiPage, parse_page
 
-# Categories eligible for hub key-lists; sources are the chapter list and
+# PageKinds eligible for hub key-lists; sources are the chapter list and
 # syntheses are reports, neither belongs in "key entities/concepts".
-_RANKED_CATEGORIES = ("entity", "concept")
+_RANKED_PAGE_KINDS = ("entity", "concept")
 _EXCLUDED_PAGES = frozenset({"wiki-health"})
 
-# Top entries shown per category. A constant pending evidence (design doc,
+# Top entries shown per page_kind. A constant pending evidence (design doc,
 # open questions): too small hides mid-tier concepts, too large
 # reintroduces model judgment.
 TOP_N = 8
@@ -44,8 +44,8 @@ KEY_LIST_MIN_MENTIONS = 10
 
 @dataclass(frozen=True)
 class SalienceEntry:
-    name: str
-    category: str
+    page_id: str
+    page_kind: str
     inbound_links: int
     ingest_writes: int
     source_mentions: int
@@ -64,15 +64,15 @@ class SalienceReport:
 
     entries: tuple[SalienceEntry, ...]
 
-    def top(self, category: str, n: int = TOP_N) -> tuple[SalienceEntry, ...]:
-        return tuple(e for e in self.entries if e.category == category)[:n]
+    def top(self, page_kind: str, n: int = TOP_N) -> tuple[SalienceEntry, ...]:
+        return tuple(e for e in self.entries if e.page_kind == page_kind)[:n]
 
-    def key_pages(self, category: str, n: int = TOP_N) -> tuple[SalienceEntry, ...]:
+    def key_pages(self, page_kind: str, n: int = TOP_N) -> tuple[SalienceEntry, ...]:
         """Entries eligible for the computed hub key-lists (mentions floor)."""
         return tuple(
             e
             for e in self.entries
-            if e.category == category and e.source_mentions >= KEY_LIST_MIN_MENTIONS
+            if e.page_kind == page_kind and e.source_mentions >= KEY_LIST_MIN_MENTIONS
         )[:n]
 
     def render(self) -> str:
@@ -84,11 +84,11 @@ class SalienceReport:
             "links, writes: times written this ingest, mentions: occurrences "
             "in the source text):"
         ]
-        for category, heading in (("concept", "Concepts"), ("entity", "Entities")):
-            top = self.top(category)
+        for page_kind, heading in (("concept", "Concepts"), ("entity", "Entities")):
+            top = self.top(page_kind)
             if top:
                 ranked = ", ".join(
-                    f"[[{e.name}]] (links {e.inbound_links}, writes "
+                    f"[[{e.page_id}]] (links {e.inbound_links}, writes "
                     f"{e.ingest_writes}, mentions {e.source_mentions})"
                     for e in top
                 )
@@ -112,18 +112,18 @@ def reconcile_key_lists(body: str, report: SalienceReport) -> str:
     lines = [line for line in body.splitlines() if not _KEY_LINE_RE.match(line)]
     while lines and not lines[-1].strip():
         lines.pop()
-    for category, label in (("concept", "Key concepts"), ("entity", "Key entities")):
-        names = [e.name for e in report.key_pages(category)]
-        if names:
-            rendered = ", ".join(f"[[{n}]]" for n in names)
+    for page_kind, label in (("concept", "Key concepts"), ("entity", "Key entities")):
+        page_ids = [e.page_id for e in report.key_pages(page_kind)]
+        if page_ids:
+            rendered = ", ".join(f"[[{page_id}]]" for page_id in page_ids)
             # Reader-facing label only — how the list is computed is harness
             # plumbing and stays out of the wiki layer.
             lines.extend(["", f"**{label}:** {rendered}"])
     return "\n".join(lines)
 
 
-def _mention_count(name: str, source_text_lower: str) -> int:
-    """Occurrences of the page name in the source, word-boundary matched.
+def _mention_count(page_id: str, source_text_lower: str) -> int:
+    """Occurrences of the page_id in the source, word-boundary matched.
 
     The slug becomes a space-joined phrase; a trailing plural 's' on the
     last word is optional so `linked-lists` matches "linked list". Crude by
@@ -131,7 +131,7 @@ def _mention_count(name: str, source_text_lower: str) -> int:
     """
     if not source_text_lower:
         return 0
-    words = [re.escape(w) for w in name.split("-") if w]
+    words = [re.escape(w) for w in page_id.split("-") if w]
     if not words:
         return 0
     phrase = r"[\s-]+".join(words)
@@ -141,7 +141,7 @@ def _mention_count(name: str, source_text_lower: str) -> int:
 
 
 def _cites_source(page: WikiPage, source_basename: str) -> bool:
-    return any(source_basename in entry for entry in page.sources)
+    return any(source_basename in entry for entry in page.page_metadata.sources)
 
 
 def compute_salience(
@@ -154,46 +154,46 @@ def compute_salience(
 ) -> SalienceReport:
     """Rank entity/concept pages by how load-bearing the evidence says they are.
 
-    *scope_source* (a source path or filename) restricts eligibility to pages
+    *scope_source* (a SourceLocator or filename) restricts eligibility to pages
     citing it; empty means wiki-global (lint). *exclude_inbound_from* names
     pages whose outbound links must not count — pass the hub being rebuilt.
     """
     writes = write_counts or {}
-    page_names = set(page_texts)
+    page_ids = set(page_texts)
     source_basename = scope_source.rsplit("/", 1)[-1]
     text_lower = source_text.lower()
 
     inbound: Counter[str] = Counter()
     parsed: dict[str, WikiPage] = {}
-    for name, text in page_texts.items():
-        if name not in exclude_inbound_from:
-            for target in extract_links(text) & page_names - {name}:
+    for page_id, text in page_texts.items():
+        if page_id not in exclude_inbound_from:
+            for target in extract_links(text) & page_ids - {page_id}:
                 inbound[target] += 1
         try:
-            parsed[name] = parse_page(name, text)
+            parsed[page_id] = parse_page(text)
         except PageError:
             continue  # unparseable page: counted as a linker, never ranked
 
-    def eligible(name: str) -> bool:
-        page = parsed.get(name)
-        if page is None or page.category not in _RANKED_CATEGORIES:
+    def eligible(page_id: str) -> bool:
+        page = parsed.get(page_id)
+        if page is None or page.page_kind not in _RANKED_PAGE_KINDS:
             return False
-        if name in _EXCLUDED_PAGES:
+        if page_id in _EXCLUDED_PAGES:
             return False
         return not source_basename or _cites_source(page, source_basename)
 
     entries = sorted(
         (
             SalienceEntry(
-                name=name,
-                category=parsed[name].category,
-                inbound_links=inbound[name],
-                ingest_writes=writes.get(name, 0),
-                source_mentions=_mention_count(name, text_lower),
+                page_id=page_id,
+                page_kind=parsed[page_id].page_kind,
+                inbound_links=inbound[page_id],
+                ingest_writes=writes.get(page_id, 0),
+                source_mentions=_mention_count(page_id, text_lower),
             )
-            for name in page_names
-            if eligible(name)
+            for page_id in page_ids
+            if eligible(page_id)
         ),
-        key=lambda e: (-e.score, -e.inbound_links, e.name),
+        key=lambda e: (-e.score, -e.inbound_links, e.page_id),
     )
     return SalienceReport(entries=tuple(entries))

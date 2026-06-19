@@ -7,7 +7,7 @@ from forge.core.workflow import ToolCall
 
 from llmwiki.config import WikiPaths
 from llmwiki.domain.chatwindow import QAPair
-from llmwiki.domain.pages import WikiPage
+from llmwiki.domain.pages import PageMetadata, WikiPage
 from llmwiki.runtime.chat_repl import ChatRepl
 from llmwiki.runtime.session import Session
 from llmwiki.store import WikiStore
@@ -29,14 +29,14 @@ def _session(store: WikiStore, script: list, paths: WikiPaths) -> Session:
 
 
 def _seed_wiki(store: WikiStore) -> None:
+    metadata = PageMetadata(
+        page_id="closure",
+        page_kind="concept",
+        summary="Functions capturing scope.",
+        updated=TODAY,
+    )
     store.write_page(
-        WikiPage(
-            name="closure",
-            category="concept",
-            summary="Functions capturing scope.",
-            body="A closure captures its defining environment.",
-            updated=TODAY,
-        )
+        WikiPage.from_metadata(metadata, "A closure captures its defining environment.")
     )
 
 

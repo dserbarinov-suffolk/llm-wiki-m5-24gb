@@ -23,7 +23,6 @@ from llmwiki.domain.objects import (
     ExtractedUnit,
     ExtractionPrompt,
     IngestRun,
-    LintFinding,
     LintRun,
     PagePlan,
     QueryRun,
@@ -32,8 +31,9 @@ from llmwiki.domain.objects import (
     SourceBundle,
     SourcePlan,
 )
-from llmwiki.domain.pages import WikiPage, parse_page, slugify
+from llmwiki.domain.pages import PageMetadata, WikiPage, parse_page, slugify
 from llmwiki.domain.planning import (
+    build_markdown_page_plan,
     build_page_plan,
     observation_report,
     page_plan_to_json,
@@ -51,7 +51,6 @@ from llmwiki.runtime.transcript import TranscriptWriter
 from llmwiki.store import WikiStore
 from llmwiki.workflows import (
     build_chat_workflow,
-    build_ingest_workflow,
     build_lint_workflow,
     build_query_workflow,
 )
@@ -64,6 +63,7 @@ _MAX_ITERATIONS = {
     "pdf-chunk": 24,
     "pdf-integrate": 20,
     "pdf-planned-write": 16,
+    "planned-write": 16,
     "chat": 12,
 }
 
@@ -104,6 +104,11 @@ _RETRY_NUDGES = {
         "written, call finish_planned_write with your report; otherwise call "
         "the next tool you need."
     ),
+    "planned-write": (
+        "Reply with exactly one tool call. If the planned target page is "
+        "written, call finish_planned_write with your report; otherwise call "
+        "the next tool you need."
+    ),
     "chat": ("Reply with exactly one tool call. Use respond to deliver your answer to the user."),
 }
 
@@ -131,35 +136,70 @@ class Session:
     on_chunk_note: Callable[[str], None] | None = None  # per-chunk supervision
 
     async def ingest(
-        self, source_path: str, reextract: bool = False, reintegrate: bool = False
+        self, source_locator: str, reextract: bool = False, reintegrate: bool = False
     ) -> OperationResult:
-        if source_path.lower().endswith(".pdf"):
-            return await self._ingest_pdf(source_path, reextract, reintegrate)
+        if source_locator.lower().endswith(".pdf"):
+            return await self._ingest_pdf(source_locator, reextract, reintegrate)
         if reintegrate:
             raise PdfError("--reintegrate applies to chunked (PDF) sources only.")
-        workflow = build_ingest_workflow(self.store, self.today)
-        message = (
-            f"Ingest the source 'raw/{source_path}' into the wiki. "
-            f"Pass path='{source_path}' to read_source."
+        return await self._ingest_markdown(source_locator)
+
+    async def _ingest_markdown(self, source_locator: str) -> OperationResult:
+        raw_source = self.store.raw_source(source_locator)
+        source_bundle = SourceBundle.one(raw_source)
+        source_text = self.store.read_source(source_locator)
+        page_plan = build_markdown_page_plan(
+            plan_id=f"{slugify(Path(source_locator).stem)}-page-plan",
+            source_bundle=source_bundle,
+            raw_source=raw_source,
+            source_text=source_text,
+            existing_pages=self.store.page_texts(),
+            wiki_structure=self.store.structure,
+            today=self.today,
         )
-        report, transcript = await self._run(workflow, message, "ingest")
-        self.store.append_log(self.today, "ingest", source_path, report)
+        units = {unit.unit_id: unit for unit in page_plan.extracted_units}
+        actual_pages: list[str] = []
+        last_transcript: Path | None = None
+        for planned_write in page_plan.planned_writes:
+            write_log: list[str] = []
+            _, last_transcript = await self._run(
+                build_planned_write_workflow(
+                    self.store,
+                    self.today,
+                    planned_write,
+                    write_log=write_log,
+                ),
+                planned_write_message(planned_write, units),
+                "planned-write",
+                tag=f"markdown-plan-{planned_write.write_id}",
+            )
+            actual_pages.extend(write_log)
+        report = self._planned_ingest_report(
+            source_locator=source_locator,
+            page_plan=page_plan,
+            actual_pages=tuple(dict.fromkeys(actual_pages)),
+        )
+        self.store.append_log(self.today, "ingest", source_locator, report)
         return OperationResult(
             "ingest",
-            source_path,
+            source_locator,
             report,
-            transcript,
-            self._markdown_ingest_run(source_path),
+            last_transcript,
+            self._markdown_ingest_run(source_locator, page_plan),
         )
 
     async def _ingest_pdf(
-        self, source_path: str, reextract: bool, reintegrate: bool = False
+        self, source_locator: str, reextract: bool, reintegrate: bool = False
     ) -> OperationResult:
         if self.extract_pdf is None:
             raise RuntimeError("Session has no PDF extractor wired (extract_pdf).")
-        result = self.extract_pdf(self.store.source_path(source_path), source_path, reextract)
+        result = self.extract_pdf(
+            self.store.raw_source_path(source_locator),
+            source_locator,
+            reextract,
+        )
         manifest, total = result.manifest, len(result.manifest.chunks)
-        raw_source = self.store.raw_source(source_path)
+        raw_source = self.store.raw_source(source_locator)
         source_bundle = SourceBundle.one(raw_source)
         extracted_units = self._extracted_units(result, raw_source)
         page_plan = build_page_plan(
@@ -177,7 +217,7 @@ class Session:
         actual_pages_by_unit: dict[str, list[str]] = {}
         reports: list[str] = []
         last_transcript: Path | None = None
-        hub = slugify(Path(source_path).stem)
+        hub = slugify(Path(source_locator).stem)
         for planned_write in page_plan.planned_writes:
             write_log: list[str] = []
             report, last_transcript = await self._run(
@@ -188,7 +228,7 @@ class Session:
                     write_log=write_log,
                 ),
                 planned_write_message(planned_write, units),
-                "pdf-planned-write",
+                "planned-write",
                 tag=f"pdf-plan-{planned_write.write_id}",
             )
             reports.append(f"{planned_write.page_metadata.page_id}: {report}")
@@ -205,7 +245,7 @@ class Session:
             self.store.page_texts(),
             self._write_counts(actual_pages_by_unit),
             source_text=read_source_text(result.cache_dir),
-            scope_source=source_path,
+            scope_source=source_locator,
             exclude_inbound_from=frozenset({hub}),
         )
         self._reconcile_hub_key_lists(hub, salience)
@@ -214,16 +254,16 @@ class Session:
         observation_path = self._write_observation(result.cache_dir, page_plan)
         report = (
             f"Planned ingest completed for {total} extracted unit(s) from "
-            f"raw/{source_path}. Executed {len(page_plan.planned_writes)} planned "
+            f"raw/{source_locator}. Executed {len(page_plan.planned_writes)} planned "
             f"page write(s). Observation: {observation_path}."
         )
-        self.store.append_log(self.today, "ingest", source_path, report)
+        self.store.append_log(self.today, "ingest", source_locator, report)
         return OperationResult(
             "ingest",
-            source_path,
+            source_locator,
             report,
             last_transcript,
-            self._pdf_ingest_run(source_path, page_plan),
+            self._pdf_ingest_run(source_locator, page_plan),
         )
 
     def _reconcile_hub_key_lists(self, hub: str, salience: SalienceReport) -> None:
@@ -231,10 +271,11 @@ class Session:
         report by construction (same contract as index.md entries)."""
         if hub not in self.store.list_pages():
             return  # no hub page; lint's findings will surface it
-        page = parse_page(hub, self.store.read_page(hub))
-        body = reconcile_key_lists(page.body, salience)
-        if body != page.body:
-            self.store.write_page(replace(page, body=body, updated=self.today))
+        page = parse_page(self.store.read_page(hub))
+        page_body = reconcile_key_lists(page.page_body, salience)
+        if page_body != page.page_body:
+            metadata = replace(page.page_metadata, updated=self.today)
+            self.store.write_page(WikiPage.from_metadata(metadata, page_body))
 
     async def query(self, question: str) -> OperationResult:
         workflow = build_query_workflow(self.store, self.today)
@@ -277,7 +318,7 @@ class Session:
     async def lint(self) -> OperationResult:
         findings = compute_findings(
             self.store.page_texts(),
-            self.store.index_names(),
+            self.store.index_page_ids(),
             exempt_from_orphans=frozenset({HEALTH_PAGE}),
         )
         if not self.store.list_pages():
@@ -308,7 +349,7 @@ class Session:
             "wiki health",
             report,
             transcript,
-            LintRun(lint_findings=self._lint_findings()),
+            self._lint_run(),
         )
 
     async def _run(
@@ -345,12 +386,14 @@ class Session:
 
     def _file_lint_report(self, report: str) -> None:
         self.store.write_page(
-            WikiPage(
-                name=HEALTH_PAGE,
-                category="synthesis",
-                summary=f"Wiki health report from the latest lint pass ({self.today}).",
-                body=report,
-                updated=self.today,
+            WikiPage.from_metadata(
+                PageMetadata(
+                    page_id=HEALTH_PAGE,
+                    page_kind="synthesis",
+                    summary=f"Wiki health report from the latest lint pass ({self.today}).",
+                    updated=self.today,
+                ),
+                report,
             )
         )
 
@@ -365,34 +408,44 @@ class Session:
             )
         )
 
-    def _source_bundle(self, source_path: str) -> SourceBundle:
-        return SourceBundle.one(self.store.raw_source(source_path))
+    def _source_bundle(self, source_locator: str) -> SourceBundle:
+        return SourceBundle.one(self.store.raw_source(source_locator))
 
-    def _markdown_ingest_run(self, source_path: str) -> IngestRun:
-        raw_source = self.store.raw_source(source_path)
-        page_id = slugify(Path(source_path).stem)
-        metadata = WikiPage(
-            name=page_id,
-            category="source",
-            summary=f"Source page for raw/{source_path}.",
-            body="",
-            sources=(source_path,),
-            updated=self.today,
-        ).page_metadata
-        source_plan = SourcePlan(
-            raw_source=raw_source,
-            source_classification=raw_source.source_format,
-            ingest_disposition="create-or-update",
-            target_page_metadata=metadata,
-            target_page_paths=(str(self.store.structure.render_path(metadata)),),
-            handling_notes="Default one-source ingest plan.",
+    def _planned_ingest_report(
+        self,
+        *,
+        source_locator: str,
+        page_plan: PagePlan,
+        actual_pages: tuple[str, ...],
+    ) -> str:
+        planned_pages = tuple(write.page_metadata.page_id for write in page_plan.planned_writes)
+        actual = ", ".join(f"[[{page_id}]]" for page_id in actual_pages) or "none"
+        planned = ", ".join(f"[[{page_id}]]" for page_id in planned_pages) or "none"
+        return (
+            f"Planned ingest completed for {len(page_plan.extracted_units)} ExtractedUnit(s) "
+            f"from raw/{source_locator}. Planned pages: {planned}. "
+            f"Written pages: {actual}."
+        )
+
+    def _markdown_ingest_run(self, source_locator: str, page_plan: PagePlan) -> IngestRun:
+        raw_source = self.store.raw_source(source_locator)
+        plans = tuple(
+            SourcePlan(
+                raw_source=raw_source,
+                source_classification="planned markdown write",
+                ingest_disposition=write.action,
+                planned_page_write_ids=(write.write_id,),
+                handling_notes="PagePlan write.",
+            )
+            for write in page_plan.planned_writes
         )
         return IngestRun(
             source_bundle=SourceBundle.one(raw_source),
             wiki_structure=self.store.structure,
             schema=self._schema_object(),
-            extraction_prompt=self._extraction_prompt(source_path),
-            source_plans=(source_plan,),
+            extraction_prompt=self._extraction_prompt(source_locator),
+            source_plans=plans,
+            page_plan=page_plan,
         )
 
     def _extracted_units(
@@ -444,18 +497,14 @@ class Session:
                 counts[page] = counts.get(page, 0) + 1
         return counts
 
-    def _pdf_ingest_run(self, source_path: str, page_plan: PagePlan) -> IngestRun:
-        raw_source = self.store.raw_source(source_path)
+    def _pdf_ingest_run(self, source_locator: str, page_plan: PagePlan) -> IngestRun:
+        raw_source = self.store.raw_source(source_locator)
         plans = tuple(
             SourcePlan(
                 raw_source=raw_source,
                 source_classification="planned pdf write",
                 ingest_disposition=write.action,
-                target_page_metadata=write.page_metadata,
-                target_page_paths=(
-                    (write.projection.page_path if write.projection else ""),
-                ),
-                expected_wiki_pages=(write.page_metadata.page_id,),
+                planned_page_write_ids=(write.write_id,),
                 handling_notes="Global PagePlan write.",
             )
             for write in page_plan.planned_writes
@@ -464,32 +513,14 @@ class Session:
             source_bundle=SourceBundle.one(raw_source),
             wiki_structure=self.store.structure,
             schema=self._schema_object(),
-            extraction_prompt=self._extraction_prompt(source_path),
+            extraction_prompt=self._extraction_prompt(source_locator),
             source_plans=plans,
             page_plan=page_plan,
         )
 
-    def _lint_findings(self) -> tuple[LintFinding, ...]:
-        findings = compute_findings(
+    def _lint_run(self) -> LintRun:
+        return compute_findings(
             self.store.page_texts(),
-            self.store.index_names(),
+            self.store.index_page_ids(),
             exempt_from_orphans=frozenset({HEALTH_PAGE}),
         )
-        converted: list[LintFinding] = []
-        for page, links in findings.broken_links.items():
-            converted.extend(
-                LintFinding("broken link", wiki_page=page, cross_reference=link)
-                for link in links
-            )
-        converted.extend(
-            LintFinding("orphan page", wiki_page=page) for page in findings.orphan_pages
-        )
-        converted.extend(
-            LintFinding("missing from index", wiki_page=page)
-            for page in findings.missing_from_index
-        )
-        converted.extend(
-            LintFinding("stale index entry", wiki_page=page)
-            for page in findings.stale_index_entries
-        )
-        return tuple(converted)

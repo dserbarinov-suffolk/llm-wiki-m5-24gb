@@ -21,7 +21,7 @@ INGEST_TEMPLATE = _BASE + (
     "ingest workflow. Read the source first. Search the wiki for related "
     "pages before writing. Write a source page, then update or create the "
     "entity/concept pages the source affects. Keep each page focused; link "
-    "pages with [[page-name]]. When the wiki fully reflects the source, "
+    "pages with [[PageId]]. When the wiki fully reflects the source, "
     "call finish_ingest with a report of the pages you wrote."
 )
 
@@ -30,7 +30,7 @@ QUERY_TEMPLATE = _BASE + (
     "schema's query workflow. Search first, then read the relevant pages "
     "(for questions about the wiki itself or its coverage, read_index "
     "shows the catalog of every page). "
-    "Cite pages as [[page-name]] and sources as (raw/<path>) in your answer. "
+    "Cite pages as [[PageId]] and sources as (raw/<SourceLocator>) in your answer. "
     "If the answer is a synthesis worth keeping (a comparison, analysis, or "
     "connection not yet recorded), file it with write_page before responding. "
     "Answer with the respond tool. If the wiki does not contain the answer, "
@@ -68,18 +68,21 @@ INTEGRATE_TEMPLATE = _BASE + (
 
 PLANNED_WRITE_TEMPLATE = _BASE + (
     "\nTask: execute one PlannedPageWrite. The user message names the exact "
-    "target PageId, PageKind, PagePath, evidence, wiki matches, and extracted "
+    "target PageId, PageKind, PageMetadata, PagePath, required PageBody links, "
+    "required source citations, uncertainty terms, SourceLocator evidence, and extracted "
     "source units. write_page is bound to that target page by the PagePlan, "
-    "so provide only the markdown body. For source pages, write a compact "
+    "so provide only PageBody and include every required link and citation. "
+    "For source pages, write a compact "
     "replacement from the supplied evidence and do not read the existing page. "
     "For non-source pages, read_page first when updating an existing page. "
-    "Do not create or update any other page. Write a compact source summary, not a transcript. "
+    "Do not create or update any other page. Preserve uncertainty from the source. "
+    "Write a compact source summary, not a transcript. "
     "When the target page is written, call finish_planned_write with a concise report."
 )
 
 CHAT_TEMPLATE = _BASE + (
     "\nTask: hold a conversation grounded in the wiki. Answer from wiki "
-    "content with [[page]] and (raw/<path>) citations; when the wiki lacks "
+    "content with [[PageId]] and (raw/<SourceLocator>) citations; when the wiki lacks "
     "the answer, say so plainly — do not invent facts. A conversation's "
     "first message includes the wiki's index (the catalog of every page): "
     "use it to find the relevant pages and read them before answering "

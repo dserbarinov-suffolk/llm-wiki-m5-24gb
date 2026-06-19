@@ -7,11 +7,11 @@ from pathlib import PurePosixPath
 
 from llmwiki.domain.pages import (
     LOCAL_FLAT_STRUCTURE,
-    PAGE_CATEGORIES,
     PageMetadata,
     WikiPage,
     WikiStructure,
 )
+from llmwiki.domain.schema import PAGE_KINDS, PAGE_METADATA_FIELDS
 
 
 def _source_format(source_locator: str) -> str:
@@ -50,21 +50,15 @@ class SourceBundle:
 @dataclass(frozen=True)
 class Schema:
     schema_id: str = "local-llm-wiki"
-    page_kinds: tuple[str, ...] = PAGE_CATEGORIES
-    page_metadata_fields: tuple[str, ...] = (
-        "PageId",
-        "PageKind",
-        "Summary",
-        "Sources",
-        "Updated",
-    )
+    page_kinds: tuple[str, ...] = PAGE_KINDS
+    page_metadata_fields: tuple[str, ...] = PAGE_METADATA_FIELDS
     page_contracts: str = ""
 
 
 @dataclass(frozen=True)
 class ExtractionPrompt:
     instruction_text: str
-    output_page_kinds: tuple[str, ...] = PAGE_CATEGORIES
+    output_page_kinds: tuple[str, ...] = PAGE_KINDS
     uncertainty_policy: str = "Use cited evidence and preserve contradictions."
 
 
@@ -72,14 +66,14 @@ class ExtractionPrompt:
 class Evidence:
     raw_source: RawSource
     locator: str = ""
-    wiki_page: str = ""
+    page_id: str = ""
     claim: str = ""
 
 
 @dataclass(frozen=True)
 class CrossReference:
-    from_page: str
-    to_page: str
+    from_page_id: str
+    to_page_id: str
     link_text: str = ""
     inbound_link_state: str = "linked"
 
@@ -89,7 +83,7 @@ class Claim:
     statement: str
     claim_status: str = "supported"
     evidence: tuple[Evidence, ...] = ()
-    wiki_page: str = ""
+    page_id: str = ""
 
 
 @dataclass(frozen=True)
@@ -97,9 +91,7 @@ class SourcePlan:
     raw_source: RawSource
     source_classification: str
     ingest_disposition: str
-    target_page_metadata: PageMetadata | None = None
-    target_page_paths: tuple[str, ...] = ()
-    expected_wiki_pages: tuple[str, ...] = ()
+    planned_page_write_ids: tuple[str, ...] = ()
     handling_notes: str = ""
 
 
@@ -148,7 +140,7 @@ class TopicCluster:
 
 @dataclass(frozen=True)
 class WikiMatch:
-    wiki_page: str
+    page_id: str
     score: float
     match_reason: str
     page_excerpt: str = ""
@@ -159,7 +151,7 @@ class ClaimComparison:
     candidate_claim: str
     existing_claim: str
     relation: str
-    wiki_page: str = ""
+    page_id: str = ""
 
 
 @dataclass(frozen=True)
@@ -178,7 +170,10 @@ class PlannedPageWrite:
     wiki_matches: tuple[WikiMatch, ...] = ()
     claim_comparisons: tuple[ClaimComparison, ...] = ()
     projection: ProjectionMetadata | None = None
-    existing_page: str = ""
+    existing_page_id: str = ""
+    required_link_page_ids: tuple[str, ...] = ()
+    required_source_citations: tuple[str, ...] = ()
+    required_uncertainty_terms: tuple[str, ...] = ()
 
 
 @dataclass(frozen=True)
@@ -218,8 +213,8 @@ class IngestRun:
 @dataclass(frozen=True)
 class QueryRun:
     user_question: str
-    relevant_wiki_pages: tuple[str, ...] = ()
-    answer_wiki_page: str = ""
+    relevant_page_ids: tuple[str, ...] = ()
+    answer_page_id: str = ""
     evidence: tuple[Evidence, ...] = ()
     cross_references: tuple[CrossReference, ...] = ()
 
@@ -227,7 +222,7 @@ class QueryRun:
 @dataclass(frozen=True)
 class LintFinding:
     finding_type: str
-    wiki_page: str = ""
+    page_id: str = ""
     claim: str = ""
     cross_reference: str = ""
     resolution_runs: tuple[str, ...] = ()
@@ -238,4 +233,67 @@ class LintRun:
     lint_findings: tuple[LintFinding, ...] = ()
     suggested_query_runs: tuple[QueryRun, ...] = ()
     suggested_raw_sources: tuple[RawSource, ...] = ()
-    wiki_pages: tuple[str, ...] = ()
+    page_ids: tuple[str, ...] = ()
+
+    @property
+    def is_clean(self) -> bool:
+        return not self.lint_findings
+
+    @property
+    def broken_links(self) -> dict[str, tuple[str, ...]]:
+        grouped: dict[str, list[str]] = {}
+        for finding in self.lint_findings:
+            if finding.finding_type == "broken link":
+                grouped.setdefault(finding.page_id, []).append(finding.cross_reference)
+        return {page_id: tuple(links) for page_id, links in grouped.items()}
+
+    @property
+    def orphan_pages(self) -> tuple[str, ...]:
+        return tuple(
+            finding.page_id
+            for finding in self.lint_findings
+            if finding.finding_type == "orphan page"
+        )
+
+    @property
+    def missing_from_index(self) -> tuple[str, ...]:
+        return tuple(
+            finding.page_id
+            for finding in self.lint_findings
+            if finding.finding_type == "missing from index"
+        )
+
+    @property
+    def stale_index_entries(self) -> tuple[str, ...]:
+        return tuple(
+            finding.page_id
+            for finding in self.lint_findings
+            if finding.finding_type == "stale index entry"
+        )
+
+    def render(self) -> str:
+        if self.is_clean:
+            return "No deterministic issues found (links, orphans, and index are consistent)."
+        sections: list[str] = []
+        if self.broken_links:
+            lines = [
+                f"- {page_id} links to missing page(s): {', '.join(targets)}"
+                for page_id, targets in sorted(self.broken_links.items())
+            ]
+            sections.append("Broken [[links]] (target page does not exist):\n" + "\n".join(lines))
+        if self.orphan_pages:
+            sections.append(
+                "Orphan pages (no inbound links from any other page):\n"
+                + "\n".join(f"- {page_id}" for page_id in self.orphan_pages)
+            )
+        if self.missing_from_index:
+            sections.append(
+                "Pages missing from index.md:\n"
+                + "\n".join(f"- {page_id}" for page_id in self.missing_from_index)
+            )
+        if self.stale_index_entries:
+            sections.append(
+                "index.md entries whose page does not exist:\n"
+                + "\n".join(f"- {page_id}" for page_id in self.stale_index_entries)
+            )
+        return "\n\n".join(sections)

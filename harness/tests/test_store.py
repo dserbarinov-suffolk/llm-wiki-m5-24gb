@@ -3,19 +3,19 @@
 import pytest
 
 from llmwiki.config import SOURCE_READ_BUDGET_CHARS, WikiPaths
-from llmwiki.domain.pages import PathTemplate, WikiPage, WikiStructure
+from llmwiki.domain.pages import PageMetadata, PathTemplate, WikiPage, WikiStructure
 from llmwiki.store import PageNotFoundError, SourceNotFoundError, WikiStore, WikiStoreError
 
 
-def _page(name: str = "hittites", category: str = "entity") -> WikiPage:
-    return WikiPage(
-        name=name,
-        category=category,
-        summary=f"About {name}.",
-        body=f"The {name} page. See [[other]].",
+def _page(page_id: str = "hittites", page_kind: str = "entity") -> WikiPage:
+    metadata = PageMetadata(
+        page_id=page_id,
+        page_kind=page_kind,
+        summary=f"About {page_id}.",
         sources=("article.md",),
         updated="2026-06-10",
     )
+    return WikiPage.from_metadata(metadata, f"The {page_id} page. See [[other]].")
 
 
 class TestRawLayer:
@@ -52,7 +52,7 @@ class TestWikiLayer:
         assert store.list_pages() == ["hittites"]
 
     def test_write_page_uses_current_structure(self, store: WikiStore) -> None:
-        page = _page(name="hittites", category="entity")
+        page = _page(page_id="hittites", page_kind="entity")
         store.write_page(page)
         assert store.rendered_page_path(page) == "hittites.md"
         assert store.read_wiki_page("hittites").page_metadata == page.page_metadata
@@ -66,15 +66,15 @@ class TestWikiLayer:
             ),
         )
         store = WikiStore(paths, structure=structure)
-        page = WikiPage(
-            name="lcn-4040xp",
-            category="source",
+        metadata = PageMetadata(
+            page_id="lcn-4040xp",
+            page_kind="source",
             summary="LCN closer source page.",
-            body="Body.",
             domain="doors",
             category_path="hardware/closers",
             updated="2026-06-18",
         )
+        page = WikiPage.from_metadata(metadata, "Body.")
 
         store.write_page(page)
 
@@ -85,12 +85,14 @@ class TestWikiLayer:
     def test_rewrite_updates_in_place(self, store: WikiStore) -> None:
         store.write_page(_page())
         store.write_page(
-            WikiPage(
-                name="hittites",
-                category="entity",
-                summary="Updated summary.",
-                body="New body.",
-                updated="2026-06-11",
+            WikiPage.from_metadata(
+                PageMetadata(
+                    page_id="hittites",
+                    page_kind="entity",
+                    summary="Updated summary.",
+                    updated="2026-06-11",
+                ),
+                "New body.",
             )
         )
         assert store.read_index().count("[[hittites]]") == 1
@@ -99,7 +101,7 @@ class TestWikiLayer:
 
     def test_reserved_names_rejected(self, store: WikiStore) -> None:
         with pytest.raises(WikiStoreError, match="reserved"):
-            store.write_page(_page(name="index", category="concept"))
+            store.write_page(_page(page_id="index", page_kind="concept"))
 
     def test_read_missing_page(self, store: WikiStore) -> None:
         with pytest.raises(PageNotFoundError):

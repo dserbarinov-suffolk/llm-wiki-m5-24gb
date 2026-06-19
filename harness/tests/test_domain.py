@@ -2,7 +2,7 @@
 
 import pytest
 
-from llmwiki.domain.index import index_page_names, parse_index, upsert_index_entry
+from llmwiki.domain.index import index_page_ids, parse_index, upsert_index_entry
 from llmwiki.domain.links import compute_findings, extract_links
 from llmwiki.domain.log import format_log_entry
 from llmwiki.domain.objects import IngestRun, RawSource, SourceBundle
@@ -37,28 +37,35 @@ INDEX = """# Index
 
 class TestPages:
     def test_render_parse_roundtrip(self) -> None:
-        page = WikiPage(
-            name="bronze-age",
-            category="concept",
+        metadata = PageMetadata(
+            page_id="bronze-age",
+            page_kind="concept",
             summary="The Bronze Age collapse.",
-            body="Linked to [[sea-peoples]].\n\nEvidence: (raw/article.md)",
             sources=("article.md",),
             updated="2026-06-10",
         )
-        assert parse_page("bronze-age", render_page(page)) == page
+        page = WikiPage.from_metadata(
+            metadata,
+            "Linked to [[sea-peoples]].\n\nEvidence: (raw/article.md)",
+        )
+        rendered = render_page(page)
+        assert "page_id: bronze-age" in rendered
+        assert "page_kind: concept" in rendered
+        assert "category:" not in rendered
+        assert parse_page(rendered) == page
 
-    @pytest.mark.parametrize("name", ["Bad Name", "UPPER", "trailing-", "-leading", "a--b", ""])
-    def test_invalid_names_rejected(self, name: str) -> None:
+    @pytest.mark.parametrize("page_id", ["Bad Name", "UPPER", "trailing-", "-leading", "a--b", ""])
+    def test_invalid_page_ids_rejected(self, page_id: str) -> None:
         with pytest.raises(PageError):
-            WikiPage(name=name, category="entity", summary="s", body="b")
+            PageMetadata(page_id=page_id, page_kind="entity", summary="s")
 
-    def test_invalid_category_rejected(self) -> None:
+    def test_invalid_page_kind_rejected(self) -> None:
         with pytest.raises(PageError):
-            WikiPage(name="ok", category="article", summary="s", body="b")
+            PageMetadata(page_id="ok", page_kind="article", summary="s")
 
     def test_summary_collapsed_to_one_line(self) -> None:
         with pytest.raises(PageError):
-            WikiPage(name="ok", category="entity", summary="  \n ", body="b")
+            PageMetadata(page_id="ok", page_kind="entity", summary="  \n ")
 
     def test_page_metadata_projects_to_flat_path(self) -> None:
         metadata = PageMetadata(
@@ -102,20 +109,7 @@ class TestPages:
             structure.render_path(metadata)
 
     def test_wiki_page_exposes_page_metadata(self) -> None:
-        page = WikiPage(
-            name="closure",
-            category="concept",
-            summary="A captured lexical environment.",
-            body="Body.",
-            sources=("raw/javascriptallonge.pdf",),
-            updated="2026-06-18",
-            domain="javascript",
-            category_path="language/functions",
-            source_id="javascriptallonge.pdf",
-            tags=("closure",),
-            aliases=("lexical-closure",),
-        )
-        assert page.page_metadata == PageMetadata(
+        metadata = PageMetadata(
             page_id="closure",
             page_kind="concept",
             summary="A captured lexical environment.",
@@ -127,6 +121,9 @@ class TestPages:
             tags=("closure",),
             aliases=("lexical-closure",),
         )
+        page = WikiPage.from_metadata(metadata, "Body.")
+        assert page.page_metadata == metadata
+        assert page.page_body == "Body."
         assert str(page.page_path()) == "closure.md"
 
 
@@ -149,36 +146,40 @@ class TestObjectBoundaries:
 
 
 class TestIndex:
-    def test_parse_extracts_entries_with_categories(self) -> None:
+    def test_parse_extracts_entries_with_page_kinds(self) -> None:
         entries = parse_index(INDEX)
-        assert [(e.name, e.category) for e in entries] == [
+        assert [(e.page_id, e.page_kind) for e in entries] == [
             ("alpha-source", "source"),
             ("bravo", "concept"),
             ("delta", "concept"),
         ]
 
-    def test_upsert_inserts_sorted_within_category(self) -> None:
-        updated = upsert_index_entry(INDEX, "charlie", "concept", "concept c")
-        names = [e.name for e in parse_index(updated) if e.category == "concept"]
-        assert names == ["bravo", "charlie", "delta"]
+    def test_upsert_inserts_sorted_within_page_kind(self) -> None:
+        metadata = PageMetadata(page_id="charlie", page_kind="concept", summary="concept c")
+        updated = upsert_index_entry(INDEX, metadata)
+        page_ids = [e.page_id for e in parse_index(updated) if e.page_kind == "concept"]
+        assert page_ids == ["bravo", "charlie", "delta"]
 
     def test_upsert_replaces_existing_entry(self) -> None:
-        updated = upsert_index_entry(INDEX, "bravo", "concept", "new summary")
-        entries = {e.name: e.summary for e in parse_index(updated)}
+        metadata = PageMetadata(page_id="bravo", page_kind="concept", summary="new summary")
+        updated = upsert_index_entry(INDEX, metadata)
+        entries = {e.page_id: e.summary for e in parse_index(updated)}
         assert entries["bravo"] == "new summary"
-        assert len([e for e in parse_index(updated) if e.name == "bravo"]) == 1
+        assert len([e for e in parse_index(updated) if e.page_id == "bravo"]) == 1
 
-    def test_upsert_moves_page_between_categories(self) -> None:
-        updated = upsert_index_entry(INDEX, "bravo", "synthesis", "now a synthesis")
-        entries = {e.name: e.category for e in parse_index(updated)}
+    def test_upsert_moves_page_between_page_kinds(self) -> None:
+        metadata = PageMetadata(page_id="bravo", page_kind="synthesis", summary="now a synthesis")
+        updated = upsert_index_entry(INDEX, metadata)
+        entries = {e.page_id: e.page_kind for e in parse_index(updated)}
         assert entries["bravo"] == "synthesis"
 
-    def test_upsert_into_empty_category(self) -> None:
-        updated = upsert_index_entry(INDEX, "ada", "entity", "a person")
-        assert ("ada", "entity") in [(e.name, e.category) for e in parse_index(updated)]
+    def test_upsert_into_empty_page_kind(self) -> None:
+        metadata = PageMetadata(page_id="ada", page_kind="entity", summary="a person")
+        updated = upsert_index_entry(INDEX, metadata)
+        assert ("ada", "entity") in [(e.page_id, e.page_kind) for e in parse_index(updated)]
 
-    def test_index_page_names(self) -> None:
-        assert index_page_names(INDEX) == {"alpha-source", "bravo", "delta"}
+    def test_index_page_ids(self) -> None:
+        assert index_page_ids(INDEX) == {"alpha-source", "bravo", "delta"}
 
 
 class TestLog:
@@ -204,7 +205,7 @@ class TestLinks:
             "beta": "no links here",
             "gamma": "links to [[alpha]]",
         }
-        findings = compute_findings(pages, index_names={"alpha", "beta", "zombie"})
+        findings = compute_findings(pages, index_page_ids={"alpha", "beta", "zombie"})
         assert findings.broken_links == {"alpha": ("ghost",)}
         assert findings.orphan_pages == ("gamma",)
         assert findings.missing_from_index == ("gamma",)
@@ -214,11 +215,11 @@ class TestLinks:
 
     def test_clean_wiki_is_clean(self) -> None:
         pages = {"alpha": "see [[beta]]", "beta": "see [[alpha]]"}
-        findings = compute_findings(pages, index_names={"alpha", "beta"})
+        findings = compute_findings(pages, index_page_ids={"alpha", "beta"})
         assert findings.is_clean
 
     def test_single_page_is_not_an_orphan(self) -> None:
-        findings = compute_findings({"only": "text"}, index_names={"only"})
+        findings = compute_findings({"only": "text"}, index_page_ids={"only"})
         assert findings.orphan_pages == ()
 
 
@@ -231,7 +232,7 @@ class TestSearch:
 
     def test_ranks_by_term_frequency_and_name_match(self) -> None:
         hits = search_pages(self.PAGES, "bronze collapse")
-        assert [h.name for h in hits] == ["bronze-age", "sea-peoples"]
+        assert [h.page_id for h in hits] == ["bronze-age", "sea-peoples"]
 
     def test_no_match_returns_empty(self) -> None:
         assert search_pages(self.PAGES, "quasar") == []
