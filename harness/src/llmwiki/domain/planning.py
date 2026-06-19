@@ -29,7 +29,10 @@ from llmwiki.domain.objects import (
     ResolvedPageBodyContract,
     Schema,
     SourceBundle,
+    SourceClaim,
+    SourceClaimGroup,
     SourcePlanContractSelection,
+    SourceSummaryPlan,
     TopicCluster,
     WikiMatch,
 )
@@ -48,6 +51,50 @@ _MATCH_THRESHOLD = 0.12
 _CLUSTER_THRESHOLD = 0.18
 _MAX_SOURCE_UNITS_PER_WRITE = 1
 _MAX_SOURCE_CHARS_PER_WRITE = 6_000
+_MAX_SOURCE_SUMMARY_CLAIMS = 5
+
+_ROLE_PATTERNS: tuple[tuple[str, tuple[str, ...]], ...] = (
+    ("uncertainty", (r"\bmay\b", r"\bmight\b", r"\bpossible\b", r"\bsuggest\w*\b", r"\bunknown\b")),
+    (
+        "negative-evidence",
+        (r"\bno\b.+\bfound\b", r"\bnot\b.+\bfound\b", r"\bdoes not\b", r"\bwithout\b"),
+    ),
+    ("limitation", (r"\blimit\w*\b", r"\bunless\b", r"\bexcept\b", r"\bonly\b")),
+    ("method", (r"\bused\b", r"\busing\b", r"\bstudy\b", r"\banalys\w*\b", r"\btest\w*\b")),
+    ("evidence", (r"\bevidence\b", r"\binscription\w*\b", r"\bcitation\b", r"\brecord\b")),
+    ("provenance", (r"\bfrom\b", r"\borigin\w*\b", r"\bretrieved\b", r"\bdiscovered\b")),
+    ("temporal", (r"\b\d{3,4}\b", r"\bbc\b", r"\bad\b", r"\byear\b", r"\bcentur\w*\b")),
+    ("quantitative", (r"\b\d+\b", r"\bat least\b", r"\bmore than\b", r"\broughly\b")),
+    (
+        "function",
+        (r"\btrack\w*\b", r"\bpredict\w*\b", r"\badvance\b", r"\bshow\w*\b", r"\bcould\b"),
+    ),
+    ("mechanism", (r"\bconsists\b", r"\bgear\w*\b", r"\bcase\b", r"\bcrank\b", r"\bthrough\b")),
+    ("comparison", (r"\bmatched\b", r"\bsurpass\w*\b", r"\bcompared\b", r"\bthan\b")),
+    ("relationship", (r"\blink\w*\b", r"\bconnect\w*\b", r"\bbetween\b", r"\bwith\b")),
+    ("requirement", (r"\bmust\b", r"\brequire\w*\b", r"\bshall\b", r"\bshould\b")),
+    ("procedure", (r"\bturn\w*\b", r"\bstep\b", r"\bprocess\b", r"\bworkflow\b")),
+    ("definition", (r"\bdefined as\b", r"\bmeans\b", r"\brefers to\b")),
+    ("identity", (r"\bis\b", r"\bare\b", r"\bknown as\b", r"\bdescribed as\b")),
+    ("attribute", (r"\bhas\b", r"\bhave\b", r"\bcontains\b", r"\bhoused\b", r"\bsize\b")),
+    ("open-question", (r"\bopen question\b", r"\bunclear\b", r"\bunresolved\b")),
+)
+
+_ROLE_WEIGHTS = {
+    "uncertainty": 0.33,
+    "negative-evidence": 0.34,
+    "limitation": 0.31,
+    "method": 0.27,
+    "function": 0.30,
+    "mechanism": 0.25,
+    "provenance": 0.22,
+    "temporal": 0.18,
+    "identity": 0.22,
+    "definition": 0.22,
+    "comparison": 0.20,
+    "evidence": 0.20,
+    "quantitative": 0.16,
+}
 
 _STOP_WORDS = frozenset(
     {
@@ -103,10 +150,14 @@ def build_page_plan(
     source_plan_contract_selections: tuple[SourcePlanContractSelection, ...] = (),
 ) -> PagePlan:
     resolved_schema = schema or Schema()
-    candidate_claims = tuple(_candidate_claim(unit) for unit in extracted_units)
+    source_claims = _source_claims(extracted_units, resolved_schema)
+    source_claim_groups = _source_claim_groups(source_claims)
+    candidate_claims = _candidate_claims_from_source_claims(source_claims)
     candidate_topics = _candidate_topics(extracted_units, candidate_claims)
     candidate_entities = _candidate_entities(extracted_units, candidate_claims)
-    topic_clusters = _topic_clusters(extracted_units, candidate_claims, candidate_topics)
+    topic_clusters = _topic_clusters(
+        extracted_units, candidate_claims, candidate_topics, source_claim_groups
+    )
     wiki_matches = _wiki_matches(extracted_units, existing_pages, raw_source.source_locator)
     claim_comparisons = _claim_comparisons(candidate_claims, wiki_matches)
     planned_writes = _planned_writes(
@@ -119,11 +170,15 @@ def build_page_plan(
         today=today,
         schema=resolved_schema,
         source_plan_contract_selections=source_plan_contract_selections,
+        source_claims=source_claims,
+        source_claim_groups=source_claim_groups,
     )
     return PagePlan(
         plan_id=plan_id,
         source_bundle=source_bundle,
         extracted_units=extracted_units,
+        source_claims=source_claims,
+        source_claim_groups=source_claim_groups,
         candidate_claims=candidate_claims,
         candidate_topics=candidate_topics,
         candidate_entities=candidate_entities,
@@ -157,10 +212,14 @@ def build_markdown_page_plan(
         extraction_status="ok",
     )
     extracted_units = (unit,)
-    candidate_claims = tuple(_candidate_claim(item) for item in extracted_units)
+    source_claims = _source_claims(extracted_units, resolved_schema)
+    source_claim_groups = _source_claim_groups(source_claims)
+    candidate_claims = _candidate_claims_from_source_claims(source_claims)
     candidate_topics = _candidate_topics(extracted_units, candidate_claims)
     candidate_entities = _candidate_entities(extracted_units, candidate_claims)
-    topic_clusters = _topic_clusters(extracted_units, candidate_claims, candidate_topics)
+    topic_clusters = _topic_clusters(
+        extracted_units, candidate_claims, candidate_topics, source_claim_groups
+    )
     wiki_matches = _wiki_matches(extracted_units, existing_pages, raw_source.source_locator)
     claim_comparisons = _claim_comparisons(candidate_claims, wiki_matches)
     planned_writes = _markdown_planned_writes(
@@ -174,11 +233,15 @@ def build_markdown_page_plan(
         today=today,
         schema=resolved_schema,
         source_plan_contract_selections=source_plan_contract_selections,
+        source_claims=source_claims,
+        source_claim_groups=source_claim_groups,
     )
     return PagePlan(
         plan_id=plan_id,
         source_bundle=source_bundle,
         extracted_units=extracted_units,
+        source_claims=source_claims,
+        source_claim_groups=source_claim_groups,
         candidate_claims=candidate_claims,
         candidate_topics=candidate_topics,
         candidate_entities=candidate_entities,
@@ -216,7 +279,11 @@ def observation_report(plan: PagePlan) -> str:
     )
 
 
-def planned_write_message(write: PlannedPageWrite, units: dict[str, ExtractedUnit]) -> str:
+def planned_write_message(
+    write: PlannedPageWrite,
+    units: dict[str, ExtractedUnit],
+    source_claims: dict[str, SourceClaim] | None = None,
+) -> str:
     unit_blocks = []
     for unit_id in write.extracted_units[:_MAX_SOURCE_UNITS_PER_WRITE]:
         unit = units[unit_id]
@@ -236,6 +303,7 @@ def planned_write_message(write: PlannedPageWrite, units: dict[str, ExtractedUni
     required_links = ", ".join(f"[[{page_id}]]" for page_id in contract.required_link_page_ids)
     required_citations = ", ".join(contract.required_source_citations)
     required_uncertainty = ", ".join(contract.required_uncertainty_terms)
+    source_summary_plan = _source_summary_plan_message(write, source_claims or {})
     update_instruction = (
         "For source pages, write a compact replacement from the supplied evidence. "
         "Do not read or preserve existing source-page content.\n"
@@ -262,15 +330,65 @@ def planned_write_message(write: PlannedPageWrite, units: dict[str, ExtractedUni
         f"Required PageBody links: {required_links or 'none'}\n"
         f"Required source citations: {required_citations or 'none'}\n"
         f"Required uncertainty terms: {required_uncertainty or 'none'}\n\n"
+        f"{source_summary_plan}"
         f"{update_instruction}"
         f"{contract_guidance}"
-        "Call write_page with page_body for the target page. "
+        f"{_planned_write_call_instruction(write)}"
         "The PagePlan supplies PageId, PageKind, PageMetadata, and PagePath.\n\n"
         "Write only claims supported by the supplied ExtractedUnit text. "
         "Preserve uncertainty instead of turning may, possibly, or suggests into certainty. "
         "Write a compact source summary, not a transcript. Prefer concise sections and bullets.\n\n"
         f"WikiMatches:\n{matches or '- none'}\n\n"
         f"{chr(10).join(unit_blocks)}"
+    )
+
+
+def _planned_write_call_instruction(write: PlannedPageWrite) -> str:
+    if write.source_summary_plan is None:
+        return "Call write_page with page_body for the target page. "
+    return (
+        "Call write_page with source_record_text and claim_bullets for the target page. "
+        "Each claim_bullets item must include bullet_text and covered_source_claims. "
+    )
+
+
+def _source_summary_plan_message(
+    write: PlannedPageWrite, source_claims: dict[str, SourceClaim]
+) -> str:
+    plan = write.source_summary_plan
+    if plan is None:
+        return ""
+    claims = []
+    for claim in _source_summary_selected_claims(write, source_claims):
+        roles = ", ".join(claim.claim_role_tags) or "unlabeled"
+        claims.append(
+            f"- {claim.source_claim_id} [{roles}] {claim.statement} "
+            f"({claim.evidence.raw_source.source_locator} {claim.evidence.locator})".strip()
+        )
+    return (
+        f"SourceSummaryPlan: {plan.source_summary_plan_id}\n"
+        f"SelectedSourceClaims: {', '.join(plan.selected_source_claims)}\n"
+        f"RequiredClaimRoleTags: {', '.join(plan.required_claim_role_tags) or 'none'}\n"
+        f"RequiredSourceClaimGroups: {', '.join(plan.required_source_claim_groups) or 'none'}\n"
+        f"RequiredSourceCitations: {', '.join(plan.required_source_citations) or 'none'}\n"
+        "Selected source claim details:\n"
+        f"{chr(10).join(claims) or '- none'}\n\n"
+        "Cover every SelectedSourceClaim in claim_bullets.covered_source_claims. "
+        "Each claim_bullets.bullet_text must include one RequiredSourceCitation. "
+        "Do not print SourceClaim ids in source_record_text or bullet_text.\n\n"
+    )
+
+
+def _source_summary_selected_claims(
+    write: PlannedPageWrite, source_claims: dict[str, SourceClaim]
+) -> tuple[SourceClaim, ...]:
+    plan = write.source_summary_plan
+    if plan is None:
+        return ()
+    return tuple(
+        source_claims[claim_id]
+        for claim_id in plan.selected_source_claims
+        if claim_id in source_claims
     )
 
 
@@ -311,14 +429,201 @@ def _page_body_contract_guidance(write: PlannedPageWrite) -> str:
     )
 
 
-def _candidate_claim(unit: ExtractedUnit) -> CandidateClaim:
-    evidence = Evidence(raw_source=unit.raw_source, locator=unit.locator)
-    statement = _first_statement(unit.text) or f"{unit.heading_path} contains source evidence."
-    return CandidateClaim(
-        claim_id=f"claim-{unit.unit_id}",
-        statement=statement,
-        evidence=evidence,
-        confidence=0.8 if unit.extraction_status == "ok" else 0.4,
+def _source_claims(
+    units: tuple[ExtractedUnit, ...],
+    schema: Schema,
+) -> tuple[SourceClaim, ...]:
+    claims: list[SourceClaim] = []
+    allowed_roles = {role.tag_name for role in schema.claim_role_tags}
+    for unit in units:
+        for idx, sentence in enumerate(_claim_sentences(unit.text), start=1):
+            role_tags = tuple(role for role in _claim_role_tags(sentence) if role in allowed_roles)
+            evidence = Evidence(
+                raw_source=unit.raw_source,
+                locator=f"{unit.locator} s.{idx}".strip(),
+                claim=sentence,
+            )
+            claims.append(
+                SourceClaim(
+                    source_claim_id=f"source-claim-{unit.unit_id}-{idx:04d}",
+                    statement=sentence,
+                    evidence=evidence,
+                    extracted_unit_id=unit.unit_id,
+                    source_span=evidence.locator,
+                    claim_role_tags=role_tags,
+                    claim_salience=_claim_salience(sentence, role_tags),
+                    claim_certainty=_claim_certainty(role_tags),
+                    subject_terms=_top_terms(sentence, 4),
+                )
+            )
+    return tuple(claims)
+
+
+def _claim_sentences(text: str) -> tuple[str, ...]:
+    paragraphs: list[str] = []
+    current_lines: list[str] = []
+    for line in text.splitlines():
+        stripped = line.strip()
+        if not stripped:
+            if current_lines:
+                paragraphs.append(" ".join(current_lines))
+                current_lines = []
+            continue
+        if stripped.startswith("#"):
+            if current_lines:
+                paragraphs.append(" ".join(current_lines))
+                current_lines = []
+            continue
+        current_lines.append(stripped)
+    if current_lines:
+        paragraphs.append(" ".join(current_lines))
+    sentences: list[str] = []
+    for paragraph in paragraphs:
+        for sentence in _SENTENCE_RE.split(paragraph):
+            normalized = " ".join(sentence.split()).strip()
+            if len(_tokens(normalized)) >= 3:
+                sentences.append(normalized)
+    return tuple(sentences)
+
+
+def _claim_role_tags(statement: str) -> tuple[str, ...]:
+    lowered = statement.lower()
+    roles = [
+        role
+        for role, patterns in _ROLE_PATTERNS
+        if any(re.search(pattern, lowered) for pattern in patterns)
+    ]
+    return tuple(dict.fromkeys(roles))
+
+
+def _claim_salience(statement: str, role_tags: tuple[str, ...]) -> float:
+    role_score = max((_ROLE_WEIGHTS.get(role, 0.12) for role in role_tags), default=0.08)
+    length_score = min(len(_tokens(statement)) / 80, 0.18)
+    return round(min(1.0, 0.38 + role_score + length_score), 3)
+
+
+def _claim_certainty(role_tags: tuple[str, ...]) -> str:
+    if "uncertainty" in role_tags:
+        return "uncertain"
+    if "negative-evidence" in role_tags:
+        return "negative-evidence"
+    return "supported"
+
+
+def _candidate_claims_from_source_claims(
+    source_claims: tuple[SourceClaim, ...],
+) -> tuple[CandidateClaim, ...]:
+    return tuple(
+        CandidateClaim(
+            claim_id=f"claim-{claim.source_claim_id}",
+            statement=claim.statement,
+            evidence=claim.evidence,
+            confidence=claim.claim_salience,
+        )
+        for claim in source_claims
+    )
+
+
+def _source_claim_groups(
+    source_claims: tuple[SourceClaim, ...],
+) -> tuple[SourceClaimGroup, ...]:
+    grouped: dict[str, list[SourceClaim]] = {}
+    for claim in source_claims:
+        label = _primary_claim_group_label(claim)
+        grouped.setdefault(label, []).append(claim)
+    result = []
+    for label, claims in grouped.items():
+        roles = tuple(sorted({role for claim in claims for role in claim.claim_role_tags}))
+        extracted_units = tuple(dict.fromkeys(claim.extracted_unit_id for claim in claims))
+        result.append(
+            SourceClaimGroup(
+                source_claim_group_id=f"source-claim-group-{slugify(label)}",
+                label=label,
+                source_claims=tuple(claim.source_claim_id for claim in claims),
+                extracted_units=extracted_units,
+                claim_role_tags=roles,
+                claim_salience=round(max(claim.claim_salience for claim in claims), 3),
+            )
+        )
+    return tuple(sorted(result, key=lambda group: (-group.claim_salience, group.label)))
+
+
+def _primary_claim_group_label(claim: SourceClaim) -> str:
+    for role in (
+        "uncertainty",
+        "negative-evidence",
+        "limitation",
+        "function",
+        "mechanism",
+        "method",
+        "provenance",
+        "identity",
+        "temporal",
+        "requirement",
+        "procedure",
+    ):
+        if role in claim.claim_role_tags:
+            return role
+    return claim.subject_terms[0] if claim.subject_terms else "general"
+
+
+def _source_summary_plan(
+    *,
+    page_id: str,
+    contract: ResolvedPageBodyContract,
+    source_claims: tuple[SourceClaim, ...],
+    source_claim_groups: tuple[SourceClaimGroup, ...],
+) -> SourceSummaryPlan | None:
+    if contract.contract_id != "source-summary" or not source_claims:
+        return None
+    claims_by_id = {claim.source_claim_id: claim for claim in source_claims}
+    selected: list[SourceClaim] = []
+
+    def add_role_claim(*roles: str) -> None:
+        candidates = [
+            claim
+            for claim in source_claims
+            if any(role in claim.claim_role_tags for role in roles) and claim not in selected
+        ]
+        if candidates:
+            selected.append(max(candidates, key=lambda claim: claim.claim_salience))
+
+    add_role_claim("identity", "definition")
+    add_role_claim("function", "mechanism", "procedure", "requirement")
+    add_role_claim("provenance", "temporal", "method", "evidence")
+    add_role_claim("limitation", "negative-evidence", "uncertainty", "open-question")
+    add_role_claim("method", "evidence", "comparison", "quantitative")
+
+    for group in source_claim_groups:
+        if len(selected) >= _MAX_SOURCE_SUMMARY_CLAIMS:
+            break
+        if any(claim.source_claim_id in group.source_claims for claim in selected):
+            continue
+        group_claims = [claims_by_id[claim_id] for claim_id in group.source_claims]
+        selected.append(max(group_claims, key=lambda claim: claim.claim_salience))
+
+    min_claims = min(contract.min_claim_bullets or 3, len(source_claims))
+    for claim in sorted(source_claims, key=lambda item: -item.claim_salience):
+        if len(selected) >= max(min_claims, min(_MAX_SOURCE_SUMMARY_CLAIMS, len(source_claims))):
+            break
+        if claim not in selected:
+            selected.append(claim)
+
+    selected_ids = tuple(claim.source_claim_id for claim in selected[:_MAX_SOURCE_SUMMARY_CLAIMS])
+    selected_roles = tuple(sorted({role for claim in selected for role in claim.claim_role_tags}))
+    selected_groups = tuple(
+        group.source_claim_group_id
+        for group in source_claim_groups
+        if any(claim_id in group.source_claims for claim_id in selected_ids)
+    )
+    return SourceSummaryPlan(
+        source_summary_plan_id=f"source-summary-plan-{page_id}",
+        page_id=page_id,
+        selected_source_claims=selected_ids,
+        required_claim_role_tags=selected_roles,
+        required_source_claim_groups=selected_groups,
+        required_source_citations=contract.required_source_citations,
+        coverage_policy=contract.coverage_policy,
     )
 
 
@@ -362,6 +667,7 @@ def _topic_clusters(
     units: tuple[ExtractedUnit, ...],
     claims: tuple[CandidateClaim, ...],
     topics: tuple[CandidateTopic, ...],
+    source_claim_groups: tuple[SourceClaimGroup, ...],
 ) -> tuple[TopicCluster, ...]:
     clusters = [([unit], _embedding(unit.heading_path + " " + unit.text)) for unit in units]
     while True:
@@ -382,6 +688,11 @@ def _topic_clusters(
         text = " ".join(unit.heading_path + " " + unit.text for unit in cluster_units)
         label = _top_terms(text, 1)[0] if _top_terms(text, 1) else cluster_units[0].heading_path
         unit_ids = tuple(unit.unit_id for unit in cluster_units)
+        related_source_claim_groups = tuple(
+            group.source_claim_group_id
+            for group in source_claim_groups
+            if set(group.extracted_units) & set(unit_ids)
+        )
         result.append(
             TopicCluster(
                 cluster_id=f"cluster-{idx}",
@@ -390,12 +701,17 @@ def _topic_clusters(
                 candidate_claims=tuple(
                     claim.claim_id
                     for claim in claims
-                    if claim.claim_id.removeprefix("claim-") in unit_ids
+                    if any(_claim_id_mentions_unit(claim.claim_id, unit_id) for unit_id in unit_ids)
                 ),
                 candidate_topics=tuple(topic.topic_id for topic in topics if topic.label == label),
+                source_claim_groups=related_source_claim_groups,
             )
         )
     return tuple(result)
+
+
+def _claim_id_mentions_unit(claim_id: str, unit_id: str) -> bool:
+    return f"source-claim-{unit_id}-" in claim_id
 
 
 def _wiki_matches(
@@ -454,6 +770,8 @@ def _planned_writes(
     today: str,
     schema: Schema,
     source_plan_contract_selections: tuple[SourcePlanContractSelection, ...],
+    source_claims: tuple[SourceClaim, ...],
+    source_claim_groups: tuple[SourceClaimGroup, ...],
 ) -> tuple[PlannedPageWrite, ...]:
     writes: list[PlannedPageWrite] = []
     source_stem = slugify(Path(raw_source.source_locator).stem)
@@ -480,6 +798,23 @@ def _planned_writes(
         matches = tuple(
             match for unit in target_units for match in matches_by_unit.get(unit.unit_id, ())
         )
+        contract = _resolved_page_body_contract(
+            schema=schema,
+            selections=source_plan_contract_selections,
+            page_id=page_id,
+            page_kind=metadata.page_kind,
+            required_source_citations=metadata.sources,
+        )
+        target_source_claims = tuple(
+            claim
+            for claim in source_claims
+            if claim.extracted_unit_id in {unit.unit_id for unit in target_units}
+        )
+        target_source_claim_groups = tuple(
+            group
+            for group in source_claim_groups
+            if set(group.extracted_units) & {unit.unit_id for unit in target_units}
+        )
         writes.append(
             PlannedPageWrite(
                 write_id=f"write-{page_id}",
@@ -495,12 +830,12 @@ def _planned_writes(
                 ),
                 projection=ProjectionMetadata(page_metadata=metadata, page_path=path),
                 existing_page_id=page_id if page_id in existing_pages else "",
-                resolved_page_body_contract=_resolved_page_body_contract(
-                    schema=schema,
-                    selections=source_plan_contract_selections,
+                resolved_page_body_contract=contract,
+                source_summary_plan=_source_summary_plan(
                     page_id=page_id,
-                    page_kind=metadata.page_kind,
-                    required_source_citations=metadata.sources,
+                    contract=contract,
+                    source_claims=target_source_claims,
+                    source_claim_groups=target_source_claim_groups,
                 ),
             )
         )
@@ -513,6 +848,13 @@ def _planned_writes(
         domain=source_stem,
         category_path="sources",
         source_id=raw_source.source_locator,
+    )
+    hub_contract = _resolved_page_body_contract(
+        schema=schema,
+        selections=source_plan_contract_selections,
+        page_id=source_stem,
+        page_kind=hub_metadata.page_kind,
+        required_source_citations=hub_metadata.sources,
     )
     writes.append(
         PlannedPageWrite(
@@ -527,12 +869,12 @@ def _planned_writes(
                 page_path=str(wiki_structure.render_path(hub_metadata)),
             ),
             existing_page_id=source_stem if source_stem in existing_pages else "",
-            resolved_page_body_contract=_resolved_page_body_contract(
-                schema=schema,
-                selections=source_plan_contract_selections,
+            resolved_page_body_contract=hub_contract,
+            source_summary_plan=_source_summary_plan(
                 page_id=source_stem,
-                page_kind=hub_metadata.page_kind,
-                required_source_citations=hub_metadata.sources,
+                contract=hub_contract,
+                source_claims=source_claims,
+                source_claim_groups=source_claim_groups,
             ),
         )
     )
@@ -551,6 +893,8 @@ def _markdown_planned_writes(
     today: str,
     schema: Schema,
     source_plan_contract_selections: tuple[SourcePlanContractSelection, ...],
+    source_claims: tuple[SourceClaim, ...],
+    source_claim_groups: tuple[SourceClaimGroup, ...],
 ) -> tuple[PlannedPageWrite, ...]:
     subject_page_id = slugify(Path(raw_source.source_locator).stem)
     source_page_id = _markdown_source_page_id(subject_page_id, existing_pages)
@@ -577,6 +921,24 @@ def _markdown_planned_writes(
         category_path="entities",
         source_id=raw_source.source_locator,
     )
+    source_contract = _resolved_page_body_contract(
+        schema=schema,
+        selections=source_plan_contract_selections,
+        page_id=source_page_id,
+        page_kind=source_metadata.page_kind,
+        required_link_page_ids=(subject_page_id,),
+        required_source_citations=(source_citation,),
+        required_uncertainty_terms=uncertainty_terms,
+    )
+    subject_contract = _resolved_page_body_contract(
+        schema=schema,
+        selections=source_plan_contract_selections,
+        page_id=subject_page_id,
+        page_kind=subject_metadata.page_kind,
+        required_link_page_ids=(source_page_id,),
+        required_source_citations=(source_citation,),
+        required_uncertainty_terms=uncertainty_terms,
+    )
     return (
         PlannedPageWrite(
             write_id=f"write-{source_page_id}",
@@ -590,14 +952,12 @@ def _markdown_planned_writes(
                 page_path=str(wiki_structure.render_path(source_metadata)),
             ),
             existing_page_id=source_page_id if source_page_id in existing_pages else "",
-            resolved_page_body_contract=_resolved_page_body_contract(
-                schema=schema,
-                selections=source_plan_contract_selections,
+            resolved_page_body_contract=source_contract,
+            source_summary_plan=_source_summary_plan(
                 page_id=source_page_id,
-                page_kind=source_metadata.page_kind,
-                required_link_page_ids=(subject_page_id,),
-                required_source_citations=(source_citation,),
-                required_uncertainty_terms=uncertainty_terms,
+                contract=source_contract,
+                source_claims=source_claims,
+                source_claim_groups=source_claim_groups,
             ),
         ),
         PlannedPageWrite(
@@ -612,15 +972,7 @@ def _markdown_planned_writes(
                 page_path=str(wiki_structure.render_path(subject_metadata)),
             ),
             existing_page_id=subject_page_id if subject_page_id in existing_pages else "",
-            resolved_page_body_contract=_resolved_page_body_contract(
-                schema=schema,
-                selections=source_plan_contract_selections,
-                page_id=subject_page_id,
-                page_kind=subject_metadata.page_kind,
-                required_link_page_ids=(source_page_id,),
-                required_source_citations=(source_citation,),
-                required_uncertainty_terms=uncertainty_terms,
-            ),
+            resolved_page_body_contract=subject_contract,
         ),
     )
 

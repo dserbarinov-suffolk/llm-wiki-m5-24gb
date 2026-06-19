@@ -67,23 +67,43 @@ def _pdf_citation(page_id: str) -> str:
     return "raw/book.pdf"
 
 
-def _pdf_source_summary_body(page_id: str, extra: str = "") -> str:
+def _pdf_claim_ids(page_id: str) -> tuple[str, ...]:
+    if "functions" in page_id:
+        return ("source-claim-unit-0001-0001",)
+    if "closures" in page_id:
+        return ("source-claim-unit-0002-0001",)
+    return ("source-claim-unit-0001-0001", "source-claim-unit-0002-0001")
+
+
+def _pdf_source_summary_args(page_id: str, extra: str = "") -> dict:
     citation = _pdf_citation(page_id)
     extra_sentence = f" {extra}" if extra else ""
-    return (
-        "## Source record\n\n"
-        f"Source record for {page_id} using ({citation}).{extra_sentence}\n\n"
-        "## Key supported claims\n\n"
-        f"- This planned page records cited source evidence. ({citation})\n"
-        f"- This page keeps the PDF evidence compact. ({citation})\n"
-        f"- This page leaves detailed interpretation to related pages. ({citation})"
-    )
+    claim_ids = list(_pdf_claim_ids(page_id))
+    return {
+        "source_record_text": f"Source record for {page_id} using ({citation}).{extra_sentence}",
+        "claim_bullets": [
+            {
+                "bullet_text": f"This planned page records cited source evidence. ({citation})",
+                "covered_source_claims": claim_ids,
+            },
+            {
+                "bullet_text": f"This page keeps the PDF evidence compact. ({citation})",
+                "covered_source_claims": claim_ids,
+            },
+            {
+                "bullet_text": (
+                    f"This page leaves detailed interpretation to related pages. ({citation})"
+                ),
+                "covered_source_claims": claim_ids,
+            },
+        ],
+    }
 
 
-def _write_page_call(page_id: str, page_body: str = "") -> ToolCall:
+def _write_page_call(page_id: str, source_summary_args: dict | None = None) -> ToolCall:
     return ToolCall(
         tool="write_page",
-        args={"page_body": page_body or _pdf_source_summary_body(page_id)},
+        args=source_summary_args or _pdf_source_summary_args(page_id),
     )
 
 
@@ -92,14 +112,14 @@ def _planned_turns(
     report: str,
     *,
     read_first: bool = False,
-    page_body: str = "",
+    source_summary_args: dict | None = None,
 ) -> list[LLMResponse]:
     turns: list[LLMResponse] = []
     if read_first:
         turns.append([ToolCall(tool="read_page", args={"page_id": page_id})])
     turns.extend(
         [
-            [_write_page_call(page_id, page_body)],
+            [_write_page_call(page_id, source_summary_args)],
             [ToolCall(tool="finish_planned_write", args={"report": report})],
         ]
     )
@@ -248,14 +268,14 @@ class TestPlannedPdfIngest:
             _planned_turns(
                 "book-functions",
                 "functions written",
-                page_body=_pdf_source_summary_body(
+                source_summary_args=_pdf_source_summary_args(
                     "book-functions", "Functions build on [[iterable]]."
                 ),
             )
             + _planned_turns(
                 "book-closures",
                 "closures written",
-                page_body=_pdf_source_summary_body(
+                source_summary_args=_pdf_source_summary_args(
                     "book-closures", "Closures build on [[iterable]]."
                 ),
             )
@@ -263,7 +283,7 @@ class TestPlannedPdfIngest:
                 [
                     _write_page_call(
                         "book",
-                        _pdf_source_summary_body(
+                        _pdf_source_summary_args(
                             "book",
                             "Hub prose with [[iterable]].\n\n**Key entities**: [[stale-person]].",
                         ),

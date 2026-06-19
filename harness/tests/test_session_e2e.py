@@ -44,21 +44,41 @@ def _wiki_page(
     )
 
 
-def _source_summary_body(
+def _source_summary_args(
     target_page_id: str,
     citation: str,
     *,
     uncertainty: str = "",
-) -> str:
+    claim_ids: tuple[str, ...] = ("source-claim-unit-0001-0001",),
+) -> dict:
     uncertainty_sentence = f" {uncertainty}" if uncertainty else ""
-    return (
-        "## Source record\n\n"
-        f"Source record for [[{target_page_id}]] using ({citation}).{uncertainty_sentence}\n\n"
-        "## Key supported claims\n\n"
-        f"- The source supports a focused note about [[{target_page_id}]]. ({citation})\n"
-        f"- The source should be used as cited evidence, not copied wholesale. ({citation})\n"
-        f"- The source leaves detailed interpretation to the target page. ({citation})"
-    )
+    covered = list(claim_ids)
+    return {
+        "source_record_text": (
+            f"Source record for [[{target_page_id}]] using ({citation}).{uncertainty_sentence}"
+        ),
+        "claim_bullets": [
+            {
+                "bullet_text": (
+                    f"The source supports a focused note about [[{target_page_id}]]. ({citation})"
+                ),
+                "covered_source_claims": covered,
+            },
+            {
+                "bullet_text": (
+                    f"The source should be used as cited evidence, not copied wholesale. "
+                    f"({citation})"
+                ),
+                "covered_source_claims": covered,
+            },
+            {
+                "bullet_text": (
+                    f"The source leaves detailed interpretation to the target page. ({citation})"
+                ),
+                "covered_source_claims": covered,
+            },
+        ],
+    }
 
 
 def _entity_body(source_page_id: str, citation: str, claim: str) -> str:
@@ -81,9 +101,7 @@ class TestIngest:
             [
                 ToolCall(
                     tool="write_page",
-                    args={
-                        "page_body": _source_summary_body("moon", "raw/moon.md"),
-                    },
+                    args=_source_summary_args("moon", "raw/moon.md"),
                 )
             ],
             [ToolCall(tool="finish_planned_write", args={"report": "source written"})],
@@ -126,7 +144,7 @@ class TestIngest:
             [
                 ToolCall(
                     tool="write_page",
-                    args={"page_body": _source_summary_body("moon", "raw/moon.md")},
+                    args=_source_summary_args("moon", "raw/moon.md"),
                 )
             ],
             [ToolCall(tool="finish_planned_write", args={"report": "also wrote [[ghost]]"})],
@@ -162,7 +180,7 @@ class TestIngest:
             [
                 ToolCall(
                     tool="write_page",
-                    args={"page_body": _source_summary_body("moon", "raw/moon.md")},
+                    args=_source_summary_args("moon", "raw/moon.md"),
                 )
             ],
             [ToolCall(tool="finish_planned_write", args={"report": "source written"})],
@@ -195,15 +213,11 @@ class TestIngest:
             [
                 ToolCall(
                     tool="write_page",
-                    args={
-                        "page_body": (
-                            _source_summary_body(
-                                "origin",
-                                "raw/origin.md",
-                                uncertainty="The source may place the origin near Corinth.",
-                            )
-                        ),
-                    },
+                    args=_source_summary_args(
+                        "origin",
+                        "raw/origin.md",
+                        uncertainty="The source may place the origin near Corinth.",
+                    ),
                 )
             ],
             [ToolCall(tool="finish_planned_write", args={"report": "source written"})],
@@ -251,7 +265,7 @@ class TestIngest:
             [
                 ToolCall(
                     tool="write_page",
-                    args={"page_body": _source_summary_body("moon", "raw/moon.md")},
+                    args=_source_summary_args("moon", "raw/moon.md"),
                 )
             ],
             [ToolCall(tool="finish_planned_write", args={"report": "source written"})],
@@ -292,13 +306,24 @@ class TestIngest:
                 ToolCall(
                     tool="write_page",
                     args={
-                        "page_body": "## Source record\n\n"
-                        "Real claim for [[moon]]. (raw/moon.md)\n\n"
-                        "[figure text (OCR, unverified): NOISE ON A MUG]\n\n"
-                        "## Key supported claims\n\n"
-                        "- First compact claim. (raw/moon.md)\n"
-                        "- Another claim. (raw/moon.md)\n"
-                        "- Third compact claim. (raw/moon.md)",
+                        "source_record_text": (
+                            "Real claim for [[moon]]. (raw/moon.md)\n"
+                            "[figure text (OCR, unverified): NOISE ON A MUG]"
+                        ),
+                        "claim_bullets": [
+                            {
+                                "bullet_text": "First compact claim. (raw/moon.md)",
+                                "covered_source_claims": ["source-claim-unit-0001-0001"],
+                            },
+                            {
+                                "bullet_text": "Another claim. (raw/moon.md)",
+                                "covered_source_claims": ["source-claim-unit-0001-0001"],
+                            },
+                            {
+                                "bullet_text": "Third compact claim. (raw/moon.md)",
+                                "covered_source_claims": ["source-claim-unit-0001-0001"],
+                            },
+                        ],
                     },
                 )
             ],
@@ -332,7 +357,7 @@ class TestIngest:
             [
                 ToolCall(
                     tool="write_page",
-                    args={"page_body": _source_summary_body("moon", "raw/moon.md")},
+                    args=_source_summary_args("moon", "raw/moon.md"),
                 )
             ],
             TextResponse(content="I have finished ingesting the source."),

@@ -165,6 +165,7 @@ class Session:
             schema=self._schema_object(),
         )
         units = {unit.unit_id: unit for unit in page_plan.extracted_units}
+        source_claims = {claim.source_claim_id: claim for claim in page_plan.source_claims}
         actual_pages: list[str] = []
         last_transcript: Path | None = None
         for planned_write in page_plan.planned_writes:
@@ -176,7 +177,7 @@ class Session:
                     planned_write,
                     write_log=write_log,
                 ),
-                planned_write_message(planned_write, units),
+                planned_write_message(planned_write, units, source_claims),
                 "planned-write",
                 tag=f"markdown-plan-{planned_write.write_id}",
             )
@@ -222,6 +223,7 @@ class Session:
         self._write_page_plan(result.cache_dir, page_plan)
 
         units = {unit.unit_id: unit for unit in extracted_units}
+        source_claims = {claim.source_claim_id: claim for claim in page_plan.source_claims}
         actual_pages_by_unit: dict[str, list[str]] = {}
         reports: list[str] = []
         last_transcript: Path | None = None
@@ -235,7 +237,7 @@ class Session:
                     planned_write,
                     write_log=write_log,
                 ),
-                planned_write_message(planned_write, units),
+                planned_write_message(planned_write, units, source_claims),
                 "planned-write",
                 tag=f"pdf-plan-{planned_write.write_id}",
             )

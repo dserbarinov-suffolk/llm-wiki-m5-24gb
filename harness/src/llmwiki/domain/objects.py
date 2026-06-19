@@ -94,6 +94,37 @@ class SourcePlanContractSelection:
     max_copied_ngram_ratio_override: float = 0.0
 
 
+@dataclass(frozen=True)
+class ClaimRoleTag:
+    tag_name: str
+
+
+def default_claim_role_tags() -> tuple[ClaimRoleTag, ...]:
+    return tuple(
+        ClaimRoleTag(tag_name)
+        for tag_name in (
+            "identity",
+            "definition",
+            "attribute",
+            "function",
+            "mechanism",
+            "method",
+            "evidence",
+            "provenance",
+            "temporal",
+            "quantitative",
+            "relationship",
+            "comparison",
+            "requirement",
+            "procedure",
+            "limitation",
+            "uncertainty",
+            "negative-evidence",
+            "open-question",
+        )
+    )
+
+
 def default_page_body_contracts() -> tuple[PageBodyContract, ...]:
     return (
         PageBodyContract(
@@ -167,6 +198,7 @@ class Schema:
     page_body_contract_by_page_kind: tuple[tuple[str, str], ...] = field(
         default_factory=default_page_body_contract_by_page_kind
     )
+    claim_role_tags: tuple[ClaimRoleTag, ...] = field(default_factory=default_claim_role_tags)
     page_contracts: str = ""
 
 
@@ -231,6 +263,52 @@ class CandidateClaim:
 
 
 @dataclass(frozen=True)
+class SourceClaim:
+    source_claim_id: str
+    statement: str
+    evidence: Evidence
+    extracted_unit_id: str
+    source_span: str
+    claim_role_tags: tuple[str, ...] = ()
+    claim_salience: float = 0.0
+    claim_certainty: str = "supported"
+    subject_terms: tuple[str, ...] = ()
+
+
+@dataclass(frozen=True)
+class SourceClaimGroup:
+    source_claim_group_id: str
+    label: str
+    source_claims: tuple[str, ...]
+    extracted_units: tuple[str, ...] = ()
+    claim_role_tags: tuple[str, ...] = ()
+    claim_salience: float = 0.0
+
+
+@dataclass(frozen=True)
+class SourceSummaryPlan:
+    source_summary_plan_id: str
+    page_id: str
+    selected_source_claims: tuple[str, ...]
+    required_claim_role_tags: tuple[str, ...] = ()
+    required_source_claim_groups: tuple[str, ...] = ()
+    required_source_citations: tuple[str, ...] = ()
+    coverage_policy: str = ""
+
+
+@dataclass(frozen=True)
+class SourceSummaryBullet:
+    bullet_text: str
+    covered_source_claims: tuple[str, ...]
+
+
+@dataclass(frozen=True)
+class SourceSummaryDraft:
+    source_record_text: str
+    claim_bullets: tuple[SourceSummaryBullet, ...]
+
+
+@dataclass(frozen=True)
 class CandidateTopic:
     topic_id: str
     label: str
@@ -252,6 +330,7 @@ class TopicCluster:
     candidate_claims: tuple[str, ...] = ()
     candidate_topics: tuple[str, ...] = ()
     candidate_entities: tuple[str, ...] = ()
+    source_claim_groups: tuple[str, ...] = ()
 
 
 @dataclass(frozen=True)
@@ -290,6 +369,7 @@ class PlannedPageWrite:
     resolved_page_body_contract: ResolvedPageBodyContract = field(
         default_factory=default_resolved_page_body_contract
     )
+    source_summary_plan: SourceSummaryPlan | None = None
 
 
 @dataclass(frozen=True)
@@ -297,6 +377,8 @@ class PagePlan:
     plan_id: str
     source_bundle: SourceBundle
     extracted_units: tuple[ExtractedUnit, ...]
+    source_claims: tuple[SourceClaim, ...]
+    source_claim_groups: tuple[SourceClaimGroup, ...]
     candidate_claims: tuple[CandidateClaim, ...]
     candidate_topics: tuple[CandidateTopic, ...]
     candidate_entities: tuple[CandidateEntity, ...]

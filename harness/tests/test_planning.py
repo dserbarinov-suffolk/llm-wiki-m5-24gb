@@ -76,6 +76,17 @@ def test_markdown_page_plan_uses_raw_source_stem_for_page_identity() -> None:
     assert plan.planned_writes[1].resolved_page_body_contract.required_link_page_ids == (
         "antikythera-mechanism-source",
     )
+    assert plan.source_claims
+    assert plan.source_claim_groups
+    assert plan.topic_clusters[0].source_claim_groups
+    assert plan.topic_clusters[0].candidate_claims
+    source_summary_plan = plan.planned_writes[0].source_summary_plan
+    assert source_summary_plan is not None
+    assert source_summary_plan.selected_source_claims
+    assert source_summary_plan.required_source_citations == ("raw/antikythera-mechanism.md",)
+    assert set(source_summary_plan.selected_source_claims) <= {
+        claim.source_claim_id for claim in plan.source_claims
+    }
 
 
 def test_markdown_page_plan_uses_schema_page_body_contract_mapping() -> None:
@@ -114,3 +125,23 @@ def test_markdown_page_plan_uses_schema_page_body_contract_mapping() -> None:
         "Applications",
         "Limitations",
     )
+
+
+def test_markdown_page_plan_extracts_source_claims_from_hard_wrapped_paragraphs() -> None:
+    raw_source = RawSource.from_locator("wrapped.md")
+    plan = build_markdown_page_plan(
+        plan_id="test-plan",
+        source_bundle=SourceBundle.one(raw_source),
+        raw_source=raw_source,
+        source_text=(
+            "# Wrapped Source\n\n"
+            "The device is a compact mechanism, often\n"
+            "described as a useful benchmark. It may require verification."
+        ),
+        existing_pages={},
+        wiki_structure=LOCAL_FLAT_STRUCTURE,
+        today="2026-06-19",
+    )
+
+    statements = [claim.statement for claim in plan.source_claims]
+    assert "The device is a compact mechanism, often described as a useful benchmark." in statements

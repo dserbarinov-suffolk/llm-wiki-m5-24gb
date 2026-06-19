@@ -13,11 +13,16 @@ from llmwiki.domain.objects import (
     SourceBundle,
     SourcePlan,
     SourcePlanContractSelection,
+    SourceSummaryBullet,
+    SourceSummaryDraft,
+    SourceSummaryPlan,
 )
 from llmwiki.domain.page_body_contracts import (
     contract_for_page_kind,
+    render_source_summary_draft,
     resolve_page_body_contract,
     validate_page_body,
+    validate_source_summary_draft,
 )
 from llmwiki.domain.pages import (
     LOCAL_FLAT_STRUCTURE,
@@ -163,6 +168,8 @@ class TestPageBodyContracts:
         schema = Schema()
         contracts = {contract.contract_id for contract in schema.page_body_contracts}
         assert {"source-summary", "entity-page", "concept-page", "synthesis-page"} <= contracts
+        claim_roles = {role.tag_name for role in schema.claim_role_tags}
+        assert {"identity", "uncertainty", "negative-evidence"} <= claim_roles
         source_contract = contract_for_page_kind(schema, "source")
         assert source_contract.contract_id == "source-summary"
         assert source_contract.min_claim_bullets == 3
@@ -239,6 +246,99 @@ class TestPageBodyContracts:
         )
 
         assert validate_page_body(page_body, contract, source_text=source_text) == ()
+
+    def test_source_summary_draft_must_cover_selected_source_claims(self) -> None:
+        plan = SourceSummaryPlan(
+            source_summary_plan_id="source-summary-plan-alpha",
+            page_id="alpha-source",
+            selected_source_claims=("source-claim-unit-0001-0001", "source-claim-unit-0001-0002"),
+        )
+        draft = SourceSummaryDraft(
+            source_record_text="Source record for [[alpha]]. (raw/alpha.md)",
+            claim_bullets=(
+                SourceSummaryBullet(
+                    "The source supports a first compact claim. (raw/alpha.md)",
+                    ("source-claim-unit-0001-0001",),
+                ),
+            ),
+        )
+
+        findings = validate_source_summary_draft(draft, plan)
+
+        assert [finding.finding_type for finding in findings] == ["SelectedSourceClaims"]
+
+    def test_source_summary_draft_rejects_copied_source_phrase(self) -> None:
+        source_text = (
+            "The ancient device contains a complex gear train that predicts eclipse cycles "
+            "with a dial display."
+        )
+        plan = SourceSummaryPlan(
+            source_summary_plan_id="source-summary-plan-alpha",
+            page_id="alpha-source",
+            selected_source_claims=("source-claim-unit-0001-0001",),
+        )
+        draft = SourceSummaryDraft(
+            source_record_text="Source record for [[alpha]]. (raw/alpha.md)",
+            claim_bullets=(
+                SourceSummaryBullet(
+                    "The ancient device contains a complex gear train that predicts "
+                    "eclipse cycles. (raw/alpha.md)",
+                    ("source-claim-unit-0001-0001",),
+                ),
+            ),
+        )
+
+        findings = validate_source_summary_draft(draft, plan, source_text=source_text)
+
+        assert [finding.finding_type for finding in findings] == ["CopiedSourcePhrase"]
+
+    def test_source_summary_draft_requires_bullet_citations(self) -> None:
+        plan = SourceSummaryPlan(
+            source_summary_plan_id="source-summary-plan-alpha",
+            page_id="alpha-source",
+            selected_source_claims=("source-claim-unit-0001-0001",),
+            required_source_citations=("raw/alpha.md",),
+        )
+        draft = SourceSummaryDraft(
+            source_record_text="Source record for [[alpha]]. (raw/alpha.md)",
+            claim_bullets=(
+                SourceSummaryBullet(
+                    "The source supports a compact claim.",
+                    ("source-claim-unit-0001-0001",),
+                ),
+            ),
+        )
+
+        findings = validate_source_summary_draft(draft, plan)
+
+        assert [finding.finding_type for finding in findings] == ["SourceSummaryBulletCitation"]
+
+    def test_source_summary_draft_does_not_render_source_claim_ids(self) -> None:
+        plan = SourceSummaryPlan(
+            source_summary_plan_id="source-summary-plan-alpha",
+            page_id="alpha-source",
+            selected_source_claims=("source-claim-unit-0001-0001",),
+        )
+        draft = SourceSummaryDraft(
+            source_record_text="Source record for [[alpha]]. (raw/alpha.md)",
+            claim_bullets=(
+                SourceSummaryBullet(
+                    "The source supports a compact claim. (raw/alpha.md)",
+                    ("source-claim-unit-0001-0001",),
+                ),
+            ),
+        )
+
+        assert validate_source_summary_draft(draft, plan) == ()
+        rendered = render_source_summary_draft(draft)
+        assert "source-claim-unit" not in rendered
+
+        leaked = SourceSummaryDraft(
+            source_record_text="Source record source-claim-unit-0001-0001 for [[alpha]].",
+            claim_bullets=draft.claim_bullets,
+        )
+        findings = validate_source_summary_draft(leaked, plan)
+        assert [finding.finding_type for finding in findings] == ["SourceClaimIdLeak"]
 
     def test_user_defined_contract_controls_page_shape(self) -> None:
         contract = PageBodyContract(

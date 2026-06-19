@@ -13,8 +13,13 @@ from dataclasses import replace
 from forge.core.workflow import ToolDef, ToolSpec
 from pydantic import BaseModel, Field
 
-from llmwiki.domain.objects import PlannedPageWrite
-from llmwiki.domain.page_body_contracts import render_page_body_findings, validate_page_body
+from llmwiki.domain.objects import PlannedPageWrite, SourceSummaryBullet, SourceSummaryDraft
+from llmwiki.domain.page_body_contracts import (
+    render_page_body_findings,
+    render_source_summary_draft,
+    validate_page_body,
+    validate_source_summary_draft,
+)
 from llmwiki.domain.pages import PageMetadata, WikiPage
 from llmwiki.domain.search import render_hits, search_pages
 from llmwiki.pdf.intermediate import OCR_MARKER
@@ -94,6 +99,24 @@ class PlannedWritePageParams(BaseModel):
     page_body: str = Field(
         description="Full PageBody markdown for the planned target page. "
         "Link related pages inline with [[page_id]]. Do not include frontmatter."
+    )
+
+
+class SourceSummaryBulletParams(BaseModel):
+    bullet_text: str = Field(
+        description="One concise source-summary claim bullet without a leading dash."
+    )
+    covered_source_claims: list[str] = Field(
+        description="SourceClaim ids from SourceSummaryPlan covered by this bullet."
+    )
+
+
+class PlannedWriteSourceSummaryParams(BaseModel):
+    source_record_text: str = Field(
+        description="One source-record sentence with required wikilink and citation."
+    )
+    claim_bullets: list[SourceSummaryBulletParams] = Field(
+        description="Three to five source-summary bullets with SourceClaim coverage ids."
     )
 
 
@@ -239,9 +262,8 @@ def planned_write_page_tool(
 
     target_page = planned_write.page_metadata.page_id
 
-    def _write_page(**kwargs: object) -> str:
-        params = PlannedWritePageParams(**kwargs)  # type: ignore[arg-type]
-        page_body = _strip_pipeline_markers(params.page_body)
+    def _write_page_body(page_body: str) -> str:
+        page_body = _strip_pipeline_markers(page_body)
         _validate_planned_page_body(store, planned_write, page_body)
         if (
             read_tracker is not None
@@ -260,14 +282,45 @@ def planned_write_page_tool(
             write_log.append(target_page)
         return f"Wrote wiki/{store.rendered_page_path(page)} and updated its index entry."
 
+    def _write_page(**kwargs: object) -> str:
+        params = PlannedWritePageParams(**kwargs)  # type: ignore[arg-type]
+        return _write_page_body(params.page_body)
+
+    def _write_source_summary(**kwargs: object) -> str:
+        if planned_write.source_summary_plan is None:
+            raise WikiStoreError("PlannedPageWrite has no SourceSummaryPlan.")
+        params = PlannedWriteSourceSummaryParams(**kwargs)  # type: ignore[arg-type]
+        draft = SourceSummaryDraft(
+            source_record_text=params.source_record_text,
+            claim_bullets=tuple(
+                SourceSummaryBullet(
+                    bullet_text=item.bullet_text,
+                    covered_source_claims=tuple(item.covered_source_claims),
+                )
+                for item in params.claim_bullets
+            ),
+        )
+        source_text = _page_body_contract_source_text(store, planned_write)
+        findings = validate_source_summary_draft(
+            draft, planned_write.source_summary_plan, source_text=source_text
+        )
+        if findings:
+            raise WikiStoreError(
+                render_page_body_findings(findings, planned_write.resolved_page_body_contract)
+            )
+        return _write_page_body(render_source_summary_draft(draft))
+
+    is_source_summary = planned_write.source_summary_plan is not None
     return ToolDef(
         spec=ToolSpec(
             name="write_page",
             description=f"Write the planned target page [[{target_page}]]. "
             "The PagePlan supplies PageId, PageKind, PageMetadata, and PagePath.",
-            parameters=PlannedWritePageParams,
+            parameters=PlannedWriteSourceSummaryParams
+            if is_source_summary
+            else PlannedWritePageParams,
         ),
-        callable=_write_page,
+        callable=_write_source_summary if is_source_summary else _write_page,
     )
 
 
