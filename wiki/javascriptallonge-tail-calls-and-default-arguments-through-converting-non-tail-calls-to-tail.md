@@ -3,7 +3,7 @@ page_id: javascriptallonge-tail-calls-and-default-arguments-through-converting-n
 page_kind: source
 summary: Tail Calls (and Default Arguments) through converting non-tail-calls to tail-calls from raw/javascriptallonge.pdf.
 sources: raw/javascriptallonge.pdf p.117-118, raw/javascriptallonge.pdf p.119-119, raw/javascriptallonge.pdf p.120-121
-updated: 2026-06-19
+updated: 2026-06-20
 domain: javascriptallonge
 category_path: source-sections
 source_id: javascriptallonge.pdf
@@ -15,6 +15,7 @@ Source record for [[javascriptallonge-tail-calls-and-default-arguments-through-c
 
 ## Key supported claims
 
-- The source discusses converting non-tail-calls to tail-calls, a technique used in tail-call optimization to improve recursion efficiency. (raw/javascriptallonge.pdf)
-- The source highlights that the length function can be transformed to make a tail call, which is a common pattern in languages supporting tail-call optimization. (raw/javascriptallonge.pdf)
-- The source notes that using such recursive methods with large arrays may cause performance issues or errors in some implementations. (raw/javascriptallonge.pdf)
+- Tail calls occur when a function's last act is to invoke another function and return its result, enabling stack frame optimization. (raw/javascriptallonge.pdf)
+- Non-tail calls, like in the length function, incur memory overhead due to the need to retain intermediate values. (raw/javascriptallonge.pdf)
+- By converting non-tail calls to tail calls, memory and performance overhead can be avoided when working with large arrays. (raw/javascriptallonge.pdf)
+- Recursive functions like mapWith can consume memory proportional to the array size due to the need to retain intermediate results. (raw/javascriptallonge.pdf)

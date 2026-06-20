@@ -3,7 +3,7 @@ page_id: javascriptallonge-implementing-methods-with-iteration
 page_kind: source
 summary: implementing methods with iteration from raw/javascriptallonge.pdf.
 sources: raw/javascriptallonge.pdf p.246-253
-updated: 2026-06-19
+updated: 2026-06-20
 domain: javascriptallonge
 category_path: source-sections
 source_id: javascriptallonge.pdf
@@ -15,6 +15,8 @@ Source record for [[javascriptallonge-implementing-methods-with-iteration]]. (ra
 
 ## Key supported claims
 
-- Object-oriented collections should delegate mapping tasks to operations like mapWith to achieve results efficiently. (raw/javascriptallonge.pdf p.246-253)
-- LazyCollection is a mixin that can be used with any ordered collection that is also an iterable. (raw/javascriptallonge.pdf p.246-253)
-- The source does not fully confirm the implementation details of the methods, such as the exact behavior of the mapIterable method. (raw/javascriptallonge.pdf p.246-253)
+- Object-oriented collections should have methods for mapping, reducing, filtering, and finding. (raw/javascriptallonge.pdf p.246-253)
+- A mapIterable method separates the responsibility of mapping from implementation details of different data structures. (raw/javascriptallonge.pdf p.246-253)
+- Convenience methods can reuse common pieces of code for iteration. (raw/javascriptallonge.pdf p.246-253)
+- The reduce method applies a function to accumulated values from an iterable. (raw/javascriptallonge.pdf p.246-253)
+- LazyCollection provides methods like first(), rest(), and take() for iteration. (raw/javascriptallonge.pdf p.246-253)

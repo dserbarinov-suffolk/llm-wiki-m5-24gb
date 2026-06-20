@@ -3,7 +3,7 @@ page_id: javascriptallonge-lazy-collection-operations-through-interlude-the-carp
 page_kind: source
 summary: lazy collection operations through Interlude: The Carpenter Interviews for a Job from raw/javascriptallonge.pdf.
 sources: raw/javascriptallonge.pdf p.253-256, raw/javascriptallonge.pdf p.256-260, raw/javascriptallonge.pdf p.261-261
-updated: 2026-06-19
+updated: 2026-06-20
 domain: javascriptallonge
 category_path: source-sections
 source_id: javascriptallonge.pdf
@@ -15,8 +15,6 @@ Source record for [[javascriptallonge-lazy-collection-operations-through-interlu
 
 ## Key supported claims
 
-- Laziness in algorithms refers to postponing work until the result is needed, enhancing efficiency. (raw/javascriptallonge.pdf)
-- Eager collections, like arrays, execute operations immediately and return results of their own type. (raw/javascriptallonge.pdf)
-- The Carpenter, a meticulous JavaScript programmer, occasionally accepted job offers through recruiters. (raw/javascriptallonge.pdf)
-- Lazy collection operations can optimize processing by only performing necessary computations. (raw/javascriptallonge.pdf)
-- The Carpenter arrived early for his interview at 'Thing Software' and was shown to conference room 13. (raw/javascriptallonge.pdf)
+- Lazy collection operations delay computation until needed, improving algorithm efficiency by avoiding unnecessary work. (raw/javascriptallonge.pdf)
+- Eager collections, like arrays, return their own type from methods and require gathering through a .from method. (raw/javascriptallonge.pdf)
+- Lazy operations produce temporary iterables that reference the original data, but may not always optimize for all scenarios. (raw/javascriptallonge.pdf)

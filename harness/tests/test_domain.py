@@ -313,6 +313,27 @@ class TestPageBodyContracts:
 
         assert [finding.finding_type for finding in findings] == ["SourceSummaryBulletCitation"]
 
+    def test_source_summary_draft_rejects_source_framing_bullets(self) -> None:
+        plan = SourceSummaryPlan(
+            source_summary_plan_id="source-summary-plan-alpha",
+            page_id="alpha-source",
+            selected_source_claims=("source-claim-unit-0001-0001",),
+            required_source_citations=("raw/alpha.md",),
+        )
+        draft = SourceSummaryDraft(
+            source_record_text="Source record for [[alpha]]. (raw/alpha.md)",
+            claim_bullets=(
+                SourceSummaryBullet(
+                    "The source discusses a compact claim. (raw/alpha.md)",
+                    ("source-claim-unit-0001-0001",),
+                ),
+            ),
+        )
+
+        findings = validate_source_summary_draft(draft, plan)
+
+        assert [finding.finding_type for finding in findings] == ["SourceFramingBullet"]
+
     def test_source_summary_draft_does_not_render_source_claim_ids(self) -> None:
         plan = SourceSummaryPlan(
             source_summary_plan_id="source-summary-plan-alpha",

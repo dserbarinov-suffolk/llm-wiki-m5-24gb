@@ -75,26 +75,31 @@ def _pdf_claim_ids(page_id: str) -> tuple[str, ...]:
     return ("source-claim-unit-0001-0001", "source-claim-unit-0002-0001")
 
 
-def _pdf_source_summary_args(page_id: str, extra: str = "") -> dict:
+def _pdf_source_summary_args(
+    page_id: str,
+    extra: str = "",
+    *,
+    claim_ids: tuple[str, ...] | None = None,
+) -> dict:
     citation = _pdf_citation(page_id)
     extra_sentence = f" {extra}" if extra else ""
-    claim_ids = list(_pdf_claim_ids(page_id))
+    covered_claim_ids = list(claim_ids or _pdf_claim_ids(page_id))
     return {
         "source_record_text": f"Source record for {page_id} using ({citation}).{extra_sentence}",
         "claim_bullets": [
             {
                 "bullet_text": f"This planned page records cited source evidence. ({citation})",
-                "covered_source_claims": claim_ids,
+                "covered_source_claims": covered_claim_ids,
             },
             {
                 "bullet_text": f"This page keeps the PDF evidence compact. ({citation})",
-                "covered_source_claims": claim_ids,
+                "covered_source_claims": covered_claim_ids,
             },
             {
                 "bullet_text": (
                     f"This page leaves detailed interpretation to related pages. ({citation})"
                 ),
-                "covered_source_claims": claim_ids,
+                "covered_source_claims": covered_claim_ids,
             },
         ],
     }
@@ -286,6 +291,7 @@ class TestPlannedPdfIngest:
                         _pdf_source_summary_args(
                             "book",
                             "Hub prose with [[iterable]].\n\n**Key entities**: [[stale-person]].",
+                            claim_ids=("source-claim-unit-0002-0001",),
                         ),
                     )
                 ],

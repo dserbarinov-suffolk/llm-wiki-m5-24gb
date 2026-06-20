@@ -2,8 +2,8 @@
 
 Each callable validates its arguments with the same Pydantic model that the
 LLM sees as the tool schema, then delegates to the store. Domain/store
-errors raise with corrective messages — forge feeds them back on the
-tool-error channel for self-correction.
+errors either return corrective draft feedback or raise with corrective
+messages, depending on whether the failed write can safely be retried.
 """
 
 from __future__ import annotations
@@ -305,9 +305,7 @@ def planned_write_page_tool(
             draft, planned_write.source_summary_plan, source_text=source_text
         )
         if findings:
-            raise WikiStoreError(
-                render_page_body_findings(findings, planned_write.resolved_page_body_contract)
-            )
+            return render_page_body_findings(findings, planned_write.resolved_page_body_contract)
         return _write_page_body(render_source_summary_draft(draft))
 
     is_source_summary = planned_write.source_summary_plan is not None

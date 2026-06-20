@@ -3,7 +3,7 @@ page_id: javascriptallonge-if-functions-without-free-variables-are-pure-are-clos
 page_kind: source
 summary: if functions without free variables are pure, are closures impure? through That Constant Coffee Craving from raw/javascriptallonge.pdf.
 sources: raw/javascriptallonge.pdf p.45-45, raw/javascriptallonge.pdf p.46-47, raw/javascriptallonge.pdf p.47-47, raw/javascriptallonge.pdf p.47-48, raw/javascriptallonge.pdf p.49-50
-updated: 2026-06-19
+updated: 2026-06-20
 domain: javascriptallonge
 category_path: source-sections
 source_id: javascriptallonge.pdf
@@ -15,8 +15,8 @@ Source record for [[javascriptallonge-if-functions-without-free-variables-are-pu
 
 ## Key supported claims
 
-- Functions without free variables are called pure functions, while those with free variables are closures. (raw/javascriptallonge.pdf)
-- Closures rely on environments to resolve variables, with parent environments referenced when needed. (raw/javascriptallonge.pdf)
-- Variables with the same name as ancestor environments can shadow them, affecting how values are resolved. (raw/javascriptallonge.pdf)
-- JavaScript provides mechanisms for working with variables and mutable state, including closures. (raw/javascriptallonge.pdf)
-- JavaScript allows naming things beyond just arguments, such as constants like PI. (raw/javascriptallonge.pdf)
+- Functions without free variables are pure, while those with free variables are closures. (raw/javascriptallonge.pdf)
+- Closures always reference their parent environment, enabling access to ancestor bindings. (raw/javascriptallonge.pdf)
+- Variable shadowing occurs when a variable in a function's environment has the same name as an ancestor's binding. (raw/javascriptallonge.pdf)
+- JavaScript's global environment provides bindings for standard functions and libraries. (raw/javascriptallonge.pdf)
+- Anonymous functions can be named by binding values to parameters within a function expression. (raw/javascriptallonge.pdf)

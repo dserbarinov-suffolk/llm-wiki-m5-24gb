@@ -3,7 +3,7 @@ page_id: javascriptallonge-as-little-as-possible-about-functions-but-no-less-thr
 page_kind: source
 summary: As Little As Possible About Functions, But No Less through commas from raw/javascriptallonge.pdf.
 sources: raw/javascriptallonge.pdf p.30-31, raw/javascriptallonge.pdf p.31-31, raw/javascriptallonge.pdf p.31-31, raw/javascriptallonge.pdf p.32-33, raw/javascriptallonge.pdf p.33-33
-updated: 2026-06-19
+updated: 2026-06-20
 domain: javascriptallonge
 category_path: source-sections
 source_id: javascriptallonge.pdf
@@ -15,7 +15,8 @@ Source record for [[javascriptallonge-as-little-as-possible-about-functions-but-
 
 ## Key supported claims
 
-- Functions in JavaScript are reference types, meaning each evaluation of a function expression produces a new, non-identical function. (raw/javascriptallonge.pdf)
-- JavaScript allows functions to return values by placing expressions to the right of the arrow, enabling complex computations within functions. (raw/javascriptallonge.pdf)
-- JavaScript is flexible with spacing, but the behavior of expressions like function applications may vary depending on the environment. (raw/javascriptallonge.pdf)
-- JavaScript uses parentheses to apply functions to arguments, and the syntax for applying functions can vary depending on the context. (raw/javascriptallonge.pdf)
+- Functions in JavaScript are values, but they represent computations and are more than simple data types. (raw/javascriptallonge.pdf)
+- Every function evaluation in JavaScript yields a new function, even with identical expressions. (raw/javascriptallonge.pdf)
+- Functions can return the value of evaluating another function. (raw/javascriptallonge.pdf)
+- Functions are applied to zero or more arguments to produce values. (raw/javascriptallonge.pdf)
+- The comma operator allows functions to evaluate multiple expressions, useful for side-effects. (raw/javascriptallonge.pdf)

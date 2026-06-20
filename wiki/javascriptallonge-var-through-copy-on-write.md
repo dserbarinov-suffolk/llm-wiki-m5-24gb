@@ -3,7 +3,7 @@ page_id: javascriptallonge-var-through-copy-on-write
 page_kind: source
 summary: var through Copy on Write from raw/javascriptallonge.pdf.
 sources: raw/javascriptallonge.pdf p.151-154, raw/javascriptallonge.pdf p.154-154, raw/javascriptallonge.pdf p.155-157, raw/javascriptallonge.pdf p.158-159
-updated: 2026-06-19
+updated: 2026-06-20
 domain: javascriptallonge
 category_path: source-sections
 source_id: javascriptallonge.pdf
@@ -15,8 +15,7 @@ Source record for [[javascriptallonge-var-through-copy-on-write]]. (raw/javascri
 
 ## Key supported claims
 
-- JavaScript's `var` is function-scoped, not block-scoped, leading to potential confusion and issues like variable shadowing. (raw/javascriptallonge.pdf)
-- The use of `var` can lead to unexpected behavior, such as the `i` variable in a loop affecting closures. (raw/javascriptallonge.pdf)
-- The source does not confirm that `var` should be used in modern code, suggesting that `const` and `let` are preferable for clarity and safety. (raw/javascriptallonge.pdf)
-- The story of Gauss and the sum of numbers from 1 to 100 illustrates the historical context of `var` usage in JavaScript. (raw/javascriptallonge.pdf)
-- When taking the rest of a linked list with its reference, you are given the exact same nodes of the elements of the original list. (raw/javascriptallonge.pdf)
+- var is function-scoped, unlike let and const, leading to potential confusion in JavaScript code. (raw/javascriptallonge.pdf)
+- var was the primary method for variable declaration in JavaScript for nearly twenty years. (raw/javascriptallonge.pdf)
+- Using var can lead to unexpected behavior in closures, as demonstrated by the example with the for loop and function declarations. (raw/javascriptallonge.pdf)
+- Taking the rest of an array creates a copy of the elements, while taking the rest of a linked list shares the nodes. (raw/javascriptallonge.pdf)

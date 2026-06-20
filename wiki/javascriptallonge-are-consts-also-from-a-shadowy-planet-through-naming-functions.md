@@ -3,7 +3,7 @@ page_id: javascriptallonge-are-consts-also-from-a-shadowy-planet-through-naming-
 page_kind: source
 summary: are consts also from a shadowy planet? through Naming Functions from raw/javascriptallonge.pdf.
 sources: raw/javascriptallonge.pdf p.57-60, raw/javascriptallonge.pdf p.60-61, raw/javascriptallonge.pdf p.62-62
-updated: 2026-06-19
+updated: 2026-06-20
 domain: javascriptallonge
 category_path: source-sections
 source_id: javascriptallonge.pdf
@@ -15,7 +15,7 @@ Source record for [[javascriptallonge-are-consts-also-from-a-shadowy-planet-thro
 
 ## Key supported claims
 
-- Const variables are bound to the environment where they are declared, similar to parameters, and do not overwrite outer bindings. (raw/javascriptallonge.pdf)
-- Const bindings prevent reassignment, simplifying program analysis by ensuring values remain constant. (raw/javascriptallonge.pdf)
-- Const does not name the function, just binds an anonymous function to a name. (raw/javascriptallonge.pdf)
-- Declaring const inside a block does not bind the name in the function's scope, but rather in the block's environment. (raw/javascriptallonge.pdf)
+- Const bindings are lexically scoped and do not overwrite outer bindings. (raw/javascriptallonge.pdf)
+- Const variables can be scoped to blocks, limiting their visibility and improving code security. (raw/javascriptallonge.pdf)
+- Const bindings do not name the function itself, similar to how const answer = 42 does not name the number 42. (raw/javascriptallonge.pdf)
+- Const bindings can shadow existing bindings in outer scopes but cannot rebind names bound with const in existing scopes. (raw/javascriptallonge.pdf)

@@ -119,8 +119,13 @@ def default_claim_role_tags() -> tuple[ClaimRoleTag, ...]:
             "procedure",
             "limitation",
             "uncertainty",
+            "source-uncertainty",
+            "ordinary-modality",
             "negative-evidence",
             "open-question",
+            "analogy",
+            "worked-example",
+            "source-framing",
         )
     )
 
@@ -134,7 +139,7 @@ def default_page_body_contracts() -> tuple[PageBodyContract, ...]:
             required_markdown_shape="claim-bullets",
             min_claim_bullets=3,
             coverage_policy="main-supported-claims-and-explicit-limits",
-            max_words=160,
+            max_words=180,
             max_source_word_ratio=0.65,
             max_copied_ngram_ratio=0.50,
             required_link_policy="planned-related-pages",
@@ -273,6 +278,8 @@ class SourceClaim:
     claim_salience: float = 0.0
     claim_certainty: str = "supported"
     subject_terms: tuple[str, ...] = ()
+    claim_eligibility: str = "eligible"
+    claim_centrality: float = 0.0
 
 
 @dataclass(frozen=True)
@@ -306,6 +313,47 @@ class SourceSummaryBullet:
 class SourceSummaryDraft:
     source_record_text: str
     claim_bullets: tuple[SourceSummaryBullet, ...]
+
+
+@dataclass(frozen=True)
+class SourceClaimQualityFixture:
+    fixture_id: str
+    source_locator: str
+    heading_path: str
+    statement: str
+    expected_claim_eligibility: str
+    expected_claim_role_tags: tuple[str, ...] = ()
+
+
+@dataclass(frozen=True)
+class SourceSummaryQualityReport:
+    selected_ineligible_claims: int
+    false_source_uncertainty_claims: int
+    source_framing_bullets: int
+    missing_unit_coverage: int
+    selected_ineligible_examples: tuple[str, ...] = ()
+    false_source_uncertainty_examples: tuple[str, ...] = ()
+    source_framing_examples: tuple[str, ...] = ()
+    missing_unit_coverage_examples: tuple[str, ...] = ()
+
+    def render(self) -> str:
+        lines = [
+            f"SelectedIneligibleClaims: {self.selected_ineligible_claims}",
+            f"FalseSourceUncertaintyClaims: {self.false_source_uncertainty_claims}",
+            f"SourceFramingBullets: {self.source_framing_bullets}",
+            f"MissingUnitCoverage: {self.missing_unit_coverage}",
+        ]
+        examples = (
+            ("SelectedIneligibleExamples", self.selected_ineligible_examples),
+            ("FalseSourceUncertaintyExamples", self.false_source_uncertainty_examples),
+            ("SourceFramingExamples", self.source_framing_examples),
+            ("MissingUnitCoverageExamples", self.missing_unit_coverage_examples),
+        )
+        for label, values in examples:
+            if values:
+                lines.append(f"{label}:")
+                lines.extend(f"- {value}" for value in values)
+        return "\n".join(lines)
 
 
 @dataclass(frozen=True)

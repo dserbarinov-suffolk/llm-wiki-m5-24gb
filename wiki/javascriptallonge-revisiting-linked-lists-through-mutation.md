@@ -3,7 +3,7 @@ page_id: javascriptallonge-revisiting-linked-lists-through-mutation
 page_kind: source
 summary: revisiting linked lists through Mutation from raw/javascriptallonge.pdf.
 sources: raw/javascriptallonge.pdf p.137-140, raw/javascriptallonge.pdf p.141-143
-updated: 2026-06-19
+updated: 2026-06-20
 domain: javascriptallonge
 category_path: source-sections
 source_id: javascriptallonge.pdf
@@ -15,6 +15,7 @@ Source record for [[javascriptallonge-revisiting-linked-lists-through-mutation]]
 
 ## Key supported claims
 
-- The source discusses revisiting linked lists using objects instead of arrays for nodes, allowing for direct property accessors like first and rest. (raw/javascriptallonge.pdf)
-- Mutation in JavaScript allows changing the structure of values without altering their identity, as demonstrated with arrays and objects. (raw/javascriptallonge.pdf)
-- The source acknowledges that declaring a variable as const does not prevent mutation, only rebinding, highlighting a limitation in JavaScript's const declaration. (raw/javascriptallonge.pdf)
+- Linked lists are constructed back-to-front, but iteration proceeds front-to-back, causing a reversed copy when using mutation. (raw/javascriptallonge.pdf)
+- Forward iteration through a linked list is fast, as demonstrated by the structure and accessors used. (raw/javascriptallonge.pdf)
+- Mutation allows for changing the structure of objects and arrays without altering their identity. (raw/javascriptallonge.pdf)
+- To copy a list recursively, the call stack must save all bits and then construct the list from back-to-front. (raw/javascriptallonge.pdf)

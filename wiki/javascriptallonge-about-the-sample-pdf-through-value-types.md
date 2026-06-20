@@ -3,7 +3,7 @@ page_id: javascriptallonge-about-the-sample-pdf-through-value-types
 page_kind: source
 summary: About The Sample PDF through value types from raw/javascriptallonge.pdf.
 sources: raw/javascriptallonge.pdf p.16-17, raw/javascriptallonge.pdf p.18-18, raw/javascriptallonge.pdf p.19-20, raw/javascriptallonge.pdf p.21-21, raw/javascriptallonge.pdf p.22-22
-updated: 2026-06-19
+updated: 2026-06-20
 domain: javascriptallonge
 category_path: source-sections
 source_id: javascriptallonge.pdf
@@ -15,7 +15,8 @@ Source record for [[javascriptallonge-about-the-sample-pdf-through-value-types]]
 
 ## Key supported claims
 
-- The sample PDF discusses JavaScript's value types and how they function as both expressions and values, similar to ordering a coffee and receiving it back. (raw/javascriptallonge.pdf)
-- The text explains that the existence of sugary drinks is tolerated due to their profit margin, which allows customers to stay at the coffee shop using their WiFi. (raw/javascriptallonge.pdf)
-- JavaScript uses the === operator to test identity between values, akin to comparing two cups of coffee for sameness. (raw/javascriptallonge.pdf)
-- The source notes that strings, numbers, and booleans are value types in JavaScript, where identical content leads to identity, but does not fully confirm the fourth possibility of distinguishing marks on cups. (raw/javascriptallonge.pdf)
+- This sample edition includes a portion of the complete book, with updates available upon purchase. (raw/javascriptallonge.pdf)
+- In JavaScript, expressions and values are the same; for example, the number 42 is both an expression and a value. (raw/javascriptallonge.pdf)
+- Strings, numbers, and booleans are considered 'value' or 'primitive' types in JavaScript, where identical content of the same type is treated as identical. (raw/javascriptallonge.pdf)
+- Comparing values with the same type but different content results in non-identity, such as the number 5 not being the same as the number 2. (raw/javascriptallonge.pdf)
+- Strings with operators are not values but expressions, highlighting the distinction between expressions and values in JavaScript. (raw/javascriptallonge.pdf)

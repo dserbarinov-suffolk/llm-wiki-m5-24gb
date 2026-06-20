@@ -33,6 +33,7 @@ from llmwiki.domain.objects import (
     SourceClaimGroup,
     SourcePlanContractSelection,
     SourceSummaryPlan,
+    SourceSummaryQualityReport,
     TopicCluster,
     WikiMatch,
 )
@@ -57,21 +58,134 @@ _SOURCE_WRITE_GROUP_UNIT_LIMIT = 5
 _SOURCE_WRITE_GROUP_TOKEN_BUDGET = 2_200
 _SOURCE_PAGE_ID_MAX_CHARS = 96
 
+_CLAIM_ELIGIBLE = "eligible"
+_INELIGIBLE_CLAIM_ELIGIBILITIES = frozenset(
+    {
+        "analogy",
+        "rhetorical-example",
+        "narrative-frame",
+        "source-furniture",
+        "code-fragment",
+        "source-framing",
+    }
+)
+_SOURCE_FRAMING_PREFIXES = (
+    "the source discusses",
+    "the source describes",
+    "the source mentions",
+    "the source notes",
+    "the source lists",
+    "the source provides",
+    "this source discusses",
+    "this source describes",
+    "the text discusses",
+    "the text describes",
+    "the text mentions",
+    "the text notes",
+    "the section discusses",
+    "the section describes",
+    "the book discusses",
+    "the book describes",
+)
 _ROLE_PATTERNS: tuple[tuple[str, tuple[str, ...]], ...] = (
-    ("uncertainty", (r"\bmay\b", r"\bmight\b", r"\bpossible\b", r"\bsuggest\w*\b", r"\bunknown\b")),
+    (
+        "source-uncertainty",
+        (
+            r"\bdoes not\b.+\b(specify|state|identify|confirm|establish|explain|include)\b",
+            r"\bnot\b.+\b(specified|stated|identified|confirmed|established|known|resolved)\b",
+            r"\bnot fully confirm\b",
+            r"\bnot confirmed\b",
+            r"\bnot ingested\b",
+            r"\bunknown\b",
+            r"\bunclear\b",
+            r"\bunresolved\b",
+            r"\bunconfirmed\b",
+            r"\bopen question\b",
+            r"\[verify\]",
+        ),
+    ),
+    (
+        "ordinary-modality",
+        (
+            r"\bmay\b",
+            r"\bmight\b",
+            r"\bpossibly\b",
+            r"\bpossible\b",
+            r"\bcould\b",
+            r"\bshould\b",
+            r"\bsuggest\w*\b",
+            r"\bmore to\b",
+        ),
+    ),
+    (
+        "source-framing",
+        tuple(rf"\b{re.escape(prefix)}\b" for prefix in _SOURCE_FRAMING_PREFIXES)
+        + (
+            r"\bwhen discussing\b",
+            r"\btakes(?: \w+)? delight in explaining\b",
+            r"\bthis is exactly how\b.+\bworks\b",
+        ),
+    ),
+    (
+        "analogy",
+        (
+            r"\banalogy\b",
+            r"\bmetaphor\b",
+            r"\bsimilar to\b",
+            r"\bakin to\b",
+            r"\bas if\b",
+            r"\blike a\b",
+            r"\blike an\b",
+            r"\blike most\b",
+            r"\bcompared to\b",
+            r"\bjust as\b",
+            r"\bmuch like\b",
+        ),
+    ),
+    (
+        "worked-example",
+        (
+            r"\bfor example\b",
+            r"\bexample\b",
+            r"\bsuppose\b",
+            r"\bconsider\b",
+            r"\bimagine\b",
+        ),
+    ),
     (
         "negative-evidence",
         (r"\bno\b.+\bfound\b", r"\bnot\b.+\bfound\b", r"\bdoes not\b", r"\bwithout\b"),
     ),
     ("limitation", (r"\blimit\w*\b", r"\bunless\b", r"\bexcept\b", r"\bonly\b")),
-    ("method", (r"\bused\b", r"\busing\b", r"\bstudy\b", r"\banalys\w*\b", r"\btest\w*\b")),
+    (
+        "method",
+        (
+            r"\bused\b",
+            r"\busing\b",
+            r"\bstudy\b",
+            r"\banalys\w*\b",
+            r"\btest\w*\b",
+            r"\bexplor\w*\b",
+        ),
+    ),
     ("evidence", (r"\bevidence\b", r"\binscription\w*\b", r"\bcitation\b", r"\brecord\b")),
     ("provenance", (r"\bfrom\b", r"\borigin\w*\b", r"\bretrieved\b", r"\bdiscovered\b")),
     ("temporal", (r"\b\d{3,4}\b", r"\bbc\b", r"\bad\b", r"\byear\b", r"\bcentur\w*\b")),
     ("quantitative", (r"\b\d+\b", r"\bat least\b", r"\bmore than\b", r"\broughly\b")),
     (
         "function",
-        (r"\btrack\w*\b", r"\bpredict\w*\b", r"\badvance\b", r"\bshow\w*\b", r"\bcould\b"),
+        (
+            r"\btrack\w*\b",
+            r"\bpredict\w*\b",
+            r"\badvance\b",
+            r"\bshow\w*\b",
+            r"\brepresent\w*\b",
+            r"\bencode\w*\b",
+            r"\breturn\w*\b",
+            r"\bcombine\w*\b",
+            r"\bcall\w*\b",
+            r"\btransform\w*\b",
+        ),
     ),
     ("mechanism", (r"\bconsists\b", r"\bgear\w*\b", r"\bcase\b", r"\bcrank\b", r"\bthrough\b")),
     ("comparison", (r"\bmatched\b", r"\bsurpass\w*\b", r"\bcompared\b", r"\bthan\b")),
@@ -85,7 +199,8 @@ _ROLE_PATTERNS: tuple[tuple[str, tuple[str, ...]], ...] = (
 )
 
 _ROLE_WEIGHTS = {
-    "uncertainty": 0.33,
+    "source-uncertainty": 0.30,
+    "ordinary-modality": 0.08,
     "negative-evidence": 0.34,
     "limitation": 0.31,
     "method": 0.27,
@@ -98,6 +213,9 @@ _ROLE_WEIGHTS = {
     "comparison": 0.20,
     "evidence": 0.20,
     "quantitative": 0.16,
+    "analogy": 0.05,
+    "worked-example": 0.10,
+    "source-framing": 0.03,
 }
 
 _STOP_WORDS = frozenset(
@@ -283,6 +401,80 @@ def observation_report(plan: PagePlan) -> str:
     )
 
 
+def source_summary_quality_report(
+    plan: PagePlan, wiki_pages: dict[str, str] | None = None
+) -> SourceSummaryQualityReport:
+    claims_by_id = {claim.source_claim_id: claim for claim in plan.source_claims}
+    claims_by_unit: dict[str, list[SourceClaim]] = {}
+    for claim in plan.source_claims:
+        claims_by_unit.setdefault(claim.extracted_unit_id, []).append(claim)
+
+    selected_ineligible_examples: list[str] = []
+    false_source_uncertainty_examples: list[str] = []
+    missing_unit_coverage_examples: list[str] = []
+
+    for write in plan.planned_writes:
+        summary_plan = write.source_summary_plan
+        if summary_plan is None:
+            continue
+        selected_claims = tuple(
+            claims_by_id[claim_id]
+            for claim_id in summary_plan.selected_source_claims
+            if claim_id in claims_by_id
+        )
+        selected_unit_ids = {claim.extracted_unit_id for claim in selected_claims}
+        for claim in selected_claims:
+            unit_claims = claims_by_unit.get(claim.extracted_unit_id, [])
+            if claim.claim_eligibility != _CLAIM_ELIGIBLE and _eligible_claims(unit_claims):
+                selected_ineligible_examples.append(
+                    f"{write.page_metadata.page_id}: {claim.source_claim_id} "
+                    f"{claim.claim_eligibility}"
+                )
+            if (
+                claim.claim_certainty == "uncertain"
+                and "source-uncertainty" not in claim.claim_role_tags
+            ):
+                false_source_uncertainty_examples.append(
+                    f"{write.page_metadata.page_id}: {claim.source_claim_id}"
+                )
+        if len(write.extracted_units) <= _MAX_SOURCE_SUMMARY_CLAIMS:
+            for unit_id in write.extracted_units:
+                unit_claims = claims_by_unit.get(unit_id, [])
+                if (
+                    _unit_has_source_summary_coverage_candidate(unit_claims)
+                    and unit_id not in selected_unit_ids
+                ):
+                    missing_unit_coverage_examples.append(
+                        f"{write.page_metadata.page_id}: {unit_id}"
+                    )
+
+    source_framing_examples = _source_framing_bullet_examples(wiki_pages or {})
+
+    return SourceSummaryQualityReport(
+        selected_ineligible_claims=len(selected_ineligible_examples),
+        false_source_uncertainty_claims=len(false_source_uncertainty_examples),
+        source_framing_bullets=len(source_framing_examples),
+        missing_unit_coverage=len(missing_unit_coverage_examples),
+        selected_ineligible_examples=tuple(selected_ineligible_examples[:10]),
+        false_source_uncertainty_examples=tuple(false_source_uncertainty_examples[:10]),
+        source_framing_examples=tuple(source_framing_examples[:10]),
+        missing_unit_coverage_examples=tuple(missing_unit_coverage_examples[:10]),
+    )
+
+
+def _source_framing_bullet_examples(wiki_pages: dict[str, str]) -> tuple[str, ...]:
+    examples: list[str] = []
+    for page_id, page_text in wiki_pages.items():
+        for line in page_text.splitlines():
+            stripped = line.strip()
+            if not stripped.startswith(("-", "*")):
+                continue
+            bullet_text = stripped[1:].strip().lower()
+            if any(bullet_text.startswith(prefix) for prefix in _SOURCE_FRAMING_PREFIXES):
+                examples.append(f"{page_id}: {stripped}")
+    return tuple(examples)
+
+
 def planned_write_message(
     write: PlannedPageWrite,
     units: dict[str, ExtractedUnit],
@@ -340,7 +532,7 @@ def planned_write_message(
         f"{_planned_write_call_instruction(write)}"
         "The PagePlan supplies PageId, PageKind, PageMetadata, and PagePath.\n\n"
         "Write only claims supported by the supplied ExtractedUnit text. "
-        "Preserve uncertainty instead of turning may, possibly, or suggests into certainty. "
+        "Preserve SourceSummaryPlan source-uncertainty claims without inventing new gaps. "
         "Write a compact source summary, not a transcript. Prefer concise sections and bullets.\n\n"
         f"WikiMatches:\n{matches or '- none'}\n\n"
         f"{chr(10).join(unit_blocks)}"
@@ -418,9 +610,8 @@ def _page_body_contract_guidance(write: PlannedPageWrite) -> str:
         "Coverage policy main-supported-claims-and-explicit-limits means the bullets "
         "cover the source's central supported claims plus explicit uncertainty, gaps, "
         "or non-confirmations when present.\n"
-        "For technical sources, cover what the thing is, what it does, and what the "
-        "source does not fully confirm.\n"
-        "Use this exact shape with three to five concise bullets:\n"
+        "For technical sources, cover what the thing is and what it does.\n"
+        "Use this exact shape with three to five concise bullets under 160 words:\n"
         "## Source record\n"
         f"Source record for {link}. ({citation})\n\n"
         "## Key supported claims\n"
@@ -429,6 +620,12 @@ def _page_body_contract_guidance(write: PlannedPageWrite) -> str:
         f"- One short claim preserving uncertainty, gaps, or non-confirmations when present."
         f"{uncertainty} "
         f"({citation})\n\n"
+        "Start each claim bullet with the claim subject or finding. "
+        "Do not start with The source, This source, The text, The section, or The book.\n"
+        "When a source claim is phrased as commentary about the source, rewrite it "
+        "around the technical subject from the heading or claim. "
+        "Use forms like 'const bindings ...', 'if statements ...', or "
+        "'interactive generators ...'.\n"
         "Do not copy long source sentences or distinctive phrases.\n"
     )
 
@@ -442,6 +639,8 @@ def _source_claims(
     for unit in units:
         for idx, sentence in enumerate(_claim_sentences(unit.text), start=1):
             role_tags = tuple(role for role in _claim_role_tags(sentence) if role in allowed_roles)
+            claim_eligibility = _claim_eligibility(sentence, role_tags)
+            claim_centrality = _claim_centrality(sentence, unit.heading_path)
             evidence = Evidence(
                 raw_source=unit.raw_source,
                 locator=f"{unit.locator} s.{idx}".strip(),
@@ -455,9 +654,13 @@ def _source_claims(
                     extracted_unit_id=unit.unit_id,
                     source_span=evidence.locator,
                     claim_role_tags=role_tags,
-                    claim_salience=_claim_salience(sentence, role_tags),
+                    claim_salience=_claim_salience(
+                        sentence, role_tags, claim_eligibility, claim_centrality
+                    ),
                     claim_certainty=_claim_certainty(role_tags),
                     subject_terms=_top_terms(sentence, 4),
+                    claim_eligibility=claim_eligibility,
+                    claim_centrality=claim_centrality,
                 )
             )
     return tuple(claims)
@@ -500,18 +703,148 @@ def _claim_role_tags(statement: str) -> tuple[str, ...]:
     return tuple(dict.fromkeys(roles))
 
 
-def _claim_salience(statement: str, role_tags: tuple[str, ...]) -> float:
+def _claim_eligibility(statement: str, role_tags: tuple[str, ...]) -> str:
+    lowered = statement.lower().strip()
+    if "source-framing" in role_tags:
+        return "source-framing"
+    if _is_code_fragment(statement):
+        return "code-fragment"
+    if _is_source_furniture(lowered):
+        return "source-furniture"
+    if _is_rhetorical_example(lowered):
+        return "rhetorical-example"
+    if _is_narrative_frame(lowered):
+        return "narrative-frame"
+    if "analogy" in role_tags:
+        return "analogy"
+    return _CLAIM_ELIGIBLE
+
+
+def _claim_centrality(statement: str, heading_path: str) -> float:
+    heading_terms = set(_tokens(heading_path))
+    if not heading_terms:
+        return 0.0
+    statement_terms = set(_tokens(statement))
+    if not statement_terms:
+        return 0.0
+    overlap = heading_terms & statement_terms
+    return round(len(overlap) / len(heading_terms), 3)
+
+
+def _claim_salience(
+    statement: str,
+    role_tags: tuple[str, ...],
+    claim_eligibility: str = _CLAIM_ELIGIBLE,
+    claim_centrality: float = 0.0,
+) -> float:
     role_score = max((_ROLE_WEIGHTS.get(role, 0.12) for role in role_tags), default=0.08)
     length_score = min(len(_tokens(statement)) / 80, 0.18)
-    return round(min(1.0, 0.38 + role_score + length_score), 3)
+    centrality_score = min(claim_centrality * 0.20, 0.20)
+    eligibility_penalty = (
+        0.36 if claim_eligibility in _INELIGIBLE_CLAIM_ELIGIBILITIES else 0.0
+    )
+    score = 0.38 + role_score + length_score + centrality_score - eligibility_penalty
+    return round(max(0.0, min(1.0, score)), 3)
 
 
 def _claim_certainty(role_tags: tuple[str, ...]) -> str:
-    if "uncertainty" in role_tags:
+    if "source-uncertainty" in role_tags:
         return "uncertain"
     if "negative-evidence" in role_tags:
         return "negative-evidence"
     return "supported"
+
+
+def _is_source_furniture(lowered_statement: str) -> bool:
+    furniture_patterns = (
+        r"©",
+        r"\(c\)",
+        r"\bcopyright\b",
+        r"\bisbn\b",
+        r"\btable of contents\b",
+        r"\bhttp(s)?://\b",
+        r"\bfor sale at\b",
+        r"\bleanpub\b",
+        r"\balso by\b",
+        r"\boriginal words in this book\b",
+        r"\bauthors? and publishers?\b",
+        r"\blean publishing\b",
+        r"\bcreativecommons\b",
+        r"\bsome rights reserved\b",
+        r"\ball rights reserved\b",
+        r"\bflickr\b",
+        r"\backnowledg(e)?ments?\b",
+        r"\babout the author\b",
+        r"\bdownload\b",
+        r"\bpublished by\b",
+        r"\beverything is explained\b",
+        r"\bpage \d+\b",
+    )
+    if any(re.search(pattern, lowered_statement) for pattern in furniture_patterns):
+        return True
+    tokens = _tokens(lowered_statement)
+    if len(tokens) <= 14 and " by " in lowered_statement:
+        return True
+    return len(tokens) <= 8 and not lowered_statement.endswith((".", "?", "!"))
+
+
+def _is_code_fragment(statement: str) -> bool:
+    stripped = statement.strip()
+    if stripped.startswith(("```", "~~~", "const ", "let ", "var ", "function ")):
+        return True
+    code_markers = sum(
+        marker in stripped for marker in ("=>", "===", "!==", "{", "}", "();", "return ")
+    )
+    token_count = len(_tokens(stripped))
+    return code_markers >= 2 and token_count <= 18
+
+
+def _is_rhetorical_example(lowered_statement: str) -> bool:
+    if lowered_statement.endswith("?"):
+        return True
+    return any(
+        re.search(pattern, lowered_statement)
+        for pattern in (
+            r"\bwhy\?\b",
+            r"\bwhat if\b",
+            r"\bhow would\b",
+            r"\bwouldn'?t it\b",
+        )
+    )
+
+
+def _is_narrative_frame(lowered_statement: str) -> bool:
+    if lowered_statement.startswith(("'", '"')):
+        return True
+    narrative_patterns = (
+        r"\bdear reader\b",
+        r"\blet us\b",
+        r"\blet's\b",
+        r"\bwe will\b",
+        r"\bwe are going to\b",
+        r"\bwe moved on\b",
+        r"\bimagine\b",
+        r"\bthe story\b",
+        r"\bonce upon\b",
+        r"\byears later\b",
+        r"\bthere are\b.+\bways to make it\b",
+        r"\binterview(er|s|ing)?\b",
+        r"\brecruiter\b",
+        r"\bconference room\b",
+        r"\barrived early\b",
+        r"\byou (desire|tolerate|express your order)\b",
+        r"\bi (came across|went|pondered|told|think|thought|asked|couldn'?t)\b",
+        r"\bsomeone asked me\b",
+        r"\bespresso\b",
+        r"\bristretto\b",
+        r"\blong pull\b.+\bcoffee\b",
+        r"\bcoffee\b.+\bflavou?r complexity\b",
+        r"\bcoffee enthusiasts everywhere\b",
+        r"\bbob was well-known\b",
+        r"\bblind dating\b",
+        r"\bclients often needed experience\b",
+    )
+    return any(re.search(pattern, lowered_statement) for pattern in narrative_patterns)
 
 
 def _candidate_claims_from_source_claims(
@@ -554,7 +887,7 @@ def _source_claim_groups(
 
 def _primary_claim_group_label(claim: SourceClaim) -> str:
     for role in (
-        "uncertainty",
+        "source-uncertainty",
         "negative-evidence",
         "limitation",
         "function",
@@ -581,30 +914,51 @@ def _source_summary_plan(
     if contract.contract_id != "source-summary" or not source_claims:
         return None
     claims_by_id = {claim.source_claim_id: claim for claim in source_claims}
+    claims_by_unit: dict[str, list[SourceClaim]] = {}
+    for claim in source_claims:
+        claims_by_unit.setdefault(claim.extracted_unit_id, []).append(claim)
+    source_has_eligible_claims = bool(_eligible_claims(source_claims))
+    source_has_central_eligible_claims = any(
+        _is_central_source_summary_claim(claim) for claim in _eligible_claims(source_claims)
+    )
     selected: list[SourceClaim] = []
 
     unit_ids = tuple(dict.fromkeys(claim.extracted_unit_id for claim in source_claims))
     if len(unit_ids) <= _MAX_SOURCE_SUMMARY_CLAIMS:
         for unit_id in unit_ids:
-            unit_claims = [
-                claim for claim in source_claims if claim.extracted_unit_id == unit_id
-            ]
+            unit_claims = [claim for claim in source_claims if claim.extracted_unit_id == unit_id]
             if unit_claims:
-                selected.append(max(unit_claims, key=lambda claim: claim.claim_salience))
+                candidates = _eligible_claims(unit_claims)
+                central_candidates = [
+                    claim for claim in candidates if _is_central_source_summary_claim(claim)
+                ]
+                if central_candidates:
+                    candidates = central_candidates
+                elif source_has_central_eligible_claims:
+                    candidates = []
+                if not candidates:
+                    candidates = _unit_source_summary_fallback_claims(unit_claims)
+                if not candidates and not source_has_eligible_claims:
+                    candidates = unit_claims
+                if candidates:
+                    selected.append(max(candidates, key=_source_summary_selection_key))
 
     def add_role_claim(*roles: str) -> None:
-        candidates = [
+        role_claims = [
             claim
             for claim in source_claims
             if any(role in claim.claim_role_tags for role in roles) and claim not in selected
         ]
+        candidates = _eligible_or_source_fallback_claims(
+            role_claims, source_has_eligible_claims, source_has_central_eligible_claims
+        )
         if candidates:
-            selected.append(max(candidates, key=lambda claim: claim.claim_salience))
+            selected.append(max(candidates, key=_source_summary_selection_key))
 
     add_role_claim("identity", "definition")
     add_role_claim("function", "mechanism", "procedure", "requirement")
     add_role_claim("provenance", "temporal", "method", "evidence")
-    add_role_claim("limitation", "negative-evidence", "uncertainty", "open-question")
+    add_role_claim("limitation", "negative-evidence", "source-uncertainty", "open-question")
     add_role_claim("method", "evidence", "comparison", "quantitative")
 
     for group in source_claim_groups:
@@ -617,13 +971,26 @@ def _source_summary_plan(
         ]
         if not group_claims:
             continue
-        selected.append(max(group_claims, key=lambda claim: claim.claim_salience))
+        candidates = _eligible_or_source_fallback_claims(
+            group_claims, source_has_eligible_claims, source_has_central_eligible_claims
+        )
+        if not candidates:
+            continue
+        selected.append(max(candidates, key=_source_summary_selection_key))
 
     min_claims = min(contract.min_claim_bullets or 3, len(source_claims))
-    for claim in sorted(source_claims, key=lambda item: -item.claim_salience):
+    for claim in sorted(source_claims, key=_source_summary_selection_key, reverse=True):
         if len(selected) >= max(min_claims, min(_MAX_SOURCE_SUMMARY_CLAIMS, len(source_claims))):
             break
         if claim not in selected:
+            if claim.claim_eligibility != _CLAIM_ELIGIBLE and source_has_eligible_claims:
+                continue
+            if (
+                claim.claim_eligibility == _CLAIM_ELIGIBLE
+                and source_has_central_eligible_claims
+                and not _is_central_source_summary_claim(claim)
+            ):
+                continue
             selected.append(claim)
 
     selected_ids = tuple(claim.source_claim_id for claim in selected[:_MAX_SOURCE_SUMMARY_CLAIMS])
@@ -641,6 +1008,61 @@ def _source_summary_plan(
         required_source_claim_groups=selected_groups,
         required_source_citations=contract.required_source_citations,
         coverage_policy=contract.coverage_policy,
+    )
+
+
+def _eligible_claims(claims: list[SourceClaim] | tuple[SourceClaim, ...]) -> list[SourceClaim]:
+    return [claim for claim in claims if claim.claim_eligibility == _CLAIM_ELIGIBLE]
+
+
+def _eligible_or_source_fallback_claims(
+    claims: list[SourceClaim] | tuple[SourceClaim, ...],
+    source_has_eligible_claims: bool,
+    source_has_central_eligible_claims: bool,
+) -> list[SourceClaim]:
+    eligible = _eligible_claims(claims)
+    central_eligible = [claim for claim in eligible if _is_central_source_summary_claim(claim)]
+    if central_eligible:
+        return central_eligible
+    if source_has_central_eligible_claims:
+        return []
+    if eligible:
+        return eligible
+    if source_has_eligible_claims:
+        return []
+    return list(claims)
+
+
+def _unit_source_summary_fallback_claims(claims: list[SourceClaim]) -> list[SourceClaim]:
+    unit_has_eligible_claim = bool(_eligible_claims(claims))
+    if unit_has_eligible_claim:
+        return []
+    return [
+        claim
+        for claim in claims
+        if claim.claim_eligibility == "code-fragment"
+        and _is_central_source_summary_claim(claim)
+    ]
+
+
+def _unit_has_source_summary_coverage_candidate(claims: list[SourceClaim]) -> bool:
+    has_central_eligible = any(
+        _is_central_source_summary_claim(claim) for claim in _eligible_claims(claims)
+    )
+    return has_central_eligible or bool(_unit_source_summary_fallback_claims(claims))
+
+
+def _is_central_source_summary_claim(claim: SourceClaim) -> bool:
+    return bool(claim.claim_role_tags) or claim.claim_centrality > 0
+
+
+def _source_summary_selection_key(claim: SourceClaim) -> tuple[int, float, float, int]:
+    is_eligible = 1 if claim.claim_eligibility == _CLAIM_ELIGIBLE else 0
+    return (
+        is_eligible,
+        claim.claim_centrality,
+        claim.claim_salience,
+        -len(claim.statement),
     )
 
 

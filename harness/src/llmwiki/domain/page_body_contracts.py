@@ -28,6 +28,24 @@ _UNCERTAINTY_PATTERNS = {
     "verify": r"\[verify\]",
 }
 _COPIED_NGRAM_SIZE = 8
+_SOURCE_FRAMING_PREFIXES = (
+    "the source discusses",
+    "the source describes",
+    "the source mentions",
+    "the source notes",
+    "the source lists",
+    "the source provides",
+    "this source discusses",
+    "this source describes",
+    "the text discusses",
+    "the text describes",
+    "the text mentions",
+    "the text notes",
+    "the section discusses",
+    "the section describes",
+    "the book discusses",
+    "the book describes",
+)
 
 
 def contract_for_page_kind(schema: Schema, page_kind: str) -> PageBodyContract:
@@ -138,6 +156,7 @@ def validate_source_summary_draft(
         )
     findings.extend(_source_summary_bullet_citation_findings(draft, plan))
     findings.extend(_source_claim_id_findings(draft, plan))
+    findings.extend(_source_framing_bullet_findings(draft))
     findings.extend(_draft_copy_findings(draft, source_text))
     return tuple(findings)
 
@@ -153,7 +172,12 @@ def render_page_body_findings(
         "Replace the whole PlannedPageWrite PageBody and satisfy every finding.\n"
         "Do not append fixes to the rejected PageBody.\n"
         "For source-summary, write a short paraphrase with the required sections, "
-        "enough claim bullets, and coverage of the source's main supported claims."
+        "enough claim bullets, and coverage of the source's main supported claims.\n"
+        "For source-summary claim bullets, start with the claim subject or finding. "
+        "Do not start with The source, This source, The text, The section, or The book.\n"
+        "Rewrite source-framing bullets around the technical subject from the heading "
+        "or selected claim, such as 'const bindings ...', 'if statements ...', or "
+        "'interactive generators ...'."
     )
 
 
@@ -316,6 +340,20 @@ def _source_claim_id_findings(
             + ", ".join(leaked),
         ),
     )
+
+
+def _source_framing_bullet_findings(draft: SourceSummaryDraft) -> tuple[PageBodyFinding, ...]:
+    findings: list[PageBodyFinding] = []
+    for idx, bullet in enumerate(draft.claim_bullets, start=1):
+        lowered = bullet.bullet_text.strip().lower()
+        if any(lowered.startswith(prefix) for prefix in _SOURCE_FRAMING_PREFIXES):
+            findings.append(
+                PageBodyFinding(
+                    "SourceFramingBullet",
+                    f"bullet {idx} must state the source subject directly",
+                )
+            )
+    return tuple(findings)
 
 
 def _preserves_uncertainty(page_body: str, terms: tuple[str, ...]) -> bool:

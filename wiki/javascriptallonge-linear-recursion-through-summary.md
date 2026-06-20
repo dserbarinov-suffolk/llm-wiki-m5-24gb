@@ -3,7 +3,7 @@ page_id: javascriptallonge-linear-recursion-through-summary
 page_kind: source
 summary: linear recursion through summary from raw/javascriptallonge.pdf.
 sources: raw/javascriptallonge.pdf p.111-113, raw/javascriptallonge.pdf p.113-114, raw/javascriptallonge.pdf p.114-116, raw/javascriptallonge.pdf p.116-116
-updated: 2026-06-19
+updated: 2026-06-20
 domain: javascriptallonge
 category_path: source-sections
 source_id: javascriptallonge.pdf
@@ -15,6 +15,6 @@ Source record for [[javascriptallonge-linear-recursion-through-summary]]. (raw/j
 
 ## Key supported claims
 
-- Linear recursion is a method for decomposing problems into smaller ones, with a test for the smallest case and a way to combine results, though it may not always break problems into multiple solvable pieces. (raw/javascriptallonge.pdf)
-- Mapping, a specialized case of linear recursion, applies a function to every element of an array without requiring repeated pattern writing. (raw/javascriptallonge.pdf)
-- Folding, another specialized case, computes results by combining elements with a terminal value, but the source does not fully confirm its broader applicability. (raw/javascriptallonge.pdf)
+- Linear recursion is a simpler form of 'divide and conquer' that breaks problems into smaller parts and rebuilds solutions, often using recursive calls (raw/javascriptallonge.pdf)
+- Mapping is a specialized case of linear recursion used to apply a function to each element of a list, avoiding repetitive code patterns (raw/javascriptallonge.pdf)
+- Folding is another specialized case of linear recursion, useful for accumulating results from list elements, and can be used to build other functions (raw/javascriptallonge.pdf)

@@ -347,6 +347,39 @@ class TestIngest:
         assert "Real claim for [[moon]]." in body and "Another claim." in body
         assert "OCR" not in body and "NOISE" not in body
 
+    async def test_source_framing_source_summary_rejection_is_recoverable(
+        self, store: WikiStore, paths: WikiPaths, source: str
+    ) -> None:
+        bad_args = _source_summary_args("moon", "raw/moon.md")
+        bad_args["claim_bullets"][0]["bullet_text"] = (
+            "The source discusses a compact claim. (raw/moon.md)"
+        )
+        good_args = _source_summary_args("moon", "raw/moon.md")
+        script = [
+            [ToolCall(tool="write_page", args=bad_args)],
+            [ToolCall(tool="write_page", args=good_args)],
+            [ToolCall(tool="finish_planned_write", args={"report": "source written"})],
+            [
+                ToolCall(
+                    tool="write_page",
+                    args={
+                        "page_body": _entity_body(
+                            "moon-source",
+                            "raw/moon.md",
+                            "The Moon has a giant-impact formation account.",
+                        )
+                    },
+                )
+            ],
+            [ToolCall(tool="finish_planned_write", args={"report": "entity written"})],
+        ]
+
+        await _session(store, script, paths).ingest(source)
+
+        body = store.read_page("moon-source")
+        assert "The source discusses" not in body
+        assert "The source supports a focused note" in body
+
     async def test_bare_text_after_work_nudged_to_terminal_tool(
         self, store: WikiStore, paths: WikiPaths, source: str
     ) -> None:

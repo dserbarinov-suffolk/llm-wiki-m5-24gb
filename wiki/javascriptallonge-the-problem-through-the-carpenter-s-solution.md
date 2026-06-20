@@ -3,7 +3,7 @@ page_id: javascriptallonge-the-problem-through-the-carpenter-s-solution
 page_kind: source
 summary: the problem through the carpenter's solution from raw/javascriptallonge.pdf.
 sources: raw/javascriptallonge.pdf p.261-264, raw/javascriptallonge.pdf p.264-269
-updated: 2026-06-19
+updated: 2026-06-20
 domain: javascriptallonge
 category_path: source-sections
 source_id: javascriptallonge.pdf
@@ -15,8 +15,7 @@ Source record for [[javascriptallonge-the-problem-through-the-carpenter-s-soluti
 
 ## Key supported claims
 
-- The problem involves determining if a checkerboard game with arrows will terminate, without assuming the board's size or contents. (raw/javascriptallonge.pdf)
-- The solution reframes the termination problem as detecting repeated positions, which indicates an endless cycle. (raw/javascriptallonge.pdf)
-- The approach uses a graph representation of positions and arrows to analyze the game's behavior. (raw/javascriptallonge.pdf)
-- A method is provided to test the termination of the game using a function that simulates the game's movement and checks for cycles. (raw/javascriptallonge.pdf)
-- The solution includes refactoring the code to extract the board for easier testing and clarity. (raw/javascriptallonge.pdf)
+- The problem involves navigating a hidden checkerboard with arrows, where the goal is to detect loops and determine if the game halts. (raw/javascriptallonge.pdf)
+- The solution requires moving the chequer based on arrow directions without assuming the board's size or contents. (raw/javascriptallonge.pdf)
+- The Carpenter's approach includes refactoring to extract the board for easier testing, demonstrating a method for solving the problem. (raw/javascriptallonge.pdf)
+- The chequer's movement is determined by the direction of the arrow in the square it occupies. (raw/javascriptallonge.pdf)
