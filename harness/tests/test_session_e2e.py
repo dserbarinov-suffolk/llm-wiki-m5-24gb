@@ -123,8 +123,15 @@ class TestIngest:
 
         assert "Planned ingest completed" in result.output
         assert "Written pages: [[moon-source]], [[moon]]" in result.output
+        assert "Ingest confidence:" in result.output
         assert "Source record for [[moon]]" in store.read_page("moon-source")
         assert "giant-impact formation account" in store.read_page("moon")
+        assert "Ingest Confidence Report" in store.read_page("wiki-ingest-confidence")
+        artifact_dir = store.page_plan_artifact_dir(source)
+        assert (artifact_dir / "page-plan.json").is_file()
+        assert (artifact_dir / "evidence-registry.json").is_file()
+        assert (artifact_dir / "evidence-locators.json").is_file()
+        assert (artifact_dir / "artifact-fingerprint.json").is_file()
         assert "- [[moon-source]] — Source summary for moon." in store.read_index()
         assert "- [[moon]] — Facts about moon from an ingested RawSource." in store.read_index()
         log = paths.log_path.read_text(encoding="utf-8")
@@ -165,7 +172,7 @@ class TestIngest:
         result = await _session(store, script, paths).ingest(source)
         assert "ghost" not in result.output
         assert "ghost" not in paths.log_path.read_text(encoding="utf-8")
-        assert set(store.list_pages()) == {"moon-source", "moon"}
+        assert set(store.list_pages()) == {"moon-source", "moon", "wiki-ingest-confidence"}
 
     async def test_required_links_and_citations_are_checked_before_write(
         self, store: WikiStore, paths: WikiPaths, source: str

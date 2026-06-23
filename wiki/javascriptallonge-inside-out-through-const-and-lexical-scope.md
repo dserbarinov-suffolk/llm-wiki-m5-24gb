@@ -1,9 +1,9 @@
 ---
 page_id: javascriptallonge-inside-out-through-const-and-lexical-scope
 page_kind: source
-summary: inside-out through const and lexical scope from raw/javascriptallonge.pdf.
-sources: raw/javascriptallonge.pdf p.50-51, raw/javascriptallonge.pdf p.51-53, raw/javascriptallonge.pdf p.54-55, raw/javascriptallonge.pdf p.55-57
-updated: 2026-06-20
+summary: const and lexical scope from raw/javascriptallonge.pdf.
+sources: raw/javascriptallonge.pdf p.55-57
+updated: 2026-06-23
 domain: javascriptallonge
 category_path: source-sections
 source_id: javascriptallonge.pdf
@@ -11,10 +11,12 @@ source_id: javascriptallonge.pdf
 
 ## Source record
 
-Source record for [[javascriptallonge-inside-out-through-const-and-lexical-scope]]. (raw/javascriptallonge.pdf)
+Source record for [[javascriptallonge-inside-out-through-const-and-lexical-scope]]. (raw/javascriptallonge.pdf p.55-57)
 
 ## Key supported claims
 
-- const bindings allow names to be bound inside blocks without function invocation costs. (raw/javascriptallonge.pdf)
-- const introduces bindings in blocks, using lexical scope similar to parameter invocations. (raw/javascriptallonge.pdf)
-- Blocks are typically used as function bodies, but can also be used in if statements. (raw/javascriptallonge.pdf)
+- Binding values to names with const uses lexical scope, similar to parameter invocations. (raw/javascriptallonge.pdf p.55-57)
+- const bindings require understanding of lexical scope semantics to place them effectively. (raw/javascriptallonge.pdf p.55-57)
+- PI is bound in the environment surrounding (diameter) => diameter * PI, allowing access to its value. (raw/javascriptallonge.pdf p.55-57)
+- PI's value is determined by the environment surrounding (diameter) => diameter * PI, not the surrounding environment. (raw/javascriptallonge.pdf p.55-57)
+- Binding ((PI) => (diameter) => diameter * PI)(3.14159265) to diameter_fn involves convoluted lexical scoping. (raw/javascriptallonge.pdf p.55-57)

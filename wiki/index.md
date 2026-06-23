@@ -1,62 +1,130 @@
 # Index
 
 ## Sources
+- [[antikythera-mechanism-source]] — Source summary for The Antikythera Mechanism.
 - [[javascriptallonge]] — Hub page for raw/javascriptallonge.pdf.
-- [[javascriptallonge-a-few-utilities-through-copy-on-write]] — a few utilities through copy-on-write from raw/javascriptallonge.pdf.
-- [[javascriptallonge-a-return-to-backward-thinking-through-flip]] — a return to backward thinking through Flip from raw/javascriptallonge.pdf.
-- [[javascriptallonge-about-the-author-through-contact]] — About The Author through contact from raw/javascriptallonge.pdf.
-- [[javascriptallonge-about-the-sample-pdf-through-value-types]] — About The Sample PDF through value types from raw/javascriptallonge.pdf.
-- [[javascriptallonge-and-also-through-call-by-value]] — And also: through call by value from raw/javascriptallonge.pdf.
-- [[javascriptallonge-are-consts-also-from-a-shadowy-planet-through-naming-functions]] — are consts also from a shadowy planet? through Naming Functions from raw/javascriptallonge.pdf.
-- [[javascriptallonge-as-little-as-possible-about-functions-but-no-less-through-commas]] — As Little As Possible About Functions, But No Less through commas from raw/javascriptallonge.pdf.
-- [[javascriptallonge-combinators-through-composition]] — combinators through composition from raw/javascriptallonge.pdf.
-- [[javascriptallonge-composing-and-decomposing-data-through-destructuring-arrays]] — Composing and Decomposing Data through destructuring arrays from raw/javascriptallonge.pdf.
-- [[javascriptallonge-factorials-through-garbage-garbage-everywhere]] — factorials through Garbage, Garbage Everywhere from raw/javascriptallonge.pdf.
-- [[javascriptallonge-foreword-to-the-six-edition-through-matthew-knox]] — Foreword to the 'Six' edition through matthew knox from raw/javascriptallonge.pdf.
-- [[javascriptallonge-functions-through-unary]] — Functions through Unary from raw/javascriptallonge.pdf.
-- [[javascriptallonge-gathering-through-self-similarity]] — gathering through Self-Similarity from raw/javascriptallonge.pdf.
-- [[javascriptallonge-generators-are-coroutines-through-more-generators]] — generators are coroutines through more generators from raw/javascriptallonge.pdf.
-- [[javascriptallonge-if-functions-without-free-variables-are-pure-are-closures-impure-through-that]] — if functions without free variables are pure, are closures impure? through That Constant Coffee Craving from raw/javascriptallonge.pdf.
+- [[javascriptallonge-a-balanced-statement-about-combinators-through-building-blocks]] — Building Blocks from raw/javascriptallonge.pdf.
+- [[javascriptallonge-a-few-utilities-through-copy-on-write]] — a few utilities from raw/javascriptallonge.pdf.
+- [[javascriptallonge-a-return-to-backward-thinking-through-flip]] — Flip from raw/javascriptallonge.pdf.
+- [[javascriptallonge-a-return-to-backward-thinking-through-recipes-with-data]] — a return to backward thinking through Recipes with Data from raw/javascriptallonge.pdf.
+- [[javascriptallonge-a-rich-aroma-basic-numbers-through-the-first-sip-basic-functions]] — A Rich Aroma: Basic Numbers from raw/javascriptallonge.pdf.
+- [[javascriptallonge-about-the-author-through-contact]] — contact from raw/javascriptallonge.pdf.
+- [[javascriptallonge-about-the-sample-pdf-through-value-types]] — value types from raw/javascriptallonge.pdf.
+- [[javascriptallonge-after-another-drink]] — after another drink from raw/javascriptallonge.pdf.
+- [[javascriptallonge-ah-i-d-like-to-have-an-argument-please-22]] — Ah. I'd Like to Have an Argument, Please. 22 from raw/javascriptallonge.pdf.
+- [[javascriptallonge-and-also]] — And also: from raw/javascriptallonge.pdf.
+- [[javascriptallonge-and-also-through-a-quick-summary-of-functions-and-bodies]] — a quick summary of functions and bodies from raw/javascriptallonge.pdf.
+- [[javascriptallonge-and-also-through-call-by-value]] — call by value from raw/javascriptallonge.pdf.
+- [[javascriptallonge-applying-functions]] — applying functions from raw/javascriptallonge.pdf.
+- [[javascriptallonge-are-consts-also-from-a-shadowy-planet]] — are consts also from a shadowy planet? from raw/javascriptallonge.pdf.
+- [[javascriptallonge-are-consts-also-from-a-shadowy-planet-through-naming-functions]] — Naming Functions from raw/javascriptallonge.pdf.
+- [[javascriptallonge-array-literals-through-element-references]] — array literals through element references from raw/javascriptallonge.pdf.
+- [[javascriptallonge-as-little-as-possible-about-functions-but-no-less-through-commas]] — commas from raw/javascriptallonge.pdf.
+- [[javascriptallonge-building-with-mutation-through-reassignment]] — building with mutation through Reassignment from raw/javascriptallonge.pdf.
+- [[javascriptallonge-combinators-through-composition]] — composition from raw/javascriptallonge.pdf.
+- [[javascriptallonge-composing-and-decomposing-data-through-destructuring-arrays]] — destructuring arrays from raw/javascriptallonge.pdf.
+- [[javascriptallonge-copy-on-read-through-copy-on-write]] — copy-on-read through copy-on-write from raw/javascriptallonge.pdf.
+- [[javascriptallonge-defaults-and-destructuring]] — defaults and destructuring from raw/javascriptallonge.pdf.
+- [[javascriptallonge-destructuring-is-not-pattern-matching]] — destructuring is not pattern matching from raw/javascriptallonge.pdf.
+- [[javascriptallonge-destructuring-parameters-through-self-similarity]] — destructuring parameters through Self-Similarity from raw/javascriptallonge.pdf.
+- [[javascriptallonge-eager-collections]] — eager collections from raw/javascriptallonge.pdf.
+- [[javascriptallonge-ecmascript-6-has-three-major-groups-of-features-through-matthew-knox]] — ECMAScript 6 has three major groups of features: from raw/javascriptallonge.pdf.
+- [[javascriptallonge-factorials-through-garbage-garbage-everywhere]] — Garbage, Garbage Everywhere from raw/javascriptallonge.pdf.
+- [[javascriptallonge-floating-through-as-little-as-possible-about-functions-but-no-less]] — floating through As Little As Possible About Functions, But No Less from raw/javascriptallonge.pdf.
+- [[javascriptallonge-foreword-to-the-six-edition-through-matthew-knox]] — Foreword to the 'Six' edition from raw/javascriptallonge.pdf.
+- [[javascriptallonge-forewords-to-the-first-edition-through-about-the-sample-pdf]] — Forewords to the First Edition through About The Sample PDF from raw/javascriptallonge.pdf.
+- [[javascriptallonge-from-through-summary]] — from through summary from raw/javascriptallonge.pdf.
+- [[javascriptallonge-function-declaration-caveats-34-through-higher-order-functions]] — function declaration caveats 34 through higher-order functions from raw/javascriptallonge.pdf.
+- [[javascriptallonge-function-declarations-through-higher-order-functions]] — function declarations from raw/javascriptallonge.pdf.
+- [[javascriptallonge-function-decorators]] — function decorators from raw/javascriptallonge.pdf.
+- [[javascriptallonge-functions-and-identities-through-functions-that-return-values-and-evaluate]] — destructuring and return values from raw/javascriptallonge.pdf.
+- [[javascriptallonge-functions-through-unary]] — Unary from raw/javascriptallonge.pdf.
+- [[javascriptallonge-gathering-through-self-similarity]] — gathering from raw/javascriptallonge.pdf.
+- [[javascriptallonge-generators-and-iterables]] — generators and iterables from raw/javascriptallonge.pdf.
+- [[javascriptallonge-generators-are-coroutines-through-more-generators]] — more generators from raw/javascriptallonge.pdf.
+- [[javascriptallonge-if-functions-without-free-variables-are-pure-are-closures-impure-through-that]] — if functions without free variables are pure, are closures impure? from raw/javascriptallonge.pdf.
 - [[javascriptallonge-images]] — images from raw/javascriptallonge.pdf.
 - [[javascriptallonge-implementing-methods-with-iteration]] — implementing methods with iteration from raw/javascriptallonge.pdf.
-- [[javascriptallonge-inside-out-through-const-and-lexical-scope]] — inside-out through const and lexical scope from raw/javascriptallonge.pdf.
-- [[javascriptallonge-iterating-through-caveat]] — iterating through caveat from raw/javascriptallonge.pdf.
-- [[javascriptallonge-iterator-objects-through-ordered-collections]] — iterator objects through ordered collections from raw/javascriptallonge.pdf.
-- [[javascriptallonge-javascript-allong-the-six-edition-through-about-javascript-allong]] — JavaScript Allongé, the 'Six' Edition through About JavaScript Allongé from raw/javascriptallonge.pdf.
-- [[javascriptallonge-lazy-collection-operations-through-interlude-the-carpenter-interviews-for-a]] — lazy collection operations through Interlude: The Carpenter Interviews for a Job from raw/javascriptallonge.pdf.
-- [[javascriptallonge-linear-recursion-through-summary]] — linear recursion through summary from raw/javascriptallonge.pdf.
-- [[javascriptallonge-lists-with-functions-as-data-through-functions-are-not-the-real-point]] — lists with functions as data through functions are not the real point from raw/javascriptallonge.pdf.
-- [[javascriptallonge-making-data-out-of-functions-through-the-vireo]] — Making Data Out Of Functions through the vireo from raw/javascriptallonge.pdf.
-- [[javascriptallonge-memoizing-an-iterable-through-daniel-friedman-and-matthias-felleisen]] — memoizing an iterable through Daniel Friedman and Matthias Felleisen from raw/javascriptallonge.pdf.
-- [[javascriptallonge-mutation-and-data-structures-through-mixing-let-and-const]] — mutation and data structures through mixing let and const from raw/javascriptallonge.pdf.
-- [[javascriptallonge-operations-on-ordered-collections-through-generating-iterables]] — operations on ordered collections through Generating Iterables from raw/javascriptallonge.pdf.
-- [[javascriptallonge-or-even-through-back-on-the-block]] — Or even: through back on the block from raw/javascriptallonge.pdf.
-- [[javascriptallonge-overcoming-limitations-through-false]] — overcoming limitations through false from raw/javascriptallonge.pdf.
-- [[javascriptallonge-partial-application-through-summary]] — partial application through Summary from raw/javascriptallonge.pdf.
-- [[javascriptallonge-plain-old-javascript-objects-through-destructuring-objects]] — Plain Old JavaScript Objects through destructuring objects from raw/javascriptallonge.pdf.
+- [[javascriptallonge-inside-out-through-const-and-lexical-scope]] — const and lexical scope from raw/javascriptallonge.pdf.
+- [[javascriptallonge-it-s-always-the-environment]] — it's always the environment from raw/javascriptallonge.pdf.
+- [[javascriptallonge-iterating-through-caveat]] — caveat from raw/javascriptallonge.pdf.
+- [[javascriptallonge-iterator-objects-through-ordered-collections]] — operations on ordered collections from raw/javascriptallonge.pdf.
+- [[javascriptallonge-javascript-allong-the-six-edition-through-about-javascript-allong]] — About JavaScript Allongé from raw/javascriptallonge.pdf.
+- [[javascriptallonge-lazy-collection-operations-through-interlude-the-carpenter-interviews-for-a]] — Interlude: The Carpenter Interviews for a Job from raw/javascriptallonge.pdf.
+- [[javascriptallonge-left-variadic-destructuring-through-true]] — left-variadic destructuring through true from raw/javascriptallonge.pdf.
+- [[javascriptallonge-like-this-through-iterables-out-to-infinity]] — Like this: through iterables out to infinity from raw/javascriptallonge.pdf.
+- [[javascriptallonge-linear-recursion-through-summary]] — summary from raw/javascriptallonge.pdf.
+- [[javascriptallonge-lists-with-functions-as-data-through-functions-are-not-the-real-point]] — functions are not the real point from raw/javascriptallonge.pdf.
+- [[javascriptallonge-literal-object-syntax]] — literal object syntax from raw/javascriptallonge.pdf.
+- [[javascriptallonge-magic-names]] — Magic Names from raw/javascriptallonge.pdf.
+- [[javascriptallonge-magic-names-and-fat-arrows]] — magic names and fat arrows from raw/javascriptallonge.pdf.
+- [[javascriptallonge-making-data-out-of-functions-through-the-vireo]] — the vireo from raw/javascriptallonge.pdf.
+- [[javascriptallonge-mapping-through-folding]] — mapping through folding from raw/javascriptallonge.pdf.
+- [[javascriptallonge-mapwith]] — mapWith from raw/javascriptallonge.pdf.
+- [[javascriptallonge-maybe-through-a-history-lesson]] — Maybe through a history lesson from raw/javascriptallonge.pdf.
+- [[javascriptallonge-memoizing-an-iterable-through-daniel-friedman-and-matthias-felleisen]] — Daniel Friedman and Matthias Felleisen from raw/javascriptallonge.pdf.
+- [[javascriptallonge-memoizing-an-iterable-through-thanks]] — memoizing an iterable through Thanks! from raw/javascriptallonge.pdf.
+- [[javascriptallonge-mutation]] — Mutation from raw/javascriptallonge.pdf.
+- [[javascriptallonge-mutation-and-data-structures-through-mixing-let-and-const]] — why const and let were invented from raw/javascriptallonge.pdf.
+- [[javascriptallonge-nested-blocks]] — nested blocks from raw/javascriptallonge.pdf.
+- [[javascriptallonge-operations-on-ordered-collections-through-generating-iterables]] — Basic Operations on Iterables from raw/javascriptallonge.pdf.
+- [[javascriptallonge-operations-that-transform-one-iterable-into-another]] — operations that transform one iterable into another from raw/javascriptallonge.pdf.
+- [[javascriptallonge-or-even]] — Or even: from raw/javascriptallonge.pdf.
+- [[javascriptallonge-or-even-through-back-on-the-block]] — back on the block from raw/javascriptallonge.pdf.
+- [[javascriptallonge-overcoming-limitations-through-false]] — false from raw/javascriptallonge.pdf.
+- [[javascriptallonge-partial-application-through-summary]] — Partial Application from raw/javascriptallonge.pdf.
+- [[javascriptallonge-plain-old-javascript-objects-through-destructuring-objects]] — destructuring objects from raw/javascriptallonge.pdf.
+- [[javascriptallonge-prelude-values-and-expressions-over-coffee-through-values-and-identity]] — values and identity from raw/javascriptallonge.pdf.
+- [[javascriptallonge-programming-from-functions-to-classes-in-ecmascript-2015-through-a-pull-of-the]] — Programming from Functions to Classes in ECMAScript 2015 from raw/javascriptallonge.pdf.
 - [[javascriptallonge-quasi-literals-through-a-look-back-at-functional-iterators]] — quasi-literals through a look back at functional iterators from raw/javascriptallonge.pdf.
-- [[javascriptallonge-recursive-iterators-through-javascript-s-generators]] — recursive iterators through javascript's generators from raw/javascriptallonge.pdf.
-- [[javascriptallonge-reference-types-through-the-first-sip-basic-functions]] — reference types through The first sip: Basic Functions from raw/javascriptallonge.pdf.
-- [[javascriptallonge-revisiting-linked-lists-through-mutation]] — revisiting linked lists through Mutation from raw/javascriptallonge.pdf.
-- [[javascriptallonge-richard-feynman-through-copyright-notice]] — Richard Feynman through Copyright Notice from raw/javascriptallonge.pdf.
-- [[javascriptallonge-self-currying-flip-through-a-warm-cup-basic-strings-and-quasi-literals]] — self-currying flip through A Warm Cup: Basic Strings and Quasi-Literals from raw/javascriptallonge.pdf.
-- [[javascriptallonge-some-history-through-summary]] — some history through summary from raw/javascriptallonge.pdf.
-- [[javascriptallonge-summary-through-operations-that-transform-an-iterable-into-a-value]] — summary through operations that transform an iterable into a value from raw/javascriptallonge.pdf.
-- [[javascriptallonge-tail-calls-and-default-arguments-through-converting-non-tail-calls-to-tail]] — Tail Calls (and Default Arguments) through converting non-tail-calls to tail-calls from raw/javascriptallonge.pdf.
-- [[javascriptallonge-tap-through-a-history-lesson]] — Tap through a history lesson from raw/javascriptallonge.pdf.
-- [[javascriptallonge-the-aftermath-through-would-be-3-producing]] — the aftermath through Would be 3 , producing: from raw/javascriptallonge.pdf.
-- [[javascriptallonge-the-function-keyword-through-higher-order-functions]] — the function keyword through higher-order functions from raw/javascriptallonge.pdf.
-- [[javascriptallonge-the-problem-through-the-carpenter-s-solution]] — the problem through the carpenter's solution from raw/javascriptallonge.pdf.
-- [[javascriptallonge-tortoises-hares-and-teleporting-turtles-through-functional-iterators]] — Tortoises, Hares, and Teleporting Turtles through Functional Iterators from raw/javascriptallonge.pdf.
-- [[javascriptallonge-truthiness-and-the-ternary-operator-through-summary]] — truthiness and the ternary operator through summary from raw/javascriptallonge.pdf.
-- [[javascriptallonge-var-through-copy-on-write]] — var through Copy on Write from raw/javascriptallonge.pdf.
-- [[javascriptallonge-variables-and-bindings-through-closures-and-scope]] — variables and bindings through Closures and Scope from raw/javascriptallonge.pdf.
-- [[javascriptallonge-why-the-six-edition-through-how-this-book-is-organized]] — why the 'six' edition? through how this book is organized from raw/javascriptallonge.pdf.
-- [[javascriptallonge-will-be-represented-as-through-interactive-generators]] — Will be represented as: through interactive generators from raw/javascriptallonge.pdf.
-- [[javascriptallonge-yielding-iterables-through-lazy-and-eager-collections]] — yielding iterables through Lazy and Eager Collections from raw/javascriptallonge.pdf.
+- [[javascriptallonge-quasi-literals-through-a-look-back-at-functional-iterators-2]] — quasi-literals through a look back at functional iterators from raw/javascriptallonge.pdf.
+- [[javascriptallonge-rebinding]] — rebinding from raw/javascriptallonge.pdf.
+- [[javascriptallonge-recipes-with-basic-functions-through-disclaimer]] — Disclaimer from raw/javascriptallonge.pdf.
+- [[javascriptallonge-recursive-iterators-through-javascript-s-generators]] — recursive iterators from raw/javascriptallonge.pdf.
+- [[javascriptallonge-reference-types-through-the-first-sip-basic-functions]] — reference types from raw/javascriptallonge.pdf.
+- [[javascriptallonge-reg-raganwald-braithwaite-through-a-pull-of-the-lever-prefaces]] — Reg 'raganwald' Braithwaite through A Pull of the Lever: Prefaces from raw/javascriptallonge.pdf.
+- [[javascriptallonge-representing-naughts-and-crosses-as-a-stateless-function]] — representing naughts and crosses as a stateless function from raw/javascriptallonge.pdf.
+- [[javascriptallonge-revisiting-linked-lists-through-mutation]] — revisiting linked lists from raw/javascriptallonge.pdf.
+- [[javascriptallonge-richard-feynman-through-copyright-notice]] — Copyright Notice from raw/javascriptallonge.pdf.
+- [[javascriptallonge-say-please]] — say 'please' from raw/javascriptallonge.pdf.
+- [[javascriptallonge-self-currying-flip-through-a-warm-cup-basic-strings-and-quasi-literals]] — A Warm Cup: Basic Strings and Quasi-Literals from raw/javascriptallonge.pdf.
+- [[javascriptallonge-self-currying-flip-through-why]] — self-currying flip through Why? from raw/javascriptallonge.pdf.
+- [[javascriptallonge-shadowy-variables-from-a-shadowy-planet]] — shadowy variables from a shadowy planet from raw/javascriptallonge.pdf.
+- [[javascriptallonge-so-why-arrays]] — so why arrays from raw/javascriptallonge.pdf.
+- [[javascriptallonge-some-history-through-summary]] — summary from raw/javascriptallonge.pdf.
+- [[javascriptallonge-state-machines-through-we-ll-keep-it-simple]] — state machines through We'll keep it simple: from raw/javascriptallonge.pdf.
+- [[javascriptallonge-summary-through-operations-that-transform-an-iterable-into-a-value]] — operations that transform an iterable into a value from raw/javascriptallonge.pdf.
+- [[javascriptallonge-tail-call-optimization-through-converting-non-tail-calls-to-tail-calls]] — tail-call optimization through converting non-tail-calls to tail-calls from raw/javascriptallonge.pdf.
+- [[javascriptallonge-tail-calls-and-default-arguments-through-converting-non-tail-calls-to-tail]] — default arguments from raw/javascriptallonge.pdf.
+- [[javascriptallonge-tap-through-a-history-lesson]] — Tap from raw/javascriptallonge.pdf.
+- [[javascriptallonge-that-constant-coffee-craving-through-inside-out]] — That Constant Coffee Craving through inside-out from raw/javascriptallonge.pdf.
+- [[javascriptallonge-that-s-nice-is-that-the-only-reason-through-what-javascript-allong-is-and-isn]] — What JavaScript Allongé is. And isn't. from raw/javascriptallonge.pdf.
+- [[javascriptallonge-the-aftermath-through-would-be-3-producing]] — Would be 3 , producing: from raw/javascriptallonge.pdf.
+- [[javascriptallonge-the-function-keyword]] — the function keyword from raw/javascriptallonge.pdf.
+- [[javascriptallonge-the-function-keyword-through-higher-order-functions]] — Functions from raw/javascriptallonge.pdf.
+- [[javascriptallonge-the-kestrel-and-the-idiot-through-backwardness]] — the kestrel and the idiot through backwardness from raw/javascriptallonge.pdf.
+- [[javascriptallonge-the-problem-through-the-carpenter-s-solution]] — the carpenter's solution from raw/javascriptallonge.pdf.
+- [[javascriptallonge-the-simplest-possible-block-through-void]] — void from raw/javascriptallonge.pdf.
+- [[javascriptallonge-tortoises-hares-and-teleporting-turtles-through-functional-iterators]] — Functional Iterators from raw/javascriptallonge.pdf.
+- [[javascriptallonge-truthiness-and-operators-through-function-parameters-are-eager]] — truthiness and operators through function parameters are eager from raw/javascriptallonge.pdf.
+- [[javascriptallonge-truthiness-and-the-ternary-operator-through-summary]] — summary from raw/javascriptallonge.pdf.
+- [[javascriptallonge-undefined]] — undefined from raw/javascriptallonge.pdf.
+- [[javascriptallonge-unfolding-and-laziness-through-bonus]] — unfolding and laziness through bonus from raw/javascriptallonge.pdf.
+- [[javascriptallonge-var-through-copy-on-write]] — var from raw/javascriptallonge.pdf.
+- [[javascriptallonge-variables-and-bindings-through-call-by-sharing]] — call by sharing from raw/javascriptallonge.pdf.
+- [[javascriptallonge-variables-and-bindings-through-closures-and-scope]] — Closures and Scope from raw/javascriptallonge.pdf.
+- [[javascriptallonge-we-get-through-this-seems-familiar]] — We get: through this seems familiar from raw/javascriptallonge.pdf.
+- [[javascriptallonge-which-came-first-the-chicken-or-the-egg-through-inside-out]] — which came first, the chicken or the egg? from raw/javascriptallonge.pdf.
+- [[javascriptallonge-why-the-six-edition-through-how-this-book-is-organized]] — how this book is organized from raw/javascriptallonge.pdf.
+- [[javascriptallonge-will-be-represented-as-through-interactive-generators]] — interactive generators from raw/javascriptallonge.pdf.
+- [[javascriptallonge-yes-consider-this-variation]] — Yes. Consider this variation: from raw/javascriptallonge.pdf.
+- [[javascriptallonge-yielding-iterables-through-lazy-and-eager-collections]] — Lazy and Eager Collections from raw/javascriptallonge.pdf.
+- [[javascriptallonge-yielding-iterables-through-rewriting-iterable-operations]] — yielding iterables through rewriting iterable operations from raw/javascriptallonge.pdf.
 
 ## Entities
+- [[antikythera-mechanism]] — Facts about The Antikythera Mechanism from an ingested RawSource.
 
 ## Concepts
 
 ## Syntheses
+- [[wiki-ingest-confidence]] — Latest bounded post-ingest confidence report.

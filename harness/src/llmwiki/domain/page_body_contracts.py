@@ -11,6 +11,7 @@ from llmwiki.domain.objects import (
     ResolvedPageBodyContract,
     Schema,
     SourcePlanContractSelection,
+    SourceSummaryBullet,
     SourceSummaryDraft,
     SourceSummaryPlan,
 )
@@ -35,16 +36,28 @@ _SOURCE_FRAMING_PREFIXES = (
     "the source notes",
     "the source lists",
     "the source provides",
+    "the source highlights",
+    "the source explains",
+    "the source does not provide",
     "this source discusses",
     "this source describes",
+    "this source highlights",
+    "this source does not provide",
     "the text discusses",
     "the text describes",
     "the text mentions",
     "the text notes",
+    "the text highlights",
+    "the text explains",
+    "the text does not provide",
     "the section discusses",
     "the section describes",
+    "the section highlights",
+    "the section does not provide",
     "the book discusses",
     "the book describes",
+    "the book highlights",
+    "the book does not provide",
 )
 
 
@@ -111,6 +124,7 @@ def validate_page_body(
     findings.extend(_grounding_findings(page_body, contract))
     findings.extend(_length_findings(page_body, source_text, contract))
     findings.extend(_copy_findings(page_body, source_text, contract))
+    findings.extend(_source_summary_page_body_framing_findings(page_body, contract))
     return tuple(findings)
 
 
@@ -122,6 +136,34 @@ def render_source_summary_draft(draft: SourceSummaryDraft) -> str:
         "## Key supported claims\n\n"
         f"{bullets}"
     )
+
+
+def canonicalize_source_summary_draft(draft: SourceSummaryDraft) -> SourceSummaryDraft:
+    return SourceSummaryDraft(
+        source_record_text=draft.source_record_text.strip(),
+        claim_bullets=tuple(
+            SourceSummaryBullet(
+                bullet_text=_canonicalize_source_summary_bullet_text(bullet.bullet_text),
+                covered_source_claims=bullet.covered_source_claims,
+            )
+            for bullet in draft.claim_bullets
+        ),
+    )
+
+
+def canonicalize_source_summary_page_body(
+    page_body: str, contract: ResolvedPageBodyContract
+) -> str:
+    if contract.contract_id != "source-summary":
+        return page_body
+    lines: list[str] = []
+    for line in page_body.splitlines():
+        match = re.match(r"^(\s*[-*]\s+)(.+)$", line)
+        if match is None:
+            lines.append(line)
+            continue
+        lines.append(match.group(1) + _canonicalize_source_summary_bullet_text(match.group(2)))
+    return "\n".join(lines)
 
 
 def validate_source_summary_draft(
@@ -354,6 +396,43 @@ def _source_framing_bullet_findings(draft: SourceSummaryDraft) -> tuple[PageBody
                 )
             )
     return tuple(findings)
+
+
+def _source_summary_page_body_framing_findings(
+    page_body: str, contract: ResolvedPageBodyContract
+) -> tuple[PageBodyFinding, ...]:
+    if contract.contract_id != "source-summary":
+        return ()
+    findings: list[PageBodyFinding] = []
+    for idx, line in enumerate(page_body.splitlines(), start=1):
+        match = re.match(r"^\s*[-*]\s+(.+)$", line)
+        if match is None:
+            continue
+        lowered = match.group(1).strip().lower()
+        if any(lowered.startswith(prefix) for prefix in _SOURCE_FRAMING_PREFIXES):
+            findings.append(
+                PageBodyFinding(
+                    "SourceFramingBullet",
+                    f"line {idx} must state the source subject directly",
+                )
+            )
+    return tuple(findings)
+
+
+def _canonicalize_source_summary_bullet_text(text: str) -> str:
+    stripped = text.strip()
+    for prefix in _SOURCE_FRAMING_PREFIXES:
+        for suffix in (" that ", " "):
+            candidate = f"{prefix}{suffix}"
+            if stripped.lower().startswith(candidate):
+                return _capitalize_first_word(stripped[len(candidate) :].lstrip())
+    return stripped
+
+
+def _capitalize_first_word(text: str) -> str:
+    if not text:
+        return text
+    return text[0].upper() + text[1:]
 
 
 def _preserves_uncertainty(page_body: str, terms: tuple[str, ...]) -> bool:

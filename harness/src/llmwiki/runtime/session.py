@@ -18,6 +18,7 @@ from forge.core.messages import Message, MessageMeta, MessageRole, MessageType
 from forge.core.runner import WorkflowRunner
 
 from llmwiki.domain.chatwindow import QAPair
+from llmwiki.domain.evidence_registry import source_text_from_text
 from llmwiki.domain.links import compute_findings
 from llmwiki.domain.objects import (
     ExtractedUnit,
@@ -48,6 +49,7 @@ from llmwiki.pdf.pipeline import (
     read_source_text,
     save_manifest,
 )
+from llmwiki.runtime.ingest_confidence import record_post_ingest_confidence
 from llmwiki.runtime.transcript import TranscriptWriter
 from llmwiki.store import WikiStore
 from llmwiki.workflows import (
@@ -187,6 +189,15 @@ class Session:
             page_plan=page_plan,
             actual_pages=tuple(dict.fromkeys(actual_pages)),
         )
+        confidence = record_post_ingest_confidence(
+            store=self.store,
+            today=self.today,
+            run_id=self.run_id or self.today,
+            source_locator=source_locator,
+            page_plan=page_plan,
+            source_text=source_text_from_text(source_locator, source_text),
+        )
+        report += "\n" + _confidence_summary_line(confidence.report)
         self.store.append_log(self.today, "ingest", source_locator, report)
         return OperationResult(
             "ingest",
@@ -262,10 +273,23 @@ class Session:
         manifest = self._mark_manifest_planned(manifest, actual_pages_by_unit).mark_integrated()
         save_manifest(ExtractionResult(manifest=manifest, cache_dir=result.cache_dir))
         observation_path = self._write_observation(result.cache_dir, page_plan)
+        confidence = record_post_ingest_confidence(
+            store=self.store,
+            today=self.today,
+            run_id=self.run_id or self.today,
+            source_locator=source_locator,
+            page_plan=page_plan,
+            source_text=source_text_from_text(
+                source_locator,
+                read_source_text(result.cache_dir),
+                "pdf-cache",
+            ),
+        )
         report = (
             f"Planned ingest completed for {total} extracted unit(s) from "
             f"raw/{source_locator}. Executed {len(page_plan.planned_writes)} planned "
-            f"page write(s). Observation: {observation_path}."
+            f"page write(s). Observation: {observation_path}.\n"
+            f"{_confidence_summary_line(confidence.report)}"
         )
         self.store.append_log(self.today, "ingest", source_locator, report)
         return OperationResult(
@@ -546,3 +570,17 @@ class Session:
             self.store.index_page_ids(),
             exempt_from_orphans=frozenset({HEALTH_PAGE}),
         )
+
+
+def _confidence_summary_line(report: Any) -> str:
+    status_line = next(
+        (
+            line
+            for line in report.computed_summary.splitlines()
+            if line.startswith("Confidence status:")
+        ),
+        "Confidence status: unknown",
+    )
+    artifact_dir_note = "Report filed as [[wiki-ingest-confidence]]."
+    status = status_line.removeprefix("Confidence status: ")
+    return f"Ingest confidence: {status}. {artifact_dir_note}"

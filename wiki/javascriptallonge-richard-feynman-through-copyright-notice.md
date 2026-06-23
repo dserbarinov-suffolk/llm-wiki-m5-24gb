@@ -1,9 +1,9 @@
 ---
 page_id: javascriptallonge-richard-feynman-through-copyright-notice
 page_kind: source
-summary: Richard Feynman through Copyright Notice from raw/javascriptallonge.pdf.
-sources: raw/javascriptallonge.pdf p.292-292, raw/javascriptallonge.pdf p.293-293
-updated: 2026-06-20
+summary: Copyright Notice from raw/javascriptallonge.pdf.
+sources: raw/javascriptallonge.pdf p.293-293
+updated: 2026-06-23
 domain: javascriptallonge
 category_path: source-sections
 source_id: javascriptallonge.pdf
@@ -11,10 +11,10 @@ source_id: javascriptallonge.pdf
 
 ## Source record
 
-Source record for [[javascriptallonge-richard-feynman-through-copyright-notice]]. (raw/javascriptallonge.pdf)
+Source record for [[javascriptallonge-richard-feynman-through-copyright-notice]]. (raw/javascriptallonge.pdf p.293-293)
 
 ## Key supported claims
 
-- Richard Feynman's QED 105 explains Quantum Electrodynamics and the 'Sum of the Histories' methodology by demonstrating how light reflects off a mirror, challenging common assumptions about light's behavior. (raw/javascriptallonge.pdf)
-- The book simplifies complex concepts through logical explanations, building upon each other to clarify quantum phenomena. (raw/javascriptallonge.pdf)
-- The text explicitly states that many assumptions about light's behavior, such as it traveling in a straight line or reflecting off a plane, are incorrect. (raw/javascriptallonge.pdf)
+- Copyright for the original words in the book is held by Reginald Braithwaite from 2012 to 2015. (raw/javascriptallonge.pdf p.293-293)
+- All rights to the content are reserved by the copyright holder. (raw/javascriptallonge.pdf p.293-293)
+- The copyright notice explicitly identifies the time period and owner of the original content. (raw/javascriptallonge.pdf p.293-293)

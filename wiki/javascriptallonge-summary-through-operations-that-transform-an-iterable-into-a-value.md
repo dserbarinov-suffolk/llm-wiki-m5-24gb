@@ -1,9 +1,9 @@
 ---
 page_id: javascriptallonge-summary-through-operations-that-transform-an-iterable-into-a-value
 page_kind: source
-summary: summary through operations that transform an iterable into a value from raw/javascriptallonge.pdf.
-sources: raw/javascriptallonge.pdf p.283-283, raw/javascriptallonge.pdf p.284-284, raw/javascriptallonge.pdf p.284-285, raw/javascriptallonge.pdf p.285-286, raw/javascriptallonge.pdf p.286-286
-updated: 2026-06-20
+summary: operations that transform an iterable into a value from raw/javascriptallonge.pdf.
+sources: raw/javascriptallonge.pdf p.286-286
+updated: 2026-06-23
 domain: javascriptallonge
 category_path: source-sections
 source_id: javascriptallonge.pdf
@@ -11,10 +11,10 @@ source_id: javascriptallonge.pdf
 
 ## Source record
 
-Source record for [[javascriptallonge-summary-through-operations-that-transform-an-iterable-into-a-value]]. (raw/javascriptallonge.pdf)
+Source record for [[javascriptallonge-summary-through-operations-that-transform-an-iterable-into-a-value]]. (raw/javascriptallonge.pdf p.286-286)
 
 ## Key supported claims
 
-- Interactive generators model state implicitly in control flow, allowing values to be passed in and returned like ordinary functions. (raw/javascriptallonge.pdf)
-- Operations like map, filter, and zip transform iterables into new iterables or values, preserving collection semantics. (raw/javascriptallonge.pdf)
-- Functions like reduceWith and first transform iterables into values by applying operations cumulatively or extracting initial elements. (raw/javascriptallonge.pdf)
+- reduceWith applies a function to an iterable to produce a single value, starting with a seed. (raw/javascriptallonge.pdf p.286-286)
+- first retrieves the first element of an iterable using Symbol.iterator(). (raw/javascriptallonge.pdf p.286-286)
+- The code defines two functions for processing iterables but does not explain their broader implications or limitations. (raw/javascriptallonge.pdf p.286-286)

@@ -1,9 +1,9 @@
 ---
 page_id: javascriptallonge-yielding-iterables-through-lazy-and-eager-collections
 page_kind: source
-summary: yielding iterables through Lazy and Eager Collections from raw/javascriptallonge.pdf.
-sources: raw/javascriptallonge.pdf p.239-243, raw/javascriptallonge.pdf p.243-245, raw/javascriptallonge.pdf p.245-245, raw/javascriptallonge.pdf p.246-246
-updated: 2026-06-20
+summary: Lazy and Eager Collections from raw/javascriptallonge.pdf.
+sources: raw/javascriptallonge.pdf p.246-246
+updated: 2026-06-23
 domain: javascriptallonge
 category_path: source-sections
 source_id: javascriptallonge.pdf
@@ -11,10 +11,11 @@ source_id: javascriptallonge.pdf
 
 ## Source record
 
-Source record for [[javascriptallonge-yielding-iterables-through-lazy-and-eager-collections]]. (raw/javascriptallonge.pdf)
+Source record for [[javascriptallonge-yielding-iterables-through-lazy-and-eager-collections]]. (raw/javascriptallonge.pdf p.246-246)
 
 ## Key supported claims
 
-- TreeIterable treats each element as a tree and iterates over its elements recursively. (raw/javascriptallonge.pdf)
-- Generators simplify writing iterable operations by replacing complex iterator objects. (raw/javascriptallonge.pdf)
-- Some methods are added to only a few collections, while others are available to all. (raw/javascriptallonge.pdf)
+- Lazy and eager collections allow mapping operations without handling low-level details. (raw/javascriptallonge.pdf p.246-246)
+- Some methods are only added to a few collections, some are added to all. (raw/javascriptallonge.pdf p.246-246)
+- Working with iterables provides a higher level of abstraction for mapping. (raw/javascriptallonge.pdf p.246-246)
+- Flattening collections to arrays requires writing a .toArray method for each type. (raw/javascriptallonge.pdf p.246-246)

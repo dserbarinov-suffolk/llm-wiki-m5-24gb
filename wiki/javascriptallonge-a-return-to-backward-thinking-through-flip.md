@@ -1,9 +1,9 @@
 ---
 page_id: javascriptallonge-a-return-to-backward-thinking-through-flip
 page_kind: source
-summary: a return to backward thinking through Flip from raw/javascriptallonge.pdf.
-sources: raw/javascriptallonge.pdf p.189-190, raw/javascriptallonge.pdf p.191-191, raw/javascriptallonge.pdf p.192-192, raw/javascriptallonge.pdf p.193-194, raw/javascriptallonge.pdf p.195-196
-updated: 2026-06-20
+summary: Flip from raw/javascriptallonge.pdf.
+sources: raw/javascriptallonge.pdf p.195-196
+updated: 2026-06-23
 domain: javascriptallonge
 category_path: source-sections
 source_id: javascriptallonge.pdf
@@ -11,11 +11,10 @@ source_id: javascriptallonge.pdf
 
 ## Source record
 
-Source record for [[javascriptallonge-a-return-to-backward-thinking-through-flip]]. (raw/javascriptallonge.pdf)
+Source record for [[javascriptallonge-a-return-to-backward-thinking-through-flip]]. (raw/javascriptallonge.pdf p.195-196)
 
 ## Key supported claims
 
-- Pairs are implemented by passing functions to them, allowing the pair to call the provided function with its elements. (raw/javascriptallonge.pdf)
-- The mapWith function curries a function to transform it into a mapper, reversing the order of arguments. (raw/javascriptallonge.pdf)
-- Recipes may use JavaScript features not discussed in the text, such as methods and prototypes. (raw/javascriptallonge.pdf)
-- mapWith can be used with callRight and map to achieve the same result as using mapWith directly. (raw/javascriptallonge.pdf)
+- The flip operation reverses the order of function arguments and curries the function for cleaner implementation. (raw/javascriptallonge.pdf p.195-196)
+- The mapWith function combines argument reversal and currying to simplify function composition. (raw/javascriptallonge.pdf p.195-196)
+- The implementation conflates two transformations, which may complicate understanding of the function's behavior. (raw/javascriptallonge.pdf p.195-196)

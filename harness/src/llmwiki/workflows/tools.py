@@ -15,6 +15,8 @@ from pydantic import BaseModel, Field
 
 from llmwiki.domain.objects import PlannedPageWrite, SourceSummaryBullet, SourceSummaryDraft
 from llmwiki.domain.page_body_contracts import (
+    canonicalize_source_summary_draft,
+    canonicalize_source_summary_page_body,
     render_page_body_findings,
     render_source_summary_draft,
     validate_page_body,
@@ -264,6 +266,9 @@ def planned_write_page_tool(
 
     def _write_page_body(page_body: str) -> str:
         page_body = _strip_pipeline_markers(page_body)
+        page_body = canonicalize_source_summary_page_body(
+            page_body, planned_write.resolved_page_body_contract
+        )
         _validate_planned_page_body(store, planned_write, page_body)
         if (
             read_tracker is not None
@@ -300,6 +305,7 @@ def planned_write_page_tool(
                 for item in params.claim_bullets
             ),
         )
+        draft = canonicalize_source_summary_draft(draft)
         source_text = _page_body_contract_source_text(store, planned_write)
         findings = validate_source_summary_draft(
             draft, planned_write.source_summary_plan, source_text=source_text

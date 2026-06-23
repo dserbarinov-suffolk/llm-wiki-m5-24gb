@@ -2,3 +2,24 @@
 
 ## [2026-06-20] ingest | javascriptallonge.pdf
 Planned ingest completed for 209 extracted unit(s) from raw/javascriptallonge.pdf. Executed 53 planned page write(s). Observation: /Users/DSerbarinov/llm-wiki/harness/.cache/c98ab3e62b35ab0f/observation.md.
+
+## [2026-06-23] ingest | antikythera-mechanism.md
+Planned ingest completed for 1 ExtractedUnit(s) from raw/antikythera-mechanism.md. Planned pages: [[antikythera-mechanism-source]], [[antikythera-mechanism]]. Written pages: [[antikythera-mechanism-source]], [[antikythera-mechanism]].
+
+## [2026-06-23] ingest | antikythera-mechanism.md
+Planned ingest completed for 1 ExtractedUnit(s) from raw/antikythera-mechanism.md. Planned pages: [[antikythera-mechanism-source]], [[antikythera-mechanism]]. Written pages: [[antikythera-mechanism-source]], [[antikythera-mechanism]].
+
+## [2026-06-23] ingest | antikythera-mechanism.md
+Planned ingest completed for 1 ExtractedUnit(s) from raw/antikythera-mechanism.md. Planned pages: [[antikythera-mechanism-source]], [[antikythera-mechanism]]. Written pages: [[antikythera-mechanism-source]], [[antikythera-mechanism]].
+
+## [2026-06-23] ingest | antikythera-mechanism.md
+Planned ingest completed for 1 ExtractedUnit(s) from raw/antikythera-mechanism.md. Planned pages: [[antikythera-mechanism-source]], [[antikythera-mechanism]]. Written pages: [[antikythera-mechanism-source]], [[antikythera-mechanism]].
+Ingest confidence: passed. Report filed as [[wiki-ingest-confidence]].
+
+## [2026-06-23] ingest | antikythera-mechanism.md
+Planned ingest completed for 1 ExtractedUnit(s) from raw/antikythera-mechanism.md. Planned pages: [[antikythera-mechanism-source]], [[antikythera-mechanism]]. Written pages: [[antikythera-mechanism-source]], [[antikythera-mechanism]].
+Ingest confidence: passed. Report filed as [[wiki-ingest-confidence]].
+
+## [2026-06-23] ingest | javascriptallonge.pdf
+Planned ingest completed for 209 extracted unit(s) from raw/javascriptallonge.pdf. Executed 167 planned page write(s). Observation: /Users/DSerbarinov/llm-wiki/harness/.cache/c98ab3e62b35ab0f/observation.md.
+Ingest confidence: passed with warnings. Report filed as [[wiki-ingest-confidence]].

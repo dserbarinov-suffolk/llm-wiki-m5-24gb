@@ -13,6 +13,8 @@ tool-error channel, so they are written as corrective instructions.
 
 from __future__ import annotations
 
+import hashlib
+import re
 from pathlib import Path
 
 from llmwiki.config import SOURCE_READ_BUDGET_CHARS, WikiPaths
@@ -173,6 +175,56 @@ class WikiStore:
         entry = format_log_entry(date_iso, op, subject, detail)
         with self._paths.log_path.open("a", encoding="utf-8") as fh:
             fh.write(entry)
+
+    # -- harness-owned ingest artifacts --------------------------------------
+
+    def page_plan_artifact_dir(self, source_locator: str) -> Path:
+        digest = hashlib.sha256(source_locator.encode("utf-8")).hexdigest()[:12]
+        stem = re.sub(r"[^a-z0-9]+", "-", Path(source_locator).stem.lower()).strip("-")
+        return self._paths.cache_dir / "page-plans" / f"{stem or 'source'}-{digest}"
+
+    def write_page_plan_artifacts(
+        self,
+        source_locator: str,
+        page_plan_json: str,
+        observation_report: str,
+    ) -> None:
+        artifact_dir = self.page_plan_artifact_dir(source_locator)
+        artifact_dir.mkdir(parents=True, exist_ok=True)
+        (artifact_dir / "page-plan.json").write_text(page_plan_json, encoding="utf-8")
+        (artifact_dir / "observation-report.md").write_text(
+            observation_report, encoding="utf-8"
+        )
+
+    def write_evidence_registry_artifact(self, source_locator: str, registry_json: str) -> None:
+        artifact_dir = self.page_plan_artifact_dir(source_locator)
+        artifact_dir.mkdir(parents=True, exist_ok=True)
+        (artifact_dir / "evidence-registry.json").write_text(registry_json, encoding="utf-8")
+
+    def write_evidence_locator_index_artifact(
+        self, source_locator: str, locator_index_json: str
+    ) -> None:
+        artifact_dir = self.page_plan_artifact_dir(source_locator)
+        artifact_dir.mkdir(parents=True, exist_ok=True)
+        (artifact_dir / "evidence-locators.json").write_text(
+            locator_index_json, encoding="utf-8"
+        )
+
+    def write_artifact_fingerprint(self, source_locator: str, fingerprint_json: str) -> None:
+        artifact_dir = self.page_plan_artifact_dir(source_locator)
+        artifact_dir.mkdir(parents=True, exist_ok=True)
+        (artifact_dir / "artifact-fingerprint.json").write_text(
+            fingerprint_json, encoding="utf-8"
+        )
+
+    def read_artifact_fingerprint(self, source_locator: str) -> str | None:
+        path = self.page_plan_artifact_dir(source_locator) / "artifact-fingerprint.json"
+        return path.read_text(encoding="utf-8") if path.is_file() else None
+
+    def write_ingest_confidence_report_artifact(self, source_locator: str, report: str) -> None:
+        artifact_dir = self.page_plan_artifact_dir(source_locator)
+        artifact_dir.mkdir(parents=True, exist_ok=True)
+        (artifact_dir / "ingest-confidence-report.md").write_text(report, encoding="utf-8")
 
 
 def _is_hidden_path(path: Path, root: Path) -> bool:

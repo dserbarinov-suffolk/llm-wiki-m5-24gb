@@ -18,6 +18,8 @@ from llmwiki.domain.objects import (
     SourceSummaryPlan,
 )
 from llmwiki.domain.page_body_contracts import (
+    canonicalize_source_summary_draft,
+    canonicalize_source_summary_page_body,
     contract_for_page_kind,
     render_source_summary_draft,
     resolve_page_body_contract,
@@ -333,6 +335,75 @@ class TestPageBodyContracts:
         findings = validate_source_summary_draft(draft, plan)
 
         assert [finding.finding_type for finding in findings] == ["SourceFramingBullet"]
+
+    def test_source_summary_draft_canonicalizes_simple_source_framing(self) -> None:
+        draft = SourceSummaryDraft(
+            source_record_text=" Source record for [[alpha]]. (raw/alpha.md) ",
+            claim_bullets=(
+                SourceSummaryBullet(
+                    "The text mentions that a generalized recipe was not written. (raw/alpha.md)",
+                    ("source-claim-unit-0001-0001",),
+                ),
+                SourceSummaryBullet(
+                    "The section describes two recipes for applying one argument. (raw/alpha.md)",
+                    ("source-claim-unit-0001-0002",),
+                ),
+                SourceSummaryBullet(
+                    "The text does not provide a complete method. (raw/alpha.md)",
+                    ("source-claim-unit-0001-0003",),
+                ),
+            ),
+        )
+
+        canonical = canonicalize_source_summary_draft(draft)
+
+        assert canonical.source_record_text == "Source record for [[alpha]]. (raw/alpha.md)"
+        assert canonical.claim_bullets[0].bullet_text.startswith("A generalized recipe")
+        assert canonical.claim_bullets[1].bullet_text.startswith("Two recipes")
+        assert canonical.claim_bullets[2].bullet_text.startswith("A complete method")
+        assert validate_source_summary_draft(
+            canonical,
+            SourceSummaryPlan(
+                source_summary_plan_id="source-summary-plan-alpha",
+                page_id="alpha-source",
+                selected_source_claims=(
+                    "source-claim-unit-0001-0001",
+                    "source-claim-unit-0001-0002",
+                    "source-claim-unit-0001-0003",
+                ),
+                required_source_citations=("raw/alpha.md",),
+            ),
+        ) == ()
+
+    def test_source_summary_page_body_canonicalizes_simple_source_framing(self) -> None:
+        contract = resolve_page_body_contract(
+            PageBodyContract(
+                contract_id="source-summary",
+                match_page_kinds=("source",),
+                required_sections=("Source record", "Key supported claims"),
+                required_markdown_shape="claim-bullets",
+                min_claim_bullets=3,
+            )
+        )
+        page_body = (
+            "## Source record\n\n"
+            "Source record for [[alpha]]. (raw/alpha.md)\n\n"
+            "## Key supported claims\n\n"
+            "- Alpha identifies the subject. (raw/alpha.md)\n"
+            "- The source discusses a compact claim. (raw/alpha.md)\n"
+            "- The text highlights a second compact claim. (raw/alpha.md)"
+        )
+
+        findings = validate_page_body(page_body, contract)
+        canonical = canonicalize_source_summary_page_body(page_body, contract)
+
+        assert [finding.finding_type for finding in findings] == [
+            "SourceFramingBullet",
+            "SourceFramingBullet",
+        ]
+        assert "- A compact claim. (raw/alpha.md)" in canonical
+        assert "- A second compact claim. (raw/alpha.md)" in canonical
+        assert validate_page_body(canonical, contract) == ()
 
     def test_source_summary_draft_does_not_render_source_claim_ids(self) -> None:
         plan = SourceSummaryPlan(

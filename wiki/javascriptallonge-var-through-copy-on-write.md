@@ -1,9 +1,9 @@
 ---
 page_id: javascriptallonge-var-through-copy-on-write
 page_kind: source
-summary: var through Copy on Write from raw/javascriptallonge.pdf.
-sources: raw/javascriptallonge.pdf p.151-154, raw/javascriptallonge.pdf p.154-154, raw/javascriptallonge.pdf p.155-157, raw/javascriptallonge.pdf p.158-159
-updated: 2026-06-20
+summary: var from raw/javascriptallonge.pdf.
+sources: raw/javascriptallonge.pdf p.151-154
+updated: 2026-06-23
 domain: javascriptallonge
 category_path: source-sections
 source_id: javascriptallonge.pdf
@@ -11,11 +11,11 @@ source_id: javascriptallonge.pdf
 
 ## Source record
 
-Source record for [[javascriptallonge-var-through-copy-on-write]]. (raw/javascriptallonge.pdf)
+Source record for [[javascriptallonge-var-through-copy-on-write]]. (raw/javascriptallonge.pdf p.151-154)
 
 ## Key supported claims
 
-- var is function-scoped, unlike let and const, leading to potential confusion in JavaScript code. (raw/javascriptallonge.pdf)
-- var was the primary method for variable declaration in JavaScript for nearly twenty years. (raw/javascriptallonge.pdf)
-- Using var can lead to unexpected behavior in closures, as demonstrated by the example with the for loop and function declarations. (raw/javascriptallonge.pdf)
-- Taking the rest of an array creates a copy of the elements, while taking the rest of a linked list shares the nodes. (raw/javascriptallonge.pdf)
+- var binds names to values, similar to let but with function scope. (raw/javascriptallonge.pdf p.151-154)
+- var declarations are function scoped, not block scoped, leading to potential confusion. (raw/javascriptallonge.pdf p.151-154)
+- Using var can lead to unexpected behavior, such as inner declarations not shadowing outer ones. (raw/javascriptallonge.pdf p.151-154)
+- var is recommended to be used with caution, as it can present a source of confusion. (raw/javascriptallonge.pdf p.151-154)
