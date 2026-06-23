@@ -1554,7 +1554,7 @@ def _source_page_unit_groups(
         current_tokens += unit_tokens
 
     flush()
-    return tuple(groups)
+    return _coalesced_source_page_unit_groups(tuple(groups))
 
 
 def _exact_source_page_unit_groups(
@@ -1567,6 +1567,19 @@ def _exact_source_page_unit_groups(
         page_id = _target_source_page(unit, existing_pages, matches_by_unit.get(unit.unit_id, ()))
         groups.setdefault(page_id, []).append(unit)
     return tuple((page_id, tuple(units)) for page_id, units in groups.items())
+
+
+def _coalesced_source_page_unit_groups(
+    groups: tuple[tuple[str, tuple[ExtractedUnit, ...]], ...],
+) -> tuple[tuple[str, tuple[ExtractedUnit, ...]], ...]:
+    merged: dict[str, list[ExtractedUnit]] = {}
+    order: list[str] = []
+    for page_id, units in groups:
+        if page_id not in merged:
+            order.append(page_id)
+            merged[page_id] = []
+        merged[page_id].extend(units)
+    return tuple((page_id, tuple(merged[page_id])) for page_id in order)
 
 
 def _source_group_page_id(
@@ -1632,12 +1645,40 @@ def _source_contract_citations(
 
 
 def _same_section_identity(heading: str, page_id: str) -> bool:
-    heading_terms = set(_tokens(heading))
+    heading_terms = _section_identity_terms(heading)
     if not heading_terms:
         return False
-    page_terms = set(page_id.split("-"))
+    page_terms = _section_identity_terms(page_id.replace("-", " "))
+    if not page_terms:
+        return False
+    if _contains_ordered_terms(page_terms, heading_terms):
+        return True
+    if heading_terms[0] not in set(page_terms):
+        return False
     required_overlap = min(2, len(heading_terms))
-    return len(heading_terms & page_terms) >= required_overlap
+    overlap = set(heading_terms) & set(page_terms)
+    return len(overlap) >= required_overlap and len(overlap) / len(heading_terms) >= 0.5
+
+
+def _section_identity_terms(text: str) -> tuple[str, ...]:
+    terms: list[str] = []
+    for token in _tokens(text):
+        terms.append(token)
+        terms.extend(part for part in token.split("-") if part)
+    return tuple(dict.fromkeys(terms))
+
+
+def _contains_ordered_terms(page_terms: tuple[str, ...], heading_terms: tuple[str, ...]) -> bool:
+    if len(heading_terms) > len(page_terms):
+        return False
+    search_from = 0
+    for heading_term in heading_terms:
+        try:
+            found_at = page_terms.index(heading_term, search_from)
+        except ValueError:
+            return False
+        search_from = found_at + 1
+    return True
 
 
 def _matches_by_unit(matches: tuple[WikiMatch, ...]) -> dict[str, tuple[WikiMatch, ...]]:

@@ -137,6 +137,96 @@ def test_high_section_pdf_units_group_into_bounded_source_writes() -> None:
             assert write.resolved_page_body_contract.required_source_citations == ("raw/book.pdf",)
 
 
+def test_high_section_pdf_units_coalesce_existing_source_page_targets() -> None:
+    raw_source = RawSource.from_locator("book.pdf")
+    units = (
+        ExtractedUnit(
+            unit_id="unit-0001",
+            raw_source=raw_source,
+            locator="p.1",
+            heading_path="Functions",
+            text="Functions are values and may return other functions.",
+            extraction_status="ok",
+        ),
+        *(
+            ExtractedUnit(
+                unit_id=f"unit-{idx:04d}",
+                raw_source=raw_source,
+                locator=f"p.{idx}",
+                heading_path=f"Section {idx}",
+                text=f"Section {idx} describes scoped behavior and limitations.",
+                extraction_status="ok",
+            )
+            for idx in range(2, 42)
+        ),
+        ExtractedUnit(
+            unit_id="unit-0042",
+            raw_source=raw_source,
+            locator="p.42",
+            heading_path="Functions",
+            text="Functions also support higher-order programming patterns.",
+            extraction_status="ok",
+        ),
+    )
+    existing_pages = {
+        "book-functions": _page("book-functions", "Existing functions source page.")
+    }
+
+    plan = build_page_plan(
+        plan_id="test-plan",
+        source_bundle=SourceBundle.one(raw_source),
+        raw_source=raw_source,
+        extracted_units=units,
+        existing_pages=existing_pages,
+        wiki_structure=LOCAL_FLAT_STRUCTURE,
+        today="2026-06-23",
+    )
+
+    planned_page_ids = [write.page_metadata.page_id for write in plan.planned_writes]
+    function_writes = [
+        write for write in plan.planned_writes if write.page_metadata.page_id == "book-functions"
+    ]
+    assert len(planned_page_ids) == len(set(planned_page_ids))
+    assert len(function_writes) == 1
+    assert function_writes[0].extracted_units == ("unit-0001", "unit-0042")
+    assert function_writes[0].action == "enrich-existing"
+
+
+def test_generic_section_terms_do_not_match_existing_source_pages() -> None:
+    raw_source = RawSource.from_locator("book.pdf")
+    unit = ExtractedUnit(
+        unit_id="unit-0001",
+        raw_source=raw_source,
+        locator="p.106-107",
+        heading_path="destructuring and return values",
+        text="Destructuring can be used with returned values.",
+        extraction_status="ok",
+    )
+    existing_pages = {
+        "book-functions-and-identities-through-functions-that-return-values-and-evaluate": _page(
+            "book-functions-and-identities-through-functions-that-return-values-and-evaluate",
+            "Functions can return values and evaluate expressions.",
+        )
+    }
+
+    plan = build_page_plan(
+        plan_id="test-plan",
+        source_bundle=SourceBundle.one(raw_source),
+        raw_source=raw_source,
+        extracted_units=(unit,),
+        existing_pages=existing_pages,
+        wiki_structure=LOCAL_FLAT_STRUCTURE,
+        today="2026-06-23",
+    )
+
+    planned_pages = {write.page_metadata.page_id for write in plan.planned_writes}
+    assert "book-destructuring-and-return-values" in planned_pages
+    assert (
+        "book-functions-and-identities-through-functions-that-return-values-and-evaluate"
+        not in planned_pages
+    )
+
+
 def test_markdown_page_plan_uses_raw_source_stem_for_page_identity() -> None:
     raw_source = RawSource.from_locator("antikythera-mechanism.md")
     plan = build_markdown_page_plan(
