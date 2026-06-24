@@ -43,6 +43,12 @@ from llmwiki.domain.page_body_contracts import (
     resolve_page_body_contract,
 )
 from llmwiki.domain.pages import PageMetadata, WikiStructure, parse_page, slugify
+from llmwiki.domain.source_scope import (
+    SOURCE_SCOPE_TRANSITION_ELIGIBILITY,
+    is_source_scope_transition,
+    source_claim_sentence_index,
+    source_scope_boundaries,
+)
 
 _TOKEN_RE = re.compile(r"[a-z][a-z0-9-]{2,}")
 _HEADING_RE = re.compile(r"^#{1,6}\s+(.+)$", re.MULTILINE)
@@ -67,6 +73,7 @@ _INELIGIBLE_CLAIM_ELIGIBILITIES = frozenset(
         "source-furniture",
         "code-fragment",
         "source-framing",
+        "scope-transition",
     }
 )
 _SOURCE_FRAMING_PREFIXES = (
@@ -481,12 +488,14 @@ def planned_write_message(
     source_claims: dict[str, SourceClaim] | None = None,
 ) -> str:
     unit_blocks = []
-    for unit_id in write.extracted_units[:_MAX_SOURCE_UNITS_PER_WRITE]:
-        unit = units[unit_id]
-        unit_blocks.append(
-            f"<unit id='{unit.unit_id}' locator='{unit.locator}' heading='{unit.heading_path}'>\n"
-            f"{_truncate(unit.text, _MAX_SOURCE_CHARS_PER_WRITE)}\n</unit>"
-        )
+    if write.source_summary_plan is None:
+        for unit_id in write.extracted_units[:_MAX_SOURCE_UNITS_PER_WRITE]:
+            unit = units[unit_id]
+            unit_blocks.append(
+                f"<unit id='{unit.unit_id}' locator='{unit.locator}' "
+                f"heading='{unit.heading_path}'>\n"
+                f"{_truncate(unit.text, _MAX_SOURCE_CHARS_PER_WRITE)}\n</unit>"
+            )
     matches = "\n".join(
         f"- [[{match.page_id}]] score={match.score:.3f} reason={match.match_reason}"
         for match in write.wiki_matches[:5]
@@ -531,11 +540,11 @@ def planned_write_message(
         f"{contract_guidance}"
         f"{_planned_write_call_instruction(write)}"
         "The PagePlan supplies PageId, PageKind, PageMetadata, and PagePath.\n\n"
-        "Write only claims supported by the supplied ExtractedUnit text. "
+        f"Write only claims supported by {_planned_write_evidence_basis(write)}. "
         "Preserve SourceSummaryPlan source-uncertainty claims without inventing new gaps. "
         "Write a compact source summary, not a transcript. Prefer concise sections and bullets.\n\n"
         f"WikiMatches:\n{matches or '- none'}\n\n"
-        f"{chr(10).join(unit_blocks)}"
+        f"{chr(10).join(unit_blocks) or _planned_write_omitted_unit_context(write)}"
     )
 
 
@@ -585,6 +594,21 @@ def _source_summary_selected_claims(
         source_claims[claim_id]
         for claim_id in plan.selected_source_claims
         if claim_id in source_claims
+    )
+
+
+def _planned_write_evidence_basis(write: PlannedPageWrite) -> str:
+    if write.source_summary_plan is None:
+        return "the supplied ExtractedUnit text"
+    return "the selected SourceSummaryPlan claim details"
+
+
+def _planned_write_omitted_unit_context(write: PlannedPageWrite) -> str:
+    if write.source_summary_plan is None:
+        return ""
+    return (
+        "ExtractedUnit text omitted for source-summary writes; use the selected "
+        "SourceSummaryPlan claim details above as source evidence."
     )
 
 
@@ -711,6 +735,8 @@ def _claim_eligibility(statement: str, role_tags: tuple[str, ...]) -> str:
         return "code-fragment"
     if _is_source_furniture(lowered):
         return "source-furniture"
+    if is_source_scope_transition(lowered):
+        return SOURCE_SCOPE_TRANSITION_ELIGIBILITY
     if _is_rhetorical_example(lowered):
         return "rhetorical-example"
     if _is_narrative_frame(lowered):
@@ -913,6 +939,7 @@ def _source_summary_plan(
 ) -> SourceSummaryPlan | None:
     if contract.contract_id != "source-summary" or not source_claims:
         return None
+    source_claims = _source_summary_scope_claims(source_claims)
     claims_by_id = {claim.source_claim_id: claim for claim in source_claims}
     claims_by_unit: dict[str, list[SourceClaim]] = {}
     for claim in source_claims:
@@ -1009,6 +1036,34 @@ def _source_summary_plan(
         required_source_citations=contract.required_source_citations,
         coverage_policy=contract.coverage_policy,
     )
+
+
+def _source_summary_scope_claims(
+    source_claims: tuple[SourceClaim, ...],
+) -> tuple[SourceClaim, ...]:
+    boundary_by_unit: dict[str, int] = {}
+    for scope_boundary in source_scope_boundaries(source_claims):
+        current = boundary_by_unit.get(scope_boundary.unit_id)
+        if current is None or scope_boundary.sentence_index < current:
+            boundary_by_unit[scope_boundary.unit_id] = scope_boundary.sentence_index
+
+    if not boundary_by_unit:
+        return source_claims
+
+    scoped_claims = []
+    for claim in source_claims:
+        boundary_index = boundary_by_unit.get(claim.extracted_unit_id)
+        sentence_index = source_claim_sentence_index(
+            claim.source_span, claim.source_claim_id
+        )
+        if (
+            boundary_index is not None
+            and sentence_index is not None
+            and sentence_index >= boundary_index
+        ):
+            continue
+        scoped_claims.append(claim)
+    return tuple(scoped_claims) or source_claims
 
 
 def _eligible_claims(claims: list[SourceClaim] | tuple[SourceClaim, ...]) -> list[SourceClaim]:

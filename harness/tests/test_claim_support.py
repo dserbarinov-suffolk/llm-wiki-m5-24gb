@@ -226,6 +226,30 @@ def test_selection_blocks_source_summary_claim_that_crosses_scope_shift() -> Non
     assert [finding.category for finding in selection.deterministic_findings] == ["support-verdict"]
 
 
+def test_selection_blocks_source_scope_shift_with_renamed_fixture_terms() -> None:
+    selection = select_claim_support_candidates(
+        {
+            "field-guide-primary-protocol": _page_text(
+                "field-guide-primary-protocol",
+                "- The secondary protocol uses archival keys to distinguish duplicate "
+                "measurements. (raw/field-guide.pdf p.7)",
+            )
+        },
+        SourceInventory.from_raw_relative_paths(("field-guide.pdf",)),
+        (_registry_with_synthetic_scope_context(),),
+        max_claims=1,
+        source="field-guide.pdf",
+        sample_strategy="ordered",
+        page_ids=("field-guide-primary-protocol",),
+    )
+
+    assert selection.candidates == ()
+    assert selection.blocked_candidates[0].page_id == "field-guide-primary-protocol"
+    assert [finding.category for finding in selection.deterministic_findings] == [
+        "support-verdict"
+    ]
+
+
 def _page_text(page_id: str, bullet: str) -> str:
     return "\n".join(
         (
@@ -321,6 +345,48 @@ def _registry_with_contextual_claims() -> EvidenceRegistry:
                 excerpt_digest=f"digest-{index}",
                 evidence_kind="source-claim",
                 source_claim_id=f"source-claim-context-{index:04d}",
+            )
+            for index, excerpt in enumerate(excerpts, start=1)
+        ),
+    )
+
+
+def _registry_with_synthetic_scope_context() -> EvidenceRegistry:
+    source_text = SourceText(
+        source_locator="field-guide.pdf",
+        source_hash="hash",
+        source_text_kind="pdf-cache",
+        lines=("primary protocol excerpt",),
+    )
+    source_range = SourceRange(
+        source_range_id="source-range-field-guide-primary-protocol",
+        page_id="field-guide-primary-protocol",
+        source_locator="field-guide.pdf",
+        page_range=(7, 7),
+        line_range=(1, 1),
+        heading_path="Primary Protocol",
+    )
+    excerpts = (
+        "The primary protocol normalizes sensor readings before storage.",
+        "It keeps stable measurements in the active buffer.",
+        "We have not introduced the secondary protocol yet.",
+        "The secondary protocol uses archival keys to distinguish duplicate measurements.",
+    )
+    return EvidenceRegistry(
+        registry_id="evidence-registry-field-guide-context",
+        source_texts=(source_text,),
+        source_ranges=(source_range,),
+        evidence_records=tuple(
+            EvidenceRecord(
+                evidence_id=f"evidence-field-guide-context-{index:04d}",
+                source_locator="field-guide.pdf",
+                source_hash="hash",
+                source_range_id=source_range.source_range_id,
+                line_range=(1, 1),
+                excerpt=excerpt,
+                excerpt_digest=f"digest-{index}",
+                evidence_kind="source-claim",
+                source_claim_id=f"source-claim-field-guide-context-{index:04d}",
             )
             for index, excerpt in enumerate(excerpts, start=1)
         ),

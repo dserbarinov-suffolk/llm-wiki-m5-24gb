@@ -29,18 +29,10 @@ from llmwiki.domain.evidence_locators import (
 )
 from llmwiki.domain.evidence_registry import EvidenceRegistry
 from llmwiki.domain.pages import PageError, parse_page
+from llmwiki.domain.source_scope import first_source_scope_boundary_index
 from llmwiki.domain.system_pages import SYSTEM_PAGES
 
 _TERM_RE = re.compile(r"[a-z][a-z0-9-]{2,}")
-_SCOPE_SHIFT_RE = re.compile(
-    r"\b("
-    r"(?:have(?:n't| not)|has(?:n't| not)|had(?:n't| not))\s+encountered\b.{0,80}\byet\b"
-    r"|not\s+encountered\b.{0,80}\byet\b"
-    r"|fourth\s+possibility\b"
-    r"|we(?:'ll| will)\s+(?:see|encounter|discuss|return\s+to)\b.{0,80}\blater\b"
-    r")",
-    re.IGNORECASE,
-)
 
 
 def select_claim_support_candidates(
@@ -281,23 +273,23 @@ def _scope_shift_findings(candidate: ClaimSupportCandidate) -> tuple[ClaimSuppor
     claim_terms = _terms(candidate.claim_text)
     if not claim_terms:
         return ()
-    for index, excerpt in enumerate(excerpt_texts):
-        if _SCOPE_SHIFT_RE.search(excerpt) is None:
-            continue
-        prior_text = " ".join(excerpt_texts[:index])
-        shifted_text = " ".join(excerpt_texts[index:])
-        prior_overlap = len(claim_terms & _terms(prior_text))
-        shifted_overlap = len(claim_terms & _terms(shifted_text))
-        if shifted_overlap >= max(2, prior_overlap + 1):
-            return (
-                _finding(
-                    candidate,
-                    "support-verdict",
-                    "Evidence crosses a source-scope transition before the strongest "
-                    "matching support; this source-summary claim may be importing a "
-                    "later or different case.",
-                ),
-            )
+    boundary_index = first_source_scope_boundary_index(excerpt_texts)
+    if boundary_index is None:
+        return ()
+    prior_text = " ".join(excerpt_texts[:boundary_index])
+    shifted_text = " ".join(excerpt_texts[boundary_index:])
+    prior_overlap = len(claim_terms & _terms(prior_text))
+    shifted_overlap = len(claim_terms & _terms(shifted_text))
+    if shifted_overlap >= max(2, prior_overlap + 1):
+        return (
+            _finding(
+                candidate,
+                "support-verdict",
+                "Evidence crosses a source-scope transition before the strongest "
+                "matching support; this source-summary claim may be importing a "
+                "later or different case.",
+            ),
+        )
     return ()
 
 

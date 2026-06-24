@@ -6,6 +6,7 @@ from llmwiki.domain.planning import (
     _claim_eligibility,
     _claim_role_tags,
     build_page_plan,
+    planned_write_message,
     source_summary_quality_report,
 )
 
@@ -607,6 +608,96 @@ def test_source_summary_plan_separates_ordinary_modality_from_source_uncertainty
     )
     assert uncertainty_write.source_summary_plan is not None
     assert "source-uncertainty" in uncertainty_write.source_summary_plan.required_claim_role_tags
+
+
+def test_source_summary_plan_excludes_claims_after_scope_shift_marker() -> None:
+    unit = _unit(
+        "unit-0019",
+        "value types",
+        (
+            "# value types\n\n"
+            "Third, some types of cups have no distinguishing marks on them. "
+            "If they are the same kind of cup, and they hold the same contents, "
+            "we have no way to tell the difference between them. "
+            "This is the case with the strings, numbers, and booleans we have "
+            "seen so far.\n\n"
+            "```js\n"
+            "2 === 2\n"
+            "//=> true\n\n"
+            "'hello' === 'hello'\n"
+            "//=> true\n"
+            "```\n\n"
+            "Note well what is happening with the examples: Even when we obtain "
+            "a string, a number, or a boolean as the result of evaluating an "
+            "expression, it is identical to another value of the same type with "
+            "the same content. Strings, numbers, and booleans are examples of "
+            "what JavaScript calls 'value' or 'primitive' types. We'll use both "
+            "terms interchangeably.\n\n"
+            "We haven't encountered the fourth possibility yet. Stretching the "
+            "metaphor somewhat, some types of cups have a serial number on the "
+            "bottom. So even if you have two cups of the same type, and their "
+            "contents are the same, you can still distinguish between them."
+        ),
+    )
+    plan = _plan_for_units((unit,))
+    source_write = next(
+        write for write in plan.planned_writes if write.page_metadata.page_id != "book"
+    )
+    assert source_write.source_summary_plan is not None
+    claims_by_id = {claim.source_claim_id: claim for claim in plan.source_claims}
+    selected = tuple(
+        claims_by_id[claim_id]
+        for claim_id in source_write.source_summary_plan.selected_source_claims
+    )
+
+    assert any(
+        claim.claim_eligibility == "scope-transition" for claim in plan.source_claims
+    )
+    assert all("fourth possibility" not in claim.statement.lower() for claim in selected)
+    assert all(
+        "serial number" not in claim.statement.lower()
+        and "distinguish between them" not in claim.statement.lower()
+        for claim in selected
+    )
+    assert any("value" in claim.statement.lower() for claim in selected)
+    message = planned_write_message(source_write, {unit.unit_id: unit}, claims_by_id)
+    assert "fourth possibility" not in message.lower()
+    assert "serial number" not in message.lower()
+    assert "distinguish between them" not in message.lower()
+
+
+def test_source_summary_scope_boundary_uses_source_neutral_discourse() -> None:
+    unit = _unit(
+        "unit-0099",
+        "primary protocol",
+        (
+            "# primary protocol\n\n"
+            "The primary protocol normalizes sensor readings before storage. "
+            "It keeps stable measurements in the active buffer. "
+            "We have not introduced the secondary protocol yet. "
+            "The secondary protocol uses archival keys to distinguish duplicate "
+            "measurements."
+        ),
+    )
+    plan = _plan_for_units((unit,))
+    source_write = next(
+        write for write in plan.planned_writes if write.page_metadata.page_id != "book"
+    )
+    assert source_write.source_summary_plan is not None
+    claims_by_id = {claim.source_claim_id: claim for claim in plan.source_claims}
+    selected = tuple(
+        claims_by_id[claim_id]
+        for claim_id in source_write.source_summary_plan.selected_source_claims
+    )
+
+    assert any(
+        claim.claim_eligibility == "scope-transition" for claim in plan.source_claims
+    )
+    assert selected
+    assert all("secondary protocol" not in claim.statement.lower() for claim in selected)
+    message = planned_write_message(source_write, {unit.unit_id: unit}, claims_by_id)
+    assert "secondary protocol" not in message.lower()
+    assert "extractedunit text omitted" in message.lower()
 
 
 def test_source_summary_quality_report_counts_deterministic_failures() -> None:
