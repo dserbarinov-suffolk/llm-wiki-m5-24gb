@@ -192,30 +192,32 @@ class WikiStore:
         artifact_dir = self.page_plan_artifact_dir(source_locator)
         artifact_dir.mkdir(parents=True, exist_ok=True)
         (artifact_dir / "page-plan.json").write_text(page_plan_json, encoding="utf-8")
-        (artifact_dir / "observation-report.md").write_text(
-            observation_report, encoding="utf-8"
-        )
+        (artifact_dir / "observation-report.md").write_text(observation_report, encoding="utf-8")
 
     def write_evidence_registry_artifact(self, source_locator: str, registry_json: str) -> None:
         artifact_dir = self.page_plan_artifact_dir(source_locator)
         artifact_dir.mkdir(parents=True, exist_ok=True)
         (artifact_dir / "evidence-registry.json").write_text(registry_json, encoding="utf-8")
 
+    def read_evidence_registry_artifact(self, source_locator: str) -> str | None:
+        path = self.page_plan_artifact_dir(source_locator) / "evidence-registry.json"
+        return path.read_text(encoding="utf-8") if path.is_file() else None
+
     def write_evidence_locator_index_artifact(
         self, source_locator: str, locator_index_json: str
     ) -> None:
         artifact_dir = self.page_plan_artifact_dir(source_locator)
         artifact_dir.mkdir(parents=True, exist_ok=True)
-        (artifact_dir / "evidence-locators.json").write_text(
-            locator_index_json, encoding="utf-8"
-        )
+        (artifact_dir / "evidence-locators.json").write_text(locator_index_json, encoding="utf-8")
+
+    def read_evidence_locator_index_artifact(self, source_locator: str) -> str | None:
+        path = self.page_plan_artifact_dir(source_locator) / "evidence-locators.json"
+        return path.read_text(encoding="utf-8") if path.is_file() else None
 
     def write_artifact_fingerprint(self, source_locator: str, fingerprint_json: str) -> None:
         artifact_dir = self.page_plan_artifact_dir(source_locator)
         artifact_dir.mkdir(parents=True, exist_ok=True)
-        (artifact_dir / "artifact-fingerprint.json").write_text(
-            fingerprint_json, encoding="utf-8"
-        )
+        (artifact_dir / "artifact-fingerprint.json").write_text(fingerprint_json, encoding="utf-8")
 
     def read_artifact_fingerprint(self, source_locator: str) -> str | None:
         path = self.page_plan_artifact_dir(source_locator) / "artifact-fingerprint.json"
@@ -225,6 +227,11 @@ class WikiStore:
         artifact_dir = self.page_plan_artifact_dir(source_locator)
         artifact_dir.mkdir(parents=True, exist_ok=True)
         (artifact_dir / "ingest-confidence-report.md").write_text(report, encoding="utf-8")
+
+    def write_claim_support_report_artifact(self, source_locator: str, report: str) -> None:
+        artifact_dir = self.page_plan_artifact_dir(source_locator)
+        artifact_dir.mkdir(parents=True, exist_ok=True)
+        (artifact_dir / "claim-support-report.md").write_text(report, encoding="utf-8")
 
 
 def _is_hidden_path(path: Path, root: Path) -> bool:

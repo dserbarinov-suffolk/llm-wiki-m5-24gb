@@ -113,3 +113,14 @@ LINT_TEMPLATE = _BASE + (
     "lint runs repeatedly and converges. Finish with finish_lint: issues "
     "found, fixes applied, what remains, suggested next steps."
 )
+
+CLAIM_SUPPORT_TEMPLATE = _BASE + (
+    "\nTask: audit selected generated wiki claims against the supplied EvidenceRecords. "
+    "Use only the candidate claim, local wiki context, citations, and evidence excerpts "
+    "in the user message. Do not edit wiki pages. For every selected candidate, call "
+    "record_claim_support_verdict with one of supported, too_broad, not_supported, or "
+    "unclear. If the evidence supports a narrower claim but not the full generated "
+    "claim, use too_broad. If the supplied evidence does not support the claim, use "
+    "not_supported. After all selected candidates have structured verdicts, call "
+    "finish_claim_support with a concise audit note."
+)

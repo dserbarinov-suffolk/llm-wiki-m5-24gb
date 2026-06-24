@@ -11,6 +11,7 @@ from forge.context import ContextManager, NoCompact
 from forge.core.workflow import TextResponse, ToolCall
 
 from llmwiki.config import WikiPaths
+from llmwiki.domain.claim_support import ClaimSupportCandidate, ClaimSupportSelection
 from llmwiki.domain.objects import IngestRun, QueryRun
 from llmwiki.domain.pages import PageMetadata, WikiPage
 from llmwiki.runtime.session import Session
@@ -423,6 +424,71 @@ class TestIngest:
         # The turn after the bare text must carry the terminal-tool hint.
         nudges = [m["content"] for turn in fake.sent for m in turn if m.get("role") == "user"]
         assert any("finish_planned_write" in content for content in nudges)
+
+
+class TestClaimSupport:
+    async def test_claim_support_records_verdict_and_files_report(
+        self, store: WikiStore, paths: WikiPaths
+    ) -> None:
+        store.write_page(
+            _wiki_page(
+                "javascriptallonge-value-types",
+                "concept",
+                "Value type notes.",
+                "Same-type cups can still be distinguished. (raw/javascriptallonge.pdf p.22)",
+            )
+        )
+        candidate = ClaimSupportCandidate(
+            candidate_id="claim-support-prose-javascriptallonge-value-types-1",
+            page_id="javascriptallonge-value-types",
+            claim_text="Same-type cups can still be distinguished.",
+            page_context=(
+                "Same-type cups can still be distinguished. (raw/javascriptallonge.pdf p.22)"
+            ),
+            citation_texts=("raw/javascriptallonge.pdf p.22",),
+            source_claim_ids=(),
+            evidence_ids=("evidence-value-cups",),
+            evidence_excerpts=(
+                "evidence-value-cups: Value cups with the same value are undistinguishable.",
+            ),
+        )
+        selection = ClaimSupportSelection(
+            candidates=(candidate,),
+            blocked_candidates=(),
+            deterministic_findings=(),
+            candidate_count=1,
+            max_claims=1,
+            sample_strategy="ordered",
+        )
+        script = [
+            [
+                ToolCall(
+                    tool="record_claim_support_verdict",
+                    args={
+                        "candidate_id": candidate.candidate_id,
+                        "verdict": "not_supported",
+                        "rationale": "The excerpt says equal value cups are undistinguishable.",
+                        "recommended_action": "Move this distinction to the reference-types page.",
+                    },
+                )
+            ],
+            [ToolCall(tool="finish_claim_support", args={"report": "audited one claim"})],
+        ]
+
+        result = await _session(store, script, paths).claim_support(
+            selection,
+            subject="raw/javascriptallonge.pdf pages=javascriptallonge-value-types",
+            source_locator="javascriptallonge.pdf",
+        )
+
+        assert result.op == "claim-support"
+        assert "- not_supported: 1" in result.output
+        assert "Move this distinction" in store.read_page("wiki-claim-support")
+        artifact = store.page_plan_artifact_dir("javascriptallonge.pdf") / "claim-support-report.md"
+        assert artifact.is_file()
+        log = paths.log_path.read_text(encoding="utf-8")
+        assert f"## [{TODAY}] claim-support | raw/javascriptallonge.pdf" in log
+        assert "Model-raised issues: 1" in log
 
 
 class TestQuery:

@@ -13,7 +13,16 @@ import sys
 from datetime import datetime
 from pathlib import Path
 
+from forge.context import ContextManager, NoCompact
+
 from llmwiki.config import ConfigError, WikiPaths, load_backend_config
+from llmwiki.domain.citations import SourceInventory
+from llmwiki.domain.claim_support import (
+    DEFAULT_CLAIM_SUPPORT_SAMPLE_STRATEGY,
+    DEFAULT_MAX_CLAIM_SUPPORT_CLAIMS,
+)
+from llmwiki.domain.claim_support_selection import select_claim_support_candidates
+from llmwiki.domain.evidence_registry_io import registry_from_json
 from llmwiki.pdf import PdfError
 from llmwiki.pdf.pipeline import ExtractionResult, ensure_extracted
 from llmwiki.pdf.vision import AppleVisionRecognizer
@@ -66,6 +75,38 @@ def _build_parser() -> argparse.ArgumentParser:
         metavar="SESSION_ID",
         help="Continue a conversation (default: the most recent one).",
     )
+    claim_support = sub.add_parser(
+        "claim-support",
+        help="Audit selected generated claims against ingest EvidenceRecords.",
+    )
+    claim_support.add_argument(
+        "--source",
+        required=True,
+        help="Source path relative to raw/ whose evidence registry should be used.",
+    )
+    claim_support.add_argument(
+        "--max-claims",
+        type=int,
+        default=DEFAULT_MAX_CLAIM_SUPPORT_CLAIMS,
+        help="Maximum selected claims to send for model judgment.",
+    )
+    claim_support.add_argument(
+        "--sample-strategy",
+        choices=("ordered", "stratified"),
+        default=DEFAULT_CLAIM_SUPPORT_SAMPLE_STRATEGY,
+        help="Candidate sampling strategy.",
+    )
+    claim_support.add_argument(
+        "--page",
+        action="append",
+        default=[],
+        help="Restrict the audit to a page_id; repeat to include multiple pages.",
+    )
+    claim_support.add_argument(
+        "--claim-contains",
+        default="",
+        help="Restrict the audit to candidate claims containing this text.",
+    )
     return parser
 
 
@@ -85,9 +126,11 @@ def _pdf_extractor(paths: WikiPaths) -> ExtractFn:
 async def _run(args: argparse.Namespace) -> OperationResult:
     paths = WikiPaths(root=args.root.resolve())
     paths.validate()
-    backend_config = load_backend_config()
-
     now = datetime.now()
+    if args.op == "claim-support":
+        return await _run_claim_support(paths, args, now)
+
+    backend_config = load_backend_config()
     backend = await start_backend(backend_config)
     try:
         session = Session(
@@ -111,6 +154,75 @@ async def _run(args: argparse.Namespace) -> OperationResult:
         return await session.lint()
     finally:
         await backend.aclose()
+
+
+async def _run_claim_support(
+    paths: WikiPaths, args: argparse.Namespace, now: datetime
+) -> OperationResult:
+    store = WikiStore(paths)
+    source = args.source.removeprefix("raw/")
+    registry_json = store.read_evidence_registry_artifact(source)
+    if registry_json is None:
+        raise ConfigError(
+            "No evidence-registry artifact found for "
+            f"raw/{source}. Run `uv run llmwiki ingest {source}` first."
+        )
+    selection = select_claim_support_candidates(
+        store.page_texts(),
+        SourceInventory.from_raw_relative_paths(store.list_sources()),
+        (registry_from_json(registry_json),),
+        max_claims=args.max_claims,
+        source=source,
+        sample_strategy=args.sample_strategy,
+        page_ids=tuple(args.page),
+        claim_contains=args.claim_contains,
+    )
+    subject = _claim_support_subject(source, tuple(args.page), args.claim_contains)
+    if not selection.candidates:
+        session = Session(
+            store=store,
+            client=None,
+            context_manager=ContextManager(strategy=NoCompact(), budget_tokens=1),
+            today=now.date().isoformat(),
+            runs_dir=paths.runs_dir,
+            run_id=now.strftime("%Y-%m-%d-%H%M%S"),
+            extract_pdf=_pdf_extractor(paths),
+            on_chunk_note=lambda note: print(note, flush=True),
+        )
+        return await session.claim_support(
+            selection,
+            subject=subject,
+            source_locator=source,
+        )
+    backend_config = load_backend_config()
+    backend = await start_backend(backend_config)
+    try:
+        session = Session(
+            store=store,
+            client=backend.client,
+            context_manager=backend.context_manager,
+            today=now.date().isoformat(),
+            runs_dir=paths.runs_dir,
+            run_id=now.strftime("%Y-%m-%d-%H%M%S"),
+            extract_pdf=_pdf_extractor(paths),
+            on_chunk_note=lambda note: print(note, flush=True),
+        )
+        return await session.claim_support(
+            selection,
+            subject=subject,
+            source_locator=source,
+        )
+    finally:
+        await backend.aclose()
+
+
+def _claim_support_subject(source: str, page_ids: tuple[str, ...], claim_contains: str) -> str:
+    detail = [f"raw/{source}"]
+    if page_ids:
+        detail.append("pages=" + ",".join(page_ids))
+    if claim_contains:
+        detail.append(f"claim_contains={claim_contains}")
+    return " ".join(detail)
 
 
 async def _run_chat(session: Session, paths: WikiPaths, resume: str | None) -> OperationResult:

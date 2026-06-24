@@ -18,6 +18,11 @@ from forge.core.messages import Message, MessageMeta, MessageRole, MessageType
 from forge.core.runner import WorkflowRunner
 
 from llmwiki.domain.chatwindow import QAPair
+from llmwiki.domain.claim_support import (
+    ClaimSupportAuditReport,
+    ClaimSupportSelection,
+    ClaimSupportVerdict,
+)
 from llmwiki.domain.evidence_registry import source_text_from_text
 from llmwiki.domain.links import compute_findings
 from llmwiki.domain.objects import (
@@ -54,6 +59,7 @@ from llmwiki.runtime.transcript import TranscriptWriter
 from llmwiki.store import WikiStore
 from llmwiki.workflows import (
     build_chat_workflow,
+    build_claim_support_workflow,
     build_lint_workflow,
     build_query_workflow,
 )
@@ -68,6 +74,7 @@ _MAX_ITERATIONS = {
     "pdf-planned-write": 16,
     "planned-write": 16,
     "chat": 12,
+    "claim-support": 8,
 }
 
 _MAX_TOOL_ERRORS = {
@@ -118,6 +125,11 @@ _RETRY_NUDGES = {
         "the next tool you need."
     ),
     "chat": ("Reply with exactly one tool call. Use respond to deliver your answer to the user."),
+    "claim-support": (
+        "Reply with exactly one tool call. If every selected candidate has a "
+        "record_claim_support_verdict call, call finish_claim_support; otherwise "
+        "record the next missing verdict."
+    ),
 }
 
 
@@ -386,6 +398,50 @@ class Session:
             self._lint_run(),
         )
 
+    async def claim_support(
+        self,
+        selection: ClaimSupportSelection,
+        *,
+        subject: str = "selected claims",
+        source_locator: str = "",
+    ) -> OperationResult:
+        verdicts: list[ClaimSupportVerdict] = []
+        transcript: Path | None = None
+        model_report = "No model candidates selected."
+        if selection.candidates:
+            message = (
+                "Run a bounded claim-support audit for the selected generated "
+                "wiki claims. For each candidate, compare the full generated "
+                "claim to the supplied evidence excerpts and record exactly one "
+                "structured verdict.\n\n"
+                f"{selection.render_for_prompt()}"
+            )
+            model_report, transcript = await self._run(
+                build_claim_support_workflow(
+                    self.store,
+                    verdicts,
+                    selection.candidates,
+                    selection.deterministic_findings,
+                ),
+                message,
+                "claim-support",
+            )
+        audit = ClaimSupportAuditReport(
+            run_id=self.run_id or self.today,
+            selection=selection,
+            verdicts=tuple(verdicts),
+            model_report=model_report,
+        )
+        report = audit.render()
+        self._file_claim_support_report(report, source_locator=source_locator)
+        self.store.append_log(
+            self.today,
+            "claim-support",
+            subject,
+            _claim_support_summary_line(audit),
+        )
+        return OperationResult("claim-support", subject, report, transcript)
+
     async def _run(
         self,
         workflow: Any,
@@ -431,6 +487,21 @@ class Session:
                 report,
             )
         )
+
+    def _file_claim_support_report(self, report: str, *, source_locator: str = "") -> None:
+        self.store.write_page(
+            WikiPage.from_metadata(
+                PageMetadata(
+                    page_id="wiki-claim-support",
+                    page_kind="synthesis",
+                    summary=f"Latest bounded claim-support audit ({self.today}).",
+                    updated=self.today,
+                ),
+                report,
+            )
+        )
+        if source_locator:
+            self.store.write_claim_support_report_artifact(source_locator, report)
 
     def _schema_object(self) -> Schema:
         return Schema(page_contracts=self.store.read_schema())
@@ -584,3 +655,19 @@ def _confidence_summary_line(report: Any) -> str:
     artifact_dir_note = "Report filed as [[wiki-ingest-confidence]]."
     status = status_line.removeprefix("Confidence status: ")
     return f"Ingest confidence: {status}. {artifact_dir_note}"
+
+
+def _claim_support_summary_line(audit: ClaimSupportAuditReport) -> str:
+    verdict_counts = {"too_broad": 0, "not_supported": 0, "unclear": 0}
+    for verdict in audit.verdicts:
+        if verdict.verdict in verdict_counts:
+            verdict_counts[verdict.verdict] += 1
+    issue_count = sum(verdict_counts.values())
+    return (
+        "Claim-support audit filed as [[wiki-claim-support]]. "
+        f"Selected for model judgment: {audit.selection.selected_count}. "
+        f"Structured verdicts: {len(audit.verdicts)}. "
+        f"Model-raised issues: {issue_count}. "
+        f"Deterministic blockers: {audit.selection.deterministic_skipped_count}. "
+        f"Missing verdicts: {len(audit.missing_verdict_candidate_ids)}."
+    )

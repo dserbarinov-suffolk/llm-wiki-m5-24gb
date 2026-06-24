@@ -12,8 +12,14 @@ from __future__ import annotations
 from forge.core.workflow import Workflow
 from forge.tools.respond import respond_tool
 
+from llmwiki.domain.claim_support import (
+    ClaimSupportCandidate,
+    ClaimSupportFinding,
+    ClaimSupportVerdict,
+)
 from llmwiki.store import WikiStore
 from llmwiki.workflows import prompts
+from llmwiki.workflows.claim_support_tools import record_claim_support_verdict_tool
 from llmwiki.workflows.tools import (
     finish_tool,
     read_index_tool,
@@ -111,4 +117,28 @@ def build_lint_workflow(store: WikiStore, today: str) -> Workflow:
         required_steps=["read_page"],
         terminal_tool="finish_lint",
         system_prompt_template=prompts.LINT_TEMPLATE,
+    )
+
+
+def build_claim_support_workflow(
+    store: WikiStore,
+    verdicts: list[ClaimSupportVerdict],
+    candidates: tuple[ClaimSupportCandidate, ...],
+    deterministic_findings: tuple[ClaimSupportFinding, ...],
+) -> Workflow:
+    tools = [
+        record_claim_support_verdict_tool(store, verdicts, candidates, deterministic_findings),
+        finish_tool(
+            "finish_claim_support",
+            "Finish the claim-support audit with audited scope, uncertainty, "
+            "and curator next steps.",
+        ),
+    ]
+    return Workflow(
+        name="claim-support",
+        description="Audit selected generated wiki claims against EvidenceRecords.",
+        tools={t.name: t for t in tools},
+        required_steps=[],
+        terminal_tool="finish_claim_support",
+        system_prompt_template=prompts.CLAIM_SUPPORT_TEMPLATE,
     )

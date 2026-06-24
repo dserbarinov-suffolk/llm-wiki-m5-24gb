@@ -127,4 +127,5 @@
 ## Concepts
 
 ## Syntheses
+- [[wiki-claim-support]] — Latest bounded claim-support audit (2026-06-24).
 - [[wiki-ingest-confidence]] — Latest bounded post-ingest confidence report.

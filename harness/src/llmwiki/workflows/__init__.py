@@ -2,12 +2,14 @@
 
 from llmwiki.workflows.definitions import (
     build_chat_workflow,
+    build_claim_support_workflow,
     build_ingest_workflow,
     build_lint_workflow,
     build_query_workflow,
 )
 
 __all__ = [
+    "build_claim_support_workflow",
     "build_chat_workflow",
     "build_ingest_workflow",
     "build_lint_workflow",
