@@ -75,6 +75,7 @@ class PageMetadata:
     source_id: str = ""
     tags: tuple[str, ...] = field(default=())
     aliases: tuple[str, ...] = field(default=())
+    projection_coverage_pointer: str = ""
 
     def __post_init__(self) -> None:
         validate_page_id(self.page_id)
@@ -193,6 +194,8 @@ class DomainFrontmatter:
             lines.append(f"tags: {', '.join(metadata.tags)}")
         if metadata.aliases:
             lines.append(f"aliases: {', '.join(metadata.aliases)}")
+        if metadata.projection_coverage_pointer:
+            lines.append(f"projection_coverage: {metadata.projection_coverage_pointer}")
         lines.append(_FRONTMATTER_DELIM)
         return "\n".join(lines)
 
@@ -232,5 +235,6 @@ def parse_page(text: str) -> WikiPage:
         source_id=fields.get("source_id", ""),
         tags=tags,
         aliases=aliases,
+        projection_coverage_pointer=fields.get("projection_coverage", ""),
     )
     return WikiPage(page_metadata=metadata, page_body="\n".join(lines[body_start:]).strip())

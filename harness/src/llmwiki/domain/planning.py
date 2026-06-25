@@ -12,7 +12,7 @@ import json
 import math
 import re
 from collections import Counter
-from dataclasses import asdict
+from dataclasses import asdict, dataclass
 from pathlib import Path
 
 from llmwiki.domain.objects import (
@@ -379,6 +379,40 @@ def build_markdown_page_plan(
         claim_comparisons=claim_comparisons,
         planned_writes=planned_writes,
     )
+
+
+@dataclass(frozen=True)
+class SegmentClaimRecord:
+    """A claim derived from a source segment, for the claim-ledger adapter.
+
+    Reuses the same source-neutral sentence-splitting, role tagging, and
+    eligibility logic the page plan uses, so the ledger and the page plan agree
+    on what counts as an eligible claim.
+    """
+
+    statement: str
+    role_tags: tuple[str, ...]
+    eligibility: str
+    certainty: str
+
+
+def derive_segment_claims(
+    text: str, schema: Schema | None = None
+) -> tuple[SegmentClaimRecord, ...]:
+    resolved = schema or Schema()
+    allowed = {role.tag_name for role in resolved.claim_role_tags}
+    records: list[SegmentClaimRecord] = []
+    for sentence in _claim_sentences(text):
+        roles = tuple(role for role in _claim_role_tags(sentence) if role in allowed)
+        records.append(
+            SegmentClaimRecord(
+                statement=sentence,
+                role_tags=roles,
+                eligibility=_claim_eligibility(sentence, roles),
+                certainty=_claim_certainty(roles),
+            )
+        )
+    return tuple(records)
 
 
 def page_plan_to_json(plan: PagePlan) -> str:
@@ -766,9 +800,7 @@ def _claim_salience(
     role_score = max((_ROLE_WEIGHTS.get(role, 0.12) for role in role_tags), default=0.08)
     length_score = min(len(_tokens(statement)) / 80, 0.18)
     centrality_score = min(claim_centrality * 0.20, 0.20)
-    eligibility_penalty = (
-        0.36 if claim_eligibility in _INELIGIBLE_CLAIM_ELIGIBILITIES else 0.0
-    )
+    eligibility_penalty = 0.36 if claim_eligibility in _INELIGIBLE_CLAIM_ELIGIBILITIES else 0.0
     score = 0.38 + role_score + length_score + centrality_score - eligibility_penalty
     return round(max(0.0, min(1.0, score)), 3)
 
@@ -1053,9 +1085,7 @@ def _source_summary_scope_claims(
     scoped_claims = []
     for claim in source_claims:
         boundary_index = boundary_by_unit.get(claim.extracted_unit_id)
-        sentence_index = source_claim_sentence_index(
-            claim.source_span, claim.source_claim_id
-        )
+        sentence_index = source_claim_sentence_index(claim.source_span, claim.source_claim_id)
         if (
             boundary_index is not None
             and sentence_index is not None
@@ -1095,8 +1125,7 @@ def _unit_source_summary_fallback_claims(claims: list[SourceClaim]) -> list[Sour
     return [
         claim
         for claim in claims
-        if claim.claim_eligibility == "code-fragment"
-        and _is_central_source_summary_claim(claim)
+        if claim.claim_eligibility == "code-fragment" and _is_central_source_summary_claim(claim)
     ]
 
 

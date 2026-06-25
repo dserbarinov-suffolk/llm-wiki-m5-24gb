@@ -245,9 +245,7 @@ def test_selection_blocks_source_scope_shift_with_renamed_fixture_terms() -> Non
 
     assert selection.candidates == ()
     assert selection.blocked_candidates[0].page_id == "field-guide-primary-protocol"
-    assert [finding.category for finding in selection.deterministic_findings] == [
-        "support-verdict"
-    ]
+    assert [finding.category for finding in selection.deterministic_findings] == ["support-verdict"]
 
 
 def _page_text(page_id: str, bullet: str) -> str:

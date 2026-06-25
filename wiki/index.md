@@ -2,6 +2,8 @@
 
 ## Sources
 - [[antikythera-mechanism-source]] — Source summary for The Antikythera Mechanism.
+- [[coding-little-go-book]] — Claim-ledger projection (coding): 668 usable entries, 292 technical atoms, 102 needs-review; write decision write-with-review-work.
+- [[history-short-history-of-england]] — Claim-ledger projection (general-prose): 2295 usable entries, 244 technical atoms, 105 needs-review; write decision write-with-review-work.
 - [[javascriptallonge]] — Hub page for raw/javascriptallonge.pdf.
 - [[javascriptallonge-a-balanced-statement-about-combinators-through-building-blocks]] — Building Blocks from raw/javascriptallonge.pdf.
 - [[javascriptallonge-a-few-utilities-through-copy-on-write]] — a few utilities from raw/javascriptallonge.pdf.
@@ -133,6 +135,7 @@
 - [[nennius-giles-nennius-through-ii-the-apology-of-nennius]] — NENNIUS through II. The Apology of Nennius from raw/nennius_giles.pdf.
 - [[nennius-giles-nennius-through-the-genealogy-of-the-mercians]] — Nennius through The genealogy of the Mercians. from raw/nennius_giles.pdf.
 - [[nennius-giles-the-kings-of-the-deiri-through-nennius]] — The kings of the Deiri. through Nennius from raw/nennius_giles.pdf.
+- [[rpg-cairn-2e-core]] — Claim-ledger projection (general-prose): 815 usable entries, 217 technical atoms, 233 needs-review; write decision write-with-review-work.
 
 ## Entities
 - [[antikythera-mechanism]] — Facts about The Antikythera Mechanism from an ingested RawSource.

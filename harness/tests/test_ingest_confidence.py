@@ -31,9 +31,7 @@ def test_artifact_fingerprint_tracks_schema_contracts() -> None:
         ),
     )
 
-    assert baseline.digest == ArtifactFingerprint.from_json_text(
-        baseline.to_json_text()
-    ).digest
+    assert baseline.digest == ArtifactFingerprint.from_json_text(baseline.to_json_text()).digest
     assert baseline.page_body_contract_digest != changed.page_body_contract_digest
 
 

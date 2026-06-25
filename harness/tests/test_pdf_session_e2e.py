@@ -1,17 +1,18 @@
-"""End-to-end planned PDF ingest: real WorkflowRunner + store, fake LLM,
-fake extractor. Covers global PagePlan creation before writes, serial
-PlannedPageWrite execution, manifest recording, and observation output.
+"""End-to-end PDF ingest: real store + claim-ledger domain, fake extractor.
+
+PDF ingest is deterministic — the source page is a projection of the ledger
+built from the extracted chunks, with no model call. These tests use a fake
+extractor (synthetic manifest + chunks) and assert the projected page, the
+ledger artifacts, and atom preservation.
 """
 
-from pathlib import Path
+import json
 
 from fakes import FakeClient
 from forge.context import ContextManager, NoCompact
-from forge.core.workflow import LLMResponse, ToolCall
 
 from llmwiki.config import WikiPaths
 from llmwiki.domain.objects import IngestRun
-from llmwiki.domain.pages import PageMetadata, WikiPage
 from llmwiki.pdf.manifest import ChunkRecord, Manifest, from_json
 from llmwiki.pdf.pipeline import ExtractionResult
 from llmwiki.runtime.session import Session
@@ -19,287 +20,103 @@ from llmwiki.store import WikiStore
 
 TODAY = "2026-06-11"
 
+_CHUNK_ONE = (
+    "# Functions\n\nFunctions are ordinary first-class values.\n\n"
+    "A function must return a result.\n\n"
+    "```js\nconst f = () => 1;\n```\n"
+)
+_CHUNK_TWO = (
+    "# Closures\n\nClosures contain their captured scope.\n\nValue cups are undistinguishable.\n"
+)
 
-def _fake_extraction(
-    paths: WikiPaths, statuses: tuple[str, str] = ("pending", "pending")
-) -> ExtractionResult:
+
+def _fake_extraction(paths: WikiPaths) -> ExtractionResult:
     cache_dir = paths.cache_dir / "deadbeef"
     chunks_dir = cache_dir / "chunks"
     chunks_dir.mkdir(parents=True, exist_ok=True)
-    (chunks_dir / "0001.md").write_text("Chunk one: functions are values.", encoding="utf-8")
-    (chunks_dir / "0002.md").write_text("Chunk two: closures capture scope.", encoding="utf-8")
+    (chunks_dir / "0001.md").write_text(_CHUNK_ONE, encoding="utf-8")
+    (chunks_dir / "0002.md").write_text(_CHUNK_TWO, encoding="utf-8")
     manifest = Manifest(
         source="book.pdf",
         sha256="deadbeef" * 8,
         chunks=(
-            ChunkRecord(1, "Functions", 1, 10, 4000, status=statuses[0]),
-            ChunkRecord(2, "Closures", 11, 20, 3800, status=statuses[1]),
+            ChunkRecord(1, "Functions", 1, 10, 4000),
+            ChunkRecord(2, "Closures", 11, 20, 3800),
         ),
     )
     return ExtractionResult(manifest=manifest, cache_dir=cache_dir)
 
 
-def _wiki_page(
-    page_id: str,
-    page_kind: str,
-    summary: str,
-    page_body: str,
-    *,
-    sources: tuple[str, ...] = (),
-) -> WikiPage:
-    return WikiPage.from_metadata(
-        PageMetadata(
-            page_id=page_id,
-            page_kind=page_kind,
-            summary=summary,
-            sources=sources,
-            updated=TODAY,
-        ),
-        page_body,
-    )
-
-
-def _pdf_citation(page_id: str) -> str:
-    if "functions" in page_id:
-        return "raw/book.pdf p.1-10"
-    if "closures" in page_id:
-        return "raw/book.pdf p.11-20"
-    return "raw/book.pdf"
-
-
-def _pdf_claim_ids(page_id: str) -> tuple[str, ...]:
-    if "functions" in page_id:
-        return ("source-claim-unit-0001-0001",)
-    if "closures" in page_id:
-        return ("source-claim-unit-0002-0001",)
-    return ("source-claim-unit-0001-0001", "source-claim-unit-0002-0001")
-
-
-def _pdf_source_summary_args(
-    page_id: str,
-    extra: str = "",
-    *,
-    claim_ids: tuple[str, ...] | None = None,
-) -> dict:
-    citation = _pdf_citation(page_id)
-    extra_sentence = f" {extra}" if extra else ""
-    covered_claim_ids = list(claim_ids or _pdf_claim_ids(page_id))
-    return {
-        "source_record_text": f"Source record for {page_id} using ({citation}).{extra_sentence}",
-        "claim_bullets": [
-            {
-                "bullet_text": f"This planned page records cited source evidence. ({citation})",
-                "covered_source_claims": covered_claim_ids,
-            },
-            {
-                "bullet_text": f"This page keeps the PDF evidence compact. ({citation})",
-                "covered_source_claims": covered_claim_ids,
-            },
-            {
-                "bullet_text": (
-                    f"This page leaves detailed interpretation to related pages. ({citation})"
-                ),
-                "covered_source_claims": covered_claim_ids,
-            },
-        ],
-    }
-
-
-def _write_page_call(page_id: str, source_summary_args: dict | None = None) -> ToolCall:
-    return ToolCall(
-        tool="write_page",
-        args=source_summary_args or _pdf_source_summary_args(page_id),
-    )
-
-
-def _planned_turns(
-    page_id: str,
-    report: str,
-    *,
-    read_first: bool = False,
-    source_summary_args: dict | None = None,
-) -> list[LLMResponse]:
-    turns: list[LLMResponse] = []
-    if read_first:
-        turns.append([ToolCall(tool="read_page", args={"page_id": page_id})])
-    turns.extend(
-        [
-            [_write_page_call(page_id, source_summary_args)],
-            [ToolCall(tool="finish_planned_write", args={"report": report})],
-        ]
-    )
-    return turns
-
-
-def _session(
-    store: WikiStore,
-    script: list[LLMResponse],
-    paths: WikiPaths,
-    extraction: ExtractionResult,
-) -> Session:
-    notes_seen: list[str] = []
-    session = Session(
+def _session(store: WikiStore, paths: WikiPaths, extraction: ExtractionResult) -> Session:
+    return Session(
         store=store,
-        client=FakeClient(script),
+        client=FakeClient([]),
         context_manager=ContextManager(strategy=NoCompact(), budget_tokens=32768),
         today=TODAY,
         runs_dir=paths.root / "runs",
         run_id="pdf-test",
         extract_pdf=lambda pdf, rel, reextract: extraction,
-        on_chunk_note=notes_seen.append,
     )
-    object.__setattr__(session, "_notes_seen", notes_seen)  # test-side capture
-    return session
 
 
-class PlanAwareStore(WikiStore):
-    def __init__(self, paths: WikiPaths, plan_path: Path) -> None:
-        super().__init__(paths)
-        self._plan_path = plan_path
-
-    def write_page(self, page: WikiPage) -> None:
-        assert self._plan_path.exists()
-        super().write_page(page)
+def _raw_pdf(paths: WikiPaths) -> str:
+    (paths.raw_dir / "book.pdf").write_bytes(b"%PDF-1.4 fake source bytes")
+    return "book.pdf"
 
 
-class TestPlannedPdfIngest:
-    async def test_plan_exists_before_any_wiki_write(self, paths: WikiPaths) -> None:
-        (paths.raw_dir / "book.pdf").write_bytes(b"%PDF-1.5 fake")
-        extraction = _fake_extraction(paths)
-        plan_path = extraction.cache_dir / "page_plan.json"
-        store = PlanAwareStore(paths, plan_path)
-        script = (
-            _planned_turns("book-functions", "functions written")
-            + _planned_turns("book-closures", "closures written")
-            + _planned_turns("book", "hub written")
-        )
-        result = await _session(store, script, paths, extraction).ingest("book.pdf")
-
-        assert "Planned ingest completed" in result.output
-        assert plan_path.exists()
-        assert {"book-functions", "book-closures", "book"} <= set(store.list_pages())
-
-    async def test_page_plan_and_manifest_record_planned_writes(
+class TestLedgerPdfIngest:
+    async def test_pdf_ingest_projects_single_source_page_from_ledger(
         self, store: WikiStore, paths: WikiPaths
     ) -> None:
-        (paths.raw_dir / "book.pdf").write_bytes(b"%PDF-1.5 fake")
-        extraction = _fake_extraction(paths)
-        script = (
-            _planned_turns("book-functions", "functions written")
-            + _planned_turns("book-closures", "closures written")
-            + _planned_turns("book", "hub written")
-        )
-        session = _session(store, script, paths, extraction)
-        result = await session.ingest("book.pdf")
+        source = _raw_pdf(paths)
+        result = await _session(store, paths, _fake_extraction(paths)).ingest(source)
 
+        assert "Claim-ledger ingest" in result.output
+        assert "[[book]]" in result.output
+        body = store.read_page("book")
+        assert "Functions are ordinary first-class values." in body
+        assert "## Functions" in body
+        assert "## Closures" in body
         assert isinstance(result.run, IngestRun)
-        assert result.run.page_plan is not None
-        assert len(result.run.page_plan.extracted_units) == 2
-        assert [p.source_classification for p in result.run.source_plans] == [
-            "planned pdf write",
-            "planned pdf write",
-            "planned pdf write",
-        ]
-        saved = from_json((extraction.cache_dir / "manifest.json").read_text(encoding="utf-8"))
-        assert saved.all_done and saved.integrated
-        assert saved.chunks[0].pages_written == ("book-functions",)
-        assert saved.chunks[1].pages_written == ("book-closures",)
+        assert f"## [{TODAY}] ingest | book.pdf" in paths.log_path.read_text(encoding="utf-8")
 
-    async def test_existing_source_page_is_enriched_instead_of_duplicated(
+    async def test_code_block_and_rule_become_atoms(
         self, store: WikiStore, paths: WikiPaths
     ) -> None:
-        store.write_page(
-            _wiki_page(
-                "functions",
-                "source",
-                "Existing function source page.",
-                "functions are values from raw/book.pdf p.1-10",
-                sources=("raw/book.pdf p.1-10",),
-            )
-        )
-        (paths.raw_dir / "book.pdf").write_bytes(b"%PDF-1.5 fake")
-        extraction = _fake_extraction(paths)
-        script = (
-            _planned_turns("functions", "functions enriched")
-            + _planned_turns("book-closures", "closures written")
-            + _planned_turns("book", "hub written")
-        )
-        result = await _session(store, script, paths, extraction).ingest("book.pdf")
+        source = _raw_pdf(paths)
+        await _session(store, paths, _fake_extraction(paths)).ingest(source)
+        body = store.read_page("book")
+        assert "const f = () => 1;" in body  # code atom rendered verbatim
+        ledger = json.loads(store.read_claim_ledger_artifact(source))["ledger"]
+        atom_kinds = {atom["technical_atom_kind"] for atom in ledger["technical_atoms"]}
+        assert {"code-block", "rule"} <= atom_kinds
 
-        assert isinstance(result.run, IngestRun)
-        assert result.run.page_plan is not None
-        first_write = result.run.page_plan.planned_writes[0]
-        assert first_write.action == "enrich-existing"
-        assert first_write.page_metadata.page_id == "functions"
-        assert "book-functions" not in store.list_pages()
-
-    async def test_observation_report_lists_counts_and_paths(
+    async def test_ledger_artifacts_and_manifest_written(
         self, store: WikiStore, paths: WikiPaths
     ) -> None:
-        (paths.raw_dir / "book.pdf").write_bytes(b"%PDF-1.5 fake")
+        source = _raw_pdf(paths)
         extraction = _fake_extraction(paths)
-        script = (
-            _planned_turns("book-functions", "functions written")
-            + _planned_turns("book-closures", "closures written")
-            + _planned_turns("book", "hub written")
-        )
-        await _session(store, script, paths, extraction).ingest("book.pdf")
+        await _session(store, paths, extraction).ingest(source)
+        ledger_dir = store.page_plan_artifact_dir(source) / "ledger"
+        for name in ("claim-ledger.json", "document-structure.json", "portable-artifact-set.json"):
+            assert (ledger_dir / name).is_file(), name
+        # The manifest is persisted and marked integrated after ingest.
+        manifest = from_json((extraction.cache_dir / "manifest.json").read_text(encoding="utf-8"))
+        assert manifest.integrated
 
-        report = (extraction.cache_dir / "observation.md").read_text(encoding="utf-8")
-        assert "ExtractedUnits: 2" in report
-        assert "TopicClusters:" in report
-        assert "`book-functions` -> `book-functions.md`" in report
-        assert "Observation:" in paths.log_path.read_text(encoding="utf-8")
-
-    async def test_hub_key_lists_reconciled_after_planned_writes(
+    async def test_dispositions_account_for_every_segment(
         self, store: WikiStore, paths: WikiPaths
     ) -> None:
-        store.write_page(
-            _wiki_page(
-                "iterable",
-                "concept",
-                "Core protocol.",
-                "Central.",
-                sources=("raw/book.pdf",),
-            )
-        )
-        (paths.raw_dir / "book.pdf").write_bytes(b"%PDF-1.5 fake")
-        extraction = _fake_extraction(paths)
-        (extraction.cache_dir / "chunks" / "0001.md").write_text(
-            "iterable " * 12,
-            encoding="utf-8",
-        )
-        script = (
-            _planned_turns(
-                "book-functions",
-                "functions written",
-                source_summary_args=_pdf_source_summary_args(
-                    "book-functions", "Functions build on [[iterable]]."
-                ),
-            )
-            + _planned_turns(
-                "book-closures",
-                "closures written",
-                source_summary_args=_pdf_source_summary_args(
-                    "book-closures", "Closures build on [[iterable]]."
-                ),
-            )
-            + [
-                [
-                    _write_page_call(
-                        "book",
-                        _pdf_source_summary_args(
-                            "book",
-                            "Hub prose with [[iterable]].\n\n**Key entities**: [[stale-person]].",
-                            claim_ids=("source-claim-unit-0002-0001",),
-                        ),
-                    )
-                ],
-                [ToolCall(tool="finish_planned_write", args={"report": "hub written"})],
-            ]
-        )
-        await _session(store, script, paths, extraction).ingest("book.pdf")
-
-        hub_text = store.read_page("book")
-        assert "stale-person" not in hub_text
-        assert "**Key concepts:** [[iterable]]" in hub_text
+        source = _raw_pdf(paths)
+        await _session(store, paths, _fake_extraction(paths)).ingest(source)
+        structure = json.loads(
+            (
+                store.page_plan_artifact_dir(source) / "ledger" / "document-structure.json"
+            ).read_text()
+        )["document_structure"]
+        dispositions = structure["dispositions"]
+        # Every extracted segment carries exactly one disposition from the
+        # controlled vocabulary.
+        allowed = {"accepted", "structural", "needs-review", "rejected", "non-claim"}
+        assert dispositions
+        assert all(record["disposition"] in allowed for record in dispositions)

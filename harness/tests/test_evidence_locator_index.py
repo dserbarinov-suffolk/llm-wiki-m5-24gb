@@ -72,10 +72,13 @@ def test_evidence_locator_index_validates_normalized_line_ranges() -> None:
         excerpt="missing",
     )
 
-    assert validate_evidence_locator_index(
-        EvidenceLocatorIndex.from_locators("article.md", source.source_hash, (valid,)),
-        (source,),
-    ) == ()
+    assert (
+        validate_evidence_locator_index(
+            EvidenceLocatorIndex.from_locators("article.md", source.source_hash, (valid,)),
+            (source,),
+        )
+        == ()
+    )
     findings = validate_evidence_locator_index(
         EvidenceLocatorIndex.from_locators("article.md", source.source_hash, (invalid,)),
         (source,),

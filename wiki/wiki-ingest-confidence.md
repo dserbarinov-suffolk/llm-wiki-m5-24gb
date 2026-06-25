@@ -2,15 +2,15 @@
 page_id: wiki-ingest-confidence
 page_kind: synthesis
 summary: Latest bounded post-ingest confidence report.
-updated: 2026-06-24
+updated: 2026-06-25
 ---
 
 # Ingest Confidence Report
 
 ## Summary
 
-Run id: 2026-06-24-150033
-Source: raw/nennius_giles.pdf
+Run id: 2026-06-25-151625
+Source: raw/rpg_cairn_2e_core.pdf
 Confidence status: passed
 Blockers: 0
 Warnings: 0
@@ -18,21 +18,21 @@ Gates: 5
 
 ## Artifact Reuse
 
-- page-plan: missing `/Users/DSerbarinov/llm-wiki/harness/.cache/page-plans/nennius-giles-85c1a0dfadb7/page-plan.json` (artifact is missing; fingerprint f0b9877822d57d0b)
-- evidence-registry: missing `/Users/DSerbarinov/llm-wiki/harness/.cache/page-plans/nennius-giles-85c1a0dfadb7/evidence-registry.json` (artifact is missing; fingerprint f0b9877822d57d0b)
-- evidence-locators: missing `/Users/DSerbarinov/llm-wiki/harness/.cache/page-plans/nennius-giles-85c1a0dfadb7/evidence-locators.json` (artifact is missing; fingerprint f0b9877822d57d0b)
+- page-plan: reuse `/Users/DSerbarinov/llm-wiki/harness/.cache/page-plans/rpg-cairn-2e-core-fa06f8c4cd9f/page-plan.json` (fingerprint matches; fingerprint 396e49d6012d7aaf)
+- evidence-registry: reuse `/Users/DSerbarinov/llm-wiki/harness/.cache/page-plans/rpg-cairn-2e-core-fa06f8c4cd9f/evidence-registry.json` (fingerprint matches; fingerprint 396e49d6012d7aaf)
+- evidence-locators: reuse `/Users/DSerbarinov/llm-wiki/harness/.cache/page-plans/rpg-cairn-2e-core-fa06f8c4cd9f/evidence-locators.json` (fingerprint matches; fingerprint 396e49d6012d7aaf)
 
 ## Gates
 
 ### page-plan
 - Kind: deterministic
-- Scope: raw/nennius_giles.pdf
+- Scope: raw/rpg_cairn_2e_core.pdf
 - Status: pass
 - Findings: none
 
 ### source-summary-quality
 - Kind: deterministic
-- Scope: raw/nennius_giles.pdf
+- Scope: raw/rpg_cairn_2e_core.pdf
 - Status: pass
 - Findings: none
 SelectedIneligibleClaims: 0
@@ -42,26 +42,26 @@ MissingUnitCoverage: 0
 
 ### evidence-registry
 - Kind: deterministic
-- Scope: raw/nennius_giles.pdf
+- Scope: raw/rpg_cairn_2e_core.pdf
 - Status: pass
 - Findings: none
 Source texts: 1
-Source ranges: 13
-Evidence records: 575
+Source ranges: 41
+Evidence records: 1173
 
 ### evidence-locators
 - Kind: deterministic
-- Scope: raw/nennius_giles.pdf
+- Scope: raw/rpg_cairn_2e_core.pdf
 - Status: pass
 - Findings: none
-Locators: 575
+Locators: 1170
 Invalid locators: 0
 
 ### claim-support
 - Kind: model-assisted
-- Scope: raw/nennius_giles.pdf
+- Scope: raw/rpg_cairn_2e_core.pdf
 - Status: skipped
-- Findings: validation-finding-36def439905ccc18
+- Findings: validation-finding-75225c0631fce33b
 ClaimSupportAuditReport is model-assisted and is not run by ordinary ingest.
 
 ## Findings

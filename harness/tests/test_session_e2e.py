@@ -1,14 +1,16 @@
-"""End-to-end operation tests: real WorkflowRunner + real store, fake LLM.
+"""End-to-end operation tests: real store + domain, fake/absent LLM.
 
-These map to the design doc's key interactions — ingest, query, lint —
-and exercise the guardrail wiring (required steps, prerequisites) that the
-harness declares on each workflow.
+Ingest is the claim-ledger-first flow: a source page is a deterministic
+projection of the source's ledger, so it runs with no model. Query, lint, and
+claim-support still drive the real WorkflowRunner with a scripted fake client.
 """
+
+import json
 
 import pytest
 from fakes import FakeClient
 from forge.context import ContextManager, NoCompact
-from forge.core.workflow import TextResponse, ToolCall
+from forge.core.workflow import ToolCall
 
 from llmwiki.config import WikiPaths
 from llmwiki.domain.claim_support import ClaimSupportCandidate, ClaimSupportSelection
@@ -45,385 +47,131 @@ def _wiki_page(
     )
 
 
-def _source_summary_args(
-    target_page_id: str,
-    citation: str,
-    *,
-    uncertainty: str = "",
-    claim_ids: tuple[str, ...] = ("source-claim-unit-0001-0001",),
-) -> dict:
-    uncertainty_sentence = f" {uncertainty}" if uncertainty else ""
-    covered = list(claim_ids)
-    return {
-        "source_record_text": (
-            f"Source record for [[{target_page_id}]] using ({citation}).{uncertainty_sentence}"
-        ),
-        "claim_bullets": [
-            {
-                "bullet_text": (
-                    f"The source supports a focused note about [[{target_page_id}]]. ({citation})"
-                ),
-                "covered_source_claims": covered,
-            },
-            {
-                "bullet_text": (
-                    f"The source should be used as cited evidence, not copied wholesale. "
-                    f"({citation})"
-                ),
-                "covered_source_claims": covered,
-            },
-            {
-                "bullet_text": (
-                    f"The source leaves detailed interpretation to the target page. ({citation})"
-                ),
-                "covered_source_claims": covered,
-            },
-        ],
-    }
+_WIDGETS_MD = """# Widget Protocol
 
+A widget contains three slots.
 
-def _entity_body(source_page_id: str, citation: str, claim: str) -> str:
-    return f"{claim} See [[{source_page_id}]]. ({citation})"
+The handler must validate every request.
+
+```python
+def add(a, b):
+    return a + b
+```
+
+Glossary of core terminology plus notation.
+"""
 
 
 @pytest.fixture
 def source(paths: WikiPaths) -> str:
-    (paths.raw_dir / "moon.md").write_text(
-        "The Moon formed ~4.5 billion years ago from a giant impact.", encoding="utf-8"
-    )
-    return "moon.md"
+    (paths.raw_dir / "widgets.md").write_text(_WIDGETS_MD, encoding="utf-8")
+    return "widgets.md"
+
+
+def _ledger(store: WikiStore, source_locator: str) -> dict:
+    text = store.read_claim_ledger_artifact(source_locator)
+    assert text is not None
+    return json.loads(text)["ledger"]
 
 
 class TestIngest:
-    async def test_markdown_ingest_uses_planned_source_and_subject_pages(
+    async def test_markdown_ingest_projects_source_page_from_ledger(
         self, store: WikiStore, paths: WikiPaths, source: str
     ) -> None:
-        script = [
-            [
-                ToolCall(
-                    tool="write_page",
-                    args=_source_summary_args("moon", "raw/moon.md"),
-                )
-            ],
-            [ToolCall(tool="finish_planned_write", args={"report": "source written"})],
-            [
-                ToolCall(
-                    tool="write_page",
-                    args={
-                        "page_body": _entity_body(
-                            "moon-source",
-                            "raw/moon.md",
-                            "The Moon has a giant-impact formation account.",
-                        ),
-                    },
-                )
-            ],
-            [ToolCall(tool="finish_planned_write", args={"report": "entity written"})],
-        ]
-        result = await _session(store, script, paths).ingest(source)
+        result = await _session(store, [], paths).ingest(source)
 
-        assert "Planned ingest completed" in result.output
-        assert "Written pages: [[moon-source]], [[moon]]" in result.output
-        assert "Ingest confidence:" in result.output
-        assert "Source record for [[moon]]" in store.read_page("moon-source")
-        assert "giant-impact formation account" in store.read_page("moon")
-        assert "Ingest Confidence Report" in store.read_page("wiki-ingest-confidence")
-        artifact_dir = store.page_plan_artifact_dir(source)
-        assert (artifact_dir / "page-plan.json").is_file()
-        assert (artifact_dir / "evidence-registry.json").is_file()
-        assert (artifact_dir / "evidence-locators.json").is_file()
-        assert (artifact_dir / "artifact-fingerprint.json").is_file()
-        assert "- [[moon-source]] — Source summary for moon." in store.read_index()
-        assert "- [[moon]] — Facts about moon from an ingested RawSource." in store.read_index()
-        log = paths.log_path.read_text(encoding="utf-8")
-        assert f"## [{TODAY}] ingest | moon.md" in log
-        assert "Written pages: [[moon-source]], [[moon]]" in log
-        assert result.transcript_path is not None and result.transcript_path.exists()
+        assert "Claim-ledger ingest" in result.output
+        assert "[[widgets]]" in result.output
+        body = store.read_page("widgets")
+        # The page is a projection of the ledger: source-close claim text, a
+        # source-structure heading, and a visible source citation.
+        assert "A widget contains three slots." in body
+        assert "## Widget Protocol" in body
+        assert "widgets.md (" in body  # source-facing citation label
         assert isinstance(result.run, IngestRun)
-        assert result.run.source_bundle.raw_sources[0].source_locator == "moon.md"
-        assert result.run.page_plan is not None
-        assert result.run.source_plans[0].planned_page_write_ids == ("write-moon-source",)
-        assert result.run.source_plans[1].planned_page_write_ids == ("write-moon",)
+        log = paths.log_path.read_text(encoding="utf-8")
+        assert f"## [{TODAY}] ingest | widgets.md" in log
+        assert "- [[widgets]]" in store.read_index()
 
-    async def test_model_report_cannot_claim_unwritten_pages(
+    async def test_deontic_sentence_becomes_rule_atom_not_duplicate_claim(
         self, store: WikiStore, paths: WikiPaths, source: str
     ) -> None:
-        script = [
-            [
-                ToolCall(
-                    tool="write_page",
-                    args=_source_summary_args("moon", "raw/moon.md"),
-                )
-            ],
-            [ToolCall(tool="finish_planned_write", args={"report": "also wrote [[ghost]]"})],
-            [
-                ToolCall(
-                    tool="write_page",
-                    args={
-                        "page_body": _entity_body(
-                            "moon-source",
-                            "raw/moon.md",
-                            "Moon notes retain the cited source.",
-                        )
-                    },
-                )
-            ],
-            [ToolCall(tool="finish_planned_write", args={"report": "also wrote [[ghost]]"})],
+        await _session(store, [], paths).ingest(source)
+        ledger = _ledger(store, source)
+        atom_kinds = {atom["technical_atom_kind"] for atom in ledger["technical_atoms"]}
+        assert "rule" in atom_kinds
+        assert "code-block" in atom_kinds
+        # The deontic sentence is preserved once, by the rule atom — not also as
+        # a standalone claim.
+        rule_texts = [
+            atom["payload"]["rule_text"]
+            for atom in ledger["technical_atoms"]
+            if atom["technical_atom_kind"] == "rule"
         ]
-        result = await _session(store, script, paths).ingest(source)
-        assert "ghost" not in result.output
-        assert "ghost" not in paths.log_path.read_text(encoding="utf-8")
-        assert set(store.list_pages()) == {"moon-source", "moon", "wiki-ingest-confidence"}
+        assert any("must validate every request" in text for text in rule_texts)
+        claim_statements = [
+            entry["normalized_text"]
+            for entry in ledger["entries"]
+            if entry["ledger_entry_kind"] in ("claim", "event")
+        ]
+        assert not any("must validate every request" in text for text in claim_statements)
 
-    async def test_required_links_and_citations_are_checked_before_write(
+    async def test_fragmentary_statement_routed_to_review_not_asserted(
         self, store: WikiStore, paths: WikiPaths, source: str
     ) -> None:
-        script = [
-            [
-                ToolCall(
-                    tool="write_page",
-                    args={"page_body": "Body without the planned link or citation."},
-                )
-            ],
-            [
-                ToolCall(
-                    tool="write_page",
-                    args=_source_summary_args("moon", "raw/moon.md"),
-                )
-            ],
-            [ToolCall(tool="finish_planned_write", args={"report": "source written"})],
-            [
-                ToolCall(
-                    tool="write_page",
-                    args={
-                        "page_body": _entity_body(
-                            "moon-source",
-                            "raw/moon.md",
-                            "Moon notes retain the cited source.",
-                        )
-                    },
-                )
-            ],
-            [ToolCall(tool="finish_planned_write", args={"report": "entity written"})],
-        ]
-        await _session(store, script, paths).ingest(source)
-        assert "Body without" not in store.read_page("moon-source")
-        assert "Key supported claims" in store.read_page("moon-source")
+        await _session(store, [], paths).ingest(source)
+        body = store.read_page("widgets")
+        review_index = body.index("## Source review")
+        fragment = "Glossary of core terminology"
+        # The verbless fragment appears under review, never as an asserted claim.
+        assert fragment in body[review_index:]
+        assert fragment not in body[:review_index]
 
-    async def test_uncertainty_terms_are_checked_before_write(
-        self, store: WikiStore, paths: WikiPaths
+    async def test_page_body_has_no_internal_ids(
+        self, store: WikiStore, paths: WikiPaths, source: str
     ) -> None:
-        (paths.raw_dir / "origin.md").write_text(
-            "# Origin\n\nThe device may have originated in Corinth, possibly near Syracuse.",
-            encoding="utf-8",
+        await _session(store, [], paths).ingest(source)
+        body = store.read_page("widgets")
+        for prefix in ("ledger-entry-", "projection-coverage-entry-", "atom-candidate-"):
+            assert prefix not in body
+        # The coverage pointer lives in metadata, not the visible body.
+        assert "projection_coverage:" in body.split("---")[1]
+
+    async def test_ledger_artifacts_and_evidence_registry_written(
+        self, store: WikiStore, paths: WikiPaths, source: str
+    ) -> None:
+        await _session(store, [], paths).ingest(source)
+        artifact_dir = store.page_plan_artifact_dir(source)
+        ledger_dir = artifact_dir / "ledger"
+        for name in (
+            "claim-ledger.json",
+            "document-structure.json",
+            "projection-coverage.json",
+            "ledger-quality-report.json",
+            "projection-quality-report.json",
+            "quality-check-catalog.json",
+            "portable-artifact-set.json",
+        ):
+            assert (ledger_dir / name).is_file(), name
+        # The evidence registry remains the prior link in the authority chain.
+        assert (artifact_dir / "evidence-registry.json").is_file()
+        manifest = json.loads((ledger_dir / "portable-artifact-set.json").read_text())
+        kinds = {member["portable_artifact_kind"] for member in manifest["members"]}
+        assert "claim-ledger-artifact" in kinds
+        assert "document-structure-artifact" in kinds
+        assert "portable-artifact-set" not in kinds
+
+    async def test_claim_ledger_references_document_structure_and_has_entries(
+        self, store: WikiStore, paths: WikiPaths, source: str
+    ) -> None:
+        await _session(store, [], paths).ingest(source)
+        artifact = json.loads(
+            (store.page_plan_artifact_dir(source) / "ledger" / "claim-ledger.json").read_text()
         )
-        script = [
-            [
-                ToolCall(
-                    tool="write_page",
-                    args=_source_summary_args(
-                        "origin",
-                        "raw/origin.md",
-                        uncertainty="The source may place the origin near Corinth.",
-                    ),
-                )
-            ],
-            [ToolCall(tool="finish_planned_write", args={"report": "source written"})],
-            [
-                ToolCall(
-                    tool="write_page",
-                    args={
-                        "page_body": (
-                            "The device originated in Corinth. "
-                            "See [[origin-source]]. (raw/origin.md)"
-                        ),
-                    },
-                )
-            ],
-            [
-                ToolCall(
-                    tool="write_page",
-                    args={
-                        "page_body": (
-                            _entity_body(
-                                "origin-source",
-                                "raw/origin.md",
-                                "The source says the device may have a Corinthian origin.",
-                            )
-                        ),
-                    },
-                )
-            ],
-            [ToolCall(tool="finish_planned_write", args={"report": "entity written"})],
-        ]
-        await _session(store, script, paths).ingest("origin.md")
-        assert "The device originated in Corinth." not in store.read_page("origin")
-        assert "may have a Corinthian origin" in store.read_page("origin")
-
-    async def test_rewrite_without_read_is_blocked_then_recovers(
-        self, store: WikiStore, paths: WikiPaths, source: str
-    ) -> None:
-        # write_page replaces the whole page; rewriting one the model never
-        # read this run must fail with a corrective error (open question #10),
-        # and succeed after read_page.
-        store.write_page(
-            _wiki_page("moon", "entity", "Original.", "Original rich body with [[links]].")
-        )
-        script = [
-            [
-                ToolCall(
-                    tool="write_page",
-                    args=_source_summary_args("moon", "raw/moon.md"),
-                )
-            ],
-            [ToolCall(tool="finish_planned_write", args={"report": "source written"})],
-            [
-                ToolCall(  # blind rewrite — must be rejected
-                    tool="write_page",
-                    args={"page_body": "Thin rewrite with [[moon-source]]. (raw/moon.md)"},
-                )
-            ],
-            [ToolCall(tool="read_page", args={"page_id": "moon"})],
-            [
-                ToolCall(
-                    tool="write_page",
-                    args={
-                        "page_body": (
-                            "Original rich body with [[links]]. Plus new facts. "
-                            "See [[moon-source]]. (raw/moon.md)"
-                        ),
-                    },
-                )
-            ],
-            [ToolCall(tool="finish_planned_write", args={"report": "updated moon"})],
-        ]
-        result = await _session(store, script, paths).ingest(source)
-        assert "Written pages: [[moon-source]], [[moon]]" in result.output
-        body = store.read_page("moon")
-        assert "Plus new facts" in body
-        # The blind rewrite never landed:
-        assert "thin" not in store.read_index()
-
-    async def test_pipeline_markers_stripped_from_written_pages(
-        self, store: WikiStore, paths: WikiPaths, source: str
-    ) -> None:
-        # The OCR caveat tag is extraction plumbing; observed quoted verbatim
-        # into a wiki page despite the schema — stripped at the boundary now.
-        script = [
-            [
-                ToolCall(
-                    tool="write_page",
-                    args={
-                        "source_record_text": (
-                            "Real claim for [[moon]]. (raw/moon.md)\n"
-                            "[figure text (OCR, unverified): NOISE ON A MUG]"
-                        ),
-                        "claim_bullets": [
-                            {
-                                "bullet_text": "First compact claim. (raw/moon.md)",
-                                "covered_source_claims": ["source-claim-unit-0001-0001"],
-                            },
-                            {
-                                "bullet_text": "Another claim. (raw/moon.md)",
-                                "covered_source_claims": ["source-claim-unit-0001-0001"],
-                            },
-                            {
-                                "bullet_text": "Third compact claim. (raw/moon.md)",
-                                "covered_source_claims": ["source-claim-unit-0001-0001"],
-                            },
-                        ],
-                    },
-                )
-            ],
-            [ToolCall(tool="finish_planned_write", args={"report": "source written"})],
-            [
-                ToolCall(
-                    tool="write_page",
-                    args={
-                        "page_body": _entity_body(
-                            "moon-source",
-                            "raw/moon.md",
-                            "Moon notes retain the cited source.",
-                        )
-                    },
-                )
-            ],
-            [ToolCall(tool="finish_planned_write", args={"report": "entity written"})],
-        ]
-        await _session(store, script, paths).ingest(source)
-        body = store.read_page("moon-source")
-        assert "Real claim for [[moon]]." in body and "Another claim." in body
-        assert "OCR" not in body and "NOISE" not in body
-
-    async def test_source_framing_source_summary_rejection_is_recoverable(
-        self, store: WikiStore, paths: WikiPaths, source: str
-    ) -> None:
-        bad_args = _source_summary_args("moon", "raw/moon.md")
-        bad_args["claim_bullets"][0]["bullet_text"] = (
-            "The source discusses a compact claim. (raw/moon.md)"
-        )
-        good_args = _source_summary_args("moon", "raw/moon.md")
-        script = [
-            [ToolCall(tool="write_page", args=bad_args)],
-            [ToolCall(tool="write_page", args=good_args)],
-            [ToolCall(tool="finish_planned_write", args={"report": "source written"})],
-            [
-                ToolCall(
-                    tool="write_page",
-                    args={
-                        "page_body": _entity_body(
-                            "moon-source",
-                            "raw/moon.md",
-                            "The Moon has a giant-impact formation account.",
-                        )
-                    },
-                )
-            ],
-            [ToolCall(tool="finish_planned_write", args={"report": "entity written"})],
-        ]
-
-        await _session(store, script, paths).ingest(source)
-
-        body = store.read_page("moon-source")
-        assert "The source discusses" not in body
-        assert "The source supports a focused note" in body
-
-    async def test_bare_text_after_work_nudged_to_terminal_tool(
-        self, store: WikiStore, paths: WikiPaths, source: str
-    ) -> None:
-        # The observed live failure mode: the model finishes its page writes,
-        # then "reports" in bare text instead of calling finish_planned_write. The
-        # retry nudge must name the terminal tool and the run must recover.
-        script = [
-            [
-                ToolCall(
-                    tool="write_page",
-                    args=_source_summary_args("moon", "raw/moon.md"),
-                )
-            ],
-            TextResponse(content="I have finished ingesting the source."),
-            [ToolCall(tool="finish_planned_write", args={"report": "source written"})],
-            [
-                ToolCall(
-                    tool="write_page",
-                    args={
-                        "page_body": _entity_body(
-                            "moon-source",
-                            "raw/moon.md",
-                            "Moon notes retain the cited source.",
-                        )
-                    },
-                )
-            ],
-            [ToolCall(tool="finish_planned_write", args={"report": "entity written"})],
-        ]
-        session = _session(store, script, paths)
-        result = await session.ingest(source)
-        assert "Written pages: [[moon-source]], [[moon]]" in result.output
-        fake: FakeClient = session.client
-        # The turn after the bare text must carry the terminal-tool hint.
-        nudges = [m["content"] for turn in fake.sent for m in turn if m.get("role") == "user"]
-        assert any("finish_planned_write" in content for content in nudges)
+        pointer = artifact["document_structure_pointer"]
+        assert pointer["target_artifact_kind"] == "document-structure-artifact"
+        assert pointer["target_artifact_id"]
+        assert artifact["ledger"]["entries"]
 
 
 class TestClaimSupport:
@@ -526,7 +274,6 @@ class TestLint:
         assert result.output == "ghost link is broken."
         assert "wiki-health" in store.list_pages()
         assert f"## [{TODAY}] lint | wiki health" in paths.log_path.read_text()
-        # The deterministic findings reached the model in the user message.
         fake: FakeClient = session.client
         first_turn = fake.sent[0]
         user_msgs = [m["content"] for m in first_turn if m.get("role") == "user"]
@@ -535,7 +282,6 @@ class TestLint:
     async def test_health_page_is_not_reported_as_orphan(
         self, store: WikiStore, paths: WikiPaths
     ) -> None:
-        # A prior lint filed wiki-health; the next lint must not flag it.
         store.write_page(_wiki_page("alpha", "concept", "A.", "[[beta]]"))
         store.write_page(_wiki_page("beta", "concept", "B.", "[[alpha]]"))
         store.write_page(_wiki_page("wiki-health", "synthesis", "Old report.", "All clean."))

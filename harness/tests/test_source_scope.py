@@ -6,9 +6,7 @@ from llmwiki.domain.source_scope import is_source_scope_transition
 
 
 def test_source_scope_transition_detection_is_source_neutral() -> None:
-    assert is_source_scope_transition(
-        "We have not introduced the archival mode yet."
-    )
+    assert is_source_scope_transition("We have not introduced the archival mode yet.")
     assert is_source_scope_transition(
         "Readers will examine the secondary clause in the following section."
     )

@@ -150,9 +150,7 @@ def source_text_from_text(
     )
 
 
-def _source_ranges(
-    plan: PagePlan, source_texts: tuple[SourceText, ...]
-) -> tuple[SourceRange, ...]:
+def _source_ranges(plan: PagePlan, source_texts: tuple[SourceText, ...]) -> tuple[SourceRange, ...]:
     source_text_by_locator = {
         source_text.source_locator: source_text for source_text in source_texts
     }
@@ -269,9 +267,7 @@ def _contains_range(parent: tuple[int, int], child: tuple[int, int]) -> bool:
     return parent[0] <= child[0] and child[1] <= parent[1]
 
 
-def _identity_locator_text(
-    source_range: SourceRange, source_texts: tuple[SourceText, ...]
-) -> str:
+def _identity_locator_text(source_range: SourceRange, source_texts: tuple[SourceText, ...]) -> str:
     if source_range.page_range is not None:
         start, end = source_range.page_range
         return f"p.{start}" if start == end else f"p.{start}-{end}"

@@ -130,6 +130,23 @@ async def _run(args: argparse.Namespace) -> OperationResult:
     if args.op == "claim-support":
         return await _run_claim_support(paths, args, now)
 
+    if args.op == "ingest":
+        # Claim-ledger ingest is deterministic: a source page is a projection of
+        # its ledger, not a model summary, so no backend is started.
+        session = Session(
+            store=WikiStore(paths),
+            client=None,
+            context_manager=ContextManager(strategy=NoCompact(), budget_tokens=1),
+            today=now.date().isoformat(),
+            runs_dir=paths.runs_dir,
+            run_id=now.strftime("%Y-%m-%d-%H%M%S"),
+            extract_pdf=_pdf_extractor(paths),
+            on_chunk_note=lambda note: print(note, flush=True),
+        )
+        return await session.ingest(
+            args.source, reextract=args.reextract, reintegrate=args.reintegrate
+        )
+
     backend_config = load_backend_config()
     backend = await start_backend(backend_config)
     try:
@@ -143,10 +160,6 @@ async def _run(args: argparse.Namespace) -> OperationResult:
             extract_pdf=_pdf_extractor(paths),
             on_chunk_note=lambda note: print(note, flush=True),
         )
-        if args.op == "ingest":
-            return await session.ingest(
-                args.source, reextract=args.reextract, reintegrate=args.reintegrate
-            )
         if args.op == "query":
             return await session.query(args.question)
         if args.op == "chat":

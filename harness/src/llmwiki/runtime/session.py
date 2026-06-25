@@ -9,7 +9,7 @@ client and no network.
 from __future__ import annotations
 
 from collections.abc import Callable, Sequence
-from dataclasses import dataclass, replace
+from dataclasses import dataclass
 from pathlib import Path
 from typing import Any
 
@@ -23,7 +23,9 @@ from llmwiki.domain.claim_support import (
     ClaimSupportSelection,
     ClaimSupportVerdict,
 )
-from llmwiki.domain.evidence_registry import source_text_from_text
+from llmwiki.domain.evidence_registry import SourceText, source_text_from_text
+from llmwiki.domain.evidence_registry_io import registry_to_json
+from llmwiki.domain.ledger.canonical import short_digest
 from llmwiki.domain.links import compute_findings
 from llmwiki.domain.objects import (
     ExtractedUnit,
@@ -38,15 +40,14 @@ from llmwiki.domain.objects import (
     SourcePlan,
     SourcePlanContractSelection,
 )
-from llmwiki.domain.pages import PageMetadata, WikiPage, parse_page, slugify
+from llmwiki.domain.pages import PageMetadata, WikiPage, slugify
 from llmwiki.domain.planning import (
     build_markdown_page_plan,
     build_page_plan,
     observation_report,
     page_plan_to_json,
-    planned_write_message,
 )
-from llmwiki.domain.salience import SalienceReport, compute_salience, reconcile_key_lists
+from llmwiki.domain.salience import compute_salience
 from llmwiki.pdf import PdfError
 from llmwiki.pdf.pipeline import (
     ExtractionResult,
@@ -55,6 +56,8 @@ from llmwiki.pdf.pipeline import (
     save_manifest,
 )
 from llmwiki.runtime.ingest_confidence import record_post_ingest_confidence
+from llmwiki.runtime.ledger_pipeline import build_source_ledger
+from llmwiki.runtime.ledger_segmentation import ChunkText
 from llmwiki.runtime.transcript import TranscriptWriter
 from llmwiki.store import WikiStore
 from llmwiki.workflows import (
@@ -63,7 +66,6 @@ from llmwiki.workflows import (
     build_lint_workflow,
     build_query_workflow,
 )
-from llmwiki.workflows.pdf_ingest import build_planned_write_workflow
 
 _MAX_ITERATIONS = {
     "ingest": 24,
@@ -178,45 +180,14 @@ class Session:
             today=self.today,
             schema=self._schema_object(),
         )
-        units = {unit.unit_id: unit for unit in page_plan.extracted_units}
-        source_claims = {claim.source_claim_id: claim for claim in page_plan.source_claims}
-        actual_pages: list[str] = []
-        last_transcript: Path | None = None
-        for planned_write in page_plan.planned_writes:
-            write_log: list[str] = []
-            _, last_transcript = await self._run(
-                build_planned_write_workflow(
-                    self.store,
-                    self.today,
-                    planned_write,
-                    write_log=write_log,
-                ),
-                planned_write_message(planned_write, units, source_claims),
-                "planned-write",
-                tag=f"markdown-plan-{planned_write.write_id}",
-            )
-            actual_pages.extend(write_log)
-        report = self._planned_ingest_report(
+        title = page_plan.extracted_units[0].heading_path if page_plan.extracted_units else ""
+        chunks = (ChunkText("unit-0001", "document", title, source_text),)
+        return self._finish_ledger_ingest(
             source_locator=source_locator,
             page_plan=page_plan,
-            actual_pages=tuple(dict.fromkeys(actual_pages)),
-        )
-        confidence = record_post_ingest_confidence(
-            store=self.store,
-            today=self.today,
-            run_id=self.run_id or self.today,
-            source_locator=source_locator,
-            page_plan=page_plan,
+            chunks=chunks,
             source_text=source_text_from_text(source_locator, source_text),
-        )
-        report += "\n" + _confidence_summary_line(confidence.report)
-        self.store.append_log(self.today, "ingest", source_locator, report)
-        return OperationResult(
-            "ingest",
-            source_locator,
-            report,
-            last_transcript,
-            self._markdown_ingest_run(source_locator, page_plan),
+            run=self._markdown_ingest_run(source_locator, page_plan),
         )
 
     async def _ingest_pdf(
@@ -229,7 +200,7 @@ class Session:
             source_locator,
             reextract,
         )
-        manifest, total = result.manifest, len(result.manifest.chunks)
+        manifest = result.manifest
         raw_source = self.store.raw_source(source_locator)
         source_bundle = SourceBundle.one(raw_source)
         extracted_units = self._extracted_units(result, raw_source)
@@ -244,84 +215,67 @@ class Session:
             schema=self._schema_object(),
         )
         self._write_page_plan(result.cache_dir, page_plan)
-
-        units = {unit.unit_id: unit for unit in extracted_units}
-        source_claims = {claim.source_claim_id: claim for claim in page_plan.source_claims}
-        actual_pages_by_unit: dict[str, list[str]] = {}
-        reports: list[str] = []
-        last_transcript: Path | None = None
-        hub = slugify(Path(source_locator).stem)
-        for planned_write in page_plan.planned_writes:
-            write_log: list[str] = []
-            report, last_transcript = await self._run(
-                build_planned_write_workflow(
-                    self.store,
-                    self.today,
-                    planned_write,
-                    write_log=write_log,
-                ),
-                planned_write_message(planned_write, units, source_claims),
-                "planned-write",
-                tag=f"pdf-plan-{planned_write.write_id}",
-            )
-            reports.append(f"{planned_write.page_metadata.page_id}: {report}")
-            if planned_write.page_metadata.page_id != hub:
-                for unit_id in planned_write.extracted_units:
-                    actual_pages_by_unit.setdefault(unit_id, []).extend(write_log)
-            if self.on_chunk_note is not None:
-                self.on_chunk_note(
-                    f"[planned write {len(reports)}/{len(page_plan.planned_writes)}] "
-                    f"{planned_write.page_metadata.page_id}: {report}"
-                )
-
-        salience = compute_salience(
-            self.store.page_texts(),
-            self._write_counts(actual_pages_by_unit),
-            source_text=read_source_text(result.cache_dir),
-            scope_source=source_locator,
-            exclude_inbound_from=frozenset({hub}),
+        self._write_observation(result.cache_dir, page_plan)
+        chunks = tuple(
+            ChunkText(unit.unit_id, unit.locator, unit.heading_path, unit.text)
+            for unit in extracted_units
         )
-        self._reconcile_hub_key_lists(hub, salience)
-        manifest = self._mark_manifest_planned(manifest, actual_pages_by_unit).mark_integrated()
-        save_manifest(ExtractionResult(manifest=manifest, cache_dir=result.cache_dir))
-        observation_path = self._write_observation(result.cache_dir, page_plan)
+        save_manifest(
+            ExtractionResult(manifest=manifest.mark_integrated(), cache_dir=result.cache_dir)
+        )
+        return self._finish_ledger_ingest(
+            source_locator=source_locator,
+            page_plan=page_plan,
+            chunks=chunks,
+            source_text=source_text_from_text(
+                source_locator, read_source_text(result.cache_dir), "pdf-cache"
+            ),
+            run=self._pdf_ingest_run(source_locator, page_plan),
+        )
+
+    def _finish_ledger_ingest(
+        self,
+        *,
+        source_locator: str,
+        page_plan: PagePlan,
+        chunks: tuple[ChunkText, ...],
+        source_text: SourceText,
+        run: IngestRun,
+    ) -> OperationResult:
         confidence = record_post_ingest_confidence(
             store=self.store,
             today=self.today,
             run_id=self.run_id or self.today,
             source_locator=source_locator,
             page_plan=page_plan,
-            source_text=source_text_from_text(
-                source_locator,
-                read_source_text(result.cache_dir),
-                "pdf-cache",
-            ),
+            source_text=source_text,
         )
+        registry_hash = short_digest(registry_to_json(confidence.evidence_registry), 32)
+        ledger = build_source_ledger(
+            source_locator=source_locator,
+            source_hash=source_text.source_hash,
+            evidence_registry_hash=registry_hash,
+            chunks=chunks,
+            today=self.today,
+            schema=self._schema_object(),
+        )
+        self.store.write_ledger_artifacts(source_locator, ledger.artifact_files)
+        if ledger.wiki_page is not None:
+            self.store.write_page(ledger.wiki_page)
+            written = f"[[{ledger.page_id}]]"
+        else:
+            written = "none (authoritative write blocked — see blocked-write-diagnostic.json)"
+        if self.on_chunk_note is not None:
+            self.on_chunk_note(ledger.summary)
         report = (
-            f"Planned ingest completed for {total} extracted unit(s) from "
-            f"raw/{source_locator}. Executed {len(page_plan.planned_writes)} planned "
-            f"page write(s). Observation: {observation_path}.\n"
+            f"Claim-ledger ingest of raw/{source_locator} ({len(chunks)} chunk(s)).\n"
+            f"{ledger.summary}\n"
+            f"Source page: {written}. "
+            f"Ledger artifacts: {self.store.page_plan_artifact_dir(source_locator)}/ledger.\n"
             f"{_confidence_summary_line(confidence.report)}"
         )
         self.store.append_log(self.today, "ingest", source_locator, report)
-        return OperationResult(
-            "ingest",
-            source_locator,
-            report,
-            last_transcript,
-            self._pdf_ingest_run(source_locator, page_plan),
-        )
-
-    def _reconcile_hub_key_lists(self, hub: str, salience: SalienceReport) -> None:
-        """Harness-owned bookkeeping: the hub's key-lists mirror the salience
-        report by construction (same contract as index.md entries)."""
-        if hub not in self.store.list_pages():
-            return  # no hub page; lint's findings will surface it
-        page = parse_page(self.store.read_page(hub))
-        page_body = reconcile_key_lists(page.page_body, salience)
-        if page_body != page.page_body:
-            metadata = replace(page.page_metadata, updated=self.today)
-            self.store.write_page(WikiPage.from_metadata(metadata, page_body))
+        return OperationResult("ingest", source_locator, report, None, run)
 
     async def query(self, question: str) -> OperationResult:
         workflow = build_query_workflow(self.store, self.today)
@@ -516,22 +470,6 @@ class Session:
     def _source_bundle(self, source_locator: str) -> SourceBundle:
         return SourceBundle.one(self.store.raw_source(source_locator))
 
-    def _planned_ingest_report(
-        self,
-        *,
-        source_locator: str,
-        page_plan: PagePlan,
-        actual_pages: tuple[str, ...],
-    ) -> str:
-        planned_pages = tuple(write.page_metadata.page_id for write in page_plan.planned_writes)
-        actual = ", ".join(f"[[{page_id}]]" for page_id in actual_pages) or "none"
-        planned = ", ".join(f"[[{page_id}]]" for page_id in planned_pages) or "none"
-        return (
-            f"Planned ingest completed for {len(page_plan.extracted_units)} ExtractedUnit(s) "
-            f"from raw/{source_locator}. Planned pages: {planned}. "
-            f"Written pages: {actual}."
-        )
-
     def _markdown_ingest_run(self, source_locator: str, page_plan: PagePlan) -> IngestRun:
         raw_source = self.store.raw_source(source_locator)
         plans = tuple(
@@ -587,26 +525,6 @@ class Session:
         path = cache_dir / "observation.md"
         path.write_text(observation_report(page_plan), encoding="utf-8")
         return str(path)
-
-    def _mark_manifest_planned(self, manifest: Any, pages_by_unit: dict[str, list[str]]) -> Any:
-        updated = manifest
-        for record in manifest.chunks:
-            unit_id = f"unit-{record.chunk_id:04d}"
-            pages = tuple(dict.fromkeys(pages_by_unit.get(unit_id, ())))
-            notes = "Global PagePlan executed"
-            if pages:
-                notes += ": " + ", ".join(f"[[{page}]]" for page in pages)
-            if record.status == "done" and record.notes == notes and record.pages_written == pages:
-                continue
-            updated = updated.mark_done(record.chunk_id, notes, pages_written=pages)
-        return updated
-
-    def _write_counts(self, pages_by_unit: dict[str, list[str]]) -> dict[str, int]:
-        counts: dict[str, int] = {}
-        for pages in pages_by_unit.values():
-            for page in pages:
-                counts[page] = counts.get(page, 0) + 1
-        return counts
 
     def _pdf_ingest_run(self, source_locator: str, page_plan: PagePlan) -> IngestRun:
         raw_source = self.store.raw_source(source_locator)

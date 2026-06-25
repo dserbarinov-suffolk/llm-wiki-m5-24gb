@@ -11,9 +11,7 @@ from typing import Literal
 
 LocatorKind = Literal["normalized-line", "page-range"]
 LocatorSeverity = Literal["blocker", "warning", "info"]
-LocatorCategory = Literal[
-    "invalid-range", "missing-source-text", "locator-drift", "stale-artifact"
-]
+LocatorCategory = Literal["invalid-range", "missing-source-text", "locator-drift", "stale-artifact"]
 LOCATOR_ARTIFACT_VERSION = 1
 
 
@@ -30,9 +28,7 @@ class EvidenceIdentity:
         cls, source_locator: str, source_hash: str, locator_text: str, excerpt: str
     ) -> EvidenceIdentity:
         canonical_excerpt_digest = _digest(canonicalize_evidence_text(excerpt))
-        identity = "|".join(
-            (source_locator, source_hash, locator_text, canonical_excerpt_digest)
-        )
+        identity = "|".join((source_locator, source_hash, locator_text, canonical_excerpt_digest))
         return cls(
             evidence_identity_id=f"evidence-identity-{_digest(identity)[:16]}",
             source_locator=source_locator,
@@ -72,9 +68,7 @@ class EvidenceLocator:
     ) -> EvidenceLocator:
         excerpt_digest = _digest(excerpt.strip())
         canonical_excerpt_digest = _digest(canonicalize_evidence_text(excerpt))
-        identity = "|".join(
-            (source_locator, source_hash, locator_text, canonical_excerpt_digest)
-        )
+        identity = "|".join((source_locator, source_hash, locator_text, canonical_excerpt_digest))
         return cls(
             locator_id=f"evidence-locator-{_digest(identity)[:16]}",
             source_locator=source_locator,

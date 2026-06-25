@@ -168,9 +168,7 @@ def test_high_section_pdf_units_coalesce_existing_source_page_targets() -> None:
             extraction_status="ok",
         ),
     )
-    existing_pages = {
-        "book-functions": _page("book-functions", "Existing functions source page.")
-    }
+    existing_pages = {"book-functions": _page("book-functions", "Existing functions source page.")}
 
     plan = build_page_plan(
         plan_id="test-plan",

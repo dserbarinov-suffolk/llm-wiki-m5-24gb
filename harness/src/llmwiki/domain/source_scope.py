@@ -79,9 +79,7 @@ def source_scope_boundaries(
         boundary = source_scope_boundary_for_text(claim.statement)
         if boundary is None:
             continue
-        sentence_index = source_claim_sentence_index(
-            claim.source_span, claim.source_claim_id
-        )
+        sentence_index = source_claim_sentence_index(claim.source_span, claim.source_claim_id)
         if sentence_index is None:
             continue
         category, confidence, rationale = boundary
@@ -105,9 +103,7 @@ def first_source_scope_boundary_index(texts: Sequence[str]) -> int | None:
     return None
 
 
-def source_claim_sentence_index(
-    source_span: str, source_claim_id: str = ""
-) -> int | None:
+def source_claim_sentence_index(source_span: str, source_claim_id: str = "") -> int | None:
     match = _SOURCE_CLAIM_SENTENCE_RE.search(source_span)
     if match:
         return int(match.group(1))

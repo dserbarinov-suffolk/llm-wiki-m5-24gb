@@ -359,9 +359,9 @@ def test_source_summary_plan_selects_eligible_claim_over_analogy() -> None:
         write for write in plan.planned_writes if write.page_metadata.page_id != "book"
     )
     assert source_write.source_summary_plan is not None
-    selected = {
-        claim.source_claim_id: claim for claim in plan.source_claims
-    }[source_write.source_summary_plan.selected_source_claims[0]]
+    selected = {claim.source_claim_id: claim for claim in plan.source_claims}[
+        source_write.source_summary_plan.selected_source_claims[0]
+    ]
 
     assert selected.claim_eligibility == "eligible"
     assert selected.statement.startswith("Object.assign")
@@ -384,9 +384,7 @@ def test_source_summary_plan_selects_eligible_claim_over_code_fragment() -> None
         write for write in plan.planned_writes if write.page_metadata.page_id != "book"
     )
     assert source_write.source_summary_plan is not None
-    selected_claims = {
-        claim.source_claim_id: claim for claim in plan.source_claims
-    }
+    selected_claims = {claim.source_claim_id: claim for claim in plan.source_claims}
     selected = selected_claims[source_write.source_summary_plan.selected_source_claims[0]]
 
     assert selected.claim_eligibility == "eligible"
@@ -443,9 +441,7 @@ def test_source_summary_plan_uses_central_code_fallback_for_code_only_units() ->
         claims_by_id[claim_id] for claim_id in write.source_summary_plan.selected_source_claims
     )
 
-    code_fallbacks = [
-        claim for claim in selected if claim.extracted_unit_id == "unit-0001"
-    ]
+    code_fallbacks = [claim for claim in selected if claim.extracted_unit_id == "unit-0001"]
     assert len(code_fallbacks) == 1
     assert code_fallbacks[0].claim_eligibility == "code-fragment"
 
@@ -523,8 +519,9 @@ def test_source_summary_plan_skips_source_furniture_unit_when_page_has_eligible_
     assert all(claim.claim_eligibility == "eligible" for claim in selected)
 
 
-def test_source_summary_plan_skips_noncentral_eligible_filler_when_page_has_central_claims(
-) -> None:
+def test_source_summary_plan_skips_noncentral_eligible_filler_when_page_has_central_claims() -> (
+    None
+):
     raw_source = RawSource.from_locator("book.pdf")
     units = (
         ExtractedUnit(
@@ -571,10 +568,7 @@ def test_source_summary_plan_skips_noncentral_eligible_filler_when_page_has_cent
 
     assert selected
     assert "unit-0001" not in {claim.extracted_unit_id for claim in selected}
-    assert all(
-        claim.claim_role_tags or claim.claim_centrality > 0
-        for claim in selected
-    )
+    assert all(claim.claim_role_tags or claim.claim_centrality > 0 for claim in selected)
 
 
 def test_source_summary_plan_separates_ordinary_modality_from_source_uncertainty() -> None:
@@ -650,9 +644,7 @@ def test_source_summary_plan_excludes_claims_after_scope_shift_marker() -> None:
         for claim_id in source_write.source_summary_plan.selected_source_claims
     )
 
-    assert any(
-        claim.claim_eligibility == "scope-transition" for claim in plan.source_claims
-    )
+    assert any(claim.claim_eligibility == "scope-transition" for claim in plan.source_claims)
     assert all("fourth possibility" not in claim.statement.lower() for claim in selected)
     assert all(
         "serial number" not in claim.statement.lower()
@@ -690,9 +682,7 @@ def test_source_summary_scope_boundary_uses_source_neutral_discourse() -> None:
         for claim_id in source_write.source_summary_plan.selected_source_claims
     )
 
-    assert any(
-        claim.claim_eligibility == "scope-transition" for claim in plan.source_claims
-    )
+    assert any(claim.claim_eligibility == "scope-transition" for claim in plan.source_claims)
     assert selected
     assert all("secondary protocol" not in claim.statement.lower() for claim in selected)
     message = planned_write_message(source_write, {unit.unit_id: unit}, claims_by_id)

@@ -361,19 +361,22 @@ class TestPageBodyContracts:
         assert canonical.claim_bullets[0].bullet_text.startswith("A generalized recipe")
         assert canonical.claim_bullets[1].bullet_text.startswith("Two recipes")
         assert canonical.claim_bullets[2].bullet_text.startswith("A complete method")
-        assert validate_source_summary_draft(
-            canonical,
-            SourceSummaryPlan(
-                source_summary_plan_id="source-summary-plan-alpha",
-                page_id="alpha-source",
-                selected_source_claims=(
-                    "source-claim-unit-0001-0001",
-                    "source-claim-unit-0001-0002",
-                    "source-claim-unit-0001-0003",
+        assert (
+            validate_source_summary_draft(
+                canonical,
+                SourceSummaryPlan(
+                    source_summary_plan_id="source-summary-plan-alpha",
+                    page_id="alpha-source",
+                    selected_source_claims=(
+                        "source-claim-unit-0001-0001",
+                        "source-claim-unit-0001-0002",
+                        "source-claim-unit-0001-0003",
+                    ),
+                    required_source_citations=("raw/alpha.md",),
                 ),
-                required_source_citations=("raw/alpha.md",),
-            ),
-        ) == ()
+            )
+            == ()
+        )
 
     def test_source_summary_page_body_canonicalizes_simple_source_framing(self) -> None:
         contract = resolve_page_body_contract(

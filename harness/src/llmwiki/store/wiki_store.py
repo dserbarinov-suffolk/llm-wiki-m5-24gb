@@ -233,6 +233,17 @@ class WikiStore:
         artifact_dir.mkdir(parents=True, exist_ok=True)
         (artifact_dir / "claim-support-report.md").write_text(report, encoding="utf-8")
 
+    def write_ledger_artifacts(self, source_locator: str, files: dict[str, str]) -> None:
+        """Persist the claim-ledger bundle (one canonical JSON file each)."""
+        artifact_dir = self.page_plan_artifact_dir(source_locator) / "ledger"
+        artifact_dir.mkdir(parents=True, exist_ok=True)
+        for filename, text in files.items():
+            (artifact_dir / filename).write_text(text, encoding="utf-8")
+
+    def read_claim_ledger_artifact(self, source_locator: str) -> str | None:
+        path = self.page_plan_artifact_dir(source_locator) / "ledger" / "claim-ledger.json"
+        return path.read_text(encoding="utf-8") if path.is_file() else None
+
 
 def _is_hidden_path(path: Path, root: Path) -> bool:
     return any(part.startswith(".") for part in path.relative_to(root).parts)
