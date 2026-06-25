@@ -32,3 +32,7 @@ Claim-support audit filed as [[wiki-claim-support]]. Selected for model judgment
 
 ## [2026-06-24] claim-support | raw/javascriptallonge.pdf pages=javascriptallonge-about-the-sample-pdf-through-…
 Claim-support audit filed as [[wiki-claim-support]]. Selected for model judgment: 0. Structured verdicts: 0. Model-raised issues: 0. Deterministic blockers: 1. Missing verdicts: 0.
+
+## [2026-06-24] ingest | nennius_giles.pdf
+Planned ingest completed for 43 extracted unit(s) from raw/nennius_giles.pdf. Executed 13 planned page write(s). Observation: /Users/DSerbarinov/llm-wiki/harness/.cache/06ce8e5066789505/observation.md.
+Ingest confidence: passed. Report filed as [[wiki-ingest-confidence]].

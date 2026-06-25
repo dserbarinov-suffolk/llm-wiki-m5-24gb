@@ -120,6 +120,19 @@
 - [[javascriptallonge-yes-consider-this-variation]] — Yes. Consider this variation: from raw/javascriptallonge.pdf.
 - [[javascriptallonge-yielding-iterables-through-lazy-and-eager-collections]] — Lazy and Eager Collections from raw/javascriptallonge.pdf.
 - [[javascriptallonge-yielding-iterables-through-rewriting-iterable-operations]] — yielding iterables through rewriting iterable operations from raw/javascriptallonge.pdf.
+- [[nennius-giles]] — Hub page for raw/nennius_giles.pdf.
+- [[nennius-giles-nennius]] — Nennius through Nennius from raw/nennius_giles.pdf.
+- [[nennius-giles-nennius-2]] — Nennius through Nennius from raw/nennius_giles.pdf.
+- [[nennius-giles-nennius-3]] — Nennius through Nennius from raw/nennius_giles.pdf.
+- [[nennius-giles-nennius-4]] — Nennius through Nennius from raw/nennius_giles.pdf.
+- [[nennius-giles-nennius-5]] — Nennius through Nennius from raw/nennius_giles.pdf.
+- [[nennius-giles-nennius-6]] — Nennius through Nennius from raw/nennius_giles.pdf.
+- [[nennius-giles-nennius-7]] — Nennius through Nennius from raw/nennius_giles.pdf.
+- [[nennius-giles-nennius-8]] — Nennius through Nennius from raw/nennius_giles.pdf.
+- [[nennius-giles-nennius-9]] — Nennius through Nennius from raw/nennius_giles.pdf.
+- [[nennius-giles-nennius-through-ii-the-apology-of-nennius]] — NENNIUS through II. The Apology of Nennius from raw/nennius_giles.pdf.
+- [[nennius-giles-nennius-through-the-genealogy-of-the-mercians]] — Nennius through The genealogy of the Mercians. from raw/nennius_giles.pdf.
+- [[nennius-giles-the-kings-of-the-deiri-through-nennius]] — The kings of the Deiri. through Nennius from raw/nennius_giles.pdf.
 
 ## Entities
 - [[antikythera-mechanism]] — Facts about The Antikythera Mechanism from an ingested RawSource.

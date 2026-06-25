@@ -2,73 +2,70 @@
 page_id: wiki-ingest-confidence
 page_kind: synthesis
 summary: Latest bounded post-ingest confidence report.
-updated: 2026-06-23
+updated: 2026-06-24
 ---
 
 # Ingest Confidence Report
 
 ## Summary
 
-Run id: 2026-06-23-094159
-Source: raw/javascriptallonge.pdf
-Confidence status: passed with warnings
+Run id: 2026-06-24-150033
+Source: raw/nennius_giles.pdf
+Confidence status: passed
 Blockers: 0
-Warnings: 1
+Warnings: 0
 Gates: 5
 
 ## Artifact Reuse
 
-- page-plan: missing `/Users/DSerbarinov/llm-wiki/harness/.cache/page-plans/javascriptallonge-5873116c6496/page-plan.json` (artifact is missing; fingerprint 6cb7ee7b8fe55b95)
-- evidence-registry: missing `/Users/DSerbarinov/llm-wiki/harness/.cache/page-plans/javascriptallonge-5873116c6496/evidence-registry.json` (artifact is missing; fingerprint 6cb7ee7b8fe55b95)
-- evidence-locators: missing `/Users/DSerbarinov/llm-wiki/harness/.cache/page-plans/javascriptallonge-5873116c6496/evidence-locators.json` (artifact is missing; fingerprint 6cb7ee7b8fe55b95)
+- page-plan: missing `/Users/DSerbarinov/llm-wiki/harness/.cache/page-plans/nennius-giles-85c1a0dfadb7/page-plan.json` (artifact is missing; fingerprint f0b9877822d57d0b)
+- evidence-registry: missing `/Users/DSerbarinov/llm-wiki/harness/.cache/page-plans/nennius-giles-85c1a0dfadb7/evidence-registry.json` (artifact is missing; fingerprint f0b9877822d57d0b)
+- evidence-locators: missing `/Users/DSerbarinov/llm-wiki/harness/.cache/page-plans/nennius-giles-85c1a0dfadb7/evidence-locators.json` (artifact is missing; fingerprint f0b9877822d57d0b)
 
 ## Gates
 
 ### page-plan
 - Kind: deterministic
-- Scope: raw/javascriptallonge.pdf
+- Scope: raw/nennius_giles.pdf
 - Status: pass
 - Findings: none
 
 ### source-summary-quality
 - Kind: deterministic
-- Scope: raw/javascriptallonge.pdf
-- Status: fail
-- Findings: validation-finding-803bcc6b4d2a91a4
+- Scope: raw/nennius_giles.pdf
+- Status: pass
+- Findings: none
 SelectedIneligibleClaims: 0
 FalseSourceUncertaintyClaims: 0
-SourceFramingBullets: 1
+SourceFramingBullets: 0
 MissingUnitCoverage: 0
-SourceFramingExamples:
-- javascriptallonge-programming-from-functions-to-classes-in-ecmascript-2015-through-a-pull-of-the: - The source discusses the evolution of JavaScript from functional programming to class-based programming. (raw/javascriptallonge.pdf p.2-2)
 
 ### evidence-registry
 - Kind: deterministic
-- Scope: raw/javascriptallonge.pdf
+- Scope: raw/nennius_giles.pdf
 - Status: pass
 - Findings: none
 Source texts: 1
-Source ranges: 167
-Evidence records: 2908
+Source ranges: 13
+Evidence records: 575
 
 ### evidence-locators
 - Kind: deterministic
-- Scope: raw/javascriptallonge.pdf
+- Scope: raw/nennius_giles.pdf
 - Status: pass
 - Findings: none
-Locators: 2894
+Locators: 575
 Invalid locators: 0
 
 ### claim-support
 - Kind: model-assisted
-- Scope: raw/javascriptallonge.pdf
+- Scope: raw/nennius_giles.pdf
 - Status: skipped
-- Findings: validation-finding-cf596b10e496becb
+- Findings: validation-finding-36def439905ccc18
 ClaimSupportAuditReport is model-assisted and is not run by ordinary ingest.
 
 ## Findings
 
-- WARNING source-summary: Source-summary bullets use source-framing prose. Count: 1.
 - INFO claim-support: ClaimSupportAuditReport is model-assisted and is not run by ordinary ingest.
 
 ## Caveat

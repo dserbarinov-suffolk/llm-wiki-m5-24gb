@@ -73,6 +73,18 @@ Stop and propose a split into multiple TDDs instead of writing one.
 15. **Halt Conditions** — anything unresolved goes here, phrased as an explicit instruction: "If implementation touches X, stop and ask before proceeding."
     No ambient open questions; every item is either resolved before handoff or converted into a halt condition.
 
+**Domain Design Document (DDD) exception:**
+
+A Domain Design Document is a design document for domain objects, domain rules, and domain boundaries.
+It inherits all TDD rules in this file except the section structure and line limit.
+Use exactly these top-level sections, in order:
+
+1. **Context & Problem** — include term definitions before use.
+2. **Goals** — list the domain outcomes this design must achieve.
+3. **Proposed Architecture** — include domain objects, domain logic, boundaries, ports, adapters, invariants, and verification targets.
+
+Use subsections inside **Proposed Architecture** when they help the domain model stay clear.
+
 **Style constraints:**
 
 - Avoid the `Elegant variation` antipattern:
@@ -121,4 +133,3 @@ Stop and propose a split into multiple TDDs instead of writing one.
 - Editing pass before finishing: delete any sentence describing HOW to build something rather than WHAT must be true.
   The test for inclusion: "if the implementer decided this differently, would the PR be rejected?"
   If no, cut it.
-

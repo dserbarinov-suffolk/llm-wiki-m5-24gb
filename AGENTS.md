@@ -9,7 +9,7 @@ forge providing tool-calling reliability for the 14B model.
 ## Universal Standard
 
 The wiki should ingest all sources equally.
-It's logic should be based on rules, categories and patterns that are present in all documents, and never contain hardcoded cheats or shims made to make the text ingestion pass expecially well for specific books, specific passages and specific phrases.
+It's logic should be based on rules, categories and patterns that are present in all documents, and never contain hardcoded cheats or shims made to make the text ingestion pass especially well for specific books, specific passages and specific phrases.
 
 Allowed: table-parsing by identifying headers, columns, rows and cells - those are reusable categories.
 Forbidden: one book says "We haven't encountered the fourth possibility yet", so we write checks for `contains_fourth_possibility` - that's cheating by keying off one source's exact vocabulary.
