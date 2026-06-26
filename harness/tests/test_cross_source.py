@@ -12,6 +12,13 @@ from fakes import FakeClient
 from forge.context import ContextManager, NoCompact
 
 from llmwiki.config import WikiPaths
+from llmwiki.domain.ledger.canonical_concept import (
+    CanonicalConceptPage,
+    ConceptEvidenceItem,
+    ConceptRelationship,
+    ConceptSourceSection,
+    render_canonical_concept_page,
+)
 from llmwiki.domain.ledger.concepts import concept_topic_keys
 from llmwiki.domain.ledger.cross_source import (
     CrossSourceRelationship,
@@ -22,7 +29,6 @@ from llmwiki.domain.ledger.cross_source import (
     plan_cross_source_topics,
 )
 from llmwiki.domain.ledger.cross_source_quality import build_cross_source_quality_report
-from llmwiki.domain.ledger.cross_source_render import render_cross_source_page
 from llmwiki.domain.ledger.pointers import quality_check_catalog_pointer
 from llmwiki.domain.ledger.quality import page_write_decision
 from llmwiki.domain.ledger.quality_catalog import (
@@ -154,10 +160,12 @@ def _topic() -> CrossSourceTopic:
 
 
 class TestRenderAndQuality:
-    def test_render_keeps_positions_separate_and_covers_each_unit(self) -> None:
-        page = render_cross_source_page(_topic(), "closure")
+    def test_render_keeps_source_sections_and_covers_each_unit(self) -> None:
+        page = render_canonical_concept_page(_canonical_topic(), "closure")
         assert "A closure binds scope." in page.page_body
         assert "Closures capture environment." in page.page_body
+        assert "Source topic: [[alpha-closure]]" in page.page_body
+        assert "Source topic: [[beta-closure]]" in page.page_body
         assert "agrees-with" in page.page_body
         kinds = [e.projection_coverage_unit_kind for e in page.coverage.entries]
         assert kinds.count("generated-page-claim") == 2
@@ -165,7 +173,7 @@ class TestRenderAndQuality:
         assert "ledger-entry-" not in page.page_body
 
     def test_valid_cross_source_page_is_not_blocked(self) -> None:
-        page = render_cross_source_page(_topic(), "closure")
+        page = render_canonical_concept_page(_canonical_topic(), "closure")
         report = build_cross_source_quality_report(
             _topic(), page.page_body, catalog=_CATALOG, severity=_SEVERITY, catalog_pointer=_POINTER
         )
@@ -185,7 +193,7 @@ class TestRenderAndQuality:
         assert report.has_severity("blocking")
 
 
-def _representative(entry_id: str, text: str, source: str) -> dict:
+def _representative(entry_id: str, text: str, source: str) -> dict[str, object]:
     return {
         "ledger_entry_id": entry_id,
         "subject": "Subject",
@@ -213,11 +221,67 @@ def _topic_index(source: str, topics: list[tuple[str, str, str]]) -> str:
                     "page_kind": "concept",
                     "entry_count": 1,
                     "atom_count": 0,
+                    "entry_ids": [f"le-{source}-{key}"],
+                    "atom_ids": [],
                     "representative": _representative(f"le-{source}-{key}", text, source),
                 }
                 for key, label, text in topics
             ],
         }
+    )
+
+
+def _claim_ledger(source: str, topics: list[tuple[str, str, str]]) -> str:
+    return json.dumps(
+        {
+            "ledger": {
+                "source_locator": source,
+                "entries": [
+                    {
+                        "ledger_entry_id": f"le-{source}-{key}",
+                        "normalized_text": text,
+                        "source_text": text,
+                        "source_locator": source,
+                        "source_range_id": "sr-1",
+                    }
+                    for key, _label, text in topics
+                ],
+                "technical_atoms": [],
+                "technical_atom_contexts": [],
+            }
+        }
+    )
+
+
+def _canonical_topic() -> CanonicalConceptPage:
+    return CanonicalConceptPage(
+        topic_key="closure",
+        label="Closure",
+        page_kind="concept",
+        source_sections=(
+            ConceptSourceSection(
+                source_locator="alpha.pdf",
+                source_page_id="alpha",
+                topic_page_id="alpha-closure",
+                label="Closure",
+                evidence_items=(
+                    ConceptEvidenceItem("le-a", "A closure binds scope.", "alpha.pdf (sr-1)"),
+                ),
+                atom_blocks=(),
+            ),
+            ConceptSourceSection(
+                source_locator="beta.pdf",
+                source_page_id="beta",
+                topic_page_id="beta-closure",
+                label="Closure",
+                evidence_items=(
+                    ConceptEvidenceItem("le-b", "Closures capture environment.", "beta.pdf (sr-1)"),
+                ),
+                atom_blocks=(),
+            ),
+        ),
+        relationships=(ConceptRelationship("rel-1", "agrees-with", ("alpha", "beta"), ()),),
+        support_ids=("pss-a", "pss-b"),
     )
 
 
@@ -231,24 +295,34 @@ class TestSynthesizePipeline:
         assert loaded.positions[0].topic_keys == ("binding",)
 
     def test_build_cross_source_pages_from_two_topic_indexes(self) -> None:
-        a = _topic_index("alpha.pdf", [("binding", "Binding", "A binding names a value.")])
-        b = _topic_index("beta.pdf", [("binding", "Binding", "Bindings attach names.")])
-        result = build_cross_source_pages((a, b), today=TODAY)
+        a_topics = [("binding", "Binding", "A binding names a value.")]
+        b_topics = [("binding", "Binding", "Bindings attach names.")]
+        a = _topic_index("alpha.pdf", a_topics)
+        b = _topic_index("beta.pdf", b_topics)
+        result = build_cross_source_pages(
+            (a, b),
+            (_claim_ledger("alpha.pdf", a_topics), _claim_ledger("beta.pdf", b_topics)),
+            today=TODAY,
+        )
         concept_pages = [p for p in result.pages if p.page_kind == "concept"]
         assert any(p.page_id == "binding" for p in concept_pages)
         assert any(p.page_kind == "synthesis" for p in result.pages)
         assert result.blocked == ()
+        body = next(p.page_body for p in concept_pages if p.page_id == "binding")
+        assert "## Source Evidence" in body
+        assert "Source topic: [[alpha-binding]]" in body
+        assert "A binding names a value." in body
 
     async def test_session_synthesize_writes_concept_pages(
         self, store: WikiStore, paths: WikiPaths
     ) -> None:
         for source in ("alpha.pdf", "beta.pdf"):
+            topics = [("monad", "Monad", "A monad wraps a value.")]
             store.write_ledger_artifacts(
                 source,
                 {
-                    "topics.json": _topic_index(
-                        source, [("monad", "Monad", "A monad wraps a value.")]
-                    )
+                    "topics.json": _topic_index(source, topics),
+                    "claim-ledger.json": _claim_ledger(source, topics),
                 },
             )
         session = Session(
@@ -260,9 +334,11 @@ class TestSynthesizePipeline:
             run_id="synth-test",
         )
         result = await session.synthesize()
-        assert "Cross-source synthesis over 2 source(s)" in result.output
+        assert "Canonical concept synthesis over 2 source(s)" in result.output
         assert "monad" in store.list_pages()
         assert "cross-source-synthesis" in store.list_pages()
         body = store.read_page("monad")
         assert "[[alpha]]" in body and "[[beta]]" in body
+        assert "Source topic: [[alpha-monad]]" in body
+        assert "A monad wraps a value." in body
         assert f"## [{TODAY}] synthesize" in paths.log_path.read_text(encoding="utf-8")

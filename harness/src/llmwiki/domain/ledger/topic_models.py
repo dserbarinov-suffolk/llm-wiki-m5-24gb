@@ -39,6 +39,8 @@ class PersistedTopic:
     page_kind: str
     entry_count: int
     atom_count: int
+    entry_ids: tuple[str, ...]
+    atom_ids: tuple[str, ...]
     representative: TopicRepresentative
 
 

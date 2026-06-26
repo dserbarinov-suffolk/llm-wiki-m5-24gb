@@ -33,6 +33,8 @@ def build_topic_index(
             page_kind=topic.page_kind,
             entry_count=len(topic.entry_ids),
             atom_count=len(topic.atom_ids),
+            entry_ids=topic.entry_ids,
+            atom_ids=topic.atom_ids,
             representative=_representative(ledger, topic),
         )
         for topic in topics

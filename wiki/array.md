@@ -1,18 +1,88 @@
 ---
 page_id: array
 page_kind: concept
-summary: Cross-source concept 'Array': 2 sources, 0 relation(s).
+summary: Canonical concept 'Array': 2 source(s), 13 statement(s), 4 atom(s), 0 relation(s).
 sources: raw/coding_learn_go_with_tests_excerpt.pdf, raw/coding_little_go_book.pdf
 updated: 2026-06-26
 category_path: concepts
-projection_coverage: cross-source-array@37666318c7aeee823cca59da3d5ee06d
+projection_coverage: canonical-concept-array@fee27fa02ac68e2e0db3ad0d6ab284eb
 ---
 
 # Array
 
-Cross-source concept: how 2 source(s) treat Array.
+Compiled concept page from 2 source(s), 13 statement(s), and 4 technical atom(s).
 
-## Positions
+## Source Evidence
 
-- To get the value out of an array at a particular index, just use array[index] syntax. _([[coding-learn-go-with-tests-excerpt]] — coding_learn_go_with_tests_excerpt.pdf (source-range-f4b7154d-00297))_
-- In Go, like many other languages, arrays are fixed. _([[coding-little-go-book]] — coding_little_go_book.pdf (source-range-773b6275-00191))_
+### [[coding-learn-go-with-tests-excerpt]]
+
+Source topic: [[coding-learn-go-with-tests-excerpt-array]]
+
+#### Statements
+
+- To get the value out of an array at a particular index, just use array[index] syntax. _(coding_learn_go_with_tests_excerpt.pdf (source-range-f4b7154d-00297))_
+- Arrays allow you to store multiple elements of the same type in a variable in a particular order. _(coding_learn_go_with_tests_excerpt.pdf (source-range-f4b7154d-00276))_
+- Arrays have a fi xed capacity which you define when you declare the variable. _(coding_learn_go_with_tests_excerpt.pdf (source-range-f4b7154d-00282))_
+- An interesting property of arrays is that the size is encoded in its type. _(coding_learn_go_with_tests_excerpt.pdf (source-range-f4b7154d-00303))_
+
+#### Technical atoms
+
+> Context: Arrays have a fi xed capacity which you define when you declare the variable. We can initialize an array in two ways:
+_(context: coding_learn_go_with_tests_excerpt.pdf (source-range-f4b7154d-00282))_
+
+```
+[N]type{value1, value2, ..., valueN} e.g. numbers := [5]int{1, 2, 
+3, 4, 5}
+[...]type{value1, value2, ..., valueN} e.g. numbers := [...]int{1, 2,
+```
+_(source: coding_learn_go_with_tests_excerpt.pdf (source-range-f4b7154d-00283))_
+
+
+### [[coding-little-go-book]]
+
+Source topic: [[coding-little-go-book-array]]
+
+#### Statements
+
+- In Go, like many other languages, arrays are fixed. _(coding_little_go_book.pdf (source-range-773b6275-00191))_
+- Declaring an array requires that we specify the size, and once the size is specified, it cannot grow: _(coding_little_go_book.pdf (source-range-773b6275-00191))_
+- The above array can hold up to 10 scores using indexes scores[0] through scores[9] . _(coding_little_go_book.pdf (source-range-773b6275-00193))_
+- Attempts to access an out of range index in the array will result in a compiler or runtime error. _(coding_little_go_book.pdf (source-range-773b6275-00193))_
+- Arrays are efficient but rigid. _(coding_little_go_book.pdf (source-range-773b6275-00198))_
+- These are arrays that resize themselves as data is added to them. _(coding_little_go_book.pdf (source-range-773b6275-00191))_
+- If you come from Python, Ruby, Perl, JavaScript or PHP (and more), you're probably used to programming with dynamic arrays . _(coding_little_go_book.pdf (source-range-773b6275-00191))_
+- We can use len to get the length of the array. _(coding_little_go_book.pdf (source-range-773b6275-00196))_
+- We often don't know the number of elements we'll be dealing with upfront. _(coding_little_go_book.pdf (source-range-773b6275-00198))_
+
+#### Technical atoms
+
+> Context: If you come from Python, Ruby, Perl, JavaScript or PHP (and more), you're probably used to programming with dynamic arrays . These are arrays that resize themselves as data is added to them. In Go, like many other languages, arrays are fixed. Declaring an array requires that we specify the size, and once the size is specified, it cannot grow: The above array can hold up to 10 scores using indexes scores[0] through scores[9] . Attempts to access an out of range index in the array will result in a compiler or runtime error.
+_(context: coding_little_go_book.pdf (source-range-773b6275-00191, source-range-773b6275-00193))_
+
+```
+var scores [10]int
+scores[0] = 339
+```
+_(source: coding_little_go_book.pdf (source-range-773b6275-00192))_
+
+> Context: We can initialize the array with values:
+_(context: coding_little_go_book.pdf (source-range-773b6275-00194))_
+
+```
+scores := [4]int{9001, 9333, 212, 33}
+```
+_(source: coding_little_go_book.pdf (source-range-773b6275-00195))_
+
+> Context: We can use len to get the length of the array. range can be used to iterate over it:
+_(context: coding_little_go_book.pdf (source-range-773b6275-00196))_
+
+```
+for index, value := range scores {
+}
+```
+_(source: coding_little_go_book.pdf (source-range-773b6275-00197))_
+
+
+## Cross-Source Comparison
+
+- No typed cross-source relationships detected yet.

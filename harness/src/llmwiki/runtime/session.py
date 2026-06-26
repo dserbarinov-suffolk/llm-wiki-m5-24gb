@@ -293,13 +293,14 @@ class Session:
         return OperationResult("ingest", source_locator, report, None, run)
 
     async def synthesize(self) -> OperationResult:
-        """Build cross-source concept pages from every stored topic index.
+        """Build canonical concept pages from stored topic indexes.
 
         Deterministic and model-free: per-source topics (headings + key terms)
-        that recur across sources become ``CrossSourceWikiPage`` projections with
-        typed cross-source relations.
+        that recur across sources become canonical concept pages with source
+        evidence sections and typed cross-source relation sections.
         """
         topic_jsons = tuple(self.store.list_topic_index_artifacts())
+        claim_ledger_jsons = tuple(self.store.list_claim_ledger_artifacts())
         if len(topic_jsons) < 2:
             report = (
                 "Cross-source synthesis needs at least two ingested sources; "
@@ -307,7 +308,7 @@ class Session:
             )
             self.store.append_log(self.today, "synthesize", "cross-source", report)
             return OperationResult("synthesize", "cross-source", report, None)
-        result = build_cross_source_pages(topic_jsons, today=self.today)
+        result = build_cross_source_pages(topic_jsons, claim_ledger_jsons, today=self.today)
         for page in result.pages:
             self.store.write_page(page)
         self.store.delete_cross_source_pages_not_in({page.page_id for page in result.pages})

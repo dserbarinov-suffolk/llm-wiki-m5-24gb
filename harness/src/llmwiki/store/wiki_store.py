@@ -144,7 +144,10 @@ class WikiStore:
     def delete_cross_source_pages_not_in(self, keep_page_ids: set[str]) -> tuple[str, ...]:
         return self._delete_generated_pages(
             keep_page_ids,
-            lambda metadata: metadata.projection_coverage_pointer.startswith("cross-source-"),
+            lambda metadata: (
+                metadata.projection_coverage_pointer.startswith("cross-source-")
+                or metadata.projection_coverage_pointer.startswith("canonical-concept-")
+            ),
         )
 
     def page_path_for_page_id(self, page_id: str) -> Path:

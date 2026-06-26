@@ -7,7 +7,7 @@ updated: 2026-06-26
 domain: history-short-history-of-england
 category_path: sources
 source_id: history_short_history_of_england.pdf
-projection_coverage: projection-coverage-97a91ff4e209c184@ff9743224ee004c6
+projection_coverage: projection-coverage-97a91ff4e209c184@a778286d71ba9919
 ---
 
 # The Project Gutenberg eBook, A Short History of England, by G. K. Chesterton

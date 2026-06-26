@@ -504,9 +504,9 @@ Regenerated ingest pages will be linked here by the ingest workflow.
 ## Entities
 
 ## Concepts
-- [[array]] — Cross-source concept 'Array': 2 sources, 0 relation(s).
-- [[character]] — Cross-source concept 'Character': 2 sources, 0 relation(s).
-- [[code]] — Cross-source concept 'Code': 2 sources, 0 relation(s).
+- [[array]] — Canonical concept 'Array': 2 source(s), 13 statement(s), 4 atom(s), 0 relation(s).
+- [[character]] — Canonical concept 'Character': 2 source(s), 60 statement(s), 4 atom(s), 0 relation(s).
+- [[code]] — Canonical concept 'Code': 2 source(s), 23 statement(s), 19 atom(s), 0 relation(s).
 - [[coding-learn-go-with-tests-excerpt-array]] — Array: 4 statement(s) and 1 atom(s) from raw/coding_learn_go_with_tests_excerpt.pdf.
 - [[coding-learn-go-with-tests-excerpt-array-slice]] — Arrays and slices: 2 statement(s) and 0 atom(s) from raw/coding_learn_go_with_tests_excerpt.pdf.
 - [[coding-learn-go-with-tests-excerpt-array-type]] — Arrays and their type: 5 statement(s) and 0 atom(s) from raw/coding_learn_go_with_tests_excerpt.pdf.
@@ -571,10 +571,10 @@ Regenerated ingest pages will be linked here by the ingest workflow.
 - [[coding-little-go-book-value]] — Value: 9 statement(s) and 22 atom(s) from raw/coding_little_go_book.pdf.
 - [[coding-little-go-book-variable]] — Variable: 7 statement(s) and 9 atom(s) from raw/coding_little_go_book.pdf.
 - [[coding-little-go-book-variable-declaration]] — Variables and Declarations: 18 statement(s) and 8 atom(s) from raw/coding_little_go_book.pdf.
-- [[damage]] — Cross-source concept 'Damage': 2 sources, 0 relation(s).
-- [[english]] — Cross-source concept 'English': 2 sources, 0 relation(s).
-- [[function]] — Cross-source concept 'Function': 2 sources, 0 relation(s).
-- [[henry]] — Cross-source concept 'Henry': 2 sources, 0 relation(s).
+- [[damage]] — Canonical concept 'Damage': 2 source(s), 17 statement(s), 7 atom(s), 0 relation(s).
+- [[english]] — Canonical concept 'English': 2 source(s), 54 statement(s), 0 atom(s), 0 relation(s).
+- [[function]] — Canonical concept 'Function': 2 source(s), 12 statement(s), 10 atom(s), 0 relation(s).
+- [[henry]] — Canonical concept 'Henry': 2 source(s), 24 statement(s), 0 atom(s), 0 relation(s).
 - [[history-dickens-england-excerpt-afterward]] — Afterward: 9 statement(s) and 0 atom(s) from raw/history_dickens_england_excerpt.pdf.
 - [[history-dickens-england-excerpt-army]] — Army: 7 statement(s) and 0 atom(s) from raw/history_dickens_england_excerpt.pdf.
 - [[history-dickens-england-excerpt-baron]] — Baron: 8 statement(s) and 0 atom(s) from raw/history_dickens_england_excerpt.pdf.
@@ -639,10 +639,10 @@ Regenerated ingest pages will be linked here by the ingest workflow.
 - [[history-short-history-of-england-spain-schism-nation]] — SPAIN AND THE SCHISM OF NATIONS: 98 statement(s) and 0 atom(s) from raw/history_short_history_of_england.pdf.
 - [[history-short-history-of-england-triumph-whig]] — THE TRIUMPH OF THE WHIGS: 129 statement(s) and 0 atom(s) from raw/history_short_history_of_england.pdf.
 - [[history-short-history-of-england-usurper]] — THE WAR OF THE USURPERS: 95 statement(s) and 0 atom(s) from raw/history_short_history_of_england.pdf.
-- [[interface]] — Cross-source concept 'Interface': 2 sources, 0 relation(s).
-- [[king]] — Cross-source concept 'King': 2 sources, 0 relation(s).
-- [[package]] — Cross-source concept 'Package': 2 sources, 0 relation(s).
-- [[people]] — Cross-source concept 'People': 2 sources, 0 relation(s).
+- [[interface]] — Canonical concept 'Interface': 2 source(s), 21 statement(s), 5 atom(s), 0 relation(s).
+- [[king]] — Canonical concept 'King': 2 source(s), 82 statement(s), 0 atom(s), 0 relation(s).
+- [[package]] — Canonical concept 'Package': 2 source(s), 11 statement(s), 9 atom(s), 0 relation(s).
+- [[people]] — Canonical concept 'People': 2 source(s), 21 statement(s), 1 atom(s), 0 relation(s).
 - [[rpg-cairn-2e-core-attack]] — Attack: 5 statement(s) and 5 atom(s) from raw/rpg_cairn_2e_core.pdf.
 - [[rpg-cairn-2e-core-attack-modifier]] — Attack Modifiers: 2 statement(s) and 4 atom(s) from raw/rpg_cairn_2e_core.pdf.
 - [[rpg-cairn-2e-core-attribute-protection-trait]] — Attributes, Hit Protection, and Traits: 5 statement(s) and 2 atom(s) from raw/rpg_cairn_2e_core.pdf.
@@ -707,9 +707,9 @@ Regenerated ingest pages will be linked here by the ingest workflow.
 - [[rpg-dnd-srd-excerpt-typical]] — Typical: 9 statement(s) and 2 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
 - [[rpg-dnd-srd-excerpt-weapon-proficiency]] — Weapon Proficiency: 7 statement(s) and 3 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
 - [[rpg-dnd-srd-excerpt-weapon-property]] — Weapon Properties: 17 statement(s) and 8 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
-- [[target]] — Cross-source concept 'Target': 2 sources, 0 relation(s).
-- [[type]] — Cross-source concept 'Type': 2 sources, 0 relation(s).
-- [[value]] — Cross-source concept 'Value': 2 sources, 0 relation(s).
+- [[target]] — Canonical concept 'Target': 2 source(s), 21 statement(s), 6 atom(s), 0 relation(s).
+- [[type]] — Canonical concept 'Type': 2 source(s), 15 statement(s), 9 atom(s), 0 relation(s).
+- [[value]] — Canonical concept 'Value': 2 source(s), 14 statement(s), 23 atom(s), 0 relation(s).
 
 ## Syntheses
 - [[cross-source-synthesis]] — Cross-source synthesis index: 14 shared topics.

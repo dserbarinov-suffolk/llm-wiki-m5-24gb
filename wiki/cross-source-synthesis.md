@@ -7,7 +7,7 @@ updated: 2026-06-26
 
 # Cross-Source Synthesis
 
-Concept and entity pages built from 6 ingested source ledger(s).
+Canonical concept pages built from 6 ingested source ledger(s).
 
 ## Topics
 
