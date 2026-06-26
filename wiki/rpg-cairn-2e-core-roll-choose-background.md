@@ -6,7 +6,7 @@ sources: raw/rpg_cairn_2e_core.pdf
 updated: 2026-06-26
 domain: rpg-cairn-2e-core
 category_path: concepts
-projection_coverage: topic-rpg-cairn-2e-core-roll-choose-background@9d8cf10d71e50094a71372a9a7aeaebf
+projection_coverage: topic-rpg-cairn-2e-core-roll-choose-background@9327b7685b37f13a6439056d063937b2
 ---
 
 # Roll or choose a Background
@@ -15,10 +15,10 @@ What [[rpg-cairn-2e-core]] covers about roll or choose a background:
 
 ## Statements
 
-- You will refer to that page for the next few steps. _(rpg_cairn_2e_core.pdf (source-range-ad2c341f-00091))_
+- Some backgrounds may ask you to refer to the tables in the Marketplace as well. _(rpg_cairn_2e_core.pdf (source-range-ad2c341f-00093))_
 - First, roll or choose from the Backgrounds table below and note the page number. _(rpg_cairn_2e_core.pdf (source-range-ad2c341f-00091))_
 - Roll on each of the included tables in the background. _(rpg_cairn_2e_core.pdf (source-range-ad2c341f-00093))_
-- Some backgrounds may ask you to refer to the tables in the Marketplace as well. _(rpg_cairn_2e_core.pdf (source-range-ad2c341f-00093))_
+- You will refer to that page for the next few steps. _(rpg_cairn_2e_core.pdf (source-range-ad2c341f-00091))_
 
 ## Technical atoms
 

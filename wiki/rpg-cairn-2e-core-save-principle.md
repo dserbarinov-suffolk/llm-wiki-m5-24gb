@@ -6,7 +6,7 @@ sources: raw/rpg_cairn_2e_core.pdf
 updated: 2026-06-26
 domain: rpg-cairn-2e-core
 category_path: concepts
-projection_coverage: topic-rpg-cairn-2e-core-save-principle@2f414696b9ccc76555f4a513bed5e658
+projection_coverage: topic-rpg-cairn-2e-core-save-principle@73e5b5a770230b8564fc2929248d5483
 ---
 
 # Save Principles
@@ -15,6 +15,7 @@ What [[rpg-cairn-2e-core]] covers about save principles:
 
 ## Statements
 
+- The outcome of a save need not be a simple binary. _(rpg_cairn_2e_core.pdf (source-range-ad2c341f-00482))_
 - If the answer is "no," then a save is usually warranted. _(rpg_cairn_2e_core.pdf (source-range-ad2c341f-00478))_
 - When in doubt, ask whether the party has the time, resources, skills, or advantage to overcome a problem. _(rpg_cairn_2e_core.pdf (source-range-ad2c341f-00478))_
 - If the answer is "I don't know," then a roll with the Die of Fate may be necessary. _(rpg_cairn_2e_core.pdf (source-range-ad2c341f-00478))_
@@ -22,7 +23,6 @@ What [[rpg-cairn-2e-core]] covers about save principles:
 - If the risk is so great that the outcome might be fatal, make sure the player understands what they're getting into. _(rpg_cairn_2e_core.pdf (source-range-ad2c341f-00480))_
 - Always provide multiple viable options for the PCs to choose from. _(rpg_cairn_2e_core.pdf (source-range-ad2c341f-00481))_
 - The more choices, the more interesting the situation becomes. _(rpg_cairn_2e_core.pdf (source-range-ad2c341f-00481))_
-- The outcome of a save need not be a simple binary. _(rpg_cairn_2e_core.pdf (source-range-ad2c341f-00482))_
 - You can tailor the results based on the totality of input: the effort, forethought, resources, and skill that went into the roll. _(rpg_cairn_2e_core.pdf (source-range-ad2c341f-00482))_
 - This doesn't mean revealing all of the world's secrets, but provide each player with the maximum information their character might have. _(rpg_cairn_2e_core.pdf (source-range-ad2c341f-00483))_
 - Avoid requiring a dice roll whenever possible. _(rpg_cairn_2e_core.pdf (source-range-ad2c341f-00484))_

@@ -6,7 +6,7 @@ sources: raw/rpg_cairn_2e_core.pdf
 updated: 2026-06-26
 domain: rpg-cairn-2e-core
 category_path: concepts
-projection_coverage: topic-rpg-cairn-2e-core-dungeon-exploration-cycle@b37c140b2751dbe14c4deed5125cbf6a
+projection_coverage: topic-rpg-cairn-2e-core-dungeon-exploration-cycle@51b29154404a1f2fa094b37f5f0b0236
 ---
 
 # Dungeon Exploration Cycle
@@ -15,10 +15,10 @@ What [[rpg-cairn-2e-core]] covers about dungeon exploration cycle:
 
 ## Statements
 
+- The cycle then begins again. _(rpg_cairn_2e_core.pdf (source-range-ad2c341f-00267))_
 - The players then declare their character's intended movements and actions . _(rpg_cairn_2e_core.pdf (source-range-ad2c341f-00265))_
 - The Warden describes the party's surroundings and any immediate dangers (combat, traps, surprises, etc.). _(rpg_cairn_2e_core.pdf (source-range-ad2c341f-00265))_
 - The Warden resolves the actions of each character simultaneously, along with any actions that are already in progress. _(rpg_cairn_2e_core.pdf (source-range-ad2c341f-00266))_
-- The cycle then begins again. _(rpg_cairn_2e_core.pdf (source-range-ad2c341f-00267))_
 - item use, deprivation , etc). _(rpg_cairn_2e_core.pdf (source-range-ad2c341f-00267))_
 
 ## Technical atoms

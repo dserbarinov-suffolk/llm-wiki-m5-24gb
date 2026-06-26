@@ -6,7 +6,7 @@ sources: raw/rpg_dnd_srd_excerpt.pdf
 updated: 2026-06-26
 domain: rpg-dnd-srd-excerpt
 category_path: concepts
-projection_coverage: topic-rpg-dnd-srd-excerpt-death-saving-throw@3c1e587e1ad9b451098ee24f1e3beb06
+projection_coverage: topic-rpg-dnd-srd-excerpt-death-saving-throw@5202848f50406017215ab81ac7e5d4db
 ---
 
 # Death Saving Throws
@@ -16,13 +16,13 @@ What [[rpg-dnd-srd-excerpt]] covers about death saving throws:
 ## Statements
 
 - Unlike other saving throws, this one isn't tied to any ability score. _(rpg_dnd_srd_excerpt.pdf (source-range-b7d08967-00438))_
+- When you make a death saving throw and roll a 1 on the d20, it counts as two failures. _(rpg_dnd_srd_excerpt.pdf (source-range-b7d08967-00440))_
+- If you take any damage while you have 0 hit points, you suffer a death saving throw failure. _(rpg_dnd_srd_excerpt.pdf (source-range-b7d08967-00441))_
 - The number of both is reset to zero when you regain any hit points or become stable. _(rpg_dnd_srd_excerpt.pdf (source-range-b7d08967-00439))_
 - The successes and failures don't need to be consecutive; keep track of both until you collect three of a kind. _(rpg_dnd_srd_excerpt.pdf (source-range-b7d08967-00439))_
 - On your third success, you become stable (see below). _(rpg_dnd_srd_excerpt.pdf (source-range-b7d08967-00439))_
 - If the roll is 10 or higher, you succeed. _(rpg_dnd_srd_excerpt.pdf (source-range-b7d08967-00439))_
-- When you make a death saving throw and roll a 1 on the d20, it counts as two failures. _(rpg_dnd_srd_excerpt.pdf (source-range-b7d08967-00440))_
 - If you roll a 20 on the d20, you regain 1 hit point. _(rpg_dnd_srd_excerpt.pdf (source-range-b7d08967-00440))_
-- If you take any damage while you have 0 hit points, you suffer a death saving throw failure. _(rpg_dnd_srd_excerpt.pdf (source-range-b7d08967-00441))_
 - If the damage is from a critical hit, you suffer two failures instead. _(rpg_dnd_srd_excerpt.pdf (source-range-b7d08967-00441))_
 
 ## Technical atoms

@@ -6,7 +6,7 @@ sources: raw/coding_little_go_book.pdf
 updated: 2026-06-26
 domain: coding-little-go-book
 category_path: concepts
-projection_coverage: topic-coding-little-go-book-channel@66b26b526161252f10886303d000f018
+projection_coverage: topic-coding-little-go-book-channel@e4d75ec2d5241bdf4b629aedd146317a
 ---
 
 # Channels
@@ -15,12 +15,12 @@ What [[coding-little-go-book]] covers about channels:
 
 ## Statements
 
+- Channels provide all of the synchronization code we need and also ensure that, at any given time, only one goroutine has access to a specific piece of data. _(coding_little_go_book.pdf (source-range-773b6275-00431))_
+- Notice that the only shared state is the channel, which we can safely receive from and send to concurrently. _(coding_little_go_book.pdf (source-range-773b6275-00431))_
 - It waits until data is available then "processes" it. _(coding_little_go_book.pdf (source-range-773b6275-00429))_
 - Dutifully, it does this in a loop, forever waiting for more data to process. _(coding_little_go_book.pdf (source-range-773b6275-00429))_
 - Our worker is simple. _(coding_little_go_book.pdf (source-range-773b6275-00429))_
 - We don't know which worker is going to get what data. _(coding_little_go_book.pdf (source-range-773b6275-00430))_
-- Notice that the only shared state is the channel, which we can safely receive from and send to concurrently. _(coding_little_go_book.pdf (source-range-773b6275-00431))_
-- Channels provide all of the synchronization code we need and also ensure that, at any given time, only one goroutine has access to a specific piece of data. _(coding_little_go_book.pdf (source-range-773b6275-00431))_
 
 ## Technical atoms
 

@@ -13,8 +13,13 @@ from llmwiki.domain.ledger.entries import LedgerEntry
 from llmwiki.domain.ledger.ledger import ClaimLedger
 from llmwiki.domain.ledger.structure import DocumentStructure
 from llmwiki.domain.ledger.topic_atom_match import atom_ids_matching_table_payload
+from llmwiki.domain.ledger.topic_evidence import heading_topic_decision, topic_entry_rank
 from llmwiki.domain.ledger.topic_models import SourceTopic
-from llmwiki.domain.ledger.topic_terms import content_terms, topic_matcher
+from llmwiki.domain.ledger.topic_terms import (
+    content_terms,
+    single_term_topic_candidate_allowed,
+    topic_matcher,
+)
 
 _HEADING_NUMBER = re.compile(
     r"^(?:chapter|part|section|appendix|book)\s+[\dIVXLC]+\s*[-:.]?\s*", re.IGNORECASE
@@ -129,6 +134,8 @@ def _term_candidates(entries: list[LedgerEntry]) -> list[_TopicCandidate]:
     for term, frequency in counts.most_common():
         if frequency < _MIN_TERM_FREQUENCY:
             break
+        if not single_term_topic_candidate_allowed(term):
+            continue
         candidates.append(
             _TopicCandidate(
                 topic_key=term,
@@ -161,13 +168,17 @@ def _aggregate(
     atom_ids = tuple(
         dict.fromkeys((*atom_ids, *atom_ids_matching_table_payload(ledger, matcher, structure)))
     )
+    if candidate.evidence_kind == "heading":
+        decision = heading_topic_decision(candidate.terms, matched, atom_ids, matcher)
+        if not decision.accepted:
+            return None
 
     matched = [
         entry
         for entry in matched
         if len((entry.normalized_text or entry.source_text).split()) <= _MAX_STATEMENT_WORDS
     ]
-    matched.sort(key=lambda entry: _entry_rank(entry, matcher, candidate, ledger))
+    matched.sort(key=lambda entry: topic_entry_rank(entry, matcher, ledger))
     entry_ids = tuple(entry.ledger_entry_id for entry in matched)
     salience = (
         len(entry_ids)
@@ -256,35 +267,3 @@ def _atom_has_matching_context(ledger: ClaimLedger, atom_id: str, matcher: re.Pa
         and atom_is_topic_projectable(atom, ledger.source_profile)
         and atom_context_matches(ledger.atom_contexts(atom_id), matcher)
     )
-
-
-def _entry_rank(
-    entry: LedgerEntry,
-    matcher: re.Pattern[str],
-    candidate: _TopicCandidate,
-    ledger: ClaimLedger,
-) -> tuple[int, int, int, int, int, int, str]:
-    if candidate.evidence_kind == "heading":
-        return (0, 0, 0, 0, 0, _source_order(ledger, entry), entry.ledger_entry_id)
-    is_concept = entry.ledger_entry_kind == "concept"
-    is_definition = bool(entry.concept_facets) or "definition" in entry.claim_role_tags
-    subject_match = bool(matcher.search(entry.subject))
-    object_match = bool(matcher.search(entry.object_value))
-    text = entry.normalized_text or entry.source_text
-    text_match = bool(matcher.search(text))
-    return (
-        0 if is_concept else 1,
-        0 if is_definition else 1,
-        0 if subject_match else 1,
-        0 if object_match else 1,
-        0 if text_match else 1,
-        _source_order(ledger, entry),
-        entry.ledger_entry_id,
-    )
-
-
-def _source_order(ledger: ClaimLedger, entry: LedgerEntry) -> int:
-    for index, statement in enumerate(ledger.source_statements):
-        if statement.source_range_id == entry.source_range_id:
-            return index
-    return len(ledger.source_statements)

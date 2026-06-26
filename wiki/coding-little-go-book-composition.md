@@ -6,7 +6,7 @@ sources: raw/coding_little_go_book.pdf
 updated: 2026-06-26
 domain: coding-little-go-book
 category_path: concepts
-projection_coverage: topic-coding-little-go-book-composition@67177b6165b8c09b9508a7d29eef1211
+projection_coverage: topic-coding-little-go-book-composition@3f8ac5dde06129e86d811ef3eacfda5d
 ---
 
 # Composition
@@ -15,10 +15,10 @@ What [[coding-little-go-book]] covers about composition:
 
 ## Statements
 
+- Go supports composition, which is the act of including one structure into another. _(coding_little_go_book.pdf (source-range-773b6275-00160))_
 - Languages that don't have an explicit composition mechanism can always do it the long way. _(coding_little_go_book.pdf (source-range-773b6275-00160))_
 - In some languages, this is called a trait or a mixin. _(coding_little_go_book.pdf (source-range-773b6275-00160))_
 - In Java, there's the possibility to extend structures with inheritance but, in a scenario where this is not an option, a mixin would be written like this: _(coding_little_go_book.pdf (source-range-773b6275-00160))_
-- Go supports composition, which is the act of including one structure into another. _(coding_little_go_book.pdf (source-range-773b6275-00160))_
 - This can get pretty tedious. _(coding_little_go_book.pdf (source-range-773b6275-00162))_
 - Every method of Person needs to be duplicated in Saiyan . _(coding_little_go_book.pdf (source-range-773b6275-00162))_
 - Both of the above will print "Goku". _(coding_little_go_book.pdf (source-range-773b6275-00166))_

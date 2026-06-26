@@ -6,7 +6,7 @@ sources: raw/rpg_dnd_srd_excerpt.pdf
 updated: 2026-06-26
 domain: rpg-dnd-srd-excerpt
 category_path: concepts
-projection_coverage: topic-rpg-dnd-srd-excerpt-table-difficulty-classe@d5a237da45caa701fa6ef428ee23bc80
+projection_coverage: topic-rpg-dnd-srd-excerpt-table-difficulty-classe@486182c3df7bc875f7d88b2cb70d342a
 ---
 
 # Table- Difficulty Classes
@@ -15,9 +15,9 @@ What [[rpg-dnd-srd-excerpt]] covers about table- difficulty classes:
 
 ## Statements
 
+- Otherwise, it's a failure, which means the character or monster makes no progress toward the objective or makes progress combined with a setback determined by the GM. _(rpg_dnd_srd_excerpt.pdf (source-range-b7d08967-00095))_
 - As with other d20 rolls, apply bonuses and penalties, and compare the total to the DC. _(rpg_dnd_srd_excerpt.pdf (source-range-b7d08967-00095))_
 - To make an ability check, roll a d20 and add the relevant ability modifier. _(rpg_dnd_srd_excerpt.pdf (source-range-b7d08967-00095))_
-- Otherwise, it's a failure, which means the character or monster makes no progress toward the objective or makes progress combined with a setback determined by the GM. _(rpg_dnd_srd_excerpt.pdf (source-range-b7d08967-00095))_
 - If the total equals or exceeds the DC, the ability check is a success-the creature overcomes the challenge at hand. _(rpg_dnd_srd_excerpt.pdf (source-range-b7d08967-00095))_
 
 ## Technical atoms

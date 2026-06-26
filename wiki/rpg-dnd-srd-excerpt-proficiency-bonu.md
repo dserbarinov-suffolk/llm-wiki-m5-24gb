@@ -6,7 +6,7 @@ sources: raw/rpg_dnd_srd_excerpt.pdf
 updated: 2026-06-26
 domain: rpg-dnd-srd-excerpt
 category_path: concepts
-projection_coverage: topic-rpg-dnd-srd-excerpt-proficiency-bonu@f1382279953344635541d102d72e0372
+projection_coverage: topic-rpg-dnd-srd-excerpt-proficiency-bonu@b629da67ce23ba534ae6c558aef293d8
 ---
 
 # Proficiency Bonus
@@ -15,11 +15,11 @@ What [[rpg-dnd-srd-excerpt]] covers about proficiency bonus:
 
 ## Statements
 
-- The bonus is used in the rules on ability checks, saving throws, and attack rolls. _(rpg_dnd_srd_excerpt.pdf (source-range-b7d08967-00085))_
-- Monsters also have this bonus, which is incorporated in their stat blocks. _(rpg_dnd_srd_excerpt.pdf (source-range-b7d08967-00085))_
-- Your proficiency bonus can't be added to a single die roll or other number more than once. _(rpg_dnd_srd_excerpt.pdf (source-range-b7d08967-00086))_
 - For instance, if you lack proficiency in the History skill, you gain no benefit from a feature that lets you double your proficiency bonus when you make Intelligence (History) checks. _(rpg_dnd_srd_excerpt.pdf (source-range-b7d08967-00088))_
+- The bonus is used in the rules on ability checks, saving throws, and attack rolls. _(rpg_dnd_srd_excerpt.pdf (source-range-b7d08967-00085))_
+- Your proficiency bonus can't be added to a single die roll or other number more than once. _(rpg_dnd_srd_excerpt.pdf (source-range-b7d08967-00086))_
 - In general, you don't multiply your proficiency bonus for attack rolls or saving throws. _(rpg_dnd_srd_excerpt.pdf (source-range-b7d08967-00089))_
+- Monsters also have this bonus, which is incorporated in their stat blocks. _(rpg_dnd_srd_excerpt.pdf (source-range-b7d08967-00085))_
 
 ## Technical atoms
 

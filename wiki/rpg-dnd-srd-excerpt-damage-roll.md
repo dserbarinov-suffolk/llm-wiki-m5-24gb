@@ -6,7 +6,7 @@ sources: raw/rpg_dnd_srd_excerpt.pdf
 updated: 2026-06-26
 domain: rpg-dnd-srd-excerpt
 category_path: concepts
-projection_coverage: topic-rpg-dnd-srd-excerpt-damage-roll@8f664354d4b36b6c8ae5b41ed82760d5
+projection_coverage: topic-rpg-dnd-srd-excerpt-damage-roll@c157a295d3d819d6c79d127f8671736e
 ---
 
 # Damage Rolls
@@ -15,11 +15,11 @@ What [[rpg-dnd-srd-excerpt]] covers about damage rolls:
 
 ## Statements
 
+- For example, when a wizard casts fi reball or a cleric casts fl ame strike , the spell's damage is rolled once for all creatures caught in the blast. _(rpg_dnd_srd_excerpt.pdf (source-range-b7d08967-00416))_
 - You roll the damage die or dice, add any modifiers, and apply the damage to your target. _(rpg_dnd_srd_excerpt.pdf (source-range-b7d08967-00414))_
 - Magic weapons, special abilities, and other factors can grant a bonus to damage. _(rpg_dnd_srd_excerpt.pdf (source-range-b7d08967-00414))_
 - With a penalty, it is possible to deal 0 damage, but never negative damage. _(rpg_dnd_srd_excerpt.pdf (source-range-b7d08967-00414))_
 - A spell tells you which dice to roll for damage and whether to add any modifiers. _(rpg_dnd_srd_excerpt.pdf (source-range-b7d08967-00415))_
-- For example, when a wizard casts fi reball or a cleric casts fl ame strike , the spell's damage is rolled once for all creatures caught in the blast. _(rpg_dnd_srd_excerpt.pdf (source-range-b7d08967-00416))_
 
 ## Technical atoms
 

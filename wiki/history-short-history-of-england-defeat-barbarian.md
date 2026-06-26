@@ -6,7 +6,7 @@ sources: raw/history_short_history_of_england.pdf
 updated: 2026-06-26
 domain: history-short-history-of-england
 category_path: concepts
-projection_coverage: topic-history-short-history-of-england-defeat-barbarian@864cc86f551cf933f769cffdc1dacd30
+projection_coverage: topic-history-short-history-of-england-defeat-barbarian@a7bccd430b70f263ac6f64f1afcb7b4d
 ---
 
 # THE DEFEAT OF THE BARBARIANS
@@ -15,6 +15,8 @@ What [[history-short-history-of-england]] covers about the defeat of the barbari
 
 ## Statements
 
+- Through all the eastern gates, left open, as it were, by the first barbarian auxiliaries, burst a plague of seafaring savages from Denmark and Scandinavia; and the recently baptized barbarians were again flooded by the unbaptized. _(history_short_history_of_england.pdf (source-range-e5a81de4-00096))_
+- The very word "monk" is a revolution, for it means solitude and came to mean community-one might call it sociability. _(history_short_history_of_england.pdf (source-range-e5a81de4-00095))_
 - The wars, the enslavements, the primitive marriage customs, the colossal migrations and massacres upon which their theories repose, are no part of history or even of legend. _(history_short_history_of_england.pdf (source-range-e5a81de4-00077))_
 - Yet the one is as much a malady of vision as the other. _(history_short_history_of_england.pdf (source-range-e5a81de4-00077))_
 - But it is as disastrously long-sighted to be interested only in what is prehistoric. _(history_short_history_of_england.pdf (source-range-e5a81de4-00077))_
@@ -27,8 +29,6 @@ What [[history-short-history-of-england]] covers about the defeat of the barbari
 - But of a cause like that of the Celts or Teutons, covering half the earth, there was little or nothing. _(history_short_history_of_england.pdf (source-range-e5a81de4-00083))_
 - Race was not only never at any given moment a motive, but it was never even an excuse. _(history_short_history_of_england.pdf (source-range-e5a81de4-00083))_
 - The Teutons never had a creed; they never had a cause; and it was only a few years ago that they began even to have a cant. _(history_short_history_of_england.pdf (source-range-e5a81de4-00083))_
-- The orthodox modern historian, notably Green, remarks on the singularity of Britain in being alone of all Roman provinces wholly cleared and repeopled by a Germanic race. _(history_short_history_of_england.pdf (source-range-e5a81de4-00084))_
-- In the same spirit he deals with the little that can be quoted of the Teutonic society. _(history_short_history_of_england.pdf (source-range-e5a81de4-00084))_
 
 ## Source
 

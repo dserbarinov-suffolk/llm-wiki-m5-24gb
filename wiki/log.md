@@ -647,3 +647,45 @@ Claim-ledger ingest of raw/rpg_cairn_2e_core.pdf (187 chunk(s)).
 Claim-ledger projection (general-prose): 669 usable entries, 82 technical atoms, 174 needs-review, 166 linked page(s); write decision write-with-review-work.
 Source page: [[rpg-cairn-2e-core]]; linked pages: 166. Ledger artifacts: /Users/DSerbarinov/llm-wiki/harness/.cache/page-plans/rpg-cairn-2e-core-fa06f8c4cd9f/ledger.
 Ingest confidence: passed. Report filed as [[wiki-ingest-confidence]].
+
+## [2026-06-26] ingest | coding_learn_go_with_tests_excerpt.pdf
+Claim-ledger ingest of raw/coding_learn_go_with_tests_excerpt.pdf (134 chunk(s)).
+Claim-ledger projection (coding): 640 usable entries, 191 technical atoms, 92 needs-review, 155 linked page(s); write decision write-with-review-work.
+Source page: [[coding-learn-go-with-tests-excerpt]]; linked pages: 155. Ledger artifacts: /Users/DSerbarinov/llm-wiki/harness/.cache/page-plans/coding-learn-go-with-tests-excerpt-05cb2de8cb4f/ledger.
+Ingest confidence: passed. Report filed as [[wiki-ingest-confidence]].
+
+## [2026-06-26] ingest | history_short_history_of_england.pdf
+Claim-ledger ingest of raw/history_short_history_of_england.pdf (49 chunk(s)).
+Claim-ledger projection (general-prose): 2331 usable entries, 40 technical atoms, 111 needs-review, 55 linked page(s); write decision write-with-review-work.
+Source page: [[history-short-history-of-england]]; linked pages: 55. Ledger artifacts: /Users/DSerbarinov/llm-wiki/harness/.cache/page-plans/history-short-history-of-england-204daea7b552/ledger.
+Ingest confidence: passed. Report filed as [[wiki-ingest-confidence]].
+
+## [2026-06-26] synthesize | cross-source
+Cross-source synthesis over 6 source(s): 14 concept/entity page(s), 0 blocked. Relations: agrees-with=0, conflicts-with=0, qualifies=0, supersedes=0.
+
+## [2026-06-26] ingest | coding_little_go_book.pdf
+Claim-ledger ingest of raw/coding_little_go_book.pdf (65 chunk(s)).
+Claim-ledger projection (coding): 662 usable entries, 166 technical atoms, 124 needs-review, 92 linked page(s); write decision write-with-review-work.
+Source page: [[coding-little-go-book]]; linked pages: 92. Ledger artifacts: /Users/DSerbarinov/llm-wiki/harness/.cache/page-plans/coding-little-go-book-7e86805c7b90/ledger.
+Ingest confidence: passed. Report filed as [[wiki-ingest-confidence]].
+
+## [2026-06-26] ingest | history_dickens_england_excerpt.pdf
+Claim-ledger ingest of raw/history_dickens_england_excerpt.pdf (18 chunk(s)).
+Claim-ledger projection (general-prose): 704 usable entries, 17 technical atoms, 39 needs-review, 43 linked page(s); write decision write-with-review-work.
+Source page: [[history-dickens-england-excerpt]]; linked pages: 43. Ledger artifacts: /Users/DSerbarinov/llm-wiki/harness/.cache/page-plans/history-dickens-england-excerpt-1590ccc36e9e/ledger.
+Ingest confidence: passed. Report filed as [[wiki-ingest-confidence]].
+
+## [2026-06-26] ingest | rpg_cairn_2e_core.pdf
+Claim-ledger ingest of raw/rpg_cairn_2e_core.pdf (187 chunk(s)).
+Claim-ledger projection (general-prose): 669 usable entries, 82 technical atoms, 174 needs-review, 166 linked page(s); write decision write-with-review-work.
+Source page: [[rpg-cairn-2e-core]]; linked pages: 166. Ledger artifacts: /Users/DSerbarinov/llm-wiki/harness/.cache/page-plans/rpg-cairn-2e-core-fa06f8c4cd9f/ledger.
+Ingest confidence: passed. Report filed as [[wiki-ingest-confidence]].
+
+## [2026-06-26] ingest | rpg_dnd_srd_excerpt.pdf
+Claim-ledger ingest of raw/rpg_dnd_srd_excerpt.pdf (146 chunk(s)).
+Claim-ledger projection (general-prose): 738 usable entries, 127 technical atoms, 151 needs-review, 164 linked page(s); write decision write-with-review-work.
+Source page: [[rpg-dnd-srd-excerpt]]; linked pages: 164. Ledger artifacts: /Users/DSerbarinov/llm-wiki/harness/.cache/page-plans/rpg-dnd-srd-excerpt-f7c05ef0468a/ledger.
+Ingest confidence: passed. Report filed as [[wiki-ingest-confidence]].
+
+## [2026-06-26] synthesize | cross-source
+Cross-source synthesis over 6 source(s): 14 concept/entity page(s), 0 blocked. Relations: agrees-with=0, conflicts-with=0, qualifies=0, supersedes=0.

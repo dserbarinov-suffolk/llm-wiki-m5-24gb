@@ -3,10 +3,12 @@
 from __future__ import annotations
 
 import re
+from typing import Literal
 
 from llmwiki.domain.ledger.stopwords import COMMON_WORDS
 
 TOKEN = re.compile(r"[A-Za-z][A-Za-z0-9]{2,}")
+TopicTermRole = Literal["domain", "discourse-container", "structural-container", "ambiguous"]
 GENERIC_TOPIC_TERMS = frozenset(
     {
         "herself",
@@ -19,17 +21,43 @@ GENERIC_TOPIC_TERMS = frozenset(
         "yourselves",
     }
 )
+_DISCOURSE_CONTAINER_TERMS = frozenset(
+    {
+        "case",
+        "conclusion",
+        "discussion",
+        "introduction",
+        "overview",
+        "preface",
+        "summary",
+    }
+)
+_STRUCTURAL_CONTAINER_TERMS = frozenset(
+    {
+        "appendix",
+        "book",
+        "chapter",
+        "part",
+        "section",
+    }
+)
+_AMBIGUOUS_TOPIC_TERMS = frozenset(
+    {
+        "character",
+        "code",
+        "function",
+        "target",
+        "type",
+        "value",
+    }
+)
 
 
 def content_terms(text: str) -> list[str]:
     terms = []
     for token in TOKEN.findall(text):
         lowered = singular(token.lower())
-        if (
-            len(lowered) >= 4
-            and lowered not in COMMON_WORDS
-            and lowered not in GENERIC_TOPIC_TERMS
-        ):
+        if len(lowered) >= 4 and lowered not in COMMON_WORDS and lowered not in GENERIC_TOPIC_TERMS:
             terms.append(lowered)
     return list(dict.fromkeys(terms))
 
@@ -39,6 +67,21 @@ def topic_matcher(terms: tuple[str, ...]) -> re.Pattern[str] | None:
     if not parts:
         return None
     return re.compile(r"\b(?:" + "|".join(parts) + r")", re.IGNORECASE)
+
+
+def topic_term_role(term: str) -> TopicTermRole:
+    lowered = singular(term.lower())
+    if lowered in _DISCOURSE_CONTAINER_TERMS:
+        return "discourse-container"
+    if lowered in _STRUCTURAL_CONTAINER_TERMS:
+        return "structural-container"
+    if lowered in _AMBIGUOUS_TOPIC_TERMS:
+        return "ambiguous"
+    return "domain"
+
+
+def single_term_topic_candidate_allowed(term: str) -> bool:
+    return topic_term_role(term) not in ("discourse-container", "structural-container")
 
 
 def singular(token: str) -> str:

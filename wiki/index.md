@@ -504,38 +504,38 @@ Regenerated ingest pages will be linked here by the ingest workflow.
 ## Entities
 
 ## Concepts
-- [[case]] — Cross-source concept 'Case': 2 sources, 0 relation(s).
+- [[array]] — Cross-source concept 'Array': 2 sources, 0 relation(s).
 - [[character]] — Cross-source concept 'Character': 2 sources, 0 relation(s).
 - [[code]] — Cross-source concept 'Code': 2 sources, 0 relation(s).
+- [[coding-learn-go-with-tests-excerpt-array]] — Array: 4 statement(s) and 1 atom(s) from raw/coding_learn_go_with_tests_excerpt.pdf.
+- [[coding-learn-go-with-tests-excerpt-array-slice]] — Arrays and slices: 2 statement(s) and 0 atom(s) from raw/coding_learn_go_with_tests_excerpt.pdf.
 - [[coding-learn-go-with-tests-excerpt-array-type]] — Arrays and their type: 5 statement(s) and 0 atom(s) from raw/coding_learn_go_with_tests_excerpt.pdf.
-- [[coding-learn-go-with-tests-excerpt-benchmarking]] — Benchmarking: 11 statement(s) and 0 atom(s) from raw/coding_learn_go_with_tests_excerpt.pdf.
-- [[coding-learn-go-with-tests-excerpt-case]] — But in our case: 4 statement(s) and 0 atom(s) from raw/coding_learn_go_with_tests_excerpt.pdf.
 - [[coding-learn-go-with-tests-excerpt-code]] — Code: 10 statement(s) and 6 atom(s) from raw/coding_learn_go_with_tests_excerpt.pdf.
+- [[coding-learn-go-with-tests-excerpt-code-chapter]] — You can find all the code for this chapter here: 1 statement(s) and 1 atom(s) from raw/coding_learn_go_with_tests_excerpt.pdf.
 - [[coding-learn-go-with-tests-excerpt-comment]] — Comment: 4 statement(s) and 2 atom(s) from raw/coding_learn_go_with_tests_excerpt.pdf.
 - [[coding-learn-go-with-tests-excerpt-compiler]] — Compiler: 6 statement(s) and 1 atom(s) from raw/coding_learn_go_with_tests_excerpt.pdf.
-- [[coding-learn-go-with-tests-excerpt-concept]] — A few new concepts:: 9 statement(s) and 0 atom(s) from raw/coding_learn_go_with_tests_excerpt.pdf.
 - [[coding-learn-go-with-tests-excerpt-custom-type]] — Using a custom type: 5 statement(s) and 2 atom(s) from raw/coding_learn_go_with_tests_excerpt.pdf.
-- [[coding-learn-go-with-tests-excerpt-discipline]] — Discipline: 5 statement(s) and 0 atom(s) from raw/coding_learn_go_with_tests_excerpt.pdf.
 - [[coding-learn-go-with-tests-excerpt-documentation]] — Go's documentation: 8 statement(s) and 1 atom(s) from raw/coding_learn_go_with_tests_excerpt.pdf.
 - [[coding-learn-go-with-tests-excerpt-error]] — Error: 7 statement(s) and 3 atom(s) from raw/coding_learn_go_with_tests_excerpt.pdf.
 - [[coding-learn-go-with-tests-excerpt-function]] — Function: 7 statement(s) and 6 atom(s) from raw/coding_learn_go_with_tests_excerpt.pdf.
-- [[coding-learn-go-with-tests-excerpt-further-refactoring]] — Further refactoring: 7 statement(s) and 0 atom(s) from raw/coding_learn_go_with_tests_excerpt.pdf.
 - [[coding-learn-go-with-tests-excerpt-helper]] — Helper: 5 statement(s) and 1 atom(s) from raw/coding_learn_go_with_tests_excerpt.pdf.
 - [[coding-learn-go-with-tests-excerpt-interface]] — Interface: 8 statement(s) and 2 atom(s) from raw/coding_learn_go_with_tests_excerpt.pdf.
 - [[coding-learn-go-with-tests-excerpt-library]] — Library: 4 statement(s) and 2 atom(s) from raw/coding_learn_go_with_tests_excerpt.pdf.
+- [[coding-learn-go-with-tests-excerpt-loop]] — Loop: 4 statement(s) and 1 atom(s) from raw/coding_learn_go_with_tests_excerpt.pdf.
 - [[coding-learn-go-with-tests-excerpt-method]] — What are methods?: 5 statement(s) and 1 atom(s) from raw/coding_learn_go_with_tests_excerpt.pdf.
 - [[coding-learn-go-with-tests-excerpt-module]] — Go modules?: 9 statement(s) and 2 atom(s) from raw/coding_learn_go_with_tests_excerpt.pdf.
 - [[coding-learn-go-with-tests-excerpt-note]] — Note: 5 statement(s) and 2 atom(s) from raw/coding_learn_go_with_tests_excerpt.pdf.
 - [[coding-learn-go-with-tests-excerpt-note-declaring-error-update]] — Note on declaring a new error for Update: 3 statement(s) and 1 atom(s) from raw/coding_learn_go_with_tests_excerpt.pdf.
+- [[coding-learn-go-with-tests-excerpt-note-source-control]] — A note on source control: 3 statement(s) and 0 atom(s) from raw/coding_learn_go_with_tests_excerpt.pdf.
 - [[coding-learn-go-with-tests-excerpt-package]] — Package: 6 statement(s) and 5 atom(s) from raw/coding_learn_go_with_tests_excerpt.pdf.
 - [[coding-learn-go-with-tests-excerpt-pointer-copy]] — Pointers, copies, et al: 5 statement(s) and 0 atom(s) from raw/coding_learn_go_with_tests_excerpt.pdf.
+- [[coding-learn-go-with-tests-excerpt-refactor]] — one...last...refactor?: 2 statement(s) and 0 atom(s) from raw/coding_learn_go_with_tests_excerpt.pdf.
 - [[coding-learn-go-with-tests-excerpt-requirement]] — Keep going! More requirements: 9 statement(s) and 0 atom(s) from raw/coding_learn_go_with_tests_excerpt.pdf.
 - [[coding-learn-go-with-tests-excerpt-standard]] — Standard: 5 statement(s) and 3 atom(s) from raw/coding_learn_go_with_tests_excerpt.pdf.
 - [[coding-learn-go-with-tests-excerpt-switch]] — switch: 3 statement(s) and 1 atom(s) from raw/coding_learn_go_with_tests_excerpt.pdf.
 - [[coding-learn-go-with-tests-excerpt-syntax]] — Syntax: 5 statement(s) and 2 atom(s) from raw/coding_learn_go_with_tests_excerpt.pdf.
-- [[coding-learn-go-with-tests-excerpt-test]] — How to test: 4 statement(s) and 0 atom(s) from raw/coding_learn_go_with_tests_excerpt.pdf.
+- [[coding-learn-go-with-tests-excerpt-test]] — Test: 40 statement(s) and 34 atom(s) from raw/coding_learn_go_with_tests_excerpt.pdf.
 - [[coding-learn-go-with-tests-excerpt-test-output-helpful]] — Make sure your test output is helpful: 9 statement(s) and 2 atom(s) from raw/coding_learn_go_with_tests_excerpt.pdf.
-- [[coding-learn-go-with-tests-excerpt-testable]] — Testable Examples: 15 statement(s) and 0 atom(s) from raw/coding_learn_go_with_tests_excerpt.pdf.
 - [[coding-learn-go-with-tests-excerpt-testing]] — Back to Testing: 6 statement(s) and 0 atom(s) from raw/coding_learn_go_with_tests_excerpt.pdf.
 - [[coding-learn-go-with-tests-excerpt-type]] — Type: 8 statement(s) and 3 atom(s) from raw/coding_learn_go_with_tests_excerpt.pdf.
 - [[coding-learn-go-with-tests-excerpt-value]] — Value: 5 statement(s) and 1 atom(s) from raw/coding_learn_go_with_tests_excerpt.pdf.
@@ -545,36 +545,36 @@ Regenerated ingest pages will be linked here by the ingest workflow.
 - [[coding-little-go-book-channel]] — Channels: 6 statement(s) and 1 atom(s) from raw/coding_little_go_book.pdf.
 - [[coding-little-go-book-code]] — Code: 13 statement(s) and 13 atom(s) from raw/coding_little_go_book.pdf.
 - [[coding-little-go-book-composition]] — Composition: 8 statement(s) and 1 atom(s) from raw/coding_little_go_book.pdf.
-- [[coding-little-go-book-conclusion]] — Conclusion: 17 statement(s) and 0 atom(s) from raw/coding_little_go_book.pdf.
+- [[coding-little-go-book-concurrent]] — Concurrent: 4 statement(s) and 4 atom(s) from raw/coding_little_go_book.pdf.
 - [[coding-little-go-book-copy]] — Copy: 4 statement(s) and 8 atom(s) from raw/coding_little_go_book.pdf.
 - [[coding-little-go-book-declaration-initialization]] — Declarations and Initializations: 27 statement(s) and 1 atom(s) from raw/coding_little_go_book.pdf.
+- [[coding-little-go-book-dependency-management]] — Dependency Management: 7 statement(s) and 0 atom(s) from raw/coding_little_go_book.pdf.
 - [[coding-little-go-book-empty-interface-conversion]] — Empty Interface and Conversions: 6 statement(s) and 2 atom(s) from raw/coding_little_go_book.pdf.
 - [[coding-little-go-book-error-handling]] — Error Handling: 6 statement(s) and 7 atom(s) from raw/coding_little_go_book.pdf.
 - [[coding-little-go-book-function]] — Function: 5 statement(s) and 4 atom(s) from raw/coding_little_go_book.pdf.
 - [[coding-little-go-book-goroutine]] — Goroutines: 13 statement(s) and 3 atom(s) from raw/coding_little_go_book.pdf.
 - [[coding-little-go-book-import]] — Imports: 12 statement(s) and 3 atom(s) from raw/coding_little_go_book.pdf.
 - [[coding-little-go-book-interface]] — Interfaces: 13 statement(s) and 3 atom(s) from raw/coding_little_go_book.pdf.
-- [[coding-little-go-book-introduction]] — Introduction: 19 statement(s) and 0 atom(s) from raw/coding_little_go_book.pdf.
 - [[coding-little-go-book-language]] — Language: 10 statement(s) and 8 atom(s) from raw/coding_little_go_book.pdf.
 - [[coding-little-go-book-maps]] — Maps: 7 statement(s) and 4 atom(s) from raw/coding_little_go_book.pdf.
 - [[coding-little-go-book-package]] — Package: 5 statement(s) and 4 atom(s) from raw/coding_little_go_book.pdf.
 - [[coding-little-go-book-package-management]] — Package Management: 6 statement(s) and 1 atom(s) from raw/coding_little_go_book.pdf.
+- [[coding-little-go-book-reason]] — Reason: 6 statement(s) and 3 atom(s) from raw/coding_little_go_book.pdf.
 - [[coding-little-go-book-ruby]] — Ruby: 4 statement(s) and 6 atom(s) from raw/coding_little_go_book.pdf.
 - [[coding-little-go-book-running-code]] — Running Go Code: 8 statement(s) and 1 atom(s) from raw/coding_little_go_book.pdf.
 - [[coding-little-go-book-select]] — Select: 10 statement(s) and 1 atom(s) from raw/coding_little_go_book.pdf.
 - [[coding-little-go-book-slice]] — Slices: 39 statement(s) and 20 atom(s) from raw/coding_little_go_book.pdf.
 - [[coding-little-go-book-string-byte-array]] — Strings and Byte Arrays: 6 statement(s) and 5 atom(s) from raw/coding_little_go_book.pdf.
 - [[coding-little-go-book-structure]] — Structures: 8 statement(s) and 1 atom(s) from raw/coding_little_go_book.pdf.
-- [[coding-little-go-book-synchronization]] — Synchronization: 22 statement(s) and 0 atom(s) from raw/coding_little_go_book.pdf.
 - [[coding-little-go-book-timeout]] — Timeout: 13 statement(s) and 0 atom(s) from raw/coding_little_go_book.pdf.
 - [[coding-little-go-book-type]] — Type: 7 statement(s) and 6 atom(s) from raw/coding_little_go_book.pdf.
 - [[coding-little-go-book-value]] — Value: 9 statement(s) and 22 atom(s) from raw/coding_little_go_book.pdf.
 - [[coding-little-go-book-variable]] — Variable: 7 statement(s) and 9 atom(s) from raw/coding_little_go_book.pdf.
 - [[coding-little-go-book-variable-declaration]] — Variables and Declarations: 18 statement(s) and 8 atom(s) from raw/coding_little_go_book.pdf.
-- [[conclusion]] — Cross-source concept 'Conclusion': 2 sources, 0 relation(s).
 - [[damage]] — Cross-source concept 'Damage': 2 sources, 0 relation(s).
 - [[english]] — Cross-source concept 'English': 2 sources, 0 relation(s).
 - [[function]] — Cross-source concept 'Function': 2 sources, 0 relation(s).
+- [[henry]] — Cross-source concept 'Henry': 2 sources, 0 relation(s).
 - [[history-dickens-england-excerpt-afterward]] — Afterward: 9 statement(s) and 0 atom(s) from raw/history_dickens_england_excerpt.pdf.
 - [[history-dickens-england-excerpt-army]] — Army: 7 statement(s) and 0 atom(s) from raw/history_dickens_england_excerpt.pdf.
 - [[history-dickens-england-excerpt-baron]] — Baron: 8 statement(s) and 0 atom(s) from raw/history_dickens_england_excerpt.pdf.
@@ -607,21 +607,20 @@ Regenerated ingest pages will be linked here by the ingest workflow.
 - [[history-dickens-england-excerpt-william]] — William: 7 statement(s) and 0 atom(s) from raw/history_dickens_england_excerpt.pdf.
 - [[history-dickens-england-excerpt-year]] — Year: 13 statement(s) and 0 atom(s) from raw/history_dickens_england_excerpt.pdf.
 - [[history-dickens-england-excerpt-young]] — Young: 7 statement(s) and 0 atom(s) from raw/history_dickens_england_excerpt.pdf.
-- [[history-short-history-of-england-aristocracy-discontent]] — ARISTOCRACY AND THE DISCONTENTS: 99 statement(s) and 0 atom(s) from raw/history_short_history_of_england.pdf.
-- [[history-short-history-of-england-case]] — Case: 12 statement(s) and 0 atom(s) from raw/history_short_history_of_england.pdf.
 - [[history-short-history-of-england-century]] — Century: 13 statement(s) and 0 atom(s) from raw/history_short_history_of_england.pdf.
 - [[history-short-history-of-england-christian]] — Christian: 12 statement(s) and 0 atom(s) from raw/history_short_history_of_england.pdf.
 - [[history-short-history-of-england-church]] — Church: 12 statement(s) and 0 atom(s) from raw/history_short_history_of_england.pdf.
-- [[history-short-history-of-england-conclusion]] — CONCLUSION: 24 statement(s) and 0 atom(s) from raw/history_short_history_of_england.pdf.
 - [[history-short-history-of-england-crusade]] — THE AGE OF THE CRUSADES: 81 statement(s) and 0 atom(s) from raw/history_short_history_of_england.pdf.
 - [[history-short-history-of-england-defeat-barbarian]] — THE DEFEAT OF THE BARBARIANS: 94 statement(s) and 0 atom(s) from raw/history_short_history_of_england.pdf.
 - [[history-short-history-of-england-edward-norman-king]] — ST. EDWARD AND THE NORMAN KINGS: 114 statement(s) and 0 atom(s) from raw/history_short_history_of_england.pdf.
 - [[history-short-history-of-england-england]] — England: 28 statement(s) and 2 atom(s) from raw/history_short_history_of_england.pdf.
 - [[history-short-history-of-england-english]] — English: 41 statement(s) and 0 atom(s) from raw/history_short_history_of_england.pdf.
 - [[history-short-history-of-england-france]] — France: 14 statement(s) and 0 atom(s) from raw/history_short_history_of_england.pdf.
+- [[history-short-history-of-england-french]] — French: 10 statement(s) and 0 atom(s) from raw/history_short_history_of_england.pdf.
 - [[history-short-history-of-england-guild]] — Guild: 12 statement(s) and 0 atom(s) from raw/history_short_history_of_england.pdf.
+- [[history-short-history-of-england-henry]] — Henry: 10 statement(s) and 0 atom(s) from raw/history_short_history_of_england.pdf.
 - [[history-short-history-of-england-history]] — History: 25 statement(s) and 0 atom(s) from raw/history_short_history_of_england.pdf.
-- [[history-short-history-of-england-introduction]] — INTRODUCTION: 29 statement(s) and 0 atom(s) from raw/history_short_history_of_england.pdf.
+- [[history-short-history-of-england-idea]] — Idea: 10 statement(s) and 0 atom(s) from raw/history_short_history_of_england.pdf.
 - [[history-short-history-of-england-king]] — King: 27 statement(s) and 0 atom(s) from raw/history_short_history_of_england.pdf.
 - [[history-short-history-of-england-legend]] — THE AGE OF LEGENDS: 84 statement(s) and 0 atom(s) from raw/history_short_history_of_england.pdf.
 - [[history-short-history-of-england-meaning-merry-england]] — THE MEANING OF MERRY ENGLAND: 124 statement(s) and 2 atom(s) from raw/history_short_history_of_england.pdf.
@@ -636,15 +635,14 @@ Regenerated ingest pages will be linked here by the ingest workflow.
 - [[history-short-history-of-england-return-barbarian]] — THE RETURN OF THE BARBARIAN: 97 statement(s) and 1 atom(s) from raw/history_short_history_of_england.pdf.
 - [[history-short-history-of-england-revolution]] — Revolution: 14 statement(s) and 0 atom(s) from raw/history_short_history_of_england.pdf.
 - [[history-short-history-of-england-roman]] — Roman: 14 statement(s) and 0 atom(s) from raw/history_short_history_of_england.pdf.
+- [[history-short-history-of-england-rome]] — Rome: 10 statement(s) and 0 atom(s) from raw/history_short_history_of_england.pdf.
 - [[history-short-history-of-england-spain-schism-nation]] — SPAIN AND THE SCHISM OF NATIONS: 98 statement(s) and 0 atom(s) from raw/history_short_history_of_england.pdf.
 - [[history-short-history-of-england-triumph-whig]] — THE TRIUMPH OF THE WHIGS: 129 statement(s) and 0 atom(s) from raw/history_short_history_of_england.pdf.
 - [[history-short-history-of-england-usurper]] — THE WAR OF THE USURPERS: 95 statement(s) and 0 atom(s) from raw/history_short_history_of_england.pdf.
 - [[interface]] — Cross-source concept 'Interface': 2 sources, 0 relation(s).
-- [[introduction]] — Cross-source concept 'Introduction': 3 sources, 0 relation(s).
 - [[king]] — Cross-source concept 'King': 2 sources, 0 relation(s).
 - [[package]] — Cross-source concept 'Package': 2 sources, 0 relation(s).
 - [[people]] — Cross-source concept 'People': 2 sources, 0 relation(s).
-- [[rpg-cairn-2e-core-aiding-ally]] — Aiding an Ally: 10 statement(s) and 0 atom(s) from raw/rpg_cairn_2e_core.pdf.
 - [[rpg-cairn-2e-core-attack]] — Attack: 5 statement(s) and 5 atom(s) from raw/rpg_cairn_2e_core.pdf.
 - [[rpg-cairn-2e-core-attack-modifier]] — Attack Modifiers: 2 statement(s) and 4 atom(s) from raw/rpg_cairn_2e_core.pdf.
 - [[rpg-cairn-2e-core-attribute-protection-trait]] — Attributes, Hit Protection, and Traits: 5 statement(s) and 2 atom(s) from raw/rpg_cairn_2e_core.pdf.
@@ -653,9 +651,10 @@ Regenerated ingest pages will be linked here by the ingest workflow.
 - [[rpg-cairn-2e-core-bond-should]] — Bonds Should...: 4 statement(s) and 6 atom(s) from raw/rpg_cairn_2e_core.pdf.
 - [[rpg-cairn-2e-core-character]] — Character: 37 statement(s) and 3 atom(s) from raw/rpg_cairn_2e_core.pdf.
 - [[rpg-cairn-2e-core-courtyard]] — The Courtyard: 20 statement(s) and 0 atom(s) from raw/rpg_cairn_2e_core.pdf.
+- [[rpg-cairn-2e-core-critical-damage]] — Critical Damage: 5 statement(s) and 1 atom(s) from raw/rpg_cairn_2e_core.pdf.
 - [[rpg-cairn-2e-core-damage]] — Damage: 7 statement(s) and 2 atom(s) from raw/rpg_cairn_2e_core.pdf.
-- [[rpg-cairn-2e-core-dexterity]] — Dexterity: 8 statement(s) and 0 atom(s) from raw/rpg_cairn_2e_core.pdf.
 - [[rpg-cairn-2e-core-dungeon-exploration-cycle]] — Dungeon Exploration Cycle: 5 statement(s) and 4 atom(s) from raw/rpg_cairn_2e_core.pdf.
+- [[rpg-cairn-2e-core-exploration]] — Exploration: 2 statement(s) and 3 atom(s) from raw/rpg_cairn_2e_core.pdf.
 - [[rpg-cairn-2e-core-freya]] — Freya: 16 statement(s) and 1 atom(s) from raw/rpg_cairn_2e_core.pdf.
 - [[rpg-cairn-2e-core-hireling]] — Hirelings: 2 statement(s) and 4 atom(s) from raw/rpg_cairn_2e_core.pdf.
 - [[rpg-cairn-2e-core-inventory-slot]] — Inventory Slots: 3 statement(s) and 3 atom(s) from raw/rpg_cairn_2e_core.pdf.
@@ -665,13 +664,13 @@ Regenerated ingest pages will be linked here by the ingest workflow.
 - [[rpg-cairn-2e-core-omen-should]] — Omens Should...: 2 statement(s) and 4 atom(s) from raw/rpg_cairn_2e_core.pdf.
 - [[rpg-cairn-2e-core-opposed-save]] — Opposed Saves: 7 statement(s) and 0 atom(s) from raw/rpg_cairn_2e_core.pdf.
 - [[rpg-cairn-2e-core-party]] — Party: 24 statement(s) and 2 atom(s) from raw/rpg_cairn_2e_core.pdf.
-- [[rpg-cairn-2e-core-perception]] — Perception: 16 statement(s) and 0 atom(s) from raw/rpg_cairn_2e_core.pdf.
 - [[rpg-cairn-2e-core-player]] — Player: 13 statement(s) and 3 atom(s) from raw/rpg_cairn_2e_core.pdf.
 - [[rpg-cairn-2e-core-result]] — Result: 9 statement(s) and 3 atom(s) from raw/rpg_cairn_2e_core.pdf.
 - [[rpg-cairn-2e-core-roll-choose-background]] — Roll or choose a Background: 4 statement(s) and 3 atom(s) from raw/rpg_cairn_2e_core.pdf.
 - [[rpg-cairn-2e-core-round]] — Rounds: 7 statement(s) and 0 atom(s) from raw/rpg_cairn_2e_core.pdf.
 - [[rpg-cairn-2e-core-save-principle]] — Save Principles: 13 statement(s) and 2 atom(s) from raw/rpg_cairn_2e_core.pdf.
 - [[rpg-cairn-2e-core-target]] — Target: 7 statement(s) and 4 atom(s) from raw/rpg_cairn_2e_core.pdf.
+- [[rpg-cairn-2e-core-travel]] — Travel: 4 statement(s) and 2 atom(s) from raw/rpg_cairn_2e_core.pdf.
 - [[rpg-cairn-2e-core-travel-duration]] — Travel Duration: 6 statement(s) and 2 atom(s) from raw/rpg_cairn_2e_core.pdf.
 - [[rpg-cairn-2e-core-warden]] — Warden: 38 statement(s) and 5 atom(s) from raw/rpg_cairn_2e_core.pdf.
 - [[rpg-cairn-2e-core-wilderness-exploration-cycle]] — Wilderness Exploration Cycle: 3 statement(s) and 3 atom(s) from raw/rpg_cairn_2e_core.pdf.
@@ -713,5 +712,5 @@ Regenerated ingest pages will be linked here by the ingest workflow.
 - [[value]] — Cross-source concept 'Value': 2 sources, 0 relation(s).
 
 ## Syntheses
-- [[cross-source-synthesis]] — Cross-source synthesis index: 15 shared topics.
+- [[cross-source-synthesis]] — Cross-source synthesis index: 14 shared topics.
 - [[wiki-ingest-confidence]] — Latest bounded post-ingest confidence report.

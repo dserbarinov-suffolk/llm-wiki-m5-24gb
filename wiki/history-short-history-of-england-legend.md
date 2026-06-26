@@ -6,7 +6,7 @@ sources: raw/history_short_history_of_england.pdf
 updated: 2026-06-26
 domain: history-short-history-of-england
 category_path: concepts
-projection_coverage: topic-history-short-history-of-england-legend@74025bb521c97e4c5a5aabdcec35ee52
+projection_coverage: topic-history-short-history-of-england-legend@2ff8aac2bcb30c0c476835fdec00dbf6
 ---
 
 # THE AGE OF LEGENDS
@@ -15,6 +15,10 @@ What [[history-short-history-of-england]] covers about the age of legends:
 
 ## Statements
 
+- Towards these legends most men adopt by instinct a sane attitude; and, of the two, credulity is certainly much more sane than incredulity. _(history_short_history_of_england.pdf (source-range-e5a81de4-00065))_
+- For the age is the age of legends. _(history_short_history_of_england.pdf (source-range-e5a81de4-00065))_
+- Thus, Arthur is made utterly impersonal because all legends are lies, but somebody of the type of Hengist is made quite an important personality, merely because nobody thought him important enough to lie about. _(history_short_history_of_england.pdf (source-range-e5a81de4-00065))_
+- The other fact to be remembered is that scientific research for the last few years has worked steadily in the direction of confirming and not dissipating the legends of the populace. _(history_short_history_of_england.pdf (source-range-e5a81de4-00066))_
 - Yet something very like this extraordinary transition takes place in British history at the end of the purely Roman period. _(history_short_history_of_england.pdf (source-range-e5a81de4-00051))_
 - We should be startled if we were quietly reading a prosaic modern novel, and somewhere in the middle it turned without warning into a fairy tale. _(history_short_history_of_england.pdf (source-range-e5a81de4-00051))_
 - One working example, the echoes of which lingered till very late in English literature, may serve to _(history_short_history_of_england.pdf (source-range-e5a81de4-00051))_
@@ -25,10 +29,6 @@ What [[history-short-history-of-england]] covers about the age of legends:
 - When England is Elfland, the elves are not the Angles. _(history_short_history_of_england.pdf (source-range-e5a81de4-00056))_
 - And in all our speech there was no word more Roman than "romance." _(history_short_history_of_england.pdf (source-range-e5a81de4-00056))_
 - It may then rationally be urged that the hold both of the Empire and its new religion were here weaker than elsewhere, and that the description of the general civilization in the last chapter is proportionately irrelevant. _(history_short_history_of_england.pdf (source-range-e5a81de4-00057))_
-- Christianity had almost certainly come to Britain, not indeed otherwise than by the routes established by Rome, but certainly long before the official Roman mission of Gregory the Great. _(history_short_history_of_england.pdf (source-range-e5a81de4-00057))_
-- This did not mean that the Roman civilization left it; but it did mean that the civilization lay far more open both to admixture and attack. _(history_short_history_of_england.pdf (source-range-e5a81de4-00057))_
-- This, however, is not the chief truth of the matter. _(history_short_history_of_england.pdf (source-range-e5a81de4-00057))_
-- And this is the clue which we must carry with us through the lives of all the great men of the Dark Ages; of Alfred, of Bede, of Dunstan. _(history_short_history_of_england.pdf (source-range-e5a81de4-00058))_
 
 ## Source
 

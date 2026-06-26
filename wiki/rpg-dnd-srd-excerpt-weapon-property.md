@@ -6,7 +6,7 @@ sources: raw/rpg_dnd_srd_excerpt.pdf
 updated: 2026-06-26
 domain: rpg-dnd-srd-excerpt
 category_path: concepts
-projection_coverage: topic-rpg-dnd-srd-excerpt-weapon-property@1c008e4fd7a51dc6126f852dfcad20ee
+projection_coverage: topic-rpg-dnd-srd-excerpt-weapon-property@0938ba4e288346002d7335059a706cfb
 ---
 
 # Weapon Properties
@@ -16,19 +16,19 @@ What [[rpg-dnd-srd-excerpt]] covers about weapon properties:
 ## Statements
 
 - Many weapons have special properties related to their use, as shown in the Weapons table. _(rpg_dnd_srd_excerpt.pdf (source-range-b7d08967-00508))_
-- Drawing the ammunition from a quiver, case, or other container is part of the attack (you need a free hand to load a one-handed weapon). _(rpg_dnd_srd_excerpt.pdf (source-range-b7d08967-00509))_
-- If you use a weapon that has the ammunition property to make a melee attack, you treat the weapon as an improvised weapon (see "Improvised Weapons" later in the section). _(rpg_dnd_srd_excerpt.pdf (source-range-b7d08967-00510))_
-- When making an attack with a finesse weapon, you use your choice of your Strength or Dexterity modifier for the attack and damage rolls. _(rpg_dnd_srd_excerpt.pdf (source-range-b7d08967-00511))_
-- Small creatures have disadvantage on attack rolls with heavy weapons. _(rpg_dnd_srd_excerpt.pdf (source-range-b7d08967-00512))_
-- A heavy weapon's size and bulk make it too large for a Small creature to use effectively. _(rpg_dnd_srd_excerpt.pdf (source-range-b7d08967-00512))_
 - A light weapon is small and easy to handle, making it ideal for use when fighting with two weapons. _(rpg_dnd_srd_excerpt.pdf (source-range-b7d08967-00513))_
 - A weapon that can be used to make a ranged attack has a range in parentheses after the ammunition or thrown property. _(rpg_dnd_srd_excerpt.pdf (source-range-b7d08967-00515))_
-- You can't attack a target beyond the weapon's long range. _(rpg_dnd_srd_excerpt.pdf (source-range-b7d08967-00515))_
-- The first is the weapon's normal range in feet, and the second indicates the weapon's long range. _(rpg_dnd_srd_excerpt.pdf (source-range-b7d08967-00515))_
-- This weapon adds 5 feet to your reach when you attack with it, as well as when determining your reach for opportunity attacks with it. _(rpg_dnd_srd_excerpt.pdf (source-range-b7d08967-00516))_
 - A weapon with the special property has unusual rules governing its use, explained in the weapon's description (see "Special Weapons" later in this section). _(rpg_dnd_srd_excerpt.pdf (source-range-b7d08967-00517))_
-- For example, if you throw a handaxe, you use your Strength, but if you throw a dagger, you can use either your Strength or your Dexterity, since the dagger has the finesse property. _(rpg_dnd_srd_excerpt.pdf (source-range-b7d08967-00518))_
 - If the weapon is a melee weapon, you use the same ability modifier for that attack roll and damage roll that you would use for a melee attack with the weapon. _(rpg_dnd_srd_excerpt.pdf (source-range-b7d08967-00518))_
+- When making an attack with a finesse weapon, you use your choice of your Strength or Dexterity modifier for the attack and damage rolls. _(rpg_dnd_srd_excerpt.pdf (source-range-b7d08967-00511))_
+- A heavy weapon's size and bulk make it too large for a Small creature to use effectively. _(rpg_dnd_srd_excerpt.pdf (source-range-b7d08967-00512))_
+- This weapon adds 5 feet to your reach when you attack with it, as well as when determining your reach for opportunity attacks with it. _(rpg_dnd_srd_excerpt.pdf (source-range-b7d08967-00516))_
+- This weapon requires two hands when you attack with it. _(rpg_dnd_srd_excerpt.pdf (source-range-b7d08967-00519))_
+- This weapon can be used with one or two hands. _(rpg_dnd_srd_excerpt.pdf (source-range-b7d08967-00520))_
+- Drawing the ammunition from a quiver, case, or other container is part of the attack (you need a free hand to load a one-handed weapon). _(rpg_dnd_srd_excerpt.pdf (source-range-b7d08967-00509))_
+- If you use a weapon that has the ammunition property to make a melee attack, you treat the weapon as an improvised weapon (see "Improvised Weapons" later in the section). _(rpg_dnd_srd_excerpt.pdf (source-range-b7d08967-00510))_
+- Small creatures have disadvantage on attack rolls with heavy weapons. _(rpg_dnd_srd_excerpt.pdf (source-range-b7d08967-00512))_
+- You can't attack a target beyond the weapon's long range. _(rpg_dnd_srd_excerpt.pdf (source-range-b7d08967-00515))_
 
 ## Technical atoms
 

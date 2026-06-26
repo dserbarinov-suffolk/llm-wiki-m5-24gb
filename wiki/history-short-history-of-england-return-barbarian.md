@@ -6,7 +6,7 @@ sources: raw/history_short_history_of_england.pdf
 updated: 2026-06-26
 domain: history-short-history-of-england
 category_path: concepts
-projection_coverage: topic-history-short-history-of-england-return-barbarian@e2ebdbfacfe7d00a50a3888c504c89a6
+projection_coverage: topic-history-short-history-of-england-return-barbarian@5be9c884490cf09fd02b039b08959026
 ---
 
 # THE RETURN OF THE BARBARIAN
@@ -15,6 +15,8 @@ What [[history-short-history-of-england]] covers about the return of the barbari
 
 ## Statements
 
+- Returning from that Berlin Conference he should have said, "I bring you Peace with Honour; peace with the seeds of the most horrible war of history; and honour as the dupes and victims of the old bully in Berlin." [Pg 233] [Pg 234] _(history_short_history_of_england.pdf (source-range-e5a81de4-00462))_
+- In this it has an almost weird psychological interest, for it is a return to the past by men ignorant of the past, like the subconscious action of some man who has lost his memory. _(history_short_history_of_england.pdf (source-range-e5a81de4-00457))_
 - The only way to write a popular history, as we have already remarked, would be to write it backwards. _(history_short_history_of_england.pdf (source-range-e5a81de4-00447))_
 - Now, the interesting point is that for a whole serious century these instantaneous fantasies have remained like fossils. _(history_short_history_of_england.pdf (source-range-e5a81de4-00447))_
 - The lines of human limbs can be beautiful, and so can the lines of loose drapery, but not cylinders too loose to be the first and too tight to be the second. _(history_short_history_of_england.pdf (source-range-e5a81de4-00447))_
@@ -27,8 +29,6 @@ What [[history-short-history-of-england]] covers about the return of the barbari
 - Our ancestors, to do them justice, did not think them casual or commonplace; they thought them, if not ridiculous, at least rococo. _(history_short_history_of_england.pdf (source-range-e5a81de4-00447))_
 - And for my immediate purpose it is really convenient to take two objects we have known all our lives, as features of fashion or respectability. _(history_short_history_of_england.pdf (source-range-e5a81de4-00447))_
 - Nor is a subtle sense of harmony needed to see that while there are hundreds of differently proportioned hats, a hat that actually grows larger towards the top is somewhat topheavy. _(history_short_history_of_england.pdf (source-range-e5a81de4-00447))_
-- The top-hat was the topmost point of a riot of Regency dandyism, and bucks wore trousers while business men were still wearing kneebreeches. _(history_short_history_of_england.pdf (source-range-e5a81de4-00447))_
-- At least, we have remained in the dress, though we have lost the fancy. _(history_short_history_of_england.pdf (source-range-e5a81de4-00447))_
 
 ## Technical atoms
 

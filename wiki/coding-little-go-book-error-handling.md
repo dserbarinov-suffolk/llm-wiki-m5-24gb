@@ -6,7 +6,7 @@ sources: raw/coding_little_go_book.pdf
 updated: 2026-06-26
 domain: coding-little-go-book
 category_path: concepts
-projection_coverage: topic-coding-little-go-book-error-handling@8790793b072cb409231ec5433af41f58
+projection_coverage: topic-coding-little-go-book-error-handling@82c1d51aa38b16bb411c225eb328692e
 ---
 
 # Error Handling
@@ -17,8 +17,8 @@ What [[coding-little-go-book]] covers about error handling:
 
 - Go's preferred way to deal with errors is through return values, not exceptions. _(coding_little_go_book.pdf (source-range-773b6275-00339))_
 - You can create your own error type; the only requirement is that it fulfills the contract of the built-in error interface, which is: _(coding_little_go_book.pdf (source-range-773b6275-00341))_
-- This is a package variable (it's defined outside of a function) which is publicly accessible (upper-case first letter). _(coding_little_go_book.pdf (source-range-773b6275-00348))_
 - If it makes contextual sense, you should use this error, too. _(coding_little_go_book.pdf (source-range-773b6275-00348))_
+- This is a package variable (it's defined outside of a function) which is publicly accessible (upper-case first letter). _(coding_little_go_book.pdf (source-range-773b6275-00348))_
 - As a final note, Go does have panic and recover functions. _(coding_little_go_book.pdf (source-range-773b6275-00350))_
 - panic is like throwing an exception while recover is like catch ; they are rarely used. _(coding_little_go_book.pdf (source-range-773b6275-00350))_
 

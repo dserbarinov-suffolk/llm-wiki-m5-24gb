@@ -6,7 +6,7 @@ sources: raw/history_short_history_of_england.pdf
 updated: 2026-06-26
 domain: history-short-history-of-england
 category_path: concepts
-projection_coverage: topic-history-short-history-of-england-meaning-merry-england@708f03f48df1996347eaf1123367c27a
+projection_coverage: topic-history-short-history-of-england-meaning-merry-england@8834f116908465110bba309b6941f28c
 ---
 
 # THE MEANING OF MERRY ENGLAND
@@ -15,6 +15,11 @@ What [[history-short-history-of-england]] covers about the meaning of merry engl
 
 ## Statements
 
+- For the tale told in a book like this cannot really touch on mediæval England at all. _(history_short_history_of_england.pdf (source-range-e5a81de4-00196))_
+- It is important to remember this fact in the subsequent history of England. _(history_short_history_of_england.pdf (source-range-e5a81de4-00214))_
+- We should immediately have discovered that England was full of little parliaments, out of which the great parliament was made. _(history_short_history_of_england.pdf (source-range-e5a81de4-00217))_
+- A master meant something quite other and greater than a "boss." It meant a master of the work, where it now means only a master of the workmen. _(history_short_history_of_england.pdf (source-range-e5a81de4-00208))_
+- A married community means a community where most people are married; not a community where one or two people are very much married. _(history_short_history_of_england.pdf (source-range-e5a81de4-00210))_
 - What we call the Judges' circuits were first rather the King's raids. _(history_short_history_of_england.pdf (source-range-e5a81de4-00191))_
 - The mental trick by which the first half of English history has been wholly dwarfed and dehumanized is a very simple one. _(history_short_history_of_england.pdf (source-range-e5a81de4-00191))_
 - A king is at the best a sort of crowned executioner; all government is an ugly necessity; and if it was then uglier it was for the most part merely because it was more difficult. _(history_short_history_of_england.pdf (source-range-e5a81de4-00191))_
@@ -24,11 +29,6 @@ What [[history-short-history-of-england]] covers about the meaning of merry engl
 - The melodramatic things currently called mediæval are much older and more universal; such as the sport of tournament or the use of torture. _(history_short_history_of_england.pdf (source-range-e5a81de4-00195))_
 - This is not eulogy but history; an informed man must recognize this productive peculiarity even if he happens to hate it. _(history_short_history_of_england.pdf (source-range-e5a81de4-00195))_
 - The tournament was indeed a Christian and liberal advance on the gladiatorial show, since the lords risked themselves and not merely their slaves. _(history_short_history_of_england.pdf (source-range-e5a81de4-00195))_
-- But the truth is that it is precisely in the arts of peace, and in the type of production, that the Middle Ages stand singular and unique. _(history_short_history_of_england.pdf (source-range-e5a81de4-00195))_
-- When we think of our ancestors as the men who inflicted tortures, we ought sometimes to think of them as the men who defied them. _(history_short_history_of_england.pdf (source-range-e5a81de4-00195))_
-- But the modern critic of mediævalism commonly looks only at these crooked shadows and not at the common daylight of the Middle Ages. _(history_short_history_of_england.pdf (source-range-e5a81de4-00195))_
-- And he insists that the arts of war were sterile, without even admitting the possibility that the arts of peace were productive. _(history_short_history_of_england.pdf (source-range-e5a81de4-00195))_
-- Torture, so far from being peculiarly mediæval, was copied from pagan Rome and its most rationalist political science; and its application to others besides slaves was really part of the slow mediæval extinction of slavery. _(history_short_history_of_england.pdf (source-range-e5a81de4-00195))_
 
 ## Technical atoms
 

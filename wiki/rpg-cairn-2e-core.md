@@ -7,7 +7,7 @@ updated: 2026-06-26
 domain: rpg-cairn-2e-core
 category_path: sources
 source_id: rpg_cairn_2e_core.pdf
-projection_coverage: projection-coverage-e886f264773cd14c@e1019921d9d349e2
+projection_coverage: projection-coverage-e886f264773cd14c@5c487e28d6802e46
 ---
 
 # Cairn 2e Core Rulebook

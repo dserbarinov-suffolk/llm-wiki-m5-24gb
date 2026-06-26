@@ -6,7 +6,7 @@ sources: raw/rpg_dnd_srd_excerpt.pdf
 updated: 2026-06-26
 domain: rpg-dnd-srd-excerpt
 category_path: concepts
-projection_coverage: topic-rpg-dnd-srd-excerpt-advantage-disadvantage@82ed4af3ecc32e1a4c3500bde87a0e50
+projection_coverage: topic-rpg-dnd-srd-excerpt-advantage-disadvantage@9a713837cd897be7606b0c70e2d90811
 ---
 
 # Advantage and Disadvantage
@@ -15,10 +15,10 @@ What [[rpg-dnd-srd-excerpt]] covers about advantage and disadvantage:
 
 ## Statements
 
+- If two favorable situations grant advantage, for example, you still roll only one additional d20. _(rpg_dnd_srd_excerpt.pdf (source-range-b7d08967-00080))_
 - If you instead have advantage and roll those numbers, you use the 17. _(rpg_dnd_srd_excerpt.pdf (source-range-b7d08967-00079))_
 - For example, if you have disadvantage and roll a 17 and a 5, you use the 5. _(rpg_dnd_srd_excerpt.pdf (source-range-b7d08967-00079))_
 - Sometimes a special ability or spell tells you that you have advantage or disadvantage on an ability check, a saving throw, or an attack roll. _(rpg_dnd_srd_excerpt.pdf (source-range-b7d08967-00079))_
-- If two favorable situations grant advantage, for example, you still roll only one additional d20. _(rpg_dnd_srd_excerpt.pdf (source-range-b7d08967-00080))_
 - In such a situation, you have neither advantage nor disadvantage. _(rpg_dnd_srd_excerpt.pdf (source-range-b7d08967-00081))_
 - This is true even if multiple circumstances impose disadvantage and only one grants advantage or vice versa. _(rpg_dnd_srd_excerpt.pdf (source-range-b7d08967-00081))_
 - For example, if a halfling has advantage or disadvantage on an ability check and rolls a 1 and a 13, the halfling could use the Lucky trait to reroll the 1. _(rpg_dnd_srd_excerpt.pdf (source-range-b7d08967-00082))_

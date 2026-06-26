@@ -6,7 +6,7 @@ sources: raw/rpg_cairn_2e_core.pdf
 updated: 2026-06-26
 domain: rpg-cairn-2e-core
 category_path: concepts
-projection_coverage: topic-rpg-cairn-2e-core-courtyard@1795c791b886e557607edd39c6a3519b
+projection_coverage: topic-rpg-cairn-2e-core-courtyard@6f3c0baf4b75b1671f985d3e0197d8f7
 ---
 
 # The Courtyard
@@ -15,9 +15,9 @@ What [[rpg-cairn-2e-core]] covers about the courtyard:
 
 ## Statements
 
+- A wide courtyard exposed to the open air . _(rpg_cairn_2e_core.pdf (source-range-ad2c341f-00584))_
 - The ground is sandy and rough. _(rpg_cairn_2e_core.pdf (source-range-ad2c341f-00584))_
 - Rubble is piled near the center of the room. _(rpg_cairn_2e_core.pdf (source-range-ad2c341f-00584))_
-- A wide courtyard exposed to the open air . _(rpg_cairn_2e_core.pdf (source-range-ad2c341f-00584))_
 - A wooden doorway to the East is locked with an iron chain. _(rpg_cairn_2e_core.pdf (source-range-ad2c341f-00584))_
 - A full-sized statue holding a bident is placed in the exact center. _(rpg_cairn_2e_core.pdf (source-range-ad2c341f-00584))_
 - Air : The roof has collapsed, letting exterior lighting illuminate the room. _(rpg_cairn_2e_core.pdf (source-range-ad2c341f-00585))_

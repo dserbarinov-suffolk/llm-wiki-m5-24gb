@@ -6,7 +6,7 @@ sources: raw/rpg_dnd_srd_excerpt.pdf
 updated: 2026-06-26
 domain: rpg-dnd-srd-excerpt
 category_path: concepts
-projection_coverage: topic-rpg-dnd-srd-excerpt-space@89074dd82335426f2684121ab90f93ee
+projection_coverage: topic-rpg-dnd-srd-excerpt-space@fcab6f31fa86905715dec66da3b19d3d
 ---
 
 # Space
@@ -16,10 +16,10 @@ What [[rpg-dnd-srd-excerpt]] covers about space:
 ## Statements
 
 - A creature's space is the area in feet that it effectively controls in combat, not an expression of its physical dimensions. _(rpg_dnd_srd_excerpt.pdf (source-range-b7d08967-00317))_
+- Because larger creatures take up more space, fewer of them can surround a creature. _(rpg_dnd_srd_excerpt.pdf (source-range-b7d08967-00319))_
 - A typical Medium creature isn't 5 feet wide, for example, but it does control a space that wide. _(rpg_dnd_srd_excerpt.pdf (source-range-b7d08967-00317))_
 - Assuming Medium combatants, eight creatures can fit in a 5-foot radius around another one. _(rpg_dnd_srd_excerpt.pdf (source-range-b7d08967-00318))_
 - For that reason, there's a limit to the number of creatures that can surround another creature in combat. _(rpg_dnd_srd_excerpt.pdf (source-range-b7d08967-00318))_
-- Because larger creatures take up more space, fewer of them can surround a creature. _(rpg_dnd_srd_excerpt.pdf (source-range-b7d08967-00319))_
 - In contrast, as many as twenty Medium creatures can surround a Gargantuan one. _(rpg_dnd_srd_excerpt.pdf (source-range-b7d08967-00319))_
 
 ## Technical atoms

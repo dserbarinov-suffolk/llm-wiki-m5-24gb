@@ -6,7 +6,7 @@ sources: raw/history_short_history_of_england.pdf
 updated: 2026-06-26
 domain: history-short-history-of-england
 category_path: concepts
-projection_coverage: topic-history-short-history-of-england-crusade@8b03902c46d5701676e61027c9362467
+projection_coverage: topic-history-short-history-of-england-crusade@2d27c15f0a11b90f12fb36254fd68fe3
 ---
 
 # THE AGE OF THE CRUSADES
@@ -15,6 +15,11 @@ What [[history-short-history-of-england]] covers about the age of the crusades:
 
 ## Statements
 
+- King Richard, as the typical Crusader, did make a momentous difference to England by gaining glory in the East, instead of devoting himself conscientiously to domestic politics in the exemplary manner of King John. _(history_short_history_of_england.pdf (source-range-e5a81de4-00153))_
+- His tale is told with the implication that his departure for the Crusade was something like the escapade of a schoolboy running away to sea. _(history_short_history_of_england.pdf (source-range-e5a81de4-00140))_
+- Philip Augustus, Richard's contemporary in France, had the name of a particularly cautious and coldly public-spirited statesman; yet Philip Augustus went on the same Crusade. _(history_short_history_of_england.pdf (source-range-e5a81de4-00140))_
+- The reason was, of course, that the Crusades were, for all thoughtful Europeans, things of the highest statesmanship and the purest public spirit. _(history_short_history_of_england.pdf (source-range-e5a81de4-00140))_
+- But the point which is the clue to the Crusades is this: that for them the beyond was not the infinite, as in a modern religion. _(history_short_history_of_england.pdf (source-range-e5a81de4-00146))_
 - Edward; and this one might very well begin with the name of St. _(history_short_history_of_england.pdf (source-range-e5a81de4-00133))_
 - George, apart from his place in martyrology as a Roman soldier, can hardly be said to be a character in any history. _(history_short_history_of_england.pdf (source-range-e5a81de4-00133))_
 - And if we wish to understand the noblest and most neglected of human revolutions, we can hardly get closer to it than by considering this paradox, of how much progress and enlightenment was represented by thus passing from a chronicle to a romance. _(history_short_history_of_england.pdf (source-range-e5a81de4-00133))_
@@ -24,11 +29,6 @@ What [[history-short-history-of-england]] covers about the age of the crusades:
 - But if our subject of study is mediæval and not modern, we must pit against this apparent platitude the very opposite idea. _(history_short_history_of_england.pdf (source-range-e5a81de4-00134))_
 - I do not, in my private capacity, believe that a baby gets his best physical food by sucking his thumb; nor that a man gets his best moral food by sucking his soul, and denying its dependence on God or other good things. _(history_short_history_of_england.pdf (source-range-e5a81de4-00139))_
 - that the newspaper phrase I quoted strikes me as a blunder about the very nature of life. _(history_short_history_of_england.pdf (source-range-e5a81de4-00139))_
-- But this faith in receptiveness, and in respect for things outside oneself, need here do no more than help me in explaining what any version of this epoch ought in any case to explain. _(history_short_history_of_england.pdf (source-range-e5a81de4-00139))_
-- And a passionately patriotic community more often than not had a foreigner for a patron saint. _(history_short_history_of_england.pdf (source-range-e5a81de4-00139))_
-- The monastery would often not only take in the stranger but almost canonize him. _(history_short_history_of_england.pdf (source-range-e5a81de4-00139))_
-- Thus crowds of saints were Irishmen, but St. _(history_short_history_of_england.pdf (source-range-e5a81de4-00139))_
-- In nothing is the modern German more modern, or more mad, than in his dream of finding a German name for everything; eating his language, or in other words biting his tongue. _(history_short_history_of_england.pdf (source-range-e5a81de4-00139))_
 
 ## Source
 

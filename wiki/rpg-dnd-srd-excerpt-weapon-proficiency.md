@@ -6,7 +6,7 @@ sources: raw/rpg_dnd_srd_excerpt.pdf
 updated: 2026-06-26
 domain: rpg-dnd-srd-excerpt
 category_path: concepts
-projection_coverage: topic-rpg-dnd-srd-excerpt-weapon-proficiency@a47b775cbe6dc0a5eb6d48cc73d2e921
+projection_coverage: topic-rpg-dnd-srd-excerpt-weapon-proficiency@1ed08b57fc1b963def3b3fbe728182ea
 ---
 
 # Weapon Proficiency
@@ -15,13 +15,13 @@ What [[rpg-dnd-srd-excerpt]] covers about weapon proficiency:
 
 ## Statements
 
-- Most people can use simple weapons with proficiency. _(rpg_dnd_srd_excerpt.pdf (source-range-b7d08967-00504))_
-- Martial weapons, including swords, axes, and polearms, require more specialized training to use effectively. _(rpg_dnd_srd_excerpt.pdf (source-range-b7d08967-00504))_
-- The two categories are simple and martial . _(rpg_dnd_srd_excerpt.pdf (source-range-b7d08967-00504))_
 - These weapons include clubs, maces, and other weapons often found in the hands of commoners. _(rpg_dnd_srd_excerpt.pdf (source-range-b7d08967-00504))_
+- Proficiency with a weapon allows you to add your proficiency bonus to the attack roll for any attack you make with that weapon. _(rpg_dnd_srd_excerpt.pdf (source-range-b7d08967-00505))_
+- Martial weapons, including swords, axes, and polearms, require more specialized training to use effectively. _(rpg_dnd_srd_excerpt.pdf (source-range-b7d08967-00504))_
+- Most people can use simple weapons with proficiency. _(rpg_dnd_srd_excerpt.pdf (source-range-b7d08967-00504))_
 - Your race, class, and feats can grant you proficiency with certain weapons or categories of weapons. _(rpg_dnd_srd_excerpt.pdf (source-range-b7d08967-00504))_
 - Most warriors use martial weapons because these weapons put their fighting style and training to best use. _(rpg_dnd_srd_excerpt.pdf (source-range-b7d08967-00504))_
-- Proficiency with a weapon allows you to add your proficiency bonus to the attack roll for any attack you make with that weapon. _(rpg_dnd_srd_excerpt.pdf (source-range-b7d08967-00505))_
+- The two categories are simple and martial . _(rpg_dnd_srd_excerpt.pdf (source-range-b7d08967-00504))_
 
 ## Technical atoms
 

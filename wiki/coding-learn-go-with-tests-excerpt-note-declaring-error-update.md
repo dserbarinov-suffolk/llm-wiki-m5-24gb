@@ -6,7 +6,7 @@ sources: raw/coding_learn_go_with_tests_excerpt.pdf
 updated: 2026-06-26
 domain: coding-learn-go-with-tests-excerpt
 category_path: concepts
-projection_coverage: topic-coding-learn-go-with-tests-excerpt-note-declaring-error-update@4f10dcbe06f6b4002e9cba451913235f
+projection_coverage: topic-coding-learn-go-with-tests-excerpt-note-declaring-error-update@41bfb57480bee4f44dc4b43b2730ccc8
 ---
 
 # Note on declaring a new error for Update
@@ -15,9 +15,9 @@ What [[coding-learn-go-with-tests-excerpt]] covers about note on declaring a new
 
 ## Statements
 
+- Having specific errors gives you more information about what went wrong. _(coding_learn_go_with_tests_excerpt.pdf (source-range-f4b7154d-00672))_
 - However, it is often better to have a precise error for when an update fails. _(coding_learn_go_with_tests_excerpt.pdf (source-range-f4b7154d-00671))_
 - We could reuse ErrNotFound and not add a new error. _(coding_learn_go_with_tests_excerpt.pdf (source-range-f4b7154d-00671))_
-- Having specific errors gives you more information about what went wrong. _(coding_learn_go_with_tests_excerpt.pdf (source-range-f4b7154d-00672))_
 
 ## Technical atoms
 

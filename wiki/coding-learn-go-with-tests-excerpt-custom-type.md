@@ -6,7 +6,7 @@ sources: raw/coding_learn_go_with_tests_excerpt.pdf
 updated: 2026-06-26
 domain: coding-learn-go-with-tests-excerpt
 category_path: concepts
-projection_coverage: topic-coding-learn-go-with-tests-excerpt-custom-type@f3d4113095feb73618022fe45b8895ef
+projection_coverage: topic-coding-learn-go-with-tests-excerpt-custom-type@583effc44dc7cf4054f81d94c6321d59
 ---
 
 # Using a custom type
@@ -15,11 +15,11 @@ What [[coding-learn-go-with-tests-excerpt]] covers about using a custom type:
 
 ## Statements
 
+- With the custom type defined, we can create the Search method. _(coding_learn_go_with_tests_excerpt.pdf (source-range-f4b7154d-00574))_
 - We started using the Dictionary type, which we have not defined yet. _(coding_learn_go_with_tests_excerpt.pdf (source-range-f4b7154d-00570))_
+- Here we created a Dictionary type which acts as a thin wrapper around map . _(coding_learn_go_with_tests_excerpt.pdf (source-range-f4b7154d-00574))_
 - Then called Search on the Dictionary instance. _(coding_learn_go_with_tests_excerpt.pdf (source-range-f4b7154d-00570))_
 - We did not need to change assertStrings . _(coding_learn_go_with_tests_excerpt.pdf (source-range-f4b7154d-00571))_
-- Here we created a Dictionary type which acts as a thin wrapper around map . _(coding_learn_go_with_tests_excerpt.pdf (source-range-f4b7154d-00574))_
-- With the custom type defined, we can create the Search method. _(coding_learn_go_with_tests_excerpt.pdf (source-range-f4b7154d-00574))_
 
 ## Technical atoms
 

@@ -6,7 +6,7 @@ sources: raw/coding_little_go_book.pdf
 updated: 2026-06-26
 domain: coding-little-go-book
 category_path: concepts
-projection_coverage: topic-coding-little-go-book-string-byte-array@a49cd61e9099295b55dbd395a897023e
+projection_coverage: topic-coding-little-go-book-string-byte-array@cda7dafe1ee47d4e480061d34a9b6302
 ---
 
 # Strings and Byte Arrays
@@ -16,11 +16,11 @@ What [[coding-little-go-book]] covers about strings and byte arrays:
 ## Statements
 
 - Strings and byte arrays are closely related. _(coding_little_go_book.pdf (source-range-773b6275-00378))_
+- Still, when it comes to bytes and strings, it's probably something you'll end up doing often. _(coding_little_go_book.pdf (source-range-773b6275-00382))_
+- Strings are made of runes which are unicode code points. _(coding_little_go_book.pdf (source-range-773b6275-00383))_
+- This is necessary because strings are immutable. _(coding_little_go_book.pdf (source-range-773b6275-00382))_
 - In fact, this way of converting is common across various types as well. _(coding_little_go_book.pdf (source-range-773b6275-00380))_
 - Some functions explicitly expect an int32 or an int64 or their unsigned counterparts. _(coding_little_go_book.pdf (source-range-773b6275-00380))_
-- Still, when it comes to bytes and strings, it's probably something you'll end up doing often. _(coding_little_go_book.pdf (source-range-773b6275-00382))_
-- This is necessary because strings are immutable. _(coding_little_go_book.pdf (source-range-773b6275-00382))_
-- Strings are made of runes which are unicode code points. _(coding_little_go_book.pdf (source-range-773b6275-00383))_
 
 ## Technical atoms
 

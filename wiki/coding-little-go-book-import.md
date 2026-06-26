@@ -6,7 +6,7 @@ sources: raw/coding_little_go_book.pdf
 updated: 2026-06-26
 domain: coding-little-go-book
 category_path: concepts
-projection_coverage: topic-coding-little-go-book-import@9c797ce8b12cdd8ae225b38573fb01a8
+projection_coverage: topic-coding-little-go-book-import@1972d1f02fcecbdea6c43ec693c92dc4
 ---
 
 # Imports
@@ -15,15 +15,15 @@ What [[coding-little-go-book]] covers about imports:
 
 ## Statements
 
-- Go has a number of built-in functions, such as println , which can be used without reference. _(coding_little_go_book.pdf (source-range-773b6275-00058))_
-- We can't get very far though, without making use of Go's standard library and eventually using third-party libraries. _(coding_little_go_book.pdf (source-range-773b6275-00058))_
-- We've also introduced another built-in function len . _(coding_little_go_book.pdf (source-range-773b6275-00063))_
 - For now, knowing how to import and use a package is a good start. _(coding_little_go_book.pdf (source-range-773b6275-00064))_
-- You've probably noticed we prefix the function name with the package, e.g., fmt.Println . _(coding_little_go_book.pdf (source-range-773b6275-00064))_
-- This is different from many other languages. _(coding_little_go_book.pdf (source-range-773b6275-00064))_
 - It will not compile if you import a package but don't use it. _(coding_little_go_book.pdf (source-range-773b6275-00065))_
 - Go is strict about importing packages. _(coding_little_go_book.pdf (source-range-773b6275-00065))_
 - Go is strict about this because unused imports can slow compilation; admittedly a problem most of us don't have to this degree. _(coding_little_go_book.pdf (source-range-773b6275-00067))_
+- Go has a number of built-in functions, such as println , which can be used without reference. _(coding_little_go_book.pdf (source-range-773b6275-00058))_
+- We can't get very far though, without making use of Go's standard library and eventually using third-party libraries. _(coding_little_go_book.pdf (source-range-773b6275-00058))_
+- We've also introduced another built-in function len . _(coding_little_go_book.pdf (source-range-773b6275-00063))_
+- You've probably noticed we prefix the function name with the package, e.g., fmt.Println . _(coding_little_go_book.pdf (source-range-773b6275-00064))_
+- This is different from many other languages. _(coding_little_go_book.pdf (source-range-773b6275-00064))_
 - Over time, you'll get used to it (it'll still be annoying though). _(coding_little_go_book.pdf (source-range-773b6275-00067))_
 - You can click on that section header and see the source code. _(coding_little_go_book.pdf (source-range-773b6275-00068))_
 - Another thing to note is that Go's standard library is well documented. _(coding_little_go_book.pdf (source-range-773b6275-00068))_

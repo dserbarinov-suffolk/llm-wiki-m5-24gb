@@ -6,7 +6,7 @@ sources: raw/coding_little_go_book.pdf
 updated: 2026-06-26
 domain: coding-little-go-book
 category_path: concepts
-projection_coverage: topic-coding-little-go-book-variable-declaration@f77ccf547ad34388cb100106aa831574
+projection_coverage: topic-coding-little-go-book-variable-declaration@546fa13aa3c8219257c08ba8b3282281
 ---
 
 # Variables and Declarations
@@ -15,20 +15,20 @@ What [[coding-little-go-book]] covers about variables and declarations:
 
 ## Statements
 
-- Unfortunately, things are more complicated in Go. _(coding_little_go_book.pdf (source-range-773b6275-00073))_
-- You might be thinking Woah! _(coding_little_go_book.pdf (source-range-773b6275-00074))_
-- The most explicit way to deal with variable declaration and assignment in Go is also the most verbose: _(coding_little_go_book.pdf (source-range-773b6275-00075))_
-- Integers are assigned 0 , booleans false , strings "" and so on. _(coding_little_go_book.pdf (source-range-773b6275-00077))_
-- Go has a handy short variable declaration operator, := , which can infer the type: _(coding_little_go_book.pdf (source-range-773b6275-00079))_
-- Because a variable can't be declared twice (not in the same scope anyway). _(coding_little_go_book.pdf (source-range-773b6275-00083))_
-- It's important that you remember that := is used to declare the variable as well as assign a value to it. _(coding_little_go_book.pdf (source-range-773b6275-00083))_
 - This means that when we first declare a variable, we use := but on subsequent assignment, we use the assignment operator = . _(coding_little_go_book.pdf (source-range-773b6275-00085))_
-- This makes a lot of sense, but it can be tricky for your muscle memory to remember when to switch between the two. _(coding_little_go_book.pdf (source-range-773b6275-00085))_
-- The compiler will complain with no new variables on left side of := . _(coding_little_go_book.pdf (source-range-773b6275-00085))_
+- The most explicit way to deal with variable declaration and assignment in Go is also the most verbose: _(coding_little_go_book.pdf (source-range-773b6275-00075))_
+- Because a variable can't be declared twice (not in the same scope anyway). _(coding_little_go_book.pdf (source-range-773b6275-00083))_
 - If you read the error message closely, you'll notice that variables is plural. _(coding_little_go_book.pdf (source-range-773b6275-00086))_
 - As long as one of the variables is new, := can be used. _(coding_little_go_book.pdf (source-range-773b6275-00088))_
-- However, you can't change the type of power . _(coding_little_go_book.pdf (source-range-773b6275-00090))_
-- It was declared (implicitly) as an integer and thus, can only be assigned integers. _(coding_little_go_book.pdf (source-range-773b6275-00090))_
+- Go has a handy short variable declaration operator, := , which can infer the type: _(coding_little_go_book.pdf (source-range-773b6275-00079))_
+- It's important that you remember that := is used to declare the variable as well as assign a value to it. _(coding_little_go_book.pdf (source-range-773b6275-00083))_
+- The compiler will complain with no new variables on left side of := . _(coding_little_go_book.pdf (source-range-773b6275-00085))_
+- Although power is being used twice with := , the compiler won't complain the second time we use it, it'll see that the other variable, name , is a new variable and allow := . _(coding_little_go_book.pdf (source-range-773b6275-00090))_
+- For now, the last thing to know is that, like imports, Go won't let you have unused variables. _(coding_little_go_book.pdf (source-range-773b6275-00091))_
+- For now, remember that you'll use var NAME TYPE when declaring a variable to its zero value, NAME := VALUE when declaring and assigning a value, and NAME = VALUE when assigning to a previously declared variable. _(coding_little_go_book.pdf (source-range-773b6275-00094))_
+- Unfortunately, things are more complicated in Go. _(coding_little_go_book.pdf (source-range-773b6275-00073))_
+- You might be thinking Woah! _(coding_little_go_book.pdf (source-range-773b6275-00074))_
+- Integers are assigned 0 , booleans false , strings "" and so on. _(coding_little_go_book.pdf (source-range-773b6275-00077))_
 
 ## Technical atoms
 

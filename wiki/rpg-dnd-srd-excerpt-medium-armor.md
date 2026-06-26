@@ -6,7 +6,7 @@ sources: raw/rpg_dnd_srd_excerpt.pdf
 updated: 2026-06-26
 domain: rpg-dnd-srd-excerpt
 category_path: concepts
-projection_coverage: topic-rpg-dnd-srd-excerpt-medium-armor@d5859a936b0cb3e7b77843b2e236690a
+projection_coverage: topic-rpg-dnd-srd-excerpt-medium-armor@8984024802f08dd6d8f198c86fefdb04
 ---
 
 # Medium Armor
@@ -15,14 +15,14 @@ What [[rpg-dnd-srd-excerpt]] covers about medium armor:
 
 ## Statements
 
-- Although it leaves the legs and arms relatively unprotected, this armor provides good protection for the wearer's vital organs while leaving the wearer relatively unencumbered. _(rpg_dnd_srd_excerpt.pdf (source-range-b7d08967-00484))_
-- Made of interlocking metal rings, a chain shirt is worn between layers of clothing or leather. _(rpg_dnd_srd_excerpt.pdf (source-range-b7d08967-00484))_
 - This armor consists of a fitted metal chest piece worn with supple leather. _(rpg_dnd_srd_excerpt.pdf (source-range-b7d08967-00484))_
-- Half plate consists of shaped metal plates that cover most of the wearer's body. _(rpg_dnd_srd_excerpt.pdf (source-range-b7d08967-00484))_
-- It is commonly worn by barbarian tribes, evil humanoids, and other folk who lack access to the tools and materials needed to create better armor. _(rpg_dnd_srd_excerpt.pdf (source-range-b7d08967-00484))_
-- The suit includes gauntlets. _(rpg_dnd_srd_excerpt.pdf (source-range-b7d08967-00484))_
 - This crude armor consists of thick furs and pelts. _(rpg_dnd_srd_excerpt.pdf (source-range-b7d08967-00484))_
 - This armor offers modest protection to the wearer's upper body and allows the sound of the rings rubbing against one another to be muffled by outer layers. _(rpg_dnd_srd_excerpt.pdf (source-range-b7d08967-00484))_
+- Although it leaves the legs and arms relatively unprotected, this armor provides good protection for the wearer's vital organs while leaving the wearer relatively unencumbered. _(rpg_dnd_srd_excerpt.pdf (source-range-b7d08967-00484))_
+- It is commonly worn by barbarian tribes, evil humanoids, and other folk who lack access to the tools and materials needed to create better armor. _(rpg_dnd_srd_excerpt.pdf (source-range-b7d08967-00484))_
+- Made of interlocking metal rings, a chain shirt is worn between layers of clothing or leather. _(rpg_dnd_srd_excerpt.pdf (source-range-b7d08967-00484))_
+- Half plate consists of shaped metal plates that cover most of the wearer's body. _(rpg_dnd_srd_excerpt.pdf (source-range-b7d08967-00484))_
+- The suit includes gauntlets. _(rpg_dnd_srd_excerpt.pdf (source-range-b7d08967-00484))_
 - greaves that are attached with leather straps. _(rpg_dnd_srd_excerpt.pdf (source-range-b7d08967-00485))_
 
 ## Technical atoms

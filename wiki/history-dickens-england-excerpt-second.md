@@ -6,7 +6,7 @@ sources: raw/history_dickens_england_excerpt.pdf
 updated: 2026-06-26
 domain: history-dickens-england-excerpt
 category_path: concepts
-projection_coverage: topic-history-dickens-england-excerpt-second@71e2d37db37629d384c7685a9571b7c0
+projection_coverage: topic-history-dickens-england-excerpt-second@cc11f7651122dd9d87c95ac7517ee003
 ---
 
 # PART THE SECOND
@@ -15,6 +15,7 @@ What [[history-dickens-england-excerpt]] covers about part the second:
 
 ## Statements
 
+- The very body was stripped, in the plunder of the Royal chamber; and it was not easy to find the means of carrying it for burial to the abbey church of Fontevraud. _(history_dickens_england_excerpt.pdf (source-range-bcf2b9c4-00025))_
 - When the King heard how Thomas a Becket had lost his life in Canterbury Cathedral, through the ferocity of the four Knights, he was filled with dismay. _(history_dickens_england_excerpt.pdf (source-range-bcf2b9c4-00024))_
 - He sent respectful messengers to the Pope, to represent his innocence (except in having uttered the hasty words); and he swore solemnly and publicly to his innocence, and contrived in time to make his peace. _(history_dickens_england_excerpt.pdf (source-range-bcf2b9c4-00024))_
 - At last, they went humbly to Jerusalem as a penance, and there died and were buried. _(history_dickens_england_excerpt.pdf (source-range-bcf2b9c4-00024))_
@@ -28,7 +29,6 @@ What [[history-dickens-england-excerpt]] covers about part the second:
 - The friend resenting this (though it was quite the custom of the country), complained to the chief King, and, with the chief King's help, drove Dermond Mac Murrough out of his dominions. _(history_dickens_england_excerpt.pdf (source-range-bcf2b9c4-00025))_
 - As, one hundred years before, the servile followers of the Court had abandoned the Conqueror in the hour of his death, so they now abandoned his descendant. _(history_dickens_england_excerpt.pdf (source-range-bcf2b9c4-00025))_
 - This being refused, he made off from his father in the night, with his bad heart full of bitterness, and took refuge at the French King's Court. _(history_dickens_england_excerpt.pdf (source-range-bcf2b9c4-00025))_
-- He wildly cursed the hour when he was born, and cursed the children whom he left behind him; and expired. _(history_dickens_england_excerpt.pdf (source-range-bcf2b9c4-00025))_
 
 ## Source
 

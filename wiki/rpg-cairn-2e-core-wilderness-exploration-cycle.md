@@ -6,7 +6,7 @@ sources: raw/rpg_cairn_2e_core.pdf
 updated: 2026-06-26
 domain: rpg-cairn-2e-core
 category_path: concepts
-projection_coverage: topic-rpg-cairn-2e-core-wilderness-exploration-cycle@7ee6087febb2768e5b6d3df218c7824e
+projection_coverage: topic-rpg-cairn-2e-core-wilderness-exploration-cycle@76ecee42f77df15a721799dc25cb43df
 ---
 
 # Wilderness Exploration Cycle
@@ -15,9 +15,9 @@ What [[rpg-cairn-2e-core]] covers about wilderness exploration cycle:
 
 ## Statements
 
-- The Warden describes the current point or region on the map and how the path, weather, terrain, or party status might affect travel speed . _(rpg_cairn_2e_core.pdf (source-range-ad2c341f-00327))_
 - The Warden narrates the results and then rolls on the Wilderness Events table. _(rpg_cairn_2e_core.pdf (source-range-ad2c341f-00328))_
 - torch use, deprivation , etc), and the cycle repeats. _(rpg_cairn_2e_core.pdf (source-range-ad2c341f-00329))_
+- The Warden describes the current point or region on the map and how the path, weather, terrain, or party status might affect travel speed . _(rpg_cairn_2e_core.pdf (source-range-ad2c341f-00327))_
 
 ## Technical atoms
 

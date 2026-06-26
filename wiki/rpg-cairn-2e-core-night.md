@@ -6,7 +6,7 @@ sources: raw/rpg_cairn_2e_core.pdf
 updated: 2026-06-26
 domain: rpg-cairn-2e-core
 category_path: concepts
-projection_coverage: topic-rpg-cairn-2e-core-night@af79b6b1b696525c4caec6fb33128546
+projection_coverage: topic-rpg-cairn-2e-core-night@9623f0eacd881f11fea3b1586a2c7c94
 ---
 
 # Night
@@ -15,8 +15,8 @@ What [[rpg-cairn-2e-core]] covers about night:
 
 ## Statements
 
-- The party can choose to travel during the night and rest during the day, but night travel is far slower and more treacherous! _(rpg_cairn_2e_core.pdf (source-range-ad2c341f-00338))_
 - Traveling at night is always more dangerous! _(rpg_cairn_2e_core.pdf (source-range-ad2c341f-00339))_
+- The party can choose to travel during the night and rest during the day, but night travel is far slower and more treacherous! _(rpg_cairn_2e_core.pdf (source-range-ad2c341f-00338))_
 - Some terrain and weather may be easier to traverse at night (desert, for example). _(rpg_cairn_2e_core.pdf (source-range-ad2c341f-00340))_
 - The Warden should balance these challenges along with any other. _(rpg_cairn_2e_core.pdf (source-range-ad2c341f-00340))_
 

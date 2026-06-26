@@ -6,7 +6,7 @@ sources: raw/history_dickens_england_excerpt.pdf
 updated: 2026-06-26
 domain: history-dickens-england-excerpt
 category_path: concepts
-projection_coverage: topic-history-dickens-england-excerpt-england-henry-fine-scholar@6c8b2b9de61950a7e88fda8b213b0e98
+projection_coverage: topic-history-dickens-england-excerpt-england-henry-fine-scholar@b81e251b924e33d2fcf41b0e4d8a1789
 ---
 
 # -ENGLAND UNDER HENRY THE FIRST, CALLED FINE-SCHOLAR
@@ -15,20 +15,20 @@ What [[history-dickens-england-excerpt]] covers about -england under henry the f
 
 ## Statements
 
-- He immediately declared that Robert had broken the treaty, and next year invaded Normandy. _(history_dickens_england_excerpt.pdf (source-range-bcf2b9c4-00012))_
-- He sentenced his brother to be confined for life in one of the Royal Castles. _(history_dickens_england_excerpt.pdf (source-range-bcf2b9c4-00012))_
-- To strengthen this last hold upon them, the King wished to marry an English lady; and could think of no other wife than Maud the Good, the daughter of the King of Scotland. _(history_dickens_england_excerpt.pdf (source-range-bcf2b9c4-00012))_
-- Getting home to Normandy, and understanding the King better now, he naturally allied himself with his old friend the Earl of Shrewsbury, who had still thirty castles in that country. _(history_dickens_england_excerpt.pdf (source-range-bcf2b9c4-00012))_
-- Among them was poor harmless Edgar Atheling, who loved Robert well. _(history_dickens_england_excerpt.pdf (source-range-bcf2b9c4-00012))_
-- At length, one day, there lay in prison, dead, with cruel and disfiguring scars upon his eyelids, bandaged from his jailer's sight, but on which the eternal Heavens looked down, a worn old man of eighty. _(history_dickens_england_excerpt.pdf (source-range-bcf2b9c4-00012))_
-- This the King very faithfully promised, but Robert was no sooner gone than he began to punish them. _(history_dickens_england_excerpt.pdf (source-range-bcf2b9c4-00012))_
-- In the beginning of his imprisonment, he was allowed to ride out, guarded; but he one day broke away from his guard and galloped of. _(history_dickens_england_excerpt.pdf (source-range-bcf2b9c4-00012))_
-- He pretended that he came to deliver the Normans, at their own request, from his brother's misrule. _(history_dickens_england_excerpt.pdf (source-range-bcf2b9c4-00012))_
-- But the English sailors deserted the King, and took a great part of the English fleet over to Normandy; so that Robert came to invade this country in no foreign vessels, but in English ships. _(history_dickens_england_excerpt.pdf (source-range-bcf2b9c4-00012))_
-- He had once been Robert of Normandy. _(history_dickens_england_excerpt.pdf (source-range-bcf2b9c4-00012))_
-- A good Queen she was; beautiful, kind-hearted, and worthy of a better husband than the King. _(history_dickens_england_excerpt.pdf (source-range-bcf2b9c4-00012))_
+- But, behold, when Henry had been some time King of England, Robert came home to Normandy; having leisurely returned from Jerusalem through Italy, in which beautiful country he had enjoyed himself very much, and had married a lady as beautiful as itself! _(history_dickens_england_excerpt.pdf (source-range-bcf2b9c4-00012))_
+- Henry pretended that Robert had been made Sovereign of that country; and he had been away so long, that the ignorant people believed it. _(history_dickens_england_excerpt.pdf (source-range-bcf2b9c4-00012))_
+- Sometimes, on fine autumn mornings, he would sit and think of the old hunting parties in the free Forest, where he had been the foremost and the gayest. _(history_dickens_england_excerpt.pdf (source-range-bcf2b9c4-00012))_
+- Now Robert, when his brother Fine-Scholar came to the throne, was still absent in the Holy Land. _(history_dickens_england_excerpt.pdf (source-range-bcf2b9c4-00012))_
+- Fine-scholar, on hearing of the Red King's death, hurried to Winchester with as much speed as Rufus himself had made, to seize the Royal treasure. _(history_dickens_england_excerpt.pdf (source-range-bcf2b9c4-00012))_
+- The virtuous Anselm, however, whom Henry had invited back from abroad, and made Archbishop of Canterbury, was steadfast in the King's cause; and it was so well supported that the two armies, instead of fighting, made a peace. _(history_dickens_england_excerpt.pdf (source-range-bcf2b9c4-00012))_
+- But, King Henry, artful and cunning always, bribed some of William's friends with money, some with promises, some with power. _(history_dickens_england_excerpt.pdf (source-range-bcf2b9c4-00013))_
 - This was exactly what Henry wanted. _(history_dickens_england_excerpt.pdf (source-range-bcf2b9c4-00012))_
-- But the King was not a magnanimous man. _(history_dickens_england_excerpt.pdf (source-range-bcf2b9c4-00012))_
+- The King afterwards gave him a small pension, which he lived upon and died upon, in peace, among the quiet woods and fields of England. _(history_dickens_england_excerpt.pdf (source-range-bcf2b9c4-00012))_
+- Finding, on better information, afterwards, that the Earl's only crime was having been his friend, he came over to England, in his old thoughtless, warm-hearted way, to intercede with the King, and remind him of the solemn promise to pardon all his followers. _(history_dickens_england_excerpt.pdf (source-range-bcf2b9c4-00012))_
+- The English in general were on King Henry's side, though many of the Normans were on Robert's. _(history_dickens_england_excerpt.pdf (source-range-bcf2b9c4-00012))_
+- Poor Robert, who trusted anybody and everybody, readily trusted his brother, the King; and agreed to go home and receive a pension from England, on condition that all his followers were fully pardoned. _(history_dickens_england_excerpt.pdf (source-range-bcf2b9c4-00012))_
+- To strengthen his power, the King with great ceremony betrothed his eldest daughter Matilda, then a child only eight years old, to be the wife of Henry the Fifth, the Emperor of Germany. _(history_dickens_england_excerpt.pdf (source-range-bcf2b9c4-00013))_
+- He steered the ship with the golden boy upon the prow, in which your father sailed to conquer England. _(history_dickens_england_excerpt.pdf (source-range-bcf2b9c4-00013))_
 
 ## Source
 

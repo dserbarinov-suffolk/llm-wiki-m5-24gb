@@ -6,7 +6,7 @@ sources: raw/rpg_cairn_2e_core.pdf
 updated: 2026-06-26
 domain: rpg-cairn-2e-core
 category_path: concepts
-projection_coverage: topic-rpg-cairn-2e-core-travel-duration@a81b62dafacd2e7d9c32fef2388cf875
+projection_coverage: topic-rpg-cairn-2e-core-travel-duration@005e22dbdc6d0a4e142830d68e5f02ed
 ---
 
 # Travel Duration
@@ -16,8 +16,8 @@ What [[rpg-cairn-2e-core]] covers about travel duration:
 ## Statements
 
 - Travel time in Cairn is counted in watches, divided into three eighthour segments per day. _(rpg_cairn_2e_core.pdf (source-range-ad2c341f-00315))_
-- However, as most parties elect to spend the third watch of the day resting, one can use "days" as a shorthand for travel time. _(rpg_cairn_2e_core.pdf (source-range-ad2c341f-00315))_
 - For travel via waterways, refer to the surrounding terrain difficulty. _(rpg_cairn_2e_core.pdf (source-range-ad2c341f-00316))_
+- However, as most parties elect to spend the third watch of the day resting, one can use "days" as a shorthand for travel time. _(rpg_cairn_2e_core.pdf (source-range-ad2c341f-00315))_
 - The weather, terrain, darkness, injured party members, and other obstacles can impact travel or even make it impossible! _(rpg_cairn_2e_core.pdf (source-range-ad2c341f-00317))_
 - Mounts, guides, and maps can increase the party's travel speed or even negate certain penalties. _(rpg_cairn_2e_core.pdf (source-range-ad2c341f-00317))_
 - In some cases, the party may need to add Fatigue or expend resources in order to sustain their pace. _(rpg_cairn_2e_core.pdf (source-range-ad2c341f-00317))_

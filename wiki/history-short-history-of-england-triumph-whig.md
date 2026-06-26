@@ -6,7 +6,7 @@ sources: raw/history_short_history_of_england.pdf
 updated: 2026-06-26
 domain: history-short-history-of-england
 category_path: concepts
-projection_coverage: topic-history-short-history-of-england-triumph-whig@9b998005194cebdab8ca6ee858933f7e
+projection_coverage: topic-history-short-history-of-england-triumph-whig@db0c8361e9d878382323b56ff1bba3b3
 ---
 
 # THE TRIUMPH OF THE WHIGS
@@ -15,6 +15,9 @@ What [[history-short-history-of-england]] covers about the triumph of the whigs:
 
 ## Statements
 
+- Rather in the same way the eighteenth-century Whigs often praised, in a spirit of pure magnanimity, what the seventeenth-century Whigs had done in a spirit of pure meanness. _(history_short_history_of_england.pdf (source-range-e5a81de4-00387))_
+- Johnson is full of it; it is what he meant when he denounced minority rule in Ireland, as well as when he said that the devil was the first Whig. _(history_short_history_of_england.pdf (source-range-e5a81de4-00389))_
+- Thus he was a Whig, and even in some ways what we should call a Liberal, like his son after him; but he was also an Imperialist and what we should call a Jingo; and the Whig party was consistently the Jingo party. _(history_short_history_of_england.pdf (source-range-e5a81de4-00395))_
 - Whether or no we believe that the Reformation really reformed, there can be little doubt that the Restoration did not really restore. _(history_short_history_of_england.pdf (source-range-e5a81de4-00367))_
 - The second, which grew as it neared the next century, was their tie with the French Monarchy. _(history_short_history_of_england.pdf (source-range-e5a81de4-00367))_
 - The first, which lessened in its practical pressure as time passed, was, of course, the hatred felt for their religion. _(history_short_history_of_england.pdf (source-range-e5a81de4-00367))_
@@ -26,9 +29,6 @@ What [[history-short-history-of-england]] covers about the triumph of the whigs:
 - A person of the type and time of Elizabeth would feel fundamentally, and even fiercely, that priests should be celibate, while racking and rending anybody caught talking to the only celibate priests. _(history_short_history_of_england.pdf (source-range-e5a81de4-00368))_
 - This mystery, which may be very variously explained, covered the Church of England, and in a great degree the people of England. _(history_short_history_of_england.pdf (source-range-e5a81de4-00368))_
 - The Tudors had begun to persecute the old religion before they had ceased to belong to it. _(history_short_history_of_england.pdf (source-range-e5a81de4-00368))_
-- It was, perhaps, increasingly an urban crowd, and was subject to those epidemics of detailed delusion with which sensational journalism plays on the urban crowds of to-day. _(history_short_history_of_england.pdf (source-range-e5a81de4-00372))_
-- It is, therefore, very hard now to guess the proportion of Protestantism; but there is no doubt about its presence, especially its presence in centres of importance like London. _(history_short_history_of_england.pdf (source-range-e5a81de4-00372))_
-- Another was the Tale of the Warming Pan, or the bogus heir to the throne, a storm that finally swept away James II. _(history_short_history_of_england.pdf (source-range-e5a81de4-00372))_
 
 ## Source
 
