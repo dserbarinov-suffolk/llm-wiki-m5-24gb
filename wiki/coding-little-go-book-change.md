@@ -1,12 +1,12 @@
 ---
 page_id: coding-little-go-book-change
 page_kind: concept
-summary: Change: 12 statement(s) and 4 atom(s) from raw/coding_little_go_book.pdf.
+summary: Change: 4 statement(s) and 5 atom(s) from raw/coding_little_go_book.pdf.
 sources: raw/coding_little_go_book.pdf
 updated: 2026-06-26
 domain: coding-little-go-book
 category_path: concepts
-projection_coverage: topic-coding-little-go-book-change@797e8fb0dc930e5e06296ca8b59013b1
+projection_coverage: topic-coding-little-go-book-change@4ee5720987f787e108ba785c737decaa
 ---
 
 # Change
@@ -15,36 +15,74 @@ What [[coding-little-go-book]] covers about change:
 
 ## Statements
 
-- However, you can't change the type of power . _(coding_little_go_book.pdf (source-range-810ce361-00090))_
-- Next, we changed the type of parameter Super expects. _(coding_little_go_book.pdf (source-range-810ce361-00132))_
-- You can make this change, but you'll notice that the processing is still choppy. _(coding_little_go_book.pdf (source-range-810ce361-00438))_
-- copy is one of those functions that highlights how slices change the way we code. _(coding_little_go_book.pdf (source-range-810ce361-00244))_
-- Next, open a shell/command prompt and change the directory to where you saved the file. _(coding_little_go_book.pdf (source-range-810ce361-00052))_
-- On the one hand, languages are so fundamental to what we do, that even small changes can have measurable impact. _(coding_little_go_book.pdf (source-range-810ce361-00012))_
-- On the one hand, it's a pretty slight syntactical change; on the other, it does feel a little less compartmentalized. _(coding_little_go_book.pdf (source-range-810ce361-00147))_
-- Because Super made changes to a copy of our original goku value and thus, changes made in Super weren't reflected in the caller. _(coding_little_go_book.pdf (source-range-810ce361-00130))_
-- As we already saw, passing values is a great way to make data immutable (changes that a function makes to it won't be reflected in the calling code). _(coding_little_go_book.pdf (source-range-810ce361-00181))_
-- Since we moved the shared Item structure to shopping/models/item.go , we need to change shopping/db/db.go to reference the Item structure from models package: _(coding_little_go_book.pdf (source-range-810ce361-00295))_
-- Yet by programming against the interface, rather than these concrete implementations, we can easily change (and test) which we use without any impact to our code. _(coding_little_go_book.pdf (source-range-810ce361-00323))_
-- Though the changes are often incremental, they tend to have a wide scope and they impact productivity, readability, performance, testability, dependency management, error handling, documentation, profiling, communities, standard libraries, and so on. _(coding_little_go_book.pdf (source-range-810ce361-00013))_
+- Though the changes are often incremental, they tend to have a wide scope and they impact productivity, readability, performance, testability, dependency management, error handling, documentation, profiling, communities, standard libraries, and so on. _(coding_little_go_book.pdf (source-range-773b6275-00013))_
+- Next, open a shell/command prompt and change the directory to where you saved the file. _(coding_little_go_book.pdf (source-range-773b6275-00052))_
+- Because Super made changes to a copy of our original goku value and thus, changes made in Super weren't reflected in the caller. _(coding_little_go_book.pdf (source-range-773b6275-00130))_
+- On the one hand, it's a pretty slight syntactical change; on the other, it does feel a little less compartmentalized. _(coding_little_go_book.pdf (source-range-773b6275-00147))_
 
 ## Technical atoms
 
-> Hopefully, the code that we just executed is understandable. We've created a function and printed out a string with the built-in println function. Did go run know what to execute because there was only a single choice? No. In Go, the entry point to a program has to be a function called main within a package main . We'll talk more about packages in a later chapter. For now, while we focus on understanding the basics of Go, we'll always write our code within the main package. If you want, you can alter the code and change the package name. Run the code via go run and you should get an error. Then, change the name back to main but use a different function name. You should see a different error message. Try making those same changes but use go build instead. Notice that the code compiles, there's just no entry point to run it. This is perfectly normal when you are, for example, building a library.
-_(source: coding_little_go_book.pdf (source-range-810ce361-00056))_
+> Context: That said, we have to move forward. We have to be willing to take incremental steps because, again, languages are the foundation of what we do. Though the changes are often incremental, they tend to have a wide scope and they impact productivity, readability, performance, testability, dependency management, error handling, documentation, profiling, communities, standard libraries, and so on. Is there a positive way to say death by a thousand cuts ?
+_(context: coding_little_go_book.pdf (source-range-773b6275-00013))_
+
+> I've always had a love-hate relationship when it comes to learning new languages.
+_(source: coding_little_go_book.pdf (source-range-773b6275-00012))_
+
+> Context: Let's start our journey by creating a simple program and learning how to compile and execute it. Open your favorite text editor and write the following code: Next, open a shell/command prompt and change the directory to where you saved the file. For me, that means typing cd ~/code .
+_(context: coding_little_go_book.pdf (source-range-773b6275-00049, source-range-773b6275-00052))_
 
 ```
-c	:=	cap(scores) fmt.Println(c) for i	:=	0;	i	<	25;	i++	{ scores	=	append(scores,	i) //	if	our	capacity	has	changed, //	Go	had	to	grow	our	array	to	accommodate	the	new	data if cap(scores)	!=	c	{ c	=	cap(scores) fmt.Println(c) } } }
+package main
+func main() {
+  println("it's over 9000!")
+}
 ```
-_(source: coding_little_go_book.pdf (source-range-810ce361-00216))_
+_(source: coding_little_go_book.pdf (source-range-773b6275-00050))_
 
-> This changes how you code. For example, a number of functions take a position parameter. In JavaScript, if we want to find the first space in a string (yes, slices work on strings too!) after the first five characters, we'd write:
-_(source: coding_little_go_book.pdf (source-range-810ce361-00235))_
+> Context: Why do we want a pointer to the value, rather than the actual value? It comes down to the way Go passes arguments to a function: as copies. Knowing this, what does the following print? The answer is 9000, not 19000. Why? Because Super made changes to a copy of our original goku value and thus, changes made in Super weren't reflected in the caller. To make this work as you probably expect, we need to pass a pointer to our value:
+_(context: coding_little_go_book.pdf (source-range-773b6275-00128, source-range-773b6275-00130))_
 
 ```
-Next,	we	change	our for loop: c	:=	make( chan int) for { select { case c	<-	rand.Int(): //optional	code	here default : //this	can	be	left	empty	to	silently	drop	the	data fmt.Println("dropped") } time.Sleep(time.Millisecond	*	50) }
+func main() {
+  goku := Saiyan{"Goku", 9000}
+  Super(goku)
+  fmt.Println(goku.Power)
+}
+func Super(s Saiyan) {
+  s.Power += 10000
+}
 ```
-_(source: coding_little_go_book.pdf (source-range-810ce361-00445))_
+_(source: coding_little_go_book.pdf (source-range-773b6275-00129))_
+
+> Context: The answer is 9000, not 19000. Why? Because Super made changes to a copy of our original goku value and thus, changes made in Super weren't reflected in the caller. To make this work as you probably expect, we need to pass a pointer to our value:
+_(context: coding_little_go_book.pdf (source-range-773b6275-00130))_
+
+```
+func main() {
+  goku := &Saiyan{"Goku", 9000}
+  Super(goku)
+  fmt.Println(goku.Power)
+}
+func Super(s *Saiyan) {
+  s.Power += 10000
+}
+```
+_(source: coding_little_go_book.pdf (source-range-773b6275-00131))_
+
+> Context: We can prove that it's a copy by trying to change where it points to (not something you'd likely want to actually do): The above, once again, prints 9000. This is how many languages behave, including Ruby, Python, Java and C#. Go, and to some degree C#, simply make the fact visible.
+_(context: coding_little_go_book.pdf (source-range-773b6275-00134, source-range-773b6275-00136))_
+
+```
+func main() {
+  goku := &Saiyan{"Goku", 9000}
+  Super(goku)
+  fmt.Println(goku.Power)
+}
+func Super(s *Saiyan) {
+  s = &Saiyan{"Gohan", 1000}
+}
+```
+_(source: coding_little_go_book.pdf (source-range-773b6275-00135))_
 
 
 ## Source

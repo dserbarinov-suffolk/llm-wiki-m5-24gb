@@ -1,12 +1,12 @@
 ---
 page_id: coding-learn-go-with-tests-excerpt-code
 page_kind: concept
-summary: Code: 43 statement(s) and 13 atom(s) from raw/coding_learn_go_with_tests_excerpt.pdf.
+summary: Code: 10 statement(s) and 6 atom(s) from raw/coding_learn_go_with_tests_excerpt.pdf.
 sources: raw/coding_learn_go_with_tests_excerpt.pdf
 updated: 2026-06-26
 domain: coding-learn-go-with-tests-excerpt
 category_path: concepts
-projection_coverage: topic-coding-learn-go-with-tests-excerpt-code@0436784e7f36c8e2a165ac409dcb9d66
+projection_coverage: topic-coding-learn-go-with-tests-excerpt-code@414e1e44142aa8b9aabbd934b9921e3b
 ---
 
 # Code
@@ -15,44 +15,62 @@ What [[coding-learn-go-with-tests-excerpt]] covers about code:
 
 ## Statements
 
+- Adding this code will cause the example to appear in your documentation, making your code even more accessible. _(coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00203))_
 - of the code you will write. _(coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00033))_
-- Refactoring is not just for the production code! _(coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00082))_
-- Once you add this to the code, the tests will pass. _(coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00482))_
-- Packages are ways of grouping up related Go code together. _(coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00014))_
-- Create a test file called adder_test.go and write this code. _(coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00164))_
+- In the last example, we wrote the test after the code had been written so that you could get an example of how to write a test and declare a function. _(coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00044))_
+- The compiler understands how your code should snap together and work so you don't have to. _(coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00051))_
 - There's not a lot in the actual code we can really improve on here. _(coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00191))_
-- When the benchmark code is executed, it measures how long it takes. _(coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00248))_
-- This is great because it aids the usability of code you are writing. _(coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00193))_
-- But there is repeated code when we check if the message is what we expect. _(coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00081))_
-- A handy side-effect of this is this adds a little type-safety to our code. _(coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00392))_
-- Normally you have to write code to say My type Foo implements interface Bar . _(coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00484))_
-- It is good to separate your "domain" code from the outside world (side-effects). _(coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00018))_
-- Our code does the job, but it doesn't contain anything explicit about rectangles. _(coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00426))_
+- If ever your code changes so that the example is no longer valid, your build will fail. _(coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00203))_
 - Writing better documentation so users of our code can understand its usage quickly _(coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00214))_
+- The number of times the code is run shouldn't matter to you, the framework will determine what is a "good" value for that to let you have some decent results. _(coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00249))_
+- Our code does the job, but it doesn't contain anything explicit about rectangles. _(coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00426))_
+- In our case our test helper code did not need to know the exact shape it was asserting on, only how to "ask" for its area. _(coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00543))_
 
 ## Technical atoms
+
+> Context: Learn Go with Tests -- Go Fundamentals (Excerpt) Hello, World How it works How to test Go modules? Back to Testing Writing tests Go's documentation Hello, YOU A note on source control Constants Hello, world... again Back to source control Discipline Keep going! More requirements French switch one...last...refactor? Wrapping up Some of Go's syntax around The TDD process and why the steps are important Integers Write the test first Try and run the test Write the minimal amount of code for the test to run and check the failing test output Write enough code to make it pass Refactor Testable Examples Wrapping up Iteration Write the test first Try and run the test Write the minimal amount of code for the test to run and check the failing test output Write enough code to make it pass Refactor Benchmarking Practice exercises Wrapping up Arrays and slices Write the test first Try to run the test Write the minimal amount of code for the test to run and check the failing test output Write enough code to make it pass Refactor Arrays and their type Write the test first Try and run the test Write the minimal amount of code for the test to run and check the failing test output Write enough code to make it pass Refactor Write the test first Try and run the test Write the minimal amount of code for the test to run and check the failing test output Write enough code to make it pass Refactor Write the test first Try and run the test Write the minimal amount of code for the test to run and check the failing test output Write enough code to make it pass Refactor Write the test first Try and run the test Write enough code to make it pass Refactor Wrapping up Structs, methods & interfaces Write the test first Try to run the test Write the minimal amount of code for the test to run and check the failing test output Write enough code to make it pass Refactor Write the test first Try to run the test Write the minimal amount of code for the test to run and check the failing test output What are methods? Write the minimal amount of code for the test to run and check the failing test output Write enough code to make it pass Refactor Wait, what? Decoupling Further refactoring Write the test first Try to run the test Write the minimal amount of code for the test to run and check the failing test output Write enough code to make it pass Refactor Make sure your test output is helpful Wrapping up Maps Write the test first Try to run the test Write the minimal amount of code for the test to run and check the output Write enough code to make it pass Refactor Using a custom type Write the test first Try and run the test Write the minimal amount of code for the test to run and check the output Write enough code to make it pass Refactor Write the test first Write the minimal amount of code for the test to run and check output Write enough code to make it pass Pointers, copies, et al Refactor Write the test first Try to run test Write the minimal amount of code for the test to run and check the
+_(context: coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00002))_
 
 ```
 output Write	enough	code	to	make	it	pass Refactor Write	the	test	first Try	and	run	the	test Write	minimal	amount	of	code	for	the	test	to	run	and	check	the failing	test	output Write	enough	code	to	make	it	pass Write	the	test	first Try	and	run	the	test Write	the	minimal	amount	of	code	for	the	test	to	run	and	check	the failing	test	output Write	enough	code	to	make	it	pass Note	on	declaring	a	new	error	for	Update Write	the	test	first Try	to	run	the	test Write	the	minimal	amount	of	code	for	the	test	to	run	and	check	the failing	test	output Write	enough	code	to	make	it	pass Refactor Try	to	run	test Write	enough	code	to	make	it	pass Wrapping	up
 ```
 _(source: coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00003))_
 
-> When you retrospectively write tests, there is the risk that your test may continue to pass even if the code doesn't work as intended.
-_(source: coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00046))_
-
-> The compiler understands how your code should snap together and work so you don't have to.
-_(source: coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00051))_
+> Context: When using a statically typed language like Go it is important to listen to the compiler . The compiler understands how your code should snap together and work so you don't have to. If you try and run your tests again your hello.go will fail to compile because you're not passing an argument. Send in "world" to make it compile.
+_(context: coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00051, source-range-559be4b1-00055))_
 
 ```
-Constants	are	defined	like	so We	can	now	refactor	our	code const englishHelloPrefix	=	"Hello,	" const englishHelloPrefix	=	"Hello,	" func Hello(name	string)	string	{ return englishHelloPrefix	+	name }
+func Hello(name	string)	string	{ return "Hello,	world" }
 ```
-_(source: coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00068))_
+_(source: coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00054))_
 
-> You can comment out the t.Helper() code by adding two forward slashes // at the beginning of the line.
-_(source: coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00088))_
+> Context: There's not a lot in the actual code we can really improve on here.
+_(context: coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00191))_
 
-> You should see some problems in the code, "magic" strings, some of which are repeated.
-_(source: coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00120))_
+> You can add documentation to functions with comments, and these will appear in Go Doc just like when you look at the standard library's documentation.
+_(source: coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00194))_
+
+> Context: Often code examples that can be found outside the codebase, such as a readme file, become out of date and incorrect compared to the actual code because they don't get checked.
+_(context: coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00198))_
+
+> If you really want to go the extra mile you can make Testable Examples.
+_(source: coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00197))_
+
+> Context: The number of times the code is run shouldn't matter to you, the framework will determine what is a "good" value for that to let you have some decent results.
+_(context: coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00249))_
+
+```
+goos:	darwin goarch:	amd64 pkg:	github.com/quii/learn-go-with-tests/for/v4 10000000											136	ns/op PASS
+```
+_(source: coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00251))_
+
+> Context: Only the body of the loop is timed; it automatically excludes setup and cleanup code from benchmark timing. A typical benchmark is structured like:
+_(context: coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00254))_
+
+```
+func Benchmark(b	*testing.B)	{ //...	setup	... for b.Loop()	{ //...	code	to	measure	... } //...	cleanup	... }
+```
+_(source: coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00255))_
 
 
 ## Source

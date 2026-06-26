@@ -12,6 +12,7 @@ from llmwiki.domain.ledger.artifacts import (
     PortableArtifactMember,
     build_portable_artifact_set,
 )
+from llmwiki.domain.ledger.atom_projection import atom_is_topic_projectable
 from llmwiki.domain.ledger.atoms import (
     CodeBlockPayload,
     FigurePayload,
@@ -21,6 +22,7 @@ from llmwiki.domain.ledger.atoms import (
     TableColumn,
     TablePayload,
     TableRow,
+    TechnicalAtom,
 )
 from llmwiki.domain.ledger.builder import (
     LedgerBuildResult,
@@ -30,6 +32,7 @@ from llmwiki.domain.ledger.builder import (
 )
 from llmwiki.domain.ledger.canonical import canonical_json
 from llmwiki.domain.ledger.features import profile_unit
+from llmwiki.domain.ledger.ledger import SourceProfile
 from llmwiki.domain.ledger.pointers import claim_ledger_pointer, document_structure_pointer
 from llmwiki.domain.ledger.projection import ProjectionSourceSupport, plan_source_page
 from llmwiki.domain.ledger.quality import (
@@ -134,6 +137,39 @@ def test_code_block_preserves_exact_text_including_whitespace() -> None:
     assert isinstance(code.payload, CodeBlockPayload)
     assert code.payload.raw_code_text == "  x = 1\n    y = 2"
     assert code.parse_status == "parsed"
+
+
+def test_code_block_context_preserves_introductory_source_reason() -> None:
+    result = _build(
+        [
+            ("heading", "# Arrays", []),
+            ("paragraph", "We can initialize the array with values:", []),
+            ("code-fence", "```go\nscores := [4]int{9001, 9333}\n```", []),
+        ]
+    )
+    code = next(a for a in result.ledger.technical_atoms if a.technical_atom_kind == "code-block")
+    contexts = result.ledger.atom_contexts(code.technical_atom_id)
+
+    assert len(contexts) == 1
+    assert contexts[0].context_role == "introduced-by-source-prose"
+    assert contexts[0].context_text == "We can initialize the array with values:"
+    assert "array" in contexts[0].demonstrated_concept_keys
+
+
+def test_table_context_preserves_source_stated_table_purpose() -> None:
+    result = _build(
+        [
+            ("heading", "# Armor", []),
+            ("paragraph", "The Armor table shows cost and weight.", []),
+            ("table-block", "1 Leather armor\n2 Chain armor", []),
+        ]
+    )
+    table = next(a for a in result.ledger.technical_atoms if a.technical_atom_kind == "table")
+    contexts = result.ledger.atom_contexts(table.technical_atom_id)
+
+    assert len(contexts) == 1
+    assert contexts[0].context_text == "The Armor table shows cost and weight."
+    assert "armor" in contexts[0].demonstrated_concept_keys
 
 
 def test_table_block_preserves_raw_text_with_partial_parse_review() -> None:
@@ -285,6 +321,8 @@ def test_deontic_sentence_becomes_rule_atom_not_duplicate_claim() -> None:
     rule_payloads = [atom.payload for atom in rules if isinstance(atom.payload, RulePayload)]
     assert len(rule_payloads) == len(rules)
     assert any(payload.rule_force == "required" for payload in rule_payloads)
+    assert any(payload.scope == "A combatant" for payload in rule_payloads)
+    assert any(payload.effect == "roll a die." for payload in rule_payloads)
     claim_texts = [e.normalized_text for e in result.ledger.entries if e.is_claim_like]
     assert not any("must roll a die" in text for text in claim_texts)
 
@@ -301,6 +339,119 @@ def test_epistemic_modal_sentence_is_not_a_rule_atom() -> None:
     )
 
     assert all(atom.technical_atom_kind != "rule" for atom in result.ledger.technical_atoms)
+
+
+def test_history_style_modal_sentence_is_not_a_rule_atom() -> None:
+    result = _build(
+        [
+            (
+                "paragraph",
+                "For rebellion must have a principle. "
+                "The case of Britain, however, cannot possibly be considered alone. "
+                "It was necessary that the empire should succeed-if only that it might fail. "
+                "The mediators, except when they were monks, were none of them communal.",
+                [
+                    "Rebellion has a principle.",
+                    "The case of Britain cannot be considered alone.",
+                    "The empire succeeded in order to fail.",
+                    "The mediators were not communal.",
+                ],
+            )
+        ]
+    )
+
+    assert all(atom.technical_atom_kind != "rule" for atom in result.ledger.technical_atoms)
+
+
+def test_conditional_rule_atom_requires_rule_like_effect() -> None:
+    result = _build(
+        [
+            (
+                "paragraph",
+                "If the tally reaches 10, the target score reduces by 1.",
+                ["A tally of 10 reduces the target score by 1."],
+            )
+        ]
+    )
+    rule = next(
+        atom for atom in result.ledger.technical_atoms if atom.technical_atom_kind == "rule"
+    )
+    assert isinstance(rule.payload, RulePayload)
+    assert rule.payload.trigger == "If the tally reaches 10"
+    assert rule.payload.effect == "the target score reduces by 1."
+
+
+def test_unstructured_rule_payload_is_not_topic_projectable() -> None:
+    atom = TechnicalAtom(
+        technical_atom_id="atom-1",
+        technical_atom_kind="rule",
+        payload=RulePayload("The chapter must be understood historically.", "required", "src.pdf"),
+        source_locator="src.pdf",
+        source_range_id="sr-1",
+        evidence_ids=("ev-1",),
+    )
+
+    assert not atom_is_topic_projectable(atom)
+
+
+def test_low_technical_density_source_does_not_project_prose_rule_atoms() -> None:
+    atom = TechnicalAtom(
+        technical_atom_id="atom-1",
+        technical_atom_kind="rule",
+        payload=RulePayload(
+            "A combatant must roll a die.",
+            "required",
+            "src.pdf",
+            scope="A combatant",
+            effect="roll a die.",
+        ),
+        source_locator="src.pdf",
+        source_range_id="sr-1",
+        evidence_ids=("ev-1",),
+    )
+    profile = SourceProfile(
+        source_locator="src.pdf",
+        unit_count=100,
+        accepted_entry_count=100,
+        claim_count=90,
+        event_count=0,
+        concept_count=10,
+        relationship_count=0,
+        atom_kind_counts={"rule": 1},
+        feature_signal_means={},
+    )
+
+    assert not atom_is_topic_projectable(atom, profile)
+
+
+def test_high_technical_density_source_projects_structured_rule_atoms() -> None:
+    atom = TechnicalAtom(
+        technical_atom_id="atom-1",
+        technical_atom_kind="rule",
+        payload=RulePayload(
+            "A combatant must roll a die.",
+            "required",
+            "src.pdf",
+            scope="A combatant",
+            effect="roll a die.",
+        ),
+        source_locator="src.pdf",
+        source_range_id="sr-1",
+        evidence_ids=("ev-1",),
+    )
+    profile = SourceProfile(
+        source_locator="src.pdf",
+        unit_count=100,
+        accepted_entry_count=100,
+        claim_count=60,
+        event_count=0,
+        concept_count=20,
+        relationship_count=0,
+        atom_kind_counts={"rule": 8},
+        feature_signal_means={},
+    )
+
+    assert atom_is_topic_projectable(atom, profile)
 
 
 def test_low_signal_only_sentence_is_not_a_rule_atom() -> None:
@@ -376,7 +527,7 @@ def test_universal_standard_renamed_domain_variants_behave_identically() -> None
     a = _build(spells, source_hash="a" * 16)
     b = _build(modules, source_hash="b" * 16)
 
-    def shape(result: LedgerBuildResult) -> tuple:
+    def shape(result: LedgerBuildResult) -> tuple[tuple[str, ...], ...]:
         kinds = tuple(e.ledger_entry_kind for e in result.ledger.entries)
         statuses = tuple(e.ledger_entry_status for e in result.ledger.entries)
         atoms = tuple(a.technical_atom_kind for a in result.ledger.technical_atoms)

@@ -1,11 +1,11 @@
 ---
 page_id: function
 page_kind: concept
-summary: Cross-source concept 'Function': 2 sources, 1 relation(s).
+summary: Cross-source concept 'Function': 2 sources, 0 relation(s).
 sources: raw/coding_learn_go_with_tests_excerpt.pdf, raw/coding_little_go_book.pdf
 updated: 2026-06-26
 category_path: concepts
-projection_coverage: cross-source-function@b6f94451696d03fd40e5626c61a88003
+projection_coverage: cross-source-function@0cce8a384df39a02aad617ed30856c70
 ---
 
 # Function
@@ -14,9 +14,5 @@ Cross-source concept: how 2 source(s) treat Function.
 
 ## Positions
 
-- We need to define our function. _([[coding-learn-go-with-tests-excerpt]] — coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00646))_
-- We've also introduced another built-in function len . _([[coding-little-go-book]] — coding_little_go_book.pdf (source-range-810ce361-00063))_
-
-## Cross-source relations
-
-- agrees-with: [[coding-little-go-book]] / [[coding-learn-go-with-tests-excerpt]]
+- In our function signature we have made a named return value (prefix string) . _([[coding-learn-go-with-tests-excerpt]] — coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00140))_
+- Many developers think that passing b to, or returning it from, a function is going to be more efficient. _([[coding-little-go-book]] — coding_little_go_book.pdf (source-range-773b6275-00268))_

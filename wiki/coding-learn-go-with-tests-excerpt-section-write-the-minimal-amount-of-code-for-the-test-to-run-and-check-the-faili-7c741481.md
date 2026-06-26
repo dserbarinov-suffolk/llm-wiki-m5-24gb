@@ -1,13 +1,13 @@
 ---
 page_id: coding-learn-go-with-tests-excerpt-section-write-the-minimal-amount-of-code-for-the-test-to-run-and-check-the-faili-7c741481
 page_kind: source
-summary: Write the minimal amount of code for the test to run and check the failing test output: 3 source-backed entries and 3 atom(s) from raw/coding_learn_go_with_tests_excerpt.pdf.
+summary: Write the minimal amount of code for the test to run and check the failing test output: 2 source-backed entries and 2 atom(s) from raw/coding_learn_go_with_tests_excerpt.pdf.
 sources: raw/coding_learn_go_with_tests_excerpt.pdf
 updated: 2026-06-26
 domain: coding-learn-go-with-tests-excerpt
 category_path: sources/coding-learn-go-with-tests-excerpt/sections
 source_id: coding_learn_go_with_tests_excerpt.pdf
-projection_coverage: section-coding-learn-go-with-tests-excerpt-section-write-the-minimal-amount-of-code-for-the-test-to-run-and-check-the-faili-7c741481@63498b83296fae9bcfe0d6425236aa5d
+projection_coverage: section-coding-learn-go-with-tests-excerpt-section-write-the-minimal-amount-of-code-for-the-test-to-run-and-check-the-faili-7c741481@2c04576126d13acefb7d68bad7c96281
 ---
 
 # Write the minimal amount of code for the test to run and check the failing test output
@@ -20,9 +20,6 @@ From [[coding-learn-go-with-tests-excerpt]].
 package main func Sum(numbers	[5]int)	int	{ return 0 }
 ```
 _(source: coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00292))_
-
-> Your test should now fail with a clear error message
-_(source: coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00293))_
 
 ```
 sum_test.go:13:	got	0	want	15	given,	[1	2	3	4	5]

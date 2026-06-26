@@ -1,12 +1,12 @@
 ---
 page_id: coding-little-go-book-array
 page_kind: concept
-summary: Arrays: 28 statement(s) and 3 atom(s) from raw/coding_little_go_book.pdf.
+summary: Arrays: 9 statement(s) and 3 atom(s) from raw/coding_little_go_book.pdf.
 sources: raw/coding_little_go_book.pdf
 updated: 2026-06-26
 domain: coding-little-go-book
 category_path: concepts
-projection_coverage: topic-coding-little-go-book-array@91efa29cb3ace3c54a1c490125b46fd3
+projection_coverage: topic-coding-little-go-book-array@c34a5090a655aa9fbd00c361b4af9fe1
 ---
 
 # Arrays
@@ -15,33 +15,43 @@ What [[coding-little-go-book]] covers about arrays:
 
 ## Statements
 
-- Arrays are efficient but rigid. _(coding_little_go_book.pdf (source-range-810ce361-00198))_
-- Strings and byte arrays are closely related. _(coding_little_go_book.pdf (source-range-810ce361-00378))_
-- We can use len to get the length of the array. _(coding_little_go_book.pdf (source-range-810ce361-00196))_
-- In Go, you rarely, if ever, use arrays directly. _(coding_little_go_book.pdf (source-range-810ce361-00200))_
-- In Go, like many other languages, arrays are fixed. _(coding_little_go_book.pdf (source-range-810ce361-00191))_
-- Slices as wrappers to arrays is a powerful concept. _(coding_little_go_book.pdf (source-range-810ce361-00230))_
-- Many languages have the concept of slicing an array. _(coding_little_go_book.pdf (source-range-810ce361-00230))_
-- Both JavaScript and Ruby arrays have a slice method. _(coding_little_go_book.pdf (source-range-810ce361-00230))_
-- Like make , this approach is specific to maps and arrays. _(coding_little_go_book.pdf (source-range-810ce361-00260))_
-- These are arrays that resize themselves as data is added to them. _(coding_little_go_book.pdf (source-range-810ce361-00191))_
-- We'll now have this same conversation with respect to array and map values. _(coding_little_go_book.pdf (source-range-810ce361-00266))_
-- You use this when you know the values that you want in the array ahead of time. _(coding_little_go_book.pdf (source-range-810ce361-00223))_
-- A slice is a lightweight structure that wraps and represents a portion of an array. _(coding_little_go_book.pdf (source-range-810ce361-00200))_
-- You might be thinking this doesn't actually solve the fixed-length issue of arrays. _(coding_little_go_book.pdf (source-range-810ce361-00213))_
+- In Go, like many other languages, arrays are fixed. _(coding_little_go_book.pdf (source-range-773b6275-00191))_
+- Declaring an array requires that we specify the size, and once the size is specified, it cannot grow: _(coding_little_go_book.pdf (source-range-773b6275-00191))_
+- These are arrays that resize themselves as data is added to them. _(coding_little_go_book.pdf (source-range-773b6275-00191))_
+- If you come from Python, Ruby, Perl, JavaScript or PHP (and more), you're probably used to programming with dynamic arrays . _(coding_little_go_book.pdf (source-range-773b6275-00191))_
+- The above array can hold up to 10 scores using indexes scores[0] through scores[9] . _(coding_little_go_book.pdf (source-range-773b6275-00193))_
+- Attempts to access an out of range index in the array will result in a compiler or runtime error. _(coding_little_go_book.pdf (source-range-773b6275-00193))_
+- We can use len to get the length of the array. _(coding_little_go_book.pdf (source-range-773b6275-00196))_
+- We often don't know the number of elements we'll be dealing with upfront. _(coding_little_go_book.pdf (source-range-773b6275-00198))_
+- Arrays are efficient but rigid. _(coding_little_go_book.pdf (source-range-773b6275-00198))_
 
 ## Technical atoms
 
-> Declaring an array requires that we specify the size, and once the size is specified, it cannot grow:
-_(source: coding_little_go_book.pdf (source-range-810ce361-00191))_
+> Context: If you come from Python, Ruby, Perl, JavaScript or PHP (and more), you're probably used to programming with dynamic arrays . These are arrays that resize themselves as data is added to them. In Go, like many other languages, arrays are fixed. Declaring an array requires that we specify the size, and once the size is specified, it cannot grow: The above array can hold up to 10 scores using indexes scores[0] through scores[9] . Attempts to access an out of range index in the array will result in a compiler or runtime error.
+_(context: coding_little_go_book.pdf (source-range-773b6275-00191, source-range-773b6275-00193))_
 
 ```
-c	:=	cap(scores) fmt.Println(c) for i	:=	0;	i	<	25;	i++	{ scores	=	append(scores,	i) //	if	our	capacity	has	changed, //	Go	had	to	grow	our	array	to	accommodate	the	new	data if cap(scores)	!=	c	{ c	=	cap(scores) fmt.Println(c) } } }
+var scores [10]int
+scores[0] = 339
 ```
-_(source: coding_little_go_book.pdf (source-range-810ce361-00216))_
+_(source: coding_little_go_book.pdf (source-range-773b6275-00192))_
 
-> The answer is [1, 2, 3, 4, 5] . That's because slice is a completely new array with copies of values. Now, consider the Go equivalent:
-_(source: coding_little_go_book.pdf (source-range-810ce361-00232))_
+> Context: We can initialize the array with values:
+_(context: coding_little_go_book.pdf (source-range-773b6275-00194))_
+
+```
+scores := [4]int{9001, 9333, 212, 33}
+```
+_(source: coding_little_go_book.pdf (source-range-773b6275-00195))_
+
+> Context: We can use len to get the length of the array. range can be used to iterate over it:
+_(context: coding_little_go_book.pdf (source-range-773b6275-00196))_
+
+```
+for index, value := range scores {
+}
+```
+_(source: coding_little_go_book.pdf (source-range-773b6275-00197))_
 
 
 ## Source

@@ -1,12 +1,12 @@
 ---
 page_id: rpg-dnd-srd-excerpt-check
 page_kind: concept
-summary: Check: 80 statement(s) and 1 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
+summary: Check: 18 statement(s) and 3 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
 sources: raw/rpg_dnd_srd_excerpt.pdf
 updated: 2026-06-26
 domain: rpg-dnd-srd-excerpt
 category_path: concepts
-projection_coverage: topic-rpg-dnd-srd-excerpt-check@47c69b13343df1405fc28c3d85d2b7c2
+projection_coverage: topic-rpg-dnd-srd-excerpt-check@11fc294ae6023dd2efa504686339aa9e
 ---
 
 # Check
@@ -15,25 +15,40 @@ What [[rpg-dnd-srd-excerpt]] covers about check:
 
 ## Statements
 
-- checks, as do the exploration rules. _(rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00111))_
-- The game refers to a passive check total as a score . _(rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00110))_
-- When you try to hide, make a Dexterity (Stealth) check. _(rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00167))_
-- A poisoned creature has disadvantage on attack rolls and ability checks. _(rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00579))_
-- To make an ability check, roll a d20 and add the relevant ability modifier. _(rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00095))_
-- To make a group ability check, everyone in the group makes the ability check. _(rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00117))_
-- Without proficiency in the skill, the individual makes a normal ability check. _(rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00105))_
-- If the character lacks that proficiency, he or she just makes a Strength check. _(rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00106))_
-- Both participants in a contest make ability checks appropriate to their efforts. _(rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00098))_
-- The bonus is used in the rules on ability checks, saving throws, and attack rolls. _(rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00085))_
-- A Constitution check can model your attempt to push beyond normal limits, however. _(rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00176))_
-- The wolf has advantage on Wisdom (Perception) checks that rely on hearing or smell. _(rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00659))_
 - A passive check is a special kind of ability check that doesn't involve any die rolls. _(rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00110))_
-- The charmer has advantage on any ability check to interact socially with the creature. _(rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00543))_
+- Here's how to determine a character's total for a passive check: 10 + all modifiers that normally apply to the check If the character has advantage on the check, add 5. _(rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00110))_
+- Constitution checks are uncommon, and no skills apply to Constitution checks, because the endurance this ability represents is largely passive rather than involving a specific effort on the part of a character or monster. _(rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00176))_
+- Using at least one free hand, you try to seize the target by making a grapple check instead of an attack roll: a Strength (Athletics) check contested by the target's Strength (Athletics) or Dexterity (Acrobatics) check (the target chooses the ability to use). _(rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00394))_
+- The GM calls for an ability check when a character or monster attempts an action (other than an attack) that has a chance of failure. _(rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00091))_
+- For every ability check, the GM decides which of the six abilities is relevant to the task at hand and the difficulty of the task, represented by a Difficulty Class. _(rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00092))_
+- If the total equals or exceeds the DC, the ability check is a success-the creature overcomes the challenge at hand. _(rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00095))_
+- For example, a Dexterity check might reflect a character's attempt to pull off an acrobatic stunt, to palm an object, or to stay hidden. _(rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00102))_
+- checks, as do the exploration rules. _(rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00111))_
+- Group checks don't come up very often, and they're most useful when all the characters succeed or fail as a group. _(rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00118))_
+- A Strength check can model any attempt to lift, push, pull, or break something, to force your body through a space, or to otherwise apply brute force to a situation. _(rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00124))_
+- A Dexterity check can model any attempt to move nimbly, quickly, or quietly, or to keep from falling on tricky footing. _(rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00147))_
+- A Constitution check can model your attempt to push beyond normal limits, however. _(rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00176))_
+- An Intelligence check comes into play when you need to draw on logic, education, memory, or deductive reasoning. _(rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00189))_
 
 ## Technical atoms
 
-> Occasionally, your proficiency bonus might be multiplied or divided (doubled or halved, for example) before you apply it. For example, the rogue's Expertise feature doubles the proficiency bonus for certain ability checks. If a circumstance suggests that your proficiency bonus applies more than once to the same roll, you still add it only once and multiply or divide it only once.
-_(source: rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00087))_
+> Context: Sometimes, the GM might ask for an ability check using a specific skill-for example, "Make a Wisdom (Perception) check." At other times, a player might ask the GM if proficiency in a particular skill applies to a check. In either case, proficiency in a skill means an individual can add his or her proficiency bonus to ability checks that involve that skill. Without proficiency in the skill, the individual makes a normal ability check.
+_(context: rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00105))_
+
+> If the character is proficient in Athletics, the character's proficiency bonus is added to the Strength check.
+_(source: rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00106))_
+
+> Context: The target of your grapple must be no more than one size larger than you and must be within your reach. Using at least one free hand, you try to seize the target by making a grapple check instead of an attack roll: a Strength (Athletics) check contested by the target's Strength (Athletics) or Dexterity (Acrobatics) check (the target chooses the ability to use). You succeed automatically if the target is incapacitated. If you succeed, you subject the target to the grappled condition (see appendix ##). The condition specifies the things that end it, and you can release the target whenever you like (no action required).
+_(context: rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00394))_
+
+> A grappled creature can use its action to escape.
+_(source: rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00395))_
+
+> Context: Escaping a Grapple . A grappled creature can use its action to escape. To do so, it must succeed on a Strength (Athletics) or Dexterity (Acrobatics) check contested by your Strength (Athletics) check.
+_(context: rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00395))_
+
+> When you move, you can drag or carry the grappled creature with you, but your speed is halved, unless the creature is two or more sizes smaller than you.
+_(source: rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00396))_
 
 
 ## Source

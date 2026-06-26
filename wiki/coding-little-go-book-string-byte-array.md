@@ -1,12 +1,12 @@
 ---
 page_id: coding-little-go-book-string-byte-array
 page_kind: concept
-summary: Strings and Byte Arrays: 36 statement(s) and 25 atom(s) from raw/coding_little_go_book.pdf.
+summary: Strings and Byte Arrays: 6 statement(s) and 5 atom(s) from raw/coding_little_go_book.pdf.
 sources: raw/coding_little_go_book.pdf
 updated: 2026-06-26
 domain: coding-little-go-book
 category_path: concepts
-projection_coverage: topic-coding-little-go-book-string-byte-array@9bc13f04588eec476a47c4bb0c6aff86
+projection_coverage: topic-coding-little-go-book-string-byte-array@a49cd61e9099295b55dbd395a897023e
 ---
 
 # Strings and Byte Arrays
@@ -15,48 +15,52 @@ What [[coding-little-go-book]] covers about strings and byte arrays:
 
 ## Statements
 
-- Arrays are efficient but rigid. _(coding_little_go_book.pdf (source-range-810ce361-00198))_
-- Strings and byte arrays are closely related. _(coding_little_go_book.pdf (source-range-810ce361-00378))_
-- We can use len to get the length of the array. _(coding_little_go_book.pdf (source-range-810ce361-00196))_
-- In Go, you rarely, if ever, use arrays directly. _(coding_little_go_book.pdf (source-range-810ce361-00200))_
-- This is necessary because strings are immutable. _(coding_little_go_book.pdf (source-range-810ce361-00382))_
-- In Go, like many other languages, arrays are fixed. _(coding_little_go_book.pdf (source-range-810ce361-00191))_
-- Slices as wrappers to arrays is a powerful concept. _(coding_little_go_book.pdf (source-range-810ce361-00230))_
-- Many languages have the concept of slicing an array. _(coding_little_go_book.pdf (source-range-810ce361-00230))_
-- Both JavaScript and Ruby arrays have a slice method. _(coding_little_go_book.pdf (source-range-810ce361-00230))_
-- Strings are made of runes which are unicode code points. _(coding_little_go_book.pdf (source-range-810ce361-00383))_
-- Like make , this approach is specific to maps and arrays. _(coding_little_go_book.pdf (source-range-810ce361-00260))_
-- Integers are assigned 0 , booleans false , strings "" and so on. _(coding_little_go_book.pdf (source-range-810ce361-00077))_
-- These are arrays that resize themselves as data is added to them. _(coding_little_go_book.pdf (source-range-810ce361-00191))_
-- If you take the length of a string, you might not get what you expect. _(coding_little_go_book.pdf (source-range-810ce361-00383))_
+- Strings and byte arrays are closely related. _(coding_little_go_book.pdf (source-range-773b6275-00378))_
+- In fact, this way of converting is common across various types as well. _(coding_little_go_book.pdf (source-range-773b6275-00380))_
+- Some functions explicitly expect an int32 or an int64 or their unsigned counterparts. _(coding_little_go_book.pdf (source-range-773b6275-00380))_
+- Still, when it comes to bytes and strings, it's probably something you'll end up doing often. _(coding_little_go_book.pdf (source-range-773b6275-00382))_
+- This is necessary because strings are immutable. _(coding_little_go_book.pdf (source-range-773b6275-00382))_
+- Strings are made of runes which are unicode code points. _(coding_little_go_book.pdf (source-range-773b6275-00383))_
 
 ## Technical atoms
 
-> Being statically typed means that variables must be of a specific type (int, string, bool, []byte, etc.).
-_(source: coding_little_go_book.pdf (source-range-810ce361-00037))_
-
-> Hopefully, the code that we just executed is understandable. We've created a function and printed out a string with the built-in println function. Did go run know what to execute because there was only a single choice? No. In Go, the entry point to a program has to be a function called main within a package main . We'll talk more about packages in a later chapter. For now, while we focus on understanding the basics of Go, we'll always write our code within the main package. If you want, you can alter the code and change the package name. Run the code via go run and you should get an error. Then, change the name back to main but use a different function name. You should see a different error message. Try making those same changes but use go build instead. Notice that the code compiles, there's just no entry point to run it. This is perfectly normal when you are, for example, building a library.
-_(source: coding_little_go_book.pdf (source-range-810ce361-00056))_
+> Context: Strings and byte arrays are closely related. We can easily convert one to the other:
+_(context: coding_little_go_book.pdf (source-range-773b6275-00378))_
 
 ```
-func log(message	string)	{ } func add(a	int,	b	int)	int	{ } func power(name	string)	(int,	bool)	{ }
+stra := "the spice must flow"
+byts := []byte(stra)
+strb := string(byts)
 ```
-_(source: coding_little_go_book.pdf (source-range-810ce361-00097))_
+_(source: coding_little_go_book.pdf (source-range-773b6275-00379))_
+
+> Context: In fact, this way of converting is common across various types as well. Some functions explicitly expect an int32 or an int64 or their unsigned counterparts. You might find yourself having to do things like: Still, when it comes to bytes and strings, it's probably something you'll end up doing often. Do note that when you use []byte(X) or string(X) , you're creating a copy of the data. This is necessary because strings are immutable.
+_(context: coding_little_go_book.pdf (source-range-773b6275-00380, source-range-773b6275-00382))_
 
 ```
-type Saiyan struct { Name	string Power	int }
+int64(count)
 ```
-_(source: coding_little_go_book.pdf (source-range-810ce361-00114))_
+_(source: coding_little_go_book.pdf (source-range-773b6275-00381))_
+
+> Context: Still, when it comes to bytes and strings, it's probably something you'll end up doing often. Do note that when you use []byte(X) or string(X) , you're creating a copy of the data. This is necessary because strings are immutable.
+_(context: coding_little_go_book.pdf (source-range-773b6275-00382))_
+
+> If you take the length of a string, you might not get what you expect.
+_(source: coding_little_go_book.pdf (source-range-773b6275-00383))_
+
+> Context: Strings are made of runes which are unicode code points. If you take the length of a string, you might not get what you expect. The following prints 3:
+_(context: coding_little_go_book.pdf (source-range-773b6275-00383))_
 
 ```
-type Saiyan struct { Name	string Power	int } func (s	*Saiyan)	Super()	{ s.Power	+=	10000 }
+fmt.Println(len("椒"))
 ```
-_(source: coding_little_go_book.pdf (source-range-810ce361-00141))_
+_(source: coding_little_go_book.pdf (source-range-773b6275-00384))_
 
-```
-func NewSaiyan(name	string,	power	int)	*Saiyan	{ return &Saiyan{ Name:	name, Power:	power, } }
-```
-_(source: coding_little_go_book.pdf (source-range-810ce361-00146))_
+> Context: Strings are made of runes which are unicode code points. If you take the length of a string, you might not get what you expect. The following prints 3:
+_(context: coding_little_go_book.pdf (source-range-773b6275-00383))_
+
+> If you iterate over a string using range , you'll get runes, not bytes.
+_(source: coding_little_go_book.pdf (source-range-773b6275-00385))_
 
 
 ## Source

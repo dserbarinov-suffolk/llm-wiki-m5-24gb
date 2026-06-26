@@ -1,13 +1,13 @@
 ---
 page_id: rpg-dnd-srd-excerpt
 page_kind: source
-summary: Claim-ledger projection (general-prose): 739 usable entries, 57 technical atoms, 151 needs-review, 165 linked page(s); write decision write-with-review-work.
+summary: Claim-ledger projection (general-prose): 729 usable entries, 117 technical atoms, 151 needs-review, 165 linked page(s); write decision write-with-review-work.
 sources: raw/rpg_dnd_srd_excerpt.pdf
 updated: 2026-06-26
 domain: rpg-dnd-srd-excerpt
 category_path: sources
 source_id: rpg_dnd_srd_excerpt.pdf
-projection_coverage: projection-coverage-befc6dc47d6e067b@2624197322b1dec8
+projection_coverage: projection-coverage-e6258c920705b4d1@b84704f845bc7d30
 ---
 
 # D&D SRD 5.1 (Excerpt)
@@ -61,40 +61,55 @@ _(source: rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00075))_
 ## Advantage and Disadvantage
 
 - Sometimes a special ability or spell tells you that you have advantage or disadvantage on an ability check, a saving throw, or an attack roll. _(rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00079))_
-- When that happens, you roll a second d20 when you make the roll. _(rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00079))_
 - For example, if you have disadvantage and roll a 17 and a 5, you use the 5. _(rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00079))_
 - If you instead have advantage and roll those numbers, you use the 17. _(rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00079))_
 - For example, if you have disadvantage and roll a 17 and a 5, you use the 5. _(rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00079))_
 - If two favorable situations grant advantage, for example, you still roll only one additional d20. _(rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00080))_
-- If multiple situations affect a roll and each one grants advantage or imposes disadvantage on it, you don't roll more than one additional d20. _(rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00080))_
 - If two favorable situations grant advantage, for example, you still roll only one additional d20. _(rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00080))_
-- If circumstances cause a roll to have both advantage and disadvantage, you are considered to have neither of them, and you roll one d20. _(rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00081))_
 - This is true even if multiple circumstances impose disadvantage and only one grants advantage or vice versa. _(rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00081))_
 - In such a situation, you have neither advantage nor disadvantage. _(rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00081))_
 - This is true even if multiple circumstances impose disadvantage and only one grants advantage or vice versa. _(rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00081))_
-- When you have advantage or disadvantage and something in the game, such as the halfling's Lucky trait, lets you reroll or replace the d20, you can reroll or replace only one of the dice. _(rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00082))_
 - For example, if a halfling has advantage or disadvantage on an ability check and rolls a 1 and a 13, the halfling could use the Lucky trait to reroll the 1. _(rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00082))_
-- When you have advantage or disadvantage and something in the game, such as the halfling's Lucky trait, lets you reroll or replace the d20, you can reroll or replace only one of the dice. _(rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00082))_
 - For example, if a halfling has advantage or disadvantage on an ability check and rolls a 1 and a 13, the halfling could use the Lucky trait to reroll the 1. _(rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00082))_
 - Inspiration can also give a character advantage. _(rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00083))_
 - You usually gain advantage or disadvantage through the use of special abilities, actions, or spells. _(rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00083))_
 - The GM can also decide that circumstances influence a roll in one direction or the other and grant advantage or impose disadvantage as a result. _(rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00083))_
+
+> When that happens, you roll a second d20 when you make the roll.
+_(source: rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00079))_
+
+> If multiple situations affect a roll and each one grants advantage or imposes disadvantage on it, you don't roll more than one additional d20.
+_(source: rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00080))_
+
+> If circumstances cause a roll to have both advantage and disadvantage, you are considered to have neither of them, and you roll one d20.
+_(source: rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00081))_
+
+> When you have advantage or disadvantage and something in the game, such as the halfling's Lucky trait, lets you reroll or replace the d20, you can reroll or replace only one of the dice.
+_(source: rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00082))_
 
 ## Proficiency Bonus
 
 - Monsters also have this bonus, which is incorporated in their stat blocks. _(rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00085))_
 - The bonus is used in the rules on ability checks, saving throws, and attack rolls. _(rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00085))_
 - Your proficiency bonus can't be added to a single die roll or other number more than once. _(rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00086))_
-- For example, if two different rules say you can add your proficiency bonus to a Wisdom saving throw, you nevertheless add the bonus only once when you make the save. _(rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00086))_
-- For example, if two different rules say you can add your proficiency bonus to a Wisdom saving throw, you nevertheless add the bonus only once when you make the save. _(rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00086))_
-- By the same token, if a feature or effect allows you to multiply your proficiency bonus when making an ability check that wouldn't normally benefit from your proficiency bonus, you still don't add the bonus to the check. _(rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00088))_
 - For instance, if you lack proficiency in the History skill, you gain no benefit from a feature that lets you double your proficiency bonus when you make Intelligence (History) checks. _(rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00088))_
 - For instance, if you lack proficiency in the History skill, you gain no benefit from a feature that lets you double your proficiency bonus when you make Intelligence (History) checks. _(rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00088))_
-- If a feature or effect allows you to do so, these same rules apply. _(rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00089))_
 - In general, you don't multiply your proficiency bonus for attack rolls or saving throws. _(rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00089))_
+
+> For example, if two different rules say you can add your proficiency bonus to a Wisdom saving throw, you nevertheless add the bonus only once when you make the save.
+_(source: rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00086))_
 
 > Occasionally, your proficiency bonus might be multiplied or divided (doubled or halved, for example) before you apply it. For example, the rogue's Expertise feature doubles the proficiency bonus for certain ability checks. If a circumstance suggests that your proficiency bonus applies more than once to the same roll, you still add it only once and multiply or divide it only once.
 _(source: rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00087))_
+
+> If a circumstance suggests that your proficiency bonus applies more than once to the same roll, you still add it only once and multiply or divide it only once.
+_(source: rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00087))_
+
+> By the same token, if a feature or effect allows you to multiply your proficiency bonus when making an ability check that wouldn't normally benefit from your proficiency bonus, you still don't add the bonus to the check.
+_(source: rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00088))_
+
+> If a feature or effect allows you to do so, these same rules apply.
+_(source: rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00089))_
 
 ## Ability Checks
 
@@ -137,49 +152,55 @@ _(source: rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00087))_
 - The skills related to each ability score are shown in the following list. _(rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00103))_
 - Without proficiency in the skill, the individual makes a normal ability check. _(rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00105))_
 - Sometimes, the GM might ask for an ability check using a specific skill-for example, "Make a Wisdom (Perception) check." At other times, a player might ask the GM if proficiency in a particular skill applies to a check. _(rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00105))_
-- In either case, proficiency in a skill means an individual can add his or her proficiency bonus to ability checks that involve that skill. _(rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00105))_
-- In either case, proficiency in a skill means an individual can add his or her proficiency bonus to ability checks that involve that skill. _(rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00105))_
 - Sometimes, the GM might ask for an ability check using a specific skill-for example, "Make a Wisdom (Perception) check." At other times, a player might ask the GM if proficiency in a particular skill applies to a check. _(rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00105))_
-- If the character is proficient in Athletics, the character's proficiency bonus is added to the Strength check. _(rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00106))_
 - If the character lacks that proficiency, he or she just makes a Strength check. _(rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00106))_
 - For example, if a character attempts to climb up a dangerous cliff, the GM might ask for a Strength (Athletics) check. _(rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00106))_
 - For example, if a character attempts to climb up a dangerous cliff, the GM might ask for a Strength (Athletics) check. _(rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00106))_
+
+> In either case, proficiency in a skill means an individual can add his or her proficiency bonus to ability checks that involve that skill.
+_(source: rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00105))_
+
+> If the character is proficient in Athletics, the character's proficiency bonus is added to the Strength check.
+_(source: rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00106))_
 
 ## Variant: Skills with Different Abilities
 
 - In some situations, though, your proficiency might reasonably apply to a different kind of check. _(rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00108))_
 - In this case, your GM might allow you to apply your proficiency in Athletics and ask for a Constitution (Athletics) check. _(rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00108))_
 - Similarly, when your half-orc barbarian uses a display of raw strength to intimidate an enemy, your GM might ask for a Strength (Intimidation) check, even though Intimidation is normally associated with Charisma. _(rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00108))_
-- For example, if you have to swim from an offshore island to the mainland, your GM might call for a Constitution check to see if you have the stamina to make it that far. _(rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00108))_
 - In such cases, the GM might ask for a check using an unusual combination of ability and skill, or you might ask your GM if you can apply a proficiency to a different check. _(rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00108))_
-- For example, if you have to swim from an offshore island to the mainland, your GM might call for a Constitution check to see if you have the stamina to make it that far. _(rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00108))_
 - Normally, your proficiency in a skill applies only to a specific kind of ability check. _(rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00108))_
 - Proficiency in Athletics, for example, usually applies to Strength checks. _(rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00108))_
+
+> For example, if you have to swim from an offshore island to the mainland, your GM might call for a Constitution check to see if you have the stamina to make it that far.
+_(source: rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00108))_
 
 ## Passive Checks
 
 - A passive check is a special kind of ability check that doesn't involve any die rolls. _(rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00110))_
 - Here's how to determine a character's total for a passive check: 10 + all modifiers that normally apply to the check If the character has advantage on the check, add 5. _(rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00110))_
 - For example, if a 1st-level character has a Wisdom of 15 and proficiency in Perception, he or she has a passive Wisdom (Perception) score of 14. _(rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00110))_
-- Such a check can represent the average result for a task done repeatedly, such as searching for secret doors over and over again, or can be used when the GM wants to secretly determine whether the characters succeed at something without rolling dice, such as noticing a hidden monster. _(rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00110))_
 - For example, if a 1st-level character has a Wisdom of 15 and proficiency in Perception, he or she has a passive Wisdom (Perception) score of 14. _(rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00110))_
 - The game refers to a passive check total as a score . _(rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00110))_
-- Such a check can represent the average result for a task done repeatedly, such as searching for secret doors over and over again, or can be used when the GM wants to secretly determine whether the characters succeed at something without rolling dice, such as noticing a hidden monster. _(rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00110))_
 - The game refers to a passive check total as a score . _(rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00110))_
 - checks, as do the exploration rules. _(rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00111))_
+
+> Such a check can represent the average result for a task done repeatedly, such as searching for secret doors over and over again, or can be used when the GM wants to secretly determine whether the characters succeed at something without rolling dice, such as noticing a hidden monster.
+_(source: rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00110))_
 
 ## Working Together
 
 - In combat, this requires the Help action. _(rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00113))_
 - The character who's leading the effort-or the one with the highest ability modifier-can make an ability check with advantage, reflecting the help provided by the other characters. _(rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00113))_
 - For example, trying to open a lock requires proficiency with thieves' tools, so a character who lacks that proficiency can't help another character in that task. _(rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00114))_
-- A character can only provide help if the task is one that he or she could attempt alone. _(rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00114))_
 - Some tasks, such as threading a needle, are no easier with help. _(rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00114))_
 - Moreover, a character can help only when two or more individuals working together would actually be productive. _(rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00114))_
-- A character can only provide help if the task is one that he or she could attempt alone. _(rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00114))_
 - For example, trying to open a lock requires proficiency with thieves' tools, so a character who lacks that proficiency can't help another character in that task. _(rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00114))_
 - Some tasks, such as threading a needle, are no easier with help. _(rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00114))_
 - Moreover, a character can help only when two or more individuals working together would actually be productive. _(rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00114))_
+
+> A character can only provide help if the task is one that he or she could attempt alone.
+_(source: rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00114))_
 
 ## Group Checks
 
@@ -237,19 +258,22 @@ _(source: rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00087))_
 ## Dexterity Checks
 
 - A Dexterity check can model any attempt to move nimbly, quickly, or quietly, or to keep from falling on tricky footing. _(rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00147))_
-- The GM might also call for a Dexterity (Acrobatics) check to see if you can perform acrobatic stunts, including dives, rolls, somersaults, and flips. _(rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00148))_
 - Your Dexterity (Acrobatics) check covers your attempt to stay on your feet in a tricky situation, such as when you're trying to run across a sheet of ice, balance on a tightrope, or stay upright on a rocking ship's deck. _(rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00148))_
 - Whenever you attempt an act of legerdemain or manual trickery, such as planting something on someone else or concealing an object on your person, make a Dexterity (Sleight of Hand) check. _(rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00149))_
 - The GM might also call for a Dexterity (Sleight of Hand) check to determine whether you can lift a coin purse off another person or slip something out of another person's pocket. _(rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00149))_
 - Whenever you attempt an act of legerdemain or manual trickery, such as planting something on someone else or concealing an object on your person, make a Dexterity (Sleight of Hand) check. _(rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00149))_
 - The GM might call for a Dexterity check when you try to accomplish tasks like the following: _(rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00151))_
 
+> The GM might also call for a Dexterity (Acrobatics) check to see if you can perform acrobatic stunts, including dives, rolls, somersaults, and flips.
+_(source: rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00148))_
+
 ## Attack Rolls and Damage
 
 - You add your Dexterity modifier to your attack roll and your damage roll when attacking with a ranged weapon, such as a sling or a longbow. _(rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00161))_
-- You can also add your Dexterity modifier to your attack roll and your damage roll when attacking with a melee weapon that has the finesse property, such as a dagger or a rapier. _(rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00161))_
-- You can also add your Dexterity modifier to your attack roll and your damage roll when attacking with a melee weapon that has the finesse property, such as a dagger or a rapier. _(rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00161))_
 - You add your Dexterity modifier to your attack roll and your damage roll when attacking with a ranged weapon, such as a sling or a longbow. _(rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00161))_
+
+> You can also add your Dexterity modifier to your attack roll and your damage roll when attacking with a melee weapon that has the finesse property, such as a dagger or a rapier.
+_(source: rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00161))_
 
 ## Armor Class
 
@@ -262,19 +286,22 @@ _(source: rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00087))_
 - Until you are discovered or you stop hiding, that check's total is contested by the Wisdom (Perception) check of any creature that actively searches for signs of your presence. _(rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00167))_
 - The GM decides when circumstances are appropriate for hiding. _(rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00167))_
 - When you try to hide, make a Dexterity (Stealth) check. _(rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00167))_
-- You can't hide from a creature that can see you clearly, and you give away your position if you make noise, such as shouting a warning or knocking over a vase. _(rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00168))_
-- You can't hide from a creature that can see you clearly, and you give away your position if you make noise, such as shouting a warning or knocking over a vase. _(rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00168))_
 - Signs of its passage might still be noticed, and it does have to stay quiet. _(rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00169))_
 - However, under certain circumstances, the GM might allow you to stay hidden as you approach a creature that is distracted, allowing you to gain advantage on an attack roll before you are seen. _(rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00170))_
 - However, under certain circumstances, the GM might allow you to stay hidden as you approach a creature that is distracted, allowing you to gain advantage on an attack roll before you are seen. _(rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00170))_
 - When you hide, there's a chance someone will notice you even if they aren't searching. _(rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00171))_
 - For example, if a 1st-level character (with a proficiency bonus of +2) has a Wisdom of 15 (a +2 modifier) and proficiency in Perception, he or she has a passive Wisdom (Perception) of 14. _(rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00171))_
-- If the creature has advantage, add 5. _(rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00171))_
 - For example, if a 1st-level character (with a proficiency bonus of +2) has a Wisdom of 15 (a +2 modifier) and proficiency in Perception, he or she has a passive Wisdom (Perception) of 14. _(rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00171))_
 - One of the main factors in determining whether you can find a hidden creature or object is how well you can see in an area, which might be lightly or heavily obscured , as explained in the "Adventuring" section. _(rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00172))_
 
+> You can't hide from a creature that can see you clearly, and you give away your position if you make noise, such as shouting a warning or knocking over a vase.
+_(source: rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00168))_
+
 > An invisible creature can always try to hide.
 _(source: rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00169))_
+
+> If the creature has advantage, add 5.
+_(source: rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00171))_
 
 ## Constitution
 
@@ -318,15 +345,18 @@ _(source: rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00185))_
 ## Wisdom Checks
 
 - A Wisdom check might reflect an effort to read body language, understand someone's feelings, notice things about the environment, or care for an injured person. _(rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00207))_
-- When there is any question whether you can calm down a domesticated animal, keep a mount from getting spooked, or intuit an animal's intentions, the GM might call for a Wisdom (Animal Handling) check. _(rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00208))_
 - You also make a Wisdom (Animal Handling) check to control your mount when you attempt a risky maneuver. _(rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00208))_
-- Your Wisdom (Insight) check decides whether you can determine the true intentions of a creature, such as when searching out a lie or predicting someone's next move. _(rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00209))_
-- Your Wisdom (Insight) check decides whether you can determine the true intentions of a creature, such as when searching out a lie or predicting someone's next move. _(rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00209))_
 - Or you might try to spot things that are obscured or easy to miss, whether they are orcs lying in ambush on a road, thugs hiding in the shadows of an alley, or candlelight under a closed secret door. _(rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00211))_
 - For example, you might try to hear a conversation through a closed door, eavesdrop under an open window, or hear monsters moving stealthily in the forest. _(rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00211))_
 - For example, you might try to hear a conversation through a closed door, eavesdrop under an open window, or hear monsters moving stealthily in the forest. _(rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00211))_
 - The GM might ask you to make a Wisdom (Survival) check to follow tracks, hunt wild game, guide your group through frozen wastelands, identify signs that owlbears live nearby, predict the weather, or avoid quicksand and other natural hazards. _(rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00212))_
 - The GM might call for a Wisdom check when you try to accomplish tasks like the following: _(rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00213))_
+
+> When there is any question whether you can calm down a domesticated animal, keep a mount from getting spooked, or intuit an animal's intentions, the GM might call for a Wisdom (Animal Handling) check.
+_(source: rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00208))_
+
+> Your Wisdom (Insight) check decides whether you can determine the true intentions of a creature, such as when searching out a lie or predicting someone's next move.
+_(source: rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00209))_
 
 ## Spellcasting Ability
 
@@ -371,9 +401,6 @@ _(source: rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00185))_
 - Usually, a successful save means that a creature suffers no harm, or reduced harm, from an effect. _(rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00237))_
 - Usually, a successful save means that a creature suffers no harm, or reduced harm, from an effect. _(rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00237))_
 
-> For example, the DC for a saving throw allowed by a spell is determined by the caster's spellcasting ability and proficiency bonus.
-_(source: rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00236))_
-
 ## ORDER OF COMBAT
 
 - Once everyone has taken a turn, the fight continues to the next round if neither side has defeated the other. _(rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00239))_
@@ -398,7 +425,9 @@ _(source: rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00236))_
 - The GM determines who might be surprised. _(rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00248))_
 - Any character or monster that doesn't notice a threat is surprised at the start of the encounter. _(rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00248))_
 - A member of a group can be surprised even if the other members aren't. _(rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00249))_
-- If you're surprised, you can't move or take an action on your first turn of the combat, and you can't take a reaction until that turn ends. _(rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00249))_
+
+> If you're surprised, you can't move or take an action on your first turn of the combat, and you can't take a reaction until that turn ends.
+_(source: rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00249))_
 
 ## Initiative
 
@@ -408,16 +437,20 @@ _(source: rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00236))_
 - Optionally, the GM can have the tied characters and monsters each roll a d20 to determine the order, highest roll going first. _(rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00251))_
 - This is the order (called the initiative order) in which they act during each round. _(rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00251))_
 - The GM makes one roll for an entire group of identical creatures, so each member of the group acts at the same time. _(rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00251))_
-- The GM can decide the order if the tie is between a monster and a player character. _(rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00251))_
+
+> The GM can decide the order if the tie is between a monster and a player character.
+_(source: rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00251))_
 
 ## Your Turn
 
 - The most common actions you can take are described in the "Actions in Combat" section later in this chapter. _(rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00253))_
 - The "Movement and Position" section later in this chapter gives the rules for your move. _(rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00253))_
-- On your turn, you can move a distance up to your speed and take one action . _(rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00253))_
 - You can forgo moving, taking an action, or doing anything at all on your turn. _(rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00253))_
 - Many class features and other abilities provide additional options for your action. _(rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00253))_
 - Your speed- sometimes called your walking speed-is noted on your character sheet. _(rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00253))_
+
+> On your turn, you can move a distance up to your speed and take one action .
+_(source: rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00253))_
 
 ## Bonus Actions
 
@@ -429,6 +462,7 @@ _(source: rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00256))_
 
 ## Other Activity on Your Turn
 
+- Some magic items and other special objects always require an action to use, as stated in their descriptions. _(rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00260))_
 - If you want to interact with a second object, you need to use your action. _(rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00260))_
 - For instance, the GM could reasonably expect you to use an action to open a stuck door or turn a crank to lower a drawbridge. _(rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00260))_
 - open a door during your move as you stride toward a foe, or you could draw your weapon as part of the same action you use to attack. _(rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00260))_
@@ -438,17 +472,16 @@ _(source: rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00256))_
 > Your turn can include a variety of flourishes that require neither your action nor your move. You can communicate however you are able, through brief utterances and gestures, as you take your turn. You can also interact with one object or feature of the environment for free, during either your move or your action. For example, you could
 _(source: rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00259))_
 
-> Some magic items and other special objects always require an action to use, as stated in their descriptions.
-_(source: rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00260))_
-
 ## Reactions
 
 - A reaction is an instant response to a trigger of some kind, which can occur on your turn or on someone else's. _(rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00262))_
-- When you take a reaction, you can't take another one until the start of your next turn. _(rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00262))_
 - The opportunity attack, described later in this chapter, is the most common type of reaction. _(rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00262))_
 - Certain special abilities, spells, and situations allow you to take a special action called a reaction. _(rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00262))_
 - creature can continue its turn right after the reaction. _(rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00263))_
 - creature can continue its turn right after the reaction. _(rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00263))_
+
+> When you take a reaction, you can't take another one until the start of your next turn.
+_(source: rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00262))_
 
 ## Movement and Position
 
@@ -464,18 +497,25 @@ _(source: rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00260))_
 > You can break up your movement on your turn, using some of your speed before and after your action. For example, if you have a speed of 30 feet, you can move 10 feet, take your action, and then move 20 feet.
 _(source: rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00268))_
 
+> For example, if you have a speed of 30 feet, you can move 10 feet, take your action, and then move 20 feet.
+_(source: rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00268))_
+
 ## Moving between Attacks
+
+> If you take an action that includes more than one weapon attack, you can break up your movement even further by moving between those attacks.
+_(source: rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00270))_
 
 > If you take an action that includes more than one weapon attack, you can break up your movement even further by moving between those attacks. For example, a fighter who can make two attacks with the Extra Attack feature and who has a speed of 25 feet could move 10 feet, make an attack, move 15 feet, and then attack again.
 _(source: rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00270))_
 
 ## Using Different Speeds
 
-- If you have more than one speed, such as your walking speed and a flying speed, you can switch back and forth between your speeds during your move. _(rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00272))_
 - Whenever you switch, subtract the distance you've already moved from the new speed. _(rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00272))_
 - If the result is 0 or less, you can't use the new speed during the current move. _(rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00272))_
 - The result determines how much farther you can move. _(rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00272))_
-- If you have more than one speed, such as your walking speed and a flying speed, you can switch back and forth between your speeds during your move. _(rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00272))_
+
+> If you have more than one speed, such as your walking speed and a flying speed, you can switch back and forth between your speeds during your move.
+_(source: rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00272))_
 
 > For example, if you have a speed of 30 and a flying speed of 60 because a wizard cast the fl y spell on you, you could fly 20 feet, then walk 10 feet, and then leap into the air to fly 30 feet more.
 _(source: rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00273))_
@@ -508,11 +548,13 @@ _(source: rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00282))_
 ## Moving Around Other Creatures
 
 - In contrast, you can move through a hostile creature's space only if the creature is at least two sizes larger or smaller than you. _(rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00307))_
-- You can move through a nonhostile creature's space. _(rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00307))_
 - Remember that another creature's space is difficult terrain for you. _(rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00307))_
 - In contrast, you can move through a hostile creature's space only if the creature is at least two sizes larger or smaller than you. _(rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00307))_
 - Whether a creature is a friend or an enemy, you can't willingly end your move in its space. _(rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00308))_
 - If you leave a hostile creature's reach during your move, you provoke an opportunity attack, as explained later in the chapter. _(rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00309))_
+
+> You can move through a nonhostile creature's space.
+_(source: rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00307))_
 
 ## Flying Movement
 
@@ -555,9 +597,11 @@ _(source: rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00320))_
 
 ## Actions in Combat
 
-- When you take your action on your turn, you can take one of the actions presented here, an action you gained from your class or a special feature, or an action that you improvise. _(rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00322))_
 - When you describe an action not detailed elsewhere in the rules, the GM tells you whether that action is possible and what kind of roll you _(rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00322))_
 - Many monsters have action options of their own in their stat blocks. _(rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00322))_
+
+> When you take your action on your turn, you can take one of the actions presented here, an action you gained from your class or a special feature, or an action that you improvise.
+_(source: rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00322))_
 
 ## Attack
 
@@ -577,34 +621,43 @@ _(source: rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00328))_
 
 ## Dash
 
-- 15 feet, for instance, you can move up to 30 feet this turn if you dash. _(rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00331))_
-- 15 feet, for instance, you can move up to 30 feet this turn if you dash. _(rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00331))_
+> When you take the Dash action, you gain extra movement for the current turn.
+_(source: rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00330))_
 
 > When you take the Dash action, you gain extra movement for the current turn. The increase equals your speed, after applying any modifiers. With a speed of 30 feet, for example, you can move up to 60 feet on your turn if you dash. Any increase or decrease to your speed changes this additional movement by the same amount. If your speed of 30 feet is reduced to
 _(source: rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00330))_
+
+> 15 feet, for instance, you can move up to 30 feet this turn if you dash.
+_(source: rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00331))_
 
 ## Disengage
 
 ## Dodge
 
 - You lose this benefit if you are incapacitated (as explained in appendix A) or if your speed drops to 0. _(rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00335))_
-- Until the start of your next turn, any attack roll made against you has disadvantage if you can see the attacker, and you make Dexterity saving throws with advantage. _(rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00335))_
+
+> Until the start of your next turn, any attack roll made against you has disadvantage if you can see the attacker, and you make Dexterity saving throws with advantage.
+_(source: rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00335))_
 
 ## Help
 
-- When you take the Help action, the creature you aid gains advantage on the next ability check it makes to perform the task you are helping with, provided that it makes the check before the start of your next turn. _(rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00337))_
 - You can lend your aid to another creature in the completion of a task. _(rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00337))_
-- When you take the Help action, the creature you aid gains advantage on the next ability check it makes to perform the task you are helping with, provided that it makes the check before the start of your next turn. _(rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00337))_
 - You feint, distract the target, or in some other way team up to make your ally's attack more effective. _(rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00338))_
 - Alternatively, you can aid a friendly creature in attacking a creature within 5 feet of you. _(rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00338))_
-- If your ally attacks the target before your next turn, the first attack roll is made with advantage. _(rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00338))_
 - Alternatively, you can aid a friendly creature in attacking a creature within 5 feet of you. _(rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00338))_
-- If your ally attacks the target before your next turn, the first attack roll is made with advantage. _(rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00338))_
+
+> When you take the Help action, the creature you aid gains advantage on the next ability check it makes to perform the task you are helping with, provided that it makes the check before the start of your next turn.
+_(source: rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00337))_
+
+> If your ally attacks the target before your next turn, the first attack roll is made with advantage.
+_(source: rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00338))_
 
 ## Hide
 
-- If you succeed, you gain certain benefits, as described in the "Unseen Attackers and Targets" section later in this chapter. _(rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00340))_
 - When you take the Hide action, you make a Dexterity (Stealth) check in an attempt to hide, following the rules for hiding. _(rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00340))_
+
+> If you succeed, you gain certain benefits, as described in the "Unseen Attackers and Targets" section later in this chapter.
+_(source: rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00340))_
 
 ## Ready
 
@@ -615,13 +668,11 @@ _(source: rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00330))_
 - Examples include "If the cultist steps on the trapdoor, I'll pull the lever that opens it," and "If the goblin steps next to me, I move away." _(rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00343))_
 - Then, you choose the action you will take in response to that trigger, or you choose to move up to your speed in response to it. _(rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00343))_
 - Then, you choose the action you will take in response to that trigger, or you choose to move up to your speed in response to it. _(rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00343))_
-- When the trigger occurs, you can either take your reaction right after the trigger finishes or ignore the trigger. _(rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00344))_
 - Remember that you can take only one reaction per round. _(rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00344))_
 - Remember that you can take only one reaction per round. _(rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00344))_
-- When the trigger occurs, you can either take your reaction right after the trigger finishes or ignore the trigger. _(rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00344))_
 
-> To be readied, a spell must have a casting time of 1 action, and holding onto the spell's magic requires concentration.
-_(source: rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00345))_
+> When the trigger occurs, you can either take your reaction right after the trigger finishes or ignore the trigger.
+_(source: rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00344))_
 
 > When you ready a spell, you cast it as normal but hold its energy, which you release with your reaction when the trigger occurs. To be readied, a spell must have a casting time of 1 action, and holding onto the spell's magic requires concentration. If your concentration is broken, the spell dissipates without taking effect. For example, if you are concentrating on the web spell and ready magic missile , your web spell ends, and if you take damage before you release magic missile with your reaction, your concentration might be broken.
 _(source: rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00345))_
@@ -633,8 +684,10 @@ _(source: rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00345))_
 ## Use an Object
 
 - This action is also useful when you want to interact with more than one object on your turn. _(rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00349))_
-- When an object requires your action for its use, you take the Use an Object action. _(rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00349))_
 - You normally interact with an object while doing something else, such as when you draw a sword as part of an attack. _(rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00349))_
+
+> When an object requires your action for its use, you take the Use an Object action.
+_(source: rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00349))_
 
 ## Making an Attack
 
@@ -642,30 +695,35 @@ _(source: rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00345))_
 - Pick a target within your attack's Range: a creature, an object, or a location. _(rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00352))_
 - In addition, spells, special abilities, and other effects can apply penalties or bonuses to your attack roll. _(rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00353))_
 - The GM determines whether the target has cover and whether you have advantage or disadvantage against the target. _(rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00353))_
+- On a hit, you roll damage, unless the particular attack has rules that specify otherwise. _(rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00354))_
 - You make the attack roll. _(rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00354))_
 - Some attacks cause special effects in addition to or instead of damage. _(rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00354))_
-- If there's ever any question whether something you're doing counts as an attack, the rule is simple: if you're making an attack roll, you're making an attack. _(rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00355))_
+- On a hit, you roll damage, unless the particular attack has rules that specify otherwise. _(rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00354))_
 
-> On a hit, you roll damage, unless the particular attack has rules that specify otherwise.
-_(source: rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00354))_
+> If there's ever any question whether something you're doing counts as an attack, the rule is simple: if you're making an attack roll, you're making an attack.
+_(source: rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00355))_
 
 ## Attack Rolls
 
 - The AC of a character is determined at character creation, whereas the AC of a monster is in its stat block. _(rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00357))_
 - If the total of the roll plus modifiers equals or exceeds the target's Armor Class (AC), the attack hits. _(rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00357))_
 - To make an attack roll, roll a d20 and add the appropriate modifiers. _(rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00357))_
-- When you make an attack, your attack roll determines whether the attack hits or misses. _(rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00357))_
 - The AC of a character is determined at character creation, whereas the AC of a monster is in its stat block. _(rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00357))_
+
+> When you make an attack, your attack roll determines whether the attack hits or misses.
+_(source: rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00357))_
 
 ## Modifiers to the Roll
 
-- When a character makes an attack roll, the two most common modifiers to the roll are an ability modifier and the character's proficiency bonus. _(rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00359))_
 - When a monster makes an attack roll, it uses whatever modifier is provided in its stat block. _(rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00359))_
 - The ability modifier used for a melee weapon attack is Strength, and the ability modifier used for a ranged weapon attack is Dexterity. _(rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00360))_
 - Weapons that have the finesse or thrown property break this rule. _(rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00360))_
 - The ability modifier used for a spell attack depends on the spellcasting ability of the spellcaster. _(rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00361))_
 - Some spells also require an attack roll. _(rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00361))_
 - You add your proficiency bonus to your attack roll when you attack using a weapon with which you have proficiency, as well as when you attack with a spell. _(rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00362))_
+
+> When a character makes an attack roll, the two most common modifiers to the roll are an ability modifier and the character's proficiency bonus.
+_(source: rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00359))_
 
 ## Rolling 1 or 20
 
@@ -678,11 +736,15 @@ _(source: rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00366))_
 
 ## Unseen Attackers and Targets
 
-- When you attack a target that you can't see, you have disadvantage on the attack roll. _(rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00369))_
 - If the target isn't in the location you targeted, you automatically miss, but the GM typically just says that the attack missed, not whether you guessed the target's location correctly. _(rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00369))_
 - This is true whether you're guessing the target's location or you're targeting a creature you can hear but not see. _(rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00369))_
 - If you are hidden-both unseen and unheard-when you make an attack, you give away your location when the attack hits or misses. _(rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00370))_
-- When a creature can't see you, you have advantage on attack rolls against it. _(rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00370))_
+
+> When you attack a target that you can't see, you have disadvantage on the attack roll.
+_(source: rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00369))_
+
+> When a creature can't see you, you have advantage on attack rolls against it.
+_(source: rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00370))_
 
 ## Ranged Attacks
 
@@ -713,12 +775,13 @@ _(source: rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00366))_
 - A melee attack typically uses a handheld weapon such as a sword, a warhammer, or an axe. _(rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00380))_
 - A melee attack typically uses a handheld weapon such as a sword, a warhammer, or an axe. _(rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00380))_
 - Used in hand-to-hand combat, a melee attack allows you to attack a foe within your reach. _(rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00380))_
-- Most creatures have a 5-foot reach and can thus attack targets within 5 feet of them when making a melee attack. _(rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00381))_
 - Certain creatures (typically those larger than Medium) have melee attacks with a greater reach than 5 feet, as noted in their descriptions. _(rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00381))_
-- Most creatures have a 5-foot reach and can thus attack targets within 5 feet of them when making a melee attack. _(rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00381))_
 - You are proficient with your unarmed strikes. _(rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00382))_
 - On a hit, an unarmed strike deals bludgeoning damage equal to 1 + your Strength modifier. _(rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00382))_
 - Instead of using a weapon to make a melee weapon attack, you can use an unarmed strike : a punch, kick, head-butt, or similar forceful blow (none of which count as weapons). _(rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00382))_
+
+> Most creatures have a 5-foot reach and can thus attack targets within 5 feet of them when making a melee attack.
+_(source: rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00381))_
 
 ## Contests in Combat
 
@@ -731,32 +794,39 @@ _(source: rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00366))_
 - In a fight, everyone is constantly watching for a chance to strike an enemy who is fleeing or passing by. _(rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00386))_
 - Such a strike is called an opportunity attack. _(rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00386))_
 - The attack occurs right before the creature leaves your reach. _(rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00387))_
-- You can make an opportunity attack when a hostile creature that you can see moves out of your reach. _(rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00387))_
 - To make the opportunity attack, you use your reaction to make one melee attack against the provoking creature. _(rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00387))_
 - The attack occurs right before the creature leaves your reach. _(rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00387))_
 - For example, you don't provoke an opportunity attack if an explosion hurls you out of a foe's reach or if gravity causes you to fall past an enemy. _(rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00388))_
 - For example, you don't provoke an opportunity attack if an explosion hurls you out of a foe's reach or if gravity causes you to fall past an enemy. _(rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00388))_
 
+> You can make an opportunity attack when a hostile creature that you can see moves out of your reach.
+_(source: rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00387))_
+
 ## Two-Weapon Fighting
 
 - You don't add your ability modifier to the damage of the bonus attack, unless that modifier is negative. _(rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00390))_
 - You don't add your ability modifier to the damage of the bonus attack, unless that modifier is negative. _(rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00390))_
-- If either weapon has the thrown property, you can throw the weapon, instead of making a melee attack with it. _(rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00391))_
 
 > When you take the Attack action and attack with a light melee weapon that you're holding in one hand, you can use a bonus action to attack with a different light melee weapon that you're holding in the other hand.
 _(source: rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00390))_
 
+> If either weapon has the thrown property, you can throw the weapon, instead of making a melee attack with it.
+_(source: rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00391))_
+
 ## Grappling
 
 - If you're able to make multiple attacks with the Attack action, this attack replaces one of them. _(rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00393))_
-- When you want to grab a creature or wrestle with it, you can use the Attack action to make a special melee attack, a grapple. _(rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00393))_
 - If you succeed, you subject the target to the grappled condition (see appendix ##). _(rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00394))_
-- The condition specifies the things that end it, and you can release the target whenever you like (no action required). _(rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00394))_
+- The target of your grapple must be no more than one size larger than you and must be within your reach. _(rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00394))_
 - Using at least one free hand, you try to seize the target by making a grapple check instead of an attack roll: a Strength (Athletics) check contested by the target's Strength (Athletics) or Dexterity (Acrobatics) check (the target chooses the ability to use). _(rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00394))_
 - You succeed automatically if the target is incapacitated. _(rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00394))_
+- The target of your grapple must be no more than one size larger than you and must be within your reach. _(rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00394))_
 - Moving a Grappled Creature . _(rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00396))_
 
-> The target of your grapple must be no more than one size larger than you and must be within your reach.
+> When you want to grab a creature or wrestle with it, you can use the Attack action to make a special melee attack, a grapple.
+_(source: rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00393))_
+
+> The condition specifies the things that end it, and you can release the target whenever you like (no action required).
 _(source: rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00394))_
 
 > A grappled creature can use its action to escape.
@@ -768,18 +838,18 @@ _(source: rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00396))_
 ## Shoving a Creature
 
 - If you're able to make multiple attacks with the Attack action, this attack replaces one of them. _(rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00398))_
-- Using the Attack action, you can make a special melee attack to shove a creature, either to knock it prone or push it away from you. _(rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00398))_
 - If you succeed, you either knock the target prone or push it 5 feet away from you. _(rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00399))_
+- The target must be no more than one size larger than you and must be within your reach. _(rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00399))_
 - You succeed automatically if the target is incapacitated. _(rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00399))_
 - Instead of making an attack roll, you make a Strength (Athletics) check contested by the target's Strength (Athletics) or Dexterity (Acrobatics) check (the target chooses the ability to use). _(rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00399))_
+- The target must be no more than one size larger than you and must be within your reach. _(rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00399))_
 
-> The target must be no more than one size larger than you and must be within your reach.
-_(source: rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00399))_
+> Using the Attack action, you can make a special melee attack to shove a creature, either to knock it prone or push it away from you.
+_(source: rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00398))_
 
 ## Cover
 
 - A target can benefit from cover only when an attack or other effect originates on the opposite side of the cover. _(rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00401))_
-- Walls, trees, creatures, and other obstacles can provide cover during combat, making a target more difficult to harm. _(rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00401))_
 - A target can benefit from cover only when an attack or other effect originates on the opposite side of the cover. _(rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00401))_
 - If a target is behind multiple sources of cover, only the most protective degree of cover applies; the degrees aren't added together. _(rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00402))_
 - There are three degrees of cover. _(rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00402))_
@@ -793,6 +863,9 @@ _(source: rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00399))_
 - The obstacle might be a portcullis, an arrow slit, or a thick tree trunk. _(rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00404))_
 - A target with total cover can't be targeted directly by an attack or a spell, although some spells can reach such a target by including it in an area of effect. _(rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00405))_
 
+> Walls, trees, creatures, and other obstacles can provide cover during combat, making a target more difficult to harm.
+_(source: rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00401))_
+
 ## Damage and Healing
 
 - Injury and the risk of death are constant companions of those who explore fantasy gaming worlds. _(rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00407))_
@@ -804,32 +877,39 @@ _(source: rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00399))_
 - Hit points represent a combination of physical and mental durability, the will to live, and luck. _(rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00409))_
 - Creatures with more hit points are more difficult to kill. _(rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00409))_
 - A creature's current hit points (usually just called hit points) can be any number from the creature's hit point maximum down to 0. _(rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00410))_
-- Whenever a creature takes damage, that damage is subtracted from its hit points. _(rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00411))_
 - The loss of hit points has no effect on a creature's capabilities until the creature drops to 0 hit points. _(rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00411))_
+
+> Whenever a creature takes damage, that damage is subtracted from its hit points.
+_(source: rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00411))_
 
 ## Damage Rolls
 
 - With a penalty, it is possible to deal 0 damage, but never negative damage. _(rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00413))_
+- Magic weapons, special abilities, and other factors can grant a bonus to damage. _(rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00413))_
 - You roll the damage die or dice, add any modifiers, and apply the damage to your target. _(rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00413))_
-- When attacking with a weapon , you add your ability modifier-the same modifier used for the attack roll-to the damage. _(rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00414))_
 - A spell tells you which dice to roll for damage and whether to add any modifiers. _(rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00414))_
-- If a spell or other effect deals damage to more than one target at the same time, roll the damage once for all of them. _(rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00415))_
 - For example, when a wizard casts fi reball or a cleric casts fl ame strike , the spell's damage is rolled once for all creatures caught in the blast. _(rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00415))_
 - For example, when a wizard casts fi reball or a cleric casts fl ame strike , the spell's damage is rolled once for all creatures caught in the blast. _(rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00415))_
 
-> Magic weapons, special abilities, and other factors can grant a bonus to damage.
-_(source: rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00413))_
+> When attacking with a weapon , you add your ability modifier-the same modifier used for the attack roll-to the damage.
+_(source: rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00414))_
+
+> If a spell or other effect deals damage to more than one target at the same time, roll the damage once for all of them.
+_(source: rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00415))_
 
 ## Critical Hits
 
 - To speed up play, you can roll all the damage dice at once. _(rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00417))_
-- When you score a critical hit, you get to roll extra dice for the attack's damage against the target. _(rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00417))_
 - Then add any relevant modifiers as normal. _(rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00417))_
 - Then add any relevant modifiers as normal. _(rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00417))_
 - If the attack involves other damage dice, such as from the rogue's Sneak Attack feature, you roll those dice twice as well. _(rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00418))_
-- For example, if you score a critical hit with a dagger, roll 2d4 for the damage, rather than 1d4, and then add your relevant ability modifier. _(rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00418))_
 - If the attack involves other damage dice, such as from the rogue's Sneak Attack feature, you roll those dice twice as well. _(rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00418))_
-- For example, if you score a critical hit with a dagger, roll 2d4 for the damage, rather than 1d4, and then add your relevant ability modifier. _(rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00418))_
+
+> When you score a critical hit, you get to roll extra dice for the attack's damage against the target.
+_(source: rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00417))_
+
+> For example, if you score a critical hit with a dagger, roll 2d4 for the damage, rather than 1d4, and then add your relevant ability modifier.
+_(source: rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00418))_
 
 ## Damage Types
 
@@ -845,27 +925,28 @@ _(source: rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00413))_
 - Some creatures and objects are exceedingly difficult or unusually easy to hurt with certain types of damage. _(rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00422))_
 - If a creature or an object has vulnerability to a damage type, damage of that type is doubled against it. _(rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00422))_
 - If a creature or an object has resistance to a damage type, damage of that type is halved against it. _(rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00422))_
-- For example, if a creature has resistance to fire damage as well as resistance to all nonmagical damage, the damage of a nonmagical fire is reduced by half against the creature, not reduced by three-quarters. _(rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00424))_
 - Multiple instances of resistance or vulnerability that affect the same damage type count as only one instance. _(rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00424))_
-- For example, if a creature has resistance to fire damage as well as resistance to all nonmagical damage, the damage of a nonmagical fire is reduced by half against the creature, not reduced by three-quarters. _(rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00424))_
 
 > Resistance and then vulnerability are applied after all other modifiers to damage. For example, a creature has resistance to bludgeoning damage and is hit by an attack that deals 25 bludgeoning damage. The creature is also within a magical aura that reduces all damage by 5. The 25 damage is first reduced by 5 and then halved, so the creature takes 10 damage.
 _(source: rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00423))_
+
+> For example, if a creature has resistance to fire damage as well as resistance to all nonmagical damage, the damage of a nonmagical fire is reduced by half against the creature, not reduced by three-quarters.
+_(source: rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00424))_
 
 ## Healing
 
 - Rest can restore a creature's hit points, and magical methods such as a cure wounds spell or a potion of healing can remove damage in an instant. _(rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00426))_
 - Even death is reversible through powerful magic. _(rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00426))_
 - Rest can restore a creature's hit points, and magical methods such as a cure wounds spell or a potion of healing can remove damage in an instant. _(rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00426))_
+- Unless it results in death, damage isn't permanent. _(rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00426))_
 - A creature's hit points can't exceed its hit point maximum, so any hit points regained in excess of this number are lost. _(rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00427))_
 - If the ranger has 14 current hit points and has a hit point maximum of 20, the ranger regains 6 hit points from the druid, not 8. _(rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00427))_
-- When a creature receives healing of any kind, hit points regained are added to its current hit points. _(rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00427))_
 - For example, a druid grants a ranger 8 hit points of healing. _(rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00427))_
 - A creature that has died can't regain hit points until magic such as the revivify spell has restored it to life. _(rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00428))_
 - A creature that has died can't regain hit points until magic such as the revivify spell has restored it to life. _(rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00428))_
 
-> Unless it results in death, damage isn't permanent.
-_(source: rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00426))_
+> When a creature receives healing of any kind, hit points regained are added to its current hit points.
+_(source: rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00427))_
 
 ## Dropping to 0 Hit Points
 
@@ -877,6 +958,9 @@ _(source: rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00426))_
 - Massive damage can kill you instantly. _(rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00432))_
 
 > For example, a cleric with a maximum of 12 hit points currently has 6 hit points. If she takes 18 damage from an attack, she is reduced to 0 hit points, but 12 damage remains. Because the remaining damage equals her hit point maximum, the cleric dies.
+_(source: rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00433))_
+
+> If she takes 18 damage from an attack, she is reduced to 0 hit points, but 12 damage remains.
 _(source: rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00433))_
 
 ## Falling Unconscious
@@ -907,6 +991,9 @@ _(source: rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00437))_
 - A stable creature doesn't make death saving throws, even though it has 0 hit points, but it does remain unconscious. _(rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00444))_
 - A stable creature that isn't healed regains 1 hit point after 1d4 hours. _(rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00444))_
 
+> If healing is unavailable, the creature can at least be stabilized so that it isn't killed by a failed death saving throw.
+_(source: rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00442))_
+
 > The creature stops being stable, and must start making death saving throws again, if it takes any damage.
 _(source: rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00444))_
 
@@ -918,18 +1005,21 @@ _(source: rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00444))_
 ## Knocking a Creature Out
 
 - The attacker can make this choice the instant the damage is dealt. _(rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00449))_
-- When an attacker reduces a creature to 0 hit points with a melee attack, the attacker can knock the creature out. _(rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00449))_
 - The creature falls unconscious and is stable. _(rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00449))_
+
+> When an attacker reduces a creature to 0 hit points with a melee attack, the attacker can knock the creature out.
+_(source: rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00449))_
 
 ## Temporary Hit Points
 
 - Temporary hit points aren't actual hit points; they are a buffer against damage, a pool of hit points that protect you from injury. _(rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00451))_
 - hit points are lost first, and any leftover damage carries over to your normal hit points. _(rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00452))_
-- For example, if you have 5 temporary hit points and take 7 damage, you lose the temporary hit points and then take 2 damage. _(rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00452))_
-- For example, if you have 5 temporary hit points and take 7 damage, you lose the temporary hit points and then take 2 damage. _(rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00452))_
 - they last until they're depleted or you finish a long rest. _(rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00454))_
 
-> Because temporary hit points are separate from your actual hit points, they can exceed your hit point maximum.
+> For example, if you have 5 temporary hit points and take 7 damage, you lose the temporary hit points and then take 2 damage.
+_(source: rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00452))_
+
+> If you have temporary hit points and receive more of them, you decide whether to keep the ones you have or to gain the new ones.
 _(source: rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00453))_
 
 > Because temporary hit points are separate from your actual hit points, they can exceed your hit point maximum. A character can, therefore, be at full hit points and receive temporary hit points. Healing can't restore temporary hit points, and they can't be added together. If you have temporary hit points and receive more of them, you decide whether to keep the ones you have or to gain the new ones. For example, if a spell grants you 12 temporary hit points when you already have 10, you can have 12 or 10, not 22. If you have 0 hit points, receiving temporary hit points doesn't restore you to consciousness or stabilize you. They can still absorb damage directed at you while you're in that state, but only true healing can save you. Unless a feature that grants you temporary hit points has a duration,
@@ -945,10 +1035,10 @@ _(source: rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00453))_
 
 - fall prone in a space within 5 feet it. _(rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00460))_
 
-> Once during your move, you can mount a creature that is within 5 feet of you or dismount. Doing so costs an amount of movement equal to half your speed. For example, if your speed is 30 feet, you must spend 15 feet of movement to mount a horse. Therefore, you can't mount it if you don't have 15 feet of movement left or if your speed is 0. If an effect moves your mount against its will while you're on it, you must succeed on a DC 10 Dexterity saving throw or fall off the mount, landing prone in a space within 5 feet of it. If you're knocked prone while mounted, you must make the same saving throw. If your mount is knocked prone, you can use your reaction to dismount it as it falls and land on your feet. Otherwise, you are dismounted and
+> For example, if your speed is 30 feet, you must spend 15 feet of movement to mount a horse.
 _(source: rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00459))_
 
-> Once during your move, you can mount a creature that is within 5 feet of you or dismount.
+> Once during your move, you can mount a creature that is within 5 feet of you or dismount. Doing so costs an amount of movement equal to half your speed. For example, if your speed is 30 feet, you must spend 15 feet of movement to mount a horse. Therefore, you can't mount it if you don't have 15 feet of movement left or if your speed is 0. If an effect moves your mount against its will while you're on it, you must succeed on a DC 10 Dexterity saving throw or fall off the mount, landing prone in a space within 5 feet of it. If you're knocked prone while mounted, you must make the same saving throw. If your mount is knocked prone, you can use your reaction to dismount it as it falls and land on your feet. Otherwise, you are dismounted and
 _(source: rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00459))_
 
 ## Controlling a Mount
@@ -957,28 +1047,25 @@ _(source: rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00459))_
 - The initiative of a controlled mount changes to match yours when you mount it. _(rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00462))_
 - While you're mounted, you have two options. _(rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00462))_
 - You can either control the mount or allow it to act independently. _(rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00462))_
-- You can control a mount only if it has been trained to accept a rider. _(rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00462))_
-- You can control a mount only if it has been trained to accept a rider. _(rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00462))_
 - Intelligent creatures, such as dragons, act independently. _(rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00462))_
 - It moves as you direct it, and it has only three action options: Dash, Disengage, and Dodge. _(rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00462))_
 - mount can move and act even on the turn that you mount it. _(rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00463))_
 - Bearing a rider puts no restrictions on the actions the mount can take, and it moves and acts as it wishes. _(rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00464))_
 - It might flee from combat, rush to attack and devour a badly injured foe, or otherwise act against your wishes. _(rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00464))_
-- In either case, if the mount provokes an opportunity attack while you're on it, the attacker can target you or the mount. _(rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00465))_
+
+> You can control a mount only if it has been trained to accept a rider.
+_(source: rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00462))_
+
+> In either case, if the mount provokes an opportunity attack while you're on it, the attacker can target you or the mount.
+_(source: rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00465))_
 
 ## Underwater Combat
 
+- When adventurers pursue sahuagin back to their undersea homes, fight off sharks in an ancient shipwreck, or find themselves in a flooded dungeon room, they must fight in a challenging environment. _(rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00467))_
+- When making a melee weapon attack , a creature that doesn't have a swimming speed (either natural or granted by magic) has disadvantage on the attack roll unless the weapon is a dagger, javelin, shortsword, spear, or trident. _(rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00468))_
+- When making a melee weapon attack , a creature that doesn't have a swimming speed (either natural or granted by magic) has disadvantage on the attack roll unless the weapon is a dagger, javelin, shortsword, spear, or trident. _(rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00468))_
 - A ranged weapon attack automatically misses a target beyond the weapon's normal range. _(rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00469))_
 - Creatures and objects that are fully immersed in water have resistance to fire damage. _(rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00470))_
-
-> When adventurers pursue sahuagin back to their undersea homes, fight off sharks in an ancient shipwreck, or find themselves in a flooded dungeon room, they must fight in a challenging environment.
-_(source: rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00467))_
-
-> When making a melee weapon attack , a creature that doesn't have a swimming speed (either natural or granted by magic) has disadvantage on the attack roll unless the weapon is a dagger, javelin, shortsword, spear, or trident.
-_(source: rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00468))_
-
-> Even against a target within normal range, the attack roll has disadvantage unless the weapon is a crossbow, a net, or a weapon that is thrown like a javelin (including a spear, trident, or dart).
-_(source: rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00469))_
 
 ## Armor
 
@@ -999,13 +1086,14 @@ _(source: rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00476))_
 
 ## Light Armor
 
-- If you wear light armor, you add your Dexterity modifier to the base number from your armor type to determine your Armor Class. _(rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00480))_
 - The rest of the armor is made of softer and more flexible materials. _(rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00480))_
 - leather is reinforced with close-set rivets or spikes. _(rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00481))_
 
+> If you wear light armor, you add your Dexterity modifier to the base number from your armor type to determine your Armor Class.
+_(source: rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00480))_
+
 ## Medium Armor
 
-- If you wear medium armor, you add your Dexterity modifier, to a maximum of +2, to the base number from your armor type to determine your Armor Class. _(rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00483))_
 - This crude armor consists of thick furs and pelts. _(rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00483))_
 - Made of interlocking metal rings, a chain shirt is worn between layers of clothing or leather. _(rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00483))_
 - It is commonly worn by barbarian tribes, evil humanoids, and other folk who lack access to the tools and materials needed to create better armor. _(rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00483))_
@@ -1015,6 +1103,9 @@ _(source: rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00476))_
 - This armor consists of a fitted metal chest piece worn with supple leather. _(rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00483))_
 - The suit includes gauntlets. _(rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00483))_
 - greaves that are attached with leather straps. _(rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00484))_
+
+> If you wear medium armor, you add your Dexterity modifier, to a maximum of +2, to the base number from your armor type to determine your Armor Class.
+_(source: rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00483))_
 
 ## Heavy Armor
 
@@ -1035,6 +1126,9 @@ _(source: rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00476))_
 - You benefit from the armor's AC only if you take the full time to don the suit of armor. _(rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00496))_
 - This is the time it takes to take off armor. _(rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00497))_
 
+> If you have help, reduce this time by half.
+_(source: rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00497))_
+
 ## Weapons
 
 - Your class grants proficiency in certain weapons, reflecting both the class's focus and the tools you are most likely to use. _(rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00500))_
@@ -1054,14 +1148,14 @@ _(source: rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00476))_
 - Your race, class, and feats can grant you proficiency with certain weapons or categories of weapons. _(rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00503))_
 - Most warriors use martial weapons because these weapons put their fighting style and training to best use. _(rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00503))_
 - Proficiency with a weapon allows you to add your proficiency bonus to the attack roll for any attack you make with that weapon. _(rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00504))_
-- If you make an attack roll using a weapon with which you lack proficiency, you do not add your proficiency bonus to the attack roll. _(rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00504))_
+
+> If you make an attack roll using a weapon with which you lack proficiency, you do not add your proficiency bonus to the attack roll.
+_(source: rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00504))_
 
 ## Weapon Properties
 
 - Many weapons have special properties related to their use, as shown in the Weapons table. _(rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00506))_
-- You can use a weapon that has the ammunition property to make a ranged attack only if you have ammunition to fire from the weapon. _(rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00507))_
 - Drawing the ammunition from a quiver, case, or other container is part of the attack (you need a free hand to load a one-handed weapon). _(rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00507))_
-- You can use a weapon that has the ammunition property to make a ranged attack only if you have ammunition to fire from the weapon. _(rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00507))_
 - If you use a weapon that has the ammunition property to make a melee attack, you treat the weapon as an improvised weapon (see "Improvised Weapons" later in the section). _(rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00508))_
 - When making an attack with a finesse weapon, you use your choice of your Strength or Dexterity modifier for the attack and damage rolls. _(rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00509))_
 - A heavy weapon's size and bulk make it too large for a Small creature to use effectively. _(rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00510))_
@@ -1070,17 +1164,18 @@ _(source: rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00476))_
 - A weapon that can be used to make a ranged attack has a range in parentheses after the ammunition or thrown property. _(rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00513))_
 - The first is the weapon's normal range in feet, and the second indicates the weapon's long range. _(rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00513))_
 - You can't attack a target beyond the weapon's long range. _(rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00513))_
-- When attacking a target beyond normal range, you have disadvantage on the attack roll. _(rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00513))_
 - A weapon that can be used to make a ranged attack has a range in parentheses after the ammunition or thrown property. _(rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00513))_
 - This weapon adds 5 feet to your reach when you attack with it, as well as when determining your reach for opportunity attacks with it. _(rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00514))_
 - A weapon with the special property has unusual rules governing its use, explained in the weapon's description (see "Special Weapons" later in this section). _(rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00515))_
 - If the weapon is a melee weapon, you use the same ability modifier for that attack roll and damage roll that you would use for a melee attack with the weapon. _(rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00516))_
-- If a weapon has the thrown property, you can throw the weapon to make a ranged attack. _(rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00516))_
 - For example, if you throw a handaxe, you use your Strength, but if you throw a dagger, you can use either your Strength or your Dexterity, since the dagger has the finesse property. _(rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00516))_
 - For example, if you throw a handaxe, you use your Strength, but if you throw a dagger, you can use either your Strength or your Dexterity, since the dagger has the finesse property. _(rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00516))_
 - This weapon requires two hands when you attack with it. _(rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00517))_
 - A damage value in parentheses appears with the property-the damage when the weapon is used with two hands to make a melee attack. _(rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00518))_
 - This weapon can be used with one or two hands. _(rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00518))_
+
+> You can use a weapon that has the ammunition property to make a ranged attack only if you have ammunition to fire from the weapon.
+_(source: rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00507))_
 
 > A sling must be loaded to deal any damage when used in this way.
 _(source: rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00508))_
@@ -1091,6 +1186,12 @@ _(source: rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00509))_
 > Because of the time required to load this weapon, you can fire only one piece of ammunition from it when you use an action, bonus action, or reaction to fire it, regardless of the number of attacks you can normally make.
 _(source: rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00512))_
 
+> When attacking a target beyond normal range, you have disadvantage on the attack roll.
+_(source: rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00513))_
+
+> If a weapon has the thrown property, you can throw the weapon to make a ranged attack.
+_(source: rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00516))_
+
 ## Improvised Weapons
 
 - Sometimes characters don't have their weapons and have to attack with whatever is at hand. _(rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00520))_
@@ -1098,6 +1199,9 @@ _(source: rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00512))_
 - An improvised weapon includes any object you can wield in one or two hands, such as broken glass, a table leg, a frying pan, a wagon wheel, or a dead goblin. _(rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00520))_
 - An improvised thrown weapon has a normal range of 20 feet and a long range of 60 feet. _(rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00522))_
 - If a character uses a ranged weapon to make a melee attack, or throws a melee weapon that does not have the thrown property, it also deals 1d4 damage. _(rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00522))_
+
+> At the GM's option, a character proficient with a weapon can use a similar object as if it were that weapon and use his or her proficiency bonus.
+_(source: rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00521))_
 
 ## Silvered Weapons
 
@@ -1115,8 +1219,9 @@ _(source: rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00512))_
 - A net has no effect on creatures that are formless, or creatures that are Huge or larger. _(rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00528))_
 - A creature can use its action to make a DC 10 Strength check, freeing itself or another creature within its reach on a success. _(rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00528))_
 - A creature can use its action to make a DC 10 Strength check, freeing itself or another creature within its reach on a success. _(rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00528))_
-- When you use an action, bonus action, or reaction to attack with a net, you can make only one attack regardless of the number of attacks you can normally make. _(rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00529))_
-- When you use an action, bonus action, or reaction to attack with a net, you can make only one attack regardless of the number of attacks you can normally make. _(rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00529))_
+
+> When you use an action, bonus action, or reaction to attack with a net, you can make only one attack regardless of the number of attacks you can normally make.
+_(source: rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00529))_
 
 ## Conditions
 
@@ -1148,10 +1253,12 @@ _(source: rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00512))_
 - Exhaustion is measured in six levels. _(rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00547))_
 - An effect can give a creature one or more levels of exhaustion, as specified in the effect's description. _(rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00547))_
 - Some special abilities and environmental hazards, such as starvation and the long-term effects of freezing or scorching temperatures, can lead to a special condition called exhaustion. _(rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00547))_
-- If an already exhausted creature suffers another effect that causes exhaustion, its current level of exhaustion increases by the amount specified in the effect's description. _(rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00549))_
 - For example, a creature suffering level 2 exhaustion has its speed halved and has disadvantage on ability checks. _(rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00550))_
 - For example, a creature suffering level 2 exhaustion has its speed halved and has disadvantage on ability checks. _(rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00550))_
 - An effect that removes exhaustion reduces its level as specified in the effect's description, with all exhaustion effects ending if a creature's exhaustion level is reduced below 1. _(rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00551))_
+
+> If an already exhausted creature suffers another effect that causes exhaustion, its current level of exhaustion increases by the amount specified in the effect's description.
+_(source: rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00549))_
 
 ## Frightened
 
@@ -1196,12 +1303,11 @@ _(source: rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00512))_
 
 ## Prone
 
+- - A prone creature's only movement option is to crawl, unless it stands up and thereby ends the condition. _(rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00581))_
+- - A prone creature's only movement option is to crawl, unless it stands up and thereby ends the condition. _(rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00581))_
 - - The creature has disadvantage on attack rolls. _(rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00582))_
 - - An attack roll against the creature has advantage if the attacker is within 5 feet of the creature. _(rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00583))_
 - - An attack roll against the creature has advantage if the attacker is within 5 feet of the creature. _(rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00583))_
-
-> - A prone creature's only movement option is to crawl, unless it stands up and thereby ends the condition.
-_(source: rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00581))_
 
 ## Restrained
 
@@ -1233,6 +1339,9 @@ _(source: rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00581))_
 ## Casting Time: 1 action
 
 - This spell has no effect on undead or constructs. _(rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00610))_
+
+> When you cast this spell using a spell slot of 2nd level or higher, the healing increases by 1d8 for each slot level above 1st.
+_(source: rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00610))_
 
 ## Fireball
 
@@ -1400,6 +1509,7 @@ _(source: rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00676))_
 - Red dragons breathe fire, and many spells conjure flames to deal fire damage. — _fragmentary: no subject/predicate region recovered_ _(rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00420))_
 - Different attacks, damaging spells, and other harmful effects deal different types of damage. — _fragmentary: no subject/predicate region recovered_ _(rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00420))_
 - Multiple instances of resistance or vulnerability that affect the same damage type count as only one instance. — _fragmentary: no subject/predicate region recovered_ _(rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00424))_
+- Unless it results in death, damage isn't permanent. — _fragmentary: no subject/predicate region recovered_ _(rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00426))_
 - For example, a druid grants a ranger 8 hit points of healing. — _fragmentary: no subject/predicate region recovered_ _(rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00427))_
 - If damage reduces you to 0 hit points and fails to kill you, you fall unconscious (see appendix ##). — _fragmentary: no subject/predicate region recovered_ _(rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00435))_
 - Otherwise, you fail. — _fragmentary: no subject/predicate region recovered_ _(rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00438))_
@@ -1430,7 +1540,6 @@ _(source: rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00676))_
 - You benefit from the armor's AC only if you take the full time to don the suit of armor. — _fragmentary: no subject/predicate region recovered_ _(rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00496))_
 - Each time you attack with the weapon, you expend one piece of ammunition. — _fragmentary: no subject/predicate region recovered_ _(rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00507))_
 - The range lists two numbers. — _fragmentary: no subject/predicate region recovered_ _(rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00513))_
-- Often, an improvised weapon is similar to an actual weapon and can be treated as such. For example, a table leg is akin to a club. At the GM's option, a character proficient with a weapon can use a similar object as if it were that weapon and use his or her proficiency bonus. — _unextracted: segment carries subject matter but no structured claim was recovered_ _(rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00521))_
 - An object that bears no resemblance to a weapon deals 1d4 damage (the GM assigns a damage type appropriate to the object). — _fragmentary: no subject/predicate region recovered_ _(rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00522))_
 - Dealing 5 slashing damage to the net (AC 10) also frees the creature without harming it, ending the effect and destroying the net. — _fragmentary: no subject/predicate region recovered_ _(rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00528))_
 - - charmer with harmful abilities or magical effects. — _fragmentary: no subject/predicate region recovered_ _(rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00542))_
@@ -1467,4 +1576,4 @@ Speed
 
 ### Disposition counts
 
-- non-claim: 175
+- non-claim: 176

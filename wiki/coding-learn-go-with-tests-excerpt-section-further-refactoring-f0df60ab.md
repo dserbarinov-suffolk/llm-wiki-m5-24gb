@@ -1,13 +1,13 @@
 ---
 page_id: coding-learn-go-with-tests-excerpt-section-further-refactoring-f0df60ab
 page_kind: source
-summary: Further refactoring: 14 source-backed entries and 1 atom(s) from raw/coding_learn_go_with_tests_excerpt.pdf.
+summary: Further refactoring: 14 source-backed entries and 2 atom(s) from raw/coding_learn_go_with_tests_excerpt.pdf.
 sources: raw/coding_learn_go_with_tests_excerpt.pdf
 updated: 2026-06-26
 domain: coding-learn-go-with-tests-excerpt
 category_path: sources/coding-learn-go-with-tests-excerpt/sections
 source_id: coding_learn_go_with_tests_excerpt.pdf
-projection_coverage: section-coding-learn-go-with-tests-excerpt-section-further-refactoring-f0df60ab@622cedbbfb56a891975fbca8696b1be3
+projection_coverage: section-coding-learn-go-with-tests-excerpt-section-further-refactoring-f0df60ab@6eda921b92493b08eb4acecb0c490a2f
 ---
 
 # Further refactoring
@@ -17,7 +17,6 @@ From [[coding-learn-go-with-tests-excerpt]].
 ## Statements
 
 - Now that you have some understanding of structs we can introduce "table driven tests". _(coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00495))_
-- Table driven tests are useful when you want to build a list of test cases that can be tested in the same manner. _(coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00496))_
 - The only new syntax here is creating an "anonymous struct", areaTests . _(coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00498))_
 - Then we fill the slice with cases. _(coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00498))_
 - The only new syntax here is creating an "anonymous struct", areaTests . _(coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00498))_
@@ -31,6 +30,9 @@ From [[coding-learn-go-with-tests-excerpt]].
 - Table driven tests can be a great item in your toolbox, but be sure that you have a need for the extra noise in the tests. _(coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00501))_
 
 ## Technical atoms
+
+> Table driven tests are useful when you want to build a list of test cases that can be tested in the same manner.
+_(source: coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00496))_
 
 ```
 func TestArea(t	*testing.T)	{ areaTests	:=	[] struct { shape	Shape want		float64 }{ {Rectangle{12,	6},	72.0}, {Circle{10},	314.1592653589793}, } for _,	tt	:= range areaTests	{ got	:=	tt.shape.Area() if got	!=	tt.want	{ t.Errorf("got	%g	want	%g",	got,	tt.want) } } }

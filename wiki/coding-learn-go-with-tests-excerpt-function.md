@@ -1,12 +1,12 @@
 ---
 page_id: coding-learn-go-with-tests-excerpt-function
 page_kind: concept
-summary: Function: 57 statement(s) and 9 atom(s) from raw/coding_learn_go_with_tests_excerpt.pdf.
+summary: Function: 7 statement(s) and 6 atom(s) from raw/coding_learn_go_with_tests_excerpt.pdf.
 sources: raw/coding_learn_go_with_tests_excerpt.pdf
 updated: 2026-06-26
 domain: coding-learn-go-with-tests-excerpt
 category_path: concepts
-projection_coverage: topic-coding-learn-go-with-tests-excerpt-function@5750080b4e6b23c7b1831ec3a9b5e9f3
+projection_coverage: topic-coding-learn-go-with-tests-excerpt-function@f2e7c6bb9d7eb3f4f67877719d1f06fc
 ---
 
 # Function
@@ -15,46 +15,63 @@ What [[coding-learn-go-with-tests-excerpt]] covers about function:
 
 ## Statements
 
-- We need to define our function. _(coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00646))_
-- This means this function returns a string . _(coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00021))_
-- We've refactored our assertion into a new function. _(coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00086))_
-- The testing.B gives you access to the loop function. _(coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00247))_
-- Go has a built-in function delete that works on maps. _(coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00687))_
-- The func keyword defines a function with a name and a body. _(coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00015))_
-- We have to change our function Hello to accept an argument. _(coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00052))_
+- In our function signature we have made a named return value (prefix string) . _(coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00140))_
 - Example functions are compiled whenever tests are executed. _(coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00199))_
-- This will create a variable called prefix in your function. _(coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00141))_
 - Note that this function expects the elements to be comparable. _(coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00348))_
-- Our next requirement is to write an Area function for circles. _(coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00435))_
+- Hiding variables and functions that don't need to be exported is an important design consideration. _(coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00391))_
 - The function can report that the word is not in the dictionary. _(coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00577))_
-- You could argue that maybe our function is getting a little big. _(coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00135))_
-- We can also use var to declare functions, as we'll see later on. _(coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00236))_
+- So when you pass a map to a function/method, you are indeed copying it, but just the pointer part, not the underlying data structure that contains the data. _(coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00608))_
+- This function looks almost identical to Add except we switched when we update the dictionary and when we return an error. _(coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00669))_
 
 ## Technical atoms
 
-```
-$	go	doc	fmt package	fmt	//	import	"fmt" Package	fmt	implements	formatted	I/O	with	functions	analogous	to	C's printf	and scanf.	The	format	'verbs'	are	derived	from	C's	but	are	simpler. #	Printing The	verbs: General: %v		the	value	in	a	default	format when	printing	structs,	the	plus	flag	(%+v)	adds	field	names %#v	a	Go-syntax	representation	of	the	value %T		a	Go-syntax	representation	of	the	type	of	the	value %%		a	literal	percent	sign;	consumes	no	value ...
-```
-_(source: coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00039))_
-
-> Write a test to now include a greeting in the language of your choice and you should see how simple it is to extend our amazing function.
-_(source: coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00133))_
-
-> It should generally be used when the meaning of the result isn't clear from context, in our case it's pretty much clear that Add function will add the parameters.
-_(source: coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00180))_
+> Context: Example functions begin with Example (much like test functions begin with Test ), and reside in a package's _test.go files. Add the following ExampleAdd function to the adder_test.go file. (If your editor doesn't automatically import packages for you, the compilation step will fail because you will be missing import "fmt" in adder_test.go . It is strongly recommended you research how to have these kind of errors fixed for you automatically in whatever editor you are using.)
+_(context: coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00200, source-range-559be4b1-00202))_
 
 ```
-Rename	the	function	to SumAllTails and	re-run	the	test sum_test.go:30:	got	[3	9]	want	[2	9]
+func ExampleAdd()	{ sum	:=	Add(1,	5) fmt.Println(sum) //	Output:	6 }
 ```
-_(source: coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00371))_
+_(source: coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00201))_
 
-> By defining this function inside the test, it cannot be used by other functions in this package.
-_(source: coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00391))_
+> Context: Running the package's test suite, we can see the example ExampleAdd function is executed with no further arrangement from us: Notice the special format of the comment, // Output: 6 . While the example will always be compiled, adding this comment means the example will also be executed. Go ahead and temporarily remove the comment // Output: 6 , then run go test , and you will see ExampleAdd is no longer executed.
+_(context: coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00204, source-range-559be4b1-00206))_
 
 ```
-Remember	to	run	your	tests	before	attempting	to	fix.	The	tests	should show	a	helpful	error	like ./shapes_test.go:7:18:	not	enough	arguments	in	call	to	Perimeter have	(Rectangle) want	(float64,	float64) You	can	access	the	fields	of	a	struct	with	the	syntax	of myStruct.field . Change	the	two	functions	to	fix	the	test. func TestPerimeter(t	*testing.T)	{ rectangle	:=	Rectangle{10.0,	10.0} got	:=	Perimeter(rectangle) want	:=	40.0 if got	!=	want	{ t.Errorf("got	%.2f	want	%.2f",	got,	want) } } func TestArea(t	*testing.T)	{ rectangle	:=	Rectangle{12.0,	6.0} got	:=	Area(rectangle) want	:=	72.0 if got	!=	want	{ t.Errorf("got	%.2f	want	%.2f",	got,	want) } } 2	*	(rectangle.Width	+	rectangle.Height)
+$	go	test	-v ===	RUN			TestAdder ---	PASS:	TestAdder ( 0.00s ) ===	RUN			ExampleAdd ---	PASS:	ExampleAdd ( 0.00s )
 ```
-_(source: coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00432))_
+_(source: coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00205))_
+
+> Context: From Go 1.21, slices standard package is available, which has slices.Equal function to do a simple shallow compare on slices, where you don't need to worry about the types like the above case. Note that this function expects the elements to be comparable. So, it can't be applied to slices with non-comparable elements like 2D slices.
+_(context: coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00348))_
+
+```
+./sum_test.go:26:9:	invalid	operation:	got	!=	want	(slice	can	only be	compared	to	nil)
+```
+_(source: coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00346))_
+
+> Context: Go does not let you use equality operators with slices. You could write a function to iterate over each got and want slice and check their values, but what if we had a more convenient way to do this? You should have test output like the following: sum_test.go:30: got [] want [3 9]
+_(context: coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00347, source-range-559be4b1-00351))_
+
+```
+func TestSumAll(t	*testing.T)	{ got	:=	SumAll([]int{1,	2},	[]int{0,	9}) want	:=	[]int{3,	9} if !slices.Equal(got,	want)	{ t.Errorf("got	%v	want	%v",	got,	want) } }
+```
+_(source: coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00350))_
+
+> Context: By defining this function inside the test, it cannot be used by other functions in this package. Hiding variables and functions that don't need to be exported is an important design consideration.
+_(context: coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00391))_
+
+```
+$	go	test ./sum_test.go:52:21:	cannot	use	"dave" ( type	string ) as	type	[]int in	argument	to	checkSums
+```
+_(source: coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00393))_
+
+> Context: We actually get nothing back. This is good because the program can continue to run, but there is a better approach. The function can report that the word is not in the dictionary. This way, the user isn't left wondering if the word doesn't exist or if there is just no definition (this might not seem very useful for a dictionary. However, it's a scenario that could be key in other usecases).
+_(context: coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00577))_
+
+```
+func TestSearch(t	*testing.T)	{ dictionary	:=	Dictionary{"test":	"this	is	just	a	test"} t.Run("known	word", func (t	*testing.T)	{ got,	_	:=	dictionary.Search("test") want	:=	"this	is	just	a	test" assertStrings(t,	got,	want) }) t.Run("unknown	word", func (t	*testing.T)	{ _,	err	:=	dictionary.Search("unknown") want	:=	"could	not	find	the	word	you	were	looking	for" if err	==	nil	{ t.Fatal("expected	to	get	an	error.") } assertStrings(t,	err.Error(),	want) }) }
+```
+_(source: coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00578))_
 
 
 ## Source

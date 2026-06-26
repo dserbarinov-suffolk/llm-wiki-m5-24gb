@@ -1,13 +1,13 @@
 ---
 page_id: rpg-cairn-2e-core-section-aiding-an-ally-3ccea8ce
 page_kind: source
-summary: Aiding an Ally: 11 source-backed entries and 1 atom(s) from raw/rpg_cairn_2e_core.pdf.
+summary: Aiding an Ally: 11 source-backed entries and 0 atom(s) from raw/rpg_cairn_2e_core.pdf.
 sources: raw/rpg_cairn_2e_core.pdf
 updated: 2026-06-26
 domain: rpg-cairn-2e-core
 category_path: sources/rpg-cairn-2e-core/sections
 source_id: rpg_cairn_2e_core.pdf
-projection_coverage: section-rpg-cairn-2e-core-section-aiding-an-ally-3ccea8ce@f66c948242010272ad8ac68d099c1b41
+projection_coverage: section-rpg-cairn-2e-core-section-aiding-an-ally-3ccea8ce@5361207fc741b9f6264a0562b02b1224
 ---
 
 # Aiding an Ally
@@ -25,9 +25,5 @@ From [[rpg-cairn-2e-core]].
 - Wolfram holds a lit torch, but the others have their hands free. _(rpg_cairn_2e_core.pdf (source-range-f6f3256b-00531))_
 - It looks like it's going to collapse from behind!" Wolfram : "If we run to the opposite side, does it look like we can make it safely?" Warden : "You and Lucius are the farthest ahead and likely the least at risk. _(rpg_cairn_2e_core.pdf (source-range-f6f3256b-00531))_
 - Wolfram has his hands full, so Lucius is your best bet. _(rpg_cairn_2e_core.pdf (source-range-f6f3256b-00531))_
+- My Order can reveal that which is hidden, and I feel something sinister lies ahead in the darkness. _(rpg_cairn_2e_core.pdf (source-range-f6f3256b-00531))_
 - As the party reaches the midway point, the ground begins to shudder violently, then blossoms with cracks. _(rpg_cairn_2e_core.pdf (source-range-f6f3256b-00531))_
-
-## Technical atoms
-
-> My Order can reveal that which is hidden, and I feel something sinister lies ahead in the darkness.
-_(source: rpg_cairn_2e_core.pdf (source-range-f6f3256b-00531))_

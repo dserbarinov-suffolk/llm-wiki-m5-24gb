@@ -1,13 +1,13 @@
 ---
 page_id: history-short-history-of-england-section-the-defeat-of-the-barbarians-8058ac6d
 page_kind: source
-summary: THE DEFEAT OF THE BARBARIANS: 133 source-backed entries and 9 atom(s) from raw/history_short_history_of_england.pdf.
+summary: THE DEFEAT OF THE BARBARIANS: 132 source-backed entries and 2 atom(s) from raw/history_short_history_of_england.pdf.
 sources: raw/history_short_history_of_england.pdf
 updated: 2026-06-26
 domain: history-short-history-of-england
 category_path: sources/history-short-history-of-england/sections
 source_id: history_short_history_of_england.pdf
-projection_coverage: section-history-short-history-of-england-section-the-defeat-of-the-barbarians-8058ac6d@1a6995e3cda48ed5838062c5c0852bd5
+projection_coverage: section-history-short-history-of-england-section-the-defeat-of-the-barbarians-8058ac6d@b7daa59246c5ec9d39ed43948c12fff2
 ---
 
 # THE DEFEAT OF THE BARBARIANS
@@ -27,14 +27,17 @@ From [[history-short-history-of-england]].
 - In any case, it is as well to record even so simple a conclusion as that what is prehistoric is unhistorical. _(history_short_history_of_england.pdf (source-range-e5a81de4-00081))_
 - There was the love of a valley or a village, a site or a family; there were enthusiasms for a prince and his hereditary office; there were passions rooted in locality, special emotions about seafolk or mountain-folk; there were historic memories of a cause or an alliance; there was, more than all, the tremendous test of religion. _(history_short_history_of_england.pdf (source-range-e5a81de4-00083))_
 - I know of no way in which fair-haired people can be prevented from falling in love with dark-haired people; and I do not believe that whether a man was long-headed or round-headed ever made much difference to any one who felt inclined to break his head. _(history_short_history_of_england.pdf (source-range-e5a81de4-00083))_
+- To all mortal appearance, in all mortal records and experience, people seem to have killed or spared, married or refrained from marriage, made kings or made slaves, with reference to almost any other consideration except this one. _(history_short_history_of_england.pdf (source-range-e5a81de4-00083))_
 - But of a cause like that of the Celts or Teutons, covering half the earth, there was little or nothing. _(history_short_history_of_england.pdf (source-range-e5a81de4-00083))_
 - Race was not only never at any given moment a motive, but it was never even an excuse. _(history_short_history_of_england.pdf (source-range-e5a81de4-00083))_
 - The Teutons never had a creed; they never had a cause; and it was only a few years ago that they began even to have a cant. _(history_short_history_of_england.pdf (source-range-e5a81de4-00083))_
+- To all mortal appearance, in all mortal records and experience, people seem to have killed or spared, married or refrained from marriage, made kings or made slaves, with reference to almost any other consideration except this one. _(history_short_history_of_england.pdf (source-range-e5a81de4-00083))_
 - The Teutons never had a creed; they never had a cause; and it was only a few years ago that they began even to have a cant. _(history_short_history_of_england.pdf (source-range-e5a81de4-00083))_
 - Race was not only never at any given moment a motive, but it was never even an excuse. _(history_short_history_of_england.pdf (source-range-e5a81de4-00083))_
 - The orthodox modern historian, notably Green, remarks on the singularity of Britain in being alone of all Roman provinces wholly cleared and repeopled by a Germanic race. _(history_short_history_of_england.pdf (source-range-e5a81de4-00084))_
 - In the same spirit he deals with the little that can be quoted of the Teutonic society. _(history_short_history_of_england.pdf (source-range-e5a81de4-00084))_
 - He expresses a "strange disappointment" that Gildas, the only British chronicler, does not describe the great Teutonic system. _(history_short_history_of_england.pdf (source-range-e5a81de4-00084))_
+- He does not entertain, as an escape from the singularity of this event, the possibility that it never happened. _(history_short_history_of_england.pdf (source-range-e5a81de4-00084))_
 - His ideal picture of it is completed in small touches which even an amateur can detect as dubious. _(history_short_history_of_england.pdf (source-range-e5a81de4-00084))_
 - The modern Teutonist is "disappointed" that the contemporary authority saw nothing in his Teutons except wolves, dogs, and whelps from the kennel of barbarism. _(history_short_history_of_england.pdf (source-range-e5a81de4-00084))_
 - But it is at least faintly tenable that there was nothing else to be seen. _(history_short_history_of_england.pdf (source-range-e5a81de4-00084))_
@@ -45,6 +48,7 @@ From [[history-short-history-of-england]].
 - He expresses a "strange disappointment" that Gildas, the only British chronicler, does not describe the great Teutonic system. _(history_short_history_of_england.pdf (source-range-e5a81de4-00084))_
 - Augustine came to the largely barbarized land, with what may be called the second of the three great southern visitations which civilized these islands, he did not see any ethnological problems, whatever there may have been to be seen. _(history_short_history_of_england.pdf (source-range-e5a81de4-00085))_
 - It is at least possible that, as on the Continent, the kings and courts were almost the only Teutonic element. _(history_short_history_of_england.pdf (source-range-e5a81de4-00088))_
+- But all history also attests that this is always found, apart from any difference in race, in the transition from the lowlands to the mountain country. _(history_short_history_of_england.pdf (source-range-e5a81de4-00088))_
 - With him or his converts the chain of literary testimony is taken up again; and we must look at the world as they saw it. _(history_short_history_of_england.pdf (source-range-e5a81de4-00088))_
 - The Christians found converts, they found patrons, they found persecutors; but they did not find Ancient Britons because they did not look for them; and if they moved among pure Anglo-Saxons they had not the gratification of knowing it. _(history_short_history_of_england.pdf (source-range-e5a81de4-00088))_
 - But of all the things they found the thing that counts most in English history is this: that some of the kingdoms at least did correspond to genuine human divisions, which not only existed then but which exist now. _(history_short_history_of_england.pdf (source-range-e5a81de4-00088))_
@@ -65,6 +69,7 @@ From [[history-short-history-of-england]].
 - It was the more individual because the religion was mere religion, without the secular conveniences. _(history_short_history_of_england.pdf (source-range-e5a81de4-00089))_
 - The western grew from whatever was left of the British Christianity. _(history_short_history_of_england.pdf (source-range-e5a81de4-00089))_
 - The eastern growth was, of course, the Augustinian mission, which had already made Canterbury the spiritual capital of the island. _(history_short_history_of_england.pdf (source-range-e5a81de4-00089))_
+- This must be remembered through the development of that dark dual destiny that has bound us to Ireland: for doubts have been thrown on a national unity which was not from the first a political unity. _(history_short_history_of_england.pdf (source-range-e5a81de4-00089))_
 - What that prince believed or disbelieved it is now impossible and perhaps unnecessary to discover; but this last stand of his central kingdom is not insignificant. _(history_short_history_of_england.pdf (source-range-e5a81de4-00089))_
 - The unbaptized king, Penda, has even achieved a certain picturesqueness through this fact, and through the forays and furious ambitions which constituted the rest of his reputation; so much so that the other day one of those mystics who will believe anything but Christianity proposed to "continue the work of Penda" in Ealing: fortunately not on any large scale. _(history_short_history_of_england.pdf (source-range-e5a81de4-00089))_
 - There irradiated to all Europe at that time the glory of the golden age of Ireland. _(history_short_history_of_england.pdf (source-range-e5a81de4-00089))_
@@ -133,6 +138,7 @@ From [[history-short-history-of-england]].
 - In all the facts that followed, the baptism of Guthrum is really much more important than the Treaty of Wedmore. _(history_short_history_of_england.pdf (source-range-e5a81de4-00102))_
 - The modern reader will smile at the baptism, and turn with greater interest to the terms of the treaty. _(history_short_history_of_england.pdf (source-range-e5a81de4-00102))_
 - His sudden assault was as successful as that at Ashdown, and it was followed by a siege which was successful in a different and very definite sense. _(history_short_history_of_england.pdf (source-range-e5a81de4-00102))_
+- He must support the tedium of frequent references to the religious element in this part of English history, for without it there would never have been any English history at all. _(history_short_history_of_england.pdf (source-range-e5a81de4-00102))_
 - Guthrum was baptized, and the Treaty of Wedmore secured the clearance of Wessex. _(history_short_history_of_england.pdf (source-range-e5a81de4-00102))_
 - In this acute attitude the modern reader will be vitally and hopelessly wrong. _(history_short_history_of_england.pdf (source-range-e5a81de4-00102))_
 - But though the Dane got the crown, he did not get rid of the cross. _(history_short_history_of_england.pdf (source-range-e5a81de4-00102))_
@@ -143,29 +149,8 @@ From [[history-short-history-of-england]].
 
 ## Technical atoms
 
-> But there is another way in which common sense can be brought to the criticism of some prodigious racial theories.
-_(source: history_short_history_of_england.pdf (source-range-e5a81de4-00082))_
-
 > But there is another way in which common sense can be brought to the criticism of some prodigious racial theories. To employ the same figure, suppose the scientific historians explain the historic centuries in terms of a prehistoric division between short-sighted and long-sighted men. They could cite their instances and illustrations. They would certainly explain the curiosity of language I mentioned first, as showing that the short-sighted were the conquered race, and their name therefore a term of contempt. They could give us very graphic pictures of the rude tribal war. They could show how the long-sighted people were always cut to pieces in hand-to-hand struggles with axe and knife; until, with the invention of bows and arrows, the advantage veered to the long-sighted, and their enemies were shot down in droves. I could easily write a ruthless romance about it, and still more easily a ruthless anthropological theory. According to that thesis which refers all moral to material changes, they could explain the tradition that old people grow conservative in politics by the well-known fact that old people grow more long-sighted. But I think there might be one thing about this theory which would stump us, and might even, if it be possible, stump them. Suppose it were pointed out that through all the three thousand years of recorded history, abounding in literature of every conceivable kind, there was not so much as a mention of the oculist question for which all had been dared and done. Suppose not one of the living or dead languages of mankind had so much as a word for "long-sighted" or "short-sighted." Suppose, in short, the question that had torn the whole world in two was never even asked at all, until some spectacle-maker suggested it somewhere about 1750. In that case I think we should find it hard to believe that this physical difference had really played so fundamental a part in human history. And that is exactly the case with the physical difference between the Celts, the Teutons and the Latins. [Pg 31] [Pg 32]
 _(source: history_short_history_of_england.pdf (source-range-e5a81de4-00082))_
 
-> To all mortal appearance, in all mortal records and experience, people seem to have killed or spared, married or refrained from marriage, made kings or made slaves, with reference to almost any other consideration except this one.
-_(source: history_short_history_of_england.pdf (source-range-e5a81de4-00083))_
-
-> He does not entertain, as an escape from the singularity of this event, the possibility that it never happened.
-_(source: history_short_history_of_england.pdf (source-range-e5a81de4-00084))_
-
-> But all history also attests that this is always found, apart from any difference in race, in the transition from the lowlands to the mountain country.
-_(source: history_short_history_of_england.pdf (source-range-e5a81de4-00088))_
-
-> This must be remembered through the development of that dark dual destiny that has bound us to Ireland: for doubts have been thrown on a national unity which was not from the first a political unity.
-_(source: history_short_history_of_england.pdf (source-range-e5a81de4-00089))_
-
 > The politics are a nightmare; the kings are unstable and the kingdoms shifting; and we are really never on solid ground except on consecrated ground.
 _(source: history_short_history_of_england.pdf (source-range-e5a81de4-00090))_
-
-> All this time, it must be remembered, the actual central mechanism of Roman government had been running down like a clock.
-_(source: history_short_history_of_england.pdf (source-range-e5a81de4-00096))_
-
-> He must support the tedium of frequent references to the religious element in this part of English history, for without it there would never have been any English history at all.
-_(source: history_short_history_of_england.pdf (source-range-e5a81de4-00102))_

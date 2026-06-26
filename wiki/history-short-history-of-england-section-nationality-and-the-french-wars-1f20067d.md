@@ -1,13 +1,13 @@
 ---
 page_id: history-short-history-of-england-section-nationality-and-the-french-wars-1f20067d
 page_kind: source
-summary: NATIONALITY AND THE FRENCH WARS: 145 source-backed entries and 6 atom(s) from raw/history_short_history_of_england.pdf.
+summary: NATIONALITY AND THE FRENCH WARS: 146 source-backed entries and 0 atom(s) from raw/history_short_history_of_england.pdf.
 sources: raw/history_short_history_of_england.pdf
 updated: 2026-06-26
 domain: history-short-history-of-england
 category_path: sources/history-short-history-of-england/sections
 source_id: history_short_history_of_england.pdf
-projection_coverage: section-history-short-history-of-england-section-nationality-and-the-french-wars-1f20067d@9b06a99d2c19194822e21ea83d8a4847
+projection_coverage: section-history-short-history-of-england-section-nationality-and-the-french-wars-1f20067d@917b6bcf9fa1e9a50442b96f70adf403
 ---
 
 # NATIONALITY AND THE FRENCH WARS
@@ -35,6 +35,7 @@ From [[history-short-history-of-england]].
 - What followed was a conquest and a conversion; all the end of the Dark Ages and the dawn of mediævalism is full of the evangelizing of barbarism. _(history_short_history_of_england.pdf (source-range-e5a81de4-00225))_
 - There was, indeed, much more than this involved. _(history_short_history_of_england.pdf (source-range-e5a81de4-00225))_
 - To see what the kings came to mean we must glance back at the great background, as of darkness and daybreak, against which the first figures of our history have already appeared. _(history_short_history_of_england.pdf (source-range-e5a81de4-00225))_
+- A flippant person, if he permitted himself a profane confusion with vaccination, might almost be inclined to suggest that for some reason it didn't "take" even then. _(history_short_history_of_england.pdf (source-range-e5a81de4-00225))_
 - But it was not till the end of the Middle Ages, and close on the Reformation, that the people of Prussia, the wild land lying beyond Germany, were baptized at all. _(history_short_history_of_england.pdf (source-range-e5a81de4-00225))_
 - And it is the paradox of the Crusades that though the Saracen was superficially more civilized than the Christian, it was a sound instinct which saw him also to be in spirit a destroyer. _(history_short_history_of_england.pdf (source-range-e5a81de4-00225))_
 - While it lasted Christendom was not only one nation but more like one city-and a besieged city. _(history_short_history_of_england.pdf (source-range-e5a81de4-00225))_
@@ -42,6 +43,7 @@ From [[history-short-history-of-england]].
 - While the internal structure of mediævalism was thus parochial and largely popular, in the greater affairs, and especially the external affairs, such as peace and war, most (though by no means all) of what was mediæval was monarchical. _(history_short_history_of_england.pdf (source-range-e5a81de4-00225))_
 - While it lasted Christendom was not only one nation but more like one city-and a besieged city. _(history_short_history_of_england.pdf (source-range-e5a81de4-00225))_
 - While the internal structure of mediævalism was thus parochial and largely popular, in the greater affairs, and especially the external affairs, such as peace and war, most (though by no means all) of what was mediæval was monarchical. _(history_short_history_of_england.pdf (source-range-e5a81de4-00225))_
+- A flippant person, if he permitted himself a profane confusion with vaccination, might almost be inclined to suggest that for some reason it didn't "take" even then. _(history_short_history_of_england.pdf (source-range-e5a81de4-00225))_
 - Royalties found they were representatives almost without knowing it; and many a king insisting on a genealogical tree or a title-deed found he spoke for the forests and the songs of a whole country-side. _(history_short_history_of_england.pdf (source-range-e5a81de4-00226))_
 - In England especially the transition is typified in the accident which raised to the throne one of the noblest men of the Middle Ages. _(history_short_history_of_england.pdf (source-range-e5a81de4-00226))_
 - The barbarian peril was thus brought under bit by bit, and even in the case of Islam the alien power which could not be crushed was evidently curbed. _(history_short_history_of_england.pdf (source-range-e5a81de4-00226))_
@@ -54,6 +56,7 @@ From [[history-short-history-of-england]].
 - He proceeded, like Simon de Montfort, and more solidly, to develop the great mediæval institution of a parliament. _(history_short_history_of_england.pdf (source-range-e5a81de4-00231))_
 - It is pretty certain that he was never more truly a representative king, one might say a republican king, than in the fact that he expelled the Jews. _(history_short_history_of_england.pdf (source-range-e5a81de4-00231))_
 - But in the beginning it was an instrument of the most equitable kings, and notably an instrument of Edward I. _(history_short_history_of_england.pdf (source-range-e5a81de4-00231))_
+- He often quarrelled with his parliaments and may sometimes have displeased his people (which has never been at all the same thing), but on the whole he was supremely the representative sovereign. _(history_short_history_of_england.pdf (source-range-e5a81de4-00231))_
 - The problem is so much misunderstood and mixed with notions of a stupid spite against a gifted and historic race as such, that we must pause for a paragraph upon it. _(history_short_history_of_england.pdf (source-range-e5a81de4-00231))_
 - He had taken the Cross and fought the Saracens; he had been the only worthy foe of Simon de Montfort in those baronial wars which, as we have seen, were the first sign (however faint) of a serious theory that England should be ruled by its barons rather than its kings. _(history_short_history_of_england.pdf (source-range-e5a81de4-00231))_
 - Indeed its rise was one with the rise of what we now call taxation; and there is thus a thread of theory leading to its latter claims to have the sole right of taxing. _(history_short_history_of_england.pdf (source-range-e5a81de4-00231))_
@@ -105,6 +108,7 @@ From [[history-short-history-of-england]].
 - It is embodied in rude and spirited ballads before the great Elizabethans. _(history_short_history_of_england.pdf (source-range-e5a81de4-00238))_
 - For the tradition of the whole adventure was not that of Henry, but of the populace who turned Henry into Harry. _(history_short_history_of_england.pdf (source-range-e5a81de4-00238))_
 - There were a thousand Harries in the army at Agincourt, and not one. _(history_short_history_of_england.pdf (source-range-e5a81de4-00238))_
+- That coincidence or course of events, which must often be remarked in this story, by which (for whatever reason) our most powerful kings did not somehow leave their power secure, showed itself in the next reign, when the baronial quarrels were resumed and the northern kingdom, under Bruce, cut itself finally free by the stroke of Bannockburn. _(history_short_history_of_england.pdf (source-range-e5a81de4-00238))_
 - Otherwise the reign is a mere interlude, and it is with the succeeding one that we find the new national tendency yet further developed. _(history_short_history_of_england.pdf (source-range-e5a81de4-00238))_
 - The latter did not indeed occur until after an interval of internal revolutions in England, which will be considered on a later page; but as regards the growth of nationalism, the French wars were continuous. _(history_short_history_of_england.pdf (source-range-e5a81de4-00238))_
 - The English arms owed much of their force to the class of the free yeomen; and the success of the infantry, especially of the archery, largely stood for that popular element which had already unhorsed the high French chivalry at Courtrai. _(history_short_history_of_england.pdf (source-range-e5a81de4-00238))_
@@ -123,6 +127,7 @@ From [[history-short-history-of-england]].
 - It may be this apparent miracle that has apparently made Nationalism eternal. _(history_short_history_of_england.pdf (source-range-e5a81de4-00242))_
 - It is hard to give a definition of loyalty, but perhaps we come near it if we call it the thing which operates where an obligation is felt to be unlimited. _(history_short_history_of_england.pdf (source-range-e5a81de4-00242))_
 - But even if this great and strange development be not enduring, the point is that it is felt as enduring. _(history_short_history_of_england.pdf (source-range-e5a81de4-00242))_
+- Certainly something of this kind can be seen in the conception which turned marriage from a contract into a sacrament. _(history_short_history_of_england.pdf (source-range-e5a81de4-00242))_
 - But whatever the cause, it is certain that even for the most secular types of our own time their relation to their native land has become not contractual but sacramental. _(history_short_history_of_england.pdf (source-range-e5a81de4-00242))_
 - If the same sound is heard a thousand years hence, there is no sign in the world to suggest to any rational man that humanity will not do exactly the same thing. _(history_short_history_of_england.pdf (source-range-e5a81de4-00242))_
 - It may be that each of its ideas was, as it were, mixed with immortality. _(history_short_history_of_england.pdf (source-range-e5a81de4-00242))_
@@ -138,6 +143,7 @@ From [[history-short-history-of-england]].
 - And the fact that she fought for a defeated country, and, even though it was victorious, was herself ultimately defeated, defines that darker element of devotion of which I spoke above, which makes even pessimism consistent with patriotism. _(history_short_history_of_england.pdf (source-range-e5a81de4-00243))_
 - But the fact that she saw something above her that was other than the sky, the fact that she lived the life of a saint and died the death of a martyr, probably stamped the new national sentiment with a sacred seal. _(history_short_history_of_england.pdf (source-range-e5a81de4-00243))_
 - It is needless to tell here again the tale of that earthquake episode in which a clearance in the earth and sky, above the confusion and abasement of the crowns, showed the commanding figure of a woman of the people. _(history_short_history_of_england.pdf (source-range-e5a81de4-00243))_
+- No one candidly comparing us with other countries can say we have specially failed to build the sepulchres of the prophets we stoned, or even the prophets who stoned us. _(history_short_history_of_england.pdf (source-range-e5a81de4-00244))_
 - The English historical tradition has at least a loose largemindedness which always finally falls into the praise not only of great foreigners but great foes. _(history_short_history_of_england.pdf (source-range-e5a81de4-00244))_
 - Moreover, her romance was a reality, the reality of nationalism; and she knew much more about the Scottish patriots ages before her time than Thackeray did about the Irish patriots immediately under his nose. _(history_short_history_of_england.pdf (source-range-e5a81de4-00244))_
 - The cases of Wallace and Washington and many others are here only mentioned, however, to suggest an eccentric magnanimity which surely balances some of our prejudices. _(history_short_history_of_england.pdf (source-range-e5a81de4-00244))_
@@ -154,24 +160,5 @@ From [[history-short-history-of-england]].
 - Moreover, her romance was a reality, the reality of nationalism; and she knew much more about the Scottish patriots ages before her time than Thackeray did about the Irish patriots immediately under his nose. _(history_short_history_of_england.pdf (source-range-e5a81de4-00244))_
 - We have seen a great English critic write a book about this heroine, in opposition to a great French critic, solely in order to blame him for not having praised her enough. _(history_short_history_of_england.pdf (source-range-e5a81de4-00248))_
 - And I do not believe there lives an Englishman now, who if he had the offer of being an Englishman then, would not discard his chance of riding as the crowned conqueror at the head of all the spears of Agincourt, if he could be that English common soldier of whom tradition tells that he broke his spear asunder to bind it into a cross for Joan of Arc. _(history_short_history_of_england.pdf (source-range-e5a81de4-00248))_
+- Scottish raider and a vigorous Virginian slave-holder, it may at least show that we are not likely to fail in our final appreciation of the one white figure in the motley processions of war. _(history_short_history_of_england.pdf (source-range-e5a81de4-00248))_
 - And I do not believe there lives an Englishman now, who if he had the offer of being an Englishman then, would not discard his chance of riding as the crowned conqueror at the head of all the spears of Agincourt, if he could be that English common soldier of whom tradition tells that he broke his spear asunder to bind it into a cross for Joan of Arc. _(history_short_history_of_england.pdf (source-range-e5a81de4-00248))_
-
-## Technical atoms
-
-> A flippant person, if he permitted himself a profane confusion with vaccination, might almost be inclined to suggest that for some reason it didn't "take" even then.
-_(source: history_short_history_of_england.pdf (source-range-e5a81de4-00225))_
-
-> He often quarrelled with his parliaments and may sometimes have displeased his people (which has never been at all the same thing), but on the whole he was supremely the representative sovereign.
-_(source: history_short_history_of_england.pdf (source-range-e5a81de4-00231))_
-
-> That coincidence or course of events, which must often be remarked in this story, by which (for whatever reason) our most powerful kings did not somehow leave their power secure, showed itself in the next reign, when the baronial quarrels were resumed and the northern kingdom, under Bruce, cut itself finally free by the stroke of Bannockburn.
-_(source: history_short_history_of_england.pdf (source-range-e5a81de4-00238))_
-
-> Certainly something of this kind can be seen in the conception which turned marriage from a contract into a sacrament.
-_(source: history_short_history_of_england.pdf (source-range-e5a81de4-00242))_
-
-> No one candidly comparing us with other countries can say we have specially failed to build the sepulchres of the prophets we stoned, or even the prophets who stoned us.
-_(source: history_short_history_of_england.pdf (source-range-e5a81de4-00244))_
-
-> Scottish raider and a vigorous Virginian slave-holder, it may at least show that we are not likely to fail in our final appreciation of the one white figure in the motley processions of war.
-_(source: history_short_history_of_england.pdf (source-range-e5a81de4-00248))_

@@ -1,11 +1,11 @@
 ---
 page_id: code
 page_kind: concept
-summary: Cross-source concept 'Code': 2 sources, 1 relation(s).
+summary: Cross-source concept 'Code': 2 sources, 0 relation(s).
 sources: raw/coding_learn_go_with_tests_excerpt.pdf, raw/coding_little_go_book.pdf
 updated: 2026-06-26
 category_path: concepts
-projection_coverage: cross-source-code@da031fb0d4b578dab59e04221ab837a5
+projection_coverage: cross-source-code@7f3ff554143b5e1382ff43903f7bfdaf
 ---
 
 # Code
@@ -14,9 +14,5 @@ Cross-source concept: how 2 source(s) treat Code.
 
 ## Positions
 
-- of the code you will write. _([[coding-learn-go-with-tests-excerpt]] — coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00033))_
-- For me, that means typing cd ~/code . _([[coding-little-go-book]] — coding_little_go_book.pdf (source-range-810ce361-00052))_
-
-## Cross-source relations
-
-- agrees-with: [[coding-learn-go-with-tests-excerpt]] / [[coding-little-go-book]]
+- Adding this code will cause the example to appear in your documentation, making your code even more accessible. _([[coding-learn-go-with-tests-excerpt]] — coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00203))_
+- Code that runs in a goroutine can run concurrently with other code. _([[coding-little-go-book]] — coding_little_go_book.pdf (source-range-773b6275-00399))_

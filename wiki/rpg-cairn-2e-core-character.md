@@ -1,12 +1,12 @@
 ---
 page_id: rpg-cairn-2e-core-character
 page_kind: concept
-summary: Character: 58 statement(s) and 27 atom(s) from raw/rpg_cairn_2e_core.pdf.
+summary: Character: 37 statement(s) and 2 atom(s) from raw/rpg_cairn_2e_core.pdf.
 sources: raw/rpg_cairn_2e_core.pdf
 updated: 2026-06-26
 domain: rpg-cairn-2e-core
 category_path: concepts
-projection_coverage: topic-rpg-cairn-2e-core-character@4852b9a45eed8835b474f77cc5970b89
+projection_coverage: topic-rpg-cairn-2e-core-character@45ea2afa52ce3f0739a20fb8f3906df9
 ---
 
 # Character
@@ -15,40 +15,34 @@ What [[rpg-cairn-2e-core]] covers about character:
 
 ## Statements
 
-- Characters typically need to sleep each day. _(rpg_cairn_2e_core.pdf (source-range-f6f3256b-00335))_
-- Finally, roll for your character's Age (2d20+10). _(rpg_cairn_2e_core.pdf (source-range-f6f3256b-00099))_
-- The characters then declare their intended actions. _(rpg_cairn_2e_core.pdf (source-range-f6f3256b-00579))_
-- Each character has a torch, but only Wolfram has one lit. _(rpg_cairn_2e_core.pdf (source-range-f6f3256b-00567))_
-- Roll for your Characters Attributes and Hit Protection . _(rpg_cairn_2e_core.pdf (source-range-f6f3256b-00097))_
-- A character can spend a turn resting to restore all HP . _(rpg_cairn_2e_core.pdf (source-range-f6f3256b-00279))_
-- Player characters are not required to resolve their Bonds. _(rpg_cairn_2e_core.pdf (source-range-f6f3256b-00625))_
-- Encourage character engagement with the implied setting. _(rpg_cairn_2e_core.pdf (source-range-f6f3256b-00628))_
-- If you are the youngest character, roll on the Omens table. _(rpg_cairn_2e_core.pdf (source-range-f6f3256b-00099))_
-- Attributes and related saves do not define your character. _(rpg_cairn_2e_core.pdf (source-range-f6f3256b-00026))_
-- Each character can choose one Wilderness Action per watch . _(rpg_cairn_2e_core.pdf (source-range-f6f3256b-00302))_
-- Give a character an item (often petty ) or a unique ability. _(rpg_cairn_2e_core.pdf (source-range-f6f3256b-00627))_
-- Bandages can stabilize a character that has taken critical damage. _(rpg_cairn_2e_core.pdf (source-range-f6f3256b-00173))_
-- Provide a character with a quest, opportunity, or plan of action. _(rpg_cairn_2e_core.pdf (source-range-f6f3256b-00630))_
+- Complete DEX and WIL loss renders the character unable to act until they are restored through extended rest or by extraordinary means. _(rpg_cairn_2e_core.pdf (source-range-f6f3256b-00220))_
+- If two characters need to take an action together, whoever is most at risk should save (usually the character with the lowest relevant Attribute). _(rpg_cairn_2e_core.pdf (source-range-f6f3256b-00171))_
+- Characters may be powerful, but they are also vulnerable to harm in its many forms. _(rpg_cairn_2e_core.pdf (source-range-f6f3256b-00013))_
+- Don't ask only what your character would do; ask what you would do, too. _(rpg_cairn_2e_core.pdf (source-range-f6f3256b-00027))_
+- Player Characters have just three Attributes: ( Strength (STR) , Dexterity (DEX) , and Willpower (WIL) ). _(rpg_cairn_2e_core.pdf (source-range-f6f3256b-00101))_
+- A character with a low STR is not necessarily hopelessly weak; they can still attempt to lift a heavy door or survive a deadly fight! _(rpg_cairn_2e_core.pdf (source-range-f6f3256b-00103))_
+- Characters have a total of ten inventory slots but can only carry four or five items comfortably without the help of bags, backpacks, horses, carts, etc. _(rpg_cairn_2e_core.pdf (source-range-f6f3256b-00108))_
+- A character cannot fill more than ten slots. _(rpg_cairn_2e_core.pdf (source-range-f6f3256b-00111))_
+- Characters roll a d20 and compare the results to the appropriate attribute. _(rpg_cairn_2e_core.pdf (source-range-f6f3256b-00169))_
+- If a character is forced to add Fatigue to their inventory but they have no free slots, they must drop an item from their inventory. _(rpg_cairn_2e_core.pdf (source-range-f6f3256b-00180))_
+- On their turn , a character can move a distance equal to their torchlight's perimeter (about 40ft), and perform one action . _(rpg_cairn_2e_core.pdf (source-range-f6f3256b-00256))_
+- The players then declare their character's intended movements and actions . _(rpg_cairn_2e_core.pdf (source-range-f6f3256b-00260))_
+- The Warden resolves the actions of each character simultaneously, along with any actions that are already in progress. _(rpg_cairn_2e_core.pdf (source-range-f6f3256b-00261))_
+- A character can spend a turn performing an exhaustive search of one object or location in an area, revealing any relevant hidden treasure, traps, secret doors, etc. _(rpg_cairn_2e_core.pdf (source-range-f6f3256b-00275))_
 
 ## Technical atoms
 
-> - Roll 3d6 for each of your character's Attributes , in order. You may then swap any two of the results.
-_(source: rpg_cairn_2e_core.pdf (source-range-f6f3256b-00102))_
+> Context: The Warden describes the party's surroundings and any immediate dangers (combat, traps, surprises, etc.). The players then declare their character's intended movements and actions .
+_(context: rpg_cairn_2e_core.pdf (source-range-f6f3256b-00260))_
 
-> A character cannot fill more than ten slots.
-_(source: rpg_cairn_2e_core.pdf (source-range-f6f3256b-00111))_
+> Remember, the Die of Fate can be a useful tool whenever the Warden is in doubt!
+_(source: rpg_cairn_2e_core.pdf (source-range-f6f3256b-00261))_
 
-> - If two characters need to take an action together, whoever is most at risk should save (usually the character with the lowest relevant Attribute).
-_(source: rpg_cairn_2e_core.pdf (source-range-f6f3256b-00171))_
+> Context: The Warden describes the party's surroundings and any immediate dangers (combat, traps, surprises, etc.). The players then declare their character's intended movements and actions .
+_(context: rpg_cairn_2e_core.pdf (source-range-f6f3256b-00260))_
 
-> - If a character is forced to add Fatigue to their inventory but they have no free slots, they must drop an item from their inventory.
-_(source: rpg_cairn_2e_core.pdf (source-range-f6f3256b-00180))_
-
-> On their turn, a character may move up to 40ft and take up to one action.
-_(source: rpg_cairn_2e_core.pdf (source-range-f6f3256b-00204))_
-
-> - When a character dies, the player should create a new character or take control of a hireling.
-_(source: rpg_cairn_2e_core.pdf (source-range-f6f3256b-00222))_
+> If appropriate, the Warden should roll on the Dungeon Events table.
+_(source: rpg_cairn_2e_core.pdf (source-range-f6f3256b-00262))_
 
 
 ## Source

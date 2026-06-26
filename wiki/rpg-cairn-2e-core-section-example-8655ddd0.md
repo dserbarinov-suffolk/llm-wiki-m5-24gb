@@ -1,13 +1,13 @@
 ---
 page_id: rpg-cairn-2e-core-section-example-8655ddd0
 page_kind: source
-summary: Example: 42 source-backed entries and 2 atom(s) from raw/rpg_cairn_2e_core.pdf.
+summary: Example: 43 source-backed entries and 2 atom(s) from raw/rpg_cairn_2e_core.pdf.
 sources: raw/rpg_cairn_2e_core.pdf
 updated: 2026-06-26
 domain: rpg-cairn-2e-core
 category_path: sources/rpg-cairn-2e-core/sections
 source_id: rpg_cairn_2e_core.pdf
-projection_coverage: section-rpg-cairn-2e-core-section-example-8655ddd0@4c344727e7f50a9e0f499e148a213a5d
+projection_coverage: section-rpg-cairn-2e-core-section-example-8655ddd0@febd4376e3fcd0fc1c16da784f7e5f30
 ---
 
 # Example
@@ -20,6 +20,7 @@ From [[rpg-cairn-2e-core]].
 - After days of stepping through endless muck and gloom, the party has finally found the barrow belonging to the Cutlass King, the notorious bandit of a bygone age. _(rpg_cairn_2e_core.pdf (source-range-f6f3256b-00420))_
 - But as the rolling fog begins to clear, you see a flash of colorful movement near the tomb's entrance." _(rpg_cairn_2e_core.pdf (source-range-f6f3256b-00421))_
 - Warden : "Finally, you reach the point marked on your map, and in the early morning light, the barrow's entrance becomes visible through the thick mist. _(rpg_cairn_2e_core.pdf (source-range-f6f3256b-00421))_
+- That must be our dear friends from the Ursine Conclave, trying to steal our thunder!" _(rpg_cairn_2e_core.pdf (source-range-f6f3256b-00422))_
 - Lucius : "Come now, we don't know that there is an immediate danger. _(rpg_cairn_2e_core.pdf (source-range-f6f3256b-00423))_
 - Wolfram : "It doesn't matter; we must be prepared for whatever comes next. _(rpg_cairn_2e_core.pdf (source-range-f6f3256b-00424))_
 - They appear to be laughing at you! _(rpg_cairn_2e_core.pdf (source-range-f6f3256b-00425))_
@@ -59,8 +60,8 @@ From [[rpg-cairn-2e-core]].
 
 ## Technical atoms
 
-> That must be our dear friends from the Ursine Conclave, trying to steal our thunder!"
-_(source: rpg_cairn_2e_core.pdf (source-range-f6f3256b-00422))_
+> Everyone roll a DEX save to see if you can act before they do."
+_(source: rpg_cairn_2e_core.pdf (source-range-f6f3256b-00425))_
 
-> That means you should receive a Reorienting Head Wound !"
-_(source: rpg_cairn_2e_core.pdf (source-range-f6f3256b-00438))_
+> Now I need to roll 3d6, and if the total is greater than my current Dexterity score, I get to keep it, right?
+_(source: rpg_cairn_2e_core.pdf (source-range-f6f3256b-00439))_

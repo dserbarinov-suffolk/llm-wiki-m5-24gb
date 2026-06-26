@@ -274,6 +274,12 @@ class Session:
             written = "none (authoritative write blocked — see blocked-write-diagnostic.json)"
         for topic_page in ledger.topic_pages:
             self.store.write_page(topic_page)
+        if ledger.wiki_page is not None:
+            keep_page_ids = {
+                ledger.wiki_page.page_id,
+                *(page.page_id for page in ledger.topic_pages),
+            }
+            self.store.delete_source_pages_not_in(source_locator, keep_page_ids)
         if self.on_chunk_note is not None:
             self.on_chunk_note(ledger.summary)
         report = (
@@ -304,6 +310,7 @@ class Session:
         result = build_cross_source_pages(topic_jsons, today=self.today)
         for page in result.pages:
             self.store.write_page(page)
+        self.store.delete_cross_source_pages_not_in({page.page_id for page in result.pages})
         self.store.append_log(self.today, "synthesize", "cross-source", result.summary)
         return OperationResult("synthesize", "cross-source", result.summary, None)
 

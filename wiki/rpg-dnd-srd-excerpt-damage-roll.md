@@ -1,12 +1,12 @@
 ---
 page_id: rpg-dnd-srd-excerpt-damage-roll
 page_kind: concept
-summary: Damage Rolls: 113 statement(s) and 20 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
+summary: Damage Rolls: 5 statement(s) and 2 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
 sources: raw/rpg_dnd_srd_excerpt.pdf
 updated: 2026-06-26
 domain: rpg-dnd-srd-excerpt
 category_path: concepts
-projection_coverage: topic-rpg-dnd-srd-excerpt-damage-roll@ef23959b42b23009fc74dde5d009e188
+projection_coverage: topic-rpg-dnd-srd-excerpt-damage-roll@892d477e4fc2a897b499d1008d68c185
 ---
 
 # Damage Rolls
@@ -15,40 +15,25 @@ What [[rpg-dnd-srd-excerpt]] covers about damage rolls:
 
 ## Statements
 
-- You make the attack roll. _(rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00354))_
-- Massive damage can kill you instantly. _(rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00432))_
-- Some spells also require an attack roll. _(rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00361))_
-- If the roll is 10 or higher, you succeed. _(rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00438))_
-- The creature has resistance to all damage. _(rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00576))_
-- The creature has disadvantage on attack rolls. _(rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00582))_
-- Attack rolls against the creature have advantage. _(rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00569))_
-- Attack rolls against the creature have advantage. _(rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00574))_
-- Attack rolls against the creature have advantage. _(rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00592))_
-- Attack rolls against the creature have advantage. _(rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00597))_
-- If you roll a 20 on the d20, you regain 1 hit point. _(rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00439))_
-- To speed up play, you can roll all the damage dice at once. _(rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00417))_
-- When that happens, you roll a second d20 when you make the roll. _(rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00079))_
-- The attacker can make this choice the instant the damage is dealt. _(rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00449))_
+- With a penalty, it is possible to deal 0 damage, but never negative damage. _(rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00413))_
+- Magic weapons, special abilities, and other factors can grant a bonus to damage. _(rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00413))_
+- You roll the damage die or dice, add any modifiers, and apply the damage to your target. _(rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00413))_
+- A spell tells you which dice to roll for damage and whether to add any modifiers. _(rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00414))_
+- For example, when a wizard casts fi reball or a cleric casts fl ame strike , the spell's damage is rolled once for all creatures caught in the blast. _(rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00415))_
 
 ## Technical atoms
 
-> Occasionally, your proficiency bonus might be multiplied or divided (doubled or halved, for example) before you apply it. For example, the rogue's Expertise feature doubles the proficiency bonus for certain ability checks. If a circumstance suggests that your proficiency bonus applies more than once to the same roll, you still add it only once and multiply or divide it only once.
-_(source: rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00087))_
+> Context: Each weapon, spell, and harmful monster ability specifies the damage it deals. You roll the damage die or dice, add any modifiers, and apply the damage to your target. Magic weapons, special abilities, and other factors can grant a bonus to damage. With a penalty, it is possible to deal 0 damage, but never negative damage.
+_(context: rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00413))_
 
-> When you ready a spell, you cast it as normal but hold its energy, which you release with your reaction when the trigger occurs. To be readied, a spell must have a casting time of 1 action, and holding onto the spell's magic requires concentration. If your concentration is broken, the spell dissipates without taking effect. For example, if you are concentrating on the web spell and ready magic missile , your web spell ends, and if you take damage before you release magic missile with your reaction, your concentration might be broken.
-_(source: rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00345))_
+> When attacking with a weapon , you add your ability modifier-the same modifier used for the attack roll-to the damage.
+_(source: rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00414))_
 
-> On a hit, you roll damage, unless the particular attack has rules that specify otherwise.
-_(source: rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00354))_
+> Context: When attacking with a weapon , you add your ability modifier-the same modifier used for the attack roll-to the damage. A spell tells you which dice to roll for damage and whether to add any modifiers.
+_(context: rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00414))_
 
-> If the d20 roll for an attack is a 1, the attack misses regardless of any modifiers or the target's AC.
-_(source: rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00366))_
-
-> Magic weapons, special abilities, and other factors can grant a bonus to damage.
-_(source: rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00413))_
-
-> Resistance and then vulnerability are applied after all other modifiers to damage. For example, a creature has resistance to bludgeoning damage and is hit by an attack that deals 25 bludgeoning damage. The creature is also within a magical aura that reduces all damage by 5. The 25 damage is first reduced by 5 and then halved, so the creature takes 10 damage.
-_(source: rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00423))_
+> If a spell or other effect deals damage to more than one target at the same time, roll the damage once for all of them.
+_(source: rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00415))_
 
 
 ## Source

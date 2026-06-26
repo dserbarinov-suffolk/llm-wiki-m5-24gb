@@ -1,13 +1,13 @@
 ---
 page_id: coding-learn-go-with-tests-excerpt-section-hello-world-again-798851da
 page_kind: source
-summary: Hello, world... again: 27 source-backed entries and 5 atom(s) from raw/coding_learn_go_with_tests_excerpt.pdf.
+summary: Hello, world... again: 26 source-backed entries and 6 atom(s) from raw/coding_learn_go_with_tests_excerpt.pdf.
 sources: raw/coding_learn_go_with_tests_excerpt.pdf
 updated: 2026-06-26
 domain: coding-learn-go-with-tests-excerpt
 category_path: sources/coding-learn-go-with-tests-excerpt/sections
 source_id: coding_learn_go_with_tests_excerpt.pdf
-projection_coverage: section-coding-learn-go-with-tests-excerpt-section-hello-world-again-798851da@4b9751f2248b19e46a733681aea11884
+projection_coverage: section-coding-learn-go-with-tests-excerpt-section-hello-world-again-798851da@6d8eb09ef8d45f825331cf63db21e353
 ---
 
 # Hello, world... again
@@ -29,7 +29,6 @@ From [[coding-learn-go-with-tests-excerpt]].
 - Now that the tests are passing, we can and should refactor our tests. _(coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00083))_
 - We've refactored our assertion into a new function. _(coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00086))_
 - We need to pass in t *testing.T so that we can tell the test code to fail when we need to. _(coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00086))_
-- For helper functions, it's a good idea to accept a testing.TB which is an interface that *testing.T and *testing.B both satisfy, so you can call helper functions from a test, or a benchmark (don't worry if words like "interface" mean nothing to you right now, it will be covered later). _(coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00087))_
 - You should see that line turn grey or change to another color than the rest of your code to indicate it's now commented out. _(coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00088))_
 - By doing this, when it fails, the line number reported will be in our function call rather than inside our test helper. _(coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00088))_
 - If you still don't understand, comment it out, make a test fail and observe the test output. _(coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00088))_
@@ -37,7 +36,6 @@ From [[coding-learn-go-with-tests-excerpt]].
 - Comments in Go are a great way to add additional information to your code, or in this case, a quick way to tell the compiler to ignore a line. _(coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00088))_
 - t.Helper() is needed to tell the test suite that this method is a helper. _(coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00088))_
 - By doing this, when it fails, the line number reported will be in our function call rather than inside our test helper. _(coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00088))_
-- When you have more than one argument of the same type (in our case two strings) rather than having (got string, want string) you can shorten it to (got, want string) . _(coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00089))_
 
 ## Technical atoms
 
@@ -61,5 +59,8 @@ func TestHello(t	*testing.T)	{ t.Run("saying	hello	to	people", func (t	*testing.
 ```
 _(source: coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00084))_
 
-> You can comment out the t.Helper() code by adding two forward slashes // at the beginning of the line.
-_(source: coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00088))_
+> For helper functions, it's a good idea to accept a testing.TB which is an interface that *testing.T and *testing.B both satisfy, so you can call helper functions from a test, or a benchmark (don't worry if words like "interface" mean nothing to you right now, it will be covered later).
+_(source: coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00087))_
+
+> When you have more than one argument of the same type (in our case two strings) rather than having (got string, want string) you can shorten it to (got, want string) .
+_(source: coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00089))_

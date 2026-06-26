@@ -9,7 +9,7 @@ updated: 2026-06-26
 
 ## Summary
 
-Run id: 2026-06-26-095603
+Run id: 2026-06-26-120537
 Source: raw/rpg_dnd_srd_excerpt.pdf
 Confidence status: passed
 Blockers: 0
@@ -18,9 +18,9 @@ Gates: 5
 
 ## Artifact Reuse
 
-- page-plan: missing `/Users/DSerbarinov/llm-wiki/harness/.cache/page-plans/rpg-dnd-srd-excerpt-f7c05ef0468a/page-plan.json` (artifact is missing; fingerprint 3fb5ee3841274f09)
-- evidence-registry: missing `/Users/DSerbarinov/llm-wiki/harness/.cache/page-plans/rpg-dnd-srd-excerpt-f7c05ef0468a/evidence-registry.json` (artifact is missing; fingerprint 3fb5ee3841274f09)
-- evidence-locators: missing `/Users/DSerbarinov/llm-wiki/harness/.cache/page-plans/rpg-dnd-srd-excerpt-f7c05ef0468a/evidence-locators.json` (artifact is missing; fingerprint 3fb5ee3841274f09)
+- page-plan: reuse `/Users/DSerbarinov/llm-wiki/harness/.cache/page-plans/rpg-dnd-srd-excerpt-f7c05ef0468a/page-plan.json` (fingerprint matches; fingerprint 3fb5ee3841274f09)
+- evidence-registry: reuse `/Users/DSerbarinov/llm-wiki/harness/.cache/page-plans/rpg-dnd-srd-excerpt-f7c05ef0468a/evidence-registry.json` (fingerprint matches; fingerprint 3fb5ee3841274f09)
+- evidence-locators: reuse `/Users/DSerbarinov/llm-wiki/harness/.cache/page-plans/rpg-dnd-srd-excerpt-f7c05ef0468a/evidence-locators.json` (fingerprint matches; fingerprint 3fb5ee3841274f09)
 
 ## Gates
 
@@ -46,7 +46,7 @@ MissingUnitCoverage: 0
 - Status: pass
 - Findings: none
 Source texts: 1
-Source ranges: 32
+Source ranges: 137
 Evidence records: 926
 
 ### evidence-locators
@@ -54,7 +54,7 @@ Evidence records: 926
 - Scope: raw/rpg_dnd_srd_excerpt.pdf
 - Status: pass
 - Findings: none
-Locators: 915
+Locators: 919
 Invalid locators: 0
 
 ### claim-support

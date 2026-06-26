@@ -1,13 +1,13 @@
 ---
 page_id: history-dickens-england-excerpt-section-chapter-xiii-england-under-richard-the-first-called-the-lion-heart-d0fbdea6
 page_kind: source
-summary: CHAPTER XIII--ENGLAND UNDER RICHARD THE FIRST, CALLED THE LION-HEART: 117 source-backed entries and 1 atom(s) from raw/history_dickens_england_excerpt.pdf.
+summary: CHAPTER XIII--ENGLAND UNDER RICHARD THE FIRST, CALLED THE LION-HEART: 117 source-backed entries and 0 atom(s) from raw/history_dickens_england_excerpt.pdf.
 sources: raw/history_dickens_england_excerpt.pdf
 updated: 2026-06-26
 domain: history-dickens-england-excerpt
 category_path: sources/history-dickens-england-excerpt/sections
 source_id: history_dickens_england_excerpt.pdf
-projection_coverage: section-history-dickens-england-excerpt-section-chapter-xiii-england-under-richard-the-first-called-the-lion-heart-d0fbdea6@60c2a460706bd6255a272b38ca420bf3
+projection_coverage: section-history-dickens-england-excerpt-section-chapter-xiii-england-under-richard-the-first-called-the-lion-heart-d0fbdea6@a51ed23d1f00b61030acbb6ca3948236
 ---
 
 # CHAPTER XIII--ENGLAND UNDER RICHARD THE FIRST, CALLED THE LION-HEART
@@ -84,6 +84,7 @@ From [[history-dickens-england-excerpt]].
 - Afterwards, they severally embarked their troops for Messina, in Sicily, which was appointed as the next place of meeting. _(history_dickens_england_excerpt.pdf (source-range-bcf2b9c4-00027))_
 - He had secretly joined the French King; had vowed to the English nobles and people that his brother was dead; and had vainly tried to seize the crown. _(history_dickens_england_excerpt.pdf (source-range-bcf2b9c4-00027))_
 - He invited the French officers of the garrison in that town to dinner, murdered them all, and then took the fortress. _(history_dickens_england_excerpt.pdf (source-range-bcf2b9c4-00027))_
+- King Richard, who was a strong, restless, burly man, with one idea always in his head, and that the very troublesome idea of breaking the heads of other men, was mightily impatient to go on a Crusade to the Holy Land, with a great army. _(history_dickens_england_excerpt.pdf (source-range-bcf2b9c4-00027))_
 - When the populace broke in, they found (except the trembling few, cowering in corners, whom they soon killed) only heaps of greasy cinders, with here and there something like part of the blackened trunk of a burnt tree, but which had lately been a human creature, formed by the beneficent hand of the Creator as they were. _(history_dickens_england_excerpt.pdf (source-range-bcf2b9c4-00027))_
 - The young man was brought there, heavily chained, King Richard looked at him steadily. _(history_dickens_england_excerpt.pdf (source-range-bcf2b9c4-00027))_
 - Friendships which are founded on a partnership in doing wrong, are never true; and the King of France was now quite as heartily King Richard's foe, as he had ever been his friend in his unnatural conduct to his father. _(history_dickens_england_excerpt.pdf (source-range-bcf2b9c4-00027))_
@@ -132,8 +133,3 @@ From [[history-dickens-england-excerpt]].
 - After this bad beginning, Richard and his troops went on, in no very good manner, with the Holy Crusade. _(history_dickens_england_excerpt.pdf (source-range-bcf2b9c4-00027))_
 - He then appointed two Bishops to take care of his kingdom in his absence, and gave great powers and possessions to his brother John, to secure his friendship. _(history_dickens_england_excerpt.pdf (source-range-bcf2b9c4-00027))_
 - It may be that Bertrand de Gourdon, a young man who was one of the defenders of the castle, had often sung it or heard it sung of a winter night, and remembered it when he saw, from his post upon the ramparts, the King attended only by his chief officer riding below the walls surveying the place. _(history_dickens_england_excerpt.pdf (source-range-bcf2b9c4-00027))_
-
-## Technical atoms
-
-> King Richard, who was a strong, restless, burly man, with one idea always in his head, and that the very troublesome idea of breaking the heads of other men, was mightily impatient to go on a Crusade to the Holy Land, with a great army.
-_(source: history_dickens_england_excerpt.pdf (source-range-bcf2b9c4-00027))_

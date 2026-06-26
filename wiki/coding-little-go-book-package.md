@@ -1,60 +1,82 @@
 ---
 page_id: coding-little-go-book-package
 page_kind: concept
-summary: Packages: 20 statement(s) and 18 atom(s) from raw/coding_little_go_book.pdf.
+summary: Package: 5 statement(s) and 4 atom(s) from raw/coding_little_go_book.pdf.
 sources: raw/coding_little_go_book.pdf
 updated: 2026-06-26
 domain: coding-little-go-book
 category_path: concepts
-projection_coverage: topic-coding-little-go-book-package@3453f64e8bdd599258cd68d5070543cc
+projection_coverage: topic-coding-little-go-book-package@7aeb19b698c23946eac1caec65e2cc62
 ---
 
-# Packages
+# Package
 
-What [[coding-little-go-book]] covers about packages:
+What [[coding-little-go-book]] covers about package:
 
 ## Statements
 
-- Go is strict about importing packages. _(coding_little_go_book.pdf (source-range-810ce361-00065))_
-- It will not compile if you import a package but don't use it. _(coding_little_go_book.pdf (source-range-810ce361-00065))_
-- For now, knowing how to import and use a package is a good start. _(coding_little_go_book.pdf (source-range-810ce361-00064))_
-- In a way, our own source code becomes a Gemfile or package.json . _(coding_little_go_book.pdf (source-range-810ce361-00314))_
-- We just talked about how to import packages that live in our workspace. _(coding_little_go_book.pdf (source-range-810ce361-00310))_
-- Notice that the name of the package is the same as the name of the folder. _(coding_little_go_book.pdf (source-range-810ce361-00277))_
-- If you're building a package, you don't need anything more than what we've seen. _(coding_little_go_book.pdf (source-range-810ce361-00281))_
-- Item no longer exists in the db package; it's been moved to the shopping package. _(coding_little_go_book.pdf (source-range-810ce361-00290))_
-- You've probably noticed we prefix the function name with the package, e.g., fmt.Println . _(coding_little_go_book.pdf (source-range-810ce361-00064))_
-- Go uses a simple rule to define what types and functions are visible outside of a package. _(coding_little_go_book.pdf (source-range-810ce361-00299))_
-- The io package has a handful of popular ones such as io.Reader , io.Writer , and io.Closer . _(coding_little_go_book.pdf (source-range-810ce361-00329))_
-- But if the function was named newItem , we wouldn't be able to access it from a different package. _(coding_little_go_book.pdf (source-range-810ce361-00303))_
-- This is a package variable (it's defined outside of a function) which is publicly accessible (upper-case first letter). _(coding_little_go_book.pdf (source-range-810ce361-00348))_
-- If a structure field name starts with a lowercase letter, only code within the same package will be able to access them. _(coding_little_go_book.pdf (source-range-810ce361-00300))_
+- Item no longer exists in the db package; it's been moved to the shopping package. _(coding_little_go_book.pdf (source-range-773b6275-00290))_
+- Notice that the name of the package is the same as the name of the folder. _(coding_little_go_book.pdf (source-range-773b6275-00277))_
+- If you're building a package, you don't need anything more than what we've seen. _(coding_little_go_book.pdf (source-range-773b6275-00281))_
+- If a structure field name starts with a lowercase letter, only code within the same package will be able to access them. _(coding_little_go_book.pdf (source-range-773b6275-00300))_
+- The io package has a handful of popular ones such as io.Reader , io.Writer , and io.Closer . _(coding_little_go_book.pdf (source-range-773b6275-00329))_
 
 ## Technical atoms
 
-```
-package main func main()	{ println("it's	over	9000!") }
-```
-_(source: coding_little_go_book.pdf (source-range-810ce361-00050))_
-
-> For now, while we focus on understanding the basics of Go, we'll always write our code within the main package.
-_(source: coding_little_go_book.pdf (source-range-810ce361-00056))_
-
-> Hopefully, the code that we just executed is understandable. We've created a function and printed out a string with the built-in println function. Did go run know what to execute because there was only a single choice? No. In Go, the entry point to a program has to be a function called main within a package main . We'll talk more about packages in a later chapter. For now, while we focus on understanding the basics of Go, we'll always write our code within the main package. If you want, you can alter the code and change the package name. Run the code via go run and you should get an error. Then, change the name back to main but use a different function name. You should see a different error message. Try making those same changes but use go build instead. Notice that the code compiles, there's just no entry point to run it. This is perfectly normal when you are, for example, building a library.
-_(source: coding_little_go_book.pdf (source-range-810ce361-00056))_
+> Context: Now, create a file called pricecheck.go inside of the main shopping folder. Its content is: It's tempting to think that importing shopping/db is somehow special because we're inside the shopping package/folder already. In reality, you're importing $GOPATH/src/shopping/db , which means you could just as easily import test/db so long as you had a package named db inside of your workspace's src/test folder.
+_(context: coding_little_go_book.pdf (source-range-773b6275-00278, source-range-773b6275-00280))_
 
 ```
-package main import ( "fmt" "os" ) func main()	{ }
+package shopping
+import (
+  "shopping/db"
+)
+func PriceCheck(itemId int) (float64, bool) {
+  item := db.LoadItem(itemId)
+  if item == nil {
+    return 0, false
+  }
+  return item.Price, true
+}
 ```
-_(source: coding_little_go_book.pdf (source-range-810ce361-00066))_
+_(source: coding_little_go_book.pdf (source-range-773b6275-00279))_
+
+> Context: If you're building a package, you don't need anything more than what we've seen. To build an executable, you still need a main . The way I prefer to do this is to create a subfolder called main inside of shopping with a file called main.go and the following content:
+_(context: coding_little_go_book.pdf (source-range-773b6275-00281))_
 
 ```
-package main import ( "fmt" ) func main()	{ var power	int power	=	9000 fmt.Printf("It's	over	%d\n",	power) }
+package main
+import (
+  "shopping"
+  "fmt"
+)
+func main() {
+  fmt.Println(shopping.PriceCheck(4343))
+}
 ```
-_(source: coding_little_go_book.pdf (source-range-810ce361-00076))_
+_(source: coding_little_go_book.pdf (source-range-773b6275-00282))_
 
-> To keep more complicated libraries and systems organized, we need to learn about packages. In Go, package names follow the directory structure of your Go workspace. If we were building a shopping system, we'd probably start with a package name "shopping" and put our source files in $GOPATH/src/shopping/ . We don't want to put everything inside this folder though. For example, maybe we want to isolate some database logic inside its own folder. To achieve this, we create a subfolder at $GOPATH/src/shopping/db . The package name of the files within this subfolder is simply db , but to access it from another package, including the shopping package, we need to import shopping/db . In other words, when you name a package, via the package keyword, you provide a single value, not a complete hierarchy (e.g., "shopping" or "db"). When you import a package, you specify the complete path. Let's try it. Inside your Go workspace's src folder (which we set up in Getting Started of the Introduction), create a new folder called shopping and a subfolder within it called db . Inside of shopping/db , create a file called db.go and add the following code:
-_(source: coding_little_go_book.pdf (source-range-810ce361-00274))_
+> Context: If you try to run the code, you'll get a couple of errors from db/db.go about Item being undefined. This makes sense. Item no longer exists in the db package; it's been moved to the shopping package. We need to change shopping/db/db.go to:
+_(context: coding_little_go_book.pdf (source-range-773b6275-00290))_
+
+```
+package db
+import (
+  "shopping"
+)
+func LoadItem(id int) *shopping.Item {
+  return &shopping.Item{
+    Price: 9.001,
+  }
+}
+```
+_(source: coding_little_go_book.pdf (source-range-773b6275-00291))_
+
+> Context: If you try to run the code, you'll get a couple of errors from db/db.go about Item being undefined. This makes sense. Item no longer exists in the db package; it's been moved to the shopping package. We need to change shopping/db/db.go to:
+_(context: coding_little_go_book.pdf (source-range-773b6275-00290))_
+
+> Now when you try to run the code, you'll get a dreaded import cycle not allowed error.
+_(source: coding_little_go_book.pdf (source-range-773b6275-00292))_
 
 
 ## Source

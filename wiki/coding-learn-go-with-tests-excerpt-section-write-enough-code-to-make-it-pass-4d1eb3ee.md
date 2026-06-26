@@ -1,13 +1,13 @@
 ---
 page_id: coding-learn-go-with-tests-excerpt-section-write-enough-code-to-make-it-pass-4d1eb3ee
 page_kind: source
-summary: Write enough code to make it pass: 5 source-backed entries and 2 atom(s) from raw/coding_learn_go_with_tests_excerpt.pdf.
+summary: Write enough code to make it pass: 4 source-backed entries and 1 atom(s) from raw/coding_learn_go_with_tests_excerpt.pdf.
 sources: raw/coding_learn_go_with_tests_excerpt.pdf
 updated: 2026-06-26
 domain: coding-learn-go-with-tests-excerpt
 category_path: sources/coding-learn-go-with-tests-excerpt/sections
 source_id: coding_learn_go_with_tests_excerpt.pdf
-projection_coverage: section-coding-learn-go-with-tests-excerpt-section-write-enough-code-to-make-it-pass-4d1eb3ee@98773e60632f66cdd9b15f57ff3aec91
+projection_coverage: section-coding-learn-go-with-tests-excerpt-section-write-enough-code-to-make-it-pass-4d1eb3ee@45715cff85895420c4c685fecb8fee84
 ---
 
 # Write enough code to make it pass
@@ -26,6 +26,3 @@ From [[coding-learn-go-with-tests-excerpt]].
 func SumAllTails(numbersToSum	...[]int)	[]int	{ var sums	[]int for _,	numbers	:= range numbersToSum	{ tail	:=	numbers[1:] sums	=	append(sums,	Sum(tail)) } return sums }
 ```
 _(source: coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00373))_
-
-> Slices can be sliced!
-_(source: coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00374))_

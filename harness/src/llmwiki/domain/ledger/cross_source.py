@@ -14,6 +14,7 @@ import re
 from dataclasses import dataclass
 
 from llmwiki.domain.ledger.canonical import deterministic_id
+from llmwiki.domain.ledger.topic_terms import content_terms
 
 _SUCCESSION = re.compile(
     r"\b(supersed\w+|replac\w+|deprecat\w+|revised|newer edition|obsolet\w+)\b", re.IGNORECASE
@@ -94,7 +95,9 @@ def classify_relationship(a: SourcePosition, b: SourcePosition) -> str | None:
     if _SUCCESSION.search(a.normalized_text) or _SUCCESSION.search(b.normalized_text):
         return "supersedes"
     if not _shared_predicate(a, b):
-        return "agrees-with"
+        return None
+    if not _shared_statement_terms(a, b):
+        return None
     if a.polarity != b.polarity:
         return "conflicts-with"
     if a.has_scope != b.has_scope or a.condition_scope != b.condition_scope:
@@ -168,3 +171,9 @@ def _rank(position: SourcePosition) -> tuple[int, int]:
 
 def _shared_predicate(a: SourcePosition, b: SourcePosition) -> bool:
     return bool(a.predicate) and a.predicate.lower() == b.predicate.lower()
+
+
+def _shared_statement_terms(a: SourcePosition, b: SourcePosition) -> bool:
+    a_terms = set(content_terms(a.normalized_text))
+    b_terms = set(content_terms(b.normalized_text))
+    return len(a_terms.intersection(b_terms)) >= 2

@@ -76,6 +76,18 @@ class TestClassifyRelationship:
     def test_same_predicate_same_polarity_agrees(self) -> None:
         assert classify_relationship(_pos("a.pdf"), _pos("b.pdf")) == "agrees-with"
 
+    def test_topic_key_without_shared_predicate_is_not_a_relationship(self) -> None:
+        a = _pos("a.pdf", predicate="contains")
+        b = _pos("b.pdf", predicate="requires")
+        assert classify_relationship(a, b) is None
+
+    def test_shared_predicate_without_comparable_statement_terms_is_not_a_relationship(
+        self,
+    ) -> None:
+        a = _pos("a.pdf", text="A character is ready.")
+        b = _pos("b.pdf", text="A character is green.")
+        assert classify_relationship(a, b) is None
+
     def test_opposite_polarity_conflicts(self) -> None:
         a = _pos("a.pdf", polarity="affirmative")
         b = _pos("b.pdf", polarity="negative")

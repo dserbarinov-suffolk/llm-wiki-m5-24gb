@@ -1,12 +1,12 @@
 ---
 page_id: coding-little-go-book-slice
 page_kind: concept
-summary: Slices: 25 statement(s) and 5 atom(s) from raw/coding_little_go_book.pdf.
+summary: Slices: 39 statement(s) and 20 atom(s) from raw/coding_little_go_book.pdf.
 sources: raw/coding_little_go_book.pdf
 updated: 2026-06-26
 domain: coding-little-go-book
 category_path: concepts
-projection_coverage: topic-coding-little-go-book-slice@77de48c8cde60009c25a0634fcabbe2d
+projection_coverage: topic-coding-little-go-book-slice@a576efd9ba0af297aef8920888da46bc
 ---
 
 # Slices
@@ -15,41 +15,83 @@ What [[coding-little-go-book]] covers about slices:
 
 ## Statements
 
-- Instead, you use slices. _(coding_little_go_book.pdf (source-range-810ce361-00200))_
-- Because our slice has a length of 0. _(coding_little_go_book.pdf (source-range-810ce361-00209))_
-- Slices as wrappers to arrays is a powerful concept. _(coding_little_go_book.pdf (source-range-810ce361-00230))_
-- Both JavaScript and Ruby arrays have a slice method. _(coding_little_go_book.pdf (source-range-810ce361-00230))_
-- Maps, like slices, are created with the make function. _(coding_little_go_book.pdf (source-range-810ce361-00249))_
-- Appending to a slice of length 0 will set the first element. _(coding_little_go_book.pdf (source-range-810ce361-00211))_
-- This is because our slice is really just a window into scores . _(coding_little_go_book.pdf (source-range-810ce361-00234))_
-- Where you will see a difference is when you modify the values of a slice or map. _(coding_little_go_book.pdf (source-range-810ce361-00268))_
-- The second one is useful when you'll be writing into specific indexes of a slice. _(coding_little_go_book.pdf (source-range-810ce361-00224))_
-- copy is one of those functions that highlights how slices change the way we code. _(coding_little_go_book.pdf (source-range-810ce361-00244))_
-- A slice is a lightweight structure that wraps and represents a portion of an array. _(coding_little_go_book.pdf (source-range-810ce361-00200))_
-- There are a few ways to create a slice, and we'll go over when to use which later on. _(coding_little_go_book.pdf (source-range-810ce361-00200))_
-- The length is the size of the slice, the capacity is the size of the underlying array. _(coding_little_go_book.pdf (source-range-810ce361-00204))_
-- To a compiler, you're telling it to append a value to a slice that already holds 5 values. _(coding_little_go_book.pdf (source-range-810ce361-00220))_
+- A slice is a lightweight structure that wraps and represents a portion of an array. _(coding_little_go_book.pdf (source-range-773b6275-00200))_
+- Instead, you use slices. _(coding_little_go_book.pdf (source-range-773b6275-00200))_
+- In Go, you rarely, if ever, use arrays directly. _(coding_little_go_book.pdf (source-range-773b6275-00200))_
+- There are a few ways to create a slice, and we'll go over when to use which later on. _(coding_little_go_book.pdf (source-range-773b6275-00200))_
+- Unlike the array declaration, our slice isn't declared with a length within the square brackets. _(coding_little_go_book.pdf (source-range-773b6275-00202))_
+- Specifically, we have to allocate the memory for the underlying array and also initialize the slice. _(coding_little_go_book.pdf (source-range-773b6275-00204))_
+- The length is the size of the slice, the capacity is the size of the underlying array. _(coding_little_go_book.pdf (source-range-773b6275-00204))_
+- We use make instead of new because there's more to creating a slice than just allocating the memory (which is what new does). _(coding_little_go_book.pdf (source-range-773b6275-00204))_
+- (If you're paying attention, you'll note that make and len are overloaded. _(coding_little_go_book.pdf (source-range-773b6275-00206))_
+- Go is a language that, to the frustration of some, makes use of features which aren't exposed for developers to use.) _(coding_little_go_book.pdf (source-range-773b6275-00206))_
+- Yes, the underlying array has 10 elements, but we need to explicitly expand our slice in order to access those elements. _(coding_little_go_book.pdf (source-range-773b6275-00209))_
+- Because our slice has a length of 0. _(coding_little_go_book.pdf (source-range-773b6275-00209))_
+- For whatever reason, our crashing code wanted to set the element at index 7. _(coding_little_go_book.pdf (source-range-773b6275-00211))_
+- Appending to a slice of length 0 will set the first element. _(coding_little_go_book.pdf (source-range-773b6275-00211))_
 
 ## Technical atoms
 
-```
-scores = [ 1,2,3,4,5 ] slice = scores [ 2 .. 4 ] slice [ 0 ] = 999 puts	scores
-```
-_(source: coding_little_go_book.pdf (source-range-810ce361-00231))_
-
-> The answer is [1, 2, 3, 4, 5] . That's because slice is a completely new array with copies of values. Now, consider the Go equivalent:
-_(source: coding_little_go_book.pdf (source-range-810ce361-00232))_
+> Context: In Go, you rarely, if ever, use arrays directly. Instead, you use slices. A slice is a lightweight structure that wraps and represents a portion of an array. There are a few ways to create a slice, and we'll go over when to use which later on. The first is a slight variation on how we created an array:
+_(context: coding_little_go_book.pdf (source-range-773b6275-00200))_
 
 ```
-scores	:=	[]int{1,2,3,4,5} slice	:=	scores[2:4] slice[0]	=	999 fmt.Println(scores)
+scores := []int{1,4,293,4,9}
 ```
-_(source: coding_little_go_book.pdf (source-range-810ce361-00233))_
+_(source: coding_little_go_book.pdf (source-range-773b6275-00201))_
 
-> This changes how you code. For example, a number of functions take a position parameter. In JavaScript, if we want to find the first space in a string (yes, slices work on strings too!) after the first five characters, we'd write:
-_(source: coding_little_go_book.pdf (source-range-810ce361-00235))_
+> Context: Unlike the array declaration, our slice isn't declared with a length within the square brackets. To understand how the two are different, let's see another way to create a slice, using make : We use make instead of new because there's more to creating a slice than just allocating the memory (which is what new does). Specifically, we have to allocate the memory for the underlying array and also initialize the slice. In the above, we initialize a slice with a length of 10 and a capacity of 10. The length is the size of the slice, the capacity is the size of the underlying array. Using make we can specify the two separately:
+_(context: coding_little_go_book.pdf (source-range-773b6275-00202, source-range-773b6275-00204))_
 
-> If we want all of the values of a slice except the last, we do:
-_(source: coding_little_go_book.pdf (source-range-810ce361-00239))_
+```
+scores := make([]int, 10)
+```
+_(source: coding_little_go_book.pdf (source-range-773b6275-00203))_
+
+> Context: We use make instead of new because there's more to creating a slice than just allocating the memory (which is what new does). Specifically, we have to allocate the memory for the underlying array and also initialize the slice. In the above, we initialize a slice with a length of 10 and a capacity of 10. The length is the size of the slice, the capacity is the size of the underlying array. Using make we can specify the two separately:
+_(context: coding_little_go_book.pdf (source-range-773b6275-00204))_
+
+```
+scores := make([]int, 0, 10)
+```
+_(source: coding_little_go_book.pdf (source-range-773b6275-00205))_
+
+> Context: To better understand the interplay between length and capacity, let's look at some examples: Our first example crashes. Why? Because our slice has a length of 0. Yes, the underlying array has 10 elements, but we need to explicitly expand our slice in order to access those elements. One way to expand a slice is via append :
+_(context: coding_little_go_book.pdf (source-range-773b6275-00207, source-range-773b6275-00209))_
+
+```
+func main() {
+  scores := make([]int, 0, 10)
+  scores[7] = 9033
+  fmt.Println(scores)
+}
+```
+_(source: coding_little_go_book.pdf (source-range-773b6275-00208))_
+
+> Context: Our first example crashes. Why? Because our slice has a length of 0. Yes, the underlying array has 10 elements, but we need to explicitly expand our slice in order to access those elements. One way to expand a slice is via append :
+_(context: coding_little_go_book.pdf (source-range-773b6275-00209))_
+
+```
+func main() {
+  scores := make([]int, 0, 10)
+  scores = append(scores, 5)
+  fmt.Println(scores) // prints [5]
+}
+```
+_(source: coding_little_go_book.pdf (source-range-773b6275-00210))_
+
+> Context: But that changes the intent of our original code. Appending to a slice of length 0 will set the first element. For whatever reason, our crashing code wanted to set the element at index 7. To do this, we can re-slice our slice: How large can we resize a slice? Up to its capacity which, in this case, is 10. You might be thinking this doesn't actually solve the fixed-length issue of arrays. It turns out that append is pretty special. If the underlying array is full, it will create a new larger array and copy the values over (this is exactly how dynamic arrays work in PHP , Python, Ruby, JavaScript, ...). This is why, in the example above that used append , we had to re-assign the value returned by append to our scores variable: append might have created a new value if the original had no more space.
+_(context: coding_little_go_book.pdf (source-range-773b6275-00211, source-range-773b6275-00213))_
+
+```
+func main() {
+  scores := make([]int, 0, 10)
+  scores = scores[0:8]
+  scores[7] = 9033
+  fmt.Println(scores)
+}
+```
+_(source: coding_little_go_book.pdf (source-range-773b6275-00212))_
 
 
 ## Source

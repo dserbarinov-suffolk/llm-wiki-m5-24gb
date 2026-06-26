@@ -1,13 +1,13 @@
 ---
 page_id: history-short-history-of-england-section-the-triumph-of-the-whigs-cfe91015
 page_kind: source
-summary: THE TRIUMPH OF THE WHIGS: 171 source-backed entries and 10 atom(s) from raw/history_short_history_of_england.pdf.
+summary: THE TRIUMPH OF THE WHIGS: 170 source-backed entries and 2 atom(s) from raw/history_short_history_of_england.pdf.
 sources: raw/history_short_history_of_england.pdf
 updated: 2026-06-26
 domain: history-short-history-of-england
 category_path: sources/history-short-history-of-england/sections
 source_id: history_short_history_of_england.pdf
-projection_coverage: section-history-short-history-of-england-section-the-triumph-of-the-whigs-cfe91015@b54cca0bd5b5f24f0052df45a9dcbe53
+projection_coverage: section-history-short-history-of-england-section-the-triumph-of-the-whigs-cfe91015@9981625ec8023698666069be65e54e4f
 ---
 
 # THE TRIUMPH OF THE WHIGS
@@ -46,6 +46,7 @@ From [[history-short-history-of-england]].
 - The last Stuart proposals for toleration seemed thus to many as vast and empty as atheism. _(history_short_history_of_england.pdf (source-range-e5a81de4-00373))_
 - It had a hold different indeed from that of the mediæval Church, but also very different from the barren prestige of gentility which clung to it in the succeeding century. _(history_short_history_of_england.pdf (source-range-e5a81de4-00373))_
 - He is probably right; but he does not guess that this was but the degenerate continuity of the more democratic priesthood of the Middle Ages. _(history_short_history_of_england.pdf (source-range-e5a81de4-00373))_
+- It is not a debate about what an institution ought to do, or whether that institution ought to alter, but about what that institution actually is. _(history_short_history_of_england.pdf (source-range-e5a81de4-00373))_
 - To this must be added a fact generally forgotten. _(history_short_history_of_england.pdf (source-range-e5a81de4-00373))_
 - Now, something had certainly happened to the English quite inconceivable to the Scotch or the Irish. _(history_short_history_of_england.pdf (source-range-e5a81de4-00373))_
 - Masses of common people loved the Church of England without having even decided what it was. _(history_short_history_of_england.pdf (source-range-e5a81de4-00373))_
@@ -73,6 +74,7 @@ From [[history-short-history-of-england]].
 - For it was here that came to its climax and took on its terrific character that lingering crime that was called the government of Ireland. _(history_short_history_of_england.pdf (source-range-e5a81de4-00374))_
 - Men talk of the Revocation of the Edict of Nantes; but the English persecutors never had so tolerant an edict to revoke. _(history_short_history_of_england.pdf (source-range-e5a81de4-00374))_
 - Unfortunately there was another province of government in which they were still more madly persecuting the majority. _(history_short_history_of_england.pdf (source-range-e5a81de4-00374))_
+- And to this affection for the actual in the English moderates must be added (in what proportion we know not) a persecuting hatred of Popery almost maniacal but quite sincere. _(history_short_history_of_england.pdf (source-range-e5a81de4-00374))_
 - It was in advance of its age or (to use a more intelligent language) too thin and ethereal for its atmosphere. _(history_short_history_of_england.pdf (source-range-e5a81de4-00374))_
 - Much of England, then, was really alarmed at the Stuart scheme of toleration, sincere or insincere, because it seemed theoretical and therefore fanciful. _(history_short_history_of_england.pdf (source-range-e5a81de4-00374))_
 - that country was covered till towards the end of the eighteenth century; it is enough to say here that the whole attitude to the Irish was tragically typified, and tied up with our expulsion of the Stuarts, in one of those acts that are remembered for ever. _(history_short_history_of_england.pdf (source-range-e5a81de4-00379))_
@@ -81,6 +83,7 @@ From [[history-short-history-of-england]].
 - It is not a matter on which there is much more to be said. _(history_short_history_of_england.pdf (source-range-e5a81de4-00379))_
 - The Prince of Orange, whom the aristocracy had summoned to the throne, landed in that country with an English and Dutch army, won the Battle of the Boyne, but saw his army successfully arrested before Limerick by the military genius of Patrick Sarsfield. _(history_short_history_of_england.pdf (source-range-e5a81de4-00379))_
 - The new English Government occupied the town and immediately broke the promise. _(history_short_history_of_england.pdf (source-range-e5a81de4-00379))_
+- It was a tragic necessity that the Irish should remember it; but it was far more tragic that the English forgot it. _(history_short_history_of_england.pdf (source-range-e5a81de4-00379))_
 - The check was so complete that peace could only be restored by promising complete religious liberty to the Irish, in return for the surrender of Limerick. _(history_short_history_of_england.pdf (source-range-e5a81de4-00379))_
 - The Prince of Orange, whom the aristocracy had summoned to the throne, landed in that country with an English and Dutch army, won the Battle of the Boyne, but saw his army successfully arrested before Limerick by the military genius of Patrick Sarsfield. _(history_short_history_of_england.pdf (source-range-e5a81de4-00379))_
 - And for the new England, especially the new English nobility, France was the enemy. _(history_short_history_of_england.pdf (source-range-e5a81de4-00380))_
@@ -90,6 +93,7 @@ From [[history-short-history-of-england]].
 - But their sympathies were with France, among other foreign countries; they took refuge in France, the elder before and the younger after his period of rule; and France aided the later Jacobite efforts to restore their line. _(history_short_history_of_england.pdf (source-range-e5a81de4-00380))_
 - in particular may well be called the founder of the British Navy. _(history_short_history_of_england.pdf (source-range-e5a81de4-00380))_
 - The aristocrats to whom power passed finally at the Revolution were already ceasing to have any supernatural faith in Protestantism as against Catholicism; but they had a very natural faith in England as against France; and even, in a certain sense, in English institutions as against French institutions. _(history_short_history_of_england.pdf (source-range-e5a81de4-00380))_
+- In this matter, in short, it is probable enough that the aristocrats were popular as patriots will always be popular. _(history_short_history_of_england.pdf (source-range-e5a81de4-00380))_
 - Somebody, when he was looking for the remains of John of Gaunt. _(history_short_history_of_england.pdf (source-range-e5a81de4-00380))_
 - He could say it with all the naïveté of scepticism, and never dream how far away from John of Gaunt he was really wandering in saying so. _(history_short_history_of_england.pdf (source-range-e5a81de4-00380))_
 - It is true that the last Stuarts were themselves far from unpatriotic; and James II. _(history_short_history_of_england.pdf (source-range-e5a81de4-00380))_
@@ -99,6 +103,7 @@ From [[history-short-history-of-england]].
 - George was when he was at home pretty much what the King of the Cannibal Islands was when he was at home-a savage personal ruler scarcely logical enough to be called a despot. _(history_short_history_of_england.pdf (source-range-e5a81de4-00381))_
 - In the second we have the condition in which even those effecting it can hardly call it natural, but only call it necessary. _(history_short_history_of_england.pdf (source-range-e5a81de4-00381))_
 - The transformation through which the external relations of England passed at the end of the seventeenth century is symbolized by two very separate and definite steps; the first the accession of a Dutch king and the second the accession of a German king. _(history_short_history_of_england.pdf (source-range-e5a81de4-00381))_
+- In the first were present all the features that can partially make an unnatural thing natural. _(history_short_history_of_england.pdf (source-range-e5a81de4-00381))_
 - In many ways William, cynical as he was, carried on the legend of the greater and grimmer Puritanism. _(history_short_history_of_england.pdf (source-range-e5a81de4-00381))_
 - George of Hanover was simply something stuffed into a hole in the wall by English aristocrats, who practically admitted that they were simply stopping it with rubbish. _(history_short_history_of_england.pdf (source-range-e5a81de4-00381))_
 - William was a man of acute if narrow intelligence; George was a man of no intelligence. _(history_short_history_of_england.pdf (source-range-e5a81de4-00381))_
@@ -141,6 +146,7 @@ From [[history-short-history-of-england]].
 - Goldsmith is full of it; it is the whole point of that fine poem "The Deserted Village," and is set out theoretically with great lucidity and spirit in "The Vicar of Wakefield." Swift is full of it; and found in it an intellectual _(history_short_history_of_england.pdf (source-range-e5a81de4-00389))_
 - Bolingbroke stands for a whole body of conviction which bulked very big in English history, but which with the recent winding of the course of history has gone out of sight. _(history_short_history_of_england.pdf (source-range-e5a81de4-00389))_
 - Johnson is full of it; it is what he meant when he denounced minority rule in Ireland, as well as when he said that the devil was the first Whig. _(history_short_history_of_england.pdf (source-range-e5a81de4-00389))_
+- Yet without grasping it we cannot understand our past, nor, I will add, our future. _(history_short_history_of_england.pdf (source-range-e5a81de4-00389))_
 - Curiously enough, the best English books of the eighteenth century are crammed with it, yet modern culture cannot see it when it is there. _(history_short_history_of_england.pdf (source-range-e5a81de4-00389))_
 - In the time of Queen Anne it was probably the opinion of the majority of people in England. _(history_short_history_of_england.pdf (source-range-e5a81de4-00393))_
 - But it was not only in Ireland that the minority had begun to rule. _(history_short_history_of_england.pdf (source-range-e5a81de4-00393))_
@@ -158,6 +164,7 @@ From [[history-short-history-of-england]].
 - and Lord Bute; and when these broke in his hand he died with all the dignity of the sed victa Catoni . _(history_short_history_of_england.pdf (source-range-e5a81de4-00395))_
 - It was a young soldier of middle rank, James Wolfe, who fell gloriously driving the French out of Quebec; it was a young clerk of the East India Company, Robert Clive, who threw open to the English the golden gates of India. _(history_short_history_of_england.pdf (source-range-e5a81de4-00395))_
 - By the end of this epoch Chatham, who incarnated and even created, at least in a representative sense, all that we call the British Empire, was at the height of his own and his country's glory. _(history_short_history_of_england.pdf (source-range-e5a81de4-00395))_
+- He was always a Royalist, but never a Jacobite. _(history_short_history_of_england.pdf (source-range-e5a81de4-00395))_
 - In this connection he has the characteristic which perhaps humanized but was not allowed to hamper the aristocratic plan; I mean that he could use the middle classes. _(history_short_history_of_england.pdf (source-range-e5a81de4-00395))_
 - He celebrated it in his great book "The Patriot King," written in exile; and when he thought that George's great-grandson was enough of a patriot, he only wished that he might be more of a king. _(history_short_history_of_england.pdf (source-range-e5a81de4-00395))_
 - He summarized the new England of the Revolution in everything, especially in everything in which that movement seems to many to be intrinsically contradictory and yet was most corporately consistent. _(history_short_history_of_england.pdf (source-range-e5a81de4-00395))_
@@ -180,32 +187,8 @@ From [[history-short-history-of-england]].
 
 ## Technical atoms
 
-> was never in the old sense a King; he was a Leader of the Opposition to his own Ministers.
-_(source: history_short_history_of_england.pdf (source-range-e5a81de4-00367))_
-
-> That is one of the transitional complexities that can only be conveyed by such contradictions.
-_(source: history_short_history_of_england.pdf (source-range-e5a81de4-00368))_
-
 > The "No Popery" force became the crowd if it never became the people.
 _(source: history_short_history_of_england.pdf (source-range-e5a81de4-00372))_
 
-> It is not a debate about what an institution ought to do, or whether that institution ought to alter, but about what that institution actually is.
-_(source: history_short_history_of_england.pdf (source-range-e5a81de4-00373))_
-
-> And to this affection for the actual in the English moderates must be added (in what proportion we know not) a persecuting hatred of Popery almost maniacal but quite sincere.
-_(source: history_short_history_of_england.pdf (source-range-e5a81de4-00374))_
-
-> It was a tragic necessity that the Irish should remember it; but it was far more tragic that the English forgot it.
-_(source: history_short_history_of_england.pdf (source-range-e5a81de4-00379))_
-
-> In this matter, in short, it is probable enough that the aristocrats were popular as patriots will always be popular.
-_(source: history_short_history_of_england.pdf (source-range-e5a81de4-00380))_
-
-> In the first were present all the features that can partially make an unnatural thing natural.
-_(source: history_short_history_of_england.pdf (source-range-e5a81de4-00381))_
-
-> Yet without grasping it we cannot understand our past, nor, I will add, our future.
-_(source: history_short_history_of_england.pdf (source-range-e5a81de4-00389))_
-
-> He was always a Royalist, but never a Jacobite.
-_(source: history_short_history_of_england.pdf (source-range-e5a81de4-00395))_
+> When William landed at Torbay on the invitation of the other Whig nobles, Churchill, as if to add something ideal to his imitation of Iscariot, went to James with wanton professions of love and loyalty, went forth in arms as if to defend the country from invasion, and then calmly handed the army over to the invader.
+_(source: history_short_history_of_england.pdf (source-range-e5a81de4-00387))_

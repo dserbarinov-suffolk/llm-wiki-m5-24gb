@@ -99,6 +99,84 @@ class TestWikiLayer:
         assert "Updated summary." in store.read_index()
         assert "New body." in store.read_page("hittites")
 
+    def test_delete_source_pages_not_in_removes_stale_generated_pages(
+        self, store: WikiStore
+    ) -> None:
+        store.write_page(
+            WikiPage.from_metadata(
+                PageMetadata(
+                    page_id="kept",
+                    page_kind="concept",
+                    summary="Kept page.",
+                    sources=("raw/article.md",),
+                ),
+                "Kept body.",
+            )
+        )
+        store.write_page(
+            WikiPage.from_metadata(
+                PageMetadata(
+                    page_id="stale",
+                    page_kind="concept",
+                    summary="Stale page.",
+                    sources=("raw/article.md",),
+                ),
+                "Stale body.",
+            )
+        )
+        store.write_page(
+            WikiPage.from_metadata(
+                PageMetadata(
+                    page_id="manual",
+                    page_kind="concept",
+                    summary="Manual page.",
+                    sources=("other.md",),
+                ),
+                "Manual body.",
+            )
+        )
+
+        removed = store.delete_source_pages_not_in("article.md", {"kept"})
+
+        assert removed == ("stale",)
+        assert store.read_page("kept")
+        assert store.read_page("manual")
+        with pytest.raises(PageNotFoundError):
+            store.read_page("stale")
+        assert "[[stale]]" not in store.read_index()
+
+    def test_delete_cross_source_pages_not_in_uses_projection_pointer(
+        self, store: WikiStore
+    ) -> None:
+        current = WikiPage.from_metadata(
+            PageMetadata(
+                page_id="current",
+                page_kind="concept",
+                summary="Current cross-source page.",
+                projection_coverage_pointer="cross-source-current@hash",
+            ),
+            "Current body.",
+        )
+        stale = WikiPage.from_metadata(
+            PageMetadata(
+                page_id="old-shared",
+                page_kind="concept",
+                summary="Old cross-source page.",
+                projection_coverage_pointer="cross-source-old-shared@hash",
+            ),
+            "Old body.",
+        )
+        store.write_page(current)
+        store.write_page(stale)
+
+        removed = store.delete_cross_source_pages_not_in({"current"})
+
+        assert removed == ("old-shared",)
+        assert store.read_page("current")
+        with pytest.raises(PageNotFoundError):
+            store.read_page("old-shared")
+        assert "[[old-shared]]" not in store.read_index()
+
     def test_reserved_names_rejected(self, store: WikiStore) -> None:
         with pytest.raises(WikiStoreError, match="reserved"):
             store.write_page(_page(page_id="index", page_kind="concept"))

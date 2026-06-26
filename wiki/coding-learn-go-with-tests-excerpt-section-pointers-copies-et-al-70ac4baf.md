@@ -1,13 +1,13 @@
 ---
 page_id: coding-learn-go-with-tests-excerpt-section-pointers-copies-et-al-70ac4baf
 page_kind: source
-summary: Pointers, copies, et al: 11 source-backed entries and 6 atom(s) from raw/coding_learn_go_with_tests_excerpt.pdf.
+summary: Pointers, copies, et al: 9 source-backed entries and 4 atom(s) from raw/coding_learn_go_with_tests_excerpt.pdf.
 sources: raw/coding_learn_go_with_tests_excerpt.pdf
 updated: 2026-06-26
 domain: coding-learn-go-with-tests-excerpt
 category_path: sources/coding-learn-go-with-tests-excerpt/sections
 source_id: coding_learn_go_with_tests_excerpt.pdf
-projection_coverage: section-coding-learn-go-with-tests-excerpt-section-pointers-copies-et-al-70ac4baf@3edc7534ecb856ae4c7a755f90737bc7
+projection_coverage: section-coding-learn-go-with-tests-excerpt-section-pointers-copies-et-al-70ac4baf@228a82a80ede00a4377211950c30415c
 ---
 
 # Pointers, copies, et al
@@ -24,16 +24,10 @@ From [[coding-learn-go-with-tests-excerpt]].
 
 ## Technical atoms
 
-> This may make them feel like a "reference type", but as Dave Cheney describes they are not.
-_(source: coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00606))_
-
 ```
 A	map	value	is	a	pointer	to	a	runtime.hmap	structure.
 ```
 _(source: coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00607))_
-
-> Therefore, you should never initialize a nil map variable:
-_(source: coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00610))_
 
 ```
 var m map [string]string

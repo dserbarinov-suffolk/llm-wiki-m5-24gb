@@ -1,13 +1,13 @@
 ---
 page_id: rpg-cairn-2e-core-section-omens-should-f51ff4fd
 page_kind: source
-summary: Omens Should...: 4 source-backed entries and 2 atom(s) from raw/rpg_cairn_2e_core.pdf.
+summary: Omens Should...: 3 source-backed entries and 1 atom(s) from raw/rpg_cairn_2e_core.pdf.
 sources: raw/rpg_cairn_2e_core.pdf
 updated: 2026-06-26
 domain: rpg-cairn-2e-core
 category_path: sources/rpg-cairn-2e-core/sections
 source_id: rpg_cairn_2e_core.pdf
-projection_coverage: section-rpg-cairn-2e-core-section-omens-should-f51ff4fd@2c3645d78b2b5f20c4001ec9a6da03af
+projection_coverage: section-rpg-cairn-2e-core-section-omens-should-f51ff4fd@d3fc3c4debe734e11edf5ef078320542
 ---
 
 # Omens Should...
@@ -20,9 +20,6 @@ From [[rpg-cairn-2e-core]].
 - - Reveal a pattern or other obvious indicator that something terrible is going on. _(rpg_cairn_2e_core.pdf (source-range-f6f3256b-00636))_
 
 ## Technical atoms
-
-> - Never rely on a specific player character for relevance.
-_(source: rpg_cairn_2e_core.pdf (source-range-f6f3256b-00634))_
 
 | entry | content |
 | --- | --- |

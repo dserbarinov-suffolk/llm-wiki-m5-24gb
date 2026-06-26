@@ -61,6 +61,19 @@ def index_page_ids(text: str) -> set[str]:
     return {entry.page_id for entry in parse_index(text)}
 
 
+def remove_index_entries(text: str, page_ids: set[str]) -> str:
+    """Remove exact page-id entries from index.md while preserving headings."""
+    if not page_ids:
+        return text
+    lines = []
+    for line in text.splitlines():
+        match = _ENTRY_RE.match(line.strip())
+        if match and match["page_id"] in page_ids:
+            continue
+        lines.append(line)
+    return "\n".join(lines) + "\n"
+
+
 def upsert_index_entry(text: str, page_metadata: PageMetadata) -> str:
     """Insert or replace the entry for PageMetadata, keeping its page_kind block sorted.
 

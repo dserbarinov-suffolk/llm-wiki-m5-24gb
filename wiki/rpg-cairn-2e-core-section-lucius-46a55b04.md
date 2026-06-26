@@ -7,7 +7,7 @@ updated: 2026-06-26
 domain: rpg-cairn-2e-core
 category_path: sources/rpg-cairn-2e-core/sections
 source_id: rpg_cairn_2e_core.pdf
-projection_coverage: section-rpg-cairn-2e-core-section-lucius-46a55b04@e13d44041ffc6478c8f0ca7d3d305070
+projection_coverage: section-rpg-cairn-2e-core-section-lucius-46a55b04@eadb261fde4a0ddec585c8b14baf27a5
 ---
 
 # Lucius :
@@ -37,5 +37,5 @@ From [[rpg-cairn-2e-core]].
 
 ## Technical atoms
 
-> Except for perhaps the truth?
+> But that means I have to make a WIL save, right?
 _(source: rpg_cairn_2e_core.pdf (source-range-f6f3256b-00516))_

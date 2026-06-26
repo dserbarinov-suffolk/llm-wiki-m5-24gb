@@ -1,13 +1,13 @@
 ---
 page_id: coding-learn-go-with-tests-excerpt-section-refactor-d634aa93
 page_kind: source
-summary: Refactor: 9 source-backed entries and 3 atom(s) from raw/coding_learn_go_with_tests_excerpt.pdf.
+summary: Refactor: 8 source-backed entries and 2 atom(s) from raw/coding_learn_go_with_tests_excerpt.pdf.
 sources: raw/coding_learn_go_with_tests_excerpt.pdf
 updated: 2026-06-26
 domain: coding-learn-go-with-tests-excerpt
 category_path: sources/coding-learn-go-with-tests-excerpt/sections
 source_id: coding_learn_go_with_tests_excerpt.pdf
-projection_coverage: section-coding-learn-go-with-tests-excerpt-section-refactor-d634aa93@e2effbc8bea2f2c07e53b28383b12f3a
+projection_coverage: section-coding-learn-go-with-tests-excerpt-section-refactor-d634aa93@d1e7b21b04b17656d0c1d3bb99d065bc
 ---
 
 # Refactor
@@ -29,9 +29,6 @@ From [[coding-learn-go-with-tests-excerpt]].
 func TestSumAllTails(t	*testing.T)	{ checkSums	:= func (t	testing.TB,	got,	want	[]int)	{ t.Helper() if !reflect.DeepEqual(got,	want)	{ t.Errorf("got	%v	want	%v",	got,	want) } } t.Run("make	the	sums	of	tails	of", func (t	*testing.T)	{ got	:=	SumAllTails([]int{1,	2},	[]int{0,	9}) want	:=	[]int{2,	9} checkSums(t,	got,	want) }) t.Run("safely	sum	empty	slices", func (t	*testing.T)	{ got	:=	SumAllTails([]int{},	[]int{3,	4,	5}) want	:=	[]int{0,	9} checkSums(t,	got,	want) }) }
 ```
 _(source: coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00388))_
-
-> By defining this function inside the test, it cannot be used by other functions in this package.
-_(source: coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00391))_
 
 ```
 $	go	test ./sum_test.go:52:21:	cannot	use	"dave" ( type	string ) as	type	[]int in	argument	to	checkSums

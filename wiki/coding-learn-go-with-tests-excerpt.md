@@ -1,13 +1,13 @@
 ---
 page_id: coding-learn-go-with-tests-excerpt
 page_kind: source
-summary: Claim-ledger projection (coding): 647 usable entries, 208 technical atoms, 90 needs-review, 155 linked page(s); write decision write-with-review-work.
+summary: Claim-ledger projection (coding): 640 usable entries, 191 technical atoms, 92 needs-review, 155 linked page(s); write decision write-with-review-work.
 sources: raw/coding_learn_go_with_tests_excerpt.pdf
 updated: 2026-06-26
 domain: coding-learn-go-with-tests-excerpt
 category_path: sources
 source_id: coding_learn_go_with_tests_excerpt.pdf
-projection_coverage: projection-coverage-66a9e9943b089ac5@1942c952b62f76b3
+projection_coverage: projection-coverage-3ecb2a34c0d59ff7@78959f95e97c2a8e
 ---
 
 # Learn Go with Tests (Excerpt)
@@ -70,10 +70,11 @@ _(source: coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00023))_
 - If the tests pass, then you are probably using an earlier version of Go. _(coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00025))_
 - Luckily, the problem is easy to fix. _(coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00027))_
 - For now, your module file is minimal, and you can leave it that way. _(coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00029))_
+- The name of the module, example.com/hello, usually refers to a URL where the module can be found and downloaded. _(coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00029))_
 - For compatibility with tools we'll start using soon, make sure your module's name has a dot somewhere in it, like the dot in .com of example.com/hello. _(coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00029))_
 - We can get back to testing and learning Go now since the tests should run, even on Go 1.16. _(coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00029))_
-- To read more about modules, you can check out the reference in the Golang documentation. _(coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00029))_
 - In future chapters, you will need to run go mod init SOMENAME in each _(coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00029))_
+- The name of the module, example.com/hello, usually refers to a URL where the module can be found and downloaded. _(coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00029))_
 - new folder before running commands like go test or go build . _(coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00030))_
 
 ```
@@ -86,7 +87,7 @@ module	example.com/hello go	1.16
 ```
 _(source: coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00028))_
 
-> The name of the module, example.com/hello, usually refers to a URL where the module can be found and downloaded.
+> To read more about modules, you can check out the reference in the Golang documentation.
 _(source: coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00029))_
 
 ## Back to Testing
@@ -97,14 +98,9 @@ _(source: coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00029))_
 - of the code you will write. _(coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00033))_
 - Writing tests Writing a test is just like writing a function, with a few rules It needs to be in a file with a name like xxx_test.go The test function must start with the word Test The test function takes one argument only t *testing.T To use the *testing.T type, you need to import "testing" , like we did with fmt in the other file For now, it's enough to know that your t of type *testing.T is your "hook" into the testing framework so you can do things like t.Fail() when you want to fail. _(coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00033))_
 - When you make the test fail, it should be clear how it works. _(coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00034))_
+- You can read more about the placeholder strings in the fmt documentation. _(coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00034))_
 - The f stands for format, which allows us to build a string with values inserted into the placeholder values %q . _(coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00034))_
 - For tests, %q is very useful as it wraps your values in double quotes. _(coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00034))_
-
-> It should've passed!
-_(source: coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00032))_
-
-> You can read more about the placeholder strings in the fmt documentation.
-_(source: coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00034))_
 
 ## Go's documentation
 
@@ -130,6 +126,7 @@ _(source: coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00039))_
 - In the last example, we wrote the test after the code had been written so that you could get an example of how to write a test and declare a function. _(coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00044))_
 - This is basic testdriven development and allows us to make sure our test is actually testing what we want. _(coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00046))_
 - When using a statically typed language like Go it is important to listen to the compiler . _(coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00051))_
+- The compiler understands how your code should snap together and work so you don't have to. _(coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00051))_
 - In this case the compiler is telling you what you need to do to continue. _(coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00052))_
 - We have to change our function Hello to accept an argument. _(coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00052))_
 - If you try and run your tests again your hello.go will fail to compile because you're not passing an argument. _(coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00055))_
@@ -150,9 +147,6 @@ _(source: coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00048))_
 ./hello_test.go:6:18:	too	many	arguments	in	call	to	Hello have	(string) want	()
 ```
 _(source: coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00050))_
-
-> The compiler understands how your code should snap together and work so you don't have to.
-_(source: coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00051))_
 
 ```
 func Hello(name	string)	string	{ return "Hello,	world" }
@@ -183,11 +177,9 @@ _(source: coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00062))_
 ## A note on source control
 
 - At this point, if you are using source control (which you should!) I would commit the code as it is. _(coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00064))_
+- It is nice to commit at this point in case you somehow get into a mess with refactoring - you can always go back to the working version. _(coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00065))_
 - I wouldn't push to main though, because I plan to refactor next. _(coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00065))_
 - There's not a lot to refactor here, but we can introduce another language feature, constants . _(coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00066))_
-
-> It is nice to commit at this point in case you somehow get into a mess with refactoring - you can always go back to the working version.
-_(source: coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00065))_
 
 ## Constants
 
@@ -214,7 +206,6 @@ _(source: coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00068))_
 - Now that the tests are passing, we can and should refactor our tests. _(coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00083))_
 - We've refactored our assertion into a new function. _(coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00086))_
 - We need to pass in t *testing.T so that we can tell the test code to fail when we need to. _(coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00086))_
-- For helper functions, it's a good idea to accept a testing.TB which is an interface that *testing.T and *testing.B both satisfy, so you can call helper functions from a test, or a benchmark (don't worry if words like "interface" mean nothing to you right now, it will be covered later). _(coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00087))_
 - You should see that line turn grey or change to another color than the rest of your code to indicate it's now commented out. _(coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00088))_
 - By doing this, when it fails, the line number reported will be in our function call rather than inside our test helper. _(coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00088))_
 - If you still don't understand, comment it out, make a test fail and observe the test output. _(coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00088))_
@@ -222,7 +213,6 @@ _(source: coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00068))_
 - Comments in Go are a great way to add additional information to your code, or in this case, a quick way to tell the compiler to ignore a line. _(coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00088))_
 - t.Helper() is needed to tell the test suite that this method is a helper. _(coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00088))_
 - By doing this, when it fails, the line number reported will be in our function call rather than inside our test helper. _(coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00088))_
-- When you have more than one argument of the same type (in our case two strings) rather than having (got string, want string) you can shorten it to (got, want string) . _(coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00089))_
 
 ```
 func TestHello(t	*testing.T)	{ t.Run("saying	hello	to	people", func (t	*testing.T)	{ got	:=	Hello("Chris") want	:=	"Hello,	Chris" if got	!=	want	{ t.Errorf("got	%q	want	%q",	got,	want) } }) t.Run("say	'Hello,	World'	when	an	empty	string	is	supplied", func (t	*testing.T)	{ got	:=	Hello("") want	:=	"Hello,	World" if got	!=	want	{ t.Errorf("got	%q	want	%q",	got,	want) } }) }
@@ -244,8 +234,11 @@ func TestHello(t	*testing.T)	{ t.Run("saying	hello	to	people", func (t	*testing.
 ```
 _(source: coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00084))_
 
-> You can comment out the t.Helper() code by adding two forward slashes // at the beginning of the line.
-_(source: coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00088))_
+> For helper functions, it's a good idea to accept a testing.TB which is an interface that *testing.T and *testing.B both satisfy, so you can call helper functions from a test, or a benchmark (don't worry if words like "interface" mean nothing to you right now, it will be covered later).
+_(source: coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00087))_
+
+> When you have more than one argument of the same type (in our case two strings) rather than having (got string, want string) you can shorten it to (got, want string) .
+_(source: coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00089))_
 
 ## Back to source control
 
@@ -257,12 +250,16 @@ _(source: coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00088))_
 - On the face of it this may seem tedious but sticking to the feedback loop is important. _(coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00099))_
 - Not only does it ensure that you have relevant tests , it helps ensure you design good software by refactoring with the safety of tests. _(coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00100))_
 - Not only does it ensure that you have relevant tests , it helps ensure you design good software by refactoring with the safety of tests. _(coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00100))_
-- As a developer it can be very hard to work with a codebase when failing tests do not give a clear idea as to what the problem is. _(coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00101))_
 - Seeing the test fail is an important check because it also lets you see what the error message looks like. _(coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00101))_
 - Seeing the test fail is an important check because it also lets you see what the error message looks like. _(coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00101))_
-- By ensuring your tests are fast and setting up your tools so that running tests is simple you can get in to a state of flow when writing your code. _(coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00102))_
 - You won't be saving yourself any time, especially in the long run. _(coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00103))_
 - By not writing tests, you are committing to manually checking your code by running your software, which breaks your state of flow. _(coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00103))_
+
+> As a developer it can be very hard to work with a codebase when failing tests do not give a clear idea as to what the problem is.
+_(source: coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00101))_
+
+> By ensuring your tests are fast and setting up your tools so that running tests is simple you can get in to a state of flow when writing your code.
+_(source: coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00102))_
 
 ## Keep going! More requirements
 
@@ -271,7 +268,9 @@ _(source: coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00088))_
 - If a language is passed in that we do not recognise, just default to English. _(coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00105))_
 - We should be confident that we can easily use TDD to flesh out this functionality! _(coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00106))_
 - When you try and run the test again it will complain about not passing through enough arguments to Hello in your other tests and in hello.go _(coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00113))_
+- The tests should now pass. _(coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00119))_
 - Try and refactor it yourself, with every change make sure you re-run the tests to make sure your refactoring isn't breaking anything. _(coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00120))_
+- You should see some problems in the code, "magic" strings, some of which are repeated. _(coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00120))_
 - Now it is time to refactor . _(coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00120))_
 
 ```
@@ -310,12 +309,6 @@ func Hello(name	string,	language	string)	string	{ if name	==	""	{ name	=	"World"
 ```
 _(source: coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00118))_
 
-> The tests should now pass.
-_(source: coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00119))_
-
-> You should see some problems in the code, "magic" strings, some of which are repeated.
-_(source: coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00120))_
-
 ```
 const spanish	=	"Spanish" const englishHelloPrefix	=	"Hello,	" const spanishHelloPrefix	=	"Hola,	" func Hello(name	string,	language	string)	string	{ if name	==	""	{ name	=	"World" } if language	==	spanish	{ return spanishHelloPrefix	+	name } return englishHelloPrefix	+	name }
 ```
@@ -337,14 +330,12 @@ _(source: coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00129))_
 
 - When you have lots of if statements checking a particular value it is common to use a switch statement instead. _(coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00131))_
 - We can use switch to refactor the code to make it easier to read and more extensible if we wish to add more language support later _(coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00131))_
+- Write a test to now include a greeting in the language of your choice and you should see how simple it is to extend our amazing function. _(coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00133))_
 
 ```
 func Hello(name	string,	language	string)	string	{ if name	==	""	{ name	=	"World" } prefix	:=	englishHelloPrefix switch language	{ case spanish: prefix	=	spanishHelloPrefix case french: prefix	=	frenchHelloPrefix } return prefix	+	name }
 ```
 _(source: coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00132))_
-
-> Write a test to now include a greeting in the language of your choice and you should see how simple it is to extend our amazing function.
-_(source: coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00133))_
 
 ## one...last...refactor?
 
@@ -427,31 +418,28 @@ _(source: coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00173))_
 
 ## Write the minimal amount of code for the test to run and check the failing test output
 
-- Remember, when you have more than one argument of the same type (in our case two integers) rather than having (x int, y int) you can shorten it to (x, y int) . _(coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00177))_
 - Now run the tests, and we should be happy that the test is correctly reporting what is wrong. _(coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00178))_
 - You can refer this wiki for more details. _(coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00180))_
 - If you have noticed we learnt about named return value in the last section but aren't using the same here. _(coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00180))_
+- It should generally be used when the meaning of the result isn't clear from context, in our case it's pretty much clear that Add function will add the parameters. _(coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00180))_
 
 ```
 package integers func Add(x,	y	int)	int	{ return 0 }
 ```
 _(source: coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00176))_
 
+> Remember, when you have more than one argument of the same type (in our case two integers) rather than having (x int, y int) you can shorten it to (x, y int) .
+_(source: coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00177))_
+
 ```
 adder_test.go:10:	expected	'4'	but	got	'0'
 ```
 _(source: coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00179))_
 
-> It should generally be used when the meaning of the result isn't clear from context, in our case it's pretty much clear that Add function will add the parameters.
-_(source: coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00180))_
-
 ## Write enough code to make it pass
 
 - In the strictest sense of TDD we should now write the minimal amount of code to make the test pass . _(coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00182))_
 - Once we're more familiar with Go's syntax I will introduce a technique called "Property Based Testing" , which would stop annoying developers and help you find bugs. _(coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00186))_
-
-> A pedantic programmer may do this
-_(source: coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00182))_
 
 ```
 func Add(x,	y	int)	int	{ return 4 }
@@ -471,7 +459,9 @@ _(source: coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00189))_
 - There's not a lot in the actual code we can really improve on here. _(coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00191))_
 - This is great because it aids the usability of code you are writing. _(coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00193))_
 - This is great because it aids the usability of code you are writing. _(coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00193))_
-- You can add documentation to functions with comments, and these will appear in Go Doc just like when you look at the standard library's documentation. _(coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00194))_
+
+> You can add documentation to functions with comments, and these will appear in Go Doc just like when you look at the standard library's documentation.
+_(source: coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00194))_
 
 ```
 //	Add	takes	two	integers	and	returns	the	sum	of	them. func Add(x,	y	int)	int	{ return x	+	y }
@@ -481,7 +471,6 @@ _(source: coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00195))_
 ## Testable Examples
 
 - You will find many examples in the standard library documentation. _(coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00197))_
-- If you really want to go the extra mile you can make Testable Examples. _(coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00197))_
 - Example functions are compiled whenever tests are executed. _(coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00199))_
 - (If your editor doesn't automatically import packages for you, the compilation step will fail because you will be missing import "fmt" in adder_test.go . _(coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00202))_
 - It is strongly recommended you research how to have these kind of errors fixed for you automatically in whatever editor you are using.) _(coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00202))_
@@ -489,21 +478,24 @@ _(source: coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00195))_
 - If ever your code changes so that the example is no longer valid, your build will fail. _(coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00203))_
 - Adding this code will cause the example to appear in your documentation, making your code even more accessible. _(coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00203))_
 - Running the package's test suite, we can see the example ExampleAdd function is executed with no further arrangement from us: _(coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00204))_
+- While the example will always be compiled, adding this comment means the example will also be executed. _(coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00206))_
 - Go ahead and temporarily remove the comment // Output: 6 , then run go test , and you will see ExampleAdd is no longer executed. _(coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00206))_
+- While the example will always be compiled, adding this comment means the example will also be executed. _(coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00206))_
 - Go ahead and temporarily remove the comment // Output: 6 , then run go test , and you will see ExampleAdd is no longer executed. _(coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00206))_
+- Examples without output comments are useful for demonstrating code that cannot run as unit tests, such as that which accesses the network, while guaranteeing the example at least compiles. _(coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00207))_
+- Examples without output comments are useful for demonstrating code that cannot run as unit tests, such as that which accesses the network, while guaranteeing the example at least compiles. _(coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00207))_
 - Before navigating to your project's directory, make sure you have installed pkgsite by running the following command: go install golang.org/x/pkgsite/cmd/pkgsite@latest , then run pkgsite -open . _(coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00208))_
 - Follow that link, and then look under Integers , then under func Add , then expand Example and you should see the example you added for sum := Add(1, 5) . _(coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00208))_
 - Inside here you'll see a list of all of Go's Standard Library packages, plus Third Party packages you have installed, under which you should see your example documentation for github.com/quii/learn-go-with-tests . _(coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00208))_
 - Follow that link, and then look under Integers , then under func Add , then expand Example and you should see the example you added for sum := Add(1, 5) . _(coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00208))_
 - Inside here you'll see a list of all of Go's Standard Library packages, plus Third Party packages you have installed, under which you should see your example documentation for github.com/quii/learn-go-with-tests . _(coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00208))_
 - Before navigating to your project's directory, make sure you have installed pkgsite by running the following command: go install golang.org/x/pkgsite/cmd/pkgsite@latest , then run pkgsite -open . _(coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00208))_
-- If you publish your code with examples to a public URL, you can share the documentation of your code at pkg.go.dev. _(coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00209))_
 - For example, here is the finalised API for this chapter. _(coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00209))_
 - This web interface allows you to search for documentation of standard library packages and third-party packages. _(coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00209))_
 - For example, here is the finalised API for this chapter. _(coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00209))_
 
-> Because such examples are validated by the Go compiler, you can be confident your documentation's examples always reflect current code behavior.
-_(source: coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00199))_
+> If you really want to go the extra mile you can make Testable Examples.
+_(source: coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00197))_
 
 ```
 func ExampleAdd()	{ sum	:=	Add(1,	5) fmt.Println(sum) //	Output:	6 }
@@ -515,14 +507,8 @@ $	go	test	-v ===	RUN			TestAdder ---	PASS:	TestAdder ( 0.00s ) ===	RUN			Example
 ```
 _(source: coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00205))_
 
-> While the example will always be compiled, adding this comment means the example will also be executed.
-_(source: coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00206))_
-
-> Examples without output comments are useful for demonstrating code that cannot run as unit tests, such as that which accesses the network, while guaranteeing the example at least compiles.
-_(source: coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00207))_
-
-> , which should open a web browser for you, pointing to http://localhost:8080 .
-_(source: coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00208))_
+> If you publish your code with examples to a public URL, you can share the documentation of your code at pkg.go.dev.
+_(source: coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00209))_
 
 ## Wrapping up
 
@@ -577,6 +563,7 @@ _(source: coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00230))_
 - Here we are declaring a string variable only. _(coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00236))_
 - Here we are declaring a string variable only. _(coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00236))_
 - Hence, the explicit version. _(coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00236))_
+- Run the test and it should pass. _(coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00237))_
 - Additional variants of the for loop are described here. _(coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00238))_
 
 ```
@@ -584,16 +571,10 @@ func Repeat(character	string)	string	{ var repeated	string for i	:=	0;	i	<	5;	i+
 ```
 _(source: coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00233))_
 
-> Unlike other languages like C, Java, or JavaScript there are no parentheses surrounding the three components of the for statement and the braces { } are always required.
-_(source: coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00234))_
-
 ```
 var repeated	string
 ```
 _(source: coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00235))_
-
-> Run the test and it should pass.
-_(source: coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00237))_
 
 ## Refactor
 
@@ -606,9 +587,9 @@ _(source: coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00241))_
 
 ## Benchmarking
 
+- Loop() returns true as long as the benchmark should continue running. _(coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00247))_
 - The testing.B gives you access to the loop function. _(coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00247))_
 - After Loop() returns false, b.N contains the total number of iterations that ran. _(coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00248))_
-- When the benchmark code is executed, it measures how long it takes. _(coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00248))_
 - After Loop() returns false, b.N contains the total number of iterations that ran. _(coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00248))_
 - The number of times the code is run shouldn't matter to you, the framework will determine what is a "good" value for that to let you have some decent results. _(coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00249))_
 - To run the benchmarks do go test -bench=. _(coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00250))_
@@ -627,8 +608,8 @@ func BenchmarkRepeat(b	*testing.B)	{ for b.Loop()	{ Repeat("a") } }
 ```
 _(source: coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00245))_
 
-> Loop() returns true as long as the benchmark should continue running.
-_(source: coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00247))_
+> When the benchmark code is executed, it measures how long it takes.
+_(source: coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00248))_
 
 ```
 goos:	darwin goarch:	amd64 pkg:	github.com/quii/learn-go-with-tests/for/v4 10000000											136	ns/op PASS
@@ -667,8 +648,10 @@ _(source: coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00262))_
 ## Arrays and slices
 
 - Arrays allow you to store multiple elements of the same type in a variable in a particular order. _(coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00276))_
-- When you have arrays, it is very common to have to iterate over them. _(coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00277))_
 - Sum will take an array of numbers and return the total. _(coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00277))_
+
+> When you have arrays, it is very common to have to iterate over them.
+_(source: coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00277))_
 
 ## Write the test first
 
@@ -688,14 +671,12 @@ _(source: coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00283))_
 
 ## Try to run the test
 
+- If you had initialized go mod with go mod init main you will be presented with an error _testmain.go:13:2: cannot import "main" . _(coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00288))_
 - This is because according to common practice, package main will only contain integration of other packages and not unit-testable code and hence Go will not allow you to import a package with name main . _(coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00288))_
 - This is because according to common practice, package main will only contain integration of other packages and not unit-testable code and hence Go will not allow you to import a package with name main . _(coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00288))_
 - To fix this, you can rename the main module in go.mod to any other name. _(coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00289))_
 - Once the above error is fixed, if you run go test the compiler will fail with the familiar ./sum_test.go:10:15: undefined: Sum error. _(coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00290))_
 - Now we can proceed with writing the actual method to be tested. _(coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00290))_
-
-> If you had initialized go mod with go mod init main you will be presented with an error _testmain.go:13:2: cannot import "main" .
-_(source: coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00288))_
 
 ## Write the minimal amount of code for the test to run and check the failing test output
 
@@ -703,9 +684,6 @@ _(source: coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00288))_
 package main func Sum(numbers	[5]int)	int	{ return 0 }
 ```
 _(source: coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00292))_
-
-> Your test should now fail with a clear error message
-_(source: coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00293))_
 
 ```
 sum_test.go:13:	got	0	want	15	given,	[1	2	3	4	5]
@@ -759,12 +737,13 @@ _(source: coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00314))_
 
 ## Write the minimal amount of code for the test to run and check the failing test output
 
-- If you try to run the tests they will still not compile, you will have to change the first test to pass in a slice rather than an array. _(coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00321))_
-
 ```
 func Sum(numbers	[]int)	int	{ sum	:=	0 for _,	number	:= range numbers	{ sum	+=	number } return sum }
 ```
 _(source: coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00320))_
+
+> If you try to run the tests they will still not compile, you will have to change the first test to pass in a slice rather than an array.
+_(source: coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00321))_
 
 ## Write enough code to make it pass
 
@@ -772,30 +751,24 @@ _(source: coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00320))_
 
 ## Refactor
 
+- We already refactored Sum - all we did was replace arrays with slices, so no extra changes are required. _(coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00325))_
 - Remember that we must not neglect our test code in the refactoring stage - we can further improve our Sum tests. _(coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00325))_
 - Having too many tests can turn in to a real problem and it just adds more overhead in maintenance. _(coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00327))_
 - It is important to question the value of your tests. _(coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00327))_
+- It should not be a goal to have as many tests as possible, but rather to have as much confidence as possible in your code base. _(coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00327))_
 - Every test has a cost . _(coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00327))_
 - In our case, you can see that having two tests for this function is redundant. _(coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00328))_
 - If it works for a slice of one size it's very likely it'll work for a slice of any size (within reason). _(coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00328))_
+- Whilst striving for 100% coverage should not be your end goal, the coverage tool can help identify areas of your code not covered by tests. _(coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00329))_
 - If you have been strict with TDD, it's quite likely you'll have close to 100% coverage anyway. _(coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00329))_
 - Now that we are happy we have a well-tested function you should commit your great work before taking on the next challenge. _(coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00333))_
 - Now that we are happy we have a well-tested function you should commit your great work before taking on the next challenge. _(coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00333))_
 - We need a new function called SumAll which will take a varying number of slices, returning a new slice containing the totals for each slice passed in. _(coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00334))_
 
-> We already refactored Sum - all we did was replace arrays with slices, so no extra changes are required.
-_(source: coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00325))_
-
 ```
 func TestSum(t	*testing.T)	{ t.Run("collection	of	5	numbers", func (t	*testing.T)	{ numbers	:=	[]int{1,	2,	3,	4,	5} got	:=	Sum(numbers) want	:=	15 if got	!=	want	{ t.Errorf("got	%d	want	%d	given,	%v",	got,	want,	numbers) } }) t.Run("collection	of	any	size", func (t	*testing.T)	{ numbers	:=	[]int{1,	2,	3} got	:=	Sum(numbers) want	:=	6 if got	!=	want	{ t.Errorf("got	%d	want	%d	given,	%v",	got,	want,	numbers) } }) }
 ```
 _(source: coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00326))_
-
-> It should not be a goal to have as many tests as possible, but rather to have as much confidence as possible in your code base.
-_(source: coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00327))_
-
-> Whilst striving for 100% coverage should not be your end goal, the coverage tool can help identify areas of your code not covered by tests.
-_(source: coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00329))_
 
 ```
 Try	running go	test	-cover You	should	see
@@ -855,6 +828,7 @@ _(source: coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00350))_
 ## Write enough code to make it pass
 
 - You can index slices like arrays with mySlice[N] to get the value out or assign it a new value with = _(coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00357))_
+- The tests should now pass. _(coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00358))_
 
 ```
 func SumAll(numbersToSum	...[]int)	[]int	{ lengthOfNumbers	:=	len(numbersToSum) sums	:=	make([]int,	lengthOfNumbers) for i,	numbers	:= range numbersToSum	{ sums[i]	=	Sum(numbers) } return sums }
@@ -864,9 +838,6 @@ _(source: coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00354))_
 > There's a new way to create a slice. make allows you to create a slice with a starting capacity of the len of the numbersToSum we need to work through. The length of a slice is the number of elements it holds len(mySlice) , while the capacity is the number of elements it can hold in the underlying array cap(mySlice) , e.g., make([]int, 0, 5) creates a slice with length 0 and capacity 5.
 _(source: coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00356))_
 
-> The tests should now pass.
-_(source: coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00358))_
-
 ## Refactor
 
 - If you have a slice with a capacity of 2 and try to do mySlice[10] = 1 you will get a runtime error. _(coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00360))_
@@ -874,7 +845,9 @@ _(source: coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00358))_
 - However, you can use the append function which takes a slice and a new value, then returns a new slice with all the items in it. _(coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00361))_
 - However, you can use the append function which takes a slice and a new value, then returns a new slice with all the items in it. _(coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00361))_
 - In this implementation, we are worrying less about capacity. _(coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00364))_
+- The tail of a collection is all items in the collection except the first one (the "head"). _(coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00365))_
 - Our next requirement is to change SumAll to SumAllTails , where it will calculate the totals of the "tails" of each slice. _(coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00365))_
+- The tail of a collection is all items in the collection except the first one (the "head"). _(coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00365))_
 
 ```
 func SumAll(numbersToSum	...[]int)	[]int	{ var sums	[]int for _,	numbers	:= range numbersToSum	{ sums	=	append(sums,	Sum(numbers)) }
@@ -885,9 +858,6 @@ _(source: coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00362))_
 return sums }
 ```
 _(source: coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00363))_
-
-> The tail of a collection is all items in the collection except the first one (the "head").
-_(source: coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00365))_
 
 ## Write the test first
 
@@ -920,9 +890,6 @@ _(source: coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00371))_
 func SumAllTails(numbersToSum	...[]int)	[]int	{ var sums	[]int for _,	numbers	:= range numbersToSum	{ tail	:=	numbers[1:] sums	=	append(sums,	Sum(tail)) } return sums }
 ```
 _(source: coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00373))_
-
-> Slices can be sliced!
-_(source: coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00374))_
 
 ## Refactor
 
@@ -965,9 +932,6 @@ func TestSumAllTails(t	*testing.T)	{ checkSums	:= func (t	testing.TB,	got,	want	
 ```
 _(source: coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00388))_
 
-> By defining this function inside the test, it cannot be used by other functions in this package.
-_(source: coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00391))_
-
 ```
 $	go	test ./sum_test.go:52:21:	cannot	use	"dave" ( type	string ) as	type	[]int in	argument	to	checkSums
 ```
@@ -977,13 +941,17 @@ _(source: coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00393))_
 
 - - How they have a fi xed capacity but you can create new slices from old ones using append _(coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00399))_
 - We've used slices and arrays with integers but they work with any other type too, including arrays/slices themselves. _(coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00404))_
-- So you can declare a variable of [][]string if you need to. _(coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00404))_
 - Another handy way to experiment with Go other than writing tests is the Go playground. _(coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00406))_
 - I have made a go playground with a slice in it for you to experiment with. _(coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00406))_
-- You can try most things out and you can easily share your code if you need to ask questions. _(coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00406))_
 - Another example of why it's a good idea to make a copy of a slice after slicing a very large slice. _(coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00407))_
 - Here is an example of slicing an array and how changing the slice affects the original array; but a "copy" of the slice will not affect the original array. _(coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00407))_
 - Another example of why it's a good idea to make a copy of a slice after slicing a very large slice. _(coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00407))_
+
+> So you can declare a variable of [][]string if you need to.
+_(source: coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00404))_
+
+> You can try most things out and you can easily share your code if you need to ask questions.
+_(source: coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00406))_
 
 ## Structs, methods & interfaces
 
@@ -1024,9 +992,6 @@ _(source: coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00418))_
 func Perimeter(width	float64,	height	float64)	float64	{ return 2	*	(width	+	height) }
 ```
 _(source: coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00420))_
-
-> You should end up with tests like this
-_(source: coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00423))_
 
 ```
 And	code	like	this func TestPerimeter(t	*testing.T)	{ got	:=	Perimeter(10.0,	10.0) want	:=	40.0 if got	!=	want	{ t.Errorf("got	%.2f	want	%.2f",	got,	want) } } func TestArea(t	*testing.T)	{ got	:=	Area(12.0,	6.0) want	:=	72.0 if got	!=	want	{ t.Errorf("got	%.2f	want	%.2f",	got,	want) } } func Perimeter(width	float64,	height	float64)	float64	{ return 2	*	(width	+	height) } func Area(width	float64,	height	float64)	float64	{ return width	*	height }
@@ -1113,8 +1078,6 @@ _(source: coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00452))_
 - The only difference is the syntax of the method receiver func (receiverName ReceiverType) MethodName(args) . _(coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00458))_
 - The syntax for declaring methods is almost the same as functions and that's because they're so similar. _(coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00458))_
 - In many other programming languages this is done implicitly and you access the receiver via this . _(coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00459))_
-- When your method is called on a variable of that type, you get your reference to its data via the receiverName variable. _(coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00459))_
-- When your method is called on a variable of that type, you get your reference to its data via the receiverName variable. _(coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00459))_
 - It is a convention in Go to have the receiver variable be the first letter of the type. _(coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00460))_
 
 ```
@@ -1126,6 +1089,9 @@ _(source: coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00456))_
 } func (c	Circle)	Area()	float64	{ return 0 }
 ```
 _(source: coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00457))_
+
+> When your method is called on a variable of that type, you get your reference to its data via the receiverName variable.
+_(source: coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00459))_
 
 ```
 r	Rectangle
@@ -1202,7 +1168,6 @@ _(source: coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00480))_
 ## Further refactoring
 
 - Now that you have some understanding of structs we can introduce "table driven tests". _(coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00495))_
-- Table driven tests are useful when you want to build a list of test cases that can be tested in the same manner. _(coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00496))_
 - The only new syntax here is creating an "anonymous struct", areaTests . _(coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00498))_
 - Then we fill the slice with cases. _(coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00498))_
 - The only new syntax here is creating an "anonymous struct", areaTests . _(coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00498))_
@@ -1214,6 +1179,9 @@ _(source: coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00480))_
 - You can see how it would be very easy for a developer to introduce a new shape, implement Area and then add it to the test cases. _(coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00500))_
 - They are a great fit when you wish to test various implementations of an interface, or if the data being passed in to a function has lots of different requirements that need testing. _(coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00501))_
 - Table driven tests can be a great item in your toolbox, but be sure that you have a need for the extra noise in the tests. _(coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00501))_
+
+> Table driven tests are useful when you want to build a list of test cases that can be tested in the same manner.
+_(source: coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00496))_
 
 ```
 func TestArea(t	*testing.T)	{ areaTests	:=	[] struct { shape	Shape want		float64 }{ {Rectangle{12,	6},	72.0}, {Circle{10},	314.1592653589793}, } for _,	tt	:= range areaTests	{ got	:=	tt.shape.Area() if got	!=	tt.want	{ t.Errorf("got	%g	want	%g",	got,	tt.want) } } }
@@ -1315,13 +1283,13 @@ _(source: coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00535))_
 ## Write the test first
 
 - The second is the value type, which goes right after the [] . _(coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00552))_
+- Except, it starts with the map keyword and requires two types. _(coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00552))_
 - The first is the key type, which is written inside the [] . _(coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00552))_
 - The first is the key type, which is written inside the [] . _(coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00552))_
+- Except, it starts with the map keyword and requires two types. _(coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00552))_
 - The second is the value type, which goes right after the [] . _(coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00552))_
-- It can only be a comparable type because without the ability to tell if 2 keys are equal, we have no way to ensure that we are getting the correct value. _(coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00553))_
 - Comparable types are explained in depth in the language spec. _(coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00553))_
 - The key type is special. _(coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00553))_
-- It can only be a comparable type because without the ability to tell if 2 keys are equal, we have no way to ensure that we are getting the correct value. _(coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00553))_
 - The value type, on the other hand, can be any type you want. _(coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00554))_
 - It can even be another map. _(coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00554))_
 - Everything else in this test should be familiar. _(coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00555))_
@@ -1331,8 +1299,8 @@ In dictionary_test.go package main import "testing" func TestSearch(t	*testing.T
 ```
 _(source: coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00551))_
 
-> Except, it starts with the map keyword and requires two types.
-_(source: coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00552))_
+> It can only be a comparable type because without the ability to tell if 2 keys are equal, we have no way to ensure that we are getting the correct value.
+_(source: coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00553))_
 
 ## Try to run the test
 
@@ -1412,15 +1380,13 @@ _(source: coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00582))_
 
 ## Write the minimal amount of code for the test to run and check the output
 
+- Your test should now fail with a much clearer error message. _(coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00585))_
 - dictionary_test.go:22: expected to get an error. _(coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00586))_
 
 ```
 func (d	Dictionary)	Search(word	string)	(string,	error)	{ return d[word],	nil }
 ```
 _(source: coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00584))_
-
-> Your test should now fail with a much clearer error message.
-_(source: coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00585))_
 
 ## Write enough code to make it pass
 
@@ -1482,16 +1448,10 @@ _(source: coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00602))_
 - You can read more about maps here. _(coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00609))_
 - Instead, you can initialize an empty map or use the make keyword to create a map for you: _(coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00612))_
 
-> This may make them feel like a "reference type", but as Dave Cheney describes they are not.
-_(source: coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00606))_
-
 ```
 A	map	value	is	a	pointer	to	a	runtime.hmap	structure.
 ```
 _(source: coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00607))_
-
-> Therefore, you should never initialize a nil map variable:
-_(source: coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00610))_
 
 ```
 var m map [string]string
@@ -1511,21 +1471,18 @@ _(source: coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00614))_
 - There isn't much to refactor in our implementation but the test could use a little simplification. _(coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00616))_
 - We made variables for word and definition, and moved the definition assertion into its own helper function. _(coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00618))_
 - Our Add is looking good. _(coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00619))_
+- Except, we didn't consider what happens when the value we are trying to add already exists! _(coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00619))_
+- Except, we didn't consider what happens when the value we are trying to add already exists! _(coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00619))_
 - Map will not throw an error if the value already exists. _(coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00620))_
 - It should only add new words to our dictionary. _(coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00620))_
 - Instead, they will go ahead and overwrite the value with the newly provided value. _(coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00620))_
+- This can be convenient in practice, but makes our function name less than accurate. _(coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00620))_
 - It should only add new words to our dictionary. _(coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00620))_
 
 ```
 func TestAdd(t	*testing.T)	{ dictionary	:=	Dictionary{} word	:=	"test" definition	:=	"this	is	just	a	test" dictionary.Add(word,	definition) assertDefinition(t,	dictionary,	word,	definition) } func assertDefinition(t	testing.TB,	dictionary	Dictionary,	word, definition	string)	{ t.Helper() got,	err	:=	dictionary.Search(word) if err	!=	nil	{ t.Fatal("should	find	added	word:",	err) } assertStrings(t,	got,	definition) }
 ```
 _(source: coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00617))_
-
-> Except, we didn't consider what happens when the value we are trying to add already exists!
-_(source: coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00619))_
-
-> This can be convenient in practice, but makes our function name less than accurate.
-_(source: coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00620))_
 
 ## Write the test first
 
@@ -1574,15 +1531,13 @@ _(source: coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00632))_
 ## Refactor
 
 - We don't have too much to refactor, but as our error usage grows we can make a few modifications. _(coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00635))_
+- We made the errors constant; this required us to create our own DictionaryErr type which implements the error interface. _(coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00637))_
 - Simply put, it makes the errors more reusable and immutable. _(coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00637))_
 
 ```
 const ( ErrNotFound			=	DictionaryErr("could	not	find	the	word	you	were looking	for") ErrWordExists	=	DictionaryErr("cannot	add	word	because	it already	exists") ) type DictionaryErr	string func (e	DictionaryErr)	Error()	string	{ return string(e) }
 ```
 _(source: coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00636))_
-
-> We made the errors constant; this required us to create our own DictionaryErr type which implements the error interface.
-_(source: coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00637))_
 
 ## Write the test first
 
@@ -1619,13 +1574,15 @@ _(source: coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00647))_
 
 - We already saw how to do this when we fixed the issue with Add . _(coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00651))_
 - There is no refactoring we need to do on this since it was a simple change. _(coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00653))_
-- If we pass in a new word, Update will add it to the dictionary. _(coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00653))_
 - However, we now have the same issue as with Add . _(coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00653))_
 
 ```
 func (d	Dictionary)	Update(word,	definition	string)	{ d[word]	=	definition }
 ```
 _(source: coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00652))_
+
+> If we pass in a new word, Update will add it to the dictionary.
+_(source: coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00653))_
 
 ## Write the test first
 
@@ -1665,6 +1622,9 @@ _(source: coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00665))_
 
 ## Write enough code to make it pass
 
+- This function looks almost identical to Add except we switched when we update the dictionary and when we return an error. _(coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00669))_
+- This function looks almost identical to Add except we switched when we update the dictionary and when we return an error. _(coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00669))_
+
 ```
 func (d	Dictionary)	Update(word,	definition	string)	error	{ _,	err	:=	d.Search(word) switch err	{ case ErrNotFound: return ErrWordDoesNotExist case nil: d[word]	=	definition default : return err } return nil
 ```
@@ -1675,15 +1635,14 @@ _(source: coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00667))_
 ```
 _(source: coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00668))_
 
-> This function looks almost identical to Add except we switched when we update the dictionary and when we return an error.
-_(source: coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00669))_
-
 ## Note on declaring a new error for Update
 
 - We could reuse ErrNotFound and not add a new error. _(coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00671))_
 - However, it is often better to have a precise error for when an update fails. _(coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00671))_
 - Having specific errors gives you more information about what went wrong. _(coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00672))_
-- You can redirect the user when ErrNotFound is encountered, but display an error message when ErrWordDoesNotExist is encountered. _(coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00673))_
+
+> You can redirect the user when ErrNotFound is encountered, but display an error message when ErrWordDoesNotExist is encountered.
+_(source: coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00673))_
 
 ## Write the test first
 
@@ -1800,6 +1759,7 @@ _(source: coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00695))_
 - Notice the special format of the comment, // Output: 6 . — _fragmentary: no subject/predicate region recovered_ _(coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00206))_
 - Let's write a test for a function that repeats a character 5 times. — _unextracted: segment carries subject matter but no structured claim was recovered_ _(coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00219))_
 - There's nothing new so far, so try and write it yourself for practice. — _fragmentary: no subject/predicate region recovered_ _(coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00220))_
+- Unlike other languages like C, Java, or JavaScript there are no parentheses surrounding the three components of the for statement and the braces { } are always required. You might wonder what is happening in the row — _unextracted: segment carries subject matter but no structured claim was recovered_ _(coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00234))_
 - Hence, the explicit version. — _fragmentary: no subject/predicate region recovered_ _(coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00236))_
 - Now it's time to refactor and introduce another construct += assignment operator. — _fragmentary: no subject/predicate region recovered_ _(coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00240))_
 - It works with other types like integers. — _fragmentary: no subject/predicate region recovered_ _(coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00242))_
@@ -1843,6 +1803,7 @@ _(source: coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00695))_
 - In arrays & slices, you saw how to store values in order. — _fragmentary: no subject/predicate region recovered_ _(coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00547))_
 - The basic search was very easy to implement, but what will happen if we supply a word that's not in our dictionary? — _unextracted: segment carries subject matter but no structured claim was recovered_ _(coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00576))_
 - We actually get nothing back. — _fragmentary: no subject/predicate region recovered_ _(coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00577))_
+- This may make them feel like a "reference type", but as Dave Cheney describes they are not. — _unextracted: segment carries subject matter but no structured claim was recovered_ _(coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00606))_
 - Both approaches create an empty hash map and point dictionary at it. — _fragmentary: no subject/predicate region recovered_ _(coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00614))_
 - Add should not modify existing values. — _fragmentary: no subject/predicate region recovered_ _(coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00620))_
 - Now we get two more errors. — _fragmentary: no subject/predicate region recovered_ _(coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00629))_
@@ -1855,4 +1816,4 @@ _(source: coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00695))_
 
 ### Disposition counts
 
-- non-claim: 85
+- non-claim: 88

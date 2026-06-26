@@ -1,13 +1,13 @@
 ---
 page_id: history-dickens-england-excerpt-section-chapter-vii-england-under-harold-the-second-and-conquered-by-the-normans-3e306c7a
 page_kind: source
-summary: CHAPTER VII--ENGLAND UNDER HAROLD THE SECOND, AND CONQUERED BY THE NORMANS: 61 source-backed entries and 2 atom(s) from raw/history_dickens_england_excerpt.pdf.
+summary: CHAPTER VII--ENGLAND UNDER HAROLD THE SECOND, AND CONQUERED BY THE NORMANS: 60 source-backed entries and 0 atom(s) from raw/history_dickens_england_excerpt.pdf.
 sources: raw/history_dickens_england_excerpt.pdf
 updated: 2026-06-26
 domain: history-dickens-england-excerpt
 category_path: sources/history-dickens-england-excerpt/sections
 source_id: history_dickens_england_excerpt.pdf
-projection_coverage: section-history-dickens-england-excerpt-section-chapter-vii-england-under-harold-the-second-and-conquered-by-the-normans-3e306c7a@b0d019a91c7d0f6b0a0b590f0b406e13
+projection_coverage: section-history-dickens-england-excerpt-section-chapter-vii-england-under-harold-the-second-and-conquered-by-the-normans-3e306c7a@b392c22af868b5ec106cb79ede0dee78
 ---
 
 # CHAPTER VII--ENGLAND UNDER HAROLD THE SECOND, AND CONQUERED BY THE NORMANS
@@ -66,6 +66,7 @@ From [[history-dickens-england-excerpt]].
 - But then a third rode out, and killed the Norman. _(history_dickens_england_excerpt.pdf (source-range-bcf2b9c4-00005))_
 - William took them, caused them to be led through his whole camp, and then dismissed. _(history_dickens_england_excerpt.pdf (source-range-bcf2b9c4-00005))_
 - As they turned again to face the English, some of their Norman horse divided the pursuing body of the English from the rest, and thus all that foremost portion of the English army fell, fighting bravely. _(history_dickens_england_excerpt.pdf (source-range-bcf2b9c4-00005))_
+- Shoot upward, Norman archers, that your arrows may fall down upon their faces!' The sun rose high, and sank, and the battle still raged. _(history_dickens_england_excerpt.pdf (source-range-bcf2b9c4-00006))_
 - The Normans rallied, and the day was lost. _(history_dickens_england_excerpt.pdf (source-range-bcf2b9c4-00006))_
 - O what a sight beneath the moon and stars, when lights were shining in the tent of the victorious Duke William, which was pitched near the spot where Harold fell--and he and his knights were carousing, within--and soldiers with torches, going slowly to and fro, without, sought for the corpse of Harold among piles of dead--and the Warrior, worked in golden thread and precious stones, lay low, all torn and soiled with blood--and the three Norman Lions kept watch over the field! _(history_dickens_england_excerpt.pdf (source-range-bcf2b9c4-00006))_
 - The King received a mortal wound, and dropped. _(history_dickens_england_excerpt.pdf (source-range-bcf2b9c4-00006))_
@@ -75,11 +76,3 @@ From [[history-dickens-england-excerpt]].
 - The English broke and fled. _(history_dickens_england_excerpt.pdf (source-range-bcf2b9c4-00006))_
 - King Harold, wounded with an arrow in the eye, was nearly blind. _(history_dickens_england_excerpt.pdf (source-range-bcf2b9c4-00006))_
 - O what a sight beneath the moon and stars, when lights were shining in the tent of the victorious Duke William, which was pitched near the spot where Harold fell--and he and his knights were carousing, within--and soldiers with torches, going slowly to and fro, without, sought for the corpse of Harold among piles of dead--and the Warrior, worked in golden thread and precious stones, lay low, all torn and soiled with blood--and the three Norman Lions kept watch over the field! _(history_dickens_england_excerpt.pdf (source-range-bcf2b9c4-00006))_
-
-## Technical atoms
-
-> 'He is a tall and stately king,' said Harold, 'but his end is near.' He added, in a little while, 'Go yonder to my brother, and tell him, if he withdraw his troops, he shall be Earl of Northumberland, and rich and powerful in England.' The captain rode away and gave the message.
-_(source: history_dickens_england_excerpt.pdf (source-range-bcf2b9c4-00004))_
-
-> Shoot upward, Norman archers, that your arrows may fall down upon their faces!' The sun rose high, and sank, and the battle still raged.
-_(source: history_dickens_england_excerpt.pdf (source-range-bcf2b9c4-00006))_

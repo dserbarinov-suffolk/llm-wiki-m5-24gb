@@ -1,13 +1,13 @@
 ---
 page_id: rpg-cairn-2e-core-section-perception-84746875
 page_kind: source
-summary: Perception: 24 source-backed entries and 6 atom(s) from raw/rpg_cairn_2e_core.pdf.
+summary: Perception: 24 source-backed entries and 5 atom(s) from raw/rpg_cairn_2e_core.pdf.
 sources: raw/rpg_cairn_2e_core.pdf
 updated: 2026-06-26
 domain: rpg-cairn-2e-core
 category_path: sources/rpg-cairn-2e-core/sections
 source_id: rpg_cairn_2e_core.pdf
-projection_coverage: section-rpg-cairn-2e-core-section-perception-84746875@319fd6e86b02d28aa5c6cf6141708c05
+projection_coverage: section-rpg-cairn-2e-core-section-perception-84746875@7e352635e4b1245889caa1843b0d91fb
 ---
 
 # Perception
@@ -30,6 +30,7 @@ From [[rpg-cairn-2e-core]].
 - In this example, there are three potential dangers: the bees, the man, and the Bloodvine plant. _(rpg_cairn_2e_core.pdf (source-range-f6f3256b-00554))_
 - The man is an unknown entity and could be friend or foe, while the Bloodvines are hidden and act as a sort of trap. _(rpg_cairn_2e_core.pdf (source-range-f6f3256b-00554))_
 - The Warden should therefore communicate exactly what the PCs can see, hear, and smell. _(rpg_cairn_2e_core.pdf (source-range-f6f3256b-00554))_
+- The danger from bees is more obvious, as the PCs can clearly see the danger and are familiar with bees already. _(rpg_cairn_2e_core.pdf (source-range-f6f3256b-00554))_
 - The Warden should therefore communicate exactly what the PCs can see, hear, and smell. _(rpg_cairn_2e_core.pdf (source-range-f6f3256b-00554))_
 - If the PCs ask questions about the sword or try to interact with it, the Warden should tell them about the shoe prints in the grass right away. _(rpg_cairn_2e_core.pdf (source-range-f6f3256b-00555))_
 - The PCs will likely try to interact with the man first or perhaps ask questions about the sword, as these are both fairly passive ways to engage with the scene. _(rpg_cairn_2e_core.pdf (source-range-f6f3256b-00555))_
@@ -45,9 +46,6 @@ _(source: rpg_cairn_2e_core.pdf (source-range-f6f3256b-00542))_
 
 > - The weapon belongs to the skeleton buried just beneath the earth. It is a regular short sword (d6), strangely preserved.
 _(source: rpg_cairn_2e_core.pdf (source-range-f6f3256b-00552))_
-
-> The danger from bees is more obvious, as the PCs can clearly see the danger and are familiar with bees already.
-_(source: rpg_cairn_2e_core.pdf (source-range-f6f3256b-00554))_
 
 > When the PCs realize that the man does not respond, they may try to get a closer look or perhaps toss a rock in his direction (avoiding the hive), and so on.
 _(source: rpg_cairn_2e_core.pdf (source-range-f6f3256b-00555))_

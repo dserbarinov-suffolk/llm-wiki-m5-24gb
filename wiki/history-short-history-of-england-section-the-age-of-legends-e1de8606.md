@@ -1,13 +1,13 @@
 ---
 page_id: history-short-history-of-england-section-the-age-of-legends-e1de8606
 page_kind: source
-summary: THE AGE OF LEGENDS: 118 source-backed entries and 8 atom(s) from raw/history_short_history_of_england.pdf.
+summary: THE AGE OF LEGENDS: 118 source-backed entries and 0 atom(s) from raw/history_short_history_of_england.pdf.
 sources: raw/history_short_history_of_england.pdf
 updated: 2026-06-26
 domain: history-short-history-of-england
 category_path: sources/history-short-history-of-england/sections
 source_id: history_short_history_of_england.pdf
-projection_coverage: section-history-short-history-of-england-section-the-age-of-legends-e1de8606@09b8ab47ef09669de9bad7d047022b75
+projection_coverage: section-history-short-history-of-england-section-the-age-of-legends-e1de8606@54c0509e33daa1b8f3481d9a0f4b100b
 ---
 
 # THE AGE OF LEGENDS
@@ -22,21 +22,26 @@ From [[history-short-history-of-england]].
 - One working example, the echoes of which lingered till very late in English literature, may serve to _(history_short_history_of_england.pdf (source-range-e5a81de4-00051))_
 - We should be surprised if one of the spinsters in Cranford , after tidily sweeping the room with a broom, were to fly away on a broomstick. _(history_short_history_of_england.pdf (source-range-e5a81de4-00051))_
 - Our attention would be arrested if one of Jane Austen's young ladies who had just met a dragoon were to walk a little further and meet a dragon. _(history_short_history_of_england.pdf (source-range-e5a81de4-00051))_
+- We have to do with rational and almost mechanical accounts of encampment and engineering, of a busy bureaucracy and occasional frontier wars, quite modern in their efficiency and inefficiency; and then all of a sudden we are reading of wandering bells and wizard lances, of wars against men as tall as trees or as short as toadstools. _(history_short_history_of_england.pdf (source-range-e5a81de4-00051))_
+- We have to do with rational and almost mechanical accounts of encampment and engineering, of a busy bureaucracy and occasional frontier wars, quite modern in their efficiency and inefficiency; and then all of a sudden we are reading of wandering bells and wizard lances, of wars against men as tall as trees or as short as toadstools. _(history_short_history_of_england.pdf (source-range-e5a81de4-00051))_
 - The scientific age comes first and the mythological age after it. _(history_short_history_of_england.pdf (source-range-e5a81de4-00051))_
 - We should be surprised if one of the spinsters in Cranford , after tidily sweeping the room with a broom, were to fly away on a broomstick. _(history_short_history_of_england.pdf (source-range-e5a81de4-00051))_
 - All the phrases that can be used as clues through that tangle of traditions are more or less Latin phrases. _(history_short_history_of_england.pdf (source-range-e5a81de4-00056))_
 - They both testify to the reality of the Roman foundation of our insular society, and show that even the stories that seem prehistoric are seldom pre-Roman. _(history_short_history_of_england.pdf (source-range-e5a81de4-00056))_
 - When England is Elfland, the elves are not the Angles. _(history_short_history_of_england.pdf (source-range-e5a81de4-00056))_
 - And in all our speech there was no word more Roman than "romance." _(history_short_history_of_england.pdf (source-range-e5a81de4-00056))_
+- It may then rationally be urged that the hold both of the Empire and its new religion were here weaker than elsewhere, and that the description of the general civilization in the last chapter is proportionately irrelevant. _(history_short_history_of_england.pdf (source-range-e5a81de4-00057))_
 - Christianity had almost certainly come to Britain, not indeed otherwise than by the routes established by Rome, but certainly long before the official Roman mission of Gregory the Great. _(history_short_history_of_england.pdf (source-range-e5a81de4-00057))_
 - This did not mean that the Roman civilization left it; but it did mean that the civilization lay far more open both to admixture and attack. _(history_short_history_of_england.pdf (source-range-e5a81de4-00057))_
 - This, however, is not the chief truth of the matter. _(history_short_history_of_england.pdf (source-range-e5a81de4-00057))_
 - Christianity had almost certainly come to Britain, not indeed otherwise than by the routes established by Rome, but certainly long before the official Roman mission of Gregory the Great. _(history_short_history_of_england.pdf (source-range-e5a81de4-00057))_
+- It may then rationally be urged that the hold both of the Empire and its new religion were here weaker than elsewhere, and that the description of the general civilization in the last chapter is proportionately irrelevant. _(history_short_history_of_england.pdf (source-range-e5a81de4-00057))_
 - And this is the clue which we must carry with us through the lives of all the great men of the Dark Ages; of Alfred, of Bede, of Dunstan. _(history_short_history_of_england.pdf (source-range-e5a81de4-00058))_
 - If the most extreme modern Republican were put back in that period he would be an equally extreme Papist or even Imperialist. _(history_short_history_of_england.pdf (source-range-e5a81de4-00058))_
 - The more he could keep of the past the more he had of a fair law and a free state; the more he gave way to the future the more he must endure of ignorance and privilege. _(history_short_history_of_england.pdf (source-range-e5a81de4-00058))_
 - Yet a modern man must very nearly turn his mind upside down to understand it. _(history_short_history_of_england.pdf (source-range-e5a81de4-00058))_
 - They hopedbut it may be said that they hoped for yesterday. _(history_short_history_of_england.pdf (source-range-e5a81de4-00058))_
+- There is one fundamental fact which must be understood of the whole of this period. _(history_short_history_of_england.pdf (source-range-e5a81de4-00058))_
 - But they were situated otherwise. _(history_short_history_of_england.pdf (source-range-e5a81de4-00058))_
 - For the Pope was what was left of the Empire; and the Empire what was left of the Republic. _(history_short_history_of_england.pdf (source-range-e5a81de4-00058))_
 - Almost every modern man has in his head an association between freedom and the future. _(history_short_history_of_england.pdf (source-range-e5a81de4-00058))_
@@ -55,6 +60,7 @@ From [[history-short-history-of-england]].
 - The ordinary English reader would never have heard of Olaf of Norway if he had not "preached the Gospel with his sword"; or of the Cid if he had not fought against the Crescent. _(history_short_history_of_england.pdf (source-range-e5a81de4-00060))_
 - The next thing to note in the matter is this: that in this barbaric time none of the heroes are barbaric. _(history_short_history_of_england.pdf (source-range-e5a81de4-00060))_
 - Englishmen who know nothing of English history, but less than nothing of Irish history, have heard somehow or other of Brian Boru, though they spell it Boroo and seem to be under the impression that it is a joke. _(history_short_history_of_england.pdf (source-range-e5a81de4-00060))_
+- It is a joke the subtlety of which they would never have been able to enjoy, if King Brian had not broken the heathen in Ireland at the great Battle of Clontarf. _(history_short_history_of_england.pdf (source-range-e5a81de4-00060))_
 - Men real or mythical, or more probably both, became omnipresent like gods among the people, and forced themselves into the faintest memory and the shortest record, exactly in proportion as they had mastered the heathen madness of the time and preserved the Christian rationality that had come from Rome. _(history_short_history_of_england.pdf (source-range-e5a81de4-00060))_
 - Arthur has his name because he killed the heathen; the heathen who killed him have no names at all. _(history_short_history_of_england.pdf (source-range-e5a81de4-00060))_
 - They are only heroes if they are anti-barbaric. _(history_short_history_of_england.pdf (source-range-e5a81de4-00060))_
@@ -62,6 +68,7 @@ From [[history-short-history-of-england]].
 - For the age is the age of legends. _(history_short_history_of_england.pdf (source-range-e5a81de4-00065))_
 - But they would not be so attributed if Talleyrand had been a fool, still less if he had been a fable. _(history_short_history_of_england.pdf (source-range-e5a81de4-00065))_
 - Towards these legends most men adopt by instinct a sane attitude; and, of the two, credulity is certainly much more sane than incredulity. _(history_short_history_of_england.pdf (source-range-e5a81de4-00065))_
+- I do not understand the attitude which holds that there was an Ark and a man named Noah, but cannot believe in the existence of Noah's Ark. _(history_short_history_of_england.pdf (source-range-e5a81de4-00065))_
 - That fictitious stories are told about a person is, nine times out of ten, extremely good evidence that there was somebody to tell them about. _(history_short_history_of_england.pdf (source-range-e5a81de4-00065))_
 - It does not much matter whether most of the stories are true; and (as in such cases as Bacon and Shakespeare) to realize that the question does not matter is the first step towards answering it correctly. _(history_short_history_of_england.pdf (source-range-e5a81de4-00065))_
 - But the paradox remains that Arthur is more real than Alfred. _(history_short_history_of_england.pdf (source-range-e5a81de4-00065))_
@@ -73,6 +80,7 @@ From [[history-short-history-of-england]].
 - To take only the obvious instance, modern excavators with modern spades have found a solid stone labyrinth in Crete, like that associated with the Minataur, which was conceived as being as cloudy a fable as the Chimera. _(history_short_history_of_england.pdf (source-range-e5a81de4-00066))_
 - In this matter new discoveries are useless because they are new. _(history_short_history_of_england.pdf (source-range-e5a81de4-00066))_
 - We may find men wrong in what they thought they were, but we cannot find them wrong in what they thought they thought. _(history_short_history_of_england.pdf (source-range-e5a81de4-00066))_
+- It is the paradox that the past is always present: yet it is not what was, but whatever seems to have been; for all the past is a part of faith. _(history_short_history_of_england.pdf (source-range-e5a81de4-00066))_
 - I will attempt here to put some of the simpler things in their order of importance as he would have seen them; and if we are to understand our fathers who first made this country anything like itself, it is most important that we should remember that if this was not their real past, it was their real memory. _(history_short_history_of_england.pdf (source-range-e5a81de4-00066))_
 - It is therefore very practical to put in a few words, if possible, something of what a man of these islands in the Dark Ages would have said about his ancestors and his inheritance. _(history_short_history_of_england.pdf (source-range-e5a81de4-00066))_
 - Finally, a truth is to be remembered which scarcely ever is remembered in estimating the past. _(history_short_history_of_england.pdf (source-range-e5a81de4-00066))_
@@ -126,29 +134,3 @@ From [[history-short-history-of-england]].
 - Helena was not only a native of Colchester, but was a daughter of Old King Cole. _(history_short_history_of_england.pdf (source-range-e5a81de4-00074))_
 - A fact thus standing alone, without the key of contemporary thought, may be very much more misleading than any fable. _(history_short_history_of_england.pdf (source-range-e5a81de4-00074))_
 - According to the more serious story, the saint's father was an innkeeper; and the only recorded action of Cole is well within the resources of that calling. _(history_short_history_of_england.pdf (source-range-e5a81de4-00074))_
-
-## Technical atoms
-
-> We have to do with rational and almost mechanical accounts of encampment and engineering, of a busy bureaucracy and occasional frontier wars, quite modern in their efficiency and inefficiency; and then all of a sudden we are reading of wandering bells and wizard lances, of wars against men as tall as trees or as short as toadstools.
-_(source: history_short_history_of_england.pdf (source-range-e5a81de4-00051))_
-
-> It may then rationally be urged that the hold both of the Empire and its new religion were here weaker than elsewhere, and that the description of the general civilization in the last chapter is proportionately irrelevant.
-_(source: history_short_history_of_england.pdf (source-range-e5a81de4-00057))_
-
-> There is one fundamental fact which must be understood of the whole of this period.
-_(source: history_short_history_of_england.pdf (source-range-e5a81de4-00058))_
-
-> And the forest is the fittest metaphor, not only because it was really that wild European growth cloven here and there by the Roman roads, but also because there has always been associated with forests another idea which increased as the Roman order decayed.
-_(source: history_short_history_of_england.pdf (source-range-e5a81de4-00059))_
-
-> It is a joke the subtlety of which they would never have been able to enjoy, if King Brian had not broken the heathen in Ireland at the great Battle of Clontarf.
-_(source: history_short_history_of_england.pdf (source-range-e5a81de4-00060))_
-
-> I do not understand the attitude which holds that there was an Ark and a man named Noah, but cannot believe in the existence of Noah's Ark.
-_(source: history_short_history_of_england.pdf (source-range-e5a81de4-00065))_
-
-> It is the paradox that the past is always present: yet it is not what was, but whatever seems to have been; for all the past is a part of faith.
-_(source: history_short_history_of_england.pdf (source-range-e5a81de4-00066))_
-
-> It must especially be remembered by those who would dwell exclusively on documents, and take no note of tradition at all.
-_(source: history_short_history_of_england.pdf (source-range-e5a81de4-00074))_

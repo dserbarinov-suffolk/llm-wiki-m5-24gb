@@ -7,6 +7,7 @@ claims and atoms, run-on/contents-list statements are excluded, common English
 words never anchor a topic, and rendered pages leak no internal ids.
 """
 
+from llmwiki.domain.ledger.atoms import atom_raw_text
 from llmwiki.domain.ledger.builder import (
     LedgerBuildResult,
     SegmentInput,
@@ -14,9 +15,11 @@ from llmwiki.domain.ledger.builder import (
     default_schema_bundle,
 )
 from llmwiki.domain.ledger.features import profile_unit
+from llmwiki.domain.ledger.ledger import ClaimLedger
 from llmwiki.domain.ledger.segments import SegmentClaim, SourceSegment
+from llmwiki.domain.ledger.structure import DocumentStructure
 from llmwiki.domain.ledger.topic_render import render_topic_page
-from llmwiki.domain.ledger.topics import plan_source_topics
+from llmwiki.domain.ledger.topics import SourceTopic, plan_source_topics
 
 _HASH = "abcdef0123456789"
 # Usable (has a pivot verb "provides") but a run-on of > 45 words.
@@ -72,7 +75,7 @@ _SPECS = [
 ]
 
 
-def _topic(result: LedgerBuildResult, key: str):
+def _topic(result: LedgerBuildResult, key: str) -> SourceTopic | None:
     return next(
         (
             t
@@ -83,6 +86,15 @@ def _topic(result: LedgerBuildResult, key: str):
     )
 
 
+def _topic_texts(result: LedgerBuildResult, entry_ids: tuple[str, ...]) -> list[str]:
+    texts: list[str] = []
+    for entry_id in entry_ids:
+        entry = result.ledger.entry(entry_id)
+        assert entry is not None
+        texts.append(entry.normalized_text)
+    return texts
+
+
 class TestTopicPlanning:
     def test_heading_and_term_merge_into_one_topic(self) -> None:
         topic = _topic(_build(_SPECS), "function")
@@ -91,14 +103,82 @@ class TestTopicPlanning:
         assert topic.label == "Functions"
         assert len(topic.entry_ids) >= 4
 
+    def test_heading_topic_does_not_import_sibling_lexical_mentions(self) -> None:
+        result = _build(
+            [
+                ("heading", "# Vessel Failure", []),
+                (
+                    "paragraph",
+                    "A vessel failure requires immediate venting.",
+                    ["A vessel failure requires immediate venting."],
+                ),
+                (
+                    "paragraph",
+                    "A cracked vessel loses pressure.",
+                    ["A cracked vessel loses pressure."],
+                ),
+                (
+                    "paragraph",
+                    "Repair crews can seal a failed vessel.",
+                    ["Repair crews can seal a failed vessel."],
+                ),
+                ("heading", "# Vessel Painting", []),
+                (
+                    "paragraph",
+                    "A vessel painting crew uses blue primer.",
+                    ["A vessel painting crew uses blue primer."],
+                ),
+                (
+                    "paragraph",
+                    "A vessel painting crew uses rollers.",
+                    ["A vessel painting crew uses rollers."],
+                ),
+            ]
+        )
+        topic = _topic(result, "vessel-failure")
+        assert topic is not None
+        texts = _topic_texts(result, topic.entry_ids)
+        assert any("immediate venting" in text for text in texts)
+        assert any("failed vessel" in text for text in texts)
+        assert not any("blue primer" in text for text in texts)
+
+    def test_heading_topic_includes_only_context_supported_atoms(self) -> None:
+        result = _build(
+            [
+                ("heading", "# Arrays", []),
+                ("paragraph", "Arrays are fixed values.", ["Arrays are fixed values."]),
+                ("paragraph", "We can initialize the array with values:", []),
+                ("code-fence", "```go\nscores := [4]int{9001, 9333}\n```", []),
+                ("paragraph", "Logging uses a buffer for output:", []),
+                ("code-fence", "```go\narrayBuffer := make([]byte, 10)\n```", []),
+            ]
+        )
+
+        topic = _topic(result, "array")
+
+        assert topic is not None
+        assert len(topic.atom_ids) == 1
+        atom = result.ledger.atom(topic.atom_ids[0])
+        assert atom is not None
+        assert "scores" in atom_raw_text(atom.payload)
+
+    def test_generic_reflexive_pronouns_never_anchor_topics(self) -> None:
+        specs = [
+            (
+                "paragraph",
+                f"Himself provides signal {index}.",
+                [f"Himself provides signal {index}."],
+            )
+            for index in range(1, 6)
+        ]
+        keys = {t.topic_key for t in plan_source_topics(*_unpack(_build(specs)))}
+        assert "himself" not in keys
+
     def test_runon_statement_is_excluded(self) -> None:
         result = _build(_SPECS)
         topic = _topic(result, "function")
         assert topic is not None
-        texts = [
-            (result.ledger.entry(e).normalized_text if result.ledger.entry(e) else "")
-            for e in topic.entry_ids
-        ]
+        texts = _topic_texts(result, topic.entry_ids)
         assert all(len(text.split()) <= 45 for text in texts)
         assert not any("detail59" in text for text in texts)
 
@@ -116,7 +196,7 @@ class TestTopicPlanning:
         assert saliences == sorted(saliences, reverse=True)
 
 
-def _unpack(result: LedgerBuildResult):
+def _unpack(result: LedgerBuildResult) -> tuple[ClaimLedger, DocumentStructure]:
     return result.ledger, result.document_structure
 
 
@@ -135,3 +215,43 @@ class TestTopicRender:
         assert "projection-coverage-entry-" not in page.page_body
         kinds = {e.projection_coverage_unit_kind for e in page.coverage.entries}
         assert "generated-page-claim" in kinds
+
+    def test_topic_page_renders_atom_context_before_atom(self) -> None:
+        result = _build(
+            [
+                ("heading", "# Arrays", []),
+                ("paragraph", "Arrays are fixed values.", ["Arrays are fixed values."]),
+                ("paragraph", "We can initialize the array with values:", []),
+                ("code-fence", "```go\nscores := [4]int{9001, 9333}\n```", []),
+            ]
+        )
+        topic = _topic(result, "array")
+        assert topic is not None
+
+        page = render_topic_page(
+            topic, result.ledger, wiki_page_locator="book-array", source_page_id="book"
+        )
+
+        assert "Context: We can initialize the array with values:" in page.page_body
+        assert "scores := [4]int{9001, 9333}" in page.page_body
+        kinds = {e.projection_coverage_unit_kind for e in page.coverage.entries}
+        assert "technical-atom-context" in kinds
+
+    def test_topic_page_renders_context_supported_structured_rule_atom(self) -> None:
+        result = _build(
+            [
+                ("heading", "# Combat", []),
+                ("paragraph", "Combat uses required rolls.", ["Combat uses required rolls."]),
+                ("paragraph", "Combat rules specify required rolls:", []),
+                ("paragraph", "A combatant must roll a die.", ["A combatant must roll a die."]),
+            ]
+        )
+        topic = _topic(result, "combat")
+        assert topic is not None
+
+        page = render_topic_page(
+            topic, result.ledger, wiki_page_locator="book-combat", source_page_id="book"
+        )
+
+        assert "Context: Combat rules specify required rolls:" in page.page_body
+        assert "A combatant must roll a die." in page.page_body

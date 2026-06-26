@@ -1,12 +1,12 @@
 ---
 page_id: rpg-dnd-srd-excerpt-charisma-check
 page_kind: concept
-summary: Charisma Checks: 81 statement(s) and 1 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
+summary: Charisma Checks: 11 statement(s) and 0 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
 sources: raw/rpg_dnd_srd_excerpt.pdf
 updated: 2026-06-26
 domain: rpg-dnd-srd-excerpt
 category_path: concepts
-projection_coverage: topic-rpg-dnd-srd-excerpt-charisma-check@cde6a148f0116e38f1f6f6604423ecbd
+projection_coverage: topic-rpg-dnd-srd-excerpt-charisma-check@3109b60df82f6bb98a51c3b0e25f2f92
 ---
 
 # Charisma Checks
@@ -15,26 +15,17 @@ What [[rpg-dnd-srd-excerpt]] covers about charisma checks:
 
 ## Statements
 
-- checks, as do the exploration rules. _(rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00111))_
-- The game refers to a passive check total as a score . _(rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00110))_
-- When you try to hide, make a Dexterity (Stealth) check. _(rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00167))_
-- A poisoned creature has disadvantage on attack rolls and ability checks. _(rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00579))_
-- To make an ability check, roll a d20 and add the relevant ability modifier. _(rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00095))_
-- To make a group ability check, everyone in the group makes the ability check. _(rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00117))_
-- Without proficiency in the skill, the individual makes a normal ability check. _(rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00105))_
-- If the character lacks that proficiency, he or she just makes a Strength check. _(rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00106))_
-- Both participants in a contest make ability checks appropriate to their efforts. _(rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00098))_
-- The bonus is used in the rules on ability checks, saving throws, and attack rolls. _(rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00085))_
-- A Constitution check can model your attempt to push beyond normal limits, however. _(rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00176))_
-- The wolf has advantage on Wisdom (Perception) checks that rely on hearing or smell. _(rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00659))_
-- A passive check is a special kind of ability check that doesn't involve any die rolls. _(rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00110))_
-- The charmer has advantage on any ability check to interact socially with the creature. _(rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00543))_
-
-## Technical atoms
-
-> Occasionally, your proficiency bonus might be multiplied or divided (doubled or halved, for example) before you apply it. For example, the rogue's Expertise feature doubles the proficiency bonus for certain ability checks. If a circumstance suggests that your proficiency bonus applies more than once to the same roll, you still add it only once and multiply or divide it only once.
-_(source: rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00087))_
-
+- A Charisma check might arise when you try to influence or entertain others, when you try to make an impression or tell a convincing lie, or when you are navigating a tricky social situation. _(rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00221))_
+- Typical situations include trying to fast-talk a guard, con a merchant, earn money through gambling, pass yourself off in a disguise, dull someone's suspicions with false assurances, or maintain a straight face while telling a blatant lie. _(rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00222))_
+- This deception can encompass everything from misleading others through ambiguity to telling outright lies. _(rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00222))_
+- Your Charisma (Deception) check determines whether you can convincingly hide the truth, either verbally or through your actions. _(rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00222))_
+- When you attempt to influence someone through overt threats, hostile actions, and physical violence, the GM might ask you to make a Charisma (Intimidation) check. _(rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00223))_
+- Examples include trying to pry information out of a prisoner, convincing street thugs to back down from a confrontation, or using the edge of a broken bottle to convince a sneering vizier to reconsider a decision. _(rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00223))_
+- Your Charisma (Performance) check determines how well you can delight an audience with music, dance, acting, storytelling, or some other form of entertainment. _(rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00224))_
+- Typically, you use persuasion when acting in good faith, to foster friendships, make cordial requests, or exhibit proper etiquette. _(rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00225))_
+- When you attempt to influence someone or a group of people with tact, social graces, or good nature, the GM might ask you to make a Charisma (Persuasion) check. _(rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00225))_
+- Examples of persuading others include convincing a chamberlain to let your party see the king, negotiating peace between warring tribes, or inspiring a crowd of townsfolk. _(rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00225))_
+- The GM might call for a Charisma check when you try to accomplish tasks like the following: _(rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00226))_
 
 ## Source
 

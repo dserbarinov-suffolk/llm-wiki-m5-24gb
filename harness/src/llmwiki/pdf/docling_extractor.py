@@ -5,11 +5,16 @@ This module keeps Docling-specific types out of the PDF domain objects.
 
 from __future__ import annotations
 
+from collections.abc import Callable
 from importlib.metadata import PackageNotFoundError, version
 from pathlib import Path
 from typing import Any
 
+import pymupdf
+
 from llmwiki.pdf.document import DocumentElement, DocumentModel
+
+CodeTextResolver = Callable[[Any], str]
 
 
 def extract_document_model(pdf_path: Path, source_locator: str, source_hash: str) -> DocumentModel:
@@ -30,12 +35,17 @@ def extract_document_model(pdf_path: Path, source_locator: str, source_hash: str
         }
     )
     result = converter.convert(pdf_path)
-    return document_model_from_docling_document(
-        result.document,
-        source_locator=source_locator,
-        source_hash=source_hash,
-        extractor_version=_docling_version(),
-    )
+    with pymupdf.open(pdf_path) as pdf_doc:  # type: ignore[no-untyped-call]
+        def code_text_resolver(item: Any) -> str:
+            return _pdf_code_text(pdf_doc, item)
+
+        return document_model_from_docling_document(
+            result.document,
+            source_locator=source_locator,
+            source_hash=source_hash,
+            extractor_version=_docling_version(),
+            code_text_resolver=code_text_resolver,
+        )
 
 
 def document_model_from_docling_document(
@@ -43,6 +53,7 @@ def document_model_from_docling_document(
     source_locator: str,
     source_hash: str,
     extractor_version: str,
+    code_text_resolver: CodeTextResolver | None = None,
 ) -> DocumentModel:
     heading_stack: list[str] = []
     elements: list[DocumentElement] = []
@@ -50,6 +61,8 @@ def document_model_from_docling_document(
     for item, _level in document.iterate_items():
         text = _item_text(item)
         element_kind = _element_kind(item)
+        if element_kind == "code_block" and code_text_resolver is not None:
+            text = code_text_resolver(item) or text
         if not text and element_kind != "picture":
             continue
 
@@ -125,6 +138,61 @@ def _item_text(item: Any) -> str:
     if text is None:
         return ""
     return str(text).strip()
+
+
+def _pdf_code_text(pdf_doc: Any, item: Any) -> str:
+    parts: list[str] = []
+    for prov in getattr(item, "prov", []) or []:
+        page_no = _page_no(prov)
+        if page_no <= 0 or page_no > len(pdf_doc):
+            continue
+        bbox = getattr(prov, "bbox", None)
+        if bbox is None:
+            continue
+        page = pdf_doc[page_no - 1]
+        text = _text_from_page_blocks(page, _clip_rect(page, bbox))
+        if text:
+            parts.append(text)
+    return "\n".join(parts).strip()
+
+
+def _page_no(prov: Any) -> int:
+    try:
+        return int(getattr(prov, "page_no", 0))
+    except (TypeError, ValueError):
+        return 0
+
+
+def _clip_rect(page: Any, bbox: Any) -> pymupdf.Rect:
+    left = _float_attr(bbox, "l")
+    right = _float_attr(bbox, "r")
+    top = _float_attr(bbox, "t")
+    bottom = _float_attr(bbox, "b")
+    origin = _enum_value(getattr(bbox, "coord_origin", "")).lower()
+    if origin == "bottomleft":
+        page_height = float(page.rect.height)
+        y0 = page_height - max(top, bottom)
+        y1 = page_height - min(top, bottom)
+    else:
+        y0 = min(top, bottom)
+        y1 = max(top, bottom)
+    x0 = min(left, right)
+    x1 = max(left, right)
+    pad = 1.0
+    return pymupdf.Rect(x0 - pad, y0 - pad, x1 + pad, y1 + pad)  # type: ignore[no-untyped-call]
+
+
+def _float_attr(value: Any, attr: str) -> float:
+    try:
+        return float(getattr(value, attr))
+    except (TypeError, ValueError):
+        return 0.0
+
+
+def _text_from_page_blocks(page: Any, rect: pymupdf.Rect) -> str:
+    blocks = page.get_text("blocks", clip=rect, sort=True)
+    parts = [str(block[4]).strip() for block in blocks if len(block) > 4 and str(block[4]).strip()]
+    return "\n".join(parts).strip()
 
 
 def _item_markdown(item: Any, element_kind: str, text: str) -> str:

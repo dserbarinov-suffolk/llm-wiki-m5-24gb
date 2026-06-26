@@ -1,13 +1,13 @@
 ---
 page_id: history-dickens-england-excerpt-section-chapter-xi-england-under-matilda-and-stephen-ac48d55e
 page_kind: source
-summary: CHAPTER XI--ENGLAND UNDER MATILDA AND STEPHEN: 48 source-backed entries and 1 atom(s) from raw/history_dickens_england_excerpt.pdf.
+summary: CHAPTER XI--ENGLAND UNDER MATILDA AND STEPHEN: 48 source-backed entries and 0 atom(s) from raw/history_dickens_england_excerpt.pdf.
 sources: raw/history_dickens_england_excerpt.pdf
 updated: 2026-06-26
 domain: history-dickens-england-excerpt
 category_path: sources/history-dickens-england-excerpt/sections
 source_id: history_dickens_england_excerpt.pdf
-projection_coverage: section-history-dickens-england-excerpt-section-chapter-xi-england-under-matilda-and-stephen-ac48d55e@dcb148171af8b5bfd9279366f3c33fa8
+projection_coverage: section-history-dickens-england-excerpt-section-chapter-xi-england-under-matilda-and-stephen-ac48d55e@6c20ab8eb3ee26278a57314fde7ece20
 ---
 
 # CHAPTER XI--ENGLAND UNDER MATILDA AND STEPHEN
@@ -28,6 +28,7 @@ From [[history-dickens-england-excerpt]].
 - The clergy sometimes suffered, and heavily too, from pillage, but many of them had castles of their own, and fought in helmet and armour like the barons, and drew lots with other fighting men for their share of booty. _(history_dickens_england_excerpt.pdf (source-range-bcf2b9c4-00017))_
 - Although King Stephen was, for the time in which he lived, a humane and moderate man, with many excellent qualities; and although nothing worse is known of him than his usurpation of the Crown, which he probably excused to himself by the consideration that King Henry the First was a usurper too--which was no excuse at all; the people of England suffered more in these dread nineteen years, than at any former period even of their suffering history. _(history_dickens_england_excerpt.pdf (source-range-bcf2b9c4-00017))_
 - Here, for two days, divided only by the river, the two armies lay encamped opposite to one another--on the eve, as it seemed to all men, of another desperate fight, when the Earl of Arundel took heart and said 'that it was not reasonable to prolong the unspeakable miseries of two kingdoms to minister to the ambition of two princes.' Many other noblemen repeating and supporting this when it was once uttered, Stephen and young Plantagenet went down, each to his own bank of the river, and held a conversation across it, in which they arranged a truce; very much to the dissatisfaction of Eustace, who swaggered away with some followers, and laid violent hands on the Abbey of St. _(history_dickens_england_excerpt.pdf (source-range-bcf2b9c4-00017))_
+- Stephen, whom he had never mistrusted or suspected, started up to claim the throne. _(history_dickens_england_excerpt.pdf (source-range-bcf2b9c4-00017))_
 - In England there was no corn, no meat, no cheese, no butter, there were no tilled lands, no harvests. _(history_dickens_england_excerpt.pdf (source-range-bcf2b9c4-00017))_
 - A battle was fought between her troops and King Stephen's at Lincoln; in which the King himself was taken prisoner, after bravely fighting until his battle-axe and sword were broken, and was carried into strict confinement at Gloucester. _(history_dickens_england_excerpt.pdf (source-range-bcf2b9c4-00017))_
 - The people of London revolted; and, in alliance with the troops of Stephen, besieged her at Winchester, where they took her brother Robert prisoner, whom, as her best soldier and chief general, she was glad to exchange for Stephen himself, who thus regained his liberty. _(history_dickens_england_excerpt.pdf (source-range-bcf2b9c4-00017))_
@@ -63,8 +64,3 @@ From [[history-dickens-england-excerpt]].
 - Once, she was pressed so hard in the Castle of Oxford, in the winter weather when the snow lay thick upon the ground, that her only chance of escape was to dress herself all in white, and, accompanied by no more than three faithful Knights, dressed in like manner that their figures might not be seen from Stephen's camp as they passed over the snow, to steal away on foot, cross the frozen Thames, walk a long distance, and at last gallop away on horseback. _(history_dickens_england_excerpt.pdf (source-range-bcf2b9c4-00017))_
 - In the next year Stephen died, after a troubled reign of nineteen years. _(history_dickens_england_excerpt.pdf (source-range-bcf2b9c4-00017))_
 - The Pope (or Bishop of Rome), on King Stephen's resisting his ambition, laid England under an Interdict at one period of this reign; which means that he allowed no service to be performed in the churches, no couples to be married, no bells to be rung, no dead bodies to be buried. _(history_dickens_england_excerpt.pdf (source-range-bcf2b9c4-00017))_
-
-## Technical atoms
-
-> Stephen, whom he had never mistrusted or suspected, started up to claim the throne.
-_(source: history_dickens_england_excerpt.pdf (source-range-bcf2b9c4-00017))_

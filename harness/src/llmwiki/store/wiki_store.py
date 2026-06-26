@@ -15,10 +15,11 @@ from __future__ import annotations
 
 import hashlib
 import re
+from collections.abc import Callable
 from pathlib import Path
 
 from llmwiki.config import SOURCE_READ_BUDGET_CHARS, WikiPaths
-from llmwiki.domain.index import index_page_ids, upsert_index_entry
+from llmwiki.domain.index import index_page_ids, remove_index_entries, upsert_index_entry
 from llmwiki.domain.log import format_log_entry
 from llmwiki.domain.objects import RawSource
 from llmwiki.domain.pages import (
@@ -131,6 +132,21 @@ class WikiStore:
         page_path.write_text(render_page(page), encoding="utf-8")
         self._paths.index_path.write_text(index_text, encoding="utf-8")
 
+    def delete_source_pages_not_in(
+        self, source_locator: str, keep_page_ids: set[str]
+    ) -> tuple[str, ...]:
+        source_ref = f"raw/{source_locator}"
+        return self._delete_generated_pages(
+            keep_page_ids,
+            lambda metadata: metadata.sources == (source_ref,),
+        )
+
+    def delete_cross_source_pages_not_in(self, keep_page_ids: set[str]) -> tuple[str, ...]:
+        return self._delete_generated_pages(
+            keep_page_ids,
+            lambda metadata: metadata.projection_coverage_pointer.startswith("cross-source-"),
+        )
+
     def page_path_for_page_id(self, page_id: str) -> Path:
         candidates = self._page_paths_for_page_id(page_id)
         if len(candidates) == 1:
@@ -162,6 +178,25 @@ class WikiStore:
             for path in self._paths.wiki_dir.rglob(f"{page_id}.md")
             if path.stem == page_id and not _is_hidden_path(path, self._paths.wiki_dir)
         )
+
+    def _delete_generated_pages(
+        self, keep_page_ids: set[str], should_delete: Callable[[PageMetadata], bool]
+    ) -> tuple[str, ...]:
+        removed: list[str] = []
+        for page_id in self.list_pages():
+            if page_id in keep_page_ids:
+                continue
+            page = self.read_wiki_page(page_id)
+            if not should_delete(page.page_metadata):
+                continue
+            path = self.page_path_for_page_id(page_id)
+            self._ensure_wiki_path(path)
+            path.unlink()
+            removed.append(page_id)
+        if removed:
+            index_text = remove_index_entries(self.read_index(), set(removed))
+            self._paths.index_path.write_text(index_text, encoding="utf-8")
+        return tuple(removed)
 
     # -- navigation files ----------------------------------------------------
 

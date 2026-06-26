@@ -1,12 +1,12 @@
 ---
 page_id: coding-little-go-book-buffered-channel
 page_kind: concept
-summary: Buffered Channels: 25 statement(s) and 1 atom(s) from raw/coding_little_go_book.pdf.
+summary: Buffered Channels: 10 statement(s) and 3 atom(s) from raw/coding_little_go_book.pdf.
 sources: raw/coding_little_go_book.pdf
 updated: 2026-06-26
 domain: coding-little-go-book
 category_path: concepts
-projection_coverage: topic-coding-little-go-book-buffered-channel@2c08c71daa956a1b6dd558ffb3321fce
+projection_coverage: topic-coding-little-go-book-buffered-channel@052c9b5c24fdf13d2e6b64ed967a946d
 ---
 
 # Buffered Channels
@@ -15,25 +15,50 @@ What [[coding-little-go-book]] covers about buffered channels:
 
 ## Statements
 
-- Channels are more complicated. _(coding_little_go_book.pdf (source-range-810ce361-00475))_
-- The first available channel is chosen. _(coding_little_go_book.pdf (source-range-810ce361-00460))_
-- To help with this problem, Go provides channels . _(coding_little_go_book.pdf (source-range-810ce361-00408))_
-- Channels have this buffering capability built-in. _(coding_little_go_book.pdf (source-range-810ce361-00436))_
-- Also, time.After is a channel of type chan time.Time . _(coding_little_go_book.pdf (source-range-810ce361-00457))_
-- These are all things that are doable without channels . _(coding_little_go_book.pdf (source-range-810ce361-00425))_
-- time.After returns a channel, so we can select from it. _(coding_little_go_book.pdf (source-range-810ce361-00453))_
-- A main purpose of select is to manage multiple channels. _(coding_little_go_book.pdf (source-range-810ce361-00447))_
-- A channel is randomly picked when multiple are available. _(coding_little_go_book.pdf (source-range-810ce361-00447))_
-- The channel is written to after the specified time expires. _(coding_little_go_book.pdf (source-range-810ce361-00453))_
-- If no channel is available, the default case is executed. _(coding_little_go_book.pdf (source-range-810ce361-00462))_
-- If multiple channels are available, one is randomly picked. _(coding_little_go_book.pdf (source-range-810ce361-00461))_
-- If no channel is available, default is executed if one is provided. _(coding_little_go_book.pdf (source-range-810ce361-00447))_
-- I do think learning about concurrent programming without channels is useful. _(coding_little_go_book.pdf (source-range-810ce361-00475))_
+- What's happening is that our main code, the one that accepts the user's incoming data (which we just simulated with a random number generator) is blocking as it sends to the channel because no receiver is available. _(coding_little_go_book.pdf (source-range-773b6275-00435))_
+- In cases where you need high guarantees that the data is being processed, you probably will want to start blocking the client. _(coding_little_go_book.pdf (source-range-773b6275-00436))_
+- Channels have this buffering capability built-in. _(coding_little_go_book.pdf (source-range-773b6275-00436))_
+- There are a few popular strategies to do this. _(coding_little_go_book.pdf (source-range-773b6275-00436))_
+- If no worker is available, we want to temporarily store the data in some sort of queue. _(coding_little_go_book.pdf (source-range-773b6275-00436))_
+- The first is to buffer the data. _(coding_little_go_book.pdf (source-range-773b6275-00436))_
+- In other cases, you might be willing to loosen those guarantees. _(coding_little_go_book.pdf (source-range-773b6275-00436))_
+- In our example, we're continuously pushing more data than our workers can handle. _(coding_little_go_book.pdf (source-range-773b6275-00438))_
+- You can make this change, but you'll notice that the processing is still choppy. _(coding_little_go_book.pdf (source-range-773b6275-00438))_
+- You can see that it grows and grows until it fills up, at which point sending to our channel start to block again. _(coding_little_go_book.pdf (source-range-773b6275-00441))_
 
 ## Technical atoms
 
-> The challenge with concurrent programming stems from sharing data. If your goroutines share no data, you needn't worry about synchronizing them. That isn't an option for all systems, however. In fact, many systems are built with the exact opposite goal in mind: to share data across multiple requests. An in-memory cache or a database, are good examples of this. This is becoming an increasingly common reality. Channels help make concurrent programming saner by taking shared data out of the picture. A channel is a communication pipe between goroutines which is used to pass data. In other words, a goroutine that has data can pass it to another goroutine via a channel. The result is that, at any point in time, only one goroutine has access to the data. A channel, like everything else, has a type. This is the type of data that we'll be passing through our channel. For example, to create a channel which can be used to pass an integer around, we'd do: The type of this channel is chan int . Therefore, to pass this channel to a function, our signature looks like: Channels support two operations: receiving and sending. We send to a channel by doing: CHANNEL <- DATA and receive from one by doing VAR := <-CHANNEL The arrow points in the direction that data flows. When sending, the data flows into the channel. When receiving, the data flows out of the channel. The final thing to know before we look at our first example is that receiving and sending to and from a channel is blocking. That is, when we receive from a channel, execution of the goroutine won't continue until data is available. Similarly, when we send to a channel, execution won't continue until the data is received. Consider a system with incoming data that we want to handle in separate goroutines. This is a common requirement. If we did our data-intensive processing on the goroutine which accepts the incoming data, we'd risk timing out clients. First, we'll write our worker. This could be a simple function, but I'll make it part of a structure since we haven't seen goroutines used like this before: c := make( chan int) func worker(c chan int) { ... } type Worker struct {
-_(source: coding_little_go_book.pdf (source-range-810ce361-00427))_
+> Context: Given the above code, what happens if we have more data coming in than we can handle? You can simulate this by changing the worker to sleep after it has received data: What's happening is that our main code, the one that accepts the user's incoming data (which we just simulated with a random number generator) is blocking as it sends to the channel because no receiver is available.
+_(context: coding_little_go_book.pdf (source-range-773b6275-00433, source-range-773b6275-00435))_
+
+```
+for {
+  data := <-c
+  fmt.Printf("worker %d got %d\n", w.id, data)
+  time.Sleep(time.Millisecond * 500)
+}
+```
+_(source: coding_little_go_book.pdf (source-range-773b6275-00434))_
+
+> Context: In cases where you need high guarantees that the data is being processed, you probably will want to start blocking the client. In other cases, you might be willing to loosen those guarantees. There are a few popular strategies to do this. The first is to buffer the data. If no worker is available, we want to temporarily store the data in some sort of queue. Channels have this buffering capability built-in. When we created our channel with make , we can give our channel a length:
+_(context: coding_little_go_book.pdf (source-range-773b6275-00436))_
+
+```
+c := make(chan int, 100)
+```
+_(source: coding_little_go_book.pdf (source-range-773b6275-00437))_
+
+> Context: Nevertheless, we can get a sense what the buffered channel is, in fact, buffering by looking at the channel's len :
+_(context: coding_little_go_book.pdf (source-range-773b6275-00439))_
+
+```
+for {
+  c <- rand.Int()
+  fmt.Println(len(c))
+  time.Sleep(time.Millisecond * 50)
+}
+```
+_(source: coding_little_go_book.pdf (source-range-773b6275-00440))_
 
 
 ## Source

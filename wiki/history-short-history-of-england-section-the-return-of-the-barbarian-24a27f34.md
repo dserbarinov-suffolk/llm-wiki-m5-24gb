@@ -1,13 +1,13 @@
 ---
 page_id: history-short-history-of-england-section-the-return-of-the-barbarian-24a27f34
 page_kind: source
-summary: THE RETURN OF THE BARBARIAN: 127 source-backed entries and 10 atom(s) from raw/history_short_history_of_england.pdf.
+summary: THE RETURN OF THE BARBARIAN: 126 source-backed entries and 3 atom(s) from raw/history_short_history_of_england.pdf.
 sources: raw/history_short_history_of_england.pdf
 updated: 2026-06-26
 domain: history-short-history-of-england
 category_path: sources/history-short-history-of-england/sections
 source_id: history_short_history_of_england.pdf
-projection_coverage: section-history-short-history-of-england-section-the-return-of-the-barbarian-24a27f34@8a35b3a354a79cc30a95600a92ea437e
+projection_coverage: section-history-short-history-of-england-section-the-return-of-the-barbarian-24a27f34@ff5834fe56491e96ab2d6758f7f86156
 ---
 
 # THE RETURN OF THE BARBARIAN
@@ -18,6 +18,7 @@ From [[history-short-history-of-england]].
 
 - The only way to write a popular history, as we have already remarked, would be to write it backwards. _(history_short_history_of_england.pdf (source-range-e5a81de4-00447))_
 - Now, the interesting point is that for a whole serious century these instantaneous fantasies have remained like fossils. _(history_short_history_of_england.pdf (source-range-e5a81de4-00447))_
+- The lines of human limbs can be beautiful, and so can the lines of loose drapery, but not cylinders too loose to be the first and too tight to be the second. _(history_short_history_of_england.pdf (source-range-e5a81de4-00447))_
 - One, which has grown rarer recently, is what we call a tophat; the other, which is still a customary formality, is a pair of trousers. _(history_short_history_of_england.pdf (source-range-e5a81de4-00447))_
 - But what is largely forgotten is this, that these two fantastic objects, which now strike the eye as unconscious freaks, were originally conscious freaks. _(history_short_history_of_england.pdf (source-range-e5a81de4-00447))_
 - It will not be fanciful to see a certain oriental touch in trousers, which the later Romans also regarded as effeminately oriental; it was an oriental touch found in many florid things of the time-in Byron's poems or Brighton Pavilion. _(history_short_history_of_england.pdf (source-range-e5a81de4-00447))_
@@ -38,7 +39,6 @@ From [[history-short-history-of-england]].
 - A student of our history is concerned rather with the effect it did not have than the effect it did. _(history_short_history_of_england.pdf (source-range-e5a81de4-00448))_
 - Englishmen, under all superficial reforms, remained oligarchical in spirit, as they had been when they first wore trousers. _(history_short_history_of_england.pdf (source-range-e5a81de4-00448))_
 - We talk of the French Revolution as something that changed the world; but its most important relation to England is that it did not change England. _(history_short_history_of_england.pdf (source-range-e5a81de4-00448))_
-- If it be a splendid fate to have survived the Flood, the English oligarchy had that added splendour. _(history_short_history_of_england.pdf (source-range-e5a81de4-00448))_
 - For the most important thing was that nothing happened. _(history_short_history_of_england.pdf (source-range-e5a81de4-00448))_
 - But even for the countries in which the Revolution was a convulsion, it was the last convulsion-until that which shakes the world to-day. _(history_short_history_of_england.pdf (source-range-e5a81de4-00448))_
 - Only one power might be said to be growing, and that in a plodding and prosaic fashion-the power in the North-East whose name was Prussia. _(history_short_history_of_england.pdf (source-range-e5a81de4-00448))_
@@ -47,6 +47,7 @@ From [[history-short-history-of-england]].
 - But if this was the evolution of parliamentary reform, as represented by the first Reform Bill, we can see the other side of it in the social reform attacked immediately after the first Reform Bill. _(history_short_history_of_england.pdf (source-range-e5a81de4-00453))_
 - Over the most capricious operations of the lettres de cachet there still hovered some hazy traditional idea that a man is put in prison to punish him for something. _(history_short_history_of_england.pdf (source-range-e5a81de4-00453))_
 - It is a truth that should be a tower and a landmark, that one of the first things done by the Reform Parliament was to establish those harsh and dehumanised workhouses which both honest Radicals and honest Tories branded with the black title of the New Bastille. _(history_short_history_of_england.pdf (source-range-e5a81de4-00453))_
+- This bitter name lingers in our literature, and can be found by the curious in the works of Carlyle and Hood, but it is doubtless interesting rather as a note of contemporary indignation than as a correct comparison. _(history_short_history_of_england.pdf (source-range-e5a81de4-00453))_
 - Men of high rank and great wealth were frequently sent to the Bastille; but no such mistake has ever been made by the more business administration of the workhouse. _(history_short_history_of_england.pdf (source-range-e5a81de4-00453))_
 - It was the discovery of a later social science that men who cannot be punished can still be imprisoned. _(history_short_history_of_england.pdf (source-range-e5a81de4-00453))_
 - But the deepest and most decisive difference lies in the better fortune of the New Bastille; for no mob has ever dared to storm it, and it never fell. _(history_short_history_of_england.pdf (source-range-e5a81de4-00453))_
@@ -54,6 +55,7 @@ From [[history-short-history-of-england]].
 - But if this was the evolution of parliamentary reform, as represented by the first Reform Bill, we can see the other side of it in the social reform attacked immediately after the first Reform Bill. _(history_short_history_of_england.pdf (source-range-e5a81de4-00453))_
 - It is obvious that a desperate man might find Mr. _(history_short_history_of_england.pdf (source-range-e5a81de4-00454))_
 - The New Poor Law was indeed not wholly new in the sense that it was the culmination and clear enunciation of a principle foreshadowed in the earlier Poor Law of Elizabeth, which was one of the many anti-popular effects of the Great Pillage. _(history_short_history_of_england.pdf (source-range-e5a81de4-00454))_
+- When the monasteries were swept away and the mediæval system of hospitality destroyed, tramps and beggars became a problem, the solution of which has always tended towards slavery, even when the question of slavery has been cleared of the irrelevant question of cruelty. _(history_short_history_of_england.pdf (source-range-e5a81de4-00454))_
 - It is obvious, however, that he may find his best physical good by going into the workhouse, as he often found it in pagan times by selling himself into slavery. _(history_short_history_of_england.pdf (source-range-e5a81de4-00456))_
 - The point is that the solution remains servile, even when Mr. _(history_short_history_of_england.pdf (source-range-e5a81de4-00456))_
 - There is a touch of irony, though hardly of mere hypocrisy, in the fact that the Parliament which effected this reform had just been abolishing black slavery by buying out the slave-owners in the British colonies. _(history_short_history_of_england.pdf (source-range-e5a81de4-00456))_
@@ -74,6 +76,7 @@ From [[history-short-history-of-england]].
 - It is true that those who look to the Trade Union, and even those clear-sighted enough to call it the Guild, are often without the faintest tinge of mediæval mysticism, or even of mediæval morality. _(history_short_history_of_england.pdf (source-range-e5a81de4-00457))_
 - The modern Trade Union was the inspiration and creation of the English; it is still largely known throughout Europe by its English name. _(history_short_history_of_england.pdf (source-range-e5a81de4-00457))_
 - Anyhow, the unconscious nineteenth-century movement, so slow that it seems stationary, was altogether in this direction, of which workhouse philanthropy is the type. _(history_short_history_of_england.pdf (source-range-e5a81de4-00457))_
+- No man on earth is kept so ignorant of the Middle Ages as the British workman, except perhaps the British business man who employs him. _(history_short_history_of_england.pdf (source-range-e5a81de4-00457))_
 - Yet all who know even a little of the Middle Ages can see that the modern Trade Union is a groping for the ancient Guild. _(history_short_history_of_england.pdf (source-range-e5a81de4-00457))_
 - It has all the clinching logic of coincidence. _(history_short_history_of_england.pdf (source-range-e5a81de4-00457))_
 - But this fact is itself the most striking and even staggering tribute to mediæval morality. _(history_short_history_of_england.pdf (source-range-e5a81de4-00457))_
@@ -81,6 +84,7 @@ From [[history-short-history-of-england]].
 - And it is all the stronger because the man who puts his trust in Trades Unions does not call himself a Catholic or even a Christian, if he does call himself a Guild Socialist. _(history_short_history_of_england.pdf (source-range-e5a81de4-00457))_
 - We say that history repeats itself, and it is even more interesting when it unconsciously repeats itself. _(history_short_history_of_england.pdf (source-range-e5a81de4-00457))_
 - Nevertheless, it had one national institution to combat and overcome; one institution all the more intensely national because it was not official, and in a sense not even political. _(history_short_history_of_england.pdf (source-range-e5a81de4-00457))_
+- No man on earth is kept so ignorant of the Middle Ages as the British workman, except perhaps the British business man who employs him. _(history_short_history_of_england.pdf (source-range-e5a81de4-00457))_
 - The modern Trade Union was the inspiration and creation of the English; it is still largely known throughout Europe by its English name. _(history_short_history_of_england.pdf (source-range-e5a81de4-00457))_
 - And it is all the stronger because the man who puts his trust in Trades Unions does not call himself a Catholic or even a Christian, if he does call himself a Guild Socialist. _(history_short_history_of_england.pdf (source-range-e5a81de4-00457))_
 - The Trade Union movement passed through many perils, including a ludicrous attempt of certain lawyers to condemn as a criminal conspiracy that Trade Union solidarity, of which their own profession is the strongest and most startling example in the world. _(history_short_history_of_england.pdf (source-range-e5a81de4-00458))_
@@ -90,6 +94,7 @@ From [[history-short-history-of-england]].
 - The struggle culminated in gigantic strikes which split the country in every direction in the earlier part of the twentieth century. _(history_short_history_of_england.pdf (source-range-e5a81de4-00458))_
 - Thus we had a series of social reforms which, for good or evil, all tended in the same direction; the permission to employees to claim certain advantages as employees, and as something permanently different from employers. _(history_short_history_of_england.pdf (source-range-e5a81de4-00461))_
 - Of these the obvious examples were Employers' Liability, Old Age Pensions, and, as marking another and more decisive stride in the process, the Insurance Act. _(history_short_history_of_england.pdf (source-range-e5a81de4-00461))_
+- The Socialists proposed that the State should not merely interfere in business but should take over the business, and pay all men as equal wage-earners, or at any rate as wage-earners. _(history_short_history_of_england.pdf (source-range-e5a81de4-00461))_
 - But the wiser of them were willing to pay better wages, and they were specially willing to bestow various other benefits so long as they were bestowed after the manner of wages. _(history_short_history_of_england.pdf (source-range-e5a81de4-00461))_
 - The employers were not willing to surrender their own position to the State, and this project has largely faded from politics. _(history_short_history_of_england.pdf (source-range-e5a81de4-00461))_
 - Thus we had a series of social reforms which, for good or evil, all tended in the same direction; the permission to employees to claim certain advantages as employees, and as something permanently different from employers. _(history_short_history_of_england.pdf (source-range-e5a81de4-00461))_
@@ -118,6 +123,7 @@ From [[history-short-history-of-england]].
 - It everywhere involved an external power having a finger in the family pie; but little attention was paid to any friction thus caused, for all prejudices against the process were supposed to be the growth of ignorance. _(history_short_history_of_england.pdf (source-range-e5a81de4-00463))_
 - English education was made compulsory; it was made free; many good, earnest, and enthusiastic men laboured to create a ladder of standards and examinations, which would connect the cleverest of the poor with the culture of the English universities and the current teaching in history or philosophy. _(history_short_history_of_england.pdf (source-range-e5a81de4-00465))_
 - For whatever reason, the poor Englishman remained in many things much as his fathers had been, and seemed to think the Higher Criticism too high for him even to criticize. _(history_short_history_of_england.pdf (source-range-e5a81de4-00465))_
+- But it cannot be said that the connection was very complete, or the achievement so thorough as the German achievement. _(history_short_history_of_england.pdf (source-range-e5a81de4-00465))_
 - And then a day came, and if we were wise, we thanked God that we had failed. _(history_short_history_of_england.pdf (source-range-e5a81de4-00466))_
 - And he was quicker than his educated countrymen, for he had nothing to unlearn. _(history_short_history_of_england.pdf (source-range-e5a81de4-00466))_
 - The day came, and the ignorant fellow found he had other things to learn. _(history_short_history_of_england.pdf (source-range-e5a81de4-00466))_
@@ -136,32 +142,11 @@ From [[history-short-history-of-england]].
 
 ## Technical atoms
 
-> The lines of human limbs can be beautiful, and so can the lines of loose drapery, but not cylinders too loose to be the first and too tight to be the second.
-_(source: history_short_history_of_england.pdf (source-range-e5a81de4-00447))_
-
-> Most of the conscious ones were much upon the model of an early one, the great Reform Bill of 1832, and can be considered in the light of it.
-_(source: history_short_history_of_england.pdf (source-range-e5a81de4-00452))_
+> If it be a splendid fate to have survived the Flood, the English oligarchy had that added splendour.
+_(source: history_short_history_of_england.pdf (source-range-e5a81de4-00448))_
 
 > The first thing to note, then, about the nineteenth century is that Europe remained herself as compared with the Europe of the great war, and that England especially remained herself as compared even with the rest of Europe. Granted this, we may give their proper importance to the cautious internal changes in this country, the small conscious and the large unconscious changes. Most of the conscious ones were much upon the model of an early one, the great Reform Bill of 1832, and can be considered in the light of it. First, from the standpoint of most real reformers, the chief thing about the Reform Bill was that it did not reform. It had a huge tide of popular enthusiasm behind it, which wholly disappeared when the people found themselves in front of it. It enfranchised large masses of the middle classes; it disfranchised very definite bodies of the working classes; and it so struck the balance between the conservative and the dangerous elements in the commonwealth that the governing class was rather stronger than before. The date, however, is important, not at all because it was the beginning of democracy, but because it was the beginning of the best way ever discovered of evading and postponing democracy. Here enters the homœopathic treatment of revolution, since so often successful. Well into the next generation Disraeli, the brilliant Jewish adventurer who was the symbol of the English aristocracy being no longer genuine, extended the franchise to the artisans, partly, indeed, as a party move against his great rival, Gladstone, but more as the method by which the old popular pressure was first tired out and then toned down. The politicians said the working-class was now strong enough to be allowed votes. It would be truer to say it was now weak enough to be allowed votes. So in more recent times Payment of Members, which would once have been regarded (and resisted) as an inrush of popular forces, was passed quietly and without resistance, and regarded merely as an extension of parliamentary privileges. The truth is that the old parliamentary oligarchy abandoned their first line of trenches because they had by that time constructed a second line of defence. It consisted in the concentration of colossal political funds in the private and irresponsible power of the politicians, collected by the sale of peerages and more important things, and expended on the jerrymandering of the enormously expensive elections. In the presence of this inner obstacle a vote became about as valuable as a railway ticket when there is a permanent block on the line. The façade and outward form of this new secret government is the merely mechanical application of what is called the Party System. The Party System does not consist, as some suppose, of two parties, but of one. If there were two real parties, there could be no system. [Pg 226] [Pg 227]
 _(source: history_short_history_of_england.pdf (source-range-e5a81de4-00452))_
 
-> This bitter name lingers in our literature, and can be found by the curious in the works of Carlyle and Hood, but it is doubtless interesting rather as a note of contemporary indignation than as a correct comparison.
-_(source: history_short_history_of_england.pdf (source-range-e5a81de4-00453))_
-
-> When the monasteries were swept away and the mediæval system of hospitality destroyed, tramps and beggars became a problem, the solution of which has always tended towards slavery, even when the question of slavery has been cleared of the irrelevant question of cruelty.
-_(source: history_short_history_of_england.pdf (source-range-e5a81de4-00454))_
-
 > Board of Guardians less cruel than cold weather and the bare ground-even if he were allowed to sleep on the ground, which (by a veritable nightmare of nonsense and injustice) he is not.
 _(source: history_short_history_of_england.pdf (source-range-e5a81de4-00456))_
-
-> No man on earth is kept so ignorant of the Middle Ages as the British workman, except perhaps the British business man who employs him.
-_(source: history_short_history_of_england.pdf (source-range-e5a81de4-00457))_
-
-> The Socialists proposed that the State should not merely interfere in business but should take over the business, and pay all men as equal wage-earners, or at any rate as wage-earners.
-_(source: history_short_history_of_england.pdf (source-range-e5a81de4-00461))_
-
-> But it cannot be said that the connection was very complete, or the achievement so thorough as the German achievement.
-_(source: history_short_history_of_england.pdf (source-range-e5a81de4-00465))_
-
-> What would the ladder of education have led to, except a platform on which a posturing professor proved that a cousin german was the same as a German cousin?
-_(source: history_short_history_of_england.pdf (source-range-e5a81de4-00466))_

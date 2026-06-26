@@ -1,0 +1,49 @@
+"""Reusable lexical helpers for topic planning."""
+
+from __future__ import annotations
+
+import re
+
+from llmwiki.domain.ledger.stopwords import COMMON_WORDS
+
+TOKEN = re.compile(r"[A-Za-z][A-Za-z0-9]{2,}")
+GENERIC_TOPIC_TERMS = frozenset(
+    {
+        "herself",
+        "himself",
+        "itself",
+        "myself",
+        "ourselves",
+        "themselves",
+        "yourself",
+        "yourselves",
+    }
+)
+
+
+def content_terms(text: str) -> list[str]:
+    terms = []
+    for token in TOKEN.findall(text):
+        lowered = singular(token.lower())
+        if (
+            len(lowered) >= 4
+            and lowered not in COMMON_WORDS
+            and lowered not in GENERIC_TOPIC_TERMS
+        ):
+            terms.append(lowered)
+    return list(dict.fromkeys(terms))
+
+
+def topic_matcher(terms: tuple[str, ...]) -> re.Pattern[str] | None:
+    parts = [re.escape(term) for term in terms if term]
+    if not parts:
+        return None
+    return re.compile(r"\b(?:" + "|".join(parts) + r")", re.IGNORECASE)
+
+
+def singular(token: str) -> str:
+    if token.endswith("ies") and len(token) > 4:
+        return token[:-3] + "y"
+    if token.endswith("ss"):
+        return token
+    return token[:-1] if token.endswith("s") and len(token) > 4 else token

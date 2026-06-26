@@ -1,13 +1,13 @@
 ---
 page_id: history-dickens-england-excerpt-section-chapter-x-england-under-henry-the-first-called-fine-scholar-58a2c533
 page_kind: source
-summary: CHAPTER X--ENGLAND UNDER HENRY THE FIRST, CALLED FINE-SCHOLAR: 123 source-backed entries and 5 atom(s) from raw/history_dickens_england_excerpt.pdf.
+summary: CHAPTER X--ENGLAND UNDER HENRY THE FIRST, CALLED FINE-SCHOLAR: 123 source-backed entries and 2 atom(s) from raw/history_dickens_england_excerpt.pdf.
 sources: raw/history_dickens_england_excerpt.pdf
 updated: 2026-06-26
 domain: history-dickens-england-excerpt
 category_path: sources/history-dickens-england-excerpt/sections
 source_id: history_dickens_england_excerpt.pdf
-projection_coverage: section-history-dickens-england-excerpt-section-chapter-x-england-under-henry-the-first-called-fine-scholar-58a2c533@e02ebce09b12a8b4d25b2ec92cc9cce6
+projection_coverage: section-history-dickens-england-excerpt-section-chapter-x-england-under-henry-the-first-called-fine-scholar-58a2c533@9bb3a2e83070a08cd4d12103ba244de7
 ---
 
 # CHAPTER X--ENGLAND UNDER HENRY THE FIRST, CALLED FINE-SCHOLAR
@@ -27,6 +27,7 @@ From [[history-dickens-england-excerpt]].
 - After some disputing among the priests, who said that as she had been in a convent in her youth, and had worn the veil of a nun, she could not lawfully be married--against which the Princess stated that her aunt, with whom she had lived in her youth, had indeed sometimes thrown a piece of black stuff over her, but for no other reason than because the nun's veil was the only dress the conquering Normans respected in girl or woman, and not because she had taken the vows of a nun, which she never had--she was declared free to marry, and was made King Henry's Queen. _(history_dickens_england_excerpt.pdf (source-range-bcf2b9c4-00012))_
 - This the King very faithfully promised, but Robert was no sooner gone than he began to punish them. _(history_dickens_england_excerpt.pdf (source-range-bcf2b9c4-00012))_
 - All this is shown in his treatment of his brother Robert--Robert, who had suffered him to be refreshed with water, and who had sent him the wine from his own table, when he was shut up, with the crows flying below him, parched with thirst, in the castle on the top of St. _(history_dickens_england_excerpt.pdf (source-range-bcf2b9c4-00012))_
+- In the beginning of his imprisonment, he was allowed to ride out, guarded; but he one day broke away from his guard and galloped of. _(history_dickens_england_excerpt.pdf (source-range-bcf2b9c4-00012))_
 - He pretended that he came to deliver the Normans, at their own request, from his brother's misrule. _(history_dickens_england_excerpt.pdf (source-range-bcf2b9c4-00012))_
 - But the English sailors deserted the King, and took a great part of the English fleet over to Normandy; so that Robert came to invade this country in no foreign vessels, but in English ships. _(history_dickens_england_excerpt.pdf (source-range-bcf2b9c4-00012))_
 - He had once been Robert of Normandy. _(history_dickens_england_excerpt.pdf (source-range-bcf2b9c4-00012))_
@@ -86,6 +87,7 @@ From [[history-dickens-england-excerpt]].
 - On that day, and at that place, there came to the King, Fitz-Stephen, a sea-captain, and said: 'My liege, my father served your father all his life, upon the sea. _(history_dickens_england_excerpt.pdf (source-range-bcf2b9c4-00013))_
 - He steered the ship with the golden boy upon the prow, in which your father sailed to conquer England. _(history_dickens_england_excerpt.pdf (source-range-bcf2b9c4-00013))_
 - When he became a young man, the King of France, uniting with the French Counts of Anjou and Flanders, supported his cause against the King of England, and took many of the King's towns and castles in Normandy. _(history_dickens_england_excerpt.pdf (source-range-bcf2b9c4-00013))_
+- But, King Henry, artful and cunning always, bribed some of William's friends with money, some with promises, some with power. _(history_dickens_england_excerpt.pdf (source-range-bcf2b9c4-00013))_
 - At the very time of her death, Normandy and all France was in arms against England; for, so soon as his last danger was over, King Henry had been false to all the French powers he had promised, bribed, and bought, and they had naturally united against him. _(history_dickens_england_excerpt.pdf (source-range-bcf2b9c4-00013))_
 - To raise her marriage-portion, he taxed the English people in a most oppressive manner; then treated them to a great procession, to restore their good humour; and sent Matilda away, in fine state, with the German ambassadors, to be educated in the country of her future husband. _(history_dickens_england_excerpt.pdf (source-range-bcf2b9c4-00013))_
 - This child was taken, too, and carried before the King, sobbing and crying; for, young as he was, he knew he had good reason to be afraid of his Royal uncle. _(history_dickens_england_excerpt.pdf (source-range-bcf2b9c4-00013))_
@@ -121,6 +123,7 @@ From [[history-dickens-england-excerpt]].
 - When, at last, she shot out of the harbour of Barfleur, there was not a sober seaman on board. _(history_dickens_england_excerpt.pdf (source-range-bcf2b9c4-00014))_
 - He cried in an agony, 'Row back at any risk! _(history_dickens_england_excerpt.pdf (source-range-bcf2b9c4-00014))_
 - He never in his life had been so good as he was then. _(history_dickens_england_excerpt.pdf (source-range-bcf2b9c4-00014))_
+- The rest of us must die.' But, as they rowed away, fast, from the sinking ship, the Prince heard the voice of his sister Marie, the Countess of Perche, calling for help. _(history_dickens_england_excerpt.pdf (source-range-bcf2b9c4-00014))_
 - Now, the Prince was a dissolute, debauched young man of eighteen, who bore no love to the English, and had declared that when he came to the throne he would yoke them to the plough like oxen. _(history_dickens_england_excerpt.pdf (source-range-bcf2b9c4-00014))_
 - What time is there to make merry here, and yet reach England with the rest?' 'Prince!' said Fitz-Stephen, 'before morning, my fifty and The White Ship shall overtake the swiftest vessel in attendance on your father the King, if we sail at midnight!' Then the Prince commanded to make merry; and the sailors drank out the three casks of wine; and the Prince and all the noble company danced in the moonlight on the deck of The White Ship. _(history_dickens_england_excerpt.pdf (source-range-bcf2b9c4-00014))_
 - But the sails were all set, and the oars all going merrily. _(history_dickens_england_excerpt.pdf (source-range-bcf2b9c4-00014))_
@@ -137,17 +140,8 @@ From [[history-dickens-england-excerpt]].
 
 ## Technical atoms
 
-> In the beginning of his imprisonment, he was allowed to ride out, guarded; but he one day broke away from his guard and galloped of.
-_(source: history_dickens_england_excerpt.pdf (source-range-bcf2b9c4-00012))_
-
-> But, King Henry, artful and cunning always, bribed some of William's friends with money, some with promises, some with power.
+> He was observed to make a great effort, as if to prevent himself from being cruel, and ordered the child to be taken away; whereupon a certain Baron, who had married a daughter of Duke Robert's (by name, Helie of Saint Saen), took charge of him, tenderly.
 _(source: history_dickens_england_excerpt.pdf (source-range-bcf2b9c4-00013))_
-
-> The rest of us must die.' But, as they rowed away, fast, from the sinking ship, the Prince heard the voice of his sister Marie, the Countess of Perche, calling for help.
-_(source: history_dickens_england_excerpt.pdf (source-range-bcf2b9c4-00014))_
-
-> The King fell to the ground like a dead man, and never, never afterwards, was seen to smile.
-_(source: history_dickens_england_excerpt.pdf (source-range-bcf2b9c4-00015))_
 
 > For three days, no one dared to carry the intelligence to the King. At length, they sent into his presence a little boy, who, weeping bitterly, and kneeling at his feet, told him that The White Ship was lost with all on board. The King fell to the ground like a dead man, and never, never afterwards, was seen to smile. But he plotted again, and promised again, and bribed and bought again, in his old deceitful way. Having no son to succeed him, after all his pains ('The Prince will never yoke us to the plough, now!' said the English people), he took a second wife--Adelais or Alice, a duke's daughter, and the Pope's niece. Having no more children, however, he proposed to the Barons to swear that they would recognise as his successor, his daughter Matilda, whom, as she was now a widow, he married to the eldest son of the Count of Anjou, Geoffrey, surnamed Plantagenet, from a custom he had of wearing a sprig of flowering broom (called Genet in French) in his cap for a feather. As one false man usually makes many, and as a false King, in particular, is pretty certain to make a false Court, the Barons took the oath about the succession of Matilda (and her children after her), twice over, without in the least intending to keep it. The King was now relieved from any remaining fears of William Fitz-Robert, by his death in the Monastery of St. Omer, in France, at twenty-six years old, of a pike-wound in the hand. And as Matilda gave birth to three sons, he thought the succession to the throne secure. He spent most of the latter part of his life, which was troubled by family quarrels, in Normandy, to be near Matilda. When he had reigned upward of thirty-five years, and was sixty-seven years old, he died of an indigestion and fever, brought on by eating, when he was far from well, of a fish called Lamprey, against which he had often been cautioned by his physicians. His remains were brought over to Reading Abbey to be buried. You may perhaps hear the cunning and promise-breaking of King Henry the First, called 'policy' by some people, and 'diplomacy' by others. Neither of these fine words will in the least mean that it was true; and nothing that is not true can possibly be good. His greatest merit, that I know of, was his love of learning--I should have given him greater credit even for that, if it had been strong enough to induce him to spare the eyes of a certain poet he once took prisoner, who was a knight besides. But he ordered the poet's eyes to be torn from his head, because he had laughed at him in his verses; and the poet, in the pain of that torture, dashed out his own brains against his prison wall. King Henry the First was avaricious, revengeful, and so false, that I suppose a man never lived whose word was less to be relied upon.
 _(source: history_dickens_england_excerpt.pdf (source-range-bcf2b9c4-00015))_

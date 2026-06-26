@@ -1,12 +1,12 @@
 ---
 page_id: coding-little-go-book-variable-declaration
 page_kind: concept
-summary: Variables and Declarations: 30 statement(s) and 3 atom(s) from raw/coding_little_go_book.pdf.
+summary: Variables and Declarations: 18 statement(s) and 8 atom(s) from raw/coding_little_go_book.pdf.
 sources: raw/coding_little_go_book.pdf
 updated: 2026-06-26
 domain: coding-little-go-book
 category_path: concepts
-projection_coverage: topic-coding-little-go-book-variable-declaration@4d76e59d3c8f7c17a088e7742d680cab
+projection_coverage: topic-coding-little-go-book-variable-declaration@f77ccf547ad34388cb100106aa831574
 ---
 
 # Variables and Declarations
@@ -15,33 +15,93 @@ What [[coding-little-go-book]] covers about variables and declarations:
 
 ## Statements
 
-- As long as one of the variables is new, := can be used. _(coding_little_go_book.pdf (source-range-810ce361-00088))_
-- Some variables, when created, have an easy-to-define life. _(coding_little_go_book.pdf (source-range-810ce361-00046))_
-- Before we do that, we have to dive back into declarations. _(coding_little_go_book.pdf (source-range-810ce361-00115))_
-- Just like unassigned variables have a zero value, so do fields. _(coding_little_go_book.pdf (source-range-810ce361-00123))_
-- The compiler will complain with no new variables on left side of := . _(coding_little_go_book.pdf (source-range-810ce361-00085))_
-- Because a variable can't be declared twice (not in the same scope anyway). _(coding_little_go_book.pdf (source-range-810ce361-00083))_
-- The only concurrent thing you can safely do to a variable is to read from it. _(coding_little_go_book.pdf (source-range-810ce361-00415))_
-- If you read the error message closely, you'll notice that variables is plural. _(coding_little_go_book.pdf (source-range-810ce361-00086))_
-- Not least of which is the various syntax around declaration and initialization. _(coding_little_go_book.pdf (source-range-810ce361-00473))_
-- Go has a handy short variable declaration operator, := , which can infer the type: _(coding_little_go_book.pdf (source-range-810ce361-00079))_
-- What all of the above examples do is declare a variable goku and assign a value to it. _(coding_little_go_book.pdf (source-range-810ce361-00126))_
-- We did spend three chapters talking about types and how to declare variables after all. _(coding_little_go_book.pdf (source-range-810ce361-00471))_
-- For now, the last thing to know is that, like imports, Go won't let you have unused variables. _(coding_little_go_book.pdf (source-range-810ce361-00091))_
-- Unlike the array declaration, our slice isn't declared with a length within the square brackets. _(coding_little_go_book.pdf (source-range-810ce361-00202))_
+- Unfortunately, things are more complicated in Go. _(coding_little_go_book.pdf (source-range-773b6275-00073))_
+- You might be thinking Woah! _(coding_little_go_book.pdf (source-range-773b6275-00074))_
+- The most explicit way to deal with variable declaration and assignment in Go is also the most verbose: _(coding_little_go_book.pdf (source-range-773b6275-00075))_
+- Integers are assigned 0 , booleans false , strings "" and so on. _(coding_little_go_book.pdf (source-range-773b6275-00077))_
+- Go has a handy short variable declaration operator, := , which can infer the type: _(coding_little_go_book.pdf (source-range-773b6275-00079))_
+- Because a variable can't be declared twice (not in the same scope anyway). _(coding_little_go_book.pdf (source-range-773b6275-00083))_
+- It's important that you remember that := is used to declare the variable as well as assign a value to it. _(coding_little_go_book.pdf (source-range-773b6275-00083))_
+- This means that when we first declare a variable, we use := but on subsequent assignment, we use the assignment operator = . _(coding_little_go_book.pdf (source-range-773b6275-00085))_
+- This makes a lot of sense, but it can be tricky for your muscle memory to remember when to switch between the two. _(coding_little_go_book.pdf (source-range-773b6275-00085))_
+- The compiler will complain with no new variables on left side of := . _(coding_little_go_book.pdf (source-range-773b6275-00085))_
+- If you read the error message closely, you'll notice that variables is plural. _(coding_little_go_book.pdf (source-range-773b6275-00086))_
+- As long as one of the variables is new, := can be used. _(coding_little_go_book.pdf (source-range-773b6275-00088))_
+- However, you can't change the type of power . _(coding_little_go_book.pdf (source-range-773b6275-00090))_
+- It was declared (implicitly) as an integer and thus, can only be assigned integers. _(coding_little_go_book.pdf (source-range-773b6275-00090))_
 
 ## Technical atoms
 
-> Being statically typed means that variables must be of a specific type (int, string, bool, []byte, etc.).
-_(source: coding_little_go_book.pdf (source-range-810ce361-00037))_
+> Context: The most explicit way to deal with variable declaration and assignment in Go is also the most verbose:
+_(context: coding_little_go_book.pdf (source-range-773b6275-00075))_
 
 ```
-func main()	{ power	:=	9000 fmt.Printf("It's	over	%d\n",	power) //	COMPILER	ERROR: //	no	new	variables	on	left	side	of	:= power	:=	9001 fmt.Printf("It's	also	over	%d\n",	power) }
+package main
+import (
+  "fmt"
+)
+func main() {
+  var power int
+  power = 9000
+  fmt.Printf("It's over %d\n", power)
+}
 ```
-_(source: coding_little_go_book.pdf (source-range-810ce361-00084))_
+_(source: coding_little_go_book.pdf (source-range-773b6275-00076))_
 
-> Furthermore, you can skip the field name and rely on the order of the field declarations (though for the sake of clarity, you should only do this for structures with few fields):
-_(source: coding_little_go_book.pdf (source-range-810ce361-00124))_
+> Context: Here, we declare a variable power of type int . By default, Go assigns a zero value to variables. Integers are assigned 0 , booleans false , strings "" and so on. Next, we assign 9000 to our power variable. We can merge the first two lines:
+_(context: coding_little_go_book.pdf (source-range-773b6275-00077))_
+
+```
+var power int = 9000
+```
+_(source: coding_little_go_book.pdf (source-range-773b6275-00078))_
+
+> Context: Still, that's a lot of typing. Go has a handy short variable declaration operator, := , which can infer the type:
+_(context: coding_little_go_book.pdf (source-range-773b6275-00079))_
+
+```
+power := 9000
+```
+_(source: coding_little_go_book.pdf (source-range-773b6275-00080))_
+
+> Context: This is handy, and it works just as well with functions: It's important that you remember that := is used to declare the variable as well as assign a value to it. Why? Because a variable can't be declared twice (not in the same scope anyway). If you try to run the following, you'll get an error.
+_(context: coding_little_go_book.pdf (source-range-773b6275-00081, source-range-773b6275-00083))_
+
+```
+func main() {
+  power := getPower()
+}
+func getPower() int {
+  return 9001
+}
+```
+_(source: coding_little_go_book.pdf (source-range-773b6275-00082))_
+
+> Context: It's important that you remember that := is used to declare the variable as well as assign a value to it. Why? Because a variable can't be declared twice (not in the same scope anyway). If you try to run the following, you'll get an error. If you read the error message closely, you'll notice that variables is plural. That's because Go lets you assign multiple variables (using either = or := ):
+_(context: coding_little_go_book.pdf (source-range-773b6275-00083, source-range-773b6275-00086))_
+
+```
+func main() {
+  power := 9000
+  fmt.Printf("It's over %d\n", power)
+// COMPILER ERROR:
+  // no new variables on left side of :=
+  power := 9001
+  fmt.Printf("It's also over %d\n", power)
+}
+```
+_(source: coding_little_go_book.pdf (source-range-773b6275-00084))_
+
+> Context: If you read the error message closely, you'll notice that variables is plural. That's because Go lets you assign multiple variables (using either = or := ):
+_(context: coding_little_go_book.pdf (source-range-773b6275-00086))_
+
+```
+func main() {
+  name, power := "Goku", 9000
+  fmt.Printf("%s's power is over %d\n", name, power)
+}
+```
+_(source: coding_little_go_book.pdf (source-range-773b6275-00087))_
 
 
 ## Source

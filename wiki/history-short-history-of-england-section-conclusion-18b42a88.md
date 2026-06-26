@@ -1,13 +1,13 @@
 ---
 page_id: history-short-history-of-england-section-conclusion-18b42a88
 page_kind: source
-summary: CONCLUSION: 31 source-backed entries and 1 atom(s) from raw/history_short_history_of_england.pdf.
+summary: CONCLUSION: 31 source-backed entries and 0 atom(s) from raw/history_short_history_of_england.pdf.
 sources: raw/history_short_history_of_england.pdf
 updated: 2026-06-26
 domain: history-short-history-of-england
 category_path: sources/history-short-history-of-england/sections
 source_id: history_short_history_of_england.pdf
-projection_coverage: section-history-short-history-of-england-section-conclusion-18b42a88@3b56490de2e76cdde5bf83e5db20aad7
+projection_coverage: section-history-short-history-of-england-section-conclusion-18b42a88@d75782b852b99e0de00836039645ca1b
 ---
 
 # CONCLUSION
@@ -35,6 +35,7 @@ From [[history-short-history-of-england]].
 - But in doing all this, it deliberately did two other things, which it thought a natural part of its policy; it took the side of the Protestants, and then (partly as a consequence) it took the side of the Germans. _(history_short_history_of_england.pdf (source-range-e5a81de4-00475))_
 - But in doing all this, it deliberately did two other things, which it thought a natural part of its policy; it took the side of the Protestants, and then (partly as a consequence) it took the side of the Germans. _(history_short_history_of_england.pdf (source-range-e5a81de4-00475))_
 - At least, if there be anything valid in my own vision of these things, we have returned to an origin and we are back in the war with the barbarians. _(history_short_history_of_england.pdf (source-range-e5a81de4-00476))_
+- If the English really attempt that, the English have at least shown in the war, to any one who doubted it, that they have not lost the courage and capacity of their fathers, and can carry it through if they will. _(history_short_history_of_england.pdf (source-range-e5a81de4-00476))_
 - It falls as naturally for me that the Englishman and the Frenchman should be on the same side as that Alfred and Abbo should be on the same side, in that black century when the barbarians wasted Wessex and besieged Paris. _(history_short_history_of_england.pdf (source-range-e5a81de4-00476))_
 - Under all its mask of machinery and instruction, the German regimentation of the poor was the relapse of barbarians into slavery. _(history_short_history_of_england.pdf (source-range-e5a81de4-00476))_
 - And there are moods in which a man, considering that conclusion of our story, is half inclined to wish that the wave of Teutonic barbarism had washed out us and our armies together; and that the world should never know anything more of the last of the English, except that they died for liberty. _(history_short_history_of_england.pdf (source-range-e5a81de4-00476))_
@@ -46,8 +47,3 @@ From [[history-short-history-of-england]].
 - And there are moods in which a man, considering that conclusion of our story, is half inclined to wish that the wave of Teutonic barbarism had washed out us and our armies together; and that the world should never know anything more of the last of the English, except that they died for liberty. _(history_short_history_of_england.pdf (source-range-e5a81de4-00476))_
 - If they do not do so, if they continue to move only with the dead momentum of the social discipline which we learnt from Germany, there is nothing before us but what Mr. _(history_short_history_of_england.pdf (source-range-e5a81de4-00476))_
 - I can see no escape from it for ourselves in the ruts of our present reforms, but only by doing what the mediævals did after the other barbarian defeat: beginning, by guilds and small independent groups, gradually to restore the personal property of the poor and the personal freedom of the family. _(history_short_history_of_england.pdf (source-range-e5a81de4-00476))_
-
-## Technical atoms
-
-> If the English really attempt that, the English have at least shown in the war, to any one who doubted it, that they have not lost the courage and capacity of their fathers, and can carry it through if they will.
-_(source: history_short_history_of_england.pdf (source-range-e5a81de4-00476))_

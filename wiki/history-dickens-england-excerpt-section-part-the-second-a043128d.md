@@ -1,13 +1,13 @@
 ---
 page_id: history-dickens-england-excerpt-section-part-the-second-a043128d
 page_kind: source
-summary: PART THE SECOND: 116 source-backed entries and 2 atom(s) from raw/history_dickens_england_excerpt.pdf.
+summary: PART THE SECOND: 115 source-backed entries and 0 atom(s) from raw/history_dickens_england_excerpt.pdf.
 sources: raw/history_dickens_england_excerpt.pdf
 updated: 2026-06-26
 domain: history-dickens-england-excerpt
 category_path: sources/history-dickens-england-excerpt/sections
 source_id: history_dickens_england_excerpt.pdf
-projection_coverage: section-history-dickens-england-excerpt-section-part-the-second-a043128d@438c0ebd83e933dfc6a845292a33b73f
+projection_coverage: section-history-dickens-england-excerpt-section-part-the-second-a043128d@9660dc7d1927705289c5f81287c391f0
 ---
 
 # PART THE SECOND
@@ -21,6 +21,7 @@ From [[history-dickens-england-excerpt]].
 - He sent respectful messengers to the Pope, to represent his innocence (except in having uttered the hasty words); and he swore solemnly and publicly to his innocence, and contrived in time to make his peace. _(history_dickens_england_excerpt.pdf (source-range-bcf2b9c4-00024))_
 - At last, they went humbly to Jerusalem as a penance, and there died and were buried. _(history_dickens_england_excerpt.pdf (source-range-bcf2b9c4-00024))_
 - Some have supposed that when the King spoke those hasty words, 'Have I no one here who will deliver me from this man?' he wished, and meant a Becket to be slain. _(history_dickens_england_excerpt.pdf (source-range-bcf2b9c4-00024))_
+- But few things are more unlikely; for, besides that the King was not naturally cruel (though very passionate), he was wise, and must have known full well what any stupid man in his dominions must have known, namely, that such a murder would rouse the Pope and the whole Church against him. _(history_dickens_england_excerpt.pdf (source-range-bcf2b9c4-00024))_
 - As to the four guilty Knights, who fled into Yorkshire, and never again dared to show themselves at Court, the Pope excommunicated them; and they lived miserably for some time, shunned by all their countrymen. _(history_dickens_england_excerpt.pdf (source-range-bcf2b9c4-00024))_
 - It happened, fortunately for the pacifying of the Pope, that an opportunity arose very soon after the murder of a Becket, for the King to declare his power in Ireland--which was an acceptable undertaking to the Pope, as the Irish, who had been converted to Christianity by one Patricius (otherwise Saint Patrick) long ago, before any Pope existed, considered that the Pope had nothing at all to do with them, or they with the Pope, and accordingly refused to pay him Peter's Pence, or that tax of a penny a house which I have elsewhere mentioned. _(history_dickens_england_excerpt.pdf (source-range-bcf2b9c4-00024))_
 - He sent respectful messengers to the Pope, to represent his innocence (except in having uttered the hasty words); and he swore solemnly and publicly to his innocence, and contrived in time to make his peace. _(history_dickens_england_excerpt.pdf (source-range-bcf2b9c4-00024))_
@@ -130,11 +131,3 @@ From [[history-dickens-england-excerpt]].
 - How the bad Queen Eleanor, becoming jealous of Fair Rosamond, found out the secret of the clue, and one day, appeared before her, with a dagger and a cup of poison, and left her to the choice between those deaths. _(history_dickens_england_excerpt.pdf (source-range-bcf2b9c4-00025))_
 - Within a day or two, his brothers Richard and Geoffrey followed. _(history_dickens_england_excerpt.pdf (source-range-bcf2b9c4-00025))_
 - He died, after Waterford and Dublin had been taken, and various successes achieved; and Strongbow became King of Leinster. _(history_dickens_england_excerpt.pdf (source-range-bcf2b9c4-00025))_
-
-## Technical atoms
-
-> But few things are more unlikely; for, besides that the King was not naturally cruel (though very passionate), he was wise, and must have known full well what any stupid man in his dominions must have known, namely, that such a murder would rouse the Pope and the whole Church against him.
-_(source: history_dickens_england_excerpt.pdf (source-range-bcf2b9c4-00024))_
-
-> The Irish were, at that time, as barbarous a people as you can well imagine.
-_(source: history_dickens_england_excerpt.pdf (source-range-bcf2b9c4-00025))_

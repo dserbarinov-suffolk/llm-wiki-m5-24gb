@@ -1,13 +1,13 @@
 ---
 page_id: rpg-dnd-srd-excerpt-section-skills-758d5f41
 page_kind: source
-summary: Skills: 18 source-backed entries and 0 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
+summary: Skills: 17 source-backed entries and 2 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
 sources: raw/rpg_dnd_srd_excerpt.pdf
 updated: 2026-06-26
 domain: rpg-dnd-srd-excerpt
 category_path: sources/rpg-dnd-srd-excerpt/sections
 source_id: rpg_dnd_srd_excerpt.pdf
-projection_coverage: section-rpg-dnd-srd-excerpt-section-skills-758d5f41@e76a42e5cd950cda1906018f9448a8c7
+projection_coverage: section-rpg-dnd-srd-excerpt-section-skills-758d5f41@08e70a1c0875e559e38e4781707dc7a8
 ---
 
 # Skills
@@ -27,10 +27,15 @@ From [[rpg-dnd-srd-excerpt]].
 - The skills related to each ability score are shown in the following list. _(rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00103))_
 - Without proficiency in the skill, the individual makes a normal ability check. _(rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00105))_
 - Sometimes, the GM might ask for an ability check using a specific skill-for example, "Make a Wisdom (Perception) check." At other times, a player might ask the GM if proficiency in a particular skill applies to a check. _(rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00105))_
-- In either case, proficiency in a skill means an individual can add his or her proficiency bonus to ability checks that involve that skill. _(rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00105))_
-- In either case, proficiency in a skill means an individual can add his or her proficiency bonus to ability checks that involve that skill. _(rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00105))_
 - Sometimes, the GM might ask for an ability check using a specific skill-for example, "Make a Wisdom (Perception) check." At other times, a player might ask the GM if proficiency in a particular skill applies to a check. _(rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00105))_
-- If the character is proficient in Athletics, the character's proficiency bonus is added to the Strength check. _(rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00106))_
 - If the character lacks that proficiency, he or she just makes a Strength check. _(rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00106))_
 - For example, if a character attempts to climb up a dangerous cliff, the GM might ask for a Strength (Athletics) check. _(rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00106))_
 - For example, if a character attempts to climb up a dangerous cliff, the GM might ask for a Strength (Athletics) check. _(rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00106))_
+
+## Technical atoms
+
+> In either case, proficiency in a skill means an individual can add his or her proficiency bonus to ability checks that involve that skill.
+_(source: rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00105))_
+
+> If the character is proficient in Athletics, the character's proficiency bonus is added to the Strength check.
+_(source: rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00106))_

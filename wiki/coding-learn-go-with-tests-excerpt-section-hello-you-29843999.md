@@ -1,13 +1,13 @@
 ---
 page_id: coding-learn-go-with-tests-excerpt-section-hello-you-29843999
 page_kind: source
-summary: Hello, YOU: 22 source-backed entries and 10 atom(s) from raw/coding_learn_go_with_tests_excerpt.pdf.
+summary: Hello, YOU: 22 source-backed entries and 9 atom(s) from raw/coding_learn_go_with_tests_excerpt.pdf.
 sources: raw/coding_learn_go_with_tests_excerpt.pdf
 updated: 2026-06-26
 domain: coding-learn-go-with-tests-excerpt
 category_path: sources/coding-learn-go-with-tests-excerpt/sections
 source_id: coding_learn_go_with_tests_excerpt.pdf
-projection_coverage: section-coding-learn-go-with-tests-excerpt-section-hello-you-29843999@1b323ad55849ba75852451cc98cda305
+projection_coverage: section-coding-learn-go-with-tests-excerpt-section-hello-you-29843999@370a6815f085763682915ff68390c8f0
 ---
 
 # Hello, YOU
@@ -21,6 +21,7 @@ From [[coding-learn-go-with-tests-excerpt]].
 - In the last example, we wrote the test after the code had been written so that you could get an example of how to write a test and declare a function. _(coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00044))_
 - This is basic testdriven development and allows us to make sure our test is actually testing what we want. _(coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00046))_
 - When using a statically typed language like Go it is important to listen to the compiler . _(coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00051))_
+- The compiler understands how your code should snap together and work so you don't have to. _(coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00051))_
 - In this case the compiler is telling you what you need to do to continue. _(coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00052))_
 - We have to change our function Hello to accept an argument. _(coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00052))_
 - If you try and run your tests again your hello.go will fail to compile because you're not passing an argument. _(coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00055))_
@@ -43,9 +44,6 @@ _(source: coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00048))_
 ./hello_test.go:6:18:	too	many	arguments	in	call	to	Hello have	(string) want	()
 ```
 _(source: coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00050))_
-
-> The compiler understands how your code should snap together and work so you don't have to.
-_(source: coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00051))_
 
 ```
 func Hello(name	string)	string	{ return "Hello,	world" }

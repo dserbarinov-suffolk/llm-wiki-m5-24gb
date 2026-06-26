@@ -7,7 +7,7 @@ updated: 2026-06-26
 domain: rpg-cairn-2e-core
 category_path: sources/rpg-cairn-2e-core/sections
 source_id: rpg_cairn_2e_core.pdf
-projection_coverage: section-rpg-cairn-2e-core-section-lucius-f0e07618@ddb236009b98628e780c010c7c4018a1
+projection_coverage: section-rpg-cairn-2e-core-section-lucius-f0e07618@75c328ed98b55ce670d7ccd7f3c067b5
 ---
 
 # Lucius
@@ -22,9 +22,9 @@ From [[rpg-cairn-2e-core]].
 - She keeps only the higher die, and the large man is able to absorb the damage, taking his HP down to 0 (but only PCs gain Scars). _(rpg_cairn_2e_core.pdf (source-range-f6f3256b-00447))_
 - She keeps only the higher die, and the large man is able to absorb the damage, taking his HP down to 0 (but only PCs gain Scars). _(rpg_cairn_2e_core.pdf (source-range-f6f3256b-00447))_
 - He is running out of steam! _(rpg_cairn_2e_core.pdf (source-range-f6f3256b-00448))_
-- She makes a STR save to see if she can stay in the fight. _(rpg_cairn_2e_core.pdf (source-range-f6f3256b-00448))_
 - Freya, your daggers slice at the large man with impressive speed and intensity, and it's clear that you've put him on the defensive, as you can see the sweat begin pouring down the sides of his head. _(rpg_cairn_2e_core.pdf (source-range-f6f3256b-00448))_
 - She rolls a 13, a fail! _(rpg_cairn_2e_core.pdf (source-range-f6f3256b-00448))_
+- This is the first casualty of the fight, so the woman's allies must make a WIL save to continue or flee. _(rpg_cairn_2e_core.pdf (source-range-f6f3256b-00449))_
 - The Warden rolls using the leader's WIL, and he fails! _(rpg_cairn_2e_core.pdf (source-range-f6f3256b-00449))_
 - I beg of you: have mercy. _(rpg_cairn_2e_core.pdf (source-range-f6f3256b-00450))_
 - If we save your sister with our skills and resources, will you vow to pledge yourself to a life of piety, poverty, and kindness?" _(rpg_cairn_2e_core.pdf (source-range-f6f3256b-00451))_
@@ -41,5 +41,5 @@ From [[rpg-cairn-2e-core]].
 > She loses 1 point of STR in the attack and so must then roll a Critical Damage save using her new STR score.
 _(source: rpg_cairn_2e_core.pdf (source-range-f6f3256b-00447))_
 
-> This is the first casualty of the fight, so the woman's allies must make a WIL save to continue or flee.
-_(source: rpg_cairn_2e_core.pdf (source-range-f6f3256b-00449))_
+> She makes a STR save to see if she can stay in the fight.
+_(source: rpg_cairn_2e_core.pdf (source-range-f6f3256b-00448))_

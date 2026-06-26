@@ -1,13 +1,13 @@
 ---
 page_id: history-short-history-of-england-section-the-province-of-britain-ef3e65fb
 page_kind: source
-summary: THE PROVINCE OF BRITAIN: 136 source-backed entries and 8 atom(s) from raw/history_short_history_of_england.pdf.
+summary: THE PROVINCE OF BRITAIN: 139 source-backed entries and 2 atom(s) from raw/history_short_history_of_england.pdf.
 sources: raw/history_short_history_of_england.pdf
 updated: 2026-06-26
 domain: history-short-history-of-england
 category_path: sources/history-short-history-of-england/sections
 source_id: history_short_history_of_england.pdf
-projection_coverage: section-history-short-history-of-england-section-the-province-of-britain-ef3e65fb@c27944c216478df9785158f96952c164
+projection_coverage: section-history-short-history-of-england-section-the-province-of-britain-ef3e65fb@630513673ec0019a70b9a3d78a6f5188
 ---
 
 # THE PROVINCE OF BRITAIN
@@ -35,9 +35,12 @@ From [[history-short-history-of-england]].
 - There is something double in the thoughts as of the soul mirrored in many waters. _(history_short_history_of_england.pdf (source-range-e5a81de4-00028))_
 - They are torn between love of home and love of something else; of which the sea may be the explanation or may be only the symbol. _(history_short_history_of_england.pdf (source-range-e5a81de4-00028))_
 - For the Irish bull is a license with the symbol of language. _(history_short_history_of_england.pdf (source-range-e5a81de4-00028))_
+- About these realms upon the edge of everything there was really something that can only be called edgy. _(history_short_history_of_england.pdf (source-range-e5a81de4-00028))_
 - Their souls are fretted like their coasts. _(history_short_history_of_england.pdf (source-range-e5a81de4-00028))_
 - They are torn between love of home and love of something else; of which the sea may be the explanation or may be only the symbol. _(history_short_history_of_england.pdf (source-range-e5a81de4-00028))_
 - The great rivers seem not only to meet in the ocean, but barely to miss each other in the hills: the whole land, though low as a whole, leans towards the west in shouldering mountains; and a prehistoric tradition has taught it to look towards the sunset for islands yet dreamier than its own. _(history_short_history_of_england.pdf (source-range-e5a81de4-00028))_
+- About these realms upon the edge of everything there was really something that can only be called edgy. _(history_short_history_of_england.pdf (source-range-e5a81de4-00028))_
+- Their worship was probably Nature-worship; and while such a basis may count for something in the elemental quality that has always soaked the island arts, the collision between it and the tolerant Empire suggests the presence of something which generally grows out of Nature-worship-I mean the unnatural. _(history_short_history_of_england.pdf (source-range-e5a81de4-00029))_
 - We do not know whether the Britons then, or for that matter the Britons now, were Iberian or Cymric or Teutonic. _(history_short_history_of_england.pdf (source-range-e5a81de4-00029))_
 - And indeed their importance has been very much exaggerated. _(history_short_history_of_england.pdf (source-range-e5a81de4-00029))_
 - We do know that in a short time they were Roman. _(history_short_history_of_england.pdf (source-range-e5a81de4-00029))_
@@ -78,6 +81,7 @@ From [[history-short-history-of-england]].
 - And it was Constantine, as all men know, who first nailed up that proclamation which all after generations have in truth been struggling either to protect or to tear down. _(history_short_history_of_england.pdf (source-range-e5a81de4-00031))_
 - The Roman Empire necessarily became less Roman as it became more of an Empire; until not very long after Rome gave conquerors to Britain, Britain was giving emperors to Rome. _(history_short_history_of_england.pdf (source-range-e5a81de4-00031))_
 - What was meant by being Roman it is necessary in a few lines to say, or no sense can be made of what happened after, especially of what happened immediately after. _(history_short_history_of_england.pdf (source-range-e5a81de4-00031))_
+- But there is another historic element that must also be realized. _(history_short_history_of_england.pdf (source-range-e5a81de4-00032))_
 - Hence the school of Dante implied the paradox that the Roman soldiers killed Christ, not only by right, but even by divine right. _(history_short_history_of_england.pdf (source-range-e5a81de4-00032))_
 - It must be incessantly remembered through the first half of English history; for it is the whole meaning in the quarrel of the priests and kings. _(history_short_history_of_england.pdf (source-range-e5a81de4-00032))_
 - That mere law might fail at its highest test it had to be real law, and not mere military lawlessness. _(history_short_history_of_england.pdf (source-range-e5a81de4-00032))_
@@ -98,6 +102,8 @@ From [[history-short-history-of-england]].
 - Hence the school of Dante implied the paradox that the Roman soldiers killed Christ, not only by right, but even by divine right. _(history_short_history_of_england.pdf (source-range-e5a81de4-00032))_
 - Slavery certainly existed, as it had in the most democratic states of ancient times. _(history_short_history_of_england.pdf (source-range-e5a81de4-00033))_
 - And however it began it largely ended in equality. _(history_short_history_of_england.pdf (source-range-e5a81de4-00033))_
+- The double rule of the civilization and the religion in one sense remained for centuries; and before its first misfortunes came it must be conceived as substantially the same everywhere. _(history_short_history_of_england.pdf (source-range-e5a81de4-00033))_
+- The double rule of the civilization and the religion in one sense remained for centuries; and before its first misfortunes came it must be conceived as substantially the same everywhere. _(history_short_history_of_england.pdf (source-range-e5a81de4-00033))_
 - In so far as any change was passing over that society with its two levels of equal citizens and equal slaves, it was only the slow growth of the power of the Church at the expense of the power of the Empire. _(history_short_history_of_england.pdf (source-range-e5a81de4-00037))_
 - officialism certainly existed, as it exists in the most democratic states of modern times. _(history_short_history_of_england.pdf (source-range-e5a81de4-00037))_
 - In so far as any change was passing over that society with its two levels of equal citizens and equal slaves, it was only the slow growth of the power of the Church at the expense of the power of the Empire. _(history_short_history_of_england.pdf (source-range-e5a81de4-00037))_
@@ -105,6 +111,7 @@ From [[history-short-history-of-england]].
 - It is therefore necessary, though very difficult, to frame in few words some idea of what happened to the whole European race. _(history_short_history_of_england.pdf (source-range-e5a81de4-00039))_
 - Kipling's question of "What can they know of England who only England know?" and merely differ from the view that they will best broaden their minds by the study of Wagga-Wagga and Timbuctoo. _(history_short_history_of_england.pdf (source-range-e5a81de4-00039))_
 - But it affected all the institutions of all the provinces, especially the institution of Slavery. _(history_short_history_of_england.pdf (source-range-e5a81de4-00039))_
+- The case of Britain, however, cannot possibly be considered alone. _(history_short_history_of_england.pdf (source-range-e5a81de4-00039))_
 - But of all the provinces its effect was heaviest in Britain, which lay on or beyond the borders. _(history_short_history_of_england.pdf (source-range-e5a81de4-00039))_
 - The first half of English history has been made quite unmeaning in the schools by the attempt to tell it without reference to that corporate Christendom in which it took part and pride. _(history_short_history_of_england.pdf (source-range-e5a81de4-00039))_
 - But while a million little priests and monks like mice were already nibbling at the bonds of the ancient servitude, another process was going on, which has here been called the weakening of the Empire. _(history_short_history_of_england.pdf (source-range-e5a81de4-00039))_
@@ -114,8 +121,10 @@ From [[history-short-history-of-england]].
 - Gibbon called his great pageant of prose "The Decline and Fall of the Roman Empire." The Empire did decline, but it did not fall. _(history_short_history_of_england.pdf (source-range-e5a81de4-00040))_
 - There was anarchy, but there was no rebellion. _(history_short_history_of_england.pdf (source-range-e5a81de4-00040))_
 - The centre had been growing fainter and fainter, and now the centre disappeared. _(history_short_history_of_england.pdf (source-range-e5a81de4-00040))_
+- For rebellion must have a principle, and therefore (for those who can think) an authority. _(history_short_history_of_england.pdf (source-range-e5a81de4-00040))_
 - Rome had as much freed the world as ruled it, and now she could rule no more. _(history_short_history_of_england.pdf (source-range-e5a81de4-00040))_
 - A loose localism was the result rather than any conscious intellectual mutiny. _(history_short_history_of_england.pdf (source-range-e5a81de4-00040))_
+- For rebellion must have a principle, and therefore (for those who can think) an authority. _(history_short_history_of_england.pdf (source-range-e5a81de4-00040))_
 - The later pagan slavery, like our own industrial labour which increasingly resembles it, was worked on a larger and larger scale; and it was at last too large to control. _(history_short_history_of_england.pdf (source-range-e5a81de4-00041))_
 - But the direct possession of man by man the same localism tended to destroy; though this negative influence upon it bears no kind of proportion to the positive influence of the Catholic Church. _(history_short_history_of_england.pdf (source-range-e5a81de4-00041))_
 - The localism did indeed produce that choice of territorial chieftains which came to be called Feudalism, and of which we shall speak later. _(history_short_history_of_england.pdf (source-range-e5a81de4-00041))_
@@ -147,26 +156,8 @@ From [[history-short-history-of-england]].
 
 ## Technical atoms
 
-> About these realms upon the edge of everything there was really something that can only be called edgy.
-_(source: history_short_history_of_england.pdf (source-range-e5a81de4-00028))_
-
-> Their worship was probably Nature-worship; and while such a basis may count for something in the elemental quality that has always soaked the island arts, the collision between it and the tolerant Empire suggests the presence of something which generally grows out of Nature-worship-I mean the unnatural.
-_(source: history_short_history_of_england.pdf (source-range-e5a81de4-00029))_
-
-> But there is another historic element that must also be realized.
-_(source: history_short_history_of_england.pdf (source-range-e5a81de4-00032))_
-
-> The double rule of the civilization and the religion in one sense remained for centuries; and before its first misfortunes came it must be conceived as substantially the same everywhere.
-_(source: history_short_history_of_england.pdf (source-range-e5a81de4-00033))_
-
 > Slavery was for the Church not a difficulty of doctrine, but a strain on the imagination. Aristotle and the pagan sages who had defined the servile or "useful" arts, had regarded the slave as a tool, an axe to cut wood or whatever wanted cutting. The Church did not denounce the cutting; but she felt as if she was cutting glass with a diamond. She was haunted by the memory that the diamond is so much more precious than the glass. So Christianity could not settle down into the pagan simplicity that the man was made for the work, when the work was so much less immortally momentous than the man. At about this stage of a history of England there is generally told the anecdote of a pun of Gregory the Great; and this is perhaps the true point of it. By the Roman theory the barbarian bondmen were meant to be useful. The saint's mysticism was moved at finding them ornamental; and "Non Angli sed Angeli" meant more nearly "Not slaves, but souls." It is to the point, in passing, to note that in the modern country most collectively Christian, Russia, the serfs were always referred to as "souls." The great Pope's phrase, hackneyed as it is, is perhaps the first glimpse of the golden halos in the best Christian Art. Thus the Church, with whatever other faults, worked of her own nature towards greater social equality; and it is a historical error to suppose that the Church hierarchy worked with aristocracies, or was of a kind with them. It was an inversion of aristocracy; in the ideal of it, at least, the last were to be first. The Irish bull that "One man is as good as another and a great deal better" contains a truth, like many contradictions; a truth that was the link between Christianity and citizenship. Alone of all superiors, the saint does not depress the human dignity of others. He is not conscious of his superiority to them; but only more conscious of his inferiority than they are.
 _(source: history_short_history_of_england.pdf (source-range-e5a81de4-00038))_
-
-> The case of Britain, however, cannot possibly be considered alone.
-_(source: history_short_history_of_england.pdf (source-range-e5a81de4-00039))_
-
-> For rebellion must have a principle, and therefore (for those who can think) an authority.
-_(source: history_short_history_of_england.pdf (source-range-e5a81de4-00040))_
 
 > Canute might call for his throne; but if he wanted his throne-room he must go and get it himself.
 _(source: history_short_history_of_england.pdf (source-range-e5a81de4-00046))_

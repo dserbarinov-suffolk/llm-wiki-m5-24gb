@@ -1,13 +1,13 @@
 ---
 page_id: coding-learn-go-with-tests-excerpt-section-write-enough-code-to-make-it-pass-e73e9ffd
 page_kind: source
-summary: Write enough code to make it pass: 12 source-backed entries and 4 atom(s) from raw/coding_learn_go_with_tests_excerpt.pdf.
+summary: Write enough code to make it pass: 11 source-backed entries and 2 atom(s) from raw/coding_learn_go_with_tests_excerpt.pdf.
 sources: raw/coding_learn_go_with_tests_excerpt.pdf
 updated: 2026-06-26
 domain: coding-learn-go-with-tests-excerpt
 category_path: sources/coding-learn-go-with-tests-excerpt/sections
 source_id: coding_learn_go_with_tests_excerpt.pdf
-projection_coverage: section-coding-learn-go-with-tests-excerpt-section-write-enough-code-to-make-it-pass-e73e9ffd@d97d43f38ca8433cd9240e13a4c2ef99
+projection_coverage: section-coding-learn-go-with-tests-excerpt-section-write-enough-code-to-make-it-pass-e73e9ffd@119a16d89960e39fc00520479506b042
 ---
 
 # Write enough code to make it pass
@@ -23,6 +23,7 @@ From [[coding-learn-go-with-tests-excerpt]].
 - Here we are declaring a string variable only. _(coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00236))_
 - Here we are declaring a string variable only. _(coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00236))_
 - Hence, the explicit version. _(coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00236))_
+- Run the test and it should pass. _(coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00237))_
 - Additional variants of the for loop are described here. _(coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00238))_
 
 ## Technical atoms
@@ -32,13 +33,7 @@ func Repeat(character	string)	string	{ var repeated	string for i	:=	0;	i	<	5;	i+
 ```
 _(source: coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00233))_
 
-> Unlike other languages like C, Java, or JavaScript there are no parentheses surrounding the three components of the for statement and the braces { } are always required.
-_(source: coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00234))_
-
 ```
 var repeated	string
 ```
 _(source: coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00235))_
-
-> Run the test and it should pass.
-_(source: coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00237))_

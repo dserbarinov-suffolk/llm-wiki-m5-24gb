@@ -1,13 +1,13 @@
 ---
 page_id: history-short-history-of-england-section-spain-and-the-schism-of-nations-b7bdf14b
 page_kind: source
-summary: SPAIN AND THE SCHISM OF NATIONS: 126 source-backed entries and 6 atom(s) from raw/history_short_history_of_england.pdf.
+summary: SPAIN AND THE SCHISM OF NATIONS: 125 source-backed entries and 0 atom(s) from raw/history_short_history_of_england.pdf.
 sources: raw/history_short_history_of_england.pdf
 updated: 2026-06-26
 domain: history-short-history-of-england
 category_path: sources/history-short-history-of-england/sections
 source_id: history_short_history_of_england.pdf
-projection_coverage: section-history-short-history-of-england-section-spain-and-the-schism-of-nations-b7bdf14b@d42714553850264ca0f1c2ec262beeff
+projection_coverage: section-history-short-history-of-england-section-spain-and-the-schism-of-nations-b7bdf14b@9c22ef99940aec2b85c475b3f2ac9835
 ---
 
 # SPAIN AND THE SCHISM OF NATIONS
@@ -52,6 +52,7 @@ From [[history-short-history-of-england]].
 - The force came, of course, from the new nobility and the new wealth they refused to surrender; and the success of this early pressure proves that the nobility was already stronger than the Crown. _(history_short_history_of_england.pdf (source-range-e5a81de4-00318))_
 - She could punish heresy, she could not punish sacrilege. _(history_short_history_of_england.pdf (source-range-e5a81de4-00318))_
 - The sceptre had only been used as a crowbar to break open the door of a treasure-house, and was itself broken, or at least bent, with the blow. _(history_short_history_of_england.pdf (source-range-e5a81de4-00318))_
+- She was allowed to deprive small men of their lives, she was not allowed to deprive great men of their property-or rather of other people's property. _(history_short_history_of_england.pdf (source-range-e5a81de4-00318))_
 - What made all the difference was this: that even in this Catholic reign the property of the Catholic Church could not be restored. _(history_short_history_of_england.pdf (source-range-e5a81de4-00318))_
 - The very fact that Mary was a fanatic, and yet this act of justice was beyond the wildest dreams of fanaticism-that is the point. _(history_short_history_of_england.pdf (source-range-e5a81de4-00318))_
 - The sceptre had only been used as a crowbar to break open the door of a treasure-house, and was itself broken, or at least bent, with the blow. _(history_short_history_of_england.pdf (source-range-e5a81de4-00318))_
@@ -61,6 +62,7 @@ From [[history-short-history-of-england]].
 - Mary had the solitary and heroic half-virtue of the Tudors: she was a patriot. _(history_short_history_of_england.pdf (source-range-e5a81de4-00319))_
 - It is the second of the coincidences that confirmed the sixteenth-century change, and the name of it was Spain. _(history_short_history_of_england.pdf (source-range-e5a81de4-00319))_
 - But by the time she was succeeded by her sister Elizabeth, who was more cut off from the old religion (though very tenuously attached to the new one), and by the time the project of a similar Spanish marriage for Elizabeth herself had fallen through, something had matured which was wider and mightier than the plots of princes. _(history_short_history_of_england.pdf (source-range-e5a81de4-00319))_
+- In our own time the Jingoes of Fashoda kept it on France when they ought already to have had it on Germany. _(history_short_history_of_england.pdf (source-range-e5a81de4-00319))_
 - In a later generation Cromwell exhibited the same error reversed, and continued to keep a hostile eye on Spain when he should have kept it on France. _(history_short_history_of_england.pdf (source-range-e5a81de4-00319))_
 - What came then was not Imperialism; it was Anti-Imperialism. _(history_short_history_of_england.pdf (source-range-e5a81de4-00320))_
 - Wooden clichés about the birth of the British Empire and the spacious days of Queen Elizabeth have not merely obscured but contradicted the crucial truth. _(history_short_history_of_england.pdf (source-range-e5a81de4-00320))_
@@ -75,6 +77,7 @@ From [[history-short-history-of-england]].
 - It was the greatness of Spain that was the glory of England. _(history_short_history_of_england.pdf (source-range-e5a81de4-00324))_
 - And yet there is truly a sense in which we may never be so small or so great again. _(history_short_history_of_england.pdf (source-range-e5a81de4-00324))_
 - We can only grasp it by grasping that for a great part of Europe the cause of the Armada had almost the cosmopolitan common sense of a crusade. _(history_short_history_of_england.pdf (source-range-e5a81de4-00324))_
+- The uncanny completeness and abrupt silence that swallowed this prodigy touched a nerve that has never ceased to vibrate. _(history_short_history_of_england.pdf (source-range-e5a81de4-00324))_
 - Meanwhile those picturesque English privateers who had plagued the Spanish Empire of the New World were spoken of in the South simply as pirates, and technically the description was true; only technical assaults by the weaker party are in retrospect rightly judged with some generous weakness. _(history_short_history_of_england.pdf (source-range-e5a81de4-00324))_
 - It was, in no overstrained sense, civilization itself. _(history_short_history_of_england.pdf (source-range-e5a81de4-00324))_
 - It bore down on the doomed island with the weight and solemnity of a day of judgment; sailors or pirates struck at it with small ships staggering under large cannon, fought it with mere masses of flaming rubbish, and in that last hour of grapple a great storm arose out of the sea and swept round the island, and the gigantic fleet was seen no more. _(history_short_history_of_england.pdf (source-range-e5a81de4-00324))_
@@ -90,6 +93,7 @@ From [[history-short-history-of-england]].
 - It is the same with the chief Elizabethan ideals, often embodied in the Elizabethan drama. _(history_short_history_of_england.pdf (source-range-e5a81de4-00325))_
 - But this truth does not dispose of a true, though limited, contemporary cult. _(history_short_history_of_england.pdf (source-range-e5a81de4-00325))_
 - It may be noted that the givers of good news and good luck in the Shakespearian love-stories nearly all belong to a world which was passing, whether they are friars or fairies. _(history_short_history_of_england.pdf (source-range-e5a81de4-00325))_
+- For the splendour of the Elizabethan age, which is always spoken of as a sunrise, was in many ways a sunset. _(history_short_history_of_england.pdf (source-range-e5a81de4-00325))_
 - Whether we regard it as the end of the Renascence or the end of the old mediæval civilization, no candid critic can deny that its chief glories ended with it. _(history_short_history_of_england.pdf (source-range-e5a81de4-00325))_
 - The same Puritans who tore off the pasteboard crowns of the stage players were also to tear off the real crowns of the kings whose parts they played. _(history_short_history_of_england.pdf (source-range-e5a81de4-00325))_
 - It is needless to say that the chief tragedy was the cutting short of the comedy; for the comedy that came to England after the Restoration was by comparison both foreign and frigid. _(history_short_history_of_england.pdf (source-range-e5a81de4-00325))_
@@ -111,6 +115,7 @@ From [[history-short-history-of-england]].
 - It was no longer a scrap between the followers of saints who were themselves at peace, but a war between the followers of gods who were themselves at war. _(history_short_history_of_england.pdf (source-range-e5a81de4-00330))_
 - Bartholomew, might fight each other in the streets; but they did not believe that St. _(history_short_history_of_england.pdf (source-range-e5a81de4-00330))_
 - The shadow of racial fatalism first fell across our path, and far away in distance and darkness something moved that men had almost forgotten. _(history_short_history_of_england.pdf (source-range-e5a81de4-00330))_
+- Now, with the religious schism, it cannot be denied, a deeper and more inhuman division appeared. _(history_short_history_of_england.pdf (source-range-e5a81de4-00330))_
 - There entered with the religious wars the idea which modern science applies to racial wars; the idea of natural wars, not arising from a special quarrel but from the nature of the people quarrelling. _(history_short_history_of_england.pdf (source-range-e5a81de4-00330))_
 - Bartholomew were fighting each other in the skies. _(history_short_history_of_england.pdf (source-range-e5a81de4-00330))_
 - That the great Spanish ships were named after St. _(history_short_history_of_england.pdf (source-range-e5a81de4-00330))_
@@ -136,23 +141,3 @@ From [[history-short-history-of-england]].
 - In the generation before Elizabeth a great man who, with all his violence, was vitally a dreamer, Martin Luther, had cried out in his sleep in a voice like thunder, partly against the place of bad customs, but largely also against the place of good works in the Christian scheme. _(history_short_history_of_england.pdf (source-range-e5a81de4-00331))_
 - But on the whole we shall be right if we see the first throes of the modern international problems in what is called the Thirty Years' War; whether we call it the revolt of half-heathens against the Holy Roman Empire, or whether we call it the coming of new sciences, new philosophies, and new ethics from the north. _(history_short_history_of_england.pdf (source-range-e5a81de4-00331))_
 - In the generation after Elizabeth the spread of the new wild doctrines in the old wild lands had sucked Central Europe into a cyclic war of creeds. _(history_short_history_of_england.pdf (source-range-e5a81de4-00331))_
-
-## Technical atoms
-
-> She was allowed to deprive small men of their lives, she was not allowed to deprive great men of their property-or rather of other people's property.
-_(source: history_short_history_of_england.pdf (source-range-e5a81de4-00318))_
-
-> In our own time the Jingoes of Fashoda kept it on France when they ought already to have had it on Germany.
-_(source: history_short_history_of_england.pdf (source-range-e5a81de4-00319))_
-
-> England achieved, at the beginning of her modern history, that one thing human imagination will always find heroic-the story of a small nationality.
-_(source: history_short_history_of_england.pdf (source-range-e5a81de4-00320))_
-
-> The uncanny completeness and abrupt silence that swallowed this prodigy touched a nerve that has never ceased to vibrate.
-_(source: history_short_history_of_england.pdf (source-range-e5a81de4-00324))_
-
-> For the splendour of the Elizabethan age, which is always spoken of as a sunrise, was in many ways a sunset.
-_(source: history_short_history_of_england.pdf (source-range-e5a81de4-00325))_
-
-> Now, with the religious schism, it cannot be denied, a deeper and more inhuman division appeared.
-_(source: history_short_history_of_england.pdf (source-range-e5a81de4-00330))_

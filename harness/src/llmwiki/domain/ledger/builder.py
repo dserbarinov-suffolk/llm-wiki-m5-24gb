@@ -12,6 +12,7 @@ from __future__ import annotations
 from dataclasses import dataclass
 
 from llmwiki.domain.ledger.assembly import build_segment_entries, segment_disposition
+from llmwiki.domain.ledger.atom_context import build_technical_atom_contexts
 from llmwiki.domain.ledger.atoms import AtomCandidate, TechnicalAtom
 from llmwiki.domain.ledger.canonical import deterministic_id
 from llmwiki.domain.ledger.confidence import ConfidencePolicy
@@ -138,6 +139,12 @@ def build_claim_ledger(
         dispositions.append(_disposition(seg, segment_disposition(produced, extraction.candidates)))
 
     ordered_entries = _ordered(entries, segments)
+    technical_atom_contexts = build_technical_atom_contexts(
+        source_hash=source_hash,
+        segments=tuple(item.segment for item in segments),
+        entries=ordered_entries,
+        atoms=tuple(atoms),
+    )
     source_profile = build_source_profile(
         source_locator=source_locator,
         unit_count=len(segments),
@@ -154,6 +161,7 @@ def build_claim_ledger(
         source_family_assignment=assign_family(source_profile),
         entries=ordered_entries,
         technical_atoms=tuple(atoms),
+        technical_atom_contexts=technical_atom_contexts,
         source_statements=tuple(statements),
         extractor_decisions=tuple(decisions),
         rejected_candidates=tuple(rejected),

@@ -1,12 +1,12 @@
 ---
 page_id: rpg-cairn-2e-core-save-principle
 page_kind: concept
-summary: Save Principles: 26 statement(s) and 16 atom(s) from raw/rpg_cairn_2e_core.pdf.
+summary: Save Principles: 13 statement(s) and 2 atom(s) from raw/rpg_cairn_2e_core.pdf.
 sources: raw/rpg_cairn_2e_core.pdf
 updated: 2026-06-26
 domain: rpg-cairn-2e-core
 category_path: concepts
-projection_coverage: topic-rpg-cairn-2e-core-save-principle@dd75a2f78590bf3a728251b718d387a9
+projection_coverage: topic-rpg-cairn-2e-core-save-principle@c0d216ea42b432d0ca9d9d91d8033ba0
 ---
 
 # Save Principles
@@ -15,40 +15,33 @@ What [[rpg-cairn-2e-core]] covers about save principles:
 
 ## Statements
 
-- He makes a WIL save. _(rpg_cairn_2e_core.pdf (source-range-f6f3256b-00521))_
-- Lone foes must save when they're reduced to 0 HP . _(rpg_cairn_2e_core.pdf (source-range-f6f3256b-00189))_
-- You'll need to make a DEX save to avoid detection. _(rpg_cairn_2e_core.pdf (source-range-f6f3256b-00491))_
-- The outcome of a save need not be a simple binary. _(rpg_cairn_2e_core.pdf (source-range-f6f3256b-00467))_
-- PCs that fail their save lose their turn for this round. _(rpg_cairn_2e_core.pdf (source-range-f6f3256b-00201))_
 - If the answer is "no," then a save is usually warranted. _(rpg_cairn_2e_core.pdf (source-range-f6f3256b-00463))_
-- She makes a STR save to see if she can stay in the fight. _(rpg_cairn_2e_core.pdf (source-range-f6f3256b-00448))_
-- Attributes and related saves do not define your character. _(rpg_cairn_2e_core.pdf (source-range-f6f3256b-00026))_
-- A save is a roll to avoid negative outcomes from risky choices. _(rpg_cairn_2e_core.pdf (source-range-f6f3256b-00169))_
-- You can easily throw a rope to him, but a STR save will be required. _(rpg_cairn_2e_core.pdf (source-range-f6f3256b-00531))_
-- Lucius and Freya will need to each make DEX saves in order to make it." _(rpg_cairn_2e_core.pdf (source-range-f6f3256b-00478))_
-- Warden : "You'd need to make a WIL save even if you weren't telling the truth. _(rpg_cairn_2e_core.pdf (source-range-f6f3256b-00517))_
-- A WIL save is typically required to avoid losing control and becoming panicked . _(rpg_cairn_2e_core.pdf (source-range-f6f3256b-00283))_
-- Wolfram, Lucius, and Freya each save DEX to see whether they can take a turn in the first round. _(rpg_cairn_2e_core.pdf (source-range-f6f3256b-00426))_
+- When in doubt, ask whether the party has the time, resources, skills, or advantage to overcome a problem. _(rpg_cairn_2e_core.pdf (source-range-f6f3256b-00463))_
+- If the answer is "I don't know," then a roll with the Die of Fate may be necessary. _(rpg_cairn_2e_core.pdf (source-range-f6f3256b-00463))_
+- If the risk is so great that the outcome might be fatal, make sure the player understands what they're getting into. _(rpg_cairn_2e_core.pdf (source-range-f6f3256b-00465))_
+- Character death should never come as a surprise. _(rpg_cairn_2e_core.pdf (source-range-f6f3256b-00465))_
+- Always provide multiple viable options for the PCs to choose from. _(rpg_cairn_2e_core.pdf (source-range-f6f3256b-00466))_
+- The more choices, the more interesting the situation becomes. _(rpg_cairn_2e_core.pdf (source-range-f6f3256b-00466))_
+- The outcome of a save need not be a simple binary. _(rpg_cairn_2e_core.pdf (source-range-f6f3256b-00467))_
+- You can tailor the results based on the totality of input: the effort, forethought, resources, and skill that went into the roll. _(rpg_cairn_2e_core.pdf (source-range-f6f3256b-00467))_
+- This doesn't mean revealing all of the world's secrets, but provide each player with the maximum information their character might have. _(rpg_cairn_2e_core.pdf (source-range-f6f3256b-00468))_
+- Avoid requiring a dice roll whenever possible. _(rpg_cairn_2e_core.pdf (source-range-f6f3256b-00469))_
+- Simplifying results to a single roll can increase tension while maximizing player input. _(rpg_cairn_2e_core.pdf (source-range-f6f3256b-00470))_
+- Replace multiple dice rolls with a single dice throw. _(rpg_cairn_2e_core.pdf (source-range-f6f3256b-00470))_
 
 ## Technical atoms
 
-> - If two opponents are each trying to overcome the other, whoever is most at risk should save.
-_(source: rpg_cairn_2e_core.pdf (source-range-f6f3256b-00170))_
+> Context: When in doubt, ask whether the party has the time, resources, skills, or advantage to overcome a problem. If the answer is "no," then a save is usually warranted. If the answer is "I don't know," then a roll with the Die of Fate may be necessary.
+_(context: rpg_cairn_2e_core.pdf (source-range-f6f3256b-00463))_
 
-> - If two characters need to take an action together, whoever is most at risk should save (usually the character with the lowest relevant Attribute).
-_(source: rpg_cairn_2e_core.pdf (source-range-f6f3256b-00171))_
+> If the party cannot proceed due to circumstances beyond their control, give them another option to consider.
+_(source: rpg_cairn_2e_core.pdf (source-range-f6f3256b-00464))_
 
-> - Enemies must pass a WIL save to avoid fleeing when they take their first casualty and again when they lose half their number.
-_(source: rpg_cairn_2e_core.pdf (source-range-f6f3256b-00188))_
+> Context: The outcome of a save need not be a simple binary. You can tailor the results based on the totality of input: the effort, forethought, resources, and skill that went into the roll.
+_(context: rpg_cairn_2e_core.pdf (source-range-f6f3256b-00467))_
 
-> - During the fi rst round of combat , each PC must make a DEX save in order to act.
-_(source: rpg_cairn_2e_core.pdf (source-range-f6f3256b-00201))_
-
-> The target must then immediately make a STR save to avoid taking Critical Damage , using their new STR score .
-_(source: rpg_cairn_2e_core.pdf (source-range-f6f3256b-00215))_
-
-> - Running away from a dire situation always requires a successful DEX save, as well as a safe destination to run to.
-_(source: rpg_cairn_2e_core.pdf (source-range-f6f3256b-00227))_
+> If a PC can solve a problem using purely narrative components, do not ask for a roll .
+_(source: rpg_cairn_2e_core.pdf (source-range-f6f3256b-00469))_
 
 
 ## Source

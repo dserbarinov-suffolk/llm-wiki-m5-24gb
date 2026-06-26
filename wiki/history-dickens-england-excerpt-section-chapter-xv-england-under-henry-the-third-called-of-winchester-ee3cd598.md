@@ -7,7 +7,7 @@ updated: 2026-06-26
 domain: history-dickens-england-excerpt
 category_path: sources/history-dickens-england-excerpt/sections
 source_id: history_dickens_england_excerpt.pdf
-projection_coverage: section-history-dickens-england-excerpt-section-chapter-xv-england-under-henry-the-third-called-of-winchester-ee3cd598@1915f256b1ab55d5431a7409a09554a9
+projection_coverage: section-history-dickens-england-excerpt-section-chapter-xv-england-under-henry-the-third-called-of-winchester-ee3cd598@709f943439934e2aaa5b0fef2b7f3010
 ---
 
 # CHAPTER XV--ENGLAND UNDER HENRY THE THIRD, CALLED, OF WINCHESTER
@@ -38,7 +38,6 @@ From [[history-dickens-england-excerpt]].
 - The town submitted; but the Castle in the town, held by a brave widow lady, named Nichola de Camville (whose property it was), made such a sturdy resistance, that the French Count in command of the army of the French Prince found it necessary to besiege this Castle. _(history_dickens_england_excerpt.pdf (source-range-bcf2b9c4-00036))_
 - The next thing to be done, was to get rid of Prince Louis of France, and to win over those English Barons who were still ranged under his banner. _(history_dickens_england_excerpt.pdf (source-range-bcf2b9c4-00036))_
 - Almost as soon as he had departed from the Sanctuary, his enemies persuaded the weak King to send out one Sir Godfrey de Crancumb, who commanded three hundred vagabonds called the Black Band, with orders to seize him. _(history_dickens_england_excerpt.pdf (source-range-bcf2b9c4-00036))_
-- When the young King was declared of age, Peter de Roches, finding that Hubert increased in power and favour, retired discontentedly, and went abroad. _(history_dickens_england_excerpt.pdf (source-range-bcf2b9c4-00036))_
 - The Protectorship was now divided. _(history_dickens_england_excerpt.pdf (source-range-bcf2b9c4-00036))_
 - Louis despatched an army of six hundred knights and twenty thousand soldiers to relieve it. _(history_dickens_england_excerpt.pdf (source-range-bcf2b9c4-00036))_
 - The wife of Louis, the fair Blanche of Castile, dutifully equipped a fleet of eighty good ships, and sent it over from France to her husband's aid. _(history_dickens_england_excerpt.pdf (source-range-bcf2b9c4-00036))_
@@ -47,6 +46,7 @@ From [[history-dickens-england-excerpt]].
 - If any of the English Barons remembered the murdered Arthur's sister, Eleanor the fair maid of Brittany, shut up in her convent at Bristol, none among them spoke of her now, or maintained her right to the Crown. _(history_dickens_england_excerpt.pdf (source-range-bcf2b9c4-00036))_
 - the Sheriff dug a deep trench all round the church, and erected a high fence, and watched the church night and day; _(history_dickens_england_excerpt.pdf (source-range-bcf2b9c4-00036))_
 - They knocked the Smith about from one to another, and swore at him, and tied the Earl on horseback, undressed as he was, and carried him off to the Tower of London. _(history_dickens_england_excerpt.pdf (source-range-bcf2b9c4-00036))_
+- A treaty was made at Lambeth, in virtue of which the English Barons who had remained attached to his cause returned to their allegiance, and it was engaged on both sides that the Prince and all his troops should retire peacefully to France. _(history_dickens_england_excerpt.pdf (source-range-bcf2b9c4-00036))_
 - But ten years is a long time to hold the favour of a King. _(history_dickens_england_excerpt.pdf (source-range-bcf2b9c4-00036))_
 - Sir Godfrey and the Black Band, caring neither for church, altar, nor cross, dragged him forth to the church door, with their drawn swords flashing round his head, and sent for a Smith to rivet a set of chains upon him. _(history_dickens_england_excerpt.pdf (source-range-bcf2b9c4-00036))_
 - They came up with him at a little town in Essex, called Brentwood, when he was in bed. _(history_dickens_england_excerpt.pdf (source-range-bcf2b9c4-00036))_
@@ -152,8 +152,8 @@ From [[history-dickens-england-excerpt]].
 - The Earl of Leicester still fought bravely, until his best son Henry was killed, and the bodies of his best friends choked his path; and then he fell, still fighting, sword in hand. _(history_dickens_england_excerpt.pdf (source-range-bcf2b9c4-00037))_
 - What they really did keep in their houses was money; and this their cruel enemies wanted, and this their cruel enemies took, like robbers and murderers. _(history_dickens_england_excerpt.pdf (source-range-bcf2b9c4-00037))_
 - When his money was gone, and he was once more borrowing and begging everywhere with a meanness worthy of his nature, he got into a difficulty with the Pope respecting the Crown of Sicily, which the Pope said he had a right to give away, and which he offered to King Henry for his second son, Prince Edmund. _(history_dickens_england_excerpt.pdf (source-range-bcf2b9c4-00037))_
+- He was finally pardoned and restored to his estates, but he lived privately, and never more aspired to a high post in the realm, or to a high place in the King's favour. _(history_dickens_england_excerpt.pdf (source-range-bcf2b9c4-00037))_
 - It was necessary to conquer the Sicilian Crown before it could be put upon young Edmund's head. _(history_dickens_england_excerpt.pdf (source-range-bcf2b9c4-00037))_
-- Isabella, King Henry's mother, wished very much (for a certain spite she had) that England should make war against this King; and, as King Henry was a mere puppet in anybody's hands who knew how to manage his feebleness, she easily carried her point with him. _(history_dickens_england_excerpt.pdf (source-range-bcf2b9c4-00037))_
 - Looking rather anxiously across the prospect towards Kenilworth, he saw his own banners advancing; and his face brightened with joy. _(history_dickens_england_excerpt.pdf (source-range-bcf2b9c4-00037))_
 - The London people, always opposed to the King, declared for them with great joy. _(history_dickens_england_excerpt.pdf (source-range-bcf2b9c4-00037))_
 - Four years afterwards the King of the Romans died, and, next year (one thousand two hundred and seventy-two), his brother the weak King of England died. _(history_dickens_england_excerpt.pdf (source-range-bcf2b9c4-00037))_
@@ -183,8 +183,8 @@ From [[history-dickens-england-excerpt]].
 
 ## Technical atoms
 
-> A treaty was made at Lambeth, in virtue of which the English Barons who had remained attached to his cause returned to their allegiance, and it was engaged on both sides that the Prince and all his troops should retire peacefully to France.
+> When the young King was declared of age, Peter de Roches, finding that Hubert increased in power and favour, retired discontentedly, and went abroad.
 _(source: history_dickens_england_excerpt.pdf (source-range-bcf2b9c4-00036))_
 
-> He was finally pardoned and restored to his estates, but he lived privately, and never more aspired to a high post in the realm, or to a high place in the King's favour.
+> Isabella, King Henry's mother, wished very much (for a certain spite she had) that England should make war against this King; and, as King Henry was a mere puppet in anybody's hands who knew how to manage his feebleness, she easily carried her point with him.
 _(source: history_dickens_england_excerpt.pdf (source-range-bcf2b9c4-00037))_

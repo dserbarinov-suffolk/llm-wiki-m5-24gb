@@ -7,7 +7,7 @@ updated: 2026-06-26
 domain: coding-learn-go-with-tests-excerpt
 category_path: sources/coding-learn-go-with-tests-excerpt/sections
 source_id: coding_learn_go_with_tests_excerpt.pdf
-projection_coverage: section-coding-learn-go-with-tests-excerpt-section-benchmarking-4c600dce@f215b642d3a8a96e8caa0fdc88e0ff51
+projection_coverage: section-coding-learn-go-with-tests-excerpt-section-benchmarking-4c600dce@1f65ffba524825f0ca5c28d34df526c6
 ---
 
 # Benchmarking
@@ -16,9 +16,9 @@ From [[coding-learn-go-with-tests-excerpt]].
 
 ## Statements
 
+- Loop() returns true as long as the benchmark should continue running. _(coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00247))_
 - The testing.B gives you access to the loop function. _(coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00247))_
 - After Loop() returns false, b.N contains the total number of iterations that ran. _(coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00248))_
-- When the benchmark code is executed, it measures how long it takes. _(coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00248))_
 - After Loop() returns false, b.N contains the total number of iterations that ran. _(coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00248))_
 - The number of times the code is run shouldn't matter to you, the framework will determine what is a "good" value for that to let you have some decent results. _(coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00249))_
 - To run the benchmarks do go test -bench=. _(coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00250))_
@@ -39,8 +39,8 @@ func BenchmarkRepeat(b	*testing.B)	{ for b.Loop()	{ Repeat("a") } }
 ```
 _(source: coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00245))_
 
-> Loop() returns true as long as the benchmark should continue running.
-_(source: coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00247))_
+> When the benchmark code is executed, it measures how long it takes.
+_(source: coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00248))_
 
 ```
 goos:	darwin goarch:	amd64 pkg:	github.com/quii/learn-go-with-tests/for/v4 10000000											136	ns/op PASS

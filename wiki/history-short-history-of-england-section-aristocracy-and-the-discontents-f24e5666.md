@@ -1,13 +1,13 @@
 ---
 page_id: history-short-history-of-england-section-aristocracy-and-the-discontents-f24e5666
 page_kind: source
-summary: ARISTOCRACY AND THE DISCONTENTS: 139 source-backed entries and 6 atom(s) from raw/history_short_history_of_england.pdf.
+summary: ARISTOCRACY AND THE DISCONTENTS: 139 source-backed entries and 1 atom(s) from raw/history_short_history_of_england.pdf.
 sources: raw/history_short_history_of_england.pdf
 updated: 2026-06-26
 domain: history-short-history-of-england
 category_path: sources/history-short-history-of-england/sections
 source_id: history_short_history_of_england.pdf
-projection_coverage: section-history-short-history-of-england-section-aristocracy-and-the-discontents-f24e5666@cc2f5651fdeede3ddcc6bb651b5254eb
+projection_coverage: section-history-short-history-of-england-section-aristocracy-and-the-discontents-f24e5666@98a4e50db1f0c15082f50b011aca18fb
 ---
 
 # ARISTOCRACY AND THE DISCONTENTS
@@ -86,6 +86,7 @@ From [[history-short-history-of-england]].
 - There was no prosperous peasant's pot, such as Henry of Navarre invoked, to enter into alliance with the kettle. _(history_short_history_of_england.pdf (source-range-e5a81de4-00433))_
 - It was so with the revolts against the religious policy of Henry VIII.; and it was so with the rick-burning and frame-breaking riots of Cobbett's epoch. _(history_short_history_of_england.pdf (source-range-e5a81de4-00433))_
 - These relatively real disputes would bring us to the middle of the Victorian era. _(history_short_history_of_england.pdf (source-range-e5a81de4-00433))_
+- Whether it be a credit or discredit, industrial science and enterprise were in bulk a new experiment of the old oligarchy; and the old oligarchy had always been ready for new experiments-beginning with the Reformation. _(history_short_history_of_england.pdf (source-range-e5a81de4-00433))_
 - The English rioters laboriously broke in pieces a parish grindstone, merely because it was large and solid and difficult to break, and therefore symbolic of the mighty oligarchical machinery which perpetually ground the faces of the poor. _(history_short_history_of_england.pdf (source-range-e5a81de4-00433))_
 - He would have said that the agricultural pot and the industrial kettle were calling each other black, when they had both been blackened in the same kitchen. _(history_short_history_of_england.pdf (source-range-e5a81de4-00433))_
 - The people made more effort to do so than is commonly realized. _(history_short_history_of_england.pdf (source-range-e5a81de4-00433))_
@@ -105,6 +106,7 @@ From [[history-short-history-of-england]].
 - Here the terrorism, which was but a temporary and desperate tool of the aristocrats in England (not being, to do them justice, at all consonant to their temperament, which had neither the cruelty and morbidity nor the logic and fixity of terrorism), became in a more spiritual atmosphere a flaming sword of religious and racial insanity. _(history_short_history_of_england.pdf (source-range-e5a81de4-00434))_
 - Anyhow, these embers of the revolutionary epoch were trodden out very brutally; the grindstone continued (and continues) to grind in the scriptural fashion above referred to, and, in most political crises since, it is the crowd that has found itself in the cart. _(history_short_history_of_england.pdf (source-range-e5a81de4-00434))_
 - He broke the latter by the most indecent bribery and the former by the most indecent brutality, but he may well have thought himself entitled to the tyrant's plea. _(history_short_history_of_england.pdf (source-range-e5a81de4-00434))_
+- Pitt, the son of Chatham, was quite unfit to fill his father's place, unfit indeed (I cannot but think) to fill the place commonly given him in history. _(history_short_history_of_england.pdf (source-range-e5a81de4-00434))_
 - He was sincerely convinced of the national need to raise coalition after coalition against Napoleon, by pouring the commercial wealth then rather peculiar to England upon her poorer Allies, and he did this with indubitable talent and pertinacity. _(history_short_history_of_england.pdf (source-range-e5a81de4-00434))_
 - He was ready to emancipate Catholics as such, for religious bigotry was not the vice of the oligarchy; but he was not ready to emancipate Irishmen as such. _(history_short_history_of_england.pdf (source-range-e5a81de4-00438))_
 - Gladstone, an idealistic though inconsistent Liberal, rather belatedly realized that the freedom he loved in Greece and Italy had its rights nearer home, and may be said to have found a second youth in the gateway of the grave, in the eloquence and emphasis of his conversion. _(history_short_history_of_england.pdf (source-range-e5a81de4-00438))_
@@ -112,6 +114,7 @@ From [[history-short-history-of-england]].
 - Our vanity has involved us in a mere contradiction; we have tried to combine identification with superiority. _(history_short_history_of_england.pdf (source-range-e5a81de4-00438))_
 - From Pitt's time to our own this tottering alternation has continued; from the time when the great O'Connell, with his monster meetings, forced our government to listen to Catholic Emancipation to the time when the great Parnell, with his obstruction, forced it to listen to Home Rule, our staggering equilibrium has been maintained by blows from without. _(history_short_history_of_england.pdf (source-range-e5a81de4-00438))_
 - Burgundy could boast of Corneille, though Corneille was a Norman, but we should smile if Ireland boasted of Shakespeare. _(history_short_history_of_england.pdf (source-range-e5a81de4-00438))_
+- We have not only never succeeded in making Ireland English, as Burgundy has been made French, but we have never tried. _(history_short_history_of_england.pdf (source-range-e5a81de4-00438))_
 - It was not intended to be one, and nobody has ever treated it as one. _(history_short_history_of_england.pdf (source-range-e5a81de4-00438))_
 - And a statesman wearing the opposite label (for what that is worth) had the spiritual insight to see that Ireland, if resolved to be a nation, was even more resolved to be a peasantry. _(history_short_history_of_england.pdf (source-range-e5a81de4-00438))_
 - those of panic, or at any rate of peril, but (what is less clearly realized) it is the only real defence of them that they were those of panic and peril. _(history_short_history_of_england.pdf (source-range-e5a81de4-00438))_
@@ -123,6 +126,7 @@ From [[history-short-history-of-england]].
 - In more ways than one his work rounds off almost romantically the tragedy of the rebellion against Pitt, for Wyndham himself was of the blood of the leader of the rebels, and he wrought the only reparation yet made for all the blood, shamefully shed, that flowed around the fall of FitzGerald. _(history_short_history_of_england.pdf (source-range-e5a81de4-00438))_
 - Hence his settlement was from the first in a false position for settling anything. _(history_short_history_of_england.pdf (source-range-e5a81de4-00438))_
 - those of panic, or at any rate of peril, but (what is less clearly realized) it is the only real defence of them that they were those of panic and peril. _(history_short_history_of_england.pdf (source-range-e5a81de4-00438))_
+- We have not only never succeeded in making Ireland English, as Burgundy has been made French, but we have never tried. _(history_short_history_of_england.pdf (source-range-e5a81de4-00438))_
 - So the Union has never even applied English laws to Ireland, but only coercions and concessions both specially designed for Ireland. _(history_short_history_of_england.pdf (source-range-e5a81de4-00438))_
 - Some of the best colonies were convict settlements, and might be called abandoned convict settlements. _(history_short_history_of_england.pdf (source-range-e5a81de4-00439))_
 - So, under Pitt's coercionist régime, a man was sent to prison for saying that George IV. _(history_short_history_of_england.pdf (source-range-e5a81de4-00439))_
@@ -138,6 +142,7 @@ From [[history-short-history-of-england]].
 - That time was full of a quite topsy-turvey tyranny, and the English humorist stood on his head to suit it. _(history_short_history_of_england.pdf (source-range-e5a81de4-00439))_
 - It survived, perhaps, with only too much patience, the time of terrorism in which the more serious Irish rose in revolt. _(history_short_history_of_england.pdf (source-range-e5a81de4-00439))_
 - England not only makes her ramparts out of rubbish, but she finds ramparts in what she has herself cast away as rubbish. _(history_short_history_of_england.pdf (source-range-e5a81de4-00439))_
+- This is the colour and the character that has run through the realities of English history, and it can hardly be put in a book, least of all a historical book. _(history_short_history_of_england.pdf (source-range-e5a81de4-00439))_
 - There is a paradox about the English, even as distinct from the Irish or the Scotch, which makes any formal version of their plans and principles inevitably unjust to them. _(history_short_history_of_england.pdf (source-range-e5a81de4-00439))_
 - It has its flashes in our fantastic fiction and in the songs of the street, but its true medium is conversation. _(history_short_history_of_england.pdf (source-range-e5a81de4-00439))_
 - Under this long process, the worst that can be said is that the English humorist has been slowly driven downwards in the social scale. _(history_short_history_of_england.pdf (source-range-e5a81de4-00439))_
@@ -152,20 +157,5 @@ From [[history-short-history-of-england]].
 
 ## Technical atoms
 
-> The name of Nelson, with which the last chapter ended, might very well summarize the matter; for his name is banged and beaten about like an old tin can, while his soul had something in it of a fine and fragile eighteenth-century vase.
-_(source: history_short_history_of_england.pdf (source-range-e5a81de4-00420))_
-
 > The French Revolution was the challenge that really revealed to the Whigs that they must make up their minds to be really democrats or admit that they were really aristocrats.
 _(source: history_short_history_of_england.pdf (source-range-e5a81de4-00428))_
-
-> Whether it be a credit or discredit, industrial science and enterprise were in bulk a new experiment of the old oligarchy; and the old oligarchy had always been ready for new experiments-beginning with the Reformation.
-_(source: history_short_history_of_england.pdf (source-range-e5a81de4-00433))_
-
-> Pitt, the son of Chatham, was quite unfit to fill his father's place, unfit indeed (I cannot but think) to fill the place commonly given him in history.
-_(source: history_short_history_of_england.pdf (source-range-e5a81de4-00434))_
-
-> We have not only never succeeded in making Ireland English, as Burgundy has been made French, but we have never tried.
-_(source: history_short_history_of_england.pdf (source-range-e5a81de4-00438))_
-
-> This is the colour and the character that has run through the realities of English history, and it can hardly be put in a book, least of all a historical book.
-_(source: history_short_history_of_england.pdf (source-range-e5a81de4-00439))_

@@ -12,6 +12,7 @@ from __future__ import annotations
 
 from dataclasses import dataclass
 
+from llmwiki.domain.ledger.atom_context import TechnicalAtomContext
 from llmwiki.domain.ledger.atoms import AtomCandidate, TechnicalAtom
 from llmwiki.domain.ledger.entries import LedgerEntry, SourceStatement
 from llmwiki.domain.ledger.extraction import ExtractorDecision
@@ -64,6 +65,7 @@ class ClaimLedger:
     source_family_assignment: SourceFamilyAssignment
     entries: tuple[LedgerEntry, ...]
     technical_atoms: tuple[TechnicalAtom, ...]
+    technical_atom_contexts: tuple[TechnicalAtomContext, ...]
     source_statements: tuple[SourceStatement, ...]
     extractor_decisions: tuple[ExtractorDecision, ...]
     rejected_candidates: tuple[AtomCandidate, ...]
@@ -79,6 +81,13 @@ class ClaimLedger:
             if candidate.technical_atom_id == atom_id:
                 return candidate
         return None
+
+    def atom_contexts(self, atom_id: str) -> tuple[TechnicalAtomContext, ...]:
+        return tuple(
+            context
+            for context in self.technical_atom_contexts
+            if context.technical_atom_id == atom_id
+        )
 
     @property
     def usable_entries(self) -> tuple[LedgerEntry, ...]:

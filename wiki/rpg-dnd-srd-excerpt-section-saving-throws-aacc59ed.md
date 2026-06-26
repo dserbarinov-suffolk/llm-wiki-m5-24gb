@@ -1,13 +1,13 @@
 ---
 page_id: rpg-dnd-srd-excerpt-section-saving-throws-aacc59ed
 page_kind: source
-summary: Saving Throws: 15 source-backed entries and 1 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
+summary: Saving Throws: 14 source-backed entries and 0 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
 sources: raw/rpg_dnd_srd_excerpt.pdf
 updated: 2026-06-26
 domain: rpg-dnd-srd-excerpt
 category_path: sources/rpg-dnd-srd-excerpt/sections
 source_id: rpg_dnd_srd_excerpt.pdf
-projection_coverage: section-rpg-dnd-srd-excerpt-section-saving-throws-aacc59ed@ff1a7a98ebd3434ca94611693c0033db
+projection_coverage: section-rpg-dnd-srd-excerpt-section-saving-throws-aacc59ed@fbf11419251e807be7e18eb1e9187e27
 ---
 
 # Saving Throws
@@ -30,8 +30,3 @@ From [[rpg-dnd-srd-excerpt]].
 - The result of a successful or failed saving throw is also detailed in the effect that allows the save. _(rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00237))_
 - Usually, a successful save means that a creature suffers no harm, or reduced harm, from an effect. _(rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00237))_
 - Usually, a successful save means that a creature suffers no harm, or reduced harm, from an effect. _(rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00237))_
-
-## Technical atoms
-
-> For example, the DC for a saving throw allowed by a spell is determined by the caster's spellcasting ability and proficiency bonus.
-_(source: rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00236))_

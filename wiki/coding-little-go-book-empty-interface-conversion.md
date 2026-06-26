@@ -1,12 +1,12 @@
 ---
 page_id: coding-little-go-book-empty-interface-conversion
 page_kind: concept
-summary: Empty Interface and Conversions: 17 statement(s) and 5 atom(s) from raw/coding_little_go_book.pdf.
+summary: Empty Interface and Conversions: 6 statement(s) and 2 atom(s) from raw/coding_little_go_book.pdf.
 sources: raw/coding_little_go_book.pdf
 updated: 2026-06-26
 domain: coding-little-go-book
 category_path: concepts
-projection_coverage: topic-coding-little-go-book-empty-interface-conversion@d24150079f5190030c3987250a27d982
+projection_coverage: topic-coding-little-go-book-empty-interface-conversion@198cfa5894e3aac3adf2be449e8faa67
 ---
 
 # Empty Interface and Conversions
@@ -15,45 +15,37 @@ What [[coding-little-go-book]] covers about empty interface and conversions:
 
 ## Statements
 
-- The standard library is full of interfaces. _(coding_little_go_book.pdf (source-range-810ce361-00329))_
-- Interfaces can also participate in composition. _(coding_little_go_book.pdf (source-range-810ce361-00330))_
-- It also tends to promote small and focused interfaces. _(coding_little_go_book.pdf (source-range-810ce361-00329))_
-- And, interfaces themselves can be composed of other interfaces. _(coding_little_go_book.pdf (source-range-810ce361-00330))_
-- Finally, interfaces are commonly used to avoid cyclical imports. _(coding_little_go_book.pdf (source-range-810ce361-00331))_
-- Interfaces are types that define a contract but not an implementation. _(coding_little_go_book.pdf (source-range-810ce361-00319))_
-- You'll see and probably use the empty interface more than you might first expect. _(coding_little_go_book.pdf (source-range-810ce361-00376))_
-- Finally, if you're new to interfaces, it might take some time before you get a feel for them. _(coding_little_go_book.pdf (source-range-810ce361-00335))_
-- In a few sections, we'll look at interfaces which can help us untangle these types of dependencies. _(coding_little_go_book.pdf (source-range-810ce361-00297))_
-- Interfaces, return-based error handling, defer for resource management and a simple way to achieve composition. _(coding_little_go_book.pdf (source-range-810ce361-00474))_
-- For example, io.ReadCloser is an interface composed of the io.Reader interface as well as the io.Closer interface. _(coding_little_go_book.pdf (source-range-810ce361-00330))_
-- In a language like C# or Java, we have to be explicit when a class implements an interface: In Go, this happens implicitly. _(coding_little_go_book.pdf (source-range-810ce361-00327))_
-- You can create your own error type; the only requirement is that it fulfills the contract of the built-in error interface, which is: _(coding_little_go_book.pdf (source-range-810ce361-00341))_
-- Fields can be of any type -including other structures and types that we haven't explored yet such as arrays, maps, interfaces and functions. _(coding_little_go_book.pdf (source-range-810ce361-00157))_
+- In most object-oriented languages, a built-in base class, often named object , is the superclass for all other classes. _(coding_little_go_book.pdf (source-range-773b6275-00368))_
+- Since every type implements all 0 of the empty interface's methods, and since interfaces are implicitly implemented, every type fulfills the contract of the empty interface. _(coding_little_go_book.pdf (source-range-773b6275-00368))_
+- Go, having no inheritance, doesn't have such a superclass. _(coding_little_go_book.pdf (source-range-773b6275-00368))_
+- Note that if the underlying type is not int , the above will result in an error. _(coding_little_go_book.pdf (source-range-773b6275-00373))_
+- Converting values back and forth is ugly and dangerous but sometimes, in a static language, it's the only choice. _(coding_little_go_book.pdf (source-range-773b6275-00376))_
+- You'll see and probably use the empty interface more than you might first expect. _(coding_little_go_book.pdf (source-range-773b6275-00376))_
 
 ## Technical atoms
 
-> that I won't be able to make those same assumptions. How much time do you spend talking about interfaces knowing that for some, the concept will be new, while others won't need much more than Go has interfaces ? Ultimately, I take comfort in knowing that you'll let me know if some parts are too shallow or others too detailed. Consider that the price of this book.
-_(source: coding_little_go_book.pdf (source-range-810ce361-00021))_
+> Context: To convert an interface variable to an explicit type, you use .(TYPE) : Note that if the underlying type is not int , the above will result in an error.
+_(context: coding_little_go_book.pdf (source-range-773b6275-00371, source-range-773b6275-00373))_
 
 ```
-type Logger interface { Log(message	string) }
+return a.(int) + b.(int)
 ```
-_(source: coding_little_go_book.pdf (source-range-810ce361-00320))_
+_(source: coding_little_go_book.pdf (source-range-773b6275-00372))_
+
+> Context: You also have access to a powerful type switch: You'll see and probably use the empty interface more than you might first expect. Admittedly, it won't result in clean code. Converting values back and forth is ugly and dangerous but sometimes, in a static language, it's the only choice.
+_(context: coding_little_go_book.pdf (source-range-773b6275-00374, source-range-773b6275-00376))_
 
 ```
-type error interface { Error()	string }
+switch a.(type) {
+  case int:
+    fmt.Printf("a is now an int and equals %d\n", a)
+  case bool, string:
+    // ...
+  default:
+    // ...
+}
 ```
-_(source: coding_little_go_book.pdf (source-range-810ce361-00342))_
-
-```
-func add(a interface {},	b interface {}) interface {}	{ ... }
-```
-_(source: coding_little_go_book.pdf (source-range-810ce361-00370))_
-
-```
-Next,	we	change	our for loop: c	:=	make( chan int) for { select { case c	<-	rand.Int(): //optional	code	here default : //this	can	be	left	empty	to	silently	drop	the	data fmt.Println("dropped") } time.Sleep(time.Millisecond	*	50) }
-```
-_(source: coding_little_go_book.pdf (source-range-810ce361-00445))_
+_(source: coding_little_go_book.pdf (source-range-773b6275-00375))_
 
 
 ## Source

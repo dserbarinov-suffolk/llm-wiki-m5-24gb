@@ -24,16 +24,11 @@ from llmwiki.domain.ledger.atoms import (
 )
 from llmwiki.domain.ledger.common import ReviewReason
 from llmwiki.domain.ledger.notation import formula_candidate_line, is_symbolic_formula
+from llmwiki.domain.ledger.rule_structure import materialize_rule_payload
 from llmwiki.domain.ledger.segments import SourceSegment
 from llmwiki.domain.ledger.tabular import inline_row_marker_spans, range_value_entries
 
 _FENCE = re.compile(r"^[ \t]*(```|~~~)[ \t]*([A-Za-z0-9_+-]*)[ \t]*$")
-_DEONTIC_FORCE = (
-    (("must", "shall", "required", "have to"), "required"),
-    (("cannot", "can not", "forbidden", "prohibited", "never", "may not"), "forbidden"),
-    (("may", "allowed", "permitted", "can"), "permitted"),
-    (("should", "recommended", "ought"), "recommended"),
-)
 _STEP = re.compile(
     r"^\s*(?:\d+[.)]\s|[-*]\s*\d+[.)\s]|step\b|then\b|next\b|finally\b)", re.IGNORECASE
 )
@@ -42,16 +37,6 @@ _EXAMPLE = re.compile(
 )
 _SENTENCE = re.compile(r"(?<=[.!?])\s+")
 _ENUMERATED_LINE = re.compile(r"^\s*(?:[-*]\s*)?(\d+)[\s.)]+(.*)$")
-_EPISTEMIC_MODAL = re.compile(
-    r"\b(?:may|might|could|should|would)\s+(?:well\s+)?"
-    r"(?:be|have|seem|appear|prove|turn|mean|ask|say|think|suppose)\b",
-    re.IGNORECASE,
-)
-_AUTHORIAL_MODAL = re.compile(
-    r"\b(?:i|we)\b[^.!?]{0,120}\b(?:may|might|could|should|would|shall|must|can)\b",
-    re.IGNORECASE,
-)
-_MAX_RULE_WORDS = 60
 
 
 def materialize_code_block(segment: SourceSegment) -> tuple[CodeBlockPayload, str] | None:
@@ -122,19 +107,9 @@ def materialize_figure(segment: SourceSegment) -> FigurePayload | None:
 
 def materialize_rule(segment: SourceSegment) -> RulePayload | None:
     for sentence in _sentences(segment.text):
-        # A rule is one statement, not a page of run-on text (e.g. a contents
-        # list with a stray modal). Bound the length as a reusable structural cue.
-        if len(sentence.split()) > _MAX_RULE_WORDS:
-            continue
-        if _is_epistemic_modal(sentence):
-            continue
-        force = _rule_force(sentence)
-        if force is not None:
-            return RulePayload(
-                rule_text=sentence.strip(),
-                rule_force=force,
-                source_locator=segment.source_locator,
-            )
+        payload = materialize_rule_payload(sentence, segment.source_locator)
+        if payload is not None:
+            return payload
     return None
 
 
@@ -264,26 +239,6 @@ def _looks_like_next_row_prefix(line: str) -> bool:
     if ":" in line:
         return True
     return not line.endswith((".", "!", "?"))
-
-
-def _rule_force(sentence: str) -> str | None:
-    lowered = sentence.lower()
-    for cues, force in _DEONTIC_FORCE:
-        if any(re.search(rf"\b{re.escape(cue)}\b", lowered) for cue in cues):
-            return force
-    if re.search(r"\b(always|except|unless|never)\b", lowered):
-        return "asserted-constraint"
-    if re.search(
-        r"\b(?:must|shall|should|may|can|cannot|can not)\s+only\b"
-        r"|\bonly\s+(?:if|when|while|after|before)\b",
-        lowered,
-    ):
-        return "asserted-constraint"
-    return None
-
-
-def _is_epistemic_modal(sentence: str) -> bool:
-    return bool(_EPISTEMIC_MODAL.search(sentence) or _AUTHORIAL_MODAL.search(sentence))
 
 
 def _sentences(text: str) -> list[str]:

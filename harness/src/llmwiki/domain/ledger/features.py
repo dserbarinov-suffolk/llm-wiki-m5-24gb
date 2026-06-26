@@ -31,7 +31,7 @@ _YEAR = re.compile(r"\b\d{3,4}\b|\bBCE?\b|\bAD\b|\bcentur\w+\b")
 _PROPER = re.compile(r"\b[A-Z][a-z]+(?:\s+[A-Z][a-z]+){0,3}\b")
 _DEONTIC = re.compile(
     r"\b(must|shall|should|may|cannot|can not|required|prohibited|forbidden|permitted"
-    r"|allowed|except|unless|always|never)\b",
+    r"|allowed|except|if|unless|when|whenever|always|never)\b",
     re.IGNORECASE,
 )
 _STEP = re.compile(

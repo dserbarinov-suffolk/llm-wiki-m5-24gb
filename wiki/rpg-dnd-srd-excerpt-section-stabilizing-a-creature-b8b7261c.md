@@ -1,13 +1,13 @@
 ---
 page_id: rpg-dnd-srd-excerpt-section-stabilizing-a-creature-b8b7261c
 page_kind: source
-summary: Stabilizing a Creature: 6 source-backed entries and 1 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
+summary: Stabilizing a Creature: 7 source-backed entries and 2 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
 sources: raw/rpg_dnd_srd_excerpt.pdf
 updated: 2026-06-26
 domain: rpg-dnd-srd-excerpt
 category_path: sources/rpg-dnd-srd-excerpt/sections
 source_id: rpg_dnd_srd_excerpt.pdf
-projection_coverage: section-rpg-dnd-srd-excerpt-section-stabilizing-a-creature-b8b7261c@94f80ddfd3063c22e603b596f7ffe6ed
+projection_coverage: section-rpg-dnd-srd-excerpt-section-stabilizing-a-creature-b8b7261c@642ff0ab513d9773dc9662c9c231a4e3
 ---
 
 # Stabilizing a Creature
@@ -23,6 +23,9 @@ From [[rpg-dnd-srd-excerpt]].
 - A stable creature that isn't healed regains 1 hit point after 1d4 hours. _(rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00444))_
 
 ## Technical atoms
+
+> If healing is unavailable, the creature can at least be stabilized so that it isn't killed by a failed death saving throw.
+_(source: rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00442))_
 
 > The creature stops being stable, and must start making death saving throws again, if it takes any damage.
 _(source: rpg_dnd_srd_excerpt.pdf (source-range-2a314be6-00444))_

@@ -1,13 +1,13 @@
 ---
 page_id: history-short-history-of-england-section-the-rebellion-of-the-rich-18ff15a3
 page_kind: source
-summary: THE REBELLION OF THE RICH: 152 source-backed entries and 9 atom(s) from raw/history_short_history_of_england.pdf.
+summary: THE REBELLION OF THE RICH: 152 source-backed entries and 4 atom(s) from raw/history_short_history_of_england.pdf.
 sources: raw/history_short_history_of_england.pdf
 updated: 2026-06-26
 domain: history-short-history-of-england
 category_path: sources/history-short-history-of-england/sections
 source_id: history_short_history_of_england.pdf
-projection_coverage: section-history-short-history-of-england-section-the-rebellion-of-the-rich-18ff15a3@28fcc9146917c883470a057ef7db5027
+projection_coverage: section-history-short-history-of-england-section-the-rebellion-of-the-rich-18ff15a3@c80c73ee8ef02a76ec1644a31caf8285
 ---
 
 # THE REBELLION OF THE RICH
@@ -25,6 +25,7 @@ From [[history-short-history-of-england]].
 - Great spaces of England which had hitherto been cut up into the commonwealth of a number of farmers were being laid under the sovereignty of a solitary shepherd. _(history_short_history_of_england.pdf (source-range-e5a81de4-00284))_
 - It was not Popish sheep who were eating Protestant men, or vice versa ; nor did Henry, at any period of his own brief and rather bewildering papacy, have martyrs eaten by lambs as the heathen had them eaten by lions. _(history_short_history_of_england.pdf (source-range-e5a81de4-00284))_
 - He traced it, and every true record of that transformation traces it, to the growth of a new refinement, in a sense a more rational refinement, in the governing class. _(history_short_history_of_england.pdf (source-range-e5a81de4-00284))_
+- At a time later than this, one of the greatest ladies of England writes to her husband that she cannot come to him because her carriage horses are pulling the plough. _(history_short_history_of_england.pdf (source-range-e5a81de4-00284))_
 - Stephen traced the true moral origins of this movement, which led to the growing of so much grass and the murder, or at any rate the destruction, of so much humanity. _(history_short_history_of_england.pdf (source-range-e5a81de4-00284))_
 - It was not, as in popular Gothic craftsmanship, the almost unconscious touch of art upon all necessary things: rather it was the pouring of the whole soul of passionately conscious art especially into unnecessary things. _(history_short_history_of_england.pdf (source-range-e5a81de4-00284))_
 - In the true Middle Ages the greatest men were even more rudely hampered, but in the time of Henry VIII. _(history_short_history_of_england.pdf (source-range-e5a81de4-00284))_
@@ -33,7 +34,9 @@ From [[history-short-history-of-england]].
 - In the next generation a phrase was common which is one of the keys of the time, and is very much the key to these more ambitious territorial schemes. _(history_short_history_of_england.pdf (source-range-e5a81de4-00284))_
 - He drank wine when he could, but he was quite ready to drink ale; and science had not yet smoothed his paths with petrol. _(history_short_history_of_england.pdf (source-range-e5a81de4-00284))_
 - What was meant, of course, by this picturesque expression, was that an intensive type of agriculture was giving way to a very extensive type of pasture. _(history_short_history_of_england.pdf (source-range-e5a81de4-00284))_
+- At a time later than this, one of the greatest ladies of England writes to her husband that she cannot come to him because her carriage horses are pulling the plough. _(history_short_history_of_england.pdf (source-range-e5a81de4-00284))_
 - The mediæval lord had been, by comparison, a coarse fellow; he had merely lived in the largest kind of farm-house after the fashion of the largest kind of farmer. _(history_short_history_of_england.pdf (source-range-e5a81de4-00284))_
+- In any case the spirit of the whole upper class can be described as increasingly new. _(history_short_history_of_england.pdf (source-range-e5a81de4-00285))_
 - He was himself a "new man," and we shall see the barons largely give place to a whole nobility of new men. _(history_short_history_of_england.pdf (source-range-e5a81de4-00285))_
 - But even the older families already had their faces set in the newer direction. _(history_short_history_of_england.pdf (source-range-e5a81de4-00285))_
 - Some of them, the Howards, for instance, may be said to have figured both as old and new families. _(history_short_history_of_england.pdf (source-range-e5a81de4-00285))_
@@ -99,6 +102,7 @@ From [[history-short-history-of-england]].
 - They did not stand together because the spirit of the age (which is very often the worst enemy of the age) was the increasing division between rich and poor; and it had partly divided even the rich and poor clergy. _(history_short_history_of_england.pdf (source-range-e5a81de4-00296))_
 - But the more impersonal process which More himself had observed (as noted at the beginning of this chapter) is more clearly defined, and less clouded with controversies, in the second of the two parts of Henry's policy. _(history_short_history_of_england.pdf (source-range-e5a81de4-00296))_
 - It is wildly unfair, for instance, to quote the letters of bishops and such authorities denouncing the sins of monastic life, violent as they often are. _(history_short_history_of_england.pdf (source-range-e5a81de4-00296))_
+- They cannot possibly be more violent than the letters of St. _(history_short_history_of_england.pdf (source-range-e5a81de4-00296))_
 - In the fall of good things there is almost always a touch of betrayal from within; and the abbots were destroyed more easily because they did not stand together. _(history_short_history_of_england.pdf (source-range-e5a81de4-00296))_
 - There is indeed a controversy about the monasteries; but it is one that is clarifying and settling every day. _(history_short_history_of_england.pdf (source-range-e5a81de4-00296))_
 - Paul to the purest and most primitive churches; the apostle was there writing to those Early Christians whom all churches idealize; and he talks to them as to cut-throats and thieves. _(history_short_history_of_england.pdf (source-range-e5a81de4-00296))_
@@ -135,6 +139,7 @@ From [[history-short-history-of-england]].
 - Historians, who have no shadow of sympathy with the old religion, are agreed that it was uprooted by means more horrible than have ever, perhaps, been employed in England before or since. _(history_short_history_of_england.pdf (source-range-e5a81de4-00302))_
 - For then rose to its supreme height of self-revelation that still stranger something of which we have, perhaps fancifully, found hints before in this history. _(history_short_history_of_england.pdf (source-range-e5a81de4-00303))_
 - He was immeasurably weaker than the strong kings of the Middle Ages; and whether or no his failure had been foreshadowed, he failed. _(history_short_history_of_england.pdf (source-range-e5a81de4-00303))_
+- The breach he had made in the dyke of the ancient doctrines let in a flood that may almost be said to have washed him away. _(history_short_history_of_england.pdf (source-range-e5a81de4-00303))_
 - Least of all our princes did the Tudors leave behind them a secure central government, and the time when monarchy was at its worst comes only one or two generations before the time when it was weakest. _(history_short_history_of_england.pdf (source-range-e5a81de4-00303))_
 - For whether or no it was desired, it was not created. _(history_short_history_of_england.pdf (source-range-e5a81de4-00303))_
 - The strong king was weak. _(history_short_history_of_england.pdf (source-range-e5a81de4-00303))_
@@ -162,17 +167,8 @@ From [[history-short-history-of-england]].
 
 ## Technical atoms
 
-> In our loose modern debates they are lumped together; but Greek learning was the growth of this time; there had always been a popular Latin, if a dog-Latin.
-_(source: history_short_history_of_england.pdf (source-range-e5a81de4-00279))_
-
 > Sir Thomas More, apart from any arguments about the more mystical meshes in which he was ultimately caught and killed, will be hailed by all as a hero of the New Learning; that great dawn of a more rational daylight which for so many made mediævalism seem a mere darkness. Whatever we think of his appreciation of the Reformation, there will be no dispute about his appreciation of the Renascence. He was above all things a Humanist and a very human one. He was even in many ways very modern, which some rather erroneously suppose to be the same as being human; he was also humane, in the sense of humanitarian. He sketched an ideal, or rather perhaps a fanciful social system, with something of the ingenuity of Mr. H. G. Wells, but essentially with much more than the flippancy attributed to Mr. Bernard Shaw. It is not fair to charge the Utopian notions upon his morality; but their subjects and suggestions mark what (for want of a better word) we can only call his modernism. Thus the immortality of animals is the sort of transcendentalism which savours of evolution; and the grosser jest about the preliminaries of marriage might be taken quite seriously by the students of Eugenics. He suggested a sort of pacifism-though the Utopians had a quaint way of achieving it. In short, while he was, with his friend Erasmus, a satirist of mediæval abuses, few would now deny that Protestantism would be too narrow rather than too broad for him. If he was obviously not a Protestant, there are few Protestants who would deny him the name of a Reformer. But he was an innovator in things more alluring to modern minds than theology; he was partly what we should call a Neo-Pagan. His friend Colet summed up that escape from mediævalism which might be called the passage from bad Latin to good Greek. In our loose modern debates they are lumped together; but Greek learning was the growth of this time; there had always been a popular Latin, if a dog-Latin. It would be nearer the truth to call the mediævals bi-lingual than to call their Latin a dead language. Greek never, of course, became so general a possession; but for the man who got it, it is not too much to say that he felt as if he were in the open air for the first time. Much of this Greek spirit was reflected in More; its universality, its urbanity, its balance of buoyant reason and cool curiosity. It is even probable that he shared some of the excesses and errors of taste which inevitably infected the splendid intellectualism of the reaction against the Middle Ages; we can imagine him thinking gargoyles Gothic, in the sense of barbaric, or even failing to be stirred, as Sydney was, by the trumpet of "Chevy Chase." The wealth of the ancient heathen world, in wit, loveliness, and civic heroism, had so recently been revealed to that generation in its dazzling profusion and perfection, that it might seem a trifle if they did here and there an injustice to the relics of the Dark Ages. When, therefore, we look at the world with the eyes of More we are looking from the widest windows of that time; looking over an English landscape seen for the first time very equally, in the level light of the sun at morning. For what he saw was England of the Renascence; England passing from the mediæval to the modern. Thus he looked forth, and saw many things and said many things; they were all worthy and many witty; but he noted one thing which is at once a horrible fancy and a homely and practical fact. He who looked over that landscape said: "Sheep
 _(source: history_short_history_of_england.pdf (source-range-e5a81de4-00279))_
-
-> At a time later than this, one of the greatest ladies of England writes to her husband that she cannot come to him because her carriage horses are pulling the plough.
-_(source: history_short_history_of_england.pdf (source-range-e5a81de4-00284))_
-
-> In any case the spirit of the whole upper class can be described as increasingly new.
-_(source: history_short_history_of_england.pdf (source-range-e5a81de4-00285))_
 
 > If this be a fancy, it is at least one that cannot be disproved; the mediæval revolution was too unsuccessful at the beginning for any one to show that it need have been unsuccessful in the end.
 _(source: history_short_history_of_england.pdf (source-range-e5a81de4-00290))_
@@ -182,9 +178,3 @@ _(source: history_short_history_of_england.pdf (source-range-e5a81de4-00291))_
 
 > But for Humanism it must have seemed a monstrous sacrifice; it was somehow as if Montaigne were a martyr.
 _(source: history_short_history_of_england.pdf (source-range-e5a81de4-00295))_
-
-> They cannot possibly be more violent than the letters of St.
-_(source: history_short_history_of_england.pdf (source-range-e5a81de4-00296))_
-
-> The breach he had made in the dyke of the ancient doctrines let in a flood that may almost be said to have washed him away.
-_(source: history_short_history_of_england.pdf (source-range-e5a81de4-00303))_

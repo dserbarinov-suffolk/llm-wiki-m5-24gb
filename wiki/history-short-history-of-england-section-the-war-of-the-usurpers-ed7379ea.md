@@ -1,13 +1,13 @@
 ---
 page_id: history-short-history-of-england-section-the-war-of-the-usurpers-ed7379ea
 page_kind: source
-summary: THE WAR OF THE USURPERS: 127 source-backed entries and 6 atom(s) from raw/history_short_history_of_england.pdf.
+summary: THE WAR OF THE USURPERS: 129 source-backed entries and 4 atom(s) from raw/history_short_history_of_england.pdf.
 sources: raw/history_short_history_of_england.pdf
 updated: 2026-06-26
 domain: history-short-history-of-england
 category_path: sources/history-short-history-of-england/sections
 source_id: history_short_history_of_england.pdf
-projection_coverage: section-history-short-history-of-england-section-the-war-of-the-usurpers-ed7379ea@c132e366ba6bd3225ed6977bc7a3c092
+projection_coverage: section-history-short-history-of-england-section-the-war-of-the-usurpers-ed7379ea@86886acbe59440f03491ef040e784983
 ---
 
 # THE WAR OF THE USURPERS
@@ -16,11 +16,13 @@ From [[history-short-history-of-england]].
 
 ## Statements
 
+- He might govern wrong, but unless he governed horribly and extravagantly wrong, he retained his position of right; as a private man retains his right to marriage and locomotion unless he goes horribly and extravagantly off his head. _(history_short_history_of_england.pdf (source-range-e5a81de4-00252))_
 - But it is true that the influence of the Church, though by no means of all the great churchmen, encouraged the sense of a sort of sacrament of government, which was meant to make the monarch terrible and therefore often made the man tyrannical. _(history_short_history_of_england.pdf (source-range-e5a81de4-00252))_
 - Now mediæval monarchy, though only one aspect of mediæval rule, was roughly represented in the idea that the ruler had a right to rule as a voter has a right to vote. _(history_short_history_of_england.pdf (source-range-e5a81de4-00252))_
 - It was not really even so simple as this; for the Middle Ages were not, as it is often the fashion to fancy, under a single and steely discipline. _(history_short_history_of_england.pdf (source-range-e5a81de4-00252))_
 - The disadvantage of such despotism is obvious enough. _(history_short_history_of_england.pdf (source-range-e5a81de4-00252))_
 - They were very controversial and therefore very complex; and it is easy, by isolating items whether about jus divinum or primus inter pares , to maintain that the mediævals were almost anything; it has been seriously maintained that they were all Germans. _(history_short_history_of_england.pdf (source-range-e5a81de4-00252))_
+- He might govern wrong, but unless he governed horribly and extravagantly wrong, he retained his position of right; as a private man retains his right to marriage and locomotion unless he goes horribly and extravagantly off his head. _(history_short_history_of_england.pdf (source-range-e5a81de4-00252))_
 - They were very controversial and therefore very complex; and it is easy, by isolating items whether about jus divinum or primus inter pares , to maintain that the mediævals were almost anything; it has been seriously maintained that they were all Germans. _(history_short_history_of_england.pdf (source-range-e5a81de4-00252))_
 - Now mediæval monarchy, though only one aspect of mediæval rule, was roughly represented in the idea that the ruler had a right to rule as a voter has a right to vote. _(history_short_history_of_england.pdf (source-range-e5a81de4-00252))_
 - But it is true that the influence of the Church, though by no means of all the great churchmen, encouraged the sense of a sort of sacrament of government, which was meant to make the monarch terrible and therefore often made the man tyrannical. _(history_short_history_of_england.pdf (source-range-e5a81de4-00252))_
@@ -66,12 +68,12 @@ From [[history-short-history-of-england]].
 - the failure in question are less in dispute. _(history_short_history_of_england.pdf (source-range-e5a81de4-00263))_
 - The mediæval populace showed considerable military energy and co-operation, stormed its way to London, and was met outside the city by a company containing the King and the Lord Mayor, who were forced to consent to a parley. _(history_short_history_of_england.pdf (source-range-e5a81de4-00263))_
 - For one wild moment divine right was divine. _(history_short_history_of_england.pdf (source-range-e5a81de4-00263))_
-- The point that must be seized, if subsequent things are to be seen as they are, is that Parliament certainly encouraged, and Parliament almost certainly obliged, the King to repudiate the people. _(history_short_history_of_england.pdf (source-range-e5a81de4-00264))_
 - The mediæval Londoners were quite capable of assassinating a man, but not of sticking so dirty a knife into the neighbourhood of the cross of their Redeemer, in the place which is really occupied by the sword of St. _(history_short_history_of_england.pdf (source-range-e5a81de4-00264))_
 - For when, after the rejoicing revolutionists had disarmed and were betrayed, the King urged a humane compromise on the Parliament, the Parliament furiously refused it. _(history_short_history_of_england.pdf (source-range-e5a81de4-00264))_
 - Parliament was as contemptuous of the peasants in the fourteenth as of the Chartists in the nineteenth century. _(history_short_history_of_england.pdf (source-range-e5a81de4-00264))_
 - Already Parliament is not merely a governing body but a governing class. _(history_short_history_of_england.pdf (source-range-e5a81de4-00264))_
 - There is already war, in this case literally to the knife, between the Commons with a large C and the commons with a small one. _(history_short_history_of_england.pdf (source-range-e5a81de4-00264))_
+- The King was no more than a boy; his very voice must have rung out to that multitude almost like the voice of a child. _(history_short_history_of_england.pdf (source-range-e5a81de4-00264))_
 - Talking about the knife, it is notable that the murderer of Tyler was not a mere noble but an elective magistrate of the mercantile oligarchy of London; though there is probably no truth in the tale that his blood-stained dagger figures on the arms of the City of London. _(history_short_history_of_england.pdf (source-range-e5a81de4-00264))_
 - That promise was afterwards broken; but those who see in the breach of it the mere fickleness of the young and frivolous king, are not only shallow but utterly ignorant interpreters of the whole trend of that time. _(history_short_history_of_england.pdf (source-range-e5a81de4-00264))_
 - This council, first summoned by the king like juries and many other things, to get from plain men rather reluctant evidence about taxation, has already become an object of ambition, and is, therefore, an aristocracy. _(history_short_history_of_england.pdf (source-range-e5a81de4-00264))_
@@ -95,11 +97,13 @@ From [[history-short-history-of-england]].
 - It is obvious that the insecurity of the Lancastrian usurper, largely because he was a usurper, is the clue to many things, some of which we should now call good, some bad, all of which we should probably call good or bad with the excessive facility with which we dismiss distant things. _(history_short_history_of_england.pdf (source-range-e5a81de4-00267))_
 - It is obvious that the insecurity of the Lancastrian usurper, largely because he was a usurper, is the clue to many things, some of which we should now call good, some bad, all of which we should probably call good or bad with the excessive facility with which we dismiss distant things. _(history_short_history_of_england.pdf (source-range-e5a81de4-00267))_
 - Such real unpopularity as did in time attach to the old religious system, and which afterwards became a true national tradition against Mary, was doubtless started by the diseased energy of these fifteenth-century bishops. _(history_short_history_of_england.pdf (source-range-e5a81de4-00269))_
+- It is hard to see how anybody can call Wycliffe a Protestant unless he calls Palagius or Arius a Protestant; and if John Ball was a Reformer, Latimer was not a Reformer. _(history_short_history_of_england.pdf (source-range-e5a81de4-00269))_
 - But though the new heresies did not even hint at the beginning of English Protestantism, they did, perhaps, hint at the end of English Catholicism. _(history_short_history_of_england.pdf (source-range-e5a81de4-00269))_
 - support to the notion that they were in themselves prophetic of the Reformation. _(history_short_history_of_england.pdf (source-range-e5a81de4-00269))_
 - Across the channel, one of them was presiding at the trial of Joan of Arc. _(history_short_history_of_england.pdf (source-range-e5a81de4-00269))_
 - Persecution can be a philosophy, and a defensible philosophy, but with some of these men persecution was rather a perversion. _(history_short_history_of_england.pdf (source-range-e5a81de4-00269))_
 - Cobham did not light a candle to be handed on to Nonconformist chapels; but Arundel did light a torch, and put it to his own church. _(history_short_history_of_england.pdf (source-range-e5a81de4-00269))_
+- It is hard to see how anybody can call Wycliffe a Protestant unless he calls Palagius or Arius a Protestant; and if John Ball was a Reformer, Latimer was not a Reformer. _(history_short_history_of_england.pdf (source-range-e5a81de4-00269))_
 - The shadow of a moral difference can still be traced even in that stormy twilight of a heroic time. _(history_short_history_of_england.pdf (source-range-e5a81de4-00270))_
 - But this truth, that there was something which can only vaguely be called Tory about the Yorkists, has at least one interest, that it lends a justifiable romance to the last and most remarkable figure of the fighting House of York, with whose fall the Wars of the Roses ended. _(history_short_history_of_england.pdf (source-range-e5a81de4-00270))_
 - The foreshortening of such a backward glance as this book can alone claim to be, forbids any entrance into the military mazes of the wars of York and Lancaster, or any attempt to follow the thrilling recoveries and revenges which filled the lives of Warwick the Kingmaker and the warlike widow of Henry V. _(history_short_history_of_england.pdf (source-range-e5a81de4-00270))_
@@ -146,14 +150,8 @@ _(source: history_short_history_of_england.pdf (source-range-e5a81de4-00251))_
 > The poet Pope, though a friend of the greatest of Tory Democrats, Bolingbroke, necessarily lived in a world in which even Toryism was Whiggish. And the Whig as a wit never expressed his political point more clearly than in Pope's line which ran: "The right divine of kings to govern wrong." It will be apparent, when I deal with that period, that I do not palliate the real unreason in divine right as Filmer and some of the pedantic cavaliers construed it. They professed the impossible ideal of "nonresistance" to any national and legitimate power; though I cannot see that even that was so servile and superstitious as the more modern ideal of "non-resistance" even to a foreign and lawless power. But the seventeenth century was an age of sects, that is of fads; and the Filmerites made a fad of divine right. Its roots were older, equally religious but much more realistic; and though tangled with many other and even opposite things of the Middle Ages, ramify through all the changes we have now to consider. The connection can hardly be stated better than by taking Pope's easy epigram and pointing out that it is, after all, very weak in philosophy. "The right divine of kings to govern wrong," considered as a sneer, really evades all that we mean by "a right." To have a right to do a thing is not at all the same as to be right in doing it. What Pope says satirically about a divine right is what we all say quite seriously about a human right. If a man has a right to vote, has he not a right to vote wrong? If a man has a right to choose his wife, has he not a right to choose wrong? I have a right to express the opinion which I am now setting down; but I should hesitate to make the controversial claim that this proves the opinion to be right.
 _(source: history_short_history_of_england.pdf (source-range-e5a81de4-00251))_
 
-> He might govern wrong, but unless he governed horribly and extravagantly wrong, he retained his position of right; as a private man retains his right to marriage and locomotion unless he goes horribly and extravagantly off his head.
-_(source: history_short_history_of_england.pdf (source-range-e5a81de4-00252))_
-
 > The slave-owner was like a man who should set up a row of sticks for a fence, and then find they had struck root and were budding into small trees.
 _(source: history_short_history_of_england.pdf (source-range-e5a81de4-00260))_
 
-> The King was no more than a boy; his very voice must have rung out to that multitude almost like the voice of a child.
+> The point that must be seized, if subsequent things are to be seen as they are, is that Parliament certainly encouraged, and Parliament almost certainly obliged, the King to repudiate the people.
 _(source: history_short_history_of_england.pdf (source-range-e5a81de4-00264))_
-
-> It is hard to see how anybody can call Wycliffe a Protestant unless he calls Palagius or Arius a Protestant; and if John Ball was a Reformer, Latimer was not a Reformer.
-_(source: history_short_history_of_england.pdf (source-range-e5a81de4-00269))_

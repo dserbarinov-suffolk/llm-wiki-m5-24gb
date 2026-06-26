@@ -1,13 +1,13 @@
 ---
 page_id: rpg-cairn-2e-core-section-freya-8dc6ba74
 page_kind: source
-summary: Freya :: 9 source-backed entries and 1 atom(s) from raw/rpg_cairn_2e_core.pdf.
+summary: Freya :: 8 source-backed entries and 0 atom(s) from raw/rpg_cairn_2e_core.pdf.
 sources: raw/rpg_cairn_2e_core.pdf
 updated: 2026-06-26
 domain: rpg-cairn-2e-core
 category_path: sources/rpg-cairn-2e-core/sections
 source_id: rpg_cairn_2e_core.pdf
-projection_coverage: section-rpg-cairn-2e-core-section-freya-8dc6ba74@72284a14c17eb622217cab572effc1cf
+projection_coverage: section-rpg-cairn-2e-core-section-freya-8dc6ba74@2c485d02bfa1525bc1b4accbd5064b4c
 ---
 
 # Freya :
@@ -24,8 +24,3 @@ From [[rpg-cairn-2e-core]].
 - Warden : "You take a closer look, and spy a red jewel enclosed in a large stone fist. _(rpg_cairn_2e_core.pdf (source-range-f6f3256b-00603))_
 - At that exact moment, the jewel comes loose." Warden : "And with that, this cycle is over. _(rpg_cairn_2e_core.pdf (source-range-f6f3256b-00603))_
 - There is something on the other side of that door, and I do NOT want to find out what!" The party moves on to the adjoining hall and the _(rpg_cairn_2e_core.pdf (source-range-f6f3256b-00603))_
-
-## Technical atoms
-
-> Can I dig it out easily?" Warden : "The fingers are wrapped around it quite tightly; you'll need to work hard to get it loose or spend an extra turn to extract it quietly.
-_(source: rpg_cairn_2e_core.pdf (source-range-f6f3256b-00603))_

@@ -1,12 +1,12 @@
 ---
 page_id: coding-learn-go-with-tests-excerpt-custom-type
 page_kind: concept
-summary: Using a custom type: 38 statement(s) and 17 atom(s) from raw/coding_learn_go_with_tests_excerpt.pdf.
+summary: Using a custom type: 5 statement(s) and 2 atom(s) from raw/coding_learn_go_with_tests_excerpt.pdf.
 sources: raw/coding_learn_go_with_tests_excerpt.pdf
 updated: 2026-06-26
 domain: coding-learn-go-with-tests-excerpt
 category_path: concepts
-projection_coverage: topic-coding-learn-go-with-tests-excerpt-custom-type@e500d012a756d0b7475ad874a8b58880
+projection_coverage: topic-coding-learn-go-with-tests-excerpt-custom-type@49a9b81d6cbfc62ff1832ebbcc40b623
 ---
 
 # Using a custom type
@@ -15,52 +15,29 @@ What [[coding-learn-go-with-tests-excerpt]] covers about using a custom type:
 
 ## Statements
 
-- The key type is special. _(coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00553))_
-- We can create a simple type using a struct . _(coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00428))_
-- We added our own error type and are returning a nil error. _(coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00663))_
-- We can define methods on our newly defined types instead. _(coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00446))_
-- The first is the key type, which is written inside the [] . _(coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00552))_
-- The value type, on the other hand, can be any type you want. _(coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00554))_
-- The second is the value type, which goes right after the [] . _(coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00552))_
-- Comparable types are explained in depth in the language spec. _(coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00553))_
-- With the custom type defined, we can create the Search method. _(coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00574))_
-- We added yet another error type for when the word does not exist. _(coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00657))_
+- Then called Search on the Dictionary instance. _(coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00570))_
 - We started using the Dictionary type, which we have not defined yet. _(coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00570))_
-- An interesting property of arrays is that the size is encoded in its type. _(coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00303))_
-- A handy side-effect of this is this adds a little type-safety to our code. _(coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00392))_
+- We did not need to change assertStrings . _(coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00571))_
+- With the custom type defined, we can create the Search method. _(coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00574))_
 - Here we created a Dictionary type which acts as a thin wrapper around map . _(coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00574))_
 
 ## Technical atoms
 
-```
-$	go	doc	fmt package	fmt	//	import	"fmt" Package	fmt	implements	formatted	I/O	with	functions	analogous	to	C's printf	and scanf.	The	format	'verbs'	are	derived	from	C's	but	are	simpler. #	Printing The	verbs: General: %v		the	value	in	a	default	format when	printing	structs,	the	plus	flag	(%+v)	adds	field	names %#v	a	Go-syntax	representation	of	the	value %T		a	Go-syntax	representation	of	the	type	of	the	value %%		a	literal	percent	sign;	consumes	no	value ...
-```
-_(source: coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00039))_
+> Context: We can improve our dictionary's usage by creating a new type around map and making Search a method.
+_(context: coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00567))_
 
 ```
-[N]type{value1,	value2,	...,	valueN}	e.g. numbers	:=	[5]int{1,	2, 3,	4,	5} [...]type{value1,	value2,	...,	valueN}	e.g. numbers	:=	[...]int{1,	2,
+In dictionary_test.go : func TestSearch(t	*testing.T)	{ dictionary	:=	Dictionary{"test":	"this	is	just	a	test"} got	:=	dictionary.Search("test") want	:=	"this	is	just	a	test"
 ```
-_(source: coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00283))_
+_(source: coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00568))_
+
+> Context: We can improve our dictionary's usage by creating a new type around map and making Search a method.
+_(context: coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00567))_
 
 ```
-This	does	not	compile ./sum_test.go:22:13:	cannot	use	numbers	(type	[]int)	as	type	[5]int in	argument	to	Sum
+assertStrings(t,	got,	want) }
 ```
-_(source: coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00314))_
-
-```
-$	go	test ./sum_test.go:52:21:	cannot	use	"dave" ( type	string ) as	type	[]int in	argument	to	checkSums
-```
-_(source: coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00393))_
-
-```
-type Rectangle struct { Width		float64 Height	float64 }
-```
-_(source: coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00430))_
-
-```
-We	need	to	define	our Circle type. Now	try	to	run	the	tests	again ./shapes_test.go:29:14:	cannot	use	circle	(type	Circle)	as	type Rectangle	in	argument	to	Area Some	programming	languages	allow	you	to	do	something	like	this: But	you	cannot	in	Go ./shapes.go:20:32:	Area	redeclared	in	this	block type Circle struct { Radius	float64 } func Area(circle	Circle)	float64							{} func Area(rectangle	Rectangle)	float64	{}
-```
-_(source: coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00443))_
+_(source: coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00569))_
 
 
 ## Source
