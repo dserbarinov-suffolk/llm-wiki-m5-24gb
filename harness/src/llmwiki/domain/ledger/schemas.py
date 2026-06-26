@@ -183,6 +183,11 @@ def default_atom_schema_set() -> AtomSchemaSet:
                     ("formula_surface_form", FORMULA_SURFACE_FORMS),
                 ),
             ),
+            AtomSchema(
+                "figure",
+                ("raw_figure_text", "parse_status", "source_locator"),
+                (("parse_status", PARSE_STATUSES),),
+            ),
             AtomSchema("procedure", ("procedure_text", "steps", "source_locator")),
             AtomSchema(
                 "rule",

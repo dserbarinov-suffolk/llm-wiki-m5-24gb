@@ -20,6 +20,7 @@ from llmwiki.pdf.document import (
     SourceChunk,
     build_source_chunks,
     build_source_sections,
+    document_model_from_json,
     document_model_to_json,
     source_sections_to_json,
 )
@@ -55,6 +56,13 @@ def read_source_text(cache_dir: Path) -> str:
 
 def save_manifest(result: ExtractionResult) -> None:
     (result.cache_dir / _MANIFEST_FILE).write_text(to_json(result.manifest), encoding="utf-8")
+
+
+def read_document_model(cache_dir: Path) -> DocumentModel | None:
+    path = cache_dir / _DOCUMENT_MODEL_FILE
+    if not path.is_file():
+        return None
+    return document_model_from_json(path.read_text(encoding="utf-8"))
 
 
 def _sha256(path: Path) -> str:

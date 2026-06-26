@@ -1,0 +1,171 @@
+---
+page_id: history-short-history-of-england-section-the-defeat-of-the-barbarians-8058ac6d
+page_kind: source
+summary: THE DEFEAT OF THE BARBARIANS: 133 source-backed entries and 9 atom(s) from raw/history_short_history_of_england.pdf.
+sources: raw/history_short_history_of_england.pdf
+updated: 2026-06-26
+domain: history-short-history-of-england
+category_path: sources/history-short-history-of-england/sections
+source_id: history_short_history_of_england.pdf
+projection_coverage: section-history-short-history-of-england-section-the-defeat-of-the-barbarians-8058ac6d@1a6995e3cda48ed5838062c5c0852bd5
+---
+
+# THE DEFEAT OF THE BARBARIANS
+
+From [[history-short-history-of-england]].
+
+## Statements
+
+- The wars, the enslavements, the primitive marriage customs, the colossal migrations and massacres upon which their theories repose, are no part of history or even of legend. _(history_short_history_of_england.pdf (source-range-e5a81de4-00077))_
+- Yet the one is as much a malady of vision as the other. _(history_short_history_of_england.pdf (source-range-e5a81de4-00077))_
+- But it is as disastrously long-sighted to be interested only in what is prehistoric. _(history_short_history_of_england.pdf (source-range-e5a81de4-00077))_
+- And rather than trust with entire simplicity to these it would be infinitely wiser to _(history_short_history_of_england.pdf (source-range-e5a81de4-00077))_
+- It is a quaint accident that we employ the word "short-sighted" as a condemnation; but not the word "long-sighted," which we should probably use, if at all, as a compliment. _(history_short_history_of_england.pdf (source-range-e5a81de4-00077))_
+- And this disaster has befallen a large proportion of the learned who grope in the darkness of unrecorded epochs for the roots of their favourite race or races. _(history_short_history_of_england.pdf (source-range-e5a81de4-00077))_
+- We rightly say, in rebuke of a small-minded modernity, that it is very short-sighted to be indifferent to all that is historic. _(history_short_history_of_england.pdf (source-range-e5a81de4-00077))_
+- But it is as disastrously long-sighted to be interested only in what is prehistoric. _(history_short_history_of_england.pdf (source-range-e5a81de4-00077))_
+- In any case, it is as well to record even so simple a conclusion as that what is prehistoric is unhistorical. _(history_short_history_of_england.pdf (source-range-e5a81de4-00081))_
+- There was the love of a valley or a village, a site or a family; there were enthusiasms for a prince and his hereditary office; there were passions rooted in locality, special emotions about seafolk or mountain-folk; there were historic memories of a cause or an alliance; there was, more than all, the tremendous test of religion. _(history_short_history_of_england.pdf (source-range-e5a81de4-00083))_
+- I know of no way in which fair-haired people can be prevented from falling in love with dark-haired people; and I do not believe that whether a man was long-headed or round-headed ever made much difference to any one who felt inclined to break his head. _(history_short_history_of_england.pdf (source-range-e5a81de4-00083))_
+- But of a cause like that of the Celts or Teutons, covering half the earth, there was little or nothing. _(history_short_history_of_england.pdf (source-range-e5a81de4-00083))_
+- Race was not only never at any given moment a motive, but it was never even an excuse. _(history_short_history_of_england.pdf (source-range-e5a81de4-00083))_
+- The Teutons never had a creed; they never had a cause; and it was only a few years ago that they began even to have a cant. _(history_short_history_of_england.pdf (source-range-e5a81de4-00083))_
+- The Teutons never had a creed; they never had a cause; and it was only a few years ago that they began even to have a cant. _(history_short_history_of_england.pdf (source-range-e5a81de4-00083))_
+- Race was not only never at any given moment a motive, but it was never even an excuse. _(history_short_history_of_england.pdf (source-range-e5a81de4-00083))_
+- The orthodox modern historian, notably Green, remarks on the singularity of Britain in being alone of all Roman provinces wholly cleared and repeopled by a Germanic race. _(history_short_history_of_england.pdf (source-range-e5a81de4-00084))_
+- In the same spirit he deals with the little that can be quoted of the Teutonic society. _(history_short_history_of_england.pdf (source-range-e5a81de4-00084))_
+- He expresses a "strange disappointment" that Gildas, the only British chronicler, does not describe the great Teutonic system. _(history_short_history_of_england.pdf (source-range-e5a81de4-00084))_
+- His ideal picture of it is completed in small touches which even an amateur can detect as dubious. _(history_short_history_of_england.pdf (source-range-e5a81de4-00084))_
+- The modern Teutonist is "disappointed" that the contemporary authority saw nothing in his Teutons except wolves, dogs, and whelps from the kennel of barbarism. _(history_short_history_of_england.pdf (source-range-e5a81de4-00084))_
+- But it is at least faintly tenable that there was nothing else to be seen. _(history_short_history_of_england.pdf (source-range-e5a81de4-00084))_
+- Thus he will touch on the Teuton with a phrase like "the basis of their society was the free man"; and on the Roman with a phrase like "the mines, if worked by forced labour, must have been a source of endless oppression." The simple fact being that the Roman and the Teuton both had slaves, he treats the Teuton free man as the only thing to be considered, not only then but now; and then goes out of his way to say that if the Roman treated his slaves badly, the slaves were badly treated. _(history_short_history_of_england.pdf (source-range-e5a81de4-00084))_
+- In the opinion of Gildas, a modification of that of Gregory, it was a case of non Angli sed diaboli . _(history_short_history_of_england.pdf (source-range-e5a81de4-00084))_
+- Thus he will touch on the Teuton with a phrase like "the basis of their society was the free man"; and on the Roman with a phrase like "the mines, if worked by forced labour, must have been a source of endless oppression." The simple fact being that the Roman and the Teuton both had slaves, he treats the Teuton free man as the only thing to be considered, not only then but now; and then goes out of his way to say that if the Roman treated his slaves badly, the slaves were badly treated. _(history_short_history_of_england.pdf (source-range-e5a81de4-00084))_
+- The modern Teutonist is "disappointed" that the contemporary authority saw nothing in his Teutons except wolves, dogs, and whelps from the kennel of barbarism. _(history_short_history_of_england.pdf (source-range-e5a81de4-00084))_
+- He expresses a "strange disappointment" that Gildas, the only British chronicler, does not describe the great Teutonic system. _(history_short_history_of_england.pdf (source-range-e5a81de4-00084))_
+- Augustine came to the largely barbarized land, with what may be called the second of the three great southern visitations which civilized these islands, he did not see any ethnological problems, whatever there may have been to be seen. _(history_short_history_of_england.pdf (source-range-e5a81de4-00085))_
+- It is at least possible that, as on the Continent, the kings and courts were almost the only Teutonic element. _(history_short_history_of_england.pdf (source-range-e5a81de4-00088))_
+- With him or his converts the chain of literary testimony is taken up again; and we must look at the world as they saw it. _(history_short_history_of_england.pdf (source-range-e5a81de4-00088))_
+- The Christians found converts, they found patrons, they found persecutors; but they did not find Ancient Britons because they did not look for them; and if they moved among pure Anglo-Saxons they had not the gratification of knowing it. _(history_short_history_of_england.pdf (source-range-e5a81de4-00088))_
+- But of all the things they found the thing that counts most in English history is this: that some of the kingdoms at least did correspond to genuine human divisions, which not only existed then but which exist now. _(history_short_history_of_england.pdf (source-range-e5a81de4-00088))_
+- There was, indeed, what all history attests, a marked change of feeling towards the marches of Wales. _(history_short_history_of_england.pdf (source-range-e5a81de4-00088))_
+- He found a king ruling in Kent, beyond whose borders lay other kingdoms of about the same size, the kings of which were all apparently heathen. _(history_short_history_of_england.pdf (source-range-e5a81de4-00088))_
+- Sussex is still Sussex; Essex is still Essex. _(history_short_history_of_england.pdf (source-range-e5a81de4-00088))_
+- And that third Saxon kingdom whose name is not even to be found upon the map, the kingdom of Wessex, is called the West Country and is to-day the most real of them all. _(history_short_history_of_england.pdf (source-range-e5a81de4-00088))_
+- Northumbria is still a truer thing than Northumberland. _(history_short_history_of_england.pdf (source-range-e5a81de4-00088))_
+- The names of these kings were mostly what we call Teutonic names; but those who write the almost entirely hagiological records did not say, and apparently did not ask, whether the populations were in this sense of unmixed blood. _(history_short_history_of_england.pdf (source-range-e5a81de4-00088))_
+- It is at least possible that, as on the Continent, the kings and courts were almost the only Teutonic element. _(history_short_history_of_england.pdf (source-range-e5a81de4-00088))_
+- The Christians found converts, they found patrons, they found persecutors; but they did not find Ancient Britons because they did not look for them; and if they moved among pure Anglo-Saxons they had not the gratification of knowing it. _(history_short_history_of_england.pdf (source-range-e5a81de4-00088))_
+- But of all the things they found the thing that counts most in English history is this: that some of the kingdoms at least did correspond to genuine human divisions, which not only existed then but which exist now. _(history_short_history_of_england.pdf (source-range-e5a81de4-00088))_
+- And that third Saxon kingdom whose name is not even to be found upon the map, the kingdom of Wessex, is called the West Country and is to-day the most real of them all. _(history_short_history_of_england.pdf (source-range-e5a81de4-00088))_
+- The two clashed, not in creed but in customs; and the Augustinians ultimately prevailed. _(history_short_history_of_england.pdf (source-range-e5a81de4-00089))_
+- But if Ireland was not one kingdom it was in reality one bishopric. _(history_short_history_of_england.pdf (source-range-e5a81de4-00089))_
+- Ireland was never Roman, and it was always Romanist. _(history_short_history_of_england.pdf (source-range-e5a81de4-00089))_
+- Ireland was not converted but created by Christianity, as a stone church is created; and all its elements were gathered as under a garment, under the genius of St. _(history_short_history_of_england.pdf (source-range-e5a81de4-00089))_
+- It was the more individual because the religion was mere religion, without the secular conveniences. _(history_short_history_of_england.pdf (source-range-e5a81de4-00089))_
+- The western grew from whatever was left of the British Christianity. _(history_short_history_of_england.pdf (source-range-e5a81de4-00089))_
+- The eastern growth was, of course, the Augustinian mission, which had already made Canterbury the spiritual capital of the island. _(history_short_history_of_england.pdf (source-range-e5a81de4-00089))_
+- What that prince believed or disbelieved it is now impossible and perhaps unnecessary to discover; but this last stand of his central kingdom is not insignificant. _(history_short_history_of_england.pdf (source-range-e5a81de4-00089))_
+- The unbaptized king, Penda, has even achieved a certain picturesqueness through this fact, and through the forays and furious ambitions which constituted the rest of his reputation; so much so that the other day one of those mystics who will believe anything but Christianity proposed to "continue the work of Penda" in Ealing: fortunately not on any large scale. _(history_short_history_of_england.pdf (source-range-e5a81de4-00089))_
+- There irradiated to all Europe at that time the glory of the golden age of Ireland. _(history_short_history_of_england.pdf (source-range-e5a81de4-00089))_
+- The last of the heathen kingdoms to accept the cross was Mercia, which corresponds very roughly to what we call the Midlands. _(history_short_history_of_england.pdf (source-range-e5a81de4-00089))_
+- But the work from the west had already been enormous. _(history_short_history_of_england.pdf (source-range-e5a81de4-00089))_
+- The isolation of the Mercian was perhaps due to the fact that Christianity grew from the eastern and western coasts. _(history_short_history_of_england.pdf (source-range-e5a81de4-00089))_
+- There the Celts were the classics of Christian art, opened in the Book of Kels four hundred years before its time. _(history_short_history_of_england.pdf (source-range-e5a81de4-00089))_
+- It was the more individual because the religion was mere religion, without the secular conveniences. _(history_short_history_of_england.pdf (source-range-e5a81de4-00089))_
+- There the Celts were the classics of Christian art, opened in the Book of Kels four hundred years before its time. _(history_short_history_of_england.pdf (source-range-e5a81de4-00089))_
+- It is the paradox of this time that only the unworldly things had any worldly success. _(history_short_history_of_england.pdf (source-range-e5a81de4-00090))_
+- Even in these pages a word or two about its primary nature is therefore quite indispensable. _(history_short_history_of_england.pdf (source-range-e5a81de4-00090))_
+- The time was to come when it was to be rooted out of our country with a curious and careful violence; and the modern English reader has therefore a very feeble idea of it and hence of the ages in which it worked. _(history_short_history_of_england.pdf (source-range-e5a81de4-00090))_
+- But indeed this is, in a lesser degree, true of our more immediate subject. _(history_short_history_of_england.pdf (source-range-e5a81de4-00090))_
+- The material ambitions are not only always unfruitful but nearly always unfulfilled. _(history_short_history_of_england.pdf (source-range-e5a81de4-00090))_
+- The visionaries are the only practical men, as in that extraordinary thing, the monastery, which was, in many ways, to be the key of our history. _(history_short_history_of_england.pdf (source-range-e5a81de4-00090))_
+- The castles are all castles in the air; it is only the churches that are built on the ground. _(history_short_history_of_england.pdf (source-range-e5a81de4-00090))_
+- The visionaries are the only practical men, as in that extraordinary thing, the monastery, which was, in many ways, to be the key of our history. _(history_short_history_of_england.pdf (source-range-e5a81de4-00090))_
+- The time was to come when it was to be rooted out of our country with a curious and careful violence; and the modern English reader has therefore a very feeble idea of it and hence of the ages in which it worked. _(history_short_history_of_england.pdf (source-range-e5a81de4-00090))_
+- It is the paradox of this time that only the unworldly things had any worldly success. _(history_short_history_of_england.pdf (source-range-e5a81de4-00090))_
+- The castles are all castles in the air; it is only the churches that are built on the ground. _(history_short_history_of_england.pdf (source-range-e5a81de4-00090))_
+- The material ambitions are not only always unfruitful but nearly always unfulfilled. _(history_short_history_of_england.pdf (source-range-e5a81de4-00090))_
+- Even in these pages a word or two about its primary nature is therefore quite indispensable. _(history_short_history_of_england.pdf (source-range-e5a81de4-00090))_
+- In the tremendous testament of our religion there are present certain ideals that seem wilder than impieties, which have in later times produced wild sects professing an almost inhuman perfection on certain points; as in the Quakers who renounce the right of self-defence, or the Communists who refuse any personal possessions. _(history_short_history_of_england.pdf (source-range-e5a81de4-00091))_
+- It is not merely flippant to say that monks and nuns stood to mankind as a sort of sanctified league of aunts and uncles. _(history_short_history_of_england.pdf (source-range-e5a81de4-00095))_
+- If we could look from the outside at our own institutions, we should see that the very notion of turning a thousand men into one large man walking to Westminster is not only an act or faith, but a fairy tale. _(history_short_history_of_england.pdf (source-range-e5a81de4-00095))_
+- We still find it necessary to have a reserve of philanthropists, but we trust it to men who have made themselves rich, not to men who have made themselves poor. _(history_short_history_of_england.pdf (source-range-e5a81de4-00095))_
+- She took the view that it takes all sorts to make a world, even the religious world; and used the man who chose to go without arms, family, or property as a sort of exception that proved the rule. _(history_short_history_of_england.pdf (source-range-e5a81de4-00095))_
+- Finally, the abbots and abbesses were elective. _(history_short_history_of_england.pdf (source-range-e5a81de4-00095))_
+- They introduced representative government, unknown to ancient democracy, and in itself a semi-sacramental idea. _(history_short_history_of_england.pdf (source-range-e5a81de4-00095))_
+- Now the interesting fact is that he really did prove it. _(history_short_history_of_england.pdf (source-range-e5a81de4-00095))_
+- What happened was that this communal life became a sort of reserve and refuge behind the individual life; a hospital for every kind of hospitality. _(history_short_history_of_england.pdf (source-range-e5a81de4-00095))_
+- It is a commonplace that they did everything that nobody else would do; that the abbeys kept the world's diary, faced the plagues of all flesh, taught the first technical arts, preserved the pagan literature, and above all, by a perpetual patchwork of charity, kept the poor from the most distant sight of their modern despair. _(history_short_history_of_england.pdf (source-range-e5a81de4-00095))_
+- The fruitful and effective history of Anglo-Saxon England would be almost entirely a history of its monasteries. _(history_short_history_of_england.pdf (source-range-e5a81de4-00095))_
+- or wrongly, the Christian Church had from the first dealt with these visions as being special spiritual adventures which were to the adventurous. _(history_short_history_of_england.pdf (source-range-e5a81de4-00095))_
+- This madman who would not mind his own business becomes the business man of the age. _(history_short_history_of_england.pdf (source-range-e5a81de4-00095))_
+- She reconciled them with natural human life by calling them specially good, without admitting that the neglect of them was necessarily bad. _(history_short_history_of_england.pdf (source-range-e5a81de4-00095))_
+- And then, about the beginning of the ninth century, there came a turn, as of the twinkling of an eye, and it seemed that all their work was in vain. _(history_short_history_of_england.pdf (source-range-e5a81de4-00095))_
+- If we could look from the outside at our own institutions, we should see that the very notion of turning a thousand men into one large man walking to Westminster is not only an act or faith, but a fairy tale. _(history_short_history_of_england.pdf (source-range-e5a81de4-00095))_
+- And then, about the beginning of the ninth century, there came a turn, as of the twinkling of an eye, and it seemed that all their work was in vain. _(history_short_history_of_england.pdf (source-range-e5a81de4-00095))_
+- The very word "monk" is a revolution, for it means solitude and came to mean community-one might call it sociability. _(history_short_history_of_england.pdf (source-range-e5a81de4-00095))_
+- The very word "monk" is a revolution, for it means solitude and came to mean community-one might call it sociability. _(history_short_history_of_england.pdf (source-range-e5a81de4-00095))_
+- There is, from the first, something humble and even accidental about Alfred. _(history_short_history_of_england.pdf (source-range-e5a81de4-00096))_
+- Edmund, assumed the crown of East England, took tribute from the panic of Mercia, and towered in menace over Wessex, the last of the Christian lands. _(history_short_history_of_england.pdf (source-range-e5a81de4-00096))_
+- The interest of his early life lies in this: that he combined an almost commonplace coolness, and readiness for the ceaseless small bargains and shifting combinations of all that period, with the flaming patience of saints in times of persecution. _(history_short_history_of_england.pdf (source-range-e5a81de4-00096))_
+- It was really a race between the driving energy of the missionaries on the edges of the Empire and the galloping paralysis of the city at the centre. _(history_short_history_of_england.pdf (source-range-e5a81de4-00096))_
+- He was a great understudy. _(history_short_history_of_england.pdf (source-range-e5a81de4-00096))_
+- While he would dare anything for the faith, he would bargain in anything except the faith. _(history_short_history_of_england.pdf (source-range-e5a81de4-00096))_
+- That outer world of universal anarchy that lay beyond Christendom heaved another of its colossal and almost cosmic waves and swept everything away. _(history_short_history_of_england.pdf (source-range-e5a81de4-00096))_
+- He was a conqueror, with no ambition; an author only too glad to be a translator; a simple, concentrated, wary man, watching the fortunes of one thing, which he piloted both boldly and cautiously, and which he saved at last. _(history_short_history_of_england.pdf (source-range-e5a81de4-00096))_
+- The toy kingdoms of the quarrelling Saxons were smashed like sticks; Guthrum, the pirate chief, slew St. _(history_short_history_of_england.pdf (source-range-e5a81de4-00096))_
+- It is only in one of these, the fine but fruitless victory at Ashdown, that we first see in the dim struggle, in a desperate and secondary part, the figure who has given his title to the ultimate turning of the tide. _(history_short_history_of_england.pdf (source-range-e5a81de4-00096))_
+- All the monastic civilization which had grown up in Britain under a vague Roman protection perished unprotected. _(history_short_history_of_england.pdf (source-range-e5a81de4-00096))_
+- For the victor was not then the king, but only the king's younger brother. _(history_short_history_of_england.pdf (source-range-e5a81de4-00096))_
+- Through all the eastern gates, left open, as it were, by the first barbarian auxiliaries, burst a plague of seafaring savages from Denmark and Scandinavia; and the recently baptized barbarians were again flooded by the unbaptized. _(history_short_history_of_england.pdf (source-range-e5a81de4-00096))_
+- In the ninth century the heart had stopped before the hands could bring help to it. _(history_short_history_of_england.pdf (source-range-e5a81de4-00096))_
+- In the ninth century the heart had stopped before the hands could bring help to it. _(history_short_history_of_england.pdf (source-range-e5a81de4-00096))_
+- For the victor was not then the king, but only the king's younger brother. _(history_short_history_of_england.pdf (source-range-e5a81de4-00096))_
+- It is only in one of these, the fine but fruitless victory at Ashdown, that we first see in the dim struggle, in a desperate and secondary part, the figure who has given his title to the ultimate turning of the tide. _(history_short_history_of_england.pdf (source-range-e5a81de4-00096))_
+- While he would dare anything for the faith, he would bargain in anything except the faith. _(history_short_history_of_england.pdf (source-range-e5a81de4-00096))_
+- He was a conqueror, with no ambition; an author only too glad to be a translator; a simple, concentrated, wary man, watching the fortunes of one thing, which he piloted both boldly and cautiously, and which he saved at last. _(history_short_history_of_england.pdf (source-range-e5a81de4-00096))_
+- But Alfred, as he himself wrote in words that are his challenge to the period, held that a Christian man was _(history_short_history_of_england.pdf (source-range-e5a81de4-00097))_
+- The treaty itself was a compromise, and even as such did not endure; a century afterwards a Danish king like Canute was really ruling in England. _(history_short_history_of_england.pdf (source-range-e5a81de4-00102))_
+- Guthrum, the conqueror of England, and all his important supports, were here penned behind their palisades, and when at last they surrendered the Danish conquest had come to an end. _(history_short_history_of_england.pdf (source-range-e5a81de4-00102))_
+- And Canute himself is actually now only remembered by men as a witness to the futility of merely pagan power; as the king who put his own crown upon the image of Christ, and solemnly surrendered to heaven the Scandinavian empire of the sea. _(history_short_history_of_england.pdf (source-range-e5a81de4-00102))_
+- It was precisely Alfred's religious exaction that remained unalterable. _(history_short_history_of_england.pdf (source-range-e5a81de4-00102))_
+- In all the facts that followed, the baptism of Guthrum is really much more important than the Treaty of Wedmore. _(history_short_history_of_england.pdf (source-range-e5a81de4-00102))_
+- The modern reader will smile at the baptism, and turn with greater interest to the terms of the treaty. _(history_short_history_of_england.pdf (source-range-e5a81de4-00102))_
+- His sudden assault was as successful as that at Ashdown, and it was followed by a siege which was successful in a different and very definite sense. _(history_short_history_of_england.pdf (source-range-e5a81de4-00102))_
+- Guthrum was baptized, and the Treaty of Wedmore secured the clearance of Wessex. _(history_short_history_of_england.pdf (source-range-e5a81de4-00102))_
+- In this acute attitude the modern reader will be vitally and hopelessly wrong. _(history_short_history_of_england.pdf (source-range-e5a81de4-00102))_
+- But though the Dane got the crown, he did not get rid of the cross. _(history_short_history_of_england.pdf (source-range-e5a81de4-00102))_
+- And nothing could clinch this truth more than the case of the Danes. _(history_short_history_of_england.pdf (source-range-e5a81de4-00102))_
+- He began once more to draw to him the bows and spears of the broken levies of the western shires, especially the men of Somerset; and in the spring of 878 he flung them at the lines before the fenced camp of the victorious Danes at Ethandune. _(history_short_history_of_england.pdf (source-range-e5a81de4-00102))_
+- And Canute himself is actually now only remembered by men as a witness to the futility of merely pagan power; as the king who put his own crown upon the image of Christ, and solemnly surrendered to heaven the Scandinavian empire of the sea. _(history_short_history_of_england.pdf (source-range-e5a81de4-00102))_
+- He began once more to draw to him the bows and spears of the broken levies of the western shires, especially the men of Somerset; and in the spring of 878 he flung them at the lines before the fenced camp of the victorious Danes at Ethandune. _(history_short_history_of_england.pdf (source-range-e5a81de4-00102))_
+
+## Technical atoms
+
+> But there is another way in which common sense can be brought to the criticism of some prodigious racial theories.
+_(source: history_short_history_of_england.pdf (source-range-e5a81de4-00082))_
+
+> But there is another way in which common sense can be brought to the criticism of some prodigious racial theories. To employ the same figure, suppose the scientific historians explain the historic centuries in terms of a prehistoric division between short-sighted and long-sighted men. They could cite their instances and illustrations. They would certainly explain the curiosity of language I mentioned first, as showing that the short-sighted were the conquered race, and their name therefore a term of contempt. They could give us very graphic pictures of the rude tribal war. They could show how the long-sighted people were always cut to pieces in hand-to-hand struggles with axe and knife; until, with the invention of bows and arrows, the advantage veered to the long-sighted, and their enemies were shot down in droves. I could easily write a ruthless romance about it, and still more easily a ruthless anthropological theory. According to that thesis which refers all moral to material changes, they could explain the tradition that old people grow conservative in politics by the well-known fact that old people grow more long-sighted. But I think there might be one thing about this theory which would stump us, and might even, if it be possible, stump them. Suppose it were pointed out that through all the three thousand years of recorded history, abounding in literature of every conceivable kind, there was not so much as a mention of the oculist question for which all had been dared and done. Suppose not one of the living or dead languages of mankind had so much as a word for "long-sighted" or "short-sighted." Suppose, in short, the question that had torn the whole world in two was never even asked at all, until some spectacle-maker suggested it somewhere about 1750. In that case I think we should find it hard to believe that this physical difference had really played so fundamental a part in human history. And that is exactly the case with the physical difference between the Celts, the Teutons and the Latins. [Pg 31] [Pg 32]
+_(source: history_short_history_of_england.pdf (source-range-e5a81de4-00082))_
+
+> To all mortal appearance, in all mortal records and experience, people seem to have killed or spared, married or refrained from marriage, made kings or made slaves, with reference to almost any other consideration except this one.
+_(source: history_short_history_of_england.pdf (source-range-e5a81de4-00083))_
+
+> He does not entertain, as an escape from the singularity of this event, the possibility that it never happened.
+_(source: history_short_history_of_england.pdf (source-range-e5a81de4-00084))_
+
+> But all history also attests that this is always found, apart from any difference in race, in the transition from the lowlands to the mountain country.
+_(source: history_short_history_of_england.pdf (source-range-e5a81de4-00088))_
+
+> This must be remembered through the development of that dark dual destiny that has bound us to Ireland: for doubts have been thrown on a national unity which was not from the first a political unity.
+_(source: history_short_history_of_england.pdf (source-range-e5a81de4-00089))_
+
+> The politics are a nightmare; the kings are unstable and the kingdoms shifting; and we are really never on solid ground except on consecrated ground.
+_(source: history_short_history_of_england.pdf (source-range-e5a81de4-00090))_
+
+> All this time, it must be remembered, the actual central mechanism of Roman government had been running down like a clock.
+_(source: history_short_history_of_england.pdf (source-range-e5a81de4-00096))_
+
+> He must support the tedium of frequent references to the religious element in this part of English history, for without it there would never have been any English history at all.
+_(source: history_short_history_of_england.pdf (source-range-e5a81de4-00102))_

@@ -26,6 +26,7 @@ from llmwiki.domain.ledger.extraction import (
 )
 from llmwiki.domain.ledger.materialize import (
     materialize_code_block,
+    materialize_figure,
     materialize_formula,
     materialize_procedure,
     materialize_rule,
@@ -39,6 +40,7 @@ _CAPABILITY_SIGNAL = {
     "table-extractor": "table-density",
     "code-block-extractor": "code-density",
     "formula-extractor": "formula-density",
+    "figure-extractor": "figure-density",
     "procedure-extractor": "procedure-density",
     "rule-extractor": "rule-language-density",
     "worked-example-extractor": "relationship-density",
@@ -54,6 +56,7 @@ _PROSE_CAPABILITIES = frozenset(
 _KIND_CAPABILITIES: dict[str, frozenset[str]] = {
     "code-fence": frozenset({"code-block-extractor"}),
     "table-block": frozenset({"table-extractor"}),
+    "figure": frozenset({"figure-extractor"}),
     "paragraph": _PROSE_CAPABILITIES,
     "list": _PROSE_CAPABILITIES,
     "heading": frozenset(),
@@ -82,7 +85,11 @@ def extract_segment(
         signal_kind = _CAPABILITY_SIGNAL.get(capability.extractor_capability_id, "")
         score = round(profile.value(signal_kind), 4) if signal_kind else 0.0
         bucket = calibration.bucket_for(capability.extractor_capability_id, score)
-        payload, review_reason = _materialize(capability.extractor_capability_id, segment, profile)
+        payload, review_reason = (
+            _materialize(capability.extractor_capability_id, segment, profile)
+            if _passes_score_gate(capability.extractor_capability_id, score, calibration)
+            else (None, None)
+        )
         decision_id = deterministic_id(
             "extractor-decision",
             segment.source_hash,
@@ -147,6 +154,8 @@ def _materialize(
         return materialize_table(segment)
     if capability_id == "formula-extractor":
         return materialize_formula(segment), None
+    if capability_id == "figure-extractor":
+        return materialize_figure(segment), None
     if capability_id == "rule-extractor":
         return materialize_rule(segment), None
     if capability_id == "procedure-extractor":
@@ -154,6 +163,20 @@ def _materialize(
     if capability_id == "worked-example-extractor":
         return materialize_worked_example(segment), None
     return None, None
+
+
+def _passes_score_gate(
+    capability_id: str, score: float, calibration: CalibrationPolicy
+) -> bool:
+    if capability_id == "code-block-extractor":
+        return True
+    if capability_id == "table-extractor":
+        return score >= _TABLE_GATE
+    if capability_id == "figure-extractor":
+        return score >= 1.0
+    threshold = calibration.threshold(capability_id)
+    gate = threshold.medium if threshold is not None else 0.4
+    return score >= gate
 
 
 def _candidate(

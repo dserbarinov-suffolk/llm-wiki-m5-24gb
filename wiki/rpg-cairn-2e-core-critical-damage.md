@@ -1,12 +1,12 @@
 ---
 page_id: rpg-cairn-2e-core-critical-damage
 page_kind: concept
-summary: Critical Damage: 20 statement(s) and 14 atom(s) from raw/rpg_cairn_2e_core.pdf.
+summary: Critical Damage: 25 statement(s) and 8 atom(s) from raw/rpg_cairn_2e_core.pdf.
 sources: raw/rpg_cairn_2e_core.pdf
 updated: 2026-06-26
 domain: rpg-cairn-2e-core
 category_path: concepts
-projection_coverage: topic-rpg-cairn-2e-core-critical-damage@7ec7f0768304c1382f1cd6331e3a5bf8
+projection_coverage: topic-rpg-cairn-2e-core-critical-damage@79772baeb35039bd88a89c84e2b29d31
 ---
 
 # Critical Damage
@@ -15,40 +15,76 @@ What [[rpg-cairn-2e-core]] covers about critical damage:
 
 ## Statements
 
-- Structures may be damaged or collapse. _(rpg_cairn_2e_core.pdf (source-range-f6f3256b-00730))_
-- You had 6 HP but no armor, and you took 6 damage in the attack. _(rpg_cairn_2e_core.pdf (source-range-f6f3256b-00530))_
-- Bandages can stabilize a character that has taken critical damage. _(rpg_cairn_2e_core.pdf (source-range-f6f3256b-00250))_
-- If your next save against critical damage is a fail, you die horribly. _(rpg_cairn_2e_core.pdf (source-range-f6f3256b-00326))_
-- When a detachment takes Critical Damage , it is routed or significantly weakened. _(rpg_cairn_2e_core.pdf (source-range-f6f3256b-00301))_
-- If the hive is damaged in any way, the man will scream very loudly, then disappear. _(rpg_cairn_2e_core.pdf (source-range-f6f3256b-00642))_
-- If unsure how many targets can be affected, roll the related damage die for a result . _(rpg_cairn_2e_core.pdf (source-range-f6f3256b-00289))_
-- Wolfram rolls a d6, dealing 2 damage to the shorter man, who has enough HP to absorb the attack. _(rpg_cairn_2e_core.pdf (source-range-f6f3256b-00539))_
-- NPCs and monsters that fail a Critical Damage save are considered dead, per the Warden's discretion. _(rpg_cairn_2e_core.pdf (source-range-f6f3256b-00294))_
-- If multiple attackers target the same foe, roll all damage dice and keep the single highest result. _(rpg_cairn_2e_core.pdf (source-range-f6f3256b-00284))_
-- Before calculating damage to HP , subtract the target's Armor value from the result of damage rolls. _(rpg_cairn_2e_core.pdf (source-range-f6f3256b-00259))_
-- If the remaining eye is removed, the statue comes to life, slicing the bident in an arc for d6 STR damage. _(rpg_cairn_2e_core.pdf (source-range-f6f3256b-00667))_
-- She loses 1 point of STR in the attack and so must then roll a Critical Damage save using her new STR score. _(rpg_cairn_2e_core.pdf (source-range-f6f3256b-00539))_
-- 23 Disassemble Any of your body parts may be detached and reattached at will, without causing pain or damage. _(rpg_cairn_2e_core.pdf (source-range-f6f3256b-00730))_
+- a shield would not reduce damage from noxious gas). _(rpg_cairn_2e_core.pdf (source-range-f6f3256b-00298))_
+- Armor can reduce damage, but only if applicable (e.g. _(rpg_cairn_2e_core.pdf (source-range-f6f3256b-00298))_
+- You had 6 HP but no armor, and you took 6 damage in the attack. _(rpg_cairn_2e_core.pdf (source-range-f6f3256b-00438))_
+- Bandages can stabilize a character that has taken critical damage. _(rpg_cairn_2e_core.pdf (source-range-f6f3256b-00173))_
+- When a detachment takes Critical Damage , it is routed or significantly weakened. _(rpg_cairn_2e_core.pdf (source-range-f6f3256b-00224))_
+- Damage from traps is taken from Attributes (usually STR or DEX ) and not from HP . _(rpg_cairn_2e_core.pdf (source-range-f6f3256b-00298))_
+- If the hive is damaged in any way, the man will scream very loudly, then disappear. _(rpg_cairn_2e_core.pdf (source-range-f6f3256b-00550))_
+- If unsure how many targets can be affected, roll the related damage die for a result . _(rpg_cairn_2e_core.pdf (source-range-f6f3256b-00212))_
+- Wolfram rolls a d6, dealing 2 damage to the shorter man, who has enough HP to absorb the attack. _(rpg_cairn_2e_core.pdf (source-range-f6f3256b-00447))_
+- NPCs and monsters that fail a Critical Damage save are considered dead, per the Warden's discretion. _(rpg_cairn_2e_core.pdf (source-range-f6f3256b-00217))_
+- If multiple attackers target the same foe, roll all damage dice and keep the single highest result. _(rpg_cairn_2e_core.pdf (source-range-f6f3256b-00207))_
+- Before calculating damage to HP , subtract the target's Armor value from the result of damage rolls. _(rpg_cairn_2e_core.pdf (source-range-f6f3256b-00182))_
+- If the remaining eye is removed, the statue comes to life, slicing the bident in an arc for d6 STR damage. _(rpg_cairn_2e_core.pdf (source-range-f6f3256b-00575))_
+- Roll 1d6 to determine your PC's starting Hit Protection (HP), which reflects their ability to avoid damage in combat. _(rpg_cairn_2e_core.pdf (source-range-f6f3256b-00105))_
 
-## Code, rules, and examples
-
-> - Attribute loss (see Critical Damage ) can usually be restored with a week's rest, facilitated by a healer or other appropriate source of expertise.
-_(source: rpg_cairn_2e_core.pdf (source-range-f6f3256b-00251))_
+## Technical atoms
 
 > - If fighting from a position of weakness (such as through cover or with bound hands), the attack is Impaired , and the attacker must roll 1d4 damage regardless of the attacks damage die.
-_(source: rpg_cairn_2e_core.pdf (source-range-f6f3256b-00287))_
-
-> - If attacking with two weapons at the same time, roll both damage dice and keep the single highest result (denoted with a plus symbol, e.g. d8+d8).
-_(source: rpg_cairn_2e_core.pdf (source-range-f6f3256b-00290))_
+_(source: rpg_cairn_2e_core.pdf (source-range-f6f3256b-00210))_
 
 > The target must then immediately make a STR save to avoid taking Critical Damage , using their new STR score .
-_(source: rpg_cairn_2e_core.pdf (source-range-f6f3256b-00292))_
+_(source: rpg_cairn_2e_core.pdf (source-range-f6f3256b-00215))_
 
 > - Any PC that suffers Critical Damage cannot do anything but crawl
-_(source: rpg_cairn_2e_core.pdf (source-range-f6f3256b-00293))_
+_(source: rpg_cairn_2e_core.pdf (source-range-f6f3256b-00216))_
 
 > - If a PC takes damage outside of combat, they should instead receive damage to an Attribute, typically STR.
-_(source: rpg_cairn_2e_core.pdf (source-range-f6f3256b-00296))_
+_(source: rpg_cairn_2e_core.pdf (source-range-f6f3256b-00219))_
+
+| entry | content |
+| --- | --- |
+| 2 | Rattling Blow: You're disoriented and shaken. Describe how you refocus. Roll 1d6. If the total is higher than your max HP , take the new result. |
+| 3 | Walloped: You're sent flying and land flat on your face, winded. You are deprived until you rest for a few hours. Then, roll 1d6. Add that amount to your max HP . |
+| 4 | Broken Limb: Roll 1d6. 1-2: Leg, 3-4: Arm, 5: Rib, 6: Skull. Once mended, roll 2d6. If the total is higher than your max HP, take the new result. |
+| 5 | Diseased: You're afflicted with a gross, uncomfortable infection. When you get over it, roll 2d6. If the total is higher than your max HP , take the new result. |
+| 6 | Reorienting Head Wound: Roll 1d6. 1-2: STR, 3-4: DEX, 5-6: WIL. Roll 3d6. If the total is higher than your current attribute, take the new result. |
+| 7 | Hamstrung: You can barely move until you get serious help and rest. After recovery, roll 3d6. If the total is higher than your max DEX, take the new result. |
+| 8 | Deafened: You cannot hear anything until you find extraordinary aid. Regardless, make a WIL save. If you pass, increase your max WIL by 1d4. |
+| 9 | Re-brained: Some hidden part of your psyche is knocked loose. Roll 3d6. If the total is higher than your max WIL, take the new result. |
+| 10 | Sundered: An appendage is torn off, crippled, or useless. (The Warden will tell you which.) Then make a WIL save. If you pass, increase your max WIL by 1d6. |
+| 11 | Mortal Wound: You are deprived and out of action. You die in one hour unless healed. Upon recovery, roll 2d6. Take the new result as your max HP . |
+| 12 | Doomed: Death seemed ever so close, but somehow you survived. If your next save against critical damage is a fail, you die horribly. If you pass, roll 3d6. If the total is higher than your max HP , take the new result. |
+
+<details>
+<summary>Raw table text</summary>
+
+```
+HP Lost Result
+take	the	new	result.
+2 Rattling	Blow:	You're	disoriented	and	shaken.	Describe	how you	refocus.	Roll	1d6.	If	the	total	is	higher	than	your	max	HP , take	the	new	result.
+Walloped:	You're	sent	flying	and	land	flat	on	your	face,
+3 winded.	You	are	deprived	until	you	rest	for	a	few	hours.	Then, roll	1d6.	Add	that	amount	to	your	max	HP .
+Broken	Limb:	Roll	1d6.	1-2:	Leg,	3-4:	Arm,	5:	Rib,	6:	Skull.
+4 Once	mended,	roll	2d6.	If	the	total	is	higher	than	your	max HP,	take	the	new	result.
+5 Diseased:	You're	afflicted	with	a	gross,	uncomfortable infection.	When	you	get	over	it,	roll	2d6.	If	the	total	is	higher than	your	max	HP ,	take	the	new	result.
+6 Reorienting	Head	Wound:	Roll	1d6.	1-2:	STR,	3-4:	DEX,	5-6: WIL.	Roll	3d6.	If	the	total	is	higher	than	your	current attribute,	take	the	new	result.
+7 Hamstrung:	You	can	barely	move	until	you	get	serious	help and	rest.	After	recovery,	roll	3d6.	If	the	total	is	higher	than your	max	DEX,	take	the	new	result.
+8 Deafened:	You	cannot	hear	anything	until	you	find extraordinary	aid.	Regardless,	make	a	WIL	save.	If	you	pass, increase	your	max	WIL	by	1d4.
+9 Re-brained:	Some	hidden	part	of	your	psyche	is	knocked loose.	Roll	3d6.	If	the	total	is	higher	than	your	max	WIL,	take the	new	result.
+10 Sundered:	An	appendage	is	torn	off,	crippled,	or	useless.	(The Warden	will	tell	you	which.)	Then	make	a	WIL	save.	If	you pass,	increase	your	max	WIL	by	1d6.
+11 Mortal	Wound:	You	are	deprived	and	out	of	action.	You	die	in one	hour	unless	healed.	Upon	recovery,	roll	2d6.	Take	the new	result	as	your	max	HP .
+Doomed:	Death	seemed	ever	so	close,	but	somehow	you
+12 survived.	If	your	next	save	against	critical	damage	is	a	fail, you	die	horribly.	If	you	pass,	roll	3d6.	If	the	total	is	higher than	your	max	HP ,	take	the	new	result.
+```
+
+</details>
+_(source: rpg_cairn_2e_core.pdf (source-range-f6f3256b-00234))_
+
+> The target must then immediately make a STR save to avoid taking Critical Damage, using their new STR score.
+_(source: rpg_cairn_2e_core.pdf (source-range-f6f3256b-00418))_
 
 
 ## Source

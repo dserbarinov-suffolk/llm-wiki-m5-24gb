@@ -49,9 +49,11 @@ from llmwiki.domain.planning import (
 )
 from llmwiki.domain.salience import compute_salience
 from llmwiki.pdf import PdfError
+from llmwiki.pdf.document import DocumentModel
 from llmwiki.pdf.pipeline import (
     ExtractionResult,
     chunk_file,
+    read_document_model,
     read_source_text,
     save_manifest,
 )
@@ -187,6 +189,7 @@ class Session:
             source_locator=source_locator,
             page_plan=page_plan,
             chunks=chunks,
+            document_model=None,
             source_text=source_text_from_text(source_locator, source_text),
             run=self._markdown_ingest_run(source_locator, page_plan),
         )
@@ -228,6 +231,7 @@ class Session:
             source_locator=source_locator,
             page_plan=page_plan,
             chunks=chunks,
+            document_model=read_document_model(result.cache_dir),
             source_text=source_text_from_text(
                 source_locator, read_source_text(result.cache_dir), "pdf-cache"
             ),
@@ -240,6 +244,7 @@ class Session:
         source_locator: str,
         page_plan: PagePlan,
         chunks: tuple[ChunkText, ...],
+        document_model: DocumentModel | None,
         source_text: SourceText,
         run: IngestRun,
     ) -> OperationResult:
@@ -257,6 +262,7 @@ class Session:
             source_hash=source_text.source_hash,
             evidence_registry_hash=registry_hash,
             chunks=chunks,
+            document_model=document_model,
             today=self.today,
             schema=self._schema_object(),
         )
@@ -273,7 +279,7 @@ class Session:
         report = (
             f"Claim-ledger ingest of raw/{source_locator} ({len(chunks)} chunk(s)).\n"
             f"{ledger.summary}\n"
-            f"Source page: {written}; topic pages: {len(ledger.topic_pages)}. "
+            f"Source page: {written}; linked pages: {len(ledger.topic_pages)}. "
             f"Ledger artifacts: {self.store.page_plan_artifact_dir(source_locator)}/ledger.\n"
             f"{_confidence_summary_line(confidence.report)}"
         )

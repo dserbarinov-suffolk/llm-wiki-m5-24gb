@@ -1,12 +1,12 @@
 ---
 page_id: history-short-history-of-england-case
 page_kind: concept
-summary: Case: 24 statement(s) and 9 atom(s) from raw/history_short_history_of_england.pdf.
+summary: Case: 27 statement(s) and 4 atom(s) from raw/history_short_history_of_england.pdf.
 sources: raw/history_short_history_of_england.pdf
 updated: 2026-06-26
 domain: history-short-history-of-england
 category_path: concepts
-projection_coverage: topic-history-short-history-of-england-case@28df563e03672c3bcf1710e000beae1b
+projection_coverage: topic-history-short-history-of-england-case@ba6241421cc8e5c9ff92cba86fd50634
 ---
 
 # Case
@@ -15,22 +15,22 @@ What [[history-short-history-of-england]] covers about case:
 
 ## Statements
 
-- I believe we counted for uncommonly little in the case. _(history_short_history_of_england.pdf (source-range-e5a81de4-00416))_
+- I believe we counted for uncommonly little in the case. _(history_short_history_of_england.pdf (source-range-e5a81de4-00412))_
+- It need not be repeated that the case for despotism is democratic. _(history_short_history_of_england.pdf (source-range-e5a81de4-00180))_
 - And nothing could clinch this truth more than the case of the Danes. _(history_short_history_of_england.pdf (source-range-e5a81de4-00102))_
 - In this case we have only to step across the Straits of Dover to find the fallacy. _(history_short_history_of_england.pdf (source-range-e5a81de4-00140))_
-- That was the real case for the Jew; and no doubt he really felt himself oppressed. _(history_short_history_of_england.pdf (source-range-e5a81de4-00233))_
-- In any case the spirit of the whole upper class can be described as increasingly new. _(history_short_history_of_england.pdf (source-range-e5a81de4-00286))_
+- That was the real case for the Jew; and no doubt he really felt himself oppressed. _(history_short_history_of_england.pdf (source-range-e5a81de4-00232))_
 - In the opinion of Gildas, a modification of that of Gregory, it was a case of non Angli sed diaboli . _(history_short_history_of_england.pdf (source-range-e5a81de4-00084))_
 - In any case, it is as well to record even so simple a conclusion as that what is prehistoric is unhistorical. _(history_short_history_of_england.pdf (source-range-e5a81de4-00081))_
 - In such cases the lord grew larger than the king; but it bred not only a local lordship but a kind of local liberty. _(history_short_history_of_england.pdf (source-range-e5a81de4-00124))_
-- The case for the Americans, the real reason for calling them right in the quarrel, was something much deeper than the quarrel. _(history_short_history_of_england.pdf (source-range-e5a81de4-00411))_
-- There is already war, in this case literally to the knife, between the Commons with a large C and the commons with a small one. _(history_short_history_of_england.pdf (source-range-e5a81de4-00265))_
+- The case for the Americans, the real reason for calling them right in the quarrel, was something much deeper than the quarrel. _(history_short_history_of_england.pdf (source-range-e5a81de4-00407))_
+- There is already war, in this case literally to the knife, between the Commons with a large C and the commons with a small one. _(history_short_history_of_england.pdf (source-range-e5a81de4-00264))_
 - And exactly as in the case of the last Lancastrian, we find that the praise has really a very practical meaning in the long run. _(history_short_history_of_england.pdf (source-range-e5a81de4-00112))_
-- For him, as for the first Norman kings, treason was the same as treachery; and in this case at least it was the same as treachery. _(history_short_history_of_england.pdf (source-range-e5a81de4-00277))_
-- case for their enemies is little realized; for it is connected with what our insular history most neglects, the condition of the Continent. _(history_short_history_of_england.pdf (source-range-e5a81de4-00360))_
-- The real case for the colonists is that they felt they could be something, which they also felt, and justly, that England would not help them to be. _(history_short_history_of_england.pdf (source-range-e5a81de4-00412))_
+- For him, as for the first Norman kings, treason was the same as treachery; and in this case at least it was the same as treachery. _(history_short_history_of_england.pdf (source-range-e5a81de4-00276))_
+- case for their enemies is little realized; for it is connected with what our insular history most neglects, the condition of the Continent. _(history_short_history_of_england.pdf (source-range-e5a81de4-00358))_
+- The real case for the colonists is that they felt they could be something, which they also felt, and justly, that England would not help them to be. _(history_short_history_of_england.pdf (source-range-e5a81de4-00408))_
 
-## Code, rules, and examples
+## Technical atoms
 
 > The case of Britain, however, cannot possibly be considered alone.
 _(source: history_short_history_of_england.pdf (source-range-e5a81de4-00039))_
@@ -41,14 +41,8 @@ _(source: history_short_history_of_england.pdf (source-range-e5a81de4-00082))_
 > This tangle is responsible for the tragic passions about betrayal, as in the case of William and Harold; the alleged traitor who is always found to be recurrent, yet always felt to be exceptional.
 _(source: history_short_history_of_england.pdf (source-range-e5a81de4-00129))_
 
-> But this faith in receptiveness, and in respect for things outside oneself, need here do no more than help me in explaining what any version of this epoch ought in any case to explain.
-_(source: history_short_history_of_england.pdf (source-range-e5a81de4-00139))_
-
-> The first few lines of Chaucer's poem, to say nothing of thousands in the course of it, make it instantly plain that it was no case of secular revels still linked by a slight ritual to the name of some forgotten god, as may have happened in the pagan decline.
-_(source: history_short_history_of_england.pdf (source-range-e5a81de4-00165))_
-
-> It need not be repeated that the case for despotism is democratic. As a rule its cruelty to the strong is kindness to the weak. An autocrat cannot be judged as a historical character by his relations with other historical characters. His true applause comes not from the few actors on the lighted stage of aristocracy, but from that enormous audience which must always sit in darkness throughout the drama. The king who helps numberless helps nameless men, and when he flings his widest largesse he is a Christian doing good by stealth. This sort of monarchy was certainly a mediæval ideal, nor need it necessarily fail as a reality. French kings were never so merciful to the people as when they were merciless to the peers; and it is probably true that a Czar who was a great lord to his intimates was often a little father in innumerable little homes. It is overwhelmingly probable that such a central power, though it might at last have deserved destruction in England as in France, would in England as in France have prevented the few from seizing and holding all the wealth and power to this day. But in England it broke off short, through something of which the slaying of St. Thomas may well have been the supreme example. It was something overstrained and startling and against the instincts of the people. And of what was meant in the Middle Ages by that very powerful and rather peculiar thing, the people, I shall speak in the next chapter.
-_(source: history_short_history_of_england.pdf (source-range-e5a81de4-00180))_
+> In any case the spirit of the whole upper class can be described as increasingly new.
+_(source: history_short_history_of_england.pdf (source-range-e5a81de4-00285))_
 
 
 ## Source

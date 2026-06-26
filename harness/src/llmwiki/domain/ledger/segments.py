@@ -15,6 +15,7 @@ SEGMENT_KINDS = (
     "heading",
     "code-fence",
     "table-block",
+    "figure",
     "list",
     "paragraph",
     "blank",
@@ -33,6 +34,7 @@ class SourceSegment:
     text: str
     segment_kind: str
     evidence_ids: tuple[str, ...] = ()
+    source_element_ids: tuple[str, ...] = ()
 
 
 @dataclass(frozen=True)

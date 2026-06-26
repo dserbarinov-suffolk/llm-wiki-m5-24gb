@@ -1,12 +1,12 @@
 ---
 page_id: history-short-history-of-england-revolution
 page_kind: concept
-summary: Revolution: 32 statement(s) and 7 atom(s) from raw/history_short_history_of_england.pdf.
+summary: Revolution: 33 statement(s) and 6 atom(s) from raw/history_short_history_of_england.pdf.
 sources: raw/history_short_history_of_england.pdf
 updated: 2026-06-26
 domain: history-short-history-of-england
 category_path: concepts
-projection_coverage: topic-history-short-history-of-england-revolution@cf910ff5acf5c8b39cfc43a852787712
+projection_coverage: topic-history-short-history-of-england-revolution@638c14a43c8d4b3233d3ee88f6bc38ad
 ---
 
 # Revolution
@@ -15,22 +15,22 @@ What [[history-short-history-of-england]] covers about revolution:
 
 ## Statements
 
+- She was, in her own living loneliness, a French Revolution. _(history_short_history_of_england.pdf (source-range-e5a81de4-00243))_
 - About that revolution no man has ever been able to be impartial. _(history_short_history_of_england.pdf (source-range-e5a81de4-00032))_
-- By the Revolution they were already becoming as private as they are now. _(history_short_history_of_england.pdf (source-range-e5a81de4-00390))_
+- By the Revolution they were already becoming as private as they are now. _(history_short_history_of_england.pdf (source-range-e5a81de4-00387))_
 - The Frenchman especially is always a Revolutionist-and never an Anarchist. _(history_short_history_of_england.pdf (source-range-e5a81de4-00167))_
-- We have seen that in the fourteenth century in England there was a real revolution of the poor. _(history_short_history_of_england.pdf (source-range-e5a81de4-00287))_
-- But indeed much deeper things unified our attitude towards France before and after the Revolution. _(history_short_history_of_england.pdf (source-range-e5a81de4-00419))_
+- We have seen that in the fourteenth century in England there was a real revolution of the poor. _(history_short_history_of_england.pdf (source-range-e5a81de4-00286))_
+- But indeed much deeper things unified our attitude towards France before and after the Revolution. _(history_short_history_of_england.pdf (source-range-e5a81de4-00415))_
 - This wind of revolution in the crusading time caught Francis in Assissi and stripped him of his rich _(history_short_history_of_england.pdf (source-range-e5a81de4-00167))_
-- There is something very typical of an English revolution in having the tumbril without the guillotine. _(history_short_history_of_england.pdf (source-range-e5a81de4-00437))_
-- I mean the fact that the influence then called Popish was then in a real sense regarded as revolutionary. _(history_short_history_of_england.pdf (source-range-e5a81de4-00376))_
-- France was already in travail with the tremendous spiritual revolution which was soon to reshape the world. _(history_short_history_of_england.pdf (source-range-e5a81de4-00417))_
+- There is something very typical of an English revolution in having the tumbril without the guillotine. _(history_short_history_of_england.pdf (source-range-e5a81de4-00433))_
+- I mean the fact that the influence then called Popish was then in a real sense regarded as revolutionary. _(history_short_history_of_england.pdf (source-range-e5a81de4-00373))_
+- France was already in travail with the tremendous spiritual revolution which was soon to reshape the world. _(history_short_history_of_england.pdf (source-range-e5a81de4-00413))_
 - For it was the whole point of the Christian revolution to maintain that in this, good government was as bad as bad. _(history_short_history_of_england.pdf (source-range-e5a81de4-00032))_
 - The very word "monk" is a revolution, for it means solitude and came to mean community-one might call it sociability. _(history_short_history_of_england.pdf (source-range-e5a81de4-00095))_
 - Like everything else in the mediæval revolution, from its cathedrals to its ballads, it was as anonymous as it was enormous. _(history_short_history_of_england.pdf (source-range-e5a81de4-00202))_
-- Nor were the taxes themselves of that practically oppressive sort which rightly raise everywhere the common casuistry of revolution. _(history_short_history_of_england.pdf (source-range-e5a81de4-00411))_
-- But even for the countries in which the Revolution was a convulsion, it was the last convulsion-until that which shakes the world to-day. _(history_short_history_of_england.pdf (source-range-e5a81de4-00452))_
+- Nor were the taxes themselves of that practically oppressive sort which rightly raise everywhere the common casuistry of revolution. _(history_short_history_of_england.pdf (source-range-e5a81de4-00407))_
 
-## Code, rules, and examples
+## Technical atoms
 
 > Now suppose the readers of that work of reference had looked for the portrait of Charles I. and found the head of a policeman. Suppose it had been taken, modern helmet and all, out of some snapshot in the Daily Sketch of the arrest of Mrs. Pankhurst. I think we may go so far as to say that the readers would have refused to accept it as a lifelike portrait of Charles I. They would have formed the opinion that there must be some mistake. Yet the time that elapsed between Stephen and Mary was much longer than the time that has elapsed between Charles and ourselves. The revolution in human society between the first of the Crusades and the last of the Tudors was immeasurably more colossal and complete than any change between Charles and ourselves. And, above all, that revolution should be the first thing and the final thing in anything calling itself a popular history. For it is the story of how our populace gained great things, but to-day has lost everything.
 _(source: history_short_history_of_england.pdf (source-range-e5a81de4-00020))_
@@ -41,14 +41,14 @@ _(source: history_short_history_of_england.pdf (source-range-e5a81de4-00106))_
 > But it is a huge historical error to suppose that the Crusades concerned only that crust of society for which heraldry was an art and chivalry an etiquette. The direct contrary is the fact. The First Crusade especially was much more an unanimous popular rising than most that are called riots and revolutions. The Guilds, the great democratic systems of the time, often owed their increasing power to corporate fighting for the Cross; but I shall deal with such things later. Often it was not so much a levy of men as a trek of whole families, like new gipsies moving eastwards. And it has passed into a proverb that children by themselves often organized a crusade as they now organize a charade. But we shall best realize the fact by fancying every Crusade as a Children's Crusade. They were full of all that the modern world worships in children, because it has crushed it out of men. Their lives were full, as the rudest remains of their vulgarest arts are full, of something that we all saw out of the nursery window. It can best be seen later, for instance, in the lanced and latticed interiors of Memling, but it is ubiquitous in the older and more unconscious contemporary art; something that domesticated distant lands and made the horizon at home. They fitted into the corners of small houses the ends of the earth and the edges of the sky. Their perspective is rude and crazy, but it is perspective; it is not the decorative flatness of orientalism. In a word, their world, like a child's, is full of foreshortening, as of a short cut to fairyland. Their maps are more provocative than pictures. Their half-fabulous animals are monsters, and yet are pets. It is impossible to state verbally this very vivid atmosphere; but it was an atmosphere as well as an adventure. It was precisely these outlandish visions that truly came home to everybody; it was the royal councils and feudal quarrels that were comparatively remote. The Holy Land was much nearer to a plain man's house than Westminster, and immeasurably nearer than Runymede. To give a list of English kings and parliaments, without pausing for a moment upon this prodigious presence of a religious transfiguration in common life, is something the folly of which can but faintly be conveyed by a more modern parallel, with secularity and religion reversed. It is as if some Clericalist or Royalist writer should give a list of the Archbishops of Paris from 1750 to 1850, noting how one died of small-pox, another of old age, another by a curious accident of decapitation, and throughout all his record should never once mention the nature, or even the name, of the French Revolution.
 _(source: history_short_history_of_england.pdf (source-range-e5a81de4-00155))_
 
-> It is needless to tell here again the tale of that earthquake episode in which a clearance in the earth and sky, above the confusion and abasement of the crowns, showed the commanding figure of a woman of the people. She was, in her own living loneliness, a French Revolution. She was the proof that a certain power was not in the French kings or in the French knights, but in the French. But the fact that she saw something above her that was other than the sky, the fact that she lived the life of a saint and died the death of a martyr, probably stamped the new national sentiment with a sacred seal. And the fact that she fought for a defeated country, and, even though it was victorious, was herself ultimately defeated, defines that darker element of devotion of which I spoke above, which makes even pessimism consistent with patriotism. It is more appropriate in this place to consider the ultimate reaction of this sacrifice upon the romance and the realities of England.
-_(source: history_short_history_of_england.pdf (source-range-e5a81de4-00244))_
-
 > If this be a fancy, it is at least one that cannot be disproved; the mediæval revolution was too unsuccessful at the beginning for any one to show that it need have been unsuccessful in the end.
-_(source: history_short_history_of_england.pdf (source-range-e5a81de4-00291))_
+_(source: history_short_history_of_england.pdf (source-range-e5a81de4-00290))_
 
 > The French Revolution was the challenge that really revealed to the Whigs that they must make up their minds to be really democrats or admit that they were really aristocrats.
-_(source: history_short_history_of_england.pdf (source-range-e5a81de4-00432))_
+_(source: history_short_history_of_england.pdf (source-range-e5a81de4-00428))_
+
+> The first thing to note, then, about the nineteenth century is that Europe remained herself as compared with the Europe of the great war, and that England especially remained herself as compared even with the rest of Europe. Granted this, we may give their proper importance to the cautious internal changes in this country, the small conscious and the large unconscious changes. Most of the conscious ones were much upon the model of an early one, the great Reform Bill of 1832, and can be considered in the light of it. First, from the standpoint of most real reformers, the chief thing about the Reform Bill was that it did not reform. It had a huge tide of popular enthusiasm behind it, which wholly disappeared when the people found themselves in front of it. It enfranchised large masses of the middle classes; it disfranchised very definite bodies of the working classes; and it so struck the balance between the conservative and the dangerous elements in the commonwealth that the governing class was rather stronger than before. The date, however, is important, not at all because it was the beginning of democracy, but because it was the beginning of the best way ever discovered of evading and postponing democracy. Here enters the homœopathic treatment of revolution, since so often successful. Well into the next generation Disraeli, the brilliant Jewish adventurer who was the symbol of the English aristocracy being no longer genuine, extended the franchise to the artisans, partly, indeed, as a party move against his great rival, Gladstone, but more as the method by which the old popular pressure was first tired out and then toned down. The politicians said the working-class was now strong enough to be allowed votes. It would be truer to say it was now weak enough to be allowed votes. So in more recent times Payment of Members, which would once have been regarded (and resisted) as an inrush of popular forces, was passed quietly and without resistance, and regarded merely as an extension of parliamentary privileges. The truth is that the old parliamentary oligarchy abandoned their first line of trenches because they had by that time constructed a second line of defence. It consisted in the concentration of colossal political funds in the private and irresponsible power of the politicians, collected by the sale of peerages and more important things, and expended on the jerrymandering of the enormously expensive elections. In the presence of this inner obstacle a vote became about as valuable as a railway ticket when there is a permanent block on the line. The façade and outward form of this new secret government is the merely mechanical application of what is called the Party System. The Party System does not consist, as some suppose, of two parties, but of one. If there were two real parties, there could be no system. [Pg 226] [Pg 227]
+_(source: history_short_history_of_england.pdf (source-range-e5a81de4-00452))_
 
 
 ## Source

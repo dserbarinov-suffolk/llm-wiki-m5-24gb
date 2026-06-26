@@ -12,7 +12,16 @@ from llmwiki.domain.ledger.artifacts import (
     PortableArtifactMember,
     build_portable_artifact_set,
 )
-from llmwiki.domain.ledger.atoms import TablePayload
+from llmwiki.domain.ledger.atoms import (
+    CodeBlockPayload,
+    FigurePayload,
+    FormulaPayload,
+    RulePayload,
+    TableCell,
+    TableColumn,
+    TablePayload,
+    TableRow,
+)
 from llmwiki.domain.ledger.builder import (
     LedgerBuildResult,
     SegmentInput,
@@ -35,6 +44,10 @@ from llmwiki.domain.ledger.quality_catalog import (
 from llmwiki.domain.ledger.renderer import render_source_page
 from llmwiki.domain.ledger.schemas import AtomValidator, default_atom_schema_set
 from llmwiki.domain.ledger.segments import SegmentClaim, SourceSegment
+from llmwiki.domain.ledger.source_coverage import (
+    SourceElementRecord,
+    build_source_coverage,
+)
 from llmwiki.domain.ledger.vocab import (
     CALIBRATION_BUCKETS,
     EXTRACTED_UNIT_DISPOSITIONS,
@@ -59,6 +72,7 @@ def _build(specs: list[tuple[str, str, list[str]]], source_hash: str = _HASH) ->
             text=text,
             segment_kind=kind,
             evidence_ids=(f"ev-{order:03d}",),
+            source_element_ids=(f"el-{order:03d}",),
         )
         claim_records = tuple(
             SegmentClaim(f"c-{order}-{i}", statement, (), "eligible", "supported", seg.evidence_ids)
@@ -117,6 +131,7 @@ def test_one_extractor_decision_per_capability_per_content_segment() -> None:
 def test_code_block_preserves_exact_text_including_whitespace() -> None:
     result = _build(_MIXED)
     code = next(a for a in result.ledger.technical_atoms if a.technical_atom_kind == "code-block")
+    assert isinstance(code.payload, CodeBlockPayload)
     assert code.payload.raw_code_text == "  x = 1\n    y = 2"
     assert code.parse_status == "parsed"
 
@@ -124,18 +139,182 @@ def test_code_block_preserves_exact_text_including_whitespace() -> None:
 def test_table_block_preserves_raw_text_with_partial_parse_review() -> None:
     result = _build(_MIXED)
     table = next(a for a in result.ledger.technical_atoms if a.technical_atom_kind == "table")
+    assert isinstance(table.payload, TablePayload)
     assert table.payload.raw_table_text == "1 alpha entry\n2 beta entry\n3 gamma entry"
     assert table.parse_status == "partially-parsed"
     assert table.review_reason is not None
     assert table.payload.cells  # logical model recovered as enumerated rows
 
 
+def test_three_incidental_numbers_do_not_parse_as_logical_table_rows() -> None:
+    result = _build(
+        [
+            (
+                "table-block",
+                "Magnitude Notes\nA score of 10 or 11 is average. "
+                "A score of 18 is unusually high.",
+                [],
+            )
+        ]
+    )
+
+    assert all(atom.technical_atom_kind != "table" for atom in result.ledger.technical_atoms)
+
+
+def test_logical_table_renders_as_markdown_table_with_raw_text() -> None:
+    from llmwiki.domain.ledger.renderer import atom_block
+
+    payload = TablePayload(
+        raw_table_text="1 Alpha entry\n2 Beta entry",
+        parse_status="partially-parsed",
+        source_locator="src.pdf",
+        columns=(TableColumn(0, "entry"), TableColumn(1, "content")),
+        rows=(TableRow(0), TableRow(1)),
+        cells=(
+            TableCell(0, 0, "1"),
+            TableCell(0, 1, "Alpha entry"),
+            TableCell(1, 0, "2"),
+            TableCell(1, 1, "Beta entry"),
+        ),
+    )
+
+    rendered = atom_block("table", payload)
+
+    assert "| entry | content |" in rendered
+    assert "| 2 | Beta entry |" in rendered
+    assert "Raw table text" in rendered
+    assert "1 Alpha entry\n2 Beta entry" in rendered
+
+
+def test_figure_segment_becomes_unparsed_figure_atom() -> None:
+    result = _build([("figure", "[Figure] (p.1)", [])])
+
+    figure = next(a for a in result.ledger.technical_atoms if a.technical_atom_kind == "figure")
+    assert isinstance(figure.payload, FigurePayload)
+    assert figure.payload.raw_figure_text == "[Figure] (p.1)"
+    assert figure.parse_status == "unparsed"
+
+
+def test_formula_extraction_requires_source_neutral_notation() -> None:
+    result = _build(
+        [
+            (
+                "paragraph",
+                "The guide says the assignment x = 1 appears in a long explanatory sentence "
+                "that is not itself a standalone formula.",
+                [],
+            ),
+            (
+                "paragraph",
+                "Archive files may appear under https://example.invalid/1/2/3/item.",
+                [],
+            ),
+            ("paragraph", "Load = mass * acceleration", []),
+        ]
+    )
+
+    formulas = [
+        atom for atom in result.ledger.technical_atoms if atom.technical_atom_kind == "formula"
+    ]
+    formula_payloads = [
+        atom.payload for atom in formulas if isinstance(atom.payload, FormulaPayload)
+    ]
+    assert [payload.raw_formula_text for payload in formula_payloads] == [
+        "Load = mass * acceleration"
+    ]
+
+
+def test_inline_enumerated_table_recovers_logical_rows_without_source_terms() -> None:
+    result = _build(
+        [
+            (
+                "table-block",
+                "Catalog\n9 Alpha entry. 10 Beta entry. "
+                "11 Gamma entry with 1 reset. 12 Delta entry.",
+                [],
+            )
+        ]
+    )
+
+    table = next(a for a in result.ledger.technical_atoms if a.technical_atom_kind == "table")
+    assert isinstance(table.payload, TablePayload)
+    entry_cells = [cell.value for cell in table.payload.cells if cell.column_index == 0]
+    assert entry_cells == ["9", "10", "11", "12"]
+    assert table.payload.raw_table_text.startswith("Catalog")
+
+
+def test_range_value_table_recovers_logical_rows_without_source_terms() -> None:
+    result = _build(
+        [
+            (
+                "table-block",
+                "18-19 +4 20-21 +5 22-23 +6 24-25 +7",
+                [],
+            )
+        ]
+    )
+
+    table = next(a for a in result.ledger.technical_atoms if a.technical_atom_kind == "table")
+    assert isinstance(table.payload, TablePayload)
+    entry_cells = [cell.value for cell in table.payload.cells if cell.column_index == 0]
+    value_cells = [cell.value for cell in table.payload.cells if cell.column_index == 1]
+    assert entry_cells == ["18-19", "20-21", "22-23", "24-25"]
+    assert value_cells == ["+4", "+5", "+6", "+7"]
+
+
+def test_enumerated_table_keeps_short_row_prefix_continuations() -> None:
+    result = _build(
+        [
+            (
+                "table-block",
+                "Result\n2 Alpha entry.\nBeta Label: split title\n3 continued row.\n4 Gamma entry.",
+                [],
+            )
+        ]
+    )
+
+    table = next(a for a in result.ledger.technical_atoms if a.technical_atom_kind == "table")
+    assert isinstance(table.payload, TablePayload)
+    values = [cell.value for cell in table.payload.cells if cell.column_index == 1]
+    assert values[1] == "Beta Label: split title continued row."
+
+
 def test_deontic_sentence_becomes_rule_atom_not_duplicate_claim() -> None:
     result = _build(_MIXED)
     rules = [a for a in result.ledger.technical_atoms if a.technical_atom_kind == "rule"]
-    assert any(a.payload.rule_force == "required" for a in rules)
+    rule_payloads = [atom.payload for atom in rules if isinstance(atom.payload, RulePayload)]
+    assert len(rule_payloads) == len(rules)
+    assert any(payload.rule_force == "required" for payload in rule_payloads)
     claim_texts = [e.normalized_text for e in result.ledger.entries if e.is_claim_like]
     assert not any("must roll a die" in text for text in claim_texts)
+
+
+def test_epistemic_modal_sentence_is_not_a_rule_atom() -> None:
+    result = _build(
+        [
+            (
+                "paragraph",
+                "It may be incomplete. It will be asked why I should explain the limitation.",
+                ["The archive is incomplete."],
+            )
+        ]
+    )
+
+    assert all(atom.technical_atom_kind != "rule" for atom in result.ledger.technical_atoms)
+
+
+def test_low_signal_only_sentence_is_not_a_rule_atom() -> None:
+    result = _build(
+        [
+            (
+                "paragraph",
+                "The archive is not only old; it is also public.",
+                ["The archive is old and public."],
+            )
+        ]
+    )
+
+    assert all(atom.technical_atom_kind != "rule" for atom in result.ledger.technical_atoms)
 
 
 def test_claim_like_entry_carries_required_proposition_fields() -> None:
@@ -271,6 +450,52 @@ def test_portable_artifact_set_excludes_self_and_tracks_membership() -> None:
     extra = (*members, PortableArtifactMember("projection-coverage-artifact", "pc-1", "f3"))
     second = build_portable_artifact_set(extra)
     assert first.portable_artifact_set_fingerprint != second.portable_artifact_set_fingerprint
+
+
+def test_source_coverage_marks_gaps_without_filtering_segments() -> None:
+    segment = SourceSegment(
+        segment_id="seg-001",
+        source_range_id="sr-001",
+        source_locator="src.pdf",
+        source_hash=_HASH,
+        heading_path="H",
+        structure_node_id="",
+        source_order=1,
+        text="A source sentence has content.",
+        segment_kind="paragraph",
+        evidence_ids=("ev-001",),
+        source_element_ids=("el-001",),
+    )
+    result = build_claim_ledger(
+        source_locator="src.pdf",
+        source_hash=_HASH,
+        evidence_registry_hash="er-hash",
+        segments=(SegmentInput(segment, ()),),
+        profiles={
+            "seg-001": profile_unit(
+                extracted_unit_id="seg-001",
+                source_range_id="sr-001",
+                text=segment.text,
+                evidence_ids=segment.evidence_ids,
+            )
+        },
+        schema=default_schema_bundle(),
+    )
+    coverage = build_source_coverage(
+        source_locator="src.pdf",
+        source_hash=_HASH,
+        elements=(
+            SourceElementRecord("el-001", "paragraph", "body", "H", "p.1", True),
+            SourceElementRecord("el-002", "paragraph", "body", "H", "p.1", True),
+            SourceElementRecord("el-003", "page_header", "header", "H", "p.1", True),
+        ),
+        segments=(SegmentInput(segment, ()),),
+        ledger=result.ledger,
+        structure=result.document_structure,
+    )
+
+    statuses = {record.source_element_id: record.coverage_status for record in coverage.records}
+    assert statuses == {"el-001": "covered", "el-002": "gap", "el-003": "excluded"}
 
 
 def test_reading_source_close_text_is_the_source_statement() -> None:

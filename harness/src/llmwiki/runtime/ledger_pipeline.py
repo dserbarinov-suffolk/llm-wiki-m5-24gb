@@ -1,12 +1,4 @@
-"""Claim-ledger ingest pipeline (adapter/orchestrator).
-
-Wires deterministic extraction artifacts into the pure claim-ledger domain:
-segment chunks, build the document structure and claim ledger, run the
-ledger-build and page-projection quality reports, render the source page as a
-projection of the ledger, assemble the portable artifacts and manifest, and
-apply the write boundary. No model is called: a source page is a projection of
-its ledger, not an independent summary.
-"""
+"""Claim-ledger ingest pipeline adapter/orchestrator."""
 
 from __future__ import annotations
 
@@ -16,7 +8,6 @@ from llmwiki.domain.ledger.artifacts import (
     BlockedWriteDiagnosticArtifact,
     PortableArtifactMember,
     PortableArtifactSet,
-    ProjectionCoverageArtifact,
     build_blocked_write_diagnostic_artifact,
     build_claim_ledger_artifact,
     build_document_structure_artifact,
@@ -24,10 +15,10 @@ from llmwiki.domain.ledger.artifacts import (
     build_portable_artifact_set,
     build_projection_coverage_artifact,
     build_quality_check_catalog_artifact,
+    build_source_coverage_artifact,
 )
 from llmwiki.domain.ledger.builder import build_claim_ledger, default_schema_bundle
 from llmwiki.domain.ledger.canonical import canonical_json, deterministic_id
-from llmwiki.domain.ledger.ledger import ClaimLedger
 from llmwiki.domain.ledger.pointers import (
     claim_ledger_pointer,
     document_structure_pointer,
@@ -47,11 +38,20 @@ from llmwiki.domain.ledger.quality_catalog import (
     default_severity_policy,
 )
 from llmwiki.domain.ledger.renderer import render_source_page
-from llmwiki.domain.ledger.structure import DocumentStructure
-from llmwiki.domain.ledger.topic_render import render_topic_page
-from llmwiki.domain.ledger.topics import SourceTopic, build_topic_index, plan_source_topics
+from llmwiki.domain.ledger.section_pages import build_section_pages
+from llmwiki.domain.ledger.source_coverage import build_source_coverage
+from llmwiki.domain.ledger.topics import build_topic_index, plan_source_topics
 from llmwiki.domain.objects import Schema
-from llmwiki.domain.pages import PageMetadata, WikiPage, slugify
+from llmwiki.domain.pages import WikiPage, slugify
+from llmwiki.pdf.document import DocumentModel
+from llmwiki.runtime.document_model_segmentation import segment_document_model
+from llmwiki.runtime.ledger_pages import (
+    build_source_wiki_page,
+    build_topic_pages,
+    ledger_summary,
+    source_element_records,
+    source_title,
+)
 from llmwiki.runtime.ledger_segmentation import ChunkText, segment_chunks
 
 
@@ -75,14 +75,23 @@ def build_source_ledger(
     source_hash: str,
     evidence_registry_hash: str,
     chunks: tuple[ChunkText, ...],
+    document_model: DocumentModel | None = None,
     today: str,
     schema: Schema | None = None,
 ) -> SourceLedgerResult:
     resolved_schema = schema or Schema()
     bundle = default_schema_bundle()
-    inputs, profiles = segment_chunks(
-        chunks, source_locator=source_locator, source_hash=source_hash, schema=resolved_schema
-    )
+    if document_model is None:
+        inputs, profiles = segment_chunks(
+            chunks, source_locator=source_locator, source_hash=source_hash, schema=resolved_schema
+        )
+    else:
+        inputs, profiles = segment_document_model(
+            document_model,
+            source_locator=source_locator,
+            source_hash=source_hash,
+            schema=resolved_schema,
+        )
     built = build_claim_ledger(
         source_locator=source_locator,
         source_hash=source_hash,
@@ -118,9 +127,20 @@ def build_source_ledger(
             ledger_report_artifact.ledger_quality_report_fingerprint,
         ),
     )
+    source_coverage_artifact = None
+    if document_model is not None:
+        source_coverage = build_source_coverage(
+            source_locator=source_locator,
+            source_hash=source_hash,
+            elements=source_element_records(document_model),
+            segments=inputs,
+            ledger=ledger,
+            structure=structure,
+        )
+        source_coverage_artifact = build_source_coverage_artifact(source_coverage)
 
     page_id = slugify(source_locator.rsplit(".", 1)[0])
-    title = _title(source_locator, structure)
+    title = source_title(source_locator, structure)
     support = ProjectionSourceSupport(
         projection_source_support_id=deterministic_id(
             "projection-source-support", source_hash, ledger_artifact.claim_ledger_id
@@ -181,17 +201,24 @@ def build_source_ledger(
             ),
         )
     else:
-        topic_pages = _topic_pages(topics, ledger, page_id, source_locator, today)
-        wiki_page = _wiki_page(
+        topic_pages = build_topic_pages(topics, ledger, page_id, source_locator, today)
+        topic_pages += build_section_pages(
+            ledger,
+            structure,
+            source_page_id=page_id,
+            source_locator=source_locator,
+            today=today,
+        )
+        wiki_page = build_source_wiki_page(
             page_id,
             source_locator,
             title,
-            _summary(ledger, decision, len(topic_pages)),
+            ledger_summary(ledger, decision, len(topic_pages)),
             today,
             rendered.page_body,
             coverage_artifact,
         )
-    summary = _summary(ledger, decision, len(topic_pages))
+    summary = ledger_summary(ledger, decision, len(topic_pages))
 
     members = [
         _member(
@@ -225,6 +252,14 @@ def build_source_ledger(
             coverage_artifact.projection_coverage_fingerprint,
         ),
     ]
+    if source_coverage_artifact is not None:
+        members.append(
+            _member(
+                "source-coverage-artifact",
+                source_coverage_artifact.source_coverage_artifact_id,
+                source_coverage_artifact.source_coverage_fingerprint,
+            )
+        )
     artifact_files = {
         "document-structure.json": canonical_json(ds_artifact, indent=2),
         "claim-ledger.json": canonical_json(ledger_artifact, indent=2),
@@ -234,6 +269,8 @@ def build_source_ledger(
         "projection-coverage.json": canonical_json(coverage_artifact, indent=2),
         "topics.json": canonical_json(topic_index, indent=2),
     }
+    if source_coverage_artifact is not None:
+        artifact_files["source-coverage.json"] = canonical_json(source_coverage_artifact, indent=2)
     if blocked is not None:
         members.append(
             _member(
@@ -259,82 +296,5 @@ def build_source_ledger(
         summary=summary,
     )
 
-
-def _topic_pages(
-    topics: tuple[SourceTopic, ...],
-    ledger: ClaimLedger,
-    source_page_id: str,
-    source_locator: str,
-    today: str,
-) -> tuple[WikiPage, ...]:
-    pages: list[WikiPage] = []
-    for topic in topics:
-        topic_page_id = slugify(f"{source_page_id}-{topic.topic_key}")
-        rendered = render_topic_page(
-            topic, ledger, wiki_page_locator=topic_page_id, source_page_id=source_page_id
-        )
-        metadata = PageMetadata(
-            page_id=topic_page_id,
-            page_kind=topic.page_kind,
-            summary=(
-                f"{topic.label}: {len(topic.entry_ids)} statement(s) and "
-                f"{len(topic.atom_ids)} atom(s) from raw/{source_locator}."
-            ),
-            sources=(f"raw/{source_locator}",),
-            updated=today,
-            domain=source_page_id,
-            category_path=f"{topic.page_kind}s",
-            projection_coverage_pointer=f"topic-{topic_page_id}@{rendered.page_body_hash}",
-        )
-        pages.append(WikiPage.from_metadata(metadata, rendered.page_body))
-    return tuple(pages)
-
-
-def _wiki_page(
-    page_id: str,
-    source_locator: str,
-    title: str,
-    summary: str,
-    today: str,
-    page_body: str,
-    coverage_artifact: ProjectionCoverageArtifact,
-) -> WikiPage:
-    pointer = (
-        f"{coverage_artifact.projection_coverage_artifact_id}"
-        f"@{coverage_artifact.projection_coverage_fingerprint}"
-    )
-    metadata = PageMetadata(
-        page_id=page_id,
-        page_kind="source",
-        summary=summary,
-        sources=(f"raw/{source_locator}",),
-        updated=today,
-        domain=page_id,
-        category_path="sources",
-        source_id=source_locator,
-        projection_coverage_pointer=pointer,
-    )
-    return WikiPage.from_metadata(metadata, page_body)
-
-
 def _member(kind: str, target_id: str, fingerprint: str) -> PortableArtifactMember:
     return PortableArtifactMember(kind, target_id, fingerprint)
-
-
-def _title(source_locator: str, structure: DocumentStructure) -> str:
-    for node in structure.structure_nodes:
-        if node.structure_node_kind == "chapter" and node.heading_text.strip():
-            return node.heading_text.strip()
-    stem = source_locator.rsplit(".", 1)[0].replace("_", " ").replace("-", " ")
-    return stem.title()
-
-
-def _summary(ledger: ClaimLedger, decision: str, topic_count: int = 0) -> str:
-    usable = len(ledger.usable_entries)
-    atoms = len(ledger.technical_atoms)
-    review = len(ledger.needs_review_entries)
-    label = ledger.source_family_assignment.top_label
-    return (
-        f"Claim-ledger projection ({label}): {usable} usable entries, {atoms} technical atoms, "
-        f"{review} needs-review, {topic_count} topic page(s); write decision {decision}."
-    )

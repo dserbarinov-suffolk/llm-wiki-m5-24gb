@@ -10,7 +10,7 @@ source-facing labels; internal support ids never appear in the body.
 
 from __future__ import annotations
 
-from llmwiki.domain.ledger.atoms import AtomPayload, atom_raw_text
+from llmwiki.domain.ledger.atoms import AtomPayload, TablePayload, atom_raw_text
 from llmwiki.domain.ledger.canonical import deterministic_id, short_digest
 from llmwiki.domain.ledger.coverage import (
     PageBodyBuilder,
@@ -73,8 +73,42 @@ def atom_block(kind: str, payload: AtomPayload) -> str:
         language = getattr(payload, "language_tag", "") or ""
         return f"```{language}\n{raw}\n```"
     if kind == "table":
-        return f"```\n{raw}\n```"
+        return _table_block(payload) if isinstance(payload, TablePayload) else f"```\n{raw}\n```"
     return "\n".join(f"> {line}" for line in raw.splitlines()) or "> "
+
+
+def _table_block(payload: TablePayload) -> str:
+    logical = _markdown_table(payload)
+    raw = payload.raw_table_text
+    if not logical:
+        return f"```\n{raw}\n```"
+    raw_block = f"<details>\n<summary>Raw table text</summary>\n\n```\n{raw}\n```\n\n</details>"
+    return f"{logical}\n\n{raw_block}"
+
+
+def _markdown_table(payload: TablePayload) -> str:
+    if not payload.columns or not payload.rows or not payload.cells:
+        return ""
+    headers = [
+        _escape_table_cell(column.header_text or f"column {column.column_index + 1}")
+        for column in payload.columns
+    ]
+    by_cell = {(cell.row_index, cell.column_index): cell.value for cell in payload.cells}
+    lines = [
+        "| " + " | ".join(headers) + " |",
+        "| " + " | ".join("---" for _ in headers) + " |",
+    ]
+    for row in payload.rows:
+        values = [
+            _escape_table_cell(by_cell.get((row.row_index, column.column_index), ""))
+            for column in payload.columns
+        ]
+        lines.append("| " + " | ".join(values) + " |")
+    return "\n".join(lines)
+
+
+def _escape_table_cell(value: str) -> str:
+    return " ".join(value.replace("|", "\\|").split())
 
 
 def _render_review(

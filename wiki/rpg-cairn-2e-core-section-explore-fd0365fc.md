@@ -1,0 +1,24 @@
+---
+page_id: rpg-cairn-2e-core-section-explore-fd0365fc
+page_kind: source
+summary: Explore: 2 source-backed entries and 1 atom(s) from raw/rpg_cairn_2e_core.pdf.
+sources: raw/rpg_cairn_2e_core.pdf
+updated: 2026-06-26
+domain: rpg-cairn-2e-core
+category_path: sources/rpg-cairn-2e-core/sections
+source_id: rpg_cairn_2e_core.pdf
+projection_coverage: section-rpg-cairn-2e-core-section-explore-fd0365fc@9630ead2973373895b47840ddec8b11d
+---
+
+# Explore
+
+From [[rpg-cairn-2e-core]].
+
+## Statements
+
+- - A Location (shelter, village, cave, etc.) or Feature (geyser, underground river, beached ship, etc.) is discovered. _(rpg_cairn_2e_core.pdf (source-range-f6f3256b-00352))_
+
+## Technical atoms
+
+> - The Travel action is still required to leave the current area, even if it has been completely explored.
+_(source: rpg_cairn_2e_core.pdf (source-range-f6f3256b-00353))_

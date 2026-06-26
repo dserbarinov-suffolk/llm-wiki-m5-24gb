@@ -1,12 +1,12 @@
 ---
 page_id: history-short-history-of-england-king
 page_kind: concept
-summary: King: 99 statement(s) and 18 atom(s) from raw/history_short_history_of_england.pdf.
+summary: King: 100 statement(s) and 14 atom(s) from raw/history_short_history_of_england.pdf.
 sources: raw/history_short_history_of_england.pdf
 updated: 2026-06-26
 domain: history-short-history-of-england
 category_path: concepts
-projection_coverage: topic-history-short-history-of-england-king@1026e8a320b1c5a53cbded081dfda7f5
+projection_coverage: topic-history-short-history-of-england-king@e3ddc10c50ceeb6b8abc6f693a60632e
 ---
 
 # King
@@ -15,40 +15,40 @@ What [[history-short-history-of-england]] covers about king:
 
 ## Statements
 
-- The strong king was weak. _(history_short_history_of_england.pdf (source-range-e5a81de4-00305))_
+- The strong king was weak. _(history_short_history_of_england.pdf (source-range-e5a81de4-00303))_
 - Helena, and might have had a king named Cole. _(history_short_history_of_england.pdf (source-range-e5a81de4-00074))_
 - The King was already a thing-like the Republic. _(history_short_history_of_england.pdf (source-range-e5a81de4-00130))_
 - He was loyal to the kingdom he had not yet made. _(history_short_history_of_england.pdf (source-range-e5a81de4-00114))_
-- It can only be described as the strength of the weak kings. _(history_short_history_of_england.pdf (source-range-e5a81de4-00105))_
 - But if Ireland was not one kingdom it was in reality one bishopric. _(history_short_history_of_england.pdf (source-range-e5a81de4-00089))_
 - The King could not take Pentonville Prison about with him on wheels. _(history_short_history_of_england.pdf (source-range-e5a81de4-00195))_
 - What we call the Judges' circuits were first rather the King's raids. _(history_short_history_of_england.pdf (source-range-e5a81de4-00191))_
 - northern counties, seized Chester, and made rather than won a kingdom. _(history_short_history_of_england.pdf (source-range-e5a81de4-00122))_
-- a touch about him which makes him truly the last of the mediæval kings. _(history_short_history_of_england.pdf (source-range-e5a81de4-00277))_
+- a touch about him which makes him truly the last of the mediæval kings. _(history_short_history_of_england.pdf (source-range-e5a81de4-00276))_
 - For the victor was not then the king, but only the king's younger brother. _(history_short_history_of_england.pdf (source-range-e5a81de4-00096))_
-- The players need not have been "the king's servants," but their own masters. _(history_short_history_of_england.pdf (source-range-e5a81de4-00291))_
+- The players need not have been "the king's servants," but their own masters. _(history_short_history_of_england.pdf (source-range-e5a81de4-00290))_
 - Helena was not only a native of Colchester, but was a daughter of Old King Cole. _(history_short_history_of_england.pdf (source-range-e5a81de4-00074))_
-- The King is left behind in the rush for wealth, and already can do nothing alone. _(history_short_history_of_england.pdf (source-range-e5a81de4-00313))_
+- The King is left behind in the rush for wealth, and already can do nothing alone. _(history_short_history_of_england.pdf (source-range-e5a81de4-00311))_
+- He was stronger as master of the village, but actually weaker as agent of the King. _(history_short_history_of_england.pdf (source-range-e5a81de4-00358))_
 
-## Code, rules, and examples
+## Technical atoms
 
-> Let him suppose that his acquaintance with the ancient kings has only come to him as it came to most men in simpler times, from nursery tales, from the names of places, from the dedications of churches and charities, from the tales in the tavern, and the tombs in the churchyard.
-_(source: history_short_history_of_england.pdf (source-range-e5a81de4-00106))_
+> It is a joke the subtlety of which they would never have been able to enjoy, if King Brian had not broken the heathen in Ireland at the great Battle of Clontarf.
+_(source: history_short_history_of_england.pdf (source-range-e5a81de4-00060))_
+
+> To all mortal appearance, in all mortal records and experience, people seem to have killed or spared, married or refrained from marriage, made kings or made slaves, with reference to almost any other consideration except this one.
+_(source: history_short_history_of_england.pdf (source-range-e5a81de4-00083))_
+
+> The politics are a nightmare; the kings are unstable and the kingdoms shifting; and we are really never on solid ground except on consecrated ground.
+_(source: history_short_history_of_england.pdf (source-range-e5a81de4-00090))_
+
+> It can only be described as the strength of the weak kings.
+_(source: history_short_history_of_england.pdf (source-range-e5a81de4-00105))_
 
 > It is sometimes valuable to have enough imagination to unlearn as well as to learn. I would ask the reader to forget his reading and everything that he learnt at school, and consider the English monarchy as it would then appear to him. Let him suppose that his acquaintance with the ancient kings has only come to him as it came to most men in simpler times, from nursery tales, from the names of places, from the dedications of churches and charities, from the tales in the tavern, and the tombs in the churchyard. Let us suppose such a person going upon some open and ordinary English way, such as the Thames valley to Windsor, or visiting some old seats of culture, such as Oxford or Cambridge. One of the first things, for instance, he would find would be Eton, a place transformed, indeed, by modern aristocracy, but still enjoying its mediæval wealth and remembering its mediæval origin. If he asked about that origin, it is probable that even a public schoolboy would know enough history to tell him that it was founded by Henry VI. If he went to Cambridge and looked with his own eyes for the college chapel which artistically towers above all others like a cathedral, he would probably ask about it, and be told it was King's College. If he asked which king, he would again be told Henry VI. If he then went into the library and looked up Henry VI. in an encyclopædia, he would find that the legendary giant, who had left these gigantic works behind him, was in history an almost invisible pigmy. Amid the varying and contending numbers of a great national quarrel, he is the only cipher. The contending factions carry him about like a bale of goods. His desires do not seem to be even ascertained, far less satisfied. And yet his real desires are satisfied in stone and marble, in oak and gold, and remain through all the maddest revolutions of modern England, while all the ambitions of those who dictated to him have gone away like dust upon the wind.
 _(source: history_short_history_of_england.pdf (source-range-e5a81de4-00106))_
 
 > Chivalry might be called the baptism of Feudalism. It was an attempt to bring the justice and even the logic of the Catholic creed into a military system which already existed; to turn its discipline into an initiation and its inequalities into a hierarchy. To the comparative grace of the new period belongs, of course, that considerable cultus of the dignity of woman, to which the word "chivalry" is often narrowed, or perhaps exalted. This also was a revolt against one of the worst gaps in the more polished civilization of the Saracens. Moslems denied even souls to women; perhaps from the same instinct which recoiled from the sacred birth, with its inevitable glorification of the mother; perhaps merely because, having originally had tents rather than houses, they had slaves rather than housewives. It is false to say that the chivalric view of women was merely an affectation, except in the sense in which there must always be an affectation where there is an ideal. It is the worst sort of superficiality not to see the pressure of a general sentiment merely because it is always broken up by events; the Crusade itself, for example, is more present and potent as a dream even than as a reality. From the first Plantagenet to the last Lancastrian it haunts the minds of English kings, giving as a background to their battles a mirage of Palestine. So a devotion like that of Edward I. to his queen was quite a real motive in the lives of multitudes of his contemporaries. When crowds of enlightened tourists, setting forth to sneer at the superstitions of the continent, are taking tickets and labelling luggage at the large railway station at the west end of the Strand, I do not know whether they all speak to their wives with a more flowing courtesy than their fathers in Edward's time, or whether they pause to meditate on the legend of a husband's sorrow, to be found in the very name of Charing Cross. [Pg 68] [Pg 69]
 _(source: history_short_history_of_england.pdf (source-range-e5a81de4-00154))_
-
-> But it is a huge historical error to suppose that the Crusades concerned only that crust of society for which heraldry was an art and chivalry an etiquette. The direct contrary is the fact. The First Crusade especially was much more an unanimous popular rising than most that are called riots and revolutions. The Guilds, the great democratic systems of the time, often owed their increasing power to corporate fighting for the Cross; but I shall deal with such things later. Often it was not so much a levy of men as a trek of whole families, like new gipsies moving eastwards. And it has passed into a proverb that children by themselves often organized a crusade as they now organize a charade. But we shall best realize the fact by fancying every Crusade as a Children's Crusade. They were full of all that the modern world worships in children, because it has crushed it out of men. Their lives were full, as the rudest remains of their vulgarest arts are full, of something that we all saw out of the nursery window. It can best be seen later, for instance, in the lanced and latticed interiors of Memling, but it is ubiquitous in the older and more unconscious contemporary art; something that domesticated distant lands and made the horizon at home. They fitted into the corners of small houses the ends of the earth and the edges of the sky. Their perspective is rude and crazy, but it is perspective; it is not the decorative flatness of orientalism. In a word, their world, like a child's, is full of foreshortening, as of a short cut to fairyland. Their maps are more provocative than pictures. Their half-fabulous animals are monsters, and yet are pets. It is impossible to state verbally this very vivid atmosphere; but it was an atmosphere as well as an adventure. It was precisely these outlandish visions that truly came home to everybody; it was the royal councils and feudal quarrels that were comparatively remote. The Holy Land was much nearer to a plain man's house than Westminster, and immeasurably nearer than Runymede. To give a list of English kings and parliaments, without pausing for a moment upon this prodigious presence of a religious transfiguration in common life, is something the folly of which can but faintly be conveyed by a more modern parallel, with secularity and religion reversed. It is as if some Clericalist or Royalist writer should give a list of the Archbishops of Paris from 1750 to 1850, noting how one died of small-pox, another of old age, another by a curious accident of decapitation, and throughout all his record should never once mention the nature, or even the name, of the French Revolution.
-_(source: history_short_history_of_england.pdf (source-range-e5a81de4-00155))_
-
-> But it may be suggested, I think, though with the doubt proper to ignorance, that the Angevin ideal of the King's justice lost more by the death of St.
-_(source: history_short_history_of_england.pdf (source-range-e5a81de4-00179))_
-
-> It need not be repeated that the case for despotism is democratic. As a rule its cruelty to the strong is kindness to the weak. An autocrat cannot be judged as a historical character by his relations with other historical characters. His true applause comes not from the few actors on the lighted stage of aristocracy, but from that enormous audience which must always sit in darkness throughout the drama. The king who helps numberless helps nameless men, and when he flings his widest largesse he is a Christian doing good by stealth. This sort of monarchy was certainly a mediæval ideal, nor need it necessarily fail as a reality. French kings were never so merciful to the people as when they were merciless to the peers; and it is probably true that a Czar who was a great lord to his intimates was often a little father in innumerable little homes. It is overwhelmingly probable that such a central power, though it might at last have deserved destruction in England as in France, would in England as in France have prevented the few from seizing and holding all the wealth and power to this day. But in England it broke off short, through something of which the slaying of St. Thomas may well have been the supreme example. It was something overstrained and startling and against the instincts of the people. And of what was meant in the Middle Ages by that very powerful and rather peculiar thing, the people, I shall speak in the next chapter.
-_(source: history_short_history_of_england.pdf (source-range-e5a81de4-00180))_
 
 
 ## Source

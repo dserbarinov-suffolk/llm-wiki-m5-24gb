@@ -27,6 +27,7 @@ from llmwiki.domain.ledger.quality_catalog import (
     QualityFindingSeverityPolicy,
     ReasonApplicabilityPolicy,
 )
+from llmwiki.domain.ledger.source_coverage import SourceCoverage, source_coverage_id
 from llmwiki.domain.ledger.structure import DocumentStructure
 from llmwiki.domain.ledger.vocab import ARTIFACT_FORMAT
 
@@ -77,6 +78,14 @@ class ProjectionCoverageArtifact:
     ledger_quality_report_pointer: PortableArtifactPointer
     projection_source_support_set: tuple[ProjectionSourceSupport, ...]
     projection_coverage: ProjectionCoverage
+
+
+@dataclass(frozen=True)
+class SourceCoverageArtifact:
+    source_coverage_artifact_id: str
+    source_coverage_fingerprint: str
+    artifact_format: str
+    source_coverage: SourceCoverage
 
 
 @dataclass(frozen=True)
@@ -195,6 +204,17 @@ def build_projection_coverage_artifact(
         draft, exclude=("projection_coverage_fingerprint", "ledger_quality_report_pointer")
     )
     return replace(draft, projection_coverage_fingerprint=fingerprint)
+
+
+def build_source_coverage_artifact(coverage: SourceCoverage) -> SourceCoverageArtifact:
+    draft = SourceCoverageArtifact(
+        source_coverage_artifact_id=source_coverage_id(coverage),
+        source_coverage_fingerprint="",
+        artifact_format=ARTIFACT_FORMAT,
+        source_coverage=coverage,
+    )
+    fingerprint = artifact_fingerprint(draft, exclude=("source_coverage_fingerprint",))
+    return replace(draft, source_coverage_fingerprint=fingerprint)
 
 
 def build_blocked_write_diagnostic_artifact(

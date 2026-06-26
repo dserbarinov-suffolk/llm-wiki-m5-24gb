@@ -125,7 +125,7 @@ def _normalize(text: str) -> str:
 
 
 def _is_defined_term(text: str) -> bool:
-    tokens = tuple(token.lower() for token in _TOKEN.findall(text))
+    tokens = [token.lower() for token in _TOKEN.findall(text)]
     if not tokens or len(tokens) > 5:
         return False
     if any(token in _DEICTIC_OR_PRONOUN for token in tokens):

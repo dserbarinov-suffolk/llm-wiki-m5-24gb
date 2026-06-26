@@ -53,8 +53,9 @@ def document_model_from_docling_document(
         if not text and element_kind != "picture":
             continue
 
+        heading_level = _heading_level(item) if element_kind == "heading" else 0
         if element_kind == "heading":
-            level = _heading_level(item)
+            level = heading_level
             del heading_stack[level - 1 :]
             heading_stack.append(text)
             heading_path = " > ".join(heading_stack)
@@ -75,6 +76,7 @@ def document_model_from_docling_document(
                 page_end=page_end,
                 text=text,
                 markdown=markdown,
+                heading_level=heading_level,
             )
         )
 
@@ -126,16 +128,40 @@ def _item_text(item: Any) -> str:
 
 
 def _item_markdown(item: Any, element_kind: str, text: str) -> str:
+    exported = _exported_markdown(item)
     if not text:
-        return ""
+        return exported
     if element_kind == "heading":
         level = _heading_level(item)
         return f"{'#' * level} {text}"
     if element_kind == "code_block":
+        if _has_fence(exported):
+            return exported
         return f"```\n{text.rstrip()}\n```"
+    if element_kind == "table" and exported:
+        return exported
     if element_kind == "list_item" and not text.lstrip().startswith(("-", "*")):
         return f"- {text}"
     return text
+
+
+def _exported_markdown(item: Any) -> str:
+    for name in ("export_to_markdown", "to_markdown"):
+        export = getattr(item, name, None)
+        if not callable(export):
+            continue
+        try:
+            value = export()
+        except TypeError:
+            continue
+        if value is not None and str(value).strip():
+            return str(value).strip()
+    return ""
+
+
+def _has_fence(markdown: str) -> bool:
+    stripped = markdown.lstrip()
+    return stripped.startswith("```") or stripped.startswith("~~~")
 
 
 def _page_span(item: Any) -> tuple[int, int]:

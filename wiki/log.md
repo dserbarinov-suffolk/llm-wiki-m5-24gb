@@ -1,28 +1,49 @@
+---
+page_id: log
+page_kind: synthesis
+summary: Regenerated ingest operation log.
+updated: 2026-06-26
+category_path: navigation
+---
+
 # Log
+
 
 ## [2026-06-26] ingest | coding_little_go_book.pdf
 Claim-ledger ingest of raw/coding_little_go_book.pdf (65 chunk(s)).
-Claim-ledger projection (coding): 668 usable entries, 292 technical atoms, 102 needs-review, 32 topic page(s); write decision write-with-review-work.
-Source page: [[coding-little-go-book]]; topic pages: 32. Ledger artifacts: /Users/DSerbarinov/llm-wiki/harness/.cache/page-plans/coding-little-go-book-7e86805c7b90/ledger.
+Claim-ledger projection (coding): 664 usable entries, 163 technical atoms, 122 needs-review, 92 linked page(s); write decision write-with-review-work.
+Source page: [[coding-little-go-book]]; linked pages: 92. Ledger artifacts: /Users/DSerbarinov/llm-wiki/harness/.cache/page-plans/coding-little-go-book-7e86805c7b90/ledger.
 Ingest confidence: passed. Report filed as [[wiki-ingest-confidence]].
 
-## [2026-06-26] ingest | javascriptallonge.pdf
-Claim-ledger ingest of raw/javascriptallonge.pdf (209 chunk(s)).
-Claim-ledger projection (coding): 2051 usable entries, 1045 technical atoms, 317 needs-review, 32 topic page(s); write decision write-with-review-work.
-Source page: [[javascriptallonge]]; topic pages: 32. Ledger artifacts: /Users/DSerbarinov/llm-wiki/harness/.cache/page-plans/javascriptallonge-5873116c6496/ledger.
+## [2026-06-26] ingest | coding_learn_go_with_tests_excerpt.pdf
+Claim-ledger ingest of raw/coding_learn_go_with_tests_excerpt.pdf (134 chunk(s)).
+Claim-ledger projection (coding): 647 usable entries, 208 technical atoms, 90 needs-review, 155 linked page(s); write decision write-with-review-work.
+Source page: [[coding-learn-go-with-tests-excerpt]]; linked pages: 155. Ledger artifacts: /Users/DSerbarinov/llm-wiki/harness/.cache/page-plans/coding-learn-go-with-tests-excerpt-05cb2de8cb4f/ledger.
 Ingest confidence: passed. Report filed as [[wiki-ingest-confidence]].
 
 ## [2026-06-26] ingest | history_short_history_of_england.pdf
 Claim-ledger ingest of raw/history_short_history_of_england.pdf (49 chunk(s)).
-Claim-ledger projection (general-prose): 2295 usable entries, 244 technical atoms, 105 needs-review, 32 topic page(s); write decision write-with-review-work.
-Source page: [[history-short-history-of-england]]; topic pages: 32. Ledger artifacts: /Users/DSerbarinov/llm-wiki/harness/.cache/page-plans/history-short-history-of-england-204daea7b552/ledger.
+Claim-ledger projection (general-prose): 2321 usable entries, 147 technical atoms, 110 needs-review, 53 linked page(s); write decision write-with-review-work.
+Source page: [[history-short-history-of-england]]; linked pages: 53. Ledger artifacts: /Users/DSerbarinov/llm-wiki/harness/.cache/page-plans/history-short-history-of-england-204daea7b552/ledger.
+Ingest confidence: passed. Report filed as [[wiki-ingest-confidence]].
+
+## [2026-06-26] ingest | history_dickens_england_excerpt.pdf
+Claim-ledger ingest of raw/history_dickens_england_excerpt.pdf (18 chunk(s)).
+Claim-ledger projection (general-prose): 711 usable entries, 33 technical atoms, 39 needs-review, 43 linked page(s); write decision write-with-review-work.
+Source page: [[history-dickens-england-excerpt]]; linked pages: 43. Ledger artifacts: /Users/DSerbarinov/llm-wiki/harness/.cache/page-plans/history-dickens-england-excerpt-1590ccc36e9e/ledger.
 Ingest confidence: passed. Report filed as [[wiki-ingest-confidence]].
 
 ## [2026-06-26] ingest | rpg_cairn_2e_core.pdf
 Claim-ledger ingest of raw/rpg_cairn_2e_core.pdf (186 chunk(s)).
-Claim-ledger projection (general-prose): 815 usable entries, 217 technical atoms, 233 needs-review, 32 topic page(s); write decision write-with-review-work.
-Source page: [[rpg-cairn-2e-core]]; topic pages: 32. Ledger artifacts: /Users/DSerbarinov/llm-wiki/harness/.cache/page-plans/rpg-cairn-2e-core-fa06f8c4cd9f/ledger.
+Claim-ledger projection (general-prose): 655 usable entries, 119 technical atoms, 171 needs-review, 160 linked page(s); write decision write-with-review-work.
+Source page: [[rpg-cairn-2e-core]]; linked pages: 160. Ledger artifacts: /Users/DSerbarinov/llm-wiki/harness/.cache/page-plans/rpg-cairn-2e-core-fa06f8c4cd9f/ledger.
+Ingest confidence: passed. Report filed as [[wiki-ingest-confidence]].
+
+## [2026-06-26] ingest | rpg_dnd_srd_excerpt.pdf
+Claim-ledger ingest of raw/rpg_dnd_srd_excerpt.pdf (146 chunk(s)).
+Claim-ledger projection (general-prose): 739 usable entries, 57 technical atoms, 151 needs-review, 165 linked page(s); write decision write-with-review-work.
+Source page: [[rpg-dnd-srd-excerpt]]; linked pages: 165. Ledger artifacts: /Users/DSerbarinov/llm-wiki/harness/.cache/page-plans/rpg-dnd-srd-excerpt-f7c05ef0468a/ledger.
 Ingest confidence: passed. Report filed as [[wiki-ingest-confidence]].
 
 ## [2026-06-26] synthesize | cross-source
-Cross-source synthesis over 4 source(s): 2 concept/entity page(s), 0 blocked. Relations: agrees-with=2, conflicts-with=0, qualifies=0, supersedes=0.
+Cross-source synthesis over 6 source(s): 17 concept/entity page(s), 0 blocked. Relations: agrees-with=17, conflicts-with=0, qualifies=0, supersedes=0.

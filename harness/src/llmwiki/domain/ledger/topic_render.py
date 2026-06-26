@@ -51,7 +51,7 @@ def render_topic_page(
 
     rendered_atoms = [atom for atom in (ledger.atom(a) for a in topic.atom_ids) if atom is not None]
     if rendered_atoms:
-        body.add("\n## Code, rules, and examples\n\n")
+        body.add("\n## Technical atoms\n\n")
         for atom in rendered_atoms[:_MAX_ATOMS]:
             rendered = atom_block(atom.technical_atom_kind, atom.payload)
             citation = f"{atom.source_locator} ({atom.source_range_id})"

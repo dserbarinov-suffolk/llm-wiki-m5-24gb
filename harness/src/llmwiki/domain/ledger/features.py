@@ -16,6 +16,8 @@ from collections.abc import Callable
 
 from llmwiki.domain.ledger.canonical import deterministic_id
 from llmwiki.domain.ledger.extraction import ExtractedUnitProfile, FeatureSignal
+from llmwiki.domain.ledger.notation import is_formula_line
+from llmwiki.domain.ledger.tabular import row_marker_count
 
 _CODE_FENCE = re.compile(r"^\s*(```|~~~)")
 # Tokens that are rare in natural-language prose. Bare words like "class",
@@ -24,14 +26,6 @@ _CODE_FENCE = re.compile(r"^\s*(```|~~~)")
 _CODE_TOKEN = re.compile(
     r"=>|::=|:=|==|!=|\bfunc\s|\bfunction\s|\bdef\s|\bconst\s|\blet\s|\bvar\s"
     r"|\bimport\s|\bpackage\s|\)\s*\{|;\s*$|\}\s*$"
-)
-# A formula needs a real relation: an equation with operands on both sides, an
-# arithmetic expression between numbers, or recognised math notation — not a
-# bare signed token like "+2", which is layout, not a formula.
-_FORMULA = re.compile(
-    r"[A-Za-z0-9_)\]]\s*=\s*[-+]?[A-Za-z0-9_(\[]"
-    r"|\d+\s*[-+*/×÷]\s*\d+"
-    r"|\\frac|\\sum|≤|≥|∑|√"
 )
 _YEAR = re.compile(r"\b\d{3,4}\b|\bBCE?\b|\bAD\b|\bcentur\w+\b")
 _PROPER = re.compile(r"\b[A-Z][a-z]+(?:\s+[A-Z][a-z]+){0,3}\b")
@@ -53,6 +47,7 @@ _RELATION = re.compile(
     re.IGNORECASE,
 )
 _TABLE_PIPE = re.compile(r"\|.*\|")
+_FIGURE_PLACEHOLDER = re.compile(r"^\s*\[Figure\b", re.IGNORECASE)
 
 
 def profile_unit(
@@ -68,7 +63,8 @@ def profile_unit(
     measures = {
         "table-density": _table_density(lines, denom),
         "code-density": _code_density(text, lines, denom),
-        "formula-density": _fraction(lines, denom, _FORMULA.search),
+        "formula-density": _fraction(lines, denom, is_formula_line),
+        "figure-density": 1.0 if _FIGURE_PLACEHOLDER.search(text) else 0.0,
         "entity-date-density": _entity_date_density(text),
         "rule-language-density": _fraction(lines, denom, _DEONTIC.search),
         "procedure-density": _fraction(lines, denom, _STEP.match),
@@ -102,9 +98,8 @@ def _table_density(lines: list[str], denom: int) -> float:
     # Tab runs are layout whitespace in many extractors, so they are not a
     # reliable table signal. Pipe rows and runs of enumerated rows are.
     pipe = sum(1 for line in lines if _TABLE_PIPE.search(line))
-    enumerated = sum(1 for line in lines if re.match(r"^\s*(?:[-*]\s*)?\d+[\s.)]", line))
-    enumerated_run = enumerated if enumerated >= 3 else 0
-    return min((pipe * 2 + enumerated_run) / denom, 1.0)
+    sequence_run = row_marker_count("\n".join(lines))
+    return min((pipe * 2 + sequence_run) / denom, 1.0)
 
 
 def _code_density(text: str, lines: list[str], denom: int) -> float:
