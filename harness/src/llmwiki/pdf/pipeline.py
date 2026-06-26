@@ -27,6 +27,7 @@ from llmwiki.pdf.document import (
 from llmwiki.pdf.extractor import read_page_char_counts
 from llmwiki.pdf.manifest import ChunkRecord, Manifest, from_json, to_json
 from llmwiki.pdf.recognizer import TextRecognizer
+from llmwiki.pdf.table_extractor import enrich_document_model_with_tables
 
 _MANIFEST_FILE = "manifest.json"
 _DOCUMENT_MODEL_FILE = "document_model.json"
@@ -101,7 +102,9 @@ def ensure_extracted(
         )
 
     cache_dir.mkdir(parents=True, exist_ok=True)
-    document_model = document_extractor(pdf_path, source_rel, sha)
+    document_model = enrich_document_model_with_tables(
+        pdf_path, document_extractor(pdf_path, source_rel, sha)
+    )
     source_sections = build_source_sections(document_model)
     source_chunks = build_source_chunks(document_model, source_sections)
 

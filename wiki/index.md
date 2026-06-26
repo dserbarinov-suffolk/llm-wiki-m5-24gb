@@ -12,129 +12,129 @@ Regenerated ingest pages will be linked here by the ingest workflow.
 
 ## Sources
 - [[coding-learn-go-with-tests-excerpt]] — Claim-ledger projection (coding): 640 usable entries, 191 technical atoms, 92 needs-review, 155 linked page(s); write decision write-with-review-work.
-- [[coding-learn-go-with-tests-excerpt-section-a-few-new-concepts-c178ef7e]] — A few new concepts:: 10 source-backed entries and 0 atom(s) from raw/coding_learn_go_with_tests_excerpt.pdf.
-- [[coding-learn-go-with-tests-excerpt-section-a-note-on-source-control-d9d758ed]] — A note on source control: 4 source-backed entries and 0 atom(s) from raw/coding_learn_go_with_tests_excerpt.pdf.
-- [[coding-learn-go-with-tests-excerpt-section-arrays-and-slices-7e7de6a1]] — Arrays and slices: 3 source-backed entries and 1 atom(s) from raw/coding_learn_go_with_tests_excerpt.pdf.
-- [[coding-learn-go-with-tests-excerpt-section-arrays-and-their-type-48725459]] — Arrays and their type: 5 source-backed entries and 0 atom(s) from raw/coding_learn_go_with_tests_excerpt.pdf.
-- [[coding-learn-go-with-tests-excerpt-section-back-to-source-control-66c77751]] — Back to source control: 2 source-backed entries and 0 atom(s) from raw/coding_learn_go_with_tests_excerpt.pdf.
-- [[coding-learn-go-with-tests-excerpt-section-back-to-testing-06e54044]] — Back to Testing: 9 source-backed entries and 0 atom(s) from raw/coding_learn_go_with_tests_excerpt.pdf.
-- [[coding-learn-go-with-tests-excerpt-section-benchmarking-4c600dce]] — Benchmarking: 22 source-backed entries and 7 atom(s) from raw/coding_learn_go_with_tests_excerpt.pdf.
-- [[coding-learn-go-with-tests-excerpt-section-but-in-our-case-ff72941c]] — But in our case: 4 source-backed entries and 0 atom(s) from raw/coding_learn_go_with_tests_excerpt.pdf.
-- [[coding-learn-go-with-tests-excerpt-section-constants-1dfc8b98]] — Constants: 3 source-backed entries and 1 atom(s) from raw/coding_learn_go_with_tests_excerpt.pdf.
-- [[coding-learn-go-with-tests-excerpt-section-decoupling-fc31419e]] — Decoupling: 5 source-backed entries and 0 atom(s) from raw/coding_learn_go_with_tests_excerpt.pdf.
-- [[coding-learn-go-with-tests-excerpt-section-discipline-eb615e25]] — Discipline: 9 source-backed entries and 2 atom(s) from raw/coding_learn_go_with_tests_excerpt.pdf.
-- [[coding-learn-go-with-tests-excerpt-section-french-a5a88738]] — French: 2 source-backed entries and 2 atom(s) from raw/coding_learn_go_with_tests_excerpt.pdf.
-- [[coding-learn-go-with-tests-excerpt-section-further-refactoring-f0df60ab]] — Further refactoring: 14 source-backed entries and 2 atom(s) from raw/coding_learn_go_with_tests_excerpt.pdf.
-- [[coding-learn-go-with-tests-excerpt-section-go-modules-bf0b96ae]] — Go modules?: 15 source-backed entries and 3 atom(s) from raw/coding_learn_go_with_tests_excerpt.pdf.
-- [[coding-learn-go-with-tests-excerpt-section-go-s-documentation-94ede336]] — Go's documentation: 10 source-backed entries and 1 atom(s) from raw/coding_learn_go_with_tests_excerpt.pdf.
-- [[coding-learn-go-with-tests-excerpt-section-hello-world-again-798851da]] — Hello, world... again: 26 source-backed entries and 6 atom(s) from raw/coding_learn_go_with_tests_excerpt.pdf.
-- [[coding-learn-go-with-tests-excerpt-section-hello-you-29843999]] — Hello, YOU: 22 source-backed entries and 9 atom(s) from raw/coding_learn_go_with_tests_excerpt.pdf.
-- [[coding-learn-go-with-tests-excerpt-section-how-it-works-5712afc2]] — How it works: 5 source-backed entries and 0 atom(s) from raw/coding_learn_go_with_tests_excerpt.pdf.
-- [[coding-learn-go-with-tests-excerpt-section-how-to-test-2bf146e5]] — How to test: 7 source-backed entries and 2 atom(s) from raw/coding_learn_go_with_tests_excerpt.pdf.
-- [[coding-learn-go-with-tests-excerpt-section-keep-going-more-requirements-768a7df1]] — Keep going! More requirements: 18 source-backed entries and 9 atom(s) from raw/coding_learn_go_with_tests_excerpt.pdf.
-- [[coding-learn-go-with-tests-excerpt-section-learn-go-with-tests-excerpt-2821129a]] — Learn Go with Tests (Excerpt): 2 source-backed entries and 1 atom(s) from raw/coding_learn_go_with_tests_excerpt.pdf.
-- [[coding-learn-go-with-tests-excerpt-section-learn-go-with-tests-go-fundamentals-excerpt-e1991f8b]] — Learn Go with Tests -- Go Fundamentals (Excerpt): 1 source-backed entries and 0 atom(s) from raw/coding_learn_go_with_tests_excerpt.pdf.
-- [[coding-learn-go-with-tests-excerpt-section-make-sure-your-test-output-is-helpful-aefb418f]] — Make sure your test output is helpful: 13 source-backed entries and 2 atom(s) from raw/coding_learn_go_with_tests_excerpt.pdf.
-- [[coding-learn-go-with-tests-excerpt-section-note-on-declaring-a-new-error-for-update-cd3fdc89]] — Note on declaring a new error for Update: 4 source-backed entries and 1 atom(s) from raw/coding_learn_go_with_tests_excerpt.pdf.
-- [[coding-learn-go-with-tests-excerpt-section-one-last-refactor-5ef5139a]] — one...last...refactor?: 5 source-backed entries and 3 atom(s) from raw/coding_learn_go_with_tests_excerpt.pdf.
-- [[coding-learn-go-with-tests-excerpt-section-pointers-copies-et-al-70ac4baf]] — Pointers, copies, et al: 9 source-backed entries and 4 atom(s) from raw/coding_learn_go_with_tests_excerpt.pdf.
-- [[coding-learn-go-with-tests-excerpt-section-practice-exercises-6dda756c]] — Practice exercises: 4 source-backed entries and 0 atom(s) from raw/coding_learn_go_with_tests_excerpt.pdf.
-- [[coding-learn-go-with-tests-excerpt-section-refactor-04bcfcd2]] — Refactor: 11 source-backed entries and 1 atom(s) from raw/coding_learn_go_with_tests_excerpt.pdf.
-- [[coding-learn-go-with-tests-excerpt-section-refactor-0af2b631]] — Refactor: 10 source-backed entries and 2 atom(s) from raw/coding_learn_go_with_tests_excerpt.pdf.
-- [[coding-learn-go-with-tests-excerpt-section-refactor-2798a275]] — Refactor: 2 source-backed entries and 1 atom(s) from raw/coding_learn_go_with_tests_excerpt.pdf.
-- [[coding-learn-go-with-tests-excerpt-section-refactor-395f18c6]] — Refactor: 4 source-backed entries and 1 atom(s) from raw/coding_learn_go_with_tests_excerpt.pdf.
-- [[coding-learn-go-with-tests-excerpt-section-refactor-3aa3907e]] — Refactor: 17 source-backed entries and 4 atom(s) from raw/coding_learn_go_with_tests_excerpt.pdf.
-- [[coding-learn-go-with-tests-excerpt-section-refactor-41643346]] — Refactor: 2 source-backed entries and 1 atom(s) from raw/coding_learn_go_with_tests_excerpt.pdf.
-- [[coding-learn-go-with-tests-excerpt-section-refactor-78333dcf]] — Refactor: 5 source-backed entries and 2 atom(s) from raw/coding_learn_go_with_tests_excerpt.pdf.
-- [[coding-learn-go-with-tests-excerpt-section-refactor-916ed138]] — Refactor: 1 source-backed entries and 1 atom(s) from raw/coding_learn_go_with_tests_excerpt.pdf.
-- [[coding-learn-go-with-tests-excerpt-section-refactor-a767c259]] — Refactor: 2 source-backed entries and 1 atom(s) from raw/coding_learn_go_with_tests_excerpt.pdf.
-- [[coding-learn-go-with-tests-excerpt-section-refactor-b7a4ffa0]] — Refactor: 10 source-backed entries and 3 atom(s) from raw/coding_learn_go_with_tests_excerpt.pdf.
-- [[coding-learn-go-with-tests-excerpt-section-refactor-be1d0980]] — Refactor: 3 source-backed entries and 2 atom(s) from raw/coding_learn_go_with_tests_excerpt.pdf.
-- [[coding-learn-go-with-tests-excerpt-section-refactor-d634aa93]] — Refactor: 8 source-backed entries and 2 atom(s) from raw/coding_learn_go_with_tests_excerpt.pdf.
-- [[coding-learn-go-with-tests-excerpt-section-refactor-de84fbe5]] — Refactor: 5 source-backed entries and 2 atom(s) from raw/coding_learn_go_with_tests_excerpt.pdf.
-- [[coding-learn-go-with-tests-excerpt-section-refactor-f2dd23f1]] — Refactor: 15 source-backed entries and 3 atom(s) from raw/coding_learn_go_with_tests_excerpt.pdf.
-- [[coding-learn-go-with-tests-excerpt-section-switch-2276fa37]] — switch: 4 source-backed entries and 1 atom(s) from raw/coding_learn_go_with_tests_excerpt.pdf.
-- [[coding-learn-go-with-tests-excerpt-section-testable-examples-8c7bb6b5]] — Testable Examples: 27 source-backed entries and 4 atom(s) from raw/coding_learn_go_with_tests_excerpt.pdf.
-- [[coding-learn-go-with-tests-excerpt-section-the-tdd-process-and-why-the-steps-are-important-a4e2b7b6]] — The TDD process and why the steps are important: 5 source-backed entries and 0 atom(s) from raw/coding_learn_go_with_tests_excerpt.pdf.
-- [[coding-learn-go-with-tests-excerpt-section-try-and-run-the-test-05592bda]] — Try and run the test: 1 source-backed entries and 1 atom(s) from raw/coding_learn_go_with_tests_excerpt.pdf.
-- [[coding-learn-go-with-tests-excerpt-section-try-and-run-the-test-46ae52d8]] — Try and run the test: 1 source-backed entries and 1 atom(s) from raw/coding_learn_go_with_tests_excerpt.pdf.
-- [[coding-learn-go-with-tests-excerpt-section-try-and-run-the-test-9a9961c7]] — Try and run the test: 1 source-backed entries and 1 atom(s) from raw/coding_learn_go_with_tests_excerpt.pdf.
-- [[coding-learn-go-with-tests-excerpt-section-try-and-run-the-test-a15853a3]] — Try and run the test: 1 source-backed entries and 1 atom(s) from raw/coding_learn_go_with_tests_excerpt.pdf.
-- [[coding-learn-go-with-tests-excerpt-section-try-and-run-the-test-ab4c0099]] — Try and run the test: 1 source-backed entries and 1 atom(s) from raw/coding_learn_go_with_tests_excerpt.pdf.
-- [[coding-learn-go-with-tests-excerpt-section-try-and-run-the-test-c2095ccf]] — Try and run the test: 4 source-backed entries and 1 atom(s) from raw/coding_learn_go_with_tests_excerpt.pdf.
-- [[coding-learn-go-with-tests-excerpt-section-try-and-run-the-test-d938d768]] — Try and run the test: 1 source-backed entries and 1 atom(s) from raw/coding_learn_go_with_tests_excerpt.pdf.
-- [[coding-learn-go-with-tests-excerpt-section-try-and-run-the-test-df1c3c89]] — Try and run the test: 1 source-backed entries and 1 atom(s) from raw/coding_learn_go_with_tests_excerpt.pdf.
-- [[coding-learn-go-with-tests-excerpt-section-try-and-run-the-test-f1b8dc60]] — Try and run the test: 1 source-backed entries and 1 atom(s) from raw/coding_learn_go_with_tests_excerpt.pdf.
-- [[coding-learn-go-with-tests-excerpt-section-try-to-run-test-16a68083]] — Try to run test: 3 source-backed entries and 1 atom(s) from raw/coding_learn_go_with_tests_excerpt.pdf.
-- [[coding-learn-go-with-tests-excerpt-section-try-to-run-test-5e1e251b]] — Try to run test: 3 source-backed entries and 1 atom(s) from raw/coding_learn_go_with_tests_excerpt.pdf.
-- [[coding-learn-go-with-tests-excerpt-section-try-to-run-the-test-a83ac29d]] — Try to run the test: 6 source-backed entries and 0 atom(s) from raw/coding_learn_go_with_tests_excerpt.pdf.
-- [[coding-learn-go-with-tests-excerpt-section-try-to-run-the-test-b6afb9f3]] — Try to run the test: 1 source-backed entries and 1 atom(s) from raw/coding_learn_go_with_tests_excerpt.pdf.
-- [[coding-learn-go-with-tests-excerpt-section-try-to-run-the-test-cc641477]] — Try to run the test: 1 source-backed entries and 1 atom(s) from raw/coding_learn_go_with_tests_excerpt.pdf.
-- [[coding-learn-go-with-tests-excerpt-section-try-to-run-the-test-f4f7db55]] — Try to run the test: 1 source-backed entries and 1 atom(s) from raw/coding_learn_go_with_tests_excerpt.pdf.
-- [[coding-learn-go-with-tests-excerpt-section-try-to-run-the-test-fc6e6d20]] — Try to run the test: 1 source-backed entries and 0 atom(s) from raw/coding_learn_go_with_tests_excerpt.pdf.
-- [[coding-learn-go-with-tests-excerpt-section-using-a-custom-type-1af8b10f]] — Using a custom type: 9 source-backed entries and 3 atom(s) from raw/coding_learn_go_with_tests_excerpt.pdf.
-- [[coding-learn-go-with-tests-excerpt-section-wait-what-bc78288e]] — Wait, what?: 2 source-backed entries and 0 atom(s) from raw/coding_learn_go_with_tests_excerpt.pdf.
-- [[coding-learn-go-with-tests-excerpt-section-what-are-methods-8ae8f10f]] — What are methods?: 8 source-backed entries and 1 atom(s) from raw/coding_learn_go_with_tests_excerpt.pdf.
-- [[coding-learn-go-with-tests-excerpt-section-wrapping-up-239fe3ff]] — Wrapping up: 12 source-backed entries and 0 atom(s) from raw/coding_learn_go_with_tests_excerpt.pdf.
-- [[coding-learn-go-with-tests-excerpt-section-wrapping-up-8bccced9]] — Wrapping up: 9 source-backed entries and 2 atom(s) from raw/coding_learn_go_with_tests_excerpt.pdf.
-- [[coding-learn-go-with-tests-excerpt-section-wrapping-up-f4443ac5]] — Wrapping up: 1 source-backed entries and 0 atom(s) from raw/coding_learn_go_with_tests_excerpt.pdf.
-- [[coding-learn-go-with-tests-excerpt-section-write-enough-code-to-make-it-pass-011dcf21]] — Write enough code to make it pass: 4 source-backed entries and 1 atom(s) from raw/coding_learn_go_with_tests_excerpt.pdf.
-- [[coding-learn-go-with-tests-excerpt-section-write-enough-code-to-make-it-pass-05e7757f]] — Write enough code to make it pass: 4 source-backed entries and 2 atom(s) from raw/coding_learn_go_with_tests_excerpt.pdf.
-- [[coding-learn-go-with-tests-excerpt-section-write-enough-code-to-make-it-pass-16d67d9f]] — Write enough code to make it pass: 3 source-backed entries and 2 atom(s) from raw/coding_learn_go_with_tests_excerpt.pdf.
-- [[coding-learn-go-with-tests-excerpt-section-write-enough-code-to-make-it-pass-2129dba7]] — Write enough code to make it pass: 3 source-backed entries and 1 atom(s) from raw/coding_learn_go_with_tests_excerpt.pdf.
-- [[coding-learn-go-with-tests-excerpt-section-write-enough-code-to-make-it-pass-241d331d]] — Write enough code to make it pass: 5 source-backed entries and 2 atom(s) from raw/coding_learn_go_with_tests_excerpt.pdf.
-- [[coding-learn-go-with-tests-excerpt-section-write-enough-code-to-make-it-pass-261c923d]] — Write enough code to make it pass: 1 source-backed entries and 1 atom(s) from raw/coding_learn_go_with_tests_excerpt.pdf.
-- [[coding-learn-go-with-tests-excerpt-section-write-enough-code-to-make-it-pass-41bdbe13]] — Write enough code to make it pass: 5 source-backed entries and 3 atom(s) from raw/coding_learn_go_with_tests_excerpt.pdf.
-- [[coding-learn-go-with-tests-excerpt-section-write-enough-code-to-make-it-pass-4d1eb3ee]] — Write enough code to make it pass: 4 source-backed entries and 1 atom(s) from raw/coding_learn_go_with_tests_excerpt.pdf.
-- [[coding-learn-go-with-tests-excerpt-section-write-enough-code-to-make-it-pass-6847067f]] — Write enough code to make it pass: 1 source-backed entries and 0 atom(s) from raw/coding_learn_go_with_tests_excerpt.pdf.
-- [[coding-learn-go-with-tests-excerpt-section-write-enough-code-to-make-it-pass-829884c6]] — Write enough code to make it pass: 3 source-backed entries and 1 atom(s) from raw/coding_learn_go_with_tests_excerpt.pdf.
-- [[coding-learn-go-with-tests-excerpt-section-write-enough-code-to-make-it-pass-84dad405]] — Write enough code to make it pass: 4 source-backed entries and 2 atom(s) from raw/coding_learn_go_with_tests_excerpt.pdf.
-- [[coding-learn-go-with-tests-excerpt-section-write-enough-code-to-make-it-pass-8d6eccb2]] — Write enough code to make it pass: 3 source-backed entries and 2 atom(s) from raw/coding_learn_go_with_tests_excerpt.pdf.
-- [[coding-learn-go-with-tests-excerpt-section-write-enough-code-to-make-it-pass-956260a9]] — Write enough code to make it pass: 1 source-backed entries and 1 atom(s) from raw/coding_learn_go_with_tests_excerpt.pdf.
-- [[coding-learn-go-with-tests-excerpt-section-write-enough-code-to-make-it-pass-a58de4fa]] — Write enough code to make it pass: 4 source-backed entries and 2 atom(s) from raw/coding_learn_go_with_tests_excerpt.pdf.
-- [[coding-learn-go-with-tests-excerpt-section-write-enough-code-to-make-it-pass-aca4359b]] — Write enough code to make it pass: 2 source-backed entries and 1 atom(s) from raw/coding_learn_go_with_tests_excerpt.pdf.
-- [[coding-learn-go-with-tests-excerpt-section-write-enough-code-to-make-it-pass-aed59999]] — Write enough code to make it pass: 2 source-backed entries and 1 atom(s) from raw/coding_learn_go_with_tests_excerpt.pdf.
-- [[coding-learn-go-with-tests-excerpt-section-write-enough-code-to-make-it-pass-e73e9ffd]] — Write enough code to make it pass: 11 source-backed entries and 2 atom(s) from raw/coding_learn_go_with_tests_excerpt.pdf.
-- [[coding-learn-go-with-tests-excerpt-section-write-enough-code-to-make-it-pass-f8cf8def]] — Write enough code to make it pass: 2 source-backed entries and 1 atom(s) from raw/coding_learn_go_with_tests_excerpt.pdf.
-- [[coding-learn-go-with-tests-excerpt-section-write-minimal-amount-of-code-for-the-test-to-run-and-check-the-failing-t-a7756391]] — Write minimal amount of code for the test to run and check the failing test output: 3 source-backed entries and 1 atom(s) from raw/coding_learn_go_with_tests_excerpt.pdf.
-- [[coding-learn-go-with-tests-excerpt-section-write-the-minimal-amount-of-code-for-the-test-to-run-and-check-output-bc399103]] — Write the minimal amount of code for the test to run and check output: 1 source-backed entries and 1 atom(s) from raw/coding_learn_go_with_tests_excerpt.pdf.
-- [[coding-learn-go-with-tests-excerpt-section-write-the-minimal-amount-of-code-for-the-test-to-run-and-check-the-faili-088b62e3]] — Write the minimal amount of code for the test to run and check the failing test output: 11 source-backed entries and 5 atom(s) from raw/coding_learn_go_with_tests_excerpt.pdf.
-- [[coding-learn-go-with-tests-excerpt-section-write-the-minimal-amount-of-code-for-the-test-to-run-and-check-the-faili-0b9b6792]] — Write the minimal amount of code for the test to run and check the failing test output: 1 source-backed entries and 1 atom(s) from raw/coding_learn_go_with_tests_excerpt.pdf.
-- [[coding-learn-go-with-tests-excerpt-section-write-the-minimal-amount-of-code-for-the-test-to-run-and-check-the-faili-3cc40a6e]] — Write the minimal amount of code for the test to run and check the failing test output: 4 source-backed entries and 1 atom(s) from raw/coding_learn_go_with_tests_excerpt.pdf.
-- [[coding-learn-go-with-tests-excerpt-section-write-the-minimal-amount-of-code-for-the-test-to-run-and-check-the-faili-498e1008]] — Write the minimal amount of code for the test to run and check the failing test output: 4 source-backed entries and 1 atom(s) from raw/coding_learn_go_with_tests_excerpt.pdf.
-- [[coding-learn-go-with-tests-excerpt-section-write-the-minimal-amount-of-code-for-the-test-to-run-and-check-the-faili-7c741481]] — Write the minimal amount of code for the test to run and check the failing test output: 2 source-backed entries and 2 atom(s) from raw/coding_learn_go_with_tests_excerpt.pdf.
-- [[coding-learn-go-with-tests-excerpt-section-write-the-minimal-amount-of-code-for-the-test-to-run-and-check-the-faili-98a03e6e]] — Write the minimal amount of code for the test to run and check the failing test output: 1 source-backed entries and 1 atom(s) from raw/coding_learn_go_with_tests_excerpt.pdf.
-- [[coding-learn-go-with-tests-excerpt-section-write-the-minimal-amount-of-code-for-the-test-to-run-and-check-the-faili-996cd6e8]] — Write the minimal amount of code for the test to run and check the failing test output: 2 source-backed entries and 2 atom(s) from raw/coding_learn_go_with_tests_excerpt.pdf.
-- [[coding-learn-go-with-tests-excerpt-section-write-the-minimal-amount-of-code-for-the-test-to-run-and-check-the-faili-9cde6d98]] — Write the minimal amount of code for the test to run and check the failing test output: 11 source-backed entries and 3 atom(s) from raw/coding_learn_go_with_tests_excerpt.pdf.
-- [[coding-learn-go-with-tests-excerpt-section-write-the-minimal-amount-of-code-for-the-test-to-run-and-check-the-faili-cb0a62a4]] — Write the minimal amount of code for the test to run and check the failing test output: 6 source-backed entries and 2 atom(s) from raw/coding_learn_go_with_tests_excerpt.pdf.
-- [[coding-learn-go-with-tests-excerpt-section-write-the-minimal-amount-of-code-for-the-test-to-run-and-check-the-faili-ec91dda4]] — Write the minimal amount of code for the test to run and check the failing test output: 1 source-backed entries and 1 atom(s) from raw/coding_learn_go_with_tests_excerpt.pdf.
-- [[coding-learn-go-with-tests-excerpt-section-write-the-minimal-amount-of-code-for-the-test-to-run-and-check-the-faili-fa9a3b94]] — Write the minimal amount of code for the test to run and check the failing test output: 3 source-backed entries and 2 atom(s) from raw/coding_learn_go_with_tests_excerpt.pdf.
-- [[coding-learn-go-with-tests-excerpt-section-write-the-minimal-amount-of-code-for-the-test-to-run-and-check-the-faili-ff1f18aa]] — Write the minimal amount of code for the test to run and check the failing test output: 7 source-backed entries and 3 atom(s) from raw/coding_learn_go_with_tests_excerpt.pdf.
-- [[coding-learn-go-with-tests-excerpt-section-write-the-minimal-amount-of-code-for-the-test-to-run-and-check-the-outpu-15292236]] — Write the minimal amount of code for the test to run and check the output: 3 source-backed entries and 1 atom(s) from raw/coding_learn_go_with_tests_excerpt.pdf.
-- [[coding-learn-go-with-tests-excerpt-section-write-the-minimal-amount-of-code-for-the-test-to-run-and-check-the-outpu-a27c2022]] — Write the minimal amount of code for the test to run and check the output: 3 source-backed entries and 2 atom(s) from raw/coding_learn_go_with_tests_excerpt.pdf.
-- [[coding-learn-go-with-tests-excerpt-section-write-the-minimal-amount-of-code-for-the-test-to-run-and-check-the-outpu-ea9eefad]] — Write the minimal amount of code for the test to run and check the output: 1 source-backed entries and 1 atom(s) from raw/coding_learn_go_with_tests_excerpt.pdf.
-- [[coding-learn-go-with-tests-excerpt-section-write-the-test-first-04fede82]] — Write the test first: 3 source-backed entries and 1 atom(s) from raw/coding_learn_go_with_tests_excerpt.pdf.
-- [[coding-learn-go-with-tests-excerpt-section-write-the-test-first-1529dd00]] — Write the test first: 3 source-backed entries and 3 atom(s) from raw/coding_learn_go_with_tests_excerpt.pdf.
-- [[coding-learn-go-with-tests-excerpt-section-write-the-test-first-17bed1e9]] — Write the test first: 3 source-backed entries and 2 atom(s) from raw/coding_learn_go_with_tests_excerpt.pdf.
-- [[coding-learn-go-with-tests-excerpt-section-write-the-test-first-1b1d0071]] — Write the test first: 3 source-backed entries and 3 atom(s) from raw/coding_learn_go_with_tests_excerpt.pdf.
-- [[coding-learn-go-with-tests-excerpt-section-write-the-test-first-51aadc92]] — Write the test first: 1 source-backed entries and 1 atom(s) from raw/coding_learn_go_with_tests_excerpt.pdf.
-- [[coding-learn-go-with-tests-excerpt-section-write-the-test-first-5c035218]] — Write the test first: 5 source-backed entries and 1 atom(s) from raw/coding_learn_go_with_tests_excerpt.pdf.
-- [[coding-learn-go-with-tests-excerpt-section-write-the-test-first-6f5fa1cb]] — Write the test first: 13 source-backed entries and 2 atom(s) from raw/coding_learn_go_with_tests_excerpt.pdf.
-- [[coding-learn-go-with-tests-excerpt-section-write-the-test-first-768dd409]] — Write the test first: 1 source-backed entries and 1 atom(s) from raw/coding_learn_go_with_tests_excerpt.pdf.
-- [[coding-learn-go-with-tests-excerpt-section-write-the-test-first-817ee69f]] — Write the test first: 1 source-backed entries and 1 atom(s) from raw/coding_learn_go_with_tests_excerpt.pdf.
-- [[coding-learn-go-with-tests-excerpt-section-write-the-test-first-88a0b2fc]] — Write the test first: 4 source-backed entries and 1 atom(s) from raw/coding_learn_go_with_tests_excerpt.pdf.
-- [[coding-learn-go-with-tests-excerpt-section-write-the-test-first-9c23f988]] — Write the test first: 3 source-backed entries and 1 atom(s) from raw/coding_learn_go_with_tests_excerpt.pdf.
-- [[coding-learn-go-with-tests-excerpt-section-write-the-test-first-aecf52bd]] — Write the test first: 3 source-backed entries and 1 atom(s) from raw/coding_learn_go_with_tests_excerpt.pdf.
-- [[coding-learn-go-with-tests-excerpt-section-write-the-test-first-bfabd389]] — Write the test first: 3 source-backed entries and 2 atom(s) from raw/coding_learn_go_with_tests_excerpt.pdf.
-- [[coding-learn-go-with-tests-excerpt-section-write-the-test-first-c08008d3]] — Write the test first: 5 source-backed entries and 2 atom(s) from raw/coding_learn_go_with_tests_excerpt.pdf.
-- [[coding-learn-go-with-tests-excerpt-section-write-the-test-first-cb5814ed]] — Write the test first: 4 source-backed entries and 2 atom(s) from raw/coding_learn_go_with_tests_excerpt.pdf.
-- [[coding-learn-go-with-tests-excerpt-section-write-the-test-first-eb39ecc1]] — Write the test first: 9 source-backed entries and 1 atom(s) from raw/coding_learn_go_with_tests_excerpt.pdf.
-- [[coding-learn-go-with-tests-excerpt-section-write-the-test-first-ee6bb908]] — Write the test first: 1 source-backed entries and 1 atom(s) from raw/coding_learn_go_with_tests_excerpt.pdf.
-- [[coding-learn-go-with-tests-excerpt-section-you-can-find-all-the-code-for-this-chapter-here-1eaccf2b]] — You can find all the code for this chapter here: 4 source-backed entries and 0 atom(s) from raw/coding_learn_go_with_tests_excerpt.pdf.
-- [[coding-learn-go-with-tests-excerpt-section-you-can-find-all-the-code-for-this-chapter-here-4265824a]] — You can find all the code for this chapter here: 2 source-backed entries and 0 atom(s) from raw/coding_learn_go_with_tests_excerpt.pdf.
-- [[coding-learn-go-with-tests-excerpt-section-you-can-find-all-the-code-for-this-chapter-here-67a78d35]] — You can find all the code for this chapter here: 2 source-backed entries and 1 atom(s) from raw/coding_learn_go_with_tests_excerpt.pdf.
-- [[coding-learn-go-with-tests-excerpt-section-you-can-find-all-the-code-for-this-chapter-here-6ccdf085]] — You can find all the code for this chapter here: 6 source-backed entries and 1 atom(s) from raw/coding_learn_go_with_tests_excerpt.pdf.
-- [[coding-learn-go-with-tests-excerpt-section-you-can-find-all-the-code-for-this-chapter-here-cc97ec66]] — You can find all the code for this chapter here: 2 source-backed entries and 0 atom(s) from raw/coding_learn_go_with_tests_excerpt.pdf.
+- [[coding-learn-go-with-tests-excerpt-section-a-few-new-concepts-8c270741]] — A few new concepts:: 10 source-backed entries and 0 atom(s) from raw/coding_learn_go_with_tests_excerpt.pdf.
+- [[coding-learn-go-with-tests-excerpt-section-a-note-on-source-control-5d8c8acc]] — A note on source control: 4 source-backed entries and 0 atom(s) from raw/coding_learn_go_with_tests_excerpt.pdf.
+- [[coding-learn-go-with-tests-excerpt-section-arrays-and-slices-89b2cb31]] — Arrays and slices: 3 source-backed entries and 1 atom(s) from raw/coding_learn_go_with_tests_excerpt.pdf.
+- [[coding-learn-go-with-tests-excerpt-section-arrays-and-their-type-bdb248ec]] — Arrays and their type: 5 source-backed entries and 0 atom(s) from raw/coding_learn_go_with_tests_excerpt.pdf.
+- [[coding-learn-go-with-tests-excerpt-section-back-to-source-control-650f8383]] — Back to source control: 2 source-backed entries and 0 atom(s) from raw/coding_learn_go_with_tests_excerpt.pdf.
+- [[coding-learn-go-with-tests-excerpt-section-back-to-testing-0ececa35]] — Back to Testing: 9 source-backed entries and 0 atom(s) from raw/coding_learn_go_with_tests_excerpt.pdf.
+- [[coding-learn-go-with-tests-excerpt-section-benchmarking-ac57a00e]] — Benchmarking: 22 source-backed entries and 7 atom(s) from raw/coding_learn_go_with_tests_excerpt.pdf.
+- [[coding-learn-go-with-tests-excerpt-section-but-in-our-case-7be37732]] — But in our case: 4 source-backed entries and 0 atom(s) from raw/coding_learn_go_with_tests_excerpt.pdf.
+- [[coding-learn-go-with-tests-excerpt-section-constants-a90c7aac]] — Constants: 3 source-backed entries and 1 atom(s) from raw/coding_learn_go_with_tests_excerpt.pdf.
+- [[coding-learn-go-with-tests-excerpt-section-decoupling-557b2c04]] — Decoupling: 5 source-backed entries and 0 atom(s) from raw/coding_learn_go_with_tests_excerpt.pdf.
+- [[coding-learn-go-with-tests-excerpt-section-discipline-a2d0e4b5]] — Discipline: 9 source-backed entries and 2 atom(s) from raw/coding_learn_go_with_tests_excerpt.pdf.
+- [[coding-learn-go-with-tests-excerpt-section-french-d4cc93f5]] — French: 2 source-backed entries and 2 atom(s) from raw/coding_learn_go_with_tests_excerpt.pdf.
+- [[coding-learn-go-with-tests-excerpt-section-further-refactoring-aec1029b]] — Further refactoring: 14 source-backed entries and 2 atom(s) from raw/coding_learn_go_with_tests_excerpt.pdf.
+- [[coding-learn-go-with-tests-excerpt-section-go-modules-7321aa8b]] — Go modules?: 15 source-backed entries and 3 atom(s) from raw/coding_learn_go_with_tests_excerpt.pdf.
+- [[coding-learn-go-with-tests-excerpt-section-go-s-documentation-780dc052]] — Go's documentation: 10 source-backed entries and 1 atom(s) from raw/coding_learn_go_with_tests_excerpt.pdf.
+- [[coding-learn-go-with-tests-excerpt-section-hello-world-again-0b7e58cb]] — Hello, world... again: 26 source-backed entries and 6 atom(s) from raw/coding_learn_go_with_tests_excerpt.pdf.
+- [[coding-learn-go-with-tests-excerpt-section-hello-you-9ea1e330]] — Hello, YOU: 22 source-backed entries and 9 atom(s) from raw/coding_learn_go_with_tests_excerpt.pdf.
+- [[coding-learn-go-with-tests-excerpt-section-how-it-works-d6529d14]] — How it works: 5 source-backed entries and 0 atom(s) from raw/coding_learn_go_with_tests_excerpt.pdf.
+- [[coding-learn-go-with-tests-excerpt-section-how-to-test-e6aaf38a]] — How to test: 7 source-backed entries and 2 atom(s) from raw/coding_learn_go_with_tests_excerpt.pdf.
+- [[coding-learn-go-with-tests-excerpt-section-keep-going-more-requirements-ecf6ea01]] — Keep going! More requirements: 18 source-backed entries and 9 atom(s) from raw/coding_learn_go_with_tests_excerpt.pdf.
+- [[coding-learn-go-with-tests-excerpt-section-learn-go-with-tests-excerpt-2449fc4e]] — Learn Go with Tests (Excerpt): 2 source-backed entries and 1 atom(s) from raw/coding_learn_go_with_tests_excerpt.pdf.
+- [[coding-learn-go-with-tests-excerpt-section-learn-go-with-tests-go-fundamentals-excerpt-0660b8aa]] — Learn Go with Tests -- Go Fundamentals (Excerpt): 1 source-backed entries and 0 atom(s) from raw/coding_learn_go_with_tests_excerpt.pdf.
+- [[coding-learn-go-with-tests-excerpt-section-make-sure-your-test-output-is-helpful-03a9d627]] — Make sure your test output is helpful: 13 source-backed entries and 2 atom(s) from raw/coding_learn_go_with_tests_excerpt.pdf.
+- [[coding-learn-go-with-tests-excerpt-section-note-on-declaring-a-new-error-for-update-4686df04]] — Note on declaring a new error for Update: 4 source-backed entries and 1 atom(s) from raw/coding_learn_go_with_tests_excerpt.pdf.
+- [[coding-learn-go-with-tests-excerpt-section-one-last-refactor-22826586]] — one...last...refactor?: 5 source-backed entries and 3 atom(s) from raw/coding_learn_go_with_tests_excerpt.pdf.
+- [[coding-learn-go-with-tests-excerpt-section-pointers-copies-et-al-29027b18]] — Pointers, copies, et al: 9 source-backed entries and 4 atom(s) from raw/coding_learn_go_with_tests_excerpt.pdf.
+- [[coding-learn-go-with-tests-excerpt-section-practice-exercises-525ac4ca]] — Practice exercises: 4 source-backed entries and 0 atom(s) from raw/coding_learn_go_with_tests_excerpt.pdf.
+- [[coding-learn-go-with-tests-excerpt-section-refactor-0ce1ff47]] — Refactor: 17 source-backed entries and 4 atom(s) from raw/coding_learn_go_with_tests_excerpt.pdf.
+- [[coding-learn-go-with-tests-excerpt-section-refactor-16363708]] — Refactor: 10 source-backed entries and 2 atom(s) from raw/coding_learn_go_with_tests_excerpt.pdf.
+- [[coding-learn-go-with-tests-excerpt-section-refactor-1c8e9d48]] — Refactor: 2 source-backed entries and 1 atom(s) from raw/coding_learn_go_with_tests_excerpt.pdf.
+- [[coding-learn-go-with-tests-excerpt-section-refactor-231728a3]] — Refactor: 5 source-backed entries and 2 atom(s) from raw/coding_learn_go_with_tests_excerpt.pdf.
+- [[coding-learn-go-with-tests-excerpt-section-refactor-5b6dab73]] — Refactor: 3 source-backed entries and 2 atom(s) from raw/coding_learn_go_with_tests_excerpt.pdf.
+- [[coding-learn-go-with-tests-excerpt-section-refactor-704eb382]] — Refactor: 4 source-backed entries and 1 atom(s) from raw/coding_learn_go_with_tests_excerpt.pdf.
+- [[coding-learn-go-with-tests-excerpt-section-refactor-9014260b]] — Refactor: 5 source-backed entries and 2 atom(s) from raw/coding_learn_go_with_tests_excerpt.pdf.
+- [[coding-learn-go-with-tests-excerpt-section-refactor-a3663517]] — Refactor: 11 source-backed entries and 1 atom(s) from raw/coding_learn_go_with_tests_excerpt.pdf.
+- [[coding-learn-go-with-tests-excerpt-section-refactor-aebd5907]] — Refactor: 8 source-backed entries and 2 atom(s) from raw/coding_learn_go_with_tests_excerpt.pdf.
+- [[coding-learn-go-with-tests-excerpt-section-refactor-b13c8f45]] — Refactor: 15 source-backed entries and 3 atom(s) from raw/coding_learn_go_with_tests_excerpt.pdf.
+- [[coding-learn-go-with-tests-excerpt-section-refactor-b43a3802]] — Refactor: 2 source-backed entries and 1 atom(s) from raw/coding_learn_go_with_tests_excerpt.pdf.
+- [[coding-learn-go-with-tests-excerpt-section-refactor-c3c2298d]] — Refactor: 10 source-backed entries and 3 atom(s) from raw/coding_learn_go_with_tests_excerpt.pdf.
+- [[coding-learn-go-with-tests-excerpt-section-refactor-cff091c4]] — Refactor: 2 source-backed entries and 1 atom(s) from raw/coding_learn_go_with_tests_excerpt.pdf.
+- [[coding-learn-go-with-tests-excerpt-section-refactor-f8ea95a0]] — Refactor: 1 source-backed entries and 1 atom(s) from raw/coding_learn_go_with_tests_excerpt.pdf.
+- [[coding-learn-go-with-tests-excerpt-section-switch-759e609c]] — switch: 4 source-backed entries and 1 atom(s) from raw/coding_learn_go_with_tests_excerpt.pdf.
+- [[coding-learn-go-with-tests-excerpt-section-testable-examples-92bba1d7]] — Testable Examples: 27 source-backed entries and 4 atom(s) from raw/coding_learn_go_with_tests_excerpt.pdf.
+- [[coding-learn-go-with-tests-excerpt-section-the-tdd-process-and-why-the-steps-are-important-440ff1e8]] — The TDD process and why the steps are important: 5 source-backed entries and 0 atom(s) from raw/coding_learn_go_with_tests_excerpt.pdf.
+- [[coding-learn-go-with-tests-excerpt-section-try-and-run-the-test-339d9287]] — Try and run the test: 1 source-backed entries and 1 atom(s) from raw/coding_learn_go_with_tests_excerpt.pdf.
+- [[coding-learn-go-with-tests-excerpt-section-try-and-run-the-test-3eedff50]] — Try and run the test: 1 source-backed entries and 1 atom(s) from raw/coding_learn_go_with_tests_excerpt.pdf.
+- [[coding-learn-go-with-tests-excerpt-section-try-and-run-the-test-8db944f7]] — Try and run the test: 4 source-backed entries and 1 atom(s) from raw/coding_learn_go_with_tests_excerpt.pdf.
+- [[coding-learn-go-with-tests-excerpt-section-try-and-run-the-test-aecd47e4]] — Try and run the test: 1 source-backed entries and 1 atom(s) from raw/coding_learn_go_with_tests_excerpt.pdf.
+- [[coding-learn-go-with-tests-excerpt-section-try-and-run-the-test-b9b96970]] — Try and run the test: 1 source-backed entries and 1 atom(s) from raw/coding_learn_go_with_tests_excerpt.pdf.
+- [[coding-learn-go-with-tests-excerpt-section-try-and-run-the-test-d5e28c03]] — Try and run the test: 1 source-backed entries and 1 atom(s) from raw/coding_learn_go_with_tests_excerpt.pdf.
+- [[coding-learn-go-with-tests-excerpt-section-try-and-run-the-test-e5555b3d]] — Try and run the test: 1 source-backed entries and 1 atom(s) from raw/coding_learn_go_with_tests_excerpt.pdf.
+- [[coding-learn-go-with-tests-excerpt-section-try-and-run-the-test-ec14348e]] — Try and run the test: 1 source-backed entries and 1 atom(s) from raw/coding_learn_go_with_tests_excerpt.pdf.
+- [[coding-learn-go-with-tests-excerpt-section-try-and-run-the-test-f20fd8d1]] — Try and run the test: 1 source-backed entries and 1 atom(s) from raw/coding_learn_go_with_tests_excerpt.pdf.
+- [[coding-learn-go-with-tests-excerpt-section-try-to-run-test-26c3b278]] — Try to run test: 3 source-backed entries and 1 atom(s) from raw/coding_learn_go_with_tests_excerpt.pdf.
+- [[coding-learn-go-with-tests-excerpt-section-try-to-run-test-930d7e26]] — Try to run test: 3 source-backed entries and 1 atom(s) from raw/coding_learn_go_with_tests_excerpt.pdf.
+- [[coding-learn-go-with-tests-excerpt-section-try-to-run-the-test-2c588e56]] — Try to run the test: 1 source-backed entries and 1 atom(s) from raw/coding_learn_go_with_tests_excerpt.pdf.
+- [[coding-learn-go-with-tests-excerpt-section-try-to-run-the-test-3255d2a8]] — Try to run the test: 1 source-backed entries and 1 atom(s) from raw/coding_learn_go_with_tests_excerpt.pdf.
+- [[coding-learn-go-with-tests-excerpt-section-try-to-run-the-test-471c6d6d]] — Try to run the test: 6 source-backed entries and 0 atom(s) from raw/coding_learn_go_with_tests_excerpt.pdf.
+- [[coding-learn-go-with-tests-excerpt-section-try-to-run-the-test-489aba96]] — Try to run the test: 1 source-backed entries and 0 atom(s) from raw/coding_learn_go_with_tests_excerpt.pdf.
+- [[coding-learn-go-with-tests-excerpt-section-try-to-run-the-test-556a3bb3]] — Try to run the test: 1 source-backed entries and 1 atom(s) from raw/coding_learn_go_with_tests_excerpt.pdf.
+- [[coding-learn-go-with-tests-excerpt-section-using-a-custom-type-868013d5]] — Using a custom type: 9 source-backed entries and 3 atom(s) from raw/coding_learn_go_with_tests_excerpt.pdf.
+- [[coding-learn-go-with-tests-excerpt-section-wait-what-0ea8d00a]] — Wait, what?: 2 source-backed entries and 0 atom(s) from raw/coding_learn_go_with_tests_excerpt.pdf.
+- [[coding-learn-go-with-tests-excerpt-section-what-are-methods-bcfba369]] — What are methods?: 8 source-backed entries and 1 atom(s) from raw/coding_learn_go_with_tests_excerpt.pdf.
+- [[coding-learn-go-with-tests-excerpt-section-wrapping-up-4cb58ca7]] — Wrapping up: 9 source-backed entries and 2 atom(s) from raw/coding_learn_go_with_tests_excerpt.pdf.
+- [[coding-learn-go-with-tests-excerpt-section-wrapping-up-c35384be]] — Wrapping up: 1 source-backed entries and 0 atom(s) from raw/coding_learn_go_with_tests_excerpt.pdf.
+- [[coding-learn-go-with-tests-excerpt-section-wrapping-up-f03375de]] — Wrapping up: 12 source-backed entries and 0 atom(s) from raw/coding_learn_go_with_tests_excerpt.pdf.
+- [[coding-learn-go-with-tests-excerpt-section-write-enough-code-to-make-it-pass-12e9642e]] — Write enough code to make it pass: 5 source-backed entries and 3 atom(s) from raw/coding_learn_go_with_tests_excerpt.pdf.
+- [[coding-learn-go-with-tests-excerpt-section-write-enough-code-to-make-it-pass-1c8532c4]] — Write enough code to make it pass: 3 source-backed entries and 1 atom(s) from raw/coding_learn_go_with_tests_excerpt.pdf.
+- [[coding-learn-go-with-tests-excerpt-section-write-enough-code-to-make-it-pass-24b0c6dc]] — Write enough code to make it pass: 4 source-backed entries and 2 atom(s) from raw/coding_learn_go_with_tests_excerpt.pdf.
+- [[coding-learn-go-with-tests-excerpt-section-write-enough-code-to-make-it-pass-458aa742]] — Write enough code to make it pass: 5 source-backed entries and 2 atom(s) from raw/coding_learn_go_with_tests_excerpt.pdf.
+- [[coding-learn-go-with-tests-excerpt-section-write-enough-code-to-make-it-pass-4adb92e0]] — Write enough code to make it pass: 3 source-backed entries and 2 atom(s) from raw/coding_learn_go_with_tests_excerpt.pdf.
+- [[coding-learn-go-with-tests-excerpt-section-write-enough-code-to-make-it-pass-4e5993b0]] — Write enough code to make it pass: 1 source-backed entries and 1 atom(s) from raw/coding_learn_go_with_tests_excerpt.pdf.
+- [[coding-learn-go-with-tests-excerpt-section-write-enough-code-to-make-it-pass-5b35a970]] — Write enough code to make it pass: 11 source-backed entries and 2 atom(s) from raw/coding_learn_go_with_tests_excerpt.pdf.
+- [[coding-learn-go-with-tests-excerpt-section-write-enough-code-to-make-it-pass-5b513d8d]] — Write enough code to make it pass: 3 source-backed entries and 1 atom(s) from raw/coding_learn_go_with_tests_excerpt.pdf.
+- [[coding-learn-go-with-tests-excerpt-section-write-enough-code-to-make-it-pass-5c1065b6]] — Write enough code to make it pass: 1 source-backed entries and 0 atom(s) from raw/coding_learn_go_with_tests_excerpt.pdf.
+- [[coding-learn-go-with-tests-excerpt-section-write-enough-code-to-make-it-pass-710387c3]] — Write enough code to make it pass: 2 source-backed entries and 1 atom(s) from raw/coding_learn_go_with_tests_excerpt.pdf.
+- [[coding-learn-go-with-tests-excerpt-section-write-enough-code-to-make-it-pass-94f1f849]] — Write enough code to make it pass: 2 source-backed entries and 1 atom(s) from raw/coding_learn_go_with_tests_excerpt.pdf.
+- [[coding-learn-go-with-tests-excerpt-section-write-enough-code-to-make-it-pass-af8ee9f2]] — Write enough code to make it pass: 4 source-backed entries and 1 atom(s) from raw/coding_learn_go_with_tests_excerpt.pdf.
+- [[coding-learn-go-with-tests-excerpt-section-write-enough-code-to-make-it-pass-cd1e0fb7]] — Write enough code to make it pass: 3 source-backed entries and 2 atom(s) from raw/coding_learn_go_with_tests_excerpt.pdf.
+- [[coding-learn-go-with-tests-excerpt-section-write-enough-code-to-make-it-pass-d6da1570]] — Write enough code to make it pass: 4 source-backed entries and 2 atom(s) from raw/coding_learn_go_with_tests_excerpt.pdf.
+- [[coding-learn-go-with-tests-excerpt-section-write-enough-code-to-make-it-pass-e916bffa]] — Write enough code to make it pass: 4 source-backed entries and 1 atom(s) from raw/coding_learn_go_with_tests_excerpt.pdf.
+- [[coding-learn-go-with-tests-excerpt-section-write-enough-code-to-make-it-pass-e99e0c6b]] — Write enough code to make it pass: 1 source-backed entries and 1 atom(s) from raw/coding_learn_go_with_tests_excerpt.pdf.
+- [[coding-learn-go-with-tests-excerpt-section-write-enough-code-to-make-it-pass-edbf711e]] — Write enough code to make it pass: 4 source-backed entries and 2 atom(s) from raw/coding_learn_go_with_tests_excerpt.pdf.
+- [[coding-learn-go-with-tests-excerpt-section-write-enough-code-to-make-it-pass-f6be49d5]] — Write enough code to make it pass: 2 source-backed entries and 1 atom(s) from raw/coding_learn_go_with_tests_excerpt.pdf.
+- [[coding-learn-go-with-tests-excerpt-section-write-minimal-amount-of-code-for-the-test-to-run-and-check-the-failing-t-43d3a45a]] — Write minimal amount of code for the test to run and check the failing test output: 3 source-backed entries and 1 atom(s) from raw/coding_learn_go_with_tests_excerpt.pdf.
+- [[coding-learn-go-with-tests-excerpt-section-write-the-minimal-amount-of-code-for-the-test-to-run-and-check-output-182ae343]] — Write the minimal amount of code for the test to run and check output: 1 source-backed entries and 1 atom(s) from raw/coding_learn_go_with_tests_excerpt.pdf.
+- [[coding-learn-go-with-tests-excerpt-section-write-the-minimal-amount-of-code-for-the-test-to-run-and-check-the-faili-0f97ef75]] — Write the minimal amount of code for the test to run and check the failing test output: 2 source-backed entries and 2 atom(s) from raw/coding_learn_go_with_tests_excerpt.pdf.
+- [[coding-learn-go-with-tests-excerpt-section-write-the-minimal-amount-of-code-for-the-test-to-run-and-check-the-faili-22503d34]] — Write the minimal amount of code for the test to run and check the failing test output: 1 source-backed entries and 1 atom(s) from raw/coding_learn_go_with_tests_excerpt.pdf.
+- [[coding-learn-go-with-tests-excerpt-section-write-the-minimal-amount-of-code-for-the-test-to-run-and-check-the-faili-3c02637c]] — Write the minimal amount of code for the test to run and check the failing test output: 3 source-backed entries and 2 atom(s) from raw/coding_learn_go_with_tests_excerpt.pdf.
+- [[coding-learn-go-with-tests-excerpt-section-write-the-minimal-amount-of-code-for-the-test-to-run-and-check-the-faili-66d2dcb5]] — Write the minimal amount of code for the test to run and check the failing test output: 2 source-backed entries and 2 atom(s) from raw/coding_learn_go_with_tests_excerpt.pdf.
+- [[coding-learn-go-with-tests-excerpt-section-write-the-minimal-amount-of-code-for-the-test-to-run-and-check-the-faili-8416a524]] — Write the minimal amount of code for the test to run and check the failing test output: 1 source-backed entries and 1 atom(s) from raw/coding_learn_go_with_tests_excerpt.pdf.
+- [[coding-learn-go-with-tests-excerpt-section-write-the-minimal-amount-of-code-for-the-test-to-run-and-check-the-faili-8b8b9577]] — Write the minimal amount of code for the test to run and check the failing test output: 7 source-backed entries and 3 atom(s) from raw/coding_learn_go_with_tests_excerpt.pdf.
+- [[coding-learn-go-with-tests-excerpt-section-write-the-minimal-amount-of-code-for-the-test-to-run-and-check-the-faili-afe1e3fb]] — Write the minimal amount of code for the test to run and check the failing test output: 1 source-backed entries and 1 atom(s) from raw/coding_learn_go_with_tests_excerpt.pdf.
+- [[coding-learn-go-with-tests-excerpt-section-write-the-minimal-amount-of-code-for-the-test-to-run-and-check-the-faili-ba4b7ae7]] — Write the minimal amount of code for the test to run and check the failing test output: 11 source-backed entries and 3 atom(s) from raw/coding_learn_go_with_tests_excerpt.pdf.
+- [[coding-learn-go-with-tests-excerpt-section-write-the-minimal-amount-of-code-for-the-test-to-run-and-check-the-faili-bb032858]] — Write the minimal amount of code for the test to run and check the failing test output: 4 source-backed entries and 1 atom(s) from raw/coding_learn_go_with_tests_excerpt.pdf.
+- [[coding-learn-go-with-tests-excerpt-section-write-the-minimal-amount-of-code-for-the-test-to-run-and-check-the-faili-cbdd218c]] — Write the minimal amount of code for the test to run and check the failing test output: 11 source-backed entries and 5 atom(s) from raw/coding_learn_go_with_tests_excerpt.pdf.
+- [[coding-learn-go-with-tests-excerpt-section-write-the-minimal-amount-of-code-for-the-test-to-run-and-check-the-faili-e35a76db]] — Write the minimal amount of code for the test to run and check the failing test output: 4 source-backed entries and 1 atom(s) from raw/coding_learn_go_with_tests_excerpt.pdf.
+- [[coding-learn-go-with-tests-excerpt-section-write-the-minimal-amount-of-code-for-the-test-to-run-and-check-the-faili-f3964bca]] — Write the minimal amount of code for the test to run and check the failing test output: 6 source-backed entries and 2 atom(s) from raw/coding_learn_go_with_tests_excerpt.pdf.
+- [[coding-learn-go-with-tests-excerpt-section-write-the-minimal-amount-of-code-for-the-test-to-run-and-check-the-outpu-6523b113]] — Write the minimal amount of code for the test to run and check the output: 1 source-backed entries and 1 atom(s) from raw/coding_learn_go_with_tests_excerpt.pdf.
+- [[coding-learn-go-with-tests-excerpt-section-write-the-minimal-amount-of-code-for-the-test-to-run-and-check-the-outpu-b3169f21]] — Write the minimal amount of code for the test to run and check the output: 3 source-backed entries and 1 atom(s) from raw/coding_learn_go_with_tests_excerpt.pdf.
+- [[coding-learn-go-with-tests-excerpt-section-write-the-minimal-amount-of-code-for-the-test-to-run-and-check-the-outpu-c01551e5]] — Write the minimal amount of code for the test to run and check the output: 3 source-backed entries and 2 atom(s) from raw/coding_learn_go_with_tests_excerpt.pdf.
+- [[coding-learn-go-with-tests-excerpt-section-write-the-test-first-00a30743]] — Write the test first: 4 source-backed entries and 2 atom(s) from raw/coding_learn_go_with_tests_excerpt.pdf.
+- [[coding-learn-go-with-tests-excerpt-section-write-the-test-first-0aa0445f]] — Write the test first: 4 source-backed entries and 1 atom(s) from raw/coding_learn_go_with_tests_excerpt.pdf.
+- [[coding-learn-go-with-tests-excerpt-section-write-the-test-first-0e2658f9]] — Write the test first: 13 source-backed entries and 2 atom(s) from raw/coding_learn_go_with_tests_excerpt.pdf.
+- [[coding-learn-go-with-tests-excerpt-section-write-the-test-first-34633ebe]] — Write the test first: 9 source-backed entries and 1 atom(s) from raw/coding_learn_go_with_tests_excerpt.pdf.
+- [[coding-learn-go-with-tests-excerpt-section-write-the-test-first-3afe35ca]] — Write the test first: 1 source-backed entries and 1 atom(s) from raw/coding_learn_go_with_tests_excerpt.pdf.
+- [[coding-learn-go-with-tests-excerpt-section-write-the-test-first-45f0a3ac]] — Write the test first: 1 source-backed entries and 1 atom(s) from raw/coding_learn_go_with_tests_excerpt.pdf.
+- [[coding-learn-go-with-tests-excerpt-section-write-the-test-first-4b42002c]] — Write the test first: 3 source-backed entries and 2 atom(s) from raw/coding_learn_go_with_tests_excerpt.pdf.
+- [[coding-learn-go-with-tests-excerpt-section-write-the-test-first-8d118160]] — Write the test first: 3 source-backed entries and 2 atom(s) from raw/coding_learn_go_with_tests_excerpt.pdf.
+- [[coding-learn-go-with-tests-excerpt-section-write-the-test-first-97e005fe]] — Write the test first: 5 source-backed entries and 1 atom(s) from raw/coding_learn_go_with_tests_excerpt.pdf.
+- [[coding-learn-go-with-tests-excerpt-section-write-the-test-first-98b684c9]] — Write the test first: 3 source-backed entries and 3 atom(s) from raw/coding_learn_go_with_tests_excerpt.pdf.
+- [[coding-learn-go-with-tests-excerpt-section-write-the-test-first-98ec84d6]] — Write the test first: 3 source-backed entries and 3 atom(s) from raw/coding_learn_go_with_tests_excerpt.pdf.
+- [[coding-learn-go-with-tests-excerpt-section-write-the-test-first-9c0e63cc]] — Write the test first: 5 source-backed entries and 2 atom(s) from raw/coding_learn_go_with_tests_excerpt.pdf.
+- [[coding-learn-go-with-tests-excerpt-section-write-the-test-first-a67e179a]] — Write the test first: 1 source-backed entries and 1 atom(s) from raw/coding_learn_go_with_tests_excerpt.pdf.
+- [[coding-learn-go-with-tests-excerpt-section-write-the-test-first-b4c5be02]] — Write the test first: 3 source-backed entries and 1 atom(s) from raw/coding_learn_go_with_tests_excerpt.pdf.
+- [[coding-learn-go-with-tests-excerpt-section-write-the-test-first-cf9e3e10]] — Write the test first: 3 source-backed entries and 1 atom(s) from raw/coding_learn_go_with_tests_excerpt.pdf.
+- [[coding-learn-go-with-tests-excerpt-section-write-the-test-first-e940b7da]] — Write the test first: 1 source-backed entries and 1 atom(s) from raw/coding_learn_go_with_tests_excerpt.pdf.
+- [[coding-learn-go-with-tests-excerpt-section-write-the-test-first-f5d6d0bf]] — Write the test first: 3 source-backed entries and 1 atom(s) from raw/coding_learn_go_with_tests_excerpt.pdf.
+- [[coding-learn-go-with-tests-excerpt-section-you-can-find-all-the-code-for-this-chapter-here-0d0da803]] — You can find all the code for this chapter here: 2 source-backed entries and 1 atom(s) from raw/coding_learn_go_with_tests_excerpt.pdf.
+- [[coding-learn-go-with-tests-excerpt-section-you-can-find-all-the-code-for-this-chapter-here-4b5eb9cd]] — You can find all the code for this chapter here: 2 source-backed entries and 0 atom(s) from raw/coding_learn_go_with_tests_excerpt.pdf.
+- [[coding-learn-go-with-tests-excerpt-section-you-can-find-all-the-code-for-this-chapter-here-5b3c7055]] — You can find all the code for this chapter here: 6 source-backed entries and 1 atom(s) from raw/coding_learn_go_with_tests_excerpt.pdf.
+- [[coding-learn-go-with-tests-excerpt-section-you-can-find-all-the-code-for-this-chapter-here-7e4945cf]] — You can find all the code for this chapter here: 4 source-backed entries and 0 atom(s) from raw/coding_learn_go_with_tests_excerpt.pdf.
+- [[coding-learn-go-with-tests-excerpt-section-you-can-find-all-the-code-for-this-chapter-here-c444fd12]] — You can find all the code for this chapter here: 2 source-backed entries and 0 atom(s) from raw/coding_learn_go_with_tests_excerpt.pdf.
 - [[coding-little-go-book]] — Claim-ledger projection (coding): 662 usable entries, 166 technical atoms, 124 needs-review, 92 linked page(s); write decision write-with-review-work.
 - [[coding-little-go-book-section-a-note-from-the-author-c7f98608]] — A Note from the Author: 6 source-backed entries and 1 atom(s) from raw/coding_little_go_book.pdf.
 - [[coding-little-go-book-section-arrays-dafc249d]] — Arrays: 12 source-backed entries and 3 atom(s) from raw/coding_little_go_book.pdf.
@@ -208,13 +208,15 @@ Regenerated ingest pages will be linked here by the ingest workflow.
 - [[history-dickens-england-excerpt-section-chapter-xvi-england-under-edward-the-first-called-longshanks-a387f68c]] — CHAPTER XVI--ENGLAND UNDER EDWARD THE FIRST, CALLED LONGSHANKS: 2 source-backed entries and 2 atom(s) from raw/history_dickens_england_excerpt.pdf.
 - [[history-dickens-england-excerpt-section-part-the-first-adf903f7]] — PART THE FIRST: 29 source-backed entries and 3 atom(s) from raw/history_dickens_england_excerpt.pdf.
 - [[history-dickens-england-excerpt-section-part-the-second-a043128d]] — PART THE SECOND: 115 source-backed entries and 0 atom(s) from raw/history_dickens_england_excerpt.pdf.
-- [[history-short-history-of-england]] — Claim-ledger projection (general-prose): 2329 usable entries, 38 technical atoms, 113 needs-review, 53 linked page(s); write decision write-with-review-work.
+- [[history-short-history-of-england]] — Claim-ledger projection (general-prose): 2331 usable entries, 40 technical atoms, 111 needs-review, 55 linked page(s); write decision write-with-review-work.
 - [[history-short-history-of-england-section-and-the-project-gutenberg-online-distributed-proofreading-team-http-www-71ec8601]] — and the Project Gutenberg Online Distributed Proofreading Team (http://www.pgdp.net) from digital material generously made available by Internet Archive/Canadian Libraries: 1 source-backed entries and 0 atom(s) from raw/history_short_history_of_england.pdf.
 - [[history-short-history-of-england-section-aristocracy-and-the-discontents-f24e5666]] — ARISTOCRACY AND THE DISCONTENTS: 139 source-backed entries and 1 atom(s) from raw/history_short_history_of_england.pdf.
 - [[history-short-history-of-england-section-conclusion-18b42a88]] — CONCLUSION: 31 source-backed entries and 0 atom(s) from raw/history_short_history_of_england.pdf.
+- [[history-short-history-of-england-section-i-1934b41b]] — I: 0 source-backed entries and 2 atom(s) from raw/history_short_history_of_england.pdf.
 - [[history-short-history-of-england-section-introduction-87a27e14]] — INTRODUCTION: 32 source-backed entries and 1 atom(s) from raw/history_short_history_of_england.pdf.
 - [[history-short-history-of-england-section-nationality-and-the-french-wars-1f20067d]] — NATIONALITY AND THE FRENCH WARS: 146 source-backed entries and 0 atom(s) from raw/history_short_history_of_england.pdf.
-- [[history-short-history-of-england-section-printed-in-england-by-william-clowes-and-sons-limited-london-and-beccles-bbaafa76]] — PRINTED IN ENGLAND BY WILLIAM CLOWES AND SONS, LIMITED, LONDON AND BECCLES.: 53 source-backed entries and 4 atom(s) from raw/history_short_history_of_england.pdf.
+- [[history-short-history-of-england-section-printed-in-england-by-william-clowes-and-sons-limited-london-and-beccles-5f2af90a]] — PRINTED IN ENGLAND BY WILLIAM CLOWES AND SONS, LIMITED, LONDON AND BECCLES.: 0 source-backed entries and 2 atom(s) from raw/history_short_history_of_england.pdf.
+- [[history-short-history-of-england-section-printed-in-england-by-william-clowes-and-sons-limited-london-and-beccles-bbaafa76]] — PRINTED IN ENGLAND BY WILLIAM CLOWES AND SONS, LIMITED, LONDON AND BECCLES.: 55 source-backed entries and 6 atom(s) from raw/history_short_history_of_england.pdf.
 - [[history-short-history-of-england-section-spain-and-the-schism-of-nations-b7bdf14b]] — SPAIN AND THE SCHISM OF NATIONS: 125 source-backed entries and 0 atom(s) from raw/history_short_history_of_england.pdf.
 - [[history-short-history-of-england-section-st-edward-and-the-norman-kings-162317d2]] — ST. EDWARD AND THE NORMAN KINGS: 152 source-backed entries and 3 atom(s) from raw/history_short_history_of_england.pdf.
 - [[history-short-history-of-england-section-the-age-of-legends-e1de8606]] — THE AGE OF LEGENDS: 118 source-backed entries and 0 atom(s) from raw/history_short_history_of_england.pdf.
@@ -230,269 +232,273 @@ Regenerated ingest pages will be linked here by the ingest workflow.
 - [[history-short-history-of-england-section-the-triumph-of-the-whigs-cfe91015]] — THE TRIUMPH OF THE WHIGS: 170 source-backed entries and 2 atom(s) from raw/history_short_history_of_england.pdf.
 - [[history-short-history-of-england-section-the-war-of-the-usurpers-ed7379ea]] — THE WAR OF THE USURPERS: 129 source-backed entries and 4 atom(s) from raw/history_short_history_of_england.pdf.
 - [[history-short-history-of-england-section-the-war-with-the-great-republics-24879188]] — THE WAR WITH THE GREAT REPUBLICS: 126 source-backed entries and 2 atom(s) from raw/history_short_history_of_england.pdf.
-- [[rpg-cairn-2e-core]] — Claim-ledger projection (general-prose): 653 usable entries, 66 technical atoms, 173 needs-review, 160 linked page(s); write decision write-with-review-work.
-- [[rpg-cairn-2e-core-section-6-discovery-b0d8fc47]] — 6 Discovery: 1 source-backed entries and 0 atom(s) from raw/rpg_cairn_2e_core.pdf.
-- [[rpg-cairn-2e-core-section-actions-ac0df832]] — Actions: 4 source-backed entries and 1 atom(s) from raw/rpg_cairn_2e_core.pdf.
-- [[rpg-cairn-2e-core-section-actions-c3dab1d6]] — Actions: 4 source-backed entries and 0 atom(s) from raw/rpg_cairn_2e_core.pdf.
-- [[rpg-cairn-2e-core-section-agency-0500b2b6]] — Agency: 4 source-backed entries and 0 atom(s) from raw/rpg_cairn_2e_core.pdf.
-- [[rpg-cairn-2e-core-section-aiding-an-ally-3ccea8ce]] — Aiding an Ally: 11 source-backed entries and 0 atom(s) from raw/rpg_cairn_2e_core.pdf.
-- [[rpg-cairn-2e-core-section-ambition-6044e14f]] — Ambition: 2 source-backed entries and 0 atom(s) from raw/rpg_cairn_2e_core.pdf.
-- [[rpg-cairn-2e-core-section-armor-90256288]] — Armor: 5 source-backed entries and 2 atom(s) from raw/rpg_cairn_2e_core.pdf.
-- [[rpg-cairn-2e-core-section-attack-modifiers-7aabb6c8]] — Attack Modifiers: 6 source-backed entries and 4 atom(s) from raw/rpg_cairn_2e_core.pdf.
-- [[rpg-cairn-2e-core-section-attacking-damage-9d7d7096]] — Attacking & Damage: 6 source-backed entries and 1 atom(s) from raw/rpg_cairn_2e_core.pdf.
-- [[rpg-cairn-2e-core-section-attribute-loss-9729a518]] — Attribute Loss: 6 source-backed entries and 0 atom(s) from raw/rpg_cairn_2e_core.pdf.
-- [[rpg-cairn-2e-core-section-attributes-863166db]] — Attributes: 5 source-backed entries and 1 atom(s) from raw/rpg_cairn_2e_core.pdf.
-- [[rpg-cairn-2e-core-section-attributes-ee20ebe1]] — Attributes: 4 source-backed entries and 0 atom(s) from raw/rpg_cairn_2e_core.pdf.
-- [[rpg-cairn-2e-core-section-attributes-hit-protection-and-traits-20c1096d]] — Attributes, Hit Protection, and Traits: 7 source-backed entries and 1 atom(s) from raw/rpg_cairn_2e_core.pdf.
-- [[rpg-cairn-2e-core-section-bonds-199ee6cc]] — Bonds: 3 source-backed entries and 0 atom(s) from raw/rpg_cairn_2e_core.pdf.
-- [[rpg-cairn-2e-core-section-bonds-da17aa50]] — Bonds: 4 source-backed entries and 3 atom(s) from raw/rpg_cairn_2e_core.pdf.
-- [[rpg-cairn-2e-core-section-bonds-should-844d0956]] — Bonds Should...: 4 source-backed entries and 0 atom(s) from raw/rpg_cairn_2e_core.pdf.
-- [[rpg-cairn-2e-core-section-cairn-2e-core-rulebook-d409f394]] — Cairn 2e Core Rulebook: 2 source-backed entries and 0 atom(s) from raw/rpg_cairn_2e_core.pdf.
-- [[rpg-cairn-2e-core-section-casting-spells-d48a588f]] — Casting Spells: 4 source-backed entries and 1 atom(s) from raw/rpg_cairn_2e_core.pdf.
-- [[rpg-cairn-2e-core-section-caution-9bc054e6]] — Caution: 2 source-backed entries and 0 atom(s) from raw/rpg_cairn_2e_core.pdf.
-- [[rpg-cairn-2e-core-section-character-death-fe6b4310]] — Character Death: 1 source-backed entries and 1 atom(s) from raw/rpg_cairn_2e_core.pdf.
-- [[rpg-cairn-2e-core-section-character-traits-d10-8e95ccb5]] — Character Traits (d10): 1 source-backed entries and 1 atom(s) from raw/rpg_cairn_2e_core.pdf.
-- [[rpg-cairn-2e-core-section-choice-a5dff18e]] — Choice: 2 source-backed entries and 0 atom(s) from raw/rpg_cairn_2e_core.pdf.
-- [[rpg-cairn-2e-core-section-classless-92b8e4ea]] — Classless: 1 source-backed entries and 0 atom(s) from raw/rpg_cairn_2e_core.pdf.
-- [[rpg-cairn-2e-core-section-costs-b3a7163b]] — Costs: 3 source-backed entries and 1 atom(s) from raw/rpg_cairn_2e_core.pdf.
-- [[rpg-cairn-2e-core-section-critical-damage-bbc756fb]] — Critical Damage: 9 source-backed entries and 1 atom(s) from raw/rpg_cairn_2e_core.pdf.
-- [[rpg-cairn-2e-core-section-danger-bfc6ff32]] — Danger: 2 source-backed entries and 0 atom(s) from raw/rpg_cairn_2e_core.pdf.
-- [[rpg-cairn-2e-core-section-day-one-watch-one-5de1ee62]] — Day One / Watch One: 2 source-backed entries and 0 atom(s) from raw/rpg_cairn_2e_core.pdf.
-- [[rpg-cairn-2e-core-section-day-one-watch-three-1d56690a]] — Day One / Watch Three: 4 source-backed entries and 0 atom(s) from raw/rpg_cairn_2e_core.pdf.
-- [[rpg-cairn-2e-core-section-day-one-watch-two-73a63dfe]] — Day One / Watch Two: 3 source-backed entries and 0 atom(s) from raw/rpg_cairn_2e_core.pdf.
-- [[rpg-cairn-2e-core-section-death-88bc5527]] — Death: 2 source-backed entries and 0 atom(s) from raw/rpg_cairn_2e_core.pdf.
-- [[rpg-cairn-2e-core-section-deprivation-fatigue-26dd281a]] — Deprivation & Fatigue: 9 source-backed entries and 0 atom(s) from raw/rpg_cairn_2e_core.pdf.
-- [[rpg-cairn-2e-core-section-detachments-12dd704d]] — Detachments: 3 source-backed entries and 0 atom(s) from raw/rpg_cairn_2e_core.pdf.
-- [[rpg-cairn-2e-core-section-dexterity-b1087fa5]] — Dexterity: 9 source-backed entries and 0 atom(s) from raw/rpg_cairn_2e_core.pdf.
-- [[rpg-cairn-2e-core-section-die-of-fate-9faa9c5c]] — Die of Fate: 3 source-backed entries and 1 atom(s) from raw/rpg_cairn_2e_core.pdf.
-- [[rpg-cairn-2e-core-section-die-of-fate-cf7ad239]] — Die of Fate: 3 source-backed entries and 1 atom(s) from raw/rpg_cairn_2e_core.pdf.
-- [[rpg-cairn-2e-core-section-difficulty-655b3ade]] — Difficulty: 2 source-backed entries and 1 atom(s) from raw/rpg_cairn_2e_core.pdf.
-- [[rpg-cairn-2e-core-section-doors-d023502e]] — Doors: 3 source-backed entries and 0 atom(s) from raw/rpg_cairn_2e_core.pdf.
-- [[rpg-cairn-2e-core-section-downtime-a01cff62]] — Downtime: 6 source-backed entries and 1 atom(s) from raw/rpg_cairn_2e_core.pdf.
-- [[rpg-cairn-2e-core-section-downtime-actions-5543298e]] — Downtime Actions: 2 source-backed entries and 0 atom(s) from raw/rpg_cairn_2e_core.pdf.
-- [[rpg-cairn-2e-core-section-dungeon-events-be891d48]] — Dungeon Events: 1 source-backed entries and 0 atom(s) from raw/rpg_cairn_2e_core.pdf.
-- [[rpg-cairn-2e-core-section-dungeon-exploration-cycle-e4550c02]] — Dungeon Exploration Cycle: 9 source-backed entries and 2 atom(s) from raw/rpg_cairn_2e_core.pdf.
-- [[rpg-cairn-2e-core-section-dungeon-exploration-example-66f2d113]] — Dungeon Exploration Example: 4 source-backed entries and 0 atom(s) from raw/rpg_cairn_2e_core.pdf.
-- [[rpg-cairn-2e-core-section-example-8655ddd0]] — Example: 43 source-backed entries and 2 atom(s) from raw/rpg_cairn_2e_core.pdf.
-- [[rpg-cairn-2e-core-section-examples-693f0436]] — Examples:: 1 source-backed entries and 0 atom(s) from raw/rpg_cairn_2e_core.pdf.
-- [[rpg-cairn-2e-core-section-examples-7bb37186]] — Examples:: 4 source-backed entries and 0 atom(s) from raw/rpg_cairn_2e_core.pdf.
-- [[rpg-cairn-2e-core-section-examples-8476aacc]] — Examples:: 11 source-backed entries and 2 atom(s) from raw/rpg_cairn_2e_core.pdf.
-- [[rpg-cairn-2e-core-section-examples-ac2579c6]] — Examples:: 6 source-backed entries and 0 atom(s) from raw/rpg_cairn_2e_core.pdf.
-- [[rpg-cairn-2e-core-section-exploration-8e9b03a7]] — Exploration: 2 source-backed entries and 0 atom(s) from raw/rpg_cairn_2e_core.pdf.
-- [[rpg-cairn-2e-core-section-exploration-example-35715e69]] — Exploration Example: 6 source-backed entries and 2 atom(s) from raw/rpg_cairn_2e_core.pdf.
-- [[rpg-cairn-2e-core-section-explore-fd0365fc]] — Explore: 2 source-backed entries and 0 atom(s) from raw/rpg_cairn_2e_core.pdf.
-- [[rpg-cairn-2e-core-section-fiction-first-1f035e57]] — Fiction First: 1 source-backed entries and 0 atom(s) from raw/rpg_cairn_2e_core.pdf.
-- [[rpg-cairn-2e-core-section-freya-4fe52f08]] — Freya: 12 source-backed entries and 0 atom(s) from raw/rpg_cairn_2e_core.pdf.
-- [[rpg-cairn-2e-core-section-freya-8dc6ba74]] — Freya :: 8 source-backed entries and 0 atom(s) from raw/rpg_cairn_2e_core.pdf.
-- [[rpg-cairn-2e-core-section-healing-recovery-a0db56e6]] — Healing & Recovery: 4 source-backed entries and 0 atom(s) from raw/rpg_cairn_2e_core.pdf.
-- [[rpg-cairn-2e-core-section-hirelings-a4ab77c3]] — Hirelings: 4 source-backed entries and 0 atom(s) from raw/rpg_cairn_2e_core.pdf.
-- [[rpg-cairn-2e-core-section-hit-protection-30e1d3cd]] — Hit Protection: 3 source-backed entries and 1 atom(s) from raw/rpg_cairn_2e_core.pdf.
-- [[rpg-cairn-2e-core-section-information-cd55dd30]] — Information: 4 source-backed entries and 0 atom(s) from raw/rpg_cairn_2e_core.pdf.
-- [[rpg-cairn-2e-core-section-introduction-43c9449c]] — Introduction: 3 source-backed entries and 1 atom(s) from raw/rpg_cairn_2e_core.pdf.
-- [[rpg-cairn-2e-core-section-introduction-bd951ad8]] — Introduction: 2 source-backed entries and 0 atom(s) from raw/rpg_cairn_2e_core.pdf.
-- [[rpg-cairn-2e-core-section-introduction-d4640352]] — Introduction: 10 source-backed entries and 2 atom(s) from raw/rpg_cairn_2e_core.pdf.
-- [[rpg-cairn-2e-core-section-inventory-355b0d09]] — Inventory: 6 source-backed entries and 0 atom(s) from raw/rpg_cairn_2e_core.pdf.
-- [[rpg-cairn-2e-core-section-inventory-slots-df977c05]] — Inventory Slots: 4 source-backed entries and 0 atom(s) from raw/rpg_cairn_2e_core.pdf.
-- [[rpg-cairn-2e-core-section-knowledge-752f05e9]] — Knowledge: 7 source-backed entries and 0 atom(s) from raw/rpg_cairn_2e_core.pdf.
-- [[rpg-cairn-2e-core-section-light-6f315fba]] — Light: 4 source-backed entries and 0 atom(s) from raw/rpg_cairn_2e_core.pdf.
-- [[rpg-cairn-2e-core-section-light-e69449c3]] — Light: 5 source-backed entries and 0 atom(s) from raw/rpg_cairn_2e_core.pdf.
-- [[rpg-cairn-2e-core-section-light-sources-1a25fb42]] — Light Sources: 3 source-backed entries and 0 atom(s) from raw/rpg_cairn_2e_core.pdf.
-- [[rpg-cairn-2e-core-section-lucius-46a55b04]] — Lucius :: 19 source-backed entries and 1 atom(s) from raw/rpg_cairn_2e_core.pdf.
-- [[rpg-cairn-2e-core-section-lucius-6394dc7b]] — Lucius :: 6 source-backed entries and 0 atom(s) from raw/rpg_cairn_2e_core.pdf.
-- [[rpg-cairn-2e-core-section-lucius-f0e07618]] — Lucius: 21 source-backed entries and 2 atom(s) from raw/rpg_cairn_2e_core.pdf.
-- [[rpg-cairn-2e-core-section-make-camp-b88b2afc]] — Make Camp: 3 source-backed entries and 0 atom(s) from raw/rpg_cairn_2e_core.pdf.
-- [[rpg-cairn-2e-core-section-milestones-0bdb3ba5]] — Milestones: 3 source-backed entries and 0 atom(s) from raw/rpg_cairn_2e_core.pdf.
-- [[rpg-cairn-2e-core-section-morale-0880578d]] — Morale: 4 source-backed entries and 1 atom(s) from raw/rpg_cairn_2e_core.pdf.
-- [[rpg-cairn-2e-core-section-narrative-focus-41fa6087]] — Narrative Focus: 3 source-backed entries and 0 atom(s) from raw/rpg_cairn_2e_core.pdf.
-- [[rpg-cairn-2e-core-section-neutrality-fb586a2c]] — Neutrality: 1 source-backed entries and 0 atom(s) from raw/rpg_cairn_2e_core.pdf.
-- [[rpg-cairn-2e-core-section-night-067120f9]] — Night: 6 source-backed entries and 1 atom(s) from raw/rpg_cairn_2e_core.pdf.
-- [[rpg-cairn-2e-core-section-omens-59b1961e]] — Omens: 7 source-backed entries and 3 atom(s) from raw/rpg_cairn_2e_core.pdf.
-- [[rpg-cairn-2e-core-section-omens-8be0baa2]] — Omens: 4 source-backed entries and 1 atom(s) from raw/rpg_cairn_2e_core.pdf.
-- [[rpg-cairn-2e-core-section-omens-should-f51ff4fd]] — Omens Should...: 3 source-backed entries and 1 atom(s) from raw/rpg_cairn_2e_core.pdf.
-- [[rpg-cairn-2e-core-section-opposed-saves-4caff375]] — Opposed Saves: 8 source-backed entries and 0 atom(s) from raw/rpg_cairn_2e_core.pdf.
-- [[rpg-cairn-2e-core-section-overview-3379b788]] — Overview: 1 source-backed entries and 0 atom(s) from raw/rpg_cairn_2e_core.pdf.
-- [[rpg-cairn-2e-core-section-panic-492bd144]] — Panic: 3 source-backed entries and 0 atom(s) from raw/rpg_cairn_2e_core.pdf.
-- [[rpg-cairn-2e-core-section-perception-84746875]] — Perception: 24 source-backed entries and 5 atom(s) from raw/rpg_cairn_2e_core.pdf.
-- [[rpg-cairn-2e-core-section-planning-dd5a7627]] — Planning: 1 source-backed entries and 0 atom(s) from raw/rpg_cairn_2e_core.pdf.
-- [[rpg-cairn-2e-core-section-player-choice-52d7ddd9]] — Player Choice: 1 source-backed entries and 0 atom(s) from raw/rpg_cairn_2e_core.pdf.
-- [[rpg-cairn-2e-core-section-points-e82b4835]] — Points: 2 source-backed entries and 0 atom(s) from raw/rpg_cairn_2e_core.pdf.
-- [[rpg-cairn-2e-core-section-preparation-6303e9fe]] — Preparation: 5 source-backed entries and 0 atom(s) from raw/rpg_cairn_2e_core.pdf.
-- [[rpg-cairn-2e-core-section-principles-38f252f6]] — Principles: 9 source-backed entries and 0 atom(s) from raw/rpg_cairn_2e_core.pdf.
-- [[rpg-cairn-2e-core-section-questions-77bb5e5e]] — Questions: 1 source-backed entries and 0 atom(s) from raw/rpg_cairn_2e_core.pdf.
-- [[rpg-cairn-2e-core-section-ranged-attacks-dad8af49]] — Ranged Attacks: 4 source-backed entries and 0 atom(s) from raw/rpg_cairn_2e_core.pdf.
-- [[rpg-cairn-2e-core-section-reactions-a597c0d7]] — Reactions: 2 source-backed entries and 2 atom(s) from raw/rpg_cairn_2e_core.pdf.
-- [[rpg-cairn-2e-core-section-relics-3fb07dd7]] — Relics: 3 source-backed entries and 1 atom(s) from raw/rpg_cairn_2e_core.pdf.
-- [[rpg-cairn-2e-core-section-relics-74a41389]] — Relics: 4 source-backed entries and 0 atom(s) from raw/rpg_cairn_2e_core.pdf.
-- [[rpg-cairn-2e-core-section-research-9b9be98e]] — Research: 4 source-backed entries and 1 atom(s) from raw/rpg_cairn_2e_core.pdf.
-- [[rpg-cairn-2e-core-section-resting-9f700256]] — Resting: 4 source-backed entries and 0 atom(s) from raw/rpg_cairn_2e_core.pdf.
-- [[rpg-cairn-2e-core-section-retreat-2b335f98]] — Retreat: 1 source-backed entries and 0 atom(s) from raw/rpg_cairn_2e_core.pdf.
-- [[rpg-cairn-2e-core-section-roll-or-choose-a-background-f89077cb]] — Roll or choose a Background: 5 source-backed entries and 0 atom(s) from raw/rpg_cairn_2e_core.pdf.
-- [[rpg-cairn-2e-core-section-rounds-0ef49c22]] — Rounds: 8 source-backed entries and 0 atom(s) from raw/rpg_cairn_2e_core.pdf.
-- [[rpg-cairn-2e-core-section-save-principles-6e5ef34d]] — Save Principles: 17 source-backed entries and 2 atom(s) from raw/rpg_cairn_2e_core.pdf.
-- [[rpg-cairn-2e-core-section-saves-a09dc170]] — Saves: 6 source-backed entries and 0 atom(s) from raw/rpg_cairn_2e_core.pdf.
-- [[rpg-cairn-2e-core-section-scars-c8178d31]] — Scars: 3 source-backed entries and 0 atom(s) from raw/rpg_cairn_2e_core.pdf.
-- [[rpg-cairn-2e-core-section-scars-table-f2dd9f81]] — Scars Table: 1 source-backed entries and 1 atom(s) from raw/rpg_cairn_2e_core.pdf.
-- [[rpg-cairn-2e-core-section-scrolls-0ff453fd]] — Scrolls: 3 source-backed entries and 0 atom(s) from raw/rpg_cairn_2e_core.pdf.
-- [[rpg-cairn-2e-core-section-searching-98d2c3c3]] — Searching: 3 source-backed entries and 0 atom(s) from raw/rpg_cairn_2e_core.pdf.
-- [[rpg-cairn-2e-core-section-shared-objectives-b67beed4]] — Shared Objectives: 3 source-backed entries and 0 atom(s) from raw/rpg_cairn_2e_core.pdf.
-- [[rpg-cairn-2e-core-section-skin-93690e86]] — Skin: 1 source-backed entries and 1 atom(s) from raw/rpg_cairn_2e_core.pdf.
-- [[rpg-cairn-2e-core-section-sleep-646cd923]] — Sleep: 5 source-backed entries and 1 atom(s) from raw/rpg_cairn_2e_core.pdf.
-- [[rpg-cairn-2e-core-section-sources-9e1c58a8]] — Sources: 2 source-backed entries and 0 atom(s) from raw/rpg_cairn_2e_core.pdf.
-- [[rpg-cairn-2e-core-section-speech-0df43152]] — Speech: 3 source-backed entries and 3 atom(s) from raw/rpg_cairn_2e_core.pdf.
-- [[rpg-cairn-2e-core-section-spellbooks-ccabebdc]] — Spellbooks: 6 source-backed entries and 0 atom(s) from raw/rpg_cairn_2e_core.pdf.
-- [[rpg-cairn-2e-core-section-strength-96ccfb1b]] — Strength: 1 source-backed entries and 0 atom(s) from raw/rpg_cairn_2e_core.pdf.
-- [[rpg-cairn-2e-core-section-strengthening-ties-3c271315]] — Strengthening Ties: 4 source-backed entries and 0 atom(s) from raw/rpg_cairn_2e_core.pdf.
-- [[rpg-cairn-2e-core-section-supply-11b2ceba]] — Supply: 4 source-backed entries and 0 atom(s) from raw/rpg_cairn_2e_core.pdf.
-- [[rpg-cairn-2e-core-section-talking-0b2a0b96]] — Talking: 3 source-backed entries and 1 atom(s) from raw/rpg_cairn_2e_core.pdf.
-- [[rpg-cairn-2e-core-section-teamwork-e43f55d9]] — Teamwork: 2 source-backed entries and 0 atom(s) from raw/rpg_cairn_2e_core.pdf.
-- [[rpg-cairn-2e-core-section-the-basics-490f9bce]] — The Basics: 6 source-backed entries and 0 atom(s) from raw/rpg_cairn_2e_core.pdf.
-- [[rpg-cairn-2e-core-section-the-courtyard-75c17433]] — The Courtyard: 24 source-backed entries and 0 atom(s) from raw/rpg_cairn_2e_core.pdf.
-- [[rpg-cairn-2e-core-section-training-9df27298]] — Training: 6 source-backed entries and 1 atom(s) from raw/rpg_cairn_2e_core.pdf.
-- [[rpg-cairn-2e-core-section-traps-4373492e]] — Traps: 5 source-backed entries and 1 atom(s) from raw/rpg_cairn_2e_core.pdf.
-- [[rpg-cairn-2e-core-section-travel-61f25d14]] — Travel: 4 source-backed entries and 0 atom(s) from raw/rpg_cairn_2e_core.pdf.
-- [[rpg-cairn-2e-core-section-travel-duration-03c8a9bf]] — Travel Duration: 6 source-backed entries and 0 atom(s) from raw/rpg_cairn_2e_core.pdf.
-- [[rpg-cairn-2e-core-section-treasure-3119ce38]] — Treasure: 4 source-backed entries and 0 atom(s) from raw/rpg_cairn_2e_core.pdf.
-- [[rpg-cairn-2e-core-section-warden-73e783f7]] — Warden: 9 source-backed entries and 0 atom(s) from raw/rpg_cairn_2e_core.pdf.
-- [[rpg-cairn-2e-core-section-warden-c07bba54]] — Warden :: 7 source-backed entries and 0 atom(s) from raw/rpg_cairn_2e_core.pdf.
-- [[rpg-cairn-2e-core-section-watches-247f8272]] — Watches: 3 source-backed entries and 0 atom(s) from raw/rpg_cairn_2e_core.pdf.
-- [[rpg-cairn-2e-core-section-weather-0aa5da59]] — Weather: 3 source-backed entries and 1 atom(s) from raw/rpg_cairn_2e_core.pdf.
-- [[rpg-cairn-2e-core-section-when-to-save-896bae36]] — When To Save: 1 source-backed entries and 0 atom(s) from raw/rpg_cairn_2e_core.pdf.
-- [[rpg-cairn-2e-core-section-wil-77032f43]] — WIL: 11 source-backed entries and 1 atom(s) from raw/rpg_cairn_2e_core.pdf.
-- [[rpg-cairn-2e-core-section-wilderness-exploration-cycle-06cbe1ec]] — Wilderness Exploration Cycle: 4 source-backed entries and 0 atom(s) from raw/rpg_cairn_2e_core.pdf.
-- [[rpg-dnd-srd-excerpt]] — Claim-ledger projection (general-prose): 729 usable entries, 117 technical atoms, 151 needs-review, 165 linked page(s); write decision write-with-review-work.
-- [[rpg-dnd-srd-excerpt-section-1st-level-abjuration-4e735d15]] — 1st-level abjuration: 2 source-backed entries and 0 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
-- [[rpg-dnd-srd-excerpt-section-3rd-level-evocation-ed8f6f4c]] — 3rd-level evocation: 4 source-backed entries and 1 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
-- [[rpg-dnd-srd-excerpt-section-ability-checks-0ae7d8e2]] — Ability Checks: 4 source-backed entries and 0 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
-- [[rpg-dnd-srd-excerpt-section-ability-scores-and-modifiers-8d50fb54]] — Ability Scores and Modifiers: 9 source-backed entries and 1 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
-- [[rpg-dnd-srd-excerpt-section-actions-2bb6ca56]] — Actions: 1 source-backed entries and 1 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
-- [[rpg-dnd-srd-excerpt-section-actions-in-combat-8729040d]] — Actions in Combat: 3 source-backed entries and 1 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
-- [[rpg-dnd-srd-excerpt-section-advantage-and-disadvantage-a074db0d]] — Advantage and Disadvantage: 18 source-backed entries and 4 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
-- [[rpg-dnd-srd-excerpt-section-armor-81c88b88]] — Armor: 12 source-backed entries and 1 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
-- [[rpg-dnd-srd-excerpt-section-armor-class-616b096e]] — Armor Class: 1 source-backed entries and 0 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
-- [[rpg-dnd-srd-excerpt-section-attack-fc67c3e9]] — Attack: 3 source-backed entries and 0 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
-- [[rpg-dnd-srd-excerpt-section-attack-rolls-and-damage-91edd7e2]] — Attack Rolls and Damage: 3 source-backed entries and 1 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
-- [[rpg-dnd-srd-excerpt-section-attack-rolls-and-damage-f88b61f4]] — Attack Rolls and Damage: 3 source-backed entries and 0 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
-- [[rpg-dnd-srd-excerpt-section-attack-rolls-f7f4418f]] — Attack Rolls: 5 source-backed entries and 1 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
-- [[rpg-dnd-srd-excerpt-section-being-prone-c295f7df]] — Being Prone: 8 source-backed entries and 2 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
-- [[rpg-dnd-srd-excerpt-section-blinded-a1625261]] — Blinded: 2 source-backed entries and 0 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
-- [[rpg-dnd-srd-excerpt-section-bonus-actions-b8cea560]] — Bonus Actions: 2 source-backed entries and 2 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
-- [[rpg-dnd-srd-excerpt-section-breaking-up-your-move-0223d705]] — Breaking Up Your Move: 2 source-backed entries and 2 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
-- [[rpg-dnd-srd-excerpt-section-cast-a-spell-8e552f1a]] — Cast a Spell: 5 source-backed entries and 1 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
-- [[rpg-dnd-srd-excerpt-section-casting-time-1-action-1da16800]] — Casting Time: 1 action: 2 source-backed entries and 1 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
-- [[rpg-dnd-srd-excerpt-section-charisma-c46743f5]] — Charisma: 1 source-backed entries and 0 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
-- [[rpg-dnd-srd-excerpt-section-charisma-checks-3339b751]] — Charisma Checks: 11 source-backed entries and 0 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
-- [[rpg-dnd-srd-excerpt-section-charmed-a6550bd7]] — Charmed: 1 source-backed entries and 0 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
-- [[rpg-dnd-srd-excerpt-section-combat-step-by-step-565e2499]] — Combat Step by Step: 7 source-backed entries and 0 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
-- [[rpg-dnd-srd-excerpt-section-conditions-7e04dd11]] — Conditions: 8 source-backed entries and 0 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
-- [[rpg-dnd-srd-excerpt-section-constitution-checks-70917c03]] — Constitution Checks: 5 source-backed entries and 0 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
-- [[rpg-dnd-srd-excerpt-section-contests-8367be02]] — Contests: 10 source-backed entries and 0 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
-- [[rpg-dnd-srd-excerpt-section-contests-in-combat-c7935351]] — Contests in Combat: 2 source-backed entries and 0 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
-- [[rpg-dnd-srd-excerpt-section-controlling-a-mount-27504d74]] — Controlling a Mount: 11 source-backed entries and 2 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
-- [[rpg-dnd-srd-excerpt-section-cover-ca631fa4]] — Cover: 14 source-backed entries and 1 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
-- [[rpg-dnd-srd-excerpt-section-creature-size-927a3d50]] — Creature Size: 2 source-backed entries and 0 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
-- [[rpg-dnd-srd-excerpt-section-critical-hits-8bb740ed]] — Critical Hits: 7 source-backed entries and 2 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
-- [[rpg-dnd-srd-excerpt-section-damage-and-healing-9c97e5a2]] — Damage and Healing: 2 source-backed entries and 0 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
-- [[rpg-dnd-srd-excerpt-section-damage-resistance-and-vulnerability-cb0a91f4]] — Damage Resistance and Vulnerability: 6 source-backed entries and 2 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
-- [[rpg-dnd-srd-excerpt-section-damage-rolls-4dbef6ab]] — Damage Rolls: 8 source-backed entries and 2 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
-- [[rpg-dnd-srd-excerpt-section-damage-types-5c8c6b3f]] — Damage Types: 6 source-backed entries and 0 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
-- [[rpg-dnd-srd-excerpt-section-dash-40171bac]] — Dash: 3 source-backed entries and 3 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
-- [[rpg-dnd-srd-excerpt-section-deafened-b3ffbc98]] — Deafened: 1 source-backed entries and 0 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
-- [[rpg-dnd-srd-excerpt-section-death-saving-throws-da60dc40]] — Death Saving Throws: 11 source-backed entries and 1 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
-- [[rpg-dnd-srd-excerpt-section-dexterity-checks-a54cf20f]] — Dexterity Checks: 7 source-backed entries and 1 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
-- [[rpg-dnd-srd-excerpt-section-difficult-terrain-bd294a8c]] — Difficult Terrain: 3 source-backed entries and 0 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
-- [[rpg-dnd-srd-excerpt-section-dodge-7da4cb18]] — Dodge: 2 source-backed entries and 1 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
-- [[rpg-dnd-srd-excerpt-section-dropping-to-0-hit-points-df89850f]] — Dropping to 0 Hit Points: 1 source-backed entries and 0 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
-- [[rpg-dnd-srd-excerpt-section-dungeons-dragons-srd-5-1-core-rules-excerpt-6876e3ef]] — Dungeons & Dragons SRD 5.1 -Core Rules (Excerpt): 1 source-backed entries and 0 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
-- [[rpg-dnd-srd-excerpt-section-exhaustion-67fc2c61]] — Exhaustion: 8 source-backed entries and 1 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
-- [[rpg-dnd-srd-excerpt-section-falling-unconscious-0a32f1ba]] — Falling Unconscious: 1 source-backed entries and 0 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
-- [[rpg-dnd-srd-excerpt-section-flying-movement-eb352a67]] — Flying Movement: 3 source-backed entries and 1 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
-- [[rpg-dnd-srd-excerpt-section-frightened-bc120b11]] — Frightened: 3 source-backed entries and 0 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
-- [[rpg-dnd-srd-excerpt-section-getting-into-and-out-of-armor-a1eac708]] — Getting Into and Out of Armor: 4 source-backed entries and 1 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
-- [[rpg-dnd-srd-excerpt-section-goblin-8b1e6d07]] — Goblin: 6 source-backed entries and 5 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
-- [[rpg-dnd-srd-excerpt-section-grappled-7621fae5]] — Grappled: 3 source-backed entries and 0 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
-- [[rpg-dnd-srd-excerpt-section-grappling-d2fd895c]] — Grappling: 11 source-backed entries and 4 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
-- [[rpg-dnd-srd-excerpt-section-group-checks-32341a02]] — Group Checks: 7 source-backed entries and 0 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
-- [[rpg-dnd-srd-excerpt-section-healing-0d8af72f]] — Healing: 10 source-backed entries and 1 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
-- [[rpg-dnd-srd-excerpt-section-heavy-armor-a6460e83]] — Heavy Armor: 10 source-backed entries and 0 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
-- [[rpg-dnd-srd-excerpt-section-help-7554b349]] — Help: 6 source-backed entries and 2 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
-- [[rpg-dnd-srd-excerpt-section-hide-000a51fa]] — Hide: 2 source-backed entries and 1 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
-- [[rpg-dnd-srd-excerpt-section-hiding-7980b6af]] — Hiding: 13 source-backed entries and 3 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
-- [[rpg-dnd-srd-excerpt-section-hit-points-2e8ca6d4]] — Hit Points: 6 source-backed entries and 1 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
-- [[rpg-dnd-srd-excerpt-section-hit-points-c061c7da]] — Hit Points: 6 source-backed entries and 1 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
-- [[rpg-dnd-srd-excerpt-section-improvised-weapons-2024dc78]] — Improvised Weapons: 6 source-backed entries and 1 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
-- [[rpg-dnd-srd-excerpt-section-incapacitated-ebea11df]] — Incapacitated: 1 source-backed entries and 0 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
-- [[rpg-dnd-srd-excerpt-section-initiative-eb7b9d15]] — Initiative: 7 source-backed entries and 1 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
-- [[rpg-dnd-srd-excerpt-section-instant-death-b0b160ca]] — Instant Death: 4 source-backed entries and 2 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
-- [[rpg-dnd-srd-excerpt-section-intelligence-checks-8bd28a04]] — Intelligence Checks: 5 source-backed entries and 0 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
-- [[rpg-dnd-srd-excerpt-section-interacting-with-objects-around-you-5a3b44dc]] — Interacting with Objects Around You: 1 source-backed entries and 0 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
-- [[rpg-dnd-srd-excerpt-section-invisible-fa8991dc]] — Invisible: 3 source-backed entries and 0 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
-- [[rpg-dnd-srd-excerpt-section-knocking-a-creature-out-cd79a238]] — Knocking a Creature Out: 3 source-backed entries and 1 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
-- [[rpg-dnd-srd-excerpt-section-lifting-and-carrying-ea756f79]] — Lifting and Carrying: 8 source-backed entries and 0 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
-- [[rpg-dnd-srd-excerpt-section-light-armor-92d2fa50]] — Light Armor: 3 source-backed entries and 1 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
-- [[rpg-dnd-srd-excerpt-section-making-an-attack-f7abb5ca]] — Making an Attack: 9 source-backed entries and 1 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
-- [[rpg-dnd-srd-excerpt-section-medium-armor-ae0e70b3]] — Medium Armor: 10 source-backed entries and 1 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
-- [[rpg-dnd-srd-excerpt-section-melee-attacks-303ab2cf]] — Melee Attacks: 9 source-backed entries and 1 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
-- [[rpg-dnd-srd-excerpt-section-modifiers-to-the-roll-71c566fd]] — Modifiers to the Roll: 7 source-backed entries and 1 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
-- [[rpg-dnd-srd-excerpt-section-monsters-and-death-eae7f065]] — Monsters and Death: 2 source-backed entries and 0 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
-- [[rpg-dnd-srd-excerpt-section-mounted-combat-dc5898b9]] — Mounted Combat: 3 source-backed entries and 0 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
-- [[rpg-dnd-srd-excerpt-section-mounting-and-dismounting-f4a9fdb8]] — Mounting and Dismounting: 3 source-backed entries and 2 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
-- [[rpg-dnd-srd-excerpt-section-movement-and-position-b1060c97]] — Movement and Position: 6 source-backed entries and 0 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
-- [[rpg-dnd-srd-excerpt-section-moving-around-other-creatures-b8cb2726]] — Moving Around Other Creatures: 6 source-backed entries and 1 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
-- [[rpg-dnd-srd-excerpt-section-moving-between-attacks-8af0ba46]] — Moving between Attacks: 2 source-backed entries and 2 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
-- [[rpg-dnd-srd-excerpt-section-opportunity-attacks-e0b9f81c]] — Opportunity Attacks: 9 source-backed entries and 1 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
-- [[rpg-dnd-srd-excerpt-section-order-of-combat-e952e8c4]] — ORDER OF COMBAT: 4 source-backed entries and 0 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
-- [[rpg-dnd-srd-excerpt-section-other-activity-on-your-turn-00536e58]] — Other Activity on Your Turn: 7 source-backed entries and 1 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
-- [[rpg-dnd-srd-excerpt-section-paralyzed-ead98c9b]] — Paralyzed: 4 source-backed entries and 0 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
-- [[rpg-dnd-srd-excerpt-section-passive-checks-67d766bd]] — Passive Checks: 8 source-backed entries and 1 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
-- [[rpg-dnd-srd-excerpt-section-petrified-8a8dbae2]] — Petrified: 5 source-backed entries and 0 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
-- [[rpg-dnd-srd-excerpt-section-poisoned-ab447692]] — Poisoned: 1 source-backed entries and 0 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
-- [[rpg-dnd-srd-excerpt-section-proficiency-bonus-45409089]] — Proficiency Bonus: 11 source-backed entries and 5 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
-- [[rpg-dnd-srd-excerpt-section-prone-1e13800b]] — Prone: 5 source-backed entries and 0 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
-- [[rpg-dnd-srd-excerpt-section-range-345834d0]] — Range: 8 source-backed entries and 0 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
-- [[rpg-dnd-srd-excerpt-section-ranged-attacks-ed9e33b3]] — Ranged Attacks: 3 source-backed entries and 0 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
-- [[rpg-dnd-srd-excerpt-section-ranged-attacks-in-close-combat-093c5dbd]] — Ranged Attacks in Close Combat: 3 source-backed entries and 0 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
-- [[rpg-dnd-srd-excerpt-section-reactions-c84fe56a]] — Reactions: 6 source-backed entries and 1 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
-- [[rpg-dnd-srd-excerpt-section-ready-9c11a4a8]] — Ready: 11 source-backed entries and 2 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
-- [[rpg-dnd-srd-excerpt-section-restrained-03413479]] — Restrained: 3 source-backed entries and 0 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
-- [[rpg-dnd-srd-excerpt-section-rolling-1-or-20-2eb6d92f]] — Rolling 1 or 20: 4 source-backed entries and 1 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
-- [[rpg-dnd-srd-excerpt-section-sample-spells-b58550a9]] — Sample Spells: 3 source-backed entries and 0 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
-- [[rpg-dnd-srd-excerpt-section-saving-throws-aacc59ed]] — Saving Throws: 14 source-backed entries and 0 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
-- [[rpg-dnd-srd-excerpt-section-search-df34b80d]] — Search: 1 source-backed entries and 0 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
-- [[rpg-dnd-srd-excerpt-section-shoving-a-creature-59635250]] — Shoving a Creature: 7 source-backed entries and 1 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
-- [[rpg-dnd-srd-excerpt-section-silvered-weapons-e277ff98]] — Silvered Weapons: 4 source-backed entries and 0 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
-- [[rpg-dnd-srd-excerpt-section-skills-758d5f41]] — Skills: 17 source-backed entries and 2 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
-- [[rpg-dnd-srd-excerpt-section-space-ec5019a3]] — Space: 11 source-backed entries and 1 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
-- [[rpg-dnd-srd-excerpt-section-special-weapons-9c88adbe]] — Special Weapons: 8 source-backed entries and 1 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
-- [[rpg-dnd-srd-excerpt-section-spellcasting-ability-567e86c4]] — Spellcasting Ability: 1 source-backed entries and 0 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
-- [[rpg-dnd-srd-excerpt-section-spellcasting-ability-59e646c0]] — Spellcasting Ability: 1 source-backed entries and 0 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
-- [[rpg-dnd-srd-excerpt-section-spellcasting-ability-90d8c80e]] — Spellcasting Ability: 1 source-backed entries and 0 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
-- [[rpg-dnd-srd-excerpt-section-squeezing-into-a-smaller-space-9469279b]] — Squeezing into a Smaller Space: 5 source-backed entries and 1 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
-- [[rpg-dnd-srd-excerpt-section-stabilizing-a-creature-b8b7261c]] — Stabilizing a Creature: 7 source-backed entries and 2 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
-- [[rpg-dnd-srd-excerpt-section-strength-8396e66d]] — Strength: 1 source-backed entries and 0 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
-- [[rpg-dnd-srd-excerpt-section-strength-checks-2598840d]] — Strength Checks: 4 source-backed entries and 0 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
-- [[rpg-dnd-srd-excerpt-section-stunned-9553247e]] — Stunned: 3 source-backed entries and 0 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
-- [[rpg-dnd-srd-excerpt-section-surprise-20f75fb1]] — Surprise: 6 source-backed entries and 1 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
-- [[rpg-dnd-srd-excerpt-section-table-difficulty-classes-dedbc8ab]] — Table- Difficulty Classes: 5 source-backed entries and 0 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
-- [[rpg-dnd-srd-excerpt-section-temporary-hit-points-2abcb3fc]] — Temporary Hit Points: 6 source-backed entries and 3 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
-- [[rpg-dnd-srd-excerpt-section-two-weapon-fighting-d747dc89]] — Two-Weapon Fighting: 4 source-backed entries and 2 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
-- [[rpg-dnd-srd-excerpt-section-unconscious-c42b9f00]] — Unconscious: 4 source-backed entries and 0 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
-- [[rpg-dnd-srd-excerpt-section-underwater-combat-315f8d55]] — Underwater Combat: 5 source-backed entries and 0 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
-- [[rpg-dnd-srd-excerpt-section-unseen-attackers-and-targets-34a15285]] — Unseen Attackers and Targets: 5 source-backed entries and 2 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
-- [[rpg-dnd-srd-excerpt-section-use-an-object-7ae04a88]] — Use an Object: 3 source-backed entries and 1 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
-- [[rpg-dnd-srd-excerpt-section-using-ability-scores-6e2fd026]] — USING ABILITY SCORES: 4 source-backed entries and 0 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
-- [[rpg-dnd-srd-excerpt-section-using-different-speeds-683f5075]] — Using Different Speeds: 5 source-backed entries and 2 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
-- [[rpg-dnd-srd-excerpt-section-using-each-ability-a754d275]] — Using Each Ability: 1 source-backed entries and 0 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
-- [[rpg-dnd-srd-excerpt-section-variant-encumbrance-8837948f]] — Variant: Encumbrance: 6 source-backed entries and 0 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
-- [[rpg-dnd-srd-excerpt-section-variant-skills-with-different-abilities-666b927b]] — Variant: Skills with Different Abilities: 7 source-backed entries and 1 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
-- [[rpg-dnd-srd-excerpt-section-weapon-proficiency-3d901e8a]] — Weapon Proficiency: 9 source-backed entries and 1 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
-- [[rpg-dnd-srd-excerpt-section-weapon-properties-4c512016]] — Weapon Properties: 25 source-backed entries and 6 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
-- [[rpg-dnd-srd-excerpt-section-weapons-128294c0]] — Weapons: 6 source-backed entries and 0 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
-- [[rpg-dnd-srd-excerpt-section-wisdom-0f483255]] — Wisdom: 1 source-backed entries and 0 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
-- [[rpg-dnd-srd-excerpt-section-wisdom-checks-36cee967]] — Wisdom Checks: 9 source-backed entries and 2 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
-- [[rpg-dnd-srd-excerpt-section-wolf-2dfe1e08]] — Wolf: 5 source-backed entries and 2 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
-- [[rpg-dnd-srd-excerpt-section-working-together-14f108de]] — Working Together: 9 source-backed entries and 1 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
-- [[rpg-dnd-srd-excerpt-section-your-turn-d6c43ca7]] — Your Turn: 6 source-backed entries and 1 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
-- [[rpg-dnd-srd-excerpt-section-zombie-be6e57db]] — Zombie: 2 source-backed entries and 2 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
+- [[rpg-cairn-2e-core]] — Claim-ledger projection (general-prose): 675 usable entries, 88 technical atoms, 174 needs-review, 165 linked page(s); write decision write-with-review-work.
+- [[rpg-cairn-2e-core-section-6-discovery-792c12c4]] — 6 Discovery: 1 source-backed entries and 0 atom(s) from raw/rpg_cairn_2e_core.pdf.
+- [[rpg-cairn-2e-core-section-actions-1237b4aa]] — Actions: 4 source-backed entries and 1 atom(s) from raw/rpg_cairn_2e_core.pdf.
+- [[rpg-cairn-2e-core-section-actions-81a6f420]] — Actions: 4 source-backed entries and 0 atom(s) from raw/rpg_cairn_2e_core.pdf.
+- [[rpg-cairn-2e-core-section-agency-e47bbcde]] — Agency: 4 source-backed entries and 0 atom(s) from raw/rpg_cairn_2e_core.pdf.
+- [[rpg-cairn-2e-core-section-aiding-an-ally-fc6b4c38]] — Aiding an Ally: 11 source-backed entries and 0 atom(s) from raw/rpg_cairn_2e_core.pdf.
+- [[rpg-cairn-2e-core-section-ambition-9aba833a]] — Ambition: 2 source-backed entries and 0 atom(s) from raw/rpg_cairn_2e_core.pdf.
+- [[rpg-cairn-2e-core-section-armor-dfb82cd6]] — Armor: 5 source-backed entries and 2 atom(s) from raw/rpg_cairn_2e_core.pdf.
+- [[rpg-cairn-2e-core-section-attack-modifiers-b522f2b3]] — Attack Modifiers: 6 source-backed entries and 4 atom(s) from raw/rpg_cairn_2e_core.pdf.
+- [[rpg-cairn-2e-core-section-attacking-damage-cfe2dd11]] — Attacking & Damage: 6 source-backed entries and 1 atom(s) from raw/rpg_cairn_2e_core.pdf.
+- [[rpg-cairn-2e-core-section-attribute-loss-43069e9b]] — Attribute Loss: 6 source-backed entries and 0 atom(s) from raw/rpg_cairn_2e_core.pdf.
+- [[rpg-cairn-2e-core-section-attributes-499a4ea6]] — Attributes: 5 source-backed entries and 1 atom(s) from raw/rpg_cairn_2e_core.pdf.
+- [[rpg-cairn-2e-core-section-attributes-e07483b5]] — Attributes: 4 source-backed entries and 0 atom(s) from raw/rpg_cairn_2e_core.pdf.
+- [[rpg-cairn-2e-core-section-attributes-hit-protection-and-traits-dbd2ce84]] — Attributes, Hit Protection, and Traits: 7 source-backed entries and 1 atom(s) from raw/rpg_cairn_2e_core.pdf.
+- [[rpg-cairn-2e-core-section-bonds-346d503f]] — Bonds: 6 source-backed entries and 5 atom(s) from raw/rpg_cairn_2e_core.pdf.
+- [[rpg-cairn-2e-core-section-bonds-and-omens-9c1b4e1c]] — Bonds and Omens: 0 source-backed entries and 8 atom(s) from raw/rpg_cairn_2e_core.pdf.
+- [[rpg-cairn-2e-core-section-bonds-c7fd7420]] — Bonds: 3 source-backed entries and 5 atom(s) from raw/rpg_cairn_2e_core.pdf.
+- [[rpg-cairn-2e-core-section-bonds-should-f66b8dbf]] — Bonds Should...: 4 source-backed entries and 5 atom(s) from raw/rpg_cairn_2e_core.pdf.
+- [[rpg-cairn-2e-core-section-cairn-2e-core-rulebook-f7f33d61]] — Cairn 2e Core Rulebook: 2 source-backed entries and 0 atom(s) from raw/rpg_cairn_2e_core.pdf.
+- [[rpg-cairn-2e-core-section-casting-spells-b2440bb6]] — Casting Spells: 4 source-backed entries and 1 atom(s) from raw/rpg_cairn_2e_core.pdf.
+- [[rpg-cairn-2e-core-section-caution-791c1847]] — Caution: 2 source-backed entries and 0 atom(s) from raw/rpg_cairn_2e_core.pdf.
+- [[rpg-cairn-2e-core-section-character-death-dbf82c55]] — Character Death: 1 source-backed entries and 1 atom(s) from raw/rpg_cairn_2e_core.pdf.
+- [[rpg-cairn-2e-core-section-character-traits-d10-05cd98c6]] — Character Traits (d10): 1 source-backed entries and 1 atom(s) from raw/rpg_cairn_2e_core.pdf.
+- [[rpg-cairn-2e-core-section-choice-701cc0d2]] — Choice: 2 source-backed entries and 0 atom(s) from raw/rpg_cairn_2e_core.pdf.
+- [[rpg-cairn-2e-core-section-classless-1dabc7b0]] — Classless: 1 source-backed entries and 0 atom(s) from raw/rpg_cairn_2e_core.pdf.
+- [[rpg-cairn-2e-core-section-costs-a37e3587]] — Costs: 3 source-backed entries and 1 atom(s) from raw/rpg_cairn_2e_core.pdf.
+- [[rpg-cairn-2e-core-section-critical-damage-c3775c99]] — Critical Damage: 10 source-backed entries and 2 atom(s) from raw/rpg_cairn_2e_core.pdf.
+- [[rpg-cairn-2e-core-section-danger-1b8ef84d]] — Danger: 2 source-backed entries and 0 atom(s) from raw/rpg_cairn_2e_core.pdf.
+- [[rpg-cairn-2e-core-section-day-one-watch-one-9e839c3b]] — Day One / Watch One: 2 source-backed entries and 0 atom(s) from raw/rpg_cairn_2e_core.pdf.
+- [[rpg-cairn-2e-core-section-day-one-watch-three-3c7cbfcd]] — Day One / Watch Three: 4 source-backed entries and 0 atom(s) from raw/rpg_cairn_2e_core.pdf.
+- [[rpg-cairn-2e-core-section-day-one-watch-two-0f225abd]] — Day One / Watch Two: 3 source-backed entries and 0 atom(s) from raw/rpg_cairn_2e_core.pdf.
+- [[rpg-cairn-2e-core-section-death-194c20bb]] — Death: 2 source-backed entries and 0 atom(s) from raw/rpg_cairn_2e_core.pdf.
+- [[rpg-cairn-2e-core-section-deprivation-fatigue-df262256]] — Deprivation & Fatigue: 9 source-backed entries and 0 atom(s) from raw/rpg_cairn_2e_core.pdf.
+- [[rpg-cairn-2e-core-section-detachments-28eacb74]] — Detachments: 3 source-backed entries and 0 atom(s) from raw/rpg_cairn_2e_core.pdf.
+- [[rpg-cairn-2e-core-section-dexterity-53da525c]] — Dexterity: 9 source-backed entries and 0 atom(s) from raw/rpg_cairn_2e_core.pdf.
+- [[rpg-cairn-2e-core-section-die-of-fate-b7b4c282]] — Die of Fate: 3 source-backed entries and 1 atom(s) from raw/rpg_cairn_2e_core.pdf.
+- [[rpg-cairn-2e-core-section-die-of-fate-b934a31a]] — Die of Fate: 3 source-backed entries and 1 atom(s) from raw/rpg_cairn_2e_core.pdf.
+- [[rpg-cairn-2e-core-section-difficulty-70bc25f1]] — Difficulty: 2 source-backed entries and 1 atom(s) from raw/rpg_cairn_2e_core.pdf.
+- [[rpg-cairn-2e-core-section-doors-f903109d]] — Doors: 3 source-backed entries and 0 atom(s) from raw/rpg_cairn_2e_core.pdf.
+- [[rpg-cairn-2e-core-section-downtime-15d9939e]] — Downtime: 6 source-backed entries and 1 atom(s) from raw/rpg_cairn_2e_core.pdf.
+- [[rpg-cairn-2e-core-section-downtime-actions-29d3846a]] — Downtime Actions: 2 source-backed entries and 0 atom(s) from raw/rpg_cairn_2e_core.pdf.
+- [[rpg-cairn-2e-core-section-dungeon-events-b8197f61]] — Dungeon Events: 1 source-backed entries and 1 atom(s) from raw/rpg_cairn_2e_core.pdf.
+- [[rpg-cairn-2e-core-section-dungeon-exploration-cycle-313c6443]] — Dungeon Exploration Cycle: 9 source-backed entries and 2 atom(s) from raw/rpg_cairn_2e_core.pdf.
+- [[rpg-cairn-2e-core-section-dungeon-exploration-example-4605d2d7]] — Dungeon Exploration Example: 4 source-backed entries and 1 atom(s) from raw/rpg_cairn_2e_core.pdf.
+- [[rpg-cairn-2e-core-section-example-709bf456]] — Example: 44 source-backed entries and 3 atom(s) from raw/rpg_cairn_2e_core.pdf.
+- [[rpg-cairn-2e-core-section-examples-2a1f5096]] — Examples:: 4 source-backed entries and 1 atom(s) from raw/rpg_cairn_2e_core.pdf.
+- [[rpg-cairn-2e-core-section-examples-70acc0e0]] — Examples:: 11 source-backed entries and 3 atom(s) from raw/rpg_cairn_2e_core.pdf.
+- [[rpg-cairn-2e-core-section-examples-99070ad1]] — Examples:: 1 source-backed entries and 1 atom(s) from raw/rpg_cairn_2e_core.pdf.
+- [[rpg-cairn-2e-core-section-examples-bed5a0f4]] — Examples:: 6 source-backed entries and 1 atom(s) from raw/rpg_cairn_2e_core.pdf.
+- [[rpg-cairn-2e-core-section-exploration-36e2df15]] — Exploration: 2 source-backed entries and 0 atom(s) from raw/rpg_cairn_2e_core.pdf.
+- [[rpg-cairn-2e-core-section-exploration-example-75e72951]] — Exploration Example: 6 source-backed entries and 3 atom(s) from raw/rpg_cairn_2e_core.pdf.
+- [[rpg-cairn-2e-core-section-explore-115b5795]] — Explore: 2 source-backed entries and 0 atom(s) from raw/rpg_cairn_2e_core.pdf.
+- [[rpg-cairn-2e-core-section-fiction-first-9df02c30]] — Fiction First: 1 source-backed entries and 0 atom(s) from raw/rpg_cairn_2e_core.pdf.
+- [[rpg-cairn-2e-core-section-freya-0d08dae7]] — Freya :: 8 source-backed entries and 0 atom(s) from raw/rpg_cairn_2e_core.pdf.
+- [[rpg-cairn-2e-core-section-freya-8cf7750d]] — Freya: 12 source-backed entries and 0 atom(s) from raw/rpg_cairn_2e_core.pdf.
+- [[rpg-cairn-2e-core-section-gear-95fa0419]] — Gear: 2 source-backed entries and 2 atom(s) from raw/rpg_cairn_2e_core.pdf.
+- [[rpg-cairn-2e-core-section-healing-recovery-08e6dd04]] — Healing & Recovery: 4 source-backed entries and 0 atom(s) from raw/rpg_cairn_2e_core.pdf.
+- [[rpg-cairn-2e-core-section-hirelings-73066f7a]] — Hirelings: 4 source-backed entries and 4 atom(s) from raw/rpg_cairn_2e_core.pdf.
+- [[rpg-cairn-2e-core-section-hirelings-per-day-eca0d41a]] — Hirelings (per day): 4 source-backed entries and 4 atom(s) from raw/rpg_cairn_2e_core.pdf.
+- [[rpg-cairn-2e-core-section-hit-protection-aa5b8958]] — Hit Protection: 3 source-backed entries and 1 atom(s) from raw/rpg_cairn_2e_core.pdf.
+- [[rpg-cairn-2e-core-section-information-6ebbf1eb]] — Information: 4 source-backed entries and 0 atom(s) from raw/rpg_cairn_2e_core.pdf.
+- [[rpg-cairn-2e-core-section-introduction-37f697ed]] — Introduction: 3 source-backed entries and 1 atom(s) from raw/rpg_cairn_2e_core.pdf.
+- [[rpg-cairn-2e-core-section-introduction-5c0bef31]] — Introduction: 2 source-backed entries and 0 atom(s) from raw/rpg_cairn_2e_core.pdf.
+- [[rpg-cairn-2e-core-section-introduction-d2be3583]] — Introduction: 10 source-backed entries and 2 atom(s) from raw/rpg_cairn_2e_core.pdf.
+- [[rpg-cairn-2e-core-section-inventory-0f4fa5e6]] — Inventory: 7 source-backed entries and 1 atom(s) from raw/rpg_cairn_2e_core.pdf.
+- [[rpg-cairn-2e-core-section-inventory-slots-a634ef91]] — Inventory Slots: 4 source-backed entries and 1 atom(s) from raw/rpg_cairn_2e_core.pdf.
+- [[rpg-cairn-2e-core-section-knowledge-8fbf2826]] — Knowledge: 7 source-backed entries and 0 atom(s) from raw/rpg_cairn_2e_core.pdf.
+- [[rpg-cairn-2e-core-section-light-2774f8bf]] — Light: 5 source-backed entries and 0 atom(s) from raw/rpg_cairn_2e_core.pdf.
+- [[rpg-cairn-2e-core-section-light-6ce2637e]] — Light: 4 source-backed entries and 0 atom(s) from raw/rpg_cairn_2e_core.pdf.
+- [[rpg-cairn-2e-core-section-light-sources-a4f1f11b]] — Light Sources: 3 source-backed entries and 0 atom(s) from raw/rpg_cairn_2e_core.pdf.
+- [[rpg-cairn-2e-core-section-lucius-0a3372b0]] — Lucius :: 19 source-backed entries and 1 atom(s) from raw/rpg_cairn_2e_core.pdf.
+- [[rpg-cairn-2e-core-section-lucius-39d4b14f]] — Lucius :: 6 source-backed entries and 0 atom(s) from raw/rpg_cairn_2e_core.pdf.
+- [[rpg-cairn-2e-core-section-lucius-98ac3809]] — Lucius: 21 source-backed entries and 2 atom(s) from raw/rpg_cairn_2e_core.pdf.
+- [[rpg-cairn-2e-core-section-make-camp-c8c10702]] — Make Camp: 3 source-backed entries and 0 atom(s) from raw/rpg_cairn_2e_core.pdf.
+- [[rpg-cairn-2e-core-section-milestones-4ff73c1f]] — Milestones: 3 source-backed entries and 0 atom(s) from raw/rpg_cairn_2e_core.pdf.
+- [[rpg-cairn-2e-core-section-morale-b2b9e7d0]] — Morale: 4 source-backed entries and 1 atom(s) from raw/rpg_cairn_2e_core.pdf.
+- [[rpg-cairn-2e-core-section-narrative-focus-c5ee5de0]] — Narrative Focus: 3 source-backed entries and 0 atom(s) from raw/rpg_cairn_2e_core.pdf.
+- [[rpg-cairn-2e-core-section-neutrality-ec652e44]] — Neutrality: 1 source-backed entries and 0 atom(s) from raw/rpg_cairn_2e_core.pdf.
+- [[rpg-cairn-2e-core-section-night-c0f18cbc]] — Night: 6 source-backed entries and 1 atom(s) from raw/rpg_cairn_2e_core.pdf.
+- [[rpg-cairn-2e-core-section-omens-209c607c]] — Omens: 4 source-backed entries and 10 atom(s) from raw/rpg_cairn_2e_core.pdf.
+- [[rpg-cairn-2e-core-section-omens-712debff]] — Omens: 7 source-backed entries and 9 atom(s) from raw/rpg_cairn_2e_core.pdf.
+- [[rpg-cairn-2e-core-section-omens-should-48b26c64]] — Omens Should...: 8 source-backed entries and 9 atom(s) from raw/rpg_cairn_2e_core.pdf.
+- [[rpg-cairn-2e-core-section-opposed-saves-c6765074]] — Opposed Saves: 8 source-backed entries and 0 atom(s) from raw/rpg_cairn_2e_core.pdf.
+- [[rpg-cairn-2e-core-section-overview-c5ec9cfb]] — Overview: 1 source-backed entries and 0 atom(s) from raw/rpg_cairn_2e_core.pdf.
+- [[rpg-cairn-2e-core-section-panic-2ea60afc]] — Panic: 4 source-backed entries and 1 atom(s) from raw/rpg_cairn_2e_core.pdf.
+- [[rpg-cairn-2e-core-section-perception-6856f2ff]] — Perception: 24 source-backed entries and 5 atom(s) from raw/rpg_cairn_2e_core.pdf.
+- [[rpg-cairn-2e-core-section-planning-169326b1]] — Planning: 1 source-backed entries and 0 atom(s) from raw/rpg_cairn_2e_core.pdf.
+- [[rpg-cairn-2e-core-section-player-choice-f61f8329]] — Player Choice: 1 source-backed entries and 0 atom(s) from raw/rpg_cairn_2e_core.pdf.
+- [[rpg-cairn-2e-core-section-points-7cd82382]] — Points: 2 source-backed entries and 0 atom(s) from raw/rpg_cairn_2e_core.pdf.
+- [[rpg-cairn-2e-core-section-preparation-fb637dc2]] — Preparation: 5 source-backed entries and 0 atom(s) from raw/rpg_cairn_2e_core.pdf.
+- [[rpg-cairn-2e-core-section-principles-4020751a]] — Principles: 9 source-backed entries and 0 atom(s) from raw/rpg_cairn_2e_core.pdf.
+- [[rpg-cairn-2e-core-section-questions-a6fb4a85]] — Questions: 1 source-backed entries and 0 atom(s) from raw/rpg_cairn_2e_core.pdf.
+- [[rpg-cairn-2e-core-section-ranged-attacks-b13271be]] — Ranged Attacks: 4 source-backed entries and 0 atom(s) from raw/rpg_cairn_2e_core.pdf.
+- [[rpg-cairn-2e-core-section-reactions-4cd47249]] — Reactions: 2 source-backed entries and 2 atom(s) from raw/rpg_cairn_2e_core.pdf.
+- [[rpg-cairn-2e-core-section-relics-2478db78]] — Relics: 4 source-backed entries and 0 atom(s) from raw/rpg_cairn_2e_core.pdf.
+- [[rpg-cairn-2e-core-section-relics-907f5b51]] — Relics: 3 source-backed entries and 1 atom(s) from raw/rpg_cairn_2e_core.pdf.
+- [[rpg-cairn-2e-core-section-research-86b05cf8]] — Research: 4 source-backed entries and 1 atom(s) from raw/rpg_cairn_2e_core.pdf.
+- [[rpg-cairn-2e-core-section-resting-26943d0a]] — Resting: 4 source-backed entries and 0 atom(s) from raw/rpg_cairn_2e_core.pdf.
+- [[rpg-cairn-2e-core-section-retreat-05c11f84]] — Retreat: 1 source-backed entries and 0 atom(s) from raw/rpg_cairn_2e_core.pdf.
+- [[rpg-cairn-2e-core-section-roll-or-choose-a-background-c345726c]] — Roll or choose a Background: 5 source-backed entries and 0 atom(s) from raw/rpg_cairn_2e_core.pdf.
+- [[rpg-cairn-2e-core-section-rounds-afada9d0]] — Rounds: 8 source-backed entries and 0 atom(s) from raw/rpg_cairn_2e_core.pdf.
+- [[rpg-cairn-2e-core-section-save-principles-3a81b274]] — Save Principles: 17 source-backed entries and 2 atom(s) from raw/rpg_cairn_2e_core.pdf.
+- [[rpg-cairn-2e-core-section-saves-2e4d82ab]] — Saves: 6 source-backed entries and 0 atom(s) from raw/rpg_cairn_2e_core.pdf.
+- [[rpg-cairn-2e-core-section-scars-c3c30834]] — Scars: 3 source-backed entries and 1 atom(s) from raw/rpg_cairn_2e_core.pdf.
+- [[rpg-cairn-2e-core-section-scars-table-c2716a8b]] — Scars Table: 1 source-backed entries and 1 atom(s) from raw/rpg_cairn_2e_core.pdf.
+- [[rpg-cairn-2e-core-section-scrolls-07e25b27]] — Scrolls: 3 source-backed entries and 0 atom(s) from raw/rpg_cairn_2e_core.pdf.
+- [[rpg-cairn-2e-core-section-searching-b84659fc]] — Searching: 3 source-backed entries and 0 atom(s) from raw/rpg_cairn_2e_core.pdf.
+- [[rpg-cairn-2e-core-section-shared-objectives-4a02a13d]] — Shared Objectives: 3 source-backed entries and 0 atom(s) from raw/rpg_cairn_2e_core.pdf.
+- [[rpg-cairn-2e-core-section-skin-7e908c0c]] — Skin: 1 source-backed entries and 1 atom(s) from raw/rpg_cairn_2e_core.pdf.
+- [[rpg-cairn-2e-core-section-sleep-0f3e5803]] — Sleep: 5 source-backed entries and 1 atom(s) from raw/rpg_cairn_2e_core.pdf.
+- [[rpg-cairn-2e-core-section-sources-e290c62e]] — Sources: 2 source-backed entries and 0 atom(s) from raw/rpg_cairn_2e_core.pdf.
+- [[rpg-cairn-2e-core-section-speech-64483ba6]] — Speech: 4 source-backed entries and 4 atom(s) from raw/rpg_cairn_2e_core.pdf.
+- [[rpg-cairn-2e-core-section-spellbooks-24496e7d]] — Spellbooks: 6 source-backed entries and 0 atom(s) from raw/rpg_cairn_2e_core.pdf.
+- [[rpg-cairn-2e-core-section-strength-3af11a68]] — Strength: 1 source-backed entries and 0 atom(s) from raw/rpg_cairn_2e_core.pdf.
+- [[rpg-cairn-2e-core-section-strengthening-ties-b05bb3ed]] — Strengthening Ties: 4 source-backed entries and 0 atom(s) from raw/rpg_cairn_2e_core.pdf.
+- [[rpg-cairn-2e-core-section-supply-c3f6bb75]] — Supply: 4 source-backed entries and 0 atom(s) from raw/rpg_cairn_2e_core.pdf.
+- [[rpg-cairn-2e-core-section-talking-04956a6a]] — Talking: 3 source-backed entries and 1 atom(s) from raw/rpg_cairn_2e_core.pdf.
+- [[rpg-cairn-2e-core-section-teamwork-cf2b684a]] — Teamwork: 2 source-backed entries and 0 atom(s) from raw/rpg_cairn_2e_core.pdf.
+- [[rpg-cairn-2e-core-section-the-basics-6ef0903e]] — The Basics: 6 source-backed entries and 0 atom(s) from raw/rpg_cairn_2e_core.pdf.
+- [[rpg-cairn-2e-core-section-the-courtyard-93b7b5b1]] — The Courtyard: 24 source-backed entries and 0 atom(s) from raw/rpg_cairn_2e_core.pdf.
+- [[rpg-cairn-2e-core-section-training-9ead6484]] — Training: 6 source-backed entries and 1 atom(s) from raw/rpg_cairn_2e_core.pdf.
+- [[rpg-cairn-2e-core-section-traps-fa102377]] — Traps: 5 source-backed entries and 1 atom(s) from raw/rpg_cairn_2e_core.pdf.
+- [[rpg-cairn-2e-core-section-travel-a45f7ef3]] — Travel: 4 source-backed entries and 0 atom(s) from raw/rpg_cairn_2e_core.pdf.
+- [[rpg-cairn-2e-core-section-travel-duration-1bf0928f]] — Travel Duration: 6 source-backed entries and 0 atom(s) from raw/rpg_cairn_2e_core.pdf.
+- [[rpg-cairn-2e-core-section-treasure-38687088]] — Treasure: 4 source-backed entries and 0 atom(s) from raw/rpg_cairn_2e_core.pdf.
+- [[rpg-cairn-2e-core-section-warden-99e19baf]] — Warden :: 7 source-backed entries and 0 atom(s) from raw/rpg_cairn_2e_core.pdf.
+- [[rpg-cairn-2e-core-section-warden-b4ff9885]] — Warden: 9 source-backed entries and 0 atom(s) from raw/rpg_cairn_2e_core.pdf.
+- [[rpg-cairn-2e-core-section-watches-42f40fe8]] — Watches: 3 source-backed entries and 0 atom(s) from raw/rpg_cairn_2e_core.pdf.
+- [[rpg-cairn-2e-core-section-weather-59725afd]] — Weather: 3 source-backed entries and 2 atom(s) from raw/rpg_cairn_2e_core.pdf.
+- [[rpg-cairn-2e-core-section-weather-type-42af1bc5]] — Weather Type: 1 source-backed entries and 1 atom(s) from raw/rpg_cairn_2e_core.pdf.
+- [[rpg-cairn-2e-core-section-when-to-save-a331d0d6]] — When To Save: 1 source-backed entries and 0 atom(s) from raw/rpg_cairn_2e_core.pdf.
+- [[rpg-cairn-2e-core-section-wil-68009b69]] — WIL: 11 source-backed entries and 4 atom(s) from raw/rpg_cairn_2e_core.pdf.
+- [[rpg-cairn-2e-core-section-wilderness-events-715e5ffa]] — Wilderness Events: 3 source-backed entries and 3 atom(s) from raw/rpg_cairn_2e_core.pdf.
+- [[rpg-cairn-2e-core-section-wilderness-exploration-cycle-e19c5889]] — Wilderness Exploration Cycle: 4 source-backed entries and 0 atom(s) from raw/rpg_cairn_2e_core.pdf.
+- [[rpg-dnd-srd-excerpt]] — Claim-ledger projection (general-prose): 740 usable entries, 129 technical atoms, 151 needs-review, 164 linked page(s); write decision write-with-review-work.
+- [[rpg-dnd-srd-excerpt-section-1st-level-abjuration-4d9b5649]] — 1st-level abjuration: 2 source-backed entries and 0 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
+- [[rpg-dnd-srd-excerpt-section-3rd-level-evocation-a297c63a]] — 3rd-level evocation: 4 source-backed entries and 1 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
+- [[rpg-dnd-srd-excerpt-section-ability-checks-4c233b89]] — Ability Checks: 4 source-backed entries and 0 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
+- [[rpg-dnd-srd-excerpt-section-ability-scores-and-modifiers-f1395637]] — Ability Scores and Modifiers: 9 source-backed entries and 1 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
+- [[rpg-dnd-srd-excerpt-section-actions-2e803259]] — Actions: 1 source-backed entries and 1 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
+- [[rpg-dnd-srd-excerpt-section-actions-in-combat-8be4270d]] — Actions in Combat: 3 source-backed entries and 1 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
+- [[rpg-dnd-srd-excerpt-section-advantage-and-disadvantage-d9ec4ae5]] — Advantage and Disadvantage: 18 source-backed entries and 4 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
+- [[rpg-dnd-srd-excerpt-section-armor-409d90ee]] — Armor: 12 source-backed entries and 3 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
+- [[rpg-dnd-srd-excerpt-section-armor-class-ea704a17]] — Armor Class: 1 source-backed entries and 1 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
+- [[rpg-dnd-srd-excerpt-section-attack-a37666d0]] — Attack: 3 source-backed entries and 0 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
+- [[rpg-dnd-srd-excerpt-section-attack-rolls-a1ef4198]] — Attack Rolls: 5 source-backed entries and 1 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
+- [[rpg-dnd-srd-excerpt-section-attack-rolls-and-damage-cb9659f5]] — Attack Rolls and Damage: 3 source-backed entries and 1 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
+- [[rpg-dnd-srd-excerpt-section-attack-rolls-and-damage-de1995a9]] — Attack Rolls and Damage: 3 source-backed entries and 0 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
+- [[rpg-dnd-srd-excerpt-section-being-prone-fb1b8b4e]] — Being Prone: 8 source-backed entries and 2 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
+- [[rpg-dnd-srd-excerpt-section-blinded-adee0c3e]] — Blinded: 2 source-backed entries and 0 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
+- [[rpg-dnd-srd-excerpt-section-bonus-actions-11ee73e8]] — Bonus Actions: 2 source-backed entries and 2 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
+- [[rpg-dnd-srd-excerpt-section-breaking-up-your-move-a29de255]] — Breaking Up Your Move: 2 source-backed entries and 2 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
+- [[rpg-dnd-srd-excerpt-section-cast-a-spell-02a26cd2]] — Cast a Spell: 5 source-backed entries and 1 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
+- [[rpg-dnd-srd-excerpt-section-casting-time-1-action-2f885218]] — Casting Time: 1 action: 2 source-backed entries and 1 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
+- [[rpg-dnd-srd-excerpt-section-charisma-1e976fbc]] — Charisma: 1 source-backed entries and 0 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
+- [[rpg-dnd-srd-excerpt-section-charisma-checks-ea0583fe]] — Charisma Checks: 11 source-backed entries and 0 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
+- [[rpg-dnd-srd-excerpt-section-charmed-7b6a12b0]] — Charmed: 2 source-backed entries and 1 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
+- [[rpg-dnd-srd-excerpt-section-combat-step-by-step-e8b5e96c]] — Combat Step by Step: 7 source-backed entries and 0 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
+- [[rpg-dnd-srd-excerpt-section-conditions-3a8298ed]] — Conditions: 8 source-backed entries and 0 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
+- [[rpg-dnd-srd-excerpt-section-constitution-checks-5cc513aa]] — Constitution Checks: 5 source-backed entries and 0 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
+- [[rpg-dnd-srd-excerpt-section-contests-7990a7bd]] — Contests: 11 source-backed entries and 1 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
+- [[rpg-dnd-srd-excerpt-section-contests-in-combat-e0c4153d]] — Contests in Combat: 2 source-backed entries and 1 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
+- [[rpg-dnd-srd-excerpt-section-controlling-a-mount-7215e297]] — Controlling a Mount: 11 source-backed entries and 2 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
+- [[rpg-dnd-srd-excerpt-section-cover-ddaf40a6]] — Cover: 14 source-backed entries and 1 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
+- [[rpg-dnd-srd-excerpt-section-creature-size-02476a3b]] — Creature Size: 3 source-backed entries and 1 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
+- [[rpg-dnd-srd-excerpt-section-critical-hits-1613cf50]] — Critical Hits: 7 source-backed entries and 2 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
+- [[rpg-dnd-srd-excerpt-section-damage-and-healing-6a5ceb8f]] — Damage and Healing: 2 source-backed entries and 0 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
+- [[rpg-dnd-srd-excerpt-section-damage-resistance-and-vulnerability-fc890dcd]] — Damage Resistance and Vulnerability: 6 source-backed entries and 2 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
+- [[rpg-dnd-srd-excerpt-section-damage-rolls-ed2397b9]] — Damage Rolls: 8 source-backed entries and 2 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
+- [[rpg-dnd-srd-excerpt-section-damage-types-162a680f]] — Damage Types: 6 source-backed entries and 0 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
+- [[rpg-dnd-srd-excerpt-section-dash-0897e3e1]] — Dash: 3 source-backed entries and 3 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
+- [[rpg-dnd-srd-excerpt-section-deafened-d15213fa]] — Deafened: 1 source-backed entries and 0 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
+- [[rpg-dnd-srd-excerpt-section-death-saving-throws-779385ff]] — Death Saving Throws: 11 source-backed entries and 1 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
+- [[rpg-dnd-srd-excerpt-section-dexterity-checks-c40051a1]] — Dexterity Checks: 7 source-backed entries and 1 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
+- [[rpg-dnd-srd-excerpt-section-difficult-terrain-8ce1a5fc]] — Difficult Terrain: 3 source-backed entries and 0 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
+- [[rpg-dnd-srd-excerpt-section-dodge-24815cf3]] — Dodge: 2 source-backed entries and 1 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
+- [[rpg-dnd-srd-excerpt-section-dropping-to-0-hit-points-6b11c0cc]] — Dropping to 0 Hit Points: 1 source-backed entries and 0 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
+- [[rpg-dnd-srd-excerpt-section-dungeons-dragons-srd-5-1-core-rules-excerpt-8a6985ad]] — Dungeons & Dragons SRD 5.1 -Core Rules (Excerpt): 1 source-backed entries and 0 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
+- [[rpg-dnd-srd-excerpt-section-exhaustion-75d1dd1f]] — Exhaustion: 8 source-backed entries and 1 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
+- [[rpg-dnd-srd-excerpt-section-falling-unconscious-7eeaa836]] — Falling Unconscious: 1 source-backed entries and 0 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
+- [[rpg-dnd-srd-excerpt-section-flying-movement-4e38a4d6]] — Flying Movement: 3 source-backed entries and 1 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
+- [[rpg-dnd-srd-excerpt-section-frightened-d1447857]] — Frightened: 7 source-backed entries and 2 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
+- [[rpg-dnd-srd-excerpt-section-getting-into-and-out-of-armor-ae17208d]] — Getting Into and Out of Armor: 4 source-backed entries and 2 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
+- [[rpg-dnd-srd-excerpt-section-goblin-6c2e03a8]] — Goblin: 7 source-backed entries and 6 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
+- [[rpg-dnd-srd-excerpt-section-grappling-907a1478]] — Grappling: 11 source-backed entries and 4 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
+- [[rpg-dnd-srd-excerpt-section-group-checks-d9955b09]] — Group Checks: 7 source-backed entries and 0 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
+- [[rpg-dnd-srd-excerpt-section-healing-030b1809]] — Healing: 10 source-backed entries and 1 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
+- [[rpg-dnd-srd-excerpt-section-heavy-armor-a2a94d9e]] — Heavy Armor: 11 source-backed entries and 1 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
+- [[rpg-dnd-srd-excerpt-section-help-b7bcfbc0]] — Help: 6 source-backed entries and 2 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
+- [[rpg-dnd-srd-excerpt-section-hide-ada3c7f3]] — Hide: 2 source-backed entries and 1 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
+- [[rpg-dnd-srd-excerpt-section-hiding-ed53c562]] — Hiding: 13 source-backed entries and 3 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
+- [[rpg-dnd-srd-excerpt-section-hit-points-5cef7892]] — Hit Points: 6 source-backed entries and 1 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
+- [[rpg-dnd-srd-excerpt-section-hit-points-b2ab9a20]] — Hit Points: 6 source-backed entries and 1 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
+- [[rpg-dnd-srd-excerpt-section-improvised-weapons-db0da78a]] — Improvised Weapons: 6 source-backed entries and 2 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
+- [[rpg-dnd-srd-excerpt-section-incapacitated-30c0edec]] — Incapacitated: 1 source-backed entries and 0 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
+- [[rpg-dnd-srd-excerpt-section-initiative-d0643cee]] — Initiative: 7 source-backed entries and 1 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
+- [[rpg-dnd-srd-excerpt-section-instant-death-faa931d2]] — Instant Death: 4 source-backed entries and 2 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
+- [[rpg-dnd-srd-excerpt-section-intelligence-checks-2863b38c]] — Intelligence Checks: 5 source-backed entries and 0 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
+- [[rpg-dnd-srd-excerpt-section-interacting-with-objects-around-you-1b3af7cb]] — Interacting with Objects Around You: 1 source-backed entries and 0 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
+- [[rpg-dnd-srd-excerpt-section-invisible-545b8cb1]] — Invisible: 3 source-backed entries and 0 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
+- [[rpg-dnd-srd-excerpt-section-knocking-a-creature-out-fe3b22ef]] — Knocking a Creature Out: 3 source-backed entries and 1 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
+- [[rpg-dnd-srd-excerpt-section-lifting-and-carrying-68fec325]] — Lifting and Carrying: 8 source-backed entries and 0 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
+- [[rpg-dnd-srd-excerpt-section-light-armor-594c953f]] — Light Armor: 3 source-backed entries and 2 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
+- [[rpg-dnd-srd-excerpt-section-making-an-attack-1403d776]] — Making an Attack: 9 source-backed entries and 1 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
+- [[rpg-dnd-srd-excerpt-section-medium-armor-e7824aaf]] — Medium Armor: 10 source-backed entries and 2 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
+- [[rpg-dnd-srd-excerpt-section-melee-attacks-543769cc]] — Melee Attacks: 9 source-backed entries and 1 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
+- [[rpg-dnd-srd-excerpt-section-modifiers-to-the-roll-511ae55d]] — Modifiers to the Roll: 7 source-backed entries and 1 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
+- [[rpg-dnd-srd-excerpt-section-monsters-and-death-c6170e5a]] — Monsters and Death: 2 source-backed entries and 0 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
+- [[rpg-dnd-srd-excerpt-section-mounted-combat-bb81fba7]] — Mounted Combat: 3 source-backed entries and 0 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
+- [[rpg-dnd-srd-excerpt-section-mounting-and-dismounting-12ea5779]] — Mounting and Dismounting: 3 source-backed entries and 2 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
+- [[rpg-dnd-srd-excerpt-section-movement-and-position-3110240c]] — Movement and Position: 6 source-backed entries and 0 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
+- [[rpg-dnd-srd-excerpt-section-moving-around-other-creatures-eb28b9eb]] — Moving Around Other Creatures: 6 source-backed entries and 1 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
+- [[rpg-dnd-srd-excerpt-section-moving-between-attacks-9cb20aba]] — Moving between Attacks: 2 source-backed entries and 2 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
+- [[rpg-dnd-srd-excerpt-section-opportunity-attacks-cd2c8392]] — Opportunity Attacks: 9 source-backed entries and 1 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
+- [[rpg-dnd-srd-excerpt-section-order-of-combat-71610520]] — ORDER OF COMBAT: 4 source-backed entries and 0 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
+- [[rpg-dnd-srd-excerpt-section-other-activity-on-your-turn-8f90040d]] — Other Activity on Your Turn: 7 source-backed entries and 1 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
+- [[rpg-dnd-srd-excerpt-section-paralyzed-5bef3b9b]] — Paralyzed: 4 source-backed entries and 0 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
+- [[rpg-dnd-srd-excerpt-section-passive-checks-b43f6978]] — Passive Checks: 8 source-backed entries and 1 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
+- [[rpg-dnd-srd-excerpt-section-petrified-2ff1d0ce]] — Petrified: 5 source-backed entries and 0 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
+- [[rpg-dnd-srd-excerpt-section-poisoned-bb8bd6ca]] — Poisoned: 1 source-backed entries and 0 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
+- [[rpg-dnd-srd-excerpt-section-proficiency-bonus-e938a718]] — Proficiency Bonus: 11 source-backed entries and 5 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
+- [[rpg-dnd-srd-excerpt-section-prone-214f065b]] — Prone: 5 source-backed entries and 0 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
+- [[rpg-dnd-srd-excerpt-section-range-1afa4238]] — Range: 8 source-backed entries and 0 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
+- [[rpg-dnd-srd-excerpt-section-ranged-attacks-ea6a57c2]] — Ranged Attacks: 3 source-backed entries and 0 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
+- [[rpg-dnd-srd-excerpt-section-ranged-attacks-in-close-combat-a9f455f4]] — Ranged Attacks in Close Combat: 3 source-backed entries and 0 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
+- [[rpg-dnd-srd-excerpt-section-reactions-91dfd0aa]] — Reactions: 6 source-backed entries and 1 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
+- [[rpg-dnd-srd-excerpt-section-ready-de23d441]] — Ready: 11 source-backed entries and 2 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
+- [[rpg-dnd-srd-excerpt-section-restrained-dd948a68]] — Restrained: 3 source-backed entries and 0 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
+- [[rpg-dnd-srd-excerpt-section-rolling-1-or-20-fc4a7d04]] — Rolling 1 or 20: 4 source-backed entries and 1 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
+- [[rpg-dnd-srd-excerpt-section-sample-spells-23264b4d]] — Sample Spells: 3 source-backed entries and 0 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
+- [[rpg-dnd-srd-excerpt-section-saving-throws-be9567ac]] — Saving Throws: 14 source-backed entries and 0 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
+- [[rpg-dnd-srd-excerpt-section-search-19ec576f]] — Search: 1 source-backed entries and 0 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
+- [[rpg-dnd-srd-excerpt-section-shoving-a-creature-d9ed3b47]] — Shoving a Creature: 7 source-backed entries and 1 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
+- [[rpg-dnd-srd-excerpt-section-silvered-weapons-02ac4428]] — Silvered Weapons: 4 source-backed entries and 1 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
+- [[rpg-dnd-srd-excerpt-section-skills-9ccc77e9]] — Skills: 18 source-backed entries and 3 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
+- [[rpg-dnd-srd-excerpt-section-space-366e53b6]] — Space: 11 source-backed entries and 1 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
+- [[rpg-dnd-srd-excerpt-section-special-weapons-3d0505b1]] — Special Weapons: 9 source-backed entries and 2 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
+- [[rpg-dnd-srd-excerpt-section-spellcasting-ability-0730d035]] — Spellcasting Ability: 1 source-backed entries and 0 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
+- [[rpg-dnd-srd-excerpt-section-spellcasting-ability-a32b6194]] — Spellcasting Ability: 1 source-backed entries and 0 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
+- [[rpg-dnd-srd-excerpt-section-spellcasting-ability-e0ad99ea]] — Spellcasting Ability: 1 source-backed entries and 0 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
+- [[rpg-dnd-srd-excerpt-section-squeezing-into-a-smaller-space-42b25070]] — Squeezing into a Smaller Space: 5 source-backed entries and 1 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
+- [[rpg-dnd-srd-excerpt-section-stabilizing-a-creature-53e6ad07]] — Stabilizing a Creature: 7 source-backed entries and 2 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
+- [[rpg-dnd-srd-excerpt-section-strength-7049a750]] — Strength: 1 source-backed entries and 0 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
+- [[rpg-dnd-srd-excerpt-section-strength-checks-fe9b9dc3]] — Strength Checks: 4 source-backed entries and 0 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
+- [[rpg-dnd-srd-excerpt-section-stunned-e224d37f]] — Stunned: 3 source-backed entries and 0 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
+- [[rpg-dnd-srd-excerpt-section-surprise-5f5841d3]] — Surprise: 6 source-backed entries and 1 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
+- [[rpg-dnd-srd-excerpt-section-table-difficulty-classes-749a100b]] — Table- Difficulty Classes: 5 source-backed entries and 0 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
+- [[rpg-dnd-srd-excerpt-section-temporary-hit-points-dec61472]] — Temporary Hit Points: 6 source-backed entries and 3 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
+- [[rpg-dnd-srd-excerpt-section-two-weapon-fighting-3e156dd6]] — Two-Weapon Fighting: 4 source-backed entries and 3 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
+- [[rpg-dnd-srd-excerpt-section-unconscious-65840150]] — Unconscious: 4 source-backed entries and 0 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
+- [[rpg-dnd-srd-excerpt-section-underwater-combat-30932f8f]] — Underwater Combat: 5 source-backed entries and 0 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
+- [[rpg-dnd-srd-excerpt-section-unseen-attackers-and-targets-59d3a948]] — Unseen Attackers and Targets: 5 source-backed entries and 2 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
+- [[rpg-dnd-srd-excerpt-section-use-an-object-cd312a20]] — Use an Object: 3 source-backed entries and 1 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
+- [[rpg-dnd-srd-excerpt-section-using-ability-scores-7194e350]] — USING ABILITY SCORES: 4 source-backed entries and 0 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
+- [[rpg-dnd-srd-excerpt-section-using-different-speeds-65a89e04]] — Using Different Speeds: 5 source-backed entries and 2 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
+- [[rpg-dnd-srd-excerpt-section-using-each-ability-0d2d09a6]] — Using Each Ability: 1 source-backed entries and 0 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
+- [[rpg-dnd-srd-excerpt-section-variant-encumbrance-88b9553c]] — Variant: Encumbrance: 6 source-backed entries and 0 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
+- [[rpg-dnd-srd-excerpt-section-variant-skills-with-different-abilities-ef0745f8]] — Variant: Skills with Different Abilities: 7 source-backed entries and 2 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
+- [[rpg-dnd-srd-excerpt-section-weapon-proficiency-d98d7cef]] — Weapon Proficiency: 11 source-backed entries and 4 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
+- [[rpg-dnd-srd-excerpt-section-weapon-properties-cb80d0ee]] — Weapon Properties: 25 source-backed entries and 7 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
+- [[rpg-dnd-srd-excerpt-section-weapons-1feb5dd9]] — Weapons: 6 source-backed entries and 3 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
+- [[rpg-dnd-srd-excerpt-section-wisdom-95465ef3]] — Wisdom: 1 source-backed entries and 0 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
+- [[rpg-dnd-srd-excerpt-section-wisdom-checks-5d5a90b6]] — Wisdom Checks: 9 source-backed entries and 2 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
+- [[rpg-dnd-srd-excerpt-section-wolf-e9b6f4c1]] — Wolf: 5 source-backed entries and 2 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
+- [[rpg-dnd-srd-excerpt-section-working-together-599f27a1]] — Working Together: 9 source-backed entries and 1 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
+- [[rpg-dnd-srd-excerpt-section-your-turn-98a8d573]] — Your Turn: 6 source-backed entries and 1 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
+- [[rpg-dnd-srd-excerpt-section-zombie-db54a32f]] — Zombie: 3 source-backed entries and 3 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
 
 ## Entities
 
@@ -609,7 +615,7 @@ Regenerated ingest pages will be linked here by the ingest workflow.
 - [[history-short-history-of-england-crusade]] — THE AGE OF THE CRUSADES: 81 statement(s) and 0 atom(s) from raw/history_short_history_of_england.pdf.
 - [[history-short-history-of-england-defeat-barbarian]] — THE DEFEAT OF THE BARBARIANS: 94 statement(s) and 0 atom(s) from raw/history_short_history_of_england.pdf.
 - [[history-short-history-of-england-edward-norman-king]] — ST. EDWARD AND THE NORMAN KINGS: 114 statement(s) and 0 atom(s) from raw/history_short_history_of_england.pdf.
-- [[history-short-history-of-england-england]] — England: 28 statement(s) and 0 atom(s) from raw/history_short_history_of_england.pdf.
+- [[history-short-history-of-england-england]] — England: 28 statement(s) and 2 atom(s) from raw/history_short_history_of_england.pdf.
 - [[history-short-history-of-england-english]] — English: 41 statement(s) and 0 atom(s) from raw/history_short_history_of_england.pdf.
 - [[history-short-history-of-england-france]] — France: 14 statement(s) and 0 atom(s) from raw/history_short_history_of_england.pdf.
 - [[history-short-history-of-england-guild]] — Guild: 12 statement(s) and 0 atom(s) from raw/history_short_history_of_england.pdf.
@@ -617,16 +623,16 @@ Regenerated ingest pages will be linked here by the ingest workflow.
 - [[history-short-history-of-england-introduction]] — INTRODUCTION: 29 statement(s) and 0 atom(s) from raw/history_short_history_of_england.pdf.
 - [[history-short-history-of-england-king]] — King: 27 statement(s) and 0 atom(s) from raw/history_short_history_of_england.pdf.
 - [[history-short-history-of-england-legend]] — THE AGE OF LEGENDS: 84 statement(s) and 0 atom(s) from raw/history_short_history_of_england.pdf.
-- [[history-short-history-of-england-meaning-merry-england]] — THE MEANING OF MERRY ENGLAND: 124 statement(s) and 0 atom(s) from raw/history_short_history_of_england.pdf.
+- [[history-short-history-of-england-meaning-merry-england]] — THE MEANING OF MERRY ENGLAND: 124 statement(s) and 2 atom(s) from raw/history_short_history_of_england.pdf.
 - [[history-short-history-of-england-nationality-french-wars]] — NATIONALITY AND THE FRENCH WARS: 110 statement(s) and 0 atom(s) from raw/history_short_history_of_england.pdf.
 - [[history-short-history-of-england-parliament]] — Parliament: 12 statement(s) and 0 atom(s) from raw/history_short_history_of_england.pdf.
-- [[history-short-history-of-england-people]] — People: 14 statement(s) and 0 atom(s) from raw/history_short_history_of_england.pdf.
+- [[history-short-history-of-england-people]] — People: 14 statement(s) and 1 atom(s) from raw/history_short_history_of_england.pdf.
 - [[history-short-history-of-england-problem-plantagenet]] — THE PROBLEM OF THE PLANTAGENETS: 99 statement(s) and 0 atom(s) from raw/history_short_history_of_england.pdf.
 - [[history-short-history-of-england-province-britain]] — THE PROVINCE OF BRITAIN: 109 statement(s) and 0 atom(s) from raw/history_short_history_of_england.pdf.
 - [[history-short-history-of-england-puritan]] — THE AGE OF THE PURITANS: 107 statement(s) and 0 atom(s) from raw/history_short_history_of_england.pdf.
 - [[history-short-history-of-england-rebellion-rich]] — THE REBELLION OF THE RICH: 118 statement(s) and 0 atom(s) from raw/history_short_history_of_england.pdf.
 - [[history-short-history-of-england-republic]] — THE WAR WITH THE GREAT REPUBLICS: 101 statement(s) and 0 atom(s) from raw/history_short_history_of_england.pdf.
-- [[history-short-history-of-england-return-barbarian]] — THE RETURN OF THE BARBARIAN: 97 statement(s) and 0 atom(s) from raw/history_short_history_of_england.pdf.
+- [[history-short-history-of-england-return-barbarian]] — THE RETURN OF THE BARBARIAN: 97 statement(s) and 1 atom(s) from raw/history_short_history_of_england.pdf.
 - [[history-short-history-of-england-revolution]] — Revolution: 14 statement(s) and 0 atom(s) from raw/history_short_history_of_england.pdf.
 - [[history-short-history-of-england-roman]] — Roman: 14 statement(s) and 0 atom(s) from raw/history_short_history_of_england.pdf.
 - [[history-short-history-of-england-spain-schism-nation]] — SPAIN AND THE SCHISM OF NATIONS: 98 statement(s) and 0 atom(s) from raw/history_short_history_of_england.pdf.
@@ -638,69 +644,69 @@ Regenerated ingest pages will be linked here by the ingest workflow.
 - [[package]] — Cross-source concept 'Package': 2 sources, 0 relation(s).
 - [[people]] — Cross-source concept 'People': 2 sources, 0 relation(s).
 - [[rpg-cairn-2e-core-aiding-ally]] — Aiding an Ally: 10 statement(s) and 0 atom(s) from raw/rpg_cairn_2e_core.pdf.
-- [[rpg-cairn-2e-core-attack]] — Attack: 5 statement(s) and 5 atom(s) from raw/rpg_cairn_2e_core.pdf.
-- [[rpg-cairn-2e-core-attack-modifier]] — Attack Modifiers: 2 statement(s) and 4 atom(s) from raw/rpg_cairn_2e_core.pdf.
-- [[rpg-cairn-2e-core-attribute-loss]] — Attribute Loss: 5 statement(s) and 0 atom(s) from raw/rpg_cairn_2e_core.pdf.
-- [[rpg-cairn-2e-core-attribute-protection-trait]] — Attributes, Hit Protection, and Traits: 5 statement(s) and 1 atom(s) from raw/rpg_cairn_2e_core.pdf.
-- [[rpg-cairn-2e-core-character]] — Character: 37 statement(s) and 2 atom(s) from raw/rpg_cairn_2e_core.pdf.
+- [[rpg-cairn-2e-core-attack]] — Attack: 5 statement(s) and 6 atom(s) from raw/rpg_cairn_2e_core.pdf.
+- [[rpg-cairn-2e-core-attack-modifier]] — Attack Modifiers: 2 statement(s) and 5 atom(s) from raw/rpg_cairn_2e_core.pdf.
+- [[rpg-cairn-2e-core-attribute-protection-trait]] — Attributes, Hit Protection, and Traits: 5 statement(s) and 2 atom(s) from raw/rpg_cairn_2e_core.pdf.
+- [[rpg-cairn-2e-core-bond]] — Bonds: 1 statement(s) and 5 atom(s) from raw/rpg_cairn_2e_core.pdf.
+- [[rpg-cairn-2e-core-bond-omen]] — Bonds and Omens: 0 statement(s) and 14 atom(s) from raw/rpg_cairn_2e_core.pdf.
+- [[rpg-cairn-2e-core-bond-should]] — Bonds Should...: 4 statement(s) and 11 atom(s) from raw/rpg_cairn_2e_core.pdf.
+- [[rpg-cairn-2e-core-character]] — Character: 37 statement(s) and 4 atom(s) from raw/rpg_cairn_2e_core.pdf.
 - [[rpg-cairn-2e-core-courtyard]] — The Courtyard: 20 statement(s) and 0 atom(s) from raw/rpg_cairn_2e_core.pdf.
-- [[rpg-cairn-2e-core-critical-damage]] — Critical Damage: 5 statement(s) and 0 atom(s) from raw/rpg_cairn_2e_core.pdf.
-- [[rpg-cairn-2e-core-damage]] — Damage: 7 statement(s) and 1 atom(s) from raw/rpg_cairn_2e_core.pdf.
-- [[rpg-cairn-2e-core-deprivation-fatigue]] — Deprivation & Fatigue: 6 statement(s) and 0 atom(s) from raw/rpg_cairn_2e_core.pdf.
+- [[rpg-cairn-2e-core-critical-damage]] — Critical Damage: 5 statement(s) and 1 atom(s) from raw/rpg_cairn_2e_core.pdf.
+- [[rpg-cairn-2e-core-damage]] — Damage: 7 statement(s) and 2 atom(s) from raw/rpg_cairn_2e_core.pdf.
 - [[rpg-cairn-2e-core-dexterity]] — Dexterity: 8 statement(s) and 0 atom(s) from raw/rpg_cairn_2e_core.pdf.
-- [[rpg-cairn-2e-core-dungeon-exploration-cycle]] — Dungeon Exploration Cycle: 5 statement(s) and 0 atom(s) from raw/rpg_cairn_2e_core.pdf.
+- [[rpg-cairn-2e-core-dungeon-event]] — Dungeon Events: 1 statement(s) and 5 atom(s) from raw/rpg_cairn_2e_core.pdf.
 - [[rpg-cairn-2e-core-freya]] — Freya: 16 statement(s) and 1 atom(s) from raw/rpg_cairn_2e_core.pdf.
-- [[rpg-cairn-2e-core-introduction]] — Introduction: 6 statement(s) and 0 atom(s) from raw/rpg_cairn_2e_core.pdf.
-- [[rpg-cairn-2e-core-inventory]] — Inventory: 5 statement(s) and 0 atom(s) from raw/rpg_cairn_2e_core.pdf.
-- [[rpg-cairn-2e-core-knowledge]] — Knowledge: 5 statement(s) and 0 atom(s) from raw/rpg_cairn_2e_core.pdf.
+- [[rpg-cairn-2e-core-hireling]] — Hirelings: 2 statement(s) and 4 atom(s) from raw/rpg_cairn_2e_core.pdf.
 - [[rpg-cairn-2e-core-luciu]] — Lucius: 14 statement(s) and 1 atom(s) from raw/rpg_cairn_2e_core.pdf.
-- [[rpg-cairn-2e-core-night]] — Night: 4 statement(s) and 1 atom(s) from raw/rpg_cairn_2e_core.pdf.
+- [[rpg-cairn-2e-core-night]] — Night: 4 statement(s) and 3 atom(s) from raw/rpg_cairn_2e_core.pdf.
+- [[rpg-cairn-2e-core-omen]] — Omens: 4 statement(s) and 9 atom(s) from raw/rpg_cairn_2e_core.pdf.
+- [[rpg-cairn-2e-core-omen-should]] — Omens Should...: 2 statement(s) and 9 atom(s) from raw/rpg_cairn_2e_core.pdf.
 - [[rpg-cairn-2e-core-opposed-save]] — Opposed Saves: 7 statement(s) and 0 atom(s) from raw/rpg_cairn_2e_core.pdf.
 - [[rpg-cairn-2e-core-party]] — Party: 24 statement(s) and 2 atom(s) from raw/rpg_cairn_2e_core.pdf.
 - [[rpg-cairn-2e-core-perception]] — Perception: 16 statement(s) and 0 atom(s) from raw/rpg_cairn_2e_core.pdf.
 - [[rpg-cairn-2e-core-player]] — Player: 13 statement(s) and 3 atom(s) from raw/rpg_cairn_2e_core.pdf.
-- [[rpg-cairn-2e-core-preparation]] — Preparation: 5 statement(s) and 0 atom(s) from raw/rpg_cairn_2e_core.pdf.
-- [[rpg-cairn-2e-core-result]] — Result: 9 statement(s) and 2 atom(s) from raw/rpg_cairn_2e_core.pdf.
+- [[rpg-cairn-2e-core-result]] — Result: 9 statement(s) and 3 atom(s) from raw/rpg_cairn_2e_core.pdf.
+- [[rpg-cairn-2e-core-roll-choose-background]] — Roll or choose a Background: 4 statement(s) and 3 atom(s) from raw/rpg_cairn_2e_core.pdf.
 - [[rpg-cairn-2e-core-round]] — Rounds: 7 statement(s) and 0 atom(s) from raw/rpg_cairn_2e_core.pdf.
-- [[rpg-cairn-2e-core-save]] — Saves: 6 statement(s) and 0 atom(s) from raw/rpg_cairn_2e_core.pdf.
 - [[rpg-cairn-2e-core-save-principle]] — Save Principles: 13 statement(s) and 2 atom(s) from raw/rpg_cairn_2e_core.pdf.
-- [[rpg-cairn-2e-core-target]] — Target: 7 statement(s) and 4 atom(s) from raw/rpg_cairn_2e_core.pdf.
-- [[rpg-cairn-2e-core-training]] — Training: 5 statement(s) and 0 atom(s) from raw/rpg_cairn_2e_core.pdf.
-- [[rpg-cairn-2e-core-travel-duration]] — Travel Duration: 6 statement(s) and 0 atom(s) from raw/rpg_cairn_2e_core.pdf.
+- [[rpg-cairn-2e-core-target]] — Target: 7 statement(s) and 5 atom(s) from raw/rpg_cairn_2e_core.pdf.
 - [[rpg-cairn-2e-core-warden]] — Warden: 38 statement(s) and 5 atom(s) from raw/rpg_cairn_2e_core.pdf.
+- [[rpg-cairn-2e-core-wilderness-event]] — Wilderness Events: 0 statement(s) and 5 atom(s) from raw/rpg_cairn_2e_core.pdf.
+- [[rpg-cairn-2e-core-wilderness-exploration-cycle]] — Wilderness Exploration Cycle: 3 statement(s) and 3 atom(s) from raw/rpg_cairn_2e_core.pdf.
 - [[rpg-cairn-2e-core-wolfram]] — Wolfram: 20 statement(s) and 2 atom(s) from raw/rpg_cairn_2e_core.pdf.
-- [[rpg-dnd-srd-excerpt-ability-score-modifier]] — Ability Scores and Modifiers: 7 statement(s) and 1 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
 - [[rpg-dnd-srd-excerpt-action]] — Action: 9 statement(s) and 2 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
-- [[rpg-dnd-srd-excerpt-advantage-disadvantage]] — Advantage and Disadvantage: 10 statement(s) and 3 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
-- [[rpg-dnd-srd-excerpt-armor]] — Armor: 9 statement(s) and 1 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
+- [[rpg-dnd-srd-excerpt-advantage-disadvantage]] — Advantage and Disadvantage: 10 statement(s) and 4 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
+- [[rpg-dnd-srd-excerpt-armor]] — Armor: 9 statement(s) and 3 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
 - [[rpg-dnd-srd-excerpt-character]] — Character: 23 statement(s) and 1 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
-- [[rpg-dnd-srd-excerpt-charisma-check]] — Charisma Checks: 11 statement(s) and 0 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
+- [[rpg-dnd-srd-excerpt-charisma-check]] — Charisma Checks: 11 statement(s) and 1 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
 - [[rpg-dnd-srd-excerpt-check]] — Check: 18 statement(s) and 3 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
-- [[rpg-dnd-srd-excerpt-controlling-mount]] — Controlling a Mount: 7 statement(s) and 1 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
+- [[rpg-dnd-srd-excerpt-class]] — Class: 6 statement(s) and 4 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
 - [[rpg-dnd-srd-excerpt-cover]] — Cover: 10 statement(s) and 0 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
-- [[rpg-dnd-srd-excerpt-creature]] — Creature: 50 statement(s) and 6 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
-- [[rpg-dnd-srd-excerpt-damage]] — Damage: 10 statement(s) and 4 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
-- [[rpg-dnd-srd-excerpt-damage-roll]] — Damage Rolls: 5 statement(s) and 2 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
+- [[rpg-dnd-srd-excerpt-creature]] — Creature: 50 statement(s) and 8 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
+- [[rpg-dnd-srd-excerpt-damage]] — Damage: 10 statement(s) and 5 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
+- [[rpg-dnd-srd-excerpt-damage-roll]] — Damage Rolls: 5 statement(s) and 3 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
 - [[rpg-dnd-srd-excerpt-death-saving-throw]] — Death Saving Throws: 9 statement(s) and 0 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
-- [[rpg-dnd-srd-excerpt-effect]] — Effect: 8 statement(s) and 2 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
-- [[rpg-dnd-srd-excerpt-heavy-armor]] — Heavy Armor: 9 statement(s) and 0 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
+- [[rpg-dnd-srd-excerpt-effect]] — Effect: 8 statement(s) and 3 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
+- [[rpg-dnd-srd-excerpt-heavy-armor]] — Heavy Armor: 9 statement(s) and 2 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
 - [[rpg-dnd-srd-excerpt-hiding]] — Hiding: 8 statement(s) and 2 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
-- [[rpg-dnd-srd-excerpt-medium-armor]] — Medium Armor: 9 statement(s) and 0 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
-- [[rpg-dnd-srd-excerpt-melee-attack]] — Melee Attacks: 6 statement(s) and 1 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
+- [[rpg-dnd-srd-excerpt-improvised-weapon]] — Improvised Weapons: 4 statement(s) and 4 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
+- [[rpg-dnd-srd-excerpt-medium-armor]] — Medium Armor: 9 statement(s) and 2 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
 - [[rpg-dnd-srd-excerpt-monster]] — Monster: 14 statement(s) and 1 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
 - [[rpg-dnd-srd-excerpt-move]] — Move: 9 statement(s) and 3 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
-- [[rpg-dnd-srd-excerpt-proficiency]] — Proficiency: 11 statement(s) and 6 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
-- [[rpg-dnd-srd-excerpt-proficiency-bonu]] — Proficiency Bonus: 5 statement(s) and 3 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
+- [[rpg-dnd-srd-excerpt-proficiency]] — Proficiency: 11 statement(s) and 8 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
+- [[rpg-dnd-srd-excerpt-proficiency-bonu]] — Proficiency Bonus: 5 statement(s) and 6 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
 - [[rpg-dnd-srd-excerpt-saving-throw]] — Saving Throws: 10 statement(s) and 0 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
-- [[rpg-dnd-srd-excerpt-situation]] — Situation: 9 statement(s) and 2 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
-- [[rpg-dnd-srd-excerpt-skill]] — Skills: 12 statement(s) and 2 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
-- [[rpg-dnd-srd-excerpt-space]] — Space: 6 statement(s) and 1 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
-- [[rpg-dnd-srd-excerpt-special]] — Special: 9 statement(s) and 8 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
+- [[rpg-dnd-srd-excerpt-skill]] — Skills: 12 statement(s) and 3 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
+- [[rpg-dnd-srd-excerpt-special]] — Special: 9 statement(s) and 9 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
+- [[rpg-dnd-srd-excerpt-special-weapon]] — Special Weapons: 5 statement(s) and 3 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
 - [[rpg-dnd-srd-excerpt-spell]] — Spell: 12 statement(s) and 5 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
+- [[rpg-dnd-srd-excerpt-table]] — Table: 5 statement(s) and 6 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
+- [[rpg-dnd-srd-excerpt-table-difficulty-classe]] — Table- Difficulty Classes: 4 statement(s) and 6 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
 - [[rpg-dnd-srd-excerpt-target]] — Target: 14 statement(s) and 2 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
-- [[rpg-dnd-srd-excerpt-typical]] — Typical: 9 statement(s) and 2 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
-- [[rpg-dnd-srd-excerpt-weapon-proficiency]] — Weapon Proficiency: 7 statement(s) and 1 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
-- [[rpg-dnd-srd-excerpt-weapon-property]] — Weapon Properties: 17 statement(s) and 6 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
+- [[rpg-dnd-srd-excerpt-weapon]] — Weapons: 5 statement(s) and 3 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
+- [[rpg-dnd-srd-excerpt-weapon-proficiency]] — Weapon Proficiency: 7 statement(s) and 4 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
+- [[rpg-dnd-srd-excerpt-weapon-property]] — Weapon Properties: 17 statement(s) and 9 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
 - [[target]] — Cross-source concept 'Target': 2 sources, 0 relation(s).
 - [[type]] — Cross-source concept 'Type': 2 sources, 0 relation(s).
 - [[value]] — Cross-source concept 'Value': 2 sources, 0 relation(s).

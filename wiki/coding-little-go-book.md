@@ -7,7 +7,7 @@ updated: 2026-06-26
 domain: coding-little-go-book
 category_path: sources
 source_id: coding_little_go_book.pdf
-projection_coverage: projection-coverage-426f8449c3050c6e@4c99d346a64573eb
+projection_coverage: projection-coverage-426f8449c3050c6e@aa3a42289f58cf26
 ---
 
 # The Little Go Book

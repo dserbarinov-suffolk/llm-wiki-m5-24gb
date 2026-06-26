@@ -208,6 +208,12 @@ _CHECKS: tuple[QualityCheckDefinition, ...] = (
     ),
     _ck("ck-needs-review-reason", "review-required", ("ledger-build",), ("ledger-entry",)),
     _ck(
+        "ck-named-table-reference-resolved",
+        "coverage-gap",
+        ("ledger-build",),
+        ("ledger-entry",),
+    ),
+    _ck(
         "ck-entry-evidence-traceable", "traceability-failure", ("ledger-build",), ("ledger-entry",)
     ),
     _ck(

@@ -1,0 +1,54 @@
+---
+page_id: coding-learn-go-with-tests-excerpt-section-further-refactoring-aec1029b
+page_kind: source
+summary: Further refactoring: 14 source-backed entries and 2 atom(s) from raw/coding_learn_go_with_tests_excerpt.pdf.
+sources: raw/coding_learn_go_with_tests_excerpt.pdf
+updated: 2026-06-26
+domain: coding-learn-go-with-tests-excerpt
+category_path: sources/coding-learn-go-with-tests-excerpt/sections
+source_id: coding_learn_go_with_tests_excerpt.pdf
+projection_coverage: section-coding-learn-go-with-tests-excerpt-section-further-refactoring-aec1029b@fb2f3df7580651e212e246960f8f6d6b
+---
+
+# Further refactoring
+
+From [[coding-learn-go-with-tests-excerpt]].
+
+## Statements
+
+- Now that you have some understanding of structs we can introduce "table driven tests". _(coding_learn_go_with_tests_excerpt.pdf (source-range-f4b7154d-00495))_
+- The only new syntax here is creating an "anonymous struct", areaTests . _(coding_learn_go_with_tests_excerpt.pdf (source-range-f4b7154d-00498))_
+- Then we fill the slice with cases. _(coding_learn_go_with_tests_excerpt.pdf (source-range-f4b7154d-00498))_
+- The only new syntax here is creating an "anonymous struct", areaTests . _(coding_learn_go_with_tests_excerpt.pdf (source-range-f4b7154d-00498))_
+- We then iterate over them just like we do any other slice, using the struct fields to run our tests. _(coding_learn_go_with_tests_excerpt.pdf (source-range-f4b7154d-00499))_
+- We then iterate over them just like we do any other slice, using the struct fields to run our tests. _(coding_learn_go_with_tests_excerpt.pdf (source-range-f4b7154d-00499))_
+- In addition, if a bug is found with Area it is very easy to add a new test case to exercise it before fixing it. _(coding_learn_go_with_tests_excerpt.pdf (source-range-f4b7154d-00500))_
+- You can see how it would be very easy for a developer to introduce a new shape, implement Area and then add it to the test cases. _(coding_learn_go_with_tests_excerpt.pdf (source-range-f4b7154d-00500))_
+- In addition, if a bug is found with Area it is very easy to add a new test case to exercise it before fixing it. _(coding_learn_go_with_tests_excerpt.pdf (source-range-f4b7154d-00500))_
+- You can see how it would be very easy for a developer to introduce a new shape, implement Area and then add it to the test cases. _(coding_learn_go_with_tests_excerpt.pdf (source-range-f4b7154d-00500))_
+- Table driven tests can be a great item in your toolbox, but be sure that you have a need for the extra noise in the tests. _(coding_learn_go_with_tests_excerpt.pdf (source-range-f4b7154d-00501))_
+- They are a great fit when you wish to test various implementations of an interface, or if the data being passed in to a function has lots of different requirements that need testing. _(coding_learn_go_with_tests_excerpt.pdf (source-range-f4b7154d-00501))_
+
+## Technical atoms
+
+> Table driven tests are useful when you want to build a list of test cases that can be tested in the same manner.
+_(source: coding_learn_go_with_tests_excerpt.pdf (source-range-f4b7154d-00496))_
+
+```
+func TestArea(t *testing.T) {
+areaTests := []struct {
+        shape Shape
+        want  float64
+    }{
+        {Rectangle{12, 6}, 72.0},
+        {Circle{10}, 314.1592653589793},
+    }
+for _, tt := range areaTests {
+        got := tt.shape.Area()
+        if got != tt.want {
+            t.Errorf("got %g want %g", got, tt.want)
+        }
+    }
+}
+```
+_(source: coding_learn_go_with_tests_excerpt.pdf (source-range-f4b7154d-00497))_

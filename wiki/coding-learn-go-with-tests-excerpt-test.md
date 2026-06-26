@@ -6,7 +6,7 @@ sources: raw/coding_learn_go_with_tests_excerpt.pdf
 updated: 2026-06-26
 domain: coding-learn-go-with-tests-excerpt
 category_path: concepts
-projection_coverage: topic-coding-learn-go-with-tests-excerpt-test@11c05e4c4e3e15e64dea9713e092aa17
+projection_coverage: topic-coding-learn-go-with-tests-excerpt-test@5c9fccb8b07720099c2de7ff9341f040
 ---
 
 # How to test
@@ -15,10 +15,10 @@ What [[coding-learn-go-with-tests-excerpt]] covers about how to test:
 
 ## Statements
 
-- It is good to separate your "domain" code from the outside world (side-effects). _(coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00018))_
-- The fmt.Println is a side effect (printing to stdout), and the string we send in is our domain. _(coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00018))_
-- We have created a new function with func , but this time, we've added another keyword, string, to the definition. _(coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00021))_
-- This means this function returns a string . _(coding_learn_go_with_tests_excerpt.pdf (source-range-559be4b1-00021))_
+- The fmt.Println is a side effect (printing to stdout), and the string we send in is our domain. _(coding_learn_go_with_tests_excerpt.pdf (source-range-f4b7154d-00018))_
+- It is good to separate your "domain" code from the outside world (side-effects). _(coding_learn_go_with_tests_excerpt.pdf (source-range-f4b7154d-00018))_
+- This means this function returns a string . _(coding_learn_go_with_tests_excerpt.pdf (source-range-f4b7154d-00021))_
+- We have created a new function with func , but this time, we've added another keyword, string, to the definition. _(coding_learn_go_with_tests_excerpt.pdf (source-range-f4b7154d-00021))_
 
 ## Source
 

@@ -12,6 +12,7 @@ from llmwiki.domain.ledger.concepts import concept_topic_keys
 from llmwiki.domain.ledger.entries import LedgerEntry
 from llmwiki.domain.ledger.ledger import ClaimLedger
 from llmwiki.domain.ledger.structure import DocumentStructure
+from llmwiki.domain.ledger.topic_atom_match import atom_ids_matching_table_payload
 from llmwiki.domain.ledger.topic_models import SourceTopic
 from llmwiki.domain.ledger.topic_terms import content_terms, topic_matcher
 
@@ -50,14 +51,14 @@ def plan_source_topics(
         for entry in ledger.usable_entries
         if entry.ledger_entry_kind in _TOPIC_KINDS and (entry.subject or entry.normalized_text)
     ]
-    candidates = _heading_candidates(structure) + _concept_candidates(entries) + _term_candidates(
-        entries
+    candidates = (
+        _heading_candidates(structure) + _concept_candidates(entries) + _term_candidates(entries)
     )
     topics: dict[str, SourceTopic] = {}
     for candidate in candidates:
         if candidate.topic_key in topics:
             continue
-        topic = _aggregate(candidate, entries, ledger)
+        topic = _aggregate(candidate, entries, ledger, structure)
         if topic is None:
             continue
         minimum = 1 if candidate.from_heading or candidate.evidence_entry_ids else min_matches
@@ -143,6 +144,7 @@ def _aggregate(
     candidate: _TopicCandidate,
     entries: list[LedgerEntry],
     ledger: ClaimLedger,
+    structure: DocumentStructure,
 ) -> SourceTopic | None:
     matcher = topic_matcher(candidate.terms)
     if matcher is None:
@@ -156,6 +158,9 @@ def _aggregate(
     else:
         matched = _entries_for_subject_term(entries, matcher)
         atom_ids = _atom_ids_near_entries(ledger, matched, matcher)
+    atom_ids = tuple(
+        dict.fromkeys((*atom_ids, *atom_ids_matching_table_payload(ledger, matcher, structure)))
+    )
 
     matched = [
         entry
@@ -244,9 +249,7 @@ def _atom_ids_near_entries(
     return tuple(dict.fromkeys(ids))
 
 
-def _atom_has_matching_context(
-    ledger: ClaimLedger, atom_id: str, matcher: re.Pattern[str]
-) -> bool:
+def _atom_has_matching_context(ledger: ClaimLedger, atom_id: str, matcher: re.Pattern[str]) -> bool:
     atom = ledger.atom(atom_id)
     return (
         atom is not None

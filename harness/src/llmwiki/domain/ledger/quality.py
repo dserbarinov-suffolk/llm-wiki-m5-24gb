@@ -21,6 +21,7 @@ from llmwiki.domain.ledger.quality_catalog import (
     QualityFindingSeverityPolicy,
 )
 from llmwiki.domain.ledger.structure import DocumentStructure
+from llmwiki.domain.ledger.table_references import unresolved_table_reference_entry_ids
 from llmwiki.domain.ledger.vocab import (
     CALIBRATION_BUCKETS,
     CLAIM_FORCES,
@@ -124,6 +125,7 @@ def build_ledger_quality_report(
     _check_decisions(finder, ledger)
     _check_atoms(finder, ledger)
     _check_entries(finder, ledger)
+    _check_named_table_references(finder, ledger, structure)
     _ledger_metrics(finder, ledger)
     return LedgerQualityReport("ledger-build", catalog_pointer, tuple(finder.findings))
 
@@ -236,6 +238,13 @@ def _check_entries(finder: FindingCollector, ledger: ClaimLedger) -> None:
                 review_reason=entry.review_reason
                 or ReviewReason("needs-review", "entry requires review"),
             )
+
+
+def _check_named_table_references(
+    finder: FindingCollector, ledger: ClaimLedger, structure: DocumentStructure
+) -> None:
+    for entry_id in unresolved_table_reference_entry_ids(ledger, structure):
+        finder.add("ck-named-table-reference-resolved", "ledger-entry", entry_id)
 
 
 def _check_claim_fields(finder: FindingCollector, entry: object) -> None:

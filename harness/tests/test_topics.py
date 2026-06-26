@@ -16,6 +16,7 @@ from llmwiki.domain.ledger.builder import (
 )
 from llmwiki.domain.ledger.features import profile_unit
 from llmwiki.domain.ledger.ledger import ClaimLedger
+from llmwiki.domain.ledger.section_pages import build_section_pages
 from llmwiki.domain.ledger.segments import SegmentClaim, SourceSegment
 from llmwiki.domain.ledger.structure import DocumentStructure
 from llmwiki.domain.ledger.topic_render import render_topic_page
@@ -161,6 +162,101 @@ class TestTopicPlanning:
         atom = result.ledger.atom(topic.atom_ids[0])
         assert atom is not None
         assert "scores" in atom_raw_text(atom.payload)
+
+    def test_heading_topic_includes_table_with_matching_source_caption(self) -> None:
+        result = _build(
+            [
+                ("heading", "# Armor", []),
+                (
+                    "paragraph",
+                    "The Armor table shows key values.",
+                    ["The Armor table shows key values."],
+                ),
+                ("heading", "# Heavy Armor", []),
+                (
+                    "table-block",
+                    "Table- Armor\n"
+                    "Name        Cost       Weight\n"
+                    "Alpha       10         Light\n"
+                    "Beta        20         Heavy",
+                    [],
+                ),
+            ]
+        )
+
+        topic = _topic(result, "armor")
+
+        assert topic is not None
+        atoms = [result.ledger.atom(atom_id) for atom_id in topic.atom_ids]
+        assert any(
+            atom is not None and "Table- Armor" in atom_raw_text(atom.payload) for atom in atoms
+        )
+
+    def test_heading_topic_includes_table_named_by_generic_forward_cue(self) -> None:
+        filler = [
+            ("paragraph", f"Intervening source line {index} separates cue and table.", [])
+            for index in range(10)
+        ]
+        result = _build(
+            [
+                ("heading", "# Sample Outcomes", []),
+                (
+                    "paragraph",
+                    "The Sample Outcomes table shows generated results.",
+                    ["The Sample Outcomes table shows generated results."],
+                ),
+                ("heading", "# Roll on the table below.", []),
+                *filler,
+                ("heading", "# Follow-up Notes", []),
+                (
+                    "table-block",
+                    "| Roll | Result |\n| --- | --- |\n| 1 | Alpha |\n| 2 | Beta |",
+                    [],
+                ),
+            ]
+        )
+
+        topic = _topic(result, "sample-outcome")
+
+        assert topic is not None
+        atoms = [result.ledger.atom(atom_id) for atom_id in topic.atom_ids]
+        assert any(atom is not None and "Alpha" in atom_raw_text(atom.payload) for atom in atoms)
+
+    def test_section_page_includes_table_named_by_generic_forward_cue(self) -> None:
+        filler = [
+            ("paragraph", f"Intervening source line {index} separates cue and table.", [])
+            for index in range(10)
+        ]
+        result = _build(
+            [
+                ("heading", "# Sample Outcomes", []),
+                (
+                    "paragraph",
+                    "The Sample Outcomes table shows generated results.",
+                    ["The Sample Outcomes table shows generated results."],
+                ),
+                ("heading", "# Roll on the table below.", []),
+                *filler,
+                ("heading", "# Follow-up Notes", []),
+                (
+                    "table-block",
+                    "| Roll | Result |\n| --- | --- |\n| 1 | Alpha |\n| 2 | Beta |",
+                    [],
+                ),
+            ]
+        )
+
+        pages = build_section_pages(
+            result.ledger,
+            result.document_structure,
+            source_page_id="sample-source",
+            source_locator="book.pdf",
+            today="2026-06-26",
+        )
+        page = next(page for page in pages if page.page_body.startswith("# Sample Outcomes"))
+
+        assert "## Technical atoms" in page.page_body
+        assert "Alpha" in page.page_body
 
     def test_generic_reflexive_pronouns_never_anchor_topics(self) -> None:
         specs = [

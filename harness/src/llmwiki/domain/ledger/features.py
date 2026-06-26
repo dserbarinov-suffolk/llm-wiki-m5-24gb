@@ -47,6 +47,7 @@ _RELATION = re.compile(
     re.IGNORECASE,
 )
 _TABLE_PIPE = re.compile(r"\|.*\|")
+_SPACED_COLUMN = re.compile(r"\S.*?\s{2,}\S")
 _FIGURE_PLACEHOLDER = re.compile(r"^\s*\[Figure\b", re.IGNORECASE)
 
 
@@ -96,10 +97,12 @@ def _fraction(lines: list[str], denom: int, predicate: Callable[[str], object]) 
 
 def _table_density(lines: list[str], denom: int) -> float:
     # Tab runs are layout whitespace in many extractors, so they are not a
-    # reliable table signal. Pipe rows and runs of enumerated rows are.
+    # reliable table signal. Pipe rows, aligned space-separated columns, and
+    # runs of enumerated rows are.
     pipe = sum(1 for line in lines if _TABLE_PIPE.search(line))
+    spaced = sum(1 for line in lines if _SPACED_COLUMN.search(line))
     sequence_run = row_marker_count("\n".join(lines))
-    return min((pipe * 2 + sequence_run) / denom, 1.0)
+    return min((pipe * 2 + spaced + sequence_run) / denom, 1.0)
 
 
 def _code_density(text: str, lines: list[str], denom: int) -> float:

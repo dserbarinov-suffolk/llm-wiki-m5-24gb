@@ -12,6 +12,11 @@ from llmwiki.domain.ledger.entries import LedgerEntry
 from llmwiki.domain.ledger.ledger import ClaimLedger
 from llmwiki.domain.ledger.renderer import atom_block
 from llmwiki.domain.ledger.structure import DocumentStructure, StructureNode
+from llmwiki.domain.ledger.table_identity import (
+    has_matching_table_name,
+    normalize_table_name,
+    table_identity_names_by_atom_id,
+)
 from llmwiki.domain.pages import PageMetadata, WikiPage, slugify
 
 _SECTION_NODE_KINDS = {"chapter", "section", "heading"}
@@ -30,7 +35,7 @@ def build_section_pages(
         if node.structure_node_kind not in _SECTION_NODE_KINDS:
             continue
         entries = _entries_for_node(ledger, node.structure_node_id)
-        atoms = _atoms_for_entries(ledger, entries)
+        atoms = _atoms_for_entries(ledger, entries, structure, node)
         if not entries and not atoms:
             continue
         page_id = _page_id(source_page_id, node)
@@ -87,13 +92,21 @@ def _entries_for_node(ledger: ClaimLedger, node_id: str) -> tuple[LedgerEntry, .
 
 
 def _atoms_for_entries(
-    ledger: ClaimLedger, entries: tuple[LedgerEntry, ...]
+    ledger: ClaimLedger,
+    entries: tuple[LedgerEntry, ...],
+    structure: DocumentStructure,
+    node: StructureNode,
 ) -> tuple[TechnicalAtom, ...]:
     atom_ids = {
         entry.technical_atom_id
         for entry in entries
         if entry.ledger_entry_kind == "technical-atom" and entry.technical_atom_id
     }
+    section_name = normalize_table_name(node.heading_text)
+    if section_name:
+        for atom_id, names in table_identity_names_by_atom_id(ledger, structure).items():
+            if has_matching_table_name(section_name, names):
+                atom_ids.add(atom_id)
     return tuple(
         atom
         for atom in ledger.technical_atoms

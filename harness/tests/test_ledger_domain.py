@@ -182,13 +182,274 @@ def test_table_block_preserves_raw_text_with_partial_parse_review() -> None:
     assert table.payload.cells  # logical model recovered as enumerated rows
 
 
+def test_spaced_column_table_preserves_one_raw_table_atom_without_source_terms() -> None:
+    raw_table = (
+        "Table- Sample Matrix\n"
+        "Label        Score       Note\n"
+        "Alpha        10          Stable\n"
+        "Beta         20          Review"
+    )
+    result = _build([("table-block", raw_table, [])])
+
+    tables = [a for a in result.ledger.technical_atoms if a.technical_atom_kind == "table"]
+    assert len(tables) == 1
+    table = tables[0]
+    assert isinstance(table.payload, TablePayload)
+    assert table.payload.raw_table_text == raw_table
+    assert table.payload.caption == "Table- Sample Matrix"
+    assert table.parse_status == "partially-parsed"
+    assert [cell.value for cell in table.payload.cells if cell.column_index == 0] == [
+        "Alpha",
+        "Beta",
+    ]
+
+
+def test_two_column_spaced_table_materializes_as_table_atom() -> None:
+    raw_table = "Table- Sample Scores\nName        Score\nAlpha       10\nBeta        20"
+    result = _build([("table-block", raw_table, [])])
+
+    table = next(a for a in result.ledger.technical_atoms if a.technical_atom_kind == "table")
+
+    assert isinstance(table.payload, TablePayload)
+    assert table.payload.caption == "Table- Sample Scores"
+    assert [cell.value for cell in table.payload.cells if cell.column_index == 1] == [
+        "10",
+        "20",
+    ]
+
+
+def test_named_table_reference_quality_requires_matching_table_atom() -> None:
+    catalog = default_quality_check_catalog()
+    severity = default_severity_policy()
+    pointer = claim_ledger_pointer("qcc", "fp")
+    missing = _build(
+        [
+            (
+                "paragraph",
+                "The Sample Matrix table shows ranking values.",
+                ["The Sample Matrix table shows ranking values."],
+            )
+        ]
+    )
+    present = _build(
+        [
+            (
+                "paragraph",
+                "The Sample Matrix table shows ranking values.",
+                ["The Sample Matrix table shows ranking values."],
+            ),
+            (
+                "table-block",
+                "Table- Sample Matrix\n"
+                "Label        Score       Note\n"
+                "Alpha        10          Stable",
+                [],
+            ),
+        ]
+    )
+    unnamed_nearby = _build(
+        [
+            (
+                "paragraph",
+                "The Sample Matrix table shows ranking values.",
+                ["The Sample Matrix table shows ranking values."],
+            ),
+            (
+                "table-block",
+                "| Label | Score |\n| --- | --- |\n| Alpha | 10 |",
+                [],
+            ),
+        ]
+    )
+    differently_captioned_nearby = _build(
+        [
+            (
+                "paragraph",
+                "The Sample Categories table shows ranking values.",
+                ["The Sample Categories table shows ranking values."],
+            ),
+            (
+                "table-block",
+                "Table- Sample Values\nName        Score\nAlpha       10\nBeta        20",
+                [],
+            ),
+        ]
+    )
+    ordinary_prose = _build(
+        [
+            (
+                "paragraph",
+                "An improvised item may include a table leg.",
+                ["An improvised item may include a table leg."],
+            )
+        ]
+    )
+
+    missing_report = build_ledger_quality_report(
+        missing.ledger,
+        missing.document_structure,
+        catalog=catalog,
+        severity=severity,
+        catalog_pointer=pointer,
+    )
+    present_report = build_ledger_quality_report(
+        present.ledger,
+        present.document_structure,
+        catalog=catalog,
+        severity=severity,
+        catalog_pointer=pointer,
+    )
+    unnamed_report = build_ledger_quality_report(
+        unnamed_nearby.ledger,
+        unnamed_nearby.document_structure,
+        catalog=catalog,
+        severity=severity,
+        catalog_pointer=pointer,
+    )
+    differently_captioned_report = build_ledger_quality_report(
+        differently_captioned_nearby.ledger,
+        differently_captioned_nearby.document_structure,
+        catalog=catalog,
+        severity=severity,
+        catalog_pointer=pointer,
+    )
+    ordinary_report = build_ledger_quality_report(
+        ordinary_prose.ledger,
+        ordinary_prose.document_structure,
+        catalog=catalog,
+        severity=severity,
+        catalog_pointer=pointer,
+    )
+
+    assert "ck-named-table-reference-resolved" in {
+        finding.quality_check_id for finding in missing_report.findings
+    }
+    assert "ck-named-table-reference-resolved" not in {
+        finding.quality_check_id for finding in present_report.findings
+    }
+    assert "ck-named-table-reference-resolved" not in {
+        finding.quality_check_id for finding in unnamed_report.findings
+    }
+    assert "ck-named-table-reference-resolved" not in {
+        finding.quality_check_id for finding in differently_captioned_report.findings
+    }
+    assert "ck-named-table-reference-resolved" not in {
+        finding.quality_check_id for finding in ordinary_report.findings
+    }
+
+
+def test_named_table_reference_resolves_from_table_section_heading() -> None:
+    catalog = default_quality_check_catalog()
+    severity = default_severity_policy()
+    pointer = claim_ledger_pointer("qcc", "fp")
+    result = _build(
+        [
+            (
+                "paragraph",
+                "Roll on the Trial Bonds table.",
+                ["Roll on the Trial Bonds table."],
+            ),
+            ("heading", "# Trial Bonds", []),
+            ("table-block", "D20 Bond\n1 Alpha oath\n2 Beta compact\n3 Gamma duty", []),
+        ]
+    )
+
+    report = build_ledger_quality_report(
+        result.ledger,
+        result.document_structure,
+        catalog=catalog,
+        severity=severity,
+        catalog_pointer=pointer,
+    )
+
+    assert "ck-named-table-reference-resolved" not in {
+        finding.quality_check_id for finding in report.findings
+    }
+
+
+def test_explicit_forward_table_reference_allows_later_table_atom() -> None:
+    catalog = default_quality_check_catalog()
+    severity = default_severity_policy()
+    pointer = claim_ledger_pointer("qcc", "fp")
+    filler = [
+        ("paragraph", f"Context sentence {index} preserves intervening source order.", [])
+        for index in range(10)
+    ]
+    result = _build(
+        [
+            (
+                "paragraph",
+                "Choose from the Sample Matrix table below.",
+                ["Choose from the Sample Matrix table below."],
+            ),
+            *filler,
+            (
+                "table-block",
+                "| Label | Score |\n| --- | --- |\n| Alpha | 10 |\n| Beta | 20 |",
+                [],
+            ),
+        ]
+    )
+
+    report = build_ledger_quality_report(
+        result.ledger,
+        result.document_structure,
+        catalog=catalog,
+        severity=severity,
+        catalog_pointer=pointer,
+    )
+
+    assert "ck-named-table-reference-resolved" not in {
+        finding.quality_check_id for finding in report.findings
+    }
+
+
+def test_generic_table_cue_lends_prior_section_name_to_later_table() -> None:
+    catalog = default_quality_check_catalog()
+    severity = default_severity_policy()
+    pointer = claim_ledger_pointer("qcc", "fp")
+    filler = [
+        ("paragraph", f"Intervening source line {index} separates cue and table.", [])
+        for index in range(10)
+    ]
+    result = _build(
+        [
+            (
+                "paragraph",
+                "The Sample Outcomes table shows generated results.",
+                ["The Sample Outcomes table shows generated results."],
+            ),
+            ("heading", "# Sample Outcomes", []),
+            ("heading", "# Roll on the table below.", []),
+            *filler,
+            ("heading", "# Follow-up Notes", []),
+            (
+                "table-block",
+                "| Roll | Result |\n| --- | --- |\n| 1 | Alpha |\n| 2 | Beta |",
+                [],
+            ),
+        ]
+    )
+
+    report = build_ledger_quality_report(
+        result.ledger,
+        result.document_structure,
+        catalog=catalog,
+        severity=severity,
+        catalog_pointer=pointer,
+    )
+
+    assert "ck-named-table-reference-resolved" not in {
+        finding.quality_check_id for finding in report.findings
+    }
+
+
 def test_three_incidental_numbers_do_not_parse_as_logical_table_rows() -> None:
     result = _build(
         [
             (
                 "table-block",
-                "Magnitude Notes\nA score of 10 or 11 is average. "
-                "A score of 18 is unusually high.",
+                "Magnitude Notes\nA score of 10 or 11 is average. A score of 18 is unusually high.",
                 [],
             )
         ]

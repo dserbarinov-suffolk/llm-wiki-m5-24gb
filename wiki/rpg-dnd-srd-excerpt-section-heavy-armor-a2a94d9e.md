@@ -1,0 +1,107 @@
+---
+page_id: rpg-dnd-srd-excerpt-section-heavy-armor-a2a94d9e
+page_kind: source
+summary: Heavy Armor: 11 source-backed entries and 1 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
+sources: raw/rpg_dnd_srd_excerpt.pdf
+updated: 2026-06-26
+domain: rpg-dnd-srd-excerpt
+category_path: sources/rpg-dnd-srd-excerpt/sections
+source_id: rpg_dnd_srd_excerpt.pdf
+projection_coverage: section-rpg-dnd-srd-excerpt-section-heavy-armor-a2a94d9e@1338996fa96ee70867c657c0d5d78d1e
+---
+
+# Heavy Armor
+
+From [[rpg-dnd-srd-excerpt]].
+
+## Statements
+
+- Only proficient warriors can manage their weight and bulk. _(rpg_dnd_srd_excerpt.pdf (source-range-95e73d53-00487))_
+- These suits of armor cover the entire body and are designed to stop a wide range of attacks. _(rpg_dnd_srd_excerpt.pdf (source-range-95e73d53-00487))_
+- Only proficient warriors can manage their weight and bulk. _(rpg_dnd_srd_excerpt.pdf (source-range-95e73d53-00487))_
+- Heavy armor doesn't let you add your Dexterity modifier to your Armor Class, but it also doesn't penalize you if your Dexterity modifier is negative. _(rpg_dnd_srd_excerpt.pdf (source-range-95e73d53-00488))_
+- This armor is leather armor with heavy rings sewn into it. _(rpg_dnd_srd_excerpt.pdf (source-range-95e73d53-00489))_
+- The suit includes gauntlets. _(rpg_dnd_srd_excerpt.pdf (source-range-95e73d53-00490))_
+- Made of interlocking metal rings, chain mail includes a layer of quilted fabric worn underneath the mail to prevent chafing and to cushion the impact of blows. _(rpg_dnd_srd_excerpt.pdf (source-range-95e73d53-00490))_
+- This armor is made of narrow vertical strips of metal riveted to a backing of leather that is worn over cloth padding. _(rpg_dnd_srd_excerpt.pdf (source-range-95e73d53-00491))_
+- Plate consists of shaped, interlocking metal plates to cover the entire body. _(rpg_dnd_srd_excerpt.pdf (source-range-95e73d53-00492))_
+- A suit of plate includes gauntlets, heavy leather boots, a visored helmet, and thick layers of padding underneath the armor. _(rpg_dnd_srd_excerpt.pdf (source-range-95e73d53-00492))_
+
+## Technical atoms
+
+| Armor | Cost | Class | Strength | Stealth | Weight |
+| --- | --- | --- | --- | --- | --- |
+| Padded | 5 gp | - | Disadvantage | 8 lb. |  |
+| Leather | 10 gp | - | - | 10 lb. |  |
+| Studded | 12 + Dex |  |  |  |  |
+| 45 gp | - | - | 13 lb. |  |  |
+| leather | modiﬁer |  |  |  |  |
+| Hide | 10 gp | modiﬁer | - | - | 12 lb. |
+| (max | 2) |  |  |  |  |
+| Chain shirt | 50 gp | modiﬁer | - | - | 20 lb. |
+| (max | 2) |  |  |  |  |
+| Scale mail | 50 gp | modiﬁer | - | Disadvantage | 45 lb. |
+| (max | 2) |  |  |  |  |
+| Breastplate | modiﬁer | - | - | 20 lb. |  |
+| (max | 2) |  |  |  |  |
+| Half plate | modiﬁer | - | Disadvantage | 40 lb. |  |
+| (max | 2) |  |  |  |  |
+| Ring mail | 30 gp | 14 | - | Disadvantage | 40 lb. |
+| Chain mail | 75 gp | 16 | Str 13 | Disadvantage | 55 lb. |
+| Splint | 17 | Str 15 | Disadvantage | 60 lb. |  |
+| Plate | gp | 18 | Str 15 | Disadvantage | 65 lb. |
+| Shield | 10 gp | +2 | - | - | 6 lb. |
+
+<details>
+<summary>Raw table text</summary>
+
+```
+Table- Armor
+                      Armor
+   Armor      Cost     Class    Strength      Stealth     Weight
+                       (AC)
+ Light
+ Armor
+                    11 + Dex
+ Padded       5 gp               -          Disadvantage   8 lb.
+                    modiﬁer
+                    11 + Dex
+ Leather      10 gp              -          -              10 lb.
+                    modiﬁer
+ Studded             12 + Dex
+             45 gp              -          -              13 lb.
+ leather             modiﬁer
+ Medium
+ Armor
+                    12 + Dex
+ Hide         10 gp  modiﬁer     -          -              12 lb.
+                    (max  2)
+                    13 + Dex
+ Chain shirt  50 gp  modiﬁer     -          -              20 lb.
+                    (max  2)
+                    14 + Dex
+ Scale mail   50 gp  modiﬁer     -          Disadvantage   45 lb.
+                    (max  2)
+                    14 + Dex
+             400
+ Breastplate         modiﬁer     -          -              20 lb.
+             gp
+                    (max  2)
+                    15 + Dex
+             750
+ Half plate          modiﬁer     -          Disadvantage   40 lb.
+             gp
+                    (max  2)
+ Heavy
+ Armor
+ Ring mail    30 gp  14          -          Disadvantage   40 lb.
+ Chain mail   75 gp  16          Str 13     Disadvantage   55 lb.
+             200
+ Splint              17          Str 15     Disadvantage   60 lb.
+ Plate        gp     18          Str 15     Disadvantage   65 lb.
+ Shield
+ Shield       10 gp  +2          -          -              6 lb.
+```
+
+</details>
+_(source: rpg_dnd_srd_excerpt.pdf (source-range-95e73d53-00493))_
