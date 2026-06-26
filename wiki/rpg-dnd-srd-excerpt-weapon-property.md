@@ -1,7 +1,7 @@
 ---
 page_id: rpg-dnd-srd-excerpt-weapon-property
 page_kind: concept
-summary: Weapon Properties: 17 statement(s) and 8 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
+summary: Weapon Properties: 17 statement(s) and 7 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
 sources: raw/rpg_dnd_srd_excerpt.pdf
 updated: 2026-06-26
 domain: rpg-dnd-srd-excerpt

@@ -1,12 +1,12 @@
 ---
 page_id: coding-learn-go-with-tests-excerpt-module
 page_kind: concept
-summary: Go modules?: 9 statement(s) and 2 atom(s) from raw/coding_learn_go_with_tests_excerpt.pdf.
+summary: Go modules?: 9 statement(s) and 3 atom(s) from raw/coding_learn_go_with_tests_excerpt.pdf.
 sources: raw/coding_learn_go_with_tests_excerpt.pdf
 updated: 2026-06-26
 domain: coding-learn-go-with-tests-excerpt
 category_path: concepts
-projection_coverage: topic-coding-learn-go-with-tests-excerpt-module@aa1f414b4833b31b52416cd856fb8641
+projection_coverage: topic-coding-learn-go-with-tests-excerpt-module@1b1c48b424a3d5d25cc28565debb6734
 ---
 
 # Go modules?
@@ -26,6 +26,15 @@ What [[coding-learn-go-with-tests-excerpt]] covers about go modules?:
 - We can get back to testing and learning Go now since the tests should run, even on Go 1.16. _(coding_learn_go_with_tests_excerpt.pdf (source-range-f4b7154d-00029))_
 
 ## Technical atoms
+
+> Context: The next step is to run the tests. Enter go test in your terminal. If the tests pass, then you are probably using an earlier version of Go. However, if you are using Go 1.16 or later, the tests will likely not run. Instead, you will see an error message like this in the terminal:
+_(context: coding_learn_go_with_tests_excerpt.pdf (source-range-f4b7154d-00025))_
+
+```
+$ go test
+go: cannot find main module; see 'go help modules'
+```
+_(source: coding_learn_go_with_tests_excerpt.pdf (source-range-f4b7154d-00026))_
 
 > Context: What's the problem? In a word, modules. Luckily, the problem is easy to fix. Enter go mod init example.com/hello in your terminal. That will create a new file with the following contents:
 _(context: coding_learn_go_with_tests_excerpt.pdf (source-range-f4b7154d-00027))_

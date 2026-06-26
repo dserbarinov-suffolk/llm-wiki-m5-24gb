@@ -1,12 +1,12 @@
 ---
 page_id: rpg-dnd-srd-excerpt-charisma-check
 page_kind: concept
-summary: Charisma Checks: 11 statement(s) and 1 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
+summary: Charisma Checks: 11 statement(s) and 0 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
 sources: raw/rpg_dnd_srd_excerpt.pdf
 updated: 2026-06-26
 domain: rpg-dnd-srd-excerpt
 category_path: concepts
-projection_coverage: topic-rpg-dnd-srd-excerpt-charisma-check@27fea34b60fcbbc4c0d76c0702ef0921
+projection_coverage: topic-rpg-dnd-srd-excerpt-charisma-check@1798ed9ab11cb21a0c2d74cde222b7a6
 ---
 
 # Charisma Checks
@@ -26,32 +26,6 @@ What [[rpg-dnd-srd-excerpt]] covers about charisma checks:
 - Examples include trying to pry information out of a prisoner, convincing street thugs to back down from a confrontation, or using the edge of a broken bottle to convince a sneering vizier to reconsider a decision. _(rpg_dnd_srd_excerpt.pdf (source-range-b7d08967-00224))_
 - Typically, you use persuasion when acting in good faith, to foster friendships, make cordial requests, or exhibit proper etiquette. _(rpg_dnd_srd_excerpt.pdf (source-range-b7d08967-00226))_
 - Examples of persuading others include convincing a chamberlain to let your party see the king, negotiating peace between warring tribes, or inspiring a crowd of townsfolk. _(rpg_dnd_srd_excerpt.pdf (source-range-b7d08967-00226))_
-
-## Technical atoms
-
-> Context: The skills related to each ability score are shown in the following list. (No skills are related to Constitution.) See an ability's description in the later sections of this section for examples of how to use a skill associated with an ability.
-_(context: rpg_dnd_srd_excerpt.pdf (source-range-b7d08967-00104))_
-
-| Table- Related | Skills |
-| --- | --- |
-| Strength | Dexterity |
-| Athletics | Acrobatics |
-
-<details>
-<summary>Raw table text</summary>
-
-```
-Table- Related  Skills
- Strength     Dexterity   Intelligence    Wisdom       Charisma
-                                       Animal
- Athletics  Acrobatics    Arcana                      Deception
-                                       Handling
-           Sleight of
-```
-
-</details>
-_(source: rpg_dnd_srd_excerpt.pdf (source-range-b7d08967-00105))_
-
 
 ## Source
 

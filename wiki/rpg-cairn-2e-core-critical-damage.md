@@ -6,7 +6,7 @@ sources: raw/rpg_cairn_2e_core.pdf
 updated: 2026-06-26
 domain: rpg-cairn-2e-core
 category_path: concepts
-projection_coverage: topic-rpg-cairn-2e-core-critical-damage@ee69219e15b0a6bf52fa206696f3ca79
+projection_coverage: topic-rpg-cairn-2e-core-critical-damage@4a87a2b11cdbfdb9a7da5d343b048240
 ---
 
 # Critical Damage
@@ -23,29 +23,8 @@ What [[rpg-cairn-2e-core]] covers about critical damage:
 
 ## Technical atoms
 
-| Dagger, Cudgel, Sickle, Staﬀ, etc. (d6 damage) | 5 |
-| --- | --- |
-| Spear, Sword, Mace, Axe, Flail, etc. (d8 damage) | 10 |
-| Halberd, War Hammer, Long Sword, etc. (d10 damage, bulky) | 20 |
-| Sling (d6 damage) | 5 |
-| Bow (d6 damage, bulky) | 20 |
-| Crossbow (d8 damage, bulky) | 30 |
-
-<details>
-<summary>Raw table text</summary>
-
-```
-| Dagger, Cudgel, Sickle, Staﬀ, etc. (d6 damage) | 5 |
-| --- | --- |
-| Spear, Sword, Mace, Axe, Flail, etc. (d8 damage) | 10 |
-| Halberd, War Hammer, Long Sword, etc. (d10 damage, bulky) | 20 |
-| Sling (d6 damage) | 5 |
-| Bow (d6 damage, bulky) | 20 |
-| Crossbow (d8 damage, bulky) | 30 |
-```
-
-</details>
-_(source: rpg_cairn_2e_core.pdf (source-range-ad2c341f-00419))_
+> On a success, the target is still in the fight (albeit with a lower STR score) and must continue to make critical damage saves when incurring damage.
+_(source: rpg_cairn_2e_core.pdf (source-range-ad2c341f-00220))_
 
 
 ## Source

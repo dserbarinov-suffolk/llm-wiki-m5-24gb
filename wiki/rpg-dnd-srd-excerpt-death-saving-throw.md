@@ -6,7 +6,7 @@ sources: raw/rpg_dnd_srd_excerpt.pdf
 updated: 2026-06-26
 domain: rpg-dnd-srd-excerpt
 category_path: concepts
-projection_coverage: topic-rpg-dnd-srd-excerpt-death-saving-throw@5202848f50406017215ab81ac7e5d4db
+projection_coverage: topic-rpg-dnd-srd-excerpt-death-saving-throw@ce4b98b13ec1e616743f0ebad3cf7b30
 ---
 
 # Death Saving Throws
@@ -27,43 +27,8 @@ What [[rpg-dnd-srd-excerpt]] covers about death saving throws:
 
 ## Technical atoms
 
-| Shortsword | 10 gp | 1d6 piercing | 2 lb. | Finesse, light |
-| --- | --- | --- | --- | --- |
-| Trident | 5 gp | 1d6 piercing | 4 lb. | Thrown (range 20/60), versatile (1d8) |
-| War pick | 5 gp | 1d8 piercing | 2 lb. | - |
-| Warhammer | 15 gp | 1d8 bludgeoning | 2 lb. | Versatile (1d10) |
-| Whip | 2 gp | 1d4 slashing | 3 lb. | Finesse, reach |
-| Martial |  |  |  |  |
-| Ranged |  |  |  |  |
-| Weapons |  |  |  |  |
-| Blowgun | 10 gp | 1 piercing | 1 lb. | Ammunition (range 25/100), loading |
-| Crossbow, hand | 75 gp | 1d6 piercing | 3 lb. | Ammunition (range 30/120), light, loading |
-| Crossbow, heavy | 50 gp | 1d10 piercing | 18 lb. | Ammunition (range 100/400), heavy, loading, two-handed |
-| Longbow | 50 gp | 1d8 piercing | 2 lb. | Ammunition (range 150/600), heavy, two-handed |
-| Net | 1 gp | - | 3 lb. | Special, thrown (range 5/15) |
-
-<details>
-<summary>Raw table text</summary>
-
-```
-| Shortsword | 10 gp | 1d6 piercing | 2 lb. | Finesse, light |
-| --- | --- | --- | --- | --- |
-| Trident | 5 gp | 1d6 piercing | 4 lb. | Thrown (range 20/60), versatile (1d8) |
-| War pick | 5 gp | 1d8 piercing | 2 lb. | - |
-| Warhammer | 15 gp | 1d8 bludgeoning | 2 lb. | Versatile (1d10) |
-| Whip | 2 gp | 1d4 slashing | 3 lb. | Finesse, reach |
-| Martial |  |  |  |  |
-| Ranged |  |  |  |  |
-| Weapons |  |  |  |  |
-| Blowgun | 10 gp | 1 piercing | 1 lb. | Ammunition (range 25/100), loading |
-| Crossbow, hand | 75 gp | 1d6 piercing | 3 lb. | Ammunition (range 30/120), light, loading |
-| Crossbow, heavy | 50 gp | 1d10 piercing | 18 lb. | Ammunition (range 100/400), heavy, loading, two-handed |
-| Longbow | 50 gp | 1d8 piercing | 2 lb. | Ammunition (range 150/600), heavy, two-handed |
-| Net | 1 gp | - | 3 lb. | Special, thrown (range 5/15) |
-```
-
-</details>
-_(source: rpg_dnd_srd_excerpt.pdf (source-range-b7d08967-00543))_
+> Whenever you start your turn with 0 hit points, you must make a special saving throw, called a death saving throw, to determine whether you creep closer to death or hang onto life.
+_(source: rpg_dnd_srd_excerpt.pdf (source-range-b7d08967-00438))_
 
 
 ## Source

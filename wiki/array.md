@@ -1,16 +1,16 @@
 ---
 page_id: array
 page_kind: concept
-summary: Canonical concept 'Array': 2 source(s), 13 statement(s), 4 atom(s), 0 relation(s).
+summary: Canonical concept 'Array': 2 source(s), 13 statement(s), 3 atom(s), 0 relation(s).
 sources: raw/coding_learn_go_with_tests_excerpt.pdf, raw/coding_little_go_book.pdf
 updated: 2026-06-26
 category_path: concepts
-projection_coverage: canonical-concept-array@fee27fa02ac68e2e0db3ad0d6ab284eb
+projection_coverage: canonical-concept-array@94ee3746406841d3f2a844b62624d7b6
 ---
 
 # Array
 
-Compiled concept page from 2 source(s), 13 statement(s), and 4 technical atom(s).
+Compiled concept page from 2 source(s), 13 statement(s), and 3 technical atom(s).
 
 ## Source Evidence
 
@@ -20,23 +20,10 @@ Source topic: [[coding-learn-go-with-tests-excerpt-array]]
 
 #### Statements
 
-- To get the value out of an array at a particular index, just use array[index] syntax. _(coding_learn_go_with_tests_excerpt.pdf (source-range-f4b7154d-00297))_
 - Arrays allow you to store multiple elements of the same type in a variable in a particular order. _(coding_learn_go_with_tests_excerpt.pdf (source-range-f4b7154d-00276))_
-- Arrays have a fi xed capacity which you define when you declare the variable. _(coding_learn_go_with_tests_excerpt.pdf (source-range-f4b7154d-00282))_
 - An interesting property of arrays is that the size is encoded in its type. _(coding_learn_go_with_tests_excerpt.pdf (source-range-f4b7154d-00303))_
-
-#### Technical atoms
-
-> Context: Arrays have a fi xed capacity which you define when you declare the variable. We can initialize an array in two ways:
-_(context: coding_learn_go_with_tests_excerpt.pdf (source-range-f4b7154d-00282))_
-
-```
-[N]type{value1, value2, ..., valueN} e.g. numbers := [5]int{1, 2, 
-3, 4, 5}
-[...]type{value1, value2, ..., valueN} e.g. numbers := [...]int{1, 2,
-```
-_(source: coding_learn_go_with_tests_excerpt.pdf (source-range-f4b7154d-00283))_
-
+- Sum will take an array of numbers and return the total. _(coding_learn_go_with_tests_excerpt.pdf (source-range-f4b7154d-00277))_
+- You may be thinking it's quite cumbersome that arrays have a fixed length, and most of the time you probably won't be using them! _(coding_learn_go_with_tests_excerpt.pdf (source-range-f4b7154d-00304))_
 
 ### [[coding-little-go-book]]
 

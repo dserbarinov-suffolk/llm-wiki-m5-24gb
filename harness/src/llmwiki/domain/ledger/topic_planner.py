@@ -4,20 +4,30 @@ from __future__ import annotations
 
 import re
 from collections import Counter
-from dataclasses import dataclass
 
 from llmwiki.domain.ledger.atom_context import atom_context_matches
 from llmwiki.domain.ledger.atom_projection import atom_is_topic_projectable
 from llmwiki.domain.ledger.concepts import concept_topic_keys
 from llmwiki.domain.ledger.entries import LedgerEntry
 from llmwiki.domain.ledger.ledger import ClaimLedger
+from llmwiki.domain.ledger.section_planning import SectionGroundedPlan
 from llmwiki.domain.ledger.structure import DocumentStructure
 from llmwiki.domain.ledger.topic_atom_match import atom_ids_matching_table_payload
-from llmwiki.domain.ledger.topic_evidence import heading_topic_decision, topic_entry_rank
+from llmwiki.domain.ledger.topic_candidates import (
+    TopicCandidate,
+    section_candidates,
+    section_component_candidates,
+)
+from llmwiki.domain.ledger.topic_evidence import (
+    entry_supports_topic,
+    heading_topic_decision,
+    topic_entry_rank,
+)
 from llmwiki.domain.ledger.topic_models import SourceTopic
 from llmwiki.domain.ledger.topic_terms import (
     content_terms,
     single_term_topic_candidate_allowed,
+    source_label_terms,
     topic_matcher,
 )
 
@@ -33,21 +43,11 @@ _CONCEPT_BONUS = 2.0
 _MAX_STATEMENT_WORDS = 45
 
 
-@dataclass(frozen=True)
-class _TopicCandidate:
-    topic_key: str
-    label: str
-    terms: tuple[str, ...]
-    evidence_kind: str
-    from_heading: bool = False
-    structure_node_id: str = ""
-    evidence_entry_ids: tuple[str, ...] = ()
-
-
 def plan_source_topics(
     ledger: ClaimLedger,
     structure: DocumentStructure,
     *,
+    section_plan: SectionGroundedPlan | None = None,
     max_topics: int = _MAX_TOPICS,
     min_matches: int = _MIN_MATCHES,
 ) -> tuple[SourceTopic, ...]:
@@ -57,7 +57,11 @@ def plan_source_topics(
         if entry.ledger_entry_kind in _TOPIC_KINDS and (entry.subject or entry.normalized_text)
     ]
     candidates = (
-        _heading_candidates(structure) + _concept_candidates(entries) + _term_candidates(entries)
+        section_candidates(section_plan)
+        + section_component_candidates(section_plan)
+        + _heading_candidates(structure)
+        + _concept_candidates(entries)
+        + _term_candidates(entries)
     )
     topics: dict[str, SourceTopic] = {}
     for candidate in candidates:
@@ -73,20 +77,20 @@ def plan_source_topics(
     return tuple(ranked[:max_topics])
 
 
-def _heading_candidates(structure: DocumentStructure) -> list[_TopicCandidate]:
-    candidates: list[_TopicCandidate] = []
+def _heading_candidates(structure: DocumentStructure) -> list[TopicCandidate]:
+    candidates: list[TopicCandidate] = []
     seen: set[str] = set()
     for node in structure.structure_nodes:
         if node.structure_node_kind == "root":
             continue
         label = _HEADING_NUMBER.sub("", node.heading_text).strip()
-        terms = content_terms(label)
+        terms = source_label_terms(label)
         key = "-".join(terms)
-        if not terms or len(terms) > 5 or key in seen:
+        if not terms or len(terms) > 8 or key in seen:
             continue
         seen.add(key)
         candidates.append(
-            _TopicCandidate(
+            TopicCandidate(
                 topic_key=key,
                 label=label,
                 terms=tuple(terms),
@@ -98,7 +102,7 @@ def _heading_candidates(structure: DocumentStructure) -> list[_TopicCandidate]:
     return candidates
 
 
-def _concept_candidates(entries: list[LedgerEntry]) -> list[_TopicCandidate]:
+def _concept_candidates(entries: list[LedgerEntry]) -> list[TopicCandidate]:
     keyed: dict[str, tuple[str, tuple[str, ...], list[str]]] = {}
     for entry in entries:
         if entry.ledger_entry_kind != "concept" or not entry.concept_facets:
@@ -114,7 +118,7 @@ def _concept_candidates(entries: list[LedgerEntry]) -> list[_TopicCandidate]:
             entry_ids.append(entry.ledger_entry_id)
             keyed[keys[0]] = (label, existing_terms, entry_ids)
     return [
-        _TopicCandidate(
+        TopicCandidate(
             topic_key=key,
             label=label,
             terms=terms,
@@ -125,19 +129,19 @@ def _concept_candidates(entries: list[LedgerEntry]) -> list[_TopicCandidate]:
     ]
 
 
-def _term_candidates(entries: list[LedgerEntry]) -> list[_TopicCandidate]:
+def _term_candidates(entries: list[LedgerEntry]) -> list[TopicCandidate]:
     counts: Counter[str] = Counter()
     for entry in entries:
         for token in content_terms(entry.subject):
             counts[token] += 1
-    candidates: list[_TopicCandidate] = []
+    candidates: list[TopicCandidate] = []
     for term, frequency in counts.most_common():
         if frequency < _MIN_TERM_FREQUENCY:
             break
         if not single_term_topic_candidate_allowed(term):
             continue
         candidates.append(
-            _TopicCandidate(
+            TopicCandidate(
                 topic_key=term,
                 label=term.title(),
                 terms=(term,),
@@ -148,7 +152,7 @@ def _term_candidates(entries: list[LedgerEntry]) -> list[_TopicCandidate]:
 
 
 def _aggregate(
-    candidate: _TopicCandidate,
+    candidate: TopicCandidate,
     entries: list[LedgerEntry],
     ledger: ClaimLedger,
     structure: DocumentStructure,
@@ -156,7 +160,23 @@ def _aggregate(
     matcher = topic_matcher(candidate.terms)
     if matcher is None:
         return None
-    if candidate.evidence_kind == "heading":
+    if candidate.evidence_kind == "section":
+        evidence_ids = set(candidate.evidence_entry_ids)
+        matched = [entry for entry in entries if entry.ledger_entry_id in evidence_ids]
+        atom_ids = candidate.evidence_atom_ids
+    elif candidate.evidence_kind == "section-component":
+        evidence_ids = set(candidate.evidence_entry_ids)
+        matched = [
+            entry
+            for entry in entries
+            if entry.ledger_entry_id in evidence_ids and entry_supports_topic(entry, matcher)
+        ]
+        atom_ids = tuple(
+            atom_id
+            for atom_id in candidate.evidence_atom_ids
+            if _atom_has_matching_context(ledger, atom_id, matcher)
+        )
+    elif candidate.evidence_kind == "heading":
         matched = _entries_in_node(entries, candidate.structure_node_id)
         atom_ids = _atom_ids_in_node(ledger, candidate.structure_node_id, matcher)
     elif candidate.evidence_kind == "concept":
@@ -165,9 +185,10 @@ def _aggregate(
     else:
         matched = _entries_for_subject_term(entries, matcher)
         atom_ids = _atom_ids_near_entries(ledger, matched, matcher)
-    atom_ids = tuple(
-        dict.fromkeys((*atom_ids, *atom_ids_matching_table_payload(ledger, matcher, structure)))
-    )
+    if candidate.evidence_kind not in ("section", "section-component"):
+        atom_ids = tuple(
+            dict.fromkeys((*atom_ids, *atom_ids_matching_table_payload(ledger, matcher, structure)))
+        )
     if candidate.evidence_kind == "heading":
         decision = heading_topic_decision(candidate.terms, matched, atom_ids, matcher)
         if not decision.accepted:
@@ -203,7 +224,7 @@ def _entries_in_node(entries: list[LedgerEntry], node_id: str) -> list[LedgerEnt
 
 
 def _entries_for_concept(
-    candidate: _TopicCandidate, entries: list[LedgerEntry], matcher: re.Pattern[str]
+    candidate: TopicCandidate, entries: list[LedgerEntry], matcher: re.Pattern[str]
 ) -> list[LedgerEntry]:
     evidence_ids = set(candidate.evidence_entry_ids)
     evidence_nodes = {

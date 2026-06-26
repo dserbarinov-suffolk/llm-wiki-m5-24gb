@@ -1,12 +1,12 @@
 ---
 page_id: coding-learn-go-with-tests-excerpt-custom-type
 page_kind: concept
-summary: Using a custom type: 5 statement(s) and 2 atom(s) from raw/coding_learn_go_with_tests_excerpt.pdf.
+summary: Using a custom type: 5 statement(s) and 3 atom(s) from raw/coding_learn_go_with_tests_excerpt.pdf.
 sources: raw/coding_learn_go_with_tests_excerpt.pdf
 updated: 2026-06-26
 domain: coding-learn-go-with-tests-excerpt
 category_path: concepts
-projection_coverage: topic-coding-learn-go-with-tests-excerpt-custom-type@583effc44dc7cf4054f81d94c6321d59
+projection_coverage: topic-coding-learn-go-with-tests-excerpt-custom-type@b6fed61cf0c94a6d7a15bdf8ff49d816
 ---
 
 # Using a custom type
@@ -43,6 +43,17 @@ assertStrings(t, got, want)
 }
 ```
 _(source: coding_learn_go_with_tests_excerpt.pdf (source-range-f4b7154d-00569))_
+
+> Context: In dictionary.go :
+_(context: coding_learn_go_with_tests_excerpt.pdf (source-range-f4b7154d-00572))_
+
+```
+type Dictionary map[string]string
+func (d Dictionary) Search(word string) string {
+    return d[word]
+}
+```
+_(source: coding_learn_go_with_tests_excerpt.pdf (source-range-f4b7154d-00573))_
 
 
 ## Source

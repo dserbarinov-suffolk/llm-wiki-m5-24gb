@@ -9,7 +9,7 @@ updated: 2026-06-26
 
 ## Summary
 
-Run id: 2026-06-26-162801
+Run id: 2026-06-26-171208
 Source: raw/rpg_dnd_srd_excerpt.pdf
 Confidence status: passed
 Blockers: 0

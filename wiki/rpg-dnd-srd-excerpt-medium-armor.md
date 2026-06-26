@@ -6,7 +6,7 @@ sources: raw/rpg_dnd_srd_excerpt.pdf
 updated: 2026-06-26
 domain: rpg-dnd-srd-excerpt
 category_path: concepts
-projection_coverage: topic-rpg-dnd-srd-excerpt-medium-armor@8984024802f08dd6d8f198c86fefdb04
+projection_coverage: topic-rpg-dnd-srd-excerpt-medium-armor@d1b4a2bf018780a39e26b781fb277f80
 ---
 
 # Medium Armor
@@ -26,6 +26,9 @@ What [[rpg-dnd-srd-excerpt]] covers about medium armor:
 - greaves that are attached with leather straps. _(rpg_dnd_srd_excerpt.pdf (source-range-b7d08967-00485))_
 
 ## Technical atoms
+
+> If you wear medium armor, you add your Dexterity modifier, to a maximum of +2, to the base number from your armor type to determine your Armor Class.
+_(source: rpg_dnd_srd_excerpt.pdf (source-range-b7d08967-00484))_
 
 | Armor | Cost | Class | Strength | Stealth | Weight |
 | --- | --- | --- | --- | --- | --- |
@@ -103,32 +106,6 @@ Table- Armor
 
 </details>
 _(source: rpg_dnd_srd_excerpt.pdf (source-range-b7d08967-00493))_
-
-> Context: Proficiency with a weapon allows you to add your proficiency bonus to the attack roll for any attack you make with that weapon. If you make an attack roll using a weapon with which you lack proficiency, you do not add your proficiency bonus to the attack roll.
-_(context: rpg_dnd_srd_excerpt.pdf (source-range-b7d08967-00505))_
-
-| Table- Donning | and Doﬀing | Armor |
-| --- | --- | --- |
-| Category | Don | Doﬀ |
-| Light Armor | 1 minute | 1 minute |
-| Medium | Armor | 5 minutes |
-| Heavy | Armor | 10 minutes |
-| Shield | 1 action | 1 action |
-
-<details>
-<summary>Raw table text</summary>
-
-```
-Table- Donning   and Doﬀing   Armor
-   Category         Don        Doﬀ
- Light Armor     1 minute     1 minute
- Medium   Armor  5 minutes    1 minute
- Heavy  Armor    10 minutes   5 minutes
- Shield          1 action     1 action
-```
-
-</details>
-_(source: rpg_dnd_srd_excerpt.pdf (source-range-b7d08967-00506))_
 
 
 ## Source

@@ -504,97 +504,95 @@ Regenerated ingest pages will be linked here by the ingest workflow.
 ## Entities
 
 ## Concepts
-- [[array]] — Canonical concept 'Array': 2 source(s), 13 statement(s), 4 atom(s), 0 relation(s).
+- [[array]] — Canonical concept 'Array': 2 source(s), 13 statement(s), 3 atom(s), 0 relation(s).
 - [[character]] — Canonical concept 'Character': 2 source(s), 60 statement(s), 4 atom(s), 0 relation(s).
 - [[code]] — Canonical concept 'Code': 2 source(s), 23 statement(s), 19 atom(s), 0 relation(s).
-- [[coding-learn-go-with-tests-excerpt-array]] — Array: 4 statement(s) and 1 atom(s) from raw/coding_learn_go_with_tests_excerpt.pdf.
-- [[coding-learn-go-with-tests-excerpt-array-slice]] — Arrays and slices: 2 statement(s) and 0 atom(s) from raw/coding_learn_go_with_tests_excerpt.pdf.
-- [[coding-learn-go-with-tests-excerpt-array-type]] — Arrays and their type: 5 statement(s) and 0 atom(s) from raw/coding_learn_go_with_tests_excerpt.pdf.
+- [[coding-learn-go-with-tests-excerpt-array]] — Array: 4 statement(s) and 0 atom(s) from raw/coding_learn_go_with_tests_excerpt.pdf.
+- [[coding-learn-go-with-tests-excerpt-array-and-slice]] — Arrays and slices: 2 statement(s) and 1 atom(s) from raw/coding_learn_go_with_tests_excerpt.pdf.
+- [[coding-learn-go-with-tests-excerpt-array-and-type]] — Arrays and their type: 5 statement(s) and 0 atom(s) from raw/coding_learn_go_with_tests_excerpt.pdf.
+- [[coding-learn-go-with-tests-excerpt-benchmarking]] — Benchmarking: 11 statement(s) and 7 atom(s) from raw/coding_learn_go_with_tests_excerpt.pdf.
 - [[coding-learn-go-with-tests-excerpt-code]] — Code: 10 statement(s) and 6 atom(s) from raw/coding_learn_go_with_tests_excerpt.pdf.
-- [[coding-learn-go-with-tests-excerpt-code-chapter]] — You can find all the code for this chapter here: 1 statement(s) and 1 atom(s) from raw/coding_learn_go_with_tests_excerpt.pdf.
-- [[coding-learn-go-with-tests-excerpt-comment]] — Comment: 4 statement(s) and 2 atom(s) from raw/coding_learn_go_with_tests_excerpt.pdf.
-- [[coding-learn-go-with-tests-excerpt-compiler]] — Compiler: 6 statement(s) and 1 atom(s) from raw/coding_learn_go_with_tests_excerpt.pdf.
-- [[coding-learn-go-with-tests-excerpt-custom-type]] — Using a custom type: 5 statement(s) and 2 atom(s) from raw/coding_learn_go_with_tests_excerpt.pdf.
+- [[coding-learn-go-with-tests-excerpt-custom-type]] — Using a custom type: 5 statement(s) and 3 atom(s) from raw/coding_learn_go_with_tests_excerpt.pdf.
+- [[coding-learn-go-with-tests-excerpt-discipline]] — Discipline: 5 statement(s) and 2 atom(s) from raw/coding_learn_go_with_tests_excerpt.pdf.
 - [[coding-learn-go-with-tests-excerpt-documentation]] — Go's documentation: 8 statement(s) and 1 atom(s) from raw/coding_learn_go_with_tests_excerpt.pdf.
 - [[coding-learn-go-with-tests-excerpt-error]] — Error: 7 statement(s) and 3 atom(s) from raw/coding_learn_go_with_tests_excerpt.pdf.
 - [[coding-learn-go-with-tests-excerpt-function]] — Function: 7 statement(s) and 6 atom(s) from raw/coding_learn_go_with_tests_excerpt.pdf.
-- [[coding-learn-go-with-tests-excerpt-helper]] — Helper: 5 statement(s) and 1 atom(s) from raw/coding_learn_go_with_tests_excerpt.pdf.
+- [[coding-learn-go-with-tests-excerpt-further-refactoring]] — Further refactoring: 7 statement(s) and 2 atom(s) from raw/coding_learn_go_with_tests_excerpt.pdf.
+- [[coding-learn-go-with-tests-excerpt-hello]] — Hello, world... again: 17 statement(s) and 6 atom(s) from raw/coding_learn_go_with_tests_excerpt.pdf.
+- [[coding-learn-go-with-tests-excerpt-hello-you]] — Hello, YOU: 11 statement(s) and 9 atom(s) from raw/coding_learn_go_with_tests_excerpt.pdf.
+- [[coding-learn-go-with-tests-excerpt-how-test]] — How to test: 4 statement(s) and 2 atom(s) from raw/coding_learn_go_with_tests_excerpt.pdf.
 - [[coding-learn-go-with-tests-excerpt-interface]] — Interface: 8 statement(s) and 2 atom(s) from raw/coding_learn_go_with_tests_excerpt.pdf.
-- [[coding-learn-go-with-tests-excerpt-library]] — Library: 4 statement(s) and 2 atom(s) from raw/coding_learn_go_with_tests_excerpt.pdf.
-- [[coding-learn-go-with-tests-excerpt-loop]] — Loop: 4 statement(s) and 1 atom(s) from raw/coding_learn_go_with_tests_excerpt.pdf.
 - [[coding-learn-go-with-tests-excerpt-method]] — What are methods?: 5 statement(s) and 1 atom(s) from raw/coding_learn_go_with_tests_excerpt.pdf.
-- [[coding-learn-go-with-tests-excerpt-module]] — Go modules?: 9 statement(s) and 2 atom(s) from raw/coding_learn_go_with_tests_excerpt.pdf.
-- [[coding-learn-go-with-tests-excerpt-note]] — Note: 5 statement(s) and 2 atom(s) from raw/coding_learn_go_with_tests_excerpt.pdf.
-- [[coding-learn-go-with-tests-excerpt-note-declaring-error-update]] — Note on declaring a new error for Update: 3 statement(s) and 1 atom(s) from raw/coding_learn_go_with_tests_excerpt.pdf.
-- [[coding-learn-go-with-tests-excerpt-note-source-control]] — A note on source control: 3 statement(s) and 0 atom(s) from raw/coding_learn_go_with_tests_excerpt.pdf.
+- [[coding-learn-go-with-tests-excerpt-module]] — Go modules?: 9 statement(s) and 3 atom(s) from raw/coding_learn_go_with_tests_excerpt.pdf.
+- [[coding-learn-go-with-tests-excerpt-note-declaring-error-for-update]] — Note on declaring a new error for Update: 3 statement(s) and 1 atom(s) from raw/coding_learn_go_with_tests_excerpt.pdf.
 - [[coding-learn-go-with-tests-excerpt-package]] — Package: 6 statement(s) and 5 atom(s) from raw/coding_learn_go_with_tests_excerpt.pdf.
-- [[coding-learn-go-with-tests-excerpt-pointer-copy]] — Pointers, copies, et al: 5 statement(s) and 0 atom(s) from raw/coding_learn_go_with_tests_excerpt.pdf.
-- [[coding-learn-go-with-tests-excerpt-refactor]] — one...last...refactor?: 2 statement(s) and 0 atom(s) from raw/coding_learn_go_with_tests_excerpt.pdf.
-- [[coding-learn-go-with-tests-excerpt-requirement]] — Keep going! More requirements: 9 statement(s) and 0 atom(s) from raw/coding_learn_go_with_tests_excerpt.pdf.
+- [[coding-learn-go-with-tests-excerpt-pointer-copy]] — Pointers, copies, et al: 5 statement(s) and 4 atom(s) from raw/coding_learn_go_with_tests_excerpt.pdf.
+- [[coding-learn-go-with-tests-excerpt-refactor]] — one...last...refactor?: 2 statement(s) and 3 atom(s) from raw/coding_learn_go_with_tests_excerpt.pdf.
+- [[coding-learn-go-with-tests-excerpt-requirement]] — Keep going! More requirements: 9 statement(s) and 9 atom(s) from raw/coding_learn_go_with_tests_excerpt.pdf.
 - [[coding-learn-go-with-tests-excerpt-standard]] — Standard: 5 statement(s) and 3 atom(s) from raw/coding_learn_go_with_tests_excerpt.pdf.
 - [[coding-learn-go-with-tests-excerpt-switch]] — switch: 3 statement(s) and 1 atom(s) from raw/coding_learn_go_with_tests_excerpt.pdf.
-- [[coding-learn-go-with-tests-excerpt-syntax]] — Syntax: 5 statement(s) and 2 atom(s) from raw/coding_learn_go_with_tests_excerpt.pdf.
 - [[coding-learn-go-with-tests-excerpt-test]] — Test: 40 statement(s) and 34 atom(s) from raw/coding_learn_go_with_tests_excerpt.pdf.
 - [[coding-learn-go-with-tests-excerpt-test-output-helpful]] — Make sure your test output is helpful: 9 statement(s) and 2 atom(s) from raw/coding_learn_go_with_tests_excerpt.pdf.
+- [[coding-learn-go-with-tests-excerpt-testable]] — Testable Examples: 15 statement(s) and 4 atom(s) from raw/coding_learn_go_with_tests_excerpt.pdf.
 - [[coding-learn-go-with-tests-excerpt-testing]] — Back to Testing: 6 statement(s) and 0 atom(s) from raw/coding_learn_go_with_tests_excerpt.pdf.
+- [[coding-learn-go-with-tests-excerpt-try-run-test]] — Try to run the test: 5 statement(s) and 0 atom(s) from raw/coding_learn_go_with_tests_excerpt.pdf.
 - [[coding-learn-go-with-tests-excerpt-type]] — Type: 8 statement(s) and 3 atom(s) from raw/coding_learn_go_with_tests_excerpt.pdf.
-- [[coding-learn-go-with-tests-excerpt-value]] — Value: 5 statement(s) and 1 atom(s) from raw/coding_learn_go_with_tests_excerpt.pdf.
+- [[coding-learn-go-with-tests-excerpt-wrapping]] — Wrapping up: 6 statement(s) and 2 atom(s) from raw/coding_learn_go_with_tests_excerpt.pdf.
+- [[coding-learn-go-with-tests-excerpt-write-code-pass]] — Write enough code to make it pass: 2 statement(s) and 3 atom(s) from raw/coding_learn_go_with_tests_excerpt.pdf.
 - [[coding-little-go-book-array]] — Arrays: 9 statement(s) and 3 atom(s) from raw/coding_little_go_book.pdf.
 - [[coding-little-go-book-buffered-channel]] — Buffered Channels: 10 statement(s) and 3 atom(s) from raw/coding_little_go_book.pdf.
-- [[coding-little-go-book-change]] — Change: 4 statement(s) and 5 atom(s) from raw/coding_little_go_book.pdf.
-- [[coding-little-go-book-channel]] — Channels: 6 statement(s) and 1 atom(s) from raw/coding_little_go_book.pdf.
 - [[coding-little-go-book-code]] — Code: 13 statement(s) and 13 atom(s) from raw/coding_little_go_book.pdf.
-- [[coding-little-go-book-composition]] — Composition: 8 statement(s) and 1 atom(s) from raw/coding_little_go_book.pdf.
-- [[coding-little-go-book-concurrent]] — Concurrent: 4 statement(s) and 4 atom(s) from raw/coding_little_go_book.pdf.
+- [[coding-little-go-book-composition]] — Composition: 8 statement(s) and 3 atom(s) from raw/coding_little_go_book.pdf.
+- [[coding-little-go-book-conclusion]] — Conclusion: 17 statement(s) and 1 atom(s) from raw/coding_little_go_book.pdf.
 - [[coding-little-go-book-copy]] — Copy: 4 statement(s) and 8 atom(s) from raw/coding_little_go_book.pdf.
-- [[coding-little-go-book-declaration-initialization]] — Declarations and Initializations: 27 statement(s) and 1 atom(s) from raw/coding_little_go_book.pdf.
-- [[coding-little-go-book-dependency-management]] — Dependency Management: 7 statement(s) and 0 atom(s) from raw/coding_little_go_book.pdf.
-- [[coding-little-go-book-empty-interface-conversion]] — Empty Interface and Conversions: 6 statement(s) and 2 atom(s) from raw/coding_little_go_book.pdf.
+- [[coding-little-go-book-declaration]] — Declaration: 4 statement(s) and 3 atom(s) from raw/coding_little_go_book.pdf.
+- [[coding-little-go-book-declaration-and-initialization]] — Declarations and Initializations: 27 statement(s) and 7 atom(s) from raw/coding_little_go_book.pdf.
+- [[coding-little-go-book-empty-interface-and-conversion]] — Empty Interface and Conversions: 6 statement(s) and 3 atom(s) from raw/coding_little_go_book.pdf.
 - [[coding-little-go-book-error-handling]] — Error Handling: 6 statement(s) and 7 atom(s) from raw/coding_little_go_book.pdf.
-- [[coding-little-go-book-function]] — Function: 5 statement(s) and 4 atom(s) from raw/coding_little_go_book.pdf.
+- [[coding-little-go-book-fmt]] — go fmt: 6 statement(s) and 2 atom(s) from raw/coding_little_go_book.pdf.
+- [[coding-little-go-book-function-declaration]] — Function Declarations: 5 statement(s) and 4 atom(s) from raw/coding_little_go_book.pdf.
 - [[coding-little-go-book-goroutine]] — Goroutines: 13 statement(s) and 3 atom(s) from raw/coding_little_go_book.pdf.
-- [[coding-little-go-book-import]] — Imports: 12 statement(s) and 3 atom(s) from raw/coding_little_go_book.pdf.
-- [[coding-little-go-book-interface]] — Interfaces: 13 statement(s) and 3 atom(s) from raw/coding_little_go_book.pdf.
+- [[coding-little-go-book-import]] — Imports: 12 statement(s) and 7 atom(s) from raw/coding_little_go_book.pdf.
+- [[coding-little-go-book-interface]] — Interfaces: 13 statement(s) and 6 atom(s) from raw/coding_little_go_book.pdf.
+- [[coding-little-go-book-introduction]] — Introduction: 19 statement(s) and 2 atom(s) from raw/coding_little_go_book.pdf.
 - [[coding-little-go-book-language]] — Language: 10 statement(s) and 8 atom(s) from raw/coding_little_go_book.pdf.
-- [[coding-little-go-book-maps]] — Maps: 7 statement(s) and 4 atom(s) from raw/coding_little_go_book.pdf.
-- [[coding-little-go-book-package]] — Package: 5 statement(s) and 4 atom(s) from raw/coding_little_go_book.pdf.
-- [[coding-little-go-book-package-management]] — Package Management: 6 statement(s) and 1 atom(s) from raw/coding_little_go_book.pdf.
-- [[coding-little-go-book-reason]] — Reason: 6 statement(s) and 3 atom(s) from raw/coding_little_go_book.pdf.
-- [[coding-little-go-book-ruby]] — Ruby: 4 statement(s) and 6 atom(s) from raw/coding_little_go_book.pdf.
-- [[coding-little-go-book-running-code]] — Running Go Code: 8 statement(s) and 1 atom(s) from raw/coding_little_go_book.pdf.
+- [[coding-little-go-book-maps]] — Maps: 7 statement(s) and 8 atom(s) from raw/coding_little_go_book.pdf.
+- [[coding-little-go-book-package]] — package db: 7 statement(s) and 3 atom(s) from raw/coding_little_go_book.pdf.
+- [[coding-little-go-book-package-management]] — Package Management: 6 statement(s) and 2 atom(s) from raw/coding_little_go_book.pdf.
+- [[coding-little-go-book-running-code]] — Running Go Code: 8 statement(s) and 2 atom(s) from raw/coding_little_go_book.pdf.
 - [[coding-little-go-book-select]] — Select: 10 statement(s) and 1 atom(s) from raw/coding_little_go_book.pdf.
-- [[coding-little-go-book-slice]] — Slices: 39 statement(s) and 20 atom(s) from raw/coding_little_go_book.pdf.
-- [[coding-little-go-book-string-byte-array]] — Strings and Byte Arrays: 6 statement(s) and 5 atom(s) from raw/coding_little_go_book.pdf.
+- [[coding-little-go-book-slice]] — Slices: 39 statement(s) and 22 atom(s) from raw/coding_little_go_book.pdf.
+- [[coding-little-go-book-string]] — String: 4 statement(s) and 5 atom(s) from raw/coding_little_go_book.pdf.
+- [[coding-little-go-book-string-and-byte-array]] — Strings and Byte Arrays: 6 statement(s) and 5 atom(s) from raw/coding_little_go_book.pdf.
 - [[coding-little-go-book-structure]] — Structures: 8 statement(s) and 1 atom(s) from raw/coding_little_go_book.pdf.
-- [[coding-little-go-book-timeout]] — Timeout: 13 statement(s) and 0 atom(s) from raw/coding_little_go_book.pdf.
+- [[coding-little-go-book-synchronization]] — Synchronization: 22 statement(s) and 4 atom(s) from raw/coding_little_go_book.pdf.
+- [[coding-little-go-book-timeout]] — Timeout: 13 statement(s) and 7 atom(s) from raw/coding_little_go_book.pdf.
 - [[coding-little-go-book-type]] — Type: 7 statement(s) and 6 atom(s) from raw/coding_little_go_book.pdf.
 - [[coding-little-go-book-value]] — Value: 9 statement(s) and 22 atom(s) from raw/coding_little_go_book.pdf.
-- [[coding-little-go-book-variable]] — Variable: 7 statement(s) and 9 atom(s) from raw/coding_little_go_book.pdf.
-- [[coding-little-go-book-variable-declaration]] — Variables and Declarations: 18 statement(s) and 8 atom(s) from raw/coding_little_go_book.pdf.
-- [[damage]] — Canonical concept 'Damage': 2 source(s), 17 statement(s), 7 atom(s), 0 relation(s).
+- [[coding-little-go-book-variable]] — Variable: 11 statement(s) and 8 atom(s) from raw/coding_little_go_book.pdf.
+- [[coding-little-go-book-variable-and-declaration]] — Variables and Declarations: 18 statement(s) and 9 atom(s) from raw/coding_little_go_book.pdf.
 - [[english]] — Canonical concept 'English': 2 source(s), 54 statement(s), 0 atom(s), 0 relation(s).
-- [[function]] — Canonical concept 'Function': 2 source(s), 12 statement(s), 10 atom(s), 0 relation(s).
-- [[henry]] — Canonical concept 'Henry': 2 source(s), 24 statement(s), 0 atom(s), 0 relation(s).
 - [[history-dickens-england-excerpt-afterward]] — Afterward: 9 statement(s) and 0 atom(s) from raw/history_dickens_england_excerpt.pdf.
 - [[history-dickens-england-excerpt-army]] — Army: 7 statement(s) and 0 atom(s) from raw/history_dickens_england_excerpt.pdf.
 - [[history-dickens-england-excerpt-baron]] — Baron: 8 statement(s) and 0 atom(s) from raw/history_dickens_england_excerpt.pdf.
 - [[history-dickens-england-excerpt-brother]] — Brother: 8 statement(s) and 0 atom(s) from raw/history_dickens_england_excerpt.pdf.
+- [[history-dickens-england-excerpt-conquered-norman]] — Conquered Norman: 17 statement(s) and 0 atom(s) from raw/history_dickens_england_excerpt.pdf.
 - [[history-dickens-england-excerpt-conspiring-lords-found]] — Conspiring Lords Found: 6 statement(s) and 0 atom(s) from raw/history_dickens_england_excerpt.pdf.
 - [[history-dickens-england-excerpt-duke]] — Duke: 6 statement(s) and 0 atom(s) from raw/history_dickens_england_excerpt.pdf.
 - [[history-dickens-england-excerpt-earl]] — Earl: 10 statement(s) and 0 atom(s) from raw/history_dickens_england_excerpt.pdf.
-- [[history-dickens-england-excerpt-england-harold-second-conquered-norman]] — -ENGLAND UNDER HAROLD THE SECOND, AND CONQUERED BY THE NORMANS: 45 statement(s) and 0 atom(s) from raw/history_dickens_england_excerpt.pdf.
+- [[history-dickens-england-excerpt-england-harold-second]] — England Harold Second: 12 statement(s) and 0 atom(s) from raw/history_dickens_england_excerpt.pdf.
+- [[history-dickens-england-excerpt-england-harold-second-and-conquered-norman]] — -ENGLAND UNDER HAROLD THE SECOND, AND CONQUERED BY THE NORMANS: 45 statement(s) and 0 atom(s) from raw/history_dickens_england_excerpt.pdf.
 - [[history-dickens-england-excerpt-england-henry-fine-scholar]] — -ENGLAND UNDER HENRY THE FIRST, CALLED FINE-SCHOLAR: 79 statement(s) and 0 atom(s) from raw/history_dickens_england_excerpt.pdf.
 - [[history-dickens-england-excerpt-england-henry-third-winchester]] — -ENGLAND UNDER HENRY THE THIRD, CALLED, OF WINCHESTER: 107 statement(s) and 0 atom(s) from raw/history_dickens_england_excerpt.pdf.
 - [[history-dickens-england-excerpt-england-king-john-lackland]] — -ENGLAND UNDER KING JOHN, CALLED LACKLAND: 24 statement(s) and 0 atom(s) from raw/history_dickens_england_excerpt.pdf.
-- [[history-dickens-england-excerpt-england-matilda-stephen]] — -ENGLAND UNDER MATILDA AND STEPHEN: 24 statement(s) and 0 atom(s) from raw/history_dickens_england_excerpt.pdf.
+- [[history-dickens-england-excerpt-england-matilda]] — England Matilda: 5 statement(s) and 0 atom(s) from raw/history_dickens_england_excerpt.pdf.
+- [[history-dickens-england-excerpt-england-matilda-and-stephen]] — -ENGLAND UNDER MATILDA AND STEPHEN: 24 statement(s) and 0 atom(s) from raw/history_dickens_england_excerpt.pdf.
 - [[history-dickens-england-excerpt-england-richard-lion-heart]] — -ENGLAND UNDER RICHARD THE FIRST, CALLED THE LION-HEART: 71 statement(s) and 0 atom(s) from raw/history_dickens_england_excerpt.pdf.
 - [[history-dickens-england-excerpt-english]] — English: 13 statement(s) and 0 atom(s) from raw/history_dickens_england_excerpt.pdf.
 - [[history-dickens-england-excerpt-father]] — Father: 6 statement(s) and 0 atom(s) from raw/history_dickens_england_excerpt.pdf.
-- [[history-dickens-england-excerpt-fitz]] — Fitz: 5 statement(s) and 0 atom(s) from raw/history_dickens_england_excerpt.pdf.
 - [[history-dickens-england-excerpt-harold]] — Harold: 7 statement(s) and 0 atom(s) from raw/history_dickens_england_excerpt.pdf.
 - [[history-dickens-england-excerpt-henry]] — Henry: 14 statement(s) and 0 atom(s) from raw/history_dickens_england_excerpt.pdf.
 - [[history-dickens-england-excerpt-king]] — King: 55 statement(s) and 0 atom(s) from raw/history_dickens_england_excerpt.pdf.
-- [[history-dickens-england-excerpt-knight]] — Knight: 6 statement(s) and 0 atom(s) from raw/history_dickens_england_excerpt.pdf.
 - [[history-dickens-england-excerpt-lord]] — Lord: 7 statement(s) and 0 atom(s) from raw/history_dickens_england_excerpt.pdf.
 - [[history-dickens-england-excerpt-norman]] — Norman: 10 statement(s) and 0 atom(s) from raw/history_dickens_england_excerpt.pdf.
 - [[history-dickens-england-excerpt-people]] — People: 7 statement(s) and 0 atom(s) from raw/history_dickens_england_excerpt.pdf.
@@ -602,115 +600,114 @@ Regenerated ingest pages will be linked here by the ingest workflow.
 - [[history-dickens-england-excerpt-prince]] — Prince: 13 statement(s) and 0 atom(s) from raw/history_dickens_england_excerpt.pdf.
 - [[history-dickens-england-excerpt-richard]] — Richard: 16 statement(s) and 0 atom(s) from raw/history_dickens_england_excerpt.pdf.
 - [[history-dickens-england-excerpt-second]] — PART THE SECOND: 68 statement(s) and 0 atom(s) from raw/history_dickens_england_excerpt.pdf.
-- [[history-dickens-england-excerpt-stephen]] — Stephen: 7 statement(s) and 0 atom(s) from raw/history_dickens_england_excerpt.pdf.
-- [[history-dickens-england-excerpt-three]] — Three: 6 statement(s) and 0 atom(s) from raw/history_dickens_england_excerpt.pdf.
+- [[history-dickens-england-excerpt-stephen]] — Stephen: 9 statement(s) and 0 atom(s) from raw/history_dickens_england_excerpt.pdf.
 - [[history-dickens-england-excerpt-william]] — William: 7 statement(s) and 0 atom(s) from raw/history_dickens_england_excerpt.pdf.
 - [[history-dickens-england-excerpt-year]] — Year: 13 statement(s) and 0 atom(s) from raw/history_dickens_england_excerpt.pdf.
 - [[history-dickens-england-excerpt-young]] — Young: 7 statement(s) and 0 atom(s) from raw/history_dickens_england_excerpt.pdf.
+- [[history-short-history-of-england-age-crusade]] — THE AGE OF THE CRUSADES: 81 statement(s) and 0 atom(s) from raw/history_short_history_of_england.pdf.
+- [[history-short-history-of-england-age-legend]] — THE AGE OF LEGENDS: 84 statement(s) and 0 atom(s) from raw/history_short_history_of_england.pdf.
+- [[history-short-history-of-england-age-puritan]] — THE AGE OF THE PURITANS: 107 statement(s) and 0 atom(s) from raw/history_short_history_of_england.pdf.
+- [[history-short-history-of-england-aristocracy-and-discontent]] — ARISTOCRACY AND THE DISCONTENTS: 99 statement(s) and 0 atom(s) from raw/history_short_history_of_england.pdf.
 - [[history-short-history-of-england-century]] — Century: 13 statement(s) and 0 atom(s) from raw/history_short_history_of_england.pdf.
 - [[history-short-history-of-england-christian]] — Christian: 12 statement(s) and 0 atom(s) from raw/history_short_history_of_england.pdf.
 - [[history-short-history-of-england-church]] — Church: 12 statement(s) and 0 atom(s) from raw/history_short_history_of_england.pdf.
-- [[history-short-history-of-england-crusade]] — THE AGE OF THE CRUSADES: 81 statement(s) and 0 atom(s) from raw/history_short_history_of_england.pdf.
 - [[history-short-history-of-england-defeat-barbarian]] — THE DEFEAT OF THE BARBARIANS: 94 statement(s) and 0 atom(s) from raw/history_short_history_of_england.pdf.
-- [[history-short-history-of-england-edward-norman-king]] — ST. EDWARD AND THE NORMAN KINGS: 114 statement(s) and 0 atom(s) from raw/history_short_history_of_england.pdf.
+- [[history-short-history-of-england-edward-and-norman-king]] — ST. EDWARD AND THE NORMAN KINGS: 114 statement(s) and 0 atom(s) from raw/history_short_history_of_england.pdf.
 - [[history-short-history-of-england-england]] — England: 28 statement(s) and 2 atom(s) from raw/history_short_history_of_england.pdf.
 - [[history-short-history-of-england-english]] — English: 41 statement(s) and 0 atom(s) from raw/history_short_history_of_england.pdf.
 - [[history-short-history-of-england-france]] — France: 14 statement(s) and 0 atom(s) from raw/history_short_history_of_england.pdf.
 - [[history-short-history-of-england-french]] — French: 10 statement(s) and 0 atom(s) from raw/history_short_history_of_england.pdf.
+- [[history-short-history-of-england-french-wars]] — French Wars: 11 statement(s) and 0 atom(s) from raw/history_short_history_of_england.pdf.
 - [[history-short-history-of-england-guild]] — Guild: 12 statement(s) and 0 atom(s) from raw/history_short_history_of_england.pdf.
-- [[history-short-history-of-england-henry]] — Henry: 10 statement(s) and 0 atom(s) from raw/history_short_history_of_england.pdf.
 - [[history-short-history-of-england-history]] — History: 25 statement(s) and 0 atom(s) from raw/history_short_history_of_england.pdf.
-- [[history-short-history-of-england-idea]] — Idea: 10 statement(s) and 0 atom(s) from raw/history_short_history_of_england.pdf.
 - [[history-short-history-of-england-king]] — King: 27 statement(s) and 0 atom(s) from raw/history_short_history_of_england.pdf.
-- [[history-short-history-of-england-legend]] — THE AGE OF LEGENDS: 84 statement(s) and 0 atom(s) from raw/history_short_history_of_england.pdf.
-- [[history-short-history-of-england-meaning-merry-england]] — THE MEANING OF MERRY ENGLAND: 124 statement(s) and 2 atom(s) from raw/history_short_history_of_england.pdf.
-- [[history-short-history-of-england-nationality-french-wars]] — NATIONALITY AND THE FRENCH WARS: 110 statement(s) and 0 atom(s) from raw/history_short_history_of_england.pdf.
+- [[history-short-history-of-england-meaning-merry-england]] — THE MEANING OF MERRY ENGLAND: 124 statement(s) and 0 atom(s) from raw/history_short_history_of_england.pdf.
+- [[history-short-history-of-england-nationality-and-french-wars]] — NATIONALITY AND THE FRENCH WARS: 110 statement(s) and 0 atom(s) from raw/history_short_history_of_england.pdf.
+- [[history-short-history-of-england-norman-king]] — Norman King: 35 statement(s) and 0 atom(s) from raw/history_short_history_of_england.pdf.
 - [[history-short-history-of-england-parliament]] — Parliament: 12 statement(s) and 0 atom(s) from raw/history_short_history_of_england.pdf.
 - [[history-short-history-of-england-people]] — People: 14 statement(s) and 1 atom(s) from raw/history_short_history_of_england.pdf.
 - [[history-short-history-of-england-problem-plantagenet]] — THE PROBLEM OF THE PLANTAGENETS: 99 statement(s) and 0 atom(s) from raw/history_short_history_of_england.pdf.
 - [[history-short-history-of-england-province-britain]] — THE PROVINCE OF BRITAIN: 109 statement(s) and 0 atom(s) from raw/history_short_history_of_england.pdf.
-- [[history-short-history-of-england-puritan]] — THE AGE OF THE PURITANS: 107 statement(s) and 0 atom(s) from raw/history_short_history_of_england.pdf.
 - [[history-short-history-of-england-rebellion-rich]] — THE REBELLION OF THE RICH: 118 statement(s) and 0 atom(s) from raw/history_short_history_of_england.pdf.
-- [[history-short-history-of-england-republic]] — THE WAR WITH THE GREAT REPUBLICS: 101 statement(s) and 0 atom(s) from raw/history_short_history_of_england.pdf.
-- [[history-short-history-of-england-return-barbarian]] — THE RETURN OF THE BARBARIAN: 97 statement(s) and 1 atom(s) from raw/history_short_history_of_england.pdf.
+- [[history-short-history-of-england-return-barbarian]] — THE RETURN OF THE BARBARIAN: 97 statement(s) and 0 atom(s) from raw/history_short_history_of_england.pdf.
 - [[history-short-history-of-england-revolution]] — Revolution: 14 statement(s) and 0 atom(s) from raw/history_short_history_of_england.pdf.
 - [[history-short-history-of-england-roman]] — Roman: 14 statement(s) and 0 atom(s) from raw/history_short_history_of_england.pdf.
-- [[history-short-history-of-england-rome]] — Rome: 10 statement(s) and 0 atom(s) from raw/history_short_history_of_england.pdf.
-- [[history-short-history-of-england-spain-schism-nation]] — SPAIN AND THE SCHISM OF NATIONS: 98 statement(s) and 0 atom(s) from raw/history_short_history_of_england.pdf.
+- [[history-short-history-of-england-spain-and-schism-nation]] — SPAIN AND THE SCHISM OF NATIONS: 98 statement(s) and 0 atom(s) from raw/history_short_history_of_england.pdf.
 - [[history-short-history-of-england-triumph-whig]] — THE TRIUMPH OF THE WHIGS: 129 statement(s) and 0 atom(s) from raw/history_short_history_of_england.pdf.
-- [[history-short-history-of-england-usurper]] — THE WAR OF THE USURPERS: 95 statement(s) and 0 atom(s) from raw/history_short_history_of_england.pdf.
-- [[interface]] — Canonical concept 'Interface': 2 source(s), 21 statement(s), 5 atom(s), 0 relation(s).
+- [[history-short-history-of-england-war-republic]] — THE WAR WITH THE GREAT REPUBLICS: 101 statement(s) and 0 atom(s) from raw/history_short_history_of_england.pdf.
+- [[history-short-history-of-england-war-usurper]] — THE WAR OF THE USURPERS: 95 statement(s) and 0 atom(s) from raw/history_short_history_of_england.pdf.
+- [[interface]] — Canonical concept 'Interface': 2 source(s), 21 statement(s), 8 atom(s), 0 relation(s).
+- [[introduction]] — Canonical concept 'Introduction': 2 source(s), 25 statement(s), 4 atom(s), 0 relation(s).
 - [[king]] — Canonical concept 'King': 2 source(s), 82 statement(s), 0 atom(s), 0 relation(s).
-- [[package]] — Canonical concept 'Package': 2 source(s), 11 statement(s), 9 atom(s), 0 relation(s).
+- [[package]] — Canonical concept 'Package': 2 source(s), 13 statement(s), 8 atom(s), 0 relation(s).
 - [[people]] — Canonical concept 'People': 2 source(s), 21 statement(s), 1 atom(s), 0 relation(s).
 - [[rpg-cairn-2e-core-attack]] — Attack: 5 statement(s) and 5 atom(s) from raw/rpg_cairn_2e_core.pdf.
 - [[rpg-cairn-2e-core-attack-modifier]] — Attack Modifiers: 2 statement(s) and 4 atom(s) from raw/rpg_cairn_2e_core.pdf.
-- [[rpg-cairn-2e-core-attribute-protection-trait]] — Attributes, Hit Protection, and Traits: 5 statement(s) and 2 atom(s) from raw/rpg_cairn_2e_core.pdf.
+- [[rpg-cairn-2e-core-attribute-hit-protection-and-trait]] — Attributes, Hit Protection, and Traits: 5 statement(s) and 1 atom(s) from raw/rpg_cairn_2e_core.pdf.
 - [[rpg-cairn-2e-core-bond]] — Bonds: 1 statement(s) and 5 atom(s) from raw/rpg_cairn_2e_core.pdf.
-- [[rpg-cairn-2e-core-bond-omen]] — Bonds and Omens: 0 statement(s) and 9 atom(s) from raw/rpg_cairn_2e_core.pdf.
-- [[rpg-cairn-2e-core-bond-should]] — Bonds Should...: 4 statement(s) and 6 atom(s) from raw/rpg_cairn_2e_core.pdf.
+- [[rpg-cairn-2e-core-bond-and-omen]] — Bonds and Omens: 0 statement(s) and 8 atom(s) from raw/rpg_cairn_2e_core.pdf.
+- [[rpg-cairn-2e-core-bond-should]] — Bonds Should...: 4 statement(s) and 5 atom(s) from raw/rpg_cairn_2e_core.pdf.
 - [[rpg-cairn-2e-core-character]] — Character: 37 statement(s) and 3 atom(s) from raw/rpg_cairn_2e_core.pdf.
 - [[rpg-cairn-2e-core-courtyard]] — The Courtyard: 20 statement(s) and 0 atom(s) from raw/rpg_cairn_2e_core.pdf.
 - [[rpg-cairn-2e-core-critical-damage]] — Critical Damage: 5 statement(s) and 1 atom(s) from raw/rpg_cairn_2e_core.pdf.
-- [[rpg-cairn-2e-core-damage]] — Damage: 7 statement(s) and 2 atom(s) from raw/rpg_cairn_2e_core.pdf.
-- [[rpg-cairn-2e-core-dungeon-exploration-cycle]] — Dungeon Exploration Cycle: 5 statement(s) and 4 atom(s) from raw/rpg_cairn_2e_core.pdf.
-- [[rpg-cairn-2e-core-exploration]] — Exploration: 2 statement(s) and 3 atom(s) from raw/rpg_cairn_2e_core.pdf.
-- [[rpg-cairn-2e-core-freya]] — Freya: 16 statement(s) and 1 atom(s) from raw/rpg_cairn_2e_core.pdf.
+- [[rpg-cairn-2e-core-day-watch-three]] — Day One / Watch Three: 4 statement(s) and 4 atom(s) from raw/rpg_cairn_2e_core.pdf.
+- [[rpg-cairn-2e-core-day-watch-two]] — Day One / Watch Two: 3 statement(s) and 4 atom(s) from raw/rpg_cairn_2e_core.pdf.
+- [[rpg-cairn-2e-core-dungeon-exploration-cycle]] — Dungeon Exploration Cycle: 5 statement(s) and 2 atom(s) from raw/rpg_cairn_2e_core.pdf.
+- [[rpg-cairn-2e-core-freya]] — Freya: 9 statement(s) and 0 atom(s) from raw/rpg_cairn_2e_core.pdf.
 - [[rpg-cairn-2e-core-hireling]] — Hirelings: 2 statement(s) and 4 atom(s) from raw/rpg_cairn_2e_core.pdf.
-- [[rpg-cairn-2e-core-inventory-slot]] — Inventory Slots: 3 statement(s) and 3 atom(s) from raw/rpg_cairn_2e_core.pdf.
-- [[rpg-cairn-2e-core-luciu]] — Lucius: 14 statement(s) and 1 atom(s) from raw/rpg_cairn_2e_core.pdf.
-- [[rpg-cairn-2e-core-night]] — Night: 4 statement(s) and 3 atom(s) from raw/rpg_cairn_2e_core.pdf.
+- [[rpg-cairn-2e-core-introduction]] — Introduction: 6 statement(s) and 2 atom(s) from raw/rpg_cairn_2e_core.pdf.
+- [[rpg-cairn-2e-core-knowledge-and-perception]] — Knowledge And Perception: 0 statement(s) and 6 atom(s) from raw/rpg_cairn_2e_core.pdf.
+- [[rpg-cairn-2e-core-lucius]] — Lucius: 14 statement(s) and 2 atom(s) from raw/rpg_cairn_2e_core.pdf.
 - [[rpg-cairn-2e-core-omen]] — Omens: 4 statement(s) and 4 atom(s) from raw/rpg_cairn_2e_core.pdf.
 - [[rpg-cairn-2e-core-omen-should]] — Omens Should...: 2 statement(s) and 4 atom(s) from raw/rpg_cairn_2e_core.pdf.
 - [[rpg-cairn-2e-core-opposed-save]] — Opposed Saves: 7 statement(s) and 0 atom(s) from raw/rpg_cairn_2e_core.pdf.
 - [[rpg-cairn-2e-core-party]] — Party: 24 statement(s) and 2 atom(s) from raw/rpg_cairn_2e_core.pdf.
+- [[rpg-cairn-2e-core-perception]] — Perception: 16 statement(s) and 5 atom(s) from raw/rpg_cairn_2e_core.pdf.
 - [[rpg-cairn-2e-core-player]] — Player: 13 statement(s) and 3 atom(s) from raw/rpg_cairn_2e_core.pdf.
+- [[rpg-cairn-2e-core-principle-for-player]] — Principles for Players: 0 statement(s) and 7 atom(s) from raw/rpg_cairn_2e_core.pdf.
+- [[rpg-cairn-2e-core-principle-for-warden]] — Principles for Wardens: 0 statement(s) and 7 atom(s) from raw/rpg_cairn_2e_core.pdf.
 - [[rpg-cairn-2e-core-result]] — Result: 9 statement(s) and 3 atom(s) from raw/rpg_cairn_2e_core.pdf.
-- [[rpg-cairn-2e-core-roll-choose-background]] — Roll or choose a Background: 4 statement(s) and 3 atom(s) from raw/rpg_cairn_2e_core.pdf.
 - [[rpg-cairn-2e-core-round]] — Rounds: 7 statement(s) and 0 atom(s) from raw/rpg_cairn_2e_core.pdf.
 - [[rpg-cairn-2e-core-save-principle]] — Save Principles: 13 statement(s) and 2 atom(s) from raw/rpg_cairn_2e_core.pdf.
 - [[rpg-cairn-2e-core-target]] — Target: 7 statement(s) and 4 atom(s) from raw/rpg_cairn_2e_core.pdf.
-- [[rpg-cairn-2e-core-travel]] — Travel: 4 statement(s) and 2 atom(s) from raw/rpg_cairn_2e_core.pdf.
-- [[rpg-cairn-2e-core-travel-duration]] — Travel Duration: 6 statement(s) and 2 atom(s) from raw/rpg_cairn_2e_core.pdf.
-- [[rpg-cairn-2e-core-warden]] — Warden: 38 statement(s) and 5 atom(s) from raw/rpg_cairn_2e_core.pdf.
+- [[rpg-cairn-2e-core-wil]] — WIL: 9 statement(s) and 4 atom(s) from raw/rpg_cairn_2e_core.pdf.
 - [[rpg-cairn-2e-core-wilderness-exploration-cycle]] — Wilderness Exploration Cycle: 3 statement(s) and 3 atom(s) from raw/rpg_cairn_2e_core.pdf.
 - [[rpg-cairn-2e-core-wolfram]] — Wolfram: 20 statement(s) and 2 atom(s) from raw/rpg_cairn_2e_core.pdf.
-- [[rpg-dnd-srd-excerpt-ability-score-modifier]] — Ability Scores and Modifiers: 7 statement(s) and 1 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
-- [[rpg-dnd-srd-excerpt-action]] — Action: 9 statement(s) and 2 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
-- [[rpg-dnd-srd-excerpt-advantage-disadvantage]] — Advantage and Disadvantage: 10 statement(s) and 3 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
+- [[rpg-dnd-srd-excerpt-ability-score-and-modifier]] — Ability Scores and Modifiers: 7 statement(s) and 1 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
+- [[rpg-dnd-srd-excerpt-advantage]] — Advantage: 9 statement(s) and 3 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
+- [[rpg-dnd-srd-excerpt-advantage-and-disadvantage]] — Advantage and Disadvantage: 10 statement(s) and 4 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
 - [[rpg-dnd-srd-excerpt-armor]] — Armor: 9 statement(s) and 3 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
 - [[rpg-dnd-srd-excerpt-character]] — Character: 23 statement(s) and 1 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
-- [[rpg-dnd-srd-excerpt-charisma-check]] — Charisma Checks: 11 statement(s) and 1 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
+- [[rpg-dnd-srd-excerpt-charisma-check]] — Charisma Checks: 11 statement(s) and 0 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
 - [[rpg-dnd-srd-excerpt-check]] — Check: 18 statement(s) and 3 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
-- [[rpg-dnd-srd-excerpt-class]] — Class: 6 statement(s) and 4 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
-- [[rpg-dnd-srd-excerpt-cover]] — Cover: 10 statement(s) and 0 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
+- [[rpg-dnd-srd-excerpt-controlling-mount]] — Controlling a Mount: 7 statement(s) and 2 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
+- [[rpg-dnd-srd-excerpt-cover]] — Cover: 10 statement(s) and 1 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
 - [[rpg-dnd-srd-excerpt-creature]] — Creature: 50 statement(s) and 8 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
-- [[rpg-dnd-srd-excerpt-damage]] — Damage: 10 statement(s) and 5 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
-- [[rpg-dnd-srd-excerpt-damage-roll]] — Damage Rolls: 5 statement(s) and 3 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
+- [[rpg-dnd-srd-excerpt-damage-roll]] — Damage Rolls: 5 statement(s) and 2 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
 - [[rpg-dnd-srd-excerpt-death-saving-throw]] — Death Saving Throws: 9 statement(s) and 1 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
-- [[rpg-dnd-srd-excerpt-heavy-armor]] — Heavy Armor: 9 statement(s) and 2 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
-- [[rpg-dnd-srd-excerpt-hiding]] — Hiding: 8 statement(s) and 2 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
+- [[rpg-dnd-srd-excerpt-disadvantage]] — Disadvantage: 7 statement(s) and 3 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
+- [[rpg-dnd-srd-excerpt-goblin]] — Goblin: 1 statement(s) and 6 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
+- [[rpg-dnd-srd-excerpt-grappling]] — Grappling: 6 statement(s) and 4 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
+- [[rpg-dnd-srd-excerpt-heavy-armor]] — Heavy Armor: 9 statement(s) and 1 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
+- [[rpg-dnd-srd-excerpt-hiding]] — Hiding: 8 statement(s) and 3 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
 - [[rpg-dnd-srd-excerpt-medium-armor]] — Medium Armor: 9 statement(s) and 2 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
-- [[rpg-dnd-srd-excerpt-monster]] — Monster: 14 statement(s) and 1 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
 - [[rpg-dnd-srd-excerpt-move]] — Move: 9 statement(s) and 3 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
 - [[rpg-dnd-srd-excerpt-proficiency]] — Proficiency: 11 statement(s) and 7 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
-- [[rpg-dnd-srd-excerpt-proficiency-bonu]] — Proficiency Bonus: 5 statement(s) and 5 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
-- [[rpg-dnd-srd-excerpt-saving-throw]] — Saving Throws: 10 statement(s) and 1 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
-- [[rpg-dnd-srd-excerpt-situation]] — Situation: 9 statement(s) and 2 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
+- [[rpg-dnd-srd-excerpt-proficiency-bonus]] — Proficiency Bonus: 5 statement(s) and 4 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
+- [[rpg-dnd-srd-excerpt-saving-throw]] — Saving Throws: 10 statement(s) and 0 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
 - [[rpg-dnd-srd-excerpt-skill]] — Skills: 12 statement(s) and 3 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
-- [[rpg-dnd-srd-excerpt-space]] — Space: 6 statement(s) and 2 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
 - [[rpg-dnd-srd-excerpt-special]] — Special: 9 statement(s) and 9 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
+- [[rpg-dnd-srd-excerpt-special-weapon]] — Special Weapons: 5 statement(s) and 2 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
 - [[rpg-dnd-srd-excerpt-spell]] — Spell: 12 statement(s) and 5 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
 - [[rpg-dnd-srd-excerpt-table]] — Table: 5 statement(s) and 6 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
-- [[rpg-dnd-srd-excerpt-table-difficulty-classe]] — Table- Difficulty Classes: 4 statement(s) and 6 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
+- [[rpg-dnd-srd-excerpt-table-difficulty-class]] — Table- Difficulty Classes: 4 statement(s) and 6 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
 - [[rpg-dnd-srd-excerpt-target]] — Target: 14 statement(s) and 2 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
-- [[rpg-dnd-srd-excerpt-typical]] — Typical: 9 statement(s) and 2 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
 - [[rpg-dnd-srd-excerpt-weapon-proficiency]] — Weapon Proficiency: 7 statement(s) and 3 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
-- [[rpg-dnd-srd-excerpt-weapon-property]] — Weapon Properties: 17 statement(s) and 8 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
+- [[rpg-dnd-srd-excerpt-weapon-property]] — Weapon Properties: 17 statement(s) and 7 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
+- [[rpg-dnd-srd-excerpt-wisdom-check]] — Wisdom Checks: 6 statement(s) and 2 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
 - [[target]] — Canonical concept 'Target': 2 source(s), 21 statement(s), 6 atom(s), 0 relation(s).
 - [[type]] — Canonical concept 'Type': 2 source(s), 15 statement(s), 9 atom(s), 0 relation(s).
-- [[value]] — Canonical concept 'Value': 2 source(s), 14 statement(s), 23 atom(s), 0 relation(s).
 
 ## Syntheses
-- [[cross-source-synthesis]] — Cross-source synthesis index: 14 shared topics.
+- [[cross-source-synthesis]] — Cross-source synthesis index: 11 shared topics.
 - [[wiki-ingest-confidence]] — Latest bounded post-ingest confidence report.

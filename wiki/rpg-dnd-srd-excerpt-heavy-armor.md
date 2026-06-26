@@ -1,12 +1,12 @@
 ---
 page_id: rpg-dnd-srd-excerpt-heavy-armor
 page_kind: concept
-summary: Heavy Armor: 9 statement(s) and 2 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
+summary: Heavy Armor: 9 statement(s) and 1 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
 sources: raw/rpg_dnd_srd_excerpt.pdf
 updated: 2026-06-26
 domain: rpg-dnd-srd-excerpt
 category_path: concepts
-projection_coverage: topic-rpg-dnd-srd-excerpt-heavy-armor@4e863de4c2556b398a38b4f9c9f002a2
+projection_coverage: topic-rpg-dnd-srd-excerpt-heavy-armor@404936e931f43e57b1fdcd39e115e8af
 ---
 
 # Heavy Armor
@@ -103,32 +103,6 @@ Table- Armor
 
 </details>
 _(source: rpg_dnd_srd_excerpt.pdf (source-range-b7d08967-00493))_
-
-> Context: Proficiency with a weapon allows you to add your proficiency bonus to the attack roll for any attack you make with that weapon. If you make an attack roll using a weapon with which you lack proficiency, you do not add your proficiency bonus to the attack roll.
-_(context: rpg_dnd_srd_excerpt.pdf (source-range-b7d08967-00505))_
-
-| Table- Donning | and Doﬀing | Armor |
-| --- | --- | --- |
-| Category | Don | Doﬀ |
-| Light Armor | 1 minute | 1 minute |
-| Medium | Armor | 5 minutes |
-| Heavy | Armor | 10 minutes |
-| Shield | 1 action | 1 action |
-
-<details>
-<summary>Raw table text</summary>
-
-```
-Table- Donning   and Doﬀing   Armor
-   Category         Don        Doﬀ
- Light Armor     1 minute     1 minute
- Medium   Armor  5 minutes    1 minute
- Heavy  Armor    10 minutes   5 minutes
- Shield          1 action     1 action
-```
-
-</details>
-_(source: rpg_dnd_srd_excerpt.pdf (source-range-b7d08967-00506))_
 
 
 ## Source

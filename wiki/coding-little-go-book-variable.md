@@ -1,12 +1,12 @@
 ---
 page_id: coding-little-go-book-variable
 page_kind: concept
-summary: Variable: 7 statement(s) and 9 atom(s) from raw/coding_little_go_book.pdf.
+summary: Variable: 11 statement(s) and 8 atom(s) from raw/coding_little_go_book.pdf.
 sources: raw/coding_little_go_book.pdf
 updated: 2026-06-26
 domain: coding-little-go-book
 category_path: concepts
-projection_coverage: topic-coding-little-go-book-variable@1de069b91c6c1da562ea8e14e815a884
+projection_coverage: topic-coding-little-go-book-variable@7dfe43785e10ecef0e102b33682f0576
 ---
 
 # Variable
@@ -15,13 +15,17 @@ What [[coding-little-go-book]] covers about variable:
 
 ## Statements
 
-- Environment variables can be set through the Environment Variables button on the Advanced tab of the System control panel. _(coding_little_go_book.pdf (source-range-773b6275-00030))_
-- Many times though, we don't want a variable that is directly associated with our value but rather a variable that has a pointer to our value. _(coding_little_go_book.pdf (source-range-773b6275-00127))_
-- Some variables, when created, have an easy-to-define life. _(coding_little_go_book.pdf (source-range-773b6275-00046))_
+- This means that when we first declare a variable, we use := but on subsequent assignment, we use the assignment operator = . _(coding_little_go_book.pdf (source-range-773b6275-00085))_
 - The most explicit way to deal with variable declaration and assignment in Go is also the most verbose: _(coding_little_go_book.pdf (source-range-773b6275-00075))_
 - Because a variable can't be declared twice (not in the same scope anyway). _(coding_little_go_book.pdf (source-range-773b6275-00083))_
 - If you read the error message closely, you'll notice that variables is plural. _(coding_little_go_book.pdf (source-range-773b6275-00086))_
 - As long as one of the variables is new, := can be used. _(coding_little_go_book.pdf (source-range-773b6275-00088))_
+- Go has a handy short variable declaration operator, := , which can infer the type: _(coding_little_go_book.pdf (source-range-773b6275-00079))_
+- It's important that you remember that := is used to declare the variable as well as assign a value to it. _(coding_little_go_book.pdf (source-range-773b6275-00083))_
+- The compiler will complain with no new variables on left side of := . _(coding_little_go_book.pdf (source-range-773b6275-00085))_
+- Although power is being used twice with := , the compiler won't complain the second time we use it, it'll see that the other variable, name , is a new variable and allow := . _(coding_little_go_book.pdf (source-range-773b6275-00090))_
+- For now, the last thing to know is that, like imports, Go won't let you have unused variables. _(coding_little_go_book.pdf (source-range-773b6275-00091))_
+- For now, remember that you'll use var NAME TYPE when declaring a variable to its zero value, NAME := VALUE when declaring and assigning a value, and NAME = VALUE when assigning to a previously declared variable. _(coding_little_go_book.pdf (source-range-773b6275-00094))_
 
 ## Technical atoms
 

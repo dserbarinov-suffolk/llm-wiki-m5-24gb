@@ -1,7 +1,7 @@
 ---
 page_id: coding-little-go-book-slice
 page_kind: concept
-summary: Slices: 39 statement(s) and 20 atom(s) from raw/coding_little_go_book.pdf.
+summary: Slices: 39 statement(s) and 22 atom(s) from raw/coding_little_go_book.pdf.
 sources: raw/coding_little_go_book.pdf
 updated: 2026-06-26
 domain: coding-little-go-book

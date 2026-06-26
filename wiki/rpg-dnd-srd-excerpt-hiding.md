@@ -1,12 +1,12 @@
 ---
 page_id: rpg-dnd-srd-excerpt-hiding
 page_kind: concept
-summary: Hiding: 8 statement(s) and 2 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
+summary: Hiding: 8 statement(s) and 3 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
 sources: raw/rpg_dnd_srd_excerpt.pdf
 updated: 2026-06-26
 domain: rpg-dnd-srd-excerpt
 category_path: concepts
-projection_coverage: topic-rpg-dnd-srd-excerpt-hiding@a6428b70f0340cda40013cdd85a12900
+projection_coverage: topic-rpg-dnd-srd-excerpt-hiding@d860c542b1013c10903edf94259c8e0f
 ---
 
 # Hiding
@@ -31,6 +31,12 @@ _(context: rpg_dnd_srd_excerpt.pdf (source-range-b7d08967-00168))_
 
 > You can't hide from a creature that can see you clearly, and you give away your position if you make noise, such as shouting a warning or knocking over a vase.
 _(source: rpg_dnd_srd_excerpt.pdf (source-range-b7d08967-00169))_
+
+> Context: You can't hide from a creature that can see you clearly, and you give away your position if you make noise, such as shouting a warning or knocking over a vase.
+_(context: rpg_dnd_srd_excerpt.pdf (source-range-b7d08967-00169))_
+
+> An invisible creature can always try to hide.
+_(source: rpg_dnd_srd_excerpt.pdf (source-range-b7d08967-00170))_
 
 > Context: In combat, most creatures stay alert for signs of danger all around, so if you come out of hiding and approach a creature, it usually sees you. However, under certain circumstances, the GM might allow you to stay hidden as you approach a creature that is distracted, allowing you to gain advantage on an attack roll before you are seen.
 _(context: rpg_dnd_srd_excerpt.pdf (source-range-b7d08967-00171))_

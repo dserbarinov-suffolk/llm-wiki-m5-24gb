@@ -1,12 +1,12 @@
 ---
 page_id: coding-little-go-book-maps
 page_kind: concept
-summary: Maps: 7 statement(s) and 4 atom(s) from raw/coding_little_go_book.pdf.
+summary: Maps: 7 statement(s) and 8 atom(s) from raw/coding_little_go_book.pdf.
 sources: raw/coding_little_go_book.pdf
 updated: 2026-06-26
 domain: coding-little-go-book
 category_path: concepts
-projection_coverage: topic-coding-little-go-book-maps@6f51cf313f269ce960a072b0a8674790
+projection_coverage: topic-coding-little-go-book-maps@6a8242dd5d1c6e82c2c8bd90545b42ba
 ---
 
 # Maps
@@ -40,6 +40,17 @@ func main() {
 ```
 _(source: coding_little_go_book.pdf (source-range-773b6275-00250))_
 
+> Context: To get the number of keys, we use len . To remove a value based on its key, we use delete :
+_(context: coding_little_go_book.pdf (source-range-773b6275-00251))_
+
+```
+// returns 1
+total := len(lookup)
+// has no return, can be called on a non-existing key
+delete(lookup, "goku")
+```
+_(source: coding_little_go_book.pdf (source-range-773b6275-00252))_
+
 > Context: Maps grow dynamically. However, we can supply a second argument to make to set an initial size:
 _(context: coding_little_go_book.pdf (source-range-773b6275-00253))_
 
@@ -54,16 +65,28 @@ _(context: coding_little_go_book.pdf (source-range-773b6275-00253))_
 > If you have some idea of how many keys your map will have, defining an initial size can help with performance.
 _(source: coding_little_go_book.pdf (source-range-773b6275-00255))_
 
-> Context: There's yet another way to declare and initialize values in Go. Like make , this approach is specific to maps and arrays. We can declare as a composite literal:
-_(context: coding_little_go_book.pdf (source-range-773b6275-00260))_
+> Context: When you need a map as a field of a structure, you define it as: One way to initialize the above is via:
+_(context: coding_little_go_book.pdf (source-range-773b6275-00256, source-range-773b6275-00258))_
 
 ```
-lookup := map[string]int{
-  "goku": 9001,
-  "gohan": 2044,
+type Saiyan struct {
+  Name string
+  Friends map[string]*Saiyan
 }
 ```
-_(source: coding_little_go_book.pdf (source-range-773b6275-00261))_
+_(source: coding_little_go_book.pdf (source-range-773b6275-00257))_
+
+> Context: One way to initialize the above is via:
+_(context: coding_little_go_book.pdf (source-range-773b6275-00258))_
+
+```
+goku := &Saiyan{
+  Name: "Goku",
+  Friends: make(map[string]*Saiyan),
+}
+goku.Friends["krillin"] = ... //todo load or create Krillin
+```
+_(source: coding_little_go_book.pdf (source-range-773b6275-00259))_
 
 
 ## Source

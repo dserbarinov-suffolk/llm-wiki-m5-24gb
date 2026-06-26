@@ -1,12 +1,12 @@
 ---
 page_id: rpg-dnd-srd-excerpt-cover
 page_kind: concept
-summary: Cover: 10 statement(s) and 0 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
+summary: Cover: 10 statement(s) and 1 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
 sources: raw/rpg_dnd_srd_excerpt.pdf
 updated: 2026-06-26
 domain: rpg-dnd-srd-excerpt
 category_path: concepts
-projection_coverage: topic-rpg-dnd-srd-excerpt-cover@94c42574b58e32406131d2c52edb7367
+projection_coverage: topic-rpg-dnd-srd-excerpt-cover@d1ae600a7b2073b1c6e1ac4d7d2d2f3d
 ---
 
 # Cover
@@ -25,6 +25,12 @@ What [[rpg-dnd-srd-excerpt]] covers about cover:
 - A target has half cover if an obstacle blocks at least half of its body. _(rpg_dnd_srd_excerpt.pdf (source-range-b7d08967-00404))_
 - The obstacle might be a low wall, a large piece of furniture, a narrow tree trunk, or a creature, whether that creature is an enemy or a friend. _(rpg_dnd_srd_excerpt.pdf (source-range-b7d08967-00404))_
 - The obstacle might be a portcullis, an arrow slit, or a thick tree trunk. _(rpg_dnd_srd_excerpt.pdf (source-range-b7d08967-00405))_
+
+## Technical atoms
+
+> Walls, trees, creatures, and other obstacles can provide cover during combat, making a target more difficult to harm.
+_(source: rpg_dnd_srd_excerpt.pdf (source-range-b7d08967-00402))_
+
 
 ## Source
 

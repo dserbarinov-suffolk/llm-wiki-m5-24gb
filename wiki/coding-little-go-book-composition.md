@@ -1,12 +1,12 @@
 ---
 page_id: coding-little-go-book-composition
 page_kind: concept
-summary: Composition: 8 statement(s) and 1 atom(s) from raw/coding_little_go_book.pdf.
+summary: Composition: 8 statement(s) and 3 atom(s) from raw/coding_little_go_book.pdf.
 sources: raw/coding_little_go_book.pdf
 updated: 2026-06-26
 domain: coding-little-go-book
 category_path: concepts
-projection_coverage: topic-coding-little-go-book-composition@3f8ac5dde06129e86d811ef3eacfda5d
+projection_coverage: topic-coding-little-go-book-composition@95f0ec6cab2c33bf3e1295fd5bb8a37e
 ---
 
 # Composition
@@ -47,6 +47,41 @@ public class Saiyan {
 }
 ```
 _(source: coding_little_go_book.pdf (source-range-773b6275-00161))_
+
+> Context: This can get pretty tedious. Every method of Person needs to be duplicated in Saiyan . Go avoids this tediousness: The Saiyan structure has a field of type *Person . Because we didn't give it an explicit field name, we can implicitly access the fields and functions of the composed type. However, the Go compiler did give it a field name, consider the perfectly valid:
+_(context: coding_little_go_book.pdf (source-range-773b6275-00162, source-range-773b6275-00164))_
+
+```
+type Person struct {
+  Name string
+}
+func (p *Person) Introduce() {
+  fmt.Printf("Hi, I'm %s\n", p.Name)
+}
+type Saiyan struct {
+  *Person
+  Power int
+}
+// and to use it:
+goku := &Saiyan{
+  Person: &Person{"Goku"},
+  Power: 9001,
+}
+goku.Introduce()
+```
+_(source: coding_little_go_book.pdf (source-range-773b6275-00163))_
+
+> Context: The Saiyan structure has a field of type *Person . Because we didn't give it an explicit field name, we can implicitly access the fields and functions of the composed type. However, the Go compiler did give it a field name, consider the perfectly valid: Both of the above will print "Goku".
+_(context: coding_little_go_book.pdf (source-range-773b6275-00164, source-range-773b6275-00166))_
+
+```
+goku := &Saiyan{
+  Person: &Person{"Goku"},
+}
+fmt.Println(goku.Name)
+fmt.Println(goku.Person.Name)
+```
+_(source: coding_little_go_book.pdf (source-range-773b6275-00165))_
 
 
 ## Source

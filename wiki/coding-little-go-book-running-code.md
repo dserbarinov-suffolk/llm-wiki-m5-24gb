@@ -1,12 +1,12 @@
 ---
 page_id: coding-little-go-book-running-code
 page_kind: concept
-summary: Running Go Code: 8 statement(s) and 1 atom(s) from raw/coding_little_go_book.pdf.
+summary: Running Go Code: 8 statement(s) and 2 atom(s) from raw/coding_little_go_book.pdf.
 sources: raw/coding_little_go_book.pdf
 updated: 2026-06-26
 domain: coding-little-go-book
 category_path: concepts
-projection_coverage: topic-coding-little-go-book-running-code@ed724b080bf950cd67fd4e0e44aded25
+projection_coverage: topic-coding-little-go-book-running-code@dce2e5310cee63b7d51329ef15dc8211
 ---
 
 # Running Go Code
@@ -36,6 +36,12 @@ func main() {
 }
 ```
 _(source: coding_little_go_book.pdf (source-range-773b6275-00050))_
+
+> Context: Finally, run the program by entering:
+_(context: coding_little_go_book.pdf (source-range-773b6275-00053))_
+
+> go run main.go If everything worked, you should see it's over 9000!
+_(source: coding_little_go_book.pdf (source-range-773b6275-00054))_
 
 
 ## Source

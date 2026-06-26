@@ -7,7 +7,7 @@ updated: 2026-06-26
 domain: rpg-dnd-srd-excerpt
 category_path: sources
 source_id: rpg_dnd_srd_excerpt.pdf
-projection_coverage: projection-coverage-26987e0ca805effd@3fd6377766c28307
+projection_coverage: projection-coverage-26987e0ca805effd@25eeb78ed2aac142
 ---
 
 # D&D SRD 5.1 (Excerpt)

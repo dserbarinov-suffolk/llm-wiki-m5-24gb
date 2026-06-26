@@ -6,19 +6,17 @@ from dataclasses import dataclass
 
 from llmwiki.domain.ledger.artifacts import (
     BlockedWriteDiagnosticArtifact,
-    PortableArtifactMember,
     PortableArtifactSet,
     build_blocked_write_diagnostic_artifact,
     build_claim_ledger_artifact,
     build_document_structure_artifact,
     build_ledger_quality_report_artifact,
-    build_portable_artifact_set,
     build_projection_coverage_artifact,
     build_quality_check_catalog_artifact,
     build_source_coverage_artifact,
 )
 from llmwiki.domain.ledger.builder import build_claim_ledger, default_schema_bundle
-from llmwiki.domain.ledger.canonical import canonical_json, deterministic_id
+from llmwiki.domain.ledger.canonical import deterministic_id
 from llmwiki.domain.ledger.pointers import (
     claim_ledger_pointer,
     document_structure_pointer,
@@ -39,12 +37,14 @@ from llmwiki.domain.ledger.quality_catalog import (
 )
 from llmwiki.domain.ledger.renderer import render_source_page
 from llmwiki.domain.ledger.section_pages import build_section_pages
+from llmwiki.domain.ledger.section_planning import build_section_grounded_plan
 from llmwiki.domain.ledger.source_coverage import build_source_coverage
 from llmwiki.domain.ledger.topics import build_topic_index, plan_source_topics
 from llmwiki.domain.objects import Schema
 from llmwiki.domain.pages import WikiPage, slugify
 from llmwiki.pdf.document import DocumentModel
 from llmwiki.runtime.document_model_segmentation import segment_document_model
+from llmwiki.runtime.ledger_artifact_bundle import build_serialized_artifact_bundle
 from llmwiki.runtime.ledger_pages import (
     build_source_wiki_page,
     build_topic_pages,
@@ -178,7 +178,8 @@ def build_source_ledger(
         ),
     )
 
-    topics = plan_source_topics(ledger, structure)
+    section_plan = build_section_grounded_plan(ledger, structure)
+    topics = plan_source_topics(ledger, structure, section_plan=section_plan)
     topic_index = build_topic_index(
         ledger,
         topics,
@@ -220,68 +221,18 @@ def build_source_ledger(
         )
     summary = ledger_summary(ledger, decision, len(topic_pages))
 
-    members = [
-        _member(
-            "document-structure-artifact",
-            ds_artifact.document_structure_artifact_id,
-            ds_artifact.document_structure_fingerprint,
-        ),
-        _member(
-            "claim-ledger-artifact",
-            ledger_artifact.claim_ledger_id,
-            ledger_artifact.claim_ledger_fingerprint,
-        ),
-        _member(
-            "quality-check-catalog-artifact",
-            catalog_artifact.quality_check_catalog_artifact_id,
-            catalog_artifact.quality_check_catalog_fingerprint,
-        ),
-        _member(
-            "ledger-quality-report-artifact",
-            ledger_report_artifact.ledger_quality_report_artifact_id,
-            ledger_report_artifact.ledger_quality_report_fingerprint,
-        ),
-        _member(
-            "ledger-quality-report-artifact",
-            projection_report_artifact.ledger_quality_report_artifact_id,
-            projection_report_artifact.ledger_quality_report_fingerprint,
-        ),
-        _member(
-            "projection-coverage-artifact",
-            coverage_artifact.projection_coverage_artifact_id,
-            coverage_artifact.projection_coverage_fingerprint,
-        ),
-    ]
-    if source_coverage_artifact is not None:
-        members.append(
-            _member(
-                "source-coverage-artifact",
-                source_coverage_artifact.source_coverage_artifact_id,
-                source_coverage_artifact.source_coverage_fingerprint,
-            )
-        )
-    artifact_files = {
-        "document-structure.json": canonical_json(ds_artifact, indent=2),
-        "claim-ledger.json": canonical_json(ledger_artifact, indent=2),
-        "quality-check-catalog.json": canonical_json(catalog_artifact, indent=2),
-        "ledger-quality-report.json": canonical_json(ledger_report_artifact, indent=2),
-        "projection-quality-report.json": canonical_json(projection_report_artifact, indent=2),
-        "projection-coverage.json": canonical_json(coverage_artifact, indent=2),
-        "topics.json": canonical_json(topic_index, indent=2),
-    }
-    if source_coverage_artifact is not None:
-        artifact_files["source-coverage.json"] = canonical_json(source_coverage_artifact, indent=2)
-    if blocked is not None:
-        members.append(
-            _member(
-                "blocked-write-diagnostic-artifact",
-                blocked.blocked_write_diagnostic_artifact_id,
-                blocked.blocked_write_diagnostic_fingerprint,
-            )
-        )
-        artifact_files["blocked-write-diagnostic.json"] = canonical_json(blocked, indent=2)
-    manifest = build_portable_artifact_set(tuple(members))
-    artifact_files["portable-artifact-set.json"] = canonical_json(manifest, indent=2)
+    artifact_bundle = build_serialized_artifact_bundle(
+        ds_artifact=ds_artifact,
+        ledger_artifact=ledger_artifact,
+        catalog_artifact=catalog_artifact,
+        ledger_report_artifact=ledger_report_artifact,
+        projection_report_artifact=projection_report_artifact,
+        coverage_artifact=coverage_artifact,
+        section_plan=section_plan,
+        topic_index=topic_index,
+        source_coverage_artifact=source_coverage_artifact,
+        blocked=blocked,
+    )
 
     return SourceLedgerResult(
         page_id=page_id,
@@ -291,10 +242,7 @@ def build_source_ledger(
         ledger_report=ledger_report,
         projection_report=projection_report,
         blocked_write_diagnostic=blocked,
-        artifact_files=artifact_files,
-        portable_artifact_set=manifest,
+        artifact_files=artifact_bundle.artifact_files,
+        portable_artifact_set=artifact_bundle.portable_artifact_set,
         summary=summary,
     )
-
-def _member(kind: str, target_id: str, fingerprint: str) -> PortableArtifactMember:
-    return PortableArtifactMember(kind, target_id, fingerprint)

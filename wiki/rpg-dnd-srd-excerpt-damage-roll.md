@@ -1,12 +1,12 @@
 ---
 page_id: rpg-dnd-srd-excerpt-damage-roll
 page_kind: concept
-summary: Damage Rolls: 5 statement(s) and 3 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
+summary: Damage Rolls: 5 statement(s) and 2 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
 sources: raw/rpg_dnd_srd_excerpt.pdf
 updated: 2026-06-26
 domain: rpg-dnd-srd-excerpt
 category_path: concepts
-projection_coverage: topic-rpg-dnd-srd-excerpt-damage-roll@c157a295d3d819d6c79d127f8671736e
+projection_coverage: topic-rpg-dnd-srd-excerpt-damage-roll@b07d9ebeea110a3cd25b85cb1db1a5be
 ---
 
 # Damage Rolls
@@ -34,56 +34,6 @@ _(context: rpg_dnd_srd_excerpt.pdf (source-range-b7d08967-00415))_
 
 > If a spell or other effect deals damage to more than one target at the same time, roll the damage once for all of them.
 _(source: rpg_dnd_srd_excerpt.pdf (source-range-b7d08967-00416))_
-
-> Context: When you use an action, bonus action, or reaction to attack with a net, you can make only one attack regardless of the number of attacks you can normally make.
-_(context: rpg_dnd_srd_excerpt.pdf (source-range-b7d08967-00531))_
-
-| Name | Cost | Damage | Weight | Properties |
-| --- | --- | --- | --- | --- |
-| Club | 1 sp | 2 lb. | Light |  |
-| Dagger | 2 gp | 1 lb. | thrown (range |  |
-| Greatclub | 2 sp | 10 lb. | Two-handed |  |
-| Light, thrown | (range |  |  |  |
-| Handaxe | 5 gp | 2 lb. | 20/60) |  |
-| 1d6 | Thrown | (range |  |  |
-| Javelin | 5 sp | 2 lb. |  |  |
-| piercing | 30/120) |  |  |  |
-| 1d4 | Light, thrown | (range |  |  |
-| Light hammer | 2 gp | 2 lb. |  |  |
-
-<details>
-<summary>Raw table text</summary>
-
-```
-Table- Weapons
-    Name        Cost    Damage      Weight        Properties
- Simple
- Melee
- Weapons
-                       1d4
- Club            1 sp                2 lb.    Light
-                       bludgeoning
-                                             Finesse, light,
-                       1d4
- Dagger          2 gp                1 lb.    thrown (range
-                       piercing
-                                             20/60)
-                       1d8
- Greatclub       2 sp                10 lb.   Two-handed
-                       bludgeoning
-                                             Light, thrown  (range
-                       1d6
- Handaxe         5 gp                2 lb.    20/60)
-                       slashing
-                       1d6                   Thrown  (range
- Javelin         5 sp                2 lb.
-                       piercing              30/120)
-                       1d4                   Light, thrown  (range
- Light hammer    2 gp                2 lb.
-```
-
-</details>
-_(source: rpg_dnd_srd_excerpt.pdf (source-range-b7d08967-00532))_
 
 
 ## Source

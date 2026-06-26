@@ -1,12 +1,12 @@
 ---
 page_id: coding-little-go-book-import
 page_kind: concept
-summary: Imports: 12 statement(s) and 3 atom(s) from raw/coding_little_go_book.pdf.
+summary: Imports: 12 statement(s) and 7 atom(s) from raw/coding_little_go_book.pdf.
 sources: raw/coding_little_go_book.pdf
 updated: 2026-06-26
 domain: coding-little-go-book
 category_path: concepts
-projection_coverage: topic-coding-little-go-book-import@1972d1f02fcecbdea6c43ec693c92dc4
+projection_coverage: topic-coding-little-go-book-import@79c86e06d3d4847fecb4135a49ba3683
 ---
 
 # Imports
@@ -43,6 +43,17 @@ func main() {
 ```
 _(source: coding_little_go_book.pdf (source-range-773b6275-00060))_
 
+> Context: Which you can run via: We're now using two of Go's standard packages: fmt and os . We've also introduced another built-in function len . len returns the size of a string, or the number of values in a dictionary, or, as we see here, the number of elements in an array. If you're wondering why we expect 2 arguments, it's because the first argument -- at index 0 -- is always the path of the currently running executable. (Change the program to print it out and see for yourself.)
+_(context: coding_little_go_book.pdf (source-range-773b6275-00061, source-range-773b6275-00063))_
+
+```
+go run main.go 9000
+```
+_(source: coding_little_go_book.pdf (source-range-773b6275-00062))_
+
+> If you're wondering why we expect 2 arguments, it's because the first argument -- at index 0 -- is always the path of the currently running executable.
+_(source: coding_little_go_book.pdf (source-range-773b6275-00063))_
+
 > Context: Go is strict about importing packages. It will not compile if you import a package but don't use it. Try to run the following: You should get two errors about fmt and os being imported and not used. Can this get annoying? Absolutely. Over time, you'll get used to it (it'll still be annoying though). Go is strict about this because unused imports can slow compilation; admittedly a problem most of us don't have to this degree.
 _(context: coding_little_go_book.pdf (source-range-773b6275-00065, source-range-773b6275-00067))_
 
@@ -62,6 +73,9 @@ _(context: coding_little_go_book.pdf (source-range-773b6275-00065))_
 
 > You should get two errors about fmt and os being imported and not used.
 _(source: coding_little_go_book.pdf (source-range-773b6275-00067))_
+
+> If you're ever stuck without internet access, you can get the documentation running locally via:
+_(source: coding_little_go_book.pdf (source-range-773b6275-00069))_
 
 
 ## Source

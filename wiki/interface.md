@@ -1,16 +1,16 @@
 ---
 page_id: interface
 page_kind: concept
-summary: Canonical concept 'Interface': 2 source(s), 21 statement(s), 5 atom(s), 0 relation(s).
+summary: Canonical concept 'Interface': 2 source(s), 21 statement(s), 8 atom(s), 0 relation(s).
 sources: raw/coding_learn_go_with_tests_excerpt.pdf, raw/coding_little_go_book.pdf
 updated: 2026-06-26
 category_path: concepts
-projection_coverage: canonical-concept-interface@f1d3517111b135d501fe636b8395c867
+projection_coverage: canonical-concept-interface@b1e4e736ff39d7df258c10d2c16675b8
 ---
 
 # Interface
 
-Compiled concept page from 2 source(s), 21 statement(s), and 5 technical atom(s).
+Compiled concept page from 2 source(s), 21 statement(s), and 8 technical atom(s).
 
 ## Source Evidence
 
@@ -91,6 +91,32 @@ type ConsoleLogger struct { ... }
 type FileLogger struct { ... }
 ```
 _(source: coding_little_go_book.pdf (source-range-773b6275-00322))_
+
+> Context: How would you use one? Just like any other type, it could be a structure's field:
+_(context: coding_little_go_book.pdf (source-range-773b6275-00324))_
+
+```
+type Server struct {
+  logger Logger
+}
+```
+_(source: coding_little_go_book.pdf (source-range-773b6275-00325))_
+
+> Context: How would you use one? Just like any other type, it could be a structure's field:
+_(context: coding_little_go_book.pdf (source-range-773b6275-00324))_
+
+```
+or a function parameter (or return value):
+func process(logger Logger) {
+  logger.Log("hello!")
+```
+_(source: coding_little_go_book.pdf (source-range-773b6275-00326))_
+
+> Context: How would you use one? Just like any other type, it could be a structure's field:
+_(context: coding_little_go_book.pdf (source-range-773b6275-00324))_
+
+> In a language like C# or Java, we have to be explicit when a class implements an interface: In Go, this happens implicitly.
+_(source: coding_little_go_book.pdf (source-range-773b6275-00327))_
 
 > Context: In a language like C# or Java, we have to be explicit when a class implements an interface: In Go, this happens implicitly. If your structure has a function name Log with a string parameter and no return value, then it can be used as a Logger . This cuts down on the verboseness of using interfaces: } public class ConsoleLogger : Logger { public void Logger(message string) { Console.WriteLine(message) } } type ConsoleLogger struct {} (l ConsoleLogger) Log(message string) {
 _(context: coding_little_go_book.pdf (source-range-773b6275-00327))_
