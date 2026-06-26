@@ -14,6 +14,7 @@ import re
 from llmwiki.domain.ledger.atoms import TechnicalAtom, atom_raw_text
 from llmwiki.domain.ledger.canonical import content_fingerprint, deterministic_id
 from llmwiki.domain.ledger.common import ConfidenceBasis, ReviewReason
+from llmwiki.domain.ledger.concepts import concept_facets_for_definition
 from llmwiki.domain.ledger.confidence import ConfidencePolicy, ConfidenceSignals
 from llmwiki.domain.ledger.entries import LedgerEntry
 from llmwiki.domain.ledger.propositions import decompose
@@ -28,7 +29,6 @@ _RELATIONSHIP_CUES: tuple[tuple[re.Pattern[str], str], ...] = (
     (re.compile(r"\b(within|located|inside|throughout)\b", re.I), "located-in"),
     (re.compile(r"\b(limit\w*|only|except|unless|constrain\w*)\b", re.I), "constrains"),
 )
-_TOKEN = re.compile(r"[A-Za-z][A-Za-z0-9-]{2,}")
 
 
 def build_claim_entry(
@@ -40,7 +40,12 @@ def build_claim_entry(
     policy: ConfidencePolicy,
 ) -> LedgerEntry:
     prop = decompose(claim.statement)
-    kind = _claim_kind(claim, prop.temporal_scope is not None)
+    concept_facets = (
+        concept_facets_for_definition(claim.statement, prop.subject)
+        if "definition" in claim.role_tags
+        else ()
+    )
+    kind = _claim_kind(claim, prop.temporal_scope is not None, concept_facets)
     anchors_ok = _anchors_resolved(prop)
     confidence, basis = policy.assess(
         ConfidenceSignals(
@@ -92,7 +97,7 @@ def build_claim_entry(
         temporal_scope=prop.temporal_scope,
         spatial_scope=prop.spatial_scope,
         claim_role_tags=claim.role_tags,
-        concept_facets=_facets(prop.subject) if kind == "concept" else (),
+        concept_facets=concept_facets if kind == "concept" else (),
     )
 
 
@@ -207,8 +212,8 @@ def build_source_note(
     )
 
 
-def _claim_kind(claim: SegmentClaim, has_temporal: bool) -> str:
-    if "definition" in claim.role_tags:
+def _claim_kind(claim: SegmentClaim, has_temporal: bool, concept_facets: tuple[str, ...]) -> str:
+    if "definition" in claim.role_tags and concept_facets:
         return "concept"
     if has_temporal and ("temporal" in claim.role_tags or "provenance" in claim.role_tags):
         return "event"
@@ -229,8 +234,3 @@ def _anchors_resolved(prop: object) -> bool:
         if confidence == "unresolved":
             return False
     return True
-
-
-def _facets(subject: str) -> tuple[str, ...]:
-    tokens = [token.lower() for token in _TOKEN.findall(subject)]
-    return tuple(dict.fromkeys(tokens))[:4]

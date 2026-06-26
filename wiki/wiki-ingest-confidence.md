@@ -2,14 +2,14 @@
 page_id: wiki-ingest-confidence
 page_kind: synthesis
 summary: Latest bounded post-ingest confidence report.
-updated: 2026-06-25
+updated: 2026-06-26
 ---
 
 # Ingest Confidence Report
 
 ## Summary
 
-Run id: 2026-06-25-151625
+Run id: 2026-06-26-083733
 Source: raw/rpg_cairn_2e_core.pdf
 Confidence status: passed
 Blockers: 0
@@ -46,7 +46,7 @@ MissingUnitCoverage: 0
 - Status: pass
 - Findings: none
 Source texts: 1
-Source ranges: 41
+Source ranges: 40
 Evidence records: 1173
 
 ### evidence-locators
@@ -54,7 +54,7 @@ Evidence records: 1173
 - Scope: raw/rpg_cairn_2e_core.pdf
 - Status: pass
 - Findings: none
-Locators: 1170
+Locators: 1169
 Invalid locators: 0
 
 ### claim-support

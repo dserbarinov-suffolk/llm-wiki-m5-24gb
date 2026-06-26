@@ -13,6 +13,7 @@ from __future__ import annotations
 from llmwiki.domain.ledger.atoms import AtomPayload, atom_raw_text
 from llmwiki.domain.ledger.canonical import deterministic_id, short_digest
 from llmwiki.domain.ledger.coverage import (
+    PageBodyBuilder,
     PageTextRange,
     ProjectionCoverage,
     ProjectionCoverageEntry,
@@ -24,25 +25,8 @@ from llmwiki.domain.ledger.projection import LedgerProjectionPlan
 _FENCE_KINDS = {"code-block"}
 
 
-class _Body:
-    """Accumulates markdown and tracks the char range of each appended unit."""
-
-    def __init__(self) -> None:
-        self._parts: list[str] = []
-        self._len = 0
-
-    def add(self, text: str) -> PageTextRange:
-        start = self._len
-        self._parts.append(text)
-        self._len += len(text)
-        return PageTextRange(start, self._len)
-
-    def text(self) -> str:
-        return "".join(self._parts)
-
-
 def render_source_page(plan: LedgerProjectionPlan, ledger: ClaimLedger) -> RenderedPage:
-    body = _Body()
+    body = PageBodyBuilder()
     entries: list[ProjectionCoverageEntry] = []
     body.add(f"# {plan.title}\n\n")
     for section in plan.sections:
@@ -68,20 +52,22 @@ def render_source_page(plan: LedgerProjectionPlan, ledger: ClaimLedger) -> Rende
     return RenderedPage(text, short_digest(text, 32), ProjectionCoverage(tuple(entries)))
 
 
-def _render_heading(body: _Body, heading: str, depth: int) -> None:
+def _render_heading(body: PageBodyBuilder, heading: str, depth: int) -> None:
     level = "#" * min(max(depth + 1, 2), 5)
     body.add(f"{level} {heading}\n\n")
 
 
-def _render_atom(body: _Body, ledger: ClaimLedger, atom_id: str, citation: str) -> PageTextRange:
+def _render_atom(
+    body: PageBodyBuilder, ledger: ClaimLedger, atom_id: str, citation: str
+) -> PageTextRange:
     atom = ledger.atom(atom_id)
     if atom is None:
         return body.add(f"> _(missing atom {atom_id})_\n\n")
-    rendered = _atom_block(atom.technical_atom_kind, atom.payload)
+    rendered = atom_block(atom.technical_atom_kind, atom.payload)
     return body.add(f"{rendered}\n_(source: {citation})_\n\n")
 
 
-def _atom_block(kind: str, payload: AtomPayload) -> str:
+def atom_block(kind: str, payload: AtomPayload) -> str:
     raw = atom_raw_text(payload)
     if kind in _FENCE_KINDS:
         language = getattr(payload, "language_tag", "") or ""
@@ -92,7 +78,7 @@ def _atom_block(kind: str, payload: AtomPayload) -> str:
 
 
 def _render_review(
-    body: _Body, plan: LedgerProjectionPlan, entries: list[ProjectionCoverageEntry]
+    body: PageBodyBuilder, plan: LedgerProjectionPlan, entries: list[ProjectionCoverageEntry]
 ) -> None:
     if not plan.review_items and not plan.disposition_counts:
         return

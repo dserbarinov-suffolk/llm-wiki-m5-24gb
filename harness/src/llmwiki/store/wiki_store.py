@@ -244,6 +244,25 @@ class WikiStore:
         path = self.page_plan_artifact_dir(source_locator) / "ledger" / "claim-ledger.json"
         return path.read_text(encoding="utf-8") if path.is_file() else None
 
+    def list_claim_ledger_artifacts(self) -> list[str]:
+        """Every stored claim ledger (canonical JSON), one per ingested source."""
+        base = self._paths.cache_dir / "page-plans"
+        if not base.is_dir():
+            return []
+        return [
+            path.read_text(encoding="utf-8")
+            for path in sorted(base.glob("*/ledger/claim-ledger.json"))
+        ]
+
+    def list_topic_index_artifacts(self) -> list[str]:
+        """Every stored per-source topic index (canonical JSON)."""
+        base = self._paths.cache_dir / "page-plans"
+        if not base.is_dir():
+            return []
+        return [
+            path.read_text(encoding="utf-8") for path in sorted(base.glob("*/ledger/topics.json"))
+        ]
+
 
 def _is_hidden_path(path: Path, root: Path) -> bool:
     return any(part.startswith(".") for part in path.relative_to(root).parts)

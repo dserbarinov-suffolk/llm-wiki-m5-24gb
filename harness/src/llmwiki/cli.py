@@ -66,6 +66,11 @@ def _build_parser() -> argparse.ArgumentParser:
 
     sub.add_parser("lint", help="Health-check the wiki.")
 
+    sub.add_parser(
+        "synthesize",
+        help="Build cross-source concept/entity pages from ingested source ledgers.",
+    )
+
     chat = sub.add_parser("chat", help="Converse with the wiki (model stays loaded).")
     chat.add_argument(
         "--resume",
@@ -130,9 +135,9 @@ async def _run(args: argparse.Namespace) -> OperationResult:
     if args.op == "claim-support":
         return await _run_claim_support(paths, args, now)
 
-    if args.op == "ingest":
-        # Claim-ledger ingest is deterministic: a source page is a projection of
-        # its ledger, not a model summary, so no backend is started.
+    if args.op in ("ingest", "synthesize"):
+        # Claim-ledger ingest and cross-source synthesis are deterministic
+        # projections of the ledgers, not model summaries, so no backend starts.
         session = Session(
             store=WikiStore(paths),
             client=None,
@@ -143,6 +148,8 @@ async def _run(args: argparse.Namespace) -> OperationResult:
             extract_pdf=_pdf_extractor(paths),
             on_chunk_note=lambda note: print(note, flush=True),
         )
+        if args.op == "synthesize":
+            return await session.synthesize()
         return await session.ingest(
             args.source, reextract=args.reextract, reintegrate=args.reintegrate
         )

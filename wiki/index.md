@@ -1,147 +1,145 @@
 # Index
 
 ## Sources
-- [[antikythera-mechanism-source]] — Source summary for The Antikythera Mechanism.
-- [[coding-little-go-book]] — Claim-ledger projection (coding): 668 usable entries, 292 technical atoms, 102 needs-review; write decision write-with-review-work.
-- [[history-short-history-of-england]] — Claim-ledger projection (general-prose): 2295 usable entries, 244 technical atoms, 105 needs-review; write decision write-with-review-work.
-- [[javascriptallonge]] — Hub page for raw/javascriptallonge.pdf.
-- [[javascriptallonge-a-balanced-statement-about-combinators-through-building-blocks]] — Building Blocks from raw/javascriptallonge.pdf.
-- [[javascriptallonge-a-few-utilities-through-copy-on-write]] — a few utilities from raw/javascriptallonge.pdf.
-- [[javascriptallonge-a-return-to-backward-thinking-through-flip]] — Flip from raw/javascriptallonge.pdf.
-- [[javascriptallonge-a-return-to-backward-thinking-through-recipes-with-data]] — a return to backward thinking through Recipes with Data from raw/javascriptallonge.pdf.
-- [[javascriptallonge-a-rich-aroma-basic-numbers-through-the-first-sip-basic-functions]] — A Rich Aroma: Basic Numbers from raw/javascriptallonge.pdf.
-- [[javascriptallonge-about-the-author-through-contact]] — contact from raw/javascriptallonge.pdf.
-- [[javascriptallonge-about-the-sample-pdf-through-value-types]] — value types from raw/javascriptallonge.pdf.
-- [[javascriptallonge-after-another-drink]] — after another drink from raw/javascriptallonge.pdf.
-- [[javascriptallonge-ah-i-d-like-to-have-an-argument-please-22]] — Ah. I'd Like to Have an Argument, Please. 22 from raw/javascriptallonge.pdf.
-- [[javascriptallonge-and-also]] — And also: from raw/javascriptallonge.pdf.
-- [[javascriptallonge-and-also-through-a-quick-summary-of-functions-and-bodies]] — a quick summary of functions and bodies from raw/javascriptallonge.pdf.
-- [[javascriptallonge-and-also-through-call-by-value]] — call by value from raw/javascriptallonge.pdf.
-- [[javascriptallonge-applying-functions]] — applying functions from raw/javascriptallonge.pdf.
-- [[javascriptallonge-are-consts-also-from-a-shadowy-planet]] — are consts also from a shadowy planet? from raw/javascriptallonge.pdf.
-- [[javascriptallonge-are-consts-also-from-a-shadowy-planet-through-naming-functions]] — Naming Functions from raw/javascriptallonge.pdf.
-- [[javascriptallonge-array-literals-through-element-references]] — array literals through element references from raw/javascriptallonge.pdf.
-- [[javascriptallonge-as-little-as-possible-about-functions-but-no-less-through-commas]] — commas from raw/javascriptallonge.pdf.
-- [[javascriptallonge-building-with-mutation-through-reassignment]] — building with mutation through Reassignment from raw/javascriptallonge.pdf.
-- [[javascriptallonge-combinators-through-composition]] — composition from raw/javascriptallonge.pdf.
-- [[javascriptallonge-composing-and-decomposing-data-through-destructuring-arrays]] — destructuring arrays from raw/javascriptallonge.pdf.
-- [[javascriptallonge-copy-on-read-through-copy-on-write]] — copy-on-read through copy-on-write from raw/javascriptallonge.pdf.
-- [[javascriptallonge-defaults-and-destructuring]] — defaults and destructuring from raw/javascriptallonge.pdf.
-- [[javascriptallonge-destructuring-is-not-pattern-matching]] — destructuring is not pattern matching from raw/javascriptallonge.pdf.
-- [[javascriptallonge-destructuring-parameters-through-self-similarity]] — destructuring parameters through Self-Similarity from raw/javascriptallonge.pdf.
-- [[javascriptallonge-eager-collections]] — eager collections from raw/javascriptallonge.pdf.
-- [[javascriptallonge-ecmascript-6-has-three-major-groups-of-features-through-matthew-knox]] — ECMAScript 6 has three major groups of features: from raw/javascriptallonge.pdf.
-- [[javascriptallonge-factorials-through-garbage-garbage-everywhere]] — Garbage, Garbage Everywhere from raw/javascriptallonge.pdf.
-- [[javascriptallonge-floating-through-as-little-as-possible-about-functions-but-no-less]] — floating through As Little As Possible About Functions, But No Less from raw/javascriptallonge.pdf.
-- [[javascriptallonge-foreword-to-the-six-edition-through-matthew-knox]] — Foreword to the 'Six' edition from raw/javascriptallonge.pdf.
-- [[javascriptallonge-forewords-to-the-first-edition-through-about-the-sample-pdf]] — Forewords to the First Edition through About The Sample PDF from raw/javascriptallonge.pdf.
-- [[javascriptallonge-from-through-summary]] — from through summary from raw/javascriptallonge.pdf.
-- [[javascriptallonge-function-declaration-caveats-34-through-higher-order-functions]] — function declaration caveats 34 through higher-order functions from raw/javascriptallonge.pdf.
-- [[javascriptallonge-function-declarations-through-higher-order-functions]] — function declarations from raw/javascriptallonge.pdf.
-- [[javascriptallonge-function-decorators]] — function decorators from raw/javascriptallonge.pdf.
-- [[javascriptallonge-functions-and-identities-through-functions-that-return-values-and-evaluate]] — destructuring and return values from raw/javascriptallonge.pdf.
-- [[javascriptallonge-functions-through-unary]] — Unary from raw/javascriptallonge.pdf.
-- [[javascriptallonge-gathering-through-self-similarity]] — gathering from raw/javascriptallonge.pdf.
-- [[javascriptallonge-generators-and-iterables]] — generators and iterables from raw/javascriptallonge.pdf.
-- [[javascriptallonge-generators-are-coroutines-through-more-generators]] — more generators from raw/javascriptallonge.pdf.
-- [[javascriptallonge-if-functions-without-free-variables-are-pure-are-closures-impure-through-that]] — if functions without free variables are pure, are closures impure? from raw/javascriptallonge.pdf.
-- [[javascriptallonge-images]] — images from raw/javascriptallonge.pdf.
-- [[javascriptallonge-implementing-methods-with-iteration]] — implementing methods with iteration from raw/javascriptallonge.pdf.
-- [[javascriptallonge-inside-out-through-const-and-lexical-scope]] — const and lexical scope from raw/javascriptallonge.pdf.
-- [[javascriptallonge-it-s-always-the-environment]] — it's always the environment from raw/javascriptallonge.pdf.
-- [[javascriptallonge-iterating-through-caveat]] — caveat from raw/javascriptallonge.pdf.
-- [[javascriptallonge-iterator-objects-through-ordered-collections]] — operations on ordered collections from raw/javascriptallonge.pdf.
-- [[javascriptallonge-javascript-allong-the-six-edition-through-about-javascript-allong]] — About JavaScript Allongé from raw/javascriptallonge.pdf.
-- [[javascriptallonge-lazy-collection-operations-through-interlude-the-carpenter-interviews-for-a]] — Interlude: The Carpenter Interviews for a Job from raw/javascriptallonge.pdf.
-- [[javascriptallonge-left-variadic-destructuring-through-true]] — left-variadic destructuring through true from raw/javascriptallonge.pdf.
-- [[javascriptallonge-like-this-through-iterables-out-to-infinity]] — Like this: through iterables out to infinity from raw/javascriptallonge.pdf.
-- [[javascriptallonge-linear-recursion-through-summary]] — summary from raw/javascriptallonge.pdf.
-- [[javascriptallonge-lists-with-functions-as-data-through-functions-are-not-the-real-point]] — functions are not the real point from raw/javascriptallonge.pdf.
-- [[javascriptallonge-literal-object-syntax]] — literal object syntax from raw/javascriptallonge.pdf.
-- [[javascriptallonge-magic-names]] — Magic Names from raw/javascriptallonge.pdf.
-- [[javascriptallonge-magic-names-and-fat-arrows]] — magic names and fat arrows from raw/javascriptallonge.pdf.
-- [[javascriptallonge-making-data-out-of-functions-through-the-vireo]] — the vireo from raw/javascriptallonge.pdf.
-- [[javascriptallonge-mapping-through-folding]] — mapping through folding from raw/javascriptallonge.pdf.
-- [[javascriptallonge-mapwith]] — mapWith from raw/javascriptallonge.pdf.
-- [[javascriptallonge-maybe-through-a-history-lesson]] — Maybe through a history lesson from raw/javascriptallonge.pdf.
-- [[javascriptallonge-memoizing-an-iterable-through-daniel-friedman-and-matthias-felleisen]] — Daniel Friedman and Matthias Felleisen from raw/javascriptallonge.pdf.
-- [[javascriptallonge-memoizing-an-iterable-through-thanks]] — memoizing an iterable through Thanks! from raw/javascriptallonge.pdf.
-- [[javascriptallonge-mutation]] — Mutation from raw/javascriptallonge.pdf.
-- [[javascriptallonge-mutation-and-data-structures-through-mixing-let-and-const]] — why const and let were invented from raw/javascriptallonge.pdf.
-- [[javascriptallonge-nested-blocks]] — nested blocks from raw/javascriptallonge.pdf.
-- [[javascriptallonge-operations-on-ordered-collections-through-generating-iterables]] — Basic Operations on Iterables from raw/javascriptallonge.pdf.
-- [[javascriptallonge-operations-that-transform-one-iterable-into-another]] — operations that transform one iterable into another from raw/javascriptallonge.pdf.
-- [[javascriptallonge-or-even]] — Or even: from raw/javascriptallonge.pdf.
-- [[javascriptallonge-or-even-through-back-on-the-block]] — back on the block from raw/javascriptallonge.pdf.
-- [[javascriptallonge-overcoming-limitations-through-false]] — false from raw/javascriptallonge.pdf.
-- [[javascriptallonge-partial-application-through-summary]] — Partial Application from raw/javascriptallonge.pdf.
-- [[javascriptallonge-plain-old-javascript-objects-through-destructuring-objects]] — destructuring objects from raw/javascriptallonge.pdf.
-- [[javascriptallonge-prelude-values-and-expressions-over-coffee-through-values-and-identity]] — values and identity from raw/javascriptallonge.pdf.
-- [[javascriptallonge-programming-from-functions-to-classes-in-ecmascript-2015-through-a-pull-of-the]] — Programming from Functions to Classes in ECMAScript 2015 from raw/javascriptallonge.pdf.
-- [[javascriptallonge-quasi-literals-through-a-look-back-at-functional-iterators]] — quasi-literals through a look back at functional iterators from raw/javascriptallonge.pdf.
-- [[javascriptallonge-quasi-literals-through-a-look-back-at-functional-iterators-2]] — quasi-literals through a look back at functional iterators from raw/javascriptallonge.pdf.
-- [[javascriptallonge-rebinding]] — rebinding from raw/javascriptallonge.pdf.
-- [[javascriptallonge-recipes-with-basic-functions-through-disclaimer]] — Disclaimer from raw/javascriptallonge.pdf.
-- [[javascriptallonge-recursive-iterators-through-javascript-s-generators]] — recursive iterators from raw/javascriptallonge.pdf.
-- [[javascriptallonge-reference-types-through-the-first-sip-basic-functions]] — reference types from raw/javascriptallonge.pdf.
-- [[javascriptallonge-reg-raganwald-braithwaite-through-a-pull-of-the-lever-prefaces]] — Reg 'raganwald' Braithwaite through A Pull of the Lever: Prefaces from raw/javascriptallonge.pdf.
-- [[javascriptallonge-representing-naughts-and-crosses-as-a-stateless-function]] — representing naughts and crosses as a stateless function from raw/javascriptallonge.pdf.
-- [[javascriptallonge-revisiting-linked-lists-through-mutation]] — revisiting linked lists from raw/javascriptallonge.pdf.
-- [[javascriptallonge-richard-feynman-through-copyright-notice]] — Copyright Notice from raw/javascriptallonge.pdf.
-- [[javascriptallonge-say-please]] — say 'please' from raw/javascriptallonge.pdf.
-- [[javascriptallonge-self-currying-flip-through-a-warm-cup-basic-strings-and-quasi-literals]] — A Warm Cup: Basic Strings and Quasi-Literals from raw/javascriptallonge.pdf.
-- [[javascriptallonge-self-currying-flip-through-why]] — self-currying flip through Why? from raw/javascriptallonge.pdf.
-- [[javascriptallonge-shadowy-variables-from-a-shadowy-planet]] — shadowy variables from a shadowy planet from raw/javascriptallonge.pdf.
-- [[javascriptallonge-so-why-arrays]] — so why arrays from raw/javascriptallonge.pdf.
-- [[javascriptallonge-some-history-through-summary]] — summary from raw/javascriptallonge.pdf.
-- [[javascriptallonge-state-machines-through-we-ll-keep-it-simple]] — state machines through We'll keep it simple: from raw/javascriptallonge.pdf.
-- [[javascriptallonge-summary-through-operations-that-transform-an-iterable-into-a-value]] — operations that transform an iterable into a value from raw/javascriptallonge.pdf.
-- [[javascriptallonge-tail-call-optimization-through-converting-non-tail-calls-to-tail-calls]] — tail-call optimization through converting non-tail-calls to tail-calls from raw/javascriptallonge.pdf.
-- [[javascriptallonge-tail-calls-and-default-arguments-through-converting-non-tail-calls-to-tail]] — default arguments from raw/javascriptallonge.pdf.
-- [[javascriptallonge-tap-through-a-history-lesson]] — Tap from raw/javascriptallonge.pdf.
-- [[javascriptallonge-that-constant-coffee-craving-through-inside-out]] — That Constant Coffee Craving through inside-out from raw/javascriptallonge.pdf.
-- [[javascriptallonge-that-s-nice-is-that-the-only-reason-through-what-javascript-allong-is-and-isn]] — What JavaScript Allongé is. And isn't. from raw/javascriptallonge.pdf.
-- [[javascriptallonge-the-aftermath-through-would-be-3-producing]] — Would be 3 , producing: from raw/javascriptallonge.pdf.
-- [[javascriptallonge-the-function-keyword]] — the function keyword from raw/javascriptallonge.pdf.
-- [[javascriptallonge-the-function-keyword-through-higher-order-functions]] — Functions from raw/javascriptallonge.pdf.
-- [[javascriptallonge-the-kestrel-and-the-idiot-through-backwardness]] — the kestrel and the idiot through backwardness from raw/javascriptallonge.pdf.
-- [[javascriptallonge-the-problem-through-the-carpenter-s-solution]] — the carpenter's solution from raw/javascriptallonge.pdf.
-- [[javascriptallonge-the-simplest-possible-block-through-void]] — void from raw/javascriptallonge.pdf.
-- [[javascriptallonge-tortoises-hares-and-teleporting-turtles-through-functional-iterators]] — Functional Iterators from raw/javascriptallonge.pdf.
-- [[javascriptallonge-truthiness-and-operators-through-function-parameters-are-eager]] — truthiness and operators through function parameters are eager from raw/javascriptallonge.pdf.
-- [[javascriptallonge-truthiness-and-the-ternary-operator-through-summary]] — summary from raw/javascriptallonge.pdf.
-- [[javascriptallonge-undefined]] — undefined from raw/javascriptallonge.pdf.
-- [[javascriptallonge-unfolding-and-laziness-through-bonus]] — unfolding and laziness through bonus from raw/javascriptallonge.pdf.
-- [[javascriptallonge-var-through-copy-on-write]] — var from raw/javascriptallonge.pdf.
-- [[javascriptallonge-variables-and-bindings-through-call-by-sharing]] — call by sharing from raw/javascriptallonge.pdf.
-- [[javascriptallonge-variables-and-bindings-through-closures-and-scope]] — Closures and Scope from raw/javascriptallonge.pdf.
-- [[javascriptallonge-we-get-through-this-seems-familiar]] — We get: through this seems familiar from raw/javascriptallonge.pdf.
-- [[javascriptallonge-which-came-first-the-chicken-or-the-egg-through-inside-out]] — which came first, the chicken or the egg? from raw/javascriptallonge.pdf.
-- [[javascriptallonge-why-the-six-edition-through-how-this-book-is-organized]] — how this book is organized from raw/javascriptallonge.pdf.
-- [[javascriptallonge-will-be-represented-as-through-interactive-generators]] — interactive generators from raw/javascriptallonge.pdf.
-- [[javascriptallonge-yes-consider-this-variation]] — Yes. Consider this variation: from raw/javascriptallonge.pdf.
-- [[javascriptallonge-yielding-iterables-through-lazy-and-eager-collections]] — Lazy and Eager Collections from raw/javascriptallonge.pdf.
-- [[javascriptallonge-yielding-iterables-through-rewriting-iterable-operations]] — yielding iterables through rewriting iterable operations from raw/javascriptallonge.pdf.
-- [[nennius-giles]] — Hub page for raw/nennius_giles.pdf.
-- [[nennius-giles-nennius]] — Nennius through Nennius from raw/nennius_giles.pdf.
-- [[nennius-giles-nennius-2]] — Nennius through Nennius from raw/nennius_giles.pdf.
-- [[nennius-giles-nennius-3]] — Nennius through Nennius from raw/nennius_giles.pdf.
-- [[nennius-giles-nennius-4]] — Nennius through Nennius from raw/nennius_giles.pdf.
-- [[nennius-giles-nennius-5]] — Nennius through Nennius from raw/nennius_giles.pdf.
-- [[nennius-giles-nennius-6]] — Nennius through Nennius from raw/nennius_giles.pdf.
-- [[nennius-giles-nennius-7]] — Nennius through Nennius from raw/nennius_giles.pdf.
-- [[nennius-giles-nennius-8]] — Nennius through Nennius from raw/nennius_giles.pdf.
-- [[nennius-giles-nennius-9]] — Nennius through Nennius from raw/nennius_giles.pdf.
-- [[nennius-giles-nennius-through-ii-the-apology-of-nennius]] — NENNIUS through II. The Apology of Nennius from raw/nennius_giles.pdf.
-- [[nennius-giles-nennius-through-the-genealogy-of-the-mercians]] — Nennius through The genealogy of the Mercians. from raw/nennius_giles.pdf.
-- [[nennius-giles-the-kings-of-the-deiri-through-nennius]] — The kings of the Deiri. through Nennius from raw/nennius_giles.pdf.
-- [[rpg-cairn-2e-core]] — Claim-ledger projection (general-prose): 815 usable entries, 217 technical atoms, 233 needs-review; write decision write-with-review-work.
+- [[coding-little-go-book]] — Claim-ledger projection (coding): 668 usable entries, 292 technical atoms, 102 needs-review, 32 topic page(s); write decision write-with-review-work.
+- [[history-short-history-of-england]] — Claim-ledger projection (general-prose): 2295 usable entries, 244 technical atoms, 105 needs-review, 32 topic page(s); write decision write-with-review-work.
+- [[javascriptallonge]] — Claim-ledger projection (coding): 2051 usable entries, 1045 technical atoms, 317 needs-review, 32 topic page(s); write decision write-with-review-work.
+- [[rpg-cairn-2e-core]] — Claim-ledger projection (general-prose): 815 usable entries, 217 technical atoms, 233 needs-review, 32 topic page(s); write decision write-with-review-work.
 
 ## Entities
-- [[antikythera-mechanism]] — Facts about The Antikythera Mechanism from an ingested RawSource.
 
 ## Concepts
+- [[coding-little-go-book-array]] — Arrays: 23 statement(s) and 11 atom(s) from raw/coding_little_go_book.pdf.
+- [[coding-little-go-book-buffered-channel]] — Buffered Channels: 19 statement(s) and 13 atom(s) from raw/coding_little_go_book.pdf.
+- [[coding-little-go-book-change]] — Change: 9 statement(s) and 10 atom(s) from raw/coding_little_go_book.pdf.
+- [[coding-little-go-book-channel]] — Channels: 19 statement(s) and 13 atom(s) from raw/coding_little_go_book.pdf.
+- [[coding-little-go-book-code]] — Code: 26 statement(s) and 27 atom(s) from raw/coding_little_go_book.pdf.
+- [[coding-little-go-book-code-organization-interface]] — Code Organization and Interfaces: 33 statement(s) and 39 atom(s) from raw/coding_little_go_book.pdf.
+- [[coding-little-go-book-cyclical-import]] — Cyclical Imports: 12 statement(s) and 26 atom(s) from raw/coding_little_go_book.pdf.
+- [[coding-little-go-book-declaration-initialization]] — Declarations and Initializations: 4 statement(s) and 6 atom(s) from raw/coding_little_go_book.pdf.
+- [[coding-little-go-book-empty-interface-conversion]] — Empty Interface and Conversions: 7 statement(s) and 16 atom(s) from raw/coding_little_go_book.pdf.
+- [[coding-little-go-book-error-handling]] — Error Handling: 7 statement(s) and 18 atom(s) from raw/coding_little_go_book.pdf.
+- [[coding-little-go-book-field-structure]] — Fields of a Structure: 16 statement(s) and 20 atom(s) from raw/coding_little_go_book.pdf.
+- [[coding-little-go-book-function]] — Function: 14 statement(s) and 28 atom(s) from raw/coding_little_go_book.pdf.
+- [[coding-little-go-book-function-declaration]] — Function Declarations: 18 statement(s) and 33 atom(s) from raw/coding_little_go_book.pdf.
+- [[coding-little-go-book-function-structure]] — Functions on Structures: 24 statement(s) and 39 atom(s) from raw/coding_little_go_book.pdf.
+- [[coding-little-go-book-function-type]] — Function Type: 35 statement(s) and 56 atom(s) from raw/coding_little_go_book.pdf.
+- [[coding-little-go-book-goroutine]] — Goroutines: 13 statement(s) and 6 atom(s) from raw/coding_little_go_book.pdf.
+- [[coding-little-go-book-import]] — Imports: 12 statement(s) and 26 atom(s) from raw/coding_little_go_book.pdf.
+- [[coding-little-go-book-interface]] — Interfaces: 7 statement(s) and 15 atom(s) from raw/coding_little_go_book.pdf.
+- [[coding-little-go-book-language]] — Language: 29 statement(s) and 10 atom(s) from raw/coding_little_go_book.pdf.
+- [[coding-little-go-book-maps-array-slice]] — Maps, Arrays and Slices: 37 statement(s) and 21 atom(s) from raw/coding_little_go_book.pdf.
+- [[coding-little-go-book-package]] — Packages: 15 statement(s) and 23 atom(s) from raw/coding_little_go_book.pdf.
+- [[coding-little-go-book-package-management]] — Package Management: 19 statement(s) and 24 atom(s) from raw/coding_little_go_book.pdf.
+- [[coding-little-go-book-pointer-versu-value]] — Pointers versus Values: 35 statement(s) and 24 atom(s) from raw/coding_little_go_book.pdf.
+- [[coding-little-go-book-running-code]] — Running Go Code: 28 statement(s) and 31 atom(s) from raw/coding_little_go_book.pdf.
+- [[coding-little-go-book-slice]] — Slices: 20 statement(s) and 12 atom(s) from raw/coding_little_go_book.pdf.
+- [[coding-little-go-book-string]] — String: 8 statement(s) and 24 atom(s) from raw/coding_little_go_book.pdf.
+- [[coding-little-go-book-string-byte-array]] — Strings and Byte Arrays: 30 statement(s) and 35 atom(s) from raw/coding_little_go_book.pdf.
+- [[coding-little-go-book-structure]] — Structures: 12 statement(s) and 15 atom(s) from raw/coding_little_go_book.pdf.
+- [[coding-little-go-book-system]] — System: 9 statement(s) and 6 atom(s) from raw/coding_little_go_book.pdf.
+- [[coding-little-go-book-type]] — Type: 23 statement(s) and 37 atom(s) from raw/coding_little_go_book.pdf.
+- [[coding-little-go-book-value]] — Value: 30 statement(s) and 21 atom(s) from raw/coding_little_go_book.pdf.
+- [[coding-little-go-book-variable-declaration]] — Variables and Declarations: 17 statement(s) and 19 atom(s) from raw/coding_little_go_book.pdf.
+- [[function]] — Cross-source concept 'Function': 2 sources, 1 relation(s).
+- [[function-declaration]] — Cross-source concept 'Function Declaration': 2 sources, 1 relation(s).
+- [[history-short-history-of-england-ages]] — Ages: 37 statement(s) and 7 atom(s) from raw/history_short_history_of_england.pdf.
+- [[history-short-history-of-england-case]] — Case: 24 statement(s) and 9 atom(s) from raw/history_short_history_of_england.pdf.
+- [[history-short-history-of-england-century]] — Century: 37 statement(s) and 7 atom(s) from raw/history_short_history_of_england.pdf.
+- [[history-short-history-of-england-certainly]] — Certainly: 28 statement(s) and 5 atom(s) from raw/history_short_history_of_england.pdf.
+- [[history-short-history-of-england-christian]] — Christian: 38 statement(s) and 5 atom(s) from raw/history_short_history_of_england.pdf.
+- [[history-short-history-of-england-church]] — Church: 41 statement(s) and 5 atom(s) from raw/history_short_history_of_england.pdf.
+- [[history-short-history-of-england-edward-norman-king]] — ST. EDWARD AND THE NORMAN KINGS: 122 statement(s) and 22 atom(s) from raw/history_short_history_of_england.pdf.
+- [[history-short-history-of-england-england]] — England: 81 statement(s) and 19 atom(s) from raw/history_short_history_of_england.pdf.
+- [[history-short-history-of-england-english]] — English: 121 statement(s) and 16 atom(s) from raw/history_short_history_of_england.pdf.
+- [[history-short-history-of-england-french]] — French: 34 statement(s) and 9 atom(s) from raw/history_short_history_of_england.pdf.
+- [[history-short-history-of-england-henry]] — Henry: 29 statement(s) and 6 atom(s) from raw/history_short_history_of_england.pdf.
+- [[history-short-history-of-england-history]] — History: 77 statement(s) and 15 atom(s) from raw/history_short_history_of_england.pdf.
+- [[history-short-history-of-england-king]] — King: 99 statement(s) and 18 atom(s) from raw/history_short_history_of_england.pdf.
+- [[history-short-history-of-england-land]] — Land: 31 statement(s) and 7 atom(s) from raw/history_short_history_of_england.pdf.
+- [[history-short-history-of-england-life]] — Life: 26 statement(s) and 9 atom(s) from raw/history_short_history_of_england.pdf.
+- [[history-short-history-of-england-meaning-merry-england]] — THE MEANING OF MERRY ENGLAND: 88 statement(s) and 19 atom(s) from raw/history_short_history_of_england.pdf.
+- [[history-short-history-of-england-middle]] — Middle: 33 statement(s) and 10 atom(s) from raw/history_short_history_of_england.pdf.
+- [[history-short-history-of-england-nationality-french-wars]] — NATIONALITY AND THE FRENCH WARS: 40 statement(s) and 11 atom(s) from raw/history_short_history_of_england.pdf.
+- [[history-short-history-of-england-parliament]] — Parliament: 31 statement(s) and 5 atom(s) from raw/history_short_history_of_england.pdf.
+- [[history-short-history-of-england-people]] — People: 40 statement(s) and 13 atom(s) from raw/history_short_history_of_england.pdf.
+- [[history-short-history-of-england-power]] — Power: 23 statement(s) and 10 atom(s) from raw/history_short_history_of_england.pdf.
+- [[history-short-history-of-england-rebellion-rich]] — THE REBELLION OF THE RICH: 33 statement(s) and 7 atom(s) from raw/history_short_history_of_england.pdf.
+- [[history-short-history-of-england-return-barbarian]] — THE RETURN OF THE BARBARIAN: 21 statement(s) and 7 atom(s) from raw/history_short_history_of_england.pdf.
+- [[history-short-history-of-england-revolution]] — Revolution: 32 statement(s) and 7 atom(s) from raw/history_short_history_of_england.pdf.
+- [[history-short-history-of-england-roman]] — Roman: 48 statement(s) and 11 atom(s) from raw/history_short_history_of_england.pdf.
+- [[history-short-history-of-england-short-history-england]] — A SHORT HISTORY OF ENGLAND [Pg 1]: 161 statement(s) and 32 atom(s) from raw/history_short_history_of_england.pdf.
+- [[history-short-history-of-england-short-history-england-chesterton]] — A SHORT HISTORY OF ENGLAND BY G. K. CHESTERTON: 161 statement(s) and 32 atom(s) from raw/history_short_history_of_england.pdf.
+- [[history-short-history-of-england-spain-schism-nation]] — SPAIN AND THE SCHISM OF NATIONS: 39 statement(s) and 10 atom(s) from raw/history_short_history_of_england.pdf.
+- [[history-short-history-of-england-state]] — State: 28 statement(s) and 11 atom(s) from raw/history_short_history_of_england.pdf.
+- [[history-short-history-of-england-think]] — Think: 15 statement(s) and 15 atom(s) from raw/history_short_history_of_england.pdf.
+- [[history-short-history-of-england-truth]] — Truth: 20 statement(s) and 10 atom(s) from raw/history_short_history_of_england.pdf.
+- [[history-short-history-of-england-word]] — Word: 27 statement(s) and 12 atom(s) from raw/history_short_history_of_england.pdf.
+- [[javascriptallonge-applying-function]] — applying functions: 215 statement(s) and 238 atom(s) from raw/javascriptallonge.pdf.
+- [[javascriptallonge-array-destructuring-argument]] — Arrays and Destructuring Arguments: 112 statement(s) and 144 atom(s) from raw/javascriptallonge.pdf.
+- [[javascriptallonge-combinator-function-decorator]] — Combinators and Function Decorators: 229 statement(s) and 241 atom(s) from raw/javascriptallonge.pdf.
+- [[javascriptallonge-const]] — const: 39 statement(s) and 341 atom(s) from raw/javascriptallonge.pdf.
+- [[javascriptallonge-const-invented]] — why const and let were invented: 39 statement(s) and 341 atom(s) from raw/javascriptallonge.pdf.
+- [[javascriptallonge-const-lexical-scope]] — const and lexical scope: 55 statement(s) and 345 atom(s) from raw/javascriptallonge.pdf.
+- [[javascriptallonge-const-shadowy-planet]] — are consts also from a shadowy planet?: 39 statement(s) and 341 atom(s) from raw/javascriptallonge.pdf.
+- [[javascriptallonge-data-function]] — Making Data Out Of Functions: 231 statement(s) and 247 atom(s) from raw/javascriptallonge.pdf.
+- [[javascriptallonge-destructuring-return-value]] — destructuring and return values: 145 statement(s) and 270 atom(s) from raw/javascriptallonge.pdf.
+- [[javascriptallonge-function]] — The first sip: Basic Functions: 214 statement(s) and 238 atom(s) from raw/javascriptallonge.pdf.
+- [[javascriptallonge-function-declaration]] — function declarations: 215 statement(s) and 238 atom(s) from raw/javascriptallonge.pdf.
+- [[javascriptallonge-function-declaration-caveat]] — function declaration caveats 34: 215 statement(s) and 239 atom(s) from raw/javascriptallonge.pdf.
+- [[javascriptallonge-function-decorator]] — function decorators: 217 statement(s) and 238 atom(s) from raw/javascriptallonge.pdf.
+- [[javascriptallonge-function-evaluate]] — functions that evaluate to functions: 228 statement(s) and 249 atom(s) from raw/javascriptallonge.pdf.
+- [[javascriptallonge-function-identity]] — functions and identities: 216 statement(s) and 239 atom(s) from raw/javascriptallonge.pdf.
+- [[javascriptallonge-function-keyword]] — the function keyword: 219 statement(s) and 239 atom(s) from raw/javascriptallonge.pdf.
+- [[javascriptallonge-function-parameter-eager]] — function parameters are eager: 223 statement(s) and 250 atom(s) from raw/javascriptallonge.pdf.
+- [[javascriptallonge-function-return-value-evaluate-expression]] — functions that return values and evaluate expressions: 334 statement(s) and 423 atom(s) from raw/javascriptallonge.pdf.
+- [[javascriptallonge-higher-order-function]] — higher-order functions: 230 statement(s) and 251 atom(s) from raw/javascriptallonge.pdf.
+- [[javascriptallonge-left-variadic-function]] — Left-Variadic Functions: 219 statement(s) and 245 atom(s) from raw/javascriptallonge.pdf.
+- [[javascriptallonge-list-function-data]] — lists with functions as data: 277 statement(s) and 292 atom(s) from raw/javascriptallonge.pdf.
+- [[javascriptallonge-mixing-const]] — mixing let and const: 39 statement(s) and 341 atom(s) from raw/javascriptallonge.pdf.
+- [[javascriptallonge-naming-function]] — Naming Functions: 215 statement(s) and 240 atom(s) from raw/javascriptallonge.pdf.
+- [[javascriptallonge-operation-transform-iterable-value]] — operations that transform an iterable into a value: 134 statement(s) and 174 atom(s) from raw/javascriptallonge.pdf.
+- [[javascriptallonge-prelude-value-expression-coffee]] — Prelude: Values and Expressions over Coffee: 145 statement(s) and 177 atom(s) from raw/javascriptallonge.pdf.
+- [[javascriptallonge-programming-function-classe-ecmascript]] — Programming from Functions to Classes in ECMAScript 2015: 243 statement(s) and 254 atom(s) from raw/javascriptallonge.pdf.
+- [[javascriptallonge-quick-summary-function-body]] — a quick summary of functions and bodies: 224 statement(s) and 241 atom(s) from raw/javascriptallonge.pdf.
+- [[javascriptallonge-recipe-function]] — Recipes with Basic Functions: 223 statement(s) and 242 atom(s) from raw/javascriptallonge.pdf.
+- [[javascriptallonge-representing-naught-crosse-stateful-function]] — representing naughts and crosses as a stateful function: 223 statement(s) and 246 atom(s) from raw/javascriptallonge.pdf.
+- [[javascriptallonge-representing-naught-crosse-stateless-function]] — representing naughts and crosses as a stateless function: 221 statement(s) and 242 atom(s) from raw/javascriptallonge.pdf.
+- [[javascriptallonge-return-backward-thinking]] — a return to backward thinking: 44 statement(s) and 187 atom(s) from raw/javascriptallonge.pdf.
+- [[javascriptallonge-value-expression]] — values are expressions: 140 statement(s) and 171 atom(s) from raw/javascriptallonge.pdf.
+- [[rpg-cairn-2e-core-action]] — Actions: 25 statement(s) and 18 atom(s) from raw/rpg_cairn_2e_core.pdf.
+- [[rpg-cairn-2e-core-attack-modifier]] — Attack Modifiers: 14 statement(s) and 8 atom(s) from raw/rpg_cairn_2e_core.pdf.
+- [[rpg-cairn-2e-core-attacking-damage]] — Attacking & Damage: 21 statement(s) and 14 atom(s) from raw/rpg_cairn_2e_core.pdf.
+- [[rpg-cairn-2e-core-bond-should]] — Bonds Should...: 12 statement(s) and 30 atom(s) from raw/rpg_cairn_2e_core.pdf.
+- [[rpg-cairn-2e-core-character]] — Character: 49 statement(s) and 39 atom(s) from raw/rpg_cairn_2e_core.pdf.
+- [[rpg-cairn-2e-core-character-creation]] — Character Creation: 49 statement(s) and 39 atom(s) from raw/rpg_cairn_2e_core.pdf.
+- [[rpg-cairn-2e-core-character-death]] — Character Death: 53 statement(s) and 39 atom(s) from raw/rpg_cairn_2e_core.pdf.
+- [[rpg-cairn-2e-core-character-trait]] — Character Traits (d10): 49 statement(s) and 39 atom(s) from raw/rpg_cairn_2e_core.pdf.
+- [[rpg-cairn-2e-core-critical-damage]] — Critical Damage: 20 statement(s) and 14 atom(s) from raw/rpg_cairn_2e_core.pdf.
+- [[rpg-cairn-2e-core-damage]] — Damage: 20 statement(s) and 14 atom(s) from raw/rpg_cairn_2e_core.pdf.
+- [[rpg-cairn-2e-core-downtime-action]] — Downtime Actions: 25 statement(s) and 18 atom(s) from raw/rpg_cairn_2e_core.pdf.
+- [[rpg-cairn-2e-core-dungeon-event]] — Dungeon Events: 17 statement(s) and 10 atom(s) from raw/rpg_cairn_2e_core.pdf.
+- [[rpg-cairn-2e-core-freya]] — Freya :: 16 statement(s) and 7 atom(s) from raw/rpg_cairn_2e_core.pdf.
+- [[rpg-cairn-2e-core-light-source]] — Light Sources: 10 statement(s) and 11 atom(s) from raw/rpg_cairn_2e_core.pdf.
+- [[rpg-cairn-2e-core-lost-result]] — HP Lost Result: 25 statement(s) and 13 atom(s) from raw/rpg_cairn_2e_core.pdf.
+- [[rpg-cairn-2e-core-omen-should]] — Omens Should...: 12 statement(s) and 29 atom(s) from raw/rpg_cairn_2e_core.pdf.
+- [[rpg-cairn-2e-core-opposed-save]] — Opposed Saves: 30 statement(s) and 14 atom(s) from raw/rpg_cairn_2e_core.pdf.
+- [[rpg-cairn-2e-core-party]] — Party: 28 statement(s) and 18 atom(s) from raw/rpg_cairn_2e_core.pdf.
+- [[rpg-cairn-2e-core-player]] — Player: 19 statement(s) and 18 atom(s) from raw/rpg_cairn_2e_core.pdf.
+- [[rpg-cairn-2e-core-player-choice]] — Player Choice: 26 statement(s) and 19 atom(s) from raw/rpg_cairn_2e_core.pdf.
+- [[rpg-cairn-2e-core-principle-player]] — Principles for Players: 19 statement(s) and 18 atom(s) from raw/rpg_cairn_2e_core.pdf.
+- [[rpg-cairn-2e-core-principle-warden]] — Principles for Wardens: 38 statement(s) and 24 atom(s) from raw/rpg_cairn_2e_core.pdf.
+- [[rpg-cairn-2e-core-ranged-attack]] — Ranged Attacks: 14 statement(s) and 9 atom(s) from raw/rpg_cairn_2e_core.pdf.
+- [[rpg-cairn-2e-core-result]] — Result: 18 statement(s) and 11 atom(s) from raw/rpg_cairn_2e_core.pdf.
+- [[rpg-cairn-2e-core-roll-choose-background]] — Roll or choose a Background: 56 statement(s) and 24 atom(s) from raw/rpg_cairn_2e_core.pdf.
+- [[rpg-cairn-2e-core-roll-table]] — Roll on the table below.: 54 statement(s) and 20 atom(s) from raw/rpg_cairn_2e_core.pdf.
+- [[rpg-cairn-2e-core-save]] — Saves: 30 statement(s) and 14 atom(s) from raw/rpg_cairn_2e_core.pdf.
+- [[rpg-cairn-2e-core-save-principle]] — Save Principles: 30 statement(s) and 14 atom(s) from raw/rpg_cairn_2e_core.pdf.
+- [[rpg-cairn-2e-core-traditional-save]] — Traditional Saves: 30 statement(s) and 14 atom(s) from raw/rpg_cairn_2e_core.pdf.
+- [[rpg-cairn-2e-core-warden]] — Warden :: 38 statement(s) and 24 atom(s) from raw/rpg_cairn_2e_core.pdf.
+- [[rpg-cairn-2e-core-wilderness-action]] — Wilderness Actions: 28 statement(s) and 18 atom(s) from raw/rpg_cairn_2e_core.pdf.
+- [[rpg-cairn-2e-core-wolfram]] — Wolfram :: 16 statement(s) and 10 atom(s) from raw/rpg_cairn_2e_core.pdf.
 
 ## Syntheses
-- [[wiki-claim-support]] — Latest bounded claim-support audit (2026-06-24).
+- [[cross-source-synthesis]] — Cross-source synthesis index: 2 shared topics.
 - [[wiki-ingest-confidence]] — Latest bounded post-ingest confidence report.

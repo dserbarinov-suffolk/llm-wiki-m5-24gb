@@ -48,6 +48,8 @@ from llmwiki.domain.ledger.quality_catalog import (
 )
 from llmwiki.domain.ledger.renderer import render_source_page
 from llmwiki.domain.ledger.structure import DocumentStructure
+from llmwiki.domain.ledger.topic_render import render_topic_page
+from llmwiki.domain.ledger.topics import SourceTopic, build_topic_index, plan_source_topics
 from llmwiki.domain.objects import Schema
 from llmwiki.domain.pages import PageMetadata, WikiPage, slugify
 from llmwiki.runtime.ledger_segmentation import ChunkText, segment_chunks
@@ -57,6 +59,7 @@ from llmwiki.runtime.ledger_segmentation import ChunkText, segment_chunks
 class SourceLedgerResult:
     page_id: str
     wiki_page: WikiPage | None
+    topic_pages: tuple[WikiPage, ...]
     page_write_decision: str
     ledger_report: LedgerQualityReport
     projection_report: LedgerQualityReport
@@ -155,10 +158,19 @@ def build_source_ledger(
         ),
     )
 
+    topics = plan_source_topics(ledger, structure)
+    topic_index = build_topic_index(
+        ledger,
+        topics,
+        source_locator=source_locator,
+        source_hash=source_hash,
+        projection_source_support_id=support.projection_source_support_id,
+    )
+
     decision = page_write_decision(ledger_report, projection_report)
-    summary = _summary(ledger, decision)
     blocked = None
     wiki_page: WikiPage | None = None
+    topic_pages: tuple[WikiPage, ...] = ()
     if decision == "block-authoritative-write":
         blocked = build_blocked_write_diagnostic_artifact(
             wiki_page_locator=page_id,
@@ -169,9 +181,17 @@ def build_source_ledger(
             ),
         )
     else:
+        topic_pages = _topic_pages(topics, ledger, page_id, source_locator, today)
         wiki_page = _wiki_page(
-            page_id, source_locator, title, summary, today, rendered.page_body, coverage_artifact
+            page_id,
+            source_locator,
+            title,
+            _summary(ledger, decision, len(topic_pages)),
+            today,
+            rendered.page_body,
+            coverage_artifact,
         )
+    summary = _summary(ledger, decision, len(topic_pages))
 
     members = [
         _member(
@@ -212,6 +232,7 @@ def build_source_ledger(
         "ledger-quality-report.json": canonical_json(ledger_report_artifact, indent=2),
         "projection-quality-report.json": canonical_json(projection_report_artifact, indent=2),
         "projection-coverage.json": canonical_json(coverage_artifact, indent=2),
+        "topics.json": canonical_json(topic_index, indent=2),
     }
     if blocked is not None:
         members.append(
@@ -228,6 +249,7 @@ def build_source_ledger(
     return SourceLedgerResult(
         page_id=page_id,
         wiki_page=wiki_page,
+        topic_pages=topic_pages,
         page_write_decision=decision,
         ledger_report=ledger_report,
         projection_report=projection_report,
@@ -236,6 +258,36 @@ def build_source_ledger(
         portable_artifact_set=manifest,
         summary=summary,
     )
+
+
+def _topic_pages(
+    topics: tuple[SourceTopic, ...],
+    ledger: ClaimLedger,
+    source_page_id: str,
+    source_locator: str,
+    today: str,
+) -> tuple[WikiPage, ...]:
+    pages: list[WikiPage] = []
+    for topic in topics:
+        topic_page_id = slugify(f"{source_page_id}-{topic.topic_key}")
+        rendered = render_topic_page(
+            topic, ledger, wiki_page_locator=topic_page_id, source_page_id=source_page_id
+        )
+        metadata = PageMetadata(
+            page_id=topic_page_id,
+            page_kind=topic.page_kind,
+            summary=(
+                f"{topic.label}: {len(topic.entry_ids)} statement(s) and "
+                f"{len(topic.atom_ids)} atom(s) from raw/{source_locator}."
+            ),
+            sources=(f"raw/{source_locator}",),
+            updated=today,
+            domain=source_page_id,
+            category_path=f"{topic.page_kind}s",
+            projection_coverage_pointer=f"topic-{topic_page_id}@{rendered.page_body_hash}",
+        )
+        pages.append(WikiPage.from_metadata(metadata, rendered.page_body))
+    return tuple(pages)
 
 
 def _wiki_page(
@@ -277,12 +329,12 @@ def _title(source_locator: str, structure: DocumentStructure) -> str:
     return stem.title()
 
 
-def _summary(ledger: ClaimLedger, decision: str) -> str:
+def _summary(ledger: ClaimLedger, decision: str, topic_count: int = 0) -> str:
     usable = len(ledger.usable_entries)
     atoms = len(ledger.technical_atoms)
     review = len(ledger.needs_review_entries)
     label = ledger.source_family_assignment.top_label
     return (
         f"Claim-ledger projection ({label}): {usable} usable entries, {atoms} technical atoms, "
-        f"{review} needs-review; write decision {decision}."
+        f"{review} needs-review, {topic_count} topic page(s); write decision {decision}."
     )

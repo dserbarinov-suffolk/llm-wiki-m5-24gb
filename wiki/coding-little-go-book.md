@@ -1,13 +1,13 @@
 ---
 page_id: coding-little-go-book
 page_kind: source
-summary: Claim-ledger projection (coding): 668 usable entries, 292 technical atoms, 102 needs-review; write decision write-with-review-work.
+summary: Claim-ledger projection (coding): 668 usable entries, 292 technical atoms, 102 needs-review, 32 topic page(s); write decision write-with-review-work.
 sources: raw/coding_little_go_book.pdf
-updated: 2026-06-25
+updated: 2026-06-26
 domain: coding-little-go-book
 category_path: sources
 source_id: coding_little_go_book.pdf
-projection_coverage: projection-coverage-83c2d7152f751fbf@d2e3543ad691eb12
+projection_coverage: projection-coverage-2da2c75231005110@f9a816f3063f3a0c
 ---
 
 # The Little Go Book
@@ -266,8 +266,8 @@ _(source: coding_little_go_book.pdf (source-range-810ce361-00069))_
 - The most explicit way to deal with variable declaration and assignment in Go is also the most verbose: _(coding_little_go_book.pdf (source-range-810ce361-00074))_
 - Integers are assigned 0 , booleans false , strings "" and so on. _(coding_little_go_book.pdf (source-range-810ce361-00076))_
 - It's important that you remember that := is used to declare the variable as well as assign a value to it. _(coding_little_go_book.pdf (source-range-810ce361-00082))_
-- The compiler will complain with no new variables on left side of := . _(coding_little_go_book.pdf (source-range-810ce361-00084))_
 - This means that when we first declare a variable, we use := but on subsequent assignment, we use the assignment operator = . _(coding_little_go_book.pdf (source-range-810ce361-00084))_
+- The compiler will complain with no new variables on left side of := . _(coding_little_go_book.pdf (source-range-810ce361-00084))_
 - This means that when we first declare a variable, we use := but on subsequent assignment, we use the assignment operator = . _(coding_little_go_book.pdf (source-range-810ce361-00084))_
 - Although power is being used twice with := , the compiler won't complain the second time we use it, it'll see that the other variable, name , is a new variable and allow := . _(coding_little_go_book.pdf (source-range-810ce361-00089))_
 - It was declared (implicitly) as an integer and thus, can only be assigned integers. _(coding_little_go_book.pdf (source-range-810ce361-00089))_
@@ -432,9 +432,9 @@ _(source: coding_little_go_book.pdf (source-range-810ce361-00114))_
 - To make this work as you probably expect, we need to pass a pointer to our value: _(coding_little_go_book.pdf (source-range-810ce361-00129))_
 - Because Super made changes to a copy of our original goku value and thus, changes made in Super weren't reflected in the caller. _(coding_little_go_book.pdf (source-range-810ce361-00129))_
 - The first is the use of the & operator to get the address of our value (it's called the address of operator). _(coding_little_go_book.pdf (source-range-810ce361-00131))_
+- It used to expect a value of type Saiyan but now expects an address of type *Saiyan , where *X means pointer to value of type X . _(coding_little_go_book.pdf (source-range-810ce361-00131))_
 - There's obviously some relation between the types Saiyan and *Saiyan , but they are two distinct types. _(coding_little_go_book.pdf (source-range-810ce361-00131))_
 - Next, we changed the type of parameter Super expects. _(coding_little_go_book.pdf (source-range-810ce361-00131))_
-- It used to expect a value of type Saiyan but now expects an address of type *Saiyan , where *X means pointer to value of type X . _(coding_little_go_book.pdf (source-range-810ce361-00131))_
 - It used to expect a value of type Saiyan but now expects an address of type *Saiyan , where *X means pointer to value of type X . _(coding_little_go_book.pdf (source-range-810ce361-00131))_
 - What you have is a copy, but it still points to the same restaurant as the original. _(coding_little_go_book.pdf (source-range-810ce361-00132))_
 - Note that we're still passing a copy of goku's value to Super it just so happens that goku's value has become an address. _(coding_little_go_book.pdf (source-range-810ce361-00132))_

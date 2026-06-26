@@ -1,13 +1,13 @@
 ---
 page_id: rpg-cairn-2e-core
 page_kind: source
-summary: Claim-ledger projection (general-prose): 815 usable entries, 217 technical atoms, 233 needs-review; write decision write-with-review-work.
+summary: Claim-ledger projection (general-prose): 815 usable entries, 217 technical atoms, 233 needs-review, 32 topic page(s); write decision write-with-review-work.
 sources: raw/rpg_cairn_2e_core.pdf
-updated: 2026-06-25
+updated: 2026-06-26
 domain: rpg-cairn-2e-core
 category_path: sources
 source_id: rpg_cairn_2e_core.pdf
-projection_coverage: projection-coverage-b0a404b5cf79014c@8ef08fd5d47ad621
+projection_coverage: projection-coverage-9e2a173379aa9953@1ed2ba4785c852cf
 ---
 
 # Cairn 2e Core Rulebook
@@ -514,10 +514,10 @@ _(source: rpg_cairn_2e_core.pdf (source-range-f6f3256b-00293))_
 
 ## Attribute Loss
 
+- Complete DEX and WIL loss renders the character unable to act until they are restored through extended rest or by extraordinary means. _(rpg_cairn_2e_core.pdf (source-range-f6f3256b-00297))_
 - If their WIL is reduced to 0, they are delirious. _(rpg_cairn_2e_core.pdf (source-range-f6f3256b-00297))_
 - - If a PC's STR is reduced to 0, they die. _(rpg_cairn_2e_core.pdf (source-range-f6f3256b-00297))_
 - If their DEX is reduced to 0, they are paralyzed. _(rpg_cairn_2e_core.pdf (source-range-f6f3256b-00297))_
-- Complete DEX and WIL loss renders the character unable to act until they are restored through extended rest or by extraordinary means. _(rpg_cairn_2e_core.pdf (source-range-f6f3256b-00297))_
 - Complete DEX and WIL loss renders the character unable to act until they are restored through extended rest or by extraordinary means. _(rpg_cairn_2e_core.pdf (source-range-f6f3256b-00297))_
 
 > - If a PC takes damage outside of combat, they should instead receive damage to an Attribute, typically STR.

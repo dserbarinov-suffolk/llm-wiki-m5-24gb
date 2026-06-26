@@ -55,6 +55,7 @@ from llmwiki.pdf.pipeline import (
     read_source_text,
     save_manifest,
 )
+from llmwiki.runtime.cross_source_pipeline import build_cross_source_pages
 from llmwiki.runtime.ingest_confidence import record_post_ingest_confidence
 from llmwiki.runtime.ledger_pipeline import build_source_ledger
 from llmwiki.runtime.ledger_segmentation import ChunkText
@@ -265,17 +266,40 @@ class Session:
             written = f"[[{ledger.page_id}]]"
         else:
             written = "none (authoritative write blocked — see blocked-write-diagnostic.json)"
+        for topic_page in ledger.topic_pages:
+            self.store.write_page(topic_page)
         if self.on_chunk_note is not None:
             self.on_chunk_note(ledger.summary)
         report = (
             f"Claim-ledger ingest of raw/{source_locator} ({len(chunks)} chunk(s)).\n"
             f"{ledger.summary}\n"
-            f"Source page: {written}. "
+            f"Source page: {written}; topic pages: {len(ledger.topic_pages)}. "
             f"Ledger artifacts: {self.store.page_plan_artifact_dir(source_locator)}/ledger.\n"
             f"{_confidence_summary_line(confidence.report)}"
         )
         self.store.append_log(self.today, "ingest", source_locator, report)
         return OperationResult("ingest", source_locator, report, None, run)
+
+    async def synthesize(self) -> OperationResult:
+        """Build cross-source concept pages from every stored topic index.
+
+        Deterministic and model-free: per-source topics (headings + key terms)
+        that recur across sources become ``CrossSourceWikiPage`` projections with
+        typed cross-source relations.
+        """
+        topic_jsons = tuple(self.store.list_topic_index_artifacts())
+        if len(topic_jsons) < 2:
+            report = (
+                "Cross-source synthesis needs at least two ingested sources; "
+                f"found {len(topic_jsons)}."
+            )
+            self.store.append_log(self.today, "synthesize", "cross-source", report)
+            return OperationResult("synthesize", "cross-source", report, None)
+        result = build_cross_source_pages(topic_jsons, today=self.today)
+        for page in result.pages:
+            self.store.write_page(page)
+        self.store.append_log(self.today, "synthesize", "cross-source", result.summary)
+        return OperationResult("synthesize", "cross-source", result.summary, None)
 
     async def query(self, question: str) -> OperationResult:
         workflow = build_query_workflow(self.store, self.today)

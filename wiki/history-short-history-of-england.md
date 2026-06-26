@@ -1,13 +1,13 @@
 ---
 page_id: history-short-history-of-england
 page_kind: source
-summary: Claim-ledger projection (general-prose): 2295 usable entries, 244 technical atoms, 105 needs-review; write decision write-with-review-work.
+summary: Claim-ledger projection (general-prose): 2295 usable entries, 244 technical atoms, 105 needs-review, 32 topic page(s); write decision write-with-review-work.
 sources: raw/history_short_history_of_england.pdf
-updated: 2026-06-25
+updated: 2026-06-26
 domain: history-short-history-of-england
 category_path: sources
 source_id: history_short_history_of_england.pdf
-projection_coverage: projection-coverage-5349d64282f784d6@db69daafc0842509
+projection_coverage: projection-coverage-39871408f39b9587@2d9a6b57f81809eb
 ---
 
 # The Project Gutenberg eBook, A Short History of England, by G. K. Chesterton
@@ -195,9 +195,9 @@ _(source: history_short_history_of_england.pdf (source-range-e5a81de4-00022))_
 - Similarly, he could tell his slave to run, but he could only tell his serf to stay. _(history_short_history_of_england.pdf (source-range-e5a81de4-00046))_
 - When once he belonged to the land, it could not be long before the land belonged to him. _(history_short_history_of_england.pdf (source-range-e5a81de4-00046))_
 - But on the edges of the Empire this decivilization became a definite barbarism, owing to the nearness of wild neighbours who were ready to destroy as deafly and blindly as things are destroyed by fire. _(history_short_history_of_england.pdf (source-range-e5a81de4-00047))_
+- What the decline did involve everywhere was decivilization; the loss of letters, of laws, of roads and means of communication, the exaggeration of local colour into caprice. _(history_short_history_of_england.pdf (source-range-e5a81de4-00047))_
 - But a deluge of barbarians is not entirely an exaggeration of what happened on some of the borders of the Empire; of such edges of the known world as we began by describing in these pages. _(history_short_history_of_england.pdf (source-range-e5a81de4-00047))_
 - Save for the lurid and apocalyptic locust-flight of the Huns, it is perhaps an exaggeration to talk, even in those darkest ages, of a deluge of the barbarians; at least when we are speaking of the old civilization as a whole. _(history_short_history_of_england.pdf (source-range-e5a81de4-00047))_
-- What the decline did involve everywhere was decivilization; the loss of letters, of laws, of roads and means of communication, the exaggeration of local colour into caprice. _(history_short_history_of_england.pdf (source-range-e5a81de4-00047))_
 - What the decline did involve everywhere was decivilization; the loss of letters, of laws, of roads and means of communication, the exaggeration of local colour into caprice. _(history_short_history_of_england.pdf (source-range-e5a81de4-00047))_
 - It is perhaps permissible to disagree with the historian Green when he says that no spot should be more sacred to modern Englishmen than the neighbourhood of Ramsgate, where the Schleswig people are supposed to have landed; or when he suggests that their appearance is the real beginning of our island story. _(history_short_history_of_england.pdf (source-range-e5a81de4-00048))_
 - Having been chosen only to fight somebody they naturally fought anybody; and a century of fighting followed, under the trampling of which the Roman pavement was broken into yet smaller pieces. _(history_short_history_of_england.pdf (source-range-e5a81de4-00048))_
@@ -648,6 +648,7 @@ _(source: history_short_history_of_england.pdf (source-range-e5a81de4-00102))_
 - Feudalism was very nearly the opposite of squirearchy. _(history_short_history_of_england.pdf (source-range-e5a81de4-00123))_
 - This thing in itself was above all things logical. _(history_short_history_of_england.pdf (source-range-e5a81de4-00124))_
 - Now Feudalism was not quite logical, and was never quite exact about who had the authority. _(history_short_history_of_england.pdf (source-range-e5a81de4-00124))_
+- Feudalism was mostly a very human thing; the nearest contemporary name for it was homage, a word which almost means humanity. _(history_short_history_of_england.pdf (source-range-e5a81de4-00124))_
 - Feudalism already flourished before the mediæval renascence began. _(history_short_history_of_england.pdf (source-range-e5a81de4-00124))_
 - I do not say this in disparagement of it. _(history_short_history_of_england.pdf (source-range-e5a81de4-00124))_
 - It was often mere prejudice that protected men, and pure reason that burned them. _(history_short_history_of_england.pdf (source-range-e5a81de4-00124))_
@@ -659,7 +660,6 @@ _(source: history_short_history_of_england.pdf (source-range-e5a81de4-00102))_
 - And it would be very inadvisable to ignore the freer element in Feudalism in English history. _(history_short_history_of_england.pdf (source-range-e5a81de4-00124))_
 - Patriotism had to be parochial; for men had no country, but only a countryside. _(history_short_history_of_england.pdf (source-range-e5a81de4-00124))_
 - Feudalism already flourished before the mediæval renascence began. _(history_short_history_of_england.pdf (source-range-e5a81de4-00124))_
-- Feudalism was mostly a very human thing; the nearest contemporary name for it was homage, a word which almost means humanity. _(history_short_history_of_england.pdf (source-range-e5a81de4-00124))_
 - In such cases the lord grew larger than the king; but it bred not only a local lordship but a kind of local liberty. _(history_short_history_of_england.pdf (source-range-e5a81de4-00124))_
 - Patriotism had to be parochial; for men had no country, but only a countryside. _(history_short_history_of_england.pdf (source-range-e5a81de4-00124))_
 - Feudalism was mostly a very human thing; the nearest contemporary name for it was homage, a word which almost means humanity. _(history_short_history_of_england.pdf (source-range-e5a81de4-00124))_
@@ -1161,9 +1161,9 @@ _(source: history_short_history_of_england.pdf (source-range-e5a81de4-00188))_
 - For they were, indeed, as compared with subsequent systems, produced in the incredible fairyland of a free country. _(history_short_history_of_england.pdf (source-range-e5a81de4-00209))_
 - We should not conceive a married community in which most men were bachelors, and three men had harems. _(history_short_history_of_england.pdf (source-range-e5a81de4-00210))_
 - That the most mediæval of modern institutions, the Trades Unions, do not fight for the same ideal of æsthetic finish is true and certainly tragic; but to make it a matter of blame is wholly to misunderstand the tragedy. _(history_short_history_of_england.pdf (source-range-e5a81de4-00210))_
+- A married community means a community where most people are married; not a community where one or two people are very much married. _(history_short_history_of_england.pdf (source-range-e5a81de4-00210))_
 - The Guilds were confederations of men with property, seeking to ensure each man in the possession of that property. _(history_short_history_of_england.pdf (source-range-e5a81de4-00210))_
 - We should not speak of a negro community in which most men were white, but the rare negroes were giants. _(history_short_history_of_england.pdf (source-range-e5a81de4-00210))_
-- A married community means a community where most people are married; not a community where one or two people are very much married. _(history_short_history_of_england.pdf (source-range-e5a81de4-00210))_
 - A married community means a community where most people are married; not a community where one or two people are very much married. _(history_short_history_of_england.pdf (source-range-e5a81de4-00210))_
 - It is important to remember this fact in the subsequent history of England. _(history_short_history_of_england.pdf (source-range-e5a81de4-00214))_
 - When a man could get a goose or a gallon of ale for one or two of the smallest and commonest coins, the matter is in no way affected by the name of those coins. _(history_short_history_of_england.pdf (source-range-e5a81de4-00214))_
@@ -1250,30 +1250,30 @@ _(source: history_short_history_of_england.pdf (source-range-e5a81de4-00218))_
 - There were rival shrines of the same saint, and a sort of duel between two statues of the same divinity. _(history_short_history_of_england.pdf (source-range-e5a81de4-00225))_
 - By a process it is now our difficult duty to follow, a real estrangement between European peoples began. _(history_short_history_of_england.pdf (source-range-e5a81de4-00225))_
 - And that very lively localism the Christian faith and affections encouraged led at last to an excessive and exclusive parochialism. _(history_short_history_of_england.pdf (source-range-e5a81de4-00225))_
+- But it has long had one meaning in casual speech among common people, and it means a culture or a civilization. _(history_short_history_of_england.pdf (source-range-e5a81de4-00225))_
 - If any one wishes to know what we mean when we say that Christendom was and is one culture, or one civilization, there is a rough but plain way of putting it. _(history_short_history_of_england.pdf (source-range-e5a81de4-00225))_
 - Men began to feel that foreigners did not eat or drink like Christians, and even, when the philosophic schism came, to doubt if they were Christians. _(history_short_history_of_england.pdf (source-range-e5a81de4-00225))_
+- Sometimes, and more recently, a Christian means a Quaker. _(history_short_history_of_england.pdf (source-range-e5a81de4-00225))_
 - It is by asking what is the most common, or rather the most commonplace, of all the uses of the word "Christian." There is, of course, the highest use of all; but it has nowadays many other uses. _(history_short_history_of_england.pdf (source-range-e5a81de4-00225))_
 - But it was also, as we have seen, a very localized thing, especially in the Middle Ages. _(history_short_history_of_england.pdf (source-range-e5a81de4-00225))_
+- Sometimes, and more recently, a Christian means a Quaker. _(history_short_history_of_england.pdf (source-range-e5a81de4-00225))_
 - Sometimes a Christian means a modest person who believes that he bears a resemblance to Christ. _(history_short_history_of_england.pdf (source-range-e5a81de4-00225))_
 - But it has long had one meaning in casual speech among common people, and it means a culture or a civilization. _(history_short_history_of_england.pdf (source-range-e5a81de4-00225))_
-- Sometimes, and more recently, a Christian means a Quaker. _(history_short_history_of_england.pdf (source-range-e5a81de4-00225))_
 - Sometimes a Christian means an Evangelical. _(history_short_history_of_england.pdf (source-range-e5a81de4-00225))_
 - Sometimes a Christian means an Evangelical. _(history_short_history_of_england.pdf (source-range-e5a81de4-00225))_
-- Sometimes, and more recently, a Christian means a Quaker. _(history_short_history_of_england.pdf (source-range-e5a81de4-00225))_
-- But it has long had one meaning in casual speech among common people, and it means a culture or a civilization. _(history_short_history_of_england.pdf (source-range-e5a81de4-00225))_
 - Sometimes a Christian means a modest person who believes that he bears a resemblance to Christ. _(history_short_history_of_england.pdf (source-range-e5a81de4-00225))_
 - While it lasted Christendom was not only one nation but more like one city-and a besieged city. _(history_short_history_of_england.pdf (source-range-e5a81de4-00226))_
 - And it is the paradox of the Crusades that though the Saracen was superficially more civilized than the Christian, it was a sound instinct which saw him also to be in spirit a destroyer. _(history_short_history_of_england.pdf (source-range-e5a81de4-00226))_
 - What followed was a conquest and a conversion; all the end of the Dark Ages and the dawn of mediævalism is full of the evangelizing of barbarism. _(history_short_history_of_england.pdf (source-range-e5a81de4-00226))_
 - A flippant person, if he permitted himself a profane confusion with vaccination, might almost be inclined to suggest that for some reason it didn't "take" even then. _(history_short_history_of_england.pdf (source-range-e5a81de4-00226))_
 - There was, indeed, much more than this involved. _(history_short_history_of_england.pdf (source-range-e5a81de4-00226))_
+- While the internal structure of mediævalism was thus parochial and largely popular, in the greater affairs, and especially the external affairs, such as peace and war, most (though by no means all) of what was mediæval was monarchical. _(history_short_history_of_england.pdf (source-range-e5a81de4-00226))_
 - That background was the war with the barbarians. _(history_short_history_of_england.pdf (source-range-e5a81de4-00226))_
 - But it was not till the end of the Middle Ages, and close on the Reformation, that the people of Prussia, the wild land lying beyond Germany, were baptized at all. _(history_short_history_of_england.pdf (source-range-e5a81de4-00226))_
 - Wessex was but one wall or Paris one tower of it; and in one tongue and spirit Bede might have chronicled the siege of Paris or Abbo sung the song of Alfred. _(history_short_history_of_england.pdf (source-range-e5a81de4-00226))_
+- While the internal structure of mediævalism was thus parochial and largely popular, in the greater affairs, and especially the external affairs, such as peace and war, most (though by no means all) of what was mediæval was monarchical. _(history_short_history_of_england.pdf (source-range-e5a81de4-00226))_
 - While it lasted Christendom was not only one nation but more like one city-and a besieged city. _(history_short_history_of_england.pdf (source-range-e5a81de4-00226))_
 - A flippant person, if he permitted himself a profane confusion with vaccination, might almost be inclined to suggest that for some reason it didn't "take" even then. _(history_short_history_of_england.pdf (source-range-e5a81de4-00226))_
-- While the internal structure of mediævalism was thus parochial and largely popular, in the greater affairs, and especially the external affairs, such as peace and war, most (though by no means all) of what was mediæval was monarchical. _(history_short_history_of_england.pdf (source-range-e5a81de4-00226))_
-- While the internal structure of mediævalism was thus parochial and largely popular, in the greater affairs, and especially the external affairs, such as peace and war, most (though by no means all) of what was mediæval was monarchical. _(history_short_history_of_england.pdf (source-range-e5a81de4-00226))_
 - Royalties found they were representatives almost without knowing it; and many a king insisting on a genealogical tree or a title-deed found he spoke for the forests and the songs of a whole country-side. _(history_short_history_of_england.pdf (source-range-e5a81de4-00227))_
 - As these fears faded the princes of Europe, who had come together to face them, were left facing each other. _(history_short_history_of_england.pdf (source-range-e5a81de4-00227))_
 - The barbarian peril was thus brought under bit by bit, and even in the case of Islam the alien power which could not be crushed was evidently curbed. _(history_short_history_of_england.pdf (source-range-e5a81de4-00227))_
@@ -1420,10 +1420,10 @@ _(source: history_short_history_of_england.pdf (source-range-e5a81de4-00249))_
 - They were very controversial and therefore very complex; and it is easy, by isolating items whether about jus divinum or primus inter pares , to maintain that the mediævals were almost anything; it has been seriously maintained that they were all Germans. _(history_short_history_of_england.pdf (source-range-e5a81de4-00253))_
 - The disadvantage of such despotism is obvious enough. _(history_short_history_of_england.pdf (source-range-e5a81de4-00253))_
 - It was not really even so simple as this; for the Middle Ages were not, as it is often the fashion to fancy, under a single and steely discipline. _(history_short_history_of_england.pdf (source-range-e5a81de4-00253))_
+- But it is true that the influence of the Church, though by no means of all the great churchmen, encouraged the sense of a sort of sacrament of government, which was meant to make the monarch terrible and therefore often made the man tyrannical. _(history_short_history_of_england.pdf (source-range-e5a81de4-00253))_
 - They were very controversial and therefore very complex; and it is easy, by isolating items whether about jus divinum or primus inter pares , to maintain that the mediævals were almost anything; it has been seriously maintained that they were all Germans. _(history_short_history_of_england.pdf (source-range-e5a81de4-00253))_
 - But it is true that the influence of the Church, though by no means of all the great churchmen, encouraged the sense of a sort of sacrament of government, which was meant to make the monarch terrible and therefore often made the man tyrannical. _(history_short_history_of_england.pdf (source-range-e5a81de4-00253))_
 - He might govern wrong, but unless he governed horribly and extravagantly wrong, he retained his position of right; as a private man retains his right to marriage and locomotion unless he goes horribly and extravagantly off his head. _(history_short_history_of_england.pdf (source-range-e5a81de4-00253))_
-- But it is true that the influence of the Church, though by no means of all the great churchmen, encouraged the sense of a sort of sacrament of government, which was meant to make the monarch terrible and therefore often made the man tyrannical. _(history_short_history_of_england.pdf (source-range-e5a81de4-00253))_
 - Constitutional moralists have often implied that a tyrant and a rabble have the same vices. _(history_short_history_of_england.pdf (source-range-e5a81de4-00254))_
 - And one virtue which they very markedly share is that neither tyrants nor rabbles are snobs; they do not care a button what they do to wealthy people. _(history_short_history_of_england.pdf (source-range-e5a81de4-00254))_
 - The advantage of "divine right," or irremovable legitimacy, is this; that there is a limit to the ambitions of the rich. _(history_short_history_of_england.pdf (source-range-e5a81de4-00254))_
@@ -2315,6 +2315,7 @@ _(source: history_short_history_of_england.pdf (source-range-e5a81de4-00400))_
 - They had a natural admiration for the military genius of Washington and Napoleon; they had the most unmixed contempt for the German Royal Family. _(history_short_history_of_england.pdf (source-range-e5a81de4-00410))_
 - That very wooden sign stood, in short, for the same thing as the juncture with Frederick the Great; it stood for that Anglo-German alliance which, at a very much later time in history, was to turn into the world-old Teutonic Race. _(history_short_history_of_england.pdf (source-range-e5a81de4-00411))_
 - There is a wrong-headed humour about the English which appears especially in this, that while they often (as in the case of Ireland) make themselves out right where they were entirely wrong, they are easily persuaded (as in the case of America) to make themselves out entirely wrong where there is at least a case for their having been more or less right. _(history_short_history_of_england.pdf (source-range-e5a81de4-00411))_
+- The Whig oligarchs had their faults, but utter lack of sympathy with liberty, especially local liberty, and with their adventurous kindred beyond the seas, was by no means one of their faults. _(history_short_history_of_england.pdf (source-range-e5a81de4-00411))_
 - It stood for that side of the Whig policy which Chatham showed when he was tolerant to America alone, but intolerant of America when allied with France. _(history_short_history_of_england.pdf (source-range-e5a81de4-00411))_
 - Even North compromised; and though George III., being a fool, might himself have refused to compromise, he had already failed to effect the Bolingbroke scheme of the restitution of the royal power. _(history_short_history_of_england.pdf (source-range-e5a81de4-00411))_
 - Chatham, the great chief of the new and very national noblesse , was typical of them in being free from the faintest illiberality and irritation against the colonies as such. _(history_short_history_of_england.pdf (source-range-e5a81de4-00411))_
@@ -2327,9 +2328,8 @@ _(source: history_short_history_of_england.pdf (source-range-e5a81de4-00400))_
 - It was certainly not self-evident, in the sense of law and precedent, that the imperial government could not lay taxes on such colonists. _(history_short_history_of_england.pdf (source-range-e5a81de4-00411))_
 - Nevertheless, the popular tradition, especially in America, has pictured it primarily as a duel of George III. _(history_short_history_of_england.pdf (source-range-e5a81de4-00411))_
 - The case for the Americans, the real reason for calling them right in the quarrel, was something much deeper than the quarrel. _(history_short_history_of_england.pdf (source-range-e5a81de4-00411))_
+- The Whig oligarchs had their faults, but utter lack of sympathy with liberty, especially local liberty, and with their adventurous kindred beyond the seas, was by no means one of their faults. _(history_short_history_of_england.pdf (source-range-e5a81de4-00411))_
 - Burke, who was then the eloquent voice of Whiggism, and was destined later to show how wholly it was a voice of aristocracy, went of course even further. _(history_short_history_of_england.pdf (source-range-e5a81de4-00411))_
-- The Whig oligarchs had their faults, but utter lack of sympathy with liberty, especially local liberty, and with their adventurous kindred beyond the seas, was by no means one of their faults. _(history_short_history_of_england.pdf (source-range-e5a81de4-00411))_
-- The Whig oligarchs had their faults, but utter lack of sympathy with liberty, especially local liberty, and with their adventurous kindred beyond the seas, was by no means one of their faults. _(history_short_history_of_england.pdf (source-range-e5a81de4-00411))_
 - The negative effect of so small a difference could never have changed the world, without the positive effect of a great ideal, one may say of a great new religion. _(history_short_history_of_england.pdf (source-range-e5a81de4-00412))_
 - England would probably have allowed the colonists all sorts of concessions and constitutional privileges; but England could not allow the colonists equality: I do not mean equality with her, but even with each other. _(history_short_history_of_england.pdf (source-range-e5a81de4-00412))_
 - Chatham might have compromised with Washington, because Washington was a gentleman; but Chatham could hardly have conceived a country not governed by gentlemen. _(history_short_history_of_england.pdf (source-range-e5a81de4-00412))_
