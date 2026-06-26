@@ -1,12 +1,12 @@
 ---
 page_id: rpg-dnd-srd-excerpt-weapon-proficiency
 page_kind: concept
-summary: Weapon Proficiency: 7 statement(s) and 4 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
+summary: Weapon Proficiency: 7 statement(s) and 3 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
 sources: raw/rpg_dnd_srd_excerpt.pdf
 updated: 2026-06-26
 domain: rpg-dnd-srd-excerpt
 category_path: concepts
-projection_coverage: topic-rpg-dnd-srd-excerpt-weapon-proficiency@bdf9e26d254be6154238e1bf97e131c7
+projection_coverage: topic-rpg-dnd-srd-excerpt-weapon-proficiency@a47b775cbe6dc0a5eb6d48cc73d2e921
 ---
 
 # Weapon Proficiency
@@ -15,24 +15,24 @@ What [[rpg-dnd-srd-excerpt]] covers about weapon proficiency:
 
 ## Statements
 
-- These weapons include clubs, maces, and other weapons often found in the hands of commoners. _(rpg_dnd_srd_excerpt.pdf (source-range-95e73d53-00504))_
-- Most people can use simple weapons with proficiency. _(rpg_dnd_srd_excerpt.pdf (source-range-95e73d53-00504))_
-- The two categories are simple and martial . _(rpg_dnd_srd_excerpt.pdf (source-range-95e73d53-00504))_
-- Your race, class, and feats can grant you proficiency with certain weapons or categories of weapons. _(rpg_dnd_srd_excerpt.pdf (source-range-95e73d53-00504))_
-- Most warriors use martial weapons because these weapons put their fighting style and training to best use. _(rpg_dnd_srd_excerpt.pdf (source-range-95e73d53-00504))_
-- Martial weapons, including swords, axes, and polearms, require more specialized training to use effectively. _(rpg_dnd_srd_excerpt.pdf (source-range-95e73d53-00504))_
-- Proficiency with a weapon allows you to add your proficiency bonus to the attack roll for any attack you make with that weapon. _(rpg_dnd_srd_excerpt.pdf (source-range-95e73d53-00505))_
+- Most people can use simple weapons with proficiency. _(rpg_dnd_srd_excerpt.pdf (source-range-b7d08967-00504))_
+- Martial weapons, including swords, axes, and polearms, require more specialized training to use effectively. _(rpg_dnd_srd_excerpt.pdf (source-range-b7d08967-00504))_
+- The two categories are simple and martial . _(rpg_dnd_srd_excerpt.pdf (source-range-b7d08967-00504))_
+- These weapons include clubs, maces, and other weapons often found in the hands of commoners. _(rpg_dnd_srd_excerpt.pdf (source-range-b7d08967-00504))_
+- Your race, class, and feats can grant you proficiency with certain weapons or categories of weapons. _(rpg_dnd_srd_excerpt.pdf (source-range-b7d08967-00504))_
+- Most warriors use martial weapons because these weapons put their fighting style and training to best use. _(rpg_dnd_srd_excerpt.pdf (source-range-b7d08967-00504))_
+- Proficiency with a weapon allows you to add your proficiency bonus to the attack roll for any attack you make with that weapon. _(rpg_dnd_srd_excerpt.pdf (source-range-b7d08967-00505))_
 
 ## Technical atoms
 
 > Context: Your race, class, and feats can grant you proficiency with certain weapons or categories of weapons. The two categories are simple and martial . Most people can use simple weapons with proficiency. These weapons include clubs, maces, and other weapons often found in the hands of commoners. Martial weapons, including swords, axes, and polearms, require more specialized training to use effectively. Most warriors use martial weapons because these weapons put their fighting style and training to best use.
-_(context: rpg_dnd_srd_excerpt.pdf (source-range-95e73d53-00504))_
+_(context: rpg_dnd_srd_excerpt.pdf (source-range-b7d08967-00504))_
 
 > If you make an attack roll using a weapon with which you lack proficiency, you do not add your proficiency bonus to the attack roll.
-_(source: rpg_dnd_srd_excerpt.pdf (source-range-95e73d53-00505))_
+_(source: rpg_dnd_srd_excerpt.pdf (source-range-b7d08967-00505))_
 
 > Context: Proficiency with a weapon allows you to add your proficiency bonus to the attack roll for any attack you make with that weapon. If you make an attack roll using a weapon with which you lack proficiency, you do not add your proficiency bonus to the attack roll.
-_(context: rpg_dnd_srd_excerpt.pdf (source-range-95e73d53-00505))_
+_(context: rpg_dnd_srd_excerpt.pdf (source-range-b7d08967-00505))_
 
 | Table- Donning | and Doﬀing | Armor |
 | --- | --- | --- |
@@ -55,35 +55,10 @@ Table- Donning   and Doﬀing   Armor
 ```
 
 </details>
-_(source: rpg_dnd_srd_excerpt.pdf (source-range-95e73d53-00506))_
-
-> Context: Proficiency with a weapon allows you to add your proficiency bonus to the attack roll for any attack you make with that weapon. If you make an attack roll using a weapon with which you lack proficiency, you do not add your proficiency bonus to the attack roll.
-_(context: rpg_dnd_srd_excerpt.pdf (source-range-95e73d53-00505))_
-
-| Category | Don | Doff |
-| --- | --- | --- |
-| LightArmor | 1minute | 1minute |
-| MediumArmor | 5minutes | 1minute |
-| HeavyArmor | 10minutes | 5minutes |
-| Shield | 1action | 1action |
-
-<details>
-<summary>Raw table text</summary>
-
-```
-| Category | Don | Doff |
-| --- | --- | --- |
-| LightArmor | 1minute | 1minute |
-| MediumArmor | 5minutes | 1minute |
-| HeavyArmor | 10minutes | 5minutes |
-| Shield | 1action | 1action |
-```
-
-</details>
-_(source: rpg_dnd_srd_excerpt.pdf (source-range-95e73d53-00507))_
+_(source: rpg_dnd_srd_excerpt.pdf (source-range-b7d08967-00506))_
 
 > Context: When you use an action, bonus action, or reaction to attack with a net, you can make only one attack regardless of the number of attacks you can normally make.
-_(context: rpg_dnd_srd_excerpt.pdf (source-range-95e73d53-00532))_
+_(context: rpg_dnd_srd_excerpt.pdf (source-range-b7d08967-00531))_
 
 | Name | Cost | Damage | Weight | Properties |
 | --- | --- | --- | --- | --- |
@@ -130,7 +105,7 @@ Table- Weapons
 ```
 
 </details>
-_(source: rpg_dnd_srd_excerpt.pdf (source-range-95e73d53-00533))_
+_(source: rpg_dnd_srd_excerpt.pdf (source-range-b7d08967-00532))_
 
 
 ## Source

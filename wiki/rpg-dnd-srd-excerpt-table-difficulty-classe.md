@@ -6,7 +6,7 @@ sources: raw/rpg_dnd_srd_excerpt.pdf
 updated: 2026-06-26
 domain: rpg-dnd-srd-excerpt
 category_path: concepts
-projection_coverage: topic-rpg-dnd-srd-excerpt-table-difficulty-classe@bd10bc7a9d99b725fb3774d28311edc3
+projection_coverage: topic-rpg-dnd-srd-excerpt-table-difficulty-classe@d5a237da45caa701fa6ef428ee23bc80
 ---
 
 # Table- Difficulty Classes
@@ -15,10 +15,10 @@ What [[rpg-dnd-srd-excerpt]] covers about table- difficulty classes:
 
 ## Statements
 
-- To make an ability check, roll a d20 and add the relevant ability modifier. _(rpg_dnd_srd_excerpt.pdf (source-range-95e73d53-00095))_
-- If the total equals or exceeds the DC, the ability check is a success-the creature overcomes the challenge at hand. _(rpg_dnd_srd_excerpt.pdf (source-range-95e73d53-00095))_
-- As with other d20 rolls, apply bonuses and penalties, and compare the total to the DC. _(rpg_dnd_srd_excerpt.pdf (source-range-95e73d53-00095))_
-- Otherwise, it's a failure, which means the character or monster makes no progress toward the objective or makes progress combined with a setback determined by the GM. _(rpg_dnd_srd_excerpt.pdf (source-range-95e73d53-00095))_
+- As with other d20 rolls, apply bonuses and penalties, and compare the total to the DC. _(rpg_dnd_srd_excerpt.pdf (source-range-b7d08967-00095))_
+- To make an ability check, roll a d20 and add the relevant ability modifier. _(rpg_dnd_srd_excerpt.pdf (source-range-b7d08967-00095))_
+- Otherwise, it's a failure, which means the character or monster makes no progress toward the objective or makes progress combined with a setback determined by the GM. _(rpg_dnd_srd_excerpt.pdf (source-range-b7d08967-00095))_
+- If the total equals or exceeds the DC, the ability check is a success-the creature overcomes the challenge at hand. _(rpg_dnd_srd_excerpt.pdf (source-range-b7d08967-00095))_
 
 ## Technical atoms
 
@@ -47,10 +47,10 @@ Table- Diﬀiculty  Classes
 ```
 
 </details>
-_(source: rpg_dnd_srd_excerpt.pdf (source-range-95e73d53-00097))_
+_(source: rpg_dnd_srd_excerpt.pdf (source-range-b7d08967-00097))_
 
 > Context: The skills related to each ability score are shown in the following list. (No skills are related to Constitution.) See an ability's description in the later sections of this section for examples of how to use a skill associated with an ability.
-_(context: rpg_dnd_srd_excerpt.pdf (source-range-95e73d53-00104))_
+_(context: rpg_dnd_srd_excerpt.pdf (source-range-b7d08967-00104))_
 
 | Table- Related | Skills |
 | --- | --- |
@@ -70,10 +70,10 @@ Table- Related  Skills
 ```
 
 </details>
-_(source: rpg_dnd_srd_excerpt.pdf (source-range-95e73d53-00105))_
+_(source: rpg_dnd_srd_excerpt.pdf (source-range-b7d08967-00105))_
 
 > Context: Each creature takes up a different amount of space. The Size Categories table shows how much space a creature of a particular size controls in combat. Objects sometimes use the same size categories.
-_(context: rpg_dnd_srd_excerpt.pdf (source-range-95e73d53-00314))_
+_(context: rpg_dnd_srd_excerpt.pdf (source-range-b7d08967-00314))_
 
 | Table- Creature | Size |
 | --- | --- |
@@ -100,7 +100,7 @@ Table- Creature  Size
 ```
 
 </details>
-_(source: rpg_dnd_srd_excerpt.pdf (source-range-95e73d53-00315))_
+_(source: rpg_dnd_srd_excerpt.pdf (source-range-b7d08967-00315))_
 
 | Armor | Cost | Class | Strength | Stealth | Weight |
 | --- | --- | --- | --- | --- | --- |
@@ -177,10 +177,10 @@ Table- Armor
 ```
 
 </details>
-_(source: rpg_dnd_srd_excerpt.pdf (source-range-95e73d53-00493))_
+_(source: rpg_dnd_srd_excerpt.pdf (source-range-b7d08967-00493))_
 
 > Context: Proficiency with a weapon allows you to add your proficiency bonus to the attack roll for any attack you make with that weapon. If you make an attack roll using a weapon with which you lack proficiency, you do not add your proficiency bonus to the attack roll.
-_(context: rpg_dnd_srd_excerpt.pdf (source-range-95e73d53-00505))_
+_(context: rpg_dnd_srd_excerpt.pdf (source-range-b7d08967-00505))_
 
 | Table- Donning | and Doﬀing | Armor |
 | --- | --- | --- |
@@ -203,10 +203,10 @@ Table- Donning   and Doﬀing   Armor
 ```
 
 </details>
-_(source: rpg_dnd_srd_excerpt.pdf (source-range-95e73d53-00506))_
+_(source: rpg_dnd_srd_excerpt.pdf (source-range-b7d08967-00506))_
 
 > Context: When you use an action, bonus action, or reaction to attack with a net, you can make only one attack regardless of the number of attacks you can normally make.
-_(context: rpg_dnd_srd_excerpt.pdf (source-range-95e73d53-00532))_
+_(context: rpg_dnd_srd_excerpt.pdf (source-range-b7d08967-00531))_
 
 | Name | Cost | Damage | Weight | Properties |
 | --- | --- | --- | --- | --- |
@@ -253,7 +253,7 @@ Table- Weapons
 ```
 
 </details>
-_(source: rpg_dnd_srd_excerpt.pdf (source-range-95e73d53-00533))_
+_(source: rpg_dnd_srd_excerpt.pdf (source-range-b7d08967-00532))_
 
 
 ## Source

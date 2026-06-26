@@ -605,3 +605,45 @@ Claim-ledger ingest of raw/history_short_history_of_england.pdf (49 chunk(s)).
 Claim-ledger projection (general-prose): 2331 usable entries, 40 technical atoms, 111 needs-review, 55 linked page(s); write decision write-with-review-work.
 Source page: [[history-short-history-of-england]]; linked pages: 55. Ledger artifacts: /Users/DSerbarinov/llm-wiki/harness/.cache/page-plans/history-short-history-of-england-204daea7b552/ledger.
 Ingest confidence: passed. Report filed as [[wiki-ingest-confidence]].
+
+## [2026-06-26] ingest | rpg_cairn_2e_core.pdf
+Claim-ledger ingest of raw/rpg_cairn_2e_core.pdf (187 chunk(s)).
+Claim-ledger projection (general-prose): 674 usable entries, 87 technical atoms, 174 needs-review, 165 linked page(s); write decision write-with-review-work.
+Source page: [[rpg-cairn-2e-core]]; linked pages: 165. Ledger artifacts: /Users/DSerbarinov/llm-wiki/harness/.cache/page-plans/rpg-cairn-2e-core-fa06f8c4cd9f/ledger.
+Ingest confidence: passed. Report filed as [[wiki-ingest-confidence]].
+
+## [2026-06-26] ingest | rpg_dnd_srd_excerpt.pdf
+Claim-ledger ingest of raw/rpg_dnd_srd_excerpt.pdf (146 chunk(s)).
+Claim-ledger projection (general-prose): 740 usable entries, 129 technical atoms, 151 needs-review, 164 linked page(s); write decision write-with-review-work.
+Source page: [[rpg-dnd-srd-excerpt]]; linked pages: 164. Ledger artifacts: /Users/DSerbarinov/llm-wiki/harness/.cache/page-plans/rpg-dnd-srd-excerpt-f7c05ef0468a/ledger.
+Ingest confidence: passed. Report filed as [[wiki-ingest-confidence]].
+
+## [2026-06-26] ingest | rpg_cairn_2e_core.pdf
+Claim-ledger ingest of raw/rpg_cairn_2e_core.pdf (187 chunk(s)).
+Claim-ledger projection (general-prose): 674 usable entries, 87 technical atoms, 174 needs-review, 165 linked page(s); write decision write-with-review-work.
+Source page: [[rpg-cairn-2e-core]]; linked pages: 165. Ledger artifacts: /Users/DSerbarinov/llm-wiki/harness/.cache/page-plans/rpg-cairn-2e-core-fa06f8c4cd9f/ledger.
+Ingest confidence: passed. Report filed as [[wiki-ingest-confidence]].
+
+## [2026-06-26] ingest | rpg_dnd_srd_excerpt.pdf
+Claim-ledger ingest of raw/rpg_dnd_srd_excerpt.pdf (146 chunk(s)).
+Claim-ledger projection (general-prose): 738 usable entries, 127 technical atoms, 151 needs-review, 164 linked page(s); write decision write-with-review-work.
+Source page: [[rpg-dnd-srd-excerpt]]; linked pages: 164. Ledger artifacts: /Users/DSerbarinov/llm-wiki/harness/.cache/page-plans/rpg-dnd-srd-excerpt-f7c05ef0468a/ledger.
+Ingest confidence: passed. Report filed as [[wiki-ingest-confidence]].
+
+## [2026-06-26] ingest | rpg_cairn_2e_core.pdf
+Claim-ledger ingest of raw/rpg_cairn_2e_core.pdf (187 chunk(s)).
+Claim-ledger projection (general-prose): 668 usable entries, 81 technical atoms, 174 needs-review, 166 linked page(s); write decision write-with-review-work.
+Source page: [[rpg-cairn-2e-core]]; linked pages: 166. Ledger artifacts: /Users/DSerbarinov/llm-wiki/harness/.cache/page-plans/rpg-cairn-2e-core-fa06f8c4cd9f/ledger.
+Ingest confidence: passed. Report filed as [[wiki-ingest-confidence]].
+
+## [2026-06-26] ingest | rpg_dnd_srd_excerpt.pdf
+Claim-ledger ingest of raw/rpg_dnd_srd_excerpt.pdf (146 chunk(s)).
+Claim-ledger projection (general-prose): 738 usable entries, 127 technical atoms, 151 needs-review, 164 linked page(s); write decision write-with-review-work.
+Source page: [[rpg-dnd-srd-excerpt]]; linked pages: 164. Ledger artifacts: /Users/DSerbarinov/llm-wiki/harness/.cache/page-plans/rpg-dnd-srd-excerpt-f7c05ef0468a/ledger.
+Ingest confidence: passed. Report filed as [[wiki-ingest-confidence]].
+
+## [2026-06-26] ingest | rpg_cairn_2e_core.pdf
+Claim-ledger ingest of raw/rpg_cairn_2e_core.pdf (187 chunk(s)).
+Claim-ledger projection (general-prose): 669 usable entries, 82 technical atoms, 174 needs-review, 166 linked page(s); write decision write-with-review-work.
+Source page: [[rpg-cairn-2e-core]]; linked pages: 166. Ledger artifacts: /Users/DSerbarinov/llm-wiki/harness/.cache/page-plans/rpg-cairn-2e-core-fa06f8c4cd9f/ledger.
+Ingest confidence: passed. Report filed as [[wiki-ingest-confidence]].

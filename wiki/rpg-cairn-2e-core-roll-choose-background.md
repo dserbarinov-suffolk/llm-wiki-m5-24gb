@@ -6,7 +6,7 @@ sources: raw/rpg_cairn_2e_core.pdf
 updated: 2026-06-26
 domain: rpg-cairn-2e-core
 category_path: concepts
-projection_coverage: topic-rpg-cairn-2e-core-roll-choose-background@3664c8dc14586749a4e3a0383b456066
+projection_coverage: topic-rpg-cairn-2e-core-roll-choose-background@9d8cf10d71e50094a71372a9a7aeaebf
 ---
 
 # Roll or choose a Background
@@ -15,10 +15,10 @@ What [[rpg-cairn-2e-core]] covers about roll or choose a background:
 
 ## Statements
 
-- You will refer to that page for the next few steps. _(rpg_cairn_2e_core.pdf (source-range-bc2972ae-00091))_
-- First, roll or choose from the Backgrounds table below and note the page number. _(rpg_cairn_2e_core.pdf (source-range-bc2972ae-00091))_
-- Some backgrounds may ask you to refer to the tables in the Marketplace as well. _(rpg_cairn_2e_core.pdf (source-range-bc2972ae-00093))_
-- Roll on each of the included tables in the background. _(rpg_cairn_2e_core.pdf (source-range-bc2972ae-00093))_
+- You will refer to that page for the next few steps. _(rpg_cairn_2e_core.pdf (source-range-ad2c341f-00091))_
+- First, roll or choose from the Backgrounds table below and note the page number. _(rpg_cairn_2e_core.pdf (source-range-ad2c341f-00091))_
+- Roll on each of the included tables in the background. _(rpg_cairn_2e_core.pdf (source-range-ad2c341f-00093))_
+- Some backgrounds may ask you to refer to the tables in the Marketplace as well. _(rpg_cairn_2e_core.pdf (source-range-ad2c341f-00093))_
 
 ## Technical atoms
 
@@ -59,91 +59,58 @@ Doomed:	Death	seemed	ever	so	close,	but	somehow	you
 ```
 
 </details>
-_(source: rpg_cairn_2e_core.pdf (source-range-bc2972ae-00240))_
+_(source: rpg_cairn_2e_core.pdf (source-range-ad2c341f-00239))_
 
-```
-| 1 | Encounter | Rollonanencountertable Possiblyhostile
-. .
-(SeeReactions)
-. |
-| --- | --- | --- |
-| 2 | Sign | Aclue spoor track abandonedlair scent
-, , , , ,
-victim etcisdiscovered
-, . |
-| 3 | Environment | Surroundingsshiftorescalate Waterrises
-. ,
-ceilingscollapse aritualnearscompletion etc
-, , . |
-|  |  | Torchesareblownout anongoingspellfizzles
-, , |
-| 4 | Loss | etc Thepartymustresolvetheeffectbefore
-. |
-|  |  | movingon
-. |
-| 5 | Exhaustion | Thepartymustrest(triggeringanotherrollon
-thistable) addaFatigue orconsumearation
-, , . |
-| 6 | Quiet | Thepartyisleftalone(andsafe)forthetime
-being
-. |
-```
-_(source: rpg_cairn_2e_core.pdf (source-range-bc2972ae-00289))_
-
-| column 1 | column 2 | Rollonanencountertableforthatterraintype |
-| --- | --- | --- |
-| 1 | Encounter | orlocation Don'tforgettorollforNPCreactions |
-| . |  |  |
-|  |  | ifapplicable |
-| . |  |  |
-|  |  | Thepartydiscoversaclue spoor orindication |
-| , , |  |  |
-| 2 | Sign | ofanearbyencounter locality hiddenfeature |
-| , , , |  |  |
-|  |  | orinformationaboutanearbyarea |
-| . |  |  |
-| 3 | Environment | Ashiftinweatherorterrain |
-| . |  |  |
-| 4 | Loss | Thepartyisfacedwithachoicethatcoststhem |
-| , , , , . |  |  |
-|  |  | Thepartyencountersabarrier forcingeffort |
-| , , |  |  |
-|  |  | careordelays Thismightmeanspendingextra |
-| . |  |  |
-| 5 | Exhaustion | time(andanadditionalWilderness Action)or |
-|  |  | addingFatiguetothePC'sinventoryto |
+| entry | content |
+| --- | --- |
+| 1 | Encounter Roll on an encounter table. Possibly hostile. (See Reactions.) |
+| 2 | Sign A clue, spoor, track, abandoned lair, scent, victim, etc is discovered. |
+| 3 | Environment Surroundings shift or escalate. Water rises, ceilings collapse, a ritual nears completion, etc. |
+| 4 | Loss Torches are blown out, an ongoing spell ﬁzzles, etc. The party must resolve the eﬀect before moving on. |
+| 5 | Exhaustion The party must rest (triggering another roll on this table), add a Fatigue, or consume a ration. |
+| 6 | Quiet The party is left alone (and safe) for the time being. |
 
 <details>
 <summary>Raw table text</summary>
 
 ```
-|  |  | Rollonanencountertableforthatterraintype |
-| --- | --- | --- |
-| 1 | Encounter | orlocation Don'tforgettorollforNPCreactions
-. |
-|  |  | ifapplicable
-. |
-|  |  | Thepartydiscoversaclue spoor orindication
-, , |
-| 2 | Sign | ofanearbyencounter locality hiddenfeature
-, , , |
-|  |  | orinformationaboutanearbyarea
-. |
-| 3 | Environment | Ashiftinweatherorterrain
-. |
-| 4 | Loss | Thepartyisfacedwithachoicethatcoststhem
-aresource(rations tools etc) time oreffort
-, , , , . |
-|  |  | Thepartyencountersabarrier forcingeffort
-, , |
-|  |  | careordelays Thismightmeanspendingextra
-. |
-| 5 | Exhaustion | time(andanadditionalWilderness Action)or |
-|  |  | addingFatiguetothePC'sinventoryto |
+Roll on the table below.
+1 Encounter Roll on an encounter table. Possibly hostile. (See Reactions.)
+2 Sign A clue, spoor, track, abandoned lair, scent, victim, etc is discovered.
+3 Environment Surroundings shift or escalate. Water rises, ceilings collapse, a ritual nears completion, etc.
+4 Loss Torches are blown out, an ongoing spell ﬁzzles, etc. The party must resolve the eﬀect before moving on.
+5 Exhaustion The party must rest (triggering another roll on this table), add a Fatigue, or consume a ration.
+6 Quiet The party is left alone (and safe) for the time being.
 ```
 
 </details>
-_(source: rpg_cairn_2e_core.pdf (source-range-bc2972ae-00334))_
+_(source: rpg_cairn_2e_core.pdf (source-range-ad2c341f-00274))_
+
+| entry | content |
+| --- | --- |
+| 1 | Encounter or location. Don't forget to roll for NPC reactions if applicable. |
+| 2 | Sign The party discovers a clue, spoor, or indication of a nearby encounter, locality, hidden feature, or information about a nearby area. |
+| 3 | Environment A shift in weather or terrain. |
+| 4 | Loss The party is faced with a choice that costs them a resource (rations, tools, etc), time, or eﬀort. |
+| 5 | Exhaustion The party encounters a barrier, forcing eﬀort, care or delays. This might mean spending extra time (and an additional Wilderness Action) or adding Fatigue to the PC's inventory to represent their diﬀiculties. |
+| 6 | Discovery The party ﬁnds food, treasure, or other useful resources. The Warden can instead choose to reveal the primary feature of the area. |
+
+<details>
+<summary>Raw table text</summary>
+
+```
+Wilderness Events
+Roll on an encounter table for that terrain type
+1 Encounter or location. Don't forget to roll for NPC reactions if applicable.
+2 Sign The party discovers a clue, spoor, or indication of a nearby encounter, locality, hidden feature, or information about a nearby area.
+3 Environment A shift in weather or terrain.
+4 Loss The party is faced with a choice that costs them a resource (rations, tools, etc), time, or eﬀort.
+5 Exhaustion The party encounters a barrier, forcing eﬀort, care or delays. This might mean spending extra time (and an additional Wilderness Action) or adding Fatigue to the PC's inventory to represent their diﬀiculties.
+6 Discovery The party ﬁnds food, treasure, or other useful resources. The Warden can instead choose to reveal the primary feature of the area.
+```
+
+</details>
+_(source: rpg_cairn_2e_core.pdf (source-range-ad2c341f-00330))_
 
 
 ## Source

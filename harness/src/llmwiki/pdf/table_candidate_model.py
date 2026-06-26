@@ -13,3 +13,5 @@ class TableCandidate:
     y0: float
     raw_text: str
     extractor_stage: str
+    anchor_text: str = ""
+    insert_after_anchor: bool = False

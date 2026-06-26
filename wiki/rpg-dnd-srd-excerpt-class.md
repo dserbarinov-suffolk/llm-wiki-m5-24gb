@@ -6,7 +6,7 @@ sources: raw/rpg_dnd_srd_excerpt.pdf
 updated: 2026-06-26
 domain: rpg-dnd-srd-excerpt
 category_path: concepts
-projection_coverage: topic-rpg-dnd-srd-excerpt-class@fd7eb4d389eca6f5431d04dee1f5a123
+projection_coverage: topic-rpg-dnd-srd-excerpt-class@c5e8f8295ae2b14034cde7188fc6349e
 ---
 
 # Class
@@ -15,26 +15,26 @@ What [[rpg-dnd-srd-excerpt]] covers about class:
 
 ## Statements
 
-- The Typical Difficulty Classes table shows the most common DCs. _(rpg_dnd_srd_excerpt.pdf (source-range-95e73d53-00093))_
-- Each class gives proficiency in at least two saving throws. _(rpg_dnd_srd_excerpt.pdf (source-range-95e73d53-00236))_
-- Many class features and other abilities provide additional options for your action. _(rpg_dnd_srd_excerpt.pdf (source-range-95e73d53-00254))_
-- Your class gives you proficiency with certain types of armor. _(rpg_dnd_srd_excerpt.pdf (source-range-95e73d53-00475))_
-- Your class grants proficiency in certain weapons, reflecting both the class's focus and the tools you are most likely to use. _(rpg_dnd_srd_excerpt.pdf (source-range-95e73d53-00501))_
-- Your race, class, and feats can grant you proficiency with certain weapons or categories of weapons. _(rpg_dnd_srd_excerpt.pdf (source-range-95e73d53-00504))_
+- The Typical Difficulty Classes table shows the most common DCs. _(rpg_dnd_srd_excerpt.pdf (source-range-b7d08967-00093))_
+- Each class gives proficiency in at least two saving throws. _(rpg_dnd_srd_excerpt.pdf (source-range-b7d08967-00236))_
+- Many class features and other abilities provide additional options for your action. _(rpg_dnd_srd_excerpt.pdf (source-range-b7d08967-00254))_
+- Your class gives you proficiency with certain types of armor. _(rpg_dnd_srd_excerpt.pdf (source-range-b7d08967-00475))_
+- Your class grants proficiency in certain weapons, reflecting both the class's focus and the tools you are most likely to use. _(rpg_dnd_srd_excerpt.pdf (source-range-b7d08967-00501))_
+- Your race, class, and feats can grant you proficiency with certain weapons or categories of weapons. _(rpg_dnd_srd_excerpt.pdf (source-range-b7d08967-00504))_
 
 ## Technical atoms
 
 > Context: Armor Proficiency . Anyone can put on a suit of armor or strap a shield to an arm. Only those proficient in the armor's use know how to wear it effectively, however. Your class gives you proficiency with certain types of armor. If you wear armor that you lack proficiency with, you have disadvantage on any ability check, saving throw, or attack roll that involves Strength or Dexterity, and you can't cast spells.
-_(context: rpg_dnd_srd_excerpt.pdf (source-range-95e73d53-00475))_
+_(context: rpg_dnd_srd_excerpt.pdf (source-range-b7d08967-00475))_
 
 > If the Armor table shows "Str 13" or "Str 15" in the Strength column for an armor type, the armor reduces the wearer's speed by 10 feet unless the wearer has a Strength score equal to or higher than the listed score.
-_(source: rpg_dnd_srd_excerpt.pdf (source-range-95e73d53-00477))_
+_(source: rpg_dnd_srd_excerpt.pdf (source-range-b7d08967-00477))_
 
 > Context: Your race, class, and feats can grant you proficiency with certain weapons or categories of weapons. The two categories are simple and martial . Most people can use simple weapons with proficiency. These weapons include clubs, maces, and other weapons often found in the hands of commoners. Martial weapons, including swords, axes, and polearms, require more specialized training to use effectively. Most warriors use martial weapons because these weapons put their fighting style and training to best use.
-_(context: rpg_dnd_srd_excerpt.pdf (source-range-95e73d53-00504))_
+_(context: rpg_dnd_srd_excerpt.pdf (source-range-b7d08967-00504))_
 
 > If you make an attack roll using a weapon with which you lack proficiency, you do not add your proficiency bonus to the attack roll.
-_(source: rpg_dnd_srd_excerpt.pdf (source-range-95e73d53-00505))_
+_(source: rpg_dnd_srd_excerpt.pdf (source-range-b7d08967-00505))_
 
 | Table- Diﬀiculty | Classes |
 | --- | --- |
@@ -61,7 +61,7 @@ Table- Diﬀiculty  Classes
 ```
 
 </details>
-_(source: rpg_dnd_srd_excerpt.pdf (source-range-95e73d53-00097))_
+_(source: rpg_dnd_srd_excerpt.pdf (source-range-b7d08967-00097))_
 
 | Armor | Cost | Class | Strength | Stealth | Weight |
 | --- | --- | --- | --- | --- | --- |
@@ -138,7 +138,7 @@ Table- Armor
 ```
 
 </details>
-_(source: rpg_dnd_srd_excerpt.pdf (source-range-95e73d53-00493))_
+_(source: rpg_dnd_srd_excerpt.pdf (source-range-b7d08967-00493))_
 
 
 ## Source

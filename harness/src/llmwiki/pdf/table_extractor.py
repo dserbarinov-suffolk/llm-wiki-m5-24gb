@@ -19,7 +19,7 @@ def enrich_document_model_with_tables(pdf_path: Path, model: DocumentModel) -> D
     insertions: dict[int, list[DocumentElement]] = {}
     skip_ids: set[str] = set()
     for offset, candidate in enumerate(candidates, start=1):
-        index = _caption_element_index(elements, candidate)
+        index = _anchor_element_index(elements, candidate)
         heading_path = _heading_path_for_candidate(elements, index, candidate)
         element = DocumentElement(
             element_id=f"fallback-table-{offset:06d}",
@@ -31,9 +31,9 @@ def enrich_document_model_with_tables(pdf_path: Path, model: DocumentModel) -> D
             text=candidate.raw_text,
             markdown=candidate.raw_text,
         )
-        insert_at = index if index is not None else _page_insert_index(elements, candidate)
+        insert_at = _insert_index(elements, index, candidate)
         insertions.setdefault(insert_at, []).append(element)
-        if index is not None:
+        if index is not None and not candidate.insert_after_anchor:
             skip_ids.update(_degraded_fragment_ids(elements, index, candidate))
 
     enriched: list[DocumentElement] = []
@@ -52,16 +52,17 @@ def enrich_document_model_with_tables(pdf_path: Path, model: DocumentModel) -> D
     )
 
 
-def _caption_element_index(
-    elements: list[DocumentElement], candidate: TableCandidate
-) -> int | None:
-    caption_key = _norm(candidate.caption)
+def _anchor_element_index(elements: list[DocumentElement], candidate: TableCandidate) -> int | None:
+    anchor = candidate.anchor_text or candidate.caption
+    if not anchor:
+        return None
+    anchor_key = _norm(anchor)
     for index, element in enumerate(elements):
         if element.page_start != candidate.page_start:
             continue
         if element.element_kind not in {"paragraph", "heading"}:
             continue
-        if _norm(element.text) == caption_key:
+        if _norm(element.text) == anchor_key:
             return index
     return None
 
@@ -82,6 +83,14 @@ def _page_insert_index(elements: list[DocumentElement], candidate: TableCandidat
         if element.page_start > candidate.page_start:
             return index
     return len(elements)
+
+
+def _insert_index(
+    elements: list[DocumentElement], index: int | None, candidate: TableCandidate
+) -> int:
+    if index is None:
+        return _page_insert_index(elements, candidate)
+    return index + 1 if candidate.insert_after_anchor else index
 
 
 def _degraded_fragment_ids(

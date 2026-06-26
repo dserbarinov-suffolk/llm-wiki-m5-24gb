@@ -6,7 +6,7 @@ sources: raw/rpg_cairn_2e_core.pdf
 updated: 2026-06-26
 domain: rpg-cairn-2e-core
 category_path: concepts
-projection_coverage: topic-rpg-cairn-2e-core-wilderness-exploration-cycle@300442747c9e11fc63349a040c92d664
+projection_coverage: topic-rpg-cairn-2e-core-wilderness-exploration-cycle@7ee6087febb2768e5b6d3df218c7824e
 ---
 
 # Wilderness Exploration Cycle
@@ -15,143 +15,71 @@ What [[rpg-cairn-2e-core]] covers about wilderness exploration cycle:
 
 ## Statements
 
-- The Warden describes the current point or region on the map and how the path, weather, terrain, or party status might affect travel speed . _(rpg_cairn_2e_core.pdf (source-range-bc2972ae-00329))_
-- The Warden narrates the results and then rolls on the Wilderness Events table. _(rpg_cairn_2e_core.pdf (source-range-bc2972ae-00330))_
-- torch use, deprivation , etc), and the cycle repeats. _(rpg_cairn_2e_core.pdf (source-range-bc2972ae-00331))_
+- The Warden describes the current point or region on the map and how the path, weather, terrain, or party status might affect travel speed . _(rpg_cairn_2e_core.pdf (source-range-ad2c341f-00327))_
+- The Warden narrates the results and then rolls on the Wilderness Events table. _(rpg_cairn_2e_core.pdf (source-range-ad2c341f-00328))_
+- torch use, deprivation , etc), and the cycle repeats. _(rpg_cairn_2e_core.pdf (source-range-ad2c341f-00329))_
 
 ## Technical atoms
 
-| Weather | Effect | Examples |
-| --- | --- | --- |
-| Nice | Favorableconditionsfor |  |
-| . | Clearskies sunny |  |
-| , |  |  |
-| Fair | Favorableconditionsfor |  |
-| . | Overcast breezy |  |
-| , |  |  |
-| Unpleasant | AddaFatigueoraddone |  |
-| . | Gustingwinds rain |  |
-| , |  |  |
-|  | AddaFatigueoradd+1 | Thunderstorms |
-| , |  |  |
-| Inclement | watch Increaseterrain |  |
-| . | lightning rain |  |
-| , , |  |  |
-|  | Difficultybyastep |  |
-| . | muddyground |  |
-|  | AddaFatigueandadd+1 | Blizzards freezing |
-| , |  |  |
-| Extreme | watch Increaseterrain |  |
-| . | winds flooding mud |  |
-| , , |  |  |
-|  | Difficultybyastep |  |
-| . | slides |  |
-| Catastrophic | Mostpartiescannottravel |  |
-| . | Tornados tidal |  |
-| volcaniceruption |  |  |
+| entry | content |
+| --- | --- |
+| 1 | Encounter or location. Don't forget to roll for NPC reactions if applicable. |
+| 2 | Sign The party discovers a clue, spoor, or indication of a nearby encounter, locality, hidden feature, or information about a nearby area. |
+| 3 | Environment A shift in weather or terrain. |
+| 4 | Loss The party is faced with a choice that costs them a resource (rations, tools, etc), time, or eﬀort. |
+| 5 | Exhaustion The party encounters a barrier, forcing eﬀort, care or delays. This might mean spending extra time (and an additional Wilderness Action) or adding Fatigue to the PC's inventory to represent their diﬀiculties. |
+| 6 | Discovery The party ﬁnds food, treasure, or other useful resources. The Warden can instead choose to reveal the primary feature of the area. |
 
 <details>
 <summary>Raw table text</summary>
 
 ```
-| Weather | Effect | Examples |
-| --- | --- | --- |
-| Nice | Favorableconditionsfor
-travel
-. | Clearskies sunny
-, |
-| Fair | Favorableconditionsfor
-travel
-. | Overcast breezy
-, |
-| Unpleasant | AddaFatigueoraddone
-watchtothejourney
-. | Gustingwinds rain
-,
-showers sweltering
-,
-heat chillair
-, |
-|  | AddaFatigueoradd+1 | Thunderstorms
-, |
-| Inclement | watch Increaseterrain
-. | lightning rain
-, , |
-|  | Difficultybyastep
-. | muddyground |
-|  | AddaFatigueandadd+1 | Blizzards freezing
-, |
-| Extreme | watch Increaseterrain
-. | winds flooding mud
-, , |
-|  | Difficultybyastep
-. | slides |
-| Catastrophic | Mostpartiescannottravel
-undertheseconditions
-. | Tornados tidal
-,
-waves hurricane
-, ,
-volcaniceruption |
+Wilderness Events
+Roll on an encounter table for that terrain type
+1 Encounter or location. Don't forget to roll for NPC reactions if applicable.
+2 Sign The party discovers a clue, spoor, or indication of a nearby encounter, locality, hidden feature, or information about a nearby area.
+3 Environment A shift in weather or terrain.
+4 Loss The party is faced with a choice that costs them a resource (rations, tools, etc), time, or eﬀort.
+5 Exhaustion The party encounters a barrier, forcing eﬀort, care or delays. This might mean spending extra time (and an additional Wilderness Action) or adding Fatigue to the PC's inventory to represent their diﬀiculties.
+6 Discovery The party ﬁnds food, treasure, or other useful resources. The Warden can instead choose to reveal the primary feature of the area.
 ```
 
 </details>
-_(source: rpg_cairn_2e_core.pdf (source-range-bc2972ae-00333))_
+_(source: rpg_cairn_2e_core.pdf (source-range-ad2c341f-00330))_
 
-| column 1 | column 2 | Rollonanencountertableforthatterraintype |
+| Weather | Eﬀect | Examples |
 | --- | --- | --- |
-| 1 | Encounter | orlocation Don'tforgettorollforNPCreactions |
-| . |  |  |
-|  |  | ifapplicable |
-| . |  |  |
-|  |  | Thepartydiscoversaclue spoor orindication |
-| , , |  |  |
-| 2 | Sign | ofanearbyencounter locality hiddenfeature |
-| , , , |  |  |
-|  |  | orinformationaboutanearbyarea |
-| . |  |  |
-| 3 | Environment | Ashiftinweatherorterrain |
-| . |  |  |
-| 4 | Loss | Thepartyisfacedwithachoicethatcoststhem |
-| , , , , . |  |  |
-|  |  | Thepartyencountersabarrier forcingeffort |
-| , , |  |  |
-|  |  | careordelays Thismightmeanspendingextra |
-| . |  |  |
-| 5 | Exhaustion | time(andanadditionalWilderness Action)or |
-|  |  | addingFatiguetothePC'sinventoryto |
+| Nice | Favorable conditions for travel. | Clear skies, sunny |
+| Fair | Favorable conditions for travel. | Overcast, breezy |
+| Unpleasant | Add a Fatigue or add one watch to the journey. | Gusting winds, rain showers, sweltering heat, chill air |
+|  | Add a Fatigue or add +1 | Thunderstorms, |
+| Inclement | watch. Increase terrain | lightning, rain, |
+|  | Diﬀiculty by a step. | muddy ground |
+|  | Add a Fatigue and add +1 | Blizzards, freezing |
+| Extreme | watch. Increase terrain | winds, ﬂooding, mud |
+|  | Diﬀiculty by a step. | slides |
+| Catastrophic | Most parties cannot travel under these conditions. | Tornados, tidal waves, hurricane, volcanic eruption |
 
 <details>
 <summary>Raw table text</summary>
 
 ```
-|  |  | Rollonanencountertableforthatterraintype |
+| Weather | Eﬀect | Examples |
 | --- | --- | --- |
-| 1 | Encounter | orlocation Don'tforgettorollforNPCreactions
-. |
-|  |  | ifapplicable
-. |
-|  |  | Thepartydiscoversaclue spoor orindication
-, , |
-| 2 | Sign | ofanearbyencounter locality hiddenfeature
-, , , |
-|  |  | orinformationaboutanearbyarea
-. |
-| 3 | Environment | Ashiftinweatherorterrain
-. |
-| 4 | Loss | Thepartyisfacedwithachoicethatcoststhem
-aresource(rations tools etc) time oreffort
-, , , , . |
-|  |  | Thepartyencountersabarrier forcingeffort
-, , |
-|  |  | careordelays Thismightmeanspendingextra
-. |
-| 5 | Exhaustion | time(andanadditionalWilderness Action)or |
-|  |  | addingFatiguetothePC'sinventoryto |
+| Nice | Favorable conditions for travel. | Clear skies, sunny |
+| Fair | Favorable conditions for travel. | Overcast, breezy |
+| Unpleasant | Add a Fatigue or add one watch to the journey. | Gusting winds, rain showers, sweltering heat, chill air |
+|  | Add a Fatigue or add +1 | Thunderstorms, |
+| Inclement | watch. Increase terrain | lightning, rain, |
+|  | Diﬀiculty by a step. | muddy ground |
+|  | Add a Fatigue and add +1 | Blizzards, freezing |
+| Extreme | watch. Increase terrain | winds, ﬂooding, mud |
+|  | Diﬀiculty by a step. | slides |
+| Catastrophic | Most parties cannot travel under these conditions. | Tornados, tidal waves, hurricane, volcanic eruption |
 ```
 
 </details>
-_(source: rpg_cairn_2e_core.pdf (source-range-bc2972ae-00334))_
+_(source: rpg_cairn_2e_core.pdf (source-range-ad2c341f-00331))_
 
 | d6 | Spring | Summer | Fall | Winter |
 | --- | --- | --- | --- | --- |
@@ -177,7 +105,7 @@ _(source: rpg_cairn_2e_core.pdf (source-range-bc2972ae-00334))_
 ```
 
 </details>
-_(source: rpg_cairn_2e_core.pdf (source-range-bc2972ae-00335))_
+_(source: rpg_cairn_2e_core.pdf (source-range-ad2c341f-00332))_
 
 
 ## Source

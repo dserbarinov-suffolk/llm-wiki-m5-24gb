@@ -3,48 +3,30 @@
 from __future__ import annotations
 
 import re
-from dataclasses import dataclass
 from pathlib import Path
 from typing import Any
 
 import pymupdf
 
 from llmwiki.pdf.document import DocumentModel
+from llmwiki.pdf.layout_lines import TextLine, layout_text, page_lines
 from llmwiki.pdf.table_candidate_dedupe import dedupe_table_candidates
 from llmwiki.pdf.table_candidate_model import TableCandidate
+from llmwiki.pdf.table_forward_repair import forward_table_text, is_forward_table_cue
+from llmwiki.pdf.table_geometry_repair import geometry_table_rows, preface_numbered_table_text
 
-_CAPTION = re.compile(r"^\s*(?:table|tab\.)\s*(?:[-:.]|\d+\b)?\s*(.*)$", re.IGNORECASE)
+_CAPTION = re.compile(r"^\s*(?:table|tab\.)\s*(?:([-:.])|(\d+\b))?\s*(.*)$", re.IGNORECASE)
 _TOC = re.compile(r"\btable\s+of\s+contents\b", re.IGNORECASE)
 _HEADING_CONNECTORS = frozenset({"a", "an", "and", "for", "in", "into", "of", "out", "the", "to"})
-
-
-@dataclass(frozen=True)
-class WordBox:
-    x0: float
-    y0: float
-    x1: float
-    y1: float
-    text: str
-
-
-@dataclass(frozen=True)
-class TextLine:
-    page_index: int
-    y0: float
-    y1: float
-    words: tuple[WordBox, ...]
-
-    @property
-    def text(self) -> str:
-        return " ".join(word.text for word in self.words)
 
 
 def table_candidates(pdf_path: Path, model: DocumentModel) -> tuple[TableCandidate, ...]:
     """Return source-neutral table candidates not already in the document model."""
     with pymupdf.open(pdf_path) as doc:  # type: ignore[no-untyped-call]
-        lines_by_page = tuple(_page_lines(page, page_index) for page_index, page in enumerate(doc))
+        lines_by_page = tuple(page_lines(page, page_index) for page_index, page in enumerate(doc))
         candidates = list(_find_tables_candidates(doc))
         candidates.extend(_caption_layout_candidates(doc, lines_by_page))
+        candidates.extend(_forward_cue_layout_candidates(lines_by_page))
     return dedupe_table_candidates(tuple(candidates), model)
 
 
@@ -59,11 +41,18 @@ def _find_tables_candidates(doc: Any) -> tuple[TableCandidate, ...]:
         except Exception:
             continue
         for table in tables:
-            rows = tuple(tuple(cell or "" for cell in row) for row in table.extract())
-            caption, rows = _remove_caption_row(rows)
-            if len(rows) < 2:
-                continue
-            raw_text = _pipe_table(rows)
+            extracted_rows = tuple(tuple(cell or "" for cell in row) for row in table.extract())
+            rows = _preferred_rows(geometry_table_rows(page, table), extracted_rows)
+            next_page = doc[page_index + 1] if page_index + 1 < len(doc) else None
+            numbered_text = preface_numbered_table_text(page, table, rows, next_page)
+            if numbered_text:
+                caption = ""
+                raw_text = numbered_text
+            else:
+                caption, rows = _remove_caption_row(rows)
+                if len(rows) < 2:
+                    continue
+                raw_text = _pipe_table(rows)
             if caption:
                 raw_text = f"{caption}\n{raw_text}"
             candidates.append(
@@ -93,6 +82,20 @@ def _remove_caption_row(
     return caption, rows[1:]
 
 
+def _preferred_rows(
+    geometry_rows: tuple[tuple[str, ...], ...], extracted_rows: tuple[tuple[str, ...], ...]
+) -> tuple[tuple[str, ...], ...]:
+    if len(geometry_rows) < 2:
+        return extracted_rows
+    if _filled_cell_count(geometry_rows) < max(2, int(_filled_cell_count(extracted_rows) * 0.6)):
+        return extracted_rows
+    return geometry_rows
+
+
+def _filled_cell_count(rows: tuple[tuple[str, ...], ...]) -> int:
+    return sum(1 for row in rows for cell in row if cell.strip())
+
+
 def _caption_layout_candidates(
     doc: Any, lines_by_page: tuple[tuple[TextLine, ...], ...]
 ) -> tuple[TableCandidate, ...]:
@@ -112,32 +115,42 @@ def _caption_layout_candidates(
                     page_start=page_index + 1,
                     page_end=max(item.page_index for item in all_lines) + 1,
                     y0=line.y0,
-                    raw_text=_layout_text(all_lines),
+                    raw_text=layout_text(all_lines),
                     extractor_stage="caption-layout",
+                    anchor_text=line.text,
                 )
             )
     return tuple(candidates)
 
 
-def _page_lines(page: Any, page_index: int) -> tuple[TextLine, ...]:
-    words = [
-        WordBox(float(x0), float(y0), float(x1), float(y1), str(text))
-        for x0, y0, x1, y1, text, *_rest in page.get_text("words", sort=True)
-        if str(text).strip()
-    ]
-    lines: list[list[WordBox]] = []
-    for word in words:
-        if not lines or abs(lines[-1][0].y0 - word.y0) > 3.0:
-            lines.append([word])
-        else:
-            lines[-1].append(word)
-    return tuple(
-        TextLine(
-            page_index, min(word.y0 for word in line), max(word.y1 for word in line), tuple(line)
-        )
-        for line in lines
-        if line
-    )
+def _forward_cue_layout_candidates(
+    lines_by_page: tuple[tuple[TextLine, ...], ...]
+) -> tuple[TableCandidate, ...]:
+    candidates: list[TableCandidate] = []
+    for page_index, lines in enumerate(lines_by_page):
+        for line_index, line in enumerate(lines):
+            if not is_forward_table_cue(line.text):
+                continue
+            raw_text = forward_table_text(lines, line_index)
+            if _row_text_count(raw_text) < 2:
+                continue
+            candidates.append(
+                TableCandidate(
+                    caption="",
+                    page_start=page_index + 1,
+                    page_end=page_index + 1,
+                    y0=line.y0,
+                    raw_text=raw_text,
+                    extractor_stage="forward-cue-layout",
+                    anchor_text=line.text,
+                    insert_after_anchor=True,
+                )
+            )
+    return tuple(candidates)
+
+
+def _row_text_count(raw_text: str) -> int:
+    return sum(1 for line in raw_text.splitlines() if line.strip())
 
 
 def _caption(text: str) -> str | None:
@@ -146,8 +159,19 @@ def _caption(text: str) -> str | None:
     match = _CAPTION.match(text)
     if match is None:
         return None
+    remainder = " ".join(match.group(3).split())
+    if not (match.group(1) or match.group(2)) and not _caption_remainder_title_like(remainder):
+        return None
     caption = " ".join(text.split())
     return caption if len(caption.split()) <= 12 else None
+
+
+def _caption_remainder_title_like(text: str) -> bool:
+    words = [word.strip(":-") for word in text.split() if word.strip(":-")]
+    if not words or len(words) > 6 or text.endswith((".", ",", ";")):
+        return False
+    content = [word for word in words if word.lower() not in _HEADING_CONNECTORS]
+    return bool(content) and all(word[:1].isupper() for word in content)
 
 
 def _collect_table_body(
@@ -254,25 +278,6 @@ def _table_like_count(lines: tuple[TextLine, ...]) -> int:
 
 def _near_page_bottom(page: Any, line: TextLine) -> bool:
     return line.y1 >= float(page.rect.height) * 0.88
-
-
-def _layout_text(lines: tuple[TextLine, ...]) -> str:
-    words = tuple(word for line in lines for word in line.words)
-    if not words:
-        return ""
-    left = min(word.x0 for word in words)
-    scale = 5.0
-    rendered: list[str] = []
-    for line in lines:
-        cursor = 0
-        parts: list[str] = []
-        for word in line.words:
-            col = max(0, int((word.x0 - left) / scale))
-            spaces = max(1, col - cursor)
-            parts.append(" " * spaces + word.text)
-            cursor = col + len(word.text)
-        rendered.append("".join(parts).rstrip())
-    return "\n".join(rendered).strip()
 
 
 def _pipe_table(rows: tuple[tuple[str, ...], ...]) -> str:

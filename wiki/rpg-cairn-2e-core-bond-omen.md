@@ -1,12 +1,12 @@
 ---
 page_id: rpg-cairn-2e-core-bond-omen
 page_kind: concept
-summary: Bonds and Omens: 0 statement(s) and 14 atom(s) from raw/rpg_cairn_2e_core.pdf.
+summary: Bonds and Omens: 0 statement(s) and 9 atom(s) from raw/rpg_cairn_2e_core.pdf.
 sources: raw/rpg_cairn_2e_core.pdf
 updated: 2026-06-26
 domain: rpg-cairn-2e-core
 category_path: concepts
-projection_coverage: topic-rpg-cairn-2e-core-bond-omen@617881436ce6066a87cb1c7b49db796a
+projection_coverage: topic-rpg-cairn-2e-core-bond-omen@f3aeaf56bec2c3a852541e044cd29ed7
 ---
 
 # Bonds and Omens
@@ -44,7 +44,7 @@ You	inherited	an	old Journal ,	bound	in	bark.	Each	evening,	its
 ```
 
 </details>
-_(source: rpg_cairn_2e_core.pdf (source-range-bc2972ae-00128))_
+_(source: rpg_cairn_2e_core.pdf (source-range-ad2c341f-00128))_
 
 | 1 | Ambitious | 6 | Honorable |
 | --- | --- | --- | --- |
@@ -66,7 +66,7 @@ _(source: rpg_cairn_2e_core.pdf (source-range-bc2972ae-00128))_
 ```
 
 </details>
-_(source: rpg_cairn_2e_core.pdf (source-range-bc2972ae-00130))_
+_(source: rpg_cairn_2e_core.pdf (source-range-ad2c341f-00130))_
 
 | entry | content |
 | --- | --- |
@@ -91,7 +91,7 @@ A	roaming	storyteller	once	spun	you	tales	of	great	treasure
 ```
 
 </details>
-_(source: rpg_cairn_2e_core.pdf (source-range-bc2972ae-00131))_
+_(source: rpg_cairn_2e_core.pdf (source-range-ad2c341f-00131))_
 
 | entry | content |
 | --- | --- |
@@ -108,7 +108,7 @@ You	found	a	wounded	beast	in	the	forest	but	chose	to	ignore
 ```
 
 </details>
-_(source: rpg_cairn_2e_core.pdf (source-range-bc2972ae-00134))_
+_(source: rpg_cairn_2e_core.pdf (source-range-ad2c341f-00134))_
 
 | entry | content |
 | --- | --- |
@@ -136,7 +136,7 @@ A	white	crow	appeared	to	you	in	a	dream,	holding	a	twig	in	its
 ```
 
 </details>
-_(source: rpg_cairn_2e_core.pdf (source-range-bc2972ae-00142))_
+_(source: rpg_cairn_2e_core.pdf (source-range-ad2c341f-00142))_
 
 | entry | content |
 | --- | --- |
@@ -153,7 +153,7 @@ d20 Omen
 ```
 
 </details>
-_(source: rpg_cairn_2e_core.pdf (source-range-bc2972ae-00144))_
+_(source: rpg_cairn_2e_core.pdf (source-range-ad2c341f-00144))_
 
 
 ## Source

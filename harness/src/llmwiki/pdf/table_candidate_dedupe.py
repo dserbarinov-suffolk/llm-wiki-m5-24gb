@@ -33,7 +33,8 @@ def dedupe_table_candidates(
 
 
 def _candidate_priority(candidate: TableCandidate) -> tuple[int, int]:
-    return (0 if candidate.extractor_stage == "caption-layout" else 1), -len(candidate.raw_text)
+    layout_stage = candidate.extractor_stage in {"caption-layout", "forward-cue-layout"}
+    return (0 if layout_stage else 1), -len(candidate.raw_text)
 
 
 def _same_table_candidate(left: TableCandidate, right: TableCandidate) -> bool:

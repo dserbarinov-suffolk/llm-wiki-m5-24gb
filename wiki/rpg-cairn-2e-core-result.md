@@ -6,7 +6,7 @@ sources: raw/rpg_cairn_2e_core.pdf
 updated: 2026-06-26
 domain: rpg-cairn-2e-core
 category_path: concepts
-projection_coverage: topic-rpg-cairn-2e-core-result@c0c6a4c2001a38b6d1f0c4954c10bd95
+projection_coverage: topic-rpg-cairn-2e-core-result@0648ec61bf1cbfa20033cf54f7b9e137
 ---
 
 # Result
@@ -15,29 +15,29 @@ What [[rpg-cairn-2e-core]] covers about result:
 
 ## Statements
 
-- The result should be read aloud to the other players. _(rpg_cairn_2e_core.pdf (source-range-bc2972ae-00099))_
-- Before calculating damage to HP , subtract the target's Armor value from the result of damage rolls. _(rpg_cairn_2e_core.pdf (source-range-bc2972ae-00187))_
-- The result of each side's actions occur simultaneously . _(rpg_cairn_2e_core.pdf (source-range-bc2972ae-00205))_
-- If the " Extreme " weather result is rolled twice in a row, the weather turns to " Catastrophic ". _(rpg_cairn_2e_core.pdf (source-range-bc2972ae-00324))_
-- The Warden narrates the results and then rolls on the Wilderness Events table. _(rpg_cairn_2e_core.pdf (source-range-bc2972ae-00330))_
-- The results of a side's individual actions occur simultaneously. _(rpg_cairn_2e_core.pdf (source-range-bc2972ae-00432))_
-- Attacks Automatically Hit : Combatants typically deal damage to their targets automatically, without rolling to see whether an attack "hits." When multiple attackers target the same foe, only the highest dice result is used in the attack. _(rpg_cairn_2e_core.pdf (source-range-bc2972ae-00433))_
-- Simplifying results to a single roll can increase tension while maximizing player input. _(rpg_cairn_2e_core.pdf (source-range-bc2972ae-00488))_
-- The higher the result, the more they might (reasonably) know. _(rpg_cairn_2e_core.pdf (source-range-bc2972ae-00555))_
+- The result should be read aloud to the other players. _(rpg_cairn_2e_core.pdf (source-range-ad2c341f-00099))_
+- Before calculating damage to HP , subtract the target's Armor value from the result of damage rolls. _(rpg_cairn_2e_core.pdf (source-range-ad2c341f-00187))_
+- The result of each side's actions occur simultaneously . _(rpg_cairn_2e_core.pdf (source-range-ad2c341f-00205))_
+- If the " Extreme " weather result is rolled twice in a row, the weather turns to " Catastrophic ". _(rpg_cairn_2e_core.pdf (source-range-ad2c341f-00322))_
+- The Warden narrates the results and then rolls on the Wilderness Events table. _(rpg_cairn_2e_core.pdf (source-range-ad2c341f-00328))_
+- The results of a side's individual actions occur simultaneously. _(rpg_cairn_2e_core.pdf (source-range-ad2c341f-00429))_
+- Attacks Automatically Hit : Combatants typically deal damage to their targets automatically, without rolling to see whether an attack "hits." When multiple attackers target the same foe, only the highest dice result is used in the attack. _(rpg_cairn_2e_core.pdf (source-range-ad2c341f-00430))_
+- Simplifying results to a single roll can increase tension while maximizing player input. _(rpg_cairn_2e_core.pdf (source-range-ad2c341f-00485))_
+- The higher the result, the more they might (reasonably) know. _(rpg_cairn_2e_core.pdf (source-range-ad2c341f-00552))_
 
 ## Technical atoms
 
 > Context: Combat in Cairn is fast, hectic, and often lethal. In addition, the rules of combat are unique in a few key ways: - Attacks Automatically Hit : Combatants typically deal damage to their targets automatically, without rolling to see whether an attack "hits." When multiple attackers target the same foe, only the highest dice result is used in the attack.
-_(context: rpg_cairn_2e_core.pdf (source-range-bc2972ae-00431, source-range-bc2972ae-00433))_
+_(context: rpg_cairn_2e_core.pdf (source-range-ad2c341f-00428, source-range-ad2c341f-00430))_
 
 > - Side Initiative : With the exception of the first round (when PCs must first save DEX to secure their turn), both the PCs and their opponents take turns acting together.
-_(source: rpg_cairn_2e_core.pdf (source-range-bc2972ae-00432))_
+_(source: rpg_cairn_2e_core.pdf (source-range-ad2c341f-00429))_
 
 > Context: The outcome of a save need not be a simple binary. You can tailor the results based on the totality of input: the effort, forethought, resources, and skill that went into the roll.
-_(context: rpg_cairn_2e_core.pdf (source-range-bc2972ae-00485))_
+_(context: rpg_cairn_2e_core.pdf (source-range-ad2c341f-00482))_
 
 > If a PC can solve a problem using purely narrative components, do not ask for a roll .
-_(source: rpg_cairn_2e_core.pdf (source-range-bc2972ae-00487))_
+_(source: rpg_cairn_2e_core.pdf (source-range-ad2c341f-00484))_
 
 | entry | content |
 | --- | --- |
@@ -76,7 +76,7 @@ Doomed:	Death	seemed	ever	so	close,	but	somehow	you
 ```
 
 </details>
-_(source: rpg_cairn_2e_core.pdf (source-range-bc2972ae-00240))_
+_(source: rpg_cairn_2e_core.pdf (source-range-ad2c341f-00239))_
 
 
 ## Source

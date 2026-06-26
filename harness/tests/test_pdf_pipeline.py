@@ -212,8 +212,9 @@ class TestEnsureExtracted:
         )
 
         model = (result.cache_dir / "document_model.json").read_text(encoding="utf-8")
-        chunk = chunk_file(result.cache_dir, result.manifest.chunks[0].chunk_id).read_text(
-            encoding="utf-8"
+        chunk = "\n\n".join(
+            chunk_file(result.cache_dir, chunk_record.chunk_id).read_text(encoding="utf-8")
+            for chunk_record in result.manifest.chunks
         )
         assert '"element_kind": "table"' in model
         assert model.count('"element_kind": "table"') == 1

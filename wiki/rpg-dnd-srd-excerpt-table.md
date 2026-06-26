@@ -6,7 +6,7 @@ sources: raw/rpg_dnd_srd_excerpt.pdf
 updated: 2026-06-26
 domain: rpg-dnd-srd-excerpt
 category_path: concepts
-projection_coverage: topic-rpg-dnd-srd-excerpt-table@445bff8f186a38b6a3a9768bfaae275f
+projection_coverage: topic-rpg-dnd-srd-excerpt-table@5da3474071f494da644c63af2eacad95
 ---
 
 # Table
@@ -15,16 +15,16 @@ What [[rpg-dnd-srd-excerpt]] covers about table:
 
 ## Statements
 
-- The Typical Difficulty Classes table shows the most common DCs. _(rpg_dnd_srd_excerpt.pdf (source-range-95e73d53-00093))_
-- The Size Categories table shows how much space a creature of a particular size controls in combat. _(rpg_dnd_srd_excerpt.pdf (source-range-95e73d53-00314))_
-- The Armor table shows the cost, weight, and other properties of the common types of armor worn in fantasy gaming worlds. _(rpg_dnd_srd_excerpt.pdf (source-range-95e73d53-00474))_
-- If the Armor table shows "Disadvantage" in the Stealth column, the wearer has disadvantage on Dexterity (Stealth) checks. _(rpg_dnd_srd_excerpt.pdf (source-range-95e73d53-00478))_
-- The Weapons table shows the most common weapons used in the fantasy gaming worlds, their price and weight, the damage they deal when they hit, and any special properties they possess. _(rpg_dnd_srd_excerpt.pdf (source-range-95e73d53-00502))_
+- The Typical Difficulty Classes table shows the most common DCs. _(rpg_dnd_srd_excerpt.pdf (source-range-b7d08967-00093))_
+- The Size Categories table shows how much space a creature of a particular size controls in combat. _(rpg_dnd_srd_excerpt.pdf (source-range-b7d08967-00314))_
+- The Armor table shows the cost, weight, and other properties of the common types of armor worn in fantasy gaming worlds. _(rpg_dnd_srd_excerpt.pdf (source-range-b7d08967-00474))_
+- If the Armor table shows "Disadvantage" in the Stealth column, the wearer has disadvantage on Dexterity (Stealth) checks. _(rpg_dnd_srd_excerpt.pdf (source-range-b7d08967-00478))_
+- The Weapons table shows the most common weapons used in the fantasy gaming worlds, their price and weight, the damage they deal when they hit, and any special properties they possess. _(rpg_dnd_srd_excerpt.pdf (source-range-b7d08967-00502))_
 
 ## Technical atoms
 
 > Context: Each creature takes up a different amount of space. The Size Categories table shows how much space a creature of a particular size controls in combat. Objects sometimes use the same size categories.
-_(context: rpg_dnd_srd_excerpt.pdf (source-range-95e73d53-00314))_
+_(context: rpg_dnd_srd_excerpt.pdf (source-range-b7d08967-00314))_
 
 | Table- Creature | Size |
 | --- | --- |
@@ -51,7 +51,7 @@ Table- Creature  Size
 ```
 
 </details>
-_(source: rpg_dnd_srd_excerpt.pdf (source-range-95e73d53-00315))_
+_(source: rpg_dnd_srd_excerpt.pdf (source-range-b7d08967-00315))_
 
 | Table- Diﬀiculty | Classes |
 | --- | --- |
@@ -78,10 +78,10 @@ Table- Diﬀiculty  Classes
 ```
 
 </details>
-_(source: rpg_dnd_srd_excerpt.pdf (source-range-95e73d53-00097))_
+_(source: rpg_dnd_srd_excerpt.pdf (source-range-b7d08967-00097))_
 
 > Context: The skills related to each ability score are shown in the following list. (No skills are related to Constitution.) See an ability's description in the later sections of this section for examples of how to use a skill associated with an ability.
-_(context: rpg_dnd_srd_excerpt.pdf (source-range-95e73d53-00104))_
+_(context: rpg_dnd_srd_excerpt.pdf (source-range-b7d08967-00104))_
 
 | Table- Related | Skills |
 | --- | --- |
@@ -101,7 +101,7 @@ Table- Related  Skills
 ```
 
 </details>
-_(source: rpg_dnd_srd_excerpt.pdf (source-range-95e73d53-00105))_
+_(source: rpg_dnd_srd_excerpt.pdf (source-range-b7d08967-00105))_
 
 | Armor | Cost | Class | Strength | Stealth | Weight |
 | --- | --- | --- | --- | --- | --- |
@@ -178,10 +178,10 @@ Table- Armor
 ```
 
 </details>
-_(source: rpg_dnd_srd_excerpt.pdf (source-range-95e73d53-00493))_
+_(source: rpg_dnd_srd_excerpt.pdf (source-range-b7d08967-00493))_
 
 > Context: Proficiency with a weapon allows you to add your proficiency bonus to the attack roll for any attack you make with that weapon. If you make an attack roll using a weapon with which you lack proficiency, you do not add your proficiency bonus to the attack roll.
-_(context: rpg_dnd_srd_excerpt.pdf (source-range-95e73d53-00505))_
+_(context: rpg_dnd_srd_excerpt.pdf (source-range-b7d08967-00505))_
 
 | Table- Donning | and Doﬀing | Armor |
 | --- | --- | --- |
@@ -204,10 +204,10 @@ Table- Donning   and Doﬀing   Armor
 ```
 
 </details>
-_(source: rpg_dnd_srd_excerpt.pdf (source-range-95e73d53-00506))_
+_(source: rpg_dnd_srd_excerpt.pdf (source-range-b7d08967-00506))_
 
 > Context: When you use an action, bonus action, or reaction to attack with a net, you can make only one attack regardless of the number of attacks you can normally make.
-_(context: rpg_dnd_srd_excerpt.pdf (source-range-95e73d53-00532))_
+_(context: rpg_dnd_srd_excerpt.pdf (source-range-b7d08967-00531))_
 
 | Name | Cost | Damage | Weight | Properties |
 | --- | --- | --- | --- | --- |
@@ -254,7 +254,7 @@ Table- Weapons
 ```
 
 </details>
-_(source: rpg_dnd_srd_excerpt.pdf (source-range-95e73d53-00533))_
+_(source: rpg_dnd_srd_excerpt.pdf (source-range-b7d08967-00532))_
 
 
 ## Source

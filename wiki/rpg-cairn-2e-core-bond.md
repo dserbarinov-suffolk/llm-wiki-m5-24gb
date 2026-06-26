@@ -6,7 +6,7 @@ sources: raw/rpg_cairn_2e_core.pdf
 updated: 2026-06-26
 domain: rpg-cairn-2e-core
 category_path: concepts
-projection_coverage: topic-rpg-cairn-2e-core-bond@486c4637dce53788055ec451f3abc654
+projection_coverage: topic-rpg-cairn-2e-core-bond@7f14a80e585df43400cda8c3f53083cf
 ---
 
 # Bonds
@@ -15,7 +15,7 @@ What [[rpg-cairn-2e-core]] covers about bonds:
 
 ## Statements
 
-- During your travels, you met a dying hunter who asked you to _(rpg_cairn_2e_core.pdf (source-range-bc2972ae-00132))_
+- During your travels, you met a dying hunter who asked you to _(rpg_cairn_2e_core.pdf (source-range-ad2c341f-00132))_
 
 ## Technical atoms
 
@@ -45,7 +45,7 @@ You	inherited	an	old Journal ,	bound	in	bark.	Each	evening,	its
 ```
 
 </details>
-_(source: rpg_cairn_2e_core.pdf (source-range-bc2972ae-00128))_
+_(source: rpg_cairn_2e_core.pdf (source-range-ad2c341f-00128))_
 
 | 1 | Ambitious | 6 | Honorable |
 | --- | --- | --- | --- |
@@ -67,7 +67,7 @@ _(source: rpg_cairn_2e_core.pdf (source-range-bc2972ae-00128))_
 ```
 
 </details>
-_(source: rpg_cairn_2e_core.pdf (source-range-bc2972ae-00130))_
+_(source: rpg_cairn_2e_core.pdf (source-range-ad2c341f-00130))_
 
 | entry | content |
 | --- | --- |
@@ -92,7 +92,7 @@ A	roaming	storyteller	once	spun	you	tales	of	great	treasure
 ```
 
 </details>
-_(source: rpg_cairn_2e_core.pdf (source-range-bc2972ae-00131))_
+_(source: rpg_cairn_2e_core.pdf (source-range-ad2c341f-00131))_
 
 | entry | content |
 | --- | --- |
@@ -109,7 +109,7 @@ You	found	a	wounded	beast	in	the	forest	but	chose	to	ignore
 ```
 
 </details>
-_(source: rpg_cairn_2e_core.pdf (source-range-bc2972ae-00134))_
+_(source: rpg_cairn_2e_core.pdf (source-range-ad2c341f-00134))_
 
 | entry | content |
 | --- | --- |
@@ -137,7 +137,7 @@ A	white	crow	appeared	to	you	in	a	dream,	holding	a	twig	in	its
 ```
 
 </details>
-_(source: rpg_cairn_2e_core.pdf (source-range-bc2972ae-00142))_
+_(source: rpg_cairn_2e_core.pdf (source-range-ad2c341f-00142))_
 
 
 ## Source

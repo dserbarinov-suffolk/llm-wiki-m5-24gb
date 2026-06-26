@@ -6,7 +6,7 @@ sources: raw/rpg_dnd_srd_excerpt.pdf
 updated: 2026-06-26
 domain: rpg-dnd-srd-excerpt
 category_path: concepts
-projection_coverage: topic-rpg-dnd-srd-excerpt-target@9b5a6351cb3f21eb60f33ba35c64e8b7
+projection_coverage: topic-rpg-dnd-srd-excerpt-target@2d5e7e190d6b7c80f82ea7ca778ac42f
 ---
 
 # Target
@@ -15,34 +15,34 @@ What [[rpg-dnd-srd-excerpt]] covers about target:
 
 ## Statements
 
-- The GM determines whether the target has cover and whether you have advantage or disadvantage against the target. _(rpg_dnd_srd_excerpt.pdf (source-range-95e73d53-00354))_
-- If the target isn't in the location you targeted, you automatically miss, but the GM typically just says that the attack missed, not whether you guessed the target's location correctly. _(rpg_dnd_srd_excerpt.pdf (source-range-95e73d53-00370))_
-- Using at least one free hand, you try to seize the target by making a grapple check instead of an attack roll: a Strength (Athletics) check contested by the target's Strength (Athletics) or Dexterity (Acrobatics) check (the target chooses the ability to use). _(rpg_dnd_srd_excerpt.pdf (source-range-95e73d53-00395))_
-- For example, if a target is behind a creature that gives half cover and a tree trunk that gives threequarters cover, the target has three-quarters cover. _(rpg_dnd_srd_excerpt.pdf (source-range-95e73d53-00403))_
-- A target with total cover can't be targeted directly by an attack or a spell, although some spells can reach such a target by including it in an area of effect. _(rpg_dnd_srd_excerpt.pdf (source-range-95e73d53-00406))_
-- You feint, distract the target, or in some other way team up to make your ally's attack more effective. _(rpg_dnd_srd_excerpt.pdf (source-range-95e73d53-00339))_
-- The target of your grapple must be no more than one size larger than you and must be within your reach. _(rpg_dnd_srd_excerpt.pdf (source-range-95e73d53-00395))_
-- The target must be no more than one size larger than you and must be within your reach. _(rpg_dnd_srd_excerpt.pdf (source-range-95e73d53-00400))_
-- A target can benefit from cover only when an attack or other effect originates on the opposite side of the cover. _(rpg_dnd_srd_excerpt.pdf (source-range-95e73d53-00402))_
-- If a target is behind multiple sources of cover, only the most protective degree of cover applies; the degrees aren't added together. _(rpg_dnd_srd_excerpt.pdf (source-range-95e73d53-00403))_
-- A target with half cover has a +2 bonus to AC and Dexterity saving throws. _(rpg_dnd_srd_excerpt.pdf (source-range-95e73d53-00404))_
-- A target has half cover if an obstacle blocks at least half of its body. _(rpg_dnd_srd_excerpt.pdf (source-range-95e73d53-00404))_
-- A target with three-quarters cover has a +5 bonus to AC and Dexterity saving throws. _(rpg_dnd_srd_excerpt.pdf (source-range-95e73d53-00405))_
-- A target takes 8d6 fire damage on a failed save, or half as much damage on a successful one. _(rpg_dnd_srd_excerpt.pdf (source-range-95e73d53-00616))_
+- The GM determines whether the target has cover and whether you have advantage or disadvantage against the target. _(rpg_dnd_srd_excerpt.pdf (source-range-b7d08967-00354))_
+- If the target isn't in the location you targeted, you automatically miss, but the GM typically just says that the attack missed, not whether you guessed the target's location correctly. _(rpg_dnd_srd_excerpt.pdf (source-range-b7d08967-00370))_
+- Using at least one free hand, you try to seize the target by making a grapple check instead of an attack roll: a Strength (Athletics) check contested by the target's Strength (Athletics) or Dexterity (Acrobatics) check (the target chooses the ability to use). _(rpg_dnd_srd_excerpt.pdf (source-range-b7d08967-00395))_
+- For example, if a target is behind a creature that gives half cover and a tree trunk that gives threequarters cover, the target has three-quarters cover. _(rpg_dnd_srd_excerpt.pdf (source-range-b7d08967-00403))_
+- A target with total cover can't be targeted directly by an attack or a spell, although some spells can reach such a target by including it in an area of effect. _(rpg_dnd_srd_excerpt.pdf (source-range-b7d08967-00406))_
+- You feint, distract the target, or in some other way team up to make your ally's attack more effective. _(rpg_dnd_srd_excerpt.pdf (source-range-b7d08967-00339))_
+- The target of your grapple must be no more than one size larger than you and must be within your reach. _(rpg_dnd_srd_excerpt.pdf (source-range-b7d08967-00395))_
+- The target must be no more than one size larger than you and must be within your reach. _(rpg_dnd_srd_excerpt.pdf (source-range-b7d08967-00400))_
+- A target can benefit from cover only when an attack or other effect originates on the opposite side of the cover. _(rpg_dnd_srd_excerpt.pdf (source-range-b7d08967-00402))_
+- If a target is behind multiple sources of cover, only the most protective degree of cover applies; the degrees aren't added together. _(rpg_dnd_srd_excerpt.pdf (source-range-b7d08967-00403))_
+- A target has half cover if an obstacle blocks at least half of its body. _(rpg_dnd_srd_excerpt.pdf (source-range-b7d08967-00404))_
+- A target with half cover has a +2 bonus to AC and Dexterity saving throws. _(rpg_dnd_srd_excerpt.pdf (source-range-b7d08967-00404))_
+- A target with three-quarters cover has a +5 bonus to AC and Dexterity saving throws. _(rpg_dnd_srd_excerpt.pdf (source-range-b7d08967-00405))_
+- A target takes 8d6 fire damage on a failed save, or half as much damage on a successful one. _(rpg_dnd_srd_excerpt.pdf (source-range-b7d08967-00614))_
 
 ## Technical atoms
 
 > Context: When you attack a target that you can't see, you have disadvantage on the attack roll. This is true whether you're guessing the target's location or you're targeting a creature you can hear but not see. If the target isn't in the location you targeted, you automatically miss, but the GM typically just says that the attack missed, not whether you guessed the target's location correctly.
-_(context: rpg_dnd_srd_excerpt.pdf (source-range-95e73d53-00370))_
+_(context: rpg_dnd_srd_excerpt.pdf (source-range-b7d08967-00370))_
 
 > When a creature can't see you, you have advantage on attack rolls against it.
-_(source: rpg_dnd_srd_excerpt.pdf (source-range-95e73d53-00371))_
+_(source: rpg_dnd_srd_excerpt.pdf (source-range-b7d08967-00371))_
 
 > Context: The target of your grapple must be no more than one size larger than you and must be within your reach. Using at least one free hand, you try to seize the target by making a grapple check instead of an attack roll: a Strength (Athletics) check contested by the target's Strength (Athletics) or Dexterity (Acrobatics) check (the target chooses the ability to use). You succeed automatically if the target is incapacitated. If you succeed, you subject the target to the grappled condition (see appendix ##). The condition specifies the things that end it, and you can release the target whenever you like (no action required).
-_(context: rpg_dnd_srd_excerpt.pdf (source-range-95e73d53-00395))_
+_(context: rpg_dnd_srd_excerpt.pdf (source-range-b7d08967-00395))_
 
 > A grappled creature can use its action to escape.
-_(source: rpg_dnd_srd_excerpt.pdf (source-range-95e73d53-00396))_
+_(source: rpg_dnd_srd_excerpt.pdf (source-range-b7d08967-00396))_
 
 
 ## Source
