@@ -1,5 +1,12 @@
+from llmwiki.domain.ledger.builder import (
+    LedgerBuildResult,
+    SegmentInput,
+    build_claim_ledger,
+    default_schema_bundle,
+)
 from llmwiki.domain.ledger.common import ConfidenceBasis
 from llmwiki.domain.ledger.entries import LedgerEntry
+from llmwiki.domain.ledger.features import profile_unit
 from llmwiki.domain.ledger.ledger import (
     ClaimLedger,
     FamilyLabelScore,
@@ -8,8 +15,11 @@ from llmwiki.domain.ledger.ledger import (
 )
 from llmwiki.domain.ledger.section_navigation import section_page_id
 from llmwiki.domain.ledger.section_pages import build_section_pages
+from llmwiki.domain.ledger.segments import SegmentClaim, SourceSegment
 from llmwiki.domain.ledger.structure import DocumentStructure, StructureNode
 from llmwiki.domain.ledger.topic_models import SourceTopic
+
+_HASH = "abcdef1234567890"
 
 
 def test_section_pages_roll_up_descendants_and_link_source_siblings() -> None:
@@ -92,6 +102,53 @@ def test_section_pages_roll_up_descendants_and_link_source_siblings() -> None:
     assert "same source heading" not in by_id[field_id]
 
 
+def test_section_pages_do_not_import_same_named_table_from_sibling_branch() -> None:
+    result = _build_result(
+        [
+            ("heading", "# First Branch", []),
+            ("heading", "## Shared Matrix", []),
+            (
+                "table-block",
+                "Shared Matrix\nValue Meaning\n1 First branch value\n2 First branch option",
+                [],
+            ),
+            ("heading", "# Second Branch", []),
+            ("heading", "## Shared Matrix", []),
+            (
+                "paragraph",
+                "The second branch describes a separate matrix.",
+                ["The second branch describes a separate matrix."],
+            ),
+        ]
+    )
+
+    pages = build_section_pages(
+        result.ledger,
+        result.document_structure,
+        source_page_id="source",
+        source_locator="source.pdf",
+        today="2026-06-29",
+    )
+
+    first = _node_by_path(result.document_structure, ("First Branch", "Shared Matrix"))
+    second = _node_by_path(result.document_structure, ("Second Branch", "Shared Matrix"))
+    by_id = {page.page_id: page.page_body for page in pages}
+
+    assert first is not None
+    assert second is not None
+    assert (
+        "First branch value" in by_id[section_page_id("source", result.document_structure, first)]
+    )
+    assert (
+        "First branch value"
+        not in by_id[section_page_id("source", result.document_structure, second)]
+    )
+    assert (
+        "## Technical atoms"
+        not in by_id[section_page_id("source", result.document_structure, second)]
+    )
+
+
 def _entry(entry_id: str, node_id: str, text: str) -> LedgerEntry:
     return LedgerEntry(
         ledger_entry_id=entry_id,
@@ -143,3 +200,49 @@ def _ledger(*entries: LedgerEntry) -> ClaimLedger:
         extractor_decisions=(),
         rejected_candidates=(),
     )
+
+
+def _build_result(specs: list[tuple[str, str, list[str]]]) -> LedgerBuildResult:
+    inputs: list[SegmentInput] = []
+    profiles = {}
+    for order, (kind, text, claims) in enumerate(specs, start=1):
+        segment = SourceSegment(
+            segment_id=f"seg-{order:03d}",
+            source_range_id=f"sr-{order:03d}",
+            source_locator="source.pdf",
+            source_hash=_HASH,
+            heading_path="H",
+            structure_node_id="",
+            source_order=order,
+            text=text,
+            segment_kind=kind,
+            evidence_ids=(f"ev-{order:03d}",),
+        )
+        claim_records = tuple(
+            SegmentClaim(
+                f"claim-{order}-{index}", claim, (), "eligible", "supported", segment.evidence_ids
+            )
+            for index, claim in enumerate(claims)
+        )
+        inputs.append(SegmentInput(segment, claim_records))
+        profiles[segment.segment_id] = profile_unit(
+            extracted_unit_id=segment.segment_id,
+            source_range_id=segment.source_range_id,
+            text=text,
+            evidence_ids=segment.evidence_ids,
+        )
+    return build_claim_ledger(
+        source_locator="source.pdf",
+        source_hash=_HASH,
+        evidence_registry_hash="registry",
+        segments=tuple(inputs),
+        profiles=profiles,
+        schema=default_schema_bundle(),
+    )
+
+
+def _node_by_path(structure: DocumentStructure, path: tuple[str, ...]) -> StructureNode | None:
+    for node in structure.structure_nodes:
+        if structure.label_path(node.structure_node_id) == path:
+            return node
+    return None

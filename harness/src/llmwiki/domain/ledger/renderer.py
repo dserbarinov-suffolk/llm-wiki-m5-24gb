@@ -96,10 +96,20 @@ def atom_context_block(context: TechnicalAtomContext, source_locator: str) -> st
 def _table_block(payload: TablePayload) -> str:
     logical = _markdown_table(payload)
     raw = payload.raw_table_text
+    if payload.parse_status != "parsed":
+        preview = f"\n\n{_preview_table_block(logical)}" if logical else ""
+        return f"```text\n{raw}\n```{preview}"
     if not logical:
         return f"```\n{raw}\n```"
-    raw_block = f"<details>\n<summary>Raw table text</summary>\n\n```\n{raw}\n```\n\n</details>"
+    raw_block = f"<details>\n<summary>Raw table text</summary>\n\n```text\n{raw}\n```\n\n</details>"
     return f"{logical}\n\n{raw_block}"
+
+
+def _preview_table_block(logical: str) -> str:
+    return (
+        "<details>\n<summary>Parsed table preview (needs review)</summary>\n\n"
+        f"{logical}\n\n</details>"
+    )
 
 
 def _markdown_table(payload: TablePayload) -> str:

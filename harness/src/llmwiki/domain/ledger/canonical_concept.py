@@ -178,12 +178,21 @@ def _atom_block(kind: str, payload: dict[str, Any]) -> str:
         return f"```{language}\n{raw}\n```"
     if kind == "table":
         table = _markdown_table(payload)
+        if payload.get("parse_status") != "parsed":
+            preview = (
+                f"\n\n<details>\n<summary>Parsed table preview (needs review)</summary>"
+                f"\n\n{table}\n\n</details>"
+                if table
+                else ""
+            )
+            return f"```text\n{raw}\n```{preview}"
         if table:
             raw_block = (
-                f"<details>\n<summary>Raw table text</summary>\n\n```\n{raw}\n```\n\n</details>"
+                f"<details>\n<summary>Raw table text</summary>\n\n```text\n{raw}"
+                "\n```\n\n</details>"
             )
             return f"{table}\n\n{raw_block}"
-        return f"```\n{raw}\n```"
+        return f"```text\n{raw}\n```"
     return "\n".join(f"> {line}" for line in raw.splitlines()) or "> "
 
 

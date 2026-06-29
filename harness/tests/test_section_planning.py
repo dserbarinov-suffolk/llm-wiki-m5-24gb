@@ -200,6 +200,36 @@ def test_section_topic_does_not_import_later_table_by_lexical_match() -> None:
     assert topic.atom_ids == ()
 
 
+def test_same_named_table_only_attaches_to_source_ancestry_section() -> None:
+    result = _build(
+        [
+            ("heading", "# First Branch", []),
+            ("heading", "## Shared Matrix", []),
+            (
+                "table-block",
+                "Shared Matrix\nValue Meaning\n1 First branch value\n2 First branch option",
+                [],
+            ),
+            ("heading", "# Second Branch", []),
+            ("heading", "## Shared Matrix", []),
+            (
+                "paragraph",
+                "The second branch describes a separate matrix.",
+                ["The second branch describes a separate matrix."],
+            ),
+        ]
+    )
+
+    plan = build_section_grounded_plan(result.ledger, result.document_structure)
+
+    by_path = {
+        result.document_structure.label_path(target.structure_node_id): target
+        for target in plan.page_targets
+    }
+    assert by_path[("First Branch", "Shared Matrix")].atom_ids
+    assert by_path[("Second Branch", "Shared Matrix")].atom_ids == ()
+
+
 def test_comma_label_does_not_seed_component_concepts() -> None:
     result = _build(
         [

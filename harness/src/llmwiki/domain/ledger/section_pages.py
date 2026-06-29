@@ -30,7 +30,9 @@ from llmwiki.domain.ledger.structure import DocumentStructure, StructureNode
 from llmwiki.domain.ledger.table_identity import (
     has_matching_table_name,
     normalize_table_name,
+    table_forward_target_node_ids_by_atom_id,
     table_identity_names_by_atom_id,
+    table_structure_node_ids_by_atom_id,
 )
 from llmwiki.domain.ledger.topic_models import SourceTopic
 from llmwiki.domain.ledger.topic_relations import RelatedTopicLink
@@ -276,8 +278,13 @@ def _atoms_for_entries(
     }
     section_name = normalize_table_name(node.heading_text)
     if section_name:
+        atom_node_ids = table_structure_node_ids_by_atom_id(ledger)
+        forward_node_ids = table_forward_target_node_ids_by_atom_id(ledger, structure)
         for atom_id, names in table_identity_names_by_atom_id(ledger, structure).items():
-            if has_matching_table_name(section_name, names):
+            valid_nodes = (*atom_node_ids.get(atom_id, ()), *forward_node_ids.get(atom_id, ()))
+            if node.structure_node_id in valid_nodes and has_matching_table_name(
+                section_name, names
+            ):
                 atom_ids.add(atom_id)
     return tuple(
         atom

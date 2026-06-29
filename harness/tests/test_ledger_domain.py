@@ -530,7 +530,7 @@ def test_logical_table_renders_as_markdown_table_with_raw_text() -> None:
 
     payload = TablePayload(
         raw_table_text="1 Alpha entry\n2 Beta entry",
-        parse_status="partially-parsed",
+        parse_status="parsed",
         source_locator="src.pdf",
         columns=(TableColumn(0, "entry"), TableColumn(1, "content")),
         rows=(TableRow(0), TableRow(1)),
@@ -548,6 +548,30 @@ def test_logical_table_renders_as_markdown_table_with_raw_text() -> None:
     assert "| 2 | Beta entry |" in rendered
     assert "Raw table text" in rendered
     assert "1 Alpha entry\n2 Beta entry" in rendered
+
+
+def test_partial_table_parse_renders_exact_raw_text_before_preview() -> None:
+    from llmwiki.domain.ledger.renderer import atom_block
+
+    payload = TablePayload(
+        raw_table_text="Name        Score\nAlpha       10\nBeta        20",
+        parse_status="partially-parsed",
+        source_locator="src.pdf",
+        columns=(TableColumn(0, "Name"), TableColumn(1, "Score")),
+        rows=(TableRow(0), TableRow(1)),
+        cells=(
+            TableCell(0, 0, "Alpha"),
+            TableCell(0, 1, "10"),
+            TableCell(1, 0, "Beta"),
+            TableCell(1, 1, "20"),
+        ),
+    )
+
+    rendered = atom_block("table", payload)
+
+    assert rendered.startswith("```text\nName        Score")
+    assert "Parsed table preview (needs review)" in rendered
+    assert "| Alpha | 10 |" in rendered
 
 
 def test_figure_segment_becomes_unparsed_figure_atom() -> None:

@@ -1,3 +1,4 @@
+from llmwiki.domain.ledger.builder import build_claim_ledger, default_schema_bundle
 from llmwiki.domain.objects import Schema
 from llmwiki.pdf.document import DocumentElement, DocumentModel
 from llmwiki.runtime.document_model_segmentation import segment_document_model
@@ -61,8 +62,8 @@ def test_document_model_segmentation_groups_heading_scoped_table_rows() -> None:
     )
 
     kinds = [item.segment.segment_kind for item in inputs]
-    assert kinds == ["heading", "table-block", "heading"]
-    table = inputs[1].segment.text
+    assert kinds == ["heading", "heading", "table-block", "heading"]
+    table = inputs[2].segment.text
     assert "Score Result" in table
     assert "2 Fractured axle" in table
     assert "Loose wheel" in table
@@ -86,8 +87,88 @@ def test_document_model_segmentation_groups_inline_enumerated_rows() -> None:
         model, source_locator="generic.pdf", source_hash="c" * 64, schema=Schema()
     )
 
+    assert [item.segment.segment_kind for item in inputs] == ["heading", "table-block"]
+    assert "9 Alpha entry" in inputs[1].segment.text
+
+
+def test_document_model_segmentation_preserves_table_section_heading_for_structure() -> None:
+    model = _model(
+        (
+            _element("e1", "heading", "Character Traits", "Character Traits", heading_level=2),
+            _element("e2", "paragraph", "Character Traits", "1 Angular face"),
+            _element("e3", "list_item", "Character Traits", "2 Scarred face"),
+            _element("e4", "heading", "Bonds", "Bonds", heading_level=2),
+            _element("e5", "paragraph", "Bonds", "1 Inherited a worn map"),
+            _element("e6", "list_item", "Bonds", "2 Owe a debt to a stranger"),
+        )
+    )
+
+    inputs, profiles = segment_document_model(
+        model, source_locator="generic.pdf", source_hash="g" * 64, schema=Schema()
+    )
+    result = build_claim_ledger(
+        source_locator="generic.pdf",
+        source_hash="g" * 64,
+        evidence_registry_hash="registry",
+        segments=inputs,
+        profiles=profiles,
+        schema=default_schema_bundle(),
+    )
+
+    table_entry = next(
+        entry
+        for entry in result.ledger.entries
+        if entry.technical_atom_kind == "table" and "Inherited a worn map" in entry.source_text
+    )
+    nearest = result.document_structure.node(table_entry.structure_node_ids[0])
+
+    assert nearest is not None
+    assert nearest.heading_text == "Bonds"
+
+
+def test_document_model_segmentation_keeps_wrapped_numbered_table_together() -> None:
+    model = _model(
+        (
+            _element("e1", "heading", "Results", "Results", heading_level=2),
+            _element("e2", "paragraph", "Results", "1 First result starts here"),
+            _element("e3", "paragraph", "Results", "and continues without a marker"),
+            _element("e4", "paragraph", "Results", "with one more wrapped line"),
+            _element("e5", "paragraph", "Results", "with a third wrapped line"),
+            _element("e6", "paragraph", "Results", "with a fourth wrapped line"),
+            _element("e7", "list_item", "Results", "2 Second result starts here"),
+            _element("e8", "paragraph", "Results", "Closing prose is outside the table."),
+        )
+    )
+
+    inputs, _profiles = segment_document_model(
+        model, source_locator="generic.pdf", source_hash="i" * 64, schema=Schema()
+    )
+
+    assert [item.segment.segment_kind for item in inputs] == [
+        "heading",
+        "table-block",
+        "paragraph",
+    ]
+    assert "with one more wrapped line" in inputs[1].segment.text
+    assert "with a fourth wrapped line" in inputs[1].segment.text
+    assert "2 Second result starts here" in inputs[1].segment.text
+
+
+def test_document_model_segmentation_keeps_table_caption_as_atom_text_only() -> None:
+    model = _model(
+        (
+            _element("e1", "heading", "Table- Sample Matrix", "Table- Sample Matrix"),
+            _element("e2", "paragraph", "Sample Matrix", "1 Alpha result"),
+            _element("e3", "list_item", "Sample Matrix", "2 Beta result"),
+        )
+    )
+
+    inputs, _profiles = segment_document_model(
+        model, source_locator="generic.pdf", source_hash="h" * 64, schema=Schema()
+    )
+
     assert [item.segment.segment_kind for item in inputs] == ["table-block"]
-    assert "9 Alpha entry" in inputs[0].segment.text
+    assert inputs[0].segment.text.startswith("Table- Sample Matrix")
 
 
 def test_document_model_segmentation_groups_range_value_rows() -> None:

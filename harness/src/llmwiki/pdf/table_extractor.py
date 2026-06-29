@@ -42,11 +42,14 @@ def _enrich_document_model_with_tables_in_process(
             page_end=candidate.page_end,
             text=candidate.raw_text,
             markdown=candidate.raw_text,
+            layout_y0=candidate.y0,
         )
         insert_at = _insert_index(elements, index, candidate)
         insertions.setdefault(insert_at, []).append(element)
         if index is not None and not candidate.insert_after_anchor:
             skip_ids.update(_degraded_fragment_ids(elements, index, candidate))
+        elif index is None:
+            skip_ids.update(_degraded_fragment_ids(elements, insert_at, candidate))
 
     enriched: list[DocumentElement] = []
     for index, element in enumerate(elements):
@@ -84,15 +87,39 @@ def _heading_path_for_candidate(
 ) -> str:
     if index is not None:
         return elements[index].heading_path
+    same_page = _same_page_preceding_element(elements, candidate)
+    if same_page is not None:
+        return same_page.heading_path
     for element in reversed(elements):
-        if element.page_start <= candidate.page_start and element.heading_path:
+        if element.page_start < candidate.page_start and element.heading_path:
             return element.heading_path
     return "Document"
+
+
+def _same_page_preceding_element(
+    elements: list[DocumentElement], candidate: TableCandidate
+) -> DocumentElement | None:
+    candidates = [
+        (element.layout_y0, index, element)
+        for index, element in enumerate(elements)
+        if element.page_start == candidate.page_start
+        and element.heading_path
+        and element.layout_y0 <= candidate.y0
+    ]
+    if not candidates:
+        return None
+    return max(candidates, key=lambda item: (item[0], item[1]))[2]
 
 
 def _page_insert_index(elements: list[DocumentElement], candidate: TableCandidate) -> int:
     for index, element in enumerate(elements):
         if element.page_start > candidate.page_start:
+            return index
+        if (
+            element.page_start == candidate.page_start
+            and candidate.y0 > 0
+            and element.layout_y0 > candidate.y0
+        ):
             return index
     return len(elements)
 
@@ -125,4 +152,4 @@ def _degraded_fragment_ids(
 
 
 def _norm(text: str) -> str:
-    return " ".join(text.replace("\t", " ").lower().split())
+    return " ".join(text.replace("\t", " ").replace("|", " ").lower().split())
