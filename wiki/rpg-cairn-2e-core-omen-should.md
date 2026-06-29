@@ -3,10 +3,10 @@ page_id: rpg-cairn-2e-core-omen-should
 page_kind: concept
 summary: Omens Should...: 2 statement(s) and 4 atom(s) from raw/rpg_cairn_2e_core.pdf.
 sources: raw/rpg_cairn_2e_core.pdf
-updated: 2026-06-26
+updated: 2026-06-29
 domain: rpg-cairn-2e-core
 category_path: concepts
-projection_coverage: topic-rpg-cairn-2e-core-omen-should@d5257356b014c04e557f62bd09079646
+projection_coverage: topic-rpg-cairn-2e-core-omen-should@4fbbe9c745a8a3b853de5b5055a8a1de
 ---
 
 # Omens Should...
@@ -15,10 +15,18 @@ What [[rpg-cairn-2e-core]] covers about omens should...:
 
 ## Statements
 
+### Omens Should...
+
 - Alway tell the characters something about the setting they did not already know. _(rpg_cairn_2e_core.pdf (source-range-ad2c341f-00650))_
+
 - Reveal a pattern or other obvious indicator that something terrible is going on. _(rpg_cairn_2e_core.pdf (source-range-ad2c341f-00651))_
 
+
 ## Technical atoms
+
+### Technical frame 1: Omens
+
+**Atom:** _(rpg_cairn_2e_core.pdf (source-range-ad2c341f-00144))_
 
 | entry | content |
 | --- | --- |
@@ -35,7 +43,10 @@ d20 Omen
 ```
 
 </details>
-_(source: rpg_cairn_2e_core.pdf (source-range-ad2c341f-00144))_
+
+### Technical frame 2: Omens
+
+**Atom:** _(rpg_cairn_2e_core.pdf (source-range-ad2c341f-00157))_
 
 | entry | content |
 | --- | --- |
@@ -55,7 +66,10 @@ There	is	a	village	known	far	and	wide	for	its	impressive "mother	tree,"	said	to	
 ```
 
 </details>
-_(source: rpg_cairn_2e_core.pdf (source-range-ad2c341f-00157))_
+
+### Technical frame 3: Omens
+
+**Atom:** _(rpg_cairn_2e_core.pdf (source-range-ad2c341f-00163))_
 
 | entry | content |
 | --- | --- |
@@ -95,7 +109,10 @@ fear	and	dread.
 ```
 
 </details>
-_(source: rpg_cairn_2e_core.pdf (source-range-ad2c341f-00163))_
+
+### Technical frame 4: Omens Should...
+
+**Atom:** _(rpg_cairn_2e_core.pdf (source-range-ad2c341f-00652))_
 
 | entry | content |
 | --- | --- |
@@ -419,8 +436,17 @@ You may mentally 1 move item under 60lbs. The owner can summon the book
 ```
 
 </details>
-_(source: rpg_cairn_2e_core.pdf (source-range-ad2c341f-00652))_
 
+
+## Related pages
+
+- [[rpg-cairn-2e-core-omen]] - broader topic: Omens shares technical record from Omens: d20 Omen 1 The	once	rich	waters	of	a	life-giving	river	have	turned	black and	putrid,	tainting	the	land	and	sickening	those	who	drink from	it.	A	village	elder	points ... [truncated] (4 shared atom(s))
+- [[rpg-cairn-2e-core-bond-and-omen]] - shared technical atoms: Bonds and Omens shares technical record from Omens: d20 Omen 1 The	once	rich	waters	of	a	life-giving	river	have	turned	black and	putrid,	tainting	the	land	and	sickening	those	who	drink from	it.	A	village	elder	points ... [truncated] (3 shared atom(s))
+- [[rpg-cairn-2e-core-knowledge-and-perception]] - shared technical atoms: Knowledge And Perception shares technical record from Omens: d20 Omen 1 The	once	rich	waters	of	a	life-giving	river	have	turned	black and	putrid,	tainting	the	land	and	sickening	those	who	drink from	it.	A	village	elder	points ... [truncated] (3 shared atom(s))
+- [[rpg-cairn-2e-core-principle-for-player]] - shared technical atoms: Principles for Players shares technical record from Omens: 6 region,	sparking	a	"gold	rush"	of	sorts	for	jewelers	and	thieves alike.	The	locals	believe	they	are	the	tears	of	the	earth	itself, weeping	for	a	great	tragedy	yet ... [truncated] (2 shared atom(s))
+- [[rpg-cairn-2e-core-principle-for-warden]] - shared technical atoms: Principles for Wardens shares technical record from Omens: 6 region,	sparking	a	"gold	rush"	of	sorts	for	jewelers	and	thieves alike.	The	locals	believe	they	are	the	tears	of	the	earth	itself, weeping	for	a	great	tragedy	yet ... [truncated] (2 shared atom(s))
+- [[rpg-cairn-2e-core-character]] - shared statements: Character shares source evidence from Omens Should...: Alway tell the characters something about the setting they did not already know. (1 shared statement(s))
+- [[rpg-cairn-2e-core-section-omens-should-f6d736f8]] - source section: Omens Should... shares source evidence from Omens Should...: Alway tell the characters something about the setting they did not already know.; Omens Should... shares technical record from Omens: d20 Omen 1 The	once	rich	waters	of	a	life-giving	river	have	turned	black and	putrid,	tainting	the	land	and	sickening	those	who	drink from	it.	A	village	elder	points ... [truncated] (2 shared statement(s), 4 shared atom(s))
 
 ## Source
 

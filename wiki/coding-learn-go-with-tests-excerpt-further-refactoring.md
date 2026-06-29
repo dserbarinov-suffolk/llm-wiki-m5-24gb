@@ -3,10 +3,10 @@ page_id: coding-learn-go-with-tests-excerpt-further-refactoring
 page_kind: concept
 summary: Further refactoring: 7 statement(s) and 2 atom(s) from raw/coding_learn_go_with_tests_excerpt.pdf.
 sources: raw/coding_learn_go_with_tests_excerpt.pdf
-updated: 2026-06-26
+updated: 2026-06-29
 domain: coding-learn-go-with-tests-excerpt
 category_path: concepts
-projection_coverage: topic-coding-learn-go-with-tests-excerpt-further-refactoring@49cf312fe1ec0c836b597c35e45e0d43
+projection_coverage: topic-coding-learn-go-with-tests-excerpt-further-refactoring@bcf4e5b8fe48f17e930817e21c84e2f9
 ---
 
 # Further refactoring
@@ -15,24 +15,38 @@ What [[coding-learn-go-with-tests-excerpt]] covers about further refactoring:
 
 ## Statements
 
-- Now that you have some understanding of structs we can introduce "table driven tests". _(coding_learn_go_with_tests_excerpt.pdf (source-range-f4b7154d-00495))_
-- The only new syntax here is creating an "anonymous struct", areaTests . _(coding_learn_go_with_tests_excerpt.pdf (source-range-f4b7154d-00498))_
-- We then iterate over them just like we do any other slice, using the struct fields to run our tests. _(coding_learn_go_with_tests_excerpt.pdf (source-range-f4b7154d-00499))_
-- In addition, if a bug is found with Area it is very easy to add a new test case to exercise it before fixing it. _(coding_learn_go_with_tests_excerpt.pdf (source-range-f4b7154d-00500))_
-- You can see how it would be very easy for a developer to introduce a new shape, implement Area and then add it to the test cases. _(coding_learn_go_with_tests_excerpt.pdf (source-range-f4b7154d-00500))_
-- Table driven tests can be a great item in your toolbox, but be sure that you have a need for the extra noise in the tests. _(coding_learn_go_with_tests_excerpt.pdf (source-range-f4b7154d-00501))_
-- They are a great fit when you wish to test various implementations of an interface, or if the data being passed in to a function has lots of different requirements that need testing. _(coding_learn_go_with_tests_excerpt.pdf (source-range-f4b7154d-00501))_
+### Decoupling / Further refactoring
+
+- Now that you have some understanding of structs we can introduce "table driven tests". _(coding_learn_go_with_tests_excerpt.pdf (source-range-cb73a893-00495))_
+
+- The only new syntax here is creating an "anonymous struct", areaTests . We are declaring a slice of structs by using []struct with two fields, the shape and the want . Then we fill the slice with cases. _(coding_learn_go_with_tests_excerpt.pdf (source-range-cb73a893-00498))_
+
+- We then iterate over them just like we do any other slice, using the struct fields to run our tests. _(coding_learn_go_with_tests_excerpt.pdf (source-range-cb73a893-00499))_
+
+- You can see how it would be very easy for a developer to introduce a new shape, implement Area and then add it to the test cases. In addition, if a bug is found with Area it is very easy to add a new test case to exercise it before fixing it. _(coding_learn_go_with_tests_excerpt.pdf (source-range-cb73a893-00500))_
+
+- Table driven tests can be a great item in your toolbox, but be sure that you have a need for the extra noise in the tests. They are a great fit when you wish to test various implementations of an interface, or if the data being passed in to a function has lots of different requirements that need testing. _(coding_learn_go_with_tests_excerpt.pdf (source-range-cb73a893-00501))_
+
 
 ## Technical atoms
 
-> Context: Now that you have some understanding of structs we can introduce "table driven tests".
-_(context: coding_learn_go_with_tests_excerpt.pdf (source-range-f4b7154d-00495))_
+### Technical frame 1: Decoupling / Further refactoring
+
+**Context:** _(coding_learn_go_with_tests_excerpt.pdf (source-range-cb73a893-00498))_
+
+> The only new syntax here is creating an "anonymous struct", areaTests . We are declaring a slice of structs by using []struct with two fields, the shape and the want . Then we fill the slice with cases.
+
+**Atom:** _(coding_learn_go_with_tests_excerpt.pdf (source-range-cb73a893-00496))_
 
 > Table driven tests are useful when you want to build a list of test cases that can be tested in the same manner.
-_(source: coding_learn_go_with_tests_excerpt.pdf (source-range-f4b7154d-00496))_
 
-> Context: Table driven tests are useful when you want to build a list of test cases that can be tested in the same manner.
-_(context: coding_learn_go_with_tests_excerpt.pdf (source-range-f4b7154d-00496))_
+### Technical frame 2: Decoupling / Further refactoring
+
+**Context:** _(coding_learn_go_with_tests_excerpt.pdf (source-range-cb73a893-00498))_
+
+> The only new syntax here is creating an "anonymous struct", areaTests . We are declaring a slice of structs by using []struct with two fields, the shape and the want . Then we fill the slice with cases.
+
+**Atom:** _(coding_learn_go_with_tests_excerpt.pdf (source-range-cb73a893-00497))_
 
 ```
 func TestArea(t *testing.T) {
@@ -51,8 +65,13 @@ for _, tt := range areaTests {
     }
 }
 ```
-_(source: coding_learn_go_with_tests_excerpt.pdf (source-range-f4b7154d-00497))_
 
+
+## Related pages
+
+- [[coding-learn-go-with-tests-excerpt-decoupling]] - shared statements and technical atoms: Decoupling shares source evidence from Decoupling / Further refactoring: Now that you have some understanding of structs we can introduce "table driven tests".; Decoupling shares technical record from Decoupling / Further refactoring: Table driven tests are useful when you want to build a list of test cases that can be tested in the same manner. (7 shared statement(s), 2 shared atom(s))
+- [[coding-learn-go-with-tests-excerpt-test]] - shared statements and technical atoms: Test shares source evidence from Decoupling / Further refactoring: Table driven tests can be a great item in your toolbox, but be sure that you have a need for the extra noise in the tests. They are a great fit when you wish to test ... [truncated]; Test shares technical record from Decoupling / Further refactoring: Table driven tests are useful when you want to build a list of test cases that can be tested in the same manner. (1 shared statement(s), 2 shared atom(s))
+- [[coding-learn-go-with-tests-excerpt-section-decoupling-further-refactoring-7cd54aa3]] - source section: Decoupling / Further refactoring shares source evidence from Decoupling / Further refactoring: Now that you have some understanding of structs we can introduce "table driven tests".; Decoupling / Further refactoring shares technical record from Decoupling / Further refactoring: Table driven tests are useful when you want to build a list of test cases that can be tested in the same manner. (7 shared statement(s), 2 shared atom(s))
 
 ## Source
 

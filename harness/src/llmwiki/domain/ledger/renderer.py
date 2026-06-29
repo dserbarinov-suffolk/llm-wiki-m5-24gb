@@ -10,6 +10,7 @@ source-facing labels; internal support ids never appear in the body.
 
 from __future__ import annotations
 
+from llmwiki.domain.ledger.atom_context import TechnicalAtomContext, best_atom_context
 from llmwiki.domain.ledger.atoms import AtomPayload, TablePayload, atom_raw_text
 from llmwiki.domain.ledger.canonical import deterministic_id, short_digest
 from llmwiki.domain.ledger.coverage import (
@@ -18,6 +19,7 @@ from llmwiki.domain.ledger.coverage import (
     ProjectionCoverage,
     ProjectionCoverageEntry,
     RenderedPage,
+    clean_statement,
 )
 from llmwiki.domain.ledger.ledger import ClaimLedger
 from llmwiki.domain.ledger.projection import LedgerProjectionPlan
@@ -64,7 +66,8 @@ def _render_atom(
     if atom is None:
         return body.add(f"> _(missing atom {atom_id})_\n\n")
     rendered = atom_block(atom.technical_atom_kind, atom.payload)
-    return body.add(f"{rendered}\n_(source: {citation})_\n\n")
+    context = _atom_context_line(ledger, atom_id, atom.source_locator)
+    return body.add(f"{context}**Atom:** _({citation})_\n\n{rendered}\n\n")
 
 
 def atom_block(kind: str, payload: AtomPayload) -> str:
@@ -75,6 +78,19 @@ def atom_block(kind: str, payload: AtomPayload) -> str:
     if kind == "table":
         return _table_block(payload) if isinstance(payload, TablePayload) else f"```\n{raw}\n```"
     return "\n".join(f"> {line}" for line in raw.splitlines()) or "> "
+
+
+def _atom_context_line(ledger: ClaimLedger, atom_id: str, source_locator: str) -> str:
+    context = best_atom_context(ledger.atom_contexts(atom_id))
+    if context is None:
+        return ""
+    return atom_context_block(context, source_locator)
+
+
+def atom_context_block(context: TechnicalAtomContext, source_locator: str) -> str:
+    context_text = clean_statement(context.context_text)[:500]
+    context_source = ", ".join(context.context_source_range_ids)
+    return f"**Context:** _({source_locator} ({context_source}))_\n\n> {context_text}\n\n"
 
 
 def _table_block(payload: TablePayload) -> str:

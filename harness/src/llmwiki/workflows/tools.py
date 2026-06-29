@@ -27,6 +27,8 @@ from llmwiki.domain.search import render_hits, search_pages
 from llmwiki.pdf.intermediate import OCR_MARKER
 from llmwiki.store import WikiStore, WikiStoreError
 
+_READ_PAGE_MAX_CHARS = 12_000
+
 
 def _strip_pipeline_markers(content: str) -> str:
     """Content hygiene at the wiki boundary: extraction-pipeline markers
@@ -75,6 +77,17 @@ class ReadIndexParams(BaseModel):
 
 class ReadPageParams(BaseModel):
     page_id: str = Field(description="WikiPage page_id, e.g. 'bronze-age-collapse'.")
+    offset: int = Field(
+        default=0,
+        ge=0,
+        description="Character offset for chunked reads of large WikiPages.",
+    )
+    max_chars: int = Field(
+        default=_READ_PAGE_MAX_CHARS,
+        ge=1,
+        le=_READ_PAGE_MAX_CHARS,
+        description="Maximum characters to return. Use offset for additional chunks.",
+    )
 
 
 class WritePageParams(BaseModel):
@@ -180,7 +193,7 @@ def read_page_tool(store: WikiStore, read_tracker: set[str] | None = None) -> To
         text = store.read_page(params.page_id)
         if read_tracker is not None:
             read_tracker.add(params.page_id)
-        return text
+        return _read_page_chunk(params.page_id, text, params.offset, params.max_chars)
 
     return ToolDef(
         spec=ToolSpec(
@@ -190,6 +203,22 @@ def read_page_tool(store: WikiStore, read_tracker: set[str] | None = None) -> To
         ),
         callable=_read_page,
     )
+
+
+def _read_page_chunk(page_id: str, text: str, offset: int, max_chars: int) -> str:
+    start = min(offset, len(text))
+    end = min(start + max_chars, len(text))
+    chunk = text[start:end]
+    if start == 0 and end == len(text):
+        return chunk
+    lines = [
+        f"[Showing wiki/{page_id}.md characters {start}-{end} of {len(text)}.]",
+        "",
+        chunk,
+    ]
+    if end < len(text):
+        lines.extend(["", f"[Truncated. Continue with read_page offset={end}.]"])
+    return "\n".join(lines)
 
 
 def write_page_tool(

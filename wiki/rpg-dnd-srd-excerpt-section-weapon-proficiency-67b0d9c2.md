@@ -3,32 +3,46 @@ page_id: rpg-dnd-srd-excerpt-section-weapon-proficiency-67b0d9c2
 page_kind: source
 summary: Weapon Proficiency: 10 source-backed entries and 3 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
 sources: raw/rpg_dnd_srd_excerpt.pdf
-updated: 2026-06-26
+updated: 2026-06-29
 domain: rpg-dnd-srd-excerpt
 category_path: sources/rpg-dnd-srd-excerpt/sections
 source_id: rpg_dnd_srd_excerpt.pdf
-projection_coverage: section-rpg-dnd-srd-excerpt-section-weapon-proficiency-67b0d9c2@a9e41c541393d2b0d8350dd62938ca40
+projection_coverage: section-rpg-dnd-srd-excerpt-section-weapon-proficiency-67b0d9c2@09771f68b6a1c2f05d964ae3336c06b9
 ---
 
 # Weapon Proficiency
 
 From [[rpg-dnd-srd-excerpt]].
 
+## Related pages
+
+- [[rpg-dnd-srd-excerpt-weapon-proficiency]] - topic hub: opens the topic page for Weapon Proficiency
+
 ## Statements
 
-- Most people can use simple weapons with proficiency. _(rpg_dnd_srd_excerpt.pdf (source-range-b7d08967-00504))_
-- Martial weapons, including swords, axes, and polearms, require more specialized training to use effectively. _(rpg_dnd_srd_excerpt.pdf (source-range-b7d08967-00504))_
-- The two categories are simple and martial . _(rpg_dnd_srd_excerpt.pdf (source-range-b7d08967-00504))_
-- These weapons include clubs, maces, and other weapons often found in the hands of commoners. _(rpg_dnd_srd_excerpt.pdf (source-range-b7d08967-00504))_
-- Your race, class, and feats can grant you proficiency with certain weapons or categories of weapons. _(rpg_dnd_srd_excerpt.pdf (source-range-b7d08967-00504))_
+- Your race, class, and feats can grant you proficiency with certain weapons or categories of weapons. The two categories are simple and martial . Most people can use simple weapons with proficiency. These weapons include clubs, maces, and other weapons often found in the hands of commoners. Martial weapons, including swords, axes, and polearms, require more specialized training to use effectively. Most warriors use martial weapons because these weapons put their fighting style and training to best use. _(rpg_dnd_srd_excerpt.pdf (source-range-b7d08967-00504))_
+- Proficiency with a weapon allows you to add your proficiency bonus to the attack roll for any attack you make with that weapon. If you make an attack roll using a weapon with which you lack proficiency, you do not add your proficiency bonus to the attack roll. _(rpg_dnd_srd_excerpt.pdf (source-range-b7d08967-00505))_
 - Most warriors use martial weapons because these weapons put their fighting style and training to best use. _(rpg_dnd_srd_excerpt.pdf (source-range-b7d08967-00504))_
-- Most warriors use martial weapons because these weapons put their fighting style and training to best use. _(rpg_dnd_srd_excerpt.pdf (source-range-b7d08967-00504))_
-- Proficiency with a weapon allows you to add your proficiency bonus to the attack roll for any attack you make with that weapon. _(rpg_dnd_srd_excerpt.pdf (source-range-b7d08967-00505))_
 
 ## Technical atoms
 
+### Technical frame 1: Weapon Proficiency
+
+**Context:** _(rpg_dnd_srd_excerpt.pdf (source-range-b7d08967-00504))_
+
+> Your race, class, and feats can grant you proficiency with certain weapons or categories of weapons. The two categories are simple and martial . Most people can use simple weapons with proficiency. These weapons include clubs, maces, and other weapons often found in the hands of commoners. Martial weapons, including swords, axes, and polearms, require more specialized training to use effectively. Most warriors use martial weapons because these weapons put their fighting style and training to bes
+
+**Atom:** _(rpg_dnd_srd_excerpt.pdf (source-range-b7d08967-00505))_
+
 > If you make an attack roll using a weapon with which you lack proficiency, you do not add your proficiency bonus to the attack roll.
-_(source: rpg_dnd_srd_excerpt.pdf (source-range-b7d08967-00505))_
+
+### Technical frame 2: Table- Donning and Doﬀing Armor
+
+**Context:** _(rpg_dnd_srd_excerpt.pdf (source-range-b7d08967-00504))_
+
+> Your race, class, and feats can grant you proficiency with certain weapons or categories of weapons. The two categories are simple and martial . Most people can use simple weapons with proficiency. These weapons include clubs, maces, and other weapons often found in the hands of commoners. Martial weapons, including swords, axes, and polearms, require more specialized training to use effectively. Most warriors use martial weapons because these weapons put their fighting style and training to bes
+
+**Atom:** _(rpg_dnd_srd_excerpt.pdf (source-range-b7d08967-00506))_
 
 | Table- Donning | and Doﬀing | Armor |
 | --- | --- | --- |
@@ -51,7 +65,14 @@ Table- Donning   and Doﬀing   Armor
 ```
 
 </details>
-_(source: rpg_dnd_srd_excerpt.pdf (source-range-b7d08967-00506))_
+
+### Technical frame 3: Table- Weapons
+
+**Context:** _(rpg_dnd_srd_excerpt.pdf (source-range-b7d08967-00528))_
+
+> Weapons with special rules are described here.
+
+**Atom:** _(rpg_dnd_srd_excerpt.pdf (source-range-b7d08967-00532))_
 
 | Name | Cost | Damage | Weight | Properties |
 | --- | --- | --- | --- | --- |
@@ -98,4 +119,3 @@ Table- Weapons
 ```
 
 </details>
-_(source: rpg_dnd_srd_excerpt.pdf (source-range-b7d08967-00532))_

@@ -3,6 +3,7 @@
 from __future__ import annotations
 
 import re
+import unicodedata
 
 from llmwiki.domain.ledger.atoms import TablePayload
 from llmwiki.domain.ledger.ledger import ClaimLedger
@@ -72,11 +73,13 @@ def table_identity_names_by_atom_id(
 
 
 def raw_table_caption_lines(payload: TablePayload) -> tuple[str, ...]:
-    return tuple(
-        line
-        for line in payload.raw_table_text.splitlines()[:3]
-        if _TABLE_CAPTION.match(line.strip())
-    )
+    lines = tuple(line.strip() for line in payload.raw_table_text.splitlines()[:3] if line.strip())
+    caption_lines = [line for line in lines if _TABLE_CAPTION.match(line)]
+    if caption_lines:
+        return tuple(caption_lines)
+    if lines and _one_line_table_title(lines[0]):
+        return (lines[0],)
+    return ()
 
 
 def named_table_references(text: str) -> tuple[str, ...]:
@@ -92,6 +95,7 @@ def named_table_references(text: str) -> tuple[str, ...]:
 
 
 def normalize_table_name(text: str) -> str:
+    text = unicodedata.normalize("NFKC", text)
     match = _TABLE_CAPTION.match(text.strip())
     if match is not None:
         text = match.group(1)
@@ -227,6 +231,16 @@ def _named_heading(text: str) -> tuple[str, ...]:
         return ()
     name = normalize_table_name(text)
     return (name,) if name else ()
+
+
+def _one_line_table_title(line: str) -> bool:
+    if "|" in line or "\t" in line or not line.strip():
+        return False
+    words = line.split()
+    if len(words) != 1:
+        return False
+    word = normalize_table_name(line)
+    return bool(word) and not _roll_notation(word)
 
 
 def _generic_table_heading_cue(text: str) -> bool:

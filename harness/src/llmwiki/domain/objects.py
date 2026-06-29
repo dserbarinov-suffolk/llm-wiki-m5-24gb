@@ -517,7 +517,7 @@ class LintRun:
             if finding.finding_type == "stale index entry"
         )
 
-    def render(self) -> str:
+    def render(self, *, max_items_per_section: int | None = None) -> str:
         if self.is_clean:
             return "No deterministic issues found (links, orphans, and index are consistent)."
         sections: list[str] = []
@@ -526,20 +526,36 @@ class LintRun:
                 f"- {page_id} links to missing page(s): {', '.join(targets)}"
                 for page_id, targets in sorted(self.broken_links.items())
             ]
-            sections.append("Broken [[links]] (target page does not exist):\n" + "\n".join(lines))
+            sections.append(
+                "Broken [[links]] (target page does not exist):\n"
+                + _render_limited_lines(lines, max_items_per_section)
+            )
         if self.orphan_pages:
+            lines = [f"- {page_id}" for page_id in self.orphan_pages]
             sections.append(
                 "Orphan pages (no inbound links from any other page):\n"
-                + "\n".join(f"- {page_id}" for page_id in self.orphan_pages)
+                + _render_limited_lines(lines, max_items_per_section)
             )
         if self.missing_from_index:
+            lines = [f"- {page_id}" for page_id in self.missing_from_index]
             sections.append(
                 "Pages missing from index.md:\n"
-                + "\n".join(f"- {page_id}" for page_id in self.missing_from_index)
+                + _render_limited_lines(lines, max_items_per_section)
             )
         if self.stale_index_entries:
+            lines = [f"- {page_id}" for page_id in self.stale_index_entries]
             sections.append(
                 "index.md entries whose page does not exist:\n"
-                + "\n".join(f"- {page_id}" for page_id in self.stale_index_entries)
+                + _render_limited_lines(lines, max_items_per_section)
             )
         return "\n\n".join(sections)
+
+
+def _render_limited_lines(lines: list[str], max_items: int | None) -> str:
+    if max_items is None or len(lines) <= max_items:
+        return "\n".join(lines)
+    limit = max(0, max_items)
+    shown = lines[:limit]
+    omitted = len(lines) - limit
+    shown.append(f"- ... {omitted} more")
+    return "\n".join(shown)

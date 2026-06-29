@@ -2,7 +2,7 @@
 
 Derived artifacts live under <cache_root>/<sha256-prefix>/.
 They are disposable, reproducible, and outside the wiki's three layers.
-Re-running with an existing manifest is a cache hit.
+Re-running with a complete existing artifact set is a cache hit.
 """
 
 from __future__ import annotations
@@ -66,6 +66,14 @@ def read_document_model(cache_dir: Path) -> DocumentModel | None:
     return document_model_from_json(path.read_text(encoding="utf-8"))
 
 
+def cache_has_current_pdf_artifacts(cache_dir: Path) -> bool:
+    return (
+        (cache_dir / _MANIFEST_FILE).is_file()
+        and (cache_dir / _DOCUMENT_MODEL_FILE).is_file()
+        and (cache_dir / _SOURCE_SECTIONS_FILE).is_file()
+    )
+
+
 def _sha256(path: Path) -> str:
     digest = hashlib.sha256()
     with path.open("rb") as fh:
@@ -88,11 +96,13 @@ def ensure_extracted(
     cache_dir = cache_root / sha[:16]
     manifest_path = cache_dir / _MANIFEST_FILE
 
-    if manifest_path.exists() and not reextract:
-        return ExtractionResult(
-            manifest=from_json(manifest_path.read_text(encoding="utf-8")),
-            cache_dir=cache_dir,
-        )
+    if cache_has_current_pdf_artifacts(cache_dir) and not reextract:
+        manifest = from_json(manifest_path.read_text(encoding="utf-8"))
+        if _chunk_files_present(cache_dir, manifest):
+            return ExtractionResult(manifest=manifest, cache_dir=cache_dir)
+        document_model = read_document_model(cache_dir)
+        if document_model is not None:
+            return _write_derived_artifacts(cache_dir, source_rel, document_model)
 
     if classify_pdf(read_page_char_counts(pdf_path)) is PdfKind.SCANNED:
         raise ScannedPdfError(
@@ -105,6 +115,14 @@ def ensure_extracted(
     document_model = enrich_document_model_with_tables(
         pdf_path, document_extractor(pdf_path, source_rel, sha)
     )
+    return _write_derived_artifacts(cache_dir, source_rel, document_model)
+
+
+def _write_derived_artifacts(
+    cache_dir: Path,
+    source_rel: str,
+    document_model: DocumentModel,
+) -> ExtractionResult:
     source_sections = build_source_sections(document_model)
     source_chunks = build_source_chunks(document_model, source_sections)
 
@@ -124,13 +142,17 @@ def ensure_extracted(
 
     manifest = Manifest(
         source=source_rel,
-        sha256=sha,
+        sha256=document_model.source_hash,
         extractor_name=document_model.extractor_name,
         chunks=tuple(_record(c) for c in source_chunks),
     )
     result = ExtractionResult(manifest=manifest, cache_dir=cache_dir)
     save_manifest(result)
     return result
+
+
+def _chunk_files_present(cache_dir: Path, manifest: Manifest) -> bool:
+    return all(chunk_file(cache_dir, record.chunk_id).is_file() for record in manifest.chunks)
 
 
 def _record(chunk: SourceChunk) -> ChunkRecord:

@@ -19,12 +19,16 @@ from llmwiki.domain.ledger.coverage import (
     clean_statement,
 )
 from llmwiki.domain.ledger.ledger import ClaimLedger
-from llmwiki.domain.ledger.renderer import atom_block
+from llmwiki.domain.ledger.projection_context import ProjectionContext
+from llmwiki.domain.ledger.projection_context_render import (
+    atom_frame_markdown,
+    evidence_block_line,
+)
+from llmwiki.domain.ledger.renderer import atom_block, atom_context_block
+from llmwiki.domain.ledger.topic_relations import RelatedTopicLink
 from llmwiki.domain.ledger.topic_terms import topic_matcher
 from llmwiki.domain.ledger.topics import SourceTopic
-
-_MAX_STATEMENTS = 14
-_MAX_ATOMS = 6
+from llmwiki.domain.ledger.walkability import related_link_markdown
 
 
 def render_topic_page(
@@ -33,6 +37,8 @@ def render_topic_page(
     *,
     wiki_page_locator: str,
     source_page_id: str,
+    related_pages: tuple[RelatedTopicLink, ...] = (),
+    projection_context: ProjectionContext | None = None,
 ) -> RenderedPage:
     body = PageBodyBuilder()
     entries: list[ProjectionCoverageEntry] = []
@@ -40,7 +46,26 @@ def render_topic_page(
     body.add(f"What [[{source_page_id}]] covers about {topic.label.lower()}:\n\n")
 
     body.add("## Statements\n\n")
-    for entry_id in topic.entry_ids[:_MAX_STATEMENTS]:
+    rendered_entry_ids: set[str] = set()
+    if projection_context is not None:
+        current_section_label = ""
+        for block in projection_context.blocks_for_entries(topic.entry_ids):
+            selected = tuple(
+                entry_id for entry_id in block.entry_ids if entry_id in topic.entry_ids
+            )
+            if not selected:
+                continue
+            if block.section_label and block.section_label != current_section_label:
+                body.add(f"### {block.section_label}\n\n")
+                current_section_label = block.section_label
+            span = body.add(f"{evidence_block_line(block)}\n\n")
+            rendered_entry_ids.update(selected)
+            entries.append(
+                _coverage(wiki_page_locator, "projected-evidence-block", span, selected=selected)
+            )
+    for entry_id in topic.entry_ids:
+        if entry_id in rendered_entry_ids:
+            continue
         entry = ledger.entry(entry_id)
         if entry is None or not (entry.normalized_text or entry.source_text).strip():
             continue
@@ -51,19 +76,47 @@ def render_topic_page(
             _coverage(wiki_page_locator, "generated-page-claim", span, selected=(entry_id,))
         )
 
-    rendered_atoms = [atom for atom in (ledger.atom(a) for a in topic.atom_ids) if atom is not None]
-    if rendered_atoms:
+    rendered_atom_ids: set[str] = set()
+    atom_frames = (
+        projection_context.frames_for_atoms(topic.atom_ids)
+        if projection_context is not None
+        else ()
+    )
+    rendered_atoms = [
+        atom
+        for atom in (ledger.atom(a) for a in topic.atom_ids)
+        if atom is not None and atom.technical_atom_id not in rendered_atom_ids
+    ]
+    if atom_frames or rendered_atoms:
         matcher = topic_matcher(topic.match_terms)
         body.add("\n## Technical atoms\n\n")
-        for atom in rendered_atoms[:_MAX_ATOMS]:
+        for index, frame in enumerate(atom_frames, start=1):
+            selected_atoms = tuple(
+                atom_id for atom_id in frame.atom_ids if atom_id in topic.atom_ids
+            )
+            if not selected_atoms or projection_context is None:
+                continue
+            span = body.add(atom_frame_markdown(frame, ledger, projection_context, index))
+            body.add("\n")
+            rendered_atom_ids.update(selected_atoms)
+            entries.append(
+                _coverage(
+                    wiki_page_locator,
+                    "technical-atom-frame",
+                    span,
+                    atom_id=selected_atoms[0],
+                )
+            )
+        rendered_atoms = [
+            atom
+            for atom in (ledger.atom(a) for a in topic.atom_ids)
+            if atom is not None and atom.technical_atom_id not in rendered_atom_ids
+        ]
+        for index, atom in enumerate(rendered_atoms, start=len(atom_frames) + 1):
+            body.add(f"### Technical atom {index}\n\n")
             context = best_atom_context(ledger.atom_contexts(atom.technical_atom_id), matcher)
             if context is not None:
-                context_text = clean_statement(context.context_text)
-                context_source = ", ".join(context.context_source_range_ids)
-                span = body.add(
-                    f"> Context: {context_text}\n"
-                    f"_(context: {atom.source_locator} ({context_source}))_\n\n"
-                )
+                span = body.add(atom_context_block(context, atom.source_locator))
                 entries.append(
                     _coverage(
                         wiki_page_locator,
@@ -74,13 +127,27 @@ def render_topic_page(
                 )
             rendered = atom_block(atom.technical_atom_kind, atom.payload)
             citation = f"{atom.source_locator} ({atom.source_range_id})"
-            span = body.add(f"{rendered}\n_(source: {citation})_\n\n")
+            span = body.add(f"**Atom:** _({citation})_\n\n{rendered}\n\n")
             entries.append(
                 _coverage(
                     wiki_page_locator,
                     "rendered-technical-atom-block",
                     span,
                     atom_id=atom.technical_atom_id,
+                )
+            )
+
+    if related_pages:
+        body.add("\n## Related pages\n\n")
+        for link in related_pages:
+            span = body.add(f"{related_link_markdown(link)}\n")
+            entries.append(
+                _coverage(
+                    wiki_page_locator,
+                    "related-page-link",
+                    span,
+                    selected=link.shared_entry_ids,
+                    atom_id=link.shared_atom_ids[0] if link.shared_atom_ids else "",
                 )
             )
 

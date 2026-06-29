@@ -3,10 +3,10 @@ page_id: rpg-cairn-2e-core-knowledge-and-perception
 page_kind: concept
 summary: Knowledge And Perception: 0 statement(s) and 6 atom(s) from raw/rpg_cairn_2e_core.pdf.
 sources: raw/rpg_cairn_2e_core.pdf
-updated: 2026-06-26
+updated: 2026-06-29
 domain: rpg-cairn-2e-core
 category_path: concepts
-projection_coverage: topic-rpg-cairn-2e-core-knowledge-and-perception@d0ed1f7550f3f47063a7a95a908a83d2
+projection_coverage: topic-rpg-cairn-2e-core-knowledge-and-perception@a5354ef2039dc85d9cb5b59fe124a28d
 ---
 
 # Knowledge And Perception
@@ -17,6 +17,10 @@ What [[rpg-cairn-2e-core]] covers about knowledge and perception:
 
 
 ## Technical atoms
+
+### Technical frame 1: Bonds
+
+**Atom:** _(rpg_cairn_2e_core.pdf (source-range-ad2c341f-00128))_
 
 | entry | content |
 | --- | --- |
@@ -44,7 +48,10 @@ You	inherited	an	old Journal ,	bound	in	bark.	Each	evening,	its
 ```
 
 </details>
-_(source: rpg_cairn_2e_core.pdf (source-range-ad2c341f-00128))_
+
+### Technical frame 2: Bonds
+
+**Atom:** _(rpg_cairn_2e_core.pdf (source-range-ad2c341f-00131))_
 
 | entry | content |
 | --- | --- |
@@ -69,7 +76,10 @@ A	roaming	storyteller	once	spun	you	tales	of	great	treasure
 ```
 
 </details>
-_(source: rpg_cairn_2e_core.pdf (source-range-ad2c341f-00131))_
+
+### Technical frame 3: Omens
+
+**Atom:** _(rpg_cairn_2e_core.pdf (source-range-ad2c341f-00144))_
 
 | entry | content |
 | --- | --- |
@@ -86,7 +96,10 @@ d20 Omen
 ```
 
 </details>
-_(source: rpg_cairn_2e_core.pdf (source-range-ad2c341f-00144))_
+
+### Technical frame 4: Omens
+
+**Atom:** _(rpg_cairn_2e_core.pdf (source-range-ad2c341f-00157))_
 
 | entry | content |
 | --- | --- |
@@ -106,7 +119,10 @@ There	is	a	village	known	far	and	wide	for	its	impressive "mother	tree,"	said	to	
 ```
 
 </details>
-_(source: rpg_cairn_2e_core.pdf (source-range-ad2c341f-00157))_
+
+### Technical frame 5: Omens
+
+**Atom:** _(rpg_cairn_2e_core.pdf (source-range-ad2c341f-00163))_
 
 | entry | content |
 | --- | --- |
@@ -146,7 +162,10 @@ fear	and	dread.
 ```
 
 </details>
-_(source: rpg_cairn_2e_core.pdf (source-range-ad2c341f-00163))_
+
+### Technical frame 6: Scars Table
+
+**Atom:** _(rpg_cairn_2e_core.pdf (source-range-ad2c341f-00239))_
 
 | entry | content |
 | --- | --- |
@@ -185,8 +204,18 @@ Doomed:	Death	seemed	ever	so	close,	but	somehow	you
 ```
 
 </details>
-_(source: rpg_cairn_2e_core.pdf (source-range-ad2c341f-00239))_
 
+
+## Related pages
+
+- [[rpg-cairn-2e-core-bond-and-omen]] - shared technical atoms: Bonds and Omens shares technical record from Bonds: D20 Bond 1 You	inherited	a Single	Gem (500gp,	cold	and	brittle)	from	a long-dead	relative.	It	arrived	with	a	warning:	squander	your newfound	riches,	and	a	debt	long ... [truncated] (5 shared atom(s))
+- [[rpg-cairn-2e-core-omen]] - shared technical atoms: Omens shares technical record from Omens: d20 Omen 1 The	once	rich	waters	of	a	life-giving	river	have	turned	black and	putrid,	tainting	the	land	and	sickening	those	who	drink from	it.	A	village	elder	points ... [truncated] (3 shared atom(s))
+- [[rpg-cairn-2e-core-omen-should]] - shared technical atoms: Omens Should... shares technical record from Omens: d20 Omen 1 The	once	rich	waters	of	a	life-giving	river	have	turned	black and	putrid,	tainting	the	land	and	sickening	those	who	drink from	it.	A	village	elder	points ... [truncated] (3 shared atom(s))
+- [[rpg-cairn-2e-core-bond]] - shared technical atoms: Bonds shares technical record from Bonds: D20 Bond 1 You	inherited	a Single	Gem (500gp,	cold	and	brittle)	from	a long-dead	relative.	It	arrived	with	a	warning:	squander	your newfound	riches,	and	a	debt	long ... [truncated] (2 shared atom(s))
+- [[rpg-cairn-2e-core-bond-should]] - shared technical atoms: Bonds Should... shares technical record from Bonds: D20 Bond 1 You	inherited	a Single	Gem (500gp,	cold	and	brittle)	from	a long-dead	relative.	It	arrived	with	a	warning:	squander	your newfound	riches,	and	a	debt	long ... [truncated] (2 shared atom(s))
+- [[rpg-cairn-2e-core-principle-for-player]] - shared technical atoms: Principles for Players shares technical record from Bonds: D20 Bond 1 You	inherited	a Single	Gem (500gp,	cold	and	brittle)	from	a long-dead	relative.	It	arrived	with	a	warning:	squander	your newfound	riches,	and	a	debt	long ... [truncated] (2 shared atom(s))
+- [[rpg-cairn-2e-core-principle-for-warden]] - shared technical atoms: Principles for Wardens shares technical record from Bonds: D20 Bond 1 You	inherited	a Single	Gem (500gp,	cold	and	brittle)	from	a long-dead	relative.	It	arrived	with	a	warning:	squander	your newfound	riches,	and	a	debt	long ... [truncated] (2 shared atom(s))
+- [[rpg-cairn-2e-core-result]] - shared technical atoms: Result shares technical record from Scars Table: HP Lost Result take	the	new	result. 2 Rattling	Blow:	You're	disoriented	and	shaken.	Describe	how you	refocus.	Roll	1d6.	If	the	total	is	higher	than	your	max	HP , tak ... [truncated] (1 shared atom(s))
 
 ## Source
 

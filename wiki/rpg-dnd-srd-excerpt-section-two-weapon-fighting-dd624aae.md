@@ -3,11 +3,11 @@ page_id: rpg-dnd-srd-excerpt-section-two-weapon-fighting-dd624aae
 page_kind: source
 summary: Two-Weapon Fighting: 4 source-backed entries and 3 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
 sources: raw/rpg_dnd_srd_excerpt.pdf
-updated: 2026-06-26
+updated: 2026-06-29
 domain: rpg-dnd-srd-excerpt
 category_path: sources/rpg-dnd-srd-excerpt/sections
 source_id: rpg_dnd_srd_excerpt.pdf
-projection_coverage: section-rpg-dnd-srd-excerpt-section-two-weapon-fighting-dd624aae@aea30a3471ff1ad10de383f221a23aca
+projection_coverage: section-rpg-dnd-srd-excerpt-section-two-weapon-fighting-dd624aae@22dbac16d67bd673f700c9e4a8ffec8c
 ---
 
 # Two-Weapon Fighting
@@ -16,16 +16,34 @@ From [[rpg-dnd-srd-excerpt]].
 
 ## Statements
 
-- You don't add your ability modifier to the damage of the bonus attack, unless that modifier is negative. _(rpg_dnd_srd_excerpt.pdf (source-range-b7d08967-00391))_
+- When you take the Attack action and attack with a light melee weapon that you're holding in one hand, you can use a bonus action to attack with a different light melee weapon that you're holding in the other hand. You don't add your ability modifier to the damage of the bonus attack, unless that modifier is negative. _(rpg_dnd_srd_excerpt.pdf (source-range-b7d08967-00391))_
 - You don't add your ability modifier to the damage of the bonus attack, unless that modifier is negative. _(rpg_dnd_srd_excerpt.pdf (source-range-b7d08967-00391))_
 
 ## Technical atoms
 
+### Technical frame 1: Two-Weapon Fighting
+
+**Atom:** _(rpg_dnd_srd_excerpt.pdf (source-range-b7d08967-00391))_
+
 > When you take the Attack action and attack with a light melee weapon that you're holding in one hand, you can use a bonus action to attack with a different light melee weapon that you're holding in the other hand.
-_(source: rpg_dnd_srd_excerpt.pdf (source-range-b7d08967-00391))_
+
+### Technical frame 2: Two-Weapon Fighting
+
+**Context:** _(rpg_dnd_srd_excerpt.pdf (source-range-b7d08967-00391))_
+
+> When you take the Attack action and attack with a light melee weapon that you're holding in one hand, you can use a bonus action to attack with a different light melee weapon that you're holding in the other hand. You don't add your ability modifier to the damage of the bonus attack, unless that modifier is negative.
+
+**Atom:** _(rpg_dnd_srd_excerpt.pdf (source-range-b7d08967-00392))_
 
 > If either weapon has the thrown property, you can throw the weapon, instead of making a melee attack with it.
-_(source: rpg_dnd_srd_excerpt.pdf (source-range-b7d08967-00392))_
+
+### Technical frame 3: Table- Weapons
+
+**Context:** _(rpg_dnd_srd_excerpt.pdf (source-range-b7d08967-00528))_
+
+> Weapons with special rules are described here.
+
+**Atom:** _(rpg_dnd_srd_excerpt.pdf (source-range-b7d08967-00532))_
 
 | Name | Cost | Damage | Weight | Properties |
 | --- | --- | --- | --- | --- |
@@ -72,4 +90,3 @@ Table- Weapons
 ```
 
 </details>
-_(source: rpg_dnd_srd_excerpt.pdf (source-range-b7d08967-00532))_

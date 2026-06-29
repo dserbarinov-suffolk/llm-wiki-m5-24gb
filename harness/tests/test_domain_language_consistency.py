@@ -49,7 +49,7 @@ def test_core_boundaries_do_not_use_legacy_domain_terms() -> None:
 
 def test_model_facing_tool_params_use_domain_code_names() -> None:
     assert set(ReadSourceParams.model_fields) == {"source_locator"}
-    assert set(ReadPageParams.model_fields) == {"page_id"}
+    assert set(ReadPageParams.model_fields) == {"page_id", "offset", "max_chars"}
     assert set(WritePageParams.model_fields) == {
         "page_id",
         "page_kind",

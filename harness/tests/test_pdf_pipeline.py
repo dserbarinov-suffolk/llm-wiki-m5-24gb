@@ -156,6 +156,30 @@ class TestEnsureExtracted:
         assert again.manifest.chunks[0].status == "done"  # resume state survived
         assert document_extractor.calls == 1
 
+    def test_cache_hit_rebuilds_missing_chunk_from_document_model(self, tmp_path: Path) -> None:
+        pdf = tmp_path / "book.pdf"
+        _make_pdf(pdf)
+        document_extractor = FakeDocumentExtractor()
+        first = ensure_extracted(
+            pdf,
+            "book.pdf",
+            tmp_path / "cache",
+            NullRecognizer(),
+            document_extractor=document_extractor,
+        )
+        chunk_file(first.cache_dir, first.manifest.chunks[0].chunk_id).unlink()
+
+        again = ensure_extracted(
+            pdf,
+            "book.pdf",
+            tmp_path / "cache",
+            NullRecognizer(),
+            document_extractor=document_extractor,
+        )
+
+        assert document_extractor.calls == 1
+        assert chunk_file(again.cache_dir, again.manifest.chunks[0].chunk_id).is_file()
+
     def test_reextract_rebuilds_pending_manifest(self, tmp_path: Path) -> None:
         pdf = tmp_path / "book.pdf"
         _make_pdf(pdf)

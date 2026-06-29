@@ -3,10 +3,10 @@ page_id: rpg-cairn-2e-core-day-watch-three
 page_kind: concept
 summary: Day One / Watch Three: 4 statement(s) and 4 atom(s) from raw/rpg_cairn_2e_core.pdf.
 sources: raw/rpg_cairn_2e_core.pdf
-updated: 2026-06-26
+updated: 2026-06-29
 domain: rpg-cairn-2e-core
 category_path: concepts
-projection_coverage: topic-rpg-cairn-2e-core-day-watch-three@89ecfb347e1e03f69e8afbae79ad1107
+projection_coverage: topic-rpg-cairn-2e-core-day-watch-three@602e54b2ce8ac94e8c3a543c26739096
 ---
 
 # Day One / Watch Three
@@ -15,13 +15,21 @@ What [[rpg-cairn-2e-core]] covers about day one / watch three:
 
 ## Statements
 
-- The party takes the Make Camp action. _(rpg_cairn_2e_core.pdf (source-range-ad2c341f-00633))_
-- A lookout rotation is set, dividing the night between all four party members. _(rpg_cairn_2e_core.pdf (source-range-ad2c341f-00633))_
-- Someone is definitely following them. _(rpg_cairn_2e_core.pdf (source-range-ad2c341f-00634))_
+### Day One / Watch Three
+
+- The party takes the Make Camp action. They set up a hastilymade shelter, and each character consumes a Ration. A lookout rotation is set, dividing the night between all four party members. _(rpg_cairn_2e_core.pdf (source-range-ad2c341f-00633))_
+
+- Events Table : Sign . The sky clears up enough for the first person on lookout to see a light in the distance, flickering slowly. A campfire! Someone is definitely following them. _(rpg_cairn_2e_core.pdf (source-range-ad2c341f-00634))_
+
 - Note: the party could have chosen to continue on through the night, but doing so could increase the chance of getting lost and put the party at greater risk! _(rpg_cairn_2e_core.pdf (source-range-ad2c341f-00635))_
+
 
 ## Technical atoms
 
+### Technical frame 1: Hirelings (per day)
+
+**Atom:** _(rpg_cairn_2e_core.pdf (source-range-ad2c341f-00419))_
+
 | Dagger, Cudgel, Sickle, Staﬀ, etc. (d6 damage) | 5 |
 | --- | --- |
 | Spear, Sword, Mace, Axe, Flail, etc. (d8 damage) | 10 |
@@ -44,7 +52,10 @@ What [[rpg-cairn-2e-core]] covers about day one / watch three:
 ```
 
 </details>
-_(source: rpg_cairn_2e_core.pdf (source-range-ad2c341f-00419))_
+
+### Technical frame 2: Hirelings (per day)
+
+**Atom:** _(rpg_cairn_2e_core.pdf (source-range-ad2c341f-00420))_
 
 | Room & Board (per night) | 10 |
 | --- | --- |
@@ -68,7 +79,10 @@ _(source: rpg_cairn_2e_core.pdf (source-range-ad2c341f-00419))_
 ```
 
 </details>
-_(source: rpg_cairn_2e_core.pdf (source-range-ad2c341f-00420))_
+
+### Technical frame 3: Hirelings (per day)
+
+**Atom:** _(rpg_cairn_2e_core.pdf (source-range-ad2c341f-00421))_
 
 | Shield (+1 Armor) | 10 |
 | --- | --- |
@@ -92,7 +106,10 @@ _(source: rpg_cairn_2e_core.pdf (source-range-ad2c341f-00420))_
 ```
 
 </details>
-_(source: rpg_cairn_2e_core.pdf (source-range-ad2c341f-00421))_
+
+### Technical frame 4: Hirelings (per day)
+
+**Atom:** _(rpg_cairn_2e_core.pdf (source-range-ad2c341f-00422))_
 
 | Cart (+4 slots, bulky) | 30 |
 | --- | --- |
@@ -116,8 +133,13 @@ _(source: rpg_cairn_2e_core.pdf (source-range-ad2c341f-00421))_
 ```
 
 </details>
-_(source: rpg_cairn_2e_core.pdf (source-range-ad2c341f-00422))_
 
+
+## Related pages
+
+- [[rpg-cairn-2e-core-day-watch-two]] - shared technical atoms: Day One / Watch Two shares technical record from Hirelings (per day): | Dagger, Cudgel, Sickle, Staﬀ, etc. (d6 damage) | 5 | | --- | --- | | Spear, Sword, Mace, Axe, Flail, etc. (d8 damage) | 10 | | Halberd, War Hammer, Long Sword, etc ... [truncated] (4 shared atom(s))
+- [[rpg-cairn-2e-core-hireling]] - shared technical atoms: Hirelings shares technical record from Hirelings (per day): | Dagger, Cudgel, Sickle, Staﬀ, etc. (d6 damage) | 5 | | --- | --- | | Spear, Sword, Mace, Axe, Flail, etc. (d8 damage) | 10 | | Halberd, War Hammer, Long Sword, etc ... [truncated] (4 shared atom(s))
+- [[rpg-cairn-2e-core-party]] - shared statements: Party shares source evidence from Day One / Watch Three: The party takes the Make Camp action. They set up a hastilymade shelter, and each character consumes a Ration. A lookout rotation is set, dividing the night between ... [truncated] (2 shared statement(s))
 
 ## Source
 

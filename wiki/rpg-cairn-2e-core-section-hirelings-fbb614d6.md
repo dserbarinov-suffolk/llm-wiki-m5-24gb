@@ -3,26 +3,34 @@ page_id: rpg-cairn-2e-core-section-hirelings-fbb614d6
 page_kind: source
 summary: Hirelings: 4 source-backed entries and 4 atom(s) from raw/rpg_cairn_2e_core.pdf.
 sources: raw/rpg_cairn_2e_core.pdf
-updated: 2026-06-26
+updated: 2026-06-29
 domain: rpg-cairn-2e-core
 category_path: sources/rpg-cairn-2e-core/sections
 source_id: rpg_cairn_2e_core.pdf
-projection_coverage: section-rpg-cairn-2e-core-section-hirelings-fbb614d6@4a0a7c1d41d5e534e8d62300538235ef
+projection_coverage: section-rpg-cairn-2e-core-section-hirelings-fbb614d6@cd19dae88dbcf4492730dd8e79c5c890
 ---
 
 # Hirelings
 
 From [[rpg-cairn-2e-core]].
 
+## Related pages
+
+- [[rpg-cairn-2e-core-hireling]] - topic hub: opens the topic page for Hireling
+
 ## Statements
 
-- - Adventuring parties can recruit hirelings, relying on their unique skills, knowledge, and training to aid in expeditions. _(rpg_cairn_2e_core.pdf (source-range-ad2c341f-00197))_
+- Adventuring parties can recruit hirelings, relying on their unique skills, knowledge, and training to aid in expeditions. _(rpg_cairn_2e_core.pdf (source-range-ad2c341f-00197))_
+- Alternatively, choose an appropriate background and name from the Character Creation guide. Roll (or choose from) the tables for that background. Then roll for Rations, Gold Pieces, Attributes, HP , and age. _(rpg_cairn_2e_core.pdf (source-range-ad2c341f-00199))_
 - Give them equipment appropriate to their station, then roll on the Character Traits tables to further flesh them out. _(rpg_cairn_2e_core.pdf (source-range-ad2c341f-00198))_
-- Then roll for Rations, Gold Pieces, Attributes, HP , and age. _(rpg_cairn_2e_core.pdf (source-range-ad2c341f-00199))_
 - Then roll for Rations, Gold Pieces, Attributes, HP , and age. _(rpg_cairn_2e_core.pdf (source-range-ad2c341f-00199))_
 
 ## Technical atoms
 
+### Technical frame 1: Hirelings (per day)
+
+**Atom:** _(rpg_cairn_2e_core.pdf (source-range-ad2c341f-00419))_
+
 | Dagger, Cudgel, Sickle, Staﬀ, etc. (d6 damage) | 5 |
 | --- | --- |
 | Spear, Sword, Mace, Axe, Flail, etc. (d8 damage) | 10 |
@@ -45,7 +53,10 @@ From [[rpg-cairn-2e-core]].
 ```
 
 </details>
-_(source: rpg_cairn_2e_core.pdf (source-range-ad2c341f-00419))_
+
+### Technical frame 2: Hirelings (per day)
+
+**Atom:** _(rpg_cairn_2e_core.pdf (source-range-ad2c341f-00420))_
 
 | Room & Board (per night) | 10 |
 | --- | --- |
@@ -69,7 +80,10 @@ _(source: rpg_cairn_2e_core.pdf (source-range-ad2c341f-00419))_
 ```
 
 </details>
-_(source: rpg_cairn_2e_core.pdf (source-range-ad2c341f-00420))_
+
+### Technical frame 3: Hirelings (per day)
+
+**Atom:** _(rpg_cairn_2e_core.pdf (source-range-ad2c341f-00421))_
 
 | Shield (+1 Armor) | 10 |
 | --- | --- |
@@ -93,7 +107,10 @@ _(source: rpg_cairn_2e_core.pdf (source-range-ad2c341f-00420))_
 ```
 
 </details>
-_(source: rpg_cairn_2e_core.pdf (source-range-ad2c341f-00421))_
+
+### Technical frame 4: Hirelings (per day)
+
+**Atom:** _(rpg_cairn_2e_core.pdf (source-range-ad2c341f-00422))_
 
 | Cart (+4 slots, bulky) | 30 |
 | --- | --- |
@@ -117,4 +134,3 @@ _(source: rpg_cairn_2e_core.pdf (source-range-ad2c341f-00421))_
 ```
 
 </details>
-_(source: rpg_cairn_2e_core.pdf (source-range-ad2c341f-00422))_

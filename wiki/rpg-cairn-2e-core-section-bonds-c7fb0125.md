@@ -3,22 +3,31 @@ page_id: rpg-cairn-2e-core-section-bonds-c7fb0125
 page_kind: source
 summary: Bonds: 6 source-backed entries and 5 atom(s) from raw/rpg_cairn_2e_core.pdf.
 sources: raw/rpg_cairn_2e_core.pdf
-updated: 2026-06-26
+updated: 2026-06-29
 domain: rpg-cairn-2e-core
 category_path: sources/rpg-cairn-2e-core/sections
 source_id: rpg_cairn_2e_core.pdf
-projection_coverage: section-rpg-cairn-2e-core-section-bonds-c7fb0125@2dcc9374700ccc614b32d49d5f241f71
+projection_coverage: section-rpg-cairn-2e-core-section-bonds-c7fb0125@57db2e584e430a2f86c78eeb9c25e54a
 ---
 
 # Bonds
 
 From [[rpg-cairn-2e-core]].
 
+## Related pages
+
+- [[rpg-cairn-2e-core-bond]] - topic hub: opens the topic page for Bond
+- [[rpg-cairn-2e-core-section-bonds-1003c616]] - same source heading: another source section with the same heading, Bonds
+
 ## Statements
 
 - During your travels, you met a dying hunter who asked you to _(rpg_cairn_2e_core.pdf (source-range-ad2c341f-00132))_
 
 ## Technical atoms
+
+### Technical frame 1: Bonds
+
+**Atom:** _(rpg_cairn_2e_core.pdf (source-range-ad2c341f-00128))_
 
 | entry | content |
 | --- | --- |
@@ -46,7 +55,10 @@ You	inherited	an	old Journal ,	bound	in	bark.	Each	evening,	its
 ```
 
 </details>
-_(source: rpg_cairn_2e_core.pdf (source-range-ad2c341f-00128))_
+
+### Technical frame 2: Bonds
+
+**Atom:** _(rpg_cairn_2e_core.pdf (source-range-ad2c341f-00130))_
 
 | 1 | Ambitious | 6 | Honorable |
 | --- | --- | --- | --- |
@@ -68,7 +80,10 @@ _(source: rpg_cairn_2e_core.pdf (source-range-ad2c341f-00128))_
 ```
 
 </details>
-_(source: rpg_cairn_2e_core.pdf (source-range-ad2c341f-00130))_
+
+### Technical frame 3: Bonds
+
+**Atom:** _(rpg_cairn_2e_core.pdf (source-range-ad2c341f-00131))_
 
 | entry | content |
 | --- | --- |
@@ -93,7 +108,10 @@ A	roaming	storyteller	once	spun	you	tales	of	great	treasure
 ```
 
 </details>
-_(source: rpg_cairn_2e_core.pdf (source-range-ad2c341f-00131))_
+
+### Technical frame 4: Bonds
+
+**Atom:** _(rpg_cairn_2e_core.pdf (source-range-ad2c341f-00134))_
 
 | entry | content |
 | --- | --- |
@@ -110,7 +128,10 @@ You	found	a	wounded	beast	in	the	forest	but	chose	to	ignore
 ```
 
 </details>
-_(source: rpg_cairn_2e_core.pdf (source-range-ad2c341f-00134))_
+
+### Technical frame 5: Bonds
+
+**Atom:** _(rpg_cairn_2e_core.pdf (source-range-ad2c341f-00142))_
 
 | entry | content |
 | --- | --- |
@@ -138,4 +159,3 @@ A	white	crow	appeared	to	you	in	a	dream,	holding	a	twig	in	its
 ```
 
 </details>
-_(source: rpg_cairn_2e_core.pdf (source-range-ad2c341f-00142))_

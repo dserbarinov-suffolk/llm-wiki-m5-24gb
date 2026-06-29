@@ -88,7 +88,7 @@ def build_claim_ledger(
 ) -> LedgerBuildResult:
     validator = AtomValidator(schema.atom_schema_set)
     plan = build_structure(source_hash, source_locator, tuple(s.segment for s in segments))
-    skeleton = DocumentStructure(plan.root_node_id, plan.nodes)
+    skeleton = DocumentStructure(plan.root_node_id, plan.nodes, structure_relations=plan.relations)
 
     entries: list[LedgerEntry] = []
     atoms: list[TechnicalAtom] = []
@@ -166,7 +166,9 @@ def build_claim_ledger(
         extractor_decisions=tuple(decisions),
         rejected_candidates=tuple(rejected),
     )
-    structure = DocumentStructure(plan.root_node_id, plan.nodes, tuple(dispositions))
+    structure = DocumentStructure(
+        plan.root_node_id, plan.nodes, tuple(dispositions), plan.relations
+    )
     return LedgerBuildResult(ledger, structure)
 
 

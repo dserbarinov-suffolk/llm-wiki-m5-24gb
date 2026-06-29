@@ -12,23 +12,48 @@ from typing import Any
 
 import pymupdf
 
+from llmwiki.pdf import docling_runtime as _docling_runtime
+from llmwiki.pdf.code_text import pdf_code_text as _pdf_code_text
 from llmwiki.pdf.document import DocumentElement, DocumentModel
+from llmwiki.pdf.layout_structure import (
+    LayoutDocument,
+    LayoutMatch,
+    compile_layout_structure,
+    layout_box_from_bbox,
+    layout_document_from_pdf,
+)
 
+_DoclingAttemptFailure = _docling_runtime.DoclingAttemptFailure
+docling_devices = _docling_runtime.docling_devices
+_extract_document_model_isolated = _docling_runtime.extract_document_model_isolated
 CodeTextResolver = Callable[[Any], str]
 
 
 def extract_document_model(pdf_path: Path, source_locator: str, source_hash: str) -> DocumentModel:
-    from docling.datamodel.base_models import InputFormat
-    from docling.datamodel.pipeline_options import (
-        PdfPipelineOptions,
+    failures: list[_DoclingAttemptFailure] = []
+    for device in docling_devices():
+        result = _extract_document_model_isolated(pdf_path, source_locator, source_hash, device)
+        if isinstance(result, DocumentModel):
+            return result
+        if isinstance(result, _DoclingAttemptFailure):
+            failures.append(result)
+    raise RuntimeError(
+        "Docling extraction failed for "
+        f"{source_locator}: "
+        + "; ".join(f"{failure.device}: {failure.detail}" for failure in failures)
     )
+
+
+def _extract_document_model_in_process(
+    pdf_path: Path, source_locator: str, source_hash: str, device: str = "auto"
+) -> DocumentModel:
+    from docling.datamodel.base_models import InputFormat
     from docling.document_converter import (
         DocumentConverter,
         PdfFormatOption,
     )
 
-    pipeline_options = PdfPipelineOptions()
-    pipeline_options.do_ocr = False
+    pipeline_options = pdf_pipeline_options(device)
     converter = DocumentConverter(
         format_options={
             InputFormat.PDF: PdfFormatOption(pipeline_options=pipeline_options),
@@ -36,6 +61,8 @@ def extract_document_model(pdf_path: Path, source_locator: str, source_hash: str
     )
     result = converter.convert(pdf_path)
     with pymupdf.open(pdf_path) as pdf_doc:  # type: ignore[no-untyped-call]
+        layout_document = layout_document_from_pdf(pdf_doc)
+
         def code_text_resolver(item: Any) -> str:
             return _pdf_code_text(pdf_doc, item)
 
@@ -45,7 +72,36 @@ def extract_document_model(pdf_path: Path, source_locator: str, source_hash: str
             source_hash=source_hash,
             extractor_version=_docling_version(),
             code_text_resolver=code_text_resolver,
+            layout_document=layout_document,
         )
+
+
+def pdf_pipeline_options(device: str = "auto") -> Any:
+    from docling.datamodel.pipeline_options import PdfPipelineOptions
+
+    pipeline_options = PdfPipelineOptions()
+    _set_accelerator_device(pipeline_options, device)
+    pipeline_options.do_ocr = False
+    if hasattr(pipeline_options, "do_table_structure"):
+        # The harness has a source-neutral table recovery layer after Docling.
+        # Let that layer handle tables instead of relying on Docling TableFormer.
+        pipeline_options.do_table_structure = False
+    return pipeline_options
+
+
+def _set_accelerator_device(pipeline_options: Any, device: str) -> None:
+    if device == "auto":
+        return
+    try:
+        from docling.datamodel.accelerator_options import AcceleratorDevice, AcceleratorOptions
+    except ImportError:
+        return
+    selected = {
+        "cpu": AcceleratorDevice.CPU,
+        "cuda": AcceleratorDevice.CUDA,
+    }.get(device)
+    if selected is not None:
+        pipeline_options.accelerator_options = AcceleratorOptions(device=selected)
 
 
 def document_model_from_docling_document(
@@ -54,6 +110,7 @@ def document_model_from_docling_document(
     source_hash: str,
     extractor_version: str,
     code_text_resolver: CodeTextResolver | None = None,
+    layout_document: LayoutDocument | None = None,
 ) -> DocumentModel:
     heading_stack: list[str] = []
     elements: list[DocumentElement] = []
@@ -76,6 +133,7 @@ def document_model_from_docling_document(
             heading_path = " > ".join(heading_stack) or "Document"
 
         page_start, page_end = _page_span(item)
+        layout = _layout_match(item, text, page_start, layout_document)
         body_state = _body_state(item, heading_path, text)
         markdown = _item_markdown(item, element_kind, text)
 
@@ -90,16 +148,22 @@ def document_model_from_docling_document(
                 text=text,
                 markdown=markdown,
                 heading_level=heading_level,
+                layout_font_size=layout.font_size,
+                layout_x0=layout.x0,
+                layout_y0=layout.y0,
             )
         )
 
-    return DocumentModel(
+    model = DocumentModel(
         source_locator=source_locator,
         source_hash=source_hash,
         extractor_name="docling",
         extractor_version=extractor_version,
         elements=tuple(elements),
     )
+    if layout_document is None:
+        return model
+    return compile_layout_structure(model, body_font_size=layout_document.body_font_size)
 
 
 def _docling_version() -> str:
@@ -138,61 +202,6 @@ def _item_text(item: Any) -> str:
     if text is None:
         return ""
     return str(text).strip()
-
-
-def _pdf_code_text(pdf_doc: Any, item: Any) -> str:
-    parts: list[str] = []
-    for prov in getattr(item, "prov", []) or []:
-        page_no = _page_no(prov)
-        if page_no <= 0 or page_no > len(pdf_doc):
-            continue
-        bbox = getattr(prov, "bbox", None)
-        if bbox is None:
-            continue
-        page = pdf_doc[page_no - 1]
-        text = _text_from_page_blocks(page, _clip_rect(page, bbox))
-        if text:
-            parts.append(text)
-    return "\n".join(parts).strip()
-
-
-def _page_no(prov: Any) -> int:
-    try:
-        return int(getattr(prov, "page_no", 0))
-    except (TypeError, ValueError):
-        return 0
-
-
-def _clip_rect(page: Any, bbox: Any) -> pymupdf.Rect:
-    left = _float_attr(bbox, "l")
-    right = _float_attr(bbox, "r")
-    top = _float_attr(bbox, "t")
-    bottom = _float_attr(bbox, "b")
-    origin = _enum_value(getattr(bbox, "coord_origin", "")).lower()
-    if origin == "bottomleft":
-        page_height = float(page.rect.height)
-        y0 = page_height - max(top, bottom)
-        y1 = page_height - min(top, bottom)
-    else:
-        y0 = min(top, bottom)
-        y1 = max(top, bottom)
-    x0 = min(left, right)
-    x1 = max(left, right)
-    pad = 1.0
-    return pymupdf.Rect(x0 - pad, y0 - pad, x1 + pad, y1 + pad)  # type: ignore[no-untyped-call]
-
-
-def _float_attr(value: Any, attr: str) -> float:
-    try:
-        return float(getattr(value, attr))
-    except (TypeError, ValueError):
-        return 0.0
-
-
-def _text_from_page_blocks(page: Any, rect: pymupdf.Rect) -> str:
-    blocks = page.get_text("blocks", clip=rect, sort=True)
-    parts = [str(block[4]).strip() for block in blocks if len(block) > 4 and str(block[4]).strip()]
-    return "\n".join(parts).strip()
 
 
 def _item_markdown(item: Any, element_kind: str, text: str) -> str:
@@ -245,6 +254,26 @@ def _page_span(item: Any) -> tuple[int, int]:
     if not pages:
         return (0, 0)
     return (min(pages), max(pages))
+
+
+def _layout_match(
+    item: Any, text: str, page_no: int, layout_document: LayoutDocument | None
+) -> LayoutMatch:
+    if layout_document is None or page_no <= 0:
+        return LayoutMatch()
+    box = None
+    for prov in getattr(item, "prov", []) or []:
+        try:
+            prov_page = int(getattr(prov, "page_no", 0) or 0)
+        except (TypeError, ValueError):
+            prov_page = 0
+        if prov_page != page_no:
+            continue
+        page_height = layout_document.page_heights.get(page_no, 0.0)
+        box = layout_box_from_bbox(page_no, page_height, getattr(prov, "bbox", None))
+        if box is not None:
+            break
+    return layout_document.match(page_no, text, box)
 
 
 def _body_state(item: Any, heading_path: str, text: str) -> str:

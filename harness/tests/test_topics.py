@@ -328,7 +328,8 @@ class TestTopicRender:
             topic, result.ledger, wiki_page_locator="book-array", source_page_id="book"
         )
 
-        assert "Context: We can initialize the array with values:" in page.page_body
+        assert "**Context:** _(book.pdf (sr-003))_" in page.page_body
+        assert "> We can initialize the array with values:" in page.page_body
         assert "scores := [4]int{9001, 9333}" in page.page_body
         kinds = {e.projection_coverage_unit_kind for e in page.coverage.entries}
         assert "technical-atom-context" in kinds
@@ -349,5 +350,6 @@ class TestTopicRender:
             topic, result.ledger, wiki_page_locator="book-combat", source_page_id="book"
         )
 
-        assert "Context: Combat rules specify required rolls:" in page.page_body
+        assert "**Context:** _(book.pdf (sr-003))_" in page.page_body
+        assert "> Combat rules specify required rolls:" in page.page_body
         assert "A combatant must roll a die." in page.page_body

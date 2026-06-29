@@ -23,6 +23,7 @@ from llmwiki.domain.claim_support import (
 )
 from llmwiki.domain.claim_support_selection import select_claim_support_candidates
 from llmwiki.domain.evidence_registry_io import registry_from_json
+from llmwiki.domain.graph import build_wiki_graph, graph_status
 from llmwiki.pdf import PdfError
 from llmwiki.pdf.pipeline import ExtractionResult, ensure_extracted
 from llmwiki.pdf.vision import AppleVisionRecognizer
@@ -69,6 +70,13 @@ def _build_parser() -> argparse.ArgumentParser:
     sub.add_parser(
         "synthesize",
         help="Build cross-source concept/entity pages from ingested source ledgers.",
+    )
+
+    graph = sub.add_parser("graph", help="Write or check the deterministic wiki graph export.")
+    graph.add_argument(
+        "--check",
+        action="store_true",
+        help="Fail if wiki/wiki-graph.json is missing, invalid, or stale.",
     )
 
     chat = sub.add_parser("chat", help="Converse with the wiki (model stays loaded).")
@@ -135,6 +143,9 @@ async def _run(args: argparse.Namespace) -> OperationResult:
     if args.op == "claim-support":
         return await _run_claim_support(paths, args, now)
 
+    if args.op == "graph":
+        return _run_graph(args, paths, now.date().isoformat())
+
     if args.op in ("ingest", "synthesize"):
         # Claim-ledger ingest and cross-source synthesis are deterministic
         # projections of the ledgers, not model summaries, so no backend starts.
@@ -174,6 +185,21 @@ async def _run(args: argparse.Namespace) -> OperationResult:
         return await session.lint()
     finally:
         await backend.aclose()
+
+
+def _run_graph(args: argparse.Namespace, paths: WikiPaths, today: str) -> OperationResult:
+    store = WikiStore(paths)
+    graph = build_wiki_graph(store.page_texts(), generated_date=today)
+    status = graph_status(graph, store.read_graph_json())
+    if args.check:
+        if not status.is_current:
+            raise ConfigError(status.render())
+        return OperationResult("graph", "wiki graph", status.render(), None)
+    store.write_graph_json(graph.to_json_text())
+    status = graph_status(graph, store.read_graph_json())
+    report = status.render()
+    store.append_log(today, "graph", "wiki graph", report)
+    return OperationResult("graph", "wiki graph", report, None)
 
 
 async def _run_claim_support(

@@ -3,11 +3,11 @@ page_id: rpg-cairn-2e-core-section-inventory-e99ced84
 page_kind: source
 summary: Inventory: 7 source-backed entries and 1 atom(s) from raw/rpg_cairn_2e_core.pdf.
 sources: raw/rpg_cairn_2e_core.pdf
-updated: 2026-06-26
+updated: 2026-06-29
 domain: rpg-cairn-2e-core
 category_path: sources/rpg-cairn-2e-core/sections
 source_id: rpg_cairn_2e_core.pdf
-projection_coverage: section-rpg-cairn-2e-core-section-inventory-e99ced84@54bfb94fe736bdb9f5030675b82b5bdf
+projection_coverage: section-rpg-cairn-2e-core-section-inventory-e99ced84@6e5e9aede7e1f32c5e19db28f152ec17
 ---
 
 # Inventory
@@ -16,14 +16,20 @@ From [[rpg-cairn-2e-core]].
 
 ## Statements
 
+- Characters have a total of ten inventory slots but can only carry four or five items comfortably without the help of bags, backpacks, horses, carts, etc. _(rpg_cairn_2e_core.pdf (source-range-ad2c341f-00108))_
+- Each PC starts with a Backpack that can hold up to six slots of items or Fatigue . Carts (which must be pulled with both hands), horses, or mules can make a huge difference in how much a PC can bring with them on an adventure. Hirelings can also be paid to carry equipment. _(rpg_cairn_2e_core.pdf (source-range-ad2c341f-00109))_
+- slots) is reduced to 0 HP . A character cannot fill more than ten slots. _(rpg_cairn_2e_core.pdf (source-range-ad2c341f-00112))_
 - - Characters have a total of ten inventory slots but can only carry four or five items comfortably without the help of bags, backpacks, horses, carts, etc. _(rpg_cairn_2e_core.pdf (source-range-ad2c341f-00108))_
-- - Characters have a total of ten inventory slots but can only carry four or five items comfortably without the help of bags, backpacks, horses, carts, etc. _(rpg_cairn_2e_core.pdf (source-range-ad2c341f-00108))_
-- Hirelings can also be paid to carry equipment. _(rpg_cairn_2e_core.pdf (source-range-ad2c341f-00109))_
-- Carts (which must be pulled with both hands), horses, or mules can make a huge difference in how much a PC can bring with them on an adventure. _(rpg_cairn_2e_core.pdf (source-range-ad2c341f-00109))_
-- - Each PC starts with a Backpack that can hold up to six slots of items or Fatigue . _(rpg_cairn_2e_core.pdf (source-range-ad2c341f-00109))_
-- A character cannot fill more than ten slots. _(rpg_cairn_2e_core.pdf (source-range-ad2c341f-00112))_
 
 ## Technical atoms
+
+### Technical frame 1: Inventory
+
+**Context:** _(rpg_cairn_2e_core.pdf (source-range-ad2c341f-00108))_
+
+> Characters have a total of ten inventory slots but can only carry four or five items comfortably without the help of bags, backpacks, horses, carts, etc.
+
+**Atom:** _(rpg_cairn_2e_core.pdf (source-range-ad2c341f-00111))_
 
 | 1 | Aurifex | 11 | Half-Witch |
 | --- | --- | --- | --- |
@@ -55,4 +61,3 @@ From [[rpg-cairn-2e-core]].
 ```
 
 </details>
-_(source: rpg_cairn_2e_core.pdf (source-range-ad2c341f-00111))_

@@ -25,6 +25,7 @@ from llmwiki.domain.claim_support import (
 )
 from llmwiki.domain.evidence_registry import SourceText, source_text_from_text
 from llmwiki.domain.evidence_registry_io import registry_to_json
+from llmwiki.domain.graph import GraphStatus, build_wiki_graph, graph_status
 from llmwiki.domain.ledger.canonical import short_digest
 from llmwiki.domain.links import compute_findings
 from llmwiki.domain.objects import (
@@ -94,6 +95,8 @@ ExtractFn = Callable[[Path, str, bool], ExtractionResult]
 # never accumulates inbound links and is exempted from orphan findings.
 # History lives in log.md (and git), not in dated page copies.
 HEALTH_PAGE = "wiki-health"
+_LINT_PROMPT_MAX_FINDINGS_PER_SECTION = 25
+_LINT_MODEL_MAX_FINDINGS = 50
 
 # Bare text usually means the model finished its work and wants to report.
 # Name the terminal tool in the retry nudge so the model can exit the loop
@@ -280,6 +283,7 @@ class Session:
                 *(page.page_id for page in ledger.topic_pages),
             }
             self.store.delete_source_pages_not_in(source_locator, keep_page_ids)
+        graph = self._write_graph_export()
         if self.on_chunk_note is not None:
             self.on_chunk_note(ledger.summary)
         report = (
@@ -287,6 +291,7 @@ class Session:
             f"{ledger.summary}\n"
             f"Source page: {written}; linked pages: {len(ledger.topic_pages)}. "
             f"Ledger artifacts: {self.store.page_plan_artifact_dir(source_locator)}/ledger.\n"
+            f"{_graph_summary_line(graph)}\n"
             f"{_confidence_summary_line(confidence.report)}"
         )
         self.store.append_log(self.today, "ingest", source_locator, report)
@@ -312,8 +317,10 @@ class Session:
         for page in result.pages:
             self.store.write_page(page)
         self.store.delete_cross_source_pages_not_in({page.page_id for page in result.pages})
-        self.store.append_log(self.today, "synthesize", "cross-source", result.summary)
-        return OperationResult("synthesize", "cross-source", result.summary, None)
+        graph = self._write_graph_export()
+        summary = f"{result.summary}\n{_graph_summary_line(graph)}"
+        self.store.append_log(self.today, "synthesize", "cross-source", summary)
+        return OperationResult("synthesize", "cross-source", summary, None)
 
     async def query(self, question: str) -> OperationResult:
         workflow = build_query_workflow(self.store, self.today)
@@ -369,11 +376,16 @@ class Session:
                 None,
                 LintRun(lint_findings=()),
             )
+        if findings.is_clean or len(findings.lint_findings) > _LINT_MODEL_MAX_FINDINGS:
+            report = _deterministic_lint_report(findings)
+            self._file_lint_report(report)
+            self.store.append_log(self.today, "lint", "wiki health", report)
+            return OperationResult("lint", "wiki health", report, None, findings)
         workflow = build_lint_workflow(self.store, self.today)
         salience_block = compute_salience(self.store.page_texts()).render()
         message = (
             "Run a lint pass. Deterministic findings from the harness:\n\n"
-            f"{findings.render()}\n\n"
+            f"{findings.render(max_items_per_section=_LINT_PROMPT_MAX_FINDINGS_PER_SECTION)}\n\n"
             f"{salience_block}\n"
             "The salience report names the most load-bearing pages — protect "
             "their content. Review the affected pages (and spot-check "
@@ -598,6 +610,11 @@ class Session:
             exempt_from_orphans=frozenset({HEALTH_PAGE}),
         )
 
+    def _write_graph_export(self) -> GraphStatus:
+        graph = build_wiki_graph(self.store.page_texts(), generated_date=self.today)
+        self.store.write_graph_json(graph.to_json_text())
+        return graph_status(graph, self.store.read_graph_json())
+
 
 def _confidence_summary_line(report: Any) -> str:
     status_line = next(
@@ -611,6 +628,25 @@ def _confidence_summary_line(report: Any) -> str:
     artifact_dir_note = "Report filed as [[wiki-ingest-confidence]]."
     status = status_line.removeprefix("Confidence status: ")
     return f"Ingest confidence: {status}. {artifact_dir_note}"
+
+
+def _graph_summary_line(status: GraphStatus) -> str:
+    return (
+        f"Graph export: {status.status}; nodes={status.node_count}; "
+        f"edges={status.edge_count}; unresolved={status.unresolved_edge_count}."
+    )
+
+
+def _deterministic_lint_report(findings: LintRun) -> str:
+    if findings.is_clean:
+        return findings.render()
+    return (
+        "Deterministic lint report.\n\n"
+        f"{findings.render(max_items_per_section=_LINT_PROMPT_MAX_FINDINGS_PER_SECTION)}\n\n"
+        "Model repair loop skipped because the deterministic finding set "
+        f"contains {len(findings.lint_findings)} issue(s), above the "
+        f"{_LINT_MODEL_MAX_FINDINGS}-issue interactive repair budget."
+    )
 
 
 def _claim_support_summary_line(audit: ClaimSupportAuditReport) -> str:

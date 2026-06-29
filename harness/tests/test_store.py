@@ -5,6 +5,7 @@ import pytest
 from llmwiki.config import SOURCE_READ_BUDGET_CHARS, WikiPaths
 from llmwiki.domain.pages import PageMetadata, PathTemplate, WikiPage, WikiStructure
 from llmwiki.store import PageNotFoundError, SourceNotFoundError, WikiStore, WikiStoreError
+from llmwiki.workflows.tools import read_page_tool
 
 
 def _page(page_id: str = "hittites", page_kind: str = "entity") -> WikiPage:
@@ -56,6 +57,21 @@ class TestWikiLayer:
         store.write_page(page)
         assert store.rendered_page_path(page) == "hittites.md"
         assert store.read_wiki_page("hittites").page_metadata == page.page_metadata
+
+    def test_read_page_tool_chunks_large_pages(self, store: WikiStore) -> None:
+        page = WikiPage.from_metadata(
+            PageMetadata(page_id="large", page_kind="source", summary="Large page."),
+            "x" * 100,
+        )
+        store.write_page(page)
+        tool = read_page_tool(store)
+
+        chunk = tool.callable(page_id="large", max_chars=10)
+        next_chunk = tool.callable(page_id="large", offset=10, max_chars=10)
+
+        assert chunk.startswith("[Showing wiki/large.md characters 0-10 of ")
+        assert "[Truncated. Continue with read_page offset=10.]" in chunk
+        assert next_chunk.startswith("[Showing wiki/large.md characters 10-20 of ")
 
     def test_write_page_can_project_to_nested_structure(self, paths: WikiPaths) -> None:
         structure = WikiStructure(
@@ -187,6 +203,14 @@ class TestWikiLayer:
 
     def test_index_and_log_not_listed_as_pages(self, store: WikiStore) -> None:
         assert store.list_pages() == []
+
+    def test_graph_json_roundtrip(self, store: WikiStore, paths: WikiPaths) -> None:
+        assert store.read_graph_json() is None
+
+        store.write_graph_json('{"nodes": []}\n')
+
+        assert paths.graph_path.read_text(encoding="utf-8") == '{"nodes": []}\n'
+        assert store.read_graph_json() == '{"nodes": []}\n'
 
 
 class TestLog:

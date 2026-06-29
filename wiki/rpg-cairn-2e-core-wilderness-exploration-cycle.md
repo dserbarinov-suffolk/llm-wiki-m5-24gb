@@ -3,10 +3,10 @@ page_id: rpg-cairn-2e-core-wilderness-exploration-cycle
 page_kind: concept
 summary: Wilderness Exploration Cycle: 3 statement(s) and 3 atom(s) from raw/rpg_cairn_2e_core.pdf.
 sources: raw/rpg_cairn_2e_core.pdf
-updated: 2026-06-26
+updated: 2026-06-29
 domain: rpg-cairn-2e-core
 category_path: concepts
-projection_coverage: topic-rpg-cairn-2e-core-wilderness-exploration-cycle@76ecee42f77df15a721799dc25cb43df
+projection_coverage: topic-rpg-cairn-2e-core-wilderness-exploration-cycle@e925f7559466f6e0c3f449480dafd40b
 ---
 
 # Wilderness Exploration Cycle
@@ -15,11 +15,24 @@ What [[rpg-cairn-2e-core]] covers about wilderness exploration cycle:
 
 ## Statements
 
-- The Warden narrates the results and then rolls on the Wilderness Events table. _(rpg_cairn_2e_core.pdf (source-range-ad2c341f-00328))_
-- torch use, deprivation , etc), and the cycle repeats. _(rpg_cairn_2e_core.pdf (source-range-ad2c341f-00329))_
-- The Warden describes the current point or region on the map and how the path, weather, terrain, or party status might affect travel speed . _(rpg_cairn_2e_core.pdf (source-range-ad2c341f-00327))_
+### Wilderness Exploration Cycle
+
+- The Warden describes the current point or region on the map and how the path, weather, terrain, or party status might affect travel speed . The party plots or adjusts a given course towards their destination. _(rpg_cairn_2e_core.pdf (source-range-ad2c341f-00327))_
+
+- Each party member chooses a single Wilderness Action . The Warden narrates the results and then rolls on the Wilderness Events table. The party responds to the results. _(rpg_cairn_2e_core.pdf (source-range-ad2c341f-00328))_
+
+- The players and the Warden record any loss of resources and new conditions (i.e. torch use, deprivation , etc), and the cycle repeats. _(rpg_cairn_2e_core.pdf (source-range-ad2c341f-00329))_
+
 
 ## Technical atoms
+
+### Technical frame 1: Wilderness Exploration Cycle
+
+**Context:** _(rpg_cairn_2e_core.pdf (source-range-ad2c341f-00329))_
+
+> The players and the Warden record any loss of resources and new conditions (i.e. torch use, deprivation , etc), and the cycle repeats.
+
+**Atom:** _(rpg_cairn_2e_core.pdf (source-range-ad2c341f-00330))_
 
 | entry | content |
 | --- | --- |
@@ -45,7 +58,14 @@ Roll on an encounter table for that terrain type
 ```
 
 </details>
-_(source: rpg_cairn_2e_core.pdf (source-range-ad2c341f-00330))_
+
+### Technical frame 2: Wilderness Exploration Cycle
+
+**Context:** _(rpg_cairn_2e_core.pdf (source-range-ad2c341f-00329))_
+
+> The players and the Warden record any loss of resources and new conditions (i.e. torch use, deprivation , etc), and the cycle repeats.
+
+**Atom:** _(rpg_cairn_2e_core.pdf (source-range-ad2c341f-00331))_
 
 | Weather | Eﬀect | Examples |
 | --- | --- | --- |
@@ -79,7 +99,14 @@ _(source: rpg_cairn_2e_core.pdf (source-range-ad2c341f-00330))_
 ```
 
 </details>
-_(source: rpg_cairn_2e_core.pdf (source-range-ad2c341f-00331))_
+
+### Technical frame 3: Wilderness Exploration Cycle
+
+**Context:** _(rpg_cairn_2e_core.pdf (source-range-ad2c341f-00329))_
+
+> The players and the Warden record any loss of resources and new conditions (i.e. torch use, deprivation , etc), and the cycle repeats.
+
+**Atom:** _(rpg_cairn_2e_core.pdf (source-range-ad2c341f-00332))_
 
 | d6 | Spring | Summer | Fall | Winter |
 | --- | --- | --- | --- | --- |
@@ -105,8 +132,15 @@ _(source: rpg_cairn_2e_core.pdf (source-range-ad2c341f-00331))_
 ```
 
 </details>
-_(source: rpg_cairn_2e_core.pdf (source-range-ad2c341f-00332))_
 
+
+## Related pages
+
+- [[rpg-cairn-2e-core-wil]] - shared technical atoms: WIL shares technical record from Wilderness Exploration Cycle: Wilderness Events Roll on an encounter table for that terrain type 1 Encounter or location. Don't forget to roll for NPC reactions if applicable. 2 Sign The party di ... [truncated] (3 shared atom(s))
+- [[rpg-cairn-2e-core-principle-for-player]] - shared technical atoms: Principles for Players shares technical record from Wilderness Exploration Cycle: Wilderness Events Roll on an encounter table for that terrain type 1 Encounter or location. Don't forget to roll for NPC reactions if applicable. 2 Sign The party di ... [truncated] (2 shared atom(s))
+- [[rpg-cairn-2e-core-principle-for-warden]] - shared technical atoms: Principles for Wardens shares technical record from Wilderness Exploration Cycle: Wilderness Events Roll on an encounter table for that terrain type 1 Encounter or location. Don't forget to roll for NPC reactions if applicable. 2 Sign The party di ... [truncated] (2 shared atom(s))
+- [[rpg-cairn-2e-core-result]] - shared statements: Result shares source evidence from Wilderness Exploration Cycle: Each party member chooses a single Wilderness Action . The Warden narrates the results and then rolls on the Wilderness Events table. The party responds to the results. (1 shared statement(s))
+- [[rpg-cairn-2e-core-section-wilderness-exploration-cycle-09c8e357]] - source section: Wilderness Exploration Cycle shares source evidence from Wilderness Exploration Cycle: The Warden describes the current point or region on the map and how the path, weather, terrain, or party status might affect travel speed . The party plots or adjust ... [truncated]; Wilderness Exploration Cycle shares technical record from Wilderness Exploration Cycle: Wilderness Events Roll on an encounter table for that terrain type 1 Encounter or location. Don't forget to roll for NPC reactions if applicable. 2 Sign The party di ... [truncated] (3 shared statement(s), 3 shared atom(s))
 
 ## Source
 

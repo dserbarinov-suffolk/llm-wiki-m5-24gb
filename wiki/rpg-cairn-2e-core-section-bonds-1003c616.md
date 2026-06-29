@@ -3,24 +3,31 @@ page_id: rpg-cairn-2e-core-section-bonds-1003c616
 page_kind: source
 summary: Bonds: 3 source-backed entries and 5 atom(s) from raw/rpg_cairn_2e_core.pdf.
 sources: raw/rpg_cairn_2e_core.pdf
-updated: 2026-06-26
+updated: 2026-06-29
 domain: rpg-cairn-2e-core
 category_path: sources/rpg-cairn-2e-core/sections
 source_id: rpg_cairn_2e_core.pdf
-projection_coverage: section-rpg-cairn-2e-core-section-bonds-1003c616@02e1f56d3a90d6f62218cb3a4fb286a8
+projection_coverage: section-rpg-cairn-2e-core-section-bonds-1003c616@c4ba9287bbf3504df671f114267d5b62
 ---
 
 # Bonds
 
 From [[rpg-cairn-2e-core]].
 
+## Related pages
+
+- [[rpg-cairn-2e-core-bond]] - topic hub: opens the topic page for Bond
+- [[rpg-cairn-2e-core-section-bonds-c7fb0125]] - same source heading: another source section with the same heading, Bonds
+
 ## Statements
 
-- Player characters are not required to resolve their Bonds. _(rpg_cairn_2e_core.pdf (source-range-ad2c341f-00640))_
-- Bonds can often tie a player character to another PC, the setting, and its characters. _(rpg_cairn_2e_core.pdf (source-range-ad2c341f-00640))_
-- In this case, the character should experience Growth of some kind, and the Warden can optionally create a new Bond for the PC. _(rpg_cairn_2e_core.pdf (source-range-ad2c341f-00640))_
+- Bonds can often tie a player character to another PC, the setting, and its characters. A PC can resolve a Bond by discovering the truth behind its mysteries or by solving its root cause. In this case, the character should experience Growth of some kind, and the Warden can optionally create a new Bond for the PC. Player characters are not required to resolve their Bonds. _(rpg_cairn_2e_core.pdf (source-range-ad2c341f-00640))_
 
 ## Technical atoms
+
+### Technical frame 1: Bonds
+
+**Atom:** _(rpg_cairn_2e_core.pdf (source-range-ad2c341f-00128))_
 
 | entry | content |
 | --- | --- |
@@ -48,7 +55,10 @@ You	inherited	an	old Journal ,	bound	in	bark.	Each	evening,	its
 ```
 
 </details>
-_(source: rpg_cairn_2e_core.pdf (source-range-ad2c341f-00128))_
+
+### Technical frame 2: Bonds
+
+**Atom:** _(rpg_cairn_2e_core.pdf (source-range-ad2c341f-00130))_
 
 | 1 | Ambitious | 6 | Honorable |
 | --- | --- | --- | --- |
@@ -70,7 +80,10 @@ _(source: rpg_cairn_2e_core.pdf (source-range-ad2c341f-00128))_
 ```
 
 </details>
-_(source: rpg_cairn_2e_core.pdf (source-range-ad2c341f-00130))_
+
+### Technical frame 3: Bonds
+
+**Atom:** _(rpg_cairn_2e_core.pdf (source-range-ad2c341f-00131))_
 
 | entry | content |
 | --- | --- |
@@ -95,7 +108,10 @@ A	roaming	storyteller	once	spun	you	tales	of	great	treasure
 ```
 
 </details>
-_(source: rpg_cairn_2e_core.pdf (source-range-ad2c341f-00131))_
+
+### Technical frame 4: Bonds
+
+**Atom:** _(rpg_cairn_2e_core.pdf (source-range-ad2c341f-00134))_
 
 | entry | content |
 | --- | --- |
@@ -112,7 +128,10 @@ You	found	a	wounded	beast	in	the	forest	but	chose	to	ignore
 ```
 
 </details>
-_(source: rpg_cairn_2e_core.pdf (source-range-ad2c341f-00134))_
+
+### Technical frame 5: Bonds
+
+**Atom:** _(rpg_cairn_2e_core.pdf (source-range-ad2c341f-00142))_
 
 | entry | content |
 | --- | --- |
@@ -140,4 +159,3 @@ A	white	crow	appeared	to	you	in	a	dream,	holding	a	twig	in	its
 ```
 
 </details>
-_(source: rpg_cairn_2e_core.pdf (source-range-ad2c341f-00142))_

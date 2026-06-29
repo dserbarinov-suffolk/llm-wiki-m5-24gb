@@ -3,31 +3,48 @@ page_id: rpg-dnd-srd-excerpt-section-special-weapons-90bd7452
 page_kind: source
 summary: Special Weapons: 9 source-backed entries and 2 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
 sources: raw/rpg_dnd_srd_excerpt.pdf
-updated: 2026-06-26
+updated: 2026-06-29
 domain: rpg-dnd-srd-excerpt
 category_path: sources/rpg-dnd-srd-excerpt/sections
 source_id: rpg_dnd_srd_excerpt.pdf
-projection_coverage: section-rpg-dnd-srd-excerpt-section-special-weapons-90bd7452@a70b248568e1db9dd262f3962dba48bd
+projection_coverage: section-rpg-dnd-srd-excerpt-section-special-weapons-90bd7452@5f4fa191d3189d1e98c255a1ca5037a3
 ---
 
 # Special Weapons
 
 From [[rpg-dnd-srd-excerpt]].
 
+## Related pages
+
+- [[rpg-dnd-srd-excerpt-special-weapon]] - topic hub: opens the topic page for Special Weapon
+
 ## Statements
 
 - Weapons with special rules are described here. _(rpg_dnd_srd_excerpt.pdf (source-range-b7d08967-00528))_
-- Also, a lance requires two hands to wield when you aren't mounted. _(rpg_dnd_srd_excerpt.pdf (source-range-b7d08967-00529))_
+- Lance . You have disadvantage when you use a lance to attack a target within 5 feet of you. Also, a lance requires two hands to wield when you aren't mounted. _(rpg_dnd_srd_excerpt.pdf (source-range-b7d08967-00529))_
+- Net . A Large or smaller creature hit by a net is restrained until it is freed. A net has no effect on creatures that are formless, or creatures that are Huge or larger. A creature can use its action to make a DC 10 Strength check, freeing itself or another creature within its reach on a success. Dealing 5 slashing damage to the net (AC 10) also frees the creature without harming it, ending the effect and destroying the net. _(rpg_dnd_srd_excerpt.pdf (source-range-b7d08967-00530))_
 - You have disadvantage when you use a lance to attack a target within 5 feet of you. _(rpg_dnd_srd_excerpt.pdf (source-range-b7d08967-00529))_
-- You have disadvantage when you use a lance to attack a target within 5 feet of you. _(rpg_dnd_srd_excerpt.pdf (source-range-b7d08967-00529))_
-- A net has no effect on creatures that are formless, or creatures that are Huge or larger. _(rpg_dnd_srd_excerpt.pdf (source-range-b7d08967-00530))_
-- A creature can use its action to make a DC 10 Strength check, freeing itself or another creature within its reach on a success. _(rpg_dnd_srd_excerpt.pdf (source-range-b7d08967-00530))_
 - A creature can use its action to make a DC 10 Strength check, freeing itself or another creature within its reach on a success. _(rpg_dnd_srd_excerpt.pdf (source-range-b7d08967-00530))_
 
 ## Technical atoms
 
+### Technical frame 1: Special Weapons
+
+**Context:** _(rpg_dnd_srd_excerpt.pdf (source-range-b7d08967-00530))_
+
+> Net . A Large or smaller creature hit by a net is restrained until it is freed. A net has no effect on creatures that are formless, or creatures that are Huge or larger. A creature can use its action to make a DC 10 Strength check, freeing itself or another creature within its reach on a success. Dealing 5 slashing damage to the net (AC 10) also frees the creature without harming it, ending the effect and destroying the net.
+
+**Atom:** _(rpg_dnd_srd_excerpt.pdf (source-range-b7d08967-00531))_
+
 > When you use an action, bonus action, or reaction to attack with a net, you can make only one attack regardless of the number of attacks you can normally make.
-_(source: rpg_dnd_srd_excerpt.pdf (source-range-b7d08967-00531))_
+
+### Technical frame 2: Table- Weapons
+
+**Context:** _(rpg_dnd_srd_excerpt.pdf (source-range-b7d08967-00528))_
+
+> Weapons with special rules are described here.
+
+**Atom:** _(rpg_dnd_srd_excerpt.pdf (source-range-b7d08967-00532))_
 
 | Name | Cost | Damage | Weight | Properties |
 | --- | --- | --- | --- | --- |
@@ -74,4 +91,3 @@ Table- Weapons
 ```
 
 </details>
-_(source: rpg_dnd_srd_excerpt.pdf (source-range-b7d08967-00532))_

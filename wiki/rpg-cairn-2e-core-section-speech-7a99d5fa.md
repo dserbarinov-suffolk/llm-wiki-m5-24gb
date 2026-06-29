@@ -3,11 +3,11 @@ page_id: rpg-cairn-2e-core-section-speech-7a99d5fa
 page_kind: source
 summary: Speech: 4 source-backed entries and 4 atom(s) from raw/rpg_cairn_2e_core.pdf.
 sources: raw/rpg_cairn_2e_core.pdf
-updated: 2026-06-26
+updated: 2026-06-29
 domain: rpg-cairn-2e-core
 category_path: sources/rpg-cairn-2e-core/sections
 source_id: rpg_cairn_2e_core.pdf
-projection_coverage: section-rpg-cairn-2e-core-section-speech-7a99d5fa@694f2858d6598f95ca327e3ecc9f8324
+projection_coverage: section-rpg-cairn-2e-core-section-speech-7a99d5fa@de972b1dcfadf3564b66906ea529f046
 ---
 
 # Speech
@@ -15,6 +15,10 @@ projection_coverage: section-rpg-cairn-2e-core-section-speech-7a99d5fa@694f2858d
 From [[rpg-cairn-2e-core]].
 
 ## Technical atoms
+
+### Technical frame 1: Speech
+
+**Atom:** _(rpg_cairn_2e_core.pdf (source-range-ad2c341f-00123))_
 
 | 1 | Birthmarked | 6 | Soft |
 | --- | --- | --- | --- |
@@ -36,7 +40,10 @@ From [[rpg-cairn-2e-core]].
 ```
 
 </details>
-_(source: rpg_cairn_2e_core.pdf (source-range-ad2c341f-00123))_
+
+### Technical frame 2: Speech
+
+**Atom:** _(rpg_cairn_2e_core.pdf (source-range-ad2c341f-00124))_
 
 | entry | content |
 | --- | --- |
@@ -59,7 +66,10 @@ Clothing
 ```
 
 </details>
-_(source: rpg_cairn_2e_core.pdf (source-range-ad2c341f-00124))_
+
+### Technical frame 3: Speech
+
+**Atom:** _(rpg_cairn_2e_core.pdf (source-range-ad2c341f-00125))_
 
 | entry | content |
 | --- | --- |
@@ -82,7 +92,10 @@ Virtue
 ```
 
 </details>
-_(source: rpg_cairn_2e_core.pdf (source-range-ad2c341f-00125))_
+
+### Technical frame 4: Speech
+
+**Atom:** _(rpg_cairn_2e_core.pdf (source-range-ad2c341f-00126))_
 
 | entry | content |
 | --- | --- |
@@ -105,4 +118,3 @@ Vice
 ```
 
 </details>
-_(source: rpg_cairn_2e_core.pdf (source-range-ad2c341f-00126))_

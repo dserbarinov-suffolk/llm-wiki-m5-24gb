@@ -3,10 +3,10 @@ page_id: coding-learn-go-with-tests-excerpt-test-output-helpful
 page_kind: concept
 summary: Make sure your test output is helpful: 9 statement(s) and 2 atom(s) from raw/coding_learn_go_with_tests_excerpt.pdf.
 sources: raw/coding_learn_go_with_tests_excerpt.pdf
-updated: 2026-06-26
+updated: 2026-06-29
 domain: coding-learn-go-with-tests-excerpt
 category_path: concepts
-projection_coverage: topic-coding-learn-go-with-tests-excerpt-test-output-helpful@3297b0a362151ca657174d8071b84a93
+projection_coverage: topic-coding-learn-go-with-tests-excerpt-test-output-helpful@042e71afe51322567cc557e9c5aae46f
 ---
 
 # Make sure your test output is helpful
@@ -15,20 +15,32 @@ What [[coding-learn-go-with-tests-excerpt]] covers about make sure your test out
 
 ## Statements
 
-- One final tip with table driven tests is to use t.Run and to name the test cases. _(coding_learn_go_with_tests_excerpt.pdf (source-range-f4b7154d-00530))_
-- To increase the readability of our test cases further, we can rename the want field into something more descriptive like hasArea . _(coding_learn_go_with_tests_excerpt.pdf (source-range-f4b7154d-00529))_
-- The %#v format string will print out our struct with the values in its field, so the developer can see at a glance the properties that are being tested. _(coding_learn_go_with_tests_excerpt.pdf (source-range-f4b7154d-00528))_
-- By wrapping each case in a t.Run you will have clearer test output on failures as it will print the name of the case _(coding_learn_go_with_tests_excerpt.pdf (source-range-f4b7154d-00531))_
-- And you can run specific tests within your table with go test -run TestArea/Rectangle . _(coding_learn_go_with_tests_excerpt.pdf (source-range-f4b7154d-00533))_
-- It printed shapes_test.go:31: got 0.00 want 36.00 . _(coding_learn_go_with_tests_excerpt.pdf (source-range-f4b7154d-00526))_
-- We knew this was in relation to Triangle because we were just working with it. _(coding_learn_go_with_tests_excerpt.pdf (source-range-f4b7154d-00527))_
-- This is not a great experience for the developer, they will have to manually look through the cases to find out which case actually failed. _(coding_learn_go_with_tests_excerpt.pdf (source-range-f4b7154d-00527))_
-- We can change our error message into %#v got %g want %g . _(coding_learn_go_with_tests_excerpt.pdf (source-range-f4b7154d-00528))_
+### Decoupling / Make sure your test output is helpful
+
+- Remember earlier when we were implementing Triangle and we had the failing test? It printed shapes_test.go:31: got 0.00 want 36.00 . _(coding_learn_go_with_tests_excerpt.pdf (source-range-cb73a893-00526))_
+
+- We knew this was in relation to Triangle because we were just working with it. But what if a bug slipped in to the system in one of 20 cases in the table? How would a developer know which case failed? This is not a great experience for the developer, they will have to manually look through the cases to find out which case actually failed. _(coding_learn_go_with_tests_excerpt.pdf (source-range-cb73a893-00527))_
+
+- We can change our error message into %#v got %g want %g . The %#v format string will print out our struct with the values in its field, so the developer can see at a glance the properties that are being tested. _(coding_learn_go_with_tests_excerpt.pdf (source-range-cb73a893-00528))_
+
+- To increase the readability of our test cases further, we can rename the want field into something more descriptive like hasArea . _(coding_learn_go_with_tests_excerpt.pdf (source-range-cb73a893-00529))_
+
+- One final tip with table driven tests is to use t.Run and to name the test cases. _(coding_learn_go_with_tests_excerpt.pdf (source-range-cb73a893-00530))_
+
+- By wrapping each case in a t.Run you will have clearer test output on failures as it will print the name of the case _(coding_learn_go_with_tests_excerpt.pdf (source-range-cb73a893-00531))_
+
+- And you can run specific tests within your table with go test -run TestArea/Rectangle . _(coding_learn_go_with_tests_excerpt.pdf (source-range-cb73a893-00533))_
+
 
 ## Technical atoms
 
-> Context: One final tip with table driven tests is to use t.Run and to name the test cases.
-_(context: coding_learn_go_with_tests_excerpt.pdf (source-range-f4b7154d-00530))_
+### Technical frame 1: Decoupling / Make sure your test output is helpful
+
+**Context:** _(coding_learn_go_with_tests_excerpt.pdf (source-range-cb73a893-00533))_
+
+> And you can run specific tests within your table with go test -run TestArea/Rectangle .
+
+**Atom:** _(coding_learn_go_with_tests_excerpt.pdf (source-range-cb73a893-00532))_
 
 ```
 --- FAIL: TestArea (0.00s)
@@ -36,10 +48,14 @@ _(context: coding_learn_go_with_tests_excerpt.pdf (source-range-f4b7154d-00530))
        shapes_test.go:33: main.Rectangle{Width:12, Height:6} got 
 72.00 want 72.10
 ```
-_(source: coding_learn_go_with_tests_excerpt.pdf (source-range-f4b7154d-00532))_
 
-> Context: And you can run specific tests within your table with go test -run TestArea/Rectangle .
-_(context: coding_learn_go_with_tests_excerpt.pdf (source-range-f4b7154d-00533))_
+### Technical frame 2: Decoupling / Make sure your test output is helpful
+
+**Context:** _(coding_learn_go_with_tests_excerpt.pdf (source-range-cb73a893-00533))_
+
+> And you can run specific tests within your table with go test -run TestArea/Rectangle .
+
+**Atom:** _(coding_learn_go_with_tests_excerpt.pdf (source-range-cb73a893-00535))_
 
 ```
 func TestArea(t *testing.T) {
@@ -68,8 +84,13 @@ tt.hasArea)
 }
 }
 ```
-_(source: coding_learn_go_with_tests_excerpt.pdf (source-range-f4b7154d-00535))_
 
+
+## Related pages
+
+- [[coding-learn-go-with-tests-excerpt-test]] - broader topic: Test shares source evidence from Decoupling / Make sure your test output is helpful: To increase the readability of our test cases further, we can rename the want field into something more descriptive like hasArea .; Test shares technical record from Decoupling / Make sure your test output is helpful: --- FAIL: TestArea (0.00s) --- FAIL: TestArea/Rectangle (0.00s) shapes_test.go:33: main.Rectangle{Width:12, Height:6} got 72.00 want 72.10 (2 shared statement(s), 2 shared atom(s))
+- [[coding-learn-go-with-tests-excerpt-decoupling]] - shared statements and technical atoms: Decoupling shares source evidence from Decoupling / Make sure your test output is helpful: Remember earlier when we were implementing Triangle and we had the failing test? It printed shapes_test.go:31: got 0.00 want 36.00 .; Decoupling shares technical record from Decoupling / Make sure your test output is helpful: --- FAIL: TestArea (0.00s) --- FAIL: TestArea/Rectangle (0.00s) shapes_test.go:33: main.Rectangle{Width:12, Height:6} got 72.00 want 72.10 (9 shared statement(s), 2 shared atom(s))
+- [[coding-learn-go-with-tests-excerpt-section-decoupling-make-sure-your-test-output-is-helpful-e3d11678]] - source section: Decoupling / Make sure your test output is helpful shares source evidence from Decoupling / Make sure your test output is helpful: Remember earlier when we were implementing Triangle and we had the failing test? It printed shapes_test.go:31: got 0.00 want 36.00 .; Decoupling / Make sure your test output is helpful shares technical record from Decoupling / Make sure your test output is helpful: --- FAIL: TestArea (0.00s) --- FAIL: TestArea/Rectangle (0.00s) shapes_test.go:33: main.Rectangle{Width:12, Height:6} got 72.00 want 72.10 (9 shared statement(s), 2 shared atom(s))
 
 ## Source
 

@@ -46,6 +46,10 @@ class WikiPaths:
         return self.wiki_dir / "log.md"
 
     @property
+    def graph_path(self) -> Path:
+        return self.wiki_dir / "wiki-graph.json"
+
+    @property
     def runs_dir(self) -> Path:
         return self.root / "harness" / "runs"
 

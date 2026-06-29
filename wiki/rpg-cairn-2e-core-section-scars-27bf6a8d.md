@@ -3,11 +3,11 @@ page_id: rpg-cairn-2e-core-section-scars-27bf6a8d
 page_kind: source
 summary: Scars: 3 source-backed entries and 1 atom(s) from raw/rpg_cairn_2e_core.pdf.
 sources: raw/rpg_cairn_2e_core.pdf
-updated: 2026-06-26
+updated: 2026-06-29
 domain: rpg-cairn-2e-core
 category_path: sources/rpg-cairn-2e-core/sections
 source_id: rpg_cairn_2e_core.pdf
-projection_coverage: section-rpg-cairn-2e-core-section-scars-27bf6a8d@1049b8fae9daa0df67c31b1189efa255
+projection_coverage: section-rpg-cairn-2e-core-section-scars-27bf6a8d@49b907e66290b4ada6a45318b2406f3f
 ---
 
 # Scars
@@ -16,11 +16,14 @@ From [[rpg-cairn-2e-core]].
 
 ## Statements
 
-- For example, if a PC went from 3 HP to 0 HP , they would look at entry #3 (Walloped). _(rpg_cairn_2e_core.pdf (source-range-ad2c341f-00237))_
-- If damage to a PC would reduce their HP to exactly 0, look up the result on the table below based on the amount of HP lost in the attack . _(rpg_cairn_2e_core.pdf (source-range-ad2c341f-00237))_
+- If damage to a PC would reduce their HP to exactly 0, look up the result on the table below based on the amount of HP lost in the attack . For example, if a PC went from 3 HP to 0 HP , they would look at entry #3 (Walloped). _(rpg_cairn_2e_core.pdf (source-range-ad2c341f-00237))_
 - For example, if a PC went from 3 HP to 0 HP , they would look at entry #3 (Walloped). _(rpg_cairn_2e_core.pdf (source-range-ad2c341f-00237))_
 
 ## Technical atoms
+
+### Technical frame 1: Scars Table
+
+**Atom:** _(rpg_cairn_2e_core.pdf (source-range-ad2c341f-00239))_
 
 | entry | content |
 | --- | --- |
@@ -59,4 +62,3 @@ Doomed:	Death	seemed	ever	so	close,	but	somehow	you
 ```
 
 </details>
-_(source: rpg_cairn_2e_core.pdf (source-range-ad2c341f-00239))_

@@ -12,7 +12,7 @@ from dataclasses import dataclass
 
 from llmwiki.domain.ledger.canonical import deterministic_id, short_digest
 from llmwiki.domain.ledger.segments import SourceSegment
-from llmwiki.domain.ledger.structure import StructureNode
+from llmwiki.domain.ledger.structure import StructureNode, StructureRelation
 
 _DEPTH_KIND = {1: "chapter", 2: "section"}
 
@@ -22,6 +22,7 @@ class StructurePlan:
     root_node_id: str
     nodes: tuple[StructureNode, ...]
     node_for_segment: dict[str, str]
+    relations: tuple[StructureRelation, ...] = ()
 
 
 def build_structure(
@@ -73,10 +74,37 @@ def build_structure(
             node_for_segment[segment.segment_id] = (
                 open_headings[-1][1] if open_headings else root_id
             )
-    return StructurePlan(root_id, tuple(nodes), node_for_segment)
+    return StructurePlan(root_id, tuple(nodes), node_for_segment, _sibling_relations(tuple(nodes)))
 
 
 def _heading_depth(text: str) -> int:
     stripped = text.lstrip()
     depth = len(stripped) - len(stripped.lstrip("#"))
     return depth if depth > 0 else 1
+
+
+def _sibling_relations(nodes: tuple[StructureNode, ...]) -> tuple[StructureRelation, ...]:
+    by_parent: dict[str, list[StructureNode]] = {}
+    for node in nodes:
+        if node.structure_node_kind == "root":
+            continue
+        by_parent.setdefault(node.parent_structure_node_id, []).append(node)
+    relations: list[StructureRelation] = []
+    for siblings in by_parent.values():
+        ordered = sorted(siblings, key=lambda item: item.source_order)
+        for left, right in zip(ordered, ordered[1:], strict=False):
+            relations.append(
+                StructureRelation(
+                    left.structure_node_id,
+                    right.structure_node_id,
+                    "next-sibling",
+                )
+            )
+            relations.append(
+                StructureRelation(
+                    right.structure_node_id,
+                    left.structure_node_id,
+                    "previous-sibling",
+                )
+            )
+    return tuple(relations)

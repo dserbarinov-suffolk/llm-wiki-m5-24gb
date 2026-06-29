@@ -3,25 +3,33 @@ page_id: rpg-cairn-2e-core-section-omens-01133909
 page_kind: source
 summary: Omens: 7 source-backed entries and 4 atom(s) from raw/rpg_cairn_2e_core.pdf.
 sources: raw/rpg_cairn_2e_core.pdf
-updated: 2026-06-26
+updated: 2026-06-29
 domain: rpg-cairn-2e-core
 category_path: sources/rpg-cairn-2e-core/sections
 source_id: rpg_cairn_2e_core.pdf
-projection_coverage: section-rpg-cairn-2e-core-section-omens-01133909@a830defe217d7a00ab70fce332353e36
+projection_coverage: section-rpg-cairn-2e-core-section-omens-01133909@3e035420b9cbd90b037972427a1c45ad
 ---
 
 # Omens
 
 From [[rpg-cairn-2e-core]].
 
+## Related pages
+
+- [[rpg-cairn-2e-core-omen]] - topic hub: opens the topic page for Omen
+- [[rpg-cairn-2e-core-section-omens-d2d93e81]] - same source heading: another source section with the same heading, Omens
+
 ## Statements
 
-- Village elders believe the two are connected. _(rpg_cairn_2e_core.pdf (source-range-ad2c341f-00150))_
-- - 4 capturing farmers and pulling them into the Roots are spreading like wildfire. _(rpg_cairn_2e_core.pdf (source-range-ad2c341f-00150))_
+- 4 capturing farmers and pulling them into the Roots are spreading like wildfire. Village elders believe the two are connected. _(rpg_cairn_2e_core.pdf (source-range-ad2c341f-00150))_
 - The songbirds of the Wood have fallen eerily silent as of late. _(rpg_cairn_2e_core.pdf (source-range-ad2c341f-00151))_
-- - 20 children's dreams, uttering the same warning: A fire is coming, and it will consume everything. _(rpg_cairn_2e_core.pdf (source-range-ad2c341f-00166))_
+- 20 children's dreams, uttering the same warning: A fire is coming, and it will consume everything. _(rpg_cairn_2e_core.pdf (source-range-ad2c341f-00166))_
 
 ## Technical atoms
+
+### Technical frame 1: Omens
+
+**Atom:** _(rpg_cairn_2e_core.pdf (source-range-ad2c341f-00144))_
 
 | entry | content |
 | --- | --- |
@@ -38,7 +46,10 @@ d20 Omen
 ```
 
 </details>
-_(source: rpg_cairn_2e_core.pdf (source-range-ad2c341f-00144))_
+
+### Technical frame 2: Omens
+
+**Atom:** _(rpg_cairn_2e_core.pdf (source-range-ad2c341f-00157))_
 
 | entry | content |
 | --- | --- |
@@ -58,7 +69,10 @@ There	is	a	village	known	far	and	wide	for	its	impressive "mother	tree,"	said	to	
 ```
 
 </details>
-_(source: rpg_cairn_2e_core.pdf (source-range-ad2c341f-00157))_
+
+### Technical frame 3: Omens
+
+**Atom:** _(rpg_cairn_2e_core.pdf (source-range-ad2c341f-00163))_
 
 | entry | content |
 | --- | --- |
@@ -98,7 +112,10 @@ fear	and	dread.
 ```
 
 </details>
-_(source: rpg_cairn_2e_core.pdf (source-range-ad2c341f-00163))_
+
+### Technical frame 4: Omens Should...
+
+**Atom:** _(rpg_cairn_2e_core.pdf (source-range-ad2c341f-00652))_
 
 | entry | content |
 | --- | --- |
@@ -422,4 +439,3 @@ You may mentally 1 move item under 60lbs. The owner can summon the book
 ```
 
 </details>
-_(source: rpg_cairn_2e_core.pdf (source-range-ad2c341f-00652))_

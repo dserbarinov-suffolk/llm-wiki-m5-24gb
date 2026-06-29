@@ -3,11 +3,11 @@ page_id: rpg-cairn-2e-core-section-strengthening-ties-d7eea6a6
 page_kind: source
 summary: Strengthening Ties: 4 source-backed entries and 0 atom(s) from raw/rpg_cairn_2e_core.pdf.
 sources: raw/rpg_cairn_2e_core.pdf
-updated: 2026-06-26
+updated: 2026-06-29
 domain: rpg-cairn-2e-core
 category_path: sources/rpg-cairn-2e-core/sections
 source_id: rpg_cairn_2e_core.pdf
-projection_coverage: section-rpg-cairn-2e-core-section-strengthening-ties-d7eea6a6@fbcae6cfad4cb757a8aaa11563b83fbc
+projection_coverage: section-rpg-cairn-2e-core-section-strengthening-ties-d7eea6a6@0636e38f49cea3b3d34449620cc7f143
 ---
 
 # Strengthening Ties
@@ -16,7 +16,5 @@ From [[rpg-cairn-2e-core]].
 
 ## Statements
 
-- The Warden then provides concrete measures (described as Milestones and Costs ) that the PC can undertake to advance the relationship. _(rpg_cairn_2e_core.pdf (source-range-ad2c341f-00406))_
-- First, they must identify the entity with whom they wish to strengthen ties, as well as a specific intent (e.g., building trust, mending a friendship, seeking membership in a Faction, forming an alliance, and so on). _(rpg_cairn_2e_core.pdf (source-range-ad2c341f-00406))_
-- With each completed Milestone , the Warden describes how the PC's relationship has grown or changed. _(rpg_cairn_2e_core.pdf (source-range-ad2c341f-00406))_
+- A character fosters a connection with an NPC or Faction in the game world. First, they must identify the entity with whom they wish to strengthen ties, as well as a specific intent (e.g., building trust, mending a friendship, seeking membership in a Faction, forming an alliance, and so on). The Warden then provides concrete measures (described as Milestones and Costs ) that the PC can undertake to advance the relationship. With each completed Milestone , the Warden describes how the PC's relationship has grown or changed. _(rpg_cairn_2e_core.pdf (source-range-ad2c341f-00406))_
 - The Warden then provides concrete measures (described as Milestones and Costs ) that the PC can undertake to advance the relationship. _(rpg_cairn_2e_core.pdf (source-range-ad2c341f-00406))_

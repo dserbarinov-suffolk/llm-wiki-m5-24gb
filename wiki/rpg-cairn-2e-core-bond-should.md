@@ -3,10 +3,10 @@ page_id: rpg-cairn-2e-core-bond-should
 page_kind: concept
 summary: Bonds Should...: 4 statement(s) and 5 atom(s) from raw/rpg_cairn_2e_core.pdf.
 sources: raw/rpg_cairn_2e_core.pdf
-updated: 2026-06-26
+updated: 2026-06-29
 domain: rpg-cairn-2e-core
 category_path: concepts
-projection_coverage: topic-rpg-cairn-2e-core-bond-should@6f9d2ff4849b6464033119611bb71260
+projection_coverage: topic-rpg-cairn-2e-core-bond-should@02cc08ecc1ad6d4b14b98921afe6da3e
 ---
 
 # Bonds Should...
@@ -15,12 +15,22 @@ What [[rpg-cairn-2e-core]] covers about bonds should...:
 
 ## Statements
 
+### Bonds Should...
+
 - Give a character an item (often petty ) or a unique ability. _(rpg_cairn_2e_core.pdf (source-range-ad2c341f-00642))_
+
 - Encourage character engagement with the implied setting. _(rpg_cairn_2e_core.pdf (source-range-ad2c341f-00643))_
+
 - Flesh out a character's history without relying on events tied to specific Backgrounds. _(rpg_cairn_2e_core.pdf (source-range-ad2c341f-00644))_
+
 - Provide a character with a quest, opportunity, or plan of action. _(rpg_cairn_2e_core.pdf (source-range-ad2c341f-00645))_
 
+
 ## Technical atoms
+
+### Technical frame 1: Bonds
+
+**Atom:** _(rpg_cairn_2e_core.pdf (source-range-ad2c341f-00128))_
 
 | entry | content |
 | --- | --- |
@@ -48,7 +58,10 @@ You	inherited	an	old Journal ,	bound	in	bark.	Each	evening,	its
 ```
 
 </details>
-_(source: rpg_cairn_2e_core.pdf (source-range-ad2c341f-00128))_
+
+### Technical frame 2: Bonds
+
+**Atom:** _(rpg_cairn_2e_core.pdf (source-range-ad2c341f-00130))_
 
 | 1 | Ambitious | 6 | Honorable |
 | --- | --- | --- | --- |
@@ -70,7 +83,10 @@ _(source: rpg_cairn_2e_core.pdf (source-range-ad2c341f-00128))_
 ```
 
 </details>
-_(source: rpg_cairn_2e_core.pdf (source-range-ad2c341f-00130))_
+
+### Technical frame 3: Bonds
+
+**Atom:** _(rpg_cairn_2e_core.pdf (source-range-ad2c341f-00131))_
 
 | entry | content |
 | --- | --- |
@@ -95,7 +111,10 @@ A	roaming	storyteller	once	spun	you	tales	of	great	treasure
 ```
 
 </details>
-_(source: rpg_cairn_2e_core.pdf (source-range-ad2c341f-00131))_
+
+### Technical frame 4: Bonds
+
+**Atom:** _(rpg_cairn_2e_core.pdf (source-range-ad2c341f-00134))_
 
 | entry | content |
 | --- | --- |
@@ -112,7 +131,10 @@ You	found	a	wounded	beast	in	the	forest	but	chose	to	ignore
 ```
 
 </details>
-_(source: rpg_cairn_2e_core.pdf (source-range-ad2c341f-00134))_
+
+### Technical frame 5: Bonds
+
+**Atom:** _(rpg_cairn_2e_core.pdf (source-range-ad2c341f-00142))_
 
 | entry | content |
 | --- | --- |
@@ -140,8 +162,17 @@ A	white	crow	appeared	to	you	in	a	dream,	holding	a	twig	in	its
 ```
 
 </details>
-_(source: rpg_cairn_2e_core.pdf (source-range-ad2c341f-00142))_
 
+
+## Related pages
+
+- [[rpg-cairn-2e-core-bond]] - broader topic: Bonds shares technical record from Bonds: D20 Bond 1 You	inherited	a Single	Gem (500gp,	cold	and	brittle)	from	a long-dead	relative.	It	arrived	with	a	warning:	squander	your newfound	riches,	and	a	debt	long ... [truncated] (5 shared atom(s))
+- [[rpg-cairn-2e-core-bond-and-omen]] - shared technical atoms: Bonds and Omens shares technical record from Bonds: D20 Bond 1 You	inherited	a Single	Gem (500gp,	cold	and	brittle)	from	a long-dead	relative.	It	arrived	with	a	warning:	squander	your newfound	riches,	and	a	debt	long ... [truncated] (5 shared atom(s))
+- [[rpg-cairn-2e-core-knowledge-and-perception]] - shared technical atoms: Knowledge And Perception shares technical record from Bonds: D20 Bond 1 You	inherited	a Single	Gem (500gp,	cold	and	brittle)	from	a long-dead	relative.	It	arrived	with	a	warning:	squander	your newfound	riches,	and	a	debt	long ... [truncated] (2 shared atom(s))
+- [[rpg-cairn-2e-core-principle-for-player]] - shared technical atoms: Principles for Players shares technical record from Bonds: D20 Bond 1 You	inherited	a Single	Gem (500gp,	cold	and	brittle)	from	a long-dead	relative.	It	arrived	with	a	warning:	squander	your newfound	riches,	and	a	debt	long ... [truncated] (2 shared atom(s))
+- [[rpg-cairn-2e-core-principle-for-warden]] - shared technical atoms: Principles for Wardens shares technical record from Bonds: D20 Bond 1 You	inherited	a Single	Gem (500gp,	cold	and	brittle)	from	a long-dead	relative.	It	arrived	with	a	warning:	squander	your newfound	riches,	and	a	debt	long ... [truncated] (2 shared atom(s))
+- [[rpg-cairn-2e-core-character]] - shared statements: Character shares source evidence from Bonds Should...: Encourage character engagement with the implied setting. (2 shared statement(s))
+- [[rpg-cairn-2e-core-section-bonds-should-1f33a78a]] - source section: Bonds Should... shares source evidence from Bonds Should...: Give a character an item (often petty ) or a unique ability.; Bonds Should... shares technical record from Bonds: D20 Bond 1 You	inherited	a Single	Gem (500gp,	cold	and	brittle)	from	a long-dead	relative.	It	arrived	with	a	warning:	squander	your newfound	riches,	and	a	debt	long ... [truncated] (4 shared statement(s), 5 shared atom(s))
 
 ## Source
 

@@ -3,23 +3,35 @@ page_id: rpg-cairn-2e-core-section-exploration-3d4a8990
 page_kind: source
 summary: Exploration: 2 source-backed entries and 3 atom(s) from raw/rpg_cairn_2e_core.pdf.
 sources: raw/rpg_cairn_2e_core.pdf
-updated: 2026-06-26
+updated: 2026-06-29
 domain: rpg-cairn-2e-core
 category_path: sources/rpg-cairn-2e-core/sections
 source_id: rpg_cairn_2e_core.pdf
-projection_coverage: section-rpg-cairn-2e-core-section-exploration-3d4a8990@08164c17fd5eee21798f9f9f7120da7d
+projection_coverage: section-rpg-cairn-2e-core-section-exploration-3d4a8990@2c9253e79ddb41900f3185ffb37f9420
 ---
 
 # Exploration
 
 From [[rpg-cairn-2e-core]].
 
+## Related pages
+
+- [[rpg-cairn-2e-core-section-exploration-example-c3964a0e]] - same source heading: another source section with the same heading, Exploration Example
+
 ## Statements
 
-- - Asking questions and listening to detail is more useful than any stats, items, or skills you have. _(rpg_cairn_2e_core.pdf (source-range-ad2c341f-00033))_
-- - There is no single correct way forward. _(rpg_cairn_2e_core.pdf (source-range-ad2c341f-00035))_
+- Asking questions and listening to detail is more useful than any stats, items, or skills you have. _(rpg_cairn_2e_core.pdf (source-range-ad2c341f-00033))_
+- There is no single correct way forward. _(rpg_cairn_2e_core.pdf (source-range-ad2c341f-00035))_
 
 ## Technical atoms
+
+### Technical frame 1: Wilderness Exploration Cycle
+
+**Context:** _(rpg_cairn_2e_core.pdf (source-range-ad2c341f-00329))_
+
+> The players and the Warden record any loss of resources and new conditions (i.e. torch use, deprivation , etc), and the cycle repeats.
+
+**Atom:** _(rpg_cairn_2e_core.pdf (source-range-ad2c341f-00330))_
 
 | entry | content |
 | --- | --- |
@@ -45,7 +57,14 @@ Roll on an encounter table for that terrain type
 ```
 
 </details>
-_(source: rpg_cairn_2e_core.pdf (source-range-ad2c341f-00330))_
+
+### Technical frame 2: Wilderness Exploration Cycle
+
+**Context:** _(rpg_cairn_2e_core.pdf (source-range-ad2c341f-00329))_
+
+> The players and the Warden record any loss of resources and new conditions (i.e. torch use, deprivation , etc), and the cycle repeats.
+
+**Atom:** _(rpg_cairn_2e_core.pdf (source-range-ad2c341f-00331))_
 
 | Weather | Eﬀect | Examples |
 | --- | --- | --- |
@@ -79,7 +98,14 @@ _(source: rpg_cairn_2e_core.pdf (source-range-ad2c341f-00330))_
 ```
 
 </details>
-_(source: rpg_cairn_2e_core.pdf (source-range-ad2c341f-00331))_
+
+### Technical frame 3: Wilderness Exploration Cycle
+
+**Context:** _(rpg_cairn_2e_core.pdf (source-range-ad2c341f-00329))_
+
+> The players and the Warden record any loss of resources and new conditions (i.e. torch use, deprivation , etc), and the cycle repeats.
+
+**Atom:** _(rpg_cairn_2e_core.pdf (source-range-ad2c341f-00332))_
 
 | d6 | Spring | Summer | Fall | Winter |
 | --- | --- | --- | --- | --- |
@@ -105,4 +131,3 @@ _(source: rpg_cairn_2e_core.pdf (source-range-ad2c341f-00331))_
 ```
 
 </details>
-_(source: rpg_cairn_2e_core.pdf (source-range-ad2c341f-00332))_

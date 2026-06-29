@@ -3,11 +3,11 @@ page_id: rpg-cairn-2e-core
 page_kind: source
 summary: Claim-ledger projection (general-prose): 669 usable entries, 82 technical atoms, 174 needs-review, 166 linked page(s); write decision write-with-review-work.
 sources: raw/rpg_cairn_2e_core.pdf
-updated: 2026-06-26
+updated: 2026-06-29
 domain: rpg-cairn-2e-core
 category_path: sources
 source_id: rpg_cairn_2e_core.pdf
-projection_coverage: projection-coverage-e886f264773cd14c@9b005d33c93ffbc9
+projection_coverage: projection-coverage-6841926c7d630017@1a90c05cec2ac3d0
 ---
 
 # Cairn 2e Core Rulebook
@@ -78,8 +78,9 @@ projection_coverage: projection-coverage-e886f264773cd14c@9b005d33c93ffbc9
 - - You'll find that most people are interesting and will want to talk things through before getting violent. _(rpg_cairn_2e_core.pdf (source-range-ad2c341f-00038))_
 - - You'll find that most people are interesting and will want to talk things through before getting violent. _(rpg_cairn_2e_core.pdf (source-range-ad2c341f-00038))_
 
+**Atom:** _(rpg_cairn_2e_core.pdf (source-range-ad2c341f-00037))_
+
 > - Treat NPCs as if they were real people, and rely on your curiosity to safely gain information and solve problems.
-_(source: rpg_cairn_2e_core.pdf (source-range-ad2c341f-00037))_
 
 ## Caution
 
@@ -108,8 +109,9 @@ _(source: rpg_cairn_2e_core.pdf (source-range-ad2c341f-00037))_
 
 - - Saves cover a great deal of uncertain situations and are often all that is necessary for risky actions. _(rpg_cairn_2e_core.pdf (source-range-ad2c341f-00060))_
 
+**Atom:** _(rpg_cairn_2e_core.pdf (source-range-ad2c341f-00058))_
+
 > - If something the players want to do is sincerely impossible, no roll will allow them to do it.
-_(source: rpg_cairn_2e_core.pdf (source-range-ad2c341f-00058))_
 
 ## Preparation
 
@@ -147,8 +149,9 @@ _(source: rpg_cairn_2e_core.pdf (source-range-ad2c341f-00058))_
 - - Occasionally you will want an element of randomness (e.g. _(rpg_cairn_2e_core.pdf (source-range-ad2c341f-00086))_
 - - A roll of 3 or under tends to mean bad luck for the PCs or their allies. _(rpg_cairn_2e_core.pdf (source-range-ad2c341f-00088))_
 
+**Atom:** _(rpg_cairn_2e_core.pdf (source-range-ad2c341f-00087))_
+
 > - In these situations, roll 1d6. A roll of 4 or more generally favors the players.
-_(source: rpg_cairn_2e_core.pdf (source-range-ad2c341f-00087))_
 
 ## Character Creation
 
@@ -173,8 +176,13 @@ _(source: rpg_cairn_2e_core.pdf (source-range-ad2c341f-00087))_
 - The Warden should incorporate Omens into the setting as they see fit. _(rpg_cairn_2e_core.pdf (source-range-ad2c341f-00099))_
 - - Finally, roll for your character's Age (2d20+10). _(rpg_cairn_2e_core.pdf (source-range-ad2c341f-00099))_
 
+**Context:** _(rpg_cairn_2e_core.pdf (source-range-ad2c341f-00098))_
+
+> Roll for the rest of your character's Traits, and then on the the Bonds table.
+
+**Atom:** _(rpg_cairn_2e_core.pdf (source-range-ad2c341f-00099))_
+
 > If you are the youngest character, roll on the Omens table.
-_(source: rpg_cairn_2e_core.pdf (source-range-ad2c341f-00099))_
 
 ## Attributes
 
@@ -183,16 +191,22 @@ _(source: rpg_cairn_2e_core.pdf (source-range-ad2c341f-00099))_
 - Their risk is simply higher. _(rpg_cairn_2e_core.pdf (source-range-ad2c341f-00103))_
 - A character with a low STR is not necessarily hopelessly weak; they can still attempt to lift a heavy door or survive a deadly fight! _(rpg_cairn_2e_core.pdf (source-range-ad2c341f-00103))_
 
+**Atom:** _(rpg_cairn_2e_core.pdf (source-range-ad2c341f-00102))_
+
 > - Roll 3d6 for each of your character's Attributes , in order. You may then swap any two of the results.
-_(source: rpg_cairn_2e_core.pdf (source-range-ad2c341f-00102))_
 
 ## Hit Protection
 
 - - Roll 1d6 to determine your PC's starting Hit Protection (HP), which reflects their ability to avoid damage in combat. _(rpg_cairn_2e_core.pdf (source-range-ad2c341f-00105))_
 - It does not indicate a character's health or fortitude, nor do they lose it for very long. _(rpg_cairn_2e_core.pdf (source-range-ad2c341f-00105))_
 
+**Context:** _(rpg_cairn_2e_core.pdf (source-range-ad2c341f-00105))_
+
+> Roll 1d6 to determine your PC's starting Hit Protection (HP), which reflects their ability to avoid damage in combat. It does not indicate a character's health or fortitude, nor do they lose it for very long. See Healing & Recovery.
+
+**Atom:** _(rpg_cairn_2e_core.pdf (source-range-ad2c341f-00106))_
+
 > - If an attack would take a PC's HP exactly to 0, the player must roll on the Scars table.
-_(source: rpg_cairn_2e_core.pdf (source-range-ad2c341f-00106))_
 
 ## Inventory
 
@@ -202,6 +216,8 @@ _(source: rpg_cairn_2e_core.pdf (source-range-ad2c341f-00106))_
 - Carts (which must be pulled with both hands), horses, or mules can make a huge difference in how much a PC can bring with them on an adventure. _(rpg_cairn_2e_core.pdf (source-range-ad2c341f-00109))_
 - - Each PC starts with a Backpack that can hold up to six slots of items or Fatigue . _(rpg_cairn_2e_core.pdf (source-range-ad2c341f-00109))_
 - A character cannot fill more than ten slots. _(rpg_cairn_2e_core.pdf (source-range-ad2c341f-00112))_
+
+**Atom:** _(rpg_cairn_2e_core.pdf (source-range-ad2c341f-00111))_
 
 | 1 | Aurifex | 11 | Half-Witch |
 | --- | --- | --- | --- |
@@ -233,7 +249,6 @@ _(source: rpg_cairn_2e_core.pdf (source-range-ad2c341f-00106))_
 ```
 
 </details>
-_(source: rpg_cairn_2e_core.pdf (source-range-ad2c341f-00111))_
 
 ## Inventory Slots
 
@@ -243,6 +258,8 @@ _(source: rpg_cairn_2e_core.pdf (source-range-ad2c341f-00111))_
 - - A bag of coins worth less than 100gp is petty and does not occupy a slot. _(rpg_cairn_2e_core.pdf (source-range-ad2c341f-00116))_
 
 ## Character Traits (d10)
+
+**Atom:** _(rpg_cairn_2e_core.pdf (source-range-ad2c341f-00118))_
 
 | entry | content |
 | --- | --- |
@@ -265,9 +282,10 @@ Physique
 ```
 
 </details>
-_(source: rpg_cairn_2e_core.pdf (source-range-ad2c341f-00118))_
 
 ## Skin
+
+**Atom:** _(rpg_cairn_2e_core.pdf (source-range-ad2c341f-00120))_
 
 | entry | content |
 | --- | --- |
@@ -290,11 +308,12 @@ Hair
 ```
 
 </details>
-_(source: rpg_cairn_2e_core.pdf (source-range-ad2c341f-00120))_
 
 ## Face
 
 ## Speech
+
+**Atom:** _(rpg_cairn_2e_core.pdf (source-range-ad2c341f-00123))_
 
 | 1 | Birthmarked | 6 | Soft |
 | --- | --- | --- | --- |
@@ -316,7 +335,8 @@ _(source: rpg_cairn_2e_core.pdf (source-range-ad2c341f-00120))_
 ```
 
 </details>
-_(source: rpg_cairn_2e_core.pdf (source-range-ad2c341f-00123))_
+
+**Atom:** _(rpg_cairn_2e_core.pdf (source-range-ad2c341f-00124))_
 
 | entry | content |
 | --- | --- |
@@ -339,7 +359,8 @@ Clothing
 ```
 
 </details>
-_(source: rpg_cairn_2e_core.pdf (source-range-ad2c341f-00124))_
+
+**Atom:** _(rpg_cairn_2e_core.pdf (source-range-ad2c341f-00125))_
 
 | entry | content |
 | --- | --- |
@@ -362,7 +383,8 @@ Virtue
 ```
 
 </details>
-_(source: rpg_cairn_2e_core.pdf (source-range-ad2c341f-00125))_
+
+**Atom:** _(rpg_cairn_2e_core.pdf (source-range-ad2c341f-00126))_
 
 | entry | content |
 | --- | --- |
@@ -385,11 +407,12 @@ Vice
 ```
 
 </details>
-_(source: rpg_cairn_2e_core.pdf (source-range-ad2c341f-00126))_
 
 ## Bonds
 
 - During your travels, you met a dying hunter who asked you to _(rpg_cairn_2e_core.pdf (source-range-ad2c341f-00132))_
+
+**Atom:** _(rpg_cairn_2e_core.pdf (source-range-ad2c341f-00128))_
 
 | entry | content |
 | --- | --- |
@@ -417,7 +440,8 @@ You	inherited	an	old Journal ,	bound	in	bark.	Each	evening,	its
 ```
 
 </details>
-_(source: rpg_cairn_2e_core.pdf (source-range-ad2c341f-00128))_
+
+**Atom:** _(rpg_cairn_2e_core.pdf (source-range-ad2c341f-00130))_
 
 | 1 | Ambitious | 6 | Honorable |
 | --- | --- | --- | --- |
@@ -439,7 +463,8 @@ _(source: rpg_cairn_2e_core.pdf (source-range-ad2c341f-00128))_
 ```
 
 </details>
-_(source: rpg_cairn_2e_core.pdf (source-range-ad2c341f-00130))_
+
+**Atom:** _(rpg_cairn_2e_core.pdf (source-range-ad2c341f-00131))_
 
 | entry | content |
 | --- | --- |
@@ -464,7 +489,8 @@ A	roaming	storyteller	once	spun	you	tales	of	great	treasure
 ```
 
 </details>
-_(source: rpg_cairn_2e_core.pdf (source-range-ad2c341f-00131))_
+
+**Atom:** _(rpg_cairn_2e_core.pdf (source-range-ad2c341f-00134))_
 
 | entry | content |
 | --- | --- |
@@ -481,7 +507,8 @@ You	found	a	wounded	beast	in	the	forest	but	chose	to	ignore
 ```
 
 </details>
-_(source: rpg_cairn_2e_core.pdf (source-range-ad2c341f-00134))_
+
+**Atom:** _(rpg_cairn_2e_core.pdf (source-range-ad2c341f-00142))_
 
 | entry | content |
 | --- | --- |
@@ -509,7 +536,6 @@ A	white	crow	appeared	to	you	in	a	dream,	holding	a	twig	in	its
 ```
 
 </details>
-_(source: rpg_cairn_2e_core.pdf (source-range-ad2c341f-00142))_
 
 ## Omens
 
@@ -517,6 +543,8 @@ _(source: rpg_cairn_2e_core.pdf (source-range-ad2c341f-00142))_
 - - 4 capturing farmers and pulling them into the Roots are spreading like wildfire. _(rpg_cairn_2e_core.pdf (source-range-ad2c341f-00150))_
 - The songbirds of the Wood have fallen eerily silent as of late. _(rpg_cairn_2e_core.pdf (source-range-ad2c341f-00151))_
 - - 20 children's dreams, uttering the same warning: A fire is coming, and it will consume everything. _(rpg_cairn_2e_core.pdf (source-range-ad2c341f-00166))_
+
+**Atom:** _(rpg_cairn_2e_core.pdf (source-range-ad2c341f-00144))_
 
 | entry | content |
 | --- | --- |
@@ -533,7 +561,8 @@ d20 Omen
 ```
 
 </details>
-_(source: rpg_cairn_2e_core.pdf (source-range-ad2c341f-00144))_
+
+**Atom:** _(rpg_cairn_2e_core.pdf (source-range-ad2c341f-00157))_
 
 | entry | content |
 | --- | --- |
@@ -553,7 +582,8 @@ There	is	a	village	known	far	and	wide	for	its	impressive "mother	tree,"	said	to	
 ```
 
 </details>
-_(source: rpg_cairn_2e_core.pdf (source-range-ad2c341f-00157))_
+
+**Atom:** _(rpg_cairn_2e_core.pdf (source-range-ad2c341f-00163))_
 
 | entry | content |
 | --- | --- |
@@ -593,7 +623,6 @@ fear	and	dread.
 ```
 
 </details>
-_(source: rpg_cairn_2e_core.pdf (source-range-ad2c341f-00163))_
 
 ## Core Rules
 
@@ -638,19 +667,23 @@ _(source: rpg_cairn_2e_core.pdf (source-range-ad2c341f-00163))_
 - - Before calculating damage to HP , subtract the target's Armor value from the result of damage rolls. _(rpg_cairn_2e_core.pdf (source-range-ad2c341f-00187))_
 - - A PC, NPC, or monster cannot have more than 3 Armor. _(rpg_cairn_2e_core.pdf (source-range-ad2c341f-00189))_
 
+**Atom:** _(rpg_cairn_2e_core.pdf (source-range-ad2c341f-00188))_
+
 > Some may also provide additional benefits, depending on the fiction.
-_(source: rpg_cairn_2e_core.pdf (source-range-ad2c341f-00188))_
+
+**Atom:** _(rpg_cairn_2e_core.pdf (source-range-ad2c341f-00188))_
 
 > - Shields and similar armor provide a bonus defense (e.g. +1 Armor), but only while the item is held or worn. Some may also provide additional benefits, depending on the fiction.
-_(source: rpg_cairn_2e_core.pdf (source-range-ad2c341f-00188))_
 
 ## Reactions
 
-> When the PCs encounter an NPC whose reaction to the party is not obvious, the Warden may roll 2d6 and consult the following table:
-_(source: rpg_cairn_2e_core.pdf (source-range-ad2c341f-00191))_
+**Atom:** _(rpg_cairn_2e_core.pdf (source-range-ad2c341f-00191))_
 
 > When the PCs encounter an NPC whose reaction to the party is not obvious, the Warden may roll 2d6 and consult the following table:
-_(source: rpg_cairn_2e_core.pdf (source-range-ad2c341f-00191))_
+
+**Atom:** _(rpg_cairn_2e_core.pdf (source-range-ad2c341f-00191))_
+
+> When the PCs encounter an NPC whose reaction to the party is not obvious, the Warden may roll 2d6 and consult the following table:
 
 ## Morale
 
@@ -658,8 +691,9 @@ _(source: rpg_cairn_2e_core.pdf (source-range-ad2c341f-00191))_
 - - Some groups may use their leader's WIL in place of their own. _(rpg_cairn_2e_core.pdf (source-range-ad2c341f-00194))_
 - - Morale does not affect PCs. _(rpg_cairn_2e_core.pdf (source-range-ad2c341f-00195))_
 
+**Atom:** _(rpg_cairn_2e_core.pdf (source-range-ad2c341f-00194))_
+
 > Lone foes must save when they're reduced to 0 HP .
-_(source: rpg_cairn_2e_core.pdf (source-range-ad2c341f-00194))_
 
 ## Hirelings
 
@@ -673,8 +707,9 @@ _(source: rpg_cairn_2e_core.pdf (source-range-ad2c341f-00194))_
 - - A roll of 4 or more generally favors the PCs, while a roll of 3 or under usually means bad luck for the PCs. _(rpg_cairn_2e_core.pdf (source-range-ad2c341f-00202))_
 - - A roll of 4 or more generally favors the PCs, while a roll of 3 or under usually means bad luck for the PCs. _(rpg_cairn_2e_core.pdf (source-range-ad2c341f-00202))_
 
+**Atom:** _(rpg_cairn_2e_core.pdf (source-range-ad2c341f-00201))_
+
 > - Optionally, roll 1d6 whenever the outcome of an event is uncertain or to simulate an element of randomness and chance.
-_(source: rpg_cairn_2e_core.pdf (source-range-ad2c341f-00201))_
 
 ## Combat
 
@@ -695,8 +730,9 @@ _(source: rpg_cairn_2e_core.pdf (source-range-ad2c341f-00201))_
 - Each round, the PCs declare what they are doing before dice are rolled. _(rpg_cairn_2e_core.pdf (source-range-ad2c341f-00209))_
 - Each round, the PCs declare what they are doing before dice are rolled. _(rpg_cairn_2e_core.pdf (source-range-ad2c341f-00209))_
 
+**Atom:** _(rpg_cairn_2e_core.pdf (source-range-ad2c341f-00209))_
+
 > On their turn, a character may move up to 40ft and take up to one action.
-_(source: rpg_cairn_2e_core.pdf (source-range-ad2c341f-00209))_
 
 ## Attacking & Damage
 
@@ -706,25 +742,46 @@ _(source: rpg_cairn_2e_core.pdf (source-range-ad2c341f-00209))_
 - All actions are declared before being resolved. _(rpg_cairn_2e_core.pdf (source-range-ad2c341f-00212))_
 - - If an attack would take a PC's HP exactly to 0, refer to the Scars table to see how they are uniquely impacted. _(rpg_cairn_2e_core.pdf (source-range-ad2c341f-00213))_
 
+**Atom:** _(rpg_cairn_2e_core.pdf (source-range-ad2c341f-00212))_
+
 > - If multiple attackers target the same foe, roll all damage dice and keep the single highest result.
-_(source: rpg_cairn_2e_core.pdf (source-range-ad2c341f-00212))_
 
 ## Attack Modifiers
 
 - - Attacks with the Blast quality affect all targets in the noted area, rolling separately for each affected character. _(rpg_cairn_2e_core.pdf (source-range-ad2c341f-00217))_
 - This can be anything from explosions to a dragon's breath or the impact of a meteorite. _(rpg_cairn_2e_core.pdf (source-range-ad2c341f-00217))_
 
+**Context:** _(rpg_cairn_2e_core.pdf (source-range-ad2c341f-00217))_
+
+> Attacks with the Blast quality affect all targets in the noted area, rolling separately for each affected character. This can be anything from explosions to a dragon's breath or the impact of a meteorite. If unsure how many targets can be affected, roll the related damage die for a result .
+
+**Atom:** _(rpg_cairn_2e_core.pdf (source-range-ad2c341f-00215))_
+
 > - If fighting from a position of weakness (such as through cover or with bound hands), the attack is Impaired , and the attacker must roll 1d4 damage regardless of the attacks damage die.
-_(source: rpg_cairn_2e_core.pdf (source-range-ad2c341f-00215))_
+
+**Context:** _(rpg_cairn_2e_core.pdf (source-range-ad2c341f-00215, source-range-ad2c341f-00217))_
+
+> If fighting from a position of weakness (such as through cover or with bound hands), the attack is Impaired , and the attacker must roll 1d4 damage regardless of the attacks damage die. Unarmed attacks always do d4 damage. - Attacks with the Blast quality affect all targets in the noted area, rolling separately for each affected character. This can be anything from explosions to a dragon's breath or the impact of a meteorite. If unsure how many targets can be affected, roll the related damage di
+
+**Atom:** _(rpg_cairn_2e_core.pdf (source-range-ad2c341f-00216))_
 
 > - If fighting from a position of advantage (such as against a helpless foe or through a daring maneuver), the attack is Enhanced , allowing the attacker to roll 1d12 damage instead of their normal die.
-_(source: rpg_cairn_2e_core.pdf (source-range-ad2c341f-00216))_
+
+**Context:** _(rpg_cairn_2e_core.pdf (source-range-ad2c341f-00216, source-range-ad2c341f-00218))_
+
+> If fighting from a position of advantage (such as against a helpless foe or through a daring maneuver), the attack is Enhanced , allowing the attacker to roll 1d12 damage instead of their normal die. - If attacking with two weapons at the same time, roll both damage dice and keep the single highest result (denoted with a plus symbol, e.g. d8+d8).
+
+**Atom:** _(rpg_cairn_2e_core.pdf (source-range-ad2c341f-00217))_
 
 > If unsure how many targets can be affected, roll the related damage die for a result .
-_(source: rpg_cairn_2e_core.pdf (source-range-ad2c341f-00217))_
+
+**Context:** _(rpg_cairn_2e_core.pdf (source-range-ad2c341f-00217))_
+
+> Attacks with the Blast quality affect all targets in the noted area, rolling separately for each affected character. This can be anything from explosions to a dragon's breath or the impact of a meteorite. If unsure how many targets can be affected, roll the related damage die for a result .
+
+**Atom:** _(rpg_cairn_2e_core.pdf (source-range-ad2c341f-00218))_
 
 > - If attacking with two weapons at the same time, roll both damage dice and keep the single highest result (denoted with a plus symbol, e.g.
-_(source: rpg_cairn_2e_core.pdf (source-range-ad2c341f-00218))_
 
 ## Critical Damage
 
@@ -737,8 +794,9 @@ _(source: rpg_cairn_2e_core.pdf (source-range-ad2c341f-00218))_
 - If given aid (such as bandages), they will stabilize. _(rpg_cairn_2e_core.pdf (source-range-ad2c341f-00222))_
 - If left untreated, they die within the hour. _(rpg_cairn_2e_core.pdf (source-range-ad2c341f-00222))_
 
+**Atom:** _(rpg_cairn_2e_core.pdf (source-range-ad2c341f-00220))_
+
 > On a success, the target is still in the fight (albeit with a lower STR score) and must continue to make critical damage saves when incurring damage.
-_(source: rpg_cairn_2e_core.pdf (source-range-ad2c341f-00220))_
 
 ## Attribute Loss
 
@@ -751,8 +809,9 @@ _(source: rpg_cairn_2e_core.pdf (source-range-ad2c341f-00220))_
 
 ## Character Death
 
+**Atom:** _(rpg_cairn_2e_core.pdf (source-range-ad2c341f-00227))_
+
 > - When a character dies, the player should create a new character or take control of a hireling.
-_(source: rpg_cairn_2e_core.pdf (source-range-ad2c341f-00227))_
 
 ## Detachments
 
@@ -778,6 +837,8 @@ _(source: rpg_cairn_2e_core.pdf (source-range-ad2c341f-00227))_
 - For example, if a PC went from 3 HP to 0 HP , they would look at entry #3 (Walloped). _(rpg_cairn_2e_core.pdf (source-range-ad2c341f-00237))_
 
 ## Scars Table
+
+**Atom:** _(rpg_cairn_2e_core.pdf (source-range-ad2c341f-00239))_
 
 | entry | content |
 | --- | --- |
@@ -816,7 +877,6 @@ Doomed:	Death	seemed	ever	so	close,	but	somehow	you
 ```
 
 </details>
-_(source: rpg_cairn_2e_core.pdf (source-range-ad2c341f-00239))_
 
 ## Magic
 
@@ -835,8 +895,9 @@ _(source: rpg_cairn_2e_core.pdf (source-range-ad2c341f-00239))_
 - Consequences of failure are on par with the intended effect and may result in added Fatigue , the destruction of the Spellbook, injury, and even death. _(rpg_cairn_2e_core.pdf (source-range-ad2c341f-00249))_
 - - If the PC is deprived or in danger (such as during combat), the Warden may require a PC to make a WIL save to avoid any illeffects from casting the spell. _(rpg_cairn_2e_core.pdf (source-range-ad2c341f-00249))_
 
+**Atom:** _(rpg_cairn_2e_core.pdf (source-range-ad2c341f-00246))_
+
 > They must then add a Fatigue to inventory.
-_(source: rpg_cairn_2e_core.pdf (source-range-ad2c341f-00246))_
 
 ## Scrolls
 
@@ -874,15 +935,27 @@ _(source: rpg_cairn_2e_core.pdf (source-range-ad2c341f-00246))_
 - item use, deprivation , etc). _(rpg_cairn_2e_core.pdf (source-range-ad2c341f-00267))_
 - The cycle then begins again. _(rpg_cairn_2e_core.pdf (source-range-ad2c341f-00267))_
 
+**Context:** _(rpg_cairn_2e_core.pdf (source-range-ad2c341f-00265))_
+
+> The Warden describes the party's surroundings and any immediate dangers (combat, traps, surprises, etc.). The players then declare their character's intended movements and actions .
+
+**Atom:** _(rpg_cairn_2e_core.pdf (source-range-ad2c341f-00266))_
+
 > Remember, the Die of Fate can be a useful tool whenever the Warden is in doubt!
-_(source: rpg_cairn_2e_core.pdf (source-range-ad2c341f-00266))_
+
+**Context:** _(rpg_cairn_2e_core.pdf (source-range-ad2c341f-00265))_
+
+> The Warden describes the party's surroundings and any immediate dangers (combat, traps, surprises, etc.). The players then declare their character's intended movements and actions .
+
+**Atom:** _(rpg_cairn_2e_core.pdf (source-range-ad2c341f-00267))_
 
 > If appropriate, the Warden should roll on the Dungeon Events table.
-_(source: rpg_cairn_2e_core.pdf (source-range-ad2c341f-00267))_
 
 ## Dungeon Events
 
 - Exploring a dungeon is always dangerous, and time must always be weighed against the risk of awakening the location's denizens, natural hazards, and worse. _(rpg_cairn_2e_core.pdf (source-range-ad2c341f-00269))_
+
+**Atom:** _(rpg_cairn_2e_core.pdf (source-range-ad2c341f-00274))_
 
 | entry | content |
 | --- | --- |
@@ -907,7 +980,6 @@ Roll on the table below.
 ```
 
 </details>
-_(source: rpg_cairn_2e_core.pdf (source-range-ad2c341f-00274))_
 
 ## Actions
 
@@ -958,8 +1030,9 @@ _(source: rpg_cairn_2e_core.pdf (source-range-ad2c341f-00274))_
 - - Damage from traps is taken from Attributes (usually STR or DEX ) and not from HP . _(rpg_cairn_2e_core.pdf (source-range-ad2c341f-00303))_
 - a shield would not reduce damage from noxious gas). _(rpg_cairn_2e_core.pdf (source-range-ad2c341f-00303))_
 
+**Atom:** _(rpg_cairn_2e_core.pdf (source-range-ad2c341f-00303))_
+
 > Armor can reduce damage, but only if applicable (e.g.
-_(source: rpg_cairn_2e_core.pdf (source-range-ad2c341f-00303))_
 
 ## Wilderness Exploration
 
@@ -994,10 +1067,13 @@ _(source: rpg_cairn_2e_core.pdf (source-range-ad2c341f-00303))_
 - If the " Extreme " weather result is rolled twice in a row, the weather turns to " Catastrophic ". _(rpg_cairn_2e_core.pdf (source-range-ad2c341f-00322))_
 - A squall becomes a hurricane, a storm floods the valley, etc. _(rpg_cairn_2e_core.pdf (source-range-ad2c341f-00322))_
 
+**Atom:** _(rpg_cairn_2e_core.pdf (source-range-ad2c341f-00322))_
+
 > Each day, the Warden should roll on the weather table for the appropriate season.
-_(source: rpg_cairn_2e_core.pdf (source-range-ad2c341f-00322))_
 
 ## Weather Type
+
+**Atom:** _(rpg_cairn_2e_core.pdf (source-range-ad2c341f-00324))_
 
 | Diﬀiculty | Terrain | Penalty | Factors |
 | --- | --- | --- | --- |
@@ -1017,7 +1093,6 @@ _(source: rpg_cairn_2e_core.pdf (source-range-ad2c341f-00322))_
 ```
 
 </details>
-_(source: rpg_cairn_2e_core.pdf (source-range-ad2c341f-00324))_
 
 ## Weather Difficulty
 
@@ -1027,6 +1102,8 @@ _(source: rpg_cairn_2e_core.pdf (source-range-ad2c341f-00324))_
 - The Warden narrates the results and then rolls on the Wilderness Events table. _(rpg_cairn_2e_core.pdf (source-range-ad2c341f-00328))_
 - The Warden narrates the results and then rolls on the Wilderness Events table. _(rpg_cairn_2e_core.pdf (source-range-ad2c341f-00328))_
 - torch use, deprivation , etc), and the cycle repeats. _(rpg_cairn_2e_core.pdf (source-range-ad2c341f-00329))_
+
+**Atom:** _(rpg_cairn_2e_core.pdf (source-range-ad2c341f-00330))_
 
 | entry | content |
 | --- | --- |
@@ -1052,7 +1129,8 @@ Roll on an encounter table for that terrain type
 ```
 
 </details>
-_(source: rpg_cairn_2e_core.pdf (source-range-ad2c341f-00330))_
+
+**Atom:** _(rpg_cairn_2e_core.pdf (source-range-ad2c341f-00331))_
 
 | Weather | Eﬀect | Examples |
 | --- | --- | --- |
@@ -1086,7 +1164,8 @@ _(source: rpg_cairn_2e_core.pdf (source-range-ad2c341f-00330))_
 ```
 
 </details>
-_(source: rpg_cairn_2e_core.pdf (source-range-ad2c341f-00331))_
+
+**Atom:** _(rpg_cairn_2e_core.pdf (source-range-ad2c341f-00332))_
 
 | d6 | Spring | Summer | Fall | Winter |
 | --- | --- | --- | --- | --- |
@@ -1112,7 +1191,6 @@ _(source: rpg_cairn_2e_core.pdf (source-range-ad2c341f-00331))_
 ```
 
 </details>
-_(source: rpg_cairn_2e_core.pdf (source-range-ad2c341f-00332))_
 
 ## 6 Discovery
 
@@ -1128,8 +1206,13 @@ _(source: rpg_cairn_2e_core.pdf (source-range-ad2c341f-00332))_
 - The Warden should balance these challenges along with any other. _(rpg_cairn_2e_core.pdf (source-range-ad2c341f-00340))_
 - - Some terrain and weather may be easier to traverse at night (desert, for example). _(rpg_cairn_2e_core.pdf (source-range-ad2c341f-00340))_
 
+**Context:** _(rpg_cairn_2e_core.pdf (source-range-ad2c341f-00338))_
+
+> The party can choose to travel during the night and rest during the day, but night travel is far slower and more treacherous!
+
+**Atom:** _(rpg_cairn_2e_core.pdf (source-range-ad2c341f-00339))_
+
 > The Warden should roll twice on the Wilderness Events table.
-_(source: rpg_cairn_2e_core.pdf (source-range-ad2c341f-00339))_
 
 ## Sleep
 
@@ -1138,8 +1221,9 @@ _(source: rpg_cairn_2e_core.pdf (source-range-ad2c341f-00339))_
 - Anything beyond a minor interruption can negate or cancel the benefits of sleep. _(rpg_cairn_2e_core.pdf (source-range-ad2c341f-00343))_
 - Easy becomes Tough ). _(rpg_cairn_2e_core.pdf (source-range-ad2c341f-00344))_
 
+**Atom:** _(rpg_cairn_2e_core.pdf (source-range-ad2c341f-00344))_
+
 > - If the party skips the Make Camp action, they each add a Fatigue to their inventory and are deprived .
-_(source: rpg_cairn_2e_core.pdf (source-range-ad2c341f-00344))_
 
 ## Light
 
@@ -1189,8 +1273,9 @@ _(source: rpg_cairn_2e_core.pdf (source-range-ad2c341f-00344))_
 - Between game sessions, players can engage in a variety of activities such as research, following up on leads, improving skills, or building relationships. _(rpg_cairn_2e_core.pdf (source-range-ad2c341f-00371))_
 - A PC is limited to one Downtime Action at a time. _(rpg_cairn_2e_core.pdf (source-range-ad2c341f-00371))_
 
+**Atom:** _(rpg_cairn_2e_core.pdf (source-range-ad2c341f-00371))_
+
 > A character cannot perform an action if it would put their safety at risk.
-_(source: rpg_cairn_2e_core.pdf (source-range-ad2c341f-00371))_
 
 ## Milestones
 
@@ -1203,8 +1288,13 @@ _(source: rpg_cairn_2e_core.pdf (source-range-ad2c341f-00371))_
 - If a character is unable to pay the Cost , they may have to find some other way to achieve their goal. _(rpg_cairn_2e_core.pdf (source-range-ad2c341f-00375))_
 - - Resources : Non-monetary costs such as material goods, specific common items, and so on. _(rpg_cairn_2e_core.pdf (source-range-ad2c341f-00377))_
 
+**Context:** _(rpg_cairn_2e_core.pdf (source-range-ad2c341f-00379))_
+
+> Loss : Offering something specific and unique. A finger, a soul, a Relic , etc.
+
+**Atom:** _(rpg_cairn_2e_core.pdf (source-range-ad2c341f-00380))_
+
 > Some Costs can be reduced or disregarded through character skills, connections, or force of will. For example, a PC may have already acquired the necessary reputation to gain access to a renowned institution, and thus the cost is abated. On the other hand, another character may not be so lucky and must rely on their force of personality instead. In this case, the Warden should state the risk (a permanent ban on entry, a loss of reputation, etc.). The PC then makes a WIL save; on a success, the cost is either reduced or avoided entirely.
-_(source: rpg_cairn_2e_core.pdf (source-range-ad2c341f-00380))_
 
 ## Downtime Actions
 
@@ -1217,8 +1307,9 @@ _(source: rpg_cairn_2e_core.pdf (source-range-ad2c341f-00380))_
 - There is no guarantee that they will be successful. _(rpg_cairn_2e_core.pdf (source-range-ad2c341f-00384))_
 - Once a question is posed and an appropriate Source has been identified, the Warden should provide any Milestones and associated Costs . _(rpg_cairn_2e_core.pdf (source-range-ad2c341f-00384))_
 
+**Atom:** _(rpg_cairn_2e_core.pdf (source-range-ad2c341f-00384))_
+
 > If the PC does not have a Source , then they can spend a Downtime Action trying to find one.
-_(source: rpg_cairn_2e_core.pdf (source-range-ad2c341f-00384))_
 
 ## Questions
 
@@ -1250,8 +1341,9 @@ _(source: rpg_cairn_2e_core.pdf (source-range-ad2c341f-00384))_
 - The player must describe precisely what they'd like to improve and a Master whom they might train with. _(rpg_cairn_2e_core.pdf (source-range-ad2c341f-00400))_
 - And of course, the character's inspiration to improve should come from an experience in play. _(rpg_cairn_2e_core.pdf (source-range-ad2c341f-00400))_
 
+**Atom:** _(rpg_cairn_2e_core.pdf (source-range-ad2c341f-00400))_
+
 > The Warden should provide any Milestones and associated Costs .
-_(source: rpg_cairn_2e_core.pdf (source-range-ad2c341f-00400))_
 
 ## Examples:
 
@@ -1265,11 +1357,13 @@ _(source: rpg_cairn_2e_core.pdf (source-range-ad2c341f-00400))_
 - The party escorted a stranded naturalist from the famously dreadful Silver Wastes safely back to the city. _(rpg_cairn_2e_core.pdf (source-range-ad2c341f-00404))_
 - As thanks, she has offered to train a PC to identify and capture a common lakefish that frequents colder waters. _(rpg_cairn_2e_core.pdf (source-range-ad2c341f-00404))_
 
+**Atom:** _(rpg_cairn_2e_core.pdf (source-range-ad2c341f-00402))_
+
 > - The Two-Handed Parry : When fighting with one hand free, a PC's HP temporarily increases by 1d4.
-_(source: rpg_cairn_2e_core.pdf (source-range-ad2c341f-00402))_
+
+**Atom:** _(rpg_cairn_2e_core.pdf (source-range-ad2c341f-00404))_
 
 > - Troutmaster : When taking the Supply Action , Rations gathered near cold freshwater sources increase by one step (e.g.
-_(source: rpg_cairn_2e_core.pdf (source-range-ad2c341f-00404))_
 
 ## Strengthening Ties
 
@@ -1297,6 +1391,8 @@ _(source: rpg_cairn_2e_core.pdf (source-range-ad2c341f-00404))_
 
 ## Hirelings (per day)
 
+**Atom:** _(rpg_cairn_2e_core.pdf (source-range-ad2c341f-00419))_
+
 | Dagger, Cudgel, Sickle, Staﬀ, etc. (d6 damage) | 5 |
 | --- | --- |
 | Spear, Sword, Mace, Axe, Flail, etc. (d8 damage) | 10 |
@@ -1319,7 +1415,8 @@ _(source: rpg_cairn_2e_core.pdf (source-range-ad2c341f-00404))_
 ```
 
 </details>
-_(source: rpg_cairn_2e_core.pdf (source-range-ad2c341f-00419))_
+
+**Atom:** _(rpg_cairn_2e_core.pdf (source-range-ad2c341f-00420))_
 
 | Room & Board (per night) | 10 |
 | --- | --- |
@@ -1343,7 +1440,8 @@ _(source: rpg_cairn_2e_core.pdf (source-range-ad2c341f-00419))_
 ```
 
 </details>
-_(source: rpg_cairn_2e_core.pdf (source-range-ad2c341f-00420))_
+
+**Atom:** _(rpg_cairn_2e_core.pdf (source-range-ad2c341f-00421))_
 
 | Shield (+1 Armor) | 10 |
 | --- | --- |
@@ -1367,7 +1465,8 @@ _(source: rpg_cairn_2e_core.pdf (source-range-ad2c341f-00420))_
 ```
 
 </details>
-_(source: rpg_cairn_2e_core.pdf (source-range-ad2c341f-00421))_
+
+**Atom:** _(rpg_cairn_2e_core.pdf (source-range-ad2c341f-00422))_
 
 | Cart (+4 slots, bulky) | 30 |
 | --- | --- |
@@ -1391,10 +1490,11 @@ _(source: rpg_cairn_2e_core.pdf (source-range-ad2c341f-00421))_
 ```
 
 </details>
-_(source: rpg_cairn_2e_core.pdf (source-range-ad2c341f-00422))_
 
 ## Gear
 
+**Atom:** _(rpg_cairn_2e_core.pdf (source-range-ad2c341f-00424))_
+
 | Air Bladder | 5 |
 | --- | --- |
 | Antitoxin | 20 |
@@ -1473,7 +1573,8 @@ _(source: rpg_cairn_2e_core.pdf (source-range-ad2c341f-00422))_
 ```
 
 </details>
-_(source: rpg_cairn_2e_core.pdf (source-range-ad2c341f-00424))_
+
+**Atom:** _(rpg_cairn_2e_core.pdf (source-range-ad2c341f-00425))_
 
 | Animal Handler | 5 |
 | --- | --- |
@@ -1507,7 +1608,6 @@ _(source: rpg_cairn_2e_core.pdf (source-range-ad2c341f-00424))_
 ```
 
 </details>
-_(source: rpg_cairn_2e_core.pdf (source-range-ad2c341f-00425))_
 
 ## Combat
 
@@ -1522,11 +1622,21 @@ _(source: rpg_cairn_2e_core.pdf (source-range-ad2c341f-00425))_
 - On a fail, the target is defeated. _(rpg_cairn_2e_core.pdf (source-range-ad2c341f-00432))_
 - The target must then immediately make a STR save to avoid taking Critical Damage, using their new STR score. _(rpg_cairn_2e_core.pdf (source-range-ad2c341f-00432))_
 
+**Context:** _(rpg_cairn_2e_core.pdf (source-range-ad2c341f-00428, source-range-ad2c341f-00430))_
+
+> Combat in Cairn is fast, hectic, and often lethal. In addition, the rules of combat are unique in a few key ways: - Attacks Automatically Hit : Combatants typically deal damage to their targets automatically, without rolling to see whether an attack "hits." When multiple attackers target the same foe, only the highest dice result is used in the attack.
+
+**Atom:** _(rpg_cairn_2e_core.pdf (source-range-ad2c341f-00429))_
+
 > - Side Initiative : With the exception of the first round (when PCs must first save DEX to secure their turn), both the PCs and their opponents take turns acting together.
-_(source: rpg_cairn_2e_core.pdf (source-range-ad2c341f-00429))_
+
+**Context:** _(rpg_cairn_2e_core.pdf (source-range-ad2c341f-00428))_
+
+> Combat in Cairn is fast, hectic, and often lethal. In addition, the rules of combat are unique in a few key ways:
+
+**Atom:** _(rpg_cairn_2e_core.pdf (source-range-ad2c341f-00431))_
 
 > If damage reduces a PC's HP to exactly 0, they receive a Scar , which can yield both positive and negative consequences.
-_(source: rpg_cairn_2e_core.pdf (source-range-ad2c341f-00431))_
 
 ## Example
 
@@ -1572,6 +1682,8 @@ _(source: rpg_cairn_2e_core.pdf (source-range-ad2c341f-00431))_
 - That's slightly higher than what I have already! _(rpg_cairn_2e_core.pdf (source-range-ad2c341f-00454))_
 - One point fewer and you'd have been diseased, and one point greater and you'd lose your hearing for a while. _(rpg_cairn_2e_core.pdf (source-range-ad2c341f-00455))_
 
+**Atom:** _(rpg_cairn_2e_core.pdf (source-range-ad2c341f-00437))_
+
 | Sedative | 30 |
 | --- | --- |
 | Sewing Kit | 20 |
@@ -1608,13 +1720,18 @@ _(source: rpg_cairn_2e_core.pdf (source-range-ad2c341f-00431))_
 ```
 
 </details>
-_(source: rpg_cairn_2e_core.pdf (source-range-ad2c341f-00437))_
+
+**Context:** _(rpg_cairn_2e_core.pdf (source-range-ad2c341f-00439))_
+
+> Wolfram : "It doesn't matter; we must be prepared for whatever comes next. Keep your weapons down, and I'll a shout. Perhaps we can avoid bloodshed yet."
+
+**Atom:** _(rpg_cairn_2e_core.pdf (source-range-ad2c341f-00440))_
 
 > Everyone roll a DEX save to see if you can act before they do."
-_(source: rpg_cairn_2e_core.pdf (source-range-ad2c341f-00440))_
+
+**Atom:** _(rpg_cairn_2e_core.pdf (source-range-ad2c341f-00454))_
 
 > Now I need to roll 3d6, and if the total is greater than my current Dexterity score, I get to keep it, right?
-_(source: rpg_cairn_2e_core.pdf (source-range-ad2c341f-00454))_
 
 ## Wolfram :
 
@@ -1642,11 +1759,21 @@ _(source: rpg_cairn_2e_core.pdf (source-range-ad2c341f-00454))_
 - Wolfram : "Alright, that's all sorted then. _(rpg_cairn_2e_core.pdf (source-range-ad2c341f-00469))_
 - Wolfram : "Alright, that's all sorted then. _(rpg_cairn_2e_core.pdf (source-range-ad2c341f-00469))_
 
+**Context:** _(rpg_cairn_2e_core.pdf (source-range-ad2c341f-00461))_
+
+> : "I am going to try and stab that woman with my cane sword."
+
+**Atom:** _(rpg_cairn_2e_core.pdf (source-range-ad2c341f-00462))_
+
 > She loses 1 point of STR in the attack and so must then roll a Critical Damage save using her new STR score.
-_(source: rpg_cairn_2e_core.pdf (source-range-ad2c341f-00462))_
+
+**Context:** _(rpg_cairn_2e_core.pdf (source-range-ad2c341f-00462))_
+
+> Wolfram rolls a d6, dealing 2 damage to the shorter man, who has enough HP to absorb the attack. Freya rolls a d6 for each of her daggers, dealing a 1 and a 3. She keeps only the higher die, and the large man is able to absorb the damage, taking his HP down to 0 (but only PCs gain Scars). Lucius rolls a 6 against the woman [5 HP, 11 STR, 8 DEX, 14 WIL]. She loses 1 point of STR in the attack and so must then roll a Critical Damage save using her new STR score.
+
+**Atom:** _(rpg_cairn_2e_core.pdf (source-range-ad2c341f-00463))_
 
 > She makes a STR save to see if she can stay in the fight.
-_(source: rpg_cairn_2e_core.pdf (source-range-ad2c341f-00463))_
 
 ## Saves
 
@@ -1674,11 +1801,21 @@ _(source: rpg_cairn_2e_core.pdf (source-range-ad2c341f-00463))_
 - Simplifying results to a single roll can increase tension while maximizing player input. _(rpg_cairn_2e_core.pdf (source-range-ad2c341f-00485))_
 - - Replace multiple dice rolls with a single dice throw. _(rpg_cairn_2e_core.pdf (source-range-ad2c341f-00485))_
 
+**Context:** _(rpg_cairn_2e_core.pdf (source-range-ad2c341f-00478))_
+
+> When in doubt, ask whether the party has the time, resources, skills, or advantage to overcome a problem. If the answer is "no," then a save is usually warranted. If the answer is "I don't know," then a roll with the Die of Fate may be necessary.
+
+**Atom:** _(rpg_cairn_2e_core.pdf (source-range-ad2c341f-00479))_
+
 > If the party cannot proceed due to circumstances beyond their control, give them another option to consider.
-_(source: rpg_cairn_2e_core.pdf (source-range-ad2c341f-00479))_
+
+**Context:** _(rpg_cairn_2e_core.pdf (source-range-ad2c341f-00482))_
+
+> The outcome of a save need not be a simple binary. You can tailor the results based on the totality of input: the effort, forethought, resources, and skill that went into the roll.
+
+**Atom:** _(rpg_cairn_2e_core.pdf (source-range-ad2c341f-00484))_
 
 > If a PC can solve a problem using purely narrative components, do not ask for a roll .
-_(source: rpg_cairn_2e_core.pdf (source-range-ad2c341f-00484))_
 
 ## Traditional Saves
 
@@ -1730,8 +1867,13 @@ _(source: rpg_cairn_2e_core.pdf (source-range-ad2c341f-00484))_
 - Warden : "In the dim light of the early dawn, you notice a note slipped through the street vent. _(rpg_cairn_2e_core.pdf (source-range-ad2c341f-00515))_
 - It reads, 'Speak the following, and you will be free: "The Pale Man Longs To Die." You have but one chance.'" _(rpg_cairn_2e_core.pdf (source-range-ad2c341f-00515))_
 
+**Context:** _(rpg_cairn_2e_core.pdf (source-range-ad2c341f-00512))_
+
+> Freya : "I am NOT leaving him behind. You should still go, but I'm going to get him out. I'm a cutpurse, so I have friends everywhere, right? Or perhaps there's some kind of thieves' cant I can use to make connections here?"
+
+**Atom:** _(rpg_cairn_2e_core.pdf (source-range-ad2c341f-00513))_
+
 > You can spend the night trying to make connections among your kind, if you like.
-_(source: rpg_cairn_2e_core.pdf (source-range-ad2c341f-00513))_
 
 ## Warden :
 
@@ -1758,8 +1900,9 @@ _(source: rpg_cairn_2e_core.pdf (source-range-ad2c341f-00513))_
 - My friends and I are here to sneak into the vault of Der Thunn. _(rpg_cairn_2e_core.pdf (source-range-ad2c341f-00533))_
 - I only learned of that phrase a few minutes ago. _(rpg_cairn_2e_core.pdf (source-range-ad2c341f-00533))_
 
+**Atom:** _(rpg_cairn_2e_core.pdf (source-range-ad2c341f-00531))_
+
 > But that means I have to make a WIL save, right?
-_(source: rpg_cairn_2e_core.pdf (source-range-ad2c341f-00531))_
 
 ## Warden
 
@@ -1805,8 +1948,9 @@ _(source: rpg_cairn_2e_core.pdf (source-range-ad2c341f-00531))_
 - Instead, it is assumed that a character has the necessary knowledge so long as it can be justified in the fiction. _(rpg_cairn_2e_core.pdf (source-range-ad2c341f-00549))_
 - Similarly, there are no mechanics that govern a character's perception or ability to "detect" important details in their environment. _(rpg_cairn_2e_core.pdf (source-range-ad2c341f-00549))_
 
+**Atom:** _(rpg_cairn_2e_core.pdf (source-range-ad2c341f-00549))_
+
 > Instead, the Warden should provide unlimited relevant information about every detail a character can perceive with their basic senses.
-_(source: rpg_cairn_2e_core.pdf (source-range-ad2c341f-00549))_
 
 ## Knowledge
 
@@ -1823,8 +1967,9 @@ _(source: rpg_cairn_2e_core.pdf (source-range-ad2c341f-00549))_
 - The latter carries some dangers and may even require a successful WIL save to avoid negative consequences. _(rpg_cairn_2e_core.pdf (source-range-ad2c341f-00554))_
 - However, it is often more interesting to allow the player to ask as many questions as they like about it and (eventually) to simply tell them how it works . _(rpg_cairn_2e_core.pdf (source-range-ad2c341f-00554))_
 
+**Atom:** _(rpg_cairn_2e_core.pdf (source-range-ad2c341f-00554))_
+
 > When a character first acquires a Relic they are not familiar with, they can either spend time learning more about it (using a Downtime action) or experiment with it.
-_(source: rpg_cairn_2e_core.pdf (source-range-ad2c341f-00554))_
 
 ## Perception
 
@@ -1848,20 +1993,37 @@ _(source: rpg_cairn_2e_core.pdf (source-range-ad2c341f-00554))_
 - The PCs will likely try to interact with the man first or perhaps ask questions about the sword, as these are both fairly passive ways to engage with the scene. _(rpg_cairn_2e_core.pdf (source-range-ad2c341f-00570))_
 - It is up to the players whether to ignore the clues in front of them and continue, or to stop and ask questions. _(rpg_cairn_2e_core.pdf (source-range-ad2c341f-00571))_
 
+**Atom:** _(rpg_cairn_2e_core.pdf (source-range-ad2c341f-00556))_
+
 > When informing the players of what their PCs can perceive, the Warden should provide maximal sensory information pertaining to the objects, characters, dangers, and interactive elements in the given situation.
-_(source: rpg_cairn_2e_core.pdf (source-range-ad2c341f-00556))_
+
+**Context:** _(rpg_cairn_2e_core.pdf (source-range-ad2c341f-00556))_
+
+> When informing the players of what their PCs can perceive, the Warden should provide maximal sensory information pertaining to the objects, characters, dangers, and interactive elements in the given situation. Consider what can be gained by limiting what the PCs know or do not know. Do secrets help create interesting choices and decision points? Do they raise interesting questions? Do they give the players a sense of control over their own actions? The answer to these questions is almost always 
+
+**Atom:** _(rpg_cairn_2e_core.pdf (source-range-ad2c341f-00557))_
 
 > Players should feel that the consequences of their character's actions are earned , and that they are deserved , even if the results aren't always in their favor.
-_(source: rpg_cairn_2e_core.pdf (source-range-ad2c341f-00557))_
+
+**Context:** _(rpg_cairn_2e_core.pdf (source-range-ad2c341f-00569))_
+
+> In this example, there are three potential dangers: the bees, the man, and the Bloodvine plant. The danger from bees is more obvious, as the PCs can clearly see the danger and are familiar with bees already. The man is an unknown entity and could be friend or foe, while the Bloodvines are hidden and act as a sort of trap. The Warden should therefore communicate exactly what the PCs can see, hear, and smell.
+
+**Atom:** _(rpg_cairn_2e_core.pdf (source-range-ad2c341f-00567))_
 
 > - The weapon belongs to the skeleton buried just beneath the earth. It is a regular short sword (d6), strangely preserved.
-_(source: rpg_cairn_2e_core.pdf (source-range-ad2c341f-00567))_
+
+**Atom:** _(rpg_cairn_2e_core.pdf (source-range-ad2c341f-00570))_
 
 > When the PCs realize that the man does not respond, they may try to get a closer look or perhaps toss a rock in his direction (avoiding the hive), and so on.
-_(source: rpg_cairn_2e_core.pdf (source-range-ad2c341f-00570))_
+
+**Context:** _(rpg_cairn_2e_core.pdf (source-range-ad2c341f-00570))_
+
+> The PCs will likely try to interact with the man first or perhaps ask questions about the sword, as these are both fairly passive ways to engage with the scene. When the PCs realize that the man does not respond, they may try to get a closer look or perhaps toss a rock in his direction (avoiding the hive), and so on. If the PCs ask questions about the sword or try to interact with it, the Warden should tell them about the shoe prints in the grass right away.
+
+**Atom:** _(rpg_cairn_2e_core.pdf (source-range-ad2c341f-00571))_
 
 > If the PCs decide to engage with the bee hive, the Warden should "warn" them with a hint of some kind: the bees begin to fly in a more aggressive manner, or the noise they create gets louder, and so on.
-_(source: rpg_cairn_2e_core.pdf (source-range-ad2c341f-00571))_
 
 ## Dungeon Exploration
 
@@ -1954,11 +2116,13 @@ _(source: rpg_cairn_2e_core.pdf (source-range-ad2c341f-00571))_
 - At the start of the day, the Warden rolls for the local weather, then adjudicates its potential impacts on the journey that day. _(rpg_cairn_2e_core.pdf (source-range-ad2c341f-00625))_
 - At the start of the day, the Warden rolls for the local weather, then adjudicates its potential impacts on the journey that day. _(rpg_cairn_2e_core.pdf (source-range-ad2c341f-00625))_
 
+**Atom:** _(rpg_cairn_2e_core.pdf (source-range-ad2c341f-00624))_
+
 > The short journey should only take one day, as travel is limited to Easy terrain and is along a clear Trail all the way.
-_(source: rpg_cairn_2e_core.pdf (source-range-ad2c341f-00624))_
+
+**Atom:** _(rpg_cairn_2e_core.pdf (source-range-ad2c341f-00625))_
 
 > After each of the following Wilderness Actions, the party rolls 1d6 to see if they get lost, and the Warden rolls on the Wilderness Events Table .
-_(source: rpg_cairn_2e_core.pdf (source-range-ad2c341f-00625))_
 
 ## Day One / Watch One
 
@@ -2004,13 +2168,16 @@ _(source: rpg_cairn_2e_core.pdf (source-range-ad2c341f-00625))_
 - Resolving an Omen should yield Growth of some kind, either for the party as a collective or to an entangled individual. _(rpg_cairn_2e_core.pdf (source-range-ad2c341f-00647))_
 - An Omen is resolved when the characters reveal the truth behind its origin or resolve its dangers. _(rpg_cairn_2e_core.pdf (source-range-ad2c341f-00647))_
 
+**Atom:** _(rpg_cairn_2e_core.pdf (source-range-ad2c341f-00647))_
+
 > If an Omen is ignored, it should come to pass and wreak whatever havoc it may.
-_(source: rpg_cairn_2e_core.pdf (source-range-ad2c341f-00647))_
 
 ## Omens Should...
 
 - - Alway tell the characters something about the setting they did not already know. _(rpg_cairn_2e_core.pdf (source-range-ad2c341f-00650))_
 - - Reveal a pattern or other obvious indicator that something terrible is going on. _(rpg_cairn_2e_core.pdf (source-range-ad2c341f-00651))_
+
+**Atom:** _(rpg_cairn_2e_core.pdf (source-range-ad2c341f-00652))_
 
 | entry | content |
 | --- | --- |
@@ -2334,7 +2501,6 @@ You may mentally 1 move item under 60lbs. The owner can summon the book
 ```
 
 </details>
-_(source: rpg_cairn_2e_core.pdf (source-range-ad2c341f-00652))_
 
 ## fatigue.
 

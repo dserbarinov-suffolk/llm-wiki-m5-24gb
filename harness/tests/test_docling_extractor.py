@@ -1,10 +1,18 @@
 from types import SimpleNamespace
 from typing import Any
 
+import pytest
+
+from llmwiki.pdf import docling_extractor
 from llmwiki.pdf.docling_extractor import (
+    _DoclingAttemptFailure,
     _pdf_code_text,
+    docling_devices,
     document_model_from_docling_document,
+    extract_document_model,
+    pdf_pipeline_options,
 )
+from llmwiki.pdf.document import DocumentModel
 
 
 class _Doc:
@@ -84,3 +92,69 @@ def test_pdf_code_text_joins_block_text_inside_docling_bbox() -> None:
     assert page.clip.y0 == 39.0
     assert page.clip.x1 == 21.0
     assert page.clip.y1 == 51.0
+
+
+def test_docling_devices_default_to_cpu(monkeypatch: pytest.MonkeyPatch) -> None:
+    monkeypatch.delenv("LLMWIKI_DOCLING_DEVICES", raising=False)
+
+    assert docling_devices() == ("cpu",)
+
+
+def test_docling_devices_accept_explicit_retry_order(monkeypatch: pytest.MonkeyPatch) -> None:
+    monkeypatch.setenv("LLMWIKI_DOCLING_DEVICES", "auto,cpu")
+
+    assert docling_devices() == ("auto", "cpu")
+
+
+def test_docling_pdf_options_leave_tables_to_harness_recovery() -> None:
+    pytest.importorskip("docling")
+
+    options = pdf_pipeline_options()
+
+    assert options.do_ocr is False
+    if hasattr(options, "do_table_structure"):
+        assert options.do_table_structure is False
+
+
+def test_docling_extraction_retries_cpu_after_auto_failure(
+    monkeypatch: pytest.MonkeyPatch,
+) -> None:
+    calls: list[str] = []
+    expected = DocumentModel(
+        source_locator="book.pdf",
+        source_hash="source-hash",
+        extractor_name="docling",
+        extractor_version="test",
+        elements=(),
+    )
+
+    def fake_isolated(
+        pdf_path: Any, source_locator: str, source_hash: str, device: str
+    ) -> DocumentModel | _DoclingAttemptFailure:
+        calls.append(device)
+        if device == "auto":
+            return _DoclingAttemptFailure(device, "killed by signal 11")
+        return expected
+
+    monkeypatch.setenv("LLMWIKI_DOCLING_DEVICES", "auto,cpu")
+    monkeypatch.setattr(docling_extractor, "_extract_document_model_isolated", fake_isolated)
+
+    actual = extract_document_model(SimpleNamespace(), "book.pdf", "source-hash")
+
+    assert actual == expected
+    assert calls == ["auto", "cpu"]
+
+
+def test_docling_extraction_reports_all_attempt_failures(
+    monkeypatch: pytest.MonkeyPatch,
+) -> None:
+    def fake_isolated(
+        pdf_path: Any, source_locator: str, source_hash: str, device: str
+    ) -> DocumentModel | _DoclingAttemptFailure:
+        return _DoclingAttemptFailure(device, f"{device} failed")
+
+    monkeypatch.setenv("LLMWIKI_DOCLING_DEVICES", "auto,cpu")
+    monkeypatch.setattr(docling_extractor, "_extract_document_model_isolated", fake_isolated)
+
+    with pytest.raises(RuntimeError, match="auto: auto failed; cpu: cpu failed"):
+        extract_document_model(SimpleNamespace(), "book.pdf", "source-hash")

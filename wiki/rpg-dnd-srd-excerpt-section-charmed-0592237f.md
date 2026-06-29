@@ -3,11 +3,11 @@ page_id: rpg-dnd-srd-excerpt-section-charmed-0592237f
 page_kind: source
 summary: Charmed: 2 source-backed entries and 1 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
 sources: raw/rpg_dnd_srd_excerpt.pdf
-updated: 2026-06-26
+updated: 2026-06-29
 domain: rpg-dnd-srd-excerpt
 category_path: sources/rpg-dnd-srd-excerpt/sections
 source_id: rpg_dnd_srd_excerpt.pdf
-projection_coverage: section-rpg-dnd-srd-excerpt-section-charmed-0592237f@6f297be43f73be8cb06beaa9da479285
+projection_coverage: section-rpg-dnd-srd-excerpt-section-charmed-0592237f@2b2e797b29227936e052d70ebb52179d
 ---
 
 # Charmed
@@ -16,9 +16,13 @@ From [[rpg-dnd-srd-excerpt]].
 
 ## Statements
 
-- - The charmer has advantage on any ability check to interact socially with the creature. _(rpg_dnd_srd_excerpt.pdf (source-range-b7d08967-00545))_
+- The charmer has advantage on any ability check to interact socially with the creature. _(rpg_dnd_srd_excerpt.pdf (source-range-b7d08967-00545))_
 
 ## Technical atoms
+
+### Technical frame 1: Charmed
+
+**Atom:** _(rpg_dnd_srd_excerpt.pdf (source-range-b7d08967-00543))_
 
 | Shortsword | 10 gp | 1d6 piercing | 2 lb. | Finesse, light |
 | --- | --- | --- | --- | --- |
@@ -56,4 +60,3 @@ From [[rpg-dnd-srd-excerpt]].
 ```
 
 </details>
-_(source: rpg_dnd_srd_excerpt.pdf (source-range-b7d08967-00543))_

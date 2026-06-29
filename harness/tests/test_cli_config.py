@@ -8,8 +8,9 @@ import pytest
 from fakes import FakeClient
 from forge.context import ContextManager, NoCompact
 
-from llmwiki.cli import _build_parser, _read_chat_line, _run_chat
+from llmwiki.cli import _build_parser, _read_chat_line, _run, _run_chat
 from llmwiki.config import ConfigError, WikiPaths, load_backend_config
+from llmwiki.domain.pages import PageMetadata, WikiPage
 from llmwiki.runtime.session import Session
 from llmwiki.store import WikiStore
 
@@ -27,6 +28,11 @@ class TestParser:
         args = _build_parser().parse_args(["--root", str(tmp_path), "lint"])
         assert args.op == "lint"
         assert args.root == tmp_path
+
+    def test_graph_check_args(self) -> None:
+        args = _build_parser().parse_args(["graph", "--check"])
+        assert args.op == "graph"
+        assert args.check
 
     def test_op_is_required(self) -> None:
         with pytest.raises(SystemExit):
@@ -60,6 +66,26 @@ class TestWikiPathsValidation:
     def test_missing_layer_raises(self, tmp_path: Path) -> None:
         with pytest.raises(ConfigError, match="Wiki layer missing"):
             WikiPaths(root=tmp_path).validate()
+
+
+class TestGraphCommand:
+    async def test_graph_write_then_check_current(self, paths: WikiPaths) -> None:
+        store = WikiStore(paths)
+        store.write_page(
+            WikiPage.from_metadata(
+                PageMetadata("alpha", "concept", "Alpha summary."),
+                "See [[alpha]].",
+            )
+        )
+
+        write_args = _build_parser().parse_args(["--root", str(paths.root), "graph"])
+        check_args = _build_parser().parse_args(["--root", str(paths.root), "graph", "--check"])
+
+        written = await _run(write_args)
+        checked = await _run(check_args)
+
+        assert "Graph export: current" in written.output
+        assert "Graph export: current" in checked.output
 
 
 class TestChatInputLoop:

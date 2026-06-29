@@ -3,11 +3,11 @@ page_id: rpg-dnd-srd-excerpt-section-armor-class-480c3f90
 page_kind: source
 summary: Armor Class: 1 source-backed entries and 1 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
 sources: raw/rpg_dnd_srd_excerpt.pdf
-updated: 2026-06-26
+updated: 2026-06-29
 domain: rpg-dnd-srd-excerpt
 category_path: sources/rpg-dnd-srd-excerpt/sections
 source_id: rpg_dnd_srd_excerpt.pdf
-projection_coverage: section-rpg-dnd-srd-excerpt-section-armor-class-480c3f90@6b3b2d21c0072f69ffd02dfa3e29d27b
+projection_coverage: section-rpg-dnd-srd-excerpt-section-armor-class-480c3f90@1bde97eec3a5d73cd8af655615c96b52
 ---
 
 # Armor Class
@@ -19,6 +19,14 @@ From [[rpg-dnd-srd-excerpt]].
 - Depending on the armor you wear, you might add some or all of your Dexterity modifier to your Armor Class. _(rpg_dnd_srd_excerpt.pdf (source-range-b7d08967-00164))_
 
 ## Technical atoms
+
+### Technical frame 1: Table- Armor
+
+**Context:** _(rpg_dnd_srd_excerpt.pdf (source-range-b7d08967-00492))_
+
+> Plate . Plate consists of shaped, interlocking metal plates to cover the entire body. A suit of plate includes gauntlets, heavy leather boots, a visored helmet, and thick layers of padding underneath the armor. Buckles and straps distribute the weight over the body.
+
+**Atom:** _(rpg_dnd_srd_excerpt.pdf (source-range-b7d08967-00493))_
 
 | Armor | Cost | Class | Strength | Stealth | Weight |
 | --- | --- | --- | --- | --- | --- |
@@ -95,4 +103,3 @@ Table- Armor
 ```
 
 </details>
-_(source: rpg_dnd_srd_excerpt.pdf (source-range-b7d08967-00493))_

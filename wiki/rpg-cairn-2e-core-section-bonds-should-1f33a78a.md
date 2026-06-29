@@ -3,25 +3,33 @@ page_id: rpg-cairn-2e-core-section-bonds-should-1f33a78a
 page_kind: source
 summary: Bonds Should...: 4 source-backed entries and 5 atom(s) from raw/rpg_cairn_2e_core.pdf.
 sources: raw/rpg_cairn_2e_core.pdf
-updated: 2026-06-26
+updated: 2026-06-29
 domain: rpg-cairn-2e-core
 category_path: sources/rpg-cairn-2e-core/sections
 source_id: rpg_cairn_2e_core.pdf
-projection_coverage: section-rpg-cairn-2e-core-section-bonds-should-1f33a78a@de17b494646d3693f4f866c5f942cf2d
+projection_coverage: section-rpg-cairn-2e-core-section-bonds-should-1f33a78a@07a41afcb93d63f0a812a0cf378b525d
 ---
 
 # Bonds Should...
 
 From [[rpg-cairn-2e-core]].
 
+## Related pages
+
+- [[rpg-cairn-2e-core-bond-should]] - topic hub: opens the topic page for Bond Should
+
 ## Statements
 
-- - Give a character an item (often petty ) or a unique ability. _(rpg_cairn_2e_core.pdf (source-range-ad2c341f-00642))_
-- - Encourage character engagement with the implied setting. _(rpg_cairn_2e_core.pdf (source-range-ad2c341f-00643))_
-- - Flesh out a character's history without relying on events tied to specific Backgrounds. _(rpg_cairn_2e_core.pdf (source-range-ad2c341f-00644))_
-- - Provide a character with a quest, opportunity, or plan of action. _(rpg_cairn_2e_core.pdf (source-range-ad2c341f-00645))_
+- Give a character an item (often petty ) or a unique ability. _(rpg_cairn_2e_core.pdf (source-range-ad2c341f-00642))_
+- Encourage character engagement with the implied setting. _(rpg_cairn_2e_core.pdf (source-range-ad2c341f-00643))_
+- Flesh out a character's history without relying on events tied to specific Backgrounds. _(rpg_cairn_2e_core.pdf (source-range-ad2c341f-00644))_
+- Provide a character with a quest, opportunity, or plan of action. _(rpg_cairn_2e_core.pdf (source-range-ad2c341f-00645))_
 
 ## Technical atoms
+
+### Technical frame 1: Bonds
+
+**Atom:** _(rpg_cairn_2e_core.pdf (source-range-ad2c341f-00128))_
 
 | entry | content |
 | --- | --- |
@@ -49,7 +57,10 @@ You	inherited	an	old Journal ,	bound	in	bark.	Each	evening,	its
 ```
 
 </details>
-_(source: rpg_cairn_2e_core.pdf (source-range-ad2c341f-00128))_
+
+### Technical frame 2: Bonds
+
+**Atom:** _(rpg_cairn_2e_core.pdf (source-range-ad2c341f-00130))_
 
 | 1 | Ambitious | 6 | Honorable |
 | --- | --- | --- | --- |
@@ -71,7 +82,10 @@ _(source: rpg_cairn_2e_core.pdf (source-range-ad2c341f-00128))_
 ```
 
 </details>
-_(source: rpg_cairn_2e_core.pdf (source-range-ad2c341f-00130))_
+
+### Technical frame 3: Bonds
+
+**Atom:** _(rpg_cairn_2e_core.pdf (source-range-ad2c341f-00131))_
 
 | entry | content |
 | --- | --- |
@@ -96,7 +110,10 @@ A	roaming	storyteller	once	spun	you	tales	of	great	treasure
 ```
 
 </details>
-_(source: rpg_cairn_2e_core.pdf (source-range-ad2c341f-00131))_
+
+### Technical frame 4: Bonds
+
+**Atom:** _(rpg_cairn_2e_core.pdf (source-range-ad2c341f-00134))_
 
 | entry | content |
 | --- | --- |
@@ -113,7 +130,10 @@ You	found	a	wounded	beast	in	the	forest	but	chose	to	ignore
 ```
 
 </details>
-_(source: rpg_cairn_2e_core.pdf (source-range-ad2c341f-00134))_
+
+### Technical frame 5: Bonds
+
+**Atom:** _(rpg_cairn_2e_core.pdf (source-range-ad2c341f-00142))_
 
 | entry | content |
 | --- | --- |
@@ -141,4 +161,3 @@ A	white	crow	appeared	to	you	in	a	dream,	holding	a	twig	in	its
 ```
 
 </details>
-_(source: rpg_cairn_2e_core.pdf (source-range-ad2c341f-00142))_

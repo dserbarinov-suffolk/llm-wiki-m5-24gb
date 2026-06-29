@@ -367,6 +367,73 @@ def test_named_table_reference_resolves_from_table_section_heading() -> None:
     }
 
 
+def test_named_table_reference_resolves_unicode_caption_text() -> None:
+    catalog = default_quality_check_catalog()
+    severity = default_severity_policy()
+    pointer = claim_ledger_pointer("qcc", "fp")
+    result = _build(
+        [
+            (
+                "paragraph",
+                "The Typical Difficulty Classes table shows common values.",
+                ["The Typical Difficulty Classes table shows common values."],
+            ),
+            (
+                "table-block",
+                "Table- Diﬀiculty Classes\n"
+                "Task Difficulty   DC\n"
+                "Easy              10\n"
+                "Hard              20",
+                [],
+            ),
+        ]
+    )
+
+    report = build_ledger_quality_report(
+        result.ledger,
+        result.document_structure,
+        catalog=catalog,
+        severity=severity,
+        catalog_pointer=pointer,
+    )
+
+    assert "ck-named-table-reference-resolved" not in {
+        finding.quality_check_id for finding in report.findings
+    }
+
+
+def test_named_table_reference_resolves_one_line_raw_table_title() -> None:
+    catalog = default_quality_check_catalog()
+    severity = default_severity_policy()
+    pointer = claim_ledger_pointer("qcc", "fp")
+    result = _build(
+        [
+            (
+                "paragraph",
+                "Roll on the Bonds table.",
+                ["Roll on the Bonds table."],
+            ),
+            (
+                "table-block",
+                "Bonds\nD20 Bond\n1 Alpha oath\n2 Beta compact\n3 Gamma duty",
+                [],
+            ),
+        ]
+    )
+
+    report = build_ledger_quality_report(
+        result.ledger,
+        result.document_structure,
+        catalog=catalog,
+        severity=severity,
+        catalog_pointer=pointer,
+    )
+
+    assert "ck-named-table-reference-resolved" not in {
+        finding.quality_check_id for finding in report.findings
+    }
+
+
 def test_explicit_forward_table_reference_allows_later_table_atom() -> None:
     catalog = default_quality_check_catalog()
     severity = default_severity_policy()

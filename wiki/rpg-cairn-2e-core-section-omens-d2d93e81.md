@@ -3,24 +3,31 @@ page_id: rpg-cairn-2e-core-section-omens-d2d93e81
 page_kind: source
 summary: Omens: 4 source-backed entries and 5 atom(s) from raw/rpg_cairn_2e_core.pdf.
 sources: raw/rpg_cairn_2e_core.pdf
-updated: 2026-06-26
+updated: 2026-06-29
 domain: rpg-cairn-2e-core
 category_path: sources/rpg-cairn-2e-core/sections
 source_id: rpg_cairn_2e_core.pdf
-projection_coverage: section-rpg-cairn-2e-core-section-omens-d2d93e81@2835cbb06cd19d205db1d99ad4475766
+projection_coverage: section-rpg-cairn-2e-core-section-omens-d2d93e81@8087c9e92226c7cce9c863ec744152c9
 ---
 
 # Omens
 
 From [[rpg-cairn-2e-core]].
 
+## Related pages
+
+- [[rpg-cairn-2e-core-omen]] - topic hub: opens the topic page for Omen
+- [[rpg-cairn-2e-core-section-omens-01133909]] - same source heading: another source section with the same heading, Omens
+
 ## Statements
 
-- Omens are the seeds of an adventure yet to come, premonitions of a future disaster, or the cause of a problem the characters are currently facing. _(rpg_cairn_2e_core.pdf (source-range-ad2c341f-00647))_
-- Resolving an Omen should yield Growth of some kind, either for the party as a collective or to an entangled individual. _(rpg_cairn_2e_core.pdf (source-range-ad2c341f-00647))_
-- An Omen is resolved when the characters reveal the truth behind its origin or resolve its dangers. _(rpg_cairn_2e_core.pdf (source-range-ad2c341f-00647))_
+- Omens are the seeds of an adventure yet to come, premonitions of a future disaster, or the cause of a problem the characters are currently facing. An Omen is resolved when the characters reveal the truth behind its origin or resolve its dangers. Resolving an Omen should yield Growth of some kind, either for the party as a collective or to an entangled individual. If an Omen is ignored, it should come to pass and wreak whatever havoc it may. _(rpg_cairn_2e_core.pdf (source-range-ad2c341f-00647))_
 
 ## Technical atoms
+
+### Technical frame 1: Omens
+
+**Atom:** _(rpg_cairn_2e_core.pdf (source-range-ad2c341f-00144))_
 
 | entry | content |
 | --- | --- |
@@ -37,7 +44,10 @@ d20 Omen
 ```
 
 </details>
-_(source: rpg_cairn_2e_core.pdf (source-range-ad2c341f-00144))_
+
+### Technical frame 2: Omens
+
+**Atom:** _(rpg_cairn_2e_core.pdf (source-range-ad2c341f-00157))_
 
 | entry | content |
 | --- | --- |
@@ -57,7 +67,10 @@ There	is	a	village	known	far	and	wide	for	its	impressive "mother	tree,"	said	to	
 ```
 
 </details>
-_(source: rpg_cairn_2e_core.pdf (source-range-ad2c341f-00157))_
+
+### Technical frame 3: Omens
+
+**Atom:** _(rpg_cairn_2e_core.pdf (source-range-ad2c341f-00163))_
 
 | entry | content |
 | --- | --- |
@@ -97,10 +110,16 @@ fear	and	dread.
 ```
 
 </details>
-_(source: rpg_cairn_2e_core.pdf (source-range-ad2c341f-00163))_
+
+### Technical frame 4: Omens
+
+**Atom:** _(rpg_cairn_2e_core.pdf (source-range-ad2c341f-00647))_
 
 > If an Omen is ignored, it should come to pass and wreak whatever havoc it may.
-_(source: rpg_cairn_2e_core.pdf (source-range-ad2c341f-00647))_
+
+### Technical frame 5: Omens Should...
+
+**Atom:** _(rpg_cairn_2e_core.pdf (source-range-ad2c341f-00652))_
 
 | entry | content |
 | --- | --- |
@@ -424,4 +443,3 @@ You may mentally 1 move item under 60lbs. The owner can summon the book
 ```
 
 </details>
-_(source: rpg_cairn_2e_core.pdf (source-range-ad2c341f-00652))_

@@ -3,11 +3,11 @@ page_id: rpg-cairn-2e-core-section-gear-5a84a33e
 page_kind: source
 summary: Gear: 2 source-backed entries and 2 atom(s) from raw/rpg_cairn_2e_core.pdf.
 sources: raw/rpg_cairn_2e_core.pdf
-updated: 2026-06-26
+updated: 2026-06-29
 domain: rpg-cairn-2e-core
 category_path: sources/rpg-cairn-2e-core/sections
 source_id: rpg_cairn_2e_core.pdf
-projection_coverage: section-rpg-cairn-2e-core-section-gear-5a84a33e@d8781f965c3a192b77bce1226b173935
+projection_coverage: section-rpg-cairn-2e-core-section-gear-5a84a33e@5db18fc8891b7b15eb7f8d87ccda4c36
 ---
 
 # Gear
@@ -16,6 +16,10 @@ From [[rpg-cairn-2e-core]].
 
 ## Technical atoms
 
+### Technical frame 1: Gear
+
+**Atom:** _(rpg_cairn_2e_core.pdf (source-range-ad2c341f-00424))_
+
 | Air Bladder | 5 |
 | --- | --- |
 | Antitoxin | 20 |
@@ -94,7 +98,10 @@ From [[rpg-cairn-2e-core]].
 ```
 
 </details>
-_(source: rpg_cairn_2e_core.pdf (source-range-ad2c341f-00424))_
+
+### Technical frame 2: Gear
+
+**Atom:** _(rpg_cairn_2e_core.pdf (source-range-ad2c341f-00425))_
 
 | Animal Handler | 5 |
 | --- | --- |
@@ -128,4 +135,3 @@ _(source: rpg_cairn_2e_core.pdf (source-range-ad2c341f-00424))_
 ```
 
 </details>
-_(source: rpg_cairn_2e_core.pdf (source-range-ad2c341f-00425))_

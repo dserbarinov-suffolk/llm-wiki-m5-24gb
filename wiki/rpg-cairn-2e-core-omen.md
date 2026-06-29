@@ -3,10 +3,10 @@ page_id: rpg-cairn-2e-core-omen
 page_kind: concept
 summary: Omens: 4 statement(s) and 4 atom(s) from raw/rpg_cairn_2e_core.pdf.
 sources: raw/rpg_cairn_2e_core.pdf
-updated: 2026-06-26
+updated: 2026-06-29
 domain: rpg-cairn-2e-core
 category_path: concepts
-projection_coverage: topic-rpg-cairn-2e-core-omen@0eb88659881964d45d97f430ce1d2abd
+projection_coverage: topic-rpg-cairn-2e-core-omen@28b3537850bbd82fedbd1d628450fc8d
 ---
 
 # Omens
@@ -15,12 +15,20 @@ What [[rpg-cairn-2e-core]] covers about omens:
 
 ## Statements
 
-- Village elders believe the two are connected. _(rpg_cairn_2e_core.pdf (source-range-ad2c341f-00150))_
-- 4 capturing farmers and pulling them into the Roots are spreading like wildfire. _(rpg_cairn_2e_core.pdf (source-range-ad2c341f-00150))_
+### Omens
+
+- 4 capturing farmers and pulling them into the Roots are spreading like wildfire. Village elders believe the two are connected. _(rpg_cairn_2e_core.pdf (source-range-ad2c341f-00150))_
+
 - The songbirds of the Wood have fallen eerily silent as of late. _(rpg_cairn_2e_core.pdf (source-range-ad2c341f-00151))_
+
 - 20 children's dreams, uttering the same warning: A fire is coming, and it will consume everything. _(rpg_cairn_2e_core.pdf (source-range-ad2c341f-00166))_
 
+
 ## Technical atoms
+
+### Technical frame 1: Omens
+
+**Atom:** _(rpg_cairn_2e_core.pdf (source-range-ad2c341f-00144))_
 
 | entry | content |
 | --- | --- |
@@ -37,7 +45,10 @@ d20 Omen
 ```
 
 </details>
-_(source: rpg_cairn_2e_core.pdf (source-range-ad2c341f-00144))_
+
+### Technical frame 2: Omens
+
+**Atom:** _(rpg_cairn_2e_core.pdf (source-range-ad2c341f-00157))_
 
 | entry | content |
 | --- | --- |
@@ -57,7 +68,10 @@ There	is	a	village	known	far	and	wide	for	its	impressive "mother	tree,"	said	to	
 ```
 
 </details>
-_(source: rpg_cairn_2e_core.pdf (source-range-ad2c341f-00157))_
+
+### Technical frame 3: Omens
+
+**Atom:** _(rpg_cairn_2e_core.pdf (source-range-ad2c341f-00163))_
 
 | entry | content |
 | --- | --- |
@@ -97,7 +111,10 @@ fear	and	dread.
 ```
 
 </details>
-_(source: rpg_cairn_2e_core.pdf (source-range-ad2c341f-00163))_
+
+### Technical frame 4: Omens Should...
+
+**Atom:** _(rpg_cairn_2e_core.pdf (source-range-ad2c341f-00652))_
 
 | entry | content |
 | --- | --- |
@@ -421,8 +438,17 @@ You may mentally 1 move item under 60lbs. The owner can summon the book
 ```
 
 </details>
-_(source: rpg_cairn_2e_core.pdf (source-range-ad2c341f-00652))_
 
+
+## Related pages
+
+- [[rpg-cairn-2e-core-omen-should]] - narrower topic: Omens Should... shares technical record from Omens: d20 Omen 1 The	once	rich	waters	of	a	life-giving	river	have	turned	black and	putrid,	tainting	the	land	and	sickening	those	who	drink from	it.	A	village	elder	points ... [truncated] (4 shared atom(s))
+- [[rpg-cairn-2e-core-bond-and-omen]] - narrower topic: Bonds and Omens shares technical record from Omens: d20 Omen 1 The	once	rich	waters	of	a	life-giving	river	have	turned	black and	putrid,	tainting	the	land	and	sickening	those	who	drink from	it.	A	village	elder	points ... [truncated] (3 shared atom(s))
+- [[rpg-cairn-2e-core-knowledge-and-perception]] - shared technical atoms: Knowledge And Perception shares technical record from Omens: d20 Omen 1 The	once	rich	waters	of	a	life-giving	river	have	turned	black and	putrid,	tainting	the	land	and	sickening	those	who	drink from	it.	A	village	elder	points ... [truncated] (3 shared atom(s))
+- [[rpg-cairn-2e-core-principle-for-player]] - shared technical atoms: Principles for Players shares technical record from Omens: 6 region,	sparking	a	"gold	rush"	of	sorts	for	jewelers	and	thieves alike.	The	locals	believe	they	are	the	tears	of	the	earth	itself, weeping	for	a	great	tragedy	yet ... [truncated] (2 shared atom(s))
+- [[rpg-cairn-2e-core-principle-for-warden]] - shared technical atoms: Principles for Wardens shares technical record from Omens: 6 region,	sparking	a	"gold	rush"	of	sorts	for	jewelers	and	thieves alike.	The	locals	believe	they	are	the	tears	of	the	earth	itself, weeping	for	a	great	tragedy	yet ... [truncated] (2 shared atom(s))
+- [[rpg-cairn-2e-core-section-omens-01133909]] - source section: Omens shares source evidence from Omens: 4 capturing farmers and pulling them into the Roots are spreading like wildfire. Village elders believe the two are connected.; Omens shares technical record from Omens: d20 Omen 1 The	once	rich	waters	of	a	life-giving	river	have	turned	black and	putrid,	tainting	the	land	and	sickening	those	who	drink from	it.	A	village	elder	points ... [truncated] (4 shared statement(s), 4 shared atom(s))
+- [[rpg-cairn-2e-core-section-omens-d2d93e81]] - source section: Omens shares source evidence from Omens: Omens are the seeds of an adventure yet to come, premonitions of a future disaster, or the cause of a problem the characters are currently facing. An Omen is resolve ... [truncated]; Omens shares technical record from Omens: d20 Omen 1 The	once	rich	waters	of	a	life-giving	river	have	turned	black and	putrid,	tainting	the	land	and	sickening	those	who	drink from	it.	A	village	elder	points ... [truncated] (3 shared statement(s), 5 shared atom(s))
 
 ## Source
 

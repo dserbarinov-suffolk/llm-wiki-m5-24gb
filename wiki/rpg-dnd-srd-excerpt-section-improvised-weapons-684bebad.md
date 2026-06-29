@@ -3,11 +3,11 @@ page_id: rpg-dnd-srd-excerpt-section-improvised-weapons-684bebad
 page_kind: source
 summary: Improvised Weapons: 6 source-backed entries and 2 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
 sources: raw/rpg_dnd_srd_excerpt.pdf
-updated: 2026-06-26
+updated: 2026-06-29
 domain: rpg-dnd-srd-excerpt
 category_path: sources/rpg-dnd-srd-excerpt/sections
 source_id: rpg_dnd_srd_excerpt.pdf
-projection_coverage: section-rpg-dnd-srd-excerpt-section-improvised-weapons-684bebad@d632a2283140fb8d4edb7944af4c87d8
+projection_coverage: section-rpg-dnd-srd-excerpt-section-improvised-weapons-684bebad@173597ff54e0febbd74d3c41e48a7698
 ---
 
 # Improvised Weapons
@@ -16,16 +16,29 @@ From [[rpg-dnd-srd-excerpt]].
 
 ## Statements
 
+- Sometimes characters don't have their weapons and have to attack with whatever is at hand. An improvised weapon includes any object you can wield in one or two hands, such as broken glass, a table leg, a frying pan, a wagon wheel, or a dead goblin. _(rpg_dnd_srd_excerpt.pdf (source-range-b7d08967-00522))_
+- An object that bears no resemblance to a weapon deals 1d4 damage (the GM assigns a damage type appropriate to the object). If a character uses a ranged weapon to make a melee attack, or throws a melee weapon that does not have the thrown property, it also deals 1d4 damage. An improvised thrown weapon has a normal range of 20 feet and a long range of 60 feet. _(rpg_dnd_srd_excerpt.pdf (source-range-b7d08967-00524))_
 - An improvised weapon includes any object you can wield in one or two hands, such as broken glass, a table leg, a frying pan, a wagon wheel, or a dead goblin. _(rpg_dnd_srd_excerpt.pdf (source-range-b7d08967-00522))_
-- Sometimes characters don't have their weapons and have to attack with whatever is at hand. _(rpg_dnd_srd_excerpt.pdf (source-range-b7d08967-00522))_
-- An improvised weapon includes any object you can wield in one or two hands, such as broken glass, a table leg, a frying pan, a wagon wheel, or a dead goblin. _(rpg_dnd_srd_excerpt.pdf (source-range-b7d08967-00522))_
-- An improvised thrown weapon has a normal range of 20 feet and a long range of 60 feet. _(rpg_dnd_srd_excerpt.pdf (source-range-b7d08967-00524))_
-- If a character uses a ranged weapon to make a melee attack, or throws a melee weapon that does not have the thrown property, it also deals 1d4 damage. _(rpg_dnd_srd_excerpt.pdf (source-range-b7d08967-00524))_
 
 ## Technical atoms
 
+### Technical frame 1: Improvised Weapons
+
+**Context:** _(rpg_dnd_srd_excerpt.pdf (source-range-b7d08967-00524))_
+
+> An object that bears no resemblance to a weapon deals 1d4 damage (the GM assigns a damage type appropriate to the object). If a character uses a ranged weapon to make a melee attack, or throws a melee weapon that does not have the thrown property, it also deals 1d4 damage. An improvised thrown weapon has a normal range of 20 feet and a long range of 60 feet.
+
+**Atom:** _(rpg_dnd_srd_excerpt.pdf (source-range-b7d08967-00523))_
+
 > At the GM's option, a character proficient with a weapon can use a similar object as if it were that weapon and use his or her proficiency bonus.
-_(source: rpg_dnd_srd_excerpt.pdf (source-range-b7d08967-00523))_
+
+### Technical frame 2: Table- Weapons
+
+**Context:** _(rpg_dnd_srd_excerpt.pdf (source-range-b7d08967-00528))_
+
+> Weapons with special rules are described here.
+
+**Atom:** _(rpg_dnd_srd_excerpt.pdf (source-range-b7d08967-00532))_
 
 | Name | Cost | Damage | Weight | Properties |
 | --- | --- | --- | --- | --- |
@@ -72,4 +85,3 @@ Table- Weapons
 ```
 
 </details>
-_(source: rpg_dnd_srd_excerpt.pdf (source-range-b7d08967-00532))_

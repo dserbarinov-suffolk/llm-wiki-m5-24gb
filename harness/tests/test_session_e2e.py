@@ -285,12 +285,30 @@ class TestLint:
         store.write_page(_wiki_page("alpha", "concept", "A.", "[[beta]]"))
         store.write_page(_wiki_page("beta", "concept", "B.", "[[alpha]]"))
         store.write_page(_wiki_page("wiki-health", "synthesis", "Old report.", "All clean."))
-        script = [
-            [ToolCall(tool="read_page", args={"page_id": "alpha"})],
-            [ToolCall(tool="finish_lint", args={"report": "Still clean."})],
-        ]
-        session = _session(store, script, paths)
-        await session.lint()
+        session = _session(store, [], paths)
+        result = await session.lint()
         fake: FakeClient = session.client
-        user_msgs = [m["content"] for m in fake.sent[0] if m.get("role") == "user"]
-        assert not any("Orphan" in content for content in user_msgs)
+        assert fake.sent == []
+        assert "No deterministic issues" in result.output
+
+    async def test_large_lint_finding_set_files_deterministic_report_without_llm(
+        self, store: WikiStore, paths: WikiPaths
+    ) -> None:
+        for index in range(55):
+            store.write_page(
+                _wiki_page(
+                    f"orphan-{index:02d}",
+                    "concept",
+                    f"Orphan {index}.",
+                    "No inbound links.",
+                )
+            )
+        session = _session(store, [], paths)
+
+        result = await session.lint()
+
+        fake: FakeClient = session.client
+        assert fake.sent == []
+        assert "Model repair loop skipped" in result.output
+        assert "55 issue(s)" in result.output
+        assert "wiki-health" in store.list_pages()

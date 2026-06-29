@@ -3,11 +3,11 @@ page_id: rpg-cairn-2e-core-section-hirelings-per-day-7e6b1183
 page_kind: source
 summary: Hirelings (per day): 4 source-backed entries and 4 atom(s) from raw/rpg_cairn_2e_core.pdf.
 sources: raw/rpg_cairn_2e_core.pdf
-updated: 2026-06-26
+updated: 2026-06-29
 domain: rpg-cairn-2e-core
 category_path: sources/rpg-cairn-2e-core/sections
 source_id: rpg_cairn_2e_core.pdf
-projection_coverage: section-rpg-cairn-2e-core-section-hirelings-per-day-7e6b1183@06e2783c4481c9a1f5ec768dcc134ed8
+projection_coverage: section-rpg-cairn-2e-core-section-hirelings-per-day-7e6b1183@fe0457acbe487ea32cca9d07224b25e4
 ---
 
 # Hirelings (per day)
@@ -16,6 +16,10 @@ From [[rpg-cairn-2e-core]].
 
 ## Technical atoms
 
+### Technical frame 1: Hirelings (per day)
+
+**Atom:** _(rpg_cairn_2e_core.pdf (source-range-ad2c341f-00419))_
+
 | Dagger, Cudgel, Sickle, Staﬀ, etc. (d6 damage) | 5 |
 | --- | --- |
 | Spear, Sword, Mace, Axe, Flail, etc. (d8 damage) | 10 |
@@ -38,7 +42,10 @@ From [[rpg-cairn-2e-core]].
 ```
 
 </details>
-_(source: rpg_cairn_2e_core.pdf (source-range-ad2c341f-00419))_
+
+### Technical frame 2: Hirelings (per day)
+
+**Atom:** _(rpg_cairn_2e_core.pdf (source-range-ad2c341f-00420))_
 
 | Room & Board (per night) | 10 |
 | --- | --- |
@@ -62,7 +69,10 @@ _(source: rpg_cairn_2e_core.pdf (source-range-ad2c341f-00419))_
 ```
 
 </details>
-_(source: rpg_cairn_2e_core.pdf (source-range-ad2c341f-00420))_
+
+### Technical frame 3: Hirelings (per day)
+
+**Atom:** _(rpg_cairn_2e_core.pdf (source-range-ad2c341f-00421))_
 
 | Shield (+1 Armor) | 10 |
 | --- | --- |
@@ -86,7 +96,10 @@ _(source: rpg_cairn_2e_core.pdf (source-range-ad2c341f-00420))_
 ```
 
 </details>
-_(source: rpg_cairn_2e_core.pdf (source-range-ad2c341f-00421))_
+
+### Technical frame 4: Hirelings (per day)
+
+**Atom:** _(rpg_cairn_2e_core.pdf (source-range-ad2c341f-00422))_
 
 | Cart (+4 slots, bulky) | 30 |
 | --- | --- |
@@ -110,4 +123,3 @@ _(source: rpg_cairn_2e_core.pdf (source-range-ad2c341f-00421))_
 ```
 
 </details>
-_(source: rpg_cairn_2e_core.pdf (source-range-ad2c341f-00422))_

@@ -3,10 +3,10 @@ page_id: rpg-cairn-2e-core-wil
 page_kind: concept
 summary: WIL: 9 statement(s) and 4 atom(s) from raw/rpg_cairn_2e_core.pdf.
 sources: raw/rpg_cairn_2e_core.pdf
-updated: 2026-06-26
+updated: 2026-06-29
 domain: rpg-cairn-2e-core
 category_path: concepts
-projection_coverage: topic-rpg-cairn-2e-core-wil@49d72e972b79a763ec82a927f14cfe0b
+projection_coverage: topic-rpg-cairn-2e-core-wil@410cefa3b6525fac6a41314ce9815247
 ---
 
 # WIL
@@ -15,17 +15,28 @@ What [[rpg-cairn-2e-core]] covers about wil:
 
 ## Statements
 
-- It reads, 'Speak the following, and you will be free: "The Pale Man Longs To Die." You have but one chance.'" _(rpg_cairn_2e_core.pdf (source-range-ad2c341f-00515))_
-- Lucius has been captured after helping a client try to break into the ancient vault of Der Thunn. _(rpg_cairn_2e_core.pdf (source-range-ad2c341f-00510))_
-- In a sudden glut of courage, he allowed himself be taken so that the others could escape. _(rpg_cairn_2e_core.pdf (source-range-ad2c341f-00510))_
-- But we have to deliver our client to the vault immediately. _(rpg_cairn_2e_core.pdf (source-range-ad2c341f-00511))_
-- You should still go, but I'm going to get him out. _(rpg_cairn_2e_core.pdf (source-range-ad2c341f-00512))_
-- Or perhaps there's some kind of thieves' cant I can use to make connections here?" _(rpg_cairn_2e_core.pdf (source-range-ad2c341f-00512))_
-- (It costs her one of the Twins, and she is not happy about it). _(rpg_cairn_2e_core.pdf (source-range-ad2c341f-00514))_
-- Lucius is awaiting his sentence in a jail beneath the constabulary. _(rpg_cairn_2e_core.pdf (source-range-ad2c341f-00514))_
-- Warden : "In the dim light of the early dawn, you notice a note slipped through the street vent. _(rpg_cairn_2e_core.pdf (source-range-ad2c341f-00515))_
+### WIL
+
+- Lucius has been captured after helping a client try to break into the ancient vault of Der Thunn. In a sudden glut of courage, he allowed himself be taken so that the others could escape. _(rpg_cairn_2e_core.pdf (source-range-ad2c341f-00510))_
+
+- Wolfram : "Pity about Lucius. But we have to deliver our client to the vault immediately. We can rescue him after." _(rpg_cairn_2e_core.pdf (source-range-ad2c341f-00511))_
+
+- Freya : "I am NOT leaving him behind. You should still go, but I'm going to get him out. I'm a cutpurse, so I have friends everywhere, right? Or perhaps there's some kind of thieves' cant I can use to make connections here?" _(rpg_cairn_2e_core.pdf (source-range-ad2c341f-00512))_
+
+- The party splits up, and Freya learns what she needs to from a local fence. (It costs her one of the Twins, and she is not happy about it). Lucius is awaiting his sentence in a jail beneath the constabulary. _(rpg_cairn_2e_core.pdf (source-range-ad2c341f-00514))_
+
+- Warden : "In the dim light of the early dawn, you notice a note slipped through the street vent. It reads, 'Speak the following, and you will be free: "The Pale Man Longs To Die." You have but one chance.'" _(rpg_cairn_2e_core.pdf (source-range-ad2c341f-00515))_
+
 
 ## Technical atoms
+
+### Technical frame 1: Wilderness Exploration Cycle
+
+**Context:** _(rpg_cairn_2e_core.pdf (source-range-ad2c341f-00329))_
+
+> The players and the Warden record any loss of resources and new conditions (i.e. torch use, deprivation , etc), and the cycle repeats.
+
+**Atom:** _(rpg_cairn_2e_core.pdf (source-range-ad2c341f-00330))_
 
 | entry | content |
 | --- | --- |
@@ -51,7 +62,14 @@ Roll on an encounter table for that terrain type
 ```
 
 </details>
-_(source: rpg_cairn_2e_core.pdf (source-range-ad2c341f-00330))_
+
+### Technical frame 2: Wilderness Exploration Cycle
+
+**Context:** _(rpg_cairn_2e_core.pdf (source-range-ad2c341f-00329))_
+
+> The players and the Warden record any loss of resources and new conditions (i.e. torch use, deprivation , etc), and the cycle repeats.
+
+**Atom:** _(rpg_cairn_2e_core.pdf (source-range-ad2c341f-00331))_
 
 | Weather | Eﬀect | Examples |
 | --- | --- | --- |
@@ -85,7 +103,14 @@ _(source: rpg_cairn_2e_core.pdf (source-range-ad2c341f-00330))_
 ```
 
 </details>
-_(source: rpg_cairn_2e_core.pdf (source-range-ad2c341f-00331))_
+
+### Technical frame 3: Wilderness Exploration Cycle
+
+**Context:** _(rpg_cairn_2e_core.pdf (source-range-ad2c341f-00329))_
+
+> The players and the Warden record any loss of resources and new conditions (i.e. torch use, deprivation , etc), and the cycle repeats.
+
+**Atom:** _(rpg_cairn_2e_core.pdf (source-range-ad2c341f-00332))_
 
 | d6 | Spring | Summer | Fall | Winter |
 | --- | --- | --- | --- | --- |
@@ -111,14 +136,24 @@ _(source: rpg_cairn_2e_core.pdf (source-range-ad2c341f-00331))_
 ```
 
 </details>
-_(source: rpg_cairn_2e_core.pdf (source-range-ad2c341f-00332))_
 
-> Context: Freya : "I am NOT leaving him behind. You should still go, but I'm going to get him out. I'm a cutpurse, so I have friends everywhere, right? Or perhaps there's some kind of thieves' cant I can use to make connections here?"
-_(context: rpg_cairn_2e_core.pdf (source-range-ad2c341f-00512))_
+### Technical frame 4: WIL
+
+**Context:** _(rpg_cairn_2e_core.pdf (source-range-ad2c341f-00514))_
+
+> The party splits up, and Freya learns what she needs to from a local fence. (It costs her one of the Twins, and she is not happy about it). Lucius is awaiting his sentence in a jail beneath the constabulary.
+
+**Atom:** _(rpg_cairn_2e_core.pdf (source-range-ad2c341f-00513))_
 
 > You can spend the night trying to make connections among your kind, if you like.
-_(source: rpg_cairn_2e_core.pdf (source-range-ad2c341f-00513))_
 
+
+## Related pages
+
+- [[rpg-cairn-2e-core-wilderness-exploration-cycle]] - shared technical atoms: Wilderness Exploration Cycle shares technical record from Wilderness Exploration Cycle: Wilderness Events Roll on an encounter table for that terrain type 1 Encounter or location. Don't forget to roll for NPC reactions if applicable. 2 Sign The party di ... [truncated] (3 shared atom(s))
+- [[rpg-cairn-2e-core-principle-for-player]] - shared technical atoms: Principles for Players shares technical record from Wilderness Exploration Cycle: Wilderness Events Roll on an encounter table for that terrain type 1 Encounter or location. Don't forget to roll for NPC reactions if applicable. 2 Sign The party di ... [truncated] (2 shared atom(s))
+- [[rpg-cairn-2e-core-principle-for-warden]] - shared technical atoms: Principles for Wardens shares technical record from Wilderness Exploration Cycle: Wilderness Events Roll on an encounter table for that terrain type 1 Encounter or location. Don't forget to roll for NPC reactions if applicable. 2 Sign The party di ... [truncated] (2 shared atom(s))
+- [[rpg-cairn-2e-core-section-wil-c48da517]] - source section: WIL shares source evidence from WIL: Lucius has been captured after helping a client try to break into the ancient vault of Der Thunn. In a sudden glut of courage, he allowed himself be taken so that th ... [truncated]; WIL shares technical record from Wilderness Exploration Cycle: Wilderness Events Roll on an encounter table for that terrain type 1 Encounter or location. Don't forget to roll for NPC reactions if applicable. 2 Sign The party di ... [truncated] (9 shared statement(s), 4 shared atom(s))
 
 ## Source
 

@@ -3,10 +3,10 @@ page_id: rpg-cairn-2e-core-bond-and-omen
 page_kind: concept
 summary: Bonds and Omens: 0 statement(s) and 8 atom(s) from raw/rpg_cairn_2e_core.pdf.
 sources: raw/rpg_cairn_2e_core.pdf
-updated: 2026-06-26
+updated: 2026-06-29
 domain: rpg-cairn-2e-core
 category_path: concepts
-projection_coverage: topic-rpg-cairn-2e-core-bond-and-omen@f3aeaf56bec2c3a852541e044cd29ed7
+projection_coverage: topic-rpg-cairn-2e-core-bond-and-omen@c44aaa4cbc49d3defc9e97dc79028945
 ---
 
 # Bonds and Omens
@@ -17,6 +17,10 @@ What [[rpg-cairn-2e-core]] covers about bonds and omens:
 
 
 ## Technical atoms
+
+### Technical frame 1: Bonds
+
+**Atom:** _(rpg_cairn_2e_core.pdf (source-range-ad2c341f-00128))_
 
 | entry | content |
 | --- | --- |
@@ -44,7 +48,10 @@ You	inherited	an	old Journal ,	bound	in	bark.	Each	evening,	its
 ```
 
 </details>
-_(source: rpg_cairn_2e_core.pdf (source-range-ad2c341f-00128))_
+
+### Technical frame 2: Bonds
+
+**Atom:** _(rpg_cairn_2e_core.pdf (source-range-ad2c341f-00130))_
 
 | 1 | Ambitious | 6 | Honorable |
 | --- | --- | --- | --- |
@@ -66,7 +73,10 @@ _(source: rpg_cairn_2e_core.pdf (source-range-ad2c341f-00128))_
 ```
 
 </details>
-_(source: rpg_cairn_2e_core.pdf (source-range-ad2c341f-00130))_
+
+### Technical frame 3: Bonds
+
+**Atom:** _(rpg_cairn_2e_core.pdf (source-range-ad2c341f-00131))_
 
 | entry | content |
 | --- | --- |
@@ -91,7 +101,10 @@ A	roaming	storyteller	once	spun	you	tales	of	great	treasure
 ```
 
 </details>
-_(source: rpg_cairn_2e_core.pdf (source-range-ad2c341f-00131))_
+
+### Technical frame 4: Bonds
+
+**Atom:** _(rpg_cairn_2e_core.pdf (source-range-ad2c341f-00134))_
 
 | entry | content |
 | --- | --- |
@@ -108,7 +121,10 @@ You	found	a	wounded	beast	in	the	forest	but	chose	to	ignore
 ```
 
 </details>
-_(source: rpg_cairn_2e_core.pdf (source-range-ad2c341f-00134))_
+
+### Technical frame 5: Bonds
+
+**Atom:** _(rpg_cairn_2e_core.pdf (source-range-ad2c341f-00142))_
 
 | entry | content |
 | --- | --- |
@@ -136,7 +152,10 @@ A	white	crow	appeared	to	you	in	a	dream,	holding	a	twig	in	its
 ```
 
 </details>
-_(source: rpg_cairn_2e_core.pdf (source-range-ad2c341f-00142))_
+
+### Technical frame 6: Omens
+
+**Atom:** _(rpg_cairn_2e_core.pdf (source-range-ad2c341f-00144))_
 
 | entry | content |
 | --- | --- |
@@ -153,8 +172,84 @@ d20 Omen
 ```
 
 </details>
-_(source: rpg_cairn_2e_core.pdf (source-range-ad2c341f-00144))_
 
+### Technical frame 7: Omens
+
+**Atom:** _(rpg_cairn_2e_core.pdf (source-range-ad2c341f-00157))_
+
+| entry | content |
+| --- | --- |
+| 6 | region, sparking a "gold rush" of sorts for jewelers and thieves alike. The locals believe they are the tears of the earth itself, weeping for a great tragedy yet to come. |
+| 7 | Swarming pests gnaw away at the edges of dreams, and farmers speak of a loud buzzing sound emanating from deep within the Wood. They also say that the sound is getting closer. There is a village known far and wide for its impressive "mother tree," said to shelter the town's secrets in its boughs. |
+| 8 | Recently it has begun bleeding red sap, worrying the elders. |
+
+<details>
+<summary>Raw table text</summary>
+
+```
+6 region,	sparking	a	"gold	rush"	of	sorts	for	jewelers	and	thieves alike.	The	locals	believe	they	are	the	tears	of	the	earth	itself, weeping	for	a	great	tragedy	yet	to	come.
+Swarming	pests	gnaw	away	at	the	edges	of	dreams,	and
+7 farmers	speak	of	a	loud	buzzing	sound	emanating	from	deep within	the	Wood.	They	also	say	that	the	sound	is	getting closer.
+There	is	a	village	known	far	and	wide	for	its	impressive "mother	tree,"	said	to	shelter	the	town's	secrets	in	its	boughs.
+8 Recently	it	has	begun	bleeding	red	sap,	worrying	the	elders.
+```
+
+</details>
+
+### Technical frame 8: Omens
+
+**Atom:** _(rpg_cairn_2e_core.pdf (source-range-ad2c341f-00163))_
+
+| entry | content |
+| --- | --- |
+| 10 | swirling vortex of light and color. Some say that the divide between realms is at its weakest in centuries and fear what may emerge from the other side. |
+| 11 | A night-blooming flower once thought extinct is sprouting up throughout the Wood. Its scent is intoxicating but also causes vivid nightmares. |
+| 12 | Local livestock have grown increasingly agitated and unmanageable as of late. An old shepherd says it is due to an unsettling howl that emanates from the Wood each full moon. |
+| 13 | Swarms of insects are fleeing from the Wood in droves, destroying any wooden structures they come across. The sound of their wings hum a familiar tune as they pass overhead, like a forgotten nursery rhyme. Hunters talk of a curse that befalls any who kill a beast with a streak of white fur: soon after, they are found dead in their |
+| 14 | homes. Each day, there are fewer and fewer creatures to hunt. |
+| 15 | Folks say that a faint laughter can be heard echoing out of wells all over the city, and that the echoes change to sobs at night. |
+| 16 | The constellations have slowly started shifting in the night sky, forming unfamiliar patterns that have stargazers and sages perplexed. Even the animals seem disturbed. |
+| 17 | An ancient tree at the heart of a sleepy village has suddenly withered and died, despite showing no signs of disease. After its trunk was cut, a bloody hand was found in its core. |
+| 18 | Statues have been weeping blood for months on end, and the wombs of the village have lain barren since. A single child has been the only exception, hidden away by elders overcome with fear and dread. |
+| 19 | The local fauna is behaving oddly, displaying heightened aggression or fleeing the area entirely. Hunters talk of a shadowy figure that roams the Wood, calling to the animals. |
+
+<details>
+<summary>Raw table text</summary>
+
+```
+10 swirling	vortex	of	light	and	color.	Some	say	that	the	divide between	realms	is	at	its	weakest	in	centuries	and	fear	what may	emerge	from	the	other	side.
+A	night-blooming	flower	once	thought	extinct	is	sprouting	up
+11 throughout	the	Wood.	Its	scent	is	intoxicating	but	also	causes vivid	nightmares.
+12 Local	livestock	have	grown	increasingly	agitated	and unmanageable	as	of	late.	An	old	shepherd	says	it	is	due	to	an unsettling	howl	that	emanates	from	the	Wood	each	full	moon.
+Swarms	of	insects	are	fleeing	from	the	Wood	in	droves,
+13 destroying	any	wooden	structures	they	come	across.	The sound	of	their	wings	hum	a	familiar	tune	as	they	pass overhead,	like	a	forgotten	nursery	rhyme.
+Hunters	talk	of	a	curse	that	befalls	any	who	kill	a	beast	with	a streak	of	white	fur:	soon	after,	they	are	found	dead	in	their
+14 homes.	Each	day,	there	are	fewer	and	fewer	creatures	to	hunt.
+Folks	say	that	a	faint	laughter	can	be	heard	echoing	out	of
+15 wells	all	over	the	city,	and	that	the	echoes	change	to	sobs	at night.
+The	constellations	have	slowly	started	shifting	in	the	night
+16 sky,	forming	unfamiliar	patterns	that	have	stargazers	and sages	perplexed.	Even	the	animals	seem	disturbed.
+An	ancient	tree	at	the	heart	of	a	sleepy	village	has	suddenly
+17 withered	and	died,	despite	showing	no	signs	of	disease.	After its	trunk	was	cut,	a	bloody	hand	was	found	in	its	core.
+Statues	have	been	weeping	blood	for	months	on	end,	and	the
+18 wombs	of	the	village	have	lain	barren	since.	A	single	child	has been	the	only	exception,	hidden	away	by	elders	overcome	with
+fear	and	dread.
+19 The	local	fauna	is	behaving	oddly,	displaying	heightened aggression	or	fleeing	the	area	entirely.	Hunters	talk	of	a shadowy	figure	that	roams	the	Wood,	calling	to	the	animals.
+```
+
+</details>
+
+
+## Related pages
+
+- [[rpg-cairn-2e-core-bond]] - broader topic: Bonds shares technical record from Bonds: D20 Bond 1 You	inherited	a Single	Gem (500gp,	cold	and	brittle)	from	a long-dead	relative.	It	arrived	with	a	warning:	squander	your newfound	riches,	and	a	debt	long ... [truncated] (5 shared atom(s))
+- [[rpg-cairn-2e-core-omen]] - broader topic: Omens shares technical record from Omens: d20 Omen 1 The	once	rich	waters	of	a	life-giving	river	have	turned	black and	putrid,	tainting	the	land	and	sickening	those	who	drink from	it.	A	village	elder	points ... [truncated] (3 shared atom(s))
+- [[rpg-cairn-2e-core-bond-should]] - shared technical atoms: Bonds Should... shares technical record from Bonds: D20 Bond 1 You	inherited	a Single	Gem (500gp,	cold	and	brittle)	from	a long-dead	relative.	It	arrived	with	a	warning:	squander	your newfound	riches,	and	a	debt	long ... [truncated] (5 shared atom(s))
+- [[rpg-cairn-2e-core-knowledge-and-perception]] - shared technical atoms: Knowledge And Perception shares technical record from Bonds: D20 Bond 1 You	inherited	a Single	Gem (500gp,	cold	and	brittle)	from	a long-dead	relative.	It	arrived	with	a	warning:	squander	your newfound	riches,	and	a	debt	long ... [truncated] (5 shared atom(s))
+- [[rpg-cairn-2e-core-omen-should]] - shared technical atoms: Omens Should... shares technical record from Omens: d20 Omen 1 The	once	rich	waters	of	a	life-giving	river	have	turned	black and	putrid,	tainting	the	land	and	sickening	those	who	drink from	it.	A	village	elder	points ... [truncated] (3 shared atom(s))
+- [[rpg-cairn-2e-core-principle-for-player]] - shared technical atoms: Principles for Players shares technical record from Bonds: D20 Bond 1 You	inherited	a Single	Gem (500gp,	cold	and	brittle)	from	a long-dead	relative.	It	arrived	with	a	warning:	squander	your newfound	riches,	and	a	debt	long ... [truncated] (3 shared atom(s))
+- [[rpg-cairn-2e-core-principle-for-warden]] - shared technical atoms: Principles for Wardens shares technical record from Bonds: D20 Bond 1 You	inherited	a Single	Gem (500gp,	cold	and	brittle)	from	a long-dead	relative.	It	arrived	with	a	warning:	squander	your newfound	riches,	and	a	debt	long ... [truncated] (3 shared atom(s))
+- [[rpg-cairn-2e-core-section-bonds-and-omens-4f3c1c8d]] - source section: Bonds and Omens shares technical record from Bonds: D20 Bond 1 You	inherited	a Single	Gem (500gp,	cold	and	brittle)	from	a long-dead	relative.	It	arrived	with	a	warning:	squander	your newfound	riches,	and	a	debt	long ... [truncated] (8 shared atom(s))
 
 ## Source
 

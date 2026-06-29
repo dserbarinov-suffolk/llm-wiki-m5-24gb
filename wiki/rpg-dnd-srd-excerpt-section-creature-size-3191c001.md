@@ -3,11 +3,11 @@ page_id: rpg-dnd-srd-excerpt-section-creature-size-3191c001
 page_kind: source
 summary: Creature Size: 3 source-backed entries and 1 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
 sources: raw/rpg_dnd_srd_excerpt.pdf
-updated: 2026-06-26
+updated: 2026-06-29
 domain: rpg-dnd-srd-excerpt
 category_path: sources/rpg-dnd-srd-excerpt/sections
 source_id: rpg_dnd_srd_excerpt.pdf
-projection_coverage: section-rpg-dnd-srd-excerpt-section-creature-size-3191c001@d765a1032d2748716b46259729072494
+projection_coverage: section-rpg-dnd-srd-excerpt-section-creature-size-3191c001@e8e4a2da7002001b323c36de7c14b1e7
 ---
 
 # Creature Size
@@ -16,10 +16,17 @@ From [[rpg-dnd-srd-excerpt]].
 
 ## Statements
 
-- The Size Categories table shows how much space a creature of a particular size controls in combat. _(rpg_dnd_srd_excerpt.pdf (source-range-b7d08967-00314))_
-- Objects sometimes use the same size categories. _(rpg_dnd_srd_excerpt.pdf (source-range-b7d08967-00314))_
+- Each creature takes up a different amount of space. The Size Categories table shows how much space a creature of a particular size controls in combat. Objects sometimes use the same size categories. _(rpg_dnd_srd_excerpt.pdf (source-range-b7d08967-00314))_
 
 ## Technical atoms
+
+### Technical frame 1: Table- Creature Size
+
+**Context:** _(rpg_dnd_srd_excerpt.pdf (source-range-b7d08967-00314))_
+
+> Each creature takes up a different amount of space. The Size Categories table shows how much space a creature of a particular size controls in combat. Objects sometimes use the same size categories.
+
+**Atom:** _(rpg_dnd_srd_excerpt.pdf (source-range-b7d08967-00315))_
 
 | Table- Creature | Size |
 | --- | --- |
@@ -46,4 +53,3 @@ Table- Creature  Size
 ```
 
 </details>
-_(source: rpg_dnd_srd_excerpt.pdf (source-range-b7d08967-00315))_

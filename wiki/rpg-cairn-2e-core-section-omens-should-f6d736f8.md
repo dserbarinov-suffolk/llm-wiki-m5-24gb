@@ -3,23 +3,31 @@ page_id: rpg-cairn-2e-core-section-omens-should-f6d736f8
 page_kind: source
 summary: Omens Should...: 3 source-backed entries and 4 atom(s) from raw/rpg_cairn_2e_core.pdf.
 sources: raw/rpg_cairn_2e_core.pdf
-updated: 2026-06-26
+updated: 2026-06-29
 domain: rpg-cairn-2e-core
 category_path: sources/rpg-cairn-2e-core/sections
 source_id: rpg_cairn_2e_core.pdf
-projection_coverage: section-rpg-cairn-2e-core-section-omens-should-f6d736f8@8d18e7a50f77fcc1ee78a6a04a38fda2
+projection_coverage: section-rpg-cairn-2e-core-section-omens-should-f6d736f8@03b3fc86287033158e6d5f692e926208
 ---
 
 # Omens Should...
 
 From [[rpg-cairn-2e-core]].
 
+## Related pages
+
+- [[rpg-cairn-2e-core-omen-should]] - topic hub: opens the topic page for Omen Should
+
 ## Statements
 
-- - Alway tell the characters something about the setting they did not already know. _(rpg_cairn_2e_core.pdf (source-range-ad2c341f-00650))_
-- - Reveal a pattern or other obvious indicator that something terrible is going on. _(rpg_cairn_2e_core.pdf (source-range-ad2c341f-00651))_
+- Alway tell the characters something about the setting they did not already know. _(rpg_cairn_2e_core.pdf (source-range-ad2c341f-00650))_
+- Reveal a pattern or other obvious indicator that something terrible is going on. _(rpg_cairn_2e_core.pdf (source-range-ad2c341f-00651))_
 
 ## Technical atoms
+
+### Technical frame 1: Omens
+
+**Atom:** _(rpg_cairn_2e_core.pdf (source-range-ad2c341f-00144))_
 
 | entry | content |
 | --- | --- |
@@ -36,7 +44,10 @@ d20 Omen
 ```
 
 </details>
-_(source: rpg_cairn_2e_core.pdf (source-range-ad2c341f-00144))_
+
+### Technical frame 2: Omens
+
+**Atom:** _(rpg_cairn_2e_core.pdf (source-range-ad2c341f-00157))_
 
 | entry | content |
 | --- | --- |
@@ -56,7 +67,10 @@ There	is	a	village	known	far	and	wide	for	its	impressive "mother	tree,"	said	to	
 ```
 
 </details>
-_(source: rpg_cairn_2e_core.pdf (source-range-ad2c341f-00157))_
+
+### Technical frame 3: Omens
+
+**Atom:** _(rpg_cairn_2e_core.pdf (source-range-ad2c341f-00163))_
 
 | entry | content |
 | --- | --- |
@@ -96,7 +110,10 @@ fear	and	dread.
 ```
 
 </details>
-_(source: rpg_cairn_2e_core.pdf (source-range-ad2c341f-00163))_
+
+### Technical frame 4: Omens Should...
+
+**Atom:** _(rpg_cairn_2e_core.pdf (source-range-ad2c341f-00652))_
 
 | entry | content |
 | --- | --- |
@@ -420,4 +437,3 @@ You may mentally 1 move item under 60lbs. The owner can summon the book
 ```
 
 </details>
-_(source: rpg_cairn_2e_core.pdf (source-range-ad2c341f-00652))_

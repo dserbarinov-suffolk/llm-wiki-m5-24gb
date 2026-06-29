@@ -7,10 +7,22 @@ from pathlib import Path
 from llmwiki.pdf.document import DocumentElement, DocumentModel
 from llmwiki.pdf.table_candidate_model import TableCandidate
 from llmwiki.pdf.table_candidates import table_candidates
+from llmwiki.pdf.table_runtime import (
+    enrich_document_model_isolated as _enrich_document_model_isolated,
+)
 
 
 def enrich_document_model_with_tables(pdf_path: Path, model: DocumentModel) -> DocumentModel:
     """Add fallback table elements that the primary extractor missed."""
+    result = _enrich_document_model_isolated(pdf_path, model)
+    if isinstance(result, DocumentModel):
+        return result
+    return model
+
+
+def _enrich_document_model_with_tables_in_process(
+    pdf_path: Path, model: DocumentModel
+) -> DocumentModel:
     candidates = table_candidates(pdf_path, model)
     if not candidates:
         return model

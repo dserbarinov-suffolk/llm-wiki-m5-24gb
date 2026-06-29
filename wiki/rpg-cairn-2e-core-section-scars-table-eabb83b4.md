@@ -3,11 +3,11 @@ page_id: rpg-cairn-2e-core-section-scars-table-eabb83b4
 page_kind: source
 summary: Scars Table: 1 source-backed entries and 1 atom(s) from raw/rpg_cairn_2e_core.pdf.
 sources: raw/rpg_cairn_2e_core.pdf
-updated: 2026-06-26
+updated: 2026-06-29
 domain: rpg-cairn-2e-core
 category_path: sources/rpg-cairn-2e-core/sections
 source_id: rpg_cairn_2e_core.pdf
-projection_coverage: section-rpg-cairn-2e-core-section-scars-table-eabb83b4@59b71d138dea7235a3918358d68215ed
+projection_coverage: section-rpg-cairn-2e-core-section-scars-table-eabb83b4@65554f6ff81a13da1b632f5ef58e7d09
 ---
 
 # Scars Table
@@ -15,6 +15,10 @@ projection_coverage: section-rpg-cairn-2e-core-section-scars-table-eabb83b4@59b7
 From [[rpg-cairn-2e-core]].
 
 ## Technical atoms
+
+### Technical frame 1: Scars Table
+
+**Atom:** _(rpg_cairn_2e_core.pdf (source-range-ad2c341f-00239))_
 
 | entry | content |
 | --- | --- |
@@ -53,4 +57,3 @@ Doomed:	Death	seemed	ever	so	close,	but	somehow	you
 ```
 
 </details>
-_(source: rpg_cairn_2e_core.pdf (source-range-ad2c341f-00239))_

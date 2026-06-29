@@ -2,6 +2,7 @@
 
 import pytest
 
+from llmwiki.domain.graph import build_wiki_graph, graph_status
 from llmwiki.domain.index import index_page_ids, parse_index, upsert_index_entry
 from llmwiki.domain.links import compute_findings, extract_links
 from llmwiki.domain.log import format_log_entry
@@ -522,6 +523,23 @@ class TestLinks:
         assert not findings.is_clean
         assert "ghost" in findings.render()
 
+    def test_findings_render_can_be_bounded_for_model_prompts(self) -> None:
+        pages = {
+            "alpha": "links to [[beta]]",
+            "beta": "links to [[alpha]]",
+            "gamma": "no inbound links",
+            "delta": "no inbound links",
+            "epsilon": "no inbound links",
+        }
+
+        findings = compute_findings(pages, index_page_ids=set(pages))
+        rendered = findings.render(max_items_per_section=2)
+
+        assert "- delta" in rendered
+        assert "- epsilon" in rendered
+        assert "- gamma" not in rendered
+        assert "- ... 1 more" in rendered
+
     def test_clean_wiki_is_clean(self) -> None:
         pages = {"alpha": "see [[beta]]", "beta": "see [[alpha]]"}
         findings = compute_findings(pages, index_page_ids={"alpha", "beta"})
@@ -530,6 +548,69 @@ class TestLinks:
     def test_single_page_is_not_an_orphan(self) -> None:
         findings = compute_findings({"only": "text"}, index_page_ids={"only"})
         assert findings.orphan_pages == ()
+
+
+class TestGraph:
+    def test_graph_exports_nodes_edges_and_excludes_system_pages(self) -> None:
+        pages = {
+            "alpha": render_page(
+                WikiPage.from_metadata(
+                    PageMetadata("alpha", "concept", "Alpha summary.", sources=("raw/a.md",)),
+                    "See [[beta]].",
+                )
+            ),
+            "beta": render_page(
+                WikiPage.from_metadata(PageMetadata("beta", "concept", "Beta summary."), "")
+            ),
+            "wiki-health": render_page(
+                WikiPage.from_metadata(
+                    PageMetadata("wiki-health", "synthesis", "Health report."),
+                    "See [[alpha]].",
+                )
+            ),
+        }
+
+        graph = build_wiki_graph(pages, generated_date="2026-06-29")
+
+        assert [node.name for node in graph.nodes] == ["alpha", "beta"]
+        assert graph.edges[0].source == "alpha"
+        assert graph.edges[0].target == "beta"
+        assert graph.edges[0].resolved
+
+    def test_graph_represents_unresolved_edges(self) -> None:
+        pages = {
+            "alpha": render_page(
+                WikiPage.from_metadata(PageMetadata("alpha", "concept", "Alpha."), "See [[ghost]].")
+            )
+        }
+
+        graph = build_wiki_graph(pages, generated_date="2026-06-29")
+
+        assert len(graph.edges) == 1
+        assert graph.edges[0].target == "ghost"
+        assert not graph.edges[0].resolved
+
+    def test_graph_status_ignores_generated_date_but_detects_stale_content(self) -> None:
+        pages = {
+            "alpha": render_page(
+                WikiPage.from_metadata(PageMetadata("alpha", "concept", "Alpha."), "See [[beta]].")
+            )
+        }
+        graph = build_wiki_graph(pages, generated_date="2026-06-29")
+        same_graph_new_date = build_wiki_graph(pages, generated_date="2026-06-30")
+        changed_graph = build_wiki_graph(
+            {
+                "alpha": render_page(
+                    WikiPage.from_metadata(
+                        PageMetadata("alpha", "concept", "Alpha."), "See [[gamma]]."
+                    )
+                )
+            },
+            generated_date="2026-06-30",
+        )
+
+        assert graph_status(same_graph_new_date, graph.to_json_text()).status == "current"
+        assert graph_status(changed_graph, graph.to_json_text()).status == "stale"
 
 
 class TestSearch:

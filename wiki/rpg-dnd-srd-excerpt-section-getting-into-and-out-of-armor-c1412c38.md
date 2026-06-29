@@ -3,11 +3,11 @@ page_id: rpg-dnd-srd-excerpt-section-getting-into-and-out-of-armor-c1412c38
 page_kind: source
 summary: Getting Into and Out of Armor: 4 source-backed entries and 2 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
 sources: raw/rpg_dnd_srd_excerpt.pdf
-updated: 2026-06-26
+updated: 2026-06-29
 domain: rpg-dnd-srd-excerpt
 category_path: sources/rpg-dnd-srd-excerpt/sections
 source_id: rpg_dnd_srd_excerpt.pdf
-projection_coverage: section-rpg-dnd-srd-excerpt-section-getting-into-and-out-of-armor-c1412c38@a56a9b871eaac3d5bc21b601187a1eb3
+projection_coverage: section-rpg-dnd-srd-excerpt-section-getting-into-and-out-of-armor-c1412c38@64da1a647d7dd8a33d52c365309b7127
 ---
 
 # Getting Into and Out of Armor
@@ -16,11 +16,19 @@ From [[rpg-dnd-srd-excerpt]].
 
 ## Statements
 
-- This is the time it takes to put on armor. _(rpg_dnd_srd_excerpt.pdf (source-range-b7d08967-00497))_
+- Don . This is the time it takes to put on armor. You benefit from the armor's AC only if you take the full time to don the suit of armor. _(rpg_dnd_srd_excerpt.pdf (source-range-b7d08967-00497))_
+- Doff . This is the time it takes to take off armor. If you have help, reduce this time by half. _(rpg_dnd_srd_excerpt.pdf (source-range-b7d08967-00498))_
 - You benefit from the armor's AC only if you take the full time to don the suit of armor. _(rpg_dnd_srd_excerpt.pdf (source-range-b7d08967-00497))_
-- This is the time it takes to take off armor. _(rpg_dnd_srd_excerpt.pdf (source-range-b7d08967-00498))_
 
 ## Technical atoms
+
+### Technical frame 1: Table- Armor
+
+**Context:** _(rpg_dnd_srd_excerpt.pdf (source-range-b7d08967-00492))_
+
+> Plate . Plate consists of shaped, interlocking metal plates to cover the entire body. A suit of plate includes gauntlets, heavy leather boots, a visored helmet, and thick layers of padding underneath the armor. Buckles and straps distribute the weight over the body.
+
+**Atom:** _(rpg_dnd_srd_excerpt.pdf (source-range-b7d08967-00493))_
 
 | Armor | Cost | Class | Strength | Stealth | Weight |
 | --- | --- | --- | --- | --- | --- |
@@ -97,7 +105,13 @@ Table- Armor
 ```
 
 </details>
-_(source: rpg_dnd_srd_excerpt.pdf (source-range-b7d08967-00493))_
+
+### Technical frame 2: Getting Into and Out of Armor
+
+**Context:** _(rpg_dnd_srd_excerpt.pdf (source-range-b7d08967-00497))_
+
+> Don . This is the time it takes to put on armor. You benefit from the armor's AC only if you take the full time to don the suit of armor.
+
+**Atom:** _(rpg_dnd_srd_excerpt.pdf (source-range-b7d08967-00498))_
 
 > If you have help, reduce this time by half.
-_(source: rpg_dnd_srd_excerpt.pdf (source-range-b7d08967-00498))_

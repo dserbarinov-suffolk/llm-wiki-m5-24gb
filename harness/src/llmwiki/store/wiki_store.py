@@ -214,6 +214,14 @@ class WikiStore:
         with self._paths.log_path.open("a", encoding="utf-8") as fh:
             fh.write(entry)
 
+    def read_graph_json(self) -> str | None:
+        if not self._paths.graph_path.exists():
+            return None
+        return self._paths.graph_path.read_text(encoding="utf-8")
+
+    def write_graph_json(self, text: str) -> None:
+        self._paths.graph_path.write_text(text, encoding="utf-8")
+
     # -- harness-owned ingest artifacts --------------------------------------
 
     def page_plan_artifact_dir(self, source_locator: str) -> Path:

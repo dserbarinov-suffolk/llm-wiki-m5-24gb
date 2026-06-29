@@ -3,10 +3,10 @@ page_id: rpg-dnd-srd-excerpt-table-difficulty-class
 page_kind: concept
 summary: Table- Difficulty Classes: 4 statement(s) and 6 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
 sources: raw/rpg_dnd_srd_excerpt.pdf
-updated: 2026-06-26
+updated: 2026-06-29
 domain: rpg-dnd-srd-excerpt
 category_path: concepts
-projection_coverage: topic-rpg-dnd-srd-excerpt-table-difficulty-class@486182c3df7bc875f7d88b2cb70d342a
+projection_coverage: topic-rpg-dnd-srd-excerpt-table-difficulty-class@d8ddd985c5d7a091f2ff552ab3f3a50f
 ---
 
 # Table- Difficulty Classes
@@ -15,12 +15,16 @@ What [[rpg-dnd-srd-excerpt]] covers about table- difficulty classes:
 
 ## Statements
 
-- Otherwise, it's a failure, which means the character or monster makes no progress toward the objective or makes progress combined with a setback determined by the GM. _(rpg_dnd_srd_excerpt.pdf (source-range-b7d08967-00095))_
-- As with other d20 rolls, apply bonuses and penalties, and compare the total to the DC. _(rpg_dnd_srd_excerpt.pdf (source-range-b7d08967-00095))_
-- To make an ability check, roll a d20 and add the relevant ability modifier. _(rpg_dnd_srd_excerpt.pdf (source-range-b7d08967-00095))_
-- If the total equals or exceeds the DC, the ability check is a success-the creature overcomes the challenge at hand. _(rpg_dnd_srd_excerpt.pdf (source-range-b7d08967-00095))_
+### Table- Difficulty Classes
+
+- To make an ability check, roll a d20 and add the relevant ability modifier. As with other d20 rolls, apply bonuses and penalties, and compare the total to the DC. If the total equals or exceeds the DC, the ability check is a success-the creature overcomes the challenge at hand. Otherwise, it's a failure, which means the character or monster makes no progress toward the objective or makes progress combined with a setback determined by the GM. _(rpg_dnd_srd_excerpt.pdf (source-range-b7d08967-00095))_
+
 
 ## Technical atoms
+
+### Technical frame 1: Table- Diﬀiculty Classes
+
+**Atom:** _(rpg_dnd_srd_excerpt.pdf (source-range-b7d08967-00097))_
 
 | Table- Diﬀiculty | Classes |
 | --- | --- |
@@ -47,10 +51,14 @@ Table- Diﬀiculty  Classes
 ```
 
 </details>
-_(source: rpg_dnd_srd_excerpt.pdf (source-range-b7d08967-00097))_
 
-> Context: The skills related to each ability score are shown in the following list. (No skills are related to Constitution.) See an ability's description in the later sections of this section for examples of how to use a skill associated with an ability.
-_(context: rpg_dnd_srd_excerpt.pdf (source-range-b7d08967-00104))_
+### Technical frame 2: Table- Related Skills
+
+**Context:** _(rpg_dnd_srd_excerpt.pdf (source-range-b7d08967-00106))_
+
+> Sometimes, the GM might ask for an ability check using a specific skill-for example, "Make a Wisdom (Perception) check." At other times, a player might ask the GM if proficiency in a particular skill applies to a check. In either case, proficiency in a skill means an individual can add his or her proficiency bonus to ability checks that involve that skill. Without proficiency in the skill, the individual makes a normal ability check.
+
+**Atom:** _(rpg_dnd_srd_excerpt.pdf (source-range-b7d08967-00105))_
 
 | Table- Related | Skills |
 | --- | --- |
@@ -70,10 +78,14 @@ Table- Related  Skills
 ```
 
 </details>
-_(source: rpg_dnd_srd_excerpt.pdf (source-range-b7d08967-00105))_
 
-> Context: Each creature takes up a different amount of space. The Size Categories table shows how much space a creature of a particular size controls in combat. Objects sometimes use the same size categories.
-_(context: rpg_dnd_srd_excerpt.pdf (source-range-b7d08967-00314))_
+### Technical frame 3: Table- Creature Size
+
+**Context:** _(rpg_dnd_srd_excerpt.pdf (source-range-b7d08967-00314))_
+
+> Each creature takes up a different amount of space. The Size Categories table shows how much space a creature of a particular size controls in combat. Objects sometimes use the same size categories.
+
+**Atom:** _(rpg_dnd_srd_excerpt.pdf (source-range-b7d08967-00315))_
 
 | Table- Creature | Size |
 | --- | --- |
@@ -100,7 +112,14 @@ Table- Creature  Size
 ```
 
 </details>
-_(source: rpg_dnd_srd_excerpt.pdf (source-range-b7d08967-00315))_
+
+### Technical frame 4: Table- Armor
+
+**Context:** _(rpg_dnd_srd_excerpt.pdf (source-range-b7d08967-00492))_
+
+> Plate . Plate consists of shaped, interlocking metal plates to cover the entire body. A suit of plate includes gauntlets, heavy leather boots, a visored helmet, and thick layers of padding underneath the armor. Buckles and straps distribute the weight over the body.
+
+**Atom:** _(rpg_dnd_srd_excerpt.pdf (source-range-b7d08967-00493))_
 
 | Armor | Cost | Class | Strength | Stealth | Weight |
 | --- | --- | --- | --- | --- | --- |
@@ -177,10 +196,14 @@ Table- Armor
 ```
 
 </details>
-_(source: rpg_dnd_srd_excerpt.pdf (source-range-b7d08967-00493))_
 
-> Context: Proficiency with a weapon allows you to add your proficiency bonus to the attack roll for any attack you make with that weapon. If you make an attack roll using a weapon with which you lack proficiency, you do not add your proficiency bonus to the attack roll.
-_(context: rpg_dnd_srd_excerpt.pdf (source-range-b7d08967-00505))_
+### Technical frame 5: Table- Donning and Doﬀing Armor
+
+**Context:** _(rpg_dnd_srd_excerpt.pdf (source-range-b7d08967-00504))_
+
+> Your race, class, and feats can grant you proficiency with certain weapons or categories of weapons. The two categories are simple and martial . Most people can use simple weapons with proficiency. These weapons include clubs, maces, and other weapons often found in the hands of commoners. Martial weapons, including swords, axes, and polearms, require more specialized training to use effectively. Most warriors use martial weapons because these weapons put their fighting style and training to bes
+
+**Atom:** _(rpg_dnd_srd_excerpt.pdf (source-range-b7d08967-00506))_
 
 | Table- Donning | and Doﬀing | Armor |
 | --- | --- | --- |
@@ -203,10 +226,14 @@ Table- Donning   and Doﬀing   Armor
 ```
 
 </details>
-_(source: rpg_dnd_srd_excerpt.pdf (source-range-b7d08967-00506))_
 
-> Context: When you use an action, bonus action, or reaction to attack with a net, you can make only one attack regardless of the number of attacks you can normally make.
-_(context: rpg_dnd_srd_excerpt.pdf (source-range-b7d08967-00531))_
+### Technical frame 6: Table- Weapons
+
+**Context:** _(rpg_dnd_srd_excerpt.pdf (source-range-b7d08967-00528))_
+
+> Weapons with special rules are described here.
+
+**Atom:** _(rpg_dnd_srd_excerpt.pdf (source-range-b7d08967-00532))_
 
 | Name | Cost | Damage | Weight | Properties |
 | --- | --- | --- | --- | --- |
@@ -253,8 +280,22 @@ Table- Weapons
 ```
 
 </details>
-_(source: rpg_dnd_srd_excerpt.pdf (source-range-b7d08967-00532))_
 
+
+## Related pages
+
+- [[rpg-dnd-srd-excerpt-table]] - broader topic: Table shares technical record from Table- Diﬀiculty Classes: Table- Diﬀiculty  Classes Task  Diﬀiculty   DC Very easy          5 Easy               10 Medium             15 Hard               20 Very hard          25 Nearly impossible  30 (6 shared atom(s))
+- [[rpg-dnd-srd-excerpt-armor]] - shared technical atoms: Armor shares technical record from Table- Armor: Table- Armor Armor Armor      Cost     Class    Strength      Stealth     Weight (AC) Light Armor 11 + Dex Padded       5 gp               -          Disadvantage ... [truncated] (2 shared atom(s))
+- [[rpg-dnd-srd-excerpt-weapon-proficiency]] - shared technical atoms: Weapon Proficiency shares technical record from Table- Donning and Doﬀing Armor: Table- Donning   and Doﬀing   Armor Category         Don        Doﬀ Light Armor     1 minute     1 minute Medium   Armor  5 minutes    1 minute Heavy  Armor    10 mi ... [truncated] (2 shared atom(s))
+- [[rpg-dnd-srd-excerpt-creature]] - shared technical atoms: Creature shares technical record from Table- Creature Size: Table- Creature  Size Size            Space Tiny         2 1/2 by 2 1/2 ft. Small        5 by 5 ft. Medium       5 by 5 ft. Large        10 by 10 ft. Huge         15 ... [truncated] (1 shared atom(s))
+- [[rpg-dnd-srd-excerpt-heavy-armor]] - shared technical atoms: Heavy Armor shares technical record from Table- Armor: Table- Armor Armor Armor      Cost     Class    Strength      Stealth     Weight (AC) Light Armor 11 + Dex Padded       5 gp               -          Disadvantage ... [truncated] (1 shared atom(s))
+- [[rpg-dnd-srd-excerpt-medium-armor]] - shared technical atoms: Medium Armor shares technical record from Table- Armor: Table- Armor Armor Armor      Cost     Class    Strength      Stealth     Weight (AC) Light Armor 11 + Dex Padded       5 gp               -          Disadvantage ... [truncated] (1 shared atom(s))
+- [[rpg-dnd-srd-excerpt-proficiency]] - shared technical atoms: Proficiency shares technical record from Table- Donning and Doﬀing Armor: Table- Donning   and Doﬀing   Armor Category         Don        Doﬀ Light Armor     1 minute     1 minute Medium   Armor  5 minutes    1 minute Heavy  Armor    10 mi ... [truncated] (1 shared atom(s))
+- [[rpg-dnd-srd-excerpt-skill]] - shared technical atoms: Skills shares technical record from Table- Related Skills: Table- Related  Skills Strength     Dexterity   Intelligence    Wisdom       Charisma Animal Athletics  Acrobatics    Arcana                      Deception Handling Sleight of (1 shared atom(s))
+- [[rpg-dnd-srd-excerpt-special]] - shared technical atoms: Special shares technical record from Table- Weapons: Table- Weapons Name        Cost    Damage      Weight        Properties Simple Melee Weapons 1d4 Club            1 sp                2 lb.    Light bludgeoning Fines ... [truncated] (1 shared atom(s))
+- [[rpg-dnd-srd-excerpt-special-weapon]] - shared technical atoms: Special Weapons shares technical record from Table- Weapons: Table- Weapons Name        Cost    Damage      Weight        Properties Simple Melee Weapons 1d4 Club            1 sp                2 lb.    Light bludgeoning Fines ... [truncated] (1 shared atom(s))
+- [[rpg-dnd-srd-excerpt-weapon-property]] - shared technical atoms: Weapon Properties shares technical record from Table- Weapons: Table- Weapons Name        Cost    Damage      Weight        Properties Simple Melee Weapons 1d4 Club            1 sp                2 lb.    Light bludgeoning Fines ... [truncated] (1 shared atom(s))
+- [[rpg-dnd-srd-excerpt-check]] - shared statements: Check shares source evidence from Table- Difficulty Classes: To make an ability check, roll a d20 and add the relevant ability modifier. As with other d20 rolls, apply bonuses and penalties, and compare the total to the DC. If ... [truncated] (1 shared statement(s))
 
 ## Source
 

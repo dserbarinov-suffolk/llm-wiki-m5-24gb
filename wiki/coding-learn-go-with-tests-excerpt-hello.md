@@ -1,116 +1,158 @@
 ---
 page_id: coding-learn-go-with-tests-excerpt-hello
 page_kind: concept
-summary: Hello, world... again: 17 statement(s) and 6 atom(s) from raw/coding_learn_go_with_tests_excerpt.pdf.
+summary: Hello, World: 24 statement(s) and 6 atom(s) from raw/coding_learn_go_with_tests_excerpt.pdf.
 sources: raw/coding_learn_go_with_tests_excerpt.pdf
-updated: 2026-06-26
+updated: 2026-06-29
 domain: coding-learn-go-with-tests-excerpt
 category_path: concepts
-projection_coverage: topic-coding-learn-go-with-tests-excerpt-hello@58e3fe156fe5fb8b9f2e0faaee42d5c5
+projection_coverage: topic-coding-learn-go-with-tests-excerpt-hello@e69fffe06a8c9024649270c6246cb007
 ---
 
-# Hello, world... again
+# Hello, World
 
-What [[coding-learn-go-with-tests-excerpt]] covers about hello, world... again:
+What [[coding-learn-go-with-tests-excerpt]] covers about hello, world:
 
 ## Statements
 
-- The next requirement is when our function is called with an empty string it defaults to printing "Hello, World", rather than "Hello, ". _(coding_learn_go_with_tests_excerpt.pdf (source-range-f4b7154d-00072))_
-- Here, we are introducing another tool in our testing arsenal: subtests. _(coding_learn_go_with_tests_excerpt.pdf (source-range-f4b7154d-00075))_
-- Sometimes, it is useful to group tests around a "thing" and then have subtests describing different scenarios. _(coding_learn_go_with_tests_excerpt.pdf (source-range-f4b7154d-00075))_
-- A benefit of this approach is you can set up shared code that can be used in the other tests. _(coding_learn_go_with_tests_excerpt.pdf (source-range-f4b7154d-00076))_
-- If we run our tests we should see it satisfies the new requirement and we haven't accidentally broken the other functionality. _(coding_learn_go_with_tests_excerpt.pdf (source-range-f4b7154d-00080))_
-- It is important that your tests are clear specifications of what the code needs to do. _(coding_learn_go_with_tests_excerpt.pdf (source-range-f4b7154d-00081))_
-- But there is repeated code when we check if the message is what we expect. _(coding_learn_go_with_tests_excerpt.pdf (source-range-f4b7154d-00081))_
-- Refactoring is not just for the production code! _(coding_learn_go_with_tests_excerpt.pdf (source-range-f4b7154d-00082))_
-- Now that the tests are passing, we can and should refactor our tests. _(coding_learn_go_with_tests_excerpt.pdf (source-range-f4b7154d-00083))_
-- We need to pass in t *testing.T so that we can tell the test code to fail when we need to. _(coding_learn_go_with_tests_excerpt.pdf (source-range-f4b7154d-00086))_
-- We've refactored our assertion into a new function. _(coding_learn_go_with_tests_excerpt.pdf (source-range-f4b7154d-00086))_
-- If you still don't understand, comment it out, make a test fail and observe the test output. _(coding_learn_go_with_tests_excerpt.pdf (source-range-f4b7154d-00088))_
-- t.Helper() is needed to tell the test suite that this method is a helper. _(coding_learn_go_with_tests_excerpt.pdf (source-range-f4b7154d-00088))_
-- This will help other developers track down problems more easily. _(coding_learn_go_with_tests_excerpt.pdf (source-range-f4b7154d-00088))_
+### Hello, World
+
+- It is traditional for your first program in a new language to be Hello, World. _(coding_learn_go_with_tests_excerpt.pdf (source-range-cb73a893-00008))_
+
+### Hello, World / How it works
+
+- When you write a program in Go, you will have a main package defined with a main func inside it. Packages are ways of grouping up related Go code together. _(coding_learn_go_with_tests_excerpt.pdf (source-range-cb73a893-00014))_
+
+- The func keyword defines a function with a name and a body. _(coding_learn_go_with_tests_excerpt.pdf (source-range-cb73a893-00015))_
+
+- With import "fmt" we are importing a package which contains the Println function that we use to print. _(coding_learn_go_with_tests_excerpt.pdf (source-range-cb73a893-00016))_
+
+### Hello, World / How to test
+
+- How do you test this? It is good to separate your "domain" code from the outside world (side-effects). The fmt.Println is a side effect (printing to stdout), and the string we send in is our domain. _(coding_learn_go_with_tests_excerpt.pdf (source-range-cb73a893-00018))_
+
+- We have created a new function with func , but this time, we've added another keyword, string, to the definition. This means this function returns a string . _(coding_learn_go_with_tests_excerpt.pdf (source-range-cb73a893-00021))_
+
+### Hello, World / Go modules?
+
+- The next step is to run the tests. Enter go test in your terminal. If the tests pass, then you are probably using an earlier version of Go. However, if you are using Go 1.16 or later, the tests will likely not run. Instead, you will see an error message like this in the terminal: _(coding_learn_go_with_tests_excerpt.pdf (source-range-cb73a893-00025))_
+
+- What's the problem? In a word, modules. Luckily, the problem is easy to fix. Enter go mod init example.com/hello in your terminal. That will create a new file with the following contents: _(coding_learn_go_with_tests_excerpt.pdf (source-range-cb73a893-00027))_
+
+- This file tells the go tools essential information about your code. If you planned to distribute your application, you would include where the code was available for download as well as information about dependencies. The name of the module, example.com/hello, usually refers to a URL where the module can be found and downloaded. For compatibility with tools we'll start using soon, make sure your module's name has a dot somewhere in it, like the dot in .com of example.com/hello. For now, your module file is minimal, and you can leave it that way. To read more about modules, you can check out the reference in the Golang documentation. We can get back to testing and learning Go now since the tests should run, even on Go 1.16. In future chapters, you will need to run go mod init SOMENAME in each _(coding_learn_go_with_tests_excerpt.pdf (source-range-cb73a893-00029))_
+
+### Hello, World / Back to Testing
+
+- Run go test in your terminal. It should've passed! Just to check, try deliberately breaking the test by changing the want string. Notice how you have not had to pick between multiple testing frameworks and then figure out how to install them. Everything you need is built into the language, and the syntax is the same as the rest _(coding_learn_go_with_tests_excerpt.pdf (source-range-cb73a893-00032))_
+
+- of the code you will write. Writing tests Writing a test is just like writing a function, with a few rules It needs to be in a file with a name like xxx_test.go The test function must start with the word Test The test function takes one argument only t *testing.T To use the *testing.T type, you need to import "testing" , like we did with fmt in the other file For now, it's enough to know that your t of type *testing.T is your "hook" into the testing framework so you can do things like t.Fail() when you want to fail. We've covered some new topics: if If statements in Go are very much like other programming languages. Declaring variables We're declaring some variables with the syntax varName := value , which lets us reuse some values in our test for readability. t.Errorf We are calling the method on our , which will print out a _(coding_learn_go_with_tests_excerpt.pdf (source-range-cb73a893-00033))_
+
+- Errorf t message and fail the test. The f stands for format, which allows us to build a string with values inserted into the placeholder values %q . When you make the test fail, it should be clear how it works. You can read more about the placeholder strings in the fmt documentation. For tests, %q is very useful as it wraps your values in double quotes. _(coding_learn_go_with_tests_excerpt.pdf (source-range-cb73a893-00034))_
+
 
 ## Technical atoms
 
+### Technical frame 1: Hello, World
+
+**Context:** _(coding_learn_go_with_tests_excerpt.pdf (source-range-cb73a893-00008))_
+
+> It is traditional for your first program in a new language to be Hello, World.
+
+**Atom:** _(coding_learn_go_with_tests_excerpt.pdf (source-range-cb73a893-00011))_
+
 ```
+package main
+import "fmt"
+func main() {
+    fmt.Println("Hello, world")
+}
+```
+
+### Technical frame 2: Hello, World / How to test
+
+**Context:** _(coding_learn_go_with_tests_excerpt.pdf (source-range-cb73a893-00021))_
+
+> We have created a new function with func , but this time, we've added another keyword, string, to the definition. This means this function returns a string .
+
+**Atom:** _(coding_learn_go_with_tests_excerpt.pdf (source-range-cb73a893-00020))_
+
+```
+package main
+import "fmt"
+func Hello() string {
+    return "Hello, world"
+}
+func main() {
+    fmt.Println(Hello())
+}
+```
+
+### Technical frame 3: Hello, World / How to test
+
+**Context:** _(coding_learn_go_with_tests_excerpt.pdf (source-range-cb73a893-00021))_
+
+> We have created a new function with func , but this time, we've added another keyword, string, to the definition. This means this function returns a string .
+
+**Atom:** _(coding_learn_go_with_tests_excerpt.pdf (source-range-cb73a893-00023))_
+
+```
+package main
+import "testing"
 func TestHello(t *testing.T) {
-    t.Run("saying hello to people", func(t *testing.T) {
-        got := Hello("Chris")
-        want := "Hello, Chris"
+    got := Hello()
+    want := "Hello, world"
 if got != want {
-            t.Errorf("got %q want %q", got, want)
-        }
-    })
-    t.Run("say 'Hello, World' when an empty string is supplied", 
-func(t *testing.T) {
-got := Hello("")
-        want := "Hello, World"
-if got != want {
-            t.Errorf("got %q want %q", got, want)
-        }
-    })
-}
-```
-_(source: coding_learn_go_with_tests_excerpt.pdf (source-range-f4b7154d-00074))_
-
-> Context: While we have a failing test, let's fix the code, using an if .
-_(context: coding_learn_go_with_tests_excerpt.pdf (source-range-f4b7154d-00077))_
-
-```
-const englishHelloPrefix = "Hello, "
-func Hello(name string) string {
-    if name == "" {
-```
-_(source: coding_learn_go_with_tests_excerpt.pdf (source-range-f4b7154d-00078))_
-
-> Context: While we have a failing test, let's fix the code, using an if .
-_(context: coding_learn_go_with_tests_excerpt.pdf (source-range-f4b7154d-00077))_
-
-```
-name = "World"
-    }
-    return englishHelloPrefix + name
-}
-```
-_(source: coding_learn_go_with_tests_excerpt.pdf (source-range-f4b7154d-00079))_
-
-> Context: Now that the tests are passing, we can and should refactor our tests.
-_(context: coding_learn_go_with_tests_excerpt.pdf (source-range-f4b7154d-00083))_
-
-```
-func TestHello(t *testing.T) {
-    t.Run("saying hello to people", func(t *testing.T) {
-        got := Hello("Chris")
-        want := "Hello, Chris"
-        assertCorrectMessage(t, got, want)
-    })
-t.Run("empty string defaults to 'world'", func(t *testing.T) {
-        got := Hello("")
-        want := "Hello, World"
-        assertCorrectMessage(t, got, want)
-    })
-}
-func assertCorrectMessage(t testing.TB, got, want string) {
-    t.Helper()
-    if got != want {
         t.Errorf("got %q want %q", got, want)
     }
 }
 ```
-_(source: coding_learn_go_with_tests_excerpt.pdf (source-range-f4b7154d-00084))_
 
-> Context: We've refactored our assertion into a new function. This reduces duplication and improves the readability of our tests. We need to pass in t *testing.T so that we can tell the test code to fail when we need to. t.Helper() is needed to tell the test suite that this method is a helper. By doing this, when it fails, the line number reported will be in our function call rather than inside our test helper. This will help other developers track down problems more easily. If you still don't understand, comment it out, make a test fail and observe the test output. Comments in Go are a great way to add additional information to your code, or in this case, a quick way to tell the compiler to ignore a line. You can comment out the t.Helper() code by adding two forward slashes // at the beginning of the line. You should see that line turn grey or change to another color than the rest of your code to indicate it's now commented out.
-_(context: coding_learn_go_with_tests_excerpt.pdf (source-range-f4b7154d-00086, source-range-f4b7154d-00088))_
+### Technical frame 4: Hello, World / Go modules?
 
-> For helper functions, it's a good idea to accept a testing.TB which is an interface that *testing.T and *testing.B both satisfy, so you can call helper functions from a test, or a benchmark (don't worry if words like "interface" mean nothing to you right now, it will be covered later).
-_(source: coding_learn_go_with_tests_excerpt.pdf (source-range-f4b7154d-00087))_
+**Context:** _(coding_learn_go_with_tests_excerpt.pdf (source-range-cb73a893-00027))_
 
-> Context: We've refactored our assertion into a new function. This reduces duplication and improves the readability of our tests. We need to pass in t *testing.T so that we can tell the test code to fail when we need to.
-_(context: coding_learn_go_with_tests_excerpt.pdf (source-range-f4b7154d-00086))_
+> What's the problem? In a word, modules. Luckily, the problem is easy to fix. Enter go mod init example.com/hello in your terminal. That will create a new file with the following contents:
 
-> When you have more than one argument of the same type (in our case two strings) rather than having (got string, want string) you can shorten it to (got, want string) .
-_(source: coding_learn_go_with_tests_excerpt.pdf (source-range-f4b7154d-00089))_
+**Atom:** _(coding_learn_go_with_tests_excerpt.pdf (source-range-cb73a893-00026))_
 
+```
+$ go test
+go: cannot find main module; see 'go help modules'
+```
+
+### Technical frame 5: Hello, World / Go modules?
+
+**Context:** _(coding_learn_go_with_tests_excerpt.pdf (source-range-cb73a893-00029))_
+
+> This file tells the go tools essential information about your code. If you planned to distribute your application, you would include where the code was available for download as well as information about dependencies. The name of the module, example.com/hello, usually refers to a URL where the module can be found and downloaded. For compatibility with tools we'll start using soon, make sure your module's name has a dot somewhere in it, like the dot in .com of example.com/hello. For now, your mod
+
+**Atom:** _(coding_learn_go_with_tests_excerpt.pdf (source-range-cb73a893-00028))_
+
+```
+module example.com/hello
+go 1.16
+```
+
+### Technical frame 6: Hello, World / Go modules?
+
+**Context:** _(coding_learn_go_with_tests_excerpt.pdf (source-range-cb73a893-00027))_
+
+> What's the problem? In a word, modules. Luckily, the problem is easy to fix. Enter go mod init example.com/hello in your terminal. That will create a new file with the following contents:
+
+**Atom:** _(coding_learn_go_with_tests_excerpt.pdf (source-range-cb73a893-00029))_
+
+> To read more about modules, you can check out the reference in the Golang documentation.
+
+
+## Related pages
+
+- [[coding-learn-go-with-tests-excerpt-module]] - shared statements and technical atoms: Go modules? shares source evidence from Hello, World / Go modules?: The next step is to run the tests. Enter go test in your terminal. If the tests pass, then you are probably using an earlier version of Go. However, if you are using ... [truncated]; Go modules? shares technical record from Hello, World / Go modules?: $ go test go: cannot find main module; see 'go help modules' (9 shared statement(s), 3 shared atom(s))
+- [[coding-learn-go-with-tests-excerpt-how-test]] - shared statements and technical atoms: How to test shares source evidence from Hello, World / How to test: How do you test this? It is good to separate your "domain" code from the outside world (side-effects). The fmt.Println is a side effect (printing to stdout), and the ... [truncated]; How to test shares technical record from Hello, World / How to test: package main import "fmt" func Hello() string { return "Hello, world" } func main() { fmt.Println(Hello()) } (4 shared statement(s), 2 shared atom(s))
+- [[coding-learn-go-with-tests-excerpt-test]] - shared statements and technical atoms: Test shares source evidence from Hello, World / Go modules?: The next step is to run the tests. Enter go test in your terminal. If the tests pass, then you are probably using an earlier version of Go. However, if you are using ... [truncated]; Test shares technical record from Hello, World / Go modules?: $ go test go: cannot find main module; see 'go help modules' (2 shared statement(s), 1 shared atom(s))
+- [[coding-learn-go-with-tests-excerpt-code]] - shared statements: Code shares source evidence from Hello, World / Back to Testing: of the code you will write. Writing tests Writing a test is just like writing a function, with a few rules It needs to be in a file with a name like xxx_test.go The ... [truncated] (1 shared statement(s))
+- [[coding-learn-go-with-tests-excerpt-package]] - shared statements: Package shares source evidence from Hello, World / How it works: When you write a program in Go, you will have a main package defined with a main func inside it. Packages are ways of grouping up related Go code together. (1 shared statement(s))
+- [[coding-learn-go-with-tests-excerpt-section-hello-world-72ad81c1]] - source section: Hello, World shares source evidence from Hello, World: It is traditional for your first program in a new language to be Hello, World.; Hello, World shares technical record from Hello, World: package main import "fmt" func main() { fmt.Println("Hello, world") } (24 shared statement(s), 6 shared atom(s))
+- [[coding-learn-go-with-tests-excerpt-section-constants-hello-world-again-f51dc2d1]] - source section: Constants / Hello, world... again shares source evidence from Constants / Hello, world... again: The next requirement is when our function is called with an empty string it defaults to printing "Hello, World", rather than "Hello, ".; Constants / Hello, world... again shares technical record from Constants / Hello, world... again: func TestHello(t *testing.T) { t.Run("saying hello to people", func(t *testing.T) { got := Hello("Chris") want := "Hello, Chris" if got != want { t.Errorf("got %q wa ... [truncated] (17 shared statement(s), 6 shared atom(s))
 
 ## Source
 

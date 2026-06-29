@@ -3,10 +3,10 @@ page_id: rpg-cairn-2e-core-hireling
 page_kind: concept
 summary: Hirelings: 2 statement(s) and 4 atom(s) from raw/rpg_cairn_2e_core.pdf.
 sources: raw/rpg_cairn_2e_core.pdf
-updated: 2026-06-26
+updated: 2026-06-29
 domain: rpg-cairn-2e-core
 category_path: concepts
-projection_coverage: topic-rpg-cairn-2e-core-hireling@7661026d5ff9e9dcbd75dd0bfc3411e1
+projection_coverage: topic-rpg-cairn-2e-core-hireling@07fe91720ade62bf18b6c8699365e794
 ---
 
 # Hirelings
@@ -15,11 +15,19 @@ What [[rpg-cairn-2e-core]] covers about hirelings:
 
 ## Statements
 
+### Hirelings
+
 - Adventuring parties can recruit hirelings, relying on their unique skills, knowledge, and training to aid in expeditions. _(rpg_cairn_2e_core.pdf (source-range-ad2c341f-00197))_
-- Then roll for Rations, Gold Pieces, Attributes, HP , and age. _(rpg_cairn_2e_core.pdf (source-range-ad2c341f-00199))_
+
+- Alternatively, choose an appropriate background and name from the Character Creation guide. Roll (or choose from) the tables for that background. Then roll for Rations, Gold Pieces, Attributes, HP , and age. _(rpg_cairn_2e_core.pdf (source-range-ad2c341f-00199))_
+
 
 ## Technical atoms
 
+### Technical frame 1: Hirelings (per day)
+
+**Atom:** _(rpg_cairn_2e_core.pdf (source-range-ad2c341f-00419))_
+
 | Dagger, Cudgel, Sickle, Staﬀ, etc. (d6 damage) | 5 |
 | --- | --- |
 | Spear, Sword, Mace, Axe, Flail, etc. (d8 damage) | 10 |
@@ -42,7 +50,10 @@ What [[rpg-cairn-2e-core]] covers about hirelings:
 ```
 
 </details>
-_(source: rpg_cairn_2e_core.pdf (source-range-ad2c341f-00419))_
+
+### Technical frame 2: Hirelings (per day)
+
+**Atom:** _(rpg_cairn_2e_core.pdf (source-range-ad2c341f-00420))_
 
 | Room & Board (per night) | 10 |
 | --- | --- |
@@ -66,7 +77,10 @@ _(source: rpg_cairn_2e_core.pdf (source-range-ad2c341f-00419))_
 ```
 
 </details>
-_(source: rpg_cairn_2e_core.pdf (source-range-ad2c341f-00420))_
+
+### Technical frame 3: Hirelings (per day)
+
+**Atom:** _(rpg_cairn_2e_core.pdf (source-range-ad2c341f-00421))_
 
 | Shield (+1 Armor) | 10 |
 | --- | --- |
@@ -90,7 +104,10 @@ _(source: rpg_cairn_2e_core.pdf (source-range-ad2c341f-00420))_
 ```
 
 </details>
-_(source: rpg_cairn_2e_core.pdf (source-range-ad2c341f-00421))_
+
+### Technical frame 4: Hirelings (per day)
+
+**Atom:** _(rpg_cairn_2e_core.pdf (source-range-ad2c341f-00422))_
 
 | Cart (+4 slots, bulky) | 30 |
 | --- | --- |
@@ -114,8 +131,13 @@ _(source: rpg_cairn_2e_core.pdf (source-range-ad2c341f-00421))_
 ```
 
 </details>
-_(source: rpg_cairn_2e_core.pdf (source-range-ad2c341f-00422))_
 
+
+## Related pages
+
+- [[rpg-cairn-2e-core-day-watch-three]] - shared technical atoms: Day One / Watch Three shares technical record from Hirelings (per day): | Dagger, Cudgel, Sickle, Staﬀ, etc. (d6 damage) | 5 | | --- | --- | | Spear, Sword, Mace, Axe, Flail, etc. (d8 damage) | 10 | | Halberd, War Hammer, Long Sword, etc ... [truncated] (4 shared atom(s))
+- [[rpg-cairn-2e-core-day-watch-two]] - shared technical atoms: Day One / Watch Two shares technical record from Hirelings (per day): | Dagger, Cudgel, Sickle, Staﬀ, etc. (d6 damage) | 5 | | --- | --- | | Spear, Sword, Mace, Axe, Flail, etc. (d8 damage) | 10 | | Halberd, War Hammer, Long Sword, etc ... [truncated] (4 shared atom(s))
+- [[rpg-cairn-2e-core-section-hirelings-fbb614d6]] - source section: Hirelings shares source evidence from Hirelings: Adventuring parties can recruit hirelings, relying on their unique skills, knowledge, and training to aid in expeditions.; Hirelings shares technical record from Hirelings (per day): | Dagger, Cudgel, Sickle, Staﬀ, etc. (d6 damage) | 5 | | --- | --- | | Spear, Sword, Mace, Axe, Flail, etc. (d8 damage) | 10 | | Halberd, War Hammer, Long Sword, etc ... [truncated] (2 shared statement(s), 4 shared atom(s))
 
 ## Source
 
