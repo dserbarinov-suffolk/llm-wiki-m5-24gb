@@ -171,6 +171,36 @@ def test_document_model_segmentation_keeps_table_caption_as_atom_text_only() -> 
     assert inputs[0].segment.text.startswith("Table- Sample Matrix")
 
 
+def test_document_model_segmentation_does_not_cross_heading_path_into_recovered_table() -> None:
+    model = _model(
+        (
+            _element("e1", "heading", "Process Cycle", "Process Cycle", heading_level=2),
+            _element("e2", "list_item", "Process Cycle", "The operator describes the area."),
+            _element("e3", "list_item", "Process Cycle", "The party chooses one action."),
+            _element("e4", "list_item", "Process Cycle", "The cycle repeats."),
+            _element(
+                "e5",
+                "table",
+                "Event Results",
+                "Event Results\n1 Encounter\n2 Sign",
+            ),
+        )
+    )
+
+    inputs, _profiles = segment_document_model(
+        model, source_locator="generic.pdf", source_hash="j" * 64, schema=Schema()
+    )
+
+    assert [item.segment.segment_kind for item in inputs] == [
+        "heading",
+        "list",
+        "list",
+        "list",
+        "table-block",
+    ]
+    assert inputs[-1].segment.text == "Event Results\n1 Encounter\n2 Sign"
+
+
 def test_document_model_segmentation_groups_range_value_rows() -> None:
     model = _model(
         (

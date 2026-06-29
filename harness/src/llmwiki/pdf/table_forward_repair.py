@@ -51,36 +51,27 @@ def _row_texts(lines: tuple[TextLine, ...], include_leading_text: bool) -> tuple
     if len(markers) < 2:
         return ()
     marker_x = median(line.words[0].x0 for _index, line in markers)
-    label_x = median(line.words[1].x0 for _index, line in markers if len(line.words) >= 2)
-    description_x = _description_x(lines, markers, label_x)
     starts = tuple(
         _row_start(lines, markers, index, include_leading_text) for index in range(len(markers))
     )
     rows: list[str] = []
-    for marker_position, (_line_index, _marker_line) in enumerate(markers):
+    for marker_position, (_line_index, marker_line) in enumerate(markers):
         top = starts[marker_position]
         bottom = (
-            starts[marker_position + 1]
-            if marker_position + 1 < len(starts)
-            else _row_end(lines)
+            starts[marker_position + 1] if marker_position + 1 < len(starts) else _row_end(lines)
         )
-        words = tuple(
-            word
-            for line in lines
-            for word in line.words
-            if top <= word.cy < bottom
+        words = tuple(word for line in lines for word in line.words if top <= word.cy < bottom)
+        marker_words = tuple(
+            word for word in words if _marker_column_word(word.text, word.x0, marker_x)
         )
-        number = tuple(word for word in words if word.x0 < marker_x + 12.0)
-        label = tuple(
-            word for word in words if marker_x + 12.0 <= word.x0 < description_x - 8.0
-        )
-        description = tuple(word for word in words if word.x0 >= description_x - 8.0)
+        label = _marker_line_label(marker_line, words)
+        content = tuple(word for word in words if word not in marker_words and word not in label)
         row = " ".join(
             part
             for part in (
-                join_words(number),
+                marker_line.words[0].text,
                 join_words(label),
-                join_words(description),
+                join_words(content),
             )
             if part
         )
@@ -121,35 +112,30 @@ def _line_delta_threshold(lines: tuple[TextLine, ...]) -> float:
     return median(heights) + 3.0
 
 
-def _description_x(
-    lines: tuple[TextLine, ...], markers: tuple[tuple[int, TextLine], ...], label_x: float
-) -> float:
-    marker_indices = {index for index, _line in markers}
-    candidates: list[float] = []
-    for index, line in enumerate(lines):
-        if index not in marker_indices and line.words and line.words[0].x0 > label_x + 30.0:
-            candidates.append(line.words[0].x0)
-            continue
-        candidates.extend(_description_starts_on_marker_line(line, label_x))
-    if candidates:
-        return min(candidates)
-    return label_x + 90.0
-
-
-def _description_starts_on_marker_line(line: TextLine, label_x: float) -> tuple[float, ...]:
-    if not _row_marker_line(line) or len(line.words) < 3:
-        return ()
-    starts: list[float] = []
-    previous: WordBox | None = None
-    for word in line.words[2:]:
-        if previous is not None and word.x0 - previous.x1 > 18.0 and word.x0 > label_x + 30.0:
-            starts.append(word.x0)
-        previous = word
-    return tuple(starts)
-
-
 def _row_marker_line(line: TextLine) -> bool:
-    return len(line.words) >= 2 and bool(_ROW_MARKER.fullmatch(line.words[0].text.strip()))
+    return bool(line.words) and bool(_ROW_MARKER.fullmatch(line.words[0].text.strip()))
+
+
+def _marker_column_word(text: str, x0: float, marker_x: float) -> bool:
+    return bool(_ROW_MARKER.fullmatch(text.strip())) and abs(x0 - marker_x) <= 12.0
+
+
+def _marker_line_label(line: TextLine, row_words: tuple[WordBox, ...]) -> tuple[WordBox, ...]:
+    if len(line.words) == 2:
+        candidate = line.words[1]
+        if any(word not in line.words and word.x0 - candidate.x1 > 18.0 for word in row_words):
+            return (candidate,)
+        return ()
+    if len(line.words) < 3:
+        return ()
+    label = [line.words[1]]
+    previous = line.words[1]
+    for word in line.words[2:]:
+        if word.x0 - previous.x1 > 18.0:
+            return tuple(label)
+        label.append(word)
+        previous = word
+    return ()
 
 
 def _looks_like_section_heading(line: TextLine) -> bool:

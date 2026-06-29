@@ -6,7 +6,7 @@ sources: raw/history_short_history_of_england.pdf
 updated: 2026-06-29
 domain: history-short-history-of-england
 category_path: concepts
-projection_coverage: topic-history-short-history-of-england-war-republic@db70014fb564577e3a8a62b194d7d718
+projection_coverage: topic-history-short-history-of-england-war-republic@2f92dcf91525ee47d27e4be68819ebf3
 ---
 
 # THE WAR WITH THE GREAT REPUBLICS
@@ -44,10 +44,12 @@ What [[history-short-history-of-england]] covers about the war with the great re
 
 - [[history-short-history-of-england-short-history-england]] - shared statements: A SHORT HISTORY OF ENGLAND [Pg 1] shares source evidence from A SHORT HISTORY OF ENGLAND [Pg 1] / XV / THE WAR WITH THE GREAT REPUBLICS: It is one of the many quaint perversities of the English to pretend to be bad speakers; but in fact the most English eighteenth-century epoch blazed with brilliant s ... [truncated] (101 shared statement(s))
 - [[history-short-history-of-england-france]] - shared statements: France shares source evidence from A SHORT HISTORY OF ENGLAND [Pg 1] / XV / THE WAR WITH THE GREAT REPUBLICS: with it-or (if the view be preferred) it instantly waged two great wars with them. America and France revealed the real nature of the English Parliament. Ice may spa ... [truncated] (3 shared statement(s))
+- [[history-short-history-of-england-century]] - shared statements: Century shares source evidence from A SHORT HISTORY OF ENGLAND [Pg 1] / XV / THE WAR WITH THE GREAT REPUBLICS: It is one of the many quaint perversities of the English to pretend to be bad speakers; but in fact the most English eighteenth-century epoch blazed with brilliant s ... [truncated] (1 shared statement(s))
 - [[history-short-history-of-england-england]] - shared statements: England shares source evidence from A SHORT HISTORY OF ENGLAND [Pg 1] / XV / THE WAR WITH THE GREAT REPUBLICS: Roughly and frankly speaking, we may say that America forced the quarrel. She wished to be separate, which was to her but another phrase for wishing to be free. She ... [truncated] (1 shared statement(s))
 - [[history-short-history-of-england-english]] - shared statements: English shares source evidence from A SHORT HISTORY OF ENGLAND [Pg 1] / XV / THE WAR WITH THE GREAT REPUBLICS: pampered the power which was destined in the future to devour Belgium as France would never have devoured it, and threaten us across the sea with terrors of which no ... [truncated] (1 shared statement(s))
 - [[history-short-history-of-england-history]] - shared statements: History shares source evidence from A SHORT HISTORY OF ENGLAND [Pg 1] / XV / THE WAR WITH THE GREAT REPUBLICS: Great injustice is done to the English aristocratic government of the time through a failure to realize this fundamental difference, especially in the case of Americ ... [truncated] (1 shared statement(s))
 - [[history-short-history-of-england-king]] - shared statements: King shares source evidence from A SHORT HISTORY OF ENGLAND [Pg 1] / XV / THE WAR WITH THE GREAT REPUBLICS: Great injustice is done to the English aristocratic government of the time through a failure to realize this fundamental difference, especially in the case of Americ ... [truncated] (1 shared statement(s))
+- [[history-short-history-of-england-revolution]] - shared statements: Revolution shares source evidence from A SHORT HISTORY OF ENGLAND [Pg 1] / XV / THE WAR WITH THE GREAT REPUBLICS: with it-or (if the view be preferred) it instantly waged two great wars with them. America and France revealed the real nature of the English Parliament. Ice may spa ... [truncated] (1 shared statement(s))
 - [[history-short-history-of-england-section-a-short-history-of-england-pg-1-xv-the-war-with-the-great-republics-2bf08a6d]] - source section: A SHORT HISTORY OF ENGLAND [Pg 1] / XV / THE WAR WITH THE GREAT REPUBLICS shares source evidence from A SHORT HISTORY OF ENGLAND [Pg 1] / XV / THE WAR WITH THE GREAT REPUBLICS: It is one of the many quaint perversities of the English to pretend to be bad speakers; but in fact the most English eighteenth-century epoch blazed with brilliant s ... [truncated] (101 shared statement(s))
 
 ## Source

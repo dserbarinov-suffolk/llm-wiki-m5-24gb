@@ -6,7 +6,7 @@ sources: raw/history_short_history_of_england.pdf
 updated: 2026-06-29
 domain: history-short-history-of-england
 category_path: concepts
-projection_coverage: topic-history-short-history-of-england-defeat-barbarian@f2565bc1645de1c3b724528ed04cdab1
+projection_coverage: topic-history-short-history-of-england-defeat-barbarian@1a1f13b9a7e708dfb0bdaa1b2af72d76
 ---
 
 # THE DEFEAT OF THE BARBARIANS
@@ -47,6 +47,7 @@ What [[history-short-history-of-england]] covers about the defeat of the barbari
 - [[history-short-history-of-england-short-history-england]] - shared statements: A SHORT HISTORY OF ENGLAND [Pg 1] shares source evidence from A SHORT HISTORY OF ENGLAND [Pg 1] / IV / THE DEFEAT OF THE BARBARIANS: It is a quaint accident that we employ the word "short-sighted" as a condemnation; but not the word "long-sighted," which we should probably use, if at all, as a com ... [truncated] (94 shared statement(s))
 - [[history-short-history-of-england-king]] - shared statements: King shares source evidence from A SHORT HISTORY OF ENGLAND [Pg 1] / IV / THE DEFEAT OF THE BARBARIANS: With him or his converts the chain of literary testimony is taken up again; and we must look at the world as they saw it. He found a king ruling in Kent, beyond whos ... [truncated] (5 shared statement(s))
 - [[history-short-history-of-england-history]] - shared statements: History shares source evidence from A SHORT HISTORY OF ENGLAND [Pg 1] / IV / THE DEFEAT OF THE BARBARIANS: With him or his converts the chain of literary testimony is taken up again; and we must look at the world as they saw it. He found a king ruling in Kent, beyond whos ... [truncated] (3 shared statement(s))
+- [[history-short-history-of-england-century]] - shared statements: Century shares source evidence from A SHORT HISTORY OF ENGLAND [Pg 1] / IV / THE DEFEAT OF THE BARBARIANS: or wrongly, the Christian Church had from the first dealt with these visions as being special spiritual adventures which were to the adventurous. She reconciled them ... [truncated] (2 shared statement(s))
 - [[history-short-history-of-england-england]] - shared statements: England shares source evidence from A SHORT HISTORY OF ENGLAND [Pg 1] / IV / THE DEFEAT OF THE BARBARIANS: or wrongly, the Christian Church had from the first dealt with these visions as being special spiritual adventures which were to the adventurous. She reconciled them ... [truncated] (2 shared statement(s))
 - [[history-short-history-of-england-english]] - shared statements: English shares source evidence from A SHORT HISTORY OF ENGLAND [Pg 1] / IV / THE DEFEAT OF THE BARBARIANS: With him or his converts the chain of literary testimony is taken up again; and we must look at the world as they saw it. He found a king ruling in Kent, beyond whos ... [truncated] (1 shared statement(s))
 - [[history-short-history-of-england-people]] - shared statements: People shares source evidence from A SHORT HISTORY OF ENGLAND [Pg 1] / IV / THE DEFEAT OF THE BARBARIANS: I know of no way in which fair-haired people can be prevented from falling in love with dark-haired people; and I do not believe that whether a man was long-headed o ... [truncated] (1 shared statement(s))

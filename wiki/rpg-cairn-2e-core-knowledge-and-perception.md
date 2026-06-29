@@ -1,12 +1,12 @@
 ---
 page_id: rpg-cairn-2e-core-knowledge-and-perception
 page_kind: concept
-summary: Knowledge And Perception: 0 statement(s) and 6 atom(s) from raw/rpg_cairn_2e_core.pdf.
+summary: Knowledge And Perception: 25 statement(s) and 7 atom(s) from raw/rpg_cairn_2e_core.pdf.
 sources: raw/rpg_cairn_2e_core.pdf
 updated: 2026-06-29
 domain: rpg-cairn-2e-core
 category_path: concepts
-projection_coverage: topic-rpg-cairn-2e-core-knowledge-and-perception@a5354ef2039dc85d9cb5b59fe124a28d
+projection_coverage: topic-rpg-cairn-2e-core-knowledge-and-perception@c9c6f787dbd9a3b70514d82e1773236c
 ---
 
 # Knowledge And Perception
@@ -15,207 +15,119 @@ What [[rpg-cairn-2e-core]] covers about knowledge and perception:
 
 ## Statements
 
+### Knowledge And Perception / Introduction
+
+- Cairn differs from many modern roleplaying games by not including mechanics for knowledge or expertise. Instead, it is assumed that a character has the necessary knowledge so long as it can be justified in the fiction. Similarly, there are no mechanics that govern a character's perception or ability to "detect" important details in their environment. Instead, the Warden should provide unlimited relevant information about every detail a character can perceive with their basic senses. _(rpg_cairn_2e_core.pdf (source-range-9b4fff26-00575))_
+
+### Knowledge And Perception / Knowledge
+
+- Character knowledge is limited only by what can be explained by elements in the fiction. If it is known that a PC comes from an impoverished background and learned how to survive by any means necessary, then their player may argue that their character is better able to track down a notable NPC hiding in the slums. They may know whom to speak to and what sorts of trades might be required to collect the information they need about their target's whereabouts. _(rpg_cairn_2e_core.pdf (source-range-9b4fff26-00577))_
+
+- If a character has no justifiable knowledge of a subject, then they simply do not know anything about it! However, the Warden may decide to roll the Die of Fate to determine if the character has a chance of knowing something . The higher the result, the more they might (reasonably) know. _(rpg_cairn_2e_core.pdf (source-range-9b4fff26-00578))_
+
+### Knowledge And Perception / Knowledge / Relics
+
+- When a character first acquires a Relic they are not familiar with, they can either spend time learning more about it (using a Downtime action) or experiment with it. The latter carries some dangers and may even require a successful WIL save to avoid negative consequences. However, it is often more interesting to allow the player to ask as many questions as they like about it and (eventually) to simply tell them how it works . _(rpg_cairn_2e_core.pdf (source-range-9b4fff26-00580))_
+
+### Knowledge And Perception / Perception
+
+- When informing the players of what their PCs can perceive, the Warden should provide maximal sensory information pertaining to the objects, characters, dangers, and interactive elements in the given situation. Consider what can be gained by limiting what the PCs know or do not know. Do secrets help create interesting choices and decision points? Do they raise interesting questions? Do they give the players a sense of control over their own actions? The answer to these questions is almost always an emphatic No . _(rpg_cairn_2e_core.pdf (source-range-9b4fff26-00582))_
+
+- Players should feel that the consequences of their character's actions are earned , and that they are deserved , even if the results aren't always in their favor. True agency comes from providing the players with everything they need to know to make an interesting decision, even if that is simply asking a question about what their character might perceive. _(rpg_cairn_2e_core.pdf (source-range-9b4fff26-00583))_
+
+- A colony of bees furiously circles a massive hive hanging from the branch of a large oak tree. A man observes in the shadows beneath the tree, and a rusted sword lies on the ground not far from the tree. _(rpg_cairn_2e_core.pdf (source-range-9b4fff26-00585))_
+
+- Bees : Their buzzing is nearly deafening, creating a wall of sound around the tree. _(rpg_cairn_2e_core.pdf (source-range-9b4fff26-00586))_
+
+- The hive is dripping with honey. It is delicious, and mundane. _(rpg_cairn_2e_core.pdf (source-range-9b4fff26-00587))_
+
+- Any attempt to take honey from the hive is met with an aggressive response from the colony [3 HP , 3 STR, 12 DEX, 4 WIL, sting (d6), detachment ]. _(rpg_cairn_2e_core.pdf (source-range-9b4fff26-00588))_
+
+- Man : Leans against a long staff, his gaze fixed on the hive. He appears unfazed by the swarm. _(rpg_cairn_2e_core.pdf (source-range-9b4fff26-00589))_
+
+- The man is a magical illusion created by the beekeeper as a means to drive away any potential predators. He will not react to any direct stimuli. _(rpg_cairn_2e_core.pdf (source-range-9b4fff26-00590))_
+
+- If the hive is damaged in any way, the man will scream very loudly, then disappear. _(rpg_cairn_2e_core.pdf (source-range-9b4fff26-00591))_
+
+- In this example, there are three potential dangers: the bees, the man, and the Bloodvine plant. The danger from bees is more obvious, as the PCs can clearly see the danger and are familiar with bees already. The man is an unknown entity and could be friend or foe, while the Bloodvines are hidden and act as a sort of trap. The Warden should therefore communicate exactly what the PCs can see, hear, and smell. _(rpg_cairn_2e_core.pdf (source-range-9b4fff26-00595))_
+
+- The PCs will likely try to interact with the man first or perhaps ask questions about the sword, as these are both fairly passive ways to engage with the scene. When the PCs realize that the man does not respond, they may try to get a closer look or perhaps toss a rock in his direction (avoiding the hive), and so on. If the PCs ask questions about the sword or try to interact with it, the Warden should tell them about the shoe prints in the grass right away. _(rpg_cairn_2e_core.pdf (source-range-9b4fff26-00596))_
+
+- If the PCs decide to engage with the bee hive, the Warden should "warn" them with a hint of some kind: the bees begin to fly in a more aggressive manner, or the noise they create gets louder, and so on. It is up to the players whether to ignore the clues in front of them and continue, or to stop and ask questions. _(rpg_cairn_2e_core.pdf (source-range-9b4fff26-00597))_
+
 
 ## Technical atoms
 
-### Technical frame 1: Bonds
+### Technical frame 1: Knowledge And Perception / Introduction
 
-**Atom:** _(rpg_cairn_2e_core.pdf (source-range-ad2c341f-00128))_
+**Atom:** _(rpg_cairn_2e_core.pdf (source-range-9b4fff26-00575))_
 
-| entry | content |
-| --- | --- |
-| 1 | You inherited a Single Gem (500gp, cold and brittle) from a long-dead relative. It arrived with a warning: squander your newfound riches, and a debt long thought forgotten would be called in. |
-| 2 | A distant cousin left you a small inheritance. Take 20Gp and a Strange Compass ( petty ) that always points towards something deep in the Wood. |
-| 3 | You carry a Portrait in a locket ( petty ) of a past love who disappeared into the Wood long ago. Somehow you know that they are still alive. You found a Tiny Crystal Prism ( petty ) buried in the dirt. |
-| 4 | When held up to the light, it shows visions of an unknown location deep within the Wood. Sometimes you feel a presence looking back at you. |
-| 5 | You once freed a Naiad from a choked stream. In return, it gave you some Silver Moss (petty). Swallow it near water, and the creature will come, once, to repay its debt. |
-| 6 | You inherited an old Journal , bound in bark. Each evening, its pages are filled with the events of the day, crassly written from the journal's perspective. The writing is crude but accurate. |
+> Instead, the Warden should provide unlimited relevant information about every detail a character can perceive with their basic senses.
 
-<details>
-<summary>Raw table text</summary>
+### Technical frame 2: Knowledge And Perception / Knowledge / Relics
 
-```
-D20 Bond
-1 You	inherited	a Single	Gem (500gp,	cold	and	brittle)	from	a long-dead	relative.	It	arrived	with	a	warning:	squander	your newfound	riches,	and	a	debt	long	thought	forgotten	would	be called	in.
-2 A	distant	cousin	left	you	a	small	inheritance.	Take 20Gp and	a Strange	Compass ( petty )	that	always	points	towards something	deep	in	the	Wood.
-3 You	carry	a Portrait in	a	locket	( petty )	of	a	past	love	who disappeared	into	the	Wood	long	ago.	Somehow	you	know	that they	are	still	alive.
-You	found	a Tiny	Crystal	Prism ( petty )	buried	in	the	dirt.
-4 When	held	up	to	the	light,	it	shows	visions	of	an	unknown location	deep	within	the	Wood.	Sometimes	you	feel	a presence	looking	back	at	you.
-You	once	freed	a	Naiad	from	a	choked	stream.	In	return,	it
-5 gave	you	some Silver	Moss (petty).	Swallow	it	near	water, and	the	creature	will	come,	once,	to	repay	its	debt.
-You	inherited	an	old Journal ,	bound	in	bark.	Each	evening,	its
-6 pages	are	filled	with	the	events	of	the	day,	crassly	written from	the	journal's	perspective.	The	writing	is	crude	but accurate.
-```
+**Atom:** _(rpg_cairn_2e_core.pdf (source-range-9b4fff26-00580))_
 
-</details>
+> When a character first acquires a Relic they are not familiar with, they can either spend time learning more about it (using a Downtime action) or experiment with it.
 
-### Technical frame 2: Bonds
+### Technical frame 3: Knowledge And Perception / Perception
 
-**Atom:** _(rpg_cairn_2e_core.pdf (source-range-ad2c341f-00131))_
+**Context:** _(rpg_cairn_2e_core.pdf (source-range-9b4fff26-00583))_
 
-| entry | content |
-| --- | --- |
-| 7 | Ancient Key ( petty ). They say that if joined with its twin, it opens a Gate through any door. |
-| 8 | You received a Letter ( petty ) detailing incontrovertible proof that your true parentage is that of Fae nobility. The note also indicates a date and location where you are to meet the letter's author, deep in the the Wood. |
-| 9 | You owe a great debt to a member of the nobility and carry their Signet Ring ( petty ), which serves as proof of their protection as well as your obligation. You consumed a Mischievous Spirit that wreaks havoc on your insides, demanding to be taken home, deep in the Wood. |
-| 10 | It occupies one slot but absorbs one Fatigue each day. It wants you alive (for now). |
-| 11 | A roaming storyteller once spun you tales of great treasure hidden deep in the Wood. You thought it naught but fancy, till they gave you A Rolled-Up Map ( petty ) marked with an X. |
+> Players should feel that the consequences of their character's actions are earned , and that they are deserved , even if the results aren't always in their favor. True agency comes from providing the players with everything they need to know to make an interesting decision, even if that is simply asking a question about what their character might perceive.
 
-<details>
-<summary>Raw table text</summary>
+**Atom:** _(rpg_cairn_2e_core.pdf (source-range-9b4fff26-00582))_
 
-```
-7 Ancient	Key ( petty ).	They	say	that	if	joined	with	its	twin,	it opens	a Gate through	any	door.
-8 You	received	a Letter ( petty )	detailing	incontrovertible	proof that	your	true	parentage	is	that	of	Fae	nobility.	The	note	also indicates	a	date	and	location	where	you	are	to	meet	the letter's	author,	deep	in	the	the	Wood.
-You	owe	a	great	debt	to	a	member	of	the	nobility	and	carry
-9 their Signet	Ring ( petty ),	which	serves	as	proof	of	their protection	as	well	as	your	obligation.
-You	consumed	a Mischievous	Spirit that	wreaks	havoc	on your	insides,	demanding	to	be	taken	home,	deep	in	the	Wood.
-10 It	occupies	one	slot	but	absorbs	one Fatigue each	day.	It wants	you	alive	(for	now).
-A	roaming	storyteller	once	spun	you	tales	of	great	treasure
-11 hidden	deep	in	the	Wood.	You	thought	it	naught	but	fancy,	till they	gave	you A	Rolled-Up	Map ( petty )	marked	with	an	X.
-```
+> When informing the players of what their PCs can perceive, the Warden should provide maximal sensory information pertaining to the objects, characters, dangers, and interactive elements in the given situation.
 
-</details>
+### Technical frame 4: Knowledge And Perception / Perception
 
-### Technical frame 3: Omens
+**Context:** _(rpg_cairn_2e_core.pdf (source-range-9b4fff26-00585))_
 
-**Atom:** _(rpg_cairn_2e_core.pdf (source-range-ad2c341f-00144))_
+> A colony of bees furiously circles a massive hive hanging from the branch of a large oak tree. A man observes in the shadows beneath the tree, and a rusted sword lies on the ground not far from the tree.
 
-| entry | content |
-| --- | --- |
-| 1 | The once rich waters of a life-giving river have turned black and putrid, tainting the land and sickening those who drink from it. A village elder points to some recent desecration as the cause, but most do not heed their words. It feels like winter has arrived too quickly this year, frost and |
-| 2 | snows making their appearance much earlier than expected. There is talk of a pattern to the frost found in windows, ponds, and cracks in the ground. It almost looks like a map. |
+**Atom:** _(rpg_cairn_2e_core.pdf (source-range-9b4fff26-00583))_
 
-<details>
-<summary>Raw table text</summary>
+> Players should feel that the consequences of their character's actions are earned , and that they are deserved , even if the results aren't always in their favor.
 
-```
-d20 Omen
-1 The	once	rich	waters	of	a	life-giving	river	have	turned	black and	putrid,	tainting	the	land	and	sickening	those	who	drink from	it.	A	village	elder	points	to	some	recent	desecration	as the	cause,	but	most	do	not	heed	their	words. It	feels	like	winter	has	arrived	too	quickly	this	year,	frost	and
-2 snows	making	their	appearance	much	earlier	than	expected. There	is	talk	of	a	pattern	to	the	frost	found	in	windows,	ponds, and	cracks	in	the	ground.	It	almost	looks	like	a	map.
-```
+### Technical frame 5: Knowledge And Perception / Perception
 
-</details>
+**Context:** _(rpg_cairn_2e_core.pdf (source-range-9b4fff26-00595))_
 
-### Technical frame 4: Omens
+> In this example, there are three potential dangers: the bees, the man, and the Bloodvine plant. The danger from bees is more obvious, as the PCs can clearly see the danger and are familiar with bees already. The man is an unknown entity and could be friend or foe, while the Bloodvines are hidden and act as a sort of trap. The Warden should therefore communicate exactly what the PCs can see, hear, and smell.
 
-**Atom:** _(rpg_cairn_2e_core.pdf (source-range-ad2c341f-00157))_
+**Atom:** _(rpg_cairn_2e_core.pdf (source-range-9b4fff26-00593))_
 
-| entry | content |
-| --- | --- |
-| 6 | region, sparking a "gold rush" of sorts for jewelers and thieves alike. The locals believe they are the tears of the earth itself, weeping for a great tragedy yet to come. |
-| 7 | Swarming pests gnaw away at the edges of dreams, and farmers speak of a loud buzzing sound emanating from deep within the Wood. They also say that the sound is getting closer. There is a village known far and wide for its impressive "mother tree," said to shelter the town's secrets in its boughs. |
-| 8 | Recently it has begun bleeding red sap, worrying the elders. |
+> - The weapon belongs to the skeleton buried just beneath the earth. It is a regular short sword (d6), strangely preserved.
 
-<details>
-<summary>Raw table text</summary>
+### Technical frame 6: Knowledge And Perception / Perception
 
-```
-6 region,	sparking	a	"gold	rush"	of	sorts	for	jewelers	and	thieves alike.	The	locals	believe	they	are	the	tears	of	the	earth	itself, weeping	for	a	great	tragedy	yet	to	come.
-Swarming	pests	gnaw	away	at	the	edges	of	dreams,	and
-7 farmers	speak	of	a	loud	buzzing	sound	emanating	from	deep within	the	Wood.	They	also	say	that	the	sound	is	getting closer.
-There	is	a	village	known	far	and	wide	for	its	impressive "mother	tree,"	said	to	shelter	the	town's	secrets	in	its	boughs.
-8 Recently	it	has	begun	bleeding	red	sap,	worrying	the	elders.
-```
+**Context:** _(rpg_cairn_2e_core.pdf (source-range-9b4fff26-00597))_
 
-</details>
+> If the PCs decide to engage with the bee hive, the Warden should "warn" them with a hint of some kind: the bees begin to fly in a more aggressive manner, or the noise they create gets louder, and so on. It is up to the players whether to ignore the clues in front of them and continue, or to stop and ask questions.
 
-### Technical frame 5: Omens
+**Atom:** _(rpg_cairn_2e_core.pdf (source-range-9b4fff26-00596))_
 
-**Atom:** _(rpg_cairn_2e_core.pdf (source-range-ad2c341f-00163))_
+> When the PCs realize that the man does not respond, they may try to get a closer look or perhaps toss a rock in his direction (avoiding the hive), and so on.
 
-| entry | content |
-| --- | --- |
-| 10 | swirling vortex of light and color. Some say that the divide between realms is at its weakest in centuries and fear what may emerge from the other side. |
-| 11 | A night-blooming flower once thought extinct is sprouting up throughout the Wood. Its scent is intoxicating but also causes vivid nightmares. |
-| 12 | Local livestock have grown increasingly agitated and unmanageable as of late. An old shepherd says it is due to an unsettling howl that emanates from the Wood each full moon. |
-| 13 | Swarms of insects are fleeing from the Wood in droves, destroying any wooden structures they come across. The sound of their wings hum a familiar tune as they pass overhead, like a forgotten nursery rhyme. Hunters talk of a curse that befalls any who kill a beast with a streak of white fur: soon after, they are found dead in their |
-| 14 | homes. Each day, there are fewer and fewer creatures to hunt. |
-| 15 | Folks say that a faint laughter can be heard echoing out of wells all over the city, and that the echoes change to sobs at night. |
-| 16 | The constellations have slowly started shifting in the night sky, forming unfamiliar patterns that have stargazers and sages perplexed. Even the animals seem disturbed. |
-| 17 | An ancient tree at the heart of a sleepy village has suddenly withered and died, despite showing no signs of disease. After its trunk was cut, a bloody hand was found in its core. |
-| 18 | Statues have been weeping blood for months on end, and the wombs of the village have lain barren since. A single child has been the only exception, hidden away by elders overcome with fear and dread. |
-| 19 | The local fauna is behaving oddly, displaying heightened aggression or fleeing the area entirely. Hunters talk of a shadowy figure that roams the Wood, calling to the animals. |
+### Technical frame 7: Knowledge And Perception / Perception
 
-<details>
-<summary>Raw table text</summary>
+**Context:** _(rpg_cairn_2e_core.pdf (source-range-9b4fff26-00596))_
 
-```
-10 swirling	vortex	of	light	and	color.	Some	say	that	the	divide between	realms	is	at	its	weakest	in	centuries	and	fear	what may	emerge	from	the	other	side.
-A	night-blooming	flower	once	thought	extinct	is	sprouting	up
-11 throughout	the	Wood.	Its	scent	is	intoxicating	but	also	causes vivid	nightmares.
-12 Local	livestock	have	grown	increasingly	agitated	and unmanageable	as	of	late.	An	old	shepherd	says	it	is	due	to	an unsettling	howl	that	emanates	from	the	Wood	each	full	moon.
-Swarms	of	insects	are	fleeing	from	the	Wood	in	droves,
-13 destroying	any	wooden	structures	they	come	across.	The sound	of	their	wings	hum	a	familiar	tune	as	they	pass overhead,	like	a	forgotten	nursery	rhyme.
-Hunters	talk	of	a	curse	that	befalls	any	who	kill	a	beast	with	a streak	of	white	fur:	soon	after,	they	are	found	dead	in	their
-14 homes.	Each	day,	there	are	fewer	and	fewer	creatures	to	hunt.
-Folks	say	that	a	faint	laughter	can	be	heard	echoing	out	of
-15 wells	all	over	the	city,	and	that	the	echoes	change	to	sobs	at night.
-The	constellations	have	slowly	started	shifting	in	the	night
-16 sky,	forming	unfamiliar	patterns	that	have	stargazers	and sages	perplexed.	Even	the	animals	seem	disturbed.
-An	ancient	tree	at	the	heart	of	a	sleepy	village	has	suddenly
-17 withered	and	died,	despite	showing	no	signs	of	disease.	After its	trunk	was	cut,	a	bloody	hand	was	found	in	its	core.
-Statues	have	been	weeping	blood	for	months	on	end,	and	the
-18 wombs	of	the	village	have	lain	barren	since.	A	single	child	has been	the	only	exception,	hidden	away	by	elders	overcome	with
-fear	and	dread.
-19 The	local	fauna	is	behaving	oddly,	displaying	heightened aggression	or	fleeing	the	area	entirely.	Hunters	talk	of	a shadowy	figure	that	roams	the	Wood,	calling	to	the	animals.
-```
+> The PCs will likely try to interact with the man first or perhaps ask questions about the sword, as these are both fairly passive ways to engage with the scene. When the PCs realize that the man does not respond, they may try to get a closer look or perhaps toss a rock in his direction (avoiding the hive), and so on. If the PCs ask questions about the sword or try to interact with it, the Warden should tell them about the shoe prints in the grass right away.
 
-</details>
+**Atom:** _(rpg_cairn_2e_core.pdf (source-range-9b4fff26-00597))_
 
-### Technical frame 6: Scars Table
-
-**Atom:** _(rpg_cairn_2e_core.pdf (source-range-ad2c341f-00239))_
-
-| entry | content |
-| --- | --- |
-| 2 | Rattling Blow: You're disoriented and shaken. Describe how you refocus. Roll 1d6. If the total is higher than your max HP , take the new result. |
-| 3 | Walloped: You're sent flying and land flat on your face, winded. You are deprived until you rest for a few hours. Then, roll 1d6. Add that amount to your max HP . |
-| 4 | Broken Limb: Roll 1d6. 1-2: Leg, 3-4: Arm, 5: Rib, 6: Skull. Once mended, roll 2d6. If the total is higher than your max HP, take the new result. |
-| 5 | Diseased: You're afflicted with a gross, uncomfortable infection. When you get over it, roll 2d6. If the total is higher than your max HP , take the new result. |
-| 6 | Reorienting Head Wound: Roll 1d6. 1-2: STR, 3-4: DEX, 5-6: WIL. Roll 3d6. If the total is higher than your current attribute, take the new result. |
-| 7 | Hamstrung: You can barely move until you get serious help and rest. After recovery, roll 3d6. If the total is higher than your max DEX, take the new result. |
-| 8 | Deafened: You cannot hear anything until you find extraordinary aid. Regardless, make a WIL save. If you pass, increase your max WIL by 1d4. |
-| 9 | Re-brained: Some hidden part of your psyche is knocked loose. Roll 3d6. If the total is higher than your max WIL, take the new result. |
-| 10 | Sundered: An appendage is torn off, crippled, or useless. (The Warden will tell you which.) Then make a WIL save. If you pass, increase your max WIL by 1d6. |
-| 11 | Mortal Wound: You are deprived and out of action. You die in one hour unless healed. Upon recovery, roll 2d6. Take the new result as your max HP . |
-| 12 | Doomed: Death seemed ever so close, but somehow you survived. If your next save against critical damage is a fail, you die horribly. If you pass, roll 3d6. If the total is higher than your max HP , take the new result. |
-
-<details>
-<summary>Raw table text</summary>
-
-```
-HP Lost Result
-take	the	new	result.
-2 Rattling	Blow:	You're	disoriented	and	shaken.	Describe	how you	refocus.	Roll	1d6.	If	the	total	is	higher	than	your	max	HP , take	the	new	result.
-Walloped:	You're	sent	flying	and	land	flat	on	your	face,
-3 winded.	You	are	deprived	until	you	rest	for	a	few	hours.	Then, roll	1d6.	Add	that	amount	to	your	max	HP .
-Broken	Limb:	Roll	1d6.	1-2:	Leg,	3-4:	Arm,	5:	Rib,	6:	Skull.
-4 Once	mended,	roll	2d6.	If	the	total	is	higher	than	your	max HP,	take	the	new	result.
-5 Diseased:	You're	afflicted	with	a	gross,	uncomfortable infection.	When	you	get	over	it,	roll	2d6.	If	the	total	is	higher than	your	max	HP ,	take	the	new	result.
-6 Reorienting	Head	Wound:	Roll	1d6.	1-2:	STR,	3-4:	DEX,	5-6: WIL.	Roll	3d6.	If	the	total	is	higher	than	your	current attribute,	take	the	new	result.
-7 Hamstrung:	You	can	barely	move	until	you	get	serious	help and	rest.	After	recovery,	roll	3d6.	If	the	total	is	higher	than your	max	DEX,	take	the	new	result.
-8 Deafened:	You	cannot	hear	anything	until	you	find extraordinary	aid.	Regardless,	make	a	WIL	save.	If	you	pass, increase	your	max	WIL	by	1d4.
-9 Re-brained:	Some	hidden	part	of	your	psyche	is	knocked loose.	Roll	3d6.	If	the	total	is	higher	than	your	max	WIL,	take the	new	result.
-10 Sundered:	An	appendage	is	torn	off,	crippled,	or	useless.	(The Warden	will	tell	you	which.)	Then	make	a	WIL	save.	If	you pass,	increase	your	max	WIL	by	1d6.
-11 Mortal	Wound:	You	are	deprived	and	out	of	action.	You	die	in one	hour	unless	healed.	Upon	recovery,	roll	2d6.	Take	the new	result	as	your	max	HP .
-Doomed:	Death	seemed	ever	so	close,	but	somehow	you
-12 survived.	If	your	next	save	against	critical	damage	is	a	fail, you	die	horribly.	If	you	pass,	roll	3d6.	If	the	total	is	higher than	your	max	HP ,	take	the	new	result.
-```
-
-</details>
+> If the PCs decide to engage with the bee hive, the Warden should "warn" them with a hint of some kind: the bees begin to fly in a more aggressive manner, or the noise they create gets louder, and so on.
 
 
 ## Related pages
 
-- [[rpg-cairn-2e-core-bond-and-omen]] - shared technical atoms: Bonds and Omens shares technical record from Bonds: D20 Bond 1 You	inherited	a Single	Gem (500gp,	cold	and	brittle)	from	a long-dead	relative.	It	arrived	with	a	warning:	squander	your newfound	riches,	and	a	debt	long ... [truncated] (5 shared atom(s))
-- [[rpg-cairn-2e-core-omen]] - shared technical atoms: Omens shares technical record from Omens: d20 Omen 1 The	once	rich	waters	of	a	life-giving	river	have	turned	black and	putrid,	tainting	the	land	and	sickening	those	who	drink from	it.	A	village	elder	points ... [truncated] (3 shared atom(s))
-- [[rpg-cairn-2e-core-omen-should]] - shared technical atoms: Omens Should... shares technical record from Omens: d20 Omen 1 The	once	rich	waters	of	a	life-giving	river	have	turned	black and	putrid,	tainting	the	land	and	sickening	those	who	drink from	it.	A	village	elder	points ... [truncated] (3 shared atom(s))
-- [[rpg-cairn-2e-core-bond]] - shared technical atoms: Bonds shares technical record from Bonds: D20 Bond 1 You	inherited	a Single	Gem (500gp,	cold	and	brittle)	from	a long-dead	relative.	It	arrived	with	a	warning:	squander	your newfound	riches,	and	a	debt	long ... [truncated] (2 shared atom(s))
-- [[rpg-cairn-2e-core-bond-should]] - shared technical atoms: Bonds Should... shares technical record from Bonds: D20 Bond 1 You	inherited	a Single	Gem (500gp,	cold	and	brittle)	from	a long-dead	relative.	It	arrived	with	a	warning:	squander	your newfound	riches,	and	a	debt	long ... [truncated] (2 shared atom(s))
-- [[rpg-cairn-2e-core-principle-for-player]] - shared technical atoms: Principles for Players shares technical record from Bonds: D20 Bond 1 You	inherited	a Single	Gem (500gp,	cold	and	brittle)	from	a long-dead	relative.	It	arrived	with	a	warning:	squander	your newfound	riches,	and	a	debt	long ... [truncated] (2 shared atom(s))
-- [[rpg-cairn-2e-core-principle-for-warden]] - shared technical atoms: Principles for Wardens shares technical record from Bonds: D20 Bond 1 You	inherited	a Single	Gem (500gp,	cold	and	brittle)	from	a long-dead	relative.	It	arrived	with	a	warning:	squander	your newfound	riches,	and	a	debt	long ... [truncated] (2 shared atom(s))
-- [[rpg-cairn-2e-core-result]] - shared technical atoms: Result shares technical record from Scars Table: HP Lost Result take	the	new	result. 2 Rattling	Blow:	You're	disoriented	and	shaken.	Describe	how you	refocus.	Roll	1d6.	If	the	total	is	higher	than	your	max	HP , tak ... [truncated] (1 shared atom(s))
+- [[rpg-cairn-2e-core-perception]] - broader topic: Perception shares source evidence from Knowledge And Perception / Perception: When informing the players of what their PCs can perceive, the Warden should provide maximal sensory information pertaining to the objects, characters, dangers, and ... [truncated]; Perception shares technical record from Knowledge And Perception / Perception: When informing the players of what their PCs can perceive, the Warden should provide maximal sensory information pertaining to the objects, characters, dangers, and ... [truncated] (16 shared statement(s), 5 shared atom(s))
+- [[rpg-cairn-2e-core-warden]] - shared statements and technical atoms: Warden shares source evidence from Knowledge And Perception / Knowledge: If a character has no justifiable knowledge of a subject, then they simply do not know anything about it! However, the Warden may decide to roll the Die of Fate to d ... [truncated]; Warden shares technical record from Knowledge And Perception / Perception: Players should feel that the consequences of their character's actions are earned , and that they are deserved , even if the results aren't always in their favor. (3 shared statement(s), 3 shared atom(s))
+- [[rpg-cairn-2e-core-player]] - shared statements and technical atoms: Player shares source evidence from Knowledge And Perception / Perception: Players should feel that the consequences of their character's actions are earned , and that they are deserved , even if the results aren't always in their favor. Tr ... [truncated]; Player shares technical record from Knowledge And Perception / Perception: Players should feel that the consequences of their character's actions are earned , and that they are deserved , even if the results aren't always in their favor. (1 shared statement(s), 1 shared atom(s))
+- [[rpg-cairn-2e-core-character]] - shared statements: Character shares source evidence from Knowledge And Perception / Knowledge: If a character has no justifiable knowledge of a subject, then they simply do not know anything about it! However, the Warden may decide to roll the Die of Fate to d ... [truncated] (1 shared statement(s))
+- [[rpg-cairn-2e-core-section-knowledge-and-perception-545a6122]] - source section: Knowledge And Perception shares source evidence from Knowledge And Perception / Introduction: Cairn differs from many modern roleplaying games by not including mechanics for knowledge or expertise. Instead, it is assumed that a character has the necessary kno ... [truncated]; Knowledge And Perception shares technical record from Knowledge And Perception / Introduction: Instead, the Warden should provide unlimited relevant information about every detail a character can perceive with their basic senses. (25 shared statement(s), 7 shared atom(s))
 
 ## Source
 

@@ -218,6 +218,43 @@ def test_two_column_spaced_table_materializes_as_table_atom() -> None:
     ]
 
 
+def test_prose_heavy_table_block_bypasses_lexical_density_gate() -> None:
+    raw_table = "\n".join(
+        (
+            "Outcomes",
+            "Roll",
+            "Result",
+            "1",
+            "Alpha begins with a long explanatory result.",
+            "It continues with source-authored prose.",
+            "The prose is still part of the first cell.",
+            "The row explains cause and consequence.",
+            "The result remains a table entry.",
+            "It should not be discarded as prose.",
+            "2",
+            "Beta begins with another long explanatory result.",
+            "It also continues across several lines.",
+            "The continuation belongs to the second cell.",
+            "The row contains no pipes or aligned spaces.",
+            "The structural segment kind is the table evidence.",
+            "The extractor should preserve the raw atom.",
+        )
+    )
+    result = _build([("table-block", raw_table, [])])
+
+    decision = next(
+        decision
+        for decision in result.ledger.extractor_decisions
+        if decision.extractor_capability_id == "table-extractor"
+    )
+    table = next(a for a in result.ledger.technical_atoms if a.technical_atom_kind == "table")
+
+    assert decision.ranker_score < 0.15
+    assert decision.extractor_decision_status == "candidate-produced"
+    assert isinstance(table.payload, TablePayload)
+    assert table.payload.raw_table_text == raw_table
+
+
 def test_named_table_reference_quality_requires_matching_table_atom() -> None:
     catalog = default_quality_check_catalog()
     severity = default_severity_policy()

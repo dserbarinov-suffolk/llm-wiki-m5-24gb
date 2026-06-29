@@ -209,26 +209,26 @@ Regenerated ingest pages will be linked here by the ingest workflow.
 - [[history-dickens-england-excerpt-section-a-child-s-history-of-england-excerpt-the-norman-conquest-to-edward-i-chapter-xiv-england-under-k-596005d0]] — A Child's History of England (Excerpt: The Norman Conquest to Edward I) / CHAPTER XIV--ENGLAND UNDER KING JOHN, CALLED LACKLAND: 41 source-backed entries and 5 atom(s) from raw/history_dickens_england_excerpt.pdf.
 - [[history-dickens-england-excerpt-section-a-child-s-history-of-england-excerpt-the-norman-conquest-to-edward-i-chapter-xv-england-under-he-9c48493e]] — A Child's History of England (Excerpt: The Norman Conquest to Edward I) / CHAPTER XV--ENGLAND UNDER HENRY THE THIRD, CALLED, OF WINCHESTER: 166 source-backed entries and 2 atom(s) from raw/history_dickens_england_excerpt.pdf.
 - [[history-dickens-england-excerpt-section-a-child-s-history-of-england-excerpt-the-norman-conquest-to-edward-i-chapter-xvi-england-under-e-920123a2]] — A Child's History of England (Excerpt: The Norman Conquest to Edward I) / CHAPTER XVI--ENGLAND UNDER EDWARD THE FIRST, CALLED LONGSHANKS: 2 source-backed entries and 2 atom(s) from raw/history_dickens_england_excerpt.pdf.
-- [[history-short-history-of-england]] — Claim-ledger projection (general-prose): 2331 usable entries, 40 technical atoms, 113 needs-review, 70 linked page(s); write decision write-with-review-work.
-- [[history-short-history-of-england-section-a-short-history-of-england-pg-1-8b31f9d4]] — A SHORT HISTORY OF ENGLAND [Pg 1]: 2328 source-backed entries and 40 atom(s) from raw/history_short_history_of_england.pdf.
-- [[history-short-history-of-england-section-a-short-history-of-england-pg-1-i-d1cefed3]] — A SHORT HISTORY OF ENGLAND [Pg 1] / I: 171 source-backed entries and 5 atom(s) from raw/history_short_history_of_england.pdf.
+- [[history-short-history-of-england]] — Claim-ledger projection (general-prose): 2320 usable entries, 39 technical atoms, 112 needs-review, 70 linked page(s); write decision write-with-review-work.
+- [[history-short-history-of-england-section-a-short-history-of-england-pg-1-8b31f9d4]] — A SHORT HISTORY OF ENGLAND [Pg 1]: 2317 source-backed entries and 39 atom(s) from raw/history_short_history_of_england.pdf.
+- [[history-short-history-of-england-section-a-short-history-of-england-pg-1-i-d1cefed3]] — A SHORT HISTORY OF ENGLAND [Pg 1] / I: 171 source-backed entries and 3 atom(s) from raw/history_short_history_of_england.pdf.
 - [[history-short-history-of-england-section-a-short-history-of-england-pg-1-i-introduction-f00b5452]] — A SHORT HISTORY OF ENGLAND [Pg 1] / I / INTRODUCTION: 32 source-backed entries and 1 atom(s) from raw/history_short_history_of_england.pdf.
 - [[history-short-history-of-england-section-a-short-history-of-england-pg-1-i-the-province-of-britain-4caeac08]] — A SHORT HISTORY OF ENGLAND [Pg 1] / I / THE PROVINCE OF BRITAIN: 139 source-backed entries and 2 atom(s) from raw/history_short_history_of_england.pdf.
-- [[history-short-history-of-england-section-a-short-history-of-england-pg-1-iii-2a455df6]] — A SHORT HISTORY OF ENGLAND [Pg 1] / III: 118 source-backed entries and 2 atom(s) from raw/history_short_history_of_england.pdf.
-- [[history-short-history-of-england-section-a-short-history-of-england-pg-1-iii-the-age-of-legends-05b2c5fd]] — A SHORT HISTORY OF ENGLAND [Pg 1] / III / THE AGE OF LEGENDS: 118 source-backed entries and 2 atom(s) from raw/history_short_history_of_england.pdf.
+- [[history-short-history-of-england-section-a-short-history-of-england-pg-1-iii-2a455df6]] — A SHORT HISTORY OF ENGLAND [Pg 1] / III: 118 source-backed entries and 0 atom(s) from raw/history_short_history_of_england.pdf.
+- [[history-short-history-of-england-section-a-short-history-of-england-pg-1-iii-the-age-of-legends-05b2c5fd]] — A SHORT HISTORY OF ENGLAND [Pg 1] / III / THE AGE OF LEGENDS: 118 source-backed entries and 0 atom(s) from raw/history_short_history_of_england.pdf.
 - [[history-short-history-of-england-section-a-short-history-of-england-pg-1-iv-164429a5]] — A SHORT HISTORY OF ENGLAND [Pg 1] / IV: 132 source-backed entries and 2 atom(s) from raw/history_short_history_of_england.pdf.
 - [[history-short-history-of-england-section-a-short-history-of-england-pg-1-iv-the-defeat-of-the-barbarians-4be5f414]] — A SHORT HISTORY OF ENGLAND [Pg 1] / IV / THE DEFEAT OF THE BARBARIANS: 132 source-backed entries and 2 atom(s) from raw/history_short_history_of_england.pdf.
 - [[history-short-history-of-england-section-a-short-history-of-england-pg-1-ix-a8ce3473]] — A SHORT HISTORY OF ENGLAND [Pg 1] / IX: 146 source-backed entries and 0 atom(s) from raw/history_short_history_of_england.pdf.
 - [[history-short-history-of-england-section-a-short-history-of-england-pg-1-ix-nationality-and-the-french-wars-2ad43e28]] — A SHORT HISTORY OF ENGLAND [Pg 1] / IX / NATIONALITY AND THE FRENCH WARS: 146 source-backed entries and 0 atom(s) from raw/history_short_history_of_england.pdf.
-- [[history-short-history-of-england-section-a-short-history-of-england-pg-1-v-bcb467cc]] — A SHORT HISTORY OF ENGLAND [Pg 1] / V: 152 source-backed entries and 5 atom(s) from raw/history_short_history_of_england.pdf.
+- [[history-short-history-of-england-section-a-short-history-of-england-pg-1-v-bcb467cc]] — A SHORT HISTORY OF ENGLAND [Pg 1] / V: 152 source-backed entries and 3 atom(s) from raw/history_short_history_of_england.pdf.
 - [[history-short-history-of-england-section-a-short-history-of-england-pg-1-v-st-edward-and-the-norman-kings-f8b02694]] — A SHORT HISTORY OF ENGLAND [Pg 1] / V / ST. EDWARD AND THE NORMAN KINGS: 152 source-backed entries and 3 atom(s) from raw/history_short_history_of_england.pdf.
-- [[history-short-history-of-england-section-a-short-history-of-england-pg-1-vi-aa49c981]] — A SHORT HISTORY OF ENGLAND [Pg 1] / VI: 108 source-backed entries and 5 atom(s) from raw/history_short_history_of_england.pdf.
+- [[history-short-history-of-england-section-a-short-history-of-england-pg-1-vi-aa49c981]] — A SHORT HISTORY OF ENGLAND [Pg 1] / VI: 108 source-backed entries and 3 atom(s) from raw/history_short_history_of_england.pdf.
 - [[history-short-history-of-england-section-a-short-history-of-england-pg-1-vi-the-age-of-the-crusades-88748a97]] — A SHORT HISTORY OF ENGLAND [Pg 1] / VI / THE AGE OF THE CRUSADES: 108 source-backed entries and 3 atom(s) from raw/history_short_history_of_england.pdf.
-- [[history-short-history-of-england-section-a-short-history-of-england-pg-1-vii-5834eea8]] — A SHORT HISTORY OF ENGLAND [Pg 1] / VII: 139 source-backed entries and 6 atom(s) from raw/history_short_history_of_england.pdf.
+- [[history-short-history-of-england-section-a-short-history-of-england-pg-1-vii-5834eea8]] — A SHORT HISTORY OF ENGLAND [Pg 1] / VII: 139 source-backed entries and 4 atom(s) from raw/history_short_history_of_england.pdf.
 - [[history-short-history-of-england-section-a-short-history-of-england-pg-1-vii-the-problem-of-the-plantagenets-c2e16965]] — A SHORT HISTORY OF ENGLAND [Pg 1] / VII / THE PROBLEM OF THE PLANTAGENETS: 139 source-backed entries and 4 atom(s) from raw/history_short_history_of_england.pdf.
-- [[history-short-history-of-england-section-a-short-history-of-england-pg-1-viii-b81fd163]] — A SHORT HISTORY OF ENGLAND [Pg 1] / VIII: 165 source-backed entries and 3 atom(s) from raw/history_short_history_of_england.pdf.
+- [[history-short-history-of-england-section-a-short-history-of-england-pg-1-viii-b81fd163]] — A SHORT HISTORY OF ENGLAND [Pg 1] / VIII: 165 source-backed entries and 1 atom(s) from raw/history_short_history_of_england.pdf.
 - [[history-short-history-of-england-section-a-short-history-of-england-pg-1-viii-the-meaning-of-merry-england-7fa360f3]] — A SHORT HISTORY OF ENGLAND [Pg 1] / VIII / THE MEANING OF MERRY ENGLAND: 165 source-backed entries and 1 atom(s) from raw/history_short_history_of_england.pdf.
-- [[history-short-history-of-england-section-a-short-history-of-england-pg-1-x-360ab3ca]] — A SHORT HISTORY OF ENGLAND [Pg 1] / X: 129 source-backed entries and 6 atom(s) from raw/history_short_history_of_england.pdf.
+- [[history-short-history-of-england-section-a-short-history-of-england-pg-1-x-360ab3ca]] — A SHORT HISTORY OF ENGLAND [Pg 1] / X: 129 source-backed entries and 4 atom(s) from raw/history_short_history_of_england.pdf.
 - [[history-short-history-of-england-section-a-short-history-of-england-pg-1-x-the-war-of-the-usurpers-ac1bb9ce]] — A SHORT HISTORY OF ENGLAND [Pg 1] / X / THE WAR OF THE USURPERS: 129 source-backed entries and 4 atom(s) from raw/history_short_history_of_england.pdf.
 - [[history-short-history-of-england-section-a-short-history-of-england-pg-1-xi-4fb8b222]] — A SHORT HISTORY OF ENGLAND [Pg 1] / XI: 152 source-backed entries and 4 atom(s) from raw/history_short_history_of_england.pdf.
 - [[history-short-history-of-england-section-a-short-history-of-england-pg-1-xi-the-rebellion-of-the-rich-2652209f]] — A SHORT HISTORY OF ENGLAND [Pg 1] / XI / THE REBELLION OF THE RICH: 152 source-backed entries and 4 atom(s) from raw/history_short_history_of_england.pdf.
@@ -238,284 +238,265 @@ Regenerated ingest pages will be linked here by the ingest workflow.
 - [[history-short-history-of-england-section-a-short-history-of-england-pg-1-xiii-the-age-of-the-puritans-48755bff]] — A SHORT HISTORY OF ENGLAND [Pg 1] / XIII / THE AGE OF THE PURITANS: 144 source-backed entries and 2 atom(s) from raw/history_short_history_of_england.pdf.
 - [[history-short-history-of-england-section-a-short-history-of-england-pg-1-xiv-bcce70d1]] — A SHORT HISTORY OF ENGLAND [Pg 1] / XIV: 170 source-backed entries and 2 atom(s) from raw/history_short_history_of_england.pdf.
 - [[history-short-history-of-england-section-a-short-history-of-england-pg-1-xiv-the-triumph-of-the-whigs-e25ce9fb]] — A SHORT HISTORY OF ENGLAND [Pg 1] / XIV / THE TRIUMPH OF THE WHIGS: 170 source-backed entries and 2 atom(s) from raw/history_short_history_of_england.pdf.
-- [[history-short-history-of-england-section-a-short-history-of-england-pg-1-xv-3aa8638c]] — A SHORT HISTORY OF ENGLAND [Pg 1] / XV: 126 source-backed entries and 4 atom(s) from raw/history_short_history_of_england.pdf.
+- [[history-short-history-of-england-section-a-short-history-of-england-pg-1-xv-3aa8638c]] — A SHORT HISTORY OF ENGLAND [Pg 1] / XV: 126 source-backed entries and 2 atom(s) from raw/history_short_history_of_england.pdf.
 - [[history-short-history-of-england-section-a-short-history-of-england-pg-1-xv-the-war-with-the-great-republics-2bf08a6d]] — A SHORT HISTORY OF ENGLAND [Pg 1] / XV / THE WAR WITH THE GREAT REPUBLICS: 126 source-backed entries and 2 atom(s) from raw/history_short_history_of_england.pdf.
-- [[history-short-history-of-england-section-a-short-history-of-england-pg-1-xvi-68e8fa73]] — A SHORT HISTORY OF ENGLAND [Pg 1] / XVI: 139 source-backed entries and 3 atom(s) from raw/history_short_history_of_england.pdf.
+- [[history-short-history-of-england-section-a-short-history-of-england-pg-1-xvi-68e8fa73]] — A SHORT HISTORY OF ENGLAND [Pg 1] / XVI: 139 source-backed entries and 1 atom(s) from raw/history_short_history_of_england.pdf.
 - [[history-short-history-of-england-section-a-short-history-of-england-pg-1-xvi-aristocracy-and-the-discontents-e81006b7]] — A SHORT HISTORY OF ENGLAND [Pg 1] / XVI / ARISTOCRACY AND THE DISCONTENTS: 139 source-backed entries and 1 atom(s) from raw/history_short_history_of_england.pdf.
-- [[history-short-history-of-england-section-a-short-history-of-england-pg-1-xvii-d8995f6b]] — A SHORT HISTORY OF ENGLAND [Pg 1] / XVII: 126 source-backed entries and 5 atom(s) from raw/history_short_history_of_england.pdf.
+- [[history-short-history-of-england-section-a-short-history-of-england-pg-1-xvii-d8995f6b]] — A SHORT HISTORY OF ENGLAND [Pg 1] / XVII: 126 source-backed entries and 3 atom(s) from raw/history_short_history_of_england.pdf.
 - [[history-short-history-of-england-section-a-short-history-of-england-pg-1-xvii-the-return-of-the-barbarian-932182f5]] — A SHORT HISTORY OF ENGLAND [Pg 1] / XVII / THE RETURN OF THE BARBARIAN: 126 source-backed entries and 3 atom(s) from raw/history_short_history_of_england.pdf.
-- [[history-short-history-of-england-section-a-short-history-of-england-pg-1-xviii-c6f8bc15]] — A SHORT HISTORY OF ENGLAND [Pg 1] / XVIII: 86 source-backed entries and 6 atom(s) from raw/history_short_history_of_england.pdf.
+- [[history-short-history-of-england-section-a-short-history-of-england-pg-1-xviii-c6f8bc15]] — A SHORT HISTORY OF ENGLAND [Pg 1] / XVIII: 75 source-backed entries and 5 atom(s) from raw/history_short_history_of_england.pdf.
 - [[history-short-history-of-england-section-a-short-history-of-england-pg-1-xviii-conclusion-1a03ebdd]] — A SHORT HISTORY OF ENGLAND [Pg 1] / XVIII / CONCLUSION: 31 source-backed entries and 0 atom(s) from raw/history_short_history_of_england.pdf.
-- [[history-short-history-of-england-section-a-short-history-of-england-pg-1-xviii-the-end-e1f6de7a]] — A SHORT HISTORY OF ENGLAND [Pg 1] / XVIII / THE END: 55 source-backed entries and 6 atom(s) from raw/history_short_history_of_england.pdf.
+- [[history-short-history-of-england-section-a-short-history-of-england-pg-1-xviii-the-end-e1f6de7a]] — A SHORT HISTORY OF ENGLAND [Pg 1] / XVIII / THE END: 44 source-backed entries and 5 atom(s) from raw/history_short_history_of_england.pdf.
 - [[history-short-history-of-england-section-the-project-gutenberg-ebook-a-short-history-of-england-by-g-k-chesterton-f0b9f0b1]] — The Project Gutenberg eBook, A Short History of England, by G. K. Chesterton: 3 source-backed entries and 0 atom(s) from raw/history_short_history_of_england.pdf.
-- [[rpg-cairn-2e-core]] — Claim-ledger projection (general-prose): 669 usable entries, 82 technical atoms, 174 needs-review, 166 linked page(s); write decision write-with-review-work.
-- [[rpg-cairn-2e-core-section-6-discovery-7e344c0c]] — 6 Discovery: 1 source-backed entries and 0 atom(s) from raw/rpg_cairn_2e_core.pdf.
-- [[rpg-cairn-2e-core-section-actions-72ffaa81]] — Actions: 4 source-backed entries and 1 atom(s) from raw/rpg_cairn_2e_core.pdf.
-- [[rpg-cairn-2e-core-section-actions-c55c2863]] — Actions: 4 source-backed entries and 0 atom(s) from raw/rpg_cairn_2e_core.pdf.
-- [[rpg-cairn-2e-core-section-agency-6d9961a6]] — Agency: 4 source-backed entries and 0 atom(s) from raw/rpg_cairn_2e_core.pdf.
-- [[rpg-cairn-2e-core-section-aiding-an-ally-3d1b9d01]] — Aiding an Ally: 11 source-backed entries and 0 atom(s) from raw/rpg_cairn_2e_core.pdf.
-- [[rpg-cairn-2e-core-section-ambition-6bb22c99]] — Ambition: 2 source-backed entries and 0 atom(s) from raw/rpg_cairn_2e_core.pdf.
-- [[rpg-cairn-2e-core-section-armor-3ac01518]] — Armor: 5 source-backed entries and 2 atom(s) from raw/rpg_cairn_2e_core.pdf.
-- [[rpg-cairn-2e-core-section-attack-modifiers-e76a4137]] — Attack Modifiers: 6 source-backed entries and 4 atom(s) from raw/rpg_cairn_2e_core.pdf.
-- [[rpg-cairn-2e-core-section-attacking-damage-b21938ef]] — Attacking & Damage: 6 source-backed entries and 1 atom(s) from raw/rpg_cairn_2e_core.pdf.
-- [[rpg-cairn-2e-core-section-attribute-loss-4ec7a00f]] — Attribute Loss: 6 source-backed entries and 0 atom(s) from raw/rpg_cairn_2e_core.pdf.
-- [[rpg-cairn-2e-core-section-attributes-1d6954e2]] — Attributes: 4 source-backed entries and 0 atom(s) from raw/rpg_cairn_2e_core.pdf.
-- [[rpg-cairn-2e-core-section-attributes-c5610d95]] — Attributes: 5 source-backed entries and 1 atom(s) from raw/rpg_cairn_2e_core.pdf.
-- [[rpg-cairn-2e-core-section-attributes-hit-protection-and-traits-ade46ebf]] — Attributes, Hit Protection, and Traits: 7 source-backed entries and 1 atom(s) from raw/rpg_cairn_2e_core.pdf.
-- [[rpg-cairn-2e-core-section-bonds-1003c616]] — Bonds: 3 source-backed entries and 5 atom(s) from raw/rpg_cairn_2e_core.pdf.
-- [[rpg-cairn-2e-core-section-bonds-and-omens-4f3c1c8d]] — Bonds and Omens: 0 source-backed entries and 8 atom(s) from raw/rpg_cairn_2e_core.pdf.
-- [[rpg-cairn-2e-core-section-bonds-c7fb0125]] — Bonds: 6 source-backed entries and 5 atom(s) from raw/rpg_cairn_2e_core.pdf.
-- [[rpg-cairn-2e-core-section-bonds-should-1f33a78a]] — Bonds Should...: 4 source-backed entries and 5 atom(s) from raw/rpg_cairn_2e_core.pdf.
-- [[rpg-cairn-2e-core-section-cairn-2e-core-rulebook-5551c359]] — Cairn 2e Core Rulebook: 2 source-backed entries and 0 atom(s) from raw/rpg_cairn_2e_core.pdf.
-- [[rpg-cairn-2e-core-section-casting-spells-f5d0e77e]] — Casting Spells: 4 source-backed entries and 1 atom(s) from raw/rpg_cairn_2e_core.pdf.
-- [[rpg-cairn-2e-core-section-caution-1e16ad14]] — Caution: 2 source-backed entries and 0 atom(s) from raw/rpg_cairn_2e_core.pdf.
-- [[rpg-cairn-2e-core-section-character-death-766b7313]] — Character Death: 1 source-backed entries and 1 atom(s) from raw/rpg_cairn_2e_core.pdf.
-- [[rpg-cairn-2e-core-section-character-traits-d10-c70efe09]] — Character Traits (d10): 1 source-backed entries and 1 atom(s) from raw/rpg_cairn_2e_core.pdf.
-- [[rpg-cairn-2e-core-section-choice-92c70ede]] — Choice: 2 source-backed entries and 0 atom(s) from raw/rpg_cairn_2e_core.pdf.
-- [[rpg-cairn-2e-core-section-classless-6c4b9424]] — Classless: 1 source-backed entries and 0 atom(s) from raw/rpg_cairn_2e_core.pdf.
-- [[rpg-cairn-2e-core-section-costs-0ab58b29]] — Costs: 3 source-backed entries and 1 atom(s) from raw/rpg_cairn_2e_core.pdf.
-- [[rpg-cairn-2e-core-section-critical-damage-9362a265]] — Critical Damage: 9 source-backed entries and 1 atom(s) from raw/rpg_cairn_2e_core.pdf.
-- [[rpg-cairn-2e-core-section-danger-aa7b7b89]] — Danger: 2 source-backed entries and 0 atom(s) from raw/rpg_cairn_2e_core.pdf.
-- [[rpg-cairn-2e-core-section-day-one-watch-one-731b31be]] — Day One / Watch One: 2 source-backed entries and 0 atom(s) from raw/rpg_cairn_2e_core.pdf.
-- [[rpg-cairn-2e-core-section-day-one-watch-three-4e13f432]] — Day One / Watch Three: 4 source-backed entries and 0 atom(s) from raw/rpg_cairn_2e_core.pdf.
-- [[rpg-cairn-2e-core-section-day-one-watch-two-3b21480a]] — Day One / Watch Two: 3 source-backed entries and 0 atom(s) from raw/rpg_cairn_2e_core.pdf.
-- [[rpg-cairn-2e-core-section-death-11a8e45b]] — Death: 2 source-backed entries and 0 atom(s) from raw/rpg_cairn_2e_core.pdf.
-- [[rpg-cairn-2e-core-section-deprivation-fatigue-4e7a3a03]] — Deprivation & Fatigue: 9 source-backed entries and 0 atom(s) from raw/rpg_cairn_2e_core.pdf.
-- [[rpg-cairn-2e-core-section-detachments-acbd23c7]] — Detachments: 3 source-backed entries and 0 atom(s) from raw/rpg_cairn_2e_core.pdf.
-- [[rpg-cairn-2e-core-section-dexterity-712cba60]] — Dexterity: 9 source-backed entries and 0 atom(s) from raw/rpg_cairn_2e_core.pdf.
-- [[rpg-cairn-2e-core-section-die-of-fate-2f87dda3]] — Die of Fate: 3 source-backed entries and 1 atom(s) from raw/rpg_cairn_2e_core.pdf.
-- [[rpg-cairn-2e-core-section-die-of-fate-d6b34039]] — Die of Fate: 3 source-backed entries and 1 atom(s) from raw/rpg_cairn_2e_core.pdf.
-- [[rpg-cairn-2e-core-section-difficulty-21b49f26]] — Difficulty: 2 source-backed entries and 1 atom(s) from raw/rpg_cairn_2e_core.pdf.
-- [[rpg-cairn-2e-core-section-doors-c0f4e08d]] — Doors: 3 source-backed entries and 0 atom(s) from raw/rpg_cairn_2e_core.pdf.
-- [[rpg-cairn-2e-core-section-downtime-actions-5d7ddf1b]] — Downtime Actions: 2 source-backed entries and 0 atom(s) from raw/rpg_cairn_2e_core.pdf.
-- [[rpg-cairn-2e-core-section-downtime-da2e836f]] — Downtime: 6 source-backed entries and 1 atom(s) from raw/rpg_cairn_2e_core.pdf.
-- [[rpg-cairn-2e-core-section-dungeon-events-b703c69a]] — Dungeon Events: 2 source-backed entries and 1 atom(s) from raw/rpg_cairn_2e_core.pdf.
-- [[rpg-cairn-2e-core-section-dungeon-exploration-cycle-95cac363]] — Dungeon Exploration Cycle: 9 source-backed entries and 2 atom(s) from raw/rpg_cairn_2e_core.pdf.
-- [[rpg-cairn-2e-core-section-dungeon-exploration-example-23af9992]] — Dungeon Exploration Example: 4 source-backed entries and 1 atom(s) from raw/rpg_cairn_2e_core.pdf.
-- [[rpg-cairn-2e-core-section-example-14ed5bbf]] — Example: 44 source-backed entries and 3 atom(s) from raw/rpg_cairn_2e_core.pdf.
-- [[rpg-cairn-2e-core-section-examples-1160e9dd]] — Examples:: 1 source-backed entries and 1 atom(s) from raw/rpg_cairn_2e_core.pdf.
-- [[rpg-cairn-2e-core-section-examples-35c14494]] — Examples:: 6 source-backed entries and 1 atom(s) from raw/rpg_cairn_2e_core.pdf.
-- [[rpg-cairn-2e-core-section-examples-54cb084a]] — Examples:: 11 source-backed entries and 3 atom(s) from raw/rpg_cairn_2e_core.pdf.
-- [[rpg-cairn-2e-core-section-examples-65504d0a]] — Examples:: 4 source-backed entries and 1 atom(s) from raw/rpg_cairn_2e_core.pdf.
-- [[rpg-cairn-2e-core-section-exploration-3d4a8990]] — Exploration: 2 source-backed entries and 3 atom(s) from raw/rpg_cairn_2e_core.pdf.
-- [[rpg-cairn-2e-core-section-exploration-example-c3964a0e]] — Exploration Example: 6 source-backed entries and 3 atom(s) from raw/rpg_cairn_2e_core.pdf.
-- [[rpg-cairn-2e-core-section-explore-820b0c95]] — Explore: 2 source-backed entries and 0 atom(s) from raw/rpg_cairn_2e_core.pdf.
-- [[rpg-cairn-2e-core-section-fiction-first-84e99aa6]] — Fiction First: 1 source-backed entries and 0 atom(s) from raw/rpg_cairn_2e_core.pdf.
-- [[rpg-cairn-2e-core-section-freya-a7ba95b1]] — Freya :: 8 source-backed entries and 0 atom(s) from raw/rpg_cairn_2e_core.pdf.
-- [[rpg-cairn-2e-core-section-freya-b89f5e46]] — Freya: 12 source-backed entries and 0 atom(s) from raw/rpg_cairn_2e_core.pdf.
-- [[rpg-cairn-2e-core-section-gear-5a84a33e]] — Gear: 2 source-backed entries and 2 atom(s) from raw/rpg_cairn_2e_core.pdf.
-- [[rpg-cairn-2e-core-section-healing-recovery-05742e80]] — Healing & Recovery: 4 source-backed entries and 0 atom(s) from raw/rpg_cairn_2e_core.pdf.
-- [[rpg-cairn-2e-core-section-hirelings-fbb614d6]] — Hirelings: 4 source-backed entries and 4 atom(s) from raw/rpg_cairn_2e_core.pdf.
-- [[rpg-cairn-2e-core-section-hirelings-per-day-7e6b1183]] — Hirelings (per day): 4 source-backed entries and 4 atom(s) from raw/rpg_cairn_2e_core.pdf.
-- [[rpg-cairn-2e-core-section-hit-protection-dbd871cb]] — Hit Protection: 3 source-backed entries and 1 atom(s) from raw/rpg_cairn_2e_core.pdf.
-- [[rpg-cairn-2e-core-section-information-8a66c3d0]] — Information: 4 source-backed entries and 0 atom(s) from raw/rpg_cairn_2e_core.pdf.
-- [[rpg-cairn-2e-core-section-introduction-149e3829]] — Introduction: 3 source-backed entries and 1 atom(s) from raw/rpg_cairn_2e_core.pdf.
-- [[rpg-cairn-2e-core-section-introduction-8527ceff]] — Introduction: 2 source-backed entries and 0 atom(s) from raw/rpg_cairn_2e_core.pdf.
-- [[rpg-cairn-2e-core-section-introduction-f7036d5e]] — Introduction: 10 source-backed entries and 2 atom(s) from raw/rpg_cairn_2e_core.pdf.
-- [[rpg-cairn-2e-core-section-inventory-e99ced84]] — Inventory: 7 source-backed entries and 1 atom(s) from raw/rpg_cairn_2e_core.pdf.
-- [[rpg-cairn-2e-core-section-inventory-slots-10fac627]] — Inventory Slots: 4 source-backed entries and 1 atom(s) from raw/rpg_cairn_2e_core.pdf.
-- [[rpg-cairn-2e-core-section-knowledge-0cb35f9b]] — Knowledge: 7 source-backed entries and 0 atom(s) from raw/rpg_cairn_2e_core.pdf.
-- [[rpg-cairn-2e-core-section-light-52d45a3f]] — Light: 4 source-backed entries and 0 atom(s) from raw/rpg_cairn_2e_core.pdf.
-- [[rpg-cairn-2e-core-section-light-90041418]] — Light: 5 source-backed entries and 0 atom(s) from raw/rpg_cairn_2e_core.pdf.
-- [[rpg-cairn-2e-core-section-light-sources-5b26e8ee]] — Light Sources: 3 source-backed entries and 0 atom(s) from raw/rpg_cairn_2e_core.pdf.
-- [[rpg-cairn-2e-core-section-lucius-64183386]] — Lucius :: 6 source-backed entries and 0 atom(s) from raw/rpg_cairn_2e_core.pdf.
-- [[rpg-cairn-2e-core-section-lucius-786996ec]] — Lucius :: 19 source-backed entries and 1 atom(s) from raw/rpg_cairn_2e_core.pdf.
-- [[rpg-cairn-2e-core-section-lucius-ed2330e6]] — Lucius: 21 source-backed entries and 2 atom(s) from raw/rpg_cairn_2e_core.pdf.
-- [[rpg-cairn-2e-core-section-make-camp-93b9808f]] — Make Camp: 3 source-backed entries and 0 atom(s) from raw/rpg_cairn_2e_core.pdf.
-- [[rpg-cairn-2e-core-section-milestones-b504ad45]] — Milestones: 3 source-backed entries and 0 atom(s) from raw/rpg_cairn_2e_core.pdf.
-- [[rpg-cairn-2e-core-section-morale-963017e8]] — Morale: 4 source-backed entries and 1 atom(s) from raw/rpg_cairn_2e_core.pdf.
-- [[rpg-cairn-2e-core-section-narrative-focus-1147dc60]] — Narrative Focus: 3 source-backed entries and 0 atom(s) from raw/rpg_cairn_2e_core.pdf.
-- [[rpg-cairn-2e-core-section-neutrality-814ae4bf]] — Neutrality: 1 source-backed entries and 0 atom(s) from raw/rpg_cairn_2e_core.pdf.
-- [[rpg-cairn-2e-core-section-night-df1fd441]] — Night: 6 source-backed entries and 1 atom(s) from raw/rpg_cairn_2e_core.pdf.
-- [[rpg-cairn-2e-core-section-omens-01133909]] — Omens: 7 source-backed entries and 4 atom(s) from raw/rpg_cairn_2e_core.pdf.
-- [[rpg-cairn-2e-core-section-omens-d2d93e81]] — Omens: 4 source-backed entries and 5 atom(s) from raw/rpg_cairn_2e_core.pdf.
-- [[rpg-cairn-2e-core-section-omens-should-f6d736f8]] — Omens Should...: 3 source-backed entries and 4 atom(s) from raw/rpg_cairn_2e_core.pdf.
-- [[rpg-cairn-2e-core-section-opposed-saves-b450588d]] — Opposed Saves: 8 source-backed entries and 0 atom(s) from raw/rpg_cairn_2e_core.pdf.
-- [[rpg-cairn-2e-core-section-overview-0f55fcd9]] — Overview: 1 source-backed entries and 0 atom(s) from raw/rpg_cairn_2e_core.pdf.
-- [[rpg-cairn-2e-core-section-panic-ba47f73e]] — Panic: 3 source-backed entries and 0 atom(s) from raw/rpg_cairn_2e_core.pdf.
-- [[rpg-cairn-2e-core-section-perception-70060a19]] — Perception: 24 source-backed entries and 5 atom(s) from raw/rpg_cairn_2e_core.pdf.
-- [[rpg-cairn-2e-core-section-planning-811f7ab2]] — Planning: 1 source-backed entries and 0 atom(s) from raw/rpg_cairn_2e_core.pdf.
-- [[rpg-cairn-2e-core-section-player-choice-7a172384]] — Player Choice: 1 source-backed entries and 0 atom(s) from raw/rpg_cairn_2e_core.pdf.
-- [[rpg-cairn-2e-core-section-points-b0bb8b0c]] — Points: 2 source-backed entries and 0 atom(s) from raw/rpg_cairn_2e_core.pdf.
-- [[rpg-cairn-2e-core-section-preparation-4a358f32]] — Preparation: 5 source-backed entries and 0 atom(s) from raw/rpg_cairn_2e_core.pdf.
-- [[rpg-cairn-2e-core-section-principles-015bee29]] — Principles: 9 source-backed entries and 0 atom(s) from raw/rpg_cairn_2e_core.pdf.
-- [[rpg-cairn-2e-core-section-questions-ee4b8bb7]] — Questions: 1 source-backed entries and 0 atom(s) from raw/rpg_cairn_2e_core.pdf.
-- [[rpg-cairn-2e-core-section-ranged-attacks-bbb824e3]] — Ranged Attacks: 4 source-backed entries and 0 atom(s) from raw/rpg_cairn_2e_core.pdf.
-- [[rpg-cairn-2e-core-section-reactions-d756c022]] — Reactions: 2 source-backed entries and 2 atom(s) from raw/rpg_cairn_2e_core.pdf.
-- [[rpg-cairn-2e-core-section-relics-b3a158e5]] — Relics: 3 source-backed entries and 1 atom(s) from raw/rpg_cairn_2e_core.pdf.
-- [[rpg-cairn-2e-core-section-relics-d6bd43d9]] — Relics: 4 source-backed entries and 0 atom(s) from raw/rpg_cairn_2e_core.pdf.
-- [[rpg-cairn-2e-core-section-research-6e58d157]] — Research: 4 source-backed entries and 1 atom(s) from raw/rpg_cairn_2e_core.pdf.
-- [[rpg-cairn-2e-core-section-resting-5a2984f8]] — Resting: 4 source-backed entries and 0 atom(s) from raw/rpg_cairn_2e_core.pdf.
-- [[rpg-cairn-2e-core-section-retreat-58244656]] — Retreat: 1 source-backed entries and 0 atom(s) from raw/rpg_cairn_2e_core.pdf.
-- [[rpg-cairn-2e-core-section-roll-or-choose-a-background-d554c894]] — Roll or choose a Background: 5 source-backed entries and 0 atom(s) from raw/rpg_cairn_2e_core.pdf.
-- [[rpg-cairn-2e-core-section-rounds-54fc02b5]] — Rounds: 8 source-backed entries and 0 atom(s) from raw/rpg_cairn_2e_core.pdf.
-- [[rpg-cairn-2e-core-section-save-principles-8a984965]] — Save Principles: 17 source-backed entries and 2 atom(s) from raw/rpg_cairn_2e_core.pdf.
-- [[rpg-cairn-2e-core-section-saves-f3c533db]] — Saves: 6 source-backed entries and 0 atom(s) from raw/rpg_cairn_2e_core.pdf.
-- [[rpg-cairn-2e-core-section-scars-27bf6a8d]] — Scars: 3 source-backed entries and 1 atom(s) from raw/rpg_cairn_2e_core.pdf.
-- [[rpg-cairn-2e-core-section-scars-table-eabb83b4]] — Scars Table: 1 source-backed entries and 1 atom(s) from raw/rpg_cairn_2e_core.pdf.
-- [[rpg-cairn-2e-core-section-scrolls-cdf6ccf8]] — Scrolls: 3 source-backed entries and 0 atom(s) from raw/rpg_cairn_2e_core.pdf.
-- [[rpg-cairn-2e-core-section-searching-3028b8ed]] — Searching: 3 source-backed entries and 0 atom(s) from raw/rpg_cairn_2e_core.pdf.
-- [[rpg-cairn-2e-core-section-shared-objectives-892040dd]] — Shared Objectives: 3 source-backed entries and 0 atom(s) from raw/rpg_cairn_2e_core.pdf.
-- [[rpg-cairn-2e-core-section-skin-0c207b26]] — Skin: 1 source-backed entries and 1 atom(s) from raw/rpg_cairn_2e_core.pdf.
-- [[rpg-cairn-2e-core-section-sleep-194002e1]] — Sleep: 5 source-backed entries and 1 atom(s) from raw/rpg_cairn_2e_core.pdf.
-- [[rpg-cairn-2e-core-section-sources-6bdf50b1]] — Sources: 2 source-backed entries and 0 atom(s) from raw/rpg_cairn_2e_core.pdf.
-- [[rpg-cairn-2e-core-section-speech-7a99d5fa]] — Speech: 4 source-backed entries and 4 atom(s) from raw/rpg_cairn_2e_core.pdf.
-- [[rpg-cairn-2e-core-section-spellbooks-f5cf343f]] — Spellbooks: 6 source-backed entries and 0 atom(s) from raw/rpg_cairn_2e_core.pdf.
-- [[rpg-cairn-2e-core-section-strength-d2a13c65]] — Strength: 1 source-backed entries and 0 atom(s) from raw/rpg_cairn_2e_core.pdf.
-- [[rpg-cairn-2e-core-section-strengthening-ties-d7eea6a6]] — Strengthening Ties: 4 source-backed entries and 0 atom(s) from raw/rpg_cairn_2e_core.pdf.
-- [[rpg-cairn-2e-core-section-supply-0474be63]] — Supply: 4 source-backed entries and 0 atom(s) from raw/rpg_cairn_2e_core.pdf.
-- [[rpg-cairn-2e-core-section-talking-f6eeb7b0]] — Talking: 3 source-backed entries and 1 atom(s) from raw/rpg_cairn_2e_core.pdf.
-- [[rpg-cairn-2e-core-section-teamwork-72fbe988]] — Teamwork: 2 source-backed entries and 0 atom(s) from raw/rpg_cairn_2e_core.pdf.
-- [[rpg-cairn-2e-core-section-the-basics-cceceb8a]] — The Basics: 6 source-backed entries and 0 atom(s) from raw/rpg_cairn_2e_core.pdf.
-- [[rpg-cairn-2e-core-section-the-courtyard-86773f86]] — The Courtyard: 24 source-backed entries and 0 atom(s) from raw/rpg_cairn_2e_core.pdf.
-- [[rpg-cairn-2e-core-section-training-ed27668d]] — Training: 6 source-backed entries and 1 atom(s) from raw/rpg_cairn_2e_core.pdf.
-- [[rpg-cairn-2e-core-section-traps-677c95a1]] — Traps: 5 source-backed entries and 1 atom(s) from raw/rpg_cairn_2e_core.pdf.
-- [[rpg-cairn-2e-core-section-travel-7c62bb18]] — Travel: 4 source-backed entries and 0 atom(s) from raw/rpg_cairn_2e_core.pdf.
-- [[rpg-cairn-2e-core-section-travel-duration-4d20e4da]] — Travel Duration: 6 source-backed entries and 0 atom(s) from raw/rpg_cairn_2e_core.pdf.
-- [[rpg-cairn-2e-core-section-treasure-f57368ff]] — Treasure: 4 source-backed entries and 0 atom(s) from raw/rpg_cairn_2e_core.pdf.
-- [[rpg-cairn-2e-core-section-warden-2054cc18]] — Warden :: 7 source-backed entries and 0 atom(s) from raw/rpg_cairn_2e_core.pdf.
-- [[rpg-cairn-2e-core-section-warden-f5105690]] — Warden: 9 source-backed entries and 0 atom(s) from raw/rpg_cairn_2e_core.pdf.
-- [[rpg-cairn-2e-core-section-watches-80511a6b]] — Watches: 3 source-backed entries and 0 atom(s) from raw/rpg_cairn_2e_core.pdf.
-- [[rpg-cairn-2e-core-section-weather-b8622fc8]] — Weather: 3 source-backed entries and 2 atom(s) from raw/rpg_cairn_2e_core.pdf.
-- [[rpg-cairn-2e-core-section-weather-type-61948b3d]] — Weather Type: 1 source-backed entries and 1 atom(s) from raw/rpg_cairn_2e_core.pdf.
-- [[rpg-cairn-2e-core-section-when-to-save-9e6af6ca]] — When To Save: 1 source-backed entries and 0 atom(s) from raw/rpg_cairn_2e_core.pdf.
-- [[rpg-cairn-2e-core-section-wil-c48da517]] — WIL: 11 source-backed entries and 4 atom(s) from raw/rpg_cairn_2e_core.pdf.
-- [[rpg-cairn-2e-core-section-wilderness-exploration-06fb428c]] — Wilderness Exploration: 0 source-backed entries and 3 atom(s) from raw/rpg_cairn_2e_core.pdf.
-- [[rpg-cairn-2e-core-section-wilderness-exploration-ab54e2a7]] — Wilderness Exploration: 0 source-backed entries and 3 atom(s) from raw/rpg_cairn_2e_core.pdf.
-- [[rpg-cairn-2e-core-section-wilderness-exploration-cycle-09c8e357]] — Wilderness Exploration Cycle: 7 source-backed entries and 3 atom(s) from raw/rpg_cairn_2e_core.pdf.
-- [[rpg-dnd-srd-excerpt]] — Claim-ledger projection (general-prose): 738 usable entries, 127 technical atoms, 151 needs-review, 164 linked page(s); write decision write-with-review-work.
-- [[rpg-dnd-srd-excerpt-section-1st-level-abjuration-cdc01082]] — 1st-level abjuration: 2 source-backed entries and 0 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
-- [[rpg-dnd-srd-excerpt-section-3rd-level-evocation-6dcfee96]] — 3rd-level evocation: 4 source-backed entries and 1 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
-- [[rpg-dnd-srd-excerpt-section-ability-checks-27fbe6ab]] — Ability Checks: 4 source-backed entries and 0 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
-- [[rpg-dnd-srd-excerpt-section-ability-scores-and-modifiers-504eb531]] — Ability Scores and Modifiers: 9 source-backed entries and 1 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
-- [[rpg-dnd-srd-excerpt-section-actions-95de0e39]] — Actions: 1 source-backed entries and 1 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
-- [[rpg-dnd-srd-excerpt-section-actions-in-combat-02b5b887]] — Actions in Combat: 3 source-backed entries and 1 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
-- [[rpg-dnd-srd-excerpt-section-advantage-and-disadvantage-28337a3d]] — Advantage and Disadvantage: 18 source-backed entries and 4 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
-- [[rpg-dnd-srd-excerpt-section-armor-7f8117ba]] — Armor: 12 source-backed entries and 3 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
-- [[rpg-dnd-srd-excerpt-section-armor-class-480c3f90]] — Armor Class: 1 source-backed entries and 1 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
-- [[rpg-dnd-srd-excerpt-section-attack-2ff32e26]] — Attack: 3 source-backed entries and 0 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
-- [[rpg-dnd-srd-excerpt-section-attack-rolls-3222b935]] — Attack Rolls: 5 source-backed entries and 1 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
-- [[rpg-dnd-srd-excerpt-section-attack-rolls-and-damage-4da42972]] — Attack Rolls and Damage: 3 source-backed entries and 1 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
-- [[rpg-dnd-srd-excerpt-section-attack-rolls-and-damage-55fed084]] — Attack Rolls and Damage: 3 source-backed entries and 0 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
-- [[rpg-dnd-srd-excerpt-section-being-prone-9f3e1597]] — Being Prone: 8 source-backed entries and 2 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
-- [[rpg-dnd-srd-excerpt-section-blinded-bf09ad3c]] — Blinded: 2 source-backed entries and 0 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
-- [[rpg-dnd-srd-excerpt-section-bonus-actions-9be782e4]] — Bonus Actions: 2 source-backed entries and 2 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
-- [[rpg-dnd-srd-excerpt-section-breaking-up-your-move-67a6bb53]] — Breaking Up Your Move: 2 source-backed entries and 2 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
-- [[rpg-dnd-srd-excerpt-section-cast-a-spell-d4218884]] — Cast a Spell: 5 source-backed entries and 1 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
-- [[rpg-dnd-srd-excerpt-section-casting-time-1-action-e3a969e9]] — Casting Time: 1 action: 2 source-backed entries and 1 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
-- [[rpg-dnd-srd-excerpt-section-charisma-9f8e185d]] — Charisma: 1 source-backed entries and 0 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
-- [[rpg-dnd-srd-excerpt-section-charisma-checks-d3dbfb7e]] — Charisma Checks: 11 source-backed entries and 0 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
-- [[rpg-dnd-srd-excerpt-section-charmed-0592237f]] — Charmed: 2 source-backed entries and 1 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
-- [[rpg-dnd-srd-excerpt-section-combat-step-by-step-d2626973]] — Combat Step by Step: 7 source-backed entries and 0 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
-- [[rpg-dnd-srd-excerpt-section-conditions-55c1fd64]] — Conditions: 8 source-backed entries and 0 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
-- [[rpg-dnd-srd-excerpt-section-constitution-checks-06a2d5eb]] — Constitution Checks: 5 source-backed entries and 0 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
-- [[rpg-dnd-srd-excerpt-section-contests-97597948]] — Contests: 11 source-backed entries and 1 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
-- [[rpg-dnd-srd-excerpt-section-contests-in-combat-ce48d3d9]] — Contests in Combat: 2 source-backed entries and 1 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
-- [[rpg-dnd-srd-excerpt-section-controlling-a-mount-3a52785c]] — Controlling a Mount: 11 source-backed entries and 2 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
-- [[rpg-dnd-srd-excerpt-section-cover-dc69b482]] — Cover: 14 source-backed entries and 1 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
-- [[rpg-dnd-srd-excerpt-section-creature-size-3191c001]] — Creature Size: 3 source-backed entries and 1 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
-- [[rpg-dnd-srd-excerpt-section-critical-hits-c1dcab15]] — Critical Hits: 7 source-backed entries and 2 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
-- [[rpg-dnd-srd-excerpt-section-damage-and-healing-30c4ad31]] — Damage and Healing: 2 source-backed entries and 0 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
-- [[rpg-dnd-srd-excerpt-section-damage-resistance-and-vulnerability-86503393]] — Damage Resistance and Vulnerability: 6 source-backed entries and 2 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
-- [[rpg-dnd-srd-excerpt-section-damage-rolls-41c14cf4]] — Damage Rolls: 8 source-backed entries and 2 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
-- [[rpg-dnd-srd-excerpt-section-damage-types-08146c25]] — Damage Types: 6 source-backed entries and 0 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
-- [[rpg-dnd-srd-excerpt-section-dash-9c3d23bf]] — Dash: 3 source-backed entries and 3 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
-- [[rpg-dnd-srd-excerpt-section-deafened-bb6d3203]] — Deafened: 1 source-backed entries and 0 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
-- [[rpg-dnd-srd-excerpt-section-death-saving-throws-99c89f99]] — Death Saving Throws: 11 source-backed entries and 1 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
-- [[rpg-dnd-srd-excerpt-section-dexterity-checks-ac97f3b9]] — Dexterity Checks: 7 source-backed entries and 1 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
-- [[rpg-dnd-srd-excerpt-section-difficult-terrain-5524c55b]] — Difficult Terrain: 3 source-backed entries and 0 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
-- [[rpg-dnd-srd-excerpt-section-dodge-8a11bed5]] — Dodge: 2 source-backed entries and 1 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
-- [[rpg-dnd-srd-excerpt-section-dropping-to-0-hit-points-f22c6fb7]] — Dropping to 0 Hit Points: 1 source-backed entries and 0 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
-- [[rpg-dnd-srd-excerpt-section-dungeons-dragons-srd-5-1-core-rules-excerpt-4cc443cf]] — Dungeons & Dragons SRD 5.1 -Core Rules (Excerpt): 1 source-backed entries and 0 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
-- [[rpg-dnd-srd-excerpt-section-exhaustion-e98f0555]] — Exhaustion: 8 source-backed entries and 1 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
-- [[rpg-dnd-srd-excerpt-section-falling-unconscious-29ccb721]] — Falling Unconscious: 1 source-backed entries and 0 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
-- [[rpg-dnd-srd-excerpt-section-flying-movement-a3eb10bf]] — Flying Movement: 3 source-backed entries and 1 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
-- [[rpg-dnd-srd-excerpt-section-frightened-19c6322f]] — Frightened: 6 source-backed entries and 1 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
-- [[rpg-dnd-srd-excerpt-section-getting-into-and-out-of-armor-c1412c38]] — Getting Into and Out of Armor: 4 source-backed entries and 2 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
-- [[rpg-dnd-srd-excerpt-section-goblin-a82ded81]] — Goblin: 7 source-backed entries and 6 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
-- [[rpg-dnd-srd-excerpt-section-grappling-bb4c8d38]] — Grappling: 11 source-backed entries and 4 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
-- [[rpg-dnd-srd-excerpt-section-group-checks-a3f4639b]] — Group Checks: 7 source-backed entries and 0 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
-- [[rpg-dnd-srd-excerpt-section-healing-52b688ef]] — Healing: 10 source-backed entries and 1 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
-- [[rpg-dnd-srd-excerpt-section-heavy-armor-95de49ea]] — Heavy Armor: 11 source-backed entries and 1 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
-- [[rpg-dnd-srd-excerpt-section-help-9979fc08]] — Help: 6 source-backed entries and 2 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
-- [[rpg-dnd-srd-excerpt-section-hide-9e374baa]] — Hide: 2 source-backed entries and 1 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
-- [[rpg-dnd-srd-excerpt-section-hiding-4e209044]] — Hiding: 13 source-backed entries and 3 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
-- [[rpg-dnd-srd-excerpt-section-hit-points-17d1ff29]] — Hit Points: 6 source-backed entries and 1 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
-- [[rpg-dnd-srd-excerpt-section-hit-points-37e25a73]] — Hit Points: 6 source-backed entries and 1 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
-- [[rpg-dnd-srd-excerpt-section-improvised-weapons-684bebad]] — Improvised Weapons: 6 source-backed entries and 2 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
-- [[rpg-dnd-srd-excerpt-section-incapacitated-013be3c0]] — Incapacitated: 1 source-backed entries and 0 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
-- [[rpg-dnd-srd-excerpt-section-initiative-e0fcf1e0]] — Initiative: 7 source-backed entries and 1 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
-- [[rpg-dnd-srd-excerpt-section-instant-death-29cf7705]] — Instant Death: 4 source-backed entries and 2 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
-- [[rpg-dnd-srd-excerpt-section-intelligence-checks-e3441675]] — Intelligence Checks: 5 source-backed entries and 0 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
-- [[rpg-dnd-srd-excerpt-section-interacting-with-objects-around-you-da353df4]] — Interacting with Objects Around You: 1 source-backed entries and 0 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
-- [[rpg-dnd-srd-excerpt-section-invisible-8824f115]] — Invisible: 3 source-backed entries and 0 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
-- [[rpg-dnd-srd-excerpt-section-knocking-a-creature-out-e3475b55]] — Knocking a Creature Out: 3 source-backed entries and 1 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
-- [[rpg-dnd-srd-excerpt-section-lifting-and-carrying-c02a8878]] — Lifting and Carrying: 8 source-backed entries and 0 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
-- [[rpg-dnd-srd-excerpt-section-light-armor-f8b66ff7]] — Light Armor: 3 source-backed entries and 2 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
-- [[rpg-dnd-srd-excerpt-section-making-an-attack-4cd65604]] — Making an Attack: 9 source-backed entries and 1 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
-- [[rpg-dnd-srd-excerpt-section-medium-armor-41c28885]] — Medium Armor: 10 source-backed entries and 2 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
-- [[rpg-dnd-srd-excerpt-section-melee-attacks-7e7d2aef]] — Melee Attacks: 9 source-backed entries and 1 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
-- [[rpg-dnd-srd-excerpt-section-modifiers-to-the-roll-8ec5c2c2]] — Modifiers to the Roll: 7 source-backed entries and 1 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
-- [[rpg-dnd-srd-excerpt-section-monsters-and-death-1e3b8e7a]] — Monsters and Death: 2 source-backed entries and 0 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
-- [[rpg-dnd-srd-excerpt-section-mounted-combat-34431dfd]] — Mounted Combat: 3 source-backed entries and 0 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
-- [[rpg-dnd-srd-excerpt-section-mounting-and-dismounting-c41a3edb]] — Mounting and Dismounting: 3 source-backed entries and 2 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
-- [[rpg-dnd-srd-excerpt-section-movement-and-position-39a10866]] — Movement and Position: 6 source-backed entries and 0 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
-- [[rpg-dnd-srd-excerpt-section-moving-around-other-creatures-e11b942e]] — Moving Around Other Creatures: 6 source-backed entries and 1 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
-- [[rpg-dnd-srd-excerpt-section-moving-between-attacks-a1763a43]] — Moving between Attacks: 2 source-backed entries and 2 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
-- [[rpg-dnd-srd-excerpt-section-opportunity-attacks-d2065f6b]] — Opportunity Attacks: 9 source-backed entries and 1 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
-- [[rpg-dnd-srd-excerpt-section-order-of-combat-6910f072]] — ORDER OF COMBAT: 4 source-backed entries and 0 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
-- [[rpg-dnd-srd-excerpt-section-other-activity-on-your-turn-4ce2d6f9]] — Other Activity on Your Turn: 7 source-backed entries and 1 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
-- [[rpg-dnd-srd-excerpt-section-paralyzed-dbcc09fb]] — Paralyzed: 4 source-backed entries and 0 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
-- [[rpg-dnd-srd-excerpt-section-passive-checks-2a10a7eb]] — Passive Checks: 8 source-backed entries and 1 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
-- [[rpg-dnd-srd-excerpt-section-petrified-4db89b1f]] — Petrified: 5 source-backed entries and 0 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
-- [[rpg-dnd-srd-excerpt-section-poisoned-f30de8d0]] — Poisoned: 1 source-backed entries and 0 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
-- [[rpg-dnd-srd-excerpt-section-proficiency-bonus-82117daa]] — Proficiency Bonus: 11 source-backed entries and 5 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
-- [[rpg-dnd-srd-excerpt-section-prone-50cfb3f7]] — Prone: 5 source-backed entries and 0 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
-- [[rpg-dnd-srd-excerpt-section-range-6bda4748]] — Range: 8 source-backed entries and 0 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
-- [[rpg-dnd-srd-excerpt-section-ranged-attacks-35701bac]] — Ranged Attacks: 3 source-backed entries and 0 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
-- [[rpg-dnd-srd-excerpt-section-ranged-attacks-in-close-combat-59eba356]] — Ranged Attacks in Close Combat: 3 source-backed entries and 0 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
-- [[rpg-dnd-srd-excerpt-section-reactions-bf7e5635]] — Reactions: 6 source-backed entries and 1 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
-- [[rpg-dnd-srd-excerpt-section-ready-84afa48e]] — Ready: 11 source-backed entries and 2 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
-- [[rpg-dnd-srd-excerpt-section-restrained-c70f9208]] — Restrained: 3 source-backed entries and 0 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
-- [[rpg-dnd-srd-excerpt-section-rolling-1-or-20-9e6b4d6f]] — Rolling 1 or 20: 4 source-backed entries and 1 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
-- [[rpg-dnd-srd-excerpt-section-sample-spells-62ab329d]] — Sample Spells: 3 source-backed entries and 0 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
-- [[rpg-dnd-srd-excerpt-section-saving-throws-5d26fb25]] — Saving Throws: 14 source-backed entries and 0 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
-- [[rpg-dnd-srd-excerpt-section-search-0343f270]] — Search: 1 source-backed entries and 0 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
-- [[rpg-dnd-srd-excerpt-section-shoving-a-creature-07572eea]] — Shoving a Creature: 7 source-backed entries and 1 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
-- [[rpg-dnd-srd-excerpt-section-silvered-weapons-0452366a]] — Silvered Weapons: 4 source-backed entries and 1 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
-- [[rpg-dnd-srd-excerpt-section-skills-d02a8456]] — Skills: 18 source-backed entries and 3 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
-- [[rpg-dnd-srd-excerpt-section-space-b00d656d]] — Space: 11 source-backed entries and 1 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
-- [[rpg-dnd-srd-excerpt-section-special-weapons-90bd7452]] — Special Weapons: 9 source-backed entries and 2 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
-- [[rpg-dnd-srd-excerpt-section-spellcasting-ability-74d395f4]] — Spellcasting Ability: 1 source-backed entries and 0 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
-- [[rpg-dnd-srd-excerpt-section-spellcasting-ability-9235e85a]] — Spellcasting Ability: 1 source-backed entries and 0 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
-- [[rpg-dnd-srd-excerpt-section-spellcasting-ability-c3378786]] — Spellcasting Ability: 1 source-backed entries and 0 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
-- [[rpg-dnd-srd-excerpt-section-squeezing-into-a-smaller-space-63e2635c]] — Squeezing into a Smaller Space: 5 source-backed entries and 1 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
-- [[rpg-dnd-srd-excerpt-section-stabilizing-a-creature-7ed69beb]] — Stabilizing a Creature: 7 source-backed entries and 2 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
-- [[rpg-dnd-srd-excerpt-section-strength-169a0f81]] — Strength: 1 source-backed entries and 0 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
-- [[rpg-dnd-srd-excerpt-section-strength-checks-a5b53e86]] — Strength Checks: 4 source-backed entries and 0 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
-- [[rpg-dnd-srd-excerpt-section-stunned-602b5dd4]] — Stunned: 3 source-backed entries and 0 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
-- [[rpg-dnd-srd-excerpt-section-surprise-3409d958]] — Surprise: 6 source-backed entries and 1 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
-- [[rpg-dnd-srd-excerpt-section-table-difficulty-classes-009bf3c6]] — Table- Difficulty Classes: 5 source-backed entries and 0 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
-- [[rpg-dnd-srd-excerpt-section-temporary-hit-points-5b1fed7c]] — Temporary Hit Points: 6 source-backed entries and 3 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
-- [[rpg-dnd-srd-excerpt-section-two-weapon-fighting-dd624aae]] — Two-Weapon Fighting: 4 source-backed entries and 3 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
-- [[rpg-dnd-srd-excerpt-section-unconscious-eab16f13]] — Unconscious: 4 source-backed entries and 0 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
-- [[rpg-dnd-srd-excerpt-section-underwater-combat-bcefe798]] — Underwater Combat: 5 source-backed entries and 0 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
-- [[rpg-dnd-srd-excerpt-section-unseen-attackers-and-targets-219e5208]] — Unseen Attackers and Targets: 5 source-backed entries and 2 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
-- [[rpg-dnd-srd-excerpt-section-use-an-object-ae207fa3]] — Use an Object: 3 source-backed entries and 1 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
-- [[rpg-dnd-srd-excerpt-section-using-ability-scores-338bd34e]] — USING ABILITY SCORES: 4 source-backed entries and 0 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
-- [[rpg-dnd-srd-excerpt-section-using-different-speeds-b4432525]] — Using Different Speeds: 5 source-backed entries and 2 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
-- [[rpg-dnd-srd-excerpt-section-using-each-ability-9fafa9eb]] — Using Each Ability: 1 source-backed entries and 0 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
-- [[rpg-dnd-srd-excerpt-section-variant-encumbrance-2c21e084]] — Variant: Encumbrance: 6 source-backed entries and 0 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
-- [[rpg-dnd-srd-excerpt-section-variant-skills-with-different-abilities-2d094b33]] — Variant: Skills with Different Abilities: 7 source-backed entries and 2 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
-- [[rpg-dnd-srd-excerpt-section-weapon-proficiency-67b0d9c2]] — Weapon Proficiency: 10 source-backed entries and 3 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
-- [[rpg-dnd-srd-excerpt-section-weapon-properties-b211101e]] — Weapon Properties: 25 source-backed entries and 7 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
-- [[rpg-dnd-srd-excerpt-section-weapons-ea0fa7ed]] — Weapons: 6 source-backed entries and 2 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
-- [[rpg-dnd-srd-excerpt-section-wisdom-0a882ec1]] — Wisdom: 1 source-backed entries and 0 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
-- [[rpg-dnd-srd-excerpt-section-wisdom-checks-7c7c9843]] — Wisdom Checks: 9 source-backed entries and 2 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
-- [[rpg-dnd-srd-excerpt-section-wolf-fc362bc8]] — Wolf: 5 source-backed entries and 2 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
-- [[rpg-dnd-srd-excerpt-section-working-together-5bc216e2]] — Working Together: 9 source-backed entries and 1 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
-- [[rpg-dnd-srd-excerpt-section-your-turn-798bbb26]] — Your Turn: 6 source-backed entries and 1 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
-- [[rpg-dnd-srd-excerpt-section-zombie-38921587]] — Zombie: 3 source-backed entries and 3 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
+- [[rpg-cairn-2e-core]] — Claim-ledger projection (general-prose): 660 usable entries, 80 technical atoms, 170 needs-review, 165 linked page(s); write decision write-with-review-work.
+- [[rpg-cairn-2e-core-section-bonds-and-omens-bonds-b90b9274]] — Bonds and Omens / Bonds: 7 source-backed entries and 0 atom(s) from raw/rpg_cairn_2e_core.pdf.
+- [[rpg-cairn-2e-core-section-bonds-and-omens-bonds-bonds-should-c821fb26]] — Bonds and Omens / Bonds / Bonds Should...: 4 source-backed entries and 0 atom(s) from raw/rpg_cairn_2e_core.pdf.
+- [[rpg-cairn-2e-core-section-bonds-and-omens-de30949d]] — Bonds and Omens: 15 source-backed entries and 1 atom(s) from raw/rpg_cairn_2e_core.pdf.
+- [[rpg-cairn-2e-core-section-bonds-and-omens-introduction-cd5c0867]] — Bonds and Omens / Introduction: 2 source-backed entries and 0 atom(s) from raw/rpg_cairn_2e_core.pdf.
+- [[rpg-cairn-2e-core-section-bonds-and-omens-omens-41e3ad6a]] — Bonds and Omens / Omens: 6 source-backed entries and 1 atom(s) from raw/rpg_cairn_2e_core.pdf.
+- [[rpg-cairn-2e-core-section-bonds-and-omens-omens-omens-should-e5f10f76]] — Bonds and Omens / Omens / Omens Should...: 2 source-backed entries and 0 atom(s) from raw/rpg_cairn_2e_core.pdf.
+- [[rpg-cairn-2e-core-section-cairn-2e-core-rulebook-926ec753]] — Cairn 2e Core Rulebook: 2 source-backed entries and 0 atom(s) from raw/rpg_cairn_2e_core.pdf.
+- [[rpg-cairn-2e-core-section-character-creation-26313297]] — Character Creation: 40 source-backed entries and 13 atom(s) from raw/rpg_cairn_2e_core.pdf.
+- [[rpg-cairn-2e-core-section-character-creation-attributes-2ebd570d]] — Character Creation / Attributes: 5 source-backed entries and 1 atom(s) from raw/rpg_cairn_2e_core.pdf.
+- [[rpg-cairn-2e-core-section-character-creation-attributes-hit-protection-and-traits-1e33d1d6]] — Character Creation / Attributes, Hit Protection, and Traits: 7 source-backed entries and 1 atom(s) from raw/rpg_cairn_2e_core.pdf.
+- [[rpg-cairn-2e-core-section-character-creation-backgrounds-1f49617f]] — Character Creation / Backgrounds: 1 source-backed entries and 1 atom(s) from raw/rpg_cairn_2e_core.pdf.
+- [[rpg-cairn-2e-core-section-character-creation-bonds-9a11d083]] — Character Creation / Bonds: 1 source-backed entries and 1 atom(s) from raw/rpg_cairn_2e_core.pdf.
+- [[rpg-cairn-2e-core-section-character-creation-character-traits-d10-093215e4]] — Character Creation / Character Traits (d10): 7 source-backed entries and 7 atom(s) from raw/rpg_cairn_2e_core.pdf.
+- [[rpg-cairn-2e-core-section-character-creation-character-traits-d10-clothing-30ef72b6]] — Character Creation / Character Traits (d10) / Clothing: 1 source-backed entries and 1 atom(s) from raw/rpg_cairn_2e_core.pdf.
+- [[rpg-cairn-2e-core-section-character-creation-character-traits-d10-hair-ceb01955]] — Character Creation / Character Traits (d10) / Hair: 1 source-backed entries and 1 atom(s) from raw/rpg_cairn_2e_core.pdf.
+- [[rpg-cairn-2e-core-section-character-creation-character-traits-d10-physique-1c7b418c]] — Character Creation / Character Traits (d10) / Physique: 1 source-backed entries and 1 atom(s) from raw/rpg_cairn_2e_core.pdf.
+- [[rpg-cairn-2e-core-section-character-creation-character-traits-d10-skin-e430149b]] — Character Creation / Character Traits (d10) / Skin: 1 source-backed entries and 1 atom(s) from raw/rpg_cairn_2e_core.pdf.
+- [[rpg-cairn-2e-core-section-character-creation-character-traits-d10-speech-6bb983d8]] — Character Creation / Character Traits (d10) / Speech: 1 source-backed entries and 1 atom(s) from raw/rpg_cairn_2e_core.pdf.
+- [[rpg-cairn-2e-core-section-character-creation-character-traits-d10-vice-07f3b789]] — Character Creation / Character Traits (d10) / Vice: 1 source-backed entries and 1 atom(s) from raw/rpg_cairn_2e_core.pdf.
+- [[rpg-cairn-2e-core-section-character-creation-character-traits-d10-virtue-73805df8]] — Character Creation / Character Traits (d10) / Virtue: 1 source-backed entries and 1 atom(s) from raw/rpg_cairn_2e_core.pdf.
+- [[rpg-cairn-2e-core-section-character-creation-hit-protection-84cf1ce9]] — Character Creation / Hit Protection: 3 source-backed entries and 1 atom(s) from raw/rpg_cairn_2e_core.pdf.
+- [[rpg-cairn-2e-core-section-character-creation-inventory-e76c67d7]] — Character Creation / Inventory: 10 source-backed entries and 0 atom(s) from raw/rpg_cairn_2e_core.pdf.
+- [[rpg-cairn-2e-core-section-character-creation-inventory-inventory-slots-bb4bf8aa]] — Character Creation / Inventory / Inventory Slots: 4 source-backed entries and 0 atom(s) from raw/rpg_cairn_2e_core.pdf.
+- [[rpg-cairn-2e-core-section-character-creation-omens-760693be]] — Character Creation / Omens: 1 source-backed entries and 1 atom(s) from raw/rpg_cairn_2e_core.pdf.
+- [[rpg-cairn-2e-core-section-character-creation-roll-or-choose-a-background-b4e5473f]] — Character Creation / Roll or choose a Background: 5 source-backed entries and 0 atom(s) from raw/rpg_cairn_2e_core.pdf.
+- [[rpg-cairn-2e-core-section-combat-528c27b9]] — Combat: 74 source-backed entries and 6 atom(s) from raw/rpg_cairn_2e_core.pdf.
+- [[rpg-cairn-2e-core-section-combat-example-6b6f5f0d]] — Combat / Example: 64 source-backed entries and 4 atom(s) from raw/rpg_cairn_2e_core.pdf.
+- [[rpg-cairn-2e-core-section-combat-introduction-721278cd]] — Combat / Introduction: 10 source-backed entries and 2 atom(s) from raw/rpg_cairn_2e_core.pdf.
+- [[rpg-cairn-2e-core-section-core-rules-armor-3fbcb104]] — Core Rules / Armor: 5 source-backed entries and 2 atom(s) from raw/rpg_cairn_2e_core.pdf.
+- [[rpg-cairn-2e-core-section-core-rules-attributes-13122614]] — Core Rules / Attributes: 4 source-backed entries and 0 atom(s) from raw/rpg_cairn_2e_core.pdf.
+- [[rpg-cairn-2e-core-section-core-rules-b46cf581]] — Core Rules: 113 source-backed entries and 19 atom(s) from raw/rpg_cairn_2e_core.pdf.
+- [[rpg-cairn-2e-core-section-core-rules-combat-8c90fa41]] — Core Rules / Combat: 48 source-backed entries and 8 atom(s) from raw/rpg_cairn_2e_core.pdf.
+- [[rpg-cairn-2e-core-section-core-rules-combat-actions-a07ba791]] — Core Rules / Combat / Actions: 4 source-backed entries and 1 atom(s) from raw/rpg_cairn_2e_core.pdf.
+- [[rpg-cairn-2e-core-section-core-rules-combat-attack-modifiers-eeaacd40]] — Core Rules / Combat / Attack Modifiers: 6 source-backed entries and 4 atom(s) from raw/rpg_cairn_2e_core.pdf.
+- [[rpg-cairn-2e-core-section-core-rules-combat-attacking-damage-7c527b48]] — Core Rules / Combat / Attacking & Damage: 6 source-backed entries and 1 atom(s) from raw/rpg_cairn_2e_core.pdf.
+- [[rpg-cairn-2e-core-section-core-rules-combat-attribute-loss-28656208]] — Core Rules / Combat / Attribute Loss: 6 source-backed entries and 0 atom(s) from raw/rpg_cairn_2e_core.pdf.
+- [[rpg-cairn-2e-core-section-core-rules-combat-character-death-db61c3f6]] — Core Rules / Combat / Character Death: 1 source-backed entries and 1 atom(s) from raw/rpg_cairn_2e_core.pdf.
+- [[rpg-cairn-2e-core-section-core-rules-combat-critical-damage-f7748ebd]] — Core Rules / Combat / Critical Damage: 9 source-backed entries and 1 atom(s) from raw/rpg_cairn_2e_core.pdf.
+- [[rpg-cairn-2e-core-section-core-rules-combat-detachments-66d24baa]] — Core Rules / Combat / Detachments: 3 source-backed entries and 0 atom(s) from raw/rpg_cairn_2e_core.pdf.
+- [[rpg-cairn-2e-core-section-core-rules-combat-ranged-attacks-28c34416]] — Core Rules / Combat / Ranged Attacks: 4 source-backed entries and 0 atom(s) from raw/rpg_cairn_2e_core.pdf.
+- [[rpg-cairn-2e-core-section-core-rules-combat-retreat-f1e69336]] — Core Rules / Combat / Retreat: 1 source-backed entries and 0 atom(s) from raw/rpg_cairn_2e_core.pdf.
+- [[rpg-cairn-2e-core-section-core-rules-combat-rounds-6ceb3803]] — Core Rules / Combat / Rounds: 8 source-backed entries and 0 atom(s) from raw/rpg_cairn_2e_core.pdf.
+- [[rpg-cairn-2e-core-section-core-rules-deprivation-fatigue-52c4d745]] — Core Rules / Deprivation & Fatigue: 9 source-backed entries and 0 atom(s) from raw/rpg_cairn_2e_core.pdf.
+- [[rpg-cairn-2e-core-section-core-rules-die-of-fate-5d317398]] — Core Rules / Die of Fate: 3 source-backed entries and 1 atom(s) from raw/rpg_cairn_2e_core.pdf.
+- [[rpg-cairn-2e-core-section-core-rules-healing-recovery-2365351f]] — Core Rules / Healing & Recovery: 4 source-backed entries and 0 atom(s) from raw/rpg_cairn_2e_core.pdf.
+- [[rpg-cairn-2e-core-section-core-rules-hirelings-37d5968d]] — Core Rules / Hirelings: 4 source-backed entries and 0 atom(s) from raw/rpg_cairn_2e_core.pdf.
+- [[rpg-cairn-2e-core-section-core-rules-magic-casting-spells-2d85817c]] — Core Rules / Magic / Casting Spells: 4 source-backed entries and 1 atom(s) from raw/rpg_cairn_2e_core.pdf.
+- [[rpg-cairn-2e-core-section-core-rules-magic-d4d7390d]] — Core Rules / Magic: 17 source-backed entries and 1 atom(s) from raw/rpg_cairn_2e_core.pdf.
+- [[rpg-cairn-2e-core-section-core-rules-magic-relics-8c5ce0e6]] — Core Rules / Magic / Relics: 4 source-backed entries and 0 atom(s) from raw/rpg_cairn_2e_core.pdf.
+- [[rpg-cairn-2e-core-section-core-rules-magic-scrolls-a79cd564]] — Core Rules / Magic / Scrolls: 3 source-backed entries and 0 atom(s) from raw/rpg_cairn_2e_core.pdf.
+- [[rpg-cairn-2e-core-section-core-rules-magic-spellbooks-c04f80a3]] — Core Rules / Magic / Spellbooks: 6 source-backed entries and 0 atom(s) from raw/rpg_cairn_2e_core.pdf.
+- [[rpg-cairn-2e-core-section-core-rules-morale-5a233457]] — Core Rules / Morale: 4 source-backed entries and 1 atom(s) from raw/rpg_cairn_2e_core.pdf.
+- [[rpg-cairn-2e-core-section-core-rules-reactions-c9a7e08a]] — Core Rules / Reactions: 5 source-backed entries and 5 atom(s) from raw/rpg_cairn_2e_core.pdf.
+- [[rpg-cairn-2e-core-section-core-rules-saves-a7654501]] — Core Rules / Saves: 6 source-backed entries and 0 atom(s) from raw/rpg_cairn_2e_core.pdf.
+- [[rpg-cairn-2e-core-section-core-rules-scars-a80ec685]] — Core Rules / Scars: 4 source-backed entries and 1 atom(s) from raw/rpg_cairn_2e_core.pdf.
+- [[rpg-cairn-2e-core-section-dungeon-exploration-826b24aa]] — Dungeon Exploration: 58 source-backed entries and 0 atom(s) from raw/rpg_cairn_2e_core.pdf.
+- [[rpg-cairn-2e-core-section-dungeon-exploration-dungeon-exploration-example-9af136c8]] — Dungeon Exploration / Dungeon Exploration Example: 49 source-backed entries and 0 atom(s) from raw/rpg_cairn_2e_core.pdf.
+- [[rpg-cairn-2e-core-section-dungeon-exploration-dungeon-exploration-example-the-courtyard-1f701571]] — Dungeon Exploration / Dungeon Exploration Example / The Courtyard: 45 source-backed entries and 0 atom(s) from raw/rpg_cairn_2e_core.pdf.
+- [[rpg-cairn-2e-core-section-dungeon-exploration-principles-c0fc7308]] — Dungeon Exploration / Principles: 9 source-backed entries and 0 atom(s) from raw/rpg_cairn_2e_core.pdf.
+- [[rpg-cairn-2e-core-section-knowledge-and-perception-545a6122]] — Knowledge And Perception: 37 source-backed entries and 7 atom(s) from raw/rpg_cairn_2e_core.pdf.
+- [[rpg-cairn-2e-core-section-knowledge-and-perception-introduction-c702d7fe]] — Knowledge And Perception / Introduction: 3 source-backed entries and 1 atom(s) from raw/rpg_cairn_2e_core.pdf.
+- [[rpg-cairn-2e-core-section-knowledge-and-perception-knowledge-bbf666d4]] — Knowledge And Perception / Knowledge: 10 source-backed entries and 1 atom(s) from raw/rpg_cairn_2e_core.pdf.
+- [[rpg-cairn-2e-core-section-knowledge-and-perception-knowledge-relics-ae1b3e42]] — Knowledge And Perception / Knowledge / Relics: 3 source-backed entries and 1 atom(s) from raw/rpg_cairn_2e_core.pdf.
+- [[rpg-cairn-2e-core-section-knowledge-and-perception-perception-38a9fdc8]] — Knowledge And Perception / Perception: 24 source-backed entries and 5 atom(s) from raw/rpg_cairn_2e_core.pdf.
+- [[rpg-cairn-2e-core-section-marketplace-0a7ee948]] — Marketplace: 8 source-backed entries and 8 atom(s) from raw/rpg_cairn_2e_core.pdf.
+- [[rpg-cairn-2e-core-section-marketplace-armor-2cc15169]] — Marketplace / Armor: 1 source-backed entries and 1 atom(s) from raw/rpg_cairn_2e_core.pdf.
+- [[rpg-cairn-2e-core-section-marketplace-gear-d268e471]] — Marketplace / Gear: 2 source-backed entries and 2 atom(s) from raw/rpg_cairn_2e_core.pdf.
+- [[rpg-cairn-2e-core-section-marketplace-hirelings-per-day-415dcd54]] — Marketplace / Hirelings (per day): 1 source-backed entries and 1 atom(s) from raw/rpg_cairn_2e_core.pdf.
+- [[rpg-cairn-2e-core-section-marketplace-transport-6615930d]] — Marketplace / Transport: 1 source-backed entries and 1 atom(s) from raw/rpg_cairn_2e_core.pdf.
+- [[rpg-cairn-2e-core-section-marketplace-upkeep-recovery-8f220802]] — Marketplace / Upkeep & Recovery: 1 source-backed entries and 1 atom(s) from raw/rpg_cairn_2e_core.pdf.
+- [[rpg-cairn-2e-core-section-marketplace-weapons-e8de10d2]] — Marketplace / Weapons: 2 source-backed entries and 2 atom(s) from raw/rpg_cairn_2e_core.pdf.
+- [[rpg-cairn-2e-core-section-overview-principles-bba3e342]] — Overview & Principles: 50 source-backed entries and 3 atom(s) from raw/rpg_cairn_2e_core.pdf.
+- [[rpg-cairn-2e-core-section-overview-principles-overview-b43af5b3]] — Overview & Principles / Overview: 9 source-backed entries and 0 atom(s) from raw/rpg_cairn_2e_core.pdf.
+- [[rpg-cairn-2e-core-section-overview-principles-overview-classless-38c3399b]] — Overview & Principles / Overview / Classless: 1 source-backed entries and 0 atom(s) from raw/rpg_cairn_2e_core.pdf.
+- [[rpg-cairn-2e-core-section-overview-principles-overview-death-273ba11b]] — Overview & Principles / Overview / Death: 2 source-backed entries and 0 atom(s) from raw/rpg_cairn_2e_core.pdf.
+- [[rpg-cairn-2e-core-section-overview-principles-overview-fiction-first-657d15fe]] — Overview & Principles / Overview / Fiction First: 1 source-backed entries and 0 atom(s) from raw/rpg_cairn_2e_core.pdf.
+- [[rpg-cairn-2e-core-section-overview-principles-overview-neutrality-b211640f]] — Overview & Principles / Overview / Neutrality: 1 source-backed entries and 0 atom(s) from raw/rpg_cairn_2e_core.pdf.
+- [[rpg-cairn-2e-core-section-overview-principles-overview-player-choice-f1eeddda]] — Overview & Principles / Overview / Player Choice: 1 source-backed entries and 0 atom(s) from raw/rpg_cairn_2e_core.pdf.
+- [[rpg-cairn-2e-core-section-overview-principles-overview-shared-objectives-ef4b8059]] — Overview & Principles / Overview / Shared Objectives: 3 source-backed entries and 0 atom(s) from raw/rpg_cairn_2e_core.pdf.
+- [[rpg-cairn-2e-core-section-overview-principles-principles-for-players-agency-4d1cfac7]] — Overview & Principles / Principles for Players / Agency: 4 source-backed entries and 0 atom(s) from raw/rpg_cairn_2e_core.pdf.
+- [[rpg-cairn-2e-core-section-overview-principles-principles-for-players-ambition-c402a456]] — Overview & Principles / Principles for Players / Ambition: 2 source-backed entries and 0 atom(s) from raw/rpg_cairn_2e_core.pdf.
+- [[rpg-cairn-2e-core-section-overview-principles-principles-for-players-be9a8ee6]] — Overview & Principles / Principles for Players: 16 source-backed entries and 1 atom(s) from raw/rpg_cairn_2e_core.pdf.
+- [[rpg-cairn-2e-core-section-overview-principles-principles-for-players-caution-fa271233]] — Overview & Principles / Principles for Players / Caution: 2 source-backed entries and 0 atom(s) from raw/rpg_cairn_2e_core.pdf.
+- [[rpg-cairn-2e-core-section-overview-principles-principles-for-players-exploration-3ba2bd43]] — Overview & Principles / Principles for Players / Exploration: 2 source-backed entries and 0 atom(s) from raw/rpg_cairn_2e_core.pdf.
+- [[rpg-cairn-2e-core-section-overview-principles-principles-for-players-planning-81566657]] — Overview & Principles / Principles for Players / Planning: 1 source-backed entries and 0 atom(s) from raw/rpg_cairn_2e_core.pdf.
+- [[rpg-cairn-2e-core-section-overview-principles-principles-for-players-talking-37a45972]] — Overview & Principles / Principles for Players / Talking: 3 source-backed entries and 1 atom(s) from raw/rpg_cairn_2e_core.pdf.
+- [[rpg-cairn-2e-core-section-overview-principles-principles-for-players-teamwork-7abb489b]] — Overview & Principles / Principles for Players / Teamwork: 2 source-backed entries and 0 atom(s) from raw/rpg_cairn_2e_core.pdf.
+- [[rpg-cairn-2e-core-section-overview-principles-principles-for-wardens-3e41b4cb]] — Overview & Principles / Principles for Wardens: 25 source-backed entries and 2 atom(s) from raw/rpg_cairn_2e_core.pdf.
+- [[rpg-cairn-2e-core-section-overview-principles-principles-for-wardens-choice-9b8cf7d9]] — Overview & Principles / Principles for Wardens / Choice: 2 source-backed entries and 0 atom(s) from raw/rpg_cairn_2e_core.pdf.
+- [[rpg-cairn-2e-core-section-overview-principles-principles-for-wardens-danger-6c709ca8]] — Overview & Principles / Principles for Wardens / Danger: 2 source-backed entries and 0 atom(s) from raw/rpg_cairn_2e_core.pdf.
+- [[rpg-cairn-2e-core-section-overview-principles-principles-for-wardens-die-of-fate-7722fd4f]] — Overview & Principles / Principles for Wardens / Die of Fate: 3 source-backed entries and 1 atom(s) from raw/rpg_cairn_2e_core.pdf.
+- [[rpg-cairn-2e-core-section-overview-principles-principles-for-wardens-difficulty-e600459e]] — Overview & Principles / Principles for Wardens / Difficulty: 2 source-backed entries and 1 atom(s) from raw/rpg_cairn_2e_core.pdf.
+- [[rpg-cairn-2e-core-section-overview-principles-principles-for-wardens-information-eb2121b9]] — Overview & Principles / Principles for Wardens / Information: 4 source-backed entries and 0 atom(s) from raw/rpg_cairn_2e_core.pdf.
+- [[rpg-cairn-2e-core-section-overview-principles-principles-for-wardens-narrative-focus-e0dc88b6]] — Overview & Principles / Principles for Wardens / Narrative Focus: 3 source-backed entries and 0 atom(s) from raw/rpg_cairn_2e_core.pdf.
+- [[rpg-cairn-2e-core-section-overview-principles-principles-for-wardens-preparation-6570653e]] — Overview & Principles / Principles for Wardens / Preparation: 5 source-backed entries and 0 atom(s) from raw/rpg_cairn_2e_core.pdf.
+- [[rpg-cairn-2e-core-section-overview-principles-principles-for-wardens-treasure-1305dd73]] — Overview & Principles / Principles for Wardens / Treasure: 4 source-backed entries and 0 atom(s) from raw/rpg_cairn_2e_core.pdf.
+- [[rpg-cairn-2e-core-section-procedures-2bb89b14]] — Procedures: 147 source-backed entries and 16 atom(s) from raw/rpg_cairn_2e_core.pdf.
+- [[rpg-cairn-2e-core-section-procedures-downtime-actions-91a5bb65]] — Procedures / Downtime Actions: 41 source-backed entries and 4 atom(s) from raw/rpg_cairn_2e_core.pdf.
+- [[rpg-cairn-2e-core-section-procedures-downtime-actions-research-b03ae409]] — Procedures / Downtime Actions / Research: 14 source-backed entries and 1 atom(s) from raw/rpg_cairn_2e_core.pdf.
+- [[rpg-cairn-2e-core-section-procedures-downtime-actions-strengthening-ties-03328fb4]] — Procedures / Downtime Actions / Strengthening Ties: 8 source-backed entries and 0 atom(s) from raw/rpg_cairn_2e_core.pdf.
+- [[rpg-cairn-2e-core-section-procedures-downtime-actions-training-1dec1fef]] — Procedures / Downtime Actions / Training: 17 source-backed entries and 3 atom(s) from raw/rpg_cairn_2e_core.pdf.
+- [[rpg-cairn-2e-core-section-procedures-downtime-costs-a65640ce]] — Procedures / Downtime / Costs: 3 source-backed entries and 1 atom(s) from raw/rpg_cairn_2e_core.pdf.
+- [[rpg-cairn-2e-core-section-procedures-downtime-efb55bcc]] — Procedures / Downtime: 12 source-backed entries and 2 atom(s) from raw/rpg_cairn_2e_core.pdf.
+- [[rpg-cairn-2e-core-section-procedures-downtime-milestones-689f73e9]] — Procedures / Downtime / Milestones: 3 source-backed entries and 0 atom(s) from raw/rpg_cairn_2e_core.pdf.
+- [[rpg-cairn-2e-core-section-procedures-dungeon-exploration-5242b64d]] — Procedures / Dungeon Exploration: 44 source-backed entries and 4 atom(s) from raw/rpg_cairn_2e_core.pdf.
+- [[rpg-cairn-2e-core-section-procedures-dungeon-exploration-actions-25a6ba24]] — Procedures / Dungeon Exploration / Actions: 11 source-backed entries and 0 atom(s) from raw/rpg_cairn_2e_core.pdf.
+- [[rpg-cairn-2e-core-section-procedures-dungeon-exploration-dungeon-elements-8c390c32]] — Procedures / Dungeon Exploration / Dungeon Elements: 13 source-backed entries and 1 atom(s) from raw/rpg_cairn_2e_core.pdf.
+- [[rpg-cairn-2e-core-section-procedures-dungeon-exploration-dungeon-events-d10f6086]] — Procedures / Dungeon Exploration / Dungeon Events: 2 source-backed entries and 1 atom(s) from raw/rpg_cairn_2e_core.pdf.
+- [[rpg-cairn-2e-core-section-procedures-dungeon-exploration-dungeon-exploration-cycle-d0137911]] — Procedures / Dungeon Exploration / Dungeon Exploration Cycle: 9 source-backed entries and 2 atom(s) from raw/rpg_cairn_2e_core.pdf.
+- [[rpg-cairn-2e-core-section-procedures-dungeon-exploration-panic-961d699e]] — Procedures / Dungeon Exploration / Panic: 3 source-backed entries and 0 atom(s) from raw/rpg_cairn_2e_core.pdf.
+- [[rpg-cairn-2e-core-section-procedures-dungeon-exploration-the-basics-9b40d8ca]] — Procedures / Dungeon Exploration / The Basics: 6 source-backed entries and 0 atom(s) from raw/rpg_cairn_2e_core.pdf.
+- [[rpg-cairn-2e-core-section-procedures-terrain-difficulty-a8b1f689]] — Procedures / Terrain Difficulty: 39 source-backed entries and 6 atom(s) from raw/rpg_cairn_2e_core.pdf.
+- [[rpg-cairn-2e-core-section-procedures-terrain-difficulty-weather-ea44bae1]] — Procedures / Terrain Difficulty / Weather: 2 source-backed entries and 2 atom(s) from raw/rpg_cairn_2e_core.pdf.
+- [[rpg-cairn-2e-core-section-procedures-terrain-difficulty-wilderness-actions-c92bc0c2]] — Procedures / Terrain Difficulty / Wilderness Actions: 13 source-backed entries and 0 atom(s) from raw/rpg_cairn_2e_core.pdf.
+- [[rpg-cairn-2e-core-section-procedures-terrain-difficulty-wilderness-elements-16de9207]] — Procedures / Terrain Difficulty / Wilderness Elements: 18 source-backed entries and 2 atom(s) from raw/rpg_cairn_2e_core.pdf.
+- [[rpg-cairn-2e-core-section-procedures-terrain-difficulty-wilderness-exploration-cycle-d260da4f]] — Procedures / Terrain Difficulty / Wilderness Exploration Cycle: 5 source-backed entries and 1 atom(s) from raw/rpg_cairn_2e_core.pdf.
+- [[rpg-cairn-2e-core-section-procedures-wilderness-exploration-ae72f362]] — Procedures / Wilderness Exploration: 11 source-backed entries and 0 atom(s) from raw/rpg_cairn_2e_core.pdf.
+- [[rpg-cairn-2e-core-section-procedures-wilderness-exploration-points-9b2c8f92]] — Procedures / Wilderness Exploration / Points: 2 source-backed entries and 0 atom(s) from raw/rpg_cairn_2e_core.pdf.
+- [[rpg-cairn-2e-core-section-procedures-wilderness-exploration-travel-duration-dce3a799]] — Procedures / Wilderness Exploration / Travel Duration: 6 source-backed entries and 0 atom(s) from raw/rpg_cairn_2e_core.pdf.
+- [[rpg-cairn-2e-core-section-procedures-wilderness-exploration-watches-453935e7]] — Procedures / Wilderness Exploration / Watches: 3 source-backed entries and 0 atom(s) from raw/rpg_cairn_2e_core.pdf.
+- [[rpg-cairn-2e-core-section-saves-9ce57d98]] — Saves: 99 source-backed entries and 4 atom(s) from raw/rpg_cairn_2e_core.pdf.
+- [[rpg-cairn-2e-core-section-saves-aiding-an-ally-058b6835]] — Saves / Aiding an Ally: 11 source-backed entries and 0 atom(s) from raw/rpg_cairn_2e_core.pdf.
+- [[rpg-cairn-2e-core-section-saves-opposed-saves-0da1ae31]] — Saves / Opposed Saves: 8 source-backed entries and 0 atom(s) from raw/rpg_cairn_2e_core.pdf.
+- [[rpg-cairn-2e-core-section-saves-save-principles-3ab4df9a]] — Saves / Save Principles: 17 source-backed entries and 2 atom(s) from raw/rpg_cairn_2e_core.pdf.
+- [[rpg-cairn-2e-core-section-saves-traditional-saves-c05f2b84]] — Saves / Traditional Saves: 62 source-backed entries and 2 atom(s) from raw/rpg_cairn_2e_core.pdf.
+- [[rpg-cairn-2e-core-section-saves-traditional-saves-dexterity-f3bc4a3a]] — Saves / Traditional Saves / Dexterity: 9 source-backed entries and 0 atom(s) from raw/rpg_cairn_2e_core.pdf.
+- [[rpg-cairn-2e-core-section-saves-traditional-saves-strength-5fac2e6e]] — Saves / Traditional Saves / Strength: 14 source-backed entries and 0 atom(s) from raw/rpg_cairn_2e_core.pdf.
+- [[rpg-cairn-2e-core-section-saves-traditional-saves-wil-22b0cf1b]] — Saves / Traditional Saves / WIL: 39 source-backed entries and 2 atom(s) from raw/rpg_cairn_2e_core.pdf.
+- [[rpg-cairn-2e-core-section-saves-when-to-save-33474592]] — Saves / When To Save: 1 source-backed entries and 0 atom(s) from raw/rpg_cairn_2e_core.pdf.
+- [[rpg-cairn-2e-core-section-spellbooks-7040d793]] — Spellbooks: 1 source-backed entries and 1 atom(s) from raw/rpg_cairn_2e_core.pdf.
+- [[rpg-cairn-2e-core-section-wilderness-exploration-915490c7]] — Wilderness Exploration: 16 source-backed entries and 2 atom(s) from raw/rpg_cairn_2e_core.pdf.
+- [[rpg-cairn-2e-core-section-wilderness-exploration-overview-e9b078ee]] — Wilderness Exploration / Overview: 16 source-backed entries and 2 atom(s) from raw/rpg_cairn_2e_core.pdf.
+- [[rpg-cairn-2e-core-section-wilderness-exploration-overview-exploration-example-9ac96ff2]] — Wilderness Exploration / Overview / Exploration Example: 15 source-backed entries and 2 atom(s) from raw/rpg_cairn_2e_core.pdf.
+- [[rpg-dnd-srd-excerpt]] — Claim-ledger projection (general-prose): 747 usable entries, 137 technical atoms, 149 needs-review, 146 linked page(s); write decision write-with-review-work.
+- [[rpg-dnd-srd-excerpt-section-ability-checks-contests-72682d90]] — Ability Checks / Contests: 10 source-backed entries and 0 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
+- [[rpg-dnd-srd-excerpt-section-ability-checks-e5ec4644]] — Ability Checks: 157 source-backed entries and 15 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
+- [[rpg-dnd-srd-excerpt-section-ability-checks-passive-checks-17f49270]] — Ability Checks / Passive Checks: 8 source-backed entries and 1 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
+- [[rpg-dnd-srd-excerpt-section-ability-checks-skills-221b3961]] — Ability Checks / Skills: 25 source-backed entries and 4 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
+- [[rpg-dnd-srd-excerpt-section-ability-checks-skills-variant-skills-with-different-abilities-c0562cd9]] — Ability Checks / Skills / Variant: Skills with Different Abilities: 7 source-backed entries and 1 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
+- [[rpg-dnd-srd-excerpt-section-ability-checks-using-each-ability-71f6f002]] — Ability Checks / Using Each Ability: 88 source-backed entries and 8 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
+- [[rpg-dnd-srd-excerpt-section-ability-checks-using-each-ability-charisma-1389b0a2]] — Ability Checks / Using Each Ability / Charisma: 13 source-backed entries and 0 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
+- [[rpg-dnd-srd-excerpt-section-ability-checks-using-each-ability-constitution-d22155f1]] — Ability Checks / Using Each Ability / Constitution: 11 source-backed entries and 1 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
+- [[rpg-dnd-srd-excerpt-section-ability-checks-using-each-ability-dexterity-d06407ed]] — Ability Checks / Using Each Ability / Dexterity: 24 source-backed entries and 5 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
+- [[rpg-dnd-srd-excerpt-section-ability-checks-using-each-ability-intelligence-e1ab64e1]] — Ability Checks / Using Each Ability / Intelligence: 6 source-backed entries and 0 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
+- [[rpg-dnd-srd-excerpt-section-ability-checks-using-each-ability-strength-c1f7c7f6]] — Ability Checks / Using Each Ability / Strength: 22 source-backed entries and 0 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
+- [[rpg-dnd-srd-excerpt-section-ability-checks-using-each-ability-wisdom-013221f0]] — Ability Checks / Using Each Ability / Wisdom: 11 source-backed entries and 2 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
+- [[rpg-dnd-srd-excerpt-section-ability-checks-working-together-86eab60d]] — Ability Checks / Working Together: 16 source-backed entries and 1 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
+- [[rpg-dnd-srd-excerpt-section-ability-checks-working-together-group-checks-9b0dce38]] — Ability Checks / Working Together / Group Checks: 7 source-backed entries and 0 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
+- [[rpg-dnd-srd-excerpt-section-actions-in-combat-a776ce7e]] — Actions in Combat: 39 source-backed entries and 12 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
+- [[rpg-dnd-srd-excerpt-section-actions-in-combat-attack-6a51709e]] — Actions in Combat / Attack: 3 source-backed entries and 0 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
+- [[rpg-dnd-srd-excerpt-section-actions-in-combat-cast-a-spell-db1ef90a]] — Actions in Combat / Cast a Spell: 5 source-backed entries and 1 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
+- [[rpg-dnd-srd-excerpt-section-actions-in-combat-dash-213ad256]] — Actions in Combat / Dash: 3 source-backed entries and 3 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
+- [[rpg-dnd-srd-excerpt-section-actions-in-combat-dodge-9b655c9e]] — Actions in Combat / Dodge: 2 source-backed entries and 1 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
+- [[rpg-dnd-srd-excerpt-section-actions-in-combat-help-1b128738]] — Actions in Combat / Help: 6 source-backed entries and 2 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
+- [[rpg-dnd-srd-excerpt-section-actions-in-combat-hide-24912d36]] — Actions in Combat / Hide: 2 source-backed entries and 1 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
+- [[rpg-dnd-srd-excerpt-section-actions-in-combat-ready-ed2e2823]] — Actions in Combat / Ready: 11 source-backed entries and 2 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
+- [[rpg-dnd-srd-excerpt-section-actions-in-combat-search-fe0fde85]] — Actions in Combat / Search: 1 source-backed entries and 0 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
+- [[rpg-dnd-srd-excerpt-section-actions-in-combat-use-an-object-54433986]] — Actions in Combat / Use an Object: 3 source-backed entries and 1 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
+- [[rpg-dnd-srd-excerpt-section-advantage-and-disadvantage-11435a3d]] — Advantage and Disadvantage: 18 source-backed entries and 4 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
+- [[rpg-dnd-srd-excerpt-section-armor-047bdd0c]] — Armor: 41 source-backed entries and 6 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
+- [[rpg-dnd-srd-excerpt-section-armor-getting-into-and-out-of-armor-4f36fec5]] — Armor / Getting Into and Out of Armor: 5 source-backed entries and 2 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
+- [[rpg-dnd-srd-excerpt-section-armor-heavy-armor-af16bb73]] — Armor / Heavy Armor: 11 source-backed entries and 1 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
+- [[rpg-dnd-srd-excerpt-section-armor-light-armor-f7655834]] — Armor / Light Armor: 3 source-backed entries and 1 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
+- [[rpg-dnd-srd-excerpt-section-armor-medium-armor-eea6a695]] — Armor / Medium Armor: 10 source-backed entries and 1 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
+- [[rpg-dnd-srd-excerpt-section-combat-step-by-step-b2ad6fe6]] — Combat Step by Step: 35 source-backed entries and 6 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
+- [[rpg-dnd-srd-excerpt-section-combat-step-by-step-bonus-actions-a95f7713]] — Combat Step by Step / Bonus Actions: 2 source-backed entries and 2 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
+- [[rpg-dnd-srd-excerpt-section-combat-step-by-step-initiative-3e50da11]] — Combat Step by Step / Initiative: 7 source-backed entries and 1 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
+- [[rpg-dnd-srd-excerpt-section-combat-step-by-step-other-activity-on-your-turn-caea7f56]] — Combat Step by Step / Other Activity on Your Turn: 7 source-backed entries and 1 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
+- [[rpg-dnd-srd-excerpt-section-combat-step-by-step-surprise-d8c809a8]] — Combat Step by Step / Surprise: 6 source-backed entries and 1 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
+- [[rpg-dnd-srd-excerpt-section-combat-step-by-step-your-turn-44537c5b]] — Combat Step by Step / Your Turn: 6 source-backed entries and 1 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
+- [[rpg-dnd-srd-excerpt-section-conditions-blinded-f5db3655]] — Conditions / Blinded: 2 source-backed entries and 0 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
+- [[rpg-dnd-srd-excerpt-section-conditions-charmed-c64c2f45]] — Conditions / Charmed: 1 source-backed entries and 0 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
+- [[rpg-dnd-srd-excerpt-section-conditions-deafened-8b95d15f]] — Conditions / Deafened: 1 source-backed entries and 0 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
+- [[rpg-dnd-srd-excerpt-section-conditions-exhaustion-ded30d76]] — Conditions / Exhaustion: 9 source-backed entries and 2 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
+- [[rpg-dnd-srd-excerpt-section-conditions-faf6a13e]] — Conditions: 56 source-backed entries and 2 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
+- [[rpg-dnd-srd-excerpt-section-conditions-frightened-346c0617]] — Conditions / Frightened: 3 source-backed entries and 0 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
+- [[rpg-dnd-srd-excerpt-section-conditions-grappled-97b48c4d]] — Conditions / Grappled: 3 source-backed entries and 0 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
+- [[rpg-dnd-srd-excerpt-section-conditions-incapacitated-cc3a61e0]] — Conditions / Incapacitated: 1 source-backed entries and 0 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
+- [[rpg-dnd-srd-excerpt-section-conditions-invisible-4ddd092c]] — Conditions / Invisible: 3 source-backed entries and 0 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
+- [[rpg-dnd-srd-excerpt-section-conditions-paralyzed-a9c95cc0]] — Conditions / Paralyzed: 4 source-backed entries and 0 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
+- [[rpg-dnd-srd-excerpt-section-conditions-petrified-1d25b7db]] — Conditions / Petrified: 5 source-backed entries and 0 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
+- [[rpg-dnd-srd-excerpt-section-conditions-poisoned-b3e3baf3]] — Conditions / Poisoned: 1 source-backed entries and 0 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
+- [[rpg-dnd-srd-excerpt-section-conditions-prone-ab5ec9bd]] — Conditions / Prone: 5 source-backed entries and 0 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
+- [[rpg-dnd-srd-excerpt-section-conditions-restrained-9372a408]] — Conditions / Restrained: 3 source-backed entries and 0 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
+- [[rpg-dnd-srd-excerpt-section-conditions-stunned-a884c3de]] — Conditions / Stunned: 3 source-backed entries and 0 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
+- [[rpg-dnd-srd-excerpt-section-conditions-unconscious-e085d431]] — Conditions / Unconscious: 4 source-backed entries and 0 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
+- [[rpg-dnd-srd-excerpt-section-dungeons-dragons-srd-5-1-core-rules-excerpt-96b58469]] — Dungeons & Dragons SRD 5.1 -Core Rules (Excerpt): 1 source-backed entries and 0 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
+- [[rpg-dnd-srd-excerpt-section-making-an-attack-attack-rolls-dfcba972]] — Making an Attack / Attack Rolls: 16 source-backed entries and 3 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
+- [[rpg-dnd-srd-excerpt-section-making-an-attack-attack-rolls-modifiers-to-the-roll-e1cbeafd]] — Making an Attack / Attack Rolls / Modifiers to the Roll: 7 source-backed entries and 1 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
+- [[rpg-dnd-srd-excerpt-section-making-an-attack-attack-rolls-rolling-1-or-20-74e94540]] — Making an Attack / Attack Rolls / Rolling 1 or 20: 4 source-backed entries and 1 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
+- [[rpg-dnd-srd-excerpt-section-making-an-attack-c6ab4f78]] — Making an Attack: 180 source-backed entries and 33 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
+- [[rpg-dnd-srd-excerpt-section-making-an-attack-cover-1384430a]] — Making an Attack / Cover: 14 source-backed entries and 1 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
+- [[rpg-dnd-srd-excerpt-section-making-an-attack-damage-and-healing-b32dd12e]] — Making an Attack / Damage and Healing: 71 source-backed entries and 13 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
+- [[rpg-dnd-srd-excerpt-section-making-an-attack-damage-and-healing-critical-hits-196c6883]] — Making an Attack / Damage and Healing / Critical Hits: 7 source-backed entries and 2 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
+- [[rpg-dnd-srd-excerpt-section-making-an-attack-damage-and-healing-damage-resistance-and-vulnerability-abc99e48]] — Making an Attack / Damage and Healing / Damage Resistance and Vulnerability: 6 source-backed entries and 2 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
+- [[rpg-dnd-srd-excerpt-section-making-an-attack-damage-and-healing-damage-rolls-7971edcc]] — Making an Attack / Damage and Healing / Damage Rolls: 8 source-backed entries and 2 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
+- [[rpg-dnd-srd-excerpt-section-making-an-attack-damage-and-healing-damage-types-11eef162]] — Making an Attack / Damage and Healing / Damage Types: 6 source-backed entries and 0 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
+- [[rpg-dnd-srd-excerpt-section-making-an-attack-damage-and-healing-death-saving-throws-e446fb81]] — Making an Attack / Damage and Healing / Death Saving Throws: 18 source-backed entries and 3 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
+- [[rpg-dnd-srd-excerpt-section-making-an-attack-damage-and-healing-dropping-to-0-hit-points-21ed6aac]] — Making an Attack / Damage and Healing / Dropping to 0 Hit Points: 1 source-backed entries and 0 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
+- [[rpg-dnd-srd-excerpt-section-making-an-attack-damage-and-healing-falling-unconscious-4cdcb37a]] — Making an Attack / Damage and Healing / Falling Unconscious: 1 source-backed entries and 0 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
+- [[rpg-dnd-srd-excerpt-section-making-an-attack-damage-and-healing-healing-ef23ad30]] — Making an Attack / Damage and Healing / Healing: 10 source-backed entries and 1 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
+- [[rpg-dnd-srd-excerpt-section-making-an-attack-damage-and-healing-hit-points-a109b86a]] — Making an Attack / Damage and Healing / Hit Points: 6 source-backed entries and 1 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
+- [[rpg-dnd-srd-excerpt-section-making-an-attack-damage-and-healing-instant-death-a44475b1]] — Making an Attack / Damage and Healing / Instant Death: 4 source-backed entries and 2 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
+- [[rpg-dnd-srd-excerpt-section-making-an-attack-damage-and-healing-monsters-and-death-43112050]] — Making an Attack / Damage and Healing / Monsters and Death: 2 source-backed entries and 0 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
+- [[rpg-dnd-srd-excerpt-section-making-an-attack-knocking-a-creature-out-e1fe61a8]] — Making an Attack / Knocking a Creature Out: 3 source-backed entries and 1 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
+- [[rpg-dnd-srd-excerpt-section-making-an-attack-melee-attacks-03adb000]] — Making an Attack / Melee Attacks: 42 source-backed entries and 9 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
+- [[rpg-dnd-srd-excerpt-section-making-an-attack-melee-attacks-grappling-c58f2b05]] — Making an Attack / Melee Attacks / Grappling: 11 source-backed entries and 4 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
+- [[rpg-dnd-srd-excerpt-section-making-an-attack-melee-attacks-shoving-a-creature-8e0a3d06]] — Making an Attack / Melee Attacks / Shoving a Creature: 7 source-backed entries and 1 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
+- [[rpg-dnd-srd-excerpt-section-making-an-attack-melee-attacks-two-weapon-fighting-26cc0ae5]] — Making an Attack / Melee Attacks / Two-Weapon Fighting: 4 source-backed entries and 2 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
+- [[rpg-dnd-srd-excerpt-section-making-an-attack-ranged-attacks-f6c06cad]] — Making an Attack / Ranged Attacks: 14 source-backed entries and 0 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
+- [[rpg-dnd-srd-excerpt-section-making-an-attack-ranged-attacks-range-d2b76065]] — Making an Attack / Ranged Attacks / Range: 8 source-backed entries and 0 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
+- [[rpg-dnd-srd-excerpt-section-making-an-attack-ranged-attacks-ranged-attacks-in-close-combat-feac9741]] — Making an Attack / Ranged Attacks / Ranged Attacks in Close Combat: 3 source-backed entries and 0 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
+- [[rpg-dnd-srd-excerpt-section-making-an-attack-temporary-hit-points-ba78c103]] — Making an Attack / Temporary Hit Points: 6 source-backed entries and 3 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
+- [[rpg-dnd-srd-excerpt-section-making-an-attack-unseen-attackers-and-targets-c8bd88ef]] — Making an Attack / Unseen Attackers and Targets: 5 source-backed entries and 2 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
+- [[rpg-dnd-srd-excerpt-section-mounted-combat-563b0c2c]] — Mounted Combat: 17 source-backed entries and 4 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
+- [[rpg-dnd-srd-excerpt-section-mounted-combat-controlling-a-mount-b99d8d93]] — Mounted Combat / Controlling a Mount: 11 source-backed entries and 2 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
+- [[rpg-dnd-srd-excerpt-section-mounted-combat-mounting-and-dismounting-b8dc4d24]] — Mounted Combat / Mounting and Dismounting: 3 source-backed entries and 2 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
+- [[rpg-dnd-srd-excerpt-section-movement-and-position-being-prone-a0d864eb]] — Movement and Position / Being Prone: 9 source-backed entries and 2 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
+- [[rpg-dnd-srd-excerpt-section-movement-and-position-breaking-up-your-move-fe925056]] — Movement and Position / Breaking Up Your Move: 9 source-backed entries and 6 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
+- [[rpg-dnd-srd-excerpt-section-movement-and-position-breaking-up-your-move-moving-between-attacks-c67dd21c]] — Movement and Position / Breaking Up Your Move / Moving between Attacks: 2 source-backed entries and 2 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
+- [[rpg-dnd-srd-excerpt-section-movement-and-position-breaking-up-your-move-using-different-speeds-3dc39c16]] — Movement and Position / Breaking Up Your Move / Using Different Speeds: 5 source-backed entries and 2 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
+- [[rpg-dnd-srd-excerpt-section-movement-and-position-c95fcfd8]] — Movement and Position: 55 source-backed entries and 13 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
+- [[rpg-dnd-srd-excerpt-section-movement-and-position-creature-size-6ec08d8a]] — Movement and Position / Creature Size: 19 source-backed entries and 3 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
+- [[rpg-dnd-srd-excerpt-section-movement-and-position-creature-size-space-33f8fe7b]] — Movement and Position / Creature Size / Space: 16 source-backed entries and 2 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
+- [[rpg-dnd-srd-excerpt-section-movement-and-position-difficult-terrain-f2e228ff]] — Movement and Position / Difficult Terrain: 3 source-backed entries and 0 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
+- [[rpg-dnd-srd-excerpt-section-movement-and-position-flying-movement-64804606]] — Movement and Position / Flying Movement: 3 source-backed entries and 1 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
+- [[rpg-dnd-srd-excerpt-section-movement-and-position-moving-around-other-creatures-8da8f305]] — Movement and Position / Moving Around Other Creatures: 6 source-backed entries and 1 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
+- [[rpg-dnd-srd-excerpt-section-order-of-combat-40c586d3]] — ORDER OF COMBAT: 4 source-backed entries and 0 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
+- [[rpg-dnd-srd-excerpt-section-proficiency-bonus-3b149c8c]] — Proficiency Bonus: 11 source-backed entries and 5 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
+- [[rpg-dnd-srd-excerpt-section-reactions-601ca1ab]] — Reactions: 6 source-backed entries and 1 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
+- [[rpg-dnd-srd-excerpt-section-sample-monsters-754d4e18]] — Sample Monsters: 18 source-backed entries and 14 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
+- [[rpg-dnd-srd-excerpt-section-sample-monsters-goblin-132b780a]] — Sample Monsters / Goblin: 18 source-backed entries and 14 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
+- [[rpg-dnd-srd-excerpt-section-sample-monsters-goblin-skeleton-fbca833a]] — Sample Monsters / Goblin / Skeleton: 3 source-backed entries and 3 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
+- [[rpg-dnd-srd-excerpt-section-sample-monsters-goblin-wolf-5528fbce]] — Sample Monsters / Goblin / Wolf: 6 source-backed entries and 3 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
+- [[rpg-dnd-srd-excerpt-section-sample-monsters-goblin-zombie-11723a2b]] — Sample Monsters / Goblin / Zombie: 4 source-backed entries and 4 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
+- [[rpg-dnd-srd-excerpt-section-sample-spells-8d42e098]] — Sample Spells: 12 source-backed entries and 3 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
+- [[rpg-dnd-srd-excerpt-section-sample-spells-cure-wounds-288cdb53]] — Sample Spells / Cure Wounds: 2 source-backed entries and 1 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
+- [[rpg-dnd-srd-excerpt-section-sample-spells-fireball-32673066]] — Sample Spells / Fireball: 4 source-backed entries and 1 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
+- [[rpg-dnd-srd-excerpt-section-sample-spells-magic-missile-7d6e25b9]] — Sample Spells / Magic Missile: 4 source-backed entries and 1 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
+- [[rpg-dnd-srd-excerpt-section-sample-spells-shield-d8a86304]] — Sample Spells / Shield: 2 source-backed entries and 0 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
+- [[rpg-dnd-srd-excerpt-section-saving-throws-e3ad3ac4]] — Saving Throws: 14 source-backed entries and 0 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
+- [[rpg-dnd-srd-excerpt-section-underwater-combat-28d0d6a3]] — Underwater Combat: 5 source-backed entries and 0 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
+- [[rpg-dnd-srd-excerpt-section-using-ability-scores-aa02bded]] — USING ABILITY SCORES: 11 source-backed entries and 1 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
+- [[rpg-dnd-srd-excerpt-section-using-ability-scores-ability-scores-and-modifiers-4e04f869]] — USING ABILITY SCORES / Ability Scores and Modifiers: 7 source-backed entries and 1 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
+- [[rpg-dnd-srd-excerpt-section-weapons-ba2ad489]] — Weapons: 67 source-backed entries and 18 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
+- [[rpg-dnd-srd-excerpt-section-weapons-weapon-proficiency-545cd924]] — Weapons / Weapon Proficiency: 9 source-backed entries and 1 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
+- [[rpg-dnd-srd-excerpt-section-weapons-weapon-properties-52847cbe]] — Weapons / Weapon Properties: 52 source-backed entries and 17 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
+- [[rpg-dnd-srd-excerpt-section-weapons-weapon-properties-improvised-weapons-24ec8208]] — Weapons / Weapon Properties / Improvised Weapons: 27 source-backed entries and 11 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
 
 ## Entities
 
@@ -621,18 +602,18 @@ Regenerated ingest pages will be linked here by the ingest workflow.
 - [[history-dickens-england-excerpt-year]] — Year: 13 statement(s) and 0 atom(s) from raw/history_dickens_england_excerpt.pdf.
 - [[history-dickens-england-excerpt-young]] — Young: 7 statement(s) and 0 atom(s) from raw/history_dickens_england_excerpt.pdf.
 - [[history-short-history-of-england-age-crusade]] — THE AGE OF THE CRUSADES: 81 statement(s) and 0 atom(s) from raw/history_short_history_of_england.pdf.
-- [[history-short-history-of-england-age-legend]] — THE AGE OF LEGENDS: 84 statement(s) and 2 atom(s) from raw/history_short_history_of_england.pdf.
+- [[history-short-history-of-england-age-legend]] — THE AGE OF LEGENDS: 84 statement(s) and 0 atom(s) from raw/history_short_history_of_england.pdf.
 - [[history-short-history-of-england-age-puritan]] — THE AGE OF THE PURITANS: 107 statement(s) and 0 atom(s) from raw/history_short_history_of_england.pdf.
 - [[history-short-history-of-england-aristocracy-and-discontent]] — ARISTOCRACY AND THE DISCONTENTS: 99 statement(s) and 0 atom(s) from raw/history_short_history_of_england.pdf.
+- [[history-short-history-of-england-century]] — Century: 13 statement(s) and 0 atom(s) from raw/history_short_history_of_england.pdf.
 - [[history-short-history-of-england-defeat-barbarian]] — THE DEFEAT OF THE BARBARIANS: 94 statement(s) and 0 atom(s) from raw/history_short_history_of_england.pdf.
 - [[history-short-history-of-england-edward-and-norman-king]] — ST. EDWARD AND THE NORMAN KINGS: 114 statement(s) and 0 atom(s) from raw/history_short_history_of_england.pdf.
-- [[history-short-history-of-england-end]] — THE END: 36 statement(s) and 2 atom(s) from raw/history_short_history_of_england.pdf.
-- [[history-short-history-of-england-england]] — England: 28 statement(s) and 2 atom(s) from raw/history_short_history_of_england.pdf.
+- [[history-short-history-of-england-end]] — THE END: 29 statement(s) and 1 atom(s) from raw/history_short_history_of_england.pdf.
+- [[history-short-history-of-england-england]] — England: 28 statement(s) and 1 atom(s) from raw/history_short_history_of_england.pdf.
 - [[history-short-history-of-england-english]] — English: 41 statement(s) and 0 atom(s) from raw/history_short_history_of_england.pdf.
 - [[history-short-history-of-england-france]] — France: 14 statement(s) and 0 atom(s) from raw/history_short_history_of_england.pdf.
 - [[history-short-history-of-england-french-wars]] — French Wars: 11 statement(s) and 0 atom(s) from raw/history_short_history_of_england.pdf.
-- [[history-short-history-of-england-history]] — History: 25 statement(s) and 2 atom(s) from raw/history_short_history_of_england.pdf.
-- [[history-short-history-of-england-iii]] — III: 84 statement(s) and 2 atom(s) from raw/history_short_history_of_england.pdf.
+- [[history-short-history-of-england-history]] — History: 25 statement(s) and 1 atom(s) from raw/history_short_history_of_england.pdf.
 - [[history-short-history-of-england-king]] — King: 27 statement(s) and 0 atom(s) from raw/history_short_history_of_england.pdf.
 - [[history-short-history-of-england-meaning-merry-england]] — THE MEANING OF MERRY ENGLAND: 124 statement(s) and 0 atom(s) from raw/history_short_history_of_england.pdf.
 - [[history-short-history-of-england-nationality-and-french-wars]] — NATIONALITY AND THE FRENCH WARS: 110 statement(s) and 0 atom(s) from raw/history_short_history_of_england.pdf.
@@ -642,85 +623,85 @@ Regenerated ingest pages will be linked here by the ingest workflow.
 - [[history-short-history-of-england-province-britain]] — THE PROVINCE OF BRITAIN: 109 statement(s) and 0 atom(s) from raw/history_short_history_of_england.pdf.
 - [[history-short-history-of-england-rebellion-rich]] — THE REBELLION OF THE RICH: 118 statement(s) and 0 atom(s) from raw/history_short_history_of_england.pdf.
 - [[history-short-history-of-england-return-barbarian]] — THE RETURN OF THE BARBARIAN: 97 statement(s) and 0 atom(s) from raw/history_short_history_of_england.pdf.
-- [[history-short-history-of-england-short-history-england]] — A SHORT HISTORY OF ENGLAND [Pg 1]: 1748 statement(s) and 2 atom(s) from raw/history_short_history_of_england.pdf.
+- [[history-short-history-of-england-revolution]] — Revolution: 14 statement(s) and 0 atom(s) from raw/history_short_history_of_england.pdf.
+- [[history-short-history-of-england-roman]] — Roman: 14 statement(s) and 0 atom(s) from raw/history_short_history_of_england.pdf.
+- [[history-short-history-of-england-short-history-england]] — A SHORT HISTORY OF ENGLAND [Pg 1]: 1741 statement(s) and 1 atom(s) from raw/history_short_history_of_england.pdf.
 - [[history-short-history-of-england-spain-and-schism-nation]] — SPAIN AND THE SCHISM OF NATIONS: 98 statement(s) and 0 atom(s) from raw/history_short_history_of_england.pdf.
 - [[history-short-history-of-england-triumph-whig]] — THE TRIUMPH OF THE WHIGS: 129 statement(s) and 0 atom(s) from raw/history_short_history_of_england.pdf.
-- [[history-short-history-of-england-vii]] — VII: 99 statement(s) and 2 atom(s) from raw/history_short_history_of_england.pdf.
-- [[history-short-history-of-england-viii]] — VIII: 124 statement(s) and 2 atom(s) from raw/history_short_history_of_england.pdf.
 - [[history-short-history-of-england-war-republic]] — THE WAR WITH THE GREAT REPUBLICS: 101 statement(s) and 0 atom(s) from raw/history_short_history_of_england.pdf.
 - [[history-short-history-of-england-war-usurper]] — THE WAR OF THE USURPERS: 95 statement(s) and 0 atom(s) from raw/history_short_history_of_england.pdf.
-- [[history-short-history-of-england-xvi]] — XVI: 99 statement(s) and 2 atom(s) from raw/history_short_history_of_england.pdf.
-- [[history-short-history-of-england-xvii]] — XVII: 97 statement(s) and 2 atom(s) from raw/history_short_history_of_england.pdf.
-- [[history-short-history-of-england-xviii]] — XVIII: 60 statement(s) and 2 atom(s) from raw/history_short_history_of_england.pdf.
+- [[history-short-history-of-england-xvi]] — XVI: 99 statement(s) and 1 atom(s) from raw/history_short_history_of_england.pdf.
+- [[history-short-history-of-england-xvii]] — XVII: 97 statement(s) and 1 atom(s) from raw/history_short_history_of_england.pdf.
+- [[history-short-history-of-england-xviii]] — XVIII: 53 statement(s) and 1 atom(s) from raw/history_short_history_of_england.pdf.
 - [[interface]] — Canonical concept 'Interface': 2 source(s), 21 statement(s), 8 atom(s), 0 relation(s).
 - [[introduction]] — Canonical concept 'Introduction': 2 source(s), 25 statement(s), 4 atom(s), 0 relation(s).
 - [[king]] — Canonical concept 'King': 2 source(s), 82 statement(s), 0 atom(s), 0 relation(s).
 - [[package]] — Canonical concept 'Package': 2 source(s), 13 statement(s), 8 atom(s), 0 relation(s).
 - [[people]] — Canonical concept 'People': 2 source(s), 21 statement(s), 1 atom(s), 0 relation(s).
-- [[rpg-cairn-2e-core-attack]] — Attack: 5 statement(s) and 5 atom(s) from raw/rpg_cairn_2e_core.pdf.
-- [[rpg-cairn-2e-core-attack-modifier]] — Attack Modifiers: 2 statement(s) and 4 atom(s) from raw/rpg_cairn_2e_core.pdf.
-- [[rpg-cairn-2e-core-attribute-hit-protection-and-trait]] — Attributes, Hit Protection, and Traits: 5 statement(s) and 1 atom(s) from raw/rpg_cairn_2e_core.pdf.
-- [[rpg-cairn-2e-core-bond]] — Bonds: 1 statement(s) and 5 atom(s) from raw/rpg_cairn_2e_core.pdf.
-- [[rpg-cairn-2e-core-bond-and-omen]] — Bonds and Omens: 0 statement(s) and 8 atom(s) from raw/rpg_cairn_2e_core.pdf.
-- [[rpg-cairn-2e-core-bond-should]] — Bonds Should...: 4 statement(s) and 5 atom(s) from raw/rpg_cairn_2e_core.pdf.
-- [[rpg-cairn-2e-core-character]] — Character: 37 statement(s) and 3 atom(s) from raw/rpg_cairn_2e_core.pdf.
-- [[rpg-cairn-2e-core-courtyard]] — The Courtyard: 20 statement(s) and 0 atom(s) from raw/rpg_cairn_2e_core.pdf.
-- [[rpg-cairn-2e-core-critical-damage]] — Critical Damage: 5 statement(s) and 1 atom(s) from raw/rpg_cairn_2e_core.pdf.
-- [[rpg-cairn-2e-core-day-watch-three]] — Day One / Watch Three: 4 statement(s) and 4 atom(s) from raw/rpg_cairn_2e_core.pdf.
-- [[rpg-cairn-2e-core-day-watch-two]] — Day One / Watch Two: 3 statement(s) and 4 atom(s) from raw/rpg_cairn_2e_core.pdf.
-- [[rpg-cairn-2e-core-dungeon-exploration-cycle]] — Dungeon Exploration Cycle: 5 statement(s) and 2 atom(s) from raw/rpg_cairn_2e_core.pdf.
-- [[rpg-cairn-2e-core-freya]] — Freya: 9 statement(s) and 0 atom(s) from raw/rpg_cairn_2e_core.pdf.
-- [[rpg-cairn-2e-core-hireling]] — Hirelings: 2 statement(s) and 4 atom(s) from raw/rpg_cairn_2e_core.pdf.
-- [[rpg-cairn-2e-core-introduction]] — Introduction: 6 statement(s) and 2 atom(s) from raw/rpg_cairn_2e_core.pdf.
-- [[rpg-cairn-2e-core-knowledge-and-perception]] — Knowledge And Perception: 0 statement(s) and 6 atom(s) from raw/rpg_cairn_2e_core.pdf.
-- [[rpg-cairn-2e-core-lucius]] — Lucius: 14 statement(s) and 2 atom(s) from raw/rpg_cairn_2e_core.pdf.
-- [[rpg-cairn-2e-core-omen]] — Omens: 4 statement(s) and 4 atom(s) from raw/rpg_cairn_2e_core.pdf.
-- [[rpg-cairn-2e-core-omen-should]] — Omens Should...: 2 statement(s) and 4 atom(s) from raw/rpg_cairn_2e_core.pdf.
-- [[rpg-cairn-2e-core-opposed-save]] — Opposed Saves: 7 statement(s) and 0 atom(s) from raw/rpg_cairn_2e_core.pdf.
+- [[rpg-cairn-2e-core-bond-and-omen]] — Bonds and Omens: 14 statement(s) and 1 atom(s) from raw/rpg_cairn_2e_core.pdf.
+- [[rpg-cairn-2e-core-character]] — Character: 37 statement(s) and 12 atom(s) from raw/rpg_cairn_2e_core.pdf.
+- [[rpg-cairn-2e-core-character-creation]] — Character Creation: 23 statement(s) and 13 atom(s) from raw/rpg_cairn_2e_core.pdf.
+- [[rpg-cairn-2e-core-combat]] — Combat: 31 statement(s) and 8 atom(s) from raw/rpg_cairn_2e_core.pdf.
+- [[rpg-cairn-2e-core-core-rule]] — Core Rules: 71 statement(s) and 18 atom(s) from raw/rpg_cairn_2e_core.pdf.
+- [[rpg-cairn-2e-core-courtyard]] — The Courtyard: 40 statement(s) and 0 atom(s) from raw/rpg_cairn_2e_core.pdf.
+- [[rpg-cairn-2e-core-downtime-action]] — Downtime Actions: 33 statement(s) and 4 atom(s) from raw/rpg_cairn_2e_core.pdf.
+- [[rpg-cairn-2e-core-dungeon-element]] — Dungeon Elements: 10 statement(s) and 1 atom(s) from raw/rpg_cairn_2e_core.pdf.
+- [[rpg-cairn-2e-core-dungeon-exploration]] — Dungeon Exploration: 35 statement(s) and 4 atom(s) from raw/rpg_cairn_2e_core.pdf.
+- [[rpg-cairn-2e-core-exploration]] — Exploration Example: 11 statement(s) and 2 atom(s) from raw/rpg_cairn_2e_core.pdf.
+- [[rpg-cairn-2e-core-freya]] — Freya: 16 statement(s) and 1 atom(s) from raw/rpg_cairn_2e_core.pdf.
+- [[rpg-cairn-2e-core-knowledge-and-perception]] — Knowledge And Perception: 25 statement(s) and 7 atom(s) from raw/rpg_cairn_2e_core.pdf.
+- [[rpg-cairn-2e-core-lucius]] — Lucius: 15 statement(s) and 1 atom(s) from raw/rpg_cairn_2e_core.pdf.
+- [[rpg-cairn-2e-core-magic]] — Magic: 11 statement(s) and 1 atom(s) from raw/rpg_cairn_2e_core.pdf.
+- [[rpg-cairn-2e-core-overview]] — Overview: 12 statement(s) and 2 atom(s) from raw/rpg_cairn_2e_core.pdf.
+- [[rpg-cairn-2e-core-overview-principle]] — Overview & Principles: 40 statement(s) and 3 atom(s) from raw/rpg_cairn_2e_core.pdf.
 - [[rpg-cairn-2e-core-party]] — Party: 24 statement(s) and 2 atom(s) from raw/rpg_cairn_2e_core.pdf.
 - [[rpg-cairn-2e-core-perception]] — Perception: 16 statement(s) and 5 atom(s) from raw/rpg_cairn_2e_core.pdf.
 - [[rpg-cairn-2e-core-player]] — Player: 13 statement(s) and 3 atom(s) from raw/rpg_cairn_2e_core.pdf.
-- [[rpg-cairn-2e-core-principle-for-player]] — Principles for Players: 0 statement(s) and 7 atom(s) from raw/rpg_cairn_2e_core.pdf.
-- [[rpg-cairn-2e-core-principle-for-warden]] — Principles for Wardens: 0 statement(s) and 7 atom(s) from raw/rpg_cairn_2e_core.pdf.
-- [[rpg-cairn-2e-core-result]] — Result: 9 statement(s) and 3 atom(s) from raw/rpg_cairn_2e_core.pdf.
-- [[rpg-cairn-2e-core-round]] — Rounds: 7 statement(s) and 0 atom(s) from raw/rpg_cairn_2e_core.pdf.
+- [[rpg-cairn-2e-core-principle-for-player]] — Principles for Players: 10 statement(s) and 1 atom(s) from raw/rpg_cairn_2e_core.pdf.
+- [[rpg-cairn-2e-core-principle-for-warden]] — Principles for Wardens: 22 statement(s) and 2 atom(s) from raw/rpg_cairn_2e_core.pdf.
+- [[rpg-cairn-2e-core-procedure]] — Procedures: 115 statement(s) and 15 atom(s) from raw/rpg_cairn_2e_core.pdf.
+- [[rpg-cairn-2e-core-research]] — Research: 13 statement(s) and 1 atom(s) from raw/rpg_cairn_2e_core.pdf.
 - [[rpg-cairn-2e-core-save-principle]] — Save Principles: 13 statement(s) and 2 atom(s) from raw/rpg_cairn_2e_core.pdf.
-- [[rpg-cairn-2e-core-target]] — Target: 7 statement(s) and 4 atom(s) from raw/rpg_cairn_2e_core.pdf.
-- [[rpg-cairn-2e-core-wil]] — WIL: 9 statement(s) and 4 atom(s) from raw/rpg_cairn_2e_core.pdf.
-- [[rpg-cairn-2e-core-wilderness-exploration-cycle]] — Wilderness Exploration Cycle: 3 statement(s) and 3 atom(s) from raw/rpg_cairn_2e_core.pdf.
+- [[rpg-cairn-2e-core-terrain-difficulty]] — Terrain Difficulty: 29 statement(s) and 6 atom(s) from raw/rpg_cairn_2e_core.pdf.
+- [[rpg-cairn-2e-core-traditional-save]] — Traditional Saves: 47 statement(s) and 2 atom(s) from raw/rpg_cairn_2e_core.pdf.
+- [[rpg-cairn-2e-core-training]] — Training: 12 statement(s) and 3 atom(s) from raw/rpg_cairn_2e_core.pdf.
+- [[rpg-cairn-2e-core-warden]] — Warden: 37 statement(s) and 6 atom(s) from raw/rpg_cairn_2e_core.pdf.
+- [[rpg-cairn-2e-core-wil]] — WIL: 28 statement(s) and 2 atom(s) from raw/rpg_cairn_2e_core.pdf.
+- [[rpg-cairn-2e-core-wilderness-action]] — Wilderness Actions: 13 statement(s) and 0 atom(s) from raw/rpg_cairn_2e_core.pdf.
+- [[rpg-cairn-2e-core-wilderness-element]] — Wilderness Elements: 13 statement(s) and 2 atom(s) from raw/rpg_cairn_2e_core.pdf.
 - [[rpg-cairn-2e-core-wolfram]] — Wolfram: 20 statement(s) and 2 atom(s) from raw/rpg_cairn_2e_core.pdf.
-- [[rpg-dnd-srd-excerpt-ability-score-and-modifier]] — Ability Scores and Modifiers: 7 statement(s) and 1 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
+- [[rpg-dnd-srd-excerpt-ability]] — Using Each Ability: 68 statement(s) and 8 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
+- [[rpg-dnd-srd-excerpt-ability-check]] — Ability Checks: 114 statement(s) and 15 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
+- [[rpg-dnd-srd-excerpt-action-combat]] — Actions in Combat: 20 statement(s) and 10 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
 - [[rpg-dnd-srd-excerpt-advantage]] — Advantage: 9 statement(s) and 3 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
 - [[rpg-dnd-srd-excerpt-advantage-and-disadvantage]] — Advantage and Disadvantage: 10 statement(s) and 4 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
-- [[rpg-dnd-srd-excerpt-armor]] — Armor: 9 statement(s) and 3 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
+- [[rpg-dnd-srd-excerpt-armor]] — Armor: 31 statement(s) and 6 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
+- [[rpg-dnd-srd-excerpt-attack-roll]] — Attack Rolls: 11 statement(s) and 3 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
 - [[rpg-dnd-srd-excerpt-character]] — Character: 23 statement(s) and 1 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
-- [[rpg-dnd-srd-excerpt-charisma-check]] — Charisma Checks: 11 statement(s) and 0 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
-- [[rpg-dnd-srd-excerpt-check]] — Check: 18 statement(s) and 3 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
-- [[rpg-dnd-srd-excerpt-controlling-mount]] — Controlling a Mount: 7 statement(s) and 2 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
-- [[rpg-dnd-srd-excerpt-cover]] — Cover: 10 statement(s) and 1 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
-- [[rpg-dnd-srd-excerpt-creature]] — Creature: 50 statement(s) and 8 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
-- [[rpg-dnd-srd-excerpt-damage-roll]] — Damage Rolls: 5 statement(s) and 2 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
-- [[rpg-dnd-srd-excerpt-death-saving-throw]] — Death Saving Throws: 9 statement(s) and 1 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
-- [[rpg-dnd-srd-excerpt-disadvantage]] — Disadvantage: 7 statement(s) and 3 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
-- [[rpg-dnd-srd-excerpt-goblin]] — Goblin: 1 statement(s) and 6 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
-- [[rpg-dnd-srd-excerpt-grappling]] — Grappling: 6 statement(s) and 4 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
-- [[rpg-dnd-srd-excerpt-heavy-armor]] — Heavy Armor: 9 statement(s) and 1 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
-- [[rpg-dnd-srd-excerpt-hiding]] — Hiding: 8 statement(s) and 3 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
-- [[rpg-dnd-srd-excerpt-medium-armor]] — Medium Armor: 9 statement(s) and 2 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
-- [[rpg-dnd-srd-excerpt-move]] — Move: 9 statement(s) and 3 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
-- [[rpg-dnd-srd-excerpt-proficiency]] — Proficiency: 11 statement(s) and 7 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
-- [[rpg-dnd-srd-excerpt-proficiency-bonus]] — Proficiency Bonus: 5 statement(s) and 4 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
-- [[rpg-dnd-srd-excerpt-saving-throw]] — Saving Throws: 10 statement(s) and 0 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
-- [[rpg-dnd-srd-excerpt-skill]] — Skills: 12 statement(s) and 3 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
+- [[rpg-dnd-srd-excerpt-check]] — Check: 18 statement(s) and 6 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
+- [[rpg-dnd-srd-excerpt-combat-step]] — Combat Step by Step: 27 statement(s) and 4 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
+- [[rpg-dnd-srd-excerpt-condition]] — Conditions: 43 statement(s) and 2 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
+- [[rpg-dnd-srd-excerpt-creature]] — Creature: 50 statement(s) and 11 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
+- [[rpg-dnd-srd-excerpt-creature-size]] — Creature Size: 11 statement(s) and 3 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
+- [[rpg-dnd-srd-excerpt-damage]] — Damage: 18 statement(s) and 5 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
+- [[rpg-dnd-srd-excerpt-damage-and-healing]] — Damage and Healing: 45 statement(s) and 11 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
+- [[rpg-dnd-srd-excerpt-death-saving-throw]] — Death Saving Throws: 13 statement(s) and 3 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
+- [[rpg-dnd-srd-excerpt-dexterity]] — Dexterity: 14 statement(s) and 5 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
+- [[rpg-dnd-srd-excerpt-goblin]] — Goblin: 3 statement(s) and 14 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
+- [[rpg-dnd-srd-excerpt-improvised-weapon]] — Improvised Weapons: 12 statement(s) and 11 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
+- [[rpg-dnd-srd-excerpt-melee-attack]] — Melee Attacks: 25 statement(s) and 9 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
+- [[rpg-dnd-srd-excerpt-mounted-combat]] — Mounted Combat: 10 statement(s) and 3 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
+- [[rpg-dnd-srd-excerpt-movement-and-position]] — Movement and Position: 32 statement(s) and 10 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
+- [[rpg-dnd-srd-excerpt-proficiency]] — Proficiency: 11 statement(s) and 6 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
+- [[rpg-dnd-srd-excerpt-sample-monster]] — Sample Monsters: 3 statement(s) and 14 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
+- [[rpg-dnd-srd-excerpt-skill]] — Skills: 16 statement(s) and 4 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
 - [[rpg-dnd-srd-excerpt-special]] — Special: 9 statement(s) and 9 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
-- [[rpg-dnd-srd-excerpt-special-weapon]] — Special Weapons: 5 statement(s) and 2 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
-- [[rpg-dnd-srd-excerpt-spell]] — Spell: 12 statement(s) and 5 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
-- [[rpg-dnd-srd-excerpt-table]] — Table: 5 statement(s) and 6 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
-- [[rpg-dnd-srd-excerpt-table-difficulty-class]] — Table- Difficulty Classes: 4 statement(s) and 6 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
-- [[rpg-dnd-srd-excerpt-target]] — Target: 14 statement(s) and 2 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
-- [[rpg-dnd-srd-excerpt-weapon-proficiency]] — Weapon Proficiency: 7 statement(s) and 3 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
-- [[rpg-dnd-srd-excerpt-weapon-property]] — Weapon Properties: 17 statement(s) and 7 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
-- [[rpg-dnd-srd-excerpt-wisdom-check]] — Wisdom Checks: 6 statement(s) and 2 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
+- [[rpg-dnd-srd-excerpt-spell]] — Spell: 12 statement(s) and 10 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
+- [[rpg-dnd-srd-excerpt-strength]] — Strength: 19 statement(s) and 0 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
+- [[rpg-dnd-srd-excerpt-table]] — Table: 5 statement(s) and 9 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
+- [[rpg-dnd-srd-excerpt-target]] — Target: 14 statement(s) and 5 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
+- [[rpg-dnd-srd-excerpt-weapon]] — Weapons: 41 statement(s) and 18 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
+- [[rpg-dnd-srd-excerpt-weapon-property]] — Weapon Properties: 29 statement(s) and 17 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
 - [[target]] — Canonical concept 'Target': 2 source(s), 21 statement(s), 6 atom(s), 0 relation(s).
 - [[type]] — Canonical concept 'Type': 2 source(s), 15 statement(s), 9 atom(s), 0 relation(s).
 

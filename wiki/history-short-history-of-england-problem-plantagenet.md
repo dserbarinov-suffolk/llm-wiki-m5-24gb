@@ -6,7 +6,7 @@ sources: raw/history_short_history_of_england.pdf
 updated: 2026-06-29
 domain: history-short-history-of-england
 category_path: concepts
-projection_coverage: topic-history-short-history-of-england-problem-plantagenet@698e2241b819b214b65e816b1adbbc92
+projection_coverage: topic-history-short-history-of-england-problem-plantagenet@810879da8b7fa2ba3803067d632a1b0d
 ---
 
 # THE PROBLEM OF THE PLANTAGENETS
@@ -53,9 +53,10 @@ What [[history-short-history-of-england]] covers about the problem of the planta
 ## Related pages
 
 - [[history-short-history-of-england-short-history-england]] - shared statements: A SHORT HISTORY OF ENGLAND [Pg 1] shares source evidence from A SHORT HISTORY OF ENGLAND [Pg 1] / VII / THE PROBLEM OF THE PLANTAGENETS: It is a point of prestige with what is called the Higher Criticism in all branches to proclaim that certain popular texts and authorities are "late," and therefore a ... [truncated] (99 shared statement(s))
-- [[history-short-history-of-england-vii]] - shared statements: VII shares source evidence from A SHORT HISTORY OF ENGLAND [Pg 1] / VII / THE PROBLEM OF THE PLANTAGENETS: It is a point of prestige with what is called the Higher Criticism in all branches to proclaim that certain popular texts and authorities are "late," and therefore a ... [truncated] (99 shared statement(s))
 - [[history-short-history-of-england-history]] - shared statements: History shares source evidence from A SHORT HISTORY OF ENGLAND [Pg 1] / VII / THE PROBLEM OF THE PLANTAGENETS: The first few lines of Chaucer's poem, to say nothing of thousands in the course of it, make it instantly plain that it was no case of secular revels still linked by ... [truncated] (3 shared statement(s))
 - [[history-short-history-of-england-king]] - shared statements: King shares source evidence from A SHORT HISTORY OF ENGLAND [Pg 1] / VII / THE PROBLEM OF THE PLANTAGENETS: Henry of Anjou, who brought fresh French blood into the monarchy, brought also a refreshment of the idea for which the French have always stood: the idea in the Roma ... [truncated] (3 shared statement(s))
+- [[history-short-history-of-england-revolution]] - shared statements: Revolution shares source evidence from A SHORT HISTORY OF ENGLAND [Pg 1] / VII / THE PROBLEM OF THE PLANTAGENETS: Henry of Anjou, who brought fresh French blood into the monarchy, brought also a refreshment of the idea for which the French have always stood: the idea in the Roma ... [truncated] (2 shared statement(s))
+- [[history-short-history-of-england-roman]] - shared statements: Roman shares source evidence from A SHORT HISTORY OF ENGLAND [Pg 1] / VII / THE PROBLEM OF THE PLANTAGENETS: Henry of Anjou, who brought fresh French blood into the monarchy, brought also a refreshment of the idea for which the French have always stood: the idea in the Roma ... [truncated] (2 shared statement(s))
 - [[history-short-history-of-england-english]] - shared statements: English shares source evidence from A SHORT HISTORY OF ENGLAND [Pg 1] / VII / THE PROBLEM OF THE PLANTAGENETS: Magna Carta was not a step towards democracy, but it was a step away from despotism. If we hold that double truth firmly, we have something like a key to the rest of ... [truncated] (1 shared statement(s))
 - [[history-short-history-of-england-france]] - shared statements: France shares source evidence from A SHORT HISTORY OF ENGLAND [Pg 1] / VII / THE PROBLEM OF THE PLANTAGENETS: Henry of Anjou, who brought fresh French blood into the monarchy, brought also a refreshment of the idea for which the French have always stood: the idea in the Roma ... [truncated] (1 shared statement(s))
 - [[history-short-history-of-england-people]] - shared statements: People shares source evidence from A SHORT HISTORY OF ENGLAND [Pg 1] / VII / THE PROBLEM OF THE PLANTAGENETS: Our world, then, cannot understand St. Thomas, any more than St. Francis, without accepting very simply a flaming and even fantastic charity, by which the great Arch ... [truncated] (1 shared statement(s))

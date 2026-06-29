@@ -87,7 +87,7 @@ def extract_segment(
         bucket = calibration.bucket_for(capability.extractor_capability_id, score)
         payload, review_reason = (
             _materialize(capability.extractor_capability_id, segment, profile)
-            if _passes_score_gate(capability.extractor_capability_id, score, calibration)
+            if _passes_score_gate(capability.extractor_capability_id, segment, score, calibration)
             else (None, None)
         )
         decision_id = deterministic_id(
@@ -149,9 +149,16 @@ def _materialize(
         result = materialize_code_block(segment)
         return (result[0], None) if result else (None, None)
     if capability_id == "table-extractor":
-        if profile.value("table-density") < _TABLE_GATE:
+        if segment.segment_kind != "table-block" and profile.value("table-density") < _TABLE_GATE:
             return None, None
-        return materialize_table(segment)
+        payload, review_reason = materialize_table(segment)
+        if (
+            segment.segment_kind == "table-block"
+            and payload.parse_status == "unparsed"
+            and profile.value("table-density") < _TABLE_GATE
+        ):
+            return None, None
+        return payload, review_reason
     if capability_id == "formula-extractor":
         return materialize_formula(segment), None
     if capability_id == "figure-extractor":
@@ -166,11 +173,13 @@ def _materialize(
 
 
 def _passes_score_gate(
-    capability_id: str, score: float, calibration: CalibrationPolicy
+    capability_id: str, segment: SourceSegment, score: float, calibration: CalibrationPolicy
 ) -> bool:
     if capability_id == "code-block-extractor":
         return True
     if capability_id == "table-extractor":
+        if segment.segment_kind == "table-block":
+            return True
         return score >= _TABLE_GATE
     if capability_id == "figure-extractor":
         return score >= 1.0
@@ -235,9 +244,17 @@ def _abstain_reason(
             "schema-mismatch",
             schema_failure=SchemaFailure(("ranker_score",), "score outside calibration range"),
         )
-    threshold = calibration.threshold(capability_id)
-    gate = threshold.medium if threshold is not None else 0.4
+    gate = (
+        _TABLE_GATE
+        if capability_id == "table-extractor"
+        else _capability_gate(capability_id, calibration)
+    )
     return AbstainReason("low-ranker-score", score_gate=ScoreGate(score, gate))
+
+
+def _capability_gate(capability_id: str, calibration: CalibrationPolicy) -> float:
+    threshold = calibration.threshold(capability_id)
+    return threshold.medium if threshold is not None else 0.4
 
 
 def _atom_kind(capability_id: str) -> str:

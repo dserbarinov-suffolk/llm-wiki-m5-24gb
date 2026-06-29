@@ -6,7 +6,7 @@ sources: raw/history_short_history_of_england.pdf
 updated: 2026-06-29
 domain: history-short-history-of-england
 category_path: concepts
-projection_coverage: topic-history-short-history-of-england-province-britain@6441f9b18782a24929a501c5ae925c8e
+projection_coverage: topic-history-short-history-of-england-province-britain@6c2f723b443125000cda22ed31a1706d
 ---
 
 # THE PROVINCE OF BRITAIN
@@ -49,11 +49,13 @@ What [[history-short-history-of-england]] covers about the province of britain:
 ## Related pages
 
 - [[history-short-history-of-england-short-history-england]] - shared statements: A SHORT HISTORY OF ENGLAND [Pg 1] shares source evidence from A SHORT HISTORY OF ENGLAND [Pg 1] / I / THE PROVINCE OF BRITAIN: The land on which we live once had the highly poetic privilege of being the end of the world. Its extremity was ultima Thule , the other end of nowhere. When these i ... [truncated] (109 shared statement(s))
+- [[history-short-history-of-england-roman]] - shared statements: Roman shares source evidence from A SHORT HISTORY OF ENGLAND [Pg 1] / I / THE PROVINCE OF BRITAIN: Britain was directly Roman for fully four hundred years; longer than she has been Protestant, and very much longer than she has been industrial. What was meant by be ... [truncated] (3 shared statement(s))
 - [[history-short-history-of-england-english]] - shared statements: English shares source evidence from A SHORT HISTORY OF ENGLAND [Pg 1] / I / THE PROVINCE OF BRITAIN: The sentiment was not unsuitable, even in geography. About these realms upon the edge of everything there was really something that can only be called edgy. Britain ... [truncated] (2 shared statement(s))
 - [[history-short-history-of-england-england]] - shared statements: England shares source evidence from A SHORT HISTORY OF ENGLAND [Pg 1] / I / THE PROVINCE OF BRITAIN: Every now and then there is discovered in modern England some fragment such as a Roman pavement. Such Roman antiquities rather diminish than increase the Roman reali ... [truncated] (1 shared statement(s))
 - [[history-short-history-of-england-france]] - shared statements: France shares source evidence from A SHORT HISTORY OF ENGLAND [Pg 1] / I / THE PROVINCE OF BRITAIN: Every now and then there is discovered in modern England some fragment such as a Roman pavement. Such Roman antiquities rather diminish than increase the Roman reali ... [truncated] (1 shared statement(s))
 - [[history-short-history-of-england-history]] - shared statements: History shares source evidence from A SHORT HISTORY OF ENGLAND [Pg 1] / I / THE PROVINCE OF BRITAIN: But while a million little priests and monks like mice were already nibbling at the bonds of the ancient servitude, another process was going on, which has here been ... [truncated] (1 shared statement(s))
 - [[history-short-history-of-england-people]] - shared statements: People shares source evidence from A SHORT HISTORY OF ENGLAND [Pg 1] / I / THE PROVINCE OF BRITAIN: The sentiment was not unsuitable, even in geography. About these realms upon the edge of everything there was really something that can only be called edgy. Britain ... [truncated] (1 shared statement(s))
+- [[history-short-history-of-england-revolution]] - shared statements: Revolution shares source evidence from A SHORT HISTORY OF ENGLAND [Pg 1] / I / THE PROVINCE OF BRITAIN: About that revolution no man has ever been able to be impartial. The present writer will make no idle pretence of being so. That it was the most revolutionary of all ... [truncated] (1 shared statement(s))
 - [[history-short-history-of-england-section-a-short-history-of-england-pg-1-i-the-province-of-britain-4caeac08]] - source section: A SHORT HISTORY OF ENGLAND [Pg 1] / I / THE PROVINCE OF BRITAIN shares source evidence from A SHORT HISTORY OF ENGLAND [Pg 1] / I / THE PROVINCE OF BRITAIN: The land on which we live once had the highly poetic privilege of being the end of the world. Its extremity was ultima Thule , the other end of nowhere. When these i ... [truncated] (109 shared statement(s))
 
 ## Source

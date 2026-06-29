@@ -6,7 +6,7 @@ sources: raw/history_short_history_of_england.pdf
 updated: 2026-06-29
 domain: history-short-history-of-england
 category_path: concepts
-projection_coverage: topic-history-short-history-of-england-france@639c7d0a5fc9b7fadbfd71b1fd4c3165
+projection_coverage: topic-history-short-history-of-england-france@5d3916c8237f39c5875134e4b24c5311
 ---
 
 # France
@@ -70,7 +70,6 @@ What [[history-short-history-of-england]] covers about france:
 - [[history-short-history-of-england-province-britain]] - shared statements: THE PROVINCE OF BRITAIN shares source evidence from A SHORT HISTORY OF ENGLAND [Pg 1] / I / THE PROVINCE OF BRITAIN: Every now and then there is discovered in modern England some fragment such as a Roman pavement. Such Roman antiquities rather diminish than increase the Roman reali ... [truncated] (1 shared statement(s))
 - [[history-short-history-of-england-spain-and-schism-nation]] - shared statements: SPAIN AND THE SCHISM OF NATIONS shares source evidence from A SHORT HISTORY OF ENGLAND [Pg 1] / XII / SPAIN AND THE SCHISM OF NATIONS: There is a truth also in the popular insistence on the story of Mary having "Calais" written on her heart, when the last relic of the mediæval conquests reverted to ... [truncated] (1 shared statement(s))
 - [[history-short-history-of-england-triumph-whig]] - shared statements: THE TRIUMPH OF THE WHIGS shares source evidence from A SHORT HISTORY OF ENGLAND [Pg 1] / XIV / THE TRIUMPH OF THE WHIGS: But here again the Stuart position was much more vulnerable on the side of secular policy, and especially of foreign policy. The aristocrats to whom power passed fin ... [truncated] (1 shared statement(s))
-- [[history-short-history-of-england-vii]] - shared statements: VII shares source evidence from A SHORT HISTORY OF ENGLAND [Pg 1] / VII / THE PROBLEM OF THE PLANTAGENETS: Henry of Anjou, who brought fresh French blood into the monarchy, brought also a refreshment of the idea for which the French have always stood: the idea in the Roma ... [truncated] (1 shared statement(s))
 
 ## Source
 

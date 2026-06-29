@@ -9,7 +9,7 @@ updated: 2026-06-29
 
 ## Summary
 
-Run id: 2026-06-29-114130
+Run id: 2026-06-29-151430
 Source: raw/rpg_cairn_2e_core.pdf
 Confidence status: passed
 Blockers: 0
@@ -46,15 +46,15 @@ MissingUnitCoverage: 0
 - Status: pass
 - Findings: none
 Source texts: 1
-Source ranges: 65
-Evidence records: 1595
+Source ranges: 121
+Evidence records: 1449
 
 ### evidence-locators
 - Kind: deterministic
 - Scope: raw/rpg_cairn_2e_core.pdf
 - Status: pass
 - Findings: none
-Locators: 1453
+Locators: 1311
 Invalid locators: 0
 
 ### claim-support

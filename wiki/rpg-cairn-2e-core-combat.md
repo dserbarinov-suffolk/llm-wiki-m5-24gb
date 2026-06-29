@@ -1,0 +1,149 @@
+---
+page_id: rpg-cairn-2e-core-combat
+page_kind: concept
+summary: Combat: 31 statement(s) and 8 atom(s) from raw/rpg_cairn_2e_core.pdf.
+sources: raw/rpg_cairn_2e_core.pdf
+updated: 2026-06-29
+domain: rpg-cairn-2e-core
+category_path: concepts
+projection_coverage: topic-rpg-cairn-2e-core-combat@8f7ca46d502d28ffa36e85d5fd6fdbe3
+---
+
+# Combat
+
+What [[rpg-cairn-2e-core]] covers about combat:
+
+## Statements
+
+### Core Rules / Combat / Rounds
+
+- A Round is roughly ten seconds of in-game time and and proceeds with each side taking turns. Each round starts with any PC that is able to act, followed by their opponents. The result of each side's actions occur simultaneously . _(rpg_cairn_2e_core.pdf (source-range-9b4fff26-00204))_
+
+- During the fi rst round of combat , each PC must make a DEX save in order to act. Special circumstances, abilities, items, or skills may negate this requirement. PCs that fail their save lose their turn for this round. _(rpg_cairn_2e_core.pdf (source-range-9b4fff26-00205))_
+
+- Their opponents then take their turn, and the first round ends. The next round begins with the PCs taking their turn, followed by their opponents, and so on until combat has ended with one side defeated or fled. _(rpg_cairn_2e_core.pdf (source-range-9b4fff26-00206))_
+
+### Core Rules / Combat / Actions
+
+- On their turn, a character may move up to 40ft and take up to one action. This may be casting a spell, attacking, moving for a second time, or some other reasonable action. Each round, the PCs declare what they are doing before dice are rolled. If a character attempts something risky, the Warden calls for a save for appropriate players or NPCs. _(rpg_cairn_2e_core.pdf (source-range-9b4fff26-00208))_
+
+### Core Rules / Combat / Attacking & Damage
+
+- The attacker rolls their weapon die and subtracts the target's armor, then deals the remaining total to their opponent's HP . Attacks in combat automatically hit. _(rpg_cairn_2e_core.pdf (source-range-9b4fff26-00210))_
+
+- If multiple attackers target the same foe, roll all damage dice and keep the single highest result. All actions are declared before being resolved. _(rpg_cairn_2e_core.pdf (source-range-9b4fff26-00211))_
+
+- If an attack would take a PC's HP exactly to 0, refer to the Scars table to see how they are uniquely impacted. _(rpg_cairn_2e_core.pdf (source-range-9b4fff26-00212))_
+
+### Core Rules / Combat / Attack Modifiers
+
+- Attacks with the Blast quality affect all targets in the noted area, rolling separately for each affected character. This can be anything from explosions to a dragon's breath or the impact of a meteorite. If unsure how many targets can be affected, roll the related damage die for a result . _(rpg_cairn_2e_core.pdf (source-range-9b4fff26-00216))_
+
+### Core Rules / Combat / Critical Damage
+
+- Damage that reduces a target's HP below zero is subtracted from their STR by the amount of damage remaining. The target must then immediately make a STR save to avoid taking Critical Damage , using their new STR score . On a success, the target is still in the fight (albeit with a lower STR score) and must continue to make critical damage saves when incurring damage. _(rpg_cairn_2e_core.pdf (source-range-9b4fff26-00219))_
+
+- weakly, grasping for life. If given aid (such as bandages), they will stabilize. If left untreated, they die within the hour. NPCs and monsters that fail a Critical Damage save are considered dead, per the Warden's discretion. Additionally, some enemies will have special abilities or effects that are triggered when their target fails a critical damage save. _(rpg_cairn_2e_core.pdf (source-range-9b4fff26-00221))_
+
+### Core Rules / Combat / Attribute Loss
+
+- If a PC takes damage outside of combat, they should instead receive damage to an Attribute, typically STR. _(rpg_cairn_2e_core.pdf (source-range-9b4fff26-00223))_
+
+- If a PC's STR is reduced to 0, they die. If their DEX is reduced to 0, they are paralyzed. If their WIL is reduced to 0, they are delirious. Complete DEX and WIL loss renders the character unable to act until they are restored through extended rest or by extraordinary means. _(rpg_cairn_2e_core.pdf (source-range-9b4fff26-00224))_
+
+### Core Rules / Combat / Detachments
+
+- Large groups of similar combatants fighting together are treated as a single Detachment . When a detachment takes Critical Damage , it is routed or significantly weakened. When it reaches 0 STR, it is destroyed. _(rpg_cairn_2e_core.pdf (source-range-9b4fff26-00228))_
+
+### Core Rules / Combat / Retreat
+
+- Running away from a dire situation always requires a successful DEX save, as well as a safe destination to run to. _(rpg_cairn_2e_core.pdf (source-range-9b4fff26-00231))_
+
+### Core Rules / Combat / Ranged Attacks
+
+- Ranged weapons can target any enemy near enough to see the whites of their eyes. Attacks against especially distant targets are Impaired . _(rpg_cairn_2e_core.pdf (source-range-9b4fff26-00233))_
+
+- Ammunition is not tracked unless otherwise specified. _(rpg_cairn_2e_core.pdf (source-range-9b4fff26-00234))_
+
+
+## Technical atoms
+
+### Technical frame 1: Core Rules / Combat / Actions
+
+**Atom:** _(rpg_cairn_2e_core.pdf (source-range-9b4fff26-00208))_
+
+> On their turn, a character may move up to 40ft and take up to one action.
+
+### Technical frame 2: Core Rules / Combat / Attacking & Damage
+
+**Context:** _(rpg_cairn_2e_core.pdf (source-range-9b4fff26-00212))_
+
+> If an attack would take a PC's HP exactly to 0, refer to the Scars table to see how they are uniquely impacted.
+
+**Atom:** _(rpg_cairn_2e_core.pdf (source-range-9b4fff26-00211))_
+
+> - If multiple attackers target the same foe, roll all damage dice and keep the single highest result.
+
+### Technical frame 3: Core Rules / Combat / Attack Modifiers
+
+**Context:** _(rpg_cairn_2e_core.pdf (source-range-9b4fff26-00216))_
+
+> Attacks with the Blast quality affect all targets in the noted area, rolling separately for each affected character. This can be anything from explosions to a dragon's breath or the impact of a meteorite. If unsure how many targets can be affected, roll the related damage die for a result .
+
+**Atom:** _(rpg_cairn_2e_core.pdf (source-range-9b4fff26-00214))_
+
+> - If fighting from a position of weakness (such as through cover or with bound hands), the attack is Impaired , and the attacker must roll 1d4 damage regardless of the attacks damage die.
+
+### Technical frame 4: Core Rules / Combat / Attack Modifiers
+
+**Context:** _(rpg_cairn_2e_core.pdf (source-range-9b4fff26-00216))_
+
+> Attacks with the Blast quality affect all targets in the noted area, rolling separately for each affected character. This can be anything from explosions to a dragon's breath or the impact of a meteorite. If unsure how many targets can be affected, roll the related damage die for a result .
+
+**Atom:** _(rpg_cairn_2e_core.pdf (source-range-9b4fff26-00215))_
+
+> - If fighting from a position of advantage (such as against a helpless foe or through a daring maneuver), the attack is Enhanced , allowing the attacker to roll 1d12 damage instead of their normal die.
+
+### Technical frame 5: Core Rules / Combat / Attack Modifiers
+
+**Atom:** _(rpg_cairn_2e_core.pdf (source-range-9b4fff26-00216))_
+
+> If unsure how many targets can be affected, roll the related damage die for a result .
+
+### Technical frame 6: Core Rules / Combat / Attack Modifiers
+
+**Context:** _(rpg_cairn_2e_core.pdf (source-range-9b4fff26-00216))_
+
+> Attacks with the Blast quality affect all targets in the noted area, rolling separately for each affected character. This can be anything from explosions to a dragon's breath or the impact of a meteorite. If unsure how many targets can be affected, roll the related damage die for a result .
+
+**Atom:** _(rpg_cairn_2e_core.pdf (source-range-9b4fff26-00217))_
+
+> - If attacking with two weapons at the same time, roll both damage dice and keep the single highest result (denoted with a plus symbol, e.g.
+
+### Technical frame 7: Core Rules / Combat / Critical Damage
+
+**Context:** _(rpg_cairn_2e_core.pdf (source-range-9b4fff26-00221))_
+
+> weakly, grasping for life. If given aid (such as bandages), they will stabilize. If left untreated, they die within the hour. NPCs and monsters that fail a Critical Damage save are considered dead, per the Warden's discretion. Additionally, some enemies will have special abilities or effects that are triggered when their target fails a critical damage save.
+
+**Atom:** _(rpg_cairn_2e_core.pdf (source-range-9b4fff26-00219))_
+
+> On a success, the target is still in the fight (albeit with a lower STR score) and must continue to make critical damage saves when incurring damage.
+
+### Technical frame 8: Core Rules / Combat / Character Death
+
+**Atom:** _(rpg_cairn_2e_core.pdf (source-range-9b4fff26-00226))_
+
+> - When a character dies, the player should create a new character or take control of a hireling.
+
+
+## Related pages
+
+- [[rpg-cairn-2e-core-core-rule]] - shared statements and technical atoms: Core Rules shares source evidence from Core Rules / Combat / Rounds: A Round is roughly ten seconds of in-game time and and proceeds with each side taking turns. Each round starts with any PC that is able to act, followed by their opp ... [truncated]; Core Rules shares technical record from Core Rules / Combat / Actions: On their turn, a character may move up to 40ft and take up to one action. (31 shared statement(s), 8 shared atom(s))
+- [[rpg-cairn-2e-core-character]] - shared statements: Character shares source evidence from Core Rules / Combat / Attribute Loss: If a PC's STR is reduced to 0, they die. If their DEX is reduced to 0, they are paralyzed. If their WIL is reduced to 0, they are delirious. Complete DEX and WIL los ... [truncated] (1 shared statement(s))
+- [[rpg-cairn-2e-core-section-core-rules-combat-8c90fa41]] - source section: Core Rules / Combat shares source evidence from Core Rules / Combat / Rounds: A Round is roughly ten seconds of in-game time and and proceeds with each side taking turns. Each round starts with any PC that is able to act, followed by their opp ... [truncated]; Core Rules / Combat shares technical record from Core Rules / Combat / Actions: On their turn, a character may move up to 40ft and take up to one action. (31 shared statement(s), 8 shared atom(s))
+- [[rpg-cairn-2e-core-section-combat-528c27b9]] - source section: Combat shares source evidence from Combat / Introduction: Combat in Cairn is fast, hectic, and often lethal. In addition, the rules of combat are unique in a few key ways:; Combat shares technical record from Combat / Introduction: Side Initiative : With the exception of the first round (when PCs must first save DEX to secure their turn), both the PCs and their opponents take turns acting together. (52 shared statement(s), 6 shared atom(s))
+
+## Source
+
+- [[rpg-cairn-2e-core]]

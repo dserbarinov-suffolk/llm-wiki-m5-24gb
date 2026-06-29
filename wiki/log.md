@@ -1082,3 +1082,325 @@ Claim-ledger projection (general-prose): 696 usable entries, 101 technical atoms
 Source page: none (authoritative write blocked — see blocked-write-diagnostic.json); linked pages: 0. Ledger artifacts: /Users/DSerbarinov/llm-wiki/harness/.cache/page-plans/rpg-cairn-2e-core-fa06f8c4cd9f/ledger.
 Graph export: current; nodes=709; edges=3049; unresolved=2.
 Ingest confidence: passed. Report filed as [[wiki-ingest-confidence]].
+
+## [2026-06-29] ingest | coding_learn_go_with_tests_excerpt.pdf
+Claim-ledger ingest of raw/coding_learn_go_with_tests_excerpt.pdf (127 chunk(s)).
+Claim-ledger projection (coding): 640 usable entries, 191 technical atoms, 92 needs-review, 153 linked page(s); write decision write-with-review-work.
+Source page: [[coding-learn-go-with-tests-excerpt]]; linked pages: 153. Ledger artifacts: /Users/DSerbarinov/llm-wiki/harness/.cache/page-plans/coding-learn-go-with-tests-excerpt-05cb2de8cb4f/ledger.
+Graph export: current; nodes=709; edges=3049; unresolved=2.
+Ingest confidence: passed. Report filed as [[wiki-ingest-confidence]].
+
+## [2026-06-29] ingest | coding_little_go_book.pdf
+Claim-ledger ingest of raw/coding_little_go_book.pdf (62 chunk(s)).
+Claim-ledger projection (coding): 662 usable entries, 166 technical atoms, 124 needs-review, 93 linked page(s); write decision write-with-review-work.
+Source page: [[coding-little-go-book]]; linked pages: 93. Ledger artifacts: /Users/DSerbarinov/llm-wiki/harness/.cache/page-plans/coding-little-go-book-7e86805c7b90/ledger.
+Graph export: current; nodes=709; edges=3049; unresolved=2.
+Ingest confidence: passed. Report filed as [[wiki-ingest-confidence]].
+
+## [2026-06-29] ingest | history_dickens_england_excerpt.pdf
+Claim-ledger ingest of raw/history_dickens_england_excerpt.pdf (17 chunk(s)).
+Claim-ledger projection (general-prose): 704 usable entries, 17 technical atoms, 41 needs-review, 45 linked page(s); write decision write-with-review-work.
+Source page: [[history-dickens-england-excerpt]]; linked pages: 45. Ledger artifacts: /Users/DSerbarinov/llm-wiki/harness/.cache/page-plans/history-dickens-england-excerpt-1590ccc36e9e/ledger.
+Graph export: current; nodes=709; edges=3049; unresolved=2.
+Ingest confidence: passed. Report filed as [[wiki-ingest-confidence]].
+
+## [2026-06-29] ingest | history_short_history_of_england.pdf
+Claim-ledger ingest of raw/history_short_history_of_england.pdf (44 chunk(s)).
+Claim-ledger projection (general-prose): 2320 usable entries, 39 technical atoms, 112 needs-review, 70 linked page(s); write decision write-with-review-work.
+Source page: [[history-short-history-of-england]]; linked pages: 70. Ledger artifacts: /Users/DSerbarinov/llm-wiki/harness/.cache/page-plans/history-short-history-of-england-204daea7b552/ledger.
+Graph export: current; nodes=709; edges=3029; unresolved=2.
+Ingest confidence: passed. Report filed as [[wiki-ingest-confidence]].
+
+## [2026-06-29] ingest | rpg_dnd_srd_excerpt.pdf
+Claim-ledger ingest of raw/rpg_dnd_srd_excerpt.pdf (116 chunk(s)).
+Claim-ledger projection (general-prose): 749 usable entries, 137 technical atoms, 157 needs-review, 146 linked page(s); write decision write-with-review-work.
+Source page: [[rpg-dnd-srd-excerpt]]; linked pages: 146. Ledger artifacts: /Users/DSerbarinov/llm-wiki/harness/.cache/page-plans/rpg-dnd-srd-excerpt-f7c05ef0468a/ledger.
+Graph export: current; nodes=691; edges=3404; unresolved=2.
+Ingest confidence: passed. Report filed as [[wiki-ingest-confidence]].
+
+## [2026-06-29] ingest | rpg_cairn_2e_core.pdf
+Claim-ledger ingest of raw/rpg_cairn_2e_core.pdf (142 chunk(s)).
+Claim-ledger projection (general-prose): 657 usable entries, 79 technical atoms, 199 needs-review, 0 linked page(s); write decision block-authoritative-write.
+Source page: none (authoritative write blocked — see blocked-write-diagnostic.json); linked pages: 0. Ledger artifacts: /Users/DSerbarinov/llm-wiki/harness/.cache/page-plans/rpg-cairn-2e-core-fa06f8c4cd9f/ledger.
+Graph export: current; nodes=691; edges=3404; unresolved=2.
+Ingest confidence: passed. Report filed as [[wiki-ingest-confidence]].
+
+## [2026-06-29] ingest | rpg_cairn_2e_core.pdf
+Claim-ledger ingest of raw/rpg_cairn_2e_core.pdf (142 chunk(s)).
+Claim-ledger projection (general-prose): 659 usable entries, 80 technical atoms, 194 needs-review, 0 linked page(s); write decision block-authoritative-write.
+Source page: none (authoritative write blocked — see blocked-write-diagnostic.json); linked pages: 0. Ledger artifacts: /Users/DSerbarinov/llm-wiki/harness/.cache/page-plans/rpg-cairn-2e-core-fa06f8c4cd9f/ledger.
+Graph export: current; nodes=691; edges=3404; unresolved=2.
+Ingest confidence: passed. Report filed as [[wiki-ingest-confidence]].
+
+## [2026-06-29] ingest | coding_learn_go_with_tests_excerpt.pdf
+Claim-ledger ingest of raw/coding_learn_go_with_tests_excerpt.pdf (127 chunk(s)).
+Claim-ledger projection (coding): 640 usable entries, 191 technical atoms, 92 needs-review, 153 linked page(s); write decision write-with-review-work.
+Source page: [[coding-learn-go-with-tests-excerpt]]; linked pages: 153. Ledger artifacts: /Users/DSerbarinov/llm-wiki/harness/.cache/page-plans/coding-learn-go-with-tests-excerpt-05cb2de8cb4f/ledger.
+Graph export: current; nodes=691; edges=3404; unresolved=2.
+Ingest confidence: passed. Report filed as [[wiki-ingest-confidence]].
+
+## [2026-06-29] ingest | coding_little_go_book.pdf
+Claim-ledger ingest of raw/coding_little_go_book.pdf (62 chunk(s)).
+Claim-ledger projection (coding): 662 usable entries, 166 technical atoms, 124 needs-review, 93 linked page(s); write decision write-with-review-work.
+Source page: [[coding-little-go-book]]; linked pages: 93. Ledger artifacts: /Users/DSerbarinov/llm-wiki/harness/.cache/page-plans/coding-little-go-book-7e86805c7b90/ledger.
+Graph export: current; nodes=691; edges=3404; unresolved=2.
+Ingest confidence: passed. Report filed as [[wiki-ingest-confidence]].
+
+## [2026-06-29] ingest | history_dickens_england_excerpt.pdf
+Claim-ledger ingest of raw/history_dickens_england_excerpt.pdf (17 chunk(s)).
+Claim-ledger projection (general-prose): 704 usable entries, 17 technical atoms, 41 needs-review, 45 linked page(s); write decision write-with-review-work.
+Source page: [[history-dickens-england-excerpt]]; linked pages: 45. Ledger artifacts: /Users/DSerbarinov/llm-wiki/harness/.cache/page-plans/history-dickens-england-excerpt-1590ccc36e9e/ledger.
+Graph export: current; nodes=691; edges=3404; unresolved=2.
+Ingest confidence: passed. Report filed as [[wiki-ingest-confidence]].
+
+## [2026-06-29] ingest | history_short_history_of_england.pdf
+Claim-ledger ingest of raw/history_short_history_of_england.pdf (44 chunk(s)).
+Claim-ledger projection (general-prose): 2320 usable entries, 39 technical atoms, 112 needs-review, 70 linked page(s); write decision write-with-review-work.
+Source page: [[history-short-history-of-england]]; linked pages: 70. Ledger artifacts: /Users/DSerbarinov/llm-wiki/harness/.cache/page-plans/history-short-history-of-england-204daea7b552/ledger.
+Graph export: current; nodes=691; edges=3404; unresolved=2.
+Ingest confidence: passed. Report filed as [[wiki-ingest-confidence]].
+
+## [2026-06-29] ingest | rpg_dnd_srd_excerpt.pdf
+Claim-ledger ingest of raw/rpg_dnd_srd_excerpt.pdf (116 chunk(s)).
+Claim-ledger projection (general-prose): 742 usable entries, 130 technical atoms, 157 needs-review, 146 linked page(s); write decision write-with-review-work.
+Source page: [[rpg-dnd-srd-excerpt]]; linked pages: 146. Ledger artifacts: /Users/DSerbarinov/llm-wiki/harness/.cache/page-plans/rpg-dnd-srd-excerpt-f7c05ef0468a/ledger.
+Graph export: current; nodes=691; edges=3426; unresolved=2.
+Ingest confidence: passed. Report filed as [[wiki-ingest-confidence]].
+
+## [2026-06-29] ingest | rpg_cairn_2e_core.pdf
+Claim-ledger ingest of raw/rpg_cairn_2e_core.pdf (142 chunk(s)).
+Claim-ledger projection (general-prose): 659 usable entries, 80 technical atoms, 194 needs-review, 0 linked page(s); write decision block-authoritative-write.
+Source page: none (authoritative write blocked — see blocked-write-diagnostic.json); linked pages: 0. Ledger artifacts: /Users/DSerbarinov/llm-wiki/harness/.cache/page-plans/rpg-cairn-2e-core-fa06f8c4cd9f/ledger.
+Graph export: current; nodes=691; edges=3426; unresolved=2.
+Ingest confidence: passed. Report filed as [[wiki-ingest-confidence]].
+
+## [2026-06-29] ingest | rpg_cairn_2e_core.pdf
+Claim-ledger ingest of raw/rpg_cairn_2e_core.pdf (142 chunk(s)).
+Claim-ledger projection (general-prose): 662 usable entries, 83 technical atoms, 191 needs-review, 165 linked page(s); write decision write-with-review-work.
+Source page: [[rpg-cairn-2e-core]]; linked pages: 165. Ledger artifacts: /Users/DSerbarinov/llm-wiki/harness/.cache/page-plans/rpg-cairn-2e-core-fa06f8c4cd9f/ledger.
+Graph export: current; nodes=690; edges=3883; unresolved=4.
+Ingest confidence: passed. Report filed as [[wiki-ingest-confidence]].
+
+## [2026-06-29] ingest | coding_learn_go_with_tests_excerpt.pdf
+Claim-ledger ingest of raw/coding_learn_go_with_tests_excerpt.pdf (127 chunk(s)).
+Claim-ledger projection (coding): 640 usable entries, 191 technical atoms, 92 needs-review, 153 linked page(s); write decision write-with-review-work.
+Source page: [[coding-learn-go-with-tests-excerpt]]; linked pages: 153. Ledger artifacts: /Users/DSerbarinov/llm-wiki/harness/.cache/page-plans/coding-learn-go-with-tests-excerpt-05cb2de8cb4f/ledger.
+Graph export: current; nodes=690; edges=3883; unresolved=4.
+Ingest confidence: passed. Report filed as [[wiki-ingest-confidence]].
+
+## [2026-06-29] ingest | coding_little_go_book.pdf
+Claim-ledger ingest of raw/coding_little_go_book.pdf (62 chunk(s)).
+Claim-ledger projection (coding): 662 usable entries, 166 technical atoms, 124 needs-review, 93 linked page(s); write decision write-with-review-work.
+Source page: [[coding-little-go-book]]; linked pages: 93. Ledger artifacts: /Users/DSerbarinov/llm-wiki/harness/.cache/page-plans/coding-little-go-book-7e86805c7b90/ledger.
+Graph export: current; nodes=690; edges=3883; unresolved=4.
+Ingest confidence: passed. Report filed as [[wiki-ingest-confidence]].
+
+## [2026-06-29] ingest | history_dickens_england_excerpt.pdf
+Claim-ledger ingest of raw/history_dickens_england_excerpt.pdf (17 chunk(s)).
+Claim-ledger projection (general-prose): 704 usable entries, 17 technical atoms, 41 needs-review, 45 linked page(s); write decision write-with-review-work.
+Source page: [[history-dickens-england-excerpt]]; linked pages: 45. Ledger artifacts: /Users/DSerbarinov/llm-wiki/harness/.cache/page-plans/history-dickens-england-excerpt-1590ccc36e9e/ledger.
+Graph export: current; nodes=690; edges=3883; unresolved=4.
+Ingest confidence: passed. Report filed as [[wiki-ingest-confidence]].
+
+## [2026-06-29] ingest | history_short_history_of_england.pdf
+Claim-ledger ingest of raw/history_short_history_of_england.pdf (44 chunk(s)).
+Claim-ledger projection (general-prose): 2320 usable entries, 39 technical atoms, 112 needs-review, 70 linked page(s); write decision write-with-review-work.
+Source page: [[history-short-history-of-england]]; linked pages: 70. Ledger artifacts: /Users/DSerbarinov/llm-wiki/harness/.cache/page-plans/history-short-history-of-england-204daea7b552/ledger.
+Graph export: current; nodes=690; edges=3883; unresolved=4.
+Ingest confidence: passed. Report filed as [[wiki-ingest-confidence]].
+
+## [2026-06-29] ingest | rpg_dnd_srd_excerpt.pdf
+Claim-ledger ingest of raw/rpg_dnd_srd_excerpt.pdf (116 chunk(s)).
+Claim-ledger projection (general-prose): 750 usable entries, 138 technical atoms, 149 needs-review, 146 linked page(s); write decision write-with-review-work.
+Source page: [[rpg-dnd-srd-excerpt]]; linked pages: 146. Ledger artifacts: /Users/DSerbarinov/llm-wiki/harness/.cache/page-plans/rpg-dnd-srd-excerpt-f7c05ef0468a/ledger.
+Graph export: current; nodes=690; edges=3883; unresolved=4.
+Ingest confidence: passed. Report filed as [[wiki-ingest-confidence]].
+
+## [2026-06-29] ingest | rpg_cairn_2e_core.pdf
+Claim-ledger ingest of raw/rpg_cairn_2e_core.pdf (142 chunk(s)).
+Claim-ledger projection (general-prose): 661 usable entries, 83 technical atoms, 188 needs-review, 165 linked page(s); write decision write-with-review-work.
+Source page: [[rpg-cairn-2e-core]]; linked pages: 165. Ledger artifacts: /Users/DSerbarinov/llm-wiki/harness/.cache/page-plans/rpg-cairn-2e-core-fa06f8c4cd9f/ledger.
+Graph export: current; nodes=690; edges=3883; unresolved=4.
+Ingest confidence: passed. Report filed as [[wiki-ingest-confidence]].
+
+## [2026-06-29] ingest | coding_learn_go_with_tests_excerpt.pdf
+Claim-ledger ingest of raw/coding_learn_go_with_tests_excerpt.pdf (127 chunk(s)).
+Claim-ledger projection (coding): 640 usable entries, 191 technical atoms, 92 needs-review, 153 linked page(s); write decision write-with-review-work.
+Source page: [[coding-learn-go-with-tests-excerpt]]; linked pages: 153. Ledger artifacts: /Users/DSerbarinov/llm-wiki/harness/.cache/page-plans/coding-learn-go-with-tests-excerpt-05cb2de8cb4f/ledger.
+Graph export: current; nodes=690; edges=3883; unresolved=4.
+Ingest confidence: passed. Report filed as [[wiki-ingest-confidence]].
+
+## [2026-06-29] ingest | coding_little_go_book.pdf
+Claim-ledger ingest of raw/coding_little_go_book.pdf (62 chunk(s)).
+Claim-ledger projection (coding): 662 usable entries, 166 technical atoms, 124 needs-review, 93 linked page(s); write decision write-with-review-work.
+Source page: [[coding-little-go-book]]; linked pages: 93. Ledger artifacts: /Users/DSerbarinov/llm-wiki/harness/.cache/page-plans/coding-little-go-book-7e86805c7b90/ledger.
+Graph export: current; nodes=690; edges=3883; unresolved=4.
+Ingest confidence: passed. Report filed as [[wiki-ingest-confidence]].
+
+## [2026-06-29] ingest | history_dickens_england_excerpt.pdf
+Claim-ledger ingest of raw/history_dickens_england_excerpt.pdf (17 chunk(s)).
+Claim-ledger projection (general-prose): 704 usable entries, 17 technical atoms, 41 needs-review, 45 linked page(s); write decision write-with-review-work.
+Source page: [[history-dickens-england-excerpt]]; linked pages: 45. Ledger artifacts: /Users/DSerbarinov/llm-wiki/harness/.cache/page-plans/history-dickens-england-excerpt-1590ccc36e9e/ledger.
+Graph export: current; nodes=690; edges=3883; unresolved=4.
+Ingest confidence: passed. Report filed as [[wiki-ingest-confidence]].
+
+## [2026-06-29] ingest | history_short_history_of_england.pdf
+Claim-ledger ingest of raw/history_short_history_of_england.pdf (44 chunk(s)).
+Claim-ledger projection (general-prose): 2320 usable entries, 39 technical atoms, 112 needs-review, 70 linked page(s); write decision write-with-review-work.
+Source page: [[history-short-history-of-england]]; linked pages: 70. Ledger artifacts: /Users/DSerbarinov/llm-wiki/harness/.cache/page-plans/history-short-history-of-england-204daea7b552/ledger.
+Graph export: current; nodes=690; edges=3883; unresolved=4.
+Ingest confidence: passed. Report filed as [[wiki-ingest-confidence]].
+
+## [2026-06-29] ingest | rpg_dnd_srd_excerpt.pdf
+Claim-ledger ingest of raw/rpg_dnd_srd_excerpt.pdf (116 chunk(s)).
+Claim-ledger projection (general-prose): 747 usable entries, 137 technical atoms, 149 needs-review, 146 linked page(s); write decision write-with-review-work.
+Source page: [[rpg-dnd-srd-excerpt]]; linked pages: 146. Ledger artifacts: /Users/DSerbarinov/llm-wiki/harness/.cache/page-plans/rpg-dnd-srd-excerpt-f7c05ef0468a/ledger.
+Graph export: current; nodes=690; edges=3883; unresolved=4.
+Ingest confidence: passed. Report filed as [[wiki-ingest-confidence]].
+
+## [2026-06-29] ingest | rpg_cairn_2e_core.pdf
+Claim-ledger ingest of raw/rpg_cairn_2e_core.pdf (142 chunk(s)).
+Claim-ledger projection (general-prose): 654 usable entries, 80 technical atoms, 167 needs-review, 165 linked page(s); write decision write-with-review-work.
+Source page: [[rpg-cairn-2e-core]]; linked pages: 165. Ledger artifacts: /Users/DSerbarinov/llm-wiki/harness/.cache/page-plans/rpg-cairn-2e-core-fa06f8c4cd9f/ledger.
+Graph export: current; nodes=690; edges=3887; unresolved=4.
+Ingest confidence: passed. Report filed as [[wiki-ingest-confidence]].
+
+## [2026-06-29] ingest | coding_learn_go_with_tests_excerpt.pdf
+Claim-ledger ingest of raw/coding_learn_go_with_tests_excerpt.pdf (127 chunk(s)).
+Claim-ledger projection (coding): 640 usable entries, 191 technical atoms, 92 needs-review, 153 linked page(s); write decision write-with-review-work.
+Source page: [[coding-learn-go-with-tests-excerpt]]; linked pages: 153. Ledger artifacts: /Users/DSerbarinov/llm-wiki/harness/.cache/page-plans/coding-learn-go-with-tests-excerpt-05cb2de8cb4f/ledger.
+Graph export: current; nodes=690; edges=3887; unresolved=4.
+Ingest confidence: passed. Report filed as [[wiki-ingest-confidence]].
+
+## [2026-06-29] ingest | coding_little_go_book.pdf
+Claim-ledger ingest of raw/coding_little_go_book.pdf (62 chunk(s)).
+Claim-ledger projection (coding): 662 usable entries, 166 technical atoms, 124 needs-review, 93 linked page(s); write decision write-with-review-work.
+Source page: [[coding-little-go-book]]; linked pages: 93. Ledger artifacts: /Users/DSerbarinov/llm-wiki/harness/.cache/page-plans/coding-little-go-book-7e86805c7b90/ledger.
+Graph export: current; nodes=690; edges=3887; unresolved=4.
+Ingest confidence: passed. Report filed as [[wiki-ingest-confidence]].
+
+## [2026-06-29] ingest | history_dickens_england_excerpt.pdf
+Claim-ledger ingest of raw/history_dickens_england_excerpt.pdf (17 chunk(s)).
+Claim-ledger projection (general-prose): 704 usable entries, 17 technical atoms, 41 needs-review, 45 linked page(s); write decision write-with-review-work.
+Source page: [[history-dickens-england-excerpt]]; linked pages: 45. Ledger artifacts: /Users/DSerbarinov/llm-wiki/harness/.cache/page-plans/history-dickens-england-excerpt-1590ccc36e9e/ledger.
+Graph export: current; nodes=690; edges=3887; unresolved=4.
+Ingest confidence: passed. Report filed as [[wiki-ingest-confidence]].
+
+## [2026-06-29] ingest | history_short_history_of_england.pdf
+Claim-ledger ingest of raw/history_short_history_of_england.pdf (44 chunk(s)).
+Claim-ledger projection (general-prose): 2320 usable entries, 39 technical atoms, 112 needs-review, 70 linked page(s); write decision write-with-review-work.
+Source page: [[history-short-history-of-england]]; linked pages: 70. Ledger artifacts: /Users/DSerbarinov/llm-wiki/harness/.cache/page-plans/history-short-history-of-england-204daea7b552/ledger.
+Graph export: current; nodes=690; edges=3887; unresolved=4.
+Ingest confidence: passed. Report filed as [[wiki-ingest-confidence]].
+
+## [2026-06-29] ingest | rpg_dnd_srd_excerpt.pdf
+Claim-ledger ingest of raw/rpg_dnd_srd_excerpt.pdf (116 chunk(s)).
+Claim-ledger projection (general-prose): 747 usable entries, 137 technical atoms, 149 needs-review, 146 linked page(s); write decision write-with-review-work.
+Source page: [[rpg-dnd-srd-excerpt]]; linked pages: 146. Ledger artifacts: /Users/DSerbarinov/llm-wiki/harness/.cache/page-plans/rpg-dnd-srd-excerpt-f7c05ef0468a/ledger.
+Graph export: current; nodes=690; edges=3887; unresolved=4.
+Ingest confidence: passed. Report filed as [[wiki-ingest-confidence]].
+
+## [2026-06-29] ingest | rpg_cairn_2e_core.pdf
+Claim-ledger ingest of raw/rpg_cairn_2e_core.pdf (142 chunk(s)).
+Claim-ledger projection (general-prose): 663 usable entries, 81 technical atoms, 172 needs-review, 165 linked page(s); write decision write-with-review-work.
+Source page: [[rpg-cairn-2e-core]]; linked pages: 165. Ledger artifacts: /Users/DSerbarinov/llm-wiki/harness/.cache/page-plans/rpg-cairn-2e-core-fa06f8c4cd9f/ledger.
+Graph export: current; nodes=690; edges=3885; unresolved=4.
+Ingest confidence: passed. Report filed as [[wiki-ingest-confidence]].
+
+## [2026-06-29] ingest | coding_learn_go_with_tests_excerpt.pdf
+Claim-ledger ingest of raw/coding_learn_go_with_tests_excerpt.pdf (127 chunk(s)).
+Claim-ledger projection (coding): 640 usable entries, 191 technical atoms, 92 needs-review, 153 linked page(s); write decision write-with-review-work.
+Source page: [[coding-learn-go-with-tests-excerpt]]; linked pages: 153. Ledger artifacts: /Users/DSerbarinov/llm-wiki/harness/.cache/page-plans/coding-learn-go-with-tests-excerpt-05cb2de8cb4f/ledger.
+Graph export: current; nodes=690; edges=3885; unresolved=4.
+Ingest confidence: passed. Report filed as [[wiki-ingest-confidence]].
+
+## [2026-06-29] ingest | coding_little_go_book.pdf
+Claim-ledger ingest of raw/coding_little_go_book.pdf (62 chunk(s)).
+Claim-ledger projection (coding): 662 usable entries, 166 technical atoms, 124 needs-review, 93 linked page(s); write decision write-with-review-work.
+Source page: [[coding-little-go-book]]; linked pages: 93. Ledger artifacts: /Users/DSerbarinov/llm-wiki/harness/.cache/page-plans/coding-little-go-book-7e86805c7b90/ledger.
+Graph export: current; nodes=690; edges=3885; unresolved=4.
+Ingest confidence: passed. Report filed as [[wiki-ingest-confidence]].
+
+## [2026-06-29] ingest | history_dickens_england_excerpt.pdf
+Claim-ledger ingest of raw/history_dickens_england_excerpt.pdf (17 chunk(s)).
+Claim-ledger projection (general-prose): 704 usable entries, 17 technical atoms, 41 needs-review, 45 linked page(s); write decision write-with-review-work.
+Source page: [[history-dickens-england-excerpt]]; linked pages: 45. Ledger artifacts: /Users/DSerbarinov/llm-wiki/harness/.cache/page-plans/history-dickens-england-excerpt-1590ccc36e9e/ledger.
+Graph export: current; nodes=690; edges=3885; unresolved=4.
+Ingest confidence: passed. Report filed as [[wiki-ingest-confidence]].
+
+## [2026-06-29] ingest | history_short_history_of_england.pdf
+Claim-ledger ingest of raw/history_short_history_of_england.pdf (44 chunk(s)).
+Claim-ledger projection (general-prose): 2320 usable entries, 39 technical atoms, 112 needs-review, 70 linked page(s); write decision write-with-review-work.
+Source page: [[history-short-history-of-england]]; linked pages: 70. Ledger artifacts: /Users/DSerbarinov/llm-wiki/harness/.cache/page-plans/history-short-history-of-england-204daea7b552/ledger.
+Graph export: current; nodes=690; edges=3885; unresolved=4.
+Ingest confidence: passed. Report filed as [[wiki-ingest-confidence]].
+
+## [2026-06-29] ingest | rpg_dnd_srd_excerpt.pdf
+Claim-ledger ingest of raw/rpg_dnd_srd_excerpt.pdf (116 chunk(s)).
+Claim-ledger projection (general-prose): 747 usable entries, 137 technical atoms, 149 needs-review, 146 linked page(s); write decision write-with-review-work.
+Source page: [[rpg-dnd-srd-excerpt]]; linked pages: 146. Ledger artifacts: /Users/DSerbarinov/llm-wiki/harness/.cache/page-plans/rpg-dnd-srd-excerpt-f7c05ef0468a/ledger.
+Graph export: current; nodes=690; edges=3885; unresolved=4.
+Ingest confidence: passed. Report filed as [[wiki-ingest-confidence]].
+
+## [2026-06-29] ingest | rpg_cairn_2e_core.pdf
+Claim-ledger ingest of raw/rpg_cairn_2e_core.pdf (142 chunk(s)).
+Claim-ledger projection (general-prose): 661 usable entries, 81 technical atoms, 170 needs-review, 165 linked page(s); write decision write-with-review-work.
+Source page: [[rpg-cairn-2e-core]]; linked pages: 165. Ledger artifacts: /Users/DSerbarinov/llm-wiki/harness/.cache/page-plans/rpg-cairn-2e-core-fa06f8c4cd9f/ledger.
+Graph export: current; nodes=690; edges=3885; unresolved=4.
+Ingest confidence: passed. Report filed as [[wiki-ingest-confidence]].
+
+## [2026-06-29] ingest | rpg_cairn_2e_core.pdf
+Claim-ledger ingest of raw/rpg_cairn_2e_core.pdf (142 chunk(s)).
+Claim-ledger projection (general-prose): 660 usable entries, 80 technical atoms, 170 needs-review, 165 linked page(s); write decision write-with-review-work.
+Source page: [[rpg-cairn-2e-core]]; linked pages: 165. Ledger artifacts: /Users/DSerbarinov/llm-wiki/harness/.cache/page-plans/rpg-cairn-2e-core-fa06f8c4cd9f/ledger.
+Graph export: current; nodes=690; edges=3885; unresolved=4.
+Ingest confidence: passed. Report filed as [[wiki-ingest-confidence]].
+
+## [2026-06-29] ingest | rpg_cairn_2e_core.pdf
+Claim-ledger ingest of raw/rpg_cairn_2e_core.pdf (142 chunk(s)).
+Claim-ledger projection (general-prose): 660 usable entries, 80 technical atoms, 170 needs-review, 165 linked page(s); write decision write-with-review-work.
+Source page: [[rpg-cairn-2e-core]]; linked pages: 165. Ledger artifacts: /Users/DSerbarinov/llm-wiki/harness/.cache/page-plans/rpg-cairn-2e-core-fa06f8c4cd9f/ledger.
+Graph export: current; nodes=690; edges=3885; unresolved=4.
+Ingest confidence: passed. Report filed as [[wiki-ingest-confidence]].
+
+## [2026-06-29] ingest | coding_learn_go_with_tests_excerpt.pdf
+Claim-ledger ingest of raw/coding_learn_go_with_tests_excerpt.pdf (127 chunk(s)).
+Claim-ledger projection (coding): 640 usable entries, 191 technical atoms, 92 needs-review, 153 linked page(s); write decision write-with-review-work.
+Source page: [[coding-learn-go-with-tests-excerpt]]; linked pages: 153. Ledger artifacts: /Users/DSerbarinov/llm-wiki/harness/.cache/page-plans/coding-learn-go-with-tests-excerpt-05cb2de8cb4f/ledger.
+Graph export: current; nodes=690; edges=3885; unresolved=4.
+Ingest confidence: passed. Report filed as [[wiki-ingest-confidence]].
+
+## [2026-06-29] ingest | coding_little_go_book.pdf
+Claim-ledger ingest of raw/coding_little_go_book.pdf (62 chunk(s)).
+Claim-ledger projection (coding): 662 usable entries, 166 technical atoms, 124 needs-review, 93 linked page(s); write decision write-with-review-work.
+Source page: [[coding-little-go-book]]; linked pages: 93. Ledger artifacts: /Users/DSerbarinov/llm-wiki/harness/.cache/page-plans/coding-little-go-book-7e86805c7b90/ledger.
+Graph export: current; nodes=690; edges=3885; unresolved=4.
+Ingest confidence: passed. Report filed as [[wiki-ingest-confidence]].
+
+## [2026-06-29] ingest | history_dickens_england_excerpt.pdf
+Claim-ledger ingest of raw/history_dickens_england_excerpt.pdf (17 chunk(s)).
+Claim-ledger projection (general-prose): 704 usable entries, 17 technical atoms, 41 needs-review, 45 linked page(s); write decision write-with-review-work.
+Source page: [[history-dickens-england-excerpt]]; linked pages: 45. Ledger artifacts: /Users/DSerbarinov/llm-wiki/harness/.cache/page-plans/history-dickens-england-excerpt-1590ccc36e9e/ledger.
+Graph export: current; nodes=690; edges=3885; unresolved=4.
+Ingest confidence: passed. Report filed as [[wiki-ingest-confidence]].
+
+## [2026-06-29] ingest | history_short_history_of_england.pdf
+Claim-ledger ingest of raw/history_short_history_of_england.pdf (44 chunk(s)).
+Claim-ledger projection (general-prose): 2320 usable entries, 39 technical atoms, 112 needs-review, 70 linked page(s); write decision write-with-review-work.
+Source page: [[history-short-history-of-england]]; linked pages: 70. Ledger artifacts: /Users/DSerbarinov/llm-wiki/harness/.cache/page-plans/history-short-history-of-england-204daea7b552/ledger.
+Graph export: current; nodes=690; edges=3885; unresolved=4.
+Ingest confidence: passed. Report filed as [[wiki-ingest-confidence]].
+
+## [2026-06-29] ingest | rpg_dnd_srd_excerpt.pdf
+Claim-ledger ingest of raw/rpg_dnd_srd_excerpt.pdf (116 chunk(s)).
+Claim-ledger projection (general-prose): 747 usable entries, 137 technical atoms, 149 needs-review, 146 linked page(s); write decision write-with-review-work.
+Source page: [[rpg-dnd-srd-excerpt]]; linked pages: 146. Ledger artifacts: /Users/DSerbarinov/llm-wiki/harness/.cache/page-plans/rpg-dnd-srd-excerpt-f7c05ef0468a/ledger.
+Graph export: current; nodes=690; edges=3885; unresolved=4.
+Ingest confidence: passed. Report filed as [[wiki-ingest-confidence]].
+
+## [2026-06-29] ingest | rpg_cairn_2e_core.pdf
+Claim-ledger ingest of raw/rpg_cairn_2e_core.pdf (142 chunk(s)).
+Claim-ledger projection (general-prose): 660 usable entries, 80 technical atoms, 170 needs-review, 165 linked page(s); write decision write-with-review-work.
+Source page: [[rpg-cairn-2e-core]]; linked pages: 165. Ledger artifacts: /Users/DSerbarinov/llm-wiki/harness/.cache/page-plans/rpg-cairn-2e-core-fa06f8c4cd9f/ledger.
+Graph export: current; nodes=690; edges=3885; unresolved=4.
+Ingest confidence: passed. Report filed as [[wiki-ingest-confidence]].

@@ -7,7 +7,7 @@ updated: 2026-06-29
 domain: coding-learn-go-with-tests-excerpt
 category_path: sources
 source_id: coding_learn_go_with_tests_excerpt.pdf
-projection_coverage: projection-coverage-372fd2dad6def8ac@671db9d1aa9a2d3d
+projection_coverage: projection-coverage-372fd2dad6def8ac@719c6ca7c3427b95
 ---
 
 # Learn Go with Tests (Excerpt)

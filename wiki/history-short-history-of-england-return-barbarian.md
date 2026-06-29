@@ -6,7 +6,7 @@ sources: raw/history_short_history_of_england.pdf
 updated: 2026-06-29
 domain: history-short-history-of-england
 category_path: concepts
-projection_coverage: topic-history-short-history-of-england-return-barbarian@3cd4f6d62f73630a57e6bb87c4a530d9
+projection_coverage: topic-history-short-history-of-england-return-barbarian@a968d08dba41548f9a5a103a43ca58b6
 ---
 
 # THE RETURN OF THE BARBARIAN
@@ -50,6 +50,8 @@ What [[history-short-history-of-england]] covers about the return of the barbari
 - [[history-short-history-of-england-xvii]] - shared statements: XVII shares source evidence from A SHORT HISTORY OF ENGLAND [Pg 1] / XVII / THE RETURN OF THE BARBARIAN: The only way to write a popular history, as we have already remarked, would be to write it backwards. It would be to take common objects of our own street and tell t ... [truncated] (97 shared statement(s))
 - [[history-short-history-of-england-english]] - shared statements: English shares source evidence from A SHORT HISTORY OF ENGLAND [Pg 1] / XVII / THE RETURN OF THE BARBARIAN: I say this is typical of the most important thing that happened in the Victorian time. For the most important thing was that nothing happened. The very fuss that was ... [truncated] (5 shared statement(s))
 - [[history-short-history-of-england-history]] - shared statements: History shares source evidence from A SHORT HISTORY OF ENGLAND [Pg 1] / XVII / THE RETURN OF THE BARBARIAN: The only way to write a popular history, as we have already remarked, would be to write it backwards. It would be to take common objects of our own street and tell t ... [truncated] (5 shared statement(s))
+- [[history-short-history-of-england-revolution]] - shared statements: Revolution shares source evidence from A SHORT HISTORY OF ENGLAND [Pg 1] / XVII / THE RETURN OF THE BARBARIAN: I say this is typical of the most important thing that happened in the Victorian time. For the most important thing was that nothing happened. The very fuss that was ... [truncated] (2 shared statement(s))
+- [[history-short-history-of-england-century]] - shared statements: Century shares source evidence from A SHORT HISTORY OF ENGLAND [Pg 1] / XVII / THE RETURN OF THE BARBARIAN: Anyhow, the unconscious nineteenth-century movement, so slow that it seems stationary, was altogether in this direction, of which workhouse philanthropy is the type. ... [truncated] (1 shared statement(s))
 - [[history-short-history-of-england-section-a-short-history-of-england-pg-1-xvii-the-return-of-the-barbarian-932182f5]] - source section: A SHORT HISTORY OF ENGLAND [Pg 1] / XVII / THE RETURN OF THE BARBARIAN shares source evidence from A SHORT HISTORY OF ENGLAND [Pg 1] / XVII / THE RETURN OF THE BARBARIAN: The only way to write a popular history, as we have already remarked, would be to write it backwards. It would be to take common objects of our own street and tell t ... [truncated] (97 shared statement(s))
 
 ## Source

@@ -7,7 +7,7 @@ updated: 2026-06-29
 domain: history-dickens-england-excerpt
 category_path: sources
 source_id: history_dickens_england_excerpt.pdf
-projection_coverage: projection-coverage-bcf472c101f500b1@309ede020827fa8b
+projection_coverage: projection-coverage-bcf472c101f500b1@c5d45c2bf0a604bc
 ---
 
 # A Child's History of England (Excerpt: The Norman Conquest to Edward I)

@@ -6,7 +6,7 @@ sources: raw/history_short_history_of_england.pdf
 updated: 2026-06-29
 domain: history-short-history-of-england
 category_path: concepts
-projection_coverage: topic-history-short-history-of-england-war-usurper@8c624c1149ce90b23c183907013aaa3b
+projection_coverage: topic-history-short-history-of-england-war-usurper@65af9d497a9905094c733582e9a817dd
 ---
 
 # THE WAR OF THE USURPERS
@@ -55,6 +55,7 @@ What [[history-short-history-of-england]] covers about the war of the usurpers:
 - [[history-short-history-of-england-people]] - shared statements: People shares source evidence from A SHORT HISTORY OF ENGLAND [Pg 1] / X / THE WAR OF THE USURPERS: Shakespeare's historical plays are something truer than historical; they are traditional; the living memory of many things lingered, though the memory of others was ... [truncated] (2 shared statement(s))
 - [[history-short-history-of-england-england]] - shared statements: England shares source evidence from A SHORT HISTORY OF ENGLAND [Pg 1] / X / THE WAR OF THE USURPERS: Pagan slavery had slowly perished, not so much by decaying as by developing into something better. In one sense it did not die, but rather came to life. The slave-ow ... [truncated] (1 shared statement(s))
 - [[history-short-history-of-england-english]] - shared statements: English shares source evidence from A SHORT HISTORY OF ENGLAND [Pg 1] / X / THE WAR OF THE USURPERS: Shakespeare's historical plays are something truer than historical; they are traditional; the living memory of many things lingered, though the memory of others was ... [truncated] (1 shared statement(s))
+- [[history-short-history-of-england-revolution]] - shared statements: Revolution shares source evidence from A SHORT HISTORY OF ENGLAND [Pg 1] / X / THE WAR OF THE USURPERS: The King was no more than a boy; his very voice must have rung out to that multitude almost like the voice of a child. But the power of his fathers and the great Chr ... [truncated] (1 shared statement(s))
 - [[history-short-history-of-england-section-a-short-history-of-england-pg-1-x-the-war-of-the-usurpers-ac1bb9ce]] - source section: A SHORT HISTORY OF ENGLAND [Pg 1] / X / THE WAR OF THE USURPERS shares source evidence from A SHORT HISTORY OF ENGLAND [Pg 1] / X / THE WAR OF THE USURPERS: Now mediæval monarchy, though only one aspect of mediæval rule, was roughly represented in the idea that the ruler had a right to rule as a voter has a right to vote ... [truncated] (95 shared statement(s))
 
 ## Source

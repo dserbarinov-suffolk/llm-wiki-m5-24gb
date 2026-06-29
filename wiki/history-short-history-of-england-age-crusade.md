@@ -6,7 +6,7 @@ sources: raw/history_short_history_of_england.pdf
 updated: 2026-06-29
 domain: history-short-history-of-england
 category_path: concepts
-projection_coverage: topic-history-short-history-of-england-age-crusade@09de76836283f129337d719961718345
+projection_coverage: topic-history-short-history-of-england-age-crusade@6f56cc930f3e8b5839adbf463865fed1
 ---
 
 # THE AGE OF THE CRUSADES
@@ -45,6 +45,7 @@ What [[history-short-history-of-england]] covers about the age of the crusades:
 - [[history-short-history-of-england-short-history-england]] - shared statements: A SHORT HISTORY OF ENGLAND [Pg 1] shares source evidence from A SHORT HISTORY OF ENGLAND [Pg 1] / VI / THE AGE OF THE CRUSADES: The last chapter began, in an apparent irrelevance, with the name of St. Edward; and this one might very well begin with the name of St. George. His first appearance ... [truncated] (81 shared statement(s))
 - [[history-short-history-of-england-england]] - shared statements: England shares source evidence from A SHORT HISTORY OF ENGLAND [Pg 1] / VI / THE AGE OF THE CRUSADES: That transition and that symbol stand for the Crusades. In their romance and reality they were the first English experience of learning, not only from the external, ... [truncated] (3 shared statement(s))
 - [[history-short-history-of-england-english]] - shared statements: English shares source evidence from A SHORT HISTORY OF ENGLAND [Pg 1] / VI / THE AGE OF THE CRUSADES: That transition and that symbol stand for the Crusades. In their romance and reality they were the first English experience of learning, not only from the external, ... [truncated] (2 shared statement(s))
+- [[history-short-history-of-england-roman]] - shared statements: Roman shares source evidence from A SHORT HISTORY OF ENGLAND [Pg 1] / VI / THE AGE OF THE CRUSADES: The last chapter began, in an apparent irrelevance, with the name of St. Edward; and this one might very well begin with the name of St. George. His first appearance ... [truncated] (2 shared statement(s))
 - [[history-short-history-of-england-france]] - shared statements: France shares source evidence from A SHORT HISTORY OF ENGLAND [Pg 1] / VI / THE AGE OF THE CRUSADES: That transition and that symbol stand for the Crusades. In their romance and reality they were the first English experience of learning, not only from the external, ... [truncated] (1 shared statement(s))
 - [[history-short-history-of-england-history]] - shared statements: History shares source evidence from A SHORT HISTORY OF ENGLAND [Pg 1] / VI / THE AGE OF THE CRUSADES: That transition and that symbol stand for the Crusades. In their romance and reality they were the first English experience of learning, not only from the external, ... [truncated] (1 shared statement(s))
 - [[history-short-history-of-england-king]] - shared statements: King shares source evidence from A SHORT HISTORY OF ENGLAND [Pg 1] / VI / THE AGE OF THE CRUSADES: The place of Cœur de Lion in popular fable and gossip is far more like his place in true history than the place of the mere denationalized ne'er-do-weel given him in ... [truncated] (1 shared statement(s))

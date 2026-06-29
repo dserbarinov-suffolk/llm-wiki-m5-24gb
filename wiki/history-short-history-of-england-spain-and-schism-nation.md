@@ -6,7 +6,7 @@ sources: raw/history_short_history_of_england.pdf
 updated: 2026-06-29
 domain: history-short-history-of-england
 category_path: concepts
-projection_coverage: topic-history-short-history-of-england-spain-and-schism-nation@76fb6adee0270a944fba2165efceea37
+projection_coverage: topic-history-short-history-of-england-spain-and-schism-nation@100bdc8a2aa75c8c950d614d080e368d
 ---
 
 # SPAIN AND THE SCHISM OF NATIONS
@@ -47,6 +47,7 @@ What [[history-short-history-of-england]] covers about spain and the schism of n
 - [[history-short-history-of-england-king]] - shared statements: King shares source evidence from A SHORT HISTORY OF ENGLAND [Pg 1] / XII / SPAIN AND THE SCHISM OF NATIONS: The revolution that arose out of what is called the Renascence, and ended in some countries in what is called the Reformation, did in the internal politics of Englan ... [truncated] (2 shared statement(s))
 - [[history-short-history-of-england-england]] - shared statements: England shares source evidence from A SHORT HISTORY OF ENGLAND [Pg 1] / XII / SPAIN AND THE SCHISM OF NATIONS: victory that astonished even the victors. What was opposed to them was Imperialism in its complete and colossal sense, a thing unthinkable since Rome. It was, in no ... [truncated] (1 shared statement(s))
 - [[history-short-history-of-england-france]] - shared statements: France shares source evidence from A SHORT HISTORY OF ENGLAND [Pg 1] / XII / SPAIN AND THE SCHISM OF NATIONS: There is a truth also in the popular insistence on the story of Mary having "Calais" written on her heart, when the last relic of the mediæval conquests reverted to ... [truncated] (1 shared statement(s))
+- [[history-short-history-of-england-revolution]] - shared statements: Revolution shares source evidence from A SHORT HISTORY OF ENGLAND [Pg 1] / XII / SPAIN AND THE SCHISM OF NATIONS: The revolution that arose out of what is called the Renascence, and ended in some countries in what is called the Reformation, did in the internal politics of Englan ... [truncated] (1 shared statement(s))
 - [[history-short-history-of-england-section-a-short-history-of-england-pg-1-xii-spain-and-the-schism-of-nations-27277f8e]] - source section: A SHORT HISTORY OF ENGLAND [Pg 1] / XII / SPAIN AND THE SCHISM OF NATIONS shares source evidence from A SHORT HISTORY OF ENGLAND [Pg 1] / XII / SPAIN AND THE SCHISM OF NATIONS: The revolution that arose out of what is called the Renascence, and ended in some countries in what is called the Reformation, did in the internal politics of Englan ... [truncated] (98 shared statement(s))
 
 ## Source

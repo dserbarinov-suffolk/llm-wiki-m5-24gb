@@ -6,7 +6,7 @@ sources: raw/history_short_history_of_england.pdf
 updated: 2026-06-29
 domain: history-short-history-of-england
 category_path: concepts
-projection_coverage: topic-history-short-history-of-england-meaning-merry-england@96346ae741da334712d82b93092f3c75
+projection_coverage: topic-history-short-history-of-england-meaning-merry-england@3bd0fdf59deb7c9e60d2c7b308601e04
 ---
 
 # THE MEANING OF MERRY ENGLAND
@@ -51,11 +51,13 @@ What [[history-short-history-of-england]] covers about the meaning of merry engl
 ## Related pages
 
 - [[history-short-history-of-england-short-history-england]] - shared statements: A SHORT HISTORY OF ENGLAND [Pg 1] shares source evidence from A SHORT HISTORY OF ENGLAND [Pg 1] / VIII / THE MEANING OF MERRY ENGLAND: The mental trick by which the first half of English history has been wholly dwarfed and dehumanized is a very simple one. It consists in telling only the story of th ... [truncated] (124 shared statement(s))
-- [[history-short-history-of-england-viii]] - shared statements: VIII shares source evidence from A SHORT HISTORY OF ENGLAND [Pg 1] / VIII / THE MEANING OF MERRY ENGLAND: The mental trick by which the first half of English history has been wholly dwarfed and dehumanized is a very simple one. It consists in telling only the story of th ... [truncated] (124 shared statement(s))
 - [[history-short-history-of-england-english]] - shared statements: English shares source evidence from A SHORT HISTORY OF ENGLAND [Pg 1] / VIII / THE MEANING OF MERRY ENGLAND: The mental trick by which the first half of English history has been wholly dwarfed and dehumanized is a very simple one. It consists in telling only the story of th ... [truncated] (2 shared statement(s))
 - [[history-short-history-of-england-history]] - shared statements: History shares source evidence from A SHORT HISTORY OF ENGLAND [Pg 1] / VIII / THE MEANING OF MERRY ENGLAND: The mental trick by which the first half of English history has been wholly dwarfed and dehumanized is a very simple one. It consists in telling only the story of th ... [truncated] (2 shared statement(s))
 - [[history-short-history-of-england-king]] - shared statements: King shares source evidence from A SHORT HISTORY OF ENGLAND [Pg 1] / VIII / THE MEANING OF MERRY ENGLAND: The mental trick by which the first half of English history has been wholly dwarfed and dehumanized is a very simple one. It consists in telling only the story of th ... [truncated] (2 shared statement(s))
+- [[history-short-history-of-england-century]] - shared statements: Century shares source evidence from A SHORT HISTORY OF ENGLAND [Pg 1] / VIII / THE MEANING OF MERRY ENGLAND: possibly a solitary instance in history of men thus falling upwards; at least of outcasts falling on their feet or vagrants straying into the promised land. Such a t ... [truncated] (1 shared statement(s))
 - [[history-short-history-of-england-people]] - shared statements: People shares source evidence from A SHORT HISTORY OF ENGLAND [Pg 1] / VIII / THE MEANING OF MERRY ENGLAND: people have property; not a community where there are a few capitalists. But in fact the Guildsmen (as also, for that matter, the serfs, semi-serfs and peasants) wer ... [truncated] (1 shared statement(s))
+- [[history-short-history-of-england-revolution]] - shared statements: Revolution shares source evidence from A SHORT HISTORY OF ENGLAND [Pg 1] / VIII / THE MEANING OF MERRY ENGLAND: possibly a solitary instance in history of men thus falling upwards; at least of outcasts falling on their feet or vagrants straying into the promised land. Such a t ... [truncated] (1 shared statement(s))
+- [[history-short-history-of-england-roman]] - shared statements: Roman shares source evidence from A SHORT HISTORY OF ENGLAND [Pg 1] / VIII / THE MEANING OF MERRY ENGLAND: What we call the manors were originally the villae of the pagan lords, each with its population of slaves. Under this process, however it be explained, what had occu ... [truncated] (1 shared statement(s))
 - [[history-short-history-of-england-section-a-short-history-of-england-pg-1-viii-the-meaning-of-merry-england-7fa360f3]] - source section: A SHORT HISTORY OF ENGLAND [Pg 1] / VIII / THE MEANING OF MERRY ENGLAND shares source evidence from A SHORT HISTORY OF ENGLAND [Pg 1] / VIII / THE MEANING OF MERRY ENGLAND: The mental trick by which the first half of English history has been wholly dwarfed and dehumanized is a very simple one. It consists in telling only the story of th ... [truncated] (124 shared statement(s))
 
 ## Source

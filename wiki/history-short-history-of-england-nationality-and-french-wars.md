@@ -6,7 +6,7 @@ sources: raw/history_short_history_of_england.pdf
 updated: 2026-06-29
 domain: history-short-history-of-england
 category_path: concepts
-projection_coverage: topic-history-short-history-of-england-nationality-and-french-wars@8cb45f892eb09c765a24976285859d84
+projection_coverage: topic-history-short-history-of-england-nationality-and-french-wars@879e53725c352bc8b2100c45d39aaddb
 ---
 
 # NATIONALITY AND THE FRENCH WARS
@@ -56,6 +56,7 @@ What [[history-short-history-of-england]] covers about nationality and the frenc
 - [[history-short-history-of-england-history]] - shared statements: History shares source evidence from A SHORT HISTORY OF ENGLAND [Pg 1] / IX / NATIONALITY AND THE FRENCH WARS: That coincidence or course of events, which must often be remarked in this story, by which (for whatever reason) our most powerful kings did not somehow leave their ... [truncated] (2 shared statement(s))
 - [[history-short-history-of-england-king]] - shared statements: King shares source evidence from A SHORT HISTORY OF ENGLAND [Pg 1] / IX / NATIONALITY AND THE FRENCH WARS: There was, indeed, much more than this involved. While the internal structure of mediævalism was thus parochial and largely popular, in the greater affairs, and espe ... [truncated] (2 shared statement(s))
 - [[history-short-history-of-england-people]] - shared statements: People shares source evidence from A SHORT HISTORY OF ENGLAND [Pg 1] / IX / NATIONALITY AND THE FRENCH WARS: That coincidence or course of events, which must often be remarked in this story, by which (for whatever reason) our most powerful kings did not somehow leave their ... [truncated] (1 shared statement(s))
+- [[history-short-history-of-england-roman]] - shared statements: Roman shares source evidence from A SHORT HISTORY OF ENGLAND [Pg 1] / IX / NATIONALITY AND THE FRENCH WARS: I have never counted it a patriotic part to plaster my own country with conventional and unconvincing compliments; but no one can understand England who does not und ... [truncated] (1 shared statement(s))
 - [[history-short-history-of-england-section-a-short-history-of-england-pg-1-ix-nationality-and-the-french-wars-2ad43e28]] - source section: A SHORT HISTORY OF ENGLAND [Pg 1] / IX / NATIONALITY AND THE FRENCH WARS shares source evidence from A SHORT HISTORY OF ENGLAND [Pg 1] / IX / NATIONALITY AND THE FRENCH WARS: If any one wishes to know what we mean when we say that Christendom was and is one culture, or one civilization, there is a rough but plain way of putting it. It is ... [truncated] (110 shared statement(s))
 
 ## Source

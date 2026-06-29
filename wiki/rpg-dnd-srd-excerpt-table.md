@@ -1,12 +1,12 @@
 ---
 page_id: rpg-dnd-srd-excerpt-table
 page_kind: concept
-summary: Table: 5 statement(s) and 6 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
+summary: Table: 5 statement(s) and 9 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
 sources: raw/rpg_dnd_srd_excerpt.pdf
 updated: 2026-06-29
 domain: rpg-dnd-srd-excerpt
 category_path: concepts
-projection_coverage: topic-rpg-dnd-srd-excerpt-table@a8cc50f1bedd761b2fb879170f94e427
+projection_coverage: topic-rpg-dnd-srd-excerpt-table@ca18efe1f2aa99c34e4422e37375c1fd
 ---
 
 # Table
@@ -17,72 +17,134 @@ What [[rpg-dnd-srd-excerpt]] covers about table:
 
 ### Ability Checks
 
-- The more difficult a task, the higher its DC. The Typical Difficulty Classes table shows the most common DCs. _(rpg_dnd_srd_excerpt.pdf (source-range-b7d08967-00093))_
+- The more difficult a task, the higher its DC. The Typical Difficulty Classes table shows the most common DCs. _(rpg_dnd_srd_excerpt.pdf (source-range-4449ec9f-00091))_
 
-### Creature Size
+### Movement and Position / Creature Size
 
-- Each creature takes up a different amount of space. The Size Categories table shows how much space a creature of a particular size controls in combat. Objects sometimes use the same size categories. _(rpg_dnd_srd_excerpt.pdf (source-range-b7d08967-00314))_
+- Each creature takes up a different amount of space. The Size Categories table shows how much space a creature of a particular size controls in combat. Objects sometimes use the same size categories. _(rpg_dnd_srd_excerpt.pdf (source-range-4449ec9f-00323))_
 
 ### Armor
 
-- The Armor table shows the cost, weight, and other properties of the common types of armor worn in fantasy gaming worlds. _(rpg_dnd_srd_excerpt.pdf (source-range-b7d08967-00474))_
+- The Armor table shows the cost, weight, and other properties of the common types of armor worn in fantasy gaming worlds. _(rpg_dnd_srd_excerpt.pdf (source-range-4449ec9f-00483))_
 
-- Stealth . If the Armor table shows "Disadvantage" in the Stealth column, the wearer has disadvantage on Dexterity (Stealth) checks. Shields . A shield is made from wood or metal and is carried in one hand. Wielding a shield increases your Armor Class by 2. You can _(rpg_dnd_srd_excerpt.pdf (source-range-b7d08967-00478))_
+- Stealth . If the Armor table shows "Disadvantage" in the Stealth column, the wearer has disadvantage on Dexterity (Stealth) checks. Shields . A shield is made from wood or metal and is carried in one hand. Wielding a shield increases your Armor Class by 2. You can _(rpg_dnd_srd_excerpt.pdf (source-range-4449ec9f-00487))_
 
 ### Weapons
 
-- The Weapons table shows the most common weapons used in the fantasy gaming worlds, their price and weight, the damage they deal when they hit, and any special properties they possess. Every weapon is classified as either melee or ranged. A melee weapon is used to attack a target within 5 feet of you, whereas a ranged weapon is used to attack a target at a distance. _(rpg_dnd_srd_excerpt.pdf (source-range-b7d08967-00502))_
+- The Weapons table shows the most common weapons used in the fantasy gaming worlds, their price and weight, the damage they deal when they hit, and any special properties they possess. Every weapon is classified as either melee or ranged. A melee weapon is used to attack a target within 5 feet of you, whereas a ranged weapon is used to attack a target at a distance. _(rpg_dnd_srd_excerpt.pdf (source-range-4449ec9f-00515))_
 
 
 ## Technical atoms
 
-### Technical frame 1: Table- Diﬀiculty Classes
+### Technical frame 1: Table- Ability Scores and Modiﬁers
 
-**Atom:** _(rpg_dnd_srd_excerpt.pdf (source-range-b7d08967-00097))_
+**Context:** _(rpg_dnd_srd_excerpt.pdf (source-range-4449ec9f-00073))_
 
-| Table- Diﬀiculty | Classes |
+> Each ability also has a modifier, derived from the score and ranging from -5 (for an ability score of 1) to +10 (for a score of 30). The Ability Scores and Modifiers table notes the ability modifiers for the range of possible ability scores, from 1 to 30.
+
+**Atom:** _(rpg_dnd_srd_excerpt.pdf (source-range-4449ec9f-00075))_
+
+```text
+Table- Ability Scores and Modiﬁers
+Score
+Modiﬁer
+1
+-5
+2-3
+-4
+4-5
+-3
+6-7
+-2
+8-9
+-1
+10-11
++0
+12-13
++1
+14-15
++2
+16-17
++3
+18-19
++4
+20-21
++5
+22-23
++6
+24-25
++7
+26-27
++8
+28-29
++9
+30
++10
+To determine an ability modiﬁer without consulting the table, subtract
+10 from the ability score and then divide the total by 2 (round down).
+Because ability modiﬁers aﬀect almost every attack roll, ability check,
+and saving throw, ability modiﬁers come up in play more often than
+their associated scores.
+```
+
+<details>
+<summary>Parsed table preview (needs review)</summary>
+
+| entry | content |
 | --- | --- |
-| Task | Diﬀiculty |
-| Very easy | 5 |
-| Easy | 10 |
-| Medium | 15 |
-| Hard | 20 |
-| Very hard | 25 |
-| Nearly impossible | 30 |
+| 5 | 2-3 |
+| 4 | 4-5 |
+| 3 | 6-7 |
+| 2 | 8-9 |
+| 1 | 10-11 +0 12-13 +1 14-15 +2 16-17 +3 18-19 +4 20-21 +5 22-23 +6 24-25 +7 26-27 +8 28-29 +9 |
+| 30 | +10 |
+| 10 | To determine an ability modiﬁer without consulting the table, subtract from the ability score and then divide the total by 2 (round down). and saving throw, ability modiﬁers come up in play more often than their associated scores. |
+
+</details>
+
+### Technical frame 2: Table- Diﬀiculty Classes
+
+**Context:** _(rpg_dnd_srd_excerpt.pdf (source-range-4449ec9f-00091))_
+
+> The more difficult a task, the higher its DC. The Typical Difficulty Classes table shows the most common DCs.
+
+**Atom:** _(rpg_dnd_srd_excerpt.pdf (source-range-4449ec9f-00092))_
+
+| Task | Diﬀiculty | DC |
+| --- | --- | --- |
+| Very | easy | 5 |
+| Easy |  | 10 |
+| Medium |  | 15 |
+| Hard |  | 20 |
+| Very | hard | 25 |
+| Nearly | impossible | 30 |
 
 <details>
 <summary>Raw table text</summary>
 
-```
-Table- Diﬀiculty  Classes
- Task  Diﬀiculty   DC
- Very easy          5
- Easy               10
- Medium             15
- Hard               20
- Very hard          25
- Nearly impossible  30
+```text
+Table- Diﬀiculty Classes
+| Task | Diﬀiculty | DC |
+| --- | --- | --- |
+| Very | easy | 5 |
+| Easy |  | 10 |
+| Medium |  | 15 |
+| Hard |  | 20 |
+| Very | hard | 25 |
+| Nearly | impossible | 30 |
 ```
 
 </details>
 
-### Technical frame 2: Table- Related Skills
+### Technical frame 3: Table- Related Skills
 
-**Context:** _(rpg_dnd_srd_excerpt.pdf (source-range-b7d08967-00106))_
+**Context:** _(rpg_dnd_srd_excerpt.pdf (source-range-4449ec9f-00101))_
 
-> Sometimes, the GM might ask for an ability check using a specific skill-for example, "Make a Wisdom (Perception) check." At other times, a player might ask the GM if proficiency in a particular skill applies to a check. In either case, proficiency in a skill means an individual can add his or her proficiency bonus to ability checks that involve that skill. Without proficiency in the skill, the individual makes a normal ability check.
+> The skills related to each ability score are shown in the following list. (No skills are related to Constitution.) See an ability's description in the later sections of this section for examples of how to use a skill associated with an ability.
 
-**Atom:** _(rpg_dnd_srd_excerpt.pdf (source-range-b7d08967-00105))_
+**Atom:** _(rpg_dnd_srd_excerpt.pdf (source-range-4449ec9f-00102))_
 
-| Table- Related | Skills |
-| --- | --- |
-| Strength | Dexterity |
-| Athletics | Acrobatics |
-
-<details>
-<summary>Raw table text</summary>
-
-```
+```text
 Table- Related  Skills
  Strength     Dexterity   Intelligence    Wisdom       Charisma
                                        Animal
@@ -91,15 +153,37 @@ Table- Related  Skills
            Sleight of
 ```
 
+<details>
+<summary>Parsed table preview (needs review)</summary>
+
+| Table- Related | Skills |
+| --- | --- |
+| Strength | Dexterity |
+| Athletics | Acrobatics |
+
 </details>
 
-### Technical frame 3: Table- Creature Size
+### Technical frame 4: Table- Creature Size
 
-**Context:** _(rpg_dnd_srd_excerpt.pdf (source-range-b7d08967-00314))_
+**Context:** _(rpg_dnd_srd_excerpt.pdf (source-range-4449ec9f-00323))_
 
 > Each creature takes up a different amount of space. The Size Categories table shows how much space a creature of a particular size controls in combat. Objects sometimes use the same size categories.
 
-**Atom:** _(rpg_dnd_srd_excerpt.pdf (source-range-b7d08967-00315))_
+**Atom:** _(rpg_dnd_srd_excerpt.pdf (source-range-4449ec9f-00324))_
+
+```text
+Table- Creature  Size
+    Size            Space
+ Tiny         2 1/2 by 2 1/2 ft.
+ Small        5 by 5 ft.
+ Medium       5 by 5 ft.
+ Large        10 by 10 ft.
+ Huge         15 by 15 ft.
+ Gargantuan   20 by 20 ft. or larger
+```
+
+<details>
+<summary>Parsed table preview (needs review)</summary>
 
 | Table- Creature | Size |
 | --- | --- |
@@ -111,186 +195,134 @@ Table- Related  Skills
 | Huge | 15 by 15 ft. |
 | Gargantuan | 20 by 20 ft. or larger |
 
-<details>
-<summary>Raw table text</summary>
-
-```
-Table- Creature  Size
-    Size            Space
- Tiny         2 1/2 by 2 1/2 ft.
- Small        5 by 5 ft.
- Medium       5 by 5 ft.
- Large        10 by 10 ft.
- Huge         15 by 15 ft.
- Gargantuan   20 by 20 ft. or larger
-```
-
 </details>
 
-### Technical frame 4: Table- Armor
+### Technical frame 5: Table- Armor
 
-**Context:** _(rpg_dnd_srd_excerpt.pdf (source-range-b7d08967-00492))_
+**Context:** _(rpg_dnd_srd_excerpt.pdf (source-range-4449ec9f-00501))_
 
 > Plate . Plate consists of shaped, interlocking metal plates to cover the entire body. A suit of plate includes gauntlets, heavy leather boots, a visored helmet, and thick layers of padding underneath the armor. Buckles and straps distribute the weight over the body.
 
-**Atom:** _(rpg_dnd_srd_excerpt.pdf (source-range-b7d08967-00493))_
+**Atom:** _(rpg_dnd_srd_excerpt.pdf (source-range-4449ec9f-00502))_
 
-| Armor | Cost | Class | Strength | Stealth | Weight |
-| --- | --- | --- | --- | --- | --- |
-| Padded | 5 gp | - | Disadvantage | 8 lb. |  |
-| Leather | 10 gp | - | - | 10 lb. |  |
-| Studded | 12 + Dex |  |  |  |  |
-| 45 gp | - | - | 13 lb. |  |  |
-| leather | modiﬁer |  |  |  |  |
-| Hide | 10 gp | modiﬁer | - | - | 12 lb. |
-| (max | 2) |  |  |  |  |
-| Chain shirt | 50 gp | modiﬁer | - | - | 20 lb. |
-| (max | 2) |  |  |  |  |
-| Scale mail | 50 gp | modiﬁer | - | Disadvantage | 45 lb. |
-| (max | 2) |  |  |  |  |
-| Breastplate | modiﬁer | - | - | 20 lb. |  |
-| (max | 2) |  |  |  |  |
-| Half plate | modiﬁer | - | Disadvantage | 40 lb. |  |
-| (max | 2) |  |  |  |  |
-| Ring mail | 30 gp | 14 | - | Disadvantage | 40 lb. |
-| Chain mail | 75 gp | 16 | Str 13 | Disadvantage | 55 lb. |
-| Splint | 17 | Str 15 | Disadvantage | 60 lb. |  |
-| Plate | gp | 18 | Str 15 | Disadvantage | 65 lb. |
-| Shield | 10 gp | +2 | - | - | 6 lb. |
+| Category | Armor | Cost | Class (AC) | Strength | Stealth | Weight |
+| --- | --- | --- | --- | --- | --- | --- |
+| Light Armor | Padded | 5 gp | 11 + Dex modiﬁer | - | Disadvantage | 8 lb. |
+|  | Leather | 10 gp | 11 + Dex modiﬁer | - | - | 10 lb. |
+|  | Studded leather | 45 gp | 12 + Dex modiﬁer | - | - | 13 lb. |
+| Medium Armor | Hide | 10 gp | 12 + Dex modiﬁer (max 2) | - | - | 12 lb. |
+|  | Chain shirt | 50 gp | 13 + Dex modiﬁer (max 2) | - | - | 20 lb. |
+|  | Scale mail | 50 gp | 14 + Dex modiﬁer (max 2) | - | Disadvantage | 45 lb. |
+|  | Breastplate | 400 gp | 14 + Dex modiﬁer (max 2) | - | - | 20 lb. |
+|  | Half plate | 750 gp | 15 + Dex modiﬁer (max 2) | - | Disadvantage | 40 lb. |
+| Heavy Armor | Ring mail | 30 gp | 14 | - | Disadvantage | 40 lb. |
+|  | Chain mail | 75 gp | 16 | Str 13 | Disadvantage | 55 lb. |
+|  | Splint | 200 gp | 17 | Str 15 | Disadvantage | 60 lb. |
+|  | Plate | 1,500 gp | 18 | Str 15 | Disadvantage | 65 lb. |
+| Shield | Shield | 10 gp | +2 | - | - | 6 lb. |
 
 <details>
 <summary>Raw table text</summary>
 
-```
+```text
 Table- Armor
-                      Armor
-   Armor      Cost     Class    Strength      Stealth     Weight
-                       (AC)
- Light
- Armor
-                    11 + Dex
- Padded       5 gp               -          Disadvantage   8 lb.
-                    modiﬁer
-                    11 + Dex
- Leather      10 gp              -          -              10 lb.
-                    modiﬁer
- Studded             12 + Dex
-             45 gp              -          -              13 lb.
- leather             modiﬁer
- Medium
- Armor
-                    12 + Dex
- Hide         10 gp  modiﬁer     -          -              12 lb.
-                    (max  2)
-                    13 + Dex
- Chain shirt  50 gp  modiﬁer     -          -              20 lb.
-                    (max  2)
-                    14 + Dex
- Scale mail   50 gp  modiﬁer     -          Disadvantage   45 lb.
-                    (max  2)
-                    14 + Dex
-             400
- Breastplate         modiﬁer     -          -              20 lb.
-             gp
-                    (max  2)
-                    15 + Dex
-             750
- Half plate          modiﬁer     -          Disadvantage   40 lb.
-             gp
-                    (max  2)
- Heavy
- Armor
- Ring mail    30 gp  14          -          Disadvantage   40 lb.
- Chain mail   75 gp  16          Str 13     Disadvantage   55 lb.
-             200
- Splint              17          Str 15     Disadvantage   60 lb.
- Plate        gp     18          Str 15     Disadvantage   65 lb.
- Shield
- Shield       10 gp  +2          -          -              6 lb.
+| Category | Armor | Cost | Class (AC) | Strength | Stealth | Weight |
+| --- | --- | --- | --- | --- | --- | --- |
+| Light Armor | Padded | 5 gp | 11 + Dex modiﬁer | - | Disadvantage | 8 lb. |
+|  | Leather | 10 gp | 11 + Dex modiﬁer | - | - | 10 lb. |
+|  | Studded leather | 45 gp | 12 + Dex modiﬁer | - | - | 13 lb. |
+| Medium Armor | Hide | 10 gp | 12 + Dex modiﬁer (max 2) | - | - | 12 lb. |
+|  | Chain shirt | 50 gp | 13 + Dex modiﬁer (max 2) | - | - | 20 lb. |
+|  | Scale mail | 50 gp | 14 + Dex modiﬁer (max 2) | - | Disadvantage | 45 lb. |
+|  | Breastplate | 400 gp | 14 + Dex modiﬁer (max 2) | - | - | 20 lb. |
+|  | Half plate | 750 gp | 15 + Dex modiﬁer (max 2) | - | Disadvantage | 40 lb. |
+| Heavy Armor | Ring mail | 30 gp | 14 | - | Disadvantage | 40 lb. |
+|  | Chain mail | 75 gp | 16 | Str 13 | Disadvantage | 55 lb. |
+|  | Splint | 200 gp | 17 | Str 15 | Disadvantage | 60 lb. |
+|  | Plate | 1,500 gp | 18 | Str 15 | Disadvantage | 65 lb. |
+| Shield | Shield | 10 gp | +2 | - | - | 6 lb. |
 ```
 
 </details>
 
-### Technical frame 5: Table- Donning and Doﬀing Armor
+### Technical frame 6: Weapons / Weapon Properties
 
-**Context:** _(rpg_dnd_srd_excerpt.pdf (source-range-b7d08967-00504))_
+**Context:** _(rpg_dnd_srd_excerpt.pdf (source-range-4449ec9f-00522))_
 
-> Your race, class, and feats can grant you proficiency with certain weapons or categories of weapons. The two categories are simple and martial . Most people can use simple weapons with proficiency. These weapons include clubs, maces, and other weapons often found in the hands of commoners. Martial weapons, including swords, axes, and polearms, require more specialized training to use effectively. Most warriors use martial weapons because these weapons put their fighting style and training to bes
+> If you use a weapon that has the ammunition property to make a melee attack, you treat the weapon as an improvised weapon (see "Improvised Weapons" later in the section). A sling must be loaded to deal any damage when used in this way.
 
-**Atom:** _(rpg_dnd_srd_excerpt.pdf (source-range-b7d08967-00506))_
+**Atom:** _(rpg_dnd_srd_excerpt.pdf (source-range-4449ec9f-00521))_
 
-| Table- Donning | and Doﬀing | Armor |
-| --- | --- | --- |
-| Category | Don | Doﬀ |
-| Light Armor | 1 minute | 1 minute |
-| Medium | Armor | 5 minutes |
-| Heavy | Armor | 10 minutes |
-| Shield | 1 action | 1 action |
+> You can use a weapon that has the ammunition property to make a ranged attack only if you have ammunition to fire from the weapon.
 
-<details>
-<summary>Raw table text</summary>
+### Technical frame 7: Weapons / Weapon Properties / Improvised Weapons
 
-```
-Table- Donning   and Doﬀing   Armor
-   Category         Don        Doﬀ
- Light Armor     1 minute     1 minute
- Medium   Armor  5 minutes    1 minute
- Heavy  Armor    10 minutes   5 minutes
- Shield          1 action     1 action
-```
+**Context:** _(rpg_dnd_srd_excerpt.pdf (source-range-4449ec9f-00536))_
 
-</details>
+> An object that bears no resemblance to a weapon deals 1d4 damage (the GM assigns a damage type appropriate to the object). If a character uses a ranged weapon to make a melee attack, or throws a melee weapon that does not have the thrown property, it also deals 1d4 damage. An improvised thrown weapon has a normal range of 20 feet and a long range of 60 feet.
 
-### Technical frame 6: Table- Weapons
+**Atom:** _(rpg_dnd_srd_excerpt.pdf (source-range-4449ec9f-00535))_
 
-**Context:** _(rpg_dnd_srd_excerpt.pdf (source-range-b7d08967-00528))_
+> At the GM's option, a character proficient with a weapon can use a similar object as if it were that weapon and use his or her proficiency bonus.
+
+### Technical frame 8: Table- Weapons
+
+**Context:** _(rpg_dnd_srd_excerpt.pdf (source-range-4449ec9f-00540))_
 
 > Weapons with special rules are described here.
 
-**Atom:** _(rpg_dnd_srd_excerpt.pdf (source-range-b7d08967-00532))_
+**Atom:** _(rpg_dnd_srd_excerpt.pdf (source-range-4449ec9f-00544))_
 
-| Name | Cost | Damage | Weight | Properties |
-| --- | --- | --- | --- | --- |
-| Club | 1 sp | 2 lb. | Light |  |
-| Dagger | 2 gp | 1 lb. | thrown (range |  |
-| Greatclub | 2 sp | 10 lb. | Two-handed |  |
-| Light, thrown | (range |  |  |  |
-| Handaxe | 5 gp | 2 lb. | 20/60) |  |
-| 1d6 | Thrown | (range |  |  |
-| Javelin | 5 sp | 2 lb. |  |  |
-| piercing | 30/120) |  |  |  |
-| 1d4 | Light, thrown | (range |  |  |
-| Light hammer | 2 gp | 2 lb. |  |  |
+| Category | Name | Cost | Damage | Weight | Properties |
+| --- | --- | --- | --- | --- | --- |
+| Simple Melee Weapons | Club | 1 sp | 1d4 bludgeoning | 2 lb. | Light |
+|  | Dagger | 2 gp | 1d4 piercing | 1 lb. | Finesse, light, thrown (range 20/60) |
+|  | Greatclub | 2 sp | 1d8 bludgeoning | 10 lb. | Two-handed |
+|  | Handaxe | 5 gp | 1d6 slashing | 2 lb. | Light, thrown (range 20/60) |
+|  | Javelin | 5 sp | 1d6 piercing | 2 lb. | Thrown (range 30/120) |
+|  | Light hammer | 2 gp | 1d4 | 2 lb. | Light, thrown (range |
 
 <details>
 <summary>Raw table text</summary>
 
-```
+```text
 Table- Weapons
-    Name        Cost    Damage      Weight        Properties
- Simple
- Melee
- Weapons
-                       1d4
- Club            1 sp                2 lb.    Light
-                       bludgeoning
-                                             Finesse, light,
-                       1d4
- Dagger          2 gp                1 lb.    thrown (range
-                       piercing
-                                             20/60)
-                       1d8
- Greatclub       2 sp                10 lb.   Two-handed
-                       bludgeoning
-                                             Light, thrown  (range
-                       1d6
- Handaxe         5 gp                2 lb.    20/60)
-                       slashing
-                       1d6                   Thrown  (range
- Javelin         5 sp                2 lb.
-                       piercing              30/120)
-                       1d4                   Light, thrown  (range
- Light hammer    2 gp                2 lb.
+| Category | Name | Cost | Damage | Weight | Properties |
+| --- | --- | --- | --- | --- | --- |
+| Simple Melee Weapons | Club | 1 sp | 1d4 bludgeoning | 2 lb. | Light |
+|  | Dagger | 2 gp | 1d4 piercing | 1 lb. | Finesse, light, thrown (range 20/60) |
+|  | Greatclub | 2 sp | 1d8 bludgeoning | 10 lb. | Two-handed |
+|  | Handaxe | 5 gp | 1d6 slashing | 2 lb. | Light, thrown (range 20/60) |
+|  | Javelin | 5 sp | 1d6 piercing | 2 lb. | Thrown (range 30/120) |
+|  | Light hammer | 2 gp | 1d4 | 2 lb. | Light, thrown (range |
+```
+
+</details>
+
+### Technical frame 9: Table- Exhaustion Eﬀects
+
+**Context:** _(rpg_dnd_srd_excerpt.pdf (source-range-4449ec9f-00590))_
+
+> Some special abilities and environmental hazards, such as starvation and the long-term effects of freezing or scorching temperatures, can lead to a special condition called exhaustion. Exhaustion is measured in six levels. An effect can give a creature one or more levels of exhaustion, as specified in the effect's description.
+
+**Atom:** _(rpg_dnd_srd_excerpt.pdf (source-range-4449ec9f-00591))_
+
+| 3 | Disadvantage | on | attack | rolls | and | saving | throws |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| 4 | Hit point | maximum | halved |  |  |  |  |
+| 5 | Speed reduced | to | 0 |  |  |  |  |
+| 6 | Death |  |  |  |  |  |  |
+
+<details>
+<summary>Raw table text</summary>
+
+```text
+Table- Exhaustion Eﬀects
+| 3 | Disadvantage | on | attack | rolls | and | saving | throws |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| 4 | Hit point | maximum | halved |  |  |  |  |
+| 5 | Speed reduced | to | 0 |  |  |  |  |
+| 6 | Death |  |  |  |  |  |  |
 ```
 
 </details>
@@ -298,17 +330,19 @@ Table- Weapons
 
 ## Related pages
 
-- [[rpg-dnd-srd-excerpt-table-difficulty-class]] - narrower topic: Table- Difficulty Classes shares technical record from Table- Diﬀiculty Classes: Table- Creature  Size Size            Space Tiny         2 1/2 by 2 1/2 ft. Small        5 by 5 ft. Medium       5 by 5 ft. Large        10 by 10 ft. Huge         15 ... [truncated] (6 shared atom(s))
-- [[rpg-dnd-srd-excerpt-armor]] - shared statements and technical atoms: Armor shares source evidence from Armor: The Armor table shows the cost, weight, and other properties of the common types of armor worn in fantasy gaming worlds.; Armor shares technical record from Table- Armor: Table- Armor Armor Armor      Cost     Class    Strength      Stealth     Weight (AC) Light Armor 11 + Dex Padded       5 gp               -          Disadvantage ... [truncated] (2 shared statement(s), 2 shared atom(s))
-- [[rpg-dnd-srd-excerpt-weapon-proficiency]] - shared technical atoms: Weapon Proficiency shares technical record from Table- Donning and Doﬀing Armor: Table- Donning   and Doﬀing   Armor Category         Don        Doﬀ Light Armor     1 minute     1 minute Medium   Armor  5 minutes    1 minute Heavy  Armor    10 mi ... [truncated] (2 shared atom(s))
-- [[rpg-dnd-srd-excerpt-creature]] - shared technical atoms: Creature shares technical record from Table- Creature Size: Table- Creature  Size Size            Space Tiny         2 1/2 by 2 1/2 ft. Small        5 by 5 ft. Medium       5 by 5 ft. Large        10 by 10 ft. Huge         15 ... [truncated] (1 shared atom(s))
-- [[rpg-dnd-srd-excerpt-heavy-armor]] - shared technical atoms: Heavy Armor shares technical record from Table- Armor: Table- Armor Armor Armor      Cost     Class    Strength      Stealth     Weight (AC) Light Armor 11 + Dex Padded       5 gp               -          Disadvantage ... [truncated] (1 shared atom(s))
-- [[rpg-dnd-srd-excerpt-medium-armor]] - shared technical atoms: Medium Armor shares technical record from Table- Armor: Table- Armor Armor Armor      Cost     Class    Strength      Stealth     Weight (AC) Light Armor 11 + Dex Padded       5 gp               -          Disadvantage ... [truncated] (1 shared atom(s))
-- [[rpg-dnd-srd-excerpt-proficiency]] - shared technical atoms: Proficiency shares technical record from Table- Donning and Doﬀing Armor: Table- Donning   and Doﬀing   Armor Category         Don        Doﬀ Light Armor     1 minute     1 minute Medium   Armor  5 minutes    1 minute Heavy  Armor    10 mi ... [truncated] (1 shared atom(s))
+- [[rpg-dnd-srd-excerpt-weapon]] - shared statements and technical atoms: Weapons shares source evidence from Weapons: The Weapons table shows the most common weapons used in the fantasy gaming worlds, their price and weight, the damage they deal when they hit, and any special proper ... [truncated]; Weapons shares technical record from Weapons / Weapon Properties: You can use a weapon that has the ammunition property to make a ranged attack only if you have ammunition to fire from the weapon. (1 shared statement(s), 3 shared atom(s))
+- [[rpg-dnd-srd-excerpt-ability-check]] - shared statements and technical atoms: Ability Checks shares source evidence from Ability Checks: The more difficult a task, the higher its DC. The Typical Difficulty Classes table shows the most common DCs.; Ability Checks shares technical record from Table- Diﬀiculty Classes: Table- Diﬀiculty Classes | Task | Diﬀiculty | DC | | --- | --- | --- | | Very | easy | 5 | | Easy |  | 10 | | Medium |  | 15 | | Hard |  | 20 | | Very | hard | 25 | ... [truncated] (1 shared statement(s), 2 shared atom(s))
+- [[rpg-dnd-srd-excerpt-armor]] - shared statements and technical atoms: Armor shares source evidence from Armor: The Armor table shows the cost, weight, and other properties of the common types of armor worn in fantasy gaming worlds.; Armor shares technical record from Table- Armor: Table- Armor | Category | Armor | Cost | Class (AC) | Strength | Stealth | Weight | | --- | --- | --- | --- | --- | --- | --- | | Light Armor | Padded | 5 gp | 11 + ... [truncated] (2 shared statement(s), 1 shared atom(s))
+- [[rpg-dnd-srd-excerpt-creature-size]] - shared statements and technical atoms: Creature Size shares source evidence from Movement and Position / Creature Size: Each creature takes up a different amount of space. The Size Categories table shows how much space a creature of a particular size controls in combat. Objects someti ... [truncated]; Creature Size shares technical record from Table- Creature Size: Table- Creature  Size Size            Space Tiny         2 1/2 by 2 1/2 ft. Small        5 by 5 ft. Medium       5 by 5 ft. Large        10 by 10 ft. Huge         15 ... [truncated] (1 shared statement(s), 1 shared atom(s))
+- [[rpg-dnd-srd-excerpt-movement-and-position]] - shared statements and technical atoms: Movement and Position shares source evidence from Movement and Position / Creature Size: Each creature takes up a different amount of space. The Size Categories table shows how much space a creature of a particular size controls in combat. Objects someti ... [truncated]; Movement and Position shares technical record from Table- Creature Size: Table- Creature  Size Size            Space Tiny         2 1/2 by 2 1/2 ft. Small        5 by 5 ft. Medium       5 by 5 ft. Large        10 by 10 ft. Huge         15 ... [truncated] (1 shared statement(s), 1 shared atom(s))
+- [[rpg-dnd-srd-excerpt-weapon-property]] - shared technical atoms: Weapon Properties shares technical record from Weapons / Weapon Properties: You can use a weapon that has the ammunition property to make a ranged attack only if you have ammunition to fire from the weapon. (3 shared atom(s))
+- [[rpg-dnd-srd-excerpt-check]] - shared technical atoms: Check shares technical record from Table- Diﬀiculty Classes: Table- Diﬀiculty Classes | Task | Diﬀiculty | DC | | --- | --- | --- | | Very | easy | 5 | | Easy |  | 10 | | Medium |  | 15 | | Hard |  | 20 | | Very | hard | 25 | ... [truncated] (2 shared atom(s))
+- [[rpg-dnd-srd-excerpt-creature]] - shared technical atoms: Creature shares technical record from Table- Creature Size: Table- Creature  Size Size            Space Tiny         2 1/2 by 2 1/2 ft. Small        5 by 5 ft. Medium       5 by 5 ft. Large        10 by 10 ft. Huge         15 ... [truncated] (2 shared atom(s))
+- [[rpg-dnd-srd-excerpt-improvised-weapon]] - shared technical atoms: Improvised Weapons shares technical record from Weapons / Weapon Properties / Improvised Weapons: At the GM's option, a character proficient with a weapon can use a similar object as if it were that weapon and use his or her proficiency bonus. (2 shared atom(s))
+- [[rpg-dnd-srd-excerpt-special]] - shared technical atoms: Special shares technical record from Weapons / Weapon Properties: You can use a weapon that has the ammunition property to make a ranged attack only if you have ammunition to fire from the weapon. (2 shared atom(s))
+- [[rpg-dnd-srd-excerpt-character]] - shared technical atoms: Character shares technical record from Weapons / Weapon Properties / Improvised Weapons: At the GM's option, a character proficient with a weapon can use a similar object as if it were that weapon and use his or her proficiency bonus. (1 shared atom(s))
+- [[rpg-dnd-srd-excerpt-condition]] - shared technical atoms: Conditions shares technical record from Table- Exhaustion Eﬀects: Table- Exhaustion Eﬀects | 3 | Disadvantage | on | attack | rolls | and | saving | throws | | --- | --- | --- | --- | --- | --- | --- | --- | | 4 | Hit point | maxim ... [truncated] (1 shared atom(s))
 - [[rpg-dnd-srd-excerpt-skill]] - shared technical atoms: Skills shares technical record from Table- Related Skills: Table- Related  Skills Strength     Dexterity   Intelligence    Wisdom       Charisma Animal Athletics  Acrobatics    Arcana                      Deception Handling Sleight of (1 shared atom(s))
-- [[rpg-dnd-srd-excerpt-special]] - shared technical atoms: Special shares technical record from Table- Weapons: Table- Weapons Name        Cost    Damage      Weight        Properties Simple Melee Weapons 1d4 Club            1 sp                2 lb.    Light bludgeoning Fines ... [truncated] (1 shared atom(s))
-- [[rpg-dnd-srd-excerpt-special-weapon]] - shared technical atoms: Special Weapons shares technical record from Table- Weapons: Table- Weapons Name        Cost    Damage      Weight        Properties Simple Melee Weapons 1d4 Club            1 sp                2 lb.    Light bludgeoning Fines ... [truncated] (1 shared atom(s))
-- [[rpg-dnd-srd-excerpt-weapon-property]] - shared technical atoms: Weapon Properties shares technical record from Table- Weapons: Table- Weapons Name        Cost    Damage      Weight        Properties Simple Melee Weapons 1d4 Club            1 sp                2 lb.    Light bludgeoning Fines ... [truncated] (1 shared atom(s))
 
 ## Source
 
