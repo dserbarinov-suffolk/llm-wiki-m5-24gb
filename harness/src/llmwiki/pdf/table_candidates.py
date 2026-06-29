@@ -14,6 +14,7 @@ from llmwiki.pdf.table_candidate_dedupe import dedupe_table_candidates
 from llmwiki.pdf.table_candidate_model import TableCandidate
 from llmwiki.pdf.table_forward_repair import forward_table_text, is_forward_table_cue
 from llmwiki.pdf.table_geometry_repair import geometry_table_rows, preface_numbered_table_text
+from llmwiki.pdf.table_grid_reconstruction import reconstruct_table_grid
 
 _CAPTION = re.compile(r"^\s*(?:table|tab\.)\s*(?:([-:.])|(\d+\b))?\s*(.*)$", re.IGNORECASE)
 _TOC = re.compile(r"\btable\s+of\s+contents\b", re.IGNORECASE)
@@ -109,13 +110,14 @@ def _caption_layout_candidates(
             if _table_like_count(body) < 2:
                 continue
             all_lines = (line, *body)
+            reconstructed = reconstruct_table_grid(all_lines)
             candidates.append(
                 TableCandidate(
                     caption=caption,
                     page_start=page_index + 1,
                     page_end=max(item.page_index for item in all_lines) + 1,
                     y0=line.y0,
-                    raw_text=layout_text(all_lines),
+                    raw_text=reconstructed.raw_text if reconstructed else layout_text(all_lines),
                     extractor_stage="caption-layout",
                     anchor_text=line.text,
                 )
@@ -203,8 +205,9 @@ def _collect_same_page(lines: tuple[TextLine, ...], start: int) -> tuple[TextLin
         line_like = _is_table_like_line(line)
         next_like = index + 1 < len(lines) and _is_table_like_line(lines[index + 1])
         continues = _line_before_table(lines, index)
+        tail = _short_table_tail(line, previous_y)
         gap = line.y0 - previous_y
-        if table_like >= 2 and not (line_like or next_like or continues):
+        if table_like >= 2 and not (line_like or next_like or continues or tail):
             break
         if table_like >= 2 and line_like and _looks_like_heading(line) and not next_like:
             break
@@ -254,6 +257,10 @@ def _has_table_value(text: str) -> bool:
 
 def _is_short_label(line: TextLine) -> bool:
     return 1 <= len(line.words) <= 3 and not line.text.endswith(".")
+
+
+def _short_table_tail(line: TextLine, previous_y: float) -> bool:
+    return _is_short_label(line) and line.y0 - previous_y <= 18.0
 
 
 def _line_before_table(lines: tuple[TextLine, ...], index: int) -> bool:

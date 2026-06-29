@@ -16,7 +16,8 @@ from llmwiki.pdf.document import DocumentElement, DocumentModel
 
 _FENCE = re.compile(r"^\s*(```|~~~)")
 _PROSE_KINDS = ("paragraph", "list")
-_ROW_CONTINUATION_LOOKAHEAD = 6
+_ROW_CONTINUATION_LOOKAHEAD = 10
+_TABLE_RUN_ELEMENT_LIMIT = 80
 
 
 def segment_document_model(
@@ -195,7 +196,7 @@ def _heading_table_end(elements: tuple[DocumentElement, ...], start: int) -> int
     non_row_before_rows = 0
     end = start + 1
     index = start + 1
-    while index < len(elements) and index <= start + 40:
+    while index < len(elements) and index <= start + _TABLE_RUN_ELEMENT_LIMIT:
         element = elements[index]
         if element.element_kind == "heading":
             break

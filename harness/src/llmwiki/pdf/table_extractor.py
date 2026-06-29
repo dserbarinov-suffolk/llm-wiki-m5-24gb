@@ -49,7 +49,7 @@ def _enrich_document_model_with_tables_in_process(
         if index is not None and not candidate.insert_after_anchor:
             skip_ids.update(_degraded_fragment_ids(elements, index, candidate))
         elif index is None:
-            skip_ids.update(_degraded_fragment_ids(elements, insert_at, candidate))
+            skip_ids.update(_degraded_fragment_ids(elements, max(0, insert_at - 1), candidate))
 
     enriched: list[DocumentElement] = []
     for index, element in enumerate(elements):
@@ -136,6 +136,7 @@ def _degraded_fragment_ids(
     elements: list[DocumentElement], index: int, candidate: TableCandidate
 ) -> set[str]:
     raw_key = _norm(candidate.raw_text)
+    caption_key = _norm(candidate.caption)
     skipped: set[str] = set()
     for element in elements[index:]:
         if element.element_kind == "heading" and element.element_id != elements[index].element_id:
@@ -143,12 +144,23 @@ def _degraded_fragment_ids(
         if element.page_start > candidate.page_end:
             break
         text_key = _norm(element.text)
+        if (
+            caption_key
+            and caption_key in text_key
+            and _short_caption_fragment(text_key, caption_key)
+        ):
+            skipped.add(element.element_id)
+            continue
         if text_key and text_key in raw_key:
             skipped.add(element.element_id)
             continue
         if skipped:
             break
     return skipped
+
+
+def _short_caption_fragment(text_key: str, caption_key: str) -> bool:
+    return len(text_key.split()) <= len(caption_key.split()) + 3
 
 
 def _norm(text: str) -> str:
