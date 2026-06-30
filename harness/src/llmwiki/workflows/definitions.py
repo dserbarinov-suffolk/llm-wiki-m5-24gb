@@ -22,6 +22,8 @@ from llmwiki.workflows import prompts
 from llmwiki.workflows.claim_support_tools import record_claim_support_verdict_tool
 from llmwiki.workflows.tools import (
     finish_tool,
+    grounded_chat_respond_tool,
+    inspect_page_tool,
     read_index_tool,
     read_page_tool,
     read_source_tool,
@@ -58,6 +60,7 @@ def build_query_workflow(store: WikiStore, today: str) -> Workflow:
     tools = [
         search_wiki_tool(store),
         read_index_tool(store),
+        inspect_page_tool(store),
         read_page_tool(store, read_tracker=seen),
         write_page_tool(store, today, read_tracker=seen),
         respond_tool(),
@@ -82,11 +85,13 @@ def build_chat_workflow(store: WikiStore) -> Workflow:
     a junk search, and the model answered from the junk (recency wins in
     a 14B).
     """
+    missing_focus_reports: set[str] = set()
     tools = [
         search_wiki_tool(store),
         read_index_tool(store),
+        inspect_page_tool(store, missing_focus_reports=missing_focus_reports),
         read_page_tool(store),
-        respond_tool(),
+        grounded_chat_respond_tool(missing_focus_reports),
     ]
     return Workflow(
         name="chat",

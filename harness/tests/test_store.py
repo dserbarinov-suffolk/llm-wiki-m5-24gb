@@ -5,7 +5,7 @@ import pytest
 from llmwiki.config import SOURCE_READ_BUDGET_CHARS, WikiPaths
 from llmwiki.domain.pages import PageMetadata, PathTemplate, WikiPage, WikiStructure
 from llmwiki.store import PageNotFoundError, SourceNotFoundError, WikiStore, WikiStoreError
-from llmwiki.workflows.tools import read_page_tool
+from llmwiki.workflows.tools import grounded_chat_respond_tool, inspect_page_tool, read_page_tool
 
 
 def _page(page_id: str = "hittites", page_kind: str = "entity") -> WikiPage:
@@ -84,6 +84,73 @@ class TestWikiLayer:
         chunk = tool.callable(page_id="large-default")
 
         assert chunk.startswith("[Showing wiki/large-default.md characters 0-3000 of ")
+
+    def test_inspect_page_tool_returns_compact_page_map(self, store: WikiStore) -> None:
+        page = WikiPage.from_metadata(
+            PageMetadata(page_id="mapped", page_kind="source", summary="Mapped page."),
+            "# Mapped\nSee [[other]].\n\n"
+            "## Step\nEvidence. _(book.pdf (source-range-abc123-00001))_",
+        )
+        store.write_page(page)
+        tool = inspect_page_tool(store)
+
+        result = tool.callable(page_id="mapped")
+
+        assert "Page map for [[mapped]]" in result
+        assert "[[other]]" in result
+        assert "source-range-abc123-00001" in result
+
+    def test_inspect_page_tool_stops_after_manifest_reports_missing_focus(
+        self, store: WikiStore
+    ) -> None:
+        manifest = WikiPage.from_metadata(
+            PageMetadata(
+                page_id="manual",
+                page_kind="source",
+                page_family="source-manifest",
+                summary="Manual source manifest.",
+                sources=("raw/manual.pdf",),
+            ),
+            "# Manual\n\n## Ability Scores\nUse modifiers.",
+        )
+        section = WikiPage.from_metadata(
+            PageMetadata(
+                page_id="manual-ability-scores",
+                page_kind="source",
+                page_family="section-reference",
+                summary="Ability scores.",
+                sources=("raw/manual.pdf",),
+            ),
+            "# Ability Scores\n\n## Statements\nUse modifiers.",
+        )
+        store.write_page(manifest)
+        store.write_page(section)
+        tool = inspect_page_tool(store)
+
+        first_result = tool.callable(page_id="manual", focus_query="character creation")
+        second_result = tool.callable(
+            page_id="manual-ability-scores",
+            focus_query="character creation",
+        )
+
+        assert "0 heading match(es)" in first_result
+        assert "Focused source coverage was already checked" in second_result
+        assert "Stop inspecting related pages" in second_result
+
+    def test_grounded_chat_respond_requires_citations_after_missing_focus(self) -> None:
+        tool = grounded_chat_respond_tool({"raw/manual.pdf::character creation"})
+
+        with pytest.raises(WikiStoreError, match="missing inspected wiki page citation"):
+            tool.callable(message="The procedure is missing. Would you like another source?")
+
+        result = tool.callable(
+            message=(
+                "[[manual]] has no matching character-creation heading for "
+                "source-range-abc123-00001, so the wiki lacks this procedure."
+            )
+        )
+
+        assert result.startswith("[[manual]] has no matching")
 
     def test_write_page_can_project_to_nested_structure(self, paths: WikiPaths) -> None:
         structure = WikiStructure(

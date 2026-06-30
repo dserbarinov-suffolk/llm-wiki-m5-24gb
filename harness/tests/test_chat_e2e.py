@@ -44,7 +44,13 @@ class TestChatWorkflow:
     def test_read_only_by_construction(self, store: WikiStore) -> None:
         workflow = build_chat_workflow(store)
         assert "write_page" not in workflow.tools
-        assert set(workflow.tools) == {"search_wiki", "read_index", "read_page", "respond"}
+        assert set(workflow.tools) == {
+            "search_wiki",
+            "read_index",
+            "inspect_page",
+            "read_page",
+            "respond",
+        }
 
     def test_no_required_steps_grounding_is_provisioned(self, store: WikiStore) -> None:
         # A required-search step was removed on live evidence: it interrupted

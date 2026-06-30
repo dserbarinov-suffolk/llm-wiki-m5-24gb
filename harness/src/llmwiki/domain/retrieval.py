@@ -82,6 +82,7 @@ class RetrievalCandidate:
 class WikiContextPack:
     query: str
     candidates: tuple[RetrievalCandidate, ...]
+    source_scope: tuple[str, ...] = ()
 
 
 def retrieve_wiki_context(
@@ -98,15 +99,21 @@ def retrieve_wiki_context(
     index_entries = {entry.page_id: entry for entry in parse_index(index_text)}
     links_by_page = {page_id: extract_links(text) for page_id, text in page_texts.items()}
     backlinks = _backlinks(links_by_page)
+    metadata_by_page = {
+        page_id: _metadata_for_page(page_id, text, index_entries.get(page_id))
+        for page_id, text in page_texts.items()
+    }
+    source_scope = _detect_source_scope(terms, metadata_by_page)
     candidates = [
         candidate
         for page_id, text in page_texts.items()
+        if _in_source_scope(metadata_by_page[page_id], source_scope)
         if (
             candidate := _candidate_for_page(
                 page_id,
                 text,
                 terms,
-                index_entries.get(page_id),
+                metadata_by_page[page_id],
                 links_by_page,
                 backlinks,
                 related_limit,
@@ -115,7 +122,11 @@ def retrieve_wiki_context(
         is not None
     ]
     candidates.sort(key=lambda candidate: (-candidate.score, candidate.page_id))
-    return WikiContextPack(query=query, candidates=tuple(candidates[:limit]))
+    return WikiContextPack(
+        query=query,
+        candidates=tuple(candidates[:limit]),
+        source_scope=source_scope,
+    )
 
 
 def render_context_pack(pack: WikiContextPack) -> str:
@@ -125,6 +136,8 @@ def render_context_pack(pack: WikiContextPack) -> str:
         "Wiki retrieval context:",
         "Use these page ids as starting points. Read pages before detailed answers.",
     ]
+    if pack.source_scope:
+        lines.append("Source scope: " + ", ".join(pack.source_scope))
     for index, candidate in enumerate(pack.candidates, start=1):
         lines.extend(
             [
@@ -170,12 +183,11 @@ def _candidate_for_page(
     page_id: str,
     text: str,
     terms: set[str],
-    index_entry: IndexEntry | None,
+    metadata: PageMetadata,
     links_by_page: Mapping[str, set[str]],
     backlinks: Mapping[str, set[str]],
     related_limit: int,
 ) -> RetrievalCandidate | None:
-    metadata = _metadata_for_page(page_id, text, index_entry)
     body_counts = token_key_counts(text)
     signals = tuple(
         signal
@@ -247,6 +259,44 @@ def _metadata_text(metadata: PageMetadata) -> str:
             " ".join(metadata.aliases),
         )
     )
+
+
+def _detect_source_scope(
+    terms: set[str], metadata_by_page: Mapping[str, PageMetadata]
+) -> tuple[str, ...]:
+    source_scores: Counter[str] = Counter()
+    for metadata in metadata_by_page.values():
+        if not metadata.sources:
+            continue
+        identity_keys = token_keys_for_text(_source_identity_text(metadata))
+        matched_terms = {
+            term for term in terms if len(term) >= 3 and token_keys_for_text(term) & identity_keys
+        }
+        if len(matched_terms) < 2:
+            continue
+        for source in metadata.sources:
+            source_scores[source] += len(matched_terms)
+    if not source_scores:
+        return ()
+    best_score = max(source_scores.values())
+    return tuple(
+        source for source, score in sorted(source_scores.items()) if score == best_score
+    )
+
+
+def _source_identity_text(metadata: PageMetadata) -> str:
+    return " ".join(
+        (
+            metadata.domain,
+            metadata.category_path,
+            metadata.source_id,
+            " ".join(metadata.sources),
+        )
+    )
+
+
+def _in_source_scope(metadata: PageMetadata, source_scope: tuple[str, ...]) -> bool:
+    return not source_scope or bool(set(metadata.sources) & set(source_scope))
 
 
 def _headings_text(text: str) -> str:

@@ -27,6 +27,7 @@ from llmwiki.domain.page_body_contracts import (
     validate_page_body,
     validate_source_summary_draft,
 )
+from llmwiki.domain.page_inspection import inspect_page_text, render_page_map
 from llmwiki.domain.pages import (
     LOCAL_FLAT_STRUCTURE,
     PageError,
@@ -693,3 +694,128 @@ class TestWikiRetrieval:
         assert pack.candidates[0].page_id == "rpg-cairn-character-creation"
         assert "page-id matched cairn, character" in rendered
         assert "[[rpg-cairn-backgrounds]]" in rendered
+
+    def test_explicit_source_anchor_scopes_retrieval_candidates(self) -> None:
+        index = """# Index
+
+## Sources
+
+- [[alpha-manual]] — Alpha manual excerpt.
+- [[beta-manual-character-creation]] — Character creation in Beta.
+"""
+        pages = {
+            "alpha-manual": render_page(
+                WikiPage.from_metadata(
+                    PageMetadata(
+                        "alpha-manual",
+                        "source",
+                        "Alpha manual excerpt.",
+                        sources=("raw/alpha_manual.pdf",),
+                        domain="alpha-manual",
+                        source_id="alpha_manual.pdf",
+                    ),
+                    "# Alpha Manual\n\n## Ability Scores\nUse modifiers.",
+                )
+            ),
+            "beta-manual-character-creation": render_page(
+                WikiPage.from_metadata(
+                    PageMetadata(
+                        "beta-manual-character-creation",
+                        "source",
+                        "Character creation in Beta.",
+                        sources=("raw/beta_manual.pdf",),
+                        domain="beta-manual",
+                        source_id="beta_manual.pdf",
+                    ),
+                    "# Character Creation\nRoll or choose a background.",
+                )
+            ),
+        }
+
+        pack = retrieve_wiki_context(
+            query="Using only Alpha Manual, map character creation.",
+            index_text=index,
+            page_texts=pages,
+        )
+
+        assert pack.source_scope == ("raw/alpha_manual.pdf",)
+        assert [candidate.page_id for candidate in pack.candidates] == ["alpha-manual"]
+
+
+class TestPageInspection:
+    def test_page_map_lists_section_ranges_links_and_citations(self) -> None:
+        text = render_page(
+            WikiPage.from_metadata(
+                PageMetadata(
+                    "procedure",
+                    "source",
+                    "A procedure.",
+                    sources=("raw/book.pdf",),
+                ),
+                "# Procedure\nSee [[step-one]].\n\n"
+                "## Step One\nDo the first thing. _(book.pdf (source-range-abc123-00001))_\n\n"
+                "### Detail\nUse a table. _(book.pdf (source-range-abc123-00002))_\n\n"
+                "## Step Two\nFinish.",
+            )
+        )
+
+        page_map = inspect_page_text("procedure", text)
+        rendered = render_page_map(page_map)
+
+        assert "Page map for [[procedure]]" in rendered
+        assert "[[step-one]]" in rendered
+        assert "h2 Step One" in rendered
+        assert "source-range-abc123-00001" in rendered
+        assert "source-range-abc123-00002" in rendered
+        assert "Use read_page with the listed offset" in rendered
+
+    def test_page_map_rendering_is_hard_bounded(self) -> None:
+        body = "\n\n".join(f"## Section {index}\nText." for index in range(100))
+        text = render_page(
+            WikiPage.from_metadata(
+                PageMetadata("large-map", "source", "A large page."),
+                "# Large\n\n" + body,
+            )
+        )
+
+        rendered = render_page_map(inspect_page_text("large-map", text), max_chars=700)
+
+        assert len(rendered) <= 700
+        assert "section(s) omitted" in rendered
+
+    def test_focused_page_map_reports_missing_procedure_coverage(self) -> None:
+        text = render_page(
+            WikiPage.from_metadata(
+                PageMetadata("manual", "source", "A partial rules excerpt."),
+                "# Manual\n\n## Ability Scores\nUse modifiers.\n\n## Combat\nMake attacks.",
+            )
+        )
+
+        page_map = inspect_page_text("manual", text, focus_query="character creation")
+        rendered = render_page_map(page_map)
+
+        assert page_map.focus_matched_sections == 0
+        assert "focus query: 'character creation' (0 heading match(es))" in rendered
+        assert "No section headings matched the focus query" in rendered
+
+    def test_focused_page_map_keeps_matching_heading_context(self) -> None:
+        text = render_page(
+            WikiPage.from_metadata(
+                PageMetadata("manual", "source", "A procedural manual."),
+                "# Manual\n\n"
+                "## Setup\nPrepare.\n\n"
+                "## Character Creation\nChoose attributes.\n\n"
+                "### Background\nRoll background.\n\n"
+                "## Combat\nMake attacks.",
+            )
+        )
+
+        rendered = render_page_map(
+            inspect_page_text("manual", text, focus_query="create character")
+        )
+
+        assert "h1 Manual" in rendered
+        assert "h2 Setup" in rendered
+        assert "h2 Character Creation" in rendered
+        assert "h3 Background" in rendered
+        assert "h2 Combat" in rendered

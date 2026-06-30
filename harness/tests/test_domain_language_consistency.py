@@ -10,7 +10,12 @@ from llmwiki.domain.links import compute_findings
 from llmwiki.domain.objects import LintRun, SourcePlan
 from llmwiki.domain.pages import PageMetadata, WikiPage, render_page
 from llmwiki.domain.schema import PAGE_KINDS, PAGE_METADATA_FIELDS
-from llmwiki.workflows.tools import ReadPageParams, ReadSourceParams, WritePageParams
+from llmwiki.workflows.tools import (
+    InspectPageParams,
+    ReadPageParams,
+    ReadSourceParams,
+    WritePageParams,
+)
 
 REPO_ROOT = Path(__file__).resolve().parents[2]
 CORE_FILES = (
@@ -49,6 +54,7 @@ def test_core_boundaries_do_not_use_legacy_domain_terms() -> None:
 
 def test_model_facing_tool_params_use_domain_code_names() -> None:
     assert set(ReadSourceParams.model_fields) == {"source_locator"}
+    assert set(InspectPageParams.model_fields) == {"page_id", "max_sections", "focus_query"}
     assert set(ReadPageParams.model_fields) == {"page_id", "offset", "max_chars"}
     assert set(WritePageParams.model_fields) == {
         "page_id",

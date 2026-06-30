@@ -8,9 +8,11 @@ messages, depending on whether the failed write can safely be retried.
 
 from __future__ import annotations
 
+import re
 from dataclasses import replace
 
 from forge.core.workflow import ToolDef, ToolSpec
+from forge.tools.respond import RESPOND_DESCRIPTION, RespondParams
 from pydantic import BaseModel, Field
 
 from llmwiki.domain.objects import PlannedPageWrite, SourceSummaryBullet, SourceSummaryDraft
@@ -22,6 +24,7 @@ from llmwiki.domain.page_body_contracts import (
     validate_page_body,
     validate_source_summary_draft,
 )
+from llmwiki.domain.page_inspection import inspect_page_text, render_page_map
 from llmwiki.domain.pages import PageMetadata, WikiPage
 from llmwiki.domain.retrieval import render_context_pack, retrieve_wiki_context
 from llmwiki.pdf.intermediate import OCR_MARKER
@@ -29,6 +32,9 @@ from llmwiki.store import WikiStore, WikiStoreError
 
 _READ_PAGE_DEFAULT_CHARS = 3_000
 _READ_PAGE_MAX_CHARS = 5_000
+type _FocusKey = tuple[tuple[str, ...], str]
+_WIKI_LINK_RE = re.compile(r"\[\[[a-z0-9][a-z0-9-]*\]\]")
+_SOURCE_CITATION_RE = re.compile(r"\braw/[a-zA-Z0-9_./-]+|source-range-[a-z0-9]+-\d+")
 
 
 def _strip_pipeline_markers(content: str) -> str:
@@ -77,6 +83,25 @@ class SearchWikiParams(BaseModel):
 
 class ReadIndexParams(BaseModel):
     """No parameters — the index is one document."""
+
+
+class InspectPageParams(BaseModel):
+    page_id: str = Field(description="WikiPage page_id, e.g. 'bronze-age-collapse'.")
+    max_sections: int = Field(
+        default=40,
+        ge=1,
+        le=80,
+        description="Maximum number of headings/sections to include in the compact page map.",
+    )
+    focus_query: str | None = Field(
+        default=None,
+        description=(
+            "Optional topic or procedure phrase. When provided, the page map prioritizes "
+            "matching section headings plus their ancestors and nearby siblings; if no "
+            "headings match, treat that as missing coverage unless another page names "
+            "the target directly."
+        ),
+    )
 
 
 class ReadPageParams(BaseModel):
@@ -196,6 +221,108 @@ def read_index_tool(store: WikiStore) -> ToolDef:
         ),
         callable=_read_index,
     )
+
+
+def inspect_page_tool(
+    store: WikiStore, missing_focus_reports: set[str] | None = None
+) -> ToolDef:
+    missing_focus_by_source: set[_FocusKey] = set()
+
+    def _inspect_page(**kwargs: object) -> str:
+        params = InspectPageParams(**kwargs)  # type: ignore[arg-type]
+        page_map = inspect_page_text(
+            params.page_id,
+            store.read_page(params.page_id),
+            max_sections=params.max_sections,
+            focus_query=params.focus_query,
+        )
+        focus_key = _focus_key(page_map.sources, params.focus_query)
+        if focus_key is not None and focus_key in missing_focus_by_source:
+            return _render_missing_focus_stop(page_map.sources, params.focus_query or "")
+        if (
+            focus_key is not None
+            and page_map.page_family == "source-manifest"
+            and page_map.focus_matched_sections == 0
+        ):
+            missing_focus_by_source.add(focus_key)
+            if missing_focus_reports is not None:
+                missing_focus_reports.add(
+                    _missing_focus_label(page_map.sources, params.focus_query)
+                )
+        return render_page_map(page_map)
+
+    return ToolDef(
+        spec=ToolSpec(
+            name="inspect_page",
+            description=(
+                "Return a compact map of one wiki page: metadata, related pages, headings, "
+                "section character ranges, and source-range ids. Use this before read_page "
+                "for complex procedures or large pages."
+            ),
+            parameters=InspectPageParams,
+        ),
+        callable=_inspect_page,
+    )
+
+
+def _focus_key(sources: tuple[str, ...], focus_query: str | None) -> _FocusKey | None:
+    if not focus_query or not sources:
+        return None
+    return (tuple(sorted(sources)), " ".join(focus_query.lower().split()))
+
+
+def _render_missing_focus_stop(sources: tuple[str, ...], focus_query: str) -> str:
+    source_text = ", ".join(sources)
+    return (
+        "Focused source coverage was already checked on the source manifest.\n"
+        f"source scope: {source_text}\n"
+        f"focus query: {focus_query!r}\n"
+        "No manifest section headings matched this focus. Stop inspecting related "
+        "pages for this same source/procedure and answer that the wiki lacks "
+        "source-backed procedure coverage unless another retrieved source page "
+        "names it directly."
+    )
+
+
+def _missing_focus_label(sources: tuple[str, ...], focus_query: str | None) -> str:
+    query = " ".join((focus_query or "").split())
+    return f"{','.join(sorted(sources))}::{query}"
+
+
+def grounded_chat_respond_tool(missing_focus_reports: set[str]) -> ToolDef:
+    def _respond(**kwargs: object) -> str:
+        params = RespondParams(**kwargs)  # type: ignore[arg-type]
+        if missing_focus_reports:
+            findings = _chat_response_findings(params.message)
+            if findings:
+                raise WikiStoreError(
+                    "Chat answer violates missing-coverage grounding:\n"
+                    + "\n".join(f"- {finding}" for finding in findings)
+                    + "\nReplace the answer with a cited limitation. Include the inspected "
+                    "[[PageId]], raw source locator or source-range id, and do not ask "
+                    "the user to continue outside the wiki."
+                )
+        return params.message
+
+    return ToolDef(
+        spec=ToolSpec(
+            name="respond",
+            description=RESPOND_DESCRIPTION,
+            parameters=RespondParams,
+        ),
+        callable=_respond,
+    )
+
+
+def _chat_response_findings(message: str) -> tuple[str, ...]:
+    findings: list[str] = []
+    if _WIKI_LINK_RE.search(message) is None:
+        findings.append("missing inspected wiki page citation like [[page-id]]")
+    if _SOURCE_CITATION_RE.search(message) is None:
+        findings.append("missing raw source locator or source-range id")
+    if message.rstrip().endswith("?"):
+        findings.append("ends with a follow-up question after reporting missing coverage")
+    return tuple(findings)
 
 
 def read_page_tool(store: WikiStore, read_tracker: set[str] | None = None) -> ToolDef:

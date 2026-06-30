@@ -7,6 +7,7 @@ from llmwiki.domain.chatwindow import (
     build_window,
     estimate_tokens,
 )
+from llmwiki.workflows.prompts import CHAT_TEMPLATE
 
 
 def _pair(i: int, answer_chars: int = 400) -> QAPair:
@@ -80,3 +81,10 @@ class TestChatGrounding:
         assert "No local search hits" in grounding
         assert "search_wiki" in grounding
         assert "[[alpha]]" in grounding
+
+
+class TestChatPrompt:
+    def test_missing_procedure_answers_must_stay_cited_and_local(self) -> None:
+        assert "reporting missing procedure coverage" in CHAT_TEMPLATE
+        assert "cite the inspected [[PageId]]" in CHAT_TEMPLATE
+        assert "stop without asking the user to continue outside the wiki" in CHAT_TEMPLATE
