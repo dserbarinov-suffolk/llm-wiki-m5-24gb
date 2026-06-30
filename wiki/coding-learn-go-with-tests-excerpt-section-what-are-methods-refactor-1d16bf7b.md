@@ -8,7 +8,7 @@ updated: 2026-06-30
 domain: coding-learn-go-with-tests-excerpt
 category_path: sources/coding-learn-go-with-tests-excerpt/sections
 source_id: coding_learn_go_with_tests_excerpt.pdf
-projection_coverage: section-coding-learn-go-with-tests-excerpt-section-what-are-methods-refactor-1d16bf7b@9fbe7f4d996fca48679112721fc1eff0
+projection_coverage: section-coding-learn-go-with-tests-excerpt-section-what-are-methods-refactor-1d16bf7b@30fecf372745ec5dde77b97d49d8ff5f
 ---
 
 # What are methods? / Refactor
@@ -19,7 +19,6 @@ From [[coding-learn-go-with-tests-excerpt]].
 
 - [[coding-learn-go-with-tests-excerpt-section-what-are-methods-997bc0f7]] - broader source section: What are methods?
 - [[coding-learn-go-with-tests-excerpt-section-what-are-methods-write-enough-code-to-make-it-pass-43d2ca7f]] - previous source section: What are methods? / Write enough code to make it pass
-- [[coding-learn-go-with-tests-excerpt-refactor]] - topic hub: opens the topic page for Refactor
 
 ## Statements
 

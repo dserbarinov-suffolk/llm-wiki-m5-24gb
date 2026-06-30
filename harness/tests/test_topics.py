@@ -17,7 +17,12 @@ from llmwiki.domain.ledger.section_planning import build_section_grounded_plan
 from llmwiki.domain.ledger.segments import SegmentClaim, SourceSegment
 from llmwiki.domain.ledger.structure import DocumentStructure
 from llmwiki.domain.ledger.topic_render import render_topic_page
-from llmwiki.domain.ledger.topics import SourceTopic, plan_source_topics
+from llmwiki.domain.ledger.topics import (
+    SourceTopic,
+    build_topic_index,
+    plan_source_topic_result,
+    plan_source_topics,
+)
 
 _HASH = "abcdef0123456789"
 # Usable (has a pivot verb "provides") but a run-on of > 45 words.
@@ -94,12 +99,70 @@ def _topic_texts(result: LedgerBuildResult, entry_ids: tuple[str, ...]) -> list[
 
 
 class TestTopicPlanning:
-    def test_repeated_subject_term_creates_topic_without_heading_duplication(self) -> None:
+    def test_repeated_subject_term_with_source_heading_anchor_creates_topic(self) -> None:
         topic = _topic(_build(_SPECS), "function")
         assert topic is not None
         assert not topic.from_heading
         assert topic.label == "Function"
         assert len(topic.entry_ids) >= 4
+        assert topic.candidate_origin == "subject-term"
+        assert topic.admission_reason == "source-heading-anchor"
+
+    def test_repeated_subject_term_without_semantic_anchor_is_rejected(self) -> None:
+        specs = [
+            (
+                "paragraph",
+                f"A glimmer provides signal {index}.",
+                [f"A glimmer provides signal {index}."],
+            )
+            for index in range(1, 6)
+        ]
+        result = _build(specs)
+        plan = plan_source_topic_result(result.ledger, result.document_structure)
+
+        assert "glimmer" not in {topic.topic_key for topic in plan.topics}
+        rejected = {candidate.topic_key: candidate for candidate in plan.rejected_candidates}
+        assert rejected["glimmer"].rejection_reason == "lexical-subject-frequency-only"
+
+    def test_repeated_adverbial_operator_never_becomes_topic(self) -> None:
+        specs = [
+            (
+                "paragraph",
+                f"Always provide viable options for sample {index}.",
+                [f"Always provide viable options for sample {index}."],
+            )
+            for index in range(1, 6)
+        ]
+        result = _build(specs)
+        plan = plan_source_topic_result(result.ledger, result.document_structure)
+        keys = {topic.topic_key for topic in plan.topics}
+        rejected = {candidate.topic_key for candidate in plan.rejected_candidates}
+
+        assert "always" not in keys
+        assert "alway" not in keys
+        assert "always" not in rejected
+        assert "alway" not in rejected
+
+    def test_technical_atom_does_not_admit_bare_subject_token_page(self) -> None:
+        result = _build(
+            [
+                (
+                    "paragraph",
+                    f"A helper provides utility {index}.",
+                    [f"A helper provides utility {index}."],
+                )
+                for index in range(1, 6)
+            ]
+            + [
+                ("paragraph", "The helper can be used like this:", []),
+                ("code-fence", "```go\nhelper()\n```", []),
+            ]
+        )
+        plan = plan_source_topic_result(result.ledger, result.document_structure)
+
+        assert "helper" not in {topic.topic_key for topic in plan.topics}
+        rejected = {candidate.topic_key: candidate for candidate in plan.rejected_candidates}
+        assert rejected["helper"].rejection_reason == "technical-atom-without-semantic-anchor"
 
     def test_exact_section_target_does_not_create_duplicate_topic(self) -> None:
         result = _build(
@@ -237,6 +300,36 @@ class TestTopicPlanning:
         # are stopworded — none of these anchor a topic.
         for term in ("compiler", "time", "value", "once", "thing", "first"):
             assert term not in keys
+
+    def test_topic_index_persists_admission_and_rejection_provenance(self) -> None:
+        result = _build(
+            [
+                *_SPECS,
+                *[
+                    (
+                        "paragraph",
+                        f"A glimmer provides signal {index}.",
+                        [f"A glimmer provides signal {index}."],
+                    )
+                    for index in range(1, 6)
+                ],
+            ]
+        )
+        plan = plan_source_topic_result(result.ledger, result.document_structure)
+        topic_index = build_topic_index(
+            result.ledger,
+            plan.topics,
+            source_locator="book.pdf",
+            source_hash=_HASH,
+            projection_source_support_id="pss",
+            rejected_candidates=plan.rejected_candidates,
+        )
+
+        topic = next(item for item in topic_index.topics if item.topic_key == "function")
+        assert topic.candidate_origin == "subject-term"
+        assert topic.admission_reason == "source-heading-anchor"
+        rejected = {candidate.topic_key: candidate for candidate in topic_index.rejected_candidates}
+        assert rejected["glimmer"].rejection_reason == "lexical-subject-frequency-only"
 
     def test_topics_are_capped_and_ranked(self) -> None:
         topics = plan_source_topics(*_unpack(_build(_SPECS)), max_topics=32)

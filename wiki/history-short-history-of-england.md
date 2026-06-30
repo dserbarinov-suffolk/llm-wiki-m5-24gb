@@ -1,14 +1,14 @@
 ---
 page_id: history-short-history-of-england
 page_kind: source
-summary: Claim-ledger projection (general-prose): 2320 usable entries, 39 technical atoms, 112 needs-review, 134 linked page(s); write decision write-with-review-work.
+summary: Claim-ledger projection (general-prose): 2320 usable entries, 39 technical atoms, 112 needs-review, 64 linked page(s); write decision write-with-review-work.
 page_family: source-manifest
 sources: raw/history_short_history_of_england.pdf
 updated: 2026-06-30
 domain: history-short-history-of-england
 category_path: sources
 source_id: history_short_history_of_england.pdf
-projection_coverage: projection-coverage-60c775eb3a365f41@acadaeec8f4ca073
+projection_coverage: projection-coverage-60c775eb3a365f41@3911122433107e34
 ---
 
 # The Project Gutenberg eBook, A Short History of England, by G. K. Chesterton

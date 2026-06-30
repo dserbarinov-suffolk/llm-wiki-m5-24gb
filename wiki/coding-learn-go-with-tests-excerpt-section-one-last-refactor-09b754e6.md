@@ -8,7 +8,7 @@ updated: 2026-06-30
 domain: coding-learn-go-with-tests-excerpt
 category_path: sources/coding-learn-go-with-tests-excerpt/sections
 source_id: coding_learn_go_with_tests_excerpt.pdf
-projection_coverage: section-coding-learn-go-with-tests-excerpt-section-one-last-refactor-09b754e6@5eab78c6b1a53be1eeb5797baeb19185
+projection_coverage: section-coding-learn-go-with-tests-excerpt-section-one-last-refactor-09b754e6@4ff649ab0db458d50aa15fee96b56694
 ---
 
 # one...last...refactor?
@@ -18,7 +18,6 @@ From [[coding-learn-go-with-tests-excerpt]].
 ## Related pages
 
 - [[coding-learn-go-with-tests-excerpt-section-french-bcb73222]] - previous source section: French
-- [[coding-learn-go-with-tests-excerpt-refactor]] - topic hub: opens the topic page for Refactor
 
 ## Statements
 

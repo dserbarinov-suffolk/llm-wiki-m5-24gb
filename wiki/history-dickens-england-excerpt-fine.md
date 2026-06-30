@@ -7,7 +7,7 @@ sources: raw/history_dickens_england_excerpt.pdf
 updated: 2026-06-30
 domain: history-dickens-england-excerpt
 category_path: concepts
-projection_coverage: topic-history-dickens-england-excerpt-fine@aebde179a69cd2cda2f3e96e4a4826ab
+projection_coverage: topic-history-dickens-england-excerpt-fine@fa680ccfd433c1b2b2d895da382d9515
 ---
 
 # Fine
@@ -27,11 +27,7 @@ What [[history-dickens-england-excerpt]] covers about fine:
 
 ## Related pages
 
-- [[history-dickens-england-excerpt-brother]] - shared statements: Brother shares source evidence from A Child's History of England (Excerpt: The Norman Conquest to Edward I) / CHAPTER X--ENGLAND UNDER HENRY THE FIRST, CALLED FINE-SCHOLAR: Fine-scholar, on hearing of the Red King's death, hurried to Winchester with as much speed as Rufus himself had made, to seize the Royal treasure. But the keeper of ... [truncated] (1 shared statement(s))
-- [[history-dickens-england-excerpt-horse]] - shared statements: Horse shares source evidence from A Child's History of England (Excerpt: The Norman Conquest to Edward I) / CHAPTER XV--ENGLAND UNDER HENRY THE THIRD, CALLED, OF WINCHESTER: the Black Band and their Captain watched it too, like three hundred and one black wolves. For thirty-nine days, Hubert de Burgh remained within. At length, upon the ... [truncated] (1 shared statement(s))
 - [[history-dickens-england-excerpt-king]] - shared statements: King shares source evidence from A Child's History of England (Excerpt: The Norman Conquest to Edward I) / CHAPTER X--ENGLAND UNDER HENRY THE FIRST, CALLED FINE-SCHOLAR: Fine-scholar, on hearing of the Red King's death, hurried to Winchester with as much speed as Rufus himself had made, to seize the Royal treasure. But the keeper of ... [truncated] (1 shared statement(s))
-- [[history-dickens-england-excerpt-prince]] - shared statements: Prince shares source evidence from A Child's History of England (Excerpt: The Norman Conquest to Edward I) / CHAPTER XV--ENGLAND UNDER HENRY THE THIRD, CALLED, OF WINCHESTER: the Black Band and their Captain watched it too, like three hundred and one black wolves. For thirty-nine days, Hubert de Burgh remained within. At length, upon the ... [truncated] (1 shared statement(s))
-- [[history-dickens-england-excerpt-robert]] - shared statements: Robert shares source evidence from A Child's History of England (Excerpt: The Norman Conquest to Edward I) / CHAPTER X--ENGLAND UNDER HENRY THE FIRST, CALLED FINE-SCHOLAR: Fine-scholar, on hearing of the Red King's death, hurried to Winchester with as much speed as Rufus himself had made, to seize the Royal treasure. But the keeper of ... [truncated] (1 shared statement(s))
 
 ## Source
 

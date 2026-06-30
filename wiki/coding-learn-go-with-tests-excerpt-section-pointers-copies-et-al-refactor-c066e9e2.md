@@ -8,7 +8,7 @@ updated: 2026-06-30
 domain: coding-learn-go-with-tests-excerpt
 category_path: sources/coding-learn-go-with-tests-excerpt/sections
 source_id: coding_learn_go_with_tests_excerpt.pdf
-projection_coverage: section-coding-learn-go-with-tests-excerpt-section-pointers-copies-et-al-refactor-c066e9e2@a09d5360886612d56c7ee0e445d0e2a5
+projection_coverage: section-coding-learn-go-with-tests-excerpt-section-pointers-copies-et-al-refactor-c066e9e2@4a44125ce118b43f4833c1a5522c978a
 ---
 
 # Pointers, copies, et al / Refactor
@@ -20,7 +20,6 @@ From [[coding-learn-go-with-tests-excerpt]].
 - [[coding-learn-go-with-tests-excerpt-section-pointers-copies-et-al-36483230]] - broader source section: Pointers, copies, et al
 - [[coding-learn-go-with-tests-excerpt-section-pointers-copies-et-al-write-enough-code-to-make-it-pass-6f139db5]] - previous source section: Pointers, copies, et al / Write enough code to make it pass
 - [[coding-learn-go-with-tests-excerpt-section-pointers-copies-et-al-write-the-test-first-764407b8]] - next source section: Pointers, copies, et al / Write the test first
-- [[coding-learn-go-with-tests-excerpt-refactor]] - topic hub: opens the topic page for Refactor
 
 ## Statements
 

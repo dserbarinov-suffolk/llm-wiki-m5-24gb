@@ -7,7 +7,7 @@ sources: raw/rpg_cairn_2e_core.pdf
 updated: 2026-06-30
 domain: rpg-cairn-2e-core
 category_path: concepts
-projection_coverage: topic-rpg-cairn-2e-core-dungeon@bc20b112d8781fa36d7c3e2eb290a993
+projection_coverage: topic-rpg-cairn-2e-core-dungeon@9d67c9053d7b0110f34cb043120b13f8
 ---
 
 # Dungeon
@@ -73,7 +73,6 @@ Dungeon Events
 ## Related pages
 
 - [[rpg-cairn-2e-core-dungeon-exploration]] - narrower topic: Dungeon Exploration shares source evidence from Procedures / Dungeon Exploration / The Basics: The dungeon exploration cycle (see below) is divided into a series of Turns , Actions , and their consequences.; Dungeon Exploration shares technical record from Procedures / Dungeon Exploration / Dungeon Events: Dungeon Events 1 Encounter Roll on an encounter table. Possibly hostile. (See Reactions.) 2 Sign A clue, spoor, track, abandoned lair, scent, victim, etc is discover ... [truncated] (5 shared statement(s), 1 shared atom(s))
-- [[rpg-cairn-2e-core-room]] - shared statements: Room shares source evidence from Procedures / Dungeon Exploration / Actions: Larger rooms and difficult or complex dungeon terrain may take a few turns to properly search. (1 shared statement(s))
 - [[rpg-cairn-2e-core-terrain]] - shared statements: Terrain shares source evidence from Procedures / Dungeon Exploration / Actions: Larger rooms and difficult or complex dungeon terrain may take a few turns to properly search. (1 shared statement(s))
 
 ## Source

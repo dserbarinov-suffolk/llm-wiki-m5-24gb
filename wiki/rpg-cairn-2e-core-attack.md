@@ -7,7 +7,7 @@ sources: raw/rpg_cairn_2e_core.pdf
 updated: 2026-06-30
 domain: rpg-cairn-2e-core
 category_path: concepts
-projection_coverage: topic-rpg-cairn-2e-core-attack@2ed3660b879df901ff48d5c2797991ec
+projection_coverage: topic-rpg-cairn-2e-core-attack@448f05ed6475e469331498ed32ff95c4
 ---
 
 # Attack
@@ -84,10 +84,7 @@ What [[rpg-cairn-2e-core]] covers about attack:
 
 ## Related pages
 
-- [[rpg-cairn-2e-core-target]] - shared statements and technical atoms: Target shares source evidence from Core Rules / Combat / Attack Modifiers: Attacks with the Blast quality affect all targets in the noted area, rolling separately for each affected character. This can be anything from explosions to a dragon ... [truncated]; Target shares technical record from Core Rules / Combat / Attack Modifiers: If fighting from a position of weakness (such as through cover or with bound hands), the attack is Impaired , and the attacker must roll 1d4 damage regardless of the ... [truncated] (3 shared statement(s), 4 shared atom(s))
 - [[rpg-cairn-2e-core-damage]] - shared statements and technical atoms: Damage shares source evidence from Combat / Introduction: Attacks Automatically Hit : Combatants typically deal damage to their targets automatically, without rolling to see whether an attack "hits." When multiple attackers ... [truncated]; Damage shares technical record from Combat / Introduction: Side Initiative : With the exception of the first round (when PCs must first save DEX to secure their turn), both the PCs and their opponents take turns acting together. (1 shared statement(s), 1 shared atom(s))
-- [[rpg-cairn-2e-core-dice]] - shared statements and technical atoms: Dice shares source evidence from Combat / Introduction: Attacks Automatically Hit : Combatants typically deal damage to their targets automatically, without rolling to see whether an attack "hits." When multiple attackers ... [truncated]; Dice shares technical record from Combat / Introduction: Side Initiative : With the exception of the first round (when PCs must first save DEX to secure their turn), both the PCs and their opponents take turns acting together. (1 shared statement(s), 1 shared atom(s))
-- [[rpg-cairn-2e-core-result]] - shared statements and technical atoms: Result shares source evidence from Combat / Introduction: Attacks Automatically Hit : Combatants typically deal damage to their targets automatically, without rolling to see whether an attack "hits." When multiple attackers ... [truncated]; Result shares technical record from Combat / Introduction: Side Initiative : With the exception of the first round (when PCs must first save DEX to secure their turn), both the PCs and their opponents take turns acting together. (1 shared statement(s), 1 shared atom(s))
 - [[rpg-cairn-2e-core-cairn]] - shared technical atoms: Cairn shares technical record from Combat / Introduction: Side Initiative : With the exception of the first round (when PCs must first save DEX to secure their turn), both the PCs and their opponents take turns acting together. (1 shared atom(s))
 
 ## Source

@@ -8,7 +8,7 @@ updated: 2026-06-30
 domain: rpg-dnd-srd-excerpt
 category_path: sources/rpg-dnd-srd-excerpt/sections
 source_id: rpg_dnd_srd_excerpt.pdf
-projection_coverage: section-rpg-dnd-srd-excerpt-section-ability-checks-skills-221b3961@774f91add1d8be8cbeb44dd0ef471a84
+projection_coverage: section-rpg-dnd-srd-excerpt-section-ability-checks-skills-221b3961@53aba2212d3ce781acbdf67e2ac4a8e5
 ---
 
 # Ability Checks / Skills
@@ -21,7 +21,6 @@ From [[rpg-dnd-srd-excerpt]].
 - [[rpg-dnd-srd-excerpt-section-ability-checks-skills-variant-skills-with-different-abilities-c0562cd9]] - narrower source section: Ability Checks / Skills / Variant: Skills with Different Abilities
 - [[rpg-dnd-srd-excerpt-section-ability-checks-contests-72682d90]] - previous source section: Ability Checks / Contests
 - [[rpg-dnd-srd-excerpt-section-ability-checks-passive-checks-17f49270]] - next source section: Ability Checks / Passive Checks
-- [[rpg-dnd-srd-excerpt-skill]] - topic hub: opens the topic page for Skill
 
 ## Statements
 

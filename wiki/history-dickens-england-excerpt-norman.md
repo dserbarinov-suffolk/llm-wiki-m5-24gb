@@ -7,7 +7,7 @@ sources: raw/history_dickens_england_excerpt.pdf
 updated: 2026-06-30
 domain: history-dickens-england-excerpt
 category_path: concepts
-projection_coverage: topic-history-dickens-england-excerpt-norman@339f3eff20229a40fa7703c6e44d3768
+projection_coverage: topic-history-dickens-england-excerpt-norman@4d0a40bff97aa1028aadd473aee2672c
 ---
 
 # Norman
@@ -29,12 +29,8 @@ What [[history-dickens-england-excerpt]] covers about norman:
 
 ## Related pages
 
-- [[history-dickens-england-excerpt-duke]] - shared statements: Duke shares source evidence from A Child's History of England (Excerpt: The Norman Conquest to Edward I) / CHAPTER VII--ENGLAND UNDER HAROLD THE SECOND, AND CONQUERED BY THE NORMANS: As King Harold sat there at the feast, in the midst of all his company, a stir was heard at the doors; and messengers all covered with mire from riding far and fast ... [truncated] (2 shared statement(s))
 - [[history-dickens-england-excerpt-william]] - shared statements: William shares source evidence from A Child's History of England (Excerpt: The Norman Conquest to Edward I) / CHAPTER VII--ENGLAND UNDER HAROLD THE SECOND, AND CONQUERED BY THE NORMANS: As King Harold sat there at the feast, in the midst of all his company, a stir was heard at the doors; and messengers all covered with mire from riding far and fast ... [truncated] (2 shared statement(s))
-- [[history-dickens-england-excerpt-army]] - shared statements: Army shares source evidence from A Child's History of England (Excerpt: The Norman Conquest to Edward I) / CHAPTER VII--ENGLAND UNDER HAROLD THE SECOND, AND CONQUERED BY THE NORMANS: As King Harold sat there at the feast, in the midst of all his company, a stir was heard at the doors; and messengers all covered with mire from riding far and fast ... [truncated] (1 shared statement(s))
 - [[history-dickens-england-excerpt-body]] - shared statements: Body shares source evidence from A Child's History of England (Excerpt: The Norman Conquest to Edward I) / CHAPTER VII--ENGLAND UNDER HAROLD THE SECOND, AND CONQUERED BY THE NORMANS: As King Harold sat there at the feast, in the midst of all his company, a stir was heard at the doors; and messengers all covered with mire from riding far and fast ... [truncated] (1 shared statement(s))
-- [[history-dickens-england-excerpt-knight]] - shared statements: Knight shares source evidence from A Child's History of England (Excerpt: The Norman Conquest to Edward I) / CHAPTER VII--ENGLAND UNDER HAROLD THE SECOND, AND CONQUERED BY THE NORMANS: 'Still,' said Duke William, 'there are thousands of the English, firms as rocks around their King. Shoot upward, Norman archers, that your arrows may fall down upon ... [truncated] (1 shared statement(s))
-- [[history-dickens-england-excerpt-young]] - shared statements: Young shares source evidence from A Child's History of England (Excerpt: The Norman Conquest to Edward I) / CHAPTER VII--ENGLAND UNDER HAROLD THE SECOND, AND CONQUERED BY THE NORMANS: As King Harold sat there at the feast, in the midst of all his company, a stir was heard at the doors; and messengers all covered with mire from riding far and fast ... [truncated] (1 shared statement(s))
 
 ## Source
 

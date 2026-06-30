@@ -7,7 +7,7 @@ sources: raw/history_dickens_england_excerpt.pdf
 updated: 2026-06-30
 domain: history-dickens-england-excerpt
 category_path: concepts
-projection_coverage: topic-history-dickens-england-excerpt-body@9e7c1305f3ede18965e0258c5e507daa
+projection_coverage: topic-history-dickens-england-excerpt-body@112d3eff3534d5f7183e503c23237a54
 ---
 
 # Body
@@ -35,11 +35,8 @@ What [[history-dickens-england-excerpt]] covers about body:
 
 ## Related pages
 
-- [[history-dickens-england-excerpt-duke]] - shared statements: Duke shares source evidence from A Child's History of England (Excerpt: The Norman Conquest to Edward I) / CHAPTER VII--ENGLAND UNDER HAROLD THE SECOND, AND CONQUERED BY THE NORMANS: As King Harold sat there at the feast, in the midst of all his company, a stir was heard at the doors; and messengers all covered with mire from riding far and fast ... [truncated] (1 shared statement(s))
-- [[history-dickens-england-excerpt-jews]] - shared statements: Jews shares source evidence from A Child's History of England (Excerpt: The Norman Conquest to Edward I) / CHAPTER XIII--ENGLAND UNDER RICHARD THE FIRST, CALLED THE LION-HEART: In the year of our Lord one thousand one hundred and eighty-nine, Richard of the Lion Heart succeeded to the throne of King Henry the Second, whose paternal heart he ... [truncated] (1 shared statement(s))
 - [[history-dickens-england-excerpt-norman]] - shared statements: Norman shares source evidence from A Child's History of England (Excerpt: The Norman Conquest to Edward I) / CHAPTER VII--ENGLAND UNDER HAROLD THE SECOND, AND CONQUERED BY THE NORMANS: As King Harold sat there at the feast, in the midst of all his company, a stir was heard at the doors; and messengers all covered with mire from riding far and fast ... [truncated] (1 shared statement(s))
 - [[history-dickens-england-excerpt-william]] - shared statements: William shares source evidence from A Child's History of England (Excerpt: The Norman Conquest to Edward I) / CHAPTER VII--ENGLAND UNDER HAROLD THE SECOND, AND CONQUERED BY THE NORMANS: As King Harold sat there at the feast, in the midst of all his company, a stir was heard at the doors; and messengers all covered with mire from riding far and fast ... [truncated] (1 shared statement(s))
-- [[history-dickens-england-excerpt-young]] - shared statements: Young shares source evidence from A Child's History of England (Excerpt: The Norman Conquest to Edward I) / CHAPTER VII--ENGLAND UNDER HAROLD THE SECOND, AND CONQUERED BY THE NORMANS: As King Harold sat there at the feast, in the midst of all his company, a stir was heard at the doors; and messengers all covered with mire from riding far and fast ... [truncated] (1 shared statement(s))
 
 ## Source
 

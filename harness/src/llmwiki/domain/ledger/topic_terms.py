@@ -60,6 +60,8 @@ _MAX_TOPIC_FIELD_CHARS = 12_000
 def content_terms(text: str) -> list[str]:
     terms = []
     for token in _ascii_tokens(text, min_length=3, require_alpha_start=True):
+        if token in COMMON_WORDS or token in GENERIC_TOPIC_TERMS:
+            continue
         lowered = singular(token)
         if len(lowered) >= 4 and lowered not in COMMON_WORDS and lowered not in GENERIC_TOPIC_TERMS:
             terms.append(lowered)

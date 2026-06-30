@@ -8,7 +8,7 @@ updated: 2026-06-30
 domain: rpg-dnd-srd-excerpt
 category_path: sources/rpg-dnd-srd-excerpt/sections
 source_id: rpg_dnd_srd_excerpt.pdf
-projection_coverage: section-rpg-dnd-srd-excerpt-section-armor-047bdd0c@297a1ac7b8ba9198bee51518ebb750f6
+projection_coverage: section-rpg-dnd-srd-excerpt-section-armor-047bdd0c@a1e5325a109ce94adc07dc2f0fdf19a7
 ---
 
 # Armor
@@ -23,7 +23,6 @@ From [[rpg-dnd-srd-excerpt]].
 - [[rpg-dnd-srd-excerpt-section-armor-getting-into-and-out-of-armor-4f36fec5]] - narrower source section: Armor / Getting Into and Out of Armor
 - [[rpg-dnd-srd-excerpt-section-underwater-combat-28d0d6a3]] - previous source section: Underwater Combat
 - [[rpg-dnd-srd-excerpt-section-weapons-ba2ad489]] - next source section: Weapons
-- [[rpg-dnd-srd-excerpt-armor]] - topic hub: opens the topic page for Armor
 
 ## Statements
 

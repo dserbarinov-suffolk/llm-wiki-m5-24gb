@@ -7,7 +7,7 @@ sources: raw/coding_little_go_book.pdf
 updated: 2026-06-30
 domain: coding-little-go-book
 category_path: concepts
-projection_coverage: topic-coding-little-go-book-byte-array@e7fb95b83188f02127af6c6ff369adde
+projection_coverage: topic-coding-little-go-book-byte-array@ddd45617c23fcc0daa13be6dcda1148c
 ---
 
 # Byte Array
@@ -40,7 +40,6 @@ strb := string(byts)
 
 ## Related pages
 
-- [[coding-little-go-book-array]] - broader topic: Array shares source evidence from Chapter 5 - Tidbits / Strings and Byte Arrays: Strings and byte arrays are closely related. We can easily convert one to the other:; Array shares technical record from Chapter 5 - Tidbits / Strings and Byte Arrays: stra := "the spice must flow" byts := []byte(stra) strb := string(byts) (1 shared statement(s), 1 shared atom(s))
 - [[coding-little-go-book-string]] - shared statements and technical atoms: String shares source evidence from Chapter 5 - Tidbits / Strings and Byte Arrays: Strings and byte arrays are closely related. We can easily convert one to the other:; String shares technical record from Chapter 5 - Tidbits / Strings and Byte Arrays: stra := "the spice must flow" byts := []byte(stra) strb := string(byts) (1 shared statement(s), 1 shared atom(s))
 
 ## Source

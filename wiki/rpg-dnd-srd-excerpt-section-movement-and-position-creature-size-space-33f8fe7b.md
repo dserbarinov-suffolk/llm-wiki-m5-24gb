@@ -8,7 +8,7 @@ updated: 2026-06-30
 domain: rpg-dnd-srd-excerpt
 category_path: sources/rpg-dnd-srd-excerpt/sections
 source_id: rpg_dnd_srd_excerpt.pdf
-projection_coverage: section-rpg-dnd-srd-excerpt-section-movement-and-position-creature-size-space-33f8fe7b@08a44964663a91d3bd709a97ac97d133
+projection_coverage: section-rpg-dnd-srd-excerpt-section-movement-and-position-creature-size-space-33f8fe7b@0fc59b1d2c2fea6ea4115e9c6ecf4db1
 ---
 
 # Movement and Position / Creature Size / Space
@@ -18,7 +18,6 @@ From [[rpg-dnd-srd-excerpt]].
 ## Related pages
 
 - [[rpg-dnd-srd-excerpt-section-movement-and-position-creature-size-6ec08d8a]] - broader source section: Movement and Position / Creature Size
-- [[rpg-dnd-srd-excerpt-space]] - topic hub: opens the topic page for Space
 
 ## Statements
 

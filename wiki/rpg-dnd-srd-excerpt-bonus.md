@@ -7,7 +7,7 @@ sources: raw/rpg_dnd_srd_excerpt.pdf
 updated: 2026-06-30
 domain: rpg-dnd-srd-excerpt
 category_path: concepts
-projection_coverage: topic-rpg-dnd-srd-excerpt-bonus@11deb2b49ade21b893b0a1749a974eb2
+projection_coverage: topic-rpg-dnd-srd-excerpt-bonus@466b65d3971f8313550d9fa7754475cf
 ---
 
 # Bonus
@@ -65,10 +65,6 @@ What [[rpg-dnd-srd-excerpt]] covers about bonus:
 ## Related pages
 
 - [[rpg-dnd-srd-excerpt-proficiency]] - shared statements and technical atoms: Proficiency shares source evidence from Proficiency Bonus: Your proficiency bonus can't be added to a single die roll or other number more than once. For example, if two different rules say you can add your proficiency bonus ... [truncated]; Proficiency shares technical record from Proficiency Bonus: If a circumstance suggests that your proficiency bonus applies more than once to the same roll, you still add it only once and multiply or divide it only once. (3 shared statement(s), 3 shared atom(s))
-- [[rpg-dnd-srd-excerpt-skill]] - shared technical atoms: Skill shares technical record from Proficiency Bonus: If a feature or effect allows you to do so, these same rules apply. (1 shared atom(s))
-- [[rpg-dnd-srd-excerpt-attack]] - shared statements: Attack shares source evidence from Proficiency Bonus: In general, you don't multiply your proficiency bonus for attack rolls or saving throws. If a feature or effect allows you to do so, these same rules apply. (1 shared statement(s))
-- [[rpg-dnd-srd-excerpt-character]] - shared statements: Character shares source evidence from Ability Checks / Using Each Ability / Dexterity: Passive Perception . When you hide, there's a chance someone will notice you even if they aren't searching. To determine whether such a creature notices you, the GM ... [truncated] (1 shared statement(s))
-- [[rpg-dnd-srd-excerpt-level]] - shared statements: Level shares source evidence from Ability Checks / Using Each Ability / Dexterity: Passive Perception . When you hide, there's a chance someone will notice you even if they aren't searching. To determine whether such a creature notices you, the GM ... [truncated] (1 shared statement(s))
 
 ## Source
 

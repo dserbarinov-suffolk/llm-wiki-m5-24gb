@@ -7,7 +7,7 @@ sources: raw/rpg_dnd_srd_excerpt.pdf
 updated: 2026-06-30
 domain: rpg-dnd-srd-excerpt
 category_path: concepts
-projection_coverage: topic-rpg-dnd-srd-excerpt-combat@14824bb7f2a533d59807ef91c68c0eb7
+projection_coverage: topic-rpg-dnd-srd-excerpt-combat@c8482194adc0498c51d580c141b45378
 ---
 
 # Combat
@@ -77,14 +77,9 @@ Table- Creature  Size
 ## Related pages
 
 - [[rpg-dnd-srd-excerpt-creature]] - shared technical atoms: Creature shares technical record from Table- Creature Size: Table- Creature  Size Size            Space Tiny         2 1/2 by 2 1/2 ft. Small        5 by 5 ft. Medium       5 by 5 ft. Large        10 by 10 ft. Huge         15 ... [truncated] (1 shared atom(s))
-- [[rpg-dnd-srd-excerpt-object]] - shared technical atoms: Object shares technical record from Table- Creature Size: Table- Creature  Size Size            Space Tiny         2 1/2 by 2 1/2 ft. Small        5 by 5 ft. Medium       5 by 5 ft. Large        10 by 10 ft. Huge         15 ... [truncated] (1 shared atom(s))
-- [[rpg-dnd-srd-excerpt-space]] - shared technical atoms: Space shares technical record from Table- Creature Size: Table- Creature  Size Size            Space Tiny         2 1/2 by 2 1/2 ft. Small        5 by 5 ft. Medium       5 by 5 ft. Large        10 by 10 ft. Huge         15 ... [truncated] (1 shared atom(s))
-- [[rpg-dnd-srd-excerpt-table]] - shared technical atoms: Table shares technical record from Table- Creature Size: Table- Creature  Size Size            Space Tiny         2 1/2 by 2 1/2 ft. Small        5 by 5 ft. Medium       5 by 5 ft. Large        10 by 10 ft. Huge         15 ... [truncated] (1 shared atom(s))
 - [[rpg-dnd-srd-excerpt-action]] - shared statements: Action shares source evidence from Actions in Combat / Attack: The most common action to take in combat is the Attack action, whether you are swinging a sword, firing an arrow from a bow, or brawling with your fists. With this a ... [truncated] (1 shared statement(s))
-- [[rpg-dnd-srd-excerpt-character]] - shared statements: Character shares source evidence from Movement and Position: In combat, characters and monsters are in constant motion, often using movement and position to gain the upper hand. On your turn, you can move a distance up to your ... [truncated] (1 shared statement(s))
 - [[rpg-dnd-srd-excerpt-movement]] - shared statements: Movement shares source evidence from Movement and Position: In combat, characters and monsters are in constant motion, often using movement and position to gain the upper hand. On your turn, you can move a distance up to your ... [truncated] (1 shared statement(s))
 - [[rpg-dnd-srd-excerpt-position]] - shared statements: Position shares source evidence from Movement and Position: In combat, characters and monsters are in constant motion, often using movement and position to gain the upper hand. On your turn, you can move a distance up to your ... [truncated] (1 shared statement(s))
-- [[rpg-dnd-srd-excerpt-typical]] - shared statements: Typical shares source evidence from ORDER OF COMBAT: A typical combat encounter is a clash between two sides, a flurry of weapon swings, feints, parries, footwork, and spellcasting. The game organizes the chaos of comb ... [truncated] (1 shared statement(s))
 
 ## Source
 

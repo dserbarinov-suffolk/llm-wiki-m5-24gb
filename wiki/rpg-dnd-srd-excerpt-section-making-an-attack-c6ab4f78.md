@@ -8,7 +8,7 @@ updated: 2026-06-30
 domain: rpg-dnd-srd-excerpt
 category_path: sources/rpg-dnd-srd-excerpt/sections
 source_id: rpg_dnd_srd_excerpt.pdf
-projection_coverage: section-rpg-dnd-srd-excerpt-section-making-an-attack-c6ab4f78@0c91b165fc4de980c0bb6bdeacd524b3
+projection_coverage: section-rpg-dnd-srd-excerpt-section-making-an-attack-c6ab4f78@14006db0d6d64b3fb274ad15d05b8049
 ---
 
 # Making an Attack
@@ -27,7 +27,6 @@ From [[rpg-dnd-srd-excerpt]].
 - [[rpg-dnd-srd-excerpt-section-making-an-attack-temporary-hit-points-ba78c103]] - narrower source section: Making an Attack / Temporary Hit Points
 - [[rpg-dnd-srd-excerpt-section-actions-in-combat-a776ce7e]] - previous source section: Actions in Combat
 - [[rpg-dnd-srd-excerpt-section-mounted-combat-563b0c2c]] - next source section: Mounted Combat
-- [[rpg-dnd-srd-excerpt-attack]] - topic hub: opens the topic page for Attack
 
 ## Statements
 

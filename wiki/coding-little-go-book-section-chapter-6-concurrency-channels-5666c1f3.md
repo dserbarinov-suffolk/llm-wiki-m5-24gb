@@ -8,7 +8,7 @@ updated: 2026-06-30
 domain: coding-little-go-book
 category_path: sources/coding-little-go-book/sections
 source_id: coding_little_go_book.pdf
-projection_coverage: section-coding-little-go-book-section-chapter-6-concurrency-channels-5666c1f3@c5edd310c58b245635046f687337a08c
+projection_coverage: section-coding-little-go-book-section-chapter-6-concurrency-channels-5666c1f3@ed24c138be74e9c2e16f30efb428c568
 ---
 
 # Chapter 6 - Concurrency / Channels
@@ -23,7 +23,6 @@ From [[coding-little-go-book]].
 - [[coding-little-go-book-section-chapter-6-concurrency-channels-timeout-234b9aa0]] - narrower source section: Chapter 6 - Concurrency / Channels / Timeout
 - [[coding-little-go-book-section-chapter-6-concurrency-synchronization-e924d99c]] - previous source section: Chapter 6 - Concurrency / Synchronization
 - [[coding-little-go-book-section-chapter-6-concurrency-before-you-continue-a4098176]] - next source section: Chapter 6 - Concurrency / Before You Continue
-- [[coding-little-go-book-channel]] - topic hub: opens the topic page for Channel
 
 ## Statements
 

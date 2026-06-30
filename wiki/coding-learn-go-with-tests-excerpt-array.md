@@ -7,7 +7,7 @@ sources: raw/coding_learn_go_with_tests_excerpt.pdf
 updated: 2026-06-30
 domain: coding-learn-go-with-tests-excerpt
 category_path: concepts
-projection_coverage: topic-coding-learn-go-with-tests-excerpt-array@955762311c878d48bc6e8088b1036193
+projection_coverage: topic-coding-learn-go-with-tests-excerpt-array@7174cef351909cb4b2493e7d23451ed6
 ---
 
 # Array
@@ -112,7 +112,6 @@ if got != want {
 - [[coding-learn-go-with-tests-excerpt-write-test]] - shared statements and technical atoms: Write the test first shares source evidence from Arrays and slices / Write the test first: Arrays have a fi xed capacity which you define when you declare the variable. We can initialize an array in two ways:; Write the test first shares technical record from Arrays and slices / Write the test first: [N]type{value1, value2, ..., valueN} e.g. numbers := [5]int{1, 2, 3, 4, 5} [...]type{value1, value2, ..., valueN} e.g. numbers := [...]int{1, 2, (2 shared statement(s), 3 shared atom(s))
 - [[coding-learn-go-with-tests-excerpt-test]] - shared technical atoms: Test shares technical record from Arrays and their type / Refactor: func TestSum(t *testing.T) { t.Run("collection of 5 numbers", func(t *testing.T) { numbers := []int{1, 2, 3, 4, 5} got := Sum(numbers) want := 15 if got != want { t. ... [truncated] (1 shared atom(s))
 - [[coding-learn-go-with-tests-excerpt-write-code-pass]] - shared statements: Write enough code to make it pass shares source evidence from Arrays and slices / Write enough code to make it pass: To get the value out of an array at a particular index, just use array[index] syntax. In this case, we are using for to iterate 5 times to work through the array and ... [truncated] (3 shared statement(s))
-- [[coding-learn-go-with-tests-excerpt-value]] - shared statements: Value shares source evidence from Arrays and slices / Write enough code to make it pass: To get the value out of an array at a particular index, just use array[index] syntax. In this case, we are using for to iterate 5 times to work through the array and ... [truncated] (1 shared statement(s))
 
 ## Source
 

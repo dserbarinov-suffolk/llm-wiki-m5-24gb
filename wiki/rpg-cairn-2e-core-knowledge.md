@@ -7,7 +7,7 @@ sources: raw/rpg_cairn_2e_core.pdf
 updated: 2026-06-30
 domain: rpg-cairn-2e-core
 category_path: concepts
-projection_coverage: topic-rpg-cairn-2e-core-knowledge@79ec28a0312a82fb162b058e806d840e
+projection_coverage: topic-rpg-cairn-2e-core-knowledge@8fd7699c737a118f5275b78b91257b1c
 ---
 
 # Knowledge
@@ -94,8 +94,6 @@ What [[rpg-cairn-2e-core]] covers about knowledge:
 
 - [[rpg-cairn-2e-core-perception]] - shared statements and technical atoms: Perception shares source evidence from Knowledge And Perception / Introduction: Cairn differs from many modern roleplaying games by not including mechanics for knowledge or expertise. Instead, it is assumed that a character has the necessary kno ... [truncated]; Perception shares technical record from Knowledge And Perception / Introduction: Instead, the Warden should provide unlimited relevant information about every detail a character can perceive with their basic senses. (2 shared statement(s), 7 shared atom(s))
 - [[rpg-cairn-2e-core-warden]] - shared technical atoms: Warden shares technical record from Knowledge And Perception / Perception: Players should feel that the consequences of their character's actions are earned , and that they are deserved , even if the results aren't always in their favor. (3 shared atom(s))
-- [[rpg-cairn-2e-core-danger]] - shared technical atoms: Danger shares technical record from Knowledge And Perception / Perception: Players should feel that the consequences of their character's actions are earned , and that they are deserved , even if the results aren't always in their favor. (2 shared atom(s))
-- [[rpg-cairn-2e-core-question]] - shared technical atoms: Question shares technical record from Knowledge And Perception / Perception: Players should feel that the consequences of their character's actions are earned , and that they are deserved , even if the results aren't always in their favor. (2 shared atom(s))
 - [[rpg-cairn-2e-core-player]] - shared technical atoms: Player shares technical record from Knowledge And Perception / Perception: Players should feel that the consequences of their character's actions are earned , and that they are deserved , even if the results aren't always in their favor. (1 shared atom(s))
 - [[rpg-cairn-2e-core-character]] - shared statements: Character shares source evidence from Knowledge And Perception / Knowledge: If a character has no justifiable knowledge of a subject, then they simply do not know anything about it! However, the Warden may decide to roll the Die of Fate to d ... [truncated] (1 shared statement(s))
 - [[rpg-cairn-2e-core-section-knowledge-and-perception-knowledge-bbf666d4]] - source section: Knowledge And Perception / Knowledge shares source evidence from Knowledge And Perception / Knowledge: Character knowledge is limited only by what can be explained by elements in the fiction. If it is known that a PC comes from an impoverished background and learned h ... [truncated]; Knowledge And Perception / Knowledge shares technical record from Knowledge And Perception / Knowledge / Relics: When a character first acquires a Relic they are not familiar with, they can either spend time learning more about it (using a Downtime action) or experiment with it. (7 shared statement(s), 1 shared atom(s))

@@ -8,7 +8,7 @@ updated: 2026-06-30
 domain: coding-learn-go-with-tests-excerpt
 category_path: sources/coding-learn-go-with-tests-excerpt/sections
 source_id: coding_learn_go_with_tests_excerpt.pdf
-projection_coverage: section-coding-learn-go-with-tests-excerpt-section-maps-refactor-a6824beb@3e5f23e6f124eb911a7e8cb29ff2b42f
+projection_coverage: section-coding-learn-go-with-tests-excerpt-section-maps-refactor-a6824beb@1aef32d6eef046e56aa115107c292713
 ---
 
 # Maps / Refactor
@@ -19,7 +19,6 @@ From [[coding-learn-go-with-tests-excerpt]].
 
 - [[coding-learn-go-with-tests-excerpt-section-maps-198341ba]] - broader source section: Maps
 - [[coding-learn-go-with-tests-excerpt-section-maps-write-enough-code-to-make-it-pass-e76e129f]] - previous source section: Maps / Write enough code to make it pass
-- [[coding-learn-go-with-tests-excerpt-refactor]] - topic hub: opens the topic page for Refactor
 
 ## Statements
 

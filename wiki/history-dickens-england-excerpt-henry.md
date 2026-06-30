@@ -7,7 +7,7 @@ sources: raw/history_dickens_england_excerpt.pdf
 updated: 2026-06-30
 domain: history-dickens-england-excerpt
 category_path: concepts
-projection_coverage: topic-history-dickens-england-excerpt-henry@f173b5bafdc928668168170eaee8978d
+projection_coverage: topic-history-dickens-england-excerpt-henry@6a753fb674e75cb9c09a063e20db38e2
 ---
 
 # Henry
@@ -40,12 +40,6 @@ What [[history-dickens-england-excerpt]] covers about henry:
 ## Related pages
 
 - [[history-dickens-england-excerpt-king]] - shared statements: King shares source evidence from A Child's History of England (Excerpt: The Norman Conquest to Edward I) / CHAPTER X--ENGLAND UNDER HENRY THE FIRST, CALLED FINE-SCHOLAR: At the time when Robert of Normandy was taken prisoner by his brother, Robert's little son was only five years old. This child was taken, too, and carried before the ... [truncated] (5 shared statement(s))
-- [[history-dickens-england-excerpt-prince]] - shared statements: Prince shares source evidence from A Child's History of England (Excerpt: The Norman Conquest to Edward I) / CHAPTER XII--ENGLAND UNDER HENRY THE SECOND / PART THE SECOND: The Irish were, at that time, as barbarous a people as you can well imagine. They were continually quarrelling and fighting, cutting one another's throats, slicing o ... [truncated] (3 shared statement(s))
-- [[history-dickens-england-excerpt-year]] - shared statements: Year shares source evidence from A Child's History of England (Excerpt: The Norman Conquest to Edward I) / CHAPTER XII--ENGLAND UNDER HENRY THE SECOND / PART THE SECOND: The Irish were, at that time, as barbarous a people as you can well imagine. They were continually quarrelling and fighting, cutting one another's throats, slicing o ... [truncated] (3 shared statement(s))
-- [[history-dickens-england-excerpt-brother]] - shared statements: Brother shares source evidence from A Child's History of England (Excerpt: The Norman Conquest to Edward I) / CHAPTER XI--ENGLAND UNDER MATILDA AND STEPHEN: The King was no sooner dead than all the plans and schemes he had laboured at so long, and lied so much for, crumbled away like a hollow heap of sand. Stephen, whom ... [truncated] (1 shared statement(s))
-- [[history-dickens-england-excerpt-church]] - shared statements: Church shares source evidence from A Child's History of England (Excerpt: The Norman Conquest to Edward I) / CHAPTER XII--ENGLAND UNDER HENRY THE SECOND / PART THE SECOND: The Irish were, at that time, as barbarous a people as you can well imagine. They were continually quarrelling and fighting, cutting one another's throats, slicing o ... [truncated] (1 shared statement(s))
-- [[history-dickens-england-excerpt-earl]] - shared statements: Earl shares source evidence from A Child's History of England (Excerpt: The Norman Conquest to Edward I) / CHAPTER XV--ENGLAND UNDER HENRY THE THIRD, CALLED, OF WINCHESTER: the Black Band and their Captain watched it too, like three hundred and one black wolves. For thirty-nine days, Hubert de Burgh remained within. At length, upon the ... [truncated] (1 shared statement(s))
-- [[history-dickens-england-excerpt-leicester]] - shared statements: Leicester shares source evidence from A Child's History of England (Excerpt: The Norman Conquest to Edward I) / CHAPTER XV--ENGLAND UNDER HENRY THE THIRD, CALLED, OF WINCHESTER: the Black Band and their Captain watched it too, like three hundred and one black wolves. For thirty-nine days, Hubert de Burgh remained within. At length, upon the ... [truncated] (1 shared statement(s))
 - [[history-dickens-england-excerpt-stephen]] - shared statements: Stephen shares source evidence from A Child's History of England (Excerpt: The Norman Conquest to Edward I) / CHAPTER XI--ENGLAND UNDER MATILDA AND STEPHEN: The King was no sooner dead than all the plans and schemes he had laboured at so long, and lied so much for, crumbled away like a hollow heap of sand. Stephen, whom ... [truncated] (1 shared statement(s))
 
 ## Source

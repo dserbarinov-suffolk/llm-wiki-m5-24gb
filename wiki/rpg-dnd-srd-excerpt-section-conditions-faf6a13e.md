@@ -8,7 +8,7 @@ updated: 2026-06-30
 domain: rpg-dnd-srd-excerpt
 category_path: sources/rpg-dnd-srd-excerpt/sections
 source_id: rpg_dnd_srd_excerpt.pdf
-projection_coverage: section-rpg-dnd-srd-excerpt-section-conditions-faf6a13e@4cf5504e7ea17c419c1e0f80c7e24d6f
+projection_coverage: section-rpg-dnd-srd-excerpt-section-conditions-faf6a13e@879677863ecdaaaedbbcd04e89eb9b15
 ---
 
 # Conditions
@@ -34,7 +34,6 @@ From [[rpg-dnd-srd-excerpt]].
 - [[rpg-dnd-srd-excerpt-section-conditions-unconscious-e085d431]] - narrower source section: Conditions / Unconscious
 - [[rpg-dnd-srd-excerpt-section-weapons-ba2ad489]] - previous source section: Weapons
 - [[rpg-dnd-srd-excerpt-section-sample-spells-8d42e098]] - next source section: Sample Spells
-- [[rpg-dnd-srd-excerpt-condition]] - topic hub: opens the topic page for Condition
 
 ## Statements
 

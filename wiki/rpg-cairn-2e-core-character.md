@@ -7,7 +7,7 @@ sources: raw/rpg_cairn_2e_core.pdf
 updated: 2026-06-30
 domain: rpg-cairn-2e-core
 category_path: concepts
-projection_coverage: topic-rpg-cairn-2e-core-character@76c4284dbebe051d771fe315c0cfad26
+projection_coverage: topic-rpg-cairn-2e-core-character@a71598f2206b6767bc45d12ba1e4f1da
 ---
 
 # Character
@@ -635,12 +635,8 @@ coming, and it will consume everything.
 
 - [[rpg-cairn-2e-core-dungeon-exploration]] - shared statements and technical atoms: Dungeon Exploration shares source evidence from Procedures / Dungeon Exploration / The Basics: On their turn , a character can move a distance equal to their torchlight's perimeter (about 40ft), and perform one action . Players can use their action to move up ... [truncated]; Dungeon Exploration shares technical record from Procedures / Dungeon Exploration / Dungeon Exploration Cycle: Remember, the Die of Fate can be a useful tool whenever the Warden is in doubt! (13 shared statement(s), 2 shared atom(s))
 - [[rpg-cairn-2e-core-player]] - shared statements and technical atoms: Player shares source evidence from Character Creation / Attributes: Player Characters have just three Attributes: ( Strength (STR) , Dexterity (DEX) , and Willpower (WIL) ).; Player shares technical record from Procedures / Dungeon Exploration / Dungeon Exploration Cycle: Remember, the Die of Fate can be a useful tool whenever the Warden is in doubt! (3 shared statement(s), 2 shared atom(s))
-- [[rpg-cairn-2e-core-action]] - shared statements and technical atoms: Action shares source evidence from Procedures / Dungeon Exploration / Dungeon Exploration Cycle: The Warden resolves the actions of each character simultaneously, along with any actions that are already in progress. Remember, the Die of Fate can be a useful tool ... [truncated]; Action shares technical record from Procedures / Dungeon Exploration / Dungeon Exploration Cycle: Remember, the Die of Fate can be a useful tool whenever the Warden is in doubt! (1 shared statement(s), 2 shared atom(s))
 - [[rpg-cairn-2e-core-warden]] - shared statements and technical atoms: Warden shares source evidence from Procedures / Dungeon Exploration / Dungeon Exploration Cycle: The Warden resolves the actions of each character simultaneously, along with any actions that are already in progress. Remember, the Die of Fate can be a useful tool ... [truncated]; Warden shares technical record from Procedures / Dungeon Exploration / Dungeon Exploration Cycle: Remember, the Die of Fate can be a useful tool whenever the Warden is in doubt! (1 shared statement(s), 2 shared atom(s))
 - [[rpg-cairn-2e-core-bond]] - shared statements: Bond shares source evidence from Bonds and Omens / Bonds: Bonds can often tie a player character to another PC, the setting, and its characters. A PC can resolve a Bond by discovering the truth behind its mysteries or by so ... [truncated] (2 shared statement(s))
-- [[rpg-cairn-2e-core-light]] - shared statements: Light shares source evidence from Procedures / Dungeon Exploration / Dungeon Elements: Characters without a light source may suffer from panic until their situation is remedied. (2 shared statement(s))
-- [[rpg-cairn-2e-core-source]] - shared statements: Source shares source evidence from Procedures / Dungeon Exploration / Dungeon Elements: Characters without a light source may suffer from panic until their situation is remedied. (2 shared statement(s))
-- [[rpg-cairn-2e-core-alway]] - shared statements: Alway shares source evidence from Bonds and Omens / Omens / Omens Should...: Alway tell the characters something about the setting they did not already know. (1 shared statement(s))
 - [[rpg-cairn-2e-core-knowledge]] - shared statements: Knowledge shares source evidence from Knowledge And Perception / Knowledge: If a character has no justifiable knowledge of a subject, then they simply do not know anything about it! However, the Warden may decide to roll the Die of Fate to d ... [truncated] (1 shared statement(s))
 - [[rpg-cairn-2e-core-perception]] - shared statements: Perception shares source evidence from Knowledge And Perception / Knowledge: If a character has no justifiable knowledge of a subject, then they simply do not know anything about it! However, the Warden may decide to roll the Die of Fate to d ... [truncated] (1 shared statement(s))
 

@@ -7,7 +7,7 @@ sources: raw/coding_little_go_book.pdf
 updated: 2026-06-30
 domain: coding-little-go-book
 category_path: concepts
-projection_coverage: topic-coding-little-go-book-string@a6e50edaa1640d00dd0830be1156b60f
+projection_coverage: topic-coding-little-go-book-string@6374dd48fa9d5d91ada53a663f6967c0
 ---
 
 # String
@@ -88,9 +88,7 @@ fmt.Println(len("椒"))
 
 ## Related pages
 
-- [[coding-little-go-book-array]] - shared statements and technical atoms: Array shares source evidence from Chapter 5 - Tidbits / Strings and Byte Arrays: Strings and byte arrays are closely related. We can easily convert one to the other:; Array shares technical record from Chapter 5 - Tidbits / Strings and Byte Arrays: stra := "the spice must flow" byts := []byte(stra) strb := string(byts) (1 shared statement(s), 1 shared atom(s))
 - [[coding-little-go-book-byte-array]] - shared statements and technical atoms: Byte Array shares source evidence from Chapter 5 - Tidbits / Strings and Byte Arrays: Strings and byte arrays are closely related. We can easily convert one to the other:; Byte Array shares technical record from Chapter 5 - Tidbits / Strings and Byte Arrays: stra := "the spice must flow" byts := []byte(stra) strb := string(byts) (1 shared statement(s), 1 shared atom(s))
-- [[coding-little-go-book-expect]] - shared technical atoms: Expect shares technical record from Chapter 5 - Tidbits / Strings and Byte Arrays: int64(count) (3 shared atom(s))
 - [[coding-little-go-book-function]] - shared technical atoms: Function shares technical record from Chapter 5 - Tidbits / Strings and Byte Arrays: int64(count) (1 shared atom(s))
 
 ## Source

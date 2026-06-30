@@ -1452,3 +1452,103 @@ Source page: [[rpg-cairn-2e-core]]; linked pages: 175. Ledger artifacts: /Users/
 Provenance audit: 1094 finding(s), 251 outside source manifests.
 Graph export: current; nodes=806; edges=4521; unresolved=2.
 Ingest confidence: passed. Report filed as [[wiki-ingest-confidence]].
+
+## [2026-06-30] ingest | coding_learn_go_with_tests_excerpt.pdf
+Claim-ledger ingest of raw/coding_learn_go_with_tests_excerpt.pdf (127 chunk(s)).
+Claim-ledger projection (coding): 640 usable entries, 191 technical atoms, 92 needs-review, 143 linked page(s); write decision write-with-review-work.
+Source page: [[coding-learn-go-with-tests-excerpt]]; linked pages: 143. Ledger artifacts: /Users/DSerbarinov/llm-wiki/harness/.cache/page-plans/coding-learn-go-with-tests-excerpt-05cb2de8cb4f/ledger.
+Provenance audit: 898 finding(s), 285 outside source manifests.
+Graph export: current; nodes=804; edges=4483; unresolved=2.
+Ingest confidence: passed. Report filed as [[wiki-ingest-confidence]].
+
+## [2026-06-30] ingest | coding_little_go_book.pdf
+Claim-ledger ingest of raw/coding_little_go_book.pdf (62 chunk(s)).
+Claim-ledger projection (coding): 662 usable entries, 166 technical atoms, 124 needs-review, 93 linked page(s); write decision write-with-review-work.
+Source page: [[coding-little-go-book]]; linked pages: 93. Ledger artifacts: /Users/DSerbarinov/llm-wiki/harness/.cache/page-plans/coding-little-go-book-7e86805c7b90/ledger.
+Provenance audit: 1901 finding(s), 654 outside source manifests.
+Graph export: current; nodes=799; edges=4400; unresolved=4.
+Ingest confidence: passed. Report filed as [[wiki-ingest-confidence]].
+
+## [2026-06-30] ingest | history_dickens_england_excerpt.pdf
+Claim-ledger ingest of raw/history_dickens_england_excerpt.pdf (17 chunk(s)).
+Claim-ledger projection (general-prose): 704 usable entries, 17 technical atoms, 41 needs-review, 29 linked page(s); write decision write-with-review-work.
+Source page: [[history-dickens-england-excerpt]]; linked pages: 29. Ledger artifacts: /Users/DSerbarinov/llm-wiki/harness/.cache/page-plans/history-dickens-england-excerpt-1590ccc36e9e/ledger.
+Provenance audit: 1519 finding(s), 550 outside source manifests.
+Graph export: current; nodes=765; edges=4128; unresolved=6.
+Ingest confidence: passed. Report filed as [[wiki-ingest-confidence]].
+
+## [2026-06-30] ingest | history_short_history_of_england.pdf
+Claim-ledger ingest of raw/history_short_history_of_england.pdf (44 chunk(s)).
+Claim-ledger projection (general-prose): 2320 usable entries, 39 technical atoms, 112 needs-review, 69 linked page(s); write decision write-with-review-work.
+Source page: [[history-short-history-of-england]]; linked pages: 69. Ledger artifacts: /Users/DSerbarinov/llm-wiki/harness/.cache/page-plans/history-short-history-of-england-204daea7b552/ledger.
+Provenance audit: 5719 finding(s), 2671 outside source manifests.
+Graph export: current; nodes=700; edges=3649; unresolved=7.
+Ingest confidence: passed. Report filed as [[wiki-ingest-confidence]].
+
+## [2026-06-30] ingest | rpg_dnd_srd_excerpt.pdf
+Claim-ledger ingest of raw/rpg_dnd_srd_excerpt.pdf (116 chunk(s)).
+Claim-ledger projection (general-prose): 747 usable entries, 137 technical atoms, 149 needs-review, 156 linked page(s); write decision write-with-review-work.
+Source page: [[rpg-dnd-srd-excerpt]]; linked pages: 156. Ledger artifacts: /Users/DSerbarinov/llm-wiki/harness/.cache/page-plans/rpg-dnd-srd-excerpt-f7c05ef0468a/ledger.
+Provenance audit: 1283 finding(s), 237 outside source manifests.
+Graph export: current; nodes=683; edges=3326; unresolved=7.
+Ingest confidence: passed. Report filed as [[wiki-ingest-confidence]].
+
+## [2026-06-30] ingest | rpg_cairn_2e_core.pdf
+Claim-ledger ingest of raw/rpg_cairn_2e_core.pdf (142 chunk(s)).
+Claim-ledger projection (general-prose): 660 usable entries, 80 technical atoms, 170 needs-review, 161 linked page(s); write decision write-with-review-work.
+Source page: [[rpg-cairn-2e-core]]; linked pages: 161. Ledger artifacts: /Users/DSerbarinov/llm-wiki/harness/.cache/page-plans/rpg-cairn-2e-core-fa06f8c4cd9f/ledger.
+Provenance audit: 1075 finding(s), 232 outside source manifests.
+Graph export: current; nodes=669; edges=3208; unresolved=7.
+Ingest confidence: passed. Report filed as [[wiki-ingest-confidence]].
+
+## [2026-06-30] ingest | coding_learn_go_with_tests_excerpt.pdf
+Claim-ledger ingest of raw/coding_learn_go_with_tests_excerpt.pdf (127 chunk(s)).
+Claim-ledger projection (coding): 640 usable entries, 191 technical atoms, 92 needs-review, 133 linked page(s); write decision write-with-review-work.
+Source page: [[coding-learn-go-with-tests-excerpt]]; linked pages: 133. Ledger artifacts: /Users/DSerbarinov/llm-wiki/harness/.cache/page-plans/coding-learn-go-with-tests-excerpt-05cb2de8cb4f/ledger.
+Provenance audit: 864 finding(s), 251 outside source manifests.
+Graph export: current; nodes=659; edges=3126; unresolved=8.
+Ingest confidence: passed. Report filed as [[wiki-ingest-confidence]].
+
+## [2026-06-30] ingest | coding_little_go_book.pdf
+Claim-ledger ingest of raw/coding_little_go_book.pdf (62 chunk(s)).
+Claim-ledger projection (coding): 662 usable entries, 166 technical atoms, 124 needs-review, 80 linked page(s); write decision write-with-review-work.
+Source page: [[coding-little-go-book]]; linked pages: 80. Ledger artifacts: /Users/DSerbarinov/llm-wiki/harness/.cache/page-plans/coding-little-go-book-7e86805c7b90/ledger.
+Provenance audit: 1773 finding(s), 526 outside source manifests.
+Graph export: current; nodes=646; edges=3023; unresolved=8.
+Ingest confidence: passed. Report filed as [[wiki-ingest-confidence]].
+
+## [2026-06-30] ingest | history_dickens_england_excerpt.pdf
+Claim-ledger ingest of raw/history_dickens_england_excerpt.pdf (17 chunk(s)).
+Claim-ledger projection (general-prose): 704 usable entries, 17 technical atoms, 41 needs-review, 29 linked page(s); write decision write-with-review-work.
+Source page: [[history-dickens-england-excerpt]]; linked pages: 29. Ledger artifacts: /Users/DSerbarinov/llm-wiki/harness/.cache/page-plans/history-dickens-england-excerpt-1590ccc36e9e/ledger.
+Provenance audit: 1519 finding(s), 550 outside source manifests.
+Graph export: current; nodes=646; edges=3023; unresolved=8.
+Ingest confidence: passed. Report filed as [[wiki-ingest-confidence]].
+
+## [2026-06-30] ingest | history_short_history_of_england.pdf
+Claim-ledger ingest of raw/history_short_history_of_england.pdf (44 chunk(s)).
+Claim-ledger projection (general-prose): 2320 usable entries, 39 technical atoms, 112 needs-review, 64 linked page(s); write decision write-with-review-work.
+Source page: [[history-short-history-of-england]]; linked pages: 64. Ledger artifacts: /Users/DSerbarinov/llm-wiki/harness/.cache/page-plans/history-short-history-of-england-204daea7b552/ledger.
+Provenance audit: 5677 finding(s), 2629 outside source manifests.
+Graph export: current; nodes=641; edges=2934; unresolved=9.
+Ingest confidence: passed. Report filed as [[wiki-ingest-confidence]].
+
+## [2026-06-30] ingest | rpg_dnd_srd_excerpt.pdf
+Claim-ledger ingest of raw/rpg_dnd_srd_excerpt.pdf (116 chunk(s)).
+Claim-ledger projection (general-prose): 747 usable entries, 137 technical atoms, 149 needs-review, 144 linked page(s); write decision write-with-review-work.
+Source page: [[rpg-dnd-srd-excerpt]]; linked pages: 144. Ledger artifacts: /Users/DSerbarinov/llm-wiki/harness/.cache/page-plans/rpg-dnd-srd-excerpt-f7c05ef0468a/ledger.
+Provenance audit: 1222 finding(s), 176 outside source manifests.
+Graph export: current; nodes=629; edges=2758; unresolved=10.
+Ingest confidence: passed. Report filed as [[wiki-ingest-confidence]].
+
+## [2026-06-30] ingest | rpg_cairn_2e_core.pdf
+Claim-ledger ingest of raw/rpg_cairn_2e_core.pdf (142 chunk(s)).
+Claim-ledger projection (general-prose): 660 usable entries, 80 technical atoms, 170 needs-review, 152 linked page(s); write decision write-with-review-work.
+Source page: [[rpg-cairn-2e-core]]; linked pages: 152. Ledger artifacts: /Users/DSerbarinov/llm-wiki/harness/.cache/page-plans/rpg-cairn-2e-core-fa06f8c4cd9f/ledger.
+Provenance audit: 1054 finding(s), 211 outside source manifests.
+Graph export: current; nodes=620; edges=2687; unresolved=11.
+Ingest confidence: passed. Report filed as [[wiki-ingest-confidence]].
+
+## [2026-06-30] synthesize | cross-source
+Canonical concept synthesis over 6 source(s): 8 concept page(s), 0 blocked. Relations: agrees-with=0, conflicts-with=0, qualifies=0, supersedes=0.
+Graph export: current; nodes=617; edges=2672; unresolved=0.

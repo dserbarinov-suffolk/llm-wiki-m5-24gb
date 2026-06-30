@@ -1,14 +1,14 @@
 ---
 page_id: rpg-dnd-srd-excerpt
 page_kind: source
-summary: Claim-ledger projection (general-prose): 747 usable entries, 137 technical atoms, 149 needs-review, 173 linked page(s); write decision write-with-review-work.
+summary: Claim-ledger projection (general-prose): 747 usable entries, 137 technical atoms, 149 needs-review, 144 linked page(s); write decision write-with-review-work.
 page_family: source-manifest
 sources: raw/rpg_dnd_srd_excerpt.pdf
 updated: 2026-06-30
 domain: rpg-dnd-srd-excerpt
 category_path: sources
 source_id: rpg_dnd_srd_excerpt.pdf
-projection_coverage: projection-coverage-9547f0bb94da4750@bbfe692062d035c7
+projection_coverage: projection-coverage-9547f0bb94da4750@6fa82d50e4c63f61
 ---
 
 # D&D SRD 5.1 (Excerpt)

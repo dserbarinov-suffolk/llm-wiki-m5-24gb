@@ -8,7 +8,7 @@ updated: 2026-06-30
 domain: coding-learn-go-with-tests-excerpt
 category_path: sources/coding-learn-go-with-tests-excerpt/sections
 source_id: coding_learn_go_with_tests_excerpt.pdf
-projection_coverage: section-coding-learn-go-with-tests-excerpt-section-arrays-and-their-type-refactor-0e79c1f5@8e37b7fe0bf4af999406bef3a06835bf
+projection_coverage: section-coding-learn-go-with-tests-excerpt-section-arrays-and-their-type-refactor-0e79c1f5@54b8a343db88c27773144070cea208f5
 ---
 
 # Arrays and their type / Refactor
@@ -20,7 +20,6 @@ From [[coding-learn-go-with-tests-excerpt]].
 - [[coding-learn-go-with-tests-excerpt-section-arrays-and-their-type-0c35221e]] - broader source section: Arrays and their type
 - [[coding-learn-go-with-tests-excerpt-section-arrays-and-their-type-write-enough-code-to-make-it-pass-b28de2ad]] - previous source section: Arrays and their type / Write enough code to make it pass
 - [[coding-learn-go-with-tests-excerpt-section-arrays-and-their-type-write-the-test-first-08e30bdd]] - next source section: Arrays and their type / Write the test first
-- [[coding-learn-go-with-tests-excerpt-refactor]] - topic hub: opens the topic page for Refactor
 
 ## Statements
 

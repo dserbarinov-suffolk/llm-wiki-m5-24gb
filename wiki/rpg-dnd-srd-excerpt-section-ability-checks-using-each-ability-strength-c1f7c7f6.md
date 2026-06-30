@@ -8,7 +8,7 @@ updated: 2026-06-30
 domain: rpg-dnd-srd-excerpt
 category_path: sources/rpg-dnd-srd-excerpt/sections
 source_id: rpg_dnd_srd_excerpt.pdf
-projection_coverage: section-rpg-dnd-srd-excerpt-section-ability-checks-using-each-ability-strength-c1f7c7f6@2c3efa0efacebebbfdc8e488b27ffb0e
+projection_coverage: section-rpg-dnd-srd-excerpt-section-ability-checks-using-each-ability-strength-c1f7c7f6@bb55c716179aa9e0e503bd3b27bb8213
 ---
 
 # Ability Checks / Using Each Ability / Strength
@@ -19,7 +19,6 @@ From [[rpg-dnd-srd-excerpt]].
 
 - [[rpg-dnd-srd-excerpt-section-ability-checks-using-each-ability-71f6f002]] - broader source section: Ability Checks / Using Each Ability
 - [[rpg-dnd-srd-excerpt-section-ability-checks-using-each-ability-dexterity-d06407ed]] - next source section: Ability Checks / Using Each Ability / Dexterity
-- [[rpg-dnd-srd-excerpt-strength]] - topic hub: opens the topic page for Strength
 
 ## Statements
 

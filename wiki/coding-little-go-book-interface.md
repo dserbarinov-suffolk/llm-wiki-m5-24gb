@@ -7,7 +7,7 @@ sources: raw/coding_little_go_book.pdf
 updated: 2026-06-30
 domain: coding-little-go-book
 category_path: concepts
-projection_coverage: topic-coding-little-go-book-interface@5b696c92339e2347a9ba8d24346f550b
+projection_coverage: topic-coding-little-go-book-interface@2d5dc5cbc9f49208144c8b74921662aa
 ---
 
 # Interface
@@ -81,8 +81,6 @@ func (l ConsoleLogger)
 ## Related pages
 
 - [[coding-little-go-book-function]] - shared technical atoms: Function shares technical record from Chapter 4 - Code Organization and Interfaces / Interfaces: func (l ConsoleLogger) fmt.Println(message) } (1 shared atom(s))
-- [[coding-little-go-book-structure]] - shared technical atoms: Structure shares technical record from Chapter 4 - Code Organization and Interfaces / Interfaces: func (l ConsoleLogger) fmt.Println(message) } (1 shared atom(s))
-- [[coding-little-go-book-programming]] - shared statements: Programming shares source evidence from Chapter 4 - Code Organization and Interfaces / Interfaces: Yet by programming against the interface, rather than these concrete implementations, we can easily change (and test) which we use without any impact to our code. (1 shared statement(s))
 - [[coding-little-go-book-section-chapter-4-code-organization-and-interfaces-interfaces-ee136513]] - source section: Chapter 4 - Code Organization and Interfaces / Interfaces shares source evidence from Chapter 4 - Code Organization and Interfaces / Interfaces: Interfaces are types that define a contract but not an implementation. Here's an example:; Chapter 4 - Code Organization and Interfaces / Interfaces shares technical record from Chapter 4 - Code Organization and Interfaces / Interfaces: type Logger interface { Log(message string) } (13 shared statement(s), 6 shared atom(s))
 
 ## Source

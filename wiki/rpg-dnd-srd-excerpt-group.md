@@ -7,7 +7,7 @@ sources: raw/rpg_dnd_srd_excerpt.pdf
 updated: 2026-06-30
 domain: rpg-dnd-srd-excerpt
 category_path: concepts
-projection_coverage: topic-rpg-dnd-srd-excerpt-group@efb877f33a11083d3c704a6b2699ca41
+projection_coverage: topic-rpg-dnd-srd-excerpt-group@577f1768a59400388ddcb52de916e3be
 ---
 
 # Group
@@ -31,8 +31,6 @@ What [[rpg-dnd-srd-excerpt]] covers about group:
 
 ## Related pages
 
-- [[rpg-dnd-srd-excerpt-character]] - shared statements: Character shares source evidence from Ability Checks / Working Together / Group Checks: Group checks don't come up very often, and they're most useful when all the characters succeed or fail as a group. For example, when adventurers are navigating a swa ... [truncated] (2 shared statement(s))
-- [[rpg-dnd-srd-excerpt-attempt]] - shared statements: Attempt shares source evidence from Ability Checks / Using Each Ability / Charisma: Persuasion . When you attempt to influence someone or a group of people with tact, social graces, or good nature, the GM might ask you to make a Charisma (Persuasion ... [truncated] (1 shared statement(s))
 - [[rpg-dnd-srd-excerpt-check]] - shared statements: Check shares source evidence from Ability Checks / Working Together / Group Checks: Group checks don't come up very often, and they're most useful when all the characters succeed or fail as a group. For example, when adventurers are navigating a swa ... [truncated] (1 shared statement(s))
 
 ## Source

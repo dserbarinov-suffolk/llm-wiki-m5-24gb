@@ -7,7 +7,7 @@ sources: raw/rpg_dnd_srd_excerpt.pdf
 updated: 2026-06-30
 domain: rpg-dnd-srd-excerpt
 category_path: concepts
-projection_coverage: topic-rpg-dnd-srd-excerpt-target@8ebbe6d2fa583d55d3e7634c6d742e43
+projection_coverage: topic-rpg-dnd-srd-excerpt-target@0d46094294b79a815b45cd9a88a1da56
 ---
 
 # Target
@@ -108,17 +108,9 @@ What [[rpg-dnd-srd-excerpt]] covers about target:
 
 ## Related pages
 
-- [[rpg-dnd-srd-excerpt-attack]] - shared statements and technical atoms: Attack shares source evidence from Making an Attack / Melee Attacks / Grappling: The target of your grapple must be no more than one size larger than you and must be within your reach. Using at least one free hand, you try to seize the target by ... [truncated]; Attack shares technical record from Making an Attack / Attack Rolls / Rolling 1 or 20: If the d20 roll for an attack is a 1, the attack misses regardless of any modifiers or the target's AC. (1 shared statement(s), 4 shared atom(s))
 - [[rpg-dnd-srd-excerpt-check]] - shared statements and technical atoms: Check shares source evidence from Making an Attack / Melee Attacks / Grappling: The target of your grapple must be no more than one size larger than you and must be within your reach. Using at least one free hand, you try to seize the target by ... [truncated]; Check shares technical record from Making an Attack / Melee Attacks / Grappling: A grappled creature can use its action to escape. (1 shared statement(s), 1 shared atom(s))
-- [[rpg-dnd-srd-excerpt-instead]] - shared statements and technical atoms: Instead shares source evidence from Making an Attack / Melee Attacks / Grappling: The target of your grapple must be no more than one size larger than you and must be within your reach. Using at least one free hand, you try to seize the target by ... [truncated]; Instead shares technical record from Making an Attack / Melee Attacks / Grappling: A grappled creature can use its action to escape. (1 shared statement(s), 1 shared atom(s))
-- [[rpg-dnd-srd-excerpt-ability]] - shared technical atoms: Ability shares technical record from Making an Attack / Melee Attacks / Grappling: A grappled creature can use its action to escape. (2 shared atom(s))
 - [[rpg-dnd-srd-excerpt-damage]] - shared technical atoms: Damage shares technical record from Making an Attack / Damage and Healing / Damage Rolls: When attacking with a weapon , you add your ability modifier-the same modifier used for the attack roll-to the damage. (2 shared atom(s))
-- [[rpg-dnd-srd-excerpt-special]] - shared technical atoms: Special shares technical record from Making an Attack / Damage and Healing / Damage Rolls: When attacking with a weapon , you add your ability modifier-the same modifier used for the attack roll-to the damage. (1 shared atom(s))
 - [[rpg-dnd-srd-excerpt-spell]] - shared technical atoms: Spell shares technical record from Making an Attack / Damage and Healing / Damage Rolls: When attacking with a weapon , you add your ability modifier-the same modifier used for the attack roll-to the damage. (1 shared atom(s))
-- [[rpg-dnd-srd-excerpt-weapon]] - shared technical atoms: Weapon shares technical record from Making an Attack / Damage and Healing / Damage Rolls: When attacking with a weapon , you add your ability modifier-the same modifier used for the attack roll-to the damage. (1 shared atom(s))
-- [[rpg-dnd-srd-excerpt-cover]] - shared statements: Cover shares source evidence from Making an Attack / Cover: A target with half cover has a +2 bonus to AC and Dexterity saving throws. A target has half cover if an obstacle blocks at least half of its body. The obstacle migh ... [truncated] (3 shared statement(s))
-- [[rpg-dnd-srd-excerpt-determine]] - shared statements: Determine shares source evidence from Making an Attack: Determine modifiers . The GM determines whether the target has cover and whether you have advantage or disadvantage against the target. In addition, spells, special ... [truncated] (1 shared statement(s))
-- [[rpg-dnd-srd-excerpt-total]] - shared statements: Total shares source evidence from Making an Attack / Cover: A target with total cover can't be targeted directly by an attack or a spell, although some spells can reach such a target by including it in an area of effect. A ta ... [truncated] (1 shared statement(s))
 
 ## Source
 

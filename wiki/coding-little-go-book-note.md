@@ -7,7 +7,7 @@ sources: raw/coding_little_go_book.pdf
 updated: 2026-06-30
 domain: coding-little-go-book
 category_path: concepts
-projection_coverage: topic-coding-little-go-book-note@2de14c5bd780b796fbe3ce7e5ea21716
+projection_coverage: topic-coding-little-go-book-note@49253cee3f05e509729a94df36249b09
 ---
 
 # Note
@@ -71,11 +71,8 @@ return a.(int) + b.(int)
 
 ## Related pages
 
-- [[coding-little-go-book-structure]] - shared statements and technical atoms: Structure shares source evidence from Chapter 2 - Structures / Declarations and Initializations: Note: The trailing , in the above structure is required. Without it, the compiler will give an error. You'll appreciate the required consistency, especially if you'v ... [truncated]; Structure shares technical record from Chapter 2 - Structures / Declarations and Initializations: goku := Saiyan{ Name: "Goku", Power: 9000, } (1 shared statement(s), 1 shared atom(s))
 - [[coding-little-go-book-type]] - shared statements and technical atoms: Type shares source evidence from Chapter 5 - Tidbits / Empty Interface and Conversions: Note that if the underlying type is not int , the above will result in an error.; Type shares technical record from Chapter 5 - Tidbits / Empty Interface and Conversions: return a.(int) + b.(int) (1 shared statement(s), 1 shared atom(s))
 - [[coding-little-go-book-value]] - shared statements and technical atoms: Value shares source evidence from Chapter 2 - Structures / Declarations and Initializations: Note that we're still passing a copy of goku's value to Super it just so happens that goku's value has become an address. That copy is the same address as the origin ... [truncated]; Value shares technical record from Chapter 2 - Structures / Declarations and Initializations: goku := Saiyan{ Name: "Goku", Power: 9000, } (1 shared statement(s), 1 shared atom(s))
-- [[coding-little-go-book-compiler]] - shared technical atoms: Compiler shares technical record from Chapter 2 - Structures / Declarations and Initializations: goku := Saiyan{ Name: "Goku", Power: 9000, } (1 shared atom(s))
-- [[coding-little-go-book-copy]] - shared statements: Copy shares source evidence from Chapter 2 - Structures / Declarations and Initializations: Note that we're still passing a copy of goku's value to Super it just so happens that goku's value has become an address. That copy is the same address as the origin ... [truncated] (1 shared statement(s))
 
 ## Source
 

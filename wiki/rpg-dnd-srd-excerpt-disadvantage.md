@@ -7,7 +7,7 @@ sources: raw/rpg_dnd_srd_excerpt.pdf
 updated: 2026-06-30
 domain: rpg-dnd-srd-excerpt
 category_path: concepts
-projection_coverage: topic-rpg-dnd-srd-excerpt-disadvantage@386d85498485fc21604b6d67007c319b
+projection_coverage: topic-rpg-dnd-srd-excerpt-disadvantage@4f5169404268c41fbf6b0197b09f629e
 ---
 
 # Disadvantage
@@ -63,11 +63,7 @@ What [[rpg-dnd-srd-excerpt]] covers about disadvantage:
 ## Related pages
 
 - [[rpg-dnd-srd-excerpt-advantage]] - shared statements and technical atoms: Advantage shares source evidence from Advantage and Disadvantage: Sometimes a special ability or spell tells you that you have advantage or disadvantage on an ability check, a saving throw, or an attack roll. When that happens, you ... [truncated]; Advantage shares technical record from Advantage and Disadvantage: If multiple situations affect a roll and each one grants advantage or imposes disadvantage on it, you don't roll more than one additional d20. (6 shared statement(s), 3 shared atom(s))
-- [[rpg-dnd-srd-excerpt-ability]] - shared statements and technical atoms: Ability shares source evidence from Advantage and Disadvantage: Sometimes a special ability or spell tells you that you have advantage or disadvantage on an ability check, a saving throw, or an attack roll. When that happens, you ... [truncated]; Ability shares technical record from Advantage and Disadvantage: If multiple situations affect a roll and each one grants advantage or imposes disadvantage on it, you don't roll more than one additional d20. (1 shared statement(s), 3 shared atom(s))
-- [[rpg-dnd-srd-excerpt-special]] - shared statements and technical atoms: Special shares source evidence from Advantage and Disadvantage: Sometimes a special ability or spell tells you that you have advantage or disadvantage on an ability check, a saving throw, or an attack roll. When that happens, you ... [truncated]; Special shares technical record from Advantage and Disadvantage: If multiple situations affect a roll and each one grants advantage or imposes disadvantage on it, you don't roll more than one additional d20. (1 shared statement(s), 3 shared atom(s))
 - [[rpg-dnd-srd-excerpt-spell]] - shared statements and technical atoms: Spell shares source evidence from Advantage and Disadvantage: Sometimes a special ability or spell tells you that you have advantage or disadvantage on an ability check, a saving throw, or an attack roll. When that happens, you ... [truncated]; Spell shares technical record from Advantage and Disadvantage: If multiple situations affect a roll and each one grants advantage or imposes disadvantage on it, you don't roll more than one additional d20. (1 shared statement(s), 3 shared atom(s))
-- [[rpg-dnd-srd-excerpt-situation]] - shared statements and technical atoms: Situation shares source evidence from Advantage and Disadvantage: If circumstances cause a roll to have both advantage and disadvantage, you are considered to have neither of them, and you roll one d20. This is true even if multipl ... [truncated]; Situation shares technical record from Advantage and Disadvantage: If circumstances cause a roll to have both advantage and disadvantage, you are considered to have neither of them, and you roll one d20. (1 shared statement(s), 2 shared atom(s))
-- [[rpg-dnd-srd-excerpt-instead]] - shared technical atoms: Instead shares technical record from Advantage and Disadvantage: If multiple situations affect a roll and each one grants advantage or imposes disadvantage on it, you don't roll more than one additional d20. (1 shared atom(s))
 
 ## Source
 

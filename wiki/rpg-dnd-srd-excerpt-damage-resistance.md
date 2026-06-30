@@ -7,7 +7,7 @@ sources: raw/rpg_dnd_srd_excerpt.pdf
 updated: 2026-06-30
 domain: rpg-dnd-srd-excerpt
 category_path: concepts
-projection_coverage: topic-rpg-dnd-srd-excerpt-damage-resistance@85f4d7f18513e84c3d3511c039657b28
+projection_coverage: topic-rpg-dnd-srd-excerpt-damage-resistance@f21be153fd6abfc82035fe0b76c0cf54
 ---
 
 # Damage Resistance
@@ -38,9 +38,7 @@ What [[rpg-dnd-srd-excerpt]] covers about damage resistance:
 
 - [[rpg-dnd-srd-excerpt-damage]] - broader topic: Damage shares source evidence from Making an Attack / Damage and Healing / Damage Resistance and Vulnerability: Some creatures and objects are exceedingly difficult or unusually easy to hurt with certain types of damage. If a creature or an object has resistance to a damage ty ... [truncated]; Damage shares technical record from Making an Attack / Damage and Healing / Damage Resistance and Vulnerability: For example, if a creature has resistance to fire damage as well as resistance to all nonmagical damage, the damage of a nonmagical fire is reduced by half against t ... [truncated] (1 shared statement(s), 1 shared atom(s))
 - [[rpg-dnd-srd-excerpt-creature]] - shared statements and technical atoms: Creature shares source evidence from Making an Attack / Damage and Healing / Damage Resistance and Vulnerability: Some creatures and objects are exceedingly difficult or unusually easy to hurt with certain types of damage. If a creature or an object has resistance to a damage ty ... [truncated]; Creature shares technical record from Making an Attack / Damage and Healing / Damage Resistance and Vulnerability: For example, if a creature has resistance to fire damage as well as resistance to all nonmagical damage, the damage of a nonmagical fire is reduced by half against t ... [truncated] (1 shared statement(s), 1 shared atom(s))
-- [[rpg-dnd-srd-excerpt-attack]] - shared technical atoms: Attack shares technical record from Making an Attack / Damage and Healing / Damage Resistance and Vulnerability: For example, if a creature has resistance to fire damage as well as resistance to all nonmagical damage, the damage of a nonmagical fire is reduced by half against t ... [truncated] (1 shared atom(s))
 - [[rpg-dnd-srd-excerpt-vulnerability]] - shared technical atoms: Vulnerability shares technical record from Making an Attack / Damage and Healing / Damage Resistance and Vulnerability: For example, if a creature has resistance to fire damage as well as resistance to all nonmagical damage, the damage of a nonmagical fire is reduced by half against t ... [truncated] (1 shared atom(s))
-- [[rpg-dnd-srd-excerpt-object]] - shared statements: Object shares source evidence from Making an Attack / Damage and Healing / Damage Resistance and Vulnerability: Some creatures and objects are exceedingly difficult or unusually easy to hurt with certain types of damage. If a creature or an object has resistance to a damage ty ... [truncated] (1 shared statement(s))
 
 ## Source
 

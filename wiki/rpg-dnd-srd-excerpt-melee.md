@@ -7,7 +7,7 @@ sources: raw/rpg_dnd_srd_excerpt.pdf
 updated: 2026-06-30
 domain: rpg-dnd-srd-excerpt
 category_path: concepts
-projection_coverage: topic-rpg-dnd-srd-excerpt-melee@abe3e6a79ccb630a0110cc965c6e49bc
+projection_coverage: topic-rpg-dnd-srd-excerpt-melee@2ac09922d4bf3cf80a2664cd9764df35
 ---
 
 # Melee
@@ -78,14 +78,8 @@ What [[rpg-dnd-srd-excerpt]] covers about melee:
 
 ## Related pages
 
-- [[rpg-dnd-srd-excerpt-attack]] - shared statements and technical atoms: Attack shares source evidence from Making an Attack: Whether you're striking with a melee weapon, firing a weapon at range, or making an attack roll as part of a spell, an attack has a simple structure.; Attack shares technical record from Making an Attack / Melee Attacks: Most creatures have a 5-foot reach and can thus attack targets within 5 feet of them when making a melee attack. (3 shared statement(s), 4 shared atom(s))
-- [[rpg-dnd-srd-excerpt-weapon]] - shared statements and technical atoms: Weapon shares source evidence from Making an Attack: Whether you're striking with a melee weapon, firing a weapon at range, or making an attack roll as part of a spell, an attack has a simple structure.; Weapon shares technical record from Making an Attack / Melee Attacks: Most creatures have a 5-foot reach and can thus attack targets within 5 feet of them when making a melee attack. (3 shared statement(s), 3 shared atom(s))
 - [[rpg-dnd-srd-excerpt-creature]] - shared statements and technical atoms: Creature shares source evidence from Underwater Combat: When making a melee weapon attack , a creature that doesn't have a swimming speed (either natural or granted by magic) has disadvantage on the attack roll unless the ... [truncated]; Creature shares technical record from Making an Attack / Melee Attacks / Grappling: The condition specifies the things that end it, and you can release the target whenever you like (no action required). (1 shared statement(s), 1 shared atom(s))
-- [[rpg-dnd-srd-excerpt-typically]] - shared statements and technical atoms: Typically shares source evidence from Making an Attack / Melee Attacks: Used in hand-to-hand combat, a melee attack allows you to attack a foe within your reach. A melee attack typically uses a handheld weapon such as a sword, a warhamme ... [truncated]; Typically shares technical record from Making an Attack / Melee Attacks: Most creatures have a 5-foot reach and can thus attack targets within 5 feet of them when making a melee attack. (1 shared statement(s), 1 shared atom(s))
-- [[rpg-dnd-srd-excerpt-ability]] - shared technical atoms: Ability shares technical record from Making an Attack / Melee Attacks / Two-Weapon Fighting: If either weapon has the thrown property, you can throw the weapon, instead of making a melee attack with it. (1 shared atom(s))
-- [[rpg-dnd-srd-excerpt-special]] - shared technical atoms: Special shares technical record from Making an Attack / Melee Attacks / Grappling: The condition specifies the things that end it, and you can release the target whenever you like (no action required). (1 shared atom(s))
 - [[rpg-dnd-srd-excerpt-spell]] - shared technical atoms: Spell shares technical record from Making an Attack / Melee Attacks: Most creatures have a 5-foot reach and can thus attack targets within 5 feet of them when making a melee attack. (1 shared atom(s))
-- [[rpg-dnd-srd-excerpt-typical]] - shared technical atoms: Typical shares technical record from Making an Attack / Melee Attacks: Most creatures have a 5-foot reach and can thus attack targets within 5 feet of them when making a melee attack. (1 shared atom(s))
 
 ## Source
 

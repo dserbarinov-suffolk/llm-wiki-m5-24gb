@@ -7,7 +7,7 @@ sources: raw/rpg_cairn_2e_core.pdf
 updated: 2026-06-30
 domain: rpg-cairn-2e-core
 category_path: concepts
-projection_coverage: topic-rpg-cairn-2e-core-travel@5285af086871df82c8fbfa7b384531fc
+projection_coverage: topic-rpg-cairn-2e-core-travel@89566add229fd0b76e479d2b6756d4e3
 ---
 
 # Travel
@@ -75,7 +75,6 @@ What [[rpg-cairn-2e-core]] covers about travel:
 
 - [[rpg-cairn-2e-core-terrain]] - shared technical atoms: Terrain shares technical record from Procedures / Terrain Difficulty / Weather: | Weather | Eﬀect | Examples | | --- | --- | --- | | Nice | Favorable conditions for travel. | Clear skies, sunny | | Fair | Favorable conditions for travel. | Overc ... [truncated] (1 shared atom(s))
 - [[rpg-cairn-2e-core-cairn]] - shared statements: Cairn shares source evidence from Procedures / Wilderness Exploration / Travel Duration: Travel time in Cairn is counted in watches, divided into three eighthour segments per day. However, as most parties elect to spend the third watch of the day resting ... [truncated] (2 shared statement(s))
-- [[rpg-cairn-2e-core-action]] - shared statements: Action shares source evidence from Procedures / Terrain Difficulty / Wilderness Actions: The Travel action is still required to leave the current area, even if it has been completely explored. (1 shared statement(s))
 
 ## Source
 

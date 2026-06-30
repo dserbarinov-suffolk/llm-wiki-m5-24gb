@@ -7,7 +7,7 @@ sources: raw/rpg_cairn_2e_core.pdf
 updated: 2026-06-30
 domain: rpg-cairn-2e-core
 category_path: concepts
-projection_coverage: topic-rpg-cairn-2e-core-terrain@a423934eb418f0d63451883a06c0070d
+projection_coverage: topic-rpg-cairn-2e-core-terrain@aaa0e3155a8d02c417715128e4caeda1
 ---
 
 # Terrain
@@ -183,12 +183,10 @@ reveal the primary feature of the area.
 
 ## Related pages
 
-- [[rpg-cairn-2e-core-result]] - shared technical atoms: Result shares technical record from Procedures / Terrain Difficulty / Weather: Weather Each	day,	the	Warden	should	roll	on	the	weather	table	for	the appropriate	season.	If	the	" Extreme "	weather	result	is	rolled	twice	in a	row,	the	weather	tur ... [truncated] (1 shared atom(s))
 - [[rpg-cairn-2e-core-travel]] - shared technical atoms: Travel shares technical record from Procedures / Terrain Difficulty / Weather: | Weather | Eﬀect | Examples | | --- | --- | --- | | Nice | Favorable conditions for travel. | Clear skies, sunny | | Fair | Favorable conditions for travel. | Overc ... [truncated] (1 shared atom(s))
 - [[rpg-cairn-2e-core-warden]] - shared technical atoms: Warden shares technical record from Procedures / Terrain Difficulty / Weather: Weather Each	day,	the	Warden	should	roll	on	the	weather	table	for	the appropriate	season.	If	the	" Extreme "	weather	result	is	rolled	twice	in a	row,	the	weather	tur ... [truncated] (1 shared atom(s))
 - [[rpg-cairn-2e-core-dungeon]] - shared statements: Dungeon shares source evidence from Procedures / Dungeon Exploration / Actions: Larger rooms and difficult or complex dungeon terrain may take a few turns to properly search. (1 shared statement(s))
 - [[rpg-cairn-2e-core-dungeon-exploration]] - shared statements: Dungeon Exploration shares source evidence from Procedures / Dungeon Exploration / Actions: Larger rooms and difficult or complex dungeon terrain may take a few turns to properly search. (1 shared statement(s))
-- [[rpg-cairn-2e-core-room]] - shared statements: Room shares source evidence from Procedures / Dungeon Exploration / Actions: Larger rooms and difficult or complex dungeon terrain may take a few turns to properly search. (1 shared statement(s))
 
 ## Source
 

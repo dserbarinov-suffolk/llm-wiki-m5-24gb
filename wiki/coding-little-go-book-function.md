@@ -7,7 +7,7 @@ sources: raw/coding_little_go_book.pdf
 updated: 2026-06-30
 domain: coding-little-go-book
 category_path: concepts
-projection_coverage: topic-coding-little-go-book-function@3ec1d42199d9fa37e8318781b7a3a8b1
+projection_coverage: topic-coding-little-go-book-function@9a8fc7e2d710a8ca4665320a4afff685
 ---
 
 # Function
@@ -92,10 +92,8 @@ int64(count)
 
 ## Related pages
 
-- [[coding-little-go-book-expect]] - shared statements and technical atoms: Expect shares source evidence from Chapter 4 - Code Organization and Interfaces / Interfaces: It also tends to promote small and focused interfaces. The standard library is full of interfaces. The io package has a handful of popular ones such as io.Reader , i ... [truncated]; Expect shares technical record from Chapter 5 - Tidbits / Strings and Byte Arrays: int64(count) (3 shared statement(s), 1 shared atom(s))
 - [[coding-little-go-book-interface]] - shared technical atoms: Interface shares technical record from Chapter 4 - Code Organization and Interfaces / Interfaces: func (l ConsoleLogger) fmt.Println(message) } (1 shared atom(s))
 - [[coding-little-go-book-string]] - shared technical atoms: String shares technical record from Chapter 5 - Tidbits / Strings and Byte Arrays: int64(count) (1 shared atom(s))
-- [[coding-little-go-book-structure]] - shared technical atoms: Structure shares technical record from Chapter 4 - Code Organization and Interfaces / Interfaces: func (l ConsoleLogger) fmt.Println(message) } (1 shared atom(s))
 - [[coding-little-go-book-pointer-versus-value]] - shared statements: Pointers versus Values shares source evidence from Chapter 3 - Maps, Arrays and Slices / Pointers versus Values: Many developers think that passing b to, or returning it from, a function is going to be more efficient. However, what's being passed/returned is a copy of the slice ... [truncated] (1 shared statement(s))
 - [[coding-little-go-book-you-continue]] - shared statements: Before You Continue shares source evidence from Chapter 4 - Code Organization and Interfaces / Before You Continue: Finally, if you're new to interfaces, it might take some time before you get a feel for them. However, the first time you see a function that expects something like ... [truncated] (1 shared statement(s))
 

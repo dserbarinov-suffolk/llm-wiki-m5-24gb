@@ -7,7 +7,7 @@ sources: raw/history_short_history_of_england.pdf
 updated: 2026-06-30
 domain: history-short-history-of-england
 category_path: concepts
-projection_coverage: topic-history-short-history-of-england-puritan@fb61289d8fc5a606db8ff63e461ea4ad
+projection_coverage: topic-history-short-history-of-england-puritan@02f75fce4e66c930de30f8622d7e42c2
 ---
 
 # Puritan
@@ -40,8 +40,6 @@ What [[history-short-history-of-england]] covers about puritan:
 ## Related pages
 
 - [[history-short-history-of-england-england]] - shared statements: England shares source evidence from A SHORT HISTORY OF ENGLAND [Pg 1] / I / INTRODUCTION: It will be very reasonably asked why I should consent, though upon a sort of challenge, to write even a popular essay in English history, who make no pretence to par ... [truncated] (1 shared statement(s))
-- [[history-short-history-of-england-english]] - shared statements: English shares source evidence from A SHORT HISTORY OF ENGLAND [Pg 1] / XIII / THE AGE OF THE PURITANS: true Puritan was equally clear that no singer or story-teller or fiddler must translate the voice of God to him into the tongues of terrestrial beauty. It is notable ... [truncated] (1 shared statement(s))
-- [[history-short-history-of-england-story]] - shared statements: Story shares source evidence from A SHORT HISTORY OF ENGLAND [Pg 1] / I / INTRODUCTION: It will be very reasonably asked why I should consent, though upon a sort of challenge, to write even a popular essay in English history, who make no pretence to par ... [truncated] (1 shared statement(s))
 
 ## Source
 

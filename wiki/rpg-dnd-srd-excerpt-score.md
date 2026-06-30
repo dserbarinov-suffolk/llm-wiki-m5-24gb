@@ -7,7 +7,7 @@ sources: raw/rpg_dnd_srd_excerpt.pdf
 updated: 2026-06-30
 domain: rpg-dnd-srd-excerpt
 category_path: concepts
-projection_coverage: topic-rpg-dnd-srd-excerpt-score@3787be15c6aaa1433b769e7b5925b70f
+projection_coverage: topic-rpg-dnd-srd-excerpt-score@047a60b8acdd0345c1f11cac658c8d71
 ---
 
 # Score
@@ -109,15 +109,7 @@ their associated scores.
 ## Related pages
 
 - [[rpg-dnd-srd-excerpt-ability-score]] - narrower topic: Ability Score shares source evidence from USING ABILITY SCORES / Ability Scores and Modifiers: Each of a creature's abilities has a score, a number that defines the magnitude of that ability. An ability score is not just a measure of innate capabilities, but a ... [truncated]; Ability Score shares technical record from Table- Ability Scores and Modiﬁers: Table- Ability Scores and Modiﬁers Score Modiﬁer 1 -5 2-3 -4 4-5 -3 6-7 -2 8-9 -1 10-11 +0 12-13 +1 14-15 +2 16-17 +3 18-19 +4 20-21 +5 22-23 +6 24-25 +7 26-27 +8 28 ... [truncated] (2 shared statement(s), 1 shared atom(s))
-- [[rpg-dnd-srd-excerpt-ability]] - shared statements and technical atoms: Ability shares source evidence from USING ABILITY SCORES: Is a character muscle-bound and insightful? Brilliant and charming? Nimble and hardy? Ability scores define these qualities-a creature's assets as well as weaknesses.; Ability shares technical record from Table- Ability Scores and Modiﬁers: Table- Ability Scores and Modiﬁers Score Modiﬁer 1 -5 2-3 -4 4-5 -3 6-7 -2 8-9 -1 10-11 +0 12-13 +1 14-15 +2 16-17 +3 18-19 +4 20-21 +5 22-23 +6 24-25 +7 26-27 +8 28 ... [truncated] (2 shared statement(s), 1 shared atom(s))
-- [[rpg-dnd-srd-excerpt-table]] - shared technical atoms: Table shares technical record from Table- Ability Scores and Modiﬁers: Table- Ability Scores and Modiﬁers Score Modiﬁer 1 -5 2-3 -4 4-5 -3 6-7 -2 8-9 -1 10-11 +0 12-13 +1 14-15 +2 16-17 +3 18-19 +4 20-21 +5 22-23 +6 24-25 +7 26-27 +8 28 ... [truncated] (1 shared atom(s))
-- [[rpg-dnd-srd-excerpt-strength]] - shared statements: Strength shares source evidence from Ability Checks / Using Each Ability / Strength: Your Strength score determines the amount of weight you can bear. The following terms define what you can lift or carry. Carrying Capacity . Your carrying capacity i ... [truncated] (3 shared statement(s))
 - [[rpg-dnd-srd-excerpt-weight]] - shared statements: Weight shares source evidence from Ability Checks / Using Each Ability / Strength: Your Strength score determines the amount of weight you can bear. The following terms define what you can lift or carry. Carrying Capacity . Your carrying capacity i ... [truncated] (3 shared statement(s))
-- [[rpg-dnd-srd-excerpt-carrying]] - shared statements: Carrying shares source evidence from Ability Checks / Using Each Ability / Strength: The rules for lifting and carrying are intentionally simple. Here is a variant if you are looking for more detailed rules for determining how a character is hindered ... [truncated] (1 shared statement(s))
-- [[rpg-dnd-srd-excerpt-constitution]] - shared statements: Constitution shares source evidence from Ability Checks / Using Each Ability / Constitution: If your Constitution modifier changes, your hit point maximum changes as well, as though you had the new modifier from 1st level. For example, if you raise your Cons ... [truncated] (1 shared statement(s))
-- [[rpg-dnd-srd-excerpt-determine]] - shared statements: Determine shares source evidence from Ability Checks / Using Each Ability / Strength: Your Strength score determines the amount of weight you can bear. The following terms define what you can lift or carry. Carrying Capacity . Your carrying capacity i ... [truncated] (1 shared statement(s))
-- [[rpg-dnd-srd-excerpt-effect]] - shared statements: Effect shares source evidence from Ability Checks / Using Each Ability / Constitution: If your Constitution modifier changes, your hit point maximum changes as well, as though you had the new modifier from 1st level. For example, if you raise your Cons ... [truncated] (1 shared statement(s))
-- [[rpg-dnd-srd-excerpt-level]] - shared statements: Level shares source evidence from Ability Checks / Using Each Ability / Constitution: If your Constitution modifier changes, your hit point maximum changes as well, as though you had the new modifier from 1st level. For example, if you raise your Cons ... [truncated] (1 shared statement(s))
 
 ## Source
 

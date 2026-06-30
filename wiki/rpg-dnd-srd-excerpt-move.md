@@ -7,7 +7,7 @@ sources: raw/rpg_dnd_srd_excerpt.pdf
 updated: 2026-06-30
 domain: rpg-dnd-srd-excerpt
 category_path: concepts
-projection_coverage: topic-rpg-dnd-srd-excerpt-move@1497f63e03d7677ea9000e49fb0dfad7
+projection_coverage: topic-rpg-dnd-srd-excerpt-move@7d5d784e2b8e39791e9efdabea3892a1
 ---
 
 # Move
@@ -61,7 +61,6 @@ What [[rpg-dnd-srd-excerpt]] covers about move:
 - [[rpg-dnd-srd-excerpt-creature]] - shared statements and technical atoms: Creature shares source evidence from Movement and Position / Moving Around Other Creatures: If you leave a hostile creature's reach during your move, you provoke an opportunity attack, as explained later in the chapter.; Creature shares technical record from Mounted Combat / Controlling a Mount: In either case, if the mount provokes an opportunity attack while you're on it, the attacker can target you or the mount. (1 shared statement(s), 1 shared atom(s))
 - [[rpg-dnd-srd-excerpt-action]] - shared technical atoms: Action shares technical record from Mounted Combat / Controlling a Mount: In either case, if the mount provokes an opportunity attack while you're on it, the attacker can target you or the mount. (1 shared atom(s))
 - [[rpg-dnd-srd-excerpt-movement]] - shared technical atoms: Movement shares technical record from Movement and Position / Being Prone: You can drop prone without using any of your speed. (1 shared atom(s))
-- [[rpg-dnd-srd-excerpt-attack]] - shared statements: Attack shares source evidence from Movement and Position / Moving Around Other Creatures: If you leave a hostile creature's reach during your move, you provoke an opportunity attack, as explained later in the chapter. (1 shared statement(s))
 
 ## Source
 

@@ -7,7 +7,7 @@ sources: raw/coding_learn_go_with_tests_excerpt.pdf
 updated: 2026-06-30
 domain: coding-learn-go-with-tests-excerpt
 category_path: concepts
-projection_coverage: topic-coding-learn-go-with-tests-excerpt-type@5e4c085629035d012487bb9f8109e5ae
+projection_coverage: topic-coding-learn-go-with-tests-excerpt-type@899b5a36fafd445877a9c85a29e1b6fb
 ---
 
 # Type
@@ -100,7 +100,6 @@ assertStrings(t, got, want)
 ## Related pages
 
 - [[coding-learn-go-with-tests-excerpt-write-test]] - shared statements and technical atoms: Write the test first shares source evidence from Maps / Write the test first: The key type is special. It can only be a comparable type because without the ability to tell if 2 keys are equal, we have no way to ensure that we are getting the c ... [truncated]; Write the test first shares technical record from Maps / Write the test first: In dictionary_test.go package main import "testing" func TestSearch(t *testing.T) { dictionary := map[string]string{"test": "this is just a test"} got := Search(dict ... [truncated] (3 shared statement(s), 1 shared atom(s))
-- [[coding-learn-go-with-tests-excerpt-value]] - shared statements and technical atoms: Value shares source evidence from Maps / Write the test first: The value type, on the other hand, can be any type you want. It can even be another map.; Value shares technical record from Maps / Write the test first: In dictionary_test.go package main import "testing" func TestSearch(t *testing.T) { dictionary := map[string]string{"test": "this is just a test"} got := Search(dict ... [truncated] (1 shared statement(s), 1 shared atom(s))
 - [[coding-learn-go-with-tests-excerpt-interface]] - shared statements: Interface shares source evidence from Wait, what?: In Go interface resolution is implicit . If the type you pass in matches what the interface is asking for, it will compile. (1 shared statement(s))
 
 ## Source

@@ -8,7 +8,7 @@ updated: 2026-06-30
 domain: coding-little-go-book
 category_path: sources/coding-little-go-book/sections
 source_id: coding_little_go_book.pdf
-projection_coverage: section-coding-little-go-book-section-chapter-3-maps-arrays-and-slices-arrays-e5036a27@6f1018d4463048ebb6f39e47e41e99fb
+projection_coverage: section-coding-little-go-book-section-chapter-3-maps-arrays-and-slices-arrays-e5036a27@9d06fea6b9e1b13f2def35faec86b0a4
 ---
 
 # Chapter 3 - Maps, Arrays and Slices / Arrays
@@ -19,7 +19,6 @@ From [[coding-little-go-book]].
 
 - [[coding-little-go-book-section-chapter-3-maps-arrays-and-slices-4800f0d1]] - broader source section: Chapter 3 - Maps, Arrays and Slices
 - [[coding-little-go-book-section-chapter-3-maps-arrays-and-slices-slices-7f1a7b05]] - next source section: Chapter 3 - Maps, Arrays and Slices / Slices
-- [[coding-little-go-book-array]] - topic hub: opens the topic page for Array
 
 ## Statements
 

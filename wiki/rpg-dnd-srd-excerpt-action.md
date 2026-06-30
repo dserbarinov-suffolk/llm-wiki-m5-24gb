@@ -7,7 +7,7 @@ sources: raw/rpg_dnd_srd_excerpt.pdf
 updated: 2026-06-30
 domain: rpg-dnd-srd-excerpt
 category_path: concepts
-projection_coverage: topic-rpg-dnd-srd-excerpt-action@5d1426414ee50ced542f6c6b523b0866
+projection_coverage: topic-rpg-dnd-srd-excerpt-action@73f55b602d6e9f2b23955106bc16a655
 ---
 
 # Action
@@ -75,12 +75,7 @@ What [[rpg-dnd-srd-excerpt]] covers about action:
 ## Related pages
 
 - [[rpg-dnd-srd-excerpt-creature]] - shared technical atoms: Creature shares technical record from Mounted Combat / Controlling a Mount: In either case, if the mount provokes an opportunity attack while you're on it, the attacker can target you or the mount. (1 shared atom(s))
-- [[rpg-dnd-srd-excerpt-decide]] - shared technical atoms: Decide shares technical record from Actions in Combat / Ready: When the trigger occurs, you can either take your reaction right after the trigger finishes or ignore the trigger. (1 shared atom(s))
 - [[rpg-dnd-srd-excerpt-move]] - shared technical atoms: Move shares technical record from Mounted Combat / Controlling a Mount: In either case, if the mount provokes an opportunity attack while you're on it, the attacker can target you or the mount. (1 shared atom(s))
-- [[rpg-dnd-srd-excerpt-attempt]] - shared statements: Attempt shares source evidence from Ability Checks: An ability check tests a character's or monster's innate talent and training in an effort to overcome a challenge. The GM calls for an ability check when a character ... [truncated] (2 shared statement(s))
-- [[rpg-dnd-srd-excerpt-ability]] - shared statements: Ability shares source evidence from Ability Checks: An ability check tests a character's or monster's innate talent and training in an effort to overcome a challenge. The GM calls for an ability check when a character ... [truncated] (1 shared statement(s))
-- [[rpg-dnd-srd-excerpt-attack]] - shared statements: Attack shares source evidence from Ability Checks: An ability check tests a character's or monster's innate talent and training in an effort to overcome a challenge. The GM calls for an ability check when a character ... [truncated] (1 shared statement(s))
-- [[rpg-dnd-srd-excerpt-character]] - shared statements: Character shares source evidence from Ability Checks: An ability check tests a character's or monster's innate talent and training in an effort to overcome a challenge. The GM calls for an ability check when a character ... [truncated] (1 shared statement(s))
 - [[rpg-dnd-srd-excerpt-check]] - shared statements: Check shares source evidence from Ability Checks: An ability check tests a character's or monster's innate talent and training in an effort to overcome a challenge. The GM calls for an ability check when a character ... [truncated] (1 shared statement(s))
 - [[rpg-dnd-srd-excerpt-combat]] - shared statements: Combat shares source evidence from Actions in Combat / Attack: The most common action to take in combat is the Attack action, whether you are swinging a sword, firing an arrow from a bow, or brawling with your fists. With this a ... [truncated] (1 shared statement(s))
 

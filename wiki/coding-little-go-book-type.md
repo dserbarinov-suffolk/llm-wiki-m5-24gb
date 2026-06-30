@@ -7,7 +7,7 @@ sources: raw/coding_little_go_book.pdf
 updated: 2026-06-30
 domain: coding-little-go-book
 category_path: concepts
-projection_coverage: topic-coding-little-go-book-type@a1439e4a4382401cc6e8a0609fedfd5b
+projection_coverage: topic-coding-little-go-book-type@3b4b0eda6ce5e7093b0614fb3a482808
 ---
 
 # Type
@@ -132,12 +132,10 @@ switch a.(type) {
 ## Related pages
 
 - [[coding-little-go-book-code]] - shared statements and technical atoms: Code shares source evidence from Chapter 2 - Structures / Functions on Structures: In the above code, we say that the type *Saiyan is the receiver of the Super method. We call Super like so:; Code shares technical record from Chapter 2 - Structures / Functions on Structures: type Saiyan struct { Name string Power int } func (s *Saiyan) Super() { s.Power += 10000 } (1 shared statement(s), 2 shared atom(s))
-- [[coding-little-go-book-system]] - shared statements and technical atoms: System shares source evidence from Introduction: I've always had a love-hate relationship when it comes to learning new languages. On the one hand, languages are so fundamental to what we do, that even small change ... [truncated]; System shares technical record from Introduction: You don't have to worry if your users have Ruby or the JVM installed, and if so, what version. (2 shared statement(s), 1 shared atom(s))
 - [[coding-little-go-book-empty-interface]] - shared statements and technical atoms: Empty Interface shares source evidence from Chapter 5 - Tidbits / Empty Interface and Conversions: In most object-oriented languages, a built-in base class, often named object , is the superclass for all other classes. Go, having no inheritance, doesn't have such ... [truncated]; Empty Interface shares technical record from Chapter 5 - Tidbits / Empty Interface and Conversions: switch a.(type) { case int: fmt.Printf("a is now an int and equals %d\n", a) case bool, string: // ... default: // ... } (1 shared statement(s), 1 shared atom(s))
 - [[coding-little-go-book-note]] - shared statements and technical atoms: Note shares source evidence from Chapter 5 - Tidbits / Empty Interface and Conversions: Note that if the underlying type is not int , the above will result in an error.; Note shares technical record from Chapter 5 - Tidbits / Empty Interface and Conversions: return a.(int) + b.(int) (1 shared statement(s), 1 shared atom(s))
 - [[coding-little-go-book-you-continue]] - shared statements and technical atoms: Before You Continue shares source evidence from Chapter 4 - Code Organization and Interfaces / Before You Continue: The way Go handles visibility of types is straightforward and effective. It's also consistent. There are a few things we haven't looked at, such as constants and glo ... [truncated]; Before You Continue shares technical record from Chapter 4 - Code Organization and Interfaces / Before You Continue: Finally, if you're new to interfaces, it might take some time before you get a feel for them. (1 shared statement(s), 1 shared atom(s))
 - [[coding-little-go-book-value]] - shared technical atoms: Value shares technical record from Chapter 5 - Tidbits / Empty Interface and Conversions: switch a.(type) { case int: fmt.Printf("a is now an int and equals %d\n", a) case bool, string: // ... default: // ... } (1 shared atom(s))
-- [[coding-little-go-book-compiler]] - shared statements: Compiler shares source evidence from Chapter 1 - The Basics / Static Typing: Being statically typed means that variables must be of a specific type (int, string, bool, []byte, etc.). This is either achieved by specifying the type when the var ... [truncated] (1 shared statement(s))
 
 ## Source
 

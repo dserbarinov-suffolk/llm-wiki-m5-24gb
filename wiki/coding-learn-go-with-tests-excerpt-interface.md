@@ -7,7 +7,7 @@ sources: raw/coding_learn_go_with_tests_excerpt.pdf
 updated: 2026-06-30
 domain: coding-learn-go-with-tests-excerpt
 category_path: concepts
-projection_coverage: topic-coding-learn-go-with-tests-excerpt-interface@5243d12061e93d2bac83994eaa38dff1
+projection_coverage: topic-coding-learn-go-with-tests-excerpt-interface@fd14ead9d3a99e41d0ef00adaabe7252
 ---
 
 # Interface
@@ -72,7 +72,6 @@ type Shape interface {
 
 ## Related pages
 
-- [[coding-learn-go-with-tests-excerpt-helper]] - shared statements: Helper shares source evidence from Decoupling: Notice how our helper does not need to concern itself with whether the shape is a Rectangle or a Circle or a Triangle . By declaring an interface, the helper is deco ... [truncated] (1 shared statement(s))
 - [[coding-learn-go-with-tests-excerpt-type]] - shared statements: Type shares source evidence from Wait, what?: In Go interface resolution is implicit . If the type you pass in matches what the interface is asking for, it will compile. (1 shared statement(s))
 
 ## Source

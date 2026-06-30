@@ -1,14 +1,14 @@
 ---
 page_id: rpg-cairn-2e-core
 page_kind: source
-summary: Claim-ledger projection (general-prose): 660 usable entries, 80 technical atoms, 170 needs-review, 175 linked page(s); write decision write-with-review-work.
+summary: Claim-ledger projection (general-prose): 660 usable entries, 80 technical atoms, 170 needs-review, 152 linked page(s); write decision write-with-review-work.
 page_family: source-manifest
 sources: raw/rpg_cairn_2e_core.pdf
 updated: 2026-06-30
 domain: rpg-cairn-2e-core
 category_path: sources
 source_id: rpg_cairn_2e_core.pdf
-projection_coverage: projection-coverage-6c2795e8de36beee@438debb94ee453b8
+projection_coverage: projection-coverage-6c2795e8de36beee@00d61ec184c25343
 ---
 
 # Cairn 2e Core Rulebook

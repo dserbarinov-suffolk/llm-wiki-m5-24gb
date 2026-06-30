@@ -7,7 +7,7 @@ sources: raw/history_dickens_england_excerpt.pdf
 updated: 2026-06-30
 domain: history-dickens-england-excerpt
 category_path: concepts
-projection_coverage: topic-history-dickens-england-excerpt-england@595609d5ce467f834cd4b1a503d905d0
+projection_coverage: topic-history-dickens-england-excerpt-england@eaab74040bc4dbd88a73de649d4aa2e3
 ---
 
 # England
@@ -31,9 +31,6 @@ What [[history-dickens-england-excerpt]] covers about england:
 
 ## Related pages
 
-- [[history-dickens-england-excerpt-brother]] - shared statements: Brother shares source evidence from A Child's History of England (Excerpt: The Norman Conquest to Edward I) / CHAPTER VII--ENGLAND UNDER HAROLD THE SECOND, AND CONQUERED BY THE NORMANS: Harold was crowned King of England on the very day of the maudlin Confessor's funeral. He had good need to be quick about it. When the news reached Norman William, h ... [truncated] (1 shared statement(s))
-- [[history-dickens-england-excerpt-duke]] - shared statements: Duke shares source evidence from A Child's History of England (Excerpt: The Norman Conquest to Edward I) / CHAPTER VII--ENGLAND UNDER HAROLD THE SECOND, AND CONQUERED BY THE NORMANS: Harold was crowned King of England on the very day of the maudlin Confessor's funeral. He had good need to be quick about it. When the news reached Norman William, h ... [truncated] (1 shared statement(s))
-- [[history-dickens-england-excerpt-english]] - shared statements: English shares source evidence from A Child's History of England (Excerpt: The Norman Conquest to Edward I) / CHAPTER VII--ENGLAND UNDER HAROLD THE SECOND, AND CONQUERED BY THE NORMANS: Harold was crowned King of England on the very day of the maudlin Confessor's funeral. He had good need to be quick about it. When the news reached Norman William, h ... [truncated] (1 shared statement(s))
 - [[history-dickens-england-excerpt-king]] - shared statements: King shares source evidence from A Child's History of England (Excerpt: The Norman Conquest to Edward I) / CHAPTER VII--ENGLAND UNDER HAROLD THE SECOND, AND CONQUERED BY THE NORMANS: Harold was crowned King of England on the very day of the maudlin Confessor's funeral. He had good need to be quick about it. When the news reached Norman William, h ... [truncated] (1 shared statement(s))
 - [[history-dickens-england-excerpt-william]] - shared statements: William shares source evidence from A Child's History of England (Excerpt: The Norman Conquest to Edward I) / CHAPTER VII--ENGLAND UNDER HAROLD THE SECOND, AND CONQUERED BY THE NORMANS: Harold was crowned King of England on the very day of the maudlin Confessor's funeral. He had good need to be quick about it. When the news reached Norman William, h ... [truncated] (1 shared statement(s))
 

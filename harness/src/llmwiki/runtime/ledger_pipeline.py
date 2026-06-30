@@ -42,7 +42,7 @@ from llmwiki.domain.ledger.section_navigation import section_links_by_topic
 from llmwiki.domain.ledger.section_pages import build_section_pages
 from llmwiki.domain.ledger.section_planning import build_section_grounded_plan
 from llmwiki.domain.ledger.source_coverage import build_source_coverage
-from llmwiki.domain.ledger.topics import build_topic_index, plan_source_topics
+from llmwiki.domain.ledger.topics import build_topic_index, plan_source_topic_result
 from llmwiki.domain.objects import Schema
 from llmwiki.domain.pages import WikiPage, slugify
 from llmwiki.pdf.document import DocumentModel
@@ -188,13 +188,15 @@ def build_source_ledger(
         source_hash=source_hash,
         projection_context=projection_context,
     )
-    topics = plan_source_topics(ledger, structure, section_plan=section_plan)
+    topic_result = plan_source_topic_result(ledger, structure, section_plan=section_plan)
+    topics = topic_result.topics
     topic_index = build_topic_index(
         ledger,
         topics,
         source_locator=source_locator,
         source_hash=source_hash,
         projection_source_support_id=support.projection_source_support_id,
+        rejected_candidates=topic_result.rejected_candidates,
     )
 
     decision = page_write_decision(ledger_report, projection_report)

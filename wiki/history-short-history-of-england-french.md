@@ -7,7 +7,7 @@ sources: raw/history_short_history_of_england.pdf
 updated: 2026-06-30
 domain: history-short-history-of-england
 category_path: concepts
-projection_coverage: topic-history-short-history-of-england-french@b1961467d460e4e3f5467c5b98ff6905
+projection_coverage: topic-history-short-history-of-england-french@de39f10a76692f3a247f75da0ac6e071
 ---
 
 # French
@@ -42,11 +42,7 @@ What [[history-short-history-of-england]] covers about french:
 ## Related pages
 
 - [[history-short-history-of-england-french-wars]] - narrower topic: French Wars shares source evidence from A SHORT HISTORY OF ENGLAND [Pg 1] / IX / NATIONALITY AND THE FRENCH WARS: That coincidence or course of events, which must often be remarked in this story, by which (for whatever reason) our most powerful kings did not somehow leave their ... [truncated] (1 shared statement(s))
-- [[history-short-history-of-england-revolution]] - shared statements: Revolution shares source evidence from A SHORT HISTORY OF ENGLAND [Pg 1] / XVI / ARISTOCRACY AND THE DISCONTENTS: When I think of these things, I have no temptation to mere grumbling at the great gentry that waged the great war of our fathers. But indeed the difficulty about it ... [truncated] (2 shared statement(s))
 - [[history-short-history-of-england-england]] - shared statements: England shares source evidence from A SHORT HISTORY OF ENGLAND [Pg 1] / IX / NATIONALITY AND THE FRENCH WARS: That coincidence or course of events, which must often be remarked in this story, by which (for whatever reason) our most powerful kings did not somehow leave their ... [truncated] (1 shared statement(s))
-- [[history-short-history-of-england-grew]] - shared statements: Grew shares source evidence from A SHORT HISTORY OF ENGLAND [Pg 1] / X / THE WAR OF THE USURPERS: Pagan slavery had slowly perished, not so much by decaying as by developing into something better. In one sense it did not die, but rather came to life. The slave-ow ... [truncated] (1 shared statement(s))
-- [[history-short-history-of-england-henry]] - shared statements: Henry shares source evidence from A SHORT HISTORY OF ENGLAND [Pg 1] / VII / THE PROBLEM OF THE PLANTAGENETS: Henry of Anjou, who brought fresh French blood into the monarchy, brought also a refreshment of the idea for which the French have always stood: the idea in the Roma ... [truncated] (1 shared statement(s))
-- [[history-short-history-of-england-monarchy]] - shared statements: Monarchy shares source evidence from A SHORT HISTORY OF ENGLAND [Pg 1] / VII / THE PROBLEM OF THE PLANTAGENETS: Henry of Anjou, who brought fresh French blood into the monarchy, brought also a refreshment of the idea for which the French have always stood: the idea in the Roma ... [truncated] (1 shared statement(s))
 
 ## Source
 

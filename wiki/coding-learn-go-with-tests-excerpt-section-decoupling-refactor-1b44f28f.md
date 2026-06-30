@@ -8,7 +8,7 @@ updated: 2026-06-30
 domain: coding-learn-go-with-tests-excerpt
 category_path: sources/coding-learn-go-with-tests-excerpt/sections
 source_id: coding_learn_go_with_tests_excerpt.pdf
-projection_coverage: section-coding-learn-go-with-tests-excerpt-section-decoupling-refactor-1b44f28f@e5fd4a6514073aa2bc1f1a362c75ed73
+projection_coverage: section-coding-learn-go-with-tests-excerpt-section-decoupling-refactor-1b44f28f@e5c1aa8e8c27113cec4ebd3003516c1e
 ---
 
 # Decoupling / Refactor
@@ -20,7 +20,6 @@ From [[coding-learn-go-with-tests-excerpt]].
 - [[coding-learn-go-with-tests-excerpt-section-decoupling-1c6183b3]] - broader source section: Decoupling
 - [[coding-learn-go-with-tests-excerpt-section-decoupling-write-enough-code-to-make-it-pass-9ad411ad]] - previous source section: Decoupling / Write enough code to make it pass
 - [[coding-learn-go-with-tests-excerpt-section-decoupling-make-sure-your-test-output-is-helpful-e3d11678]] - next source section: Decoupling / Make sure your test output is helpful
-- [[coding-learn-go-with-tests-excerpt-refactor]] - topic hub: opens the topic page for Refactor
 
 ## Statements
 

@@ -7,7 +7,7 @@ sources: raw/coding_little_go_book.pdf
 updated: 2026-06-30
 domain: coding-little-go-book
 category_path: concepts
-projection_coverage: topic-coding-little-go-book-version@405323ff63d36b857c1170a5af4b19e0
+projection_coverage: topic-coding-little-go-book-version@f36182644dcce94c836ace288768b119
 ---
 
 # Version
@@ -43,9 +43,7 @@ What [[coding-little-go-book]] covers about version:
 ## Related pages
 
 - [[coding-little-go-book-slice]] - shared statements and technical atoms: Slice shares source evidence from Chapter 3 - Maps, Arrays and Slices / Slices: The third version is a nil slice and is used in conjunction with append , when the number of elements is unknown.; Slice shares technical record from Chapter 3 - Maps, Arrays and Slices / Slices: Even when you know the size, append can be used. (1 shared statement(s), 1 shared atom(s))
-- [[coding-little-go-book-array]] - shared technical atoms: Array shares technical record from Chapter 3 - Maps, Arrays and Slices / Slices: Even when you know the size, append can be used. (1 shared atom(s))
 - [[coding-little-go-book-language]] - shared technical atoms: Language shares technical record from Chapter 3 - Maps, Arrays and Slices / Slices: Even when you know the size, append can be used. (1 shared atom(s))
-- [[coding-little-go-book-ruby]] - shared technical atoms: Ruby shares technical record from Chapter 3 - Maps, Arrays and Slices / Slices: Even when you know the size, append can be used. (1 shared atom(s))
 - [[coding-little-go-book-value]] - shared technical atoms: Value shares technical record from Chapter 3 - Maps, Arrays and Slices / Slices: Even when you know the size, append can be used. (1 shared atom(s))
 
 ## Source

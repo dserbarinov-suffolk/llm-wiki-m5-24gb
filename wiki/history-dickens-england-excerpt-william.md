@@ -7,7 +7,7 @@ sources: raw/history_dickens_england_excerpt.pdf
 updated: 2026-06-30
 domain: history-dickens-england-excerpt
 category_path: concepts
-projection_coverage: topic-history-dickens-england-excerpt-william@3e227c69a2d58900c9e29d836ca04a8f
+projection_coverage: topic-history-dickens-england-excerpt-william@653a8f74a794e9df88ded461990fc79b
 ---
 
 # William
@@ -29,16 +29,10 @@ What [[history-dickens-england-excerpt]] covers about william:
 
 ## Related pages
 
-- [[history-dickens-england-excerpt-duke]] - shared statements: Duke shares source evidence from A Child's History of England (Excerpt: The Norman Conquest to Edward I) / CHAPTER VII--ENGLAND UNDER HAROLD THE SECOND, AND CONQUERED BY THE NORMANS: Harold was crowned King of England on the very day of the maudlin Confessor's funeral. He had good need to be quick about it. When the news reached Norman William, h ... [truncated] (5 shared statement(s))
 - [[history-dickens-england-excerpt-norman]] - shared statements: Norman shares source evidence from A Child's History of England (Excerpt: The Norman Conquest to Edward I) / CHAPTER VII--ENGLAND UNDER HAROLD THE SECOND, AND CONQUERED BY THE NORMANS: As King Harold sat there at the feast, in the midst of all his company, a stir was heard at the doors; and messengers all covered with mire from riding far and fast ... [truncated] (2 shared statement(s))
 - [[history-dickens-england-excerpt-body]] - shared statements: Body shares source evidence from A Child's History of England (Excerpt: The Norman Conquest to Edward I) / CHAPTER VII--ENGLAND UNDER HAROLD THE SECOND, AND CONQUERED BY THE NORMANS: As King Harold sat there at the feast, in the midst of all his company, a stir was heard at the doors; and messengers all covered with mire from riding far and fast ... [truncated] (1 shared statement(s))
-- [[history-dickens-england-excerpt-brother]] - shared statements: Brother shares source evidence from A Child's History of England (Excerpt: The Norman Conquest to Edward I) / CHAPTER VII--ENGLAND UNDER HAROLD THE SECOND, AND CONQUERED BY THE NORMANS: Harold was crowned King of England on the very day of the maudlin Confessor's funeral. He had good need to be quick about it. When the news reached Norman William, h ... [truncated] (1 shared statement(s))
 - [[history-dickens-england-excerpt-england]] - shared statements: England shares source evidence from A Child's History of England (Excerpt: The Norman Conquest to Edward I) / CHAPTER VII--ENGLAND UNDER HAROLD THE SECOND, AND CONQUERED BY THE NORMANS: Harold was crowned King of England on the very day of the maudlin Confessor's funeral. He had good need to be quick about it. When the news reached Norman William, h ... [truncated] (1 shared statement(s))
-- [[history-dickens-england-excerpt-english]] - shared statements: English shares source evidence from A Child's History of England (Excerpt: The Norman Conquest to Edward I) / CHAPTER VII--ENGLAND UNDER HAROLD THE SECOND, AND CONQUERED BY THE NORMANS: Harold was crowned King of England on the very day of the maudlin Confessor's funeral. He had good need to be quick about it. When the news reached Norman William, h ... [truncated] (1 shared statement(s))
-- [[history-dickens-england-excerpt-fitz]] - shared statements: Fitz shares source evidence from A Child's History of England (Excerpt: The Norman Conquest to Edward I) / CHAPTER X--ENGLAND UNDER HENRY THE FIRST, CALLED FINE-SCHOLAR: At the time when Robert of Normandy was taken prisoner by his brother, Robert's little son was only five years old. This child was taken, too, and carried before the ... [truncated] (1 shared statement(s))
 - [[history-dickens-england-excerpt-king]] - shared statements: King shares source evidence from A Child's History of England (Excerpt: The Norman Conquest to Edward I) / CHAPTER VII--ENGLAND UNDER HAROLD THE SECOND, AND CONQUERED BY THE NORMANS: Harold was crowned King of England on the very day of the maudlin Confessor's funeral. He had good need to be quick about it. When the news reached Norman William, h ... [truncated] (1 shared statement(s))
-- [[history-dickens-england-excerpt-robert]] - shared statements: Robert shares source evidence from A Child's History of England (Excerpt: The Norman Conquest to Edward I) / CHAPTER X--ENGLAND UNDER HENRY THE FIRST, CALLED FINE-SCHOLAR: At the time when Robert of Normandy was taken prisoner by his brother, Robert's little son was only five years old. This child was taken, too, and carried before the ... [truncated] (1 shared statement(s))
-- [[history-dickens-england-excerpt-young]] - shared statements: Young shares source evidence from A Child's History of England (Excerpt: The Norman Conquest to Edward I) / CHAPTER VII--ENGLAND UNDER HAROLD THE SECOND, AND CONQUERED BY THE NORMANS: As King Harold sat there at the feast, in the midst of all his company, a stir was heard at the doors; and messengers all covered with mire from riding far and fast ... [truncated] (1 shared statement(s))
 
 ## Source
 

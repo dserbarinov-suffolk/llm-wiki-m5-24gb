@@ -8,7 +8,7 @@ updated: 2026-06-30
 domain: coding-learn-go-with-tests-excerpt
 category_path: sources/coding-learn-go-with-tests-excerpt/sections
 source_id: coding_learn_go_with_tests_excerpt.pdf
-projection_coverage: section-coding-learn-go-with-tests-excerpt-section-structs-methods-interfaces-refactor-d4181327@2a2561b1ddfd5058e974a99d0cb97eea
+projection_coverage: section-coding-learn-go-with-tests-excerpt-section-structs-methods-interfaces-refactor-d4181327@a415a96d73869c19984eab4ba8a307e9
 ---
 
 # Structs, methods & interfaces / Refactor
@@ -20,7 +20,6 @@ From [[coding-learn-go-with-tests-excerpt]].
 - [[coding-learn-go-with-tests-excerpt-section-structs-methods-interfaces-82e8585b]] - broader source section: Structs, methods & interfaces
 - [[coding-learn-go-with-tests-excerpt-section-structs-methods-interfaces-write-enough-code-to-make-it-pass-075da993]] - previous source section: Structs, methods & interfaces / Write enough code to make it pass
 - [[coding-learn-go-with-tests-excerpt-section-structs-methods-interfaces-write-the-test-first-5ffd50f2]] - next source section: Structs, methods & interfaces / Write the test first
-- [[coding-learn-go-with-tests-excerpt-refactor]] - topic hub: opens the topic page for Refactor
 
 ## Statements
 

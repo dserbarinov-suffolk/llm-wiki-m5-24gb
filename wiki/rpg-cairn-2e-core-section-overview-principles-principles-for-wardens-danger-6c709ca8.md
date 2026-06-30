@@ -8,7 +8,7 @@ updated: 2026-06-30
 domain: rpg-cairn-2e-core
 category_path: sources/rpg-cairn-2e-core/sections
 source_id: rpg_cairn_2e_core.pdf
-projection_coverage: section-rpg-cairn-2e-core-section-overview-principles-principles-for-wardens-danger-6c709ca8@092af229d9dbb34744754753c81ef916
+projection_coverage: section-rpg-cairn-2e-core-section-overview-principles-principles-for-wardens-danger-6c709ca8@aba086a95a8f1566dd8873acd8be9d72
 ---
 
 # Overview & Principles / Principles for Wardens / Danger
@@ -20,7 +20,6 @@ From [[rpg-cairn-2e-core]].
 - [[rpg-cairn-2e-core-section-overview-principles-principles-for-wardens-3e41b4cb]] - broader source section: Overview & Principles / Principles for Wardens
 - [[rpg-cairn-2e-core-section-overview-principles-principles-for-wardens-narrative-focus-e0dc88b6]] - previous source section: Overview & Principles / Principles for Wardens / Narrative Focus
 - [[rpg-cairn-2e-core-section-overview-principles-principles-for-wardens-treasure-1305dd73]] - next source section: Overview & Principles / Principles for Wardens / Treasure
-- [[rpg-cairn-2e-core-danger]] - topic hub: opens the topic page for Danger
 
 ## Statements
 

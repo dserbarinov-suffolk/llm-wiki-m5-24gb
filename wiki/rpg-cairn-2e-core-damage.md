@@ -7,7 +7,7 @@ sources: raw/rpg_cairn_2e_core.pdf
 updated: 2026-06-30
 domain: rpg-cairn-2e-core
 category_path: concepts
-projection_coverage: topic-rpg-cairn-2e-core-damage@1fa358c93fa9683bddb249d5405a200c
+projection_coverage: topic-rpg-cairn-2e-core-damage@17e519400e44c3edcb445eebe48975b2
 ---
 
 # Damage
@@ -88,13 +88,9 @@ Weapons
 
 ## Related pages
 
-- [[rpg-cairn-2e-core-result]] - shared statements and technical atoms: Result shares source evidence from Core Rules / Armor: Before calculating damage to HP , subtract the target's Armor value from the result of damage rolls.; Result shares technical record from Combat / Introduction: Side Initiative : With the exception of the first round (when PCs must first save DEX to secure their turn), both the PCs and their opponents take turns acting together. (2 shared statement(s), 1 shared atom(s))
-- [[rpg-cairn-2e-core-target]] - shared statements and technical atoms: Target shares source evidence from Core Rules / Armor: Before calculating damage to HP , subtract the target's Armor value from the result of damage rolls.; Target shares technical record from Combat / Introduction: Side Initiative : With the exception of the first round (when PCs must first save DEX to secure their turn), both the PCs and their opponents take turns acting together. (2 shared statement(s), 1 shared atom(s))
 - [[rpg-cairn-2e-core-attack]] - shared statements and technical atoms: Attack shares source evidence from Combat / Introduction: Attacks Automatically Hit : Combatants typically deal damage to their targets automatically, without rolling to see whether an attack "hits." When multiple attackers ... [truncated]; Attack shares technical record from Combat / Introduction: Side Initiative : With the exception of the first round (when PCs must first save DEX to secure their turn), both the PCs and their opponents take turns acting together. (1 shared statement(s), 1 shared atom(s))
-- [[rpg-cairn-2e-core-dice]] - shared statements and technical atoms: Dice shares source evidence from Combat / Introduction: Attacks Automatically Hit : Combatants typically deal damage to their targets automatically, without rolling to see whether an attack "hits." When multiple attackers ... [truncated]; Dice shares technical record from Combat / Introduction: Side Initiative : With the exception of the first round (when PCs must first save DEX to secure their turn), both the PCs and their opponents take turns acting together. (1 shared statement(s), 1 shared atom(s))
 - [[rpg-cairn-2e-core-cairn]] - shared technical atoms: Cairn shares technical record from Combat / Introduction: Side Initiative : With the exception of the first round (when PCs must first save DEX to secure their turn), both the PCs and their opponents take turns acting together. (1 shared atom(s))
 - [[rpg-cairn-2e-core-dungeon-exploration]] - shared statements: Dungeon Exploration shares source evidence from Procedures / Dungeon Exploration / Dungeon Elements: Damage from traps is taken from Attributes (usually STR or DEX ) and not from HP . Armor can reduce damage, but only if applicable (e.g. a shield would not reduce da ... [truncated] (1 shared statement(s))
-- [[rpg-cairn-2e-core-save]] - shared statements: Save shares source evidence from Core Rules / Combat / Critical Damage: weakly, grasping for life. If given aid (such as bandages), they will stabilize. If left untreated, they die within the hour. NPCs and monsters that fail a Critical ... [truncated] (1 shared statement(s))
 
 ## Source
 

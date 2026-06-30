@@ -9,7 +9,7 @@ updated: 2026-06-30
 
 ## Summary
 
-Run id: 2026-06-30-085137
+Run id: 2026-06-30-112318
 Source: raw/rpg_cairn_2e_core.pdf
 Confidence status: passed
 Blockers: 0
@@ -46,7 +46,7 @@ MissingUnitCoverage: 0
 - Status: pass
 - Findings: none
 Source texts: 1
-Source ranges: 121
+Source ranges: 118
 Evidence records: 1449
 
 ### evidence-locators

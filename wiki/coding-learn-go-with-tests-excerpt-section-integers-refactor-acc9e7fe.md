@@ -8,7 +8,7 @@ updated: 2026-06-30
 domain: coding-learn-go-with-tests-excerpt
 category_path: sources/coding-learn-go-with-tests-excerpt/sections
 source_id: coding_learn_go_with_tests_excerpt.pdf
-projection_coverage: section-coding-learn-go-with-tests-excerpt-section-integers-refactor-acc9e7fe@3aaaa0cd11acd2b8c9110bc7b430061e
+projection_coverage: section-coding-learn-go-with-tests-excerpt-section-integers-refactor-acc9e7fe@ea55a917ec08778a01f068b661fb869e
 ---
 
 # Integers / Refactor
@@ -19,7 +19,6 @@ From [[coding-learn-go-with-tests-excerpt]].
 
 - [[coding-learn-go-with-tests-excerpt-section-integers-771ce4c7]] - broader source section: Integers
 - [[coding-learn-go-with-tests-excerpt-section-integers-write-enough-code-to-make-it-pass-edef33e0]] - previous source section: Integers / Write enough code to make it pass
-- [[coding-learn-go-with-tests-excerpt-refactor]] - topic hub: opens the topic page for Refactor
 
 ## Statements
 

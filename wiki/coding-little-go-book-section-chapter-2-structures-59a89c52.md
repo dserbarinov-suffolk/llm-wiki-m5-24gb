@@ -8,7 +8,7 @@ updated: 2026-06-30
 domain: coding-little-go-book
 category_path: sources/coding-little-go-book/sections
 source_id: coding_little_go_book.pdf
-projection_coverage: section-coding-little-go-book-section-chapter-2-structures-59a89c52@ec19fdcd211f77e788eab7996d2e3242
+projection_coverage: section-coding-little-go-book-section-chapter-2-structures-59a89c52@b75f691453c76e2286dd4a4a9dc51df2
 ---
 
 # Chapter 2 - Structures
@@ -27,7 +27,6 @@ From [[coding-little-go-book]].
 - [[coding-little-go-book-section-chapter-2-structures-before-you-continue-6cf3e09c]] - narrower source section: Chapter 2 - Structures / Before You Continue
 - [[coding-little-go-book-section-chapter-1-the-basics-45e21143]] - previous source section: Chapter 1 - The Basics
 - [[coding-little-go-book-section-chapter-3-maps-arrays-and-slices-4800f0d1]] - next source section: Chapter 3 - Maps, Arrays and Slices
-- [[coding-little-go-book-structure]] - topic hub: opens the topic page for Structure
 
 ## Statements
 

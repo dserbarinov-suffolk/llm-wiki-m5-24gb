@@ -7,7 +7,7 @@ sources: raw/coding_little_go_book.pdf
 updated: 2026-06-30
 domain: coding-little-go-book
 category_path: concepts
-projection_coverage: topic-coding-little-go-book-variable@35bde10275fe8e35c255ede36bef245b
+projection_coverage: topic-coding-little-go-book-variable@bc2691468211762058eff5542615478f
 ---
 
 # Variable
@@ -170,9 +170,6 @@ func main() {
 ## Related pages
 
 - [[coding-little-go-book-declaration]] - shared statements and technical atoms: Declaration shares source evidence from Chapter 1 - The Basics / Variables and Declarations: The most explicit way to deal with variable declaration and assignment in Go is also the most verbose:; Declaration shares technical record from Chapter 1 - The Basics / Variables and Declarations: package main import ( "fmt" ) func main() { var power int power = 9000 fmt.Printf("It's over %d\n", power) } (2 shared statement(s), 2 shared atom(s))
-- [[coding-little-go-book-remember]] - shared statements and technical atoms: Remember shares source evidence from Chapter 1 - The Basics / Variables and Declarations: It's important that you remember that := is used to declare the variable as well as assign a value to it. Why? Because a variable can't be declared twice (not in the ... [truncated]; Remember shares technical record from Chapter 1 - The Basics / Variables and Declarations: func main() { power := getPower() } func getPower() int { return 9001 } (2 shared statement(s), 2 shared atom(s))
-- [[coding-little-go-book-notice]] - shared statements and technical atoms: Notice shares source evidence from Chapter 1 - The Basics / Variables and Declarations: If you read the error message closely, you'll notice that variables is plural. That's because Go lets you assign multiple variables (using either = or := ):; Notice shares technical record from Chapter 1 - The Basics / Variables and Declarations: func main() { power := 9000 fmt.Printf("It's over %d\n", power) // COMPILER ERROR: // no new variables on left side of := power := 9001 fmt.Printf("It's also over %d\n", power) } (1 shared statement(s), 2 shared atom(s))
-- [[coding-little-go-book-compiler]] - shared statements: Compiler shares source evidence from Chapter 1 - The Basics / Variables and Declarations: The compiler will complain with no new variables on left side of := . This means that when we first declare a variable, we use := but on subsequent assignment, we us ... [truncated] (1 shared statement(s))
 
 ## Source
 

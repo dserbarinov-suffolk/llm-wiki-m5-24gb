@@ -7,7 +7,7 @@ sources: raw/rpg_cairn_2e_core.pdf
 updated: 2026-06-30
 domain: rpg-cairn-2e-core
 category_path: concepts
-projection_coverage: topic-rpg-cairn-2e-core-player@c53709813daa8f2cc772d8ce71cda028
+projection_coverage: topic-rpg-cairn-2e-core-player@62f59bac5cb2737ec31d43f15481f5f8
 ---
 
 # Player
@@ -106,12 +106,9 @@ What [[rpg-cairn-2e-core]] covers about player:
 
 - [[rpg-cairn-2e-core-character]] - shared statements and technical atoms: Character shares source evidence from Character Creation / Attributes: Player Characters have just three Attributes: ( Strength (STR) , Dexterity (DEX) , and Willpower (WIL) ).; Character shares technical record from Procedures / Dungeon Exploration / Dungeon Exploration Cycle: Remember, the Die of Fate can be a useful tool whenever the Warden is in doubt! (3 shared statement(s), 2 shared atom(s))
 - [[rpg-cairn-2e-core-dungeon-exploration]] - shared statements and technical atoms: Dungeon Exploration shares source evidence from Procedures / Dungeon Exploration / The Basics: On their turn , a character can move a distance equal to their torchlight's perimeter (about 40ft), and perform one action . Players can use their action to move up ... [truncated]; Dungeon Exploration shares technical record from Procedures / Dungeon Exploration / Dungeon Exploration Cycle: Remember, the Die of Fate can be a useful tool whenever the Warden is in doubt! (3 shared statement(s), 2 shared atom(s))
-- [[rpg-cairn-2e-core-action]] - shared statements and technical atoms: Action shares source evidence from Procedures / Downtime Actions / Research: A PC investigates a question about a bit of lost or forgotten lore, the location of a lost item, the whereabouts of an important NPC, and so on. To take this action, ... [truncated]; Action shares technical record from Procedures / Dungeon Exploration / Dungeon Exploration Cycle: Remember, the Die of Fate can be a useful tool whenever the Warden is in doubt! (1 shared statement(s), 2 shared atom(s))
-- [[rpg-cairn-2e-core-danger]] - shared statements and technical atoms: Danger shares source evidence from Overview & Principles / Principles for Wardens / Danger: Telegraph serious danger to players when it is present. The more dangerous, the more obvious.; Danger shares technical record from Knowledge And Perception / Perception: Players should feel that the consequences of their character's actions are earned , and that they are deserved , even if the results aren't always in their favor. (1 shared statement(s), 1 shared atom(s))
 - [[rpg-cairn-2e-core-perception]] - shared statements and technical atoms: Perception shares source evidence from Knowledge And Perception / Perception: Players should feel that the consequences of their character's actions are earned , and that they are deserved , even if the results aren't always in their favor. Tr ... [truncated]; Perception shares technical record from Knowledge And Perception / Perception: Players should feel that the consequences of their character's actions are earned , and that they are deserved , even if the results aren't always in their favor. (1 shared statement(s), 1 shared atom(s))
 - [[rpg-cairn-2e-core-warden]] - shared technical atoms: Warden shares technical record from Procedures / Dungeon Exploration / Dungeon Exploration Cycle: Remember, the Die of Fate can be a useful tool whenever the Warden is in doubt! (3 shared atom(s))
 - [[rpg-cairn-2e-core-knowledge]] - shared technical atoms: Knowledge shares technical record from Knowledge And Perception / Perception: Players should feel that the consequences of their character's actions are earned , and that they are deserved , even if the results aren't always in their favor. (1 shared atom(s))
-- [[rpg-cairn-2e-core-question]] - shared technical atoms: Question shares technical record from Knowledge And Perception / Perception: Players should feel that the consequences of their character's actions are earned , and that they are deserved , even if the results aren't always in their favor. (1 shared atom(s))
 - [[rpg-cairn-2e-core-bond]] - shared statements: Bond shares source evidence from Bonds and Omens / Bonds: Bonds can often tie a player character to another PC, the setting, and its characters. A PC can resolve a Bond by discovering the truth behind its mysteries or by so ... [truncated] (1 shared statement(s))
 
 ## Source

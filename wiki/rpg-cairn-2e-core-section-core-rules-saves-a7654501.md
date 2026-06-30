@@ -8,7 +8,7 @@ updated: 2026-06-30
 domain: rpg-cairn-2e-core
 category_path: sources/rpg-cairn-2e-core/sections
 source_id: rpg_cairn_2e_core.pdf
-projection_coverage: section-rpg-cairn-2e-core-section-core-rules-saves-a7654501@e763e00a4f1647fbe2a0969dbeff6680
+projection_coverage: section-rpg-cairn-2e-core-section-core-rules-saves-a7654501@954bfb9c615e6b07b981dc65d8f0fcb3
 ---
 
 # Core Rules / Saves
@@ -20,7 +20,6 @@ From [[rpg-cairn-2e-core]].
 - [[rpg-cairn-2e-core-section-core-rules-b46cf581]] - broader source section: Core Rules
 - [[rpg-cairn-2e-core-section-core-rules-attributes-13122614]] - previous source section: Core Rules / Attributes
 - [[rpg-cairn-2e-core-section-core-rules-healing-recovery-2365351f]] - next source section: Core Rules / Healing & Recovery
-- [[rpg-cairn-2e-core-save]] - topic hub: opens the topic page for Save
 
 ## Statements
 

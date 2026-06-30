@@ -7,7 +7,7 @@ sources: raw/rpg_dnd_srd_excerpt.pdf
 updated: 2026-06-30
 domain: rpg-dnd-srd-excerpt
 category_path: concepts
-projection_coverage: topic-rpg-dnd-srd-excerpt-medium@b11950e9c803172f22ddb777b03b6394
+projection_coverage: topic-rpg-dnd-srd-excerpt-medium@d97ffcf3e61024559a997f8ccb9a603a
 ---
 
 # Medium
@@ -129,12 +129,6 @@ CHA
 ## Related pages
 
 - [[rpg-dnd-srd-excerpt-creature]] - shared statements and technical atoms: Creature shares source evidence from Ability Checks / Using Each Ability / Strength: Your Strength score determines the amount of weight you can bear. The following terms define what you can lift or carry. Carrying Capacity . Your carrying capacity i ... [truncated]; Creature shares technical record from Movement and Position / Creature Size / Space: If a Medium hobgoblin stands in a 5-foot wide doorway, other creatures can't get through unless the hobgoblin lets them. (5 shared statement(s), 1 shared atom(s))
-- [[rpg-dnd-srd-excerpt-armor]] - shared technical atoms: Armor shares technical record from Armor / Getting Into and Out of Armor: 1	minute 1	minute Medium	Armor 5	minutes 1	minute Heavy	Armor 10	minutes 5	minutes Shield 1	action 1	action (2 shared atom(s))
-- [[rpg-dnd-srd-excerpt-class]] - shared technical atoms: Class shares technical record from Sample Monsters / Goblin / Skeleton: Skeleton Medium	undead,	lawful	evil Armor	Class 13	(armor	scraps) Hit	Points 13	(2d8+4) Speed 30	ft. STR DEX CON INT WIS CHA 10	(+0) 14	(+2) 15	(+2) 6	(-2) 8	(-1) 5	(-3) (1 shared atom(s))
-- [[rpg-dnd-srd-excerpt-space]] - shared technical atoms: Space shares technical record from Movement and Position / Creature Size / Space: If a Medium hobgoblin stands in a 5-foot wide doorway, other creatures can't get through unless the hobgoblin lets them. (1 shared atom(s))
-- [[rpg-dnd-srd-excerpt-carrying]] - shared statements: Carrying shares source evidence from Ability Checks / Using Each Ability / Strength: Your Strength score determines the amount of weight you can bear. The following terms define what you can lift or carry. Carrying Capacity . Your carrying capacity i ... [truncated] (1 shared statement(s))
-- [[rpg-dnd-srd-excerpt-typical]] - shared statements: Typical shares source evidence from Movement and Position / Creature Size / Space: A creature's space is the area in feet that it effectively controls in combat, not an expression of its physical dimensions. A typical Medium creature isn't 5 feet w ... [truncated] (1 shared statement(s))
-- [[rpg-dnd-srd-excerpt-typically]] - shared statements: Typically shares source evidence from Making an Attack / Melee Attacks: Most creatures have a 5-foot reach and can thus attack targets within 5 feet of them when making a melee attack. Certain creatures (typically those larger than Mediu ... [truncated] (1 shared statement(s))
 
 ## Source
 

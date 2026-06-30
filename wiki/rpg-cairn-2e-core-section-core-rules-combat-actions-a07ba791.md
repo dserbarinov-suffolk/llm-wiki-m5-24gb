@@ -8,7 +8,7 @@ updated: 2026-06-30
 domain: rpg-cairn-2e-core
 category_path: sources/rpg-cairn-2e-core/sections
 source_id: rpg_cairn_2e_core.pdf
-projection_coverage: section-rpg-cairn-2e-core-section-core-rules-combat-actions-a07ba791@a6c3e20a6cfb2d08cf10737f3bff2281
+projection_coverage: section-rpg-cairn-2e-core-section-core-rules-combat-actions-a07ba791@bb0a28c1d0a1676e09d426e528b33d6a
 ---
 
 # Core Rules / Combat / Actions
@@ -20,7 +20,6 @@ From [[rpg-cairn-2e-core]].
 - [[rpg-cairn-2e-core-section-core-rules-combat-8c90fa41]] - broader source section: Core Rules / Combat
 - [[rpg-cairn-2e-core-section-core-rules-combat-rounds-6ceb3803]] - previous source section: Core Rules / Combat / Rounds
 - [[rpg-cairn-2e-core-section-core-rules-combat-attacking-damage-7c527b48]] - next source section: Core Rules / Combat / Attacking & Damage
-- [[rpg-cairn-2e-core-action]] - topic hub: opens the topic page for Action
 
 ## Statements
 

@@ -1,14 +1,14 @@
 ---
 page_id: coding-little-go-book
 page_kind: source
-summary: Claim-ledger projection (coding): 662 usable entries, 166 technical atoms, 124 needs-review, 98 linked page(s); write decision write-with-review-work.
+summary: Claim-ledger projection (coding): 662 usable entries, 166 technical atoms, 124 needs-review, 80 linked page(s); write decision write-with-review-work.
 page_family: source-manifest
 sources: raw/coding_little_go_book.pdf
 updated: 2026-06-30
 domain: coding-little-go-book
 category_path: sources
 source_id: coding_little_go_book.pdf
-projection_coverage: projection-coverage-409a5a00747b801c@4d3da4f5735e221b
+projection_coverage: projection-coverage-409a5a00747b801c@f0323f3248192924
 ---
 
 # The Little Go Book

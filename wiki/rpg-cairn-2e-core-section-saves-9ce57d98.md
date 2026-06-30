@@ -8,7 +8,7 @@ updated: 2026-06-30
 domain: rpg-cairn-2e-core
 category_path: sources/rpg-cairn-2e-core/sections
 source_id: rpg_cairn_2e_core.pdf
-projection_coverage: section-rpg-cairn-2e-core-section-saves-9ce57d98@ce6bd2cbb31172a3c78ea9c0ad5af3a3
+projection_coverage: section-rpg-cairn-2e-core-section-saves-9ce57d98@a604e2d005e617462379d2c8f0755d4a
 ---
 
 # Saves
@@ -24,7 +24,6 @@ From [[rpg-cairn-2e-core]].
 - [[rpg-cairn-2e-core-section-saves-aiding-an-ally-058b6835]] - narrower source section: Saves / Aiding an Ally
 - [[rpg-cairn-2e-core-section-combat-528c27b9]] - previous source section: Combat
 - [[rpg-cairn-2e-core-section-knowledge-and-perception-545a6122]] - next source section: Knowledge And Perception
-- [[rpg-cairn-2e-core-save]] - topic hub: opens the topic page for Save
 
 ## Statements by subsection
 

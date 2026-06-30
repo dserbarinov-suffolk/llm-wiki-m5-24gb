@@ -11,11 +11,13 @@ from __future__ import annotations
 from llmwiki.domain.ledger.ledger import ClaimLedger
 from llmwiki.domain.ledger.topic_models import (
     PersistedTopic,
+    RejectedTopicCandidate,
     SourceTopic,
     TopicIndex,
+    TopicPlanningResult,
     TopicRepresentative,
 )
-from llmwiki.domain.ledger.topic_planner import plan_source_topics
+from llmwiki.domain.ledger.topic_planner import plan_source_topic_result, plan_source_topics
 
 
 def build_topic_index(
@@ -25,6 +27,7 @@ def build_topic_index(
     source_locator: str,
     source_hash: str,
     projection_source_support_id: str,
+    rejected_candidates: tuple[RejectedTopicCandidate, ...] = (),
 ) -> TopicIndex:
     persisted = tuple(
         PersistedTopic(
@@ -36,10 +39,18 @@ def build_topic_index(
             entry_ids=topic.entry_ids,
             atom_ids=topic.atom_ids,
             representative=_representative(ledger, topic),
+            candidate_origin=topic.candidate_origin,
+            admission_reason=topic.admission_reason,
         )
         for topic in topics
     )
-    return TopicIndex(source_locator, source_hash, projection_source_support_id, persisted)
+    return TopicIndex(
+        source_locator,
+        source_hash,
+        projection_source_support_id,
+        persisted,
+        rejected_candidates,
+    )
 
 
 def _representative(ledger: ClaimLedger, topic: SourceTopic) -> TopicRepresentative:
@@ -78,9 +89,12 @@ def _representative(ledger: ClaimLedger, topic: SourceTopic) -> TopicRepresentat
 
 __all__ = (
     "PersistedTopic",
+    "RejectedTopicCandidate",
     "SourceTopic",
     "TopicIndex",
+    "TopicPlanningResult",
     "TopicRepresentative",
     "build_topic_index",
+    "plan_source_topic_result",
     "plan_source_topics",
 )

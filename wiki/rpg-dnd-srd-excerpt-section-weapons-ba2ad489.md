@@ -8,7 +8,7 @@ updated: 2026-06-30
 domain: rpg-dnd-srd-excerpt
 category_path: sources/rpg-dnd-srd-excerpt/sections
 source_id: rpg_dnd_srd_excerpt.pdf
-projection_coverage: section-rpg-dnd-srd-excerpt-section-weapons-ba2ad489@a2a4cbdb6f3bce9df050f8cb1efd0d6f
+projection_coverage: section-rpg-dnd-srd-excerpt-section-weapons-ba2ad489@a035c94b68d9ea55c0c8d285649e1f4f
 ---
 
 # Weapons
@@ -21,7 +21,6 @@ From [[rpg-dnd-srd-excerpt]].
 - [[rpg-dnd-srd-excerpt-section-weapons-weapon-properties-52847cbe]] - narrower source section: Weapons / Weapon Properties
 - [[rpg-dnd-srd-excerpt-section-armor-047bdd0c]] - previous source section: Armor
 - [[rpg-dnd-srd-excerpt-section-conditions-faf6a13e]] - next source section: Conditions
-- [[rpg-dnd-srd-excerpt-weapon]] - topic hub: opens the topic page for Weapon
 
 ## Statements
 

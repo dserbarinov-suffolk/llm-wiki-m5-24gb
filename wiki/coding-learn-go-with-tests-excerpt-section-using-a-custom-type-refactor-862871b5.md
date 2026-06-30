@@ -8,7 +8,7 @@ updated: 2026-06-30
 domain: coding-learn-go-with-tests-excerpt
 category_path: sources/coding-learn-go-with-tests-excerpt/sections
 source_id: coding_learn_go_with_tests_excerpt.pdf
-projection_coverage: section-coding-learn-go-with-tests-excerpt-section-using-a-custom-type-refactor-862871b5@163ef666a31c89ae6be12930747445ac
+projection_coverage: section-coding-learn-go-with-tests-excerpt-section-using-a-custom-type-refactor-862871b5@fd77e2026ba3a8d68ea361241419bdcf
 ---
 
 # Using a custom type / Refactor
@@ -20,7 +20,6 @@ From [[coding-learn-go-with-tests-excerpt]].
 - [[coding-learn-go-with-tests-excerpt-section-using-a-custom-type-3f6de7c1]] - broader source section: Using a custom type
 - [[coding-learn-go-with-tests-excerpt-section-using-a-custom-type-write-enough-code-to-make-it-pass-0fbec14c]] - previous source section: Using a custom type / Write enough code to make it pass
 - [[coding-learn-go-with-tests-excerpt-section-using-a-custom-type-write-the-test-first-d5397d92]] - next source section: Using a custom type / Write the test first
-- [[coding-learn-go-with-tests-excerpt-refactor]] - topic hub: opens the topic page for Refactor
 
 ## Statements
 

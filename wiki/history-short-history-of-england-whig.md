@@ -7,7 +7,7 @@ sources: raw/history_short_history_of_england.pdf
 updated: 2026-06-30
 domain: history-short-history-of-england
 category_path: concepts
-projection_coverage: topic-history-short-history-of-england-whig@6accff96bc892fae5fc776878bc50730
+projection_coverage: topic-history-short-history-of-england-whig@91a20e02b24c3672d4e45723cc4c5167
 ---
 
 # Whig
@@ -35,12 +35,7 @@ What [[history-short-history-of-england]] covers about whig:
 
 ## Related pages
 
-- [[history-short-history-of-england-aristocrat]] - shared statements: Aristocrat shares source evidence from A SHORT HISTORY OF ENGLAND [Pg 1] / XV / THE WAR WITH THE GREAT REPUBLICS: It is one of the many quaint perversities of the English to pretend to be bad speakers; but in fact the most English eighteenth-century epoch blazed with brilliant s ... [truncated] (2 shared statement(s))
-- [[history-short-history-of-england-century]] - shared statements: Century shares source evidence from A SHORT HISTORY OF ENGLAND [Pg 1] / XIV / THE TRIUMPH OF THE WHIGS: Churchill is a type of the extraordinary time in this, that he combines the presence of glory with the absence of honour. When the new aristocracy had become normal ... [truncated] (1 shared statement(s))
-- [[history-short-history-of-england-chatham]] - shared statements: Chatham shares source evidence from A SHORT HISTORY OF ENGLAND [Pg 1] / XV / THE WAR WITH THE GREAT REPUBLICS: Great injustice is done to the English aristocratic government of the time through a failure to realize this fundamental difference, especially in the case of Americ ... [truncated] (1 shared statement(s))
-- [[history-short-history-of-england-eighteenth]] - shared statements: Eighteenth shares source evidence from A SHORT HISTORY OF ENGLAND [Pg 1] / XIV / THE TRIUMPH OF THE WHIGS: Churchill is a type of the extraordinary time in this, that he combines the presence of glory with the absence of honour. When the new aristocracy had become normal ... [truncated] (1 shared statement(s))
 - [[history-short-history-of-england-short]] - shared statements: Short shares source evidence from A SHORT HISTORY OF ENGLAND [Pg 1] / XIII / THE AGE OF THE PURITANS: case for their enemies is little realized; for it is connected with what our insular history most neglects, the condition of the Continent. It should be remembered t ... [truncated] (1 shared statement(s))
-- [[history-short-history-of-england-state]] - shared statements: State shares source evidence from A SHORT HISTORY OF ENGLAND [Pg 1] / XIII / THE AGE OF THE PURITANS: case for their enemies is little realized; for it is connected with what our insular history most neglects, the condition of the Continent. It should be remembered t ... [truncated] (1 shared statement(s))
 - [[history-short-history-of-england-word]] - shared statements: Word shares source evidence from A SHORT HISTORY OF ENGLAND [Pg 1] / XV / THE WAR WITH THE GREAT REPUBLICS: seen American democracy, he would have been as much appalled by it as he was by French democracy, and would always have been by any democracy. In a word, the Whigs w ... [truncated] (1 shared statement(s))
 
 ## Source

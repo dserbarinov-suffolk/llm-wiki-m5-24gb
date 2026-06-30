@@ -1,14 +1,14 @@
 ---
 page_id: history-dickens-england-excerpt
 page_kind: source
-summary: Claim-ledger projection (general-prose): 704 usable entries, 17 technical atoms, 41 needs-review, 63 linked page(s); write decision write-with-review-work.
+summary: Claim-ledger projection (general-prose): 704 usable entries, 17 technical atoms, 41 needs-review, 29 linked page(s); write decision write-with-review-work.
 page_family: source-manifest
 sources: raw/history_dickens_england_excerpt.pdf
 updated: 2026-06-30
 domain: history-dickens-england-excerpt
 category_path: sources
 source_id: history_dickens_england_excerpt.pdf
-projection_coverage: projection-coverage-bcf472c101f500b1@3886776a23d03de2
+projection_coverage: projection-coverage-bcf472c101f500b1@1ac4339aada7d4d4
 ---
 
 # A Child's History of England (Excerpt: The Norman Conquest to Edward I)

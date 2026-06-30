@@ -15,6 +15,8 @@ class SourceTopic:
     atom_ids: tuple[str, ...]
     from_heading: bool
     salience: float
+    candidate_origin: str = ""
+    admission_reason: str = ""
 
 
 @dataclass(frozen=True)
@@ -42,6 +44,25 @@ class PersistedTopic:
     entry_ids: tuple[str, ...]
     atom_ids: tuple[str, ...]
     representative: TopicRepresentative
+    candidate_origin: str = ""
+    admission_reason: str = ""
+
+
+@dataclass(frozen=True)
+class RejectedTopicCandidate:
+    topic_key: str
+    label: str
+    candidate_origin: str
+    rejection_reason: str
+    match_terms: tuple[str, ...]
+    entry_count: int
+    atom_count: int
+
+
+@dataclass(frozen=True)
+class TopicPlanningResult:
+    topics: tuple[SourceTopic, ...]
+    rejected_candidates: tuple[RejectedTopicCandidate, ...]
 
 
 @dataclass(frozen=True)
@@ -52,3 +73,4 @@ class TopicIndex:
     source_hash: str
     projection_source_support_id: str
     topics: tuple[PersistedTopic, ...]
+    rejected_candidates: tuple[RejectedTopicCandidate, ...] = ()

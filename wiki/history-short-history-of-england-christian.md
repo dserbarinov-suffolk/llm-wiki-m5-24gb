@@ -7,7 +7,7 @@ sources: raw/history_short_history_of_england.pdf
 updated: 2026-06-30
 domain: history-short-history-of-england
 category_path: concepts
-projection_coverage: topic-history-short-history-of-england-christian@2d09911fefdef11e16ec3433344b0a93
+projection_coverage: topic-history-short-history-of-england-christian@8f33f03959aeeb2997d2371517abdb3f
 ---
 
 # Christian
@@ -43,10 +43,7 @@ What [[history-short-history-of-england]] covers about christian:
 
 ## Related pages
 
-- [[history-short-history-of-england-ages]] - shared statements: Ages shares source evidence from A SHORT HISTORY OF ENGLAND [Pg 1] / VIII / THE MEANING OF MERRY ENGLAND: possibly a solitary instance in history of men thus falling upwards; at least of outcasts falling on their feet or vagrants straying into the promised land. Such a t ... [truncated] (1 shared statement(s))
-- [[history-short-history-of-england-beginning]] - shared statements: Beginning shares source evidence from A SHORT HISTORY OF ENGLAND [Pg 1] / VIII / THE MEANING OF MERRY ENGLAND: possibly a solitary instance in history of men thus falling upwards; at least of outcasts falling on their feet or vagrants straying into the promised land. Such a t ... [truncated] (1 shared statement(s))
-- [[history-short-history-of-england-church]] - shared statements: Church shares source evidence from A SHORT HISTORY OF ENGLAND [Pg 1] / IV / THE DEFEAT OF THE BARBARIANS: or wrongly, the Christian Church had from the first dealt with these visions as being special spiritual adventures which were to the adventurous. She reconciled them ... [truncated] (1 shared statement(s))
-- [[history-short-history-of-england-civilization]] - shared statements: Civilization shares source evidence from A SHORT HISTORY OF ENGLAND [Pg 1] / VI / THE AGE OF THE CRUSADES: It was an element in this sublime and yet sinister simplicity of Islam that it knew no boundaries. Its very home was homeless. For it was born in a sandy waste among ... [truncated] (1 shared statement(s))
+- [[history-short-history-of-england-sometimes-a-christian]] - shared statements: Sometimes A Christian shares source evidence from A SHORT HISTORY OF ENGLAND [Pg 1] / IX / NATIONALITY AND THE FRENCH WARS: If any one wishes to know what we mean when we say that Christendom was and is one culture, or one civilization, there is a rough but plain way of putting it. It is ... [truncated] (2 shared statement(s))
 - [[history-short-history-of-england-england]] - shared statements: England shares source evidence from A SHORT HISTORY OF ENGLAND [Pg 1] / VI / THE AGE OF THE CRUSADES: That transition and that symbol stand for the Crusades. In their romance and reality they were the first English experience of learning, not only from the external, ... [truncated] (1 shared statement(s))
 
 ## Source

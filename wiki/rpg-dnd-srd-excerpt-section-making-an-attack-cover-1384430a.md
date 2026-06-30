@@ -8,7 +8,7 @@ updated: 2026-06-30
 domain: rpg-dnd-srd-excerpt
 category_path: sources/rpg-dnd-srd-excerpt/sections
 source_id: rpg_dnd_srd_excerpt.pdf
-projection_coverage: section-rpg-dnd-srd-excerpt-section-making-an-attack-cover-1384430a@5e4b531dbc6a1d65b7c5247f11c9eef7
+projection_coverage: section-rpg-dnd-srd-excerpt-section-making-an-attack-cover-1384430a@b55e4b9a13f48273dc58b82aff118430
 ---
 
 # Making an Attack / Cover
@@ -20,7 +20,6 @@ From [[rpg-dnd-srd-excerpt]].
 - [[rpg-dnd-srd-excerpt-section-making-an-attack-c6ab4f78]] - broader source section: Making an Attack
 - [[rpg-dnd-srd-excerpt-section-making-an-attack-melee-attacks-03adb000]] - previous source section: Making an Attack / Melee Attacks
 - [[rpg-dnd-srd-excerpt-section-making-an-attack-damage-and-healing-b32dd12e]] - next source section: Making an Attack / Damage and Healing
-- [[rpg-dnd-srd-excerpt-cover]] - topic hub: opens the topic page for Cover
 
 ## Statements
 

@@ -7,7 +7,7 @@ sources: raw/coding_little_go_book.pdf
 updated: 2026-06-30
 domain: coding-little-go-book
 category_path: concepts
-projection_coverage: topic-coding-little-go-book-declaration@5ac3b1e4017b6cdaa4652d66bc93d75c
+projection_coverage: topic-coding-little-go-book-declaration@8800912c800aff04a662842eb5b6cbc2
 ---
 
 # Declaration
@@ -79,7 +79,6 @@ goku := Saiyan{"Goku", 9000}
 ## Related pages
 
 - [[coding-little-go-book-variable]] - shared statements and technical atoms: Variable shares source evidence from Chapter 1 - The Basics / Variables and Declarations: The most explicit way to deal with variable declaration and assignment in Go is also the most verbose:; Variable shares technical record from Chapter 1 - The Basics / Variables and Declarations: package main import ( "fmt" ) func main() { var power int power = 9000 fmt.Printf("It's over %d\n", power) } (2 shared statement(s), 2 shared atom(s))
-- [[coding-little-go-book-structure]] - shared technical atoms: Structure shares technical record from Chapter 2 - Structures / Declarations and Initializations: goku := Saiyan{"Goku", 9000} (1 shared atom(s))
 - [[coding-little-go-book-value]] - shared technical atoms: Value shares technical record from Chapter 2 - Structures / Declarations and Initializations: goku := Saiyan{"Goku", 9000} (1 shared atom(s))
 
 ## Source

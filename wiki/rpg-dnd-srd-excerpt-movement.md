@@ -7,7 +7,7 @@ sources: raw/rpg_dnd_srd_excerpt.pdf
 updated: 2026-06-30
 domain: rpg-dnd-srd-excerpt
 category_path: concepts
-projection_coverage: topic-rpg-dnd-srd-excerpt-movement@8c2a8a04c2352436edb10beae0f6de79
+projection_coverage: topic-rpg-dnd-srd-excerpt-movement@7f1b465de540a94f13592ca98d6b3a25
 ---
 
 # Movement
@@ -55,7 +55,6 @@ What [[rpg-dnd-srd-excerpt]] covers about movement:
 ## Related pages
 
 - [[rpg-dnd-srd-excerpt-move]] - shared technical atoms: Move shares technical record from Movement and Position / Being Prone: You can drop prone without using any of your speed. (1 shared atom(s))
-- [[rpg-dnd-srd-excerpt-character]] - shared statements: Character shares source evidence from Movement and Position: In combat, characters and monsters are in constant motion, often using movement and position to gain the upper hand. On your turn, you can move a distance up to your ... [truncated] (1 shared statement(s))
 - [[rpg-dnd-srd-excerpt-combat]] - shared statements: Combat shares source evidence from Movement and Position: In combat, characters and monsters are in constant motion, often using movement and position to gain the upper hand. On your turn, you can move a distance up to your ... [truncated] (1 shared statement(s))
 - [[rpg-dnd-srd-excerpt-position]] - shared statements: Position shares source evidence from Movement and Position: In combat, characters and monsters are in constant motion, often using movement and position to gain the upper hand. On your turn, you can move a distance up to your ... [truncated] (1 shared statement(s))
 

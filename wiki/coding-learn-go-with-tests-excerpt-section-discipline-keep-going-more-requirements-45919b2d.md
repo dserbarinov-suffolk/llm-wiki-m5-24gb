@@ -8,7 +8,7 @@ updated: 2026-06-30
 domain: coding-learn-go-with-tests-excerpt
 category_path: sources/coding-learn-go-with-tests-excerpt/sections
 source_id: coding_learn_go_with_tests_excerpt.pdf
-projection_coverage: section-coding-learn-go-with-tests-excerpt-section-discipline-keep-going-more-requirements-45919b2d@61d36c1a72a364ae3235cc9018d1eaa7
+projection_coverage: section-coding-learn-go-with-tests-excerpt-section-discipline-keep-going-more-requirements-45919b2d@40c34223f2cf8413712918d7474e8b0d
 ---
 
 # Discipline / Keep going! More requirements
@@ -18,7 +18,6 @@ From [[coding-learn-go-with-tests-excerpt]].
 ## Related pages
 
 - [[coding-learn-go-with-tests-excerpt-section-discipline-5cc3ebe0]] - broader source section: Discipline
-- [[coding-learn-go-with-tests-excerpt-requirement]] - topic hub: opens the topic page for Requirement
 
 ## Statements
 

@@ -7,7 +7,7 @@ sources: raw/coding_learn_go_with_tests_excerpt.pdf
 updated: 2026-06-30
 domain: coding-learn-go-with-tests-excerpt
 category_path: concepts
-projection_coverage: topic-coding-learn-go-with-tests-excerpt-note@6fa8bfe4abb1ff00768bbd61d0314073
+projection_coverage: topic-coding-learn-go-with-tests-excerpt-note@6636470cf1d12242cad04f2af74dfbd0
 ---
 
 # Note
@@ -74,10 +74,6 @@ be compared to nil)
 
 ## Related pages
 
-- [[coding-learn-go-with-tests-excerpt-function]] - shared statements and technical atoms: Function shares source evidence from Arrays and their type / Write the minimal amount of code for the test to run and check the failing test output: From Go 1.21, slices standard package is available, which has slices.Equal function to do a simple shallow compare on slices, where you don't need to worry about the ... [truncated]; Function shares technical record from Arrays and their type / Write the minimal amount of code for the test to run and check the failing test output: ./sum_test.go:26:9: invalid operation: got != want (slice can only be compared to nil) (1 shared statement(s), 1 shared atom(s))
-- [[coding-learn-go-with-tests-excerpt-standard]] - shared technical atoms: Standard shares technical record from Benchmarking: const repeatCount = 5 func Repeat(character string) string { var repeated strings.Builder for i := 0; i < repeatCount; i++ { repeated.WriteString(character) } return ... [truncated] (2 shared atom(s))
-- [[coding-learn-go-with-tests-excerpt-library]] - shared technical atoms: Library shares technical record from Benchmarking: const repeatCount = 5 func Repeat(character string) string { var repeated strings.Builder for i := 0; i < repeatCount; i++ { repeated.WriteString(character) } return ... [truncated] (1 shared atom(s))
-- [[coding-learn-go-with-tests-excerpt-package]] - shared technical atoms: Package shares technical record from Arrays and their type / Write the minimal amount of code for the test to run and check the failing test output: ./sum_test.go:26:9: invalid operation: got != want (slice can only be compared to nil) (1 shared atom(s))
 - [[coding-learn-go-with-tests-excerpt-test]] - shared statements: Test shares source evidence from Arrays and their type / Try and run the test: Oh no! It's important to note that while the test has compiled , it has a runtime error . (1 shared statement(s))
 - [[coding-learn-go-with-tests-excerpt-try-run-test]] - shared statements: Try and run the test shares source evidence from Arrays and their type / Try and run the test: Oh no! It's important to note that while the test has compiled , it has a runtime error . (1 shared statement(s))
 - [[coding-learn-go-with-tests-excerpt-write-test]] - shared statements: Write the test first shares source evidence from Integers / Write the test first: Also note that we are no longer using the main package, instead we've defined a package named integers , as the name suggests this will group functions for working w ... [truncated] (1 shared statement(s))

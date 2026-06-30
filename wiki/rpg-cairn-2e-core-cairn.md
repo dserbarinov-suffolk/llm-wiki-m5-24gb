@@ -7,7 +7,7 @@ sources: raw/rpg_cairn_2e_core.pdf
 updated: 2026-06-30
 domain: rpg-cairn-2e-core
 category_path: concepts
-projection_coverage: topic-rpg-cairn-2e-core-cairn@636ea175730f7f9609714482eb1bc7d0
+projection_coverage: topic-rpg-cairn-2e-core-cairn@77c045ad4cd74651dd6f078adcc74089
 ---
 
 # Cairn
@@ -56,9 +56,6 @@ What [[rpg-cairn-2e-core]] covers about cairn:
 
 - [[rpg-cairn-2e-core-attack]] - shared technical atoms: Attack shares technical record from Combat / Introduction: Side Initiative : With the exception of the first round (when PCs must first save DEX to secure their turn), both the PCs and their opponents take turns acting together. (1 shared atom(s))
 - [[rpg-cairn-2e-core-damage]] - shared technical atoms: Damage shares technical record from Combat / Introduction: Side Initiative : With the exception of the first round (when PCs must first save DEX to secure their turn), both the PCs and their opponents take turns acting together. (1 shared atom(s))
-- [[rpg-cairn-2e-core-dice]] - shared technical atoms: Dice shares technical record from Combat / Introduction: Side Initiative : With the exception of the first round (when PCs must first save DEX to secure their turn), both the PCs and their opponents take turns acting together. (1 shared atom(s))
-- [[rpg-cairn-2e-core-result]] - shared technical atoms: Result shares technical record from Combat / Introduction: Side Initiative : With the exception of the first round (when PCs must first save DEX to secure their turn), both the PCs and their opponents take turns acting together. (1 shared atom(s))
-- [[rpg-cairn-2e-core-target]] - shared technical atoms: Target shares technical record from Combat / Introduction: Side Initiative : With the exception of the first round (when PCs must first save DEX to secure their turn), both the PCs and their opponents take turns acting together. (1 shared atom(s))
 - [[rpg-cairn-2e-core-travel]] - shared statements: Travel shares source evidence from Procedures / Wilderness Exploration / Travel Duration: Travel time in Cairn is counted in watches, divided into three eighthour segments per day. However, as most parties elect to spend the third watch of the day resting ... [truncated] (2 shared statement(s))
 
 ## Source

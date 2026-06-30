@@ -8,7 +8,7 @@ updated: 2026-06-30
 domain: rpg-dnd-srd-excerpt
 category_path: sources/rpg-dnd-srd-excerpt/sections
 source_id: rpg_dnd_srd_excerpt.pdf
-projection_coverage: section-rpg-dnd-srd-excerpt-section-ability-checks-using-each-ability-71f6f002@f93a40abd035cecf404195089584cf19
+projection_coverage: section-rpg-dnd-srd-excerpt-section-ability-checks-using-each-ability-71f6f002@4c8d57da5c9feb7e05b24ddd56f61318
 ---
 
 # Ability Checks / Using Each Ability
@@ -25,7 +25,6 @@ From [[rpg-dnd-srd-excerpt]].
 - [[rpg-dnd-srd-excerpt-section-ability-checks-using-each-ability-wisdom-013221f0]] - narrower source section: Ability Checks / Using Each Ability / Wisdom
 - [[rpg-dnd-srd-excerpt-section-ability-checks-using-each-ability-charisma-1389b0a2]] - narrower source section: Ability Checks / Using Each Ability / Charisma
 - [[rpg-dnd-srd-excerpt-section-ability-checks-working-together-86eab60d]] - previous source section: Ability Checks / Working Together
-- [[rpg-dnd-srd-excerpt-ability]] - topic hub: opens the topic page for Ability
 
 ## Statements
 

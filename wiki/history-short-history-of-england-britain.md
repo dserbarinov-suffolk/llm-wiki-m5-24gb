@@ -7,7 +7,7 @@ sources: raw/history_short_history_of_england.pdf
 updated: 2026-06-30
 domain: history-short-history-of-england
 category_path: concepts
-projection_coverage: topic-history-short-history-of-england-britain@3392f213c0cc07e1e9e60fd232d60884
+projection_coverage: topic-history-short-history-of-england-britain@7015848e963631ce1208fc404640ce73
 ---
 
 # Britain
@@ -32,13 +32,6 @@ What [[history-short-history-of-england]] covers about britain:
 
 - The orthodox modern historian, notably Green, remarks on the singularity of Britain in being alone of all Roman provinces wholly cleared and repeopled by a Germanic race. He does not entertain, as an escape from the singularity of this event, the possibility that it never happened. In the same spirit he deals with the little that can be quoted of the Teutonic society. His ideal picture of it is completed in small touches which even an amateur can detect as dubious. Thus he will touch on the Teuton with a phrase like "the basis of their society was the free man"; and on the Roman with a phrase like "the mines, if worked by forced labour, must have been a source of endless oppression." The simple fact being that the Roman and the Teuton both had slaves, he treats the Teuton free man as the only thing to be considered, not only then but now; and then goes out of his way to say that if the Roman treated his slaves badly, the slaves were badly treated. He expresses a "strange disappointment" that Gildas, the only British chronicler, does not describe the great Teutonic system. In the opinion of Gildas, a modification of that of Gregory, it was a case of non Angli sed diaboli . The modern Teutonist is "disappointed" that the contemporary authority saw nothing in his Teutons except wolves, dogs, and whelps from the kennel of barbarism. But it is at least faintly tenable that there was nothing else to be seen. _(history_short_history_of_england.pdf (source-range-46d51aaf-00084))_
 
-
-## Related pages
-
-- [[history-short-history-of-england-became]] - shared statements: Became shares source evidence from A SHORT HISTORY OF ENGLAND [Pg 1] / I / THE PROVINCE OF BRITAIN: Britain was directly Roman for fully four hundred years; longer than she has been Protestant, and very much longer than she has been industrial. What was meant by be ... [truncated] (1 shared statement(s))
-- [[history-short-history-of-england-empire]] - shared statements: Empire shares source evidence from A SHORT HISTORY OF ENGLAND [Pg 1] / I / THE PROVINCE OF BRITAIN: Britain was directly Roman for fully four hundred years; longer than she has been Protestant, and very much longer than she has been industrial. What was meant by be ... [truncated] (1 shared statement(s))
-- [[history-short-history-of-england-roman]] - shared statements: Roman shares source evidence from A SHORT HISTORY OF ENGLAND [Pg 1] / I / THE PROVINCE OF BRITAIN: Britain was directly Roman for fully four hundred years; longer than she has been Protestant, and very much longer than she has been industrial. What was meant by be ... [truncated] (1 shared statement(s))
-- [[history-short-history-of-england-rome]] - shared statements: Rome shares source evidence from A SHORT HISTORY OF ENGLAND [Pg 1] / I / THE PROVINCE OF BRITAIN: Britain was directly Roman for fully four hundred years; longer than she has been Protestant, and very much longer than she has been industrial. What was meant by be ... [truncated] (1 shared statement(s))
 
 ## Source
 

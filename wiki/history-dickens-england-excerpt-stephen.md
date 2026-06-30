@@ -7,7 +7,7 @@ sources: raw/history_dickens_england_excerpt.pdf
 updated: 2026-06-30
 domain: history-dickens-england-excerpt
 category_path: concepts
-projection_coverage: topic-history-dickens-england-excerpt-stephen@378a0c48cdd0ec1e91d3097d21f51c5f
+projection_coverage: topic-history-dickens-england-excerpt-stephen@dd4424e76ba4a21737e85260666192b9
 ---
 
 # Stephen
@@ -24,12 +24,7 @@ What [[history-dickens-england-excerpt]] covers about stephen:
 ## Related pages
 
 - [[history-dickens-england-excerpt-king]] - shared statements: King shares source evidence from A Child's History of England (Excerpt: The Norman Conquest to Edward I) / CHAPTER XI--ENGLAND UNDER MATILDA AND STEPHEN: The King was no sooner dead than all the plans and schemes he had laboured at so long, and lied so much for, crumbled away like a hollow heap of sand. Stephen, whom ... [truncated] (2 shared statement(s))
-- [[history-dickens-england-excerpt-london]] - shared statements: London shares source evidence from A Child's History of England (Excerpt: The Norman Conquest to Edward I) / CHAPTER XI--ENGLAND UNDER MATILDA AND STEPHEN: The King was no sooner dead than all the plans and schemes he had laboured at so long, and lied so much for, crumbled away like a hollow heap of sand. Stephen, whom ... [truncated] (2 shared statement(s))
-- [[history-dickens-england-excerpt-people]] - shared statements: People shares source evidence from A Child's History of England (Excerpt: The Norman Conquest to Edward I) / CHAPTER XI--ENGLAND UNDER MATILDA AND STEPHEN: The King was no sooner dead than all the plans and schemes he had laboured at so long, and lied so much for, crumbled away like a hollow heap of sand. Stephen, whom ... [truncated] (2 shared statement(s))
-- [[history-dickens-england-excerpt-brother]] - shared statements: Brother shares source evidence from A Child's History of England (Excerpt: The Norman Conquest to Edward I) / CHAPTER XI--ENGLAND UNDER MATILDA AND STEPHEN: The King was no sooner dead than all the plans and schemes he had laboured at so long, and lied so much for, crumbled away like a hollow heap of sand. Stephen, whom ... [truncated] (1 shared statement(s))
-- [[history-dickens-england-excerpt-french]] - shared statements: French shares source evidence from A Child's History of England (Excerpt: The Norman Conquest to Edward I) / CHAPTER XI--ENGLAND UNDER MATILDA AND STEPHEN: The King was no sooner dead than all the plans and schemes he had laboured at so long, and lied so much for, crumbled away like a hollow heap of sand. Stephen, whom ... [truncated] (1 shared statement(s))
 - [[history-dickens-england-excerpt-henry]] - shared statements: Henry shares source evidence from A Child's History of England (Excerpt: The Norman Conquest to Edward I) / CHAPTER XI--ENGLAND UNDER MATILDA AND STEPHEN: The King was no sooner dead than all the plans and schemes he had laboured at so long, and lied so much for, crumbled away like a hollow heap of sand. Stephen, whom ... [truncated] (1 shared statement(s))
-- [[history-dickens-england-excerpt-year]] - shared statements: Year shares source evidence from A Child's History of England (Excerpt: The Norman Conquest to Edward I) / CHAPTER XI--ENGLAND UNDER MATILDA AND STEPHEN: The King was no sooner dead than all the plans and schemes he had laboured at so long, and lied so much for, crumbled away like a hollow heap of sand. Stephen, whom ... [truncated] (1 shared statement(s))
 
 ## Source
 

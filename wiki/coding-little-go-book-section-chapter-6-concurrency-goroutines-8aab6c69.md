@@ -8,7 +8,7 @@ updated: 2026-06-30
 domain: coding-little-go-book
 category_path: sources/coding-little-go-book/sections
 source_id: coding_little_go_book.pdf
-projection_coverage: section-coding-little-go-book-section-chapter-6-concurrency-goroutines-8aab6c69@c5129f58e57781dfcf478eb639ddf14a
+projection_coverage: section-coding-little-go-book-section-chapter-6-concurrency-goroutines-8aab6c69@5e346028a15efc6e09b2c6aca9f6fc8a
 ---
 
 # Chapter 6 - Concurrency / Goroutines
@@ -19,7 +19,6 @@ From [[coding-little-go-book]].
 
 - [[coding-little-go-book-section-chapter-6-concurrency-55851f5e]] - broader source section: Chapter 6 - Concurrency
 - [[coding-little-go-book-section-chapter-6-concurrency-synchronization-e924d99c]] - next source section: Chapter 6 - Concurrency / Synchronization
-- [[coding-little-go-book-goroutine]] - topic hub: opens the topic page for Goroutine
 
 ## Statements
 

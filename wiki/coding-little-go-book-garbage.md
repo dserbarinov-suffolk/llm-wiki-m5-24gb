@@ -7,7 +7,7 @@ sources: raw/coding_little_go_book.pdf
 updated: 2026-06-30
 domain: coding-little-go-book
 category_path: concepts
-projection_coverage: topic-coding-little-go-book-garbage@89f508021492bed83b65da192a9bbf77
+projection_coverage: topic-coding-little-go-book-garbage@75a24abd43a3d7d37c1bcbfa327de714
 ---
 
 # Garbage
@@ -70,11 +70,8 @@ func incr() {
 
 ## Related pages
 
-- [[coding-little-go-book-programming]] - shared statements and technical atoms: Programming shares source evidence from Chapter 6 - Concurrency / Synchronization: Writing concurrent code requires that you pay specific attention to where and how you read and write values. In some ways, it's like programming without a garbage co ... [truncated]; Programming shares technical record from Chapter 6 - Concurrency / Synchronization: package main import ( "fmt" "time" ) var counter = 0 func main() { for i := 0; i < 20; i++ { go incr() (1 shared statement(s), 2 shared atom(s))
 - [[coding-little-go-book-code]] - shared technical atoms: Code shares technical record from Chapter 6 - Concurrency / Synchronization: package main import ( "fmt" "time" ) var counter = 0 func main() { for i := 0; i < 20; i++ { go incr() (2 shared atom(s))
-- [[coding-little-go-book-concurrent]] - shared technical atoms: Concurrent shares technical record from Chapter 6 - Concurrency / Synchronization: package main import ( "fmt" "time" ) var counter = 0 func main() { for i := 0; i < 20; i++ { go incr() (2 shared atom(s))
 - [[coding-little-go-book-language]] - shared statements: Language shares source evidence from Chapter 1 - The Basics / Garbage Collected: Languages with garbage collectors (e.g., Ruby, Python, Java, JavaScript, C#, Go) are able to keep track of these and free them when they're no longer used. Garbage c ... [truncated] (1 shared statement(s))
-- [[coding-little-go-book-ruby]] - shared statements: Ruby shares source evidence from Chapter 1 - The Basics / Garbage Collected: Languages with garbage collectors (e.g., Ruby, Python, Java, JavaScript, C#, Go) are able to keep track of these and free them when they're no longer used. Garbage c ... [truncated] (1 shared statement(s))
 
 ## Source
 

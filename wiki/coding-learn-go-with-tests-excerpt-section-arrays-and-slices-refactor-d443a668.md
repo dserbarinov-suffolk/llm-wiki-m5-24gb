@@ -8,7 +8,7 @@ updated: 2026-06-30
 domain: coding-learn-go-with-tests-excerpt
 category_path: sources/coding-learn-go-with-tests-excerpt/sections
 source_id: coding_learn_go_with_tests_excerpt.pdf
-projection_coverage: section-coding-learn-go-with-tests-excerpt-section-arrays-and-slices-refactor-d443a668@4c8dd8fdfc35feacc68247084677a2f5
+projection_coverage: section-coding-learn-go-with-tests-excerpt-section-arrays-and-slices-refactor-d443a668@b86c791e37fc29ed95225b768229943d
 ---
 
 # Arrays and slices / Refactor
@@ -19,4 +19,3 @@ From [[coding-learn-go-with-tests-excerpt]].
 
 - [[coding-learn-go-with-tests-excerpt-section-arrays-and-slices-648d683c]] - broader source section: Arrays and slices
 - [[coding-learn-go-with-tests-excerpt-section-arrays-and-slices-write-enough-code-to-make-it-pass-52249515]] - previous source section: Arrays and slices / Write enough code to make it pass
-- [[coding-learn-go-with-tests-excerpt-refactor]] - topic hub: opens the topic page for Refactor

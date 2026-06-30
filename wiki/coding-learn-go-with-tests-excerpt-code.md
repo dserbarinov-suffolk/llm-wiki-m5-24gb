@@ -7,7 +7,7 @@ sources: raw/coding_learn_go_with_tests_excerpt.pdf
 updated: 2026-06-30
 domain: coding-learn-go-with-tests-excerpt
 category_path: concepts
-projection_coverage: topic-coding-learn-go-with-tests-excerpt-code@12912bb62cc3bbfe9689c43ae5f54caa
+projection_coverage: topic-coding-learn-go-with-tests-excerpt-code@c7a03fa50bcddef009e4f3bb9d0dfba6
 ---
 
 # Code
@@ -160,13 +160,9 @@ func Benchmark(b *testing.B) {
 
 - [[coding-learn-go-with-tests-excerpt-write-code-pass]] - narrower topic: Write enough code to make it pass shares source evidence from Hello, World / Back to Testing: of the code you will write. Writing tests Writing a test is just like writing a function, with a few rules It needs to be in a file with a name like xxx_test.go The ... [truncated]; Write enough code to make it pass shares technical record from Learn Go with Tests (Excerpt): output Write enough code to make it pass Refactor Write the test ﬁrst Try and run the test Write minimal amount of code for the test to run and check the failing tes ... [truncated] (2 shared statement(s), 1 shared atom(s))
 - [[coding-learn-go-with-tests-excerpt-test]] - shared statements and technical atoms: Test shares source evidence from Hello, YOU: In the last example, we wrote the test after the code had been written so that you could get an example of how to write a test and declare a function. From this poin ... [truncated]; Test shares technical record from Learn Go with Tests (Excerpt): output Write enough code to make it pass Refactor Write the test ﬁrst Try and run the test Write minimal amount of code for the test to run and check the failing tes ... [truncated] (2 shared statement(s), 2 shared atom(s))
-- [[coding-learn-go-with-tests-excerpt-compiler]] - shared statements and technical atoms: Compiler shares source evidence from Hello, YOU: When using a statically typed language like Go it is important to listen to the compiler . The compiler understands how your code should snap together and work so yo ... [truncated]; Compiler shares technical record from Hello, YOU: func Hello(name string) string { return "Hello, world" } (1 shared statement(s), 1 shared atom(s))
 - [[coding-learn-go-with-tests-excerpt-write-test]] - shared statements and technical atoms: Write the test first shares source evidence from Hello, YOU: In the last example, we wrote the test after the code had been written so that you could get an example of how to write a test and declare a function. From this poin ... [truncated]; Write the test first shares technical record from Learn Go with Tests (Excerpt): output Write enough code to make it pass Refactor Write the test ﬁrst Try and run the test Write minimal amount of code for the test to run and check the failing tes ... [truncated] (1 shared statement(s), 1 shared atom(s))
-- [[coding-learn-go-with-tests-excerpt-loop]] - shared technical atoms: Loop shares technical record from Benchmarking: func Benchmark(b *testing.B) { //... setup ... for b.Loop() { //... code to measure ... } //... cleanup ... } (1 shared atom(s))
 - [[coding-learn-go-with-tests-excerpt-try-run-test]] - shared technical atoms: Try and run the test shares technical record from Learn Go with Tests (Excerpt): output Write enough code to make it pass Refactor Write the test ﬁrst Try and run the test Write minimal amount of code for the test to run and check the failing tes ... [truncated] (1 shared atom(s))
 - [[coding-learn-go-with-tests-excerpt-write]] - shared technical atoms: Write shares technical record from Learn Go with Tests (Excerpt): output Write enough code to make it pass Refactor Write the test ﬁrst Try and run the test Write minimal amount of code for the test to run and check the failing tes ... [truncated] (1 shared atom(s))
-- [[coding-learn-go-with-tests-excerpt-helper]] - shared statements: Helper shares source evidence from Decoupling / Wrapping up: Interfaces are a great tool for hiding complexity away from other parts of the system. In our case our test helper code did not need to know the exact shape it was a ... [truncated] (1 shared statement(s))
-- [[coding-learn-go-with-tests-excerpt-writing]] - shared statements: Writing shares source evidence from Testable Examples / Wrapping up: Writing better documentation so users of our code can understand its usage quickly (1 shared statement(s))
 
 ## Source
 

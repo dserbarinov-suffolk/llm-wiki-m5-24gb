@@ -8,7 +8,7 @@ updated: 2026-06-30
 domain: rpg-dnd-srd-excerpt
 category_path: sources/rpg-dnd-srd-excerpt/sections
 source_id: rpg_dnd_srd_excerpt.pdf
-projection_coverage: section-rpg-dnd-srd-excerpt-section-armor-getting-into-and-out-of-armor-4f36fec5@1cde9884bdb93a4eb84f9a22ce23b73c
+projection_coverage: section-rpg-dnd-srd-excerpt-section-armor-getting-into-and-out-of-armor-4f36fec5@7090092f274fabb20c8f1015480a62a3
 ---
 
 # Armor / Getting Into and Out of Armor
@@ -19,7 +19,6 @@ From [[rpg-dnd-srd-excerpt]].
 
 - [[rpg-dnd-srd-excerpt-section-armor-047bdd0c]] - broader source section: Armor
 - [[rpg-dnd-srd-excerpt-section-armor-heavy-armor-af16bb73]] - previous source section: Armor / Heavy Armor
-- [[rpg-dnd-srd-excerpt-armor]] - topic hub: opens the topic page for Armor
 
 ## Statements
 

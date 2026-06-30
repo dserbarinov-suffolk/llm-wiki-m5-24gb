@@ -7,7 +7,7 @@ sources: raw/coding_little_go_book.pdf
 updated: 2026-06-30
 domain: coding-little-go-book
 category_path: concepts
-projection_coverage: topic-coding-little-go-book-language@d48ab96cb06a461d3d78cfbc5bb9d83f
+projection_coverage: topic-coding-little-go-book-language@011c650e0f47a428c4ef5dbaeb2990e6
 ---
 
 # Language
@@ -168,17 +168,10 @@ scores = scores[:len(scores)-1]
 ## Related pages
 
 - [[coding-little-go-book-slice]] - shared statements and technical atoms: Slice shares source evidence from Chapter 3 - Maps, Arrays and Slices / Slices: Slices as wrappers to arrays is a powerful concept. Many languages have the concept of slicing an array. Both JavaScript and Ruby arrays have a slice method. You can ... [truncated]; Slice shares technical record from Chapter 3 - Maps, Arrays and Slices / Slices: Even when you know the size, append can be used. (1 shared statement(s), 5 shared atom(s))
-- [[coding-little-go-book-array]] - shared statements and technical atoms: Array shares source evidence from Chapter 3 - Maps, Arrays and Slices / Arrays: If you come from Python, Ruby, Perl, JavaScript or PHP (and more), you're probably used to programming with dynamic arrays . These are arrays that resize themselves ... [truncated]; Array shares technical record from Chapter 3 - Maps, Arrays and Slices / Arrays: var scores [10]int scores[0] = 339 (1 shared statement(s), 4 shared atom(s))
-- [[coding-little-go-book-ruby]] - shared statements and technical atoms: Ruby shares source evidence from Chapter 1 - The Basics / Garbage Collected: Languages with garbage collectors (e.g., Ruby, Python, Java, JavaScript, C#, Go) are able to keep track of these and free them when they're no longer used. Garbage c ... [truncated]; Ruby shares technical record from Chapter 3 - Maps, Arrays and Slices / Arrays: var scores [10]int scores[0] = 339 (1 shared statement(s), 4 shared atom(s))
 - [[coding-little-go-book-value]] - shared technical atoms: Value shares technical record from Chapter 3 - Maps, Arrays and Slices / Slices: Even when you know the size, append can be used. (5 shared atom(s))
-- [[coding-little-go-book-change]] - shared technical atoms: Change shares technical record from Introduction: I've always had a love-hate relationship when it comes to learning new languages. (1 shared atom(s))
-- [[coding-little-go-book-copy]] - shared technical atoms: Copy shares technical record from Chapter 3 - Maps, Arrays and Slices / Slices: scores = [1,2,3,4,5] slice = scores[2..4] slice[0] = 999 puts scores (1 shared atom(s))
-- [[coding-little-go-book-inheritance]] - shared technical atoms: Inheritance shares technical record from Chapter 2 - Structures / Composition: public class Person { private String name; public String getName() { return this.name; } } public class Saiyan { // Saiyan is said to have a person private Person pe ... [truncated] (1 shared atom(s))
-- [[coding-little-go-book-structure]] - shared technical atoms: Structure shares technical record from Chapter 2 - Structures / Composition: public class Person { private String name; public String getName() { return this.name; } } public class Saiyan { // Saiyan is said to have a person private Person pe ... [truncated] (1 shared atom(s))
 - [[coding-little-go-book-version]] - shared technical atoms: Version shares technical record from Chapter 3 - Maps, Arrays and Slices / Slices: Even when you know the size, append can be used. (1 shared atom(s))
 - [[coding-little-go-book-garbage]] - shared statements: Garbage shares source evidence from Chapter 1 - The Basics / Garbage Collected: Languages with garbage collectors (e.g., Ruby, Python, Java, JavaScript, C#, Go) are able to keep track of these and free them when they're no longer used. Garbage c ... [truncated] (1 shared statement(s))
 - [[coding-little-go-book-saying]] - shared statements: Saying shares source evidence from Chapter 1 - The Basics / C-Like Syntax: Saying that a language has a C-like syntax means that if you're used to any other C-like languages such as C, C++, Java, JavaScript and C#, then you're going to find ... [truncated] (1 shared statement(s))
-- [[coding-little-go-book-system]] - shared statements: System shares source evidence from Chapter 1 - The Basics / Before You Continue: If you're coming from a dynamic language, the complexity around types and declarations might seem like a step backwards. I don't disagree with you. For some systems, ... [truncated] (1 shared statement(s))
 
 ## Source
 

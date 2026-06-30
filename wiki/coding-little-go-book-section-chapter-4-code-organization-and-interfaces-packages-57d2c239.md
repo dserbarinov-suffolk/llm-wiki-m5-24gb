@@ -8,7 +8,7 @@ updated: 2026-06-30
 domain: coding-little-go-book
 category_path: sources/coding-little-go-book/sections
 source_id: coding_little_go_book.pdf
-projection_coverage: section-coding-little-go-book-section-chapter-4-code-organization-and-interfaces-packages-57d2c239@6166eeece566cef34272dc6a5cdecd78
+projection_coverage: section-coding-little-go-book-section-chapter-4-code-organization-and-interfaces-packages-57d2c239@7586b0a37c3224ce2144e2046d3bcce0
 ---
 
 # Chapter 4 - Code Organization and Interfaces / Packages
@@ -23,7 +23,6 @@ From [[coding-little-go-book]].
 - [[coding-little-go-book-section-chapter-4-code-organization-and-interfaces-packages-package-management-ac6e6900]] - narrower source section: Chapter 4 - Code Organization and Interfaces / Packages / Package Management
 - [[coding-little-go-book-section-chapter-4-code-organization-and-interfaces-packages-dependency-management-6bec99ea]] - narrower source section: Chapter 4 - Code Organization and Interfaces / Packages / Dependency Management
 - [[coding-little-go-book-section-chapter-4-code-organization-and-interfaces-interfaces-ee136513]] - next source section: Chapter 4 - Code Organization and Interfaces / Interfaces
-- [[coding-little-go-book-package]] - topic hub: opens the topic page for Package
 
 ## Statements
 

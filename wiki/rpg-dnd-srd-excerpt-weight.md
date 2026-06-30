@@ -7,7 +7,7 @@ sources: raw/rpg_dnd_srd_excerpt.pdf
 updated: 2026-06-30
 domain: rpg-dnd-srd-excerpt
 category_path: concepts
-projection_coverage: topic-rpg-dnd-srd-excerpt-weight@4a974611b8aa1ae702cb04b80d5ac1b4
+projection_coverage: topic-rpg-dnd-srd-excerpt-weight@e465a50a8208078a9f7a2cf370903862
 ---
 
 # Weight
@@ -110,15 +110,7 @@ Table- Weapons
 
 ## Related pages
 
-- [[rpg-dnd-srd-excerpt-strength]] - shared statements and technical atoms: Strength shares source evidence from Ability Checks / Using Each Ability / Strength: Your Strength score determines the amount of weight you can bear. The following terms define what you can lift or carry. Carrying Capacity . Your carrying capacity i ... [truncated]; Strength shares technical record from Table- Armor: Table- Armor | Category | Armor | Cost | Class (AC) | Strength | Stealth | Weight | | --- | --- | --- | --- | --- | --- | --- | | Light Armor | Padded | 5 gp | 11 + ... [truncated] (3 shared statement(s), 1 shared atom(s))
-- [[rpg-dnd-srd-excerpt-table]] - shared technical atoms: Table shares technical record from Table- Armor: Table- Armor | Category | Armor | Cost | Class (AC) | Strength | Stealth | Weight | | --- | --- | --- | --- | --- | --- | --- | | Light Armor | Padded | 5 gp | 11 + ... [truncated] (2 shared atom(s))
-- [[rpg-dnd-srd-excerpt-armor]] - shared technical atoms: Armor shares technical record from Table- Armor: Table- Armor | Category | Armor | Cost | Class (AC) | Strength | Stealth | Weight | | --- | --- | --- | --- | --- | --- | --- | | Light Armor | Padded | 5 gp | 11 + ... [truncated] (1 shared atom(s))
-- [[rpg-dnd-srd-excerpt-attack]] - shared technical atoms: Attack shares technical record from Table- Weapons: Table- Weapons | Category | Name | Cost | Damage | Weight | Properties | | --- | --- | --- | --- | --- | --- | | Simple Melee Weapons | Club | 1 sp | 1d4 bludgeoning ... [truncated] (1 shared atom(s))
-- [[rpg-dnd-srd-excerpt-class]] - shared technical atoms: Class shares technical record from Table- Armor: Table- Armor | Category | Armor | Cost | Class (AC) | Strength | Stealth | Weight | | --- | --- | --- | --- | --- | --- | --- | | Light Armor | Padded | 5 gp | 11 + ... [truncated] (1 shared atom(s))
-- [[rpg-dnd-srd-excerpt-weapon]] - shared technical atoms: Weapon shares technical record from Table- Weapons: Table- Weapons | Category | Name | Cost | Damage | Weight | Properties | | --- | --- | --- | --- | --- | --- | | Simple Melee Weapons | Club | 1 sp | 1d4 bludgeoning ... [truncated] (1 shared atom(s))
 - [[rpg-dnd-srd-excerpt-score]] - shared statements: Score shares source evidence from Ability Checks / Using Each Ability / Strength: Your Strength score determines the amount of weight you can bear. The following terms define what you can lift or carry. Carrying Capacity . Your carrying capacity i ... [truncated] (3 shared statement(s))
-- [[rpg-dnd-srd-excerpt-carrying]] - shared statements: Carrying shares source evidence from Ability Checks / Using Each Ability / Strength: Your Strength score determines the amount of weight you can bear. The following terms define what you can lift or carry. Carrying Capacity . Your carrying capacity i ... [truncated] (2 shared statement(s))
-- [[rpg-dnd-srd-excerpt-determine]] - shared statements: Determine shares source evidence from Ability Checks / Using Each Ability / Strength: Your Strength score determines the amount of weight you can bear. The following terms define what you can lift or carry. Carrying Capacity . Your carrying capacity i ... [truncated] (1 shared statement(s))
 
 ## Source
 

@@ -8,7 +8,7 @@ updated: 2026-06-30
 domain: rpg-cairn-2e-core
 category_path: sources/rpg-cairn-2e-core/sections
 source_id: rpg_cairn_2e_core.pdf
-projection_coverage: section-rpg-cairn-2e-core-section-procedures-dungeon-exploration-actions-25a6ba24@e2ffdea49eea600cfc1599ec759e23e8
+projection_coverage: section-rpg-cairn-2e-core-section-procedures-dungeon-exploration-actions-25a6ba24@3c9731964158b9e235abd2cdf3026b57
 ---
 
 # Procedures / Dungeon Exploration / Actions
@@ -20,7 +20,6 @@ From [[rpg-cairn-2e-core]].
 - [[rpg-cairn-2e-core-section-procedures-dungeon-exploration-5242b64d]] - broader source section: Procedures / Dungeon Exploration
 - [[rpg-cairn-2e-core-section-procedures-dungeon-exploration-dungeon-events-d10f6086]] - previous source section: Procedures / Dungeon Exploration / Dungeon Events
 - [[rpg-cairn-2e-core-section-procedures-dungeon-exploration-panic-961d699e]] - next source section: Procedures / Dungeon Exploration / Panic
-- [[rpg-cairn-2e-core-action]] - topic hub: opens the topic page for Action
 
 ## Statements
 

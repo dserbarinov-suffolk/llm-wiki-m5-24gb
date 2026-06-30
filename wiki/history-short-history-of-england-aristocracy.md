@@ -7,7 +7,7 @@ sources: raw/history_short_history_of_england.pdf
 updated: 2026-06-30
 domain: history-short-history-of-england
 category_path: concepts
-projection_coverage: topic-history-short-history-of-england-aristocracy@6a7c945c649a33ce0c8ad22a6310f250
+projection_coverage: topic-history-short-history-of-england-aristocracy@2a926079184f296792e352d9505824c4
 ---
 
 # Aristocracy
@@ -30,10 +30,6 @@ What [[history-short-history-of-england]] covers about aristocracy:
 
 - Churchill is a type of the extraordinary time in this, that he combines the presence of glory with the absence of honour. When the new aristocracy had become normal to the nation, in the next few generations, it produced personal types not only of aristocracy but of chivalry. The Revolution reduced us to a country wholly governed by gentlemen; the popular universities and schools of the Middle Ages, like their guilds and abbeys, had been seized and turned into what they are-factories of gentlemen, when they are not merely factories of snobs. It is hard now to realize that what we call the Public Schools were once undoubtedly public. By the Revolution they were already becoming as private as they are now. But at least in the eighteenth century there were great gentlemen in the generous, perhaps too generous, sense now given to the title. Types not merely honest, but rash and romantic in their honesty, remain in the record with the names of Nelson or of Fox. We have already seen that the later reformers defaced from fanaticism the churches which the first reformers had defaced simply from avarice. Rather in the same way the eighteenth-century Whigs often praised, in a spirit of pure magnanimity, what the seventeenth-century Whigs had done in a spirit of pure meanness. How mean was that meanness can only be estimated by realizing that a great military hero had not even the ordinary military virtues of loyalty to his flag or obedience to his superior officers, that he picked his way through campaigns that have made him immortal with the watchful spirit of a thieving camp-follower. When William landed at Torbay on the invitation of the other Whig nobles, Churchill, as if to add something ideal to his imitation of Iscariot, went to James with wanton professions of love and loyalty, went forth in arms as if to defend the country from invasion, and then calmly handed the army over to the invader. To the finish of this work of art but few could aspire, but in their degree all the politicians of the Revolution were upon this ethical pattern. While they surrounded the throne of James, there was scarcely one of them who was not in correspondence with William. When they afterwards surrounded the throne of William, there was not one of them who was not still in correspondence with James. It was such men who defeated Irish Jacobitism by the treason of Limerick; it was such men who defeated Scotch Jacobitism by the treason of Glencoe. _(history_short_history_of_england.pdf (source-range-46d51aaf-00387))_
 
-
-## Related pages
-
-- [[history-short-history-of-england-english]] - shared statements: English shares source evidence from A SHORT HISTORY OF ENGLAND [Pg 1] / XI / THE REBELLION OF THE RICH: The old barony had indeed been thinned by the civil wars that closed at Bosworth, and curtailed by the economical and crafty policy of that unkingly king, Henry VII. ... [truncated] (1 shared statement(s))
 
 ## Source
 

@@ -7,7 +7,7 @@ sources: raw/history_short_history_of_england.pdf
 updated: 2026-06-30
 domain: history-short-history-of-england
 category_path: concepts
-projection_coverage: topic-history-short-history-of-england-norman@f4875f979f0bfa556187df619c941d98
+projection_coverage: topic-history-short-history-of-england-norman@46494b87498b3b7ae56a27fd04366adc
 ---
 
 # Norman
@@ -33,7 +33,6 @@ What [[history-short-history-of-england]] covers about norman:
 
 - [[history-short-history-of-england-norman-king]] - narrower topic: Norman King shares source evidence from A SHORT HISTORY OF ENGLAND [Pg 1] / V / ST. EDWARD AND THE NORMAN KINGS: Along the northern coast of France, where the Confessor had passed his early life, lay the lands of one of the most powerful of the French king's vassals, the Duke o ... [truncated] (5 shared statement(s))
 - [[history-short-history-of-england-england]] - shared statements: England shares source evidence from A SHORT HISTORY OF ENGLAND [Pg 1] / V / ST. EDWARD AND THE NORMAN KINGS: There are paradoxes permissible for the redressing of a bad balance in criticism, and which may safely even be emphasized so long as they are not isolated. One of th ... [truncated] (1 shared statement(s))
-- [[history-short-history-of-england-government]] - shared statements: Government shares source evidence from A SHORT HISTORY OF ENGLAND [Pg 1] / V / ST. EDWARD AND THE NORMAN KINGS: There are paradoxes permissible for the redressing of a bad balance in criticism, and which may safely even be emphasized so long as they are not isolated. One of th ... [truncated] (1 shared statement(s))
 - [[history-short-history-of-england-king]] - shared statements: King shares source evidence from A SHORT HISTORY OF ENGLAND [Pg 1] / X / THE WAR OF THE USURPERS: a touch about him which makes him truly the last of the mediæval kings. It is expressed in the one word which he cried aloud as he struck down foe after foe in the l ... [truncated] (1 shared statement(s))
 
 ## Source

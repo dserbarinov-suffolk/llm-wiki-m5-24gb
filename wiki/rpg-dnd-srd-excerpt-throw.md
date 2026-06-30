@@ -7,7 +7,7 @@ sources: raw/rpg_dnd_srd_excerpt.pdf
 updated: 2026-06-30
 domain: rpg-dnd-srd-excerpt
 category_path: concepts
-projection_coverage: topic-rpg-dnd-srd-excerpt-throw@9e86800de084164c4c7841481aef1b60
+projection_coverage: topic-rpg-dnd-srd-excerpt-throw@754191e91563b6daea331cf751bd5a70
 ---
 
 # Throw
@@ -74,17 +74,8 @@ Table- Exhaustion Eﬀects
 
 ## Related pages
 
-- [[rpg-dnd-srd-excerpt-ability]] - shared technical atoms: Ability shares technical record from Table- Exhaustion Eﬀects: Table- Exhaustion Eﬀects | 3 | Disadvantage | on | attack | rolls | and | saving | throws | | --- | --- | --- | --- | --- | --- | --- | --- | | 4 | Hit point | maxim ... [truncated] (1 shared atom(s))
-- [[rpg-dnd-srd-excerpt-attack]] - shared technical atoms: Attack shares technical record from Table- Exhaustion Eﬀects: Table- Exhaustion Eﬀects | 3 | Disadvantage | on | attack | rolls | and | saving | throws | | --- | --- | --- | --- | --- | --- | --- | --- | | 4 | Hit point | maxim ... [truncated] (1 shared atom(s))
-- [[rpg-dnd-srd-excerpt-condition]] - shared technical atoms: Condition shares technical record from Table- Exhaustion Eﬀects: Table- Exhaustion Eﬀects | 3 | Disadvantage | on | attack | rolls | and | saving | throws | | --- | --- | --- | --- | --- | --- | --- | --- | | 4 | Hit point | maxim ... [truncated] (1 shared atom(s))
 - [[rpg-dnd-srd-excerpt-creature]] - shared technical atoms: Creature shares technical record from Table- Exhaustion Eﬀects: Table- Exhaustion Eﬀects | 3 | Disadvantage | on | attack | rolls | and | saving | throws | | --- | --- | --- | --- | --- | --- | --- | --- | | 4 | Hit point | maxim ... [truncated] (1 shared atom(s))
-- [[rpg-dnd-srd-excerpt-effect]] - shared technical atoms: Effect shares technical record from Table- Exhaustion Eﬀects: Table- Exhaustion Eﬀects | 3 | Disadvantage | on | attack | rolls | and | saving | throws | | --- | --- | --- | --- | --- | --- | --- | --- | | 4 | Hit point | maxim ... [truncated] (1 shared atom(s))
-- [[rpg-dnd-srd-excerpt-level]] - shared technical atoms: Level shares technical record from Table- Exhaustion Eﬀects: Table- Exhaustion Eﬀects | 3 | Disadvantage | on | attack | rolls | and | saving | throws | | --- | --- | --- | --- | --- | --- | --- | --- | | 4 | Hit point | maxim ... [truncated] (1 shared atom(s))
-- [[rpg-dnd-srd-excerpt-special]] - shared technical atoms: Special shares technical record from Table- Exhaustion Eﬀects: Table- Exhaustion Eﬀects | 3 | Disadvantage | on | attack | rolls | and | saving | throws | | --- | --- | --- | --- | --- | --- | --- | --- | | 4 | Hit point | maxim ... [truncated] (1 shared atom(s))
-- [[rpg-dnd-srd-excerpt-table]] - shared technical atoms: Table shares technical record from Table- Exhaustion Eﬀects: Table- Exhaustion Eﬀects | 3 | Disadvantage | on | attack | rolls | and | saving | throws | | --- | --- | --- | --- | --- | --- | --- | --- | | 4 | Hit point | maxim ... [truncated] (1 shared atom(s))
-- [[rpg-dnd-srd-excerpt-character]] - shared statements: Character shares source evidence from Saving Throws: Each class gives proficiency in at least two saving throws. The wizard, for example, is proficient in Intelligence saves. As with skill proficiencies, proficiency in ... [truncated] (1 shared statement(s))
 - [[rpg-dnd-srd-excerpt-proficiency]] - shared statements: Proficiency shares source evidence from Saving Throws: Each class gives proficiency in at least two saving throws. The wizard, for example, is proficient in Intelligence saves. As with skill proficiencies, proficiency in ... [truncated] (1 shared statement(s))
-- [[rpg-dnd-srd-excerpt-skill]] - shared statements: Skill shares source evidence from Saving Throws: Each class gives proficiency in at least two saving throws. The wizard, for example, is proficient in Intelligence saves. As with skill proficiencies, proficiency in ... [truncated] (1 shared statement(s))
 
 ## Source
 
