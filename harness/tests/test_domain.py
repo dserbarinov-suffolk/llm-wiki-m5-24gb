@@ -37,6 +37,7 @@ from llmwiki.domain.pages import (
     parse_page,
     render_page,
 )
+from llmwiki.domain.retrieval import render_context_pack, retrieve_wiki_context
 from llmwiki.domain.search import search_pages
 
 INDEX = """# Index
@@ -630,3 +631,65 @@ class TestSearch:
     def test_snippet_contains_context(self) -> None:
         hits = search_pages(self.PAGES, "hittites")
         assert "Hittites" in hits[0].snippet
+
+    def test_page_identity_outweighs_long_generic_repetition(self) -> None:
+        pages = {
+            "history-character": " ".join(["character", "new"] * 100),
+            "rpg-cairn-2e-core": "# Character Creation\nRoll attributes for a new Cairn character.",
+        }
+
+        hits = search_pages(pages, "How to create a new character in Cairn?")
+
+        assert hits[0].page_id == "rpg-cairn-2e-core"
+
+
+class TestWikiRetrieval:
+    def test_context_pack_explains_matches_and_nearby_pages(self) -> None:
+        index = """# Index
+
+## Sources
+
+- [[rpg-cairn-character-creation]] — Character Creation in Cairn.
+- [[rpg-cairn-backgrounds]] — Background table.
+
+## Entities
+
+## Concepts
+
+## Syntheses
+"""
+        pages = {
+            "rpg-cairn-character-creation": render_page(
+                WikiPage.from_metadata(
+                    PageMetadata(
+                        "rpg-cairn-character-creation",
+                        "source",
+                        "Character Creation in Cairn.",
+                        domain="rpg-cairn",
+                    ),
+                    "# Character Creation\nSee [[rpg-cairn-backgrounds]].\nRoll attributes.",
+                )
+            ),
+            "rpg-cairn-backgrounds": render_page(
+                WikiPage.from_metadata(
+                    PageMetadata(
+                        "rpg-cairn-backgrounds",
+                        "source",
+                        "Background table.",
+                        domain="rpg-cairn",
+                    ),
+                    "# Backgrounds\nRoll or choose a background.",
+                )
+            ),
+        }
+
+        pack = retrieve_wiki_context(
+            query="How to create a new Cairn character?",
+            index_text=index,
+            page_texts=pages,
+        )
+        rendered = render_context_pack(pack)
+
+        assert pack.candidates[0].page_id == "rpg-cairn-character-creation"
+        assert "page-id matched cairn, character" in rendered
+        assert "[[rpg-cairn-backgrounds]]" in rendered

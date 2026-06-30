@@ -1552,3 +1552,9 @@ Ingest confidence: passed. Report filed as [[wiki-ingest-confidence]].
 ## [2026-06-30] synthesize | cross-source
 Canonical concept synthesis over 6 source(s): 8 concept page(s), 0 blocked. Relations: agrees-with=0, conflicts-with=0, qualifies=0, supersedes=0.
 Graph export: current; nodes=617; edges=2672; unresolved=0.
+
+## [2026-06-30] chat | 1 turns across 1 conversation
+Conversations: 20260630-123555. History in harness/chat.db; transcripts per turn in harness/runs/.
+
+## [2026-06-30] chat | 1 turns across 1 conversation
+Conversations: 20260630-124445. History in harness/chat.db; transcripts per turn in harness/runs/.

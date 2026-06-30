@@ -73,6 +73,18 @@ class TestWikiLayer:
         assert "[Truncated. Continue with read_page offset=10.]" in chunk
         assert next_chunk.startswith("[Showing wiki/large.md characters 10-20 of ")
 
+    def test_read_page_tool_default_chunk_is_context_bounded(self, store: WikiStore) -> None:
+        page = WikiPage.from_metadata(
+            PageMetadata(page_id="large-default", page_kind="source", summary="Large page."),
+            "x" * 6_000,
+        )
+        store.write_page(page)
+        tool = read_page_tool(store)
+
+        chunk = tool.callable(page_id="large-default")
+
+        assert chunk.startswith("[Showing wiki/large-default.md characters 0-3000 of ")
+
     def test_write_page_can_project_to_nested_structure(self, paths: WikiPaths) -> None:
         structure = WikiStructure(
             structure_id="nested",

@@ -17,6 +17,7 @@ from forge.context import ContextManager
 from forge.core.messages import Message, MessageMeta, MessageRole, MessageType
 from forge.core.runner import WorkflowRunner
 
+from llmwiki.domain.chat_grounding import build_chat_grounding
 from llmwiki.domain.chatwindow import QAPair
 from llmwiki.domain.claim_support import (
     ClaimSupportAuditReport,
@@ -373,9 +374,13 @@ class Session:
             )
         message = question + " /no_think"
         if grounded:
+            grounding = build_chat_grounding(
+                question,
+                index_text=self.store.read_index(),
+                page_texts=self.store.page_texts(),
+            )
             message = (
-                "The wiki's index — the catalog of every page:\n\n"
-                f"{self.store.read_index()}\n\n"
+                f"{grounding}\n\n"
                 f"Question: {message}"
             )
         seed.append(Message(MessageRole.USER, message, MessageMeta(MessageType.USER_INPUT)))

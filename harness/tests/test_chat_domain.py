@@ -1,5 +1,6 @@
-"""Window builder: deterministic, budget-bound, seed-only clipping."""
+"""Chat-domain helpers: deterministic, budget-bound grounding and history windows."""
 
+from llmwiki.domain.chat_grounding import build_chat_grounding
 from llmwiki.domain.chatwindow import (
     SEED_ANSWER_CAP_CHARS,
     QAPair,
@@ -42,3 +43,40 @@ class TestBuildWindow:
 
     def test_token_estimate_sanity(self) -> None:
         assert estimate_tokens("x" * 400) == 100
+
+
+class TestChatGrounding:
+    def test_grounding_is_bounded_when_index_is_large(self) -> None:
+        index = "\n".join(
+            [f"- [[unrelated-{i}]] — filler summary" for i in range(1000)]
+            + ["- [[cairn-character-creation]] — Character creation in Cairn."]
+        )
+        pages = {
+            "cairn-character-creation": (
+                "Cairn character creation covers roll attributes, choose a background, "
+                "and record equipment."
+            ),
+            "unrelated-1": "A distant page about another subject.",
+        }
+
+        grounding = build_chat_grounding(
+            "How to create a new character in Cairn?",
+            index_text=index,
+            page_texts=pages,
+            budget_tokens=80,
+        )
+
+        assert estimate_tokens(grounding) <= 80
+        assert "[[cairn-character-creation]]" in grounding
+        assert "[[unrelated-999]]" not in grounding
+
+    def test_grounding_tells_model_to_search_when_no_hits_match(self) -> None:
+        grounding = build_chat_grounding(
+            "unmatched terms",
+            index_text="- [[alpha]] — Alpha.",
+            page_texts={"alpha": "No overlap here."},
+        )
+
+        assert "No local search hits" in grounding
+        assert "search_wiki" in grounding
+        assert "[[alpha]]" in grounding

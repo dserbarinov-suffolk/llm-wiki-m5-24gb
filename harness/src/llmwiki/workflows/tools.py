@@ -23,11 +23,12 @@ from llmwiki.domain.page_body_contracts import (
     validate_source_summary_draft,
 )
 from llmwiki.domain.pages import PageMetadata, WikiPage
-from llmwiki.domain.search import render_hits, search_pages
+from llmwiki.domain.retrieval import render_context_pack, retrieve_wiki_context
 from llmwiki.pdf.intermediate import OCR_MARKER
 from llmwiki.store import WikiStore, WikiStoreError
 
-_READ_PAGE_MAX_CHARS = 12_000
+_READ_PAGE_DEFAULT_CHARS = 3_000
+_READ_PAGE_MAX_CHARS = 5_000
 
 
 def _strip_pipeline_markers(content: str) -> str:
@@ -68,7 +69,10 @@ class ReadSourceParams(BaseModel):
 
 
 class SearchWikiParams(BaseModel):
-    query: str = Field(description="Search terms to match against WikiPage page_ids and content.")
+    query: str = Field(
+        description="Search question or terms to match against the wiki index, page metadata, "
+        "headings, links, and content."
+    )
 
 
 class ReadIndexParams(BaseModel):
@@ -83,10 +87,13 @@ class ReadPageParams(BaseModel):
         description="Character offset for chunked reads of large WikiPages.",
     )
     max_chars: int = Field(
-        default=_READ_PAGE_MAX_CHARS,
+        default=_READ_PAGE_DEFAULT_CHARS,
         ge=1,
         le=_READ_PAGE_MAX_CHARS,
-        description="Maximum characters to return. Use offset for additional chunks.",
+        description=(
+            "Maximum characters to return. Keep reads targeted; use offset for additional "
+            "chunks only when the first chunk does not contain enough evidence."
+        ),
     )
 
 
@@ -153,14 +160,18 @@ def read_source_tool(store: WikiStore) -> ToolDef:
 def search_wiki_tool(store: WikiStore) -> ToolDef:
     def _search_wiki(**kwargs: object) -> str:
         params = SearchWikiParams(**kwargs)  # type: ignore[arg-type]
-        hits = search_pages(store.page_texts(), params.query)
-        return render_hits(hits)
+        pack = retrieve_wiki_context(
+            query=params.query,
+            index_text=store.read_index(),
+            page_texts=store.page_texts(),
+        )
+        return render_context_pack(pack)
 
     return ToolDef(
         spec=ToolSpec(
             name="search_wiki",
-            description="Search wiki pages by page_id and content; returns matching "
-            "page_ids with snippets.",
+            description="Search the wiki's compiled navigation artifacts; returns matching "
+            "page_ids with snippets, nearby links, and why each page matched.",
             parameters=SearchWikiParams,
         ),
         callable=_search_wiki,
@@ -198,7 +209,10 @@ def read_page_tool(store: WikiStore, read_tracker: set[str] | None = None) -> To
     return ToolDef(
         spec=ToolSpec(
             name="read_page",
-            description="Read the full text of one wiki page.",
+            description=(
+                "Read a bounded chunk of one wiki page. Use search_wiki first, then read only "
+                "the most relevant page chunks needed to answer."
+            ),
             parameters=ReadPageParams,
         ),
         callable=_read_page,

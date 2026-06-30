@@ -68,7 +68,8 @@ class TestChatWorkflow:
         assert answer == "It covers [[closure]] and more."
         fake: FakeClient = session.client
         first_user = next(m for m in fake.sent[0] if m["role"] == "user")
-        assert "[[closure]] — Functions capturing scope." in first_user["content"]
+        assert "[[closure]]" in first_user["content"]
+        assert "Bounded catalog sample follows" in first_user["content"]
         assert "What is this wiki about?" in first_user["content"]
 
     async def test_follow_up_turns_do_not_carry_the_index(
