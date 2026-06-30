@@ -1,13 +1,14 @@
 ---
 page_id: rpg-dnd-srd-excerpt-section-armor-047bdd0c
 page_kind: source
-summary: Armor: 41 source-backed entries and 6 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
+summary: Armor: 41 source-backed entries and 3 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
+page_family: section-reference
 sources: raw/rpg_dnd_srd_excerpt.pdf
-updated: 2026-06-29
+updated: 2026-06-30
 domain: rpg-dnd-srd-excerpt
 category_path: sources/rpg-dnd-srd-excerpt/sections
 source_id: rpg_dnd_srd_excerpt.pdf
-projection_coverage: section-rpg-dnd-srd-excerpt-section-armor-047bdd0c@f4fe9f94c92fcf4434cba0da88635f55
+projection_coverage: section-rpg-dnd-srd-excerpt-section-armor-047bdd0c@297a1ac7b8ba9198bee51518ebb750f6
 ---
 
 # Armor
@@ -73,27 +74,7 @@ From [[rpg-dnd-srd-excerpt]].
 
 > If the Armor table shows "Str 13" or "Str 15" in the Strength column for an armor type, the armor reduces the wearer's speed by 10 feet unless the wearer has a Strength score equal to or higher than the listed score.
 
-### Technical frame 2: Armor / Light Armor
-
-**Context:** _(rpg_dnd_srd_excerpt.pdf (source-range-4449ec9f-00491))_
-
-> leather is reinforced with close-set rivets or spikes.
-
-**Atom:** _(rpg_dnd_srd_excerpt.pdf (source-range-4449ec9f-00490))_
-
-> If you wear light armor, you add your Dexterity modifier to the base number from your armor type to determine your Armor Class.
-
-### Technical frame 3: Armor / Medium Armor
-
-**Context:** _(rpg_dnd_srd_excerpt.pdf (source-range-4449ec9f-00494))_
-
-> greaves that are attached with leather straps.
-
-**Atom:** _(rpg_dnd_srd_excerpt.pdf (source-range-4449ec9f-00493))_
-
-> If you wear medium armor, you add your Dexterity modifier, to a maximum of +2, to the base number from your armor type to determine your Armor Class.
-
-### Technical frame 4: Table- Armor
+### Technical frame 2: Table- Armor
 
 **Context:** _(rpg_dnd_srd_excerpt.pdf (source-range-4449ec9f-00501))_
 
@@ -141,17 +122,7 @@ Table- Armor
 
 </details>
 
-### Technical frame 5: Armor / Getting Into and Out of Armor
-
-**Context:** _(rpg_dnd_srd_excerpt.pdf (source-range-4449ec9f-00505))_
-
-> Don . This is the time it takes to put on armor. You benefit from the armor's AC only if you take the full time to don the suit of armor.
-
-**Atom:** _(rpg_dnd_srd_excerpt.pdf (source-range-4449ec9f-00506))_
-
-> If you have help, reduce this time by half.
-
-### Technical frame 6: Armor / Getting Into and Out of Armor
+### Technical frame 3: Armor / Getting Into and Out of Armor
 
 **Context:** _(rpg_dnd_srd_excerpt.pdf (source-range-4449ec9f-00506))_
 

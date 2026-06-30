@@ -1,13 +1,14 @@
 ---
 page_id: history-short-history-of-england-section-a-short-history-of-england-pg-1-xvi-68e8fa73
 page_kind: source
-summary: A SHORT HISTORY OF ENGLAND [Pg 1] / XVI: 139 source-backed entries and 1 atom(s) from raw/history_short_history_of_england.pdf.
+summary: A SHORT HISTORY OF ENGLAND [Pg 1] / XVI: 139 source-backed entries and 0 atom(s) from raw/history_short_history_of_england.pdf.
+page_family: section-reference
 sources: raw/history_short_history_of_england.pdf
-updated: 2026-06-29
+updated: 2026-06-30
 domain: history-short-history-of-england
 category_path: sources/history-short-history-of-england/sections
 source_id: history_short_history_of_england.pdf
-projection_coverage: section-history-short-history-of-england-section-a-short-history-of-england-pg-1-xvi-68e8fa73@30f11e511103488bfa0ce8fccad939b4
+projection_coverage: section-history-short-history-of-england-section-a-short-history-of-england-pg-1-xvi-68e8fa73@cb2faa0ee7b21f81e17f95f7819931eb
 ---
 
 # A SHORT HISTORY OF ENGLAND [Pg 1] / XVI
@@ -20,7 +21,6 @@ From [[history-short-history-of-england]].
 - [[history-short-history-of-england-section-a-short-history-of-england-pg-1-xvi-aristocracy-and-the-discontents-e81006b7]] - narrower source section: A SHORT HISTORY OF ENGLAND [Pg 1] / XVI / ARISTOCRACY AND THE DISCONTENTS
 - [[history-short-history-of-england-section-a-short-history-of-england-pg-1-xv-3aa8638c]] - previous source section: A SHORT HISTORY OF ENGLAND [Pg 1] / XV
 - [[history-short-history-of-england-section-a-short-history-of-england-pg-1-xvii-d8995f6b]] - next source section: A SHORT HISTORY OF ENGLAND [Pg 1] / XVII
-- [[history-short-history-of-england-xvi]] - topic hub: opens the topic page for Xvi
 
 ## Statements by subsection
 
@@ -67,15 +67,3 @@ From [[history-short-history-of-england]].
 - He said the army he commanded was the scum of the earth; and the remark is none the less valuable because that army proved itself useful enough to be called the salt of the earth. _(history_short_history_of_england.pdf (source-range-46d51aaf-00439))_
 - And men might know of what nation Shakespeare was, who broke into puns and practical jokes in the darkest passion of his tragedies, if they had only heard those boys in France and Flanders who called out "Early Doors!" themselves in a theatrical memory, as they went so early in their youth to break down the doors of death. _(history_short_history_of_england.pdf (source-range-46d51aaf-00444))_
 - But well it was for us that some such trampled tradition and dark memory of Merry England survived; well for us, as we shall see, that all our social science failed and all our statesmanship broke down before it. _(history_short_history_of_england.pdf (source-range-46d51aaf-00444))_
-
-## Technical atoms
-
-### Technical frame 1: A SHORT HISTORY OF ENGLAND [Pg 1] / XVI / ARISTOCRACY AND THE DISCONTENTS
-
-**Context:** _(history_short_history_of_england.pdf (source-range-46d51aaf-00429))_
-
-> The name of Cobbett is very important here; indeed it is generally ignored because it is important. Cobbett was the one man who saw the tendency of the time as a whole, and challenged it as a whole; consequently he went without support. It is a mark of our whole modern history that the masses are kept quiet with a fight. They are kept quiet by the fight because it is a sham-fight; thus most of us know by this time that the Party System has been popular only in the same sense that a football matc
-
-**Atom:** _(history_short_history_of_england.pdf (source-range-46d51aaf-00428))_
-
-> The French Revolution was the challenge that really revealed to the Whigs that they must make up their minds to be really democrats or admit that they were really aristocrats.

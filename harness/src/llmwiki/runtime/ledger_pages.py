@@ -5,6 +5,10 @@ from __future__ import annotations
 from llmwiki.domain.ledger.artifacts import ProjectionCoverageArtifact
 from llmwiki.domain.ledger.ledger import ClaimLedger
 from llmwiki.domain.ledger.projection_context import ProjectionContext
+from llmwiki.domain.ledger.projection_policy import (
+    PAGE_FAMILY_SOURCE_MANIFEST,
+    topic_projection_policy,
+)
 from llmwiki.domain.ledger.source_coverage import SourceElementRecord
 from llmwiki.domain.ledger.structure import DocumentStructure
 from llmwiki.domain.ledger.topic_relations import RelatedTopicLink, related_topic_links
@@ -43,6 +47,7 @@ def build_topic_pages(
             ledger,
             projection_context=projection_context,
         )
+        policy = topic_projection_policy(topic, ledger, projection_context)
         rendered = render_topic_page(
             topic,
             ledger,
@@ -50,6 +55,7 @@ def build_topic_pages(
             source_page_id=source_page_id,
             related_pages=walkability.accepted_links,
             projection_context=projection_context,
+            projection_policy=policy,
         )
         metadata = PageMetadata(
             page_id=topic_page_id,
@@ -63,6 +69,7 @@ def build_topic_pages(
             domain=source_page_id,
             category_path=f"{topic.page_kind}s",
             projection_coverage_pointer=f"topic-{topic_page_id}@{rendered.page_body_hash}",
+            page_family=policy.page_family,
         )
         pages.append(WikiPage.from_metadata(metadata, rendered.page_body))
     return tuple(pages)
@@ -91,6 +98,7 @@ def build_source_wiki_page(
         category_path="sources",
         source_id=source_locator,
         projection_coverage_pointer=pointer,
+        page_family=PAGE_FAMILY_SOURCE_MANIFEST,
     )
     return WikiPage.from_metadata(metadata, page_body)
 

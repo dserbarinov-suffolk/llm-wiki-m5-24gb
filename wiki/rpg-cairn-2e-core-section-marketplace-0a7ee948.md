@@ -1,13 +1,14 @@
 ---
 page_id: rpg-cairn-2e-core-section-marketplace-0a7ee948
 page_kind: source
-summary: Marketplace: 8 source-backed entries and 8 atom(s) from raw/rpg_cairn_2e_core.pdf.
+summary: Marketplace: 8 source-backed entries and 7 atom(s) from raw/rpg_cairn_2e_core.pdf.
+page_family: section-reference
 sources: raw/rpg_cairn_2e_core.pdf
-updated: 2026-06-29
+updated: 2026-06-30
 domain: rpg-cairn-2e-core
 category_path: sources/rpg-cairn-2e-core/sections
 source_id: rpg_cairn_2e_core.pdf
-projection_coverage: section-rpg-cairn-2e-core-section-marketplace-0a7ee948@08caf99ca5067a9f91c379ed5f1f5d6c
+projection_coverage: section-rpg-cairn-2e-core-section-marketplace-0a7ee948@40e5f4334ca614e0299df0b2eb132618
 ---
 
 # Marketplace
@@ -57,12 +58,6 @@ Armor
 
 ### Technical frame 2: Marketplace / Weapons
 
-**Atom:** _(rpg_cairn_2e_core.pdf (source-range-9b4fff26-00435))_
-
-> Dagger, Cudgel, Sickle, Staff, etc. (d6 damage)
-
-### Technical frame 3: Marketplace / Weapons
-
 **Atom:** _(rpg_cairn_2e_core.pdf (source-range-9b4fff26-00436))_
 
 | Dagger, Cudgel, Sickle, Staﬀ, etc. (d6 damage) | 5 |
@@ -89,7 +84,7 @@ Weapons
 
 </details>
 
-### Technical frame 4: Marketplace / Transport
+### Technical frame 3: Marketplace / Transport
 
 **Atom:** _(rpg_cairn_2e_core.pdf (source-range-9b4fff26-00441))_
 
@@ -117,7 +112,7 @@ Transport
 
 </details>
 
-### Technical frame 5: Marketplace / Upkeep & Recovery
+### Technical frame 4: Marketplace / Upkeep & Recovery
 
 **Atom:** _(rpg_cairn_2e_core.pdf (source-range-9b4fff26-00444))_
 
@@ -145,7 +140,7 @@ Upkeep & Recovery
 
 </details>
 
-### Technical frame 6: Marketplace / Hirelings (per day)
+### Technical frame 5: Marketplace / Hirelings (per day)
 
 **Atom:** _(rpg_cairn_2e_core.pdf (source-range-9b4fff26-00447))_
 
@@ -183,7 +178,7 @@ Hirelings (per day)
 
 </details>
 
-### Technical frame 7: Marketplace / Gear
+### Technical frame 6: Marketplace / Gear
 
 **Atom:** _(rpg_cairn_2e_core.pdf (source-range-9b4fff26-00450))_
 
@@ -267,7 +262,7 @@ Gear
 
 </details>
 
-### Technical frame 8: Marketplace / Gear
+### Technical frame 7: Marketplace / Gear
 
 **Atom:** _(rpg_cairn_2e_core.pdf (source-range-9b4fff26-00452))_
 

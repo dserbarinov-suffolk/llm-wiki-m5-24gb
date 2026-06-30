@@ -1,13 +1,14 @@
 ---
 page_id: rpg-cairn-2e-core-section-procedures-downtime-actions-training-1dec1fef
 page_kind: source
-summary: Procedures / Downtime Actions / Training: 17 source-backed entries and 3 atom(s) from raw/rpg_cairn_2e_core.pdf.
+summary: Procedures / Downtime Actions / Training: 17 source-backed entries and 0 atom(s) from raw/rpg_cairn_2e_core.pdf.
+page_family: section-reference
 sources: raw/rpg_cairn_2e_core.pdf
-updated: 2026-06-29
+updated: 2026-06-30
 domain: rpg-cairn-2e-core
 category_path: sources/rpg-cairn-2e-core/sections
 source_id: rpg_cairn_2e_core.pdf
-projection_coverage: section-rpg-cairn-2e-core-section-procedures-downtime-actions-training-1dec1fef@bf800fdb833d885e24f8d0f9a32c5af1
+projection_coverage: section-rpg-cairn-2e-core-section-procedures-downtime-actions-training-1dec1fef@25db8cefe748c60b0d85443fbb3d167e
 ---
 
 # Procedures / Downtime Actions / Training
@@ -19,7 +20,6 @@ From [[rpg-cairn-2e-core]].
 - [[rpg-cairn-2e-core-section-procedures-downtime-actions-91a5bb65]] - broader source section: Procedures / Downtime Actions
 - [[rpg-cairn-2e-core-section-procedures-downtime-actions-research-b03ae409]] - previous source section: Procedures / Downtime Actions / Research
 - [[rpg-cairn-2e-core-section-procedures-downtime-actions-strengthening-ties-03328fb4]] - next source section: Procedures / Downtime Actions / Strengthening Ties
-- [[rpg-cairn-2e-core-training]] - topic hub: opens the topic page for Training
 
 ## Statements
 
@@ -30,35 +30,3 @@ From [[rpg-cairn-2e-core]].
 - Troutmaster : When taking the Supply Action , Rations gathered near cold freshwater sources increase by one step (e.g. 1d4 becomes 1d6). The party escorted a stranded naturalist from the famously dreadful Silver Wastes safely back to the city. As thanks, she has offered to train a PC to identify and capture a common lakefish that frequents colder waters. _(rpg_cairn_2e_core.pdf (source-range-9b4fff26-00421))_
 - The Master has agreed, but asked that they collect three rare herbs before training can begin. _(rpg_cairn_2e_core.pdf (source-range-9b4fff26-00420))_
 - After receiving care from an elderly herbalist in the Verdant Glades , the wounded PC asked to be trained in the healing arts. _(rpg_cairn_2e_core.pdf (source-range-9b4fff26-00420))_
-
-## Technical atoms
-
-### Technical frame 1: Procedures / Downtime Actions / Training
-
-**Context:** _(rpg_cairn_2e_core.pdf (source-range-9b4fff26-00419))_
-
-> The Two-Handed Parry : When fighting with one hand free, a PC's HP temporarily increases by 1d4. The party took on a hireling from the Cratered Lands , whose fighters emphasize avoiding enemy attacks. She has agreed to train anyone who can best her in hand to hand combat.
-
-**Atom:** _(rpg_cairn_2e_core.pdf (source-range-9b4fff26-00417))_
-
-> The Warden should provide any Milestones and associated Costs .
-
-### Technical frame 2: Procedures / Downtime Actions / Training
-
-**Context:** _(rpg_cairn_2e_core.pdf (source-range-9b4fff26-00420))_
-
-> Herbology : Given proper ingredients, a PC can create a Healing Salve (restores 4 STR) as a Downtime Action . After receiving care from an elderly herbalist in the Verdant Glades , the wounded PC asked to be trained in the healing arts. The Master has agreed, but asked that they collect three rare herbs before training can begin.
-
-**Atom:** _(rpg_cairn_2e_core.pdf (source-range-9b4fff26-00419))_
-
-> - The Two-Handed Parry : When fighting with one hand free, a PC's HP temporarily increases by 1d4.
-
-### Technical frame 3: Procedures / Downtime Actions / Training
-
-**Context:** _(rpg_cairn_2e_core.pdf (source-range-9b4fff26-00420))_
-
-> Herbology : Given proper ingredients, a PC can create a Healing Salve (restores 4 STR) as a Downtime Action . After receiving care from an elderly herbalist in the Verdant Glades , the wounded PC asked to be trained in the healing arts. The Master has agreed, but asked that they collect three rare herbs before training can begin.
-
-**Atom:** _(rpg_cairn_2e_core.pdf (source-range-9b4fff26-00421))_
-
-> - Troutmaster : When taking the Supply Action , Rations gathered near cold freshwater sources increase by one step (e.g.

@@ -1,13 +1,14 @@
 ---
 page_id: history-short-history-of-england-section-a-short-history-of-england-pg-1-i-introduction-f00b5452
 page_kind: source
-summary: A SHORT HISTORY OF ENGLAND [Pg 1] / I / INTRODUCTION: 32 source-backed entries and 1 atom(s) from raw/history_short_history_of_england.pdf.
+summary: A SHORT HISTORY OF ENGLAND [Pg 1] / I / INTRODUCTION: 32 source-backed entries and 0 atom(s) from raw/history_short_history_of_england.pdf.
+page_family: section-reference
 sources: raw/history_short_history_of_england.pdf
-updated: 2026-06-29
+updated: 2026-06-30
 domain: history-short-history-of-england
 category_path: sources/history-short-history-of-england/sections
 source_id: history_short_history_of_england.pdf
-projection_coverage: section-history-short-history-of-england-section-a-short-history-of-england-pg-1-i-introduction-f00b5452@ddef0a0294967d3a0e381792be7aa441
+projection_coverage: section-history-short-history-of-england-section-a-short-history-of-england-pg-1-i-introduction-f00b5452@c0b2ae804f1130861636d842bd0a0ace
 ---
 
 # A SHORT HISTORY OF ENGLAND [Pg 1] / I / INTRODUCTION
@@ -28,15 +29,3 @@ From [[history-short-history-of-england]].
 - I have a very simple motive and excuse for telling the little I know of this true tale. I have met in my wanderings a man brought up in the lower quarters of a great house, fed mainly on its leavings and burdened mostly with its labours. I know that his complaints are stilled, and his status justified, by a story that is told to him. It is about how his grandfather was a chimpanzee and his father a wild man of the woods, caught by hunters and tamed into something like intelligence. In the light of this, he may well be thankful for the almost human life that he enjoys; and may be content with the hope of leaving behind him a yet more evolved animal. Strangely enough, the calling of this story by the sacred name of Progress ceased to satisfy me when I began to suspect (and to discover) that it is not true. I know by now enough at least of his origin to know that he was not evolved, but simply disinherited. His family tree is not a monkey tree, save in the sense that no monkey could have climbed it; rather it is like that tree torn up by the roots and named "Dedischado," on the shield of the unknown knight. _(history_short_history_of_england.pdf (source-range-46d51aaf-00022))_
 - For instance, he calls one very large part of his story "Puritan England." But England never was Puritan. _(history_short_history_of_england.pdf (source-range-46d51aaf-00016))_
 - For instance, even a working man, a carpenter or cooper or bricklayer, has been taught about the Great Charter, as something like the Great Auk, save that its almost monstrous solitude came from being before its time instead of after. _(history_short_history_of_england.pdf (source-range-46d51aaf-00021))_
-
-## Technical atoms
-
-### Technical frame 1: A SHORT HISTORY OF ENGLAND [Pg 1] / I / INTRODUCTION
-
-**Context:** _(history_short_history_of_england.pdf (source-range-46d51aaf-00021))_
-
-> Now I will modestly maintain that I know more about English history than this; and that I have as much right to make a popular summary of it as the gentleman who made the crusader and the halberdier change hats. But the curious and arresting thing about the neglect, one might say the omission, of mediæval civilization in such histories as this, lies in the fact I have already noted. It is exactly the popular story that is left out of the popular history. For instance, even a working man, a carpe
-
-**Atom:** _(history_short_history_of_england.pdf (source-range-46d51aaf-00020))_
-
-> Now suppose the readers of that work of reference had looked for the portrait of Charles I. and found the head of a policeman. Suppose it had been taken, modern helmet and all, out of some snapshot in the Daily Sketch of the arrest of Mrs. Pankhurst. I think we may go so far as to say that the readers would have refused to accept it as a lifelike portrait of Charles I. They would have formed the opinion that there must be some mistake. Yet the time that elapsed between Stephen and Mary was much longer than the time that has elapsed between Charles and ourselves. The revolution in human society between the first of the Crusades and the last of the Tudors was immeasurably more colossal and complete than any change between Charles and ourselves. And, above all, that revolution should be the first thing and the final thing in anything calling itself a popular history. For it is the story of how our populace gained great things, but to-day has lost everything.

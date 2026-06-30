@@ -2,11 +2,12 @@
 page_id: rpg-cairn-2e-core-wolfram
 page_kind: concept
 summary: Wolfram: 20 statement(s) and 2 atom(s) from raw/rpg_cairn_2e_core.pdf.
+page_family: topic-concept
 sources: raw/rpg_cairn_2e_core.pdf
-updated: 2026-06-29
+updated: 2026-06-30
 domain: rpg-cairn-2e-core
 category_path: concepts
-projection_coverage: topic-rpg-cairn-2e-core-wolfram@7dae6f4f10795d0762cb117d685ba2d6
+projection_coverage: topic-rpg-cairn-2e-core-wolfram@13b80394dc05d24a353002b0abc0d35a
 ---
 
 # Wolfram
@@ -89,9 +90,10 @@ What [[rpg-cairn-2e-core]] covers about wolfram:
 
 - [[rpg-cairn-2e-core-freya]] - shared statements and technical atoms: Freya shares source evidence from Combat / Example: Wolfram, Lucius, and Freya each save DEX to see whether they can take a turn in the first round. Wolfram and Freya succeed, but Lucius does not.; Freya shares technical record from Combat / Example: She makes a STR save to see if she can stay in the fight. (6 shared statement(s), 1 shared atom(s))
 - [[rpg-cairn-2e-core-lucius]] - shared statements and technical atoms: Lucius shares source evidence from Combat / Example: Wolfram, Lucius, and Freya each save DEX to see whether they can take a turn in the first round. Wolfram and Freya succeed, but Lucius does not.; Lucius shares technical record from Combat / Example: She makes a STR save to see if she can stay in the fight. (4 shared statement(s), 1 shared atom(s))
-- [[rpg-cairn-2e-core-traditional-save]] - shared statements: Traditional Saves shares source evidence from Saves / Traditional Saves / Strength: Warden : "Suddenly, the guard stops and whistles, recalling his pet. He then pulls on a lever behind him, and a loud grating sound starts emanating from the other si ... [truncated] (4 shared statement(s))
-- [[rpg-cairn-2e-core-courtyard]] - shared statements: The Courtyard shares source evidence from Dungeon Exploration / Dungeon Exploration Example / The Courtyard: Warden : "Alright, you move to the rubble adjacent to the statue. It looks extremely heavy and difficult to move. In the light from Wolfram's torch, you can see some ... [truncated] (1 shared statement(s))
-- [[rpg-cairn-2e-core-wil]] - shared statements: WIL shares source evidence from Saves / Traditional Saves / WIL: An hour later, Lucius finds Freya, but not the others. She explains that Wolfram and their client have already left for the vault. She agrees to take them there, but ... [truncated] (1 shared statement(s))
+- [[rpg-cairn-2e-core-save]] - shared statements and technical atoms: Save shares source evidence from Combat / Example: Wolfram, Lucius, and Freya each save DEX to see whether they can take a turn in the first round. Wolfram and Freya succeed, but Lucius does not.; Save shares technical record from Combat / Example: She makes a STR save to see if she can stay in the fight. (1 shared statement(s), 1 shared atom(s))
+- [[rpg-cairn-2e-core-dungeon-exploration]] - shared statements: Dungeon Exploration shares source evidence from Dungeon Exploration / Dungeon Exploration Example: Wolfram, Lucius, and Freya have entered the first level of Ein Eyton , a forest temple once rumored to house an infamous death cult. Each character has a torch, but ... [truncated] (2 shared statement(s))
+- [[rpg-cairn-2e-core-light]] - shared statements: Light shares source evidence from Dungeon Exploration / Dungeon Exploration Example / The Courtyard: Warden : "Alright, you move to the rubble adjacent to the statue. It looks extremely heavy and difficult to move. In the light from Wolfram's torch, you can see some ... [truncated] (1 shared statement(s))
+- [[rpg-cairn-2e-core-torch]] - shared statements: Torch shares source evidence from Dungeon Exploration / Dungeon Exploration Example / The Courtyard: Warden : "Alright, you move to the rubble adjacent to the statue. It looks extremely heavy and difficult to move. In the light from Wolfram's torch, you can see some ... [truncated] (1 shared statement(s))
 
 ## Source
 

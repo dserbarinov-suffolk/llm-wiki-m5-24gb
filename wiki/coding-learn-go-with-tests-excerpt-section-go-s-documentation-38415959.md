@@ -2,12 +2,13 @@
 page_id: coding-learn-go-with-tests-excerpt-section-go-s-documentation-38415959
 page_kind: source
 summary: Go's documentation: 10 source-backed entries and 1 atom(s) from raw/coding_learn_go_with_tests_excerpt.pdf.
+page_family: section-reference
 sources: raw/coding_learn_go_with_tests_excerpt.pdf
-updated: 2026-06-29
+updated: 2026-06-30
 domain: coding-learn-go-with-tests-excerpt
 category_path: sources/coding-learn-go-with-tests-excerpt/sections
 source_id: coding_learn_go_with_tests_excerpt.pdf
-projection_coverage: section-coding-learn-go-with-tests-excerpt-section-go-s-documentation-38415959@ba8b58ed762a07c5541264cccc462b4a
+projection_coverage: section-coding-learn-go-with-tests-excerpt-section-go-s-documentation-38415959@712a6451028a2b4770b8efae790c7e5f
 ---
 
 # Go's documentation
@@ -18,7 +19,6 @@ From [[coding-learn-go-with-tests-excerpt]].
 
 - [[coding-learn-go-with-tests-excerpt-section-hello-world-72ad81c1]] - previous source section: Hello, World
 - [[coding-learn-go-with-tests-excerpt-section-hello-you-ec883754]] - next source section: Hello, YOU
-- [[coding-learn-go-with-tests-excerpt-documentation]] - topic hub: opens the topic page for Documentation
 
 ## Statements
 

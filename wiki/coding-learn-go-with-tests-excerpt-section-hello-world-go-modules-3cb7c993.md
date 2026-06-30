@@ -1,13 +1,14 @@
 ---
 page_id: coding-learn-go-with-tests-excerpt-section-hello-world-go-modules-3cb7c993
 page_kind: source
-summary: Hello, World / Go modules?: 15 source-backed entries and 3 atom(s) from raw/coding_learn_go_with_tests_excerpt.pdf.
+summary: Hello, World / Go modules?: 15 source-backed entries and 2 atom(s) from raw/coding_learn_go_with_tests_excerpt.pdf.
+page_family: section-reference
 sources: raw/coding_learn_go_with_tests_excerpt.pdf
-updated: 2026-06-29
+updated: 2026-06-30
 domain: coding-learn-go-with-tests-excerpt
 category_path: sources/coding-learn-go-with-tests-excerpt/sections
 source_id: coding_learn_go_with_tests_excerpt.pdf
-projection_coverage: section-coding-learn-go-with-tests-excerpt-section-hello-world-go-modules-3cb7c993@c718a8a4b711b126431d9120485472ed
+projection_coverage: section-coding-learn-go-with-tests-excerpt-section-hello-world-go-modules-3cb7c993@fa82a3a07981c2a9c2fe0bac4ae83693
 ---
 
 # Hello, World / Go modules?
@@ -19,7 +20,6 @@ From [[coding-learn-go-with-tests-excerpt]].
 - [[coding-learn-go-with-tests-excerpt-section-hello-world-72ad81c1]] - broader source section: Hello, World
 - [[coding-learn-go-with-tests-excerpt-section-hello-world-how-to-test-b6606620]] - previous source section: Hello, World / How to test
 - [[coding-learn-go-with-tests-excerpt-section-hello-world-back-to-testing-7ab34920]] - next source section: Hello, World / Back to Testing
-- [[coding-learn-go-with-tests-excerpt-module]] - topic hub: opens the topic page for Module
 
 ## Statements
 
@@ -34,19 +34,6 @@ From [[coding-learn-go-with-tests-excerpt]].
 
 ### Technical frame 1: Hello, World / Go modules?
 
-**Context:** _(coding_learn_go_with_tests_excerpt.pdf (source-range-cb73a893-00027))_
-
-> What's the problem? In a word, modules. Luckily, the problem is easy to fix. Enter go mod init example.com/hello in your terminal. That will create a new file with the following contents:
-
-**Atom:** _(coding_learn_go_with_tests_excerpt.pdf (source-range-cb73a893-00026))_
-
-```
-$ go test
-go: cannot find main module; see 'go help modules'
-```
-
-### Technical frame 2: Hello, World / Go modules?
-
 **Context:** _(coding_learn_go_with_tests_excerpt.pdf (source-range-cb73a893-00029))_
 
 > This file tells the go tools essential information about your code. If you planned to distribute your application, you would include where the code was available for download as well as information about dependencies. The name of the module, example.com/hello, usually refers to a URL where the module can be found and downloaded. For compatibility with tools we'll start using soon, make sure your module's name has a dot somewhere in it, like the dot in .com of example.com/hello. For now, your mod
@@ -58,7 +45,7 @@ module example.com/hello
 go 1.16
 ```
 
-### Technical frame 3: Hello, World / Go modules?
+### Technical frame 2: Hello, World / Go modules?
 
 **Context:** _(coding_learn_go_with_tests_excerpt.pdf (source-range-cb73a893-00027))_
 

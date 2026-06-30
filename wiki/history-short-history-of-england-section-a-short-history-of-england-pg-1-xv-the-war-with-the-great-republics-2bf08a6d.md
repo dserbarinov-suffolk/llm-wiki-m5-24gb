@@ -1,13 +1,14 @@
 ---
 page_id: history-short-history-of-england-section-a-short-history-of-england-pg-1-xv-the-war-with-the-great-republics-2bf08a6d
 page_kind: source
-summary: A SHORT HISTORY OF ENGLAND [Pg 1] / XV / THE WAR WITH THE GREAT REPUBLICS: 126 source-backed entries and 2 atom(s) from raw/history_short_history_of_england.pdf.
+summary: A SHORT HISTORY OF ENGLAND [Pg 1] / XV / THE WAR WITH THE GREAT REPUBLICS: 126 source-backed entries and 0 atom(s) from raw/history_short_history_of_england.pdf.
+page_family: section-reference
 sources: raw/history_short_history_of_england.pdf
-updated: 2026-06-29
+updated: 2026-06-30
 domain: history-short-history-of-england
 category_path: sources/history-short-history-of-england/sections
 source_id: history_short_history_of_england.pdf
-projection_coverage: section-history-short-history-of-england-section-a-short-history-of-england-pg-1-xv-the-war-with-the-great-republics-2bf08a6d@237c470cbc1d092d9e2b4c144b3429af
+projection_coverage: section-history-short-history-of-england-section-a-short-history-of-england-pg-1-xv-the-war-with-the-great-republics-2bf08a6d@9ff788eeaea66a1f30437beeebe704c1
 ---
 
 # A SHORT HISTORY OF ENGLAND [Pg 1] / XV / THE WAR WITH THE GREAT REPUBLICS
@@ -17,7 +18,6 @@ From [[history-short-history-of-england]].
 ## Related pages
 
 - [[history-short-history-of-england-section-a-short-history-of-england-pg-1-xv-3aa8638c]] - broader source section: A SHORT HISTORY OF ENGLAND [Pg 1] / XV
-- [[history-short-history-of-england-war-republic]] - topic hub: opens the topic page for War Republic
 
 ## Statements
 
@@ -51,25 +51,3 @@ From [[history-short-history-of-england]].
 - There is no word for the memory of Nelson except to call him mythical. _(history_short_history_of_england.pdf (source-range-46d51aaf-00416))_
 - There has run through the national psychology something that has never had a name except the eccentric and indeed extraordinary name of Robinson Crusoe; which is all the more English for being quite undiscoverable in England. _(history_short_history_of_england.pdf (source-range-46d51aaf-00416))_
 - His very faults and failures were heroic, not in a loose but in a classic sense; in that he fell only like the legendary heroes, weakened by a woman, not foiled by any foe among men. _(history_short_history_of_england.pdf (source-range-46d51aaf-00416))_
-
-## Technical atoms
-
-### Technical frame 1: A SHORT HISTORY OF ENGLAND [Pg 1] / XV / THE WAR WITH THE GREAT REPUBLICS
-
-**Context:** _(history_short_history_of_england.pdf (source-range-46d51aaf-00400))_
-
-> It is one of the many quaint perversities of the English to pretend to be bad speakers; but in fact the most English eighteenth-century epoch blazed with brilliant speakers. There may have been finer writing in France; there was no such fine speaking as in England. The Parliament had faults enough, but it was sincere enough to be rhetorical. The Parliament was corrupt, as it is now; though the examples of corruption were then often really made examples, in the sense of warnings, where they are n
-
-**Atom:** _(history_short_history_of_england.pdf (source-range-46d51aaf-00399))_
-
-> We cannot understand the eighteenth century so long as we suppose that rhetoric is artificial because it is artistic. We do not fall into this folly about any of the other arts. We talk of a man picking out notes arranged in ivory on a wooden piano "with much feeling," or of his pouring out his soul by scraping on cat-gut after a training as careful as an acrobat's. But we are still haunted with a prejudice that verbal form and verbal effect must somehow be hypocritical when they are the link between things so living as a man and a mob. We doubt the feeling of the old-fashioned orator, because his periods are so rounded and pointed as to convey his feeling. Now before any criticism of the eighteenth-century worthies must be put the proviso of their perfect artistic sincerity. Their oratory was unrhymed poetry, and it had the humanity of poetry. It was not even unmetrical poetry; that century is full of great phrases, often spoken on the spur of great moments, which have in them the throb and recurrence of song, as of a man thinking to a tune. Nelson's "In honour I gained them, in honour I will die with them," has more rhythm than much that is called vers libres . Patrick Henry's "Give me liberty or give me death" might be a great line in Walt Whitman.
-
-### Technical frame 2: A SHORT HISTORY OF ENGLAND [Pg 1] / XV / THE WAR WITH THE GREAT REPUBLICS
-
-**Context:** _(history_short_history_of_england.pdf (source-range-46d51aaf-00414))_
-
-> But a few years after Lafayette had returned from helping to found a republic in America he was flung over his own frontiers for resisting the foundation of a republic in France. So furious was the onward stride of this new spirit that the republican of the new world lived to be the reactionary of the old. For when France passed from theory to practice, the question was put to the world in a way not thinkable in connection with the prefatory experiment of a thin population on a colonial coast. T
-
-**Atom:** _(history_short_history_of_england.pdf (source-range-46d51aaf-00413))_
-
-> If they can understand how two coins can count the same though one is bright and the other brown, they might perhaps understand how two men can vote the same though one is bright and the other dull.

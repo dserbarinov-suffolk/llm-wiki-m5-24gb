@@ -1,103 +1,130 @@
 ---
 page_id: coding-learn-go-with-tests-excerpt-refactor
 page_kind: concept
-summary: one...last...refactor?: 11 statement(s) and 3 atom(s) from raw/coding_learn_go_with_tests_excerpt.pdf.
+summary: Refactor: 6 statement(s) and 3 atom(s) from raw/coding_learn_go_with_tests_excerpt.pdf.
+page_family: topic-concept
 sources: raw/coding_learn_go_with_tests_excerpt.pdf
-updated: 2026-06-29
+updated: 2026-06-30
 domain: coding-learn-go-with-tests-excerpt
 category_path: concepts
-projection_coverage: topic-coding-learn-go-with-tests-excerpt-refactor@2a1cf3e291abd702cbdf9f4c6bbad742
+projection_coverage: topic-coding-learn-go-with-tests-excerpt-refactor@6a473aa2eac691f0847196fb0830b7fe
 ---
 
-# one...last...refactor?
+# Refactor
 
-What [[coding-learn-go-with-tests-excerpt]] covers about one...last...refactor?:
+What [[coding-learn-go-with-tests-excerpt]] covers about refactor:
 
 ## Statements
+
+### A note on source control
+
+- There's not a lot to refactor here, but we can introduce another language feature, constants . _(coding_learn_go_with_tests_excerpt.pdf (source-range-cb73a893-00066))_
+
+### Discipline / Keep going! More requirements
+
+- Now it is time to refactor . You should see some problems in the code, "magic" strings, some of which are repeated. Try and refactor it yourself, with every change make sure you re-run the tests to make sure your refactoring isn't breaking anything. _(coding_learn_go_with_tests_excerpt.pdf (source-range-cb73a893-00120))_
 
 ### one...last...refactor?
 
 - You could argue that maybe our function is getting a little big. The simplest refactor for this would be to extract out some functionality into another function. _(coding_learn_go_with_tests_excerpt.pdf (source-range-cb73a893-00135))_
 
-- In our function signature we have made a named return value (prefix string) . _(coding_learn_go_with_tests_excerpt.pdf (source-range-cb73a893-00140))_
+### The TDD process and why the steps are important
 
-- This will create a variable called prefix in your function. _(coding_learn_go_with_tests_excerpt.pdf (source-range-cb73a893-00141))_
+- Then refactor, backed with the safety of our tests to ensure we have well-crafted code that is easy to work with _(coding_learn_go_with_tests_excerpt.pdf (source-range-cb73a893-00159))_
 
-- It will be assigned the "zero" value. This depends on the type, for example int s are 0 and for string s it is "" . _(coding_learn_go_with_tests_excerpt.pdf (source-range-cb73a893-00142))_
+### Pointers, copies, et al / Refactor
 
-- This will display in the Go Doc for your function so it can make the intent of your code clearer. _(coding_learn_go_with_tests_excerpt.pdf (source-range-cb73a893-00144))_
+- There isn't much to refactor in our implementation but the test could use a little simplification. _(coding_learn_go_with_tests_excerpt.pdf (source-range-cb73a893-00616))_
 
-- default in the switch case will be branched to if none of the other case statements match. _(coding_learn_go_with_tests_excerpt.pdf (source-range-cb73a893-00145))_
+### Note on declaring a new error for Update / Refactor
 
-- The function name starts with a lowercase letter. In Go, public functions start with a capital letter, and private ones start with a lowercase letter. We don't want the internals of our algorithm exposed to the world, so we made this function private. _(coding_learn_go_with_tests_excerpt.pdf (source-range-cb73a893-00146))_
-
-- Also, we can group constants in a block instead of declaring them on their own line. For readability, it's a good idea to use a line between sets of related constants. _(coding_learn_go_with_tests_excerpt.pdf (source-range-cb73a893-00147))_
+- There isn't much to refactor, but we can implement the same logic from Update to handle cases where word doesn't exist. _(coding_learn_go_with_tests_excerpt.pdf (source-range-cb73a893-00689))_
 
 
 ## Technical atoms
 
-### Technical frame 1: one...last...refactor?
+### Technical frame 1: Discipline / Keep going! More requirements
 
-**Context:** _(coding_learn_go_with_tests_excerpt.pdf (source-range-cb73a893-00140))_
+**Context:** _(coding_learn_go_with_tests_excerpt.pdf (source-range-cb73a893-00120))_
 
-> In our function signature we have made a named return value (prefix string) .
+> Now it is time to refactor . You should see some problems in the code, "magic" strings, some of which are repeated. Try and refactor it yourself, with every change make sure you re-run the tests to make sure your refactoring isn't breaking anything.
 
-**Atom:** _(coding_learn_go_with_tests_excerpt.pdf (source-range-cb73a893-00136))_
+**Atom:** _(coding_learn_go_with_tests_excerpt.pdf (source-range-cb73a893-00121))_
 
 ```
-const (
-    spanish = "Spanish"
-    french  = "French"
-englishHelloPrefix = "Hello, "
-    spanishHelloPrefix = "Hola, "
-    frenchHelloPrefix  = "Bonjour, "
-)
+const spanish = "Spanish"
+    const englishHelloPrefix = "Hello, "
+    const spanishHelloPrefix = "Hola, "
 func Hello(name string, language string) string {
-    if name == "" {
-        name = "World"
+        if name == "" {
+            name = "World"
+        }
+if language == spanish {
+            return spanishHelloPrefix + name
+        }
+        return englishHelloPrefix + name
     }
-return greetingPrefix(language) + name
 ```
 
-### Technical frame 2: one...last...refactor?
+### Technical frame 2: Pointers, copies, et al / Refactor
 
-**Context:** _(coding_learn_go_with_tests_excerpt.pdf (source-range-cb73a893-00140))_
+**Context:** _(coding_learn_go_with_tests_excerpt.pdf (source-range-cb73a893-00618))_
 
-> In our function signature we have made a named return value (prefix string) .
+> We made variables for word and definition, and moved the definition assertion into its own helper function.
 
-**Atom:** _(coding_learn_go_with_tests_excerpt.pdf (source-range-cb73a893-00137))_
+**Atom:** _(coding_learn_go_with_tests_excerpt.pdf (source-range-cb73a893-00617))_
 
 ```
+func TestAdd(t *testing.T) {
+    dictionary := Dictionary{}
+    word := "test"
+    definition := "this is just a test"
+dictionary.Add(word, definition)
+assertDefinition(t, dictionary, word, definition)
 }
-func greetingPrefix(language string) (prefix string) {
-    switch language {
-    case french:
-        prefix = frenchHelloPrefix
-    case spanish:
-        prefix = spanishHelloPrefix
-    default:
-        prefix = englishHelloPrefix
+func assertDefinition(t testing.TB, dictionary Dictionary, word, 
+definition string) {
+t.Helper()
+got, err := dictionary.Search(word)
+    if err != nil {
+        t.Fatal("should find added word:", err)
     }
-    return
+    assertStrings(t, got, definition)
+}
 ```
 
-### Technical frame 3: one...last...refactor?
+### Technical frame 3: Note on declaring a new error for Update / Refactor
 
-**Context:** _(coding_learn_go_with_tests_excerpt.pdf (source-range-cb73a893-00140))_
+**Context:** _(coding_learn_go_with_tests_excerpt.pdf (source-range-cb73a893-00689))_
 
-> In our function signature we have made a named return value (prefix string) .
+> There isn't much to refactor, but we can implement the same logic from Update to handle cases where word doesn't exist.
 
-**Atom:** _(coding_learn_go_with_tests_excerpt.pdf (source-range-cb73a893-00138))_
+**Atom:** _(coding_learn_go_with_tests_excerpt.pdf (source-range-cb73a893-00690))_
 
 ```
+func TestDelete(t *testing.T) {
+    t.Run("existing word", func(t *testing.T) {
+        word := "test"
+        dictionary := Dictionary{word: "test definition"}
+err := dictionary.Delete(word)
+assertError(t, err, nil)
+_, err = dictionary.Search(word)
+assertError(t, err, ErrNotFound)
+    })
+t.Run("non-existing word", func(t *testing.T) {
+        word := "test"
+        dictionary := Dictionary{}
+err := dictionary.Delete(word)
+assertError(t, err, ErrWordDoesNotExist)
+    })
 }
 ```
 
 
 ## Related pages
 
-- [[coding-learn-go-with-tests-excerpt-function]] - shared statements: Function shares source evidence from one...last...refactor?: In our function signature we have made a named return value (prefix string) . (1 shared statement(s))
-- [[coding-learn-go-with-tests-excerpt-type]] - shared statements: Type shares source evidence from one...last...refactor?: It will be assigned the "zero" value. This depends on the type, for example int s are 0 and for string s it is "" . (1 shared statement(s))
+- [[coding-learn-go-with-tests-excerpt-test]] - shared statements and technical atoms: Test shares source evidence from Pointers, copies, et al / Refactor: There isn't much to refactor in our implementation but the test could use a little simplification.; Test shares technical record from Discipline / Keep going! More requirements: const spanish = "Spanish" const englishHelloPrefix = "Hello, " const spanishHelloPrefix = "Hola, " func Hello(name string, language string) string { if name == "" { ... [truncated] (1 shared statement(s), 2 shared atom(s))
+- [[coding-learn-go-with-tests-excerpt-try-run-test]] - shared statements: Try and run the test shares source evidence from Discipline / Keep going! More requirements: Now it is time to refactor . You should see some problems in the code, "magic" strings, some of which are repeated. Try and refactor it yourself, with every change m ... [truncated] (1 shared statement(s))
 - [[coding-learn-go-with-tests-excerpt-section-one-last-refactor-09b754e6]] - source section: one...last...refactor? shares source evidence from one...last...refactor?: You could argue that maybe our function is getting a little big. The simplest refactor for this would be to extract out some functionality into another function.; one...last...refactor? shares technical record from one...last...refactor?: const ( spanish = "Spanish" french  = "French" englishHelloPrefix = "Hello, " spanishHelloPrefix = "Hola, " frenchHelloPrefix  = "Bonjour, " ) func Hello(name string ... [truncated] (11 shared statement(s), 3 shared atom(s))
 - [[coding-learn-go-with-tests-excerpt-section-integers-refactor-acc9e7fe]] - source section: Integers / Refactor shares source evidence from Integers / Refactor: There's not a lot in the actual code we can really improve on here.; Integers / Refactor shares technical record from Integers / Refactor: You can add documentation to functions with comments, and these will appear in Go Doc just like when you look at the standard library's documentation. (2 shared statement(s), 2 shared atom(s))
 - [[coding-learn-go-with-tests-excerpt-section-iteration-refactor-5810cb18]] - source section: Iteration / Refactor shares source evidence from Iteration / Refactor: += called "the Add AND assignment operator" , adds the right operand to the left operand and assigns the result to left operand. It works with other types like integers.; Iteration / Refactor shares technical record from Iteration / Refactor: const repeatCount = 5 func Repeat(character string) string { var repeated string for i := 0; i < repeatCount; i++ { repeated += character } return repeated } (1 shared statement(s), 1 shared atom(s))

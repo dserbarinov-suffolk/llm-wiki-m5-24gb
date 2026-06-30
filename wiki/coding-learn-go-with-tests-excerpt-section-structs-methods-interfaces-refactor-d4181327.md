@@ -1,13 +1,14 @@
 ---
 page_id: coding-learn-go-with-tests-excerpt-section-structs-methods-interfaces-refactor-d4181327
 page_kind: source
-summary: Structs, methods & interfaces / Refactor: 10 source-backed entries and 3 atom(s) from raw/coding_learn_go_with_tests_excerpt.pdf.
+summary: Structs, methods & interfaces / Refactor: 10 source-backed entries and 2 atom(s) from raw/coding_learn_go_with_tests_excerpt.pdf.
+page_family: section-reference
 sources: raw/coding_learn_go_with_tests_excerpt.pdf
-updated: 2026-06-29
+updated: 2026-06-30
 domain: coding-learn-go-with-tests-excerpt
 category_path: sources/coding-learn-go-with-tests-excerpt/sections
 source_id: coding_learn_go_with_tests_excerpt.pdf
-projection_coverage: section-coding-learn-go-with-tests-excerpt-section-structs-methods-interfaces-refactor-d4181327@c7ca7a59d8b292080febaf58ace3d526
+projection_coverage: section-coding-learn-go-with-tests-excerpt-section-structs-methods-interfaces-refactor-d4181327@2a2561b1ddfd5058e974a99d0cb97eea
 ---
 
 # Structs, methods & interfaces / Refactor
@@ -31,21 +32,6 @@ From [[coding-learn-go-with-tests-excerpt]].
 ## Technical atoms
 
 ### Technical frame 1: Structs, methods & interfaces / Refactor
-
-**Context:** _(coding_learn_go_with_tests_excerpt.pdf (source-range-cb73a893-00435))_
-
-> Our next requirement is to write an Area function for circles.
-
-**Atom:** _(coding_learn_go_with_tests_excerpt.pdf (source-range-cb73a893-00430))_
-
-```
-type Rectangle struct {
-    Width  float64
-    Height float64
-}
-```
-
-### Technical frame 2: Structs, methods & interfaces / Refactor
 
 **Context:** _(coding_learn_go_with_tests_excerpt.pdf (source-range-cb73a893-00435))_
 
@@ -81,7 +67,7 @@ func Perimeter(rectangle Rectangle) float64 {
     return 2 * (rectangle.Width + rectangle.Height)
 ```
 
-### Technical frame 3: Structs, methods & interfaces / Refactor
+### Technical frame 2: Structs, methods & interfaces / Refactor
 
 **Context:** _(coding_learn_go_with_tests_excerpt.pdf (source-range-cb73a893-00435))_
 

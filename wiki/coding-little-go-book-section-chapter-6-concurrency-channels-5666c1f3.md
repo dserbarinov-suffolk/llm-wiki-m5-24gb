@@ -1,13 +1,14 @@
 ---
 page_id: coding-little-go-book-section-chapter-6-concurrency-channels-5666c1f3
 page_kind: source
-summary: Chapter 6 - Concurrency / Channels: 64 source-backed entries and 13 atom(s) from raw/coding_little_go_book.pdf.
+summary: Chapter 6 - Concurrency / Channels: 64 source-backed entries and 10 atom(s) from raw/coding_little_go_book.pdf.
+page_family: section-reference
 sources: raw/coding_little_go_book.pdf
-updated: 2026-06-29
+updated: 2026-06-30
 domain: coding-little-go-book
 category_path: sources/coding-little-go-book/sections
 source_id: coding_little_go_book.pdf
-projection_coverage: section-coding-little-go-book-section-chapter-6-concurrency-channels-5666c1f3@589d2cf671eb6e6a316627911820d123
+projection_coverage: section-coding-little-go-book-section-chapter-6-concurrency-channels-5666c1f3@c5edd310c58b245635046f687337a08c
 ---
 
 # Chapter 6 - Concurrency / Channels
@@ -78,23 +79,13 @@ From [[coding-little-go-book]].
 
 > Our worker is simple. It waits until data is available then "processes" it. Dutifully, it does this in a loop, forever waiting for more data to process. To use this, the first thing we'd do is start some workers: And then we can give them some work: Here's the complete code to make it run: } func (w Worker) process(c chan int) { for { data := <-c fmt.Printf("worker %d got %d\n", w.id, data) } } c := make( chan int) for i := 0; i < 5; i++ { worker := &Worker{id: i} go worker.process(c) } for { c 
 
-**Atom:** _(coding_little_go_book.pdf (source-range-23d24eb1-00427))_
-
-> The challenge with concurrent programming stems from sharing data. If your goroutines share no data, you needn't worry about synchronizing them. That isn't an option for all systems, however. In fact, many systems are built with the exact opposite goal in mind: to share data across multiple requests. An in-memory cache or a database, are good examples of this. This is becoming an increasingly common reality. Channels help make concurrent programming saner by taking shared data out of the picture. A channel is a communication pipe between goroutines which is used to pass data. In other words, a goroutine that has data can pass it to another goroutine via a channel. The result is that, at any point in time, only one goroutine has access to the data. A channel, like everything else, has a type. This is the type of data that we'll be passing through our channel. For example, to create a channel which can be used to pass an integer around, we'd do: The type of this channel is chan int . Therefore, to pass this channel to a function, our signature looks like: Channels support two operations: receiving and sending. We send to a channel by doing: CHANNEL <- DATA and receive from one by doing VAR := <-CHANNEL The arrow points in the direction that data flows. When sending, the data flows into the channel. When receiving, the data flows out of the channel. The final thing to know before we look at our first example is that receiving and sending to and from a channel is blocking. That is, when we receive from a channel, execution of the goroutine won't continue until data is available. Similarly, when we send to a channel, execution won't continue until the data is received. Consider a system with incoming data that we want to handle in separate goroutines. This is a common requirement. If we did our data-intensive processing on the goroutine which accepts the incoming data, we'd risk timing out clients. First, we'll write our worker. This could be a simple function, but I'll make it part of a structure since we haven't seen goroutines used like this before: c := make( chan int) func worker(c chan int) { ... } type Worker struct {
-
-### Technical frame 2: Chapter 6 - Concurrency / Channels
-
-**Context:** _(coding_little_go_book.pdf (source-range-23d24eb1-00429))_
-
-> Our worker is simple. It waits until data is available then "processes" it. Dutifully, it does this in a loop, forever waiting for more data to process. To use this, the first thing we'd do is start some workers: And then we can give them some work: Here's the complete code to make it run: } func (w Worker) process(c chan int) { for { data := <-c fmt.Printf("worker %d got %d\n", w.id, data) } } c := make( chan int) for i := 0; i < 5; i++ { worker := &Worker{id: i} go worker.process(c) } for { c 
-
 **Atom:** _(coding_little_go_book.pdf (source-range-23d24eb1-00428))_
 
 ```
 id int
 ```
 
-### Technical frame 3: Chapter 6 - Concurrency / Channels / Buffered Channels
+### Technical frame 2: Chapter 6 - Concurrency / Channels / Buffered Channels
 
 **Context:** _(coding_little_go_book.pdf (source-range-23d24eb1-00435))_
 
@@ -110,7 +101,7 @@ for {
 }
 ```
 
-### Technical frame 4: Chapter 6 - Concurrency / Channels / Buffered Channels
+### Technical frame 3: Chapter 6 - Concurrency / Channels / Buffered Channels
 
 **Context:** _(coding_little_go_book.pdf (source-range-23d24eb1-00438))_
 
@@ -122,7 +113,7 @@ for {
 c := make(chan int, 100)
 ```
 
-### Technical frame 5: Chapter 6 - Concurrency / Channels / Buffered Channels
+### Technical frame 4: Chapter 6 - Concurrency / Channels / Buffered Channels
 
 **Context:** _(coding_little_go_book.pdf (source-range-23d24eb1-00441))_
 
@@ -138,7 +129,7 @@ for {
 }
 ```
 
-### Technical frame 6: Chapter 6 - Concurrency / Channels / Select
+### Technical frame 5: Chapter 6 - Concurrency / Channels / Select
 
 **Context:** _(coding_little_go_book.pdf (source-range-23d24eb1-00446))_
 
@@ -161,26 +152,7 @@ for {
 }
 ```
 
-### Technical frame 7: Chapter 6 - Concurrency / Channels / Timeout
-
-**Context:** _(coding_little_go_book.pdf (source-range-23d24eb1-00453))_
-
-> time.After returns a channel, so we can select from it. The channel is written to after the specified time expires. That's it. There's nothing more magical than that. If you're curious, here's what an implementation of after could look like:
-
-**Atom:** _(coding_little_go_book.pdf (source-range-23d24eb1-00452))_
-
-```
-for {
-  select {
-  case c <- rand.Int():
-  case <-time.After(time.Millisecond * 100):
-    fmt.Println("timed out")
-  }
-  time.Sleep(time.Millisecond * 50)
-}
-```
-
-### Technical frame 8: Chapter 6 - Concurrency / Channels / Timeout
+### Technical frame 6: Chapter 6 - Concurrency / Channels / Timeout
 
 **Context:** _(coding_little_go_book.pdf (source-range-23d24eb1-00456))_
 
@@ -193,7 +165,7 @@ func after(d time.Duration) chan bool {
   c := make(chan bool)
 ```
 
-### Technical frame 9: Chapter 6 - Concurrency / Channels / Timeout
+### Technical frame 7: Chapter 6 - Concurrency / Channels / Timeout
 
 **Context:** _(coding_little_go_book.pdf (source-range-23d24eb1-00456))_
 
@@ -210,7 +182,7 @@ go func() {
 }
 ```
 
-### Technical frame 10: Chapter 6 - Concurrency / Channels / Timeout
+### Technical frame 8: Chapter 6 - Concurrency / Channels / Timeout
 
 **Context:** _(coding_little_go_book.pdf (source-range-23d24eb1-00457))_
 
@@ -220,7 +192,7 @@ go func() {
 
 > First, what happens if you add the default case back?
 
-### Technical frame 11: Chapter 6 - Concurrency / Channels / Timeout
+### Technical frame 9: Chapter 6 - Concurrency / Channels / Timeout
 
 **Context:** _(coding_little_go_book.pdf (source-range-23d24eb1-00460))_
 
@@ -230,7 +202,7 @@ go func() {
 
 > If you want though, you can receive it:
 
-### Technical frame 12: Chapter 6 - Concurrency / Channels / Timeout
+### Technical frame 10: Chapter 6 - Concurrency / Channels / Timeout
 
 **Context:** _(coding_little_go_book.pdf (source-range-23d24eb1-00460))_
 
@@ -241,24 +213,4 @@ go func() {
 ```
 case t := <-time.After(time.Millisecond * 100):
   fmt.Println("timed out at", t)
-```
-
-### Technical frame 13: Chapter 6 - Concurrency / Channels / Timeout
-
-**Context:** _(coding_little_go_book.pdf (source-range-23d24eb1-00462))_
-
-> If no channel is available, the default case is executed.
-
-**Atom:** _(coding_little_go_book.pdf (source-range-23d24eb1-00465))_
-
-```
-for {
-  select {
-  case data := <-c:
-    fmt.Printf("worker %d got %d\n", w.id, data)
-  case <-time.After(time.Millisecond * 10):
-    fmt.Println("Break time")
-    time.Sleep(time.Second)
-  }
-}
 ```

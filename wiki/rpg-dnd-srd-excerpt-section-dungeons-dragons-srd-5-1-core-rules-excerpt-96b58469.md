@@ -2,8 +2,9 @@
 page_id: rpg-dnd-srd-excerpt-section-dungeons-dragons-srd-5-1-core-rules-excerpt-96b58469
 page_kind: source
 summary: Dungeons & Dragons SRD 5.1 -Core Rules (Excerpt): 1 source-backed entries and 0 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
+page_family: section-reference
 sources: raw/rpg_dnd_srd_excerpt.pdf
-updated: 2026-06-29
+updated: 2026-06-30
 domain: rpg-dnd-srd-excerpt
 category_path: sources/rpg-dnd-srd-excerpt/sections
 source_id: rpg_dnd_srd_excerpt.pdf

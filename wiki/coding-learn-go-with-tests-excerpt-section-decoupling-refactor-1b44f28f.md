@@ -1,13 +1,14 @@
 ---
 page_id: coding-learn-go-with-tests-excerpt-section-decoupling-refactor-1b44f28f
 page_kind: source
-summary: Decoupling / Refactor: 5 source-backed entries and 2 atom(s) from raw/coding_learn_go_with_tests_excerpt.pdf.
+summary: Decoupling / Refactor: 5 source-backed entries and 0 atom(s) from raw/coding_learn_go_with_tests_excerpt.pdf.
+page_family: section-reference
 sources: raw/coding_learn_go_with_tests_excerpt.pdf
-updated: 2026-06-29
+updated: 2026-06-30
 domain: coding-learn-go-with-tests-excerpt
 category_path: sources/coding-learn-go-with-tests-excerpt/sections
 source_id: coding_learn_go_with_tests_excerpt.pdf
-projection_coverage: section-coding-learn-go-with-tests-excerpt-section-decoupling-refactor-1b44f28f@7b82efdd746def86c0432a4886c4c9f4
+projection_coverage: section-coding-learn-go-with-tests-excerpt-section-decoupling-refactor-1b44f28f@e5fd4a6514073aa2bc1f1a362c75ed73
 ---
 
 # Decoupling / Refactor
@@ -26,33 +27,3 @@ From [[coding-learn-go-with-tests-excerpt]].
 - Again, the implementation is fine but our tests could do with some improvement. _(coding_learn_go_with_tests_excerpt.pdf (source-range-cb73a893-00514))_
 - It's not immediately clear what all the numbers represent and you should be aiming for your tests to be easily understood. _(coding_learn_go_with_tests_excerpt.pdf (source-range-cb73a893-00517))_
 - Now our tests - rather, the list of test cases - make assertions of truth about shapes and their areas. _(coding_learn_go_with_tests_excerpt.pdf (source-range-cb73a893-00524))_
-
-## Technical atoms
-
-### Technical frame 1: Decoupling / Refactor
-
-**Context:** _(coding_learn_go_with_tests_excerpt.pdf (source-range-cb73a893-00517))_
-
-> It's not immediately clear what all the numbers represent and you should be aiming for your tests to be easily understood.
-
-**Atom:** _(coding_learn_go_with_tests_excerpt.pdf (source-range-cb73a893-00516))_
-
-```
-{Rectangle{12, 6}, 72.0},
-{Circle{10}, 314.1592653589793},
-{Triangle{12, 6}, 36.0},
-```
-
-### Technical frame 2: Decoupling / Refactor
-
-**Context:** _(coding_learn_go_with_tests_excerpt.pdf (source-range-cb73a893-00524))_
-
-> Now our tests - rather, the list of test cases - make assertions of truth about shapes and their areas.
-
-**Atom:** _(coding_learn_go_with_tests_excerpt.pdf (source-range-cb73a893-00520))_
-
-```
-{shape: Rectangle{Width: 12, Height: 6}, want: 72.0},
-       {shape: Circle{Radius: 10}, want: 314.1592653589793},
-       {shape: Triangle{Base: 12, Height: 6}, want: 36.0},
-```

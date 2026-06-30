@@ -2,11 +2,12 @@
 page_id: coding-learn-go-with-tests-excerpt-package
 page_kind: concept
 summary: Package: 6 statement(s) and 5 atom(s) from raw/coding_learn_go_with_tests_excerpt.pdf.
+page_family: topic-concept
 sources: raw/coding_learn_go_with_tests_excerpt.pdf
-updated: 2026-06-29
+updated: 2026-06-30
 domain: coding-learn-go-with-tests-excerpt
 category_path: concepts
-projection_coverage: topic-coding-learn-go-with-tests-excerpt-package@0ff162218c96c5fed105e704f8c4a980
+projection_coverage: topic-coding-learn-go-with-tests-excerpt-package@bb1a71a564a40423a28a587623860026
 ---
 
 # Package
@@ -121,12 +122,13 @@ be compared to nil)
 
 ## Related pages
 
-- [[coding-learn-go-with-tests-excerpt-testable]] - shared statements and technical atoms: Testable Examples shares source evidence from Testable Examples: (If your editor doesn't automatically import packages for you, the compilation step will fail because you will be missing import "fmt" in adder_test.go . It is stron ... [truncated]; Testable Examples shares technical record from Testable Examples: func ExampleAdd() { sum := Add(1, 5) fmt.Println(sum) // Output: 6 } (3 shared statement(s), 3 shared atom(s))
 - [[coding-learn-go-with-tests-excerpt-test]] - shared statements and technical atoms: Test shares source evidence from Testable Examples: Running the package's test suite, we can see the example ExampleAdd function is executed with no further arrangement from us:; Test shares technical record from Testable Examples: func ExampleAdd() { sum := Add(1, 5) fmt.Println(sum) // Output: 6 } (1 shared statement(s), 3 shared atom(s))
-- [[coding-learn-go-with-tests-excerpt-array-and-type]] - shared statements and technical atoms: Arrays and their type shares source evidence from Arrays and their type / Write the minimal amount of code for the test to run and check the failing test output: From Go 1.21, slices standard package is available, which has slices.Equal function to do a simple shallow compare on slices, where you don't need to worry about the ... [truncated]; Arrays and their type shares technical record from Arrays and their type / Write the minimal amount of code for the test to run and check the failing test output: ./sum_test.go:26:9: invalid operation: got != want (slice can only be compared to nil) (1 shared statement(s), 1 shared atom(s))
-- [[coding-learn-go-with-tests-excerpt-documentation]] - shared statements and technical atoms: Go's documentation shares source evidence from Go's documentation: Another quality-of-life feature of Go is the documentation. We just saw the documentation for the fmt package at the official package viewing website, and Go also pr ... [truncated]; Go's documentation shares technical record from Go's documentation: $ go doc fmt package fmt // import "fmt" Package fmt implements formatted I/O with functions analogous to C's printf and scanf. The format 'verbs' are derived from C ... [truncated] (1 shared statement(s), 1 shared atom(s))
+- [[coding-learn-go-with-tests-excerpt-standard]] - shared statements and technical atoms: Standard shares source evidence from Testable Examples: To view example documentation, let's take a quick look at pkgsite . Before navigating to your project's directory, make sure you have installed pkgsite by running th ... [truncated]; Standard shares technical record from Testable Examples: If you publish your code with examples to a public URL, you can share the documentation of your code at pkg.go.dev. (2 shared statement(s), 2 shared atom(s))
+- [[coding-learn-go-with-tests-excerpt-library]] - shared statements and technical atoms: Library shares source evidence from Testable Examples: To view example documentation, let's take a quick look at pkgsite . Before navigating to your project's directory, make sure you have installed pkgsite by running th ... [truncated]; Library shares technical record from Testable Examples: If you publish your code with examples to a public URL, you can share the documentation of your code at pkg.go.dev. (1 shared statement(s), 1 shared atom(s))
 - [[coding-learn-go-with-tests-excerpt-function]] - shared technical atoms: Function shares technical record from Testable Examples: func ExampleAdd() { sum := Add(1, 5) fmt.Println(sum) // Output: 6 } (3 shared atom(s))
-- [[coding-learn-go-with-tests-excerpt-hello]] - shared statements: Hello, World shares source evidence from Hello, World / How it works: When you write a program in Go, you will have a main package defined with a main func inside it. Packages are ways of grouping up related Go code together. (1 shared statement(s))
+- [[coding-learn-go-with-tests-excerpt-comment]] - shared technical atoms: Comment shares technical record from Testable Examples: $ go test -v === RUN   TestAdder --- PASS: TestAdder (0.00s) === RUN   ExampleAdd --- PASS: ExampleAdd (0.00s) (1 shared atom(s))
+- [[coding-learn-go-with-tests-excerpt-note]] - shared technical atoms: Note shares technical record from Arrays and their type / Write the minimal amount of code for the test to run and check the failing test output: ./sum_test.go:26:9: invalid operation: got != want (slice can only be compared to nil) (1 shared atom(s))
+- [[coding-learn-go-with-tests-excerpt-try-run-test]] - shared technical atoms: Try and run the test shares technical record from Testable Examples: $ go test -v === RUN   TestAdder --- PASS: TestAdder (0.00s) === RUN   ExampleAdd --- PASS: ExampleAdd (0.00s) (1 shared atom(s))
 
 ## Source
 

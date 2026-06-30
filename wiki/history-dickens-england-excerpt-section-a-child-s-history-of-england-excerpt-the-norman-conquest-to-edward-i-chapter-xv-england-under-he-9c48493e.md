@@ -2,8 +2,9 @@
 page_id: history-dickens-england-excerpt-section-a-child-s-history-of-england-excerpt-the-norman-conquest-to-edward-i-chapter-xv-england-under-he-9c48493e
 page_kind: source
 summary: A Child's History of England (Excerpt: The Norman Conquest to Edward I) / CHAPTER XV--ENGLAND UNDER HENRY THE THIRD, CALLED, OF WINCHESTER: 166 source-backed entries and 2 atom(s) from raw/history_dickens_england_excerpt.pdf.
+page_family: section-reference
 sources: raw/history_dickens_england_excerpt.pdf
-updated: 2026-06-29
+updated: 2026-06-30
 domain: history-dickens-england-excerpt
 category_path: sources/history-dickens-england-excerpt/sections
 source_id: history_dickens_england_excerpt.pdf

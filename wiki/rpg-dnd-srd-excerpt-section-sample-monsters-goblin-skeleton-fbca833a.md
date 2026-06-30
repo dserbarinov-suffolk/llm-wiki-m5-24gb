@@ -1,13 +1,14 @@
 ---
 page_id: rpg-dnd-srd-excerpt-section-sample-monsters-goblin-skeleton-fbca833a
 page_kind: source
-summary: Sample Monsters / Goblin / Skeleton: 3 source-backed entries and 3 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
+summary: Sample Monsters / Goblin / Skeleton: 3 source-backed entries and 1 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
+page_family: section-reference
 sources: raw/rpg_dnd_srd_excerpt.pdf
-updated: 2026-06-29
+updated: 2026-06-30
 domain: rpg-dnd-srd-excerpt
 category_path: sources/rpg-dnd-srd-excerpt/sections
 source_id: rpg_dnd_srd_excerpt.pdf
-projection_coverage: section-rpg-dnd-srd-excerpt-section-sample-monsters-goblin-skeleton-fbca833a@45a9795511c35d4bcf22b081784c8065
+projection_coverage: section-rpg-dnd-srd-excerpt-section-sample-monsters-goblin-skeleton-fbca833a@db1b131f0f4f6d1a68ac22b03ee09f18
 ---
 
 # Sample Monsters / Goblin / Skeleton
@@ -62,11 +63,3 @@ CHA
 | 5 | (-3) |
 
 </details>
-
-### Technical frame 2: Sample Monsters / Goblin / Skeleton
-
-**Atoms:** _(rpg_dnd_srd_excerpt.pdf (source-range-4449ec9f-00713, source-range-4449ec9f-00714))_
-
-> Shortsword . Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5 (1d6+2) piercing damage.
-
-> Shortbow . Ranged Weapon Attack: +4 to hit, range 80/320 ft., one target. Hit: 5 (1d6+2) piercing damage.

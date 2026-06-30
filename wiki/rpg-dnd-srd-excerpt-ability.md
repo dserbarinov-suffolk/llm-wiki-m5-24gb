@@ -1,211 +1,360 @@
 ---
 page_id: rpg-dnd-srd-excerpt-ability
 page_kind: concept
-summary: Using Each Ability: 68 statement(s) and 8 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
+summary: Ability: 20 statement(s) and 12 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
+page_family: broad-topic
 sources: raw/rpg_dnd_srd_excerpt.pdf
-updated: 2026-06-29
+updated: 2026-06-30
 domain: rpg-dnd-srd-excerpt
 category_path: concepts
-projection_coverage: topic-rpg-dnd-srd-excerpt-ability@d268bbda92adb41034b231c2f833d94f
+projection_coverage: topic-rpg-dnd-srd-excerpt-ability@e5e70c20a129d39289db2dbb7a525758
 ---
 
-# Using Each Ability
+# Ability
 
-What [[rpg-dnd-srd-excerpt]] covers about using each ability:
+What [[rpg-dnd-srd-excerpt]] covers about ability:
 
 ## Statements
+
+### USING ABILITY SCORES
+
+- Six abilities provide a quick description of every creature's physical and mental characteristics: _(rpg_dnd_srd_excerpt.pdf (source-range-4449ec9f-00061))_
+
+- Is a character muscle-bound and insightful? Brilliant and charming? Nimble and hardy? Ability scores define these qualities-a creature's assets as well as weaknesses. _(rpg_dnd_srd_excerpt.pdf (source-range-4449ec9f-00068))_
+
+### USING ABILITY SCORES / Ability Scores and Modifiers
+
+- Each of a creature's abilities has a score, a number that defines the magnitude of that ability. An ability score is not just a measure of innate capabilities, but also encompasses a creature's training and competence in activities related to that ability. _(rpg_dnd_srd_excerpt.pdf (source-range-4449ec9f-00071))_
+
+- Each ability also has a modifier, derived from the score and ranging from -5 (for an ability score of 1) to +10 (for a score of 30). The Ability Scores and Modifiers table notes the ability modifiers for the range of possible ability scores, from 1 to 30. _(rpg_dnd_srd_excerpt.pdf (source-range-4449ec9f-00073))_
+
+### Advantage and Disadvantage
+
+- Sometimes a special ability or spell tells you that you have advantage or disadvantage on an ability check, a saving throw, or an attack roll. When that happens, you roll a second d20 when you make the roll. Use the higher of the two rolls if you have advantage, and use the lower roll if you have disadvantage. For example, if you have disadvantage and roll a 17 and a 5, you use the 5. If you instead have advantage and roll those numbers, you use the 17. _(rpg_dnd_srd_excerpt.pdf (source-range-4449ec9f-00077))_
+
+### Ability Checks
+
+- An ability check tests a character's or monster's innate talent and training in an effort to overcome a challenge. The GM calls for an ability check when a character or monster attempts an action (other than an attack) that has a chance of failure. When the outcome is uncertain, the dice determine the results. _(rpg_dnd_srd_excerpt.pdf (source-range-4449ec9f-00089))_
+
+- For every ability check, the GM decides which of the six abilities is relevant to the task at hand and the difficulty of the task, represented by a Difficulty Class. _(rpg_dnd_srd_excerpt.pdf (source-range-4449ec9f-00090))_
+
+- To make an ability check, roll a d20 and add the relevant ability modifier. As with other d20 rolls, apply bonuses and penalties, and compare the total to the DC. If the total equals or exceeds the DC, the ability check is a success-the creature overcomes the challenge at hand. Otherwise, it's a failure, which means the character or monster makes no progress toward the objective or makes progress combined with a setback determined by the GM. _(rpg_dnd_srd_excerpt.pdf (source-range-4449ec9f-00093))_
+
+### Ability Checks / Skills
+
+- Each ability covers a broad range of capabilities, including skills that a character or a monster can be proficient in. A skill represents a specific aspect of an ability score, and an individual's proficiency in a skill demonstrates a focus on that aspect. (A character's starting skill proficiencies are determined at character creation, and a monster's skill proficiencies appear in the monster's stat block.) _(rpg_dnd_srd_excerpt.pdf (source-range-4449ec9f-00099))_
+
+### Ability Checks / Working Together
+
+- Sometimes two or more characters team up to attempt a task. The character who's leading the effort-or the one with the highest ability modifier-can make an ability check with advantage, reflecting the help provided by the other characters. In combat, this requires the Help action. _(rpg_dnd_srd_excerpt.pdf (source-range-4449ec9f-00123))_
 
 ### Ability Checks / Using Each Ability
 
 - Every task that a character or monster might attempt in the game is covered by one of the six abilities. This section explains in more detail what those abilities mean and the ways they are used in the game. _(rpg_dnd_srd_excerpt.pdf (source-range-4449ec9f-00130))_
 
-### Ability Checks / Using Each Ability / Strength
+### Combat Step by Step / Your Turn
 
-- Strength measures bodily power, athletic training, and the extent to which you can exert raw physical force. _(rpg_dnd_srd_excerpt.pdf (source-range-4449ec9f-00132))_
+- On your turn, you can move a distance up to your speed and take one action . You decide whether to move first or take your action first. Your speed- sometimes called your walking speed-is noted on your character sheet. The most common actions you can take are described in the "Actions in Combat" section later in this chapter. Many class features and other abilities provide additional options for your action. The "Movement and Position" section later in this chapter gives the rules for your move. You can forgo moving, taking an action, or doing anything at all on your turn. If you can't decide what to do on your turn, consider taking _(rpg_dnd_srd_excerpt.pdf (source-range-4449ec9f-00263))_
 
-- A Strength check can model any attempt to lift, push, pull, or break something, to force your body through a space, or to otherwise apply brute force to a situation. The Athletics skill reflects aptitude in certain kinds of Strength checks. _(rpg_dnd_srd_excerpt.pdf (source-range-4449ec9f-00134))_
+### Reactions
 
-- You attempt to climb a sheer or slippery cliff, avoid hazards while scaling a wall, or cling to a surface while something is trying to knock you off. _(rpg_dnd_srd_excerpt.pdf (source-range-4449ec9f-00136))_
+- Certain special abilities, spells, and situations allow you to take a special action called a reaction. A reaction is an instant response to a trigger of some kind, which can occur on your turn or on someone else's. The opportunity attack, described later in this chapter, is the most common type of reaction. When you take a reaction, you can't take another one until the start of your next turn. If the reaction interrupts another creature's turn, that _(rpg_dnd_srd_excerpt.pdf (source-range-4449ec9f-00272))_
 
-- You struggle to swim or stay afloat in treacherous currents, stormtossed waves, or areas of thick seaweed. Or another creature tries to push or pull you underwater or otherwise interfere with your swimming. _(rpg_dnd_srd_excerpt.pdf (source-range-4449ec9f-00138))_
+### Making an Attack
 
-- Other Strength Checks . The GM might also call for a Strength check when you try to accomplish tasks like the following: _(rpg_dnd_srd_excerpt.pdf (source-range-4449ec9f-00139))_
+- Determine modifiers . The GM determines whether the target has cover and whether you have advantage or disadvantage against the target. In addition, spells, special abilities, and other effects can apply penalties or bonuses to your attack roll. _(rpg_dnd_srd_excerpt.pdf (source-range-4449ec9f-00363))_
 
-- You add your Strength modifier to your attack roll and your damage roll when attacking with a melee weapon such as a mace, a battleaxe, or a javelin. You use melee weapons to make melee attacks in hand-tohand combat, and some of them can be thrown to make a ranged attack. _(rpg_dnd_srd_excerpt.pdf (source-range-4449ec9f-00147))_
+### Making an Attack / Attack Rolls / Modifiers to the Roll
 
-- Your Strength score determines the amount of weight you can bear. The following terms define what you can lift or carry. Carrying Capacity . Your carrying capacity is your Strength score multiplied by 15. This is the weight (in pounds) that you can carry, which is high enough that most characters don't usually have to worry about it. Push, Drag, or Lift . You can push, drag, or lift a weight in pounds up to twice your carrying capacity (or 30 times your Strength score). While pushing or dragging weight in excess of your carrying capacity, your speed drops to 5 feet. Size and Strength . Larger creatures can bear more weight, whereas Tiny creatures can carry less. For each size category above Medium, double the creature's carrying capacity and the amount it can push, _(rpg_dnd_srd_excerpt.pdf (source-range-4449ec9f-00149))_
+- Ability Modifier. The ability modifier used for a melee weapon attack is Strength, and the ability modifier used for a ranged weapon attack is Dexterity. Weapons that have the finesse or thrown property break this rule. _(rpg_dnd_srd_excerpt.pdf (source-range-4449ec9f-00370))_
 
-- The rules for lifting and carrying are intentionally simple. Here is a variant if you are looking for more detailed rules for determining how a character is hindered by the weight of equipment. When you use this variant, ignore the Strength column of the Armor table. If you carry weight in excess of 5 times your Strength score, you are encumbered , which means your speed drops by 10 feet. If you carry weight in excess of 10 times your Strength score, up to your maximum carrying capacity, you are instead heavily encumbered disadvantage on ability checks, attack rolls, and saving throws that _(rpg_dnd_srd_excerpt.pdf (source-range-4449ec9f-00152))_
+- Some spells also require an attack roll. The ability modifier used for a spell attack depends on the spellcasting ability of the spellcaster. _(rpg_dnd_srd_excerpt.pdf (source-range-4449ec9f-00371))_
 
-### Ability Checks / Using Each Ability / Dexterity
+### Making an Attack / Damage and Healing / Damage Rolls
 
-- A Dexterity check can model any attempt to move nimbly, quickly, or quietly, or to keep from falling on tricky footing. The Acrobatics, Sleight of Hand, and Stealth skills reflect aptitude in certain kinds of Dexterity checks. _(rpg_dnd_srd_excerpt.pdf (source-range-4449ec9f-00157))_
+- Each weapon, spell, and harmful monster ability specifies the damage it deals. You roll the damage die or dice, add any modifiers, and apply the damage to your target. Magic weapons, special abilities, and other factors can grant a bonus to damage. With a penalty, it is possible to deal 0 damage, but never negative damage. _(rpg_dnd_srd_excerpt.pdf (source-range-4449ec9f-00423))_
 
-- Sleight of Hand . Whenever you attempt an act of legerdemain or manual trickery, such as planting something on someone else or concealing an object on your person, make a Dexterity (Sleight of Hand) check. The GM might also call for a Dexterity (Sleight of Hand) check to determine whether you can lift a coin purse off another person or slip something out of another person's pocket. _(rpg_dnd_srd_excerpt.pdf (source-range-4449ec9f-00159))_
+### Weapons
 
-- Other Dexterity Checks . The GM might call for a Dexterity check when you try to accomplish tasks like the following: _(rpg_dnd_srd_excerpt.pdf (source-range-4449ec9f-00161))_
+- Your class grants proficiency in certain weapons, reflecting both the class's focus and the tools you are most likely to use. Whether you favor a longsword or a longbow, your weapon and your ability to wield it effectively can mean the difference between life and death while adventuring. _(rpg_dnd_srd_excerpt.pdf (source-range-4449ec9f-00514))_
 
-- You add your Dexterity modifier to your attack roll and your damage roll when attacking with a ranged weapon, such as a sling or a longbow. You can also add your Dexterity modifier to your attack roll and your damage roll when attacking with a melee weapon that has the finesse property, such as a dagger or a rapier. _(rpg_dnd_srd_excerpt.pdf (source-range-4449ec9f-00171))_
+### Conditions / Exhaustion
 
-- Depending on the armor you wear, you might add some or all of your Dexterity modifier to your Armor Class. _(rpg_dnd_srd_excerpt.pdf (source-range-4449ec9f-00173))_
-
-- The GM decides when circumstances are appropriate for hiding. When you try to hide, make a Dexterity (Stealth) check. Until you are discovered or you stop hiding, that check's total is contested by the Wisdom (Perception) check of any creature that actively searches for signs of your presence. _(rpg_dnd_srd_excerpt.pdf (source-range-4449ec9f-00177))_
-
-- An invisible creature can always try to hide. Signs of its passage might still be noticed, and it does have to stay quiet. _(rpg_dnd_srd_excerpt.pdf (source-range-4449ec9f-00179))_
-
-- In combat, most creatures stay alert for signs of danger all around, so if you come out of hiding and approach a creature, it usually sees you. However, under certain circumstances, the GM might allow you to stay hidden as you approach a creature that is distracted, allowing you to gain advantage on an attack roll before you are seen. _(rpg_dnd_srd_excerpt.pdf (source-range-4449ec9f-00180))_
-
-- Passive Perception . When you hide, there's a chance someone will notice you even if they aren't searching. To determine whether such a creature notices you, the GM compares your Dexterity (Stealth) check with that creature's passive Wisdom (Perception) score, which equals 10 + the creature's Wisdom modifier, as well as any other bonuses or penalties. If the creature has advantage, add 5. For disadvantage, subtract 5. For example, if a 1st-level character (with a proficiency bonus of +2) has a Wisdom of 15 (a +2 modifier) and proficiency in Perception, he or she has a passive Wisdom (Perception) of 14. _(rpg_dnd_srd_excerpt.pdf (source-range-4449ec9f-00181))_
-
-- What Can You See? One of the main factors in determining whether you can find a hidden creature or object is how well you can see in an area, which might be lightly or heavily obscured , as explained in the "Adventuring" section. _(rpg_dnd_srd_excerpt.pdf (source-range-4449ec9f-00182))_
-
-### Ability Checks / Using Each Ability / Constitution
-
-- Constitution checks are uncommon, and no skills apply to Constitution checks, because the endurance this ability represents is largely passive rather than involving a specific effort on the part of a character or monster. A Constitution check can model your attempt to push beyond normal limits, however. _(rpg_dnd_srd_excerpt.pdf (source-range-4449ec9f-00186))_
-
-- The GM might call for a Constitution check when you try to accomplish tasks like the following: _(rpg_dnd_srd_excerpt.pdf (source-range-4449ec9f-00187))_
-
-- Your Constitution modifier contributes to your hit points. Typically, you add your Constitution modifier to each Hit Die you roll for your hit points. _(rpg_dnd_srd_excerpt.pdf (source-range-4449ec9f-00194))_
-
-- If your Constitution modifier changes, your hit point maximum changes as well, as though you had the new modifier from 1st level. For example, if you raise your Constitution score when you reach 4th level and your Constitution modifier increases from +1 to +2, you adjust your hit point maximum as though the modifier had always been +2. So you add 3 hit points for your first three levels, and then roll your hit points for 4th level using your new modifier. Or if you're 7th level and some effect lowers your Constitution score so as to reduce your Constitution modifier by 1, your hit point maximum is reduced by 7. _(rpg_dnd_srd_excerpt.pdf (source-range-4449ec9f-00195))_
-
-### Ability Checks / Using Each Ability / Intelligence
-
-- An Intelligence check comes into play when you need to draw on logic, education, memory, or deductive reasoning. The Arcana, History, Investigation, Nature, and Religion skills reflect aptitude in certain kinds of Intelligence checks. _(rpg_dnd_srd_excerpt.pdf (source-range-4449ec9f-00199))_
-
-- Investigation . When you look around for clues and make deductions based on those clues, you make an Intelligence (Investigation) check. You might deduce the location of a hidden object, discern from the appearance of a wound what kind of weapon dealt it, or determine the weakest point in a tunnel that could cause it to collapse. Poring through ancient scrolls in search of a hidden fragment of knowledge might also call for an Intelligence (Investigation) check. _(rpg_dnd_srd_excerpt.pdf (source-range-4449ec9f-00202))_
-
-- Other Intelligence Checks . The GM might call for an Intelligence check when you try to accomplish tasks like the following: _(rpg_dnd_srd_excerpt.pdf (source-range-4449ec9f-00205))_
-
-- Wizards use Intelligence as their spellcasting ability, which helps determine the saving throw DCs of spells they cast. _(rpg_dnd_srd_excerpt.pdf (source-range-4449ec9f-00213))_
-
-### Ability Checks / Using Each Ability / Wisdom
-
-- Wisdom reflects how attuned you are to the world around you and represents perceptiveness and intuition. _(rpg_dnd_srd_excerpt.pdf (source-range-4449ec9f-00215))_
-
-- A Wisdom check might reflect an effort to read body language, understand someone's feelings, notice things about the environment, or care for an injured person. The Animal Handling, Insight, Medicine, Perception, and Survival skills reflect aptitude in certain kinds of Wisdom checks. _(rpg_dnd_srd_excerpt.pdf (source-range-4449ec9f-00217))_
-
-- Animal Handling . When there is any question whether you can calm down a domesticated animal, keep a mount from getting spooked, or intuit an animal's intentions, the GM might call for a Wisdom (Animal Handling) check. You also make a Wisdom (Animal Handling) check to control your mount when you attempt a risky maneuver. _(rpg_dnd_srd_excerpt.pdf (source-range-4449ec9f-00218))_
-
-- Perception . Your Wisdom (Perception) check lets you spot, hear, or otherwise detect the presence of something. It measures your general awareness of your surroundings and the keenness of your senses. For example, you might try to hear a conversation through a closed door, eavesdrop under an open window, or hear monsters moving stealthily in the forest. Or you might try to spot things that are obscured or easy to miss, whether they are orcs lying in ambush on a road, thugs hiding in the shadows of an alley, or candlelight under a closed secret door. _(rpg_dnd_srd_excerpt.pdf (source-range-4449ec9f-00221))_
-
-- Survival . The GM might ask you to make a Wisdom (Survival) check to follow tracks, hunt wild game, guide your group through frozen wastelands, identify signs that owlbears live nearby, predict the weather, or avoid quicksand and other natural hazards. _(rpg_dnd_srd_excerpt.pdf (source-range-4449ec9f-00222))_
-
-- Other Wisdom Checks . The GM might call for a Wisdom check when you try to accomplish tasks like the following: _(rpg_dnd_srd_excerpt.pdf (source-range-4449ec9f-00223))_
-
-- Clerics, druids, and rangers use Wisdom as their spellcasting ability, which helps determine the saving throw DCs of spells they cast. _(rpg_dnd_srd_excerpt.pdf (source-range-4449ec9f-00227))_
-
-### Ability Checks / Using Each Ability / Charisma
-
-- Charisma measures your ability to interact effectively with others. It includes such factors as confidence and eloquence, and it can represent a charming or commanding personality. _(rpg_dnd_srd_excerpt.pdf (source-range-4449ec9f-00229))_
-
-- A Charisma check might arise when you try to influence or entertain others, when you try to make an impression or tell a convincing lie, or when you are navigating a tricky social situation. The Deception, Intimidation, Performance, and Persuasion skills reflect aptitude in certain kinds of Charisma checks. _(rpg_dnd_srd_excerpt.pdf (source-range-4449ec9f-00231))_
-
-- Deception . Your Charisma (Deception) check determines whether you can convincingly hide the truth, either verbally or through your actions. This deception can encompass everything from misleading others through ambiguity to telling outright lies. Typical situations include trying to fast-talk a guard, con a merchant, earn money through gambling, pass yourself off in a disguise, dull someone's suspicions with false assurances, or maintain a straight face while telling a blatant lie. _(rpg_dnd_srd_excerpt.pdf (source-range-4449ec9f-00232))_
-
-- Intimidation . When you attempt to influence someone through overt threats, hostile actions, and physical violence, the GM might ask you to make a Charisma (Intimidation) check. Examples include trying to pry information out of a prisoner, convincing street thugs to back down from a confrontation, or using the edge of a broken bottle to convince a sneering vizier to reconsider a decision. _(rpg_dnd_srd_excerpt.pdf (source-range-4449ec9f-00233))_
-
-- Performance . Your Charisma (Performance) check determines how well you can delight an audience with music, dance, acting, storytelling, or some other form of entertainment. _(rpg_dnd_srd_excerpt.pdf (source-range-4449ec9f-00234))_
-
-- Persuasion . When you attempt to influence someone or a group of people with tact, social graces, or good nature, the GM might ask you to make a Charisma (Persuasion) check. Typically, you use persuasion when acting in good faith, to foster friendships, make cordial requests, or exhibit proper etiquette. Examples of persuading others include convincing a chamberlain to let your party see the king, negotiating peace between warring tribes, or inspiring a crowd of townsfolk. _(rpg_dnd_srd_excerpt.pdf (source-range-4449ec9f-00235))_
-
-- Other Charisma Checks . The GM might call for a Charisma check when you try to accomplish tasks like the following: _(rpg_dnd_srd_excerpt.pdf (source-range-4449ec9f-00236))_
-
-- Bards, paladins, sorcerers, and warlocks use Charisma as their spellcasting ability, which helps determine the saving throw DCs of spells they cast. _(rpg_dnd_srd_excerpt.pdf (source-range-4449ec9f-00240))_
+- Some special abilities and environmental hazards, such as starvation and the long-term effects of freezing or scorching temperatures, can lead to a special condition called exhaustion. Exhaustion is measured in six levels. An effect can give a creature one or more levels of exhaustion, as specified in the effect's description. _(rpg_dnd_srd_excerpt.pdf (source-range-4449ec9f-00590))_
 
 
 ## Technical atoms
 
-### Technical frame 1: Ability Checks / Using Each Ability / Dexterity
+### Technical frame 1: Table- Ability Scores and Modiﬁers
 
-**Context:** _(rpg_dnd_srd_excerpt.pdf (source-range-4449ec9f-00159))_
+**Context:** _(rpg_dnd_srd_excerpt.pdf (source-range-4449ec9f-00073))_
 
-> Sleight of Hand . Whenever you attempt an act of legerdemain or manual trickery, such as planting something on someone else or concealing an object on your person, make a Dexterity (Sleight of Hand) check. The GM might also call for a Dexterity (Sleight of Hand) check to determine whether you can lift a coin purse off another person or slip something out of another person's pocket.
+> Each ability also has a modifier, derived from the score and ranging from -5 (for an ability score of 1) to +10 (for a score of 30). The Ability Scores and Modifiers table notes the ability modifiers for the range of possible ability scores, from 1 to 30.
 
-**Atom:** _(rpg_dnd_srd_excerpt.pdf (source-range-4449ec9f-00158))_
+**Atom:** _(rpg_dnd_srd_excerpt.pdf (source-range-4449ec9f-00075))_
 
-> The GM might also call for a Dexterity (Acrobatics) check to see if you can perform acrobatic stunts, including dives, rolls, somersaults, and flips.
+```text
+Table- Ability Scores and Modiﬁers
+Score
+Modiﬁer
+1
+-5
+2-3
+-4
+4-5
+-3
+6-7
+-2
+8-9
+-1
+10-11
++0
+12-13
++1
+14-15
++2
+16-17
++3
+18-19
++4
+20-21
++5
+22-23
++6
+24-25
++7
+26-27
++8
+28-29
++9
+30
++10
+To determine an ability modiﬁer without consulting the table, subtract
+10 from the ability score and then divide the total by 2 (round down).
+Because ability modiﬁers aﬀect almost every attack roll, ability check,
+and saving throw, ability modiﬁers come up in play more often than
+their associated scores.
+```
 
-### Technical frame 2: Ability Checks / Using Each Ability / Dexterity
+<details>
+<summary>Parsed table preview (needs review)</summary>
 
-**Context:** _(rpg_dnd_srd_excerpt.pdf (source-range-4449ec9f-00173))_
+| entry | content |
+| --- | --- |
+| 5 | 2-3 |
+| 4 | 4-5 |
+| 3 | 6-7 |
+| 2 | 8-9 |
+| 1 | 10-11 +0 12-13 +1 14-15 +2 16-17 +3 18-19 +4 20-21 +5 22-23 +6 24-25 +7 26-27 +8 28-29 +9 |
+| 30 | +10 |
+| 10 | To determine an ability modiﬁer without consulting the table, subtract from the ability score and then divide the total by 2 (round down). and saving throw, ability modiﬁers come up in play more often than their associated scores. |
 
-> Depending on the armor you wear, you might add some or all of your Dexterity modifier to your Armor Class.
+</details>
 
-**Atom:** _(rpg_dnd_srd_excerpt.pdf (source-range-4449ec9f-00171))_
+### Technical frame 2: Advantage and Disadvantage
 
-> You can also add your Dexterity modifier to your attack roll and your damage roll when attacking with a melee weapon that has the finesse property, such as a dagger or a rapier.
+**Context:** _(rpg_dnd_srd_excerpt.pdf (source-range-4449ec9f-00079))_
 
-### Technical frame 3: Ability Checks / Using Each Ability / Dexterity
+> If circumstances cause a roll to have both advantage and disadvantage, you are considered to have neither of them, and you roll one d20. This is true even if multiple circumstances impose disadvantage and only one grants advantage or vice versa. In such a situation, you have neither advantage nor disadvantage.
 
-**Context:** _(rpg_dnd_srd_excerpt.pdf (source-range-4449ec9f-00179))_
+**Atom:** _(rpg_dnd_srd_excerpt.pdf (source-range-4449ec9f-00078))_
 
-> An invisible creature can always try to hide. Signs of its passage might still be noticed, and it does have to stay quiet.
+> If multiple situations affect a roll and each one grants advantage or imposes disadvantage on it, you don't roll more than one additional d20.
 
-**Atom:** _(rpg_dnd_srd_excerpt.pdf (source-range-4449ec9f-00178))_
+### Technical frame 3: Advantage and Disadvantage
 
-> You can't hide from a creature that can see you clearly, and you give away your position if you make noise, such as shouting a warning or knocking over a vase.
+**Context:** _(rpg_dnd_srd_excerpt.pdf (source-range-4449ec9f-00080))_
 
-### Technical frame 4: Ability Checks / Using Each Ability / Dexterity
+> When you have advantage or disadvantage and something in the game, such as the halfling's Lucky trait, lets you reroll or replace the d20, you can reroll or replace only one of the dice. You choose which one. For example, if a halfling has advantage or disadvantage on an ability check and rolls a 1 and a 13, the halfling could use the Lucky trait to reroll the 1.
 
-**Context:** _(rpg_dnd_srd_excerpt.pdf (source-range-4449ec9f-00180))_
+**Atom:** _(rpg_dnd_srd_excerpt.pdf (source-range-4449ec9f-00079))_
 
-> In combat, most creatures stay alert for signs of danger all around, so if you come out of hiding and approach a creature, it usually sees you. However, under certain circumstances, the GM might allow you to stay hidden as you approach a creature that is distracted, allowing you to gain advantage on an attack roll before you are seen.
+> If circumstances cause a roll to have both advantage and disadvantage, you are considered to have neither of them, and you roll one d20.
 
-**Atom:** _(rpg_dnd_srd_excerpt.pdf (source-range-4449ec9f-00179))_
+### Technical frame 4: Advantage and Disadvantage
 
-> An invisible creature can always try to hide.
+**Context:** _(rpg_dnd_srd_excerpt.pdf (source-range-4449ec9f-00081))_
 
-### Technical frame 5: Ability Checks / Using Each Ability / Dexterity
+> You usually gain advantage or disadvantage through the use of special abilities, actions, or spells. Inspiration can also give a character advantage. The GM can also decide that circumstances influence a roll in one direction or the other and grant advantage or impose disadvantage as a result.
 
-**Context:** _(rpg_dnd_srd_excerpt.pdf (source-range-4449ec9f-00182))_
+**Atom:** _(rpg_dnd_srd_excerpt.pdf (source-range-4449ec9f-00080))_
 
-> What Can You See? One of the main factors in determining whether you can find a hidden creature or object is how well you can see in an area, which might be lightly or heavily obscured , as explained in the "Adventuring" section.
+> When you have advantage or disadvantage and something in the game, such as the halfling's Lucky trait, lets you reroll or replace the d20, you can reroll or replace only one of the dice.
 
-**Atom:** _(rpg_dnd_srd_excerpt.pdf (source-range-4449ec9f-00181))_
+### Technical frame 5: Table- Diﬀiculty Classes
 
-> If the creature has advantage, add 5.
+**Context:** _(rpg_dnd_srd_excerpt.pdf (source-range-4449ec9f-00091))_
 
-### Technical frame 6: Ability Checks / Using Each Ability / Constitution
+> The more difficult a task, the higher its DC. The Typical Difficulty Classes table shows the most common DCs.
 
-**Context:** _(rpg_dnd_srd_excerpt.pdf (source-range-4449ec9f-00194))_
+**Atom:** _(rpg_dnd_srd_excerpt.pdf (source-range-4449ec9f-00092))_
 
-> Your Constitution modifier contributes to your hit points. Typically, you add your Constitution modifier to each Hit Die you roll for your hit points.
+| Task | Diﬀiculty | DC |
+| --- | --- | --- |
+| Very | easy | 5 |
+| Easy |  | 10 |
+| Medium |  | 15 |
+| Hard |  | 20 |
+| Very | hard | 25 |
+| Nearly | impossible | 30 |
 
-**Atom:** _(rpg_dnd_srd_excerpt.pdf (source-range-4449ec9f-00195))_
+<details>
+<summary>Raw table text</summary>
 
-> For example, if you raise your Constitution score when you reach 4th level and your Constitution modifier increases from +1 to +2, you adjust your hit point maximum as though the modifier had always been +2.
+```text
+Table- Diﬀiculty Classes
+| Task | Diﬀiculty | DC |
+| --- | --- | --- |
+| Very | easy | 5 |
+| Easy |  | 10 |
+| Medium |  | 15 |
+| Hard |  | 20 |
+| Very | hard | 25 |
+| Nearly | impossible | 30 |
+```
 
-### Technical frame 7: Ability Checks / Using Each Ability / Wisdom
+</details>
 
-**Context:** _(rpg_dnd_srd_excerpt.pdf (source-range-4449ec9f-00221))_
+### Technical frame 6: Table- Related Skills
 
-> Perception . Your Wisdom (Perception) check lets you spot, hear, or otherwise detect the presence of something. It measures your general awareness of your surroundings and the keenness of your senses. For example, you might try to hear a conversation through a closed door, eavesdrop under an open window, or hear monsters moving stealthily in the forest. Or you might try to spot things that are obscured or easy to miss, whether they are orcs lying in ambush on a road, thugs hiding in the shadows 
+**Context:** _(rpg_dnd_srd_excerpt.pdf (source-range-4449ec9f-00101))_
 
-**Atom:** _(rpg_dnd_srd_excerpt.pdf (source-range-4449ec9f-00218))_
+> The skills related to each ability score are shown in the following list. (No skills are related to Constitution.) See an ability's description in the later sections of this section for examples of how to use a skill associated with an ability.
 
-> When there is any question whether you can calm down a domesticated animal, keep a mount from getting spooked, or intuit an animal's intentions, the GM might call for a Wisdom (Animal Handling) check.
+**Atom:** _(rpg_dnd_srd_excerpt.pdf (source-range-4449ec9f-00102))_
 
-### Technical frame 8: Ability Checks / Using Each Ability / Wisdom
+```text
+Table- Related  Skills
+ Strength     Dexterity   Intelligence    Wisdom       Charisma
+                                       Animal
+ Athletics  Acrobatics    Arcana                      Deception
+                                       Handling
+           Sleight of
+```
 
-**Context:** _(rpg_dnd_srd_excerpt.pdf (source-range-4449ec9f-00221))_
+<details>
+<summary>Parsed table preview (needs review)</summary>
 
-> Perception . Your Wisdom (Perception) check lets you spot, hear, or otherwise detect the presence of something. It measures your general awareness of your surroundings and the keenness of your senses. For example, you might try to hear a conversation through a closed door, eavesdrop under an open window, or hear monsters moving stealthily in the forest. Or you might try to spot things that are obscured or easy to miss, whether they are orcs lying in ambush on a road, thugs hiding in the shadows 
+| Table- Related | Skills |
+| --- | --- |
+| Strength | Dexterity |
+| Athletics | Acrobatics |
 
-**Atom:** _(rpg_dnd_srd_excerpt.pdf (source-range-4449ec9f-00219))_
+</details>
 
-> Your Wisdom (Insight) check decides whether you can determine the true intentions of a creature, such as when searching out a lie or predicting someone's next move.
+### Technical frame 7: Ability Checks / Skills
+
+**Context:** _(rpg_dnd_srd_excerpt.pdf (source-range-4449ec9f-00115))_
+
+> Sometimes, the GM might ask for an ability check using a specific skill-for example, "Make a Wisdom (Perception) check." At other times, a player might ask the GM if proficiency in a particular skill applies to a check. In either case, proficiency in a skill means an individual can add his or her proficiency bonus to ability checks that involve that skill. Without proficiency in the skill, the individual makes a normal ability check.
+
+**Atom:** _(rpg_dnd_srd_excerpt.pdf (source-range-4449ec9f-00116))_
+
+> If the character is proficient in Athletics, the character's proficiency bonus is added to the Strength check.
+
+### Technical frame 8: Making an Attack / Melee Attacks / Two-Weapon Fighting
+
+**Context:** _(rpg_dnd_srd_excerpt.pdf (source-range-4449ec9f-00400))_
+
+> When you take the Attack action and attack with a light melee weapon that you're holding in one hand, you can use a bonus action to attack with a different light melee weapon that you're holding in the other hand. You don't add your ability modifier to the damage of the bonus attack, unless that modifier is negative.
+
+**Atom:** _(rpg_dnd_srd_excerpt.pdf (source-range-4449ec9f-00401))_
+
+> If either weapon has the thrown property, you can throw the weapon, instead of making a melee attack with it.
+
+### Technical frame 9: Making an Attack / Melee Attacks / Grappling
+
+**Context:** _(rpg_dnd_srd_excerpt.pdf (source-range-4449ec9f-00406))_
+
+> Moving a Grappled Creature . When you move, you can drag or carry the grappled creature with you, but your speed is halved, unless the creature is two or more sizes smaller than you.
+
+**Atom:** _(rpg_dnd_srd_excerpt.pdf (source-range-4449ec9f-00405))_
+
+> A grappled creature can use its action to escape.
+
+### Technical frame 10: Making an Attack / Damage and Healing / Damage Rolls
+
+**Context:** _(rpg_dnd_srd_excerpt.pdf (source-range-4449ec9f-00425))_
+
+> If a spell or other effect deals damage to more than one target at the same time, roll the damage once for all of them. For example, when a wizard casts fi reball or a cleric casts fl ame strike , the spell's damage is rolled once for all creatures caught in the blast.
+
+**Atom:** _(rpg_dnd_srd_excerpt.pdf (source-range-4449ec9f-00424))_
+
+> When attacking with a weapon , you add your ability modifier-the same modifier used for the attack roll-to the damage.
+
+### Technical frame 11: Making an Attack / Damage and Healing / Damage Rolls
+
+**Context:** _(rpg_dnd_srd_excerpt.pdf (source-range-4449ec9f-00424))_
+
+> When attacking with a weapon , you add your ability modifier-the same modifier used for the attack roll-to the damage. A spell tells you which dice to roll for damage and whether to add any modifiers.
+
+**Atom:** _(rpg_dnd_srd_excerpt.pdf (source-range-4449ec9f-00425))_
+
+> If a spell or other effect deals damage to more than one target at the same time, roll the damage once for all of them.
+
+### Technical frame 12: Table- Exhaustion Eﬀects
+
+**Context:** _(rpg_dnd_srd_excerpt.pdf (source-range-4449ec9f-00590))_
+
+> Some special abilities and environmental hazards, such as starvation and the long-term effects of freezing or scorching temperatures, can lead to a special condition called exhaustion. Exhaustion is measured in six levels. An effect can give a creature one or more levels of exhaustion, as specified in the effect's description.
+
+**Atom:** _(rpg_dnd_srd_excerpt.pdf (source-range-4449ec9f-00591))_
+
+| 3 | Disadvantage | on | attack | rolls | and | saving | throws |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| 4 | Hit point | maximum | halved |  |  |  |  |
+| 5 | Speed reduced | to | 0 |  |  |  |  |
+| 6 | Death |  |  |  |  |  |  |
+
+<details>
+<summary>Raw table text</summary>
+
+```text
+Table- Exhaustion Eﬀects
+| 3 | Disadvantage | on | attack | rolls | and | saving | throws |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| 4 | Hit point | maximum | halved |  |  |  |  |
+| 5 | Speed reduced | to | 0 |  |  |  |  |
+| 6 | Death |  |  |  |  |  |  |
+```
+
+</details>
 
 
 ## Related pages
 
-- [[rpg-dnd-srd-excerpt-ability-check]] - narrower topic: Ability Checks shares source evidence from Ability Checks / Using Each Ability: Every task that a character or monster might attempt in the game is covered by one of the six abilities. This section explains in more detail what those abilities me ... [truncated]; Ability Checks shares technical record from Ability Checks / Using Each Ability / Dexterity: The GM might also call for a Dexterity (Acrobatics) check to see if you can perform acrobatic stunts, including dives, rolls, somersaults, and flips. (68 shared statement(s), 8 shared atom(s))
-- [[rpg-dnd-srd-excerpt-dexterity]] - shared statements and technical atoms: Dexterity shares source evidence from Ability Checks / Using Each Ability / Dexterity: A Dexterity check can model any attempt to move nimbly, quickly, or quietly, or to keep from falling on tricky footing. The Acrobatics, Sleight of Hand, and Stealth ... [truncated]; Dexterity shares technical record from Ability Checks / Using Each Ability / Dexterity: The GM might also call for a Dexterity (Acrobatics) check to see if you can perform acrobatic stunts, including dives, rolls, somersaults, and flips. (14 shared statement(s), 5 shared atom(s))
-- [[rpg-dnd-srd-excerpt-check]] - shared statements and technical atoms: Check shares source evidence from Ability Checks / Using Each Ability / Strength: A Strength check can model any attempt to lift, push, pull, or break something, to force your body through a space, or to otherwise apply brute force to a situation. ... [truncated]; Check shares technical record from Ability Checks / Using Each Ability / Dexterity: You can't hide from a creature that can see you clearly, and you give away your position if you make noise, such as shouting a warning or knocking over a vase. (9 shared statement(s), 1 shared atom(s))
-- [[rpg-dnd-srd-excerpt-strength]] - shared statements: Strength shares source evidence from Ability Checks / Using Each Ability / Strength: Strength measures bodily power, athletic training, and the extent to which you can exert raw physical force. (19 shared statement(s))
-- [[rpg-dnd-srd-excerpt-creature]] - shared statements: Creature shares source evidence from Ability Checks / Using Each Ability / Strength: Your Strength score determines the amount of weight you can bear. The following terms define what you can lift or carry. Carrying Capacity . Your carrying capacity i ... [truncated] (2 shared statement(s))
-- [[rpg-dnd-srd-excerpt-character]] - shared statements: Character shares source evidence from Ability Checks / Using Each Ability / Dexterity: Passive Perception . When you hide, there's a chance someone will notice you even if they aren't searching. To determine whether such a creature notices you, the GM ... [truncated] (1 shared statement(s))
-- [[rpg-dnd-srd-excerpt-proficiency]] - shared statements: Proficiency shares source evidence from Ability Checks / Using Each Ability / Dexterity: Passive Perception . When you hide, there's a chance someone will notice you even if they aren't searching. To determine whether such a creature notices you, the GM ... [truncated] (1 shared statement(s))
+- [[rpg-dnd-srd-excerpt-ability-score]] - narrower topic: Ability Score shares source evidence from USING ABILITY SCORES / Ability Scores and Modifiers: Each of a creature's abilities has a score, a number that defines the magnitude of that ability. An ability score is not just a measure of innate capabilities, but a ... [truncated]; Ability Score shares technical record from Table- Ability Scores and Modiﬁers: Table- Ability Scores and Modiﬁers Score Modiﬁer 1 -5 2-3 -4 4-5 -3 6-7 -2 8-9 -1 10-11 +0 12-13 +1 14-15 +2 16-17 +3 18-19 +4 20-21 +5 22-23 +6 24-25 +7 26-27 +8 28 ... [truncated] (3 shared statement(s), 1 shared atom(s))
+- [[rpg-dnd-srd-excerpt-special]] - shared statements and technical atoms: Special shares source evidence from Advantage and Disadvantage: Sometimes a special ability or spell tells you that you have advantage or disadvantage on an ability check, a saving throw, or an attack roll. When that happens, you ... [truncated]; Special shares technical record from Advantage and Disadvantage: If multiple situations affect a roll and each one grants advantage or imposes disadvantage on it, you don't roll more than one additional d20. (5 shared statement(s), 5 shared atom(s))
+- [[rpg-dnd-srd-excerpt-spell]] - shared statements and technical atoms: Spell shares source evidence from Advantage and Disadvantage: Sometimes a special ability or spell tells you that you have advantage or disadvantage on an ability check, a saving throw, or an attack roll. When that happens, you ... [truncated]; Spell shares technical record from Advantage and Disadvantage: If multiple situations affect a roll and each one grants advantage or imposes disadvantage on it, you don't roll more than one additional d20. (3 shared statement(s), 5 shared atom(s))
+- [[rpg-dnd-srd-excerpt-check]] - shared statements and technical atoms: Check shares source evidence from Ability Checks: An ability check tests a character's or monster's innate talent and training in an effort to overcome a challenge. The GM calls for an ability check when a character ... [truncated]; Check shares technical record from Table- Diﬀiculty Classes: Table- Related  Skills Strength     Dexterity   Intelligence    Wisdom       Charisma Animal Athletics  Acrobatics    Arcana                      Deception Handling Sleight of (3 shared statement(s), 4 shared atom(s))
+- [[rpg-dnd-srd-excerpt-attack]] - shared statements and technical atoms: Attack shares source evidence from Ability Checks: An ability check tests a character's or monster's innate talent and training in an effort to overcome a challenge. The GM calls for an ability check when a character ... [truncated]; Attack shares technical record from Making an Attack / Melee Attacks / Two-Weapon Fighting: If either weapon has the thrown property, you can throw the weapon, instead of making a melee attack with it. (1 shared statement(s), 4 shared atom(s))
+- [[rpg-dnd-srd-excerpt-weapon]] - shared statements and technical atoms: Weapon shares source evidence from Making an Attack / Damage and Healing / Damage Rolls: Each weapon, spell, and harmful monster ability specifies the damage it deals. You roll the damage die or dice, add any modifiers, and apply the damage to your targe ... [truncated]; Weapon shares technical record from Making an Attack / Melee Attacks / Two-Weapon Fighting: If either weapon has the thrown property, you can throw the weapon, instead of making a melee attack with it. (2 shared statement(s), 3 shared atom(s))
+- [[rpg-dnd-srd-excerpt-advantage]] - shared statements and technical atoms: Advantage shares source evidence from Advantage and Disadvantage: Sometimes a special ability or spell tells you that you have advantage or disadvantage on an ability check, a saving throw, or an attack roll. When that happens, you ... [truncated]; Advantage shares technical record from Advantage and Disadvantage: If multiple situations affect a roll and each one grants advantage or imposes disadvantage on it, you don't roll more than one additional d20. (1 shared statement(s), 3 shared atom(s))
+- [[rpg-dnd-srd-excerpt-disadvantage]] - shared statements and technical atoms: Disadvantage shares source evidence from Advantage and Disadvantage: Sometimes a special ability or spell tells you that you have advantage or disadvantage on an ability check, a saving throw, or an attack roll. When that happens, you ... [truncated]; Disadvantage shares technical record from Advantage and Disadvantage: If multiple situations affect a roll and each one grants advantage or imposes disadvantage on it, you don't roll more than one additional d20. (1 shared statement(s), 3 shared atom(s))
+- [[rpg-dnd-srd-excerpt-damage]] - shared statements and technical atoms: Damage shares source evidence from Making an Attack / Damage and Healing / Damage Rolls: Each weapon, spell, and harmful monster ability specifies the damage it deals. You roll the damage die or dice, add any modifiers, and apply the damage to your targe ... [truncated]; Damage shares technical record from Making an Attack / Damage and Healing / Damage Rolls: When attacking with a weapon , you add your ability modifier-the same modifier used for the attack roll-to the damage. (1 shared statement(s), 2 shared atom(s))
+- [[rpg-dnd-srd-excerpt-situation]] - shared statements and technical atoms: Situation shares source evidence from Reactions: Certain special abilities, spells, and situations allow you to take a special action called a reaction. A reaction is an instant response to a trigger of some kind, ... [truncated]; Situation shares technical record from Advantage and Disadvantage: If circumstances cause a roll to have both advantage and disadvantage, you are considered to have neither of them, and you roll one d20. (1 shared statement(s), 2 shared atom(s))
+- [[rpg-dnd-srd-excerpt-skill]] - shared statements and technical atoms: Skill shares source evidence from Ability Checks / Skills: Each ability covers a broad range of capabilities, including skills that a character or a monster can be proficient in. A skill represents a specific aspect of an ab ... [truncated]; Skill shares technical record from Table- Related Skills: Table- Related  Skills Strength     Dexterity   Intelligence    Wisdom       Charisma Animal Athletics  Acrobatics    Arcana                      Deception Handling Sleight of (1 shared statement(s), 2 shared atom(s))
+- [[rpg-dnd-srd-excerpt-effect]] - shared statements and technical atoms: Effect shares source evidence from Making an Attack: Determine modifiers . The GM determines whether the target has cover and whether you have advantage or disadvantage against the target. In addition, spells, special ... [truncated]; Effect shares technical record from Table- Exhaustion Eﬀects: Table- Exhaustion Eﬀects | 3 | Disadvantage | on | attack | rolls | and | saving | throws | | --- | --- | --- | --- | --- | --- | --- | --- | | 4 | Hit point | maxim ... [truncated] (2 shared statement(s), 1 shared atom(s))
+- [[rpg-dnd-srd-excerpt-score]] - shared statements and technical atoms: Score shares source evidence from USING ABILITY SCORES: Is a character muscle-bound and insightful? Brilliant and charming? Nimble and hardy? Ability scores define these qualities-a creature's assets as well as weaknesses.; Score shares technical record from Table- Ability Scores and Modiﬁers: Table- Ability Scores and Modiﬁers Score Modiﬁer 1 -5 2-3 -4 4-5 -3 6-7 -2 8-9 -1 10-11 +0 12-13 +1 14-15 +2 16-17 +3 18-19 +4 20-21 +5 22-23 +6 24-25 +7 26-27 +8 28 ... [truncated] (2 shared statement(s), 1 shared atom(s))
+- [[rpg-dnd-srd-excerpt-class]] - shared statements and technical atoms: Class shares source evidence from Combat Step by Step / Your Turn: On your turn, you can move a distance up to your speed and take one action . You decide whether to move first or take your action first. Your speed- sometimes called ... [truncated]; Class shares technical record from Table- Diﬀiculty Classes: Table- Diﬀiculty Classes | Task | Diﬀiculty | DC | | --- | --- | --- | | Very | easy | 5 | | Easy |  | 10 | | Medium |  | 15 | | Hard |  | 20 | | Very | hard | 25 | ... [truncated] (1 shared statement(s), 1 shared atom(s))
+- [[rpg-dnd-srd-excerpt-creature]] - shared statements and technical atoms: Creature shares source evidence from USING ABILITY SCORES / Ability Scores and Modifiers: Each of a creature's abilities has a score, a number that defines the magnitude of that ability. An ability score is not just a measure of innate capabilities, but a ... [truncated]; Creature shares technical record from Table- Exhaustion Eﬀects: Table- Exhaustion Eﬀects | 3 | Disadvantage | on | attack | rolls | and | saving | throws | | --- | --- | --- | --- | --- | --- | --- | --- | | 4 | Hit point | maxim ... [truncated] (1 shared statement(s), 1 shared atom(s))
+- [[rpg-dnd-srd-excerpt-table]] - shared technical atoms: Table shares technical record from Table- Ability Scores and Modiﬁers: Table- Related  Skills Strength     Dexterity   Intelligence    Wisdom       Charisma Animal Athletics  Acrobatics    Arcana                      Deception Handling Sleight of (4 shared atom(s))
+- [[rpg-dnd-srd-excerpt-instead]] - shared technical atoms: Instead shares technical record from Advantage and Disadvantage: If multiple situations affect a roll and each one grants advantage or imposes disadvantage on it, you don't roll more than one additional d20. (2 shared atom(s))
+- [[rpg-dnd-srd-excerpt-target]] - shared technical atoms: Target shares technical record from Making an Attack / Melee Attacks / Grappling: A grappled creature can use its action to escape. (2 shared atom(s))
+- [[rpg-dnd-srd-excerpt-condition]] - shared technical atoms: Condition shares technical record from Table- Exhaustion Eﬀects: Table- Exhaustion Eﬀects | 3 | Disadvantage | on | attack | rolls | and | saving | throws | | --- | --- | --- | --- | --- | --- | --- | --- | | 4 | Hit point | maxim ... [truncated] (1 shared atom(s))
+- [[rpg-dnd-srd-excerpt-level]] - shared technical atoms: Level shares technical record from Table- Exhaustion Eﬀects: Table- Exhaustion Eﬀects | 3 | Disadvantage | on | attack | rolls | and | saving | throws | | --- | --- | --- | --- | --- | --- | --- | --- | | 4 | Hit point | maxim ... [truncated] (1 shared atom(s))
+- [[rpg-dnd-srd-excerpt-melee]] - shared technical atoms: Melee shares technical record from Making an Attack / Melee Attacks / Two-Weapon Fighting: If either weapon has the thrown property, you can throw the weapon, instead of making a melee attack with it. (1 shared atom(s))
+- [[rpg-dnd-srd-excerpt-proficiency]] - shared technical atoms: Proficiency shares technical record from Ability Checks / Skills: If the character is proficient in Athletics, the character's proficiency bonus is added to the Strength check. (1 shared atom(s))
+- [[rpg-dnd-srd-excerpt-strength]] - shared technical atoms: Strength shares technical record from Table- Related Skills: Table- Related  Skills Strength     Dexterity   Intelligence    Wisdom       Charisma Animal Athletics  Acrobatics    Arcana                      Deception Handling Sleight of (1 shared atom(s))
+- [[rpg-dnd-srd-excerpt-throw]] - shared technical atoms: Throw shares technical record from Table- Exhaustion Eﬀects: Table- Exhaustion Eﬀects | 3 | Disadvantage | on | attack | rolls | and | saving | throws | | --- | --- | --- | --- | --- | --- | --- | --- | | 4 | Hit point | maxim ... [truncated] (1 shared atom(s))
+- [[rpg-dnd-srd-excerpt-typical]] - shared technical atoms: Typical shares technical record from Table- Diﬀiculty Classes: Table- Diﬀiculty Classes | Task | Diﬀiculty | DC | | --- | --- | --- | | Very | easy | 5 | | Easy |  | 10 | | Medium |  | 15 | | Hard |  | 20 | | Very | hard | 25 | ... [truncated] (1 shared atom(s))
+- [[rpg-dnd-srd-excerpt-character]] - shared statements: Character shares source evidence from Ability Checks: An ability check tests a character's or monster's innate talent and training in an effort to overcome a challenge. The GM calls for an ability check when a character ... [truncated] (3 shared statement(s))
+- [[rpg-dnd-srd-excerpt-action]] - shared statements: Action shares source evidence from Ability Checks: An ability check tests a character's or monster's innate talent and training in an effort to overcome a challenge. The GM calls for an ability check when a character ... [truncated] (1 shared statement(s))
+- [[rpg-dnd-srd-excerpt-attempt]] - shared statements: Attempt shares source evidence from Ability Checks: An ability check tests a character's or monster's innate talent and training in an effort to overcome a challenge. The GM calls for an ability check when a character ... [truncated] (1 shared statement(s))
+- [[rpg-dnd-srd-excerpt-cover]] - shared statements: Cover shares source evidence from Ability Checks / Skills: Each ability covers a broad range of capabilities, including skills that a character or a monster can be proficient in. A skill represents a specific aspect of an ab ... [truncated] (1 shared statement(s))
+- [[rpg-dnd-srd-excerpt-decide]] - shared statements: Decide shares source evidence from Ability Checks: For every ability check, the GM decides which of the six abilities is relevant to the task at hand and the difficulty of the task, represented by a Difficulty Class. (1 shared statement(s))
+- [[rpg-dnd-srd-excerpt-modifier]] - shared statements: Modifier shares source evidence from USING ABILITY SCORES / Ability Scores and Modifiers: Each ability also has a modifier, derived from the score and ranging from -5 (for an ability score of 1) to +10 (for a score of 30). The Ability Scores and Modifiers ... [truncated] (1 shared statement(s))
+- [[rpg-dnd-srd-excerpt-total]] - shared statements: Total shares source evidence from Ability Checks: To make an ability check, roll a d20 and add the relevant ability modifier. As with other d20 rolls, apply bonuses and penalties, and compare the total to the DC. If ... [truncated] (1 shared statement(s))
 - [[rpg-dnd-srd-excerpt-section-ability-checks-using-each-ability-71f6f002]] - source section: Ability Checks / Using Each Ability shares source evidence from Ability Checks / Using Each Ability: Every task that a character or monster might attempt in the game is covered by one of the six abilities. This section explains in more detail what those abilities me ... [truncated]; Ability Checks / Using Each Ability shares technical record from Ability Checks / Using Each Ability / Dexterity: The GM might also call for a Dexterity (Acrobatics) check to see if you can perform acrobatic stunts, including dives, rolls, somersaults, and flips. (68 shared statement(s), 8 shared atom(s))
 
 ## Source

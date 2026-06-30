@@ -14,7 +14,7 @@ from llmwiki.domain.ledger.canonical import deterministic_id
 from llmwiki.domain.ledger.common import ConfidenceBasis
 from llmwiki.domain.ledger.entries import LedgerEntry
 from llmwiki.domain.ledger.segments import SourceSegment
-from llmwiki.domain.ledger.topic_terms import content_terms
+from llmwiki.domain.ledger.topic_terms import content_terms, topic_field_matches
 
 _CONTEXT_KINDS = {"paragraph", "list"}
 _INTRO = re.compile(
@@ -52,13 +52,15 @@ def build_technical_atom_contexts(
     atoms: tuple[TechnicalAtom, ...],
 ) -> tuple[TechnicalAtomContext, ...]:
     by_range = {segment.source_range_id: segment for segment in segments}
+    index_by_range = {segment.source_range_id: index for index, segment in enumerate(segments)}
     entry_ids_by_range = _entry_ids_by_range(entries)
     contexts: list[TechnicalAtomContext] = []
     for atom in atoms:
         segment = by_range.get(atom.source_range_id)
-        if segment is None:
+        segment_index = index_by_range.get(atom.source_range_id)
+        if segment is None or segment_index is None:
             continue
-        context_segments, role = _context_segments(atom, segment, segments)
+        context_segments, role = _context_segments(segment_index, segments)
         if not context_segments:
             continue
         context_text = _context_text(context_segments)
@@ -90,11 +92,16 @@ def build_technical_atom_contexts(
 
 
 def atom_context_matches(
-    contexts: tuple[TechnicalAtomContext, ...], matcher: re.Pattern[str]
+    contexts: tuple[TechnicalAtomContext, ...],
+    matcher: re.Pattern[str],
+    terms: tuple[str, ...] = (),
+    required_terms: tuple[str, ...] | None = None,
 ) -> bool:
     return any(
-        matcher.search(context.context_text)
-        or any(matcher.search(term) for term in context.demonstrated_concept_keys)
+        topic_field_matches(context.context_text, matcher, terms, required_terms)
+        or topic_field_matches(
+            " ".join(context.demonstrated_concept_keys), matcher, terms, required_terms
+        )
         for context in contexts
     )
 
@@ -113,13 +120,10 @@ def best_atom_context(
 
 
 def _context_segments(
-    atom: TechnicalAtom,
-    atom_segment: SourceSegment,
-    segments: tuple[SourceSegment, ...],
+    atom_index: int, segments: tuple[SourceSegment, ...]
 ) -> tuple[tuple[SourceSegment, ...], str]:
-    index = segments.index(atom_segment)
-    previous = _previous_context_segments(segments, index)
-    following = _following_context_segments(segments, index)
+    previous = _previous_context_segments(segments, atom_index)
+    following = _following_context_segments(segments, atom_index)
     selected = previous + following
     if previous and following:
         return (selected, "introduced-and-explained-by-source-prose")

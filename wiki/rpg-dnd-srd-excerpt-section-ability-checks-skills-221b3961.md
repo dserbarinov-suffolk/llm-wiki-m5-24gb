@@ -1,13 +1,14 @@
 ---
 page_id: rpg-dnd-srd-excerpt-section-ability-checks-skills-221b3961
 page_kind: source
-summary: Ability Checks / Skills: 25 source-backed entries and 4 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
+summary: Ability Checks / Skills: 25 source-backed entries and 2 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
+page_family: section-reference
 sources: raw/rpg_dnd_srd_excerpt.pdf
-updated: 2026-06-29
+updated: 2026-06-30
 domain: rpg-dnd-srd-excerpt
 category_path: sources/rpg-dnd-srd-excerpt/sections
 source_id: rpg_dnd_srd_excerpt.pdf
-projection_coverage: section-rpg-dnd-srd-excerpt-section-ability-checks-skills-221b3961@58bc3fa0084a8dd532ea1ce6f9b28ff3
+projection_coverage: section-rpg-dnd-srd-excerpt-section-ability-checks-skills-221b3961@774f91add1d8be8cbeb44dd0ef471a84
 ---
 
 # Ability Checks / Skills
@@ -72,16 +73,6 @@ Table- Related  Skills
 
 ### Technical frame 2: Ability Checks / Skills
 
-**Context:** _(rpg_dnd_srd_excerpt.pdf (source-range-4449ec9f-00116))_
-
-> For example, if a character attempts to climb up a dangerous cliff, the GM might ask for a Strength (Athletics) check. If the character is proficient in Athletics, the character's proficiency bonus is added to the Strength check. If the character lacks that proficiency, he or she just makes a Strength check.
-
-**Atom:** _(rpg_dnd_srd_excerpt.pdf (source-range-4449ec9f-00115))_
-
-> In either case, proficiency in a skill means an individual can add his or her proficiency bonus to ability checks that involve that skill.
-
-### Technical frame 3: Ability Checks / Skills
-
 **Context:** _(rpg_dnd_srd_excerpt.pdf (source-range-4449ec9f-00115))_
 
 > Sometimes, the GM might ask for an ability check using a specific skill-for example, "Make a Wisdom (Perception) check." At other times, a player might ask the GM if proficiency in a particular skill applies to a check. In either case, proficiency in a skill means an individual can add his or her proficiency bonus to ability checks that involve that skill. Without proficiency in the skill, the individual makes a normal ability check.
@@ -89,9 +80,3 @@ Table- Related  Skills
 **Atom:** _(rpg_dnd_srd_excerpt.pdf (source-range-4449ec9f-00116))_
 
 > If the character is proficient in Athletics, the character's proficiency bonus is added to the Strength check.
-
-### Technical frame 4: Ability Checks / Skills / Variant: Skills with Different Abilities
-
-**Atom:** _(rpg_dnd_srd_excerpt.pdf (source-range-4449ec9f-00118))_
-
-> For example, if you have to swim from an offshore island to the mainland, your GM might call for a Constitution check to see if you have the stamina to make it that far.

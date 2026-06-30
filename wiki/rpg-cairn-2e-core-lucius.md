@@ -2,11 +2,12 @@
 page_id: rpg-cairn-2e-core-lucius
 page_kind: concept
 summary: Lucius: 15 statement(s) and 1 atom(s) from raw/rpg_cairn_2e_core.pdf.
+page_family: topic-concept
 sources: raw/rpg_cairn_2e_core.pdf
-updated: 2026-06-29
+updated: 2026-06-30
 domain: rpg-cairn-2e-core
 category_path: concepts
-projection_coverage: topic-rpg-cairn-2e-core-lucius@04cbfc1ba229f1503f738e0ee011fea0
+projection_coverage: topic-rpg-cairn-2e-core-lucius@ee35ccf466e403e894ce970456ace633
 ---
 
 # Lucius
@@ -75,10 +76,10 @@ What [[rpg-cairn-2e-core]] covers about lucius:
 
 - [[rpg-cairn-2e-core-freya]] - shared statements and technical atoms: Freya shares source evidence from Combat / Example: Wolfram, Lucius, and Freya each save DEX to see whether they can take a turn in the first round. Wolfram and Freya succeed, but Lucius does not.; Freya shares technical record from Combat / Example: She makes a STR save to see if she can stay in the fight. (5 shared statement(s), 1 shared atom(s))
 - [[rpg-cairn-2e-core-wolfram]] - shared statements and technical atoms: Wolfram shares source evidence from Combat / Example: Wolfram, Lucius, and Freya each save DEX to see whether they can take a turn in the first round. Wolfram and Freya succeed, but Lucius does not.; Wolfram shares technical record from Combat / Example: She makes a STR save to see if she can stay in the fight. (4 shared statement(s), 1 shared atom(s))
-- [[rpg-cairn-2e-core-traditional-save]] - shared statements: Traditional Saves shares source evidence from Saves / Traditional Saves / Strength: Wolfram dashes through the underground jail cell, a bundle of cloth held tightly to his chest. Lucius and Freya are right behind, fighting off a very large guard and his pet wolf. (7 shared statement(s))
-- [[rpg-cairn-2e-core-wil]] - shared statements: WIL shares source evidence from Saves / Traditional Saves / WIL: Lucius has been captured after helping a client try to break into the ancient vault of Der Thunn. In a sudden glut of courage, he allowed himself be taken so that th ... [truncated] (4 shared statement(s))
-- [[rpg-cairn-2e-core-courtyard]] - shared statements: The Courtyard shares source evidence from Dungeon Exploration / Dungeon Exploration Example / The Courtyard: Warden : " Lucius , the door is locked, ancient, and partly rotted away. It bears a rusted iron lock. What do you do now?" (2 shared statement(s))
+- [[rpg-cairn-2e-core-save]] - shared statements and technical atoms: Save shares source evidence from Combat / Example: Wolfram, Lucius, and Freya each save DEX to see whether they can take a turn in the first round. Wolfram and Freya succeed, but Lucius does not.; Save shares technical record from Combat / Example: She makes a STR save to see if she can stay in the fight. (1 shared statement(s), 1 shared atom(s))
+- [[rpg-cairn-2e-core-dungeon-exploration]] - shared statements: Dungeon Exploration shares source evidence from Dungeon Exploration / Dungeon Exploration Example: Wolfram, Lucius, and Freya have entered the first level of Ein Eyton , a forest temple once rumored to house an infamous death cult. Each character has a torch, but ... [truncated] (3 shared statement(s))
 - [[rpg-cairn-2e-core-warden]] - shared statements: Warden shares source evidence from Dungeon Exploration / Dungeon Exploration Example / The Courtyard: Warden : " Lucius , the door is locked, ancient, and partly rotted away. It bears a rusted iron lock. What do you do now?" (2 shared statement(s))
+- [[rpg-cairn-2e-core-door]] - shared statements: Door shares source evidence from Dungeon Exploration / Dungeon Exploration Example / The Courtyard: Warden : " Lucius , the door is locked, ancient, and partly rotted away. It bears a rusted iron lock. What do you do now?" (1 shared statement(s))
 
 ## Source
 

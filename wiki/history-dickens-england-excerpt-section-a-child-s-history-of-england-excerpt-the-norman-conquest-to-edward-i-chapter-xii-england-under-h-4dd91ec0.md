@@ -2,12 +2,13 @@
 page_id: history-dickens-england-excerpt-section-a-child-s-history-of-england-excerpt-the-norman-conquest-to-edward-i-chapter-xii-england-under-h-4dd91ec0
 page_kind: source
 summary: A Child's History of England (Excerpt: The Norman Conquest to Edward I) / CHAPTER XII--ENGLAND UNDER HENRY THE SECOND / PART THE SECOND: 115 source-backed entries and 0 atom(s) from raw/history_dickens_england_excerpt.pdf.
+page_family: section-reference
 sources: raw/history_dickens_england_excerpt.pdf
-updated: 2026-06-29
+updated: 2026-06-30
 domain: history-dickens-england-excerpt
 category_path: sources/history-dickens-england-excerpt/sections
 source_id: history_dickens_england_excerpt.pdf
-projection_coverage: section-history-dickens-england-excerpt-section-a-child-s-history-of-england-excerpt-the-norman-conquest-to-edward-i-chapter-xii-england-under-h-4dd91ec0@701c1253235d04bdfa3b9b9703dc97c7
+projection_coverage: section-history-dickens-england-excerpt-section-a-child-s-history-of-england-excerpt-the-norman-conquest-to-edward-i-chapter-xii-england-under-h-4dd91ec0@5837918b186ba45bed68c103d6f6951f
 ---
 
 # A Child's History of England (Excerpt: The Norman Conquest to Edward I) / CHAPTER XII--ENGLAND UNDER HENRY THE SECOND / PART THE SECOND
@@ -18,7 +19,6 @@ From [[history-dickens-england-excerpt]].
 
 - [[history-dickens-england-excerpt-section-a-child-s-history-of-england-excerpt-the-norman-conquest-to-edward-i-chapter-xii-england-under-h-4e5eb688]] - broader source section: A Child's History of England (Excerpt: The Norman Conquest to Edward I) / CHAPTER XII--ENGLAND UNDER HENRY THE SECOND
 - [[history-dickens-england-excerpt-section-a-child-s-history-of-england-excerpt-the-norman-conquest-to-edward-i-chapter-xii-england-under-h-7477dca1]] - previous source section: A Child's History of England (Excerpt: The Norman Conquest to Edward I) / CHAPTER XII--ENGLAND UNDER HENRY THE SECOND / PART THE FIRST
-- [[history-dickens-england-excerpt-second]] - topic hub: opens the topic page for Second
 
 ## Statements
 

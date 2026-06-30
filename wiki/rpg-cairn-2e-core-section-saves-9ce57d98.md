@@ -1,13 +1,14 @@
 ---
 page_id: rpg-cairn-2e-core-section-saves-9ce57d98
 page_kind: source
-summary: Saves: 99 source-backed entries and 4 atom(s) from raw/rpg_cairn_2e_core.pdf.
+summary: Saves: 99 source-backed entries and 2 atom(s) from raw/rpg_cairn_2e_core.pdf.
+page_family: section-reference
 sources: raw/rpg_cairn_2e_core.pdf
-updated: 2026-06-29
+updated: 2026-06-30
 domain: rpg-cairn-2e-core
 category_path: sources/rpg-cairn-2e-core/sections
 source_id: rpg_cairn_2e_core.pdf
-projection_coverage: section-rpg-cairn-2e-core-section-saves-9ce57d98@4f8eb56938bd9c6255b8c6c06e0e47fd
+projection_coverage: section-rpg-cairn-2e-core-section-saves-9ce57d98@ce6bd2cbb31172a3c78ea9c0ad5af3a3
 ---
 
 # Saves
@@ -23,6 +24,7 @@ From [[rpg-cairn-2e-core]].
 - [[rpg-cairn-2e-core-section-saves-aiding-an-ally-058b6835]] - narrower source section: Saves / Aiding an Ally
 - [[rpg-cairn-2e-core-section-combat-528c27b9]] - previous source section: Combat
 - [[rpg-cairn-2e-core-section-knowledge-and-perception-545a6122]] - next source section: Knowledge And Perception
+- [[rpg-cairn-2e-core-save]] - topic hub: opens the topic page for Save
 
 ## Statements by subsection
 
@@ -125,23 +127,3 @@ From [[rpg-cairn-2e-core]].
 **Atom:** _(rpg_cairn_2e_core.pdf (source-range-9b4fff26-00510))_
 
 > If a PC can solve a problem using purely narrative components, do not ask for a roll .
-
-### Technical frame 3: Saves / Traditional Saves / WIL
-
-**Context:** _(rpg_cairn_2e_core.pdf (source-range-9b4fff26-00540))_
-
-> The party splits up, and Freya learns what she needs to from a local fence. (It costs her one of the Twins, and she is not happy about it). Lucius is awaiting his sentence in a jail beneath the constabulary.
-
-**Atom:** _(rpg_cairn_2e_core.pdf (source-range-9b4fff26-00539))_
-
-> You can spend the night trying to make connections among your kind, if you like.
-
-### Technical frame 4: Saves / Traditional Saves / WIL
-
-**Context:** _(rpg_cairn_2e_core.pdf (source-range-9b4fff26-00558))_
-
-> Warden : "You'd need to make a WIL save even if you weren't telling the truth. You're definitely the most at risk here, and despite your experience as a charlatan, you think she can probably see through any lie. She and you might not be so different."
-
-**Atom:** _(rpg_cairn_2e_core.pdf (source-range-9b4fff26-00557))_
-
-> But that means I have to make a WIL save, right?

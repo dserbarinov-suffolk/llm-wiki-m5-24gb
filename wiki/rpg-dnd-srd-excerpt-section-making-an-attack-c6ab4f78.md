@@ -1,13 +1,14 @@
 ---
 page_id: rpg-dnd-srd-excerpt-section-making-an-attack-c6ab4f78
 page_kind: source
-summary: Making an Attack: 180 source-backed entries and 33 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
+summary: Making an Attack: 180 source-backed entries and 10 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
+page_family: section-reference
 sources: raw/rpg_dnd_srd_excerpt.pdf
-updated: 2026-06-29
+updated: 2026-06-30
 domain: rpg-dnd-srd-excerpt
 category_path: sources/rpg-dnd-srd-excerpt/sections
 source_id: rpg_dnd_srd_excerpt.pdf
-projection_coverage: section-rpg-dnd-srd-excerpt-section-making-an-attack-c6ab4f78@64083103b7d31e534d1606184cb846e1
+projection_coverage: section-rpg-dnd-srd-excerpt-section-making-an-attack-c6ab4f78@0c91b165fc4de980c0bb6bdeacd524b3
 ---
 
 # Making an Attack
@@ -26,6 +27,7 @@ From [[rpg-dnd-srd-excerpt]].
 - [[rpg-dnd-srd-excerpt-section-making-an-attack-temporary-hit-points-ba78c103]] - narrower source section: Making an Attack / Temporary Hit Points
 - [[rpg-dnd-srd-excerpt-section-actions-in-combat-a776ce7e]] - previous source section: Actions in Combat
 - [[rpg-dnd-srd-excerpt-section-mounted-combat-563b0c2c]] - next source section: Mounted Combat
+- [[rpg-dnd-srd-excerpt-attack]] - topic hub: opens the topic page for Attack
 
 ## Statements
 
@@ -218,23 +220,7 @@ From [[rpg-dnd-srd-excerpt]].
 
 > If there's ever any question whether something you're doing counts as an attack, the rule is simple: if you're making an attack roll, you're making an attack.
 
-### Technical frame 2: Making an Attack / Attack Rolls
-
-**Atom:** _(rpg_dnd_srd_excerpt.pdf (source-range-4449ec9f-00367))_
-
-> When you make an attack, your attack roll determines whether the attack hits or misses.
-
-### Technical frame 3: Making an Attack / Attack Rolls / Modifiers to the Roll
-
-**Context:** _(rpg_dnd_srd_excerpt.pdf (source-range-4449ec9f-00370))_
-
-> Ability Modifier. The ability modifier used for a melee weapon attack is Strength, and the ability modifier used for a ranged weapon attack is Dexterity. Weapons that have the finesse or thrown property break this rule.
-
-**Atom:** _(rpg_dnd_srd_excerpt.pdf (source-range-4449ec9f-00369))_
-
-> When a character makes an attack roll, the two most common modifiers to the roll are an ability modifier and the character's proficiency bonus.
-
-### Technical frame 4: Making an Attack / Attack Rolls / Rolling 1 or 20
+### Technical frame 2: Making an Attack / Attack Rolls / Rolling 1 or 20
 
 **Context:** _(rpg_dnd_srd_excerpt.pdf (source-range-4449ec9f-00375))_
 
@@ -244,17 +230,7 @@ From [[rpg-dnd-srd-excerpt]].
 
 > If the d20 roll for an attack is a 1, the attack misses regardless of any modifiers or the target's AC.
 
-### Technical frame 5: Making an Attack / Unseen Attackers and Targets
-
-**Context:** _(rpg_dnd_srd_excerpt.pdf (source-range-4449ec9f-00380))_
-
-> When a creature can't see you, you have advantage on attack rolls against it. If you are hidden-both unseen and unheard-when you make an attack, you give away your location when the attack hits or misses.
-
-**Atom:** _(rpg_dnd_srd_excerpt.pdf (source-range-4449ec9f-00379))_
-
-> When you attack a target that you can't see, you have disadvantage on the attack roll.
-
-### Technical frame 6: Making an Attack / Unseen Attackers and Targets
+### Technical frame 3: Making an Attack / Unseen Attackers and Targets
 
 **Context:** _(rpg_dnd_srd_excerpt.pdf (source-range-4449ec9f-00379))_
 
@@ -264,7 +240,7 @@ From [[rpg-dnd-srd-excerpt]].
 
 > When a creature can't see you, you have advantage on attack rolls against it.
 
-### Technical frame 7: Making an Attack / Melee Attacks
+### Technical frame 4: Making an Attack / Melee Attacks
 
 **Context:** _(rpg_dnd_srd_excerpt.pdf (source-range-4449ec9f-00392))_
 
@@ -274,23 +250,7 @@ From [[rpg-dnd-srd-excerpt]].
 
 > Most creatures have a 5-foot reach and can thus attack targets within 5 feet of them when making a melee attack.
 
-### Technical frame 8: Making an Attack / Melee Attacks
-
-**Context:** _(rpg_dnd_srd_excerpt.pdf (source-range-4449ec9f-00398))_
-
-> You can avoid provoking an opportunity attack by taking the Disengage action. You also don't provoke an opportunity attack when you teleport or when someone or something moves you without using your movement, action, or reaction. For example, you don't provoke an opportunity attack if an explosion hurls you out of a foe's reach or if gravity causes you to fall past an enemy.
-
-**Atom:** _(rpg_dnd_srd_excerpt.pdf (source-range-4449ec9f-00397))_
-
-> You can make an opportunity attack when a hostile creature that you can see moves out of your reach.
-
-### Technical frame 9: Making an Attack / Melee Attacks / Two-Weapon Fighting
-
-**Atom:** _(rpg_dnd_srd_excerpt.pdf (source-range-4449ec9f-00400))_
-
-> When you take the Attack action and attack with a light melee weapon that you're holding in one hand, you can use a bonus action to attack with a different light melee weapon that you're holding in the other hand.
-
-### Technical frame 10: Making an Attack / Melee Attacks / Two-Weapon Fighting
+### Technical frame 5: Making an Attack / Melee Attacks / Two-Weapon Fighting
 
 **Context:** _(rpg_dnd_srd_excerpt.pdf (source-range-4449ec9f-00400))_
 
@@ -300,17 +260,7 @@ From [[rpg-dnd-srd-excerpt]].
 
 > If either weapon has the thrown property, you can throw the weapon, instead of making a melee attack with it.
 
-### Technical frame 11: Making an Attack / Melee Attacks / Grappling
-
-**Context:** _(rpg_dnd_srd_excerpt.pdf (source-range-4449ec9f-00404))_
-
-> The target of your grapple must be no more than one size larger than you and must be within your reach. Using at least one free hand, you try to seize the target by making a grapple check instead of an attack roll: a Strength (Athletics) check contested by the target's Strength (Athletics) or Dexterity (Acrobatics) check (the target chooses the ability to use). You succeed automatically if the target is incapacitated. If you succeed, you subject the target to the grappled condition (see appendix
-
-**Atom:** _(rpg_dnd_srd_excerpt.pdf (source-range-4449ec9f-00403))_
-
-> When you want to grab a creature or wrestle with it, you can use the Attack action to make a special melee attack, a grapple.
-
-### Technical frame 12: Making an Attack / Melee Attacks / Grappling
+### Technical frame 6: Making an Attack / Melee Attacks / Grappling
 
 **Context:** _(rpg_dnd_srd_excerpt.pdf (source-range-4449ec9f-00406))_
 
@@ -320,7 +270,7 @@ From [[rpg-dnd-srd-excerpt]].
 
 > The condition specifies the things that end it, and you can release the target whenever you like (no action required).
 
-### Technical frame 13: Making an Attack / Melee Attacks / Grappling
+### Technical frame 7: Making an Attack / Melee Attacks / Grappling
 
 **Context:** _(rpg_dnd_srd_excerpt.pdf (source-range-4449ec9f-00406))_
 
@@ -330,57 +280,7 @@ From [[rpg-dnd-srd-excerpt]].
 
 > A grappled creature can use its action to escape.
 
-### Technical frame 14: Making an Attack / Melee Attacks / Grappling
-
-**Context:** _(rpg_dnd_srd_excerpt.pdf (source-range-4449ec9f-00404))_
-
-> The target of your grapple must be no more than one size larger than you and must be within your reach. Using at least one free hand, you try to seize the target by making a grapple check instead of an attack roll: a Strength (Athletics) check contested by the target's Strength (Athletics) or Dexterity (Acrobatics) check (the target chooses the ability to use). You succeed automatically if the target is incapacitated. If you succeed, you subject the target to the grappled condition (see appendix
-
-**Atom:** _(rpg_dnd_srd_excerpt.pdf (source-range-4449ec9f-00406))_
-
-> When you move, you can drag or carry the grappled creature with you, but your speed is halved, unless the creature is two or more sizes smaller than you.
-
-### Technical frame 15: Making an Attack / Melee Attacks / Shoving a Creature
-
-**Context:** _(rpg_dnd_srd_excerpt.pdf (source-range-4449ec9f-00409))_
-
-> The target must be no more than one size larger than you and must be within your reach. Instead of making an attack roll, you make a Strength (Athletics) check contested by the target's Strength (Athletics) or Dexterity (Acrobatics) check (the target chooses the ability to use). You succeed automatically if the target is incapacitated. If you succeed, you either knock the target prone or push it 5 feet away from you.
-
-**Atom:** _(rpg_dnd_srd_excerpt.pdf (source-range-4449ec9f-00408))_
-
-> Using the Attack action, you can make a special melee attack to shove a creature, either to knock it prone or push it away from you.
-
-### Technical frame 16: Making an Attack / Cover
-
-**Context:** _(rpg_dnd_srd_excerpt.pdf (source-range-4449ec9f-00412))_
-
-> There are three degrees of cover. If a target is behind multiple sources of cover, only the most protective degree of cover applies; the degrees aren't added together. For example, if a target is behind a creature that gives half cover and a tree trunk that gives threequarters cover, the target has three-quarters cover.
-
-**Atom:** _(rpg_dnd_srd_excerpt.pdf (source-range-4449ec9f-00411))_
-
-> Walls, trees, creatures, and other obstacles can provide cover during combat, making a target more difficult to harm.
-
-### Technical frame 17: Making an Attack / Damage and Healing / Hit Points
-
-**Context:** _(rpg_dnd_srd_excerpt.pdf (source-range-4449ec9f-00420))_
-
-> A creature's current hit points (usually just called hit points) can be any number from the creature's hit point maximum down to 0. This number changes frequently as a creature takes damage or receives healing.
-
-**Atom:** _(rpg_dnd_srd_excerpt.pdf (source-range-4449ec9f-00421))_
-
-> Whenever a creature takes damage, that damage is subtracted from its hit points.
-
-### Technical frame 18: Making an Attack / Damage and Healing / Damage Rolls
-
-**Context:** _(rpg_dnd_srd_excerpt.pdf (source-range-4449ec9f-00425))_
-
-> If a spell or other effect deals damage to more than one target at the same time, roll the damage once for all of them. For example, when a wizard casts fi reball or a cleric casts fl ame strike , the spell's damage is rolled once for all creatures caught in the blast.
-
-**Atom:** _(rpg_dnd_srd_excerpt.pdf (source-range-4449ec9f-00424))_
-
-> When attacking with a weapon , you add your ability modifier-the same modifier used for the attack roll-to the damage.
-
-### Technical frame 19: Making an Attack / Damage and Healing / Damage Rolls
+### Technical frame 8: Making an Attack / Damage and Healing / Damage Rolls
 
 **Context:** _(rpg_dnd_srd_excerpt.pdf (source-range-4449ec9f-00424))_
 
@@ -390,17 +290,7 @@ From [[rpg-dnd-srd-excerpt]].
 
 > If a spell or other effect deals damage to more than one target at the same time, roll the damage once for all of them.
 
-### Technical frame 20: Making an Attack / Damage and Healing / Critical Hits
-
-**Context:** _(rpg_dnd_srd_excerpt.pdf (source-range-4449ec9f-00428))_
-
-> For example, if you score a critical hit with a dagger, roll 2d4 for the damage, rather than 1d4, and then add your relevant ability modifier. If the attack involves other damage dice, such as from the rogue's Sneak Attack feature, you roll those dice twice as well.
-
-**Atom:** _(rpg_dnd_srd_excerpt.pdf (source-range-4449ec9f-00427))_
-
-> When you score a critical hit, you get to roll extra dice for the attack's damage against the target.
-
-### Technical frame 21: Making an Attack / Damage and Healing / Critical Hits
+### Technical frame 9: Making an Attack / Damage and Healing / Critical Hits
 
 **Context:** _(rpg_dnd_srd_excerpt.pdf (source-range-4449ec9f-00427))_
 
@@ -410,17 +300,7 @@ From [[rpg-dnd-srd-excerpt]].
 
 > For example, if you score a critical hit with a dagger, roll 2d4 for the damage, rather than 1d4, and then add your relevant ability modifier.
 
-### Technical frame 22: Making an Attack / Damage and Healing / Damage Resistance and Vulnerability
-
-**Context:** _(rpg_dnd_srd_excerpt.pdf (source-range-4449ec9f-00432))_
-
-> Some creatures and objects are exceedingly difficult or unusually easy to hurt with certain types of damage. If a creature or an object has resistance to a damage type, damage of that type is halved against it. If a creature or an object has vulnerability to a damage type, damage of that type is doubled against it.
-
-**Atom:** _(rpg_dnd_srd_excerpt.pdf (source-range-4449ec9f-00433))_
-
-> Resistance and then vulnerability are applied after all other modifiers to damage. For example, a creature has resistance to bludgeoning damage and is hit by an attack that deals 25 bludgeoning damage. The creature is also within a magical aura that reduces all damage by 5. The 25 damage is first reduced by 5 and then halved, so the creature takes 10 damage.
-
-### Technical frame 23: Making an Attack / Damage and Healing / Damage Resistance and Vulnerability
+### Technical frame 10: Making an Attack / Damage and Healing / Damage Resistance and Vulnerability
 
 **Context:** _(rpg_dnd_srd_excerpt.pdf (source-range-4449ec9f-00432))_
 
@@ -429,99 +309,3 @@ From [[rpg-dnd-srd-excerpt]].
 **Atom:** _(rpg_dnd_srd_excerpt.pdf (source-range-4449ec9f-00434))_
 
 > For example, if a creature has resistance to fire damage as well as resistance to all nonmagical damage, the damage of a nonmagical fire is reduced by half against the creature, not reduced by three-quarters.
-
-### Technical frame 24: Making an Attack / Damage and Healing / Healing
-
-**Context:** _(rpg_dnd_srd_excerpt.pdf (source-range-4449ec9f-00438))_
-
-> A creature that has died can't regain hit points until magic such as the revivify spell has restored it to life.
-
-**Atom:** _(rpg_dnd_srd_excerpt.pdf (source-range-4449ec9f-00437))_
-
-> When a creature receives healing of any kind, hit points regained are added to its current hit points.
-
-### Technical frame 25: Making an Attack / Damage and Healing / Instant Death
-
-**Context:** _(rpg_dnd_srd_excerpt.pdf (source-range-4449ec9f-00442))_
-
-> Massive damage can kill you instantly. When damage reduces you to 0 hit points and there is damage remaining, you die if the remaining damage equals or exceeds your hit point maximum.
-
-**Atom:** _(rpg_dnd_srd_excerpt.pdf (source-range-4449ec9f-00443))_
-
-> For example, a cleric with a maximum of 12 hit points currently has 6 hit points. If she takes 18 damage from an attack, she is reduced to 0 hit points, but 12 damage remains. Because the remaining damage equals her hit point maximum, the cleric dies.
-
-### Technical frame 26: Making an Attack / Damage and Healing / Instant Death
-
-**Context:** _(rpg_dnd_srd_excerpt.pdf (source-range-4449ec9f-00442))_
-
-> Massive damage can kill you instantly. When damage reduces you to 0 hit points and there is damage remaining, you die if the remaining damage equals or exceeds your hit point maximum.
-
-**Atom:** _(rpg_dnd_srd_excerpt.pdf (source-range-4449ec9f-00443))_
-
-> If she takes 18 damage from an attack, she is reduced to 0 hit points, but 12 damage remains.
-
-### Technical frame 27: Making an Attack / Damage and Healing / Death Saving Throws
-
-**Context:** _(rpg_dnd_srd_excerpt.pdf (source-range-4449ec9f-00448))_
-
-> Roll a d20. If the roll is 10 or higher, you succeed. Otherwise, you fail. A success or failure has no effect by itself. On your third success, you become stable (see below). On your third failure, you die. The successes and failures don't need to be consecutive; keep track of both until you collect three of a kind. The number of both is reset to zero when you regain any hit points or become stable.
-
-**Atom:** _(rpg_dnd_srd_excerpt.pdf (source-range-4449ec9f-00447))_
-
-> Whenever you start your turn with 0 hit points, you must make a special saving throw, called a death saving throw, to determine whether you creep closer to death or hang onto life.
-
-### Technical frame 28: Making an Attack / Damage and Healing / Death Saving Throws
-
-**Context:** _(rpg_dnd_srd_excerpt.pdf (source-range-4449ec9f-00453))_
-
-> You can use your action to administer first aid to an unconscious creature and attempt to stabilize it, which requires a successful DC 10 Wisdom (Medicine) check.
-
-**Atom:** _(rpg_dnd_srd_excerpt.pdf (source-range-4449ec9f-00452))_
-
-> If healing is unavailable, the creature can at least be stabilized so that it isn't killed by a failed death saving throw.
-
-### Technical frame 29: Making an Attack / Damage and Healing / Death Saving Throws
-
-**Context:** _(rpg_dnd_srd_excerpt.pdf (source-range-4449ec9f-00453))_
-
-> You can use your action to administer first aid to an unconscious creature and attempt to stabilize it, which requires a successful DC 10 Wisdom (Medicine) check.
-
-**Atom:** _(rpg_dnd_srd_excerpt.pdf (source-range-4449ec9f-00454))_
-
-> The creature stops being stable, and must start making death saving throws again, if it takes any damage.
-
-### Technical frame 30: Making an Attack / Knocking a Creature Out
-
-**Atom:** _(rpg_dnd_srd_excerpt.pdf (source-range-4449ec9f-00459))_
-
-> When an attacker reduces a creature to 0 hit points with a melee attack, the attacker can knock the creature out.
-
-### Technical frame 31: Making an Attack / Temporary Hit Points
-
-**Context:** _(rpg_dnd_srd_excerpt.pdf (source-range-4449ec9f-00464))_
-
-> they last until they're depleted or you finish a long rest.
-
-**Atom:** _(rpg_dnd_srd_excerpt.pdf (source-range-4449ec9f-00462))_
-
-> For example, if you have 5 temporary hit points and take 7 damage, you lose the temporary hit points and then take 2 damage.
-
-### Technical frame 32: Making an Attack / Temporary Hit Points
-
-**Context:** _(rpg_dnd_srd_excerpt.pdf (source-range-4449ec9f-00464))_
-
-> they last until they're depleted or you finish a long rest.
-
-**Atom:** _(rpg_dnd_srd_excerpt.pdf (source-range-4449ec9f-00463))_
-
-> Because temporary hit points are separate from your actual hit points, they can exceed your hit point maximum. A character can, therefore, be at full hit points and receive temporary hit points. Healing can't restore temporary hit points, and they can't be added together. If you have temporary hit points and receive more of them, you decide whether to keep the ones you have or to gain the new ones. For example, if a spell grants you 12 temporary hit points when you already have 10, you can have 12 or 10, not 22. If you have 0 hit points, receiving temporary hit points doesn't restore you to consciousness or stabilize you. They can still absorb damage directed at you while you're in that state, but only true healing can save you. Unless a feature that grants you temporary hit points has a duration,
-
-### Technical frame 33: Making an Attack / Temporary Hit Points
-
-**Context:** _(rpg_dnd_srd_excerpt.pdf (source-range-4449ec9f-00464))_
-
-> they last until they're depleted or you finish a long rest.
-
-**Atom:** _(rpg_dnd_srd_excerpt.pdf (source-range-4449ec9f-00463))_
-
-> If you have temporary hit points and receive more of them, you decide whether to keep the ones you have or to gain the new ones.

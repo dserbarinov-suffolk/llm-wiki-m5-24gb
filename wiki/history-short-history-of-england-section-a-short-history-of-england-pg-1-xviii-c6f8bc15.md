@@ -1,13 +1,14 @@
 ---
 page_id: history-short-history-of-england-section-a-short-history-of-england-pg-1-xviii-c6f8bc15
 page_kind: source
-summary: A SHORT HISTORY OF ENGLAND [Pg 1] / XVIII: 75 source-backed entries and 5 atom(s) from raw/history_short_history_of_england.pdf.
+summary: A SHORT HISTORY OF ENGLAND [Pg 1] / XVIII: 75 source-backed entries and 1 atom(s) from raw/history_short_history_of_england.pdf.
+page_family: section-reference
 sources: raw/history_short_history_of_england.pdf
-updated: 2026-06-29
+updated: 2026-06-30
 domain: history-short-history-of-england
 category_path: sources/history-short-history-of-england/sections
 source_id: history_short_history_of_england.pdf
-projection_coverage: section-history-short-history-of-england-section-a-short-history-of-england-pg-1-xviii-c6f8bc15@8b63eea892dfc1e8906ec8cf24d4228d
+projection_coverage: section-history-short-history-of-england-section-a-short-history-of-england-pg-1-xviii-c6f8bc15@81b3dd8c8875b81329031bce5d8a9fc5
 ---
 
 # A SHORT HISTORY OF ENGLAND [Pg 1] / XVIII
@@ -20,7 +21,6 @@ From [[history-short-history-of-england]].
 - [[history-short-history-of-england-section-a-short-history-of-england-pg-1-xviii-conclusion-1a03ebdd]] - narrower source section: A SHORT HISTORY OF ENGLAND [Pg 1] / XVIII / CONCLUSION
 - [[history-short-history-of-england-section-a-short-history-of-england-pg-1-xviii-the-end-e1f6de7a]] - narrower source section: A SHORT HISTORY OF ENGLAND [Pg 1] / XVIII / THE END
 - [[history-short-history-of-england-section-a-short-history-of-england-pg-1-xvii-d8995f6b]] - previous source section: A SHORT HISTORY OF ENGLAND [Pg 1] / XVII
-- [[history-short-history-of-england-xviii]] - topic hub: opens the topic page for Xviii
 
 ## Statements by subsection
 
@@ -53,26 +53,6 @@ From [[history-short-history-of-england]].
 ## Technical atoms
 
 ### Technical frame 1: A SHORT HISTORY OF ENGLAND [Pg 1] / XVIII / THE END
-
-**Context:** _(history_short_history_of_england.pdf (source-range-46d51aaf-00486))_
-
-> Creating the works from public domain print editions means that no one owns a United States copyright in these works, so the Foundation (and you!) can copy and distribute it in the United States without permission and without paying copyright royalties. Special rules, set forth in the General Terms of Use part of this license, apply to copying and distributing Project Gutenberg-tm electronic works to protect the PROJECT GUTENBERG-tm concept and trademark. Project Gutenberg is a registered tradem
-
-**Atom:** _(history_short_history_of_england.pdf (source-range-46d51aaf-00481))_
-
-> [Figure] (p.72)
-
-### Technical frame 2: A SHORT HISTORY OF ENGLAND [Pg 1] / XVIII / THE END
-
-**Context:** _(history_short_history_of_england.pdf (source-range-46d51aaf-00488))_
-
-> THE FULL PROJECT GUTENBERG LICENSE PLEASE READ THIS BEFORE YOU DISTRIBUTE OR USE THIS WORK
-
-**Atom:** _(history_short_history_of_england.pdf (source-range-46d51aaf-00486))_
-
-> You may use this eBook for nearly any purpose such as creation of derivative works, reports, performances and research.
-
-### Technical frame 3: A SHORT HISTORY OF ENGLAND [Pg 1] / XVIII / THE END
 
 **Context:** _(history_short_history_of_england.pdf (source-range-46d51aaf-00494))_
 
@@ -142,23 +122,3 @@ You	comply	with	all	other	terms	of	this	agreement	for	free distribution	of	Proje
 | 1.F.6. | INDEMNITY - You agree to indemnify and hold the Foundation, the trademark owner, any agent or employee of the Foundation, anyone providing copies of Project Gutenberg-tm electronic works in accordance with this agreement, and any volunteers associated with the production, promotion and distribution of Project Gutenberg-tm electronic works, harmless from all liability, costs and expenses, including legal fees, that arise directly or indirectly from any of the following which you do or cause to occur: (a) distribution of this or any Project Gutenberg-tm work, (b) alteration, modification, or additions or deletions to any Project Gutenberg-tm work, and (c) any Defect you cause. |  |
 
 </details>
-
-### Technical frame 4: A SHORT HISTORY OF ENGLAND [Pg 1] / XVIII / THE END
-
-**Context:** _(history_short_history_of_england.pdf (source-range-46d51aaf-00494))_
-
-> Each eBook is in a subdirectory of the same number as the eBook's eBook number, often in several formats including plain vanilla ASCII, compressed (zipped), HTML and others. Corrected EDITIONS of our eBooks replace the old file and take over the old filename and etext number. The replaced older file is renamed. VERSIONS based on separate sources are treated as new eBooks receiving new filenames and etext numbers. Most people start at our Web site which has the main PG search facility: http://www
-
-**Atom:** _(history_short_history_of_england.pdf (source-range-46d51aaf-00493))_
-
-> International donations are gratefully accepted, but we cannot make any statements concerning tax treatment of donations received from outside the United States.
-
-### Technical frame 5: A SHORT HISTORY OF ENGLAND [Pg 1] / XVIII / THE END
-
-**Context:** _(history_short_history_of_england.pdf (source-range-46d51aaf-00493))_
-
-> Project Gutenberg-tm is synonymous with the free distribution of electronic works in formats readable by the widest variety of computers including obsolete, old, middle-aged and new computers. It exists because of the efforts of hundreds of volunteers and donations from people in all walks of life. Volunteers and financial support to provide volunteers with the assistance they need, is critical to reaching Project Gutenberg-tm's goals and ensuring that the Project Gutenberg-tm collection will re
-
-**Atom:** _(history_short_history_of_england.pdf (source-range-46d51aaf-00494))_
-
-> If you want to download any of these eBooks directly, rather than using the regular search system you may utilize the following addresses and just download by the etext year.

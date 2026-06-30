@@ -1,13 +1,14 @@
 ---
 page_id: rpg-dnd-srd-excerpt-section-ability-checks-e5ec4644
 page_kind: source
-summary: Ability Checks: 157 source-backed entries and 15 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
+summary: Ability Checks: 157 source-backed entries and 3 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
+page_family: section-reference
 sources: raw/rpg_dnd_srd_excerpt.pdf
-updated: 2026-06-29
+updated: 2026-06-30
 domain: rpg-dnd-srd-excerpt
 category_path: sources/rpg-dnd-srd-excerpt/sections
 source_id: rpg_dnd_srd_excerpt.pdf
-projection_coverage: section-rpg-dnd-srd-excerpt-section-ability-checks-e5ec4644@2e2187308c552d7e9fdcc12815c301d2
+projection_coverage: section-rpg-dnd-srd-excerpt-section-ability-checks-e5ec4644@59fdc0fe61da95a758fd26cfd19874bc
 ---
 
 # Ability Checks
@@ -23,7 +24,6 @@ From [[rpg-dnd-srd-excerpt]].
 - [[rpg-dnd-srd-excerpt-section-ability-checks-using-each-ability-71f6f002]] - narrower source section: Ability Checks / Using Each Ability
 - [[rpg-dnd-srd-excerpt-section-proficiency-bonus-3b149c8c]] - previous source section: Proficiency Bonus
 - [[rpg-dnd-srd-excerpt-section-saving-throws-e3ad3ac4]] - next source section: Saving Throws
-- [[rpg-dnd-srd-excerpt-ability-check]] - topic hub: opens the topic page for Ability Check
 
 ## Statements
 
@@ -224,16 +224,6 @@ Table- Related  Skills
 
 ### Technical frame 3: Ability Checks / Skills
 
-**Context:** _(rpg_dnd_srd_excerpt.pdf (source-range-4449ec9f-00116))_
-
-> For example, if a character attempts to climb up a dangerous cliff, the GM might ask for a Strength (Athletics) check. If the character is proficient in Athletics, the character's proficiency bonus is added to the Strength check. If the character lacks that proficiency, he or she just makes a Strength check.
-
-**Atom:** _(rpg_dnd_srd_excerpt.pdf (source-range-4449ec9f-00115))_
-
-> In either case, proficiency in a skill means an individual can add his or her proficiency bonus to ability checks that involve that skill.
-
-### Technical frame 4: Ability Checks / Skills
-
 **Context:** _(rpg_dnd_srd_excerpt.pdf (source-range-4449ec9f-00115))_
 
 > Sometimes, the GM might ask for an ability check using a specific skill-for example, "Make a Wisdom (Perception) check." At other times, a player might ask the GM if proficiency in a particular skill applies to a check. In either case, proficiency in a skill means an individual can add his or her proficiency bonus to ability checks that involve that skill. Without proficiency in the skill, the individual makes a normal ability check.
@@ -241,109 +231,3 @@ Table- Related  Skills
 **Atom:** _(rpg_dnd_srd_excerpt.pdf (source-range-4449ec9f-00116))_
 
 > If the character is proficient in Athletics, the character's proficiency bonus is added to the Strength check.
-
-### Technical frame 5: Ability Checks / Skills / Variant: Skills with Different Abilities
-
-**Atom:** _(rpg_dnd_srd_excerpt.pdf (source-range-4449ec9f-00118))_
-
-> For example, if you have to swim from an offshore island to the mainland, your GM might call for a Constitution check to see if you have the stamina to make it that far.
-
-### Technical frame 6: Ability Checks / Passive Checks
-
-**Context:** _(rpg_dnd_srd_excerpt.pdf (source-range-4449ec9f-00121))_
-
-> checks, as do the exploration rules.
-
-**Atom:** _(rpg_dnd_srd_excerpt.pdf (source-range-4449ec9f-00120))_
-
-> Such a check can represent the average result for a task done repeatedly, such as searching for secret doors over and over again, or can be used when the GM wants to secretly determine whether the characters succeed at something without rolling dice, such as noticing a hidden monster.
-
-### Technical frame 7: Ability Checks / Working Together
-
-**Context:** _(rpg_dnd_srd_excerpt.pdf (source-range-4449ec9f-00123))_
-
-> Sometimes two or more characters team up to attempt a task. The character who's leading the effort-or the one with the highest ability modifier-can make an ability check with advantage, reflecting the help provided by the other characters. In combat, this requires the Help action.
-
-**Atom:** _(rpg_dnd_srd_excerpt.pdf (source-range-4449ec9f-00124))_
-
-> A character can only provide help if the task is one that he or she could attempt alone.
-
-### Technical frame 8: Ability Checks / Using Each Ability / Dexterity
-
-**Context:** _(rpg_dnd_srd_excerpt.pdf (source-range-4449ec9f-00159))_
-
-> Sleight of Hand . Whenever you attempt an act of legerdemain or manual trickery, such as planting something on someone else or concealing an object on your person, make a Dexterity (Sleight of Hand) check. The GM might also call for a Dexterity (Sleight of Hand) check to determine whether you can lift a coin purse off another person or slip something out of another person's pocket.
-
-**Atom:** _(rpg_dnd_srd_excerpt.pdf (source-range-4449ec9f-00158))_
-
-> The GM might also call for a Dexterity (Acrobatics) check to see if you can perform acrobatic stunts, including dives, rolls, somersaults, and flips.
-
-### Technical frame 9: Ability Checks / Using Each Ability / Dexterity
-
-**Context:** _(rpg_dnd_srd_excerpt.pdf (source-range-4449ec9f-00173))_
-
-> Depending on the armor you wear, you might add some or all of your Dexterity modifier to your Armor Class.
-
-**Atom:** _(rpg_dnd_srd_excerpt.pdf (source-range-4449ec9f-00171))_
-
-> You can also add your Dexterity modifier to your attack roll and your damage roll when attacking with a melee weapon that has the finesse property, such as a dagger or a rapier.
-
-### Technical frame 10: Ability Checks / Using Each Ability / Dexterity
-
-**Context:** _(rpg_dnd_srd_excerpt.pdf (source-range-4449ec9f-00179))_
-
-> An invisible creature can always try to hide. Signs of its passage might still be noticed, and it does have to stay quiet.
-
-**Atom:** _(rpg_dnd_srd_excerpt.pdf (source-range-4449ec9f-00178))_
-
-> You can't hide from a creature that can see you clearly, and you give away your position if you make noise, such as shouting a warning or knocking over a vase.
-
-### Technical frame 11: Ability Checks / Using Each Ability / Dexterity
-
-**Context:** _(rpg_dnd_srd_excerpt.pdf (source-range-4449ec9f-00180))_
-
-> In combat, most creatures stay alert for signs of danger all around, so if you come out of hiding and approach a creature, it usually sees you. However, under certain circumstances, the GM might allow you to stay hidden as you approach a creature that is distracted, allowing you to gain advantage on an attack roll before you are seen.
-
-**Atom:** _(rpg_dnd_srd_excerpt.pdf (source-range-4449ec9f-00179))_
-
-> An invisible creature can always try to hide.
-
-### Technical frame 12: Ability Checks / Using Each Ability / Dexterity
-
-**Context:** _(rpg_dnd_srd_excerpt.pdf (source-range-4449ec9f-00182))_
-
-> What Can You See? One of the main factors in determining whether you can find a hidden creature or object is how well you can see in an area, which might be lightly or heavily obscured , as explained in the "Adventuring" section.
-
-**Atom:** _(rpg_dnd_srd_excerpt.pdf (source-range-4449ec9f-00181))_
-
-> If the creature has advantage, add 5.
-
-### Technical frame 13: Ability Checks / Using Each Ability / Constitution
-
-**Context:** _(rpg_dnd_srd_excerpt.pdf (source-range-4449ec9f-00194))_
-
-> Your Constitution modifier contributes to your hit points. Typically, you add your Constitution modifier to each Hit Die you roll for your hit points.
-
-**Atom:** _(rpg_dnd_srd_excerpt.pdf (source-range-4449ec9f-00195))_
-
-> For example, if you raise your Constitution score when you reach 4th level and your Constitution modifier increases from +1 to +2, you adjust your hit point maximum as though the modifier had always been +2.
-
-### Technical frame 14: Ability Checks / Using Each Ability / Wisdom
-
-**Context:** _(rpg_dnd_srd_excerpt.pdf (source-range-4449ec9f-00221))_
-
-> Perception . Your Wisdom (Perception) check lets you spot, hear, or otherwise detect the presence of something. It measures your general awareness of your surroundings and the keenness of your senses. For example, you might try to hear a conversation through a closed door, eavesdrop under an open window, or hear monsters moving stealthily in the forest. Or you might try to spot things that are obscured or easy to miss, whether they are orcs lying in ambush on a road, thugs hiding in the shadows 
-
-**Atom:** _(rpg_dnd_srd_excerpt.pdf (source-range-4449ec9f-00218))_
-
-> When there is any question whether you can calm down a domesticated animal, keep a mount from getting spooked, or intuit an animal's intentions, the GM might call for a Wisdom (Animal Handling) check.
-
-### Technical frame 15: Ability Checks / Using Each Ability / Wisdom
-
-**Context:** _(rpg_dnd_srd_excerpt.pdf (source-range-4449ec9f-00221))_
-
-> Perception . Your Wisdom (Perception) check lets you spot, hear, or otherwise detect the presence of something. It measures your general awareness of your surroundings and the keenness of your senses. For example, you might try to hear a conversation through a closed door, eavesdrop under an open window, or hear monsters moving stealthily in the forest. Or you might try to spot things that are obscured or easy to miss, whether they are orcs lying in ambush on a road, thugs hiding in the shadows 
-
-**Atom:** _(rpg_dnd_srd_excerpt.pdf (source-range-4449ec9f-00219))_
-
-> Your Wisdom (Insight) check decides whether you can determine the true intentions of a creature, such as when searching out a lie or predicting someone's next move.

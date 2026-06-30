@@ -2,11 +2,12 @@
 page_id: coding-learn-go-with-tests-excerpt-function
 page_kind: concept
 summary: Function: 7 statement(s) and 7 atom(s) from raw/coding_learn_go_with_tests_excerpt.pdf.
+page_family: topic-concept
 sources: raw/coding_learn_go_with_tests_excerpt.pdf
-updated: 2026-06-29
+updated: 2026-06-30
 domain: coding-learn-go-with-tests-excerpt
 category_path: concepts
-projection_coverage: topic-coding-learn-go-with-tests-excerpt-function@bce5aae6f58316d4960ad79167267bc3
+projection_coverage: topic-coding-learn-go-with-tests-excerpt-function@24fc5f8c14446c2374535652b046d8b2
 ---
 
 # Function
@@ -165,13 +166,14 @@ func (d Dictionary) Update(word, definition string) {}
 
 ## Related pages
 
-- [[coding-learn-go-with-tests-excerpt-array-and-type]] - shared statements and technical atoms: Arrays and their type shares source evidence from Arrays and their type / Write the minimal amount of code for the test to run and check the failing test output: From Go 1.21, slices standard package is available, which has slices.Equal function to do a simple shallow compare on slices, where you don't need to worry about the ... [truncated]; Arrays and their type shares technical record from Arrays and their type / Write the minimal amount of code for the test to run and check the failing test output: ./sum_test.go:26:9: invalid operation: got != want (slice can only be compared to nil) (2 shared statement(s), 3 shared atom(s))
-- [[coding-learn-go-with-tests-excerpt-testable]] - shared statements and technical atoms: Testable Examples shares source evidence from Testable Examples: Example functions are compiled whenever tests are executed. Because such examples are validated by the Go compiler, you can be confident your documentation's example ... [truncated]; Testable Examples shares technical record from Testable Examples: func ExampleAdd() { sum := Add(1, 5) fmt.Println(sum) // Output: 6 } (1 shared statement(s), 2 shared atom(s))
-- [[coding-learn-go-with-tests-excerpt-pointer-copy]] - shared statements and technical atoms: Pointers, copies, et al shares source evidence from Pointers, copies, et al: So when you pass a map to a function/method, you are indeed copying it, but just the pointer part, not the underlying data structure that contains the data.; Pointers, copies, et al shares technical record from Pointers, copies, et al / Write minimal amount of code for the test to run and check the failing test output: func (d Dictionary) Update(word, definition string) {} (2 shared statement(s), 1 shared atom(s))
-- [[coding-learn-go-with-tests-excerpt-custom-type]] - shared statements and technical atoms: Using a custom type shares source evidence from Using a custom type / Write the test first: We actually get nothing back. This is good because the program can continue to run, but there is a better approach. The function can report that the word is not in t ... [truncated]; Using a custom type shares technical record from Using a custom type / Write the test first: func TestSearch(t *testing.T) { dictionary := Dictionary{"test": "this is just a test"} t.Run("known word", func(t *testing.T) { got, _ := dictionary.Search("test") ... [truncated] (1 shared statement(s), 1 shared atom(s))
+- [[coding-learn-go-with-tests-excerpt-note]] - shared statements and technical atoms: Note shares source evidence from Arrays and their type / Write the minimal amount of code for the test to run and check the failing test output: From Go 1.21, slices standard package is available, which has slices.Equal function to do a simple shallow compare on slices, where you don't need to worry about the ... [truncated]; Note shares technical record from Arrays and their type / Write the minimal amount of code for the test to run and check the failing test output: ./sum_test.go:26:9: invalid operation: got != want (slice can only be compared to nil) (1 shared statement(s), 1 shared atom(s))
+- [[coding-learn-go-with-tests-excerpt-write-test]] - shared statements and technical atoms: Write the test first shares source evidence from Using a custom type / Write the test first: We actually get nothing back. This is good because the program can continue to run, but there is a better approach. The function can report that the word is not in t ... [truncated]; Write the test first shares technical record from Using a custom type / Write the test first: func TestSearch(t *testing.T) { dictionary := Dictionary{"test": "this is just a test"} t.Run("known word", func(t *testing.T) { got, _ := dictionary.Search("test") ... [truncated] (1 shared statement(s), 1 shared atom(s))
 - [[coding-learn-go-with-tests-excerpt-package]] - shared technical atoms: Package shares technical record from Testable Examples: func ExampleAdd() { sum := Add(1, 5) fmt.Println(sum) // Output: 6 } (3 shared atom(s))
 - [[coding-learn-go-with-tests-excerpt-test]] - shared technical atoms: Test shares technical record from Testable Examples: func ExampleAdd() { sum := Add(1, 5) fmt.Println(sum) // Output: 6 } (2 shared atom(s))
-- [[coding-learn-go-with-tests-excerpt-refactor]] - shared statements: one...last...refactor? shares source evidence from one...last...refactor?: In our function signature we have made a named return value (prefix string) . (1 shared statement(s))
+- [[coding-learn-go-with-tests-excerpt-comment]] - shared technical atoms: Comment shares technical record from Testable Examples: $ go test -v === RUN   TestAdder --- PASS: TestAdder (0.00s) === RUN   ExampleAdd --- PASS: ExampleAdd (0.00s) (1 shared atom(s))
+- [[coding-learn-go-with-tests-excerpt-standard]] - shared technical atoms: Standard shares technical record from Arrays and their type / Write the minimal amount of code for the test to run and check the failing test output: ./sum_test.go:26:9: invalid operation: got != want (slice can only be compared to nil) (1 shared atom(s))
+- [[coding-learn-go-with-tests-excerpt-try-run-test]] - shared technical atoms: Try and run the test shares technical record from Testable Examples: $ go test -v === RUN   TestAdder --- PASS: TestAdder (0.00s) === RUN   ExampleAdd --- PASS: ExampleAdd (0.00s) (1 shared atom(s))
+- [[coding-learn-go-with-tests-excerpt-write-code-pass]] - shared statements: Write enough code to make it pass shares source evidence from Pointers, copies, et al / Write enough code to make it pass: This function looks almost identical to Add except we switched when we update the dictionary and when we return an error. (1 shared statement(s))
 
 ## Source
 

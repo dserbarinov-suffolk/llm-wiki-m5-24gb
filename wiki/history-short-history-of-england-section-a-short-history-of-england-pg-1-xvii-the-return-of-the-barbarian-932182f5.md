@@ -1,13 +1,14 @@
 ---
 page_id: history-short-history-of-england-section-a-short-history-of-england-pg-1-xvii-the-return-of-the-barbarian-932182f5
 page_kind: source
-summary: A SHORT HISTORY OF ENGLAND [Pg 1] / XVII / THE RETURN OF THE BARBARIAN: 126 source-backed entries and 3 atom(s) from raw/history_short_history_of_england.pdf.
+summary: A SHORT HISTORY OF ENGLAND [Pg 1] / XVII / THE RETURN OF THE BARBARIAN: 126 source-backed entries and 0 atom(s) from raw/history_short_history_of_england.pdf.
+page_family: section-reference
 sources: raw/history_short_history_of_england.pdf
-updated: 2026-06-29
+updated: 2026-06-30
 domain: history-short-history-of-england
 category_path: sources/history-short-history-of-england/sections
 source_id: history_short_history_of_england.pdf
-projection_coverage: section-history-short-history-of-england-section-a-short-history-of-england-pg-1-xvii-the-return-of-the-barbarian-932182f5@b260ab7dba8cfcb418e38992881248d1
+projection_coverage: section-history-short-history-of-england-section-a-short-history-of-england-pg-1-xvii-the-return-of-the-barbarian-932182f5@0f52514a37e6a29040b44baf2761711a
 ---
 
 # A SHORT HISTORY OF ENGLAND [Pg 1] / XVII / THE RETURN OF THE BARBARIAN
@@ -17,7 +18,6 @@ From [[history-short-history-of-england]].
 ## Related pages
 
 - [[history-short-history-of-england-section-a-short-history-of-england-pg-1-xvii-d8995f6b]] - broader source section: A SHORT HISTORY OF ENGLAND [Pg 1] / XVII
-- [[history-short-history-of-england-return-barbarian]] - topic hub: opens the topic page for Return Barbarian
 
 ## Statements
 
@@ -51,35 +51,3 @@ From [[history-short-history-of-england]].
 - For the common crowd of poor and ignorant Englishmen, because they only knew that they were Englishmen, burst through the filthy cobwebs of four hundred years and stood where their fathers stood when they knew that they were Christian men. _(history_short_history_of_england.pdf (source-range-46d51aaf-00467))_
 - And when the critic of politics and literature, feeling that this war is after all heroic, looks around him to find the hero, he can point to nothing but a mob. _(history_short_history_of_england.pdf (source-range-46d51aaf-00467))_
 - Then were spread out before men's eyes all the beauties of his culture and all the benefits of his organization; then we beheld under a lifting daybreak what light we had followed and after what image we had laboured to refashion ourselves. _(history_short_history_of_england.pdf (source-range-46d51aaf-00467))_
-
-## Technical atoms
-
-### Technical frame 1: A SHORT HISTORY OF ENGLAND [Pg 1] / XVII / THE RETURN OF THE BARBARIAN
-
-**Context:** _(history_short_history_of_england.pdf (source-range-46d51aaf-00453))_
-
-> But if this was the evolution of parliamentary reform, as represented by the first Reform Bill, we can see the other side of it in the social reform attacked immediately after the first Reform Bill. It is a truth that should be a tower and a landmark, that one of the first things done by the Reform Parliament was to establish those harsh and dehumanised workhouses which both honest Radicals and honest Tories branded with the black title of the New Bastille. This bitter name lingers in our litera
-
-**Atom:** _(history_short_history_of_england.pdf (source-range-46d51aaf-00448))_
-
-> If it be a splendid fate to have survived the Flood, the English oligarchy had that added splendour.
-
-### Technical frame 2: A SHORT HISTORY OF ENGLAND [Pg 1] / XVII / THE RETURN OF THE BARBARIAN
-
-**Context:** _(history_short_history_of_england.pdf (source-range-46d51aaf-00453))_
-
-> But if this was the evolution of parliamentary reform, as represented by the first Reform Bill, we can see the other side of it in the social reform attacked immediately after the first Reform Bill. It is a truth that should be a tower and a landmark, that one of the first things done by the Reform Parliament was to establish those harsh and dehumanised workhouses which both honest Radicals and honest Tories branded with the black title of the New Bastille. This bitter name lingers in our litera
-
-**Atom:** _(history_short_history_of_england.pdf (source-range-46d51aaf-00452))_
-
-> The first thing to note, then, about the nineteenth century is that Europe remained herself as compared with the Europe of the great war, and that England especially remained herself as compared even with the rest of Europe. Granted this, we may give their proper importance to the cautious internal changes in this country, the small conscious and the large unconscious changes. Most of the conscious ones were much upon the model of an early one, the great Reform Bill of 1832, and can be considered in the light of it. First, from the standpoint of most real reformers, the chief thing about the Reform Bill was that it did not reform. It had a huge tide of popular enthusiasm behind it, which wholly disappeared when the people found themselves in front of it. It enfranchised large masses of the middle classes; it disfranchised very definite bodies of the working classes; and it so struck the balance between the conservative and the dangerous elements in the commonwealth that the governing class was rather stronger than before. The date, however, is important, not at all because it was the beginning of democracy, but because it was the beginning of the best way ever discovered of evading and postponing democracy. Here enters the homœopathic treatment of revolution, since so often successful. Well into the next generation Disraeli, the brilliant Jewish adventurer who was the symbol of the English aristocracy being no longer genuine, extended the franchise to the artisans, partly, indeed, as a party move against his great rival, Gladstone, but more as the method by which the old popular pressure was first tired out and then toned down. The politicians said the working-class was now strong enough to be allowed votes. It would be truer to say it was now weak enough to be allowed votes. So in more recent times Payment of Members, which would once have been regarded (and resisted) as an inrush of popular forces, was passed quietly and without resistance, and regarded merely as an extension of parliamentary privileges. The truth is that the old parliamentary oligarchy abandoned their first line of trenches because they had by that time constructed a second line of defence. It consisted in the concentration of colossal political funds in the private and irresponsible power of the politicians, collected by the sale of peerages and more important things, and expended on the jerrymandering of the enormously expensive elections. In the presence of this inner obstacle a vote became about as valuable as a railway ticket when there is a permanent block on the line. The façade and outward form of this new secret government is the merely mechanical application of what is called the Party System. The Party System does not consist, as some suppose, of two parties, but of one. If there were two real parties, there could be no system. [Pg 226] [Pg 227]
-
-### Technical frame 3: A SHORT HISTORY OF ENGLAND [Pg 1] / XVII / THE RETURN OF THE BARBARIAN
-
-**Context:** _(history_short_history_of_england.pdf (source-range-46d51aaf-00457))_
-
-> Anyhow, the unconscious nineteenth-century movement, so slow that it seems stationary, was altogether in this direction, of which workhouse philanthropy is the type. Nevertheless, it had one national institution to combat and overcome; one institution all the more intensely national because it was not official, and in a sense not even political. The modern Trade Union was the inspiration and creation of the English; it is still largely known throughout Europe by its English name. It was the Engl
-
-**Atom:** _(history_short_history_of_england.pdf (source-range-46d51aaf-00456))_
-
-> Board of Guardians less cruel than cold weather and the bare ground-even if he were allowed to sleep on the ground, which (by a veritable nightmare of nonsense and injustice) he is not.

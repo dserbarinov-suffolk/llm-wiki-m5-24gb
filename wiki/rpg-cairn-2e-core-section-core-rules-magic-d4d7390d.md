@@ -1,13 +1,14 @@
 ---
 page_id: rpg-cairn-2e-core-section-core-rules-magic-d4d7390d
 page_kind: source
-summary: Core Rules / Magic: 17 source-backed entries and 1 atom(s) from raw/rpg_cairn_2e_core.pdf.
+summary: Core Rules / Magic: 17 source-backed entries and 0 atom(s) from raw/rpg_cairn_2e_core.pdf.
+page_family: section-reference
 sources: raw/rpg_cairn_2e_core.pdf
-updated: 2026-06-29
+updated: 2026-06-30
 domain: rpg-cairn-2e-core
 category_path: sources/rpg-cairn-2e-core/sections
 source_id: rpg_cairn_2e_core.pdf
-projection_coverage: section-rpg-cairn-2e-core-section-core-rules-magic-d4d7390d@e6fcc7e0accdcd7eedb83f83a87f09c3
+projection_coverage: section-rpg-cairn-2e-core-section-core-rules-magic-d4d7390d@383d19e2bda0515c1664f4127539d2f6
 ---
 
 # Core Rules / Magic
@@ -22,7 +23,6 @@ From [[rpg-cairn-2e-core]].
 - [[rpg-cairn-2e-core-section-core-rules-magic-scrolls-a79cd564]] - narrower source section: Core Rules / Magic / Scrolls
 - [[rpg-cairn-2e-core-section-core-rules-magic-relics-8c5ce0e6]] - narrower source section: Core Rules / Magic / Relics
 - [[rpg-cairn-2e-core-section-core-rules-scars-a80ec685]] - previous source section: Core Rules / Scars
-- [[rpg-cairn-2e-core-magic]] - topic hub: opens the topic page for Magic
 
 ## Statements by subsection
 
@@ -49,15 +49,3 @@ From [[rpg-cairn-2e-core]].
 
 - Relics are items imbued with a magical spell or power. They do not cause Fatigue. Relics usually have limited use, as well as a Recharge condition. _(rpg_cairn_2e_core.pdf (source-range-9b4fff26-00254))_
 - Relics usually have limited use, as well as a Recharge condition. _(rpg_cairn_2e_core.pdf (source-range-9b4fff26-00254))_
-
-## Technical atoms
-
-### Technical frame 1: Core Rules / Magic / Casting Spells
-
-**Context:** _(rpg_cairn_2e_core.pdf (source-range-9b4fff26-00247))_
-
-> If the PC is deprived or in danger (such as during combat), the Warden may require a PC to make a WIL save to avoid any illeffects from casting the spell. Consequences of failure are on par with the intended effect and may result in added Fatigue , the destruction of the Spellbook, injury, and even death.
-
-**Atom:** _(rpg_cairn_2e_core.pdf (source-range-9b4fff26-00244))_
-
-> They must then add a Fatigue to inventory.

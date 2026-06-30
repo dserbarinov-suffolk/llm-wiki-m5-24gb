@@ -1,13 +1,14 @@
 ---
 page_id: coding-learn-go-with-tests-excerpt-section-integers-771ce4c7
 page_kind: source
-summary: Integers: 29 source-backed entries and 11 atom(s) from raw/coding_learn_go_with_tests_excerpt.pdf.
+summary: Integers: 29 source-backed entries and 1 atom(s) from raw/coding_learn_go_with_tests_excerpt.pdf.
+page_family: section-reference
 sources: raw/coding_learn_go_with_tests_excerpt.pdf
-updated: 2026-06-29
+updated: 2026-06-30
 domain: coding-learn-go-with-tests-excerpt
 category_path: sources/coding-learn-go-with-tests-excerpt/sections
 source_id: coding_learn_go_with_tests_excerpt.pdf
-projection_coverage: section-coding-learn-go-with-tests-excerpt-section-integers-771ce4c7@c1a9484906aaeec9ef1c5515eafb960d
+projection_coverage: section-coding-learn-go-with-tests-excerpt-section-integers-771ce4c7@a56d4ba32044df7a9ffd0d03806a5b73
 ---
 
 # Integers
@@ -23,7 +24,6 @@ From [[coding-learn-go-with-tests-excerpt]].
 - [[coding-learn-go-with-tests-excerpt-section-integers-refactor-acc9e7fe]] - narrower source section: Integers / Refactor
 - [[coding-learn-go-with-tests-excerpt-section-the-tdd-process-and-why-the-steps-are-important-9302843f]] - previous source section: The TDD process and why the steps are important
 - [[coding-learn-go-with-tests-excerpt-section-testable-examples-80b8a2ce]] - next source section: Testable Examples
-- [[coding-learn-go-with-tests-excerpt-integer]] - topic hub: opens the topic page for Integer
 
 ## Statements
 
@@ -58,29 +58,7 @@ From [[coding-learn-go-with-tests-excerpt]].
 
 ## Technical atoms
 
-### Technical frame 1: Integers
-
-**Context:** _(coding_learn_go_with_tests_excerpt.pdf (source-range-cb73a893-00165))_
-
-> Note: Go source files can only have one package per directory. Make sure that your files are organised into their own packages. Here is a good explanation on this.
-
-**Atom:** _(coding_learn_go_with_tests_excerpt.pdf (source-range-cb73a893-00167))_
-
-```
-learnGoWithTests
-|
-   |-> helloworld
-   |    |- hello.go
-   |    |- hello_test.go
-   |
-   |-> integers
-   |    |- adder_test.go
-   |
-   |- go.mod
-   |- README.md
-```
-
-### Technical frame 2: Integers / Write the test first
+### Technical frame 1: Integers / Write the test first
 
 **Context:** _(coding_learn_go_with_tests_excerpt.pdf (source-range-cb73a893-00170))_
 
@@ -97,115 +75,5 @@ func TestAdder(t *testing.T) {
 if sum != expected {
         t.Errorf("expected '%d' but got '%d'", expected, sum)
     }
-}
-```
-
-### Technical frame 3: Integers / Try and run the test
-
-**Atom:** _(coding_learn_go_with_tests_excerpt.pdf (source-range-cb73a893-00173))_
-
-```
-Run the test go test
-Inspect the compilation error
-./adder_test.go:6:9: undefined: Add
-```
-
-### Technical frame 4: Integers / Write the minimal amount of code for the test to run and check the failing test output
-
-**Context:** _(coding_learn_go_with_tests_excerpt.pdf (source-range-cb73a893-00178))_
-
-> Now run the tests, and we should be happy that the test is correctly reporting what is wrong.
-
-**Atom:** _(coding_learn_go_with_tests_excerpt.pdf (source-range-cb73a893-00176))_
-
-```
-package integers
-func Add(x, y int) int {
-    return 0
-}
-```
-
-### Technical frame 5: Integers / Write the minimal amount of code for the test to run and check the failing test output
-
-**Context:** _(coding_learn_go_with_tests_excerpt.pdf (source-range-cb73a893-00178))_
-
-> Now run the tests, and we should be happy that the test is correctly reporting what is wrong.
-
-**Atom:** _(coding_learn_go_with_tests_excerpt.pdf (source-range-cb73a893-00177))_
-
-> Remember, when you have more than one argument of the same type (in our case two integers) rather than having (x int, y int) you can shorten it to (x, y int) .
-
-### Technical frame 6: Integers / Write the minimal amount of code for the test to run and check the failing test output
-
-**Context:** _(coding_learn_go_with_tests_excerpt.pdf (source-range-cb73a893-00180))_
-
-> If you have noticed we learnt about named return value in the last section but aren't using the same here. It should generally be used when the meaning of the result isn't clear from context, in our case it's pretty much clear that Add function will add the parameters. You can refer this wiki for more details.
-
-**Atom:** _(coding_learn_go_with_tests_excerpt.pdf (source-range-cb73a893-00179))_
-
-```
-adder_test.go:10: expected '4' but got '0'
-```
-
-### Technical frame 7: Integers / Write enough code to make it pass
-
-**Context:** _(coding_learn_go_with_tests_excerpt.pdf (source-range-cb73a893-00186))_
-
-> Once we're more familiar with Go's syntax I will introduce a technique called "Property Based Testing" , which would stop annoying developers and help you find bugs.
-
-**Atom:** _(coding_learn_go_with_tests_excerpt.pdf (source-range-cb73a893-00183))_
-
-```
-func Add(x, y int) int {
-    return 4
-}
-```
-
-### Technical frame 8: Integers / Write enough code to make it pass
-
-**Context:** _(coding_learn_go_with_tests_excerpt.pdf (source-range-cb73a893-00186))_
-
-> Once we're more familiar with Go's syntax I will introduce a technique called "Property Based Testing" , which would stop annoying developers and help you find bugs.
-
-**Atom:** _(coding_learn_go_with_tests_excerpt.pdf (source-range-cb73a893-00188))_
-
-```
-func Add(x, y int) int {
-    return x + y
-}
-```
-
-### Technical frame 9: Integers / Write enough code to make it pass
-
-**Context:** _(coding_learn_go_with_tests_excerpt.pdf (source-range-cb73a893-00186))_
-
-> Once we're more familiar with Go's syntax I will introduce a technique called "Property Based Testing" , which would stop annoying developers and help you find bugs.
-
-**Atom:** _(coding_learn_go_with_tests_excerpt.pdf (source-range-cb73a893-00189))_
-
-> If you re-run the tests they should pass.
-
-### Technical frame 10: Integers / Refactor
-
-**Context:** _(coding_learn_go_with_tests_excerpt.pdf (source-range-cb73a893-00193))_
-
-> This is great because it aids the usability of code you are writing. It is preferable that a user can understand the usage of your code by just looking at the type signature and documentation.
-
-**Atom:** _(coding_learn_go_with_tests_excerpt.pdf (source-range-cb73a893-00194))_
-
-> You can add documentation to functions with comments, and these will appear in Go Doc just like when you look at the standard library's documentation.
-
-### Technical frame 11: Integers / Refactor
-
-**Context:** _(coding_learn_go_with_tests_excerpt.pdf (source-range-cb73a893-00193))_
-
-> This is great because it aids the usability of code you are writing. It is preferable that a user can understand the usage of your code by just looking at the type signature and documentation.
-
-**Atom:** _(coding_learn_go_with_tests_excerpt.pdf (source-range-cb73a893-00195))_
-
-```
-// Add takes two integers and returns the sum of them.
-func Add(x, y int) int {
-    return x + y
 }
 ```

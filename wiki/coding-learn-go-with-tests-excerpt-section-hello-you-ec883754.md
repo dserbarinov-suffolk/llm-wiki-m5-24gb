@@ -1,13 +1,14 @@
 ---
 page_id: coding-learn-go-with-tests-excerpt-section-hello-you-ec883754
 page_kind: source
-summary: Hello, YOU: 22 source-backed entries and 9 atom(s) from raw/coding_learn_go_with_tests_excerpt.pdf.
+summary: Hello, YOU: 22 source-backed entries and 4 atom(s) from raw/coding_learn_go_with_tests_excerpt.pdf.
+page_family: section-reference
 sources: raw/coding_learn_go_with_tests_excerpt.pdf
-updated: 2026-06-29
+updated: 2026-06-30
 domain: coding-learn-go-with-tests-excerpt
 category_path: sources/coding-learn-go-with-tests-excerpt/sections
 source_id: coding_learn_go_with_tests_excerpt.pdf
-projection_coverage: section-coding-learn-go-with-tests-excerpt-section-hello-you-ec883754@9969f4c5b91409e89e49e6c668eec53c
+projection_coverage: section-coding-learn-go-with-tests-excerpt-section-hello-you-ec883754@be894d4bab3b8ff9ce89f50480425773
 ---
 
 # Hello, YOU
@@ -18,7 +19,6 @@ From [[coding-learn-go-with-tests-excerpt]].
 
 - [[coding-learn-go-with-tests-excerpt-section-go-s-documentation-38415959]] - previous source section: Go's documentation
 - [[coding-learn-go-with-tests-excerpt-section-a-note-on-source-control-a3be3365]] - next source section: A note on source control
-- [[coding-learn-go-with-tests-excerpt-hello-you]] - topic hub: opens the topic page for Hello You
 
 ## Statements
 
@@ -37,49 +37,6 @@ From [[coding-learn-go-with-tests-excerpt]].
 
 ### Technical frame 1: Hello, YOU
 
-**Context:** _(coding_learn_go_with_tests_excerpt.pdf (source-range-cb73a893-00051))_
-
-> When using a statically typed language like Go it is important to listen to the compiler . The compiler understands how your code should snap together and work so you don't have to.
-
-**Atom:** _(coding_learn_go_with_tests_excerpt.pdf (source-range-cb73a893-00046))_
-
-> When you retrospectively write tests, there is the risk that your test may continue to pass even if the code doesn't work as intended.
-
-### Technical frame 2: Hello, YOU
-
-**Context:** _(coding_learn_go_with_tests_excerpt.pdf (source-range-cb73a893-00051))_
-
-> When using a statically typed language like Go it is important to listen to the compiler . The compiler understands how your code should snap together and work so you don't have to.
-
-**Atom:** _(coding_learn_go_with_tests_excerpt.pdf (source-range-cb73a893-00048))_
-
-```
-import "testing"
-func TestHello(t *testing.T) {
-    got := Hello("Chris")
-    want := "Hello, Chris"
-if got != want {
-        t.Errorf("got %q want %q", got, want)
-    }
-}
-```
-
-### Technical frame 3: Hello, YOU
-
-**Context:** _(coding_learn_go_with_tests_excerpt.pdf (source-range-cb73a893-00051))_
-
-> When using a statically typed language like Go it is important to listen to the compiler . The compiler understands how your code should snap together and work so you don't have to.
-
-**Atom:** _(coding_learn_go_with_tests_excerpt.pdf (source-range-cb73a893-00050))_
-
-```
-./hello_test.go:6:18: too many arguments in call to Hello
-have (string)
-   want ()
-```
-
-### Technical frame 4: Hello, YOU
-
 **Context:** _(coding_learn_go_with_tests_excerpt.pdf (source-range-cb73a893-00055))_
 
 > If you try and run your tests again your hello.go will fail to compile because you're not passing an argument. Send in "world" to make it compile.
@@ -92,7 +49,7 @@ func Hello(name string) string {
 }
 ```
 
-### Technical frame 5: Hello, YOU
+### Technical frame 2: Hello, YOU
 
 **Context:** _(coding_learn_go_with_tests_excerpt.pdf (source-range-cb73a893-00059))_
 
@@ -106,7 +63,7 @@ func main() {
 }
 ```
 
-### Technical frame 6: Hello, YOU
+### Technical frame 3: Hello, YOU
 
 **Context:** _(coding_learn_go_with_tests_excerpt.pdf (source-range-cb73a893-00059))_
 
@@ -116,7 +73,7 @@ func main() {
 
 > Now when you run your tests, you should see something like
 
-### Technical frame 7: Hello, YOU
+### Technical frame 4: Hello, YOU
 
 **Context:** _(coding_learn_go_with_tests_excerpt.pdf (source-range-cb73a893-00059))_
 
@@ -127,27 +84,3 @@ func main() {
 ```
 hello_test.go:10: got 'Hello, world' want 'Hello, Chris''
 ```
-
-### Technical frame 8: Hello, YOU
-
-**Context:** _(coding_learn_go_with_tests_excerpt.pdf (source-range-cb73a893-00062))_
-
-> When you run the tests, they should now pass. Normally, as part of the TDD cycle, we should now refactor .
-
-**Atom:** _(coding_learn_go_with_tests_excerpt.pdf (source-range-cb73a893-00061))_
-
-```
-func Hello(name string) string {
-    return "Hello, " + name
-}
-```
-
-### Technical frame 9: Hello, YOU
-
-**Context:** _(coding_learn_go_with_tests_excerpt.pdf (source-range-cb73a893-00059))_
-
-> We finally have a compiling program but it is not meeting our requirements according to the test.
-
-**Atom:** _(coding_learn_go_with_tests_excerpt.pdf (source-range-cb73a893-00062))_
-
-> When you run the tests, they should now pass.

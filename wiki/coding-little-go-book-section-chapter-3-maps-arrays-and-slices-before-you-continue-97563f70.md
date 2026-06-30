@@ -2,12 +2,13 @@
 page_id: coding-little-go-book-section-chapter-3-maps-arrays-and-slices-before-you-continue-97563f70
 page_kind: source
 summary: Chapter 3 - Maps, Arrays and Slices / Before You Continue: 4 source-backed entries and 0 atom(s) from raw/coding_little_go_book.pdf.
+page_family: section-reference
 sources: raw/coding_little_go_book.pdf
-updated: 2026-06-29
+updated: 2026-06-30
 domain: coding-little-go-book
 category_path: sources/coding-little-go-book/sections
 source_id: coding_little_go_book.pdf
-projection_coverage: section-coding-little-go-book-section-chapter-3-maps-arrays-and-slices-before-you-continue-97563f70@49cbccb67533391e083ddcf3d174853b
+projection_coverage: section-coding-little-go-book-section-chapter-3-maps-arrays-and-slices-before-you-continue-97563f70@8a824c25eddb6ca907632321ff25b9a6
 ---
 
 # Chapter 3 - Maps, Arrays and Slices / Before You Continue
@@ -18,6 +19,7 @@ From [[coding-little-go-book]].
 
 - [[coding-little-go-book-section-chapter-3-maps-arrays-and-slices-4800f0d1]] - broader source section: Chapter 3 - Maps, Arrays and Slices
 - [[coding-little-go-book-section-chapter-3-maps-arrays-and-slices-pointers-versus-values-61a54414]] - previous source section: Chapter 3 - Maps, Arrays and Slices / Pointers versus Values
+- [[coding-little-go-book-you-continue]] - topic hub: opens the topic page for You Continue
 
 ## Statements
 

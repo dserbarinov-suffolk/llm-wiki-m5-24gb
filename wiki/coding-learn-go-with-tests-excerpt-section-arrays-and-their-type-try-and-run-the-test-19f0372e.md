@@ -1,13 +1,14 @@
 ---
 page_id: coding-learn-go-with-tests-excerpt-section-arrays-and-their-type-try-and-run-the-test-19f0372e
 page_kind: source
-summary: Arrays and their type / Try and run the test: 1 source-backed entries and 1 atom(s) from raw/coding_learn_go_with_tests_excerpt.pdf.
+summary: Arrays and their type / Try and run the test: 1 source-backed entries and 0 atom(s) from raw/coding_learn_go_with_tests_excerpt.pdf.
+page_family: section-reference
 sources: raw/coding_learn_go_with_tests_excerpt.pdf
-updated: 2026-06-29
+updated: 2026-06-30
 domain: coding-learn-go-with-tests-excerpt
 category_path: sources/coding-learn-go-with-tests-excerpt/sections
 source_id: coding_learn_go_with_tests_excerpt.pdf
-projection_coverage: section-coding-learn-go-with-tests-excerpt-section-arrays-and-their-type-try-and-run-the-test-19f0372e@508e974c8d2fff889ae082816c2e506c
+projection_coverage: section-coding-learn-go-with-tests-excerpt-section-arrays-and-their-type-try-and-run-the-test-19f0372e@922e9bbb609008b8d5ae0292297714c7
 ---
 
 # Arrays and their type / Try and run the test
@@ -19,15 +20,4 @@ From [[coding-learn-go-with-tests-excerpt]].
 - [[coding-learn-go-with-tests-excerpt-section-arrays-and-their-type-0c35221e]] - broader source section: Arrays and their type
 - [[coding-learn-go-with-tests-excerpt-section-arrays-and-their-type-write-the-test-first-73b871d4]] - previous source section: Arrays and their type / Write the test first
 - [[coding-learn-go-with-tests-excerpt-section-arrays-and-their-type-write-the-minimal-amount-of-code-for-the-test-to-run-and-check-the-failing-ba6a9160]] - next source section: Arrays and their type / Write the minimal amount of code for the test to run and check the failing test output
-
-## Technical atoms
-
-### Technical frame 1: Arrays and their type / Try and run the test
-
-**Atom:** _(coding_learn_go_with_tests_excerpt.pdf (source-range-cb73a893-00314))_
-
-```
-This does not compile
-./sum_test.go:22:13: cannot use numbers (type []int) as type [5]int 
-in argument to Sum
-```
+- [[coding-learn-go-with-tests-excerpt-try-run-test]] - topic hub: opens the topic page for Try Run Test

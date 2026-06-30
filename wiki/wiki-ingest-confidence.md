@@ -2,14 +2,14 @@
 page_id: wiki-ingest-confidence
 page_kind: synthesis
 summary: Latest bounded post-ingest confidence report.
-updated: 2026-06-29
+updated: 2026-06-30
 ---
 
 # Ingest Confidence Report
 
 ## Summary
 
-Run id: 2026-06-29-151430
+Run id: 2026-06-30-085137
 Source: raw/rpg_cairn_2e_core.pdf
 Confidence status: passed
 Blockers: 0

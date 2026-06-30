@@ -1,13 +1,14 @@
 ---
 page_id: coding-little-go-book-section-chapter-5-tidbits-empty-interface-and-conversions-c4483a93
 page_kind: source
-summary: Chapter 5 - Tidbits / Empty Interface and Conversions: 10 source-backed entries and 3 atom(s) from raw/coding_little_go_book.pdf.
+summary: Chapter 5 - Tidbits / Empty Interface and Conversions: 10 source-backed entries and 1 atom(s) from raw/coding_little_go_book.pdf.
+page_family: section-reference
 sources: raw/coding_little_go_book.pdf
-updated: 2026-06-29
+updated: 2026-06-30
 domain: coding-little-go-book
 category_path: sources/coding-little-go-book/sections
 source_id: coding_little_go_book.pdf
-projection_coverage: section-coding-little-go-book-section-chapter-5-tidbits-empty-interface-and-conversions-c4483a93@c708d39630d652b0707a0b825f0fca0e
+projection_coverage: section-coding-little-go-book-section-chapter-5-tidbits-empty-interface-and-conversions-c4483a93@dfedfe2da962712d85e6469442c418ba
 ---
 
 # Chapter 5 - Tidbits / Empty Interface and Conversions
@@ -30,32 +31,6 @@ From [[coding-little-go-book]].
 ## Technical atoms
 
 ### Technical frame 1: Chapter 5 - Tidbits / Empty Interface and Conversions
-
-**Context:** _(coding_little_go_book.pdf (source-range-23d24eb1-00373))_
-
-> Note that if the underlying type is not int , the above will result in an error.
-
-**Atom:** _(coding_little_go_book.pdf (source-range-23d24eb1-00370))_
-
-```
-func add(a interface{}, b interface{}) interface{} {
-  ...
-}
-```
-
-### Technical frame 2: Chapter 5 - Tidbits / Empty Interface and Conversions
-
-**Context:** _(coding_little_go_book.pdf (source-range-23d24eb1-00373))_
-
-> Note that if the underlying type is not int , the above will result in an error.
-
-**Atom:** _(coding_little_go_book.pdf (source-range-23d24eb1-00372))_
-
-```
-return a.(int) + b.(int)
-```
-
-### Technical frame 3: Chapter 5 - Tidbits / Empty Interface and Conversions
 
 **Context:** _(coding_little_go_book.pdf (source-range-23d24eb1-00376))_
 

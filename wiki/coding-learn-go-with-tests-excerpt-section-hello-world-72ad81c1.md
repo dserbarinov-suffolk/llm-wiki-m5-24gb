@@ -1,13 +1,14 @@
 ---
 page_id: coding-learn-go-with-tests-excerpt-section-hello-world-72ad81c1
 page_kind: source
-summary: Hello, World: 38 source-backed entries and 6 atom(s) from raw/coding_learn_go_with_tests_excerpt.pdf.
+summary: Hello, World: 38 source-backed entries and 3 atom(s) from raw/coding_learn_go_with_tests_excerpt.pdf.
+page_family: section-reference
 sources: raw/coding_learn_go_with_tests_excerpt.pdf
-updated: 2026-06-29
+updated: 2026-06-30
 domain: coding-learn-go-with-tests-excerpt
 category_path: sources/coding-learn-go-with-tests-excerpt/sections
 source_id: coding_learn_go_with_tests_excerpt.pdf
-projection_coverage: section-coding-learn-go-with-tests-excerpt-section-hello-world-72ad81c1@4a741136e53563f98f39c3135272ac1b
+projection_coverage: section-coding-learn-go-with-tests-excerpt-section-hello-world-72ad81c1@4e172590e4bb0d9c2d22ac456198ef3f
 ---
 
 # Hello, World
@@ -22,7 +23,6 @@ From [[coding-learn-go-with-tests-excerpt]].
 - [[coding-learn-go-with-tests-excerpt-section-hello-world-back-to-testing-7ab34920]] - narrower source section: Hello, World / Back to Testing
 - [[coding-learn-go-with-tests-excerpt-section-learn-go-with-tests-go-fundamentals-excerpt-0faa888c]] - previous source section: Learn Go with Tests -- Go Fundamentals (Excerpt)
 - [[coding-learn-go-with-tests-excerpt-section-go-s-documentation-38415959]] - next source section: Go's documentation
-- [[coding-learn-go-with-tests-excerpt-hello]] - topic hub: opens the topic page for Hello
 
 ## Statements
 
@@ -78,59 +78,7 @@ func main() {
 }
 ```
 
-### Technical frame 2: Hello, World / How to test
-
-**Context:** _(coding_learn_go_with_tests_excerpt.pdf (source-range-cb73a893-00021))_
-
-> We have created a new function with func , but this time, we've added another keyword, string, to the definition. This means this function returns a string .
-
-**Atom:** _(coding_learn_go_with_tests_excerpt.pdf (source-range-cb73a893-00020))_
-
-```
-package main
-import "fmt"
-func Hello() string {
-    return "Hello, world"
-}
-func main() {
-    fmt.Println(Hello())
-}
-```
-
-### Technical frame 3: Hello, World / How to test
-
-**Context:** _(coding_learn_go_with_tests_excerpt.pdf (source-range-cb73a893-00021))_
-
-> We have created a new function with func , but this time, we've added another keyword, string, to the definition. This means this function returns a string .
-
-**Atom:** _(coding_learn_go_with_tests_excerpt.pdf (source-range-cb73a893-00023))_
-
-```
-package main
-import "testing"
-func TestHello(t *testing.T) {
-    got := Hello()
-    want := "Hello, world"
-if got != want {
-        t.Errorf("got %q want %q", got, want)
-    }
-}
-```
-
-### Technical frame 4: Hello, World / Go modules?
-
-**Context:** _(coding_learn_go_with_tests_excerpt.pdf (source-range-cb73a893-00027))_
-
-> What's the problem? In a word, modules. Luckily, the problem is easy to fix. Enter go mod init example.com/hello in your terminal. That will create a new file with the following contents:
-
-**Atom:** _(coding_learn_go_with_tests_excerpt.pdf (source-range-cb73a893-00026))_
-
-```
-$ go test
-go: cannot find main module; see 'go help modules'
-```
-
-### Technical frame 5: Hello, World / Go modules?
+### Technical frame 2: Hello, World / Go modules?
 
 **Context:** _(coding_learn_go_with_tests_excerpt.pdf (source-range-cb73a893-00029))_
 
@@ -143,7 +91,7 @@ module example.com/hello
 go 1.16
 ```
 
-### Technical frame 6: Hello, World / Go modules?
+### Technical frame 3: Hello, World / Go modules?
 
 **Context:** _(coding_learn_go_with_tests_excerpt.pdf (source-range-cb73a893-00027))_
 

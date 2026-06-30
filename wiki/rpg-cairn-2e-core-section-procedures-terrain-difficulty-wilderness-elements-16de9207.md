@@ -1,13 +1,14 @@
 ---
 page_id: rpg-cairn-2e-core-section-procedures-terrain-difficulty-wilderness-elements-16de9207
 page_kind: source
-summary: Procedures / Terrain Difficulty / Wilderness Elements: 18 source-backed entries and 2 atom(s) from raw/rpg_cairn_2e_core.pdf.
+summary: Procedures / Terrain Difficulty / Wilderness Elements: 18 source-backed entries and 0 atom(s) from raw/rpg_cairn_2e_core.pdf.
+page_family: section-reference
 sources: raw/rpg_cairn_2e_core.pdf
-updated: 2026-06-29
+updated: 2026-06-30
 domain: rpg-cairn-2e-core
 category_path: sources/rpg-cairn-2e-core/sections
 source_id: rpg_cairn_2e_core.pdf
-projection_coverage: section-rpg-cairn-2e-core-section-procedures-terrain-difficulty-wilderness-elements-16de9207@e5c5cf664df0f380f3ff60383c9a847d
+projection_coverage: section-rpg-cairn-2e-core-section-procedures-terrain-difficulty-wilderness-elements-16de9207@b937d3befcd49a47101d0a22b423d84c
 ---
 
 # Procedures / Terrain Difficulty / Wilderness Elements
@@ -19,7 +20,6 @@ From [[rpg-cairn-2e-core]].
 - [[rpg-cairn-2e-core-section-procedures-terrain-difficulty-a8b1f689]] - broader source section: Procedures / Terrain Difficulty
 - [[rpg-cairn-2e-core-section-procedures-terrain-difficulty-wilderness-exploration-cycle-d260da4f]] - previous source section: Procedures / Terrain Difficulty / Wilderness Exploration Cycle
 - [[rpg-cairn-2e-core-section-procedures-terrain-difficulty-wilderness-actions-c92bc0c2]] - next source section: Procedures / Terrain Difficulty / Wilderness Actions
-- [[rpg-cairn-2e-core-wilderness-element]] - topic hub: opens the topic page for Wilderness Element
 
 ## Statements
 
@@ -37,25 +37,3 @@ From [[rpg-cairn-2e-core]].
 - - Some terrain and weather may be easier to traverse at night (desert, for example). _(rpg_cairn_2e_core.pdf (source-range-9b4fff26-00357))_
 - - Torches and other radial sources of light illuminate 40ft ahead of the party, but beyond that only provides a dim outline of objects. _(rpg_cairn_2e_core.pdf (source-range-9b4fff26-00363))_
 - - A torch can be lit 3 times before degrading. _(rpg_cairn_2e_core.pdf (source-range-9b4fff26-00367))_
-
-## Technical atoms
-
-### Technical frame 1: Procedures / Terrain Difficulty / Wilderness Elements
-
-**Context:** _(rpg_cairn_2e_core.pdf (source-range-9b4fff26-00357))_
-
-> Some terrain and weather may be easier to traverse at night (desert, for example). The Warden should balance these challenges along with any other.
-
-**Atom:** _(rpg_cairn_2e_core.pdf (source-range-9b4fff26-00356))_
-
-> The Warden should roll twice on the Wilderness Events table.
-
-### Technical frame 2: Procedures / Terrain Difficulty / Wilderness Elements
-
-**Context:** _(rpg_cairn_2e_core.pdf (source-range-9b4fff26-00363))_
-
-> Torches and other radial sources of light illuminate 40ft ahead of the party, but beyond that only provides a dim outline of objects.
-
-**Atom:** _(rpg_cairn_2e_core.pdf (source-range-9b4fff26-00361))_
-
-> - If the party skips the Make Camp action, they each add a Fatigue to their inventory and are deprived .

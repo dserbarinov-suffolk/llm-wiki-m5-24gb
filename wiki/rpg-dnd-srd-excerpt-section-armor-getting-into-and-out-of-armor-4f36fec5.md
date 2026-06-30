@@ -1,13 +1,14 @@
 ---
 page_id: rpg-dnd-srd-excerpt-section-armor-getting-into-and-out-of-armor-4f36fec5
 page_kind: source
-summary: Armor / Getting Into and Out of Armor: 5 source-backed entries and 2 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
+summary: Armor / Getting Into and Out of Armor: 5 source-backed entries and 1 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
+page_family: section-reference
 sources: raw/rpg_dnd_srd_excerpt.pdf
-updated: 2026-06-29
+updated: 2026-06-30
 domain: rpg-dnd-srd-excerpt
 category_path: sources/rpg-dnd-srd-excerpt/sections
 source_id: rpg_dnd_srd_excerpt.pdf
-projection_coverage: section-rpg-dnd-srd-excerpt-section-armor-getting-into-and-out-of-armor-4f36fec5@5528ed4f84ee3a0df70ccf603438f06a
+projection_coverage: section-rpg-dnd-srd-excerpt-section-armor-getting-into-and-out-of-armor-4f36fec5@1cde9884bdb93a4eb84f9a22ce23b73c
 ---
 
 # Armor / Getting Into and Out of Armor
@@ -18,6 +19,7 @@ From [[rpg-dnd-srd-excerpt]].
 
 - [[rpg-dnd-srd-excerpt-section-armor-047bdd0c]] - broader source section: Armor
 - [[rpg-dnd-srd-excerpt-section-armor-heavy-armor-af16bb73]] - previous source section: Armor / Heavy Armor
+- [[rpg-dnd-srd-excerpt-armor]] - topic hub: opens the topic page for Armor
 
 ## Statements
 
@@ -28,16 +30,6 @@ From [[rpg-dnd-srd-excerpt]].
 ## Technical atoms
 
 ### Technical frame 1: Armor / Getting Into and Out of Armor
-
-**Context:** _(rpg_dnd_srd_excerpt.pdf (source-range-4449ec9f-00505))_
-
-> Don . This is the time it takes to put on armor. You benefit from the armor's AC only if you take the full time to don the suit of armor.
-
-**Atom:** _(rpg_dnd_srd_excerpt.pdf (source-range-4449ec9f-00506))_
-
-> If you have help, reduce this time by half.
-
-### Technical frame 2: Armor / Getting Into and Out of Armor
 
 **Context:** _(rpg_dnd_srd_excerpt.pdf (source-range-4449ec9f-00506))_
 

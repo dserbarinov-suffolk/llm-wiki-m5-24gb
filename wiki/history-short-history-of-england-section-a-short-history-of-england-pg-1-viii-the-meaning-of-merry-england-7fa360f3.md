@@ -1,13 +1,14 @@
 ---
 page_id: history-short-history-of-england-section-a-short-history-of-england-pg-1-viii-the-meaning-of-merry-england-7fa360f3
 page_kind: source
-summary: A SHORT HISTORY OF ENGLAND [Pg 1] / VIII / THE MEANING OF MERRY ENGLAND: 165 source-backed entries and 1 atom(s) from raw/history_short_history_of_england.pdf.
+summary: A SHORT HISTORY OF ENGLAND [Pg 1] / VIII / THE MEANING OF MERRY ENGLAND: 165 source-backed entries and 0 atom(s) from raw/history_short_history_of_england.pdf.
+page_family: section-reference
 sources: raw/history_short_history_of_england.pdf
-updated: 2026-06-29
+updated: 2026-06-30
 domain: history-short-history-of-england
 category_path: sources/history-short-history-of-england/sections
 source_id: history_short_history_of_england.pdf
-projection_coverage: section-history-short-history-of-england-section-a-short-history-of-england-pg-1-viii-the-meaning-of-merry-england-7fa360f3@786eea943a2e99b7ce0062f02416aefb
+projection_coverage: section-history-short-history-of-england-section-a-short-history-of-england-pg-1-viii-the-meaning-of-merry-england-7fa360f3@e90ebc1c31c7682fd48d8c2b6d983c56
 ---
 
 # A SHORT HISTORY OF ENGLAND [Pg 1] / VIII / THE MEANING OF MERRY ENGLAND
@@ -17,7 +18,6 @@ From [[history-short-history-of-england]].
 ## Related pages
 
 - [[history-short-history-of-england-section-a-short-history-of-england-pg-1-viii-b81fd163]] - broader source section: A SHORT HISTORY OF ENGLAND [Pg 1] / VIII
-- [[history-short-history-of-england-meaning-merry-england]] - topic hub: opens the topic page for Meaning Merry England
 
 ## Statements
 
@@ -65,15 +65,3 @@ From [[history-short-history-of-england]].
 - The Guilds often exhibited emblems and pageantry so compact of their most prosaic uses, that we can only parallel them by imagining armorial tabards, or even religious vestments, woven out of a navvy's corderoys or a coster's pearl buttons. _(history_short_history_of_england.pdf (source-range-46d51aaf-00215))_
 - We had only to ask what burgesses were, and whether they grew on trees. _(history_short_history_of_england.pdf (source-range-46d51aaf-00217))_
 - And if it be a matter of wonder that the great council (still called in quaint archaism by its old title of the House of Commons) is the only one of these popular or elective corporations of which we hear much in our books of history, the explanation, I fear, is simple and a little sad. _(history_short_history_of_england.pdf (source-range-46d51aaf-00217))_
-
-## Technical atoms
-
-### Technical frame 1: A SHORT HISTORY OF ENGLAND [Pg 1] / VIII / THE MEANING OF MERRY ENGLAND
-
-**Context:** _(history_short_history_of_england.pdf (source-range-46d51aaf-00208))_
-
-> The very vital importance of the word "Master" is this. A Guild was, very broadly speaking, a Trade Union in which every man was his own employer. That is, a man could not work at any trade unless he would join the league and accept the laws of that trade; but he worked in his own shop with his own tools, and the whole profit went to himself. But the word "employer" marks a modern deficiency which makes the modern use of the word "master" quite inexact. A master meant something quite other and g
-
-**Atom:** _(history_short_history_of_england.pdf (source-range-46d51aaf-00207))_
-
-> Most work beyond the primary work of agriculture was guarded by the egalitarian vigilance of the Guilds. It is hard to find any term to measure the distance between this system and modern society; one can only approach it first by the faint traces it has left. Our daily life is littered with a debris of the Middle Ages, especially of dead words which no longer carry their meaning. I have already suggested one example. We hardly call up the picture of a return to Christian Communism whenever we mention Wimbledon Common. This truth descends to such trifles as the titles which we write on letters and postcards. The puzzling and truncated monosyllable "Esq." is a pathetic relic of a remote evolution from chivalry to snobbery. No two historic things could well be more different than an esquire and a squire. The first was above all things an incomplete and probationary position-the tadpole of knighthood; the second is above all things a complete and assured position-the status of the owners and rulers of rural England throughout recent centuries. Our esquires did not win their estates till they had given up any particular fancy for winning their spurs. Esquire does not mean squire, and esq. does not mean anything. But it remains on our letters a little wriggle in pen and ink and an indecipherable hieroglyph twisted by the strange turns of our history, which have turned a military discipline into a pacific oligarchy, and that into a mere plutocracy at last. And there are similar historic riddles to be unpicked in the similar forms of social address. There is something singularly forlorn about the modern word "Mister." Even in sound it has a simpering feebleness which marks the shrivelling of the strong word from which it came. Nor, indeed, is the symbol of the mere sound inaccurate. I remember seeing a German story of Samson in which he bore the unassuming name of Simson, which surely shows Samson very much shorn. There is something of the same dismal diminuendo in the evolution of a Master into a Mister. [Pg 95] [Pg 96]

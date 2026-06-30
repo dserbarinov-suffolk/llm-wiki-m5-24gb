@@ -1,13 +1,14 @@
 ---
 page_id: rpg-dnd-srd-excerpt-section-sample-spells-8d42e098
 page_kind: source
-summary: Sample Spells: 12 source-backed entries and 3 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
+summary: Sample Spells: 12 source-backed entries and 1 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
+page_family: section-reference
 sources: raw/rpg_dnd_srd_excerpt.pdf
-updated: 2026-06-29
+updated: 2026-06-30
 domain: rpg-dnd-srd-excerpt
 category_path: sources/rpg-dnd-srd-excerpt/sections
 source_id: rpg_dnd_srd_excerpt.pdf
-projection_coverage: section-rpg-dnd-srd-excerpt-section-sample-spells-8d42e098@0e0cfb3c79946378fa39d2b5cf029d76
+projection_coverage: section-rpg-dnd-srd-excerpt-section-sample-spells-8d42e098@9800f4e3b88195081299bf9714e10af7
 ---
 
 # Sample Spells
@@ -67,15 +68,3 @@ Range:
 | 120 | Range: feet |
 
 </details>
-
-### Technical frame 2: Sample Spells / Cure Wounds
-
-**Atom:** _(rpg_dnd_srd_excerpt.pdf (source-range-4449ec9f-00668))_
-
-> When you cast this spell using a spell slot of 2nd level or higher, the healing increases by 1d8 for each slot level above 1st.
-
-### Technical frame 3: Sample Spells / Fireball
-
-**Atom:** _(rpg_dnd_srd_excerpt.pdf (source-range-4449ec9f-00672))_
-
-> Each creature in a 20-foot radius sphere centered on that point must make a Dexterity saving throw.

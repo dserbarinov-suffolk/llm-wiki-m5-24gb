@@ -1,13 +1,14 @@
 ---
 page_id: history-short-history-of-england-section-a-short-history-of-england-pg-1-vii-the-problem-of-the-plantagenets-c2e16965
 page_kind: source
-summary: A SHORT HISTORY OF ENGLAND [Pg 1] / VII / THE PROBLEM OF THE PLANTAGENETS: 139 source-backed entries and 4 atom(s) from raw/history_short_history_of_england.pdf.
+summary: A SHORT HISTORY OF ENGLAND [Pg 1] / VII / THE PROBLEM OF THE PLANTAGENETS: 139 source-backed entries and 0 atom(s) from raw/history_short_history_of_england.pdf.
+page_family: section-reference
 sources: raw/history_short_history_of_england.pdf
-updated: 2026-06-29
+updated: 2026-06-30
 domain: history-short-history-of-england
 category_path: sources/history-short-history-of-england/sections
 source_id: history_short_history_of_england.pdf
-projection_coverage: section-history-short-history-of-england-section-a-short-history-of-england-pg-1-vii-the-problem-of-the-plantagenets-c2e16965@ef9be171b1a731c9d6bb9eba0234be6d
+projection_coverage: section-history-short-history-of-england-section-a-short-history-of-england-pg-1-vii-the-problem-of-the-plantagenets-c2e16965@51db1bd86a1d31fd1f72665ebb9116e9
 ---
 
 # A SHORT HISTORY OF ENGLAND [Pg 1] / VII / THE PROBLEM OF THE PLANTAGENETS
@@ -17,7 +18,6 @@ From [[history-short-history-of-england]].
 ## Related pages
 
 - [[history-short-history-of-england-section-a-short-history-of-england-pg-1-vii-5834eea8]] - broader source section: A SHORT HISTORY OF ENGLAND [Pg 1] / VII
-- [[history-short-history-of-england-problem-plantagenet]] - topic hub: opens the topic page for Problem Plantagenet
 
 ## Statements
 
@@ -65,45 +65,3 @@ From [[history-short-history-of-england]].
 - He founded a parliament in a fit of considerable absence of mind; but it was with true presence of mind, in the responsible and even religious sense which had made his father so savage a Crusader against heretics, that he laid about him with his great sword before he fell at Evesham. _(history_short_history_of_england.pdf (source-range-46d51aaf-00186))_
 - And unluckily the Pope, whose counsels had generally been mild and liberal, was then in his death-grapple with the Germanic Emperor and wanted every penny he could get to win. _(history_short_history_of_england.pdf (source-range-46d51aaf-00186))_
 - A rather loose aristocracy not only gained but often deserved the name of liberty. _(history_short_history_of_england.pdf (source-range-46d51aaf-00187))_
-
-## Technical atoms
-
-### Technical frame 1: A SHORT HISTORY OF ENGLAND [Pg 1] / VII / THE PROBLEM OF THE PLANTAGENETS
-
-**Context:** _(history_short_history_of_england.pdf (source-range-46d51aaf-00166))_
-
-> It would be easy to detail what followed the Conquest as the feudal tangle that it was, till a prince from Anjou repeated the unifying effort of the Conqueror. It is found equally easy to write of the Red King's hunting instead of his building, which has lasted longer, and which he probably loved much more. It is easy to catalogue the questions he disputed with Anselm-leaving out the question Anselm cared most about, and which he asked with explosive simplicity, as, "Why was God a man?" All this
-
-**Atom:** _(history_short_history_of_england.pdf (source-range-46d51aaf-00165))_
-
-> Thomas when they had never even heard of Becket.
-
-### Technical frame 2: A SHORT HISTORY OF ENGLAND [Pg 1] / VII / THE PROBLEM OF THE PLANTAGENETS
-
-**Context:** _(history_short_history_of_england.pdf (source-range-46d51aaf-00179))_
-
-> But it may be suggested, I think, though with the doubt proper to ignorance, that the Angevin ideal of the King's justice lost more by the death of St. Thomas than was instantly apparent in the horror of Christendom, the canonization of the victim and the public penance of the tyrant. These things indeed were in a sense temporary; the King recovered the power to judge clerics, and many later kings and justiciars continued the monarchical plan. But I would suggest, as a possible clue to puzzling 
-
-**Atom:** _(history_short_history_of_england.pdf (source-range-46d51aaf-00178))_
-
-> If the reader can imagine Mr.
-
-### Technical frame 3: A SHORT HISTORY OF ENGLAND [Pg 1] / VII / THE PROBLEM OF THE PLANTAGENETS
-
-**Context:** _(history_short_history_of_england.pdf (source-range-46d51aaf-00181))_
-
-> In any case this conjecture finds support in the ensuing events. It is not merely that, just as the great but personal plan of the Conqueror collapsed after all into the chaos of the Stephen transition, so the great but personal plan of the first Plantagenet collapsed into the chaos of the Barons' Wars. When all allowance is made for constitutional fictions and afterthoughts, it does seem likely that here for the first time some moral strength deserted the monarchy. The character of Henry's seco
-
-**Atom:** _(history_short_history_of_england.pdf (source-range-46d51aaf-00180))_
-
-> French kings were never so merciful to the people as when they were merciless to the peers; and it is probably true that a Czar who was a great lord to his intimates was often a little father in innumerable little homes.
-
-### Technical frame 4: A SHORT HISTORY OF ENGLAND [Pg 1] / VII / THE PROBLEM OF THE PLANTAGENETS
-
-**Context:** _(history_short_history_of_england.pdf (source-range-46d51aaf-00187))_
-
-> Magna Carta was not a step towards democracy, but it was a step away from despotism. If we hold that double truth firmly, we have something like a key to the rest of English history. A rather loose aristocracy not only gained but often deserved the name of liberty. And the history of the English can be most briefly summarized by taking the French motto of "Liberty, Equality, and Fraternity," and noting that the English have sincerely loved the first and lost the other two.
-
-**Atom:** _(history_short_history_of_england.pdf (source-range-46d51aaf-00188))_
-
-> In the contemporary complication much could be urged both for the Crown and the new and more national rally of the nobility. But it was a complication, whereas a miracle is a plain matter that any man can understand. The possibilities or impossibilities of St. Thomas Becket were left a riddle for history; the white flame of his audacious theocracy was frustrated, and his work cut short like a fairy tale left untold. But his memory passed into the care of the common people, and with them he was more active dead than alive-yes, even more busy. In the next chapter we shall consider what was meant in the Middle Ages by the common people, and how uncommon we should think it to-day. And in the last chapter we have already seen how in the Crusading age the strangest things grew homely, and men fed on travellers' tales when there were no national newspapers. A many-coloured pageant of martyrology on numberless walls and windows had familiarized the most ignorant with alien cruelties in many climes; with a bishop flayed by Danes or a virgin burned by Saracens, with one saint stoned by Jews and another hewn in pieces by negroes. I cannot think it was a small matter that among these images one of the most magnificent had met his death but lately at the hands of an English monarch. There was at least something akin to the primitive and epical romances of that period in the tale of those two mighty friends, one of whom struck too hard and slew the other. It may even have been so early as this that something was judged in silence; and for the multitude rested on the Crown a mysterious seal of insecurity like that of Cain, and of exile on the English kings.

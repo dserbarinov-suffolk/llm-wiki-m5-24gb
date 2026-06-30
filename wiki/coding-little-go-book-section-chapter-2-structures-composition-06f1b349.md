@@ -1,13 +1,14 @@
 ---
 page_id: coding-little-go-book-section-chapter-2-structures-composition-06f1b349
 page_kind: source
-summary: Chapter 2 - Structures / Composition: 16 source-backed entries and 6 atom(s) from raw/coding_little_go_book.pdf.
+summary: Chapter 2 - Structures / Composition: 16 source-backed entries and 2 atom(s) from raw/coding_little_go_book.pdf.
+page_family: section-reference
 sources: raw/coding_little_go_book.pdf
-updated: 2026-06-29
+updated: 2026-06-30
 domain: coding-little-go-book
 category_path: sources/coding-little-go-book/sections
 source_id: coding_little_go_book.pdf
-projection_coverage: section-coding-little-go-book-section-chapter-2-structures-composition-06f1b349@3a14df099cc7e067de039b073b8ab094
+projection_coverage: section-coding-little-go-book-section-chapter-2-structures-composition-06f1b349@71b2d67756ec5c0f3e178fd61457ae01
 ---
 
 # Chapter 2 - Structures / Composition
@@ -20,7 +21,6 @@ From [[coding-little-go-book]].
 - [[coding-little-go-book-section-chapter-2-structures-composition-overloading-8c373927]] - narrower source section: Chapter 2 - Structures / Composition / Overloading
 - [[coding-little-go-book-section-chapter-2-structures-fields-of-a-structure-bd0d428b]] - previous source section: Chapter 2 - Structures / Fields of a Structure
 - [[coding-little-go-book-section-chapter-2-structures-pointers-versus-values-a51ed683]] - next source section: Chapter 2 - Structures / Pointers versus Values
-- [[coding-little-go-book-composition]] - topic hub: opens the topic page for Composition
 
 ## Statements
 
@@ -64,70 +64,7 @@ public class Saiyan {
 }
 ```
 
-### Technical frame 2: Chapter 2 - Structures / Composition
-
-**Context:** _(coding_little_go_book.pdf (source-range-23d24eb1-00166))_
-
-> Both of the above will print "Goku".
-
-**Atom:** _(coding_little_go_book.pdf (source-range-23d24eb1-00163))_
-
-```
-type Person struct {
-  Name string
-}
-func (p *Person) Introduce() {
-  fmt.Printf("Hi, I'm %s\n", p.Name)
-}
-type Saiyan struct {
-  *Person
-  Power int
-}
-// and to use it:
-goku := &Saiyan{
-  Person: &Person{"Goku"},
-  Power: 9001,
-}
-goku.Introduce()
-```
-
-### Technical frame 3: Chapter 2 - Structures / Composition
-
-**Context:** _(coding_little_go_book.pdf (source-range-23d24eb1-00166))_
-
-> Both of the above will print "Goku".
-
-**Atom:** _(coding_little_go_book.pdf (source-range-23d24eb1-00164))_
-
-> The Saiyan structure has a field of type *Person . Because we didn't give it an explicit field name, we can implicitly access the fields and functions of the composed type. However, the Go compiler did give it a field name, consider the perfectly valid:
-
-### Technical frame 4: Chapter 2 - Structures / Composition
-
-**Context:** _(coding_little_go_book.pdf (source-range-23d24eb1-00166))_
-
-> Both of the above will print "Goku".
-
-**Atom:** _(coding_little_go_book.pdf (source-range-23d24eb1-00165))_
-
-```
-goku := &Saiyan{
-  Person: &Person{"Goku"},
-}
-fmt.Println(goku.Name)
-fmt.Println(goku.Person.Name)
-```
-
-### Technical frame 5: Chapter 2 - Structures / Composition / Overloading
-
-**Context:** _(coding_little_go_book.pdf (source-range-23d24eb1-00172))_
-
-> The composed version is always available via s.Person.Introduce() .
-
-**Atom:** _(coding_little_go_book.pdf (source-range-23d24eb1-00170))_
-
-> However, because implicit composition is really just a compiler trick, we can "overwrite" the functions of a composed type. For example, our Saiyan structure can have its own Introduce function:
-
-### Technical frame 6: Chapter 2 - Structures / Composition / Overloading
+### Technical frame 2: Chapter 2 - Structures / Composition / Overloading
 
 **Context:** _(coding_little_go_book.pdf (source-range-23d24eb1-00172))_
 

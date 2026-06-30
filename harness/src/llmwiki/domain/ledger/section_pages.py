@@ -9,7 +9,7 @@ from __future__ import annotations
 from dataclasses import dataclass
 
 from llmwiki.domain.ledger.atom_context import best_atom_context
-from llmwiki.domain.ledger.atoms import TechnicalAtom, atom_raw_text
+from llmwiki.domain.ledger.atoms import TechnicalAtom
 from llmwiki.domain.ledger.canonical import short_digest
 from llmwiki.domain.ledger.entries import LedgerEntry
 from llmwiki.domain.ledger.ledger import ClaimLedger
@@ -18,6 +18,7 @@ from llmwiki.domain.ledger.projection_context_render import (
     atom_frame_markdown,
     evidence_block_line,
 )
+from llmwiki.domain.ledger.projection_policy import PAGE_FAMILY_SECTION_REFERENCE
 from llmwiki.domain.ledger.renderer import atom_block, atom_context_block
 from llmwiki.domain.ledger.section_navigation import (
     SectionPageRef,
@@ -26,14 +27,8 @@ from llmwiki.domain.ledger.section_navigation import (
     section_page_id,
     section_title,
 )
+from llmwiki.domain.ledger.section_page_atoms import atoms_for_section_entries
 from llmwiki.domain.ledger.structure import DocumentStructure, StructureNode
-from llmwiki.domain.ledger.table_identity import (
-    has_matching_table_name,
-    normalize_table_name,
-    table_forward_target_node_ids_by_atom_id,
-    table_identity_names_by_atom_id,
-    table_structure_node_ids_by_atom_id,
-)
 from llmwiki.domain.ledger.topic_models import SourceTopic
 from llmwiki.domain.ledger.topic_relations import RelatedTopicLink
 from llmwiki.domain.ledger.walkability import audit_related_links, related_link_markdown
@@ -104,6 +99,7 @@ def build_section_pages(
             category_path=f"sources/{source_page_id}/sections",
             source_id=source_locator,
             projection_coverage_pointer=f"section-{projection.page_id}@{short_digest(body, 32)}",
+            page_family=PAGE_FAMILY_SECTION_REFERENCE,
         )
         pages.append(WikiPage.from_metadata(metadata, body))
     return tuple(pages)
@@ -147,7 +143,7 @@ def _section_projections(
     projections: list[_SectionProjection] = []
     for node in _section_nodes(structure):
         rollup_entries = _entries_for_node(ledger, node.structure_node_id)
-        atoms = _atoms_for_entries(ledger, rollup_entries, structure, node)
+        atoms = atoms_for_section_entries(ledger, rollup_entries, structure, node)
         if not rollup_entries and not atoms:
             continue
         projections.append(
@@ -262,32 +258,4 @@ def _entries_for_node(ledger: ClaimLedger, node_id: str) -> tuple[LedgerEntry, .
         for entry in ledger.usable_entries
         if node_id in entry.structure_node_ids
         and (entry.normalized_text or entry.source_text or entry.technical_atom_id)
-    )
-
-
-def _atoms_for_entries(
-    ledger: ClaimLedger,
-    entries: tuple[LedgerEntry, ...],
-    structure: DocumentStructure,
-    node: StructureNode,
-) -> tuple[TechnicalAtom, ...]:
-    atom_ids = {
-        entry.technical_atom_id
-        for entry in entries
-        if entry.ledger_entry_kind == "technical-atom" and entry.technical_atom_id
-    }
-    section_name = normalize_table_name(node.heading_text)
-    if section_name:
-        atom_node_ids = table_structure_node_ids_by_atom_id(ledger)
-        forward_node_ids = table_forward_target_node_ids_by_atom_id(ledger, structure)
-        for atom_id, names in table_identity_names_by_atom_id(ledger, structure).items():
-            valid_nodes = (*atom_node_ids.get(atom_id, ()), *forward_node_ids.get(atom_id, ()))
-            if node.structure_node_id in valid_nodes and has_matching_table_name(
-                section_name, names
-            ):
-                atom_ids.add(atom_id)
-    return tuple(
-        atom
-        for atom in ledger.technical_atoms
-        if atom.technical_atom_id in atom_ids and atom_raw_text(atom.payload).strip()
     )

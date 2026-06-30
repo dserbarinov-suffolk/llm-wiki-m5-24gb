@@ -1,13 +1,14 @@
 ---
 page_id: rpg-dnd-srd-excerpt-section-making-an-attack-attack-rolls-dfcba972
 page_kind: source
-summary: Making an Attack / Attack Rolls: 16 source-backed entries and 3 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
+summary: Making an Attack / Attack Rolls: 16 source-backed entries and 1 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
+page_family: section-reference
 sources: raw/rpg_dnd_srd_excerpt.pdf
-updated: 2026-06-29
+updated: 2026-06-30
 domain: rpg-dnd-srd-excerpt
 category_path: sources/rpg-dnd-srd-excerpt/sections
 source_id: rpg_dnd_srd_excerpt.pdf
-projection_coverage: section-rpg-dnd-srd-excerpt-section-making-an-attack-attack-rolls-dfcba972@ef64de1f1e2be7b3950a71e02b4e5d56
+projection_coverage: section-rpg-dnd-srd-excerpt-section-making-an-attack-attack-rolls-dfcba972@296bb6b041b78add707829976e03e95a
 ---
 
 # Making an Attack / Attack Rolls
@@ -20,7 +21,6 @@ From [[rpg-dnd-srd-excerpt]].
 - [[rpg-dnd-srd-excerpt-section-making-an-attack-attack-rolls-modifiers-to-the-roll-e1cbeafd]] - narrower source section: Making an Attack / Attack Rolls / Modifiers to the Roll
 - [[rpg-dnd-srd-excerpt-section-making-an-attack-attack-rolls-rolling-1-or-20-74e94540]] - narrower source section: Making an Attack / Attack Rolls / Rolling 1 or 20
 - [[rpg-dnd-srd-excerpt-section-making-an-attack-unseen-attackers-and-targets-c8bd88ef]] - next source section: Making an Attack / Unseen Attackers and Targets
-- [[rpg-dnd-srd-excerpt-attack-roll]] - topic hub: opens the topic page for Attack Roll
 
 ## Statements
 
@@ -43,23 +43,7 @@ From [[rpg-dnd-srd-excerpt]].
 
 ## Technical atoms
 
-### Technical frame 1: Making an Attack / Attack Rolls
-
-**Atom:** _(rpg_dnd_srd_excerpt.pdf (source-range-4449ec9f-00367))_
-
-> When you make an attack, your attack roll determines whether the attack hits or misses.
-
-### Technical frame 2: Making an Attack / Attack Rolls / Modifiers to the Roll
-
-**Context:** _(rpg_dnd_srd_excerpt.pdf (source-range-4449ec9f-00370))_
-
-> Ability Modifier. The ability modifier used for a melee weapon attack is Strength, and the ability modifier used for a ranged weapon attack is Dexterity. Weapons that have the finesse or thrown property break this rule.
-
-**Atom:** _(rpg_dnd_srd_excerpt.pdf (source-range-4449ec9f-00369))_
-
-> When a character makes an attack roll, the two most common modifiers to the roll are an ability modifier and the character's proficiency bonus.
-
-### Technical frame 3: Making an Attack / Attack Rolls / Rolling 1 or 20
+### Technical frame 1: Making an Attack / Attack Rolls / Rolling 1 or 20
 
 **Context:** _(rpg_dnd_srd_excerpt.pdf (source-range-4449ec9f-00375))_
 

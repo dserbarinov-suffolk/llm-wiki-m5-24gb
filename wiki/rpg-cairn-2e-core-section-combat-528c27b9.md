@@ -1,13 +1,14 @@
 ---
 page_id: rpg-cairn-2e-core-section-combat-528c27b9
 page_kind: source
-summary: Combat: 74 source-backed entries and 6 atom(s) from raw/rpg_cairn_2e_core.pdf.
+summary: Combat: 74 source-backed entries and 2 atom(s) from raw/rpg_cairn_2e_core.pdf.
+page_family: section-reference
 sources: raw/rpg_cairn_2e_core.pdf
-updated: 2026-06-29
+updated: 2026-06-30
 domain: rpg-cairn-2e-core
 category_path: sources/rpg-cairn-2e-core/sections
 source_id: rpg_cairn_2e_core.pdf
-projection_coverage: section-rpg-cairn-2e-core-section-combat-528c27b9@75db98b49c6ad6737346bb0f2cdfee5d
+projection_coverage: section-rpg-cairn-2e-core-section-combat-528c27b9@e11b698442c06c15c54d4be0d90a3816
 ---
 
 # Combat
@@ -20,7 +21,6 @@ From [[rpg-cairn-2e-core]].
 - [[rpg-cairn-2e-core-section-combat-example-6b6f5f0d]] - narrower source section: Combat / Example
 - [[rpg-cairn-2e-core-section-marketplace-0a7ee948]] - previous source section: Marketplace
 - [[rpg-cairn-2e-core-section-saves-9ce57d98]] - next source section: Saves
-- [[rpg-cairn-2e-core-combat]] - topic hub: opens the topic page for Combat
 
 ## Statements by subsection
 
@@ -97,43 +97,3 @@ From [[rpg-cairn-2e-core]].
 **Atom:** _(rpg_cairn_2e_core.pdf (source-range-9b4fff26-00458))_
 
 > If damage reduces a PC's HP to exactly 0, they receive a Scar , which can yield both positive and negative consequences.
-
-### Technical frame 3: Combat / Example
-
-**Context:** _(rpg_cairn_2e_core.pdf (source-range-9b4fff26-00467))_
-
-> Wolfram, Lucius, and Freya each save DEX to see whether they can take a turn in the first round. Wolfram and Freya succeed, but Lucius does not.
-
-**Atom:** _(rpg_cairn_2e_core.pdf (source-range-9b4fff26-00466))_
-
-> Everyone roll a DEX save to see if you can act before they do."
-
-### Technical frame 4: Combat / Example
-
-**Context:** _(rpg_cairn_2e_core.pdf (source-range-9b4fff26-00481))_
-
-> Warden : "Perhaps. One point fewer and you'd have been diseased, and one point greater and you'd lose your hearing for a while. Write down your new DEX score. You really are lucky, you know that? Anyway, it's now time for the PCs to act again."
-
-**Atom:** _(rpg_cairn_2e_core.pdf (source-range-9b4fff26-00480))_
-
-> Now I need to roll 3d6, and if the total is greater than my current Dexterity score, I get to keep it, right?
-
-### Technical frame 5: Combat / Example
-
-**Context:** _(rpg_cairn_2e_core.pdf (source-range-9b4fff26-00489))_
-
-> Warden : "Wolfram, you stab at the shorter man, but he deftly avoids your attack! Freya, your daggers slice at the large man with impressive speed and intensity, and it's clear that you've put him on the defensive, as you can see the sweat begin pouring down the sides of his head. He is running out of steam! Lucius, your cane sword pierces the woman in the stomach! She makes a STR save to see if she can stay in the fight. She rolls a 13, a fail! She goes down!"
-
-**Atom:** _(rpg_cairn_2e_core.pdf (source-range-9b4fff26-00488))_
-
-> She loses 1 point of STR in the attack and so must then roll a Critical Damage save using her new STR score.
-
-### Technical frame 6: Combat / Example
-
-**Context:** _(rpg_cairn_2e_core.pdf (source-range-9b4fff26-00490))_
-
-> This is the first casualty of the fight, so the woman's allies must make a WIL save to continue or flee. The Warden rolls using the leader's WIL, and he fails!
-
-**Atom:** _(rpg_cairn_2e_core.pdf (source-range-9b4fff26-00489))_
-
-> She makes a STR save to see if she can stay in the fight.

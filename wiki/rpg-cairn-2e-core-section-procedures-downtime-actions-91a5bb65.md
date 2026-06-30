@@ -1,13 +1,14 @@
 ---
 page_id: rpg-cairn-2e-core-section-procedures-downtime-actions-91a5bb65
 page_kind: source
-summary: Procedures / Downtime Actions: 41 source-backed entries and 4 atom(s) from raw/rpg_cairn_2e_core.pdf.
+summary: Procedures / Downtime Actions: 41 source-backed entries and 0 atom(s) from raw/rpg_cairn_2e_core.pdf.
+page_family: section-reference
 sources: raw/rpg_cairn_2e_core.pdf
-updated: 2026-06-29
+updated: 2026-06-30
 domain: rpg-cairn-2e-core
 category_path: sources/rpg-cairn-2e-core/sections
 source_id: rpg_cairn_2e_core.pdf
-projection_coverage: section-rpg-cairn-2e-core-section-procedures-downtime-actions-91a5bb65@69b01efcc45b91ecd563ffef1a891faa
+projection_coverage: section-rpg-cairn-2e-core-section-procedures-downtime-actions-91a5bb65@3b6dd3828ada5e8c50247a5ce54b1908
 ---
 
 # Procedures / Downtime Actions
@@ -21,7 +22,6 @@ From [[rpg-cairn-2e-core]].
 - [[rpg-cairn-2e-core-section-procedures-downtime-actions-training-1dec1fef]] - narrower source section: Procedures / Downtime Actions / Training
 - [[rpg-cairn-2e-core-section-procedures-downtime-actions-strengthening-ties-03328fb4]] - narrower source section: Procedures / Downtime Actions / Strengthening Ties
 - [[rpg-cairn-2e-core-section-procedures-downtime-efb55bcc]] - previous source section: Procedures / Downtime
-- [[rpg-cairn-2e-core-downtime-action]] - topic hub: opens the topic page for Downtime Action
 
 ## Statements
 
@@ -57,45 +57,3 @@ From [[rpg-cairn-2e-core]].
 - while under the party's care. Now those responsible wish to provide redress, so that the party can once again perform tasks for that faction. _(rpg_cairn_2e_core.pdf (source-range-9b4fff26-00428))_
 - The Warden then provides concrete measures (described as Milestones and Costs ) that the PC can undertake to advance the relationship. _(rpg_cairn_2e_core.pdf (source-range-9b4fff26-00423))_
 - - After returning from an unsuccessful delve into the Roots , a PC discovers that they'd unknowingly brought along a stowaway: an eyeless devourer, barely hatched. _(rpg_cairn_2e_core.pdf (source-range-9b4fff26-00425))_
-
-## Technical atoms
-
-### Technical frame 1: Procedures / Downtime Actions / Research
-
-**Context:** _(rpg_cairn_2e_core.pdf (source-range-9b4fff26-00403))_
-
-> As always, the question must come from an experience that occurred during play.
-
-**Atom:** _(rpg_cairn_2e_core.pdf (source-range-9b4fff26-00401))_
-
-> If the PC does not have a Source , then they can spend a Downtime Action trying to find one.
-
-### Technical frame 2: Procedures / Downtime Actions / Training
-
-**Context:** _(rpg_cairn_2e_core.pdf (source-range-9b4fff26-00419))_
-
-> The Two-Handed Parry : When fighting with one hand free, a PC's HP temporarily increases by 1d4. The party took on a hireling from the Cratered Lands , whose fighters emphasize avoiding enemy attacks. She has agreed to train anyone who can best her in hand to hand combat.
-
-**Atom:** _(rpg_cairn_2e_core.pdf (source-range-9b4fff26-00417))_
-
-> The Warden should provide any Milestones and associated Costs .
-
-### Technical frame 3: Procedures / Downtime Actions / Training
-
-**Context:** _(rpg_cairn_2e_core.pdf (source-range-9b4fff26-00420))_
-
-> Herbology : Given proper ingredients, a PC can create a Healing Salve (restores 4 STR) as a Downtime Action . After receiving care from an elderly herbalist in the Verdant Glades , the wounded PC asked to be trained in the healing arts. The Master has agreed, but asked that they collect three rare herbs before training can begin.
-
-**Atom:** _(rpg_cairn_2e_core.pdf (source-range-9b4fff26-00419))_
-
-> - The Two-Handed Parry : When fighting with one hand free, a PC's HP temporarily increases by 1d4.
-
-### Technical frame 4: Procedures / Downtime Actions / Training
-
-**Context:** _(rpg_cairn_2e_core.pdf (source-range-9b4fff26-00420))_
-
-> Herbology : Given proper ingredients, a PC can create a Healing Salve (restores 4 STR) as a Downtime Action . After receiving care from an elderly herbalist in the Verdant Glades , the wounded PC asked to be trained in the healing arts. The Master has agreed, but asked that they collect three rare herbs before training can begin.
-
-**Atom:** _(rpg_cairn_2e_core.pdf (source-range-9b4fff26-00421))_
-
-> - Troutmaster : When taking the Supply Action , Rations gathered near cold freshwater sources increase by one step (e.g.

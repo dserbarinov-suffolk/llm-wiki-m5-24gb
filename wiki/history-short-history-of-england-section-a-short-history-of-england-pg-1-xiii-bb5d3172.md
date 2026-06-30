@@ -1,13 +1,14 @@
 ---
 page_id: history-short-history-of-england-section-a-short-history-of-england-pg-1-xiii-bb5d3172
 page_kind: source
-summary: A SHORT HISTORY OF ENGLAND [Pg 1] / XIII: 144 source-backed entries and 2 atom(s) from raw/history_short_history_of_england.pdf.
+summary: A SHORT HISTORY OF ENGLAND [Pg 1] / XIII: 144 source-backed entries and 0 atom(s) from raw/history_short_history_of_england.pdf.
+page_family: section-reference
 sources: raw/history_short_history_of_england.pdf
-updated: 2026-06-29
+updated: 2026-06-30
 domain: history-short-history-of-england
 category_path: sources/history-short-history-of-england/sections
 source_id: history_short_history_of_england.pdf
-projection_coverage: section-history-short-history-of-england-section-a-short-history-of-england-pg-1-xiii-bb5d3172@437bd8b62062c2b0c0f8b1a09abc8c2b
+projection_coverage: section-history-short-history-of-england-section-a-short-history-of-england-pg-1-xiii-bb5d3172@cdda97c35fc756ec4e08343b278c0f6e
 ---
 
 # A SHORT HISTORY OF ENGLAND [Pg 1] / XIII
@@ -64,25 +65,3 @@ From [[history-short-history-of-england]].
 - In observing what is called their Jewish Sabbath, they would have had to stone the strictest Jew. _(history_short_history_of_england.pdf (source-range-46d51aaf-00364))_
 - These were disbanded and their return resisted by Tories and Whigs; but their return seemed always imminent, because it was in the spirit of the new stern world of the Thirty Years' War. _(history_short_history_of_england.pdf (source-range-46d51aaf-00364))_
 - It was, properly considered, but a very secondary example of their strange and violent simplicity that one of them, before a mighty mob at Whitehall, cut off the anointed head of the sacramental man of the Middle Ages. _(history_short_history_of_england.pdf (source-range-46d51aaf-00364))_
-
-## Technical atoms
-
-### Technical frame 1: A SHORT HISTORY OF ENGLAND [Pg 1] / XIII / THE AGE OF THE PURITANS
-
-**Context:** _(history_short_history_of_england.pdf (source-range-46d51aaf-00347))_
-
-> The struggle with the Stuarts, which is the next passage in our history, arose from an alliance, which some may think an accidental alliance, between two things. The first was this intellectual fashion of Calvinism which affected the cultured world as did our recent intellectual fashion of Collectivism. The second was the older thing which had made that creed and perhaps that cultured world possible-the aristocratic revolt under the last Tudors. It was, we might say, the story of a father and a 
-
-**Atom:** _(history_short_history_of_england.pdf (source-range-46d51aaf-00346))_
-
-> England was never so little of a democracy as during the short time when she was a republic.
-
-### Technical frame 2: A SHORT HISTORY OF ENGLAND [Pg 1] / XIII / THE AGE OF THE PURITANS
-
-**Context:** _(history_short_history_of_england.pdf (source-range-46d51aaf-00358))_
-
-> case for their enemies is little realized; for it is connected with what our insular history most neglects, the condition of the Continent. It should be remembered that though the Stuarts failed in England they fought for things that succeeded in Europe. These were roughly, first, the effects of the Counter-Reformation, which made the sincere Protestant see Stuart Catholicism not at all as the last flicker of an old flame, but as the spread of a conflagration. Charles II., for instance, was a ma
-
-**Atom:** _(history_short_history_of_england.pdf (source-range-46d51aaf-00353))_
-
-> For the first point about democracy, no candid person, in face of the facts, can really consider it at all. It is quite possible to hold that the seventeenth-century Parliament was fighting for the truth; it is not possible to hold that it was fighting for the populace. After the autumn of the Middle Ages Parliament was always actively aristocratic and actively anti-popular. The institution which forbade Charles I. to raise Ship Money was the same institution which previously forbade Richard II. to free the serfs. The group which claimed coal and minerals from Charles I. was the same which afterward claimed the common lands from the village communities. It was the same institution which only two generations before had eagerly helped to destroy, not merely things of popular sentiment like the monasteries, but all the things of popular utility like the guilds and parishes, the local governments of towns and trades. The work of the great lords may have had, indeed it certainly had, another more patriotic and creative side; but it was exclusively the work of the great lords that was done by Parliament. The House of Commons has itself been a House of Lords.

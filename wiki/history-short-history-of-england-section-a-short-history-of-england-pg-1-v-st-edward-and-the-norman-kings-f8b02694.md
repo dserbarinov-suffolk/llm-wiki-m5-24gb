@@ -1,13 +1,14 @@
 ---
 page_id: history-short-history-of-england-section-a-short-history-of-england-pg-1-v-st-edward-and-the-norman-kings-f8b02694
 page_kind: source
-summary: A SHORT HISTORY OF ENGLAND [Pg 1] / V / ST. EDWARD AND THE NORMAN KINGS: 152 source-backed entries and 3 atom(s) from raw/history_short_history_of_england.pdf.
+summary: A SHORT HISTORY OF ENGLAND [Pg 1] / V / ST. EDWARD AND THE NORMAN KINGS: 152 source-backed entries and 0 atom(s) from raw/history_short_history_of_england.pdf.
+page_family: section-reference
 sources: raw/history_short_history_of_england.pdf
-updated: 2026-06-29
+updated: 2026-06-30
 domain: history-short-history-of-england
 category_path: sources/history-short-history-of-england/sections
 source_id: history_short_history_of_england.pdf
-projection_coverage: section-history-short-history-of-england-section-a-short-history-of-england-pg-1-v-st-edward-and-the-norman-kings-f8b02694@a83b951d48fab2217c42ad50a96e5de1
+projection_coverage: section-history-short-history-of-england-section-a-short-history-of-england-pg-1-v-st-edward-and-the-norman-kings-f8b02694@de61ab83eb918ba6bf1208d08612d68a
 ---
 
 # A SHORT HISTORY OF ENGLAND [Pg 1] / V / ST. EDWARD AND THE NORMAN KINGS
@@ -17,7 +18,6 @@ From [[history-short-history-of-england]].
 ## Related pages
 
 - [[history-short-history-of-england-section-a-short-history-of-england-pg-1-v-bcb467cc]] - broader source section: A SHORT HISTORY OF ENGLAND [Pg 1] / V
-- [[history-short-history-of-england-edward-and-norman-king]] - topic hub: opens the topic page for Edward And Norman King
 
 ## Statements
 
@@ -62,35 +62,3 @@ From [[history-short-history-of-england]].
 - In France arose absolute government, the more because it was not precisely personal government. _(history_short_history_of_england.pdf (source-range-46d51aaf-00130))_
 - William of Normandy succeeded immediately, he did not quite succeed ultimately; there was in his huge success a secret of failure that only bore fruit long after his death. _(history_short_history_of_england.pdf (source-range-46d51aaf-00130))_
 - Yet it is certain that the puppet became an idol; a popular idol of unparalleled power, before which all mayors and nobles bent or were broken. _(history_short_history_of_england.pdf (source-range-46d51aaf-00130))_
-
-## Technical atoms
-
-### Technical frame 1: A SHORT HISTORY OF ENGLAND [Pg 1] / V / ST. EDWARD AND THE NORMAN KINGS
-
-**Context:** _(history_short_history_of_england.pdf (source-range-46d51aaf-00107))_
-
-> Edward the Confessor, like Henry VI., was not only an invalid but almost an idiot. It is said that he was wan like an albino, and that the awe men had of him was partly that which is felt for a monster of mental deficiency. His Christian charity was of the kind
-
-**Atom:** _(history_short_history_of_england.pdf (source-range-46d51aaf-00106))_
-
-> It is sometimes valuable to have enough imagination to unlearn as well as to learn. I would ask the reader to forget his reading and everything that he learnt at school, and consider the English monarchy as it would then appear to him. Let him suppose that his acquaintance with the ancient kings has only come to him as it came to most men in simpler times, from nursery tales, from the names of places, from the dedications of churches and charities, from the tales in the tavern, and the tombs in the churchyard. Let us suppose such a person going upon some open and ordinary English way, such as the Thames valley to Windsor, or visiting some old seats of culture, such as Oxford or Cambridge. One of the first things, for instance, he would find would be Eton, a place transformed, indeed, by modern aristocracy, but still enjoying its mediæval wealth and remembering its mediæval origin. If he asked about that origin, it is probable that even a public schoolboy would know enough history to tell him that it was founded by Henry VI. If he went to Cambridge and looked with his own eyes for the college chapel which artistically towers above all others like a cathedral, he would probably ask about it, and be told it was King's College. If he asked which king, he would again be told Henry VI. If he then went into the library and looked up Henry VI. in an encyclopædia, he would find that the legendary giant, who had left these gigantic works behind him, was in history an almost invisible pigmy. Amid the varying and contending numbers of a great national quarrel, he is the only cipher. The contending factions carry him about like a bale of goods. His desires do not seem to be even ascertained, far less satisfied. And yet his real desires are satisfied in stone and marble, in oak and gold, and remain through all the maddest revolutions of modern England, while all the ambitions of those who dictated to him have gone away like dust upon the wind.
-
-### Technical frame 2: A SHORT HISTORY OF ENGLAND [Pg 1] / V / ST. EDWARD AND THE NORMAN KINGS
-
-**Context:** _(history_short_history_of_england.pdf (source-range-46d51aaf-00118))_
-
-> William asserted that the Confessor, in the course of that connection which followed naturally from his Norman education, had promised the English crown to the holder of the Norman dukedom. Whether he did or not we shall probably never know: it is not intrinsically impossible or even improbable. To blame the promise as unpatriotic, even if it was given, is to read duties defined at a much later date into the first feudal chaos; to make such blame positive and personal is like expecting the Ancie
-
-**Atom:** _(history_short_history_of_england.pdf (source-range-46d51aaf-00117))_
-
-> But if the racial theorists press the point to a comparison of races, it can obviously only be answered by a study of the two types in separation.
-
-### Technical frame 3: A SHORT HISTORY OF ENGLAND [Pg 1] / V / ST. EDWARD AND THE NORMAN KINGS
-
-**Context:** _(history_short_history_of_england.pdf (source-range-46d51aaf-00125))_
-
-> The knot in the system was something like this. In theory the King owned everything, like an earthly providence; and that made for despotism and "divine right," which meant in substance a natural authority. In one aspect the King was simply the one lord anointed by the Church, that is recognized by the ethics of the age. But while there was more royalty in theory, there could be more rebellion in practice. Fighting was much more equal than in our age of munitions, and the various groups could ar
-
-**Atom:** _(history_short_history_of_england.pdf (source-range-46d51aaf-00124))_
-
-> Its very cult of authority was a thing of reason, as all men who can reason themselves instantly recognize, even if, like Huxley, they deny its premises or dislike its fruits.

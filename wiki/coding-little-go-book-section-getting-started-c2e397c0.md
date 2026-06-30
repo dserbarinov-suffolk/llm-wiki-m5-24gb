@@ -1,13 +1,14 @@
 ---
 page_id: coding-little-go-book-section-getting-started-c2e397c0
 page_kind: source
-summary: Getting Started: 10 source-backed entries and 2 atom(s) from raw/coding_little_go_book.pdf.
+summary: Getting Started: 10 source-backed entries and 0 atom(s) from raw/coding_little_go_book.pdf.
+page_family: section-reference
 sources: raw/coding_little_go_book.pdf
-updated: 2026-06-29
+updated: 2026-06-30
 domain: coding-little-go-book
 category_path: sources/coding-little-go-book/sections
 source_id: coding_little_go_book.pdf
-projection_coverage: section-coding-little-go-book-section-getting-started-c2e397c0@4ae5beabcef7f01605713b459ea2387b
+projection_coverage: section-coding-little-go-book-section-getting-started-c2e397c0@ca3306795ce64ac98e01b4d47e07cb58
 ---
 
 # Getting Started
@@ -32,17 +33,3 @@ From [[coding-little-go-book]].
 
 - Download the latest zip file. If you're on an x64 system, you'll want go#.#.#.windows-amd64.zip , where #.#.# is the latest version of Go. Unzip it at a location of your choosing. c:\Go is a good choice. Set up two environment variables: 1. GOPATH points to your workspace. That might be something like c:\users\goku\work\go . 2. Add c:\Go\bin to your PATH environment variable. Environment variables can be set through the Environment Variables button on the Advanced tab of the System control panel. Some versions of Windows provide this control panel through the Advanced System Settings option inside the System control panel. Open a command prompt and type go version . You'll hopefully get an output that looks like go version go1.3.3 windows/amd64 . _(coding_little_go_book.pdf (source-range-23d24eb1-00030))_
 - Some versions of Windows provide this control panel through the Advanced System Settings option inside the System control panel. _(coding_little_go_book.pdf (source-range-23d24eb1-00030))_
-
-## Technical atoms
-
-### Technical frame 1: Getting Started
-
-**Atom:** _(coding_little_go_book.pdf (source-range-23d24eb1-00023))_
-
-> If you're looking to play a little with Go, you should check out the Go Playground which lets you run code online without having to install anything. This is also the most common way to share Go code when seeking help in Go's discussion forum and places like StackOverflow. Installing Go is straightforward. You can install it from source, but I suggest you use one of the pre-compiled binaries. When you go to the download page, you'll see installers for various platforms. Let's avoid these and learn how to set up Go ourselves. As you'll see, it isn't hard. Except for simple examples, Go is designed to work when your code is inside a workspace. The workspace is a folder composed of bin , pkg and src subfolders. You might be tempted to force Go to follow your own style - don't. Normally, I put my projects inside of ~/code . For example, ~/code/blog contains my blog. For Go, my workspace is ~/code/go and my Gopowered blog would be in ~/code/go/src/blog . In short, create a go folder with a src subfolder wherever you expect
-
-### Technical frame 2: Getting Started
-
-**Atom:** _(coding_little_go_book.pdf (source-range-23d24eb1-00023))_
-
-> If you're looking to play a little with Go, you should check out the Go Playground which lets you run code online without having to install anything.

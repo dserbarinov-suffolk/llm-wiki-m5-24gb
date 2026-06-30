@@ -2,8 +2,9 @@
 page_id: coding-little-go-book-section-the-little-go-book-8a1584ee
 page_kind: source
 summary: The Little Go Book: 2 source-backed entries and 0 atom(s) from raw/coding_little_go_book.pdf.
+page_family: section-reference
 sources: raw/coding_little_go_book.pdf
-updated: 2026-06-29
+updated: 2026-06-30
 domain: coding-little-go-book
 category_path: sources/coding-little-go-book/sections
 source_id: coding_little_go_book.pdf

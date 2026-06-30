@@ -1,12 +1,13 @@
 ---
 page_id: rpg-dnd-srd-excerpt-proficiency
 page_kind: concept
-summary: Proficiency: 11 statement(s) and 6 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
+summary: Proficiency: 12 statement(s) and 6 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
+page_family: topic-concept
 sources: raw/rpg_dnd_srd_excerpt.pdf
-updated: 2026-06-29
+updated: 2026-06-30
 domain: rpg-dnd-srd-excerpt
 category_path: concepts
-projection_coverage: topic-rpg-dnd-srd-excerpt-proficiency@dbae8c55bef73eb640d7eaf7206a0705
+projection_coverage: topic-rpg-dnd-srd-excerpt-proficiency@1beab198272c13d3c1df7a61e2610ba8
 ---
 
 # Proficiency
@@ -24,6 +25,8 @@ What [[rpg-dnd-srd-excerpt]] covers about proficiency:
 - In general, you don't multiply your proficiency bonus for attack rolls or saving throws. If a feature or effect allows you to do so, these same rules apply. _(rpg_dnd_srd_excerpt.pdf (source-range-4449ec9f-00087))_
 
 ### Ability Checks / Skills
+
+- Each ability covers a broad range of capabilities, including skills that a character or a monster can be proficient in. A skill represents a specific aspect of an ability score, and an individual's proficiency in a skill demonstrates a focus on that aspect. (A character's starting skill proficiencies are determined at character creation, and a monster's skill proficiencies appear in the monster's stat block.) _(rpg_dnd_srd_excerpt.pdf (source-range-4449ec9f-00099))_
 
 - Sometimes, the GM might ask for an ability check using a specific skill-for example, "Make a Wisdom (Perception) check." At other times, a player might ask the GM if proficiency in a particular skill applies to a check. In either case, proficiency in a skill means an individual can add his or her proficiency bonus to ability checks that involve that skill. Without proficiency in the skill, the individual makes a normal ability check. _(rpg_dnd_srd_excerpt.pdf (source-range-4449ec9f-00115))_
 
@@ -119,14 +122,18 @@ What [[rpg-dnd-srd-excerpt]] covers about proficiency:
 
 ## Related pages
 
-- [[rpg-dnd-srd-excerpt-ability-check]] - shared statements and technical atoms: Ability Checks shares source evidence from Ability Checks / Skills: Sometimes, the GM might ask for an ability check using a specific skill-for example, "Make a Wisdom (Perception) check." At other times, a player might ask the GM if ... [truncated]; Ability Checks shares technical record from Ability Checks / Skills: If the character is proficient in Athletics, the character's proficiency bonus is added to the Strength check. (4 shared statement(s), 1 shared atom(s))
-- [[rpg-dnd-srd-excerpt-skill]] - shared statements and technical atoms: Skills shares source evidence from Ability Checks / Skills: Sometimes, the GM might ask for an ability check using a specific skill-for example, "Make a Wisdom (Perception) check." At other times, a player might ask the GM if ... [truncated]; Skills shares technical record from Ability Checks / Skills: If the character is proficient in Athletics, the character's proficiency bonus is added to the Strength check. (3 shared statement(s), 1 shared atom(s))
-- [[rpg-dnd-srd-excerpt-weapon]] - shared statements and technical atoms: Weapons shares source evidence from Weapons: Your class grants proficiency in certain weapons, reflecting both the class's focus and the tools you are most likely to use. Whether you favor a longsword or a long ... [truncated]; Weapons shares technical record from Weapons / Weapon Proficiency: If you make an attack roll using a weapon with which you lack proficiency, you do not add your proficiency bonus to the attack roll. (2 shared statement(s), 1 shared atom(s))
+- [[rpg-dnd-srd-excerpt-bonus]] - shared statements and technical atoms: Bonus shares source evidence from Proficiency Bonus: Your proficiency bonus can't be added to a single die roll or other number more than once. For example, if two different rules say you can add your proficiency bonus ... [truncated]; Bonus shares technical record from Proficiency Bonus: If a circumstance suggests that your proficiency bonus applies more than once to the same roll, you still add it only once and multiply or divide it only once. (3 shared statement(s), 3 shared atom(s))
+- [[rpg-dnd-srd-excerpt-skill]] - shared statements and technical atoms: Skill shares source evidence from Proficiency Bonus: By the same token, if a feature or effect allows you to multiply your proficiency bonus when making an ability check that wouldn't normally benefit from your profici ... [truncated]; Skill shares technical record from Proficiency Bonus: If a feature or effect allows you to do so, these same rules apply. (4 shared statement(s), 2 shared atom(s))
+- [[rpg-dnd-srd-excerpt-class]] - shared statements and technical atoms: Class shares source evidence from Weapons: Your class grants proficiency in certain weapons, reflecting both the class's focus and the tools you are most likely to use. Whether you favor a longsword or a long ... [truncated]; Class shares technical record from Armor: If the Armor table shows "Str 13" or "Str 15" in the Strength column for an armor type, the armor reduces the wearer's speed by 10 feet unless the wearer has a Stren ... [truncated] (1 shared statement(s), 2 shared atom(s))
+- [[rpg-dnd-srd-excerpt-weapon]] - shared statements and technical atoms: Weapon shares source evidence from Weapons: Your class grants proficiency in certain weapons, reflecting both the class's focus and the tools you are most likely to use. Whether you favor a longsword or a long ... [truncated]; Weapon shares technical record from Weapons / Weapon Proficiency: If you make an attack roll using a weapon with which you lack proficiency, you do not add your proficiency bonus to the attack roll. (2 shared statement(s), 1 shared atom(s))
 - [[rpg-dnd-srd-excerpt-armor]] - shared statements and technical atoms: Armor shares source evidence from Armor: Armor Proficiency . Anyone can put on a suit of armor or strap a shield to an arm. Only those proficient in the armor's use know how to wear it effectively, however. ... [truncated]; Armor shares technical record from Armor: If the Armor table shows "Str 13" or "Str 15" in the Strength column for an armor type, the armor reduces the wearer's speed by 10 feet unless the wearer has a Stren ... [truncated] (1 shared statement(s), 1 shared atom(s))
+- [[rpg-dnd-srd-excerpt-ability]] - shared technical atoms: Ability shares technical record from Ability Checks / Skills: If the character is proficient in Athletics, the character's proficiency bonus is added to the Strength check. (1 shared atom(s))
 - [[rpg-dnd-srd-excerpt-check]] - shared technical atoms: Check shares technical record from Ability Checks / Skills: If the character is proficient in Athletics, the character's proficiency bonus is added to the Strength check. (1 shared atom(s))
-- [[rpg-dnd-srd-excerpt-character]] - shared statements: Character shares source evidence from Ability Checks / Skills: For example, if a character attempts to climb up a dangerous cliff, the GM might ask for a Strength (Athletics) check. If the character is proficient in Athletics, t ... [truncated] (3 shared statement(s))
-- [[rpg-dnd-srd-excerpt-ability]] - shared statements: Using Each Ability shares source evidence from Ability Checks / Using Each Ability / Dexterity: Passive Perception . When you hide, there's a chance someone will notice you even if they aren't searching. To determine whether such a creature notices you, the GM ... [truncated] (1 shared statement(s))
-- [[rpg-dnd-srd-excerpt-dexterity]] - shared statements: Dexterity shares source evidence from Ability Checks / Using Each Ability / Dexterity: Passive Perception . When you hide, there's a chance someone will notice you even if they aren't searching. To determine whether such a creature notices you, the GM ... [truncated] (1 shared statement(s))
+- [[rpg-dnd-srd-excerpt-character]] - shared statements: Character shares source evidence from Ability Checks / Skills: Each ability covers a broad range of capabilities, including skills that a character or a monster can be proficient in. A skill represents a specific aspect of an ab ... [truncated] (4 shared statement(s))
+- [[rpg-dnd-srd-excerpt-attack]] - shared statements: Attack shares source evidence from Proficiency Bonus: In general, you don't multiply your proficiency bonus for attack rolls or saving throws. If a feature or effect allows you to do so, these same rules apply. (1 shared statement(s))
+- [[rpg-dnd-srd-excerpt-level]] - shared statements: Level shares source evidence from Ability Checks / Using Each Ability / Dexterity: Passive Perception . When you hide, there's a chance someone will notice you even if they aren't searching. To determine whether such a creature notices you, the GM ... [truncated] (1 shared statement(s))
+- [[rpg-dnd-srd-excerpt-situation]] - shared statements: Situation shares source evidence from Ability Checks / Skills / Variant: Skills with Different Abilities: Normally, your proficiency in a skill applies only to a specific kind of ability check. Proficiency in Athletics, for example, usually applies to Strength checks. In ... [truncated] (1 shared statement(s))
+- [[rpg-dnd-srd-excerpt-throw]] - shared statements: Throw shares source evidence from Saving Throws: Each class gives proficiency in at least two saving throws. The wizard, for example, is proficient in Intelligence saves. As with skill proficiencies, proficiency in ... [truncated] (1 shared statement(s))
 
 ## Source
 

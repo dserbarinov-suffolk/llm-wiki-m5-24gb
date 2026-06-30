@@ -2,11 +2,12 @@
 page_id: history-dickens-england-excerpt-lord
 page_kind: concept
 summary: Lord: 7 statement(s) and 0 atom(s) from raw/history_dickens_england_excerpt.pdf.
+page_family: topic-concept
 sources: raw/history_dickens_england_excerpt.pdf
-updated: 2026-06-29
+updated: 2026-06-30
 domain: history-dickens-england-excerpt
 category_path: concepts
-projection_coverage: topic-history-dickens-england-excerpt-lord@d25294649773de21309aee08cdbb6d29
+projection_coverage: topic-history-dickens-england-excerpt-lord@739a5f501d976f194ba3bfa74083e7ee
 ---
 
 # Lord
@@ -32,14 +33,11 @@ What [[history-dickens-england-excerpt]] covers about lord:
 
 ## Related pages
 
-- [[history-dickens-england-excerpt-conspiring-lords-found]] - narrower topic: Conspiring Lords Found shares source evidence from A Child's History of England (Excerpt: The Norman Conquest to Edward I) / CHAPTER XV--ENGLAND UNDER HENRY THE THIRD, CALLED, OF WINCHESTER: If any of the English Barons remembered the murdered Arthur's sister, Eleanor the fair maid of Brittany, shut up in her convent at Bristol, none among them spoke of ... [truncated] (4 shared statement(s))
-- [[history-dickens-england-excerpt-child-history-england-excerpt-norman-conquest-edward]] - shared statements: A Child's History of England (Excerpt: The Norman Conquest to Edward I) shares source evidence from A Child's History of England (Excerpt: The Norman Conquest to Edward I) / CHAPTER X--ENGLAND UNDER HENRY THE FIRST, CALLED FINE-SCHOLAR: An hour or two afterwards, the King set sail in the vessel he had chosen, accompanied by other vessels, and, sailing all night with a fair and gentle wind, arrived u ... [truncated] (7 shared statement(s))
-- [[history-dickens-england-excerpt-england-henry-third-winchester]] - shared statements: -ENGLAND UNDER HENRY THE THIRD, CALLED, OF WINCHESTER shares source evidence from A Child's History of England (Excerpt: The Norman Conquest to Edward I) / CHAPTER XV--ENGLAND UNDER HENRY THE THIRD, CALLED, OF WINCHESTER: If any of the English Barons remembered the murdered Arthur's sister, Eleanor the fair maid of Brittany, shut up in her convent at Bristol, none among them spoke of ... [truncated] (4 shared statement(s))
-- [[history-dickens-england-excerpt-england-richard-lion-heart]] - shared statements: -ENGLAND UNDER RICHARD THE FIRST, CALLED THE LION-HEART shares source evidence from A Child's History of England (Excerpt: The Norman Conquest to Edward I) / CHAPTER XIII--ENGLAND UNDER RICHARD THE FIRST, CALLED THE LION-HEART: In the year of our Lord one thousand one hundred and eighty-nine, Richard of the Lion Heart succeeded to the throne of King Henry the Second, whose paternal heart he ... [truncated] (2 shared statement(s))
+- [[history-dickens-england-excerpt-conspiring-lords-found]] - narrower topic: Conspiring Lords Found shares source evidence from A Child's History of England (Excerpt: The Norman Conquest to Edward I) / CHAPTER XV--ENGLAND UNDER HENRY THE THIRD, CALLED, OF WINCHESTER: the Black Band and their Captain watched it too, like three hundred and one black wolves. For thirty-nine days, Hubert de Burgh remained within. At length, upon the ... [truncated] (1 shared statement(s))
 - [[history-dickens-england-excerpt-year]] - shared statements: Year shares source evidence from A Child's History of England (Excerpt: The Norman Conquest to Edward I) / CHAPTER XIII--ENGLAND UNDER RICHARD THE FIRST, CALLED THE LION-HEART: In the year of our Lord one thousand one hundred and eighty-nine, Richard of the Lion Heart succeeded to the throne of King Henry the Second, whose paternal heart he ... [truncated] (2 shared statement(s))
 - [[history-dickens-england-excerpt-afterward]] - shared statements: Afterward shares source evidence from A Child's History of England (Excerpt: The Norman Conquest to Edward I) / CHAPTER XV--ENGLAND UNDER HENRY THE THIRD, CALLED, OF WINCHESTER: If any of the English Barons remembered the murdered Arthur's sister, Eleanor the fair maid of Brittany, shut up in her convent at Bristol, none among them spoke of ... [truncated] (1 shared statement(s))
-- [[history-dickens-england-excerpt-england-henry-fine-scholar]] - shared statements: -ENGLAND UNDER HENRY THE FIRST, CALLED FINE-SCHOLAR shares source evidence from A Child's History of England (Excerpt: The Norman Conquest to Edward I) / CHAPTER X--ENGLAND UNDER HENRY THE FIRST, CALLED FINE-SCHOLAR: An hour or two afterwards, the King set sail in the vessel he had chosen, accompanied by other vessels, and, sailing all night with a fair and gentle wind, arrived u ... [truncated] (1 shared statement(s))
 - [[history-dickens-england-excerpt-king]] - shared statements: King shares source evidence from A Child's History of England (Excerpt: The Norman Conquest to Edward I) / CHAPTER XV--ENGLAND UNDER HENRY THE THIRD, CALLED, OF WINCHESTER: If any of the English Barons remembered the murdered Arthur's sister, Eleanor the fair maid of Brittany, shut up in her convent at Bristol, none among them spoke of ... [truncated] (1 shared statement(s))
+- [[history-dickens-england-excerpt-three]] - shared statements: Three shares source evidence from A Child's History of England (Excerpt: The Norman Conquest to Edward I) / CHAPTER XV--ENGLAND UNDER HENRY THE THIRD, CALLED, OF WINCHESTER: If any of the English Barons remembered the murdered Arthur's sister, Eleanor the fair maid of Brittany, shut up in her convent at Bristol, none among them spoke of ... [truncated] (1 shared statement(s))
 - [[history-dickens-england-excerpt-young]] - shared statements: Young shares source evidence from A Child's History of England (Excerpt: The Norman Conquest to Edward I) / CHAPTER XV--ENGLAND UNDER HENRY THE THIRD, CALLED, OF WINCHESTER: If any of the English Barons remembered the murdered Arthur's sister, Eleanor the fair maid of Brittany, shut up in her convent at Bristol, none among them spoke of ... [truncated] (1 shared statement(s))
 
 ## Source

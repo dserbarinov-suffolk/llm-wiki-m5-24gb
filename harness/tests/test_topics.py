@@ -1,13 +1,9 @@
-"""Per-source topic-index tests: heading + key-term topic planning and the
-topic page renderer.
+"""Per-source topic-index tests.
 
-These prove the searchable-topic projection: the author's headings and salient
-recurring subject terms become concept topics that aggregate the source's
-claims and atoms, run-on/contents-list statements are excluded, common English
-words never anchor a topic, and rendered pages leak no internal ids.
+Authored headings are projected as section-reference pages. Topic pages are for
+repeated or emergent concepts that aggregate source-backed claims and atoms.
 """
 
-from llmwiki.domain.ledger.atoms import atom_raw_text
 from llmwiki.domain.ledger.builder import (
     LedgerBuildResult,
     SegmentInput,
@@ -17,6 +13,7 @@ from llmwiki.domain.ledger.builder import (
 from llmwiki.domain.ledger.features import profile_unit
 from llmwiki.domain.ledger.ledger import ClaimLedger
 from llmwiki.domain.ledger.section_pages import build_section_pages
+from llmwiki.domain.ledger.section_planning import build_section_grounded_plan
 from llmwiki.domain.ledger.segments import SegmentClaim, SourceSegment
 from llmwiki.domain.ledger.structure import DocumentStructure
 from llmwiki.domain.ledger.topic_render import render_topic_page
@@ -97,53 +94,32 @@ def _topic_texts(result: LedgerBuildResult, entry_ids: tuple[str, ...]) -> list[
 
 
 class TestTopicPlanning:
-    def test_heading_and_term_merge_into_one_topic(self) -> None:
+    def test_repeated_subject_term_creates_topic_without_heading_duplication(self) -> None:
         topic = _topic(_build(_SPECS), "function")
         assert topic is not None
-        assert topic.from_heading  # the "Functions" heading anchors it
-        assert topic.label == "Functions"
+        assert not topic.from_heading
+        assert topic.label == "Function"
         assert len(topic.entry_ids) >= 4
 
-    def test_heading_topic_does_not_import_sibling_lexical_mentions(self) -> None:
+    def test_exact_section_target_does_not_create_duplicate_topic(self) -> None:
         result = _build(
             [
-                ("heading", "# Vessel Failure", []),
+                ("heading", "# Alpha", []),
                 (
                     "paragraph",
-                    "A vessel failure requires immediate venting.",
-                    ["A vessel failure requires immediate venting."],
-                ),
-                (
-                    "paragraph",
-                    "A cracked vessel loses pressure.",
-                    ["A cracked vessel loses pressure."],
-                ),
-                (
-                    "paragraph",
-                    "Repair crews can seal a failed vessel.",
-                    ["Repair crews can seal a failed vessel."],
-                ),
-                ("heading", "# Vessel Painting", []),
-                (
-                    "paragraph",
-                    "A vessel painting crew uses blue primer.",
-                    ["A vessel painting crew uses blue primer."],
-                ),
-                (
-                    "paragraph",
-                    "A vessel painting crew uses rollers.",
-                    ["A vessel painting crew uses rollers."],
+                    "Alpha has source-local evidence.",
+                    ["Alpha has source-local evidence."],
                 ),
             ]
         )
-        topic = _topic(result, "vessel-failure")
-        assert topic is not None
-        texts = _topic_texts(result, topic.entry_ids)
-        assert any("immediate venting" in text for text in texts)
-        assert any("failed vessel" in text for text in texts)
-        assert not any("blue primer" in text for text in texts)
+        section_plan = build_section_grounded_plan(result.ledger, result.document_structure)
+        topics = plan_source_topics(
+            result.ledger, result.document_structure, section_plan=section_plan
+        )
 
-    def test_heading_topic_includes_only_context_supported_atoms(self) -> None:
+        assert "alpha" not in {topic.topic_key for topic in topics}
+
+    def test_section_page_includes_only_context_supported_atoms(self) -> None:
         result = _build(
             [
                 ("heading", "# Arrays", []),
@@ -155,15 +131,19 @@ class TestTopicPlanning:
             ]
         )
 
-        topic = _topic(result, "array")
+        pages = build_section_pages(
+            result.ledger,
+            result.document_structure,
+            source_page_id="book",
+            source_locator="book.pdf",
+            today="2026-06-26",
+        )
+        page = next(page for page in pages if page.page_body.startswith("# Arrays"))
 
-        assert topic is not None
-        assert len(topic.atom_ids) == 1
-        atom = result.ledger.atom(topic.atom_ids[0])
-        assert atom is not None
-        assert "scores" in atom_raw_text(atom.payload)
+        assert "scores := [4]int{9001, 9333}" in page.page_body
+        assert "arrayBuffer" not in page.page_body
 
-    def test_heading_topic_includes_table_with_matching_source_caption(self) -> None:
+    def test_section_page_includes_table_with_matching_source_caption(self) -> None:
         result = _build(
             [
                 ("heading", "# Armor", []),
@@ -184,43 +164,16 @@ class TestTopicPlanning:
             ]
         )
 
-        topic = _topic(result, "armor")
-
-        assert topic is not None
-        atoms = [result.ledger.atom(atom_id) for atom_id in topic.atom_ids]
-        assert any(
-            atom is not None and "Table- Armor" in atom_raw_text(atom.payload) for atom in atoms
+        pages = build_section_pages(
+            result.ledger,
+            result.document_structure,
+            source_page_id="book",
+            source_locator="book.pdf",
+            today="2026-06-26",
         )
+        page = next(page for page in pages if page.page_body.startswith("# Armor"))
 
-    def test_heading_topic_includes_table_named_by_generic_forward_cue(self) -> None:
-        filler = [
-            ("paragraph", f"Intervening source line {index} separates cue and table.", [])
-            for index in range(10)
-        ]
-        result = _build(
-            [
-                ("heading", "# Sample Outcomes", []),
-                (
-                    "paragraph",
-                    "The Sample Outcomes table shows generated results.",
-                    ["The Sample Outcomes table shows generated results."],
-                ),
-                ("heading", "# Roll on the table below.", []),
-                *filler,
-                ("heading", "# Follow-up Notes", []),
-                (
-                    "table-block",
-                    "| Roll | Result |\n| --- | --- |\n| 1 | Alpha |\n| 2 | Beta |",
-                    [],
-                ),
-            ]
-        )
-
-        topic = _topic(result, "sample-outcome")
-
-        assert topic is not None
-        atoms = [result.ledger.atom(atom_id) for atom_id in topic.atom_ids]
-        assert any(atom is not None and "Alpha" in atom_raw_text(atom.payload) for atom in atoms)
+        assert "Table- Armor" in page.page_body
 
     def test_section_page_includes_table_named_by_generic_forward_cue(self) -> None:
         filler = [
@@ -286,7 +239,7 @@ class TestTopicPlanning:
             assert term not in keys
 
     def test_topics_are_capped_and_ranked(self) -> None:
-        topics = plan_source_topics(*_unpack(_build(_SPECS)))
+        topics = plan_source_topics(*_unpack(_build(_SPECS)), max_topics=32)
         assert len(topics) <= 32
         saliences = [t.salience for t in topics]
         assert saliences == sorted(saliences, reverse=True)
@@ -304,7 +257,7 @@ class TestTopicRender:
         page = render_topic_page(
             topic, result.ledger, wiki_page_locator="book-function", source_page_id="book"
         )
-        assert "# Functions" in page.page_body
+        assert "# Function" in page.page_body
         assert "[[book]]" in page.page_body  # back-link to source
         assert "A function provides a result." in page.page_body
         assert "ledger-entry-" not in page.page_body
@@ -312,7 +265,7 @@ class TestTopicRender:
         kinds = {e.projection_coverage_unit_kind for e in page.coverage.entries}
         assert "generated-page-claim" in kinds
 
-    def test_topic_page_renders_atom_context_before_atom(self) -> None:
+    def test_section_page_renders_atom_context_before_atom(self) -> None:
         result = _build(
             [
                 ("heading", "# Arrays", []),
@@ -321,20 +274,19 @@ class TestTopicRender:
                 ("code-fence", "```go\nscores := [4]int{9001, 9333}\n```", []),
             ]
         )
-        topic = _topic(result, "array")
-        assert topic is not None
-
-        page = render_topic_page(
-            topic, result.ledger, wiki_page_locator="book-array", source_page_id="book"
+        pages = build_section_pages(
+            result.ledger,
+            result.document_structure,
+            source_page_id="book",
+            source_locator="book.pdf",
+            today="2026-06-26",
         )
+        page = next(page for page in pages if page.page_body.startswith("# Arrays"))
 
-        assert "**Context:** _(book.pdf (sr-003))_" in page.page_body
-        assert "> We can initialize the array with values:" in page.page_body
+        assert "We can initialize the array with values:" in page.page_body
         assert "scores := [4]int{9001, 9333}" in page.page_body
-        kinds = {e.projection_coverage_unit_kind for e in page.coverage.entries}
-        assert "technical-atom-context" in kinds
 
-    def test_topic_page_renders_context_supported_structured_rule_atom(self) -> None:
+    def test_section_page_renders_context_supported_structured_rule_atom(self) -> None:
         result = _build(
             [
                 ("heading", "# Combat", []),
@@ -343,13 +295,14 @@ class TestTopicRender:
                 ("paragraph", "A combatant must roll a die.", ["A combatant must roll a die."]),
             ]
         )
-        topic = _topic(result, "combat")
-        assert topic is not None
-
-        page = render_topic_page(
-            topic, result.ledger, wiki_page_locator="book-combat", source_page_id="book"
+        pages = build_section_pages(
+            result.ledger,
+            result.document_structure,
+            source_page_id="book",
+            source_locator="book.pdf",
+            today="2026-06-26",
         )
+        page = next(page for page in pages if page.page_body.startswith("# Combat"))
 
-        assert "**Context:** _(book.pdf (sr-003))_" in page.page_body
-        assert "> Combat rules specify required rolls:" in page.page_body
+        assert "Combat rules specify required rolls:" in page.page_body
         assert "A combatant must roll a die." in page.page_body

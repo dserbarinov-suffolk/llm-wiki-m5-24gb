@@ -2,11 +2,12 @@
 page_id: coding-learn-go-with-tests-excerpt-type
 page_kind: concept
 summary: Type: 8 statement(s) and 3 atom(s) from raw/coding_learn_go_with_tests_excerpt.pdf.
+page_family: topic-concept
 sources: raw/coding_learn_go_with_tests_excerpt.pdf
-updated: 2026-06-29
+updated: 2026-06-30
 domain: coding-learn-go-with-tests-excerpt
 category_path: concepts
-projection_coverage: topic-coding-learn-go-with-tests-excerpt-type@3d4f82b559889c211a2d76a363e31be2
+projection_coverage: topic-coding-learn-go-with-tests-excerpt-type@5e4c085629035d012487bb9f8109e5ae
 ---
 
 # Type
@@ -98,11 +99,9 @@ assertStrings(t, got, want)
 
 ## Related pages
 
-- [[coding-learn-go-with-tests-excerpt-custom-type]] - narrower topic: Using a custom type shares source evidence from Using a custom type: Here we created a Dictionary type which acts as a thin wrapper around map . With the custom type defined, we can create the Search method.; Using a custom type shares technical record from Using a custom type: In dictionary_test.go: func TestSearch(t *testing.T) { dictionary := Dictionary{"test": "this is just a test"} got := dictionary.Search("test") want := "this is just a test" (1 shared statement(s), 2 shared atom(s))
-- [[coding-learn-go-with-tests-excerpt-maps]] - shared statements and technical atoms: Maps shares source evidence from Maps / Write the test first: The key type is special. It can only be a comparable type because without the ability to tell if 2 keys are equal, we have no way to ensure that we are getting the c ... [truncated]; Maps shares technical record from Maps / Write the test first: In dictionary_test.go package main import "testing" func TestSearch(t *testing.T) { dictionary := map[string]string{"test": "this is just a test"} got := Search(dict ... [truncated] (3 shared statement(s), 1 shared atom(s))
-- [[coding-learn-go-with-tests-excerpt-decoupling]] - shared statements: Decoupling shares source evidence from Decoupling / Wrapping up: Declaring structs to create your own data types which lets you bundle related data together and make the intent of your code clearer (1 shared statement(s))
-- [[coding-learn-go-with-tests-excerpt-method]] - shared statements: What are methods? shares source evidence from What are methods? / Refactor: We're creating a new type just like we did with Rectangle and Circle but this time it is an interface rather than a struct . (1 shared statement(s))
-- [[coding-learn-go-with-tests-excerpt-refactor]] - shared statements: one...last...refactor? shares source evidence from one...last...refactor?: It will be assigned the "zero" value. This depends on the type, for example int s are 0 and for string s it is "" . (1 shared statement(s))
+- [[coding-learn-go-with-tests-excerpt-write-test]] - shared statements and technical atoms: Write the test first shares source evidence from Maps / Write the test first: The key type is special. It can only be a comparable type because without the ability to tell if 2 keys are equal, we have no way to ensure that we are getting the c ... [truncated]; Write the test first shares technical record from Maps / Write the test first: In dictionary_test.go package main import "testing" func TestSearch(t *testing.T) { dictionary := map[string]string{"test": "this is just a test"} got := Search(dict ... [truncated] (3 shared statement(s), 1 shared atom(s))
+- [[coding-learn-go-with-tests-excerpt-value]] - shared statements and technical atoms: Value shares source evidence from Maps / Write the test first: The value type, on the other hand, can be any type you want. It can even be another map.; Value shares technical record from Maps / Write the test first: In dictionary_test.go package main import "testing" func TestSearch(t *testing.T) { dictionary := map[string]string{"test": "this is just a test"} got := Search(dict ... [truncated] (1 shared statement(s), 1 shared atom(s))
+- [[coding-learn-go-with-tests-excerpt-interface]] - shared statements: Interface shares source evidence from Wait, what?: In Go interface resolution is implicit . If the type you pass in matches what the interface is asking for, it will compile. (1 shared statement(s))
 
 ## Source
 

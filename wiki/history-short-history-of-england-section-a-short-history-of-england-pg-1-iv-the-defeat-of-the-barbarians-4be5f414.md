@@ -1,13 +1,14 @@
 ---
 page_id: history-short-history-of-england-section-a-short-history-of-england-pg-1-iv-the-defeat-of-the-barbarians-4be5f414
 page_kind: source
-summary: A SHORT HISTORY OF ENGLAND [Pg 1] / IV / THE DEFEAT OF THE BARBARIANS: 132 source-backed entries and 2 atom(s) from raw/history_short_history_of_england.pdf.
+summary: A SHORT HISTORY OF ENGLAND [Pg 1] / IV / THE DEFEAT OF THE BARBARIANS: 132 source-backed entries and 0 atom(s) from raw/history_short_history_of_england.pdf.
+page_family: section-reference
 sources: raw/history_short_history_of_england.pdf
-updated: 2026-06-29
+updated: 2026-06-30
 domain: history-short-history-of-england
 category_path: sources/history-short-history-of-england/sections
 source_id: history_short_history_of_england.pdf
-projection_coverage: section-history-short-history-of-england-section-a-short-history-of-england-pg-1-iv-the-defeat-of-the-barbarians-4be5f414@946fe77b0d765704ec26b575ff8f07ed
+projection_coverage: section-history-short-history-of-england-section-a-short-history-of-england-pg-1-iv-the-defeat-of-the-barbarians-4be5f414@ca7a5b81ee929283938d38b81f7886e0
 ---
 
 # A SHORT HISTORY OF ENGLAND [Pg 1] / IV / THE DEFEAT OF THE BARBARIANS
@@ -17,7 +18,6 @@ From [[history-short-history-of-england]].
 ## Related pages
 
 - [[history-short-history-of-england-section-a-short-history-of-england-pg-1-iv-164429a5]] - broader source section: A SHORT HISTORY OF ENGLAND [Pg 1] / IV
-- [[history-short-history-of-england-defeat-barbarian]] - topic hub: opens the topic page for Defeat Barbarian
 
 ## Statements
 
@@ -63,25 +63,3 @@ From [[history-short-history-of-england]].
 - While he would dare anything for the faith, he would bargain in anything except the faith. _(history_short_history_of_england.pdf (source-range-46d51aaf-00096))_
 - And Canute himself is actually now only remembered by men as a witness to the futility of merely pagan power; as the king who put his own crown upon the image of Christ, and solemnly surrendered to heaven the Scandinavian empire of the sea. _(history_short_history_of_england.pdf (source-range-46d51aaf-00102))_
 - He began once more to draw to him the bows and spears of the broken levies of the western shires, especially the men of Somerset; and in the spring of 878 he flung them at the lines before the fenced camp of the victorious Danes at Ethandune. _(history_short_history_of_england.pdf (source-range-46d51aaf-00102))_
-
-## Technical atoms
-
-### Technical frame 1: A SHORT HISTORY OF ENGLAND [Pg 1] / IV / THE DEFEAT OF THE BARBARIANS
-
-**Context:** _(history_short_history_of_england.pdf (source-range-46d51aaf-00083))_
-
-> I know of no way in which fair-haired people can be prevented from falling in love with dark-haired people; and I do not believe that whether a man was long-headed or round-headed ever made much difference to any one who felt inclined to break his head. To all mortal appearance, in all mortal records and experience, people seem to have killed or spared, married or refrained from marriage, made kings or made slaves, with reference to almost any other consideration except this one. There was the l
-
-**Atom:** _(history_short_history_of_england.pdf (source-range-46d51aaf-00082))_
-
-> But there is another way in which common sense can be brought to the criticism of some prodigious racial theories. To employ the same figure, suppose the scientific historians explain the historic centuries in terms of a prehistoric division between short-sighted and long-sighted men. They could cite their instances and illustrations. They would certainly explain the curiosity of language I mentioned first, as showing that the short-sighted were the conquered race, and their name therefore a term of contempt. They could give us very graphic pictures of the rude tribal war. They could show how the long-sighted people were always cut to pieces in hand-to-hand struggles with axe and knife; until, with the invention of bows and arrows, the advantage veered to the long-sighted, and their enemies were shot down in droves. I could easily write a ruthless romance about it, and still more easily a ruthless anthropological theory. According to that thesis which refers all moral to material changes, they could explain the tradition that old people grow conservative in politics by the well-known fact that old people grow more long-sighted. But I think there might be one thing about this theory which would stump us, and might even, if it be possible, stump them. Suppose it were pointed out that through all the three thousand years of recorded history, abounding in literature of every conceivable kind, there was not so much as a mention of the oculist question for which all had been dared and done. Suppose not one of the living or dead languages of mankind had so much as a word for "long-sighted" or "short-sighted." Suppose, in short, the question that had torn the whole world in two was never even asked at all, until some spectacle-maker suggested it somewhere about 1750. In that case I think we should find it hard to believe that this physical difference had really played so fundamental a part in human history. And that is exactly the case with the physical difference between the Celts, the Teutons and the Latins. [Pg 31] [Pg 32]
-
-### Technical frame 2: A SHORT HISTORY OF ENGLAND [Pg 1] / IV / THE DEFEAT OF THE BARBARIANS
-
-**Context:** _(history_short_history_of_england.pdf (source-range-46d51aaf-00091))_
-
-> In the tremendous testament of our religion there are present certain ideals that seem wilder than impieties, which have in later times produced wild sects professing an almost inhuman perfection on certain points; as in the Quakers who renounce the right of self-defence, or the Communists who refuse any personal possessions. Rightly
-
-**Atom:** _(history_short_history_of_england.pdf (source-range-46d51aaf-00090))_
-
-> The politics are a nightmare; the kings are unstable and the kingdoms shifting; and we are really never on solid ground except on consecrated ground.

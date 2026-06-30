@@ -2,11 +2,12 @@
 page_id: history-dickens-england-excerpt-baron
 page_kind: concept
 summary: Baron: 8 statement(s) and 0 atom(s) from raw/history_dickens_england_excerpt.pdf.
+page_family: topic-concept
 sources: raw/history_dickens_england_excerpt.pdf
-updated: 2026-06-29
+updated: 2026-06-30
 domain: history-dickens-england-excerpt
 category_path: concepts
-projection_coverage: topic-history-dickens-england-excerpt-baron@4d3771994627b788999916f9c8be7c66
+projection_coverage: topic-history-dickens-england-excerpt-baron@587351dc149033b1d460d3fe4bad8f04
 ---
 
 # Baron
@@ -32,13 +33,9 @@ What [[history-dickens-england-excerpt]] covers about baron:
 
 ## Related pages
 
-- [[history-dickens-england-excerpt-child-history-england-excerpt-norman-conquest-edward]] - shared statements: A Child's History of England (Excerpt: The Norman Conquest to Edward I) shares source evidence from A Child's History of England (Excerpt: The Norman Conquest to Edward I) / CHAPTER VII--ENGLAND UNDER HAROLD THE SECOND, AND CONQUERED BY THE NORMANS: Harold was crowned King of England on the very day of the maudlin Confessor's funeral. He had good need to be quick about it. When the news reached Norman William, h ... [truncated] (8 shared statement(s))
-- [[history-dickens-england-excerpt-england-henry-third-winchester]] - shared statements: -ENGLAND UNDER HENRY THE THIRD, CALLED, OF WINCHESTER shares source evidence from A Child's History of England (Excerpt: The Norman Conquest to Edward I) / CHAPTER XV--ENGLAND UNDER HENRY THE THIRD, CALLED, OF WINCHESTER: If any of the English Barons remembered the murdered Arthur's sister, Eleanor the fair maid of Brittany, shut up in her convent at Bristol, none among them spoke of ... [truncated] (6 shared statement(s))
 - [[history-dickens-england-excerpt-earl]] - shared statements: Earl shares source evidence from A Child's History of England (Excerpt: The Norman Conquest to Edward I) / CHAPTER XV--ENGLAND UNDER HENRY THE THIRD, CALLED, OF WINCHESTER: the Black Band and their Captain watched it too, like three hundred and one black wolves. For thirty-nine days, Hubert de Burgh remained within. At length, upon the ... [truncated] (2 shared statement(s))
-- [[history-dickens-england-excerpt-england-harold-second]] - shared statements: England Harold Second shares source evidence from A Child's History of England (Excerpt: The Norman Conquest to Edward I) / CHAPTER VII--ENGLAND UNDER HAROLD THE SECOND, AND CONQUERED BY THE NORMANS: Harold was crowned King of England on the very day of the maudlin Confessor's funeral. He had good need to be quick about it. When the news reached Norman William, h ... [truncated] (1 shared statement(s))
-- [[history-dickens-england-excerpt-england-harold-second-and-conquered-norman]] - shared statements: -ENGLAND UNDER HAROLD THE SECOND, AND CONQUERED BY THE NORMANS shares source evidence from A Child's History of England (Excerpt: The Norman Conquest to Edward I) / CHAPTER VII--ENGLAND UNDER HAROLD THE SECOND, AND CONQUERED BY THE NORMANS: Harold was crowned King of England on the very day of the maudlin Confessor's funeral. He had good need to be quick about it. When the news reached Norman William, h ... [truncated] (1 shared statement(s))
-- [[history-dickens-england-excerpt-england-henry-fine-scholar]] - shared statements: -ENGLAND UNDER HENRY THE FIRST, CALLED FINE-SCHOLAR shares source evidence from A Child's History of England (Excerpt: The Norman Conquest to Edward I) / CHAPTER X--ENGLAND UNDER HENRY THE FIRST, CALLED FINE-SCHOLAR: At the time when Robert of Normandy was taken prisoner by his brother, Robert's little son was only five years old. This child was taken, too, and carried before the ... [truncated] (1 shared statement(s))
 - [[history-dickens-england-excerpt-english]] - shared statements: English shares source evidence from A Child's History of England (Excerpt: The Norman Conquest to Edward I) / CHAPTER XV--ENGLAND UNDER HENRY THE THIRD, CALLED, OF WINCHESTER: If any of the English Barons remembered the murdered Arthur's sister, Eleanor the fair maid of Brittany, shut up in her convent at Bristol, none among them spoke of ... [truncated] (1 shared statement(s))
+- [[history-dickens-england-excerpt-france]] - shared statements: France shares source evidence from A Child's History of England (Excerpt: The Norman Conquest to Edward I) / CHAPTER VII--ENGLAND UNDER HAROLD THE SECOND, AND CONQUERED BY THE NORMANS: Harold was crowned King of England on the very day of the maudlin Confessor's funeral. He had good need to be quick about it. When the news reached Norman William, h ... [truncated] (1 shared statement(s))
 - [[history-dickens-england-excerpt-king]] - shared statements: King shares source evidence from A Child's History of England (Excerpt: The Norman Conquest to Edward I) / CHAPTER XV--ENGLAND UNDER HENRY THE THIRD, CALLED, OF WINCHESTER: the Black Band and their Captain watched it too, like three hundred and one black wolves. For thirty-nine days, Hubert de Burgh remained within. At length, upon the ... [truncated] (1 shared statement(s))
 - [[history-dickens-england-excerpt-richard]] - shared statements: Richard shares source evidence from A Child's History of England (Excerpt: The Norman Conquest to Edward I) / CHAPTER XV--ENGLAND UNDER HENRY THE THIRD, CALLED, OF WINCHESTER: the Black Band and their Captain watched it too, like three hundred and one black wolves. For thirty-nine days, Hubert de Burgh remained within. At length, upon the ... [truncated] (1 shared statement(s))
 

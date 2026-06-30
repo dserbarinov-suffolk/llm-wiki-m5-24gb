@@ -2,11 +2,12 @@
 page_id: rpg-cairn-2e-core-freya
 page_kind: concept
 summary: Freya: 16 statement(s) and 1 atom(s) from raw/rpg_cairn_2e_core.pdf.
+page_family: topic-concept
 sources: raw/rpg_cairn_2e_core.pdf
-updated: 2026-06-29
+updated: 2026-06-30
 domain: rpg-cairn-2e-core
 category_path: concepts
-projection_coverage: topic-rpg-cairn-2e-core-freya@c54b642c9cd4ddb26d45bc86acff6364
+projection_coverage: topic-rpg-cairn-2e-core-freya@d622d0db412fd1a473a07dcf73945359
 ---
 
 # Freya
@@ -75,8 +76,8 @@ What [[rpg-cairn-2e-core]] covers about freya:
 
 - [[rpg-cairn-2e-core-wolfram]] - shared statements and technical atoms: Wolfram shares source evidence from Combat / Example: Wolfram, Lucius, and Freya each save DEX to see whether they can take a turn in the first round. Wolfram and Freya succeed, but Lucius does not.; Wolfram shares technical record from Combat / Example: She makes a STR save to see if she can stay in the fight. (6 shared statement(s), 1 shared atom(s))
 - [[rpg-cairn-2e-core-lucius]] - shared statements and technical atoms: Lucius shares source evidence from Combat / Example: Wolfram, Lucius, and Freya each save DEX to see whether they can take a turn in the first round. Wolfram and Freya succeed, but Lucius does not.; Lucius shares technical record from Combat / Example: She makes a STR save to see if she can stay in the fight. (5 shared statement(s), 1 shared atom(s))
-- [[rpg-cairn-2e-core-traditional-save]] - shared statements: Traditional Saves shares source evidence from Saves / Traditional Saves / Strength: Wolfram dashes through the underground jail cell, a bundle of cloth held tightly to his chest. Lucius and Freya are right behind, fighting off a very large guard and his pet wolf. (6 shared statement(s))
-- [[rpg-cairn-2e-core-courtyard]] - shared statements: The Courtyard shares source evidence from Dungeon Exploration / Dungeon Exploration Example / The Courtyard: Warden : "You take a closer look, and spy a red jewel enclosed in a large stone fist. It looks valuable, at least 75gp. It also looks large enough to take up an enti ... [truncated] (1 shared statement(s))
+- [[rpg-cairn-2e-core-save]] - shared statements and technical atoms: Save shares source evidence from Combat / Example: Wolfram, Lucius, and Freya each save DEX to see whether they can take a turn in the first round. Wolfram and Freya succeed, but Lucius does not.; Save shares technical record from Combat / Example: She makes a STR save to see if she can stay in the fight. (1 shared statement(s), 1 shared atom(s))
+- [[rpg-cairn-2e-core-dungeon-exploration]] - shared statements: Dungeon Exploration shares source evidence from Dungeon Exploration / Dungeon Exploration Example: Wolfram, Lucius, and Freya have entered the first level of Ein Eyton , a forest temple once rumored to house an infamous death cult. Each character has a torch, but ... [truncated] (2 shared statement(s))
 - [[rpg-cairn-2e-core-warden]] - shared statements: Warden shares source evidence from Dungeon Exploration / Dungeon Exploration Example / The Courtyard: Warden : "You take a closer look, and spy a red jewel enclosed in a large stone fist. It looks valuable, at least 75gp. It also looks large enough to take up an enti ... [truncated] (1 shared statement(s))
 
 ## Source

@@ -1,13 +1,14 @@
 ---
 page_id: rpg-cairn-2e-core-section-procedures-dungeon-exploration-5242b64d
 page_kind: source
-summary: Procedures / Dungeon Exploration: 44 source-backed entries and 4 atom(s) from raw/rpg_cairn_2e_core.pdf.
+summary: Procedures / Dungeon Exploration: 44 source-backed entries and 1 atom(s) from raw/rpg_cairn_2e_core.pdf.
+page_family: section-reference
 sources: raw/rpg_cairn_2e_core.pdf
-updated: 2026-06-29
+updated: 2026-06-30
 domain: rpg-cairn-2e-core
 category_path: sources/rpg-cairn-2e-core/sections
 source_id: rpg_cairn_2e_core.pdf
-projection_coverage: section-rpg-cairn-2e-core-section-procedures-dungeon-exploration-5242b64d@e8bbc6a2ab9e7b91a9f2439025e08b6c
+projection_coverage: section-rpg-cairn-2e-core-section-procedures-dungeon-exploration-5242b64d@31343796bc9acfe689b4fe3064e905bd
 ---
 
 # Procedures / Dungeon Exploration
@@ -79,27 +80,7 @@ From [[rpg-cairn-2e-core]].
 
 ## Technical atoms
 
-### Technical frame 1: Procedures / Dungeon Exploration / Dungeon Exploration Cycle
-
-**Context:** _(rpg_cairn_2e_core.pdf (source-range-9b4fff26-00265))_
-
-> The players record any loss of resources and any new conditions (i.e. item use, deprivation , etc). The cycle then begins again. If appropriate, the Warden should roll on the Dungeon Events table. Keep common sense in mind when interpreting the results!
-
-**Atom:** _(rpg_cairn_2e_core.pdf (source-range-9b4fff26-00264))_
-
-> Remember, the Die of Fate can be a useful tool whenever the Warden is in doubt!
-
-### Technical frame 2: Procedures / Dungeon Exploration / Dungeon Exploration Cycle
-
-**Context:** _(rpg_cairn_2e_core.pdf (source-range-9b4fff26-00264))_
-
-> The Warden resolves the actions of each character simultaneously, along with any actions that are already in progress. Remember, the Die of Fate can be a useful tool whenever the Warden is in doubt!
-
-**Atom:** _(rpg_cairn_2e_core.pdf (source-range-9b4fff26-00265))_
-
-> If appropriate, the Warden should roll on the Dungeon Events table.
-
-### Technical frame 3: Procedures / Dungeon Exploration / Dungeon Events
+### Technical frame 1: Procedures / Dungeon Exploration / Dungeon Events
 
 **Context:** _(rpg_cairn_2e_core.pdf (source-range-9b4fff26-00267))_
 
@@ -130,13 +111,3 @@ Dungeon Events
 | 6 | Quiet The party is left alone (and safe) for the time being. |
 
 </details>
-
-### Technical frame 4: Procedures / Dungeon Exploration / Dungeon Elements
-
-**Context:** _(rpg_cairn_2e_core.pdf (source-range-9b4fff26-00300))_
-
-> A cautious character should be presented with any and all information that would allow them the opportunity to avoid springing a trap. An unwitting character will trigger a trap according to the fiction, or otherwise will have a 2-in-6 chance.
-
-**Atom:** _(rpg_cairn_2e_core.pdf (source-range-9b4fff26-00302))_
-
-> Armor can reduce damage, but only if applicable (e.g.

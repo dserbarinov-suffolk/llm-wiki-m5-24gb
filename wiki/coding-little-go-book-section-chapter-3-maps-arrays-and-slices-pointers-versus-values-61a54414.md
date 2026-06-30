@@ -2,12 +2,13 @@
 page_id: coding-little-go-book-section-chapter-3-maps-arrays-and-slices-pointers-versus-values-61a54414
 page_kind: source
 summary: Chapter 3 - Maps, Arrays and Slices / Pointers versus Values: 6 source-backed entries and 1 atom(s) from raw/coding_little_go_book.pdf.
+page_family: section-reference
 sources: raw/coding_little_go_book.pdf
-updated: 2026-06-29
+updated: 2026-06-30
 domain: coding-little-go-book
 category_path: sources/coding-little-go-book/sections
 source_id: coding_little_go_book.pdf
-projection_coverage: section-coding-little-go-book-section-chapter-3-maps-arrays-and-slices-pointers-versus-values-61a54414@6c11ea2e82c455fd544cf22b33ef1b41
+projection_coverage: section-coding-little-go-book-section-chapter-3-maps-arrays-and-slices-pointers-versus-values-61a54414@505008424e45a6cab4c07e32222ee205
 ---
 
 # Chapter 3 - Maps, Arrays and Slices / Pointers versus Values
@@ -19,6 +20,7 @@ From [[coding-little-go-book]].
 - [[coding-little-go-book-section-chapter-3-maps-arrays-and-slices-4800f0d1]] - broader source section: Chapter 3 - Maps, Arrays and Slices
 - [[coding-little-go-book-section-chapter-3-maps-arrays-and-slices-maps-cf61ad17]] - previous source section: Chapter 3 - Maps, Arrays and Slices / Maps
 - [[coding-little-go-book-section-chapter-3-maps-arrays-and-slices-before-you-continue-97563f70]] - next source section: Chapter 3 - Maps, Arrays and Slices / Before You Continue
+- [[coding-little-go-book-pointer-versus-value]] - topic hub: opens the topic page for Pointer Versus Value
 
 ## Statements
 

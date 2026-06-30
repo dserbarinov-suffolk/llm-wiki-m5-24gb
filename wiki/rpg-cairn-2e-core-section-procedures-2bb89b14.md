@@ -1,13 +1,14 @@
 ---
 page_id: rpg-cairn-2e-core-section-procedures-2bb89b14
 page_kind: source
-summary: Procedures: 147 source-backed entries and 16 atom(s) from raw/rpg_cairn_2e_core.pdf.
+summary: Procedures: 147 source-backed entries and 5 atom(s) from raw/rpg_cairn_2e_core.pdf.
+page_family: section-reference
 sources: raw/rpg_cairn_2e_core.pdf
-updated: 2026-06-29
+updated: 2026-06-30
 domain: rpg-cairn-2e-core
 category_path: sources/rpg-cairn-2e-core/sections
 source_id: rpg_cairn_2e_core.pdf
-projection_coverage: section-rpg-cairn-2e-core-section-procedures-2bb89b14@412b93705d82511eea4a26f22c63ccb5
+projection_coverage: section-rpg-cairn-2e-core-section-procedures-2bb89b14@e59d75c65d9cc69479964d6b801a782a
 ---
 
 # Procedures
@@ -23,7 +24,6 @@ From [[rpg-cairn-2e-core]].
 - [[rpg-cairn-2e-core-section-procedures-downtime-actions-91a5bb65]] - narrower source section: Procedures / Downtime Actions
 - [[rpg-cairn-2e-core-section-core-rules-b46cf581]] - previous source section: Core Rules
 - [[rpg-cairn-2e-core-section-marketplace-0a7ee948]] - next source section: Marketplace
-- [[rpg-cairn-2e-core-procedure]] - topic hub: opens the topic page for Procedure
 
 ## Statements by subsection
 
@@ -180,27 +180,7 @@ From [[rpg-cairn-2e-core]].
 
 ## Technical atoms
 
-### Technical frame 1: Procedures / Dungeon Exploration / Dungeon Exploration Cycle
-
-**Context:** _(rpg_cairn_2e_core.pdf (source-range-9b4fff26-00265))_
-
-> The players record any loss of resources and any new conditions (i.e. item use, deprivation , etc). The cycle then begins again. If appropriate, the Warden should roll on the Dungeon Events table. Keep common sense in mind when interpreting the results!
-
-**Atom:** _(rpg_cairn_2e_core.pdf (source-range-9b4fff26-00264))_
-
-> Remember, the Die of Fate can be a useful tool whenever the Warden is in doubt!
-
-### Technical frame 2: Procedures / Dungeon Exploration / Dungeon Exploration Cycle
-
-**Context:** _(rpg_cairn_2e_core.pdf (source-range-9b4fff26-00264))_
-
-> The Warden resolves the actions of each character simultaneously, along with any actions that are already in progress. Remember, the Die of Fate can be a useful tool whenever the Warden is in doubt!
-
-**Atom:** _(rpg_cairn_2e_core.pdf (source-range-9b4fff26-00265))_
-
-> If appropriate, the Warden should roll on the Dungeon Events table.
-
-### Technical frame 3: Procedures / Dungeon Exploration / Dungeon Events
+### Technical frame 1: Procedures / Dungeon Exploration / Dungeon Events
 
 **Context:** _(rpg_cairn_2e_core.pdf (source-range-9b4fff26-00267))_
 
@@ -232,17 +212,7 @@ Dungeon Events
 
 </details>
 
-### Technical frame 4: Procedures / Dungeon Exploration / Dungeon Elements
-
-**Context:** _(rpg_cairn_2e_core.pdf (source-range-9b4fff26-00300))_
-
-> A cautious character should be presented with any and all information that would allow them the opportunity to avoid springing a trap. An unwitting character will trigger a trap according to the fiction, or otherwise will have a 2-in-6 chance.
-
-**Atom:** _(rpg_cairn_2e_core.pdf (source-range-9b4fff26-00302))_
-
-> Armor can reduce damage, but only if applicable (e.g.
-
-### Technical frame 5: Procedures / Terrain Difficulty
+### Technical frame 2: Procedures / Terrain Difficulty
 
 **Atom:** _(rpg_cairn_2e_core.pdf (source-range-9b4fff26-00341))_
 
@@ -266,7 +236,7 @@ Terrain Difficulty
 
 </details>
 
-### Technical frame 6: Procedures / Terrain Difficulty / Weather
+### Technical frame 3: Procedures / Terrain Difficulty / Weather
 
 **Atom:** _(rpg_cairn_2e_core.pdf (source-range-9b4fff26-00343))_
 
@@ -295,7 +265,7 @@ Each	day,	the	Warden	should	roll	on	the	weather	table	for	the appropriate	season
 
 </details>
 
-### Technical frame 7: Procedures / Terrain Difficulty / Weather
+### Technical frame 4: Procedures / Terrain Difficulty / Weather
 
 **Atom:** _(rpg_cairn_2e_core.pdf (source-range-9b4fff26-00347))_
 
@@ -332,7 +302,7 @@ Each	day,	the	Warden	should	roll	on	the	weather	table	for	the appropriate	season
 
 </details>
 
-### Technical frame 8: Procedures / Terrain Difficulty / Wilderness Exploration Cycle
+### Technical frame 5: Procedures / Terrain Difficulty / Wilderness Exploration Cycle
 
 **Context:** _(rpg_cairn_2e_core.pdf (source-range-9b4fff26-00351))_
 
@@ -386,79 +356,3 @@ reveal the primary feature of the area.
 | 6 | Discovery The party ﬁnds food, treasure, or other useful resources. The Warden can instead choose to reveal the primary feature of the area. |
 
 </details>
-
-### Technical frame 9: Procedures / Terrain Difficulty / Wilderness Elements
-
-**Context:** _(rpg_cairn_2e_core.pdf (source-range-9b4fff26-00357))_
-
-> Some terrain and weather may be easier to traverse at night (desert, for example). The Warden should balance these challenges along with any other.
-
-**Atom:** _(rpg_cairn_2e_core.pdf (source-range-9b4fff26-00356))_
-
-> The Warden should roll twice on the Wilderness Events table.
-
-### Technical frame 10: Procedures / Terrain Difficulty / Wilderness Elements
-
-**Context:** _(rpg_cairn_2e_core.pdf (source-range-9b4fff26-00363))_
-
-> Torches and other radial sources of light illuminate 40ft ahead of the party, but beyond that only provides a dim outline of objects.
-
-**Atom:** _(rpg_cairn_2e_core.pdf (source-range-9b4fff26-00361))_
-
-> - If the party skips the Make Camp action, they each add a Fatigue to their inventory and are deprived .
-
-### Technical frame 11: Procedures / Downtime
-
-**Atom:** _(rpg_cairn_2e_core.pdf (source-range-9b4fff26-00388))_
-
-> A character cannot perform an action if it would put their safety at risk.
-
-### Technical frame 12: Procedures / Downtime / Costs
-
-**Context:** _(rpg_cairn_2e_core.pdf (source-range-9b4fff26-00392))_
-
-> PCs can complete individual Milestones by taking a Downtime Action and paying its respective Cost . If a character is unable to pay the Cost , they may have to find some other way to achieve their goal. A few examples of Cost :
-
-**Atom:** _(rpg_cairn_2e_core.pdf (source-range-9b4fff26-00397))_
-
-> Some Costs can be reduced or disregarded through character skills, connections, or force of will. For example, a PC may have already acquired the necessary reputation to gain access to a renowned institution, and thus the cost is abated. On the other hand, another character may not be so lucky and must rely on their force of personality instead. In this case, the Warden should state the risk (a permanent ban on entry, a loss of reputation, etc.). The PC then makes a WIL save; on a success, the cost is either reduced or avoided entirely.
-
-### Technical frame 13: Procedures / Downtime Actions / Research
-
-**Context:** _(rpg_cairn_2e_core.pdf (source-range-9b4fff26-00403))_
-
-> As always, the question must come from an experience that occurred during play.
-
-**Atom:** _(rpg_cairn_2e_core.pdf (source-range-9b4fff26-00401))_
-
-> If the PC does not have a Source , then they can spend a Downtime Action trying to find one.
-
-### Technical frame 14: Procedures / Downtime Actions / Training
-
-**Context:** _(rpg_cairn_2e_core.pdf (source-range-9b4fff26-00419))_
-
-> The Two-Handed Parry : When fighting with one hand free, a PC's HP temporarily increases by 1d4. The party took on a hireling from the Cratered Lands , whose fighters emphasize avoiding enemy attacks. She has agreed to train anyone who can best her in hand to hand combat.
-
-**Atom:** _(rpg_cairn_2e_core.pdf (source-range-9b4fff26-00417))_
-
-> The Warden should provide any Milestones and associated Costs .
-
-### Technical frame 15: Procedures / Downtime Actions / Training
-
-**Context:** _(rpg_cairn_2e_core.pdf (source-range-9b4fff26-00420))_
-
-> Herbology : Given proper ingredients, a PC can create a Healing Salve (restores 4 STR) as a Downtime Action . After receiving care from an elderly herbalist in the Verdant Glades , the wounded PC asked to be trained in the healing arts. The Master has agreed, but asked that they collect three rare herbs before training can begin.
-
-**Atom:** _(rpg_cairn_2e_core.pdf (source-range-9b4fff26-00419))_
-
-> - The Two-Handed Parry : When fighting with one hand free, a PC's HP temporarily increases by 1d4.
-
-### Technical frame 16: Procedures / Downtime Actions / Training
-
-**Context:** _(rpg_cairn_2e_core.pdf (source-range-9b4fff26-00420))_
-
-> Herbology : Given proper ingredients, a PC can create a Healing Salve (restores 4 STR) as a Downtime Action . After receiving care from an elderly herbalist in the Verdant Glades , the wounded PC asked to be trained in the healing arts. The Master has agreed, but asked that they collect three rare herbs before training can begin.
-
-**Atom:** _(rpg_cairn_2e_core.pdf (source-range-9b4fff26-00421))_
-
-> - Troutmaster : When taking the Supply Action , Rations gathered near cold freshwater sources increase by one step (e.g.

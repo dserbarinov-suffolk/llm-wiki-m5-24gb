@@ -1,13 +1,14 @@
 ---
 page_id: coding-learn-go-with-tests-excerpt-section-pointers-copies-et-al-write-the-minimal-amount-of-code-for-the-test-to-run-and-check-the-failing-80732c5f
 page_kind: source
-summary: Pointers, copies, et al / Write the minimal amount of code for the test to run and check the failing test output: 3 source-backed entries and 2 atom(s) from raw/coding_learn_go_with_tests_excerpt.pdf.
+summary: Pointers, copies, et al / Write the minimal amount of code for the test to run and check the failing test output: 3 source-backed entries and 0 atom(s) from raw/coding_learn_go_with_tests_excerpt.pdf.
+page_family: section-reference
 sources: raw/coding_learn_go_with_tests_excerpt.pdf
-updated: 2026-06-29
+updated: 2026-06-30
 domain: coding-learn-go-with-tests-excerpt
 category_path: sources/coding-learn-go-with-tests-excerpt/sections
 source_id: coding_learn_go_with_tests_excerpt.pdf
-projection_coverage: section-coding-learn-go-with-tests-excerpt-section-pointers-copies-et-al-write-the-minimal-amount-of-code-for-the-test-to-run-and-check-the-failing-80732c5f@20e72e9740237cb3b6cd4f98466f74fb
+projection_coverage: section-coding-learn-go-with-tests-excerpt-section-pointers-copies-et-al-write-the-minimal-amount-of-code-for-the-test-to-run-and-check-the-failing-80732c5f@506d31823d68bb174ce423143671f351
 ---
 
 # Pointers, copies, et al / Write the minimal amount of code for the test to run and check the failing test output
@@ -23,41 +24,3 @@ From [[coding-learn-go-with-tests-excerpt]].
 ## Statements
 
 - We added our own error type and are returning a nil error. _(coding_learn_go_with_tests_excerpt.pdf (source-range-cb73a893-00663))_
-
-## Technical atoms
-
-### Technical frame 1: Pointers, copies, et al / Write the minimal amount of code for the test to run and check the failing test output
-
-**Context:** _(coding_learn_go_with_tests_excerpt.pdf (source-range-cb73a893-00663))_
-
-> We added our own error type and are returning a nil error.
-
-**Atom:** _(coding_learn_go_with_tests_excerpt.pdf (source-range-cb73a893-00662))_
-
-```
-const (
-    ErrNotFound         = DictionaryErr("could not find the word you 
-were looking for")
-ErrWordExists       = DictionaryErr("cannot add word because it 
-already exists")
-ErrWordDoesNotExist = DictionaryErr("cannot perform operation on 
-word because it does not exist")
-)
-func (d Dictionary) Update(word, definition string) error {
-    d[word] = definition
-    return nil
-}
-```
-
-### Technical frame 2: Pointers, copies, et al / Write the minimal amount of code for the test to run and check the failing test output
-
-**Context:** _(coding_learn_go_with_tests_excerpt.pdf (source-range-cb73a893-00663))_
-
-> We added our own error type and are returning a nil error.
-
-**Atom:** _(coding_learn_go_with_tests_excerpt.pdf (source-range-cb73a893-00665))_
-
-```
-dictionary_test.go:66: got error '%!q(<nil>)' want 'cannot update 
-word because it does not exist'
-```

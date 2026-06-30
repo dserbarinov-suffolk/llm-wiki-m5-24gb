@@ -1,13 +1,14 @@
 ---
 page_id: coding-little-go-book-section-chapter-6-concurrency-channels-timeout-234b9aa0
 page_kind: source
-summary: Chapter 6 - Concurrency / Channels / Timeout: 26 source-backed entries and 7 atom(s) from raw/coding_little_go_book.pdf.
+summary: Chapter 6 - Concurrency / Channels / Timeout: 26 source-backed entries and 0 atom(s) from raw/coding_little_go_book.pdf.
+page_family: section-reference
 sources: raw/coding_little_go_book.pdf
-updated: 2026-06-29
+updated: 2026-06-30
 domain: coding-little-go-book
 category_path: sources/coding-little-go-book/sections
 source_id: coding_little_go_book.pdf
-projection_coverage: section-coding-little-go-book-section-chapter-6-concurrency-channels-timeout-234b9aa0@6ce3875273744894e9df62f52acef7f7
+projection_coverage: section-coding-little-go-book-section-chapter-6-concurrency-channels-timeout-234b9aa0@8bfbfd9db79d2b9a4e867ea54fa1d87b
 ---
 
 # Chapter 6 - Concurrency / Channels / Timeout
@@ -18,7 +19,6 @@ From [[coding-little-go-book]].
 
 - [[coding-little-go-book-section-chapter-6-concurrency-channels-5666c1f3]] - broader source section: Chapter 6 - Concurrency / Channels
 - [[coding-little-go-book-section-chapter-6-concurrency-channels-select-98be429f]] - previous source section: Chapter 6 - Concurrency / Channels / Select
-- [[coding-little-go-book-timeout]] - topic hub: opens the topic page for Timeout
 
 ## Statements
 
@@ -36,107 +36,3 @@ From [[coding-little-go-book]].
 - Also, time.After is a channel of type chan time.Time . _(coding_little_go_book.pdf (source-range-23d24eb1-00457))_
 - Notice that we're sending to c but receiving from time.After . _(coding_little_go_book.pdf (source-range-23d24eb1-00459))_
 - Finally, it's common to see a select inside a for . _(coding_little_go_book.pdf (source-range-23d24eb1-00464))_
-
-## Technical atoms
-
-### Technical frame 1: Chapter 6 - Concurrency / Channels / Timeout
-
-**Context:** _(coding_little_go_book.pdf (source-range-23d24eb1-00453))_
-
-> time.After returns a channel, so we can select from it. The channel is written to after the specified time expires. That's it. There's nothing more magical than that. If you're curious, here's what an implementation of after could look like:
-
-**Atom:** _(coding_little_go_book.pdf (source-range-23d24eb1-00452))_
-
-```
-for {
-  select {
-  case c <- rand.Int():
-  case <-time.After(time.Millisecond * 100):
-    fmt.Println("timed out")
-  }
-  time.Sleep(time.Millisecond * 50)
-}
-```
-
-### Technical frame 2: Chapter 6 - Concurrency / Channels / Timeout
-
-**Context:** _(coding_little_go_book.pdf (source-range-23d24eb1-00456))_
-
-> Back to our select , there are a couple of things to play with. First, what happens if you add the default case back? Can you guess? Try it. If you aren't sure what's going on, remember that default fires immediately if no channel is available.
-
-**Atom:** _(coding_little_go_book.pdf (source-range-23d24eb1-00454))_
-
-```
-func after(d time.Duration) chan bool {
-  c := make(chan bool)
-```
-
-### Technical frame 3: Chapter 6 - Concurrency / Channels / Timeout
-
-**Context:** _(coding_little_go_book.pdf (source-range-23d24eb1-00456))_
-
-> Back to our select , there are a couple of things to play with. First, what happens if you add the default case back? Can you guess? Try it. If you aren't sure what's going on, remember that default fires immediately if no channel is available.
-
-**Atom:** _(coding_little_go_book.pdf (source-range-23d24eb1-00455))_
-
-```
-go func() {
-    time.Sleep(d)
-    c <- true
-  }()
-  return c
-}
-```
-
-### Technical frame 4: Chapter 6 - Concurrency / Channels / Timeout
-
-**Context:** _(coding_little_go_book.pdf (source-range-23d24eb1-00457))_
-
-> Also, time.After is a channel of type chan time.Time . In the above example, we simply discard the value that was sent to the channel. If you want though, you can receive it:
-
-**Atom:** _(coding_little_go_book.pdf (source-range-23d24eb1-00456))_
-
-> First, what happens if you add the default case back?
-
-### Technical frame 5: Chapter 6 - Concurrency / Channels / Timeout
-
-**Context:** _(coding_little_go_book.pdf (source-range-23d24eb1-00460))_
-
-> The first available channel is chosen.
-
-**Atom:** _(coding_little_go_book.pdf (source-range-23d24eb1-00457))_
-
-> If you want though, you can receive it:
-
-### Technical frame 6: Chapter 6 - Concurrency / Channels / Timeout
-
-**Context:** _(coding_little_go_book.pdf (source-range-23d24eb1-00460))_
-
-> The first available channel is chosen.
-
-**Atom:** _(coding_little_go_book.pdf (source-range-23d24eb1-00458))_
-
-```
-case t := <-time.After(time.Millisecond * 100):
-  fmt.Println("timed out at", t)
-```
-
-### Technical frame 7: Chapter 6 - Concurrency / Channels / Timeout
-
-**Context:** _(coding_little_go_book.pdf (source-range-23d24eb1-00462))_
-
-> If no channel is available, the default case is executed.
-
-**Atom:** _(coding_little_go_book.pdf (source-range-23d24eb1-00465))_
-
-```
-for {
-  select {
-  case data := <-c:
-    fmt.Printf("worker %d got %d\n", w.id, data)
-  case <-time.After(time.Millisecond * 10):
-    fmt.Println("Break time")
-    time.Sleep(time.Second)
-  }
-}
-```

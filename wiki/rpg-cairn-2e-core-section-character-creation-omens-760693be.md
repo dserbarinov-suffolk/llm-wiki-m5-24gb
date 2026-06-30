@@ -2,12 +2,13 @@
 page_id: rpg-cairn-2e-core-section-character-creation-omens-760693be
 page_kind: source
 summary: Character Creation / Omens: 1 source-backed entries and 1 atom(s) from raw/rpg_cairn_2e_core.pdf.
+page_family: section-reference
 sources: raw/rpg_cairn_2e_core.pdf
-updated: 2026-06-29
+updated: 2026-06-30
 domain: rpg-cairn-2e-core
 category_path: sources/rpg-cairn-2e-core/sections
 source_id: rpg_cairn_2e_core.pdf
-projection_coverage: section-rpg-cairn-2e-core-section-character-creation-omens-760693be@1e6125c6c9332ddeb201e973f4084e6e
+projection_coverage: section-rpg-cairn-2e-core-section-character-creation-omens-760693be@8ba46774540f79b6e38368bb8ca3466b
 ---
 
 # Character Creation / Omens
@@ -18,6 +19,7 @@ From [[rpg-cairn-2e-core]].
 
 - [[rpg-cairn-2e-core-section-character-creation-26313297]] - broader source section: Character Creation
 - [[rpg-cairn-2e-core-section-character-creation-bonds-9a11d083]] - previous source section: Character Creation / Bonds
+- [[rpg-cairn-2e-core-omen]] - topic hub: opens the topic page for Omen
 
 ## Technical atoms
 

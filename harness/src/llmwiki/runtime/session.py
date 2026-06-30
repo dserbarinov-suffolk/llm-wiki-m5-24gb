@@ -62,6 +62,8 @@ from llmwiki.runtime.cross_source_pipeline import build_cross_source_pages
 from llmwiki.runtime.ingest_confidence import record_post_ingest_confidence
 from llmwiki.runtime.ledger_pipeline import build_source_ledger
 from llmwiki.runtime.ledger_segmentation import ChunkText
+from llmwiki.runtime.provenance_audit import build_provenance_audit, report_to_json
+from llmwiki.runtime.provenance_audit_render import render_markdown
 from llmwiki.runtime.transcript import TranscriptWriter
 from llmwiki.store import WikiStore
 from llmwiki.workflows import (
@@ -283,6 +285,24 @@ class Session:
                 *(page.page_id for page in ledger.topic_pages),
             }
             self.store.delete_source_pages_not_in(source_locator, keep_page_ids)
+        provenance_line = "Provenance audit: skipped because authoritative write was blocked."
+        if ledger.wiki_page is not None:
+            audit = build_provenance_audit(
+                self.store.page_texts(),
+                source_page_id=ledger.page_id,
+                artifact_files=ledger.artifact_files,
+            )
+            self.store.write_ledger_artifacts(
+                source_locator,
+                {
+                    "provenance-audit.json": report_to_json(audit),
+                    "provenance-audit.md": render_markdown(audit),
+                },
+            )
+            provenance_line = (
+                f"Provenance audit: {audit.finding_count} finding(s), "
+                f"{audit.non_manifest_finding_count} outside source manifests."
+            )
         graph = self._write_graph_export()
         if self.on_chunk_note is not None:
             self.on_chunk_note(ledger.summary)
@@ -291,6 +311,7 @@ class Session:
             f"{ledger.summary}\n"
             f"Source page: {written}; linked pages: {len(ledger.topic_pages)}. "
             f"Ledger artifacts: {self.store.page_plan_artifact_dir(source_locator)}/ledger.\n"
+            f"{provenance_line}\n"
             f"{_graph_summary_line(graph)}\n"
             f"{_confidence_summary_line(confidence.report)}"
         )

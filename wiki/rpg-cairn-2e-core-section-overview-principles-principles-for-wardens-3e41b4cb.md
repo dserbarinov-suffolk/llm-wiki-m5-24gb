@@ -1,13 +1,14 @@
 ---
 page_id: rpg-cairn-2e-core-section-overview-principles-principles-for-wardens-3e41b4cb
 page_kind: source
-summary: Overview & Principles / Principles for Wardens: 25 source-backed entries and 2 atom(s) from raw/rpg_cairn_2e_core.pdf.
+summary: Overview & Principles / Principles for Wardens: 25 source-backed entries and 0 atom(s) from raw/rpg_cairn_2e_core.pdf.
+page_family: section-reference
 sources: raw/rpg_cairn_2e_core.pdf
-updated: 2026-06-29
+updated: 2026-06-30
 domain: rpg-cairn-2e-core
 category_path: sources/rpg-cairn-2e-core/sections
 source_id: rpg_cairn_2e_core.pdf
-projection_coverage: section-rpg-cairn-2e-core-section-overview-principles-principles-for-wardens-3e41b4cb@0c573103040e2bfde0b35e73ace29617
+projection_coverage: section-rpg-cairn-2e-core-section-overview-principles-principles-for-wardens-3e41b4cb@3b5b8bb5e35fd8d26f1c35123dd92e1f
 ---
 
 # Overview & Principles / Principles for Wardens
@@ -26,7 +27,6 @@ From [[rpg-cairn-2e-core]].
 - [[rpg-cairn-2e-core-section-overview-principles-principles-for-wardens-choice-9b8cf7d9]] - narrower source section: Overview & Principles / Principles for Wardens / Choice
 - [[rpg-cairn-2e-core-section-overview-principles-principles-for-wardens-die-of-fate-7722fd4f]] - narrower source section: Overview & Principles / Principles for Wardens / Die of Fate
 - [[rpg-cairn-2e-core-section-overview-principles-principles-for-players-be9a8ee6]] - previous source section: Overview & Principles / Principles for Players
-- [[rpg-cairn-2e-core-principle-for-warden]] - topic hub: opens the topic page for Principle For Warden
 
 ## Statements by subsection
 
@@ -75,25 +75,3 @@ From [[rpg-cairn-2e-core]].
 
 - Occasionally you will want an element of randomness (e.g. the weather, unique character knowledge, etc.). _(rpg_cairn_2e_core.pdf (source-range-9b4fff26-00086))_
 - A roll of 3 or under tends to mean bad luck for the PCs or their allies. _(rpg_cairn_2e_core.pdf (source-range-9b4fff26-00088))_
-
-## Technical atoms
-
-### Technical frame 1: Overview & Principles / Principles for Wardens / Difficulty
-
-**Context:** _(rpg_cairn_2e_core.pdf (source-range-9b4fff26-00060))_
-
-> Saves cover a great deal of uncertain situations and are often all that is necessary for risky actions.
-
-**Atom:** _(rpg_cairn_2e_core.pdf (source-range-9b4fff26-00058))_
-
-> - If something the players want to do is sincerely impossible, no roll will allow them to do it.
-
-### Technical frame 2: Overview & Principles / Principles for Wardens / Die of Fate
-
-**Context:** _(rpg_cairn_2e_core.pdf (source-range-9b4fff26-00088))_
-
-> A roll of 3 or under tends to mean bad luck for the PCs or their allies.
-
-**Atom:** _(rpg_cairn_2e_core.pdf (source-range-9b4fff26-00087))_
-
-> - In these situations, roll 1d6. A roll of 4 or more generally favors the players.

@@ -2,12 +2,13 @@
 page_id: rpg-dnd-srd-excerpt-section-making-an-attack-damage-and-healing-healing-ef23ad30
 page_kind: source
 summary: Making an Attack / Damage and Healing / Healing: 10 source-backed entries and 1 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
+page_family: section-reference
 sources: raw/rpg_dnd_srd_excerpt.pdf
-updated: 2026-06-29
+updated: 2026-06-30
 domain: rpg-dnd-srd-excerpt
 category_path: sources/rpg-dnd-srd-excerpt/sections
 source_id: rpg_dnd_srd_excerpt.pdf
-projection_coverage: section-rpg-dnd-srd-excerpt-section-making-an-attack-damage-and-healing-healing-ef23ad30@220361fcab24b7259fb3b3f48487c01d
+projection_coverage: section-rpg-dnd-srd-excerpt-section-making-an-attack-damage-and-healing-healing-ef23ad30@3e0fc7026bbd5316c712b2fc80411cc6
 ---
 
 # Making an Attack / Damage and Healing / Healing
@@ -19,6 +20,7 @@ From [[rpg-dnd-srd-excerpt]].
 - [[rpg-dnd-srd-excerpt-section-making-an-attack-damage-and-healing-b32dd12e]] - broader source section: Making an Attack / Damage and Healing
 - [[rpg-dnd-srd-excerpt-section-making-an-attack-damage-and-healing-damage-resistance-and-vulnerability-abc99e48]] - previous source section: Making an Attack / Damage and Healing / Damage Resistance and Vulnerability
 - [[rpg-dnd-srd-excerpt-section-making-an-attack-damage-and-healing-dropping-to-0-hit-points-21ed6aac]] - next source section: Making an Attack / Damage and Healing / Dropping to 0 Hit Points
+- [[rpg-dnd-srd-excerpt-healing]] - topic hub: opens the topic page for Healing
 
 ## Statements
 

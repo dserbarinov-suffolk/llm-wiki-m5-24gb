@@ -1,13 +1,14 @@
 ---
 page_id: coding-little-go-book-section-chapter-1-the-basics-variables-and-declarations-dd932e02
 page_kind: source
-summary: Chapter 1 - The Basics / Variables and Declarations: 32 source-backed entries and 9 atom(s) from raw/coding_little_go_book.pdf.
+summary: Chapter 1 - The Basics / Variables and Declarations: 32 source-backed entries and 2 atom(s) from raw/coding_little_go_book.pdf.
+page_family: section-reference
 sources: raw/coding_little_go_book.pdf
-updated: 2026-06-29
+updated: 2026-06-30
 domain: coding-little-go-book
 category_path: sources/coding-little-go-book/sections
 source_id: coding_little_go_book.pdf
-projection_coverage: section-coding-little-go-book-section-chapter-1-the-basics-variables-and-declarations-dd932e02@df6a4dcb003d8a4badaa0a37985ed3f2
+projection_coverage: section-coding-little-go-book-section-chapter-1-the-basics-variables-and-declarations-dd932e02@4ea6b9090798be58477791e60edda4a3
 ---
 
 # Chapter 1 - The Basics / Variables and Declarations
@@ -19,7 +20,6 @@ From [[coding-little-go-book]].
 - [[coding-little-go-book-section-chapter-1-the-basics-45e21143]] - broader source section: Chapter 1 - The Basics
 - [[coding-little-go-book-section-chapter-1-the-basics-imports-2cc727c8]] - previous source section: Chapter 1 - The Basics / Imports
 - [[coding-little-go-book-section-chapter-1-the-basics-function-declarations-0fdfbbc5]] - next source section: Chapter 1 - The Basics / Function Declarations
-- [[coding-little-go-book-variable-and-declaration]] - topic hub: opens the topic page for Variable And Declaration
 
 ## Statements
 
@@ -66,18 +66,6 @@ func main() {
 
 ### Technical frame 2: Chapter 1 - The Basics / Variables and Declarations
 
-**Context:** _(coding_little_go_book.pdf (source-range-23d24eb1-00079))_
-
-> Still, that's a lot of typing. Go has a handy short variable declaration operator, := , which can infer the type:
-
-**Atom:** _(coding_little_go_book.pdf (source-range-23d24eb1-00078))_
-
-```
-var power int = 9000
-```
-
-### Technical frame 3: Chapter 1 - The Basics / Variables and Declarations
-
 **Context:** _(coding_little_go_book.pdf (source-range-23d24eb1-00083))_
 
 > It's important that you remember that := is used to declare the variable as well as assign a value to it. Why? Because a variable can't be declared twice (not in the same scope anyway). If you try to run the following, you'll get an error.
@@ -86,97 +74,4 @@ var power int = 9000
 
 ```
 power := 9000
-```
-
-### Technical frame 4: Chapter 1 - The Basics / Variables and Declarations
-
-**Context:** _(coding_little_go_book.pdf (source-range-23d24eb1-00083))_
-
-> It's important that you remember that := is used to declare the variable as well as assign a value to it. Why? Because a variable can't be declared twice (not in the same scope anyway). If you try to run the following, you'll get an error.
-
-**Atom:** _(coding_little_go_book.pdf (source-range-23d24eb1-00082))_
-
-```
-func main() {
-  power := getPower()
-}
-func getPower() int {
-  return 9001
-}
-```
-
-### Technical frame 5: Chapter 1 - The Basics / Variables and Declarations
-
-**Context:** _(coding_little_go_book.pdf (source-range-23d24eb1-00085))_
-
-> The compiler will complain with no new variables on left side of := . This means that when we first declare a variable, we use := but on subsequent assignment, we use the assignment operator = . This makes a lot of sense, but it can be tricky for your muscle memory to remember when to switch between the two.
-
-**Atom:** _(coding_little_go_book.pdf (source-range-23d24eb1-00083))_
-
-> If you try to run the following, you'll get an error.
-
-### Technical frame 6: Chapter 1 - The Basics / Variables and Declarations
-
-**Context:** _(coding_little_go_book.pdf (source-range-23d24eb1-00085))_
-
-> The compiler will complain with no new variables on left side of := . This means that when we first declare a variable, we use := but on subsequent assignment, we use the assignment operator = . This makes a lot of sense, but it can be tricky for your muscle memory to remember when to switch between the two.
-
-**Atom:** _(coding_little_go_book.pdf (source-range-23d24eb1-00084))_
-
-```
-func main() {
-  power := 9000
-  fmt.Printf("It's over %d\n", power)
-// COMPILER ERROR:
-  // no new variables on left side of :=
-  power := 9001
-  fmt.Printf("It's also over %d\n", power)
-}
-```
-
-### Technical frame 7: Chapter 1 - The Basics / Variables and Declarations
-
-**Context:** _(coding_little_go_book.pdf (source-range-23d24eb1-00088))_
-
-> As long as one of the variables is new, := can be used. Consider:
-
-**Atom:** _(coding_little_go_book.pdf (source-range-23d24eb1-00087))_
-
-```
-func main() {
-  name, power := "Goku", 9000
-  fmt.Printf("%s's power is over %d\n", name, power)
-}
-```
-
-### Technical frame 8: Chapter 1 - The Basics / Variables and Declarations
-
-**Context:** _(coding_little_go_book.pdf (source-range-23d24eb1-00090))_
-
-> Although power is being used twice with := , the compiler won't complain the second time we use it, it'll see that the other variable, name , is a new variable and allow := . However, you can't change the type of power . It was declared (implicitly) as an integer and thus, can only be assigned integers.
-
-**Atom:** _(coding_little_go_book.pdf (source-range-23d24eb1-00089))_
-
-```
-func main() {
-  power := 1000
-  fmt.Printf("default power is %d\n", power)
-name, power := "Goku", 9000
-  fmt.Printf("%s's power is over %d\n", name, power)
-}
-```
-
-### Technical frame 9: Chapter 1 - The Basics / Variables and Declarations
-
-**Context:** _(coding_little_go_book.pdf (source-range-23d24eb1-00093))_
-
-> won't compile because name is declared but not used. Like unused imports it'll cause some frustration, but overall I think it helps with code cleanliness and readability.
-
-**Atom:** _(coding_little_go_book.pdf (source-range-23d24eb1-00092))_
-
-```
-func main() {
-  name, power := "Goku", 1000
-  fmt.Printf("default power is %d\n", power)
-}
 ```

@@ -1,13 +1,14 @@
 ---
 page_id: rpg-dnd-srd-excerpt-section-weapons-ba2ad489
 page_kind: source
-summary: Weapons: 67 source-backed entries and 18 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
+summary: Weapons: 67 source-backed entries and 13 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
+page_family: section-reference
 sources: raw/rpg_dnd_srd_excerpt.pdf
-updated: 2026-06-29
+updated: 2026-06-30
 domain: rpg-dnd-srd-excerpt
 category_path: sources/rpg-dnd-srd-excerpt/sections
 source_id: rpg_dnd_srd_excerpt.pdf
-projection_coverage: section-rpg-dnd-srd-excerpt-section-weapons-ba2ad489@c0d9f01e630ec36dab12794f7b3e9b19
+projection_coverage: section-rpg-dnd-srd-excerpt-section-weapons-ba2ad489@a2a4cbdb6f3bce9df050f8cb1efd0d6f
 ---
 
 # Weapons
@@ -148,17 +149,7 @@ From [[rpg-dnd-srd-excerpt]].
 
 > At the GM's option, a character proficient with a weapon can use a similar object as if it were that weapon and use his or her proficiency bonus.
 
-### Technical frame 9: Weapons / Weapon Properties / Improvised Weapons
-
-**Context:** _(rpg_dnd_srd_excerpt.pdf (source-range-4449ec9f-00542))_
-
-> Net . A Large or smaller creature hit by a net is restrained until it is freed. A net has no effect on creatures that are formless, or creatures that are Huge or larger. A creature can use its action to make a DC 10 Strength check, freeing itself or another creature within its reach on a success. Dealing 5 slashing damage to the net (AC 10) also frees the creature without harming it, ending the effect and destroying the net.
-
-**Atom:** _(rpg_dnd_srd_excerpt.pdf (source-range-4449ec9f-00543))_
-
-> When you use an action, bonus action, or reaction to attack with a net, you can make only one attack regardless of the number of attacks you can normally make.
-
-### Technical frame 10: Table- Weapons
+### Technical frame 9: Table- Weapons
 
 **Context:** _(rpg_dnd_srd_excerpt.pdf (source-range-4449ec9f-00540))_
 
@@ -192,7 +183,7 @@ Table- Weapons
 
 </details>
 
-### Technical frame 11: Weapons / Weapon Properties / Improvised Weapons
+### Technical frame 10: Weapons / Weapon Properties / Improvised Weapons
 
 **Context:** _(rpg_dnd_srd_excerpt.pdf (source-range-4449ec9f-00540))_
 
@@ -241,23 +232,7 @@ piercing
 
 </details>
 
-### Technical frame 12: Weapons / Weapon Properties / Improvised Weapons
-
-**Context:** _(rpg_dnd_srd_excerpt.pdf (source-range-4449ec9f-00542))_
-
-> Net . A Large or smaller creature hit by a net is restrained until it is freed. A net has no effect on creatures that are formless, or creatures that are Huge or larger. A creature can use its action to make a DC 10 Strength check, freeing itself or another creature within its reach on a success. Dealing 5 slashing damage to the net (AC 10) also frees the creature without harming it, ending the effect and destroying the net.
-
-**Atom:** _(rpg_dnd_srd_excerpt.pdf (source-range-4449ec9f-00549))_
-
-> (1d8)
-
-### Technical frame 13: Weapons / Weapon Properties / Improvised Weapons
-
-**Atom:** _(rpg_dnd_srd_excerpt.pdf (source-range-4449ec9f-00557))_
-
-> 1d8
-
-### Technical frame 14: Weapons / Weapon Properties / Improvised Weapons
+### Technical frame 11: Weapons / Weapon Properties / Improvised Weapons
 
 **Atom:** _(rpg_dnd_srd_excerpt.pdf (source-range-4449ec9f-00559))_
 
@@ -298,19 +273,7 @@ Sling
 
 </details>
 
-### Technical frame 15: Weapons / Weapon Properties / Improvised Weapons
-
-**Atom:** _(rpg_dnd_srd_excerpt.pdf (source-range-4449ec9f-00560))_
-
-> 1d4
-
-### Technical frame 16: Weapons / Weapon Properties / Improvised Weapons
-
-**Atom:** _(rpg_dnd_srd_excerpt.pdf (source-range-4449ec9f-00571))_
-
-> 1d8
-
-### Technical frame 17: Weapons / Weapon Properties / Improvised Weapons
+### Technical frame 12: Weapons / Weapon Properties / Improvised Weapons
 
 **Atom:** _(rpg_dnd_srd_excerpt.pdf (source-range-4449ec9f-00573))_
 
@@ -437,7 +400,7 @@ slashing
 
 </details>
 
-### Technical frame 18: Weapons / Weapon Properties / Improvised Weapons
+### Technical frame 13: Weapons / Weapon Properties / Improvised Weapons
 
 **Atom:** _(rpg_dnd_srd_excerpt.pdf (source-range-4449ec9f-00574))_
 

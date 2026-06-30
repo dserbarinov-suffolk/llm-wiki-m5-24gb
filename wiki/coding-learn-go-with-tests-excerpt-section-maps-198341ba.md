@@ -1,13 +1,14 @@
 ---
 page_id: coding-learn-go-with-tests-excerpt-section-maps-198341ba
 page_kind: source
-summary: Maps: 21 source-backed entries and 5 atom(s) from raw/coding_learn_go_with_tests_excerpt.pdf.
+summary: Maps: 21 source-backed entries and 0 atom(s) from raw/coding_learn_go_with_tests_excerpt.pdf.
+page_family: section-reference
 sources: raw/coding_learn_go_with_tests_excerpt.pdf
-updated: 2026-06-29
+updated: 2026-06-30
 domain: coding-learn-go-with-tests-excerpt
 category_path: sources/coding-learn-go-with-tests-excerpt/sections
 source_id: coding_learn_go_with_tests_excerpt.pdf
-projection_coverage: section-coding-learn-go-with-tests-excerpt-section-maps-198341ba@e5e19fefd105a908f8effc5c734327fb
+projection_coverage: section-coding-learn-go-with-tests-excerpt-section-maps-198341ba@23e185530852fe4b8e5c35f43916c105
 ---
 
 # Maps
@@ -23,7 +24,6 @@ From [[coding-learn-go-with-tests-excerpt]].
 - [[coding-learn-go-with-tests-excerpt-section-maps-refactor-a6824beb]] - narrower source section: Maps / Refactor
 - [[coding-learn-go-with-tests-excerpt-section-decoupling-1c6183b3]] - previous source section: Decoupling
 - [[coding-learn-go-with-tests-excerpt-section-using-a-custom-type-3f6de7c1]] - next source section: Using a custom type
-- [[coding-learn-go-with-tests-excerpt-maps]] - topic hub: opens the topic page for Maps
 
 ## Statements
 
@@ -53,89 +53,3 @@ From [[coding-learn-go-with-tests-excerpt]].
 ### Maps / Refactor
 
 - I decided to create an assertStrings helper to make the implementation more general. _(coding_learn_go_with_tests_excerpt.pdf (source-range-cb73a893-00565))_
-
-## Technical atoms
-
-### Technical frame 1: Maps / Write the test first
-
-**Context:** _(coding_learn_go_with_tests_excerpt.pdf (source-range-cb73a893-00552))_
-
-> Declaring a Map is somewhat similar to an array. Except, it starts with the map keyword and requires two types. The first is the key type, which is written inside the [] . The second is the value type, which goes right after the [] .
-
-**Atom:** _(coding_learn_go_with_tests_excerpt.pdf (source-range-cb73a893-00551))_
-
-```
-In dictionary_test.go
-package main
-import "testing"
-func TestSearch(t *testing.T) {
-    dictionary := map[string]string{"test": "this is just a test"}
-got := Search(dictionary, "test")
-    want := "this is just a test"
-if got != want {
-        t.Errorf("got %q want %q given, %q", got, want, "test")
-    }
-}
-```
-
-### Technical frame 2: Maps / Write the test first
-
-**Context:** _(coding_learn_go_with_tests_excerpt.pdf (source-range-cb73a893-00554))_
-
-> The value type, on the other hand, can be any type you want. It can even be another map.
-
-**Atom:** _(coding_learn_go_with_tests_excerpt.pdf (source-range-cb73a893-00553))_
-
-> It can only be a comparable type because without the ability to tell if 2 keys are equal, we have no way to ensure that we are getting the correct value.
-
-### Technical frame 3: Maps / Write the minimal amount of code for the test to run and check the output
-
-**Atom:** _(coding_learn_go_with_tests_excerpt.pdf (source-range-cb73a893-00559))_
-
-```
-In dictionary.go
-package main
-func Search(dictionary map[string]string, word string) string {
-    return ""
-}
-Your test should now fail with a clear error message
-dictionary_test.go:12: got '' want 'this is just a test' given, 
-'test'.
-```
-
-### Technical frame 4: Maps / Write enough code to make it pass
-
-**Context:** _(coding_learn_go_with_tests_excerpt.pdf (source-range-cb73a893-00562))_
-
-> Getting a value out of a Map is the same as getting a value out of Array map[key] .
-
-**Atom:** _(coding_learn_go_with_tests_excerpt.pdf (source-range-cb73a893-00561))_
-
-```
-func Search(dictionary map[string]string, word string) string {
-    return dictionary[word]
-}
-```
-
-### Technical frame 5: Maps / Refactor
-
-**Context:** _(coding_learn_go_with_tests_excerpt.pdf (source-range-cb73a893-00565))_
-
-> I decided to create an assertStrings helper to make the implementation more general.
-
-**Atom:** _(coding_learn_go_with_tests_excerpt.pdf (source-range-cb73a893-00564))_
-
-```
-func TestSearch(t *testing.T) {
-    dictionary := map[string]string{"test": "this is just a test"}
-got := Search(dictionary, "test")
-    want := "this is just a test"
-assertStrings(t, got, want)
-}
-func assertStrings(t testing.TB, got, want string) {
-    t.Helper()
-if got != want {
-        t.Errorf("got %q want %q", got, want)
-    }
-}
-```

@@ -1,13 +1,14 @@
 ---
 page_id: rpg-cairn-2e-core-section-saves-traditional-saves-wil-22b0cf1b
 page_kind: source
-summary: Saves / Traditional Saves / WIL: 39 source-backed entries and 2 atom(s) from raw/rpg_cairn_2e_core.pdf.
+summary: Saves / Traditional Saves / WIL: 39 source-backed entries and 0 atom(s) from raw/rpg_cairn_2e_core.pdf.
+page_family: section-reference
 sources: raw/rpg_cairn_2e_core.pdf
-updated: 2026-06-29
+updated: 2026-06-30
 domain: rpg-cairn-2e-core
 category_path: sources/rpg-cairn-2e-core/sections
 source_id: rpg_cairn_2e_core.pdf
-projection_coverage: section-rpg-cairn-2e-core-section-saves-traditional-saves-wil-22b0cf1b@8fb0124d6ecf0daf9be4eaafdab4814a
+projection_coverage: section-rpg-cairn-2e-core-section-saves-traditional-saves-wil-22b0cf1b@437b4e4a3aa6d6fe9cc9c3642014c38c
 ---
 
 # Saves / Traditional Saves / WIL
@@ -18,7 +19,6 @@ From [[rpg-cairn-2e-core]].
 
 - [[rpg-cairn-2e-core-section-saves-traditional-saves-c05f2b84]] - broader source section: Saves / Traditional Saves
 - [[rpg-cairn-2e-core-section-saves-traditional-saves-dexterity-f3bc4a3a]] - previous source section: Saves / Traditional Saves / Dexterity
-- [[rpg-cairn-2e-core-wil]] - topic hub: opens the topic page for Wil
 
 ## Statements
 
@@ -45,25 +45,3 @@ From [[rpg-cairn-2e-core]].
 - I only learned of that phrase a few minutes ago. _(rpg_cairn_2e_core.pdf (source-range-9b4fff26-00559))_
 - Warden "As she listens to your story, Katja frowns, then finally smiles. _(rpg_cairn_2e_core.pdf (source-range-9b4fff26-00563))_
 - But we have to go right now, before this place implodes. _(rpg_cairn_2e_core.pdf (source-range-9b4fff26-00563))_
-
-## Technical atoms
-
-### Technical frame 1: Saves / Traditional Saves / WIL
-
-**Context:** _(rpg_cairn_2e_core.pdf (source-range-9b4fff26-00540))_
-
-> The party splits up, and Freya learns what she needs to from a local fence. (It costs her one of the Twins, and she is not happy about it). Lucius is awaiting his sentence in a jail beneath the constabulary.
-
-**Atom:** _(rpg_cairn_2e_core.pdf (source-range-9b4fff26-00539))_
-
-> You can spend the night trying to make connections among your kind, if you like.
-
-### Technical frame 2: Saves / Traditional Saves / WIL
-
-**Context:** _(rpg_cairn_2e_core.pdf (source-range-9b4fff26-00558))_
-
-> Warden : "You'd need to make a WIL save even if you weren't telling the truth. You're definitely the most at risk here, and despite your experience as a charlatan, you think she can probably see through any lie. She and you might not be so different."
-
-**Atom:** _(rpg_cairn_2e_core.pdf (source-range-9b4fff26-00557))_
-
-> But that means I have to make a WIL save, right?

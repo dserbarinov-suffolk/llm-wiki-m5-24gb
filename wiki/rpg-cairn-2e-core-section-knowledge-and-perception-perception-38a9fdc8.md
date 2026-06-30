@@ -1,13 +1,14 @@
 ---
 page_id: rpg-cairn-2e-core-section-knowledge-and-perception-perception-38a9fdc8
 page_kind: source
-summary: Knowledge And Perception / Perception: 24 source-backed entries and 5 atom(s) from raw/rpg_cairn_2e_core.pdf.
+summary: Knowledge And Perception / Perception: 24 source-backed entries and 0 atom(s) from raw/rpg_cairn_2e_core.pdf.
+page_family: section-reference
 sources: raw/rpg_cairn_2e_core.pdf
-updated: 2026-06-29
+updated: 2026-06-30
 domain: rpg-cairn-2e-core
 category_path: sources/rpg-cairn-2e-core/sections
 source_id: rpg_cairn_2e_core.pdf
-projection_coverage: section-rpg-cairn-2e-core-section-knowledge-and-perception-perception-38a9fdc8@2f7ec9736b4e10a30cfa911fb5cbfd9e
+projection_coverage: section-rpg-cairn-2e-core-section-knowledge-and-perception-perception-38a9fdc8@60a45b2b76a6307eeea989e66300f3db
 ---
 
 # Knowledge And Perception / Perception
@@ -37,55 +38,3 @@ From [[rpg-cairn-2e-core]].
 - - If the hive is damaged in any way, the man will scream very loudly, then disappear. _(rpg_cairn_2e_core.pdf (source-range-9b4fff26-00591))_
 - - Bloodvines [3 HP , 4 STR, 13 DEX, 1 WIL, tendrils (d6, blast )] attack anyone that steps close to the sword, sapping 1 STR per round from their target (STR save to escape after the first round). _(rpg_cairn_2e_core.pdf (source-range-9b4fff26-00594))_
 - The Warden should therefore communicate exactly what the PCs can see, hear, and smell. _(rpg_cairn_2e_core.pdf (source-range-9b4fff26-00595))_
-
-## Technical atoms
-
-### Technical frame 1: Knowledge And Perception / Perception
-
-**Context:** _(rpg_cairn_2e_core.pdf (source-range-9b4fff26-00583))_
-
-> Players should feel that the consequences of their character's actions are earned , and that they are deserved , even if the results aren't always in their favor. True agency comes from providing the players with everything they need to know to make an interesting decision, even if that is simply asking a question about what their character might perceive.
-
-**Atom:** _(rpg_cairn_2e_core.pdf (source-range-9b4fff26-00582))_
-
-> When informing the players of what their PCs can perceive, the Warden should provide maximal sensory information pertaining to the objects, characters, dangers, and interactive elements in the given situation.
-
-### Technical frame 2: Knowledge And Perception / Perception
-
-**Context:** _(rpg_cairn_2e_core.pdf (source-range-9b4fff26-00585))_
-
-> A colony of bees furiously circles a massive hive hanging from the branch of a large oak tree. A man observes in the shadows beneath the tree, and a rusted sword lies on the ground not far from the tree.
-
-**Atom:** _(rpg_cairn_2e_core.pdf (source-range-9b4fff26-00583))_
-
-> Players should feel that the consequences of their character's actions are earned , and that they are deserved , even if the results aren't always in their favor.
-
-### Technical frame 3: Knowledge And Perception / Perception
-
-**Context:** _(rpg_cairn_2e_core.pdf (source-range-9b4fff26-00595))_
-
-> In this example, there are three potential dangers: the bees, the man, and the Bloodvine plant. The danger from bees is more obvious, as the PCs can clearly see the danger and are familiar with bees already. The man is an unknown entity and could be friend or foe, while the Bloodvines are hidden and act as a sort of trap. The Warden should therefore communicate exactly what the PCs can see, hear, and smell.
-
-**Atom:** _(rpg_cairn_2e_core.pdf (source-range-9b4fff26-00593))_
-
-> - The weapon belongs to the skeleton buried just beneath the earth. It is a regular short sword (d6), strangely preserved.
-
-### Technical frame 4: Knowledge And Perception / Perception
-
-**Context:** _(rpg_cairn_2e_core.pdf (source-range-9b4fff26-00597))_
-
-> If the PCs decide to engage with the bee hive, the Warden should "warn" them with a hint of some kind: the bees begin to fly in a more aggressive manner, or the noise they create gets louder, and so on. It is up to the players whether to ignore the clues in front of them and continue, or to stop and ask questions.
-
-**Atom:** _(rpg_cairn_2e_core.pdf (source-range-9b4fff26-00596))_
-
-> When the PCs realize that the man does not respond, they may try to get a closer look or perhaps toss a rock in his direction (avoiding the hive), and so on.
-
-### Technical frame 5: Knowledge And Perception / Perception
-
-**Context:** _(rpg_cairn_2e_core.pdf (source-range-9b4fff26-00596))_
-
-> The PCs will likely try to interact with the man first or perhaps ask questions about the sword, as these are both fairly passive ways to engage with the scene. When the PCs realize that the man does not respond, they may try to get a closer look or perhaps toss a rock in his direction (avoiding the hive), and so on. If the PCs ask questions about the sword or try to interact with it, the Warden should tell them about the shoe prints in the grass right away.
-
-**Atom:** _(rpg_cairn_2e_core.pdf (source-range-9b4fff26-00597))_
-
-> If the PCs decide to engage with the bee hive, the Warden should "warn" them with a hint of some kind: the bees begin to fly in a more aggressive manner, or the noise they create gets louder, and so on.

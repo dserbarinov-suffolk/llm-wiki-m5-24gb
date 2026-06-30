@@ -2,12 +2,13 @@
 page_id: coding-little-go-book-section-chapter-1-the-basics-before-you-continue-b0ff71fd
 page_kind: source
 summary: Chapter 1 - The Basics / Before You Continue: 4 source-backed entries and 0 atom(s) from raw/coding_little_go_book.pdf.
+page_family: section-reference
 sources: raw/coding_little_go_book.pdf
-updated: 2026-06-29
+updated: 2026-06-30
 domain: coding-little-go-book
 category_path: sources/coding-little-go-book/sections
 source_id: coding_little_go_book.pdf
-projection_coverage: section-coding-little-go-book-section-chapter-1-the-basics-before-you-continue-b0ff71fd@d9e5fd56a0ea6c9664e204a2719d56b7
+projection_coverage: section-coding-little-go-book-section-chapter-1-the-basics-before-you-continue-b0ff71fd@e0f6434b4380579ff5d24ae14ee8eec9
 ---
 
 # Chapter 1 - The Basics / Before You Continue
@@ -18,6 +19,7 @@ From [[coding-little-go-book]].
 
 - [[coding-little-go-book-section-chapter-1-the-basics-45e21143]] - broader source section: Chapter 1 - The Basics
 - [[coding-little-go-book-section-chapter-1-the-basics-function-declarations-0fdfbbc5]] - previous source section: Chapter 1 - The Basics / Function Declarations
+- [[coding-little-go-book-you-continue]] - topic hub: opens the topic page for You Continue
 
 ## Statements
 

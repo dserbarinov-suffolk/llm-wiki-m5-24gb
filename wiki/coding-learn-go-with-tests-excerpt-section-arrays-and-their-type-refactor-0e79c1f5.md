@@ -1,13 +1,14 @@
 ---
 page_id: coding-learn-go-with-tests-excerpt-section-arrays-and-their-type-refactor-0e79c1f5
 page_kind: source
-summary: Arrays and their type / Refactor: 17 source-backed entries and 4 atom(s) from raw/coding_learn_go_with_tests_excerpt.pdf.
+summary: Arrays and their type / Refactor: 17 source-backed entries and 0 atom(s) from raw/coding_learn_go_with_tests_excerpt.pdf.
+page_family: section-reference
 sources: raw/coding_learn_go_with_tests_excerpt.pdf
-updated: 2026-06-29
+updated: 2026-06-30
 domain: coding-learn-go-with-tests-excerpt
 category_path: sources/coding-learn-go-with-tests-excerpt/sections
 source_id: coding_learn_go_with_tests_excerpt.pdf
-projection_coverage: section-coding-learn-go-with-tests-excerpt-section-arrays-and-their-type-refactor-0e79c1f5@f5b512fcd6320a7127675e5f318ef62b
+projection_coverage: section-coding-learn-go-with-tests-excerpt-section-arrays-and-their-type-refactor-0e79c1f5@8e37b7fe0bf4af999406bef3a06835bf
 ---
 
 # Arrays and their type / Refactor
@@ -31,75 +32,3 @@ From [[coding-learn-go-with-tests-excerpt]].
 - We need a new function called SumAll which will take a varying number of slices, returning a new slice containing the totals for each slice passed in. _(coding_learn_go_with_tests_excerpt.pdf (source-range-cb73a893-00334))_
 - If it works for a slice of one size it's very likely it'll work for a slice of any size (within reason). _(coding_learn_go_with_tests_excerpt.pdf (source-range-cb73a893-00328))_
 - Now that we are happy we have a well-tested function you should commit your great work before taking on the next challenge. _(coding_learn_go_with_tests_excerpt.pdf (source-range-cb73a893-00333))_
-
-## Technical atoms
-
-### Technical frame 1: Arrays and their type / Refactor
-
-**Context:** _(coding_learn_go_with_tests_excerpt.pdf (source-range-cb73a893-00327))_
-
-> It is important to question the value of your tests. It should not be a goal to have as many tests as possible, but rather to have as much confidence as possible in your code base. Having too many tests can turn in to a real problem and it just adds more overhead in maintenance. Every test has a cost .
-
-**Atom:** _(coding_learn_go_with_tests_excerpt.pdf (source-range-cb73a893-00326))_
-
-```
-func TestSum(t *testing.T) {
-t.Run("collection of 5 numbers", func(t *testing.T) {
-        numbers := []int{1, 2, 3, 4, 5}
-got := Sum(numbers)
-        want := 15
-if got != want {
-            t.Errorf("got %d want %d given, %v", got, want, numbers)
-        }
-    })
-t.Run("collection of any size", func(t *testing.T) {
-        numbers := []int{1, 2, 3}
-got := Sum(numbers)
-        want := 6
-if got != want {
-            t.Errorf("got %d want %d given, %v", got, want, numbers)
-        }
-    })
-}
-```
-
-### Technical frame 2: Arrays and their type / Refactor
-
-**Context:** _(coding_learn_go_with_tests_excerpt.pdf (source-range-cb73a893-00333))_
-
-> Now that we are happy we have a well-tested function you should commit your great work before taking on the next challenge.
-
-**Atom:** _(coding_learn_go_with_tests_excerpt.pdf (source-range-cb73a893-00330))_
-
-```
-Try running
-go test -cover
-You should see
-```
-
-### Technical frame 3: Arrays and their type / Refactor
-
-**Context:** _(coding_learn_go_with_tests_excerpt.pdf (source-range-cb73a893-00333))_
-
-> Now that we are happy we have a well-tested function you should commit your great work before taking on the next challenge.
-
-**Atom:** _(coding_learn_go_with_tests_excerpt.pdf (source-range-cb73a893-00331))_
-
-```
-PASS
-coverage: 100.0% of statements
-```
-
-### Technical frame 4: Arrays and their type / Refactor
-
-**Context:** _(coding_learn_go_with_tests_excerpt.pdf (source-range-cb73a893-00334))_
-
-> We need a new function called SumAll which will take a varying number of slices, returning a new slice containing the totals for each slice passed in.
-
-**Atom:** _(coding_learn_go_with_tests_excerpt.pdf (source-range-cb73a893-00336))_
-
-```
-SumAll([]int{1,2}, []int{0,9}) would return []int{3, 9}
-or
-SumAll([]int{1,1,1}) would return []int{3}
-```

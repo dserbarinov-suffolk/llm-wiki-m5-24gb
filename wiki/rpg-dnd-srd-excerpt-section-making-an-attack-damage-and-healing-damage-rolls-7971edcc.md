@@ -2,8 +2,9 @@
 page_id: rpg-dnd-srd-excerpt-section-making-an-attack-damage-and-healing-damage-rolls-7971edcc
 page_kind: source
 summary: Making an Attack / Damage and Healing / Damage Rolls: 8 source-backed entries and 2 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
+page_family: section-reference
 sources: raw/rpg_dnd_srd_excerpt.pdf
-updated: 2026-06-29
+updated: 2026-06-30
 domain: rpg-dnd-srd-excerpt
 category_path: sources/rpg-dnd-srd-excerpt/sections
 source_id: rpg_dnd_srd_excerpt.pdf

@@ -1,13 +1,14 @@
 ---
 page_id: history-short-history-of-england-section-a-short-history-of-england-pg-1-x-the-war-of-the-usurpers-ac1bb9ce
 page_kind: source
-summary: A SHORT HISTORY OF ENGLAND [Pg 1] / X / THE WAR OF THE USURPERS: 129 source-backed entries and 4 atom(s) from raw/history_short_history_of_england.pdf.
+summary: A SHORT HISTORY OF ENGLAND [Pg 1] / X / THE WAR OF THE USURPERS: 129 source-backed entries and 0 atom(s) from raw/history_short_history_of_england.pdf.
+page_family: section-reference
 sources: raw/history_short_history_of_england.pdf
-updated: 2026-06-29
+updated: 2026-06-30
 domain: history-short-history-of-england
 category_path: sources/history-short-history-of-england/sections
 source_id: history_short_history_of_england.pdf
-projection_coverage: section-history-short-history-of-england-section-a-short-history-of-england-pg-1-x-the-war-of-the-usurpers-ac1bb9ce@4fe05aa4c9ff333700a8798e3fcda7aa
+projection_coverage: section-history-short-history-of-england-section-a-short-history-of-england-pg-1-x-the-war-of-the-usurpers-ac1bb9ce@a40d757599d0128c8ead947bafe83f06
 ---
 
 # A SHORT HISTORY OF ENGLAND [Pg 1] / X / THE WAR OF THE USURPERS
@@ -17,7 +18,6 @@ From [[history-short-history-of-england]].
 ## Related pages
 
 - [[history-short-history-of-england-section-a-short-history-of-england-pg-1-x-360ab3ca]] - broader source section: A SHORT HISTORY OF ENGLAND [Pg 1] / X
-- [[history-short-history-of-england-war-usurper]] - topic hub: opens the topic page for War Usurper
 
 ## Statements
 
@@ -57,45 +57,3 @@ From [[history-short-history-of-england]].
 - The call echoed unanswered down the ages; for since that day no English king has fought after that fashion. _(history_short_history_of_england.pdf (source-range-46d51aaf-00276))_
 - When his nobles deserted him before the battle, he did not regard it as a new political combination, but as the sin of false friends and faithless servants. _(history_short_history_of_england.pdf (source-range-46d51aaf-00276))_
 - It is expressed in the one word which he cried aloud as he struck down foe after foe in the last charge at Bosworth-treason. _(history_short_history_of_england.pdf (source-range-46d51aaf-00276))_
-
-## Technical atoms
-
-### Technical frame 1: A SHORT HISTORY OF ENGLAND [Pg 1] / X / THE WAR OF THE USURPERS
-
-**Context:** _(history_short_history_of_england.pdf (source-range-46d51aaf-00252))_
-
-> Now mediæval monarchy, though only one aspect of mediæval rule, was roughly represented in the idea that the ruler had a right to rule as a voter has a right to vote. He might govern wrong, but unless he governed horribly and extravagantly wrong, he retained his position of right; as a private man retains his right to marriage and locomotion unless he goes horribly and extravagantly off his head. It was not really even so simple as this; for the Middle Ages were not, as it is often the fashion t
-
-**Atom:** _(history_short_history_of_england.pdf (source-range-46d51aaf-00251))_
-
-> The poet Pope, though a friend of the greatest of Tory Democrats, Bolingbroke, necessarily lived in a world in which even Toryism was Whiggish. And the Whig as a wit never expressed his political point more clearly than in Pope's line which ran: "The right divine of kings to govern wrong." It will be apparent, when I deal with that period, that I do not palliate the real unreason in divine right as Filmer and some of the pedantic cavaliers construed it. They professed the impossible ideal of "nonresistance" to any national and legitimate power; though I cannot see that even that was so servile and superstitious as the more modern ideal of "non-resistance" even to a foreign and lawless power. But the seventeenth century was an age of sects, that is of fads; and the Filmerites made a fad of divine right. Its roots were older, equally religious but much more realistic; and though tangled with many other and even opposite things of the Middle Ages, ramify through all the changes we have now to consider. The connection can hardly be stated better than by taking Pope's easy epigram and pointing out that it is, after all, very weak in philosophy. "The right divine of kings to govern wrong," considered as a sneer, really evades all that we mean by "a right." To have a right to do a thing is not at all the same as to be right in doing it. What Pope says satirically about a divine right is what we all say quite seriously about a human right. If a man has a right to vote, has he not a right to vote wrong? If a man has a right to choose his wife, has he not a right to choose wrong? I have a right to express the opinion which I am now setting down; but I should hesitate to make the controversial claim that this proves the opinion to be right.
-
-### Technical frame 2: A SHORT HISTORY OF ENGLAND [Pg 1] / X / THE WAR OF THE USURPERS
-
-**Context:** _(history_short_history_of_england.pdf (source-range-46d51aaf-00252))_
-
-> Now mediæval monarchy, though only one aspect of mediæval rule, was roughly represented in the idea that the ruler had a right to rule as a voter has a right to vote. He might govern wrong, but unless he governed horribly and extravagantly wrong, he retained his position of right; as a private man retains his right to marriage and locomotion unless he goes horribly and extravagantly off his head. It was not really even so simple as this; for the Middle Ages were not, as it is often the fashion t
-
-**Atom:** _(history_short_history_of_england.pdf (source-range-46d51aaf-00251))_
-
-> And the Whig as a wit never expressed his political point more clearly than in Pope's line which ran: "The right divine of kings to govern wrong." It will be apparent, when I deal with that period, that I do not palliate the real unreason in divine right as Filmer and some of the pedantic cavaliers construed it.
-
-### Technical frame 3: A SHORT HISTORY OF ENGLAND [Pg 1] / X / THE WAR OF THE USURPERS
-
-**Context:** _(history_short_history_of_england.pdf (source-range-46d51aaf-00261))_
-
-> The two dramatic stories which connect Wat Tyler, doubtfully with the beginning, and definitely with the end of the revolt, are far from unimportant, despite the desire of our present prosaic historians to pretend that all dramatic stories are unimportant. The tale of Tyler's first blow is significant in the sense that it is not only dramatic but domestic. It avenged an insult to the family, and made the legend of the whole riot, whatever its incidental indecencies, a sort of demonstration on be
-
-**Atom:** _(history_short_history_of_england.pdf (source-range-46d51aaf-00260))_
-
-> The slave-owner was like a man who should set up a row of sticks for a fence, and then find they had struck root and were budding into small trees.
-
-### Technical frame 4: A SHORT HISTORY OF ENGLAND [Pg 1] / X / THE WAR OF THE USURPERS
-
-**Context:** _(history_short_history_of_england.pdf (source-range-46d51aaf-00266))_
-
-> It is remarked above that Parliament was now an aristocracy, being an object of ambition. The truth is, perhaps, more subtle than this; but if ever men yearn to serve on juries we may probably guess that juries are no longer popular. Anyhow, this must be kept in mind, as against the opposite idea of the jus divinum or fixed authority, if we would appreciate the fall of Richard. If the thing which dethroned him was a rebellion, it was a rebellion of the parliament, of the thing that had just prov
-
-**Atom:** _(history_short_history_of_england.pdf (source-range-46d51aaf-00264))_
-
-> The point that must be seized, if subsequent things are to be seen as they are, is that Parliament certainly encouraged, and Parliament almost certainly obliged, the King to repudiate the people.

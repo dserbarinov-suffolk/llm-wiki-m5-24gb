@@ -1,13 +1,14 @@
 ---
 page_id: coding-little-go-book-section-chapter-3-maps-arrays-and-slices-slices-7f1a7b05
 page_kind: source
-summary: Chapter 3 - Maps, Arrays and Slices / Slices: 69 source-backed entries and 24 atom(s) from raw/coding_little_go_book.pdf.
+summary: Chapter 3 - Maps, Arrays and Slices / Slices: 69 source-backed entries and 22 atom(s) from raw/coding_little_go_book.pdf.
+page_family: section-reference
 sources: raw/coding_little_go_book.pdf
-updated: 2026-06-29
+updated: 2026-06-30
 domain: coding-little-go-book
 category_path: sources/coding-little-go-book/sections
 source_id: coding_little_go_book.pdf
-projection_coverage: section-coding-little-go-book-section-chapter-3-maps-arrays-and-slices-slices-7f1a7b05@6b407a647fdfc27704512fe6f45030d3
+projection_coverage: section-coding-little-go-book-section-chapter-3-maps-arrays-and-slices-slices-7f1a7b05@9dce7aeb494bdcfcc984fd1a962cc755
 ---
 
 # Chapter 3 - Maps, Arrays and Slices / Slices
@@ -136,42 +137,6 @@ func main() {
 
 ### Technical frame 7: Chapter 3 - Maps, Arrays and Slices / Slices
 
-**Context:** _(coding_little_go_book.pdf (source-range-23d24eb1-00217))_
-
-> The initial capacity of scores is 5. In order to hold 25 values, it'll have to be expanded 3 times with a capacity of 10, 20 and finally 40.
-
-**Atom:** _(coding_little_go_book.pdf (source-range-23d24eb1-00215))_
-
-```
-func main() {
-  scores := make([]int, 0, 5)
-```
-
-### Technical frame 8: Chapter 3 - Maps, Arrays and Slices / Slices
-
-**Context:** _(coding_little_go_book.pdf (source-range-23d24eb1-00217))_
-
-> The initial capacity of scores is 5. In order to hold 25 values, it'll have to be expanded 3 times with a capacity of 10, 20 and finally 40.
-
-**Atom:** _(coding_little_go_book.pdf (source-range-23d24eb1-00216))_
-
-```
-c := cap(scores)
-  fmt.Println(c)
-for i := 0; i < 25; i++ {
-    scores = append(scores, i)
-// if our capacity has changed,
-    // Go had to grow our array to accommodate the new data
-    if cap(scores) != c {
-      c = cap(scores)
-      fmt.Println(c)
-    }
-  }
-}
-```
-
-### Technical frame 9: Chapter 3 - Maps, Arrays and Slices / Slices
-
 **Context:** _(coding_little_go_book.pdf (source-range-23d24eb1-00220))_
 
 > Here, the output is going to be [0, 0, 0, 0, 0, 9332] . Maybe you thought it would be [9332, 0, 0, 0, 0] ? To a human, that might seem logical. To a compiler, you're telling it to append a value to a slice that already holds 5 values.
@@ -186,7 +151,7 @@ func main() {
 }
 ```
 
-### Technical frame 10: Chapter 3 - Maps, Arrays and Slices / Slices
+### Technical frame 8: Chapter 3 - Maps, Arrays and Slices / Slices
 
 **Context:** _(coding_little_go_book.pdf (source-range-23d24eb1-00223))_
 
@@ -201,7 +166,7 @@ var names []string
 scores := make([]int, 0, 20)
 ```
 
-### Technical frame 11: Chapter 3 - Maps, Arrays and Slices / Slices
+### Technical frame 9: Chapter 3 - Maps, Arrays and Slices / Slices
 
 **Context:** _(coding_little_go_book.pdf (source-range-23d24eb1-00226))_
 
@@ -219,7 +184,7 @@ func extractPowers(saiyans []*Saiyan) []int {
 }
 ```
 
-### Technical frame 12: Chapter 3 - Maps, Arrays and Slices / Slices
+### Technical frame 10: Chapter 3 - Maps, Arrays and Slices / Slices
 
 **Context:** _(coding_little_go_book.pdf (source-range-23d24eb1-00230))_
 
@@ -229,7 +194,7 @@ func extractPowers(saiyans []*Saiyan) []int {
 
 > Even when you know the size, append can be used.
 
-### Technical frame 13: Chapter 3 - Maps, Arrays and Slices / Slices
+### Technical frame 11: Chapter 3 - Maps, Arrays and Slices / Slices
 
 **Context:** _(coding_little_go_book.pdf (source-range-23d24eb1-00230))_
 
@@ -247,7 +212,7 @@ func extractPowers(saiyans []*Saiyan) []int {
 }
 ```
 
-### Technical frame 14: Chapter 3 - Maps, Arrays and Slices / Slices
+### Technical frame 12: Chapter 3 - Maps, Arrays and Slices / Slices
 
 **Context:** _(coding_little_go_book.pdf (source-range-23d24eb1-00234))_
 
@@ -257,7 +222,7 @@ func extractPowers(saiyans []*Saiyan) []int {
 
 > You can also get a slice in Ruby by using [START..END] or in Python via [START:END] .
 
-### Technical frame 15: Chapter 3 - Maps, Arrays and Slices / Slices
+### Technical frame 13: Chapter 3 - Maps, Arrays and Slices / Slices
 
 **Context:** _(coding_little_go_book.pdf (source-range-23d24eb1-00234))_
 
@@ -272,7 +237,7 @@ slice[0] = 999
 puts scores
 ```
 
-### Technical frame 16: Chapter 3 - Maps, Arrays and Slices / Slices
+### Technical frame 14: Chapter 3 - Maps, Arrays and Slices / Slices
 
 **Context:** _(coding_little_go_book.pdf (source-range-23d24eb1-00234))_
 
@@ -282,7 +247,7 @@ puts scores
 
 > The answer is [1, 2, 3, 4, 5] . That's because slice is a completely new array with copies of values. Now, consider the Go equivalent:
 
-### Technical frame 17: Chapter 3 - Maps, Arrays and Slices / Slices
+### Technical frame 15: Chapter 3 - Maps, Arrays and Slices / Slices
 
 **Context:** _(coding_little_go_book.pdf (source-range-23d24eb1-00234))_
 
@@ -297,7 +262,7 @@ slice[0] = 999
 fmt.Println(scores)
 ```
 
-### Technical frame 18: Chapter 3 - Maps, Arrays and Slices / Slices
+### Technical frame 16: Chapter 3 - Maps, Arrays and Slices / Slices
 
 **Context:** _(coding_little_go_book.pdf (source-range-23d24eb1-00239))_
 
@@ -307,7 +272,7 @@ fmt.Println(scores)
 
 > This changes how you code. For example, a number of functions take a position parameter. In JavaScript, if we want to find the first space in a string (yes, slices work on strings too!) after the first five characters, we'd write:
 
-### Technical frame 19: Chapter 3 - Maps, Arrays and Slices / Slices
+### Technical frame 17: Chapter 3 - Maps, Arrays and Slices / Slices
 
 **Context:** _(coding_little_go_book.pdf (source-range-23d24eb1-00239))_
 
@@ -320,7 +285,7 @@ haystack = "the spice must flow";
 console.log(haystack.indexOf(" ", 5));
 ```
 
-### Technical frame 20: Chapter 3 - Maps, Arrays and Slices / Slices
+### Technical frame 18: Chapter 3 - Maps, Arrays and Slices / Slices
 
 **Context:** _(coding_little_go_book.pdf (source-range-23d24eb1-00239))_
 
@@ -332,7 +297,7 @@ console.log(haystack.indexOf(" ", 5));
 strings.Index(haystack[5:], " ")
 ```
 
-### Technical frame 21: Chapter 3 - Maps, Arrays and Slices / Slices
+### Technical frame 19: Chapter 3 - Maps, Arrays and Slices / Slices
 
 **Context:** _(coding_little_go_book.pdf (source-range-23d24eb1-00244))_
 
@@ -345,7 +310,7 @@ scores := []int{1, 2, 3, 4, 5}
 scores = scores[:len(scores)-1]
 ```
 
-### Technical frame 22: Chapter 3 - Maps, Arrays and Slices / Slices
+### Technical frame 20: Chapter 3 - Maps, Arrays and Slices / Slices
 
 **Context:** _(coding_little_go_book.pdf (source-range-23d24eb1-00244))_
 
@@ -361,7 +326,7 @@ func main() {
 }
 ```
 
-### Technical frame 23: Chapter 3 - Maps, Arrays and Slices / Slices
+### Technical frame 21: Chapter 3 - Maps, Arrays and Slices / Slices
 
 **Context:** _(coding_little_go_book.pdf (source-range-23d24eb1-00244))_
 
@@ -380,7 +345,7 @@ return source[:lastIndex]
 }
 ```
 
-### Technical frame 24: Chapter 3 - Maps, Arrays and Slices / Slices
+### Technical frame 22: Chapter 3 - Maps, Arrays and Slices / Slices
 
 **Context:** _(coding_little_go_book.pdf (source-range-23d24eb1-00244))_
 

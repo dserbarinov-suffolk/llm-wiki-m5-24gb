@@ -1,13 +1,14 @@
 ---
 page_id: rpg-dnd-srd-excerpt-section-sample-monsters-754d4e18
 page_kind: source
-summary: Sample Monsters: 18 source-backed entries and 14 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
+summary: Sample Monsters: 18 source-backed entries and 4 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
+page_family: section-reference
 sources: raw/rpg_dnd_srd_excerpt.pdf
-updated: 2026-06-29
+updated: 2026-06-30
 domain: rpg-dnd-srd-excerpt
 category_path: sources/rpg-dnd-srd-excerpt/sections
 source_id: rpg_dnd_srd_excerpt.pdf
-projection_coverage: section-rpg-dnd-srd-excerpt-section-sample-monsters-754d4e18@8dc2aa9f6c155646c6d2634d3ef29edb
+projection_coverage: section-rpg-dnd-srd-excerpt-section-sample-monsters-754d4e18@e4c40e96e2d105d688c50ae7bb8917bd
 ---
 
 # Sample Monsters
@@ -18,7 +19,6 @@ From [[rpg-dnd-srd-excerpt]].
 
 - [[rpg-dnd-srd-excerpt-section-sample-monsters-goblin-132b780a]] - narrower source section: Sample Monsters / Goblin
 - [[rpg-dnd-srd-excerpt-section-sample-spells-8d42e098]] - previous source section: Sample Spells
-- [[rpg-dnd-srd-excerpt-sample-monster]] - topic hub: opens the topic page for Sample Monster
 
 ## Statements by subsection
 
@@ -35,12 +35,6 @@ From [[rpg-dnd-srd-excerpt]].
 ## Technical atoms
 
 ### Technical frame 1: Sample Monsters / Goblin
-
-**Atom:** _(rpg_dnd_srd_excerpt.pdf (source-range-4449ec9f-00680))_
-
-> Hit Points 7 (2d6)
-
-### Technical frame 2: Sample Monsters / Goblin
 
 **Atom:** _(rpg_dnd_srd_excerpt.pdf (source-range-4449ec9f-00687))_
 
@@ -60,19 +54,7 @@ Goblin
 
 </details>
 
-### Technical frame 3: Sample Monsters / Goblin
-
-**Context:** _(rpg_dnd_srd_excerpt.pdf (source-range-4449ec9f-00696))_
-
-> Nimble Escape . The goblin can take the Disengage or Hide action as a bonus action on each of its turns.
-
-**Atoms:** _(rpg_dnd_srd_excerpt.pdf (source-range-4449ec9f-00698, source-range-4449ec9f-00699))_
-
-> Scimitar . Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5 (1d6+2) slashing damage.
-
-> Shortbow . Ranged Weapon Attack: +4 to hit, range 80/320 ft., one target. Hit: 5 (1d6+2) piercing damage.
-
-### Technical frame 4: Sample Monsters / Goblin / Skeleton
+### Technical frame 2: Sample Monsters / Goblin / Skeleton
 
 **Atom:** _(rpg_dnd_srd_excerpt.pdf (source-range-4449ec9f-00701))_
 
@@ -114,21 +96,7 @@ CHA
 
 </details>
 
-### Technical frame 5: Sample Monsters / Goblin / Skeleton
-
-**Atoms:** _(rpg_dnd_srd_excerpt.pdf (source-range-4449ec9f-00713, source-range-4449ec9f-00714))_
-
-> Shortsword . Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5 (1d6+2) piercing damage.
-
-> Shortbow . Ranged Weapon Attack: +4 to hit, range 80/320 ft., one target. Hit: 5 (1d6+2) piercing damage.
-
-### Technical frame 6: Sample Monsters / Goblin / Wolf
-
-**Atom:** _(rpg_dnd_srd_excerpt.pdf (source-range-4449ec9f-00718))_
-
-> Hit Points 11 (2d8+2)
-
-### Technical frame 7: Sample Monsters / Goblin / Wolf
+### Technical frame 3: Sample Monsters / Goblin / Wolf
 
 **Context:** _(rpg_dnd_srd_excerpt.pdf (source-range-4449ec9f-00730))_
 
@@ -152,23 +120,7 @@ Wolf
 
 </details>
 
-### Technical frame 8: Sample Monsters / Goblin / Wolf
-
-**Context:** _(rpg_dnd_srd_excerpt.pdf (source-range-4449ec9f-00731))_
-
-> Pack Tactics . The wolf has advantage on attack rolls against a creature if at least one of the wolf's allies is within 5 feet of the creature and the ally isn't incapacitated.
-
-**Atom:** _(rpg_dnd_srd_excerpt.pdf (source-range-4449ec9f-00733))_
-
-> If the target is a creature, it must succeed on a DC 11 Strength saving throw or be knocked prone.
-
-### Technical frame 9: Sample Monsters / Goblin / Zombie
-
-**Atom:** _(rpg_dnd_srd_excerpt.pdf (source-range-4449ec9f-00737))_
-
-> Hit Points 22 (3d8+9)
-
-### Technical frame 10: Sample Monsters / Goblin / Zombie
+### Technical frame 4: Sample Monsters / Goblin / Zombie
 
 **Atom:** _(rpg_dnd_srd_excerpt.pdf (source-range-4449ec9f-00745))_
 
@@ -194,15 +146,3 @@ Wolf
 | 5 | (-3) |
 
 </details>
-
-### Technical frame 11: Sample Monsters / Goblin / Zombie
-
-**Atom:** _(rpg_dnd_srd_excerpt.pdf (source-range-4449ec9f-00752))_
-
-> If damage reduces the zombie to 0 hit points, it must make a Constitution saving throw with a DC of 5+the damage taken, unless the damage is radiant or from a critical hit.
-
-### Technical frame 12: Sample Monsters / Goblin / Zombie
-
-**Atom:** _(rpg_dnd_srd_excerpt.pdf (source-range-4449ec9f-00754))_
-
-> Slam . Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 4 (1d6+1) bludgeoning damage.

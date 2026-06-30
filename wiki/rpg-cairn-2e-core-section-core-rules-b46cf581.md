@@ -1,13 +1,14 @@
 ---
 page_id: rpg-cairn-2e-core-section-core-rules-b46cf581
 page_kind: source
-summary: Core Rules: 113 source-backed entries and 19 atom(s) from raw/rpg_cairn_2e_core.pdf.
+summary: Core Rules: 113 source-backed entries and 1 atom(s) from raw/rpg_cairn_2e_core.pdf.
+page_family: section-reference
 sources: raw/rpg_cairn_2e_core.pdf
-updated: 2026-06-29
+updated: 2026-06-30
 domain: rpg-cairn-2e-core
 category_path: sources/rpg-cairn-2e-core/sections
 source_id: rpg_cairn_2e_core.pdf
-projection_coverage: section-rpg-cairn-2e-core-section-core-rules-b46cf581@3b0c36b1a9d50869076e961c498b6570
+projection_coverage: section-rpg-cairn-2e-core-section-core-rules-b46cf581@97ad98cf18600db4b6f1e1d6aeb4e6d9
 ---
 
 # Core Rules
@@ -30,7 +31,6 @@ From [[rpg-cairn-2e-core]].
 - [[rpg-cairn-2e-core-section-core-rules-magic-d4d7390d]] - narrower source section: Core Rules / Magic
 - [[rpg-cairn-2e-core-section-character-creation-26313297]] - previous source section: Character Creation
 - [[rpg-cairn-2e-core-section-procedures-2bb89b14]] - next source section: Procedures
-- [[rpg-cairn-2e-core-core-rule]] - topic hub: opens the topic page for Core Rule
 
 ## Statements by subsection
 
@@ -170,133 +170,7 @@ From [[rpg-cairn-2e-core]].
 
 ## Technical atoms
 
-### Technical frame 1: Core Rules / Armor
-
-**Context:** _(rpg_cairn_2e_core.pdf (source-range-9b4fff26-00178))_
-
-> A PC, NPC, or monster cannot have more than 3 Armor.
-
-**Atom:** _(rpg_cairn_2e_core.pdf (source-range-9b4fff26-00177))_
-
-> Some may also provide additional benefits, depending on the fiction.
-
-### Technical frame 2: Core Rules / Armor
-
-**Context:** _(rpg_cairn_2e_core.pdf (source-range-9b4fff26-00178))_
-
-> A PC, NPC, or monster cannot have more than 3 Armor.
-
-**Atom:** _(rpg_cairn_2e_core.pdf (source-range-9b4fff26-00177))_
-
-> - Shields and similar armor provide a bonus defense (e.g. +1 Armor), but only while the item is held or worn. Some may also provide additional benefits, depending on the fiction.
-
-### Technical frame 3: Core Rules / Reactions
-
-**Atom:** _(rpg_cairn_2e_core.pdf (source-range-9b4fff26-00180))_
-
-> When the PCs encounter an NPC whose reaction to the party is not obvious, the Warden may roll 2d6 and consult the following table:
-
-### Technical frame 4: Core Rules / Reactions
-
-**Atoms:** _(rpg_cairn_2e_core.pdf (source-range-9b4fff26-00180, source-range-9b4fff26-00182, source-range-9b4fff26-00183, source-range-9b4fff26-00184))_
-
-> When the PCs encounter an NPC whose reaction to the party is not obvious, the Warden may roll 2d6 and consult the following table:
-
-> 3-5
-
-> 6-8
-
-> 9-11
-
-### Technical frame 5: Core Rules / Morale
-
-**Context:** _(rpg_cairn_2e_core.pdf (source-range-9b4fff26-00194))_
-
-> Morale does not affect PCs.
-
-**Atom:** _(rpg_cairn_2e_core.pdf (source-range-9b4fff26-00193))_
-
-> Lone foes must save when they're reduced to 0 HP .
-
-### Technical frame 6: Core Rules / Die of Fate
-
-**Context:** _(rpg_cairn_2e_core.pdf (source-range-9b4fff26-00201))_
-
-> A roll of 4 or more generally favors the PCs, while a roll of 3 or under usually means bad luck for the PCs.
-
-**Atom:** _(rpg_cairn_2e_core.pdf (source-range-9b4fff26-00200))_
-
-> - Optionally, roll 1d6 whenever the outcome of an event is uncertain or to simulate an element of randomness and chance.
-
-### Technical frame 7: Core Rules / Combat / Actions
-
-**Atom:** _(rpg_cairn_2e_core.pdf (source-range-9b4fff26-00208))_
-
-> On their turn, a character may move up to 40ft and take up to one action.
-
-### Technical frame 8: Core Rules / Combat / Attacking & Damage
-
-**Context:** _(rpg_cairn_2e_core.pdf (source-range-9b4fff26-00212))_
-
-> If an attack would take a PC's HP exactly to 0, refer to the Scars table to see how they are uniquely impacted.
-
-**Atom:** _(rpg_cairn_2e_core.pdf (source-range-9b4fff26-00211))_
-
-> - If multiple attackers target the same foe, roll all damage dice and keep the single highest result.
-
-### Technical frame 9: Core Rules / Combat / Attack Modifiers
-
-**Context:** _(rpg_cairn_2e_core.pdf (source-range-9b4fff26-00216))_
-
-> Attacks with the Blast quality affect all targets in the noted area, rolling separately for each affected character. This can be anything from explosions to a dragon's breath or the impact of a meteorite. If unsure how many targets can be affected, roll the related damage die for a result .
-
-**Atom:** _(rpg_cairn_2e_core.pdf (source-range-9b4fff26-00214))_
-
-> - If fighting from a position of weakness (such as through cover or with bound hands), the attack is Impaired , and the attacker must roll 1d4 damage regardless of the attacks damage die.
-
-### Technical frame 10: Core Rules / Combat / Attack Modifiers
-
-**Context:** _(rpg_cairn_2e_core.pdf (source-range-9b4fff26-00216))_
-
-> Attacks with the Blast quality affect all targets in the noted area, rolling separately for each affected character. This can be anything from explosions to a dragon's breath or the impact of a meteorite. If unsure how many targets can be affected, roll the related damage die for a result .
-
-**Atom:** _(rpg_cairn_2e_core.pdf (source-range-9b4fff26-00215))_
-
-> - If fighting from a position of advantage (such as against a helpless foe or through a daring maneuver), the attack is Enhanced , allowing the attacker to roll 1d12 damage instead of their normal die.
-
-### Technical frame 11: Core Rules / Combat / Attack Modifiers
-
-**Atom:** _(rpg_cairn_2e_core.pdf (source-range-9b4fff26-00216))_
-
-> If unsure how many targets can be affected, roll the related damage die for a result .
-
-### Technical frame 12: Core Rules / Combat / Attack Modifiers
-
-**Context:** _(rpg_cairn_2e_core.pdf (source-range-9b4fff26-00216))_
-
-> Attacks with the Blast quality affect all targets in the noted area, rolling separately for each affected character. This can be anything from explosions to a dragon's breath or the impact of a meteorite. If unsure how many targets can be affected, roll the related damage die for a result .
-
-**Atom:** _(rpg_cairn_2e_core.pdf (source-range-9b4fff26-00217))_
-
-> - If attacking with two weapons at the same time, roll both damage dice and keep the single highest result (denoted with a plus symbol, e.g.
-
-### Technical frame 13: Core Rules / Combat / Critical Damage
-
-**Context:** _(rpg_cairn_2e_core.pdf (source-range-9b4fff26-00221))_
-
-> weakly, grasping for life. If given aid (such as bandages), they will stabilize. If left untreated, they die within the hour. NPCs and monsters that fail a Critical Damage save are considered dead, per the Warden's discretion. Additionally, some enemies will have special abilities or effects that are triggered when their target fails a critical damage save.
-
-**Atom:** _(rpg_cairn_2e_core.pdf (source-range-9b4fff26-00219))_
-
-> On a success, the target is still in the fight (albeit with a lower STR score) and must continue to make critical damage saves when incurring damage.
-
-### Technical frame 14: Core Rules / Combat / Character Death
-
-**Atom:** _(rpg_cairn_2e_core.pdf (source-range-9b4fff26-00226))_
-
-> - When a character dies, the player should create a new character or take control of a hireling.
-
-### Technical frame 15: Core Rules / Scars
+### Technical frame 1: Core Rules / Scars
 
 **Atom:** _(rpg_cairn_2e_core.pdf (source-range-9b4fff26-00237))_
 
@@ -375,13 +249,3 @@ than your max HP, take the new result.
 | 12 | Doomed: Death seemed ever so close, but somehow you survived. If your next save against critical damage is a fail, you die horribly. If you pass, roll 3d6. If the total is higher than your max HP, take the new result. |
 
 </details>
-
-### Technical frame 16: Core Rules / Magic / Casting Spells
-
-**Context:** _(rpg_cairn_2e_core.pdf (source-range-9b4fff26-00247))_
-
-> If the PC is deprived or in danger (such as during combat), the Warden may require a PC to make a WIL save to avoid any illeffects from casting the spell. Consequences of failure are on par with the intended effect and may result in added Fatigue , the destruction of the Spellbook, injury, and even death.
-
-**Atom:** _(rpg_cairn_2e_core.pdf (source-range-9b4fff26-00244))_
-
-> They must then add a Fatigue to inventory.

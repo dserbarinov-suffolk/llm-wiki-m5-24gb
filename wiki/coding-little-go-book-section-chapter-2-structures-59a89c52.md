@@ -1,13 +1,14 @@
 ---
 page_id: coding-little-go-book-section-chapter-2-structures-59a89c52
 page_kind: source
-summary: Chapter 2 - Structures: 91 source-backed entries and 23 atom(s) from raw/coding_little_go_book.pdf.
+summary: Chapter 2 - Structures: 91 source-backed entries and 13 atom(s) from raw/coding_little_go_book.pdf.
+page_family: section-reference
 sources: raw/coding_little_go_book.pdf
-updated: 2026-06-29
+updated: 2026-06-30
 domain: coding-little-go-book
 category_path: sources/coding-little-go-book/sections
 source_id: coding_little_go_book.pdf
-projection_coverage: section-coding-little-go-book-section-chapter-2-structures-59a89c52@b1cfb17b9c7c45369a48207419ae1463
+projection_coverage: section-coding-little-go-book-section-chapter-2-structures-59a89c52@ec19fdcd211f77e788eab7996d2e3242
 ---
 
 # Chapter 2 - Structures
@@ -147,21 +148,6 @@ goku := Saiyan{
 
 ### Technical frame 4: Chapter 2 - Structures / Declarations and Initializations
 
-**Context:** _(coding_little_go_book.pdf (source-range-23d24eb1-00123))_
-
-> Just like unassigned variables have a zero value, so do fields.
-
-**Atom:** _(coding_little_go_book.pdf (source-range-23d24eb1-00122))_
-
-```
-goku := Saiyan{}
-// or
-goku := Saiyan{Name: "Goku"}
-goku.Power = 9000
-```
-
-### Technical frame 5: Chapter 2 - Structures / Declarations and Initializations
-
 **Context:** _(coding_little_go_book.pdf (source-range-23d24eb1-00126))_
 
 > What all of the above examples do is declare a variable goku and assign a value to it.
@@ -172,64 +158,7 @@ goku.Power = 9000
 goku := Saiyan{"Goku", 9000}
 ```
 
-### Technical frame 6: Chapter 2 - Structures / Declarations and Initializations
-
-**Context:** _(coding_little_go_book.pdf (source-range-23d24eb1-00130))_
-
-> The answer is 9000, not 19000. Why? Because Super made changes to a copy of our original goku value and thus, changes made in Super weren't reflected in the caller. To make this work as you probably expect, we need to pass a pointer to our value:
-
-**Atom:** _(coding_little_go_book.pdf (source-range-23d24eb1-00129))_
-
-```
-func main() {
-  goku := Saiyan{"Goku", 9000}
-  Super(goku)
-  fmt.Println(goku.Power)
-}
-func Super(s Saiyan) {
-  s.Power += 10000
-}
-```
-
-### Technical frame 7: Chapter 2 - Structures / Declarations and Initializations
-
-**Context:** _(coding_little_go_book.pdf (source-range-23d24eb1-00132))_
-
-> We made two changes. The first is the use of the & operator to get the address of our value (it's called the address of operator). Next, we changed the type of parameter Super expects. It used to expect a value of type Saiyan but now expects an address of type *Saiyan , where *X means pointer to value of type X . There's obviously some relation between the types Saiyan and *Saiyan , but they are two distinct types.
-
-**Atom:** _(coding_little_go_book.pdf (source-range-23d24eb1-00131))_
-
-```
-func main() {
-  goku := &Saiyan{"Goku", 9000}
-  Super(goku)
-  fmt.Println(goku.Power)
-}
-func Super(s *Saiyan) {
-  s.Power += 10000
-}
-```
-
-### Technical frame 8: Chapter 2 - Structures / Declarations and Initializations
-
-**Context:** _(coding_little_go_book.pdf (source-range-23d24eb1-00136))_
-
-> The above, once again, prints 9000. This is how many languages behave, including Ruby, Python, Java and C#. Go, and to some degree C#, simply make the fact visible.
-
-**Atom:** _(coding_little_go_book.pdf (source-range-23d24eb1-00135))_
-
-```
-func main() {
-  goku := &Saiyan{"Goku", 9000}
-  Super(goku)
-  fmt.Println(goku.Power)
-}
-func Super(s *Saiyan) {
-  s = &Saiyan{"Gohan", 1000}
-}
-```
-
-### Technical frame 9: Chapter 2 - Structures / Functions on Structures
+### Technical frame 5: Chapter 2 - Structures / Functions on Structures
 
 **Context:** _(coding_little_go_book.pdf (source-range-23d24eb1-00142))_
 
@@ -247,21 +176,7 @@ func (s *Saiyan) Super() {
 }
 ```
 
-### Technical frame 10: Chapter 2 - Structures / Functions on Structures
-
-**Context:** _(coding_little_go_book.pdf (source-range-23d24eb1-00142))_
-
-> In the above code, we say that the type *Saiyan is the receiver of the Super method. We call Super like so:
-
-**Atom:** _(coding_little_go_book.pdf (source-range-23d24eb1-00143))_
-
-```
-goku := &Saiyan{"Goku", 9001}
-goku.Super()
-fmt.Println(goku.Power) // will print 19001
-```
-
-### Technical frame 11: Chapter 2 - Structures / Constructors
+### Technical frame 6: Chapter 2 - Structures / Constructors
 
 **Context:** _(coding_little_go_book.pdf (source-range-23d24eb1-00147))_
 
@@ -278,67 +193,7 @@ func NewSaiyan(name string, power int) *Saiyan {
 }
 ```
 
-### Technical frame 12: Chapter 2 - Structures / Constructors
-
-**Context:** _(coding_little_go_book.pdf (source-range-23d24eb1-00147))_
-
-> This pattern rubs a lot of developers the wrong way. On the one hand, it's a pretty slight syntactical change; on the other, it does feel a little less compartmentalized.
-
-**Atom:** _(coding_little_go_book.pdf (source-range-23d24eb1-00149))_
-
-```
-func NewSaiyan(name string, power int) Saiyan {
-  return Saiyan{
-    Name: name,
-    Power: power,
-  }
-}
-```
-
-### Technical frame 13: Chapter 2 - Structures / New
-
-**Context:** _(coding_little_go_book.pdf (source-range-23d24eb1-00153))_
-
-> Which you use is up to you, but you'll find that most people prefer the latter whenever they have fields to initialize, since it tends to be easier to read:
-
-**Atom:** _(coding_little_go_book.pdf (source-range-23d24eb1-00152))_
-
-```
-goku := new(Saiyan)
-// same as
-goku := &Saiyan{}
-```
-
-### Technical frame 14: Chapter 2 - Structures / New
-
-**Context:** _(coding_little_go_book.pdf (source-range-23d24eb1-00153))_
-
-> Which you use is up to you, but you'll find that most people prefer the latter whenever they have fields to initialize, since it tends to be easier to read:
-
-**Atom:** _(coding_little_go_book.pdf (source-range-23d24eb1-00154))_
-
-```
-goku := new(Saiyan)
-goku.Name = "goku"
-goku.Power = 9001
-//vs
-goku := &Saiyan {
-  Name: "goku",
-  Power: 9000,
-}
-```
-
-### Technical frame 15: Chapter 2 - Structures / New
-
-**Context:** _(coding_little_go_book.pdf (source-range-23d24eb1-00153))_
-
-> Which you use is up to you, but you'll find that most people prefer the latter whenever they have fields to initialize, since it tends to be easier to read:
-
-**Atom:** _(coding_little_go_book.pdf (source-range-23d24eb1-00155))_
-
-> Whichever approach you choose, if you follow the factory pattern above, you can shield the rest of your code from knowing and worrying about any of the allocation details.
-
-### Technical frame 16: Chapter 2 - Structures / Fields of a Structure
+### Technical frame 7: Chapter 2 - Structures / Fields of a Structure
 
 **Context:** _(coding_little_go_book.pdf (source-range-23d24eb1-00157))_
 
@@ -365,7 +220,7 @@ gohan := &Saiyan{
 }
 ```
 
-### Technical frame 17: Chapter 2 - Structures / Composition
+### Technical frame 8: Chapter 2 - Structures / Composition
 
 **Context:** _(coding_little_go_book.pdf (source-range-23d24eb1-00162))_
 
@@ -391,7 +246,7 @@ public class Saiyan {
 }
 ```
 
-### Technical frame 18: Chapter 2 - Structures / Composition
+### Technical frame 9: Chapter 2 - Structures / Composition
 
 **Context:** _(coding_little_go_book.pdf (source-range-23d24eb1-00166))_
 
@@ -418,17 +273,7 @@ goku := &Saiyan{
 goku.Introduce()
 ```
 
-### Technical frame 19: Chapter 2 - Structures / Composition
-
-**Context:** _(coding_little_go_book.pdf (source-range-23d24eb1-00166))_
-
-> Both of the above will print "Goku".
-
-**Atom:** _(coding_little_go_book.pdf (source-range-23d24eb1-00164))_
-
-> The Saiyan structure has a field of type *Person . Because we didn't give it an explicit field name, we can implicitly access the fields and functions of the composed type. However, the Go compiler did give it a field name, consider the perfectly valid:
-
-### Technical frame 20: Chapter 2 - Structures / Composition
+### Technical frame 10: Chapter 2 - Structures / Composition
 
 **Context:** _(coding_little_go_book.pdf (source-range-23d24eb1-00166))_
 
@@ -444,7 +289,7 @@ fmt.Println(goku.Name)
 fmt.Println(goku.Person.Name)
 ```
 
-### Technical frame 21: Chapter 2 - Structures / Composition / Overloading
+### Technical frame 11: Chapter 2 - Structures / Composition / Overloading
 
 **Context:** _(coding_little_go_book.pdf (source-range-23d24eb1-00172))_
 
@@ -454,7 +299,7 @@ fmt.Println(goku.Person.Name)
 
 > However, because implicit composition is really just a compiler trick, we can "overwrite" the functions of a composed type. For example, our Saiyan structure can have its own Introduce function:
 
-### Technical frame 22: Chapter 2 - Structures / Composition / Overloading
+### Technical frame 12: Chapter 2 - Structures / Composition / Overloading
 
 **Context:** _(coding_little_go_book.pdf (source-range-23d24eb1-00172))_
 
@@ -468,7 +313,7 @@ func (s *Saiyan) Introduce() {
 }
 ```
 
-### Technical frame 23: Chapter 2 - Structures / Pointers versus Values
+### Technical frame 13: Chapter 2 - Structures / Pointers versus Values
 
 **Context:** _(coding_little_go_book.pdf (source-range-23d24eb1-00185))_
 

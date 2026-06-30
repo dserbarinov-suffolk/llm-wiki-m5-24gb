@@ -1,13 +1,14 @@
 ---
 page_id: rpg-cairn-2e-core-section-knowledge-and-perception-knowledge-bbf666d4
 page_kind: source
-summary: Knowledge And Perception / Knowledge: 10 source-backed entries and 1 atom(s) from raw/rpg_cairn_2e_core.pdf.
+summary: Knowledge And Perception / Knowledge: 10 source-backed entries and 0 atom(s) from raw/rpg_cairn_2e_core.pdf.
+page_family: section-reference
 sources: raw/rpg_cairn_2e_core.pdf
-updated: 2026-06-29
+updated: 2026-06-30
 domain: rpg-cairn-2e-core
 category_path: sources/rpg-cairn-2e-core/sections
 source_id: rpg_cairn_2e_core.pdf
-projection_coverage: section-rpg-cairn-2e-core-section-knowledge-and-perception-knowledge-bbf666d4@e0adb03a72537550e85b8ff6b445568e
+projection_coverage: section-rpg-cairn-2e-core-section-knowledge-and-perception-knowledge-bbf666d4@07dd6f6f2640a858b787e4dcf64b1902
 ---
 
 # Knowledge And Perception / Knowledge
@@ -20,6 +21,7 @@ From [[rpg-cairn-2e-core]].
 - [[rpg-cairn-2e-core-section-knowledge-and-perception-knowledge-relics-ae1b3e42]] - narrower source section: Knowledge And Perception / Knowledge / Relics
 - [[rpg-cairn-2e-core-section-knowledge-and-perception-introduction-c702d7fe]] - previous source section: Knowledge And Perception / Introduction
 - [[rpg-cairn-2e-core-section-knowledge-and-perception-perception-38a9fdc8]] - next source section: Knowledge And Perception / Perception
+- [[rpg-cairn-2e-core-knowledge]] - topic hub: opens the topic page for Knowledge
 
 ## Statements
 
@@ -33,11 +35,3 @@ From [[rpg-cairn-2e-core]].
 ### Knowledge And Perception / Knowledge / Relics
 
 - When a character first acquires a Relic they are not familiar with, they can either spend time learning more about it (using a Downtime action) or experiment with it. The latter carries some dangers and may even require a successful WIL save to avoid negative consequences. However, it is often more interesting to allow the player to ask as many questions as they like about it and (eventually) to simply tell them how it works . _(rpg_cairn_2e_core.pdf (source-range-9b4fff26-00580))_
-
-## Technical atoms
-
-### Technical frame 1: Knowledge And Perception / Knowledge / Relics
-
-**Atom:** _(rpg_cairn_2e_core.pdf (source-range-9b4fff26-00580))_
-
-> When a character first acquires a Relic they are not familiar with, they can either spend time learning more about it (using a Downtime action) or experiment with it.

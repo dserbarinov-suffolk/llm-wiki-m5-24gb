@@ -1,13 +1,14 @@
 ---
 page_id: rpg-cairn-2e-core-section-core-rules-reactions-c9a7e08a
 page_kind: source
-summary: Core Rules / Reactions: 5 source-backed entries and 5 atom(s) from raw/rpg_cairn_2e_core.pdf.
+summary: Core Rules / Reactions: 5 source-backed entries and 2 atom(s) from raw/rpg_cairn_2e_core.pdf.
+page_family: section-reference
 sources: raw/rpg_cairn_2e_core.pdf
-updated: 2026-06-29
+updated: 2026-06-30
 domain: rpg-cairn-2e-core
 category_path: sources/rpg-cairn-2e-core/sections
 source_id: rpg_cairn_2e_core.pdf
-projection_coverage: section-rpg-cairn-2e-core-section-core-rules-reactions-c9a7e08a@c90b20f09975cb061a90c6d313039cc3
+projection_coverage: section-rpg-cairn-2e-core-section-core-rules-reactions-c9a7e08a@6c9f595150f8f0005e79b8104e4a8709
 ---
 
 # Core Rules / Reactions
@@ -23,12 +24,6 @@ From [[rpg-cairn-2e-core]].
 ## Technical atoms
 
 ### Technical frame 1: Core Rules / Reactions
-
-**Atom:** _(rpg_cairn_2e_core.pdf (source-range-9b4fff26-00180))_
-
-> When the PCs encounter an NPC whose reaction to the party is not obvious, the Warden may roll 2d6 and consult the following table:
-
-### Technical frame 2: Core Rules / Reactions
 
 **Atoms:** _(rpg_cairn_2e_core.pdf (source-range-9b4fff26-00180, source-range-9b4fff26-00182, source-range-9b4fff26-00183, source-range-9b4fff26-00184))_
 

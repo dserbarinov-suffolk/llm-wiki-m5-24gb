@@ -1,13 +1,14 @@
 ---
 page_id: coding-little-go-book-section-chapter-5-tidbits-go-fmt-e0b0680f
 page_kind: source
-summary: Chapter 5 - Tidbits / go fmt: 8 source-backed entries and 2 atom(s) from raw/coding_little_go_book.pdf.
+summary: Chapter 5 - Tidbits / go fmt: 8 source-backed entries and 1 atom(s) from raw/coding_little_go_book.pdf.
+page_family: section-reference
 sources: raw/coding_little_go_book.pdf
-updated: 2026-06-29
+updated: 2026-06-30
 domain: coding-little-go-book
 category_path: sources/coding-little-go-book/sections
 source_id: coding_little_go_book.pdf
-projection_coverage: section-coding-little-go-book-section-chapter-5-tidbits-go-fmt-e0b0680f@d408fcd1e6005e50255e037e9677ab4b
+projection_coverage: section-coding-little-go-book-section-chapter-5-tidbits-go-fmt-e0b0680f@301d6632afb08b8dc1ff3aec119ea45a
 ---
 
 # Chapter 5 - Tidbits / go fmt
@@ -37,15 +38,3 @@ From [[coding-little-go-book]].
 **Atom:** _(coding_little_go_book.pdf (source-range-23d24eb1-00358))_
 
 > When you're inside a project, you can apply the formatting rule to it and all sub-projects via:
-
-### Technical frame 2: Chapter 5 - Tidbits / go fmt
-
-**Context:** _(coding_little_go_book.pdf (source-range-23d24eb1-00360))_
-
-> Give it a try. It does more than indent your code; it also aligns field declarations and alphabetically orders imports.
-
-**Atom:** _(coding_little_go_book.pdf (source-range-23d24eb1-00359))_
-
-```
-go fmt ./...
-```

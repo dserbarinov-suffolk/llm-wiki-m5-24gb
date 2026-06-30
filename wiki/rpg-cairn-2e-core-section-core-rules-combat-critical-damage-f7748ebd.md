@@ -1,13 +1,14 @@
 ---
 page_id: rpg-cairn-2e-core-section-core-rules-combat-critical-damage-f7748ebd
 page_kind: source
-summary: Core Rules / Combat / Critical Damage: 9 source-backed entries and 1 atom(s) from raw/rpg_cairn_2e_core.pdf.
+summary: Core Rules / Combat / Critical Damage: 9 source-backed entries and 0 atom(s) from raw/rpg_cairn_2e_core.pdf.
+page_family: section-reference
 sources: raw/rpg_cairn_2e_core.pdf
-updated: 2026-06-29
+updated: 2026-06-30
 domain: rpg-cairn-2e-core
 category_path: sources/rpg-cairn-2e-core/sections
 source_id: rpg_cairn_2e_core.pdf
-projection_coverage: section-rpg-cairn-2e-core-section-core-rules-combat-critical-damage-f7748ebd@492cc353b11891dc6e157a112b63826b
+projection_coverage: section-rpg-cairn-2e-core-section-core-rules-combat-critical-damage-f7748ebd@48839895589a283e84cb97a0f40020f0
 ---
 
 # Core Rules / Combat / Critical Damage
@@ -27,15 +28,3 @@ From [[rpg-cairn-2e-core]].
 - The target must then immediately make a STR save to avoid taking Critical Damage , using their new STR score . _(rpg_cairn_2e_core.pdf (source-range-9b4fff26-00219))_
 - If left untreated, they die within the hour. _(rpg_cairn_2e_core.pdf (source-range-9b4fff26-00221))_
 - If given aid (such as bandages), they will stabilize. _(rpg_cairn_2e_core.pdf (source-range-9b4fff26-00221))_
-
-## Technical atoms
-
-### Technical frame 1: Core Rules / Combat / Critical Damage
-
-**Context:** _(rpg_cairn_2e_core.pdf (source-range-9b4fff26-00221))_
-
-> weakly, grasping for life. If given aid (such as bandages), they will stabilize. If left untreated, they die within the hour. NPCs and monsters that fail a Critical Damage save are considered dead, per the Warden's discretion. Additionally, some enemies will have special abilities or effects that are triggered when their target fails a critical damage save.
-
-**Atom:** _(rpg_cairn_2e_core.pdf (source-range-9b4fff26-00219))_
-
-> On a success, the target is still in the fight (albeit with a lower STR score) and must continue to make critical damage saves when incurring damage.

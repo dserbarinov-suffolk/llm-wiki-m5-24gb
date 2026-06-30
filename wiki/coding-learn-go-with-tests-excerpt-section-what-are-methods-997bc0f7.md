@@ -1,13 +1,14 @@
 ---
 page_id: coding-learn-go-with-tests-excerpt-section-what-are-methods-997bc0f7
 page_kind: source
-summary: What are methods?: 37 source-backed entries and 11 atom(s) from raw/coding_learn_go_with_tests_excerpt.pdf.
+summary: What are methods?: 37 source-backed entries and 3 atom(s) from raw/coding_learn_go_with_tests_excerpt.pdf.
+page_family: section-reference
 sources: raw/coding_learn_go_with_tests_excerpt.pdf
-updated: 2026-06-29
+updated: 2026-06-30
 domain: coding-learn-go-with-tests-excerpt
 category_path: sources/coding-learn-go-with-tests-excerpt/sections
 source_id: coding_learn_go_with_tests_excerpt.pdf
-projection_coverage: section-coding-learn-go-with-tests-excerpt-section-what-are-methods-997bc0f7@6591873d48e1be49cb0f703f9f1c01d9
+projection_coverage: section-coding-learn-go-with-tests-excerpt-section-what-are-methods-997bc0f7@a51ad88597f8e53c737748562a44d7c0
 ---
 
 # What are methods?
@@ -21,7 +22,6 @@ From [[coding-learn-go-with-tests-excerpt]].
 - [[coding-learn-go-with-tests-excerpt-section-what-are-methods-refactor-1d16bf7b]] - narrower source section: What are methods? / Refactor
 - [[coding-learn-go-with-tests-excerpt-section-structs-methods-interfaces-82e8585b]] - previous source section: Structs, methods & interfaces
 - [[coding-learn-go-with-tests-excerpt-section-wait-what-eaeaeb8b]] - next source section: Wait, what?
-- [[coding-learn-go-with-tests-excerpt-method]] - topic hub: opens the topic page for Method
 
 ## Statements
 
@@ -128,118 +128,5 @@ type Circle struct {
 }
 func (c Circle) Area() float64 {
     return 0
-}
-```
-
-### Technical frame 4: What are methods? / Write the minimal amount of code for the test to run and check the failing test output
-
-**Context:** _(coding_learn_go_with_tests_excerpt.pdf (source-range-cb73a893-00460))_
-
-> It is a convention in Go to have the receiver variable be the first letter of the type.
-
-**Atom:** _(coding_learn_go_with_tests_excerpt.pdf (source-range-cb73a893-00459))_
-
-> When your method is called on a variable of that type, you get your reference to its data via the receiverName variable.
-
-### Technical frame 5: What are methods? / Write the minimal amount of code for the test to run and check the failing test output
-
-**Context:** _(coding_learn_go_with_tests_excerpt.pdf (source-range-cb73a893-00460))_
-
-> It is a convention in Go to have the receiver variable be the first letter of the type.
-
-**Atom:** _(coding_learn_go_with_tests_excerpt.pdf (source-range-cb73a893-00461))_
-
-```
-r Rectangle
-```
-
-### Technical frame 6: What are methods? / Write the minimal amount of code for the test to run and check the failing test output
-
-**Context:** _(coding_learn_go_with_tests_excerpt.pdf (source-range-cb73a893-00460))_
-
-> It is a convention in Go to have the receiver variable be the first letter of the type.
-
-**Atom:** _(coding_learn_go_with_tests_excerpt.pdf (source-range-cb73a893-00462))_
-
-> If you try to re-run the tests they should now compile and give you some failing output.
-
-### Technical frame 7: What are methods? / Write enough code to make it pass
-
-**Context:** _(coding_learn_go_with_tests_excerpt.pdf (source-range-cb73a893-00466))_
-
-> If you re-run the tests the rectangle tests should be passing but circle should still be failing.
-
-**Atom:** _(coding_learn_go_with_tests_excerpt.pdf (source-range-cb73a893-00465))_
-
-```
-func (r Rectangle) Area() float64 {
-    return r.Width * r.Height
-}
-```
-
-### Technical frame 8: What are methods? / Write enough code to make it pass
-
-**Context:** _(coding_learn_go_with_tests_excerpt.pdf (source-range-cb73a893-00466))_
-
-> If you re-run the tests the rectangle tests should be passing but circle should still be failing.
-
-**Atom:** _(coding_learn_go_with_tests_excerpt.pdf (source-range-cb73a893-00468))_
-
-```
-func (c Circle) Area() float64 {
-    return math.Pi * c.Radius * c.Radius
-}
-```
-
-### Technical frame 9: What are methods? / Refactor
-
-**Context:** _(coding_learn_go_with_tests_excerpt.pdf (source-range-cb73a893-00478))_
-
-> We are creating a helper function like we have in other exercises but this time we are asking for a Shape to be passed in. If we try to call this with something that isn't a shape, then it will not compile.
-
-**Atom:** _(coding_learn_go_with_tests_excerpt.pdf (source-range-cb73a893-00476))_
-
-```
-func TestArea(t *testing.T) {
-```
-
-### Technical frame 10: What are methods? / Refactor
-
-**Context:** _(coding_learn_go_with_tests_excerpt.pdf (source-range-cb73a893-00478))_
-
-> We are creating a helper function like we have in other exercises but this time we are asking for a Shape to be passed in. If we try to call this with something that isn't a shape, then it will not compile.
-
-**Atom:** _(coding_learn_go_with_tests_excerpt.pdf (source-range-cb73a893-00477))_
-
-```
-checkArea := func(t testing.TB, shape Shape, want float64) {
-        t.Helper()
-        got := shape.Area()
-        if got != want {
-            t.Errorf("got %g want %g", got, want)
-        }
-    }
-t.Run("rectangles", func(t *testing.T) {
-        rectangle := Rectangle{12, 6}
-        checkArea(t, rectangle, 72.0)
-    })
-t.Run("circles", func(t *testing.T) {
-        circle := Circle{10}
-        checkArea(t, circle, 314.1592653589793)
-    })
-}
-```
-
-### Technical frame 11: What are methods? / Refactor
-
-**Context:** _(coding_learn_go_with_tests_excerpt.pdf (source-range-cb73a893-00481))_
-
-> We're creating a new type just like we did with Rectangle and Circle but this time it is an interface rather than a struct .
-
-**Atom:** _(coding_learn_go_with_tests_excerpt.pdf (source-range-cb73a893-00480))_
-
-```
-type Shape interface {
-    Area() float64
 }
 ```

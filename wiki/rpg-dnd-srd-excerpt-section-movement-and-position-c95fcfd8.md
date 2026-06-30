@@ -1,13 +1,14 @@
 ---
 page_id: rpg-dnd-srd-excerpt-section-movement-and-position-c95fcfd8
 page_kind: source
-summary: Movement and Position: 55 source-backed entries and 13 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
+summary: Movement and Position: 55 source-backed entries and 1 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
+page_family: section-reference
 sources: raw/rpg_dnd_srd_excerpt.pdf
-updated: 2026-06-29
+updated: 2026-06-30
 domain: rpg-dnd-srd-excerpt
 category_path: sources/rpg-dnd-srd-excerpt/sections
 source_id: rpg_dnd_srd_excerpt.pdf
-projection_coverage: section-rpg-dnd-srd-excerpt-section-movement-and-position-c95fcfd8@1db294d425a3baaa3936fbb74d059173
+projection_coverage: section-rpg-dnd-srd-excerpt-section-movement-and-position-c95fcfd8@fdfa5d9f979abd25afbb8371899d1872
 ---
 
 # Movement and Position
@@ -24,7 +25,6 @@ From [[rpg-dnd-srd-excerpt]].
 - [[rpg-dnd-srd-excerpt-section-movement-and-position-creature-size-6ec08d8a]] - narrower source section: Movement and Position / Creature Size
 - [[rpg-dnd-srd-excerpt-section-reactions-601ca1ab]] - previous source section: Reactions
 - [[rpg-dnd-srd-excerpt-section-actions-in-combat-a776ce7e]] - next source section: Actions in Combat
-- [[rpg-dnd-srd-excerpt-movement-and-position]] - topic hub: opens the topic page for Movement And Position
 
 ## Statements
 
@@ -82,83 +82,7 @@ From [[rpg-dnd-srd-excerpt]].
 
 ## Technical atoms
 
-### Technical frame 1: Movement and Position / Breaking Up Your Move
-
-**Atom:** _(rpg_dnd_srd_excerpt.pdf (source-range-4449ec9f-00278))_
-
-> You can break up your movement on your turn, using some of your speed before and after your action. For example, if you have a speed of 30 feet, you can move 10 feet, take your action, and then move 20 feet.
-
-### Technical frame 2: Movement and Position / Breaking Up Your Move
-
-**Atom:** _(rpg_dnd_srd_excerpt.pdf (source-range-4449ec9f-00278))_
-
-> For example, if you have a speed of 30 feet, you can move 10 feet, take your action, and then move 20 feet.
-
-### Technical frame 3: Movement and Position / Breaking Up Your Move / Moving between Attacks
-
-**Atom:** _(rpg_dnd_srd_excerpt.pdf (source-range-4449ec9f-00280))_
-
-> If you take an action that includes more than one weapon attack, you can break up your movement even further by moving between those attacks.
-
-### Technical frame 4: Movement and Position / Breaking Up Your Move / Moving between Attacks
-
-**Atom:** _(rpg_dnd_srd_excerpt.pdf (source-range-4449ec9f-00280))_
-
-> If you take an action that includes more than one weapon attack, you can break up your movement even further by moving between those attacks. For example, a fighter who can make two attacks with the Extra Attack feature and who has a speed of 25 feet could move 10 feet, make an attack, move 15 feet, and then attack again.
-
-### Technical frame 5: Movement and Position / Breaking Up Your Move / Using Different Speeds
-
-**Atom:** _(rpg_dnd_srd_excerpt.pdf (source-range-4449ec9f-00282))_
-
-> If you have more than one speed, such as your walking speed and a flying speed, you can switch back and forth between your speeds during your move.
-
-### Technical frame 6: Movement and Position / Breaking Up Your Move / Using Different Speeds
-
-**Context:** _(rpg_dnd_srd_excerpt.pdf (source-range-4449ec9f-00282))_
-
-> If you have more than one speed, such as your walking speed and a flying speed, you can switch back and forth between your speeds during your move. Whenever you switch, subtract the distance you've already moved from the new speed. The result determines how much farther you can move. If the result is 0 or less, you can't use the new speed during the current move.
-
-**Atom:** _(rpg_dnd_srd_excerpt.pdf (source-range-4449ec9f-00283))_
-
-> For example, if you have a speed of 30 and a flying speed of 60 because a wizard cast the fl y spell on you, you could fly 20 feet, then walk 10 feet, and then leap into the air to fly 30 feet more.
-
-### Technical frame 7: Movement and Position / Being Prone
-
-**Context:** _(rpg_dnd_srd_excerpt.pdf (source-range-4449ec9f-00291))_
-
-> 15 feet of movement to stand up. You can't stand up if you don't have enough movement left or if your speed is 0.
-
-**Atom:** _(rpg_dnd_srd_excerpt.pdf (source-range-4449ec9f-00290))_
-
-> You can drop prone without using any of your speed.
-
-### Technical frame 8: Movement and Position / Being Prone
-
-**Context:** _(rpg_dnd_srd_excerpt.pdf (source-range-4449ec9f-00294))_
-
-> Here are a few examples of the sorts of thing you can do in tandem with your movement and action:
-
-**Atom:** _(rpg_dnd_srd_excerpt.pdf (source-range-4449ec9f-00292))_
-
-> To move while prone, you must crawl or use magic such as teleportation.
-
-### Technical frame 9: Movement and Position / Moving Around Other Creatures
-
-**Context:** _(rpg_dnd_srd_excerpt.pdf (source-range-4449ec9f-00318))_
-
-> Whether a creature is a friend or an enemy, you can't willingly end your move in its space.
-
-**Atom:** _(rpg_dnd_srd_excerpt.pdf (source-range-4449ec9f-00317))_
-
-> You can move through a nonhostile creature's space.
-
-### Technical frame 10: Movement and Position / Flying Movement
-
-**Atom:** _(rpg_dnd_srd_excerpt.pdf (source-range-4449ec9f-00321))_
-
-> Flying creatures enjoy many benefits of mobility, but they must also deal with the danger of falling.
-
-### Technical frame 11: Table- Creature Size
+### Technical frame 1: Table- Creature Size
 
 **Context:** _(rpg_dnd_srd_excerpt.pdf (source-range-4449ec9f-00323))_
 
@@ -191,23 +115,3 @@ Table- Creature  Size
 | Gargantuan | 20 by 20 ft. or larger |
 
 </details>
-
-### Technical frame 12: Movement and Position / Creature Size / Space
-
-**Context:** _(rpg_dnd_srd_excerpt.pdf (source-range-4449ec9f-00327))_
-
-> A creature's space also reflects the area it needs to fight effectively. For that reason, there's a limit to the number of creatures that can surround another creature in combat. Assuming Medium combatants, eight creatures can fit in a 5-foot radius around another one.
-
-**Atom:** _(rpg_dnd_srd_excerpt.pdf (source-range-4449ec9f-00326))_
-
-> If a Medium hobgoblin stands in a 5-foot wide doorway, other creatures can't get through unless the hobgoblin lets them.
-
-### Technical frame 13: Movement and Position / Creature Size / Space
-
-**Context:** _(rpg_dnd_srd_excerpt.pdf (source-range-4449ec9f-00328))_
-
-> Because larger creatures take up more space, fewer of them can surround a creature. If four Large creatures crowd around a Medium or smaller one, there's little room for anyone else. In contrast, as many as twenty Medium creatures can surround a Gargantuan one.
-
-**Atom:** _(rpg_dnd_srd_excerpt.pdf (source-range-4449ec9f-00330))_
-
-> A creature can squeeze through a space that is large enough for a creature one size smaller than it.

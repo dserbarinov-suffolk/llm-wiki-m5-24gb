@@ -1,13 +1,14 @@
 ---
 page_id: rpg-cairn-2e-core-section-overview-principles-principles-for-players-be9a8ee6
 page_kind: source
-summary: Overview & Principles / Principles for Players: 16 source-backed entries and 1 atom(s) from raw/rpg_cairn_2e_core.pdf.
+summary: Overview & Principles / Principles for Players: 16 source-backed entries and 0 atom(s) from raw/rpg_cairn_2e_core.pdf.
+page_family: section-reference
 sources: raw/rpg_cairn_2e_core.pdf
-updated: 2026-06-29
+updated: 2026-06-30
 domain: rpg-cairn-2e-core
 category_path: sources/rpg-cairn-2e-core/sections
 source_id: rpg_cairn_2e_core.pdf
-projection_coverage: section-rpg-cairn-2e-core-section-overview-principles-principles-for-players-be9a8ee6@9ace1762f157f4629ba453e6a8d71504
+projection_coverage: section-rpg-cairn-2e-core-section-overview-principles-principles-for-players-be9a8ee6@b3444e288b7d9e7b7ab0aaf1a1a55841
 ---
 
 # Overview & Principles / Principles for Players
@@ -26,7 +27,6 @@ From [[rpg-cairn-2e-core]].
 - [[rpg-cairn-2e-core-section-overview-principles-principles-for-players-ambition-c402a456]] - narrower source section: Overview & Principles / Principles for Players / Ambition
 - [[rpg-cairn-2e-core-section-overview-principles-overview-b43af5b3]] - previous source section: Overview & Principles / Overview
 - [[rpg-cairn-2e-core-section-overview-principles-principles-for-wardens-3e41b4cb]] - next source section: Overview & Principles / Principles for Wardens
-- [[rpg-cairn-2e-core-principle-for-player]] - topic hub: opens the topic page for Principle For Player
 
 ## Statements by subsection
 
@@ -65,15 +65,3 @@ From [[rpg-cairn-2e-core]].
 
 - Set goals, and use your meager means to take steps forward. _(rpg_cairn_2e_core.pdf (source-range-9b4fff26-00047))_
 - - Set goals, and use your meager means to take steps forward. _(rpg_cairn_2e_core.pdf (source-range-9b4fff26-00047))_
-
-## Technical atoms
-
-### Technical frame 1: Overview & Principles / Principles for Players / Talking
-
-**Context:** _(rpg_cairn_2e_core.pdf (source-range-9b4fff26-00038))_
-
-> You'll find that most people are interesting and will want to talk things through before getting violent.
-
-**Atom:** _(rpg_cairn_2e_core.pdf (source-range-9b4fff26-00037))_
-
-> - Treat NPCs as if they were real people, and rely on your curiosity to safely gain information and solve problems.

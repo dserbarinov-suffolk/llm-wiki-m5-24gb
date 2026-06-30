@@ -2,12 +2,13 @@
 page_id: history-short-history-of-england-section-a-short-history-of-england-pg-1-ix-nationality-and-the-french-wars-2ad43e28
 page_kind: source
 summary: A SHORT HISTORY OF ENGLAND [Pg 1] / IX / NATIONALITY AND THE FRENCH WARS: 146 source-backed entries and 0 atom(s) from raw/history_short_history_of_england.pdf.
+page_family: section-reference
 sources: raw/history_short_history_of_england.pdf
-updated: 2026-06-29
+updated: 2026-06-30
 domain: history-short-history-of-england
 category_path: sources/history-short-history-of-england/sections
 source_id: history_short_history_of_england.pdf
-projection_coverage: section-history-short-history-of-england-section-a-short-history-of-england-pg-1-ix-nationality-and-the-french-wars-2ad43e28@2739f4d8614b3a0da4452fa5f1fe9d9b
+projection_coverage: section-history-short-history-of-england-section-a-short-history-of-england-pg-1-ix-nationality-and-the-french-wars-2ad43e28@566ed14c1f181a67b7a30e256cb0a39d
 ---
 
 # A SHORT HISTORY OF ENGLAND [Pg 1] / IX / NATIONALITY AND THE FRENCH WARS
@@ -17,7 +18,6 @@ From [[history-short-history-of-england]].
 ## Related pages
 
 - [[history-short-history-of-england-section-a-short-history-of-england-pg-1-ix-a8ce3473]] - broader source section: A SHORT HISTORY OF ENGLAND [Pg 1] / IX
-- [[history-short-history-of-england-nationality-and-french-wars]] - topic hub: opens the topic page for Nationality And French Wars
 
 ## Statements
 

@@ -2,12 +2,13 @@
 page_id: history-short-history-of-england-section-a-short-history-of-england-pg-1-iii-the-age-of-legends-05b2c5fd
 page_kind: source
 summary: A SHORT HISTORY OF ENGLAND [Pg 1] / III / THE AGE OF LEGENDS: 118 source-backed entries and 0 atom(s) from raw/history_short_history_of_england.pdf.
+page_family: section-reference
 sources: raw/history_short_history_of_england.pdf
-updated: 2026-06-29
+updated: 2026-06-30
 domain: history-short-history-of-england
 category_path: sources/history-short-history-of-england/sections
 source_id: history_short_history_of_england.pdf
-projection_coverage: section-history-short-history-of-england-section-a-short-history-of-england-pg-1-iii-the-age-of-legends-05b2c5fd@2ca8dc299b3d738ec43354fbbe613889
+projection_coverage: section-history-short-history-of-england-section-a-short-history-of-england-pg-1-iii-the-age-of-legends-05b2c5fd@0a7dbb56ec0f4bfb5c410468b536455c
 ---
 
 # A SHORT HISTORY OF ENGLAND [Pg 1] / III / THE AGE OF LEGENDS
@@ -17,7 +18,6 @@ From [[history-short-history-of-england]].
 ## Related pages
 
 - [[history-short-history-of-england-section-a-short-history-of-england-pg-1-iii-2a455df6]] - broader source section: A SHORT HISTORY OF ENGLAND [Pg 1] / III
-- [[history-short-history-of-england-age-legend]] - topic hub: opens the topic page for Age Legend
 
 ## Statements
 

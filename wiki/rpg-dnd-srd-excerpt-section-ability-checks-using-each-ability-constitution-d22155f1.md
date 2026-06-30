@@ -2,12 +2,13 @@
 page_id: rpg-dnd-srd-excerpt-section-ability-checks-using-each-ability-constitution-d22155f1
 page_kind: source
 summary: Ability Checks / Using Each Ability / Constitution: 11 source-backed entries and 1 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
+page_family: section-reference
 sources: raw/rpg_dnd_srd_excerpt.pdf
-updated: 2026-06-29
+updated: 2026-06-30
 domain: rpg-dnd-srd-excerpt
 category_path: sources/rpg-dnd-srd-excerpt/sections
 source_id: rpg_dnd_srd_excerpt.pdf
-projection_coverage: section-rpg-dnd-srd-excerpt-section-ability-checks-using-each-ability-constitution-d22155f1@a6980eef8eadac237aa57d2ced963738
+projection_coverage: section-rpg-dnd-srd-excerpt-section-ability-checks-using-each-ability-constitution-d22155f1@984e16d9c982599705ae325d223ef1f5
 ---
 
 # Ability Checks / Using Each Ability / Constitution
@@ -19,6 +20,7 @@ From [[rpg-dnd-srd-excerpt]].
 - [[rpg-dnd-srd-excerpt-section-ability-checks-using-each-ability-71f6f002]] - broader source section: Ability Checks / Using Each Ability
 - [[rpg-dnd-srd-excerpt-section-ability-checks-using-each-ability-dexterity-d06407ed]] - previous source section: Ability Checks / Using Each Ability / Dexterity
 - [[rpg-dnd-srd-excerpt-section-ability-checks-using-each-ability-intelligence-e1ab64e1]] - next source section: Ability Checks / Using Each Ability / Intelligence
+- [[rpg-dnd-srd-excerpt-constitution]] - topic hub: opens the topic page for Constitution
 
 ## Statements
 

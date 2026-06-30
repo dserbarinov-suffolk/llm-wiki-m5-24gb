@@ -1,13 +1,14 @@
 ---
 page_id: coding-little-go-book-section-chapter-6-concurrency-synchronization-e924d99c
 page_kind: source
-summary: Chapter 6 - Concurrency / Synchronization: 40 source-backed entries and 6 atom(s) from raw/coding_little_go_book.pdf.
+summary: Chapter 6 - Concurrency / Synchronization: 40 source-backed entries and 0 atom(s) from raw/coding_little_go_book.pdf.
+page_family: section-reference
 sources: raw/coding_little_go_book.pdf
-updated: 2026-06-29
+updated: 2026-06-30
 domain: coding-little-go-book
 category_path: sources/coding-little-go-book/sections
 source_id: coding_little_go_book.pdf
-projection_coverage: section-coding-little-go-book-section-chapter-6-concurrency-synchronization-e924d99c@820e5dca802b954b26cfe1e869a13c5e
+projection_coverage: section-coding-little-go-book-section-chapter-6-concurrency-synchronization-e924d99c@f0c3e3ccf9963cda03f4d849bbc8ec01
 ---
 
 # Chapter 6 - Concurrency / Synchronization
@@ -19,7 +20,6 @@ From [[coding-little-go-book]].
 - [[coding-little-go-book-section-chapter-6-concurrency-55851f5e]] - broader source section: Chapter 6 - Concurrency
 - [[coding-little-go-book-section-chapter-6-concurrency-goroutines-8aab6c69]] - previous source section: Chapter 6 - Concurrency / Goroutines
 - [[coding-little-go-book-section-chapter-6-concurrency-channels-5666c1f3]] - next source section: Chapter 6 - Concurrency / Channels
-- [[coding-little-go-book-synchronization]] - topic hub: opens the topic page for Synchronization
 
 ## Statements
 
@@ -41,119 +41,3 @@ From [[coding-little-go-book]].
 - This isn't as dangerous as a multi-lock deadlock (because those are really tough to spot), but just so you can see what happens, try running: _(coding_little_go_book.pdf (source-range-23d24eb1-00420))_
 - While read-write mutexes are commonly used, they place an additional burden on developers: we must now pay attention to not only when we're accessing data, but also how. _(coding_little_go_book.pdf (source-range-23d24eb1-00423))_
 - For example, sleeping for 10 milliseconds isn't a particularly elegant solution. _(coding_little_go_book.pdf (source-range-23d24eb1-00424))_
-
-## Technical atoms
-
-### Technical frame 1: Chapter 6 - Concurrency / Synchronization
-
-**Context:** _(coding_little_go_book.pdf (source-range-23d24eb1-00413))_
-
-> If you think the output is 1, 2, ... 20 you're both right and wrong. It's true that if you run the above code, you'll sometimes get that output. However, the reality is that the behavior is undefined. Why? Because we potentially have multiple (two in this case) goroutines writing to the same variable, counter , at the same time. Or, just as bad, one goroutine would be reading counter while another writes to it.
-
-**Atom:** _(coding_little_go_book.pdf (source-range-23d24eb1-00410))_
-
-```
-package main
-import (
-  "fmt"
-  "time"
-)
-var counter = 0
-func main() {
-  for i := 0; i < 20; i++ {
-    go incr()
-```
-
-### Technical frame 2: Chapter 6 - Concurrency / Synchronization
-
-**Context:** _(coding_little_go_book.pdf (source-range-23d24eb1-00413))_
-
-> If you think the output is 1, 2, ... 20 you're both right and wrong. It's true that if you run the above code, you'll sometimes get that output. However, the reality is that the behavior is undefined. Why? Because we potentially have multiple (two in this case) goroutines writing to the same variable, counter , at the same time. Or, just as bad, one goroutine would be reading counter while another writes to it.
-
-**Atom:** _(coding_little_go_book.pdf (source-range-23d24eb1-00411))_
-
-```
-}
-  time.Sleep(time.Millisecond * 10)
-}
-func incr() {
-  counter++
-  fmt.Println(counter)
-}
-```
-
-### Technical frame 3: Chapter 6 - Concurrency / Synchronization
-
-**Context:** _(coding_little_go_book.pdf (source-range-23d24eb1-00414))_
-
-> Is that really a danger? Yes, absolutely. counter++ might seem like a simple line of code, but it actually gets broken down into multiple assembly statements -- the exact nature is dependent on the platform that you're running. If you run this example, you'll see that very often the numbers are printed in a weird order, and/or numbers are duplicated/missing. There are worse possibilities too, such as system crashes or accessing an arbitrary piece of data and incrementing it!
-
-**Atom:** _(coding_little_go_book.pdf (source-range-23d24eb1-00413))_
-
-> It's true that if you run the above code, you'll sometimes get that output.
-
-### Technical frame 4: Chapter 6 - Concurrency / Synchronization
-
-**Context:** _(coding_little_go_book.pdf (source-range-23d24eb1-00417))_
-
-> A mutex serializes access to the code under lock. The reason we simply define our lock as lock sync.Mutex is because the default value of a sync.Mutex is unlocked.
-
-**Atom:** _(coding_little_go_book.pdf (source-range-23d24eb1-00416))_
-
-```
-package main
-import (
-  "fmt"
-  "time"
-  "sync"
-)
-var (
-  counter = 0
-  lock sync.Mutex
-)
-func main() {
-  for i := 0; i < 20; i++ {
-    go incr()
-  }
-  time.Sleep(time.Millisecond * 10)
-}
-func incr() {
-  lock.Lock()
-  defer lock.Unlock()
-  counter++
-  fmt.Println(counter)
-}
-```
-
-### Technical frame 5: Chapter 6 - Concurrency / Synchronization
-
-**Context:** _(coding_little_go_book.pdf (source-range-23d24eb1-00423))_
-
-> There's more to concurrent programming than what we've seen so far. For one thing, there's another common mutex called a read-write mutex. This exposes two locking functions: one to lock for reading and one to lock for writing. This distinction allows multiple simultaneous readers while ensuring that writing is exclusive. In Go, sync.RWMutex is such a lock. In addition to the Lock and Unlock methods of a sync.Mutex , it also exposes RLock and RUnlock methods; where R stands for Read . While read
-
-**Atom:** _(coding_little_go_book.pdf (source-range-23d24eb1-00422))_
-
-```
-import (
-  "time"
-  "sync"
-)
-var (
-  lock sync.Mutex
-)
-func main() {
-  go func() { lock.Lock() }()
-  time.Sleep(time.Millisecond * 10)
-  lock.Lock()
-}
-```
-
-### Technical frame 6: Chapter 6 - Concurrency / Synchronization
-
-**Context:** _(coding_little_go_book.pdf (source-range-23d24eb1-00425))_
-
-> These are all things that are doable without channels . Certainly for simpler cases, I believe you should use primitives such as sync.Mutex and sync.RWMutex , but as we'll see in the next section, channels aim at making concurrent programming cleaner and less error-prone.
-
-**Atom:** _(coding_little_go_book.pdf (source-range-23d24eb1-00424))_
-
-> What if a goroutine takes more than 10 milliseconds?

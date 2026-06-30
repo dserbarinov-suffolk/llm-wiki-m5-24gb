@@ -2,12 +2,13 @@
 page_id: rpg-cairn-2e-core-section-character-creation-bonds-9a11d083
 page_kind: source
 summary: Character Creation / Bonds: 1 source-backed entries and 1 atom(s) from raw/rpg_cairn_2e_core.pdf.
+page_family: section-reference
 sources: raw/rpg_cairn_2e_core.pdf
-updated: 2026-06-29
+updated: 2026-06-30
 domain: rpg-cairn-2e-core
 category_path: sources/rpg-cairn-2e-core/sections
 source_id: rpg_cairn_2e_core.pdf
-projection_coverage: section-rpg-cairn-2e-core-section-character-creation-bonds-9a11d083@a635813dcb14f1fa0887e68ebe5f66e3
+projection_coverage: section-rpg-cairn-2e-core-section-character-creation-bonds-9a11d083@d8f66ef2b3457c0ea55916218a4cce7a
 ---
 
 # Character Creation / Bonds
@@ -19,6 +20,7 @@ From [[rpg-cairn-2e-core]].
 - [[rpg-cairn-2e-core-section-character-creation-26313297]] - broader source section: Character Creation
 - [[rpg-cairn-2e-core-section-character-creation-character-traits-d10-093215e4]] - previous source section: Character Creation / Character Traits (d10)
 - [[rpg-cairn-2e-core-section-character-creation-omens-760693be]] - next source section: Character Creation / Omens
+- [[rpg-cairn-2e-core-bond]] - topic hub: opens the topic page for Bond
 
 ## Technical atoms
 

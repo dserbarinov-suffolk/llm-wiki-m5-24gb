@@ -2,12 +2,13 @@
 page_id: coding-learn-go-with-tests-excerpt-section-decoupling-wrapping-up-c20c66cc
 page_kind: source
 summary: Decoupling / Wrapping up: 12 source-backed entries and 0 atom(s) from raw/coding_learn_go_with_tests_excerpt.pdf.
+page_family: section-reference
 sources: raw/coding_learn_go_with_tests_excerpt.pdf
-updated: 2026-06-29
+updated: 2026-06-30
 domain: coding-learn-go-with-tests-excerpt
 category_path: sources/coding-learn-go-with-tests-excerpt/sections
 source_id: coding_learn_go_with_tests_excerpt.pdf
-projection_coverage: section-coding-learn-go-with-tests-excerpt-section-decoupling-wrapping-up-c20c66cc@ac0544d43567c2cc1b5717118b8907e6
+projection_coverage: section-coding-learn-go-with-tests-excerpt-section-decoupling-wrapping-up-c20c66cc@99ebd04b404b46cd3072fd475f1b9c94
 ---
 
 # Decoupling / Wrapping up
@@ -18,7 +19,6 @@ From [[coding-learn-go-with-tests-excerpt]].
 
 - [[coding-learn-go-with-tests-excerpt-section-decoupling-1c6183b3]] - broader source section: Decoupling
 - [[coding-learn-go-with-tests-excerpt-section-decoupling-make-sure-your-test-output-is-helpful-e3d11678]] - previous source section: Decoupling / Make sure your test output is helpful
-- [[coding-learn-go-with-tests-excerpt-wrapping]] - topic hub: opens the topic page for Wrapping
 
 ## Statements
 

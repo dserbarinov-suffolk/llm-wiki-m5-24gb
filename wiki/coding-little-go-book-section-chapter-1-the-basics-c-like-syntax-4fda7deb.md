@@ -1,13 +1,14 @@
 ---
 page_id: coding-little-go-book-section-chapter-1-the-basics-c-like-syntax-4fda7deb
 page_kind: source
-summary: Chapter 1 - The Basics / C-Like Syntax: 9 source-backed entries and 2 atom(s) from raw/coding_little_go_book.pdf.
+summary: Chapter 1 - The Basics / C-Like Syntax: 9 source-backed entries and 1 atom(s) from raw/coding_little_go_book.pdf.
+page_family: section-reference
 sources: raw/coding_little_go_book.pdf
-updated: 2026-06-29
+updated: 2026-06-30
 domain: coding-little-go-book
 category_path: sources/coding-little-go-book/sections
 source_id: coding_little_go_book.pdf
-projection_coverage: section-coding-little-go-book-section-chapter-1-the-basics-c-like-syntax-4fda7deb@dd6eb34502c1c9c7ec7b422d0ce2d25e
+projection_coverage: section-coding-little-go-book-section-chapter-1-the-basics-c-like-syntax-4fda7deb@5952b7777cd64e9f3448e20e5f5e65b8
 ---
 
 # Chapter 1 - The Basics / C-Like Syntax
@@ -41,20 +42,5 @@ From [[coding-little-go-book]].
 ```
 if name == "Leto" {
   print("the spice must flow")
-}
-```
-
-### Technical frame 2: Chapter 1 - The Basics / C-Like Syntax
-
-**Context:** _(coding_little_go_book.pdf (source-range-23d24eb1-00044))_
-
-> Beyond this, Go is much closer to C than C# or Java - not only in terms of syntax, but in terms of purpose. That's reflected in the terseness and simplicity of the language which will hopefully start to become obvious as you learn it.
-
-**Atom:** _(coding_little_go_book.pdf (source-range-23d24eb1-00043))_
-
-```
-if (name == "Goku" && power > 9000) || (name == "gohan" && power < 
-4000)  {
-print("super Saiyan")
 }
 ```

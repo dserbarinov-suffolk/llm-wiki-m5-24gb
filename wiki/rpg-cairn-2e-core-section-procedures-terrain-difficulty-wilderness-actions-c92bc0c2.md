@@ -2,12 +2,13 @@
 page_id: rpg-cairn-2e-core-section-procedures-terrain-difficulty-wilderness-actions-c92bc0c2
 page_kind: source
 summary: Procedures / Terrain Difficulty / Wilderness Actions: 13 source-backed entries and 0 atom(s) from raw/rpg_cairn_2e_core.pdf.
+page_family: section-reference
 sources: raw/rpg_cairn_2e_core.pdf
-updated: 2026-06-29
+updated: 2026-06-30
 domain: rpg-cairn-2e-core
 category_path: sources/rpg-cairn-2e-core/sections
 source_id: rpg_cairn_2e_core.pdf
-projection_coverage: section-rpg-cairn-2e-core-section-procedures-terrain-difficulty-wilderness-actions-c92bc0c2@35a80a6908633f9e5376360341668e9c
+projection_coverage: section-rpg-cairn-2e-core-section-procedures-terrain-difficulty-wilderness-actions-c92bc0c2@abf37de24d1f96fa0b9c926b3e89f5db
 ---
 
 # Procedures / Terrain Difficulty / Wilderness Actions
@@ -18,7 +19,6 @@ From [[rpg-cairn-2e-core]].
 
 - [[rpg-cairn-2e-core-section-procedures-terrain-difficulty-a8b1f689]] - broader source section: Procedures / Terrain Difficulty
 - [[rpg-cairn-2e-core-section-procedures-terrain-difficulty-wilderness-elements-16de9207]] - previous source section: Procedures / Terrain Difficulty / Wilderness Elements
-- [[rpg-cairn-2e-core-wilderness-action]] - topic hub: opens the topic page for Wilderness Action
 
 ## Statements
 

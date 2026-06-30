@@ -1,13 +1,14 @@
 ---
 page_id: rpg-dnd-srd-excerpt-section-sample-monsters-goblin-zombie-11723a2b
 page_kind: source
-summary: Sample Monsters / Goblin / Zombie: 4 source-backed entries and 4 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
+summary: Sample Monsters / Goblin / Zombie: 4 source-backed entries and 1 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
+page_family: section-reference
 sources: raw/rpg_dnd_srd_excerpt.pdf
-updated: 2026-06-29
+updated: 2026-06-30
 domain: rpg-dnd-srd-excerpt
 category_path: sources/rpg-dnd-srd-excerpt/sections
 source_id: rpg_dnd_srd_excerpt.pdf
-projection_coverage: section-rpg-dnd-srd-excerpt-section-sample-monsters-goblin-zombie-11723a2b@561177e8ca10c6e0b271dcc33d74c22e
+projection_coverage: section-rpg-dnd-srd-excerpt-section-sample-monsters-goblin-zombie-11723a2b@7967c873cf9c02cb878a4845db06ebcc
 ---
 
 # Sample Monsters / Goblin / Zombie
@@ -22,12 +23,6 @@ From [[rpg-dnd-srd-excerpt]].
 ## Technical atoms
 
 ### Technical frame 1: Sample Monsters / Goblin / Zombie
-
-**Atom:** _(rpg_dnd_srd_excerpt.pdf (source-range-4449ec9f-00737))_
-
-> Hit Points 22 (3d8+9)
-
-### Technical frame 2: Sample Monsters / Goblin / Zombie
 
 **Atom:** _(rpg_dnd_srd_excerpt.pdf (source-range-4449ec9f-00745))_
 
@@ -53,15 +48,3 @@ From [[rpg-dnd-srd-excerpt]].
 | 5 | (-3) |
 
 </details>
-
-### Technical frame 3: Sample Monsters / Goblin / Zombie
-
-**Atom:** _(rpg_dnd_srd_excerpt.pdf (source-range-4449ec9f-00752))_
-
-> If damage reduces the zombie to 0 hit points, it must make a Constitution saving throw with a DC of 5+the damage taken, unless the damage is radiant or from a critical hit.
-
-### Technical frame 4: Sample Monsters / Goblin / Zombie
-
-**Atom:** _(rpg_dnd_srd_excerpt.pdf (source-range-4449ec9f-00754))_
-
-> Slam . Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 4 (1d6+1) bludgeoning damage.

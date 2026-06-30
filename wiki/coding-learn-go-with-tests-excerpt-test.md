@@ -1,12 +1,13 @@
 ---
 page_id: coding-learn-go-with-tests-excerpt-test
 page_kind: concept
-summary: Test: 40 statement(s) and 34 atom(s) from raw/coding_learn_go_with_tests_excerpt.pdf.
+summary: Test: 41 statement(s) and 32 atom(s) from raw/coding_learn_go_with_tests_excerpt.pdf.
+page_family: broad-topic
 sources: raw/coding_learn_go_with_tests_excerpt.pdf
-updated: 2026-06-29
+updated: 2026-06-30
 domain: coding-learn-go-with-tests-excerpt
 category_path: concepts
-projection_coverage: topic-coding-learn-go-with-tests-excerpt-test@07178dca3ba78c0982ec339f83e42a05
+projection_coverage: topic-coding-learn-go-with-tests-excerpt-test@d58df8b30fdc2dfa248bc2a92ccc761f
 ---
 
 # Test
@@ -77,10 +78,6 @@ What [[coding-learn-go-with-tests-excerpt]] covers about test:
 
 - Run the test and it should pass. _(coding_learn_go_with_tests_excerpt.pdf (source-range-cb73a893-00237))_
 
-### Benchmarking
-
-- The testing.B gives you access to the loop function. Loop() returns true as long as the benchmark should continue running. _(coding_learn_go_with_tests_excerpt.pdf (source-range-cb73a893-00247))_
-
 ### Benchmarking / Practice exercises
 
 - Change the test so a caller can specify how many times the character is repeated and then fix the code _(coding_learn_go_with_tests_excerpt.pdf (source-range-cb73a893-00267))_
@@ -129,34 +126,15 @@ What [[coding-learn-go-with-tests-excerpt]] covers about test:
 
 - Interfaces are a great tool for hiding complexity away from other parts of the system. In our case our test helper code did not need to know the exact shape it was asserting on, only how to "ask" for its area. _(coding_learn_go_with_tests_excerpt.pdf (source-range-cb73a893-00543))_
 
-### Maps / Write the test first
-
 - Everything else in this test should be familiar. _(coding_learn_go_with_tests_excerpt.pdf (source-range-cb73a893-00555))_
-
-### Maps / Try to run the test
-
 - By running go test the compiler will fail with ./dictionary_test.go:8:9: undefined: Search . _(coding_learn_go_with_tests_excerpt.pdf (source-range-cb73a893-00557))_
-
-### Using a custom type / Write the minimal amount of code for the test to run and check the output
-
 - Your test should now fail with a much clearer error message. _(coding_learn_go_with_tests_excerpt.pdf (source-range-cb73a893-00585))_
-
-### Using a custom type / Write the test first
-
+- dictionary_test.go:22: expected to get an error. _(coding_learn_go_with_tests_excerpt.pdf (source-range-cb73a893-00586))_
 - In this test, we are utilizing our Search function to make the validation of the dictionary a little easier. _(coding_learn_go_with_tests_excerpt.pdf (source-range-cb73a893-00598))_
-
-### Pointers, copies, et al / Refactor
-
 - There isn't much to refactor in our implementation but the test could use a little simplification. _(coding_learn_go_with_tests_excerpt.pdf (source-range-cb73a893-00616))_
-
-### Pointers, copies, et al / Write the test first
-
-- For this test, we modified Add to return an error, which we are validating against a new error variable, ErrWordExists . We also modified the previous test to check for a nil error. _(coding_learn_go_with_tests_excerpt.pdf (source-range-cb73a893-00623))_
-
-### Note on declaring a new error for Update / Write the test first
-
+- For this test, we modified Add to return an error, which we are validating against a new error variable, ErrWordExists . _(coding_learn_go_with_tests_excerpt.pdf (source-range-cb73a893-00623))_
 - Our test creates a Dictionary with a word and then checks if the word has been removed. _(coding_learn_go_with_tests_excerpt.pdf (source-range-cb73a893-00677))_
-
+- dictionary_test.go:78: got error '%!q(<nil>)' want 'could not find the word you were looking for' _(coding_learn_go_with_tests_excerpt.pdf (source-range-cb73a893-00683))_
 
 ## Technical atoms
 
@@ -507,41 +485,7 @@ $ go test -v
 
 > If you publish your code with examples to a public URL, you can share the documentation of your code at pkg.go.dev.
 
-### Technical frame 24: Benchmarking
-
-**Context:** _(coding_learn_go_with_tests_excerpt.pdf (source-range-cb73a893-00260))_
-
-> We can use BenchmarkRepeat to confirm that strings.Builder significantly improves performance. Run go test -bench=. -benchmem
-
-**Atom:** _(coding_learn_go_with_tests_excerpt.pdf (source-range-cb73a893-00261))_
-
-```
-goarch: amd64
-pkg: github.com/quii/learn-go-with-tests/for/v4
-10000000           25.70 ns/op           8 B/op 
-allocs/op
-PASS
-```
-
-### Technical frame 25: Benchmarking
-
-**Context:** _(coding_learn_go_with_tests_excerpt.pdf (source-range-cb73a893-00260))_
-
-> We can use BenchmarkRepeat to confirm that strings.Builder significantly improves performance. Run go test -bench=. -benchmem
-
-**Atom:** _(coding_learn_go_with_tests_excerpt.pdf (source-range-cb73a893-00262))_
-
-```
-p
-g
-signiﬁcantly improves performance. Run go test -bench=. -benchmem:
-goos: darwin
-goarch: amd64
-pkg: github.com/quii/learn-go-with-tests/for/v4
-10000000           25.70 ns/op           8 B/op           1
-```
-
-### Technical frame 26: Arrays and their type / Refactor
+### Technical frame 24: Arrays and their type / Refactor
 
 **Context:** _(coding_learn_go_with_tests_excerpt.pdf (source-range-cb73a893-00327))_
 
@@ -570,7 +514,7 @@ if got != want {
 }
 ```
 
-### Technical frame 27: Arrays and their type / Wrapping up
+### Technical frame 25: Arrays and their type / Wrapping up
 
 **Context:** _(coding_learn_go_with_tests_excerpt.pdf (source-range-cb73a893-00407))_
 
@@ -580,7 +524,7 @@ if got != want {
 
 > You can try most things out and you can easily share your code if you need to ask questions.
 
-### Technical frame 28: Decoupling / Further refactoring
+### Technical frame 26: Decoupling / Further refactoring
 
 **Context:** _(coding_learn_go_with_tests_excerpt.pdf (source-range-cb73a893-00498))_
 
@@ -590,7 +534,7 @@ if got != want {
 
 > Table driven tests are useful when you want to build a list of test cases that can be tested in the same manner.
 
-### Technical frame 29: Decoupling / Further refactoring
+### Technical frame 27: Decoupling / Further refactoring
 
 **Context:** _(coding_learn_go_with_tests_excerpt.pdf (source-range-cb73a893-00498))_
 
@@ -616,7 +560,7 @@ for _, tt := range areaTests {
 }
 ```
 
-### Technical frame 30: Decoupling / Write the test first
+### Technical frame 28: Decoupling / Write the test first
 
 **Context:** _(coding_learn_go_with_tests_excerpt.pdf (source-range-cb73a893-00504))_
 
@@ -631,7 +575,7 @@ areaTests := []struct {
         want  float64
 ```
 
-### Technical frame 31: Decoupling / Write the test first
+### Technical frame 29: Decoupling / Write the test first
 
 **Context:** _(coding_learn_go_with_tests_excerpt.pdf (source-range-cb73a893-00504))_
 
@@ -654,7 +598,7 @@ for _, tt := range areaTests {
 }
 ```
 
-### Technical frame 32: Decoupling / Make sure your test output is helpful
+### Technical frame 30: Decoupling / Make sure your test output is helpful
 
 **Context:** _(coding_learn_go_with_tests_excerpt.pdf (source-range-cb73a893-00533))_
 
@@ -669,7 +613,7 @@ for _, tt := range areaTests {
 72.00 want 72.10
 ```
 
-### Technical frame 33: Decoupling / Make sure your test output is helpful
+### Technical frame 31: Decoupling / Make sure your test output is helpful
 
 **Context:** _(coding_learn_go_with_tests_excerpt.pdf (source-range-cb73a893-00533))_
 
@@ -705,7 +649,7 @@ tt.hasArea)
 }
 ```
 
-### Technical frame 34: Pointers, copies, et al / Refactor
+### Technical frame 32: Pointers, copies, et al / Refactor
 
 **Context:** _(coding_learn_go_with_tests_excerpt.pdf (source-range-cb73a893-00618))_
 
@@ -735,31 +679,23 @@ got, err := dictionary.Search(word)
 
 ## Related pages
 
-- [[coding-learn-go-with-tests-excerpt-test-output-helpful]] - narrower topic: Make sure your test output is helpful shares source evidence from Decoupling / Make sure your test output is helpful: To increase the readability of our test cases further, we can rename the want field into something more descriptive like hasArea .; Make sure your test output is helpful shares technical record from Decoupling / Make sure your test output is helpful: --- FAIL: TestArea (0.00s) --- FAIL: TestArea/Rectangle (0.00s) shapes_test.go:33: main.Rectangle{Width:12, Height:6} got 72.00 want 72.10 (2 shared statement(s), 2 shared atom(s))
-- [[coding-learn-go-with-tests-excerpt-decoupling]] - shared statements and technical atoms: Decoupling shares source evidence from Decoupling / Further refactoring: Table driven tests can be a great item in your toolbox, but be sure that you have a need for the extra noise in the tests. They are a great fit when you wish to test ... [truncated]; Decoupling shares technical record from Decoupling / Further refactoring: Table driven tests are useful when you want to build a list of test cases that can be tested in the same manner. (7 shared statement(s), 6 shared atom(s))
-- [[coding-learn-go-with-tests-excerpt-discipline]] - shared statements and technical atoms: Discipline shares source evidence from Discipline: Seeing the test fail is an important check because it also lets you see what the error message looks like. As a developer it can be very hard to work with a codebase ... [truncated]; Discipline shares technical record from Discipline / Keep going! More requirements: t.Run("in Spanish", func(t *testing.T) { got := Hello("Elodie", "Spanish") want := "Hola, Elodie" assertCorrectMessage(t, got, want) }) (4 shared statement(s), 7 shared atom(s))
-- [[coding-learn-go-with-tests-excerpt-requirement]] - shared statements and technical atoms: Keep going! More requirements shares source evidence from Discipline / Keep going! More requirements: When you try and run the test again it will complain about not passing through enough arguments to Hello in your other tests and in hello.go; Keep going! More requirements shares technical record from Discipline / Keep going! More requirements: t.Run("in Spanish", func(t *testing.T) { got := Hello("Elodie", "Spanish") want := "Hola, Elodie" assertCorrectMessage(t, got, want) }) (2 shared statement(s), 7 shared atom(s))
-- [[coding-learn-go-with-tests-excerpt-hello-you]] - shared statements and technical atoms: Hello, YOU shares source evidence from Hello, YOU: In the last example, we wrote the test after the code had been written so that you could get an example of how to write a test and declare a function. From this poin ... [truncated]; Hello, YOU shares technical record from Hello, YOU: func Hello(name string) string { return "Hello, world" } (2 shared statement(s), 6 shared atom(s))
-- [[coding-learn-go-with-tests-excerpt-constant]] - shared statements and technical atoms: Constants shares source evidence from Constants: After refactoring, re-run your tests to make sure you haven't broken anything.; Constants shares technical record from Constants / Hello, world... again: const englishHelloPrefix = "Hello, " func Hello(name string) string { if name == "" { (3 shared statement(s), 5 shared atom(s))
-- [[coding-learn-go-with-tests-excerpt-array-and-type]] - shared statements and technical atoms: Arrays and their type shares source evidence from Arrays and their type / Refactor: It is important to question the value of your tests. It should not be a goal to have as many tests as possible, but rather to have as much confidence as possible in ... [truncated]; Arrays and their type shares technical record from Arrays and their type / Refactor: func TestSum(t *testing.T) { t.Run("collection of 5 numbers", func(t *testing.T) { numbers := []int{1, 2, 3, 4, 5} got := Sum(numbers) want := 15 if got != want { t. ... [truncated] (5 shared statement(s), 2 shared atom(s))
-- [[coding-learn-go-with-tests-excerpt-testable]] - shared statements and technical atoms: Testable Examples shares source evidence from Testable Examples: Running the package's test suite, we can see the example ExampleAdd function is executed with no further arrangement from us:; Testable Examples shares technical record from Testable Examples: func ExampleAdd() { sum := Add(1, 5) fmt.Println(sum) // Output: 6 } (2 shared statement(s), 3 shared atom(s))
+- [[coding-learn-go-with-tests-excerpt-try-run-test]] - narrower topic: Try and run the test shares source evidence from Hello, YOU: If you try and run your tests again your hello.go will fail to compile because you're not passing an argument. Send in "world" to make it compile.; Try and run the test shares technical record from Learn Go with Tests (Excerpt): output Write enough code to make it pass Refactor Write the test ﬁrst Try and run the test Write minimal amount of code for the test to run and check the failing tes ... [truncated] (10 shared statement(s), 4 shared atom(s))
+- [[coding-learn-go-with-tests-excerpt-write-test]] - narrower topic: Write the test first shares source evidence from Hello, YOU: In the last example, we wrote the test after the code had been written so that you could get an example of how to write a test and declare a function. From this poin ... [truncated]; Write the test first shares technical record from Learn Go with Tests (Excerpt): output Write enough code to make it pass Refactor Write the test ﬁrst Try and run the test Write minimal amount of code for the test to run and check the failing tes ... [truncated] (9 shared statement(s), 3 shared atom(s))
 - [[coding-learn-go-with-tests-excerpt-package]] - shared statements and technical atoms: Package shares source evidence from Testable Examples: Running the package's test suite, we can see the example ExampleAdd function is executed with no further arrangement from us:; Package shares technical record from Testable Examples: func ExampleAdd() { sum := Add(1, 5) fmt.Println(sum) // Output: 6 } (1 shared statement(s), 3 shared atom(s))
-- [[coding-learn-go-with-tests-excerpt-benchmarking]] - shared statements and technical atoms: Benchmarking shares source evidence from Benchmarking: The testing.B gives you access to the loop function. Loop() returns true as long as the benchmark should continue running.; Benchmarking shares technical record from Benchmarking: goarch: amd64 pkg: github.com/quii/learn-go-with-tests/for/v4 10000000           25.70 ns/op           8 B/op allocs/op PASS (2 shared statement(s), 2 shared atom(s))
+- [[coding-learn-go-with-tests-excerpt-write-code-pass]] - shared statements and technical atoms: Write enough code to make it pass shares source evidence from Hello, YOU: In the last example, we wrote the test after the code had been written so that you could get an example of how to write a test and declare a function. From this poin ... [truncated]; Write enough code to make it pass shares technical record from Learn Go with Tests (Excerpt): output Write enough code to make it pass Refactor Write the test ﬁrst Try and run the test Write minimal amount of code for the test to run and check the failing tes ... [truncated] (5 shared statement(s), 1 shared atom(s))
 - [[coding-learn-go-with-tests-excerpt-code]] - shared statements and technical atoms: Code shares source evidence from Hello, YOU: In the last example, we wrote the test after the code had been written so that you could get an example of how to write a test and declare a function. From this poin ... [truncated]; Code shares technical record from Learn Go with Tests (Excerpt): output Write enough code to make it pass Refactor Write the test ﬁrst Try and run the test Write minimal amount of code for the test to run and check the failing tes ... [truncated] (2 shared statement(s), 2 shared atom(s))
-- [[coding-learn-go-with-tests-excerpt-further-refactoring]] - shared statements and technical atoms: Further refactoring shares source evidence from Decoupling / Further refactoring: Table driven tests can be a great item in your toolbox, but be sure that you have a need for the extra noise in the tests. They are a great fit when you wish to test ... [truncated]; Further refactoring shares technical record from Decoupling / Further refactoring: Table driven tests are useful when you want to build a list of test cases that can be tested in the same manner. (1 shared statement(s), 2 shared atom(s))
-- [[coding-learn-go-with-tests-excerpt-hello]] - shared statements and technical atoms: Hello, World shares source evidence from Hello, World / Go modules?: The next step is to run the tests. Enter go test in your terminal. If the tests pass, then you are probably using an earlier version of Go. However, if you are using ... [truncated]; Hello, World shares technical record from Hello, World / Go modules?: $ go test go: cannot find main module; see 'go help modules' (2 shared statement(s), 1 shared atom(s))
-- [[coding-learn-go-with-tests-excerpt-pointer-copy]] - shared statements and technical atoms: Pointers, copies, et al shares source evidence from Pointers, copies, et al / Refactor: There isn't much to refactor in our implementation but the test could use a little simplification.; Pointers, copies, et al shares technical record from Pointers, copies, et al / Refactor: func TestAdd(t *testing.T) { dictionary := Dictionary{} word := "test" definition := "this is just a test" dictionary.Add(word, definition) assertDefinition(t, dicti ... [truncated] (2 shared statement(s), 1 shared atom(s))
-- [[coding-learn-go-with-tests-excerpt-module]] - shared statements and technical atoms: Go modules? shares source evidence from Hello, World / Go modules?: The next step is to run the tests. Enter go test in your terminal. If the tests pass, then you are probably using an earlier version of Go. However, if you are using ... [truncated]; Go modules? shares technical record from Hello, World / Go modules?: $ go test go: cannot find main module; see 'go help modules' (1 shared statement(s), 1 shared atom(s))
-- [[coding-learn-go-with-tests-excerpt-wrapping]] - shared statements and technical atoms: Wrapping up shares source evidence from Arrays and their type / Wrapping up: Another handy way to experiment with Go other than writing tests is the Go playground. You can try most things out and you can easily share your code if you need to ... [truncated]; Wrapping up shares technical record from Arrays and their type / Wrapping up: You can try most things out and you can easily share your code if you need to ask questions. (1 shared statement(s), 1 shared atom(s))
+- [[coding-learn-go-with-tests-excerpt-comment]] - shared statements and technical atoms: Comment shares source evidence from Testable Examples: Notice the special format of the comment, // Output: 6 . While the example will always be compiled, adding this comment means the example will also be executed. Go a ... [truncated]; Comment shares technical record from Constants / Hello, world... again: For helper functions, it's a good idea to accept a testing.TB which is an interface that *testing.T and *testing.B both satisfy, so you can call helper functions fro ... [truncated] (1 shared statement(s), 2 shared atom(s))
+- [[coding-learn-go-with-tests-excerpt-refactor]] - shared statements and technical atoms: Refactor shares source evidence from Pointers, copies, et al / Refactor: There isn't much to refactor in our implementation but the test could use a little simplification.; Refactor shares technical record from Discipline / Keep going! More requirements: const spanish = "Spanish" const englishHelloPrefix = "Hello, " const spanishHelloPrefix = "Hola, " func Hello(name string, language string) string { if name == "" { ... [truncated] (1 shared statement(s), 2 shared atom(s))
+- [[coding-learn-go-with-tests-excerpt-write]] - shared statements and technical atoms: Write shares source evidence from French / switch: Write a test to now include a greeting in the language of your choice and you should see how simple it is to extend our amazing function.; Write shares technical record from Learn Go with Tests (Excerpt): output Write enough code to make it pass Refactor Write the test ﬁrst Try and run the test Write minimal amount of code for the test to run and check the failing tes ... [truncated] (2 shared statement(s), 1 shared atom(s))
+- [[coding-learn-go-with-tests-excerpt-writing]] - shared statements and technical atoms: Writing shares source evidence from Discipline: By not writing tests, you are committing to manually checking your code by running your software, which breaks your state of flow. You won't be saving yourself any t ... [truncated]; Writing shares technical record from Arrays and their type / Wrapping up: You can try most things out and you can easily share your code if you need to ask questions. (2 shared statement(s), 1 shared atom(s))
+- [[coding-learn-go-with-tests-excerpt-compiler]] - shared statements and technical atoms: Compiler shares source evidence from Maps / Try to run the test: By running go test the compiler will fail with ./dictionary_test.go:8:9: undefined: Search .; Compiler shares technical record from Hello, YOU: func Hello(name string) string { return "Hello, world" } (1 shared statement(s), 1 shared atom(s))
+- [[coding-learn-go-with-tests-excerpt-helper]] - shared statements and technical atoms: Helper shares source evidence from Decoupling / Wrapping up: Interfaces are a great tool for hiding complexity away from other parts of the system. In our case our test helper code did not need to know the exact shape it was a ... [truncated]; Helper shares technical record from Constants / Hello, world... again: For helper functions, it's a good idea to accept a testing.TB which is an interface that *testing.T and *testing.B both satisfy, so you can call helper functions fro ... [truncated] (1 shared statement(s), 1 shared atom(s))
 - [[coding-learn-go-with-tests-excerpt-function]] - shared technical atoms: Function shares technical record from Testable Examples: func ExampleAdd() { sum := Add(1, 5) fmt.Println(sum) // Output: 6 } (2 shared atom(s))
 - [[coding-learn-go-with-tests-excerpt-array]] - shared technical atoms: Array shares technical record from Arrays and their type / Refactor: func TestSum(t *testing.T) { t.Run("collection of 5 numbers", func(t *testing.T) { numbers := []int{1, 2, 3, 4, 5} got := Sum(numbers) want := 15 if got != want { t. ... [truncated] (1 shared atom(s))
-- [[coding-learn-go-with-tests-excerpt-custom-type]] - shared statements: Using a custom type shares source evidence from Using a custom type / Write the minimal amount of code for the test to run and check the output: Your test should now fail with a much clearer error message. (2 shared statement(s))
-- [[coding-learn-go-with-tests-excerpt-integer]] - shared statements: Integers shares source evidence from Integers: Integers work as you would expect. Let's write an Add function to try things out. Create a test file called adder_test.go and write this code. (2 shared statement(s))
-- [[coding-learn-go-with-tests-excerpt-maps]] - shared statements: Maps shares source evidence from Maps / Write the test first: Everything else in this test should be familiar. (2 shared statement(s))
-- [[coding-learn-go-with-tests-excerpt-french]] - shared statements: French shares source evidence from French / switch: Write a test to now include a greeting in the language of your choice and you should see how simple it is to extend our amazing function. (1 shared statement(s))
-- [[coding-learn-go-with-tests-excerpt-iteration]] - shared statements: Iteration shares source evidence from Iteration / Write enough code to make it pass: Run the test and it should pass. (1 shared statement(s))
-- [[coding-learn-go-with-tests-excerpt-method]] - shared statements: What are methods? shares source evidence from What are methods? / Write enough code to make it pass: If you re-run the tests the rectangle tests should be passing but circle should still be failing. (1 shared statement(s))
-- [[coding-learn-go-with-tests-excerpt-note-declaring-error-for-update]] - shared statements: Note on declaring a new error for Update shares source evidence from Note on declaring a new error for Update / Write the test first: Our test creates a Dictionary with a word and then checks if the word has been removed. (1 shared statement(s))
+- [[coding-learn-go-with-tests-excerpt-library]] - shared technical atoms: Library shares technical record from Testable Examples: If you publish your code with examples to a public URL, you can share the documentation of your code at pkg.go.dev. (1 shared atom(s))
+- [[coding-learn-go-with-tests-excerpt-standard]] - shared technical atoms: Standard shares technical record from Testable Examples: If you publish your code with examples to a public URL, you can share the documentation of your code at pkg.go.dev. (1 shared atom(s))
+- [[coding-learn-go-with-tests-excerpt-error]] - shared statements: Error shares source evidence from Note on declaring a new error for Update / Write the minimal amount of code for the test to run and check the failing test output: dictionary_test.go:78: got error '%!q(<nil>)' want 'could not find the word you were looking for' (1 shared statement(s))
+- [[coding-learn-go-with-tests-excerpt-note]] - shared statements: Note shares source evidence from Arrays and their type / Try and run the test: Oh no! It's important to note that while the test has compiled , it has a runtime error . (1 shared statement(s))
 
 ## Source
 

@@ -1,13 +1,14 @@
 ---
 page_id: coding-little-go-book-section-chapter-1-the-basics-imports-2cc727c8
 page_kind: source
-summary: Chapter 1 - The Basics / Imports: 22 source-backed entries and 8 atom(s) from raw/coding_little_go_book.pdf.
+summary: Chapter 1 - The Basics / Imports: 22 source-backed entries and 4 atom(s) from raw/coding_little_go_book.pdf.
+page_family: section-reference
 sources: raw/coding_little_go_book.pdf
-updated: 2026-06-29
+updated: 2026-06-30
 domain: coding-little-go-book
 category_path: sources/coding-little-go-book/sections
 source_id: coding_little_go_book.pdf
-projection_coverage: section-coding-little-go-book-section-chapter-1-the-basics-imports-2cc727c8@9e6047863a0b628b70975106a04fbd11
+projection_coverage: section-coding-little-go-book-section-chapter-1-the-basics-imports-2cc727c8@d1a2b5f3012015e94eb7d130a5d8b367
 ---
 
 # Chapter 1 - The Basics / Imports
@@ -19,7 +20,6 @@ From [[coding-little-go-book]].
 - [[coding-little-go-book-section-chapter-1-the-basics-45e21143]] - broader source section: Chapter 1 - The Basics
 - [[coding-little-go-book-section-chapter-1-the-basics-running-go-code-f8398d4c]] - previous source section: Chapter 1 - The Basics / Running Go Code
 - [[coding-little-go-book-section-chapter-1-the-basics-variables-and-declarations-dd932e02]] - next source section: Chapter 1 - The Basics / Variables and Declarations
-- [[coding-little-go-book-import]] - topic hub: opens the topic page for Import
 
 ## Statements
 
@@ -63,28 +63,6 @@ func main() {
 
 ### Technical frame 3: Chapter 1 - The Basics / Imports
 
-**Context:** _(coding_little_go_book.pdf (source-range-23d24eb1-00063))_
-
-> We're now using two of Go's standard packages: fmt and os . We've also introduced another built-in function len . len returns the size of a string, or the number of values in a dictionary, or, as we see here, the number of elements in an array. If you're wondering why we expect 2 arguments, it's because the first argument -- at index 0 -- is always the path of the currently running executable. (Change the program to print it out and see for yourself.)
-
-**Atom:** _(coding_little_go_book.pdf (source-range-23d24eb1-00062))_
-
-```
-go run main.go 9000
-```
-
-### Technical frame 4: Chapter 1 - The Basics / Imports
-
-**Context:** _(coding_little_go_book.pdf (source-range-23d24eb1-00064))_
-
-> You've probably noticed we prefix the function name with the package, e.g., fmt.Println . This is different from many other languages. We'll learn more about packages in later chapters. For now, knowing how to import and use a package is a good start.
-
-**Atom:** _(coding_little_go_book.pdf (source-range-23d24eb1-00063))_
-
-> If you're wondering why we expect 2 arguments, it's because the first argument -- at index 0 -- is always the path of the currently running executable.
-
-### Technical frame 5: Chapter 1 - The Basics / Imports
-
 **Context:** _(coding_little_go_book.pdf (source-range-23d24eb1-00067))_
 
 > You should get two errors about fmt and os being imported and not used. Can this get annoying? Absolutely. Over time, you'll get used to it (it'll still be annoying though). Go is strict about this because unused imports can slow compilation; admittedly a problem most of us don't have to this degree.
@@ -101,7 +79,7 @@ func main() {
 }
 ```
 
-### Technical frame 6: Chapter 1 - The Basics / Imports
+### Technical frame 4: Chapter 1 - The Basics / Imports
 
 **Context:** _(coding_little_go_book.pdf (source-range-23d24eb1-00068))_
 
@@ -110,25 +88,3 @@ func main() {
 **Atom:** _(coding_little_go_book.pdf (source-range-23d24eb1-00067))_
 
 > You should get two errors about fmt and os being imported and not used.
-
-### Technical frame 7: Chapter 1 - The Basics / Imports
-
-**Context:** _(coding_little_go_book.pdf (source-range-23d24eb1-00068))_
-
-> Another thing to note is that Go's standard library is well documented. You can head over to https://golang.org/pkg/fmt/#Println to learn more about the Println function that we used. You can click on that section header and see the source code. Also, scroll to the top to learn more about Go's formatting capabilities.
-
-**Atom:** _(coding_little_go_book.pdf (source-range-23d24eb1-00069))_
-
-> If you're ever stuck without internet access, you can get the documentation running locally via:
-
-### Technical frame 8: Chapter 1 - The Basics / Imports
-
-**Context:** _(coding_little_go_book.pdf (source-range-23d24eb1-00068))_
-
-> Another thing to note is that Go's standard library is well documented. You can head over to https://golang.org/pkg/fmt/#Println to learn more about the Println function that we used. You can click on that section header and see the source code. Also, scroll to the top to learn more about Go's formatting capabilities.
-
-**Atom:** _(coding_little_go_book.pdf (source-range-23d24eb1-00070))_
-
-```
-godoc -http=:6060
-```

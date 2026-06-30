@@ -1,13 +1,14 @@
 ---
 page_id: rpg-dnd-srd-excerpt-section-making-an-attack-melee-attacks-03adb000
 page_kind: source
-summary: Making an Attack / Melee Attacks: 42 source-backed entries and 9 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
+summary: Making an Attack / Melee Attacks: 42 source-backed entries and 3 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
+page_family: section-reference
 sources: raw/rpg_dnd_srd_excerpt.pdf
-updated: 2026-06-29
+updated: 2026-06-30
 domain: rpg-dnd-srd-excerpt
 category_path: sources/rpg-dnd-srd-excerpt/sections
 source_id: rpg_dnd_srd_excerpt.pdf
-projection_coverage: section-rpg-dnd-srd-excerpt-section-making-an-attack-melee-attacks-03adb000@c5f9e75fc9b888f6337166781369cbf1
+projection_coverage: section-rpg-dnd-srd-excerpt-section-making-an-attack-melee-attacks-03adb000@254fe92b592f48321d35d75849c7a851
 ---
 
 # Making an Attack / Melee Attacks
@@ -22,7 +23,6 @@ From [[rpg-dnd-srd-excerpt]].
 - [[rpg-dnd-srd-excerpt-section-making-an-attack-melee-attacks-shoving-a-creature-8e0a3d06]] - narrower source section: Making an Attack / Melee Attacks / Shoving a Creature
 - [[rpg-dnd-srd-excerpt-section-making-an-attack-ranged-attacks-f6c06cad]] - previous source section: Making an Attack / Ranged Attacks
 - [[rpg-dnd-srd-excerpt-section-making-an-attack-cover-1384430a]] - next source section: Making an Attack / Cover
-- [[rpg-dnd-srd-excerpt-melee-attack]] - topic hub: opens the topic page for Melee Attack
 
 ## Statements
 
@@ -71,23 +71,7 @@ From [[rpg-dnd-srd-excerpt]].
 
 > Most creatures have a 5-foot reach and can thus attack targets within 5 feet of them when making a melee attack.
 
-### Technical frame 2: Making an Attack / Melee Attacks
-
-**Context:** _(rpg_dnd_srd_excerpt.pdf (source-range-4449ec9f-00398))_
-
-> You can avoid provoking an opportunity attack by taking the Disengage action. You also don't provoke an opportunity attack when you teleport or when someone or something moves you without using your movement, action, or reaction. For example, you don't provoke an opportunity attack if an explosion hurls you out of a foe's reach or if gravity causes you to fall past an enemy.
-
-**Atom:** _(rpg_dnd_srd_excerpt.pdf (source-range-4449ec9f-00397))_
-
-> You can make an opportunity attack when a hostile creature that you can see moves out of your reach.
-
-### Technical frame 3: Making an Attack / Melee Attacks / Two-Weapon Fighting
-
-**Atom:** _(rpg_dnd_srd_excerpt.pdf (source-range-4449ec9f-00400))_
-
-> When you take the Attack action and attack with a light melee weapon that you're holding in one hand, you can use a bonus action to attack with a different light melee weapon that you're holding in the other hand.
-
-### Technical frame 4: Making an Attack / Melee Attacks / Two-Weapon Fighting
+### Technical frame 2: Making an Attack / Melee Attacks / Two-Weapon Fighting
 
 **Context:** _(rpg_dnd_srd_excerpt.pdf (source-range-4449ec9f-00400))_
 
@@ -97,17 +81,7 @@ From [[rpg-dnd-srd-excerpt]].
 
 > If either weapon has the thrown property, you can throw the weapon, instead of making a melee attack with it.
 
-### Technical frame 5: Making an Attack / Melee Attacks / Grappling
-
-**Context:** _(rpg_dnd_srd_excerpt.pdf (source-range-4449ec9f-00404))_
-
-> The target of your grapple must be no more than one size larger than you and must be within your reach. Using at least one free hand, you try to seize the target by making a grapple check instead of an attack roll: a Strength (Athletics) check contested by the target's Strength (Athletics) or Dexterity (Acrobatics) check (the target chooses the ability to use). You succeed automatically if the target is incapacitated. If you succeed, you subject the target to the grappled condition (see appendix
-
-**Atom:** _(rpg_dnd_srd_excerpt.pdf (source-range-4449ec9f-00403))_
-
-> When you want to grab a creature or wrestle with it, you can use the Attack action to make a special melee attack, a grapple.
-
-### Technical frame 6: Making an Attack / Melee Attacks / Grappling
+### Technical frame 3: Making an Attack / Melee Attacks / Grappling
 
 **Context:** _(rpg_dnd_srd_excerpt.pdf (source-range-4449ec9f-00406))_
 
@@ -116,33 +90,3 @@ From [[rpg-dnd-srd-excerpt]].
 **Atom:** _(rpg_dnd_srd_excerpt.pdf (source-range-4449ec9f-00404))_
 
 > The condition specifies the things that end it, and you can release the target whenever you like (no action required).
-
-### Technical frame 7: Making an Attack / Melee Attacks / Grappling
-
-**Context:** _(rpg_dnd_srd_excerpt.pdf (source-range-4449ec9f-00406))_
-
-> Moving a Grappled Creature . When you move, you can drag or carry the grappled creature with you, but your speed is halved, unless the creature is two or more sizes smaller than you.
-
-**Atom:** _(rpg_dnd_srd_excerpt.pdf (source-range-4449ec9f-00405))_
-
-> A grappled creature can use its action to escape.
-
-### Technical frame 8: Making an Attack / Melee Attacks / Grappling
-
-**Context:** _(rpg_dnd_srd_excerpt.pdf (source-range-4449ec9f-00404))_
-
-> The target of your grapple must be no more than one size larger than you and must be within your reach. Using at least one free hand, you try to seize the target by making a grapple check instead of an attack roll: a Strength (Athletics) check contested by the target's Strength (Athletics) or Dexterity (Acrobatics) check (the target chooses the ability to use). You succeed automatically if the target is incapacitated. If you succeed, you subject the target to the grappled condition (see appendix
-
-**Atom:** _(rpg_dnd_srd_excerpt.pdf (source-range-4449ec9f-00406))_
-
-> When you move, you can drag or carry the grappled creature with you, but your speed is halved, unless the creature is two or more sizes smaller than you.
-
-### Technical frame 9: Making an Attack / Melee Attacks / Shoving a Creature
-
-**Context:** _(rpg_dnd_srd_excerpt.pdf (source-range-4449ec9f-00409))_
-
-> The target must be no more than one size larger than you and must be within your reach. Instead of making an attack roll, you make a Strength (Athletics) check contested by the target's Strength (Athletics) or Dexterity (Acrobatics) check (the target chooses the ability to use). You succeed automatically if the target is incapacitated. If you succeed, you either knock the target prone or push it 5 feet away from you.
-
-**Atom:** _(rpg_dnd_srd_excerpt.pdf (source-range-4449ec9f-00408))_
-
-> Using the Attack action, you can make a special melee attack to shove a creature, either to knock it prone or push it away from you.

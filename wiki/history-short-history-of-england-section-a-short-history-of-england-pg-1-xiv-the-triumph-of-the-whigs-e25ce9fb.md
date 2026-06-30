@@ -1,13 +1,14 @@
 ---
 page_id: history-short-history-of-england-section-a-short-history-of-england-pg-1-xiv-the-triumph-of-the-whigs-e25ce9fb
 page_kind: source
-summary: A SHORT HISTORY OF ENGLAND [Pg 1] / XIV / THE TRIUMPH OF THE WHIGS: 170 source-backed entries and 2 atom(s) from raw/history_short_history_of_england.pdf.
+summary: A SHORT HISTORY OF ENGLAND [Pg 1] / XIV / THE TRIUMPH OF THE WHIGS: 170 source-backed entries and 0 atom(s) from raw/history_short_history_of_england.pdf.
+page_family: section-reference
 sources: raw/history_short_history_of_england.pdf
-updated: 2026-06-29
+updated: 2026-06-30
 domain: history-short-history-of-england
 category_path: sources/history-short-history-of-england/sections
 source_id: history_short_history_of_england.pdf
-projection_coverage: section-history-short-history-of-england-section-a-short-history-of-england-pg-1-xiv-the-triumph-of-the-whigs-e25ce9fb@fe71d2b0e18477285e75fcfa13b83a75
+projection_coverage: section-history-short-history-of-england-section-a-short-history-of-england-pg-1-xiv-the-triumph-of-the-whigs-e25ce9fb@e14603622d5876e591e773926056d594
 ---
 
 # A SHORT HISTORY OF ENGLAND [Pg 1] / XIV / THE TRIUMPH OF THE WHIGS
@@ -17,7 +18,6 @@ From [[history-short-history-of-england]].
 ## Related pages
 
 - [[history-short-history-of-england-section-a-short-history-of-england-pg-1-xiv-bcce70d1]] - broader source section: A SHORT HISTORY OF ENGLAND [Pg 1] / XIV
-- [[history-short-history-of-england-triumph-whig]] - topic hub: opens the topic page for Triumph Whig
 
 ## Statements
 
@@ -72,25 +72,3 @@ From [[history-short-history-of-england]].
 - He was an aristocrat, in the sense that all our public men were then aristocrats; but he was very emphatically what may be called a commercialist-one might almost say Carthaginian. _(history_short_history_of_england.pdf (source-range-46d51aaf-00395))_
 - Thus he was a Whig, and even in some ways what we should call a Liberal, like his son after him; but he was also an Imperialist and what we should call a Jingo; and the Whig party was consistently the Jingo party. _(history_short_history_of_england.pdf (source-range-46d51aaf-00395))_
 - He celebrated it in his great book "The Patriot King," written in exile; and when he thought that George's great-grandson was enough of a patriot, he only wished that he might be more of a king. _(history_short_history_of_england.pdf (source-range-46d51aaf-00395))_
-
-## Technical atoms
-
-### Technical frame 1: A SHORT HISTORY OF ENGLAND [Pg 1] / XIV / THE TRIUMPH OF THE WHIGS
-
-**Context:** _(history_short_history_of_england.pdf (source-range-46d51aaf-00373))_
-
-> The last blow, however, could hardly have fallen but for one of those illogical but almost lovable localisms to which the English temperament is prone. The debate about the Church of England, then and now, differs from most debates in one vital point. It is not a debate about what an institution ought to do, or whether that institution ought to alter, but about what that institution actually is. One party, then as now, only cared for it because it was Catholic, and the other only cared for it be
-
-**Atom:** _(history_short_history_of_england.pdf (source-range-46d51aaf-00372))_
-
-> The "No Popery" force became the crowd if it never became the people.
-
-### Technical frame 2: A SHORT HISTORY OF ENGLAND [Pg 1] / XIV / THE TRIUMPH OF THE WHIGS
-
-**Context:** _(history_short_history_of_england.pdf (source-range-46d51aaf-00388))_
-
-> Thus the strange yet splendid story of eighteenth-century England is one of greatness founded on smallness, a pyramid standing on a point. Or, to vary the metaphor, the new mercantile oligarchy might be symbolized even in the externals of its great sister, the mercantile oligarchy of Venice. The solidity was all in the superstructure; the fluctuation had been all in the foundations. The great temple of Chatham and Warren Hastings was reared in its origins on things as unstable as water and as fu
-
-**Atom:** _(history_short_history_of_england.pdf (source-range-46d51aaf-00387))_
-
-> When William landed at Torbay on the invitation of the other Whig nobles, Churchill, as if to add something ideal to his imitation of Iscariot, went to James with wanton professions of love and loyalty, went forth in arms as if to defend the country from invasion, and then calmly handed the army over to the invader.

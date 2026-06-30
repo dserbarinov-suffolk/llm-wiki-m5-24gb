@@ -1,13 +1,14 @@
 ---
 page_id: coding-little-go-book-section-conclusion-2a806c10
 page_kind: source
-summary: Conclusion: 22 source-backed entries and 1 atom(s) from raw/coding_little_go_book.pdf.
+summary: Conclusion: 22 source-backed entries and 0 atom(s) from raw/coding_little_go_book.pdf.
+page_family: section-reference
 sources: raw/coding_little_go_book.pdf
-updated: 2026-06-29
+updated: 2026-06-30
 domain: coding-little-go-book
 category_path: sources/coding-little-go-book/sections
 source_id: coding_little_go_book.pdf
-projection_coverage: section-coding-little-go-book-section-conclusion-2a806c10@5013b6fd56201b7d898df2ed35b70f2e
+projection_coverage: section-coding-little-go-book-section-conclusion-2a806c10@40a435e38e6ab853db7f2d6ef748539b
 ---
 
 # Conclusion
@@ -17,7 +18,6 @@ From [[coding-little-go-book]].
 ## Related pages
 
 - [[coding-little-go-book-section-chapter-6-concurrency-55851f5e]] - previous source section: Chapter 6 - Concurrency
-- [[coding-little-go-book-conclusion]] - topic hub: opens the topic page for Conclusion
 
 ## Statements
 
@@ -30,15 +30,3 @@ From [[coding-little-go-book]].
 - Boring because it's easy to learn, easy to write and, most importantly, easy to read. _(coding_little_go_book.pdf (source-range-23d24eb1-00471))_
 - I always think it's important to understand basics before using high-level wrappers. _(coding_little_go_book.pdf (source-range-23d24eb1-00475))_
 - I say this because they change how you write and think about concurrent programming. _(coding_little_go_book.pdf (source-range-23d24eb1-00475))_
-
-## Technical atoms
-
-### Technical frame 1: Conclusion
-
-**Context:** _(coding_little_go_book.pdf (source-range-23d24eb1-00474))_
-
-> Beyond this, Go gives us a simple but effective way to organize our code. Interfaces, return-based error handling, defer for resource management and a simple way to achieve composition.
-
-**Atom:** _(coding_little_go_book.pdf (source-range-23d24eb1-00473))_
-
-> Still, it comes down to some basic rules (like you can only declare variable once and := does declare the variable) and fundamental understanding (like new(X) or &X{} only allocate memory, but slices, maps and channels require more initialization and thus, make ).

@@ -1,13 +1,14 @@
 ---
 page_id: rpg-cairn-2e-core-section-procedures-dungeon-exploration-dungeon-elements-8c390c32
 page_kind: source
-summary: Procedures / Dungeon Exploration / Dungeon Elements: 13 source-backed entries and 1 atom(s) from raw/rpg_cairn_2e_core.pdf.
+summary: Procedures / Dungeon Exploration / Dungeon Elements: 13 source-backed entries and 0 atom(s) from raw/rpg_cairn_2e_core.pdf.
+page_family: section-reference
 sources: raw/rpg_cairn_2e_core.pdf
-updated: 2026-06-29
+updated: 2026-06-30
 domain: rpg-cairn-2e-core
 category_path: sources/rpg-cairn-2e-core/sections
 source_id: rpg_cairn_2e_core.pdf
-projection_coverage: section-rpg-cairn-2e-core-section-procedures-dungeon-exploration-dungeon-elements-8c390c32@abde65480ca078e9dc8fe0dc2c05b2c3
+projection_coverage: section-rpg-cairn-2e-core-section-procedures-dungeon-exploration-dungeon-elements-8c390c32@555a592d03bd3a506d7652fb1083a08b
 ---
 
 # Procedures / Dungeon Exploration / Dungeon Elements
@@ -18,7 +19,6 @@ From [[rpg-cairn-2e-core]].
 
 - [[rpg-cairn-2e-core-section-procedures-dungeon-exploration-5242b64d]] - broader source section: Procedures / Dungeon Exploration
 - [[rpg-cairn-2e-core-section-procedures-dungeon-exploration-panic-961d699e]] - previous source section: Procedures / Dungeon Exploration / Panic
-- [[rpg-cairn-2e-core-dungeon-element]] - topic hub: opens the topic page for Dungeon Element
 
 ## Statements
 
@@ -30,15 +30,3 @@ From [[rpg-cairn-2e-core]].
 - Damage from traps is taken from Attributes (usually STR or DEX ) and not from HP . Armor can reduce damage, but only if applicable (e.g. a shield would not reduce damage from noxious gas). _(rpg_cairn_2e_core.pdf (source-range-9b4fff26-00302))_
 - - Torches and other radial sources of light illuminate 40ft of dungeon and beyond that only a dim outline of objects. _(rpg_cairn_2e_core.pdf (source-range-9b4fff26-00292))_
 - - A torch can be lit 3 times before permanently degrading. _(rpg_cairn_2e_core.pdf (source-range-9b4fff26-00293))_
-
-## Technical atoms
-
-### Technical frame 1: Procedures / Dungeon Exploration / Dungeon Elements
-
-**Context:** _(rpg_cairn_2e_core.pdf (source-range-9b4fff26-00300))_
-
-> A cautious character should be presented with any and all information that would allow them the opportunity to avoid springing a trap. An unwitting character will trigger a trap according to the fiction, or otherwise will have a 2-in-6 chance.
-
-**Atom:** _(rpg_cairn_2e_core.pdf (source-range-9b4fff26-00302))_
-
-> Armor can reduce damage, but only if applicable (e.g.

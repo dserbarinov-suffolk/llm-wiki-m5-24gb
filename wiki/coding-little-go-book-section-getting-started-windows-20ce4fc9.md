@@ -2,8 +2,9 @@
 page_id: coding-little-go-book-section-getting-started-windows-20ce4fc9
 page_kind: source
 summary: Getting Started / Windows: 5 source-backed entries and 0 atom(s) from raw/coding_little_go_book.pdf.
+page_family: section-reference
 sources: raw/coding_little_go_book.pdf
-updated: 2026-06-29
+updated: 2026-06-30
 domain: coding-little-go-book
 category_path: sources/coding-little-go-book/sections
 source_id: coding_little_go_book.pdf

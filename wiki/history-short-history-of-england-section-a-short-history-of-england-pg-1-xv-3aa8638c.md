@@ -2,8 +2,9 @@
 page_id: history-short-history-of-england-section-a-short-history-of-england-pg-1-xv-3aa8638c
 page_kind: source
 summary: A SHORT HISTORY OF ENGLAND [Pg 1] / XV: 126 source-backed entries and 2 atom(s) from raw/history_short_history_of_england.pdf.
+page_family: section-reference
 sources: raw/history_short_history_of_england.pdf
-updated: 2026-06-29
+updated: 2026-06-30
 domain: history-short-history-of-england
 category_path: sources/history-short-history-of-england/sections
 source_id: history_short_history_of_england.pdf

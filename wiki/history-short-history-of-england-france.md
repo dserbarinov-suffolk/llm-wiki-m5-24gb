@@ -2,11 +2,12 @@
 page_id: history-short-history-of-england-france
 page_kind: concept
 summary: France: 14 statement(s) and 0 atom(s) from raw/history_short_history_of_england.pdf.
+page_family: topic-concept
 sources: raw/history_short_history_of_england.pdf
-updated: 2026-06-29
+updated: 2026-06-30
 domain: history-short-history-of-england
 category_path: concepts
-projection_coverage: topic-history-short-history-of-england-france@5d3916c8237f39c5875134e4b24c5311
+projection_coverage: topic-history-short-history-of-england-france@4781bfb72778016567c244720882c11c
 ---
 
 # France
@@ -58,18 +59,12 @@ What [[history-short-history-of-england]] covers about france:
 
 ## Related pages
 
-- [[history-short-history-of-england-short-history-england]] - shared statements: A SHORT HISTORY OF ENGLAND [Pg 1] shares source evidence from A SHORT HISTORY OF ENGLAND [Pg 1] / I / THE PROVINCE OF BRITAIN: Every now and then there is discovered in modern England some fragment such as a Roman pavement. Such Roman antiquities rather diminish than increase the Roman reali ... [truncated] (14 shared statement(s))
-- [[history-short-history-of-england-edward-and-norman-king]] - shared statements: ST. EDWARD AND THE NORMAN KINGS shares source evidence from A SHORT HISTORY OF ENGLAND [Pg 1] / V / ST. EDWARD AND THE NORMAN KINGS: Along the northern coast of France, where the Confessor had passed his early life, lay the lands of one of the most powerful of the French king's vassals, the Duke o ... [truncated] (4 shared statement(s))
-- [[history-short-history-of-england-war-republic]] - shared statements: THE WAR WITH THE GREAT REPUBLICS shares source evidence from A SHORT HISTORY OF ENGLAND [Pg 1] / XV / THE WAR WITH THE GREAT REPUBLICS: with it-or (if the view be preferred) it instantly waged two great wars with them. America and France revealed the real nature of the English Parliament. Ice may spa ... [truncated] (3 shared statement(s))
+- [[history-short-history-of-england-norman-king]] - shared statements: Norman King shares source evidence from A SHORT HISTORY OF ENGLAND [Pg 1] / V / ST. EDWARD AND THE NORMAN KINGS: Along the northern coast of France, where the Confessor had passed his early life, lay the lands of one of the most powerful of the French king's vassals, the Duke o ... [truncated] (4 shared statement(s))
 - [[history-short-history-of-england-england]] - shared statements: England shares source evidence from A SHORT HISTORY OF ENGLAND [Pg 1] / I / THE PROVINCE OF BRITAIN: Every now and then there is discovered in modern England some fragment such as a Roman pavement. Such Roman antiquities rather diminish than increase the Roman reali ... [truncated] (2 shared statement(s))
-- [[history-short-history-of-england-nationality-and-french-wars]] - shared statements: NATIONALITY AND THE FRENCH WARS shares source evidence from A SHORT HISTORY OF ENGLAND [Pg 1] / IX / NATIONALITY AND THE FRENCH WARS: That coincidence or course of events, which must often be remarked in this story, by which (for whatever reason) our most powerful kings did not somehow leave their ... [truncated] (2 shared statement(s))
-- [[history-short-history-of-england-age-crusade]] - shared statements: THE AGE OF THE CRUSADES shares source evidence from A SHORT HISTORY OF ENGLAND [Pg 1] / VI / THE AGE OF THE CRUSADES: That transition and that symbol stand for the Crusades. In their romance and reality they were the first English experience of learning, not only from the external, ... [truncated] (1 shared statement(s))
 - [[history-short-history-of-england-english]] - shared statements: English shares source evidence from A SHORT HISTORY OF ENGLAND [Pg 1] / XIV / THE TRIUMPH OF THE WHIGS: But here again the Stuart position was much more vulnerable on the side of secular policy, and especially of foreign policy. The aristocrats to whom power passed fin ... [truncated] (1 shared statement(s))
-- [[history-short-history-of-england-norman-king]] - shared statements: Norman King shares source evidence from A SHORT HISTORY OF ENGLAND [Pg 1] / V / ST. EDWARD AND THE NORMAN KINGS: Along the northern coast of France, where the Confessor had passed his early life, lay the lands of one of the most powerful of the French king's vassals, the Duke o ... [truncated] (1 shared statement(s))
-- [[history-short-history-of-england-problem-plantagenet]] - shared statements: THE PROBLEM OF THE PLANTAGENETS shares source evidence from A SHORT HISTORY OF ENGLAND [Pg 1] / VII / THE PROBLEM OF THE PLANTAGENETS: Henry of Anjou, who brought fresh French blood into the monarchy, brought also a refreshment of the idea for which the French have always stood: the idea in the Roma ... [truncated] (1 shared statement(s))
-- [[history-short-history-of-england-province-britain]] - shared statements: THE PROVINCE OF BRITAIN shares source evidence from A SHORT HISTORY OF ENGLAND [Pg 1] / I / THE PROVINCE OF BRITAIN: Every now and then there is discovered in modern England some fragment such as a Roman pavement. Such Roman antiquities rather diminish than increase the Roman reali ... [truncated] (1 shared statement(s))
-- [[history-short-history-of-england-spain-and-schism-nation]] - shared statements: SPAIN AND THE SCHISM OF NATIONS shares source evidence from A SHORT HISTORY OF ENGLAND [Pg 1] / XII / SPAIN AND THE SCHISM OF NATIONS: There is a truth also in the popular insistence on the story of Mary having "Calais" written on her heart, when the last relic of the mediæval conquests reverted to ... [truncated] (1 shared statement(s))
-- [[history-short-history-of-england-triumph-whig]] - shared statements: THE TRIUMPH OF THE WHIGS shares source evidence from A SHORT HISTORY OF ENGLAND [Pg 1] / XIV / THE TRIUMPH OF THE WHIGS: But here again the Stuart position was much more vulnerable on the side of secular policy, and especially of foreign policy. The aristocrats to whom power passed fin ... [truncated] (1 shared statement(s))
+- [[history-short-history-of-england-government]] - shared statements: Government shares source evidence from A SHORT HISTORY OF ENGLAND [Pg 1] / V / ST. EDWARD AND THE NORMAN KINGS: There are paradoxes permissible for the redressing of a bad balance in criticism, and which may safely even be emphasized so long as they are not isolated. One of th ... [truncated] (1 shared statement(s))
+- [[history-short-history-of-england-richard]] - shared statements: Richard shares source evidence from A SHORT HISTORY OF ENGLAND [Pg 1] / VI / THE AGE OF THE CRUSADES: That transition and that symbol stand for the Crusades. In their romance and reality they were the first English experience of learning, not only from the external, ... [truncated] (1 shared statement(s))
+- [[history-short-history-of-england-rome]] - shared statements: Rome shares source evidence from A SHORT HISTORY OF ENGLAND [Pg 1] / VII / THE PROBLEM OF THE PLANTAGENETS: Henry of Anjou, who brought fresh French blood into the monarchy, brought also a refreshment of the idea for which the French have always stood: the idea in the Roma ... [truncated] (1 shared statement(s))
 
 ## Source
 

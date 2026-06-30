@@ -2,8 +2,9 @@
 page_id: rpg-cairn-2e-core-section-core-rules-magic-spellbooks-c04f80a3
 page_kind: source
 summary: Core Rules / Magic / Spellbooks: 6 source-backed entries and 0 atom(s) from raw/rpg_cairn_2e_core.pdf.
+page_family: section-reference
 sources: raw/rpg_cairn_2e_core.pdf
-updated: 2026-06-29
+updated: 2026-06-30
 domain: rpg-cairn-2e-core
 category_path: sources/rpg-cairn-2e-core/sections
 source_id: rpg_cairn_2e_core.pdf

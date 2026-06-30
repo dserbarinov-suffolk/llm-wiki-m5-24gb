@@ -1,13 +1,14 @@
 ---
 page_id: coding-learn-go-with-tests-excerpt-section-one-last-refactor-09b754e6
 page_kind: source
-summary: one...last...refactor?: 15 source-backed entries and 3 atom(s) from raw/coding_learn_go_with_tests_excerpt.pdf.
+summary: one...last...refactor?: 15 source-backed entries and 0 atom(s) from raw/coding_learn_go_with_tests_excerpt.pdf.
+page_family: section-reference
 sources: raw/coding_learn_go_with_tests_excerpt.pdf
-updated: 2026-06-29
+updated: 2026-06-30
 domain: coding-learn-go-with-tests-excerpt
 category_path: sources/coding-learn-go-with-tests-excerpt/sections
 source_id: coding_learn_go_with_tests_excerpt.pdf
-projection_coverage: section-coding-learn-go-with-tests-excerpt-section-one-last-refactor-09b754e6@44729b59307963a72a90b1040faf4113
+projection_coverage: section-coding-learn-go-with-tests-excerpt-section-one-last-refactor-09b754e6@5eab78c6b1a53be1eeb5797baeb19185
 ---
 
 # one...last...refactor?
@@ -30,62 +31,3 @@ From [[coding-learn-go-with-tests-excerpt]].
 - The function name starts with a lowercase letter. In Go, public functions start with a capital letter, and private ones start with a lowercase letter. We don't want the internals of our algorithm exposed to the world, so we made this function private. _(coding_learn_go_with_tests_excerpt.pdf (source-range-cb73a893-00146))_
 - Also, we can group constants in a block instead of declaring them on their own line. For readability, it's a good idea to use a line between sets of related constants. _(coding_learn_go_with_tests_excerpt.pdf (source-range-cb73a893-00147))_
 - This depends on the type, for example int s are 0 and for string s it is "" . _(coding_learn_go_with_tests_excerpt.pdf (source-range-cb73a893-00142))_
-
-## Technical atoms
-
-### Technical frame 1: one...last...refactor?
-
-**Context:** _(coding_learn_go_with_tests_excerpt.pdf (source-range-cb73a893-00140))_
-
-> In our function signature we have made a named return value (prefix string) .
-
-**Atom:** _(coding_learn_go_with_tests_excerpt.pdf (source-range-cb73a893-00136))_
-
-```
-const (
-    spanish = "Spanish"
-    french  = "French"
-englishHelloPrefix = "Hello, "
-    spanishHelloPrefix = "Hola, "
-    frenchHelloPrefix  = "Bonjour, "
-)
-func Hello(name string, language string) string {
-    if name == "" {
-        name = "World"
-    }
-return greetingPrefix(language) + name
-```
-
-### Technical frame 2: one...last...refactor?
-
-**Context:** _(coding_learn_go_with_tests_excerpt.pdf (source-range-cb73a893-00140))_
-
-> In our function signature we have made a named return value (prefix string) .
-
-**Atom:** _(coding_learn_go_with_tests_excerpt.pdf (source-range-cb73a893-00137))_
-
-```
-}
-func greetingPrefix(language string) (prefix string) {
-    switch language {
-    case french:
-        prefix = frenchHelloPrefix
-    case spanish:
-        prefix = spanishHelloPrefix
-    default:
-        prefix = englishHelloPrefix
-    }
-    return
-```
-
-### Technical frame 3: one...last...refactor?
-
-**Context:** _(coding_learn_go_with_tests_excerpt.pdf (source-range-cb73a893-00140))_
-
-> In our function signature we have made a named return value (prefix string) .
-
-**Atom:** _(coding_learn_go_with_tests_excerpt.pdf (source-range-cb73a893-00138))_
-
-```
-}
-```

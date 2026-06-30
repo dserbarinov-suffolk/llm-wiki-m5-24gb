@@ -2,12 +2,13 @@
 page_id: rpg-cairn-2e-core-section-dungeon-exploration-dungeon-exploration-example-the-courtyard-1f701571
 page_kind: source
 summary: Dungeon Exploration / Dungeon Exploration Example / The Courtyard: 45 source-backed entries and 0 atom(s) from raw/rpg_cairn_2e_core.pdf.
+page_family: section-reference
 sources: raw/rpg_cairn_2e_core.pdf
-updated: 2026-06-29
+updated: 2026-06-30
 domain: rpg-cairn-2e-core
 category_path: sources/rpg-cairn-2e-core/sections
 source_id: rpg_cairn_2e_core.pdf
-projection_coverage: section-rpg-cairn-2e-core-section-dungeon-exploration-dungeon-exploration-example-the-courtyard-1f701571@d7213b5c8041d3fa92fc67de9a40c02e
+projection_coverage: section-rpg-cairn-2e-core-section-dungeon-exploration-dungeon-exploration-example-the-courtyard-1f701571@0c609d5b34d7962485d0bf5f18210e50
 ---
 
 # Dungeon Exploration / Dungeon Exploration Example / The Courtyard
@@ -17,7 +18,6 @@ From [[rpg-cairn-2e-core]].
 ## Related pages
 
 - [[rpg-cairn-2e-core-section-dungeon-exploration-dungeon-exploration-example-9af136c8]] - broader source section: Dungeon Exploration / Dungeon Exploration Example
-- [[rpg-cairn-2e-core-courtyard]] - topic hub: opens the topic page for Courtyard
 
 ## Statements
 

@@ -2,12 +2,13 @@
 page_id: rpg-cairn-2e-core-section-bonds-and-omens-bonds-b90b9274
 page_kind: source
 summary: Bonds and Omens / Bonds: 7 source-backed entries and 0 atom(s) from raw/rpg_cairn_2e_core.pdf.
+page_family: section-reference
 sources: raw/rpg_cairn_2e_core.pdf
-updated: 2026-06-29
+updated: 2026-06-30
 domain: rpg-cairn-2e-core
 category_path: sources/rpg-cairn-2e-core/sections
 source_id: rpg_cairn_2e_core.pdf
-projection_coverage: section-rpg-cairn-2e-core-section-bonds-and-omens-bonds-b90b9274@d04152f9ef024b5a0c254c77e61813b2
+projection_coverage: section-rpg-cairn-2e-core-section-bonds-and-omens-bonds-b90b9274@9a7df78f908ae79f02b2f16847e4805d
 ---
 
 # Bonds and Omens / Bonds
@@ -20,6 +21,7 @@ From [[rpg-cairn-2e-core]].
 - [[rpg-cairn-2e-core-section-bonds-and-omens-bonds-bonds-should-c821fb26]] - narrower source section: Bonds and Omens / Bonds / Bonds Should...
 - [[rpg-cairn-2e-core-section-bonds-and-omens-introduction-cd5c0867]] - previous source section: Bonds and Omens / Introduction
 - [[rpg-cairn-2e-core-section-bonds-and-omens-omens-41e3ad6a]] - next source section: Bonds and Omens / Omens
+- [[rpg-cairn-2e-core-bond]] - topic hub: opens the topic page for Bond
 
 ## Statements
 

@@ -1,13 +1,14 @@
 ---
 page_id: rpg-cairn-2e-core-section-saves-save-principles-3ab4df9a
 page_kind: source
-summary: Saves / Save Principles: 17 source-backed entries and 2 atom(s) from raw/rpg_cairn_2e_core.pdf.
+summary: Saves / Save Principles: 17 source-backed entries and 0 atom(s) from raw/rpg_cairn_2e_core.pdf.
+page_family: section-reference
 sources: raw/rpg_cairn_2e_core.pdf
-updated: 2026-06-29
+updated: 2026-06-30
 domain: rpg-cairn-2e-core
 category_path: sources/rpg-cairn-2e-core/sections
 source_id: rpg_cairn_2e_core.pdf
-projection_coverage: section-rpg-cairn-2e-core-section-saves-save-principles-3ab4df9a@aab7189f0083d409145955448ce2e4fc
+projection_coverage: section-rpg-cairn-2e-core-section-saves-save-principles-3ab4df9a@d34050397f3165f311abbaa2c1232739
 ---
 
 # Saves / Save Principles
@@ -19,7 +20,6 @@ From [[rpg-cairn-2e-core]].
 - [[rpg-cairn-2e-core-section-saves-9ce57d98]] - broader source section: Saves
 - [[rpg-cairn-2e-core-section-saves-when-to-save-33474592]] - previous source section: Saves / When To Save
 - [[rpg-cairn-2e-core-section-saves-traditional-saves-c05f2b84]] - next source section: Saves / Traditional Saves
-- [[rpg-cairn-2e-core-save-principle]] - topic hub: opens the topic page for Save Principle
 
 ## Statements
 
@@ -32,25 +32,3 @@ From [[rpg-cairn-2e-core]].
 - Replace multiple dice rolls with a single dice throw. Simplifying results to a single roll can increase tension while maximizing player input. _(rpg_cairn_2e_core.pdf (source-range-9b4fff26-00511))_
 - If the answer is "no," then a save is usually warranted. _(rpg_cairn_2e_core.pdf (source-range-9b4fff26-00504))_
 - If the answer is "I don't know," then a roll with the Die of Fate may be necessary. _(rpg_cairn_2e_core.pdf (source-range-9b4fff26-00504))_
-
-## Technical atoms
-
-### Technical frame 1: Saves / Save Principles
-
-**Context:** _(rpg_cairn_2e_core.pdf (source-range-9b4fff26-00506))_
-
-> Character death should never come as a surprise. If the risk is so great that the outcome might be fatal, make sure the player understands what they're getting into.
-
-**Atom:** _(rpg_cairn_2e_core.pdf (source-range-9b4fff26-00505))_
-
-> If the party cannot proceed due to circumstances beyond their control, give them another option to consider.
-
-### Technical frame 2: Saves / Save Principles
-
-**Context:** _(rpg_cairn_2e_core.pdf (source-range-9b4fff26-00511))_
-
-> Replace multiple dice rolls with a single dice throw. Simplifying results to a single roll can increase tension while maximizing player input.
-
-**Atom:** _(rpg_cairn_2e_core.pdf (source-range-9b4fff26-00510))_
-
-> If a PC can solve a problem using purely narrative components, do not ask for a roll .

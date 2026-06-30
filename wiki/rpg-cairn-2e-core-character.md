@@ -2,11 +2,12 @@
 page_id: rpg-cairn-2e-core-character
 page_kind: concept
 summary: Character: 37 statement(s) and 12 atom(s) from raw/rpg_cairn_2e_core.pdf.
+page_family: broad-topic
 sources: raw/rpg_cairn_2e_core.pdf
-updated: 2026-06-29
+updated: 2026-06-30
 domain: rpg-cairn-2e-core
 category_path: concepts
-projection_coverage: topic-rpg-cairn-2e-core-character@719d3ba95abc756bbc2530d8baa091d9
+projection_coverage: topic-rpg-cairn-2e-core-character@76c4284dbebe051d771fe315c0cfad26
 ---
 
 # Character
@@ -73,8 +74,6 @@ What [[rpg-cairn-2e-core]] covers about character:
 
 - A character can detect, through careful observation (listening, smelling, etc.), signs of life and other hazards through nearby doors and walls. _(rpg_cairn_2e_core.pdf (source-range-9b4fff26-00298))_
 
-- A cautious character should be presented with any and all information that would allow them the opportunity to avoid springing a trap. An unwitting character will trigger a trap according to the fiction, or otherwise will have a 2-in-6 chance. _(rpg_cairn_2e_core.pdf (source-range-9b4fff26-00300))_
-
 ### Procedures / Wilderness Exploration / Watches
 
 - Each character can choose one Wilderness Action per watch . _(rpg_cairn_2e_core.pdf (source-range-9b4fff26-00306))_
@@ -131,6 +130,8 @@ What [[rpg-cairn-2e-core]] covers about character:
 
 - Alway tell the characters something about the setting they did not already know. _(rpg_cairn_2e_core.pdf (source-range-9b4fff26-00676))_
 
+- A cautious character should be presented with any and all information that would allow them the opportunity to avoid springing a trap. _(rpg_cairn_2e_core.pdf (source-range-9b4fff26-00300))_
+- An unwitting character will trigger a trap according to the fiction, or otherwise will have a 2-in-6 chance. _(rpg_cairn_2e_core.pdf (source-range-9b4fff26-00300))_
 
 ## Technical atoms
 
@@ -632,24 +633,16 @@ coming, and it will consume everything.
 
 ## Related pages
 
-- [[rpg-cairn-2e-core-character-creation]] - narrower topic: Character Creation shares source evidence from Character Creation / Attributes: Player Characters have just three Attributes: ( Strength (STR) , Dexterity (DEX) , and Willpower (WIL) ).; Character Creation shares technical record from Character Creation / Backgrounds: Backgrounds 1 Aurifex 11 Half-Witch 2 Barber-Surgeon 12 Hexenbane 3 Beast Handler 13 Jongleur 4 Bonekeeper 14 Kettlewright 5 Cutpurse 15 Marchguard 6 Fieldwarden 16 ... [truncated] (4 shared statement(s), 10 shared atom(s))
-- [[rpg-cairn-2e-core-procedure]] - shared statements and technical atoms: Procedures shares source evidence from Procedures / Dungeon Exploration / The Basics: On their turn , a character can move a distance equal to their torchlight's perimeter (about 40ft), and perform one action . Players can use their action to move up ... [truncated]; Procedures shares technical record from Procedures / Dungeon Exploration / Dungeon Exploration Cycle: Remember, the Die of Fate can be a useful tool whenever the Warden is in doubt! (17 shared statement(s), 2 shared atom(s))
-- [[rpg-cairn-2e-core-dungeon-exploration]] - shared statements and technical atoms: Dungeon Exploration shares source evidence from Procedures / Dungeon Exploration / The Basics: On their turn , a character can move a distance equal to their torchlight's perimeter (about 40ft), and perform one action . Players can use their action to move up ... [truncated]; Dungeon Exploration shares technical record from Procedures / Dungeon Exploration / Dungeon Exploration Cycle: Remember, the Die of Fate can be a useful tool whenever the Warden is in doubt! (10 shared statement(s), 2 shared atom(s))
+- [[rpg-cairn-2e-core-dungeon-exploration]] - shared statements and technical atoms: Dungeon Exploration shares source evidence from Procedures / Dungeon Exploration / The Basics: On their turn , a character can move a distance equal to their torchlight's perimeter (about 40ft), and perform one action . Players can use their action to move up ... [truncated]; Dungeon Exploration shares technical record from Procedures / Dungeon Exploration / Dungeon Exploration Cycle: Remember, the Die of Fate can be a useful tool whenever the Warden is in doubt! (13 shared statement(s), 2 shared atom(s))
 - [[rpg-cairn-2e-core-player]] - shared statements and technical atoms: Player shares source evidence from Character Creation / Attributes: Player Characters have just three Attributes: ( Strength (STR) , Dexterity (DEX) , and Willpower (WIL) ).; Player shares technical record from Procedures / Dungeon Exploration / Dungeon Exploration Cycle: Remember, the Die of Fate can be a useful tool whenever the Warden is in doubt! (3 shared statement(s), 2 shared atom(s))
+- [[rpg-cairn-2e-core-action]] - shared statements and technical atoms: Action shares source evidence from Procedures / Dungeon Exploration / Dungeon Exploration Cycle: The Warden resolves the actions of each character simultaneously, along with any actions that are already in progress. Remember, the Die of Fate can be a useful tool ... [truncated]; Action shares technical record from Procedures / Dungeon Exploration / Dungeon Exploration Cycle: Remember, the Die of Fate can be a useful tool whenever the Warden is in doubt! (1 shared statement(s), 2 shared atom(s))
 - [[rpg-cairn-2e-core-warden]] - shared statements and technical atoms: Warden shares source evidence from Procedures / Dungeon Exploration / Dungeon Exploration Cycle: The Warden resolves the actions of each character simultaneously, along with any actions that are already in progress. Remember, the Die of Fate can be a useful tool ... [truncated]; Warden shares technical record from Procedures / Dungeon Exploration / Dungeon Exploration Cycle: Remember, the Die of Fate can be a useful tool whenever the Warden is in doubt! (1 shared statement(s), 2 shared atom(s))
-- [[rpg-cairn-2e-core-bond-and-omen]] - shared statements: Bonds and Omens shares source evidence from Bonds and Omens / Bonds: Bonds can often tie a player character to another PC, the setting, and its characters. A PC can resolve a Bond by discovering the truth behind its mysteries or by so ... [truncated] (5 shared statement(s))
-- [[rpg-cairn-2e-core-dungeon-element]] - shared statements: Dungeon Elements shares source evidence from Procedures / Dungeon Exploration / Dungeon Elements: Characters without a light source may suffer from panic until their situation is remedied. (5 shared statement(s))
-- [[rpg-cairn-2e-core-core-rule]] - shared statements: Core Rules shares source evidence from Core Rules / Saves: A save is a roll to avoid negative outcomes from risky choices. Characters roll a d20 and compare the results to the appropriate attribute. If they roll equal to or ... [truncated] (4 shared statement(s))
-- [[rpg-cairn-2e-core-downtime-action]] - shared statements: Downtime Actions shares source evidence from Procedures / Downtime Actions / Training: A character can improve their skills with an item or ability, with clear narrative or mechanical results. They might be interested in dealing greater damage with a p ... [truncated] (2 shared statement(s))
-- [[rpg-cairn-2e-core-overview-principle]] - shared statements: Overview & Principles shares source evidence from Overview & Principles / Overview / Death: Characters may be powerful, but they are also vulnerable to harm in its many forms. Death is always around the corner, but it is never random or without warning. (2 shared statement(s))
-- [[rpg-cairn-2e-core-terrain-difficulty]] - shared statements: Terrain Difficulty shares source evidence from Procedures / Terrain Difficulty / Wilderness Elements: Characters typically need to sleep each day. Anything beyond a minor interruption can negate or cancel the benefits of sleep. (2 shared statement(s))
-- [[rpg-cairn-2e-core-training]] - shared statements: Training shares source evidence from Procedures / Downtime Actions / Training: A character can improve their skills with an item or ability, with clear narrative or mechanical results. They might be interested in dealing greater damage with a p ... [truncated] (2 shared statement(s))
-- [[rpg-cairn-2e-core-wilderness-element]] - shared statements: Wilderness Elements shares source evidence from Procedures / Terrain Difficulty / Wilderness Elements: Characters typically need to sleep each day. Anything beyond a minor interruption can negate or cancel the benefits of sleep. (2 shared statement(s))
-- [[rpg-cairn-2e-core-combat]] - shared statements: Combat shares source evidence from Core Rules / Combat / Attribute Loss: If a PC's STR is reduced to 0, they die. If their DEX is reduced to 0, they are paralyzed. If their WIL is reduced to 0, they are delirious. Complete DEX and WIL los ... [truncated] (1 shared statement(s))
-- [[rpg-cairn-2e-core-courtyard]] - shared statements: The Courtyard shares source evidence from Dungeon Exploration / Dungeon Exploration Example / The Courtyard: The characters then declare their intended actions. (1 shared statement(s))
-- [[rpg-cairn-2e-core-knowledge-and-perception]] - shared statements: Knowledge And Perception shares source evidence from Knowledge And Perception / Knowledge: If a character has no justifiable knowledge of a subject, then they simply do not know anything about it! However, the Warden may decide to roll the Die of Fate to d ... [truncated] (1 shared statement(s))
-- [[rpg-cairn-2e-core-principle-for-player]] - shared statements: Principles for Players shares source evidence from Overview & Principles / Principles for Players / Agency: Don't ask only what your character would do; ask what you would do, too. (1 shared statement(s))
-- [[rpg-cairn-2e-core-save-principle]] - shared statements: Save Principles shares source evidence from Saves / Save Principles: Character death should never come as a surprise. If the risk is so great that the outcome might be fatal, make sure the player understands what they're getting into. (1 shared statement(s))
+- [[rpg-cairn-2e-core-bond]] - shared statements: Bond shares source evidence from Bonds and Omens / Bonds: Bonds can often tie a player character to another PC, the setting, and its characters. A PC can resolve a Bond by discovering the truth behind its mysteries or by so ... [truncated] (2 shared statement(s))
+- [[rpg-cairn-2e-core-light]] - shared statements: Light shares source evidence from Procedures / Dungeon Exploration / Dungeon Elements: Characters without a light source may suffer from panic until their situation is remedied. (2 shared statement(s))
+- [[rpg-cairn-2e-core-source]] - shared statements: Source shares source evidence from Procedures / Dungeon Exploration / Dungeon Elements: Characters without a light source may suffer from panic until their situation is remedied. (2 shared statement(s))
+- [[rpg-cairn-2e-core-alway]] - shared statements: Alway shares source evidence from Bonds and Omens / Omens / Omens Should...: Alway tell the characters something about the setting they did not already know. (1 shared statement(s))
+- [[rpg-cairn-2e-core-knowledge]] - shared statements: Knowledge shares source evidence from Knowledge And Perception / Knowledge: If a character has no justifiable knowledge of a subject, then they simply do not know anything about it! However, the Warden may decide to roll the Die of Fate to d ... [truncated] (1 shared statement(s))
+- [[rpg-cairn-2e-core-perception]] - shared statements: Perception shares source evidence from Knowledge And Perception / Knowledge: If a character has no justifiable knowledge of a subject, then they simply do not know anything about it! However, the Warden may decide to roll the Die of Fate to d ... [truncated] (1 shared statement(s))
 
 ## Source
 

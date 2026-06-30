@@ -1,13 +1,14 @@
 ---
 page_id: rpg-dnd-srd-excerpt-section-combat-step-by-step-b2ad6fe6
 page_kind: source
-summary: Combat Step by Step: 35 source-backed entries and 6 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
+summary: Combat Step by Step: 35 source-backed entries and 0 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
+page_family: section-reference
 sources: raw/rpg_dnd_srd_excerpt.pdf
-updated: 2026-06-29
+updated: 2026-06-30
 domain: rpg-dnd-srd-excerpt
 category_path: sources/rpg-dnd-srd-excerpt/sections
 source_id: rpg_dnd_srd_excerpt.pdf
-projection_coverage: section-rpg-dnd-srd-excerpt-section-combat-step-by-step-b2ad6fe6@ea7f2cbddb99c2df9a81df0125f449dd
+projection_coverage: section-rpg-dnd-srd-excerpt-section-combat-step-by-step-b2ad6fe6@cf64781520ec0f2ca51c02b0bb6041ea
 ---
 
 # Combat Step by Step
@@ -23,7 +24,6 @@ From [[rpg-dnd-srd-excerpt]].
 - [[rpg-dnd-srd-excerpt-section-combat-step-by-step-other-activity-on-your-turn-caea7f56]] - narrower source section: Combat Step by Step / Other Activity on Your Turn
 - [[rpg-dnd-srd-excerpt-section-order-of-combat-40c586d3]] - previous source section: ORDER OF COMBAT
 - [[rpg-dnd-srd-excerpt-section-reactions-601ca1ab]] - next source section: Reactions
-- [[rpg-dnd-srd-excerpt-combat-step]] - topic hub: opens the topic page for Combat Step
 
 ## Statements
 
@@ -53,49 +53,3 @@ From [[rpg-dnd-srd-excerpt]].
 
 - open a door during your move as you stride toward a foe, or you could draw your weapon as part of the same action you use to attack. If you want to interact with a second object, you need to use your action. Some magic items and other special objects always require an action to use, as stated in their descriptions. The GM might require you to use an action for any of these activities when it needs special care or when it presents an unusual obstacle. For instance, the GM could reasonably expect you to use an action to open a stuck door or turn a crank to lower a drawbridge. _(rpg_dnd_srd_excerpt.pdf (source-range-4449ec9f-00270))_
 - For instance, the GM could reasonably expect you to use an action to open a stuck door or turn a crank to lower a drawbridge. _(rpg_dnd_srd_excerpt.pdf (source-range-4449ec9f-00270))_
-
-## Technical atoms
-
-### Technical frame 1: Combat Step by Step / Surprise
-
-**Context:** _(rpg_dnd_srd_excerpt.pdf (source-range-4449ec9f-00258))_
-
-> The GM determines who might be surprised. If neither side tries to be stealthy, they automatically notice each other. Otherwise, the GM compares the Dexterity (Stealth) checks of anyone hiding with the passive Wisdom (Perception) score of each creature on the opposing side. Any character or monster that doesn't notice a threat is surprised at the start of the encounter.
-
-**Atom:** _(rpg_dnd_srd_excerpt.pdf (source-range-4449ec9f-00259))_
-
-> If you're surprised, you can't move or take an action on your first turn of the combat, and you can't take a reaction until that turn ends.
-
-### Technical frame 2: Combat Step by Step / Initiative
-
-**Atom:** _(rpg_dnd_srd_excerpt.pdf (source-range-4449ec9f-00261))_
-
-> The GM can decide the order if the tie is between a monster and a player character.
-
-### Technical frame 3: Combat Step by Step / Your Turn
-
-**Atom:** _(rpg_dnd_srd_excerpt.pdf (source-range-4449ec9f-00263))_
-
-> On your turn, you can move a distance up to your speed and take one action .
-
-### Technical frame 4: Combat Step by Step / Bonus Actions
-
-**Atom:** _(rpg_dnd_srd_excerpt.pdf (source-range-4449ec9f-00266))_
-
-> You can take a bonus action only when a special ability, spell, or other feature of the game states that you can do something as a bonus action.
-
-### Technical frame 5: Combat Step by Step / Bonus Actions
-
-**Atom:** _(rpg_dnd_srd_excerpt.pdf (source-range-4449ec9f-00266))_
-
-> Various class features, spells, and other abilities let you take an additional action on your turn called a bonus action. The Cunning Action feature, for example, allows a rogue to take a bonus action. You can take a bonus action only when a special ability, spell, or other feature of the game states that you can do something as a bonus action. You otherwise don't have a bonus action to take. You can take only one bonus action on your turn, so you must choose which bonus action to use when you have more than one available. You choose when to take a bonus action during your turn, unless the bonus action's timing is specified, and anything that deprives you of your ability to take actions also prevents you from taking a bonus
-
-### Technical frame 6: Combat Step by Step / Other Activity on Your Turn
-
-**Context:** _(rpg_dnd_srd_excerpt.pdf (source-range-4449ec9f-00270))_
-
-> open a door during your move as you stride toward a foe, or you could draw your weapon as part of the same action you use to attack. If you want to interact with a second object, you need to use your action. Some magic items and other special objects always require an action to use, as stated in their descriptions. The GM might require you to use an action for any of these activities when it needs special care or when it presents an unusual obstacle. For instance, the GM could reasonably expect 
-
-**Atom:** _(rpg_dnd_srd_excerpt.pdf (source-range-4449ec9f-00269))_
-
-> Your turn can include a variety of flourishes that require neither your action nor your move. You can communicate however you are able, through brief utterances and gestures, as you take your turn. You can also interact with one object or feature of the environment for free, during either your move or your action. For example, you could

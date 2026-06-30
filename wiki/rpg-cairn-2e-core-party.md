@@ -1,12 +1,13 @@
 ---
 page_id: rpg-cairn-2e-core-party
 page_kind: concept
-summary: Party: 24 statement(s) and 2 atom(s) from raw/rpg_cairn_2e_core.pdf.
+summary: Party: 26 statement(s) and 2 atom(s) from raw/rpg_cairn_2e_core.pdf.
+page_family: broad-topic
 sources: raw/rpg_cairn_2e_core.pdf
-updated: 2026-06-29
+updated: 2026-06-30
 domain: rpg-cairn-2e-core
 category_path: concepts
-projection_coverage: topic-rpg-cairn-2e-core-party@87628d29757633a696b99fb478e6ce74
+projection_coverage: topic-rpg-cairn-2e-core-party@ecd7c5e9e098e76084da33cb97dcdfa0
 ---
 
 # Party
@@ -19,7 +20,13 @@ What [[rpg-cairn-2e-core]] covers about party:
 
 - Players trust one another to engage with the shared setting, character goals, and party challenges. Therefore the party is typically working together towards a common goal, as a team. _(rpg_cairn_2e_core.pdf (source-range-9b4fff26-00023))_
 
+### Core Rules / Hirelings
+
+- Adventuring parties can recruit hirelings, relying on their unique skills, knowledge, and training to aid in expeditions. _(rpg_cairn_2e_core.pdf (source-range-9b4fff26-00196))_
+
 ### Procedures / Wilderness Exploration / Travel Duration
+
+- Travel time in Cairn is counted in watches, divided into three eighthour segments per day. However, as most parties elect to spend the third watch of the day resting, one can use "days" as a shorthand for travel time. _(rpg_cairn_2e_core.pdf (source-range-9b4fff26-00314))_
 
 - The weather, terrain, darkness, injured party members, and other obstacles can impact travel or even make it impossible! In some cases, the party may need to add Fatigue or expend resources in order to sustain their pace. Mounts, guides, and maps can increase the party's travel speed or even negate certain penalties. _(rpg_cairn_2e_core.pdf (source-range-9b4fff26-00316))_
 
@@ -36,12 +43,6 @@ What [[rpg-cairn-2e-core]] covers about party:
 - If lost, the party may need to spend a Wilderness Action to recover their way. Otherwise, the party reaches the next point along their route. _(rpg_cairn_2e_core.pdf (source-range-9b4fff26-00373))_
 
 - One or more party members may hunt, fish, or forage for food, collecting 1d4 Rations (3 uses each). The chance of a greater bounty increases with each additional participant (e.g. 1d4 becomes 1d6, up to a maximum of 1d12). _(rpg_cairn_2e_core.pdf (source-range-9b4fff26-00380))_
-
-- The party may encounter homes and small villages, spending gold and a full watch to resupply. _(rpg_cairn_2e_core.pdf (source-range-9b4fff26-00382))_
-
-- A lookout rotation is set so that the party can sleep unmolested. A smaller party may need to risk sleeping unguarded or switch off sleeping over multiple days. _(rpg_cairn_2e_core.pdf (source-range-9b4fff26-00385))_
-
-- Party members that were able to rest remove all of Fatigue from their inventory. _(rpg_cairn_2e_core.pdf (source-range-9b4fff26-00386))_
 
 ### Procedures / Downtime Actions / Research
 
@@ -83,8 +84,10 @@ What [[rpg-cairn-2e-core]] covers about party:
 
 - The party takes the Make Camp action. They set up a hastilymade shelter, and each character consumes a Ration. A lookout rotation is set, dividing the night between all four party members. _(rpg_cairn_2e_core.pdf (source-range-9b4fff26-00659))_
 
+- The party may encounter homes and small villages, spending gold and a full watch to resupply. _(rpg_cairn_2e_core.pdf (source-range-9b4fff26-00382))_
+- A smaller party may need to risk sleeping unguarded or switch off sleeping over multiple days. _(rpg_cairn_2e_core.pdf (source-range-9b4fff26-00385))_
+- Party members that were able to rest remove all of Fatigue from their inventory. _(rpg_cairn_2e_core.pdf (source-range-9b4fff26-00386))_
 - Note: the party could have chosen to continue on through the night, but doing so could increase the chance of getting lost and put the party at greater risk! _(rpg_cairn_2e_core.pdf (source-range-9b4fff26-00661))_
-
 
 ## Technical atoms
 
@@ -111,17 +114,12 @@ What [[rpg-cairn-2e-core]] covers about party:
 
 ## Related pages
 
-- [[rpg-cairn-2e-core-procedure]] - shared statements and technical atoms: Procedures shares source evidence from Procedures / Wilderness Exploration / Travel Duration: The weather, terrain, darkness, injured party members, and other obstacles can impact travel or even make it impossible! In some cases, the party may need to add Fat ... [truncated]; Procedures shares technical record from Procedures / Terrain Difficulty / Wilderness Elements: The Warden should roll twice on the Wilderness Events table. (13 shared statement(s), 1 shared atom(s))
-- [[rpg-cairn-2e-core-terrain-difficulty]] - shared statements and technical atoms: Terrain Difficulty shares source evidence from Procedures / Terrain Difficulty / Wilderness Elements: The party can choose to travel during the night and rest during the day, but night travel is far slower and more treacherous!; Terrain Difficulty shares technical record from Procedures / Terrain Difficulty / Wilderness Elements: The Warden should roll twice on the Wilderness Events table. (8 shared statement(s), 1 shared atom(s))
-- [[rpg-cairn-2e-core-wilderness-element]] - shared statements and technical atoms: Wilderness Elements shares source evidence from Procedures / Terrain Difficulty / Wilderness Elements: The party can choose to travel during the night and rest during the day, but night travel is far slower and more treacherous!; Wilderness Elements shares technical record from Procedures / Terrain Difficulty / Wilderness Elements: The Warden should roll twice on the Wilderness Events table. (2 shared statement(s), 1 shared atom(s))
-- [[rpg-cairn-2e-core-save-principle]] - shared statements and technical atoms: Save Principles shares source evidence from Saves / Save Principles: When in doubt, ask whether the party has the time, resources, skills, or advantage to overcome a problem. If the answer is "no," then a save is usually warranted. If ... [truncated]; Save Principles shares technical record from Saves / Save Principles: If the party cannot proceed due to circumstances beyond their control, give them another option to consider. (1 shared statement(s), 1 shared atom(s))
-- [[rpg-cairn-2e-core-wilderness-action]] - shared statements: Wilderness Actions shares source evidence from Procedures / Terrain Difficulty / Wilderness Actions: The party rolls 1d6 to see if they get lost along the way. This risk can increase or decrease, depending on path Difficulty , maps, party skills, and guides. (6 shared statement(s))
-- [[rpg-cairn-2e-core-downtime-action]] - shared statements: Downtime Actions shares source evidence from Procedures / Downtime Actions / Research: A Woodwose who makes his home deep in the Forest of Knives . The party encountered him in an earlier expedition and the meeting did not end well. Still, he is said t ... [truncated] (4 shared statement(s))
-- [[rpg-cairn-2e-core-exploration]] - shared statements: Exploration Example shares source evidence from Wilderness Exploration / Overview / Exploration Example: The party is escorting an NPC between two POIs: a small village situated in the grasslands to a stronghold at the base of an impressive valley. The short journey sho ... [truncated] (4 shared statement(s))
-- [[rpg-cairn-2e-core-overview]] - shared statements: Overview shares source evidence from Wilderness Exploration / Overview / Exploration Example: The party is escorting an NPC between two POIs: a small village situated in the grasslands to a stronghold at the base of an impressive valley. The short journey sho ... [truncated] (4 shared statement(s))
-- [[rpg-cairn-2e-core-research]] - shared statements: Research shares source evidence from Procedures / Downtime Actions / Research: A Woodwose who makes his home deep in the Forest of Knives . The party encountered him in an earlier expedition and the meeting did not end well. Still, he is said t ... [truncated] (2 shared statement(s))
-- [[rpg-cairn-2e-core-training]] - shared statements: Training shares source evidence from Procedures / Downtime Actions / Training: The Two-Handed Parry : When fighting with one hand free, a PC's HP temporarily increases by 1d4. The party took on a hireling from the Cratered Lands , whose fighter ... [truncated] (2 shared statement(s))
-- [[rpg-cairn-2e-core-overview-principle]] - shared statements: Overview & Principles shares source evidence from Overview & Principles / Overview / Shared Objectives: Players trust one another to engage with the shared setting, character goals, and party challenges. Therefore the party is typically working together towards a commo ... [truncated] (1 shared statement(s))
+- [[rpg-cairn-2e-core-save]] - shared technical atoms: Save shares technical record from Saves / Save Principles: If the party cannot proceed due to circumstances beyond their control, give them another option to consider. (1 shared atom(s))
+- [[rpg-cairn-2e-core-dungeon-exploration]] - shared statements: Dungeon Exploration shares source evidence from Dungeon Exploration / Principles: The cost of dungeon exploration is paid in turns. If the party spends too long in one place, acts without caution, makes noise, or enters a new area, they risk a rol ... [truncated] (1 shared statement(s))
+- [[rpg-cairn-2e-core-ground]] - shared statements: Ground shares source evidence from Saves / Aiding an Ally: The party have just arrived at the entrance to the second level of a long-forgotten mountain tomb. Freya leads the group, followed by Lucius, with Wolfram taking up ... [truncated] (1 shared statement(s))
+- [[rpg-cairn-2e-core-light]] - shared statements: Light shares source evidence from Procedures / Terrain Difficulty / Wilderness Elements: Torches and other radial sources of light illuminate 40ft ahead of the party, but beyond that only provides a dim outline of objects. (1 shared statement(s))
+- [[rpg-cairn-2e-core-source]] - shared statements: Source shares source evidence from Procedures / Terrain Difficulty / Wilderness Elements: Torches and other radial sources of light illuminate 40ft ahead of the party, but beyond that only provides a dim outline of objects. (1 shared statement(s))
+- [[rpg-cairn-2e-core-torch]] - shared statements: Torch shares source evidence from Procedures / Terrain Difficulty / Wilderness Elements: Torches and other radial sources of light illuminate 40ft ahead of the party, but beyond that only provides a dim outline of objects. (1 shared statement(s))
 
 ## Source
 

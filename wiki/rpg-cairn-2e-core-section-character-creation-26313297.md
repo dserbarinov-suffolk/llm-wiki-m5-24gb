@@ -1,13 +1,14 @@
 ---
 page_id: rpg-cairn-2e-core-section-character-creation-26313297
 page_kind: source
-summary: Character Creation: 40 source-backed entries and 13 atom(s) from raw/rpg_cairn_2e_core.pdf.
+summary: Character Creation: 40 source-backed entries and 10 atom(s) from raw/rpg_cairn_2e_core.pdf.
+page_family: section-reference
 sources: raw/rpg_cairn_2e_core.pdf
-updated: 2026-06-29
+updated: 2026-06-30
 domain: rpg-cairn-2e-core
 category_path: sources/rpg-cairn-2e-core/sections
 source_id: rpg_cairn_2e_core.pdf
-projection_coverage: section-rpg-cairn-2e-core-section-character-creation-26313297@91d73248ffff4c6e17995c3e228c98b3
+projection_coverage: section-rpg-cairn-2e-core-section-character-creation-26313297@917983efec4475990ce387702ae99b75
 ---
 
 # Character Creation
@@ -27,7 +28,6 @@ From [[rpg-cairn-2e-core]].
 - [[rpg-cairn-2e-core-section-character-creation-omens-760693be]] - narrower source section: Character Creation / Omens
 - [[rpg-cairn-2e-core-section-overview-principles-bba3e342]] - previous source section: Overview & Principles
 - [[rpg-cairn-2e-core-section-core-rules-b46cf581]] - next source section: Core Rules
-- [[rpg-cairn-2e-core-character-creation]] - topic hub: opens the topic page for Character Creation
 
 ## Statements by subsection
 
@@ -105,37 +105,7 @@ Backgrounds
 
 </details>
 
-### Technical frame 2: Character Creation / Attributes, Hit Protection, and Traits
-
-**Context:** _(rpg_cairn_2e_core.pdf (source-range-9b4fff26-00098))_
-
-> Roll for the rest of your character's Traits, and then on the the Bonds table.
-
-**Atom:** _(rpg_cairn_2e_core.pdf (source-range-9b4fff26-00099))_
-
-> If you are the youngest character, roll on the Omens table.
-
-### Technical frame 3: Character Creation / Attributes
-
-**Context:** _(rpg_cairn_2e_core.pdf (source-range-9b4fff26-00103))_
-
-> Attributes are not universal descriptors. A character with a low STR is not necessarily hopelessly weak; they can still attempt to lift a heavy door or survive a deadly fight! Their risk is simply higher.
-
-**Atom:** _(rpg_cairn_2e_core.pdf (source-range-9b4fff26-00102))_
-
-> - Roll 3d6 for each of your character's Attributes , in order. You may then swap any two of the results.
-
-### Technical frame 4: Character Creation / Hit Protection
-
-**Context:** _(rpg_cairn_2e_core.pdf (source-range-9b4fff26-00105))_
-
-> Roll 1d6 to determine your PC's starting Hit Protection (HP), which reflects their ability to avoid damage in combat. It does not indicate a character's health or fortitude, nor do they lose it for very long. See Healing & Recovery.
-
-**Atom:** _(rpg_cairn_2e_core.pdf (source-range-9b4fff26-00106))_
-
-> - If an attack would take a PC's HP exactly to 0, the player must roll on the Scars table.
-
-### Technical frame 5: Character Creation / Character Traits (d10) / Physique
+### Technical frame 2: Character Creation / Character Traits (d10) / Physique
 
 **Atom:** _(rpg_cairn_2e_core.pdf (source-range-9b4fff26-00118))_
 
@@ -161,7 +131,7 @@ Physique
 
 </details>
 
-### Technical frame 6: Character Creation / Character Traits (d10) / Skin
+### Technical frame 3: Character Creation / Character Traits (d10) / Skin
 
 **Atom:** _(rpg_cairn_2e_core.pdf (source-range-9b4fff26-00120))_
 
@@ -187,7 +157,7 @@ Skin
 
 </details>
 
-### Technical frame 7: Character Creation / Character Traits (d10) / Hair
+### Technical frame 4: Character Creation / Character Traits (d10) / Hair
 
 **Atom:** _(rpg_cairn_2e_core.pdf (source-range-9b4fff26-00122))_
 
@@ -213,7 +183,7 @@ Hair
 
 </details>
 
-### Technical frame 8: Character Creation / Character Traits (d10) / Speech
+### Technical frame 5: Character Creation / Character Traits (d10) / Speech
 
 **Atom:** _(rpg_cairn_2e_core.pdf (source-range-9b4fff26-00145))_
 
@@ -237,7 +207,7 @@ Speech
 
 </details>
 
-### Technical frame 9: Character Creation / Character Traits (d10) / Clothing
+### Technical frame 6: Character Creation / Character Traits (d10) / Clothing
 
 **Atom:** _(rpg_cairn_2e_core.pdf (source-range-9b4fff26-00147))_
 
@@ -263,7 +233,7 @@ Clothing
 
 </details>
 
-### Technical frame 10: Character Creation / Character Traits (d10) / Virtue
+### Technical frame 7: Character Creation / Character Traits (d10) / Virtue
 
 **Atom:** _(rpg_cairn_2e_core.pdf (source-range-9b4fff26-00149))_
 
@@ -289,7 +259,7 @@ Virtue
 
 </details>
 
-### Technical frame 11: Character Creation / Character Traits (d10) / Vice
+### Technical frame 8: Character Creation / Character Traits (d10) / Vice
 
 **Atom:** _(rpg_cairn_2e_core.pdf (source-range-9b4fff26-00151))_
 
@@ -315,7 +285,7 @@ Vice
 
 </details>
 
-### Technical frame 12: Character Creation / Bonds
+### Technical frame 9: Character Creation / Bonds
 
 **Atom:** _(rpg_cairn_2e_core.pdf (source-range-9b4fff26-00153))_
 
@@ -443,7 +413,7 @@ noticed that the shards can sometimes reveal illusions.
 
 </details>
 
-### Technical frame 13: Character Creation / Omens
+### Technical frame 10: Character Creation / Omens
 
 **Atom:** _(rpg_cairn_2e_core.pdf (source-range-9b4fff26-00155))_
 

@@ -2,8 +2,9 @@
 page_id: history-short-history-of-england-section-the-project-gutenberg-ebook-a-short-history-of-england-by-g-k-chesterton-f0b9f0b1
 page_kind: source
 summary: The Project Gutenberg eBook, A Short History of England, by G. K. Chesterton: 3 source-backed entries and 0 atom(s) from raw/history_short_history_of_england.pdf.
+page_family: section-reference
 sources: raw/history_short_history_of_england.pdf
-updated: 2026-06-29
+updated: 2026-06-30
 domain: history-short-history-of-england
 category_path: sources/history-short-history-of-england/sections
 source_id: history_short_history_of_england.pdf

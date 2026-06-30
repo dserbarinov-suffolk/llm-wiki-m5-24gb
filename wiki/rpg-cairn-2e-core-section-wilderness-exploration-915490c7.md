@@ -1,13 +1,14 @@
 ---
 page_id: rpg-cairn-2e-core-section-wilderness-exploration-915490c7
 page_kind: source
-summary: Wilderness Exploration: 16 source-backed entries and 2 atom(s) from raw/rpg_cairn_2e_core.pdf.
+summary: Wilderness Exploration: 16 source-backed entries and 0 atom(s) from raw/rpg_cairn_2e_core.pdf.
+page_family: section-reference
 sources: raw/rpg_cairn_2e_core.pdf
-updated: 2026-06-29
+updated: 2026-06-30
 domain: rpg-cairn-2e-core
 category_path: sources/rpg-cairn-2e-core/sections
 source_id: rpg_cairn_2e_core.pdf
-projection_coverage: section-rpg-cairn-2e-core-section-wilderness-exploration-915490c7@1b85fe31518f248702f7e3c03d04c2df
+projection_coverage: section-rpg-cairn-2e-core-section-wilderness-exploration-915490c7@dc17588068645c8a7bd61e16cbb77ea1
 ---
 
 # Wilderness Exploration
@@ -38,25 +39,3 @@ From [[rpg-cairn-2e-core]].
 - Note: the party could have chosen to continue on through the night, but doing so could increase the chance of getting lost and put the party at greater risk! _(rpg_cairn_2e_core.pdf (source-range-9b4fff26-00661))_
 - At the start of the day, the Warden rolls for the local weather, then adjudicates its potential impacts on the journey that day. _(rpg_cairn_2e_core.pdf (source-range-9b4fff26-00651))_
 - It disappears after a few seconds. _(rpg_cairn_2e_core.pdf (source-range-9b4fff26-00654))_
-
-## Technical atoms
-
-### Technical frame 1: Wilderness Exploration / Overview / Exploration Example
-
-**Context:** _(rpg_cairn_2e_core.pdf (source-range-9b4fff26-00651))_
-
-> At the start of the day, the Warden rolls for the local weather, then adjudicates its potential impacts on the journey that day. It is overcast and breezy (no impact). After each of the following Wilderness Actions, the party rolls 1d6 to see if they get lost, and the Warden rolls on the Wilderness Events Table .
-
-**Atom:** _(rpg_cairn_2e_core.pdf (source-range-9b4fff26-00650))_
-
-> The short journey should only take one day, as travel is limited to Easy terrain and is along a clear Trail all the way.
-
-### Technical frame 2: Wilderness Exploration / Overview / Exploration Example
-
-**Context:** _(rpg_cairn_2e_core.pdf (source-range-9b4fff26-00653))_
-
-> The party takes the Travel action. They do not get lost .
-
-**Atom:** _(rpg_cairn_2e_core.pdf (source-range-9b4fff26-00651))_
-
-> After each of the following Wilderness Actions, the party rolls 1d6 to see if they get lost, and the Warden rolls on the Wilderness Events Table .

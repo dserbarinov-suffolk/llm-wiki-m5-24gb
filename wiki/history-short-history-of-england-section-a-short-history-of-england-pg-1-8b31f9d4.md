@@ -1,13 +1,14 @@
 ---
 page_id: history-short-history-of-england-section-a-short-history-of-england-pg-1-8b31f9d4
 page_kind: source
-summary: A SHORT HISTORY OF ENGLAND [Pg 1]: 2317 source-backed entries and 39 atom(s) from raw/history_short_history_of_england.pdf.
+summary: A SHORT HISTORY OF ENGLAND [Pg 1]: 2317 source-backed entries and 4 atom(s) from raw/history_short_history_of_england.pdf.
+page_family: section-reference
 sources: raw/history_short_history_of_england.pdf
-updated: 2026-06-29
+updated: 2026-06-30
 domain: history-short-history-of-england
 category_path: sources/history-short-history-of-england/sections
 source_id: history_short_history_of_england.pdf
-projection_coverage: section-history-short-history-of-england-section-a-short-history-of-england-pg-1-8b31f9d4@d62ea990ebc06ece957e85c500f9f20e
+projection_coverage: section-history-short-history-of-england-section-a-short-history-of-england-pg-1-8b31f9d4@da173fbcd44c9900729bdbf8a9bb9b96
 ---
 
 # A SHORT HISTORY OF ENGLAND [Pg 1]
@@ -33,7 +34,6 @@ From [[history-short-history-of-england]].
 - [[history-short-history-of-england-section-a-short-history-of-england-pg-1-xvi-68e8fa73]] - narrower source section: A SHORT HISTORY OF ENGLAND [Pg 1] / XVI
 - [[history-short-history-of-england-section-a-short-history-of-england-pg-1-xvii-d8995f6b]] - narrower source section: A SHORT HISTORY OF ENGLAND [Pg 1] / XVII
 - [[history-short-history-of-england-section-a-short-history-of-england-pg-1-xviii-c6f8bc15]] - narrower source section: A SHORT HISTORY OF ENGLAND [Pg 1] / XVIII
-- [[history-short-history-of-england-short-history-england]] - topic hub: opens the topic page for Short History England
 
 ## Statements by subsection
 
@@ -734,17 +734,7 @@ From [[history-short-history-of-england]].
 
 ## Technical atoms
 
-### Technical frame 1: A SHORT HISTORY OF ENGLAND [Pg 1] / I / INTRODUCTION
-
-**Context:** _(history_short_history_of_england.pdf (source-range-46d51aaf-00021))_
-
-> Now I will modestly maintain that I know more about English history than this; and that I have as much right to make a popular summary of it as the gentleman who made the crusader and the halberdier change hats. But the curious and arresting thing about the neglect, one might say the omission, of mediæval civilization in such histories as this, lies in the fact I have already noted. It is exactly the popular story that is left out of the popular history. For instance, even a working man, a carpe
-
-**Atom:** _(history_short_history_of_england.pdf (source-range-46d51aaf-00020))_
-
-> Now suppose the readers of that work of reference had looked for the portrait of Charles I. and found the head of a policeman. Suppose it had been taken, modern helmet and all, out of some snapshot in the Daily Sketch of the arrest of Mrs. Pankhurst. I think we may go so far as to say that the readers would have refused to accept it as a lifelike portrait of Charles I. They would have formed the opinion that there must be some mistake. Yet the time that elapsed between Stephen and Mary was much longer than the time that has elapsed between Charles and ourselves. The revolution in human society between the first of the Crusades and the last of the Tudors was immeasurably more colossal and complete than any change between Charles and ourselves. And, above all, that revolution should be the first thing and the final thing in anything calling itself a popular history. For it is the story of how our populace gained great things, but to-day has lost everything.
-
-### Technical frame 2: A SHORT HISTORY OF ENGLAND [Pg 1] / I / THE PROVINCE OF BRITAIN
+### Technical frame 1: A SHORT HISTORY OF ENGLAND [Pg 1] / I / THE PROVINCE OF BRITAIN
 
 **Context:** _(history_short_history_of_england.pdf (source-range-46d51aaf-00039))_
 
@@ -754,67 +744,7 @@ From [[history-short-history-of-england]].
 
 > Slavery was for the Church not a difficulty of doctrine, but a strain on the imagination. Aristotle and the pagan sages who had defined the servile or "useful" arts, had regarded the slave as a tool, an axe to cut wood or whatever wanted cutting. The Church did not denounce the cutting; but she felt as if she was cutting glass with a diamond. She was haunted by the memory that the diamond is so much more precious than the glass. So Christianity could not settle down into the pagan simplicity that the man was made for the work, when the work was so much less immortally momentous than the man. At about this stage of a history of England there is generally told the anecdote of a pun of Gregory the Great; and this is perhaps the true point of it. By the Roman theory the barbarian bondmen were meant to be useful. The saint's mysticism was moved at finding them ornamental; and "Non Angli sed Angeli" meant more nearly "Not slaves, but souls." It is to the point, in passing, to note that in the modern country most collectively Christian, Russia, the serfs were always referred to as "souls." The great Pope's phrase, hackneyed as it is, is perhaps the first glimpse of the golden halos in the best Christian Art. Thus the Church, with whatever other faults, worked of her own nature towards greater social equality; and it is a historical error to suppose that the Church hierarchy worked with aristocracies, or was of a kind with them. It was an inversion of aristocracy; in the ideal of it, at least, the last were to be first. The Irish bull that "One man is as good as another and a great deal better" contains a truth, like many contradictions; a truth that was the link between Christianity and citizenship. Alone of all superiors, the saint does not depress the human dignity of others. He is not conscious of his superiority to them; but only more conscious of his inferiority than they are.
 
-### Technical frame 3: A SHORT HISTORY OF ENGLAND [Pg 1] / I / THE PROVINCE OF BRITAIN
-
-**Context:** _(history_short_history_of_england.pdf (source-range-46d51aaf-00047))_
-
-> What the decline did involve everywhere was decivilization; the loss of letters, of laws, of roads and means of communication, the exaggeration of local colour into caprice. But on the edges of the Empire this decivilization became a definite barbarism, owing to the nearness of wild neighbours who were ready to destroy as deafly and blindly as things are destroyed by fire. Save for the lurid and apocalyptic locust-flight of the Huns, it is perhaps an exaggeration to talk, even in those darkest a
-
-**Atom:** _(history_short_history_of_england.pdf (source-range-46d51aaf-00046))_
-
-> Canute might call for his throne; but if he wanted his throne-room he must go and get it himself.
-
-### Technical frame 4: A SHORT HISTORY OF ENGLAND [Pg 1] / IV / THE DEFEAT OF THE BARBARIANS
-
-**Context:** _(history_short_history_of_england.pdf (source-range-46d51aaf-00083))_
-
-> I know of no way in which fair-haired people can be prevented from falling in love with dark-haired people; and I do not believe that whether a man was long-headed or round-headed ever made much difference to any one who felt inclined to break his head. To all mortal appearance, in all mortal records and experience, people seem to have killed or spared, married or refrained from marriage, made kings or made slaves, with reference to almost any other consideration except this one. There was the l
-
-**Atom:** _(history_short_history_of_england.pdf (source-range-46d51aaf-00082))_
-
-> But there is another way in which common sense can be brought to the criticism of some prodigious racial theories. To employ the same figure, suppose the scientific historians explain the historic centuries in terms of a prehistoric division between short-sighted and long-sighted men. They could cite their instances and illustrations. They would certainly explain the curiosity of language I mentioned first, as showing that the short-sighted were the conquered race, and their name therefore a term of contempt. They could give us very graphic pictures of the rude tribal war. They could show how the long-sighted people were always cut to pieces in hand-to-hand struggles with axe and knife; until, with the invention of bows and arrows, the advantage veered to the long-sighted, and their enemies were shot down in droves. I could easily write a ruthless romance about it, and still more easily a ruthless anthropological theory. According to that thesis which refers all moral to material changes, they could explain the tradition that old people grow conservative in politics by the well-known fact that old people grow more long-sighted. But I think there might be one thing about this theory which would stump us, and might even, if it be possible, stump them. Suppose it were pointed out that through all the three thousand years of recorded history, abounding in literature of every conceivable kind, there was not so much as a mention of the oculist question for which all had been dared and done. Suppose not one of the living or dead languages of mankind had so much as a word for "long-sighted" or "short-sighted." Suppose, in short, the question that had torn the whole world in two was never even asked at all, until some spectacle-maker suggested it somewhere about 1750. In that case I think we should find it hard to believe that this physical difference had really played so fundamental a part in human history. And that is exactly the case with the physical difference between the Celts, the Teutons and the Latins. [Pg 31] [Pg 32]
-
-### Technical frame 5: A SHORT HISTORY OF ENGLAND [Pg 1] / IV / THE DEFEAT OF THE BARBARIANS
-
-**Context:** _(history_short_history_of_england.pdf (source-range-46d51aaf-00091))_
-
-> In the tremendous testament of our religion there are present certain ideals that seem wilder than impieties, which have in later times produced wild sects professing an almost inhuman perfection on certain points; as in the Quakers who renounce the right of self-defence, or the Communists who refuse any personal possessions. Rightly
-
-**Atom:** _(history_short_history_of_england.pdf (source-range-46d51aaf-00090))_
-
-> The politics are a nightmare; the kings are unstable and the kingdoms shifting; and we are really never on solid ground except on consecrated ground.
-
-### Technical frame 6: A SHORT HISTORY OF ENGLAND [Pg 1] / V / ST. EDWARD AND THE NORMAN KINGS
-
-**Context:** _(history_short_history_of_england.pdf (source-range-46d51aaf-00107))_
-
-> Edward the Confessor, like Henry VI., was not only an invalid but almost an idiot. It is said that he was wan like an albino, and that the awe men had of him was partly that which is felt for a monster of mental deficiency. His Christian charity was of the kind
-
-**Atom:** _(history_short_history_of_england.pdf (source-range-46d51aaf-00106))_
-
-> It is sometimes valuable to have enough imagination to unlearn as well as to learn. I would ask the reader to forget his reading and everything that he learnt at school, and consider the English monarchy as it would then appear to him. Let him suppose that his acquaintance with the ancient kings has only come to him as it came to most men in simpler times, from nursery tales, from the names of places, from the dedications of churches and charities, from the tales in the tavern, and the tombs in the churchyard. Let us suppose such a person going upon some open and ordinary English way, such as the Thames valley to Windsor, or visiting some old seats of culture, such as Oxford or Cambridge. One of the first things, for instance, he would find would be Eton, a place transformed, indeed, by modern aristocracy, but still enjoying its mediæval wealth and remembering its mediæval origin. If he asked about that origin, it is probable that even a public schoolboy would know enough history to tell him that it was founded by Henry VI. If he went to Cambridge and looked with his own eyes for the college chapel which artistically towers above all others like a cathedral, he would probably ask about it, and be told it was King's College. If he asked which king, he would again be told Henry VI. If he then went into the library and looked up Henry VI. in an encyclopædia, he would find that the legendary giant, who had left these gigantic works behind him, was in history an almost invisible pigmy. Amid the varying and contending numbers of a great national quarrel, he is the only cipher. The contending factions carry him about like a bale of goods. His desires do not seem to be even ascertained, far less satisfied. And yet his real desires are satisfied in stone and marble, in oak and gold, and remain through all the maddest revolutions of modern England, while all the ambitions of those who dictated to him have gone away like dust upon the wind.
-
-### Technical frame 7: A SHORT HISTORY OF ENGLAND [Pg 1] / V / ST. EDWARD AND THE NORMAN KINGS
-
-**Context:** _(history_short_history_of_england.pdf (source-range-46d51aaf-00118))_
-
-> William asserted that the Confessor, in the course of that connection which followed naturally from his Norman education, had promised the English crown to the holder of the Norman dukedom. Whether he did or not we shall probably never know: it is not intrinsically impossible or even improbable. To blame the promise as unpatriotic, even if it was given, is to read duties defined at a much later date into the first feudal chaos; to make such blame positive and personal is like expecting the Ancie
-
-**Atom:** _(history_short_history_of_england.pdf (source-range-46d51aaf-00117))_
-
-> But if the racial theorists press the point to a comparison of races, it can obviously only be answered by a study of the two types in separation.
-
-### Technical frame 8: A SHORT HISTORY OF ENGLAND [Pg 1] / V / ST. EDWARD AND THE NORMAN KINGS
-
-**Context:** _(history_short_history_of_england.pdf (source-range-46d51aaf-00125))_
-
-> The knot in the system was something like this. In theory the King owned everything, like an earthly providence; and that made for despotism and "divine right," which meant in substance a natural authority. In one aspect the King was simply the one lord anointed by the Church, that is recognized by the ethics of the age. But while there was more royalty in theory, there could be more rebellion in practice. Fighting was much more equal than in our age of munitions, and the various groups could ar
-
-**Atom:** _(history_short_history_of_england.pdf (source-range-46d51aaf-00124))_
-
-> Its very cult of authority was a thing of reason, as all men who can reason themselves instantly recognize, even if, like Huxley, they deny its premises or dislike its fruits.
-
-### Technical frame 9: A SHORT HISTORY OF ENGLAND [Pg 1] / VI / THE AGE OF THE CRUSADES
+### Technical frame 2: A SHORT HISTORY OF ENGLAND [Pg 1] / VI / THE AGE OF THE CRUSADES
 
 **Context:** _(history_short_history_of_england.pdf (source-range-46d51aaf-00146))_
 
@@ -824,177 +754,7 @@ From [[history-short-history-of-england]].
 
 > If any one doubts the necessity, let him take a walk to all the parish churches in England within a radius of thirty miles, and ask why this stone virgin is headless or that coloured glass is gone.
 
-### Technical frame 10: A SHORT HISTORY OF ENGLAND [Pg 1] / VI / THE AGE OF THE CRUSADES
-
-**Context:** _(history_short_history_of_england.pdf (source-range-46d51aaf-00153))_
-
-> The place of Cœur de Lion in popular fable and gossip is far more like his place in true history than the place of the mere denationalized ne'er-do-weel given him in our utilitarian school books. Indeed the vulgar rumour is nearly always much nearer the historical truth than the "educated" opinion of to-day; for tradition is truer than fashion. King Richard, as the typical Crusader, did make a momentous difference to England by gaining glory in the East, instead of devoting himself conscientious
-
-**Atom:** _(history_short_history_of_england.pdf (source-range-46d51aaf-00154))_
-
-> Chivalry might be called the baptism of Feudalism. It was an attempt to bring the justice and even the logic of the Catholic creed into a military system which already existed; to turn its discipline into an initiation and its inequalities into a hierarchy. To the comparative grace of the new period belongs, of course, that considerable cultus of the dignity of woman, to which the word "chivalry" is often narrowed, or perhaps exalted. This also was a revolt against one of the worst gaps in the more polished civilization of the Saracens. Moslems denied even souls to women; perhaps from the same instinct which recoiled from the sacred birth, with its inevitable glorification of the mother; perhaps merely because, having originally had tents rather than houses, they had slaves rather than housewives. It is false to say that the chivalric view of women was merely an affectation, except in the sense in which there must always be an affectation where there is an ideal. It is the worst sort of superficiality not to see the pressure of a general sentiment merely because it is always broken up by events; the Crusade itself, for example, is more present and potent as a dream even than as a reality. From the first Plantagenet to the last Lancastrian it haunts the minds of English kings, giving as a background to their battles a mirage of Palestine. So a devotion like that of Edward I. to his queen was quite a real motive in the lives of multitudes of his contemporaries. When crowds of enlightened tourists, setting forth to sneer at the superstitions of the continent, are taking tickets and labelling luggage at the large railway station at the west end of the Strand, I do not know whether they all speak to their wives with a more flowing courtesy than their fathers in Edward's time, or whether they pause to meditate on the legend of a husband's sorrow, to be found in the very name of Charing Cross. [Pg 68] [Pg 69]
-
-### Technical frame 11: A SHORT HISTORY OF ENGLAND [Pg 1] / VI / THE AGE OF THE CRUSADES
-
-**Context:** _(history_short_history_of_england.pdf (source-range-46d51aaf-00153))_
-
-> The place of Cœur de Lion in popular fable and gossip is far more like his place in true history than the place of the mere denationalized ne'er-do-weel given him in our utilitarian school books. Indeed the vulgar rumour is nearly always much nearer the historical truth than the "educated" opinion of to-day; for tradition is truer than fashion. King Richard, as the typical Crusader, did make a momentous difference to England by gaining glory in the East, instead of devoting himself conscientious
-
-**Atom:** _(history_short_history_of_england.pdf (source-range-46d51aaf-00155))_
-
-> But it is a huge historical error to suppose that the Crusades concerned only that crust of society for which heraldry was an art and chivalry an etiquette. The direct contrary is the fact. The First Crusade especially was much more an unanimous popular rising than most that are called riots and revolutions. The Guilds, the great democratic systems of the time, often owed their increasing power to corporate fighting for the Cross; but I shall deal with such things later. Often it was not so much a levy of men as a trek of whole families, like new gipsies moving eastwards. And it has passed into a proverb that children by themselves often organized a crusade as they now organize a charade. But we shall best realize the fact by fancying every Crusade as a Children's Crusade. They were full of all that the modern world worships in children, because it has crushed it out of men. Their lives were full, as the rudest remains of their vulgarest arts are full, of something that we all saw out of the nursery window. It can best be seen later, for instance, in the lanced and latticed interiors of Memling, but it is ubiquitous in the older and more unconscious contemporary art; something that domesticated distant lands and made the horizon at home. They fitted into the corners of small houses the ends of the earth and the edges of the sky. Their perspective is rude and crazy, but it is perspective; it is not the decorative flatness of orientalism. In a word, their world, like a child's, is full of foreshortening, as of a short cut to fairyland. Their maps are more provocative than pictures. Their half-fabulous animals are monsters, and yet are pets. It is impossible to state verbally this very vivid atmosphere; but it was an atmosphere as well as an adventure. It was precisely these outlandish visions that truly came home to everybody; it was the royal councils and feudal quarrels that were comparatively remote. The Holy Land was much nearer to a plain man's house than Westminster, and immeasurably nearer than Runymede. To give a list of English kings and parliaments, without pausing for a moment upon this prodigious presence of a religious transfiguration in common life, is something the folly of which can but faintly be conveyed by a more modern parallel, with secularity and religion reversed. It is as if some Clericalist or Royalist writer should give a list of the Archbishops of Paris from 1750 to 1850, noting how one died of small-pox, another of old age, another by a curious accident of decapitation, and throughout all his record should never once mention the nature, or even the name, of the French Revolution.
-
-### Technical frame 12: A SHORT HISTORY OF ENGLAND [Pg 1] / VII / THE PROBLEM OF THE PLANTAGENETS
-
-**Context:** _(history_short_history_of_england.pdf (source-range-46d51aaf-00166))_
-
-> It would be easy to detail what followed the Conquest as the feudal tangle that it was, till a prince from Anjou repeated the unifying effort of the Conqueror. It is found equally easy to write of the Red King's hunting instead of his building, which has lasted longer, and which he probably loved much more. It is easy to catalogue the questions he disputed with Anselm-leaving out the question Anselm cared most about, and which he asked with explosive simplicity, as, "Why was God a man?" All this
-
-**Atom:** _(history_short_history_of_england.pdf (source-range-46d51aaf-00165))_
-
-> Thomas when they had never even heard of Becket.
-
-### Technical frame 13: A SHORT HISTORY OF ENGLAND [Pg 1] / VII / THE PROBLEM OF THE PLANTAGENETS
-
-**Context:** _(history_short_history_of_england.pdf (source-range-46d51aaf-00179))_
-
-> But it may be suggested, I think, though with the doubt proper to ignorance, that the Angevin ideal of the King's justice lost more by the death of St. Thomas than was instantly apparent in the horror of Christendom, the canonization of the victim and the public penance of the tyrant. These things indeed were in a sense temporary; the King recovered the power to judge clerics, and many later kings and justiciars continued the monarchical plan. But I would suggest, as a possible clue to puzzling 
-
-**Atom:** _(history_short_history_of_england.pdf (source-range-46d51aaf-00178))_
-
-> If the reader can imagine Mr.
-
-### Technical frame 14: A SHORT HISTORY OF ENGLAND [Pg 1] / VII / THE PROBLEM OF THE PLANTAGENETS
-
-**Context:** _(history_short_history_of_england.pdf (source-range-46d51aaf-00181))_
-
-> In any case this conjecture finds support in the ensuing events. It is not merely that, just as the great but personal plan of the Conqueror collapsed after all into the chaos of the Stephen transition, so the great but personal plan of the first Plantagenet collapsed into the chaos of the Barons' Wars. When all allowance is made for constitutional fictions and afterthoughts, it does seem likely that here for the first time some moral strength deserted the monarchy. The character of Henry's seco
-
-**Atom:** _(history_short_history_of_england.pdf (source-range-46d51aaf-00180))_
-
-> French kings were never so merciful to the people as when they were merciless to the peers; and it is probably true that a Czar who was a great lord to his intimates was often a little father in innumerable little homes.
-
-### Technical frame 15: A SHORT HISTORY OF ENGLAND [Pg 1] / VII / THE PROBLEM OF THE PLANTAGENETS
-
-**Context:** _(history_short_history_of_england.pdf (source-range-46d51aaf-00187))_
-
-> Magna Carta was not a step towards democracy, but it was a step away from despotism. If we hold that double truth firmly, we have something like a key to the rest of English history. A rather loose aristocracy not only gained but often deserved the name of liberty. And the history of the English can be most briefly summarized by taking the French motto of "Liberty, Equality, and Fraternity," and noting that the English have sincerely loved the first and lost the other two.
-
-**Atom:** _(history_short_history_of_england.pdf (source-range-46d51aaf-00188))_
-
-> In the contemporary complication much could be urged both for the Crown and the new and more national rally of the nobility. But it was a complication, whereas a miracle is a plain matter that any man can understand. The possibilities or impossibilities of St. Thomas Becket were left a riddle for history; the white flame of his audacious theocracy was frustrated, and his work cut short like a fairy tale left untold. But his memory passed into the care of the common people, and with them he was more active dead than alive-yes, even more busy. In the next chapter we shall consider what was meant in the Middle Ages by the common people, and how uncommon we should think it to-day. And in the last chapter we have already seen how in the Crusading age the strangest things grew homely, and men fed on travellers' tales when there were no national newspapers. A many-coloured pageant of martyrology on numberless walls and windows had familiarized the most ignorant with alien cruelties in many climes; with a bishop flayed by Danes or a virgin burned by Saracens, with one saint stoned by Jews and another hewn in pieces by negroes. I cannot think it was a small matter that among these images one of the most magnificent had met his death but lately at the hands of an English monarch. There was at least something akin to the primitive and epical romances of that period in the tale of those two mighty friends, one of whom struck too hard and slew the other. It may even have been so early as this that something was judged in silence; and for the multitude rested on the Crown a mysterious seal of insecurity like that of Cain, and of exile on the English kings.
-
-### Technical frame 16: A SHORT HISTORY OF ENGLAND [Pg 1] / VIII / THE MEANING OF MERRY ENGLAND
-
-**Context:** _(history_short_history_of_england.pdf (source-range-46d51aaf-00208))_
-
-> The very vital importance of the word "Master" is this. A Guild was, very broadly speaking, a Trade Union in which every man was his own employer. That is, a man could not work at any trade unless he would join the league and accept the laws of that trade; but he worked in his own shop with his own tools, and the whole profit went to himself. But the word "employer" marks a modern deficiency which makes the modern use of the word "master" quite inexact. A master meant something quite other and g
-
-**Atom:** _(history_short_history_of_england.pdf (source-range-46d51aaf-00207))_
-
-> Most work beyond the primary work of agriculture was guarded by the egalitarian vigilance of the Guilds. It is hard to find any term to measure the distance between this system and modern society; one can only approach it first by the faint traces it has left. Our daily life is littered with a debris of the Middle Ages, especially of dead words which no longer carry their meaning. I have already suggested one example. We hardly call up the picture of a return to Christian Communism whenever we mention Wimbledon Common. This truth descends to such trifles as the titles which we write on letters and postcards. The puzzling and truncated monosyllable "Esq." is a pathetic relic of a remote evolution from chivalry to snobbery. No two historic things could well be more different than an esquire and a squire. The first was above all things an incomplete and probationary position-the tadpole of knighthood; the second is above all things a complete and assured position-the status of the owners and rulers of rural England throughout recent centuries. Our esquires did not win their estates till they had given up any particular fancy for winning their spurs. Esquire does not mean squire, and esq. does not mean anything. But it remains on our letters a little wriggle in pen and ink and an indecipherable hieroglyph twisted by the strange turns of our history, which have turned a military discipline into a pacific oligarchy, and that into a mere plutocracy at last. And there are similar historic riddles to be unpicked in the similar forms of social address. There is something singularly forlorn about the modern word "Mister." Even in sound it has a simpering feebleness which marks the shrivelling of the strong word from which it came. Nor, indeed, is the symbol of the mere sound inaccurate. I remember seeing a German story of Samson in which he bore the unassuming name of Simson, which surely shows Samson very much shorn. There is something of the same dismal diminuendo in the evolution of a Master into a Mister. [Pg 95] [Pg 96]
-
-### Technical frame 17: A SHORT HISTORY OF ENGLAND [Pg 1] / X / THE WAR OF THE USURPERS
-
-**Context:** _(history_short_history_of_england.pdf (source-range-46d51aaf-00252))_
-
-> Now mediæval monarchy, though only one aspect of mediæval rule, was roughly represented in the idea that the ruler had a right to rule as a voter has a right to vote. He might govern wrong, but unless he governed horribly and extravagantly wrong, he retained his position of right; as a private man retains his right to marriage and locomotion unless he goes horribly and extravagantly off his head. It was not really even so simple as this; for the Middle Ages were not, as it is often the fashion t
-
-**Atom:** _(history_short_history_of_england.pdf (source-range-46d51aaf-00251))_
-
-> The poet Pope, though a friend of the greatest of Tory Democrats, Bolingbroke, necessarily lived in a world in which even Toryism was Whiggish. And the Whig as a wit never expressed his political point more clearly than in Pope's line which ran: "The right divine of kings to govern wrong." It will be apparent, when I deal with that period, that I do not palliate the real unreason in divine right as Filmer and some of the pedantic cavaliers construed it. They professed the impossible ideal of "nonresistance" to any national and legitimate power; though I cannot see that even that was so servile and superstitious as the more modern ideal of "non-resistance" even to a foreign and lawless power. But the seventeenth century was an age of sects, that is of fads; and the Filmerites made a fad of divine right. Its roots were older, equally religious but much more realistic; and though tangled with many other and even opposite things of the Middle Ages, ramify through all the changes we have now to consider. The connection can hardly be stated better than by taking Pope's easy epigram and pointing out that it is, after all, very weak in philosophy. "The right divine of kings to govern wrong," considered as a sneer, really evades all that we mean by "a right." To have a right to do a thing is not at all the same as to be right in doing it. What Pope says satirically about a divine right is what we all say quite seriously about a human right. If a man has a right to vote, has he not a right to vote wrong? If a man has a right to choose his wife, has he not a right to choose wrong? I have a right to express the opinion which I am now setting down; but I should hesitate to make the controversial claim that this proves the opinion to be right.
-
-### Technical frame 18: A SHORT HISTORY OF ENGLAND [Pg 1] / X / THE WAR OF THE USURPERS
-
-**Context:** _(history_short_history_of_england.pdf (source-range-46d51aaf-00252))_
-
-> Now mediæval monarchy, though only one aspect of mediæval rule, was roughly represented in the idea that the ruler had a right to rule as a voter has a right to vote. He might govern wrong, but unless he governed horribly and extravagantly wrong, he retained his position of right; as a private man retains his right to marriage and locomotion unless he goes horribly and extravagantly off his head. It was not really even so simple as this; for the Middle Ages were not, as it is often the fashion t
-
-**Atom:** _(history_short_history_of_england.pdf (source-range-46d51aaf-00251))_
-
-> And the Whig as a wit never expressed his political point more clearly than in Pope's line which ran: "The right divine of kings to govern wrong." It will be apparent, when I deal with that period, that I do not palliate the real unreason in divine right as Filmer and some of the pedantic cavaliers construed it.
-
-### Technical frame 19: A SHORT HISTORY OF ENGLAND [Pg 1] / X / THE WAR OF THE USURPERS
-
-**Context:** _(history_short_history_of_england.pdf (source-range-46d51aaf-00261))_
-
-> The two dramatic stories which connect Wat Tyler, doubtfully with the beginning, and definitely with the end of the revolt, are far from unimportant, despite the desire of our present prosaic historians to pretend that all dramatic stories are unimportant. The tale of Tyler's first blow is significant in the sense that it is not only dramatic but domestic. It avenged an insult to the family, and made the legend of the whole riot, whatever its incidental indecencies, a sort of demonstration on be
-
-**Atom:** _(history_short_history_of_england.pdf (source-range-46d51aaf-00260))_
-
-> The slave-owner was like a man who should set up a row of sticks for a fence, and then find they had struck root and were budding into small trees.
-
-### Technical frame 20: A SHORT HISTORY OF ENGLAND [Pg 1] / X / THE WAR OF THE USURPERS
-
-**Context:** _(history_short_history_of_england.pdf (source-range-46d51aaf-00266))_
-
-> It is remarked above that Parliament was now an aristocracy, being an object of ambition. The truth is, perhaps, more subtle than this; but if ever men yearn to serve on juries we may probably guess that juries are no longer popular. Anyhow, this must be kept in mind, as against the opposite idea of the jus divinum or fixed authority, if we would appreciate the fall of Richard. If the thing which dethroned him was a rebellion, it was a rebellion of the parliament, of the thing that had just prov
-
-**Atom:** _(history_short_history_of_england.pdf (source-range-46d51aaf-00264))_
-
-> The point that must be seized, if subsequent things are to be seen as they are, is that Parliament certainly encouraged, and Parliament almost certainly obliged, the King to repudiate the people.
-
-### Technical frame 21: A SHORT HISTORY OF ENGLAND [Pg 1] / XI / THE REBELLION OF THE RICH
-
-**Context:** _(history_short_history_of_england.pdf (source-range-46d51aaf-00284))_
-
-> This singular summary of the great epoch of our emancipation and enlightenment is not the fact usually put first in such very curt historical accounts of it. It has nothing to do with the translation of the Bible, or the character of Henry VIII., or the characters of Henry VIII.'s wives, or the triangular debates between Henry and Luther and the Pope. It was not Popish sheep who were eating Protestant men, or vice versa ; nor did Henry, at any period of his own brief and rather bewildering papac
-
-**Atom:** _(history_short_history_of_england.pdf (source-range-46d51aaf-00279))_
-
-> Sir Thomas More, apart from any arguments about the more mystical meshes in which he was ultimately caught and killed, will be hailed by all as a hero of the New Learning; that great dawn of a more rational daylight which for so many made mediævalism seem a mere darkness. Whatever we think of his appreciation of the Reformation, there will be no dispute about his appreciation of the Renascence. He was above all things a Humanist and a very human one. He was even in many ways very modern, which some rather erroneously suppose to be the same as being human; he was also humane, in the sense of humanitarian. He sketched an ideal, or rather perhaps a fanciful social system, with something of the ingenuity of Mr. H. G. Wells, but essentially with much more than the flippancy attributed to Mr. Bernard Shaw. It is not fair to charge the Utopian notions upon his morality; but their subjects and suggestions mark what (for want of a better word) we can only call his modernism. Thus the immortality of animals is the sort of transcendentalism which savours of evolution; and the grosser jest about the preliminaries of marriage might be taken quite seriously by the students of Eugenics. He suggested a sort of pacifism-though the Utopians had a quaint way of achieving it. In short, while he was, with his friend Erasmus, a satirist of mediæval abuses, few would now deny that Protestantism would be too narrow rather than too broad for him. If he was obviously not a Protestant, there are few Protestants who would deny him the name of a Reformer. But he was an innovator in things more alluring to modern minds than theology; he was partly what we should call a Neo-Pagan. His friend Colet summed up that escape from mediævalism which might be called the passage from bad Latin to good Greek. In our loose modern debates they are lumped together; but Greek learning was the growth of this time; there had always been a popular Latin, if a dog-Latin. It would be nearer the truth to call the mediævals bi-lingual than to call their Latin a dead language. Greek never, of course, became so general a possession; but for the man who got it, it is not too much to say that he felt as if he were in the open air for the first time. Much of this Greek spirit was reflected in More; its universality, its urbanity, its balance of buoyant reason and cool curiosity. It is even probable that he shared some of the excesses and errors of taste which inevitably infected the splendid intellectualism of the reaction against the Middle Ages; we can imagine him thinking gargoyles Gothic, in the sense of barbaric, or even failing to be stirred, as Sydney was, by the trumpet of "Chevy Chase." The wealth of the ancient heathen world, in wit, loveliness, and civic heroism, had so recently been revealed to that generation in its dazzling profusion and perfection, that it might seem a trifle if they did here and there an injustice to the relics of the Dark Ages. When, therefore, we look at the world with the eyes of More we are looking from the widest windows of that time; looking over an English landscape seen for the first time very equally, in the level light of the sun at morning. For what he saw was England of the Renascence; England passing from the mediæval to the modern. Thus he looked forth, and saw many things and said many things; they were all worthy and many witty; but he noted one thing which is at once a horrible fancy and a homely and practical fact. He who looked over that landscape said: "Sheep
-
-### Technical frame 22: A SHORT HISTORY OF ENGLAND [Pg 1] / XI / THE REBELLION OF THE RICH
-
-**Context:** _(history_short_history_of_england.pdf (source-range-46d51aaf-00291))_
-
-> The apparent pivot of it was in certain events, political and even personal. They roughly resolve themselves into two: the marriages of Henry VIII. and the affair of the monasteries. The marriages of Henry VIII. have long been a popular and even a stale joke; and there is a truth of tradition in the joke, as there is in almost any joke if it is sufficiently popular, and indeed if it is sufficiently stale. A jocular thing never lives to be stale unless it is also serious. Henry was popular in his
-
-**Atom:** _(history_short_history_of_england.pdf (source-range-46d51aaf-00290))_
-
-> If this be a fancy, it is at least one that cannot be disproved; the mediæval revolution was too unsuccessful at the beginning for any one to show that it need have been unsuccessful in the end.
-
-### Technical frame 23: A SHORT HISTORY OF ENGLAND [Pg 1] / XI / THE REBELLION OF THE RICH
-
-**Context:** _(history_short_history_of_england.pdf (source-range-46d51aaf-00295))_
-
-> The great divorce brought down Wolsey, the mighty minister who had held the scales between the Empire and the French Monarchy, and made the modern balance of power in Europe. He is often described under the dictum of Ego et Rex Meus ; but he marks a stage in the English story rather because he suffered for it than because he said it. Ego et Rex Meus might be the motto of any modern Prime Minister; for we have forgotten the very fact that the word minister merely means servant. Wolsey was the las
-
-**Atom:** _(history_short_history_of_england.pdf (source-range-46d51aaf-00291))_
-
-> A jocular thing never lives to be stale unless it is also serious.
-
-### Technical frame 24: A SHORT HISTORY OF ENGLAND [Pg 1] / XI / THE REBELLION OF THE RICH
-
-**Context:** _(history_short_history_of_england.pdf (source-range-46d51aaf-00296))_
-
-> But the more impersonal process which More himself had observed (as noted at the beginning of this chapter) is more clearly defined, and less clouded with controversies, in the second of the two parts of Henry's policy. There is indeed a controversy about the monasteries; but it is one that is clarifying and settling every day. Now it is true that the Church, by the Renascence period, had reached a considerable corruption; but the real proofs of it are utterly different both from the contemporar
-
-**Atom:** _(history_short_history_of_england.pdf (source-range-46d51aaf-00295))_
-
-> But for Humanism it must have seemed a monstrous sacrifice; it was somehow as if Montaigne were a martyr.
-
-### Technical frame 25: A SHORT HISTORY OF ENGLAND [Pg 1] / XIII / THE AGE OF THE PURITANS
-
-**Context:** _(history_short_history_of_england.pdf (source-range-46d51aaf-00347))_
-
-> The struggle with the Stuarts, which is the next passage in our history, arose from an alliance, which some may think an accidental alliance, between two things. The first was this intellectual fashion of Calvinism which affected the cultured world as did our recent intellectual fashion of Collectivism. The second was the older thing which had made that creed and perhaps that cultured world possible-the aristocratic revolt under the last Tudors. It was, we might say, the story of a father and a 
-
-**Atom:** _(history_short_history_of_england.pdf (source-range-46d51aaf-00346))_
-
-> England was never so little of a democracy as during the short time when she was a republic.
-
-### Technical frame 26: A SHORT HISTORY OF ENGLAND [Pg 1] / XIII / THE AGE OF THE PURITANS
-
-**Context:** _(history_short_history_of_england.pdf (source-range-46d51aaf-00358))_
-
-> case for their enemies is little realized; for it is connected with what our insular history most neglects, the condition of the Continent. It should be remembered that though the Stuarts failed in England they fought for things that succeeded in Europe. These were roughly, first, the effects of the Counter-Reformation, which made the sincere Protestant see Stuart Catholicism not at all as the last flicker of an old flame, but as the spread of a conflagration. Charles II., for instance, was a ma
-
-**Atom:** _(history_short_history_of_england.pdf (source-range-46d51aaf-00353))_
-
-> For the first point about democracy, no candid person, in face of the facts, can really consider it at all. It is quite possible to hold that the seventeenth-century Parliament was fighting for the truth; it is not possible to hold that it was fighting for the populace. After the autumn of the Middle Ages Parliament was always actively aristocratic and actively anti-popular. The institution which forbade Charles I. to raise Ship Money was the same institution which previously forbade Richard II. to free the serfs. The group which claimed coal and minerals from Charles I. was the same which afterward claimed the common lands from the village communities. It was the same institution which only two generations before had eagerly helped to destroy, not merely things of popular sentiment like the monasteries, but all the things of popular utility like the guilds and parishes, the local governments of towns and trades. The work of the great lords may have had, indeed it certainly had, another more patriotic and creative side; but it was exclusively the work of the great lords that was done by Parliament. The House of Commons has itself been a House of Lords.
-
-### Technical frame 27: A SHORT HISTORY OF ENGLAND [Pg 1] / XIV / THE TRIUMPH OF THE WHIGS
+### Technical frame 3: A SHORT HISTORY OF ENGLAND [Pg 1] / XIV / THE TRIUMPH OF THE WHIGS
 
 **Context:** _(history_short_history_of_england.pdf (source-range-46d51aaf-00373))_
 
@@ -1004,97 +764,7 @@ From [[history-short-history-of-england]].
 
 > The "No Popery" force became the crowd if it never became the people.
 
-### Technical frame 28: A SHORT HISTORY OF ENGLAND [Pg 1] / XIV / THE TRIUMPH OF THE WHIGS
-
-**Context:** _(history_short_history_of_england.pdf (source-range-46d51aaf-00388))_
-
-> Thus the strange yet splendid story of eighteenth-century England is one of greatness founded on smallness, a pyramid standing on a point. Or, to vary the metaphor, the new mercantile oligarchy might be symbolized even in the externals of its great sister, the mercantile oligarchy of Venice. The solidity was all in the superstructure; the fluctuation had been all in the foundations. The great temple of Chatham and Warren Hastings was reared in its origins on things as unstable as water and as fu
-
-**Atom:** _(history_short_history_of_england.pdf (source-range-46d51aaf-00387))_
-
-> When William landed at Torbay on the invitation of the other Whig nobles, Churchill, as if to add something ideal to his imitation of Iscariot, went to James with wanton professions of love and loyalty, went forth in arms as if to defend the country from invasion, and then calmly handed the army over to the invader.
-
-### Technical frame 29: A SHORT HISTORY OF ENGLAND [Pg 1] / XV / THE WAR WITH THE GREAT REPUBLICS
-
-**Context:** _(history_short_history_of_england.pdf (source-range-46d51aaf-00400))_
-
-> It is one of the many quaint perversities of the English to pretend to be bad speakers; but in fact the most English eighteenth-century epoch blazed with brilliant speakers. There may have been finer writing in France; there was no such fine speaking as in England. The Parliament had faults enough, but it was sincere enough to be rhetorical. The Parliament was corrupt, as it is now; though the examples of corruption were then often really made examples, in the sense of warnings, where they are n
-
-**Atom:** _(history_short_history_of_england.pdf (source-range-46d51aaf-00399))_
-
-> We cannot understand the eighteenth century so long as we suppose that rhetoric is artificial because it is artistic. We do not fall into this folly about any of the other arts. We talk of a man picking out notes arranged in ivory on a wooden piano "with much feeling," or of his pouring out his soul by scraping on cat-gut after a training as careful as an acrobat's. But we are still haunted with a prejudice that verbal form and verbal effect must somehow be hypocritical when they are the link between things so living as a man and a mob. We doubt the feeling of the old-fashioned orator, because his periods are so rounded and pointed as to convey his feeling. Now before any criticism of the eighteenth-century worthies must be put the proviso of their perfect artistic sincerity. Their oratory was unrhymed poetry, and it had the humanity of poetry. It was not even unmetrical poetry; that century is full of great phrases, often spoken on the spur of great moments, which have in them the throb and recurrence of song, as of a man thinking to a tune. Nelson's "In honour I gained them, in honour I will die with them," has more rhythm than much that is called vers libres . Patrick Henry's "Give me liberty or give me death" might be a great line in Walt Whitman.
-
-### Technical frame 30: A SHORT HISTORY OF ENGLAND [Pg 1] / XV / THE WAR WITH THE GREAT REPUBLICS
-
-**Context:** _(history_short_history_of_england.pdf (source-range-46d51aaf-00414))_
-
-> But a few years after Lafayette had returned from helping to found a republic in America he was flung over his own frontiers for resisting the foundation of a republic in France. So furious was the onward stride of this new spirit that the republican of the new world lived to be the reactionary of the old. For when France passed from theory to practice, the question was put to the world in a way not thinkable in connection with the prefatory experiment of a thin population on a colonial coast. T
-
-**Atom:** _(history_short_history_of_england.pdf (source-range-46d51aaf-00413))_
-
-> If they can understand how two coins can count the same though one is bright and the other brown, they might perhaps understand how two men can vote the same though one is bright and the other dull.
-
-### Technical frame 31: A SHORT HISTORY OF ENGLAND [Pg 1] / XVI / ARISTOCRACY AND THE DISCONTENTS
-
-**Context:** _(history_short_history_of_england.pdf (source-range-46d51aaf-00429))_
-
-> The name of Cobbett is very important here; indeed it is generally ignored because it is important. Cobbett was the one man who saw the tendency of the time as a whole, and challenged it as a whole; consequently he went without support. It is a mark of our whole modern history that the masses are kept quiet with a fight. They are kept quiet by the fight because it is a sham-fight; thus most of us know by this time that the Party System has been popular only in the same sense that a football matc
-
-**Atom:** _(history_short_history_of_england.pdf (source-range-46d51aaf-00428))_
-
-> The French Revolution was the challenge that really revealed to the Whigs that they must make up their minds to be really democrats or admit that they were really aristocrats.
-
-### Technical frame 32: A SHORT HISTORY OF ENGLAND [Pg 1] / XVII / THE RETURN OF THE BARBARIAN
-
-**Context:** _(history_short_history_of_england.pdf (source-range-46d51aaf-00453))_
-
-> But if this was the evolution of parliamentary reform, as represented by the first Reform Bill, we can see the other side of it in the social reform attacked immediately after the first Reform Bill. It is a truth that should be a tower and a landmark, that one of the first things done by the Reform Parliament was to establish those harsh and dehumanised workhouses which both honest Radicals and honest Tories branded with the black title of the New Bastille. This bitter name lingers in our litera
-
-**Atom:** _(history_short_history_of_england.pdf (source-range-46d51aaf-00448))_
-
-> If it be a splendid fate to have survived the Flood, the English oligarchy had that added splendour.
-
-### Technical frame 33: A SHORT HISTORY OF ENGLAND [Pg 1] / XVII / THE RETURN OF THE BARBARIAN
-
-**Context:** _(history_short_history_of_england.pdf (source-range-46d51aaf-00453))_
-
-> But if this was the evolution of parliamentary reform, as represented by the first Reform Bill, we can see the other side of it in the social reform attacked immediately after the first Reform Bill. It is a truth that should be a tower and a landmark, that one of the first things done by the Reform Parliament was to establish those harsh and dehumanised workhouses which both honest Radicals and honest Tories branded with the black title of the New Bastille. This bitter name lingers in our litera
-
-**Atom:** _(history_short_history_of_england.pdf (source-range-46d51aaf-00452))_
-
-> The first thing to note, then, about the nineteenth century is that Europe remained herself as compared with the Europe of the great war, and that England especially remained herself as compared even with the rest of Europe. Granted this, we may give their proper importance to the cautious internal changes in this country, the small conscious and the large unconscious changes. Most of the conscious ones were much upon the model of an early one, the great Reform Bill of 1832, and can be considered in the light of it. First, from the standpoint of most real reformers, the chief thing about the Reform Bill was that it did not reform. It had a huge tide of popular enthusiasm behind it, which wholly disappeared when the people found themselves in front of it. It enfranchised large masses of the middle classes; it disfranchised very definite bodies of the working classes; and it so struck the balance between the conservative and the dangerous elements in the commonwealth that the governing class was rather stronger than before. The date, however, is important, not at all because it was the beginning of democracy, but because it was the beginning of the best way ever discovered of evading and postponing democracy. Here enters the homœopathic treatment of revolution, since so often successful. Well into the next generation Disraeli, the brilliant Jewish adventurer who was the symbol of the English aristocracy being no longer genuine, extended the franchise to the artisans, partly, indeed, as a party move against his great rival, Gladstone, but more as the method by which the old popular pressure was first tired out and then toned down. The politicians said the working-class was now strong enough to be allowed votes. It would be truer to say it was now weak enough to be allowed votes. So in more recent times Payment of Members, which would once have been regarded (and resisted) as an inrush of popular forces, was passed quietly and without resistance, and regarded merely as an extension of parliamentary privileges. The truth is that the old parliamentary oligarchy abandoned their first line of trenches because they had by that time constructed a second line of defence. It consisted in the concentration of colossal political funds in the private and irresponsible power of the politicians, collected by the sale of peerages and more important things, and expended on the jerrymandering of the enormously expensive elections. In the presence of this inner obstacle a vote became about as valuable as a railway ticket when there is a permanent block on the line. The façade and outward form of this new secret government is the merely mechanical application of what is called the Party System. The Party System does not consist, as some suppose, of two parties, but of one. If there were two real parties, there could be no system. [Pg 226] [Pg 227]
-
-### Technical frame 34: A SHORT HISTORY OF ENGLAND [Pg 1] / XVII / THE RETURN OF THE BARBARIAN
-
-**Context:** _(history_short_history_of_england.pdf (source-range-46d51aaf-00457))_
-
-> Anyhow, the unconscious nineteenth-century movement, so slow that it seems stationary, was altogether in this direction, of which workhouse philanthropy is the type. Nevertheless, it had one national institution to combat and overcome; one institution all the more intensely national because it was not official, and in a sense not even political. The modern Trade Union was the inspiration and creation of the English; it is still largely known throughout Europe by its English name. It was the Engl
-
-**Atom:** _(history_short_history_of_england.pdf (source-range-46d51aaf-00456))_
-
-> Board of Guardians less cruel than cold weather and the bare ground-even if he were allowed to sleep on the ground, which (by a veritable nightmare of nonsense and injustice) he is not.
-
-### Technical frame 35: A SHORT HISTORY OF ENGLAND [Pg 1] / XVIII / THE END
-
-**Context:** _(history_short_history_of_england.pdf (source-range-46d51aaf-00486))_
-
-> Creating the works from public domain print editions means that no one owns a United States copyright in these works, so the Foundation (and you!) can copy and distribute it in the United States without permission and without paying copyright royalties. Special rules, set forth in the General Terms of Use part of this license, apply to copying and distributing Project Gutenberg-tm electronic works to protect the PROJECT GUTENBERG-tm concept and trademark. Project Gutenberg is a registered tradem
-
-**Atom:** _(history_short_history_of_england.pdf (source-range-46d51aaf-00481))_
-
-> [Figure] (p.72)
-
-### Technical frame 36: A SHORT HISTORY OF ENGLAND [Pg 1] / XVIII / THE END
-
-**Context:** _(history_short_history_of_england.pdf (source-range-46d51aaf-00488))_
-
-> THE FULL PROJECT GUTENBERG LICENSE PLEASE READ THIS BEFORE YOU DISTRIBUTE OR USE THIS WORK
-
-**Atom:** _(history_short_history_of_england.pdf (source-range-46d51aaf-00486))_
-
-> You may use this eBook for nearly any purpose such as creation of derivative works, reports, performances and research.
-
-### Technical frame 37: A SHORT HISTORY OF ENGLAND [Pg 1] / XVIII / THE END
+### Technical frame 4: A SHORT HISTORY OF ENGLAND [Pg 1] / XVIII / THE END
 
 **Context:** _(history_short_history_of_england.pdf (source-range-46d51aaf-00494))_
 
@@ -1164,23 +834,3 @@ You	comply	with	all	other	terms	of	this	agreement	for	free distribution	of	Proje
 | 1.F.6. | INDEMNITY - You agree to indemnify and hold the Foundation, the trademark owner, any agent or employee of the Foundation, anyone providing copies of Project Gutenberg-tm electronic works in accordance with this agreement, and any volunteers associated with the production, promotion and distribution of Project Gutenberg-tm electronic works, harmless from all liability, costs and expenses, including legal fees, that arise directly or indirectly from any of the following which you do or cause to occur: (a) distribution of this or any Project Gutenberg-tm work, (b) alteration, modification, or additions or deletions to any Project Gutenberg-tm work, and (c) any Defect you cause. |  |
 
 </details>
-
-### Technical frame 38: A SHORT HISTORY OF ENGLAND [Pg 1] / XVIII / THE END
-
-**Context:** _(history_short_history_of_england.pdf (source-range-46d51aaf-00494))_
-
-> Each eBook is in a subdirectory of the same number as the eBook's eBook number, often in several formats including plain vanilla ASCII, compressed (zipped), HTML and others. Corrected EDITIONS of our eBooks replace the old file and take over the old filename and etext number. The replaced older file is renamed. VERSIONS based on separate sources are treated as new eBooks receiving new filenames and etext numbers. Most people start at our Web site which has the main PG search facility: http://www
-
-**Atom:** _(history_short_history_of_england.pdf (source-range-46d51aaf-00493))_
-
-> International donations are gratefully accepted, but we cannot make any statements concerning tax treatment of donations received from outside the United States.
-
-### Technical frame 39: A SHORT HISTORY OF ENGLAND [Pg 1] / XVIII / THE END
-
-**Context:** _(history_short_history_of_england.pdf (source-range-46d51aaf-00493))_
-
-> Project Gutenberg-tm is synonymous with the free distribution of electronic works in formats readable by the widest variety of computers including obsolete, old, middle-aged and new computers. It exists because of the efforts of hundreds of volunteers and donations from people in all walks of life. Volunteers and financial support to provide volunteers with the assistance they need, is critical to reaching Project Gutenberg-tm's goals and ensuring that the Project Gutenberg-tm collection will re
-
-**Atom:** _(history_short_history_of_england.pdf (source-range-46d51aaf-00494))_
-
-> If you want to download any of these eBooks directly, rather than using the regular search system you may utilize the following addresses and just download by the etext year.

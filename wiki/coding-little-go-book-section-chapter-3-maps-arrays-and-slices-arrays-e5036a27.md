@@ -2,8 +2,9 @@
 page_id: coding-little-go-book-section-chapter-3-maps-arrays-and-slices-arrays-e5036a27
 page_kind: source
 summary: Chapter 3 - Maps, Arrays and Slices / Arrays: 12 source-backed entries and 3 atom(s) from raw/coding_little_go_book.pdf.
+page_family: section-reference
 sources: raw/coding_little_go_book.pdf
-updated: 2026-06-29
+updated: 2026-06-30
 domain: coding-little-go-book
 category_path: sources/coding-little-go-book/sections
 source_id: coding_little_go_book.pdf

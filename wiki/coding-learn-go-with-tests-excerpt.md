@@ -1,9 +1,10 @@
 ---
 page_id: coding-learn-go-with-tests-excerpt
 page_kind: source
-summary: Claim-ledger projection (coding): 640 usable entries, 191 technical atoms, 92 needs-review, 153 linked page(s); write decision write-with-review-work.
+summary: Claim-ledger projection (coding): 640 usable entries, 191 technical atoms, 92 needs-review, 145 linked page(s); write decision write-with-review-work.
+page_family: source-manifest
 sources: raw/coding_learn_go_with_tests_excerpt.pdf
-updated: 2026-06-29
+updated: 2026-06-30
 domain: coding-learn-go-with-tests-excerpt
 category_path: sources
 source_id: coding_learn_go_with_tests_excerpt.pdf

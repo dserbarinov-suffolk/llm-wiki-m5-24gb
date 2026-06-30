@@ -1,13 +1,14 @@
 ---
 page_id: rpg-dnd-srd-excerpt-section-ability-checks-using-each-ability-wisdom-013221f0
 page_kind: source
-summary: Ability Checks / Using Each Ability / Wisdom: 11 source-backed entries and 2 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
+summary: Ability Checks / Using Each Ability / Wisdom: 11 source-backed entries and 0 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
+page_family: section-reference
 sources: raw/rpg_dnd_srd_excerpt.pdf
-updated: 2026-06-29
+updated: 2026-06-30
 domain: rpg-dnd-srd-excerpt
 category_path: sources/rpg-dnd-srd-excerpt/sections
 source_id: rpg_dnd_srd_excerpt.pdf
-projection_coverage: section-rpg-dnd-srd-excerpt-section-ability-checks-using-each-ability-wisdom-013221f0@bcc2d36b6c48f3f0f90e785a36a0c137
+projection_coverage: section-rpg-dnd-srd-excerpt-section-ability-checks-using-each-ability-wisdom-013221f0@fdd2a4038f67ac4ecf4b21725555496e
 ---
 
 # Ability Checks / Using Each Ability / Wisdom
@@ -30,25 +31,3 @@ From [[rpg-dnd-srd-excerpt]].
 - Other Wisdom Checks . The GM might call for a Wisdom check when you try to accomplish tasks like the following: _(rpg_dnd_srd_excerpt.pdf (source-range-4449ec9f-00223))_
 - Clerics, druids, and rangers use Wisdom as their spellcasting ability, which helps determine the saving throw DCs of spells they cast. _(rpg_dnd_srd_excerpt.pdf (source-range-4449ec9f-00227))_
 - For example, you might try to hear a conversation through a closed door, eavesdrop under an open window, or hear monsters moving stealthily in the forest. _(rpg_dnd_srd_excerpt.pdf (source-range-4449ec9f-00221))_
-
-## Technical atoms
-
-### Technical frame 1: Ability Checks / Using Each Ability / Wisdom
-
-**Context:** _(rpg_dnd_srd_excerpt.pdf (source-range-4449ec9f-00221))_
-
-> Perception . Your Wisdom (Perception) check lets you spot, hear, or otherwise detect the presence of something. It measures your general awareness of your surroundings and the keenness of your senses. For example, you might try to hear a conversation through a closed door, eavesdrop under an open window, or hear monsters moving stealthily in the forest. Or you might try to spot things that are obscured or easy to miss, whether they are orcs lying in ambush on a road, thugs hiding in the shadows 
-
-**Atom:** _(rpg_dnd_srd_excerpt.pdf (source-range-4449ec9f-00218))_
-
-> When there is any question whether you can calm down a domesticated animal, keep a mount from getting spooked, or intuit an animal's intentions, the GM might call for a Wisdom (Animal Handling) check.
-
-### Technical frame 2: Ability Checks / Using Each Ability / Wisdom
-
-**Context:** _(rpg_dnd_srd_excerpt.pdf (source-range-4449ec9f-00221))_
-
-> Perception . Your Wisdom (Perception) check lets you spot, hear, or otherwise detect the presence of something. It measures your general awareness of your surroundings and the keenness of your senses. For example, you might try to hear a conversation through a closed door, eavesdrop under an open window, or hear monsters moving stealthily in the forest. Or you might try to spot things that are obscured or easy to miss, whether they are orcs lying in ambush on a road, thugs hiding in the shadows 
-
-**Atom:** _(rpg_dnd_srd_excerpt.pdf (source-range-4449ec9f-00219))_
-
-> Your Wisdom (Insight) check decides whether you can determine the true intentions of a creature, such as when searching out a lie or predicting someone's next move.

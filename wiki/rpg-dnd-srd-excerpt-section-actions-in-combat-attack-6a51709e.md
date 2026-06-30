@@ -2,12 +2,13 @@
 page_id: rpg-dnd-srd-excerpt-section-actions-in-combat-attack-6a51709e
 page_kind: source
 summary: Actions in Combat / Attack: 3 source-backed entries and 0 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
+page_family: section-reference
 sources: raw/rpg_dnd_srd_excerpt.pdf
-updated: 2026-06-29
+updated: 2026-06-30
 domain: rpg-dnd-srd-excerpt
 category_path: sources/rpg-dnd-srd-excerpt/sections
 source_id: rpg_dnd_srd_excerpt.pdf
-projection_coverage: section-rpg-dnd-srd-excerpt-section-actions-in-combat-attack-6a51709e@e83b41325a739f684ac2499fdf8e5f3b
+projection_coverage: section-rpg-dnd-srd-excerpt-section-actions-in-combat-attack-6a51709e@6218434b3968ddbe128d243e405260a2
 ---
 
 # Actions in Combat / Attack
@@ -18,6 +19,7 @@ From [[rpg-dnd-srd-excerpt]].
 
 - [[rpg-dnd-srd-excerpt-section-actions-in-combat-a776ce7e]] - broader source section: Actions in Combat
 - [[rpg-dnd-srd-excerpt-section-actions-in-combat-cast-a-spell-db1ef90a]] - next source section: Actions in Combat / Cast a Spell
+- [[rpg-dnd-srd-excerpt-attack]] - topic hub: opens the topic page for Attack
 
 ## Statements
 

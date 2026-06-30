@@ -2,11 +2,12 @@
 page_id: history-dickens-england-excerpt-pope
 page_kind: concept
 summary: Pope: 10 statement(s) and 0 atom(s) from raw/history_dickens_england_excerpt.pdf.
+page_family: topic-concept
 sources: raw/history_dickens_england_excerpt.pdf
-updated: 2026-06-29
+updated: 2026-06-30
 domain: history-dickens-england-excerpt
 category_path: concepts
-projection_coverage: topic-history-dickens-england-excerpt-pope@d867448cbe6d86ad2b1a2d5409b0ab25
+projection_coverage: topic-history-dickens-england-excerpt-pope@1120919abeb233d8a015d8711a1f401c
 ---
 
 # Pope
@@ -36,15 +37,11 @@ What [[history-dickens-england-excerpt]] covers about pope:
 
 ## Related pages
 
-- [[history-dickens-england-excerpt-child-history-england-excerpt-norman-conquest-edward]] - shared statements: A Child's History of England (Excerpt: The Norman Conquest to Edward I) shares source evidence from A Child's History of England (Excerpt: The Norman Conquest to Edward I) / CHAPTER VII--ENGLAND UNDER HAROLD THE SECOND, AND CONQUERED BY THE NORMANS: Harold was crowned King of England on the very day of the maudlin Confessor's funeral. He had good need to be quick about it. When the news reached Norman William, h ... [truncated] (10 shared statement(s))
-- [[history-dickens-england-excerpt-england-king-john-lackland]] - shared statements: -ENGLAND UNDER KING JOHN, CALLED LACKLAND shares source evidence from A Child's History of England (Excerpt: The Norman Conquest to Edward I) / CHAPTER XIV--ENGLAND UNDER KING JOHN, CALLED LACKLAND: The Archbishop of Canterbury dying, and the junior monks of that place wishing to get the start of the senior monks in the appointment of his successor, met together ... [truncated] (4 shared statement(s))
-- [[history-dickens-england-excerpt-england-henry-third-winchester]] - shared statements: -ENGLAND UNDER HENRY THE THIRD, CALLED, OF WINCHESTER shares source evidence from A Child's History of England (Excerpt: The Norman Conquest to Edward I) / CHAPTER XV--ENGLAND UNDER HENRY THE THIRD, CALLED, OF WINCHESTER: the Black Band and their Captain watched it too, like three hundred and one black wolves. For thirty-nine days, Hubert de Burgh remained within. At length, upon the ... [truncated] (3 shared statement(s))
-- [[history-dickens-england-excerpt-england-henry-second]] - shared statements: -ENGLAND UNDER HENRY THE SECOND shares source evidence from A Child's History of England (Excerpt: The Norman Conquest to Edward I) / CHAPTER XII--ENGLAND UNDER HENRY THE SECOND / PART THE SECOND: When the King heard how Thomas a Becket had lost his life in Canterbury Cathedral, through the ferocity of the four Knights, he was filled with dismay. Some have sup ... [truncated] (2 shared statement(s))
-- [[history-dickens-england-excerpt-second]] - shared statements: PART THE SECOND shares source evidence from A Child's History of England (Excerpt: The Norman Conquest to Edward I) / CHAPTER XII--ENGLAND UNDER HENRY THE SECOND / PART THE SECOND: When the King heard how Thomas a Becket had lost his life in Canterbury Cathedral, through the ferocity of the four Knights, he was filled with dismay. Some have sup ... [truncated] (2 shared statement(s))
-- [[history-dickens-england-excerpt-conquered-norman]] - shared statements: Conquered Norman shares source evidence from A Child's History of England (Excerpt: The Norman Conquest to Edward I) / CHAPTER VII--ENGLAND UNDER HAROLD THE SECOND, AND CONQUERED BY THE NORMANS: Harold was crowned King of England on the very day of the maudlin Confessor's funeral. He had good need to be quick about it. When the news reached Norman William, h ... [truncated] (1 shared statement(s))
-- [[history-dickens-england-excerpt-england-harold-second-and-conquered-norman]] - shared statements: -ENGLAND UNDER HAROLD THE SECOND, AND CONQUERED BY THE NORMANS shares source evidence from A Child's History of England (Excerpt: The Norman Conquest to Edward I) / CHAPTER VII--ENGLAND UNDER HAROLD THE SECOND, AND CONQUERED BY THE NORMANS: Harold was crowned King of England on the very day of the maudlin Confessor's funeral. He had good need to be quick about it. When the news reached Norman William, h ... [truncated] (1 shared statement(s))
+- [[history-dickens-england-excerpt-sent]] - shared statements: Sent shares source evidence from A Child's History of England (Excerpt: The Norman Conquest to Edward I) / CHAPTER VII--ENGLAND UNDER HAROLD THE SECOND, AND CONQUERED BY THE NORMANS: Harold was crowned King of England on the very day of the maudlin Confessor's funeral. He had good need to be quick about it. When the news reached Norman William, h ... [truncated] (2 shared statement(s))
+- [[history-dickens-england-excerpt-clergy]] - shared statements: Clergy shares source evidence from A Child's History of England (Excerpt: The Norman Conquest to Edward I) / CHAPTER XV--ENGLAND UNDER HENRY THE THIRD, CALLED, OF WINCHESTER: the Black Band and their Captain watched it too, like three hundred and one black wolves. For thirty-nine days, Hubert de Burgh remained within. At length, upon the ... [truncated] (1 shared statement(s))
 - [[history-dickens-england-excerpt-king]] - shared statements: King shares source evidence from A Child's History of England (Excerpt: The Norman Conquest to Edward I) / CHAPTER XIV--ENGLAND UNDER KING JOHN, CALLED LACKLAND: The Archbishop of Canterbury dying, and the junior monks of that place wishing to get the start of the senior monks in the appointment of his successor, met together ... [truncated] (1 shared statement(s))
-- [[history-dickens-england-excerpt-norman]] - shared statements: Norman shares source evidence from A Child's History of England (Excerpt: The Norman Conquest to Edward I) / CHAPTER VII--ENGLAND UNDER HAROLD THE SECOND, AND CONQUERED BY THE NORMANS: Harold was crowned King of England on the very day of the maudlin Confessor's funeral. He had good need to be quick about it. When the news reached Norman William, h ... [truncated] (1 shared statement(s))
+- [[history-dickens-england-excerpt-monk]] - shared statements: Monk shares source evidence from A Child's History of England (Excerpt: The Norman Conquest to Edward I) / CHAPTER XIV--ENGLAND UNDER KING JOHN, CALLED LACKLAND: The Archbishop of Canterbury dying, and the junior monks of that place wishing to get the start of the senior monks in the appointment of his successor, met together ... [truncated] (1 shared statement(s))
+- [[history-dickens-england-excerpt-normandy]] - shared statements: Normandy shares source evidence from A Child's History of England (Excerpt: The Norman Conquest to Edward I) / CHAPTER VII--ENGLAND UNDER HAROLD THE SECOND, AND CONQUERED BY THE NORMANS: Harold was crowned King of England on the very day of the maudlin Confessor's funeral. He had good need to be quick about it. When the news reached Norman William, h ... [truncated] (1 shared statement(s))
 
 ## Source
 

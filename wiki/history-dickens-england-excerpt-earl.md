@@ -2,11 +2,12 @@
 page_id: history-dickens-england-excerpt-earl
 page_kind: concept
 summary: Earl: 10 statement(s) and 0 atom(s) from raw/history_dickens_england_excerpt.pdf.
+page_family: topic-concept
 sources: raw/history_dickens_england_excerpt.pdf
-updated: 2026-06-29
+updated: 2026-06-30
 domain: history-dickens-england-excerpt
 category_path: concepts
-projection_coverage: topic-history-dickens-england-excerpt-earl@2c4cac9abe7c76fb58756b9b286eda59
+projection_coverage: topic-history-dickens-england-excerpt-earl@acd6a213f0d11bc8791af55b20cc2cb0
 ---
 
 # Earl
@@ -30,16 +31,13 @@ What [[history-dickens-england-excerpt]] covers about earl:
 
 ## Related pages
 
-- [[history-dickens-england-excerpt-child-history-england-excerpt-norman-conquest-edward]] - shared statements: A Child's History of England (Excerpt: The Norman Conquest to Edward I) shares source evidence from A Child's History of England (Excerpt: The Norman Conquest to Edward I) / CHAPTER X--ENGLAND UNDER HENRY THE FIRST, CALLED FINE-SCHOLAR: Fine-scholar, on hearing of the Red King's death, hurried to Winchester with as much speed as Rufus himself had made, to seize the Royal treasure. But the keeper of ... [truncated] (10 shared statement(s))
-- [[history-dickens-england-excerpt-england-henry-third-winchester]] - shared statements: -ENGLAND UNDER HENRY THE THIRD, CALLED, OF WINCHESTER shares source evidence from A Child's History of England (Excerpt: The Norman Conquest to Edward I) / CHAPTER XV--ENGLAND UNDER HENRY THE THIRD, CALLED, OF WINCHESTER: the Black Band and their Captain watched it too, like three hundred and one black wolves. For thirty-nine days, Hubert de Burgh remained within. At length, upon the ... [truncated] (8 shared statement(s))
+- [[history-dickens-england-excerpt-leicester]] - shared statements: Leicester shares source evidence from A Child's History of England (Excerpt: The Norman Conquest to Edward I) / CHAPTER XV--ENGLAND UNDER HENRY THE THIRD, CALLED, OF WINCHESTER: the Black Band and their Captain watched it too, like three hundred and one black wolves. For thirty-nine days, Hubert de Burgh remained within. At length, upon the ... [truncated] (5 shared statement(s))
 - [[history-dickens-england-excerpt-army]] - shared statements: Army shares source evidence from A Child's History of England (Excerpt: The Norman Conquest to Edward I) / CHAPTER XV--ENGLAND UNDER HENRY THE THIRD, CALLED, OF WINCHESTER: the Black Band and their Captain watched it too, like three hundred and one black wolves. For thirty-nine days, Hubert de Burgh remained within. At length, upon the ... [truncated] (2 shared statement(s))
 - [[history-dickens-england-excerpt-baron]] - shared statements: Baron shares source evidence from A Child's History of England (Excerpt: The Norman Conquest to Edward I) / CHAPTER XV--ENGLAND UNDER HENRY THE THIRD, CALLED, OF WINCHESTER: the Black Band and their Captain watched it too, like three hundred and one black wolves. For thirty-nine days, Hubert de Burgh remained within. At length, upon the ... [truncated] (2 shared statement(s))
 - [[history-dickens-england-excerpt-king]] - shared statements: King shares source evidence from A Child's History of England (Excerpt: The Norman Conquest to Edward I) / CHAPTER XV--ENGLAND UNDER HENRY THE THIRD, CALLED, OF WINCHESTER: the Black Band and their Captain watched it too, like three hundred and one black wolves. For thirty-nine days, Hubert de Burgh remained within. At length, upon the ... [truncated] (2 shared statement(s))
 - [[history-dickens-england-excerpt-afterward]] - shared statements: Afterward shares source evidence from A Child's History of England (Excerpt: The Norman Conquest to Edward I) / CHAPTER X--ENGLAND UNDER HENRY THE FIRST, CALLED FINE-SCHOLAR: Fine-scholar, on hearing of the Red King's death, hurried to Winchester with as much speed as Rufus himself had made, to seize the Royal treasure. But the keeper of ... [truncated] (1 shared statement(s))
-- [[history-dickens-england-excerpt-england-henry-fine-scholar]] - shared statements: -ENGLAND UNDER HENRY THE FIRST, CALLED FINE-SCHOLAR shares source evidence from A Child's History of England (Excerpt: The Norman Conquest to Edward I) / CHAPTER X--ENGLAND UNDER HENRY THE FIRST, CALLED FINE-SCHOLAR: Fine-scholar, on hearing of the Red King's death, hurried to Winchester with as much speed as Rufus himself had made, to seize the Royal treasure. But the keeper of ... [truncated] (1 shared statement(s))
-- [[history-dickens-england-excerpt-england-henry-second]] - shared statements: -ENGLAND UNDER HENRY THE SECOND shares source evidence from A Child's History of England (Excerpt: The Norman Conquest to Edward I) / CHAPTER XII--ENGLAND UNDER HENRY THE SECOND / PART THE SECOND: The Irish were, at that time, as barbarous a people as you can well imagine. They were continually quarrelling and fighting, cutting one another's throats, slicing o ... [truncated] (1 shared statement(s))
+- [[history-dickens-england-excerpt-father]] - shared statements: Father shares source evidence from A Child's History of England (Excerpt: The Norman Conquest to Edward I) / CHAPTER XV--ENGLAND UNDER HENRY THE THIRD, CALLED, OF WINCHESTER: the Black Band and their Captain watched it too, like three hundred and one black wolves. For thirty-nine days, Hubert de Burgh remained within. At length, upon the ... [truncated] (1 shared statement(s))
 - [[history-dickens-england-excerpt-henry]] - shared statements: Henry shares source evidence from A Child's History of England (Excerpt: The Norman Conquest to Edward I) / CHAPTER XV--ENGLAND UNDER HENRY THE THIRD, CALLED, OF WINCHESTER: the Black Band and their Captain watched it too, like three hundred and one black wolves. For thirty-nine days, Hubert de Burgh remained within. At length, upon the ... [truncated] (1 shared statement(s))
-- [[history-dickens-england-excerpt-second]] - shared statements: PART THE SECOND shares source evidence from A Child's History of England (Excerpt: The Norman Conquest to Edward I) / CHAPTER XII--ENGLAND UNDER HENRY THE SECOND / PART THE SECOND: The Irish were, at that time, as barbarous a people as you can well imagine. They were continually quarrelling and fighting, cutting one another's throats, slicing o ... [truncated] (1 shared statement(s))
 
 ## Source
 

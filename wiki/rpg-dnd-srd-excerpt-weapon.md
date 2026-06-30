@@ -1,19 +1,40 @@
 ---
 page_id: rpg-dnd-srd-excerpt-weapon
 page_kind: concept
-summary: Weapons: 41 statement(s) and 18 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
+summary: Weapon: 24 statement(s) and 17 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
+page_family: topic-concept
 sources: raw/rpg_dnd_srd_excerpt.pdf
-updated: 2026-06-29
+updated: 2026-06-30
 domain: rpg-dnd-srd-excerpt
 category_path: concepts
-projection_coverage: topic-rpg-dnd-srd-excerpt-weapon@9d7153008588a3645c3108accc0f3c32
+projection_coverage: topic-rpg-dnd-srd-excerpt-weapon@dbb09ea8ae4969545ae7ed31cd175c73
 ---
 
-# Weapons
+# Weapon
 
-What [[rpg-dnd-srd-excerpt]] covers about weapons:
+What [[rpg-dnd-srd-excerpt]] covers about weapon:
 
 ## Statements
+
+### Making an Attack
+
+- Whether you're striking with a melee weapon, firing a weapon at range, or making an attack roll as part of a spell, an attack has a simple structure. _(rpg_dnd_srd_excerpt.pdf (source-range-4449ec9f-00361))_
+
+### Making an Attack / Attack Rolls / Modifiers to the Roll
+
+- Ability Modifier. The ability modifier used for a melee weapon attack is Strength, and the ability modifier used for a ranged weapon attack is Dexterity. Weapons that have the finesse or thrown property break this rule. _(rpg_dnd_srd_excerpt.pdf (source-range-4449ec9f-00370))_
+
+### Making an Attack / Melee Attacks
+
+- Instead of using a weapon to make a melee weapon attack, you can use an unarmed strike : a punch, kick, head-butt, or similar forceful blow (none of which count as weapons). On a hit, an unarmed strike deals bludgeoning damage equal to 1 + your Strength modifier. You are proficient with your unarmed strikes. _(rpg_dnd_srd_excerpt.pdf (source-range-4449ec9f-00392))_
+
+### Making an Attack / Damage and Healing / Damage Rolls
+
+- Each weapon, spell, and harmful monster ability specifies the damage it deals. You roll the damage die or dice, add any modifiers, and apply the damage to your target. Magic weapons, special abilities, and other factors can grant a bonus to damage. With a penalty, it is possible to deal 0 damage, but never negative damage. _(rpg_dnd_srd_excerpt.pdf (source-range-4449ec9f-00423))_
+
+### Underwater Combat
+
+- When making a melee weapon attack , a creature that doesn't have a swimming speed (either natural or granted by magic) has disadvantage on the attack roll unless the weapon is a dagger, javelin, shortsword, spear, or trident. _(rpg_dnd_srd_excerpt.pdf (source-range-4449ec9f-00478))_
 
 ### Weapons
 
@@ -30,10 +51,6 @@ What [[rpg-dnd-srd-excerpt]] covers about weapons:
 ### Weapons / Weapon Properties
 
 - Many weapons have special properties related to their use, as shown in the Weapons table. _(rpg_dnd_srd_excerpt.pdf (source-range-4449ec9f-00520))_
-
-- Ammunition . You can use a weapon that has the ammunition property to make a ranged attack only if you have ammunition to fire from the weapon. Each time you attack with the weapon, you expend one piece of ammunition. Drawing the ammunition from a quiver, case, or other container is part of the attack (you need a free hand to load a one-handed weapon). At the end of the battle, you can recover half your expended ammunition by taking a minute to search the battlefield. _(rpg_dnd_srd_excerpt.pdf (source-range-4449ec9f-00521))_
-
-- If you use a weapon that has the ammunition property to make a melee attack, you treat the weapon as an improvised weapon (see "Improvised Weapons" later in the section). A sling must be loaded to deal any damage when used in this way. _(rpg_dnd_srd_excerpt.pdf (source-range-4449ec9f-00522))_
 
 - Finesse . When making an attack with a finesse weapon, you use your choice of your Strength or Dexterity modifier for the attack and damage rolls. You must use the same modifier for both rolls. _(rpg_dnd_srd_excerpt.pdf (source-range-4449ec9f-00523))_
 
@@ -55,22 +72,52 @@ What [[rpg-dnd-srd-excerpt]] covers about weapons:
 
 ### Weapons / Weapon Properties / Improvised Weapons
 
-- Sometimes characters don't have their weapons and have to attack with whatever is at hand. An improvised weapon includes any object you can wield in one or two hands, such as broken glass, a table leg, a frying pan, a wagon wheel, or a dead goblin. _(rpg_dnd_srd_excerpt.pdf (source-range-4449ec9f-00534))_
-
-- An object that bears no resemblance to a weapon deals 1d4 damage (the GM assigns a damage type appropriate to the object). If a character uses a ranged weapon to make a melee attack, or throws a melee weapon that does not have the thrown property, it also deals 1d4 damage. An improvised thrown weapon has a normal range of 20 feet and a long range of 60 feet. _(rpg_dnd_srd_excerpt.pdf (source-range-4449ec9f-00536))_
-
-- Some monsters that have immunity or resistance to nonmagical weapons are susceptible to silver weapons, so cautious adventurers invest extra coin to plate their weapons with silver. You can silver a single weapon or ten pieces of ammunition for 100 gp. This cost represents not only the price of the silver, but the time and expertise needed to add silver to the weapon without making it less effective. _(rpg_dnd_srd_excerpt.pdf (source-range-4449ec9f-00538))_
-
 - Weapons with special rules are described here. _(rpg_dnd_srd_excerpt.pdf (source-range-4449ec9f-00540))_
-
-- Lance . You have disadvantage when you use a lance to attack a target within 5 feet of you. Also, a lance requires two hands to wield when you aren't mounted. _(rpg_dnd_srd_excerpt.pdf (source-range-4449ec9f-00541))_
-
-- Net . A Large or smaller creature hit by a net is restrained until it is freed. A net has no effect on creatures that are formless, or creatures that are Huge or larger. A creature can use its action to make a DC 10 Strength check, freeing itself or another creature within its reach on a success. Dealing 5 slashing damage to the net (AC 10) also frees the creature without harming it, ending the effect and destroying the net. _(rpg_dnd_srd_excerpt.pdf (source-range-4449ec9f-00542))_
 
 
 ## Technical atoms
 
-### Technical frame 1: Weapons / Weapon Proficiency
+### Technical frame 1: Making an Attack / Melee Attacks
+
+**Context:** _(rpg_dnd_srd_excerpt.pdf (source-range-4449ec9f-00392))_
+
+> Instead of using a weapon to make a melee weapon attack, you can use an unarmed strike : a punch, kick, head-butt, or similar forceful blow (none of which count as weapons). On a hit, an unarmed strike deals bludgeoning damage equal to 1 + your Strength modifier. You are proficient with your unarmed strikes.
+
+**Atom:** _(rpg_dnd_srd_excerpt.pdf (source-range-4449ec9f-00391))_
+
+> Most creatures have a 5-foot reach and can thus attack targets within 5 feet of them when making a melee attack.
+
+### Technical frame 2: Making an Attack / Melee Attacks / Two-Weapon Fighting
+
+**Context:** _(rpg_dnd_srd_excerpt.pdf (source-range-4449ec9f-00400))_
+
+> When you take the Attack action and attack with a light melee weapon that you're holding in one hand, you can use a bonus action to attack with a different light melee weapon that you're holding in the other hand. You don't add your ability modifier to the damage of the bonus attack, unless that modifier is negative.
+
+**Atom:** _(rpg_dnd_srd_excerpt.pdf (source-range-4449ec9f-00401))_
+
+> If either weapon has the thrown property, you can throw the weapon, instead of making a melee attack with it.
+
+### Technical frame 3: Making an Attack / Damage and Healing / Damage Rolls
+
+**Context:** _(rpg_dnd_srd_excerpt.pdf (source-range-4449ec9f-00425))_
+
+> If a spell or other effect deals damage to more than one target at the same time, roll the damage once for all of them. For example, when a wizard casts fi reball or a cleric casts fl ame strike , the spell's damage is rolled once for all creatures caught in the blast.
+
+**Atom:** _(rpg_dnd_srd_excerpt.pdf (source-range-4449ec9f-00424))_
+
+> When attacking with a weapon , you add your ability modifier-the same modifier used for the attack roll-to the damage.
+
+### Technical frame 4: Making an Attack / Damage and Healing / Damage Rolls
+
+**Context:** _(rpg_dnd_srd_excerpt.pdf (source-range-4449ec9f-00424))_
+
+> When attacking with a weapon , you add your ability modifier-the same modifier used for the attack roll-to the damage. A spell tells you which dice to roll for damage and whether to add any modifiers.
+
+**Atom:** _(rpg_dnd_srd_excerpt.pdf (source-range-4449ec9f-00425))_
+
+> If a spell or other effect deals damage to more than one target at the same time, roll the damage once for all of them.
+
+### Technical frame 5: Weapons / Weapon Proficiency
 
 **Context:** _(rpg_dnd_srd_excerpt.pdf (source-range-4449ec9f-00517))_
 
@@ -80,7 +127,7 @@ What [[rpg-dnd-srd-excerpt]] covers about weapons:
 
 > If you make an attack roll using a weapon with which you lack proficiency, you do not add your proficiency bonus to the attack roll.
 
-### Technical frame 2: Weapons / Weapon Properties
+### Technical frame 6: Weapons / Weapon Properties
 
 **Context:** _(rpg_dnd_srd_excerpt.pdf (source-range-4449ec9f-00522))_
 
@@ -90,7 +137,7 @@ What [[rpg-dnd-srd-excerpt]] covers about weapons:
 
 > You can use a weapon that has the ammunition property to make a ranged attack only if you have ammunition to fire from the weapon.
 
-### Technical frame 3: Weapons / Weapon Properties
+### Technical frame 7: Weapons / Weapon Properties
 
 **Context:** _(rpg_dnd_srd_excerpt.pdf (source-range-4449ec9f-00523))_
 
@@ -100,7 +147,7 @@ What [[rpg-dnd-srd-excerpt]] covers about weapons:
 
 > A sling must be loaded to deal any damage when used in this way.
 
-### Technical frame 4: Weapons / Weapon Properties
+### Technical frame 8: Weapons / Weapon Properties
 
 **Context:** _(rpg_dnd_srd_excerpt.pdf (source-range-4449ec9f-00524))_
 
@@ -110,7 +157,7 @@ What [[rpg-dnd-srd-excerpt]] covers about weapons:
 
 > You must use the same modifier for both rolls.
 
-### Technical frame 5: Weapons / Weapon Properties
+### Technical frame 9: Weapons / Weapon Properties
 
 **Context:** _(rpg_dnd_srd_excerpt.pdf (source-range-4449ec9f-00527))_
 
@@ -120,7 +167,7 @@ What [[rpg-dnd-srd-excerpt]] covers about weapons:
 
 > Because of the time required to load this weapon, you can fire only one piece of ammunition from it when you use an action, bonus action, or reaction to fire it, regardless of the number of attacks you can normally make.
 
-### Technical frame 6: Weapons / Weapon Properties
+### Technical frame 10: Weapons / Weapon Properties
 
 **Context:** _(rpg_dnd_srd_excerpt.pdf (source-range-4449ec9f-00528))_
 
@@ -130,7 +177,7 @@ What [[rpg-dnd-srd-excerpt]] covers about weapons:
 
 > When attacking a target beyond normal range, you have disadvantage on the attack roll.
 
-### Technical frame 7: Weapons / Weapon Properties
+### Technical frame 11: Weapons / Weapon Properties
 
 **Context:** _(rpg_dnd_srd_excerpt.pdf (source-range-4449ec9f-00531))_
 
@@ -140,7 +187,7 @@ What [[rpg-dnd-srd-excerpt]] covers about weapons:
 
 > If a weapon has the thrown property, you can throw the weapon to make a ranged attack.
 
-### Technical frame 8: Weapons / Weapon Properties / Improvised Weapons
+### Technical frame 12: Weapons / Weapon Properties / Improvised Weapons
 
 **Context:** _(rpg_dnd_srd_excerpt.pdf (source-range-4449ec9f-00536))_
 
@@ -150,17 +197,7 @@ What [[rpg-dnd-srd-excerpt]] covers about weapons:
 
 > At the GM's option, a character proficient with a weapon can use a similar object as if it were that weapon and use his or her proficiency bonus.
 
-### Technical frame 9: Weapons / Weapon Properties / Improvised Weapons
-
-**Context:** _(rpg_dnd_srd_excerpt.pdf (source-range-4449ec9f-00542))_
-
-> Net . A Large or smaller creature hit by a net is restrained until it is freed. A net has no effect on creatures that are formless, or creatures that are Huge or larger. A creature can use its action to make a DC 10 Strength check, freeing itself or another creature within its reach on a success. Dealing 5 slashing damage to the net (AC 10) also frees the creature without harming it, ending the effect and destroying the net.
-
-**Atom:** _(rpg_dnd_srd_excerpt.pdf (source-range-4449ec9f-00543))_
-
-> When you use an action, bonus action, or reaction to attack with a net, you can make only one attack regardless of the number of attacks you can normally make.
-
-### Technical frame 10: Table- Weapons
+### Technical frame 13: Table- Weapons
 
 **Context:** _(rpg_dnd_srd_excerpt.pdf (source-range-4449ec9f-00540))_
 
@@ -194,7 +231,7 @@ Table- Weapons
 
 </details>
 
-### Technical frame 11: Weapons / Weapon Properties / Improvised Weapons
+### Technical frame 14: Weapons / Weapon Properties / Improvised Weapons
 
 **Context:** _(rpg_dnd_srd_excerpt.pdf (source-range-4449ec9f-00540))_
 
@@ -243,23 +280,7 @@ piercing
 
 </details>
 
-### Technical frame 12: Weapons / Weapon Properties / Improvised Weapons
-
-**Context:** _(rpg_dnd_srd_excerpt.pdf (source-range-4449ec9f-00542))_
-
-> Net . A Large or smaller creature hit by a net is restrained until it is freed. A net has no effect on creatures that are formless, or creatures that are Huge or larger. A creature can use its action to make a DC 10 Strength check, freeing itself or another creature within its reach on a success. Dealing 5 slashing damage to the net (AC 10) also frees the creature without harming it, ending the effect and destroying the net.
-
-**Atom:** _(rpg_dnd_srd_excerpt.pdf (source-range-4449ec9f-00549))_
-
-> (1d8)
-
-### Technical frame 13: Weapons / Weapon Properties / Improvised Weapons
-
-**Atom:** _(rpg_dnd_srd_excerpt.pdf (source-range-4449ec9f-00557))_
-
-> 1d8
-
-### Technical frame 14: Weapons / Weapon Properties / Improvised Weapons
+### Technical frame 15: Weapons / Weapon Properties / Improvised Weapons
 
 **Atom:** _(rpg_dnd_srd_excerpt.pdf (source-range-4449ec9f-00559))_
 
@@ -300,19 +321,7 @@ Sling
 
 </details>
 
-### Technical frame 15: Weapons / Weapon Properties / Improvised Weapons
-
-**Atom:** _(rpg_dnd_srd_excerpt.pdf (source-range-4449ec9f-00560))_
-
-> 1d4
-
 ### Technical frame 16: Weapons / Weapon Properties / Improvised Weapons
-
-**Atom:** _(rpg_dnd_srd_excerpt.pdf (source-range-4449ec9f-00571))_
-
-> 1d8
-
-### Technical frame 17: Weapons / Weapon Properties / Improvised Weapons
 
 **Atom:** _(rpg_dnd_srd_excerpt.pdf (source-range-4449ec9f-00573))_
 
@@ -439,7 +448,7 @@ slashing
 
 </details>
 
-### Technical frame 18: Weapons / Weapon Properties / Improvised Weapons
+### Technical frame 17: Weapons / Weapon Properties / Improvised Weapons
 
 **Atom:** _(rpg_dnd_srd_excerpt.pdf (source-range-4449ec9f-00574))_
 
@@ -484,13 +493,22 @@ Improvised Weapons
 
 ## Related pages
 
-- [[rpg-dnd-srd-excerpt-weapon-property]] - narrower topic: Weapon Properties shares source evidence from Weapons / Weapon Properties: Many weapons have special properties related to their use, as shown in the Weapons table.; Weapon Properties shares technical record from Weapons / Weapon Properties: You can use a weapon that has the ammunition property to make a ranged attack only if you have ammunition to fire from the weapon. (29 shared statement(s), 17 shared atom(s))
-- [[rpg-dnd-srd-excerpt-improvised-weapon]] - narrower topic: Improvised Weapons shares source evidence from Weapons / Weapon Properties / Improvised Weapons: Sometimes characters don't have their weapons and have to attack with whatever is at hand. An improvised weapon includes any object you can wield in one or two hands ... [truncated]; Improvised Weapons shares technical record from Weapons / Weapon Properties / Improvised Weapons: At the GM's option, a character proficient with a weapon can use a similar object as if it were that weapon and use his or her proficiency bonus. (12 shared statement(s), 11 shared atom(s))
+- [[rpg-dnd-srd-excerpt-attack]] - shared statements and technical atoms: Attack shares source evidence from Making an Attack: Whether you're striking with a melee weapon, firing a weapon at range, or making an attack roll as part of a spell, an attack has a simple structure.; Attack shares technical record from Making an Attack / Melee Attacks: Most creatures have a 5-foot reach and can thus attack targets within 5 feet of them when making a melee attack. (3 shared statement(s), 9 shared atom(s))
+- [[rpg-dnd-srd-excerpt-melee]] - shared statements and technical atoms: Melee shares source evidence from Making an Attack: Whether you're striking with a melee weapon, firing a weapon at range, or making an attack roll as part of a spell, an attack has a simple structure.; Melee shares technical record from Making an Attack / Melee Attacks: Most creatures have a 5-foot reach and can thus attack targets within 5 feet of them when making a melee attack. (3 shared statement(s), 3 shared atom(s))
+- [[rpg-dnd-srd-excerpt-special]] - shared statements and technical atoms: Special shares source evidence from Making an Attack / Damage and Healing / Damage Rolls: Each weapon, spell, and harmful monster ability specifies the damage it deals. You roll the damage die or dice, add any modifiers, and apply the damage to your targe ... [truncated]; Special shares technical record from Making an Attack / Damage and Healing / Damage Rolls: When attacking with a weapon , you add your ability modifier-the same modifier used for the attack roll-to the damage. (3 shared statement(s), 3 shared atom(s))
+- [[rpg-dnd-srd-excerpt-ability]] - shared statements and technical atoms: Ability shares source evidence from Making an Attack / Damage and Healing / Damage Rolls: Each weapon, spell, and harmful monster ability specifies the damage it deals. You roll the damage die or dice, add any modifiers, and apply the damage to your targe ... [truncated]; Ability shares technical record from Making an Attack / Melee Attacks / Two-Weapon Fighting: If either weapon has the thrown property, you can throw the weapon, instead of making a melee attack with it. (2 shared statement(s), 3 shared atom(s))
 - [[rpg-dnd-srd-excerpt-table]] - shared statements and technical atoms: Table shares source evidence from Weapons: The Weapons table shows the most common weapons used in the fantasy gaming worlds, their price and weight, the damage they deal when they hit, and any special proper ... [truncated]; Table shares technical record from Weapons / Weapon Properties: You can use a weapon that has the ammunition property to make a ranged attack only if you have ammunition to fire from the weapon. (1 shared statement(s), 3 shared atom(s))
-- [[rpg-dnd-srd-excerpt-special]] - shared statements and technical atoms: Special shares source evidence from Weapons / Weapon Properties: Special . A weapon with the special property has unusual rules governing its use, explained in the weapon's description (see "Special Weapons" later in this section).; Special shares technical record from Weapons / Weapon Properties: You can use a weapon that has the ammunition property to make a ranged attack only if you have ammunition to fire from the weapon. (2 shared statement(s), 2 shared atom(s))
-- [[rpg-dnd-srd-excerpt-character]] - shared statements and technical atoms: Character shares source evidence from Weapons / Weapon Properties / Improvised Weapons: Sometimes characters don't have their weapons and have to attack with whatever is at hand. An improvised weapon includes any object you can wield in one or two hands ... [truncated]; Character shares technical record from Weapons / Weapon Properties / Improvised Weapons: At the GM's option, a character proficient with a weapon can use a similar object as if it were that weapon and use his or her proficiency bonus. (2 shared statement(s), 1 shared atom(s))
-- [[rpg-dnd-srd-excerpt-creature]] - shared statements and technical atoms: Creature shares source evidence from Weapons / Weapon Properties: Heavy . Small creatures have disadvantage on attack rolls with heavy weapons. A heavy weapon's size and bulk make it too large for a Small creature to use effectively.; Creature shares technical record from Weapons / Weapon Properties / Improvised Weapons: When you use an action, bonus action, or reaction to attack with a net, you can make only one attack regardless of the number of attacks you can normally make. (2 shared statement(s), 1 shared atom(s))
+- [[rpg-dnd-srd-excerpt-damage]] - shared statements and technical atoms: Damage shares source evidence from Making an Attack / Damage and Healing / Damage Rolls: Each weapon, spell, and harmful monster ability specifies the damage it deals. You roll the damage die or dice, add any modifiers, and apply the damage to your targe ... [truncated]; Damage shares technical record from Making an Attack / Damage and Healing / Damage Rolls: When attacking with a weapon , you add your ability modifier-the same modifier used for the attack roll-to the damage. (1 shared statement(s), 2 shared atom(s))
 - [[rpg-dnd-srd-excerpt-proficiency]] - shared statements and technical atoms: Proficiency shares source evidence from Weapons: Your class grants proficiency in certain weapons, reflecting both the class's focus and the tools you are most likely to use. Whether you favor a longsword or a long ... [truncated]; Proficiency shares technical record from Weapons / Weapon Proficiency: If you make an attack roll using a weapon with which you lack proficiency, you do not add your proficiency bonus to the attack roll. (2 shared statement(s), 1 shared atom(s))
+- [[rpg-dnd-srd-excerpt-class]] - shared statements and technical atoms: Class shares source evidence from Weapons: Your class grants proficiency in certain weapons, reflecting both the class's focus and the tools you are most likely to use. Whether you favor a longsword or a long ... [truncated]; Class shares technical record from Weapons / Weapon Proficiency: If you make an attack roll using a weapon with which you lack proficiency, you do not add your proficiency bonus to the attack roll. (1 shared statement(s), 1 shared atom(s))
+- [[rpg-dnd-srd-excerpt-spell]] - shared technical atoms: Spell shares technical record from Making an Attack / Melee Attacks: Most creatures have a 5-foot reach and can thus attack targets within 5 feet of them when making a melee attack. (3 shared atom(s))
+- [[rpg-dnd-srd-excerpt-character]] - shared technical atoms: Character shares technical record from Weapons / Weapon Properties / Improvised Weapons: At the GM's option, a character proficient with a weapon can use a similar object as if it were that weapon and use his or her proficiency bonus. (1 shared atom(s))
+- [[rpg-dnd-srd-excerpt-target]] - shared technical atoms: Target shares technical record from Making an Attack / Damage and Healing / Damage Rolls: When attacking with a weapon , you add your ability modifier-the same modifier used for the attack roll-to the damage. (1 shared atom(s))
+- [[rpg-dnd-srd-excerpt-typical]] - shared technical atoms: Typical shares technical record from Making an Attack / Melee Attacks: Most creatures have a 5-foot reach and can thus attack targets within 5 feet of them when making a melee attack. (1 shared atom(s))
+- [[rpg-dnd-srd-excerpt-typically]] - shared technical atoms: Typically shares technical record from Making an Attack / Melee Attacks: Most creatures have a 5-foot reach and can thus attack targets within 5 feet of them when making a melee attack. (1 shared atom(s))
+- [[rpg-dnd-srd-excerpt-weight]] - shared technical atoms: Weight shares technical record from Table- Weapons: Table- Weapons | Category | Name | Cost | Damage | Weight | Properties | | --- | --- | --- | --- | --- | --- | | Simple Melee Weapons | Club | 1 sp | 1d4 bludgeoning ... [truncated] (1 shared atom(s))
+- [[rpg-dnd-srd-excerpt-creature]] - shared statements: Creature shares source evidence from Underwater Combat: When making a melee weapon attack , a creature that doesn't have a swimming speed (either natural or granted by magic) has disadvantage on the attack roll unless the ... [truncated] (1 shared statement(s))
+- [[rpg-dnd-srd-excerpt-instead]] - shared statements: Instead shares source evidence from Making an Attack / Melee Attacks: Instead of using a weapon to make a melee weapon attack, you can use an unarmed strike : a punch, kick, head-butt, or similar forceful blow (none of which count as w ... [truncated] (1 shared statement(s))
 - [[rpg-dnd-srd-excerpt-section-weapons-ba2ad489]] - source section: Weapons shares source evidence from Weapons: Your class grants proficiency in certain weapons, reflecting both the class's focus and the tools you are most likely to use. Whether you favor a longsword or a long ... [truncated]; Weapons shares technical record from Weapons / Weapon Proficiency: If you make an attack roll using a weapon with which you lack proficiency, you do not add your proficiency bonus to the attack roll. (41 shared statement(s), 18 shared atom(s))
 
 ## Source

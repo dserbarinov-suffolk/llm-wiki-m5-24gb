@@ -1,13 +1,14 @@
 ---
 page_id: history-short-history-of-england-section-a-short-history-of-england-pg-1-xi-the-rebellion-of-the-rich-2652209f
 page_kind: source
-summary: A SHORT HISTORY OF ENGLAND [Pg 1] / XI / THE REBELLION OF THE RICH: 152 source-backed entries and 4 atom(s) from raw/history_short_history_of_england.pdf.
+summary: A SHORT HISTORY OF ENGLAND [Pg 1] / XI / THE REBELLION OF THE RICH: 152 source-backed entries and 0 atom(s) from raw/history_short_history_of_england.pdf.
+page_family: section-reference
 sources: raw/history_short_history_of_england.pdf
-updated: 2026-06-29
+updated: 2026-06-30
 domain: history-short-history-of-england
 category_path: sources/history-short-history-of-england/sections
 source_id: history_short_history_of_england.pdf
-projection_coverage: section-history-short-history-of-england-section-a-short-history-of-england-pg-1-xi-the-rebellion-of-the-rich-2652209f@6ce9289baa695a0ce832035db8635579
+projection_coverage: section-history-short-history-of-england-section-a-short-history-of-england-pg-1-xi-the-rebellion-of-the-rich-2652209f@f7673df66c415d3e7585dca48cf5f293
 ---
 
 # A SHORT HISTORY OF ENGLAND [Pg 1] / XI / THE REBELLION OF THE RICH
@@ -17,7 +18,6 @@ From [[history-short-history-of-england]].
 ## Related pages
 
 - [[history-short-history-of-england-section-a-short-history-of-england-pg-1-xi-4fb8b222]] - broader source section: A SHORT HISTORY OF ENGLAND [Pg 1] / XI
-- [[history-short-history-of-england-rebellion-rich]] - topic hub: opens the topic page for Rebellion Rich
 
 ## Statements
 
@@ -58,45 +58,3 @@ From [[history-short-history-of-england]].
 - The tide which thus burst through the breach and overwhelmed the King as well as the Church was the revolt of the rich, and especially of the new rich. _(history_short_history_of_england.pdf (source-range-46d51aaf-00304))_
 - By marrying into the Seymour family, and thus providing himself with a son, Henry had also provided the country with the very type of powerful family which was to rule merely by pillage. _(history_short_history_of_england.pdf (source-range-46d51aaf-00308))_
 - Proportion is the only practical thing; and it may be true that Cæsar was not feeling well on the morning of the Ides of March. _(history_short_history_of_england.pdf (source-range-46d51aaf-00308))_
-
-## Technical atoms
-
-### Technical frame 1: A SHORT HISTORY OF ENGLAND [Pg 1] / XI / THE REBELLION OF THE RICH
-
-**Context:** _(history_short_history_of_england.pdf (source-range-46d51aaf-00284))_
-
-> This singular summary of the great epoch of our emancipation and enlightenment is not the fact usually put first in such very curt historical accounts of it. It has nothing to do with the translation of the Bible, or the character of Henry VIII., or the characters of Henry VIII.'s wives, or the triangular debates between Henry and Luther and the Pope. It was not Popish sheep who were eating Protestant men, or vice versa ; nor did Henry, at any period of his own brief and rather bewildering papac
-
-**Atom:** _(history_short_history_of_england.pdf (source-range-46d51aaf-00279))_
-
-> Sir Thomas More, apart from any arguments about the more mystical meshes in which he was ultimately caught and killed, will be hailed by all as a hero of the New Learning; that great dawn of a more rational daylight which for so many made mediævalism seem a mere darkness. Whatever we think of his appreciation of the Reformation, there will be no dispute about his appreciation of the Renascence. He was above all things a Humanist and a very human one. He was even in many ways very modern, which some rather erroneously suppose to be the same as being human; he was also humane, in the sense of humanitarian. He sketched an ideal, or rather perhaps a fanciful social system, with something of the ingenuity of Mr. H. G. Wells, but essentially with much more than the flippancy attributed to Mr. Bernard Shaw. It is not fair to charge the Utopian notions upon his morality; but their subjects and suggestions mark what (for want of a better word) we can only call his modernism. Thus the immortality of animals is the sort of transcendentalism which savours of evolution; and the grosser jest about the preliminaries of marriage might be taken quite seriously by the students of Eugenics. He suggested a sort of pacifism-though the Utopians had a quaint way of achieving it. In short, while he was, with his friend Erasmus, a satirist of mediæval abuses, few would now deny that Protestantism would be too narrow rather than too broad for him. If he was obviously not a Protestant, there are few Protestants who would deny him the name of a Reformer. But he was an innovator in things more alluring to modern minds than theology; he was partly what we should call a Neo-Pagan. His friend Colet summed up that escape from mediævalism which might be called the passage from bad Latin to good Greek. In our loose modern debates they are lumped together; but Greek learning was the growth of this time; there had always been a popular Latin, if a dog-Latin. It would be nearer the truth to call the mediævals bi-lingual than to call their Latin a dead language. Greek never, of course, became so general a possession; but for the man who got it, it is not too much to say that he felt as if he were in the open air for the first time. Much of this Greek spirit was reflected in More; its universality, its urbanity, its balance of buoyant reason and cool curiosity. It is even probable that he shared some of the excesses and errors of taste which inevitably infected the splendid intellectualism of the reaction against the Middle Ages; we can imagine him thinking gargoyles Gothic, in the sense of barbaric, or even failing to be stirred, as Sydney was, by the trumpet of "Chevy Chase." The wealth of the ancient heathen world, in wit, loveliness, and civic heroism, had so recently been revealed to that generation in its dazzling profusion and perfection, that it might seem a trifle if they did here and there an injustice to the relics of the Dark Ages. When, therefore, we look at the world with the eyes of More we are looking from the widest windows of that time; looking over an English landscape seen for the first time very equally, in the level light of the sun at morning. For what he saw was England of the Renascence; England passing from the mediæval to the modern. Thus he looked forth, and saw many things and said many things; they were all worthy and many witty; but he noted one thing which is at once a horrible fancy and a homely and practical fact. He who looked over that landscape said: "Sheep
-
-### Technical frame 2: A SHORT HISTORY OF ENGLAND [Pg 1] / XI / THE REBELLION OF THE RICH
-
-**Context:** _(history_short_history_of_england.pdf (source-range-46d51aaf-00291))_
-
-> The apparent pivot of it was in certain events, political and even personal. They roughly resolve themselves into two: the marriages of Henry VIII. and the affair of the monasteries. The marriages of Henry VIII. have long been a popular and even a stale joke; and there is a truth of tradition in the joke, as there is in almost any joke if it is sufficiently popular, and indeed if it is sufficiently stale. A jocular thing never lives to be stale unless it is also serious. Henry was popular in his
-
-**Atom:** _(history_short_history_of_england.pdf (source-range-46d51aaf-00290))_
-
-> If this be a fancy, it is at least one that cannot be disproved; the mediæval revolution was too unsuccessful at the beginning for any one to show that it need have been unsuccessful in the end.
-
-### Technical frame 3: A SHORT HISTORY OF ENGLAND [Pg 1] / XI / THE REBELLION OF THE RICH
-
-**Context:** _(history_short_history_of_england.pdf (source-range-46d51aaf-00295))_
-
-> The great divorce brought down Wolsey, the mighty minister who had held the scales between the Empire and the French Monarchy, and made the modern balance of power in Europe. He is often described under the dictum of Ego et Rex Meus ; but he marks a stage in the English story rather because he suffered for it than because he said it. Ego et Rex Meus might be the motto of any modern Prime Minister; for we have forgotten the very fact that the word minister merely means servant. Wolsey was the las
-
-**Atom:** _(history_short_history_of_england.pdf (source-range-46d51aaf-00291))_
-
-> A jocular thing never lives to be stale unless it is also serious.
-
-### Technical frame 4: A SHORT HISTORY OF ENGLAND [Pg 1] / XI / THE REBELLION OF THE RICH
-
-**Context:** _(history_short_history_of_england.pdf (source-range-46d51aaf-00296))_
-
-> But the more impersonal process which More himself had observed (as noted at the beginning of this chapter) is more clearly defined, and less clouded with controversies, in the second of the two parts of Henry's policy. There is indeed a controversy about the monasteries; but it is one that is clarifying and settling every day. Now it is true that the Church, by the Renascence period, had reached a considerable corruption; but the real proofs of it are utterly different both from the contemporar
-
-**Atom:** _(history_short_history_of_england.pdf (source-range-46d51aaf-00295))_
-
-> But for Humanism it must have seemed a monstrous sacrifice; it was somehow as if Montaigne were a martyr.

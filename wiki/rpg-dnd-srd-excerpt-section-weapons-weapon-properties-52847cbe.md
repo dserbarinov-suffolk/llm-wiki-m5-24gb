@@ -1,13 +1,14 @@
 ---
 page_id: rpg-dnd-srd-excerpt-section-weapons-weapon-properties-52847cbe
 page_kind: source
-summary: Weapons / Weapon Properties: 52 source-backed entries and 17 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
+summary: Weapons / Weapon Properties: 52 source-backed entries and 9 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
+page_family: section-reference
 sources: raw/rpg_dnd_srd_excerpt.pdf
-updated: 2026-06-29
+updated: 2026-06-30
 domain: rpg-dnd-srd-excerpt
 category_path: sources/rpg-dnd-srd-excerpt/sections
 source_id: rpg_dnd_srd_excerpt.pdf
-projection_coverage: section-rpg-dnd-srd-excerpt-section-weapons-weapon-properties-52847cbe@21a6bb57487d791f6f51e1747eea0f7d
+projection_coverage: section-rpg-dnd-srd-excerpt-section-weapons-weapon-properties-52847cbe@92d214fb4447abc9e36ec8aef11b6321
 ---
 
 # Weapons / Weapon Properties
@@ -19,7 +20,6 @@ From [[rpg-dnd-srd-excerpt]].
 - [[rpg-dnd-srd-excerpt-section-weapons-ba2ad489]] - broader source section: Weapons
 - [[rpg-dnd-srd-excerpt-section-weapons-weapon-properties-improvised-weapons-24ec8208]] - narrower source section: Weapons / Weapon Properties / Improvised Weapons
 - [[rpg-dnd-srd-excerpt-section-weapons-weapon-proficiency-545cd924]] - previous source section: Weapons / Weapon Proficiency
-- [[rpg-dnd-srd-excerpt-weapon-property]] - topic hub: opens the topic page for Weapon Property
 
 ## Statements
 
@@ -87,26 +87,6 @@ From [[rpg-dnd-srd-excerpt]].
 
 ### Technical frame 4: Weapons / Weapon Properties
 
-**Context:** _(rpg_dnd_srd_excerpt.pdf (source-range-4449ec9f-00527))_
-
-> Range . A weapon that can be used to make a ranged attack has a range in parentheses after the ammunition or thrown property. The range lists two numbers. The first is the weapon's normal range in feet, and the second indicates the weapon's long range. When attacking a target beyond normal range, you have disadvantage on the attack roll. You can't attack a target beyond the weapon's long range.
-
-**Atom:** _(rpg_dnd_srd_excerpt.pdf (source-range-4449ec9f-00526))_
-
-> Because of the time required to load this weapon, you can fire only one piece of ammunition from it when you use an action, bonus action, or reaction to fire it, regardless of the number of attacks you can normally make.
-
-### Technical frame 5: Weapons / Weapon Properties
-
-**Context:** _(rpg_dnd_srd_excerpt.pdf (source-range-4449ec9f-00528))_
-
-> Reach . This weapon adds 5 feet to your reach when you attack with it, as well as when determining your reach for opportunity attacks with it.
-
-**Atom:** _(rpg_dnd_srd_excerpt.pdf (source-range-4449ec9f-00527))_
-
-> When attacking a target beyond normal range, you have disadvantage on the attack roll.
-
-### Technical frame 6: Weapons / Weapon Properties
-
 **Context:** _(rpg_dnd_srd_excerpt.pdf (source-range-4449ec9f-00531))_
 
 > Two-Handed . This weapon requires two hands when you attack with it.
@@ -115,27 +95,7 @@ From [[rpg-dnd-srd-excerpt]].
 
 > If a weapon has the thrown property, you can throw the weapon to make a ranged attack.
 
-### Technical frame 7: Weapons / Weapon Properties / Improvised Weapons
-
-**Context:** _(rpg_dnd_srd_excerpt.pdf (source-range-4449ec9f-00536))_
-
-> An object that bears no resemblance to a weapon deals 1d4 damage (the GM assigns a damage type appropriate to the object). If a character uses a ranged weapon to make a melee attack, or throws a melee weapon that does not have the thrown property, it also deals 1d4 damage. An improvised thrown weapon has a normal range of 20 feet and a long range of 60 feet.
-
-**Atom:** _(rpg_dnd_srd_excerpt.pdf (source-range-4449ec9f-00535))_
-
-> At the GM's option, a character proficient with a weapon can use a similar object as if it were that weapon and use his or her proficiency bonus.
-
-### Technical frame 8: Weapons / Weapon Properties / Improvised Weapons
-
-**Context:** _(rpg_dnd_srd_excerpt.pdf (source-range-4449ec9f-00542))_
-
-> Net . A Large or smaller creature hit by a net is restrained until it is freed. A net has no effect on creatures that are formless, or creatures that are Huge or larger. A creature can use its action to make a DC 10 Strength check, freeing itself or another creature within its reach on a success. Dealing 5 slashing damage to the net (AC 10) also frees the creature without harming it, ending the effect and destroying the net.
-
-**Atom:** _(rpg_dnd_srd_excerpt.pdf (source-range-4449ec9f-00543))_
-
-> When you use an action, bonus action, or reaction to attack with a net, you can make only one attack regardless of the number of attacks you can normally make.
-
-### Technical frame 9: Table- Weapons
+### Technical frame 5: Table- Weapons
 
 **Context:** _(rpg_dnd_srd_excerpt.pdf (source-range-4449ec9f-00540))_
 
@@ -169,7 +129,7 @@ Table- Weapons
 
 </details>
 
-### Technical frame 10: Weapons / Weapon Properties / Improvised Weapons
+### Technical frame 6: Weapons / Weapon Properties / Improvised Weapons
 
 **Context:** _(rpg_dnd_srd_excerpt.pdf (source-range-4449ec9f-00540))_
 
@@ -218,23 +178,7 @@ piercing
 
 </details>
 
-### Technical frame 11: Weapons / Weapon Properties / Improvised Weapons
-
-**Context:** _(rpg_dnd_srd_excerpt.pdf (source-range-4449ec9f-00542))_
-
-> Net . A Large or smaller creature hit by a net is restrained until it is freed. A net has no effect on creatures that are formless, or creatures that are Huge or larger. A creature can use its action to make a DC 10 Strength check, freeing itself or another creature within its reach on a success. Dealing 5 slashing damage to the net (AC 10) also frees the creature without harming it, ending the effect and destroying the net.
-
-**Atom:** _(rpg_dnd_srd_excerpt.pdf (source-range-4449ec9f-00549))_
-
-> (1d8)
-
-### Technical frame 12: Weapons / Weapon Properties / Improvised Weapons
-
-**Atom:** _(rpg_dnd_srd_excerpt.pdf (source-range-4449ec9f-00557))_
-
-> 1d8
-
-### Technical frame 13: Weapons / Weapon Properties / Improvised Weapons
+### Technical frame 7: Weapons / Weapon Properties / Improvised Weapons
 
 **Atom:** _(rpg_dnd_srd_excerpt.pdf (source-range-4449ec9f-00559))_
 
@@ -275,19 +219,7 @@ Sling
 
 </details>
 
-### Technical frame 14: Weapons / Weapon Properties / Improvised Weapons
-
-**Atom:** _(rpg_dnd_srd_excerpt.pdf (source-range-4449ec9f-00560))_
-
-> 1d4
-
-### Technical frame 15: Weapons / Weapon Properties / Improvised Weapons
-
-**Atom:** _(rpg_dnd_srd_excerpt.pdf (source-range-4449ec9f-00571))_
-
-> 1d8
-
-### Technical frame 16: Weapons / Weapon Properties / Improvised Weapons
+### Technical frame 8: Weapons / Weapon Properties / Improvised Weapons
 
 **Atom:** _(rpg_dnd_srd_excerpt.pdf (source-range-4449ec9f-00573))_
 
@@ -414,7 +346,7 @@ slashing
 
 </details>
 
-### Technical frame 17: Weapons / Weapon Properties / Improvised Weapons
+### Technical frame 9: Weapons / Weapon Properties / Improvised Weapons
 
 **Atom:** _(rpg_dnd_srd_excerpt.pdf (source-range-4449ec9f-00574))_
 

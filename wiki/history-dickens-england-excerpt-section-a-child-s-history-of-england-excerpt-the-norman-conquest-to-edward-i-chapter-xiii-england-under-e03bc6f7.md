@@ -2,8 +2,9 @@
 page_id: history-dickens-england-excerpt-section-a-child-s-history-of-england-excerpt-the-norman-conquest-to-edward-i-chapter-xiii-england-under-e03bc6f7
 page_kind: source
 summary: A Child's History of England (Excerpt: The Norman Conquest to Edward I) / CHAPTER XIII--ENGLAND UNDER RICHARD THE FIRST, CALLED THE LION-HEART: 117 source-backed entries and 0 atom(s) from raw/history_dickens_england_excerpt.pdf.
+page_family: section-reference
 sources: raw/history_dickens_england_excerpt.pdf
-updated: 2026-06-29
+updated: 2026-06-30
 domain: history-dickens-england-excerpt
 category_path: sources/history-dickens-england-excerpt/sections
 source_id: history_dickens_england_excerpt.pdf

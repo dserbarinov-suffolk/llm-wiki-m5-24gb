@@ -1,13 +1,14 @@
 ---
 page_id: history-short-history-of-england-section-a-short-history-of-england-pg-1-i-the-province-of-britain-4caeac08
 page_kind: source
-summary: A SHORT HISTORY OF ENGLAND [Pg 1] / I / THE PROVINCE OF BRITAIN: 139 source-backed entries and 2 atom(s) from raw/history_short_history_of_england.pdf.
+summary: A SHORT HISTORY OF ENGLAND [Pg 1] / I / THE PROVINCE OF BRITAIN: 139 source-backed entries and 1 atom(s) from raw/history_short_history_of_england.pdf.
+page_family: section-reference
 sources: raw/history_short_history_of_england.pdf
-updated: 2026-06-29
+updated: 2026-06-30
 domain: history-short-history-of-england
 category_path: sources/history-short-history-of-england/sections
 source_id: history_short_history_of_england.pdf
-projection_coverage: section-history-short-history-of-england-section-a-short-history-of-england-pg-1-i-the-province-of-britain-4caeac08@2e6ecfa938d75a3f95bc0a49600ebfb6
+projection_coverage: section-history-short-history-of-england-section-a-short-history-of-england-pg-1-i-the-province-of-britain-4caeac08@e26d9e215c9a10eda29b666563433995
 ---
 
 # A SHORT HISTORY OF ENGLAND [Pg 1] / I / THE PROVINCE OF BRITAIN
@@ -18,7 +19,6 @@ From [[history-short-history-of-england]].
 
 - [[history-short-history-of-england-section-a-short-history-of-england-pg-1-i-d1cefed3]] - broader source section: A SHORT HISTORY OF ENGLAND [Pg 1] / I
 - [[history-short-history-of-england-section-a-short-history-of-england-pg-1-i-introduction-f00b5452]] - previous source section: A SHORT HISTORY OF ENGLAND [Pg 1] / I / INTRODUCTION
-- [[history-short-history-of-england-province-britain]] - topic hub: opens the topic page for Province Britain
 
 ## Statements
 
@@ -72,13 +72,3 @@ From [[history-short-history-of-england]].
 **Atom:** _(history_short_history_of_england.pdf (source-range-46d51aaf-00038))_
 
 > Slavery was for the Church not a difficulty of doctrine, but a strain on the imagination. Aristotle and the pagan sages who had defined the servile or "useful" arts, had regarded the slave as a tool, an axe to cut wood or whatever wanted cutting. The Church did not denounce the cutting; but she felt as if she was cutting glass with a diamond. She was haunted by the memory that the diamond is so much more precious than the glass. So Christianity could not settle down into the pagan simplicity that the man was made for the work, when the work was so much less immortally momentous than the man. At about this stage of a history of England there is generally told the anecdote of a pun of Gregory the Great; and this is perhaps the true point of it. By the Roman theory the barbarian bondmen were meant to be useful. The saint's mysticism was moved at finding them ornamental; and "Non Angli sed Angeli" meant more nearly "Not slaves, but souls." It is to the point, in passing, to note that in the modern country most collectively Christian, Russia, the serfs were always referred to as "souls." The great Pope's phrase, hackneyed as it is, is perhaps the first glimpse of the golden halos in the best Christian Art. Thus the Church, with whatever other faults, worked of her own nature towards greater social equality; and it is a historical error to suppose that the Church hierarchy worked with aristocracies, or was of a kind with them. It was an inversion of aristocracy; in the ideal of it, at least, the last were to be first. The Irish bull that "One man is as good as another and a great deal better" contains a truth, like many contradictions; a truth that was the link between Christianity and citizenship. Alone of all superiors, the saint does not depress the human dignity of others. He is not conscious of his superiority to them; but only more conscious of his inferiority than they are.
-
-### Technical frame 2: A SHORT HISTORY OF ENGLAND [Pg 1] / I / THE PROVINCE OF BRITAIN
-
-**Context:** _(history_short_history_of_england.pdf (source-range-46d51aaf-00047))_
-
-> What the decline did involve everywhere was decivilization; the loss of letters, of laws, of roads and means of communication, the exaggeration of local colour into caprice. But on the edges of the Empire this decivilization became a definite barbarism, owing to the nearness of wild neighbours who were ready to destroy as deafly and blindly as things are destroyed by fire. Save for the lurid and apocalyptic locust-flight of the Huns, it is perhaps an exaggeration to talk, even in those darkest a
-
-**Atom:** _(history_short_history_of_england.pdf (source-range-46d51aaf-00046))_
-
-> Canute might call for his throne; but if he wanted his throne-room he must go and get it himself.

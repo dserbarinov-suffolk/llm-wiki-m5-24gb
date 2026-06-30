@@ -1,13 +1,14 @@
 ---
 page_id: rpg-cairn-2e-core-section-bonds-and-omens-de30949d
 page_kind: source
-summary: Bonds and Omens: 15 source-backed entries and 1 atom(s) from raw/rpg_cairn_2e_core.pdf.
+summary: Bonds and Omens: 15 source-backed entries and 0 atom(s) from raw/rpg_cairn_2e_core.pdf.
+page_family: section-reference
 sources: raw/rpg_cairn_2e_core.pdf
-updated: 2026-06-29
+updated: 2026-06-30
 domain: rpg-cairn-2e-core
 category_path: sources/rpg-cairn-2e-core/sections
 source_id: rpg_cairn_2e_core.pdf
-projection_coverage: section-rpg-cairn-2e-core-section-bonds-and-omens-de30949d@3d5d2ce3f599a585275c466c44ac0de5
+projection_coverage: section-rpg-cairn-2e-core-section-bonds-and-omens-de30949d@26b8313a6e95daf71ffa324ee8b3bc53
 ---
 
 # Bonds and Omens
@@ -21,7 +22,6 @@ From [[rpg-cairn-2e-core]].
 - [[rpg-cairn-2e-core-section-bonds-and-omens-omens-41e3ad6a]] - narrower source section: Bonds and Omens / Omens
 - [[rpg-cairn-2e-core-section-wilderness-exploration-915490c7]] - previous source section: Wilderness Exploration
 - [[rpg-cairn-2e-core-section-spellbooks-7040d793]] - next source section: Spellbooks
-- [[rpg-cairn-2e-core-bond-and-omen]] - topic hub: opens the topic page for Bond And Omen
 
 ## Statements by subsection
 
@@ -48,11 +48,3 @@ From [[rpg-cairn-2e-core]].
 
 - Alway tell the characters something about the setting they did not already know. _(rpg_cairn_2e_core.pdf (source-range-9b4fff26-00676))_
 - Reveal a pattern or other obvious indicator that something terrible is going on. _(rpg_cairn_2e_core.pdf (source-range-9b4fff26-00677))_
-
-## Technical atoms
-
-### Technical frame 1: Bonds and Omens / Omens
-
-**Atom:** _(rpg_cairn_2e_core.pdf (source-range-9b4fff26-00673))_
-
-> If an Omen is ignored, it should come to pass and wreak whatever havoc it may.

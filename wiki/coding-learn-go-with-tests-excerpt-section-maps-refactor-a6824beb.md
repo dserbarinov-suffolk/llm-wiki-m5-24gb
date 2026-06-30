@@ -1,13 +1,14 @@
 ---
 page_id: coding-learn-go-with-tests-excerpt-section-maps-refactor-a6824beb
 page_kind: source
-summary: Maps / Refactor: 2 source-backed entries and 1 atom(s) from raw/coding_learn_go_with_tests_excerpt.pdf.
+summary: Maps / Refactor: 2 source-backed entries and 0 atom(s) from raw/coding_learn_go_with_tests_excerpt.pdf.
+page_family: section-reference
 sources: raw/coding_learn_go_with_tests_excerpt.pdf
-updated: 2026-06-29
+updated: 2026-06-30
 domain: coding-learn-go-with-tests-excerpt
 category_path: sources/coding-learn-go-with-tests-excerpt/sections
 source_id: coding_learn_go_with_tests_excerpt.pdf
-projection_coverage: section-coding-learn-go-with-tests-excerpt-section-maps-refactor-a6824beb@eb19b12f18c8bfe99b06979f1abae2d9
+projection_coverage: section-coding-learn-go-with-tests-excerpt-section-maps-refactor-a6824beb@3e5f23e6f124eb911a7e8cb29ff2b42f
 ---
 
 # Maps / Refactor
@@ -23,28 +24,3 @@ From [[coding-learn-go-with-tests-excerpt]].
 ## Statements
 
 - I decided to create an assertStrings helper to make the implementation more general. _(coding_learn_go_with_tests_excerpt.pdf (source-range-cb73a893-00565))_
-
-## Technical atoms
-
-### Technical frame 1: Maps / Refactor
-
-**Context:** _(coding_learn_go_with_tests_excerpt.pdf (source-range-cb73a893-00565))_
-
-> I decided to create an assertStrings helper to make the implementation more general.
-
-**Atom:** _(coding_learn_go_with_tests_excerpt.pdf (source-range-cb73a893-00564))_
-
-```
-func TestSearch(t *testing.T) {
-    dictionary := map[string]string{"test": "this is just a test"}
-got := Search(dictionary, "test")
-    want := "this is just a test"
-assertStrings(t, got, want)
-}
-func assertStrings(t testing.TB, got, want string) {
-    t.Helper()
-if got != want {
-        t.Errorf("got %q want %q", got, want)
-    }
-}
-```

@@ -2,11 +2,12 @@
 page_id: coding-learn-go-with-tests-excerpt-array
 page_kind: concept
 summary: Array: 12 statement(s) and 4 atom(s) from raw/coding_learn_go_with_tests_excerpt.pdf.
+page_family: topic-concept
 sources: raw/coding_learn_go_with_tests_excerpt.pdf
-updated: 2026-06-29
+updated: 2026-06-30
 domain: coding-learn-go-with-tests-excerpt
 category_path: concepts
-projection_coverage: topic-coding-learn-go-with-tests-excerpt-array@7c80be7e6404cd4041a027cfa3c718d2
+projection_coverage: topic-coding-learn-go-with-tests-excerpt-array@955762311c878d48bc6e8088b1036193
 ---
 
 # Array
@@ -108,10 +109,10 @@ if got != want {
 
 ## Related pages
 
-- [[coding-learn-go-with-tests-excerpt-array-and-type]] - narrower topic: Arrays and their type shares source evidence from Arrays and their type: An interesting property of arrays is that the size is encoded in its type. If you try to pass an [4]int into a function that expects [5]int , it won't compile. They ... [truncated]; Arrays and their type shares technical record from Arrays and their type / Write the test first: mySlice := []int{1,2,3} (6 shared statement(s), 3 shared atom(s))
-- [[coding-learn-go-with-tests-excerpt-array-and-slice]] - narrower topic: Arrays and slices shares source evidence from Arrays and slices: Arrays allow you to store multiple elements of the same type in a variable in a particular order.; Arrays and slices shares technical record from Arrays and slices / Write the test first: [N]type{value1, value2, ..., valueN} e.g. numbers := [5]int{1, 2, 3, 4, 5} [...]type{value1, value2, ..., valueN} e.g. numbers := [...]int{1, 2, (6 shared statement(s), 1 shared atom(s))
+- [[coding-learn-go-with-tests-excerpt-write-test]] - shared statements and technical atoms: Write the test first shares source evidence from Arrays and slices / Write the test first: Arrays have a fi xed capacity which you define when you declare the variable. We can initialize an array in two ways:; Write the test first shares technical record from Arrays and slices / Write the test first: [N]type{value1, value2, ..., valueN} e.g. numbers := [5]int{1, 2, 3, 4, 5} [...]type{value1, value2, ..., valueN} e.g. numbers := [...]int{1, 2, (2 shared statement(s), 3 shared atom(s))
 - [[coding-learn-go-with-tests-excerpt-test]] - shared technical atoms: Test shares technical record from Arrays and their type / Refactor: func TestSum(t *testing.T) { t.Run("collection of 5 numbers", func(t *testing.T) { numbers := []int{1, 2, 3, 4, 5} got := Sum(numbers) want := 15 if got != want { t. ... [truncated] (1 shared atom(s))
-- [[coding-learn-go-with-tests-excerpt-wrapping]] - shared statements: Wrapping up shares source evidence from Arrays and their type / Wrapping up: We've used slices and arrays with integers but they work with any other type too, including arrays/slices themselves. So you can declare a variable of [][]string if you need to. (2 shared statement(s))
+- [[coding-learn-go-with-tests-excerpt-write-code-pass]] - shared statements: Write enough code to make it pass shares source evidence from Arrays and slices / Write enough code to make it pass: To get the value out of an array at a particular index, just use array[index] syntax. In this case, we are using for to iterate 5 times to work through the array and ... [truncated] (3 shared statement(s))
+- [[coding-learn-go-with-tests-excerpt-value]] - shared statements: Value shares source evidence from Arrays and slices / Write enough code to make it pass: To get the value out of an array at a particular index, just use array[index] syntax. In this case, we are using for to iterate 5 times to work through the array and ... [truncated] (1 shared statement(s))
 
 ## Source
 

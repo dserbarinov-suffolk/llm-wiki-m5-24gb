@@ -1,13 +1,14 @@
 ---
 page_id: rpg-dnd-srd-excerpt-section-conditions-faf6a13e
 page_kind: source
-summary: Conditions: 56 source-backed entries and 2 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
+summary: Conditions: 56 source-backed entries and 1 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
+page_family: section-reference
 sources: raw/rpg_dnd_srd_excerpt.pdf
-updated: 2026-06-29
+updated: 2026-06-30
 domain: rpg-dnd-srd-excerpt
 category_path: sources/rpg-dnd-srd-excerpt/sections
 source_id: rpg_dnd_srd_excerpt.pdf
-projection_coverage: section-rpg-dnd-srd-excerpt-section-conditions-faf6a13e@47ce2e377d40cec1564927329d48871a
+projection_coverage: section-rpg-dnd-srd-excerpt-section-conditions-faf6a13e@4cf5504e7ea17c419c1e0f80c7e24d6f
 ---
 
 # Conditions
@@ -163,13 +164,3 @@ Table- Exhaustion Eﬀects
 ```
 
 </details>
-
-### Technical frame 2: Conditions / Exhaustion
-
-**Context:** _(rpg_dnd_srd_excerpt.pdf (source-range-4449ec9f-00607))_
-
-> A creature suffers the effect of its current level of exhaustion as well as all lower levels. For example, a creature suffering level 2 exhaustion has its speed halved and has disadvantage on ability checks.
-
-**Atom:** _(rpg_dnd_srd_excerpt.pdf (source-range-4449ec9f-00606))_
-
-> If an already exhausted creature suffers another effect that causes exhaustion, its current level of exhaustion increases by the amount specified in the effect's description.

@@ -125,7 +125,7 @@ def test_renamed_heading_without_source_evidence_does_not_create_topic() -> None
     assert "orbit" not in {topic.topic_key for topic in topics}
 
 
-def test_domain_heading_with_source_evidence_survives() -> None:
+def test_single_domain_heading_does_not_create_duplicate_topic() -> None:
     result, topic = _topic(
         [
             ("heading", "# Gliders", ()),
@@ -135,13 +135,8 @@ def test_domain_heading_with_source_evidence_survives() -> None:
         "glider",
     )
 
-    assert topic is not None
-    texts = []
-    for entry_id in topic.entry_ids:
-        entry = result.ledger.entry(entry_id)
-        assert entry is not None
-        texts.append(entry.normalized_text)
-    assert "A glider holds lift." in texts
+    assert result.ledger.usable_entries
+    assert topic is None
 
 
 def test_repeated_container_subject_does_not_anchor_single_term_topic() -> None:
@@ -185,6 +180,26 @@ def test_heading_representative_prefers_topic_support_over_source_order() -> Non
                 "paragraph",
                 "An interface specifies required methods.",
                 (_claim("An interface specifies required methods."),),
+            ),
+            (
+                "paragraph",
+                "An interface groups behavior.",
+                (_claim("An interface groups behavior."),),
+            ),
+            (
+                "paragraph",
+                "An interface can describe a contract.",
+                (_claim("An interface can describe a contract."),),
+            ),
+            (
+                "paragraph",
+                "An interface may be implemented by several types.",
+                (_claim("An interface may be implemented by several types."),),
+            ),
+            (
+                "paragraph",
+                "An interface provides operations.",
+                (_claim("An interface provides operations."),),
             ),
         ],
         "interface",

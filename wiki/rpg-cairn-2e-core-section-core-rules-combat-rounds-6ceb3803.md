@@ -2,12 +2,13 @@
 page_id: rpg-cairn-2e-core-section-core-rules-combat-rounds-6ceb3803
 page_kind: source
 summary: Core Rules / Combat / Rounds: 8 source-backed entries and 0 atom(s) from raw/rpg_cairn_2e_core.pdf.
+page_family: section-reference
 sources: raw/rpg_cairn_2e_core.pdf
-updated: 2026-06-29
+updated: 2026-06-30
 domain: rpg-cairn-2e-core
 category_path: sources/rpg-cairn-2e-core/sections
 source_id: rpg_cairn_2e_core.pdf
-projection_coverage: section-rpg-cairn-2e-core-section-core-rules-combat-rounds-6ceb3803@c00fe3646f06a364e4fb2b10b2873cf6
+projection_coverage: section-rpg-cairn-2e-core-section-core-rules-combat-rounds-6ceb3803@740b57260cf1368cc153f230aace7633
 ---
 
 # Core Rules / Combat / Rounds
@@ -18,6 +19,7 @@ From [[rpg-cairn-2e-core]].
 
 - [[rpg-cairn-2e-core-section-core-rules-combat-8c90fa41]] - broader source section: Core Rules / Combat
 - [[rpg-cairn-2e-core-section-core-rules-combat-actions-a07ba791]] - next source section: Core Rules / Combat / Actions
+- [[rpg-cairn-2e-core-round]] - topic hub: opens the topic page for Round
 
 ## Statements
 

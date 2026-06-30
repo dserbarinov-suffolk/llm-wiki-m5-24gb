@@ -1,13 +1,14 @@
 ---
 page_id: rpg-cairn-2e-core-section-overview-principles-bba3e342
 page_kind: source
-summary: Overview & Principles: 50 source-backed entries and 3 atom(s) from raw/rpg_cairn_2e_core.pdf.
+summary: Overview & Principles: 50 source-backed entries and 0 atom(s) from raw/rpg_cairn_2e_core.pdf.
+page_family: section-reference
 sources: raw/rpg_cairn_2e_core.pdf
-updated: 2026-06-29
+updated: 2026-06-30
 domain: rpg-cairn-2e-core
 category_path: sources/rpg-cairn-2e-core/sections
 source_id: rpg_cairn_2e_core.pdf
-projection_coverage: section-rpg-cairn-2e-core-section-overview-principles-bba3e342@b8749073e47d62d53477d85e9fffb94a
+projection_coverage: section-rpg-cairn-2e-core-section-overview-principles-bba3e342@60f7f9dbbf39af0ca02bd6a104643851
 ---
 
 # Overview & Principles
@@ -20,7 +21,6 @@ From [[rpg-cairn-2e-core]].
 - [[rpg-cairn-2e-core-section-overview-principles-principles-for-players-be9a8ee6]] - narrower source section: Overview & Principles / Principles for Players
 - [[rpg-cairn-2e-core-section-overview-principles-principles-for-wardens-3e41b4cb]] - narrower source section: Overview & Principles / Principles for Wardens
 - [[rpg-cairn-2e-core-section-character-creation-26313297]] - next source section: Character Creation
-- [[rpg-cairn-2e-core-overview-principle]] - topic hub: opens the topic page for Overview Principle
 
 ## Statements by subsection
 
@@ -130,35 +130,3 @@ From [[rpg-cairn-2e-core]].
 
 - Occasionally you will want an element of randomness (e.g. the weather, unique character knowledge, etc.). _(rpg_cairn_2e_core.pdf (source-range-9b4fff26-00086))_
 - A roll of 3 or under tends to mean bad luck for the PCs or their allies. _(rpg_cairn_2e_core.pdf (source-range-9b4fff26-00088))_
-
-## Technical atoms
-
-### Technical frame 1: Overview & Principles / Principles for Players / Talking
-
-**Context:** _(rpg_cairn_2e_core.pdf (source-range-9b4fff26-00038))_
-
-> You'll find that most people are interesting and will want to talk things through before getting violent.
-
-**Atom:** _(rpg_cairn_2e_core.pdf (source-range-9b4fff26-00037))_
-
-> - Treat NPCs as if they were real people, and rely on your curiosity to safely gain information and solve problems.
-
-### Technical frame 2: Overview & Principles / Principles for Wardens / Difficulty
-
-**Context:** _(rpg_cairn_2e_core.pdf (source-range-9b4fff26-00060))_
-
-> Saves cover a great deal of uncertain situations and are often all that is necessary for risky actions.
-
-**Atom:** _(rpg_cairn_2e_core.pdf (source-range-9b4fff26-00058))_
-
-> - If something the players want to do is sincerely impossible, no roll will allow them to do it.
-
-### Technical frame 3: Overview & Principles / Principles for Wardens / Die of Fate
-
-**Context:** _(rpg_cairn_2e_core.pdf (source-range-9b4fff26-00088))_
-
-> A roll of 3 or under tends to mean bad luck for the PCs or their allies.
-
-**Atom:** _(rpg_cairn_2e_core.pdf (source-range-9b4fff26-00087))_
-
-> - In these situations, roll 1d6. A roll of 4 or more generally favors the players.

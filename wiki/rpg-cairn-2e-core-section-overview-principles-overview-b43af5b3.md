@@ -2,12 +2,13 @@
 page_id: rpg-cairn-2e-core-section-overview-principles-overview-b43af5b3
 page_kind: source
 summary: Overview & Principles / Overview: 9 source-backed entries and 0 atom(s) from raw/rpg_cairn_2e_core.pdf.
+page_family: section-reference
 sources: raw/rpg_cairn_2e_core.pdf
-updated: 2026-06-29
+updated: 2026-06-30
 domain: rpg-cairn-2e-core
 category_path: sources/rpg-cairn-2e-core/sections
 source_id: rpg_cairn_2e_core.pdf
-projection_coverage: section-rpg-cairn-2e-core-section-overview-principles-overview-b43af5b3@ef050a4e2c6383d98a6e1d06be9dfb28
+projection_coverage: section-rpg-cairn-2e-core-section-overview-principles-overview-b43af5b3@eeaadc07cb28350aab3e20901a885639
 ---
 
 # Overview & Principles / Overview
@@ -24,7 +25,6 @@ From [[rpg-cairn-2e-core]].
 - [[rpg-cairn-2e-core-section-overview-principles-overview-player-choice-f1eeddda]] - narrower source section: Overview & Principles / Overview / Player Choice
 - [[rpg-cairn-2e-core-section-overview-principles-overview-shared-objectives-ef4b8059]] - narrower source section: Overview & Principles / Overview / Shared Objectives
 - [[rpg-cairn-2e-core-section-overview-principles-principles-for-players-be9a8ee6]] - next source section: Overview & Principles / Principles for Players
-- [[rpg-cairn-2e-core-overview]] - topic hub: opens the topic page for Overview
 
 ## Statements by subsection
 

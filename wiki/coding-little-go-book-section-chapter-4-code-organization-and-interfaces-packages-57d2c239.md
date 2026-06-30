@@ -1,13 +1,14 @@
 ---
 page_id: coding-little-go-book-section-chapter-4-code-organization-and-interfaces-packages-57d2c239
 page_kind: source
-summary: Chapter 4 - Code Organization and Interfaces / Packages: 52 source-backed entries and 15 atom(s) from raw/coding_little_go_book.pdf.
+summary: Chapter 4 - Code Organization and Interfaces / Packages: 52 source-backed entries and 8 atom(s) from raw/coding_little_go_book.pdf.
+page_family: section-reference
 sources: raw/coding_little_go_book.pdf
-updated: 2026-06-29
+updated: 2026-06-30
 domain: coding-little-go-book
 category_path: sources/coding-little-go-book/sections
 source_id: coding_little_go_book.pdf
-projection_coverage: section-coding-little-go-book-section-chapter-4-code-organization-and-interfaces-packages-57d2c239@0d5949f3c52c79424af4278cafa174fb
+projection_coverage: section-coding-little-go-book-section-chapter-4-code-organization-and-interfaces-packages-57d2c239@6166eeece566cef34272dc6a5cdecd78
 ---
 
 # Chapter 4 - Code Organization and Interfaces / Packages
@@ -73,16 +74,6 @@ From [[coding-little-go-book]].
 
 > Notice that the name of the package is the same as the name of the folder. Also, obviously, we aren't actually accessing the database. We're just using this as an example to show how to organize code.
 
-**Atom:** _(coding_little_go_book.pdf (source-range-23d24eb1-00274))_
-
-> To keep more complicated libraries and systems organized, we need to learn about packages. In Go, package names follow the directory structure of your Go workspace. If we were building a shopping system, we'd probably start with a package name "shopping" and put our source files in $GOPATH/src/shopping/ . We don't want to put everything inside this folder though. For example, maybe we want to isolate some database logic inside its own folder. To achieve this, we create a subfolder at $GOPATH/src/shopping/db . The package name of the files within this subfolder is simply db , but to access it from another package, including the shopping package, we need to import shopping/db . In other words, when you name a package, via the package keyword, you provide a single value, not a complete hierarchy (e.g., "shopping" or "db"). When you import a package, you specify the complete path. Let's try it. Inside your Go workspace's src folder (which we set up in Getting Started of the Introduction), create a new folder called shopping and a subfolder within it called db . Inside of shopping/db , create a file called db.go and add the following code:
-
-### Technical frame 2: Chapter 4 - Code Organization and Interfaces / Packages
-
-**Context:** _(coding_little_go_book.pdf (source-range-23d24eb1-00277))_
-
-> Notice that the name of the package is the same as the name of the folder. Also, obviously, we aren't actually accessing the database. We're just using this as an example to show how to organize code.
-
 **Atom:** _(coding_little_go_book.pdf (source-range-23d24eb1-00276))_
 
 ```
@@ -96,7 +87,7 @@ func LoadItem(id int) *Item {
 }
 ```
 
-### Technical frame 3: Chapter 4 - Code Organization and Interfaces / Packages
+### Technical frame 2: Chapter 4 - Code Organization and Interfaces / Packages
 
 **Context:** _(coding_little_go_book.pdf (source-range-23d24eb1-00280))_
 
@@ -118,7 +109,7 @@ func PriceCheck(itemId int) (float64, bool) {
 }
 ```
 
-### Technical frame 4: Chapter 4 - Code Organization and Interfaces / Packages
+### Technical frame 3: Chapter 4 - Code Organization and Interfaces / Packages
 
 **Context:** _(coding_little_go_book.pdf (source-range-23d24eb1-00281))_
 
@@ -137,42 +128,7 @@ func main() {
 }
 ```
 
-### Technical frame 5: Chapter 4 - Code Organization and Interfaces / Packages / Cyclical Imports
-
-**Context:** _(coding_little_go_book.pdf (source-range-23d24eb1-00290))_
-
-> If you try to run the code, you'll get a couple of errors from db/db.go about Item being undefined. This makes sense. Item no longer exists in the db package; it's been moved to the shopping package. We need to change shopping/db/db.go to:
-
-**Atom:** _(coding_little_go_book.pdf (source-range-23d24eb1-00289))_
-
-```
-package shopping
-import (
-  "shopping/db"
-)
-type Item struct {
-  Price float64
-}
-func PriceCheck(itemId int) (float64, bool) {
-  item := db.LoadItem(itemId)
-  if item == nil {
-    return 0, false
-  }
-  return item.Price, true
-}
-```
-
-### Technical frame 6: Chapter 4 - Code Organization and Interfaces / Packages / Cyclical Imports
-
-**Context:** _(coding_little_go_book.pdf (source-range-23d24eb1-00295))_
-
-> pricecheck.go will still import shopping/db , but db.go will now import shopping/models instead of shopping , thus breaking the cycle. Since we moved the shared Item structure to shopping/models/item.go , we need to change shopping/db/db.go to reference the Item structure from models package:
-
-**Atom:** _(coding_little_go_book.pdf (source-range-23d24eb1-00290))_
-
-> If you try to run the code, you'll get a couple of errors from db/db.go about Item being undefined.
-
-### Technical frame 7: Chapter 4 - Code Organization and Interfaces / Packages / Cyclical Imports
+### Technical frame 4: Chapter 4 - Code Organization and Interfaces / Packages / Cyclical Imports
 
 **Context:** _(coding_little_go_book.pdf (source-range-23d24eb1-00295))_
 
@@ -192,7 +148,7 @@ func LoadItem(id int) *shopping.Item {
 }
 ```
 
-### Technical frame 8: Chapter 4 - Code Organization and Interfaces / Packages / Cyclical Imports
+### Technical frame 5: Chapter 4 - Code Organization and Interfaces / Packages / Cyclical Imports
 
 **Context:** _(coding_little_go_book.pdf (source-range-23d24eb1-00295))_
 
@@ -202,7 +158,7 @@ func LoadItem(id int) *shopping.Item {
 
 > Now when you try to run the code, you'll get a dreaded import cycle not allowed error.
 
-### Technical frame 9: Chapter 4 - Code Organization and Interfaces / Packages / Cyclical Imports
+### Technical frame 6: Chapter 4 - Code Organization and Interfaces / Packages / Cyclical Imports
 
 **Context:** _(coding_little_go_book.pdf (source-range-23d24eb1-00295))_
 
@@ -221,7 +177,7 @@ func LoadItem(id int) *shopping.Item {
      main.go
 ```
 
-### Technical frame 10: Chapter 4 - Code Organization and Interfaces / Packages / Cyclical Imports
+### Technical frame 7: Chapter 4 - Code Organization and Interfaces / Packages / Cyclical Imports
 
 **Context:** _(coding_little_go_book.pdf (source-range-23d24eb1-00297))_
 
@@ -241,43 +197,7 @@ func LoadItem(id int) *models.Item {
 }
 ```
 
-### Technical frame 11: Chapter 4 - Code Organization and Interfaces / Packages / Visibility
-
-**Context:** _(coding_little_go_book.pdf (source-range-23d24eb1-00303))_
-
-> it could be called via models.NewItem() . But if the function was named newItem , we wouldn't be able to access it from a different package.
-
-**Atom:** _(coding_little_go_book.pdf (source-range-23d24eb1-00302))_
-
-```
-func NewItem() *Item {
-  // ...
-}
-```
-
-### Technical frame 12: Chapter 4 - Code Organization and Interfaces / Packages / Visibility
-
-**Context:** _(coding_little_go_book.pdf (source-range-23d24eb1-00303))_
-
-> it could be called via models.NewItem() . But if the function was named newItem , we wouldn't be able to access it from a different package.
-
-**Atom:** _(coding_little_go_book.pdf (source-range-23d24eb1-00304))_
-
-> For example, if you rename the Item's Price field to price , you should get an error.
-
-### Technical frame 13: Chapter 4 - Code Organization and Interfaces / Packages / Package Management
-
-**Context:** _(coding_little_go_book.pdf (source-range-23d24eb1-00309))_
-
-> go get fetches the remote files and stores them in your workspace. Go ahead and check your $GOPATH/src . In addition to the shopping project that we created, you'll now see a github.com folder. Within, you'll see a mattn folder which contains a go-sqlite3 folder.
-
-**Atom:** _(coding_little_go_book.pdf (source-range-23d24eb1-00308))_
-
-```
-go get github.com/mattn/go-sqlite3
-```
-
-### Technical frame 14: Chapter 4 - Code Organization and Interfaces / Packages / Package Management
+### Technical frame 8: Chapter 4 - Code Organization and Interfaces / Packages / Package Management
 
 **Context:** _(coding_little_go_book.pdf (source-range-23d24eb1-00310))_
 
@@ -290,13 +210,3 @@ import (
   "github.com/mattn/go-sqlite3"
 )
 ```
-
-### Technical frame 15: Chapter 4 - Code Organization and Interfaces / Packages / Dependency Management
-
-**Context:** _(coding_little_go_book.pdf (source-range-23d24eb1-00316))_
-
-> Eventually, you might find go get inadequate. For one thing, there's no way to specify a revision, it always points to the master/head/trunk/default. This is an even larger problem if you have two projects needing different versions of the same library.
-
-**Atom:** _(coding_little_go_book.pdf (source-range-23d24eb1-00315))_
-
-> If you call go get -u it'll update the packages (or you can update a specific package via go get -u FULL_PACKAGE_NAME ).

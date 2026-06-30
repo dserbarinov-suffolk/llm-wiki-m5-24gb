@@ -1,13 +1,14 @@
 ---
 page_id: rpg-cairn-2e-core-section-procedures-terrain-difficulty-a8b1f689
 page_kind: source
-summary: Procedures / Terrain Difficulty: 39 source-backed entries and 6 atom(s) from raw/rpg_cairn_2e_core.pdf.
+summary: Procedures / Terrain Difficulty: 39 source-backed entries and 4 atom(s) from raw/rpg_cairn_2e_core.pdf.
+page_family: section-reference
 sources: raw/rpg_cairn_2e_core.pdf
-updated: 2026-06-29
+updated: 2026-06-30
 domain: rpg-cairn-2e-core
 category_path: sources/rpg-cairn-2e-core/sections
 source_id: rpg_cairn_2e_core.pdf
-projection_coverage: section-rpg-cairn-2e-core-section-procedures-terrain-difficulty-a8b1f689@5db35016dce2c8dd8839e314f8ed7d1c
+projection_coverage: section-rpg-cairn-2e-core-section-procedures-terrain-difficulty-a8b1f689@2a85edad1b69266ab8c1e3dac0b8e7ff
 ---
 
 # Procedures / Terrain Difficulty
@@ -23,7 +24,6 @@ From [[rpg-cairn-2e-core]].
 - [[rpg-cairn-2e-core-section-procedures-terrain-difficulty-wilderness-actions-c92bc0c2]] - narrower source section: Procedures / Terrain Difficulty / Wilderness Actions
 - [[rpg-cairn-2e-core-section-procedures-wilderness-exploration-ae72f362]] - previous source section: Procedures / Wilderness Exploration
 - [[rpg-cairn-2e-core-section-procedures-downtime-efb55bcc]] - next source section: Procedures / Downtime
-- [[rpg-cairn-2e-core-terrain-difficulty]] - topic hub: opens the topic page for Terrain Difficulty
 
 ## Statements by subsection
 
@@ -210,23 +210,3 @@ reveal the primary feature of the area.
 | 6 | Discovery The party ﬁnds food, treasure, or other useful resources. The Warden can instead choose to reveal the primary feature of the area. |
 
 </details>
-
-### Technical frame 5: Procedures / Terrain Difficulty / Wilderness Elements
-
-**Context:** _(rpg_cairn_2e_core.pdf (source-range-9b4fff26-00357))_
-
-> Some terrain and weather may be easier to traverse at night (desert, for example). The Warden should balance these challenges along with any other.
-
-**Atom:** _(rpg_cairn_2e_core.pdf (source-range-9b4fff26-00356))_
-
-> The Warden should roll twice on the Wilderness Events table.
-
-### Technical frame 6: Procedures / Terrain Difficulty / Wilderness Elements
-
-**Context:** _(rpg_cairn_2e_core.pdf (source-range-9b4fff26-00363))_
-
-> Torches and other radial sources of light illuminate 40ft ahead of the party, but beyond that only provides a dim outline of objects.
-
-**Atom:** _(rpg_cairn_2e_core.pdf (source-range-9b4fff26-00361))_
-
-> - If the party skips the Make Camp action, they each add a Fatigue to their inventory and are deprived .

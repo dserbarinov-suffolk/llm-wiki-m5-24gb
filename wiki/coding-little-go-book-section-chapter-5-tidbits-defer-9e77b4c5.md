@@ -2,8 +2,9 @@
 page_id: coding-little-go-book-section-chapter-5-tidbits-defer-9e77b4c5
 page_kind: source
 summary: Chapter 5 - Tidbits / Defer: 7 source-backed entries and 3 atom(s) from raw/coding_little_go_book.pdf.
+page_family: section-reference
 sources: raw/coding_little_go_book.pdf
-updated: 2026-06-29
+updated: 2026-06-30
 domain: coding-little-go-book
 category_path: sources/coding-little-go-book/sections
 source_id: coding_little_go_book.pdf

@@ -1,13 +1,14 @@
 ---
 page_id: coding-little-go-book-section-chapter-1-the-basics-function-declarations-0fdfbbc5
 page_kind: source
-summary: Chapter 1 - The Basics / Function Declarations: 10 source-backed entries and 4 atom(s) from raw/coding_little_go_book.pdf.
+summary: Chapter 1 - The Basics / Function Declarations: 10 source-backed entries and 1 atom(s) from raw/coding_little_go_book.pdf.
+page_family: section-reference
 sources: raw/coding_little_go_book.pdf
-updated: 2026-06-29
+updated: 2026-06-30
 domain: coding-little-go-book
 category_path: sources/coding-little-go-book/sections
 source_id: coding_little_go_book.pdf
-projection_coverage: section-coding-little-go-book-section-chapter-1-the-basics-function-declarations-0fdfbbc5@001c13f8ea047264cdc2105b6d04eba0
+projection_coverage: section-coding-little-go-book-section-chapter-1-the-basics-function-declarations-0fdfbbc5@0daee5ad77dfa2d79c09c44d96b189d2
 ---
 
 # Chapter 1 - The Basics / Function Declarations
@@ -30,53 +31,6 @@ From [[coding-little-go-book]].
 ## Technical atoms
 
 ### Technical frame 1: Chapter 1 - The Basics / Function Declarations
-
-**Context:** _(coding_little_go_book.pdf (source-range-23d24eb1-00102))_
-
-> This is more than a convention. _ , the blank identifier, is special in that the return value isn't actually assigned. This lets you use _ over and over again regardless of the returned type.
-
-**Atom:** _(coding_little_go_book.pdf (source-range-23d24eb1-00097))_
-
-```
-func log(message string) {
-}
-func add(a int, b int) int {
-}
-func power(name string) (int, bool) {
-}
-```
-
-### Technical frame 2: Chapter 1 - The Basics / Function Declarations
-
-**Context:** _(coding_little_go_book.pdf (source-range-23d24eb1-00102))_
-
-> This is more than a convention. _ , the blank identifier, is special in that the return value isn't actually assigned. This lets you use _ over and over again regardless of the returned type.
-
-**Atom:** _(coding_little_go_book.pdf (source-range-23d24eb1-00099))_
-
-```
-value, exists := power("goku")
-if exists == false {
-  // handle this error case
-}
-```
-
-### Technical frame 3: Chapter 1 - The Basics / Function Declarations
-
-**Context:** _(coding_little_go_book.pdf (source-range-23d24eb1-00102))_
-
-> This is more than a convention. _ , the blank identifier, is special in that the return value isn't actually assigned. This lets you use _ over and over again regardless of the returned type.
-
-**Atom:** _(coding_little_go_book.pdf (source-range-23d24eb1-00101))_
-
-```
-_, exists := power("goku")
-if exists == false {
-  // handle this error case
-}
-```
-
-### Technical frame 4: Chapter 1 - The Basics / Function Declarations
 
 **Context:** _(coding_little_go_book.pdf (source-range-23d24eb1-00105))_
 

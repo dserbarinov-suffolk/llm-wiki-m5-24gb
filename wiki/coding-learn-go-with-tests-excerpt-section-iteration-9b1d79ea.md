@@ -1,13 +1,14 @@
 ---
 page_id: coding-learn-go-with-tests-excerpt-section-iteration-9b1d79ea
 page_kind: source
-summary: Iteration: 25 source-backed entries and 7 atom(s) from raw/coding_learn_go_with_tests_excerpt.pdf.
+summary: Iteration: 25 source-backed entries and 0 atom(s) from raw/coding_learn_go_with_tests_excerpt.pdf.
+page_family: section-reference
 sources: raw/coding_learn_go_with_tests_excerpt.pdf
-updated: 2026-06-29
+updated: 2026-06-30
 domain: coding-learn-go-with-tests-excerpt
 category_path: sources/coding-learn-go-with-tests-excerpt/sections
 source_id: coding_learn_go_with_tests_excerpt.pdf
-projection_coverage: section-coding-learn-go-with-tests-excerpt-section-iteration-9b1d79ea@b2eb9d00fec634f3558193a0349c219c
+projection_coverage: section-coding-learn-go-with-tests-excerpt-section-iteration-9b1d79ea@67b02ece31ca3ae2a83e5388e7f4e96d
 ---
 
 # Iteration
@@ -23,7 +24,6 @@ From [[coding-learn-go-with-tests-excerpt]].
 - [[coding-learn-go-with-tests-excerpt-section-iteration-refactor-5810cb18]] - narrower source section: Iteration / Refactor
 - [[coding-learn-go-with-tests-excerpt-section-testable-examples-80b8a2ce]] - previous source section: Testable Examples
 - [[coding-learn-go-with-tests-excerpt-section-benchmarking-5c1bee15]] - next source section: Benchmarking
-- [[coding-learn-go-with-tests-excerpt-iteration]] - topic hub: opens the topic page for Iteration
 
 ## Statements
 
@@ -51,105 +51,3 @@ From [[coding-learn-go-with-tests-excerpt]].
 ### Iteration / Refactor
 
 - += called "the Add AND assignment operator" , adds the right operand to the left operand and assigns the result to left operand. It works with other types like integers. _(coding_learn_go_with_tests_excerpt.pdf (source-range-cb73a893-00242))_
-
-## Technical atoms
-
-### Technical frame 1: Iteration / Write the test first
-
-**Atom:** _(coding_learn_go_with_tests_excerpt.pdf (source-range-cb73a893-00222))_
-
-```
-package iteration
-import "testing"
-func TestRepeat(t *testing.T) {
-    repeated := Repeat("a")
-    expected := "aaaaa"
-if repeated != expected {
-        t.Errorf("expected %q but got %q", expected, repeated)
-    }
-}
-```
-
-### Technical frame 2: Iteration / Try and run the test
-
-**Atom:** _(coding_learn_go_with_tests_excerpt.pdf (source-range-cb73a893-00224))_
-
-```
-./repeat_test.go:6:14: undefined: Repeat
-```
-
-### Technical frame 3: Iteration / Write the minimal amount of code for the test to run and check the failing test output
-
-**Context:** _(coding_learn_go_with_tests_excerpt.pdf (source-range-cb73a893-00229))_
-
-> Isn't it nice to know you already know enough Go to write tests for some basic problems? This means you can now play with the production code as much as you like and know it's behaving as you'd hope.
-
-**Atom:** _(coding_learn_go_with_tests_excerpt.pdf (source-range-cb73a893-00228))_
-
-```
-package iteration
-func Repeat(character string) string {
-    return ""
-}
-```
-
-### Technical frame 4: Iteration / Write the minimal amount of code for the test to run and check the failing test output
-
-**Context:** _(coding_learn_go_with_tests_excerpt.pdf (source-range-cb73a893-00229))_
-
-> Isn't it nice to know you already know enough Go to write tests for some basic problems? This means you can now play with the production code as much as you like and know it's behaving as you'd hope.
-
-**Atom:** _(coding_learn_go_with_tests_excerpt.pdf (source-range-cb73a893-00230))_
-
-```
-repeat_test.go:10: expected 'aaaaa' but got ''
-```
-
-### Technical frame 5: Iteration / Write enough code to make it pass
-
-**Context:** _(coding_learn_go_with_tests_excerpt.pdf (source-range-cb73a893-00236))_
-
-> as we've been using := so far to declare and initializing variables. However, := is simply short hand for both steps. Here we are declaring a string variable only. Hence, the explicit version. We can also use var to declare functions, as we'll see later on.
-
-**Atom:** _(coding_learn_go_with_tests_excerpt.pdf (source-range-cb73a893-00233))_
-
-```
-func Repeat(character string) string {
-    var repeated string
-    for i := 0; i < 5; i++ {
-        repeated = repeated + character
-    }
-    return repeated
-}
-```
-
-### Technical frame 6: Iteration / Write enough code to make it pass
-
-**Context:** _(coding_learn_go_with_tests_excerpt.pdf (source-range-cb73a893-00236))_
-
-> as we've been using := so far to declare and initializing variables. However, := is simply short hand for both steps. Here we are declaring a string variable only. Hence, the explicit version. We can also use var to declare functions, as we'll see later on.
-
-**Atom:** _(coding_learn_go_with_tests_excerpt.pdf (source-range-cb73a893-00235))_
-
-```
-var repeated string
-```
-
-### Technical frame 7: Iteration / Refactor
-
-**Context:** _(coding_learn_go_with_tests_excerpt.pdf (source-range-cb73a893-00242))_
-
-> += called "the Add AND assignment operator" , adds the right operand to the left operand and assigns the result to left operand. It works with other types like integers.
-
-**Atom:** _(coding_learn_go_with_tests_excerpt.pdf (source-range-cb73a893-00241))_
-
-```
-const repeatCount = 5
-func Repeat(character string) string {
-    var repeated string
-    for i := 0; i < repeatCount; i++ {
-        repeated += character
-    }
-    return repeated
-}
-```

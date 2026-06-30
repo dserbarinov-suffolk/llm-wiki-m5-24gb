@@ -1,13 +1,14 @@
 ---
 page_id: coding-learn-go-with-tests-excerpt-section-iteration-write-the-minimal-amount-of-code-for-the-test-to-run-and-check-the-failing-test-output-0144fa59
 page_kind: source
-summary: Iteration / Write the minimal amount of code for the test to run and check the failing test output: 6 source-backed entries and 2 atom(s) from raw/coding_learn_go_with_tests_excerpt.pdf.
+summary: Iteration / Write the minimal amount of code for the test to run and check the failing test output: 6 source-backed entries and 0 atom(s) from raw/coding_learn_go_with_tests_excerpt.pdf.
+page_family: section-reference
 sources: raw/coding_learn_go_with_tests_excerpt.pdf
-updated: 2026-06-29
+updated: 2026-06-30
 domain: coding-learn-go-with-tests-excerpt
 category_path: sources/coding-learn-go-with-tests-excerpt/sections
 source_id: coding_learn_go_with_tests_excerpt.pdf
-projection_coverage: section-coding-learn-go-with-tests-excerpt-section-iteration-write-the-minimal-amount-of-code-for-the-test-to-run-and-check-the-failing-test-output-0144fa59@fbb48e736efd75f877de114fdc95fe97
+projection_coverage: section-coding-learn-go-with-tests-excerpt-section-iteration-write-the-minimal-amount-of-code-for-the-test-to-run-and-check-the-failing-test-output-0144fa59@d4075fd8b0000fe031f6400f483f28a5
 ---
 
 # Iteration / Write the minimal amount of code for the test to run and check the failing test output
@@ -26,32 +27,3 @@ From [[coding-learn-go-with-tests-excerpt]].
 - All you need to do right now is enough to make it compile so you can check your test is written well. _(coding_learn_go_with_tests_excerpt.pdf (source-range-cb73a893-00227))_
 - Isn't it nice to know you already know enough Go to write tests for some basic problems? This means you can now play with the production code as much as you like and know it's behaving as you'd hope. _(coding_learn_go_with_tests_excerpt.pdf (source-range-cb73a893-00229))_
 - This means you can now play with the production code as much as you like and know it's behaving as you'd hope. _(coding_learn_go_with_tests_excerpt.pdf (source-range-cb73a893-00229))_
-
-## Technical atoms
-
-### Technical frame 1: Iteration / Write the minimal amount of code for the test to run and check the failing test output
-
-**Context:** _(coding_learn_go_with_tests_excerpt.pdf (source-range-cb73a893-00229))_
-
-> Isn't it nice to know you already know enough Go to write tests for some basic problems? This means you can now play with the production code as much as you like and know it's behaving as you'd hope.
-
-**Atom:** _(coding_learn_go_with_tests_excerpt.pdf (source-range-cb73a893-00228))_
-
-```
-package iteration
-func Repeat(character string) string {
-    return ""
-}
-```
-
-### Technical frame 2: Iteration / Write the minimal amount of code for the test to run and check the failing test output
-
-**Context:** _(coding_learn_go_with_tests_excerpt.pdf (source-range-cb73a893-00229))_
-
-> Isn't it nice to know you already know enough Go to write tests for some basic problems? This means you can now play with the production code as much as you like and know it's behaving as you'd hope.
-
-**Atom:** _(coding_learn_go_with_tests_excerpt.pdf (source-range-cb73a893-00230))_
-
-```
-repeat_test.go:10: expected 'aaaaa' but got ''
-```

@@ -2,12 +2,13 @@
 page_id: coding-little-go-book-section-chapter-2-structures-before-you-continue-6cf3e09c
 page_kind: source
 summary: Chapter 2 - Structures / Before You Continue: 2 source-backed entries and 0 atom(s) from raw/coding_little_go_book.pdf.
+page_family: section-reference
 sources: raw/coding_little_go_book.pdf
-updated: 2026-06-29
+updated: 2026-06-30
 domain: coding-little-go-book
 category_path: sources/coding-little-go-book/sections
 source_id: coding_little_go_book.pdf
-projection_coverage: section-coding-little-go-book-section-chapter-2-structures-before-you-continue-6cf3e09c@523fb97f8de90a8ea388ba8d5554bb19
+projection_coverage: section-coding-little-go-book-section-chapter-2-structures-before-you-continue-6cf3e09c@bdc57af990f769ea0addcc4754c1b5bc
 ---
 
 # Chapter 2 - Structures / Before You Continue
@@ -18,6 +19,7 @@ From [[coding-little-go-book]].
 
 - [[coding-little-go-book-section-chapter-2-structures-59a89c52]] - broader source section: Chapter 2 - Structures
 - [[coding-little-go-book-section-chapter-2-structures-pointers-versus-values-a51ed683]] - previous source section: Chapter 2 - Structures / Pointers versus Values
+- [[coding-little-go-book-you-continue]] - topic hub: opens the topic page for You Continue
 
 ## Statements
 

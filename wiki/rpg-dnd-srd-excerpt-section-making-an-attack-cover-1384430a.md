@@ -1,13 +1,14 @@
 ---
 page_id: rpg-dnd-srd-excerpt-section-making-an-attack-cover-1384430a
 page_kind: source
-summary: Making an Attack / Cover: 14 source-backed entries and 1 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
+summary: Making an Attack / Cover: 14 source-backed entries and 0 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
+page_family: section-reference
 sources: raw/rpg_dnd_srd_excerpt.pdf
-updated: 2026-06-29
+updated: 2026-06-30
 domain: rpg-dnd-srd-excerpt
 category_path: sources/rpg-dnd-srd-excerpt/sections
 source_id: rpg_dnd_srd_excerpt.pdf
-projection_coverage: section-rpg-dnd-srd-excerpt-section-making-an-attack-cover-1384430a@492e9ea432336675459dd4f42a6cfaa7
+projection_coverage: section-rpg-dnd-srd-excerpt-section-making-an-attack-cover-1384430a@5e4b531dbc6a1d65b7c5247f11c9eef7
 ---
 
 # Making an Attack / Cover
@@ -19,6 +20,7 @@ From [[rpg-dnd-srd-excerpt]].
 - [[rpg-dnd-srd-excerpt-section-making-an-attack-c6ab4f78]] - broader source section: Making an Attack
 - [[rpg-dnd-srd-excerpt-section-making-an-attack-melee-attacks-03adb000]] - previous source section: Making an Attack / Melee Attacks
 - [[rpg-dnd-srd-excerpt-section-making-an-attack-damage-and-healing-b32dd12e]] - next source section: Making an Attack / Damage and Healing
+- [[rpg-dnd-srd-excerpt-cover]] - topic hub: opens the topic page for Cover
 
 ## Statements
 
@@ -30,15 +32,3 @@ From [[rpg-dnd-srd-excerpt]].
 - A target can benefit from cover only when an attack or other effect originates on the opposite side of the cover. _(rpg_dnd_srd_excerpt.pdf (source-range-4449ec9f-00411))_
 - For example, if a target is behind a creature that gives half cover and a tree trunk that gives threequarters cover, the target has three-quarters cover. _(rpg_dnd_srd_excerpt.pdf (source-range-4449ec9f-00412))_
 - If a target is behind multiple sources of cover, only the most protective degree of cover applies; the degrees aren't added together. _(rpg_dnd_srd_excerpt.pdf (source-range-4449ec9f-00412))_
-
-## Technical atoms
-
-### Technical frame 1: Making an Attack / Cover
-
-**Context:** _(rpg_dnd_srd_excerpt.pdf (source-range-4449ec9f-00412))_
-
-> There are three degrees of cover. If a target is behind multiple sources of cover, only the most protective degree of cover applies; the degrees aren't added together. For example, if a target is behind a creature that gives half cover and a tree trunk that gives threequarters cover, the target has three-quarters cover.
-
-**Atom:** _(rpg_dnd_srd_excerpt.pdf (source-range-4449ec9f-00411))_
-
-> Walls, trees, creatures, and other obstacles can provide cover during combat, making a target more difficult to harm.

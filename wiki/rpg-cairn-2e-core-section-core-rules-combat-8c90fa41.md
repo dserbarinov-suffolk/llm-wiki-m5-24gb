@@ -1,13 +1,14 @@
 ---
 page_id: rpg-cairn-2e-core-section-core-rules-combat-8c90fa41
 page_kind: source
-summary: Core Rules / Combat: 48 source-backed entries and 8 atom(s) from raw/rpg_cairn_2e_core.pdf.
+summary: Core Rules / Combat: 48 source-backed entries and 0 atom(s) from raw/rpg_cairn_2e_core.pdf.
+page_family: section-reference
 sources: raw/rpg_cairn_2e_core.pdf
-updated: 2026-06-29
+updated: 2026-06-30
 domain: rpg-cairn-2e-core
 category_path: sources/rpg-cairn-2e-core/sections
 source_id: rpg_cairn_2e_core.pdf
-projection_coverage: section-rpg-cairn-2e-core-section-core-rules-combat-8c90fa41@2e17e50a2fd4dc88dea929af60fa5e60
+projection_coverage: section-rpg-cairn-2e-core-section-core-rules-combat-8c90fa41@c6131bf960d3daac61c182222144d861
 ---
 
 # Core Rules / Combat
@@ -29,7 +30,6 @@ From [[rpg-cairn-2e-core]].
 - [[rpg-cairn-2e-core-section-core-rules-combat-ranged-attacks-28c34416]] - narrower source section: Core Rules / Combat / Ranged Attacks
 - [[rpg-cairn-2e-core-section-core-rules-die-of-fate-5d317398]] - previous source section: Core Rules / Die of Fate
 - [[rpg-cairn-2e-core-section-core-rules-scars-a80ec685]] - next source section: Core Rules / Scars
-- [[rpg-cairn-2e-core-combat]] - topic hub: opens the topic page for Combat
 
 ## Statements by subsection
 
@@ -84,73 +84,3 @@ From [[rpg-cairn-2e-core]].
 - Ranged weapons can target any enemy near enough to see the whites of their eyes. Attacks against especially distant targets are Impaired . _(rpg_cairn_2e_core.pdf (source-range-9b4fff26-00233))_
 - Ammunition is not tracked unless otherwise specified. _(rpg_cairn_2e_core.pdf (source-range-9b4fff26-00234))_
 - - Ammunition is not tracked unless otherwise specified. _(rpg_cairn_2e_core.pdf (source-range-9b4fff26-00234))_
-
-## Technical atoms
-
-### Technical frame 1: Core Rules / Combat / Actions
-
-**Atom:** _(rpg_cairn_2e_core.pdf (source-range-9b4fff26-00208))_
-
-> On their turn, a character may move up to 40ft and take up to one action.
-
-### Technical frame 2: Core Rules / Combat / Attacking & Damage
-
-**Context:** _(rpg_cairn_2e_core.pdf (source-range-9b4fff26-00212))_
-
-> If an attack would take a PC's HP exactly to 0, refer to the Scars table to see how they are uniquely impacted.
-
-**Atom:** _(rpg_cairn_2e_core.pdf (source-range-9b4fff26-00211))_
-
-> - If multiple attackers target the same foe, roll all damage dice and keep the single highest result.
-
-### Technical frame 3: Core Rules / Combat / Attack Modifiers
-
-**Context:** _(rpg_cairn_2e_core.pdf (source-range-9b4fff26-00216))_
-
-> Attacks with the Blast quality affect all targets in the noted area, rolling separately for each affected character. This can be anything from explosions to a dragon's breath or the impact of a meteorite. If unsure how many targets can be affected, roll the related damage die for a result .
-
-**Atom:** _(rpg_cairn_2e_core.pdf (source-range-9b4fff26-00214))_
-
-> - If fighting from a position of weakness (such as through cover or with bound hands), the attack is Impaired , and the attacker must roll 1d4 damage regardless of the attacks damage die.
-
-### Technical frame 4: Core Rules / Combat / Attack Modifiers
-
-**Context:** _(rpg_cairn_2e_core.pdf (source-range-9b4fff26-00216))_
-
-> Attacks with the Blast quality affect all targets in the noted area, rolling separately for each affected character. This can be anything from explosions to a dragon's breath or the impact of a meteorite. If unsure how many targets can be affected, roll the related damage die for a result .
-
-**Atom:** _(rpg_cairn_2e_core.pdf (source-range-9b4fff26-00215))_
-
-> - If fighting from a position of advantage (such as against a helpless foe or through a daring maneuver), the attack is Enhanced , allowing the attacker to roll 1d12 damage instead of their normal die.
-
-### Technical frame 5: Core Rules / Combat / Attack Modifiers
-
-**Atom:** _(rpg_cairn_2e_core.pdf (source-range-9b4fff26-00216))_
-
-> If unsure how many targets can be affected, roll the related damage die for a result .
-
-### Technical frame 6: Core Rules / Combat / Attack Modifiers
-
-**Context:** _(rpg_cairn_2e_core.pdf (source-range-9b4fff26-00216))_
-
-> Attacks with the Blast quality affect all targets in the noted area, rolling separately for each affected character. This can be anything from explosions to a dragon's breath or the impact of a meteorite. If unsure how many targets can be affected, roll the related damage die for a result .
-
-**Atom:** _(rpg_cairn_2e_core.pdf (source-range-9b4fff26-00217))_
-
-> - If attacking with two weapons at the same time, roll both damage dice and keep the single highest result (denoted with a plus symbol, e.g.
-
-### Technical frame 7: Core Rules / Combat / Critical Damage
-
-**Context:** _(rpg_cairn_2e_core.pdf (source-range-9b4fff26-00221))_
-
-> weakly, grasping for life. If given aid (such as bandages), they will stabilize. If left untreated, they die within the hour. NPCs and monsters that fail a Critical Damage save are considered dead, per the Warden's discretion. Additionally, some enemies will have special abilities or effects that are triggered when their target fails a critical damage save.
-
-**Atom:** _(rpg_cairn_2e_core.pdf (source-range-9b4fff26-00219))_
-
-> On a success, the target is still in the fight (albeit with a lower STR score) and must continue to make critical damage saves when incurring damage.
-
-### Technical frame 8: Core Rules / Combat / Character Death
-
-**Atom:** _(rpg_cairn_2e_core.pdf (source-range-9b4fff26-00226))_
-
-> - When a character dies, the player should create a new character or take control of a hireling.

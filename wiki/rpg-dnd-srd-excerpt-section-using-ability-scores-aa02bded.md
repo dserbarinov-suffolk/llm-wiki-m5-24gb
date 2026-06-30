@@ -2,12 +2,13 @@
 page_id: rpg-dnd-srd-excerpt-section-using-ability-scores-aa02bded
 page_kind: source
 summary: USING ABILITY SCORES: 11 source-backed entries and 1 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
+page_family: section-reference
 sources: raw/rpg_dnd_srd_excerpt.pdf
-updated: 2026-06-29
+updated: 2026-06-30
 domain: rpg-dnd-srd-excerpt
 category_path: sources/rpg-dnd-srd-excerpt/sections
 source_id: rpg_dnd_srd_excerpt.pdf
-projection_coverage: section-rpg-dnd-srd-excerpt-section-using-ability-scores-aa02bded@6d791fed7390f7106fc6c49a80bddc45
+projection_coverage: section-rpg-dnd-srd-excerpt-section-using-ability-scores-aa02bded@3f5e81a0e526dc880c365feab08a1f28
 ---
 
 # USING ABILITY SCORES
@@ -19,6 +20,7 @@ From [[rpg-dnd-srd-excerpt]].
 - [[rpg-dnd-srd-excerpt-section-using-ability-scores-ability-scores-and-modifiers-4e04f869]] - narrower source section: USING ABILITY SCORES / Ability Scores and Modifiers
 - [[rpg-dnd-srd-excerpt-section-dungeons-dragons-srd-5-1-core-rules-excerpt-96b58469]] - previous source section: Dungeons & Dragons SRD 5.1 -Core Rules (Excerpt)
 - [[rpg-dnd-srd-excerpt-section-advantage-and-disadvantage-11435a3d]] - next source section: Advantage and Disadvantage
+- [[rpg-dnd-srd-excerpt-ability-score]] - topic hub: opens the topic page for Ability Score
 
 ## Statements
 

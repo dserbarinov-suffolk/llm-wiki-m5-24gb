@@ -1,13 +1,14 @@
 ---
 page_id: coding-little-go-book-section-chapter-5-tidbits-before-you-continue-25d54302
 page_kind: source
-summary: Chapter 5 - Tidbits / Before You Continue: 9 source-backed entries and 1 atom(s) from raw/coding_little_go_book.pdf.
+summary: Chapter 5 - Tidbits / Before You Continue: 9 source-backed entries and 0 atom(s) from raw/coding_little_go_book.pdf.
+page_family: section-reference
 sources: raw/coding_little_go_book.pdf
-updated: 2026-06-29
+updated: 2026-06-30
 domain: coding-little-go-book
 category_path: sources/coding-little-go-book/sections
 source_id: coding_little_go_book.pdf
-projection_coverage: section-coding-little-go-book-section-chapter-5-tidbits-before-you-continue-25d54302@751bb231f8b886c1723f8d24539e0cd3
+projection_coverage: section-coding-little-go-book-section-chapter-5-tidbits-before-you-continue-25d54302@0c01e1293b66feb1de1758e63e3bfc96
 ---
 
 # Chapter 5 - Tidbits / Before You Continue
@@ -18,6 +19,7 @@ From [[coding-little-go-book]].
 
 - [[coding-little-go-book-section-chapter-5-tidbits-e7a41f7c]] - broader source section: Chapter 5 - Tidbits
 - [[coding-little-go-book-section-chapter-5-tidbits-function-type-561f81dd]] - previous source section: Chapter 5 - Tidbits / Function Type
+- [[coding-little-go-book-you-continue]] - topic hub: opens the topic page for You Continue
 
 ## Statements
 
@@ -26,15 +28,3 @@ From [[coding-little-go-book]].
 - Most notably, we saw how error handling behaves and how to release resources such as connections and open files. _(coding_little_go_book.pdf (source-range-23d24eb1-00394))_
 - Yet, I also find that it results in code that's easier to follow. _(coding_little_go_book.pdf (source-range-23d24eb1-00394))_
 - In fact, it isn't tied to resource management only. _(coding_little_go_book.pdf (source-range-23d24eb1-00394))_
-
-## Technical atoms
-
-### Technical frame 1: Chapter 5 - Tidbits / Before You Continue
-
-**Context:** _(coding_little_go_book.pdf (source-range-23d24eb1-00395))_
-
-> Certainly, we haven't looked at all of the tidbits Go has to offer. But you should be feeling comfortable enough to tackle whatever you come across.
-
-**Atom:** _(coding_little_go_book.pdf (source-range-23d24eb1-00394))_
-
-> You can use defer for any purpose, such as logging when a function exits.

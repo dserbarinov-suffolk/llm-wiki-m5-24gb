@@ -2,8 +2,9 @@
 page_id: coding-learn-go-with-tests-excerpt-section-pointers-copies-et-al-refactor-5d607a3f
 page_kind: source
 summary: Pointers, copies, et al / Refactor: 11 source-backed entries and 1 atom(s) from raw/coding_learn_go_with_tests_excerpt.pdf.
+page_family: section-reference
 sources: raw/coding_learn_go_with_tests_excerpt.pdf
-updated: 2026-06-29
+updated: 2026-06-30
 domain: coding-learn-go-with-tests-excerpt
 category_path: sources/coding-learn-go-with-tests-excerpt/sections
 source_id: coding_learn_go_with_tests_excerpt.pdf

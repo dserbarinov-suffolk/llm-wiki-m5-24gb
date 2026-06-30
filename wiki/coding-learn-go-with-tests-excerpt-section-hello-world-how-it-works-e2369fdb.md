@@ -2,8 +2,9 @@
 page_id: coding-learn-go-with-tests-excerpt-section-hello-world-how-it-works-e2369fdb
 page_kind: source
 summary: Hello, World / How it works: 5 source-backed entries and 0 atom(s) from raw/coding_learn_go_with_tests_excerpt.pdf.
+page_family: section-reference
 sources: raw/coding_learn_go_with_tests_excerpt.pdf
-updated: 2026-06-29
+updated: 2026-06-30
 domain: coding-learn-go-with-tests-excerpt
 category_path: sources/coding-learn-go-with-tests-excerpt/sections
 source_id: coding_learn_go_with_tests_excerpt.pdf

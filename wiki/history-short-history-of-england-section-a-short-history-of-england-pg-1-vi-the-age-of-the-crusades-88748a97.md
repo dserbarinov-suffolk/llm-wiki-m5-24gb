@@ -1,13 +1,14 @@
 ---
 page_id: history-short-history-of-england-section-a-short-history-of-england-pg-1-vi-the-age-of-the-crusades-88748a97
 page_kind: source
-summary: A SHORT HISTORY OF ENGLAND [Pg 1] / VI / THE AGE OF THE CRUSADES: 108 source-backed entries and 3 atom(s) from raw/history_short_history_of_england.pdf.
+summary: A SHORT HISTORY OF ENGLAND [Pg 1] / VI / THE AGE OF THE CRUSADES: 108 source-backed entries and 2 atom(s) from raw/history_short_history_of_england.pdf.
+page_family: section-reference
 sources: raw/history_short_history_of_england.pdf
-updated: 2026-06-29
+updated: 2026-06-30
 domain: history-short-history-of-england
 category_path: sources/history-short-history-of-england/sections
 source_id: history_short_history_of_england.pdf
-projection_coverage: section-history-short-history-of-england-section-a-short-history-of-england-pg-1-vi-the-age-of-the-crusades-88748a97@6f3da9ed2d56f80a075a1e2db0cd5816
+projection_coverage: section-history-short-history-of-england-section-a-short-history-of-england-pg-1-vi-the-age-of-the-crusades-88748a97@effb7415aca98c11d591f3511ef372c0
 ---
 
 # A SHORT HISTORY OF ENGLAND [Pg 1] / VI / THE AGE OF THE CRUSADES
@@ -17,7 +18,6 @@ From [[history-short-history-of-england]].
 ## Related pages
 
 - [[history-short-history-of-england-section-a-short-history-of-england-pg-1-vi-aa49c981]] - broader source section: A SHORT HISTORY OF ENGLAND [Pg 1] / VI
-- [[history-short-history-of-england-age-crusade]] - topic hub: opens the topic page for Age Crusade
 
 ## Statements
 
@@ -72,13 +72,3 @@ From [[history-short-history-of-england]].
 **Atom:** _(history_short_history_of_england.pdf (source-range-46d51aaf-00154))_
 
 > Chivalry might be called the baptism of Feudalism. It was an attempt to bring the justice and even the logic of the Catholic creed into a military system which already existed; to turn its discipline into an initiation and its inequalities into a hierarchy. To the comparative grace of the new period belongs, of course, that considerable cultus of the dignity of woman, to which the word "chivalry" is often narrowed, or perhaps exalted. This also was a revolt against one of the worst gaps in the more polished civilization of the Saracens. Moslems denied even souls to women; perhaps from the same instinct which recoiled from the sacred birth, with its inevitable glorification of the mother; perhaps merely because, having originally had tents rather than houses, they had slaves rather than housewives. It is false to say that the chivalric view of women was merely an affectation, except in the sense in which there must always be an affectation where there is an ideal. It is the worst sort of superficiality not to see the pressure of a general sentiment merely because it is always broken up by events; the Crusade itself, for example, is more present and potent as a dream even than as a reality. From the first Plantagenet to the last Lancastrian it haunts the minds of English kings, giving as a background to their battles a mirage of Palestine. So a devotion like that of Edward I. to his queen was quite a real motive in the lives of multitudes of his contemporaries. When crowds of enlightened tourists, setting forth to sneer at the superstitions of the continent, are taking tickets and labelling luggage at the large railway station at the west end of the Strand, I do not know whether they all speak to their wives with a more flowing courtesy than their fathers in Edward's time, or whether they pause to meditate on the legend of a husband's sorrow, to be found in the very name of Charing Cross. [Pg 68] [Pg 69]
-
-### Technical frame 3: A SHORT HISTORY OF ENGLAND [Pg 1] / VI / THE AGE OF THE CRUSADES
-
-**Context:** _(history_short_history_of_england.pdf (source-range-46d51aaf-00153))_
-
-> The place of Cœur de Lion in popular fable and gossip is far more like his place in true history than the place of the mere denationalized ne'er-do-weel given him in our utilitarian school books. Indeed the vulgar rumour is nearly always much nearer the historical truth than the "educated" opinion of to-day; for tradition is truer than fashion. King Richard, as the typical Crusader, did make a momentous difference to England by gaining glory in the East, instead of devoting himself conscientious
-
-**Atom:** _(history_short_history_of_england.pdf (source-range-46d51aaf-00155))_
-
-> But it is a huge historical error to suppose that the Crusades concerned only that crust of society for which heraldry was an art and chivalry an etiquette. The direct contrary is the fact. The First Crusade especially was much more an unanimous popular rising than most that are called riots and revolutions. The Guilds, the great democratic systems of the time, often owed their increasing power to corporate fighting for the Cross; but I shall deal with such things later. Often it was not so much a levy of men as a trek of whole families, like new gipsies moving eastwards. And it has passed into a proverb that children by themselves often organized a crusade as they now organize a charade. But we shall best realize the fact by fancying every Crusade as a Children's Crusade. They were full of all that the modern world worships in children, because it has crushed it out of men. Their lives were full, as the rudest remains of their vulgarest arts are full, of something that we all saw out of the nursery window. It can best be seen later, for instance, in the lanced and latticed interiors of Memling, but it is ubiquitous in the older and more unconscious contemporary art; something that domesticated distant lands and made the horizon at home. They fitted into the corners of small houses the ends of the earth and the edges of the sky. Their perspective is rude and crazy, but it is perspective; it is not the decorative flatness of orientalism. In a word, their world, like a child's, is full of foreshortening, as of a short cut to fairyland. Their maps are more provocative than pictures. Their half-fabulous animals are monsters, and yet are pets. It is impossible to state verbally this very vivid atmosphere; but it was an atmosphere as well as an adventure. It was precisely these outlandish visions that truly came home to everybody; it was the royal councils and feudal quarrels that were comparatively remote. The Holy Land was much nearer to a plain man's house than Westminster, and immeasurably nearer than Runymede. To give a list of English kings and parliaments, without pausing for a moment upon this prodigious presence of a religious transfiguration in common life, is something the folly of which can but faintly be conveyed by a more modern parallel, with secularity and religion reversed. It is as if some Clericalist or Royalist writer should give a list of the Archbishops of Paris from 1750 to 1850, noting how one died of small-pox, another of old age, another by a curious accident of decapitation, and throughout all his record should never once mention the nature, or even the name, of the French Revolution.

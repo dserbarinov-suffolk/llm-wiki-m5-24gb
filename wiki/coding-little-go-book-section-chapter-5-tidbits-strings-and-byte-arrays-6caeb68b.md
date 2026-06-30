@@ -1,13 +1,14 @@
 ---
 page_id: coding-little-go-book-section-chapter-5-tidbits-strings-and-byte-arrays-6caeb68b
 page_kind: source
-summary: Chapter 5 - Tidbits / Strings and Byte Arrays: 12 source-backed entries and 5 atom(s) from raw/coding_little_go_book.pdf.
+summary: Chapter 5 - Tidbits / Strings and Byte Arrays: 12 source-backed entries and 3 atom(s) from raw/coding_little_go_book.pdf.
+page_family: section-reference
 sources: raw/coding_little_go_book.pdf
-updated: 2026-06-29
+updated: 2026-06-30
 domain: coding-little-go-book
 category_path: sources/coding-little-go-book/sections
 source_id: coding_little_go_book.pdf
-projection_coverage: section-coding-little-go-book-section-chapter-5-tidbits-strings-and-byte-arrays-6caeb68b@fc62c1ded248b27b1cd6ee2deb83f3a8
+projection_coverage: section-coding-little-go-book-section-chapter-5-tidbits-strings-and-byte-arrays-6caeb68b@c39685ae692f4cd70ea54f3f35c272a9
 ---
 
 # Chapter 5 - Tidbits / Strings and Byte Arrays
@@ -19,7 +20,6 @@ From [[coding-little-go-book]].
 - [[coding-little-go-book-section-chapter-5-tidbits-e7a41f7c]] - broader source section: Chapter 5 - Tidbits
 - [[coding-little-go-book-section-chapter-5-tidbits-empty-interface-and-conversions-c4483a93]] - previous source section: Chapter 5 - Tidbits / Empty Interface and Conversions
 - [[coding-little-go-book-section-chapter-5-tidbits-function-type-561f81dd]] - next source section: Chapter 5 - Tidbits / Function Type
-- [[coding-little-go-book-string-and-byte-array]] - topic hub: opens the topic page for String And Byte Array
 
 ## Statements
 
@@ -66,25 +66,3 @@ int64(count)
 **Atom:** _(coding_little_go_book.pdf (source-range-23d24eb1-00383))_
 
 > If you take the length of a string, you might not get what you expect.
-
-### Technical frame 4: Chapter 5 - Tidbits / Strings and Byte Arrays
-
-**Context:** _(coding_little_go_book.pdf (source-range-23d24eb1-00383))_
-
-> Strings are made of runes which are unicode code points. If you take the length of a string, you might not get what you expect. The following prints 3:
-
-**Atom:** _(coding_little_go_book.pdf (source-range-23d24eb1-00384))_
-
-```
-fmt.Println(len("椒"))
-```
-
-### Technical frame 5: Chapter 5 - Tidbits / Strings and Byte Arrays
-
-**Context:** _(coding_little_go_book.pdf (source-range-23d24eb1-00383))_
-
-> Strings are made of runes which are unicode code points. If you take the length of a string, you might not get what you expect. The following prints 3:
-
-**Atom:** _(coding_little_go_book.pdf (source-range-23d24eb1-00385))_
-
-> If you iterate over a string using range , you'll get runes, not bytes.

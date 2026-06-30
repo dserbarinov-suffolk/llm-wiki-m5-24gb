@@ -1,13 +1,14 @@
 ---
 page_id: rpg-dnd-srd-excerpt-section-advantage-and-disadvantage-11435a3d
 page_kind: source
-summary: Advantage and Disadvantage: 18 source-backed entries and 4 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
+summary: Advantage and Disadvantage: 18 source-backed entries and 3 atom(s) from raw/rpg_dnd_srd_excerpt.pdf.
+page_family: section-reference
 sources: raw/rpg_dnd_srd_excerpt.pdf
-updated: 2026-06-29
+updated: 2026-06-30
 domain: rpg-dnd-srd-excerpt
 category_path: sources/rpg-dnd-srd-excerpt/sections
 source_id: rpg_dnd_srd_excerpt.pdf
-projection_coverage: section-rpg-dnd-srd-excerpt-section-advantage-and-disadvantage-11435a3d@1b68dc6447a86b82a6e2870725000f69
+projection_coverage: section-rpg-dnd-srd-excerpt-section-advantage-and-disadvantage-11435a3d@ccb78804b3b7c3354a4eed921bb67e47
 ---
 
 # Advantage and Disadvantage
@@ -18,7 +19,6 @@ From [[rpg-dnd-srd-excerpt]].
 
 - [[rpg-dnd-srd-excerpt-section-using-ability-scores-aa02bded]] - previous source section: USING ABILITY SCORES
 - [[rpg-dnd-srd-excerpt-section-proficiency-bonus-3b149c8c]] - next source section: Proficiency Bonus
-- [[rpg-dnd-srd-excerpt-advantage-and-disadvantage]] - topic hub: opens the topic page for Advantage And Disadvantage
 
 ## Statements
 
@@ -36,16 +36,6 @@ From [[rpg-dnd-srd-excerpt]].
 
 ### Technical frame 1: Advantage and Disadvantage
 
-**Context:** _(rpg_dnd_srd_excerpt.pdf (source-range-4449ec9f-00078))_
-
-> If multiple situations affect a roll and each one grants advantage or imposes disadvantage on it, you don't roll more than one additional d20. If two favorable situations grant advantage, for example, you still roll only one additional d20.
-
-**Atom:** _(rpg_dnd_srd_excerpt.pdf (source-range-4449ec9f-00077))_
-
-> When that happens, you roll a second d20 when you make the roll.
-
-### Technical frame 2: Advantage and Disadvantage
-
 **Context:** _(rpg_dnd_srd_excerpt.pdf (source-range-4449ec9f-00079))_
 
 > If circumstances cause a roll to have both advantage and disadvantage, you are considered to have neither of them, and you roll one d20. This is true even if multiple circumstances impose disadvantage and only one grants advantage or vice versa. In such a situation, you have neither advantage nor disadvantage.
@@ -54,7 +44,7 @@ From [[rpg-dnd-srd-excerpt]].
 
 > If multiple situations affect a roll and each one grants advantage or imposes disadvantage on it, you don't roll more than one additional d20.
 
-### Technical frame 3: Advantage and Disadvantage
+### Technical frame 2: Advantage and Disadvantage
 
 **Context:** _(rpg_dnd_srd_excerpt.pdf (source-range-4449ec9f-00080))_
 
@@ -64,7 +54,7 @@ From [[rpg-dnd-srd-excerpt]].
 
 > If circumstances cause a roll to have both advantage and disadvantage, you are considered to have neither of them, and you roll one d20.
 
-### Technical frame 4: Advantage and Disadvantage
+### Technical frame 3: Advantage and Disadvantage
 
 **Context:** _(rpg_dnd_srd_excerpt.pdf (source-range-4449ec9f-00081))_
 

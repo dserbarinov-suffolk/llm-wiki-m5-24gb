@@ -1,13 +1,14 @@
 ---
 page_id: coding-learn-go-with-tests-excerpt-section-using-a-custom-type-refactor-862871b5
 page_kind: source
-summary: Using a custom type / Refactor: 3 source-backed entries and 2 atom(s) from raw/coding_learn_go_with_tests_excerpt.pdf.
+summary: Using a custom type / Refactor: 3 source-backed entries and 0 atom(s) from raw/coding_learn_go_with_tests_excerpt.pdf.
+page_family: section-reference
 sources: raw/coding_learn_go_with_tests_excerpt.pdf
-updated: 2026-06-29
+updated: 2026-06-30
 domain: coding-learn-go-with-tests-excerpt
 category_path: sources/coding-learn-go-with-tests-excerpt/sections
 source_id: coding_learn_go_with_tests_excerpt.pdf
-projection_coverage: section-coding-learn-go-with-tests-excerpt-section-using-a-custom-type-refactor-862871b5@e6ded9b650eb55f85bea26cc8eb2f357
+projection_coverage: section-coding-learn-go-with-tests-excerpt-section-using-a-custom-type-refactor-862871b5@163ef666a31c89ae6be12930747445ac
 ---
 
 # Using a custom type / Refactor
@@ -24,51 +25,3 @@ From [[coding-learn-go-with-tests-excerpt]].
 ## Statements
 
 - By creating a new helper we were able to simplify our test, and start using our ErrNotFound variable so our test doesn't fail if we change the error text in the future. _(coding_learn_go_with_tests_excerpt.pdf (source-range-cb73a893-00594))_
-
-## Technical atoms
-
-### Technical frame 1: Using a custom type / Refactor
-
-**Context:** _(coding_learn_go_with_tests_excerpt.pdf (source-range-cb73a893-00594))_
-
-> By creating a new helper we were able to simplify our test, and start using our ErrNotFound variable so our test doesn't fail if we change the error text in the future.
-
-**Atom:** _(coding_learn_go_with_tests_excerpt.pdf (source-range-cb73a893-00592))_
-
-```
-var ErrNotFound = errors.New("could not find the word you were 
-looking for")
-func (d Dictionary) Search(word string) (string, error) {
-    definition, ok := d[word]
-    if !ok {
-        return "", ErrNotFound
-    }
-return definition, nil
-}
-We can get rid of the magic error in our Search function by extracting
-it into a variable. This will also allow us to have a better test.
-t.Run("unknown word", func(t *testing.T) {
-    _, got := dictionary.Search("unknown")
-    if got == nil {
-        t.Fatal("expected to get an error.")
-    }
-    assertError(t, got, ErrNotFound)
-```
-
-### Technical frame 2: Using a custom type / Refactor
-
-**Context:** _(coding_learn_go_with_tests_excerpt.pdf (source-range-cb73a893-00594))_
-
-> By creating a new helper we were able to simplify our test, and start using our ErrNotFound variable so our test doesn't fail if we change the error text in the future.
-
-**Atom:** _(coding_learn_go_with_tests_excerpt.pdf (source-range-cb73a893-00593))_
-
-```
-})
-func assertError(t testing.TB, got, want error) {
-    t.Helper()
-if got != want {
-        t.Errorf("got error %q want %q", got, want)
-    }
-}
-```

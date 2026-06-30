@@ -2,12 +2,13 @@
 page_id: history-short-history-of-england-section-a-short-history-of-england-pg-1-xii-spain-and-the-schism-of-nations-27277f8e
 page_kind: source
 summary: A SHORT HISTORY OF ENGLAND [Pg 1] / XII / SPAIN AND THE SCHISM OF NATIONS: 125 source-backed entries and 0 atom(s) from raw/history_short_history_of_england.pdf.
+page_family: section-reference
 sources: raw/history_short_history_of_england.pdf
-updated: 2026-06-29
+updated: 2026-06-30
 domain: history-short-history-of-england
 category_path: sources/history-short-history-of-england/sections
 source_id: history_short_history_of_england.pdf
-projection_coverage: section-history-short-history-of-england-section-a-short-history-of-england-pg-1-xii-spain-and-the-schism-of-nations-27277f8e@1477db60dd790600ef831abece69dd76
+projection_coverage: section-history-short-history-of-england-section-a-short-history-of-england-pg-1-xii-spain-and-the-schism-of-nations-27277f8e@eda5af3276f31293e8eddc718972d855
 ---
 
 # A SHORT HISTORY OF ENGLAND [Pg 1] / XII / SPAIN AND THE SCHISM OF NATIONS
@@ -17,7 +18,6 @@ From [[history-short-history-of-england]].
 ## Related pages
 
 - [[history-short-history-of-england-section-a-short-history-of-england-pg-1-xii-2f9672c0]] - broader source section: A SHORT HISTORY OF ENGLAND [Pg 1] / XII
-- [[history-short-history-of-england-spain-and-schism-nation]] - topic hub: opens the topic page for Spain And Schism Nation
 
 ## Statements
 
