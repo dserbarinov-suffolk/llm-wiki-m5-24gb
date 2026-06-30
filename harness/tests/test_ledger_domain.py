@@ -34,6 +34,7 @@ from llmwiki.domain.ledger.canonical import canonical_json
 from llmwiki.domain.ledger.features import profile_unit
 from llmwiki.domain.ledger.ledger import SourceProfile
 from llmwiki.domain.ledger.pointers import claim_ledger_pointer, document_structure_pointer
+from llmwiki.domain.ledger.profiles import assign_family
 from llmwiki.domain.ledger.projection import ProjectionSourceSupport, plan_source_page
 from llmwiki.domain.ledger.quality import (
     build_ledger_quality_report,
@@ -318,7 +319,12 @@ def test_named_table_reference_quality_requires_matching_table_atom() -> None:
                 "paragraph",
                 "An improvised item may include a table leg.",
                 ["An improvised item may include a table leg."],
-            )
+            ),
+            (
+                "paragraph",
+                "With a wry smile, the person placed a bottle on the table with a thud.",
+                ["With a wry smile, the person placed a bottle on the table with a thud."],
+            ),
         ]
     )
 
@@ -372,6 +378,41 @@ def test_named_table_reference_quality_requires_matching_table_atom() -> None:
     }
     assert "ck-named-table-reference-resolved" not in {
         finding.quality_check_id for finding in ordinary_report.findings
+    }
+
+
+def test_numbered_table_reference_resolves_formal_caption_text() -> None:
+    catalog = default_quality_check_catalog()
+    severity = default_severity_policy()
+    pointer = claim_ledger_pointer("qcc", "fp")
+    result = _build(
+        [
+            (
+                "paragraph",
+                "The outcome depends on the final score (see Table 5-8: Sample Memory).",
+                ["The outcome depends on the final score (see Table 5-8: Sample Memory)."],
+            ),
+            (
+                "table-block",
+                "Table 5-8: Sample Memory\n"
+                "| Final Score | Time |\n"
+                "| --- | --- |\n"
+                "| 10 | One day |",
+                [],
+            ),
+        ]
+    )
+
+    report = build_ledger_quality_report(
+        result.ledger,
+        result.document_structure,
+        catalog=catalog,
+        severity=severity,
+        catalog_pointer=pointer,
+    )
+
+    assert "ck-named-table-reference-resolved" not in {
+        finding.quality_check_id for finding in report.findings
     }
 
 
@@ -841,6 +882,51 @@ def test_high_technical_density_source_projects_structured_rule_atoms() -> None:
     )
 
     assert atom_is_topic_projectable(atom, profile)
+
+
+def test_rulebook_profile_assigns_rules_reference_over_history_from_names() -> None:
+    profile = SourceProfile(
+        source_locator="manual.pdf",
+        unit_count=500,
+        accepted_entry_count=1000,
+        claim_count=500,
+        event_count=10,
+        concept_count=20,
+        relationship_count=120,
+        atom_kind_counts={"formula": 280, "rule": 70, "table": 10, "worked-example": 4},
+        feature_signal_means={
+            "entity-date-density": 0.4,
+            "rule-language-density": 0.2,
+            "table-density": 0.02,
+            "procedure-density": 0.01,
+        },
+    )
+
+    assignment = assign_family(profile)
+
+    assert assignment.top_label == "rules-reference"
+
+
+def test_coding_profile_assigns_coding_without_formula_boost() -> None:
+    profile = SourceProfile(
+        source_locator="programming.pdf",
+        unit_count=200,
+        accepted_entry_count=1000,
+        claim_count=500,
+        event_count=20,
+        concept_count=20,
+        relationship_count=100,
+        atom_kind_counts={"code-block": 250, "formula": 20, "rule": 20, "table": 10},
+        feature_signal_means={
+            "code-density": 0.35,
+            "entity-date-density": 0.15,
+            "rule-language-density": 0.15,
+        },
+    )
+
+    assignment = assign_family(profile)
+
+    assert assignment.top_label == "coding"
 
 
 def test_low_signal_only_sentence_is_not_a_rule_atom() -> None:

@@ -1,0 +1,339 @@
+---
+page_id: sword-world-rpg-complete-edition-section-horse-13-2-8-plants-6ae09235
+page_kind: source
+summary: [ Horse ] / 13.2.8 Plants: 647 source-backed entries and 5 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+page_family: section-reference
+sources: raw/Sword World RPG - Complete Edition.pdf
+updated: 2026-06-30
+domain: sword-world-rpg-complete-edition
+category_path: sources/sword-world-rpg-complete-edition/sections
+source_id: Sword World RPG - Complete Edition.pdf
+projection_coverage: section-sword-world-rpg-complete-edition-section-horse-13-2-8-plants-6ae09235@43099e5f850f99bb1d9e7068f21c6c03
+---
+
+# [ Horse ] / 13.2.8 Plants
+
+From [[sword-world-rpg-complete-edition]].
+
+## Related pages
+
+- [[sword-world-rpg-complete-edition-section-horse-9c294c60]] - broader source section: [ Horse ]
+- [[sword-world-rpg-complete-edition-section-horse-13-2-8-plants-creeping-tree-56cf18d4]] - narrower source section: [ Horse ] / 13.2.8 Plants / Creeping Tree
+- [[sword-world-rpg-complete-edition-section-horse-13-2-8-plants-ethnoa-d15a9b04]] - narrower source section: [ Horse ] / 13.2.8 Plants / [ Ethnoa ]
+- [[sword-world-rpg-complete-edition-section-horse-13-2-8-plants-killer-creeper-68e34452]] - narrower source section: [ Horse ] / 13.2.8 Plants / [ Killer Creeper ]
+- [[sword-world-rpg-complete-edition-section-horse-13-2-8-plants-mandrake-bd890986]] - narrower source section: [ Horse ] / 13.2.8 Plants / [ Mandrake ]
+- [[sword-world-rpg-complete-edition-section-horse-13-2-8-plants-alraune-monster-level-6-rarity-16-agility-14-movement-speed-14-number-one-fr-207f18c5]] - narrower source section: [ Horse ] / 13.2.8 Plants / [ Alraune ] Monster Level=6 Rarity=16 Agility=14 Movement Speed=14 Number=One Frequency=Very Rare Intellect=Human Reaction=Neutral Attack Points=Barehanded:13 (6) Strike Points=8 Evasion Points=14 (7) Defense Points=8 Life Points/Resistance=14/14 (7) Mental Points/Resistance=18/15 (8) magic (Magic Intensity/Magic Power=13/6, gnome,
+- [[sword-world-rpg-complete-edition-section-horse-13-2-8-plants-bloody-petal-db1990a3]] - narrower source section: [ Horse ] / 13.2.8 Plants / [ Bloody Petal ]
+- [[sword-world-rpg-complete-edition-section-horse-13-2-8-plants-fungus-eece2c83]] - narrower source section: [ Horse ] / 13.2.8 Plants / [ Fungus ]
+- [[sword-world-rpg-complete-edition-section-horse-13-2-8-plants-buau-zombie-c5262f2e]] - narrower source section: [ Horse ] / 13.2.8 Plants / [ Buau Zombie
+- [[sword-world-rpg-complete-edition-section-horse-13-2-8-plants-skeleton-20adb183]] - narrower source section: [ Horse ] / 13.2.8 Plants / [ Skeleton ]
+- [[sword-world-rpg-complete-edition-section-horse-13-2-8-plants-zombie-monster-level-1-rarity-9-agility-7-movement-speed-7-number-several-to-52a8a6d0]] - narrower source section: [ Horse ] / 13.2.8 Plants / [ Zombie ] Monster Level=1 Rarity=9 Agility=7 Movement Speed=7 Number=Several to dozens Frequency=Frequent Intellect=Obeys commands Reaction=Command-based Attack Points=Barehanded:8 (1) Strike Points=4
+- [[sword-world-rpg-complete-edition-section-horse-13-2-8-plants-ash-monster-level-2-rarity-11-agility-9-movement-speed-8-number-several-freq-ba10aa97]] - narrower source section: [ Horse ] / 13.2.8 Plants / [ Ash ] Monster Level=2 Rarity=11 Agility=9 Movement Speed=8 Number=Several Frequency=Moderate Intellect=Almost none Reaction=Violent Attack Points=- Strike Points=Evasion Points=- Defense Points=Life Points/Resistance=7/9 (2) Mental Points/Resistance=-/10 (3) Special Abilities=Wrap (Evasion target score=10, strike power 10, bonus damage 2) Mental attack immunity Weapon immunity Fire immunity Not affected by poison and illness Damage from healing magic Habitat=Ruins Languages=None Perception=Magic
+- [[sword-world-rpg-complete-edition-section-horse-13-2-8-plants-ghoul-5e9268ef]] - narrower source section: [ Horse ] / 13.2.8 Plants / [ Ghoul ]
+- [[sword-world-rpg-complete-edition-section-horse-13-2-8-plants-sin-d84dab17]] - narrower source section: [ Horse ] / 13.2.8 Plants / [ Sin ]
+- [[sword-world-rpg-complete-edition-section-horse-13-2-8-plants-wight-7091b82d]] - narrower source section: [ Horse ] / 13.2.8 Plants / [ Wight ]
+- [[sword-world-rpg-complete-edition-section-horse-13-2-8-plants-haunt-dd41f1dd]] - narrower source section: [ Horse ] / 13.2.8 Plants / [ Haunt ]
+- [[sword-world-rpg-complete-edition-section-horse-13-2-8-plants-jack-o-lantern-d3b07cb7]] - narrower source section: [ Horse ] / 13.2.8 Plants / [ Jack-O-Lantern ]
+- [[sword-world-rpg-complete-edition-section-horse-13-2-8-plants-dullahan-043a31b0]] - narrower source section: [ Horse ] / 13.2.8 Plants / [ Dullahan ]
+- [[sword-world-rpg-complete-edition-section-horse-13-2-8-plants-undead-knight-a5f98857]] - narrower source section: [ Horse ] / 13.2.8 Plants / [ Undead Knight ]
+- [[sword-world-rpg-complete-edition-section-horse-13-2-8-plants-wraith-c68f9316]] - narrower source section: [ Horse ] / 13.2.8 Plants / [ Wraith ]
+- [[sword-world-rpg-complete-edition-section-horse-13-2-8-plants-mummy-e27e5bdb]] - narrower source section: [ Horse ] / 13.2.8 Plants / [ Mummy ]
+- [[sword-world-rpg-complete-edition-section-horse-13-2-8-plants-vampire-58e7e543]] - narrower source section: [ Horse ] / 13.2.8 Plants / [ Vampire ]
+- [[sword-world-rpg-complete-edition-section-horse-13-2-8-plants-simulacra-6beed10c]] - narrower source section: [ Horse ] / 13.2.8 Plants / [ Simulacra ]
+- [[sword-world-rpg-complete-edition-section-horse-octopus-6ea7fd7f]] - previous source section: [ Horse ] / [ Octopus ]
+- [[sword-world-rpg-complete-edition-section-horse-13-2-10-magical-creatures-0e88a6a0]] - next source section: [ Horse ] / 13.2.10 Magical Creatures
+
+## Statements by subsection
+
+### [ Horse ] / 13.2.8 Plants / Creeping Tree
+
+- Creeping trees do not have roots underground, but move around on the ground using their roots like imitation toes. They then use their tentacle-like branches to prey on animals that approach. Tentacle attacks are resolved the same way as strangling (see p. 236). When it stands still, it looks like an old oak tree covered in vines. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-07467))_
+- Since it is a plant, it is weak against fire attacks, and when using spells such as Fire Weapon and Fire Bolt , you gain a +10 bonus to the usual strike power of spells. However, they do not have human-like minds, so spells that cause mental effects have no effect at all. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-07468))_
+- They then use their tentacle-like branches to prey on animals that approach. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-07467))_
+
+### [ Horse ] / 13.2.8 Plants / [ Ethnoa ]
+
+- An ethnoa is a plant about 3 meters tall, with six tentacles and a large, openmouthed pouch. Each tentacle is about 4 meters long, and will wrap around anything that comes near, and throw it into the pouch. The pouch contains a strong acid, which dissolves its prey. An ethnoa can attack using all six tentacles at the same time, but it can use only two against a single target. If an adventurer is hit by an ethnoa's tentacles, they will suffer damage and also become entangled in the tentacles. On the next round, you must make a resistance roll using adventurer level + strength bonus as the baseline score and the ethnoa's attack points (or the final score from when the attack hits) as the target score. If you fail, the poor adventurer is thrown into the pouch that makes up the bulk of the body. If you're unfortunate enough to be entangled by two tentacles, you must make two resistance rolls and succeed on both. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-07487))_
+- Those thrown into the pouch will suffer strike power 10 damage plus bonus damage 3 each round, starting on the next round. Against this acid damage, only adventurer level helps damage reduction, and armor defense power is completely ineffective. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-07488))_
+- While the victim is still conscious, they can attack from within using a dagger, shortsword, or similar small bladed weapon. This attack suffers a -4 penalty to hit. However, the damage dealt is as per the normal rules. The victim cannot escape from inside unless the ethnoa dies. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-07489))_
+- There may be cases where the property of former victims remains undigested inside the ethnoa's pouch. It's a low probability for these treasures to remain, but their value is usually around 100 to 1000 gamels per creature. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-07490))_
+- Against this acid damage, only adventurer level helps damage reduction, and armor defense power is completely ineffective. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-07488))_
+- The victim cannot escape from inside unless the ethnoa dies. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-07489))_
+- There may be cases where the property of former victims remains undigested inside the ethnoa's pouch. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-07490))_
+
+### [ Horse ] / 13.2.8 Plants / [ Killer Creeper ]
+
+- Habitat=Woods Languages=None Perception=Magic A killer creeper is a vine. This vine can crawl on the ground and if there are trees, etc. it can attach itself to them and grow. A single vine may grow over a radius of several tens of meters. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-07504))_
+- If an animal, etc. steps into a killer creeper thicket, the killer creeper will attack them by entangling its vines around them. It'll then strangle the animal to death. The corpse is eventually returned to the soil to provide nourishment for the killer creeper. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-07505))_
+- If a ranger or sage succeeds on a success roll against target score 12 using ranger/sage skill level + intelligence bonus as the baseline score, they will be able to see the killer creeper's true identity before it approaches, and thus avoid the encounter (this is considered a use of plant and animal check and monster check ). If they fail, the adventurer will have stepped into the killer creeper without realizing it. This is always a surprise attack, so for one round, only the killer creeper can attack. The adventurer's evasion will suffer a -4 penalty. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-07506))_
+- A killer creeper attacks by entangling with its vines. There is an immeasurable number of these vines, but only three vines can attack a single target at the same time. If the killer creeper's attack hits, the vines will entangle the target. Entangled vines automatically deal damage in subsequent rounds without requiring a hit check. Also, characters who are entangled in the vines will suffer a penalty on attack and evasion from then on. If you're entangled in one, this is -2, and if you're entangled in two or more, it's -4. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-07507))_
+- A character entangled in two or more vines cannot use ancient magic or spirit magic, because they're unable to move. However, holy magic can be used freely. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-07508))_
+- A character entangled in vines can also attempt to pull the entangled vines off instead of making a normal attack. Make a success roll using adventurer level + strength bonus as the baseline score and the killer creeper's attack points (10, or the final score from when the attack hit) as the target score. If successful, you can pull off the vines. If entangled in multiple vines, you must make separate checks for each. When you pull the vines off, 1 point of damage per vine is dealt to the killer creeper's life points. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-07509))_
+- It'll then strangle the animal to death. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-07505))_
+- If a ranger or sage succeeds on a success roll against target score 12 using ranger/sage skill level + intelligence bonus as the baseline score, they will be able to see the killer creeper's true identity before it approaches, and thus avoid the encounter (this is considered a use of plant and animal check and monster check ). _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-07506))_
+- This is always a surprise attack, so for one round, only the killer creeper can attack. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-07506))_
+- There is an immeasurable number of these vines, but only three vines can attack a single target at the same time. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-07507))_
+- Also, characters who are entangled in the vines will suffer a penalty on attack and evasion from then on. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-07507))_
+
+### [ Horse ] / 13.2.8 Plants / [ Mandrake ]
+
+- Monster Level=5 Rarity=16 Agility=8 Movement Speed=8 Number=One to several Frequency=Rare Intellect=Low Reaction=Adversarial Attack Points=Barehanded:12 (5) Strike Points=7 Evasion Points=12 (5) Defense Points=7 Life Points/Resistance=14/13 (6) Mental Points/Resistance=12/13 (6) Special Abilities=4th level spirit magic (Magic Intensity/Magic Power=12/5, gnome, dryad only) Scream (Resist target score=12, once per day) Mental attack immunity Weak to fire Habitat=Forests Languages=Silent spirit Perception=Five senses (infravision) _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-07511))_
+- When a mandrake is hurt, it makes a terrifying scream. A Mandrake can only scream once per day. Anyone who hears this at close range without first wearing earplugs must make a mental power resistance roll against target score 12. If you fail, you cannot attack or cast spells for one full round, and you suffer a -4 penalty to evasion. At this time, if you roll double ones on your resistance roll, you will immediately go insane and become disabled. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-07513))_
+- Additionally, those who fail the resistance roll must make another one, this time a life force resistance roll against target score 12. If you fail, you will lose your hearing. At this time, if you roll double ones on the resistance roll, your life force will instantly become zero. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-07514))_
+- Young Mandrake root is prized as an ingredient for sedatives, stimulants, and poisons. For this reason, humans often find and dig up young mandrakes. Young mandrakes scream like their parents, but they're small and unable to move or cast spells, making them easy to kill. Therefore, mandrakes deeply hate humans. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-07515))_
+- Monster Level=5 Rarity=16 Agility=8 Movement Speed=8 Number=One to several Frequency=Rare Intellect=Low Reaction=Adversarial Attack Points=Barehanded:12 (5) Strike Points=7 Evasion Points=12 (5) Defense Points=7 Life Points/Resistance=14/13 (6) Mental Points/Resistance=12/13 (6) Special Abilities=4th level spirit magic (Magic Intensity/Magic Power=12/5, gnome, dryad only) Scream (Resist target score=12, once per day) Mental attack immunity Weak to fire Habitat=Forests Languages=Silent spirit Perception=Five senses (infravision) _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-07511))_
+- A Mandrake can only scream once per day. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-07513))_
+- Therefore, mandrakes deeply hate humans. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-07515))_
+
+### [ Horse ] / 13.2.8 Plants / [ Alraune ] Monster Level=6 Rarity=16 Agility=14 Movement Speed=14 Number=One Frequency=Very Rare Intellect=Human Reaction=Neutral Attack Points=Barehanded:13 (6) Strike Points=8 Evasion Points=14 (7) Defense Points=8 Life Points/Resistance=14/14 (7) Mental Points/Resistance=18/15 (8) magic (Magic Intensity/Magic Power=13/6, gnome,
+
+- If you feed a young mandrake root with human blood and nurture it, it will grow to look exactly like a human. This is called an alraune. They cannot grow with the blood of fae, youma, etc. Alraune look exactly like humans, and can speak and think like humans, but when they are wounded, a thick, red mucus oozes out of them. When hurt, it'll let out a scream with the same effect as that of a mandrake's. The target score for resisting an alraune's scream is 13. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-07520))_
+- Alraune are also naturally able to use spirit magic, which is sourced from the power of dryad and gnome. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-07521))_
+- It is said that the appearance and personality of an alraune will resemble that of the first human who gave it blood. If raised with the blood of a ruthless criminal, a ruthless alraune will be born. Since alraune are an artificial variety, they have no fertility. Also, they do not have a weakness to fire, which is the weakness of plant-type monsters. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-07522))_
+
+### [ Horse ] / 13.2.8 Plants / [ Bloody Petal ]
+
+- This plant, which has huge red flowers that resemble the color of human blood, is called blood flower , but is sometimes also called man-eating flower , which more clearly describes its characteristics. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-07524))_
+- This plant can grow up to about 10 meters in height. The stem has 2 to 5 bud-shaped flowers about 1 meter in diameter. When a creature such as a human, etc. approaches, the folded flower stalks extend out and the buds open to envelop their prey. The flower stalks grow to about 10 meters long. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-07525))_
+- This flower's attack strangles (see p. 236) the character and deals damage. When the prey dies, the flower reverts back to a bud and finishes absorbing nutrients in about one week. If the prey escapes with all their might, the flower becomes torn and unusable, and will eventually wither. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-07541))_
+- Adventurers can also attack the body. If the body's life points reach 0, the flower will also cease activity. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-07558))_
+- This plant, which has huge red flowers that resemble the color of human blood, is called blood flower , but is sometimes also called man-eating flower , which more clearly describes its characteristics. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-07524))_
+- When a creature such as a human, etc. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-07525))_
+
+### [ Horse ] / 13.2.8 Plants / [ Fungus ]
+
+- Monster Level=8 Rarity=15 Agility=7 Movement Speed=7 Number=One to several Frequency=Rare Intellect=Low Reaction=Adversarial Attack Points=Barehanded:15 (8) Strike Points=11 Evasion Points=15 (8) Defense Points=10 Life Points/Resistance=17/16 (9) Mental Points/Resistance=9/15 (8) Special Abilities=Toxic spores (Toxicity score 16, illusions as well as turning into a fungus) Habitat=Damp, dark places Languages=Regional _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-07560))_
+- A fungus is a mass of mushrooms shaped like a human, or rather, a human whose entire body is covered in mushrooms. They quietly lurk in forests, etc. killing animals and humans that pass by, and absorbing nutrients from the corpses. They cannot survive for long in dry or sunny areas. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-07562))_
+- Fungus release toxic spores (toxicity score 16) when injured. While fighting a fungus, anyone within a 5 meter radius may inhale the spores. After combat, they must make a life force resistance roll against target score 16, and those who fail will then have mushrooms growing all over their bodies after 24 hours. No matter how many you cut off, there will be no end. Gradually, your sense of humanity will fade and you'll begin to suffer from hallucinations. To cure this, use the holy magic Cure Poison or the spirit magic Restore Health . When the spell is cast, if the caster's final score is 16 or greater, it will be healed. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-07563))_
+- If one week elapses without treatment, the character will turn into a fungus. Those who have completely become a fungus cannot be cured with the holy magic Cure Poison nor the spirit magic Restore Health . They can only be restored to their original state by using the holy magic Refresh . _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-07564))_
+- While fighting a fungus, anyone within a 5 meter radius may inhale the spores. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-07563))_
+
+### [ Horse ] / 13.2.8 Plants / [ Buau Zombie
+
+- These are undead created by the lost spell Create Buau Zombie . Unlike normal zombies, they possess intellect, albeit low, and can make independent decisions and follow the commands of their creator. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-07586))_
+- Unlike zombies, they decay slowly and can work for decades to centuries. Strength and life force are kept at their original scores, but dexterity, agility, and intelligence are reduced to half of what their scores were before death, and mental power is completely lost. All magic and bard skill spellsong abilities cannot be used once you become a buau zombie. Attack, defense, etc. are performed at their previous level (fighter, thief, etc.). Game masters should be aware of changes due to ability scores (reduced dexterity and agility). Monster level is the same as their previous adventurer level. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-07588))_
+- Buau zombies are mindless beings, so spells that cause mental effects on them are ineffective. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-07589))_
+- Unlike normal zombies, they possess intellect, albeit low, and can make independent decisions and follow the commands of their creator. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-07586))_
+- Strength and life force are kept at their original scores, but dexterity, agility, and intelligence are reduced to half of what their scores were before death, and mental power is completely lost. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-07588))_
+- Unlike zombies, they decay slowly and can work for decades to centuries. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-07588))_
+
+### [ Horse ] / 13.2.8 Plants / [ Skeleton ]
+
+- A skeleton, as the name suggests, is a moving skeleton, created by ancient magic or dark magic. Its weapon is usually the one it used before its death. Typically this is a one-handed sword with a shield. In most cases, however, its armor will be worn out and unusable. Due to their characteristic lack of flesh, bladed weapons cannot deal additional critical damage to skeletons. Also, since they have no intelligence, magic that produces mental effects will not work on them. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-07610))_
+- Its weapon is usually the one it used before its death. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-07610))_
+
+### [ Horse ] / 13.2.8 Plants / [ Zombie ] Monster Level=1 Rarity=9 Agility=7 Movement Speed=7 Number=Several to dozens Frequency=Frequent Intellect=Obeys commands Reaction=Command-based Attack Points=Barehanded:8 (1) Strike Points=4
+
+- Zombies, along with skeletons, are representative undead, and are created from corpses by ancient magic and dark magic. However, unlike skeletons, they do not use weapons or armor. Since they have no intelligence, mental attacks have no effect at all. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-07615))_
+- However, unlike skeletons, they do not use weapons or armor. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-07615))_
+
+### [ Horse ] / 13.2.8 Plants / [ Ash ] Monster Level=2 Rarity=11 Agility=9 Movement Speed=8 Number=Several Frequency=Moderate Intellect=Almost none Reaction=Violent Attack Points=- Strike Points=Evasion Points=- Defense Points=Life Points/Resistance=7/9 (2) Mental Points/Resistance=-/10 (3) Special Abilities=Wrap (Evasion target score=10, strike power 10, bonus damage 2) Mental attack immunity Weapon immunity Fire immunity Not affected by poison and illness Damage from healing magic Habitat=Ruins Languages=None Perception=Magic
+
+- An ash is an undead created from the ashes of a burned corpse using ancient magic and dark magic. It's usually spread out on the ground like sand, but if something living approaches it, it will suddenly fly up as if blown by the wind, take the form of a human, and attack. Due to the ash's physical characteristics, attacks with weapons, etc. cannot be used at all. Also, since it's already been burned once, fire has no effect on it at all. It's possible to damage an ash's life points with damage magic other than fire-type. Also, since it does not have a mind, attacks that affect the mind are also ineffective. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-07617))_
+- An ash's attacks also do not deal direct damage. The Ash wraps itself around the target creature and attacks it. The target of the attack must make a success roll using adventurer level + agility bonus as the baseline score, and if they fail, they will inhale a portion of the ash. Every round thereafter, they must make a life force resistance roll against target score 10. As long as you continue to fail, you will suffer strike power 10 damage and 2 plus bonus damage 2 every round. This damage can only be reduced by adventurer level. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-07618))_
+- If you cast the spirit magic Missile Protection , you can protect yourself from being enwrapped by the ash. However, this magic will not work in time for characters who are already enwrapped by the ash. If you cast Turn Undead and the result is crumble away , the ash will cease activity. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-07619))_
+
+### [ Horse ] / 13.2.8 Plants / [ Ghoul ]
+
+- Ghouls are undead who scavenge and eat corpses. However, perhaps because killing and eating are the same thing , they often attack living things as well. Ghouls have paralyzing poison in their claws and fangs, and a character who suffers damage must succeed on a life force resistance roll against target score 10 or they will be paralyzed at the end of the next round. This paralysis lasts for one day. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-07637))_
+- However, perhaps because killing and eating are the same thing , they often attack living things as well. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-07637))_
+
+### [ Horse ] / 13.2.8 Plants / [ Sin ]
+
+- Sin are a very special type of undead. A soul of someone who was greatly possessive in life will become undead as a sin. They remain in this world, trying to monopolize what they were attached to even after death. Their appearance remains the same as when they were alive, and other than their abnormally pale skin and cloudy eyes, they are no different from a normal human (however, their clothes may be tattered depending on the number of years since their death). _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-07656))_
+- A sin usually refuses to leave the side of whatever it's attached to, and will attack anything that tries to take it away. Sin have no intelligence. They are driven only by an insatiable desire for possession, and are, so to speak, the dead who have fallen into madness and cannot be saved. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-07657))_
+- They remain in this world, trying to monopolize what they were attached to even after death. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-07656))_
+
+### [ Horse ] / 13.2.8 Plants / [ Wight ]
+
+- Monster Level=4 Rarity=12 Agility=14 Movement Speed=14 Number=One to several Frequency=Moderate Intellect=Human Reaction=Violent Attack Points=Claws:12 (5) Strike Points=9+mental damage Evasion Points=12 (5) Defense Points=6 Life Points/Resistance=14/12 (5) Mental Points/Resistance=14/12 (5) Special Abilities=Steal mental power (Strike _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-07659))_
+- Normal weapon immunity Not affected by poison and illness Sleepless Damage from healing magic Habitat=Ruins, graveyards Languages=Those previous Perception=Pseudo Wights are undead that possess people and feed on the energy of others. Normal weapons have no effect against this monster. To wound a wight, you need a silver or magical weapon. A wight's weapon is its sharp claws, and those who are dealt damage will have their life energy drained at the same time. If a wight's attack hits, your life force will suffer damage as well as your mental power. The damage dealt to mental power is merely the result of a strike power 10 strike roll plus bonus damage 4. For this, you can only reduce the damage with your character's adventurer level. Those whose mental power is reduced to 0 by this attack will die immediately and will then be revived as a new wight 24 hours later. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-07661))_
+- Those whose mental power is reduced to 0 by this attack will die immediately and will then be revived as a new wight 24 hours later. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-07661))_
+
+### [ Horse ] / 13.2.8 Plants / [ Haunt ]
+
+- A haunt is a being such a ghost or a vengeful spirit. These are broadly classified into three types: ghosts, specters, and phantoms, but they are collectively called haunts. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-07663))_
+- Haunts are souls that have remained in this world because they have unfinished business, or held a strong grudge against others in life. They then complain about their regrets and grudges to any third party they happen to encounter. If you can clear up those lingering regrets and grudges, they will cease to exist. A special case, however, is when one resents its own death itself and harbors hatred toward all living things. Such haunts are always hostile and attack all creatures they encounter, with intent to kill. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-07664))_
+- Haunts have a minimum monster level of 5, but if they had a higher adventurer level in life, or if they died harboring a particularly strong grudge, their level will be higher. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-07665))_
+- A special ability common to all haunts is possess . This is the act of taking over the body of a living being and using it for one's own purposes. If a haunt finds that a creature it comes into contact with does not sympathize with its feelings, it may attempt to possess them. The target of the possession must attempt a mental power resistance roll. If you fail, your body will be taken over. When a haunt takes over your body, it can use your character's abilities in addition to its own previous skills. Once you successfully resist, there is no danger of being possessed by the same haunt again. There's also 6th level holy magic called Exorcism . If you cast this magic, you will be freed from the haunt's possession. If a body is destroyed after being possessed, the haunt will become a phantom and be bound in place. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-07666))_
+- A ghost is a moving being whose corpse still holds a lingering grudge. Depending on how long ago they died, they can look like zombies (rotting corpses) or skeletons (moving skeletons). Their strength varies considerably depending on which abilities they had in life. The scores listed here are averages. All ability scores will be the same as previous, except for mental power. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-07687))_
+- Mental power is the only one that's previous + 6 . They have all the skills they had previously. Those who had rune master skills can use magic of that level and magic power. However, they cannot use holy magic (but they can use dark magic). Also, to use ancient magic, they will still need a magical catalyst (such as a magic wand). _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-07688))_
+- If a ghost's corpse is destroyed, it will always attempt to possess someone nearby. If this fails, it'll become a phantom (see below) and be bound in place. Even after becoming a phantom, it'll attempt to possess if given the chance. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-07689))_
+- When its lingering regrets and grudges are cleared, or when its mental points are reduced to 0 or less due to a Shade , etc. the ghost will vanish, leaving only a crumbled corpse behind. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-07690))_
+- A specter is a very troublesome entity, a grudge that has lost its physical body and remains in this world. The faint, transparent appearance it had in life takes on the form of a hazy shadow. Since it does not have a physical body, attacks such as weapons and damage magic are ineffective, and the only effective countermeasure is magic that has a mental effect. Those who had rune master skills previously can use magic. However, holy magic cannot be used. A magical catalyst is not required when using ancient magic. Also, after performing possession , they can freely use the skills they had previously. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-07711))_
+- A phantom is a being who by now is merely a grudge bound to a specific place, object, etc. They have almost no power to interfere with others, but it's impossible to counter them through normal means. Even Turn Undead has no effect on Phantoms. Only Exorcism and Save Soul can be expected to be effective. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-07730))_
+- A phantom's appearance is the same as a specter. It can also communicate its intentions while disappearing. At this time, it may cause rapping sounds or poltergeist phenomena. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-07731))_
+- A phantom has lost all of the skills it had previously. After possessing , it can only use the abilities of that body. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-07732))_
+- If you clear up its regrets and grudges, the phantom will vanish. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-07733))_
+- They then complain about their regrets and grudges to any third party they happen to encounter. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-07664))_
+- Haunts are souls that have remained in this world because they have unfinished business, or held a strong grudge against others in life. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-07664))_
+- If a body is destroyed after being possessed, the haunt will become a phantom and be bound in place. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-07666))_
+- All ability scores will be the same as previous, except for mental power. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-07687))_
+- Also, to use ancient magic, they will still need a magical catalyst (such as a magic wand). _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-07688))_
+- Mental power is the only one that's previous + 6 . _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-07688))_
+- Even after becoming a phantom, it'll attempt to possess if given the chance. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-07689))_
+- the ghost will vanish, leaving only a crumbled corpse behind. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-07690))_
+- Since it does not have a physical body, attacks such as weapons and damage magic are ineffective, and the only effective countermeasure is magic that has a mental effect. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-07711))_
+- Also, after performing possession , they can freely use the skills they had previously. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-07711))_
+- They have almost no power to interfere with others, but it's impossible to counter them through normal means. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-07730))_
+- Only Exorcism and Save Soul can be expected to be effective. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-07730))_
+- After possessing , it can only use the abilities of that body. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-07732))_
+
+### [ Horse ] / 13.2.8 Plants / [ Jack-O-Lantern ]
+
+- A jack-o-lantern looks like a pumpkin , the vegetable, with a yellowishorange face about 30 cm in diameter, that floats in the air. Its face has semicircular eyes and a mouth that arch downward, and a triangular nose that points upward, as if cut with a knife. There are no eyeballs, and an evil red light can be seen deep inside the eye sockets. They often float around above swamps and ponds, and if they spot prey, they'll attack straight away. Like ghouls, they live by scavenging dead flesh, but perhaps this does not satisfy their hunger, as they frequently attack the living. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-07751))_
+- This monster has dark magic abilities. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-07752))_
+- There are no eyeballs, and an evil red light can be seen deep inside the eye sockets. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-07751))_
+
+### [ Horse ] / 13.2.8 Plants / [ Dullahan ]
+
+- A dullahan is a ghost that appears as a headless knight wearing armor. The armor shines as if it were freshly made. A dullahan carries a one-handed sword and no shield, but it's no wonder, as it carries its own head in its spare hand! _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-07775))_
+- A Dullahan rides a chariot pulled by a headless horse (the horse is called a headless horse and the chariot is called a chariot of dullahan) and appears late at night at the door of the house it's aiming for. Then, it knocks on the door. When a resident opens the door and looks out, the dullahan points inside the house and prophesizes death , then leaves. Around one year later, the dullahan reappears at the house, chooses one person in the house, and kills them. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-07776))_
+- A dullahan can summon its chariot and headless horse at any time and in any place. However, one (?) dullahan has only one chariot and two headless horses, and if these are defeated, they cannot be summoned again. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-07777))_
+- You can avoid a death prophesied by a dullahan by killing it the first or second time it appears. It's no use for those who have received the prophecy of death to move away. The dullahan will always appear at the place you moved to (or to one of the places moved to, if the residents have split up and moved to different places), even if it's on the sea, or in a room that's been walled off on all sides....... _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-07778))_
+- Certain magic immunity Not affected by poison and illness Habitat=Unknown, appears with (or summoned by) dullahan Languages=None Perception=None A chariot ridden by a dullahan, which has the ability to fly. The chariot can also attack while moving up to a maximum of 90 meters in one round. Also, it can hit-and-run different opposing characters again and again. A dullahan riding and controlling a chariot cannot attack on its own at the same time (because it's pulling the reins with one hand and holding its head in the other). Headless horses also cannot attack while pulling a chariot. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-07794))_
+- A chariot can only be dealt damage by silver or magical weapons. Furthermore, additional critical damage cannot be dealt by swords , spears , clubs , bows , crossbows , or barehanded (with magic cast) . Criticals can occur as usual with axes , maces , fl ails , slings , rocks , and warhammers . _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-07795))_
+- In the case of magic, cold-type and poison gas-type magic is completely ineffective, but other damage magic are effective. Turn Undead has no effect. Also, healing magic cannot deal damage. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-07796))_
+- To attack a dullahan aboard a chariot, you must suffer a -2 penalty to attack power. You can attack a headless horse that is pulling a chariot normally. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-07797))_
+- When its master dullahan is defeated, or when any one of the headless horses pulling it are defeated, the chariot loses the ability to act. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-07798))_
+- Monster Level=4 Rarity=14 Agility=12 Movement Speed=30/30 (air) Number=Two horses Frequency=Rare Intellect=Animal Reaction=Adversarial Attack Points=Heel:10 (3) Strike Points=12 Evasion Points=11 (4) Defense Points=7 Life Points/Resistance=20/13 (6) Mental Points/Resistance=-/12 (5) Special Abilities=Normal weapon immunity Mental attack immunity Not affected by poison and illness Damage from healing magic Habitat=Unknown, appears with (or summoned by) dullahan Languages=None Perception=Magic Headless horses are the horses that pull the chariot with a dullahan on board, and can gallop through the air. They act faithfully to their master's commands and may also attack enemies. They cannot attack while pulling the chariot, but the dullahan can freely detach the chariot from the headless horses at will. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-07800))_
+- When a resident opens the door and looks out, the dullahan points inside the house and prophesizes death , then leaves. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-07776))_
+- A Dullahan rides a chariot pulled by a headless horse (the horse is called a headless horse and the chariot is called a chariot of dullahan) and appears late at night at the door of the house it's aiming for. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-07776))_
+- Then, it knocks on the door. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-07776))_
+- However, one (?) dullahan has only one chariot and two headless horses, and if these are defeated, they cannot be summoned again. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-07777))_
+- A dullahan riding and controlling a chariot cannot attack on its own at the same time (because it's pulling the reins with one hand and holding its head in the other). _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-07794))_
+
+### [ Horse ] / 13.2.8 Plants / [ Undead Knight ]
+
+- Monster Level=8 Rarity=14 Agility=14 Movement Speed=14 Number=One Frequency=Rare Intellect=Human Reaction=Adversarial Attack Points=Weapon:15 (8) Strike Points=17+mental damage Evasion Points=16 (9) Defense Points=13 Life Points/Resistance=21/17 (10) Mental Points/Resistance=24/18 (11) Special Abilities=Steal mental power (Strike power 10, bonus damage 8) _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-07803))_
+- An undead knight is a ghost that appears in the form of a knight wearing armor, holding a large two-handed sword. Both the sword and armor have red rust and no sheen. You can touch the armor, but apart from the glowing red eyes behind the helmet, there's nothing to be found inside. After defeating an undead knight, all that remains is an empty, rusty suit of armor and a sword. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-07811))_
+- This monster wanders around alone, making its home in places humans don't approach. This monster roams alone in inaccessible places. Based on this, some sages claim that undead knights are the mere shadows of the former holy warriors of Pharis. It is said that they fell on their journey to defeat evil, but their will to fight remained and they turned into ghosts. Naturally, the priests of Pharis deny this, while agreeing with a different claim, which is that they're sentinels created by necromancy during the ancient kingdom period. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-07812))_
+- Undead knights cannot be wounded by ordinary weapons. You will need a silver or magical weapon to defeat them. Also, if an undead knight's attack hits, the character will suffer damage to their mental power in addition to normal damage. This damage is calculated as strike power 10 plus bonus damage 8, and armor defense power is useless. Only adventurer level and magical defense effects will work. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-07813))_
+- An undead knight can similarly drain the mental power of its enemies with its gaze. As a result, anyone struck by an undead knight's gaze (even from behind) will suffer damage to their mental power. Those whose mental power is reduced to 0 due to damage from an undead knight's weapons or gaze will die instantly and will be resurrected as a wight 24 hours later. For this reason, an undead knight may be accompanied by multiple wights. These wights are sometimes specifically called squire wights . _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-07814))_
+- After defeating an undead knight, all that remains is an empty, rusty suit of armor and a sword. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-07811))_
+- You can touch the armor, but apart from the glowing red eyes behind the helmet, there's nothing to be found inside. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-07811))_
+- Only adventurer level and magical defense effects will work. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-07813))_
+
+### [ Horse ] / 13.2.8 Plants / [ Wraith ]
+
+- A wraith is a being whose ethereal body was separated from its physical body by the ancient magic spell Wraith Form and became undead because it did not return within the spell's duration. It resembles a specter, with a vaguely transparent image of when it was alive. The scores given here are for an average wraith, and can vary considerably depending on its previous knowledge, mental power, sorcerer skill level, etc. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-07833))_
+- Attacks using weapons or damaging spells have no effect at all on wraiths, which do not have a physical body, so the only effective countermeasure is magic that has a mental effect. Although a wraith has lost all of its physical abilities, its knowledge-related abilities and rune master skills are still effective, and it can use magic. However, holy magic cannot be used (dark magic is allowed). Unlike specters, wraiths do not have the ability to possess . If its mental points become 0 due to a Mental Attack , etc. the wraith will vanish. If it's directly exposed to sunlight, it will also disappear without even attempting to resist. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-07834))_
+- A wraith is a being whose ethereal body was separated from its physical body by the ancient magic spell Wraith Form and became undead because it did not return within the spell's duration. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-07833))_
+- Unlike specters, wraiths do not have the ability to possess . _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-07834))_
+- Attacks using weapons or damaging spells have no effect at all on wraiths, which do not have a physical body, so the only effective countermeasure is magic that has a mental effect. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-07834))_
+
+### [ Horse ] / 13.2.8 Plants / [ Mummy ]
+
+- A mummy is a monster transformed by a magical ritual in ancient , and is buried together in a tomb as the keeper of its master's coffin. When a miscreant such as a graverobber appears, the mummy is given the mission to awaken and attack the intruder. If a mummy's attack hits, in addition to physical damage, a curse will befall you. The character must make a mental power resistance roll against target score 13. If they fail, they will no longer be able to recover any reductions in ability scores, including life force and mental power. Let's say an adventurer under this curse is bound with a rope and the game master says, Well, you have 0 agility and are disabled . At this time, even if the adventurer's rope is broken, his agility will not recover from 0 and he will still be unable to take any action! To break this curse, the holy magic Remove Curse is required. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-07855))_
+- Also, mental magic doesn't work on a mummy. Since a mummy is dry, it's weak to fire, so fire attacks receive a +10 bonus to strike power. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-07856))_
+- A Master Mummy is an ancient member of a royal family or noble who followed a ritual in ancient and sleeps in a tomb as an undead. When a graverobber, etc. places their hands on its coffin, the master mummy rises and begins to act. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-07881))_
+- If a master mummy's attack hits, in addition to physical damage, a curse will befall you. The character must make a mental power resistance roll against target score 16. If they fail, they will not recover any reductions, including life force and mental power. To break this curse, the holy magic Remove Curse is required. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-07882))_
+- It is common for 10 or more mummies to be buried together in a master mummy's coffin chamber, furthermore, the master mummy has the ability to either make an individual mummy rise, or summon new mummies from nearby. This regeneration or summoning can only be done once per round. A master mummy can use this ability while taking other actions. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-07883))_
+- Since a master mummy is dry, it's weak to fire, so fire attack checks are made at plus 10 to strike power. Any mummies, either buried with or newly summoned, will continue to be active even after the master mummy has fallen, attacking those who have harmed their master to try and get revenge. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-07884))_
+- When a miscreant such as a graverobber appears, the mummy is given the mission to awaken and attack the intruder. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-07855))_
+- This regeneration or summoning can only be done once per round. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-07883))_
+- Any mummies, either buried with or newly summoned, will continue to be active even after the master mummy has fallen, attacking those who have harmed their master to try and get revenge. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-07884))_
+
+### [ Horse ] / 13.2.8 Plants / [ Vampire ]
+
+- There are three types of vampires: undead king, vampire, and lesser vampire. All types prolong their eternal life by sucking the lifeblood and mental power of others. A human whose blood is sucked by these vampires will also be turned into a lesser vampire. An undead king is a supreme spirit-user of the ancient kingdom, who has turned itself into an undead being, and holds great magical power. Vampires spontaneously emerge from among the servants of the dark gods. Those who have their blood sucked or their mental power taken by these vampires become lesser vampires. Also, even if their blood is sucked by a lesser vampire, a lesser vampire will still be created. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-07886))_
+- Vampires share several common characteristics. First, vampires have pale skin and a red glow in their eyes. These red eyes cause intense fear in those who see them. Anyone who makes eye contact with a vampire must first make a mental power resistance roll. The target score varies depending on the type of vampire, but in any case, if you fail to resist, you will be paralyzed with fear and unable to act. Even if the vampire removes its gaze, this paralysis continues until it disappears. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-07887))_
+- Vampires cannot be wounded by normal weapons. To defeat them, you will need a silver or magical weapon. Also, if a vampire's attack hits a character, in addition to normal damage, mental power will also be damaged. Armor defense power is useless against this damage. Only adventurer level and magical defense power are effective. Those whose mental power is reduced to 0 by this attack will die and will be resurrected 24 hours later as a lesser vampire. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-07888))_
+- Vampires maintain their mental points by sucking human blood. Vampires who temporarily lose their mental points due to magic, etc. cannot recover them unless they suck the blood of another human or steal the mental power of another human. A vampire can suck the lifeblood of one human who cannot resist in 10 minutes, allowing them to fully recover their mental points. Those who've had their blood sucked will lose their mental points and will be resurrected as a lesser vampire in 24 hours. Vampires can also steal mental power even with normal attacks, which are directly added to the vampire's mental points (but never exceed the upper limit). _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-07889))_
+- A vampire's negative life force has strong regenerative power, and unless it becomes 0, it will automatically regenerate at a rate of 3 points per round. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-07891))_
+- Vampires hate sunlight. When exposed to sunlight, a vampire suffers 1 point of damage to both their life points and mental points each round. Life points do not regenerate under the sun. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-07892))_
+- Monster Level=3 Rarity=13 Agility=14 Movement Speed=14 Number=Several to dozens Frequency=Rare Intellect=Human Reaction=Adversarial Attack Points=Barehanded:10 (3) Strike Points=5+mental damage Evasion Points=11 (4) Defense Points=5 Life Points/Resistance=14/11 (4) Mental Points/Resistance=14/11 (4) _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-07894))_
+- A lesser vampire is a monster created by the transformation of a victim whose blood has been sucked by another vampire. They will always follow the commands of the vampire that transformed them (their parents, so to speak). They have emaciated, unhealthy pale skin, and their glowing red eyes cause intense fear in those who see them. A character who makes eye contact with a lesser vampire must first resist the gaze against target score 10. If you fail, you'll be paralyzed by fear and unable to act. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-07904))_
+- A lesser vampire cannot be wounded by normal weapons. You will need a silver or magic weapon to defeat them. In addition to normal damage, a character hit by a lesser vampire's attack will also suffer damage to their mental power _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-07905))_
+- Vampires are servants of the dark gods or those who seem to be particularly favored by the dark gods, and are resurrected as undead after death. Most abilities they had previously are retained. Additionally, they gain the power to use dark magic up to 8th level. They'll no longer be able to use holy magic, but if they had a holy magic skill of 9th level or greater, they'll be able to use dark magic at the same skill level. The scores given here are for an average vampire and will vary depending on the ability scores it had previously. If you take that into account, its dexterity, agility, intelligence, and strength will be previous +6 , and its life force and mental power will be previous +12 . Vampires have the ability to move while floating in the air. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-07922))_
+- A vampire's negative power is strongly connected to the soil called unholy soil . If the vampire's life points become 0, or if its body crumbles away as a result of a "Turn Undead" spell being cast on it, the vampire's form will vanish into mist, but in one day it'll completely regenerate in its soil location. Vampires can also turn into mist at their own will before their life points reach 0, and regenerate in a place with soil . Even if their movement is blocked by magic such as Paralyze , etc. they can still turn into a mist. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-07924))_
+- If discovered by an adventurer, etc. while regenerating in a location with soil , a vampire will not be able to take its physical form. It'll remain a mist. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-07925))_
+- While a vampire is a mist, it cannot be wounded by sunlight or any other attack. The mist will eventually fade and the characters will no longer be able to see it. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-07926))_
+- Many vampires preserve this "soil" by preparing a coffin and lining it inside, while others simply keep it in a mound inside their room. A sage who has knowledge of vampires can look at the soil and completely find out its true identity through their knowledge ability. To do so, you must know about vampires and must also make a success roll against target score 16. You cannot attempt this success roll if you do not know about vampires. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-07927))_
+- If someone with the shaman skill looks at the soil , they can immediately tell that it's something out of the ordinary. If you're accompanied by a sage who knows about vampires, and further find out that the soil is not normal soil, you'll be able to deduce its true identity. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-07928))_
+- You can defeat a vampire by reducing its mental points to 0, or by removing the soil from its original location and reducing its life points to 0. However, cautious vampires usually keep soil in several locations. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-07929))_
+- The Undead King , is the name of the ultimate undead, the king of all without life, a powerful necromancer from the ancient kingdom that gained eternal negative power through a lost spell. They are usually dressed in black robes and a hood. The scores given here are for an average undead king, and will vary depending on the abilities they had previously. If you take that into account, its dexterity and agility will be previous +6 , its strength, intelligence, and life will be previous +12 , and its mental power will be previous +18 . That said, there aren't exactly enough undead kings in Forcelia to go taking averages... _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-07945))_
+- Above all, the most frightening thing about the undead king is that it has great magical power. An undead king uses both ancient magic and dark magic up to at least 10th level. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-07946))_
+- Only adventurer level and magical defense power are effective. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-07888))_
+- cannot recover them unless they suck the blood of another human or steal the mental power of another human. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-07889))_
+- Vampires can also steal mental power even with normal attacks, which are directly added to the vampire's mental points (but never exceed the upper limit). _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-07889))_
+- A vampire's negative life force has strong regenerative power, and unless it becomes 0, it will automatically regenerate at a rate of 3 points per round. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-07891))_
+- Vampires can also turn into mist at their own will before their life points reach 0, and regenerate in a place with soil . _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-07924))_
+- Many vampires preserve this "soil" by preparing a coffin and lining it inside, while others simply keep it in a mound inside their room. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-07927))_
+
+### [ Horse ] / 13.2.8 Plants / [ Simulacra ]
+
+- Rarity=14 Agility=Based on original Movement Speed=Based on original Number=One to several Frequency=Rare Intellect=None Reaction=Violent Attack Points/Strike Points/Evasion Points/ Defense Points=Based on original Life Points/Resistance=Based on original/based on original Mental Points/Resistance=-/Based on original _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-07951))_
+- A simulacra is a kind of golem built during the ancient kingdom period. A simulacra duplicates the appearance and abilities of an enemy human creature and makes them its own. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-07957))_
+- They were often used to watch over people who did not use magic, such as slaves and savages, and to guard the places where they worked. A simulacra duplicates the belongings, weapons, armor, etc. of people it sees and attacks them. However, magical weapons and armor cannot be duplicated. Although they look the same, they don't even have magical power. If it duplicates someone who is holding a broadsword +1, it will attack with a broadsword with the same strike power, but will not receive any bonuses to attack power or bonus damage. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-07958))_
+- A simulacra's replication is only superficial, and is limited to weapon combat capability. It cannot duplicate someone's personality or even their memories. As far as is currently known, simulacra seem to be unable to speak or use any magic at all. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-07959))_
+- The only way to attack a simulacra is to attack directly with a weapon. Although it's a formidable enemy for a 10th level fighter, it's not a formidable _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-07960))_
+- They were often used to watch over people who did not use magic, such as slaves and savages, and to guard the places where they worked. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-07958))_
+- A simulacra's replication is only superficial, and is limited to weapon combat capability. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-07959))_
+- The only way to attack a simulacra is to attack directly with a weapon. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-07960))_
+
+## Technical atoms
+
+### Technical frame 1: [ Horse ] / 13.2.8 Plants / [ Ethnoa ]
+
+**Context:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-07490))_
+
+> There may be cases where the property of former victims remains undigested inside the ethnoa's pouch. It's a low probability for these treasures to remain, but their value is usually around 100 to 1000 gamels per creature.
+
+**Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-07489))_
+
+> While the victim is still conscious, they can attack from within using a dagger, shortsword, or similar small bladed weapon.
+
+### Technical frame 2: [ Horse ] / 13.2.8 Plants / [ Killer Creeper ]
+
+**Context:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-07509))_
+
+> A character entangled in vines can also attempt to pull the entangled vines off instead of making a normal attack. Make a success roll using adventurer level + strength bonus as the baseline score and the killer creeper's attack points (10, or the final score from when the attack hit) as the target score. If successful, you can pull off the vines. If entangled in multiple vines, you must make separate checks for each. When you pull the vines off, 1 point of damage per vine is dealt to the killer
+
+**Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-07508))_
+
+> A character entangled in two or more vines cannot use ancient magic or spirit magic, because they're unable to move.
+
+### Technical frame 3: [ Horse ] / 13.2.8 Plants / [ Mandrake ]
+
+**Context:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-07514))_
+
+> Additionally, those who fail the resistance roll must make another one, this time a life force resistance roll against target score 12. If you fail, you will lose your hearing. At this time, if you roll double ones on the resistance roll, your life force will instantly become zero.
+
+**Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-07513))_
+
+> Anyone who hears this at close range without first wearing earplugs must make a mental power resistance roll against target score 12.
+
+### Technical frame 4: [ Horse ] / 13.2.8 Plants / [ Bloody Petal ]
+
+**Context:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-07525))_
+
+> This plant can grow up to about 10 meters in height. The stem has 2 to 5 bud-shaped flowers about 1 meter in diameter. When a creature such as a human, etc. approaches, the folded flower stalks extend out and the buds open to envelop their prey. The flower stalks grow to about 10 meters long.
+
+**Atoms:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-07527, source-range-0d48087c-07528, source-range-0d48087c-07529, source-range-0d48087c-07530, source-range-0d48087c-07531, source-range-0d48087c-07532, source-range-0d48087c-07533, source-range-0d48087c-07534, source-range-0d48087c-07535, source-range-0d48087c-07536, source-range-0d48087c-07538, source-range-0d48087c-07539, source-range-0d48087c-07540))_
+
+> Monster Level=6
+
+> Rarity=11
+
+> Agility=10 Movement Speed=0
+
+> Number=One Frequency=Very Rare
+
+> Intellect=None Reaction=Adversarial
+
+> Attack Points=Flower:11 (4)
+
+> Strike Points=7
+
+> Evasion Points=13 (6) Defense Points=8 Life Points/Resistance=1/12 (5)
+
+> Mental Points/Resistance=-/14 (7)
+
+> Special Abilities=Strangling
+
+> Habitat=Forests
+
+> Languages=None
+
+> Perception=Magic

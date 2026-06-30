@@ -42,17 +42,26 @@ def assign_family(profile: SourceProfile) -> SourceFamilyAssignment:
     means = profile.feature_signal_means
     atoms = profile.atom_kind_counts
     accepted = max(profile.accepted_entry_count, 1)
+    rule_atom_ratio = (
+        atoms.get("rule", 0)
+        + atoms.get("table", 0)
+        + atoms.get("procedure", 0)
+        + atoms.get("worked-example", 0) * 0.5
+        + atoms.get("formula", 0) * 0.5
+    ) / accepted
+    event_ratio = profile.event_count / accepted
     scores = {
         "coding": _clamp(
-            (atoms.get("code-block", 0) + atoms.get("formula", 0) * 0.5) / accepted * 2.0
-            + means.get("code-density", 0.0)
+            atoms.get("code-block", 0) / accepted * 2.0 + means.get("code-density", 0.0)
         ),
         "rules-reference": _clamp(
-            (atoms.get("rule", 0) + atoms.get("table", 0) + atoms.get("procedure", 0)) / accepted
-            + means.get("rule-language-density", 0.0) * 0.5
+            rule_atom_ratio * 1.5
+            + means.get("rule-language-density", 0.0) * 0.75
+            + means.get("procedure-density", 0.0) * 0.25
+            + means.get("table-density", 0.0) * 0.25
         ),
         "history": _clamp(
-            means.get("entity-date-density", 0.0) + profile.event_count / accepted * 2.0
+            means.get("entity-date-density", 0.0) * 0.25 + event_ratio * 4.0
         ),
         "general-prose": _clamp(0.2 + profile.claim_count / accepted * 0.3),
     }

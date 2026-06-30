@@ -1,0 +1,25 @@
+---
+page_id: sword-world-rpg-complete-edition-section-common-cold-92a75f39
+page_kind: source
+summary: [ Common Cold ]: 8 source-backed entries and 0 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+page_family: section-reference
+sources: raw/Sword World RPG - Complete Edition.pdf
+updated: 2026-06-30
+domain: sword-world-rpg-complete-edition
+category_path: sources/sword-world-rpg-complete-edition/sections
+source_id: Sword World RPG - Complete Edition.pdf
+projection_coverage: section-sword-world-rpg-complete-edition-section-common-cold-92a75f39@71507bfa137b12559fb0fca0527ea72c
+---
+
+# [ Common Cold ]
+
+From [[sword-world-rpg-complete-edition]].
+
+## Related pages
+
+- [[sword-world-rpg-complete-edition-section-12-2-2-5611d07e]] - previous source section: 12.2.2
+- [[sword-world-rpg-complete-edition-section-symptoms-f4982659]] - next source section: 《 Symptoms 》
+
+## Statements
+
+- This is what they call a cold. It's accompanied by a slight fever, cough, sneezing, runny nose, etc. Some people may experience diarrhea symptoms or joint pain. You suffer a -1 penalty on all success rolls while you have a cold. As the cold progresses, you may develop a high fever and also have difficulty breathing. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-05689))_

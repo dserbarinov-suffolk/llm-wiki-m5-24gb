@@ -1,0 +1,220 @@
+---
+page_id: javascriptallonge-literal
+page_kind: concept
+summary: Literal: 13 statement(s) and 9 atom(s) from raw/javascriptallonge.pdf.
+page_family: broad-topic
+sources: raw/javascriptallonge.pdf
+updated: 2026-06-30
+domain: javascriptallonge
+category_path: concepts
+projection_coverage: topic-javascriptallonge-literal@3fd8d995c22c210872a39cc16854598c
+---
+
+# Literal
+
+What [[javascriptallonge]] covers about literal:
+
+## Statements
+
+### A Rich Aroma: Basic Numbers
+
+- In computer science, a literal is a notation for representing a fixed value in source code. Almost all programming languages have notations for atomic values such as integers, floating-point numbers, and strings, and usually for booleans and characters; some also have notations for elements of enumerated types and compound values such as arrays, records, and objects. An anonymous function is a literal for the function type.Wikipedia 12 _(javascriptallonge.pdf (source-range-0e12e052-00143))_
+
+- JavaScript, like most languages, has a collection of literals. We saw that an expression consisting solely of numbers, like 42 , is a literal. It represents the number forty-two, which is 42 base 10. Not all numbers are base ten. If we start a literal with a zero, it is an octal literal. So the literal 042 is 42 base 8, which is actually 34 base 10. _(javascriptallonge.pdf (source-range-0e12e052-00144))_
+
+### And also: / That Constant Coffee Craving / inside-out
+
+- Which one is better? Well, the first one seems simplest, but a half-century of experience has taught us that names matter. A 'magic literal' like 3.14159265 is anathema to sustainable software development. _(javascriptallonge.pdf (source-range-0e12e052-00397))_
+
+### Composing and Decomposing Data / Arrays and Destructuring Arguments / array literals
+
+- Array literals are expressions, and arrays are reference types . We can see that each time an array literal is evaluated, we get a new, distinct array, even if it contains the exact same elements: _(javascriptallonge.pdf (source-range-0e12e052-00825))_
+
+### Composing and Decomposing Data / Self-Similarity
+
+- We saw that the basic idea that putting an array together with a literal array expression was the reverse or opposite of taking it apart with a destructuring assignment. _(javascriptallonge.pdf (source-range-0e12e052-00879))_
+
+- Thanks to the parallel between array literals + spreads with destructuring + rests, we can also use the same rules to decompose lists: _(javascriptallonge.pdf (source-range-0e12e052-00886))_
+
+### A Warm Cup: Basic Strings and Quasi-Literals / quasi-literals
+
+- JavaScript supports quasi-literal strings , a/k/a 'Template Strings' or 'String Interpolation Expressions.' A quasi-literal string is something that looks like a string literal, but is actually an expression. Quasi-literal strings are denoted with back quotes, and most strings that can be expressed as literals have the exact same meaning as quasi-literals, e.g. _(javascriptallonge.pdf (source-range-0e12e052-01500))_
+
+- Quasi-literals go much further. A quasi-literal can contain an expression to be evaluated. Old-school lispers call this 'unquoting,' the more contemporary term is 'interpolation.' An unquoted expression is inserted in a quasi-literal with ${expression} . The expression is evaluated, and the result is coerced to a string, then inserted in the quasi-string. _(javascriptallonge.pdf (source-range-0e12e052-01502))_
+
+- Aquasi-literal is computationally equivalent to an expression using + . So the above expression could also be written: _(javascriptallonge.pdf (source-range-0e12e052-01505))_
+
+### A Warm Cup: Basic Strings and Quasi-Literals / evaluation time
+
+- Like any other expression, quasi-literals are evaluated late , when that line or lines of code is evaluated. _(javascriptallonge.pdf (source-range-0e12e052-01511))_
+
+- JavaScript evaluates the quasi-literal when the function is invoked and the quasi-literal inside the function's body is evaluated. Thus, name is not bound to "Harry" , it is bound to 'Arthur Dent' , the value of the parameter when the function is invoked. _(javascriptallonge.pdf (source-range-0e12e052-01514))_
+
+- Quasi-literals are expressions that resemble their result. _(javascriptallonge.pdf (source-range-0e12e052-01508))_
+
+## Technical atoms
+
+### Technical frame 1: A Rich Aroma: Basic Numbers
+
+**Context:** _(javascriptallonge.pdf (source-range-0e12e052-00147))_
+
+> For example, the largest integer JavaScript can safely 14 handle is 9007199254740991 , or 2 '53' - 1 . Like most programming languages, JavaScript does not allow us to use commas to separate groups of digits.
+
+**Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00146))_
+
+> The machine's representation of a number almost never lines up perfectly with our understanding of how a number behaves, and thus there will be places where the computer's behaviour surprises us if we don't know a little about what it's doing 'under the hood.'
+
+### Technical frame 2: Composing and Decomposing Data / Arrays and Destructuring Arguments / array literals
+
+**Context:** _(javascriptallonge.pdf (source-range-0e12e052-00822))_
+
+> This is an array with one element that is an array with one element that is an array with one element that is an array with one element that is an empty array. Although that seems like something nobody would ever construct, many students have worked with almost the exact same thing when they explored various means of constructing arithmetic from Set Theory.
+
+**Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00815))_
+
+```
+[]
+//=> []
+```
+
+### Technical frame 3: Composing and Decomposing Data / Arrays and Destructuring Arguments / array literals
+
+**Context:** _(javascriptallonge.pdf (source-range-0e12e052-00825))_
+
+> Array literals are expressions, and arrays are reference types . We can see that each time an array literal is evaluated, we get a new, distinct array, even if it contains the exact same elements:
+
+**Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00826))_
+
+```
+[] === []
+//=> false
+[2 + 2] === [2 + 2]
+//=> false
+const array_of_one = () => [1];
+array_of_one() === array_of_one()
+//=> false
+```
+
+### Technical frame 4: Composing and Decomposing Data / Self-Similarity
+
+**Context:** _(javascriptallonge.pdf (source-range-0e12e052-00886))_
+
+> Thanks to the parallel between array literals + spreads with destructuring + rests, we can also use the same rules to decompose lists:
+
+**Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00885))_
+
+```
+[]
+//=> []
+["baz", ...[]]
+//=> ["baz"]
+["bar", ...["baz"]]
+//=> ["bar","baz"]
+["foo", ...["bar", "baz"]]
+//=> ["foo","bar","baz"]
+```
+
+### Technical frame 5: Composing and Decomposing Data / Self-Similarity
+
+**Context:** _(javascriptallonge.pdf (source-range-0e12e052-00891))_
+
+> Armed with our definition of an empty list and with what we've already learned, we can build a great many functions that operate on arrays. We know that we can get the length of an array using its .length . But as an exercise, how would we write a length function using just what we have already?
+
+**Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00889))_
+
+```
+const [first, ...rest] = [];
+first
+//=> undefined
+rest
+//=> []:
+const [first, ...rest] = ["foo"];
+first
+//=> "foo"
+rest
+//=> []
+const [first, ...rest] = ["foo", "bar"];
+first
+//=> "foo"
+rest
+//=> ["bar"]
+const [first, ...rest] = ["foo", "bar", "baz"];
+first
+//=> "foo"
+rest
+//=> ["bar","baz"]
+For the purpose of this exploration, we will presume the following:61
+const isEmpty = ([first, ...rest]) => first === undefined;
+```
+
+### Technical frame 6: A Warm Cup: Basic Strings and Quasi-Literals / quasi-literals
+
+**Context:** _(javascriptallonge.pdf (source-range-0e12e052-01502))_
+
+> Quasi-literals go much further. A quasi-literal can contain an expression to be evaluated. Old-school lispers call this 'unquoting,' the more contemporary term is 'interpolation.' An unquoted expression is inserted in a quasi-literal with ${expression} . The expression is evaluated, and the result is coerced to a string, then inserted in the quasi-string.
+
+**Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01501))_
+
+```
+`foobar`
+//=> 'foobar'
+`fizz` + `buzz`
+//=> 'fizzbuzz'
+```
+
+### Technical frame 7: A Warm Cup: Basic Strings and Quasi-Literals / quasi-literals
+
+**Context:** _(javascriptallonge.pdf (source-range-0e12e052-01505))_
+
+> Aquasi-literal is computationally equivalent to an expression using + . So the above expression could also be written:
+
+**Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01504))_
+
+```
+`A popular number for nerds is ${40 + 2}`
+//=> 'A popular number for nerds is 42'
+```
+
+### Technical frame 8: A Warm Cup: Basic Strings and Quasi-Literals / quasi-literals
+
+**Context:** _(javascriptallonge.pdf (source-range-0e12e052-01508))_
+
+> However, there is a big semantic difference between a quasi-literal and an expression. Quasi-literals are expressions that resemble their result. They're easier to read and it's easier to avid errors like the following:
+
+**Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01507))_
+
+```
+'A popular number for nerds is ' + (40 + 2)
+//=> 'A popular number for nerds is 42'
+```
+
+### Technical frame 9: A Warm Cup: Basic Strings and Quasi-Literals / quasi-literals
+
+**Context:** _(javascriptallonge.pdf (source-range-0e12e052-01508))_
+
+> However, there is a big semantic difference between a quasi-literal and an expression. Quasi-literals are expressions that resemble their result. They're easier to read and it's easier to avid errors like the following:
+
+**Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01509))_
+
+```
+'A popular number for nerds is' + (40 + 2)
+//=> 'A popular number for nerds is42'
+```
+
+
+## Related pages
+
+- [[javascriptallonge-quasi-literal]] - narrower topic: Quasi Literal shares source evidence from A Warm Cup: Basic Strings and Quasi-Literals / quasi-literals: JavaScript supports quasi-literal strings , a/k/a 'Template Strings' or 'String Interpolation Expressions.' A quasi-literal string is something that looks like a str ... [truncated]; Quasi Literal shares technical record from A Warm Cup: Basic Strings and Quasi-Literals / quasi-literals: `foobar` //=> 'foobar' `fizz` + `buzz` //=> 'fizzbuzz' (5 shared statement(s), 3 shared atom(s))
+- [[javascriptallonge-quasi]] - shared statements and technical atoms: Quasi shares source evidence from A Warm Cup: Basic Strings and Quasi-Literals / quasi-literals: JavaScript supports quasi-literal strings , a/k/a 'Template Strings' or 'String Interpolation Expressions.' A quasi-literal string is something that looks like a str ... [truncated]; Quasi shares technical record from A Warm Cup: Basic Strings and Quasi-Literals / quasi-literals: `foobar` //=> 'foobar' `fizz` + `buzz` //=> 'fizzbuzz' (5 shared statement(s), 3 shared atom(s))
+- [[javascriptallonge-expression]] - shared statements and technical atoms: Expression shares source evidence from Composing and Decomposing Data / Self-Similarity: We saw that the basic idea that putting an array together with a literal array expression was the reverse or opposite of taking it apart with a destructuring assignment.; Expression shares technical record from A Warm Cup: Basic Strings and Quasi-Literals / quasi-literals: `foobar` //=> 'foobar' `fizz` + `buzz` //=> 'fizzbuzz' (2 shared statement(s), 4 shared atom(s))
+- [[javascriptallonge-array]] - shared statements and technical atoms: Array shares source evidence from Composing and Decomposing Data / Arrays and Destructuring Arguments / array literals: Array literals are expressions, and arrays are reference types . We can see that each time an array literal is evaluated, we get a new, distinct array, even if it co ... [truncated]; Array shares technical record from Composing and Decomposing Data / Arrays and Destructuring Arguments / array literals: [] //=> [] (1 shared statement(s), 2 shared atom(s))
+- [[javascriptallonge-javascript]] - shared statements and technical atoms: Javascript shares source evidence from A Warm Cup: Basic Strings and Quasi-Literals / evaluation time: JavaScript evaluates the quasi-literal when the function is invoked and the quasi-literal inside the function's body is evaluated. Thus, name is not bound to "Harry" ... [truncated]; Javascript shares technical record from Composing and Decomposing Data / Arrays and Destructuring Arguments / array literals: [] //=> [] (1 shared statement(s), 1 shared atom(s))
+- [[javascriptallonge-string]] - shared statements and technical atoms: String shares source evidence from A Warm Cup: Basic Strings and Quasi-Literals / quasi-literals: JavaScript supports quasi-literal strings , a/k/a 'Template Strings' or 'String Interpolation Expressions.' A quasi-literal string is something that looks like a str ... [truncated]; String shares technical record from A Warm Cup: Basic Strings and Quasi-Literals / quasi-literals: `foobar` //=> 'foobar' `fizz` + `buzz` //=> 'fizzbuzz' (1 shared statement(s), 1 shared atom(s))
+- [[javascriptallonge-list]] - shared technical atoms: List shares technical record from Composing and Decomposing Data / Self-Similarity: [] //=> [] ["baz", ...[]] //=> ["baz"] ["bar", ...["baz"]] //=> ["bar","baz"] ["foo", ...["bar", "baz"]] //=> ["foo","bar","baz"] (2 shared atom(s))
+- [[javascriptallonge-element]] - shared technical atoms: Element shares technical record from Composing and Decomposing Data / Self-Similarity: [] //=> [] ["baz", ...[]] //=> ["baz"] ["bar", ...["baz"]] //=> ["bar","baz"] ["foo", ...["bar", "baz"]] //=> ["foo","bar","baz"] (1 shared atom(s))
+- [[javascriptallonge-programming]] - shared technical atoms: Programming shares technical record from A Rich Aroma: Basic Numbers: The machine's representation of a number almost never lines up perfectly with our understanding of how a number behaves, and thus there will be places where the comp ... [truncated] (1 shared atom(s))
+- [[javascriptallonge-evaluate]] - shared statements: Evaluate shares source evidence from A Warm Cup: Basic Strings and Quasi-Literals / evaluation time: JavaScript evaluates the quasi-literal when the function is invoked and the quasi-literal inside the function's body is evaluated. Thus, name is not bound to "Harry" ... [truncated] (1 shared statement(s))
+
+## Source
+
+- [[javascriptallonge]]

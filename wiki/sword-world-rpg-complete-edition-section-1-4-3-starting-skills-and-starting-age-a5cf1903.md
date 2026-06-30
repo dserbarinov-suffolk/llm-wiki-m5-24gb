@@ -1,0 +1,28 @@
+---
+page_id: sword-world-rpg-complete-edition-section-1-4-3-starting-skills-and-starting-age-a5cf1903
+page_kind: source
+summary: 1.4.3 Starting Skills and Starting / 《 Age 》: 7 source-backed entries and 0 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+page_family: section-reference
+sources: raw/Sword World RPG - Complete Edition.pdf
+updated: 2026-06-30
+domain: sword-world-rpg-complete-edition
+category_path: sources/sword-world-rpg-complete-edition/sections
+source_id: Sword World RPG - Complete Edition.pdf
+projection_coverage: section-sword-world-rpg-complete-edition-section-1-4-3-starting-skills-and-starting-age-a5cf1903@9f11510f245420a185018185fb3ccac5
+---
+
+# 1.4.3 Starting Skills and Starting / 《 Age 》
+
+From [[sword-world-rpg-complete-edition]].
+
+## Related pages
+
+- [[sword-world-rpg-complete-edition-section-1-4-3-starting-skills-and-starting-7536fe31]] - broader source section: 1.4.3 Starting Skills and Starting
+- [[sword-world-rpg-complete-edition-section-1-4-3-starting-skills-and-starting-1-4-4-age-gender-name-a9f7e86a]] - previous source section: 1.4.3 Starting Skills and Starting / 1.4.4 Age, Gender, Name
+- [[sword-world-rpg-complete-edition-section-1-4-3-starting-skills-and-starting-ages-of-each-race-ff3c5657]] - next source section: 1.4.3 Starting Skills and Starting / 《 Ages of Each Race 》
+
+## Statements
+
+- However, you're not completely free to decide on age. It is basically impossible to play as a child who has not fully grown both physically and mentally, or an old man who is clearly on the physical decline. In addition, in Sword World RPG , newly created characters are green youths , so to speak, who don't have much experience. Therefore, making them too old poses a problem in this sense as well. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-00424))_
+- When deciding on the age of a character, it should be between 15 years old and around 30 years old at most for a human. The life span of a human is about 100 years old. Of course, it's natural that they'll die earlier than this if they're ill or wounded. In Alecrast, the average life span of a human is about 50 years due to underdeveloped medical care. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-00425))_
+- Therefore, making them too old poses a problem in this sense as well. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-00424))_

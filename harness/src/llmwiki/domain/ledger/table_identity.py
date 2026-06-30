@@ -9,10 +9,25 @@ from llmwiki.domain.ledger.atoms import TablePayload
 from llmwiki.domain.ledger.ledger import ClaimLedger
 from llmwiki.domain.ledger.structure import DocumentStructure, StructureNode
 
-_TABLE_CAPTION = re.compile(r"^\s*(?:table|tab\.)\s*(?:[-:.]|\d+\b)?\s*(.+)$", re.IGNORECASE)
+_TABLE_CAPTION = re.compile(
+    r"^\s*(?:table|tab\.)\s*(?:[-:.]\s*|\d+(?:[-.]\d+)*\s*[:.-]?\s*)?(.+)$",
+    re.IGNORECASE,
+)
 _TOC = re.compile(r"\btable\s+of\s+contents\b", re.IGNORECASE)
 _TABLE_VERB = r"shows|lists|gives|provides|contains|summarizes|describes"
 _NAME_CHARS = r"[A-Za-z0-9/&+() -]"
+_REFERENCE_NAME_MAX_WORDS = 6
+_FORMAL_REFERENCE_NAME_MAX_WORDS = 12
+_FORMAL_TABLE_REFS = (
+    re.compile(
+        rf"\b(?:see|consult|using|use)\s+(?:the\s+)?(?:table|tab\.)\s*"
+        rf"(?:\d+(?:[-.]\d+)*\s*[:.-]?\s*)?([A-Z0-9]{_NAME_CHARS}{{1,80}})"
+    ),
+    re.compile(
+        rf"\b(?:table|tab\.)\s+\d+(?:[-.]\d+)*\s*[:.-]?\s*"
+        rf"([A-Z]{_NAME_CHARS}{{1,80}})"
+    ),
+)
 _NAMED_TABLE_REFS = (
     re.compile(
         rf"\b(?:the|this|that)\s+({_NAME_CHARS}{{1,80}}?)\s+table\s+"
@@ -99,12 +114,21 @@ def named_table_references(text: str) -> tuple[str, ...]:
     if _TOC.search(text):
         return ()
     refs: list[str] = []
+    for pattern in _FORMAL_TABLE_REFS:
+        for match in pattern.finditer(text):
+            _append_table_reference(
+                refs, match.group(1), max_words=_FORMAL_REFERENCE_NAME_MAX_WORDS
+            )
     for pattern in _NAMED_TABLE_REFS:
         for match in pattern.finditer(text):
-            name = normalize_table_name(match.group(1))
-            if name:
-                refs.append(name)
+            _append_table_reference(refs, match.group(1), max_words=_REFERENCE_NAME_MAX_WORDS)
     return tuple(dict.fromkeys(refs))
+
+
+def _append_table_reference(refs: list[str], raw_name: str, *, max_words: int) -> None:
+    name = normalize_table_name(raw_name)
+    if name and len(name.split()) <= max_words:
+        refs.append(name)
 
 
 def normalize_table_name(text: str) -> str:

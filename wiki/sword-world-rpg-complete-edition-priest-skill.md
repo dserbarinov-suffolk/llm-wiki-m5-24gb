@@ -1,0 +1,173 @@
+---
+page_id: sword-world-rpg-complete-edition-priest-skill
+page_kind: concept
+summary: Priest Skill: 29 statement(s) and 3 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+page_family: broad-topic
+sources: raw/Sword World RPG - Complete Edition.pdf
+updated: 2026-06-30
+domain: sword-world-rpg-complete-edition
+category_path: concepts
+projection_coverage: topic-sword-world-rpg-complete-edition-priest-skill@718c26e4d1ec7c6fa6f271b564ed06f6
+---
+
+# Priest Skill
+
+What [[sword-world-rpg-complete-edition]] covers about priest skill:
+
+## Statements
+
+### Skills / 1.3.3 Adventurer Level
+
+- In Sword World RPG, a character's capability as an adventurer is determined by their adventurer skill level. The highest level among the adventurer skills that a character has is called that character's adventurer level . For example, a character with priest skill level 1, fighter skill level 4 (these are adventurer skills), sailor skill level 5, and fisher skill level 2 (these are general skills) would be at adventurer level 4 . _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-00237))_
+
+### Skills / 【 Rune Master 】
+
+- The five adventurer skills of sorcerer, shaman, priest, dark priest, and dragon priest are sometimes collectively referred to as rune master skills . This is because these five classes use runes and have the ability to handle magic. Rune masters are viewed with fear by the general public because of their magical abilities. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-00262))_
+
+### Character Creation / 【 Elf 】
+
+- Elves excel in dexterity, agility, intelligence, and mental power. On the other hand, their strength and life force tend to be low. There is a restriction that they cannot acquire the priest skill. It would be better to advance the shaman skill acquired from the beginning, or to acquire the sorcerer skill. They are also a suitable race for thief. They're not very suitable for fighter. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-00300))_
+
+### Baseline Scores
+
+- Fighter is only useful in combat. The sorcerer, shaman, and priest rune master skills are also of little use for anything other than casting magic. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-00938))_
+
+### Basic Rules of Magic / 5.1.3 Learning Magic
+
+- Suppose we have an adventurer with priest skill level 1 and shaman skill level 2. This adventurer can use 1st level holy magic and 1st-2nd level spirit magic. He cannot use any ancient magic, nor any holy magic of 2nd level or higher, nor any spirit magic of 3rd level or higher. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-01558))_
+
+### Basic Rules of Magic / 5.1.4 How to Use Magic
+
+- An adventurer with priest skill level 1, shaman skill level 2, and 13 intelligence (+2 bonus) would have a magic power of 3 in holy magic and a magic power of 4 in spirit magic. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-01568))_
+
+### Priest Skill
+
+- Among the gods of Alecrast, the six most powerful gods (and those with the greatest number of believers) are called the six major gods . These six major gods almost always have temples in most towns. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-03375))_
+
+### 《 Marfa 》 / 《 Phalaris (Wicked God) 》
+
+- These teachings are not formal, but express inner thinking. Therefore, players and game masters should use common sense when making judgments, rather than forcefully twisting the doctrine or interpreting it too rigidly. The gods see everything, but they also see from a vast perspective at the same time, so unless it's a very extreme act, they will not abandon a priest. However, this does not mean that everything is forgivable, so game masters should only confiscate the priest skill when the character repeatedly commits unjust acts or shows no remorse. Also, if this happens, don't forget to warn them first. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-03392))_
+
+### 5.1.16 Basic Holy Magic List
+
+- The spells listed here are available to characters with the priest (dark priest) skill without exception. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-03424))_
+
+### 《 Divination 》
+
+- Like the priest skill, this is the ability to pray and communicate with a god. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-04771))_
+
+### 10th Level Basic Dark Magic List [ Call God ]
+
+- This spell has a bonus added to the final score depending on the person being sacrificed. If the person being sacrificed is close to a god (regardless of whether it's a god of light or a god of darkness), you can add +1 to +6 to the final score. Their priest skill level is a reference for how close the sacrifice is to a god, but there are some humans who are close to a god regardless of their skill level. For example, it is for this reason that innocent girls are preferred as sacrifices. Each game master is responsible for determining the suitability of sacrifices, etc. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-05004))_
+
+### Dragon Roar Magic
+
+- The skill for using this magic is the dragon priest skill , and its owners are called dragon priests . _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-05090))_
+
+- Dragon priests worship dragons, so the dragon priest skill cannot be acquired at the same time as the priest skill (and dark priest skill). _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-05096))_
+
+### Dragon Priest Skill
+
+- Owners of the dragon priest skill gain the following basic abilities. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-05099))_
+
+### Reptile Check [Intelligence]
+
+- Dragon priests have knowledge of dragons, their subspecies such as wyrms, wyverns, etc. and reptiles. For these monsters only, they can identify them with a success roll using dragon priest skill + intelligence bonus as the baseline score, just like the sage skill's monster check . _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-05101))_
+
+### 《 Priest Skill 》
+
+- To acquire the priest skill, it is necessary to awaken to faith . When you awaken to faith and recognize the existence of the gods, you can acquire the 1st level priest skill. Therefore, there may be no particular need for a master, teacher, or period of training. It is possible to suddenly feel Myrii's power while fighting and become a priest, or to feel heartbroken by the chaotic mayhem and, worried about what to do, become an apostle of Pharis. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-05326))_
+
+- However, the surest way to awaken to faith is to work in a temple, constantly see other priests, and receive their teachings. This is because it is the best way to experience the nature of faith firsthand. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-05327))_
+
+- The priest skill is increased by spending experience points. As your priest skill increases, your magic power increases and at the same time you also immediately gain access to higher level spells. This is because your relationship with your god becomes stronger. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-05328))_
+
+### 《 Dark Priest Skill 》
+
+- The method of acquiring and increasing the dark priest skill is almost the same as the priest skill. However, many of the dark gods that dark priests _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-05331))_
+
+### [ Imp ]
+
+- The ecology of imps, such as where they live, etc. is not well understood. They are sometimes seen in large cities, and sometimes live in abandoned houses in the suburbs. They may use 1st level dark magic, and may also be the familiars of evil sorcerers (many of whom also have the dark priest skill). _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-06034))_
+
+### [ Goblin ]
+
+- Among the goblin tribe, this refers to those who are skilled in the power of spirit magic. Their physical characteristics are not much different from ordinary goblins, but they are smart and moreover, have mastered silent spirit. This is not surprising, considering that goblins are originally from the fairy world. Some goblin shamans are also dark priests who can use dark magic. Goblins served the dark gods in mythical times. A goblin shaman has either a 3rd level shaman skill (magical intensity 12/magic power 5), a 1st level dark priest skill (magical intensity 10/magic power 3), or both. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-06072))_
+
+### [ Manticore ]
+
+- A manticore has the body of a lion, the tail of a scorpion, the wings of a bat, and the face of an old man. They have an extremely long life span and accumulate a great deal of knowledge. While the sphinx (see p. 194) is the guardian of true knowledge, the manticore is said to be the guardian of wicked knowledge. Many are followers of Phalaris, and their dark priest skill is 5th level. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-06636))_
+
+- If the game master wishes, on the basis that you rebelled greatly against your old faith, they may require only half the normal experience points to increase your level until you reach your previous priest skill level. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-05329))_
+- From there, you will have to increase your priest skill again. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-05329))_
+
+## Technical atoms
+
+### Technical frame 1: Priest Skill
+
+**Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-03374))_
+
+```text
+Priest Skill
+5.1.15 Holy Magic  and the  Priest Skil
+Holy prayers are runes used to contact  the  great  beings,  the gods ,  and use  that  power  as  a  source  to  perform various miracles. There are many gods in Sword  World , each drawing worship from humans and other intelligent races.
+In order to use holy magic , you need to have enough faith to be able to hear the voices of the gods. The gods' thought form is completely different from humans, therefore humans cannot fully understand it. This is because their words enter the mind as highly complex symbols. Runes called holy prayers were created during the ancient  kingdom period as a means to give words to this and cause miracles.
+The caster uses these holy prayers to pray to the gods and activate the power of the spells. In addition, each holy magic has special spells that can only be used by believers  of  a  specific  god.  Those  spells cannot be  used  by  members  of  other sects.
+The  skill  for  using  holy  magic  is called the priest skill , and those who have the priest skill are called priests .
+Among the many gods that exist in Forcelia, there are also those called wicked  gods .  The  teachings  of  these wicked gods are extremely inconvenient for protecting human society, and many of them threaten the lives and property of  others.  Because  of  their  anti-social nature,  the  followers  of  these  wicked gods tend to be abhorred, and the magic used  by  the  followers  of  these  wicked gods is called dark magic and is distinguished from holy magic. The priests of the wicked gods are not called priests, but dark priests .
+Game masters should not allow characters  to  become  priests  of  wicked gods.  If  you  role-play  according  to  the wicked  gods'  teachings,  there  is  a  high possibility  that  it  will  soon  lead  to  the destruction of not only that PC, but also the party.
+5.1.15.1
+Restrictions on Using Holy Magic
+There are no restrictions on armor or weapons  to  use  the  priest  skill,  and priests can cast magic simply by chanting holy prayers. However, this action must be in accordance with the will of the god you believe in. If you try to use magic for a  purpose  that  is  far removed from the god's will, it may not work at all. Also, a priest who loses faith immediately loses their priest skill.
+Also,  one  character cannot worship multiple gods. Those with the priest skill must choose only one god to worship.
+5.1.15.2 The Six Major Gods
+```
+
+<details>
+<summary>Parsed table preview (needs review)</summary>
+
+| 5.1.15 Holy Magic | and the | Priest Skil |
+| --- | --- | --- |
+| Holy prayers are runes used to contact | the | great |
+| In order to use holy magic, you need to have enough faith to be able to hear the voices of the gods. The gods' thought form is completely different from humans, therefore humans cannot fully understand it. This is because their words enter the mind as highly complex symbols. Runes called holy prayers were created during the ancient | kingdom period as a means to give words to this and cause miracles. |  |
+| The caster uses these holy prayers to pray to the gods and activate the power of the spells. In addition, each holy magic has special spells that can only be used by believers | of | a |
+| The | skill | for |
+| Among the many gods that exist in Forcelia, there are also those called wicked | gods. | The |
+| Game masters should not allow characters | to | become |
+| There are no restrictions on armor or weapons | to | use |
+| Also, | one | character cannot worship multiple gods. Those with the priest skill must choose only one god to worship. |
+
+</details>
+
+### Technical frame 2: 《 Priest Skill 》
+
+**Context:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-05327))_
+
+> However, the surest way to awaken to faith is to work in a temple, constantly see other priests, and receive their teachings. This is because it is the best way to experience the nature of faith firsthand.
+
+**Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-05326))_
+
+> When you awaken to faith and recognize the existence of the gods, you can acquire the 1st level priest skill.
+
+### Technical frame 3: 《 Priest Skill 》
+
+**Context:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-05328))_
+
+> The priest skill is increased by spending experience points. As your priest skill increases, your magic power increases and at the same time you also immediately gain access to higher level spells. This is because your relationship with your god becomes stronger.
+
+**Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-05329))_
+
+> In rare cases, if a character who had the priest skill believes that their previous teachings are wrong and awakens to the teachings of another god, they may lose any previous priest skill levels they had and acquire 1st level in a new god's priest skill level instead.
+
+
+## Related pages
+
+- [[sword-world-rpg-complete-edition-dragon-priest-skill]] - narrower topic: Dragon Priest Skill shares source evidence from Skills / 1.3.3 Adventurer Level: In Sword World RPG, a character's capability as an adventurer is determined by their adventurer skill level. The highest level among the adventurer skills that a cha ... [truncated] (22 shared statement(s))
+- [[sword-world-rpg-complete-edition-adventurer-level]] - shared statements: 1.3.3 Adventurer Level shares source evidence from Skills / 1.3.3 Adventurer Level: In Sword World RPG, a character's capability as an adventurer is determined by their adventurer skill level. The highest level among the adventurer skills that a cha ... [truncated] (3 shared statement(s))
+- [[sword-world-rpg-complete-edition-sage-skill]] - shared statements: Sage Skill shares source evidence from Reptile Check [Intelligence]: Dragon priests have knowledge of dragons, their subspecies such as wyrms, wyverns, etc. and reptiles. For these monsters only, they can identify them with a success ... [truncated] (1 shared statement(s))
+- [[sword-world-rpg-complete-edition-section-priest-skill-a22f84d8]] - source section: Priest Skill shares source evidence from Priest Skill: Among the gods of Alecrast, the six most powerful gods (and those with the greatest number of believers) are called the six major gods . These six major gods almost ... [truncated]; Priest Skill shares technical record from Priest Skill: Priest Skill 5.1.15 Holy Magic  and the  Priest Skil Holy prayers are runes used to contact  the  great  beings,  the gods ,  and use  that  power  as  a  source  to ... [truncated] (2 shared statement(s), 1 shared atom(s))
+- [[sword-world-rpg-complete-edition-section-priest-skill-14f52aa5]] - source section: 《 Priest Skill 》 shares source evidence from 《 Priest Skill 》: To acquire the priest skill, it is necessary to awaken to faith . When you awaken to faith and recognize the existence of the gods, you can acquire the 1st level pri ... [truncated]; 《 Priest Skill 》 shares technical record from 《 Priest Skill 》: When you awaken to faith and recognize the existence of the gods, you can acquire the 1st level priest skill. (9 shared statement(s), 2 shared atom(s))
+
+## Source
+
+- [[sword-world-rpg-complete-edition]]

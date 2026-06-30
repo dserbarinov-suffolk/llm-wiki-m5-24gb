@@ -12,6 +12,7 @@ import json
 import math
 import re
 from collections import Counter
+from collections.abc import Iterable
 from dataclasses import asdict, dataclass
 from pathlib import Path
 
@@ -56,6 +57,8 @@ _SENTENCE_RE = re.compile(r"(?<=[.!?])\s+")
 _SOURCE_PAGE_BONUS = 0.15
 _MATCH_THRESHOLD = 0.12
 _CLUSTER_THRESHOLD = 0.18
+_AGGLOMERATIVE_CLUSTER_UNIT_LIMIT = 240
+_SOURCE_ORDER_CLUSTER_UNIT_LIMIT = 12
 _MAX_SOURCE_UNITS_PER_WRITE = 5
 _MAX_SOURCE_CHARS_PER_WRITE = 900
 _MAX_SOURCE_SUMMARY_CLAIMS = 5
@@ -1192,7 +1195,19 @@ def _topic_clusters(
     topics: tuple[CandidateTopic, ...],
     source_claim_groups: tuple[SourceClaimGroup, ...],
 ) -> tuple[TopicCluster, ...]:
-    clusters = [([unit], _embedding(unit.heading_path + " " + unit.text)) for unit in units]
+    if len(units) <= _AGGLOMERATIVE_CLUSTER_UNIT_LIMIT:
+        cluster_units = _agglomerative_topic_cluster_units(units)
+    else:
+        cluster_units = _source_order_topic_cluster_units(units)
+    return _render_topic_clusters(cluster_units, claims, topics, source_claim_groups)
+
+
+def _agglomerative_topic_cluster_units(
+    units: tuple[ExtractedUnit, ...],
+) -> tuple[tuple[ExtractedUnit, ...], ...]:
+    clusters: list[tuple[tuple[ExtractedUnit, ...], dict[str, float]]] = [
+        ((unit,), _embedding(unit.heading_path + " " + unit.text)) for unit in units
+    ]
     while True:
         best: tuple[int, int, float] | None = None
         for i, (_, emb_a) in enumerate(clusters):
@@ -1206,30 +1221,121 @@ def _topic_clusters(
         merged_units = clusters[i][0] + clusters[j][0]
         clusters[i] = (merged_units, _embedding(" ".join(unit.text for unit in merged_units)))
         del clusters[j]
+    return tuple(cluster_units for cluster_units, _ in clusters)
+
+
+def _source_order_topic_cluster_units(
+    units: tuple[ExtractedUnit, ...],
+) -> tuple[tuple[ExtractedUnit, ...], ...]:
+    clusters: list[tuple[ExtractedUnit, ...]] = []
+    current_units: list[ExtractedUnit] = []
+    current_key = ""
+    for unit in units:
+        unit_key = _topic_cluster_key(unit)
+        if current_units and (
+            unit_key != current_key or len(current_units) >= _SOURCE_ORDER_CLUSTER_UNIT_LIMIT
+        ):
+            clusters.append(tuple(current_units))
+            current_units = []
+        current_units.append(unit)
+        current_key = unit_key
+    if current_units:
+        clusters.append(tuple(current_units))
+    return tuple(clusters)
+
+
+def _topic_cluster_key(unit: ExtractedUnit) -> str:
+    heading_terms = _tokens(unit.heading_path)
+    if heading_terms:
+        return " ".join(heading_terms[:2])
+    text_terms = _top_terms(unit.text, 2)
+    if text_terms:
+        return " ".join(text_terms)
+    return unit.unit_id
+
+
+def _render_topic_clusters(
+    clusters: tuple[tuple[ExtractedUnit, ...], ...],
+    claims: tuple[CandidateClaim, ...],
+    topics: tuple[CandidateTopic, ...],
+    source_claim_groups: tuple[SourceClaimGroup, ...],
+) -> tuple[TopicCluster, ...]:
+    claim_ids_by_unit = _claim_ids_by_unit(claims)
+    group_ids_by_unit = _source_claim_group_ids_by_unit(source_claim_groups)
+    topic_ids_by_label = _topic_ids_by_label(topics)
     result = []
-    for idx, (cluster_units, _) in enumerate(clusters, start=1):
+    for idx, cluster_units in enumerate(clusters, start=1):
         text = " ".join(unit.heading_path + " " + unit.text for unit in cluster_units)
-        label = _top_terms(text, 1)[0] if _top_terms(text, 1) else cluster_units[0].heading_path
+        top_terms = _top_terms(text, 1)
+        label = top_terms[0] if top_terms else cluster_units[0].heading_path
         unit_ids = tuple(unit.unit_id for unit in cluster_units)
-        related_source_claim_groups = tuple(
-            group.source_claim_group_id
-            for group in source_claim_groups
-            if set(group.extracted_units) & set(unit_ids)
+        related_source_claim_groups = _dedupe(
+            group_id
+            for unit_id in unit_ids
+            for group_id in group_ids_by_unit.get(unit_id, ())
+        )
+        candidate_claims = _dedupe(
+            claim_id for unit_id in unit_ids for claim_id in claim_ids_by_unit.get(unit_id, ())
         )
         result.append(
             TopicCluster(
                 cluster_id=f"cluster-{idx}",
                 label=label,
                 extracted_units=unit_ids,
-                candidate_claims=tuple(
-                    claim.claim_id
-                    for claim in claims
-                    if any(_claim_id_mentions_unit(claim.claim_id, unit_id) for unit_id in unit_ids)
-                ),
-                candidate_topics=tuple(topic.topic_id for topic in topics if topic.label == label),
+                candidate_claims=candidate_claims,
+                candidate_topics=topic_ids_by_label.get(label, ()),
                 source_claim_groups=related_source_claim_groups,
             )
         )
+    return tuple(result)
+
+
+def _claim_ids_by_unit(claims: tuple[CandidateClaim, ...]) -> dict[str, tuple[str, ...]]:
+    grouped: dict[str, list[str]] = {}
+    for claim in claims:
+        unit_id = _unit_id_from_claim_id(claim.claim_id)
+        if not unit_id:
+            continue
+        grouped.setdefault(unit_id, []).append(claim.claim_id)
+    return {unit_id: tuple(claim_ids) for unit_id, claim_ids in grouped.items()}
+
+
+def _unit_id_from_claim_id(claim_id: str) -> str | None:
+    for prefix in ("claim-source-claim-", "source-claim-"):
+        if not claim_id.startswith(prefix):
+            continue
+        suffix_start = claim_id.rfind("-")
+        if suffix_start <= len(prefix):
+            return None
+        return claim_id[len(prefix) : suffix_start]
+    return None
+
+
+def _source_claim_group_ids_by_unit(
+    source_claim_groups: tuple[SourceClaimGroup, ...],
+) -> dict[str, tuple[str, ...]]:
+    grouped: dict[str, list[str]] = {}
+    for group in source_claim_groups:
+        for unit_id in group.extracted_units:
+            grouped.setdefault(unit_id, []).append(group.source_claim_group_id)
+    return {unit_id: tuple(group_ids) for unit_id, group_ids in grouped.items()}
+
+
+def _topic_ids_by_label(topics: tuple[CandidateTopic, ...]) -> dict[str, tuple[str, ...]]:
+    grouped: dict[str, list[str]] = {}
+    for topic in topics:
+        grouped.setdefault(topic.label, []).append(topic.topic_id)
+    return {label: tuple(topic_ids) for label, topic_ids in grouped.items()}
+
+
+def _dedupe(values: Iterable[str]) -> tuple[str, ...]:
+    result: list[str] = []
+    seen: set[str] = set()
+    for value in values:
+        if not isinstance(value, str) or value in seen:
+            continue
+        result.append(value)
+        seen.add(value)
     return tuple(result)
 
 

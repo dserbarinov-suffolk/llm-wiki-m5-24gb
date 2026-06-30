@@ -14,6 +14,38 @@ def _page(page_id: str, page_body: str) -> str:
     return render_page(WikiPage.from_metadata(metadata, page_body))
 
 
+def test_large_source_topic_clusters_are_bounded_and_traceable() -> None:
+    raw_source = RawSource.from_locator("large-manual.pdf")
+    units = tuple(
+        ExtractedUnit(
+            unit_id=f"unit-{idx:04d}",
+            raw_source=raw_source,
+            locator=f"p.{idx}",
+            heading_path="Chapter Alpha / Procedure",
+            text=(
+                "The procedure defines a repeatable operation. "
+                f"Step {idx} records one observable requirement."
+            ),
+            extraction_status="ok",
+        )
+        for idx in range(1, 246)
+    )
+
+    plan = build_page_plan(
+        plan_id="test-plan",
+        source_bundle=SourceBundle.one(raw_source),
+        raw_source=raw_source,
+        extracted_units=units,
+        existing_pages={},
+        wiki_structure=LOCAL_FLAT_STRUCTURE,
+        today="2026-06-30",
+    )
+
+    assert max(len(cluster.extracted_units) for cluster in plan.topic_clusters) <= 12
+    assert all(cluster.candidate_claims for cluster in plan.topic_clusters)
+    assert all(cluster.source_claim_groups for cluster in plan.topic_clusters)
+
+
 def test_existing_source_section_slug_wins_over_semantic_match() -> None:
     raw_source = RawSource.from_locator("book.pdf")
     unit = ExtractedUnit(

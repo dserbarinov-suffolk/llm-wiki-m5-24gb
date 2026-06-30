@@ -1,0 +1,43 @@
+---
+page_id: sword-world-rpg-complete-edition-gems
+page_kind: concept
+summary: Gems: 2 statement(s) and 1 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+page_family: topic-concept
+sources: raw/Sword World RPG - Complete Edition.pdf
+updated: 2026-06-30
+domain: sword-world-rpg-complete-edition
+category_path: concepts
+projection_coverage: topic-sword-world-rpg-complete-edition-gems@c398d5572b291e7434683be42d47c0c8
+---
+
+# Gems
+
+What [[sword-world-rpg-complete-edition]] covers about gems:
+
+## Statements
+
+### Treasure Types / Gems and Precious Metals
+
+- This refers to wares and handicrafts, etc., made from gems and precious metals. These include crowns, rings, brooches, earrings, necklaces, bracelets, etc., and other accessories that are made with gems or precious metals. This kind of treasure can be judged as treasure or junk by using the thief skill and sage skill's treasure appraisal ability. If you spend enough time, you can determine a specific price. Naturally, merchants who deal with this kind of item can also determine the price. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-08918))_
+
+
+## Technical atoms
+
+### Technical frame 1: Treasure Types / Gems and Precious Metals
+
+**Context:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-08919))_
+
+> The lowest value is 10 silver coins, and the highest quality are worth around 10,000 silver coins.
+
+**Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-08918))_
+
+> If you spend enough time, you can determine a specific price.
+
+
+## Related pages
+
+- [[sword-world-rpg-complete-edition-precious-metal]] - shared statements and technical atoms: Precious Metal shares source evidence from Treasure Types / Gems and Precious Metals: This refers to wares and handicrafts, etc., made from gems and precious metals. These include crowns, rings, brooches, earrings, necklaces, bracelets, etc., and othe ... [truncated]; Precious Metal shares technical record from Treasure Types / Gems and Precious Metals: If you spend enough time, you can determine a specific price. (2 shared statement(s), 1 shared atom(s))
+
+## Source
+
+- [[sword-world-rpg-complete-edition]]
