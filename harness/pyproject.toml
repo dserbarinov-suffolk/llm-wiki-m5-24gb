@@ -59,6 +59,7 @@ follow_untyped_imports = true
 [[tool.mypy.overrides]]
 module = ["Foundation", "Vision", "Quartz"]
 ignore_missing_imports = true
+disable_error_code = ["import-untyped"]
 
 [[tool.mypy.overrides]]
 module = ["docling.*", "docling_core.*"]
