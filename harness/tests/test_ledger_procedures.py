@@ -23,12 +23,14 @@ def test_procedure_guides_surface_ordered_task_sections() -> None:
                 "scores",
                 "If choosing a mixed heritage, validate any skill restrictions.",
                 range_id="range-score-choice",
+                conditional=True,
             ),
             _entry(
                 "score-choice-b",
                 "scores",
                 "If choosing a mixed heritage, validate any skill restrictions.",
                 range_id="range-score-choice",
+                conditional=True,
             ),
             _entry("skills", "skills", "Then spend experience points to increase skills."),
             _entry(
@@ -159,7 +161,14 @@ def _structure() -> DocumentStructure:
     )
 
 
-def _entry(entry_id: str, node_id: str, text: str, *, range_id: str | None = None) -> LedgerEntry:
+def _entry(
+    entry_id: str,
+    node_id: str,
+    text: str,
+    *,
+    range_id: str | None = None,
+    conditional: bool = False,
+) -> LedgerEntry:
     return LedgerEntry(
         ledger_entry_id=entry_id,
         source_statement_id=f"statement-{entry_id}",
@@ -179,6 +188,8 @@ def _entry(entry_id: str, node_id: str, text: str, *, range_id: str | None = Non
         object_value=text,
         polarity="positive",
         claim_force="asserted",
+        condition_scope="conditional" if conditional else "",
+        condition_text=text if conditional else "",
     )
 
 

@@ -4,7 +4,7 @@ page_kind: concept
 summary: Expression Coffee: 2 statement(s) and 1 atom(s) from raw/javascriptallonge.pdf.
 page_family: topic-concept
 sources: raw/javascriptallonge.pdf
-updated: 2026-06-30
+updated: 2026-07-01
 domain: javascriptallonge
 category_path: concepts
 projection_coverage: topic-javascriptallonge-expression-coffee@f6ae35515f231b494302e49833e36f55

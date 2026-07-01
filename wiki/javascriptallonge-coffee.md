@@ -4,7 +4,7 @@ page_kind: concept
 summary: Coffee: 5 statement(s) and 5 atom(s) from raw/javascriptallonge.pdf.
 page_family: broad-topic
 sources: raw/javascriptallonge.pdf
-updated: 2026-06-30
+updated: 2026-07-01
 domain: javascriptallonge
 category_path: concepts
 projection_coverage: topic-javascriptallonge-coffee@850676f6b4948e62722f3e1f2248c09d

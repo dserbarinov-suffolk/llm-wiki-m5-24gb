@@ -1,7 +1,7 @@
 # Index
 
 ## Sources
-- [[javascriptallonge]] — Claim-ledger projection (coding): 2043 usable entries, 661 technical atoms, 373 needs-review, 286 linked page(s); write decision write-with-review-work.
+- [[javascriptallonge]] — Claim-ledger projection (coding): 2043 usable entries, 661 technical atoms, 373 needs-review, 382 linked page(s); write decision write-with-review-work.
 - [[javascriptallonge-section-a-pull-of-the-lever-prefaces-about-javascript-allong-b566e707]] — A Pull of the Lever: Prefaces / About JavaScript Allongé: 49 source-backed entries and 1 atom(s) from raw/javascriptallonge.pdf.
 - [[javascriptallonge-section-a-pull-of-the-lever-prefaces-about-javascript-allong-that-s-nice-is-that-the-only-reason-fdd15849]] — A Pull of the Lever: Prefaces / About JavaScript Allongé / that's nice. is that the only reason?: 14 source-backed entries and 0 atom(s) from raw/javascriptallonge.pdf.
 - [[javascriptallonge-section-a-pull-of-the-lever-prefaces-about-javascript-allong-why-the-six-edition-35c3fb78]] — A Pull of the Lever: Prefaces / About JavaScript Allongé / why the 'six' edition?: 28 source-backed entries and 0 atom(s) from raw/javascriptallonge.pdf.
@@ -206,7 +206,7 @@
 - [[javascriptallonge-section-the-golden-crema-appendices-and-afterwords-thanks-daniel-friedman-and-matthias-felleisen-328936ab]] — The Golden Crema: Appendices and Afterwords / Thanks! / Daniel Friedman and Matthias Felleisen: 2 source-backed entries and 0 atom(s) from raw/javascriptallonge.pdf.
 - [[javascriptallonge-section-the-golden-crema-appendices-and-afterwords-thanks-richard-feynman-aacee893]] — The Golden Crema: Appendices and Afterwords / Thanks! / Richard Feynman: 3 source-backed entries and 0 atom(s) from raw/javascriptallonge.pdf.
 - [[javascriptallonge-section-yes-consider-this-variation-db4ad8a2]] — Yes. Consider this variation:: 16 source-backed entries and 0 atom(s) from raw/javascriptallonge.pdf.
-- [[sword-world-rpg-complete-edition]] — Claim-ledger projection (rules-reference): 12209 usable entries, 4693 technical atoms, 907 needs-review, 1280 linked page(s); write decision write-with-review-work.
+- [[sword-world-rpg-complete-edition]] — Claim-ledger projection (rules-reference): 12209 usable entries, 4693 technical atoms, 907 needs-review, 1295 linked page(s); write decision write-with-review-work.
 - [[sword-world-rpg-complete-edition-section-1-2-races-4e414960]] — 1.2 Races: 140 source-backed entries and 1 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
 - [[sword-world-rpg-complete-edition-section-1-2-races-elf-f299994c]] — 1.2 Races / 【 Elf 】: 13 source-backed entries and 0 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
 - [[sword-world-rpg-complete-edition-section-1-2-races-grassrunner-e4946bfe]] — 1.2 Races / 【 Grassrunner 】: 19 source-backed entries and 0 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
@@ -1575,6 +1575,119 @@
 - [[sword-world-rpg-complete-edition-procedure-excellent-weapons-and-armor]] — Complete Excellent Weapons and Armor: 4 ordered step(s), 10 decision point(s), and 47 table/formula/example reference(s) from raw/Sword World RPG - Complete Edition.pdf.
 - [[sword-world-rpg-complete-edition-procedure-horse]] — Complete [ Horse ]: 9 ordered step(s), 33 decision point(s), and 1199 table/formula/example reference(s) from raw/Sword World RPG - Complete Edition.pdf.
 - [[sword-world-rpg-complete-edition-procedure-unconscious-and-death-checks]] — Complete Unconscious and Death Checks: 4 ordered step(s), 5 decision point(s), and 9 table/formula/example reference(s) from raw/Sword World RPG - Complete Edition.pdf.
+
+## Recipes
+- [[javascriptallonge-recipe-a-history-lesson]] — a history lesson: reusable source-backed pattern with 2 statement(s) and 3 technical atom(s) from raw/javascriptallonge.pdf.
+- [[javascriptallonge-recipe-a-look-back-at-functional-iterators]] — a look back at functional iterators: reusable source-backed pattern with 4 statement(s) and 6 technical atom(s) from raw/javascriptallonge.pdf.
+- [[javascriptallonge-recipe-a-return-to-backward-thinking]] — a return to backward thinking: reusable source-backed pattern with 16 statement(s) and 3 technical atom(s) from raw/javascriptallonge.pdf.
+- [[javascriptallonge-recipe-after-another-drink]] — after another drink: reusable source-backed pattern with 5 statement(s) and 2 technical atom(s) from raw/javascriptallonge.pdf.
+- [[javascriptallonge-recipe-applying-functions]] — applying functions: reusable source-backed pattern with 4 statement(s) and 2 technical atom(s) from raw/javascriptallonge.pdf.
+- [[javascriptallonge-recipe-are-consts-also-from-a-shadowy-planet]] — are consts also from a shadowy planet?: reusable source-backed pattern with 16 statement(s) and 10 technical atom(s) from raw/javascriptallonge.pdf.
+- [[javascriptallonge-recipe-array-literals]] — array literals: reusable source-backed pattern with 5 statement(s) and 6 technical atom(s) from raw/javascriptallonge.pdf.
+- [[javascriptallonge-recipe-back-on-the-block]] — back on the block: reusable source-backed pattern with 5 statement(s) and 3 technical atom(s) from raw/javascriptallonge.pdf.
+- [[javascriptallonge-recipe-backwardness]] — backwardness: reusable source-backed pattern with 4 statement(s) and 3 technical atom(s) from raw/javascriptallonge.pdf.
+- [[javascriptallonge-recipe-bonus]] — bonus: reusable source-backed pattern with 6 statement(s) and 2 technical atom(s) from raw/javascriptallonge.pdf.
+- [[javascriptallonge-recipe-building-with-mutation]] — building with mutation: reusable source-backed pattern with 5 statement(s) and 4 technical atom(s) from raw/javascriptallonge.pdf.
+- [[javascriptallonge-recipe-call-by-sharing]] — call by sharing: reusable source-backed pattern with 11 statement(s) and 1 technical atom(s) from raw/javascriptallonge.pdf.
+- [[javascriptallonge-recipe-commas]] — commas: reusable source-backed pattern with 1 statement(s) and 3 technical atom(s) from raw/javascriptallonge.pdf.
+- [[javascriptallonge-recipe-composition]] — composition: reusable source-backed pattern with 8 statement(s) and 3 technical atom(s) from raw/javascriptallonge.pdf.
+- [[javascriptallonge-recipe-const]] — const: reusable source-backed pattern with 11 statement(s) and 9 technical atom(s) from raw/javascriptallonge.pdf.
+- [[javascriptallonge-recipe-const-and-lexical-scope]] — const and lexical scope: reusable source-backed pattern with 8 statement(s) and 4 technical atom(s) from raw/javascriptallonge.pdf.
+- [[javascriptallonge-recipe-converting-non-tail-calls-to-tail-calls]] — converting non-tail-calls to tail-calls: reusable source-backed pattern with 5 statement(s) and 5 technical atom(s) from raw/javascriptallonge.pdf.
+- [[javascriptallonge-recipe-copy-on-read]] — copy-on-read: reusable source-backed pattern with 7 statement(s) and 1 technical atom(s) from raw/javascriptallonge.pdf.
+- [[javascriptallonge-recipe-copy-on-write]] — copy-on-write: reusable source-backed pattern with 7 statement(s) and 3 technical atom(s) from raw/javascriptallonge.pdf.
+- [[javascriptallonge-recipe-default-arguments]] — default arguments: reusable source-backed pattern with 5 statement(s) and 3 technical atom(s) from raw/javascriptallonge.pdf.
+- [[javascriptallonge-recipe-destructuring-arrays]] — destructuring arrays: reusable source-backed pattern with 4 statement(s) and 5 technical atom(s) from raw/javascriptallonge.pdf.
+- [[javascriptallonge-recipe-destructuring-is-not-pattern-matching]] — destructuring is not pattern matching: reusable source-backed pattern with 7 statement(s) and 3 technical atom(s) from raw/javascriptallonge.pdf.
+- [[javascriptallonge-recipe-destructuring-objects]] — destructuring objects: reusable source-backed pattern with 2 statement(s) and 5 technical atom(s) from raw/javascriptallonge.pdf.
+- [[javascriptallonge-recipe-destructuring-parameters]] — destructuring parameters: reusable source-backed pattern with 3 statement(s) and 3 technical atom(s) from raw/javascriptallonge.pdf.
+- [[javascriptallonge-recipe-eager-collections]] — eager collections: reusable source-backed pattern with 4 statement(s) and 5 technical atom(s) from raw/javascriptallonge.pdf.
+- [[javascriptallonge-recipe-element-references]] — element references: reusable source-backed pattern with 3 statement(s) and 2 technical atom(s) from raw/javascriptallonge.pdf.
+- [[javascriptallonge-recipe-factorials]] — factorials: reusable source-backed pattern with 4 statement(s) and 4 technical atom(s) from raw/javascriptallonge.pdf.
+- [[javascriptallonge-recipe-floating]] — floating: reusable source-backed pattern with 8 statement(s) and 3 technical atom(s) from raw/javascriptallonge.pdf.
+- [[javascriptallonge-recipe-folding]] — folding: reusable source-backed pattern with 2 statement(s) and 6 technical atom(s) from raw/javascriptallonge.pdf.
+- [[javascriptallonge-recipe-from]] — from: reusable source-backed pattern with 7 statement(s) and 3 technical atom(s) from raw/javascriptallonge.pdf.
+- [[javascriptallonge-recipe-function-declaration-caveats-34]] — function declaration caveats 34: reusable source-backed pattern with 7 statement(s) and 2 technical atom(s) from raw/javascriptallonge.pdf.
+- [[javascriptallonge-recipe-function-declarations]] — function declarations: reusable source-backed pattern with 8 statement(s) and 6 technical atom(s) from raw/javascriptallonge.pdf.
+- [[javascriptallonge-recipe-function-decorators]] — function decorators: reusable source-backed pattern with 3 statement(s) and 4 technical atom(s) from raw/javascriptallonge.pdf.
+- [[javascriptallonge-recipe-functions-that-evaluate-to-functions]] — functions that evaluate to functions: reusable source-backed pattern with 4 statement(s) and 4 technical atom(s) from raw/javascriptallonge.pdf.
+- [[javascriptallonge-recipe-functions-that-return-values-and-evaluate-expressions]] — functions that return values and evaluate expressions: reusable source-backed pattern with 6 statement(s) and 4 technical atom(s) from raw/javascriptallonge.pdf.
+- [[javascriptallonge-recipe-gathering]] — gathering: reusable source-backed pattern with 5 statement(s) and 3 technical atom(s) from raw/javascriptallonge.pdf.
+- [[javascriptallonge-recipe-generators-and-iterables]] — generators and iterables: reusable source-backed pattern with 7 statement(s) and 2 technical atom(s) from raw/javascriptallonge.pdf.
+- [[javascriptallonge-recipe-generators-are-coroutines]] — generators are coroutines: reusable source-backed pattern with 22 statement(s) and 2 technical atom(s) from raw/javascriptallonge.pdf.
+- [[javascriptallonge-recipe-how-to-run-the-examples]] — How to run the examples: reusable source-backed pattern with 8 statement(s) and 6 technical atom(s) from raw/javascriptallonge.pdf.
+- [[javascriptallonge-recipe-implementing-methods-with-iteration]] — implementing methods with iteration: reusable source-backed pattern with 6 statement(s) and 8 technical atom(s) from raw/javascriptallonge.pdf.
+- [[javascriptallonge-recipe-inside-out]] — inside-out: reusable source-backed pattern with 11 statement(s) and 6 technical atom(s) from raw/javascriptallonge.pdf.
+- [[javascriptallonge-recipe-interactive-generators]] — interactive generators: reusable source-backed pattern with 6 statement(s) and 1 technical atom(s) from raw/javascriptallonge.pdf.
+- [[javascriptallonge-recipe-it-s-always-the-environment]] — it's always the environment: reusable source-backed pattern with 11 statement(s) and 4 technical atom(s) from raw/javascriptallonge.pdf.
+- [[javascriptallonge-recipe-iterables]] — iterables: reusable source-backed pattern with 16 statement(s) and 5 technical atom(s) from raw/javascriptallonge.pdf.
+- [[javascriptallonge-recipe-iterables-out-to-infinity]] — iterables out to infinity: reusable source-backed pattern with 2 statement(s) and 2 technical atom(s) from raw/javascriptallonge.pdf.
+- [[javascriptallonge-recipe-iterating]] — iterating: reusable source-backed pattern with 9 statement(s) and 6 technical atom(s) from raw/javascriptallonge.pdf.
+- [[javascriptallonge-recipe-javascript-s-generators]] — javascript's generators: reusable source-backed pattern with 9 statement(s) and 4 technical atom(s) from raw/javascriptallonge.pdf.
+- [[javascriptallonge-recipe-lazy-collection-operations]] — lazy collection operations: reusable source-backed pattern with 11 statement(s) and 5 technical atom(s) from raw/javascriptallonge.pdf.
+- [[javascriptallonge-recipe-left-variadic-destructuring]] — left-variadic destructuring: reusable source-backed pattern with 3 statement(s) and 4 technical atom(s) from raw/javascriptallonge.pdf.
+- [[javascriptallonge-recipe-linear-recursion]] — linear recursion: reusable source-backed pattern with 19 statement(s) and 2 technical atom(s) from raw/javascriptallonge.pdf.
+- [[javascriptallonge-recipe-lists-with-functions-as-data]] — lists with functions as data: reusable source-backed pattern with 4 statement(s) and 5 technical atom(s) from raw/javascriptallonge.pdf.
+- [[javascriptallonge-recipe-literal-object-syntax]] — literal object syntax: reusable source-backed pattern with 8 statement(s) and 10 technical atom(s) from raw/javascriptallonge.pdf.
+- [[javascriptallonge-recipe-magic-names-and-fat-arrows]] — magic names and fat arrows: reusable source-backed pattern with 17 statement(s) and 4 technical atom(s) from raw/javascriptallonge.pdf.
+- [[javascriptallonge-recipe-mapping]] — mapping: reusable source-backed pattern with 3 statement(s) and 4 technical atom(s) from raw/javascriptallonge.pdf.
+- [[javascriptallonge-recipe-mapwith]] — mapWith: reusable source-backed pattern with 8 statement(s) and 7 technical atom(s) from raw/javascriptallonge.pdf.
+- [[javascriptallonge-recipe-maybe]] — Maybe: reusable source-backed pattern with 5 statement(s) and 6 technical atom(s) from raw/javascriptallonge.pdf.
+- [[javascriptallonge-recipe-more-generators]] — more generators: reusable source-backed pattern with 3 statement(s) and 6 technical atom(s) from raw/javascriptallonge.pdf.
+- [[javascriptallonge-recipe-mutation-and-data-structures]] — mutation and data structures: reusable source-backed pattern with 8 statement(s) and 4 technical atom(s) from raw/javascriptallonge.pdf.
+- [[javascriptallonge-recipe-nested-blocks]] — nested blocks: reusable source-backed pattern with 4 statement(s) and 5 technical atom(s) from raw/javascriptallonge.pdf.
+- [[javascriptallonge-recipe-object-assign]] — Object.assign: reusable source-backed pattern with 1 statement(s) and 7 technical atom(s) from raw/javascriptallonge.pdf.
+- [[javascriptallonge-recipe-once]] — Once: reusable source-backed pattern with 4 statement(s) and 2 technical atom(s) from raw/javascriptallonge.pdf.
+- [[javascriptallonge-recipe-operations-on-ordered-collections]] — operations on ordered collections: reusable source-backed pattern with 18 statement(s) and 8 technical atom(s) from raw/javascriptallonge.pdf.
+- [[javascriptallonge-recipe-ordered-collections]] — ordered collections: reusable source-backed pattern with 9 statement(s) and 2 technical atom(s) from raw/javascriptallonge.pdf.
+- [[javascriptallonge-recipe-partial-application]] — partial application: reusable source-backed pattern with 9 statement(s) and 5 technical atom(s) from raw/javascriptallonge.pdf.
+- [[javascriptallonge-recipe-partial-application-80bc1196]] — Partial Application: reusable source-backed pattern with 5 statement(s) and 2 technical atom(s) from raw/javascriptallonge.pdf.
+- [[javascriptallonge-recipe-quasi-literals]] — quasi-literals: reusable source-backed pattern with 6 statement(s) and 4 technical atom(s) from raw/javascriptallonge.pdf.
+- [[javascriptallonge-recipe-rebinding]] — rebinding: reusable source-backed pattern with 3 statement(s) and 2 technical atom(s) from raw/javascriptallonge.pdf.
+- [[javascriptallonge-recipe-recursive-iterators]] — recursive iterators: reusable source-backed pattern with 7 statement(s) and 2 technical atom(s) from raw/javascriptallonge.pdf.
+- [[javascriptallonge-recipe-reference-types]] — reference types: reusable source-backed pattern with 6 statement(s) and 2 technical atom(s) from raw/javascriptallonge.pdf.
+- [[javascriptallonge-recipe-representing-naughts-and-crosses-as-a-stateful-function]] — representing naughts and crosses as a stateful function: reusable source-backed pattern with 3 statement(s) and 3 technical atom(s) from raw/javascriptallonge.pdf.
+- [[javascriptallonge-recipe-revisiting-linked-lists]] — revisiting linked lists: reusable source-backed pattern with 13 statement(s) and 6 technical atom(s) from raw/javascriptallonge.pdf.
+- [[javascriptallonge-recipe-rewriting-iterable-operations]] — rewriting iterable operations: reusable source-backed pattern with 5 statement(s) and 5 technical atom(s) from raw/javascriptallonge.pdf.
+- [[javascriptallonge-recipe-say-please]] — say 'please': reusable source-backed pattern with 5 statement(s) and 5 technical atom(s) from raw/javascriptallonge.pdf.
+- [[javascriptallonge-recipe-shadowy-variables-from-a-shadowy-planet]] — shadowy variables from a shadowy planet: reusable source-backed pattern with 8 statement(s) and 2 technical atom(s) from raw/javascriptallonge.pdf.
+- [[javascriptallonge-recipe-some-history]] — some history: reusable source-backed pattern with 17 statement(s) and 6 technical atom(s) from raw/javascriptallonge.pdf.
+- [[javascriptallonge-recipe-tail-call-optimization]] — tail-call optimization: reusable source-backed pattern with 11 statement(s) and 2 technical atom(s) from raw/javascriptallonge.pdf.
+- [[javascriptallonge-recipe-tap]] — Tap: reusable source-backed pattern with 4 statement(s) and 3 technical atom(s) from raw/javascriptallonge.pdf.
+- [[javascriptallonge-recipe-the-carpenter-s-solution]] — the carpenter's solution: reusable source-backed pattern with 12 statement(s) and 7 technical atom(s) from raw/javascriptallonge.pdf.
+- [[javascriptallonge-recipe-the-function-keyword]] — the function keyword: reusable source-backed pattern with 17 statement(s) and 13 technical atom(s) from raw/javascriptallonge.pdf.
+- [[javascriptallonge-recipe-the-function-keyword-b21492ad]] — the function keyword: reusable source-backed pattern with 6 statement(s) and 4 technical atom(s) from raw/javascriptallonge.pdf.
+- [[javascriptallonge-recipe-the-kestrel-and-the-idiot]] — the kestrel and the idiot: reusable source-backed pattern with 7 statement(s) and 6 technical atom(s) from raw/javascriptallonge.pdf.
+- [[javascriptallonge-recipe-the-vireo]] — the vireo: reusable source-backed pattern with 8 statement(s) and 4 technical atom(s) from raw/javascriptallonge.pdf.
+- [[javascriptallonge-recipe-tortoises-hares-and-teleporting-turtles]] — Tortoises, Hares, and Teleporting Turtles: reusable source-backed pattern with 8 statement(s) and 3 technical atom(s) from raw/javascriptallonge.pdf.
+- [[javascriptallonge-recipe-truthiness-and-operators]] — truthiness and operators: reusable source-backed pattern with 8 statement(s) and 2 technical atom(s) from raw/javascriptallonge.pdf.
+- [[javascriptallonge-recipe-truthiness-and-the-ternary-operator]] — truthiness and the ternary operator: reusable source-backed pattern with 13 statement(s) and 1 technical atom(s) from raw/javascriptallonge.pdf.
+- [[javascriptallonge-recipe-unary]] — Unary: reusable source-backed pattern with 6 statement(s) and 5 technical atom(s) from raw/javascriptallonge.pdf.
+- [[javascriptallonge-recipe-undefined]] — undefined: reusable source-backed pattern with 8 statement(s) and 3 technical atom(s) from raw/javascriptallonge.pdf.
+- [[javascriptallonge-recipe-unfolding-and-laziness]] — unfolding and laziness: reusable source-backed pattern with 6 statement(s) and 8 technical atom(s) from raw/javascriptallonge.pdf.
+- [[javascriptallonge-recipe-var]] — var: reusable source-backed pattern with 7 statement(s) and 6 technical atom(s) from raw/javascriptallonge.pdf.
+- [[javascriptallonge-recipe-variables-and-bindings]] — variables and bindings: reusable source-backed pattern with 15 statement(s) and 2 technical atom(s) from raw/javascriptallonge.pdf.
+- [[javascriptallonge-recipe-why]] — Why?: reusable source-backed pattern with 6 statement(s) and 3 technical atom(s) from raw/javascriptallonge.pdf.
+- [[javascriptallonge-recipe-why-const-and-let-were-invented]] — why const and let were invented: reusable source-backed pattern with 10 statement(s) and 1 technical atom(s) from raw/javascriptallonge.pdf.
+- [[javascriptallonge-recipe-why-the-six-edition]] — why the 'six' edition?: reusable source-backed pattern with 15 statement(s) and 6 technical atom(s) from raw/javascriptallonge.pdf.
+- [[javascriptallonge-recipe-will-be-represented-as]] — Will be represented as: reusable source-backed pattern with 2 statement(s) and 3 technical atom(s) from raw/javascriptallonge.pdf.
+- [[javascriptallonge-recipe-yes-consider-this-variation]] — Yes. Consider this variation: reusable source-backed pattern with 9 statement(s) and 6 technical atom(s) from raw/javascriptallonge.pdf.
+- [[javascriptallonge-recipe-yielding-iterables]] — yielding iterables: reusable source-backed pattern with 6 statement(s) and 8 technical atom(s) from raw/javascriptallonge.pdf.
+- [[sword-world-rpg-complete-edition-recipe-18-1-rules-for-awarding-greater-experience-points]] — 18.1 Rules for Awarding Greater Experience Points: reusable source-backed pattern with 9 statement(s) and 1 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-recipe-3-2-1-delaying-an-action]] — 3.2.1 Delaying an Action: reusable source-backed pattern with 7 statement(s) and 1 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-recipe-3-2-action-order]] — 3.2 Action Order: reusable source-backed pattern with 13 statement(s) and 1 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-recipe-area]] — 《 Area 》: reusable source-backed pattern with 4 statement(s) and 1 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-recipe-boomerang]] — Boomerang: reusable source-backed pattern with 2 statement(s) and 1 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-recipe-folklore-knowledge-intelligence-not-retriable]] — [ ⑤ Folklore Knowledge [Intelligence] ] (Not retriable): reusable source-backed pattern with 1 statement(s) and 1 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-recipe-full-control-spirit-various-lesser-spirits]] — [ Full Control Spirit ] (Various lesser spirits): reusable source-backed pattern with 2 statement(s) and 1 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-recipe-how-to-read-the-monster-catalog]] — How to Read the Monster Catalog: reusable source-backed pattern with 1 statement(s) and 1 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-recipe-perception]] — 《 Perception 》: reusable source-backed pattern with 15 statement(s) and 1 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-recipe-protective-circle]] — [ Protective Circle ]: reusable source-backed pattern with 5 statement(s) and 1 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-recipe-reaction]] — 《 Reaction 》: reusable source-backed pattern with 16 statement(s) and 1 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-recipe-riding-agility]] — [ ① Riding [Agility] ]: reusable source-backed pattern with 4 statement(s) and 1 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-recipe-rules-for-sleeping-monsters]] — Rules for Sleeping Monsters: reusable source-backed pattern with 15 statement(s) and 1 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-recipe-swim-agility]] — [ ② Swim [Agility] ]: reusable source-backed pattern with 12 statement(s) and 1 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-recipe-the-meaning-of-the-rulebook]] — The Meaning of the Rulebook: reusable source-backed pattern with 21 statement(s) and 2 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
 
 ## Syntheses
 - [[wiki-health]] — Wiki health report from the latest lint pass (2026-06-30).

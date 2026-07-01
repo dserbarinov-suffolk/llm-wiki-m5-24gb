@@ -4,7 +4,7 @@ page_kind: concept
 summary: Ecmascript: 11 statement(s) and 8 atom(s) from raw/javascriptallonge.pdf.
 page_family: topic-concept
 sources: raw/javascriptallonge.pdf
-updated: 2026-06-30
+updated: 2026-07-01
 domain: javascriptallonge
 category_path: concepts
 projection_coverage: topic-javascriptallonge-ecmascript@e11f807bcbad43c553594ec89685798a

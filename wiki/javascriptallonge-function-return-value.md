@@ -4,7 +4,7 @@ page_kind: concept
 summary: Function Return Value: 1 statement(s) and 2 atom(s) from raw/javascriptallonge.pdf.
 page_family: topic-concept
 sources: raw/javascriptallonge.pdf
-updated: 2026-06-30
+updated: 2026-07-01
 domain: javascriptallonge
 category_path: concepts
 projection_coverage: topic-javascriptallonge-function-return-value@7ef9262c9f0564046b3bf3d603a2f55c

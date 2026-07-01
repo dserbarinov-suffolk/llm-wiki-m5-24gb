@@ -15,6 +15,7 @@ _FOCUSED_PAGE_FAMILIES = frozenset(
         "section-reference",
         "topic-concept",
         "procedure-guide",
+        "recipe-pattern",
         "entity-profile",
         "cross-source-synthesis",
     }

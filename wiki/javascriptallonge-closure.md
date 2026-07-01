@@ -4,7 +4,7 @@ page_kind: concept
 summary: Closure: 5 statement(s) and 2 atom(s) from raw/javascriptallonge.pdf.
 page_family: topic-concept
 sources: raw/javascriptallonge.pdf
-updated: 2026-06-30
+updated: 2026-07-01
 domain: javascriptallonge
 category_path: concepts
 projection_coverage: topic-javascriptallonge-closure@a9a8358e0930932d0f0726e4d9bf3f67

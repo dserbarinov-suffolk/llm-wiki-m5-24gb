@@ -5,6 +5,7 @@ from __future__ import annotations
 from llmwiki.domain.ledger.atoms import TechnicalAtom
 from llmwiki.domain.ledger.canonical import short_digest
 from llmwiki.domain.ledger.entries import LedgerEntry
+from llmwiki.domain.ledger.knowledge_shapes import KnowledgeShapeCatalog
 from llmwiki.domain.ledger.ledger import ClaimLedger
 from llmwiki.domain.ledger.procedure_decisions import DecisionPoint
 from llmwiki.domain.ledger.procedures import (
@@ -27,8 +28,14 @@ def build_procedure_pages(
     source_page_id: str,
     source_locator: str,
     today: str,
+    shape_catalog: KnowledgeShapeCatalog | None = None,
 ) -> tuple[WikiPage, ...]:
-    guides = plan_procedure_guides(ledger, structure, source_page_id=source_page_id)
+    guides = plan_procedure_guides(
+        ledger,
+        structure,
+        source_page_id=source_page_id,
+        shape_catalog=shape_catalog,
+    )
     pages: list[WikiPage] = []
     for guide in guides:
         body = render_procedure_page(guide, source_page_id)

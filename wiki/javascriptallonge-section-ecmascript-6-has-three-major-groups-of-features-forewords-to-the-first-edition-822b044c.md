@@ -4,7 +4,7 @@ page_kind: source
 summary: ECMAScript 6 has three major groups of features: / Forewords to the First Edition: 16 source-backed entries and 1 atom(s) from raw/javascriptallonge.pdf.
 page_family: section-reference
 sources: raw/javascriptallonge.pdf
-updated: 2026-06-30
+updated: 2026-07-01
 domain: javascriptallonge
 category_path: sources/javascriptallonge/sections
 source_id: javascriptallonge.pdf

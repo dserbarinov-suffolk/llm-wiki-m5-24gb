@@ -55,17 +55,18 @@ Entry prefix: `## [YYYY-MM-DD] <op> | <subject>`.
 1. Read the RawSource with `read_source(source_locator=...)`.
 2. Search the wiki for related pages (`search_wiki`, `read_page`).
 3. Write or update a `source` page summarizing the key information.
-4. Build the section plan, topic index, and procedure index from the claim ledger.
-5. Project source-local wiki pages from those artifacts: the source hub, section pages, topic pages, procedure pages, source coverage, and projection coverage.
+4. Build the section plan, topic index, knowledge-shape catalog, and procedure index from the claim ledger.
+5. Project source-local wiki pages from those artifacts: the source hub, section pages, topic pages, procedure pages, recipe pages, source coverage, and projection coverage.
 6. Update every affected `entity`/`concept`/`synthesis` page when model-authored maintenance is explicitly running.
 7. Procedure pages must emerge from source structure, ordered steps, decision points, technical atoms, and table/formula dependencies. Do not use source-specific trigger passages or source-specific shims.
-8. Integrate new facts, add cross-references, and flag contradictions.
-9. Create pages for important entities or concepts that lack one.
-10. Call `finish_ingest` with a short report of what changed.
+8. Recipe pages must emerge from reusable source-backed pattern structure: applicability evidence plus preserved technical atoms. They are not ordered execution workflows.
+9. Integrate new facts, add cross-references, and flag contradictions.
+10. Create pages for important entities or concepts that lack one.
+11. Call `finish_ingest` with a short report of what changed.
 
 ### query
 
-1. Search the wiki (`search_wiki`), then read the relevant pages. For task questions ("how do I...", setup, creation, workflow, or ordered-use questions), prefer `procedure` pages when present.
+1. Search the wiki (`search_wiki`), then read the relevant pages. For task questions ("how do I...", setup, creation, workflow, or ordered-use questions), prefer `procedure` pages when present. For reusable pattern questions, prefer `recipe` pages when present.
 2. If the user asks how to perform a task, explain the procedure from the procedure page.
 3. If the user asks you to perform, create, generate, build, or run the task, apply the procedure: state assumptions for missing choices or random results, use source-provided worked examples when that is the most grounded option, and return concrete outputs or explicit unresolved fields.
 4. Answer from wiki content with page and source citations.

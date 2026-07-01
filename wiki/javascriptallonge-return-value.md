@@ -4,7 +4,7 @@ page_kind: concept
 summary: Return Value: 0 statement(s) and 1 atom(s) from raw/javascriptallonge.pdf.
 page_family: topic-concept
 sources: raw/javascriptallonge.pdf
-updated: 2026-06-30
+updated: 2026-07-01
 domain: javascriptallonge
 category_path: concepts
 projection_coverage: topic-javascriptallonge-return-value@f4e3a8255c2208604175d88314d0d51f

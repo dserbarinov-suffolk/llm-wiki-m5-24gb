@@ -31,7 +31,7 @@ class WritePageParams(BaseModel):
         description="WikiPage page_id as a kebab-case slug. Reuse an existing page_id to update."
     )
     page_kind: str = Field(
-        description="WikiPage page_kind: source, entity, concept, procedure, or synthesis."
+        description="WikiPage page_kind: source, entity, concept, procedure, recipe, or synthesis."
     )
     summary: str = Field(description="One-line summary of the page, used in the wiki index.")
     page_body: str = Field(

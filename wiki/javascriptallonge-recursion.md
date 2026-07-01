@@ -4,7 +4,7 @@ page_kind: concept
 summary: Recursion: 5 statement(s) and 0 atom(s) from raw/javascriptallonge.pdf.
 page_family: topic-concept
 sources: raw/javascriptallonge.pdf
-updated: 2026-06-30
+updated: 2026-07-01
 domain: javascriptallonge
 category_path: concepts
 projection_coverage: topic-javascriptallonge-recursion@165dab7931abda01dde53588f20ca8d6

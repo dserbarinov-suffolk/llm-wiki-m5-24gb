@@ -18,6 +18,7 @@ from llmwiki.domain.ledger.artifacts import (
 )
 from llmwiki.domain.ledger.builder import build_claim_ledger, default_schema_bundle
 from llmwiki.domain.ledger.canonical import deterministic_id, short_digest
+from llmwiki.domain.ledger.knowledge_shapes import build_knowledge_shape_catalog
 from llmwiki.domain.ledger.pointers import (
     claim_ledger_pointer,
     document_structure_pointer,
@@ -38,6 +39,7 @@ from llmwiki.domain.ledger.quality_catalog import (
     default_reason_applicability_policy,
     default_severity_policy,
 )
+from llmwiki.domain.ledger.recipe_pages import build_recipe_pages
 from llmwiki.domain.ledger.renderer import render_source_page
 from llmwiki.domain.ledger.section_navigation import section_links_by_topic
 from llmwiki.domain.ledger.section_pages import build_section_pages
@@ -184,6 +186,7 @@ def build_source_ledger(
     )
 
     section_plan = build_section_grounded_plan(ledger, structure)
+    shape_catalog = build_knowledge_shape_catalog(ledger, structure)
     projection_context = build_projection_context(ledger, structure)
     projection_context_artifact = build_projection_context_artifact(
         source_locator=source_locator,
@@ -242,12 +245,26 @@ def build_source_ledger(
             source_page_id=page_id,
             source_locator=source_locator,
             today=today,
+            shape_catalog=shape_catalog,
         )
-        topic_pages += procedure_pages
+        recipe_pages = build_recipe_pages(
+            ledger,
+            structure,
+            source_page_id=page_id,
+            source_locator=source_locator,
+            today=today,
+            shape_catalog=shape_catalog,
+        )
+        topic_pages += (*procedure_pages, *recipe_pages)
         source_page_body = append_source_page_links(
             rendered.page_body,
             "Procedure Guides",
             procedure_pages,
+        )
+        source_page_body = append_source_page_links(
+            source_page_body,
+            "Recipes",
+            recipe_pages,
         )
         coverage_artifact = build_projection_coverage_artifact(
             wiki_page_locator=page_id,
@@ -279,6 +296,7 @@ def build_source_ledger(
         coverage_artifact=coverage_artifact,
         projection_context_artifact=projection_context_artifact,
         section_plan=section_plan,
+        knowledge_shape_catalog=shape_catalog,
         topic_index=topic_index,
         source_coverage_artifact=source_coverage_artifact,
         blocked=blocked,

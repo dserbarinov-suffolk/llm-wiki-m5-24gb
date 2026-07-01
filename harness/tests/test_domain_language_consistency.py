@@ -81,7 +81,7 @@ def test_domain_frontmatter_uses_page_metadata_field_names() -> None:
 
 
 def test_schema_module_is_the_page_kind_and_metadata_field_source() -> None:
-    assert PAGE_KINDS == ("source", "entity", "concept", "procedure", "synthesis")
+    assert PAGE_KINDS == ("source", "entity", "concept", "procedure", "recipe", "synthesis")
     assert PAGE_METADATA_FIELDS == (
         "PageId",
         "PageKind",

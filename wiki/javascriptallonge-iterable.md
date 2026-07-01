@@ -4,7 +4,7 @@ page_kind: concept
 summary: Iterable: 14 statement(s) and 12 atom(s) from raw/javascriptallonge.pdf.
 page_family: topic-concept
 sources: raw/javascriptallonge.pdf
-updated: 2026-06-30
+updated: 2026-07-01
 domain: javascriptallonge
 category_path: concepts
 projection_coverage: topic-javascriptallonge-iterable@55dc49939f04855a35504080c1d2d83f

@@ -4,7 +4,7 @@ page_kind: concept
 summary: Variable: 3 statement(s) and 3 atom(s) from raw/javascriptallonge.pdf.
 page_family: topic-concept
 sources: raw/javascriptallonge.pdf
-updated: 2026-06-30
+updated: 2026-07-01
 domain: javascriptallonge
 category_path: concepts
 projection_coverage: topic-javascriptallonge-variable@d28277a65aac5aeebb58391483e461f8

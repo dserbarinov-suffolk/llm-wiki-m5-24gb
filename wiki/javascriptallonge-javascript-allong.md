@@ -4,7 +4,7 @@ page_kind: concept
 summary: About JavaScript Allongé: 56 statement(s) and 9 atom(s) from raw/javascriptallonge.pdf.
 page_family: broad-topic
 sources: raw/javascriptallonge.pdf
-updated: 2026-06-30
+updated: 2026-07-01
 domain: javascriptallonge
 category_path: concepts
 projection_coverage: topic-javascriptallonge-javascript-allong@7b1bc3d5ef5d4162f2a0f880314f8d66

@@ -4,7 +4,7 @@ page_kind: concept
 summary: Parameter: 6 statement(s) and 13 atom(s) from raw/javascriptallonge.pdf.
 page_family: topic-concept
 sources: raw/javascriptallonge.pdf
-updated: 2026-06-30
+updated: 2026-07-01
 domain: javascriptallonge
 category_path: concepts
 projection_coverage: topic-javascriptallonge-parameter@f393cab6942c30d89ebdc238ddf51677

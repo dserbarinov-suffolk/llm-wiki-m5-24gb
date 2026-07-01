@@ -4,7 +4,7 @@ page_kind: source
 summary: Served by the Pot: Collections / Iteration and Iterables / operations on ordered collections: 30 source-backed entries and 5 atom(s) from raw/javascriptallonge.pdf.
 page_family: section-reference
 sources: raw/javascriptallonge.pdf
-updated: 2026-06-30
+updated: 2026-07-01
 domain: javascriptallonge
 category_path: sources/javascriptallonge/sections
 source_id: javascriptallonge.pdf

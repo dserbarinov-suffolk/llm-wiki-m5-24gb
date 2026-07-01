@@ -4,7 +4,7 @@ page_kind: concept
 summary: Programming: 9 statement(s) and 7 atom(s) from raw/javascriptallonge.pdf.
 page_family: topic-concept
 sources: raw/javascriptallonge.pdf
-updated: 2026-06-30
+updated: 2026-07-01
 domain: javascriptallonge
 category_path: concepts
 projection_coverage: topic-javascriptallonge-programming@3f6bc6b53f7325dfc199728b02beea27

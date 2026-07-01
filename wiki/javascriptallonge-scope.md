@@ -4,7 +4,7 @@ page_kind: concept
 summary: Scope: 2 statement(s) and 15 atom(s) from raw/javascriptallonge.pdf.
 page_family: topic-concept
 sources: raw/javascriptallonge.pdf
-updated: 2026-06-30
+updated: 2026-07-01
 domain: javascriptallonge
 category_path: concepts
 projection_coverage: topic-javascriptallonge-scope@ff1e7f8a201353c7f3b67238413b5729

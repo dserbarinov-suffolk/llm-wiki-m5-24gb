@@ -4,7 +4,7 @@ page_kind: concept
 summary: Operator: 0 statement(s) and 1 atom(s) from raw/javascriptallonge.pdf.
 page_family: topic-concept
 sources: raw/javascriptallonge.pdf
-updated: 2026-06-30
+updated: 2026-07-01
 domain: javascriptallonge
 category_path: concepts
 projection_coverage: topic-javascriptallonge-operator@fe2dc055ef4ca51487e7991906d437a0

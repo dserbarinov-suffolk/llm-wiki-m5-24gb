@@ -18,6 +18,7 @@ from llmwiki.domain.ledger.artifacts import (
     build_portable_artifact_set,
 )
 from llmwiki.domain.ledger.canonical import canonical_json
+from llmwiki.domain.ledger.knowledge_shapes import KnowledgeShapeCatalog
 from llmwiki.domain.ledger.section_planning import SectionGroundedPlan
 from llmwiki.domain.ledger.topic_models import TopicIndex
 
@@ -38,6 +39,7 @@ def build_serialized_artifact_bundle(
     coverage_artifact: ProjectionCoverageArtifact,
     projection_context_artifact: ProjectionContextArtifact,
     section_plan: SectionGroundedPlan,
+    knowledge_shape_catalog: KnowledgeShapeCatalog,
     topic_index: TopicIndex,
     source_coverage_artifact: SourceCoverageArtifact | None,
     blocked: BlockedWriteDiagnosticArtifact | None,
@@ -51,6 +53,7 @@ def build_serialized_artifact_bundle(
         coverage_artifact,
         projection_context_artifact,
         section_plan,
+        knowledge_shape_catalog,
         source_coverage_artifact,
         blocked,
     )
@@ -63,6 +66,7 @@ def build_serialized_artifact_bundle(
         coverage_artifact,
         projection_context_artifact,
         section_plan,
+        knowledge_shape_catalog,
         topic_index,
         source_coverage_artifact,
         blocked,
@@ -81,6 +85,7 @@ def _artifact_members(
     coverage_artifact: ProjectionCoverageArtifact,
     projection_context_artifact: ProjectionContextArtifact,
     section_plan: SectionGroundedPlan,
+    knowledge_shape_catalog: KnowledgeShapeCatalog,
     source_coverage_artifact: SourceCoverageArtifact | None,
     blocked: BlockedWriteDiagnosticArtifact | None,
 ) -> list[PortableArtifactMember]:
@@ -125,6 +130,11 @@ def _artifact_members(
             section_plan.section_grounded_plan_id,
             section_plan.section_grounded_plan_fingerprint,
         ),
+        _member(
+            "knowledge-shape-catalog-artifact",
+            knowledge_shape_catalog.knowledge_shape_catalog_id,
+            knowledge_shape_catalog.knowledge_shape_catalog_fingerprint,
+        ),
     ]
     if source_coverage_artifact is not None:
         members.append(
@@ -154,6 +164,7 @@ def _artifact_files(
     coverage_artifact: ProjectionCoverageArtifact,
     projection_context_artifact: ProjectionContextArtifact,
     section_plan: SectionGroundedPlan,
+    knowledge_shape_catalog: KnowledgeShapeCatalog,
     topic_index: TopicIndex,
     source_coverage_artifact: SourceCoverageArtifact | None,
     blocked: BlockedWriteDiagnosticArtifact | None,
@@ -167,6 +178,7 @@ def _artifact_files(
         "projection-coverage.json": canonical_json(coverage_artifact, indent=2),
         "projection-context.json": canonical_json(projection_context_artifact, indent=2),
         "section-plan.json": canonical_json(section_plan, indent=2),
+        "knowledge-shapes.json": canonical_json(knowledge_shape_catalog, indent=2),
         "topics.json": canonical_json(topic_index, indent=2),
     }
     if source_coverage_artifact is not None:

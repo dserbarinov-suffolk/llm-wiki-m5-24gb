@@ -4,7 +4,7 @@ page_kind: concept
 summary: Ternary Operator: 1 statement(s) and 2 atom(s) from raw/javascriptallonge.pdf.
 page_family: topic-concept
 sources: raw/javascriptallonge.pdf
-updated: 2026-06-30
+updated: 2026-07-01
 domain: javascriptallonge
 category_path: concepts
 projection_coverage: topic-javascriptallonge-ternary-operator@68ef62cdaa1eb8acf5efcd228812533b

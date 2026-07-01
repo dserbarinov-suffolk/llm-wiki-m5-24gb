@@ -4,7 +4,7 @@ page_kind: source
 summary: Prelude: Values and Expressions over Coffee / values are expressions / reference types: 8 source-backed entries and 0 atom(s) from raw/javascriptallonge.pdf.
 page_family: section-reference
 sources: raw/javascriptallonge.pdf
-updated: 2026-06-30
+updated: 2026-07-01
 domain: javascriptallonge
 category_path: sources/javascriptallonge/sections
 source_id: javascriptallonge.pdf

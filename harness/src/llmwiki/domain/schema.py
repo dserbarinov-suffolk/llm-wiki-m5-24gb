@@ -2,13 +2,14 @@
 
 from __future__ import annotations
 
-PAGE_KINDS = ("source", "entity", "concept", "procedure", "synthesis")
+PAGE_KINDS = ("source", "entity", "concept", "procedure", "recipe", "synthesis")
 
 PAGE_FAMILIES = (
     "source-manifest",
     "section-reference",
     "topic-concept",
     "procedure-guide",
+    "recipe-pattern",
     "broad-topic",
     "entity-profile",
     "cross-source-synthesis",
@@ -19,6 +20,7 @@ PAGE_KIND_HEADINGS = {
     "entity": "## Entities",
     "concept": "## Concepts",
     "procedure": "## Procedures",
+    "recipe": "## Recipes",
     "synthesis": "## Syntheses",
 }
 

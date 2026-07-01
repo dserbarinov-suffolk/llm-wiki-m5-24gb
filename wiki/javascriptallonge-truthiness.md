@@ -4,7 +4,7 @@ page_kind: concept
 summary: Truthiness: 4 statement(s) and 10 atom(s) from raw/javascriptallonge.pdf.
 page_family: topic-concept
 sources: raw/javascriptallonge.pdf
-updated: 2026-06-30
+updated: 2026-07-01
 domain: javascriptallonge
 category_path: concepts
 projection_coverage: topic-javascriptallonge-truthiness@795eb0bb62e2cdfb8ce0f61602ff83fd

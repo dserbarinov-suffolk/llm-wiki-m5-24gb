@@ -4,7 +4,7 @@ page_kind: concept
 summary: Combinator: 5 statement(s) and 2 atom(s) from raw/javascriptallonge.pdf.
 page_family: topic-concept
 sources: raw/javascriptallonge.pdf
-updated: 2026-06-30
+updated: 2026-07-01
 domain: javascriptallonge
 category_path: concepts
 projection_coverage: topic-javascriptallonge-combinator@02a229ff368aaf771058e65eef87577f

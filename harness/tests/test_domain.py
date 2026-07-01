@@ -54,6 +54,10 @@ INDEX = """# Index
 - [[bravo]] — concept b
 - [[delta]] — concept d
 
+## Procedures
+
+## Recipes
+
 ## Syntheses
 """
 
@@ -662,6 +666,10 @@ class TestWikiRetrieval:
 ## Entities
 
 ## Concepts
+
+## Procedures
+
+## Recipes
 
 ## Syntheses
 """

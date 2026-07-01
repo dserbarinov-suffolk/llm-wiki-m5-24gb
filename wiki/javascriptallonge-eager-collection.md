@@ -4,7 +4,7 @@ page_kind: concept
 summary: Eager Collection: 1 statement(s) and 3 atom(s) from raw/javascriptallonge.pdf.
 page_family: topic-concept
 sources: raw/javascriptallonge.pdf
-updated: 2026-06-30
+updated: 2026-07-01
 domain: javascriptallonge
 category_path: concepts
 projection_coverage: topic-javascriptallonge-eager-collection@bd0434725f86e7f42043eb06dac83340

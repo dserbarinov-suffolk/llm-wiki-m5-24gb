@@ -6,11 +6,13 @@ from dataclasses import dataclass
 
 from llmwiki.domain.ledger.atoms import TechnicalAtom, atom_raw_text
 from llmwiki.domain.ledger.entries import LedgerEntry
+from llmwiki.domain.ledger.knowledge_shapes import (
+    KnowledgeShapeCatalog,
+    build_knowledge_shape_catalog,
+)
 from llmwiki.domain.ledger.ledger import ClaimLedger
 from llmwiki.domain.ledger.procedure_candidates import (
     has_step_evidence,
-    is_unanchored_structural_container,
-    procedure_candidate_score,
 )
 from llmwiki.domain.ledger.procedure_decisions import DecisionPoint, plan_decision_points
 from llmwiki.domain.ledger.procedure_evidence_index import (
@@ -18,7 +20,6 @@ from llmwiki.domain.ledger.procedure_evidence_index import (
     entries_by_node,
     rollup_atoms,
     rollup_entries,
-    section_nodes,
 )
 from llmwiki.domain.ledger.procedure_language import (
     action_type,
@@ -67,15 +68,19 @@ class ProcedureGuide:
 
 
 def plan_procedure_guides(
-    ledger: ClaimLedger, structure: DocumentStructure, *, source_page_id: str
+    ledger: ClaimLedger,
+    structure: DocumentStructure,
+    *,
+    source_page_id: str,
+    shape_catalog: KnowledgeShapeCatalog | None = None,
 ) -> tuple[ProcedureGuide, ...]:
+    catalog = shape_catalog or build_knowledge_shape_catalog(ledger, structure)
     grouped_entries = entries_by_node(ledger)
     grouped_atoms = atoms_by_node(ledger, structure)
     guides: list[ProcedureGuide] = []
-    for node in section_nodes(structure):
-        direct_entries = grouped_entries.get(node.structure_node_id, ())
-        direct_atoms = grouped_atoms.get(node.structure_node_id, ())
-        if is_unanchored_structural_container(node, direct_entries, direct_atoms):
+    for candidate in catalog.candidates_of_kind("procedure"):
+        node = structure.node(candidate.structure_node_id)
+        if node is None:
             continue
         entries = rollup_entries(structure, grouped_entries, node)
         atoms = rollup_atoms(structure, grouped_atoms, node)
@@ -87,8 +92,6 @@ def plan_procedure_guides(
             children,
             source_page_id,
         )
-        if _candidate_score(node.heading_text, entries, atoms, steps) < 6:
-            continue
         if len(steps) < 2:
             continue
         state_flow = _state_flow(steps)
@@ -189,22 +192,6 @@ def _state_flow(steps: tuple[ProcedureStep, ...]) -> ProcedureStateFlow:
             )
             for step in steps
         )
-    )
-
-
-def _candidate_score(
-    heading_text: str,
-    entries: tuple[LedgerEntry, ...],
-    atoms: tuple[TechnicalAtom, ...],
-    steps: tuple[ProcedureStep, ...],
-) -> int:
-    return procedure_candidate_score(
-        heading_text=heading_text,
-        entry_texts=tuple(_entry_text(entry) for entry in entries),
-        entries=entries,
-        atoms=atoms,
-        step_action_types=tuple(step.action_type for step in steps),
-        step_count=len(steps),
     )
 
 

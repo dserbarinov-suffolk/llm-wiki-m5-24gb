@@ -4,7 +4,7 @@ page_kind: concept
 summary: Pure: 4 statement(s) and 1 atom(s) from raw/javascriptallonge.pdf.
 page_family: topic-concept
 sources: raw/javascriptallonge.pdf
-updated: 2026-06-30
+updated: 2026-07-01
 domain: javascriptallonge
 category_path: concepts
 projection_coverage: topic-javascriptallonge-pure@374f6e9ba7df33d57bdb4d49d04f29f5

@@ -2,6 +2,486 @@
   "edges": [
     {
       "resolved": true,
+      "source": "javascriptallonge",
+      "target": "javascriptallonge-recipe-a-history-lesson"
+    },
+    {
+      "resolved": true,
+      "source": "javascriptallonge",
+      "target": "javascriptallonge-recipe-a-look-back-at-functional-iterators"
+    },
+    {
+      "resolved": true,
+      "source": "javascriptallonge",
+      "target": "javascriptallonge-recipe-a-return-to-backward-thinking"
+    },
+    {
+      "resolved": true,
+      "source": "javascriptallonge",
+      "target": "javascriptallonge-recipe-after-another-drink"
+    },
+    {
+      "resolved": true,
+      "source": "javascriptallonge",
+      "target": "javascriptallonge-recipe-applying-functions"
+    },
+    {
+      "resolved": true,
+      "source": "javascriptallonge",
+      "target": "javascriptallonge-recipe-are-consts-also-from-a-shadowy-planet"
+    },
+    {
+      "resolved": true,
+      "source": "javascriptallonge",
+      "target": "javascriptallonge-recipe-array-literals"
+    },
+    {
+      "resolved": true,
+      "source": "javascriptallonge",
+      "target": "javascriptallonge-recipe-back-on-the-block"
+    },
+    {
+      "resolved": true,
+      "source": "javascriptallonge",
+      "target": "javascriptallonge-recipe-backwardness"
+    },
+    {
+      "resolved": true,
+      "source": "javascriptallonge",
+      "target": "javascriptallonge-recipe-bonus"
+    },
+    {
+      "resolved": true,
+      "source": "javascriptallonge",
+      "target": "javascriptallonge-recipe-building-with-mutation"
+    },
+    {
+      "resolved": true,
+      "source": "javascriptallonge",
+      "target": "javascriptallonge-recipe-call-by-sharing"
+    },
+    {
+      "resolved": true,
+      "source": "javascriptallonge",
+      "target": "javascriptallonge-recipe-commas"
+    },
+    {
+      "resolved": true,
+      "source": "javascriptallonge",
+      "target": "javascriptallonge-recipe-composition"
+    },
+    {
+      "resolved": true,
+      "source": "javascriptallonge",
+      "target": "javascriptallonge-recipe-const"
+    },
+    {
+      "resolved": true,
+      "source": "javascriptallonge",
+      "target": "javascriptallonge-recipe-const-and-lexical-scope"
+    },
+    {
+      "resolved": true,
+      "source": "javascriptallonge",
+      "target": "javascriptallonge-recipe-converting-non-tail-calls-to-tail-calls"
+    },
+    {
+      "resolved": true,
+      "source": "javascriptallonge",
+      "target": "javascriptallonge-recipe-copy-on-read"
+    },
+    {
+      "resolved": true,
+      "source": "javascriptallonge",
+      "target": "javascriptallonge-recipe-copy-on-write"
+    },
+    {
+      "resolved": true,
+      "source": "javascriptallonge",
+      "target": "javascriptallonge-recipe-default-arguments"
+    },
+    {
+      "resolved": true,
+      "source": "javascriptallonge",
+      "target": "javascriptallonge-recipe-destructuring-arrays"
+    },
+    {
+      "resolved": true,
+      "source": "javascriptallonge",
+      "target": "javascriptallonge-recipe-destructuring-is-not-pattern-matching"
+    },
+    {
+      "resolved": true,
+      "source": "javascriptallonge",
+      "target": "javascriptallonge-recipe-destructuring-objects"
+    },
+    {
+      "resolved": true,
+      "source": "javascriptallonge",
+      "target": "javascriptallonge-recipe-destructuring-parameters"
+    },
+    {
+      "resolved": true,
+      "source": "javascriptallonge",
+      "target": "javascriptallonge-recipe-eager-collections"
+    },
+    {
+      "resolved": true,
+      "source": "javascriptallonge",
+      "target": "javascriptallonge-recipe-element-references"
+    },
+    {
+      "resolved": true,
+      "source": "javascriptallonge",
+      "target": "javascriptallonge-recipe-factorials"
+    },
+    {
+      "resolved": true,
+      "source": "javascriptallonge",
+      "target": "javascriptallonge-recipe-floating"
+    },
+    {
+      "resolved": true,
+      "source": "javascriptallonge",
+      "target": "javascriptallonge-recipe-folding"
+    },
+    {
+      "resolved": true,
+      "source": "javascriptallonge",
+      "target": "javascriptallonge-recipe-from"
+    },
+    {
+      "resolved": true,
+      "source": "javascriptallonge",
+      "target": "javascriptallonge-recipe-function-declaration-caveats-34"
+    },
+    {
+      "resolved": true,
+      "source": "javascriptallonge",
+      "target": "javascriptallonge-recipe-function-declarations"
+    },
+    {
+      "resolved": true,
+      "source": "javascriptallonge",
+      "target": "javascriptallonge-recipe-function-decorators"
+    },
+    {
+      "resolved": true,
+      "source": "javascriptallonge",
+      "target": "javascriptallonge-recipe-functions-that-evaluate-to-functions"
+    },
+    {
+      "resolved": true,
+      "source": "javascriptallonge",
+      "target": "javascriptallonge-recipe-functions-that-return-values-and-evaluate-expressions"
+    },
+    {
+      "resolved": true,
+      "source": "javascriptallonge",
+      "target": "javascriptallonge-recipe-gathering"
+    },
+    {
+      "resolved": true,
+      "source": "javascriptallonge",
+      "target": "javascriptallonge-recipe-generators-and-iterables"
+    },
+    {
+      "resolved": true,
+      "source": "javascriptallonge",
+      "target": "javascriptallonge-recipe-generators-are-coroutines"
+    },
+    {
+      "resolved": true,
+      "source": "javascriptallonge",
+      "target": "javascriptallonge-recipe-how-to-run-the-examples"
+    },
+    {
+      "resolved": true,
+      "source": "javascriptallonge",
+      "target": "javascriptallonge-recipe-implementing-methods-with-iteration"
+    },
+    {
+      "resolved": true,
+      "source": "javascriptallonge",
+      "target": "javascriptallonge-recipe-inside-out"
+    },
+    {
+      "resolved": true,
+      "source": "javascriptallonge",
+      "target": "javascriptallonge-recipe-interactive-generators"
+    },
+    {
+      "resolved": true,
+      "source": "javascriptallonge",
+      "target": "javascriptallonge-recipe-it-s-always-the-environment"
+    },
+    {
+      "resolved": true,
+      "source": "javascriptallonge",
+      "target": "javascriptallonge-recipe-iterables"
+    },
+    {
+      "resolved": true,
+      "source": "javascriptallonge",
+      "target": "javascriptallonge-recipe-iterables-out-to-infinity"
+    },
+    {
+      "resolved": true,
+      "source": "javascriptallonge",
+      "target": "javascriptallonge-recipe-iterating"
+    },
+    {
+      "resolved": true,
+      "source": "javascriptallonge",
+      "target": "javascriptallonge-recipe-javascript-s-generators"
+    },
+    {
+      "resolved": true,
+      "source": "javascriptallonge",
+      "target": "javascriptallonge-recipe-lazy-collection-operations"
+    },
+    {
+      "resolved": true,
+      "source": "javascriptallonge",
+      "target": "javascriptallonge-recipe-left-variadic-destructuring"
+    },
+    {
+      "resolved": true,
+      "source": "javascriptallonge",
+      "target": "javascriptallonge-recipe-linear-recursion"
+    },
+    {
+      "resolved": true,
+      "source": "javascriptallonge",
+      "target": "javascriptallonge-recipe-lists-with-functions-as-data"
+    },
+    {
+      "resolved": true,
+      "source": "javascriptallonge",
+      "target": "javascriptallonge-recipe-literal-object-syntax"
+    },
+    {
+      "resolved": true,
+      "source": "javascriptallonge",
+      "target": "javascriptallonge-recipe-magic-names-and-fat-arrows"
+    },
+    {
+      "resolved": true,
+      "source": "javascriptallonge",
+      "target": "javascriptallonge-recipe-mapping"
+    },
+    {
+      "resolved": true,
+      "source": "javascriptallonge",
+      "target": "javascriptallonge-recipe-mapwith"
+    },
+    {
+      "resolved": true,
+      "source": "javascriptallonge",
+      "target": "javascriptallonge-recipe-maybe"
+    },
+    {
+      "resolved": true,
+      "source": "javascriptallonge",
+      "target": "javascriptallonge-recipe-more-generators"
+    },
+    {
+      "resolved": true,
+      "source": "javascriptallonge",
+      "target": "javascriptallonge-recipe-mutation-and-data-structures"
+    },
+    {
+      "resolved": true,
+      "source": "javascriptallonge",
+      "target": "javascriptallonge-recipe-nested-blocks"
+    },
+    {
+      "resolved": true,
+      "source": "javascriptallonge",
+      "target": "javascriptallonge-recipe-object-assign"
+    },
+    {
+      "resolved": true,
+      "source": "javascriptallonge",
+      "target": "javascriptallonge-recipe-once"
+    },
+    {
+      "resolved": true,
+      "source": "javascriptallonge",
+      "target": "javascriptallonge-recipe-operations-on-ordered-collections"
+    },
+    {
+      "resolved": true,
+      "source": "javascriptallonge",
+      "target": "javascriptallonge-recipe-ordered-collections"
+    },
+    {
+      "resolved": true,
+      "source": "javascriptallonge",
+      "target": "javascriptallonge-recipe-partial-application"
+    },
+    {
+      "resolved": true,
+      "source": "javascriptallonge",
+      "target": "javascriptallonge-recipe-partial-application-80bc1196"
+    },
+    {
+      "resolved": true,
+      "source": "javascriptallonge",
+      "target": "javascriptallonge-recipe-quasi-literals"
+    },
+    {
+      "resolved": true,
+      "source": "javascriptallonge",
+      "target": "javascriptallonge-recipe-rebinding"
+    },
+    {
+      "resolved": true,
+      "source": "javascriptallonge",
+      "target": "javascriptallonge-recipe-recursive-iterators"
+    },
+    {
+      "resolved": true,
+      "source": "javascriptallonge",
+      "target": "javascriptallonge-recipe-reference-types"
+    },
+    {
+      "resolved": true,
+      "source": "javascriptallonge",
+      "target": "javascriptallonge-recipe-representing-naughts-and-crosses-as-a-stateful-function"
+    },
+    {
+      "resolved": true,
+      "source": "javascriptallonge",
+      "target": "javascriptallonge-recipe-revisiting-linked-lists"
+    },
+    {
+      "resolved": true,
+      "source": "javascriptallonge",
+      "target": "javascriptallonge-recipe-rewriting-iterable-operations"
+    },
+    {
+      "resolved": true,
+      "source": "javascriptallonge",
+      "target": "javascriptallonge-recipe-say-please"
+    },
+    {
+      "resolved": true,
+      "source": "javascriptallonge",
+      "target": "javascriptallonge-recipe-shadowy-variables-from-a-shadowy-planet"
+    },
+    {
+      "resolved": true,
+      "source": "javascriptallonge",
+      "target": "javascriptallonge-recipe-some-history"
+    },
+    {
+      "resolved": true,
+      "source": "javascriptallonge",
+      "target": "javascriptallonge-recipe-tail-call-optimization"
+    },
+    {
+      "resolved": true,
+      "source": "javascriptallonge",
+      "target": "javascriptallonge-recipe-tap"
+    },
+    {
+      "resolved": true,
+      "source": "javascriptallonge",
+      "target": "javascriptallonge-recipe-the-carpenter-s-solution"
+    },
+    {
+      "resolved": true,
+      "source": "javascriptallonge",
+      "target": "javascriptallonge-recipe-the-function-keyword"
+    },
+    {
+      "resolved": true,
+      "source": "javascriptallonge",
+      "target": "javascriptallonge-recipe-the-function-keyword-b21492ad"
+    },
+    {
+      "resolved": true,
+      "source": "javascriptallonge",
+      "target": "javascriptallonge-recipe-the-kestrel-and-the-idiot"
+    },
+    {
+      "resolved": true,
+      "source": "javascriptallonge",
+      "target": "javascriptallonge-recipe-the-vireo"
+    },
+    {
+      "resolved": true,
+      "source": "javascriptallonge",
+      "target": "javascriptallonge-recipe-tortoises-hares-and-teleporting-turtles"
+    },
+    {
+      "resolved": true,
+      "source": "javascriptallonge",
+      "target": "javascriptallonge-recipe-truthiness-and-operators"
+    },
+    {
+      "resolved": true,
+      "source": "javascriptallonge",
+      "target": "javascriptallonge-recipe-truthiness-and-the-ternary-operator"
+    },
+    {
+      "resolved": true,
+      "source": "javascriptallonge",
+      "target": "javascriptallonge-recipe-unary"
+    },
+    {
+      "resolved": true,
+      "source": "javascriptallonge",
+      "target": "javascriptallonge-recipe-undefined"
+    },
+    {
+      "resolved": true,
+      "source": "javascriptallonge",
+      "target": "javascriptallonge-recipe-unfolding-and-laziness"
+    },
+    {
+      "resolved": true,
+      "source": "javascriptallonge",
+      "target": "javascriptallonge-recipe-var"
+    },
+    {
+      "resolved": true,
+      "source": "javascriptallonge",
+      "target": "javascriptallonge-recipe-variables-and-bindings"
+    },
+    {
+      "resolved": true,
+      "source": "javascriptallonge",
+      "target": "javascriptallonge-recipe-why"
+    },
+    {
+      "resolved": true,
+      "source": "javascriptallonge",
+      "target": "javascriptallonge-recipe-why-const-and-let-were-invented"
+    },
+    {
+      "resolved": true,
+      "source": "javascriptallonge",
+      "target": "javascriptallonge-recipe-why-the-six-edition"
+    },
+    {
+      "resolved": true,
+      "source": "javascriptallonge",
+      "target": "javascriptallonge-recipe-will-be-represented-as"
+    },
+    {
+      "resolved": true,
+      "source": "javascriptallonge",
+      "target": "javascriptallonge-recipe-yes-consider-this-variation"
+    },
+    {
+      "resolved": true,
+      "source": "javascriptallonge",
+      "target": "javascriptallonge-recipe-yielding-iterables"
+    },
+    {
+      "resolved": true,
       "source": "javascriptallonge-allong",
       "target": "javascriptallonge"
     },
@@ -3299,6 +3779,966 @@
       "resolved": true,
       "source": "javascriptallonge-recipe",
       "target": "javascriptallonge-write"
+    },
+    {
+      "resolved": true,
+      "source": "javascriptallonge-recipe-a-history-lesson",
+      "target": "javascriptallonge"
+    },
+    {
+      "resolved": true,
+      "source": "javascriptallonge-recipe-a-history-lesson",
+      "target": "javascriptallonge-section-recipes-with-basic-functions-left-variadic-functions-a-history-lesson-153d863d"
+    },
+    {
+      "resolved": true,
+      "source": "javascriptallonge-recipe-a-look-back-at-functional-iterators",
+      "target": "javascriptallonge"
+    },
+    {
+      "resolved": true,
+      "source": "javascriptallonge-recipe-a-look-back-at-functional-iterators",
+      "target": "javascriptallonge-section-served-by-the-pot-collections-iteration-and-iterables-a-look-back-at-functional-iterators-39b0dbb4"
+    },
+    {
+      "resolved": true,
+      "source": "javascriptallonge-recipe-a-return-to-backward-thinking",
+      "target": "javascriptallonge"
+    },
+    {
+      "resolved": true,
+      "source": "javascriptallonge-recipe-a-return-to-backward-thinking",
+      "target": "javascriptallonge-section-copy-on-write-making-data-out-of-functions-a-return-to-backward-thinking-f261e0bd"
+    },
+    {
+      "resolved": true,
+      "source": "javascriptallonge-recipe-after-another-drink",
+      "target": "javascriptallonge"
+    },
+    {
+      "resolved": true,
+      "source": "javascriptallonge-recipe-after-another-drink",
+      "target": "javascriptallonge-section-interlude-the-carpenter-interviews-for-a-job-after-another-drink-a995f2e4"
+    },
+    {
+      "resolved": true,
+      "source": "javascriptallonge-recipe-applying-functions",
+      "target": "javascriptallonge"
+    },
+    {
+      "resolved": true,
+      "source": "javascriptallonge-recipe-applying-functions",
+      "target": "javascriptallonge-section-the-first-sip-basic-functions-as-little-as-possible-about-functions-but-no-less-applying-functio-fa7923f6"
+    },
+    {
+      "resolved": true,
+      "source": "javascriptallonge-recipe-are-consts-also-from-a-shadowy-planet",
+      "target": "javascriptallonge"
+    },
+    {
+      "resolved": true,
+      "source": "javascriptallonge-recipe-are-consts-also-from-a-shadowy-planet",
+      "target": "javascriptallonge-section-and-also-that-constant-coffee-craving-are-consts-also-from-a-shadowy-planet-f4ab49ce"
+    },
+    {
+      "resolved": true,
+      "source": "javascriptallonge-recipe-array-literals",
+      "target": "javascriptallonge"
+    },
+    {
+      "resolved": true,
+      "source": "javascriptallonge-recipe-array-literals",
+      "target": "javascriptallonge-section-composing-and-decomposing-data-arrays-and-destructuring-arguments-array-literals-7490c12f"
+    },
+    {
+      "resolved": true,
+      "source": "javascriptallonge-recipe-back-on-the-block",
+      "target": "javascriptallonge"
+    },
+    {
+      "resolved": true,
+      "source": "javascriptallonge-recipe-back-on-the-block",
+      "target": "javascriptallonge-section-or-even-back-on-the-block-b65a6ef3"
+    },
+    {
+      "resolved": true,
+      "source": "javascriptallonge-recipe-backwardness",
+      "target": "javascriptallonge"
+    },
+    {
+      "resolved": true,
+      "source": "javascriptallonge-recipe-backwardness",
+      "target": "javascriptallonge-section-copy-on-write-making-data-out-of-functions-backwardness-24f99a95"
+    },
+    {
+      "resolved": true,
+      "source": "javascriptallonge-recipe-bonus",
+      "target": "javascriptallonge"
+    },
+    {
+      "resolved": true,
+      "source": "javascriptallonge-recipe-bonus",
+      "target": "javascriptallonge-section-copy-on-write-functional-iterators-bonus-164389bb"
+    },
+    {
+      "resolved": true,
+      "source": "javascriptallonge-recipe-building-with-mutation",
+      "target": "javascriptallonge"
+    },
+    {
+      "resolved": true,
+      "source": "javascriptallonge-recipe-building-with-mutation",
+      "target": "javascriptallonge-section-mutation-building-with-mutation-04e59f50"
+    },
+    {
+      "resolved": true,
+      "source": "javascriptallonge-recipe-call-by-sharing",
+      "target": "javascriptallonge"
+    },
+    {
+      "resolved": true,
+      "source": "javascriptallonge-recipe-call-by-sharing",
+      "target": "javascriptallonge-section-and-also-call-by-sharing-db439a98"
+    },
+    {
+      "resolved": true,
+      "source": "javascriptallonge-recipe-commas",
+      "target": "javascriptallonge"
+    },
+    {
+      "resolved": true,
+      "source": "javascriptallonge-recipe-commas",
+      "target": "javascriptallonge-section-the-first-sip-basic-functions-as-little-as-possible-about-functions-but-no-less-commas-17f3a7f9"
+    },
+    {
+      "resolved": true,
+      "source": "javascriptallonge-recipe-composition",
+      "target": "javascriptallonge"
+    },
+    {
+      "resolved": true,
+      "source": "javascriptallonge-recipe-composition",
+      "target": "javascriptallonge-section-and-also-building-blocks-composition-b488e601"
+    },
+    {
+      "resolved": true,
+      "source": "javascriptallonge-recipe-const",
+      "target": "javascriptallonge"
+    },
+    {
+      "resolved": true,
+      "source": "javascriptallonge-recipe-const",
+      "target": "javascriptallonge-section-and-also-that-constant-coffee-craving-const-9122b281"
+    },
+    {
+      "resolved": true,
+      "source": "javascriptallonge-recipe-const-and-lexical-scope",
+      "target": "javascriptallonge"
+    },
+    {
+      "resolved": true,
+      "source": "javascriptallonge-recipe-const-and-lexical-scope",
+      "target": "javascriptallonge-section-and-also-that-constant-coffee-craving-const-and-lexical-scope-326031a2"
+    },
+    {
+      "resolved": true,
+      "source": "javascriptallonge-recipe-converting-non-tail-calls-to-tail-calls",
+      "target": "javascriptallonge"
+    },
+    {
+      "resolved": true,
+      "source": "javascriptallonge-recipe-converting-non-tail-calls-to-tail-calls",
+      "target": "javascriptallonge-section-composing-and-decomposing-data-tail-calls-and-default-arguments-converting-non-tail-calls-to-tai-5acf5969"
+    },
+    {
+      "resolved": true,
+      "source": "javascriptallonge-recipe-copy-on-read",
+      "target": "javascriptallonge"
+    },
+    {
+      "resolved": true,
+      "source": "javascriptallonge-recipe-copy-on-read",
+      "target": "javascriptallonge-section-copy-on-write-a-few-utilities-copy-on-read-3e3c1bfb"
+    },
+    {
+      "resolved": true,
+      "source": "javascriptallonge-recipe-copy-on-write",
+      "target": "javascriptallonge"
+    },
+    {
+      "resolved": true,
+      "source": "javascriptallonge-recipe-copy-on-write",
+      "target": "javascriptallonge-section-copy-on-write-a-few-utilities-copy-on-write-09152c57"
+    },
+    {
+      "resolved": true,
+      "source": "javascriptallonge-recipe-default-arguments",
+      "target": "javascriptallonge"
+    },
+    {
+      "resolved": true,
+      "source": "javascriptallonge-recipe-default-arguments",
+      "target": "javascriptallonge-section-composing-and-decomposing-data-default-arguments-870cb490"
+    },
+    {
+      "resolved": true,
+      "source": "javascriptallonge-recipe-destructuring-arrays",
+      "target": "javascriptallonge"
+    },
+    {
+      "resolved": true,
+      "source": "javascriptallonge-recipe-destructuring-arrays",
+      "target": "javascriptallonge-section-composing-and-decomposing-data-arrays-and-destructuring-arguments-destructuring-arrays-19594149"
+    },
+    {
+      "resolved": true,
+      "source": "javascriptallonge-recipe-destructuring-is-not-pattern-matching",
+      "target": "javascriptallonge"
+    },
+    {
+      "resolved": true,
+      "source": "javascriptallonge-recipe-destructuring-is-not-pattern-matching",
+      "target": "javascriptallonge-section-composing-and-decomposing-data-arrays-and-destructuring-arguments-destructuring-is-not-pattern-m-4de47703"
+    },
+    {
+      "resolved": true,
+      "source": "javascriptallonge-recipe-destructuring-objects",
+      "target": "javascriptallonge"
+    },
+    {
+      "resolved": true,
+      "source": "javascriptallonge-recipe-destructuring-objects",
+      "target": "javascriptallonge-section-plain-old-javascript-objects-destructuring-objects-233d242e"
+    },
+    {
+      "resolved": true,
+      "source": "javascriptallonge-recipe-destructuring-parameters",
+      "target": "javascriptallonge"
+    },
+    {
+      "resolved": true,
+      "source": "javascriptallonge-recipe-destructuring-parameters",
+      "target": "javascriptallonge-section-composing-and-decomposing-data-arrays-and-destructuring-arguments-destructuring-parameters-69586055"
+    },
+    {
+      "resolved": true,
+      "source": "javascriptallonge-recipe-eager-collections",
+      "target": "javascriptallonge"
+    },
+    {
+      "resolved": true,
+      "source": "javascriptallonge-recipe-eager-collections",
+      "target": "javascriptallonge-section-lazy-and-eager-collections-eager-collections-4dcc549f"
+    },
+    {
+      "resolved": true,
+      "source": "javascriptallonge-recipe-element-references",
+      "target": "javascriptallonge"
+    },
+    {
+      "resolved": true,
+      "source": "javascriptallonge-recipe-element-references",
+      "target": "javascriptallonge-section-composing-and-decomposing-data-arrays-and-destructuring-arguments-element-references-24b6e6cb"
+    },
+    {
+      "resolved": true,
+      "source": "javascriptallonge-recipe-factorials",
+      "target": "javascriptallonge"
+    },
+    {
+      "resolved": true,
+      "source": "javascriptallonge-recipe-factorials",
+      "target": "javascriptallonge-section-composing-and-decomposing-data-factorials-48d5d159"
+    },
+    {
+      "resolved": true,
+      "source": "javascriptallonge-recipe-floating",
+      "target": "javascriptallonge"
+    },
+    {
+      "resolved": true,
+      "source": "javascriptallonge-recipe-floating",
+      "target": "javascriptallonge-section-a-rich-aroma-basic-numbers-floating-0d7c8f07"
+    },
+    {
+      "resolved": true,
+      "source": "javascriptallonge-recipe-folding",
+      "target": "javascriptallonge"
+    },
+    {
+      "resolved": true,
+      "source": "javascriptallonge-recipe-folding",
+      "target": "javascriptallonge-section-composing-and-decomposing-data-self-similarity-folding-f9fb03a1"
+    },
+    {
+      "resolved": true,
+      "source": "javascriptallonge-recipe-from",
+      "target": "javascriptallonge"
+    },
+    {
+      "resolved": true,
+      "source": "javascriptallonge-recipe-from",
+      "target": "javascriptallonge-section-served-by-the-pot-collections-iteration-and-iterables-from-b90bf31a"
+    },
+    {
+      "resolved": true,
+      "source": "javascriptallonge-recipe-function-declaration-caveats-34",
+      "target": "javascriptallonge"
+    },
+    {
+      "resolved": true,
+      "source": "javascriptallonge-recipe-function-declaration-caveats-34",
+      "target": "javascriptallonge-section-and-also-naming-functions-function-declaration-caveats-34-d724d0dc"
+    },
+    {
+      "resolved": true,
+      "source": "javascriptallonge-recipe-function-declarations",
+      "target": "javascriptallonge"
+    },
+    {
+      "resolved": true,
+      "source": "javascriptallonge-recipe-function-declarations",
+      "target": "javascriptallonge-section-and-also-naming-functions-function-declarations-94e43325"
+    },
+    {
+      "resolved": true,
+      "source": "javascriptallonge-recipe-function-decorators",
+      "target": "javascriptallonge"
+    },
+    {
+      "resolved": true,
+      "source": "javascriptallonge-recipe-function-decorators",
+      "target": "javascriptallonge-section-and-also-combinators-and-function-decorators-function-decorators-989cc9e8"
+    },
+    {
+      "resolved": true,
+      "source": "javascriptallonge-recipe-functions-that-evaluate-to-functions",
+      "target": "javascriptallonge"
+    },
+    {
+      "resolved": true,
+      "source": "javascriptallonge-recipe-functions-that-evaluate-to-functions",
+      "target": "javascriptallonge-section-and-also-functions-that-evaluate-to-functions-354b2284"
+    },
+    {
+      "resolved": true,
+      "source": "javascriptallonge-recipe-functions-that-return-values-and-evaluate-expressions",
+      "target": "javascriptallonge"
+    },
+    {
+      "resolved": true,
+      "source": "javascriptallonge-recipe-functions-that-return-values-and-evaluate-expressions",
+      "target": "javascriptallonge-section-the-first-sip-basic-functions-as-little-as-possible-about-functions-but-no-less-functions-that-r-5f549e47"
+    },
+    {
+      "resolved": true,
+      "source": "javascriptallonge-recipe-gathering",
+      "target": "javascriptallonge"
+    },
+    {
+      "resolved": true,
+      "source": "javascriptallonge-recipe-gathering",
+      "target": "javascriptallonge-section-composing-and-decomposing-data-arrays-and-destructuring-arguments-gathering-781aaf08"
+    },
+    {
+      "resolved": true,
+      "source": "javascriptallonge-recipe-generators-and-iterables",
+      "target": "javascriptallonge"
+    },
+    {
+      "resolved": true,
+      "source": "javascriptallonge-recipe-generators-and-iterables",
+      "target": "javascriptallonge-section-served-by-the-pot-collections-generating-iterables-generators-and-iterables-4081f666"
+    },
+    {
+      "resolved": true,
+      "source": "javascriptallonge-recipe-generators-are-coroutines",
+      "target": "javascriptallonge"
+    },
+    {
+      "resolved": true,
+      "source": "javascriptallonge-recipe-generators-are-coroutines",
+      "target": "javascriptallonge-section-served-by-the-pot-collections-generating-iterables-generators-are-coroutines-e97b031c"
+    },
+    {
+      "resolved": true,
+      "source": "javascriptallonge-recipe-how-to-run-the-examples",
+      "target": "javascriptallonge"
+    },
+    {
+      "resolved": true,
+      "source": "javascriptallonge-recipe-how-to-run-the-examples",
+      "target": "javascriptallonge-section-the-golden-crema-appendices-and-afterwords-how-to-run-the-examples-3dfa1cc9"
+    },
+    {
+      "resolved": true,
+      "source": "javascriptallonge-recipe-implementing-methods-with-iteration",
+      "target": "javascriptallonge"
+    },
+    {
+      "resolved": true,
+      "source": "javascriptallonge-recipe-implementing-methods-with-iteration",
+      "target": "javascriptallonge-section-lazy-and-eager-collections-implementing-methods-with-iteration-e2493942"
+    },
+    {
+      "resolved": true,
+      "source": "javascriptallonge-recipe-inside-out",
+      "target": "javascriptallonge"
+    },
+    {
+      "resolved": true,
+      "source": "javascriptallonge-recipe-inside-out",
+      "target": "javascriptallonge-section-and-also-that-constant-coffee-craving-inside-out-973a2848"
+    },
+    {
+      "resolved": true,
+      "source": "javascriptallonge-recipe-interactive-generators",
+      "target": "javascriptallonge"
+    },
+    {
+      "resolved": true,
+      "source": "javascriptallonge-recipe-interactive-generators",
+      "target": "javascriptallonge-section-interactive-generators-this-seems-familiar-interactive-generators-3de32faa"
+    },
+    {
+      "resolved": true,
+      "source": "javascriptallonge-recipe-it-s-always-the-environment",
+      "target": "javascriptallonge"
+    },
+    {
+      "resolved": true,
+      "source": "javascriptallonge-recipe-it-s-always-the-environment",
+      "target": "javascriptallonge-section-and-also-closures-and-scope-it-s-always-the-environment-3905285c"
+    },
+    {
+      "resolved": true,
+      "source": "javascriptallonge-recipe-iterables",
+      "target": "javascriptallonge"
+    },
+    {
+      "resolved": true,
+      "source": "javascriptallonge-recipe-iterables",
+      "target": "javascriptallonge-section-served-by-the-pot-collections-iteration-and-iterables-iterables-5688770e"
+    },
+    {
+      "resolved": true,
+      "source": "javascriptallonge-recipe-iterables-out-to-infinity",
+      "target": "javascriptallonge"
+    },
+    {
+      "resolved": true,
+      "source": "javascriptallonge-recipe-iterables-out-to-infinity",
+      "target": "javascriptallonge-section-served-by-the-pot-collections-iteration-and-iterables-iterables-out-to-infinity-376606ac"
+    },
+    {
+      "resolved": true,
+      "source": "javascriptallonge-recipe-iterating",
+      "target": "javascriptallonge"
+    },
+    {
+      "resolved": true,
+      "source": "javascriptallonge-recipe-iterating",
+      "target": "javascriptallonge-section-copy-on-write-functional-iterators-iterating-5412bc60"
+    },
+    {
+      "resolved": true,
+      "source": "javascriptallonge-recipe-javascript-s-generators",
+      "target": "javascriptallonge"
+    },
+    {
+      "resolved": true,
+      "source": "javascriptallonge-recipe-javascript-s-generators",
+      "target": "javascriptallonge-section-served-by-the-pot-collections-generating-iterables-javascript-s-generators-c3a5aa1e"
+    },
+    {
+      "resolved": true,
+      "source": "javascriptallonge-recipe-lazy-collection-operations",
+      "target": "javascriptallonge"
+    },
+    {
+      "resolved": true,
+      "source": "javascriptallonge-recipe-lazy-collection-operations",
+      "target": "javascriptallonge-section-lazy-and-eager-collections-lazy-collection-operations-358e58c2"
+    },
+    {
+      "resolved": true,
+      "source": "javascriptallonge-recipe-left-variadic-destructuring",
+      "target": "javascriptallonge"
+    },
+    {
+      "resolved": true,
+      "source": "javascriptallonge-recipe-left-variadic-destructuring",
+      "target": "javascriptallonge-section-recipes-with-basic-functions-left-variadic-functions-left-variadic-destructuring-c0fee83e"
+    },
+    {
+      "resolved": true,
+      "source": "javascriptallonge-recipe-linear-recursion",
+      "target": "javascriptallonge"
+    },
+    {
+      "resolved": true,
+      "source": "javascriptallonge-recipe-linear-recursion",
+      "target": "javascriptallonge-section-composing-and-decomposing-data-self-similarity-linear-recursion-4f6c918d"
+    },
+    {
+      "resolved": true,
+      "source": "javascriptallonge-recipe-lists-with-functions-as-data",
+      "target": "javascriptallonge"
+    },
+    {
+      "resolved": true,
+      "source": "javascriptallonge-recipe-lists-with-functions-as-data",
+      "target": "javascriptallonge-section-copy-on-write-making-data-out-of-functions-lists-with-functions-as-data-52fd04fd"
+    },
+    {
+      "resolved": true,
+      "source": "javascriptallonge-recipe-literal-object-syntax",
+      "target": "javascriptallonge"
+    },
+    {
+      "resolved": true,
+      "source": "javascriptallonge-recipe-literal-object-syntax",
+      "target": "javascriptallonge-section-plain-old-javascript-objects-literal-object-syntax-25e0b081"
+    },
+    {
+      "resolved": true,
+      "source": "javascriptallonge-recipe-magic-names-and-fat-arrows",
+      "target": "javascriptallonge"
+    },
+    {
+      "resolved": true,
+      "source": "javascriptallonge-recipe-magic-names-and-fat-arrows",
+      "target": "javascriptallonge-section-and-also-magic-names-magic-names-and-fat-arrows-0831b561"
+    },
+    {
+      "resolved": true,
+      "source": "javascriptallonge-recipe-mapping",
+      "target": "javascriptallonge"
+    },
+    {
+      "resolved": true,
+      "source": "javascriptallonge-recipe-mapping",
+      "target": "javascriptallonge-section-composing-and-decomposing-data-self-similarity-mapping-c68b0f1d"
+    },
+    {
+      "resolved": true,
+      "source": "javascriptallonge-recipe-mapwith",
+      "target": "javascriptallonge"
+    },
+    {
+      "resolved": true,
+      "source": "javascriptallonge-recipe-mapwith",
+      "target": "javascriptallonge-section-recipes-with-data-mapwith-2ccc7b36"
+    },
+    {
+      "resolved": true,
+      "source": "javascriptallonge-recipe-maybe",
+      "target": "javascriptallonge"
+    },
+    {
+      "resolved": true,
+      "source": "javascriptallonge-recipe-maybe",
+      "target": "javascriptallonge-section-recipes-with-basic-functions-maybe-d9752e09"
+    },
+    {
+      "resolved": true,
+      "source": "javascriptallonge-recipe-more-generators",
+      "target": "javascriptallonge"
+    },
+    {
+      "resolved": true,
+      "source": "javascriptallonge-recipe-more-generators",
+      "target": "javascriptallonge-section-served-by-the-pot-collections-generating-iterables-more-generators-17bb605f"
+    },
+    {
+      "resolved": true,
+      "source": "javascriptallonge-recipe-mutation-and-data-structures",
+      "target": "javascriptallonge"
+    },
+    {
+      "resolved": true,
+      "source": "javascriptallonge-recipe-mutation-and-data-structures",
+      "target": "javascriptallonge-section-mutation-mutation-and-data-structures-a8d1f947"
+    },
+    {
+      "resolved": true,
+      "source": "javascriptallonge-recipe-nested-blocks",
+      "target": "javascriptallonge"
+    },
+    {
+      "resolved": true,
+      "source": "javascriptallonge-recipe-nested-blocks",
+      "target": "javascriptallonge-section-and-also-that-constant-coffee-craving-nested-blocks-78bcbfc7"
+    },
+    {
+      "resolved": true,
+      "source": "javascriptallonge-recipe-object-assign",
+      "target": "javascriptallonge"
+    },
+    {
+      "resolved": true,
+      "source": "javascriptallonge-recipe-object-assign",
+      "target": "javascriptallonge-section-recipes-with-data-object-assign-bd2a6434"
+    },
+    {
+      "resolved": true,
+      "source": "javascriptallonge-recipe-once",
+      "target": "javascriptallonge"
+    },
+    {
+      "resolved": true,
+      "source": "javascriptallonge-recipe-once",
+      "target": "javascriptallonge-section-recipes-with-basic-functions-once-9048fede"
+    },
+    {
+      "resolved": true,
+      "source": "javascriptallonge-recipe-operations-on-ordered-collections",
+      "target": "javascriptallonge"
+    },
+    {
+      "resolved": true,
+      "source": "javascriptallonge-recipe-operations-on-ordered-collections",
+      "target": "javascriptallonge-section-served-by-the-pot-collections-iteration-and-iterables-operations-on-ordered-collections-097315e6"
+    },
+    {
+      "resolved": true,
+      "source": "javascriptallonge-recipe-ordered-collections",
+      "target": "javascriptallonge"
+    },
+    {
+      "resolved": true,
+      "source": "javascriptallonge-recipe-ordered-collections",
+      "target": "javascriptallonge-section-served-by-the-pot-collections-iteration-and-iterables-ordered-collections-3e509cbd"
+    },
+    {
+      "resolved": true,
+      "source": "javascriptallonge-recipe-partial-application",
+      "target": "javascriptallonge"
+    },
+    {
+      "resolved": true,
+      "source": "javascriptallonge-recipe-partial-application",
+      "target": "javascriptallonge-section-and-also-building-blocks-partial-application-a5e29ef2"
+    },
+    {
+      "resolved": true,
+      "source": "javascriptallonge-recipe-partial-application-80bc1196",
+      "target": "javascriptallonge"
+    },
+    {
+      "resolved": true,
+      "source": "javascriptallonge-recipe-partial-application-80bc1196",
+      "target": "javascriptallonge-section-recipes-with-basic-functions-partial-application-80bc1196"
+    },
+    {
+      "resolved": true,
+      "source": "javascriptallonge-recipe-quasi-literals",
+      "target": "javascriptallonge"
+    },
+    {
+      "resolved": true,
+      "source": "javascriptallonge-recipe-quasi-literals",
+      "target": "javascriptallonge-section-a-warm-cup-basic-strings-and-quasi-literals-quasi-literals-6d1aa137"
+    },
+    {
+      "resolved": true,
+      "source": "javascriptallonge-recipe-rebinding",
+      "target": "javascriptallonge"
+    },
+    {
+      "resolved": true,
+      "source": "javascriptallonge-recipe-rebinding",
+      "target": "javascriptallonge-section-and-also-that-constant-coffee-craving-rebinding-145a514e"
+    },
+    {
+      "resolved": true,
+      "source": "javascriptallonge-recipe-recursive-iterators",
+      "target": "javascriptallonge"
+    },
+    {
+      "resolved": true,
+      "source": "javascriptallonge-recipe-recursive-iterators",
+      "target": "javascriptallonge-section-served-by-the-pot-collections-generating-iterables-recursive-iterators-6bfe7273"
+    },
+    {
+      "resolved": true,
+      "source": "javascriptallonge-recipe-reference-types",
+      "target": "javascriptallonge"
+    },
+    {
+      "resolved": true,
+      "source": "javascriptallonge-recipe-reference-types",
+      "target": "javascriptallonge-section-prelude-values-and-expressions-over-coffee-values-are-expressions-reference-types-aa5fccf9"
+    },
+    {
+      "resolved": true,
+      "source": "javascriptallonge-recipe-representing-naughts-and-crosses-as-a-stateful-function",
+      "target": "javascriptallonge"
+    },
+    {
+      "resolved": true,
+      "source": "javascriptallonge-recipe-representing-naughts-and-crosses-as-a-stateful-function",
+      "target": "javascriptallonge-section-interactive-generators-representing-naughts-and-crosses-as-a-stateful-function-50fe6464"
+    },
+    {
+      "resolved": true,
+      "source": "javascriptallonge-recipe-revisiting-linked-lists",
+      "target": "javascriptallonge"
+    },
+    {
+      "resolved": true,
+      "source": "javascriptallonge-recipe-revisiting-linked-lists",
+      "target": "javascriptallonge-section-plain-old-javascript-objects-revisiting-linked-lists-23e98a21"
+    },
+    {
+      "resolved": true,
+      "source": "javascriptallonge-recipe-rewriting-iterable-operations",
+      "target": "javascriptallonge"
+    },
+    {
+      "resolved": true,
+      "source": "javascriptallonge-recipe-rewriting-iterable-operations",
+      "target": "javascriptallonge-section-served-by-the-pot-collections-rewriting-iterable-operations-588fbe28"
+    },
+    {
+      "resolved": true,
+      "source": "javascriptallonge-recipe-say-please",
+      "target": "javascriptallonge"
+    },
+    {
+      "resolved": true,
+      "source": "javascriptallonge-recipe-say-please",
+      "target": "javascriptallonge-section-copy-on-write-making-data-out-of-functions-say-please-c42d16f5"
+    },
+    {
+      "resolved": true,
+      "source": "javascriptallonge-recipe-shadowy-variables-from-a-shadowy-planet",
+      "target": "javascriptallonge"
+    },
+    {
+      "resolved": true,
+      "source": "javascriptallonge-recipe-shadowy-variables-from-a-shadowy-planet",
+      "target": "javascriptallonge-section-and-also-closures-and-scope-shadowy-variables-from-a-shadowy-planet-71d66043"
+    },
+    {
+      "resolved": true,
+      "source": "javascriptallonge-recipe-some-history",
+      "target": "javascriptallonge"
+    },
+    {
+      "resolved": true,
+      "source": "javascriptallonge-recipe-some-history",
+      "target": "javascriptallonge-section-garbage-garbage-everywhere-some-history-a956a93b"
+    },
+    {
+      "resolved": true,
+      "source": "javascriptallonge-recipe-tail-call-optimization",
+      "target": "javascriptallonge"
+    },
+    {
+      "resolved": true,
+      "source": "javascriptallonge-recipe-tail-call-optimization",
+      "target": "javascriptallonge-section-composing-and-decomposing-data-tail-calls-and-default-arguments-tail-call-optimization-766c0a60"
+    },
+    {
+      "resolved": true,
+      "source": "javascriptallonge-recipe-tap",
+      "target": "javascriptallonge"
+    },
+    {
+      "resolved": true,
+      "source": "javascriptallonge-recipe-tap",
+      "target": "javascriptallonge-section-recipes-with-basic-functions-tap-bcbc81bc"
+    },
+    {
+      "resolved": true,
+      "source": "javascriptallonge-recipe-the-carpenter-s-solution",
+      "target": "javascriptallonge"
+    },
+    {
+      "resolved": true,
+      "source": "javascriptallonge-recipe-the-carpenter-s-solution",
+      "target": "javascriptallonge-section-interlude-the-carpenter-interviews-for-a-job-the-carpenter-s-solution-b3771f17"
+    },
+    {
+      "resolved": true,
+      "source": "javascriptallonge-recipe-the-function-keyword",
+      "target": "javascriptallonge"
+    },
+    {
+      "resolved": true,
+      "source": "javascriptallonge-recipe-the-function-keyword",
+      "target": "javascriptallonge-section-and-also-naming-functions-the-function-keyword-443f109f"
+    },
+    {
+      "resolved": true,
+      "source": "javascriptallonge-recipe-the-function-keyword-b21492ad",
+      "target": "javascriptallonge"
+    },
+    {
+      "resolved": true,
+      "source": "javascriptallonge-recipe-the-function-keyword-b21492ad",
+      "target": "javascriptallonge-section-and-also-magic-names-the-function-keyword-b21492ad"
+    },
+    {
+      "resolved": true,
+      "source": "javascriptallonge-recipe-the-kestrel-and-the-idiot",
+      "target": "javascriptallonge"
+    },
+    {
+      "resolved": true,
+      "source": "javascriptallonge-recipe-the-kestrel-and-the-idiot",
+      "target": "javascriptallonge-section-copy-on-write-making-data-out-of-functions-the-kestrel-and-the-idiot-301fbaf6"
+    },
+    {
+      "resolved": true,
+      "source": "javascriptallonge-recipe-the-vireo",
+      "target": "javascriptallonge"
+    },
+    {
+      "resolved": true,
+      "source": "javascriptallonge-recipe-the-vireo",
+      "target": "javascriptallonge-section-copy-on-write-making-data-out-of-functions-the-vireo-b7923ab5"
+    },
+    {
+      "resolved": true,
+      "source": "javascriptallonge-recipe-tortoises-hares-and-teleporting-turtles",
+      "target": "javascriptallonge"
+    },
+    {
+      "resolved": true,
+      "source": "javascriptallonge-recipe-tortoises-hares-and-teleporting-turtles",
+      "target": "javascriptallonge-section-copy-on-write-tortoises-hares-and-teleporting-turtles-62bfcbc0"
+    },
+    {
+      "resolved": true,
+      "source": "javascriptallonge-recipe-truthiness-and-operators",
+      "target": "javascriptallonge"
+    },
+    {
+      "resolved": true,
+      "source": "javascriptallonge-recipe-truthiness-and-operators",
+      "target": "javascriptallonge-section-picking-the-bean-choice-and-truthiness-truthiness-and-operators-e7aa9191"
+    },
+    {
+      "resolved": true,
+      "source": "javascriptallonge-recipe-truthiness-and-the-ternary-operator",
+      "target": "javascriptallonge"
+    },
+    {
+      "resolved": true,
+      "source": "javascriptallonge-recipe-truthiness-and-the-ternary-operator",
+      "target": "javascriptallonge-section-picking-the-bean-choice-and-truthiness-truthiness-and-the-ternary-operator-9ad8528f"
+    },
+    {
+      "resolved": true,
+      "source": "javascriptallonge-recipe-unary",
+      "target": "javascriptallonge"
+    },
+    {
+      "resolved": true,
+      "source": "javascriptallonge-recipe-unary",
+      "target": "javascriptallonge-section-recipes-with-basic-functions-unary-84c3ae50"
+    },
+    {
+      "resolved": true,
+      "source": "javascriptallonge-recipe-undefined",
+      "target": "javascriptallonge"
+    },
+    {
+      "resolved": true,
+      "source": "javascriptallonge-recipe-undefined",
+      "target": "javascriptallonge-section-or-even-the-simplest-possible-block-undefined-7e43bbd5"
+    },
+    {
+      "resolved": true,
+      "source": "javascriptallonge-recipe-unfolding-and-laziness",
+      "target": "javascriptallonge"
+    },
+    {
+      "resolved": true,
+      "source": "javascriptallonge-recipe-unfolding-and-laziness",
+      "target": "javascriptallonge-section-copy-on-write-functional-iterators-unfolding-and-laziness-34b94643"
+    },
+    {
+      "resolved": true,
+      "source": "javascriptallonge-recipe-var",
+      "target": "javascriptallonge"
+    },
+    {
+      "resolved": true,
+      "source": "javascriptallonge-recipe-var",
+      "target": "javascriptallonge-section-reassignment-mixing-let-and-const-var-9446c873"
+    },
+    {
+      "resolved": true,
+      "source": "javascriptallonge-recipe-variables-and-bindings",
+      "target": "javascriptallonge"
+    },
+    {
+      "resolved": true,
+      "source": "javascriptallonge-recipe-variables-and-bindings",
+      "target": "javascriptallonge-section-and-also-variables-and-bindings-baf19230"
+    },
+    {
+      "resolved": true,
+      "source": "javascriptallonge-recipe-why",
+      "target": "javascriptallonge"
+    },
+    {
+      "resolved": true,
+      "source": "javascriptallonge-recipe-why",
+      "target": "javascriptallonge-section-recipes-with-data-why-3f8e67cf"
+    },
+    {
+      "resolved": true,
+      "source": "javascriptallonge-recipe-why-const-and-let-were-invented",
+      "target": "javascriptallonge"
+    },
+    {
+      "resolved": true,
+      "source": "javascriptallonge-recipe-why-const-and-let-were-invented",
+      "target": "javascriptallonge-section-reassignment-why-const-and-let-were-invented-d4d91fa1"
+    },
+    {
+      "resolved": true,
+      "source": "javascriptallonge-recipe-why-the-six-edition",
+      "target": "javascriptallonge"
+    },
+    {
+      "resolved": true,
+      "source": "javascriptallonge-recipe-why-the-six-edition",
+      "target": "javascriptallonge-section-a-pull-of-the-lever-prefaces-about-javascript-allong-why-the-six-edition-35c3fb78"
+    },
+    {
+      "resolved": true,
+      "source": "javascriptallonge-recipe-will-be-represented-as",
+      "target": "javascriptallonge"
+    },
+    {
+      "resolved": true,
+      "source": "javascriptallonge-recipe-will-be-represented-as",
+      "target": "javascriptallonge-section-interactive-generators-representing-naughts-and-crosses-as-a-stateless-function-will-be-represen-f1dabfc6"
+    },
+    {
+      "resolved": true,
+      "source": "javascriptallonge-recipe-yes-consider-this-variation",
+      "target": "javascriptallonge"
+    },
+    {
+      "resolved": true,
+      "source": "javascriptallonge-recipe-yes-consider-this-variation",
+      "target": "javascriptallonge-section-yes-consider-this-variation-db4ad8a2"
+    },
+    {
+      "resolved": true,
+      "source": "javascriptallonge-recipe-yielding-iterables",
+      "target": "javascriptallonge"
+    },
+    {
+      "resolved": true,
+      "source": "javascriptallonge-recipe-yielding-iterables",
+      "target": "javascriptallonge-section-served-by-the-pot-collections-generating-iterables-yielding-iterables-0e804668"
     },
     {
       "resolved": true,
@@ -8317,6 +9757,81 @@
     },
     {
       "resolved": true,
+      "source": "sword-world-rpg-complete-edition",
+      "target": "sword-world-rpg-complete-edition-recipe-18-1-rules-for-awarding-greater-experience-points"
+    },
+    {
+      "resolved": true,
+      "source": "sword-world-rpg-complete-edition",
+      "target": "sword-world-rpg-complete-edition-recipe-3-2-1-delaying-an-action"
+    },
+    {
+      "resolved": true,
+      "source": "sword-world-rpg-complete-edition",
+      "target": "sword-world-rpg-complete-edition-recipe-3-2-action-order"
+    },
+    {
+      "resolved": true,
+      "source": "sword-world-rpg-complete-edition",
+      "target": "sword-world-rpg-complete-edition-recipe-area"
+    },
+    {
+      "resolved": true,
+      "source": "sword-world-rpg-complete-edition",
+      "target": "sword-world-rpg-complete-edition-recipe-boomerang"
+    },
+    {
+      "resolved": true,
+      "source": "sword-world-rpg-complete-edition",
+      "target": "sword-world-rpg-complete-edition-recipe-folklore-knowledge-intelligence-not-retriable"
+    },
+    {
+      "resolved": true,
+      "source": "sword-world-rpg-complete-edition",
+      "target": "sword-world-rpg-complete-edition-recipe-full-control-spirit-various-lesser-spirits"
+    },
+    {
+      "resolved": true,
+      "source": "sword-world-rpg-complete-edition",
+      "target": "sword-world-rpg-complete-edition-recipe-how-to-read-the-monster-catalog"
+    },
+    {
+      "resolved": true,
+      "source": "sword-world-rpg-complete-edition",
+      "target": "sword-world-rpg-complete-edition-recipe-perception"
+    },
+    {
+      "resolved": true,
+      "source": "sword-world-rpg-complete-edition",
+      "target": "sword-world-rpg-complete-edition-recipe-protective-circle"
+    },
+    {
+      "resolved": true,
+      "source": "sword-world-rpg-complete-edition",
+      "target": "sword-world-rpg-complete-edition-recipe-reaction"
+    },
+    {
+      "resolved": true,
+      "source": "sword-world-rpg-complete-edition",
+      "target": "sword-world-rpg-complete-edition-recipe-riding-agility"
+    },
+    {
+      "resolved": true,
+      "source": "sword-world-rpg-complete-edition",
+      "target": "sword-world-rpg-complete-edition-recipe-rules-for-sleeping-monsters"
+    },
+    {
+      "resolved": true,
+      "source": "sword-world-rpg-complete-edition",
+      "target": "sword-world-rpg-complete-edition-recipe-swim-agility"
+    },
+    {
+      "resolved": true,
+      "source": "sword-world-rpg-complete-edition",
+      "target": "sword-world-rpg-complete-edition-recipe-the-meaning-of-the-rulebook"
+    },
+    {
+      "resolved": true,
       "source": "sword-world-rpg-complete-edition-10-magical-weapon",
       "target": "sword-world-rpg-complete-edition"
     },
@@ -10309,6 +11824,156 @@
       "resolved": true,
       "source": "sword-world-rpg-complete-edition-ray",
       "target": "sword-world-rpg-complete-edition-gaze"
+    },
+    {
+      "resolved": true,
+      "source": "sword-world-rpg-complete-edition-recipe-18-1-rules-for-awarding-greater-experience-points",
+      "target": "sword-world-rpg-complete-edition"
+    },
+    {
+      "resolved": true,
+      "source": "sword-world-rpg-complete-edition-recipe-18-1-rules-for-awarding-greater-experience-points",
+      "target": "sword-world-rpg-complete-edition-section-18-1-rules-for-awarding-greater-experience-points-7c15cfe5"
+    },
+    {
+      "resolved": true,
+      "source": "sword-world-rpg-complete-edition-recipe-3-2-1-delaying-an-action",
+      "target": "sword-world-rpg-complete-edition"
+    },
+    {
+      "resolved": true,
+      "source": "sword-world-rpg-complete-edition-recipe-3-2-1-delaying-an-action",
+      "target": "sword-world-rpg-complete-edition-section-chapter-3-3-2-1-delaying-an-action-98203a92"
+    },
+    {
+      "resolved": true,
+      "source": "sword-world-rpg-complete-edition-recipe-3-2-action-order",
+      "target": "sword-world-rpg-complete-edition"
+    },
+    {
+      "resolved": true,
+      "source": "sword-world-rpg-complete-edition-recipe-3-2-action-order",
+      "target": "sword-world-rpg-complete-edition-section-chapter-3-3-2-action-order-0a8e2138"
+    },
+    {
+      "resolved": true,
+      "source": "sword-world-rpg-complete-edition-recipe-area",
+      "target": "sword-world-rpg-complete-edition"
+    },
+    {
+      "resolved": true,
+      "source": "sword-world-rpg-complete-edition-recipe-area",
+      "target": "sword-world-rpg-complete-edition-section-sample-magic-details-area-6a47f6c1"
+    },
+    {
+      "resolved": true,
+      "source": "sword-world-rpg-complete-edition-recipe-boomerang",
+      "target": "sword-world-rpg-complete-edition"
+    },
+    {
+      "resolved": true,
+      "source": "sword-world-rpg-complete-edition-recipe-boomerang",
+      "target": "sword-world-rpg-complete-edition-section-chapter-16-16-9-special-weapons-boomerang-c239f583"
+    },
+    {
+      "resolved": true,
+      "source": "sword-world-rpg-complete-edition-recipe-folklore-knowledge-intelligence-not-retriable",
+      "target": "sword-world-rpg-complete-edition"
+    },
+    {
+      "resolved": true,
+      "source": "sword-world-rpg-complete-edition-recipe-folklore-knowledge-intelligence-not-retriable",
+      "target": "sword-world-rpg-complete-edition-section-chapter-6-bard-skill-medicines-intelligence-appraisal-only-not-retriable-folklore-knowledge-inte-1a2021b3"
+    },
+    {
+      "resolved": true,
+      "source": "sword-world-rpg-complete-edition-recipe-full-control-spirit-various-lesser-spirits",
+      "target": "sword-world-rpg-complete-edition"
+    },
+    {
+      "resolved": true,
+      "source": "sword-world-rpg-complete-edition-recipe-full-control-spirit-various-lesser-spirits",
+      "target": "sword-world-rpg-complete-edition-section-5-1-14-spirit-magic-list-magic-list-full-control-spirit-various-lesser-spirits-e38f7396"
+    },
+    {
+      "resolved": true,
+      "source": "sword-world-rpg-complete-edition-recipe-how-to-read-the-monster-catalog",
+      "target": "sword-world-rpg-complete-edition"
+    },
+    {
+      "resolved": true,
+      "source": "sword-world-rpg-complete-edition-recipe-how-to-read-the-monster-catalog",
+      "target": "sword-world-rpg-complete-edition-section-13-2-1-humans-monster-catalog-how-to-read-the-monster-catalog-35efd787"
+    },
+    {
+      "resolved": true,
+      "source": "sword-world-rpg-complete-edition-recipe-perception",
+      "target": "sword-world-rpg-complete-edition"
+    },
+    {
+      "resolved": true,
+      "source": "sword-world-rpg-complete-edition-recipe-perception",
+      "target": "sword-world-rpg-complete-edition-section-13-2-1-humans-perception-55f8f7ca"
+    },
+    {
+      "resolved": true,
+      "source": "sword-world-rpg-complete-edition-recipe-protective-circle",
+      "target": "sword-world-rpg-complete-edition"
+    },
+    {
+      "resolved": true,
+      "source": "sword-world-rpg-complete-edition-recipe-protective-circle",
+      "target": "sword-world-rpg-complete-edition-section-4th-level-basic-holy-magic-list-cure-disease-protective-circle-eab62bcf"
+    },
+    {
+      "resolved": true,
+      "source": "sword-world-rpg-complete-edition-recipe-reaction",
+      "target": "sword-world-rpg-complete-edition"
+    },
+    {
+      "resolved": true,
+      "source": "sword-world-rpg-complete-edition-recipe-reaction",
+      "target": "sword-world-rpg-complete-edition-section-13-2-1-humans-reaction-ea4ee40f"
+    },
+    {
+      "resolved": true,
+      "source": "sword-world-rpg-complete-edition-recipe-riding-agility",
+      "target": "sword-world-rpg-complete-edition"
+    },
+    {
+      "resolved": true,
+      "source": "sword-world-rpg-complete-edition-recipe-riding-agility",
+      "target": "sword-world-rpg-complete-edition-section-chapter-6-common-adventurer-abilities-riding-agility-84a32022"
+    },
+    {
+      "resolved": true,
+      "source": "sword-world-rpg-complete-edition-recipe-rules-for-sleeping-monsters",
+      "target": "sword-world-rpg-complete-edition"
+    },
+    {
+      "resolved": true,
+      "source": "sword-world-rpg-complete-edition-recipe-rules-for-sleeping-monsters",
+      "target": "sword-world-rpg-complete-edition-section-10-5-attacks-against-the-sleeping-rules-for-sleeping-monsters-21c2f8ac"
+    },
+    {
+      "resolved": true,
+      "source": "sword-world-rpg-complete-edition-recipe-swim-agility",
+      "target": "sword-world-rpg-complete-edition"
+    },
+    {
+      "resolved": true,
+      "source": "sword-world-rpg-complete-edition-recipe-swim-agility",
+      "target": "sword-world-rpg-complete-edition-section-chapter-6-common-adventurer-abilities-swim-agility-fd4642f2"
+    },
+    {
+      "resolved": true,
+      "source": "sword-world-rpg-complete-edition-recipe-the-meaning-of-the-rulebook",
+      "target": "sword-world-rpg-complete-edition"
+    },
+    {
+      "resolved": true,
+      "source": "sword-world-rpg-complete-edition-recipe-the-meaning-of-the-rulebook",
+      "target": "sword-world-rpg-complete-edition-section-the-meaning-of-the-rulebook-910ef587"
     },
     {
       "resolved": true,
@@ -37031,11 +38696,108 @@
     {
       "category": "source",
       "name": "javascriptallonge",
-      "outbound_links": [],
+      "outbound_links": [
+        "javascriptallonge-recipe-a-history-lesson",
+        "javascriptallonge-recipe-a-look-back-at-functional-iterators",
+        "javascriptallonge-recipe-a-return-to-backward-thinking",
+        "javascriptallonge-recipe-after-another-drink",
+        "javascriptallonge-recipe-applying-functions",
+        "javascriptallonge-recipe-are-consts-also-from-a-shadowy-planet",
+        "javascriptallonge-recipe-array-literals",
+        "javascriptallonge-recipe-back-on-the-block",
+        "javascriptallonge-recipe-backwardness",
+        "javascriptallonge-recipe-bonus",
+        "javascriptallonge-recipe-building-with-mutation",
+        "javascriptallonge-recipe-call-by-sharing",
+        "javascriptallonge-recipe-commas",
+        "javascriptallonge-recipe-composition",
+        "javascriptallonge-recipe-const",
+        "javascriptallonge-recipe-const-and-lexical-scope",
+        "javascriptallonge-recipe-converting-non-tail-calls-to-tail-calls",
+        "javascriptallonge-recipe-copy-on-read",
+        "javascriptallonge-recipe-copy-on-write",
+        "javascriptallonge-recipe-default-arguments",
+        "javascriptallonge-recipe-destructuring-arrays",
+        "javascriptallonge-recipe-destructuring-is-not-pattern-matching",
+        "javascriptallonge-recipe-destructuring-objects",
+        "javascriptallonge-recipe-destructuring-parameters",
+        "javascriptallonge-recipe-eager-collections",
+        "javascriptallonge-recipe-element-references",
+        "javascriptallonge-recipe-factorials",
+        "javascriptallonge-recipe-floating",
+        "javascriptallonge-recipe-folding",
+        "javascriptallonge-recipe-from",
+        "javascriptallonge-recipe-function-declaration-caveats-34",
+        "javascriptallonge-recipe-function-declarations",
+        "javascriptallonge-recipe-function-decorators",
+        "javascriptallonge-recipe-functions-that-evaluate-to-functions",
+        "javascriptallonge-recipe-functions-that-return-values-and-evaluate-expressions",
+        "javascriptallonge-recipe-gathering",
+        "javascriptallonge-recipe-generators-and-iterables",
+        "javascriptallonge-recipe-generators-are-coroutines",
+        "javascriptallonge-recipe-how-to-run-the-examples",
+        "javascriptallonge-recipe-implementing-methods-with-iteration",
+        "javascriptallonge-recipe-inside-out",
+        "javascriptallonge-recipe-interactive-generators",
+        "javascriptallonge-recipe-it-s-always-the-environment",
+        "javascriptallonge-recipe-iterables",
+        "javascriptallonge-recipe-iterables-out-to-infinity",
+        "javascriptallonge-recipe-iterating",
+        "javascriptallonge-recipe-javascript-s-generators",
+        "javascriptallonge-recipe-lazy-collection-operations",
+        "javascriptallonge-recipe-left-variadic-destructuring",
+        "javascriptallonge-recipe-linear-recursion",
+        "javascriptallonge-recipe-lists-with-functions-as-data",
+        "javascriptallonge-recipe-literal-object-syntax",
+        "javascriptallonge-recipe-magic-names-and-fat-arrows",
+        "javascriptallonge-recipe-mapping",
+        "javascriptallonge-recipe-mapwith",
+        "javascriptallonge-recipe-maybe",
+        "javascriptallonge-recipe-more-generators",
+        "javascriptallonge-recipe-mutation-and-data-structures",
+        "javascriptallonge-recipe-nested-blocks",
+        "javascriptallonge-recipe-object-assign",
+        "javascriptallonge-recipe-once",
+        "javascriptallonge-recipe-operations-on-ordered-collections",
+        "javascriptallonge-recipe-ordered-collections",
+        "javascriptallonge-recipe-partial-application",
+        "javascriptallonge-recipe-partial-application-80bc1196",
+        "javascriptallonge-recipe-quasi-literals",
+        "javascriptallonge-recipe-rebinding",
+        "javascriptallonge-recipe-recursive-iterators",
+        "javascriptallonge-recipe-reference-types",
+        "javascriptallonge-recipe-representing-naughts-and-crosses-as-a-stateful-function",
+        "javascriptallonge-recipe-revisiting-linked-lists",
+        "javascriptallonge-recipe-rewriting-iterable-operations",
+        "javascriptallonge-recipe-say-please",
+        "javascriptallonge-recipe-shadowy-variables-from-a-shadowy-planet",
+        "javascriptallonge-recipe-some-history",
+        "javascriptallonge-recipe-tail-call-optimization",
+        "javascriptallonge-recipe-tap",
+        "javascriptallonge-recipe-the-carpenter-s-solution",
+        "javascriptallonge-recipe-the-function-keyword",
+        "javascriptallonge-recipe-the-function-keyword-b21492ad",
+        "javascriptallonge-recipe-the-kestrel-and-the-idiot",
+        "javascriptallonge-recipe-the-vireo",
+        "javascriptallonge-recipe-tortoises-hares-and-teleporting-turtles",
+        "javascriptallonge-recipe-truthiness-and-operators",
+        "javascriptallonge-recipe-truthiness-and-the-ternary-operator",
+        "javascriptallonge-recipe-unary",
+        "javascriptallonge-recipe-undefined",
+        "javascriptallonge-recipe-unfolding-and-laziness",
+        "javascriptallonge-recipe-var",
+        "javascriptallonge-recipe-variables-and-bindings",
+        "javascriptallonge-recipe-why",
+        "javascriptallonge-recipe-why-const-and-let-were-invented",
+        "javascriptallonge-recipe-why-the-six-edition",
+        "javascriptallonge-recipe-will-be-represented-as",
+        "javascriptallonge-recipe-yes-consider-this-variation",
+        "javascriptallonge-recipe-yielding-iterables"
+      ],
       "sources": [
         "raw/javascriptallonge.pdf"
       ],
-      "summary": "Claim-ledger projection (coding): 2043 usable entries, 661 technical atoms, 373 needs-review, 286 linked page(s); write decision write-with-review-work."
+      "summary": "Claim-ledger projection (coding): 2043 usable entries, 661 technical atoms, 373 needs-review, 382 linked page(s); write decision write-with-review-work."
     },
     {
       "category": "concept",
@@ -38366,6 +40128,1158 @@
         "raw/javascriptallonge.pdf"
       ],
       "summary": "Recipe: 5 statement(s) and 9 atom(s) from raw/javascriptallonge.pdf."
+    },
+    {
+      "category": "recipe",
+      "name": "javascriptallonge-recipe-a-history-lesson",
+      "outbound_links": [
+        "javascriptallonge",
+        "javascriptallonge-section-recipes-with-basic-functions-left-variadic-functions-a-history-lesson-153d863d"
+      ],
+      "sources": [
+        "raw/javascriptallonge.pdf"
+      ],
+      "summary": "a history lesson: reusable source-backed pattern with 2 statement(s) and 3 technical atom(s) from raw/javascriptallonge.pdf."
+    },
+    {
+      "category": "recipe",
+      "name": "javascriptallonge-recipe-a-look-back-at-functional-iterators",
+      "outbound_links": [
+        "javascriptallonge",
+        "javascriptallonge-section-served-by-the-pot-collections-iteration-and-iterables-a-look-back-at-functional-iterators-39b0dbb4"
+      ],
+      "sources": [
+        "raw/javascriptallonge.pdf"
+      ],
+      "summary": "a look back at functional iterators: reusable source-backed pattern with 4 statement(s) and 6 technical atom(s) from raw/javascriptallonge.pdf."
+    },
+    {
+      "category": "recipe",
+      "name": "javascriptallonge-recipe-a-return-to-backward-thinking",
+      "outbound_links": [
+        "javascriptallonge",
+        "javascriptallonge-section-copy-on-write-making-data-out-of-functions-a-return-to-backward-thinking-f261e0bd"
+      ],
+      "sources": [
+        "raw/javascriptallonge.pdf"
+      ],
+      "summary": "a return to backward thinking: reusable source-backed pattern with 16 statement(s) and 3 technical atom(s) from raw/javascriptallonge.pdf."
+    },
+    {
+      "category": "recipe",
+      "name": "javascriptallonge-recipe-after-another-drink",
+      "outbound_links": [
+        "javascriptallonge",
+        "javascriptallonge-section-interlude-the-carpenter-interviews-for-a-job-after-another-drink-a995f2e4"
+      ],
+      "sources": [
+        "raw/javascriptallonge.pdf"
+      ],
+      "summary": "after another drink: reusable source-backed pattern with 5 statement(s) and 2 technical atom(s) from raw/javascriptallonge.pdf."
+    },
+    {
+      "category": "recipe",
+      "name": "javascriptallonge-recipe-applying-functions",
+      "outbound_links": [
+        "javascriptallonge",
+        "javascriptallonge-section-the-first-sip-basic-functions-as-little-as-possible-about-functions-but-no-less-applying-functio-fa7923f6"
+      ],
+      "sources": [
+        "raw/javascriptallonge.pdf"
+      ],
+      "summary": "applying functions: reusable source-backed pattern with 4 statement(s) and 2 technical atom(s) from raw/javascriptallonge.pdf."
+    },
+    {
+      "category": "recipe",
+      "name": "javascriptallonge-recipe-are-consts-also-from-a-shadowy-planet",
+      "outbound_links": [
+        "javascriptallonge",
+        "javascriptallonge-section-and-also-that-constant-coffee-craving-are-consts-also-from-a-shadowy-planet-f4ab49ce"
+      ],
+      "sources": [
+        "raw/javascriptallonge.pdf"
+      ],
+      "summary": "are consts also from a shadowy planet?: reusable source-backed pattern with 16 statement(s) and 10 technical atom(s) from raw/javascriptallonge.pdf."
+    },
+    {
+      "category": "recipe",
+      "name": "javascriptallonge-recipe-array-literals",
+      "outbound_links": [
+        "javascriptallonge",
+        "javascriptallonge-section-composing-and-decomposing-data-arrays-and-destructuring-arguments-array-literals-7490c12f"
+      ],
+      "sources": [
+        "raw/javascriptallonge.pdf"
+      ],
+      "summary": "array literals: reusable source-backed pattern with 5 statement(s) and 6 technical atom(s) from raw/javascriptallonge.pdf."
+    },
+    {
+      "category": "recipe",
+      "name": "javascriptallonge-recipe-back-on-the-block",
+      "outbound_links": [
+        "javascriptallonge",
+        "javascriptallonge-section-or-even-back-on-the-block-b65a6ef3"
+      ],
+      "sources": [
+        "raw/javascriptallonge.pdf"
+      ],
+      "summary": "back on the block: reusable source-backed pattern with 5 statement(s) and 3 technical atom(s) from raw/javascriptallonge.pdf."
+    },
+    {
+      "category": "recipe",
+      "name": "javascriptallonge-recipe-backwardness",
+      "outbound_links": [
+        "javascriptallonge",
+        "javascriptallonge-section-copy-on-write-making-data-out-of-functions-backwardness-24f99a95"
+      ],
+      "sources": [
+        "raw/javascriptallonge.pdf"
+      ],
+      "summary": "backwardness: reusable source-backed pattern with 4 statement(s) and 3 technical atom(s) from raw/javascriptallonge.pdf."
+    },
+    {
+      "category": "recipe",
+      "name": "javascriptallonge-recipe-bonus",
+      "outbound_links": [
+        "javascriptallonge",
+        "javascriptallonge-section-copy-on-write-functional-iterators-bonus-164389bb"
+      ],
+      "sources": [
+        "raw/javascriptallonge.pdf"
+      ],
+      "summary": "bonus: reusable source-backed pattern with 6 statement(s) and 2 technical atom(s) from raw/javascriptallonge.pdf."
+    },
+    {
+      "category": "recipe",
+      "name": "javascriptallonge-recipe-building-with-mutation",
+      "outbound_links": [
+        "javascriptallonge",
+        "javascriptallonge-section-mutation-building-with-mutation-04e59f50"
+      ],
+      "sources": [
+        "raw/javascriptallonge.pdf"
+      ],
+      "summary": "building with mutation: reusable source-backed pattern with 5 statement(s) and 4 technical atom(s) from raw/javascriptallonge.pdf."
+    },
+    {
+      "category": "recipe",
+      "name": "javascriptallonge-recipe-call-by-sharing",
+      "outbound_links": [
+        "javascriptallonge",
+        "javascriptallonge-section-and-also-call-by-sharing-db439a98"
+      ],
+      "sources": [
+        "raw/javascriptallonge.pdf"
+      ],
+      "summary": "call by sharing: reusable source-backed pattern with 11 statement(s) and 1 technical atom(s) from raw/javascriptallonge.pdf."
+    },
+    {
+      "category": "recipe",
+      "name": "javascriptallonge-recipe-commas",
+      "outbound_links": [
+        "javascriptallonge",
+        "javascriptallonge-section-the-first-sip-basic-functions-as-little-as-possible-about-functions-but-no-less-commas-17f3a7f9"
+      ],
+      "sources": [
+        "raw/javascriptallonge.pdf"
+      ],
+      "summary": "commas: reusable source-backed pattern with 1 statement(s) and 3 technical atom(s) from raw/javascriptallonge.pdf."
+    },
+    {
+      "category": "recipe",
+      "name": "javascriptallonge-recipe-composition",
+      "outbound_links": [
+        "javascriptallonge",
+        "javascriptallonge-section-and-also-building-blocks-composition-b488e601"
+      ],
+      "sources": [
+        "raw/javascriptallonge.pdf"
+      ],
+      "summary": "composition: reusable source-backed pattern with 8 statement(s) and 3 technical atom(s) from raw/javascriptallonge.pdf."
+    },
+    {
+      "category": "recipe",
+      "name": "javascriptallonge-recipe-const",
+      "outbound_links": [
+        "javascriptallonge",
+        "javascriptallonge-section-and-also-that-constant-coffee-craving-const-9122b281"
+      ],
+      "sources": [
+        "raw/javascriptallonge.pdf"
+      ],
+      "summary": "const: reusable source-backed pattern with 11 statement(s) and 9 technical atom(s) from raw/javascriptallonge.pdf."
+    },
+    {
+      "category": "recipe",
+      "name": "javascriptallonge-recipe-const-and-lexical-scope",
+      "outbound_links": [
+        "javascriptallonge",
+        "javascriptallonge-section-and-also-that-constant-coffee-craving-const-and-lexical-scope-326031a2"
+      ],
+      "sources": [
+        "raw/javascriptallonge.pdf"
+      ],
+      "summary": "const and lexical scope: reusable source-backed pattern with 8 statement(s) and 4 technical atom(s) from raw/javascriptallonge.pdf."
+    },
+    {
+      "category": "recipe",
+      "name": "javascriptallonge-recipe-converting-non-tail-calls-to-tail-calls",
+      "outbound_links": [
+        "javascriptallonge",
+        "javascriptallonge-section-composing-and-decomposing-data-tail-calls-and-default-arguments-converting-non-tail-calls-to-tai-5acf5969"
+      ],
+      "sources": [
+        "raw/javascriptallonge.pdf"
+      ],
+      "summary": "converting non-tail-calls to tail-calls: reusable source-backed pattern with 5 statement(s) and 5 technical atom(s) from raw/javascriptallonge.pdf."
+    },
+    {
+      "category": "recipe",
+      "name": "javascriptallonge-recipe-copy-on-read",
+      "outbound_links": [
+        "javascriptallonge",
+        "javascriptallonge-section-copy-on-write-a-few-utilities-copy-on-read-3e3c1bfb"
+      ],
+      "sources": [
+        "raw/javascriptallonge.pdf"
+      ],
+      "summary": "copy-on-read: reusable source-backed pattern with 7 statement(s) and 1 technical atom(s) from raw/javascriptallonge.pdf."
+    },
+    {
+      "category": "recipe",
+      "name": "javascriptallonge-recipe-copy-on-write",
+      "outbound_links": [
+        "javascriptallonge",
+        "javascriptallonge-section-copy-on-write-a-few-utilities-copy-on-write-09152c57"
+      ],
+      "sources": [
+        "raw/javascriptallonge.pdf"
+      ],
+      "summary": "copy-on-write: reusable source-backed pattern with 7 statement(s) and 3 technical atom(s) from raw/javascriptallonge.pdf."
+    },
+    {
+      "category": "recipe",
+      "name": "javascriptallonge-recipe-default-arguments",
+      "outbound_links": [
+        "javascriptallonge",
+        "javascriptallonge-section-composing-and-decomposing-data-default-arguments-870cb490"
+      ],
+      "sources": [
+        "raw/javascriptallonge.pdf"
+      ],
+      "summary": "default arguments: reusable source-backed pattern with 5 statement(s) and 3 technical atom(s) from raw/javascriptallonge.pdf."
+    },
+    {
+      "category": "recipe",
+      "name": "javascriptallonge-recipe-destructuring-arrays",
+      "outbound_links": [
+        "javascriptallonge",
+        "javascriptallonge-section-composing-and-decomposing-data-arrays-and-destructuring-arguments-destructuring-arrays-19594149"
+      ],
+      "sources": [
+        "raw/javascriptallonge.pdf"
+      ],
+      "summary": "destructuring arrays: reusable source-backed pattern with 4 statement(s) and 5 technical atom(s) from raw/javascriptallonge.pdf."
+    },
+    {
+      "category": "recipe",
+      "name": "javascriptallonge-recipe-destructuring-is-not-pattern-matching",
+      "outbound_links": [
+        "javascriptallonge",
+        "javascriptallonge-section-composing-and-decomposing-data-arrays-and-destructuring-arguments-destructuring-is-not-pattern-m-4de47703"
+      ],
+      "sources": [
+        "raw/javascriptallonge.pdf"
+      ],
+      "summary": "destructuring is not pattern matching: reusable source-backed pattern with 7 statement(s) and 3 technical atom(s) from raw/javascriptallonge.pdf."
+    },
+    {
+      "category": "recipe",
+      "name": "javascriptallonge-recipe-destructuring-objects",
+      "outbound_links": [
+        "javascriptallonge",
+        "javascriptallonge-section-plain-old-javascript-objects-destructuring-objects-233d242e"
+      ],
+      "sources": [
+        "raw/javascriptallonge.pdf"
+      ],
+      "summary": "destructuring objects: reusable source-backed pattern with 2 statement(s) and 5 technical atom(s) from raw/javascriptallonge.pdf."
+    },
+    {
+      "category": "recipe",
+      "name": "javascriptallonge-recipe-destructuring-parameters",
+      "outbound_links": [
+        "javascriptallonge",
+        "javascriptallonge-section-composing-and-decomposing-data-arrays-and-destructuring-arguments-destructuring-parameters-69586055"
+      ],
+      "sources": [
+        "raw/javascriptallonge.pdf"
+      ],
+      "summary": "destructuring parameters: reusable source-backed pattern with 3 statement(s) and 3 technical atom(s) from raw/javascriptallonge.pdf."
+    },
+    {
+      "category": "recipe",
+      "name": "javascriptallonge-recipe-eager-collections",
+      "outbound_links": [
+        "javascriptallonge",
+        "javascriptallonge-section-lazy-and-eager-collections-eager-collections-4dcc549f"
+      ],
+      "sources": [
+        "raw/javascriptallonge.pdf"
+      ],
+      "summary": "eager collections: reusable source-backed pattern with 4 statement(s) and 5 technical atom(s) from raw/javascriptallonge.pdf."
+    },
+    {
+      "category": "recipe",
+      "name": "javascriptallonge-recipe-element-references",
+      "outbound_links": [
+        "javascriptallonge",
+        "javascriptallonge-section-composing-and-decomposing-data-arrays-and-destructuring-arguments-element-references-24b6e6cb"
+      ],
+      "sources": [
+        "raw/javascriptallonge.pdf"
+      ],
+      "summary": "element references: reusable source-backed pattern with 3 statement(s) and 2 technical atom(s) from raw/javascriptallonge.pdf."
+    },
+    {
+      "category": "recipe",
+      "name": "javascriptallonge-recipe-factorials",
+      "outbound_links": [
+        "javascriptallonge",
+        "javascriptallonge-section-composing-and-decomposing-data-factorials-48d5d159"
+      ],
+      "sources": [
+        "raw/javascriptallonge.pdf"
+      ],
+      "summary": "factorials: reusable source-backed pattern with 4 statement(s) and 4 technical atom(s) from raw/javascriptallonge.pdf."
+    },
+    {
+      "category": "recipe",
+      "name": "javascriptallonge-recipe-floating",
+      "outbound_links": [
+        "javascriptallonge",
+        "javascriptallonge-section-a-rich-aroma-basic-numbers-floating-0d7c8f07"
+      ],
+      "sources": [
+        "raw/javascriptallonge.pdf"
+      ],
+      "summary": "floating: reusable source-backed pattern with 8 statement(s) and 3 technical atom(s) from raw/javascriptallonge.pdf."
+    },
+    {
+      "category": "recipe",
+      "name": "javascriptallonge-recipe-folding",
+      "outbound_links": [
+        "javascriptallonge",
+        "javascriptallonge-section-composing-and-decomposing-data-self-similarity-folding-f9fb03a1"
+      ],
+      "sources": [
+        "raw/javascriptallonge.pdf"
+      ],
+      "summary": "folding: reusable source-backed pattern with 2 statement(s) and 6 technical atom(s) from raw/javascriptallonge.pdf."
+    },
+    {
+      "category": "recipe",
+      "name": "javascriptallonge-recipe-from",
+      "outbound_links": [
+        "javascriptallonge",
+        "javascriptallonge-section-served-by-the-pot-collections-iteration-and-iterables-from-b90bf31a"
+      ],
+      "sources": [
+        "raw/javascriptallonge.pdf"
+      ],
+      "summary": "from: reusable source-backed pattern with 7 statement(s) and 3 technical atom(s) from raw/javascriptallonge.pdf."
+    },
+    {
+      "category": "recipe",
+      "name": "javascriptallonge-recipe-function-declaration-caveats-34",
+      "outbound_links": [
+        "javascriptallonge",
+        "javascriptallonge-section-and-also-naming-functions-function-declaration-caveats-34-d724d0dc"
+      ],
+      "sources": [
+        "raw/javascriptallonge.pdf"
+      ],
+      "summary": "function declaration caveats 34: reusable source-backed pattern with 7 statement(s) and 2 technical atom(s) from raw/javascriptallonge.pdf."
+    },
+    {
+      "category": "recipe",
+      "name": "javascriptallonge-recipe-function-declarations",
+      "outbound_links": [
+        "javascriptallonge",
+        "javascriptallonge-section-and-also-naming-functions-function-declarations-94e43325"
+      ],
+      "sources": [
+        "raw/javascriptallonge.pdf"
+      ],
+      "summary": "function declarations: reusable source-backed pattern with 8 statement(s) and 6 technical atom(s) from raw/javascriptallonge.pdf."
+    },
+    {
+      "category": "recipe",
+      "name": "javascriptallonge-recipe-function-decorators",
+      "outbound_links": [
+        "javascriptallonge",
+        "javascriptallonge-section-and-also-combinators-and-function-decorators-function-decorators-989cc9e8"
+      ],
+      "sources": [
+        "raw/javascriptallonge.pdf"
+      ],
+      "summary": "function decorators: reusable source-backed pattern with 3 statement(s) and 4 technical atom(s) from raw/javascriptallonge.pdf."
+    },
+    {
+      "category": "recipe",
+      "name": "javascriptallonge-recipe-functions-that-evaluate-to-functions",
+      "outbound_links": [
+        "javascriptallonge",
+        "javascriptallonge-section-and-also-functions-that-evaluate-to-functions-354b2284"
+      ],
+      "sources": [
+        "raw/javascriptallonge.pdf"
+      ],
+      "summary": "functions that evaluate to functions: reusable source-backed pattern with 4 statement(s) and 4 technical atom(s) from raw/javascriptallonge.pdf."
+    },
+    {
+      "category": "recipe",
+      "name": "javascriptallonge-recipe-functions-that-return-values-and-evaluate-expressions",
+      "outbound_links": [
+        "javascriptallonge",
+        "javascriptallonge-section-the-first-sip-basic-functions-as-little-as-possible-about-functions-but-no-less-functions-that-r-5f549e47"
+      ],
+      "sources": [
+        "raw/javascriptallonge.pdf"
+      ],
+      "summary": "functions that return values and evaluate expressions: reusable source-backed pattern with 6 statement(s) and 4 technical atom(s) from raw/javascriptallonge.pdf."
+    },
+    {
+      "category": "recipe",
+      "name": "javascriptallonge-recipe-gathering",
+      "outbound_links": [
+        "javascriptallonge",
+        "javascriptallonge-section-composing-and-decomposing-data-arrays-and-destructuring-arguments-gathering-781aaf08"
+      ],
+      "sources": [
+        "raw/javascriptallonge.pdf"
+      ],
+      "summary": "gathering: reusable source-backed pattern with 5 statement(s) and 3 technical atom(s) from raw/javascriptallonge.pdf."
+    },
+    {
+      "category": "recipe",
+      "name": "javascriptallonge-recipe-generators-and-iterables",
+      "outbound_links": [
+        "javascriptallonge",
+        "javascriptallonge-section-served-by-the-pot-collections-generating-iterables-generators-and-iterables-4081f666"
+      ],
+      "sources": [
+        "raw/javascriptallonge.pdf"
+      ],
+      "summary": "generators and iterables: reusable source-backed pattern with 7 statement(s) and 2 technical atom(s) from raw/javascriptallonge.pdf."
+    },
+    {
+      "category": "recipe",
+      "name": "javascriptallonge-recipe-generators-are-coroutines",
+      "outbound_links": [
+        "javascriptallonge",
+        "javascriptallonge-section-served-by-the-pot-collections-generating-iterables-generators-are-coroutines-e97b031c"
+      ],
+      "sources": [
+        "raw/javascriptallonge.pdf"
+      ],
+      "summary": "generators are coroutines: reusable source-backed pattern with 22 statement(s) and 2 technical atom(s) from raw/javascriptallonge.pdf."
+    },
+    {
+      "category": "recipe",
+      "name": "javascriptallonge-recipe-how-to-run-the-examples",
+      "outbound_links": [
+        "javascriptallonge",
+        "javascriptallonge-section-the-golden-crema-appendices-and-afterwords-how-to-run-the-examples-3dfa1cc9"
+      ],
+      "sources": [
+        "raw/javascriptallonge.pdf"
+      ],
+      "summary": "How to run the examples: reusable source-backed pattern with 8 statement(s) and 6 technical atom(s) from raw/javascriptallonge.pdf."
+    },
+    {
+      "category": "recipe",
+      "name": "javascriptallonge-recipe-implementing-methods-with-iteration",
+      "outbound_links": [
+        "javascriptallonge",
+        "javascriptallonge-section-lazy-and-eager-collections-implementing-methods-with-iteration-e2493942"
+      ],
+      "sources": [
+        "raw/javascriptallonge.pdf"
+      ],
+      "summary": "implementing methods with iteration: reusable source-backed pattern with 6 statement(s) and 8 technical atom(s) from raw/javascriptallonge.pdf."
+    },
+    {
+      "category": "recipe",
+      "name": "javascriptallonge-recipe-inside-out",
+      "outbound_links": [
+        "javascriptallonge",
+        "javascriptallonge-section-and-also-that-constant-coffee-craving-inside-out-973a2848"
+      ],
+      "sources": [
+        "raw/javascriptallonge.pdf"
+      ],
+      "summary": "inside-out: reusable source-backed pattern with 11 statement(s) and 6 technical atom(s) from raw/javascriptallonge.pdf."
+    },
+    {
+      "category": "recipe",
+      "name": "javascriptallonge-recipe-interactive-generators",
+      "outbound_links": [
+        "javascriptallonge",
+        "javascriptallonge-section-interactive-generators-this-seems-familiar-interactive-generators-3de32faa"
+      ],
+      "sources": [
+        "raw/javascriptallonge.pdf"
+      ],
+      "summary": "interactive generators: reusable source-backed pattern with 6 statement(s) and 1 technical atom(s) from raw/javascriptallonge.pdf."
+    },
+    {
+      "category": "recipe",
+      "name": "javascriptallonge-recipe-it-s-always-the-environment",
+      "outbound_links": [
+        "javascriptallonge",
+        "javascriptallonge-section-and-also-closures-and-scope-it-s-always-the-environment-3905285c"
+      ],
+      "sources": [
+        "raw/javascriptallonge.pdf"
+      ],
+      "summary": "it's always the environment: reusable source-backed pattern with 11 statement(s) and 4 technical atom(s) from raw/javascriptallonge.pdf."
+    },
+    {
+      "category": "recipe",
+      "name": "javascriptallonge-recipe-iterables",
+      "outbound_links": [
+        "javascriptallonge",
+        "javascriptallonge-section-served-by-the-pot-collections-iteration-and-iterables-iterables-5688770e"
+      ],
+      "sources": [
+        "raw/javascriptallonge.pdf"
+      ],
+      "summary": "iterables: reusable source-backed pattern with 16 statement(s) and 5 technical atom(s) from raw/javascriptallonge.pdf."
+    },
+    {
+      "category": "recipe",
+      "name": "javascriptallonge-recipe-iterables-out-to-infinity",
+      "outbound_links": [
+        "javascriptallonge",
+        "javascriptallonge-section-served-by-the-pot-collections-iteration-and-iterables-iterables-out-to-infinity-376606ac"
+      ],
+      "sources": [
+        "raw/javascriptallonge.pdf"
+      ],
+      "summary": "iterables out to infinity: reusable source-backed pattern with 2 statement(s) and 2 technical atom(s) from raw/javascriptallonge.pdf."
+    },
+    {
+      "category": "recipe",
+      "name": "javascriptallonge-recipe-iterating",
+      "outbound_links": [
+        "javascriptallonge",
+        "javascriptallonge-section-copy-on-write-functional-iterators-iterating-5412bc60"
+      ],
+      "sources": [
+        "raw/javascriptallonge.pdf"
+      ],
+      "summary": "iterating: reusable source-backed pattern with 9 statement(s) and 6 technical atom(s) from raw/javascriptallonge.pdf."
+    },
+    {
+      "category": "recipe",
+      "name": "javascriptallonge-recipe-javascript-s-generators",
+      "outbound_links": [
+        "javascriptallonge",
+        "javascriptallonge-section-served-by-the-pot-collections-generating-iterables-javascript-s-generators-c3a5aa1e"
+      ],
+      "sources": [
+        "raw/javascriptallonge.pdf"
+      ],
+      "summary": "javascript's generators: reusable source-backed pattern with 9 statement(s) and 4 technical atom(s) from raw/javascriptallonge.pdf."
+    },
+    {
+      "category": "recipe",
+      "name": "javascriptallonge-recipe-lazy-collection-operations",
+      "outbound_links": [
+        "javascriptallonge",
+        "javascriptallonge-section-lazy-and-eager-collections-lazy-collection-operations-358e58c2"
+      ],
+      "sources": [
+        "raw/javascriptallonge.pdf"
+      ],
+      "summary": "lazy collection operations: reusable source-backed pattern with 11 statement(s) and 5 technical atom(s) from raw/javascriptallonge.pdf."
+    },
+    {
+      "category": "recipe",
+      "name": "javascriptallonge-recipe-left-variadic-destructuring",
+      "outbound_links": [
+        "javascriptallonge",
+        "javascriptallonge-section-recipes-with-basic-functions-left-variadic-functions-left-variadic-destructuring-c0fee83e"
+      ],
+      "sources": [
+        "raw/javascriptallonge.pdf"
+      ],
+      "summary": "left-variadic destructuring: reusable source-backed pattern with 3 statement(s) and 4 technical atom(s) from raw/javascriptallonge.pdf."
+    },
+    {
+      "category": "recipe",
+      "name": "javascriptallonge-recipe-linear-recursion",
+      "outbound_links": [
+        "javascriptallonge",
+        "javascriptallonge-section-composing-and-decomposing-data-self-similarity-linear-recursion-4f6c918d"
+      ],
+      "sources": [
+        "raw/javascriptallonge.pdf"
+      ],
+      "summary": "linear recursion: reusable source-backed pattern with 19 statement(s) and 2 technical atom(s) from raw/javascriptallonge.pdf."
+    },
+    {
+      "category": "recipe",
+      "name": "javascriptallonge-recipe-lists-with-functions-as-data",
+      "outbound_links": [
+        "javascriptallonge",
+        "javascriptallonge-section-copy-on-write-making-data-out-of-functions-lists-with-functions-as-data-52fd04fd"
+      ],
+      "sources": [
+        "raw/javascriptallonge.pdf"
+      ],
+      "summary": "lists with functions as data: reusable source-backed pattern with 4 statement(s) and 5 technical atom(s) from raw/javascriptallonge.pdf."
+    },
+    {
+      "category": "recipe",
+      "name": "javascriptallonge-recipe-literal-object-syntax",
+      "outbound_links": [
+        "javascriptallonge",
+        "javascriptallonge-section-plain-old-javascript-objects-literal-object-syntax-25e0b081"
+      ],
+      "sources": [
+        "raw/javascriptallonge.pdf"
+      ],
+      "summary": "literal object syntax: reusable source-backed pattern with 8 statement(s) and 10 technical atom(s) from raw/javascriptallonge.pdf."
+    },
+    {
+      "category": "recipe",
+      "name": "javascriptallonge-recipe-magic-names-and-fat-arrows",
+      "outbound_links": [
+        "javascriptallonge",
+        "javascriptallonge-section-and-also-magic-names-magic-names-and-fat-arrows-0831b561"
+      ],
+      "sources": [
+        "raw/javascriptallonge.pdf"
+      ],
+      "summary": "magic names and fat arrows: reusable source-backed pattern with 17 statement(s) and 4 technical atom(s) from raw/javascriptallonge.pdf."
+    },
+    {
+      "category": "recipe",
+      "name": "javascriptallonge-recipe-mapping",
+      "outbound_links": [
+        "javascriptallonge",
+        "javascriptallonge-section-composing-and-decomposing-data-self-similarity-mapping-c68b0f1d"
+      ],
+      "sources": [
+        "raw/javascriptallonge.pdf"
+      ],
+      "summary": "mapping: reusable source-backed pattern with 3 statement(s) and 4 technical atom(s) from raw/javascriptallonge.pdf."
+    },
+    {
+      "category": "recipe",
+      "name": "javascriptallonge-recipe-mapwith",
+      "outbound_links": [
+        "javascriptallonge",
+        "javascriptallonge-section-recipes-with-data-mapwith-2ccc7b36"
+      ],
+      "sources": [
+        "raw/javascriptallonge.pdf"
+      ],
+      "summary": "mapWith: reusable source-backed pattern with 8 statement(s) and 7 technical atom(s) from raw/javascriptallonge.pdf."
+    },
+    {
+      "category": "recipe",
+      "name": "javascriptallonge-recipe-maybe",
+      "outbound_links": [
+        "javascriptallonge",
+        "javascriptallonge-section-recipes-with-basic-functions-maybe-d9752e09"
+      ],
+      "sources": [
+        "raw/javascriptallonge.pdf"
+      ],
+      "summary": "Maybe: reusable source-backed pattern with 5 statement(s) and 6 technical atom(s) from raw/javascriptallonge.pdf."
+    },
+    {
+      "category": "recipe",
+      "name": "javascriptallonge-recipe-more-generators",
+      "outbound_links": [
+        "javascriptallonge",
+        "javascriptallonge-section-served-by-the-pot-collections-generating-iterables-more-generators-17bb605f"
+      ],
+      "sources": [
+        "raw/javascriptallonge.pdf"
+      ],
+      "summary": "more generators: reusable source-backed pattern with 3 statement(s) and 6 technical atom(s) from raw/javascriptallonge.pdf."
+    },
+    {
+      "category": "recipe",
+      "name": "javascriptallonge-recipe-mutation-and-data-structures",
+      "outbound_links": [
+        "javascriptallonge",
+        "javascriptallonge-section-mutation-mutation-and-data-structures-a8d1f947"
+      ],
+      "sources": [
+        "raw/javascriptallonge.pdf"
+      ],
+      "summary": "mutation and data structures: reusable source-backed pattern with 8 statement(s) and 4 technical atom(s) from raw/javascriptallonge.pdf."
+    },
+    {
+      "category": "recipe",
+      "name": "javascriptallonge-recipe-nested-blocks",
+      "outbound_links": [
+        "javascriptallonge",
+        "javascriptallonge-section-and-also-that-constant-coffee-craving-nested-blocks-78bcbfc7"
+      ],
+      "sources": [
+        "raw/javascriptallonge.pdf"
+      ],
+      "summary": "nested blocks: reusable source-backed pattern with 4 statement(s) and 5 technical atom(s) from raw/javascriptallonge.pdf."
+    },
+    {
+      "category": "recipe",
+      "name": "javascriptallonge-recipe-object-assign",
+      "outbound_links": [
+        "javascriptallonge",
+        "javascriptallonge-section-recipes-with-data-object-assign-bd2a6434"
+      ],
+      "sources": [
+        "raw/javascriptallonge.pdf"
+      ],
+      "summary": "Object.assign: reusable source-backed pattern with 1 statement(s) and 7 technical atom(s) from raw/javascriptallonge.pdf."
+    },
+    {
+      "category": "recipe",
+      "name": "javascriptallonge-recipe-once",
+      "outbound_links": [
+        "javascriptallonge",
+        "javascriptallonge-section-recipes-with-basic-functions-once-9048fede"
+      ],
+      "sources": [
+        "raw/javascriptallonge.pdf"
+      ],
+      "summary": "Once: reusable source-backed pattern with 4 statement(s) and 2 technical atom(s) from raw/javascriptallonge.pdf."
+    },
+    {
+      "category": "recipe",
+      "name": "javascriptallonge-recipe-operations-on-ordered-collections",
+      "outbound_links": [
+        "javascriptallonge",
+        "javascriptallonge-section-served-by-the-pot-collections-iteration-and-iterables-operations-on-ordered-collections-097315e6"
+      ],
+      "sources": [
+        "raw/javascriptallonge.pdf"
+      ],
+      "summary": "operations on ordered collections: reusable source-backed pattern with 18 statement(s) and 8 technical atom(s) from raw/javascriptallonge.pdf."
+    },
+    {
+      "category": "recipe",
+      "name": "javascriptallonge-recipe-ordered-collections",
+      "outbound_links": [
+        "javascriptallonge",
+        "javascriptallonge-section-served-by-the-pot-collections-iteration-and-iterables-ordered-collections-3e509cbd"
+      ],
+      "sources": [
+        "raw/javascriptallonge.pdf"
+      ],
+      "summary": "ordered collections: reusable source-backed pattern with 9 statement(s) and 2 technical atom(s) from raw/javascriptallonge.pdf."
+    },
+    {
+      "category": "recipe",
+      "name": "javascriptallonge-recipe-partial-application",
+      "outbound_links": [
+        "javascriptallonge",
+        "javascriptallonge-section-and-also-building-blocks-partial-application-a5e29ef2"
+      ],
+      "sources": [
+        "raw/javascriptallonge.pdf"
+      ],
+      "summary": "partial application: reusable source-backed pattern with 9 statement(s) and 5 technical atom(s) from raw/javascriptallonge.pdf."
+    },
+    {
+      "category": "recipe",
+      "name": "javascriptallonge-recipe-partial-application-80bc1196",
+      "outbound_links": [
+        "javascriptallonge",
+        "javascriptallonge-section-recipes-with-basic-functions-partial-application-80bc1196"
+      ],
+      "sources": [
+        "raw/javascriptallonge.pdf"
+      ],
+      "summary": "Partial Application: reusable source-backed pattern with 5 statement(s) and 2 technical atom(s) from raw/javascriptallonge.pdf."
+    },
+    {
+      "category": "recipe",
+      "name": "javascriptallonge-recipe-quasi-literals",
+      "outbound_links": [
+        "javascriptallonge",
+        "javascriptallonge-section-a-warm-cup-basic-strings-and-quasi-literals-quasi-literals-6d1aa137"
+      ],
+      "sources": [
+        "raw/javascriptallonge.pdf"
+      ],
+      "summary": "quasi-literals: reusable source-backed pattern with 6 statement(s) and 4 technical atom(s) from raw/javascriptallonge.pdf."
+    },
+    {
+      "category": "recipe",
+      "name": "javascriptallonge-recipe-rebinding",
+      "outbound_links": [
+        "javascriptallonge",
+        "javascriptallonge-section-and-also-that-constant-coffee-craving-rebinding-145a514e"
+      ],
+      "sources": [
+        "raw/javascriptallonge.pdf"
+      ],
+      "summary": "rebinding: reusable source-backed pattern with 3 statement(s) and 2 technical atom(s) from raw/javascriptallonge.pdf."
+    },
+    {
+      "category": "recipe",
+      "name": "javascriptallonge-recipe-recursive-iterators",
+      "outbound_links": [
+        "javascriptallonge",
+        "javascriptallonge-section-served-by-the-pot-collections-generating-iterables-recursive-iterators-6bfe7273"
+      ],
+      "sources": [
+        "raw/javascriptallonge.pdf"
+      ],
+      "summary": "recursive iterators: reusable source-backed pattern with 7 statement(s) and 2 technical atom(s) from raw/javascriptallonge.pdf."
+    },
+    {
+      "category": "recipe",
+      "name": "javascriptallonge-recipe-reference-types",
+      "outbound_links": [
+        "javascriptallonge",
+        "javascriptallonge-section-prelude-values-and-expressions-over-coffee-values-are-expressions-reference-types-aa5fccf9"
+      ],
+      "sources": [
+        "raw/javascriptallonge.pdf"
+      ],
+      "summary": "reference types: reusable source-backed pattern with 6 statement(s) and 2 technical atom(s) from raw/javascriptallonge.pdf."
+    },
+    {
+      "category": "recipe",
+      "name": "javascriptallonge-recipe-representing-naughts-and-crosses-as-a-stateful-function",
+      "outbound_links": [
+        "javascriptallonge",
+        "javascriptallonge-section-interactive-generators-representing-naughts-and-crosses-as-a-stateful-function-50fe6464"
+      ],
+      "sources": [
+        "raw/javascriptallonge.pdf"
+      ],
+      "summary": "representing naughts and crosses as a stateful function: reusable source-backed pattern with 3 statement(s) and 3 technical atom(s) from raw/javascriptallonge.pdf."
+    },
+    {
+      "category": "recipe",
+      "name": "javascriptallonge-recipe-revisiting-linked-lists",
+      "outbound_links": [
+        "javascriptallonge",
+        "javascriptallonge-section-plain-old-javascript-objects-revisiting-linked-lists-23e98a21"
+      ],
+      "sources": [
+        "raw/javascriptallonge.pdf"
+      ],
+      "summary": "revisiting linked lists: reusable source-backed pattern with 13 statement(s) and 6 technical atom(s) from raw/javascriptallonge.pdf."
+    },
+    {
+      "category": "recipe",
+      "name": "javascriptallonge-recipe-rewriting-iterable-operations",
+      "outbound_links": [
+        "javascriptallonge",
+        "javascriptallonge-section-served-by-the-pot-collections-rewriting-iterable-operations-588fbe28"
+      ],
+      "sources": [
+        "raw/javascriptallonge.pdf"
+      ],
+      "summary": "rewriting iterable operations: reusable source-backed pattern with 5 statement(s) and 5 technical atom(s) from raw/javascriptallonge.pdf."
+    },
+    {
+      "category": "recipe",
+      "name": "javascriptallonge-recipe-say-please",
+      "outbound_links": [
+        "javascriptallonge",
+        "javascriptallonge-section-copy-on-write-making-data-out-of-functions-say-please-c42d16f5"
+      ],
+      "sources": [
+        "raw/javascriptallonge.pdf"
+      ],
+      "summary": "say 'please': reusable source-backed pattern with 5 statement(s) and 5 technical atom(s) from raw/javascriptallonge.pdf."
+    },
+    {
+      "category": "recipe",
+      "name": "javascriptallonge-recipe-shadowy-variables-from-a-shadowy-planet",
+      "outbound_links": [
+        "javascriptallonge",
+        "javascriptallonge-section-and-also-closures-and-scope-shadowy-variables-from-a-shadowy-planet-71d66043"
+      ],
+      "sources": [
+        "raw/javascriptallonge.pdf"
+      ],
+      "summary": "shadowy variables from a shadowy planet: reusable source-backed pattern with 8 statement(s) and 2 technical atom(s) from raw/javascriptallonge.pdf."
+    },
+    {
+      "category": "recipe",
+      "name": "javascriptallonge-recipe-some-history",
+      "outbound_links": [
+        "javascriptallonge",
+        "javascriptallonge-section-garbage-garbage-everywhere-some-history-a956a93b"
+      ],
+      "sources": [
+        "raw/javascriptallonge.pdf"
+      ],
+      "summary": "some history: reusable source-backed pattern with 17 statement(s) and 6 technical atom(s) from raw/javascriptallonge.pdf."
+    },
+    {
+      "category": "recipe",
+      "name": "javascriptallonge-recipe-tail-call-optimization",
+      "outbound_links": [
+        "javascriptallonge",
+        "javascriptallonge-section-composing-and-decomposing-data-tail-calls-and-default-arguments-tail-call-optimization-766c0a60"
+      ],
+      "sources": [
+        "raw/javascriptallonge.pdf"
+      ],
+      "summary": "tail-call optimization: reusable source-backed pattern with 11 statement(s) and 2 technical atom(s) from raw/javascriptallonge.pdf."
+    },
+    {
+      "category": "recipe",
+      "name": "javascriptallonge-recipe-tap",
+      "outbound_links": [
+        "javascriptallonge",
+        "javascriptallonge-section-recipes-with-basic-functions-tap-bcbc81bc"
+      ],
+      "sources": [
+        "raw/javascriptallonge.pdf"
+      ],
+      "summary": "Tap: reusable source-backed pattern with 4 statement(s) and 3 technical atom(s) from raw/javascriptallonge.pdf."
+    },
+    {
+      "category": "recipe",
+      "name": "javascriptallonge-recipe-the-carpenter-s-solution",
+      "outbound_links": [
+        "javascriptallonge",
+        "javascriptallonge-section-interlude-the-carpenter-interviews-for-a-job-the-carpenter-s-solution-b3771f17"
+      ],
+      "sources": [
+        "raw/javascriptallonge.pdf"
+      ],
+      "summary": "the carpenter's solution: reusable source-backed pattern with 12 statement(s) and 7 technical atom(s) from raw/javascriptallonge.pdf."
+    },
+    {
+      "category": "recipe",
+      "name": "javascriptallonge-recipe-the-function-keyword",
+      "outbound_links": [
+        "javascriptallonge",
+        "javascriptallonge-section-and-also-naming-functions-the-function-keyword-443f109f"
+      ],
+      "sources": [
+        "raw/javascriptallonge.pdf"
+      ],
+      "summary": "the function keyword: reusable source-backed pattern with 17 statement(s) and 13 technical atom(s) from raw/javascriptallonge.pdf."
+    },
+    {
+      "category": "recipe",
+      "name": "javascriptallonge-recipe-the-function-keyword-b21492ad",
+      "outbound_links": [
+        "javascriptallonge",
+        "javascriptallonge-section-and-also-magic-names-the-function-keyword-b21492ad"
+      ],
+      "sources": [
+        "raw/javascriptallonge.pdf"
+      ],
+      "summary": "the function keyword: reusable source-backed pattern with 6 statement(s) and 4 technical atom(s) from raw/javascriptallonge.pdf."
+    },
+    {
+      "category": "recipe",
+      "name": "javascriptallonge-recipe-the-kestrel-and-the-idiot",
+      "outbound_links": [
+        "javascriptallonge",
+        "javascriptallonge-section-copy-on-write-making-data-out-of-functions-the-kestrel-and-the-idiot-301fbaf6"
+      ],
+      "sources": [
+        "raw/javascriptallonge.pdf"
+      ],
+      "summary": "the kestrel and the idiot: reusable source-backed pattern with 7 statement(s) and 6 technical atom(s) from raw/javascriptallonge.pdf."
+    },
+    {
+      "category": "recipe",
+      "name": "javascriptallonge-recipe-the-vireo",
+      "outbound_links": [
+        "javascriptallonge",
+        "javascriptallonge-section-copy-on-write-making-data-out-of-functions-the-vireo-b7923ab5"
+      ],
+      "sources": [
+        "raw/javascriptallonge.pdf"
+      ],
+      "summary": "the vireo: reusable source-backed pattern with 8 statement(s) and 4 technical atom(s) from raw/javascriptallonge.pdf."
+    },
+    {
+      "category": "recipe",
+      "name": "javascriptallonge-recipe-tortoises-hares-and-teleporting-turtles",
+      "outbound_links": [
+        "javascriptallonge",
+        "javascriptallonge-section-copy-on-write-tortoises-hares-and-teleporting-turtles-62bfcbc0"
+      ],
+      "sources": [
+        "raw/javascriptallonge.pdf"
+      ],
+      "summary": "Tortoises, Hares, and Teleporting Turtles: reusable source-backed pattern with 8 statement(s) and 3 technical atom(s) from raw/javascriptallonge.pdf."
+    },
+    {
+      "category": "recipe",
+      "name": "javascriptallonge-recipe-truthiness-and-operators",
+      "outbound_links": [
+        "javascriptallonge",
+        "javascriptallonge-section-picking-the-bean-choice-and-truthiness-truthiness-and-operators-e7aa9191"
+      ],
+      "sources": [
+        "raw/javascriptallonge.pdf"
+      ],
+      "summary": "truthiness and operators: reusable source-backed pattern with 8 statement(s) and 2 technical atom(s) from raw/javascriptallonge.pdf."
+    },
+    {
+      "category": "recipe",
+      "name": "javascriptallonge-recipe-truthiness-and-the-ternary-operator",
+      "outbound_links": [
+        "javascriptallonge",
+        "javascriptallonge-section-picking-the-bean-choice-and-truthiness-truthiness-and-the-ternary-operator-9ad8528f"
+      ],
+      "sources": [
+        "raw/javascriptallonge.pdf"
+      ],
+      "summary": "truthiness and the ternary operator: reusable source-backed pattern with 13 statement(s) and 1 technical atom(s) from raw/javascriptallonge.pdf."
+    },
+    {
+      "category": "recipe",
+      "name": "javascriptallonge-recipe-unary",
+      "outbound_links": [
+        "javascriptallonge",
+        "javascriptallonge-section-recipes-with-basic-functions-unary-84c3ae50"
+      ],
+      "sources": [
+        "raw/javascriptallonge.pdf"
+      ],
+      "summary": "Unary: reusable source-backed pattern with 6 statement(s) and 5 technical atom(s) from raw/javascriptallonge.pdf."
+    },
+    {
+      "category": "recipe",
+      "name": "javascriptallonge-recipe-undefined",
+      "outbound_links": [
+        "javascriptallonge",
+        "javascriptallonge-section-or-even-the-simplest-possible-block-undefined-7e43bbd5"
+      ],
+      "sources": [
+        "raw/javascriptallonge.pdf"
+      ],
+      "summary": "undefined: reusable source-backed pattern with 8 statement(s) and 3 technical atom(s) from raw/javascriptallonge.pdf."
+    },
+    {
+      "category": "recipe",
+      "name": "javascriptallonge-recipe-unfolding-and-laziness",
+      "outbound_links": [
+        "javascriptallonge",
+        "javascriptallonge-section-copy-on-write-functional-iterators-unfolding-and-laziness-34b94643"
+      ],
+      "sources": [
+        "raw/javascriptallonge.pdf"
+      ],
+      "summary": "unfolding and laziness: reusable source-backed pattern with 6 statement(s) and 8 technical atom(s) from raw/javascriptallonge.pdf."
+    },
+    {
+      "category": "recipe",
+      "name": "javascriptallonge-recipe-var",
+      "outbound_links": [
+        "javascriptallonge",
+        "javascriptallonge-section-reassignment-mixing-let-and-const-var-9446c873"
+      ],
+      "sources": [
+        "raw/javascriptallonge.pdf"
+      ],
+      "summary": "var: reusable source-backed pattern with 7 statement(s) and 6 technical atom(s) from raw/javascriptallonge.pdf."
+    },
+    {
+      "category": "recipe",
+      "name": "javascriptallonge-recipe-variables-and-bindings",
+      "outbound_links": [
+        "javascriptallonge",
+        "javascriptallonge-section-and-also-variables-and-bindings-baf19230"
+      ],
+      "sources": [
+        "raw/javascriptallonge.pdf"
+      ],
+      "summary": "variables and bindings: reusable source-backed pattern with 15 statement(s) and 2 technical atom(s) from raw/javascriptallonge.pdf."
+    },
+    {
+      "category": "recipe",
+      "name": "javascriptallonge-recipe-why",
+      "outbound_links": [
+        "javascriptallonge",
+        "javascriptallonge-section-recipes-with-data-why-3f8e67cf"
+      ],
+      "sources": [
+        "raw/javascriptallonge.pdf"
+      ],
+      "summary": "Why?: reusable source-backed pattern with 6 statement(s) and 3 technical atom(s) from raw/javascriptallonge.pdf."
+    },
+    {
+      "category": "recipe",
+      "name": "javascriptallonge-recipe-why-const-and-let-were-invented",
+      "outbound_links": [
+        "javascriptallonge",
+        "javascriptallonge-section-reassignment-why-const-and-let-were-invented-d4d91fa1"
+      ],
+      "sources": [
+        "raw/javascriptallonge.pdf"
+      ],
+      "summary": "why const and let were invented: reusable source-backed pattern with 10 statement(s) and 1 technical atom(s) from raw/javascriptallonge.pdf."
+    },
+    {
+      "category": "recipe",
+      "name": "javascriptallonge-recipe-why-the-six-edition",
+      "outbound_links": [
+        "javascriptallonge",
+        "javascriptallonge-section-a-pull-of-the-lever-prefaces-about-javascript-allong-why-the-six-edition-35c3fb78"
+      ],
+      "sources": [
+        "raw/javascriptallonge.pdf"
+      ],
+      "summary": "why the 'six' edition?: reusable source-backed pattern with 15 statement(s) and 6 technical atom(s) from raw/javascriptallonge.pdf."
+    },
+    {
+      "category": "recipe",
+      "name": "javascriptallonge-recipe-will-be-represented-as",
+      "outbound_links": [
+        "javascriptallonge",
+        "javascriptallonge-section-interactive-generators-representing-naughts-and-crosses-as-a-stateless-function-will-be-represen-f1dabfc6"
+      ],
+      "sources": [
+        "raw/javascriptallonge.pdf"
+      ],
+      "summary": "Will be represented as: reusable source-backed pattern with 2 statement(s) and 3 technical atom(s) from raw/javascriptallonge.pdf."
+    },
+    {
+      "category": "recipe",
+      "name": "javascriptallonge-recipe-yes-consider-this-variation",
+      "outbound_links": [
+        "javascriptallonge",
+        "javascriptallonge-section-yes-consider-this-variation-db4ad8a2"
+      ],
+      "sources": [
+        "raw/javascriptallonge.pdf"
+      ],
+      "summary": "Yes. Consider this variation: reusable source-backed pattern with 9 statement(s) and 6 technical atom(s) from raw/javascriptallonge.pdf."
+    },
+    {
+      "category": "recipe",
+      "name": "javascriptallonge-recipe-yielding-iterables",
+      "outbound_links": [
+        "javascriptallonge",
+        "javascriptallonge-section-served-by-the-pot-collections-generating-iterables-yielding-iterables-0e804668"
+      ],
+      "sources": [
+        "raw/javascriptallonge.pdf"
+      ],
+      "summary": "yielding iterables: reusable source-backed pattern with 6 statement(s) and 8 technical atom(s) from raw/javascriptallonge.pdf."
     },
     {
       "category": "concept",
@@ -41563,12 +44477,27 @@
         "sword-world-rpg-complete-edition-procedure-difficulty-checks",
         "sword-world-rpg-complete-edition-procedure-excellent-weapons-and-armor",
         "sword-world-rpg-complete-edition-procedure-horse",
-        "sword-world-rpg-complete-edition-procedure-unconscious-and-death-checks"
+        "sword-world-rpg-complete-edition-procedure-unconscious-and-death-checks",
+        "sword-world-rpg-complete-edition-recipe-18-1-rules-for-awarding-greater-experience-points",
+        "sword-world-rpg-complete-edition-recipe-3-2-1-delaying-an-action",
+        "sword-world-rpg-complete-edition-recipe-3-2-action-order",
+        "sword-world-rpg-complete-edition-recipe-area",
+        "sword-world-rpg-complete-edition-recipe-boomerang",
+        "sword-world-rpg-complete-edition-recipe-folklore-knowledge-intelligence-not-retriable",
+        "sword-world-rpg-complete-edition-recipe-full-control-spirit-various-lesser-spirits",
+        "sword-world-rpg-complete-edition-recipe-how-to-read-the-monster-catalog",
+        "sword-world-rpg-complete-edition-recipe-perception",
+        "sword-world-rpg-complete-edition-recipe-protective-circle",
+        "sword-world-rpg-complete-edition-recipe-reaction",
+        "sword-world-rpg-complete-edition-recipe-riding-agility",
+        "sword-world-rpg-complete-edition-recipe-rules-for-sleeping-monsters",
+        "sword-world-rpg-complete-edition-recipe-swim-agility",
+        "sword-world-rpg-complete-edition-recipe-the-meaning-of-the-rulebook"
       ],
       "sources": [
         "raw/Sword World RPG - Complete Edition.pdf"
       ],
-      "summary": "Claim-ledger projection (rules-reference): 12209 usable entries, 4693 technical atoms, 907 needs-review, 1280 linked page(s); write decision write-with-review-work."
+      "summary": "Claim-ledger projection (rules-reference): 12209 usable entries, 4693 technical atoms, 907 needs-review, 1295 linked page(s); write decision write-with-review-work."
     },
     {
       "category": "concept",
@@ -42768,6 +45697,186 @@
         "raw/Sword World RPG - Complete Edition.pdf"
       ],
       "summary": "Ray: 1 statement(s) and 1 atom(s) from raw/Sword World RPG - Complete Edition.pdf."
+    },
+    {
+      "category": "recipe",
+      "name": "sword-world-rpg-complete-edition-recipe-18-1-rules-for-awarding-greater-experience-points",
+      "outbound_links": [
+        "sword-world-rpg-complete-edition",
+        "sword-world-rpg-complete-edition-section-18-1-rules-for-awarding-greater-experience-points-7c15cfe5"
+      ],
+      "sources": [
+        "raw/Sword World RPG - Complete Edition.pdf"
+      ],
+      "summary": "18.1 Rules for Awarding Greater Experience Points: reusable source-backed pattern with 9 statement(s) and 1 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf."
+    },
+    {
+      "category": "recipe",
+      "name": "sword-world-rpg-complete-edition-recipe-3-2-1-delaying-an-action",
+      "outbound_links": [
+        "sword-world-rpg-complete-edition",
+        "sword-world-rpg-complete-edition-section-chapter-3-3-2-1-delaying-an-action-98203a92"
+      ],
+      "sources": [
+        "raw/Sword World RPG - Complete Edition.pdf"
+      ],
+      "summary": "3.2.1 Delaying an Action: reusable source-backed pattern with 7 statement(s) and 1 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf."
+    },
+    {
+      "category": "recipe",
+      "name": "sword-world-rpg-complete-edition-recipe-3-2-action-order",
+      "outbound_links": [
+        "sword-world-rpg-complete-edition",
+        "sword-world-rpg-complete-edition-section-chapter-3-3-2-action-order-0a8e2138"
+      ],
+      "sources": [
+        "raw/Sword World RPG - Complete Edition.pdf"
+      ],
+      "summary": "3.2 Action Order: reusable source-backed pattern with 13 statement(s) and 1 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf."
+    },
+    {
+      "category": "recipe",
+      "name": "sword-world-rpg-complete-edition-recipe-area",
+      "outbound_links": [
+        "sword-world-rpg-complete-edition",
+        "sword-world-rpg-complete-edition-section-sample-magic-details-area-6a47f6c1"
+      ],
+      "sources": [
+        "raw/Sword World RPG - Complete Edition.pdf"
+      ],
+      "summary": "\u300a Area \u300b: reusable source-backed pattern with 4 statement(s) and 1 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf."
+    },
+    {
+      "category": "recipe",
+      "name": "sword-world-rpg-complete-edition-recipe-boomerang",
+      "outbound_links": [
+        "sword-world-rpg-complete-edition",
+        "sword-world-rpg-complete-edition-section-chapter-16-16-9-special-weapons-boomerang-c239f583"
+      ],
+      "sources": [
+        "raw/Sword World RPG - Complete Edition.pdf"
+      ],
+      "summary": "Boomerang: reusable source-backed pattern with 2 statement(s) and 1 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf."
+    },
+    {
+      "category": "recipe",
+      "name": "sword-world-rpg-complete-edition-recipe-folklore-knowledge-intelligence-not-retriable",
+      "outbound_links": [
+        "sword-world-rpg-complete-edition",
+        "sword-world-rpg-complete-edition-section-chapter-6-bard-skill-medicines-intelligence-appraisal-only-not-retriable-folklore-knowledge-inte-1a2021b3"
+      ],
+      "sources": [
+        "raw/Sword World RPG - Complete Edition.pdf"
+      ],
+      "summary": "[ \u2464 Folklore Knowledge [Intelligence] ] (Not retriable): reusable source-backed pattern with 1 statement(s) and 1 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf."
+    },
+    {
+      "category": "recipe",
+      "name": "sword-world-rpg-complete-edition-recipe-full-control-spirit-various-lesser-spirits",
+      "outbound_links": [
+        "sword-world-rpg-complete-edition",
+        "sword-world-rpg-complete-edition-section-5-1-14-spirit-magic-list-magic-list-full-control-spirit-various-lesser-spirits-e38f7396"
+      ],
+      "sources": [
+        "raw/Sword World RPG - Complete Edition.pdf"
+      ],
+      "summary": "[ Full Control Spirit ] (Various lesser spirits): reusable source-backed pattern with 2 statement(s) and 1 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf."
+    },
+    {
+      "category": "recipe",
+      "name": "sword-world-rpg-complete-edition-recipe-how-to-read-the-monster-catalog",
+      "outbound_links": [
+        "sword-world-rpg-complete-edition",
+        "sword-world-rpg-complete-edition-section-13-2-1-humans-monster-catalog-how-to-read-the-monster-catalog-35efd787"
+      ],
+      "sources": [
+        "raw/Sword World RPG - Complete Edition.pdf"
+      ],
+      "summary": "How to Read the Monster Catalog: reusable source-backed pattern with 1 statement(s) and 1 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf."
+    },
+    {
+      "category": "recipe",
+      "name": "sword-world-rpg-complete-edition-recipe-perception",
+      "outbound_links": [
+        "sword-world-rpg-complete-edition",
+        "sword-world-rpg-complete-edition-section-13-2-1-humans-perception-55f8f7ca"
+      ],
+      "sources": [
+        "raw/Sword World RPG - Complete Edition.pdf"
+      ],
+      "summary": "\u300a Perception \u300b: reusable source-backed pattern with 15 statement(s) and 1 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf."
+    },
+    {
+      "category": "recipe",
+      "name": "sword-world-rpg-complete-edition-recipe-protective-circle",
+      "outbound_links": [
+        "sword-world-rpg-complete-edition",
+        "sword-world-rpg-complete-edition-section-4th-level-basic-holy-magic-list-cure-disease-protective-circle-eab62bcf"
+      ],
+      "sources": [
+        "raw/Sword World RPG - Complete Edition.pdf"
+      ],
+      "summary": "[ Protective Circle ]: reusable source-backed pattern with 5 statement(s) and 1 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf."
+    },
+    {
+      "category": "recipe",
+      "name": "sword-world-rpg-complete-edition-recipe-reaction",
+      "outbound_links": [
+        "sword-world-rpg-complete-edition",
+        "sword-world-rpg-complete-edition-section-13-2-1-humans-reaction-ea4ee40f"
+      ],
+      "sources": [
+        "raw/Sword World RPG - Complete Edition.pdf"
+      ],
+      "summary": "\u300a Reaction \u300b: reusable source-backed pattern with 16 statement(s) and 1 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf."
+    },
+    {
+      "category": "recipe",
+      "name": "sword-world-rpg-complete-edition-recipe-riding-agility",
+      "outbound_links": [
+        "sword-world-rpg-complete-edition",
+        "sword-world-rpg-complete-edition-section-chapter-6-common-adventurer-abilities-riding-agility-84a32022"
+      ],
+      "sources": [
+        "raw/Sword World RPG - Complete Edition.pdf"
+      ],
+      "summary": "[ \u2460 Riding [Agility] ]: reusable source-backed pattern with 4 statement(s) and 1 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf."
+    },
+    {
+      "category": "recipe",
+      "name": "sword-world-rpg-complete-edition-recipe-rules-for-sleeping-monsters",
+      "outbound_links": [
+        "sword-world-rpg-complete-edition",
+        "sword-world-rpg-complete-edition-section-10-5-attacks-against-the-sleeping-rules-for-sleeping-monsters-21c2f8ac"
+      ],
+      "sources": [
+        "raw/Sword World RPG - Complete Edition.pdf"
+      ],
+      "summary": "Rules for Sleeping Monsters: reusable source-backed pattern with 15 statement(s) and 1 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf."
+    },
+    {
+      "category": "recipe",
+      "name": "sword-world-rpg-complete-edition-recipe-swim-agility",
+      "outbound_links": [
+        "sword-world-rpg-complete-edition",
+        "sword-world-rpg-complete-edition-section-chapter-6-common-adventurer-abilities-swim-agility-fd4642f2"
+      ],
+      "sources": [
+        "raw/Sword World RPG - Complete Edition.pdf"
+      ],
+      "summary": "[ \u2461 Swim [Agility] ]: reusable source-backed pattern with 12 statement(s) and 1 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf."
+    },
+    {
+      "category": "recipe",
+      "name": "sword-world-rpg-complete-edition-recipe-the-meaning-of-the-rulebook",
+      "outbound_links": [
+        "sword-world-rpg-complete-edition",
+        "sword-world-rpg-complete-edition-section-the-meaning-of-the-rulebook-910ef587"
+      ],
+      "sources": [
+        "raw/Sword World RPG - Complete Edition.pdf"
+      ],
+      "summary": "The Meaning of the Rulebook: reusable source-backed pattern with 21 statement(s) and 2 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf."
     },
     {
       "category": "concept",
