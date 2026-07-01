@@ -4,7 +4,7 @@ page_kind: concept
 summary: Dream Spirit: 3 statement(s) and 8 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: topic-concept
 sources: raw/Sword World RPG - Complete Edition.pdf
-updated: 2026-06-30
+updated: 2026-07-01
 domain: sword-world-rpg-complete-edition
 category_path: concepts
 projection_coverage: topic-sword-world-rpg-complete-edition-dream-spirit@d76cb35c1d87e8baaab823c0f1077029

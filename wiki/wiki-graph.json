@@ -8283,7 +8283,37 @@
     {
       "resolved": true,
       "source": "sword-world-rpg-complete-edition",
+      "target": "sword-world-rpg-complete-edition-procedure-attacks-from-characters-against-characters"
+    },
+    {
+      "resolved": true,
+      "source": "sword-world-rpg-complete-edition",
+      "target": "sword-world-rpg-complete-edition-procedure-attacks-from-monsters-against-characters"
+    },
+    {
+      "resolved": true,
+      "source": "sword-world-rpg-complete-edition",
       "target": "sword-world-rpg-complete-edition-procedure-create-character"
+    },
+    {
+      "resolved": true,
+      "source": "sword-world-rpg-complete-edition",
+      "target": "sword-world-rpg-complete-edition-procedure-difficulty-checks"
+    },
+    {
+      "resolved": true,
+      "source": "sword-world-rpg-complete-edition",
+      "target": "sword-world-rpg-complete-edition-procedure-excellent-weapons-and-armor"
+    },
+    {
+      "resolved": true,
+      "source": "sword-world-rpg-complete-edition",
+      "target": "sword-world-rpg-complete-edition-procedure-horse"
+    },
+    {
+      "resolved": true,
+      "source": "sword-world-rpg-complete-edition",
+      "target": "sword-world-rpg-complete-edition-procedure-unconscious-and-death-checks"
     },
     {
       "resolved": true,
@@ -9932,6 +9962,61 @@
     },
     {
       "resolved": true,
+      "source": "sword-world-rpg-complete-edition-procedure-attacks-from-characters-against-characters",
+      "target": "sword-world-rpg-complete-edition"
+    },
+    {
+      "resolved": true,
+      "source": "sword-world-rpg-complete-edition-procedure-attacks-from-characters-against-characters",
+      "target": "sword-world-rpg-complete-edition-section-4-7-attacks-from-characters-against-characters-4-7-1-hit-checks-3ebc1137"
+    },
+    {
+      "resolved": true,
+      "source": "sword-world-rpg-complete-edition-procedure-attacks-from-characters-against-characters",
+      "target": "sword-world-rpg-complete-edition-section-4-7-attacks-from-characters-against-characters-4-7-2-damage-checks-d211c392"
+    },
+    {
+      "resolved": true,
+      "source": "sword-world-rpg-complete-edition-procedure-attacks-from-characters-against-characters",
+      "target": "sword-world-rpg-complete-edition-section-4-7-attacks-from-characters-against-characters-86d787cb"
+    },
+    {
+      "resolved": true,
+      "source": "sword-world-rpg-complete-edition-procedure-attacks-from-monsters-against-characters",
+      "target": "sword-world-rpg-complete-edition"
+    },
+    {
+      "resolved": true,
+      "source": "sword-world-rpg-complete-edition-procedure-attacks-from-monsters-against-characters",
+      "target": "sword-world-rpg-complete-edition-section-attacks-from-monsters-against-characters-4-6-1-hit-evasion-checks-6637c605"
+    },
+    {
+      "resolved": true,
+      "source": "sword-world-rpg-complete-edition-procedure-attacks-from-monsters-against-characters",
+      "target": "sword-world-rpg-complete-edition-section-attacks-from-monsters-against-characters-4-6-3-defense-rolls-6e7df75a"
+    },
+    {
+      "resolved": true,
+      "source": "sword-world-rpg-complete-edition-procedure-attacks-from-monsters-against-characters",
+      "target": "sword-world-rpg-complete-edition-section-attacks-from-monsters-against-characters-4-6-4-damage-reduction-b3691cec"
+    },
+    {
+      "resolved": true,
+      "source": "sword-world-rpg-complete-edition-procedure-attacks-from-monsters-against-characters",
+      "target": "sword-world-rpg-complete-edition-section-attacks-from-monsters-against-characters-4-6-5-final-damage-cb8f53e4"
+    },
+    {
+      "resolved": true,
+      "source": "sword-world-rpg-complete-edition-procedure-attacks-from-monsters-against-characters",
+      "target": "sword-world-rpg-complete-edition-section-attacks-from-monsters-against-characters-a9a9211c"
+    },
+    {
+      "resolved": true,
+      "source": "sword-world-rpg-complete-edition-procedure-attacks-from-monsters-against-characters",
+      "target": "sword-world-rpg-complete-edition-section-attacks-from-monsters-against-characters-monsters-77a3fb28"
+    },
+    {
+      "resolved": true,
       "source": "sword-world-rpg-complete-edition-procedure-create-character",
       "target": "sword-world-rpg-complete-edition"
     },
@@ -9984,6 +10069,146 @@
       "resolved": true,
       "source": "sword-world-rpg-complete-edition-procedure-create-character",
       "target": "sword-world-rpg-complete-edition-section-1-4-character-creation-f6aa6108"
+    },
+    {
+      "resolved": true,
+      "source": "sword-world-rpg-complete-edition-procedure-difficulty-checks",
+      "target": "sword-world-rpg-complete-edition"
+    },
+    {
+      "resolved": true,
+      "source": "sword-world-rpg-complete-edition-procedure-difficulty-checks",
+      "target": "sword-world-rpg-complete-edition-section-2-5-difficulty-checks-2-5-1-difficulty-24f6c32c"
+    },
+    {
+      "resolved": true,
+      "source": "sword-world-rpg-complete-edition-procedure-difficulty-checks",
+      "target": "sword-world-rpg-complete-edition-section-2-5-difficulty-checks-2-5-2-how-to-make-a-difficulty-check-6d909d75"
+    },
+    {
+      "resolved": true,
+      "source": "sword-world-rpg-complete-edition-procedure-difficulty-checks",
+      "target": "sword-world-rpg-complete-edition-section-2-5-difficulty-checks-2-5-3-analogy-of-success-and-failure-86286098"
+    },
+    {
+      "resolved": true,
+      "source": "sword-world-rpg-complete-edition-procedure-difficulty-checks",
+      "target": "sword-world-rpg-complete-edition-section-2-5-difficulty-checks-d95d8c9d"
+    },
+    {
+      "resolved": true,
+      "source": "sword-world-rpg-complete-edition-procedure-excellent-weapons-and-armor",
+      "target": "sword-world-rpg-complete-edition"
+    },
+    {
+      "resolved": true,
+      "source": "sword-world-rpg-complete-edition-procedure-excellent-weapons-and-armor",
+      "target": "sword-world-rpg-complete-edition-section-4-10-excellent-weapons-and-armor-1d473647"
+    },
+    {
+      "resolved": true,
+      "source": "sword-world-rpg-complete-edition-procedure-excellent-weapons-and-armor",
+      "target": "sword-world-rpg-complete-edition-section-4-10-excellent-weapons-and-armor-4-10-2-silver-weapons-and-armor-dadef958"
+    },
+    {
+      "resolved": true,
+      "source": "sword-world-rpg-complete-edition-procedure-excellent-weapons-and-armor",
+      "target": "sword-world-rpg-complete-edition-section-4-10-excellent-weapons-and-armor-4-10-3-magical-weapons-and-armor-cdf3ce21"
+    },
+    {
+      "resolved": true,
+      "source": "sword-world-rpg-complete-edition-procedure-excellent-weapons-and-armor",
+      "target": "sword-world-rpg-complete-edition-section-4-10-excellent-weapons-and-armor-4-10-4-mithril-silver-weapons-and-armor-8cb5003a"
+    },
+    {
+      "resolved": true,
+      "source": "sword-world-rpg-complete-edition-procedure-excellent-weapons-and-armor",
+      "target": "sword-world-rpg-complete-edition-section-4-10-excellent-weapons-and-armor-and-armor-d6445b45"
+    },
+    {
+      "resolved": true,
+      "source": "sword-world-rpg-complete-edition-procedure-horse",
+      "target": "sword-world-rpg-complete-edition"
+    },
+    {
+      "resolved": true,
+      "source": "sword-world-rpg-complete-edition-procedure-horse",
+      "target": "sword-world-rpg-complete-edition-section-13-2-6-mythical-beasts-and-magical-beasts-horse-13-2-10-magical-creatures-0e88a6a0"
+    },
+    {
+      "resolved": true,
+      "source": "sword-world-rpg-complete-edition-procedure-horse",
+      "target": "sword-world-rpg-complete-edition-section-13-2-6-mythical-beasts-and-magical-beasts-horse-13-2-11-daemons-underworld-creatures-692da0bd"
+    },
+    {
+      "resolved": true,
+      "source": "sword-world-rpg-complete-edition-procedure-horse",
+      "target": "sword-world-rpg-complete-edition-section-13-2-6-mythical-beasts-and-magical-beasts-horse-13-2-12-humans-b1a222f1"
+    },
+    {
+      "resolved": true,
+      "source": "sword-world-rpg-complete-edition-procedure-horse",
+      "target": "sword-world-rpg-complete-edition-section-13-2-6-mythical-beasts-and-magical-beasts-horse-13-2-13-other-1185d157"
+    },
+    {
+      "resolved": true,
+      "source": "sword-world-rpg-complete-edition-procedure-horse",
+      "target": "sword-world-rpg-complete-edition-section-13-2-6-mythical-beasts-and-magical-beasts-horse-13-2-8-plants-6ae09235"
+    },
+    {
+      "resolved": true,
+      "source": "sword-world-rpg-complete-edition-procedure-horse",
+      "target": "sword-world-rpg-complete-edition-section-13-2-6-mythical-beasts-and-magical-beasts-horse-13-3-converting-character-data-to-monster-data-3a448e24"
+    },
+    {
+      "resolved": true,
+      "source": "sword-world-rpg-complete-edition-procedure-horse",
+      "target": "sword-world-rpg-complete-edition-section-13-2-6-mythical-beasts-and-magical-beasts-horse-13-4-representing-special-monsters-with-characte-a07b5e34"
+    },
+    {
+      "resolved": true,
+      "source": "sword-world-rpg-complete-edition-procedure-horse",
+      "target": "sword-world-rpg-complete-edition-section-13-2-6-mythical-beasts-and-magical-beasts-horse-13-5-monster-level-and-adventurer-level-ee4c9cb3"
+    },
+    {
+      "resolved": true,
+      "source": "sword-world-rpg-complete-edition-procedure-horse",
+      "target": "sword-world-rpg-complete-edition-section-13-2-6-mythical-beasts-and-magical-beasts-horse-13-6-handling-monster-special-abilities-11888df1"
+    },
+    {
+      "resolved": true,
+      "source": "sword-world-rpg-complete-edition-procedure-horse",
+      "target": "sword-world-rpg-complete-edition-section-13-2-6-mythical-beasts-and-magical-beasts-horse-9c294c60"
+    },
+    {
+      "resolved": true,
+      "source": "sword-world-rpg-complete-edition-procedure-unconscious-and-death-checks",
+      "target": "sword-world-rpg-complete-edition"
+    },
+    {
+      "resolved": true,
+      "source": "sword-world-rpg-complete-edition-procedure-unconscious-and-death-checks",
+      "target": "sword-world-rpg-complete-edition-section-4-9-unconscious-and-death-checks-4-9-1-adventurer-death-checks-5131304c"
+    },
+    {
+      "resolved": true,
+      "source": "sword-world-rpg-complete-edition-procedure-unconscious-and-death-checks",
+      "target": "sword-world-rpg-complete-edition-section-4-9-unconscious-and-death-checks-4-9-2-death-checks-every-hour-f62c02d6"
+    },
+    {
+      "resolved": true,
+      "source": "sword-world-rpg-complete-edition-procedure-unconscious-and-death-checks",
+      "target": "sword-world-rpg-complete-edition-section-4-9-unconscious-and-death-checks-4-9-3-monster-death-check-3624af68"
+    },
+    {
+      "resolved": true,
+      "source": "sword-world-rpg-complete-edition-procedure-unconscious-and-death-checks",
+      "target": "sword-world-rpg-complete-edition-section-4-9-unconscious-and-death-checks-4-9-4-mercy-f26f4d54"
+    },
+    {
+      "resolved": true,
+      "source": "sword-world-rpg-complete-edition-procedure-unconscious-and-death-checks",
+      "target": "sword-world-rpg-complete-edition-section-4-9-unconscious-and-death-checks-e6129e9c"
     },
     {
       "resolved": true,
@@ -36797,7 +37022,7 @@
     }
   ],
   "metadata": {
-    "generated_date": "2026-06-30",
+    "generated_date": "2026-07-01",
     "generator": "llmwiki.graph.v1",
     "schema_version": 1,
     "system_pages": "excluded"
@@ -41332,12 +41557,18 @@
       "category": "source",
       "name": "sword-world-rpg-complete-edition",
       "outbound_links": [
-        "sword-world-rpg-complete-edition-procedure-create-character"
+        "sword-world-rpg-complete-edition-procedure-attacks-from-characters-against-characters",
+        "sword-world-rpg-complete-edition-procedure-attacks-from-monsters-against-characters",
+        "sword-world-rpg-complete-edition-procedure-create-character",
+        "sword-world-rpg-complete-edition-procedure-difficulty-checks",
+        "sword-world-rpg-complete-edition-procedure-excellent-weapons-and-armor",
+        "sword-world-rpg-complete-edition-procedure-horse",
+        "sword-world-rpg-complete-edition-procedure-unconscious-and-death-checks"
       ],
       "sources": [
         "raw/Sword World RPG - Complete Edition.pdf"
       ],
-      "summary": "Claim-ledger projection (rules-reference): 12209 usable entries, 4693 technical atoms, 907 needs-review, 1274 linked page(s); write decision write-with-review-work."
+      "summary": "Claim-ledger projection (rules-reference): 12209 usable entries, 4693 technical atoms, 907 needs-review, 1280 linked page(s); write decision write-with-review-work."
     },
     {
       "category": "concept",
@@ -42370,6 +42601,37 @@
     },
     {
       "category": "procedure",
+      "name": "sword-world-rpg-complete-edition-procedure-attacks-from-characters-against-characters",
+      "outbound_links": [
+        "sword-world-rpg-complete-edition",
+        "sword-world-rpg-complete-edition-section-4-7-attacks-from-characters-against-characters-4-7-1-hit-checks-3ebc1137",
+        "sword-world-rpg-complete-edition-section-4-7-attacks-from-characters-against-characters-4-7-2-damage-checks-d211c392",
+        "sword-world-rpg-complete-edition-section-4-7-attacks-from-characters-against-characters-86d787cb"
+      ],
+      "sources": [
+        "raw/Sword World RPG - Complete Edition.pdf"
+      ],
+      "summary": "Complete Attacks From Characters Against Characters: 2 ordered step(s), 3 decision point(s), and 14 table/formula/example reference(s) from raw/Sword World RPG - Complete Edition.pdf."
+    },
+    {
+      "category": "procedure",
+      "name": "sword-world-rpg-complete-edition-procedure-attacks-from-monsters-against-characters",
+      "outbound_links": [
+        "sword-world-rpg-complete-edition",
+        "sword-world-rpg-complete-edition-section-attacks-from-monsters-against-characters-4-6-1-hit-evasion-checks-6637c605",
+        "sword-world-rpg-complete-edition-section-attacks-from-monsters-against-characters-4-6-3-defense-rolls-6e7df75a",
+        "sword-world-rpg-complete-edition-section-attacks-from-monsters-against-characters-4-6-4-damage-reduction-b3691cec",
+        "sword-world-rpg-complete-edition-section-attacks-from-monsters-against-characters-4-6-5-final-damage-cb8f53e4",
+        "sword-world-rpg-complete-edition-section-attacks-from-monsters-against-characters-a9a9211c",
+        "sword-world-rpg-complete-edition-section-attacks-from-monsters-against-characters-monsters-77a3fb28"
+      ],
+      "sources": [
+        "raw/Sword World RPG - Complete Edition.pdf"
+      ],
+      "summary": "Complete Attacks From Monsters Against Characters: 5 ordered step(s), 0 decision point(s), and 10 table/formula/example reference(s) from raw/Sword World RPG - Complete Edition.pdf."
+    },
+    {
+      "category": "procedure",
       "name": "sword-world-rpg-complete-edition-procedure-create-character",
       "outbound_links": [
         "sword-world-rpg-complete-edition",
@@ -42387,7 +42649,75 @@
       "sources": [
         "raw/Sword World RPG - Complete Edition.pdf"
       ],
-      "summary": "Create Character: 9 ordered step(s), 28 decision point(s), and 61 table/formula/example reference(s) from raw/Sword World RPG - Complete Edition.pdf."
+      "summary": "Create Character: 9 ordered step(s), 3 decision point(s), and 61 table/formula/example reference(s) from raw/Sword World RPG - Complete Edition.pdf."
+    },
+    {
+      "category": "procedure",
+      "name": "sword-world-rpg-complete-edition-procedure-difficulty-checks",
+      "outbound_links": [
+        "sword-world-rpg-complete-edition",
+        "sword-world-rpg-complete-edition-section-2-5-difficulty-checks-2-5-1-difficulty-24f6c32c",
+        "sword-world-rpg-complete-edition-section-2-5-difficulty-checks-2-5-2-how-to-make-a-difficulty-check-6d909d75",
+        "sword-world-rpg-complete-edition-section-2-5-difficulty-checks-2-5-3-analogy-of-success-and-failure-86286098",
+        "sword-world-rpg-complete-edition-section-2-5-difficulty-checks-d95d8c9d"
+      ],
+      "sources": [
+        "raw/Sword World RPG - Complete Edition.pdf"
+      ],
+      "summary": "Complete Difficulty Checks: 3 ordered step(s), 4 decision point(s), and 7 table/formula/example reference(s) from raw/Sword World RPG - Complete Edition.pdf."
+    },
+    {
+      "category": "procedure",
+      "name": "sword-world-rpg-complete-edition-procedure-excellent-weapons-and-armor",
+      "outbound_links": [
+        "sword-world-rpg-complete-edition",
+        "sword-world-rpg-complete-edition-section-4-10-excellent-weapons-and-armor-1d473647",
+        "sword-world-rpg-complete-edition-section-4-10-excellent-weapons-and-armor-4-10-2-silver-weapons-and-armor-dadef958",
+        "sword-world-rpg-complete-edition-section-4-10-excellent-weapons-and-armor-4-10-3-magical-weapons-and-armor-cdf3ce21",
+        "sword-world-rpg-complete-edition-section-4-10-excellent-weapons-and-armor-4-10-4-mithril-silver-weapons-and-armor-8cb5003a",
+        "sword-world-rpg-complete-edition-section-4-10-excellent-weapons-and-armor-and-armor-d6445b45"
+      ],
+      "sources": [
+        "raw/Sword World RPG - Complete Edition.pdf"
+      ],
+      "summary": "Complete Excellent Weapons and Armor: 4 ordered step(s), 10 decision point(s), and 47 table/formula/example reference(s) from raw/Sword World RPG - Complete Edition.pdf."
+    },
+    {
+      "category": "procedure",
+      "name": "sword-world-rpg-complete-edition-procedure-horse",
+      "outbound_links": [
+        "sword-world-rpg-complete-edition",
+        "sword-world-rpg-complete-edition-section-13-2-6-mythical-beasts-and-magical-beasts-horse-13-2-10-magical-creatures-0e88a6a0",
+        "sword-world-rpg-complete-edition-section-13-2-6-mythical-beasts-and-magical-beasts-horse-13-2-11-daemons-underworld-creatures-692da0bd",
+        "sword-world-rpg-complete-edition-section-13-2-6-mythical-beasts-and-magical-beasts-horse-13-2-12-humans-b1a222f1",
+        "sword-world-rpg-complete-edition-section-13-2-6-mythical-beasts-and-magical-beasts-horse-13-2-13-other-1185d157",
+        "sword-world-rpg-complete-edition-section-13-2-6-mythical-beasts-and-magical-beasts-horse-13-2-8-plants-6ae09235",
+        "sword-world-rpg-complete-edition-section-13-2-6-mythical-beasts-and-magical-beasts-horse-13-3-converting-character-data-to-monster-data-3a448e24",
+        "sword-world-rpg-complete-edition-section-13-2-6-mythical-beasts-and-magical-beasts-horse-13-4-representing-special-monsters-with-characte-a07b5e34",
+        "sword-world-rpg-complete-edition-section-13-2-6-mythical-beasts-and-magical-beasts-horse-13-5-monster-level-and-adventurer-level-ee4c9cb3",
+        "sword-world-rpg-complete-edition-section-13-2-6-mythical-beasts-and-magical-beasts-horse-13-6-handling-monster-special-abilities-11888df1",
+        "sword-world-rpg-complete-edition-section-13-2-6-mythical-beasts-and-magical-beasts-horse-9c294c60"
+      ],
+      "sources": [
+        "raw/Sword World RPG - Complete Edition.pdf"
+      ],
+      "summary": "Complete [ Horse ]: 9 ordered step(s), 33 decision point(s), and 1199 table/formula/example reference(s) from raw/Sword World RPG - Complete Edition.pdf."
+    },
+    {
+      "category": "procedure",
+      "name": "sword-world-rpg-complete-edition-procedure-unconscious-and-death-checks",
+      "outbound_links": [
+        "sword-world-rpg-complete-edition",
+        "sword-world-rpg-complete-edition-section-4-9-unconscious-and-death-checks-4-9-1-adventurer-death-checks-5131304c",
+        "sword-world-rpg-complete-edition-section-4-9-unconscious-and-death-checks-4-9-2-death-checks-every-hour-f62c02d6",
+        "sword-world-rpg-complete-edition-section-4-9-unconscious-and-death-checks-4-9-3-monster-death-check-3624af68",
+        "sword-world-rpg-complete-edition-section-4-9-unconscious-and-death-checks-4-9-4-mercy-f26f4d54",
+        "sword-world-rpg-complete-edition-section-4-9-unconscious-and-death-checks-e6129e9c"
+      ],
+      "sources": [
+        "raw/Sword World RPG - Complete Edition.pdf"
+      ],
+      "summary": "Complete Unconscious and Death Checks: 4 ordered step(s), 5 decision point(s), and 9 table/formula/example reference(s) from raw/Sword World RPG - Complete Edition.pdf."
     },
     {
       "category": "concept",

@@ -4,7 +4,7 @@ page_kind: concept
 summary: 10 Magical Weapon: 6 statement(s) and 1 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: topic-concept
 sources: raw/Sword World RPG - Complete Edition.pdf
-updated: 2026-06-30
+updated: 2026-07-01
 domain: sword-world-rpg-complete-edition
 category_path: concepts
 projection_coverage: topic-sword-world-rpg-complete-edition-10-magical-weapon@867a7a512f178d69edf6941aaf1df0af

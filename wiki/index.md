@@ -206,7 +206,7 @@
 - [[javascriptallonge-section-the-golden-crema-appendices-and-afterwords-thanks-daniel-friedman-and-matthias-felleisen-328936ab]] — The Golden Crema: Appendices and Afterwords / Thanks! / Daniel Friedman and Matthias Felleisen: 2 source-backed entries and 0 atom(s) from raw/javascriptallonge.pdf.
 - [[javascriptallonge-section-the-golden-crema-appendices-and-afterwords-thanks-richard-feynman-aacee893]] — The Golden Crema: Appendices and Afterwords / Thanks! / Richard Feynman: 3 source-backed entries and 0 atom(s) from raw/javascriptallonge.pdf.
 - [[javascriptallonge-section-yes-consider-this-variation-db4ad8a2]] — Yes. Consider this variation:: 16 source-backed entries and 0 atom(s) from raw/javascriptallonge.pdf.
-- [[sword-world-rpg-complete-edition]] — Claim-ledger projection (rules-reference): 12209 usable entries, 4693 technical atoms, 907 needs-review, 1274 linked page(s); write decision write-with-review-work.
+- [[sword-world-rpg-complete-edition]] — Claim-ledger projection (rules-reference): 12209 usable entries, 4693 technical atoms, 907 needs-review, 1280 linked page(s); write decision write-with-review-work.
 - [[sword-world-rpg-complete-edition-section-1-2-races-4e414960]] — 1.2 Races: 140 source-backed entries and 1 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
 - [[sword-world-rpg-complete-edition-section-1-2-races-elf-f299994c]] — 1.2 Races / 【 Elf 】: 13 source-backed entries and 0 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
 - [[sword-world-rpg-complete-edition-section-1-2-races-grassrunner-e4946bfe]] — 1.2 Races / 【 Grassrunner 】: 19 source-backed entries and 0 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
@@ -1568,7 +1568,13 @@
 - [[sword-world-rpg-complete-edition-weapon-critical]] — 《 Weapons Cannot Critical 》: 15 statement(s) and 2 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
 
 ## Procedures
-- [[sword-world-rpg-complete-edition-procedure-create-character]] — Create Character: 9 ordered step(s), 28 decision point(s), and 61 table/formula/example reference(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-procedure-attacks-from-characters-against-characters]] — Complete Attacks From Characters Against Characters: 2 ordered step(s), 3 decision point(s), and 14 table/formula/example reference(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-procedure-attacks-from-monsters-against-characters]] — Complete Attacks From Monsters Against Characters: 5 ordered step(s), 0 decision point(s), and 10 table/formula/example reference(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-procedure-create-character]] — Create Character: 9 ordered step(s), 3 decision point(s), and 61 table/formula/example reference(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-procedure-difficulty-checks]] — Complete Difficulty Checks: 3 ordered step(s), 4 decision point(s), and 7 table/formula/example reference(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-procedure-excellent-weapons-and-armor]] — Complete Excellent Weapons and Armor: 4 ordered step(s), 10 decision point(s), and 47 table/formula/example reference(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-procedure-horse]] — Complete [ Horse ]: 9 ordered step(s), 33 decision point(s), and 1199 table/formula/example reference(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-procedure-unconscious-and-death-checks]] — Complete Unconscious and Death Checks: 4 ordered step(s), 5 decision point(s), and 9 table/formula/example reference(s) from raw/Sword World RPG - Complete Edition.pdf.
 
 ## Syntheses
 - [[wiki-health]] — Wiki health report from the latest lint pass (2026-06-30).

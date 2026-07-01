@@ -4,7 +4,7 @@ page_kind: concept
 summary: 【 Damage Reduction 】: 23 statement(s) and 2 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: broad-topic
 sources: raw/Sword World RPG - Complete Edition.pdf
-updated: 2026-06-30
+updated: 2026-07-01
 domain: sword-world-rpg-complete-edition
 category_path: concepts
 projection_coverage: topic-sword-world-rpg-complete-edition-damage-reduction@f434eb4a562c773e1afa0c412b37f84a

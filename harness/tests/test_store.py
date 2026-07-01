@@ -5,10 +5,12 @@ import pytest
 from llmwiki.config import SOURCE_READ_BUDGET_CHARS, WikiPaths
 from llmwiki.domain.pages import PageMetadata, PathTemplate, WikiPage, WikiStructure
 from llmwiki.store import PageNotFoundError, SourceNotFoundError, WikiStore, WikiStoreError
-from llmwiki.workflows.tools import (
-    grounded_chat_respond_tool,
+from llmwiki.workflows.chat_response_tools import grounded_chat_respond_tool
+from llmwiki.workflows.wiki_read_tools import (
     inspect_page_tool,
     read_page_tool,
+)
+from llmwiki.workflows.wiki_write_tools import (
     write_page_tool,
 )
 

@@ -3,34 +3,17 @@
 from __future__ import annotations
 
 import re
-from collections.abc import Mapping, Sequence
+from collections.abc import Mapping
 from dataclasses import dataclass
 from enum import StrEnum
 
 from llmwiki.domain.chatwindow import estimate_tokens
-from llmwiki.domain.links import extract_links
-from llmwiki.domain.pages import PageError, PageMetadata, parse_page
 from llmwiki.domain.retrieval import render_context_pack, retrieve_wiki_context
-from llmwiki.domain.search import SearchHit
 
 CHAT_GROUNDING_TOKEN_BUDGET = 3500
 CHAT_GROUNDING_HIT_LIMIT = 12
 
 _INDEX_LINK_RE = re.compile(r"\[\[([a-z0-9][a-z0-9-]*)\]\]")
-_ANY_WIKILINK_RE = re.compile(r"\[\[([^\]]+)\]\]")
-_PAGE_ID_RE = re.compile(r"[a-z0-9-]+(?:\|[^\]]+)?")
-_AGGREGATE_PAGE_FAMILIES = frozenset({"source-manifest", "broad-topic"})
-_FOCUSED_PAGE_FAMILIES = frozenset(
-    {
-        "source-summary",
-        "section-reference",
-        "topic-concept",
-        "procedure-guide",
-        "entity-profile",
-        "cross-source-synthesis",
-    }
-)
-_SUGGESTED_FOCUSED_PAGES = 4
 
 
 class ChatEvidenceMode(StrEnum):
@@ -63,151 +46,6 @@ class ChatGroundingPlan:
     @property
     def require_wiki_read(self) -> bool:
         return self.evidence_mode is not ChatEvidenceMode.CONVERSATION
-
-
-@dataclass(frozen=True)
-class ChatEvidenceCandidate:
-    page_id: str
-    score: int
-    page_family: str
-
-    @property
-    def is_aggregate(self) -> bool:
-        return self.page_family in _AGGREGATE_PAGE_FAMILIES
-
-    @property
-    def is_focused(self) -> bool:
-        if not self.page_family:
-            return True
-        return self.page_family in _FOCUSED_PAGE_FAMILIES
-
-
-@dataclass(frozen=True)
-class ChatEvidenceReadDecision:
-    allowed: bool
-    message: str = ""
-
-
-@dataclass(frozen=True)
-class ChatResponseCitationDecision:
-    allowed: bool
-    message: str = ""
-
-
-@dataclass(frozen=True)
-class ChatResponseCitationPolicy:
-    """Citation contract for a chat answer grounded in read wiki pages."""
-
-    read_page_ids: frozenset[str]
-
-    def response_decision(self, message: str) -> ChatResponseCitationDecision:
-        if not self.read_page_ids:
-            return ChatResponseCitationDecision(allowed=True)
-        malformed_links = _malformed_wikilinks(message)
-        if malformed_links:
-            examples = ", ".join(f"[[{link}]]" for link in sorted(malformed_links)[:3])
-            return ChatResponseCitationDecision(
-                allowed=False,
-                message=(
-                    "Use [[page-id]] links only for actual wiki page IDs read for "
-                    "this answer. Do not wrap table titles or labels in wiki links; "
-                    f"write them as plain text instead. Invalid link(s): {examples}."
-                ),
-            )
-        page_links = extract_links(message)
-        unread_links = page_links - self.read_page_ids
-        if unread_links:
-            examples = ", ".join(f"[[{link}]]" for link in sorted(unread_links)[:3])
-            return ChatResponseCitationDecision(
-                allowed=False,
-                message=(
-                    "Only cite wiki pages read for this answer. Remove unread "
-                    f"wiki link(s) or cite a read page instead: {examples}."
-                ),
-            )
-        cited_read_pages = extract_links(message) & self.read_page_ids
-        if cited_read_pages:
-            return ChatResponseCitationDecision(allowed=True)
-        suggestions = ", ".join(f"[[{page_id}]]" for page_id in sorted(self.read_page_ids)[:3])
-        return ChatResponseCitationDecision(
-            allowed=False,
-            message=(
-                "Cite at least one wiki page read for this answer with a [[page-id]] "
-                f"link, such as {suggestions}. Raw source citations alone are not "
-                "enough because the chat answer must identify the wiki evidence page."
-            ),
-        )
-
-
-def _malformed_wikilinks(message: str) -> frozenset[str]:
-    return frozenset(
-        link for link in _ANY_WIKILINK_RE.findall(message) if _PAGE_ID_RE.fullmatch(link) is None
-    )
-
-
-@dataclass(frozen=True)
-class ChatEvidenceScope:
-    """The evidence pages a content chat turn discovered before tool use."""
-
-    candidates: tuple[ChatEvidenceCandidate, ...] = ()
-
-    @classmethod
-    def from_search_hits(
-        cls, pages: Mapping[str, str], hits: Sequence[SearchHit]
-    ) -> ChatEvidenceScope:
-        candidates: list[ChatEvidenceCandidate] = []
-        for hit in hits:
-            text = pages.get(hit.page_id)
-            if text is None:
-                continue
-            try:
-                page = parse_page(text)
-            except PageError:
-                continue
-            candidates.append(
-                ChatEvidenceCandidate(
-                    page_id=hit.page_id,
-                    score=hit.score,
-                    page_family=page.page_metadata.page_family,
-                )
-            )
-        return cls(tuple(candidates))
-
-    def read_decision(self, metadata: PageMetadata) -> ChatEvidenceReadDecision:
-        if metadata.page_family not in _AGGREGATE_PAGE_FAMILIES:
-            return ChatEvidenceReadDecision(allowed=True)
-        focused = self._focused_candidates()
-        if not focused:
-            return ChatEvidenceReadDecision(allowed=True)
-        aggregate_score = self._candidate_score(metadata.page_id)
-        best_focused_score = max(candidate.score for candidate in focused)
-        if aggregate_score > best_focused_score:
-            return ChatEvidenceReadDecision(allowed=True)
-        suggestions = ", ".join(f"[[{candidate.page_id}]]" for candidate in focused[:4])
-        return ChatEvidenceReadDecision(
-            allowed=False,
-            message=(
-                f"Do not use [[{metadata.page_id}]] as evidence for this focused "
-                f"lookup: it is a broad {metadata.page_family} page, and the "
-                "current search scope has more focused pages with at least as "
-                f"much relevance. Read one of these instead: {suggestions}."
-            ),
-        )
-
-    def _focused_candidates(self) -> tuple[ChatEvidenceCandidate, ...]:
-        focused = tuple(candidate for candidate in self.candidates if candidate.is_focused)
-        return tuple(
-            sorted(
-                focused,
-                key=lambda candidate: (-candidate.score, candidate.page_id),
-            )[:_SUGGESTED_FOCUSED_PAGES]
-        )
-
-    def _candidate_score(self, page_id: str) -> int:
-        for candidate in self.candidates:
-            if candidate.page_id == page_id:
-                return candidate.score
-        return 0
 
 
 _CATALOG_TERMS = re.compile(

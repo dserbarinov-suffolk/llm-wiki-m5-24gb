@@ -4,7 +4,7 @@ page_kind: concept
 summary: Sword Breaker: 2 statement(s) and 1 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: topic-concept
 sources: raw/Sword World RPG - Complete Edition.pdf
-updated: 2026-06-30
+updated: 2026-07-01
 domain: sword-world-rpg-complete-edition
 category_path: concepts
 projection_coverage: topic-sword-world-rpg-complete-edition-sword-breaker@28d54102b5aae82a0e184276e4083337

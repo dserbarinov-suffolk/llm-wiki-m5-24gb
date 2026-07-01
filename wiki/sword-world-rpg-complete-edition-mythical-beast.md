@@ -4,7 +4,7 @@ page_kind: concept
 summary: Mythical Beast: 7 statement(s) and 0 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: topic-concept
 sources: raw/Sword World RPG - Complete Edition.pdf
-updated: 2026-06-30
+updated: 2026-07-01
 domain: sword-world-rpg-complete-edition
 category_path: concepts
 projection_coverage: topic-sword-world-rpg-complete-edition-mythical-beast@8405f8ca6fe543895705618d6c6605d5

@@ -4,7 +4,7 @@ page_kind: concept
 summary: 【 Ability Bonuses 】: 8 statement(s) and 2 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: topic-concept
 sources: raw/Sword World RPG - Complete Edition.pdf
-updated: 2026-06-30
+updated: 2026-07-01
 domain: sword-world-rpg-complete-edition
 category_path: concepts
 projection_coverage: topic-sword-world-rpg-complete-edition-ability-bonuse@a8e29462d5ea941de06d36e5f00b0b9b

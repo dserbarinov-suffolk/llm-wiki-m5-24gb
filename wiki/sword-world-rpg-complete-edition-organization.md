@@ -4,7 +4,7 @@ page_kind: concept
 summary: Organization: 8 statement(s) and 2 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: topic-concept
 sources: raw/Sword World RPG - Complete Edition.pdf
-updated: 2026-06-30
+updated: 2026-07-01
 domain: sword-world-rpg-complete-edition
 category_path: concepts
 projection_coverage: topic-sword-world-rpg-complete-edition-organization@84856f108045b69eb364747c47622d1d

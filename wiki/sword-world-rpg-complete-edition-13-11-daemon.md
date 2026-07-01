@@ -4,7 +4,7 @@ page_kind: concept
 summary: 13 11 Daemon: 4 statement(s) and 7 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: topic-concept
 sources: raw/Sword World RPG - Complete Edition.pdf
-updated: 2026-06-30
+updated: 2026-07-01
 domain: sword-world-rpg-complete-edition
 category_path: concepts
 projection_coverage: topic-sword-world-rpg-complete-edition-13-11-daemon@3960ea4fcfa7a1ccdfb76feb80ff9ce1

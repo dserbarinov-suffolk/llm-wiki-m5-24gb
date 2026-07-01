@@ -14,15 +14,9 @@ from pathlib import Path
 from typing import Any
 
 from forge.context import ContextManager
-from forge.core.messages import Message, MessageMeta, MessageRole, MessageType
+from forge.core.messages import Message
 from forge.core.runner import WorkflowRunner
 
-from llmwiki.domain.chat_grounding import (
-    ChatEvidenceScope,
-    ChatTaskMode,
-    plan_chat_grounding,
-    render_grounded_user_message,
-)
 from llmwiki.domain.chatwindow import QAPair
 from llmwiki.domain.claim_support import (
     ClaimSupportAuditReport,
@@ -55,8 +49,6 @@ from llmwiki.domain.planning import (
     page_plan_to_json,
 )
 from llmwiki.domain.salience import compute_salience
-from llmwiki.domain.search import render_hits, search_pages
-from llmwiki.domain.task_evidence import build_task_evidence_pack
 from llmwiki.pdf import PdfError
 from llmwiki.pdf.document import DocumentModel
 from llmwiki.pdf.pipeline import (
@@ -66,6 +58,7 @@ from llmwiki.pdf.pipeline import (
     read_source_text,
     save_manifest,
 )
+from llmwiki.runtime.chat_turn import prepare_chat_turn
 from llmwiki.runtime.cross_source_pipeline import build_cross_source_pages
 from llmwiki.runtime.ingest_confidence import record_post_ingest_confidence
 from llmwiki.runtime.ledger_pipeline import build_source_ledger
@@ -75,7 +68,6 @@ from llmwiki.runtime.provenance_audit_render import render_markdown
 from llmwiki.runtime.transcript import TranscriptWriter
 from llmwiki.store import WikiStore
 from llmwiki.workflows import (
-    build_chat_workflow,
     build_claim_support_workflow,
     build_lint_workflow,
     build_query_workflow,
@@ -369,56 +361,19 @@ class Session:
         with the question, so the opening answer starts from the catalog
         and drills into pages — grounding by provisioning, not enforcement.
         """
-        grounding_plan = plan_chat_grounding(question, grounded=grounded, has_window=bool(window))
-        pages = self.store.page_texts()
-        index_text = self.store.read_index() if grounding_plan.include_index else ""
-        search_results = ""
-        evidence_scope: ChatEvidenceScope | None = None
-        task_evidence_pack_text = ""
-        task_evidence_pack = None
-        procedure_execution_required = False
-        if grounding_plan.include_search_results:
-            hits = search_pages(pages, question)
-            search_results = render_hits(hits)
-            evidence_scope = ChatEvidenceScope.from_search_hits(pages, hits)
-            task_evidence_pack = build_task_evidence_pack(
-                pages,
-                hits,
-                task_mode=grounding_plan.task_mode,
-            )
-            if task_evidence_pack is not None:
-                procedure_execution_required = (
-                    grounding_plan.task_mode is ChatTaskMode.EXECUTE_PROCEDURE
-                )
-                task_evidence_pack_text = task_evidence_pack.render(
-                    require_procedure_execution=procedure_execution_required
-                )
-        workflow = build_chat_workflow(
+        prepared = prepare_chat_turn(
             self.store,
-            allow_index_response=grounding_plan.allow_index_response,
-            require_wiki_read=grounding_plan.require_wiki_read,
-            evidence_scope=evidence_scope,
-            task_evidence_pack=task_evidence_pack,
-            require_procedure_execution=procedure_execution_required,
+            question=question,
+            window=window,
+            grounded=grounded,
         )
-        rendered = workflow.build_system_prompt(schema=self.store.read_schema())
-        seed = [Message(MessageRole.SYSTEM, rendered, MessageMeta(MessageType.SYSTEM_PROMPT))]
-        for pair in window:
-            seed.append(
-                Message(MessageRole.USER, pair.question, MessageMeta(MessageType.USER_INPUT))
-            )
-            seed.append(
-                Message(MessageRole.ASSISTANT, pair.answer, MessageMeta(MessageType.TEXT_RESPONSE))
-            )
-        message = render_grounded_user_message(
-            question + " /no_think",
-            grounding_plan,
-            index_text=index_text,
-            search_results=search_results,
-            task_evidence_pack=task_evidence_pack_text,
+        return await self._run(
+            prepared.workflow,
+            prepared.message,
+            "chat",
+            tag=tag,
+            initial_messages=list(prepared.initial_messages),
         )
-        seed.append(Message(MessageRole.USER, message, MessageMeta(MessageType.USER_INPUT)))
-        return await self._run(workflow, message, "chat", tag=tag, initial_messages=seed)
 
     async def lint(self) -> OperationResult:
         findings = compute_findings(

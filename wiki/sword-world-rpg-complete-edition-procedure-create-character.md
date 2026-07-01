@@ -1,15 +1,15 @@
 ---
 page_id: sword-world-rpg-complete-edition-procedure-create-character
 page_kind: procedure
-summary: Create Character: 9 ordered step(s), 28 decision point(s), and 61 table/formula/example reference(s) from raw/Sword World RPG - Complete Edition.pdf.
+summary: Create Character: 9 ordered step(s), 3 decision point(s), and 61 table/formula/example reference(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: procedure-guide
 sources: raw/Sword World RPG - Complete Edition.pdf
-updated: 2026-06-30
+updated: 2026-07-01
 domain: sword-world-rpg-complete-edition
 category_path: procedures/sword-world-rpg-complete-edition
 source_id: Sword World RPG - Complete Edition.pdf
 aliases: create-character, character-creation
-projection_coverage: procedure-sword-world-rpg-complete-edition-procedure-create-character@159ad2a39ba38fa65de226440edbc45c
+projection_coverage: procedure-sword-world-rpg-complete-edition-procedure-create-character@2ea531fbebdf62e4a4364062b286f4b7
 ---
 
 # Create Character
@@ -59,29 +59,24 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Decision Points
 
-- This character can be considered fairly mediocre except for the excellent life force bonus. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-00370))_
-- If they've acquired the sage skill, they can choose to come from either the merchant or scholar background. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-00377))_
-- If they wish to have a special background such as noble or rune master , they may discuss this with the game master. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-00377))_
-- If a character has acquired the merchant skill, they must always come from the merchant background. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-00377))_
-- For races other than human (except for half-elves raised by humans), the starting skills and experience points are determined by race (Table 1-6: Starting Experience by Race). _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-00415))_
-- When deciding on the age of a character, it should be between 15 years old and around 30 years old at most for a human. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-00425))_
-- Of course, it's natural that they'll die earlier than this if they're ill or wounded. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-00425))_
-- Whether or not a person is recognized as an adult is not only a matter of physical growth, but also a matter of social judgment. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-00428))_
+- If the player's background is merchant/scholar (roll 8), they must choose either 3rd level in the merchant skill or 3rd level in the sage skill for their character to acquire. If a character has acquired the merchant skill, they must always come from the merchant background. If they've acquired the sage skill, they can choose to come from either the merchant or scholar background. The backgrounds table does not always have to be used. Players may, if they so choose, create a character as if they were always an ordinary citizen . If they wish to have a special background such as noble or rune master , they may discuss this with the game master. These are placed on rows of the background table that are difficult to roll, and so they're given preferential treatment in terms of experience points. Such special backgrounds are not allowed without the game master's permission. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-00377))_
+- When deciding on the age of a character, it should be between 15 years old and around 30 years old at most for a human. The life span of a human is about 100 years old. Of course, it's natural that they'll die earlier than this if they're ill or wounded. In Alecrast, the average life span of a human is about 50 years due to underdeveloped medical care. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-00425))_
+- If you want to make use of your shaman skill, your armor is limited to cloth , soft leather , or hard leather . Of these, the one with the greatest required strength within the character's strength range should be chosen. Also, you should not buy a shield. When choosing a weapon, since you're not buying a shield, it's a good idea to choose a two-handed weapon if at all possible. It is fundamental to match your strength to the required strength of the weapon. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-00815, source-range-0d48087c-00816))_
 
 ## Tables And Formulas
 
-- `rule`: If they were raised by elves, there is a restriction that they cannot acquire the priest skill. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-00303))_
-- `rule`: Once you've chosen a race, you can determine your ability scores. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-00308))_
 - `formula`: Table 1-3: Determining Sub-Ability Scores shows how to determine subability scores for each race. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-00309))_
 - `table`: Table 1-3: Determining Sub-Ability Scores _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-00342))_
 - `formula`: Table 1-4: Average Ability Scores by Race _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-00344))_
-- `table`: 1.4.3 Starting Skills and Starting _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-00345))_
-- `table`: Table 1-5: Backgrounds _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-00346))_
-- `formula`: 9+7= 16 _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-00354))_
-- `formula`: 7+5= 12 _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-00356))_
-- `formula`: 5+8= 13 _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-00358))_
-- `formula`: 6+8= 14 _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-00360))_
-- `formula`: 8+10= 18 _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-00362))_
+- `rule`: If the player's background is merchant/scholar (roll 8), they must choose either 3rd level in the merchant skill or 3rd  _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-00377))_
+- `table`: Table 1-6: Starting Experience by Race _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-00378))_
+- `rule`: If you have enough experience points, you can acquire multiple skills. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-00454))_
+- `formula`: Table 1-7: Experience Points by Skill (at Character Creation) _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-00460))_
+- `formula`: Please determine how much money you have by following the instructions on Table 1-5: Backgrounds or Table 1-6: Starting  _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-00497))_
+- `rule`: When buying weapons and armor, one must be aware of their required strength . _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-00633))_
+- `rule`: Therefore, if the required strength of the weapon you're buying on Table 1-8: Weapons does not match your character's st _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-00636))_
+- `formula`: 14 (required strength) x 20 + 40 = 320. Prices are in gamels ( G ). _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-00758))_
+- `rule`: If the equipment has both unrestricted and restricted skills, please understand that your equipment must conform to the  _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-00761))_
 
 ## Completion Check
 

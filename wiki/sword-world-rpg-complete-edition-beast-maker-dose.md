@@ -4,7 +4,7 @@ page_kind: concept
 summary: Beast Maker Dose: 2 statement(s) and 1 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: topic-concept
 sources: raw/Sword World RPG - Complete Edition.pdf
-updated: 2026-06-30
+updated: 2026-07-01
 domain: sword-world-rpg-complete-edition
 category_path: concepts
 projection_coverage: topic-sword-world-rpg-complete-edition-beast-maker-dose@0e04eedc9b809e2721dfbacc7603c3f5

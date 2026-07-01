@@ -4,7 +4,7 @@ page_kind: source
 summary: 13.2.3 Youma / [ Gremlin ] Monster Level=2 Rarity=9 Agility=17 Movement Speed=6/8 (air) Number=One to several Frequency=Rare Intellect=Human Reaction=Adversarial Attack Points=Fangs: 9 (2) Strike Points=3 Evasion Points=11 (4) Defense Points=4 Life Points/Resistance=8/9 (2) Mental Points/Resistance=14/10 (3) Special Abilities=2nd level spirit magic (Magic Intensity/Magic Power=11/4) Habitat=Mountains, highlands Languages=Impish, silent spirit Perception=Five senses (infravision): 6 source-backed entries and 0 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: section-reference
 sources: raw/Sword World RPG - Complete Edition.pdf
-updated: 2026-06-30
+updated: 2026-07-01
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf

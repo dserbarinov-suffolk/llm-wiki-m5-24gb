@@ -4,7 +4,7 @@ page_kind: source
 summary: 13.2.6 Mythical Beasts and Magical Beasts / [ Scylla ] Monster Level=4 Rarity=13 Agility=12 Movement Speed=12/12 (water) Number=One Frequency=Rare Intellect=Human Reaction=Adversarial: 11 source-backed entries and 0 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: section-reference
 sources: raw/Sword World RPG - Complete Edition.pdf
-updated: 2026-06-30
+updated: 2026-07-01
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf

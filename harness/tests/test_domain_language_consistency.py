@@ -10,10 +10,12 @@ from llmwiki.domain.links import compute_findings
 from llmwiki.domain.objects import LintRun, SourcePlan
 from llmwiki.domain.pages import PageMetadata, WikiPage, render_page
 from llmwiki.domain.schema import PAGE_KINDS, PAGE_METADATA_FIELDS
-from llmwiki.workflows.tools import (
+from llmwiki.workflows.wiki_read_tools import (
     InspectPageParams,
     ReadPageParams,
     ReadSourceParams,
+)
+from llmwiki.workflows.wiki_write_tools import (
     WritePageParams,
 )
 
@@ -24,7 +26,8 @@ CORE_FILES = (
     "harness/src/llmwiki/domain/objects.py",
     "harness/src/llmwiki/domain/links.py",
     "harness/src/llmwiki/store/wiki_store.py",
-    "harness/src/llmwiki/workflows/tools.py",
+    "harness/src/llmwiki/workflows/wiki_read_tools.py",
+    "harness/src/llmwiki/workflows/wiki_write_tools.py",
     "harness/src/llmwiki/runtime/session.py",
 )
 

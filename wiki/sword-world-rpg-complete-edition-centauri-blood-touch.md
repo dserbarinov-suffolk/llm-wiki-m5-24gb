@@ -4,7 +4,7 @@ page_kind: concept
 summary: Centauri Blood Touch: 1 statement(s) and 0 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: topic-concept
 sources: raw/Sword World RPG - Complete Edition.pdf
-updated: 2026-06-30
+updated: 2026-07-01
 domain: sword-world-rpg-complete-edition
 category_path: concepts
 projection_coverage: topic-sword-world-rpg-complete-edition-centauri-blood-touch@969684e78b241c39a920aeb13cbf244a

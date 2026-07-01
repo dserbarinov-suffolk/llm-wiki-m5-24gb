@@ -4,7 +4,7 @@ page_kind: concept
 summary: Double Ones: 4 statement(s) and 2 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: topic-concept
 sources: raw/Sword World RPG - Complete Edition.pdf
-updated: 2026-06-30
+updated: 2026-07-01
 domain: sword-world-rpg-complete-edition
 category_path: concepts
 projection_coverage: topic-sword-world-rpg-complete-edition-double-ones@eb114b7e4f3ea7397c2f63152b7295e5

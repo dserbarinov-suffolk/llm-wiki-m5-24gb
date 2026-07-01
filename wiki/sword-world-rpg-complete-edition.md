@@ -1,14 +1,14 @@
 ---
 page_id: sword-world-rpg-complete-edition
 page_kind: source
-summary: Claim-ledger projection (rules-reference): 12209 usable entries, 4693 technical atoms, 907 needs-review, 1274 linked page(s); write decision write-with-review-work.
+summary: Claim-ledger projection (rules-reference): 12209 usable entries, 4693 technical atoms, 907 needs-review, 1280 linked page(s); write decision write-with-review-work.
 page_family: source-manifest
 sources: raw/Sword World RPG - Complete Edition.pdf
-updated: 2026-06-30
+updated: 2026-07-01
 domain: sword-world-rpg-complete-edition
 category_path: sources
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: projection-coverage-877ad25e5d12e3d8@a90a83f0f151b050
+projection_coverage: projection-coverage-08c3c4879e0123e6@6d368808e09c19da
 ---
 
 # What is a Role-Playing Game (RPG)?
@@ -37394,4 +37394,10 @@ Key Number
 
 ## Procedure Guides
 
-- [[sword-world-rpg-complete-edition-procedure-create-character]] - Create Character: 9 ordered step(s), 28 decision point(s), and 61 table/formula/example reference(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-procedure-attacks-from-characters-against-characters]] - Complete Attacks From Characters Against Characters: 2 ordered step(s), 3 decision point(s), and 14 table/formula/example reference(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-procedure-attacks-from-monsters-against-characters]] - Complete Attacks From Monsters Against Characters: 5 ordered step(s), 0 decision point(s), and 10 table/formula/example reference(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-procedure-create-character]] - Create Character: 9 ordered step(s), 3 decision point(s), and 61 table/formula/example reference(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-procedure-difficulty-checks]] - Complete Difficulty Checks: 3 ordered step(s), 4 decision point(s), and 7 table/formula/example reference(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-procedure-excellent-weapons-and-armor]] - Complete Excellent Weapons and Armor: 4 ordered step(s), 10 decision point(s), and 47 table/formula/example reference(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-procedure-horse]] - Complete [ Horse ]: 9 ordered step(s), 33 decision point(s), and 1199 table/formula/example reference(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-procedure-unconscious-and-death-checks]] - Complete Unconscious and Death Checks: 4 ordered step(s), 5 decision point(s), and 9 table/formula/example reference(s) from raw/Sword World RPG - Complete Edition.pdf.
