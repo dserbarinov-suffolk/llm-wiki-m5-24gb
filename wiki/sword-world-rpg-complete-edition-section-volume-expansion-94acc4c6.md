@@ -8,7 +8,7 @@ updated: 2026-06-30
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-volume-expansion-94acc4c6@c6fc75fafb97f16ace048a4d313b26f5
+projection_coverage: section-sword-world-rpg-complete-edition-section-volume-expansion-94acc4c6@1aa29d0ef0c991795e897b8e338a058d
 ---
 
 # 《 Volume Expansion 》
@@ -17,7 +17,6 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-5-1-5-8bf319fe]] - broader source section: 5.1.5
 - [[sword-world-rpg-complete-edition-section-area-expansion-a192d968]] - previous source section: 《 Area Expansion 》
 - [[sword-world-rpg-complete-edition-section-duration-expansion-29faeb1e]] - next source section: 《 Duration Expansion 》
 

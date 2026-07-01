@@ -15,6 +15,7 @@ from llmwiki.domain.ledger.topic_models import SourceTopic
 PAGE_FAMILY_SOURCE_MANIFEST = "source-manifest"
 PAGE_FAMILY_SECTION_REFERENCE = "section-reference"
 PAGE_FAMILY_TOPIC_CONCEPT = "topic-concept"
+PAGE_FAMILY_PROCEDURE_GUIDE = "procedure-guide"
 PAGE_FAMILY_BROAD_TOPIC = "broad-topic"
 
 PROJECTION_ELIGIBILITY_STANDALONE = "standalone-claim"

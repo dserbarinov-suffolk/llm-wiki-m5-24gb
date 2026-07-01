@@ -7,7 +7,7 @@ sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-06-30
 domain: sword-world-rpg-complete-edition
 category_path: concepts
-projection_coverage: topic-sword-world-rpg-complete-edition-remove@031e8f72c179d7f64ca8e71187eb75b4
+projection_coverage: topic-sword-world-rpg-complete-edition-remove@6850100b92436313bf42b1f97153e377
 ---
 
 # Remove
@@ -16,7 +16,7 @@ What [[sword-world-rpg-complete-edition]] covers about remove:
 
 ## Statements
 
-### Thief Skill / [ ⑮ Treasure Appraisal [Intelligence] ] (No equipment restriction, not retriable) / [ ⑰ Remove/Set Trap [Dexterity] ] (Equipment restriction, not retriable)
+### Chapter 6: / 6.1 Precautions When Using Skills / Thief Skill / [ ⑮ Treasure Appraisal [Intelligence] ] (No equipment restriction, not retriable) / [ ⑰ Remove/Set Trap [Dexterity] ] (Equipment restriction, not retriable)
 
 - You can attempt to remove traps discovered through fi nd . Removal also involves attempting a success roll against the trap's difficulty. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-04055))_
 
@@ -27,7 +27,7 @@ What [[sword-world-rpg-complete-edition]] covers about remove:
 
 ## Technical atoms
 
-### Technical frame 1: Thief Skill / [ ⑮ Treasure Appraisal [Intelligence] ] (No equipment restriction, not retriable) / [ ⑰ Remove/Set Trap [Dexterity] ] (Equipment restriction, not retriable)
+### Technical frame 1: Chapter 6: / 6.1 Precautions When Using Skills / Thief Skill / [ ⑮ Treasure Appraisal [Intelligence] ] (No equipment restriction, not retriable) / [ ⑰ Remove/Set Trap [Dexterity] ] (Equipment restriction, not retriable)
 
 **Context:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-04057))_
 
@@ -37,7 +37,7 @@ What [[sword-world-rpg-complete-edition]] covers about remove:
 
 > If you fail, the trap will be activated if the dice roll was 6 or more beneath the target score.
 
-### Technical frame 2: Thief Skill / [ ⑮ Treasure Appraisal [Intelligence] ] (No equipment restriction, not retriable) / [ ⑰ Remove/Set Trap [Dexterity] ] (Equipment restriction, not retriable)
+### Technical frame 2: Chapter 6: / 6.1 Precautions When Using Skills / Thief Skill / [ ⑮ Treasure Appraisal [Intelligence] ] (No equipment restriction, not retriable) / [ ⑰ Remove/Set Trap [Dexterity] ] (Equipment restriction, not retriable)
 
 **Context:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-04056))_
 
@@ -50,7 +50,7 @@ What [[sword-world-rpg-complete-edition]] covers about remove:
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-thief-skill]] - shared statements and technical atoms: 【 Thief Skill 】 shares source evidence from Thief Skill / [ ⑮ Treasure Appraisal [Intelligence] ] (No equipment restriction, not retriable) / [ ⑰ Remove/Set Trap [Dexterity] ] (Equipment restriction, not retriable): You can attempt to remove traps discovered through fi nd . Removal also involves attempting a success roll against the trap's difficulty.; 【 Thief Skill 】 shares technical record from Thief Skill / [ ⑮ Treasure Appraisal [Intelligence] ] (No equipment restriction, not retriable) / [ ⑰ Remove/Set Trap [Dexterity] ] (Equipment restriction, not retriable): If you fail, the trap will be activated if the dice roll was 6 or more beneath the target score. (3 shared statement(s), 2 shared atom(s))
+- [[sword-world-rpg-complete-edition-thief-skill]] - shared statements and technical atoms: 【 Thief Skill 】 shares source evidence from Chapter 6: / 6.1 Precautions When Using Skills / Thief Skill / [ ⑮ Treasure Appraisal [Intelligence] ] (No equipment restriction, not retriable) / [ ⑰ Remove/Set Trap [Dexterity] ] (Equipment restriction, not retriable): You can attempt to remove traps discovered through fi nd . Removal also involves attempting a success roll against the trap's difficulty.; 【 Thief Skill 】 shares technical record from Chapter 6: / 6.1 Precautions When Using Skills / Thief Skill / [ ⑮ Treasure Appraisal [Intelligence] ] (No equipment restriction, not retriable) / [ ⑰ Remove/Set Trap [Dexterity] ] (Equipment restriction, not retriable): If you fail, the trap will be activated if the dice roll was 6 or more beneath the target score. (3 shared statement(s), 2 shared atom(s))
 
 ## Source
 

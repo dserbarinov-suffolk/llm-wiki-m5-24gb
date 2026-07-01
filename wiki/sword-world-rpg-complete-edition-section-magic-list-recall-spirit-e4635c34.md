@@ -8,7 +8,7 @@ updated: 2026-06-30
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-magic-list-recall-spirit-e4635c34@f5d434df511de0d046b458b582d9ba15
+projection_coverage: section-sword-world-rpg-complete-edition-section-magic-list-recall-spirit-e4635c34@bded59ce6043b766c015b9a01ecb57a3
 ---
 
 # Magic List [ Recall Spirit ]
@@ -17,7 +17,6 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-5-1-14-1f53ed62]] - broader source section: 5.1.14
 - [[sword-world-rpg-complete-edition-section-magic-list-recall-spirit-resurrection-cb26a175]] - narrower source section: Magic List [ Recall Spirit ] / [ Resurrection
 - [[sword-world-rpg-complete-edition-section-10th-level-basic-holy-magic-list-call-god-aa2b3933]] - next source section: 10th Level Basic Holy Magic List [ Call God ]
 

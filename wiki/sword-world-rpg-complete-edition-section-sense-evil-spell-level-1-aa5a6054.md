@@ -8,7 +8,7 @@ updated: 2026-06-30
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-sense-evil-spell-level-1-aa5a6054@2729114952f6fea76b713383a49aabec
+projection_coverage: section-sword-world-rpg-complete-edition-section-sense-evil-spell-level-1-aa5a6054@2dcd83b81387d1d59e66f610beb3b9dd
 ---
 
 # [ Sense Evil ] (Spell Level=1)
@@ -17,7 +17,6 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-5-1-14-1f53ed62]] - broader source section: 5.1.14
 - [[sword-world-rpg-complete-edition-section-banish-spell-level-8-92ed6278]] - next source section: [ Banish ] (Spell Level=8)
 
 ## Statements

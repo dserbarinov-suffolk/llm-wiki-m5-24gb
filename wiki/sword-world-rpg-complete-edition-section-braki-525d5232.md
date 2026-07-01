@@ -8,7 +8,7 @@ updated: 2026-06-30
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-braki-525d5232@c9b1f67a2c6deeb3365d4bd536751331
+projection_coverage: section-sword-world-rpg-complete-edition-section-braki-525d5232@44bdfd82662760da36c117523453602e
 ---
 
 # 《 Braki 》
@@ -17,7 +17,6 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-5-1-14-1f53ed62]] - broader source section: 5.1.14
 - [[sword-world-rpg-complete-edition-section-braki-the-nameless-god-of-madness-wicked-god-2e38b743]] - narrower source section: 《 Braki 》 / The Nameless God of Madness (Wicked God)
 - [[sword-world-rpg-complete-edition-section-ganerd-ca0a1c92]] - previous source section: 《 Ganerd 》
 - [[sword-world-rpg-complete-edition-section-kardis-wicked-god-ec34c08d]] - next source section: 《 Kardis (Wicked God) 》

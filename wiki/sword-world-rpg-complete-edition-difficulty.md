@@ -1,13 +1,13 @@
 ---
 page_id: sword-world-rpg-complete-edition-difficulty
 page_kind: concept
-summary: Difficulty: 6 statement(s) and 3 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+summary: Difficulty: 10 statement(s) and 3 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: topic-concept
 sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-06-30
 domain: sword-world-rpg-complete-edition
 category_path: concepts
-projection_coverage: topic-sword-world-rpg-complete-edition-difficulty@c21fc49c83e02bb478696da014a7398a
+projection_coverage: topic-sword-world-rpg-complete-edition-difficulty@2619cabe644fb026185e76edec021bcb
 ---
 
 # Difficulty
@@ -25,6 +25,12 @@ What [[sword-world-rpg-complete-edition]] covers about difficulty:
 - During a difficulty check, it is up to the game master to decide whether or not to reveal the difficulty. However, the difficulty should be made as clear as possible. When a player makes a success roll, they use the baseline score (skill level + ability bonus) and the final score attained from the dice roll to infer the success or failure of the action. At this time, if you don't know the difficulty, it'll be difficult to guess. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-04643))_
 
 - However, this is not possible without knowing the difficulty. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-04645))_
+
+- The time when you should not reveal the difficulty is when revealing the difficulty itself would indicate that something is wrong . For example, suppose one mansion has a difficulty 5 trap and a difficulty 6 trap. What if the difficulty of finding traps has been 5 for a long time, but it suddenly increases to 6? _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-04647))_
+
+- That alone will make players wary. In such cases, it is better to keep the difficulty low. A technique for creating scenarios is to keep the difficulty consistent for success rolls that are likely to be made frequently in one scenario, such as finding traps. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-04648))_
+
+- If you really want to include traps with different difficulties, then when the difficulty changes, just nonchalantly say Okay, make a success roll without telling _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-04649))_
 
 
 ## Technical atoms

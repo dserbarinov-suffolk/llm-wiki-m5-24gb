@@ -7,7 +7,7 @@ sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-06-30
 domain: sword-world-rpg-complete-edition
 category_path: concepts
-projection_coverage: topic-sword-world-rpg-complete-edition-restriction-weapon@4f91e91a3363d48d0516b85b6cb52c2d
+projection_coverage: topic-sword-world-rpg-complete-edition-restriction-weapon@fe8989a3997452a2d7dd087dc7758cf4
 ---
 
 # Restriction Weapon
@@ -16,11 +16,11 @@ What [[sword-world-rpg-complete-edition]] covers about restriction weapon:
 
 ## Statements
 
-### 1.4.7 Restrictions on Weapons and Armor Based on Skill / [ Ranger ]
+### 1.4 Character Creation / 1.4.7 Restrictions on Weapons and Armor Based on Skill / [ Ranger ]
 
 - For weapons, there are no restrictions. Y ou should buy a weapon whose required strength is the same as your own strength. Ranger does not include the ability to fight with melee weapons, but it does include the ability to handle projectiles . Therefore, it is a good idea to choose a projectile, if you have to choose a weapon. On Table 1-8: Weapons, they are indicated as throwable made for throwing , and shooting . _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-00809))_
 
-### 1.4.7 Restrictions on Weapons and Armor Based on Skill / [ Sage, Bard, Priest ]
+### 1.4 Character Creation / 1.4.7 Restrictions on Weapons and Armor Based on Skill / [ Sage, Bard, Priest ]
 
 - These skills have no weapon or armor restrictions. Refer to restrictions on other skills acquired at the same time. If a character has acquired only these skills, the basic idea is to choose weapons and armor whose required strength is the same as their own strength. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-00818))_
 
@@ -29,7 +29,7 @@ What [[sword-world-rpg-complete-edition]] covers about restriction weapon:
 
 ## Technical atoms
 
-### Technical frame 1: 1.4.7 Restrictions on Weapons and Armor Based on Skill / [ Ranger ]
+### Technical frame 1: 1.4 Character Creation / 1.4.7 Restrictions on Weapons and Armor Based on Skill / [ Ranger ]
 
 **Context:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-00809))_
 
@@ -39,7 +39,7 @@ What [[sword-world-rpg-complete-edition]] covers about restriction weapon:
 
 > If you want to make use of your ranger skill, your armor must be light .
 
-### Technical frame 2: 1.4.7 Restrictions on Weapons and Armor Based on Skill / [ Sage, Bard, Priest ]
+### Technical frame 2: 1.4 Character Creation / 1.4.7 Restrictions on Weapons and Armor Based on Skill / [ Sage, Bard, Priest ]
 
 **Context:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-00820))_
 
@@ -49,7 +49,7 @@ What [[sword-world-rpg-complete-edition]] covers about restriction weapon:
 
 > If a character has acquired only these skills, the basic idea is to choose weapons and armor whose required strength is the same as their own strength.
 
-### Technical frame 3: 1.4.7 Restrictions on Weapons and Armor Based on Skill / [ Sage, Bard, Priest ]
+### Technical frame 3: 1.4 Character Creation / 1.4.7 Restrictions on Weapons and Armor Based on Skill / [ Sage, Bard, Priest ]
 
 **Context:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-00823))_
 
@@ -62,7 +62,7 @@ What [[sword-world-rpg-complete-edition]] covers about restriction weapon:
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-armor-based-skill]] - shared statements: Armor Based Skill shares source evidence from 1.4.7 Restrictions on Weapons and Armor Based on Skill / [ Sage, Bard, Priest ]: These skills have no weapon or armor restrictions. Refer to restrictions on other skills acquired at the same time. If a character has acquired only these skills, th ... [truncated] (1 shared statement(s))
+- [[sword-world-rpg-complete-edition-armor-based-skill]] - shared statements: Armor Based Skill shares source evidence from 1.4 Character Creation / 1.4.7 Restrictions on Weapons and Armor Based on Skill / [ Sage, Bard, Priest ]: These skills have no weapon or armor restrictions. Refer to restrictions on other skills acquired at the same time. If a character has acquired only these skills, th ... [truncated] (1 shared statement(s))
 
 ## Source
 

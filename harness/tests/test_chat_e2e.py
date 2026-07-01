@@ -65,6 +65,7 @@ class TestChatWorkflow:
         # directly from it.
         _seed_wiki(store)
         script = [
+            [ToolCall(tool="read_index", args={})],
             [ToolCall(tool="respond", args={"message": "It covers [[closure]] and more."})],
         ]
         session = _session(store, script, paths)
@@ -75,7 +76,7 @@ class TestChatWorkflow:
         fake: FakeClient = session.client
         first_user = next(m for m in fake.sent[0] if m["role"] == "user")
         assert "[[closure]]" in first_user["content"]
-        assert "Bounded catalog sample follows" in first_user["content"]
+        assert "The wiki's index - the catalog of every page:" in first_user["content"]
         assert "What is this wiki about?" in first_user["content"]
 
     async def test_follow_up_turns_do_not_carry_the_index(
@@ -84,7 +85,8 @@ class TestChatWorkflow:
         _seed_wiki(store)
         script = [[ToolCall(tool="respond", args={"message": "ok"})]]
         session = _session(store, script, paths)
-        await session.chat_turn("shorter please", window=(), grounded=False, tag="chat-f")
+        window = (QAPair(question="what is a closure?", answer="See [[closure]]."),)
+        await session.chat_turn("shorter please", window=window, grounded=False, tag="chat-f")
         fake: FakeClient = session.client
         user_contents = [m["content"] for m in fake.sent[0] if m["role"] == "user"]
         assert not any("[[closure]] — Functions capturing scope." in c for c in user_contents)
@@ -97,6 +99,7 @@ class TestChatTurn:
         _seed_wiki(store)
         script = [
             [ToolCall(tool="search_wiki", args={"query": "closure"})],
+            [ToolCall(tool="read_page", args={"page_id": "closure"})],
             [ToolCall(tool="respond", args={"message": "See [[closure]]."})],
         ]
         session = _session(store, script, paths)
@@ -144,14 +147,15 @@ class TestChatRepl:
         _seed_wiki(store)
         script = [
             [ToolCall(tool="search_wiki", args={"query": "closure"})],
-            [ToolCall(tool="respond", args={"message": "Answer one."})],
+            [ToolCall(tool="read_page", args={"page_id": "closure"})],
+            [ToolCall(tool="respond", args={"message": "Answer one from [[closure]]."})],
         ]
         repl, emitted = self._repl(store, paths, script)
         repl.start(resume=None)
         first_id = repl.active_id
 
         assert await repl.handle("what is a closure?") is True
-        assert "Answer one." in emitted
+        assert "Answer one from [[closure]]." in emitted
         assert repl.chat_store.turn_count(first_id) == 1
 
         assert await repl.handle("/new") is True

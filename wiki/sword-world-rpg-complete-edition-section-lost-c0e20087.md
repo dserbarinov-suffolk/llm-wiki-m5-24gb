@@ -8,7 +8,7 @@ updated: 2026-06-30
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-lost-c0e20087@8b185e9312b447b1f5eeaec62695f726
+projection_coverage: section-sword-world-rpg-complete-edition-section-lost-c0e20087@96f925b6db1cd833e9bc98f954240a1d
 ---
 
 # 《 Lost 》
@@ -17,7 +17,6 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-5-1-5-8bf319fe]] - broader source section: 5.1.5
 - [[sword-world-rpg-complete-edition-section-ritual-093f2f83]] - previous source section: 《 Ritual 》
 
 ## Statements

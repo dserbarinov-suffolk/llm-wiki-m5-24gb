@@ -1,14 +1,14 @@
 ---
 page_id: sword-world-rpg-complete-edition
 page_kind: source
-summary: Claim-ledger projection (rules-reference): 12209 usable entries, 4693 technical atoms, 907 needs-review, 1332 linked page(s); write decision write-with-review-work.
+summary: Claim-ledger projection (rules-reference): 12209 usable entries, 4693 technical atoms, 907 needs-review, 1274 linked page(s); write decision write-with-review-work.
 page_family: source-manifest
 sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-06-30
 domain: sword-world-rpg-complete-edition
 category_path: sources
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: projection-coverage-3bd00a9659fbe2e8@cac2e90c42d9f068
+projection_coverage: projection-coverage-877ad25e5d12e3d8@a90a83f0f151b050
 ---
 
 # What is a Role-Playing Game (RPG)?
@@ -881,9 +881,7 @@ Table 1-1: Ability Bonuses
 - They have a very strong sense of tribalism, respecting the rules of their tribe and seldom violating them. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-00189))_
 - The life span of a dwarf is longer than that of a human, thought to be around 200 years. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-00190))_
 
-## 1.2
-
-### Races
+## 1.2 Races
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-00195))_
 
@@ -1146,9 +1144,7 @@ Races
 
 > Players may not choose the dragon priest skill as one of their character's skills.
 
-## 1.4
-
-### Character Creation
+## 1.4 Character Creation
 
 - Now it's time to show you how to create a player character who will explore Forcelia as the player's alter ego. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-00288))_
 - You may photocopy the one at the end of this book (photocopying is permitted for personal use only). _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-00289))_
@@ -2149,9 +2145,7 @@ Living expenses
 
 </details>
 
-## 1.4.9
-
-#### Filling Out the Character Sheet
+## 1.4.9 Filling Out the Character Sheet
 
 - The Character Sheet that accompanies this book is designed to record and list various character details. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-00882))_
 - This will help keep the game running smoothly. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-00882))_
@@ -2280,9 +2274,7 @@ Table 1-5: Backgrounds or Table 1-6:   highest adventurer skill level. Write thi
 
 > [Figure] (p.29)
 
-## 2.1
-
-### Baseline Scores
+## 2.1 Baseline Scores
 
 - His fighter skill level is 2 and his dexterity bonus is +2. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-00934))_
 - Fighter is only useful in combat. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-00938))_
@@ -2396,6 +2388,9 @@ The baseline score is  a number that represents a character's ability. However, 
 
 - On the other hand, no matter how simple something may seem, it may fail due to some misfortune. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-00962))_
 - On a success roll, if a player rolls a 12 , i.e., both dice roll 6 ( double sixes ), the action is a success , no matter how low the baseline score nor how high the target score. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-00963))_
+- It simply means that you succeeded or failed, not that you succeeded very well or failed very badly . _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-00967))_
+- Basically, automatic success and automatic failure are not definitive success or definitive failure. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-00967))_
+- It simply means that you succeeded or failed, not that you succeeded very well or failed very badly . _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-00967))_
 
 **Context:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-00963))_
 
@@ -2405,18 +2400,17 @@ The baseline score is  a number that represents a character's ability. However, 
 
 > Conversely, if that player rolls a 2 , that is, if the two dice both roll a 1 ( double ones ), the action fails , no matter
 
-## 2.4
-
-- It simply means that you succeeded or failed, not that you succeeded very well or failed very badly . _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-00967))_
-- Basically, automatic success and automatic failure are not definitive success or definitive failure. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-00967))_
-- It simply means that you succeeded or failed, not that you succeeded very well or failed very badly . _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-00967))_
-
-### Bonuses and Penalties
+## 2.4 Bonuses and Penalties
 
 - This is to replicate any favorable or unfavorable circumstances when a character is about to perform an action. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-00970))_
 - A success roll may be subject to modifiers. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-00970))_
 - For example, if the person you're fighting is falling, their movements will be restricted and your attacks will be easier to land. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-00971))_
 - For example, if the person you're fighting is falling, their movements will be restricted and your attacks will be easier to land. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-00971))_
+- In such cases, the game master applies a bonus or penalty to the success roll. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-00973))_
+- Things like, +2 because they're falling over , or -4 because it's dark . _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-00973))_
+- When such bonuses or penalties are applied, the baseline score will go up or down. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-00974))_
+- A player must also calculate these before making a success roll. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-00974))_
+- A player must also calculate these before making a success roll. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-00974))_
 
 **Context:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-00970))_
 
@@ -2426,14 +2420,6 @@ The baseline score is  a number that represents a character's ability. However, 
 
 > On the other hand, if you're fighting in the dark, then unless your character has darkvision, you cannot see your opponent, so it is not so easy to hit him.
 
-## 2.5
-
-- In such cases, the game master applies a bonus or penalty to the success roll. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-00973))_
-- Things like, +2 because they're falling over , or -4 because it's dark . _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-00973))_
-- When such bonuses or penalties are applied, the baseline score will go up or down. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-00974))_
-- A player must also calculate these before making a success roll. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-00974))_
-- A player must also calculate these before making a success roll. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-00974))_
-
 **Context:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-00974))_
 
 > When such bonuses or penalties are applied, the baseline score will go up or down. A player must also calculate these before making a success roll.
@@ -2442,7 +2428,7 @@ The baseline score is  a number that represents a character's ability. However, 
 
 > final score {baseline score + 2D ± (bonus, penalty)} ≥ target score → action is successful
 
-### Difficulty Checks
+## 2.5 Difficulty Checks
 
 - The owner of the mansion is known to be paranoid and is rumored to have set numerous traps. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-00979))_
 - You (your character) are now at a door. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-00979))_
@@ -2484,9 +2470,7 @@ The baseline score is  a number that represents a character's ability. However, 
 
 > Even if a bonus or penalty is applied, the roll is still an automatic success if the roll comes up double sixes , and an automatic failure if the roll if it's double ones .
 
-## 2.5.1
-
-#### Difficulty
+## 2.5.1 Difficulty
 
 - What makes this different from a target score is that this is not the direct number the player is aiming for. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-00999))_
 
@@ -2578,9 +2562,7 @@ The baseline score is  a number that represents a character's ability. However, 
 
 > If the roll is low, such as 3 or 4, then there's a high chance that the success roll has failed.
 
-## 2.6
-
-### Success Rolls Using Adventurer Level
+## 2.6 Success Rolls Using Adventurer Level
 
 - adventuring, the baseline score for a success roll is adventurer level + ability bonus . _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-01026))_
 - Actions that fit into this category are explained in 6.6: Common Adventurer Abilities . _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-01027))_
@@ -2728,9 +2710,7 @@ For actions that anyone would be able to perform if they became proficient in
 
 > If it's something the character should know, the game master should tell you when they announce the action.
 
-## 3.2
-
-### Action Order
+## 3.2 Action Order
 
 - Once action announcements are complete, it is time to resolve both friends' and foes' actions. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-01078))_
 - Combat will then actually take place. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-01078))_
@@ -2744,18 +2724,15 @@ For actions that anyone would be able to perform if they became proficient in
 - If, as a result of the action of someone with higher agility, someone with lower agility is unable to perform their intended action , it means that their action is no longer possible . _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-01081))_
 - If two have exactly the same agility, their actions are considered to be simultaneous . _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-01082))_
 - Ducard II is fighting a goblin. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-01085))_
-
-**Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-01083))_
-
-> For convenience, they are resolved in order, but even if you're attacked by an enemy of the same agility and fall down, you can still perform your intended actions.
-
-## 3.3
-
 - Each of their action announcements are attack the opponent (with a weapon) . _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-01087))_
 - Ducard II cannot carry out his intended attack on the goblin. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-01087))_
 - Ducard II then fails to evade it and falls down with a deep wound. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-01087))_
 - However, IIDash's action order = agility is the same as the goblin's, so he would've been slashing at the goblin at the same time . _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-01089))_
 - Suppose that, as in the first example, IIDash is still hit badly enough to fall down as a result of the goblin's attack check. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-01089))_
+
+**Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-01083))_
+
+> For convenience, they are resolved in order, but even if you're attacked by an enemy of the same agility and fall down, you can still perform your intended actions.
 
 **Context:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-01089))_
 
@@ -2765,7 +2742,7 @@ For actions that anyone would be able to perform if they became proficient in
 
 > Suppose that Ducard II has an agility of 13, which is equal to that of a goblin (let's call him IIDash from now on, since he is a bit faster). In this case, both attacks are considered to be carried out simultaneously. During the course of the game, each attack check is made in the order of goblin → IIDash (or vice versa). Otherwise, it would be difficult to progress the game.
 
-### Action Canceling
+## 3.3 Action Canceling
 
 - If you fall down yourself early in the order, you will not be able to act. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-01092))_
 - For example, if an enemy that you intended to attack falls down due to the attack of a fellow player, no further attack is necessary. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-01092))_
@@ -2836,6 +2813,8 @@ For actions that anyone would be able to perform if they became proficient in
 - Characters have three options for movement: full movement , normal movement , or stand still . _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-01114))_
 - For any other actions, please use common sense based on the time frame of 1 round = 10 seconds. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-01115))_
 - Below are some guidelines on how movement works and which actions can be taken. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-01115))_
+- They do not prevent other actions at all. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-01118))_
+- The following actions can be taken at any time , regardless of the movement method. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-01118))_
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-01113))_
 
@@ -2856,9 +2835,6 @@ Movement and Actions
 </details>
 
 ## 3.4.1
-
-- They do not prevent other actions at all. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-01118))_
-- The following actions can be taken at any time , regardless of the movement method. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-01118))_
 
 #### Drop a Weapon, Etc. On the Ground
 
@@ -2925,11 +2901,10 @@ Movement and Actions
 - In other words, there is always a chance for the enemy to attack a character before they withdraw. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-01138))_
 - In other words, there is always a chance for the enemy to attack a character before they withdraw. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-01138))_
 - Also, in that case, regardless of your character's agility, they will only escape at the end of the round (agility 0, based on action order). _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-01138))_
-
-## 3.4.3
-
 - This is movement while staying alert to your surroundings. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-01141))_
 - The distance you can move is a number of meters equal to your character's agility (or a monster's movement speed ). _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-01142))_
+
+## 3.4.3
 
 #### Ready a Weapon
 
@@ -2989,9 +2964,7 @@ Movement and Actions
 
 > If you already have a weapon ready, you can of course attack with that weapon.
 
-## 3.4.4
-
-#### Actions You Can Take While Standing Still
+## 3.4.4 Actions You Can Take While Standing Still
 
 - Although stationary, you do not have to remain completely still; you can move up to 3 meters . _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-01163))_
 - In this state, all actions you can take during normal movement described in the previous section can be performed. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-01164))_
@@ -3442,9 +3415,7 @@ Table 4-2: Rating Table, Key Number
 
 </details>
 
-## 4.5.2
-
-### Determining Base Damage (Strike Roll)
+## 4.5.2 Determining Base Damage (Strike Roll)
 
 - Damage calculation takes three steps: ① Determine base damage , ② Add bonus damage , and ③ Subtract the monster's defense points . _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-01267))_
 - The numbers are listed in a row, but of course there is no need to memorize them at all. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-01269))_
@@ -3581,9 +3552,7 @@ Table 4-2: Rating Table, Key Number
 
 > When determining base damage (strike roll), if you suddenly roll double ones, the damage will always be 0 .
 
-## 4.5.4
-
-### Monster Defense Points
+## 4.5.4 Monster Defense Points
 
 - This indicates the amount of damage a monster can reduce. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-01301))_
 - Monsters can repel and hold off attacks with their thick skins and hard scales. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-01301))_
@@ -3777,9 +3746,7 @@ Table 4-3: Rating Table, Key Number
 
 </details>
 
-## 4.7
-
-## Attacks From Characters Against Characters
+## 4.7 Attacks From Characters Against Characters
 
 - While infighting between player characters is something you should avoid at all costs, fights against nonplayer characters are common. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-01357))_
 
@@ -3940,9 +3907,7 @@ Table 4-4: Attack Checks
 
 > [Figure] (p.49)
 
-## 4.8
-
-## Applying Damage
+## 4.8 Applying Damage
 
 - If you suffer damage and your life force (points) is reduced, then suffer more damage, your life force (points) will be further reduced from there. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-01418))_
 - If you suffer damage and your life force (points) is reduced, then suffer more damage, your life force (points) will be further reduced from there. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-01418))_
@@ -3951,18 +3916,14 @@ Table 4-4: Attack Checks
 
 > After damage is applied, a character (monster) can still act if they have at least 1 life force (point) remaining.
 
-## 4.9
-
-## Unconscious and Death Checks
+## 4.9 Unconscious and Death Checks
 
 - It is no longer possible for them to act. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-01423))_
 - If, as a result of damage (accumulated damage), a character's (monster's) life force (points) becomes 0 or negative , that character (monster) will fall unconscious . _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-01423))_
 - Also, that character (monster) is now in danger of dying . _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-01423))_
 - As a result, Ducard II now has a life force of -4 . _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-01425))_
 
-## 4.9.1
-
-### Adventurer Death Checks
+## 4.9.1 Adventurer Death Checks
 
 - Any adventurer who falls to 0 or negative life force is now at risk of dying . _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-01428))_
 - The baseline score is life force resistance (adventurer level + life force bonus) and the target score is 7 . _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-01429))_
@@ -4042,19 +4003,16 @@ Table 4-4: Attack Checks
 - However, to do so, their weapon must be a dull weapon (a bludgeoning weapon). _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-01450))_
 - On Table 1-8: Weapons, maces , clubs , and staves are classified as dull weapons. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-01450))_
 - However, even if an item is classified as one of these, if you throw it, you cannot declare mercy. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-01450))_
-
-**Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-01450))_
-
-> If a character does not want to kill their opponent, they can declare mercy .
-
-## 4.10
-
 - It cannot be done after a hit or after damage check. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-01452))_
 - mercy when using a barehanded attack. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-01452))_
 - It cannot be done after a hit or after damage check. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-01452))_
 - On any other roll, the character remains alive . _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-01453))_
 - A character who falls down with 0 or negative life force due to an attack that was declared to be mercy , will only fail their death check if double ones are rolled. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-01453))_
 - A character who falls down with 0 or negative life force due to an attack that was declared to be mercy , will only fail their death check if double ones are rolled. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-01453))_
+
+**Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-01450))_
+
+> If a character does not want to kill their opponent, they can declare mercy .
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-01452))_
 
@@ -4068,7 +4026,7 @@ Table 4-4: Attack Checks
 
 > If left untreated, they must make another death check after 1 hour , and
 
-## Excellent Weapons and Armor
+## 4.10 Excellent Weapons and Armor
 
 - A variety of weapons and armor can be found in Forcelia. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-01457))_
 - Some are of high quality made by master craftsmen, some have magical powers, and others are made of unusual materials such as silver or mithril silver. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-01457))_
@@ -4164,9 +4122,7 @@ Table 4-5: Guideline for Obtaining High-Quality Weapons and Armor
 
 > Whenever an adventurer declares that their attack on a monster is a mercy, that monster will always remain alive.
 
-## 4.10.2
-
-### Silver Weapons and Armor
+## 4.10.2 Silver Weapons and Armor
 
 - Silver is a special metal, imbued with magical powers. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-01472))_
 - It is also one of only two types of metal that's known to exist in the spirit world . _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-01472))_
@@ -4179,9 +4135,7 @@ Table 4-5: Guideline for Obtaining High-Quality Weapons and Armor
 - For example, the price of a silver item with a required strength 2 times lower than the original would be 5 x 2 = 10 times the price of the original. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-01476))_
 - For example, the price of a silver item with a required strength 2 times lower than the original would be 5 x 2 = 10 times the price of the original. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-01476))_
 
-## 4.10.3
-
-### Magical Weapons and Armor
+## 4.10.3 Magical Weapons and Armor
 
 - These magical weapons and armor are seldom found, and are usually rarely traded. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-01479))_
 - In Forcelia, there are magical weapons and armor that were once created during the age of the magical kingdom (Kastuul). _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-01479))_
@@ -4228,9 +4182,7 @@ Table 4-5: Guideline for Obtaining High-Quality Weapons and Armor
 
 > Even if it is magical, if it is metal armor, a shaman cannot wear it.
 
-## 4.10.4
-
-### Mithril Silver Weapons and Armor
+## 4.10.4 Mithril Silver Weapons and Armor
 
 - However, the art of forging mithril silver was lost with the fall of the magical kingdom , so it has not been handed down to the present day. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-01494))_
 - Mithril silver , also known as true silver , is produced in very few places in the world. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-01494))_
@@ -4765,9 +4717,7 @@ Table 4-5: Guideline for Obtaining High-Quality Weapons and Armor
 
 > If the one on whom the magic is being cast chooses not to resist the magic, it will definitely take effect so long as the one casting the magic does not roll double ones.
 
-## 5.1.5
-
-### Consuming Mental Power
+## 5.1.5 Consuming Mental Power
 
 - When using magic, an adventurer must temporarily reduce their mental power. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-01660))_
 - Each magic has a score called base mental power cost . _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-01661))_
@@ -5686,9 +5636,7 @@ Although  it's not  often  done,  it's possible  to  perform  magic  expansion a
 
 > Resist=None
 
-## 5.1.12
-
-### Ancient Magic List
+## 5.1.12 Ancient Magic List
 
 - the strike roll can only be made with the strike power set to 5, regardless of the weapon's own strike power. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-01924))_
 - the strike roll can only be made with the strike power set to 5, regardless of the weapon's own strike power. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-01924))_
@@ -8923,9 +8871,7 @@ Silent spirit are runes used to communicate with spirits and draw out the  power
 
 > Those who can use these runes can communicate with any spirit.
 
-## 5.1.14
-
-#### Spirit Magic List
+## 5.1.14 Spirit Magic List
 
 - Conversely, you can also transmit your voice to the location. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-02807))_
 - Since it can be used to narrow the area of effect, it's also possible to communicate with just a single target. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-02807))_
@@ -12666,9 +12612,7 @@ Table 5-8: Reincarnation Memory 5.1.17
 
 > Resist=Negated effect
 
-## 5.1.17
-
-#### Special Holy Magic List
+## 5.1.17 Special Holy Magic List
 
 - This spell has no effect on humans, fae, youma, titans, mythical beasts, magical beasts, animals, titan creatures, plants, etc. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-03776))_
 
@@ -13118,9 +13062,7 @@ Table 5-8: Reincarnation Memory 5.1.17
 
 > This heating of metal is magical, so if the caster's focus is broken, the targeted metal mass instantly loses its heat.
 
-## 5.2
-
-### Common Runes
+## 5.2 Common Runes
 
 - By expanding the effect of this spell, you can increase the weight of the target metal mass. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-03896))_
 - You can increase the weight of metal that can be affected by 20 kilograms by consuming double the mental power, 40 kilograms by consuming quadruple the mental power...... _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-03896))_
@@ -13130,6 +13072,11 @@ Table 5-8: Reincarnation Memory 5.1.17
 - The following are common runes that characters can obtain. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-03898))_
 - It only appears on the market when a character discovers it, or has already discovered it, through an adventure (which means it is no longer a lost spell). _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-03898))_
 - However, if magic such as Unlock , etc. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-03900))_
+- A spellsong is a song with magical power that was created during the ancient kingdom period. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-03903))_
+- became common runes, it's obvious that thieves would use them to commit evil deeds. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-03904))_
+- In such cases, please make sure to make a decision such as The sorcerers' guild would never allow them on the market because they'd bring down the reputation of magic and sorcerers . _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-03904))_
+- In such cases, please make sure to make a decision such as The sorcerers' guild would never allow them on the market because they'd bring down the reputation of magic and sorcerers . _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-03904))_
+- Also, when creating a new common rune, its mental power consumption is the same as the base mental power cost of ancient magic, and the price should be _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-03905))_
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-03894))_
 
@@ -13206,12 +13153,6 @@ Table 5-9: Common  Runes
 > The game master may add other common runes at their discretion.
 
 ## 5.3
-
-- A spellsong is a song with magical power that was created during the ancient kingdom period. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-03903))_
-- became common runes, it's obvious that thieves would use them to commit evil deeds. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-03904))_
-- In such cases, please make sure to make a decision such as The sorcerers' guild would never allow them on the market because they'd bring down the reputation of magic and sorcerers . _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-03904))_
-- In such cases, please make sure to make a decision such as The sorcerers' guild would never allow them on the market because they'd bring down the reputation of magic and sorcerers . _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-03904))_
-- Also, when creating a new common rune, its mental power consumption is the same as the base mental power cost of ancient magic, and the price should be _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-03905))_
 
 ### Spellsongs
 
@@ -13491,9 +13432,7 @@ Movement slows down while the song continues. -3 to attack points and evasion po
 
 > [Figure] (p.112)
 
-## 6.1
-
-### Precautions When Using Skills
+## 6.1 Precautions When Using Skills
 
 - The owner of this skill is called a thief . _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-03979))_
 - For better or worse, society cannot exist without their presence. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-03979))_
@@ -13805,9 +13744,7 @@ If the rules for determining the target score  or  difficulty  are  clearly  ind
 
 > For set , you can set traps up to a difficulty equal to your thief skill level without failing (you cannot set traps of a higher level).
 
-## 6.3
-
-### Ranger Skill
+## 6.3 Ranger Skill
 
 - Owners of the ranger skill demonstrate a variety of abilities in outdoor activities, as explained below. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-04061))_
 
@@ -13948,9 +13885,6 @@ If the rules for determining the target score  or  difficulty  are  clearly  ind
 - Indoor mechanical traps cannot be found/sensed with the ranger skill. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-04114))_
 - This is basically the same ability as that of the thief skill, but it only applies to traps that use outdoor nature. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-04114))_
 - Indoor mechanical traps cannot be removed or set . _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-04116))_
-
-## 6.4
-
 - The sage skill represents a comprehensive understanding and depth of knowledge in all academic fields. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-04119))_
 - Many sorcerers have this skill. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-04119))_
 - For more information, please refer to Chapter 8: Character Growth (see p. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-04119))_
@@ -13976,6 +13910,8 @@ If the rules for determining the target score  or  difficulty  are  clearly  ind
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-04131))_
 
 > Even if the player knows, they must treat it as if they had no prior knowledge.
+
+## 6.4
 
 #### [ ② Languages [Intelligence]]
 
@@ -14041,6 +13977,10 @@ If the rules for determining the target score  or  difficulty  are  clearly  ind
 - During this time, you cannot do much other than research. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-04148))_
 - Also, if you don't have a place with a wealth of literature (the best place is the academy of sages = sorcerers' guild in each city), research itself is impossible. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-04148))_
 - When something they didn't know (something that failed) becomes a success, the sage has found a description of it in the literature and has access to that knowledge. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-04149))_
+- If you use other instruments, you won't be able to use abilities that require an instrument. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-04153))_
+- Bards are free to choose any instrument, but only one type. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-04153))_
+- Bards are free to choose any instrument, but only one type. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-04153))_
+- The bard skill includes the following abilities. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-04154))_
 
 **Context:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-04147))_
 
@@ -14051,11 +13991,6 @@ If the rules for determining the target score  or  difficulty  are  clearly  ind
 > If the research is successful, the sage may make another success roll.
 
 ## 6.5
-
-- If you use other instruments, you won't be able to use abilities that require an instrument. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-04153))_
-- Bards are free to choose any instrument, but only one type. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-04153))_
-- Bards are free to choose any instrument, but only one type. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-04153))_
-- The bard skill includes the following abilities. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-04154))_
 
 #### [ ⑥ Treasure Appraisal [Intelligence] ] (Not retriable)
 
@@ -14525,9 +14460,7 @@ Adventurer Level (Normal Long Jump)
 
 ## Chapter 7:
 
-## 7.1
-
-### Notes on General Skills
+## 7.1 Notes on General Skills
 
 ## The Difference Between General Skills and Adventurer Skills
 
@@ -14539,9 +14472,6 @@ Adventurer Level (Normal Long Jump)
 - Of course, adventurer skills are the necessary skills to live as an adventurer. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-04324))_
 - However, the biggest difference between the two is whether or not you can become a protagonist-- called a hero -who appears in fantasy novels, etc. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-04324))_
 - General skills, so to speak, can be said to be the skills necessary for daily life. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-04324))_
-
-## 7.2
-
 - In other words, adventurer level can even be called hero level. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-04326))_
 - higher your adventurer level, the more qualified you are to be called a hero. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-04326))_
 - Of course, being a hunter is also a respectable profession, so you should never look down on it. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-04327))_
@@ -14558,7 +14488,7 @@ Adventurer Level (Normal Long Jump)
 - If you understand this mentality, then on the other hand, it would be acceptable to recognize adventurer skills for skills that would be called heroes. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-04328))_
 - For example, the famous playwright William Tell, who was just a hunter, was considered a hero for shooting an apple off his child's head. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-04328))_
 
-### Merchant Skill
+## 7.2 Merchant Skill
 
 - A person holding this is given the right to open a shop in public. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-04331))_
 - Merchants are a class with a lot of freedom in Sword World , and often travel for trade purposes. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-04331))_
@@ -14589,17 +14519,6 @@ Adventurer Level (Normal Long Jump)
 - Therefore, a merchant who sells art can tell you the value of the art, and a merchant who sells weapons and armor can tell you the value of the weapons and armor. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-04347))_
 - However, you can only make a check for items that the merchant deals with. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-04347))_
 - In other words, if a product has a regular price of 100 gamels, you'd purchase it from a craftsman for 50 gamels. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-04349))_
-
-**Context:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-04347))_
-
-> This is almost the same ability as the thief and sage skills' treasure appraisal . However, you can only make a check for items that the merchant deals with. Therefore, a merchant who sells art can tell you the value of the art, and a merchant who sells weapons and armor can tell you the value of the weapons and armor. The result is a specific price converted to silver coins.
-
-**Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-04349))_
-
-> Of course, if you take the stock at a lower price or sell it at a higher price than the regular price, your profit will increase, so this ability is important.
-
-## 7.3
-
 - To use this ability, you must know the correct price of the item you are dealing with. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-04352))_
 - Then, each side makes a success roll using merchant level + mental strength bonus as the baseline score. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-04352))_
 - This ability is a common ability for merchants, so it can also be applied to products outside of your specialty. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-04352))_
@@ -14609,11 +14528,19 @@ Adventurer Level (Normal Long Jump)
 - Of course, the game master and adventurer can negotiate with each other without making such a mechanical check. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-04353))_
 - It would be better not to rely on this check for negotiations between player characters. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-04353))_
 
+**Context:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-04347))_
+
+> This is almost the same ability as the thief and sage skills' treasure appraisal . However, you can only make a check for items that the merchant deals with. Therefore, a merchant who sells art can tell you the value of the art, and a merchant who sells weapons and armor can tell you the value of the weapons and armor. The result is a specific price converted to silver coins.
+
+**Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-04349))_
+
+> Of course, if you take the stock at a lower price or sell it at a higher price than the regular price, your profit will increase, so this ability is important.
+
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-04351))_
 
 > is a market price for ordinary items, so if you get too greedy, you may end up ruining a precious negotiation.
 
-### Craftsman Skill
+## 7.3 Craftsman Skill
 
 - Therefore, the quality of the item depends entirely on the skill of the craftsman. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-04356))_
 - These techniques are secretly taught from master to apprentice, and care is taken to ensure that no secret techniques are leaked. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-04357))_
@@ -14648,9 +14575,7 @@ Adventurer Level (Normal Long Jump)
 
 > However, you cannot create weapons or armor with a required strength of 6 or lower.
 
-## 7.4
-
-### Healer Skill
+## 7.4 Healer Skill
 
 - Since there's magic in the world of Sword World , medicine has not made much progress. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-04372))_
 - Healers are knowledgeable in basic medicine and herbs, and are able to provide appropriate treatment for injuries and illnesses. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-04372))_
@@ -14661,9 +14586,7 @@ Adventurer Level (Normal Long Jump)
 - This is the same as the ranger skill's ability of the same name. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-04377))_
 - Please refer to the ranger skill. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-04377))_
 
-## 7.5
-
-## [ ② Treatment [Intelligence]]
+## 7.5 [ ② Treatment [Intelligence]]
 
 - Healers can help a wounded person recover their life force naturally. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-04380))_
 - This is the ability to appropriately treat illnesses and injuries and aid in their recovery. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-04380))_
@@ -14808,16 +14731,12 @@ Adventurer Level (Normal Long Jump)
 
 > [Figure] (p.129)
 
-## 8.1
-
-### Experience Points
+## 8.1 Experience Points
 
 - Experience points are points given to characters as an indicator of how much experience they have gained as a result of their adventures. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-04446))_
 - Character growth is done using these experience points. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-04446))_
 
-## 8.2
-
-### How to Use Experience Points: Increasing Skill Levels
+## 8.2 How to Use Experience Points: Increasing Skill Levels
 
 - However, in any case, a character's skill level can only reach 10th level. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-04450))_
 - At the end of an adventure, characters gain experience points. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-04450))_
@@ -14886,6 +14805,17 @@ Table 8-1: Experience Points by Skill
 - Suppose a character has a 3rd level sorcerer skill and a 1st level sage skill and increases his sage skill to 2nd level. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-04540))_
 - At this time, the newly acquired sage skill level 2 is lower than the already acquired sorcerer skill level 3 , so he can acquire it for fewer experience points. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-04540))_
 - The reduction on the 2 levels row is 500 points , so the experience points spent are 1000 points (experience points originally _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-04540))_
+- This character can also reduce his required experience points when increasing his sage skill to 3rd level. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-04543))_
+- The reduction on the 3 levels row is 1000 points . _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-04543))_
+- Therefore, the experience points required to acquire a 3rd level sage skill are 1500 1000 = 500 points. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-04543))_
+- Therefore, the experience points required to acquire a 3rd level sage skill are 1500 1000 = 500 points. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-04543))_
+- This is because the sorcerer skill is only 3rd level. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-04544))_
+- There is no reduction in experience points when increasing the sage skill to 4th level. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-04544))_
+- This is because the sorcerer skill is only 3rd level. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-04544))_
+- However, this perk is not available when increasing the sorcerer skill to 4th level. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-04546))_
+- In this case, as in the example above, when increasing the sorcerer skill to 2nd and 3rd level, there is a reduction in experience points for each, and they can be increased with 3000 500 = 2500 and 4000 1000 = 3000 points. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-04546))_
+- A character with a 3rd level sorcerer skill or a 3rd level sage skill will not receive any experience point reductions regardless of whether they reach 4th level. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-04547))_
+- When a character who does not have either the sorcerer skill or the sage skill newly acquires a 1st level sorcerer skill, they can also acquire a 1st level sage skill at the same time without spending experience points. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-04549))_
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-04538))_
 
@@ -14933,34 +14863,17 @@ Table 8-1: Experience Points by Skill.        There is no reduction in experienc
 
 </details>
 
-## 8.3
-
-- This character can also reduce his required experience points when increasing his sage skill to 3rd level. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-04543))_
-- The reduction on the 3 levels row is 1000 points . _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-04543))_
-- Therefore, the experience points required to acquire a 3rd level sage skill are 1500 1000 = 500 points. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-04543))_
-- Therefore, the experience points required to acquire a 3rd level sage skill are 1500 1000 = 500 points. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-04543))_
-- This is because the sorcerer skill is only 3rd level. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-04544))_
-- There is no reduction in experience points when increasing the sage skill to 4th level. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-04544))_
-- This is because the sorcerer skill is only 3rd level. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-04544))_
-- However, this perk is not available when increasing the sorcerer skill to 4th level. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-04546))_
-- In this case, as in the example above, when increasing the sorcerer skill to 2nd and 3rd level, there is a reduction in experience points for each, and they can be increased with 3000 500 = 2500 and 4000 1000 = 3000 points. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-04546))_
-- A character with a 3rd level sorcerer skill or a 3rd level sage skill will not receive any experience point reductions regardless of whether they reach 4th level. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-04547))_
-- When a character who does not have either the sorcerer skill or the sage skill newly acquires a 1st level sorcerer skill, they can also acquire a 1st level sage skill at the same time without spending experience points. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-04549))_
-
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-04549))_
 
 > If you acquire the 1st level sorcerer skill first, the experience points will be reduced when you acquire the 1st level sage skill, and as a result, the required experience points will be 500 500 = 0 points.
 
-### How to Use Experience Points: Increasing Ability Scores
+## 8.3 How to Use Experience Points: Increasing Ability Scores
 
 - Experience points can also be used to increase your character's ability scores. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-04552))_
-
-## 8.4
-
 - Life force and mental power are half of that (1500 points, 2500 points). _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-04554))_
 - adventurers need 5000 experience points. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-04554))_
 
-### Increasing General Skills
+## 8.4 Increasing General Skills
 
 - General skills are not necessary for adventurer characters. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-04557))_
 - However, providing general skills may lead to individualization of a character and expand the range of role-playing . _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-04557))_
@@ -15115,6 +15028,14 @@ Table 9-1: Determining Target Scores or Difficulties
 - At this time, if you don't know the difficulty, it'll be difficult to guess. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-04643))_
 - In this case, the final score of his success roll is 13. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-04644))_
 - However, this is not possible without knowing the difficulty. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-04645))_
+- For example, suppose one mansion has a difficulty 5 trap and a difficulty 6 trap. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-04647))_
+- For example, suppose one mansion has a difficulty 5 trap and a difficulty 6 trap. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-04647))_
+- A technique for creating scenarios is to keep the difficulty consistent for success rolls that are likely to be made frequently in one scenario, such as finding traps. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-04648))_
+- In such cases, it is better to keep the difficulty low. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-04648))_
+- That alone will make players wary. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-04648))_
+- A technique for creating scenarios is to keep the difficulty consistent for success rolls that are likely to be made frequently in one scenario, such as finding traps. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-04648))_
+- If you really want to include traps with different difficulties, then when the difficulty changes, just nonchalantly say Okay, make a success roll without telling _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-04649))_
+- If you really want to include traps with different difficulties, then when the difficulty changes, just nonchalantly say Okay, make a success roll without telling _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-04649))_
 
 **Context:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-04638, source-range-0d48087c-04640))_
 
@@ -15132,28 +15053,20 @@ Table 9-1: Determining Target Scores or Difficulties
 
 > If the difficulty is clear, let's say it's 3, players can infer that they can only fail when the game master rolls an 11 or 12.
 
-## 9.3
-
-- For example, suppose one mansion has a difficulty 5 trap and a difficulty 6 trap. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-04647))_
-- For example, suppose one mansion has a difficulty 5 trap and a difficulty 6 trap. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-04647))_
-- A technique for creating scenarios is to keep the difficulty consistent for success rolls that are likely to be made frequently in one scenario, such as finding traps. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-04648))_
-- In such cases, it is better to keep the difficulty low. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-04648))_
-- That alone will make players wary. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-04648))_
-- A technique for creating scenarios is to keep the difficulty consistent for success rolls that are likely to be made frequently in one scenario, such as finding traps. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-04648))_
-- If you really want to include traps with different difficulties, then when the difficulty changes, just nonchalantly say Okay, make a success roll without telling _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-04649))_
-- If you really want to include traps with different difficulties, then when the difficulty changes, just nonchalantly say Okay, make a success roll without telling _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-04649))_
-
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-04647))_
 
 > The time when you should not reveal the difficulty is when revealing the difficulty itself would indicate that something is wrong .
 
-### General Modifiers
+## 9.3 General Modifiers
 
 - For example, trying to find things in situations with little light can be difficult. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-04652))_
 - Success rolls may have modifiers applied to them. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-04652))_
 - For example, trying to find things in situations with little light can be difficult. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-04652))_
 - The advantage of dealing with this through modifiers is that it is simpler and easier to maintain fairness. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-04653))_
 - Suppose there are three people: a human, an elf (shaman), and a dwarf. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-04654))_
+- In this case, instead of the game master looking at the Determining Target Scores or Difficulties table for each , it's easier to deal with it by setting one target score, assuming there is complete light, and applying -4 to the human because they can't see, -2 to the elf (shaman) because they can use infravision, and no modifier to the dwarf because they have full darkvision. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-04657))_
+- Also, since the modifiers are reflected in the final score, the advantage is that you can also see who did the best search. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-04657))_
+- In this case, instead of the game master looking at the Determining Target Scores or Difficulties table for each , it's easier to deal with it by setting one target score, assuming there is complete light, and applying -4 to the human because they can't see, -2 to the elf (shaman) because they can use infravision, and no modifier to the dwarf because they have full darkvision. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-04657))_
 
 **Context:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-04654))_
 
@@ -15179,12 +15092,6 @@ General Modifiers
 
 </details>
 
-## 9.4
-
-- In this case, instead of the game master looking at the Determining Target Scores or Difficulties table for each , it's easier to deal with it by setting one target score, assuming there is complete light, and applying -4 to the human because they can't see, -2 to the elf (shaman) because they can use infravision, and no modifier to the dwarf because they have full darkvision. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-04657))_
-- Also, since the modifiers are reflected in the final score, the advantage is that you can also see who did the best search. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-04657))_
-- In this case, instead of the game master looking at the Determining Target Scores or Difficulties table for each , it's easier to deal with it by setting one target score, assuming there is complete light, and applying -4 to the human because they can't see, -2 to the elf (shaman) because they can use infravision, and no modifier to the dwarf because they have full darkvision. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-04657))_
-
 **Context:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-04657))_
 
 > In this case, instead of the game master looking at the Determining Target Scores or Difficulties table for each , it's easier to deal with it by setting one target score, assuming there is complete light, and applying -4 to the human because they can't see, -2 to the elf (shaman) because they can use infravision, and no modifier to the dwarf because they have full darkvision. Also, since the modifiers are reflected in the final score, the advantage is that you can also see who did the best sear
@@ -15193,7 +15100,7 @@ General Modifiers
 
 > In Sword World RPG , the only guidelines for general success roll modifiers are as follows (Table 9-2: Success Roll Modifiers).
 
-### Automatic Success Restrictions
+## 9.4 Automatic Success Restrictions
 
 - A success roll of double sixes is defined as an automatic success. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-04661))_
 - No matter how difficult an action is, there is a 1 in 36 chance of success. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-04661))_
@@ -15249,9 +15156,7 @@ General Modifiers
 
 > [Figure] (p.137)
 
-## 10.1
-
-### NPC and Monster Action Announcement
+## 10.1 NPC and Monster Action Announcement
 
 - However, that does not mean that you can make loose announcements and change them depending on the situation. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-04685))_
 - For example, it's correct to announce the planned action of a hellhound with the ability to breathe fire by saying, I'm about to do something with my mouth wide open… The characters have no way of knowing if the hellhound is about to bite them or breathe fire. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-04686))_
@@ -15312,9 +15217,7 @@ Surprise Attacks
 
 > An example is shown in Table 10-1: Attack Power and Evasion Speed Modifiers.
 
-## 10.3
-
-### Surprise Attacks
+## 10.3 Surprise Attacks
 
 - The game master must roll 2D and add it to the monster level (the highest one in the case of a group). _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-04696))_
 - This can lead to a loss of game fairness and may also spoil player motivation. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-04696))_
@@ -15325,6 +15228,8 @@ Surprise Attacks
 - However, if alternative senses (smell, hearing, etc.) are developed to some extent _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-04703))_
 - attack, and if it's greater than the one in the adventurer column, the adventurers have a chance for a surprise attack. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-04714))_
 - If a surprise attack occurs, the side who surprised the other is free to act for _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-04715))_
+- The side that was surprised is unable to take any assertive action. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-04717))_
+- It's still possible to take actions such as trying to avoid enemy attacks or resisting magic cast on you. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-04717))_
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-04696))_
 
@@ -15379,12 +15284,7 @@ Table 10-2: Surprise Attack Check
 
 > However, you should also take into consideration conditions such as the surrounding environment and whether the adventurers are proceeding quietly.
 
-## 10.4
-
-- The side that was surprised is unable to take any assertive action. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-04717))_
-- It's still possible to take actions such as trying to avoid enemy attacks or resisting magic cast on you. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-04717))_
-
-### Water Combat
+## 10.4 Water Combat
 
 - Depending on the situation, adventurers may have to fight in water. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-04720))_
 - If the water is chest-high, your freedom of movement is restricted and you suffer a -2 penalty on hit and evasion checks. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-04721))_
@@ -15392,6 +15292,11 @@ Table 10-2: Surprise Attack Check
 - Other weapons and shields cannot be used. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-04723))_
 - If you are head-deep in water, you suffer a -4 penalty on hit and evasion checks. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-04723))_
 - Also, since you cannot make sound normally underwater, all spells and _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-04723))_
+- At this time, you can use any weapon except projectiles. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-04725))_
+- However, projectiles cannot be used. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-04725))_
+- At this time, you can use any weapon except projectiles. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-04725))_
+- As explained in the swim section under Common Adventurer Abilities, you can only hold your breath underwater for a number of rounds equal to your life force (points). _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-04726))_
+- As explained in the swim section under Common Adventurer Abilities, you can only hold your breath underwater for a number of rounds equal to your life force (points). _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-04726))_
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-04721))_
 
@@ -15413,19 +15318,11 @@ Table 10-2: Surprise Attack Check
 
 > Additionally, the only weapons you can use are daggers, short swords, one-handed spears, or something similar.
 
-## 10.5
-
-- At this time, you can use any weapon except projectiles. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-04725))_
-- However, projectiles cannot be used. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-04725))_
-- At this time, you can use any weapon except projectiles. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-04725))_
-- As explained in the swim section under Common Adventurer Abilities, you can only hold your breath underwater for a number of rounds equal to your life force (points). _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-04726))_
-- As explained in the swim section under Common Adventurer Abilities, you can only hold your breath underwater for a number of rounds equal to your life force (points). _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-04726))_
-
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-04725))_
 
 > Also, if you cast the spell Decrease Water Pressure , which is also spirit magic, you can fight without suffering any of these penalties.
 
-### Attacks Against the Sleeping
+## 10.5 Attacks Against the Sleeping
 
 ##### Rules for Sleeping Monsters
 
@@ -15555,23 +15452,18 @@ Table 10-2: Surprise Attack Check
 
 ## Chapter 11: Notes on Magic
 
-## 11.1
-
-### Rune Masters' Status
+## 11.1 Rune Masters' Status
 
 - However, public sentiment towards magic is far from good. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-04759))_
 - In Alecrast, there aren't that many beings called rune masters. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-04759))_
 - This is because, in the days of the ancient kingdom, citizenship was not recognized for anyone except rune _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-04759))_
 - This is because, in the days of the ancient kingdom, citizenship was not recognized for anyone except rune _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-04759))_
-
-## 11.2
-
 - masters, and all other people were used as slaves. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-04761))_
 - Some believe that once their numbers become sufficient and they regain the power they had during the ancient kingdom, the age of darkness may come again. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-04761))_
 - Therefore, there is a great sense of crisis regarding the power of rune masters (especially sorcerers). _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-04761))_
 - Therefore, there is a great sense of crisis regarding the power of rune masters (especially sorcerers). _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-04761))_
 
-### Dark Magic
+## 11.2 Dark Magic
 
 - This is because believers in wicked gods other than Phalaris are rarely seen. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-04765))_
 - As mentioned earlier, these runes, like holy magic, use the gods as its source of power. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-04765))_
@@ -15585,9 +15477,7 @@ Table 10-2: Surprise Attack Check
 - In addition, dark priests can use wicked magic that the gods of light do not allow (do not give power to). _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-04766))_
 - Dark magic basically has the same origin as holy magic, and dark priests can use most of the basic holy magic. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-04766))_
 
-## 11.2.1
-
-## Basic Abilities of the Dark Priest Skill
+## 11.2.1 Basic Abilities of the Dark Priest Skill
 
 ## 《 Divination 》
 
@@ -16316,9 +16206,7 @@ Table 10-2: Surprise Attack Check
 
 > If the person being sacrificed is close to a god (regardless of whether it's a god of light or a god of darkness), you can add +1 to +6 to the final score.
 
-## 11.2.3
-
-## Special Dark Magic List
+## 11.2.3 Special Dark Magic List
 
 ## Phalaris Special Dark Magic List ]
 
@@ -16589,9 +16477,7 @@ Table 10-2: Surprise Attack Check
 
 > When this spell is cast on a ship, it will never sink, no matter how much it rots, as long as it only carries as much weight as the original ship could support.
 
-## 11.3
-
-### Dragon Roar Magic
+## 11.3 Dragon Roar Magic
 
 - In modernday Alecrast, there is no custom of worshiping dragons in civilized countries, so no one uses this type of magic. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-05088))_
 - Even if Silence or Mute spirit magic is cast on you, you can still use dragon roar magic! _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-05089))_
@@ -17430,6 +17316,7 @@ Table 11-1: Summon
 - Up to two adult humans can ride on the back of a lesser dragon. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-05307))_
 - Although greater than a wyvern, a lesser dragon's intellect is also not very high, so it can only be used to fight enemies or to carry you on its back. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-05307))_
 - Although greater than a wyvern, a lesser dragon's intellect is also not very high, so it can only be used to fight enemies or to carry you on its back. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-05307))_
+- (they can carry many more people if you use a basket, etc.). _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-05309))_
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-05305))_
 
@@ -17439,9 +17326,9 @@ Table 11-1: Summon
 
 > Resist=None
 
-## 11.4
+## 11.4 Acquiring Rune Master Skills and Increasing Levels
 
-- (they can carry many more people if you use a basket, etc.). _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-05309))_
+- Here is a summary of how to acquire and increase the level of each rune master skill. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-05318))_
 
 ## 10th Level Dragon Roar Magic List [ Reborn Dragon ]
 
@@ -17464,10 +17351,6 @@ Table 11-1: Summon
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-05313))_
 
 > At this time, the caster must make a success roll to determine a final score.
-
-### Acquiring Rune Master Skills and Increasing Levels
-
-- Here is a summary of how to acquire and increase the level of each rune master skill. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-05318))_
 
 ## 《 Sorcerer Skill 》
 
@@ -17520,13 +17403,10 @@ Table 11-1: Summon
 ## 《 Dark Priest Skill 》
 
 - The method of acquiring and increasing the dark priest skill is almost the same as the priest skill. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-05331))_
-
-## 11.5
-
 - There are also cases such as a friend who was a priest of Faris who, in order to maintain order, turned in his own brother, who was plotting a rebellion, and after grief about his actions, awoke to the teachings of The Nameless God of Madness (though usually you'd just say they went mad about things like this...) _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-05333))_
 - There are also cases such as a friend who was a priest of Faris who, in order to maintain order, turned in his own brother, who was plotting a rebellion, and after grief about his actions, awoke to the teachings of The Nameless God of Madness (though usually you'd just say they went mad about things like this...) _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-05333))_
 
-### Asking NPCs to Use Magic
+## 11.5 Asking NPCs to Use Magic
 
 - In some cases, adventurers may need to rely on NPCs to save them from situations that are beyond their control. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-05336))_
 - You may want to have a Remove Curse cast on you when you're cursed, a Resurrection cast when someone dies, or have a magical item appraised using Analyze Enchantment . _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-05336))_
@@ -17686,9 +17566,7 @@ Table 11-2: NPC Presence by Level
 
 ## Chapter 12: Various Checks
 
-## 12.1
-
-### Rules Regarding Language
+## 12.1 Rules Regarding Language
 
 - Language includes spoken words and written words. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-05372))_
 - There are not many races other than humans that have the habit of writing and reading. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-05372))_
@@ -17895,10 +17773,9 @@ Table 12-1: Languages table below lists the languages used by
 
 - Some intelligent monsters have the ability to speak and read using a certain language. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-05483))_
 - Of course, there are monsters with multiple language abilities. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-05483))_
+- Monster details also have an entry called Language . _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-05485))_
 
 ## 12.2
-
-- Monster details also have an entry called Language . _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-05485))_
 
 ##### [ Common ]
 
@@ -18541,9 +18418,7 @@ Monsters that use poison as weapons are  immune  to  their own poisons  (but are
 
 > Effect Duration=Permanent
 
-## 12.2.2
-
-### Illnesses
+## 12.2.2 Illnesses
 
 - Illness details are expressed as follows. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-05682))_
 
@@ -19137,9 +19012,7 @@ Monsters that use poison as weapons are  immune  to  their own poisons  (but are
 
 > [Figure] (p.168)
 
-## 13.1
-
-## Types of Monsters
+## 13.1 Types of Monsters
 
 - The meaning of each type are as follows. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-05842))_
 - There are 12 types of monsters in Alecrast: fae , youma , spirits , titans , mythical beasts , magical beasts , animals , plants , undead , magical creatures , daemons , humans , and others . _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-05842))_
@@ -19298,9 +19171,7 @@ Monsters that use poison as weapons are  immune  to  their own poisons  (but are
 
 </details>
 
-## 13.2.1
-
-## 《 Humans 》
+## 13.2.1 《 Humans 》
 
 - There are bandits who build strongholds in the mountains and fields and attack nearby villages and roads, and dark priests who believe in wicked gods and do evil according to their teachings. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-05887))_
 - Even among humans, there are those who are called villains. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-05887))_
@@ -19869,9 +19740,7 @@ Monsters that use poison as weapons are  immune  to  their own poisons  (but are
 
 > Intellect=Low
 
-## 13.2.3
-
-### Youma
+## 13.2.3 Youma
 
 - They have no body hair at all. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-06042))_
 - However, kobolds are also known to be sneaky and will attack opponents who are outnumbered, wounded, or unable to fight, such as women and children. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-06042))_
@@ -21244,9 +21113,7 @@ Monsters that use poison as weapons are  immune  to  their own poisons  (but are
 
 > Perception=Five senses
 
-## 13.2.6
-
-### Mythical Beasts and Magical Beasts
+## 13.2.6 Mythical Beasts and Magical Beasts
 
 ## [ Satyr ]
 
@@ -28006,9 +27873,7 @@ Destroys metal weapons and armor you are wearing. Magical weapons and armor are 
 
 > Against a mithril golem, weapons cannot deal additional critical damage.
 
-##### 13.2.11
-
-#### Daemons/Underworld Creatures
+##### 13.2.11 Daemons/Underworld Creatures
 
 ##### [ Aetherbeast ]
 
@@ -28718,9 +28583,7 @@ Destroys metal weapons and armor you are wearing. Magical weapons and armor are 
 
 > A doppelganger who has copied the abilities and memories of an opponent can use all of their abilities.
 
-##### 13.2.12
-
-#### Humans
+##### 13.2.12 Humans
 
 ##### [ Normal Man ]
 
@@ -29287,6 +29150,7 @@ Destroys metal weapons and armor you are wearing. Magical weapons and armor are 
 - Monster Level=4 Rarity=8 Agility=16 Movement Speed=24 Number=One to several Frequency=Rare Intellect=Animal/Human Reaction=Adversarial Attack Points=Fangs:11 (4) Strike Points=12 Evasion Points=12 (5) Defense Points=8 Life Points/Resistance=20/13 (6) Mental Points/Resistance=14/12 (5) Special Abilities=Normal weapon immunity after shifting into wolf Infect (Intensity 7) _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-08585))_
 - Monster Level=4 Rarity=8 Agility=16 Movement Speed=24 Number=One to several Frequency=Rare Intellect=Animal/Human Reaction=Adversarial Attack Points=Fangs:11 (4) Strike Points=12 Evasion Points=12 (5) Defense Points=8 Life Points/Resistance=20/13 (6) Mental Points/Resistance=14/12 (5) Special Abilities=Normal weapon immunity after shifting into wolf Infect (Intensity 7) _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-08585))_
 - A werewolf is a lycanthrope with the power to shapeshift into a wolf. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-08589))_
+- A werebear is a lycanthrope with the power to shapeshift into a bear. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-08612))_
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-08579))_
 
@@ -29384,10 +29248,6 @@ Destroys metal weapons and armor you are wearing. Magical weapons and armor are 
 
 > Languages=Regional
 
-##### 13.3
-
-- A werebear is a lycanthrope with the power to shapeshift into a bear. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-08612))_
-
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-08611))_
 
 > Perception=Five senses (Illumination)
@@ -29452,7 +29312,7 @@ Destroys metal weapons and armor you are wearing. Magical weapons and armor are 
 
 > Perception=Five senses (Illumination)
 
-### Converting Character Data to Monster Data
+##### 13.3 Converting Character Data to Monster Data
 
 - There are two advantages to doing this. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-08634))_
 - Using the rules presented here, a game master can convert data created as a character into the format of a monster . _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-08634))_
@@ -29515,6 +29375,10 @@ Converting Character Data to Monster Data
 - A redcap is a patient suffering from the disease of the same name, red cap , and whose depth has reached 2 or greater. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-08665))_
 - 262) to have variation in a weapon's critical target, please look at the appropriate column. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-08667))_
 - Evasion points are the character's evasion speed + 8 . _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-08668))_
+- Equivalents table (No Critical), then add adventurer level to the result. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-08671))_
+- Equivalents table (No Critical), then add adventurer level to the result. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-08671))_
+- Life points and mental points use the ability scores life force and mental power as they are. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-08672))_
+- Life point resistance and mental point resistance are each resistance +8 . _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-08673))_
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-08650))_
 
@@ -29576,14 +29440,7 @@ Converting Character Data to Monster Data
 
 > Perception=Five senses
 
-##### 13.4
-
-- Equivalents table (No Critical), then add adventurer level to the result. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-08671))_
-- Equivalents table (No Critical), then add adventurer level to the result. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-08671))_
-- Life points and mental points use the ability scores life force and mental power as they are. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-08672))_
-- Life point resistance and mental point resistance are each resistance +8 . _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-08673))_
-
-### Representing Special Monsters with Character Data
+##### 13.4 Representing Special Monsters with Character Data
 
 - Among monsters, there are some that have inherently strong individual differences. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-08677))_
 - These monsters, like adventurers, come in a variety of strengths, so it' d be more natural to describe them by their ability scores and skill levels like adventurers. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-08677))_
@@ -29610,9 +29467,7 @@ Monster Level and Adventurer Level
 
 </details>
 
-##### 13.5
-
-### Monster Level and Adventurer Level
+##### 13.5 Monster Level and Adventurer Level
 
 - A monster's monster level is a rough guide to its strength when it appears in a scenario. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-08684))_
 - A monster level's score is basically set so that if it's equal to a character's adventurer level, the character will be stronger. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-08684))_
@@ -29624,6 +29479,9 @@ Monster Level and Adventurer Level
 - between characters, if the attacker and the evader have the same final scores, the attack will fail , but between a character and a monster , the attack will hit . _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-08746))_
 - In particular, monsters that use magic are, without exception, more formidable enemies than their level suggests. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-08747))_
 - Please consider this only as a guideline. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-08747))_
+- The monster level of a monster can also be used as a scale to express the size of an event ( Table 13-3: Monster Level/Event Scale Comparisons ). _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-08749))_
+- In the case of NPCs as enemies, consider them to be two levels greater. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-08750))_
+- A 3rd level dark priest is a level that would be too spicy for a novice adventurer . _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-08750))_
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-08685))_
 
@@ -29661,13 +29519,7 @@ Monster Level and Adventurer Level
 
 > Table 13-2: Determining Monster Sub-Ability Scores
 
-##### 13.6
-
-- The monster level of a monster can also be used as a scale to express the size of an event ( Table 13-3: Monster Level/Event Scale Comparisons ). _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-08749))_
-- In the case of NPCs as enemies, consider them to be two levels greater. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-08750))_
-- A 3rd level dark priest is a level that would be too spicy for a novice adventurer . _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-08750))_
-
-### Handling Monster Special Abilities
+##### 13.6 Handling Monster Special Abilities
 
 - Some monsters have numerous special abilities. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-08753))_
 
@@ -29894,11 +29746,10 @@ Monster Level and Adventurer Level
 - Silver and magic weapons and armor are usually not affected. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-08814))_
 - Life force will not be damaged, but metal weapons and armor will suffer damage, and become worn out and useless after a certain amount of time. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-08814))_
 - Life force will not be damaged, but metal weapons and armor will suffer damage, and become worn out and useless after a certain amount of time. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-08814))_
-
-##### 13.6.4
-
 - Since it has no substance, it has no life points, so any attack methods that deal damage to life points (weapons, damage magic, etc.) are ineffective. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-08818))_
 - You cannot touch this kind of monster directly, but it is possible to cast spells with a distance of touch . _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-08819))_
+
+##### 13.6.4
 
 ##### 《 Weapon Immunity 》
 
@@ -30105,9 +29956,7 @@ Monster Level and Adventurer Level
 
 ## Chapter 14:
 
-## 14.1
-
-### Treasure and Rewards in Sword World
+## 14.1 Treasure and Rewards in Sword World
 
 - Enormous amounts of riches lie in the ruins that make a profession like theirs viable. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-08897))_
 - Think of the adventurers of Alecrast as basically on an adventure to search for treasure lying untouched in the ruins of the ancient kingdom. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-08897))_
@@ -30117,9 +29966,6 @@ Monster Level and Adventurer Level
 - Many of the treasures found in the ruins of the ancient kingdom consist of handicrafts such as gems, precious metals, wares, works of art, etc. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-08897))_
 - Therefore, unless they were brought in after coins were invented, no such coins are buried in the ruins of the ancient kingdom. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-08897))_
 - Of course, the ancient kingdom was a land where magic developed, so you'll also find weapons, armor, treasure, _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-08898))_
-
-## 14.2
-
 - Much of the magic from the ancient kingdom period has been lost, so these items permanently imbued with magic cannot be produced in the present day. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-08900))_
 - Shops like these are generally called adventurer's shops , they buy and sell equipment for adventures, and also double as taverns, used as places to exchange information regarding adventures. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-08900))_
 - Therefore, these goods are extremely valuable and can be traded at high prices. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-08900))_
@@ -30132,7 +29978,7 @@ Monster Level and Adventurer Level
 - It' s also fine for a reward to be a kiss from a beautiful maiden, or some sort of special knowledge or information. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-08901))_
 - Due to their combat power and magic, and also their familiarity with various techniques, adventurers may also be hired as handymen in towns and villages. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-08901))_
 
-### Adventure Treasure and Reward Amounts
+## 14.2 Adventure Treasure and Reward Amounts
 
 - However, the rewards obtained from an adventure should comply with the level of risk. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-08904))_
 - What kind of rewards should be given for an adventure is ultimately up to the game master. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-08904))_
@@ -30162,9 +30008,7 @@ Monster Level and Adventurer Level
 - If you fail to resolve the case, you will not be paid the remaining money. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-08911))_
 - In these contracts, 10~30% is given upfront as an advance payment. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-08911))_
 
-## 14.3
-
-### Treasure Types
+## 14.3 Treasure Types
 
 - Here are some easy examples regarding the types of treasure you can obtain in Sword World. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-08915))_
 - Artwork includes paintings, sculptures, and ornaments as well as vases and daily necessities, etc. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-08916))_
@@ -30187,23 +30031,9 @@ Monster Level and Adventurer Level
 - These are works of art created during the ancient kingdom period, and while their artistic value is great, you can say their antique value is even greater. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-08921))_
 - Of course, they have no practical value. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-08921))_
 - They're not appreciated among those who don't understand art, so outside adventurer's shops, the only buyers are wealthy merchants, high-status nobility, and royalty. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-08921))_
-
-## 14.4
-
 - Their value is equivalent to at least 100 silver coins, and if they're expensive, their value will skyrocket. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-08924))_
 
-##### Magical Items
-
-- It's safe to assume that these items, which have lasted to this day without rusting, were endowed with permanent magical power by the sorcerers of the ancient kingdom. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-08926))_
-- There are many different types of these. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-08926))_
-- You can also see handicrafts that have magical power. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-08927))_
-- For example, those called Flying Carpet or Sealing Jar . _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-08927))_
-- For example, those called Flying Carpet or Sealing Jar . _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-08927))_
-- All you need is to remember one simple word, or two or three words at most. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-08928))_
-- There are also staves, rods, wands, rings, etc. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-08928))_
-- These things are of immeasurable value to adventurers. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-08928))_
-
-### Magical Item List
+## 14.4 Magical Item List
 
 - The base trade price is the price if an adventurer is lucky enough to be able to buy it (though such opportunities are rare). _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-08931))_
 - Here is a list of magical items commonly seen in Alecrast. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-08931))_
@@ -30232,6 +30062,17 @@ Monster Level and Adventurer Level
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-08935))_
 
 > Also, even if there's no magical power, books and scrolls may contain high ancient spellbooks or valuable information about the culture of the ancient kingdom, so don't ever treat them lightly.
+
+##### Magical Items
+
+- It's safe to assume that these items, which have lasted to this day without rusting, were endowed with permanent magical power by the sorcerers of the ancient kingdom. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-08926))_
+- There are many different types of these. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-08926))_
+- You can also see handicrafts that have magical power. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-08927))_
+- For example, those called Flying Carpet or Sealing Jar . _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-08927))_
+- For example, those called Flying Carpet or Sealing Jar . _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-08927))_
+- All you need is to remember one simple word, or two or three words at most. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-08928))_
+- There are also staves, rods, wands, rings, etc. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-08928))_
+- These things are of immeasurable value to adventurers. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-08928))_
 
 ## 14.4.1 How to Read Item
 
@@ -32973,9 +32814,7 @@ Table 14-1: Daemon  Jar Summon
 
 > Form=A spiral-shaped horn about 50cm long Base Trade Price=11,000~220,000 gamels (depends on remaining mental points) Powers=Can use life spirit magic.
 
-## 15.1
-
-### Four Types of Experience Points
+## 15.1 Four Types of Experience Points
 
 - In Sword World RPG , there are four ways to gain experience points. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-09992))_
 - These are accomplishing missions , fighting monsters , success rolls , and special bonuses . _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-09992))_
@@ -33031,9 +32870,7 @@ Table 14-1: Daemon  Jar Summon
 
 > [Figure] (p.260)
 
-## 16.1
-
-### Combat in Which Monsters Roll Dice
+## 16.1 Combat in Which Monsters Roll Dice
 
 - In Sword World RPG , the monster side (game master) rarely rolls dice during combat. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-10018))_
 - This reduces the burden on the game master and allows him or her to focus on other parts. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-10018))_
@@ -33095,9 +32932,7 @@ Table 14-1: Daemon  Jar Summon
 
 > [Figure] (p.261)
 
-## 16.2
-
-### Weapon and Armor Modifiers
+## 16.2 Weapon and Armor Modifiers
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-10035))_
 
@@ -33230,10 +33065,9 @@ Shield Modifiers
 ##### Evasion Modifier
 
 - Evasion speed modifier is the evasion speed penalty you suffer while _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-10208))_
+- Heavy metal armor slows down your movement and makes it more difficult to dodge your opponent's attacks. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-10210))_
 
 ## 16.3
-
-- Heavy metal armor slows down your movement and makes it more difficult to dodge your opponent's attacks. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-10210))_
 
 ##### Defense Modifier
 
@@ -33301,9 +33135,7 @@ Table 16-3 Armor Optional Rules
 
 - In the basic rules, any weapon's bonus damage equals fi ghter (or thief, ranger) skill level + strength bonus , but for projectiles , an adventurer's strength is not fully utilized as-is. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-10295))_
 
-## 16.4
-
-### Projectile Range Extension
+## 16.4 Projectile Range Extension
 
 - In the basic rules, the range limit is 20 meters for throwing weapons and 100 meters for shooting weapons. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-10300))_
 - In the basic rules, the range limit is 20 meters for throwing weapons and 100 meters for shooting weapons. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-10300))_
@@ -33377,7 +33209,9 @@ Strong Blow
 
 - Each throwing or shooting weapon has a maximum range , and they will never hit a target farther away than this ( Table 16-4: Maximum Ranges ). _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-10305))_
 
-## 16.5
+## 16.5 Combat Options
+
+- These optional rules allow for a variety of attack methods, rather than just simple attacks but to defend, an adventurer can put everything they have into their attack. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-10314))_
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-10307))_
 
@@ -33450,10 +33284,6 @@ Ballista
 | 150 | Ballista + Required Strength x 10 |
 
 </details>
-
-### Combat Options
-
-- These optional rules allow for a variety of attack methods, rather than just simple attacks but to defend, an adventurer can put everything they have into their attack. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-10314))_
 
 ##### Full Defense
 
@@ -33840,9 +33670,7 @@ Ancient magic, spirit magic,  and spellsongs cannot be used.
 
 > [Figure] (p.267)
 
-## 16.6
-
-### Holding Weapons in Both Hands
+## 16.6 Holding Weapons in Both Hands
 
 - In the basic rules, characters cannot hold separate weapons in each hand. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-10395))_
 - This section presents extended rules for holding weapons in both hands . _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-10395))_
@@ -33944,9 +33772,7 @@ The total required strength must be up to the character's strength (or half that
 
 > If Armor's Required Strength Exceeds Your Strength
 
-## 16.9
-
-### Special Weapons
+## 16.9 Special Weapons
 
 ##### Pole Weapons
 
@@ -34207,9 +34033,7 @@ The total required strength must be up to the character's strength (or half that
 
 > [Figure] (p.272)
 
-## 17.1
-
-### Changes to Magic Procedure
+## 17.1 Changes to Magic Procedure
 
 - However, in this case, the master's work becomes quite complicated. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-10506))_
 - You can unify the rules of magic, allowing for a more integrated approach to casting. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-10506))_
@@ -34217,14 +34041,21 @@ The total required strength must be up to the character's strength (or half that
 - Using that as the target score, everyone on the side on which it was cast must attempt a mental power resistance roll. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-10507))_
 - If they fail, the magic will be cast with its full effect. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-10507))_
 - The magic procedure is resolved the same way regardless of whether a monster or an adventurer is casting the spell. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-10507))_
+- the caster rolls double ones , the magic will fail completely and have no effect. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-10509))_
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-10507))_
 
 > If they succeed, the magic will not be cast or its effect will be reduced .
 
-## 17.2
+## 17.2 Lost Spells
 
-- the caster rolls double ones , the magic will fail completely and have no effect. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-10509))_
+- There are spells known only to a limited number of sorcerers, and also spells that were lost with the fall of the ancient kingdom. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-10517))_
+- Not all ancient magic spells are taught in the sorcerers' guild. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-10517))_
+- These are called lost spells . _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-10517))_
+- Of course, no matter how high-level a sorcerer is, they don't know every spell. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-10517))_
+- There are spells known only to a limited number of sorcerers, and also spells that were lost with the fall of the ancient kingdom. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-10517))_
+- You must know of a spell's existence and learn how to use it. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-10518))_
+- The learning methods are as follows. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-10519))_
 
 ## Monster Magic Power
 
@@ -34239,16 +34070,6 @@ The total required strength must be up to the character's strength (or half that
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-10514))_
 
 > The final score must exceed the final score from when the character cast the spell.
-
-### Lost Spells
-
-- There are spells known only to a limited number of sorcerers, and also spells that were lost with the fall of the ancient kingdom. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-10517))_
-- Not all ancient magic spells are taught in the sorcerers' guild. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-10517))_
-- These are called lost spells . _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-10517))_
-- Of course, no matter how high-level a sorcerer is, they don't know every spell. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-10517))_
-- There are spells known only to a limited number of sorcerers, and also spells that were lost with the fall of the ancient kingdom. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-10517))_
-- You must know of a spell's existence and learn how to use it. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-10518))_
-- The learning methods are as follows. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-10519))_
 
 ##### 1. Obtain Spellbooks or Scrolls Containing Lost Spell
 
@@ -34303,31 +34124,23 @@ Table 17-1 Lost Spells Table
 
 </details>
 
-## 17.3
-
-### Catalysts Other Than Staves
+## 17.3 Catalysts Other Than Staves
 
 - In any case, when chanting a spell, you must hold the magic catalyst in at least one hand, and _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-10532))_
 - Commonly used ones include mage's wands , mage's rings , mage's medals , etc. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-10532))_
+- Weapons other than staves (swords are preferred) can also be catalysts, and some sorcerers who call themselves magic warriors use them. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-10535))_
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-10532))_
 
 > Basically, a mage's staff is used as a magic catalyst, but if the game master approves, you may use another object as a magic catalyst.
 
-## 17.4
-
-- Weapons other than staves (swords are preferred) can also be catalysts, and some sorcerers who call themselves magic warriors use them. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-10535))_
-
-### Using Magic Without a Catalyst
+## 17.4 Using Magic Without a Catalyst
 
 - However, a character with the sorcerer skill might find it quite frustrating if they just dropped their staff and couldn't use their spells anymore. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-10538))_
-
-## 17.5
-
 - magic can be used without a staff, but it cannot be handled effectively . _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-10540))_
 - Following this interpretation, a sorcerer can cast spells without a catalyst. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-10541))_
 
-### Full Resistance
+## 17.5 Full Resistance
 
 - When a character anticipates danger or wants to resist magic cast by an opponent at all costs, they may be able to take the full resistance action during the round. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-10544))_
 - Character movement is limited to within 3 meters. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-10545))_
@@ -34362,13 +34175,18 @@ Table 17-1 Lost Spells Table
 
 > When danger comes from an unexpected direction or location, you receive no bonus to resistance rolls and must make a check normally.
 
-## 18.1
-
-### Rules for Awarding Greater Experience Points
+## 18.1 Rules for Awarding Greater Experience Points
 
 - As your character's level increases and you take on more difficult adventures, you may find that 1000 experience points for completing a mission is not enough. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-10559))_
 - 1000 experience points each is a good score for enjoying Sword World RPG for a long time, but some people may want to reach higher levels more easily. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-10559))_
 - In such cases, you can increase the experience points for accomplishing missions as follows. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-10560))_
+- Typically, it'll probably be the strongest monster, but in some cases it may be a high difficulty trap. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-10563))_
+- If it's a monster, this is its monster level , and if it's a trap, it's its difficulty . _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-10563))_
+- Then, check its level . _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-10563))_
+- For example, in a scenario where you negotiate with a dragon, which is a 10th level monster, and get it to give you an item, you don't have to fi ght the dragon and you don't need to roll any dice. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-10564))_
+- For example, in a scenario where you negotiate with a dragon, which is a 10th level monster, and get it to give you an item, you don't have to fi ght the dragon and you don't need to roll any dice. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-10564))_
+- These are the experience points for accomplishing the mission. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-10566))_
+- If a 10th level monster is your biggest obstacle, that's 10 x 500 = 5000 . _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-10566))_
 
 **Context:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-10560))_
 
@@ -34377,16 +34195,6 @@ Table 17-1 Lost Spells Table
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-10561))_
 
 > First, the game master must determine what are the most severe obstacles to accomplishing the mission.
-
-## 18.2
-
-- Typically, it'll probably be the strongest monster, but in some cases it may be a high difficulty trap. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-10563))_
-- If it's a monster, this is its monster level , and if it's a trap, it's its difficulty . _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-10563))_
-- Then, check its level . _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-10563))_
-- For example, in a scenario where you negotiate with a dragon, which is a 10th level monster, and get it to give you an item, you don't have to fi ght the dragon and you don't need to roll any dice. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-10564))_
-- For example, in a scenario where you negotiate with a dragon, which is a 10th level monster, and get it to give you an item, you don't have to fi ght the dragon and you don't need to roll any dice. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-10564))_
-- These are the experience points for accomplishing the mission. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-10566))_
-- If a 10th level monster is your biggest obstacle, that's 10 x 500 = 5000 . _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-10566))_
 
 **Context:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-10564))_
 
@@ -34411,6 +34219,8 @@ Table 17-1 Lost Spells Table
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-10567))_
 
 > Even when using this method, if you cannot accomplish the mission, you'll still only receive 500 experience points.
+
+## 18.2
 
 #### Guidelines for Adventurer Age and Ability Score Changes
 
@@ -34474,9 +34284,7 @@ All ability scores reduced to 3/6, except intelligence and mental power remain t
 
 - Aging begins at the age of 100. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-10578))_
 
-## 18.3
-
-### Rules for Destroying Structures
+## 18.3 Rules for Destroying Structures
 
 - However, if you specifically want to handle this numerically, please use the following rules. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-10582))_
 - Basically, characters cannot destroy walls or doors, but if you really want to implement something like this, it's fine for the game master to make decisions using his or her own common sense ('You have an ax, so you should be able to break down a wooden door'). _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-10582))_
@@ -37583,3 +37391,7 @@ Key Number
 ### Disposition counts
 
 - non-claim: 2936
+
+## Procedure Guides
+
+- [[sword-world-rpg-complete-edition-procedure-create-character]] - Create Character: 9 ordered step(s), 28 decision point(s), and 61 table/formula/example reference(s) from raw/Sword World RPG - Complete Edition.pdf.

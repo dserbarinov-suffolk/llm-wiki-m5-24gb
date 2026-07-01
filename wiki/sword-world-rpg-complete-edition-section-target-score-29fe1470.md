@@ -8,7 +8,7 @@ updated: 2026-06-30
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-target-score-29fe1470@9e902cd2c738cce632cdb120fc8fa5d9
+projection_coverage: section-sword-world-rpg-complete-edition-section-target-score-29fe1470@bdeb97f116f7f521c616ad6de1dfbaeb
 ---
 
 # 《 Target Score 》
@@ -17,7 +17,6 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-5-1-5-8bf319fe]] - broader source section: 5.1.5
 - [[sword-world-rpg-complete-edition-section-counters-negates-462dea0d]] - next source section: 《 Counters (Negates) 》
 - [[sword-world-rpg-complete-edition-target-score]] - topic hub: opens the topic page for Target Score
 

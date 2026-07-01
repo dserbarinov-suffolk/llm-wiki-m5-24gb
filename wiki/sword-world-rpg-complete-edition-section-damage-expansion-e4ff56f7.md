@@ -8,7 +8,7 @@ updated: 2026-06-30
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-damage-expansion-e4ff56f7@1265a529ae9c6f336dd1f5d44231af77
+projection_coverage: section-sword-world-rpg-complete-edition-section-damage-expansion-e4ff56f7@c904b4a86b4ee67440243641737ed570
 ---
 
 # 《 Damage Expansion 》
@@ -17,7 +17,6 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-5-1-5-8bf319fe]] - broader source section: 5.1.5
 - [[sword-world-rpg-complete-edition-section-distance-expansion-5b5fb2ae]] - previous source section: 《 Distance Expansion 》
 - [[sword-world-rpg-complete-edition-section-final-score-increase-0d82dff1]] - next source section: 《 Final Score Increase 》
 

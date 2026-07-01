@@ -8,7 +8,7 @@ updated: 2026-06-30
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-magic-list-cure-wounds-2bf72421@c487ba4be5d7b464d5e73c0f5876cbd2
+projection_coverage: section-sword-world-rpg-complete-edition-section-magic-list-cure-wounds-2bf72421@e28444ff9238f9838cec0a21a950e153
 ---
 
 # Magic List [ Cure Wounds ]
@@ -17,7 +17,6 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-5-1-14-1f53ed62]] - broader source section: 5.1.14
 - [[sword-world-rpg-complete-edition-section-magic-list-cure-wounds-sanity-base-mental-power-cost-3-distance-touch-area-one-duration-instant-482eb8f1]] - narrower source section: Magic List [ Cure Wounds ] / [ Sanity ] Base Mental Power Cost=3 Distance=Touch Area=One Duration=Instant Effect=Restore the target's peace of mind Type=Mind Expansion=Final score Resist=Negated effect
 - [[sword-world-rpg-complete-edition-section-magic-list-cure-wounds-turn-undead-2475705d]] - narrower source section: Magic List [ Cure Wounds ] / [ Turn Undead ]
 - [[sword-world-rpg-complete-edition-section-magic-list-cure-wounds-transfer-mental-power-b2346a6e]] - narrower source section: Magic List [ Cure Wounds ] / [ Transfer Mental Power

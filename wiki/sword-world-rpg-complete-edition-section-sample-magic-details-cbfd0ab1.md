@@ -8,7 +8,7 @@ updated: 2026-06-30
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-sample-magic-details-cbfd0ab1@f5d59893f6f92619660a4d21c89c5072
+projection_coverage: section-sword-world-rpg-complete-edition-section-sample-magic-details-cbfd0ab1@4ba0081731630fc354e4a1ba538739cf
 ---
 
 # [Sample Magic Details]
@@ -30,7 +30,6 @@ From [[sword-world-rpg-complete-edition]].
 - [[sword-world-rpg-complete-edition-section-sample-magic-details-spellbook-cef5cb5e]] - narrower source section: [Sample Magic Details] / 《 Spellbook 》
 - [[sword-world-rpg-complete-edition-section-sample-magic-details-magical-catalyst-410c680a]] - narrower source section: [Sample Magic Details] / 《 Magical Catalyst 》
 - [[sword-world-rpg-complete-edition-section-sample-magic-details-1st-level-ancient-magic-list-unlock-348edce4]] - narrower source section: [Sample Magic Details] / 1st Level Ancient Magic List [ Unlock ]
-- [[sword-world-rpg-complete-edition-section-5-1-5-8bf319fe]] - previous source section: 5.1.5
 - [[sword-world-rpg-complete-edition-section-energy-bolt-4700b080]] - next source section: [ Energy Bolt ]
 
 ## Statements

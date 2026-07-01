@@ -8,7 +8,7 @@ updated: 2026-06-30
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-cha-za-057c6ee7@ccdb6175e1a64dc4dd9fe97f068cce4e
+projection_coverage: section-sword-world-rpg-complete-edition-section-cha-za-057c6ee7@dce6e596d373076820b916732c4e352d
 ---
 
 # 《 Cha Za 》
@@ -17,7 +17,6 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-5-1-14-1f53ed62]] - broader source section: 5.1.14
 - [[sword-world-rpg-complete-edition-section-rahda-0120aa33]] - previous source section: 《 Rahda 》
 - [[sword-world-rpg-complete-edition-section-marfa-4d8ebca1]] - next source section: 《 Marfa 》
 

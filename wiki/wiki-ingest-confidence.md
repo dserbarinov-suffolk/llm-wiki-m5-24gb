@@ -9,66 +9,63 @@ updated: 2026-06-30
 
 ## Summary
 
-Run id: 2026-06-30-144212
-Source: raw/Sword World RPG - Complete Edition.pdf
-Confidence status: passed with warnings
+Run id: 2026-06-30-212336
+Source: raw/javascriptallonge.pdf
+Confidence status: passed
 Blockers: 0
-Warnings: 1
+Warnings: 0
 Gates: 5
 
 ## Artifact Reuse
 
-- page-plan: reuse `/Users/DSerbarinov/llm-wiki/harness/.cache/page-plans/sword-world-rpg-complete-edition-8e67d04d99d8/page-plan.json` (fingerprint matches; fingerprint f5fc251c0d411fcc)
-- evidence-registry: reuse `/Users/DSerbarinov/llm-wiki/harness/.cache/page-plans/sword-world-rpg-complete-edition-8e67d04d99d8/evidence-registry.json` (fingerprint matches; fingerprint f5fc251c0d411fcc)
-- evidence-locators: reuse `/Users/DSerbarinov/llm-wiki/harness/.cache/page-plans/sword-world-rpg-complete-edition-8e67d04d99d8/evidence-locators.json` (fingerprint matches; fingerprint f5fc251c0d411fcc)
+- page-plan: reuse `/Users/DSerbarinov/llm-wiki/harness/.cache/page-plans/javascriptallonge-5873116c6496/page-plan.json` (fingerprint matches; fingerprint ec686518dd5aa1f9)
+- evidence-registry: reuse `/Users/DSerbarinov/llm-wiki/harness/.cache/page-plans/javascriptallonge-5873116c6496/evidence-registry.json` (fingerprint matches; fingerprint ec686518dd5aa1f9)
+- evidence-locators: reuse `/Users/DSerbarinov/llm-wiki/harness/.cache/page-plans/javascriptallonge-5873116c6496/evidence-locators.json` (fingerprint matches; fingerprint ec686518dd5aa1f9)
 
 ## Gates
 
 ### page-plan
 - Kind: deterministic
-- Scope: raw/Sword World RPG - Complete Edition.pdf
+- Scope: raw/javascriptallonge.pdf
 - Status: pass
 - Findings: none
 
 ### source-summary-quality
 - Kind: deterministic
-- Scope: raw/Sword World RPG - Complete Edition.pdf
-- Status: fail
-- Findings: validation-finding-f32f9db9f342bab7
+- Scope: raw/javascriptallonge.pdf
+- Status: pass
+- Findings: none
 SelectedIneligibleClaims: 0
 FalseSourceUncertaintyClaims: 0
 SourceFramingBullets: 0
-MissingUnitCoverage: 1
-MissingUnitCoverageExamples:
-- sword-world-rpg-complete-edition-2-1-checks-2-3-1-automatic-success-and-automatic-failure: unit-0121
+MissingUnitCoverage: 0
 
 ### evidence-registry
 - Kind: deterministic
-- Scope: raw/Sword World RPG - Complete Edition.pdf
+- Scope: raw/javascriptallonge.pdf
 - Status: pass
 - Findings: none
 Source texts: 1
-Source ranges: 293
-Evidence records: 12262
+Source ranges: 173
+Evidence records: 3059
 
 ### evidence-locators
 - Kind: deterministic
-- Scope: raw/Sword World RPG - Complete Edition.pdf
+- Scope: raw/javascriptallonge.pdf
 - Status: pass
 - Findings: none
-Locators: 11933
+Locators: 3025
 Invalid locators: 0
 
 ### claim-support
 - Kind: model-assisted
-- Scope: raw/Sword World RPG - Complete Edition.pdf
+- Scope: raw/javascriptallonge.pdf
 - Status: skipped
-- Findings: validation-finding-cd5ef7ea607195c1
+- Findings: validation-finding-cf596b10e496becb
 ClaimSupportAuditReport is model-assisted and is not run by ordinary ingest.
 
 ## Findings
 
-- WARNING source-summary: Source-summary plans omit covered source units. Count: 1.
 - INFO claim-support: ClaimSupportAuditReport is model-assisted and is not run by ordinary ingest.
 
 ## Caveat

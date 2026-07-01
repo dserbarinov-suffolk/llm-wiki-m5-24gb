@@ -7,7 +7,7 @@ sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-06-30
 domain: sword-world-rpg-complete-edition
 category_path: concepts
-projection_coverage: topic-sword-world-rpg-complete-edition-ability-bonuse@6355a71294c1848b5e81236241cab9a9
+projection_coverage: topic-sword-world-rpg-complete-edition-ability-bonuse@a8e29462d5ea941de06d36e5f00b0b9b
 ---
 
 # 【 Ability Bonuses 】
@@ -24,11 +24,11 @@ What [[sword-world-rpg-complete-edition]] covers about 【 ability bonuses 】:
 
 - Players are free to choose from humans or any of these races to be their alter ego, an adventurer. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-00183))_
 
-### Character Creation / 1.4.2 Determine Ability Scores
+### 1.4 Character Creation / 1.4.2 Determine Ability Scores
 
 - Once the ability scores have been determined, also find the ability bonuses and write them down on the Character Sheet. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-00367))_
 
-### [ ⑤ Ability Bonuses ]
+### 1.4 Character Creation / 1.4.9 Filling Out the Character Sheet / [ ⑤ Ability Bonuses ]
 
 - Once ability scores have been calculated, the next step is the ability bonuses. A bonus is an ability score divided by 6 (rounded down). _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-00895))_
 
@@ -76,9 +76,9 @@ Table 1-1: Ability Bonuses
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-filling-character-sheet]] - shared statements: Filling Out the Character Sheet shares source evidence from Character Creation / 1.4.2 Determine Ability Scores: Once the ability scores have been determined, also find the ability bonuses and write them down on the Character Sheet. (1 shared statement(s))
+- [[sword-world-rpg-complete-edition-filling-character-sheet]] - shared statements: 1.4.9 Filling Out the Character Sheet shares source evidence from 1.4 Character Creation / 1.4.2 Determine Ability Scores: Once the ability scores have been determined, also find the ability bonuses and write them down on the Character Sheet. (2 shared statement(s))
 - [[sword-world-rpg-complete-edition-section-8-game-master-screen-ability-scores-ability-bonuses-b62ddaa2]] - source section: 8. Game Master Screen / Ability Scores / 【 Ability Bonuses 】 shares source evidence from 8. Game Master Screen / Ability Scores / 【 Ability Bonuses 】: An ability score value is related to the success or failure of an action that an adventurer tries to perform, but in Sword World RPG , success or failure is determin ... [truncated]; 8. Game Master Screen / Ability Scores / 【 Ability Bonuses 】 shares technical record from 8. Game Master Screen / Ability Scores / 【 Ability Bonuses 】: etc.) When a character's ability score increases or decreases, even temporarily, the ability bonus increases or decreases accordingly. (6 shared statement(s), 2 shared atom(s))
-- [[sword-world-rpg-complete-edition-section-ability-bonuses-89bb601a]] - source section: [ ⑤ Ability Bonuses ] shares source evidence from [ ⑤ Ability Bonuses ]: Once ability scores have been calculated, the next step is the ability bonuses. A bonus is an ability score divided by 6 (rounded down). (1 shared statement(s))
+- [[sword-world-rpg-complete-edition-section-1-4-character-creation-1-4-9-filling-out-the-character-sheet-ability-bonuses-89bb601a]] - source section: 1.4 Character Creation / 1.4.9 Filling Out the Character Sheet / [ ⑤ Ability Bonuses ] shares source evidence from 1.4 Character Creation / 1.4.9 Filling Out the Character Sheet / [ ⑤ Ability Bonuses ]: Once ability scores have been calculated, the next step is the ability bonuses. A bonus is an ability score divided by 6 (rounded down). (1 shared statement(s))
 
 ## Source
 

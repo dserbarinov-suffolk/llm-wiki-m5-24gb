@@ -7,7 +7,7 @@ sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-06-30
 domain: sword-world-rpg-complete-edition
 category_path: concepts
-projection_coverage: topic-sword-world-rpg-complete-edition-mythical-beast@993de30b7baf8c9f3fbb8016bfecc5bf
+projection_coverage: topic-sword-world-rpg-complete-edition-mythical-beast@8405f8ca6fe543895705618d6c6605d5
 ---
 
 # Mythical Beast
@@ -16,7 +16,7 @@ What [[sword-world-rpg-complete-edition]] covers about mythical beast:
 
 ## Statements
 
-### 《 Mythical Beasts and Magical Beasts 》
+### 13.1 Types of Monsters / 《 Mythical Beasts and Magical Beasts 》
 
 - Mythical beast and magical beast are general terms for monsters that have living bodies, unlike spirits or undead. These include three types: things that have existed long before humans, such as dragons, things that live like humans, and artificial creatures created through the experiments of ancient sorcerers that have turned wild. Many have a mixture of features from multiple animals. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-05859))_
 
@@ -29,7 +29,7 @@ What [[sword-world-rpg-complete-edition]] covers about mythical beast:
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-magical-beast]] - shared statements: Magical Beast shares source evidence from 《 Mythical Beasts and Magical Beasts 》: Mythical beast and magical beast are general terms for monsters that have living bodies, unlike spirits or undead. These include three types: things that have existe ... [truncated] (5 shared statement(s))
+- [[sword-world-rpg-complete-edition-magical-beast]] - shared statements: Magical Beast shares source evidence from 13.1 Types of Monsters / 《 Mythical Beasts and Magical Beasts 》: Mythical beast and magical beast are general terms for monsters that have living bodies, unlike spirits or undead. These include three types: things that have existe ... [truncated] (5 shared statement(s))
 
 ## Source
 

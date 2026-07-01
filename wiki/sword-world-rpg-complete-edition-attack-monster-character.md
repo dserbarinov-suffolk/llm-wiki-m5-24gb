@@ -1,13 +1,13 @@
 ---
 page_id: sword-world-rpg-complete-edition-attack-monster-character
 page_kind: concept
-summary: Attacks From Monsters Against Characters: 170 statement(s) and 20 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+summary: Attacks From Monsters Against Characters: 170 statement(s) and 19 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: broad-topic
 sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-06-30
 domain: sword-world-rpg-complete-edition
 category_path: concepts
-projection_coverage: topic-sword-world-rpg-complete-edition-attack-monster-character@0d8b5707ab32aa810223133053f56cfb
+projection_coverage: topic-sword-world-rpg-complete-edition-attack-monster-character@641c28809a7ae7a74c9248c8360a84bd
 ---
 
 # Attacks From Monsters Against Characters
@@ -16,7 +16,7 @@ What [[sword-world-rpg-complete-edition]] covers about attacks from monsters aga
 
 ## Statements
 
-### 1.4.7 Restrictions on Weapons and Armor Based on Skill / [ Fighter ］
+### 1.4 Character Creation / 1.4.7 Restrictions on Weapons and Armor Based on Skill / [ Fighter ］
 
 - There are no restrictions. The basic idea is to choose weapons and armor whose required strength is the same as your own strength. Weapons and armor that have a required strength less than your own strength will make your character's attack and defense incomplete, and weapons and armor with a required strength greater than your own strength cannot be handled. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-00803))_
 
@@ -24,45 +24,43 @@ What [[sword-world-rpg-complete-edition]] covers about attacks from monsters aga
 
 - Which of the two will make their action announcements first is determined based on intelligence . The group with the highest intelligence among all the characters (including monsters, etc.) participating in combat will announce their action later . If a2 is the one with the highest intelligence between groups A and B as mentioned, then the announcements are made in the order of B → A , regardless of the intelligence of the other characters. Those who announce their actions later- the ones with highest representative intelligence --will have a significant advantage because they can announce their own actions after hearing their opponents' announcements. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-01059))_
 
-### Chapter 3: / Action Announcements / 3.1.2 Player Action Announcements / 3.1.3 NPC and Monster Action Announcements
+### Chapter 3: / Action Announcements / 3.1.3 NPC and Monster Action Announcements
 
 - You may only declare, I'm preparing to cast a spell , and not give out the specific name of the spell. This is the difference in position between the players and the game master. The game master, as the person who manages the game, must know the actions of all the characters and monsters that appear. However, the players should only act from their characters' point of view. So, if a character cannot predict something, the player cannot know it either. When you see it for the first time, you won't know how a monster you don't recognize will act, and when an enemy tries to cast a spell you don't recognize, you won't know what that spell does. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-01073))_
 
-### 3.3.1 When It's Possible to / 3.2.1 Delaying an Action
+### Chapter 3: / 3.2.1 Delaying an Action
 
 - Characters (including NPCs and monsters) do not have to act based on their agility and can instead delay their actions. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-01103))_
 
-### Withdraw (Flee) From Engagement
+### Chapter 3: / Withdraw (Flee) From Engagement
 
 - If an attack is declared on a character who is withdrawing, another character is needed to suffer the enemy's attack in their place (defend against the attack). _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-01137))_
 
 - If you do not have a companion to take on your opponent, you will escape with your back completely turned, and you will suffer a -4 penalty when evading the attack. Also, in that case, regardless of your character's agility, they will only escape at the end of the round (agility 0, based on action order). In other words, there is always a chance for the enemy to attack a character before they withdraw. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-01138))_
 
-### 3.4.3
-
 - The distance you can move is a number of meters equal to your character's agility (or a monster's movement speed ). _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-01142))_
 
-### Scores Used in Weapon Combat / 【 Attack Power 】
+### Chapter 3: / 3.4.4 Actions You Can Take While Standing Still / Scores Used in Weapon Combat / 【 Attack Power 】
 
 - This is the number needed to determine whether a character's attack will hit or not. The higher this score, the higher the probability that a character's attack will hit. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-01207))_
 
 - If fighter (or thief, ranger) skill level is 0 , then attack power is 0 regardless of the character's dexterity bonus. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-01210))_
 
-### Scores Used in Weapon Combat / 【 Strike Power 】
+### Chapter 3: / 3.4.4 Actions You Can Take While Standing Still / Scores Used in Weapon Combat / 【 Strike Power 】
 
 - This is the number needed to determine how much damage a character's attack will deal if it hits. The greater this score, the more damage a character will deal. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-01212))_
 
-### Scores Used in Weapon Combat / 【 Evasion Speed 】
+### Chapter 3: / 3.4.4 Actions You Can Take While Standing Still / Scores Used in Weapon Combat / 【 Evasion Speed 】
 
 - In combat, characters are not the only ones who can attack. Naturally, the enemy will also attack the characters. To evade an enemy's attack, a score called evasion speed is necessary. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-01228))_
 
 - A character with excellent evasion speed will be able to evade enemy attacks more easily. No matter how formidable the weapon, it's not that scary if it doesn't hit. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-01229))_
 
-### Scores Used in Weapon Combat / Filling out the Character Sheet
+### Chapter 3: / 3.4.4 Actions You Can Take While Standing Still / Scores Used in Weapon Combat / Filling out the Character Sheet
 
 - These procedures differ when the attacker and defender are character against monster , monster against character , or character against character . There is one other case, monster against monster , but since only the game master should know how to handle this case, we won't explain it here. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-01246))_
 
-### Attacks From Characters Against Monsters / 4.5.1 Hit Checks
+### Chapter 3: / 3.4.4 Actions You Can Take While Standing Still / Attacks From Characters Against Monsters / 4.5.1 Hit Checks
 
 - character's attack power + 2D < monster's evasion points → attack fails ※ Double sixes will automatically hit, and double ones will automatically fail. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-01256))_
 
@@ -70,7 +68,7 @@ What [[sword-world-rpg-complete-edition]] covers about attacks from monsters aga
 
 - Once you've determined base damage, you must then add your character's bonus damage. This will be the total amount of damage the character deals the monster. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-01292))_
 
-### Monster Defense Points
+### 4.5.4 Monster Defense Points
 
 - Monsters can repel and hold off attacks with their thick skins and hard scales. In monster data, this is represented by defense points . This indicates the amount of damage a monster can reduce. Please note that a monster's defense points are treated differently from a character's defense power . _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-01301))_
 
@@ -114,25 +112,29 @@ What [[sword-world-rpg-complete-edition]] covers about attacks from monsters aga
 
 - If the defense roll came up double ones , no such calculation would be made, and the goblin's 7 strike points would be the damage. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-01352))_
 
-### Attacks From Characters Against Characters / 4.7.1 Hit Checks
+### 4.7 Attacks From Characters Against Characters / 4.7.1 Hit Checks
 
 - In combat between characters, a tie is considered an attack failure. Ducard II 's attack was narrowly dodged. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-01371))_
 
-### Attacks From Characters Against Characters / 4.7.2 Damage Checks
+### 4.7 Attacks From Characters Against Characters / 4.7.2 Damage Checks
 
 - If your attack hits, you must then determine damage. This procedure is exactly the same for characters as it was during combat with monsters. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-01380))_
 
-### Unconscious and Death Checks
+### 4.9 Unconscious and Death Checks
 
 - If, as a result of damage (accumulated damage), a character's (monster's) life force (points) becomes 0 or negative , that character (monster) will fall unconscious . It is no longer possible for them to act. Also, that character (monster) is now in danger of dying . _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-01423))_
 
-### 4.10
+### 4.9 Unconscious and Death Checks / 4.9.4 Mercy
 
 - A character who falls down with 0 or negative life force due to an attack that was declared to be mercy , will only fail their death check if double ones are rolled. On any other roll, the character remains alive . _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-01453))_
 
-### Damage Recovery / 4.11.3 Natural Recovery
+### 4.10 Excellent Weapons and Armor / 4.10.4 Mithril Silver Weapons and Armor / Damage Recovery / 4.11.3 Natural Recovery
 
 - If a character is not at rest (e.g., traveling, fighting monsters in a labyrinth, not getting much sleep at night due to keeping watch), that character cannot recover any life force at all. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-01530))_
+
+### 5.1.12 Ancient Magic List / [ Full Potential ]
+
+- Full Potential is a spell that enhances the effects of Physical Enchantment and raises potential capabilities of the human body to maximum. The result is the same effect as casting the Sharpness , Quickness and Strength spells of Physical Enchantment all at the same time. In other words, dexterity , agility , and strength all increase by 6 at the same time. As a result, each ability bonus will be increased by +1, so for the duration, the baseline score of the abilities of each skill related to the increased ability score will also become +1. If you use it in combat, attack power, evasion speed, and bonus damage will all increase, so action order and movement speed will also increase. If the target is expressed as a monster, its attack points, evasion points, and strike points will increase by 1 point, and at the same time its movement speed and action order will also increase by 6. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-02542))_
 
 - ※ Double sixes will automatically evade, and double ones will automatically fail _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-01319))_
 - Since this is a success roll, double sixes and double ones are automatic successes and automatic failures , respectively. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-01320))_
@@ -141,7 +143,6 @@ What [[sword-world-rpg-complete-edition]] covers about attacks from monsters aga
 - 5+4= 9 , which is short of the target score (the goblin's attack points) of 10. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-01323))_
 - The player rolls the dice to determine if they evade the goblin's attack. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-01323))_
 - If final damage is 0 or negative , that means you took no damage at all. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-01353))_
-- If the target is expressed as a monster, its attack points, evasion points, and strike points will increase by 1 point, and at the same time its movement speed and action order will also increase by 6. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-02542))_
 - The outer walls of the dome are tough and densely intertwined with living plants, protecting those inside from attacks by wild beasts and less powerful monsters. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-03260))_
 - If the check fails, the character has no knowledge of the monster. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-04131))_
 - If the same conditions apply to monsters, the same penalty (bonus) will be given to the monster's attack and evasion points. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-04689))_
@@ -371,7 +372,7 @@ Table 4-3: Rating Table, Key Number
 
 </details>
 
-### Technical frame 10: Attacks From Characters Against Characters / 4.7.2 Damage Checks
+### Technical frame 10: 4.7 Attacks From Characters Against Characters / 4.7.2 Damage Checks
 
 **Context:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-01383))_
 
@@ -416,7 +417,7 @@ Table 10-2: Surprise Attack Check
 
 </details>
 
-### Technical frame 12: 《 Defense Points 》
+### Technical frame 12: 13.2.1 《 Humans 》 / 《 Defense Points 》
 
 **Context:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-05950))_
 
@@ -426,7 +427,7 @@ Table 10-2: Surprise Attack Check
 
 > Just as characters can reduce damage through armor, monsters also have thick skin, shells, scales, etc.
 
-### Technical frame 13: 《 Defense Points 》
+### Technical frame 13: 13.2.1 《 Humans 》 / 《 Defense Points 》
 
 **Context:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-05951))_
 
@@ -436,7 +437,7 @@ Table 10-2: Surprise Attack Check
 
 > When struck by magic or similar attacks, defense points cannot reduce damage, monster level reduces damage instead.
 
-### Technical frame 14: 《 Life Points/Resistance 》
+### Technical frame 14: 13.2.1 《 Humans 》 / 《 Life Points/Resistance 》
 
 **Context:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-05958))_
 
@@ -446,7 +447,7 @@ Table 10-2: Surprise Attack Check
 
 > When a character casts a spell on a monster, they must make a success roll using their magic power as the baseline score.
 
-### Technical frame 15: [ Horse ] / 13.2.8 Plants / [ Ash ] Monster Level=2 Rarity=11 Agility=9 Movement Speed=8 Number=Several Frequency=Moderate Intellect=Almost none Reaction=Violent Attack Points=- Strike Points=Evasion Points=- Defense Points=Life Points/Resistance=7/9 (2) Mental Points/Resistance=-/10 (3) Special Abilities=Wrap (Evasion target score=10, strike power 10, bonus damage 2) Mental attack immunity Weapon immunity Fire immunity Not affected by poison and illness Damage from healing magic Habitat=Ruins Languages=None Perception=Magic
+### Technical frame 15: 13.2.6 Mythical Beasts and Magical Beasts / [ Horse ] / 13.2.8 Plants / [ Ash ] Monster Level=2 Rarity=11 Agility=9 Movement Speed=8 Number=Several Frequency=Moderate Intellect=Almost none Reaction=Violent Attack Points=- Strike Points=Evasion Points=- Defense Points=Life Points/Resistance=7/9 (2) Mental Points/Resistance=-/10 (3) Special Abilities=Wrap (Evasion target score=10, strike power 10, bonus damage 2) Mental attack immunity Weapon immunity Fire immunity Not affected by poison and illness Damage from healing magic Habitat=Ruins Languages=None Perception=Magic
 
 **Context:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-07619))_
 
@@ -456,7 +457,7 @@ Table 10-2: Surprise Attack Check
 
 > The target of the attack must make a success roll using adventurer level + agility bonus as the baseline score, and if they fail, they will inhale a portion of the ash.
 
-### Technical frame 16: [ Horse ] / Converting Character Data to Monster Data
+### Technical frame 16: 13.2.6 Mythical Beasts and Magical Beasts / [ Horse ] / 13.3 Converting Character Data to Monster Data
 
 **Context:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-08643))_
 
@@ -466,7 +467,7 @@ Table 10-2: Surprise Attack Check
 
 > Table 13-1: Key Number = Expected Equivalents
 
-### Technical frame 17: [ Horse ] / Handling Monster Special Abilities / 13.6.3 Special Attacks: Other / 《 Strangling 》
+### Technical frame 17: 13.2.6 Mythical Beasts and Magical Beasts / [ Horse ] / 13.6 Handling Monster Special Abilities / 13.6.3 Special Attacks: Other / 《 Strangling 》
 
 **Context:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-08794))_
 
@@ -476,17 +477,7 @@ Table 10-2: Surprise Attack Check
 
 > If you succeed, you can break free, but if you fail, you'll automatically suffer damage at the end of the round.
 
-### Technical frame 18: [ Horse ] / Handling Monster Special Abilities / 13.6.3 Special Attacks: Other / 《 Weapon Immunity 》
-
-**Context:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-08821))_
-
-> Attacks with weapons, no matter how powerful they are, or even if they're magical weapons, will have no effect at all. Even in combat between monsters, it' s not possible for monsters that only have attack methods similar to weapons, such as fangs or claws, etc. to fight against them.
-
-**Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-08823))_
-
-> Normal weapons, no matter how powerful, cannot deal damage.
-
-### Technical frame 19: Combat in Which Monsters Roll Dice / Attacks From Monsters Against Characters
+### Technical frame 18: Chapter 16: / 16.1 Combat in Which Monsters Roll Dice / Attacks From Monsters Against Characters
 
 **Context:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-10025))_
 
@@ -496,7 +487,7 @@ Table 10-2: Surprise Attack Check
 
 > The game master should roll 2D and add it to the number in parenthesis.
 
-### Technical frame 20: Combat in Which Monsters Roll Dice / Attacks From Characters Against Monsters
+### Technical frame 19: Chapter 16: / 16.1 Combat in Which Monsters Roll Dice / Attacks From Characters Against Monsters
 
 **Context:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-10029))_
 
@@ -509,25 +500,26 @@ Table 10-2: Surprise Attack Check
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-attack-character-monster]] - shared statements and technical atoms: Attacks From Characters Against Monsters shares source evidence from 1.4.7 Restrictions on Weapons and Armor Based on Skill / [ Fighter ］: There are no restrictions. The basic idea is to choose weapons and armor whose required strength is the same as your own strength. Weapons and armor that have a requ ... [truncated]; Attacks From Characters Against Monsters shares technical record from Attacks From Monsters Against Characters / 4.6.5 Final Damage: Final damage = monster's strike points - (defense roll result + damage reduction) (147 shared statement(s), 13 shared atom(s))
+- [[sword-world-rpg-complete-edition-attack-character-monster]] - shared statements and technical atoms: Attacks From Characters Against Monsters shares source evidence from 1.4 Character Creation / 1.4.7 Restrictions on Weapons and Armor Based on Skill / [ Fighter ］: There are no restrictions. The basic idea is to choose weapons and armor whose required strength is the same as your own strength. Weapons and armor that have a requ ... [truncated]; Attacks From Characters Against Monsters shares technical record from Attacks From Monsters Against Characters / 4.6.5 Final Damage: Final damage = monster's strike points - (defense roll result + damage reduction) (147 shared statement(s), 12 shared atom(s))
 - [[sword-world-rpg-complete-edition-final-damage]] - shared statements and technical atoms: 4.5.5 Final Damage shares source evidence from Attacks From Monsters Against Characters / 4.6.5 Final Damage: The final damage your character suffers from a monster equals the monster's strike points minus the result of your defense roll plus your character's damage reduction .; 4.5.5 Final Damage shares technical record from Attacks From Monsters Against Characters / 4.6.5 Final Damage: Final damage = monster's strike points - (defense roll result + damage reduction) (4 shared statement(s), 2 shared atom(s))
 - [[sword-world-rpg-complete-edition-adventurer-level]] - shared statements and technical atoms: 1.3.3 Adventurer Level shares source evidence from Attacks From Monsters Against Characters / 4.6.4 Damage Reduction: Characters can also reduce damage using their adventurer level . The result of your defense roll plus this damage reduction equals the fi nal amount of damage your c ... [truncated]; 1.3.3 Adventurer Level shares technical record from Table 10-2: Surprise Attack Check: Table 10-2: Surprise Attack Check included Table 10-2: Surprise Attack Intelligence                                  Monster    Adventurer Check as a reference. The ... [truncated] (5 shared statement(s), 1 shared atom(s))
 - [[sword-world-rpg-complete-edition-damage-reduction]] - shared statements and technical atoms: 【 Damage Reduction 】 shares source evidence from Attacks From Monsters Against Characters / 4.6.4 Damage Reduction: Characters can also reduce damage using their adventurer level . The result of your defense roll plus this damage reduction equals the fi nal amount of damage your c ... [truncated]; 【 Damage Reduction 】 shares technical record from Attacks From Monsters Against Characters / 4.6.5 Final Damage: Final damage = monster's strike points - (defense roll result + damage reduction) (5 shared statement(s), 1 shared atom(s))
-- [[sword-world-rpg-complete-edition-life]] - shared statements and technical atoms: Life shares source evidence from 《 Life Points/Resistance 》: Life points represents the monster's life force. When a monster suffers damage, it will lose life points. As with a character, when a monster's life points fall to 0 ... [truncated]; Life shares technical record from 《 Life Points/Resistance 》: When a character casts a spell on a monster, they must make a success roll using their magic power as the baseline score. (3 shared statement(s), 1 shared atom(s))
-- [[sword-world-rpg-complete-edition-resistance]] - shared statements and technical atoms: Resistance shares source evidence from 《 Life Points/Resistance 》: (Life point) resistance is a substitute for a character's life force resistance roll . When a character is poisoned, etc. a life force resistance roll determines whe ... [truncated]; Resistance shares technical record from 《 Life Points/Resistance 》: When a character casts a spell on a monster, they must make a success roll using their magic power as the baseline score. (3 shared statement(s), 1 shared atom(s))
-- [[sword-world-rpg-complete-edition-ranger-skill]] - shared statements and technical atoms: 【 Ranger Skill 】 shares source evidence from Scores Used in Weapon Combat / 【 Attack Power 】: If fighter (or thief, ranger) skill level is 0 , then attack power is 0 regardless of the character's dexterity bonus.; 【 Ranger Skill 】 shares technical record from Table 10-2: Surprise Attack Check: Table 10-2: Surprise Attack Check included Table 10-2: Surprise Attack Intelligence                                  Monster    Adventurer Check as a reference. The ... [truncated] (2 shared statement(s), 1 shared atom(s))
+- [[sword-world-rpg-complete-edition-life]] - shared statements and technical atoms: Life shares source evidence from 13.2.1 《 Humans 》 / 《 Life Points/Resistance 》: Life points represents the monster's life force. When a monster suffers damage, it will lose life points. As with a character, when a monster's life points fall to 0 ... [truncated]; Life shares technical record from 13.2.1 《 Humans 》 / 《 Life Points/Resistance 》: When a character casts a spell on a monster, they must make a success roll using their magic power as the baseline score. (3 shared statement(s), 1 shared atom(s))
+- [[sword-world-rpg-complete-edition-ranger-skill]] - shared statements and technical atoms: 【 Ranger Skill 】 shares source evidence from Chapter 3: / 3.4.4 Actions You Can Take While Standing Still / Scores Used in Weapon Combat / 【 Attack Power 】: If fighter (or thief, ranger) skill level is 0 , then attack power is 0 regardless of the character's dexterity bonus.; 【 Ranger Skill 】 shares technical record from Table 10-2: Surprise Attack Check: Table 10-2: Surprise Attack Check included Table 10-2: Surprise Attack Intelligence                                  Monster    Adventurer Check as a reference. The ... [truncated] (3 shared statement(s), 1 shared atom(s))
+- [[sword-world-rpg-complete-edition-resistance]] - shared statements and technical atoms: Resistance shares source evidence from 13.2.1 《 Humans 》 / 《 Life Points/Resistance 》: (Life point) resistance is a substitute for a character's life force resistance roll . When a character is poisoned, etc. a life force resistance roll determines whe ... [truncated]; Resistance shares technical record from 13.2.1 《 Humans 》 / 《 Life Points/Resistance 》: When a character casts a spell on a monster, they must make a success roll using their magic power as the baseline score. (3 shared statement(s), 1 shared atom(s))
 - [[sword-world-rpg-complete-edition-target-score]] - shared statements: Target Scores shares source evidence from Attacks From Monsters Against Characters / 4.6.1 Hit (Evasion) Checks: The baseline score is the character's evasion speed . The target score is still different for each monster, but it's called the monster's attack points . (9 shared statement(s))
 - [[sword-world-rpg-complete-edition-bonus-damage]] - shared statements: 【 Bonus Damage 】 shares source evidence from 4.5.3 Bonus Damage: Once you've determined base damage, you must then add your character's bonus damage. This will be the total amount of damage the character deals the monster. (3 shared statement(s))
-- [[sword-world-rpg-complete-edition-low-ancient]] - shared statements: 《 Low Ancient 》 shares source evidence from [ Lamia ]: Monster Level=5 Rarity=15 Agility=9 Movement Speed=12 Number=One Frequency=Rare Intellect=Human Reaction=Neutral Attack Points=Strangle:13 (6) Strike Points=11 Evasi ... [truncated] (3 shared statement(s))
-- [[sword-world-rpg-complete-edition-hit-check]] - shared statements: 4.5.1 Hit Checks shares source evidence from Attacks From Characters Against Monsters / 4.5.1 Hit Checks: character's attack power + 2D < monster's evasion points → attack fails ※ Double sixes will automatically hit, and double ones will automatically fail. (2 shared statement(s))
-- [[sword-world-rpg-complete-edition-filling-character-sheet]] - shared statements: Filling Out the Character Sheet shares source evidence from Scores Used in Weapon Combat / Filling out the Character Sheet: These procedures differ when the attacker and defender are character against monster , monster against character , or character against character . There is one othe ... [truncated] (1 shared statement(s))
-- [[sword-world-rpg-complete-edition-monster-action-announcement]] - shared statements: Monster Action Announcement shares source evidence from Chapter 3: / Action Announcements / 3.1.2 Player Action Announcements / 3.1.3 NPC and Monster Action Announcements: You may only declare, I'm preparing to cast a spell , and not give out the specific name of the spell. This is the difference in position between the players and the ... [truncated] (1 shared statement(s))
-- [[sword-world-rpg-complete-edition-monster-level]] - shared statements: Monster Level shares source evidence from [ Horse ] / Monster Level and Adventurer Level: A monster's monster level is a rough guide to its strength when it appears in a scenario. A monster level's score is basically set so that if it's equal to a charact ... [truncated] (1 shared statement(s))
-- [[sword-world-rpg-complete-edition-npc-monster-action-announcement]] - shared statements: 3.1.3 NPC and Monster Action Announcements shares source evidence from Chapter 3: / Action Announcements / 3.1.2 Player Action Announcements / 3.1.3 NPC and Monster Action Announcements: You may only declare, I'm preparing to cast a spell , and not give out the specific name of the spell. This is the difference in position between the players and the ... [truncated] (1 shared statement(s))
-- [[sword-world-rpg-complete-edition-thief-skill]] - shared statements: 【 Thief Skill 】 shares source evidence from Scores Used in Weapon Combat / 【 Attack Power 】: If fighter (or thief, ranger) skill level is 0 , then attack power is 0 regardless of the character's dexterity bonus. (1 shared statement(s))
-- [[sword-world-rpg-complete-edition-weapon-critical]] - shared statements: 《 Weapons Cannot Critical 》 shares source evidence from [ Horse ] / 13.2.10 Magical Creatures / [ Golem ]: Monster Level=9 Rarity=12 Agility=6 Movement Speed=8 Number=One Frequency=Rare Intellect=Obeys commands Reaction=Command-based Attack Points=Arms:17 (10) Strike Poin ... [truncated] (1 shared statement(s))
+- [[sword-world-rpg-complete-edition-low-ancient]] - shared statements: 《 Low Ancient 》 shares source evidence from 13.2.6 Mythical Beasts and Magical Beasts / [ Lamia ]: Monster Level=5 Rarity=15 Agility=9 Movement Speed=12 Number=One Frequency=Rare Intellect=Human Reaction=Neutral Attack Points=Strangle:13 (6) Strike Points=11 Evasi ... [truncated] (3 shared statement(s))
+- [[sword-world-rpg-complete-edition-hit-check]] - shared statements: 4.5.1 Hit Checks shares source evidence from Chapter 3: / 3.4.4 Actions You Can Take While Standing Still / Attacks From Characters Against Monsters / 4.5.1 Hit Checks: character's attack power + 2D < monster's evasion points → attack fails ※ Double sixes will automatically hit, and double ones will automatically fail. (2 shared statement(s))
+- [[sword-world-rpg-complete-edition-13-monster-level]] - shared statements: 13 Monster Level shares source evidence from 13.2.6 Mythical Beasts and Magical Beasts / [ Horse ] / 13.5 Monster Level and Adventurer Level: A monster's monster level is a rough guide to its strength when it appears in a scenario. A monster level's score is basically set so that if it's equal to a charact ... [truncated] (1 shared statement(s))
+- [[sword-world-rpg-complete-edition-death-check]] - shared statements: Death Check shares source evidence from 4.9 Unconscious and Death Checks / 4.9.4 Mercy: A character who falls down with 0 or negative life force due to an attack that was declared to be mercy , will only fail their death check if double ones are rolled. ... [truncated] (1 shared statement(s))
+- [[sword-world-rpg-complete-edition-filling-character-sheet]] - shared statements: 1.4.9 Filling Out the Character Sheet shares source evidence from Chapter 3: / 3.4.4 Actions You Can Take While Standing Still / Scores Used in Weapon Combat / Filling out the Character Sheet: These procedures differ when the attacker and defender are character against monster , monster against character , or character against character . There is one othe ... [truncated] (1 shared statement(s))
+- [[sword-world-rpg-complete-edition-monster-action-announcement]] - shared statements: Monster Action Announcement shares source evidence from Chapter 3: / Action Announcements / 3.1.3 NPC and Monster Action Announcements: You may only declare, I'm preparing to cast a spell , and not give out the specific name of the spell. This is the difference in position between the players and the ... [truncated] (1 shared statement(s))
+- [[sword-world-rpg-complete-edition-thief-skill]] - shared statements: 【 Thief Skill 】 shares source evidence from Chapter 3: / 3.4.4 Actions You Can Take While Standing Still / Scores Used in Weapon Combat / 【 Attack Power 】: If fighter (or thief, ranger) skill level is 0 , then attack power is 0 regardless of the character's dexterity bonus. (1 shared statement(s))
+- [[sword-world-rpg-complete-edition-unconscious]] - shared statements: Unconscious shares source evidence from 4.9 Unconscious and Death Checks: If, as a result of damage (accumulated damage), a character's (monster's) life force (points) becomes 0 or negative , that character (monster) will fall unconscious ... [truncated] (1 shared statement(s))
+- [[sword-world-rpg-complete-edition-weapon-critical]] - shared statements: 《 Weapons Cannot Critical 》 shares source evidence from 13.2.6 Mythical Beasts and Magical Beasts / [ Horse ] / 13.2.10 Magical Creatures / [ Golem ]: Monster Level=9 Rarity=12 Agility=6 Movement Speed=8 Number=One Frequency=Rare Intellect=Obeys commands Reaction=Command-based Attack Points=Arms:17 (10) Strike Poin ... [truncated] (1 shared statement(s))
 - [[sword-world-rpg-complete-edition-section-attacks-from-monsters-against-characters-a9a9211c]] - source section: Attacks From Monsters Against Characters shares source evidence from Attacks From Monsters Against Characters / 4.6.1 Hit (Evasion) Checks: This check is also made with a success roll.; Attacks From Monsters Against Characters shares technical record from Attacks From Monsters Against Characters / 4.6.1 Hit (Evasion) Checks: evasion speed + 2D ≥ monster's attack points → evasion success (monster's attack fails) (26 shared statement(s), 9 shared atom(s))
-- [[sword-world-rpg-complete-edition-section-combat-in-which-monsters-roll-dice-attacks-from-monsters-against-characters-777d3622]] - source section: Combat in Which Monsters Roll Dice / Attacks From Monsters Against Characters shares source evidence from Combat in Which Monsters Roll Dice / Attacks From Monsters Against Characters: A score equal to a monster's attack points - 7 is written next to it in parenthesis. This is used here. The game master should roll 2D and add it to the number in pa ... [truncated]; Combat in Which Monsters Roll Dice / Attacks From Monsters Against Characters shares technical record from Combat in Which Monsters Roll Dice / Attacks From Monsters Against Characters: The game master should roll 2D and add it to the number in parenthesis. (6 shared statement(s), 1 shared atom(s))
+- [[sword-world-rpg-complete-edition-section-chapter-16-16-1-combat-in-which-monsters-roll-dice-attacks-from-monsters-against-characters-777d3622]] - source section: Chapter 16: / 16.1 Combat in Which Monsters Roll Dice / Attacks From Monsters Against Characters shares source evidence from Chapter 16: / 16.1 Combat in Which Monsters Roll Dice / Attacks From Monsters Against Characters: A score equal to a monster's attack points - 7 is written next to it in parenthesis. This is used here. The game master should roll 2D and add it to the number in pa ... [truncated]; Chapter 16: / 16.1 Combat in Which Monsters Roll Dice / Attacks From Monsters Against Characters shares technical record from Chapter 16: / 16.1 Combat in Which Monsters Roll Dice / Attacks From Monsters Against Characters: The game master should roll 2D and add it to the number in parenthesis. (6 shared statement(s), 1 shared atom(s))
 
 ## Source
 

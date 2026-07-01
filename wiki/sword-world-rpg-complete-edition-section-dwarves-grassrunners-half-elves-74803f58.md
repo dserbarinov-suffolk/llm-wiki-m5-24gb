@@ -8,7 +8,7 @@ updated: 2026-06-30
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-dwarves-grassrunners-half-elves-74803f58@e7e06c87aac04ead0fcbe4fd0958d86f
+projection_coverage: section-sword-world-rpg-complete-edition-section-dwarves-grassrunners-half-elves-74803f58@0813dd83c9ddf25a85e8c738440c33ae
 ---
 
 # Dwarves, Grassrunners, Half-Elves
@@ -18,7 +18,7 @@ From [[sword-world-rpg-complete-edition]].
 ## Related pages
 
 - [[sword-world-rpg-complete-edition-section-elves-ef998355]] - previous source section: Elves
-- [[sword-world-rpg-complete-edition-section-18-3-bf0e7292]] - next source section: 18.3
+- [[sword-world-rpg-complete-edition-section-18-3-rules-for-destroying-structures-bf0e7292]] - next source section: 18.3 Rules for Destroying Structures
 
 ## Statements
 

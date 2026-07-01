@@ -17,7 +17,11 @@ from forge.context import ContextManager
 from forge.core.messages import Message, MessageMeta, MessageRole, MessageType
 from forge.core.runner import WorkflowRunner
 
-from llmwiki.domain.chat_grounding import build_chat_grounding
+from llmwiki.domain.chat_grounding import (
+    ChatEvidenceScope,
+    plan_chat_grounding,
+    render_grounded_user_message,
+)
 from llmwiki.domain.chatwindow import QAPair
 from llmwiki.domain.claim_support import (
     ClaimSupportAuditReport,
@@ -50,6 +54,7 @@ from llmwiki.domain.planning import (
     page_plan_to_json,
 )
 from llmwiki.domain.salience import compute_salience
+from llmwiki.domain.search import render_hits, search_pages
 from llmwiki.pdf import PdfError
 from llmwiki.pdf.document import DocumentModel
 from llmwiki.pdf.pipeline import (
@@ -362,7 +367,21 @@ class Session:
         with the question, so the opening answer starts from the catalog
         and drills into pages — grounding by provisioning, not enforcement.
         """
-        workflow = build_chat_workflow(self.store)
+        grounding_plan = plan_chat_grounding(question, grounded=grounded, has_window=bool(window))
+        pages = self.store.page_texts()
+        index_text = self.store.read_index() if grounding_plan.include_index else ""
+        search_results = ""
+        evidence_scope: ChatEvidenceScope | None = None
+        if grounding_plan.include_search_results:
+            hits = search_pages(pages, question)
+            search_results = render_hits(hits)
+            evidence_scope = ChatEvidenceScope.from_search_hits(pages, hits)
+        workflow = build_chat_workflow(
+            self.store,
+            allow_index_response=grounding_plan.allow_index_response,
+            require_wiki_read=grounding_plan.require_wiki_read,
+            evidence_scope=evidence_scope,
+        )
         rendered = workflow.build_system_prompt(schema=self.store.read_schema())
         seed = [Message(MessageRole.SYSTEM, rendered, MessageMeta(MessageType.SYSTEM_PROMPT))]
         for pair in window:
@@ -372,17 +391,12 @@ class Session:
             seed.append(
                 Message(MessageRole.ASSISTANT, pair.answer, MessageMeta(MessageType.TEXT_RESPONSE))
             )
-        message = question + " /no_think"
-        if grounded:
-            grounding = build_chat_grounding(
-                question,
-                index_text=self.store.read_index(),
-                page_texts=self.store.page_texts(),
-            )
-            message = (
-                f"{grounding}\n\n"
-                f"Question: {message}"
-            )
+        message = render_grounded_user_message(
+            question + " /no_think",
+            grounding_plan,
+            index_text=index_text,
+            search_results=search_results,
+        )
         seed.append(Message(MessageRole.USER, message, MessageMeta(MessageType.USER_INPUT)))
         return await self._run(workflow, message, "chat", tag=tag, initial_messages=seed)
 

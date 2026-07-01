@@ -1,14 +1,14 @@
 ---
 page_id: sword-world-rpg-complete-edition-section-chapter-9-46ac5338
 page_kind: source
-summary: Chapter 9:: 50 source-backed entries and 1 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+summary: Chapter 9:: 94 source-backed entries and 3 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: section-reference
 sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-06-30
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-9-46ac5338@fb3c587c15fb6c09e4d37de8ccb3541d
+projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-9-46ac5338@24d75d803394f528ddf7a9963bae88e3
 ---
 
 # Chapter 9:
@@ -18,8 +18,10 @@ From [[sword-world-rpg-complete-edition]].
 ## Related pages
 
 - [[sword-world-rpg-complete-edition-section-chapter-9-setting-target-scores-and-difficulties-22942d33]] - narrower source section: Chapter 9: / Setting Target Scores and Difficulties
-- [[sword-world-rpg-complete-edition-section-8-4-b2e7e74d]] - previous source section: 8.4
-- [[sword-world-rpg-complete-edition-section-9-3-35fd7665]] - next source section: 9.3
+- [[sword-world-rpg-complete-edition-section-chapter-9-9-3-general-modifiers-35fd7665]] - narrower source section: Chapter 9: / 9.3 General Modifiers
+- [[sword-world-rpg-complete-edition-section-chapter-9-9-4-automatic-success-restrictions-20569786]] - narrower source section: Chapter 9: / 9.4 Automatic Success Restrictions
+- [[sword-world-rpg-complete-edition-section-8-4-increasing-general-skills-b2e7e74d]] - previous source section: 8.4 Increasing General Skills
+- [[sword-world-rpg-complete-edition-section-10-1-npc-and-monster-action-announcement-3fefd8eb]] - next source section: 10.1 NPC and Monster Action Announcement
 
 ## Statements by subsection
 
@@ -52,9 +54,41 @@ From [[sword-world-rpg-complete-edition]].
 - During a difficulty check, it is up to the game master to decide whether or not to reveal the difficulty. However, the difficulty should be made as clear as possible. When a player makes a success roll, they use the baseline score (skill level + ability bonus) and the final score attained from the dice roll to infer the success or failure of the action. At this time, if you don't know the difficulty, it'll be difficult to guess. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-04643))_
 - For example, let's say a character tries to find a trap. In this case, the final score of his success roll is 13. If the difficulty is clear, let's say it's 3, players can infer that they can only fail when the game master rolls an 11 or 12. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-04644))_
 - However, this is not possible without knowing the difficulty. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-04645))_
+- The time when you should not reveal the difficulty is when revealing the difficulty itself would indicate that something is wrong . For example, suppose one mansion has a difficulty 5 trap and a difficulty 6 trap. What if the difficulty of finding traps has been 5 for a long time, but it suddenly increases to 6? _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-04647))_
+- That alone will make players wary. In such cases, it is better to keep the difficulty low. A technique for creating scenarios is to keep the difficulty consistent for success rolls that are likely to be made frequently in one scenario, such as finding traps. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-04648))_
+- If you really want to include traps with different difficulties, then when the difficulty changes, just nonchalantly say Okay, make a success roll without telling _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-04649))_
 - For example, if you want to jump over a cliff, success or failure is clear. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-04639))_
 - When a trap is not found, a character has no way of knowing whether there really are no traps or if it's because they couldn't find it. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-04640))_
 - If you can fail on a success roll but still have it appear to be a success, then the success roll should be made as a difficulty check. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-04641))_
+- For example, suppose one mansion has a difficulty 5 trap and a difficulty 6 trap. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-04647))_
+- A technique for creating scenarios is to keep the difficulty consistent for success rolls that are likely to be made frequently in one scenario, such as finding traps. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-04648))_
+- If you really want to include traps with different difficulties, then when the difficulty changes, just nonchalantly say Okay, make a success roll without telling _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-04649))_
+
+### Chapter 9: / 9.3 General Modifiers
+
+- Success rolls may have modifiers applied to them. For example, trying to find things in situations with little light can be difficult. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-04652))_
+- This situation can be reflected in the target score or difficulty, but there is also a way to deal with it by modifying the final score of the success roll. The advantage of dealing with this through modifiers is that it is simpler and easier to maintain fairness. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-04653))_
+- For example, let's say you're searching for a document in a room with little light. Suppose there are three people: a human, an elf (shaman), and a dwarf. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-04654))_
+- In this case, instead of the game master looking at the Determining Target Scores or Difficulties table for each , it's easier to deal with it by setting one target score, assuming there is complete light, and applying -4 to the human because they can't see, -2 to the elf (shaman) because they can use infravision, and no modifier to the dwarf because they have full darkvision. Also, since the modifiers are reflected in the final score, the advantage is that you can also see who did the best search. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-04657))_
+- For example, trying to find things in situations with little light can be difficult. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-04652))_
+- In this case, instead of the game master looking at the Determining Target Scores or Difficulties table for each , it's easier to deal with it by setting one target score, assuming there is complete light, and applying -4 to the human because they can't see, -2 to the elf (shaman) because they can use infravision, and no modifier to the dwarf because they have full darkvision. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-04657))_
+
+### Chapter 9: / 9.4 Automatic Success Restrictions
+
+- A success roll of double sixes is defined as an automatic success. No matter how difficult an action is, there is a 1 in 36 chance of success. This is a rule for game-like fun. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-04661))_
+- However, it would be unnatural if even something that seems so impossible has a 1 in 36 chance of success. For example, is it really possible for a character to jump over a cliff that's 20 meters wide? _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-04662))_
+- The world record for the long jump is just under 9 meters. In Sword World RPG , those with a high thief skill can jump them the difficulty. Players will probably think it's the same difficulty as before. Then, after it becomes clear that their success roll was a failure, it'll turn out that the difficulty was actually high. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-04663))_
+- Of course, even if that's the case, stay true to the roll of your dice. In order for the game to proceed smoothly, it is important for the game master to gain the trust of the players. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-04665))_
+- Modifiers are applied to the final score of a success roll. Therefore, the greater the negative number, the more difficult it is. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-04666))_
+- Of course, game masters may set other modifiers (such as -3) at their discretion. If there are conditions that make the action easier (such as having tools available to assist), you can also give it a positive modifier. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-04667))_
+- farther, but 20 meters is still a ridiculous number. Game masters should not allow a success roll itself for such actions. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-04675))_
+- Success rolls are only made when there is a chance of success. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-04676))_
+- A success roll of double sixes is defined as an automatic success. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-04661))_
+- Then, after it becomes clear that their success roll was a failure, it'll turn out that the difficulty was actually high. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-04663))_
+- Players will probably think it's the same difficulty as before. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-04663))_
+- Therefore, the greater the negative number, the more difficult it is. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-04666))_
+- If there are conditions that make the action easier (such as having tools available to assist), you can also give it a positive modifier. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-04667))_
+- Success rolls are only made when there is a chance of success. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-04676))_
 
 ## Technical atoms
 
@@ -99,3 +133,39 @@ Table 9-1: Determining Target Scores or Difficulties
 ```
 
 </details>
+
+### Technical frame 2: Chapter 9: / 9.3 General Modifiers
+
+**Context:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-04657))_
+
+> In this case, instead of the game master looking at the Determining Target Scores or Difficulties table for each , it's easier to deal with it by setting one target score, assuming there is complete light, and applying -4 to the human because they can't see, -2 to the elf (shaman) because they can use infravision, and no modifier to the dwarf because they have full darkvision. Also, since the modifiers are reflected in the final score, the advantage is that you can also see who did the best sear
+
+**Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-04655))_
+
+| Extremely difficult situation | -4 |
+| --- | --- |
+| Tough but manageable situation | -2 |
+| Slightly disadvantageous situation | -1 |
+
+<details>
+<summary>Raw table text</summary>
+
+```text
+General Modifiers
+| Extremely difficult situation | -4 |
+| --- | --- |
+| Tough but manageable situation | -2 |
+| Slightly disadvantageous situation | -1 |
+```
+
+</details>
+
+### Technical frame 3: Chapter 9: / 9.4 Automatic Success Restrictions
+
+**Context:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-04676))_
+
+> Success rolls are only made when there is a chance of success.
+
+**Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-04680))_
+
+> [Figure] (p.137)

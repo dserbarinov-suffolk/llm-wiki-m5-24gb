@@ -8,7 +8,7 @@ updated: 2026-06-30
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-damage-ff07e120@a66180df44ebd94dc96054e4b270dbd4
+projection_coverage: section-sword-world-rpg-complete-edition-section-damage-ff07e120@7e2e5f46dadc18636c9c1f7600ea5854
 ---
 
 # 《 Damage 》
@@ -17,7 +17,6 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-5-1-5-8bf319fe]] - broader source section: 5.1.5
 - [[sword-world-rpg-complete-edition-section-effect-contraction-6b63d8f6]] - previous source section: 《 Effect Contraction 》
 - [[sword-world-rpg-complete-edition-damage]] - topic hub: opens the topic page for Damage
 

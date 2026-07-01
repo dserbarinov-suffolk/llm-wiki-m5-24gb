@@ -5,7 +5,12 @@ import pytest
 from llmwiki.config import SOURCE_READ_BUDGET_CHARS, WikiPaths
 from llmwiki.domain.pages import PageMetadata, PathTemplate, WikiPage, WikiStructure
 from llmwiki.store import PageNotFoundError, SourceNotFoundError, WikiStore, WikiStoreError
-from llmwiki.workflows.tools import grounded_chat_respond_tool, inspect_page_tool, read_page_tool
+from llmwiki.workflows.tools import (
+    grounded_chat_respond_tool,
+    inspect_page_tool,
+    read_page_tool,
+    write_page_tool,
+)
 
 
 def _page(page_id: str = "hittites", page_kind: str = "entity") -> WikiPage:
@@ -99,6 +104,34 @@ class TestWikiLayer:
         assert "Page map for [[mapped]]" in result
         assert "[[other]]" in result
         assert "source-range-abc123-00001" in result
+
+    def test_write_page_tool_rejects_body_frontmatter(self, store: WikiStore) -> None:
+        tool = write_page_tool(store, "2026-06-30")
+
+        with pytest.raises(WikiStoreError, match="must not include frontmatter"):
+            tool.callable(
+                page_id="frontmatter-body",
+                page_kind="concept",
+                summary="Bad body.",
+                page_body="---\npage_id: frontmatter-body\n---\n# Bad",
+                sources=[],
+            )
+
+    def test_write_page_tool_rejects_truncated_read_markers(self, store: WikiStore) -> None:
+        tool = write_page_tool(store, "2026-06-30")
+
+        with pytest.raises(WikiStoreError, match="read_page chunk marker"):
+            tool.callable(
+                page_id="truncated-body",
+                page_kind="concept",
+                summary="Bad body.",
+                page_body=(
+                    "# Bad\n\n"
+                    "[Showing wiki/source.md characters 0-3000 of 9000.]\n"
+                    "[Truncated. Continue with read_page offset=3000.]"
+                ),
+                sources=[],
+            )
 
     def test_inspect_page_tool_stops_after_manifest_reports_missing_focus(
         self, store: WikiStore

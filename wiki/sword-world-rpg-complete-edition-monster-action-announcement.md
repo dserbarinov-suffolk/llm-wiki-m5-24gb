@@ -7,7 +7,7 @@ sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-06-30
 domain: sword-world-rpg-complete-edition
 category_path: concepts
-projection_coverage: topic-sword-world-rpg-complete-edition-monster-action-announcement@3b4b1e211bc9672da01540c39518da25
+projection_coverage: topic-sword-world-rpg-complete-edition-monster-action-announcement@8bf67a38546d7087202b21edb3b5fe2a
 ---
 
 # Monster Action Announcement
@@ -16,7 +16,7 @@ What [[sword-world-rpg-complete-edition]] covers about monster action announceme
 
 ## Statements
 
-### Chapter 3: / Action Announcements / 3.1.2 Player Action Announcements / 3.1.3 NPC and Monster Action Announcements
+### Chapter 3: / Action Announcements / 3.1.3 NPC and Monster Action Announcements
 
 - When NPCs, monsters, etc. announce their actions, it's done by the game master who manages them. Specific action announcements may not be made at this time. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-01071))_
 
@@ -25,7 +25,7 @@ What [[sword-world-rpg-complete-edition]] covers about monster action announceme
 
 ## Technical atoms
 
-### Technical frame 1: Chapter 3: / Action Announcements / 3.1.2 Player Action Announcements / 3.1.3 NPC and Monster Action Announcements
+### Technical frame 1: Chapter 3: / Action Announcements / 3.1.3 NPC and Monster Action Announcements
 
 **Context:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-01073))_
 
@@ -38,9 +38,8 @@ What [[sword-world-rpg-complete-edition]] covers about monster action announceme
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-npc-monster-action-announcement]] - narrower topic: 3.1.3 NPC and Monster Action Announcements shares source evidence from Chapter 3: / Action Announcements / 3.1.2 Player Action Announcements / 3.1.3 NPC and Monster Action Announcements: When NPCs, monsters, etc. announce their actions, it's done by the game master who manages them. Specific action announcements may not be made at this time.; 3.1.3 NPC and Monster Action Announcements shares technical record from Chapter 3: / Action Announcements / 3.1.2 Player Action Announcements / 3.1.3 NPC and Monster Action Announcements: If it's something the character should know, the game master should tell you when they announce the action. (2 shared statement(s), 1 shared atom(s))
-- [[sword-world-rpg-complete-edition-attack-character-monster]] - shared statements: Attacks From Characters Against Monsters shares source evidence from Chapter 3: / Action Announcements / 3.1.2 Player Action Announcements / 3.1.3 NPC and Monster Action Announcements: You may only declare, I'm preparing to cast a spell , and not give out the specific name of the spell. This is the difference in position between the players and the ... [truncated] (1 shared statement(s))
-- [[sword-world-rpg-complete-edition-attack-monster-character]] - shared statements: Attacks From Monsters Against Characters shares source evidence from Chapter 3: / Action Announcements / 3.1.2 Player Action Announcements / 3.1.3 NPC and Monster Action Announcements: You may only declare, I'm preparing to cast a spell , and not give out the specific name of the spell. This is the difference in position between the players and the ... [truncated] (1 shared statement(s))
+- [[sword-world-rpg-complete-edition-attack-character-monster]] - shared statements: Attacks From Characters Against Monsters shares source evidence from Chapter 3: / Action Announcements / 3.1.3 NPC and Monster Action Announcements: You may only declare, I'm preparing to cast a spell , and not give out the specific name of the spell. This is the difference in position between the players and the ... [truncated] (1 shared statement(s))
+- [[sword-world-rpg-complete-edition-attack-monster-character]] - shared statements: Attacks From Monsters Against Characters shares source evidence from Chapter 3: / Action Announcements / 3.1.3 NPC and Monster Action Announcements: You may only declare, I'm preparing to cast a spell , and not give out the specific name of the spell. This is the difference in position between the players and the ... [truncated] (1 shared statement(s))
 
 ## Source
 

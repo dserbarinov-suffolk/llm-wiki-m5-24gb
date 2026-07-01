@@ -8,7 +8,7 @@ updated: 2026-06-30
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-4-5-5-final-damage-0c099f84@f7a83dc3ed88286e89c2ef30d18120fd
+projection_coverage: section-sword-world-rpg-complete-edition-section-4-5-5-final-damage-0c099f84@6c0a9d752b824e9c330c2fd2e814ee91
 ---
 
 # 4.5.5 Final Damage
@@ -17,8 +17,8 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-4-5-4-ba0d81a1]] - broader source section: 4.5.4
-- [[sword-world-rpg-complete-edition-section-monster-defense-points-9ef5c657]] - previous source section: Monster Defense Points
+- [[sword-world-rpg-complete-edition-section-4-5-4-monster-defense-points-ba0d81a1]] - previous source section: 4.5.4 Monster Defense Points
+- [[sword-world-rpg-complete-edition-section-attacks-from-monsters-against-characters-a9a9211c]] - next source section: Attacks From Monsters Against Characters
 - [[sword-world-rpg-complete-edition-final-damage]] - topic hub: opens the topic page for Final Damage
 
 ## Technical atoms

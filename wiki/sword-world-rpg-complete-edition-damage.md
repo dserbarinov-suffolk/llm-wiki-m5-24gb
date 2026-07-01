@@ -7,7 +7,7 @@ sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-06-30
 domain: sword-world-rpg-complete-edition
 category_path: concepts
-projection_coverage: topic-sword-world-rpg-complete-edition-damage@8afae1d8c4f08ebe85dbc66b381c108c
+projection_coverage: topic-sword-world-rpg-complete-edition-damage@c5b0113dc0bcb7f7418c30b0a4d3387d
 ---
 
 # Damage
@@ -53,9 +53,9 @@ What [[sword-world-rpg-complete-edition]] covers about damage:
 ## Related pages
 
 - [[sword-world-rpg-complete-edition-bonus-damage]] - narrower topic: 【 Bonus Damage 】 shares source evidence from 《 Description 》 / [Centauri Blood (Touch/Damage)]: What's more, this poison is completely harmless at room temperature, and only becomes toxic when warmed by body heat. Those wearing cloth soaked with centauri blood ... [truncated] (1 shared statement(s))
-- [[sword-world-rpg-complete-edition-section-0-damage-e4fd9431]] - source section: 【 0 Damage! 】 shares source evidence from 【 0 Damage! 】: roll is 2 (double ones), the result is ＊＊ regardless of the key number. This means your attack hit the target, but failed to deal any damage! (2 shared statement(s))
+- [[sword-world-rpg-complete-edition-section-4-5-2-determining-base-damage-strike-roll-0-damage-e4fd9431]] - source section: 4.5.2 Determining Base Damage (Strike Roll) / 【 0 Damage! 】 shares source evidence from 4.5.2 Determining Base Damage (Strike Roll) / 【 0 Damage! 】: roll is 2 (double ones), the result is ＊＊ regardless of the key number. This means your attack hit the target, but failed to deal any damage! (2 shared statement(s))
 - [[sword-world-rpg-complete-edition-section-damage-ff07e120]] - source section: 《 Damage 》 shares source evidence from 《 Damage 》: A spell that deals damage to the target's life force or mental power. Spells of the damage type always have a clearly defined strike power . If you manage to break t ... [truncated]; 《 Damage 》 shares technical record from 《 Damage 》: If you roll 10 or greater during the strike roll, a critical will occur and deal even more damage, same as in weapon combat. (9 shared statement(s), 4 shared atom(s))
-- [[sword-world-rpg-complete-edition-section-damage-adc079fa]] - source section: 《 Damage 》 shares source evidence from 《 Damage 》: If the attack hits, roll 2D. If it's double ones, the damage will be equal to the strike points of the attacking monster. Otherwise, the damage equals the attacking ... [truncated]; 《 Damage 》 shares technical record from 《 Damage 》: If the attack hits, roll 2D. (2 shared statement(s), 1 shared atom(s))
+- [[sword-world-rpg-complete-edition-section-10-5-attacks-against-the-sleeping-damage-adc079fa]] - source section: 10.5 Attacks Against the Sleeping / 《 Damage 》 shares source evidence from 10.5 Attacks Against the Sleeping / 《 Damage 》: If the attack hits, roll 2D. If it's double ones, the damage will be equal to the strike points of the attacking monster. Otherwise, the damage equals the attacking ... [truncated]; 10.5 Attacks Against the Sleeping / 《 Damage 》 shares technical record from 10.5 Attacks Against the Sleeping / 《 Damage 》: If the attack hits, roll 2D. (2 shared statement(s), 1 shared atom(s))
 
 ## Source
 

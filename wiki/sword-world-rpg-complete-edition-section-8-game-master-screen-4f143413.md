@@ -8,7 +8,7 @@ updated: 2026-06-30
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-8-game-master-screen-4f143413@455f2cbe78e061672524d93ab44fd2d5
+projection_coverage: section-sword-world-rpg-complete-edition-section-8-game-master-screen-4f143413@d42295760e21a65a12496bc03a1c3b71
 ---
 
 # 8. Game Master Screen
@@ -19,7 +19,7 @@ From [[sword-world-rpg-complete-edition]].
 
 - [[sword-world-rpg-complete-edition-section-8-game-master-screen-ability-scores-a41763db]] - narrower source section: 8. Game Master Screen / Ability Scores
 - [[sword-world-rpg-complete-edition-section-7-old-version-of-the-rules-3c51f3ab]] - previous source section: 7. Old Version of the Rules
-- [[sword-world-rpg-complete-edition-section-1-2-4e414960]] - next source section: 1.2
+- [[sword-world-rpg-complete-edition-section-1-2-races-4e414960]] - next source section: 1.2 Races
 
 ## Statements
 

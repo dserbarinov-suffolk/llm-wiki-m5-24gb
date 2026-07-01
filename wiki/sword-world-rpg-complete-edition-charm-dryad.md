@@ -7,7 +7,7 @@ sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-06-30
 domain: sword-world-rpg-complete-edition
 category_path: concepts
-projection_coverage: topic-sword-world-rpg-complete-edition-charm-dryad@8678e599f1c91130fdf3b67da3415607
+projection_coverage: topic-sword-world-rpg-complete-edition-charm-dryad@b3d5502a96bb37530b6a872b7b9324e8
 ---
 
 # Charm Dryad
@@ -16,7 +16,7 @@ What [[sword-world-rpg-complete-edition]] covers about charm dryad:
 
 ## Statements
 
-### 5th Level Spirit Magic List [ Control Plant ] / [ Charm ] (Dryad/Plant Spirit)
+### 5.1.14 Spirit Magic List / 5th Level Spirit Magic List [ Control Plant ] / [ Charm ] (Dryad/Plant Spirit)
 
 - Dryad is a plant spirit which at the same time has the nature of a mind spirit. This spell has the effect of using the dryad's mind spirit power to charm the target. At this time, if both your intentions are mutual , you can make them follow your will in the form of a proposal, and if your intentions are not mutual, you will deprive them of hostility. In either case, the target under the spell will attempt to protect the caster from danger. If the target successfully resists this spell, they will not suffer any effects. Additionally, if the caster loses their life for any reason, the spell's effect will be canceled immediately. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-03120))_
 

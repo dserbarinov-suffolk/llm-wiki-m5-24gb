@@ -7,7 +7,7 @@ sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-06-30
 domain: sword-world-rpg-complete-edition
 category_path: concepts
-projection_coverage: topic-sword-world-rpg-complete-edition-underworld-creature@edbe0b959288d41f79f62e749945a13c
+projection_coverage: topic-sword-world-rpg-complete-edition-underworld-creature@17a94face39a9126e4ef43a2d2fe8efc
 ---
 
 # Underworld Creature
@@ -16,7 +16,7 @@ What [[sword-world-rpg-complete-edition]] covers about underworld creature:
 
 ## Statements
 
-### 《 Daemons/Underworld Creatures 》
+### 13.1 Types of Monsters / 《 Daemons/Underworld Creatures 》
 
 - Daemons are underworld monsters that live in a material world different from ours. In the age of the gods, they were known as terrifying slaughterers who followed the dark god Phalaris, and in the age of the ancient kingdom, they were summoned to this material world by sorcerers who were skilled in summoning magic, offering their wicked power to the sorcerers. They have a number of special abilities and wicked personalities, making them extremely dangerous. They are said to have a deep connection with the dark gods, and many are also well-versed in dark magic. Although they rarely make their presence felt in this world, those summoned during the days of the ancient kingdom still dwell in underground labyrinths and remote ruins. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-05879))_
 
@@ -24,17 +24,17 @@ What [[sword-world-rpg-complete-edition]] covers about underworld creature:
 
 - There are different ranks of daemons. The highest rank ones, called daemon lords and archdaemons, are said to have powers comparable to that of ancient titans or dragons. Below them are types called greater daemons and lesser daemons, and even the lowest rank Lesser Daemons have powers that far exceed those of humans. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-05881))_
 
-### [ Horse ] / Daemons/Underworld Creatures / [ Aetherbeast ]
+### 13.2.6 Mythical Beasts and Magical Beasts / [ Horse ] / 13.2.11 Daemons/Underworld Creatures / [ Aetherbeast ]
 
 - They often work as servants of daemons. They're rarely encountered in the material world, and details of them are not well understood. The few eyewitness accounts are mixed, and its shape is not clear, but it's agreed that it looks like a combination of several animals from the material world. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-08262))_
 
 - Although this data is general, there are many different types of aetherbeasts. If the game master wishes, they may create special aetherbeasts. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-08263))_
 
-### [ Horse ] / Daemons/Underworld Creatures / [ Hellhound ]
+### 13.2.6 Mythical Beasts and Magical Beasts / [ Horse ] / 13.2.11 Daemons/Underworld Creatures / [ Hellhound ]
 
 - At first glance, the hellhound looks like a large black dog. However, in reality, it' s a terrifying beast from the underworld, also known as the watchdog of Hell. Hellhounds have a 1 in 6 chance (if you roll 1 on 1D) of breathing fire from their mouths. Everyone within a 5 meter radius semicircle in front of the hellhound will suffer damage equal to a strike power 10 strike roll plus 5 points of bonus damage. Armor cannot protect against this fire; only adventurer level and magical defense can reduce the damage. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-08282))_
 
-### [ Horse ] / Daemons/Underworld Creatures / [ Cerberus ]
+### 13.2.6 Mythical Beasts and Magical Beasts / [ Horse ] / 13.2.11 Daemons/Underworld Creatures / [ Cerberus ]
 
 - A cerberus is a large black dog with three heads, and is thought to be a variant of the hellhound. It's slightly larger than a hellhound, about as big as a medium-sized horse. When attacking, it uses all three of its heads to bite the same target at the same time. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-08300))_
 
@@ -42,7 +42,7 @@ What [[sword-world-rpg-complete-edition]] covers about underworld creature:
 
 - within underground Fire attacks have no effect on a cerberus. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-08302))_
 
-### [ Horse ] / Daemons/Underworld Creatures / [ Lesser Daemon ] Grunel
+### 13.2.6 Mythical Beasts and Magical Beasts / [ Horse ] / 13.2.11 Daemons/Underworld Creatures / [ Lesser Daemon ] Grunel
 
 - A grunel is a humanoid lesser daemon with steel-blue skin. It's characterized by its long tail, which it can manipulate freely like a whip to attack or entangle enemies. If it uses its tail to entangle, treat this as a strangling attack (see p. 236). The target will be unable to move, and the grunel can attack with the weapon in its right hand. They have the ability to use ancient magic. They seem to have been especially proficient at enchanting, and often carry a magical sword. If a grunel has a magic sword, add a bonus of 1 point to both its attack points and strike points. They can also use dark magic. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-08322))_
 
@@ -50,7 +50,7 @@ What [[sword-world-rpg-complete-edition]] covers about underworld creature:
 
 - A doubleburg is almost the same size as a human, and its entire body is pitch black. It has a bright red open mouth straight across its face, but no other features. This daemon has the ability to completely copy any opponent's appearance after just one look, including their clothes. If it spends one minute to observe them, it can imitate their tone of speech and gestures exactly. Therefore, it's not possible to discern whether it's the real thing by appearance alone. To shapeshift or shapeshift back requires one full round. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-08362))_
 
-### [ Horse ] / Daemons/Underworld Creatures / [ Greater Daemons ] Doppelganger
+### 13.2.6 Mythical Beasts and Magical Beasts / [ Horse ] / 13.2.11 Daemons/Underworld Creatures / [ Greater Daemons ] Doppelganger
 
 - The doppleganger, which is in the same family as the doubleburg, albeit a greater species, has the appearance of a 3 meter tall giant with an entirely black body. Its has a bright red straight open mouth, but no other features besides that. A doppelganger can copy the appearance, abilities, memories, etc. of an opponent by observing them. At a glance, all they can capture is their appearance (including their belongings). If they observe them for one minute, they can imitate their tone of speech and gestures exactly. Then, if they observe them for over one hour, they will be able to completely copy their abilities and memories. To shapeshift or shapeshift back requires one full round. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-08414))_
 
@@ -81,7 +81,7 @@ What [[sword-world-rpg-complete-edition]] covers about underworld creature:
 
 ## Technical atoms
 
-### Technical frame 1: 《 Daemons/Underworld Creatures 》
+### Technical frame 1: 13.1 Types of Monsters / 《 Daemons/Underworld Creatures 》
 
 **Context:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-05883))_
 
@@ -104,7 +104,7 @@ What [[sword-world-rpg-complete-edition]] covers about underworld creature:
 
 </details>
 
-### Technical frame 2: [ Horse ] / Daemons/Underworld Creatures / [ Aetherbeast ]
+### Technical frame 2: 13.2.6 Mythical Beasts and Magical Beasts / [ Horse ] / 13.2.11 Daemons/Underworld Creatures / [ Aetherbeast ]
 
 **Atoms:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-08244, source-range-0d48087c-08245, source-range-0d48087c-08246, source-range-0d48087c-08247, source-range-0d48087c-08248, source-range-0d48087c-08249, source-range-0d48087c-08250, source-range-0d48087c-08251, source-range-0d48087c-08252, source-range-0d48087c-08253, source-range-0d48087c-08254, source-range-0d48087c-08255, source-range-0d48087c-08256, source-range-0d48087c-08257, source-range-0d48087c-08258, source-range-0d48087c-08259, source-range-0d48087c-08260))_
 
@@ -142,7 +142,7 @@ What [[sword-world-rpg-complete-edition]] covers about underworld creature:
 
 > Perception=Five senses (illumination due to appendages)
 
-### Technical frame 3: [ Horse ] / Daemons/Underworld Creatures / [ Aetherbeast ]
+### Technical frame 3: 13.2.6 Mythical Beasts and Magical Beasts / [ Horse ] / 13.2.11 Daemons/Underworld Creatures / [ Aetherbeast ]
 
 **Context:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-08262))_
 
@@ -152,7 +152,7 @@ What [[sword-world-rpg-complete-edition]] covers about underworld creature:
 
 > If the game master wishes, they may create special aetherbeasts.
 
-### Technical frame 4: [ Horse ] / Daemons/Underworld Creatures / [ Hellhound ]
+### Technical frame 4: 13.2.6 Mythical Beasts and Magical Beasts / [ Horse ] / 13.2.11 Daemons/Underworld Creatures / [ Hellhound ]
 
 **Atoms:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-08265, source-range-0d48087c-08266, source-range-0d48087c-08267, source-range-0d48087c-08268, source-range-0d48087c-08269, source-range-0d48087c-08270, source-range-0d48087c-08271, source-range-0d48087c-08272, source-range-0d48087c-08273, source-range-0d48087c-08274, source-range-0d48087c-08275, source-range-0d48087c-08276, source-range-0d48087c-08277, source-range-0d48087c-08278, source-range-0d48087c-08280, source-range-0d48087c-08281))_
 
@@ -188,7 +188,7 @@ What [[sword-world-rpg-complete-edition]] covers about underworld creature:
 
 > Perception=Five senses (Darkvision)
 
-### Technical frame 5: [ Horse ] / Daemons/Underworld Creatures / [ Cerberus ]
+### Technical frame 5: 13.2.6 Mythical Beasts and Magical Beasts / [ Horse ] / 13.2.11 Daemons/Underworld Creatures / [ Cerberus ]
 
 **Atoms:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-08284, source-range-0d48087c-08285, source-range-0d48087c-08286, source-range-0d48087c-08287, source-range-0d48087c-08288, source-range-0d48087c-08289, source-range-0d48087c-08290, source-range-0d48087c-08291, source-range-0d48087c-08292, source-range-0d48087c-08293, source-range-0d48087c-08294, source-range-0d48087c-08296, source-range-0d48087c-08298, source-range-0d48087c-08299))_
 
@@ -220,7 +220,7 @@ What [[sword-world-rpg-complete-edition]] covers about underworld creature:
 
 > Perception=Five senses (Darkvision)
 
-### Technical frame 6: [ Horse ] / Daemons/Underworld Creatures / [ Lesser Daemon ] Grunel
+### Technical frame 6: 13.2.6 Mythical Beasts and Magical Beasts / [ Horse ] / 13.2.11 Daemons/Underworld Creatures / [ Lesser Daemon ] Grunel
 
 **Atoms:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-08304, source-range-0d48087c-08305, source-range-0d48087c-08306, source-range-0d48087c-08307, source-range-0d48087c-08308, source-range-0d48087c-08309, source-range-0d48087c-08310, source-range-0d48087c-08311, source-range-0d48087c-08312, source-range-0d48087c-08313, source-range-0d48087c-08314, source-range-0d48087c-08315, source-range-0d48087c-08316, source-range-0d48087c-08317, source-range-0d48087c-08319, source-range-0d48087c-08320, source-range-0d48087c-08321))_
 
@@ -258,13 +258,13 @@ What [[sword-world-rpg-complete-edition]] covers about underworld creature:
 
 > Perception=Five senses (Darkvision)
 
-### Technical frame 7: [ Horse ] / Daemons/Underworld Creatures / [ Lesser Daemon ] Grunel
+### Technical frame 7: 13.2.6 Mythical Beasts and Magical Beasts / [ Horse ] / 13.2.11 Daemons/Underworld Creatures / [ Lesser Daemon ] Grunel
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-08322))_
 
 > The target will be unable to move, and the grunel can attack with the weapon in its right hand.
 
-### Technical frame 8: [ Horse ] / Daemons/Underworld Creatures / [ Lesser Daemon ] Grunel
+### Technical frame 8: 13.2.6 Mythical Beasts and Magical Beasts / [ Horse ] / 13.2.11 Daemons/Underworld Creatures / [ Lesser Daemon ] Grunel
 
 **Context:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-08322))_
 
@@ -308,7 +308,7 @@ What [[sword-world-rpg-complete-edition]] covers about underworld creature:
 
 > Perception=Five senses (Darkvision)
 
-### Technical frame 9: [ Horse ] / Daemons/Underworld Creatures / [ Lesser Daemon ] Grunel
+### Technical frame 9: 13.2.6 Mythical Beasts and Magical Beasts / [ Horse ] / 13.2.11 Daemons/Underworld Creatures / [ Lesser Daemon ] Grunel
 
 **Context:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-08344))_
 
@@ -348,7 +348,7 @@ What [[sword-world-rpg-complete-edition]] covers about underworld creature:
 
 > Perception=Five senses (Darkvision)
 
-### Technical frame 10: [ Horse ] / Daemons/Underworld Creatures / [ Lesser Daemon ] Grunel
+### Technical frame 10: 13.2.6 Mythical Beasts and Magical Beasts / [ Horse ] / 13.2.11 Daemons/Underworld Creatures / [ Lesser Daemon ] Grunel
 
 **Context:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-08363))_
 
@@ -358,7 +358,7 @@ What [[sword-world-rpg-complete-edition]] covers about underworld creature:
 
 > If it spends one minute to observe them, it can imitate their tone of speech and gestures exactly.
 
-### Technical frame 11: [ Horse ] / Daemons/Underworld Creatures / [ Lesser Daemon ] Grunel
+### Technical frame 11: 13.2.6 Mythical Beasts and Magical Beasts / [ Horse ] / 13.2.11 Daemons/Underworld Creatures / [ Lesser Daemon ] Grunel
 
 **Context:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-08371))_
 
@@ -382,7 +382,7 @@ What [[sword-world-rpg-complete-edition]] covers about underworld creature:
 
 > Perception=Five senses (Darkvision)
 
-### Technical frame 12: [ Horse ] / Daemons/Underworld Creatures / [ Lesser Daemon ] Grunel
+### Technical frame 12: 13.2.6 Mythical Beasts and Magical Beasts / [ Horse ] / 13.2.11 Daemons/Underworld Creatures / [ Lesser Daemon ] Grunel
 
 **Context:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-08374))_
 
@@ -418,7 +418,7 @@ What [[sword-world-rpg-complete-edition]] covers about underworld creature:
 
 > Perception=Five senses (Darkvision)
 
-### Technical frame 13: [ Horse ] / Daemons/Underworld Creatures / [ Lesser Daemon ] Grunel
+### Technical frame 13: 13.2.6 Mythical Beasts and Magical Beasts / [ Horse ] / 13.2.11 Daemons/Underworld Creatures / [ Lesser Daemon ] Grunel
 
 **Context:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-08393))_
 
@@ -428,7 +428,7 @@ What [[sword-world-rpg-complete-edition]] covers about underworld creature:
 
 > When a maligdorai uses this illusion ability, those being targeted must make a mental power resistance roll against target score 17 at the beginning of the round.
 
-### Technical frame 14: [ Horse ] / Daemons/Underworld Creatures / [ Lesser Daemon ] Grunel
+### Technical frame 14: 13.2.6 Mythical Beasts and Magical Beasts / [ Horse ] / 13.2.11 Daemons/Underworld Creatures / [ Lesser Daemon ] Grunel
 
 **Context:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-08394))_
 
@@ -438,7 +438,7 @@ What [[sword-world-rpg-complete-edition]] covers about underworld creature:
 
 > Conversely, while the maligdorai is performing an illusion, the target must make a resistance roll against the illusion each round.
 
-### Technical frame 15: [ Horse ] / Daemons/Underworld Creatures / [ Greater Daemons ] Doppelganger
+### Technical frame 15: 13.2.6 Mythical Beasts and Magical Beasts / [ Horse ] / 13.2.11 Daemons/Underworld Creatures / [ Greater Daemons ] Doppelganger
 
 **Atoms:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-08397, source-range-0d48087c-08398, source-range-0d48087c-08399, source-range-0d48087c-08400, source-range-0d48087c-08401, source-range-0d48087c-08402, source-range-0d48087c-08403, source-range-0d48087c-08404, source-range-0d48087c-08405, source-range-0d48087c-08406, source-range-0d48087c-08407, source-range-0d48087c-08408, source-range-0d48087c-08410, source-range-0d48087c-08412, source-range-0d48087c-08413))_
 
@@ -472,7 +472,7 @@ What [[sword-world-rpg-complete-edition]] covers about underworld creature:
 
 > Perception=Five senses (Darkvision)
 
-### Technical frame 16: [ Horse ] / Daemons/Underworld Creatures / [ Greater Daemons ] Doppelganger
+### Technical frame 16: 13.2.6 Mythical Beasts and Magical Beasts / [ Horse ] / 13.2.11 Daemons/Underworld Creatures / [ Greater Daemons ] Doppelganger
 
 **Context:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-08415))_
 
@@ -482,7 +482,7 @@ What [[sword-world-rpg-complete-edition]] covers about underworld creature:
 
 > If they observe them for one minute, they can imitate their tone of speech and gestures exactly.
 
-### Technical frame 17: [ Horse ] / Daemons/Underworld Creatures / [ Greater Daemons ] Doppelganger
+### Technical frame 17: 13.2.6 Mythical Beasts and Magical Beasts / [ Horse ] / 13.2.11 Daemons/Underworld Creatures / [ Greater Daemons ] Doppelganger
 
 **Context:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-08416))_
 
@@ -495,11 +495,11 @@ What [[sword-world-rpg-complete-edition]] covers about underworld creature:
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-daemon-underworld-creature]] - narrower topic: 《 Daemons/Underworld Creatures 》 shares source evidence from 《 Daemons/Underworld Creatures 》: Daemons are underworld monsters that live in a material world different from ours. In the age of the gods, they were known as terrifying slaughterers who followed th ... [truncated]; 《 Daemons/Underworld Creatures 》 shares technical record from 《 Daemons/Underworld Creatures 》: 13.2 13.2 Monster Catalog (71 shared statement(s), 143 shared atom(s))
-- [[sword-world-rpg-complete-edition-daemon]] - shared statements and technical atoms: Daemon shares source evidence from 《 Daemons/Underworld Creatures 》: Daemons are underworld monsters that live in a material world different from ours. In the age of the gods, they were known as terrifying slaughterers who followed th ... [truncated]; Daemon shares technical record from [ Horse ] / Daemons/Underworld Creatures / [ Lesser Daemon ] Grunel: Monster Level=5 (11 shared statement(s), 7 shared atom(s))
-- [[sword-world-rpg-complete-edition-bonus-damage]] - shared statements: 【 Bonus Damage 】 shares source evidence from [ Horse ] / Daemons/Underworld Creatures / [ Hellhound ]: At first glance, the hellhound looks like a large black dog. However, in reality, it' s a terrifying beast from the underworld, also known as the watchdog of Hell. H ... [truncated] (6 shared statement(s))
-- [[sword-world-rpg-complete-edition-adventurer-level]] - shared statements: 1.3.3 Adventurer Level shares source evidence from [ Horse ] / Daemons/Underworld Creatures / [ Hellhound ]: At first glance, the hellhound looks like a large black dog. However, in reality, it' s a terrifying beast from the underworld, also known as the watchdog of Hell. H ... [truncated] (2 shared statement(s))
-- [[sword-world-rpg-complete-edition-magic-sword]] - shared statements: 《 Magic Sword (+1) 》 shares source evidence from [ Horse ] / Daemons/Underworld Creatures / [ Lesser Daemon ] Grunel: A grunel is a humanoid lesser daemon with steel-blue skin. It's characterized by its long tail, which it can manipulate freely like a whip to attack or entangle enem ... [truncated] (1 shared statement(s))
+- [[sword-world-rpg-complete-edition-13-11-daemon]] - shared statements and technical atoms: 13 11 Daemon shares source evidence from 13.2.6 Mythical Beasts and Magical Beasts / [ Horse ] / 13.2.11 Daemons/Underworld Creatures / [ Lesser Daemon ] Grunel: A grunel is a humanoid lesser daemon with steel-blue skin. It's characterized by its long tail, which it can manipulate freely like a whip to attack or entangle enem ... [truncated]; 13 11 Daemon shares technical record from 13.2.6 Mythical Beasts and Magical Beasts / [ Horse ] / 13.2.11 Daemons/Underworld Creatures / [ Lesser Daemon ] Grunel: Monster Level=5 (4 shared statement(s), 7 shared atom(s))
+- [[sword-world-rpg-complete-edition-daemon]] - shared statements and technical atoms: Daemon shares source evidence from 13.1 Types of Monsters / 《 Daemons/Underworld Creatures 》: Daemons are underworld monsters that live in a material world different from ours. In the age of the gods, they were known as terrifying slaughterers who followed th ... [truncated]; Daemon shares technical record from 13.1 Types of Monsters / 《 Daemons/Underworld Creatures 》: 13.2 13.2 Monster Catalog (7 shared statement(s), 1 shared atom(s))
+- [[sword-world-rpg-complete-edition-bonus-damage]] - shared statements: 【 Bonus Damage 】 shares source evidence from 13.2.6 Mythical Beasts and Magical Beasts / [ Horse ] / 13.2.11 Daemons/Underworld Creatures / [ Hellhound ]: At first glance, the hellhound looks like a large black dog. However, in reality, it' s a terrifying beast from the underworld, also known as the watchdog of Hell. H ... [truncated] (6 shared statement(s))
+- [[sword-world-rpg-complete-edition-adventurer-level]] - shared statements: 1.3.3 Adventurer Level shares source evidence from 13.2.6 Mythical Beasts and Magical Beasts / [ Horse ] / 13.2.11 Daemons/Underworld Creatures / [ Hellhound ]: At first glance, the hellhound looks like a large black dog. However, in reality, it' s a terrifying beast from the underworld, also known as the watchdog of Hell. H ... [truncated] (2 shared statement(s))
+- [[sword-world-rpg-complete-edition-magic-sword]] - shared statements: 《 Magic Sword (+1) 》 shares source evidence from 13.2.6 Mythical Beasts and Magical Beasts / [ Horse ] / 13.2.11 Daemons/Underworld Creatures / [ Lesser Daemon ] Grunel: A grunel is a humanoid lesser daemon with steel-blue skin. It's characterized by its long tail, which it can manipulate freely like a whip to attack or entangle enem ... [truncated] (1 shared statement(s))
 
 ## Source
 

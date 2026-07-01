@@ -7,7 +7,7 @@ sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-06-30
 domain: sword-world-rpg-complete-edition
 category_path: concepts
-projection_coverage: topic-sword-world-rpg-complete-edition-organization@aba0b78474bce39518e04b91a14ffc30
+projection_coverage: topic-sword-world-rpg-complete-edition-organization@84856f108045b69eb364747c47622d1d
 ---
 
 # Organization
@@ -16,17 +16,17 @@ What [[sword-world-rpg-complete-edition]] covers about organization:
 
 ## Statements
 
-### Organizations and Groups / Guilds
+### 18.3 Rules for Destroying Structures / Organizations and Groups / Guilds
 
 - First, there are professional associations called "guilds," and anyone considered an artisan must belong to one. Without membership, one cannot learn trade-specific skills, nor are they permitted to conduct business using such skills. While guilds are typically national organizations, they may sometimes be recognized in neighboring countries. Additionally, those who are guild members in one country may receive special privileges when joining guilds in other countries, such as only needing to pay a fee. Guilds exist for every type of artisan. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-10766))_
 
-### Organizations and Groups / Thieves Guild/Sorcerers' Guild (Academy)
+### 18.3 Rules for Destroying Structures / Organizations and Groups / Thieves Guild/Sorcerers' Guild (Academy)
 
 - Though not official guilds, the Thieves Guild and Sorcerers' Guild (Academy) are essential organizations. Both are global organizations that regularly exchange information between headquarters and branches. Thieves, Sorcerers, and Sages belong to these groups. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-10772))_
 
 - The Thieves Guild's power is so vast that it's said to control the underworld of nations. The organization is tightly structured, with members having various obligations, including tribute payments, and once you join, it's extremely difficult to leave. In exchange, members receive substantial protection (though if you make a bad impression on the leadership, you might be quietly eliminated). Think of it as similar to realworld criminal organizations. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-10773))_
 
-### Organizations and Groups / Religious Organizations
+### 18.3 Rules for Destroying Structures / Organizations and Groups / Religious Organizations
 
 - In Forcelia, a world where gods exist, religious organizations wield considerable power. However, in many countries, these organizations seem to have little influence over secular authority. Nevertheless, in some theocratic states, religious organizations hold decisive power. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-10776))_
 
@@ -37,7 +37,7 @@ What [[sword-world-rpg-complete-edition]] covers about organization:
 
 ## Technical atoms
 
-### Technical frame 1: Organizations and Groups / Guilds
+### Technical frame 1: 18.3 Rules for Destroying Structures / Organizations and Groups / Guilds
 
 **Context:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-10767))_
 
@@ -47,7 +47,7 @@ What [[sword-world-rpg-complete-edition]] covers about organization:
 
 > Additionally, those who are guild members in one country may receive special privileges when joining guilds in other countries, such as only needing to pay a fee.
 
-### Technical frame 2: Organizations and Groups / Merchant's License
+### Technical frame 2: 18.3 Rules for Destroying Structures / Organizations and Groups / Merchant's License
 
 **Context:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-10769))_
 
@@ -60,8 +60,8 @@ What [[sword-world-rpg-complete-edition]] covers about organization:
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-sorcerer-guild-academy]] - shared statements: Sorcerer Guild Academy shares source evidence from Organizations and Groups / Thieves Guild/Sorcerers' Guild (Academy): Though not official guilds, the Thieves Guild and Sorcerers' Guild (Academy) are essential organizations. Both are global organizations that regularly exchange infor ... [truncated] (1 shared statement(s))
-- [[sword-world-rpg-complete-edition-thieve-guild]] - shared statements: Thieve Guild shares source evidence from Organizations and Groups / Thieves Guild/Sorcerers' Guild (Academy): Though not official guilds, the Thieves Guild and Sorcerers' Guild (Academy) are essential organizations. Both are global organizations that regularly exchange infor ... [truncated] (1 shared statement(s))
+- [[sword-world-rpg-complete-edition-sorcerer-guild-academy]] - shared statements: Sorcerer Guild Academy shares source evidence from 18.3 Rules for Destroying Structures / Organizations and Groups / Thieves Guild/Sorcerers' Guild (Academy): Though not official guilds, the Thieves Guild and Sorcerers' Guild (Academy) are essential organizations. Both are global organizations that regularly exchange infor ... [truncated] (1 shared statement(s))
+- [[sword-world-rpg-complete-edition-thieve-guild]] - shared statements: Thieve Guild shares source evidence from 18.3 Rules for Destroying Structures / Organizations and Groups / Thieves Guild/Sorcerers' Guild (Academy): Though not official guilds, the Thieves Guild and Sorcerers' Guild (Academy) are essential organizations. Both are global organizations that regularly exchange infor ... [truncated] (1 shared statement(s))
 
 ## Source
 

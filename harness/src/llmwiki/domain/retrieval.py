@@ -18,6 +18,11 @@ from llmwiki.domain.pages import PageError, PageMetadata, parse_page
 
 _WORD_RE = re.compile(r"[a-z0-9]+")
 _SNIPPET_CHARS = 220
+_TASK_QUERY_RE = re.compile(
+    r"\b(how\s+do\s+i|how\s+to|steps?|procedure|workflow|create|make|build|set\s+up)\b",
+    re.IGNORECASE,
+)
+_PROCEDURE_PAGE_BOOST = 250
 _QUERY_STOPWORDS = frozenset(
     {
         "a",
@@ -96,6 +101,7 @@ def retrieve_wiki_context(
     terms = query_terms(query)
     if not terms:
         return WikiContextPack(query=query, candidates=())
+    task_query = _is_task_query(query)
     index_entries = {entry.page_id: entry for entry in parse_index(index_text)}
     links_by_page = {page_id: extract_links(text) for page_id, text in page_texts.items()}
     backlinks = _backlinks(links_by_page)
@@ -113,6 +119,7 @@ def retrieve_wiki_context(
                 page_id,
                 text,
                 terms,
+                task_query,
                 metadata_by_page[page_id],
                 links_by_page,
                 backlinks,
@@ -183,6 +190,7 @@ def _candidate_for_page(
     page_id: str,
     text: str,
     terms: set[str],
+    task_query: bool,
     metadata: PageMetadata,
     links_by_page: Mapping[str, set[str]],
     backlinks: Mapping[str, set[str]],
@@ -197,6 +205,7 @@ def _candidate_for_page(
             _field_signal("heading", 20, terms, _headings_text(text)),
             _field_signal("metadata", 14, terms, _metadata_text(metadata)),
             _body_signal(terms, body_counts),
+            _procedure_signal(task_query, metadata),
         )
         if signal is not None
     )
@@ -245,6 +254,20 @@ def _body_signal(terms: set[str], body_counts: Counter[str]) -> RetrievalSignal 
     )
     score = (6 * len(matches)) + capped_frequency
     return RetrievalSignal("body", score=score, detail=", ".join(sorted(matches)))
+
+
+def _procedure_signal(task_query: bool, metadata: PageMetadata) -> RetrievalSignal | None:
+    if task_query and metadata.page_kind == "procedure":
+        return RetrievalSignal(
+            "procedure-kind",
+            score=_PROCEDURE_PAGE_BOOST,
+            detail="task query prefers procedure pages",
+        )
+    return None
+
+
+def _is_task_query(query: str) -> bool:
+    return _TASK_QUERY_RE.search(query) is not None
 
 
 def _metadata_text(metadata: PageMetadata) -> str:

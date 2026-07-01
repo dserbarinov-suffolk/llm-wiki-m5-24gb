@@ -1,14 +1,14 @@
 ---
 page_id: sword-world-rpg-complete-edition-section-5-3-b419e428
 page_kind: source
-summary: 5.3: 117 source-backed entries and 16 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+summary: 5.3: 112 source-backed entries and 16 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: section-reference
 sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-06-30
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-5-3-b419e428@c7df67927a3f5c901dee4ed17e9d294b
+projection_coverage: section-sword-world-rpg-complete-edition-section-5-3-b419e428@be900c283b94912c4c7ff5239b1139b1
 ---
 
 # 5.3
@@ -18,15 +18,8 @@ From [[sword-world-rpg-complete-edition]].
 ## Related pages
 
 - [[sword-world-rpg-complete-edition-section-spellsongs-3727fc32]] - narrower source section: Spellsongs
-- [[sword-world-rpg-complete-edition-section-5-2-b036a9a5]] - previous source section: 5.2
+- [[sword-world-rpg-complete-edition-section-5-2-common-runes-b036a9a5]] - previous source section: 5.2 Common Runes
 - [[sword-world-rpg-complete-edition-section-chapter-6-26ccc185]] - next source section: Chapter 6:
-
-## Statements
-
-- A spellsong is a song with magical power that was created during the ancient kingdom period. Those with the bard skill can use magic, although weak, by singing these spellsongs. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-03903))_
-- became common runes, it's obvious that thieves would use them to commit evil deeds. In such cases, please make sure to make a decision such as The sorcerers' guild would never allow them on the market because they'd bring down the reputation of magic and sorcerers . _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-03904))_
-- Also, when creating a new common rune, its mental power consumption is the same as the base mental power cost of ancient magic, and the price should be _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-03905))_
-- In such cases, please make sure to make a decision such as The sorcerers' guild would never allow them on the market because they'd bring down the reputation of magic and sorcerers . _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-03904))_
 
 ## Statements by subsection
 

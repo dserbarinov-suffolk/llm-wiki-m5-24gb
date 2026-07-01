@@ -7,7 +7,7 @@ sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-06-30
 domain: sword-world-rpg-complete-edition
 category_path: concepts
-projection_coverage: topic-sword-world-rpg-complete-edition-target-score@6987fb3278f8a00e28c5ba9f0e3f24bd
+projection_coverage: topic-sword-world-rpg-complete-edition-target-score@afc9ea2ac10b12e9594d3ddca3846858
 ---
 
 # Target Scores
@@ -16,13 +16,13 @@ What [[sword-world-rpg-complete-edition]] covers about target scores:
 
 ## Statements
 
-### Target Scores
+### 2.1 Baseline Scores / Target Scores
 
 - Once the baseline score and target score are determined, a success roll check can finally be made. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-00942))_
 
 - The player must roll two dice and add their baseline score to the roll. The result is called the fi nal score . This final score should be equal to or greater than the target score. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-00943))_
 
-### Checks
+### 2.1 Baseline Scores / Checks
 
 - Target scores for certain actions can be found in Part 2: Game Master Section . This is because it is the game master who sets the target scores, not the players. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-00949))_
 
@@ -30,37 +30,37 @@ What [[sword-world-rpg-complete-edition]] covers about target scores:
 
 - The game master declares the target score of this action to be 10 . _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-00960))_
 
-### Checks / 2.3.1 Automatic Success and Automatic Failure
+### 2.1 Baseline Scores / Checks / 2.3.1 Automatic Success and Automatic Failure
 
 - On a success roll, if a player rolls a 12 , i.e., both dice roll 6 ( double sixes ), the action is a success , no matter how low the baseline score nor how high the target score. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-00963))_
 
-### Difficulty Checks
+### 2.5 Difficulty Checks
 
 - Let's assume that this baseline score is 4 . The game master then declares the target score to be 12 . _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-00981))_
 
 - These checks-- which are often made mainly when finding something --change the method of success rolls considerably. The difficulty is determined via target score determination. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-00996))_
 
-### Difficulty
+### 2.5 Difficulty Checks / 2.5.1 Difficulty
 
 - Difficulty is a score determined by the game master based on the difficulty of the actions the character attempts. What makes this different from a target score is that this is not the direct number the player is aiming for. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-00999))_
 
-### 2.5.2 How to Make a Difficulty Check
+### 2.5 Difficulty Checks / 2.5.2 How to Make a Difficulty Check
 
 - To make a difficulty check , the game master also rolls the dice (2D). This roll is then added to the difficulty and used as the target score. The game master does not reveal their roll nor the target score that results from their calculation, to the players. Whether the base difficulty is revealed or not depends on the situation. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-01001))_
 
 - The game master then takes the final score and compares it to the target score (difficulty + 2D) that they have secretly set. If there is a tie or if the final score is greater, the action is a success ; if it is less, the action is a failure . _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-01003))_
 
-### Resistance Rolls
+### 2.6 Success Rolls Using Adventurer Level / Resistance Rolls
 
 - Since Ducard II has an adventurer level of 2 and a +3 life force bonus, the baseline score of his life force resistance roll (life force resistance power) is 5 . During the adventure, he is attacked and wounded by a ghoul. Paralyzing poison is a special ability of ghouls. The game master asks us to make a life force resistance roll to see if Ducard II is poisoned by the ghoul. The toxicity score of ghoul poison is 10, which is the target score. Our 2D roll is 5, so with 5+5= 10 , he escapes paralysis, if barely. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-01036))_
 
 - In fact, there is a magic trap set in this room that will put anyone who enters it into a deep sleep. The richly colored patterns in the room begin to move strangely, and Ducard II is struck by a strong sense of drowsiness. The game master asks us to make a mental power resistance roll against target score 17. Normally, this would never succeed, but our 2D roll is 12 ! _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-01039))_
 
-### Scores Used in Weapon Combat / 【 Critical Target 】
+### Chapter 3: / 3.4.4 Actions You Can Take While Standing Still / Scores Used in Weapon Combat / 【 Critical Target 】
 
 - The critical target is a lower is better score, which is rare in Sword World RPG . Therefore, an attack using the thief skill is more likely to result in a critical than an attack using the regular fighter skill. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-01225))_
 
-### Attacks From Characters Against Monsters / 4.5.1 Hit Checks
+### Chapter 3: / 3.4.4 Actions You Can Take While Standing Still / Attacks From Characters Against Monsters / 4.5.1 Hit Checks
 
 - In other words, you roll 2D and add the result to your attack power (fighter/thief/ranger skill level + dexterity bonus) in order to meet or exceed a certain target score. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-01253))_
 
@@ -72,15 +72,15 @@ What [[sword-world-rpg-complete-edition]] covers about target scores:
 
 - The player rolls the dice to determine if they evade the goblin's attack. The roll is 4 . 5+4= 9 , which is short of the target score (the goblin's attack points) of 10. Ducard II is hit by the goblin. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-01323))_
 
-### Adventurer Death Checks
+### 4.9 Unconscious and Death Checks / 4.9.1 Adventurer Death Checks
 
 - This check is made using a life force resistance roll . The baseline score is life force resistance (adventurer level + life force bonus) and the target score is 7 . If the character's life force is negative , the negative amount will be used as a penalty . _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-01429))_
 
-### 4.9.2 Death Checks Every Hour
+### 4.9 Unconscious and Death Checks / 4.9.2 Death Checks Every Hour
 
 - Characters with 0 or negative life force must make a death check every hour . The target score is still 7 , and if their life force is still negative , it' s still a penalty . _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-01437))_
 
-### Basic Rules of Magic / Filling out the Character Sheet
+### 4.10 Excellent Weapons and Armor / 4.10.4 Mithril Silver Weapons and Armor / Basic Rules of Magic / Filling out the Character Sheet
 
 - When attempting to cast resistible magic on a monster, the caster must determine whether their opponent can resist it. Y ou must make a success roll using caster's magic power as the baseline score and the monster's mental point resistance as the target score. If 2D roll + magic power is greater than or equal to the monster's resistance score, the magic will be cast with its full effect. If the resistance score is not met, the magic will not work or will only have a weak effect. If the 2D roll comes up double ones , that means there was some mistake and the magic did not work. Even if the magic doesn't normally lose its effect when resisted, in this case it is completely nullified. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-01585))_
 
@@ -88,11 +88,11 @@ What [[sword-world-rpg-complete-edition]] covers about target scores:
 
 - First, in the case of non-resistible magic, a monster can never fail. There is no need to roll the dice, as the magic will definitely take its effect. In the case of resistible magic, the issue is resolved from the perspective of whether the adventurer is able to resist the magic cast by the monster. This is determined by a success roll using the character's mental power resistance , that is, a mental power resistance roll . The target score is a score called the monster's magic intensity . _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-01603))_
 
-### When a Monster Casts Magic on Adventurers
+### 4.10 Excellent Weapons and Armor / 4.10.4 Mithril Silver Weapons and Armor / When a Monster Casts Magic on Adventurers
 
 - Each of the three adventurers (the players in control) roll 2D to check if they resist, using their mental power resistance as the baseline score, and 13 (magic intensity) as the target score. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-01644))_
 
-### When an Adventurer Casts Magic on Adventurers
+### 4.10 Excellent Weapons and Armor / 4.10.4 Mithril Silver Weapons and Armor / When an Adventurer Casts Magic on Adventurers
 
 - The evil sorcerer Gorman (magic power 5) unleashes Lightning on the three adventurers. First, Gorman rolls 2D and adds his own magic power. If we assume his 2D roll is 8 , each of the three adventurers must make a mental power resistance roll, with a target score of 5 (magic power) + 8 (roll) = 13 . Suppose that the baseline score of all three of their mental power resistance rolls is 4 . If their rolls are each 2 (double ones!), 6 , and 9 , then only the last one is able to resist the Lightning . _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-01649))_
 
@@ -120,23 +120,23 @@ What [[sword-world-rpg-complete-edition]] covers about target scores:
 
 - In the event of such a suspicion, the target of the illusion can make a mental power resistance roll. The target score is the final score from when the illusion spell was cast (if you forgot, roll the dice and determine it again). If you're successful, you'll be able to see through the illusion and know the correct situation. However, you can only make this resistance roll once . Once you fail, no matter how suspicious it may be, you won't be able to detect its true form (of course, you can walk around suspicious floors). _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-01814))_
 
-### [ Dispel Magic ]
+### 5.1.12 Ancient Magic List / [ Dispel Magic ]
 
 - Effect=Removes the effects of other spells cast on the target Type=Ritual Counters (Negates): All magic except curses and non-removable Expansion=Final score, distance, targets or area Resist=None This spell acts as a negative force against all other spells and can remove their effects. Any spells cast on the targeted person, object, or space will be removed. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-01989))_
 
-### [ Magic Protection ]
+### 5.1.12 Ancient Magic List / [ Magic Protection ]
 
 - This spell has the effect of giving magic resistance to objects that do not have it. If the targeted object is exposed to another spell that's not detection type, it will resist that spell unless the opponent succeeds on a success roll against a target score equal to the final score from when Magic Protection was cast. If a successful resist, the opponent's spell will either completely lose its effect, or will take only an incomplete effect. If the resist fails, the spell will take its full effect, and furthermore the Magic Protection spell itself will be removed. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-02022))_
 
-### [ Lock ]
+### 5.1.12 Ancient Magic List / [ Lock ]
 
 - Base Mental Power Cost=3 Distance=Touch Area=One object that opens and closes Duration=1 day Effect=Puts a magical lock on objects that open and close, such as doors, lids, etc. Type=Target score Countered (Overpowered) By: Unlock Expansion=Final score, duration _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-02039))_
 
-### [ Create Image ]
+### 5.1.12 Ancient Magic List / [ Create Image ]
 
 - Base Mental Power Cost=9 Distance=30 meters Area=A space with a 5 meter radius Duration=1 hour Effect=Can create visual illusions Type=Illusion Expansion=Final score, duration, distance, target volume _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-02095))_
 
-### [ Paralyze ]
+### 5.1.12 Ancient Magic List / [ Paralyze ]
 
 - Type=Focus, target score the target's Expansion=Final score, distance Resist=Negated effect This is a spell that completely seals your opponent's movements. Those who fail to resist will lose their freedom and immediately become rigid on the spot. A target caught by this magic in an unstable state will likely fall down. If it were a bird, it would fall out of the sky. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-02257))_
 
@@ -259,7 +259,7 @@ What [[sword-world-rpg-complete-edition]] covers about target scores:
 
 ## Technical atoms
 
-### Technical frame 1: Target Scores
+### Technical frame 1: 2.1 Baseline Scores / Target Scores
 
 **Context:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-00942))_
 
@@ -286,7 +286,7 @@ The baseline score is  a number that represents a character's ability. However, 
 
 </details>
 
-### Technical frame 2: Target Scores
+### Technical frame 2: 2.1 Baseline Scores / Target Scores
 
 **Context:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-00942))_
 
@@ -296,7 +296,7 @@ The baseline score is  a number that represents a character's ability. However, 
 
 > The player must roll two dice and add their baseline score to the roll.
 
-### Technical frame 3: Target Scores
+### Technical frame 3: 2.1 Baseline Scores / Target Scores
 
 **Context:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-00943))_
 
@@ -306,7 +306,7 @@ The baseline score is  a number that represents a character's ability. However, 
 
 > final score (baseline score + 2D) ≥ target score → action is successful
 
-### Technical frame 4: Scores Used in Weapon Combat / 【 Critical Target 】
+### Technical frame 4: Chapter 3: / 3.4.4 Actions You Can Take While Standing Still / Scores Used in Weapon Combat / 【 Critical Target 】
 
 **Context:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-01225))_
 
@@ -366,7 +366,7 @@ The baseline score is  a number that represents a character's ability. However, 
 
 > ① First, confirm the target score (= final score) of the magic cast prior (if you forgot, determine it now).
 
-### Technical frame 10: Bard Skill / [ ⑦ Medicines [Intelligence]] ((Appraisal only) Not retriable)
+### Technical frame 10: Chapter 6: / Bard Skill / [ ⑦ Medicines [Intelligence]] ((Appraisal only) Not retriable)
 
 **Context:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-04172))_
 
@@ -376,7 +376,7 @@ The baseline score is  a number that represents a character's ability. However, 
 
 > When appraising medicines or poisons, a success roll must be made using their rarity as the target score.
 
-### Technical frame 11: Bard Skill / [ ⑦ Medicines [Intelligence]] ((Appraisal only) Not retriable)
+### Technical frame 11: Chapter 6: / Bard Skill / [ ⑦ Medicines [Intelligence]] ((Appraisal only) Not retriable)
 
 **Context:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-04173))_
 
@@ -411,7 +411,7 @@ Table 6-3: Determining Long Jump Target Scores
 
 > The standard for deciding is whether the character can tell if the action succeeded or failed .
 
-### Technical frame 14: [ Ceiling Hanger ]
+### Technical frame 14: 13.2.6 Mythical Beasts and Magical Beasts / [ Ceiling Hanger ]
 
 **Atoms:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-06412, source-range-0d48087c-06413, source-range-0d48087c-06414, source-range-0d48087c-06415, source-range-0d48087c-06416, source-range-0d48087c-06417, source-range-0d48087c-06418, source-range-0d48087c-06420, source-range-0d48087c-06421, source-range-0d48087c-06422, source-range-0d48087c-06423, source-range-0d48087c-06424))_
 
@@ -439,7 +439,7 @@ Table 6-3: Determining Long Jump Target Scores
 
 > Special Abilities=Surprise attack (Sense target score=12)
 
-### Technical frame 15: [ Dragon ]
+### Technical frame 15: 13.2.6 Mythical Beasts and Magical Beasts / [ Dragon ]
 
 **Context:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-06845))_
 
@@ -449,7 +449,7 @@ Table 6-3: Determining Long Jump Target Scores
 
 > Anyone who hears the dragon's roar must make a mental power resistance roll against target score 17.
 
-### Technical frame 16: [ Horse ] / 13.2.8 Plants / [ Mandrake ]
+### Technical frame 16: 13.2.6 Mythical Beasts and Magical Beasts / [ Horse ] / 13.2.8 Plants / [ Mandrake ]
 
 **Context:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-07515))_
 
@@ -459,7 +459,7 @@ Table 6-3: Determining Long Jump Target Scores
 
 > Additionally, those who fail the resistance roll must make another one, this time a life force resistance roll against target score 12.
 
-### Technical frame 17: [ Horse ] / 13.2.8 Plants / [ Ash ] Monster Level=2 Rarity=11 Agility=9 Movement Speed=8 Number=Several Frequency=Moderate Intellect=Almost none Reaction=Violent Attack Points=- Strike Points=Evasion Points=- Defense Points=Life Points/Resistance=7/9 (2) Mental Points/Resistance=-/10 (3) Special Abilities=Wrap (Evasion target score=10, strike power 10, bonus damage 2) Mental attack immunity Weapon immunity Fire immunity Not affected by poison and illness Damage from healing magic Habitat=Ruins Languages=None Perception=Magic
+### Technical frame 17: 13.2.6 Mythical Beasts and Magical Beasts / [ Horse ] / 13.2.8 Plants / [ Ash ] Monster Level=2 Rarity=11 Agility=9 Movement Speed=8 Number=Several Frequency=Moderate Intellect=Almost none Reaction=Violent Attack Points=- Strike Points=Evasion Points=- Defense Points=Life Points/Resistance=7/9 (2) Mental Points/Resistance=-/10 (3) Special Abilities=Wrap (Evasion target score=10, strike power 10, bonus damage 2) Mental attack immunity Weapon immunity Fire immunity Not affected by poison and illness Damage from healing magic Habitat=Ruins Languages=None Perception=Magic
 
 **Context:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-07618))_
 
@@ -474,24 +474,24 @@ Table 6-3: Determining Long Jump Target Scores
 
 - [[sword-world-rpg-complete-edition-setting-target-score]] - narrower topic: Setting Target Score shares source evidence from Chapter 9: / Setting Target Scores and Difficulties / Should You Use a Target Score Check or a Difficulty Check?: There are two types of success rolls: those that use a target score for the check and those that use a difficulty for the check. The game master must decide which of ... [truncated]; Setting Target Score shares technical record from Chapter 9: / Setting Target Scores and Difficulties / Should You Use a Target Score Check or a Difficulty Check?: The standard for deciding is whether the character can tell if the action succeeded or failed . (2 shared statement(s), 1 shared atom(s))
 - [[sword-world-rpg-complete-edition-should-you-target-score-check]] - narrower topic: Should You Target Score Check shares source evidence from Chapter 9: / Setting Target Scores and Difficulties / Should You Use a Target Score Check or a Difficulty Check?: There are two types of success rolls: those that use a target score for the check and those that use a difficulty for the check. The game master must decide which of ... [truncated]; Should You Target Score Check shares technical record from Chapter 9: / Setting Target Scores and Difficulties / Should You Use a Target Score Check or a Difficulty Check?: The standard for deciding is whether the character can tell if the action succeeded or failed . (2 shared statement(s), 1 shared atom(s))
-- [[sword-world-rpg-complete-edition-thief-skill]] - shared statements and technical atoms: 【 Thief Skill 】 shares source evidence from Attacks From Characters Against Monsters / 4.5.1 Hit Checks: In other words, you roll 2D and add the result to your attack power (fighter/thief/ranger skill level + dexterity bonus) in order to meet or exceed a certain target score.; 【 Thief Skill 】 shares technical record from Scores Used in Weapon Combat / 【 Critical Target 】: critical target = 10 (9 if using thief skill) (7 shared statement(s), 1 shared atom(s))
-- [[sword-world-rpg-complete-edition-jump]] - shared statements and technical atoms: Jump shares source evidence from Common Adventurer Abilities / [ ⑤ Long Jump/High Jump [Agility] ]: Long jump and high jump are common adventurer abilities, and are also abilities of the thief skill. The latter allows you to jump farther and higher. The baseline sc ... [truncated]; Jump shares technical record from Table 6-3: Determining Long Jump Target Scores: Table 6-3: Determining Long Jump Target Scores boiling lava. At this time, considering the Feature Used                         Base Target Score following condition ... [truncated] (2 shared statement(s), 1 shared atom(s))
-- [[sword-world-rpg-complete-edition-bonus-damage]] - shared statements and technical atoms: 【 Bonus Damage 】 shares source evidence from [ Dragon ]: Elder dragons also have the ability to breathe fire. Elder-species' fire spreads in a 30-meter forward radius, and those who fail a mental power resistance roll agai ... [truncated]; 【 Bonus Damage 】 shares technical record from [ Horse ] / 13.2.8 Plants / [ Ash ] Monster Level=2 Rarity=11 Agility=9 Movement Speed=8 Number=Several Frequency=Moderate Intellect=Almost none Reaction=Violent Attack Points=- Strike Points=Evasion Points=- Defense Points=Life Points/Resistance=7/9 (2) Mental Points/Resistance=-/10 (3) Special Abilities=Wrap (Evasion target score=10, strike power 10, bonus damage 2) Mental attack immunity Weapon immunity Fire immunity Not affected by poison and illness Damage from healing magic Habitat=Ruins Languages=None Perception=Magic: If you cast the spirit magic Missile Protection , you can protect yourself from being enwrapped by the ash. (1 shared statement(s), 1 shared atom(s))
-- [[sword-world-rpg-complete-edition-critical-target-variation]] - shared statements and technical atoms: Critical Target Variation shares source evidence from Scores Used in Weapon Combat / 【 Critical Target 】: The critical target is a lower is better score, which is rare in Sword World RPG . Therefore, an attack using the thief skill is more likely to result in a critical ... [truncated]; Critical Target Variation shares technical record from Scores Used in Weapon Combat / 【 Critical Target 】: critical target = 10 (9 if using thief skill) (1 shared statement(s), 1 shared atom(s))
+- [[sword-world-rpg-complete-edition-thief-skill]] - shared statements and technical atoms: 【 Thief Skill 】 shares source evidence from Chapter 3: / 3.4.4 Actions You Can Take While Standing Still / Attacks From Characters Against Monsters / 4.5.1 Hit Checks: In other words, you roll 2D and add the result to your attack power (fighter/thief/ranger skill level + dexterity bonus) in order to meet or exceed a certain target score.; 【 Thief Skill 】 shares technical record from Chapter 3: / 3.4.4 Actions You Can Take While Standing Still / Scores Used in Weapon Combat / 【 Critical Target 】: critical target = 10 (9 if using thief skill) (7 shared statement(s), 1 shared atom(s))
+- [[sword-world-rpg-complete-edition-jump]] - shared statements and technical atoms: Jump shares source evidence from Chapter 6: / Common Adventurer Abilities / [ ⑤ Long Jump/High Jump [Agility] ]: Long jump and high jump are common adventurer abilities, and are also abilities of the thief skill. The latter allows you to jump farther and higher. The baseline sc ... [truncated]; Jump shares technical record from Table 6-3: Determining Long Jump Target Scores: Table 6-3: Determining Long Jump Target Scores boiling lava. At this time, considering the Feature Used                         Base Target Score following condition ... [truncated] (2 shared statement(s), 1 shared atom(s))
+- [[sword-world-rpg-complete-edition-bonus-damage]] - shared statements and technical atoms: 【 Bonus Damage 】 shares source evidence from 13.2.6 Mythical Beasts and Magical Beasts / [ Dragon ]: Elder dragons also have the ability to breathe fire. Elder-species' fire spreads in a 30-meter forward radius, and those who fail a mental power resistance roll agai ... [truncated]; 【 Bonus Damage 】 shares technical record from 13.2.6 Mythical Beasts and Magical Beasts / [ Horse ] / 13.2.8 Plants / [ Ash ] Monster Level=2 Rarity=11 Agility=9 Movement Speed=8 Number=Several Frequency=Moderate Intellect=Almost none Reaction=Violent Attack Points=- Strike Points=Evasion Points=- Defense Points=Life Points/Resistance=7/9 (2) Mental Points/Resistance=-/10 (3) Special Abilities=Wrap (Evasion target score=10, strike power 10, bonus damage 2) Mental attack immunity Weapon immunity Fire immunity Not affected by poison and illness Damage from healing magic Habitat=Ruins Languages=None Perception=Magic: If you cast the spirit magic Missile Protection , you can protect yourself from being enwrapped by the ash. (1 shared statement(s), 1 shared atom(s))
+- [[sword-world-rpg-complete-edition-critical-target-variation]] - shared statements and technical atoms: Critical Target Variation shares source evidence from Chapter 3: / 3.4.4 Actions You Can Take While Standing Still / Scores Used in Weapon Combat / 【 Critical Target 】: The critical target is a lower is better score, which is rare in Sword World RPG . Therefore, an attack using the thief skill is more likely to result in a critical ... [truncated]; Critical Target Variation shares technical record from Chapter 3: / 3.4.4 Actions You Can Take While Standing Still / Scores Used in Weapon Combat / 【 Critical Target 】: critical target = 10 (9 if using thief skill) (1 shared statement(s), 1 shared atom(s))
 - [[sword-world-rpg-complete-edition-difficulty]] - shared statements and technical atoms: Difficulty shares source evidence from Chapter 9: / Setting Target Scores and Difficulties / Should You Use a Target Score Check or a Difficulty Check?: There are two types of success rolls: those that use a target score for the check and those that use a difficulty for the check. The game master must decide which of ... [truncated]; Difficulty shares technical record from Chapter 9: / Setting Target Scores and Difficulties / Should You Use a Target Score Check or a Difficulty Check?: The standard for deciding is whether the character can tell if the action succeeded or failed . (1 shared statement(s), 1 shared atom(s))
 - [[sword-world-rpg-complete-edition-difficulty-check]] - shared statements and technical atoms: Difficulty Check shares source evidence from Chapter 9: / Setting Target Scores and Difficulties / Should You Use a Target Score Check or a Difficulty Check?: There are two types of success rolls: those that use a target score for the check and those that use a difficulty for the check. The game master must decide which of ... [truncated]; Difficulty Check shares technical record from Chapter 9: / Setting Target Scores and Difficulties / Should You Use a Target Score Check or a Difficulty Check?: The standard for deciding is whether the character can tell if the action succeeded or failed . (1 shared statement(s), 1 shared atom(s))
-- [[sword-world-rpg-complete-edition-adventurer-level]] - shared statements: 1.3.3 Adventurer Level shares source evidence from Adventurer Death Checks: This check is made using a life force resistance roll . The baseline score is life force resistance (adventurer level + life force bonus) and the target score is 7 . ... [truncated] (10 shared statement(s))
-- [[sword-world-rpg-complete-edition-attack-character-monster]] - shared statements: Attacks From Characters Against Monsters shares source evidence from Attacks From Characters Against Monsters / 4.5.1 Hit Checks: In other words, you roll 2D and add the result to your attack power (fighter/thief/ranger skill level + dexterity bonus) in order to meet or exceed a certain target score. (10 shared statement(s))
+- [[sword-world-rpg-complete-edition-adventurer-level]] - shared statements: 1.3.3 Adventurer Level shares source evidence from 4.9 Unconscious and Death Checks / 4.9.1 Adventurer Death Checks: This check is made using a life force resistance roll . The baseline score is life force resistance (adventurer level + life force bonus) and the target score is 7 . ... [truncated] (10 shared statement(s))
+- [[sword-world-rpg-complete-edition-attack-character-monster]] - shared statements: Attacks From Characters Against Monsters shares source evidence from Chapter 3: / 3.4.4 Actions You Can Take While Standing Still / Attacks From Characters Against Monsters / 4.5.1 Hit Checks: In other words, you roll 2D and add the result to your attack power (fighter/thief/ranger skill level + dexterity bonus) in order to meet or exceed a certain target score. (10 shared statement(s))
 - [[sword-world-rpg-complete-edition-attack-monster-character]] - shared statements: Attacks From Monsters Against Characters shares source evidence from Attacks From Monsters Against Characters / 4.6.1 Hit (Evasion) Checks: The baseline score is the character's evasion speed . The target score is still different for each monster, but it's called the monster's attack points . (9 shared statement(s))
-- [[sword-world-rpg-complete-edition-ranger-skill]] - shared statements: 【 Ranger Skill 】 shares source evidence from Attacks From Characters Against Monsters / 4.5.1 Hit Checks: In other words, you roll 2D and add the result to your attack power (fighter/thief/ranger skill level + dexterity bonus) in order to meet or exceed a certain target score. (8 shared statement(s))
-- [[sword-world-rpg-complete-edition-sage-skill]] - shared statements: Sage Skill shares source evidence from 6.4: Each monster has a score called rarity . Using sage skill level + intelligence bonus as the baseline score, make a success roll with this rarity as the target score, ... [truncated] (4 shared statement(s))
-- [[sword-world-rpg-complete-edition-filling-character-sheet]] - shared statements: Filling Out the Character Sheet shares source evidence from Basic Rules of Magic / Filling out the Character Sheet: When attempting to cast resistible magic on a monster, the caster must determine whether their opponent can resist it. Y ou must make a success roll using caster's m ... [truncated] (3 shared statement(s))
-- [[sword-world-rpg-complete-edition-final-damage]] - shared statements: 4.5.5 Final Damage shares source evidence from 2nd Level Spirit Magic List [ Will-O-Wisp ] (Will-O-Wisp/Light Spirit) / [ Shade ] (Shade/Dark Spirit): Expansion=Final score, duration, distance, targets, damage certainty Resist=Reduced effect Shade is the spirit of darkness that opposes will-o-wisp, and is also the ... [truncated] (2 shared statement(s))
-- [[sword-world-rpg-complete-edition-hit-check]] - shared statements: 4.5.1 Hit Checks shares source evidence from Attacks From Characters Against Monsters / 4.5.1 Hit Checks: In other words, you roll 2D and add the result to your attack power (fighter/thief/ranger skill level + dexterity bonus) in order to meet or exceed a certain target score. (2 shared statement(s))
-- [[sword-world-rpg-complete-edition-control-spirit-lesser]] - shared statements: [ Control Spirit ] (Various lesser spirits) shares source evidence from 2nd Level Spirit Magic List [ Will-O-Wisp ] (Will-O-Wisp/Light Spirit) / [ Shade ] (Shade/Dark Spirit): Expansion=Final score, duration, distance, targets, damage certainty Resist=Reduced effect Shade is the spirit of darkness that opposes will-o-wisp, and is also the ... [truncated] (1 shared statement(s))
-- [[sword-world-rpg-complete-edition-resistance]] - shared statements: Resistance shares source evidence from 《 Life Points/Resistance 》: Mental points have the same meaning as a character's mental power. When a monster uses magic, it consumes mental points, just like a character. Monsters whose mental ... [truncated] (1 shared statement(s))
-- [[sword-world-rpg-complete-edition-shade]] - shared statements: Shade shares source evidence from 2nd Level Spirit Magic List [ Will-O-Wisp ] (Will-O-Wisp/Light Spirit) / [ Shade ] (Shade/Dark Spirit): Expansion=Final score, duration, distance, targets, damage certainty Resist=Reduced effect Shade is the spirit of darkness that opposes will-o-wisp, and is also the ... [truncated] (1 shared statement(s))
-- [[sword-world-rpg-complete-edition-section-target-scores-16aa968b]] - source section: Target Scores shares source evidence from Target Scores: Once the baseline score and target score are determined, a success roll check can finally be made.; Target Scores shares technical record from Target Scores: Target Scores 2.2 Target Scores The baseline score is  a number that represents a character's ability. However, the  success  of  an  action  is  not  only related t ... [truncated] (3 shared statement(s), 3 shared atom(s))
+- [[sword-world-rpg-complete-edition-ranger-skill]] - shared statements: 【 Ranger Skill 】 shares source evidence from Chapter 3: / 3.4.4 Actions You Can Take While Standing Still / Attacks From Characters Against Monsters / 4.5.1 Hit Checks: In other words, you roll 2D and add the result to your attack power (fighter/thief/ranger skill level + dexterity bonus) in order to meet or exceed a certain target score. (9 shared statement(s))
+- [[sword-world-rpg-complete-edition-sage-skill]] - shared statements: Sage Skill shares source evidence from Chapter 6: / 6.3 Ranger Skill / [ ⑭ Surprise Attack [Intelligence]] (No equipment restriction): Each monster has a score called rarity . Using sage skill level + intelligence bonus as the baseline score, make a success roll with this rarity as the target score, ... [truncated] (4 shared statement(s))
+- [[sword-world-rpg-complete-edition-filling-character-sheet]] - shared statements: 1.4.9 Filling Out the Character Sheet shares source evidence from 4.10 Excellent Weapons and Armor / 4.10.4 Mithril Silver Weapons and Armor / Basic Rules of Magic / Filling out the Character Sheet: When attempting to cast resistible magic on a monster, the caster must determine whether their opponent can resist it. Y ou must make a success roll using caster's m ... [truncated] (3 shared statement(s))
+- [[sword-world-rpg-complete-edition-final-damage]] - shared statements: 4.5.5 Final Damage shares source evidence from 5.1.14 Spirit Magic List / 2nd Level Spirit Magic List [ Will-O-Wisp ] (Will-O-Wisp/Light Spirit) / [ Shade ] (Shade/Dark Spirit): Expansion=Final score, duration, distance, targets, damage certainty Resist=Reduced effect Shade is the spirit of darkness that opposes will-o-wisp, and is also the ... [truncated] (2 shared statement(s))
+- [[sword-world-rpg-complete-edition-hit-check]] - shared statements: 4.5.1 Hit Checks shares source evidence from Chapter 3: / 3.4.4 Actions You Can Take While Standing Still / Attacks From Characters Against Monsters / 4.5.1 Hit Checks: In other words, you roll 2D and add the result to your attack power (fighter/thief/ranger skill level + dexterity bonus) in order to meet or exceed a certain target score. (2 shared statement(s))
+- [[sword-world-rpg-complete-edition-control-spirit-lesser]] - shared statements: [ Control Spirit ] (Various lesser spirits) shares source evidence from 5.1.14 Spirit Magic List / 2nd Level Spirit Magic List [ Will-O-Wisp ] (Will-O-Wisp/Light Spirit) / [ Shade ] (Shade/Dark Spirit): Expansion=Final score, duration, distance, targets, damage certainty Resist=Reduced effect Shade is the spirit of darkness that opposes will-o-wisp, and is also the ... [truncated] (1 shared statement(s))
+- [[sword-world-rpg-complete-edition-resistance]] - shared statements: Resistance shares source evidence from 13.2.1 《 Humans 》 / 《 Life Points/Resistance 》: Mental points have the same meaning as a character's mental power. When a monster uses magic, it consumes mental points, just like a character. Monsters whose mental ... [truncated] (1 shared statement(s))
+- [[sword-world-rpg-complete-edition-shade]] - shared statements: Shade shares source evidence from 5.1.14 Spirit Magic List / 2nd Level Spirit Magic List [ Will-O-Wisp ] (Will-O-Wisp/Light Spirit) / [ Shade ] (Shade/Dark Spirit): Expansion=Final score, duration, distance, targets, damage certainty Resist=Reduced effect Shade is the spirit of darkness that opposes will-o-wisp, and is also the ... [truncated] (1 shared statement(s))
+- [[sword-world-rpg-complete-edition-section-2-1-baseline-scores-target-scores-16aa968b]] - source section: 2.1 Baseline Scores / Target Scores shares source evidence from 2.1 Baseline Scores / Target Scores: Once the baseline score and target score are determined, a success roll check can finally be made.; 2.1 Baseline Scores / Target Scores shares technical record from 2.1 Baseline Scores / Target Scores: Target Scores 2.2 Target Scores The baseline score is  a number that represents a character's ability. However, the  success  of  an  action  is  not  only related t ... [truncated] (3 shared statement(s), 3 shared atom(s))
 - [[sword-world-rpg-complete-edition-section-target-score-29fe1470]] - source section: 《 Target Score 》 shares source evidence from 《 Target Score 》: Some magic can nullify the effects of other magic. For example, the ancient magic Dispel Magic nullifies the effects of most magic.; 《 Target Score 》 shares technical record from 《 Target Score 》: When casting any magic, no matter what kind of magic it is, you must roll 2D to check whether an automatic failure (double ones) will occur or not. (7 shared statement(s), 4 shared atom(s))
 
 ## Source

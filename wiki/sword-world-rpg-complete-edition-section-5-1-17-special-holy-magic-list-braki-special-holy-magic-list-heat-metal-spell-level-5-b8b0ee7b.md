@@ -1,0 +1,49 @@
+---
+page_id: sword-world-rpg-complete-edition-section-5-1-17-special-holy-magic-list-braki-special-holy-magic-list-heat-metal-spell-level-5-b8b0ee7b
+page_kind: source
+summary: 5.1.17 Special Holy Magic List / Braki Special Holy Magic List / [ Heat Metal ] (Spell Level=5): 8 source-backed entries and 2 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+page_family: section-reference
+sources: raw/Sword World RPG - Complete Edition.pdf
+updated: 2026-06-30
+domain: sword-world-rpg-complete-edition
+category_path: sources/sword-world-rpg-complete-edition/sections
+source_id: Sword World RPG - Complete Edition.pdf
+projection_coverage: section-sword-world-rpg-complete-edition-section-5-1-17-special-holy-magic-list-braki-special-holy-magic-list-heat-metal-spell-level-5-b8b0ee7b@39dbc617f0a50a7c788f9e8b12c7df08
+---
+
+# 5.1.17 Special Holy Magic List / Braki Special Holy Magic List / [ Heat Metal ] (Spell Level=5)
+
+From [[sword-world-rpg-complete-edition]].
+
+## Related pages
+
+- [[sword-world-rpg-complete-edition-section-5-1-17-special-holy-magic-list-braki-special-holy-magic-list-e553151f]] - broader source section: 5.1.17 Special Holy Magic List / Braki Special Holy Magic List
+- [[sword-world-rpg-complete-edition-section-5-1-17-special-holy-magic-list-braki-special-holy-magic-list-sense-metal-spell-level-3-bcace8c8]] - previous source section: 5.1.17 Special Holy Magic List / Braki Special Holy Magic List / [ Sense Metal ] (Spell Level=3)
+
+## Statements
+
+- Base Mental Power Cost=25 Distance=30 centimeters Area=One piece of metal up to 10 kilograms Duration=Until focus ends Effect=Makes metal red hot so it can be processed Type=Focus Expansion=Final score, distance, target's weight (See description) _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-03888))_
+- By casting this spell, a priest of Braki can make a mass of metal red-hot, making it soft enough to be processed. If cast on (metal) armor, etc. the wearer will suffer severe burns. If Heat Metal is cast on armor worn, the wearer will suffer strike power 10 damage to their life force (points) each round. This damage can only be reduced by adventurer level or magic. Even if metal parts are layered on a foundation such as leather, the damage cannot be reduced because the foundation will quickly become damaged. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-03890))_
+- Even if metal parts are layered on a foundation such as leather, the damage cannot be reduced because the foundation will quickly become damaged. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-03890))_
+
+## Technical atoms
+
+### Technical frame 1: 5.1.17 Special Holy Magic List / Braki Special Holy Magic List / [ Heat Metal ] (Spell Level=5)
+
+**Context:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-03890))_
+
+> By casting this spell, a priest of Braki can make a mass of metal red-hot, making it soft enough to be processed. If cast on (metal) armor, etc. the wearer will suffer severe burns. If Heat Metal is cast on armor worn, the wearer will suffer strike power 10 damage to their life force (points) each round. This damage can only be reduced by adventurer level or magic. Even if metal parts are layered on a foundation such as leather, the damage cannot be reduced because the foundation will quickly be
+
+**Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-03889))_
+
+> Resist=None
+
+### Technical frame 2: 5.1.17 Special Holy Magic List / Braki Special Holy Magic List / [ Heat Metal ] (Spell Level=5)
+
+**Context:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-03890))_
+
+> By casting this spell, a priest of Braki can make a mass of metal red-hot, making it soft enough to be processed. If cast on (metal) armor, etc. the wearer will suffer severe burns. If Heat Metal is cast on armor worn, the wearer will suffer strike power 10 damage to their life force (points) each round. This damage can only be reduced by adventurer level or magic. Even if metal parts are layered on a foundation such as leather, the damage cannot be reduced because the foundation will quickly be
+
+**Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-03891))_
+
+> This heating of metal is magical, so if the caster's focus is broken, the targeted metal mass instantly loses its heat.

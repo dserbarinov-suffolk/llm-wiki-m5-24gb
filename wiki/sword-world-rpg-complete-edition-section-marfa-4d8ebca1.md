@@ -8,7 +8,7 @@ updated: 2026-06-30
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-marfa-4d8ebca1@e5beb3f67043e63fd9440d45f9d922c3
+projection_coverage: section-sword-world-rpg-complete-edition-section-marfa-4d8ebca1@9f071df304dc3a183583317aa1fa3e12
 ---
 
 # 《 Marfa 》
@@ -17,7 +17,6 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-5-1-14-1f53ed62]] - broader source section: 5.1.14
 - [[sword-world-rpg-complete-edition-section-marfa-phalaris-wicked-god-634d14f9]] - narrower source section: 《 Marfa 》 / 《 Phalaris (Wicked God) 》
 - [[sword-world-rpg-complete-edition-section-cha-za-057c6ee7]] - previous source section: 《 Cha Za 》
 - [[sword-world-rpg-complete-edition-section-fenes-b73a7d3a]] - next source section: 《 Fenes 》

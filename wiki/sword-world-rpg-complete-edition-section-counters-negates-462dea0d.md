@@ -8,7 +8,7 @@ updated: 2026-06-30
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-counters-negates-462dea0d@c6580d0346e158a5391089aedc610710
+projection_coverage: section-sword-world-rpg-complete-edition-section-counters-negates-462dea0d@a3354c30ecab4d240ac668d7bf7df4ed
 ---
 
 # 《 Counters (Negates) 》
@@ -17,7 +17,6 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-5-1-5-8bf319fe]] - broader source section: 5.1.5
 - [[sword-world-rpg-complete-edition-section-counters-negates-counters-overpowers-a7822623]] - narrower source section: 《 Counters (Negates) 》 / 《 Counters (Overpowers) 》
 - [[sword-world-rpg-complete-edition-section-target-score-29fe1470]] - previous source section: 《 Target Score 》
 - [[sword-world-rpg-complete-edition-section-mind-e1eda21a]] - next source section: 《 Mind 》

@@ -8,7 +8,7 @@ updated: 2026-06-30
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-attacks-from-monsters-against-characters-a9a9211c@ef544720bdae5a289f724cbe6d57c5be
+projection_coverage: section-sword-world-rpg-complete-edition-section-attacks-from-monsters-against-characters-a9a9211c@63b3fe4b1746f8bb6eb06491f2146d44
 ---
 
 # Attacks From Monsters Against Characters
@@ -24,7 +24,8 @@ From [[sword-world-rpg-complete-edition]].
 - [[sword-world-rpg-complete-edition-section-attacks-from-monsters-against-characters-criticals-9e0eac15]] - narrower source section: Attacks From Monsters Against Characters / 【 Criticals? 】
 - [[sword-world-rpg-complete-edition-section-attacks-from-monsters-against-characters-4-6-4-damage-reduction-b3691cec]] - narrower source section: Attacks From Monsters Against Characters / 4.6.4 Damage Reduction
 - [[sword-world-rpg-complete-edition-section-attacks-from-monsters-against-characters-4-6-5-final-damage-cb8f53e4]] - narrower source section: Attacks From Monsters Against Characters / 4.6.5 Final Damage
-- [[sword-world-rpg-complete-edition-section-4-5-4-ba0d81a1]] - previous source section: 4.5.4
+- [[sword-world-rpg-complete-edition-section-4-5-5-final-damage-0c099f84]] - previous source section: 4.5.5 Final Damage
+- [[sword-world-rpg-complete-edition-section-4-7-attacks-from-characters-against-characters-86d787cb]] - next source section: 4.7 Attacks From Characters Against Characters
 - [[sword-world-rpg-complete-edition-attack-monster-character]] - topic hub: opens the topic page for Attack Monster Character
 
 ## Statements by subsection

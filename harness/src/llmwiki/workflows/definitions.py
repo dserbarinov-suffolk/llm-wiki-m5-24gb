@@ -12,6 +12,7 @@ from __future__ import annotations
 from forge.core.workflow import Workflow
 from forge.tools.respond import respond_tool
 
+from llmwiki.domain.chat_grounding import ChatEvidenceScope
 from llmwiki.domain.claim_support import (
     ClaimSupportCandidate,
     ClaimSupportFinding,
@@ -75,7 +76,13 @@ def build_query_workflow(store: WikiStore, today: str) -> Workflow:
     )
 
 
-def build_chat_workflow(store: WikiStore) -> Workflow:
+def build_chat_workflow(
+    store: WikiStore,
+    *,
+    allow_index_response: bool = True,
+    require_wiki_read: bool = True,
+    evidence_scope: ChatEvidenceScope | None = None,
+) -> Workflow:
     """Read-only by construction: no write tool exists in this workflow.
 
     Grounding is provisioned, not enforced: the orchestrator prepends the
@@ -86,12 +93,19 @@ def build_chat_workflow(store: WikiStore) -> Workflow:
     a 14B).
     """
     missing_focus_reports: set[str] = set()
+    seen: set[str] = set()
     tools = [
         search_wiki_tool(store),
-        read_index_tool(store),
+        read_index_tool(store, read_tracker=seen),
         inspect_page_tool(store, missing_focus_reports=missing_focus_reports),
-        read_page_tool(store),
-        grounded_chat_respond_tool(missing_focus_reports),
+        read_page_tool(store, read_tracker=seen, evidence_scope=evidence_scope),
+        grounded_chat_respond_tool(
+            missing_focus_reports,
+            seen,
+            allow_index_response=allow_index_response,
+            require_wiki_read=require_wiki_read,
+            require_read_page_citation=True,
+        ),
     ]
     return Workflow(
         name="chat",

@@ -13,10 +13,11 @@ The index and log formats below are also enforced in harness code (`harness/src/
 ## Page conventions
 
 - `PageId` is a kebab-case slug, unique across the wiki: `bronze-age-collapse`.
-- `PageKind` is one of `source`, `entity`, `concept`, or `synthesis`.
+- `PageKind` is one of `source`, `entity`, `concept`, `procedure`, or `synthesis`.
 - `source` means a summary of one RawSource or one section of a RawSource.
 - `entity` means a person, place, organization, system, or thing.
 - `concept` means an idea, theme, claim, or recurring pattern.
+- `procedure` means an ordered task guide with steps, decision points, table/formula dependencies, completion checks, and a source trail.
 - `synthesis` means cross-source analysis, comparisons, or answers worth keeping.
 - Link to other WikiPages inline with `[[PageId]]`.
 - Cite evidence by SourceLocator, e.g. `(raw/some-article.md)`.
@@ -54,17 +55,22 @@ Entry prefix: `## [YYYY-MM-DD] <op> | <subject>`.
 1. Read the RawSource with `read_source(source_locator=...)`.
 2. Search the wiki for related pages (`search_wiki`, `read_page`).
 3. Write or update a `source` page summarizing the key information.
-4. Update every affected `entity`/`concept`/`synthesis` page.
-5. Integrate new facts, add cross-references, and flag contradictions.
-6. Create pages for important entities or concepts that lack one.
-7. Call `finish_ingest` with a short report of what changed.
+4. Build the section plan, topic index, and procedure index from the claim ledger.
+5. Project source-local wiki pages from those artifacts: the source hub, section pages, topic pages, procedure pages, source coverage, and projection coverage.
+6. Update every affected `entity`/`concept`/`synthesis` page when model-authored maintenance is explicitly running.
+7. Procedure pages must emerge from source structure, ordered steps, decision points, technical atoms, and table/formula dependencies. Do not use source-specific trigger passages or source-specific shims.
+8. Integrate new facts, add cross-references, and flag contradictions.
+9. Create pages for important entities or concepts that lack one.
+10. Call `finish_ingest` with a short report of what changed.
 
 ### query
 
-1. Search the wiki (`search_wiki`), then read the relevant pages.
-2. Answer from wiki content with page and source citations.
-3. If the answer is a new synthesis worth keeping, file it with `write_page(page_kind="synthesis")` before responding.
-4. Call `respond` with the answer.
+1. Search the wiki (`search_wiki`), then read the relevant pages. For task questions ("how do I...", setup, creation, workflow, or ordered-use questions), prefer `procedure` pages when present.
+2. If the user asks how to perform a task, explain the procedure from the procedure page.
+3. If the user asks you to perform, create, generate, build, or run the task, apply the procedure: state assumptions for missing choices or random results, use source-provided worked examples when that is the most grounded option, and return concrete outputs or explicit unresolved fields.
+4. Answer from wiki content with page and source citations.
+5. If the answer is a new synthesis worth keeping, file it with `write_page(page_kind="synthesis")` before responding.
+6. Call `respond` with the answer.
 
 ### lint
 

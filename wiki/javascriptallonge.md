@@ -8,7 +8,7 @@ updated: 2026-06-30
 domain: javascriptallonge
 category_path: sources
 source_id: javascriptallonge.pdf
-projection_coverage: projection-coverage-58c39ea10bb8ad18@1608c864086a21b3
+projection_coverage: projection-coverage-58c39ea10bb8ad18@1e8b1427a3571b06
 ---
 
 # A Pull of the Lever: Prefaces

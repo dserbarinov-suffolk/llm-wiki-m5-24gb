@@ -8,7 +8,7 @@ updated: 2026-06-30
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-priest-skill-a22f84d8@467226d84ce19685941518903b9c4ed1
+projection_coverage: section-sword-world-rpg-complete-edition-section-priest-skill-a22f84d8@551ef80cfed41a2df835456f4c4cfe52
 ---
 
 # Priest Skill
@@ -17,7 +17,6 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-5-1-14-1f53ed62]] - broader source section: 5.1.14
 - [[sword-world-rpg-complete-edition-section-pharis-fdf323a0]] - next source section: 《 Pharis 》
 - [[sword-world-rpg-complete-edition-priest-skill]] - topic hub: opens the topic page for Priest Skill
 

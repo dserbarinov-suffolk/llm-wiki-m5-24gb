@@ -8,7 +8,7 @@ updated: 2026-06-30
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-power-c62f37f1@ab9ac9b56cf4e170f55a7e556a70cc21
+projection_coverage: section-sword-world-rpg-complete-edition-section-power-c62f37f1@257d03480482ceb8d5a8fc06139582dd
 ---
 
 # Power
@@ -17,7 +17,6 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-5-1-5-8bf319fe]] - broader source section: 5.1.5
 - [[sword-world-rpg-complete-edition-section-magical-recovery-1b1f0c1d]] - next source section: 《 Magical Recovery 》
 
 ## Statements

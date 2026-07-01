@@ -15,6 +15,7 @@ from forge.core.workflow import ToolDef, ToolSpec
 from forge.tools.respond import RESPOND_DESCRIPTION, RespondParams
 from pydantic import BaseModel, Field
 
+from llmwiki.domain.chat_grounding import ChatEvidenceScope, ChatResponseCitationPolicy
 from llmwiki.domain.objects import PlannedPageWrite, SourceSummaryBullet, SourceSummaryDraft
 from llmwiki.domain.page_body_contracts import (
     canonicalize_source_summary_draft,
@@ -25,7 +26,7 @@ from llmwiki.domain.page_body_contracts import (
     validate_source_summary_draft,
 )
 from llmwiki.domain.page_inspection import inspect_page_text, render_page_map
-from llmwiki.domain.pages import PageMetadata, WikiPage
+from llmwiki.domain.pages import PageMetadata, WikiPage, parse_page
 from llmwiki.domain.retrieval import render_context_pack, retrieve_wiki_context
 from llmwiki.pdf.intermediate import OCR_MARKER
 from llmwiki.store import WikiStore, WikiStoreError
@@ -35,6 +36,10 @@ _READ_PAGE_MAX_CHARS = 5_000
 type _FocusKey = tuple[tuple[str, ...], str]
 _WIKI_LINK_RE = re.compile(r"\[\[[a-z0-9][a-z0-9-]*\]\]")
 _SOURCE_CITATION_RE = re.compile(r"\braw/[a-zA-Z0-9_./-]+|source-range-[a-z0-9]+-\d+")
+_READ_CHUNK_MARKERS = (
+    "[Showing wiki/",
+    "[Truncated. Continue with read_page offset=",
+)
 
 
 def _strip_pipeline_markers(content: str) -> str:
@@ -42,6 +47,20 @@ def _strip_pipeline_markers(content: str) -> str:
     (e.g. the OCR caveat tag) are internal plumbing, never wiki content —
     observed quoted verbatim into a page despite the schema forbidding it."""
     return "\n".join(line for line in content.splitlines() if OCR_MARKER not in line)
+
+
+def _validate_model_page_body(page_body: str) -> None:
+    if page_body.lstrip().startswith("---"):
+        raise WikiStoreError(
+            "PageBody must not include frontmatter. write_page receives page metadata "
+            "as tool arguments and the harness renders frontmatter."
+        )
+    for marker in _READ_CHUNK_MARKERS:
+        if marker in page_body:
+            raise WikiStoreError(
+                "PageBody contains a read_page chunk marker. Continue reading the page "
+                "and carry forward the complete content before calling write_page."
+            )
 
 
 def _page_body_contract_source_text(store: WikiStore, planned_write: PlannedPageWrite) -> str:
@@ -126,7 +145,9 @@ class WritePageParams(BaseModel):
     page_id: str = Field(
         description="WikiPage page_id as a kebab-case slug. Reuse an existing page_id to update."
     )
-    page_kind: str = Field(description="WikiPage page_kind: source, entity, concept, or synthesis.")
+    page_kind: str = Field(
+        description="WikiPage page_kind: source, entity, concept, procedure, or synthesis."
+    )
     summary: str = Field(description="One-line summary of the page, used in the wiki index.")
     page_body: str = Field(
         description="Full PageBody markdown. Link related pages inline with [[page_id]]. "
@@ -203,12 +224,14 @@ def search_wiki_tool(store: WikiStore) -> ToolDef:
     )
 
 
-def read_index_tool(store: WikiStore) -> ToolDef:
+def read_index_tool(store: WikiStore, read_tracker: set[str] | None = None) -> ToolDef:
     """Index-first navigation (pattern doc): the catalog answers questions
     about the wiki itself and its coverage that content search cannot."""
 
     def _read_index(**kwargs: object) -> str:
         ReadIndexParams(**kwargs)
+        if read_tracker is not None:
+            read_tracker.add("index.md")
         return store.read_index()
 
     return ToolDef(
@@ -289,7 +312,14 @@ def _missing_focus_label(sources: tuple[str, ...], focus_query: str | None) -> s
     return f"{','.join(sorted(sources))}::{query}"
 
 
-def grounded_chat_respond_tool(missing_focus_reports: set[str]) -> ToolDef:
+def grounded_chat_respond_tool(
+    missing_focus_reports: set[str],
+    read_tracker: set[str] | None = None,
+    *,
+    allow_index_response: bool = True,
+    require_wiki_read: bool = True,
+    require_read_page_citation: bool = False,
+) -> ToolDef:
     def _respond(**kwargs: object) -> str:
         params = RespondParams(**kwargs)  # type: ignore[arg-type]
         if missing_focus_reports:
@@ -302,6 +332,29 @@ def grounded_chat_respond_tool(missing_focus_reports: set[str]) -> ToolDef:
                     "[[PageId]], raw source locator or source-range id, and do not ask "
                     "the user to continue outside the wiki."
                 )
+        if require_wiki_read and read_tracker is not None:
+            page_reads = read_tracker - {"index.md"}
+            if page_reads:
+                if require_read_page_citation:
+                    decision = ChatResponseCitationPolicy(
+                        frozenset(page_reads)
+                    ).response_decision(params.message)
+                    if not decision.allowed:
+                        raise WikiStoreError(decision.message)
+                return params.message
+            if allow_index_response and "index.md" in read_tracker:
+                return params.message
+            if allow_index_response:
+                raise WikiStoreError(
+                    "Call read_page for a relevant wiki page, or read_index for a "
+                    "wiki coverage/catalog question, before respond. Search snippets "
+                    "alone are not enough evidence for an answer."
+                )
+            raise WikiStoreError(
+                "Call read_page for a relevant wiki page before respond. The index "
+                "and search snippets are discovery aids, not enough evidence for a "
+                "substantive content answer."
+            )
         return params.message
 
     return ToolDef(
@@ -325,10 +378,19 @@ def _chat_response_findings(message: str) -> tuple[str, ...]:
     return tuple(findings)
 
 
-def read_page_tool(store: WikiStore, read_tracker: set[str] | None = None) -> ToolDef:
+def read_page_tool(
+    store: WikiStore,
+    read_tracker: set[str] | None = None,
+    evidence_scope: ChatEvidenceScope | None = None,
+) -> ToolDef:
     def _read_page(**kwargs: object) -> str:
         params = ReadPageParams(**kwargs)  # type: ignore[arg-type]
         text = store.read_page(params.page_id)
+        if evidence_scope is not None:
+            metadata = parse_page(text).page_metadata
+            decision = evidence_scope.read_decision(metadata)
+            if not decision.allowed:
+                raise WikiStoreError(decision.message)
         if read_tracker is not None:
             read_tracker.add(params.page_id)
         return _read_page_chunk(params.page_id, text, params.offset, params.max_chars)
@@ -383,6 +445,7 @@ def write_page_tool(
 
     def _write_page(**kwargs: object) -> str:
         params = WritePageParams(**kwargs)  # type: ignore[arg-type]
+        _validate_model_page_body(params.page_body)
         if (
             read_tracker is not None
             and params.page_id not in read_tracker
@@ -435,6 +498,7 @@ def planned_write_page_tool(
     target_page = planned_write.page_metadata.page_id
 
     def _write_page_body(page_body: str) -> str:
+        _validate_model_page_body(page_body)
         page_body = _strip_pipeline_markers(page_body)
         page_body = canonicalize_source_summary_page_body(
             page_body, planned_write.resolved_page_body_contract

@@ -8,7 +8,7 @@ updated: 2026-06-30
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-kardis-wicked-god-ec34c08d@43c428936ebfab363a48713f1ae3d385
+projection_coverage: section-sword-world-rpg-complete-edition-section-kardis-wicked-god-ec34c08d@d35e1d3b5748adc29090097ccb96e083
 ---
 
 # 《 Kardis (Wicked God) 》
@@ -17,7 +17,6 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-5-1-14-1f53ed62]] - broader source section: 5.1.14
 - [[sword-world-rpg-complete-edition-section-kardis-wicked-god-mirleaf-wicked-god-a9d212a1]] - narrower source section: 《 Kardis (Wicked God) 》 / 《 Mirleaf (Wicked God) 》
 - [[sword-world-rpg-complete-edition-section-braki-525d5232]] - previous source section: 《 Braki 》
 - [[sword-world-rpg-complete-edition-section-divination-1374c0e6]] - next source section: 《 Divination 》

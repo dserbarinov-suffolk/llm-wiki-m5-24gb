@@ -1,0 +1,35 @@
+---
+page_id: sword-world-rpg-complete-edition-section-13-2-1-humans-merman-monster-level-2-rarity-11-agility-16-movement-speed-3-20-water-number-sever-e6b9d74e
+page_kind: source
+summary: 13.2.1 《 Humans 》 / [ Merman ] Monster Level=2 Rarity=11 Agility=16 Movement Speed=3/20 (water) Number=Several to dozens Frequency=Rare Intellect=Human Reaction=Neutral Attack Points=Weapon: 9 (2) Strike Points=5 Evasion Points=10 (3) Defense Points=4 Life Points/Resistance=14/10 (3) Mental Points/Resistance=16/10 (3) Special Abilities=Water adaptation Habitat=Seas Languages=Merman Perception=Five senses (illumination): 28 source-backed entries and 0 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+page_family: section-reference
+sources: raw/Sword World RPG - Complete Edition.pdf
+updated: 2026-06-30
+domain: sword-world-rpg-complete-edition
+category_path: sources/sword-world-rpg-complete-edition/sections
+source_id: Sword World RPG - Complete Edition.pdf
+projection_coverage: section-sword-world-rpg-complete-edition-section-13-2-1-humans-merman-monster-level-2-rarity-11-agility-16-movement-speed-3-20-water-number-sever-e6b9d74e@2ca63fe515d8f74be2d789900f7b604b
+---
+
+# 13.2.1 《 Humans 》 / [ Merman ] Monster Level=2 Rarity=11 Agility=16 Movement Speed=3/20 (water) Number=Several to dozens Frequency=Rare Intellect=Human Reaction=Neutral Attack Points=Weapon: 9 (2) Strike Points=5 Evasion Points=10 (3) Defense Points=4 Life Points/Resistance=14/10 (3) Mental Points/Resistance=16/10 (3) Special Abilities=Water adaptation Habitat=Seas Languages=Merman Perception=Five senses (illumination)
+
+From [[sword-world-rpg-complete-edition]].
+
+## Related pages
+
+- [[sword-world-rpg-complete-edition-section-13-2-1-humans-2369e4b2]] - broader source section: 13.2.1 《 Humans 》
+- [[sword-world-rpg-complete-edition-section-13-2-1-humans-featherfolk-9800b640]] - previous source section: 13.2.1 《 Humans 》 / [ Featherfolk ]
+- [[sword-world-rpg-complete-edition-section-13-2-1-humans-imp-7d6833df]] - next source section: 13.2.1 《 Humans 》 / [ Imp ]
+
+## Statements
+
+- Mermen are a race that lives under the sea, with the upper body of a human and the lower body of fish. Female mermen are called mermaids. They have an extreme fear and hatred of humans and will never try to negotiate with them. This is because over a hundred years ago, a rumor spread that eating merman flesh will give long life , so humans fought and overhunted mermen. Since then, mermen have lived at the bottom of the deep sea, avoiding humans, and their social system and customs are shrouded in mystery. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-06013))_
+- Mermen are a species that breathes underwater and cannot breathe on land. They can only act on land for up to their life points rounds (14 rounds), after which they will suffocate. They usually live in groups of about a few dozen. The group has a leader and a shaman who govern the tribe. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-06014))_
+- They use a trident as a weapon. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-06015))_
+- Monster Level=4 Rarity=18 Agility=16 Movement Speed=3/20 (water) Number=One to several Frequency=Rare Intellect=Human Reaction=Neutral Attack Points=Weapon: 10 (3) Strike Points=7 Evasion Points=12 (5) Defense Points=6 Life Points/Resistance=12/12 (5) Mental Points/Resistance=18/13 (6) _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-06017))_
+- Merman tribes select girls with outstanding intelligence and mental power and train them as shamans from an early age. The result is a mermaid shaman. Mermaid shamans can use spirit magic up to 4th level, which is powered by water spirits (undine). There is one mermaid shaman per combat group, and her role is to assist the merman leader. Also, if the merman leader is defeated, she will take command of the battle in his place. A combat group whose leader and shaman are both defeated will either join another group or flee. When this is not possible, the mermen will fight to the death. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-06023))_
+- Monster Level=4 Rarity=13 Agility=16 Movement Speed=3/20 (water) Number=One to several Frequency=Rare Intellect=Human Reaction=Neutral Attack Points=Weapon: 10 (3) Strike Points=8 Evasion Points=12 (5) Defense Points=6 Life Points/Resistance=15/12 (5) Mental Points/Resistance=17/12 (5) Special Abilities=Water adaptation Habitat=Seas Languages=Merman _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-06025))_
+- Merman tribes select physically superior boys from an early age and give them special training. Those who receive training and grow up will become merman leaders, the head of a combat group of 10 mermen, and command those mermen in battle. Also, a particularly chosen one among them becomes the chieftain who leads the tribe. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-06027))_
+- This is because over a hundred years ago, a rumor spread that eating merman flesh will give long life , so humans fought and overhunted mermen. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-06013))_
+- Since then, mermen have lived at the bottom of the deep sea, avoiding humans, and their social system and customs are shrouded in mystery. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-06013))_
+- They can only act on land for up to their life points rounds (14 rounds), after which they will suffocate. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-06014))_

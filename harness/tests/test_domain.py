@@ -172,7 +172,13 @@ class TestPageBodyContracts:
     def test_schema_has_generic_default_page_body_contracts(self) -> None:
         schema = Schema()
         contracts = {contract.contract_id for contract in schema.page_body_contracts}
-        assert {"source-summary", "entity-page", "concept-page", "synthesis-page"} <= contracts
+        assert {
+            "source-summary",
+            "entity-page",
+            "concept-page",
+            "procedure-page",
+            "synthesis-page",
+        } <= contracts
         claim_roles = {role.tag_name for role in schema.claim_role_tags}
         assert {"identity", "uncertainty", "negative-evidence"} <= claim_roles
         source_contract = contract_for_page_kind(schema, "source")

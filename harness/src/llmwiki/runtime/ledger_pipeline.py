@@ -17,13 +17,14 @@ from llmwiki.domain.ledger.artifacts import (
     build_source_coverage_artifact,
 )
 from llmwiki.domain.ledger.builder import build_claim_ledger, default_schema_bundle
-from llmwiki.domain.ledger.canonical import deterministic_id
+from llmwiki.domain.ledger.canonical import deterministic_id, short_digest
 from llmwiki.domain.ledger.pointers import (
     claim_ledger_pointer,
     document_structure_pointer,
     ledger_quality_report_pointer,
     quality_check_catalog_pointer,
 )
+from llmwiki.domain.ledger.procedure_pages import build_procedure_pages
 from llmwiki.domain.ledger.projection import ProjectionSourceSupport, plan_source_page
 from llmwiki.domain.ledger.projection_context import build_projection_context
 from llmwiki.domain.ledger.quality import (
@@ -49,6 +50,7 @@ from llmwiki.pdf.document import DocumentModel
 from llmwiki.runtime.document_model_segmentation import segment_document_model
 from llmwiki.runtime.ledger_artifact_bundle import build_serialized_artifact_bundle
 from llmwiki.runtime.ledger_pages import (
+    append_source_page_links,
     build_source_wiki_page,
     build_topic_pages,
     ledger_summary,
@@ -234,13 +236,36 @@ def build_source_ledger(
             topics=topics,
             projection_context=projection_context,
         )
+        procedure_pages = build_procedure_pages(
+            ledger,
+            structure,
+            source_page_id=page_id,
+            source_locator=source_locator,
+            today=today,
+        )
+        topic_pages += procedure_pages
+        source_page_body = append_source_page_links(
+            rendered.page_body,
+            "Procedure Guides",
+            procedure_pages,
+        )
+        coverage_artifact = build_projection_coverage_artifact(
+            wiki_page_locator=page_id,
+            page_body_hash=short_digest(source_page_body, 32),
+            support_set=(support,),
+            coverage=rendered.coverage,
+            ledger_quality_report_pointer=ledger_quality_report_pointer(
+                projection_report_artifact.ledger_quality_report_artifact_id,
+                projection_report_artifact.ledger_quality_report_fingerprint,
+            ),
+        )
         wiki_page = build_source_wiki_page(
             page_id,
             source_locator,
             title,
             ledger_summary(ledger, decision, len(topic_pages)),
             today,
-            rendered.page_body,
+            source_page_body,
             coverage_artifact,
         )
     summary = ledger_summary(ledger, decision, len(topic_pages))

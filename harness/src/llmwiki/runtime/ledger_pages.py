@@ -103,6 +103,15 @@ def build_source_wiki_page(
     return WikiPage.from_metadata(metadata, page_body)
 
 
+def append_source_page_links(page_body: str, heading: str, pages: tuple[WikiPage, ...]) -> str:
+    if not pages:
+        return page_body
+    lines = [page_body.rstrip(), "", f"## {heading}", ""]
+    for page in sorted(pages, key=lambda item: item.page_metadata.page_id):
+        lines.append(f"- [[{page.page_metadata.page_id}]] - {page.page_metadata.summary}")
+    return "\n".join(lines) + "\n"
+
+
 def source_element_records(model: DocumentModel) -> tuple[SourceElementRecord, ...]:
     return tuple(
         SourceElementRecord(

@@ -8,7 +8,7 @@ updated: 2026-06-30
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-deathlike-sleep-dose-839e5efc@1f080a959df3d56cd73caae54067146e
+projection_coverage: section-sword-world-rpg-complete-edition-section-deathlike-sleep-dose-839e5efc@10017ea712d743c7d2b0c34f4dda9813
 ---
 
 # [Deathlike Sleep (Dose)]
@@ -24,7 +24,7 @@ From [[sword-world-rpg-complete-edition]].
 - [[sword-world-rpg-complete-edition-section-deathlike-sleep-dose-medusa-eyes-dose-magic-4e60aab1]] - narrower source section: [Deathlike Sleep (Dose)] / [Medusa Eyes (Dose/Magic)]
 - [[sword-world-rpg-complete-edition-section-deathlike-sleep-dose-love-passion-inhaled-dose-magic-mind-f8d31402]] - narrower source section: [Deathlike Sleep (Dose)] / [ Love Passion (Inhaled, Dose/Magic, Mind) ]
 - [[sword-world-rpg-complete-edition-section-description-d5853f98]] - previous source section: 《 Description 》
-- [[sword-world-rpg-complete-edition-section-12-2-2-5611d07e]] - next source section: 12.2.2
+- [[sword-world-rpg-complete-edition-section-12-2-2-illnesses-5611d07e]] - next source section: 12.2.2 Illnesses
 
 ## Statements
 

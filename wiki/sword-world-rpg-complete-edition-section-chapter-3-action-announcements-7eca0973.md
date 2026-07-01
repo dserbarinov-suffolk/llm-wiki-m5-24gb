@@ -8,7 +8,7 @@ updated: 2026-06-30
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-3-action-announcements-7eca0973@b257b9322d1c1240754cf9aa60d239a6
+projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-3-action-announcements-7eca0973@8b25cf80a556a85f6f24b2478b792546
 ---
 
 # Chapter 3: / Action Announcements
@@ -20,6 +20,8 @@ From [[sword-world-rpg-complete-edition]].
 - [[sword-world-rpg-complete-edition-section-chapter-3-b1c23679]] - broader source section: Chapter 3:
 - [[sword-world-rpg-complete-edition-section-chapter-3-action-announcements-3-1-1-order-of-action-announcements-8874dec4]] - narrower source section: Chapter 3: / Action Announcements / 3.1.1 Order of Action Announcements
 - [[sword-world-rpg-complete-edition-section-chapter-3-action-announcements-3-1-2-player-action-announcements-586f9066]] - narrower source section: Chapter 3: / Action Announcements / 3.1.2 Player Action Announcements
+- [[sword-world-rpg-complete-edition-section-chapter-3-action-announcements-3-1-3-npc-and-monster-action-announcements-df807636]] - narrower source section: Chapter 3: / Action Announcements / 3.1.3 NPC and Monster Action Announcements
+- [[sword-world-rpg-complete-edition-section-chapter-3-3-2-action-order-0a8e2138]] - next source section: Chapter 3: / 3.2 Action Order
 
 ## Statements by subsection
 
@@ -43,7 +45,7 @@ From [[sword-world-rpg-complete-edition]].
 - Instead of use magic , they should say cast a fi reball spell. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-01068))_
 - You must be specific in this way. If the game master asks a question, be sure to answer it clearly. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-01069))_
 
-### Chapter 3: / Action Announcements / 3.1.2 Player Action Announcements / 3.1.3 NPC and Monster Action Announcements
+### Chapter 3: / Action Announcements / 3.1.3 NPC and Monster Action Announcements
 
 - When NPCs, monsters, etc. announce their actions, it's done by the game master who manages them. Specific action announcements may not be made at this time. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-01071))_
 - You may only declare, I'm preparing to cast a spell , and not give out the specific name of the spell. This is the difference in position between the players and the game master. The game master, as the person who manages the game, must know the actions of all the characters and monsters that appear. However, the players should only act from their characters' point of view. So, if a character cannot predict something, the player cannot know it either. When you see it for the first time, you won't know how a monster you don't recognize will act, and when an enemy tries to cast a spell you don't recognize, you won't know what that spell does. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-01073))_

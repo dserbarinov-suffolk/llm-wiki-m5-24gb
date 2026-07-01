@@ -8,7 +8,7 @@ updated: 2026-06-30
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-physical-ability-698688cf@be68bf58974829e141303bf0874f0c47
+projection_coverage: section-sword-world-rpg-complete-edition-section-physical-ability-698688cf@6d1866a43e40eef01f94d48232877074
 ---
 
 # 《 Physical Ability 》
@@ -17,7 +17,6 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-5-1-5-8bf319fe]] - broader source section: 5.1.5
 - [[sword-world-rpg-complete-edition-section-physical-ability-weapon-enhancement-5dd10c18]] - narrower source section: 《 Physical Ability 》 / 《 Weapon Enhancement 》
 - [[sword-world-rpg-complete-edition-section-mind-e1eda21a]] - previous source section: 《 Mind 》
 - [[sword-world-rpg-complete-edition-section-non-removable-5051944b]] - next source section: 《 Non-removable 》

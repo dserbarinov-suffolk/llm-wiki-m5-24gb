@@ -7,7 +7,7 @@ sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-06-30
 domain: sword-world-rpg-complete-edition
 category_path: concepts
-projection_coverage: topic-sword-world-rpg-complete-edition-adventurer-cast-magic-mix@b4452409ce83839132a9b9db73a6d49e
+projection_coverage: topic-sword-world-rpg-complete-edition-adventurer-cast-magic-mix@d852607c15d2e21593926aca6e0b917f
 ---
 
 # Adventurer Cast Magic Mix
@@ -16,7 +16,7 @@ What [[sword-world-rpg-complete-edition]] covers about adventurer cast magic mix
 
 ## Statements
 
-### When an Adventurer Casts Magic on a Mix of Adventurers and Monsters
+### 4.10 Excellent Weapons and Armor / 4.10.4 Mithril Silver Weapons and Armor / When an Adventurer Casts Magic on a Mix of Adventurers and Monsters
 
 - Sometimes enemies written in the same data format as a character may also be accompanied by monsters. For example, a sorcerer who leads undead monsters to attack villages. Casting magic on such a group is handled the same way as when an adventurer casts magic on (a group of) adventurers, as described above. At this time, the monsters must also roll the dice to make resist checks. Please use the optional rules under 17.1: Changes to Magic Procedure (see p. 273). _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-01652))_
 
@@ -27,7 +27,7 @@ What [[sword-world-rpg-complete-edition]] covers about adventurer cast magic mix
 
 ## Technical atoms
 
-### Technical frame 1: When an Adventurer Casts Magic on a Mix of Adventurers and Monsters
+### Technical frame 1: 4.10 Excellent Weapons and Armor / 4.10.4 Mithril Silver Weapons and Armor / When an Adventurer Casts Magic on a Mix of Adventurers and Monsters
 
 **Context:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-01655))_
 
@@ -37,7 +37,7 @@ What [[sword-world-rpg-complete-edition]] covers about adventurer cast magic mix
 
 > At this time, the monsters must also roll the dice to make resist checks.
 
-### Technical frame 2: When an Adventurer Casts Magic on a Mix of Adventurers and Monsters
+### Technical frame 2: 4.10 Excellent Weapons and Armor / 4.10.4 Mithril Silver Weapons and Armor / When an Adventurer Casts Magic on a Mix of Adventurers and Monsters
 
 **Context:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-01655))_
 

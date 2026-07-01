@@ -8,7 +8,7 @@ updated: 2026-06-30
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-3rd-level-basic-holy-magic-list-cure-poison-4f03565a@e345cda0404e5ee8824f9822a4bd7c81
+projection_coverage: section-sword-world-rpg-complete-edition-section-3rd-level-basic-holy-magic-list-cure-poison-4f03565a@f05e822bbc840053dd53899edc23dc2f
 ---
 
 # 3rd Level Basic Holy Magic List [ Cure Poison ]
@@ -17,7 +17,6 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-5-1-14-1f53ed62]] - broader source section: 5.1.14
 - [[sword-world-rpg-complete-edition-section-3rd-level-basic-holy-magic-list-cure-poison-holy-light-025150f4]] - narrower source section: 3rd Level Basic Holy Magic List [ Cure Poison ] / [ Holy Light ]
 - [[sword-world-rpg-complete-edition-section-2nd-level-basic-holy-magic-list-cure-deafness-3286a71c]] - previous source section: 2nd Level Basic Holy Magic List [ Cure Deafness ]
 - [[sword-world-rpg-complete-edition-section-4th-level-basic-holy-magic-list-cure-disease-fa615de9]] - next source section: 4th Level Basic Holy Magic List [ Cure Disease ]

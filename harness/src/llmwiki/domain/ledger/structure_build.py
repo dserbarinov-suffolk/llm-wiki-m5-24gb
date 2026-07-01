@@ -1,20 +1,22 @@
 """Build a DocumentStructure from ordered source segments.
 
-Heading segments become structure nodes; their depth comes from the heading
-level (a reusable structural signal), so the nesting is source-neutral. Every
-other segment is mapped to its nearest containing heading node, or the root
-node when a source is structurally flat.
+Heading segments become structure nodes. Depth comes first from extracted
+heading level, then from source-authored numbering when a PDF extractor flattens
+or splits numbered headings. Both are reusable structural signals rather than
+source-specific shims.
 """
 
 from __future__ import annotations
 
-from dataclasses import dataclass
+from dataclasses import dataclass, replace
 
+from llmwiki.domain.ledger import structure_numbers, structure_relations
 from llmwiki.domain.ledger.canonical import deterministic_id, short_digest
 from llmwiki.domain.ledger.segments import SourceSegment
 from llmwiki.domain.ledger.structure import StructureNode, StructureRelation
 
 _DEPTH_KIND = {1: "chapter", 2: "section"}
+_PENDING_NUMBER_MARKER_WINDOW = 24
 
 
 @dataclass(frozen=True)
@@ -23,6 +25,24 @@ class StructurePlan:
     nodes: tuple[StructureNode, ...]
     node_for_segment: dict[str, str]
     relations: tuple[StructureRelation, ...] = ()
+
+
+@dataclass(frozen=True)
+class _OpenHeading:
+    depth: int
+    node_id: str
+    canonical_label: str
+    number_path: tuple[int, ...]
+    is_number_marker: bool
+    title_bound: bool = True
+
+
+@dataclass(frozen=True)
+class _PendingNumberMarker:
+    heading: _OpenHeading
+    stack: tuple[_OpenHeading, ...]
+    previous_node_id: str
+    source_order: int
 
 
 def build_structure(
@@ -39,42 +59,110 @@ def build_structure(
     )
     nodes: list[StructureNode] = [root]
     node_for_segment: dict[str, str] = {}
-    # stack of (depth, node_id) for ancestry resolution
-    open_headings: list[tuple[int, str]] = []
-    for order, segment in enumerate(segments, start=1):
+    open_headings: list[_OpenHeading] = []
+    pending_markers: dict[tuple[int, ...], _PendingNumberMarker] = {}
+    for index, segment in enumerate(segments):
+        order = index + 1
         if segment.segment_kind == "heading":
-            depth = _heading_depth(segment.text)
-            while open_headings and open_headings[-1][0] >= depth:
-                open_headings.pop()
-            parent_id = open_headings[-1][1] if open_headings else root_id
-            heading_text = segment.text.lstrip("#").strip()
-            node_id = deterministic_id(
-                "structure-node",
+            _add_heading(
                 source_hash,
-                segment.source_range_id,
-                _DEPTH_KIND.get(depth, "heading"),
-                short_digest(heading_text.lower()),
+                root_id,
+                segment,
+                tuple(segments),
+                index,
+                order,
+                nodes,
+                node_for_segment,
+                open_headings,
+                pending_markers,
             )
-            nodes.append(
-                StructureNode(
-                    structure_node_id=node_id,
-                    structure_node_kind=_DEPTH_KIND.get(depth, "heading"),
-                    heading_text=heading_text,
-                    source_range_id=segment.source_range_id,
-                    source_locator=segment.source_locator,
-                    source_order=order,
-                    depth=depth,
-                    parent_structure_node_id=parent_id,
-                    evidence_ids=segment.evidence_ids,
-                )
-            )
-            open_headings.append((depth, node_id))
-            node_for_segment[segment.segment_id] = node_id
-        else:
-            node_for_segment[segment.segment_id] = (
-                open_headings[-1][1] if open_headings else root_id
-            )
-    return StructurePlan(root_id, tuple(nodes), node_for_segment, _sibling_relations(tuple(nodes)))
+            continue
+        node_for_segment[segment.segment_id] = _node_for_non_heading(
+            open_headings, pending_markers, segment, root_id
+        )
+    structure_nodes = tuple(nodes)
+    return StructurePlan(
+        root_id,
+        structure_nodes,
+        node_for_segment,
+        structure_relations.sibling_relations(structure_nodes),
+    )
+
+
+def _add_heading(
+    source_hash: str,
+    root_id: str,
+    segment: SourceSegment,
+    segments: tuple[SourceSegment, ...],
+    index: int,
+    order: int,
+    nodes: list[StructureNode],
+    node_for_segment: dict[str, str],
+    open_headings: list[_OpenHeading],
+    pending_markers: dict[tuple[int, ...], _PendingNumberMarker],
+) -> None:
+    depth = _heading_depth(segment.text)
+    heading_text = structure_numbers.heading_text(segment.text)
+    canonical_label = structure_numbers.canonical_heading_label(heading_text)
+    number_path = structure_numbers.heading_number_path(canonical_label)
+    is_number_marker = structure_numbers.is_number_marker(canonical_label, number_path)
+    previous_node_id = _previous_node_id(open_headings, root_id)
+    pending = _pending_marker_for_title(pending_markers, canonical_label, segments, index, order)
+    if pending is not None:
+        _bind_pending_marker(pending, heading_text, segment, nodes, node_for_segment, open_headings)
+        pending_markers.pop(pending.heading.number_path, None)
+        return
+    _pop_closed_headings(open_headings, depth, number_path)
+    if _same_unbound_number_marker(open_headings, number_path, is_number_marker):
+        node_for_segment[segment.segment_id] = open_headings[-1].node_id
+        return
+    while open_headings and structure_numbers.number_conflicts(
+        open_headings[-1].number_path, number_path
+    ):
+        open_headings.pop()
+    if open_headings and canonical_label and structure_numbers.same_heading(
+        open_headings[-1].canonical_label, canonical_label
+    ):
+        node_for_segment[segment.segment_id] = open_headings[-1].node_id
+        return
+    parent_id = open_headings[-1].node_id if open_headings else root_id
+    node_id = deterministic_id(
+        "structure-node",
+        source_hash,
+        segment.source_range_id,
+        _DEPTH_KIND.get(depth, "heading"),
+        short_digest(heading_text.lower()),
+    )
+    nodes.append(
+        StructureNode(
+            structure_node_id=node_id,
+            structure_node_kind=_DEPTH_KIND.get(depth, "heading"),
+            heading_text=heading_text,
+            source_range_id=segment.source_range_id,
+            source_locator=segment.source_locator,
+            source_order=order,
+            depth=depth,
+            parent_structure_node_id=parent_id,
+            evidence_ids=segment.evidence_ids,
+        )
+    )
+    heading = _OpenHeading(
+        depth,
+        node_id,
+        canonical_label,
+        number_path,
+        is_number_marker,
+        title_bound=not is_number_marker,
+    )
+    open_headings.append(heading)
+    if is_number_marker:
+        pending_markers[number_path] = _PendingNumberMarker(
+            heading=heading,
+            stack=tuple(open_headings),
+            previous_node_id=previous_node_id,
+            source_order=order,
+        )
+    node_for_segment[segment.segment_id] = node_id
 
 
 def _heading_depth(text: str) -> int:
@@ -83,28 +171,118 @@ def _heading_depth(text: str) -> int:
     return depth if depth > 0 else 1
 
 
-def _sibling_relations(nodes: tuple[StructureNode, ...]) -> tuple[StructureRelation, ...]:
-    by_parent: dict[str, list[StructureNode]] = {}
-    for node in nodes:
-        if node.structure_node_kind == "root":
+def _pop_closed_headings(
+    open_headings: list[_OpenHeading], depth: int, number_path: tuple[int, ...]
+) -> None:
+    while open_headings and open_headings[-1].depth >= depth:
+        if structure_numbers.number_parent(open_headings[-1].number_path, number_path):
+            break
+        if open_headings[-1].is_number_marker and open_headings[-1].title_bound and not number_path:
+            break
+        open_headings.pop()
+
+
+def _same_unbound_number_marker(
+    open_headings: list[_OpenHeading], number_path: tuple[int, ...], is_number_marker: bool
+) -> bool:
+    return bool(
+        open_headings
+        and number_path
+        and open_headings[-1].number_path == number_path
+        and is_number_marker
+    )
+
+
+def _pending_marker_for_title(
+    pending_markers: dict[tuple[int, ...], _PendingNumberMarker],
+    canonical_label: str,
+    segments: tuple[SourceSegment, ...],
+    index: int,
+    order: int,
+) -> _PendingNumberMarker | None:
+    for pending in sorted(pending_markers.values(), key=lambda item: -item.source_order):
+        if order - pending.source_order > _PENDING_NUMBER_MARKER_WINDOW:
             continue
-        by_parent.setdefault(node.parent_structure_node_id, []).append(node)
-    relations: list[StructureRelation] = []
-    for siblings in by_parent.values():
-        ordered = sorted(siblings, key=lambda item: item.source_order)
-        for left, right in zip(ordered, ordered[1:], strict=False):
-            relations.append(
-                StructureRelation(
-                    left.structure_node_id,
-                    right.structure_node_id,
-                    "next-sibling",
-                )
-            )
-            relations.append(
-                StructureRelation(
-                    right.structure_node_id,
-                    left.structure_node_id,
-                    "previous-sibling",
-                )
-            )
-    return tuple(relations)
+        if order - pending.source_order == 1:
+            return pending
+        if _nearby_numbered_title(pending.heading.number_path, canonical_label, segments, index):
+            return pending
+    return None
+
+
+def _nearby_numbered_title(
+    number_path: tuple[int, ...],
+    canonical_label: str,
+    segments: tuple[SourceSegment, ...],
+    index: int,
+) -> bool:
+    for segment in segments[index : index + 4]:
+        candidate = structure_numbers.canonical_heading_label(
+            structure_numbers.heading_text(segment.text)
+        )
+        if structure_numbers.heading_number_path(candidate) == number_path and (
+            structure_numbers.same_heading(candidate, canonical_label)
+        ):
+            return True
+    return False
+
+
+def _bind_pending_marker(
+    pending: _PendingNumberMarker,
+    heading_text: str,
+    segment: SourceSegment,
+    nodes: list[StructureNode],
+    node_for_segment: dict[str, str],
+    open_headings: list[_OpenHeading],
+) -> None:
+    bound_text = structure_numbers.numbered_title(pending.heading.number_path, heading_text)
+    canonical_label = structure_numbers.canonical_heading_label(bound_text)
+    bound = replace(pending.heading, canonical_label=canonical_label, title_bound=True)
+    _replace_node_heading(nodes, bound.node_id, bound_text, segment.evidence_ids)
+    open_headings[:] = [*pending.stack[:-1], bound]
+    node_for_segment[segment.segment_id] = bound.node_id
+
+
+def _replace_node_heading(
+    nodes: list[StructureNode], node_id: str, heading_text: str, evidence_ids: tuple[str, ...]
+) -> None:
+    for index, node in enumerate(nodes):
+        if node.structure_node_id != node_id:
+            continue
+        nodes[index] = replace(
+            node,
+            heading_text=heading_text,
+            evidence_ids=tuple(dict.fromkeys((*node.evidence_ids, *evidence_ids))),
+        )
+        return
+
+
+def _previous_node_id(open_headings: list[_OpenHeading], root_id: str) -> str:
+    for heading in reversed(open_headings):
+        if heading.title_bound or not heading.is_number_marker:
+            return heading.node_id
+    return root_id
+
+
+def _node_for_non_heading(
+    open_headings: list[_OpenHeading],
+    pending_markers: dict[tuple[int, ...], _PendingNumberMarker],
+    segment: SourceSegment,
+    root_id: str,
+) -> str:
+    if not open_headings:
+        return root_id
+    current = open_headings[-1]
+    if not current.is_number_marker or current.title_bound:
+        return current.node_id
+    pending = pending_markers.get(current.number_path)
+    if pending is None:
+        return current.node_id
+    if (
+        structure_numbers.heading_number_path(
+            structure_numbers.canonical_heading_label(segment.text)
+        )
+        == current.number_path
+    ):
+        return current.node_id
+    return pending.previous_node_id

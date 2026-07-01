@@ -8,7 +8,7 @@ updated: 2026-06-30
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-final-score-increase-0d82dff1@3c045f7d309105454aa14e1c7ed85a91
+projection_coverage: section-sword-world-rpg-complete-edition-section-final-score-increase-0d82dff1@9c7e586c27865d3df502e0d622e0bbd3
 ---
 
 # 《 Final Score Increase 》
@@ -17,7 +17,6 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-5-1-5-8bf319fe]] - broader source section: 5.1.5
 - [[sword-world-rpg-complete-edition-section-damage-expansion-e4ff56f7]] - previous source section: 《 Damage Expansion 》
 - [[sword-world-rpg-complete-edition-section-effect-expansion-b59d1d8c]] - next source section: 《 Effect Expansion 》
 
