@@ -6,13 +6,14 @@ from llmwiki.domain.ledger.atoms import TechnicalAtom
 from llmwiki.domain.ledger.canonical import short_digest
 from llmwiki.domain.ledger.entries import LedgerEntry
 from llmwiki.domain.ledger.ledger import ClaimLedger
+from llmwiki.domain.ledger.procedure_decisions import DecisionPoint
 from llmwiki.domain.ledger.procedures import (
+    PAGE_FAMILY_PROCEDURE_GUIDE,
     ProcedureGuide,
     atom_label,
     plan_procedure_guides,
     procedure_aliases,
 )
-from llmwiki.domain.ledger.projection_policy import PAGE_FAMILY_PROCEDURE_GUIDE
 from llmwiki.domain.ledger.structure import DocumentStructure
 from llmwiki.domain.pages import PageMetadata, WikiPage
 
@@ -31,13 +32,14 @@ def build_procedure_pages(
     pages: list[WikiPage] = []
     for guide in guides:
         body = render_procedure_page(guide, source_page_id)
+        decision_point_count = len(_rendered_decision_points(guide))
         metadata = PageMetadata(
             page_id=guide.procedure_id,
             page_kind="procedure",
             page_family=PAGE_FAMILY_PROCEDURE_GUIDE,
             summary=(
                 f"{guide.goal}: {len(guide.steps)} ordered step(s), "
-                f"{len(guide.decision_points)} decision point(s), and "
+                f"{decision_point_count} decision point(s), and "
                 f"{len(guide.technical_atoms)} table/formula/example reference(s) "
                 f"from raw/{source_locator}."
             ),
@@ -57,23 +59,19 @@ def render_procedure_page(guide: ProcedureGuide, source_page_id: str) -> str:
     lines = [f"# {guide.title}", "", f"From [[{source_page_id}]].", ""]
     lines.extend(("## Goal", "", f"- {guide.goal}.", ""))
     lines.extend(("## Procedure Steps", ""))
-    shown_claim_keys: set[tuple[str, str]] = set()
     for step in guide.steps:
         lines.append(
             f"{step.sequence}. **{step.title}** (`{step.action_type}`) - "
             f"evidence section [[{step.section_page_id}]]."
         )
         for claim in step.claims[:_MAX_STEP_CLAIMS]:
-            shown_claim_keys.add(_entry_key(claim))
             lines.append(f"   - {_entry_text(claim)} _({_citation(claim)})_")
     lines.append("")
-    decision_points = tuple(
-        entry for entry in guide.decision_points if _entry_key(entry) not in shown_claim_keys
-    )
+    decision_points = _rendered_decision_points(guide)
     if decision_points:
         lines.extend(("## Decision Points", ""))
-        for entry in decision_points[:8]:
-            lines.append(f"- {_entry_text(entry)} _({_citation(entry)})_")
+        for point in decision_points[:8]:
+            lines.append(f"- {_decision_text(point)} _({_decision_citation(point)})_")
         lines.append("")
     if guide.technical_atoms:
         lines.extend(("## Tables And Formulas", ""))
@@ -101,8 +99,39 @@ def _entry_text(entry: LedgerEntry) -> str:
     return (entry.normalized_text or entry.source_text).strip()
 
 
+def _decision_text(point: DecisionPoint) -> str:
+    return point.evidence_block.source_text
+
+
+def _rendered_decision_points(guide: ProcedureGuide) -> tuple[DecisionPoint, ...]:
+    shown_claim_keys = {
+        _entry_key(claim) for step in guide.steps for claim in step.claims[:_MAX_STEP_CLAIMS]
+    }
+    supporting_context_range_ids = _supporting_context_range_ids(guide.decision_points)
+    return tuple(
+        point
+        for point in guide.decision_points
+        if _entry_key(point.entry) not in shown_claim_keys
+        and point.entry.source_range_id not in supporting_context_range_ids
+    )
+
+
+def _supporting_context_range_ids(points: tuple[DecisionPoint, ...]) -> frozenset[str]:
+    return frozenset(
+        range_id
+        for point in points
+        for range_id in point.evidence_block.source_range_ids
+        if range_id != point.entry.source_range_id
+    )
+
+
 def _entry_key(entry: LedgerEntry) -> tuple[str, str]:
     return (entry.source_range_id, _entry_text(entry))
+
+
+def _decision_citation(point: DecisionPoint) -> str:
+    ranges = ", ".join(point.evidence_block.source_range_ids)
+    return f"{point.entry.source_locator} ({ranges})"
 
 
 def _citation(entry: LedgerEntry) -> str:

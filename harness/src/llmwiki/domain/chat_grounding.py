@@ -17,6 +17,8 @@ CHAT_GROUNDING_TOKEN_BUDGET = 3500
 CHAT_GROUNDING_HIT_LIMIT = 12
 
 _INDEX_LINK_RE = re.compile(r"\[\[([a-z0-9][a-z0-9-]*)\]\]")
+_ANY_WIKILINK_RE = re.compile(r"\[\[([^\]]+)\]\]")
+_PAGE_ID_RE = re.compile(r"[a-z0-9-]+(?:\|[^\]]+)?")
 _AGGREGATE_PAGE_FAMILIES = frozenset({"source-manifest", "broad-topic"})
 _FOCUSED_PAGE_FAMILIES = frozenset(
     {
@@ -101,6 +103,28 @@ class ChatResponseCitationPolicy:
     def response_decision(self, message: str) -> ChatResponseCitationDecision:
         if not self.read_page_ids:
             return ChatResponseCitationDecision(allowed=True)
+        malformed_links = _malformed_wikilinks(message)
+        if malformed_links:
+            examples = ", ".join(f"[[{link}]]" for link in sorted(malformed_links)[:3])
+            return ChatResponseCitationDecision(
+                allowed=False,
+                message=(
+                    "Use [[page-id]] links only for actual wiki page IDs read for "
+                    "this answer. Do not wrap table titles or labels in wiki links; "
+                    f"write them as plain text instead. Invalid link(s): {examples}."
+                ),
+            )
+        page_links = extract_links(message)
+        unread_links = page_links - self.read_page_ids
+        if unread_links:
+            examples = ", ".join(f"[[{link}]]" for link in sorted(unread_links)[:3])
+            return ChatResponseCitationDecision(
+                allowed=False,
+                message=(
+                    "Only cite wiki pages read for this answer. Remove unread "
+                    f"wiki link(s) or cite a read page instead: {examples}."
+                ),
+            )
         cited_read_pages = extract_links(message) & self.read_page_ids
         if cited_read_pages:
             return ChatResponseCitationDecision(allowed=True)
@@ -113,6 +137,12 @@ class ChatResponseCitationPolicy:
                 "enough because the chat answer must identify the wiki evidence page."
             ),
         )
+
+
+def _malformed_wikilinks(message: str) -> frozenset[str]:
+    return frozenset(
+        link for link in _ANY_WIKILINK_RE.findall(message) if _PAGE_ID_RE.fullmatch(link) is None
+    )
 
 
 @dataclass(frozen=True)
@@ -283,6 +313,7 @@ def render_grounded_user_message(
     *,
     index_text: str = "",
     search_results: str = "",
+    task_evidence_pack: str = "",
 ) -> str:
     if plan.include_index:
         return (
@@ -290,12 +321,25 @@ def render_grounded_user_message(
         )
     if plan.include_search_results:
         task_guidance = _task_guidance(plan.task_mode)
+        if task_evidence_pack.strip():
+            return (
+                "Initial wiki search results for the question. These are discovery "
+                "hints only. The deterministic task evidence pack below contains "
+                "already-read wiki page evidence and is the bounded evidence "
+                "surface for this task. Use the pack contents directly; do not "
+                "ask for read/search tools when the pack answers the question.\n\n"
+                f"{search_results}\n\n"
+                f"{task_guidance}"
+                f"\n\n{task_evidence_pack}\n\n"
+                f"Question: {question}"
+            )
         return (
             "Initial wiki search results for the question. These are discovery "
             "hints, not enough evidence for a substantive answer; read a "
             "relevant page before responding.\n\n"
             f"{search_results}\n\n"
             f"{task_guidance}"
+            "\n\n"
             f"Question: {question}"
         )
     return question
@@ -356,6 +400,10 @@ def _task_guidance(task_mode: ChatTaskMode) -> str:
     if task_mode is ChatTaskMode.EXECUTE_PROCEDURE:
         return (
             "Task intent: execute the relevant procedure, not merely summarize it. "
+            "If submit_procedure_execution is available, your next tool call should "
+            "be submit_procedure_execution with a typed ProcedureExecution built "
+            "from the deterministic task evidence pack. Include every required "
+            "step; use unresolved outputs instead of searching indefinitely. "
             "Read the best procedure page and any linked evidence pages needed for "
             "specific choices, tables, formulas, or constraints. If the user did not "
             "provide choices or random results, make explicit assumptions or use "
@@ -378,7 +426,12 @@ def _task_guidance(task_mode: ChatTaskMode) -> str:
     if task_mode is ChatTaskMode.EXPLAIN_PROCEDURE:
         return (
             "Task intent: explain the relevant procedure. Prefer procedure pages "
-            "when present, and cite the wiki pages read.\n\n"
+            "when present. Use the deterministic "
+            "task evidence pack when present as already-read wiki evidence. Walk "
+            "through each required step, name relevant tables/formulas/worked "
+            "examples, and cite the wiki pages named in the pack. Do not ask for "
+            "read/search tools and do not answer with a meta-summary that the "
+            "procedure exists; provide the procedure explanation now.\n\n"
         )
     return ""
 

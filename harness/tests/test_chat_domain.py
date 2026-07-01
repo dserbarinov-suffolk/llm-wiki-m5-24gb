@@ -145,8 +145,25 @@ class TestChatGrounding:
             search_results="[[book-procedure-create-character]]",
         )
         assert "Task intent: execute the relevant procedure" in message
+        assert "submit_procedure_execution" in message
         assert "not merely summarize it" in message
         assert "one concrete result or explicit unresolved note" in message
+
+    def test_task_evidence_pack_is_injected_as_bounded_evidence(self) -> None:
+        plan = plan_chat_grounding("actually create a device", grounded=False, has_window=False)
+
+        message = render_grounded_user_message(
+            "actually create a device",
+            plan,
+            search_results="[[device-procedure]]",
+            task_evidence_pack=(
+                "Deterministic task evidence pack:\n- Procedure: [[device-procedure]]"
+            ),
+        )
+
+        assert "bounded evidence surface" in message
+        assert "Deterministic task evidence pack" in message
+        assert "do not ask for read/search tools" in message
 
 
 class TestChatEvidenceScope:
@@ -207,6 +224,22 @@ class TestChatResponseCitationPolicy:
         assert not decision.allowed
         assert "[[book-section]]" in decision.message
         assert "Raw source citations alone are not enough" in decision.message
+
+    def test_rejects_non_page_wikilinks(self) -> None:
+        policy = ChatResponseCitationPolicy(frozenset({"book-section"}))
+
+        decision = policy.response_decision("Use [[Table 3: Core Sizes]] for the result.")
+
+        assert not decision.allowed
+        assert "Do not wrap table titles" in decision.message
+
+    def test_rejects_unread_page_wikilinks(self) -> None:
+        policy = ChatResponseCitationPolicy(frozenset({"book-section"}))
+
+        decision = policy.response_decision("See [[other-section]] for the result.")
+
+        assert not decision.allowed
+        assert "Only cite wiki pages read" in decision.message
 
 
 class TestChatPrompt:

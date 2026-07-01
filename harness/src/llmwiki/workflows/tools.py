@@ -30,6 +30,7 @@ from llmwiki.domain.pages import PageMetadata, WikiPage, parse_page
 from llmwiki.domain.retrieval import render_context_pack, retrieve_wiki_context
 from llmwiki.pdf.intermediate import OCR_MARKER
 from llmwiki.store import WikiStore, WikiStoreError
+from llmwiki.workflows.procedure_execution_tools import ProcedureExecutionState
 
 _READ_PAGE_DEFAULT_CHARS = 3_000
 _READ_PAGE_MAX_CHARS = 5_000
@@ -319,9 +320,21 @@ def grounded_chat_respond_tool(
     allow_index_response: bool = True,
     require_wiki_read: bool = True,
     require_read_page_citation: bool = False,
+    procedure_execution_state: ProcedureExecutionState | None = None,
+    require_procedure_execution: bool = False,
 ) -> ToolDef:
     def _respond(**kwargs: object) -> str:
         params = RespondParams(**kwargs)  # type: ignore[arg-type]
+        if (
+            require_procedure_execution
+            and procedure_execution_state is not None
+            and not procedure_execution_state.has_valid_execution
+        ):
+            raise WikiStoreError(
+                "Call submit_procedure_execution with a valid ProcedureExecution "
+                "before respond. A procedure execution answer must be validated "
+                "against the deterministic task evidence pack first."
+            )
         if missing_focus_reports:
             findings = _chat_response_findings(params.message)
             if findings:

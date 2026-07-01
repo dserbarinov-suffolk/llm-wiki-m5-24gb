@@ -108,6 +108,8 @@ def _validate_step(
 ) -> ProcedureExecutionValidation:
     if not step.title.strip():
         return _reject(f"Step {sequence} must include a title.")
+    if step.status not in {"completed", "partial", "unresolved"}:
+        return _reject(f"Step {sequence} has invalid status {step.status!r}.")
     if step.status == "unresolved" and not (step.note or step.outputs):
         return _reject(f"Step {sequence} is unresolved but has no note.")
     if step.status == "partial" and not (step.note or step.outputs):
@@ -136,6 +138,10 @@ def _validate_outputs(
     for output in outputs:
         if not output.name.strip():
             return _reject(f"Step {sequence} has an output without a name.")
+        if output.support not in {"evidence", "derived", "assumption", "unresolved"}:
+            return _reject(
+                f"Step {sequence} output {output.name!r} has invalid support {output.support!r}."
+            )
         unknown = sorted(set(output.evidence_page_ids) - set(evidence_texts))
         if unknown:
             return _reject(

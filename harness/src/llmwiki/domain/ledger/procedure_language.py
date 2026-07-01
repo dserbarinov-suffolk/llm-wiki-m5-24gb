@@ -12,7 +12,10 @@ _ACTION_PATTERNS: tuple[tuple[str, re.Pattern[str]], ...] = (
     ("allocate", re.compile(r"\b(spend|spending|allocate|increase|assign)\b", re.I)),
     ("acquire", re.compile(r"\b(purchase|purchasing|buy|acquire|get|obtain)\b", re.I)),
     ("record", re.compile(r"\b(write|record|fill|filling|note)\b", re.I)),
-    ("validate", re.compile(r"\b(check|verify|confirm|ensure|restrict|restriction)\b", re.I)),
+    (
+        "validate",
+        re.compile(r"\b(check|checks|verify|confirm|ensure|restrict|restriction)\b", re.I),
+    ),
     ("apply", re.compile(r"\b(apply|use|using)\b", re.I)),
     ("finalize", re.compile(r"\b(finalize|finish|complete)\b", re.I)),
 )
@@ -24,6 +27,10 @@ _TASK_NOUN = re.compile(
 _CONDITION = re.compile(r"\b(if|when|unless|except|whether|depending on whether)\b", re.I)
 _LEADING_NUMBER = re.compile(r"^\s*\d+(?:\.\d+)*\.?\s*")
 _ORDERED_HEADING = re.compile(r"^\s*\d+(?:\.\d+){1,}\s+")
+_STRUCTURAL_PREFIX = re.compile(
+    r"^(chapter|part|appendix|volume|book)\b(?:\s+[ivxlcdm\d]+)?\s*:?\s*(.*)$",
+    re.IGNORECASE,
+)
 
 
 def has_task_noun(text: str) -> bool:
@@ -42,11 +49,11 @@ def action_type(text: str) -> str:
 
 
 def is_step_heading(text: str) -> bool:
-    return bool(_ORDERED_HEADING.search(text) or action_type(text))
+    return bool(_ORDERED_HEADING.search(text))
 
 
 def goal_title(heading: str) -> str:
-    title = clean_title(heading)
+    title = _strip_structural_prefix(clean_title(heading))
     lower = title.lower()
     if lower.endswith(" creation"):
         return f"Create {title[:-9].strip()}"
@@ -75,3 +82,11 @@ def step_title(heading: str) -> str:
 def clean_title(text: str) -> str:
     cleaned = _LEADING_NUMBER.sub("", " ".join(text.replace("/", " ").split()))
     return cleaned.strip(" :-")
+
+
+def _strip_structural_prefix(title: str) -> str:
+    match = _STRUCTURAL_PREFIX.match(title)
+    if match is None:
+        return title
+    remainder = match.group(2).strip()
+    return remainder or title

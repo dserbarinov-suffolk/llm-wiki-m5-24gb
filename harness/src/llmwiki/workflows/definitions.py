@@ -18,9 +18,14 @@ from llmwiki.domain.claim_support import (
     ClaimSupportFinding,
     ClaimSupportVerdict,
 )
+from llmwiki.domain.task_evidence import TaskEvidencePack
 from llmwiki.store import WikiStore
 from llmwiki.workflows import prompts
 from llmwiki.workflows.claim_support_tools import record_claim_support_verdict_tool
+from llmwiki.workflows.procedure_execution_tools import (
+    ProcedureExecutionState,
+    submit_procedure_execution_tool,
+)
 from llmwiki.workflows.tools import (
     finish_tool,
     grounded_chat_respond_tool,
@@ -82,6 +87,8 @@ def build_chat_workflow(
     allow_index_response: bool = True,
     require_wiki_read: bool = True,
     evidence_scope: ChatEvidenceScope | None = None,
+    task_evidence_pack: TaskEvidencePack | None = None,
+    require_procedure_execution: bool = False,
 ) -> Workflow:
     """Read-only by construction: no write tool exists in this workflow.
 
@@ -93,25 +100,42 @@ def build_chat_workflow(
     a 14B).
     """
     missing_focus_reports: set[str] = set()
-    seen: set[str] = set()
-    tools = [
-        search_wiki_tool(store),
-        read_index_tool(store, read_tracker=seen),
-        inspect_page_tool(store, missing_focus_reports=missing_focus_reports),
-        read_page_tool(store, read_tracker=seen, evidence_scope=evidence_scope),
+    seen: set[str] = set(task_evidence_pack.page_ids if task_evidence_pack is not None else ())
+    procedure_execution_state = ProcedureExecutionState()
+    procedure_execution_required = require_procedure_execution and task_evidence_pack is not None
+    if procedure_execution_required:
+        assert task_evidence_pack is not None
+        tools = [
+            submit_procedure_execution_tool(
+                store,
+                task_evidence_pack,
+                read_tracker=seen,
+                state=procedure_execution_state,
+            )
+        ]
+    else:
+        tools = [
+            search_wiki_tool(store),
+            read_index_tool(store, read_tracker=seen),
+            inspect_page_tool(store, missing_focus_reports=missing_focus_reports),
+            read_page_tool(store, read_tracker=seen, evidence_scope=evidence_scope),
+        ]
+    tools.append(
         grounded_chat_respond_tool(
             missing_focus_reports,
             seen,
             allow_index_response=allow_index_response,
             require_wiki_read=require_wiki_read,
             require_read_page_citation=True,
-        ),
-    ]
+            procedure_execution_state=procedure_execution_state,
+            require_procedure_execution=procedure_execution_required,
+        )
+    )
     return Workflow(
         name="chat",
         description="Converse over the wiki (read-only).",
         tools={t.name: t for t in tools},
-        required_steps=[],
+        required_steps=["submit_procedure_execution"] if procedure_execution_required else [],
         terminal_tool="respond",
         system_prompt_template=prompts.CHAT_TEMPLATE,
     )

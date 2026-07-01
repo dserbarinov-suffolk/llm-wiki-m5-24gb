@@ -7,21 +7,38 @@ from dataclasses import dataclass
 from llmwiki.domain.ledger.atoms import TechnicalAtom, atom_raw_text
 from llmwiki.domain.ledger.entries import LedgerEntry
 from llmwiki.domain.ledger.ledger import ClaimLedger
+from llmwiki.domain.ledger.procedure_candidates import (
+    has_step_evidence,
+    is_unanchored_structural_container,
+    procedure_candidate_score,
+)
+from llmwiki.domain.ledger.procedure_decisions import DecisionPoint, plan_decision_points
+from llmwiki.domain.ledger.procedure_evidence_index import (
+    atoms_by_node,
+    entries_by_node,
+    rollup_atoms,
+    rollup_entries,
+    section_nodes,
+)
 from llmwiki.domain.ledger.procedure_language import (
     action_type,
     clean_title,
     goal_sentence,
     goal_title,
-    has_condition,
-    has_task_noun,
     is_step_heading,
     step_title,
+)
+from llmwiki.domain.ledger.procedure_state_flow import (
+    ProcedureStateFlow,
+    ProcedureStepEvidence,
+    build_procedure_state_flow,
 )
 from llmwiki.domain.ledger.section_navigation import section_page_id
 from llmwiki.domain.ledger.structure import DocumentStructure, StructureNode
 from llmwiki.domain.pages import slugify
 
-_SECTION_NODE_KINDS = {"chapter", "section", "heading"}
+PAGE_FAMILY_PROCEDURE_GUIDE = "procedure-guide"
+
 _MAX_PROCEDURE_PAGES = 64
 
 
@@ -30,8 +47,10 @@ class ProcedureStep:
     sequence: int
     title: str
     action_type: str
+    heading_action_type: str
     section_page_id: str
     claims: tuple[LedgerEntry, ...]
+    technical_atoms: tuple[TechnicalAtom, ...]
 
 
 @dataclass(frozen=True)
@@ -42,26 +61,38 @@ class ProcedureGuide:
     source_node: StructureNode
     source_section_page_id: str
     steps: tuple[ProcedureStep, ...]
-    decision_points: tuple[LedgerEntry, ...]
+    decision_points: tuple[DecisionPoint, ...]
     technical_atoms: tuple[TechnicalAtom, ...]
+    state_flow: ProcedureStateFlow
 
 
 def plan_procedure_guides(
     ledger: ClaimLedger, structure: DocumentStructure, *, source_page_id: str
 ) -> tuple[ProcedureGuide, ...]:
-    entries_by_node = _entries_by_node(ledger)
-    atoms_by_node = _atoms_by_node(ledger)
+    grouped_entries = entries_by_node(ledger)
+    grouped_atoms = atoms_by_node(ledger, structure)
     guides: list[ProcedureGuide] = []
-    for node in _section_nodes(structure):
-        entries = _rollup_entries(structure, entries_by_node, node)
-        atoms = _rollup_atoms(structure, atoms_by_node, node)
-        children = tuple(child for child in structure.children(node.structure_node_id))
-        steps = _steps_for_children(structure, entries_by_node, children, source_page_id)
-        if not has_task_noun(node.heading_text):
+    for node in section_nodes(structure):
+        direct_entries = grouped_entries.get(node.structure_node_id, ())
+        direct_atoms = grouped_atoms.get(node.structure_node_id, ())
+        if is_unanchored_structural_container(node, direct_entries, direct_atoms):
             continue
-        if _candidate_score(node, entries, atoms, steps) < 4:
+        entries = rollup_entries(structure, grouped_entries, node)
+        atoms = rollup_atoms(structure, grouped_atoms, node)
+        children = tuple(child for child in structure.children(node.structure_node_id))
+        steps = _steps_for_children(
+            structure,
+            grouped_entries,
+            grouped_atoms,
+            children,
+            source_page_id,
+        )
+        if _candidate_score(node.heading_text, entries, atoms, steps) < 6:
             continue
         if len(steps) < 2:
+            continue
+        state_flow = _state_flow(steps)
+        if not state_flow.has_state_flow:
             continue
         guides.append(
             ProcedureGuide(
@@ -71,8 +102,9 @@ def plan_procedure_guides(
                 source_node=node,
                 source_section_page_id=section_page_id(source_page_id, structure, node),
                 steps=steps,
-                decision_points=_decision_points(entries),
+                decision_points=plan_decision_points(entries, atoms, ledger.source_statements),
                 technical_atoms=_relevant_atoms(atoms),
+                state_flow=state_flow,
             )
         )
     guides.sort(key=lambda guide: (-len(guide.steps), guide.source_node.source_order))
@@ -87,7 +119,8 @@ def procedure_aliases(guide: ProcedureGuide) -> tuple[str, ...]:
 
 def _steps_for_children(
     structure: DocumentStructure,
-    entries_by_node: dict[str, tuple[LedgerEntry, ...]],
+    grouped_entries: dict[str, tuple[LedgerEntry, ...]],
+    grouped_atoms: dict[str, tuple[TechnicalAtom, ...]],
     children: tuple[StructureNode, ...],
     source_page_id: str,
 ) -> tuple[ProcedureStep, ...]:
@@ -95,116 +128,84 @@ def _steps_for_children(
     index = 0
     while index < len(children):
         child = children[index]
-        entries = _rollup_entries(structure, entries_by_node, child)
+        entries = rollup_entries(structure, grouped_entries, child)
+        atoms = rollup_atoms(structure, grouped_atoms, child)
         if not is_step_heading(child.heading_text):
             index += 1
             continue
         title_heading = _best_step_heading(structure, child)
         evidence_node = child
-        continuation = _next_heading_continuation(structure, entries_by_node, children, index)
+        continuation = _next_heading_continuation(
+            structure,
+            grouped_entries,
+            grouped_atoms,
+            children,
+            index,
+        )
         if not entries and continuation is not None:
-            entries = _rollup_entries(structure, entries_by_node, continuation)
+            entries = rollup_entries(structure, grouped_entries, continuation)
+            atoms = (*atoms, *rollup_atoms(structure, grouped_atoms, continuation))
             title_heading = f"{child.heading_text} {continuation.heading_text}"
             evidence_node = continuation
             index += 1
-        action = action_type(child.heading_text) or action_type(_entry_excerpt(entries))
-        if not action or not entries:
+        if not has_step_evidence(entries, atoms):
             index += 1
             continue
+        heading_action = action_type(child.heading_text)
+        action = heading_action or action_type(_entry_excerpt(entries)) or "step"
         steps.append(
             ProcedureStep(
                 sequence=len(steps) + 1,
                 title=step_title(title_heading),
                 action_type=action,
+                heading_action_type=heading_action,
                 section_page_id=section_page_id(source_page_id, structure, evidence_node),
                 claims=_unique_entries(entries),
+                technical_atoms=_unique_atoms(atoms),
             )
         )
         index += 1
     return tuple(steps)
 
 
+def _state_flow(steps: tuple[ProcedureStep, ...]) -> ProcedureStateFlow:
+    return build_procedure_state_flow(
+        tuple(
+            ProcedureStepEvidence(
+                sequence=step.sequence,
+                title=step.title,
+                action_type=step.action_type,
+                heading_action_type=step.heading_action_type,
+                claim_texts=tuple(_entry_text(entry) for entry in step.claims),
+                claim_role_tags=tuple(
+                    tag for entry in step.claims for tag in entry.claim_role_tags
+                ),
+                technical_atom_kinds=tuple(
+                    atom.technical_atom_kind for atom in step.technical_atoms
+                ),
+                technical_atom_texts=tuple(
+                    atom_raw_text(atom.payload) for atom in step.technical_atoms
+                ),
+            )
+            for step in steps
+        )
+    )
+
+
 def _candidate_score(
-    node: StructureNode,
+    heading_text: str,
     entries: tuple[LedgerEntry, ...],
     atoms: tuple[TechnicalAtom, ...],
     steps: tuple[ProcedureStep, ...],
 ) -> int:
-    text = f"{node.heading_text} {' '.join(_entry_text(entry) for entry in entries[:12])}"
-    action_types = {step.action_type for step in steps}
-    score = len(steps)
-    if has_task_noun(node.heading_text):
-        score += 2
-    if len(action_types) >= 3:
-        score += 2
-    if any(
-        "procedure" in entry.claim_role_tags or "method" in entry.claim_role_tags
-        for entry in entries
-    ):
-        score += 1
-    if any(atom.technical_atom_kind in {"table", "formula", "procedure"} for atom in atoms):
-        score += 1
-    if has_condition(text):
-        score += 1
-    return score
-
-
-def _section_nodes(structure: DocumentStructure) -> tuple[StructureNode, ...]:
-    return tuple(
-        node
-        for node in sorted(structure.structure_nodes, key=lambda item: item.source_order)
-        if node.structure_node_kind in _SECTION_NODE_KINDS and node.structure_node_kind != "root"
+    return procedure_candidate_score(
+        heading_text=heading_text,
+        entry_texts=tuple(_entry_text(entry) for entry in entries),
+        entries=entries,
+        atoms=atoms,
+        step_action_types=tuple(step.action_type for step in steps),
+        step_count=len(steps),
     )
-
-
-def _entries_by_node(ledger: ClaimLedger) -> dict[str, tuple[LedgerEntry, ...]]:
-    grouped: dict[str, list[LedgerEntry]] = {}
-    for entry in ledger.usable_entries:
-        if entry.ledger_entry_kind == "technical-atom":
-            continue
-        if entry.structure_node_ids:
-            grouped.setdefault(entry.structure_node_ids[0], []).append(entry)
-    return {node_id: tuple(entries) for node_id, entries in grouped.items()}
-
-
-def _atoms_by_node(ledger: ClaimLedger) -> dict[str, tuple[TechnicalAtom, ...]]:
-    grouped: dict[str, list[TechnicalAtom]] = {}
-    for entry in ledger.usable_entries:
-        if entry.ledger_entry_kind != "technical-atom" or not entry.technical_atom_id:
-            continue
-        atom = ledger.atom(entry.technical_atom_id)
-        if atom is None or not entry.structure_node_ids:
-            continue
-        grouped.setdefault(entry.structure_node_ids[0], []).append(atom)
-    return {node_id: tuple(atoms) for node_id, atoms in grouped.items()}
-
-
-def _rollup_entries(
-    structure: DocumentStructure,
-    entries_by_node: dict[str, tuple[LedgerEntry, ...]],
-    node: StructureNode,
-) -> tuple[LedgerEntry, ...]:
-    node_ids = (
-        node.structure_node_id,
-        *(child.structure_node_id for child in structure.descendants(node.structure_node_id)),
-    )
-    return tuple(entry for node_id in node_ids for entry in entries_by_node.get(node_id, ()))
-
-
-def _rollup_atoms(
-    structure: DocumentStructure,
-    atoms_by_node: dict[str, tuple[TechnicalAtom, ...]],
-    node: StructureNode,
-) -> tuple[TechnicalAtom, ...]:
-    node_ids = (
-        node.structure_node_id,
-        *(child.structure_node_id for child in structure.descendants(node.structure_node_id)),
-    )
-    return tuple(atom for node_id in node_ids for atom in atoms_by_node.get(node_id, ()))
-
-
-def _decision_points(entries: tuple[LedgerEntry, ...]) -> tuple[LedgerEntry, ...]:
-    return _unique_entries(tuple(entry for entry in entries if has_condition(_entry_text(entry))))
 
 
 def _relevant_atoms(atoms: tuple[TechnicalAtom, ...]) -> tuple[TechnicalAtom, ...]:
@@ -257,7 +258,8 @@ def _best_step_heading(structure: DocumentStructure, node: StructureNode) -> str
 
 def _next_heading_continuation(
     structure: DocumentStructure,
-    entries_by_node: dict[str, tuple[LedgerEntry, ...]],
+    grouped_entries: dict[str, tuple[LedgerEntry, ...]],
+    grouped_atoms: dict[str, tuple[TechnicalAtom, ...]],
     children: tuple[StructureNode, ...],
     index: int,
 ) -> StructureNode | None:
@@ -266,8 +268,9 @@ def _next_heading_continuation(
     candidate = children[index + 1]
     if not _is_heading_fragment(candidate):
         return None
-    entries = _rollup_entries(structure, entries_by_node, candidate)
-    return candidate if entries else None
+    entries = rollup_entries(structure, grouped_entries, candidate)
+    atoms = rollup_atoms(structure, grouped_atoms, candidate)
+    return candidate if has_step_evidence(entries, atoms) else None
 
 
 def _is_heading_fragment(node: StructureNode) -> bool:
@@ -280,7 +283,11 @@ def _entry_excerpt(entries: tuple[LedgerEntry, ...]) -> str:
 
 
 def _entry_text(entry: LedgerEntry) -> str:
-    return (entry.normalized_text or entry.source_text).strip()
+    normalized = entry.normalized_text.strip()
+    source = entry.source_text.strip()
+    if source and len(normalized.split()) < 3:
+        return source
+    return normalized or source
 
 
 def atom_label(atom: TechnicalAtom) -> str:

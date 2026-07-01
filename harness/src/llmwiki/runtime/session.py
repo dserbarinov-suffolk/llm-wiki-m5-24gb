@@ -19,6 +19,7 @@ from forge.core.runner import WorkflowRunner
 
 from llmwiki.domain.chat_grounding import (
     ChatEvidenceScope,
+    ChatTaskMode,
     plan_chat_grounding,
     render_grounded_user_message,
 )
@@ -55,6 +56,7 @@ from llmwiki.domain.planning import (
 )
 from llmwiki.domain.salience import compute_salience
 from llmwiki.domain.search import render_hits, search_pages
+from llmwiki.domain.task_evidence import build_task_evidence_pack
 from llmwiki.pdf import PdfError
 from llmwiki.pdf.document import DocumentModel
 from llmwiki.pdf.pipeline import (
@@ -372,15 +374,32 @@ class Session:
         index_text = self.store.read_index() if grounding_plan.include_index else ""
         search_results = ""
         evidence_scope: ChatEvidenceScope | None = None
+        task_evidence_pack_text = ""
+        task_evidence_pack = None
+        procedure_execution_required = False
         if grounding_plan.include_search_results:
             hits = search_pages(pages, question)
             search_results = render_hits(hits)
             evidence_scope = ChatEvidenceScope.from_search_hits(pages, hits)
+            task_evidence_pack = build_task_evidence_pack(
+                pages,
+                hits,
+                task_mode=grounding_plan.task_mode,
+            )
+            if task_evidence_pack is not None:
+                procedure_execution_required = (
+                    grounding_plan.task_mode is ChatTaskMode.EXECUTE_PROCEDURE
+                )
+                task_evidence_pack_text = task_evidence_pack.render(
+                    require_procedure_execution=procedure_execution_required
+                )
         workflow = build_chat_workflow(
             self.store,
             allow_index_response=grounding_plan.allow_index_response,
             require_wiki_read=grounding_plan.require_wiki_read,
             evidence_scope=evidence_scope,
+            task_evidence_pack=task_evidence_pack,
+            require_procedure_execution=procedure_execution_required,
         )
         rendered = workflow.build_system_prompt(schema=self.store.read_schema())
         seed = [Message(MessageRole.SYSTEM, rendered, MessageMeta(MessageType.SYSTEM_PROMPT))]
@@ -396,6 +415,7 @@ class Session:
             grounding_plan,
             index_text=index_text,
             search_results=search_results,
+            task_evidence_pack=task_evidence_pack_text,
         )
         seed.append(Message(MessageRole.USER, message, MessageMeta(MessageType.USER_INPUT)))
         return await self._run(workflow, message, "chat", tag=tag, initial_messages=seed)
