@@ -4,7 +4,7 @@ page_kind: concept
 summary: Damage: 3 statement(s) and 5 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: topic-concept
 sources: raw/Sword World RPG - Complete Edition.pdf
-updated: 2026-07-01
+updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: concepts
 projection_coverage: topic-sword-world-rpg-complete-edition-damage@c5b0113dc0bcb7f7418c30b0a4d3387d

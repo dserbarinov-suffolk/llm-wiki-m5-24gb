@@ -20,6 +20,13 @@ from llmwiki.domain.ledger.artifacts import (
 from llmwiki.domain.ledger.canonical import canonical_json
 from llmwiki.domain.ledger.knowledge_shapes import KnowledgeShapeCatalog
 from llmwiki.domain.ledger.section_planning import SectionGroundedPlan
+from llmwiki.domain.ledger.staged_contracts import (
+    LedgerExtractionResult,
+    ProjectionLintRun,
+    PublishRun,
+    SourcePlan,
+    StagedWikiPageSet,
+)
 from llmwiki.domain.ledger.topic_models import TopicIndex
 
 
@@ -43,6 +50,11 @@ def build_serialized_artifact_bundle(
     topic_index: TopicIndex,
     source_coverage_artifact: SourceCoverageArtifact | None,
     blocked: BlockedWriteDiagnosticArtifact | None,
+    source_plan: SourcePlan,
+    extraction_result: LedgerExtractionResult,
+    staged_page_set: StagedWikiPageSet,
+    lint_run: ProjectionLintRun,
+    publish_run: PublishRun,
 ) -> SerializedLedgerArtifacts:
     members = _artifact_members(
         ds_artifact,
@@ -56,6 +68,11 @@ def build_serialized_artifact_bundle(
         knowledge_shape_catalog,
         source_coverage_artifact,
         blocked,
+        source_plan,
+        extraction_result,
+        staged_page_set,
+        lint_run,
+        publish_run,
     )
     artifact_files = _artifact_files(
         ds_artifact,
@@ -70,6 +87,11 @@ def build_serialized_artifact_bundle(
         topic_index,
         source_coverage_artifact,
         blocked,
+        source_plan,
+        extraction_result,
+        staged_page_set,
+        lint_run,
+        publish_run,
     )
     manifest = build_portable_artifact_set(tuple(members))
     artifact_files["portable-artifact-set.json"] = canonical_json(manifest, indent=2)
@@ -88,6 +110,11 @@ def _artifact_members(
     knowledge_shape_catalog: KnowledgeShapeCatalog,
     source_coverage_artifact: SourceCoverageArtifact | None,
     blocked: BlockedWriteDiagnosticArtifact | None,
+    source_plan: SourcePlan,
+    extraction_result: LedgerExtractionResult,
+    staged_page_set: StagedWikiPageSet,
+    lint_run: ProjectionLintRun,
+    publish_run: PublishRun,
 ) -> list[PortableArtifactMember]:
     members = [
         _member(
@@ -135,6 +162,31 @@ def _artifact_members(
             knowledge_shape_catalog.knowledge_shape_catalog_id,
             knowledge_shape_catalog.knowledge_shape_catalog_fingerprint,
         ),
+        _member(
+            "source-plan-artifact",
+            source_plan.source_plan_id,
+            source_plan.source_plan_fingerprint,
+        ),
+        _member(
+            "extraction-result-artifact",
+            extraction_result.extraction_result_id,
+            extraction_result.extraction_result_fingerprint,
+        ),
+        _member(
+            "staged-wiki-page-set-artifact",
+            staged_page_set.staged_page_set_id,
+            staged_page_set.staged_page_set_fingerprint,
+        ),
+        _member(
+            "projection-lint-run-artifact",
+            lint_run.lint_run_id,
+            lint_run.lint_run_fingerprint,
+        ),
+        _member(
+            "publish-run-artifact",
+            publish_run.publish_run_id,
+            publish_run.publish_run_fingerprint,
+        ),
     ]
     if source_coverage_artifact is not None:
         members.append(
@@ -168,6 +220,11 @@ def _artifact_files(
     topic_index: TopicIndex,
     source_coverage_artifact: SourceCoverageArtifact | None,
     blocked: BlockedWriteDiagnosticArtifact | None,
+    source_plan: SourcePlan,
+    extraction_result: LedgerExtractionResult,
+    staged_page_set: StagedWikiPageSet,
+    lint_run: ProjectionLintRun,
+    publish_run: PublishRun,
 ) -> dict[str, str]:
     artifact_files = {
         "document-structure.json": canonical_json(ds_artifact, indent=2),
@@ -180,6 +237,11 @@ def _artifact_files(
         "section-plan.json": canonical_json(section_plan, indent=2),
         "knowledge-shapes.json": canonical_json(knowledge_shape_catalog, indent=2),
         "topics.json": canonical_json(topic_index, indent=2),
+        "source-plan.json": canonical_json(source_plan, indent=2),
+        "extraction-result.json": canonical_json(extraction_result, indent=2),
+        "staged-pages.json": canonical_json(staged_page_set, indent=2),
+        "lint-run.json": canonical_json(lint_run, indent=2),
+        "publish-run.json": canonical_json(publish_run, indent=2),
     }
     if source_coverage_artifact is not None:
         artifact_files["source-coverage.json"] = canonical_json(source_coverage_artifact, indent=2)

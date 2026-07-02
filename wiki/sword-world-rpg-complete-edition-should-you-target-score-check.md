@@ -4,7 +4,7 @@ page_kind: concept
 summary: Should You Target Score Check: 3 statement(s) and 2 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: topic-concept
 sources: raw/Sword World RPG - Complete Edition.pdf
-updated: 2026-07-01
+updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: concepts
 projection_coverage: topic-sword-world-rpg-complete-edition-should-you-target-score-check@761d10f2185b9aac872b7e3f525b55c2

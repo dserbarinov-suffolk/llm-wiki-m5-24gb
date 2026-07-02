@@ -2,6 +2,11 @@
   "edges": [
     {
       "resolved": true,
+      "source": "antikythera-mechanism-section-the-antikythera-mechanism-759d40e0",
+      "target": "antikythera-mechanism"
+    },
+    {
+      "resolved": true,
       "source": "javascriptallonge",
       "target": "javascriptallonge-recipe-a-history-lesson"
     },
@@ -23,12 +28,12 @@
     {
       "resolved": true,
       "source": "javascriptallonge",
-      "target": "javascriptallonge-recipe-applying-functions"
+      "target": "javascriptallonge-recipe-and-are-control-flow-operators"
     },
     {
       "resolved": true,
       "source": "javascriptallonge",
-      "target": "javascriptallonge-recipe-are-consts-also-from-a-shadowy-planet"
+      "target": "javascriptallonge-recipe-applying-functions"
     },
     {
       "resolved": true,
@@ -59,6 +64,16 @@
       "resolved": true,
       "source": "javascriptallonge",
       "target": "javascriptallonge-recipe-call-by-sharing"
+    },
+    {
+      "resolved": true,
+      "source": "javascriptallonge",
+      "target": "javascriptallonge-recipe-call-by-value"
+    },
+    {
+      "resolved": true,
+      "source": "javascriptallonge",
+      "target": "javascriptallonge-recipe-combinators"
     },
     {
       "resolved": true,
@@ -103,6 +118,11 @@
     {
       "resolved": true,
       "source": "javascriptallonge",
+      "target": "javascriptallonge-recipe-defaults-and-destructuring"
+    },
+    {
+      "resolved": true,
+      "source": "javascriptallonge",
       "target": "javascriptallonge-recipe-destructuring-arrays"
     },
     {
@@ -133,7 +153,17 @@
     {
       "resolved": true,
       "source": "javascriptallonge",
+      "target": "javascriptallonge-recipe-evaluation-time"
+    },
+    {
+      "resolved": true,
+      "source": "javascriptallonge",
       "target": "javascriptallonge-recipe-factorials"
+    },
+    {
+      "resolved": true,
+      "source": "javascriptallonge",
+      "target": "javascriptallonge-recipe-flipping-methods"
     },
     {
       "resolved": true,
@@ -168,6 +198,16 @@
     {
       "resolved": true,
       "source": "javascriptallonge",
+      "target": "javascriptallonge-recipe-function-parameters-are-eager"
+    },
+    {
+      "resolved": true,
+      "source": "javascriptallonge",
+      "target": "javascriptallonge-recipe-functions-and-identities"
+    },
+    {
+      "resolved": true,
+      "source": "javascriptallonge",
       "target": "javascriptallonge-recipe-functions-that-evaluate-to-functions"
     },
     {
@@ -189,6 +229,11 @@
       "resolved": true,
       "source": "javascriptallonge",
       "target": "javascriptallonge-recipe-generators-are-coroutines"
+    },
+    {
+      "resolved": true,
+      "source": "javascriptallonge",
+      "target": "javascriptallonge-recipe-higher-order-functions"
     },
     {
       "resolved": true,
@@ -308,12 +353,22 @@
     {
       "resolved": true,
       "source": "javascriptallonge",
+      "target": "javascriptallonge-recipe-operations-on-numbers"
+    },
+    {
+      "resolved": true,
+      "source": "javascriptallonge",
       "target": "javascriptallonge-recipe-operations-on-ordered-collections"
     },
     {
       "resolved": true,
       "source": "javascriptallonge",
       "target": "javascriptallonge-recipe-ordered-collections"
+    },
+    {
+      "resolved": true,
+      "source": "javascriptallonge",
+      "target": "javascriptallonge-recipe-overcoming-limitations"
     },
     {
       "resolved": true,
@@ -368,6 +423,11 @@
     {
       "resolved": true,
       "source": "javascriptallonge",
+      "target": "javascriptallonge-recipe-self-currying-flip"
+    },
+    {
+      "resolved": true,
+      "source": "javascriptallonge",
       "target": "javascriptallonge-recipe-shadowy-variables-from-a-shadowy-planet"
     },
     {
@@ -408,6 +468,11 @@
     {
       "resolved": true,
       "source": "javascriptallonge",
+      "target": "javascriptallonge-recipe-the-problem"
+    },
+    {
+      "resolved": true,
+      "source": "javascriptallonge",
       "target": "javascriptallonge-recipe-the-vireo"
     },
     {
@@ -443,6 +508,11 @@
     {
       "resolved": true,
       "source": "javascriptallonge",
+      "target": "javascriptallonge-recipe-value-types"
+    },
+    {
+      "resolved": true,
+      "source": "javascriptallonge",
       "target": "javascriptallonge-recipe-var"
     },
     {
@@ -453,27 +523,12 @@
     {
       "resolved": true,
       "source": "javascriptallonge",
-      "target": "javascriptallonge-recipe-why"
+      "target": "javascriptallonge-recipe-void"
     },
     {
       "resolved": true,
       "source": "javascriptallonge",
       "target": "javascriptallonge-recipe-why-const-and-let-were-invented"
-    },
-    {
-      "resolved": true,
-      "source": "javascriptallonge",
-      "target": "javascriptallonge-recipe-why-the-six-edition"
-    },
-    {
-      "resolved": true,
-      "source": "javascriptallonge",
-      "target": "javascriptallonge-recipe-will-be-represented-as"
-    },
-    {
-      "resolved": true,
-      "source": "javascriptallonge",
-      "target": "javascriptallonge-recipe-yes-consider-this-variation"
     },
     {
       "resolved": true,
@@ -3822,6 +3877,16 @@
     },
     {
       "resolved": true,
+      "source": "javascriptallonge-recipe-and-are-control-flow-operators",
+      "target": "javascriptallonge"
+    },
+    {
+      "resolved": true,
+      "source": "javascriptallonge-recipe-and-are-control-flow-operators",
+      "target": "javascriptallonge-section-picking-the-bean-choice-and-truthiness-and-are-control-flow-operators-e907a1ef"
+    },
+    {
+      "resolved": true,
       "source": "javascriptallonge-recipe-applying-functions",
       "target": "javascriptallonge"
     },
@@ -3829,16 +3894,6 @@
       "resolved": true,
       "source": "javascriptallonge-recipe-applying-functions",
       "target": "javascriptallonge-section-the-first-sip-basic-functions-as-little-as-possible-about-functions-but-no-less-applying-functio-fa7923f6"
-    },
-    {
-      "resolved": true,
-      "source": "javascriptallonge-recipe-are-consts-also-from-a-shadowy-planet",
-      "target": "javascriptallonge"
-    },
-    {
-      "resolved": true,
-      "source": "javascriptallonge-recipe-are-consts-also-from-a-shadowy-planet",
-      "target": "javascriptallonge-section-and-also-that-constant-coffee-craving-are-consts-also-from-a-shadowy-planet-f4ab49ce"
     },
     {
       "resolved": true,
@@ -3899,6 +3954,26 @@
       "resolved": true,
       "source": "javascriptallonge-recipe-call-by-sharing",
       "target": "javascriptallonge-section-and-also-call-by-sharing-db439a98"
+    },
+    {
+      "resolved": true,
+      "source": "javascriptallonge-recipe-call-by-value",
+      "target": "javascriptallonge"
+    },
+    {
+      "resolved": true,
+      "source": "javascriptallonge-recipe-call-by-value",
+      "target": "javascriptallonge-section-and-also-ah-i-d-like-to-have-an-argument-please-22-call-by-value-2ee5c091"
+    },
+    {
+      "resolved": true,
+      "source": "javascriptallonge-recipe-combinators",
+      "target": "javascriptallonge"
+    },
+    {
+      "resolved": true,
+      "source": "javascriptallonge-recipe-combinators",
+      "target": "javascriptallonge-section-and-also-combinators-and-function-decorators-combinators-d366528a"
     },
     {
       "resolved": true,
@@ -3982,6 +4057,16 @@
     },
     {
       "resolved": true,
+      "source": "javascriptallonge-recipe-defaults-and-destructuring",
+      "target": "javascriptallonge"
+    },
+    {
+      "resolved": true,
+      "source": "javascriptallonge-recipe-defaults-and-destructuring",
+      "target": "javascriptallonge-section-composing-and-decomposing-data-defaults-and-destructuring-cd5ea708"
+    },
+    {
+      "resolved": true,
       "source": "javascriptallonge-recipe-destructuring-arrays",
       "target": "javascriptallonge"
     },
@@ -4042,6 +4127,16 @@
     },
     {
       "resolved": true,
+      "source": "javascriptallonge-recipe-evaluation-time",
+      "target": "javascriptallonge"
+    },
+    {
+      "resolved": true,
+      "source": "javascriptallonge-recipe-evaluation-time",
+      "target": "javascriptallonge-section-a-warm-cup-basic-strings-and-quasi-literals-evaluation-time-1634aeef"
+    },
+    {
+      "resolved": true,
       "source": "javascriptallonge-recipe-factorials",
       "target": "javascriptallonge"
     },
@@ -4049,6 +4144,16 @@
       "resolved": true,
       "source": "javascriptallonge-recipe-factorials",
       "target": "javascriptallonge-section-composing-and-decomposing-data-factorials-48d5d159"
+    },
+    {
+      "resolved": true,
+      "source": "javascriptallonge-recipe-flipping-methods",
+      "target": "javascriptallonge"
+    },
+    {
+      "resolved": true,
+      "source": "javascriptallonge-recipe-flipping-methods",
+      "target": "javascriptallonge-section-recipes-with-data-flip-flipping-methods-f076629f"
     },
     {
       "resolved": true,
@@ -4112,6 +4217,26 @@
     },
     {
       "resolved": true,
+      "source": "javascriptallonge-recipe-function-parameters-are-eager",
+      "target": "javascriptallonge"
+    },
+    {
+      "resolved": true,
+      "source": "javascriptallonge-recipe-function-parameters-are-eager",
+      "target": "javascriptallonge-section-picking-the-bean-choice-and-truthiness-function-parameters-are-eager-fbbf2d6a"
+    },
+    {
+      "resolved": true,
+      "source": "javascriptallonge-recipe-functions-and-identities",
+      "target": "javascriptallonge"
+    },
+    {
+      "resolved": true,
+      "source": "javascriptallonge-recipe-functions-and-identities",
+      "target": "javascriptallonge-section-the-first-sip-basic-functions-as-little-as-possible-about-functions-but-no-less-functions-and-id-3a5543a3"
+    },
+    {
+      "resolved": true,
       "source": "javascriptallonge-recipe-functions-that-evaluate-to-functions",
       "target": "javascriptallonge"
     },
@@ -4159,6 +4284,16 @@
       "resolved": true,
       "source": "javascriptallonge-recipe-generators-are-coroutines",
       "target": "javascriptallonge-section-served-by-the-pot-collections-generating-iterables-generators-are-coroutines-e97b031c"
+    },
+    {
+      "resolved": true,
+      "source": "javascriptallonge-recipe-higher-order-functions",
+      "target": "javascriptallonge"
+    },
+    {
+      "resolved": true,
+      "source": "javascriptallonge-recipe-higher-order-functions",
+      "target": "javascriptallonge-section-and-also-combinators-and-function-decorators-higher-order-functions-15759c94"
     },
     {
       "resolved": true,
@@ -4392,6 +4527,16 @@
     },
     {
       "resolved": true,
+      "source": "javascriptallonge-recipe-operations-on-numbers",
+      "target": "javascriptallonge"
+    },
+    {
+      "resolved": true,
+      "source": "javascriptallonge-recipe-operations-on-numbers",
+      "target": "javascriptallonge-section-a-rich-aroma-basic-numbers-operations-on-numbers-1b9984ae"
+    },
+    {
+      "resolved": true,
       "source": "javascriptallonge-recipe-operations-on-ordered-collections",
       "target": "javascriptallonge"
     },
@@ -4409,6 +4554,16 @@
       "resolved": true,
       "source": "javascriptallonge-recipe-ordered-collections",
       "target": "javascriptallonge-section-served-by-the-pot-collections-iteration-and-iterables-ordered-collections-3e509cbd"
+    },
+    {
+      "resolved": true,
+      "source": "javascriptallonge-recipe-overcoming-limitations",
+      "target": "javascriptallonge"
+    },
+    {
+      "resolved": true,
+      "source": "javascriptallonge-recipe-overcoming-limitations",
+      "target": "javascriptallonge-section-recipes-with-basic-functions-left-variadic-functions-overcoming-limitations-ba6c5a7e"
     },
     {
       "resolved": true,
@@ -4512,6 +4667,16 @@
     },
     {
       "resolved": true,
+      "source": "javascriptallonge-recipe-self-currying-flip",
+      "target": "javascriptallonge"
+    },
+    {
+      "resolved": true,
+      "source": "javascriptallonge-recipe-self-currying-flip",
+      "target": "javascriptallonge-section-recipes-with-data-flip-self-currying-flip-419bc9f2"
+    },
+    {
+      "resolved": true,
       "source": "javascriptallonge-recipe-shadowy-variables-from-a-shadowy-planet",
       "target": "javascriptallonge"
     },
@@ -4592,6 +4757,16 @@
     },
     {
       "resolved": true,
+      "source": "javascriptallonge-recipe-the-problem",
+      "target": "javascriptallonge"
+    },
+    {
+      "resolved": true,
+      "source": "javascriptallonge-recipe-the-problem",
+      "target": "javascriptallonge-section-interlude-the-carpenter-interviews-for-a-job-the-problem-010bfba1"
+    },
+    {
+      "resolved": true,
       "source": "javascriptallonge-recipe-the-vireo",
       "target": "javascriptallonge"
     },
@@ -4662,6 +4837,16 @@
     },
     {
       "resolved": true,
+      "source": "javascriptallonge-recipe-value-types",
+      "target": "javascriptallonge"
+    },
+    {
+      "resolved": true,
+      "source": "javascriptallonge-recipe-value-types",
+      "target": "javascriptallonge-section-prelude-values-and-expressions-over-coffee-values-are-expressions-value-types-eb75a9e8"
+    },
+    {
+      "resolved": true,
       "source": "javascriptallonge-recipe-var",
       "target": "javascriptallonge"
     },
@@ -4682,13 +4867,13 @@
     },
     {
       "resolved": true,
-      "source": "javascriptallonge-recipe-why",
+      "source": "javascriptallonge-recipe-void",
       "target": "javascriptallonge"
     },
     {
       "resolved": true,
-      "source": "javascriptallonge-recipe-why",
-      "target": "javascriptallonge-section-recipes-with-data-why-3f8e67cf"
+      "source": "javascriptallonge-recipe-void",
+      "target": "javascriptallonge-section-or-even-void-fe958725"
     },
     {
       "resolved": true,
@@ -4699,36 +4884,6 @@
       "resolved": true,
       "source": "javascriptallonge-recipe-why-const-and-let-were-invented",
       "target": "javascriptallonge-section-reassignment-why-const-and-let-were-invented-d4d91fa1"
-    },
-    {
-      "resolved": true,
-      "source": "javascriptallonge-recipe-why-the-six-edition",
-      "target": "javascriptallonge"
-    },
-    {
-      "resolved": true,
-      "source": "javascriptallonge-recipe-why-the-six-edition",
-      "target": "javascriptallonge-section-a-pull-of-the-lever-prefaces-about-javascript-allong-why-the-six-edition-35c3fb78"
-    },
-    {
-      "resolved": true,
-      "source": "javascriptallonge-recipe-will-be-represented-as",
-      "target": "javascriptallonge"
-    },
-    {
-      "resolved": true,
-      "source": "javascriptallonge-recipe-will-be-represented-as",
-      "target": "javascriptallonge-section-interactive-generators-representing-naughts-and-crosses-as-a-stateless-function-will-be-represen-f1dabfc6"
-    },
-    {
-      "resolved": true,
-      "source": "javascriptallonge-recipe-yes-consider-this-variation",
-      "target": "javascriptallonge"
-    },
-    {
-      "resolved": true,
-      "source": "javascriptallonge-recipe-yes-consider-this-variation",
-      "target": "javascriptallonge-section-yes-consider-this-variation-db4ad8a2"
     },
     {
       "resolved": true,
@@ -9748,87 +9903,7 @@
     {
       "resolved": true,
       "source": "sword-world-rpg-complete-edition",
-      "target": "sword-world-rpg-complete-edition-procedure-horse"
-    },
-    {
-      "resolved": true,
-      "source": "sword-world-rpg-complete-edition",
       "target": "sword-world-rpg-complete-edition-procedure-unconscious-and-death-checks"
-    },
-    {
-      "resolved": true,
-      "source": "sword-world-rpg-complete-edition",
-      "target": "sword-world-rpg-complete-edition-recipe-18-1-rules-for-awarding-greater-experience-points"
-    },
-    {
-      "resolved": true,
-      "source": "sword-world-rpg-complete-edition",
-      "target": "sword-world-rpg-complete-edition-recipe-3-2-1-delaying-an-action"
-    },
-    {
-      "resolved": true,
-      "source": "sword-world-rpg-complete-edition",
-      "target": "sword-world-rpg-complete-edition-recipe-3-2-action-order"
-    },
-    {
-      "resolved": true,
-      "source": "sword-world-rpg-complete-edition",
-      "target": "sword-world-rpg-complete-edition-recipe-area"
-    },
-    {
-      "resolved": true,
-      "source": "sword-world-rpg-complete-edition",
-      "target": "sword-world-rpg-complete-edition-recipe-boomerang"
-    },
-    {
-      "resolved": true,
-      "source": "sword-world-rpg-complete-edition",
-      "target": "sword-world-rpg-complete-edition-recipe-folklore-knowledge-intelligence-not-retriable"
-    },
-    {
-      "resolved": true,
-      "source": "sword-world-rpg-complete-edition",
-      "target": "sword-world-rpg-complete-edition-recipe-full-control-spirit-various-lesser-spirits"
-    },
-    {
-      "resolved": true,
-      "source": "sword-world-rpg-complete-edition",
-      "target": "sword-world-rpg-complete-edition-recipe-how-to-read-the-monster-catalog"
-    },
-    {
-      "resolved": true,
-      "source": "sword-world-rpg-complete-edition",
-      "target": "sword-world-rpg-complete-edition-recipe-perception"
-    },
-    {
-      "resolved": true,
-      "source": "sword-world-rpg-complete-edition",
-      "target": "sword-world-rpg-complete-edition-recipe-protective-circle"
-    },
-    {
-      "resolved": true,
-      "source": "sword-world-rpg-complete-edition",
-      "target": "sword-world-rpg-complete-edition-recipe-reaction"
-    },
-    {
-      "resolved": true,
-      "source": "sword-world-rpg-complete-edition",
-      "target": "sword-world-rpg-complete-edition-recipe-riding-agility"
-    },
-    {
-      "resolved": true,
-      "source": "sword-world-rpg-complete-edition",
-      "target": "sword-world-rpg-complete-edition-recipe-rules-for-sleeping-monsters"
-    },
-    {
-      "resolved": true,
-      "source": "sword-world-rpg-complete-edition",
-      "target": "sword-world-rpg-complete-edition-recipe-swim-agility"
-    },
-    {
-      "resolved": true,
-      "source": "sword-world-rpg-complete-edition",
-      "target": "sword-world-rpg-complete-edition-recipe-the-meaning-of-the-rulebook"
     },
     {
       "resolved": true,
@@ -11642,61 +11717,6 @@
     },
     {
       "resolved": true,
-      "source": "sword-world-rpg-complete-edition-procedure-horse",
-      "target": "sword-world-rpg-complete-edition"
-    },
-    {
-      "resolved": true,
-      "source": "sword-world-rpg-complete-edition-procedure-horse",
-      "target": "sword-world-rpg-complete-edition-section-13-2-6-mythical-beasts-and-magical-beasts-horse-13-2-10-magical-creatures-0e88a6a0"
-    },
-    {
-      "resolved": true,
-      "source": "sword-world-rpg-complete-edition-procedure-horse",
-      "target": "sword-world-rpg-complete-edition-section-13-2-6-mythical-beasts-and-magical-beasts-horse-13-2-11-daemons-underworld-creatures-692da0bd"
-    },
-    {
-      "resolved": true,
-      "source": "sword-world-rpg-complete-edition-procedure-horse",
-      "target": "sword-world-rpg-complete-edition-section-13-2-6-mythical-beasts-and-magical-beasts-horse-13-2-12-humans-b1a222f1"
-    },
-    {
-      "resolved": true,
-      "source": "sword-world-rpg-complete-edition-procedure-horse",
-      "target": "sword-world-rpg-complete-edition-section-13-2-6-mythical-beasts-and-magical-beasts-horse-13-2-13-other-1185d157"
-    },
-    {
-      "resolved": true,
-      "source": "sword-world-rpg-complete-edition-procedure-horse",
-      "target": "sword-world-rpg-complete-edition-section-13-2-6-mythical-beasts-and-magical-beasts-horse-13-2-8-plants-6ae09235"
-    },
-    {
-      "resolved": true,
-      "source": "sword-world-rpg-complete-edition-procedure-horse",
-      "target": "sword-world-rpg-complete-edition-section-13-2-6-mythical-beasts-and-magical-beasts-horse-13-3-converting-character-data-to-monster-data-3a448e24"
-    },
-    {
-      "resolved": true,
-      "source": "sword-world-rpg-complete-edition-procedure-horse",
-      "target": "sword-world-rpg-complete-edition-section-13-2-6-mythical-beasts-and-magical-beasts-horse-13-4-representing-special-monsters-with-characte-a07b5e34"
-    },
-    {
-      "resolved": true,
-      "source": "sword-world-rpg-complete-edition-procedure-horse",
-      "target": "sword-world-rpg-complete-edition-section-13-2-6-mythical-beasts-and-magical-beasts-horse-13-5-monster-level-and-adventurer-level-ee4c9cb3"
-    },
-    {
-      "resolved": true,
-      "source": "sword-world-rpg-complete-edition-procedure-horse",
-      "target": "sword-world-rpg-complete-edition-section-13-2-6-mythical-beasts-and-magical-beasts-horse-13-6-handling-monster-special-abilities-11888df1"
-    },
-    {
-      "resolved": true,
-      "source": "sword-world-rpg-complete-edition-procedure-horse",
-      "target": "sword-world-rpg-complete-edition-section-13-2-6-mythical-beasts-and-magical-beasts-horse-9c294c60"
-    },
-    {
-      "resolved": true,
       "source": "sword-world-rpg-complete-edition-procedure-unconscious-and-death-checks",
       "target": "sword-world-rpg-complete-edition"
     },
@@ -11824,156 +11844,6 @@
       "resolved": true,
       "source": "sword-world-rpg-complete-edition-ray",
       "target": "sword-world-rpg-complete-edition-gaze"
-    },
-    {
-      "resolved": true,
-      "source": "sword-world-rpg-complete-edition-recipe-18-1-rules-for-awarding-greater-experience-points",
-      "target": "sword-world-rpg-complete-edition"
-    },
-    {
-      "resolved": true,
-      "source": "sword-world-rpg-complete-edition-recipe-18-1-rules-for-awarding-greater-experience-points",
-      "target": "sword-world-rpg-complete-edition-section-18-1-rules-for-awarding-greater-experience-points-7c15cfe5"
-    },
-    {
-      "resolved": true,
-      "source": "sword-world-rpg-complete-edition-recipe-3-2-1-delaying-an-action",
-      "target": "sword-world-rpg-complete-edition"
-    },
-    {
-      "resolved": true,
-      "source": "sword-world-rpg-complete-edition-recipe-3-2-1-delaying-an-action",
-      "target": "sword-world-rpg-complete-edition-section-chapter-3-3-2-1-delaying-an-action-98203a92"
-    },
-    {
-      "resolved": true,
-      "source": "sword-world-rpg-complete-edition-recipe-3-2-action-order",
-      "target": "sword-world-rpg-complete-edition"
-    },
-    {
-      "resolved": true,
-      "source": "sword-world-rpg-complete-edition-recipe-3-2-action-order",
-      "target": "sword-world-rpg-complete-edition-section-chapter-3-3-2-action-order-0a8e2138"
-    },
-    {
-      "resolved": true,
-      "source": "sword-world-rpg-complete-edition-recipe-area",
-      "target": "sword-world-rpg-complete-edition"
-    },
-    {
-      "resolved": true,
-      "source": "sword-world-rpg-complete-edition-recipe-area",
-      "target": "sword-world-rpg-complete-edition-section-sample-magic-details-area-6a47f6c1"
-    },
-    {
-      "resolved": true,
-      "source": "sword-world-rpg-complete-edition-recipe-boomerang",
-      "target": "sword-world-rpg-complete-edition"
-    },
-    {
-      "resolved": true,
-      "source": "sword-world-rpg-complete-edition-recipe-boomerang",
-      "target": "sword-world-rpg-complete-edition-section-chapter-16-16-9-special-weapons-boomerang-c239f583"
-    },
-    {
-      "resolved": true,
-      "source": "sword-world-rpg-complete-edition-recipe-folklore-knowledge-intelligence-not-retriable",
-      "target": "sword-world-rpg-complete-edition"
-    },
-    {
-      "resolved": true,
-      "source": "sword-world-rpg-complete-edition-recipe-folklore-knowledge-intelligence-not-retriable",
-      "target": "sword-world-rpg-complete-edition-section-chapter-6-bard-skill-medicines-intelligence-appraisal-only-not-retriable-folklore-knowledge-inte-1a2021b3"
-    },
-    {
-      "resolved": true,
-      "source": "sword-world-rpg-complete-edition-recipe-full-control-spirit-various-lesser-spirits",
-      "target": "sword-world-rpg-complete-edition"
-    },
-    {
-      "resolved": true,
-      "source": "sword-world-rpg-complete-edition-recipe-full-control-spirit-various-lesser-spirits",
-      "target": "sword-world-rpg-complete-edition-section-5-1-14-spirit-magic-list-magic-list-full-control-spirit-various-lesser-spirits-e38f7396"
-    },
-    {
-      "resolved": true,
-      "source": "sword-world-rpg-complete-edition-recipe-how-to-read-the-monster-catalog",
-      "target": "sword-world-rpg-complete-edition"
-    },
-    {
-      "resolved": true,
-      "source": "sword-world-rpg-complete-edition-recipe-how-to-read-the-monster-catalog",
-      "target": "sword-world-rpg-complete-edition-section-13-2-1-humans-monster-catalog-how-to-read-the-monster-catalog-35efd787"
-    },
-    {
-      "resolved": true,
-      "source": "sword-world-rpg-complete-edition-recipe-perception",
-      "target": "sword-world-rpg-complete-edition"
-    },
-    {
-      "resolved": true,
-      "source": "sword-world-rpg-complete-edition-recipe-perception",
-      "target": "sword-world-rpg-complete-edition-section-13-2-1-humans-perception-55f8f7ca"
-    },
-    {
-      "resolved": true,
-      "source": "sword-world-rpg-complete-edition-recipe-protective-circle",
-      "target": "sword-world-rpg-complete-edition"
-    },
-    {
-      "resolved": true,
-      "source": "sword-world-rpg-complete-edition-recipe-protective-circle",
-      "target": "sword-world-rpg-complete-edition-section-4th-level-basic-holy-magic-list-cure-disease-protective-circle-eab62bcf"
-    },
-    {
-      "resolved": true,
-      "source": "sword-world-rpg-complete-edition-recipe-reaction",
-      "target": "sword-world-rpg-complete-edition"
-    },
-    {
-      "resolved": true,
-      "source": "sword-world-rpg-complete-edition-recipe-reaction",
-      "target": "sword-world-rpg-complete-edition-section-13-2-1-humans-reaction-ea4ee40f"
-    },
-    {
-      "resolved": true,
-      "source": "sword-world-rpg-complete-edition-recipe-riding-agility",
-      "target": "sword-world-rpg-complete-edition"
-    },
-    {
-      "resolved": true,
-      "source": "sword-world-rpg-complete-edition-recipe-riding-agility",
-      "target": "sword-world-rpg-complete-edition-section-chapter-6-common-adventurer-abilities-riding-agility-84a32022"
-    },
-    {
-      "resolved": true,
-      "source": "sword-world-rpg-complete-edition-recipe-rules-for-sleeping-monsters",
-      "target": "sword-world-rpg-complete-edition"
-    },
-    {
-      "resolved": true,
-      "source": "sword-world-rpg-complete-edition-recipe-rules-for-sleeping-monsters",
-      "target": "sword-world-rpg-complete-edition-section-10-5-attacks-against-the-sleeping-rules-for-sleeping-monsters-21c2f8ac"
-    },
-    {
-      "resolved": true,
-      "source": "sword-world-rpg-complete-edition-recipe-swim-agility",
-      "target": "sword-world-rpg-complete-edition"
-    },
-    {
-      "resolved": true,
-      "source": "sword-world-rpg-complete-edition-recipe-swim-agility",
-      "target": "sword-world-rpg-complete-edition-section-chapter-6-common-adventurer-abilities-swim-agility-fd4642f2"
-    },
-    {
-      "resolved": true,
-      "source": "sword-world-rpg-complete-edition-recipe-the-meaning-of-the-rulebook",
-      "target": "sword-world-rpg-complete-edition"
-    },
-    {
-      "resolved": true,
-      "source": "sword-world-rpg-complete-edition-recipe-the-meaning-of-the-rulebook",
-      "target": "sword-world-rpg-complete-edition-section-the-meaning-of-the-rulebook-910ef587"
     },
     {
       "resolved": true,
@@ -38687,12 +38557,32 @@
     }
   ],
   "metadata": {
-    "generated_date": "2026-07-01",
+    "generated_date": "2026-07-02",
     "generator": "llmwiki.graph.v1",
     "schema_version": 1,
     "system_pages": "excluded"
   },
   "nodes": [
+    {
+      "category": "source",
+      "name": "antikythera-mechanism",
+      "outbound_links": [],
+      "sources": [
+        "raw/antikythera-mechanism.md"
+      ],
+      "summary": "Claim-ledger projection (history): 10 usable entries, 0 technical atoms, 0 needs-review, 1 linked page(s); write decision write-authoritative-page."
+    },
+    {
+      "category": "source",
+      "name": "antikythera-mechanism-section-the-antikythera-mechanism-759d40e0",
+      "outbound_links": [
+        "antikythera-mechanism"
+      ],
+      "sources": [
+        "raw/antikythera-mechanism.md"
+      ],
+      "summary": "The Antikythera Mechanism: 10 source-backed entries and 0 atom(s) from raw/antikythera-mechanism.md."
+    },
     {
       "category": "source",
       "name": "javascriptallonge",
@@ -38701,14 +38591,16 @@
         "javascriptallonge-recipe-a-look-back-at-functional-iterators",
         "javascriptallonge-recipe-a-return-to-backward-thinking",
         "javascriptallonge-recipe-after-another-drink",
+        "javascriptallonge-recipe-and-are-control-flow-operators",
         "javascriptallonge-recipe-applying-functions",
-        "javascriptallonge-recipe-are-consts-also-from-a-shadowy-planet",
         "javascriptallonge-recipe-array-literals",
         "javascriptallonge-recipe-back-on-the-block",
         "javascriptallonge-recipe-backwardness",
         "javascriptallonge-recipe-bonus",
         "javascriptallonge-recipe-building-with-mutation",
         "javascriptallonge-recipe-call-by-sharing",
+        "javascriptallonge-recipe-call-by-value",
+        "javascriptallonge-recipe-combinators",
         "javascriptallonge-recipe-commas",
         "javascriptallonge-recipe-composition",
         "javascriptallonge-recipe-const",
@@ -38717,24 +38609,30 @@
         "javascriptallonge-recipe-copy-on-read",
         "javascriptallonge-recipe-copy-on-write",
         "javascriptallonge-recipe-default-arguments",
+        "javascriptallonge-recipe-defaults-and-destructuring",
         "javascriptallonge-recipe-destructuring-arrays",
         "javascriptallonge-recipe-destructuring-is-not-pattern-matching",
         "javascriptallonge-recipe-destructuring-objects",
         "javascriptallonge-recipe-destructuring-parameters",
         "javascriptallonge-recipe-eager-collections",
         "javascriptallonge-recipe-element-references",
+        "javascriptallonge-recipe-evaluation-time",
         "javascriptallonge-recipe-factorials",
+        "javascriptallonge-recipe-flipping-methods",
         "javascriptallonge-recipe-floating",
         "javascriptallonge-recipe-folding",
         "javascriptallonge-recipe-from",
         "javascriptallonge-recipe-function-declaration-caveats-34",
         "javascriptallonge-recipe-function-declarations",
         "javascriptallonge-recipe-function-decorators",
+        "javascriptallonge-recipe-function-parameters-are-eager",
+        "javascriptallonge-recipe-functions-and-identities",
         "javascriptallonge-recipe-functions-that-evaluate-to-functions",
         "javascriptallonge-recipe-functions-that-return-values-and-evaluate-expressions",
         "javascriptallonge-recipe-gathering",
         "javascriptallonge-recipe-generators-and-iterables",
         "javascriptallonge-recipe-generators-are-coroutines",
+        "javascriptallonge-recipe-higher-order-functions",
         "javascriptallonge-recipe-how-to-run-the-examples",
         "javascriptallonge-recipe-implementing-methods-with-iteration",
         "javascriptallonge-recipe-inside-out",
@@ -38758,8 +38656,10 @@
         "javascriptallonge-recipe-nested-blocks",
         "javascriptallonge-recipe-object-assign",
         "javascriptallonge-recipe-once",
+        "javascriptallonge-recipe-operations-on-numbers",
         "javascriptallonge-recipe-operations-on-ordered-collections",
         "javascriptallonge-recipe-ordered-collections",
+        "javascriptallonge-recipe-overcoming-limitations",
         "javascriptallonge-recipe-partial-application",
         "javascriptallonge-recipe-partial-application-80bc1196",
         "javascriptallonge-recipe-quasi-literals",
@@ -38770,6 +38670,7 @@
         "javascriptallonge-recipe-revisiting-linked-lists",
         "javascriptallonge-recipe-rewriting-iterable-operations",
         "javascriptallonge-recipe-say-please",
+        "javascriptallonge-recipe-self-currying-flip",
         "javascriptallonge-recipe-shadowy-variables-from-a-shadowy-planet",
         "javascriptallonge-recipe-some-history",
         "javascriptallonge-recipe-tail-call-optimization",
@@ -38778,6 +38679,7 @@
         "javascriptallonge-recipe-the-function-keyword",
         "javascriptallonge-recipe-the-function-keyword-b21492ad",
         "javascriptallonge-recipe-the-kestrel-and-the-idiot",
+        "javascriptallonge-recipe-the-problem",
         "javascriptallonge-recipe-the-vireo",
         "javascriptallonge-recipe-tortoises-hares-and-teleporting-turtles",
         "javascriptallonge-recipe-truthiness-and-operators",
@@ -38785,19 +38687,17 @@
         "javascriptallonge-recipe-unary",
         "javascriptallonge-recipe-undefined",
         "javascriptallonge-recipe-unfolding-and-laziness",
+        "javascriptallonge-recipe-value-types",
         "javascriptallonge-recipe-var",
         "javascriptallonge-recipe-variables-and-bindings",
-        "javascriptallonge-recipe-why",
+        "javascriptallonge-recipe-void",
         "javascriptallonge-recipe-why-const-and-let-were-invented",
-        "javascriptallonge-recipe-why-the-six-edition",
-        "javascriptallonge-recipe-will-be-represented-as",
-        "javascriptallonge-recipe-yes-consider-this-variation",
         "javascriptallonge-recipe-yielding-iterables"
       ],
       "sources": [
         "raw/javascriptallonge.pdf"
       ],
-      "summary": "Claim-ledger projection (coding): 2043 usable entries, 661 technical atoms, 373 needs-review, 382 linked page(s); write decision write-with-review-work."
+      "summary": "Claim-ledger projection (coding): 2043 usable entries, 661 technical atoms, 373 needs-review, 392 linked page(s); write decision write-with-review-work."
     },
     {
       "category": "concept",
@@ -40179,6 +40079,18 @@
     },
     {
       "category": "recipe",
+      "name": "javascriptallonge-recipe-and-are-control-flow-operators",
+      "outbound_links": [
+        "javascriptallonge",
+        "javascriptallonge-section-picking-the-bean-choice-and-truthiness-and-are-control-flow-operators-e907a1ef"
+      ],
+      "sources": [
+        "raw/javascriptallonge.pdf"
+      ],
+      "summary": "|| and && are control-flow operators: reusable source-backed pattern with 3 statement(s) and 1 technical atom(s) from raw/javascriptallonge.pdf."
+    },
+    {
+      "category": "recipe",
       "name": "javascriptallonge-recipe-applying-functions",
       "outbound_links": [
         "javascriptallonge",
@@ -40188,18 +40100,6 @@
         "raw/javascriptallonge.pdf"
       ],
       "summary": "applying functions: reusable source-backed pattern with 4 statement(s) and 2 technical atom(s) from raw/javascriptallonge.pdf."
-    },
-    {
-      "category": "recipe",
-      "name": "javascriptallonge-recipe-are-consts-also-from-a-shadowy-planet",
-      "outbound_links": [
-        "javascriptallonge",
-        "javascriptallonge-section-and-also-that-constant-coffee-craving-are-consts-also-from-a-shadowy-planet-f4ab49ce"
-      ],
-      "sources": [
-        "raw/javascriptallonge.pdf"
-      ],
-      "summary": "are consts also from a shadowy planet?: reusable source-backed pattern with 16 statement(s) and 10 technical atom(s) from raw/javascriptallonge.pdf."
     },
     {
       "category": "recipe",
@@ -40272,6 +40172,30 @@
         "raw/javascriptallonge.pdf"
       ],
       "summary": "call by sharing: reusable source-backed pattern with 11 statement(s) and 1 technical atom(s) from raw/javascriptallonge.pdf."
+    },
+    {
+      "category": "recipe",
+      "name": "javascriptallonge-recipe-call-by-value",
+      "outbound_links": [
+        "javascriptallonge",
+        "javascriptallonge-section-and-also-ah-i-d-like-to-have-an-argument-please-22-call-by-value-2ee5c091"
+      ],
+      "sources": [
+        "raw/javascriptallonge.pdf"
+      ],
+      "summary": "call by value: reusable source-backed pattern with 3 statement(s) and 1 technical atom(s) from raw/javascriptallonge.pdf."
+    },
+    {
+      "category": "recipe",
+      "name": "javascriptallonge-recipe-combinators",
+      "outbound_links": [
+        "javascriptallonge",
+        "javascriptallonge-section-and-also-combinators-and-function-decorators-combinators-d366528a"
+      ],
+      "sources": [
+        "raw/javascriptallonge.pdf"
+      ],
+      "summary": "combinators: reusable source-backed pattern with 3 statement(s) and 1 technical atom(s) from raw/javascriptallonge.pdf."
     },
     {
       "category": "recipe",
@@ -40371,6 +40295,18 @@
     },
     {
       "category": "recipe",
+      "name": "javascriptallonge-recipe-defaults-and-destructuring",
+      "outbound_links": [
+        "javascriptallonge",
+        "javascriptallonge-section-composing-and-decomposing-data-defaults-and-destructuring-cd5ea708"
+      ],
+      "sources": [
+        "raw/javascriptallonge.pdf"
+      ],
+      "summary": "defaults and destructuring: reusable source-backed pattern with 2 statement(s) and 1 technical atom(s) from raw/javascriptallonge.pdf."
+    },
+    {
+      "category": "recipe",
       "name": "javascriptallonge-recipe-destructuring-arrays",
       "outbound_links": [
         "javascriptallonge",
@@ -40443,6 +40379,18 @@
     },
     {
       "category": "recipe",
+      "name": "javascriptallonge-recipe-evaluation-time",
+      "outbound_links": [
+        "javascriptallonge",
+        "javascriptallonge-section-a-warm-cup-basic-strings-and-quasi-literals-evaluation-time-1634aeef"
+      ],
+      "sources": [
+        "raw/javascriptallonge.pdf"
+      ],
+      "summary": "evaluation time: reusable source-backed pattern with 3 statement(s) and 2 technical atom(s) from raw/javascriptallonge.pdf."
+    },
+    {
+      "category": "recipe",
       "name": "javascriptallonge-recipe-factorials",
       "outbound_links": [
         "javascriptallonge",
@@ -40452,6 +40400,18 @@
         "raw/javascriptallonge.pdf"
       ],
       "summary": "factorials: reusable source-backed pattern with 4 statement(s) and 4 technical atom(s) from raw/javascriptallonge.pdf."
+    },
+    {
+      "category": "recipe",
+      "name": "javascriptallonge-recipe-flipping-methods",
+      "outbound_links": [
+        "javascriptallonge",
+        "javascriptallonge-section-recipes-with-data-flip-flipping-methods-f076629f"
+      ],
+      "sources": [
+        "raw/javascriptallonge.pdf"
+      ],
+      "summary": "flipping methods: reusable source-backed pattern with 1 statement(s) and 1 technical atom(s) from raw/javascriptallonge.pdf."
     },
     {
       "category": "recipe",
@@ -40527,6 +40487,30 @@
     },
     {
       "category": "recipe",
+      "name": "javascriptallonge-recipe-function-parameters-are-eager",
+      "outbound_links": [
+        "javascriptallonge",
+        "javascriptallonge-section-picking-the-bean-choice-and-truthiness-function-parameters-are-eager-fbbf2d6a"
+      ],
+      "sources": [
+        "raw/javascriptallonge.pdf"
+      ],
+      "summary": "function parameters are eager: reusable source-backed pattern with 3 statement(s) and 2 technical atom(s) from raw/javascriptallonge.pdf."
+    },
+    {
+      "category": "recipe",
+      "name": "javascriptallonge-recipe-functions-and-identities",
+      "outbound_links": [
+        "javascriptallonge",
+        "javascriptallonge-section-the-first-sip-basic-functions-as-little-as-possible-about-functions-but-no-less-functions-and-id-3a5543a3"
+      ],
+      "sources": [
+        "raw/javascriptallonge.pdf"
+      ],
+      "summary": "functions and identities: reusable source-backed pattern with 4 statement(s) and 1 technical atom(s) from raw/javascriptallonge.pdf."
+    },
+    {
+      "category": "recipe",
       "name": "javascriptallonge-recipe-functions-that-evaluate-to-functions",
       "outbound_links": [
         "javascriptallonge",
@@ -40584,6 +40568,18 @@
         "raw/javascriptallonge.pdf"
       ],
       "summary": "generators are coroutines: reusable source-backed pattern with 22 statement(s) and 2 technical atom(s) from raw/javascriptallonge.pdf."
+    },
+    {
+      "category": "recipe",
+      "name": "javascriptallonge-recipe-higher-order-functions",
+      "outbound_links": [
+        "javascriptallonge",
+        "javascriptallonge-section-and-also-combinators-and-function-decorators-higher-order-functions-15759c94"
+      ],
+      "sources": [
+        "raw/javascriptallonge.pdf"
+      ],
+      "summary": "higher-order functions: reusable source-backed pattern with 3 statement(s) and 1 technical atom(s) from raw/javascriptallonge.pdf."
     },
     {
       "category": "recipe",
@@ -40863,6 +40859,18 @@
     },
     {
       "category": "recipe",
+      "name": "javascriptallonge-recipe-operations-on-numbers",
+      "outbound_links": [
+        "javascriptallonge",
+        "javascriptallonge-section-a-rich-aroma-basic-numbers-operations-on-numbers-1b9984ae"
+      ],
+      "sources": [
+        "raw/javascriptallonge.pdf"
+      ],
+      "summary": "operations on numbers: reusable source-backed pattern with 4 statement(s) and 1 technical atom(s) from raw/javascriptallonge.pdf."
+    },
+    {
+      "category": "recipe",
       "name": "javascriptallonge-recipe-operations-on-ordered-collections",
       "outbound_links": [
         "javascriptallonge",
@@ -40884,6 +40892,18 @@
         "raw/javascriptallonge.pdf"
       ],
       "summary": "ordered collections: reusable source-backed pattern with 9 statement(s) and 2 technical atom(s) from raw/javascriptallonge.pdf."
+    },
+    {
+      "category": "recipe",
+      "name": "javascriptallonge-recipe-overcoming-limitations",
+      "outbound_links": [
+        "javascriptallonge",
+        "javascriptallonge-section-recipes-with-basic-functions-left-variadic-functions-overcoming-limitations-ba6c5a7e"
+      ],
+      "sources": [
+        "raw/javascriptallonge.pdf"
+      ],
+      "summary": "overcoming limitations: reusable source-backed pattern with 2 statement(s) and 3 technical atom(s) from raw/javascriptallonge.pdf."
     },
     {
       "category": "recipe",
@@ -41007,6 +41027,18 @@
     },
     {
       "category": "recipe",
+      "name": "javascriptallonge-recipe-self-currying-flip",
+      "outbound_links": [
+        "javascriptallonge",
+        "javascriptallonge-section-recipes-with-data-flip-self-currying-flip-419bc9f2"
+      ],
+      "sources": [
+        "raw/javascriptallonge.pdf"
+      ],
+      "summary": "self-currying flip: reusable source-backed pattern with 1 statement(s) and 1 technical atom(s) from raw/javascriptallonge.pdf."
+    },
+    {
+      "category": "recipe",
       "name": "javascriptallonge-recipe-shadowy-variables-from-a-shadowy-planet",
       "outbound_links": [
         "javascriptallonge",
@@ -41103,6 +41135,18 @@
     },
     {
       "category": "recipe",
+      "name": "javascriptallonge-recipe-the-problem",
+      "outbound_links": [
+        "javascriptallonge",
+        "javascriptallonge-section-interlude-the-carpenter-interviews-for-a-job-the-problem-010bfba1"
+      ],
+      "sources": [
+        "raw/javascriptallonge.pdf"
+      ],
+      "summary": "the problem: reusable source-backed pattern with 7 statement(s) and 1 technical atom(s) from raw/javascriptallonge.pdf."
+    },
+    {
+      "category": "recipe",
       "name": "javascriptallonge-recipe-the-vireo",
       "outbound_links": [
         "javascriptallonge",
@@ -41187,6 +41231,18 @@
     },
     {
       "category": "recipe",
+      "name": "javascriptallonge-recipe-value-types",
+      "outbound_links": [
+        "javascriptallonge",
+        "javascriptallonge-section-prelude-values-and-expressions-over-coffee-values-are-expressions-value-types-eb75a9e8"
+      ],
+      "sources": [
+        "raw/javascriptallonge.pdf"
+      ],
+      "summary": "value types: reusable source-backed pattern with 6 statement(s) and 1 technical atom(s) from raw/javascriptallonge.pdf."
+    },
+    {
+      "category": "recipe",
       "name": "javascriptallonge-recipe-var",
       "outbound_links": [
         "javascriptallonge",
@@ -41211,15 +41267,15 @@
     },
     {
       "category": "recipe",
-      "name": "javascriptallonge-recipe-why",
+      "name": "javascriptallonge-recipe-void",
       "outbound_links": [
         "javascriptallonge",
-        "javascriptallonge-section-recipes-with-data-why-3f8e67cf"
+        "javascriptallonge-section-or-even-void-fe958725"
       ],
       "sources": [
         "raw/javascriptallonge.pdf"
       ],
-      "summary": "Why?: reusable source-backed pattern with 6 statement(s) and 3 technical atom(s) from raw/javascriptallonge.pdf."
+      "summary": "void: reusable source-backed pattern with 3 statement(s) and 1 technical atom(s) from raw/javascriptallonge.pdf."
     },
     {
       "category": "recipe",
@@ -41232,42 +41288,6 @@
         "raw/javascriptallonge.pdf"
       ],
       "summary": "why const and let were invented: reusable source-backed pattern with 10 statement(s) and 1 technical atom(s) from raw/javascriptallonge.pdf."
-    },
-    {
-      "category": "recipe",
-      "name": "javascriptallonge-recipe-why-the-six-edition",
-      "outbound_links": [
-        "javascriptallonge",
-        "javascriptallonge-section-a-pull-of-the-lever-prefaces-about-javascript-allong-why-the-six-edition-35c3fb78"
-      ],
-      "sources": [
-        "raw/javascriptallonge.pdf"
-      ],
-      "summary": "why the 'six' edition?: reusable source-backed pattern with 15 statement(s) and 6 technical atom(s) from raw/javascriptallonge.pdf."
-    },
-    {
-      "category": "recipe",
-      "name": "javascriptallonge-recipe-will-be-represented-as",
-      "outbound_links": [
-        "javascriptallonge",
-        "javascriptallonge-section-interactive-generators-representing-naughts-and-crosses-as-a-stateless-function-will-be-represen-f1dabfc6"
-      ],
-      "sources": [
-        "raw/javascriptallonge.pdf"
-      ],
-      "summary": "Will be represented as: reusable source-backed pattern with 2 statement(s) and 3 technical atom(s) from raw/javascriptallonge.pdf."
-    },
-    {
-      "category": "recipe",
-      "name": "javascriptallonge-recipe-yes-consider-this-variation",
-      "outbound_links": [
-        "javascriptallonge",
-        "javascriptallonge-section-yes-consider-this-variation-db4ad8a2"
-      ],
-      "sources": [
-        "raw/javascriptallonge.pdf"
-      ],
-      "summary": "Yes. Consider this variation: reusable source-backed pattern with 9 statement(s) and 6 technical atom(s) from raw/javascriptallonge.pdf."
     },
     {
       "category": "recipe",
@@ -44476,28 +44496,12 @@
         "sword-world-rpg-complete-edition-procedure-create-character",
         "sword-world-rpg-complete-edition-procedure-difficulty-checks",
         "sword-world-rpg-complete-edition-procedure-excellent-weapons-and-armor",
-        "sword-world-rpg-complete-edition-procedure-horse",
-        "sword-world-rpg-complete-edition-procedure-unconscious-and-death-checks",
-        "sword-world-rpg-complete-edition-recipe-18-1-rules-for-awarding-greater-experience-points",
-        "sword-world-rpg-complete-edition-recipe-3-2-1-delaying-an-action",
-        "sword-world-rpg-complete-edition-recipe-3-2-action-order",
-        "sword-world-rpg-complete-edition-recipe-area",
-        "sword-world-rpg-complete-edition-recipe-boomerang",
-        "sword-world-rpg-complete-edition-recipe-folklore-knowledge-intelligence-not-retriable",
-        "sword-world-rpg-complete-edition-recipe-full-control-spirit-various-lesser-spirits",
-        "sword-world-rpg-complete-edition-recipe-how-to-read-the-monster-catalog",
-        "sword-world-rpg-complete-edition-recipe-perception",
-        "sword-world-rpg-complete-edition-recipe-protective-circle",
-        "sword-world-rpg-complete-edition-recipe-reaction",
-        "sword-world-rpg-complete-edition-recipe-riding-agility",
-        "sword-world-rpg-complete-edition-recipe-rules-for-sleeping-monsters",
-        "sword-world-rpg-complete-edition-recipe-swim-agility",
-        "sword-world-rpg-complete-edition-recipe-the-meaning-of-the-rulebook"
+        "sword-world-rpg-complete-edition-procedure-unconscious-and-death-checks"
       ],
       "sources": [
         "raw/Sword World RPG - Complete Edition.pdf"
       ],
-      "summary": "Claim-ledger projection (rules-reference): 12209 usable entries, 4693 technical atoms, 907 needs-review, 1295 linked page(s); write decision write-with-review-work."
+      "summary": "Claim-ledger projection (rules-reference): 12209 usable entries, 4693 technical atoms, 907 needs-review, 1279 linked page(s); write decision write-with-review-work."
     },
     {
       "category": "concept",
@@ -45613,27 +45617,6 @@
     },
     {
       "category": "procedure",
-      "name": "sword-world-rpg-complete-edition-procedure-horse",
-      "outbound_links": [
-        "sword-world-rpg-complete-edition",
-        "sword-world-rpg-complete-edition-section-13-2-6-mythical-beasts-and-magical-beasts-horse-13-2-10-magical-creatures-0e88a6a0",
-        "sword-world-rpg-complete-edition-section-13-2-6-mythical-beasts-and-magical-beasts-horse-13-2-11-daemons-underworld-creatures-692da0bd",
-        "sword-world-rpg-complete-edition-section-13-2-6-mythical-beasts-and-magical-beasts-horse-13-2-12-humans-b1a222f1",
-        "sword-world-rpg-complete-edition-section-13-2-6-mythical-beasts-and-magical-beasts-horse-13-2-13-other-1185d157",
-        "sword-world-rpg-complete-edition-section-13-2-6-mythical-beasts-and-magical-beasts-horse-13-2-8-plants-6ae09235",
-        "sword-world-rpg-complete-edition-section-13-2-6-mythical-beasts-and-magical-beasts-horse-13-3-converting-character-data-to-monster-data-3a448e24",
-        "sword-world-rpg-complete-edition-section-13-2-6-mythical-beasts-and-magical-beasts-horse-13-4-representing-special-monsters-with-characte-a07b5e34",
-        "sword-world-rpg-complete-edition-section-13-2-6-mythical-beasts-and-magical-beasts-horse-13-5-monster-level-and-adventurer-level-ee4c9cb3",
-        "sword-world-rpg-complete-edition-section-13-2-6-mythical-beasts-and-magical-beasts-horse-13-6-handling-monster-special-abilities-11888df1",
-        "sword-world-rpg-complete-edition-section-13-2-6-mythical-beasts-and-magical-beasts-horse-9c294c60"
-      ],
-      "sources": [
-        "raw/Sword World RPG - Complete Edition.pdf"
-      ],
-      "summary": "Complete [ Horse ]: 9 ordered step(s), 33 decision point(s), and 1199 table/formula/example reference(s) from raw/Sword World RPG - Complete Edition.pdf."
-    },
-    {
-      "category": "procedure",
       "name": "sword-world-rpg-complete-edition-procedure-unconscious-and-death-checks",
       "outbound_links": [
         "sword-world-rpg-complete-edition",
@@ -45697,186 +45680,6 @@
         "raw/Sword World RPG - Complete Edition.pdf"
       ],
       "summary": "Ray: 1 statement(s) and 1 atom(s) from raw/Sword World RPG - Complete Edition.pdf."
-    },
-    {
-      "category": "recipe",
-      "name": "sword-world-rpg-complete-edition-recipe-18-1-rules-for-awarding-greater-experience-points",
-      "outbound_links": [
-        "sword-world-rpg-complete-edition",
-        "sword-world-rpg-complete-edition-section-18-1-rules-for-awarding-greater-experience-points-7c15cfe5"
-      ],
-      "sources": [
-        "raw/Sword World RPG - Complete Edition.pdf"
-      ],
-      "summary": "18.1 Rules for Awarding Greater Experience Points: reusable source-backed pattern with 9 statement(s) and 1 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf."
-    },
-    {
-      "category": "recipe",
-      "name": "sword-world-rpg-complete-edition-recipe-3-2-1-delaying-an-action",
-      "outbound_links": [
-        "sword-world-rpg-complete-edition",
-        "sword-world-rpg-complete-edition-section-chapter-3-3-2-1-delaying-an-action-98203a92"
-      ],
-      "sources": [
-        "raw/Sword World RPG - Complete Edition.pdf"
-      ],
-      "summary": "3.2.1 Delaying an Action: reusable source-backed pattern with 7 statement(s) and 1 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf."
-    },
-    {
-      "category": "recipe",
-      "name": "sword-world-rpg-complete-edition-recipe-3-2-action-order",
-      "outbound_links": [
-        "sword-world-rpg-complete-edition",
-        "sword-world-rpg-complete-edition-section-chapter-3-3-2-action-order-0a8e2138"
-      ],
-      "sources": [
-        "raw/Sword World RPG - Complete Edition.pdf"
-      ],
-      "summary": "3.2 Action Order: reusable source-backed pattern with 13 statement(s) and 1 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf."
-    },
-    {
-      "category": "recipe",
-      "name": "sword-world-rpg-complete-edition-recipe-area",
-      "outbound_links": [
-        "sword-world-rpg-complete-edition",
-        "sword-world-rpg-complete-edition-section-sample-magic-details-area-6a47f6c1"
-      ],
-      "sources": [
-        "raw/Sword World RPG - Complete Edition.pdf"
-      ],
-      "summary": "\u300a Area \u300b: reusable source-backed pattern with 4 statement(s) and 1 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf."
-    },
-    {
-      "category": "recipe",
-      "name": "sword-world-rpg-complete-edition-recipe-boomerang",
-      "outbound_links": [
-        "sword-world-rpg-complete-edition",
-        "sword-world-rpg-complete-edition-section-chapter-16-16-9-special-weapons-boomerang-c239f583"
-      ],
-      "sources": [
-        "raw/Sword World RPG - Complete Edition.pdf"
-      ],
-      "summary": "Boomerang: reusable source-backed pattern with 2 statement(s) and 1 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf."
-    },
-    {
-      "category": "recipe",
-      "name": "sword-world-rpg-complete-edition-recipe-folklore-knowledge-intelligence-not-retriable",
-      "outbound_links": [
-        "sword-world-rpg-complete-edition",
-        "sword-world-rpg-complete-edition-section-chapter-6-bard-skill-medicines-intelligence-appraisal-only-not-retriable-folklore-knowledge-inte-1a2021b3"
-      ],
-      "sources": [
-        "raw/Sword World RPG - Complete Edition.pdf"
-      ],
-      "summary": "[ \u2464 Folklore Knowledge [Intelligence] ] (Not retriable): reusable source-backed pattern with 1 statement(s) and 1 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf."
-    },
-    {
-      "category": "recipe",
-      "name": "sword-world-rpg-complete-edition-recipe-full-control-spirit-various-lesser-spirits",
-      "outbound_links": [
-        "sword-world-rpg-complete-edition",
-        "sword-world-rpg-complete-edition-section-5-1-14-spirit-magic-list-magic-list-full-control-spirit-various-lesser-spirits-e38f7396"
-      ],
-      "sources": [
-        "raw/Sword World RPG - Complete Edition.pdf"
-      ],
-      "summary": "[ Full Control Spirit ] (Various lesser spirits): reusable source-backed pattern with 2 statement(s) and 1 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf."
-    },
-    {
-      "category": "recipe",
-      "name": "sword-world-rpg-complete-edition-recipe-how-to-read-the-monster-catalog",
-      "outbound_links": [
-        "sword-world-rpg-complete-edition",
-        "sword-world-rpg-complete-edition-section-13-2-1-humans-monster-catalog-how-to-read-the-monster-catalog-35efd787"
-      ],
-      "sources": [
-        "raw/Sword World RPG - Complete Edition.pdf"
-      ],
-      "summary": "How to Read the Monster Catalog: reusable source-backed pattern with 1 statement(s) and 1 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf."
-    },
-    {
-      "category": "recipe",
-      "name": "sword-world-rpg-complete-edition-recipe-perception",
-      "outbound_links": [
-        "sword-world-rpg-complete-edition",
-        "sword-world-rpg-complete-edition-section-13-2-1-humans-perception-55f8f7ca"
-      ],
-      "sources": [
-        "raw/Sword World RPG - Complete Edition.pdf"
-      ],
-      "summary": "\u300a Perception \u300b: reusable source-backed pattern with 15 statement(s) and 1 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf."
-    },
-    {
-      "category": "recipe",
-      "name": "sword-world-rpg-complete-edition-recipe-protective-circle",
-      "outbound_links": [
-        "sword-world-rpg-complete-edition",
-        "sword-world-rpg-complete-edition-section-4th-level-basic-holy-magic-list-cure-disease-protective-circle-eab62bcf"
-      ],
-      "sources": [
-        "raw/Sword World RPG - Complete Edition.pdf"
-      ],
-      "summary": "[ Protective Circle ]: reusable source-backed pattern with 5 statement(s) and 1 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf."
-    },
-    {
-      "category": "recipe",
-      "name": "sword-world-rpg-complete-edition-recipe-reaction",
-      "outbound_links": [
-        "sword-world-rpg-complete-edition",
-        "sword-world-rpg-complete-edition-section-13-2-1-humans-reaction-ea4ee40f"
-      ],
-      "sources": [
-        "raw/Sword World RPG - Complete Edition.pdf"
-      ],
-      "summary": "\u300a Reaction \u300b: reusable source-backed pattern with 16 statement(s) and 1 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf."
-    },
-    {
-      "category": "recipe",
-      "name": "sword-world-rpg-complete-edition-recipe-riding-agility",
-      "outbound_links": [
-        "sword-world-rpg-complete-edition",
-        "sword-world-rpg-complete-edition-section-chapter-6-common-adventurer-abilities-riding-agility-84a32022"
-      ],
-      "sources": [
-        "raw/Sword World RPG - Complete Edition.pdf"
-      ],
-      "summary": "[ \u2460 Riding [Agility] ]: reusable source-backed pattern with 4 statement(s) and 1 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf."
-    },
-    {
-      "category": "recipe",
-      "name": "sword-world-rpg-complete-edition-recipe-rules-for-sleeping-monsters",
-      "outbound_links": [
-        "sword-world-rpg-complete-edition",
-        "sword-world-rpg-complete-edition-section-10-5-attacks-against-the-sleeping-rules-for-sleeping-monsters-21c2f8ac"
-      ],
-      "sources": [
-        "raw/Sword World RPG - Complete Edition.pdf"
-      ],
-      "summary": "Rules for Sleeping Monsters: reusable source-backed pattern with 15 statement(s) and 1 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf."
-    },
-    {
-      "category": "recipe",
-      "name": "sword-world-rpg-complete-edition-recipe-swim-agility",
-      "outbound_links": [
-        "sword-world-rpg-complete-edition",
-        "sword-world-rpg-complete-edition-section-chapter-6-common-adventurer-abilities-swim-agility-fd4642f2"
-      ],
-      "sources": [
-        "raw/Sword World RPG - Complete Edition.pdf"
-      ],
-      "summary": "[ \u2461 Swim [Agility] ]: reusable source-backed pattern with 12 statement(s) and 1 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf."
-    },
-    {
-      "category": "recipe",
-      "name": "sword-world-rpg-complete-edition-recipe-the-meaning-of-the-rulebook",
-      "outbound_links": [
-        "sword-world-rpg-complete-edition",
-        "sword-world-rpg-complete-edition-section-the-meaning-of-the-rulebook-910ef587"
-      ],
-      "sources": [
-        "raw/Sword World RPG - Complete Edition.pdf"
-      ],
-      "summary": "The Meaning of the Rulebook: reusable source-backed pattern with 21 statement(s) and 2 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf."
     },
     {
       "category": "concept",

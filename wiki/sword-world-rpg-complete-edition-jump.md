@@ -4,7 +4,7 @@ page_kind: concept
 summary: Jump: 12 statement(s) and 1 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: topic-concept
 sources: raw/Sword World RPG - Complete Edition.pdf
-updated: 2026-07-01
+updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: concepts
 projection_coverage: topic-sword-world-rpg-complete-edition-jump@22a006a4560e851b1dc43568c33698ef

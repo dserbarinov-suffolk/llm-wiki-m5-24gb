@@ -4,7 +4,7 @@ page_kind: concept
 summary: Ray: 1 statement(s) and 1 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: topic-concept
 sources: raw/Sword World RPG - Complete Edition.pdf
-updated: 2026-07-01
+updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: concepts
 projection_coverage: topic-sword-world-rpg-complete-edition-ray@624d9282c8f5cc9aea99b8faf8549b9d

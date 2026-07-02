@@ -7,7 +7,6 @@ phrases; headings label the resulting objects, but do not decide their kind.
 
 from __future__ import annotations
 
-import re
 from dataclasses import dataclass
 
 from llmwiki.domain.ledger.atoms import TechnicalAtom
@@ -15,11 +14,17 @@ from llmwiki.domain.ledger.canonical import content_fingerprint, deterministic_i
 from llmwiki.domain.ledger.entries import LedgerEntry
 from llmwiki.domain.ledger.knowledge_shape_evidence import (
     UnitEvidence,
+    code_atoms,
     example_atoms,
     roles_for_evidence,
     unit_has_branch,
-    unit_has_recipe_shape,
     unit_transforms_state,
+)
+from llmwiki.domain.ledger.knowledge_shape_structure import (
+    has_catalog_child_sequence,
+    is_unanchored_container,
+    leaf_shape_kind,
+    procedure_child_units,
 )
 from llmwiki.domain.ledger.ledger import ClaimLedger
 from llmwiki.domain.ledger.procedure_evidence_index import (
@@ -30,11 +35,6 @@ from llmwiki.domain.ledger.procedure_evidence_index import (
     section_nodes,
 )
 from llmwiki.domain.ledger.structure import DocumentStructure, StructureNode
-
-_STRUCTURAL_CONTAINER_PREFIX = re.compile(
-    r"^\s*(chapter|part|appendix|volume|book)\b", re.IGNORECASE
-)
-_STRUCTURED_STEP_NUMBER = re.compile(r"^\s*\d+(?:\.\d+)+\b")
 
 
 @dataclass(frozen=True)
@@ -70,7 +70,14 @@ def build_knowledge_shape_catalog(
     grouped_atoms = atoms_by_node(ledger, structure)
     procedure_candidates = _procedure_candidates(ledger, structure, grouped_entries, grouped_atoms)
     procedure_scope = _procedure_scope_node_ids(structure, procedure_candidates)
-    recipe_candidates = _recipe_candidates(
+    section_container_candidates = _section_container_candidates(
+        ledger,
+        structure,
+        grouped_entries,
+        grouped_atoms,
+        procedure_scope,
+    )
+    flat_shape_candidates = _flat_shape_candidates(
         ledger,
         structure,
         grouped_entries,
@@ -79,7 +86,7 @@ def build_knowledge_shape_catalog(
     )
     candidates = tuple(
         sorted(
-            (*procedure_candidates, *recipe_candidates),
+            (*procedure_candidates, *section_container_candidates, *flat_shape_candidates),
             key=lambda item: item.knowledge_shape_id,
         )
     )
@@ -94,7 +101,6 @@ def build_knowledge_shape_catalog(
         candidates=candidates,
     )
 
-
 def _procedure_candidates(
     ledger: ClaimLedger,
     structure: DocumentStructure,
@@ -104,7 +110,7 @@ def _procedure_candidates(
     candidates: list[KnowledgeShapeCandidate] = []
     for node in section_nodes(structure):
         direct_unit = _direct_unit(grouped_entries, grouped_atoms, node)
-        if _is_unanchored_container(node, direct_unit):
+        if is_unanchored_container(node, direct_unit):
             continue
         child_units = tuple(
             _rolled_unit(structure, grouped_entries, grouped_atoms, child)
@@ -113,18 +119,21 @@ def _procedure_candidates(
         child_units = tuple(unit for unit in child_units if unit.has_evidence)
         if len(child_units) < 2:
             continue
-        if not _has_structured_child_sequence(child_units):
+        step_units = procedure_child_units(node, child_units)
+        if len(step_units) < 2:
             continue
-        state_units = tuple(unit for unit in child_units if unit_transforms_state(unit))
-        branch_units = tuple(unit for unit in child_units if unit_has_branch(unit))
+        if has_catalog_child_sequence(node, child_units):
+            continue
+        state_units = tuple(unit for unit in step_units if unit_transforms_state(unit))
+        branch_units = tuple(unit for unit in step_units if unit_has_branch(unit))
         if len(state_units) < 2:
             continue
-        if not branch_units and not any("procedure" in unit.roles for unit in child_units):
+        if not branch_units and not any("procedure" in unit.roles for unit in step_units):
             continue
         entries = rollup_entries(structure, grouped_entries, node)
         atoms = rollup_atoms(structure, grouped_atoms, node)
-        roles = roles_for_evidence(entries, atoms, child_units)
-        score = len(child_units) + len(state_units) + len(branch_units)
+        roles = roles_for_evidence(entries, atoms, step_units)
+        score = len(step_units) + len(state_units) + len(branch_units)
         candidates.append(
             _candidate(
                 "procedure",
@@ -132,15 +141,14 @@ def _procedure_candidates(
                 node,
                 entries,
                 atoms,
-                tuple(unit.node.structure_node_id for unit in child_units),
+                tuple(unit.node.structure_node_id for unit in step_units),
                 roles,
                 score,
             )
         )
     return tuple(candidates)
 
-
-def _recipe_candidates(
+def _section_container_candidates(
     ledger: ClaimLedger,
     structure: DocumentStructure,
     grouped_entries: dict[str, tuple[LedgerEntry, ...]],
@@ -148,23 +156,61 @@ def _recipe_candidates(
     procedure_scope: frozenset[str],
 ) -> tuple[KnowledgeShapeCandidate, ...]:
     candidates: list[KnowledgeShapeCandidate] = []
-    sibling_shapes = _sibling_recipe_shape_counts(structure, grouped_entries, grouped_atoms)
     for node in section_nodes(structure):
         if node.structure_node_id in procedure_scope:
             continue
-        if structure.children(node.structure_node_id):
+        children = tuple(
+            _rolled_unit(structure, grouped_entries, grouped_atoms, child)
+            for child in structure.children(node.structure_node_id)
+        )
+        children = tuple(unit for unit in children if unit.has_evidence)
+        if len(children) < 2:
             continue
         unit = _direct_unit(grouped_entries, grouped_atoms, node)
-        if not unit_has_recipe_shape(unit):
+        if not unit.has_evidence and not children:
+            continue
+        entries = rollup_entries(structure, grouped_entries, node)
+        atoms = rollup_atoms(structure, grouped_atoms, node)
+        roles = roles_for_evidence(entries, atoms, children)
+        score = len(children) + len(entries) + len(atoms)
+        candidates.append(
+            _candidate(
+                "section-container",
+                ledger,
+                node,
+                entries,
+                atoms,
+                tuple(child.node.structure_node_id for child in children),
+                roles,
+                score,
+            )
+        )
+    return tuple(candidates)
+
+def _flat_shape_candidates(
+    ledger: ClaimLedger,
+    structure: DocumentStructure,
+    grouped_entries: dict[str, tuple[LedgerEntry, ...]],
+    grouped_atoms: dict[str, tuple[TechnicalAtom, ...]],
+    procedure_scope: frozenset[str],
+) -> tuple[KnowledgeShapeCandidate, ...]:
+    candidates: list[KnowledgeShapeCandidate] = []
+    sibling_shapes = _sibling_leaf_shape_counts(structure, grouped_entries, grouped_atoms)
+    for node in section_nodes(structure):
+        if node.structure_node_id in procedure_scope or structure.children(node.structure_node_id):
+            continue
+        unit = _direct_unit(grouped_entries, grouped_atoms, node)
+        shape_kind = leaf_shape_kind(node, unit)
+        if shape_kind is None:
             continue
         sibling_count = sibling_shapes.get(node.parent_structure_node_id, 0)
-        if sibling_count < 3 and len(example_atoms(unit.atoms)) < 2 and len(unit.entries) < 3:
+        if shape_kind == "recipe" and sibling_count < 3 and len(code_atoms(unit.atoms)) < 2:
             continue
         roles = roles_for_evidence(unit.entries, unit.atoms, ())
         score = len(unit.entries) + (2 * len(example_atoms(unit.atoms))) + sibling_count
         candidates.append(
             _candidate(
-                "recipe",
+                shape_kind,
                 ledger,
                 node,
                 unit.entries,
@@ -174,19 +220,21 @@ def _recipe_candidates(
                 score,
             )
         )
-    candidates.sort(key=lambda item: (-item.score, item.label))
-    return tuple(candidates[:96])
+    candidates.sort(key=lambda item: (item.shape_kind, -item.score, item.label))
+    return tuple(candidates)
 
 
-def _sibling_recipe_shape_counts(
+def _sibling_leaf_shape_counts(
     structure: DocumentStructure,
     grouped_entries: dict[str, tuple[LedgerEntry, ...]],
     grouped_atoms: dict[str, tuple[TechnicalAtom, ...]],
 ) -> dict[str, int]:
     counts: dict[str, int] = {}
     for node in section_nodes(structure):
+        if structure.children(node.structure_node_id):
+            continue
         unit = _direct_unit(grouped_entries, grouped_atoms, node)
-        if unit_has_recipe_shape(unit):
+        if leaf_shape_kind(node, unit) is not None:
             counts[node.parent_structure_node_id] = counts.get(node.parent_structure_node_id, 0) + 1
     return counts
 
@@ -201,21 +249,6 @@ def _procedure_scope_node_ids(
             child.structure_node_id for child in structure.descendants(candidate.structure_node_id)
         )
     return frozenset(scoped)
-
-
-def _is_unanchored_container(node: StructureNode, direct_unit: UnitEvidence) -> bool:
-    if not _STRUCTURAL_CONTAINER_PREFIX.match(node.heading_text):
-        return False
-    return "procedure" not in direct_unit.roles and not any(
-        atom.technical_atom_kind == "procedure" for atom in direct_unit.atoms
-    )
-
-
-def _has_structured_child_sequence(child_units: tuple[UnitEvidence, ...]) -> bool:
-    numbered = tuple(
-        unit for unit in child_units if _STRUCTURED_STEP_NUMBER.match(unit.node.heading_text)
-    )
-    return len(numbered) >= 2
 
 
 def _rolled_unit(

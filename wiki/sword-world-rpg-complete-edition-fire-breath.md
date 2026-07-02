@@ -4,7 +4,7 @@ page_kind: concept
 summary: [ Fire Breath ]: 5 statement(s) and 9 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: broad-topic
 sources: raw/Sword World RPG - Complete Edition.pdf
-updated: 2026-07-01
+updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: concepts
 projection_coverage: topic-sword-world-rpg-complete-edition-fire-breath@df4a1af80f3d3cca77272be6a22caf2b

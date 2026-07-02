@@ -4,7 +4,7 @@ page_kind: concept
 summary: Difficulty Check: 3 statement(s) and 2 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: topic-concept
 sources: raw/Sword World RPG - Complete Edition.pdf
-updated: 2026-07-01
+updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: concepts
 projection_coverage: topic-sword-world-rpg-complete-edition-difficulty-check@a96d3c089b9bd44948535e3151edb783

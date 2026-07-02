@@ -4,7 +4,7 @@ page_kind: concept
 summary: 10 Silver Weapon: 3 statement(s) and 0 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: topic-concept
 sources: raw/Sword World RPG - Complete Edition.pdf
-updated: 2026-07-01
+updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: concepts
 projection_coverage: topic-sword-world-rpg-complete-edition-10-silver-weapon@e2b7491e0760a25837b90ad3bb9416c1

@@ -4,7 +4,7 @@ page_kind: procedure
 summary: Complete Attacks From Monsters Against Characters: 5 ordered step(s), 0 decision point(s), and 10 table/formula/example reference(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: procedure-guide
 sources: raw/Sword World RPG - Complete Edition.pdf
-updated: 2026-07-01
+updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: procedures/sword-world-rpg-complete-edition
 source_id: Sword World RPG - Complete Edition.pdf

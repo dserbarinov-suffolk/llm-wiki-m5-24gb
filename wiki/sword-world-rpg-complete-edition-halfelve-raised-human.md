@@ -4,7 +4,7 @@ page_kind: concept
 summary: Halfelve Raised Human: 0 statement(s) and 1 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: topic-concept
 sources: raw/Sword World RPG - Complete Edition.pdf
-updated: 2026-07-01
+updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: concepts
 projection_coverage: topic-sword-world-rpg-complete-edition-halfelve-raised-human@33aed2478230b188c09c740f36bd9131

@@ -4,7 +4,7 @@ page_kind: concept
 summary: 13 Monster Level: 4 statement(s) and 3 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: topic-concept
 sources: raw/Sword World RPG - Complete Edition.pdf
-updated: 2026-07-01
+updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: concepts
 projection_coverage: topic-sword-world-rpg-complete-edition-13-monster-level@262e722de1596143e20164cfb70445b8

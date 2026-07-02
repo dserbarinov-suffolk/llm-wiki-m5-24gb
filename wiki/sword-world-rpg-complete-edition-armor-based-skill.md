@@ -4,7 +4,7 @@ page_kind: concept
 summary: Armor Based Skill: 5 statement(s) and 4 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: topic-concept
 sources: raw/Sword World RPG - Complete Edition.pdf
-updated: 2026-07-01
+updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: concepts
 projection_coverage: topic-sword-world-rpg-complete-edition-armor-based-skill@3c61d606add020c1b7704929851a5f6a

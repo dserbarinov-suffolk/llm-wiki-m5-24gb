@@ -8,6 +8,7 @@ from llmwiki.domain.ledger.atoms import TechnicalAtom
 from llmwiki.domain.ledger.entries import LedgerEntry
 from llmwiki.domain.ledger.structure import StructureNode
 
+CODE_ATOM_KINDS = frozenset({"code-block"})
 EXAMPLE_ATOM_KINDS = frozenset({"code-block", "worked-example"})
 STRUCTURED_STATE_ATOM_KINDS = frozenset({"table", "formula", "procedure", "rule"})
 
@@ -48,11 +49,37 @@ def unit_has_branch(unit: UnitEvidence) -> bool:
 
 
 def unit_has_recipe_shape(unit: UnitEvidence) -> bool:
-    return bool(unit.entries and example_atoms(unit.atoms))
+    return bool(unit.entries and code_atoms(unit.atoms))
+
+
+def unit_has_reference_field_shape(unit: UnitEvidence) -> bool:
+    if code_atoms(unit.atoms) or not unit.entries:
+        return False
+    return "definition" in unit.roles and bool(unit.roles & {"constraint", "decision", "example"})
+
+
+def unit_has_catalog_entry_shape(unit: UnitEvidence) -> bool:
+    if code_atoms(unit.atoms):
+        return False
+    return bool(structured_state_atoms(unit.atoms))
+
+
+def unit_has_concept_explanation_shape(unit: UnitEvidence) -> bool:
+    if not unit.entries or code_atoms(unit.atoms) or structured_state_atoms(unit.atoms):
+        return False
+    return bool(unit.roles & {"definition", "explanation", "example"})
+
+
+def code_atoms(atoms: tuple[TechnicalAtom, ...]) -> tuple[TechnicalAtom, ...]:
+    return tuple(atom for atom in atoms if atom.technical_atom_kind in CODE_ATOM_KINDS)
 
 
 def example_atoms(atoms: tuple[TechnicalAtom, ...]) -> tuple[TechnicalAtom, ...]:
     return tuple(atom for atom in atoms if atom.technical_atom_kind in EXAMPLE_ATOM_KINDS)
+
+
+def structured_state_atoms(atoms: tuple[TechnicalAtom, ...]) -> tuple[TechnicalAtom, ...]:
+    return tuple(atom for atom in atoms if atom.technical_atom_kind in STRUCTURED_STATE_ATOM_KINDS)
 
 
 def entry_roles(entry: LedgerEntry) -> tuple[str, ...]:

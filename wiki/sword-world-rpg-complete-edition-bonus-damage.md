@@ -4,7 +4,7 @@ page_kind: concept
 summary: 【 Bonus Damage 】: 57 statement(s) and 8 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: broad-topic
 sources: raw/Sword World RPG - Complete Edition.pdf
-updated: 2026-07-01
+updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: concepts
 projection_coverage: topic-sword-world-rpg-complete-edition-bonus-damage@13fec0d3eaee1c6cab6d101a6100c23c

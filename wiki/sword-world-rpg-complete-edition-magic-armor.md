@@ -4,7 +4,7 @@ page_kind: concept
 summary: 《 Magic Armor (+1) 》: 13 statement(s) and 11 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: broad-topic
 sources: raw/Sword World RPG - Complete Edition.pdf
-updated: 2026-07-01
+updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: concepts
 projection_coverage: topic-sword-world-rpg-complete-edition-magic-armor@705bdbee451b0c67415fbf70f5504656

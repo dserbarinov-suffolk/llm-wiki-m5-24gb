@@ -2,11 +2,7 @@
 
 from __future__ import annotations
 
-from dataclasses import dataclass
-
 from llmwiki.domain.ledger.artifacts import (
-    BlockedWriteDiagnosticArtifact,
-    PortableArtifactSet,
     build_blocked_write_diagnostic_artifact,
     build_claim_ledger_artifact,
     build_document_structure_artifact,
@@ -17,7 +13,7 @@ from llmwiki.domain.ledger.artifacts import (
     build_source_coverage_artifact,
 )
 from llmwiki.domain.ledger.builder import build_claim_ledger, default_schema_bundle
-from llmwiki.domain.ledger.canonical import deterministic_id, short_digest
+from llmwiki.domain.ledger.canonical import deterministic_id
 from llmwiki.domain.ledger.knowledge_shapes import build_knowledge_shape_catalog
 from llmwiki.domain.ledger.pointers import (
     claim_ledger_pointer,
@@ -25,11 +21,9 @@ from llmwiki.domain.ledger.pointers import (
     ledger_quality_report_pointer,
     quality_check_catalog_pointer,
 )
-from llmwiki.domain.ledger.procedure_pages import build_procedure_pages
 from llmwiki.domain.ledger.projection import ProjectionSourceSupport, plan_source_page
 from llmwiki.domain.ledger.projection_context import build_projection_context
 from llmwiki.domain.ledger.quality import (
-    LedgerQualityReport,
     build_ledger_quality_report,
     build_projection_quality_report,
     page_write_decision,
@@ -39,41 +33,31 @@ from llmwiki.domain.ledger.quality_catalog import (
     default_reason_applicability_policy,
     default_severity_policy,
 )
-from llmwiki.domain.ledger.recipe_pages import build_recipe_pages
 from llmwiki.domain.ledger.renderer import render_source_page
-from llmwiki.domain.ledger.section_navigation import section_links_by_topic
-from llmwiki.domain.ledger.section_pages import build_section_pages
 from llmwiki.domain.ledger.section_planning import build_section_grounded_plan
 from llmwiki.domain.ledger.source_coverage import build_source_coverage
+from llmwiki.domain.ledger.staged_flow import (
+    accepted_pages,
+    build_extraction_result,
+    build_lint_run,
+    build_publish_run,
+    build_source_plan,
+    build_staged_page_set,
+)
 from llmwiki.domain.ledger.topics import build_topic_index, plan_source_topic_result
 from llmwiki.domain.objects import Schema
 from llmwiki.domain.pages import WikiPage, slugify
 from llmwiki.pdf.document import DocumentModel
 from llmwiki.runtime.document_model_segmentation import segment_document_model
 from llmwiki.runtime.ledger_artifact_bundle import build_serialized_artifact_bundle
+from llmwiki.runtime.ledger_linked_pages import build_linked_page_projection
 from llmwiki.runtime.ledger_pages import (
-    append_source_page_links,
-    build_source_wiki_page,
-    build_topic_pages,
     ledger_summary,
     source_element_records,
     source_title,
 )
+from llmwiki.runtime.ledger_result import SourceLedgerResult
 from llmwiki.runtime.ledger_segmentation import ChunkText, segment_chunks
-
-
-@dataclass(frozen=True)
-class SourceLedgerResult:
-    page_id: str
-    wiki_page: WikiPage | None
-    topic_pages: tuple[WikiPage, ...]
-    page_write_decision: str
-    ledger_report: LedgerQualityReport
-    projection_report: LedgerQualityReport
-    blocked_write_diagnostic: BlockedWriteDiagnosticArtifact | None
-    artifact_files: dict[str, str]
-    portable_artifact_set: PortableArtifactSet
-    summary: str
 
 
 def build_source_ledger(
@@ -126,6 +110,13 @@ def build_source_ledger(
     ds_pointer = document_structure_pointer(
         ds_artifact.document_structure_artifact_id, ds_artifact.document_structure_fingerprint
     )
+    page_id = slugify(source_locator.rsplit(".", 1)[0])
+    title = source_title(source_locator, structure)
+    source_plan = build_source_plan(
+        source_locator=source_locator,
+        source_hash=source_hash,
+        source_page_id=page_id,
+    )
     ledger_artifact = build_claim_ledger_artifact(
         ledger,
         ds_pointer,
@@ -133,6 +124,13 @@ def build_source_ledger(
             ledger_report_artifact.ledger_quality_report_artifact_id,
             ledger_report_artifact.ledger_quality_report_fingerprint,
         ),
+    )
+    extraction_result = build_extraction_result(
+        source_plan=source_plan,
+        ledger=ledger,
+        structure=structure,
+        document_structure_artifact_id=ds_artifact.document_structure_artifact_id,
+        claim_ledger_id=ledger_artifact.claim_ledger_id,
     )
     source_coverage_artifact = None
     if document_model is not None:
@@ -146,8 +144,6 @@ def build_source_ledger(
         )
         source_coverage_artifact = build_source_coverage_artifact(source_coverage)
 
-    page_id = slugify(source_locator.rsplit(".", 1)[0])
-    title = source_title(source_locator, structure)
     support = ProjectionSourceSupport(
         projection_source_support_id=deterministic_id(
             "projection-source-support", source_hash, ledger_artifact.claim_ledger_id
@@ -208,6 +204,7 @@ def build_source_ledger(
     blocked = None
     wiki_page: WikiPage | None = None
     topic_pages: tuple[WikiPage, ...] = ()
+    staged_pages: tuple[WikiPage, ...] = ()
     if decision == "block-authoritative-write":
         blocked = build_blocked_write_diagnostic_artifact(
             wiki_page_locator=page_id,
@@ -218,73 +215,36 @@ def build_source_ledger(
             ),
         )
     else:
-        related_section_links = section_links_by_topic(
-            section_plan, structure, source_page_id=page_id
-        )
-        topic_pages = build_topic_pages(
-            topics,
-            ledger,
-            page_id,
-            source_locator,
-            today,
-            related_pages_by_topic=related_section_links,
+        linked_projection = build_linked_page_projection(
+            ledger=ledger,
+            structure=structure,
+            section_plan=section_plan,
+            shape_catalog=shape_catalog,
             projection_context=projection_context,
-        )
-        topic_pages += build_section_pages(
-            ledger,
-            structure,
-            source_page_id=page_id,
-            source_locator=source_locator,
-            today=today,
             topics=topics,
-            projection_context=projection_context,
-        )
-        procedure_pages = build_procedure_pages(
-            ledger,
-            structure,
-            source_page_id=page_id,
+            page_id=page_id,
+            title=title,
             source_locator=source_locator,
             today=today,
-            shape_catalog=shape_catalog,
+            decision=decision,
+            rendered=rendered,
+            support=support,
+            projection_report_artifact=projection_report_artifact,
         )
-        recipe_pages = build_recipe_pages(
-            ledger,
-            structure,
-            source_page_id=page_id,
-            source_locator=source_locator,
-            today=today,
-            shape_catalog=shape_catalog,
-        )
-        topic_pages += (*procedure_pages, *recipe_pages)
-        source_page_body = append_source_page_links(
-            rendered.page_body,
-            "Procedure Guides",
-            procedure_pages,
-        )
-        source_page_body = append_source_page_links(
-            source_page_body,
-            "Recipes",
-            recipe_pages,
-        )
-        coverage_artifact = build_projection_coverage_artifact(
-            wiki_page_locator=page_id,
-            page_body_hash=short_digest(source_page_body, 32),
-            support_set=(support,),
-            coverage=rendered.coverage,
-            ledger_quality_report_pointer=ledger_quality_report_pointer(
-                projection_report_artifact.ledger_quality_report_artifact_id,
-                projection_report_artifact.ledger_quality_report_fingerprint,
-            ),
-        )
-        wiki_page = build_source_wiki_page(
-            page_id,
-            source_locator,
-            title,
-            ledger_summary(ledger, decision, len(topic_pages)),
-            today,
-            source_page_body,
-            coverage_artifact,
-        )
+        wiki_page = linked_projection.source_page
+        topic_pages = linked_projection.linked_pages
+        coverage_artifact = linked_projection.coverage_artifact
+        staged_pages = (wiki_page, *topic_pages)
+    staged_page_set = build_staged_page_set(source_plan, staged_pages)
+    lint_run = build_lint_run(
+        source_plan=source_plan,
+        staged_page_set=staged_page_set,
+        upstream_write_decision=decision,
+    )
+    publish_run = build_publish_run(source_plan, staged_page_set, lint_run)
+    published_pages = accepted_pages(staged_page_set, publish_run)
+    wiki_page = next((page for page in published_pages if page.page_id == page_id), None)
+    topic_pages = tuple(page for page in published_pages if page.page_id != page_id)
     summary = ledger_summary(ledger, decision, len(topic_pages))
 
     artifact_bundle = build_serialized_artifact_bundle(
@@ -300,6 +260,11 @@ def build_source_ledger(
         topic_index=topic_index,
         source_coverage_artifact=source_coverage_artifact,
         blocked=blocked,
+        source_plan=source_plan,
+        extraction_result=extraction_result,
+        staged_page_set=staged_page_set,
+        lint_run=lint_run,
+        publish_run=publish_run,
     )
 
     return SourceLedgerResult(
@@ -312,5 +277,10 @@ def build_source_ledger(
         blocked_write_diagnostic=blocked,
         artifact_files=artifact_bundle.artifact_files,
         portable_artifact_set=artifact_bundle.portable_artifact_set,
+        source_plan=source_plan,
+        extraction_result=extraction_result,
+        staged_page_set=staged_page_set,
+        lint_run=lint_run,
+        publish_run=publish_run,
         summary=summary,
     )

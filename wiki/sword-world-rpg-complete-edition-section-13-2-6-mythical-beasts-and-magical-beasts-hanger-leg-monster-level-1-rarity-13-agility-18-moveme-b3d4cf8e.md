@@ -4,7 +4,7 @@ page_kind: source
 summary: 13.2.6 Mythical Beasts and Magical Beasts / [ Hanger Leg ] Monster Level=1 Rarity=13 Agility=18 Movement Speed=8 Number=One. However, eggs are often found in groups Frequency=Rare Intellect=Human Reaction=Neutral Attack Points=Needle: 8 (1) Strike Points=6 Evasion Points=11 (4) Defense Points=4 Life Points/Resistance=8/8 (1) Mental Points/Resistance=8/8 (1) Special Abilities=Parasitism (Resist target score=8) Habitat=Forests Languages=None Perception=Five senses: 24 source-backed entries and 0 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: section-reference
 sources: raw/Sword World RPG - Complete Edition.pdf
-updated: 2026-07-01
+updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf

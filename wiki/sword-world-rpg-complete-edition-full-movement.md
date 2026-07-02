@@ -4,7 +4,7 @@ page_kind: concept
 summary: Full Movement: 1 statement(s) and 3 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: broad-topic
 sources: raw/Sword World RPG - Complete Edition.pdf
-updated: 2026-07-01
+updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: concepts
 projection_coverage: topic-sword-world-rpg-complete-edition-full-movement@b8e6d2ff3cfddb607ce993d31a89e098

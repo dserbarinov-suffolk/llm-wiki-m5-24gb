@@ -1,14 +1,14 @@
 ---
 page_id: sword-world-rpg-complete-edition
 page_kind: source
-summary: Claim-ledger projection (rules-reference): 12209 usable entries, 4693 technical atoms, 907 needs-review, 1295 linked page(s); write decision write-with-review-work.
+summary: Claim-ledger projection (rules-reference): 12209 usable entries, 4693 technical atoms, 907 needs-review, 1279 linked page(s); write decision write-with-review-work.
 page_family: source-manifest
 sources: raw/Sword World RPG - Complete Edition.pdf
-updated: 2026-07-01
+updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: projection-coverage-320095168569125b@6a7af529416c5add
+projection_coverage: projection-coverage-96b78601af85d9d7@b375b24789cc754f
 ---
 
 # What is a Role-Playing Game (RPG)?
@@ -37399,23 +37399,4 @@ Key Number
 - [[sword-world-rpg-complete-edition-procedure-create-character]] - Create Character: 9 ordered step(s), 3 decision point(s), and 61 table/formula/example reference(s) from raw/Sword World RPG - Complete Edition.pdf.
 - [[sword-world-rpg-complete-edition-procedure-difficulty-checks]] - Complete Difficulty Checks: 3 ordered step(s), 4 decision point(s), and 7 table/formula/example reference(s) from raw/Sword World RPG - Complete Edition.pdf.
 - [[sword-world-rpg-complete-edition-procedure-excellent-weapons-and-armor]] - Complete Excellent Weapons and Armor: 4 ordered step(s), 10 decision point(s), and 47 table/formula/example reference(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-procedure-horse]] - Complete [ Horse ]: 9 ordered step(s), 33 decision point(s), and 1199 table/formula/example reference(s) from raw/Sword World RPG - Complete Edition.pdf.
 - [[sword-world-rpg-complete-edition-procedure-unconscious-and-death-checks]] - Complete Unconscious and Death Checks: 4 ordered step(s), 5 decision point(s), and 9 table/formula/example reference(s) from raw/Sword World RPG - Complete Edition.pdf.
-
-## Recipes
-
-- [[sword-world-rpg-complete-edition-recipe-18-1-rules-for-awarding-greater-experience-points]] - 18.1 Rules for Awarding Greater Experience Points: reusable source-backed pattern with 9 statement(s) and 1 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-recipe-3-2-1-delaying-an-action]] - 3.2.1 Delaying an Action: reusable source-backed pattern with 7 statement(s) and 1 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-recipe-3-2-action-order]] - 3.2 Action Order: reusable source-backed pattern with 13 statement(s) and 1 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-recipe-area]] - 《 Area 》: reusable source-backed pattern with 4 statement(s) and 1 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-recipe-boomerang]] - Boomerang: reusable source-backed pattern with 2 statement(s) and 1 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-recipe-folklore-knowledge-intelligence-not-retriable]] - [ ⑤ Folklore Knowledge [Intelligence] ] (Not retriable): reusable source-backed pattern with 1 statement(s) and 1 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-recipe-full-control-spirit-various-lesser-spirits]] - [ Full Control Spirit ] (Various lesser spirits): reusable source-backed pattern with 2 statement(s) and 1 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-recipe-how-to-read-the-monster-catalog]] - How to Read the Monster Catalog: reusable source-backed pattern with 1 statement(s) and 1 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-recipe-perception]] - 《 Perception 》: reusable source-backed pattern with 15 statement(s) and 1 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-recipe-protective-circle]] - [ Protective Circle ]: reusable source-backed pattern with 5 statement(s) and 1 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-recipe-reaction]] - 《 Reaction 》: reusable source-backed pattern with 16 statement(s) and 1 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-recipe-riding-agility]] - [ ① Riding [Agility] ]: reusable source-backed pattern with 4 statement(s) and 1 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-recipe-rules-for-sleeping-monsters]] - Rules for Sleeping Monsters: reusable source-backed pattern with 15 statement(s) and 1 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-recipe-swim-agility]] - [ ② Swim [Agility] ]: reusable source-backed pattern with 12 statement(s) and 1 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-recipe-the-meaning-of-the-rulebook]] - The Meaning of the Rulebook: reusable source-backed pattern with 21 statement(s) and 2 technical atom(s) from raw/Sword World RPG - Complete Edition.pdf.

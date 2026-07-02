@@ -16,12 +16,16 @@ def test_procedure_shape_uses_typed_child_state_flow_not_domain_words() -> None:
     structure = _structure(
         StructureNode("unit", "chapter", "7.3 Lumo", "r1", "x.pdf", 1),
         StructureNode("alpha", "section", "7.3.1 Nara", "r2", "x.pdf", 2, 1, "unit"),
+        StructureNode("choice", "section", "[ Cavo ]", "r5", "x.pdf", 3, 1, "unit"),
         StructureNode("beta", "section", "7.3.2 Veda", "r3", "x.pdf", 3, 1, "unit"),
+        StructureNode("field", "section", "《 Pavo 》", "r6", "x.pdf", 4, 1, "unit"),
         StructureNode("gamma", "section", "7.3.3 Sola", "r4", "x.pdf", 4, 1, "unit"),
     )
     ledger = _ledger(
         _entry("a", "alpha", "The nara output is recorded."),
+        _entry("x", "choice", "The cavo option is referenced.", conditional=True),
         _entry("b", "beta", "The veda output depends on a branch.", conditional=True),
+        _entry("y", "field", "The pavo field is referenced.", conditional=True),
         _entry("c", "gamma", "The sola output is finalized."),
         atoms=(
             _table_atom("t1", "beta"),
@@ -33,6 +37,7 @@ def test_procedure_shape_uses_typed_child_state_flow_not_domain_words() -> None:
 
     procedures = catalog.candidates_of_kind("procedure")
     assert [item.structure_node_id for item in procedures] == ["unit"]
+    assert procedures[0].child_structure_node_ids == ("alpha", "beta", "gamma")
 
 
 def test_structural_container_heading_does_not_become_procedure() -> None:
@@ -86,6 +91,72 @@ def test_recipe_shape_survives_renamed_domain_nouns() -> None:
     assert all("## Technical Atoms" in page.page_body for page in pages)
 
 
+def test_catalog_like_child_sequence_is_container_not_procedure() -> None:
+    structure = _structure(
+        StructureNode("unit", "chapter", "[ Vorn ]", "r1", "x.pdf", 1),
+        StructureNode("alpha", "section", "[ Nara ]", "r2", "x.pdf", 2, 5, "unit"),
+        StructureNode("beta", "section", "[ Veda ]", "r3", "x.pdf", 3, 5, "unit"),
+        StructureNode("gamma", "section", "8.2.1 Sola", "r4", "x.pdf", 4, 5, "unit"),
+        StructureNode("delta", "section", "8.2.2 Tavi", "r5", "x.pdf", 5, 5, "unit"),
+    )
+    ledger = _ledger(
+        _entry("a", "alpha", "The nara output is recorded.", conditional=True),
+        _entry("b", "beta", "The veda output depends on a branch.", conditional=True),
+        _entry("c", "gamma", "The sola output is finalized.", conditional=True),
+        _entry("d", "delta", "The tavi output is finalized.", conditional=True),
+        atoms=(
+            _table_atom("t1", "alpha"),
+            _table_atom("t2", "beta"),
+        ),
+    )
+
+    catalog = build_knowledge_shape_catalog(ledger, structure)
+
+    assert catalog.candidates_of_kind("procedure") == ()
+    containers = catalog.candidates_of_kind("section-container")
+    assert [item.structure_node_id for item in containers] == ["unit"]
+
+
+def test_flat_shapes_compete_before_recipe_projection() -> None:
+    structure = _structure(
+        StructureNode("parent", "section", "Mav", "r1", "x.pdf", 1),
+        StructureNode("recipe", "section", "Reusable Rin", "r2", "x.pdf", 2, 1, "parent"),
+        StructureNode("field", "section", "Nol Field", "r3", "x.pdf", 3, 1, "parent"),
+        StructureNode("catalog", "section", "Paz Entry", "r4", "x.pdf", 4, 1, "parent"),
+        StructureNode("fragment", "section", "Kelm?", "r5", "x.pdf", 5, 1, "parent"),
+    )
+    ledger = _ledger(
+        _entry("e1", "recipe", "Rin arranges a reusable form."),
+        _entry("e2", "field", "Nol defines a reusable field.", force="required", kind="concept"),
+        _entry("e3", "catalog", "Paz has structured values."),
+        _entry("e4", "fragment", "Kelm explains a fragment."),
+        atoms=(
+            _code_atom("c1", "recipe"),
+            _table_atom("t3", "catalog"),
+            _code_atom("c2", "fragment"),
+        ),
+    )
+
+    catalog = build_knowledge_shape_catalog(ledger, structure)
+    shape_by_node = {
+        candidate.structure_node_id: candidate.shape_kind for candidate in catalog.candidates
+    }
+    pages = build_recipe_pages(
+        ledger,
+        structure,
+        source_page_id="x",
+        source_locator="x.pdf",
+        today="2026-07-01",
+        shape_catalog=catalog,
+    )
+
+    assert shape_by_node["recipe"] == "recipe"
+    assert shape_by_node["field"] == "reference-field"
+    assert shape_by_node["catalog"] == "catalog-entry"
+    assert shape_by_node["fragment"] == "concept-explanation"
+    assert [page.page_id for page in pages] == ["x-recipe-reusable-rin"]
+
+
 def _structure(*nodes: StructureNode) -> DocumentStructure:
     root = StructureNode("root", "root", "x.pdf", "root", "x.pdf", 0)
     return DocumentStructure("root", (root, *nodes))
@@ -97,11 +168,13 @@ def _entry(
     text: str,
     *,
     conditional: bool = False,
+    force: str = "asserted",
+    kind: str = "claim",
 ) -> LedgerEntry:
     return LedgerEntry(
         ledger_entry_id=entry_id,
         source_statement_id=f"statement-{entry_id}",
-        ledger_entry_kind="claim",
+        ledger_entry_kind=kind,
         ledger_entry_status="usable",
         extraction_confidence="high",
         confidence_basis=ConfidenceBasis("test"),
@@ -116,7 +189,7 @@ def _entry(
         predicate="is",
         object_value=text,
         polarity="positive",
-        claim_force="asserted",
+        claim_force=force,
         condition_scope="conditional" if conditional else "",
         condition_text=text if conditional else "",
     )
@@ -204,4 +277,13 @@ def _ledger(*entries: LedgerEntry, atoms: tuple[TechnicalAtom, ...] = ()) -> Cla
 
 
 def _atom_node_id(atom_id: str) -> str:
-    return {"a1": "one", "a2": "two", "a3": "three", "t1": "beta", "t2": "gamma"}[atom_id]
+    return {
+        "a1": "one",
+        "a2": "two",
+        "a3": "three",
+        "c1": "recipe",
+        "c2": "fragment",
+        "t1": "beta",
+        "t2": "gamma",
+        "t3": "catalog",
+    }[atom_id]
