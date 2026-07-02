@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-11-notes-on-magic-11-2-dark-magic-11-2-3-special-dark-magic-list-87e60851@38f59c5e6431216461ef97b5c8cb703e
+projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-11-notes-on-magic-11-2-dark-magic-11-2-3-special-dark-magic-list-87e60851@1561be664d660723cc43c73dd82f819f
 ---
 
 # Chapter 11: Notes on Magic / 11.2 Dark Magic / 11.2.3 Special Dark Magic List
@@ -17,12 +17,17 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
+### Source order
+
+- [[sword-world-rpg-complete-edition-section-chapter-11-notes-on-magic-11-2-dark-magic-10th-level-basic-dark-magic-list-call-god-32bbe070]] - previous source section: Chapter 11: Notes on Magic / 11.2 Dark Magic / 10th Level Basic Dark Magic List [ Call God ]
+
+### Source structure
+
 - [[sword-world-rpg-complete-edition-section-chapter-11-notes-on-magic-11-2-dark-magic-3498c004]] - broader source section: Chapter 11: Notes on Magic / 11.2 Dark Magic
+- [[sword-world-rpg-complete-edition-section-chapter-11-notes-on-magic-11-2-dark-magic-11-2-3-special-dark-magic-list-create-ghost-ship-spell-65e2f52b]] - narrower source section: Chapter 11: Notes on Magic / 11.2 Dark Magic / 11.2.3 Special Dark Magic List / [ Create Ghost Ship ] (Spell Level=6)
+- [[sword-world-rpg-complete-edition-section-chapter-11-notes-on-magic-11-2-dark-magic-11-2-3-special-dark-magic-list-kardis-special-dark-mag-45395b4b]] - narrower source section: Chapter 11: Notes on Magic / 11.2 Dark Magic / 11.2.3 Special Dark Magic List / Kardis Special Dark Magic List
 - [[sword-world-rpg-complete-edition-section-chapter-11-notes-on-magic-11-2-dark-magic-11-2-3-special-dark-magic-list-phalaris-special-dark-m-c948eccb]] - narrower source section: Chapter 11: Notes on Magic / 11.2 Dark Magic / 11.2.3 Special Dark Magic List / Phalaris Special Dark Magic List ]
 - [[sword-world-rpg-complete-edition-section-chapter-11-notes-on-magic-11-2-dark-magic-11-2-3-special-dark-magic-list-the-nameless-god-of-mad-a74f2c3c]] - narrower source section: Chapter 11: Notes on Magic / 11.2 Dark Magic / 11.2.3 Special Dark Magic List / The Nameless God of Madness Special Dark Magic List
-- [[sword-world-rpg-complete-edition-section-chapter-11-notes-on-magic-11-2-dark-magic-11-2-3-special-dark-magic-list-kardis-special-dark-mag-45395b4b]] - narrower source section: Chapter 11: Notes on Magic / 11.2 Dark Magic / 11.2.3 Special Dark Magic List / Kardis Special Dark Magic List
-- [[sword-world-rpg-complete-edition-section-chapter-11-notes-on-magic-11-2-dark-magic-11-2-3-special-dark-magic-list-create-ghost-ship-spell-65e2f52b]] - narrower source section: Chapter 11: Notes on Magic / 11.2 Dark Magic / 11.2.3 Special Dark Magic List / [ Create Ghost Ship ] (Spell Level=6)
-- [[sword-world-rpg-complete-edition-section-chapter-11-notes-on-magic-11-2-dark-magic-10th-level-basic-dark-magic-list-call-god-32bbe070]] - previous source section: Chapter 11: Notes on Magic / 11.2 Dark Magic / 10th Level Basic Dark Magic List [ Call God ]
 
 ## Statements by subsection
 

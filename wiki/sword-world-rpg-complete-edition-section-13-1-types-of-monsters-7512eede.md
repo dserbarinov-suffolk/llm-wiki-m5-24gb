@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-13-1-types-of-monsters-7512eede@8eaeb13320aa53ad089afe561f3feec7
+projection_coverage: section-sword-world-rpg-complete-edition-section-13-1-types-of-monsters-7512eede@963eab8fa7200907276c0c1302dd1206
 ---
 
 # 13.1 Types of Monsters
@@ -17,18 +17,21 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-13-1-types-of-monsters-fae-b74946ce]] - narrower source section: 13.1 Types of Monsters / 《 Fae 》
-- [[sword-world-rpg-complete-edition-section-13-1-types-of-monsters-youma-88f0a111]] - narrower source section: 13.1 Types of Monsters / 《 Youma 》
-- [[sword-world-rpg-complete-edition-section-13-1-types-of-monsters-spirits-43d51143]] - narrower source section: 13.1 Types of Monsters / 《 Spirits 》
-- [[sword-world-rpg-complete-edition-section-13-1-types-of-monsters-titans-c6e4f09e]] - narrower source section: 13.1 Types of Monsters / 《 Titans 》
-- [[sword-world-rpg-complete-edition-section-13-1-types-of-monsters-mythical-beasts-and-magical-beasts-71c23084]] - narrower source section: 13.1 Types of Monsters / 《 Mythical Beasts and Magical Beasts 》
-- [[sword-world-rpg-complete-edition-section-13-1-types-of-monsters-animals-6a656fb9]] - narrower source section: 13.1 Types of Monsters / 《 Animals 》
-- [[sword-world-rpg-complete-edition-section-13-1-types-of-monsters-plants-677e280b]] - narrower source section: 13.1 Types of Monsters / 《 Plants 》
-- [[sword-world-rpg-complete-edition-section-13-1-types-of-monsters-undead-b9996f25]] - narrower source section: 13.1 Types of Monsters / 《 Undead 》
-- [[sword-world-rpg-complete-edition-section-13-1-types-of-monsters-magical-creatures-643def16]] - narrower source section: 13.1 Types of Monsters / 《 Magical Creatures 》
-- [[sword-world-rpg-complete-edition-section-13-1-types-of-monsters-daemons-underworld-creatures-0b5925cb]] - narrower source section: 13.1 Types of Monsters / 《 Daemons/Underworld Creatures 》
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-12-2-2-illnesses-5611d07e]] - previous source section: 12.2.2 Illnesses
 - [[sword-world-rpg-complete-edition-section-13-2-1-humans-2369e4b2]] - next source section: 13.2.1 《 Humans 》
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-13-1-types-of-monsters-animals-6a656fb9]] - narrower source section: 13.1 Types of Monsters / 《 Animals 》
+- [[sword-world-rpg-complete-edition-section-13-1-types-of-monsters-daemons-underworld-creatures-0b5925cb]] - narrower source section: 13.1 Types of Monsters / 《 Daemons/Underworld Creatures 》
+- [[sword-world-rpg-complete-edition-section-13-1-types-of-monsters-fae-b74946ce]] - narrower source section: 13.1 Types of Monsters / 《 Fae 》
+- [[sword-world-rpg-complete-edition-section-13-1-types-of-monsters-magical-creatures-643def16]] - narrower source section: 13.1 Types of Monsters / 《 Magical Creatures 》
+- [[sword-world-rpg-complete-edition-section-13-1-types-of-monsters-mythical-beasts-and-magical-beasts-71c23084]] - narrower source section: 13.1 Types of Monsters / 《 Mythical Beasts and Magical Beasts 》
+- [[sword-world-rpg-complete-edition-section-13-1-types-of-monsters-plants-677e280b]] - narrower source section: 13.1 Types of Monsters / 《 Plants 》
+- [[sword-world-rpg-complete-edition-section-13-1-types-of-monsters-spirits-43d51143]] - narrower source section: 13.1 Types of Monsters / 《 Spirits 》
+- [[sword-world-rpg-complete-edition-section-13-1-types-of-monsters-titans-c6e4f09e]] - narrower source section: 13.1 Types of Monsters / 《 Titans 》
 
 ## Statements
 
@@ -115,6 +118,7 @@ From [[sword-world-rpg-complete-edition]].
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-05884))_
 
+<a id="atom-technical-atom-c6ad81a89de7379e"></a>
 ```text
 13.2
 13.2 Monster Catalog

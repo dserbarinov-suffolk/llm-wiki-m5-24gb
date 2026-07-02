@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-18-3-rules-for-destroying-structures-18-3-3-handling-spirit-walls-spirit-wall-frau-8b42d241@b38bbfa1cb638682d6dee7268a266bd4
+projection_coverage: section-sword-world-rpg-complete-edition-section-18-3-rules-for-destroying-structures-18-3-3-handling-spirit-walls-spirit-wall-frau-8b42d241@054f45dd54da8dd62cdc61de94b5188c
 ---
 
 # 18.3 Rules for Destroying Structures / 18.3.3 Handling Spirit Walls / [ Spirit Wall: Frau ]
@@ -17,9 +17,14 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-18-3-rules-for-destroying-structures-18-3-3-handling-spirit-walls-6db38e28]] - broader source section: 18.3 Rules for Destroying Structures / 18.3.3 Handling Spirit Walls
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-18-3-rules-for-destroying-structures-18-3-3-handling-spirit-walls-spirit-wall-gnome-a3470262]] - previous source section: 18.3 Rules for Destroying Structures / 18.3.3 Handling Spirit Walls / [ Spirit Wall: Gnome ]
 - [[sword-world-rpg-complete-edition-section-18-3-rules-for-destroying-structures-18-3-3-handling-spirit-walls-spirit-wall-dryad-11b8ef5a]] - next source section: 18.3 Rules for Destroying Structures / 18.3.3 Handling Spirit Walls / [ Spirit Wall: Dryad ]
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-18-3-rules-for-destroying-structures-18-3-3-handling-spirit-walls-6db38e28]] - broader source section: 18.3 Rules for Destroying Structures / 18.3.3 Handling Spirit Walls
 
 ## Statements
 

@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-13-2-1-humans-featherfolk-9800b640@8c707170d5dd8b328a014ffe954e10e2
+projection_coverage: section-sword-world-rpg-complete-edition-section-13-2-1-humans-featherfolk-9800b640@7db170b89915e556313af9b3d812ef2d
 ---
 
 # 13.2.1 《 Humans 》 / [ Featherfolk ]
@@ -17,9 +17,14 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-13-2-1-humans-2369e4b2]] - broader source section: 13.2.1 《 Humans 》
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-13-2-1-humans-pooka-c87a72b2]] - previous source section: 13.2.1 《 Humans 》 / [ Pooka ]
 - [[sword-world-rpg-complete-edition-section-13-2-1-humans-merman-monster-level-2-rarity-11-agility-16-movement-speed-3-20-water-number-sever-e6b9d74e]] - next source section: 13.2.1 《 Humans 》 / [ Merman ] Monster Level=2 Rarity=11 Agility=16 Movement Speed=3/20 (water) Number=Several to dozens Frequency=Rare Intellect=Human Reaction=Neutral Attack Points=Weapon: 9 (2) Strike Points=5 Evasion Points=10 (3) Defense Points=4 Life Points/Resistance=14/10 (3) Mental Points/Resistance=16/10 (3) Special Abilities=Water adaptation Habitat=Seas Languages=Merman Perception=Five senses (illumination)
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-13-2-1-humans-2369e4b2]] - broader source section: 13.2.1 《 Humans 》
 
 ## Statements
 

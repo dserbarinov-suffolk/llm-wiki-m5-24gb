@@ -4,11 +4,11 @@ page_kind: source
 summary: Mutation / building with mutation: 9 source-backed entries and 1 atom(s) from raw/javascriptallonge.pdf.
 page_family: section-reference
 sources: raw/javascriptallonge.pdf
-updated: 2026-07-01
+updated: 2026-07-02
 domain: javascriptallonge
 category_path: sources/javascriptallonge/sections
 source_id: javascriptallonge.pdf
-projection_coverage: section-javascriptallonge-section-mutation-building-with-mutation-04e59f50@64f70439fb813483067dc3f61c535f6b
+projection_coverage: section-javascriptallonge-section-mutation-building-with-mutation-04e59f50@1db58b8321a8eab56835e81951984d01
 ---
 
 # Mutation / building with mutation
@@ -17,8 +17,13 @@ From [[javascriptallonge]].
 
 ## Related pages
 
-- [[javascriptallonge-section-mutation-93ded492]] - broader source section: Mutation
+### Source order
+
 - [[javascriptallonge-section-mutation-mutation-and-data-structures-a8d1f947]] - previous source section: Mutation / mutation and data structures
+
+### Source structure
+
+- [[javascriptallonge-section-mutation-93ded492]] - broader source section: Mutation
 
 ## Statements
 
@@ -36,6 +41,7 @@ From [[javascriptallonge]].
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01149))_
 
+<a id="atom-technical-atom-735da8efb72e03d5"></a>
 ```
 const reverse = (node, delayed = EMPTY) =>
 node === EMPTY

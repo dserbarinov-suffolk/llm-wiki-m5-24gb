@@ -4,11 +4,11 @@ page_kind: source
 summary: Served by the Pot: Collections / Summary: 4 source-backed entries and 0 atom(s) from raw/javascriptallonge.pdf.
 page_family: section-reference
 sources: raw/javascriptallonge.pdf
-updated: 2026-07-01
+updated: 2026-07-02
 domain: javascriptallonge
 category_path: sources/javascriptallonge/sections
 source_id: javascriptallonge.pdf
-projection_coverage: section-javascriptallonge-section-served-by-the-pot-collections-summary-bda1f2d6@e4d5a5eef374291aeb9a6475de473a28
+projection_coverage: section-javascriptallonge-section-served-by-the-pot-collections-summary-bda1f2d6@28ccdefa0186fe36cf05005fe8643158
 ---
 
 # Served by the Pot: Collections / Summary
@@ -17,8 +17,13 @@ From [[javascriptallonge]].
 
 ## Related pages
 
-- [[javascriptallonge-section-served-by-the-pot-collections-14399de3]] - broader source section: Served by the Pot: Collections
+### Source order
+
 - [[javascriptallonge-section-served-by-the-pot-collections-rewriting-iterable-operations-588fbe28]] - previous source section: Served by the Pot: Collections / rewriting iterable operations
+
+### Source structure
+
+- [[javascriptallonge-section-served-by-the-pot-collections-14399de3]] - broader source section: Served by the Pot: Collections
 
 ## Statements
 

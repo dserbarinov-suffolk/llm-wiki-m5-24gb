@@ -7,7 +7,7 @@ sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: concepts
-projection_coverage: topic-sword-world-rpg-complete-edition-bonus-damage@13fec0d3eaee1c6cab6d101a6100c23c
+projection_coverage: topic-sword-world-rpg-complete-edition-bonus-damage@dcdb6757afccc305fdc4a7c2e4e915c3
 ---
 
 # 【 Bonus Damage 】
@@ -157,6 +157,7 @@ What [[sword-world-rpg-complete-edition]] covers about 【 bonus damage 】:
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-01217))_
 
+<a id="atom-technical-atom-bb51a93f2c98b011"></a>
 > These characters can deal more damage to their foes, even when using the same sized weapon.
 
 ### Technical frame 2: Chapter 3: / 3.4.4 Actions You Can Take While Standing Still / Scores Used in Weapon Combat / 【 Bonus Damage 】
@@ -167,6 +168,7 @@ What [[sword-world-rpg-complete-edition]] covers about 【 bonus damage 】:
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-01219))_
 
+<a id="atom-technical-atom-0532c126cb093af2"></a>
 > bonus damage = fighter (thief/ranger) skill level + strength bonus
 
 ### Technical frame 3: 4.5.3 Bonus Damage
@@ -177,6 +179,7 @@ What [[sword-world-rpg-complete-edition]] covers about 【 bonus damage 】:
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-01292))_
 
+<a id="atom-technical-atom-86fb9813c7fc96c6"></a>
 > Once you've determined base damage, you must then add your character's bonus damage.
 
 ### Technical frame 4: 4.5.3 Bonus Damage
@@ -187,10 +190,13 @@ What [[sword-world-rpg-complete-edition]] covers about 【 bonus damage 】:
 
 **Atoms:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-01295, source-range-0d48087c-01296, source-range-0d48087c-01297))_
 
+<a id="atom-technical-atom-7cbb7a954db3b264"></a>
 > If base damage is 4, the total damage is 4+4= 8 ,
 
+<a id="atom-technical-atom-75b441a9c77fe833"></a>
 > If base damage is 18, the total damage is 18+4= 22 ,
 
+<a id="atom-technical-atom-db4015dceaa9d093"></a>
 > If base damage is 14, the total damage is 14+4= 18 .
 
 ### Technical frame 5: 4.5.3 Bonus Damage
@@ -201,6 +207,7 @@ What [[sword-world-rpg-complete-edition]] covers about 【 bonus damage 】:
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-01298))_
 
+<a id="atom-technical-atom-a42862ec7255d349"></a>
 > When determining base damage (strike roll), if you suddenly roll double ones, the damage will always be 0 .
 
 ### Technical frame 6: 13.2.6 Mythical Beasts and Magical Beasts / [ Horse ] / 13.2.8 Plants / [ Ash ] Monster Level=2 Rarity=11 Agility=9 Movement Speed=8 Number=Several Frequency=Moderate Intellect=Almost none Reaction=Violent Attack Points=- Strike Points=Evasion Points=- Defense Points=Life Points/Resistance=7/9 (2) Mental Points/Resistance=-/10 (3) Special Abilities=Wrap (Evasion target score=10, strike power 10, bonus damage 2) Mental attack immunity Weapon immunity Fire immunity Not affected by poison and illness Damage from healing magic Habitat=Ruins Languages=None Perception=Magic
@@ -211,13 +218,23 @@ What [[sword-world-rpg-complete-edition]] covers about 【 bonus damage 】:
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-07619))_
 
+<a id="atom-technical-atom-db6a97f4909ad717"></a>
 > If you cast the spirit magic Missile Protection , you can protect yourself from being enwrapped by the ash.
 
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-damage]] - broader topic: Damage shares source evidence from 《 Description 》 / [Centauri Blood (Touch/Damage)]: What's more, this poison is completely harmless at room temperature, and only becomes toxic when warmed by body heat. Those wearing cloth soaked with centauri blood ... [truncated] (1 shared statement(s))
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-4-5-3-bonus-damage-7c2fc601]] - source section: 4.5.3 Bonus Damage shares source evidence from 4.5.3 Bonus Damage: Once you've determined base damage, you must then add your character's bonus damage. This will be the total amount of damage the character deals the monster.; 4.5.3 Bonus Damage shares technical record from 4.5.3 Bonus Damage: Once you've determined base damage, you must then add your character's bonus damage. (3 shared statement(s), 5 shared atom(s))
+- [[sword-world-rpg-complete-edition-section-chapter-3-3-4-4-actions-you-can-take-while-standing-still-scores-used-in-weapon-combat-bonus-dam-defc1b25]] - source section: Chapter 3: / 3.4.4 Actions You Can Take While Standing Still / Scores Used in Weapon Combat / 【 Bonus Damage 】 shares source evidence from Chapter 3: / 3.4.4 Actions You Can Take While Standing Still / Scores Used in Weapon Combat / 【 Bonus Damage 】: Characters with deep experience in combat can handle weapons effectively. In addition, characters with high strength can wield weapons more powerfully. These charact ... [truncated]; Chapter 3: / 3.4.4 Actions You Can Take While Standing Still / Scores Used in Weapon Combat / 【 Bonus Damage 】 shares technical record from Chapter 3: / 3.4.4 Actions You Can Take While Standing Still / Scores Used in Weapon Combat / 【 Bonus Damage 】: These characters can deal more damage to their foes, even when using the same sized weapon. (3 shared statement(s), 2 shared atom(s))
+
+### Shared technical atoms
+
 - [[sword-world-rpg-complete-edition-target-score]] - shared statements and technical atoms: Target Scores shares source evidence from 13.2.6 Mythical Beasts and Magical Beasts / [ Dragon ]: Elder dragons also have the ability to breathe fire. Elder-species' fire spreads in a 30-meter forward radius, and those who fail a mental power resistance roll agai ... [truncated]; Target Scores shares technical record from 13.2.6 Mythical Beasts and Magical Beasts / [ Horse ] / 13.2.8 Plants / [ Ash ] Monster Level=2 Rarity=11 Agility=9 Movement Speed=8 Number=Several Frequency=Moderate Intellect=Almost none Reaction=Violent Attack Points=- Strike Points=Evasion Points=- Defense Points=Life Points/Resistance=7/9 (2) Mental Points/Resistance=-/10 (3) Special Abilities=Wrap (Evasion target score=10, strike power 10, bonus damage 2) Mental attack immunity Weapon immunity Fire immunity Not affected by poison and illness Damage from healing magic Habitat=Ruins Languages=None Perception=Magic: If you cast the spirit magic Missile Protection , you can protect yourself from being enwrapped by the ash. (1 shared statement(s), 1 shared atom(s))
+
+### Shared claims
+
 - [[sword-world-rpg-complete-edition-underworld-creature]] - shared statements: Underworld Creature shares source evidence from 13.2.6 Mythical Beasts and Magical Beasts / [ Horse ] / 13.2.11 Daemons/Underworld Creatures / [ Hellhound ]: At first glance, the hellhound looks like a large black dog. However, in reality, it' s a terrifying beast from the underworld, also known as the watchdog of Hell. H ... [truncated] (6 shared statement(s))
 - [[sword-world-rpg-complete-edition-ranger-skill]] - shared statements: 【 Ranger Skill 】 shares source evidence from Chapter 3: / 3.4.4 Actions You Can Take While Standing Still / Scores Used in Weapon Combat / 【 Bonus Damage 】: If fighter (or thief, ranger) skill level is 0 , bonus damage is 0 regardless of the character's strength bonus. (4 shared statement(s))
 - [[sword-world-rpg-complete-edition-thief-skill]] - shared statements: 【 Thief Skill 】 shares source evidence from Chapter 3: / 3.4.4 Actions You Can Take While Standing Still / Scores Used in Weapon Combat / 【 Bonus Damage 】: If fighter (or thief, ranger) skill level is 0 , bonus damage is 0 regardless of the character's strength bonus. (4 shared statement(s))
@@ -226,12 +243,10 @@ What [[sword-world-rpg-complete-edition]] covers about 【 bonus damage 】:
 - [[sword-world-rpg-complete-edition-attack-monster-character]] - shared statements: Attacks From Monsters Against Characters shares source evidence from 4.5.3 Bonus Damage: Once you've determined base damage, you must then add your character's bonus damage. This will be the total amount of damage the character deals the monster. (3 shared statement(s))
 - [[sword-world-rpg-complete-edition-damage-reduction]] - shared statements: 【 Damage Reduction 】 shares source evidence from Chapter 3: / 3.4.4 Actions You Can Take While Standing Still / Scores Used in Weapon Combat: Attack power , strike power , bonus damage , critical target , evasion speed , defense power , and damage reduction . (3 shared statement(s))
 - [[sword-world-rpg-complete-edition-10-magical-weapon]] - shared statements: 10 Magical Weapon shares source evidence from 4.10 Excellent Weapons and Armor / 4.10.3 Magical Weapons and Armor / 【 Magical Weapons 】: Magical weapons have exceptional attack power and bonus damage . If you use a +1 magical weapon, you receive a +1 bonus to attack power and bonus damage. If +2, thos ... [truncated] (2 shared statement(s))
-- [[sword-world-rpg-complete-edition-critical-target-variation]] - shared statements: Critical Target Variation shares source evidence from Chapter 3: / 3.4.4 Actions You Can Take While Standing Still / Scores Used in Weapon Combat: Attack power , strike power , bonus damage , critical target , evasion speed , defense power , and damage reduction . (2 shared statement(s))
-- [[sword-world-rpg-complete-edition-filling-character-sheet]] - shared statements: 1.4.9 Filling Out the Character Sheet shares source evidence from Chapter 3: / 3.4.4 Actions You Can Take While Standing Still / Scores Used in Weapon Combat / Filling out the Character Sheet: The entry fields may seem complicated, but this is to assist you when using Chapter 16: Optional Rules for Combat (see p. 260). Now, don't worry about it too much. I ... [truncated] (1 shared statement(s))
-- [[sword-world-rpg-complete-edition-fire-breath]] - shared statements: [ Fire Breath ] shares source evidence from Chapter 11: Notes on Magic / 11.3 Dragon Roar Magic / 4th Level Dragon Roar Magic List / [ Fire Breath ]: The caster breathes fire from their mouth like a dragon. The fire's area of effect is a semicircle with a 10 meter forward radius. The fire's strike power is 20, and ... [truncated] (1 shared statement(s))
-- [[sword-world-rpg-complete-edition-weapon-critical]] - shared statements: 《 Weapons Cannot Critical 》 shares source evidence from Chapter 3: / 3.4.4 Actions You Can Take While Standing Still / Scores Used in Weapon Combat / Filling out the Character Sheet: The entry fields may seem complicated, but this is to assist you when using Chapter 16: Optional Rules for Combat (see p. 260). Now, don't worry about it too much. I ... [truncated] (1 shared statement(s))
-- [[sword-world-rpg-complete-edition-section-chapter-3-3-4-4-actions-you-can-take-while-standing-still-scores-used-in-weapon-combat-bonus-dam-defc1b25]] - source section: Chapter 3: / 3.4.4 Actions You Can Take While Standing Still / Scores Used in Weapon Combat / 【 Bonus Damage 】 shares source evidence from Chapter 3: / 3.4.4 Actions You Can Take While Standing Still / Scores Used in Weapon Combat / 【 Bonus Damage 】: Characters with deep experience in combat can handle weapons effectively. In addition, characters with high strength can wield weapons more powerfully. These charact ... [truncated]; Chapter 3: / 3.4.4 Actions You Can Take While Standing Still / Scores Used in Weapon Combat / 【 Bonus Damage 】 shares technical record from Chapter 3: / 3.4.4 Actions You Can Take While Standing Still / Scores Used in Weapon Combat / 【 Bonus Damage 】: These characters can deal more damage to their foes, even when using the same sized weapon. (3 shared statement(s), 2 shared atom(s))
-- [[sword-world-rpg-complete-edition-section-4-5-3-bonus-damage-7c2fc601]] - source section: 4.5.3 Bonus Damage shares source evidence from 4.5.3 Bonus Damage: Once you've determined base damage, you must then add your character's bonus damage. This will be the total amount of damage the character deals the monster.; 4.5.3 Bonus Damage shares technical record from 4.5.3 Bonus Damage: Once you've determined base damage, you must then add your character's bonus damage. (3 shared statement(s), 5 shared atom(s))
+
+### Topics
+
+- [[sword-world-rpg-complete-edition-damage]] - broader topic: Damage shares source evidence from 《 Description 》 / [Centauri Blood (Touch/Damage)]: What's more, this poison is completely harmless at room temperature, and only becomes toxic when warmed by body heat. Those wearing cloth soaked with centauri blood ... [truncated] (1 shared statement(s))
 
 ## Source
 

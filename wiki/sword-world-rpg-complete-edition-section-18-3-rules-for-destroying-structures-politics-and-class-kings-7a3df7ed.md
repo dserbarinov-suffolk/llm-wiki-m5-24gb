@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-18-3-rules-for-destroying-structures-politics-and-class-kings-7a3df7ed@03b6f755db3810c245b66bea9cbea501
+projection_coverage: section-sword-world-rpg-complete-edition-section-18-3-rules-for-destroying-structures-politics-and-class-kings-7a3df7ed@737d8c6a201dad1e7b8783a9e42ee539
 ---
 
 # 18.3 Rules for Destroying Structures / Politics and Class / Kings
@@ -17,9 +17,14 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-18-3-rules-for-destroying-structures-politics-and-class-f3bf72c2]] - broader source section: 18.3 Rules for Destroying Structures / Politics and Class
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-18-3-rules-for-destroying-structures-politics-and-class-kingdoms-c0c3ae2b]] - previous source section: 18.3 Rules for Destroying Structures / Politics and Class / Kingdoms
 - [[sword-world-rpg-complete-edition-section-18-3-rules-for-destroying-structures-politics-and-class-nobles-knights-36560e33]] - next source section: 18.3 Rules for Destroying Structures / Politics and Class / Nobles/Knights
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-18-3-rules-for-destroying-structures-politics-and-class-f3bf72c2]] - broader source section: 18.3 Rules for Destroying Structures / Politics and Class
 
 ## Statements
 

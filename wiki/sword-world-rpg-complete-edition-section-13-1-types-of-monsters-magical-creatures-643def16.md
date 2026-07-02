@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-13-1-types-of-monsters-magical-creatures-643def16@97a259d576a7236ac4bb023e32904e01
+projection_coverage: section-sword-world-rpg-complete-edition-section-13-1-types-of-monsters-magical-creatures-643def16@bd4b284fde410a4cd898e22436183920
 ---
 
 # 13.1 Types of Monsters / 《 Magical Creatures 》
@@ -17,9 +17,14 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-13-1-types-of-monsters-7512eede]] - broader source section: 13.1 Types of Monsters
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-13-1-types-of-monsters-undead-b9996f25]] - previous source section: 13.1 Types of Monsters / 《 Undead 》
 - [[sword-world-rpg-complete-edition-section-13-1-types-of-monsters-daemons-underworld-creatures-0b5925cb]] - next source section: 13.1 Types of Monsters / 《 Daemons/Underworld Creatures 》
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-13-1-types-of-monsters-7512eede]] - broader source section: 13.1 Types of Monsters
 
 ## Statements
 

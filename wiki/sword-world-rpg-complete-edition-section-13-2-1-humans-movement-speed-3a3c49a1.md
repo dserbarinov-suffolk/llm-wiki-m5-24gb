@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-13-2-1-humans-movement-speed-3a3c49a1@6be547fe48f856f61545eac0b44ee986
+projection_coverage: section-sword-world-rpg-complete-edition-section-13-2-1-humans-movement-speed-3a3c49a1@f85f592e295644e5a290d3f0e63a1bf8
 ---
 
 # 13.2.1 《 Humans 》 / 《 Movement Speed 》
@@ -17,9 +17,14 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-13-2-1-humans-2369e4b2]] - broader source section: 13.2.1 《 Humans 》
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-13-2-1-humans-agility-6019ab3f]] - previous source section: 13.2.1 《 Humans 》 / 《 Agility 》
 - [[sword-world-rpg-complete-edition-section-13-2-1-humans-number-c093d105]] - next source section: 13.2.1 《 Humans 》 / 《 Number 》
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-13-2-1-humans-2369e4b2]] - broader source section: 13.2.1 《 Humans 》
 
 ## Statements
 

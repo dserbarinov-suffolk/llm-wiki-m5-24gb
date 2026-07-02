@@ -2,6 +2,8 @@
 
 from __future__ import annotations
 
+from pathlib import Path
+
 from llmwiki.domain.ledger.artifacts import ProjectionCoverageArtifact
 from llmwiki.domain.ledger.ledger import ClaimLedger
 from llmwiki.domain.ledger.projection_context import ProjectionContext
@@ -127,11 +129,13 @@ def source_element_records(model: DocumentModel) -> tuple[SourceElementRecord, .
 
 
 def source_title(source_locator: str, structure: DocumentStructure) -> str:
-    for node in structure.structure_nodes:
-        if node.structure_node_kind == "chapter" and node.heading_text.strip():
-            return node.heading_text.strip()
-    stem = source_locator.rsplit(".", 1)[0].replace("_", " ").replace("-", " ")
-    return stem.title()
+    _ = structure
+    stem = Path(source_locator).stem.replace("_", " ").replace("-", " ")
+    return " ".join(_title_word(word) for word in stem.split())
+
+
+def _title_word(word: str) -> str:
+    return word if word.isupper() else word.capitalize()
 
 
 def ledger_summary(ledger: ClaimLedger, decision: str, linked_page_count: int = 0) -> str:

@@ -8,6 +8,7 @@ from __future__ import annotations
 
 from dataclasses import dataclass
 
+from llmwiki.domain.ledger.atom_addressing import technical_atom_anchor
 from llmwiki.domain.ledger.atom_context import best_atom_context
 from llmwiki.domain.ledger.atoms import TechnicalAtom
 from llmwiki.domain.ledger.canonical import short_digest
@@ -31,7 +32,7 @@ from llmwiki.domain.ledger.section_page_atoms import atoms_for_section_entries
 from llmwiki.domain.ledger.structure import DocumentStructure, StructureNode
 from llmwiki.domain.ledger.topic_models import SourceTopic
 from llmwiki.domain.ledger.topic_relations import RelatedTopicLink
-from llmwiki.domain.ledger.walkability import audit_related_links, related_link_markdown
+from llmwiki.domain.ledger.walkability import audit_related_links, related_links_markdown
 from llmwiki.domain.pages import PageMetadata, WikiPage, slugify
 
 _SECTION_NODE_KINDS = {"chapter", "section", "heading"}
@@ -116,8 +117,7 @@ def _body(
     lines = [f"# {projection.title}", "", f"From [[{source_page_id}]].", ""]
     if related_links:
         lines.extend(("## Related pages", ""))
-        for link in related_links:
-            lines.append(related_link_markdown(link))
+        lines.extend(related_links_markdown(related_links).splitlines())
         lines.append("")
     direct_claims = _claim_entries(projection.direct_entries)
     if direct_claims:
@@ -217,6 +217,7 @@ def _append_atoms(
             continue
         lines.extend((f"### Technical atom {next_index}", ""))
         next_index += 1
+        lines.extend((technical_atom_anchor(atom.technical_atom_id), ""))
         context = best_atom_context(ledger.atom_contexts(atom.technical_atom_id))
         if context is not None:
             lines.extend(atom_context_block(context, atom.source_locator).strip().splitlines())

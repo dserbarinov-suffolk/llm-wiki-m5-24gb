@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-1-replay-collections-98ae659a@9266bd00fc8336b46928b0ab9dc03a77
+projection_coverage: section-sword-world-rpg-complete-edition-section-1-replay-collections-98ae659a@9f6575e2bc2302984d01561f2853b530
 ---
 
 # 1. Replay Collections
@@ -16,6 +16,8 @@ projection_coverage: section-sword-world-rpg-complete-edition-section-1-replay-c
 From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
+
+### Source order
 
 - [[sword-world-rpg-complete-edition-section-books-related-to-sword-world-rpg-0bf442c7]] - previous source section: Books Related to Sword World RPG
 
@@ -39,4 +41,5 @@ From [[sword-world-rpg-complete-edition]].
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-00118))_
 
+<a id="atom-technical-atom-6cb4c03e508f5d26"></a>
 > [Figure] (p.8)

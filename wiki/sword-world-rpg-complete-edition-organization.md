@@ -7,7 +7,7 @@ sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: concepts
-projection_coverage: topic-sword-world-rpg-complete-edition-organization@84856f108045b69eb364747c47622d1d
+projection_coverage: topic-sword-world-rpg-complete-edition-organization@54c8c4224f7656d8d0e52990d54e5fb0
 ---
 
 # Organization
@@ -45,6 +45,7 @@ What [[sword-world-rpg-complete-edition]] covers about organization:
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-10766))_
 
+<a id="atom-technical-atom-5b6381d59eef963d"></a>
 > Additionally, those who are guild members in one country may receive special privileges when joining guilds in other countries, such as only needing to pay a fee.
 
 ### Technical frame 2: 18.3 Rules for Destroying Structures / Organizations and Groups / Merchant's License
@@ -55,10 +56,13 @@ What [[sword-world-rpg-complete-edition]] covers about organization:
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-10770))_
 
+<a id="atom-technical-atom-009388092f61f1e3"></a>
 > Of course, a Merchant's License issued in one country isn't valid everywhere, but if you wish to trade in another country, having a license typically means you can bypass strict screening and simply pay a standard fee to proceed.
 
 
 ## Related pages
+
+### Shared claims
 
 - [[sword-world-rpg-complete-edition-sorcerer-guild-academy]] - shared statements: Sorcerer Guild Academy shares source evidence from 18.3 Rules for Destroying Structures / Organizations and Groups / Thieves Guild/Sorcerers' Guild (Academy): Though not official guilds, the Thieves Guild and Sorcerers' Guild (Academy) are essential organizations. Both are global organizations that regularly exchange infor ... [truncated] (1 shared statement(s))
 - [[sword-world-rpg-complete-edition-thieve-guild]] - shared statements: Thieve Guild shares source evidence from 18.3 Rules for Destroying Structures / Organizations and Groups / Thieves Guild/Sorcerers' Guild (Academy): Though not official guilds, the Thieves Guild and Sorcerers' Guild (Academy) are essential organizations. Both are global organizations that regularly exchange infor ... [truncated] (1 shared statement(s))

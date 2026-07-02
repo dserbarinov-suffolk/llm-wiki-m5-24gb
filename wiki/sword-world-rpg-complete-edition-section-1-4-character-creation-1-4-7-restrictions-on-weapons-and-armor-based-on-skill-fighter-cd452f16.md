@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-1-4-character-creation-1-4-7-restrictions-on-weapons-and-armor-based-on-skill-fighter-cd452f16@f66ea56253c0a7282cae8f482d9f8463
+projection_coverage: section-sword-world-rpg-complete-edition-section-1-4-character-creation-1-4-7-restrictions-on-weapons-and-armor-based-on-skill-fighter-cd452f16@219b6e076491c2ce8bbc614d60ff3367
 ---
 
 # 1.4 Character Creation / 1.4.7 Restrictions on Weapons and Armor Based on Skill / [ Fighter ］
@@ -17,8 +17,13 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-1-4-character-creation-1-4-7-restrictions-on-weapons-and-armor-based-on-skill-2ee2bab4]] - broader source section: 1.4 Character Creation / 1.4.7 Restrictions on Weapons and Armor Based on Skill
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-1-4-character-creation-1-4-7-restrictions-on-weapons-and-armor-based-on-skill-thief-8785babb]] - next source section: 1.4 Character Creation / 1.4.7 Restrictions on Weapons and Armor Based on Skill / [ Thief ]
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-1-4-character-creation-1-4-7-restrictions-on-weapons-and-armor-based-on-skill-2ee2bab4]] - broader source section: 1.4 Character Creation / 1.4.7 Restrictions on Weapons and Armor Based on Skill
 
 ## Statements
 

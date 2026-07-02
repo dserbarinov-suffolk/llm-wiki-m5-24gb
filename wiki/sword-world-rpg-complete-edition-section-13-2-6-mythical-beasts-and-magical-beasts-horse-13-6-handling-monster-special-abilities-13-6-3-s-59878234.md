@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-13-2-6-mythical-beasts-and-magical-beasts-horse-13-6-handling-monster-special-abilities-13-6-3-s-59878234@1fba60dee85fcb98e5fc1e01fe42f8d5
+projection_coverage: section-sword-world-rpg-complete-edition-section-13-2-6-mythical-beasts-and-magical-beasts-horse-13-6-handling-monster-special-abilities-13-6-3-s-59878234@d831924a4b19757f58f31a94935d5573
 ---
 
 # 13.2.6 Mythical Beasts and Magical Beasts / [ Horse ] / 13.6 Handling Monster Special Abilities / 13.6.3 Special Attacks: Other
@@ -17,19 +17,21 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-13-2-6-mythical-beasts-and-magical-beasts-horse-13-6-handling-monster-special-abilities-11888df1]] - broader source section: 13.2.6 Mythical Beasts and Magical Beasts / [ Horse ] / 13.6 Handling Monster Special Abilities
-- [[sword-world-rpg-complete-edition-section-13-2-6-mythical-beasts-and-magical-beasts-horse-13-6-handling-monster-special-abilities-13-6-3-s-e5934bb7]] - narrower source section: 13.2.6 Mythical Beasts and Magical Beasts / [ Horse ] / 13.6 Handling Monster Special Abilities / 13.6.3 Special Attacks: Other / 《 Disease 》
-- [[sword-world-rpg-complete-edition-section-13-2-6-mythical-beasts-and-magical-beasts-horse-13-6-handling-monster-special-abilities-13-6-3-s-4f8ec37d]] - narrower source section: 13.2.6 Mythical Beasts and Magical Beasts / [ Horse ] / 13.6 Handling Monster Special Abilities / 13.6.3 Special Attacks: Other / 《 Strangling 》
-- [[sword-world-rpg-complete-edition-section-13-2-6-mythical-beasts-and-magical-beasts-horse-13-6-handling-monster-special-abilities-13-6-3-s-3268cad4]] - narrower source section: 13.2.6 Mythical Beasts and Magical Beasts / [ Horse ] / 13.6 Handling Monster Special Abilities / 13.6.3 Special Attacks: Other / 《 Capture 》
-- [[sword-world-rpg-complete-edition-section-13-2-6-mythical-beasts-and-magical-beasts-horse-13-6-handling-monster-special-abilities-13-6-3-s-10dcba9d]] - narrower source section: 13.2.6 Mythical Beasts and Magical Beasts / [ Horse ] / 13.6 Handling Monster Special Abilities / 13.6.3 Special Attacks: Other / 《 Entangling 》
-- [[sword-world-rpg-complete-edition-section-13-2-6-mythical-beasts-and-magical-beasts-horse-13-6-handling-monster-special-abilities-13-6-3-s-e709b98b]] - narrower source section: 13.2.6 Mythical Beasts and Magical Beasts / [ Horse ] / 13.6 Handling Monster Special Abilities / 13.6.3 Special Attacks: Other / 《 Swallow Whole 》
-- [[sword-world-rpg-complete-edition-section-13-2-6-mythical-beasts-and-magical-beasts-horse-13-6-handling-monster-special-abilities-13-6-3-s-5abd5c45]] - narrower source section: 13.2.6 Mythical Beasts and Magical Beasts / [ Horse ] / 13.6 Handling Monster Special Abilities / 13.6.3 Special Attacks: Other / 《 Bloodsuck 》
-- [[sword-world-rpg-complete-edition-section-13-2-6-mythical-beasts-and-magical-beasts-horse-13-6-handling-monster-special-abilities-13-6-3-s-672cff4e]] - narrower source section: 13.2.6 Mythical Beasts and Magical Beasts / [ Horse ] / 13.6 Handling Monster Special Abilities / 13.6.3 Special Attacks: Other / 《 Acid 》
-- [[sword-world-rpg-complete-edition-section-13-2-6-mythical-beasts-and-magical-beasts-horse-13-6-handling-monster-special-abilities-13-6-3-s-dd4e0457]] - narrower source section: 13.2.6 Mythical Beasts and Magical Beasts / [ Horse ] / 13.6 Handling Monster Special Abilities / 13.6.3 Special Attacks: Other / 《 Corrosion 》
-- [[sword-world-rpg-complete-edition-section-13-2-6-mythical-beasts-and-magical-beasts-horse-13-6-handling-monster-special-abilities-13-6-3-s-e8d713f4]] - narrower source section: 13.2.6 Mythical Beasts and Magical Beasts / [ Horse ] / 13.6 Handling Monster Special Abilities / 13.6.3 Special Attacks: Other / 《 Steal Mental Power 》
-- [[sword-world-rpg-complete-edition-section-13-2-6-mythical-beasts-and-magical-beasts-horse-13-6-handling-monster-special-abilities-13-6-3-s-9ecc7ca6]] - narrower source section: 13.2.6 Mythical Beasts and Magical Beasts / [ Horse ] / 13.6 Handling Monster Special Abilities / 13.6.3 Special Attacks: Other / 《 Iron Corrosion 》
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-13-2-6-mythical-beasts-and-magical-beasts-horse-13-6-handling-monster-special-abilities-8e802c91]] - previous source section: 13.2.6 Mythical Beasts and Magical Beasts / [ Horse ] / 13.6 Handling Monster Special Abilities
 - [[sword-world-rpg-complete-edition-section-13-2-6-mythical-beasts-and-magical-beasts-horse-13-6-handling-monster-special-abilities-a7b016da]] - next source section: 13.2.6 Mythical Beasts and Magical Beasts / [ Horse ] / 13.6 Handling Monster Special Abilities
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-13-2-6-mythical-beasts-and-magical-beasts-horse-13-6-handling-monster-special-abilities-11888df1]] - broader source section: 13.2.6 Mythical Beasts and Magical Beasts / [ Horse ] / 13.6 Handling Monster Special Abilities
+- [[sword-world-rpg-complete-edition-section-13-2-6-mythical-beasts-and-magical-beasts-horse-13-6-handling-monster-special-abilities-13-6-3-s-10dcba9d]] - narrower source section: 13.2.6 Mythical Beasts and Magical Beasts / [ Horse ] / 13.6 Handling Monster Special Abilities / 13.6.3 Special Attacks: Other / 《 Entangling 》
+- [[sword-world-rpg-complete-edition-section-13-2-6-mythical-beasts-and-magical-beasts-horse-13-6-handling-monster-special-abilities-13-6-3-s-3268cad4]] - narrower source section: 13.2.6 Mythical Beasts and Magical Beasts / [ Horse ] / 13.6 Handling Monster Special Abilities / 13.6.3 Special Attacks: Other / 《 Capture 》
+- [[sword-world-rpg-complete-edition-section-13-2-6-mythical-beasts-and-magical-beasts-horse-13-6-handling-monster-special-abilities-13-6-3-s-4f8ec37d]] - narrower source section: 13.2.6 Mythical Beasts and Magical Beasts / [ Horse ] / 13.6 Handling Monster Special Abilities / 13.6.3 Special Attacks: Other / 《 Strangling 》
+- [[sword-world-rpg-complete-edition-section-13-2-6-mythical-beasts-and-magical-beasts-horse-13-6-handling-monster-special-abilities-13-6-3-s-5abd5c45]] - narrower source section: 13.2.6 Mythical Beasts and Magical Beasts / [ Horse ] / 13.6 Handling Monster Special Abilities / 13.6.3 Special Attacks: Other / 《 Bloodsuck 》
+- [[sword-world-rpg-complete-edition-section-13-2-6-mythical-beasts-and-magical-beasts-horse-13-6-handling-monster-special-abilities-13-6-3-s-672cff4e]] - narrower source section: 13.2.6 Mythical Beasts and Magical Beasts / [ Horse ] / 13.6 Handling Monster Special Abilities / 13.6.3 Special Attacks: Other / 《 Acid 》
+- [[sword-world-rpg-complete-edition-section-13-2-6-mythical-beasts-and-magical-beasts-horse-13-6-handling-monster-special-abilities-13-6-3-s-9ecc7ca6]] - narrower source section: 13.2.6 Mythical Beasts and Magical Beasts / [ Horse ] / 13.6 Handling Monster Special Abilities / 13.6.3 Special Attacks: Other / 《 Iron Corrosion 》
+- [[sword-world-rpg-complete-edition-section-13-2-6-mythical-beasts-and-magical-beasts-horse-13-6-handling-monster-special-abilities-13-6-3-s-dd4e0457]] - narrower source section: 13.2.6 Mythical Beasts and Magical Beasts / [ Horse ] / 13.6 Handling Monster Special Abilities / 13.6.3 Special Attacks: Other / 《 Corrosion 》
 
 ## Statements by subsection
 

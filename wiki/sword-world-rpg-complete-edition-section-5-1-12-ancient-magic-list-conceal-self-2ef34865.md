@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-5-1-12-ancient-magic-list-conceal-self-2ef34865@d28d95c03a4a6cff1fbedc152ffb0a1a
+projection_coverage: section-sword-world-rpg-complete-edition-section-5-1-12-ancient-magic-list-conceal-self-2ef34865@15e94676a6f477dd4ba3a7d985400803
 ---
 
 # 5.1.12 Ancient Magic List / [ Conceal Self ]
@@ -17,9 +17,14 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-5-1-12-ancient-magic-list-2e59bfee]] - broader source section: 5.1.12 Ancient Magic List
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-5-1-12-ancient-magic-list-levitation-ebabb699]] - previous source section: 5.1.12 Ancient Magic List / [ Levitation ]
 - [[sword-world-rpg-complete-edition-section-5-1-12-ancient-magic-list-shape-change-1e62400c]] - next source section: 5.1.12 Ancient Magic List / [ Shape Change
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-5-1-12-ancient-magic-list-2e59bfee]] - broader source section: 5.1.12 Ancient Magic List
 
 ## Statements
 

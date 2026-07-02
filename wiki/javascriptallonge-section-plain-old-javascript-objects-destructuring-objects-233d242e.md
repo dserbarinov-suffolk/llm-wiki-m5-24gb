@@ -4,11 +4,11 @@ page_kind: source
 summary: Plain Old JavaScript Objects / destructuring objects: 7 source-backed entries and 3 atom(s) from raw/javascriptallonge.pdf.
 page_family: section-reference
 sources: raw/javascriptallonge.pdf
-updated: 2026-07-01
+updated: 2026-07-02
 domain: javascriptallonge
 category_path: sources/javascriptallonge/sections
 source_id: javascriptallonge.pdf
-projection_coverage: section-javascriptallonge-section-plain-old-javascript-objects-destructuring-objects-233d242e@b79b3c1d58efb30220270b3e1e9f7cfe
+projection_coverage: section-javascriptallonge-section-plain-old-javascript-objects-destructuring-objects-233d242e@162bb077ec8a7f09edd01d9e434ecafe
 ---
 
 # Plain Old JavaScript Objects / destructuring objects
@@ -17,9 +17,14 @@ From [[javascriptallonge]].
 
 ## Related pages
 
-- [[javascriptallonge-section-plain-old-javascript-objects-79315aff]] - broader source section: Plain Old JavaScript Objects
+### Source order
+
 - [[javascriptallonge-section-plain-old-javascript-objects-literal-object-syntax-25e0b081]] - previous source section: Plain Old JavaScript Objects / literal object syntax
 - [[javascriptallonge-section-plain-old-javascript-objects-revisiting-linked-lists-23e98a21]] - next source section: Plain Old JavaScript Objects / revisiting linked lists
+
+### Source structure
+
+- [[javascriptallonge-section-plain-old-javascript-objects-79315aff]] - broader source section: Plain Old JavaScript Objects
 
 ## Statements
 
@@ -35,6 +40,7 @@ From [[javascriptallonge]].
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01091))_
 
+<a id="atom-technical-atom-cca4608e07a067cc"></a>
 ```
 const user = {
 name: { first: "Reginald",
@@ -68,6 +74,7 @@ title
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01096))_
 
+<a id="atom-technical-atom-b6a4e0f7d193b194"></a>
 ```
 const description = ({name: { first }, occupation: { title } }) =>
 `${first} is a ${title}`;
@@ -85,6 +92,7 @@ const abbrev = ({name: { first, last }, occupation: { title } }) => {
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01097))_
 
+<a id="atom-technical-atom-160e07446d578d5b"></a>
 ```
 const abbrev = ({name: { first, last }, occupation: { title } }) =>
 return { first, last, title};

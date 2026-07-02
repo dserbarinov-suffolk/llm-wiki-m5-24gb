@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-12-2-2-illnesses-work-requests-to-npcs-d3908296@310de2152808efebf6cf13bf99ba8c6e
+projection_coverage: section-sword-world-rpg-complete-edition-section-12-2-2-illnesses-work-requests-to-npcs-d3908296@4455353505eb8d6c8b1fa56df321e009
 ---
 
 # 12.2.2 Illnesses / Work Requests to NPCs
@@ -17,8 +17,13 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-12-2-2-illnesses-5611d07e]] - broader source section: 12.2.2 Illnesses
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-12-2-2-illnesses-mandrake-b0793d01]] - previous source section: 12.2.2 Illnesses / [ Mandrake ]
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-12-2-2-illnesses-5611d07e]] - broader source section: 12.2.2 Illnesses
 
 ## Statements
 

@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-17-5-full-resistance-969284f0@682aebc62b726ac24e536f667b372417
+projection_coverage: section-sword-world-rpg-complete-edition-section-17-5-full-resistance-969284f0@d2d7a0205a682937fea7651dcb94607d
 ---
 
 # 17.5 Full Resistance
@@ -17,8 +17,13 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-17-4-using-magic-without-a-catalyst-6a2df968]] - previous source section: 17.4 Using Magic Without a Catalyst
 - [[sword-world-rpg-complete-edition-section-18-1-rules-for-awarding-greater-experience-points-7c15cfe5]] - next source section: 18.1 Rules for Awarding Greater Experience Points
+
+### Topics
+
 - [[sword-world-rpg-complete-edition-resistance]] - topic hub: opens the topic page for Resistance
 
 ## Statements
@@ -45,4 +50,5 @@ From [[sword-world-rpg-complete-edition]].
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-10547))_
 
+<a id="atom-technical-atom-574b163e8c903440"></a>
 > One is that the character cannot take any other actions (wielding a weapon, casting spells, etc.) during that round.

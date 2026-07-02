@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-staves-and-wands-ice-blaze-wand-staff-of-fire-b2d25849@3d29dc5b57c7f6b92965e4bb278b0e70
+projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-staves-and-wands-ice-blaze-wand-staff-of-fire-b2d25849@2b7881030ec3a5f75e6774100711f7cd
 ---
 
 # Chapter 14: / 14.4 Magical Item List / 《 Staves and Wands 》 [ Ice Blaze Wand ] / [ Staff of Fire ]
@@ -17,9 +17,14 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-staves-and-wands-ice-blaze-wand-8c8e01dd]] - broader source section: Chapter 14: / 14.4 Magical Item List / 《 Staves and Wands 》 [ Ice Blaze Wand ]
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-staves-and-wands-ice-blaze-wand-staff-of-sorcery-a5278460]] - previous source section: Chapter 14: / 14.4 Magical Item List / 《 Staves and Wands 》 [ Ice Blaze Wand ] / [ Staff of Sorcery ]
 - [[sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-staves-and-wands-ice-blaze-wand-sorcerer-staff-1d564e5b]] - next source section: Chapter 14: / 14.4 Magical Item List / 《 Staves and Wands 》 [ Ice Blaze Wand ] / [ Sorcerer Staff ]
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-staves-and-wands-ice-blaze-wand-8c8e01dd]] - broader source section: Chapter 14: / 14.4 Magical Item List / 《 Staves and Wands 》 [ Ice Blaze Wand ]
 
 ## Statements
 

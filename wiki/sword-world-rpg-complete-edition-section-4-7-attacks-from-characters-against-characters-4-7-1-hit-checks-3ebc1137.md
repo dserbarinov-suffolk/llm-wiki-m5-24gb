@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-4-7-attacks-from-characters-against-characters-4-7-1-hit-checks-3ebc1137@3ab244089b9836980fcb1e31216a5623
+projection_coverage: section-sword-world-rpg-complete-edition-section-4-7-attacks-from-characters-against-characters-4-7-1-hit-checks-3ebc1137@aa9ca7813a7c0fc50fea82e728f7a4f8
 ---
 
 # 4.7 Attacks From Characters Against Characters / 4.7.1 Hit Checks
@@ -17,8 +17,16 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-4-7-attacks-from-characters-against-characters-86d787cb]] - broader source section: 4.7 Attacks From Characters Against Characters
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-4-7-attacks-from-characters-against-characters-double-sixes-and-double-ones-8a562321]] - next source section: 4.7 Attacks From Characters Against Characters / Double Sixes and Double Ones
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-4-7-attacks-from-characters-against-characters-86d787cb]] - broader source section: 4.7 Attacks From Characters Against Characters
+
+### Topics
+
 - [[sword-world-rpg-complete-edition-hit-check]] - topic hub: opens the topic page for Hit Check
 
 ## Statements
@@ -39,6 +47,8 @@ From [[sword-world-rpg-complete-edition]].
 
 **Atoms:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-01361, source-range-0d48087c-01362))_
 
+<a id="atom-technical-atom-3267c59d40b62f7c"></a>
 > attacker's final score = attack power + 2D
 
+<a id="atom-technical-atom-53438131c85a081d"></a>
 > defender's final score = evasion speed + 2D

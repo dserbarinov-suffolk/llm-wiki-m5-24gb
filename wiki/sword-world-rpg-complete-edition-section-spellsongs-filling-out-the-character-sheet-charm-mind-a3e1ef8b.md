@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-spellsongs-filling-out-the-character-sheet-charm-mind-a3e1ef8b@db3ec11d56068da1a359591984ab1d5e
+projection_coverage: section-sword-world-rpg-complete-edition-section-spellsongs-filling-out-the-character-sheet-charm-mind-a3e1ef8b@17ef79480ac48731d06c41ddd162f0f7
 ---
 
 # Spellsongs / Filling out the Character Sheet / Charm (Mind)
@@ -17,9 +17,14 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-spellsongs-filling-out-the-character-sheet-866f5da1]] - broader source section: Spellsongs / Filling out the Character Sheet
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-spellsongs-filling-out-the-character-sheet-dance-mind-039e6aed]] - previous source section: Spellsongs / Filling out the Character Sheet / Dance (Mind)
 - [[sword-world-rpg-complete-edition-section-spellsongs-filling-out-the-character-sheet-nostalgia-mind-4f5a42c9]] - next source section: Spellsongs / Filling out the Character Sheet / Nostalgia (Mind)
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-spellsongs-filling-out-the-character-sheet-866f5da1]] - broader source section: Spellsongs / Filling out the Character Sheet
 
 ## Statements
 
@@ -33,6 +38,7 @@ From [[sword-world-rpg-complete-edition]].
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-03932))_
 
+<a id="atom-technical-atom-f5366413a6f9df24"></a>
 ```text
 Table 5-10: Requiem
  around the bard. It takes about 18 rounds
@@ -44,6 +50,7 @@ Table 5-10: Requiem
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-03933))_
 
+<a id="atom-technical-atom-1eed3be880b18304"></a>
 ```text
 Table 5-10: Requiem
 2D Result

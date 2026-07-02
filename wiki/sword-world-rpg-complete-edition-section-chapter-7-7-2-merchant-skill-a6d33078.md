@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-7-7-2-merchant-skill-a6d33078@eeb6a9cc3579890ff94035c1b279e27a
+projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-7-7-2-merchant-skill-a6d33078@6938927f7029506c27c114e7ca70239c
 ---
 
 # Chapter 7: / 7.2 Merchant Skill
@@ -17,10 +17,15 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-chapter-7-c3cc20a8]] - broader source section: Chapter 7:
-- [[sword-world-rpg-complete-edition-section-chapter-7-7-2-merchant-skill-how-to-create-general-skills-5961cde1]] - narrower source section: Chapter 7: / 7.2 Merchant Skill / How to Create General Skills
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-chapter-7-7-1-notes-on-general-skills-ac9fd0d7]] - previous source section: Chapter 7: / 7.1 Notes on General Skills
 - [[sword-world-rpg-complete-edition-section-chapter-7-7-3-craftsman-skill-e4aaafc0]] - next source section: Chapter 7: / 7.3 Craftsman Skill
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-chapter-7-c3cc20a8]] - broader source section: Chapter 7:
+- [[sword-world-rpg-complete-edition-section-chapter-7-7-2-merchant-skill-how-to-create-general-skills-5961cde1]] - narrower source section: Chapter 7: / 7.2 Merchant Skill / How to Create General Skills
 
 ## Statements
 
@@ -54,4 +59,5 @@ From [[sword-world-rpg-complete-edition]].
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-04349))_
 
+<a id="atom-technical-atom-1f06ce7bf97b2ba0"></a>
 > Of course, if you take the stock at a lower price or sell it at a higher price than the regular price, your profit will increase, so this ability is important.

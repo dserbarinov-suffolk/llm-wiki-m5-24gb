@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-8-game-master-screen-ability-scores-agility-b420fe09@94fe8a41f5a8dc45b047ccde047df528
+projection_coverage: section-sword-world-rpg-complete-edition-section-8-game-master-screen-ability-scores-agility-b420fe09@32e386f4e4bee08a8d08ac9eaf705525
 ---
 
 # 8. Game Master Screen / Ability Scores / 【 Agility 】
@@ -17,9 +17,14 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-8-game-master-screen-ability-scores-a41763db]] - broader source section: 8. Game Master Screen / Ability Scores
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-8-game-master-screen-ability-scores-dexterity-2a2b4979]] - previous source section: 8. Game Master Screen / Ability Scores / 【 Dexterity 】
 - [[sword-world-rpg-complete-edition-section-8-game-master-screen-ability-scores-intelligence-b0d10a25]] - next source section: 8. Game Master Screen / Ability Scores / 【 Intelligence 】
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-8-game-master-screen-ability-scores-a41763db]] - broader source section: 8. Game Master Screen / Ability Scores
 
 ## Statements
 

@@ -4,11 +4,11 @@ page_kind: source
 summary: Copy on Write / Making Data Out Of Functions: 98 source-backed entries and 7 atom(s) from raw/javascriptallonge.pdf.
 page_family: section-reference
 sources: raw/javascriptallonge.pdf
-updated: 2026-07-01
+updated: 2026-07-02
 domain: javascriptallonge
 category_path: sources/javascriptallonge/sections
 source_id: javascriptallonge.pdf
-projection_coverage: section-javascriptallonge-section-copy-on-write-making-data-out-of-functions-12daea71@29490611b7f5c25e56e23271e674e037
+projection_coverage: section-javascriptallonge-section-copy-on-write-making-data-out-of-functions-12daea71@6330e6a824d3f8ec045c723cc8525680
 ---
 
 # Copy on Write / Making Data Out Of Functions
@@ -17,15 +17,20 @@ From [[javascriptallonge]].
 
 ## Related pages
 
+### Source order
+
+- [[javascriptallonge-section-copy-on-write-functional-iterators-773e8dc1]] - previous source section: Copy on Write / Functional Iterators
+
+### Source structure
+
 - [[javascriptallonge-section-copy-on-write-ea36c891]] - broader source section: Copy on Write
-- [[javascriptallonge-section-copy-on-write-making-data-out-of-functions-the-kestrel-and-the-idiot-301fbaf6]] - narrower source section: Copy on Write / Making Data Out Of Functions / the kestrel and the idiot
+- [[javascriptallonge-section-copy-on-write-making-data-out-of-functions-a-return-to-backward-thinking-f261e0bd]] - narrower source section: Copy on Write / Making Data Out Of Functions / a return to backward thinking
 - [[javascriptallonge-section-copy-on-write-making-data-out-of-functions-backwardness-24f99a95]] - narrower source section: Copy on Write / Making Data Out Of Functions / backwardness
-- [[javascriptallonge-section-copy-on-write-making-data-out-of-functions-the-vireo-b7923ab5]] - narrower source section: Copy on Write / Making Data Out Of Functions / the vireo
+- [[javascriptallonge-section-copy-on-write-making-data-out-of-functions-functions-are-not-the-real-point-ee3008de]] - narrower source section: Copy on Write / Making Data Out Of Functions / functions are not the real point
 - [[javascriptallonge-section-copy-on-write-making-data-out-of-functions-lists-with-functions-as-data-52fd04fd]] - narrower source section: Copy on Write / Making Data Out Of Functions / lists with functions as data
 - [[javascriptallonge-section-copy-on-write-making-data-out-of-functions-say-please-c42d16f5]] - narrower source section: Copy on Write / Making Data Out Of Functions / say 'please'
-- [[javascriptallonge-section-copy-on-write-making-data-out-of-functions-functions-are-not-the-real-point-ee3008de]] - narrower source section: Copy on Write / Making Data Out Of Functions / functions are not the real point
-- [[javascriptallonge-section-copy-on-write-making-data-out-of-functions-a-return-to-backward-thinking-f261e0bd]] - narrower source section: Copy on Write / Making Data Out Of Functions / a return to backward thinking
-- [[javascriptallonge-section-copy-on-write-functional-iterators-773e8dc1]] - previous source section: Copy on Write / Functional Iterators
+- [[javascriptallonge-section-copy-on-write-making-data-out-of-functions-the-kestrel-and-the-idiot-301fbaf6]] - narrower source section: Copy on Write / Making Data Out Of Functions / the kestrel and the idiot
+- [[javascriptallonge-section-copy-on-write-making-data-out-of-functions-the-vireo-b7923ab5]] - narrower source section: Copy on Write / Making Data Out Of Functions / the vireo
 
 ## Statements
 
@@ -105,6 +110,7 @@ From [[javascriptallonge]].
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01324))_
 
+<a id="atom-technical-atom-07148a923c2b2af4"></a>
 ```
 const EMPTY = {};
 const OneTwoThree = { first: 1, rest: { first: 2, rest: { first: 3, rest: EMPTY \
@@ -131,6 +137,7 @@ length(OneTwoThree)
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01330))_
 
+<a id="atom-technical-atom-57cdb7ea2b16e63b"></a>
 ```text
 76 http://www.amazon.com/gp/product/0192801422/ref=as_li_ss_tl?ie=UTF8&tag=raganwald001-20&linkCode=as2&camp=1789&creative= 390957&creativeASIN=0192801422
 77 http://oscin.es
@@ -154,6 +161,7 @@ length(OneTwoThree)
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01350))_
 
+<a id="atom-technical-atom-05532f0c19b3ce5b"></a>
 ```
 const first = ([first, second]) => first,
 second = ([first, second]) => second;
@@ -172,6 +180,7 @@ second(latin)
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01361))_
 
+<a id="atom-technical-atom-2a6b147bd13e773b"></a>
 ```
 (first, second) => (selector) => selector(first)(second)
 ```
@@ -184,6 +193,7 @@ second(latin)
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01365))_
 
+<a id="atom-technical-atom-90a08a2d5bc3ce00"></a>
 ```
 const first = K,
 second = K(I),
@@ -203,6 +213,7 @@ latin(second)
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01366))_
 
+<a id="atom-technical-atom-c2c35023a60a3182"></a>
 > If we change the names to x , y , and z , we get: (x) => (y) => (z) => z(x)(y) .
 
 ### Technical frame 7: Copy on Write / Making Data Out Of Functions / functions are not the real point
@@ -213,6 +224,7 @@ latin(second)
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01401))_
 
+<a id="atom-technical-atom-e05b4d965ecfffbd"></a>
 ```text
 79 https://en.wikipedia.org/wiki/Church_encoding
 81 https://en.wikipedia.org/wiki/Gauge_boson

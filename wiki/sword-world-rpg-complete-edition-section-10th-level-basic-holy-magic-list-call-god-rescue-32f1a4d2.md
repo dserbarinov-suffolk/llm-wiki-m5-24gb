@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-10th-level-basic-holy-magic-list-call-god-rescue-32f1a4d2@ef2dc468a53ce01c609d18de775a8ac2
+projection_coverage: section-sword-world-rpg-complete-edition-section-10th-level-basic-holy-magic-list-call-god-rescue-32f1a4d2@86eb744235b67de29a7531ba8732c65c
 ---
 
 # 10th Level Basic Holy Magic List [ Call God ] / [ Rescue ]
@@ -17,8 +17,13 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-10th-level-basic-holy-magic-list-call-god-aa2b3933]] - broader source section: 10th Level Basic Holy Magic List [ Call God ]
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-10th-level-basic-holy-magic-list-call-god-reincarnation-df022eb2]] - previous source section: 10th Level Basic Holy Magic List [ Call God ] / [ Reincarnation
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-10th-level-basic-holy-magic-list-call-god-aa2b3933]] - broader source section: 10th Level Basic Holy Magic List [ Call God ]
 
 ## Statements
 

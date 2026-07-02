@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-1-2-races-skills-1-3-2-skill-types-7028cd70@06d317222d08bc377edc64c38a357453
+projection_coverage: section-sword-world-rpg-complete-edition-section-1-2-races-skills-1-3-2-skill-types-7028cd70@507b7f9d327cc53bcfa46b83ebe5df8a
 ---
 
 # 1.2 Races / Skills / 1.3.2 Skill Types
@@ -17,9 +17,14 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-1-2-races-skills-d796863a]] - broader source section: 1.2 Races / Skills
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-1-2-races-skills-1-3-1-skill-basics-88dddfc1]] - previous source section: 1.2 Races / Skills / 1.3.1 Skill Basics
 - [[sword-world-rpg-complete-edition-section-1-2-races-skills-changeling-ceb1e9f4]] - next source section: 1.2 Races / Skills / 《 Changeling 》
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-1-2-races-skills-d796863a]] - broader source section: 1.2 Races / Skills
 
 ## Statements
 

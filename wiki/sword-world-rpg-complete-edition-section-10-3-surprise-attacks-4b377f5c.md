@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-10-3-surprise-attacks-4b377f5c@f8e37b2aff830ea5990e5f9145fab41d
+projection_coverage: section-sword-world-rpg-complete-edition-section-10-3-surprise-attacks-4b377f5c@548f24f8629126f21b93d53bcedafbfe
 ---
 
 # 10.3 Surprise Attacks
@@ -16,6 +16,8 @@ projection_coverage: section-sword-world-rpg-complete-edition-section-10-3-surpr
 From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
+
+### Source order
 
 - [[sword-world-rpg-complete-edition-section-10-1-npc-and-monster-action-announcement-3fefd8eb]] - previous source section: 10.1 NPC and Monster Action Announcement
 - [[sword-world-rpg-complete-edition-section-10-4-water-combat-aadec95a]] - next source section: 10.4 Water Combat
@@ -41,6 +43,7 @@ From [[sword-world-rpg-complete-edition]].
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-04697))_
 
+<a id="atom-technical-atom-9b29d78d5ffc7bc3"></a>
 ```text
 Table 10-2: Surprise Attack Check
  included Table 10-2: Surprise Attack
@@ -76,4 +79,5 @@ Table 10-2: Surprise Attack Check
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-04699))_
 
+<a id="atom-technical-atom-2b5c395f70518485"></a>
 > Table 10-1: Attack Power and Evasion Speed Modifiers

@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-16-16-9-special-weapons-whip-net-bola-54c91d2c@39dd9afe0d01e9aab5479e1190854d37
+projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-16-16-9-special-weapons-whip-net-bola-54c91d2c@53809cf524e1749c5d0c7cb38fb15ee3
 ---
 
 # Chapter 16: / 16.9 Special Weapons / Whip, Net, Bola
@@ -17,9 +17,14 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-chapter-16-16-9-special-weapons-8824e2ed]] - broader source section: Chapter 16: / 16.9 Special Weapons
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-chapter-16-16-9-special-weapons-main-gauche-sword-breaker-8b4acaf4]] - previous source section: Chapter 16: / 16.9 Special Weapons / Main-gauche/Sword Breaker
 - [[sword-world-rpg-complete-edition-section-chapter-16-16-9-special-weapons-shield-attack-37cd647e]] - next source section: Chapter 16: / 16.9 Special Weapons / Shield Attack
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-chapter-16-16-9-special-weapons-8824e2ed]] - broader source section: Chapter 16: / 16.9 Special Weapons
 
 ## Statements
 

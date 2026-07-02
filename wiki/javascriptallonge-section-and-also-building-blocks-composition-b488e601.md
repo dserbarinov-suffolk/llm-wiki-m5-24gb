@@ -4,11 +4,11 @@ page_kind: source
 summary: And also: / Building Blocks / composition: 15 source-backed entries and 4 atom(s) from raw/javascriptallonge.pdf.
 page_family: section-reference
 sources: raw/javascriptallonge.pdf
-updated: 2026-07-01
+updated: 2026-07-02
 domain: javascriptallonge
 category_path: sources/javascriptallonge/sections
 source_id: javascriptallonge.pdf
-projection_coverage: section-javascriptallonge-section-and-also-building-blocks-composition-b488e601@fb63f36817639e6b5a57ff5fc36db9b0
+projection_coverage: section-javascriptallonge-section-and-also-building-blocks-composition-b488e601@649662c863a446277a3bbd3597d6ffe9
 ---
 
 # And also: / Building Blocks / composition
@@ -17,8 +17,13 @@ From [[javascriptallonge]].
 
 ## Related pages
 
-- [[javascriptallonge-section-and-also-building-blocks-d30b6215]] - broader source section: And also: / Building Blocks
+### Source order
+
 - [[javascriptallonge-section-and-also-building-blocks-partial-application-a5e29ef2]] - next source section: And also: / Building Blocks / partial application
+
+### Source structure
+
+- [[javascriptallonge-section-and-also-building-blocks-d30b6215]] - broader source section: And also: / Building Blocks
 
 ## Statements
 
@@ -39,6 +44,7 @@ From [[javascriptallonge]].
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00578))_
 
+<a id="atom-technical-atom-6ecb67d5a76f0442"></a>
 ```
 const cookAndEat = (food) => eat(cook(food));
 ```
@@ -51,6 +57,7 @@ const cookAndEat = (food) => eat(cook(food));
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00580))_
 
+<a id="atom-technical-atom-274e722a7f47e506"></a>
 ```
 const compose = (a, b) => (c) => a(b(c));
 const cookAndEat = compose(eat, cook);
@@ -64,6 +71,7 @@ const cookAndEat = compose(eat, cook);
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00581))_
 
+<a id="atom-technical-atom-677f9f34d487491a"></a>
 > The other 80% comes from organizing your code such that you can use it: Writing functions that can be composed in various ways.
 
 ### Technical frame 4: And also: / Building Blocks / composition
@@ -74,4 +82,5 @@ const cookAndEat = compose(eat, cook);
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00583))_
 
+<a id="atom-technical-atom-6411c982006a8113"></a>
 > Of course, you needn't use combinators to implement either of these ideas, you can use if statements.

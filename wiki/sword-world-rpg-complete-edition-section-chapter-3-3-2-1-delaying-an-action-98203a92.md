@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-3-3-2-1-delaying-an-action-98203a92@198e850203bc5d16f2cffa8f5139acbf
+projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-3-3-2-1-delaying-an-action-98203a92@9b53fe06758a9cdc0ed38956aa31501b
 ---
 
 # Chapter 3: / 3.2.1 Delaying an Action
@@ -17,9 +17,14 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-chapter-3-b1c23679]] - broader source section: Chapter 3:
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-chapter-3-3-3-action-canceling-9085aed0]] - previous source section: Chapter 3: / 3.3 Action Canceling
 - [[sword-world-rpg-complete-edition-section-chapter-3-movement-and-actions-e72c5ad4]] - next source section: Chapter 3: / Movement and Actions
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-chapter-3-b1c23679]] - broader source section: Chapter 3:
 
 ## Statements
 

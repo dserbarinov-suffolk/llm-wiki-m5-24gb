@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-5-1-14-spirit-magic-list-2nd-level-spirit-magic-list-will-o-wisp-will-o-wisp-light-spirit-shade-82e8f3ab@7b0da203df8f19f97146bf23bfd52155
+projection_coverage: section-sword-world-rpg-complete-edition-section-5-1-14-spirit-magic-list-2nd-level-spirit-magic-list-will-o-wisp-will-o-wisp-light-spirit-shade-82e8f3ab@eb56703e5f3e60b5c3acccbf1ea6b059
 ---
 
 # 5.1.14 Spirit Magic List / 2nd Level Spirit Magic List [ Will-O-Wisp ] (Will-O-Wisp/Light Spirit) / [ Shade ] (Shade/Dark Spirit)
@@ -17,9 +17,14 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-5-1-14-spirit-magic-list-2nd-level-spirit-magic-list-will-o-wisp-will-o-wisp-light-spirit-d5164997]] - broader source section: 5.1.14 Spirit Magic List / 2nd Level Spirit Magic List [ Will-O-Wisp ] (Will-O-Wisp/Light Spirit)
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-5-1-14-spirit-magic-list-2nd-level-spirit-magic-list-will-o-wisp-will-o-wisp-light-spirit-confus-4f1e401e]] - previous source section: 5.1.14 Spirit Magic List / 2nd Level Spirit Magic List [ Will-O-Wisp ] (Will-O-Wisp/Light Spirit) / [ Confusion ] (Leprechaun/Mind Spirit)
 - [[sword-world-rpg-complete-edition-section-5-1-14-spirit-magic-list-2nd-level-spirit-magic-list-will-o-wisp-will-o-wisp-light-spirit-fanati-ff2dfe67]] - next source section: 5.1.14 Spirit Magic List / 2nd Level Spirit Magic List [ Will-O-Wisp ] (Will-O-Wisp/Light Spirit) / [ Fanaticism ] (Valkyrie/Mind Spirit)
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-5-1-14-spirit-magic-list-2nd-level-spirit-magic-list-will-o-wisp-will-o-wisp-light-spirit-d5164997]] - broader source section: 5.1.14 Spirit Magic List / 2nd Level Spirit Magic List [ Will-O-Wisp ] (Will-O-Wisp/Light Spirit)
 
 ## Statements
 

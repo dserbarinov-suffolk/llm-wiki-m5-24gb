@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-13-2-6-mythical-beasts-and-magical-beasts-satyr-8f5a7e42@21b25d43b6ed3387d07445f717df8dc5
+projection_coverage: section-sword-world-rpg-complete-edition-section-13-2-6-mythical-beasts-and-magical-beasts-satyr-8f5a7e42@10ef6d927cf28206e6bb6d0dd5dddca1
 ---
 
 # 13.2.6 Mythical Beasts and Magical Beasts / [ Satyr ]
@@ -17,8 +17,13 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-13-2-6-mythical-beasts-and-magical-beasts-f86962d2]] - broader source section: 13.2.6 Mythical Beasts and Magical Beasts
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-13-2-6-mythical-beasts-and-magical-beasts-ceiling-hanger-4948e9ac]] - next source section: 13.2.6 Mythical Beasts and Magical Beasts / [ Ceiling Hanger ]
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-13-2-6-mythical-beasts-and-magical-beasts-f86962d2]] - broader source section: 13.2.6 Mythical Beasts and Magical Beasts
 
 ## Statements
 

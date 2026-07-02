@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-3-3-4-4-actions-you-can-take-while-standing-still-scores-used-in-weapon-combat-bonus-dam-defc1b25@ed5327877edff5010e69c32c19e3ad25
+projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-3-3-4-4-actions-you-can-take-while-standing-still-scores-used-in-weapon-combat-bonus-dam-defc1b25@5a69c6cefaa6231a59ae0ebdf25ece8a
 ---
 
 # Chapter 3: / 3.4.4 Actions You Can Take While Standing Still / Scores Used in Weapon Combat / 【 Bonus Damage 】
@@ -17,9 +17,17 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-chapter-3-3-4-4-actions-you-can-take-while-standing-still-scores-used-in-weapon-combat-4d2e9a59]] - broader source section: Chapter 3: / 3.4.4 Actions You Can Take While Standing Still / Scores Used in Weapon Combat
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-chapter-3-3-4-4-actions-you-can-take-while-standing-still-scores-used-in-weapon-combat-strike-po-951599a9]] - previous source section: Chapter 3: / 3.4.4 Actions You Can Take While Standing Still / Scores Used in Weapon Combat / 【 Strike Power 】
 - [[sword-world-rpg-complete-edition-section-chapter-3-3-4-4-actions-you-can-take-while-standing-still-scores-used-in-weapon-combat-critical-3a87aa79]] - next source section: Chapter 3: / 3.4.4 Actions You Can Take While Standing Still / Scores Used in Weapon Combat / 【 Critical Target 】
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-chapter-3-3-4-4-actions-you-can-take-while-standing-still-scores-used-in-weapon-combat-4d2e9a59]] - broader source section: Chapter 3: / 3.4.4 Actions You Can Take While Standing Still / Scores Used in Weapon Combat
+
+### Topics
+
 - [[sword-world-rpg-complete-edition-bonus-damage]] - topic hub: opens the topic page for Bonus Damage
 
 ## Statements
@@ -37,4 +45,5 @@ From [[sword-world-rpg-complete-edition]].
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-01219))_
 
+<a id="atom-technical-atom-0532c126cb093af2"></a>
 > bonus damage = fighter (thief/ranger) skill level + strength bonus

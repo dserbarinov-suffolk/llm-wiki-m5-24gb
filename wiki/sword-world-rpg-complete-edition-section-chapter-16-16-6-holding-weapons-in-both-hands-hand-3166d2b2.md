@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-16-16-6-holding-weapons-in-both-hands-hand-3166d2b2@cd1a9e32c1ce6f2632b3388d5134b98f
+projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-16-16-6-holding-weapons-in-both-hands-hand-3166d2b2@ccc57e0bfff2f47e879d18c0ca5f50a2
 ---
 
 # Chapter 16: / 16.6 Holding Weapons in Both Hands / Hand
@@ -16,6 +16,8 @@ projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-16
 From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
+
+### Source structure
 
 - [[sword-world-rpg-complete-edition-section-chapter-16-16-6-holding-weapons-in-both-hands-ef386a94]] - broader source section: Chapter 16: / 16.6 Holding Weapons in Both Hands
 

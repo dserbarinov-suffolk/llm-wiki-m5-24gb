@@ -4,10 +4,10 @@ page_kind: concept
 summary: Reference: 4 statement(s) and 4 atom(s) from raw/javascriptallonge.pdf.
 page_family: topic-concept
 sources: raw/javascriptallonge.pdf
-updated: 2026-07-01
+updated: 2026-07-02
 domain: javascriptallonge
 category_path: concepts
-projection_coverage: topic-javascriptallonge-reference@0b4eb987bd8b275503bc1ffaf49a087c
+projection_coverage: topic-javascriptallonge-reference@26acb28ddd6b49e1056ea951f07c6ccb
 ---
 
 # Reference
@@ -43,6 +43,7 @@ What [[javascriptallonge]] covers about reference:
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00322))_
 
+<a id="atom-technical-atom-f9cb510c71c3bcdb"></a>
 ```
 (value) =>
 ((ref1, ref2) => ref1 === ref2)(value, value)
@@ -56,6 +57,7 @@ What [[javascriptallonge]] covers about reference:
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01036))_
 
+<a id="atom-technical-atom-3db2213a6548bbeb"></a>
 ```
 const node5 = [5,null],
 node4 = [4, node5],
@@ -73,6 +75,7 @@ const oneToFive = node1;
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01038))_
 
+<a id="atom-technical-atom-1c270cf9d479184b"></a>
 ```
 car(oneToFive)
 //=> 1
@@ -86,6 +89,7 @@ car(oneToFive)
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01041))_
 
+<a id="atom-technical-atom-cc6241a012867740"></a>
 ```
 cdr(oneToFive)
 //=> [2,[3,[4,[5,null]]]]
@@ -94,11 +98,13 @@ cdr(oneToFive)
 
 ## Related pages
 
+### Shared technical atoms
+
+- [[javascriptallonge-list]] - shared technical atoms: List shares technical record from Garbage, Garbage Everywhere / some history: const node5 = [5,null], node4 = [4, node5], node3 = [3, node4], node2 = [2, node3], node1 = [1, node2]; const oneToFive = node1; (3 shared atom(s))
 - [[javascriptallonge-javascript]] - shared statements and technical atoms: Javascript shares source evidence from And also: / call by sharing: Whatabout reference types? JavaScript does not place copies of reference values in any environment. JavaScript places references to reference types in environments, ... [truncated]; Javascript shares technical record from Garbage, Garbage Everywhere / some history: const node5 = [5,null], node4 = [4, node5], node3 = [3, node4], node2 = [2, node3], node1 = [1, node2]; const oneToFive = node1; (1 shared statement(s), 2 shared atom(s))
 - [[javascriptallonge-type]] - shared statements and technical atoms: Type shares source evidence from The first sip: Basic Functions / As Little As Possible About Functions, But No Less / functions and identities: You recall that we have two types of values with respect to identity: Value types and reference types. Value types share the same identity if they have the same cont ... [truncated]; Type shares technical record from And also: / call by sharing: (value) => ((ref1, ref2) => ref1 === ref2)(value, value) (2 shared statement(s), 1 shared atom(s))
 - [[javascriptallonge-element]] - shared statements and technical atoms: Element shares source evidence from Garbage, Garbage Everywhere / so why arrays: Arrays avoid this problem by pessimistically copying all the references whenever we extract an element or sequence of elements from them (We'll see this explained la ... [truncated]; Element shares technical record from Garbage, Garbage Everywhere / some history: cdr(oneToFive) //=> [2,[3,[4,[5,null]]]] (1 shared statement(s), 1 shared atom(s))
 - [[javascriptallonge-structure]] - shared statements and technical atoms: Structure shares source evidence from Garbage, Garbage Everywhere / some history: Again, it's just extracting a reference from a cons cell, it's very fast. In Lisp, it's blazingly fast because it happens in hardware. There's no making copies of ar ... [truncated]; Structure shares technical record from Garbage, Garbage Everywhere / some history: cdr(oneToFive) //=> [2,[3,[4,[5,null]]]] (1 shared statement(s), 1 shared atom(s))
-- [[javascriptallonge-list]] - shared technical atoms: List shares technical record from Garbage, Garbage Everywhere / some history: const node5 = [5,null], node4 = [4, node5], node3 = [3, node4], node2 = [2, node3], node1 = [1, node2]; const oneToFive = node1; (3 shared atom(s))
 - [[javascriptallonge-argument]] - shared technical atoms: Argument shares technical record from And also: / call by sharing: (value) => ((ref1, ref2) => ref1 === ref2)(value, value) (1 shared atom(s))
 - [[javascriptallonge-copy]] - shared technical atoms: Copy shares technical record from Garbage, Garbage Everywhere / some history: cdr(oneToFive) //=> [2,[3,[4,[5,null]]]] (1 shared atom(s))
 - [[javascriptallonge-data]] - shared technical atoms: Data shares technical record from Garbage, Garbage Everywhere / some history: car(oneToFive) //=> 1 (1 shared atom(s))

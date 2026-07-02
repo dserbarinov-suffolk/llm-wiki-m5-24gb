@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-other-soft-lander-830df0a9@a0160a60a3e976763465f1342a61077e
+projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-other-soft-lander-830df0a9@14a414994963bb4e1d260f52ca1b8d18
 ---
 
 # Chapter 14: / 14.4 Magical Item List / 《 Other 》 / [ Soft Lander ]
@@ -17,9 +17,14 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-other-ae5b041d]] - broader source section: Chapter 14: / 14.4 Magical Item List / 《 Other 》
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-other-zero-gravity-disc-62d99559]] - previous source section: Chapter 14: / 14.4 Magical Item List / 《 Other 》 / [ Zero Gravity Disc ]
 - [[sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-other-daemon-jar-2cf88c8a]] - next source section: Chapter 14: / 14.4 Magical Item List / 《 Other 》 / [ Daemon Jar ]
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-other-ae5b041d]] - broader source section: Chapter 14: / 14.4 Magical Item List / 《 Other 》
 
 ## Statements
 

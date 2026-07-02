@@ -4,11 +4,11 @@ page_kind: source
 summary: Reassignment: 50 source-backed entries and 1 atom(s) from raw/javascriptallonge.pdf.
 page_family: section-reference
 sources: raw/javascriptallonge.pdf
-updated: 2026-07-01
+updated: 2026-07-02
 domain: javascriptallonge
 category_path: sources/javascriptallonge/sections
 source_id: javascriptallonge.pdf
-projection_coverage: section-javascriptallonge-section-reassignment-ecc49acb@3af56e6b89561d4bf5170a0e6499cd96
+projection_coverage: section-javascriptallonge-section-reassignment-ecc49acb@cc665a435a50f4daab55e7cfdba710fb
 ---
 
 # Reassignment
@@ -17,10 +17,15 @@ From [[javascriptallonge]].
 
 ## Related pages
 
-- [[javascriptallonge-section-reassignment-mixing-let-and-const-c05d240a]] - narrower source section: Reassignment / mixing let and const
-- [[javascriptallonge-section-reassignment-why-const-and-let-were-invented-d4d91fa1]] - narrower source section: Reassignment / why const and let were invented
+### Source order
+
 - [[javascriptallonge-section-mutation-93ded492]] - previous source section: Mutation
 - [[javascriptallonge-section-yes-consider-this-variation-db4ad8a2]] - next source section: Yes. Consider this variation:
+
+### Source structure
+
+- [[javascriptallonge-section-reassignment-mixing-let-and-const-c05d240a]] - narrower source section: Reassignment / mixing let and const
+- [[javascriptallonge-section-reassignment-why-const-and-let-were-invented-d4d91fa1]] - narrower source section: Reassignment / why const and let were invented
 
 ## Statements
 
@@ -70,6 +75,7 @@ From [[javascriptallonge]].
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01161))_
 
+<a id="atom-technical-atom-b7f4db5b759e55c3"></a>
 ```
 evenStevens = (n) => {
 if (n === 0) {

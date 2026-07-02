@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-2-1-baseline-scores-checks-b13b5a15@4da3f143e86faace167b9ef9812bfe14
+projection_coverage: section-sword-world-rpg-complete-edition-section-2-1-baseline-scores-checks-b13b5a15@fcb398074e8e98f3213671b237e0990b
 ---
 
 # 2.1 Baseline Scores / Checks
@@ -17,9 +17,14 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
+### Source order
+
+- [[sword-world-rpg-complete-edition-section-2-1-baseline-scores-target-scores-16aa968b]] - previous source section: 2.1 Baseline Scores / Target Scores
+
+### Source structure
+
 - [[sword-world-rpg-complete-edition-section-2-1-baseline-scores-879d539e]] - broader source section: 2.1 Baseline Scores
 - [[sword-world-rpg-complete-edition-section-2-1-baseline-scores-checks-2-3-1-automatic-success-and-automatic-failure-6dec6cad]] - narrower source section: 2.1 Baseline Scores / Checks / 2.3.1 Automatic Success and Automatic Failure
-- [[sword-world-rpg-complete-edition-section-2-1-baseline-scores-target-scores-16aa968b]] - previous source section: 2.1 Baseline Scores / Target Scores
 
 ## Statements
 

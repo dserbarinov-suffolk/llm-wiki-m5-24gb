@@ -4,11 +4,11 @@ page_kind: source
 summary: Served by the Pot: Collections: 250 source-backed entries and 3 atom(s) from raw/javascriptallonge.pdf.
 page_family: section-reference
 sources: raw/javascriptallonge.pdf
-updated: 2026-07-01
+updated: 2026-07-02
 domain: javascriptallonge
 category_path: sources/javascriptallonge/sections
 source_id: javascriptallonge.pdf
-projection_coverage: section-javascriptallonge-section-served-by-the-pot-collections-14399de3@e8ca3e9c98814778f1d05fadf9e87ce1
+projection_coverage: section-javascriptallonge-section-served-by-the-pot-collections-14399de3@9179785677ccde9020680e080ef455dc
 ---
 
 # Served by the Pot: Collections
@@ -17,12 +17,17 @@ From [[javascriptallonge]].
 
 ## Related pages
 
-- [[javascriptallonge-section-served-by-the-pot-collections-iteration-and-iterables-6006fd95]] - narrower source section: Served by the Pot: Collections / Iteration and Iterables
-- [[javascriptallonge-section-served-by-the-pot-collections-generating-iterables-8c929c4d]] - narrower source section: Served by the Pot: Collections / Generating Iterables
-- [[javascriptallonge-section-served-by-the-pot-collections-rewriting-iterable-operations-588fbe28]] - narrower source section: Served by the Pot: Collections / rewriting iterable operations
-- [[javascriptallonge-section-served-by-the-pot-collections-summary-bda1f2d6]] - narrower source section: Served by the Pot: Collections / Summary
+### Source order
+
 - [[javascriptallonge-section-a-warm-cup-basic-strings-and-quasi-literals-50e42ba0]] - previous source section: A Warm Cup: Basic Strings and Quasi-Literals
 - [[javascriptallonge-section-lazy-and-eager-collections-60e3645a]] - next source section: Lazy and Eager Collections
+
+### Source structure
+
+- [[javascriptallonge-section-served-by-the-pot-collections-generating-iterables-8c929c4d]] - narrower source section: Served by the Pot: Collections / Generating Iterables
+- [[javascriptallonge-section-served-by-the-pot-collections-iteration-and-iterables-6006fd95]] - narrower source section: Served by the Pot: Collections / Iteration and Iterables
+- [[javascriptallonge-section-served-by-the-pot-collections-rewriting-iterable-operations-588fbe28]] - narrower source section: Served by the Pot: Collections / rewriting iterable operations
+- [[javascriptallonge-section-served-by-the-pot-collections-summary-bda1f2d6]] - narrower source section: Served by the Pot: Collections / Summary
 
 ## Statements by subsection
 
@@ -228,6 +233,7 @@ From [[javascriptallonge]].
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01648))_
 
+<a id="atom-technical-atom-e8b408628ccd4bce"></a>
 ```text
 while (true) {
 [a, b] = [b, a + b];
@@ -348,6 +354,7 @@ function * only (something) {
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01707))_
 
+<a id="atom-technical-atom-282c78b5afaaa88e"></a>
 ```text
 yield 3
 }
@@ -468,6 +475,7 @@ console.log(n)
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01742))_
 
+<a id="atom-technical-atom-84ef11af1d305c7e"></a>
 ```text
 else {
 yield e;

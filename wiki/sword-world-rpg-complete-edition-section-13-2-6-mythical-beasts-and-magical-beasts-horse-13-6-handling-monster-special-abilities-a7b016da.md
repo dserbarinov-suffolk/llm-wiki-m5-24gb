@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-13-2-6-mythical-beasts-and-magical-beasts-horse-13-6-handling-monster-special-abilities-a7b016da@5196842c4bfc4290d0663af615c82b74
+projection_coverage: section-sword-world-rpg-complete-edition-section-13-2-6-mythical-beasts-and-magical-beasts-horse-13-6-handling-monster-special-abilities-a7b016da@b7d9ffbe264c8dcbc459a948ef60463c
 ---
 
 # 13.2.6 Mythical Beasts and Magical Beasts / [ Horse ] / 13.6 Handling Monster Special Abilities
@@ -17,17 +17,21 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-13-2-6-mythical-beasts-and-magical-beasts-horse-13-6-handling-monster-special-abilities-11888df1]] - broader source section: 13.2.6 Mythical Beasts and Magical Beasts / [ Horse ] / 13.6 Handling Monster Special Abilities
-- [[sword-world-rpg-complete-edition-section-13-2-6-mythical-beasts-and-magical-beasts-horse-13-6-handling-monster-special-abilities-weapon-i-1faccf96]] - narrower source section: 13.2.6 Mythical Beasts and Magical Beasts / [ Horse ] / 13.6 Handling Monster Special Abilities / 《 Weapon Immunity 》
-- [[sword-world-rpg-complete-edition-section-13-2-6-mythical-beasts-and-magical-beasts-horse-13-6-handling-monster-special-abilities-complete-de1160f0]] - narrower source section: 13.2.6 Mythical Beasts and Magical Beasts / [ Horse ] / 13.6 Handling Monster Special Abilities / 《 Complete Immunity to Certain Weapons 》
-- [[sword-world-rpg-complete-edition-section-13-2-6-mythical-beasts-and-magical-beasts-horse-13-6-handling-monster-special-abilities-weapons-e9a1ee61]] - narrower source section: 13.2.6 Mythical Beasts and Magical Beasts / [ Horse ] / 13.6 Handling Monster Special Abilities / 《 Weapons Cannot Critical 》
-- [[sword-world-rpg-complete-edition-section-13-2-6-mythical-beasts-and-magical-beasts-horse-13-6-handling-monster-special-abilities-certain-6c52a35a]] - narrower source section: 13.2.6 Mythical Beasts and Magical Beasts / [ Horse ] / 13.6 Handling Monster Special Abilities / 《 Certain Weapons Cannot Critical 》
-- [[sword-world-rpg-complete-edition-section-13-2-6-mythical-beasts-and-magical-beasts-horse-13-6-handling-monster-special-abilities-darkness-254c0f4c]] - narrower source section: 13.2.6 Mythical Beasts and Magical Beasts / [ Horse ] / 13.6 Handling Monster Special Abilities / 《 Darkness/Invisible 》
-- [[sword-world-rpg-complete-edition-section-13-2-6-mythical-beasts-and-magical-beasts-horse-13-6-handling-monster-special-abilities-water-ad-a46c5763]] - narrower source section: 13.2.6 Mythical Beasts and Magical Beasts / [ Horse ] / 13.6 Handling Monster Special Abilities / 《 Water Adaptation 》
-- [[sword-world-rpg-complete-edition-section-13-2-6-mythical-beasts-and-magical-beasts-horse-13-6-handling-monster-special-abilities-ice-adap-90668d16]] - narrower source section: 13.2.6 Mythical Beasts and Magical Beasts / [ Horse ] / 13.6 Handling Monster Special Abilities / 《 Ice Adaptation 》
-- [[sword-world-rpg-complete-edition-section-13-2-6-mythical-beasts-and-magical-beasts-horse-13-6-handling-monster-special-abilities-snow-ada-6992b37e]] - narrower source section: 13.2.6 Mythical Beasts and Magical Beasts / [ Horse ] / 13.6 Handling Monster Special Abilities / 《 Snow Adaptation 》
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-13-2-6-mythical-beasts-and-magical-beasts-horse-13-6-handling-monster-special-abilities-13-6-3-s-59878234]] - previous source section: 13.2.6 Mythical Beasts and Magical Beasts / [ Horse ] / 13.6 Handling Monster Special Abilities / 13.6.3 Special Attacks: Other
 - [[sword-world-rpg-complete-edition-section-13-2-6-mythical-beasts-and-magical-beasts-horse-13-6-handling-monster-special-abilities-ce63f84d]] - next source section: 13.2.6 Mythical Beasts and Magical Beasts / [ Horse ] / 13.6 Handling Monster Special Abilities
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-13-2-6-mythical-beasts-and-magical-beasts-horse-13-6-handling-monster-special-abilities-11888df1]] - broader source section: 13.2.6 Mythical Beasts and Magical Beasts / [ Horse ] / 13.6 Handling Monster Special Abilities
+- [[sword-world-rpg-complete-edition-section-13-2-6-mythical-beasts-and-magical-beasts-horse-13-6-handling-monster-special-abilities-certain-6c52a35a]] - narrower source section: 13.2.6 Mythical Beasts and Magical Beasts / [ Horse ] / 13.6 Handling Monster Special Abilities / 《 Certain Weapons Cannot Critical 》
+- [[sword-world-rpg-complete-edition-section-13-2-6-mythical-beasts-and-magical-beasts-horse-13-6-handling-monster-special-abilities-complete-de1160f0]] - narrower source section: 13.2.6 Mythical Beasts and Magical Beasts / [ Horse ] / 13.6 Handling Monster Special Abilities / 《 Complete Immunity to Certain Weapons 》
+- [[sword-world-rpg-complete-edition-section-13-2-6-mythical-beasts-and-magical-beasts-horse-13-6-handling-monster-special-abilities-darkness-254c0f4c]] - narrower source section: 13.2.6 Mythical Beasts and Magical Beasts / [ Horse ] / 13.6 Handling Monster Special Abilities / 《 Darkness/Invisible 》
+- [[sword-world-rpg-complete-edition-section-13-2-6-mythical-beasts-and-magical-beasts-horse-13-6-handling-monster-special-abilities-ice-adap-90668d16]] - narrower source section: 13.2.6 Mythical Beasts and Magical Beasts / [ Horse ] / 13.6 Handling Monster Special Abilities / 《 Ice Adaptation 》
+- [[sword-world-rpg-complete-edition-section-13-2-6-mythical-beasts-and-magical-beasts-horse-13-6-handling-monster-special-abilities-snow-ada-6992b37e]] - narrower source section: 13.2.6 Mythical Beasts and Magical Beasts / [ Horse ] / 13.6 Handling Monster Special Abilities / 《 Snow Adaptation 》
+- [[sword-world-rpg-complete-edition-section-13-2-6-mythical-beasts-and-magical-beasts-horse-13-6-handling-monster-special-abilities-water-ad-a46c5763]] - narrower source section: 13.2.6 Mythical Beasts and Magical Beasts / [ Horse ] / 13.6 Handling Monster Special Abilities / 《 Water Adaptation 》
+- [[sword-world-rpg-complete-edition-section-13-2-6-mythical-beasts-and-magical-beasts-horse-13-6-handling-monster-special-abilities-weapon-i-1faccf96]] - narrower source section: 13.2.6 Mythical Beasts and Magical Beasts / [ Horse ] / 13.6 Handling Monster Special Abilities / 《 Weapon Immunity 》
 
 ## Statements by subsection
 
@@ -79,10 +83,12 @@ From [[sword-world-rpg-complete-edition]].
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-08823))_
 
+<a id="atom-technical-atom-d044f94dd7d006e0"></a>
 > Normal weapons, no matter how powerful, cannot deal damage.
 
 ### Technical frame 2: 13.2.6 Mythical Beasts and Magical Beasts / [ Horse ] / 13.6 Handling Monster Special Abilities / 《 Complete Immunity to Certain Weapons 》
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-08825))_
 
+<a id="atom-technical-atom-46baa8aa890e22b5"></a>
 > Even in combat between monsters, if an opponent monster's attack method is equivalent to an ineffective weapon, it will not deal damage.

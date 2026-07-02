@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-4-7-attacks-from-characters-against-characters-86d787cb@06afde10c2e19c64e219728c34482d10
+projection_coverage: section-sword-world-rpg-complete-edition-section-4-7-attacks-from-characters-against-characters-86d787cb@5ce3308fc827519f0e52d59a11bcef2e
 ---
 
 # 4.7 Attacks From Characters Against Characters
@@ -17,11 +17,16 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-4-7-attacks-from-characters-against-characters-4-7-1-hit-checks-3ebc1137]] - narrower source section: 4.7 Attacks From Characters Against Characters / 4.7.1 Hit Checks
-- [[sword-world-rpg-complete-edition-section-4-7-attacks-from-characters-against-characters-double-sixes-and-double-ones-8a562321]] - narrower source section: 4.7 Attacks From Characters Against Characters / Double Sixes and Double Ones
-- [[sword-world-rpg-complete-edition-section-4-7-attacks-from-characters-against-characters-4-7-2-damage-checks-d211c392]] - narrower source section: 4.7 Attacks From Characters Against Characters / 4.7.2 Damage Checks
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-attacks-from-monsters-against-characters-a9a9211c]] - previous source section: Attacks From Monsters Against Characters
 - [[sword-world-rpg-complete-edition-section-4-8-applying-damage-44a7268d]] - next source section: 4.8 Applying Damage
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-4-7-attacks-from-characters-against-characters-4-7-1-hit-checks-3ebc1137]] - narrower source section: 4.7 Attacks From Characters Against Characters / 4.7.1 Hit Checks
+- [[sword-world-rpg-complete-edition-section-4-7-attacks-from-characters-against-characters-4-7-2-damage-checks-d211c392]] - narrower source section: 4.7 Attacks From Characters Against Characters / 4.7.2 Damage Checks
+- [[sword-world-rpg-complete-edition-section-4-7-attacks-from-characters-against-characters-double-sixes-and-double-ones-8a562321]] - narrower source section: 4.7 Attacks From Characters Against Characters / Double Sixes and Double Ones
 
 ## Statements
 
@@ -65,12 +70,14 @@ From [[sword-world-rpg-complete-edition]].
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-01381))_
 
+<a id="atom-technical-atom-07bab40b806d3694"></a>
 > The attacker must make a strike roll to determine their base damage, then add their bonus damage.
 
 ### Technical frame 2: Table 4-4: Attack Checks
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-01389))_
 
+<a id="atom-technical-atom-b47fa1f1e7953af3"></a>
 ```text
 Table 4-4: Attack Checks
  hits

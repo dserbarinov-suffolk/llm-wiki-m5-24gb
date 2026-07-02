@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-7-7-3-craftsman-skill-craft-dexterity-bb3b02dc@76a1c3b73ed172b85e567c06610abf88
+projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-7-7-3-craftsman-skill-craft-dexterity-bb3b02dc@e932851b2967d938958c986a31fd7383
 ---
 
 # Chapter 7: / 7.3 Craftsman Skill / [ ① Craft [Dexterity] ]
@@ -16,6 +16,8 @@ projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-7-
 From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
+
+### Source structure
 
 - [[sword-world-rpg-complete-edition-section-chapter-7-7-3-craftsman-skill-e4aaafc0]] - broader source section: Chapter 7: / 7.3 Craftsman Skill
 

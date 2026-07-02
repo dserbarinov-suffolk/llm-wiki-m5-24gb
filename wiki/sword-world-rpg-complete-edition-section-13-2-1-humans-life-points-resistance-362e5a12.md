@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-13-2-1-humans-life-points-resistance-362e5a12@a05344a0e8f1b960efc837ab856ded9c
+projection_coverage: section-sword-world-rpg-complete-edition-section-13-2-1-humans-life-points-resistance-362e5a12@4a41c3229e5a5809dbbdd295e9a6255f
 ---
 
 # 13.2.1 《 Humans 》 / 《 Life Points/Resistance 》
@@ -17,9 +17,14 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-13-2-1-humans-2369e4b2]] - broader source section: 13.2.1 《 Humans 》
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-13-2-1-humans-defense-points-30fa3db0]] - previous source section: 13.2.1 《 Humans 》 / 《 Defense Points 》
 - [[sword-world-rpg-complete-edition-section-13-2-1-humans-special-abilities-c54b1817]] - next source section: 13.2.1 《 Humans 》 / 《 Special Abilities 》
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-13-2-1-humans-2369e4b2]] - broader source section: 13.2.1 《 Humans 》
 
 ## Statements
 

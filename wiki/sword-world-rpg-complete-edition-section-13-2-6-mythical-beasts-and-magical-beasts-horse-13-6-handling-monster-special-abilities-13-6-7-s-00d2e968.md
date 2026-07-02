@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-13-2-6-mythical-beasts-and-magical-beasts-horse-13-6-handling-monster-special-abilities-13-6-7-s-00d2e968@a80a88be30e338ef3cc7078112203fb6
+projection_coverage: section-sword-world-rpg-complete-edition-section-13-2-6-mythical-beasts-and-magical-beasts-horse-13-6-handling-monster-special-abilities-13-6-7-s-00d2e968@22c35da22f3ba65d06c8f37c1791d706
 ---
 
 # 13.2.6 Mythical Beasts and Magical Beasts / [ Horse ] / 13.6 Handling Monster Special Abilities / 13.6.7 Special Defense Abilities: Weaknesses
@@ -17,12 +17,17 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
+### Source order
+
+- [[sword-world-rpg-complete-edition-section-13-2-6-mythical-beasts-and-magical-beasts-horse-13-6-handling-monster-special-abilities-2b7d97f8]] - previous source section: 13.2.6 Mythical Beasts and Magical Beasts / [ Horse ] / 13.6 Handling Monster Special Abilities
+
+### Source structure
+
 - [[sword-world-rpg-complete-edition-section-13-2-6-mythical-beasts-and-magical-beasts-horse-13-6-handling-monster-special-abilities-11888df1]] - broader source section: 13.2.6 Mythical Beasts and Magical Beasts / [ Horse ] / 13.6 Handling Monster Special Abilities
-- [[sword-world-rpg-complete-edition-section-13-2-6-mythical-beasts-and-magical-beasts-horse-13-6-handling-monster-special-abilities-13-6-7-s-e55b4cc2]] - narrower source section: 13.2.6 Mythical Beasts and Magical Beasts / [ Horse ] / 13.6 Handling Monster Special Abilities / 13.6.7 Special Defense Abilities: Weaknesses / 《 Needs Bloodsucking to Maintain Life Points 》
 - [[sword-world-rpg-complete-edition-section-13-2-6-mythical-beasts-and-magical-beasts-horse-13-6-handling-monster-special-abilities-13-6-7-s-541f1e15]] - narrower source section: 13.2.6 Mythical Beasts and Magical Beasts / [ Horse ] / 13.6 Handling Monster Special Abilities / 13.6.7 Special Defense Abilities: Weaknesses / 《 Needs Bloodsucking to Maintain Mental Points 》
 - [[sword-world-rpg-complete-edition-section-13-2-6-mythical-beasts-and-magical-beasts-horse-13-6-handling-monster-special-abilities-13-6-7-s-61eca4ad]] - narrower source section: 13.2.6 Mythical Beasts and Magical Beasts / [ Horse ] / 13.6 Handling Monster Special Abilities / 13.6.7 Special Defense Abilities: Weaknesses / 《 Damage From Healing Magic 》
+- [[sword-world-rpg-complete-edition-section-13-2-6-mythical-beasts-and-magical-beasts-horse-13-6-handling-monster-special-abilities-13-6-7-s-e55b4cc2]] - narrower source section: 13.2.6 Mythical Beasts and Magical Beasts / [ Horse ] / 13.6 Handling Monster Special Abilities / 13.6.7 Special Defense Abilities: Weaknesses / 《 Needs Bloodsucking to Maintain Life Points 》
 - [[sword-world-rpg-complete-edition-section-13-2-6-mythical-beasts-and-magical-beasts-horse-13-6-handling-monster-special-abilities-13-6-7-s-f4ba9c6b]] - narrower source section: 13.2.6 Mythical Beasts and Magical Beasts / [ Horse ] / 13.6 Handling Monster Special Abilities / 13.6.7 Special Defense Abilities: Weaknesses / 《 Weak to Fire 》
-- [[sword-world-rpg-complete-edition-section-13-2-6-mythical-beasts-and-magical-beasts-horse-13-6-handling-monster-special-abilities-2b7d97f8]] - previous source section: 13.2.6 Mythical Beasts and Magical Beasts / [ Horse ] / 13.6 Handling Monster Special Abilities
 
 ## Statements
 

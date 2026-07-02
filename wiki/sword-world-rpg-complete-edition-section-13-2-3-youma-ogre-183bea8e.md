@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-13-2-3-youma-ogre-183bea8e@12a1980a2e757a78981a2df16e31d0f6
+projection_coverage: section-sword-world-rpg-complete-edition-section-13-2-3-youma-ogre-183bea8e@cdaeb54e4dc1d09ae43b0371d2106e8e
 ---
 
 # 13.2.3 Youma / [ Ogre ]
@@ -17,9 +17,14 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-13-2-3-youma-05ea9fd0]] - broader source section: 13.2.3 Youma
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-13-2-3-youma-yeti-6c93abb9]] - previous source section: 13.2.3 Youma / [ Yeti ]
 - [[sword-world-rpg-complete-edition-section-13-2-3-youma-spriggan-69d0ac98]] - next source section: 13.2.3 Youma / [ Spriggan ]
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-13-2-3-youma-05ea9fd0]] - broader source section: 13.2.3 Youma
 
 ## Statements
 

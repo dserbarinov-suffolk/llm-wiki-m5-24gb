@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-5-1-12-ancient-magic-list-paralyze-1b5f5495@58fa9e140845d680cbe5196100343272
+projection_coverage: section-sword-world-rpg-complete-edition-section-5-1-12-ancient-magic-list-paralyze-1b5f5495@9113cd9d56d673346d7d40882bc5766f
 ---
 
 # 5.1.12 Ancient Magic List / [ Paralyze ]
@@ -17,9 +17,14 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-5-1-12-ancient-magic-list-2e59bfee]] - broader source section: 5.1.12 Ancient Magic List
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-5-1-12-ancient-magic-list-tongue-f3bb3f93]] - previous source section: 5.1.12 Ancient Magic List / [ Tongue ]
 - [[sword-world-rpg-complete-edition-section-5-1-12-ancient-magic-list-fireball-79bfcaea]] - next source section: 5.1.12 Ancient Magic List / [ Fireball ]
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-5-1-12-ancient-magic-list-2e59bfee]] - broader source section: 5.1.12 Ancient Magic List
 
 ## Statements
 

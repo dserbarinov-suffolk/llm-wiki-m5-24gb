@@ -4,11 +4,11 @@ page_kind: source
 summary: Or even:: 33 source-backed entries and 12 atom(s) from raw/javascriptallonge.pdf.
 page_family: section-reference
 sources: raw/javascriptallonge.pdf
-updated: 2026-07-01
+updated: 2026-07-02
 domain: javascriptallonge
 category_path: sources/javascriptallonge/sections
 source_id: javascriptallonge.pdf
-projection_coverage: section-javascriptallonge-section-or-even-bc497226@163bd1c2b0a9be7ffbeaffca802265e6
+projection_coverage: section-javascriptallonge-section-or-even-bc497226@9a62d5e2f82cc012ef112ca432961685
 ---
 
 # Or even:
@@ -17,11 +17,16 @@ From [[javascriptallonge]].
 
 ## Related pages
 
-- [[javascriptallonge-section-or-even-the-simplest-possible-block-fbb6a26c]] - narrower source section: Or even: / the simplest possible block
-- [[javascriptallonge-section-or-even-void-fe958725]] - narrower source section: Or even: / void
-- [[javascriptallonge-section-or-even-back-on-the-block-b65a6ef3]] - narrower source section: Or even: / back on the block
+### Source order
+
 - [[javascriptallonge-section-the-first-sip-basic-functions-e66ec551]] - previous source section: The first sip: Basic Functions
 - [[javascriptallonge-section-and-also-0e29dfba]] - next source section: And also:
+
+### Source structure
+
+- [[javascriptallonge-section-or-even-back-on-the-block-b65a6ef3]] - narrower source section: Or even: / back on the block
+- [[javascriptallonge-section-or-even-the-simplest-possible-block-fbb6a26c]] - narrower source section: Or even: / the simplest possible block
+- [[javascriptallonge-section-or-even-void-fe958725]] - narrower source section: Or even: / void
 
 ## Statements by subsection
 
@@ -59,6 +64,7 @@ From [[javascriptallonge]].
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00210))_
 
+<a id="atom-technical-atom-ae55f99a3b8f5346"></a>
 ```
 () => (
 1 + 1,
@@ -74,6 +80,7 @@ From [[javascriptallonge]].
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00214))_
 
+<a id="atom-technical-atom-e7a38235b4846c3c"></a>
 ```
 () => {}
 ```
@@ -86,6 +93,7 @@ From [[javascriptallonge]].
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00216))_
 
+<a id="atom-technical-atom-b310aa297ef111e0"></a>
 ```
 (() => {})()
 //=> undefined
@@ -99,6 +107,7 @@ From [[javascriptallonge]].
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00220))_
 
+<a id="atom-technical-atom-b256226581f72926"></a>
 ```
 undefined
 ```
@@ -111,6 +120,7 @@ undefined
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00221))_
 
+<a id="atom-technical-atom-42fdcc2cdec5612a"></a>
 ```
 //=> undefined
 ```
@@ -123,6 +133,7 @@ undefined
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00223))_
 
+<a id="atom-technical-atom-19d368aa877bf601"></a>
 ```
 undefined === undefined
 //=> true
@@ -140,6 +151,7 @@ undefined === undefined
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00232))_
 
+<a id="atom-technical-atom-8540685666108da1"></a>
 ```
 void 0
 //=> undefined
@@ -153,6 +165,7 @@ void (2 + 2)
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00236))_
 
+<a id="atom-technical-atom-2b5f1646ad268fb3"></a>
 ```text
 back on the block
 Back to our function. We evaluated this:
@@ -178,6 +191,7 @@ Back to our function. We evaluated this:
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00237))_
 
+<a id="atom-technical-atom-affe17f16aeeab58"></a>
 ```
 (() => {})()
 //=> undefined
@@ -191,6 +205,7 @@ Back to our function. We evaluated this:
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00242))_
 
+<a id="atom-technical-atom-3078928c66d8a755"></a>
 ```
 () => { 2 + 2 }
 () => { 1 + 1; 2 + 2 }
@@ -204,6 +219,7 @@ Back to our function. We evaluated this:
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00244))_
 
+<a id="atom-technical-atom-c479225daaedeae5"></a>
 ```
 () => {
 1 + 1;
@@ -219,6 +235,7 @@ Back to our function. We evaluated this:
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00246))_
 
+<a id="atom-technical-atom-d51366af88ef2feb"></a>
 ```text
 //=> undefined
 We said that the function returns the result of evaluating a block, and we said that a block is a

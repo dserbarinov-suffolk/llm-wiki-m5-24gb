@@ -4,11 +4,11 @@ page_kind: source
 summary: Interactive Generators / representing naughts and crosses as a stateless function / Would be 3 , producing:: 5 source-backed entries and 0 atom(s) from raw/javascriptallonge.pdf.
 page_family: section-reference
 sources: raw/javascriptallonge.pdf
-updated: 2026-07-01
+updated: 2026-07-02
 domain: javascriptallonge
 category_path: sources/javascriptallonge/sections
 source_id: javascriptallonge.pdf
-projection_coverage: section-javascriptallonge-section-interactive-generators-representing-naughts-and-crosses-as-a-stateless-function-would-be-3-produ-63632d5b@7ebb4084be1936ce79293acfcfd00b61
+projection_coverage: section-javascriptallonge-section-interactive-generators-representing-naughts-and-crosses-as-a-stateless-function-would-be-3-produ-63632d5b@8dd6978aee597bc14a3ca95f3b571783
 ---
 
 # Interactive Generators / representing naughts and crosses as a stateless function / Would be 3 , producing:
@@ -17,8 +17,13 @@ From [[javascriptallonge]].
 
 ## Related pages
 
-- [[javascriptallonge-section-interactive-generators-representing-naughts-and-crosses-as-a-stateless-function-566c2092]] - broader source section: Interactive Generators / representing naughts and crosses as a stateless function
+### Source order
+
 - [[javascriptallonge-section-interactive-generators-representing-naughts-and-crosses-as-a-stateless-function-will-be-represen-f1dabfc6]] - next source section: Interactive Generators / representing naughts and crosses as a stateless function / Will be represented as:
+
+### Source structure
+
+- [[javascriptallonge-section-interactive-generators-representing-naughts-and-crosses-as-a-stateless-function-566c2092]] - broader source section: Interactive Generators / representing naughts and crosses as a stateless function
 
 ## Statements
 

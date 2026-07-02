@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-16-16-5-combat-options-mow-down-0c578acc@c5e3b7b1674773c528e0485534d981e7
+projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-16-16-5-combat-options-mow-down-0c578acc@5077c36fd0b7a7f3ee2380a81c74256a
 ---
 
 # Chapter 16: / 16.5 Combat Options / Mow Down
@@ -17,9 +17,14 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-chapter-16-16-5-combat-options-cdfeb0d1]] - broader source section: Chapter 16: / 16.5 Combat Options
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-chapter-16-16-5-combat-options-snipe-d7c3b3a0]] - previous source section: Chapter 16: / 16.5 Combat Options / Snipe
 - [[sword-world-rpg-complete-edition-section-chapter-16-16-5-combat-options-grapple-7c1eacef]] - next source section: Chapter 16: / 16.5 Combat Options / Grapple
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-chapter-16-16-5-combat-options-cdfeb0d1]] - broader source section: Chapter 16: / 16.5 Combat Options
 
 ## Statements
 

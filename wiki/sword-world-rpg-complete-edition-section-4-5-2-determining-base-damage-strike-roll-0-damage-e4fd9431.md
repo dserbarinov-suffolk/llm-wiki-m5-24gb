@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-4-5-2-determining-base-damage-strike-roll-0-damage-e4fd9431@72f320c0a3391afdc080b006cf74cfac
+projection_coverage: section-sword-world-rpg-complete-edition-section-4-5-2-determining-base-damage-strike-roll-0-damage-e4fd9431@82e5adb67dc6795ef86eecc4d87c5a5a
 ---
 
 # 4.5.2 Determining Base Damage (Strike Roll) / 【 0 Damage! 】
@@ -17,8 +17,16 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-4-5-2-determining-base-damage-strike-roll-267f36cf]] - broader source section: 4.5.2 Determining Base Damage (Strike Roll)
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-4-5-2-determining-base-damage-strike-roll-criticals-0fbd66c4]] - next source section: 4.5.2 Determining Base Damage (Strike Roll) / 【 Criticals
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-4-5-2-determining-base-damage-strike-roll-267f36cf]] - broader source section: 4.5.2 Determining Base Damage (Strike Roll)
+
+### Topics
+
 - [[sword-world-rpg-complete-edition-damage]] - topic hub: opens the topic page for Damage
 
 ## Statements

@@ -4,10 +4,10 @@ page_kind: concept
 summary: Mixing: 0 statement(s) and 1 atom(s) from raw/javascriptallonge.pdf.
 page_family: topic-concept
 sources: raw/javascriptallonge.pdf
-updated: 2026-07-01
+updated: 2026-07-02
 domain: javascriptallonge
 category_path: concepts
-projection_coverage: topic-javascriptallonge-mixing@6ba0a62f8f7aa07bb49ba4eae8bc7296
+projection_coverage: topic-javascriptallonge-mixing@537921c7eafd078bf60d98703355507f
 ---
 
 # Mixing
@@ -27,6 +27,7 @@ What [[javascriptallonge]] covers about mixing:
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01177))_
 
+<a id="atom-technical-atom-0912d8019a651001"></a>
 ```
 (() => {
 let age = 49;
@@ -41,6 +42,8 @@ return age;
 
 
 ## Related pages
+
+### Shared technical atoms
 
 - [[javascriptallonge-const]] - shared technical atoms: Const shares technical record from Reassignment / mixing let and const: (() => { let age = 49; if (true) { const age = 50; } age = 51; return age; })() //=> 51 (1 shared atom(s))
 

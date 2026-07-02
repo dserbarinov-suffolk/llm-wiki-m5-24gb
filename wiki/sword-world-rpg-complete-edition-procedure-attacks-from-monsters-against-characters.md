@@ -9,7 +9,7 @@ domain: sword-world-rpg-complete-edition
 category_path: procedures/sword-world-rpg-complete-edition
 source_id: Sword World RPG - Complete Edition.pdf
 aliases: complete-attacks-from-monsters-against-characters, attacks-from-monsters-against-characters
-projection_coverage: procedure-sword-world-rpg-complete-edition-procedure-attacks-from-monsters-against-characters@5a336fde2114b9914ebbb2f7a5827a0b
+projection_coverage: procedure-sword-world-rpg-complete-edition-procedure-attacks-from-monsters-against-characters@009078b5553a493f151df96ec29e9828
 ---
 
 # Attacks From Monsters Against Characters
@@ -44,16 +44,16 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Tables And Formulas
 
-- `formula`: evasion speed + 2D ≥ monster's attack points → evasion success (monster's attack fails) _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-01317))_
-- `table`: Table 4-3: Rating Table, Key Number _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-01332))_
-- `formula`: Final damage = monster's strike points - (defense roll result + damage reduction) _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-01348))_
-- `table`: 7 (goblin's strike points) - {0 (defense roll) +2 (damage reduction)} = 5 _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-01351))_
-- `rule`: If a monster's attack hits (or if a character fails to evade), you must look for the base damage dealt by the monster. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-01326))_
-- `rule`: Characters can reduce the damage they receive from monsters by means of armor. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-01331))_
-- `rule`: When making a defense roll, if your roll is double ones, that means that you've been hit extremely hard. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-01338))_
-- `rule`: When making a defense roll, criticals do not occur like they do with a strike roll. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-01340))_
-- `worked-example`: Suppose Ducard II's defense roll came up 12 (double sixes!). The number on row 12 under key number column 7 is 6 . Unlik _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-01342))_
-- `rule`: You cannot roll the dice again to increase this number further. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-01342))_
+- `formula`: [[sword-world-rpg-complete-edition-section-attacks-from-monsters-against-characters-a9a9211c]]#atom-technical-atom-0d0bef17d05222b4 evasion speed + 2D ≥ monster's attack points → evasion success (monster's attack fails) _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-01317))_
+- `table`: [[sword-world-rpg-complete-edition-section-attacks-from-monsters-against-characters-a9a9211c]]#atom-technical-atom-622bdaff7123b24a Table 4-3: Rating Table, Key Number _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-01332))_
+- `formula`: [[sword-world-rpg-complete-edition-section-attacks-from-monsters-against-characters-a9a9211c]]#atom-technical-atom-eda94d067ee6bdc9 Final damage = monster's strike points - (defense roll result + damage reduction) _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-01348))_
+- `table`: [[sword-world-rpg-complete-edition-section-attacks-from-monsters-against-characters-a9a9211c]]#atom-technical-atom-602ec93348c7d5a2 7 (goblin's strike points) - {0 (defense roll) +2 (damage reduction)} = 5 _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-01351))_
+- `rule`: [[sword-world-rpg-complete-edition-section-attacks-from-monsters-against-characters-a9a9211c]]#atom-technical-atom-4a852096b9091c72 If a monster's attack hits (or if a character fails to evade), you must look for the base damage dealt by the monster. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-01326))_
+- `rule`: [[sword-world-rpg-complete-edition-section-attacks-from-monsters-against-characters-a9a9211c]]#atom-technical-atom-35e2b02656cd976a Characters can reduce the damage they receive from monsters by means of armor. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-01331))_
+- `rule`: [[sword-world-rpg-complete-edition-section-attacks-from-monsters-against-characters-a9a9211c]]#atom-technical-atom-ede5c32acbb7ca5c When making a defense roll, if your roll is double ones, that means that you've been hit extremely hard. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-01338))_
+- `rule`: [[sword-world-rpg-complete-edition-section-attacks-from-monsters-against-characters-a9a9211c]]#atom-technical-atom-fde5dc8c6de9e8a1 When making a defense roll, criticals do not occur like they do with a strike roll. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-01340))_
+- `worked-example`: [[sword-world-rpg-complete-edition-section-attacks-from-monsters-against-characters-a9a9211c]]#atom-technical-atom-53a2f671460a2dcd Suppose Ducard II's defense roll came up 12 (double sixes!). The number on row 12 under key number column 7 is 6 . Unlik _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-01342))_
+- `rule`: [[sword-world-rpg-complete-edition-section-attacks-from-monsters-against-characters-a9a9211c]]#atom-technical-atom-39d581ddf85a4a8d You cannot roll the dice again to increase this number further. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-01342))_
 
 ## Completion Check
 

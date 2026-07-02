@@ -4,11 +4,11 @@ page_kind: source
 summary: Served by the Pot: Collections / Iteration and Iterables / ordered collections: 12 source-backed entries and 2 atom(s) from raw/javascriptallonge.pdf.
 page_family: section-reference
 sources: raw/javascriptallonge.pdf
-updated: 2026-07-01
+updated: 2026-07-02
 domain: javascriptallonge
 category_path: sources/javascriptallonge/sections
 source_id: javascriptallonge.pdf
-projection_coverage: section-javascriptallonge-section-served-by-the-pot-collections-iteration-and-iterables-ordered-collections-3e509cbd@b07a3621a7781ec31729a35c1c2d39cc
+projection_coverage: section-javascriptallonge-section-served-by-the-pot-collections-iteration-and-iterables-ordered-collections-3e509cbd@279a9fcb6eb2f4a9836145edf4d46b46
 ---
 
 # Served by the Pot: Collections / Iteration and Iterables / ordered collections
@@ -17,9 +17,14 @@ From [[javascriptallonge]].
 
 ## Related pages
 
-- [[javascriptallonge-section-served-by-the-pot-collections-iteration-and-iterables-6006fd95]] - broader source section: Served by the Pot: Collections / Iteration and Iterables
+### Source order
+
 - [[javascriptallonge-section-served-by-the-pot-collections-iteration-and-iterables-iterables-out-to-infinity-376606ac]] - previous source section: Served by the Pot: Collections / Iteration and Iterables / iterables out to infinity
 - [[javascriptallonge-section-served-by-the-pot-collections-iteration-and-iterables-operations-on-ordered-collections-097315e6]] - next source section: Served by the Pot: Collections / Iteration and Iterables / operations on ordered collections
+
+### Source structure
+
+- [[javascriptallonge-section-served-by-the-pot-collections-iteration-and-iterables-6006fd95]] - broader source section: Served by the Pot: Collections / Iteration and Iterables
 
 ## Statements
 
@@ -40,6 +45,7 @@ From [[javascriptallonge]].
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01575))_
 
+<a id="atom-technical-atom-7dce9b57088ba8b7"></a>
 ```
 const abc = ["a", "b", "c"];
 for (const i of abc) {
@@ -66,6 +72,7 @@ c
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01578))_
 
+<a id="atom-technical-atom-9804cd19e3118a86"></a>
 ```
 const RandomNumbers = {
 [Symbol.iterator]: () =>

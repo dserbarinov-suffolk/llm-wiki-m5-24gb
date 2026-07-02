@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-13-2-6-mythical-beasts-and-magical-beasts-horse-worm-383b71be@dd8cabf262254ae7678586e756409150
+projection_coverage: section-sword-world-rpg-complete-edition-section-13-2-6-mythical-beasts-and-magical-beasts-horse-worm-383b71be@e64f7cc4741dca5264c4d65390398882
 ---
 
 # 13.2.6 Mythical Beasts and Magical Beasts / [ Horse ] / [ Worm ]
@@ -17,9 +17,14 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-13-2-6-mythical-beasts-and-magical-beasts-horse-9c294c60]] - broader source section: 13.2.6 Mythical Beasts and Magical Beasts / [ Horse ]
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-13-2-6-mythical-beasts-and-magical-beasts-horse-giant-crab-monster-level-5-rarity-12-agility-10-bd798001]] - previous source section: 13.2.6 Mythical Beasts and Magical Beasts / [ Horse ] / [ Giant Crab ] Monster Level=5 Rarity=12 Agility=10 Movement Speed=10/10 (water) Number=One Frequency=Rare Intellect=Almost none Reaction=Hunger-based Attack Points=Large pincer:13 (6)/Pincer:13 (6) Strike Points=13/12 Evasion Points=11 (4) Defense Points=10 Life Points/Resistance=20/14 (7) Mental Points/Resistance=7/12 (5) Special Abilities=Right pincer strangling Water Adaptation Habitat=Warm coastal areas Languages=None
 - [[sword-world-rpg-complete-edition-section-13-2-6-mythical-beasts-and-magical-beasts-horse-giant-seal-15ca89f9]] - next source section: 13.2.6 Mythical Beasts and Magical Beasts / [ Horse ] / [ Giant Seal ]
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-13-2-6-mythical-beasts-and-magical-beasts-horse-9c294c60]] - broader source section: 13.2.6 Mythical Beasts and Magical Beasts / [ Horse ]
 
 ## Statements
 
@@ -46,34 +51,49 @@ From [[sword-world-rpg-complete-edition]].
 
 **Atoms:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-07289, source-range-0d48087c-07290, source-range-0d48087c-07291, source-range-0d48087c-07292, source-range-0d48087c-07293, source-range-0d48087c-07294, source-range-0d48087c-07296, source-range-0d48087c-07297, source-range-0d48087c-07298, source-range-0d48087c-07299, source-range-0d48087c-07300, source-range-0d48087c-07301, source-range-0d48087c-07303, source-range-0d48087c-07304, source-range-0d48087c-07305))_
 
+<a id="atom-technical-atom-a0e3ba78b234c9f7"></a>
 > Monster Level=5
 
+<a id="atom-technical-atom-0447651483e71a40"></a>
 > Rarity=10
 
+<a id="atom-technical-atom-68a8096d000a94e6"></a>
 > Agility=5
 
+<a id="atom-technical-atom-ba334a402415d7dc"></a>
 > Movement Speed=12/10 (underground)
 
+<a id="atom-technical-atom-7aa74953ec5e0321"></a>
 > Number=One to several Frequency=Rare Intellect=Animal
 
+<a id="atom-technical-atom-492b0cee33273bdf"></a>
 > Reaction=Neutral, becomes ferocious when
 
+<a id="atom-technical-atom-446438eedbc4edcc"></a>
 > Attack Points=Acid:13 (6)
 
+<a id="atom-technical-atom-f5c6e4c35738a640"></a>
 > Strike Points=See description
 
+<a id="atom-technical-atom-b1f18216016f802c"></a>
 > Evasion Points=10 (3) Defense Points=10
 
+<a id="atom-technical-atom-b0b4dc84b26e35d3"></a>
 > Life Points/Resistance=28/15 (8)
 
+<a id="atom-technical-atom-620784b719d540f6"></a>
 > Mental Points/Resistance=9/13 (5)
 
+<a id="atom-technical-atom-8f157b27b5881188"></a>
 > Special Abilities=Acid (Strike power 10,
 
+<a id="atom-technical-atom-c32617fbe4105019"></a>
 > Habitat=Underground
 
+<a id="atom-technical-atom-098f346dd055ae86"></a>
 > Languages=None
 
+<a id="atom-technical-atom-4f844d35c55e6eec"></a>
 > Perception=Five senses
 
 ### Technical frame 2: 13.2.6 Mythical Beasts and Magical Beasts / [ Horse ] / [ Worm ]
@@ -84,6 +104,8 @@ From [[sword-world-rpg-complete-edition]].
 
 **Atoms:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-07309, source-range-0d48087c-07311))_
 
+<a id="atom-technical-atom-ac42406cd869fbd4"></a>
 > Monster Level=6 Rarity=15 Agility=10 Movement Speed=10/20 (underground)
 
+<a id="atom-technical-atom-cb605f6bf1aa22dc"></a>
 > Perception=Five senses

@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-11-notes-on-magic-11-3-dragon-roar-magic-992d31da@2b66156922f0d02e3323980fab7ccfe6
+projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-11-notes-on-magic-11-3-dragon-roar-magic-992d31da@73373acbd8af9a1d77cc9736fb67414c
 ---
 
 # Chapter 11: Notes on Magic / 11.3 Dragon Roar Magic
@@ -17,11 +17,14 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
+### Source order
+
+- [[sword-world-rpg-complete-edition-section-chapter-11-notes-on-magic-11-2-dark-magic-3498c004]] - previous source section: Chapter 11: Notes on Magic / 11.2 Dark Magic
+- [[sword-world-rpg-complete-edition-section-chapter-11-notes-on-magic-11-4-acquiring-rune-master-skills-and-increasing-levels-7501099d]] - next source section: Chapter 11: Notes on Magic / 11.4 Acquiring Rune Master Skills and Increasing Levels
+
+### Source structure
+
 - [[sword-world-rpg-complete-edition-section-chapter-11-notes-on-magic-147e95d8]] - broader source section: Chapter 11: Notes on Magic
-- [[sword-world-rpg-complete-edition-section-chapter-11-notes-on-magic-11-3-dragon-roar-magic-dragon-priest-skill-a9fd3cd8]] - narrower source section: Chapter 11: Notes on Magic / 11.3 Dragon Roar Magic / Dragon Priest Skill
-- [[sword-world-rpg-complete-edition-section-chapter-11-notes-on-magic-11-3-dragon-roar-magic-reptile-check-intelligence-f84c67bc]] - narrower source section: Chapter 11: Notes on Magic / 11.3 Dragon Roar Magic / Reptile Check [Intelligence]
-- [[sword-world-rpg-complete-edition-section-chapter-11-notes-on-magic-11-3-dragon-roar-magic-spell-list-096f1f21]] - narrower source section: Chapter 11: Notes on Magic / 11.3 Dragon Roar Magic / Spell List
-- [[sword-world-rpg-complete-edition-section-chapter-11-notes-on-magic-11-3-dragon-roar-magic-summon-057c87b9]] - narrower source section: Chapter 11: Notes on Magic / 11.3 Dragon Roar Magic / 《 Summon 》
 - [[sword-world-rpg-complete-edition-section-chapter-11-notes-on-magic-11-3-dragon-roar-magic-1st-level-dragon-roar-magic-list-iron-stomach-d613bc88]] - narrower source section: Chapter 11: Notes on Magic / 11.3 Dragon Roar Magic / 1st Level Dragon Roar Magic List [ Iron Stomach ]
 - [[sword-world-rpg-complete-edition-section-chapter-11-notes-on-magic-11-3-dragon-roar-magic-2nd-level-dragon-roar-magic-list-eede9404]] - narrower source section: Chapter 11: Notes on Magic / 11.3 Dragon Roar Magic / 2nd Level Dragon Roar Magic List
 - [[sword-world-rpg-complete-edition-section-chapter-11-notes-on-magic-11-3-dragon-roar-magic-3rd-level-dragon-roar-magic-list-9518b428]] - narrower source section: Chapter 11: Notes on Magic / 11.3 Dragon Roar Magic / 3rd Level Dragon Roar Magic List
@@ -29,10 +32,6 @@ From [[sword-world-rpg-complete-edition]].
 - [[sword-world-rpg-complete-edition-section-chapter-11-notes-on-magic-11-3-dragon-roar-magic-5th-level-dragon-roar-magic-list-dragon-s-roar-a096b249]] - narrower source section: Chapter 11: Notes on Magic / 11.3 Dragon Roar Magic / 5th Level Dragon Roar Magic List [ Dragon's Roar ]
 - [[sword-world-rpg-complete-edition-section-chapter-11-notes-on-magic-11-3-dragon-roar-magic-6th-level-dragon-roar-magic-list-16eb69e9]] - narrower source section: Chapter 11: Notes on Magic / 11.3 Dragon Roar Magic / 6th Level Dragon Roar Magic List
 - [[sword-world-rpg-complete-edition-section-chapter-11-notes-on-magic-11-3-dragon-roar-magic-7th-level-dragon-roar-magic-list-summon-wyrm-8c7fd341]] - narrower source section: Chapter 11: Notes on Magic / 11.3 Dragon Roar Magic / 7th Level Dragon Roar Magic List [ Summon Wyrm ]
-- [[sword-world-rpg-complete-edition-section-chapter-11-notes-on-magic-11-3-dragon-roar-magic-8th-level-dragon-roar-magic-list-cba3ce47]] - narrower source section: Chapter 11: Notes on Magic / 11.3 Dragon Roar Magic / 8th Level Dragon Roar Magic List
-- [[sword-world-rpg-complete-edition-section-chapter-11-notes-on-magic-11-3-dragon-roar-magic-9th-level-dragon-roar-magic-list-summon-lesser-a7961b51]] - narrower source section: Chapter 11: Notes on Magic / 11.3 Dragon Roar Magic / 9th Level Dragon Roar Magic List [ Summon Lesser Dragon ]
-- [[sword-world-rpg-complete-edition-section-chapter-11-notes-on-magic-11-2-dark-magic-3498c004]] - previous source section: Chapter 11: Notes on Magic / 11.2 Dark Magic
-- [[sword-world-rpg-complete-edition-section-chapter-11-notes-on-magic-11-4-acquiring-rune-master-skills-and-increasing-levels-7501099d]] - next source section: Chapter 11: Notes on Magic / 11.4 Acquiring Rune Master Skills and Increasing Levels
 
 ## Statements
 
@@ -175,6 +174,7 @@ From [[sword-world-rpg-complete-edition]].
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-05140))_
 
+<a id="atom-technical-atom-33e2c146dcfad025"></a>
 ```text
 Table 11-1: Summon
  digest anything that enters their stomach
@@ -193,6 +193,7 @@ Table 11-1: Summon
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-05142))_
 
+<a id="atom-technical-atom-5324ab00f084f75c"></a>
 ```text
 1 day later
 -5
@@ -231,14 +232,20 @@ Table 11-1: Summon
 
 **Atoms:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-05231, source-range-0d48087c-05232, source-range-0d48087c-05233, source-range-0d48087c-05234, source-range-0d48087c-05235, source-range-0d48087c-05236))_
 
+<a id="atom-technical-atom-1d8159e7cb7fc377"></a>
 > Base Mental Power Cost=25
 
+<a id="atom-technical-atom-919547d43ebdf0ae"></a>
 > Distance=Caster
 
+<a id="atom-technical-atom-7ba9176c801b15a7"></a>
 > Area=10 meter radius
 
+<a id="atom-technical-atom-4768137d73fef030"></a>
 > Duration=18 rounds
 
+<a id="atom-technical-atom-e36a6123efd069ef"></a>
 > Effect=Let out a roar of terror
 
+<a id="atom-technical-atom-601e22f73b4fe676"></a>
 > Type=Mind

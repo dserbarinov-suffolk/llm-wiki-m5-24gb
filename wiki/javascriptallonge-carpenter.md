@@ -4,10 +4,10 @@ page_kind: concept
 summary: Carpenter: 8 statement(s) and 3 atom(s) from raw/javascriptallonge.pdf.
 page_family: topic-concept
 sources: raw/javascriptallonge.pdf
-updated: 2026-07-01
+updated: 2026-07-02
 domain: javascriptallonge
 category_path: concepts
-projection_coverage: topic-javascriptallonge-carpenter@014c7dcd8ab98ee3d3bd5377aa01851f
+projection_coverage: topic-javascriptallonge-carpenter@1d0feb87322b0840b846436b33a3540d
 ---
 
 # Carpenter
@@ -51,6 +51,7 @@ What [[javascriptallonge]] covers about carpenter:
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01821))_
 
+<a id="atom-technical-atom-808959651f782b5e"></a>
 ```text
 95 http://babeljs.io
 96 http://www.es6fiddle.net
@@ -74,6 +75,7 @@ What [[javascriptallonge]] covers about carpenter:
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01828))_
 
+<a id="atom-technical-atom-0807786551d38e3f"></a>
 ```
 const MOVE = {
 "￿": ([x, y]) => [x - 1, y],
@@ -102,6 +104,7 @@ const position = [
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01829))_
 
+<a id="atom-technical-atom-ccc8077c778fd0a9"></a>
 ```
 Math.floor(Math.random() * size),
 Math.floor(Math.random() * size)

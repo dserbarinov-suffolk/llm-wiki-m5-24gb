@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-5-1-16-basic-holy-magic-list-2faf8a2d@98deb689c2743b1c244428fcd0499974
+projection_coverage: section-sword-world-rpg-complete-edition-section-5-1-16-basic-holy-magic-list-2faf8a2d@717929aecbb43aae43a77d37978f630a
 ---
 
 # 5.1.16 Basic Holy Magic List
@@ -16,6 +16,8 @@ projection_coverage: section-sword-world-rpg-complete-edition-section-5-1-16-bas
 From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
+
+### Source order
 
 - [[sword-world-rpg-complete-edition-section-vow-6670b81b]] - previous source section: 《 Vow 》
 

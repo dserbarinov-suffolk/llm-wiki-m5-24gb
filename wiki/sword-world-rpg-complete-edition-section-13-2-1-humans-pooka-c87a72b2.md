@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-13-2-1-humans-pooka-c87a72b2@29f77351860d1d48de5ad08c15127b72
+projection_coverage: section-sword-world-rpg-complete-edition-section-13-2-1-humans-pooka-c87a72b2@7cdae7e3ad33e4ebea4ccfd20082495a
 ---
 
 # 13.2.1 《 Humans 》 / [ Pooka ]
@@ -17,9 +17,14 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-13-2-1-humans-2369e4b2]] - broader source section: 13.2.1 《 Humans 》
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-13-2-1-humans-pixie-a3547bb5]] - previous source section: 13.2.1 《 Humans 》 / [ Pixie ]
 - [[sword-world-rpg-complete-edition-section-13-2-1-humans-featherfolk-9800b640]] - next source section: 13.2.1 《 Humans 》 / [ Featherfolk ]
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-13-2-1-humans-2369e4b2]] - broader source section: 13.2.1 《 Humans 》
 
 ## Statements
 

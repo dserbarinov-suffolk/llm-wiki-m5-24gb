@@ -4,10 +4,10 @@ page_kind: concept
 summary: Collection: 8 statement(s) and 26 atom(s) from raw/javascriptallonge.pdf.
 page_family: topic-concept
 sources: raw/javascriptallonge.pdf
-updated: 2026-07-01
+updated: 2026-07-02
 domain: javascriptallonge
 category_path: concepts
-projection_coverage: topic-javascriptallonge-collection@9feb6d50c20eff959130c7aa9302be1f
+projection_coverage: topic-javascriptallonge-collection@c90bbec55e8e5a47f925c1ab74ad12d6
 ---
 
 # Collection
@@ -55,6 +55,7 @@ What [[javascriptallonge]] covers about collection:
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01569))_
 
+<a id="atom-technical-atom-ae70cd24c375a4e8"></a>
 ```
 const Numbers = {
 [Symbol.iterator] () {
@@ -75,6 +76,7 @@ next: () =>
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01571))_
 
+<a id="atom-technical-atom-981393a6332489cc"></a>
 ```
 ['all the numbers', ...Numbers]
 //=> infinite loop!
@@ -90,6 +92,7 @@ firstAndSecondElement(...Numbers)
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01575))_
 
+<a id="atom-technical-atom-7dce9b57088ba8b7"></a>
 ```
 const abc = ["a", "b", "c"];
 for (const i of abc) {
@@ -116,6 +119,7 @@ c
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01578))_
 
+<a id="atom-technical-atom-9804cd19e3118a86"></a>
 ```
 const RandomNumbers = {
 [Symbol.iterator]: () =>
@@ -151,6 +155,7 @@ console.log(i)
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01584))_
 
+<a id="atom-technical-atom-fbbf1aa0775abd4d"></a>
 ```
 const mapWith = (fn, collection) =>
 ({
@@ -174,6 +179,7 @@ return ({done, value: done ? undefined : fn(value)});
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01587))_
 
+<a id="atom-technical-atom-bbfb5055a2d70d9e"></a>
 ```
 const Evens = mapWith((x) => 2 * x, Numbers);
 for (const i of Evens) {
@@ -202,6 +208,7 @@ console.log(i)
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01589))_
 
+<a id="atom-technical-atom-cdb9eedb1fb81073"></a>
 ```
 const Evens =
 {
@@ -225,6 +232,7 @@ return ({done, value: done ? undefined : 2 *value});
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01593))_
 
+<a id="atom-technical-atom-7b211bece25d6bb2"></a>
 ```
 const ZeroesToNines = mapWith((n) => Math.floor(10 * limit), RandomNumbers);
 for (const i of ZeroesToNines) {
@@ -250,6 +258,7 @@ console.log(i)
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01594))_
 
+<a id="atom-technical-atom-555373b40479799d"></a>
 ```
 6
 1
@@ -264,6 +273,7 @@ console.log(i)
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01595))_
 
+<a id="atom-technical-atom-26cbec94849c97df"></a>
 > mapWith can get a new iterator from RandomNumbers each time we iterate over ZeroesToNines , but if RandomNumbers doesn't behave like an ordered collection, that's not mapWith 's fault.
 
 ### Technical frame 11: Served by the Pot: Collections / Iteration and Iterables / operations on ordered collections
@@ -274,6 +284,7 @@ console.log(i)
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01597))_
 
+<a id="atom-technical-atom-053b19c44dbfcd19"></a>
 ```
 const filterWith = (fn, iterable) =>
 ({
@@ -312,6 +323,7 @@ return ({done, value: done ? undefined : value});
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01600))_
 
+<a id="atom-technical-atom-1fc36dec4bd8e986"></a>
 ```
 const Squares = mapWith((x) => x * x, Numbers);
 const EndWithOne = filterWith((x) => x % 10 === 1, Squares);
@@ -332,6 +344,7 @@ const UpTo1000 = untilWith((x) => (x > 1000), EndWithOne);
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01608))_
 
+<a id="atom-technical-atom-796cd4abc1f1f1a2"></a>
 ```
 Array.from(UpTo1000)
 //=> [1,81,121,361,441,841,961]
@@ -345,6 +358,7 @@ Array.from(UpTo1000)
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01648))_
 
+<a id="atom-technical-atom-e8b408628ccd4bce"></a>
 ```text
 while (true) {
 [a, b] = [b, a + b];
@@ -465,6 +479,7 @@ function * only (something) {
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01707))_
 
+<a id="atom-technical-atom-282c78b5afaaa88e"></a>
 ```text
 yield 3
 }
@@ -585,6 +600,7 @@ console.log(n)
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01742))_
 
+<a id="atom-technical-atom-84ef11af1d305c7e"></a>
 ```text
 else {
 yield e;
@@ -675,6 +691,7 @@ yield * iterator;
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01768))_
 
+<a id="atom-technical-atom-1d38eb3ceb443c95"></a>
 ```
 const extend = function (consumer, ...providers) {
 for (let i = 0; i < providers.length; ++i) {
@@ -723,6 +740,7 @@ return accumulator;
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01769))_
 
+<a id="atom-technical-atom-ae8005da1287373d"></a>
 ```
 },
 filter(fn) {
@@ -770,6 +788,7 @@ done, value: done ? undefined : value
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01770))_
 
+<a id="atom-technical-atom-93a207680042376b"></a>
 ```
 }, LazyCollection)
 },
@@ -815,6 +834,7 @@ return Object.assign({
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01795))_
 
+<a id="atom-technical-atom-5f902340f55c79d4"></a>
 ```
 const Numbers = Object.assign({
 [Symbol.iterator]: () => {
@@ -841,6 +861,7 @@ Numbers
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01799))_
 
+<a id="atom-technical-atom-ad76bed54ae2e76c"></a>
 ```
 const extend = function (consumer, ...providers) {
 for (let i = 0; i < providers.length; ++i) {
@@ -863,6 +884,7 @@ return consumer
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01800))_
 
+<a id="atom-technical-atom-305ec57a4cbf73ac"></a>
 ```
 const EagerCollection = (gatherable) =>
 ({
@@ -910,6 +932,7 @@ until(fn) {
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01801))_
 
+<a id="atom-technical-atom-72390dcacd432825"></a>
 ```
 const original = this;
 return gatherable.from(
@@ -957,6 +980,7 @@ yield element;
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01803))_
 
+<a id="atom-technical-atom-cb6409830dcddd31"></a>
 ```
 const EMPTY = {
 isEmpty: () => true
@@ -1000,6 +1024,7 @@ Pair.from([1, 2, 3, 4, 5]).map(x => x * 2)
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01804))_
 
+<a id="atom-technical-atom-27ed5f82722e7adf"></a>
 ```
 {"car": 2,
 "cdr": {"car": 4,
@@ -1022,6 +1047,7 @@ Pair.from([1, 2, 3, 4, 5]).map(x => x * 2)
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01936))_
 
+<a id="atom-technical-atom-c9b97a65e5653fd1"></a>
 ```
 function* generatorNaughtsAndCrosses () {
 const x1 = yield 0;
@@ -1052,21 +1078,24 @@ break;
 
 ## Related pages
 
-- [[javascriptallonge-eager-collection]] - narrower topic: Eager Collection shares technical record from Lazy and Eager Collections / eager collections: const extend = function (consumer, ...providers) { for (let i = 0; i < providers.length; ++i) { const provider = providers[i]; for (let key in provider) { if (provid ... [truncated] (3 shared atom(s))
-- [[javascriptallonge-element]] - shared statements and technical atoms: Element shares source evidence from Served by the Pot: Collections / Iteration and Iterables: All of these actions involve going through the contents one by one. Acting on the elements of a collection one at a time is called iterating over the contents , and ... [truncated]; Element shares technical record from Served by the Pot: Collections / Iteration and Iterables / ordered collections: const abc = ["a", "b", "c"]; for (const i of abc) { console.log(i) } //=> a b c for (const i of abc) { console.log(i) } //=> a b c (2 shared statement(s), 1 shared atom(s))
-- [[javascriptallonge-functional-iterator]] - shared statements and technical atoms: Functional Iterators shares source evidence from Served by the Pot: Collections / Iteration and Iterables / iterator objects: Iteration for functions and objects has been around for many, many decades. For simple linear collections like arrays, linked lists, stacks, and queues, functional i ... [truncated]; Functional Iterators shares technical record from Served by the Pot: Collections / Generating Iterables / state machines: while (true) { [a, b] = [b, a + b]; console.log(b); } } fibonacci() //=> 0 1 1 2 3 5 8 13 21 34 Served by the Pot: Collections 206 55 89 144 ... The thing to note he ... [truncated] (1 shared statement(s), 1 shared atom(s))
-- [[javascriptallonge-interactive-generator]] - shared statements and technical atoms: Interactive Generators shares source evidence from Interactive Generators / this seems familiar / interactive generators: Our generator function maintains state implicitly in its control flow, but returns an iterator that we call, it doesn't call us. It isn't a collection, it has no mea ... [truncated]; Interactive Generators shares technical record from Interactive Generators / this seems familiar / interactive generators: function* generatorNaughtsAndCrosses () { const x1 = yield 0; switch (x1) { case 1: const x2 = yield 6; switch (x2) { case 2: case 4: case 5: case 7: case 8: yield 3 ... [truncated] (1 shared statement(s), 1 shared atom(s))
+### Shared technical atoms
+
 - [[javascriptallonge-iteration]] - shared technical atoms: Iteration shares technical record from Served by the Pot: Collections / Iteration and Iterables / iterables out to infinity: const Numbers = { [Symbol.iterator] () { let n = 0; return { next: () => ({done: false, value: n++}) } } } (13 shared atom(s))
 - [[javascriptallonge-iterable]] - shared technical atoms: Iterable shares technical record from Served by the Pot: Collections / Iteration and Iterables / iterables out to infinity: const Numbers = { [Symbol.iterator] () { let n = 0; return { next: () => ({done: false, value: n++}) } } } (8 shared atom(s))
 - [[javascriptallonge-iterator]] - shared technical atoms: Iterator shares technical record from Served by the Pot: Collections / Iteration and Iterables / ordered collections: const RandomNumbers = { [Symbol.iterator]: () => ({ next () { return {value: Math.random()}; } }) } for (const i of RandomNumbers) { console.log(i) } //=> 0.49405212 ... [truncated] (7 shared atom(s))
 - [[javascriptallonge-method]] - shared technical atoms: Method shares technical record from Lazy and Eager Collections / eager collections: const extend = function (consumer, ...providers) { for (let i = 0; i < providers.length; ++i) { const provider = providers[i]; for (let key in provider) { if (provid ... [truncated] (5 shared atom(s))
 - [[javascriptallonge-operation]] - shared technical atoms: Operation shares technical record from Served by the Pot: Collections / Iteration and Iterables / operations on ordered collections: const mapWith = (fn, collection) => ({ [Symbol.iterator] () { const iterator = collection[Symbol.iterator](); return { next () { const {done, value} = iterator.next( ... [truncated] (4 shared atom(s))
+- [[javascriptallonge-element]] - shared statements and technical atoms: Element shares source evidence from Served by the Pot: Collections / Iteration and Iterables: All of these actions involve going through the contents one by one. Acting on the elements of a collection one at a time is called iterating over the contents , and ... [truncated]; Element shares technical record from Served by the Pot: Collections / Iteration and Iterables / ordered collections: const abc = ["a", "b", "c"]; for (const i of abc) { console.log(i) } //=> a b c for (const i of abc) { console.log(i) } //=> a b c (2 shared statement(s), 1 shared atom(s))
 - [[javascriptallonge-javascript]] - shared technical atoms: Javascript shares technical record from Served by the Pot: Collections / Iteration and Iterables / operations on ordered collections: const Evens = { [Symbol.iterator] () { const iterator = Numbers[Symbol.iterator](); return { next () { const {done, value} = iterator.next(); return ({done, value: d ... [truncated] (2 shared atom(s))
 - [[javascriptallonge-return]] - shared technical atoms: Return shares technical record from Served by the Pot: Collections / Iteration and Iterables / operations on ordered collections: const mapWith = (fn, collection) => ({ [Symbol.iterator] () { const iterator = collection[Symbol.iterator](); return { next () { const {done, value} = iterator.next( ... [truncated] (2 shared atom(s))
-- [[javascriptallonge-functional]] - shared technical atoms: Functional shares technical record from Served by the Pot: Collections / Generating Iterables / state machines: while (true) { [a, b] = [b, a + b]; console.log(b); } } fibonacci() //=> 0 1 1 2 3 5 8 13 21 34 Served by the Pot: Collections 206 55 89 144 ... The thing to note he ... [truncated] (1 shared atom(s))
-- [[javascriptallonge-generator]] - shared technical atoms: Generator shares technical record from Served by the Pot: Collections / Generating Iterables / generators and iterables: yield 3 } } for (const i of ThreeNumbers) { console.log(i); } //=> 1 2 3 [...ThreeNumbers] //=> [1,2,3] const iterator = ThreeNumbers[Symbol.iterator](); iterator.ne ... [truncated] (1 shared atom(s))
-- [[javascriptallonge-lazy]] - shared technical atoms: Lazy shares technical record from Lazy and Eager Collections / lazy collection operations: const Numbers = Object.assign({ [Symbol.iterator]: () => { let n = 0; return { next: () => ({done: false, value: n++}) } } }, LazyCollection); const firstCubeOver123 ... [truncated] (1 shared atom(s))
+
+### Shared claims
+
 - [[javascriptallonge-object]] - shared statements: Object shares source evidence from Served by the Pot: Collections / Iteration and Iterables / iterator objects: In programs involving large collections of objects, it can be handy to implement iterators as objects, rather than functions. The mechanics of iterating can then be ... [truncated] (2 shared statement(s))
+
+### Topics
+
+- [[javascriptallonge-eager-collection]] - narrower topic: Eager Collection shares technical record from Lazy and Eager Collections / eager collections: const extend = function (consumer, ...providers) { for (let i = 0; i < providers.length; ++i) { const provider = providers[i]; for (let key in provider) { if (provid ... [truncated] (3 shared atom(s))
 
 ## Source
 

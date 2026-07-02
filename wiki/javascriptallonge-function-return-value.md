@@ -4,10 +4,10 @@ page_kind: concept
 summary: Function Return Value: 1 statement(s) and 2 atom(s) from raw/javascriptallonge.pdf.
 page_family: topic-concept
 sources: raw/javascriptallonge.pdf
-updated: 2026-07-01
+updated: 2026-07-02
 domain: javascriptallonge
 category_path: concepts
-projection_coverage: topic-javascriptallonge-function-return-value@7ef9262c9f0564046b3bf3d603a2f55c
+projection_coverage: topic-javascriptallonge-function-return-value@ddf560b7aab7cb454b2b83a83309bb98
 ---
 
 # Function Return Value
@@ -31,6 +31,7 @@ What [[javascriptallonge]] covers about function return value:
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00194))_
 
+<a id="atom-technical-atom-23c16ebe3854932d"></a>
 ```
 (() => 1 + 1)()
 //=> 2
@@ -48,10 +49,13 @@ What [[javascriptallonge]] covers about function return value:
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00199))_
 
+<a id="atom-technical-atom-d80a006f6758d4fe"></a>
 > When dealing with expressions that have a lot of the same characters (like parentheses), you may find it helpful to format the code to make things stand out.
 
 
 ## Related pages
+
+### Topics
 
 - [[javascriptallonge-return]] - broader topic: Return shares technical record from The first sip: Basic Functions / As Little As Possible About Functions, But No Less / functions that return values and evaluate expressions: (() => 1 + 1)() //=> 2 (() => "Hello, " + "JavaScript")() //=> "Hello, JavaScript" (() => Infinity * Infinity)() //=> Infinity (2 shared atom(s))
 

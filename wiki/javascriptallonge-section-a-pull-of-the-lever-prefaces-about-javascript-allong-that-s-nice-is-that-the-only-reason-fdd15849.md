@@ -4,11 +4,11 @@ page_kind: source
 summary: A Pull of the Lever: Prefaces / About JavaScript Allongé / that's nice. is that the only reason?: 14 source-backed entries and 0 atom(s) from raw/javascriptallonge.pdf.
 page_family: section-reference
 sources: raw/javascriptallonge.pdf
-updated: 2026-07-01
+updated: 2026-07-02
 domain: javascriptallonge
 category_path: sources/javascriptallonge/sections
 source_id: javascriptallonge.pdf
-projection_coverage: section-javascriptallonge-section-a-pull-of-the-lever-prefaces-about-javascript-allong-that-s-nice-is-that-the-only-reason-fdd15849@4ee1b88004c38f0c768982a62cee7db9
+projection_coverage: section-javascriptallonge-section-a-pull-of-the-lever-prefaces-about-javascript-allong-that-s-nice-is-that-the-only-reason-fdd15849@9916387e5e792378b535acf47f827ff7
 ---
 
 # A Pull of the Lever: Prefaces / About JavaScript Allongé / that's nice. is that the only reason?
@@ -17,8 +17,13 @@ From [[javascriptallonge]].
 
 ## Related pages
 
-- [[javascriptallonge-section-a-pull-of-the-lever-prefaces-about-javascript-allong-b566e707]] - broader source section: A Pull of the Lever: Prefaces / About JavaScript Allongé
+### Source order
+
 - [[javascriptallonge-section-a-pull-of-the-lever-prefaces-about-javascript-allong-why-the-six-edition-35c3fb78]] - previous source section: A Pull of the Lever: Prefaces / About JavaScript Allongé / why the 'six' edition?
+
+### Source structure
+
+- [[javascriptallonge-section-a-pull-of-the-lever-prefaces-about-javascript-allong-b566e707]] - broader source section: A Pull of the Lever: Prefaces / About JavaScript Allongé
 
 ## Statements
 

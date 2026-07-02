@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-3-action-announcements-3-1-1-order-of-action-announcements-8874dec4@16758274aab7a9dcb231912123cd8d67
+projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-3-action-announcements-3-1-1-order-of-action-announcements-8874dec4@85c72e45c0427a6ae4d6572ddf2f0ef2
 ---
 
 # Chapter 3: / Action Announcements / 3.1.1 Order of Action Announcements
@@ -17,8 +17,13 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-chapter-3-action-announcements-7eca0973]] - broader source section: Chapter 3: / Action Announcements
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-chapter-3-action-announcements-3-1-2-player-action-announcements-586f9066]] - next source section: Chapter 3: / Action Announcements / 3.1.2 Player Action Announcements
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-chapter-3-action-announcements-7eca0973]] - broader source section: Chapter 3: / Action Announcements
 
 ## Statements
 
@@ -44,4 +49,5 @@ From [[sword-world-rpg-complete-edition]].
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-01061))_
 
+<a id="atom-technical-atom-cd45f2030403f992"></a>
 > If a settlement cannot be reached, the game master gets to announce their group's actions first (NPCs and monsters) and then the players follow.

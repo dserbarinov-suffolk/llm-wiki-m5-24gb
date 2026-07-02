@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-11-notes-on-magic-11-3-dragon-roar-magic-summon-057c87b9@7cff335bee4a37dc085c3d67d0df217f
+projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-11-notes-on-magic-11-3-dragon-roar-magic-summon-057c87b9@d8acb3d48bcdbd40c1b27c81a1c70702
 ---
 
 # Chapter 11: Notes on Magic / 11.3 Dragon Roar Magic / 《 Summon 》
@@ -17,9 +17,14 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-chapter-11-notes-on-magic-11-3-dragon-roar-magic-992d31da]] - broader source section: Chapter 11: Notes on Magic / 11.3 Dragon Roar Magic
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-chapter-11-notes-on-magic-11-3-dragon-roar-magic-spell-list-096f1f21]] - previous source section: Chapter 11: Notes on Magic / 11.3 Dragon Roar Magic / Spell List
 - [[sword-world-rpg-complete-edition-section-chapter-11-notes-on-magic-11-3-dragon-roar-magic-1st-level-dragon-roar-magic-list-iron-stomach-d613bc88]] - next source section: Chapter 11: Notes on Magic / 11.3 Dragon Roar Magic / 1st Level Dragon Roar Magic List [ Iron Stomach ]
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-chapter-11-notes-on-magic-11-3-dragon-roar-magic-992d31da]] - broader source section: Chapter 11: Notes on Magic / 11.3 Dragon Roar Magic
 
 ## Statements
 
@@ -41,6 +46,7 @@ From [[sword-world-rpg-complete-edition]].
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-05107))_
 
+<a id="atom-technical-atom-68e97624fe24d087"></a>
 > When using these spells, the caster must determine the final score of the spell.
 
 ### Technical frame 2: Chapter 11: Notes on Magic / 11.3 Dragon Roar Magic / 《 Summon 》
@@ -51,12 +57,14 @@ From [[sword-world-rpg-complete-edition]].
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-05108))_
 
+<a id="atom-technical-atom-c5b960485e4b95f6"></a>
 > When using the Summon table, the game master can apply any modifiers as desired.
 
 ### Technical frame 3: Table 11-1: Summon
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-05140))_
 
+<a id="atom-technical-atom-33e2c146dcfad025"></a>
 ```text
 Table 11-1: Summon
  digest anything that enters their stomach

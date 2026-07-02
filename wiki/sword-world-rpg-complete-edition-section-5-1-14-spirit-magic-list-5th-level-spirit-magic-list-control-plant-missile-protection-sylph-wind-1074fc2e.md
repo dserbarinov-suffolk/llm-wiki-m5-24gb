@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-5-1-14-spirit-magic-list-5th-level-spirit-magic-list-control-plant-missile-protection-sylph-wind-1074fc2e@51f07a9c2f2a42dea02b343b020ff433
+projection_coverage: section-sword-world-rpg-complete-edition-section-5-1-14-spirit-magic-list-5th-level-spirit-magic-list-control-plant-missile-protection-sylph-wind-1074fc2e@f407738111988f729d7eec082ac60677
 ---
 
 # 5.1.14 Spirit Magic List / 5th Level Spirit Magic List [ Control Plant ] / [ Missile Protection ] (Sylph/Wind Spirit)
@@ -17,8 +17,13 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-5-1-14-spirit-magic-list-5th-level-spirit-magic-list-control-plant-b425997a]] - broader source section: 5.1.14 Spirit Magic List / 5th Level Spirit Magic List [ Control Plant ]
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-5-1-14-spirit-magic-list-5th-level-spirit-magic-list-control-plant-valkyrie-javelin-valkyrie-min-546927ef]] - previous source section: 5.1.14 Spirit Magic List / 5th Level Spirit Magic List [ Control Plant ] / [ Valkyrie Javelin ] (Valkyrie/Mind Spirit)
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-5-1-14-spirit-magic-list-5th-level-spirit-magic-list-control-plant-b425997a]] - broader source section: 5.1.14 Spirit Magic List / 5th Level Spirit Magic List [ Control Plant ]
 
 ## Statements
 

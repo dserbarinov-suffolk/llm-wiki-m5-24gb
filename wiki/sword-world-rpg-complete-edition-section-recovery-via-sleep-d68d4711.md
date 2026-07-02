@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-recovery-via-sleep-d68d4711@1e594718fd6cae011b58f75b9bfcd27f
+projection_coverage: section-sword-world-rpg-complete-edition-section-recovery-via-sleep-d68d4711@dbd373d90b3a68f1a2622a42e3f0b9bc
 ---
 
 # 《 Recovery via Sleep 》
@@ -16,6 +16,8 @@ projection_coverage: section-sword-world-rpg-complete-edition-section-recovery-v
 From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
+
+### Source order
 
 - [[sword-world-rpg-complete-edition-section-magical-recovery-1b1f0c1d]] - previous source section: 《 Magical Recovery 》
 - [[sword-world-rpg-complete-edition-section-5-1-7-magic-expansion-fd183c5b]] - next source section: 5.1.7 Magic Expansion
@@ -36,6 +38,7 @@ From [[sword-world-rpg-complete-edition]].
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-01676))_
 
+<a id="atom-technical-atom-3a9c2c885ddeafb2"></a>
 | Expansion Rate | Area Expansion Length | Volume Expansion Length |
 | --- | --- | --- |
 | x 2 | 1.4 | 1.3 |

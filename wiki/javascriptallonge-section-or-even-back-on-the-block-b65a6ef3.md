@@ -4,11 +4,11 @@ page_kind: source
 summary: Or even: / back on the block: 10 source-backed entries and 3 atom(s) from raw/javascriptallonge.pdf.
 page_family: section-reference
 sources: raw/javascriptallonge.pdf
-updated: 2026-07-01
+updated: 2026-07-02
 domain: javascriptallonge
 category_path: sources/javascriptallonge/sections
 source_id: javascriptallonge.pdf
-projection_coverage: section-javascriptallonge-section-or-even-back-on-the-block-b65a6ef3@49624c959f770ee3368c2cdb76dba028
+projection_coverage: section-javascriptallonge-section-or-even-back-on-the-block-b65a6ef3@4b233e85e714cf1f759e7cbad52a65c7
 ---
 
 # Or even: / back on the block
@@ -17,8 +17,13 @@ From [[javascriptallonge]].
 
 ## Related pages
 
-- [[javascriptallonge-section-or-even-bc497226]] - broader source section: Or even:
+### Source order
+
 - [[javascriptallonge-section-or-even-void-fe958725]] - previous source section: Or even: / void
+
+### Source structure
+
+- [[javascriptallonge-section-or-even-bc497226]] - broader source section: Or even:
 
 ## Statements
 
@@ -33,6 +38,7 @@ From [[javascriptallonge]].
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00236))_
 
+<a id="atom-technical-atom-2b5f1646ad268fb3"></a>
 ```text
 back on the block
 Back to our function. We evaluated this:
@@ -58,6 +64,7 @@ Back to our function. We evaluated this:
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00237))_
 
+<a id="atom-technical-atom-affe17f16aeeab58"></a>
 ```
 (() => {})()
 //=> undefined
@@ -71,6 +78,7 @@ Back to our function. We evaluated this:
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00246))_
 
+<a id="atom-technical-atom-d51366af88ef2feb"></a>
 ```text
 //=> undefined
 We said that the function returns the result of evaluating a block, and we said that a block is a

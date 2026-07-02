@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-attacks-from-monsters-against-characters-4-6-5-final-damage-cb8f53e4@dbcfda821628fb0f468d9f1f94d07cc9
+projection_coverage: section-sword-world-rpg-complete-edition-section-attacks-from-monsters-against-characters-4-6-5-final-damage-cb8f53e4@2c4f03b44c3b6e6e1033246cfb349a0c
 ---
 
 # Attacks From Monsters Against Characters / 4.6.5 Final Damage
@@ -17,8 +17,16 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-attacks-from-monsters-against-characters-a9a9211c]] - broader source section: Attacks From Monsters Against Characters
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-attacks-from-monsters-against-characters-4-6-4-damage-reduction-b3691cec]] - previous source section: Attacks From Monsters Against Characters / 4.6.4 Damage Reduction
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-attacks-from-monsters-against-characters-a9a9211c]] - broader source section: Attacks From Monsters Against Characters
+
+### Topics
+
 - [[sword-world-rpg-complete-edition-final-damage]] - topic hub: opens the topic page for Final Damage
 
 ## Statements
@@ -39,6 +47,7 @@ From [[sword-world-rpg-complete-edition]].
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-01348))_
 
+<a id="atom-technical-atom-eda94d067ee6bdc9"></a>
 > Final damage = monster's strike points - (defense roll result + damage reduction)
 
 ### Technical frame 2: Attacks From Monsters Against Characters / 4.6.5 Final Damage
@@ -49,6 +58,7 @@ From [[sword-world-rpg-complete-edition]].
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-01351))_
 
+<a id="atom-technical-atom-602ec93348c7d5a2"></a>
 ```text
 7 (goblin's strike points) - {0 (defense roll) +2 (damage reduction)} = 5
 7 (goblin's strike points) - {6 (defense roll) +2 (damage reduction)} = -1

@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-13-2-3-youma-gnome-22f3b87b@355849d2d5febb216c08ec6ec0644379
+projection_coverage: section-sword-world-rpg-complete-edition-section-13-2-3-youma-gnome-22f3b87b@fcbd50d8595b6a16297e3d961ae9742d
 ---
 
 # 13.2.3 Youma / [ Gnome ]
@@ -17,9 +17,14 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-13-2-3-youma-05ea9fd0]] - broader source section: 13.2.3 Youma
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-13-2-3-youma-sprite-bda05ea6]] - previous source section: 13.2.3 Youma / [ Sprite ]
 - [[sword-world-rpg-complete-edition-section-13-2-3-youma-frau-51e5358f]] - next source section: 13.2.3 Youma / [ Frau ]
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-13-2-3-youma-05ea9fd0]] - broader source section: 13.2.3 Youma
 
 ## Statements
 

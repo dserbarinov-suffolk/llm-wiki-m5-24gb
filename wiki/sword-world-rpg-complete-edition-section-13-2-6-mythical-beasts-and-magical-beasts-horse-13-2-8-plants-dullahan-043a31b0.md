@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-13-2-6-mythical-beasts-and-magical-beasts-horse-13-2-8-plants-dullahan-043a31b0@fd6cc16504ad8fd2fe2beb5befb914f6
+projection_coverage: section-sword-world-rpg-complete-edition-section-13-2-6-mythical-beasts-and-magical-beasts-horse-13-2-8-plants-dullahan-043a31b0@49510dafcb924426608efb66affdce67
 ---
 
 # 13.2.6 Mythical Beasts and Magical Beasts / [ Horse ] / 13.2.8 Plants / [ Dullahan ]
@@ -17,9 +17,14 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-13-2-6-mythical-beasts-and-magical-beasts-horse-13-2-8-plants-6ae09235]] - broader source section: 13.2.6 Mythical Beasts and Magical Beasts / [ Horse ] / 13.2.8 Plants
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-13-2-6-mythical-beasts-and-magical-beasts-horse-13-2-8-plants-jack-o-lantern-d3b07cb7]] - previous source section: 13.2.6 Mythical Beasts and Magical Beasts / [ Horse ] / 13.2.8 Plants / [ Jack-O-Lantern ]
 - [[sword-world-rpg-complete-edition-section-13-2-6-mythical-beasts-and-magical-beasts-horse-13-2-8-plants-undead-knight-a5f98857]] - next source section: 13.2.6 Mythical Beasts and Magical Beasts / [ Horse ] / 13.2.8 Plants / [ Undead Knight ]
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-13-2-6-mythical-beasts-and-magical-beasts-horse-13-2-8-plants-6ae09235]] - broader source section: 13.2.6 Mythical Beasts and Magical Beasts / [ Horse ] / 13.2.8 Plants
 
 ## Statements
 
@@ -49,26 +54,38 @@ From [[sword-world-rpg-complete-edition]].
 
 **Atoms:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-07781, source-range-0d48087c-07782, source-range-0d48087c-07783, source-range-0d48087c-07784, source-range-0d48087c-07785, source-range-0d48087c-07786, source-range-0d48087c-07787, source-range-0d48087c-07788, source-range-0d48087c-07789, source-range-0d48087c-07790, source-range-0d48087c-07791, source-range-0d48087c-07792))_
 
+<a id="atom-technical-atom-651435f832196bf0"></a>
 > Monster Level=4
 
+<a id="atom-technical-atom-cf87d61794271d66"></a>
 > Rarity=14
 
+<a id="atom-technical-atom-bb2a7d12da167c81"></a>
 > Agility=16
 
+<a id="atom-technical-atom-f8ee5b018e5ee3eb"></a>
 > Movement Speed=30/30 (air)
 
+<a id="atom-technical-atom-39ff81652d02bc0f"></a>
 > Number=One Frequency=Rare
 
+<a id="atom-technical-atom-2447cb823dd75ead"></a>
 > Intellect=None Reaction=Adversarial
 
+<a id="atom-technical-atom-f84cb2f9938f2e8d"></a>
 > Attack Points=Ram:14 (7)
 
+<a id="atom-technical-atom-c0fbfaef8a53cacf"></a>
 > Strike Points=15
 
+<a id="atom-technical-atom-f01f6afc4d451de2"></a>
 > Evasion Points=13 (6) Defense Points=8
 
+<a id="atom-technical-atom-e307fe925939e46e"></a>
 > Life Points/Resistance=30/15 (8)
 
+<a id="atom-technical-atom-8238065edef96c92"></a>
 > Mental Points/Resistance=-/12 (5)
 
+<a id="atom-technical-atom-ecbeaad6b1bdde10"></a>
 > Special Abilities=Normal weapon immunity

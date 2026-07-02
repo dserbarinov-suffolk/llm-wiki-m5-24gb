@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-accessories-earrings-of-interpretation-earrings-of-pooka-6fe82deb@487dedaa4d0da01cbd8653c7c0db5d45
+projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-accessories-earrings-of-interpretation-earrings-of-pooka-6fe82deb@561e50f0f6ae1717509d7fe52ea33431
 ---
 
 # Chapter 14: / 14.4 Magical Item List / 《 Accessories 》 [ Earrings of Interpretation ] / [ Earrings of Pooka ]
@@ -17,8 +17,13 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-accessories-earrings-of-interpretation-6973f651]] - broader source section: Chapter 14: / 14.4 Magical Item List / 《 Accessories 》 [ Earrings of Interpretation ]
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-accessories-earrings-of-interpretation-container-bracelet-10db2ebb]] - next source section: Chapter 14: / 14.4 Magical Item List / 《 Accessories 》 [ Earrings of Interpretation ] / [ Container Bracelet ]
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-accessories-earrings-of-interpretation-6973f651]] - broader source section: Chapter 14: / 14.4 Magical Item List / 《 Accessories 》 [ Earrings of Interpretation ]
 
 ## Statements
 

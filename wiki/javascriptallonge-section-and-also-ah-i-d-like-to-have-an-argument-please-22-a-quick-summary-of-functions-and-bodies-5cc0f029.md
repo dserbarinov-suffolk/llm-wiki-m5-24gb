@@ -4,11 +4,11 @@ page_kind: source
 summary: And also: / Ah. I'd Like to Have an Argument, Please. 22 / a quick summary of functions and bodies: 5 source-backed entries and 0 atom(s) from raw/javascriptallonge.pdf.
 page_family: section-reference
 sources: raw/javascriptallonge.pdf
-updated: 2026-07-01
+updated: 2026-07-02
 domain: javascriptallonge
 category_path: sources/javascriptallonge/sections
 source_id: javascriptallonge.pdf
-projection_coverage: section-javascriptallonge-section-and-also-ah-i-d-like-to-have-an-argument-please-22-a-quick-summary-of-functions-and-bodies-5cc0f029@2789fc28ec40b760cb606be52ebf1393
+projection_coverage: section-javascriptallonge-section-and-also-ah-i-d-like-to-have-an-argument-please-22-a-quick-summary-of-functions-and-bodies-5cc0f029@b931a84a05f05124aa850b164200a632
 ---
 
 # And also: / Ah. I'd Like to Have an Argument, Please. 22 / a quick summary of functions and bodies
@@ -17,8 +17,13 @@ From [[javascriptallonge]].
 
 ## Related pages
 
-- [[javascriptallonge-section-and-also-ah-i-d-like-to-have-an-argument-please-22-1153c61b]] - broader source section: And also: / Ah. I'd Like to Have an Argument, Please. 22
+### Source order
+
 - [[javascriptallonge-section-and-also-ah-i-d-like-to-have-an-argument-please-22-call-by-value-2ee5c091]] - next source section: And also: / Ah. I'd Like to Have an Argument, Please. 22 / call by value
+
+### Source structure
+
+- [[javascriptallonge-section-and-also-ah-i-d-like-to-have-an-argument-please-22-1153c61b]] - broader source section: And also: / Ah. I'd Like to Have an Argument, Please. 22
 
 ## Statements
 

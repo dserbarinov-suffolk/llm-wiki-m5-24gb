@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-16-de7f0512@4cef8e733c93a10ebbf10dd6a129f692
+projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-16-de7f0512@180d5461729d812c9c25cf9a15121fb4
 ---
 
 # Chapter 16:
@@ -17,14 +17,19 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-chapter-16-faf82038]] - broader source section: Chapter 16:
-- [[sword-world-rpg-complete-edition-section-chapter-16-defense-modifier-dbee970d]] - narrower source section: Chapter 16: / Defense Modifier
-- [[sword-world-rpg-complete-edition-section-chapter-16-critical-target-variation-f713085f]] - narrower source section: Chapter 16: / Critical Target Variation
-- [[sword-world-rpg-complete-edition-section-chapter-16-anti-strangling-protection-cb00dfaf]] - narrower source section: Chapter 16: / Anti-Strangling Protection
-- [[sword-world-rpg-complete-edition-section-chapter-16-shield-modifiers-a0fa8bce]] - narrower source section: Chapter 16: / Shield Modifiers
-- [[sword-world-rpg-complete-edition-section-chapter-16-projectile-bonus-damage-70ac798f]] - narrower source section: Chapter 16: / Projectile Bonus Damage
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-chapter-16-16-2-weapon-and-armor-modifiers-04ec9a3a]] - previous source section: Chapter 16: / 16.2 Weapon and Armor Modifiers
 - [[sword-world-rpg-complete-edition-section-chapter-16-16-4-projectile-range-extension-e49b508c]] - next source section: Chapter 16: / 16.4 Projectile Range Extension
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-chapter-16-faf82038]] - broader source section: Chapter 16:
+- [[sword-world-rpg-complete-edition-section-chapter-16-anti-strangling-protection-cb00dfaf]] - narrower source section: Chapter 16: / Anti-Strangling Protection
+- [[sword-world-rpg-complete-edition-section-chapter-16-critical-target-variation-f713085f]] - narrower source section: Chapter 16: / Critical Target Variation
+- [[sword-world-rpg-complete-edition-section-chapter-16-defense-modifier-dbee970d]] - narrower source section: Chapter 16: / Defense Modifier
+- [[sword-world-rpg-complete-edition-section-chapter-16-projectile-bonus-damage-70ac798f]] - narrower source section: Chapter 16: / Projectile Bonus Damage
+- [[sword-world-rpg-complete-edition-section-chapter-16-shield-modifiers-a0fa8bce]] - narrower source section: Chapter 16: / Shield Modifiers
 
 ## Statements by subsection
 
@@ -51,6 +56,7 @@ From [[sword-world-rpg-complete-edition]].
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-10217))_
 
+<a id="atom-technical-atom-00408b892a0a413e"></a>
 ```text
 Table 16-3 Armor Optional Rules
  place that's easy to reach (such as on a
@@ -82,6 +88,8 @@ Table 16-3 Armor Optional Rules
 
 **Atoms:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-10219, source-range-0d48087c-10221))_
 
+<a id="atom-technical-atom-f17327419e718427"></a>
 > With this optional rule, there are differences in the way small and large shields are handled ( Table 16-2: Shield Optional Rules ).
 
+<a id="atom-technical-atom-69d471cc0ebd3ec0"></a>
 > Table 16-2 Shield Optional Rules

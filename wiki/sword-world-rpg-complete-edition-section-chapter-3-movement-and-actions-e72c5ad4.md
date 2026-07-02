@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-3-movement-and-actions-e72c5ad4@b8bf1cac06a8e117de88baaccfbfd896
+projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-3-movement-and-actions-e72c5ad4@60c2f61edaae14e21a0bbdaf32635731
 ---
 
 # Chapter 3: / Movement and Actions
@@ -17,9 +17,14 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-chapter-3-b1c23679]] - broader source section: Chapter 3:
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-chapter-3-3-2-1-delaying-an-action-98203a92]] - previous source section: Chapter 3: / 3.2.1 Delaying an Action
 - [[sword-world-rpg-complete-edition-section-chapter-3-0d0d3e8f]] - next source section: Chapter 3:
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-chapter-3-b1c23679]] - broader source section: Chapter 3:
 
 ## Statements
 
@@ -37,6 +42,7 @@ From [[sword-world-rpg-complete-edition]].
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-01113))_
 
+<a id="atom-technical-atom-bbff782e85d13ec1"></a>
 ```text
 Movement and Actions
 3.4 Movement and Actions

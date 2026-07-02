@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-6-6-1-precautions-when-using-skills-thief-skill-f1b62afe@eae290eafb4ccf6f7141357d62d2b6c0
+projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-6-6-1-precautions-when-using-skills-thief-skill-f1b62afe@ea92e10d97978588eb9b6e4e6b8536d2
 ---
 
 # Chapter 6: / 6.1 Precautions When Using Skills / Thief Skill
@@ -17,19 +17,19 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
+### Source structure
+
 - [[sword-world-rpg-complete-edition-section-chapter-6-6-1-precautions-when-using-skills-3fccdf49]] - broader source section: Chapter 6: / 6.1 Precautions When Using Skills
-- [[sword-world-rpg-complete-edition-section-chapter-6-6-1-precautions-when-using-skills-thief-skill-tumble-agility-equipment-restriction-73a5b397]] - narrower source section: Chapter 6: / 6.1 Precautions When Using Skills / Thief Skill / [ ① Tumble [Agility] ] (Equipment restriction)
-- [[sword-world-rpg-complete-edition-section-chapter-6-6-1-precautions-when-using-skills-thief-skill-lockpicking-dexterity-no-equipment-restr-e787ca8c]] - narrower source section: Chapter 6: / 6.1 Precautions When Using Skills / Thief Skill / [ ② Lockpicking [Dexterity]] (No equipment restriction, not retriable)
 - [[sword-world-rpg-complete-edition-section-chapter-6-6-1-precautions-when-using-skills-thief-skill-acrobatics-agility-equipment-restriction-c1d479b4]] - narrower source section: Chapter 6: / 6.1 Precautions When Using Skills / Thief Skill / [ ③ Acrobatics [Agility] ] (Equipment restriction)
-- [[sword-world-rpg-complete-edition-section-chapter-6-6-1-precautions-when-using-skills-thief-skill-listen-intelligence-equipment-restrictio-12b641f4]] - narrower source section: Chapter 6: / 6.1 Precautions When Using Skills / Thief Skill / [ ⑤ Listen [Intelligence] ] (Equipment restriction)
-- [[sword-world-rpg-complete-edition-section-chapter-6-6-1-precautions-when-using-skills-thief-skill-stealthy-step-agility-equipment-restrict-69256f8b]] - narrower source section: Chapter 6: / 6.1 Precautions When Using Skills / Thief Skill / [ ⑥ Stealthy Step [Agility] ] (Equipment restriction)
-- [[sword-world-rpg-complete-edition-section-chapter-6-6-1-precautions-when-using-skills-thief-skill-pickpocket-dexterity-equipment-restricti-9a16875e]] - narrower source section: Chapter 6: / 6.1 Precautions When Using Skills / Thief Skill / [ ⑦ Pickpocket [Dexterity] ] (Equipment restriction)
-- [[sword-world-rpg-complete-edition-section-chapter-6-6-1-precautions-when-using-skills-thief-skill-hide-agility-equipment-restriction-17be70ed]] - narrower source section: Chapter 6: / 6.1 Precautions When Using Skills / Thief Skill / [ ⑧ Hide [Agility] ] (Equipment restriction)
-- [[sword-world-rpg-complete-edition-section-chapter-6-6-1-precautions-when-using-skills-thief-skill-search-intelligence-no-equipment-restric-a65c04fe]] - narrower source section: Chapter 6: / 6.1 Precautions When Using Skills / Thief Skill / [ ⑨ Search [Intelligence] ] (No equipment restriction, not retriable)
 - [[sword-world-rpg-complete-edition-section-chapter-6-6-1-precautions-when-using-skills-thief-skill-climb-agility-equipment-restriction-b4706317]] - narrower source section: Chapter 6: / 6.1 Precautions When Using Skills / Thief Skill / [ ⑩ Climb [Agility] ] (Equipment restriction)
-- [[sword-world-rpg-complete-edition-section-chapter-6-6-1-precautions-when-using-skills-thief-skill-special-combat-dexterity-agility-strengt-cb7a8a64]] - narrower source section: Chapter 6: / 6.1 Precautions When Using Skills / Thief Skill / [ ⑪ Special Combat [Dexterity, Agility, Strength]] (Equipment restriction)
+- [[sword-world-rpg-complete-edition-section-chapter-6-6-1-precautions-when-using-skills-thief-skill-hide-agility-equipment-restriction-17be70ed]] - narrower source section: Chapter 6: / 6.1 Precautions When Using Skills / Thief Skill / [ ⑧ Hide [Agility] ] (Equipment restriction)
+- [[sword-world-rpg-complete-edition-section-chapter-6-6-1-precautions-when-using-skills-thief-skill-listen-intelligence-equipment-restrictio-12b641f4]] - narrower source section: Chapter 6: / 6.1 Precautions When Using Skills / Thief Skill / [ ⑤ Listen [Intelligence] ] (Equipment restriction)
+- [[sword-world-rpg-complete-edition-section-chapter-6-6-1-precautions-when-using-skills-thief-skill-lockpicking-dexterity-no-equipment-restr-e787ca8c]] - narrower source section: Chapter 6: / 6.1 Precautions When Using Skills / Thief Skill / [ ② Lockpicking [Dexterity]] (No equipment restriction, not retriable)
 - [[sword-world-rpg-complete-edition-section-chapter-6-6-1-precautions-when-using-skills-thief-skill-long-jump-high-jump-agility-equipment-re-76624506]] - narrower source section: Chapter 6: / 6.1 Precautions When Using Skills / Thief Skill / [ ⑫ Long Jump/High Jump [Agility] ] (Equipment restriction)
-- [[sword-world-rpg-complete-edition-section-chapter-6-6-1-precautions-when-using-skills-thief-skill-treasure-appraisal-intelligence-no-equip-6032e192]] - narrower source section: Chapter 6: / 6.1 Precautions When Using Skills / Thief Skill / [ ⑮ Treasure Appraisal [Intelligence] ] (No equipment restriction, not retriable)
+- [[sword-world-rpg-complete-edition-section-chapter-6-6-1-precautions-when-using-skills-thief-skill-pickpocket-dexterity-equipment-restricti-9a16875e]] - narrower source section: Chapter 6: / 6.1 Precautions When Using Skills / Thief Skill / [ ⑦ Pickpocket [Dexterity] ] (Equipment restriction)
+
+### Topics
+
 - [[sword-world-rpg-complete-edition-thief-skill]] - topic hub: opens the topic page for Thief Skill
 
 ## Statements
@@ -134,6 +134,7 @@ From [[sword-world-rpg-complete-edition]].
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-04029))_
 
+<a id="atom-technical-atom-8feec0ea6ee4e67e"></a>
 > The game master may add modifiers depending on the surroundings and the opponent's situation.
 
 ### Technical frame 2: Chapter 6: / 6.1 Precautions When Using Skills / Thief Skill / [ ⑪ Special Combat [Dexterity, Agility, Strength]] (Equipment restriction)
@@ -144,4 +145,5 @@ From [[sword-world-rpg-complete-edition]].
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-04039))_
 
+<a id="atom-technical-atom-7563d513837552c4"></a>
 > If one adventurer has acquired both the thief skill and the fighter skill, the player must choose which skill to fight with.

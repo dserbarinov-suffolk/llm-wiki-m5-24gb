@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-7-7-5-treatment-intelligence-hunter-skill-pre-processing-dexterity-herbs-intelligence-no-0876d7d2@2af7a5f7e37a1cd336a733b94c986e77
+projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-7-7-5-treatment-intelligence-hunter-skill-pre-processing-dexterity-herbs-intelligence-no-0876d7d2@fe17cbae84f9ef87331fba2c95013c43
 ---
 
 # Chapter 7: / 7.5 [ ② Treatment [Intelligence]] / Hunter Skill / [ ⑨ Pre-processing [Dexterity]] / [ ③ Herbs [Intelligence] ] (Not retriable)
@@ -16,6 +16,8 @@ projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-7-
 From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
+
+### Source structure
 
 - [[sword-world-rpg-complete-edition-section-chapter-7-7-5-treatment-intelligence-hunter-skill-pre-processing-dexterity-84d4379a]] - broader source section: Chapter 7: / 7.5 [ ② Treatment [Intelligence]] / Hunter Skill / [ ⑨ Pre-processing [Dexterity]]
 
@@ -41,6 +43,7 @@ From [[sword-world-rpg-complete-edition]].
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-04410))_
 
+<a id="atom-technical-atom-a1c811a707b80d3f"></a>
 ```text
 7.6
 7.6 Sailor Skill

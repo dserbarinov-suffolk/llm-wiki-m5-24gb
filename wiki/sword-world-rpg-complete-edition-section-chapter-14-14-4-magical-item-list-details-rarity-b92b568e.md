@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-details-rarity-b92b568e@3c41abcd6075a506bc5022e19c38cf7d
+projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-details-rarity-b92b568e@1184ef67244ce899156f9d5ba37a023c
 ---
 
 # Chapter 14: / 14.4 Magical Item List / Details / 《 Rarity 》
@@ -17,8 +17,13 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-details-cc13bc5e]] - broader source section: Chapter 14: / 14.4 Magical Item List / Details
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-details-sword-world-rpg-complete-edition-rulebook-5ed3db83]] - previous source section: Chapter 14: / 14.4 Magical Item List / Details / Sword World RPG: Complete Edition Rulebook
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-details-cc13bc5e]] - broader source section: Chapter 14: / 14.4 Magical Item List / Details
 
 ## Statements
 
@@ -35,6 +40,7 @@ From [[sword-world-rpg-complete-edition]].
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-08949))_
 
+<a id="atom-technical-atom-5319b58e09cfcd1c"></a>
 | Required | Price | Required | Price |
 | --- | --- | --- | --- |
 | Strength | (Gamels) | Strength | (Gamels) |

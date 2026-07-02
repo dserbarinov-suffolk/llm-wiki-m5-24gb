@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-5-1-12-ancient-magic-list-flight-7c8755e3@65d4540ddc495c6c52d49d1de4950fbe
+projection_coverage: section-sword-world-rpg-complete-edition-section-5-1-12-ancient-magic-list-flight-7c8755e3@c6b858d3dce1bd6ddfb1a6006f4dc398
 ---
 
 # 5.1.12 Ancient Magic List / [ Flight ]
@@ -17,9 +17,14 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-5-1-12-ancient-magic-list-2e59bfee]] - broader source section: 5.1.12 Ancient Magic List
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-5-1-12-ancient-magic-list-vision-ac5cb13e]] - previous source section: 5.1.12 Ancient Magic List / [ Vision ]
 - [[sword-world-rpg-complete-edition-section-5-1-12-ancient-magic-list-blizzard-e8c00109]] - next source section: 5.1.12 Ancient Magic List / Blizzard ]
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-5-1-12-ancient-magic-list-2e59bfee]] - broader source section: 5.1.12 Ancient Magic List
 
 ## Statements
 

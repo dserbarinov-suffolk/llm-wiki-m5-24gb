@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-curse-27cb44d5@0929593c695ef45c88935f7bfcb1e277
+projection_coverage: section-sword-world-rpg-complete-edition-section-curse-27cb44d5@7848a67429a17754bb10986bc742c754
 ---
 
 # 《 Curse 》
@@ -16,6 +16,8 @@ projection_coverage: section-sword-world-rpg-complete-edition-section-curse-27cb
 From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
+
+### Source order
 
 - [[sword-world-rpg-complete-edition-section-non-removable-5051944b]] - previous source section: 《 Non-removable 》
 

@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-8-game-master-screen-ability-scores-a41763db@cef96bd11e248e5cce73691fd81fbe3f
+projection_coverage: section-sword-world-rpg-complete-edition-section-8-game-master-screen-ability-scores-a41763db@f22e877efce1e559fd22e6aa24dfbba6
 ---
 
 # 8. Game Master Screen / Ability Scores
@@ -17,16 +17,16 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
+### Source structure
+
 - [[sword-world-rpg-complete-edition-section-8-game-master-screen-4f143413]] - broader source section: 8. Game Master Screen
-- [[sword-world-rpg-complete-edition-section-8-game-master-screen-ability-scores-dexterity-2a2b4979]] - narrower source section: 8. Game Master Screen / Ability Scores / 【 Dexterity 】
-- [[sword-world-rpg-complete-edition-section-8-game-master-screen-ability-scores-agility-b420fe09]] - narrower source section: 8. Game Master Screen / Ability Scores / 【 Agility 】
-- [[sword-world-rpg-complete-edition-section-8-game-master-screen-ability-scores-intelligence-b0d10a25]] - narrower source section: 8. Game Master Screen / Ability Scores / 【 Intelligence 】
-- [[sword-world-rpg-complete-edition-section-8-game-master-screen-ability-scores-strength-669a3922]] - narrower source section: 8. Game Master Screen / Ability Scores / 【 Strength 】
-- [[sword-world-rpg-complete-edition-section-8-game-master-screen-ability-scores-life-force-7095d30a]] - narrower source section: 8. Game Master Screen / Ability Scores / 【 Life Force 】
-- [[sword-world-rpg-complete-edition-section-8-game-master-screen-ability-scores-mental-power-e4dea2f5]] - narrower source section: 8. Game Master Screen / Ability Scores / 【 Mental Power 】
-- [[sword-world-rpg-complete-edition-section-8-game-master-screen-ability-scores-loss-of-ability-scores-and-its-impact-8d38dd7f]] - narrower source section: 8. Game Master Screen / Ability Scores / Loss of Ability Scores and Its Impact
 - [[sword-world-rpg-complete-edition-section-8-game-master-screen-ability-scores-ability-bonuses-b62ddaa2]] - narrower source section: 8. Game Master Screen / Ability Scores / 【 Ability Bonuses 】
+- [[sword-world-rpg-complete-edition-section-8-game-master-screen-ability-scores-agility-b420fe09]] - narrower source section: 8. Game Master Screen / Ability Scores / 【 Agility 】
+- [[sword-world-rpg-complete-edition-section-8-game-master-screen-ability-scores-dexterity-2a2b4979]] - narrower source section: 8. Game Master Screen / Ability Scores / 【 Dexterity 】
 - [[sword-world-rpg-complete-edition-section-8-game-master-screen-ability-scores-dwarf-37a133c5]] - narrower source section: 8. Game Master Screen / Ability Scores / 【 Dwarf 】
+- [[sword-world-rpg-complete-edition-section-8-game-master-screen-ability-scores-intelligence-b0d10a25]] - narrower source section: 8. Game Master Screen / Ability Scores / 【 Intelligence 】
+- [[sword-world-rpg-complete-edition-section-8-game-master-screen-ability-scores-life-force-7095d30a]] - narrower source section: 8. Game Master Screen / Ability Scores / 【 Life Force 】
+- [[sword-world-rpg-complete-edition-section-8-game-master-screen-ability-scores-loss-of-ability-scores-and-its-impact-8d38dd7f]] - narrower source section: 8. Game Master Screen / Ability Scores / Loss of Ability Scores and Its Impact
 
 ## Statements
 
@@ -93,6 +93,7 @@ From [[sword-world-rpg-complete-edition]].
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-00174))_
 
+<a id="atom-technical-atom-866bf61f91d0fd07"></a>
 ```text
 Table 1-1: Ability Bonuses
                                     represented by a loss of life force and

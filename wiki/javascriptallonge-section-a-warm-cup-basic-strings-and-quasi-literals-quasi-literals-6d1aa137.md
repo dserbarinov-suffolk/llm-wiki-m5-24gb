@@ -4,11 +4,11 @@ page_kind: source
 summary: A Warm Cup: Basic Strings and Quasi-Literals / quasi-literals: 11 source-backed entries and 3 atom(s) from raw/javascriptallonge.pdf.
 page_family: section-reference
 sources: raw/javascriptallonge.pdf
-updated: 2026-07-01
+updated: 2026-07-02
 domain: javascriptallonge
 category_path: sources/javascriptallonge/sections
 source_id: javascriptallonge.pdf
-projection_coverage: section-javascriptallonge-section-a-warm-cup-basic-strings-and-quasi-literals-quasi-literals-6d1aa137@190079957818ae3b1158104b74985a61
+projection_coverage: section-javascriptallonge-section-a-warm-cup-basic-strings-and-quasi-literals-quasi-literals-6d1aa137@dedd19567fa2a0c462e88ccaaafae66a
 ---
 
 # A Warm Cup: Basic Strings and Quasi-Literals / quasi-literals
@@ -17,8 +17,16 @@ From [[javascriptallonge]].
 
 ## Related pages
 
-- [[javascriptallonge-section-a-warm-cup-basic-strings-and-quasi-literals-50e42ba0]] - broader source section: A Warm Cup: Basic Strings and Quasi-Literals
+### Source order
+
 - [[javascriptallonge-section-a-warm-cup-basic-strings-and-quasi-literals-evaluation-time-1634aeef]] - next source section: A Warm Cup: Basic Strings and Quasi-Literals / evaluation time
+
+### Source structure
+
+- [[javascriptallonge-section-a-warm-cup-basic-strings-and-quasi-literals-50e42ba0]] - broader source section: A Warm Cup: Basic Strings and Quasi-Literals
+
+### Topics
+
 - [[javascriptallonge-quasi-literal]] - topic hub: opens the topic page for Quasi Literal
 
 ## Statements
@@ -39,6 +47,7 @@ From [[javascriptallonge]].
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01501))_
 
+<a id="atom-technical-atom-eba515be482d2fd3"></a>
 ```
 `foobar`
 //=> 'foobar'
@@ -54,6 +63,7 @@ From [[javascriptallonge]].
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01507))_
 
+<a id="atom-technical-atom-a0702ab6f119b921"></a>
 ```
 'A popular number for nerds is ' + (40 + 2)
 //=> 'A popular number for nerds is 42'
@@ -67,6 +77,7 @@ From [[javascriptallonge]].
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01509))_
 
+<a id="atom-technical-atom-6197af834ec5d959"></a>
 ```
 'A popular number for nerds is' + (40 + 2)
 //=> 'A popular number for nerds is42'

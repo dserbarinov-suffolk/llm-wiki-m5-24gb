@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-attacks-from-monsters-against-characters-failure-f4804b9e@e4c32601b91b45bf09c0bbe93fcfa3d3
+projection_coverage: section-sword-world-rpg-complete-edition-section-attacks-from-monsters-against-characters-failure-f4804b9e@0ad73a422f2da509a8976e70c27d7e1a
 ---
 
 # Attacks From Monsters Against Characters / 【 Failure! 】
@@ -17,9 +17,17 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-attacks-from-monsters-against-characters-a9a9211c]] - broader source section: Attacks From Monsters Against Characters
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-attacks-from-monsters-against-characters-4-6-3-defense-rolls-6e7df75a]] - previous source section: Attacks From Monsters Against Characters / 4.6.3 Defense Rolls
 - [[sword-world-rpg-complete-edition-section-attacks-from-monsters-against-characters-criticals-9e0eac15]] - next source section: Attacks From Monsters Against Characters / 【 Criticals? 】
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-attacks-from-monsters-against-characters-a9a9211c]] - broader source section: Attacks From Monsters Against Characters
+
+### Topics
+
 - [[sword-world-rpg-complete-edition-failure]] - topic hub: opens the topic page for Failure
 
 ## Statements

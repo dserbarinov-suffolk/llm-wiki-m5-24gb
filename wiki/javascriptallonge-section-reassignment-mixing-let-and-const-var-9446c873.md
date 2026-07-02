@@ -4,11 +4,11 @@ page_kind: source
 summary: Reassignment / mixing let and const / var: 15 source-backed entries and 3 atom(s) from raw/javascriptallonge.pdf.
 page_family: section-reference
 sources: raw/javascriptallonge.pdf
-updated: 2026-07-01
+updated: 2026-07-02
 domain: javascriptallonge
 category_path: sources/javascriptallonge/sections
 source_id: javascriptallonge.pdf
-projection_coverage: section-javascriptallonge-section-reassignment-mixing-let-and-const-var-9446c873@257b25e60908e6e919da77403887ed7e
+projection_coverage: section-javascriptallonge-section-reassignment-mixing-let-and-const-var-9446c873@4412e7e032e73ab21e8a77ae83b88e63
 ---
 
 # Reassignment / mixing let and const / var
@@ -16,6 +16,8 @@ projection_coverage: section-javascriptallonge-section-reassignment-mixing-let-a
 From [[javascriptallonge]].
 
 ## Related pages
+
+### Source structure
 
 - [[javascriptallonge-section-reassignment-mixing-let-and-const-c05d240a]] - broader source section: Reassignment / mixing let and const
 
@@ -39,6 +41,7 @@ From [[javascriptallonge]].
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01183))_
 
+<a id="atom-technical-atom-6a1d7611ecb44363"></a>
 ```
 const factorial = (n) => {
 let x = n;
@@ -69,6 +72,7 @@ else {
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01185))_
 
+<a id="atom-technical-atom-2865c0fb65d705d7"></a>
 ```
 return n * factorial2(x);
 }
@@ -85,6 +89,7 @@ factorial2(5)
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01187))_
 
+<a id="atom-technical-atom-d4c7dd4ee1a2d1be"></a>
 ```
 (() => {
 var age = 49;

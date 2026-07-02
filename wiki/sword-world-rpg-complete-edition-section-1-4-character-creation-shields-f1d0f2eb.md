@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-1-4-character-creation-shields-f1d0f2eb@8afe61af7fd00e7acd7342f4a7db8ad4
+projection_coverage: section-sword-world-rpg-complete-edition-section-1-4-character-creation-shields-f1d0f2eb@d90cfe556958ec46fdc576cf9012c3c2
 ---
 
 # 1.4 Character Creation / Shields
@@ -17,9 +17,14 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-1-4-character-creation-f6aa6108]] - broader source section: 1.4 Character Creation
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-1-4-character-creation-armor-3358c0d8]] - previous source section: 1.4 Character Creation / Armor
 - [[sword-world-rpg-complete-edition-section-1-4-character-creation-price-calculation-1effa062]] - next source section: 1.4 Character Creation / Price Calculation
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-1-4-character-creation-f6aa6108]] - broader source section: 1.4 Character Creation
 
 ## Statements
 

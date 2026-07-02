@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-13-2-6-mythical-beasts-and-magical-beasts-unicorn-47f6e4bf@8c513d1168ba6a163b0e6d932480c1c2
+projection_coverage: section-sword-world-rpg-complete-edition-section-13-2-6-mythical-beasts-and-magical-beasts-unicorn-47f6e4bf@602d0c438108240920b6c0a5fdb9afc2
 ---
 
 # 13.2.6 Mythical Beasts and Magical Beasts / [ Unicorn ]
@@ -17,9 +17,14 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-13-2-6-mythical-beasts-and-magical-beasts-f86962d2]] - broader source section: 13.2.6 Mythical Beasts and Magical Beasts
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-13-2-6-mythical-beasts-and-magical-beasts-minotaur-916cdc73]] - previous source section: 13.2.6 Mythical Beasts and Magical Beasts / [ Minotaur ]
 - [[sword-world-rpg-complete-edition-section-13-2-6-mythical-beasts-and-magical-beasts-lynx-1b04b77d]] - next source section: 13.2.6 Mythical Beasts and Magical Beasts / [ Lynx ]
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-13-2-6-mythical-beasts-and-magical-beasts-f86962d2]] - broader source section: 13.2.6 Mythical Beasts and Magical Beasts
 
 ## Statements
 
@@ -42,6 +47,7 @@ From [[sword-world-rpg-complete-edition]].
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-06678))_
 
+<a id="atom-technical-atom-e531dce97452009f"></a>
 > Unicorns can also use spirit magic unrelated to the spirit of life, but at this time their shaman skill is only 6th level.
 
 ### Technical frame 2: 13.2.6 Mythical Beasts and Magical Beasts / [ Unicorn ]
@@ -52,4 +58,5 @@ From [[sword-world-rpg-complete-edition]].
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-06680))_
 
+<a id="atom-technical-atom-e1907e8a7fafa23a"></a>
 > If a unicorn loses its horn due to overuse of magic or it being cut off, it will never grow back again.

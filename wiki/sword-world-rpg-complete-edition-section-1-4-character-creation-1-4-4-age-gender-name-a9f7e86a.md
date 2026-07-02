@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-1-4-character-creation-1-4-4-age-gender-name-a9f7e86a@dcb150bb673303e33893268a0db3427f
+projection_coverage: section-sword-world-rpg-complete-edition-section-1-4-character-creation-1-4-4-age-gender-name-a9f7e86a@af405218069367047265892f1fd6bff4
 ---
 
 # 1.4 Character Creation / 1.4.4 Age, Gender, Name
@@ -17,9 +17,14 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-1-4-character-creation-f6aa6108]] - broader source section: 1.4 Character Creation
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-1-4-character-creation-1-4-3-starting-skills-and-starting-7536fe31]] - previous source section: 1.4 Character Creation / 1.4.3 Starting Skills and Starting
 - [[sword-world-rpg-complete-edition-section-1-4-character-creation-age-a5cf1903]] - next source section: 1.4 Character Creation / 《 Age 》
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-1-4-character-creation-f6aa6108]] - broader source section: 1.4 Character Creation
 
 ## Statements
 

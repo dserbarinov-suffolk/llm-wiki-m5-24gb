@@ -4,10 +4,10 @@ page_kind: concept
 summary: Interactive Generators: 31 statement(s) and 17 atom(s) from raw/javascriptallonge.pdf.
 page_family: topic-concept
 sources: raw/javascriptallonge.pdf
-updated: 2026-07-01
+updated: 2026-07-02
 domain: javascriptallonge
 category_path: concepts
-projection_coverage: topic-javascriptallonge-interactive-generator@c485eebe180c7f75efb20f1543116ee1
+projection_coverage: topic-javascriptallonge-interactive-generator@29efb0fbec98631dc02f795815636ab9
 ---
 
 # Interactive Generators
@@ -89,6 +89,7 @@ What [[javascriptallonge]] covers about interactive generators:
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01907))_
 
+<a id="atom-technical-atom-71048b04f17a5615"></a>
 ```
 [
 'o', 'x', ' ',
@@ -105,6 +106,7 @@ What [[javascriptallonge]] covers about interactive generators:
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01909))_
 
+<a id="atom-technical-atom-cf1219ae470caeaa"></a>
 ```
 const moveLookupTable = {
 [[
@@ -141,6 +143,7 @@ const moveLookupTable = {
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01910))_
 
+<a id="atom-technical-atom-5ab06977f9de46ba"></a>
 ```
 ]]: 3,
 [[
@@ -162,49 +165,7 @@ const moveLookupTable = {
 };
 ```
 
-### Technical frame 4: Interactive Generators / representing naughts and crosses as a stateless function / We get:
-
-**Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01912))_
-
-```
-{
-"o,x, , , , , , , ":6,
-"o,x,x, , , ,o, , ":3,
-"o,x, ,x, , ,o, , ":8,
-"o,x, , ,x, ,o, , ":3,
-"o,x, , , ,x,o, , ":3,
-"o,x, , , , ,o,x, ":3,
-"o,x, , , , ,o, ,x":3
-}
-```
-
-### Technical frame 5: Interactive Generators / representing naughts and crosses as a stateless function / We get:
-
-**Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01914))_
-
-```
-moveLookupTable[[
-'o', 'x', ' ',
-' ', ' ', ' ',
-'o', 'x', ' '
-]]
-//=> 3
-```
-
-### Technical frame 6: Interactive Generators / representing naughts and crosses as a stateless function / We get:
-
-**Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01916))_
-
-```
-statelessNaughtsAndCrosses([
-'o', 'x', ' ',
-' ', ' ', ' ',
-'o', 'x', ' '
-])
-//=> 3
-```
-
-### Technical frame 7: Interactive Generators / representing naughts and crosses as a stateful function
+### Technical frame 4: Interactive Generators / representing naughts and crosses as a stateful function
 
 **Context:** _(javascriptallonge.pdf (source-range-0e12e052-01924))_
 
@@ -212,6 +173,7 @@ statelessNaughtsAndCrosses([
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01920))_
 
+<a id="atom-technical-atom-23143a937bd750cd"></a>
 ```
 const aNaughtsAndCrossesGame = statefulNaughtsAndCrosses();
 // our opponent makes the first move
@@ -225,7 +187,7 @@ aNaughtsAndCrossesGame(4)
 //=> 3
 ```
 
-### Technical frame 8: Interactive Generators / representing naughts and crosses as a stateful function
+### Technical frame 5: Interactive Generators / representing naughts and crosses as a stateful function
 
 **Context:** _(javascriptallonge.pdf (source-range-0e12e052-01924))_
 
@@ -233,6 +195,7 @@ aNaughtsAndCrossesGame(4)
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01922))_
 
+<a id="atom-technical-atom-747d79ddd509d2cd"></a>
 ```
 const statefulNaughtsAndCrosses = () => {
 const state = [
@@ -244,7 +207,7 @@ return (x = false) => {
 if (x) {
 ```
 
-### Technical frame 9: Interactive Generators / representing naughts and crosses as a stateful function
+### Technical frame 6: Interactive Generators / representing naughts and crosses as a stateful function
 
 **Context:** _(javascriptallonge.pdf (source-range-0e12e052-01924))_
 
@@ -252,6 +215,7 @@ if (x) {
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01923))_
 
+<a id="atom-technical-atom-067376184d94b5a2"></a>
 ```
 if (state[x] === ' ') {
 state[x] = 'x';
@@ -275,7 +239,7 @@ aNaughtsAndCrossesGame(4)
 //=> 3
 ```
 
-### Technical frame 10: Interactive Generators / this seems familiar
+### Technical frame 7: Interactive Generators / this seems familiar
 
 **Context:** _(javascriptallonge.pdf (source-range-0e12e052-01930))_
 
@@ -283,6 +247,7 @@ aNaughtsAndCrossesGame(4)
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01929))_
 
+<a id="atom-technical-atom-98083118e44372d1"></a>
 ```
 function browserNaughtsAndCrosses () {
 const x1 = parseInt(prompt('o plays 0, where does x play?'));
@@ -316,7 +281,7 @@ break;
 }
 ```
 
-### Technical frame 11: Interactive Generators / this seems familiar / interactive generators
+### Technical frame 8: Interactive Generators / this seems familiar / interactive generators
 
 **Context:** _(javascriptallonge.pdf (source-range-0e12e052-01937))_
 
@@ -324,6 +289,7 @@ break;
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01936))_
 
+<a id="atom-technical-atom-c9b97a65e5653fd1"></a>
 ```
 function* generatorNaughtsAndCrosses () {
 const x1 = yield 0;
@@ -351,86 +317,51 @@ yield 7;
 break;
 ```
 
-### Technical frame 12: Interactive Generators / Basic Operations on Iterables / operations that transform one iterable into another
+### Technical atom 9
 
-**Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01946))_
+<a id="atom-technical-atom-4f29c33a0841d43e"></a>
 
-```
-function * mapWith(fn, iterable) {
-for (const element of iterable) {
-yield fn(element);
-}
-}
-function * mapAllWith (fn, iterable) {
-for (const element of iterable) {
-yield * fn(element);
-}
-}
-function * filterWith (fn, iterable) {
-for (const element of iterable) {
-if (!!fn(element)) yield element;
-}
-}
-function * compact (iterable) {
-for (const element of iterable) {
-if (element != null) yield element;
-}
-}
-function * untilWith (fn, iterable) {
-for (const element of iterable) {
-if (fn(element)) break;
-yield fn(element);
-}
-}
-function * rest (iterable) {
-const iterator = iterable[Symbol.iterator]();
-iterator.next();
-```
+**Context:** _(javascriptallonge.pdf (source-range-0e12e052-01913))_
 
-### Technical frame 13: Interactive Generators / Basic Operations on Iterables / operations that transform one iterable into another
+> And if we want to look up what move to make, we can write:
 
-**Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01947))_
+**Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01914))_
 
 ```
-yield * iterator;
-}
-function * take (numberToTake, iterable) {
-const iterator = iterable[Symbol.iterator]();
-for (let i = 0; i < numberToTake; ++i) {
-const { done, value } = iterator.next();
-if (!done) yield value;
-}
-}
+moveLookupTable[[
+'o', 'x', ' ',
+' ', ' ', ' ',
+'o', 'x', ' '
+]]
+//=> 3
 ```
 
-### Technical frame 14: Interactive Generators / Basic Operations on Iterables / operations that compose two or more iterables into an iterable
+### Technical atom 10
 
-**Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01949))_
+<a id="atom-technical-atom-9fcf1a3c35e563fa"></a>
+
+**Context:** _(javascriptallonge.pdf (source-range-0e12e052-01915))_
+
+> And from there, a stateless function to play naughts-and-crosses is trivial:
+
+**Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01916))_
 
 ```
-function * zip (...iterables) {
-const iterators = iterables.map(i => i[Symbol.iterator]());
-while (true) {
-const pairs = iterators.map(j => j.next()),
-dones = pairs.map(p => p.done),
-values = pairs.map(p => p.value);
-if (dones.indexOf(true) >= 0) break;
-yield values;
-}
-};
-function * zipWith (zipper, ...iterables) {
-const iterators = iterables.map(i => i[Symbol.iterator]());
-while (true) {
-const pairs = iterators.map(j => j.next()),
-dones = pairs.map(p => p.done),
-values = pairs.map(p => p.value);
-if (dones.indexOf(true) >= 0) break;
-yield zipper(...values);
-}
-};
+statelessNaughtsAndCrosses([
+'o', 'x', ' ',
+' ', ' ', ' ',
+'o', 'x', ' '
+])
+//=> 3
 ```
 
-### Technical frame 15: Interactive Generators / Basic Operations on Iterables / operations that compose two or more iterables into an iterable
+### Technical atom 11
+
+<a id="atom-technical-atom-38302dfa8e8b789a"></a>
+
+**Context:** _(javascriptallonge.pdf (source-range-0e12e052-01950))_
+
+> Note: zip is also the following special case of zipWith :
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01951))_
 
@@ -438,58 +369,23 @@ yield zipper(...values);
 const zip = callFirst(zipWith, (...values) => values);
 ```
 
-### Technical frame 16: Interactive Generators / Basic Operations on Iterables / operations that transform an iterable into a value
-
-**Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01953))_
-
-```
-const reduceWith = (fn, seed, iterable) => {
-let accumulator = seed;
-for (const element of iterable) {
-accumulator = fn(accumulator, element);
-}
-return accumulator;
-};
-const first = (iterable) =>
-iterable[Symbol.iterator]().next().value;
-```
-
-### Technical frame 17: Interactive Generators / Basic Operations on Iterables / memoizing an iterable
-
-**Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01955))_
-
-```
-function memoize (generator) {
-const memos = {},
-iterators = {};
-return function * (...args) {
-const key = JSON.stringify(args);
-let i = 0;
-if (memos[key] == null) {
-memos[key] = [];
-iterators[key] = generator(...args);
-}
-while (true) {
-if (i < memos[key].length) {
-yield memos[key][i++];
-}
-else {
-const { done, value } = iterators[key].next();
-if (done) {
-return;
-} else {
-yield memos[key][i++] = value;
-```
-
 
 ## Related pages
+
+### Source structure
+
+- [[javascriptallonge-section-interactive-generators-a0db0ac4]] - source section: Interactive Generators shares source evidence from Interactive Generators: We used generators to build iterators that maintain implicit state. We saw how to use them for recursive unfolds and state machines. But there are other times we wan ... [truncated]; Interactive Generators shares technical record from Interactive Generators / representing naughts and crosses as a stateless function / Will be represented as:: [ 'o', 'x', ' ', 'x', ' ', ' ', 'o', ' ', ' ' ] (31 shared statement(s), 17 shared atom(s))
+- [[javascriptallonge-section-interactive-generators-this-seems-familiar-interactive-generators-3de32faa]] - source section: Interactive Generators / this seems familiar / interactive generators shares source evidence from Interactive Generators / this seems familiar / interactive generators: So far, we have called iterators (and generators) with .next() . But what if we pass a value to .next() ? If we could do that, a generator function that played naugh ... [truncated]; Interactive Generators / this seems familiar / interactive generators shares technical record from Interactive Generators / this seems familiar / interactive generators: function* generatorNaughtsAndCrosses () { const x1 = yield 0; switch (x1) { case 1: const x2 = yield 6; switch (x2) { case 2: case 4: case 5: case 7: case 8: yield 3 ... [truncated] (6 shared statement(s), 1 shared atom(s))
+
+### Shared technical atoms
 
 - [[javascriptallonge-collection]] - shared statements and technical atoms: Collection shares source evidence from Interactive Generators / this seems familiar / interactive generators: Our generator function maintains state implicitly in its control flow, but returns an iterator that we call, it doesn't call us. It isn't a collection, it has no mea ... [truncated]; Collection shares technical record from Interactive Generators / this seems familiar / interactive generators: function* generatorNaughtsAndCrosses () { const x1 = yield 0; switch (x1) { case 1: const x2 = yield 6; switch (x2) { case 2: case 4: case 5: case 7: case 8: yield 3 ... [truncated] (1 shared statement(s), 1 shared atom(s))
 - [[javascriptallonge-cross-stateless-function]] - shared statements and technical atoms: Cross Stateless Function shares source evidence from Interactive Generators / representing naughts and crosses as a stateless function: We could plays naughts and crosses as a stateless function. We encode each position of the board in some fashion, and then we build a dictionary from positions to mo ... [truncated]; Cross Stateless Function shares technical record from Interactive Generators / representing naughts and crosses as a stateless function / We get:: statelessNaughtsAndCrosses([ 'o', 'x', ' ', ' ', ' ', ' ', 'o', 'x', ' ' ]) //=> 3 (1 shared statement(s), 1 shared atom(s))
 - [[javascriptallonge-iterator]] - shared statements and technical atoms: Iterator shares source evidence from Interactive Generators / this seems familiar: However, our solution inverts the control. We aren't calling our function with moves, it's calling us. With iterators, we wrote a generator function using function * ... [truncated]; Iterator shares technical record from Interactive Generators / this seems familiar / interactive generators: function* generatorNaughtsAndCrosses () { const x1 = yield 0; switch (x1) { case 1: const x2 = yield 6; switch (x2) { case 2: case 4: case 5: case 7: case 8: yield 3 ... [truncated] (1 shared statement(s), 1 shared atom(s))
+
+### Shared claims
+
 - [[javascriptallonge-cross-stateful-function]] - shared statements: Cross Stateful Function shares source evidence from Interactive Generators / representing naughts and crosses as a stateful function: Our statelessNaughtsAndCrosses function pushes the work of tracking the game's state onto us, the player. What if we want to exchange moves with the function? In tha ... [truncated] (1 shared statement(s))
-- [[javascriptallonge-section-interactive-generators-a0db0ac4]] - source section: Interactive Generators shares source evidence from Interactive Generators: We used generators to build iterators that maintain implicit state. We saw how to use them for recursive unfolds and state machines. But there are other times we wan ... [truncated]; Interactive Generators shares technical record from Interactive Generators / representing naughts and crosses as a stateless function / Will be represented as:: [ 'o', 'x', ' ', 'x', ' ', ' ', 'o', ' ', ' ' ] (31 shared statement(s), 17 shared atom(s))
-- [[javascriptallonge-section-interactive-generators-this-seems-familiar-interactive-generators-3de32faa]] - source section: Interactive Generators / this seems familiar / interactive generators shares source evidence from Interactive Generators / this seems familiar / interactive generators: So far, we have called iterators (and generators) with .next() . But what if we pass a value to .next() ? If we could do that, a generator function that played naugh ... [truncated]; Interactive Generators / this seems familiar / interactive generators shares technical record from Interactive Generators / this seems familiar / interactive generators: function* generatorNaughtsAndCrosses () { const x1 = yield 0; switch (x1) { case 1: const x2 = yield 6; switch (x2) { case 2: case 4: case 5: case 7: case 8: yield 3 ... [truncated] (6 shared statement(s), 1 shared atom(s))
 
 ## Source
 

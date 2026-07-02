@@ -4,10 +4,10 @@ page_kind: concept
 summary: Functional Iterators: 39 statement(s) and 27 atom(s) from raw/javascriptallonge.pdf.
 page_family: topic-concept
 sources: raw/javascriptallonge.pdf
-updated: 2026-07-01
+updated: 2026-07-02
 domain: javascriptallonge
 category_path: concepts
-projection_coverage: topic-javascriptallonge-functional-iterator@cb55432c5d7d77b9431acb6bd10d8af8
+projection_coverage: topic-javascriptallonge-functional-iterator@f02d8f5a2449e6a997f4c32a2e0791b7
 ---
 
 # Functional Iterators
@@ -99,6 +99,7 @@ What [[javascriptallonge]] covers about functional iterators:
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01268))_
 
+<a id="atom-technical-atom-24fc5bde3dd87bda"></a>
 ```
 const arraySum = ([first, ...rest], accumulator = 0) =>
 first === undefined
@@ -116,6 +117,7 @@ arraySum([1, 4, 9, 16, 25])
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01270))_
 
+<a id="atom-technical-atom-73aaabb73418a011"></a>
 ```
 const callLeft = (fn, ...args) =>
 (...remainingArgs) =>
@@ -137,6 +139,7 @@ arraySum([1, 4, 9, 16, 25])
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01274))_
 
+<a id="atom-technical-atom-c699834d7bae69f5"></a>
 ```
 const callRight = (fn, ...args) =>
 (...remainingArgs) =>
@@ -159,6 +162,7 @@ sumFoldable(foldArray([1, 4, 9, 16, 25]))
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01277))_
 
+<a id="atom-technical-atom-8d1904e8f85266ff"></a>
 ```
 const callRight = (fn, ...args) =>
 (...remainingArgs) =>
@@ -184,6 +188,7 @@ sumFoldable(foldTree([1, [4, [9, 16]], 25]))
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01282))_
 
+<a id="atom-technical-atom-f7b456184e95d5ca"></a>
 ```
 const arraySum = (array) => {
 let sum = 0;
@@ -204,6 +209,7 @@ arraySum([1, 4, 9, 16, 25])
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01285))_
 
+<a id="atom-technical-atom-4bd546db6cc10b01"></a>
 ```
 const arraySum = (array) => {
 let done,
@@ -227,6 +233,7 @@ arraySum([1, 4, 9, 16, 25])
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01287))_
 
+<a id="atom-technical-atom-557883d9714f88ed"></a>
 ```
 const arraySum = (array) => {
 let iter,
@@ -272,6 +279,7 @@ while ((eachIteration = iterator(), !eachIteration.done)) {
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01288))_
 
+<a id="atom-technical-atom-2a456f2976964a98"></a>
 ```
 sum += eachIteration.value;
 }
@@ -289,6 +297,7 @@ iteratorSum(arrayIterator([1, 4, 9, 16, 25]))
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01291))_
 
+<a id="atom-technical-atom-282dba3fa6180714"></a>
 ```
 const EMPTY = null;
 const isEmpty = (node) => node === EMPTY;
@@ -322,6 +331,7 @@ aPair = aPair.rest;
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01292))_
 
+<a id="atom-technical-atom-ec11f07272147db8"></a>
 ```
 return { done, value: first }
 }
@@ -347,6 +357,7 @@ iteratorSum(aListIterator)
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01295))_
 
+<a id="atom-technical-atom-e9b34a22026fe73e"></a>
 ```
 const NumberIterator = (number = 0) =>
 () => ({ done: false, value: number++ })
@@ -371,6 +382,7 @@ fromOne().value;
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01297))_
 
+<a id="atom-technical-atom-dc6d7632125621cc"></a>
 ```
 const FibonacciIterator
 = () => {
@@ -403,6 +415,7 @@ fib().value
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01300))_
 
+<a id="atom-technical-atom-106566f7f4dc0942"></a>
 ```
 const mapIteratorWith = (fn, iterator) =>
 () => {
@@ -423,6 +436,7 @@ squares().value
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01301))_
 
+<a id="atom-technical-atom-9a11199dca2516d3"></a>
 ```
 //=> 4
 squares().value
@@ -437,6 +451,7 @@ squares().value
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01303))_
 
+<a id="atom-technical-atom-f28b1a77d2c0e6d7"></a>
 ```
 const take = (iterator, numberToTake) => {
 let count = 0;
@@ -470,6 +485,7 @@ toArray(take(squares, 5))
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01305))_
 
+<a id="atom-technical-atom-7adc89bbb45aec36"></a>
 ```
 const odds = () => {
 ```
@@ -482,6 +498,7 @@ const odds = () => {
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01306))_
 
+<a id="atom-technical-atom-d8db762dae8a0974"></a>
 ```
 let number = 1;
 return () => {
@@ -503,6 +520,7 @@ toArray(take(squareOf(odds()), 5))
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01308))_
 
+<a id="atom-technical-atom-921c472cdded54e5"></a>
 ```
 const filterIteratorWith = (fn, iterator) =>
 () => {
@@ -524,6 +542,7 @@ toArray(take(squareOf(oddsOf(NumberIterator(1))), 5))
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01313))_
 
+<a id="atom-technical-atom-4befcf9fdb3ad196"></a>
 ```
 const firstInIteration = (fn, iterator) =>
 take(filterIteratorWith(fn, iterator), 1);
@@ -537,6 +556,7 @@ take(filterIteratorWith(fn, iterator), 1);
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01315))_
 
+<a id="atom-technical-atom-8cc7c05afa7a0aff"></a>
 ```
 const firstInArray = (fn, array) =>
 array.filter(fn)[0];
@@ -550,6 +570,7 @@ array.filter(fn)[0];
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01528))_
 
+<a id="atom-technical-atom-ddee552faf251bd7"></a>
 ```
 const Stack1 = () =>
 ({
@@ -598,6 +619,7 @@ stack.push("you!")
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01529))_
 
+<a id="atom-technical-atom-f68796c5cf2886ed"></a>
 ```
 const iter = stack.iterator();
 iter().value
@@ -614,6 +636,7 @@ iter().value
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01531))_
 
+<a id="atom-technical-atom-c4ccdca248ad2fba"></a>
 ```
 The .iterator() method is defined with shorthand equivalent to iterator: function iterator()
 { ... }. Note that it uses the function keyword, so when we invoke it with stack.iterator(),
@@ -635,6 +658,7 @@ object, even though we call it with iter().
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01533))_
 
+<a id="atom-technical-atom-1f7883384ea561b0"></a>
 ```
 const iteratorSum = (iterator) => {
 let eachIteration,
@@ -654,6 +678,7 @@ return sum
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01535))_
 
+<a id="atom-technical-atom-f6c0e3a1edc3cc92"></a>
 ```
 const stack = Stack1();
 stack.push(1);
@@ -671,6 +696,7 @@ iteratorSum(stack.iterator())
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01537))_
 
+<a id="atom-technical-atom-4b8d7d8121853f46"></a>
 ```
 const collectionSum = (collection) => {
 const iterator = collection.iterator();
@@ -693,6 +719,7 @@ collectionSum(stack)
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01648))_
 
+<a id="atom-technical-atom-e8b408628ccd4bce"></a>
 ```text
 while (true) {
 [a, b] = [b, a + b];
@@ -808,23 +835,31 @@ function * only (something) {
 
 ## Related pages
 
-- [[javascriptallonge-iterator]] - broader topic: Iterator shares source evidence from Copy on Write / Functional Iterators / unfolding and laziness: Mapping and filtering iterators allows us to compose the parts we already have, rather than writing a tricky bit of code with ifs and whiles and boundary conditions.; Iterator shares technical record from Copy on Write / Functional Iterators / unfolding and laziness: const NumberIterator = (number = 0) => () => ({ done: false, value: number++ }) fromOne = NumberIterator(1); fromOne().value; //=> 1 fromOne().value; //=> 2 fromOne( ... [truncated] (4 shared statement(s), 8 shared atom(s))
-- [[javascriptallonge-functional]] - broader topic: Functional shares source evidence from Served by the Pot: Collections / Generating Iterables: Let's consider how they work. Whether it's a simple functional iterator, or an iterable object with a .next() method, an iterator is something we call repeatedly unt ... [truncated]; Functional shares technical record from Served by the Pot: Collections / Generating Iterables / state machines: while (true) { [a, b] = [b, a + b]; console.log(b); } } fibonacci() //=> 0 1 1 2 3 5 8 13 21 34 Served by the Pot: Collections 206 55 89 144 ... The thing to note he ... [truncated] (1 shared statement(s), 1 shared atom(s))
+### Source structure
+
+- [[javascriptallonge-section-copy-on-write-functional-iterators-773e8dc1]] - source section: Copy on Write / Functional Iterators shares source evidence from Copy on Write / Functional Iterators: The nice thing about this is that the definition for arraySum mostly concerns itself with summing, and not with traversing over a collection of data. But it still re ... [truncated]; Copy on Write / Functional Iterators shares technical record from Copy on Write / Functional Iterators: const arraySum = ([first, ...rest], accumulator = 0) => first === undefined ? accumulator : arraySum(rest, first + accumulator) arraySum([1, 4, 9, 16, 25]) //=> 55 (31 shared statement(s), 20 shared atom(s))
+- [[javascriptallonge-section-served-by-the-pot-collections-iteration-and-iterables-a-look-back-at-functional-iterators-39b0dbb4]] - source section: Served by the Pot: Collections / Iteration and Iterables / a look back at functional iterators shares source evidence from Served by the Pot: Collections / Iteration and Iterables / a look back at functional iterators: When discussing functions, we looked at the benefits of writing Functional Iterators. We can do the same thing for objects. Here's a stack that has its own functiona ... [truncated]; Served by the Pot: Collections / Iteration and Iterables / a look back at functional iterators shares technical record from Served by the Pot: Collections / Iteration and Iterables / a look back at functional iterators: const Stack1 = () => ({ array:[], index: -1, push (value) { return this.array[this.index += 1] = value; }, pop () { const value = this.array[this.index]; this.array[ ... [truncated] (4 shared statement(s), 6 shared atom(s))
+
+### Shared technical atoms
+
 - [[javascriptallonge-copy-write]] - shared statements and technical atoms: Copy on Write shares source evidence from Copy on Write / Functional Iterators: The nice thing about this is that the definition for arraySum mostly concerns itself with summing, and not with traversing over a collection of data. But it still re ... [truncated]; Copy on Write shares technical record from Copy on Write / Functional Iterators: const arraySum = ([first, ...rest], accumulator = 0) => first === undefined ? accumulator : arraySum(rest, first + accumulator) arraySum([1, 4, 9, 16, 25]) //=> 55 (31 shared statement(s), 20 shared atom(s))
 - [[javascriptallonge-iteration]] - shared statements and technical atoms: Iteration shares source evidence from Served by the Pot: Collections / Iteration and Iterables / a look back at functional iterators: If we write a program with the presumption that 'everything is an object,' we can write maps, folds, and filters that work on objects. We just ask the object for an ... [truncated]; Iteration shares technical record from Served by the Pot: Collections / Iteration and Iterables / a look back at functional iterators: const Stack1 = () => ({ array:[], index: -1, push (value) { return this.array[this.index += 1] = value; }, pop () { const value = this.array[this.index]; this.array[ ... [truncated] (1 shared statement(s), 6 shared atom(s))
 - [[javascriptallonge-element]] - shared statements and technical atoms: Element shares source evidence from Copy on Write / Functional Iterators / iterating: Once again, we're mixing the code for iterating over an array with the code for calculating a sum. And worst of all, we're getting really low-level with details like ... [truncated]; Element shares technical record from Copy on Write / Functional Iterators: const arraySum = ([first, ...rest], accumulator = 0) => first === undefined ? accumulator : arraySum(rest, first + accumulator) arraySum([1, 4, 9, 16, 25]) //=> 55 (1 shared statement(s), 5 shared atom(s))
 - [[javascriptallonge-javascript]] - shared statements and technical atoms: Javascript shares source evidence from Copy on Write / Functional Iterators / iterating: JavaScript has a particularly low-level version of for loop that mimics the semantics of the C language. Summing the elements of an array can be accomplished with:; Javascript shares technical record from Copy on Write / Functional Iterators / iterating: const arraySum = (array) => { let sum = 0; for (let i = 0; i < array.length; ++i) { sum += array[i]; } return sum } arraySum([1, 4, 9, 16, 25]) //=> 55 (3 shared statement(s), 4 shared atom(s))
 - [[javascriptallonge-data]] - shared statements and technical atoms: Data shares source evidence from Copy on Write / Functional Iterators: What we've done is turn an array into a function that folds an array with const foldArray = (array) => callRight(foldArrayWith, array); . The sumFoldable function do ... [truncated]; Data shares technical record from Copy on Write / Functional Iterators / iterating: const EMPTY = null; const isEmpty = (node) => node === EMPTY; const pair = (first, rest = EMPTY) => ({first, rest}); const list = (...elements) => { const [first, .. ... [truncated] (1 shared statement(s), 3 shared atom(s))
 - [[javascriptallonge-object]] - shared statements and technical atoms: Object shares source evidence from Served by the Pot: Collections / Generating Iterables: Let's consider how they work. Whether it's a simple functional iterator, or an iterable object with a .next() method, an iterator is something we call repeatedly unt ... [truncated]; Object shares technical record from Served by the Pot: Collections / Iteration and Iterables / a look back at functional iterators: const Stack1 = () => ({ array:[], index: -1, push (value) { return this.array[this.index += 1] = value; }, pop () { const value = this.array[this.index]; this.array[ ... [truncated] (1 shared statement(s), 3 shared atom(s))
-- [[javascriptallonge-structure]] - shared statements and technical atoms: Structure shares source evidence from Copy on Write / Functional Iterators: What we've done is turn an array into a function that folds an array with const foldArray = (array) => callRight(foldArrayWith, array); . The sumFoldable function do ... [truncated]; Structure shares technical record from Copy on Write / Functional Iterators / iterating: const EMPTY = null; const isEmpty = (node) => node === EMPTY; const pair = (first, rest = EMPTY) => ({first, rest}); const list = (...elements) => { const [first, .. ... [truncated] (1 shared statement(s), 2 shared atom(s))
-- [[javascriptallonge-collection]] - shared statements and technical atoms: Collection shares source evidence from Served by the Pot: Collections / Iteration and Iterables / iterator objects: Iteration for functions and objects has been around for many, many decades. For simple linear collections like arrays, linked lists, stacks, and queues, functional i ... [truncated]; Collection shares technical record from Served by the Pot: Collections / Generating Iterables / state machines: while (true) { [a, b] = [b, a + b]; console.log(b); } } fibonacci() //=> 0 1 1 2 3 5 8 13 21 34 Served by the Pot: Collections 206 55 89 144 ... The thing to note he ... [truncated] (1 shared statement(s), 1 shared atom(s))
-- [[javascriptallonge-write]] - shared statements and technical atoms: Write shares source evidence from Served by the Pot: Collections / Iteration and Iterables / a look back at functional iterators: If we write a program with the presumption that 'everything is an object,' we can write maps, folds, and filters that work on objects. We just ask the object for an ... [truncated]; Write shares technical record from Served by the Pot: Collections / Iteration and Iterables / a look back at functional iterators: const collectionSum = (collection) => { const iterator = collection.iterator(); let eachIteration, sum = 0; while ((eachIteration = iterator(), !eachIteration.done)) ... [truncated] (1 shared statement(s), 1 shared atom(s))
 - [[javascriptallonge-list]] - shared technical atoms: List shares technical record from Copy on Write / Functional Iterators / iterating: const EMPTY = null; const isEmpty = (node) => node === EMPTY; const pair = (first, rest = EMPTY) => ({first, rest}); const list = (...elements) => { const [first, .. ... [truncated] (3 shared atom(s))
-- [[javascriptallonge-operation]] - shared technical atoms: Operation shares technical record from Copy on Write / Functional Iterators / bonus: const firstInIteration = (fn, iterator) => take(filterIteratorWith(fn, iterator), 1); (1 shared atom(s))
+- [[javascriptallonge-structure]] - shared statements and technical atoms: Structure shares source evidence from Copy on Write / Functional Iterators: What we've done is turn an array into a function that folds an array with const foldArray = (array) => callRight(foldArrayWith, array); . The sumFoldable function do ... [truncated]; Structure shares technical record from Copy on Write / Functional Iterators / iterating: const EMPTY = null; const isEmpty = (node) => node === EMPTY; const pair = (first, rest = EMPTY) => ({first, rest}); const list = (...elements) => { const [first, .. ... [truncated] (1 shared statement(s), 2 shared atom(s))
+
+### Shared claims
+
 - [[javascriptallonge-method]] - shared statements: Method shares source evidence from Served by the Pot: Collections / Generating Iterables: Let's consider how they work. Whether it's a simple functional iterator, or an iterable object with a .next() method, an iterator is something we call repeatedly unt ... [truncated] (1 shared statement(s))
 - [[javascriptallonge-return]] - shared statements: Return shares source evidence from Copy on Write / Functional Iterators / iterating: Now this is something else. The arrayIterator function takes an array and returns a function we can call repeatedly to obtain the elements of the array. The iterator ... [truncated] (1 shared statement(s))
-- [[javascriptallonge-section-copy-on-write-functional-iterators-773e8dc1]] - source section: Copy on Write / Functional Iterators shares source evidence from Copy on Write / Functional Iterators: The nice thing about this is that the definition for arraySum mostly concerns itself with summing, and not with traversing over a collection of data. But it still re ... [truncated]; Copy on Write / Functional Iterators shares technical record from Copy on Write / Functional Iterators: const arraySum = ([first, ...rest], accumulator = 0) => first === undefined ? accumulator : arraySum(rest, first + accumulator) arraySum([1, 4, 9, 16, 25]) //=> 55 (31 shared statement(s), 20 shared atom(s))
-- [[javascriptallonge-section-served-by-the-pot-collections-iteration-and-iterables-a-look-back-at-functional-iterators-39b0dbb4]] - source section: Served by the Pot: Collections / Iteration and Iterables / a look back at functional iterators shares source evidence from Served by the Pot: Collections / Iteration and Iterables / a look back at functional iterators: When discussing functions, we looked at the benefits of writing Functional Iterators. We can do the same thing for objects. Here's a stack that has its own functiona ... [truncated]; Served by the Pot: Collections / Iteration and Iterables / a look back at functional iterators shares technical record from Served by the Pot: Collections / Iteration and Iterables / a look back at functional iterators: const Stack1 = () => ({ array:[], index: -1, push (value) { return this.array[this.index += 1] = value; }, pop () { const value = this.array[this.index]; this.array[ ... [truncated] (4 shared statement(s), 6 shared atom(s))
+
+### Topics
+
+- [[javascriptallonge-iterator]] - broader topic: Iterator shares source evidence from Copy on Write / Functional Iterators / unfolding and laziness: Mapping and filtering iterators allows us to compose the parts we already have, rather than writing a tricky bit of code with ifs and whiles and boundary conditions.; Iterator shares technical record from Copy on Write / Functional Iterators / unfolding and laziness: const NumberIterator = (number = 0) => () => ({ done: false, value: number++ }) fromOne = NumberIterator(1); fromOne().value; //=> 1 fromOne().value; //=> 2 fromOne( ... [truncated] (4 shared statement(s), 8 shared atom(s))
+- [[javascriptallonge-functional]] - broader topic: Functional shares source evidence from Served by the Pot: Collections / Generating Iterables: Let's consider how they work. Whether it's a simple functional iterator, or an iterable object with a .next() method, an iterator is something we call repeatedly unt ... [truncated]; Functional shares technical record from Served by the Pot: Collections / Generating Iterables / state machines: while (true) { [a, b] = [b, a + b]; console.log(b); } } fibonacci() //=> 0 1 1 2 3 5 8 13 21 34 Served by the Pot: Collections 206 55 89 144 ... The thing to note he ... [truncated] (1 shared statement(s), 1 shared atom(s))
 
 ## Source
 

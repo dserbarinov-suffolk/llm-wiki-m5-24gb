@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-13-2-6-mythical-beasts-and-magical-beasts-roc-08fefbde@b10d7ca7d0bc4d482892209dbec7590b
+projection_coverage: section-sword-world-rpg-complete-edition-section-13-2-6-mythical-beasts-and-magical-beasts-roc-08fefbde@541a35c88b4137fa0b514ecf89f8af06
 ---
 
 # 13.2.6 Mythical Beasts and Magical Beasts / [ Roc ]
@@ -17,9 +17,14 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-13-2-6-mythical-beasts-and-magical-beasts-f86962d2]] - broader source section: 13.2.6 Mythical Beasts and Magical Beasts
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-13-2-6-mythical-beasts-and-magical-beasts-humbaba-c8925660]] - previous source section: 13.2.6 Mythical Beasts and Magical Beasts / [ Humbaba ]
 - [[sword-world-rpg-complete-edition-section-13-2-6-mythical-beasts-and-magical-beasts-dragon-c305604d]] - next source section: 13.2.6 Mythical Beasts and Magical Beasts / [ Dragon ]
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-13-2-6-mythical-beasts-and-magical-beasts-f86962d2]] - broader source section: 13.2.6 Mythical Beasts and Magical Beasts
 
 ## Statements
 

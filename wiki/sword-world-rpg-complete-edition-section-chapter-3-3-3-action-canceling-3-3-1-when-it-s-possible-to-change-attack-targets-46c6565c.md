@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-3-3-3-action-canceling-3-3-1-when-it-s-possible-to-change-attack-targets-46c6565c@b5ba4b3ab529b886e4a3c653677ecc15
+projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-3-3-3-action-canceling-3-3-1-when-it-s-possible-to-change-attack-targets-46c6565c@d59f314341f4f5c44b9089186a40bb1b
 ---
 
 # Chapter 3: / 3.3 Action Canceling / 3.3.1 When It's Possible to / Change Attack Targets
@@ -16,6 +16,8 @@ projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-3-
 From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
+
+### Source structure
 
 - [[sword-world-rpg-complete-edition-section-chapter-3-3-3-action-canceling-3-3-1-when-it-s-possible-to-99bf4585]] - broader source section: Chapter 3: / 3.3 Action Canceling / 3.3.1 When It's Possible to
 

@@ -4,11 +4,11 @@ page_kind: source
 summary: A Rich Aroma: Basic Numbers / operations on numbers: 6 source-backed entries and 0 atom(s) from raw/javascriptallonge.pdf.
 page_family: section-reference
 sources: raw/javascriptallonge.pdf
-updated: 2026-07-01
+updated: 2026-07-02
 domain: javascriptallonge
 category_path: sources/javascriptallonge/sections
 source_id: javascriptallonge.pdf
-projection_coverage: section-javascriptallonge-section-a-rich-aroma-basic-numbers-operations-on-numbers-1b9984ae@6b1464e9bb387902a97e7fbd56d7f44c
+projection_coverage: section-javascriptallonge-section-a-rich-aroma-basic-numbers-operations-on-numbers-1b9984ae@ee353bbfca976a3601aeaea12e03af6b
 ---
 
 # A Rich Aroma: Basic Numbers / operations on numbers
@@ -17,8 +17,13 @@ From [[javascriptallonge]].
 
 ## Related pages
 
-- [[javascriptallonge-section-a-rich-aroma-basic-numbers-ef9b6d69]] - broader source section: A Rich Aroma: Basic Numbers
+### Source order
+
 - [[javascriptallonge-section-a-rich-aroma-basic-numbers-floating-0d7c8f07]] - previous source section: A Rich Aroma: Basic Numbers / floating
+
+### Source structure
+
+- [[javascriptallonge-section-a-rich-aroma-basic-numbers-ef9b6d69]] - broader source section: A Rich Aroma: Basic Numbers
 
 ## Statements
 

@@ -7,7 +7,7 @@ sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: concepts
-projection_coverage: topic-sword-world-rpg-complete-edition-restriction-weapon@fe8989a3997452a2d7dd087dc7758cf4
+projection_coverage: topic-sword-world-rpg-complete-edition-restriction-weapon@7990a6ada3fbd80a5dd96d7e31e5f4a6
 ---
 
 # Restriction Weapon
@@ -37,6 +37,7 @@ What [[sword-world-rpg-complete-edition]] covers about restriction weapon:
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-00807))_
 
+<a id="atom-technical-atom-30432ea574efbea3"></a>
 > If you want to make use of your ranger skill, your armor must be light .
 
 ### Technical frame 2: 1.4 Character Creation / 1.4.7 Restrictions on Weapons and Armor Based on Skill / [ Sage, Bard, Priest ]
@@ -47,6 +48,7 @@ What [[sword-world-rpg-complete-edition]] covers about restriction weapon:
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-00818))_
 
+<a id="atom-technical-atom-272c441f87ef892f"></a>
 > If a character has acquired only these skills, the basic idea is to choose weapons and armor whose required strength is the same as their own strength.
 
 ### Technical frame 3: 1.4 Character Creation / 1.4.7 Restrictions on Weapons and Armor Based on Skill / [ Sage, Bard, Priest ]
@@ -57,10 +59,13 @@ What [[sword-world-rpg-complete-edition]] covers about restriction weapon:
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-00821))_
 
+<a id="atom-technical-atom-b4fca61edbad427b"></a>
 > So, when choosing a weapon, we'll choose one that has a required strength equal to the character's strength (14).
 
 
 ## Related pages
+
+### Shared claims
 
 - [[sword-world-rpg-complete-edition-armor-based-skill]] - shared statements: Armor Based Skill shares source evidence from 1.4 Character Creation / 1.4.7 Restrictions on Weapons and Armor Based on Skill / [ Sage, Bard, Priest ]: These skills have no weapon or armor restrictions. Refer to restrictions on other skills acquired at the same time. If a character has acquired only these skills, th ... [truncated] (1 shared statement(s))
 

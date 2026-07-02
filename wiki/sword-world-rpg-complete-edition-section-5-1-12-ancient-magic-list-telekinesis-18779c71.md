@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-5-1-12-ancient-magic-list-telekinesis-18779c71@0e57637a4232fae8eee3d6fe3008edeb
+projection_coverage: section-sword-world-rpg-complete-edition-section-5-1-12-ancient-magic-list-telekinesis-18779c71@cd733d2f0ec28650237f6a2225a0b5e1
 ---
 
 # 5.1.12 Ancient Magic List / [ Telekinesis ]
@@ -17,9 +17,14 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-5-1-12-ancient-magic-list-2e59bfee]] - broader source section: 5.1.12 Ancient Magic List
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-5-1-12-ancient-magic-list-rune-rope-c0ccc2e0]] - previous source section: 5.1.12 Ancient Magic List / [ Rune Rope ]
 - [[sword-world-rpg-complete-edition-section-5-1-12-ancient-magic-list-teleport-63ddff3e]] - next source section: 5.1.12 Ancient Magic List / [ Teleport ]
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-5-1-12-ancient-magic-list-2e59bfee]] - broader source section: 5.1.12 Ancient Magic List
 
 ## Statements
 

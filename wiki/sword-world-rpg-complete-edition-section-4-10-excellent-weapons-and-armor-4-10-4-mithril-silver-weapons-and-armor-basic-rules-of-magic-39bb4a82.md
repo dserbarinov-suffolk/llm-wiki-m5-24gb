@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-4-10-excellent-weapons-and-armor-4-10-4-mithril-silver-weapons-and-armor-basic-rules-of-magic-39bb4a82@effb33505ca7fbf9615b98d3fa0cd3f3
+projection_coverage: section-sword-world-rpg-complete-edition-section-4-10-excellent-weapons-and-armor-4-10-4-mithril-silver-weapons-and-armor-basic-rules-of-magic-39bb4a82@cf41f25a6e6725e17eef9d6feeb0dbde
 ---
 
 # 4.10 Excellent Weapons and Armor / 4.10.4 Mithril Silver Weapons and Armor / Basic Rules of Magic
@@ -17,14 +17,19 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
+### Source order
+
+- [[sword-world-rpg-complete-edition-section-4-10-excellent-weapons-and-armor-4-10-4-mithril-silver-weapons-and-armor-damage-recovery-43c6e0b9]] - previous source section: 4.10 Excellent Weapons and Armor / 4.10.4 Mithril Silver Weapons and Armor / Damage Recovery
+- [[sword-world-rpg-complete-edition-section-4-10-excellent-weapons-and-armor-4-10-4-mithril-silver-weapons-and-armor-when-an-adventurer-cast-9777c07e]] - next source section: 4.10 Excellent Weapons and Armor / 4.10.4 Mithril Silver Weapons and Armor / When an Adventurer Casts Magic on Monsters
+
+### Source structure
+
 - [[sword-world-rpg-complete-edition-section-4-10-excellent-weapons-and-armor-4-10-4-mithril-silver-weapons-and-armor-8cb5003a]] - broader source section: 4.10 Excellent Weapons and Armor / 4.10.4 Mithril Silver Weapons and Armor
-- [[sword-world-rpg-complete-edition-section-4-10-excellent-weapons-and-armor-4-10-4-mithril-silver-weapons-and-armor-basic-rules-of-magic-5-32b4add8]] - narrower source section: 4.10 Excellent Weapons and Armor / 4.10.4 Mithril Silver Weapons and Armor / Basic Rules of Magic / 5.1.1 Types of Magic
 - [[sword-world-rpg-complete-edition-section-4-10-excellent-weapons-and-armor-4-10-4-mithril-silver-weapons-and-armor-basic-rules-of-magic-5-1cf51f06]] - narrower source section: 4.10 Excellent Weapons and Armor / 4.10.4 Mithril Silver Weapons and Armor / Basic Rules of Magic / 5.1.2 Rune Masters and Rune Master Skills
+- [[sword-world-rpg-complete-edition-section-4-10-excellent-weapons-and-armor-4-10-4-mithril-silver-weapons-and-armor-basic-rules-of-magic-5-32b4add8]] - narrower source section: 4.10 Excellent Weapons and Armor / 4.10.4 Mithril Silver Weapons and Armor / Basic Rules of Magic / 5.1.1 Types of Magic
 - [[sword-world-rpg-complete-edition-section-4-10-excellent-weapons-and-armor-4-10-4-mithril-silver-weapons-and-armor-basic-rules-of-magic-5-4fbeeeb8]] - narrower source section: 4.10 Excellent Weapons and Armor / 4.10.4 Mithril Silver Weapons and Armor / Basic Rules of Magic / 5.1.3 Learning Magic
 - [[sword-world-rpg-complete-edition-section-4-10-excellent-weapons-and-armor-4-10-4-mithril-silver-weapons-and-armor-basic-rules-of-magic-5-78287326]] - narrower source section: 4.10 Excellent Weapons and Armor / 4.10.4 Mithril Silver Weapons and Armor / Basic Rules of Magic / 5.1.4 How to Use Magic
 - [[sword-world-rpg-complete-edition-section-4-10-excellent-weapons-and-armor-4-10-4-mithril-silver-weapons-and-armor-basic-rules-of-magic-fi-cb04ed3d]] - narrower source section: 4.10 Excellent Weapons and Armor / 4.10.4 Mithril Silver Weapons and Armor / Basic Rules of Magic / Filling out the Character Sheet
-- [[sword-world-rpg-complete-edition-section-4-10-excellent-weapons-and-armor-4-10-4-mithril-silver-weapons-and-armor-damage-recovery-43c6e0b9]] - previous source section: 4.10 Excellent Weapons and Armor / 4.10.4 Mithril Silver Weapons and Armor / Damage Recovery
-- [[sword-world-rpg-complete-edition-section-4-10-excellent-weapons-and-armor-4-10-4-mithril-silver-weapons-and-armor-when-an-adventurer-cast-9777c07e]] - next source section: 4.10 Excellent Weapons and Armor / 4.10.4 Mithril Silver Weapons and Armor / When an Adventurer Casts Magic on Monsters
 
 ## Statements by subsection
 

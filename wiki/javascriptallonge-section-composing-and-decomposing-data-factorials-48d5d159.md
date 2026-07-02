@@ -4,11 +4,11 @@ page_kind: source
 summary: Composing and Decomposing Data / factorials: 9 source-backed entries and 3 atom(s) from raw/javascriptallonge.pdf.
 page_family: section-reference
 sources: raw/javascriptallonge.pdf
-updated: 2026-07-01
+updated: 2026-07-02
 domain: javascriptallonge
 category_path: sources/javascriptallonge/sections
 source_id: javascriptallonge.pdf
-projection_coverage: section-javascriptallonge-section-composing-and-decomposing-data-factorials-48d5d159@f1d692f8a36955ba8f8110f35fbe9a51
+projection_coverage: section-javascriptallonge-section-composing-and-decomposing-data-factorials-48d5d159@10a743ec27011d50ffe70d7b8da97cbb
 ---
 
 # Composing and Decomposing Data / factorials
@@ -17,9 +17,14 @@ From [[javascriptallonge]].
 
 ## Related pages
 
-- [[javascriptallonge-section-composing-and-decomposing-data-58c1e32b]] - broader source section: Composing and Decomposing Data
+### Source order
+
 - [[javascriptallonge-section-composing-and-decomposing-data-tail-calls-and-default-arguments-2f80f1b0]] - previous source section: Composing and Decomposing Data / Tail Calls (and Default Arguments)
 - [[javascriptallonge-section-composing-and-decomposing-data-default-arguments-870cb490]] - next source section: Composing and Decomposing Data / default arguments
+
+### Source structure
+
+- [[javascriptallonge-section-composing-and-decomposing-data-58c1e32b]] - broader source section: Composing and Decomposing Data
 
 ## Statements
 
@@ -39,6 +44,7 @@ From [[javascriptallonge]].
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00985))_
 
+<a id="atom-technical-atom-59cfc59646c3e373"></a>
 ```
 5! = 5
 x
@@ -59,6 +65,7 @@ x
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00987))_
 
+<a id="atom-technical-atom-4fc0b1246dec244a"></a>
 ```
 const factorial = (n) =>
 n == 1
@@ -78,6 +85,7 @@ factorial(5)
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00990))_
 
+<a id="atom-technical-atom-04c430c7745ae287"></a>
 ```
 const factorialWithDelayedWork = (n, work) =>
 n === 1

@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-13-2-1-humans-defense-points-30fa3db0@db9dff3a8015db4cddf25defc30fa158
+projection_coverage: section-sword-world-rpg-complete-edition-section-13-2-1-humans-defense-points-30fa3db0@cec9b61097dc8488fa819f3142ecadcb
 ---
 
 # 13.2.1 《 Humans 》 / 《 Defense Points 》
@@ -17,9 +17,14 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-13-2-1-humans-2369e4b2]] - broader source section: 13.2.1 《 Humans 》
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-13-2-1-humans-evasion-points-99e511e5]] - previous source section: 13.2.1 《 Humans 》 / 《 Evasion Points 》
 - [[sword-world-rpg-complete-edition-section-13-2-1-humans-life-points-resistance-362e5a12]] - next source section: 13.2.1 《 Humans 》 / 《 Life Points/Resistance 》
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-13-2-1-humans-2369e4b2]] - broader source section: 13.2.1 《 Humans 》
 
 ## Statements
 
@@ -39,6 +44,7 @@ From [[sword-world-rpg-complete-edition]].
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-05949))_
 
+<a id="atom-technical-atom-207bf58becbd4831"></a>
 > Just as characters can reduce damage through armor, monsters also have thick skin, shells, scales, etc.
 
 ### Technical frame 2: 13.2.1 《 Humans 》 / 《 Defense Points 》
@@ -49,4 +55,5 @@ From [[sword-world-rpg-complete-edition]].
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-05950))_
 
+<a id="atom-technical-atom-6bc3f92dbd275297"></a>
 > When struck by magic or similar attacks, defense points cannot reduce damage, monster level reduces damage instead.

@@ -4,11 +4,11 @@ page_kind: source
 summary: Served by the Pot: Collections / rewriting iterable operations: 10 source-backed entries and 3 atom(s) from raw/javascriptallonge.pdf.
 page_family: section-reference
 sources: raw/javascriptallonge.pdf
-updated: 2026-07-01
+updated: 2026-07-02
 domain: javascriptallonge
 category_path: sources/javascriptallonge/sections
 source_id: javascriptallonge.pdf
-projection_coverage: section-javascriptallonge-section-served-by-the-pot-collections-rewriting-iterable-operations-588fbe28@011d53ee60c69943a0d76e4cc2483106
+projection_coverage: section-javascriptallonge-section-served-by-the-pot-collections-rewriting-iterable-operations-588fbe28@ec794c7aee5af855034b62df4557d3b5
 ---
 
 # Served by the Pot: Collections / rewriting iterable operations
@@ -17,9 +17,14 @@ From [[javascriptallonge]].
 
 ## Related pages
 
-- [[javascriptallonge-section-served-by-the-pot-collections-14399de3]] - broader source section: Served by the Pot: Collections
+### Source order
+
 - [[javascriptallonge-section-served-by-the-pot-collections-generating-iterables-8c929c4d]] - previous source section: Served by the Pot: Collections / Generating Iterables
 - [[javascriptallonge-section-served-by-the-pot-collections-summary-bda1f2d6]] - next source section: Served by the Pot: Collections / Summary
+
+### Source structure
+
+- [[javascriptallonge-section-served-by-the-pot-collections-14399de3]] - broader source section: Served by the Pot: Collections
 
 ## Statements
 
@@ -38,6 +43,7 @@ From [[javascriptallonge]].
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01745))_
 
+<a id="atom-technical-atom-74b6d24e92e70726"></a>
 ```
 const mapWith = (fn, iterable) =>
 ({
@@ -61,6 +67,7 @@ return ({done, value: done ? undefined : fn(value)});
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01750))_
 
+<a id="atom-technical-atom-e89d78f87ca44fae"></a>
 ```
 function * mapWith(fn, iterable) {
 for (const element of iterable) {
@@ -82,6 +89,7 @@ if (!!fn(element)) yield element;
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01751))_
 
+<a id="atom-technical-atom-0bef167f4073bd17"></a>
 ```
 function * untilWith (fn, iterable) {
 for (const element of iterable) {

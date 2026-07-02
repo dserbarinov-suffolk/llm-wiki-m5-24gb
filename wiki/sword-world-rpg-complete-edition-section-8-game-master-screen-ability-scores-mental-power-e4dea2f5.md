@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-8-game-master-screen-ability-scores-mental-power-e4dea2f5@9241658fe89434611fa2124441f4db2b
+projection_coverage: section-sword-world-rpg-complete-edition-section-8-game-master-screen-ability-scores-mental-power-e4dea2f5@21f1d8a5d161f61571b19dd5db4bf588
 ---
 
 # 8. Game Master Screen / Ability Scores / 【 Mental Power 】
@@ -17,9 +17,14 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-8-game-master-screen-ability-scores-a41763db]] - broader source section: 8. Game Master Screen / Ability Scores
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-8-game-master-screen-ability-scores-life-force-7095d30a]] - previous source section: 8. Game Master Screen / Ability Scores / 【 Life Force 】
 - [[sword-world-rpg-complete-edition-section-8-game-master-screen-ability-scores-loss-of-ability-scores-and-its-impact-8d38dd7f]] - next source section: 8. Game Master Screen / Ability Scores / Loss of Ability Scores and Its Impact
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-8-game-master-screen-ability-scores-a41763db]] - broader source section: 8. Game Master Screen / Ability Scores
 
 ## Statements
 

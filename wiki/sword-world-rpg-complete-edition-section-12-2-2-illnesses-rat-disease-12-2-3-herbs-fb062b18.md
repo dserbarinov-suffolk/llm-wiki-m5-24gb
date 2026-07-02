@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-12-2-2-illnesses-rat-disease-12-2-3-herbs-fb062b18@2eadb70dc1c7672a6aa235e22cac2e86
+projection_coverage: section-sword-world-rpg-complete-edition-section-12-2-2-illnesses-rat-disease-12-2-3-herbs-fb062b18@779db8ff0794a940c40ebe285485d8e6
 ---
 
 # 12.2.2 Illnesses / [ Rat Disease ] / 12.2.3 Herbs
@@ -17,8 +17,13 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-12-2-2-illnesses-rat-disease-53ac68c7]] - broader source section: 12.2.2 Illnesses / [ Rat Disease ]
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-12-2-2-illnesses-rat-disease-lockjaw-7d74ebae]] - previous source section: 12.2.2 Illnesses / [ Rat Disease ] / [ Lockjaw ]
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-12-2-2-illnesses-rat-disease-53ac68c7]] - broader source section: 12.2.2 Illnesses / [ Rat Disease ]
 
 ## Statements
 
@@ -35,4 +40,5 @@ From [[sword-world-rpg-complete-edition]].
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-05799))_
 
+<a id="atom-technical-atom-fafd874dde559c7e"></a>
 > If adventurers are in a large city, they can purchase them at the prices provided here.

@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-1-2-races-skills-1-3-1-skill-basics-88dddfc1@0d6224e5a3212b71a833cc64c92b089c
+projection_coverage: section-sword-world-rpg-complete-edition-section-1-2-races-skills-1-3-1-skill-basics-88dddfc1@7577157e2f879a9945972947e7b18c58
 ---
 
 # 1.2 Races / Skills / 1.3.1 Skill Basics
@@ -17,8 +17,13 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-1-2-races-skills-d796863a]] - broader source section: 1.2 Races / Skills
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-1-2-races-skills-1-3-2-skill-types-7028cd70]] - next source section: 1.2 Races / Skills / 1.3.2 Skill Types
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-1-2-races-skills-d796863a]] - broader source section: 1.2 Races / Skills
 
 ## Statements
 

@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-5-1-12-ancient-magic-list-haste-2feda0e8@46beedcc42520bf6f2373fc7069f1ccf
+projection_coverage: section-sword-world-rpg-complete-edition-section-5-1-12-ancient-magic-list-haste-2feda0e8@2bb25a54fcbb4862ba1d287c2b038f24
 ---
 
 # 5.1.12 Ancient Magic List / [ Haste ]
@@ -17,9 +17,14 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-5-1-12-ancient-magic-list-2e59bfee]] - broader source section: 5.1.12 Ancient Magic List
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-5-1-12-ancient-magic-list-slow-91fffcd7]] - previous source section: 5.1.12 Ancient Magic List / [ Slow ]
 - [[sword-world-rpg-complete-edition-section-5-1-12-ancient-magic-list-rune-rope-c0ccc2e0]] - next source section: 5.1.12 Ancient Magic List / [ Rune Rope ]
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-5-1-12-ancient-magic-list-2e59bfee]] - broader source section: 5.1.12 Ancient Magic List
 
 ## Statements
 
@@ -35,6 +40,7 @@ From [[sword-world-rpg-complete-edition]].
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-02480))_
 
+<a id="atom-technical-atom-f08d6b376c0feb04"></a>
 ```text
 Table 5-4: Haste: Agility and Evasion    commands
                                                                         Type=-

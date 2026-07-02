@@ -4,10 +4,10 @@ page_kind: concept
 summary: Lazy: 1 statement(s) and 1 atom(s) from raw/javascriptallonge.pdf.
 page_family: topic-concept
 sources: raw/javascriptallonge.pdf
-updated: 2026-07-01
+updated: 2026-07-02
 domain: javascriptallonge
 category_path: concepts
-projection_coverage: topic-javascriptallonge-lazy@f2d323f6f3d9a7663c4289fb313e4978
+projection_coverage: topic-javascriptallonge-lazy@39638dac194011068a1d11fe634fbfd4
 ---
 
 # Lazy
@@ -31,6 +31,7 @@ What [[javascriptallonge]] covers about lazy:
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01795))_
 
+<a id="atom-technical-atom-5f902340f55c79d4"></a>
 ```
 const Numbers = Object.assign({
 [Symbol.iterator]: () => {
@@ -51,6 +52,8 @@ Numbers
 
 
 ## Related pages
+
+### Shared technical atoms
 
 - [[javascriptallonge-collection]] - shared technical atoms: Collection shares technical record from Lazy and Eager Collections / lazy collection operations: const Numbers = Object.assign({ [Symbol.iterator]: () => { let n = 0; return { next: () => ({done: false, value: n++}) } } }, LazyCollection); const firstCubeOver123 ... [truncated] (1 shared atom(s))
 

@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-14-4-2-list-of-magical-items-blade-of-bravery-08cb1c79@ffd103ee2bcb8723cff835df49d7f12b
+projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-14-4-2-list-of-magical-items-blade-of-bravery-08cb1c79@cbaed49b3784257ac71ce1c4a8446e5b
 ---
 
 # Chapter 14: / 14.4 Magical Item List / 14.4.2 List of Magical Items / 《 Blade of Bravery 》
@@ -17,9 +17,14 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-14-4-2-list-of-magical-items-7461270b]] - broader source section: Chapter 14: / 14.4 Magical Item List / 14.4.2 List of Magical Items
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-14-4-2-list-of-magical-items-fame-face-f163d24a]] - previous source section: Chapter 14: / 14.4 Magical Item List / 14.4.2 List of Magical Items / 《 Fame Face 》
 - [[sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-14-4-2-list-of-magical-items-flame-smasher-dcafeed1]] - next source section: Chapter 14: / 14.4 Magical Item List / 14.4.2 List of Magical Items / 《 Flame Smasher 》
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-14-4-2-list-of-magical-items-7461270b]] - broader source section: Chapter 14: / 14.4 Magical Item List / 14.4.2 List of Magical Items
 
 ## Statements
 

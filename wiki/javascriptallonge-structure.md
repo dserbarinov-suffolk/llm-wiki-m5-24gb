@@ -4,10 +4,10 @@ page_kind: concept
 summary: Structure: 5 statement(s) and 4 atom(s) from raw/javascriptallonge.pdf.
 page_family: topic-concept
 sources: raw/javascriptallonge.pdf
-updated: 2026-07-01
+updated: 2026-07-02
 domain: javascriptallonge
 category_path: concepts
-projection_coverage: topic-javascriptallonge-structure@3a3e7d2d46e2275efbcefceaa43d4812
+projection_coverage: topic-javascriptallonge-structure@3caa865f894ce89da950f44d41e2cc5d
 ---
 
 # Structure
@@ -47,6 +47,7 @@ What [[javascriptallonge]] covers about structure:
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01041))_
 
+<a id="atom-technical-atom-cc6241a012867740"></a>
 ```
 cdr(oneToFive)
 //=> [2,[3,[4,[5,null]]]]
@@ -60,6 +61,7 @@ cdr(oneToFive)
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01291))_
 
+<a id="atom-technical-atom-282dba3fa6180714"></a>
 ```
 const EMPTY = null;
 const isEmpty = (node) => node === EMPTY;
@@ -93,6 +95,7 @@ aPair = aPair.rest;
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01292))_
 
+<a id="atom-technical-atom-ec11f07272147db8"></a>
 ```
 return { done, value: first }
 }
@@ -118,12 +121,15 @@ iteratorSum(aListIterator)
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01361))_
 
+<a id="atom-technical-atom-2a6b147bd13e773b"></a>
 ```
 (first, second) => (selector) => selector(first)(second)
 ```
 
 
 ## Related pages
+
+### Shared technical atoms
 
 - [[javascriptallonge-data]] - shared statements and technical atoms: Data shares source evidence from Composing and Decomposing Data / Self-Similarity: Let's be more specific. Some data structures, like lists, can obviously be seen as a collection of items. Some are empty, some have three items, some forty-two, some ... [truncated]; Data shares technical record from Copy on Write / Functional Iterators / iterating: const EMPTY = null; const isEmpty = (node) => node === EMPTY; const pair = (first, rest = EMPTY) => ({first, rest}); const list = (...elements) => { const [first, .. ... [truncated] (4 shared statement(s), 3 shared atom(s))
 - [[javascriptallonge-copy-write]] - shared statements and technical atoms: Copy on Write shares source evidence from Copy on Write / Functional Iterators: What we've done is turn an array into a function that folds an array with const foldArray = (array) => callRight(foldArrayWith, array); . The sumFoldable function do ... [truncated]; Copy on Write shares technical record from Copy on Write / Functional Iterators / iterating: const EMPTY = null; const isEmpty = (node) => node === EMPTY; const pair = (first, rest = EMPTY) => ({first, rest}); const list = (...elements) => { const [first, .. ... [truncated] (3 shared statement(s), 3 shared atom(s))
@@ -133,7 +139,6 @@ iteratorSum(aListIterator)
 - [[javascriptallonge-copy]] - shared technical atoms: Copy shares technical record from Garbage, Garbage Everywhere / some history: cdr(oneToFive) //=> [2,[3,[4,[5,null]]]] (1 shared atom(s))
 - [[javascriptallonge-element]] - shared technical atoms: Element shares technical record from Garbage, Garbage Everywhere / some history: cdr(oneToFive) //=> [2,[3,[4,[5,null]]]] (1 shared atom(s))
 - [[javascriptallonge-javascript]] - shared technical atoms: Javascript shares technical record from Garbage, Garbage Everywhere / some history: cdr(oneToFive) //=> [2,[3,[4,[5,null]]]] (1 shared atom(s))
-- [[javascriptallonge-parameter]] - shared technical atoms: Parameter shares technical record from Copy on Write / Making Data Out Of Functions / the vireo: (first, second) => (selector) => selector(first)(second) (1 shared atom(s))
 
 ## Source
 

@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-6-6-3-ranger-skill-ae825c0d@be61c5f47671a70c9de5b5d5f4314fa9
+projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-6-6-3-ranger-skill-ae825c0d@1d376ab2791c7ee6f4b437b331dbfc65
 ---
 
 # Chapter 6: / 6.3 Ranger Skill
@@ -17,22 +17,24 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-chapter-6-26ccc185]] - broader source section: Chapter 6:
-- [[sword-world-rpg-complete-edition-section-chapter-6-6-3-ranger-skill-first-aid-no-equipment-restriction-ca76d7dd]] - narrower source section: Chapter 6: / 6.3 Ranger Skill / [ ② First-Aid [-] ] (No equipment restriction)
-- [[sword-world-rpg-complete-edition-section-chapter-6-6-3-ranger-skill-footprint-tracking-intelligence-no-equipment-restriction-not-retriabl-bded9019]] - narrower source section: Chapter 6: / 6.3 Ranger Skill / [ ① Footprint Tracking [Intelligence] ] (No equipment restriction, not retriable)
-- [[sword-world-rpg-complete-edition-section-chapter-6-6-3-ranger-skill-camouflage-intelligence-equipment-restriction-b7028d9e]] - narrower source section: Chapter 6: / 6.3 Ranger Skill / [ ③ Camouflage [Intelligence] ] (Equipment restriction)
-- [[sword-world-rpg-complete-edition-section-chapter-6-6-3-ranger-skill-listen-intelligence-equipment-restriction-a75e8f90]] - narrower source section: Chapter 6: / 6.3 Ranger Skill / [ ④ Listen [Intelligence] ] (Equipment restriction)
-- [[sword-world-rpg-complete-edition-section-chapter-6-6-3-ranger-skill-stealthy-step-agility-equipment-restriction-c919bd2e]] - narrower source section: Chapter 6: / 6.3 Ranger Skill / [ ⑥ Stealthy Step [Agility] ] (Equipment restriction)
-- [[sword-world-rpg-complete-edition-section-chapter-6-6-3-ranger-skill-survivalism-life-force-no-equipment-restriction-611b37de]] - narrower source section: Chapter 6: / 6.3 Ranger Skill / [ ⑦ Survivalism [Life Force] ] (No equipment restriction)
-- [[sword-world-rpg-complete-edition-section-chapter-6-6-3-ranger-skill-search-intelligence-no-equipment-restriction-not-retriable-ba9ab8c0]] - narrower source section: Chapter 6: / 6.3 Ranger Skill / [ ⑧ Search [Intelligence] ] (No equipment restriction, not retriable)
-- [[sword-world-rpg-complete-edition-section-chapter-6-6-3-ranger-skill-map-creation-intelligence-no-equipment-restriction-not-retriable-2f14328a]] - narrower source section: Chapter 6: / 6.3 Ranger Skill / [ ⑨ Map Creation [Intelligence]] (No equipment restriction, not retriable)
-- [[sword-world-rpg-complete-edition-section-chapter-6-6-3-ranger-skill-weather-prediction-intelligence-no-equipment-restriction-not-retriabl-38514fd4]] - narrower source section: Chapter 6: / 6.3 Ranger Skill / [ ⑩ Weather Prediction [Intelligence] ] (No equipment restriction, not retriable)
-- [[sword-world-rpg-complete-edition-section-chapter-6-6-3-ranger-skill-plant-and-animal-check-intelligence-no-equipment-restriction-not-retr-40f32a9c]] - narrower source section: Chapter 6: / 6.3 Ranger Skill / [ ⑪ Plant and Animal Check [Intelligence] ] (No equipment restriction, not retriable)
-- [[sword-world-rpg-complete-edition-section-chapter-6-6-3-ranger-skill-projectile-use-dexterity-strength-no-equipment-restriction-ecda9f65]] - narrower source section: Chapter 6: / 6.3 Ranger Skill / [ ⑫ Projectile Use [Dexterity, Strength] ] (No equipment restriction)
-- [[sword-world-rpg-complete-edition-section-chapter-6-6-3-ranger-skill-follow-agility-equipment-restriction-a60ba780]] - narrower source section: Chapter 6: / 6.3 Ranger Skill / [ ⑬ Follow [Agility] ] (Equipment restriction)
-- [[sword-world-rpg-complete-edition-section-chapter-6-6-3-ranger-skill-surprise-attack-intelligence-no-equipment-restriction-b52af17c]] - narrower source section: Chapter 6: / 6.3 Ranger Skill / [ ⑭ Surprise Attack [Intelligence]] (No equipment restriction)
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-chapter-6-6-1-precautions-when-using-skills-3fccdf49]] - previous source section: Chapter 6: / 6.1 Precautions When Using Skills
 - [[sword-world-rpg-complete-edition-section-chapter-6-79bede4b]] - next source section: Chapter 6:
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-chapter-6-26ccc185]] - broader source section: Chapter 6:
+- [[sword-world-rpg-complete-edition-section-chapter-6-6-3-ranger-skill-camouflage-intelligence-equipment-restriction-b7028d9e]] - narrower source section: Chapter 6: / 6.3 Ranger Skill / [ ③ Camouflage [Intelligence] ] (Equipment restriction)
+- [[sword-world-rpg-complete-edition-section-chapter-6-6-3-ranger-skill-first-aid-no-equipment-restriction-ca76d7dd]] - narrower source section: Chapter 6: / 6.3 Ranger Skill / [ ② First-Aid [-] ] (No equipment restriction)
+- [[sword-world-rpg-complete-edition-section-chapter-6-6-3-ranger-skill-follow-agility-equipment-restriction-a60ba780]] - narrower source section: Chapter 6: / 6.3 Ranger Skill / [ ⑬ Follow [Agility] ] (Equipment restriction)
+- [[sword-world-rpg-complete-edition-section-chapter-6-6-3-ranger-skill-footprint-tracking-intelligence-no-equipment-restriction-not-retriabl-bded9019]] - narrower source section: Chapter 6: / 6.3 Ranger Skill / [ ① Footprint Tracking [Intelligence] ] (No equipment restriction, not retriable)
+- [[sword-world-rpg-complete-edition-section-chapter-6-6-3-ranger-skill-listen-intelligence-equipment-restriction-a75e8f90]] - narrower source section: Chapter 6: / 6.3 Ranger Skill / [ ④ Listen [Intelligence] ] (Equipment restriction)
+- [[sword-world-rpg-complete-edition-section-chapter-6-6-3-ranger-skill-map-creation-intelligence-no-equipment-restriction-not-retriable-2f14328a]] - narrower source section: Chapter 6: / 6.3 Ranger Skill / [ ⑨ Map Creation [Intelligence]] (No equipment restriction, not retriable)
+- [[sword-world-rpg-complete-edition-section-chapter-6-6-3-ranger-skill-plant-and-animal-check-intelligence-no-equipment-restriction-not-retr-40f32a9c]] - narrower source section: Chapter 6: / 6.3 Ranger Skill / [ ⑪ Plant and Animal Check [Intelligence] ] (No equipment restriction, not retriable)
+
+### Topics
+
 - [[sword-world-rpg-complete-edition-ranger-skill]] - topic hub: opens the topic page for Ranger Skill
 
 ## Statements
@@ -119,10 +121,12 @@ From [[sword-world-rpg-complete-edition]].
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-04103))_
 
+<a id="atom-technical-atom-fd8d173cceeb966b"></a>
 > If you attempt to use this ability and fail the success roll, you simply cannot predict the weather; it does not predict the opposite.
 
 ### Technical frame 2: Chapter 6: / 6.3 Ranger Skill / [ ⑪ Plant and Animal Check [Intelligence] ] (No equipment restriction, not retriable)
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-04106))_
 
+<a id="atom-technical-atom-b6f0fd85eb3ca5b8"></a>
 > In other cases (such as searching for herbs), the game master should determine a target score for the check.

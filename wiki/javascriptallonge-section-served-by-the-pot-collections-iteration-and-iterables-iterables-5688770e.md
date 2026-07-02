@@ -4,11 +4,11 @@ page_kind: source
 summary: Served by the Pot: Collections / Iteration and Iterables / iterables: 22 source-backed entries and 2 atom(s) from raw/javascriptallonge.pdf.
 page_family: section-reference
 sources: raw/javascriptallonge.pdf
-updated: 2026-07-01
+updated: 2026-07-02
 domain: javascriptallonge
 category_path: sources/javascriptallonge/sections
 source_id: javascriptallonge.pdf
-projection_coverage: section-javascriptallonge-section-served-by-the-pot-collections-iteration-and-iterables-iterables-5688770e@51a7f87965e5f9c7521da6850c104e2e
+projection_coverage: section-javascriptallonge-section-served-by-the-pot-collections-iteration-and-iterables-iterables-5688770e@430186ba2221d72ffc8e626809d68f0d
 ---
 
 # Served by the Pot: Collections / Iteration and Iterables / iterables
@@ -17,9 +17,17 @@ From [[javascriptallonge]].
 
 ## Related pages
 
-- [[javascriptallonge-section-served-by-the-pot-collections-iteration-and-iterables-6006fd95]] - broader source section: Served by the Pot: Collections / Iteration and Iterables
+### Source order
+
 - [[javascriptallonge-section-served-by-the-pot-collections-iteration-and-iterables-iterator-objects-7abb0097]] - previous source section: Served by the Pot: Collections / Iteration and Iterables / iterator objects
 - [[javascriptallonge-section-served-by-the-pot-collections-iteration-and-iterables-iterables-out-to-infinity-376606ac]] - next source section: Served by the Pot: Collections / Iteration and Iterables / iterables out to infinity
+
+### Source structure
+
+- [[javascriptallonge-section-served-by-the-pot-collections-iteration-and-iterables-6006fd95]] - broader source section: Served by the Pot: Collections / Iteration and Iterables
+
+### Topics
+
 - [[javascriptallonge-iterable]] - topic hub: opens the topic page for Iterable
 
 ## Statements
@@ -47,6 +55,7 @@ From [[javascriptallonge]].
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01558))_
 
+<a id="atom-technical-atom-92c82b1d649104c2"></a>
 ```
 const EMPTY = {
 isEmpty: () => true
@@ -92,6 +101,7 @@ iterableSum(someSquares)
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01561))_
 
+<a id="atom-technical-atom-bf283260b68810d0"></a>
 ```
 ['some squares', ...someSquares]
 //=> ["some squares", 1, 4, 9, 16, 25]

@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-4-5-2-determining-base-damage-strike-roll-criticals-0fbd66c4@7450ff7febcdaebfe79c99b0a6f0806c
+projection_coverage: section-sword-world-rpg-complete-edition-section-4-5-2-determining-base-damage-strike-roll-criticals-0fbd66c4@093e7a2eccf8f702e2901e88e20ecade
 ---
 
 # 4.5.2 Determining Base Damage (Strike Roll) / 【 Criticals
@@ -17,8 +17,13 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-4-5-2-determining-base-damage-strike-roll-267f36cf]] - broader source section: 4.5.2 Determining Base Damage (Strike Roll)
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-4-5-2-determining-base-damage-strike-roll-0-damage-e4fd9431]] - previous source section: 4.5.2 Determining Base Damage (Strike Roll) / 【 0 Damage! 】
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-4-5-2-determining-base-damage-strike-roll-267f36cf]] - broader source section: 4.5.2 Determining Base Damage (Strike Roll)
 
 ## Statements
 
@@ -39,6 +44,7 @@ From [[sword-world-rpg-complete-edition]].
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-01285))_
 
+<a id="atom-technical-atom-3778944b6ebe4895"></a>
 > If the second 2D roll is also greater than or equal to the critical target, you can make a third roll to add even more damage.
 
 ### Technical frame 2: 4.5.2 Determining Base Damage (Strike Roll) / 【 Criticals
@@ -49,6 +55,7 @@ From [[sword-world-rpg-complete-edition]].
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-01286))_
 
+<a id="atom-technical-atom-6fb58ee7cd60f51a"></a>
 > If a critical occurs, but you roll double ones on the second and subsequent damage checks, 0 is added to the previous result (i.e., the previous result remains the same ), and the base damage check will end.
 
 ### Technical frame 3: 4.5.2 Determining Base Damage (Strike Roll) / 【 Criticals
@@ -59,4 +66,5 @@ From [[sword-world-rpg-complete-edition]].
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-01290))_
 
+<a id="atom-technical-atom-d24d95d1e49ee502"></a>
 > If the third roll were a 2 (double ones), the base damage would instead be 6+8+0= 14 .

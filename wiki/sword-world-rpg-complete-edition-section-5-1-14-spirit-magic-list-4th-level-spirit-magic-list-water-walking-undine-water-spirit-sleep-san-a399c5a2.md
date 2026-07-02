@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-5-1-14-spirit-magic-list-4th-level-spirit-magic-list-water-walking-undine-water-spirit-sleep-san-a399c5a2@40a9ff018b54713f30161e90aa5889ff
+projection_coverage: section-sword-world-rpg-complete-edition-section-5-1-14-spirit-magic-list-4th-level-spirit-magic-list-water-walking-undine-water-spirit-sleep-san-a399c5a2@ad9d30a633951de5b200bc84c4ca560f
 ---
 
 # 5.1.14 Spirit Magic List / 4th Level Spirit Magic List [ Water Walking ] (Undine/Water Spirit) / [ Sleep ] (Sandman/Mind Spirit)
@@ -17,9 +17,14 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-5-1-14-spirit-magic-list-4th-level-spirit-magic-list-water-walking-undine-water-spirit-bd6d8f37]] - broader source section: 5.1.14 Spirit Magic List / 4th Level Spirit Magic List [ Water Walking ] (Undine/Water Spirit)
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-5-1-14-spirit-magic-list-4th-level-spirit-magic-list-water-walking-undine-water-spirit-sink-undi-966c429b]] - previous source section: 5.1.14 Spirit Magic List / 4th Level Spirit Magic List [ Water Walking ] (Undine/Water Spirit) / [ Sink ] (Undine/Water Spirit)
 - [[sword-world-rpg-complete-edition-section-5-1-14-spirit-magic-list-4th-level-spirit-magic-list-water-walking-undine-water-spirit-tunnel-gn-c5a573c1]] - next source section: 5.1.14 Spirit Magic List / 4th Level Spirit Magic List [ Water Walking ] (Undine/Water Spirit) / [ Tunnel ] (Gnome/Earth Spirit)
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-5-1-14-spirit-magic-list-4th-level-spirit-magic-list-water-walking-undine-water-spirit-bd6d8f37]] - broader source section: 5.1.14 Spirit Magic List / 4th Level Spirit Magic List [ Water Walking ] (Undine/Water Spirit)
 
 ## Statements
 

@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-5-1-14-spirit-magic-list-3rd-level-spirit-magic-list-invisibility-sprite-mind-spirit-mute-sylph-ebd83e30@ee77c6e0e02345ba91cbb863648a238d
+projection_coverage: section-sword-world-rpg-complete-edition-section-5-1-14-spirit-magic-list-3rd-level-spirit-magic-list-invisibility-sprite-mind-spirit-mute-sylph-ebd83e30@f6b3ea0ca771a49e86bc573400732765
 ---
 
 # 5.1.14 Spirit Magic List / 3rd Level Spirit Magic List [ Invisibility ] (Sprite/Mind Spirit) / [ Mute ] (Sylph/Wind Spirit)
@@ -17,8 +17,13 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-5-1-14-spirit-magic-list-3rd-level-spirit-magic-list-invisibility-sprite-mind-spirit-c96f9e17]] - broader source section: 5.1.14 Spirit Magic List / 3rd Level Spirit Magic List [ Invisibility ] (Sprite/Mind Spirit)
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-5-1-14-spirit-magic-list-3rd-level-spirit-magic-list-invisibility-sprite-mind-spirit-healing-the-e830125a]] - previous source section: 5.1.14 Spirit Magic List / 3rd Level Spirit Magic List [ Invisibility ] (Sprite/Mind Spirit) / [ Healing ] (The Unknown Spirit of Life)
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-5-1-14-spirit-magic-list-3rd-level-spirit-magic-list-invisibility-sprite-mind-spirit-c96f9e17]] - broader source section: 5.1.14 Spirit Magic List / 3rd Level Spirit Magic List [ Invisibility ] (Sprite/Mind Spirit)
 
 ## Statements
 

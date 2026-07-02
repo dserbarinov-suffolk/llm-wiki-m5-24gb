@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-6-6-3-ranger-skill-surprise-attack-intelligence-no-equipment-restriction-b52af17c@8230d4ba65b5b6c4a7bd16ab2dddca92
+projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-6-6-3-ranger-skill-surprise-attack-intelligence-no-equipment-restriction-b52af17c@75387c0ebce72371b41c413bc8dd6f4c
 ---
 
 # Chapter 6: / 6.3 Ranger Skill / [ ⑭ Surprise Attack [Intelligence]] (No equipment restriction)
@@ -17,8 +17,13 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-chapter-6-6-3-ranger-skill-ae825c0d]] - broader source section: Chapter 6: / 6.3 Ranger Skill
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-chapter-6-6-3-ranger-skill-follow-agility-equipment-restriction-a60ba780]] - previous source section: Chapter 6: / 6.3 Ranger Skill / [ ⑬ Follow [Agility] ] (Equipment restriction)
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-chapter-6-6-3-ranger-skill-ae825c0d]] - broader source section: Chapter 6: / 6.3 Ranger Skill
 
 ## Statements
 

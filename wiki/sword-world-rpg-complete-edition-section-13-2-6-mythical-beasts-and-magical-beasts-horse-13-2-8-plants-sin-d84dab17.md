@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-13-2-6-mythical-beasts-and-magical-beasts-horse-13-2-8-plants-sin-d84dab17@72299ee0b9c7a414db109ca7ff1069f8
+projection_coverage: section-sword-world-rpg-complete-edition-section-13-2-6-mythical-beasts-and-magical-beasts-horse-13-2-8-plants-sin-d84dab17@6caeb1f8913fc204dd94d190d619c879
 ---
 
 # 13.2.6 Mythical Beasts and Magical Beasts / [ Horse ] / 13.2.8 Plants / [ Sin ]
@@ -17,9 +17,14 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-13-2-6-mythical-beasts-and-magical-beasts-horse-13-2-8-plants-6ae09235]] - broader source section: 13.2.6 Mythical Beasts and Magical Beasts / [ Horse ] / 13.2.8 Plants
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-13-2-6-mythical-beasts-and-magical-beasts-horse-13-2-8-plants-ghoul-5e9268ef]] - previous source section: 13.2.6 Mythical Beasts and Magical Beasts / [ Horse ] / 13.2.8 Plants / [ Ghoul ]
 - [[sword-world-rpg-complete-edition-section-13-2-6-mythical-beasts-and-magical-beasts-horse-13-2-8-plants-wight-7091b82d]] - next source section: 13.2.6 Mythical Beasts and Magical Beasts / [ Horse ] / 13.2.8 Plants / [ Wight ]
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-13-2-6-mythical-beasts-and-magical-beasts-horse-13-2-8-plants-6ae09235]] - broader source section: 13.2.6 Mythical Beasts and Magical Beasts / [ Horse ] / 13.2.8 Plants
 
 ## Statements
 

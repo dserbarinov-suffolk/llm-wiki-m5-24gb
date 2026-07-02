@@ -4,10 +4,10 @@ page_kind: concept
 summary: Statement: 6 statement(s) and 11 atom(s) from raw/javascriptallonge.pdf.
 page_family: topic-concept
 sources: raw/javascriptallonge.pdf
-updated: 2026-07-01
+updated: 2026-07-02
 domain: javascriptallonge
 category_path: concepts
-projection_coverage: topic-javascriptallonge-statement@dc60604bcfbdc47fcbaf3e992b917e6c
+projection_coverage: topic-javascriptallonge-statement@dc84126a6cb1a0fb9f758b68a34e68ef
 ---
 
 # Statement
@@ -49,6 +49,7 @@ What [[javascriptallonge]] covers about statement:
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00246))_
 
+<a id="atom-technical-atom-d51366af88ef2feb"></a>
 ```text
 //=> undefined
 We said that the function returns the result of evaluating a block, and we said that a block is a
@@ -173,6 +174,7 @@ Ah. I’d Like to Have an Argument, Please.22
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00434))_
 
+<a id="atom-technical-atom-813af9924af2ee84"></a>
 ```
 (n) => {
 const even = (x) => {
@@ -193,6 +195,7 @@ return even(n)
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00438))_
 
+<a id="atom-technical-atom-1b3bb52352723ac1"></a>
 ```
 (n) => {
 const even = (x) => {
@@ -212,6 +215,7 @@ return odd(x - 1);
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00439))_
 
+<a id="atom-technical-atom-1ec59ee6e5737160"></a>
 ```
 }
 return even(n)
@@ -238,6 +242,7 @@ return even(n)
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00440))_
 
+<a id="atom-technical-atom-48d0846cdae20744"></a>
 ```
 //=> true
 ```
@@ -250,6 +255,7 @@ return even(n)
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00477))_
 
+<a id="atom-technical-atom-1cf4fe52d95d2a8f"></a>
 ```
 if (true) {
 // an immediately invoked block statement (IIBS)
@@ -279,6 +285,7 @@ return diameter * PI;
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00478))_
 
+<a id="atom-technical-atom-fd635f45849def79"></a>
 ```
 })(2)
 //=> 6.2831853
@@ -292,6 +299,7 @@ return diameter * PI;
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00481))_
 
+<a id="atom-technical-atom-dcbc2a8d26b64fd4"></a>
 ```
 ((diameter) => {
 const PI = 3.14159265;
@@ -311,6 +319,7 @@ return diameter * PI;
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00483))_
 
+<a id="atom-technical-atom-d4b4a8d99bd35adf"></a>
 ```
 ((diameter) => {
 if (true) {
@@ -329,6 +338,7 @@ return diameter * PI;
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00840))_
 
+<a id="atom-technical-atom-84e968decb885309"></a>
 ```
 const unwrap = (wrapped) => {
 const [something] = wrapped;
@@ -346,6 +356,7 @@ unwrap(["present"])
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00842))_
 
+<a id="atom-technical-atom-03220fbc99849a87"></a>
 ```
 const surname = (name) => {
 const [first, last] = name;
@@ -358,9 +369,11 @@ surname(["Reginald", "Braithwaite"])
 
 ## Related pages
 
-- [[javascriptallonge-array]] - shared statements and technical atoms: Array shares source evidence from Composing and Decomposing Data / Arrays and Destructuring Arguments / destructuring arrays: The statement const [something] = wrapped; destructures the array represented by wrapped , binding the value of its single element to the name something . We can do ... [truncated]; Array shares technical record from Composing and Decomposing Data / Arrays and Destructuring Arguments / destructuring arrays: const surname = (name) => { const [first, last] = name; return last; } surname(["Reginald", "Braithwaite"]) //=> "Braithwaite" (1 shared statement(s), 1 shared atom(s))
+### Shared technical atoms
+
 - [[javascriptallonge-expression]] - shared technical atoms: Expression shares technical record from Or even: / back on the block: (n) => { const even = (x) => { if (x === 0) return true; else { const odd = (y) => !even(y); return odd(x - 1); } (4 shared atom(s))
 - [[javascriptallonge-parameter]] - shared technical atoms: Parameter shares technical record from And also: / That Constant Coffee Craving / are consts also from a shadowy planet?: if (true) { // an immediately invoked block statement (IIBS) } Let’s try it: ((diameter) => { const PI = 3; if (true) { const PI = 3.14159265; return diameter * PI; ... [truncated] (2 shared atom(s))
+- [[javascriptallonge-array]] - shared statements and technical atoms: Array shares source evidence from Composing and Decomposing Data / Arrays and Destructuring Arguments / destructuring arrays: The statement const [something] = wrapped; destructures the array represented by wrapped , binding the value of its single element to the name something . We can do ... [truncated]; Array shares technical record from Composing and Decomposing Data / Arrays and Destructuring Arguments / destructuring arrays: const surname = (name) => { const [first, last] = name; return last; } surname(["Reginald", "Braithwaite"]) //=> "Braithwaite" (1 shared statement(s), 1 shared atom(s))
 - [[javascriptallonge-evaluate]] - shared technical atoms: Evaluate shares technical record from Or even: / back on the block: //=> undefined We said that the function returns the result of evaluating a block, and we said that a block is a (possibly empty) list of JavaScript statements separ ... [truncated] (1 shared atom(s))
 - [[javascriptallonge-javascript]] - shared technical atoms: Javascript shares technical record from Or even: / back on the block: //=> undefined We said that the function returns the result of evaluating a block, and we said that a block is a (possibly empty) list of JavaScript statements separ ... [truncated] (1 shared atom(s))
 - [[javascriptallonge-list]] - shared technical atoms: List shares technical record from Or even: / back on the block: //=> undefined We said that the function returns the result of evaluating a block, and we said that a block is a (possibly empty) list of JavaScript statements separ ... [truncated] (1 shared atom(s))

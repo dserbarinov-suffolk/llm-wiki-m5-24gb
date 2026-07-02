@@ -4,11 +4,11 @@ page_kind: source
 summary: Picking the Bean: Choice and Truthiness / || and && are control-flow operators: 4 source-backed entries and 0 atom(s) from raw/javascriptallonge.pdf.
 page_family: section-reference
 sources: raw/javascriptallonge.pdf
-updated: 2026-07-01
+updated: 2026-07-02
 domain: javascriptallonge
 category_path: sources/javascriptallonge/sections
 source_id: javascriptallonge.pdf
-projection_coverage: section-javascriptallonge-section-picking-the-bean-choice-and-truthiness-and-are-control-flow-operators-e907a1ef@57a8c70760bc746b285c8175ddd16dce
+projection_coverage: section-javascriptallonge-section-picking-the-bean-choice-and-truthiness-and-are-control-flow-operators-e907a1ef@5571bfcad34196bf64d42472330974eb
 ---
 
 # Picking the Bean: Choice and Truthiness / || and && are control-flow operators
@@ -17,9 +17,14 @@ From [[javascriptallonge]].
 
 ## Related pages
 
-- [[javascriptallonge-section-picking-the-bean-choice-and-truthiness-851a6e13]] - broader source section: Picking the Bean: Choice and Truthiness
+### Source order
+
 - [[javascriptallonge-section-picking-the-bean-choice-and-truthiness-truthiness-and-operators-e7aa9191]] - previous source section: Picking the Bean: Choice and Truthiness / truthiness and operators
 - [[javascriptallonge-section-picking-the-bean-choice-and-truthiness-function-parameters-are-eager-fbbf2d6a]] - next source section: Picking the Bean: Choice and Truthiness / function parameters are eager
+
+### Source structure
+
+- [[javascriptallonge-section-picking-the-bean-choice-and-truthiness-851a6e13]] - broader source section: Picking the Bean: Choice and Truthiness
 
 ## Statements
 

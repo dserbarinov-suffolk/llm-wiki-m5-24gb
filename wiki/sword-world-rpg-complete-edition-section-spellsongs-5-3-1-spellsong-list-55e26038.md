@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-spellsongs-5-3-1-spellsong-list-55e26038@dd6631a83ab1ac4fed9a3a7a1af5e1d1
+projection_coverage: section-sword-world-rpg-complete-edition-section-spellsongs-5-3-1-spellsong-list-55e26038@cbf03543fe810d86f688368d27009b22
 ---
 
 # Spellsongs / 5.3.1 Spellsong List
@@ -17,8 +17,13 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-spellsongs-3727fc32]] - broader source section: Spellsongs
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-spellsongs-filling-out-the-character-sheet-866f5da1]] - next source section: Spellsongs / Filling out the Character Sheet
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-spellsongs-3727fc32]] - broader source section: Spellsongs
 
 ## Statements
 

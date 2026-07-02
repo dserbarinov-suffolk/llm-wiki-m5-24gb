@@ -4,10 +4,10 @@ page_kind: concept
 summary: About JavaScript Allongé: 56 statement(s) and 9 atom(s) from raw/javascriptallonge.pdf.
 page_family: broad-topic
 sources: raw/javascriptallonge.pdf
-updated: 2026-07-01
+updated: 2026-07-02
 domain: javascriptallonge
 category_path: concepts
-projection_coverage: topic-javascriptallonge-javascript-allong@7b1bc3d5ef5d4162f2a0f880314f8d66
+projection_coverage: topic-javascriptallonge-javascript-allong@9696a7be3b0a748a715a505fcfc8c934
 ---
 
 # About JavaScript Allongé
@@ -112,6 +112,7 @@ What [[javascriptallonge]] covers about about javascript allongé:
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00018))_
 
+<a id="atom-technical-atom-4912ff168f36ca99"></a>
 > If those terms seem unfamiliar, don't worry: JavaScript Allongé takes great delight in explaining what they mean and why they matter.
 
 ### Technical frame 2: A Pull of the Lever: Prefaces / About JavaScript Allongé / why the 'six' edition?
@@ -122,6 +123,7 @@ What [[javascriptallonge]] covers about about javascript allongé:
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00026))_
 
+<a id="atom-technical-atom-0d5f893d7d9b588a"></a>
 ```
 for (int i = 0; i < array.length; ++i) {
 // ...
@@ -136,6 +138,7 @@ for (int i = 0; i < array.length; ++i) {
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00028))_
 
+<a id="atom-technical-atom-33a084ad9ef4dd37"></a>
 ```
 var i;
 for (i = 0; i < array.length; ++i) {
@@ -153,6 +156,7 @@ for (i = 0; i < array.length; ++i) {
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00031))_
 
+<a id="atom-technical-atom-02a1f7c48c464f9a"></a>
 ```
 def foo (first, *rest)
 # ...
@@ -167,6 +171,7 @@ end
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00033))_
 
+<a id="atom-technical-atom-dfc46ddf341a4840"></a>
 ```
 function foo () {
 var first = arguments[0],
@@ -184,6 +189,7 @@ rest
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00037))_
 
+<a id="atom-technical-atom-424a0a8e8a0c5de6"></a>
 ```
 for (let i = 0; i < array.length; ++i) {
 // ...
@@ -198,6 +204,7 @@ for (let i = 0; i < array.length; ++i) {
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00039))_
 
+<a id="atom-technical-atom-4c8367e1e02a1633"></a>
 ```
 function foo (first, ...rest) {
 // ...
@@ -212,6 +219,7 @@ function foo (first, ...rest) {
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00060))_
 
+<a id="atom-technical-atom-5d1a4d72e0e29eff"></a>
 ```
 const mapWith = (iterable, fn) =>
 ({
@@ -231,6 +239,7 @@ yield fn(element);
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00062))_
 
+<a id="atom-technical-atom-3ef16a6f8bc94e1a"></a>
 ```
 const filterWith = (fn, iterable) =>
 ({
@@ -245,16 +254,27 @@ if (!!fn(element)) yield element;
 
 ## Related pages
 
-- [[javascriptallonge-javascript]] - broader topic: Javascript shares source evidence from A Pull of the Lever: Prefaces / About JavaScript Allongé: JavaScript Allongé is a first and foremost, a book about programming with functions . It's written in JavaScript, because JavaScript hits the perfect sweet spot of b ... [truncated]; Javascript shares technical record from A Pull of the Lever: Prefaces / About JavaScript Allongé / why the 'six' edition?: var i; for (i = 0; i < array.length; ++i) { (function (i) { // ... })(i) } (18 shared statement(s), 4 shared atom(s))
-- [[javascriptallonge-allong]] - broader topic: Allong shares source evidence from A Pull of the Lever: Prefaces / About JavaScript Allongé: JavaScript Allongé is a first and foremost, a book about programming with functions . It's written in JavaScript, because JavaScript hits the perfect sweet spot of b ... [truncated]; Allong shares technical record from A Pull of the Lever: Prefaces / About JavaScript Allongé / why the 'six' edition?: function foo (first, ...rest) { // ... } (10 shared statement(s), 1 shared atom(s))
+### Source structure
+
+- [[javascriptallonge-section-a-pull-of-the-lever-prefaces-about-javascript-allong-b566e707]] - source section: A Pull of the Lever: Prefaces / About JavaScript Allongé shares source evidence from A Pull of the Lever: Prefaces / About JavaScript Allongé: JavaScript Allongé is a first and foremost, a book about programming with functions . It's written in JavaScript, because JavaScript hits the perfect sweet spot of b ... [truncated]; A Pull of the Lever: Prefaces / About JavaScript Allongé shares technical record from A Pull of the Lever: Prefaces / About JavaScript Allongé: If those terms seem unfamiliar, don't worry: JavaScript Allongé takes great delight in explaining what they mean and why they matter. (29 shared statement(s), 7 shared atom(s))
+- [[javascriptallonge-section-a-pull-of-the-lever-prefaces-what-javascript-allong-is-and-isn-t-8c44526e]] - source section: A Pull of the Lever: Prefaces / What JavaScript Allongé is. And isn't. shares source evidence from A Pull of the Lever: Prefaces / What JavaScript Allongé is. And isn't.: JavaScript Allongé is a book about programming with functions. From functions flow many ideas, from decorators to methods to delegation to mixins, and onwards in so ... [truncated]; A Pull of the Lever: Prefaces / What JavaScript Allongé is. And isn't. shares technical record from A Pull of the Lever: Prefaces / What JavaScript Allongé is. And isn't.: const mapWith = (iterable, fn) => ({ [Symbol.iterator]: function* () { for (let element of iterable) { yield fn(element); } } }); (20 shared statement(s), 2 shared atom(s))
+
+### Shared technical atoms
+
 - [[javascriptallonge-ecmascript]] - shared statements and technical atoms: Ecmascript shares source evidence from A Pull of the Lever: Prefaces / About JavaScript Allongé / why the 'six' edition?: ECMAScript 2015 (formerly called ECMAScript 6 or 'ES6'), is ushering in a very large number of improvements to the way programmers can write small, powerful componen ... [truncated]; Ecmascript shares technical record from A Pull of the Lever: Prefaces / About JavaScript Allongé / why the 'six' edition?: var i; for (i = 0; i < array.length; ++i) { (function (i) { // ... })(i) } (5 shared statement(s), 3 shared atom(s))
 - [[javascriptallonge-feature]] - shared statements and technical atoms: Feature shares source evidence from A Pull of the Lever: Prefaces / About JavaScript Allongé / why the 'six' edition?: ECMAScript 2015 (formerly called ECMAScript 6 or 'ES6'), is ushering in a very large number of improvements to the way programmers can write small, powerful componen ... [truncated]; Feature shares technical record from A Pull of the Lever: Prefaces / About JavaScript Allongé / why the 'six' edition?: for (let i = 0; i < array.length; ++i) { // ... } (3 shared statement(s), 2 shared atom(s))
 - [[javascriptallonge-programming]] - shared statements and technical atoms: Programming shares source evidence from A Pull of the Lever: Prefaces / About JavaScript Allongé / why the 'six' edition?: Likewise, many programming languages permit functions to have a variable number of arguments, and to collect the arguments into a single variable as an array. In Rub ... [truncated]; Programming shares technical record from A Pull of the Lever: Prefaces / About JavaScript Allongé / why the 'six' edition?: var i; for (i = 0; i < array.length; ++i) { (function (i) { // ... })(i) } (3 shared statement(s), 2 shared atom(s))
+
+### Shared claims
+
 - [[javascriptallonge-edition]] - shared statements: Edition shares source evidence from A Pull of the Lever: Prefaces / About JavaScript Allongé / why the 'six' edition?: JavaScript Allongé, The 'Six' Edition packs all the goodness of JavaScript Allongé into a new, updated package that is relevant for programmers working with (or plan ... [truncated] (3 shared statement(s))
 - [[javascriptallonge-decorator]] - shared statements: Decorator shares source evidence from A Pull of the Lever: Prefaces / About JavaScript Allongé: It also provides recipes for using functions to write software that is simpler, cleaner, and less complicated than alternative approaches that are object-centric or ... [truncated] (1 shared statement(s))
 - [[javascriptallonge-functional]] - shared statements: Functional shares source evidence from ECMAScript 6 has three major groups of features: / Forewords to the First Edition / michael fogus: As a staunch advocate of functional programming, much of what Reg has written rings true to me. While not exclusively a book about functional programming, JavaScript ... [truncated] (1 shared statement(s))
-- [[javascriptallonge-section-a-pull-of-the-lever-prefaces-about-javascript-allong-b566e707]] - source section: A Pull of the Lever: Prefaces / About JavaScript Allongé shares source evidence from A Pull of the Lever: Prefaces / About JavaScript Allongé: JavaScript Allongé is a first and foremost, a book about programming with functions . It's written in JavaScript, because JavaScript hits the perfect sweet spot of b ... [truncated]; A Pull of the Lever: Prefaces / About JavaScript Allongé shares technical record from A Pull of the Lever: Prefaces / About JavaScript Allongé: If those terms seem unfamiliar, don't worry: JavaScript Allongé takes great delight in explaining what they mean and why they matter. (29 shared statement(s), 7 shared atom(s))
-- [[javascriptallonge-section-a-pull-of-the-lever-prefaces-what-javascript-allong-is-and-isn-t-8c44526e]] - source section: A Pull of the Lever: Prefaces / What JavaScript Allongé is. And isn't. shares source evidence from A Pull of the Lever: Prefaces / What JavaScript Allongé is. And isn't.: JavaScript Allongé is a book about programming with functions. From functions flow many ideas, from decorators to methods to delegation to mixins, and onwards in so ... [truncated]; A Pull of the Lever: Prefaces / What JavaScript Allongé is. And isn't. shares technical record from A Pull of the Lever: Prefaces / What JavaScript Allongé is. And isn't.: const mapWith = (iterable, fn) => ({ [Symbol.iterator]: function* () { for (let element of iterable) { yield fn(element); } } }); (20 shared statement(s), 2 shared atom(s))
+
+### Topics
+
+- [[javascriptallonge-javascript]] - broader topic: Javascript shares source evidence from A Pull of the Lever: Prefaces / About JavaScript Allongé: JavaScript Allongé is a first and foremost, a book about programming with functions . It's written in JavaScript, because JavaScript hits the perfect sweet spot of b ... [truncated]; Javascript shares technical record from A Pull of the Lever: Prefaces / About JavaScript Allongé / why the 'six' edition?: var i; for (i = 0; i < array.length; ++i) { (function (i) { // ... })(i) } (18 shared statement(s), 4 shared atom(s))
+- [[javascriptallonge-allong]] - broader topic: Allong shares source evidence from A Pull of the Lever: Prefaces / About JavaScript Allongé: JavaScript Allongé is a first and foremost, a book about programming with functions . It's written in JavaScript, because JavaScript hits the perfect sweet spot of b ... [truncated]; Allong shares technical record from A Pull of the Lever: Prefaces / About JavaScript Allongé / why the 'six' edition?: function foo (first, ...rest) { // ... } (10 shared statement(s), 1 shared atom(s))
 
 ## Source
 

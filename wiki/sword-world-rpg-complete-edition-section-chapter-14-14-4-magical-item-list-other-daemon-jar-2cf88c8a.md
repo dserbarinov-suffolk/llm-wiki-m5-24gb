@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-other-daemon-jar-2cf88c8a@a8aaa3fccc8dfc76cc6ac85aa3d7ad92
+projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-other-daemon-jar-2cf88c8a@bb4e52584fc99bb69424a264b2c3b19b
 ---
 
 # Chapter 14: / 14.4 Magical Item List / 《 Other 》 / [ Daemon Jar ]
@@ -17,9 +17,14 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-other-ae5b041d]] - broader source section: Chapter 14: / 14.4 Magical Item List / 《 Other 》
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-other-soft-lander-830df0a9]] - previous source section: Chapter 14: / 14.4 Magical Item List / 《 Other 》 / [ Soft Lander ]
 - [[sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-other-daemon-hand-2209e731]] - next source section: Chapter 14: / 14.4 Magical Item List / 《 Other 》 / [ Daemon Hand ]
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-other-ae5b041d]] - broader source section: Chapter 14: / 14.4 Magical Item List / 《 Other 》
 
 ## Statements
 

@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-13-2-6-mythical-beasts-and-magical-beasts-sea-dragon-c0b3bff1@e14ac65c72898a98d1299d4fb83a8625
+projection_coverage: section-sword-world-rpg-complete-edition-section-13-2-6-mythical-beasts-and-magical-beasts-sea-dragon-c0b3bff1@c25141b1879ab3ddfc19f13f7c1b4bbc
 ---
 
 # 13.2.6 Mythical Beasts and Magical Beasts / [ Sea Dragon ]
@@ -17,9 +17,14 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-13-2-6-mythical-beasts-and-magical-beasts-f86962d2]] - broader source section: 13.2.6 Mythical Beasts and Magical Beasts
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-13-2-6-mythical-beasts-and-magical-beasts-basilisk-636ad7d6]] - previous source section: 13.2.6 Mythical Beasts and Magical Beasts / [ Basilisk ]
 - [[sword-world-rpg-complete-edition-section-13-2-6-mythical-beasts-and-magical-beasts-wyrm-79ae102a]] - next source section: 13.2.6 Mythical Beasts and Magical Beasts / [ Wyrm ]
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-13-2-6-mythical-beasts-and-magical-beasts-f86962d2]] - broader source section: 13.2.6 Mythical Beasts and Magical Beasts
 
 ## Statements
 

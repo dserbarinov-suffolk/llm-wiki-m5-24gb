@@ -4,11 +4,11 @@ page_kind: source
 summary: Recipes with Basic Functions / Disclaimer: 4 source-backed entries and 0 atom(s) from raw/javascriptallonge.pdf.
 page_family: section-reference
 sources: raw/javascriptallonge.pdf
-updated: 2026-07-01
+updated: 2026-07-02
 domain: javascriptallonge
 category_path: sources/javascriptallonge/sections
 source_id: javascriptallonge.pdf
-projection_coverage: section-javascriptallonge-section-recipes-with-basic-functions-disclaimer-ccfb4e57@9e94675ea5085ce37f39fe11951cfdfa
+projection_coverage: section-javascriptallonge-section-recipes-with-basic-functions-disclaimer-ccfb4e57@1d9b9d767d6f2defb6ea453a0544b40b
 ---
 
 # Recipes with Basic Functions / Disclaimer
@@ -17,8 +17,13 @@ From [[javascriptallonge]].
 
 ## Related pages
 
-- [[javascriptallonge-section-recipes-with-basic-functions-58df4c63]] - broader source section: Recipes with Basic Functions
+### Source order
+
 - [[javascriptallonge-section-recipes-with-basic-functions-partial-application-80bc1196]] - next source section: Recipes with Basic Functions / Partial Application
+
+### Source structure
+
+- [[javascriptallonge-section-recipes-with-basic-functions-58df4c63]] - broader source section: Recipes with Basic Functions
 
 ## Statements
 

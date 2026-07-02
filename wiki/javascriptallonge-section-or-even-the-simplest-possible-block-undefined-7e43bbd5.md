@@ -4,11 +4,11 @@ page_kind: source
 summary: Or even: / the simplest possible block / undefined: 14 source-backed entries and 3 atom(s) from raw/javascriptallonge.pdf.
 page_family: section-reference
 sources: raw/javascriptallonge.pdf
-updated: 2026-07-01
+updated: 2026-07-02
 domain: javascriptallonge
 category_path: sources/javascriptallonge/sections
 source_id: javascriptallonge.pdf
-projection_coverage: section-javascriptallonge-section-or-even-the-simplest-possible-block-undefined-7e43bbd5@1ef1cefb2f3f0fa71f762d6c739377bf
+projection_coverage: section-javascriptallonge-section-or-even-the-simplest-possible-block-undefined-7e43bbd5@43eb1afd9b61610e087a79dde0cb3f9a
 ---
 
 # Or even: / the simplest possible block / undefined
@@ -16,6 +16,8 @@ projection_coverage: section-javascriptallonge-section-or-even-the-simplest-poss
 From [[javascriptallonge]].
 
 ## Related pages
+
+### Source structure
 
 - [[javascriptallonge-section-or-even-the-simplest-possible-block-fbb6a26c]] - broader source section: Or even: / the simplest possible block
 
@@ -40,6 +42,7 @@ From [[javascriptallonge]].
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00220))_
 
+<a id="atom-technical-atom-b256226581f72926"></a>
 ```
 undefined
 ```
@@ -52,6 +55,7 @@ undefined
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00221))_
 
+<a id="atom-technical-atom-42fdcc2cdec5612a"></a>
 ```
 //=> undefined
 ```
@@ -64,6 +68,7 @@ undefined
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00223))_
 
+<a id="atom-technical-atom-19d368aa877bf601"></a>
 ```
 undefined === undefined
 //=> true

@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-volume-contraction-21e5bc2a@7ea7476125b34161623bcf9935775eb0
+projection_coverage: section-sword-world-rpg-complete-edition-section-volume-contraction-21e5bc2a@3c97ec8c19d28987d5d4cdc58a19b10d
 ---
 
 # 《 Volume Contraction 》
@@ -17,10 +17,15 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-volume-contraction-duration-contraction-0fcd2ebc]] - narrower source section: 《 Volume Contraction 》 / 《 Duration Contraction 》
-- [[sword-world-rpg-complete-edition-section-volume-contraction-magic-power-decrease-9bdea686]] - narrower source section: 《 Volume Contraction 》 / 《 Magic Power Decrease 》
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-area-contraction-9e9ced56]] - previous source section: 《 Area Contraction 》
 - [[sword-world-rpg-complete-edition-section-effect-contraction-6b63d8f6]] - next source section: 《 Effect Contraction 》
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-volume-contraction-duration-contraction-0fcd2ebc]] - narrower source section: 《 Volume Contraction 》 / 《 Duration Contraction 》
+- [[sword-world-rpg-complete-edition-section-volume-contraction-magic-power-decrease-9bdea686]] - narrower source section: 《 Volume Contraction 》 / 《 Magic Power Decrease 》
 
 ## Statements
 

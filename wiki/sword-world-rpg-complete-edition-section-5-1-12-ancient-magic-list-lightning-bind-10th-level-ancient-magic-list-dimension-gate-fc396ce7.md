@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-5-1-12-ancient-magic-list-lightning-bind-10th-level-ancient-magic-list-dimension-gate-fc396ce7@c6895c09411881c32a375037e5fe7c8b
+projection_coverage: section-sword-world-rpg-complete-edition-section-5-1-12-ancient-magic-list-lightning-bind-10th-level-ancient-magic-list-dimension-gate-fc396ce7@44d677560828be62ec7579d18358184c
 ---
 
 # 5.1.12 Ancient Magic List / [ Lightning Bind ] / 10th Level Ancient Magic List [ Dimension Gate ]
@@ -17,12 +17,17 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-5-1-12-ancient-magic-list-lightning-bind-497e8a08]] - broader source section: 5.1.12 Ancient Magic List / [ Lightning Bind ]
-- [[sword-world-rpg-complete-edition-section-5-1-12-ancient-magic-list-lightning-bind-10th-level-ancient-magic-list-dimension-gate-death-clou-c146bbc2]] - narrower source section: 5.1.12 Ancient Magic List / [ Lightning Bind ] / 10th Level Ancient Magic List [ Dimension Gate ] / [ Death Cloud ]
-- [[sword-world-rpg-complete-edition-section-5-1-12-ancient-magic-list-lightning-bind-10th-level-ancient-magic-list-dimension-gate-perfect-ca-0ae1003b]] - narrower source section: 5.1.12 Ancient Magic List / [ Lightning Bind ] / 10th Level Ancient Magic List [ Dimension Gate ] / [ Perfect Cancellation ]
-- [[sword-world-rpg-complete-edition-section-5-1-12-ancient-magic-list-lightning-bind-10th-level-ancient-magic-list-dimension-gate-meteor-str-8d160c8b]] - narrower source section: 5.1.12 Ancient Magic List / [ Lightning Bind ] / 10th Level Ancient Magic List [ Dimension Gate ] / [ Meteor Strike ]
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-5-1-12-ancient-magic-list-lightning-bind-9th-level-ancient-magic-list-command-golem-0fbf68a1]] - previous source section: 5.1.12 Ancient Magic List / [ Lightning Bind ] / 9th Level Ancient Magic List [ Command Golem ]
 - [[sword-world-rpg-complete-edition-section-5-1-12-ancient-magic-list-lightning-bind-5-1-13-spirit-magic-and-the-shaman-skill-f3a8ad93]] - next source section: 5.1.12 Ancient Magic List / [ Lightning Bind ] / 5.1.13 Spirit Magic and the Shaman Skill
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-5-1-12-ancient-magic-list-lightning-bind-497e8a08]] - broader source section: 5.1.12 Ancient Magic List / [ Lightning Bind ]
+- [[sword-world-rpg-complete-edition-section-5-1-12-ancient-magic-list-lightning-bind-10th-level-ancient-magic-list-dimension-gate-death-clou-c146bbc2]] - narrower source section: 5.1.12 Ancient Magic List / [ Lightning Bind ] / 10th Level Ancient Magic List [ Dimension Gate ] / [ Death Cloud ]
+- [[sword-world-rpg-complete-edition-section-5-1-12-ancient-magic-list-lightning-bind-10th-level-ancient-magic-list-dimension-gate-meteor-str-8d160c8b]] - narrower source section: 5.1.12 Ancient Magic List / [ Lightning Bind ] / 10th Level Ancient Magic List [ Dimension Gate ] / [ Meteor Strike ]
+- [[sword-world-rpg-complete-edition-section-5-1-12-ancient-magic-list-lightning-bind-10th-level-ancient-magic-list-dimension-gate-perfect-ca-0ae1003b]] - narrower source section: 5.1.12 Ancient Magic List / [ Lightning Bind ] / 10th Level Ancient Magic List [ Dimension Gate ] / [ Perfect Cancellation ]
 
 ## Statements
 

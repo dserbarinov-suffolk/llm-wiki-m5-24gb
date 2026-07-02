@@ -4,11 +4,11 @@ page_kind: source
 summary: Copy on Write / Tortoises, Hares, and Teleporting Turtles: 12 source-backed entries and 0 atom(s) from raw/javascriptallonge.pdf.
 page_family: section-reference
 sources: raw/javascriptallonge.pdf
-updated: 2026-07-01
+updated: 2026-07-02
 domain: javascriptallonge
 category_path: sources/javascriptallonge/sections
 source_id: javascriptallonge.pdf
-projection_coverage: section-javascriptallonge-section-copy-on-write-tortoises-hares-and-teleporting-turtles-62bfcbc0@588c213d8515f77e7acd801af705b034
+projection_coverage: section-javascriptallonge-section-copy-on-write-tortoises-hares-and-teleporting-turtles-62bfcbc0@835185a8b4fe66c3e80ee25af331f9c6
 ---
 
 # Copy on Write / Tortoises, Hares, and Teleporting Turtles
@@ -17,9 +17,14 @@ From [[javascriptallonge]].
 
 ## Related pages
 
-- [[javascriptallonge-section-copy-on-write-ea36c891]] - broader source section: Copy on Write
+### Source order
+
 - [[javascriptallonge-section-copy-on-write-a-few-utilities-31a03dc1]] - previous source section: Copy on Write / a few utilities
 - [[javascriptallonge-section-copy-on-write-functional-iterators-773e8dc1]] - next source section: Copy on Write / Functional Iterators
+
+### Source structure
+
+- [[javascriptallonge-section-copy-on-write-ea36c891]] - broader source section: Copy on Write
 
 ## Statements
 

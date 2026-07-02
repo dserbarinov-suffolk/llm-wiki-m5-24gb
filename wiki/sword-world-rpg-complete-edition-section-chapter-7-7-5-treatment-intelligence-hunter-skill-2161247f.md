@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-7-7-5-treatment-intelligence-hunter-skill-2161247f@1d964aa0d83e3c6ad3b7e8a73020201d
+projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-7-7-5-treatment-intelligence-hunter-skill-2161247f@05ac9b3dbb1145677f9d670c357a93ba
 ---
 
 # Chapter 7: / 7.5 [ ② Treatment [Intelligence]] / Hunter Skill
@@ -17,9 +17,14 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
+### Source order
+
+- [[sword-world-rpg-complete-edition-section-chapter-7-7-5-treatment-intelligence-large-ship-steering-intelligence-f21e0938]] - next source section: Chapter 7: / 7.5 [ ② Treatment [Intelligence]] / [ ① Large Ship Steering [Intelligence] ]
+
+### Source structure
+
 - [[sword-world-rpg-complete-edition-section-chapter-7-7-5-treatment-intelligence-27e205e5]] - broader source section: Chapter 7: / 7.5 [ ② Treatment [Intelligence]]
 - [[sword-world-rpg-complete-edition-section-chapter-7-7-5-treatment-intelligence-hunter-skill-pre-processing-dexterity-84d4379a]] - narrower source section: Chapter 7: / 7.5 [ ② Treatment [Intelligence]] / Hunter Skill / [ ⑨ Pre-processing [Dexterity]]
-- [[sword-world-rpg-complete-edition-section-chapter-7-7-5-treatment-intelligence-large-ship-steering-intelligence-f21e0938]] - next source section: Chapter 7: / 7.5 [ ② Treatment [Intelligence]] / [ ① Large Ship Steering [Intelligence] ]
 
 ## Statements
 
@@ -57,6 +62,7 @@ From [[sword-world-rpg-complete-edition]].
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-04410))_
 
+<a id="atom-technical-atom-a1c811a707b80d3f"></a>
 ```text
 7.6
 7.6 Sailor Skill

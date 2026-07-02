@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-5-1-14-spirit-magic-list-6th-level-spirit-magic-list-48210847@a5918b1152e760faa84191664bc4d2ee
+projection_coverage: section-sword-world-rpg-complete-edition-section-5-1-14-spirit-magic-list-6th-level-spirit-magic-list-48210847@f4a01f538eda3bd55881b86ebe7dbc78
 ---
 
 # 5.1.14 Spirit Magic List / 6th Level Spirit Magic List
@@ -17,11 +17,16 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
+### Source order
+
+- [[sword-world-rpg-complete-edition-section-5-1-14-spirit-magic-list-5th-level-spirit-magic-list-control-plant-b425997a]] - previous source section: 5.1.14 Spirit Magic List / 5th Level Spirit Magic List [ Control Plant ]
+
+### Source structure
+
 - [[sword-world-rpg-complete-edition-section-5-1-14-spirit-magic-list-1f53ed62]] - broader source section: 5.1.14 Spirit Magic List
-- [[sword-world-rpg-complete-edition-section-5-1-14-spirit-magic-list-6th-level-spirit-magic-list-spirit-wall-187b67f7]] - narrower source section: 5.1.14 Spirit Magic List / 6th Level Spirit Magic List / [ Spirit Wall ]
 - [[sword-world-rpg-complete-edition-section-5-1-14-spirit-magic-list-6th-level-spirit-magic-list-decrease-water-pressure-undine-water-spirit-37377b8c]] - narrower source section: 5.1.14 Spirit Magic List / 6th Level Spirit Magic List / [ Decrease Water Pressure ] (Undine/Water Spirit)
 - [[sword-world-rpg-complete-edition-section-5-1-14-spirit-magic-list-6th-level-spirit-magic-list-preserve-sound-sylph-wind-spirit-00dae0c2]] - narrower source section: 5.1.14 Spirit Magic List / 6th Level Spirit Magic List / [ Preserve Sound ] (Sylph/Wind Spirit)
-- [[sword-world-rpg-complete-edition-section-5-1-14-spirit-magic-list-5th-level-spirit-magic-list-control-plant-b425997a]] - previous source section: 5.1.14 Spirit Magic List / 5th Level Spirit Magic List [ Control Plant ]
+- [[sword-world-rpg-complete-edition-section-5-1-14-spirit-magic-list-6th-level-spirit-magic-list-spirit-wall-187b67f7]] - narrower source section: 5.1.14 Spirit Magic List / 6th Level Spirit Magic List / [ Spirit Wall ]
 
 ## Statements
 

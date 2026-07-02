@@ -4,10 +4,10 @@ page_kind: concept
 summary: Const: 6 statement(s) and 3 atom(s) from raw/javascriptallonge.pdf.
 page_family: topic-concept
 sources: raw/javascriptallonge.pdf
-updated: 2026-07-01
+updated: 2026-07-02
 domain: javascriptallonge
 category_path: concepts
-projection_coverage: topic-javascriptallonge-const@2792de63dc7f4446873990bf0633ec80
+projection_coverage: topic-javascriptallonge-const@26ed46e824187cdc5ac0d374e308c06d
 ---
 
 # Const
@@ -43,6 +43,7 @@ What [[javascriptallonge]] covers about const:
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00456))_
 
+<a id="atom-technical-atom-7e64dcfae49f8794"></a>
 ```
 ((diameter_fn) => {
 const PI = 3;
@@ -64,6 +65,7 @@ return (diameter) => diameter * PI
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01177))_
 
+<a id="atom-technical-atom-0912d8019a651001"></a>
 ```
 (() => {
 let age = 49;
@@ -84,6 +86,7 @@ return age;
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01179))_
 
+<a id="atom-technical-atom-5aac7ae7f45d72d6"></a>
 ```
 (() => {
 const age = 49;
@@ -99,11 +102,19 @@ return age;
 
 ## Related pages
 
+### Source structure
+
+- [[javascriptallonge-section-and-also-that-constant-coffee-craving-const-9122b281]] - source section: And also: / That Constant Coffee Craving / const shares source evidence from And also: / That Constant Coffee Craving / const: Another way to write our 'circumference' function would be to pass PI along with the diameter argument, something like this:; And also: / That Constant Coffee Craving / const shares technical record from And also: / That Constant Coffee Craving / const: (diameter, PI) => diameter * PI (11 shared statement(s), 10 shared atom(s))
+
+### Shared technical atoms
+
 - [[javascriptallonge-mixing]] - shared technical atoms: Mixing shares technical record from Reassignment / mixing let and const: (() => { let age = 49; if (true) { const age = 50; } age = 51; return age; })() //=> 51 (1 shared atom(s))
+
+### Shared claims
+
 - [[javascriptallonge-binding]] - shared statements: Binding shares source evidence from And also: / That Constant Coffee Craving / const and lexical scope: Yes. Binding values to names with const works just like binding values to names with parameter invocations, it uses lexical scope. (1 shared statement(s))
 - [[javascriptallonge-lexical-scope]] - shared statements: Lexical Scope shares source evidence from And also: / That Constant Coffee Craving / const and lexical scope: Yes. Binding values to names with const works just like binding values to names with parameter invocations, it uses lexical scope. (1 shared statement(s))
 - [[javascriptallonge-parameter]] - shared statements: Parameter shares source evidence from And also: / That Constant Coffee Craving / const and lexical scope: Yes. Binding values to names with const works just like binding values to names with parameter invocations, it uses lexical scope. (1 shared statement(s))
-- [[javascriptallonge-section-and-also-that-constant-coffee-craving-const-9122b281]] - source section: And also: / That Constant Coffee Craving / const shares source evidence from And also: / That Constant Coffee Craving / const: Another way to write our 'circumference' function would be to pass PI along with the diameter argument, something like this:; And also: / That Constant Coffee Craving / const shares technical record from And also: / That Constant Coffee Craving / const: (diameter, PI) => diameter * PI (11 shared statement(s), 10 shared atom(s))
 
 ## Source
 

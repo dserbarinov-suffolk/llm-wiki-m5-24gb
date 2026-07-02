@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-16-16-9-special-weapons-ballista-c25fa889@867d18e420f47b979922282f67bcc92a
+projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-16-16-9-special-weapons-ballista-c25fa889@6d23962216dd726e9cfd372e8299f4ea
 ---
 
 # Chapter 16: / 16.9 Special Weapons / Ballista
@@ -17,9 +17,14 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-chapter-16-16-9-special-weapons-8824e2ed]] - broader source section: Chapter 16: / 16.9 Special Weapons
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-chapter-16-16-9-special-weapons-cranequin-crossbow-bef1e2b5]] - previous source section: Chapter 16: / 16.9 Special Weapons / Cranequin Crossbow
 - [[sword-world-rpg-complete-edition-section-chapter-16-16-9-special-weapons-lance-8475ba9f]] - next source section: Chapter 16: / 16.9 Special Weapons / Lance
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-chapter-16-16-9-special-weapons-8824e2ed]] - broader source section: Chapter 16: / 16.9 Special Weapons
 
 ## Statements
 

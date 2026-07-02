@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-11-notes-on-magic-11-2-dark-magic-5th-level-basic-dark-magic-list-5cfcb896@0efff8a241057819f8b40d706b23ed11
+projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-11-notes-on-magic-11-2-dark-magic-5th-level-basic-dark-magic-list-5cfcb896@ca0a26d14d25793c96102b6806160296
 ---
 
 # Chapter 11: Notes on Magic / 11.2 Dark Magic / 5th Level Basic Dark Magic List
@@ -17,10 +17,15 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-chapter-11-notes-on-magic-11-2-dark-magic-3498c004]] - broader source section: Chapter 11: Notes on Magic / 11.2 Dark Magic
-- [[sword-world-rpg-complete-edition-section-chapter-11-notes-on-magic-11-2-dark-magic-5th-level-basic-dark-magic-list-create-zombie-d8725406]] - narrower source section: Chapter 11: Notes on Magic / 11.2 Dark Magic / 5th Level Basic Dark Magic List / [ Create Zombie ]
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-chapter-11-notes-on-magic-11-2-dark-magic-4th-level-basic-dark-magic-list-control-imp-f9f143cc]] - previous source section: Chapter 11: Notes on Magic / 11.2 Dark Magic / 4th Level Basic Dark Magic List [ Control Imp ]
 - [[sword-world-rpg-complete-edition-section-chapter-11-notes-on-magic-11-2-dark-magic-curse-1d1806ab]] - next source section: Chapter 11: Notes on Magic / 11.2 Dark Magic / Curse
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-chapter-11-notes-on-magic-11-2-dark-magic-3498c004]] - broader source section: Chapter 11: Notes on Magic / 11.2 Dark Magic
+- [[sword-world-rpg-complete-edition-section-chapter-11-notes-on-magic-11-2-dark-magic-5th-level-basic-dark-magic-list-create-zombie-d8725406]] - narrower source section: Chapter 11: Notes on Magic / 11.2 Dark Magic / 5th Level Basic Dark Magic List / [ Create Zombie ]
 
 ## Statements
 

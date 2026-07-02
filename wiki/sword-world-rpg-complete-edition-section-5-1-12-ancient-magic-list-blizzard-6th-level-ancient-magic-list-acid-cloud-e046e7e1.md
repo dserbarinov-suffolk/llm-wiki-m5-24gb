@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-5-1-12-ancient-magic-list-blizzard-6th-level-ancient-magic-list-acid-cloud-e046e7e1@cced1398b2be63e89050dbde409ff1d3
+projection_coverage: section-sword-world-rpg-complete-edition-section-5-1-12-ancient-magic-list-blizzard-6th-level-ancient-magic-list-acid-cloud-e046e7e1@8ca72c57a7e53068c47cc9eafceeccce
 ---
 
 # 5.1.12 Ancient Magic List / Blizzard ] / 6th Level Ancient Magic List [ Acid Cloud ]
@@ -16,6 +16,8 @@ projection_coverage: section-sword-world-rpg-complete-edition-section-5-1-12-anc
 From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
+
+### Source structure
 
 - [[sword-world-rpg-complete-edition-section-5-1-12-ancient-magic-list-blizzard-e8c00109]] - broader source section: 5.1.12 Ancient Magic List / Blizzard ]
 

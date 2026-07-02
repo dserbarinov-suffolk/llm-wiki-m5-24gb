@@ -4,11 +4,11 @@ page_kind: source
 summary: And also: / call by sharing: 15 source-backed entries and 0 atom(s) from raw/javascriptallonge.pdf.
 page_family: section-reference
 sources: raw/javascriptallonge.pdf
-updated: 2026-07-01
+updated: 2026-07-02
 domain: javascriptallonge
 category_path: sources/javascriptallonge/sections
 source_id: javascriptallonge.pdf
-projection_coverage: section-javascriptallonge-section-and-also-call-by-sharing-db439a98@e8362091fa2d028b47d4c85b07a49b68
+projection_coverage: section-javascriptallonge-section-and-also-call-by-sharing-db439a98@d33b1b228a7ac2fa92938c0da642c7fa
 ---
 
 # And also: / call by sharing
@@ -17,9 +17,14 @@ From [[javascriptallonge]].
 
 ## Related pages
 
-- [[javascriptallonge-section-and-also-0e29dfba]] - broader source section: And also:
+### Source order
+
 - [[javascriptallonge-section-and-also-variables-and-bindings-baf19230]] - previous source section: And also: / variables and bindings
 - [[javascriptallonge-section-and-also-closures-and-scope-ff45d11c]] - next source section: And also: / Closures and Scope
+
+### Source structure
+
+- [[javascriptallonge-section-and-also-0e29dfba]] - broader source section: And also:
 
 ## Statements
 

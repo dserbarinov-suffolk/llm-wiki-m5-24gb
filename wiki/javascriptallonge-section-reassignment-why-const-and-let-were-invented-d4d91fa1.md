@@ -4,11 +4,11 @@ page_kind: source
 summary: Reassignment / why const and let were invented: 11 source-backed entries and 0 atom(s) from raw/javascriptallonge.pdf.
 page_family: section-reference
 sources: raw/javascriptallonge.pdf
-updated: 2026-07-01
+updated: 2026-07-02
 domain: javascriptallonge
 category_path: sources/javascriptallonge/sections
 source_id: javascriptallonge.pdf
-projection_coverage: section-javascriptallonge-section-reassignment-why-const-and-let-were-invented-d4d91fa1@ac98a987db6b0d5c4125edf2e73b2328
+projection_coverage: section-javascriptallonge-section-reassignment-why-const-and-let-were-invented-d4d91fa1@217aa21cf8782de8bb94fbf02d9cb36d
 ---
 
 # Reassignment / why const and let were invented
@@ -17,8 +17,13 @@ From [[javascriptallonge]].
 
 ## Related pages
 
-- [[javascriptallonge-section-reassignment-ecc49acb]] - broader source section: Reassignment
+### Source order
+
 - [[javascriptallonge-section-reassignment-mixing-let-and-const-c05d240a]] - previous source section: Reassignment / mixing let and const
+
+### Source structure
+
+- [[javascriptallonge-section-reassignment-ecc49acb]] - broader source section: Reassignment
 
 ## Statements
 

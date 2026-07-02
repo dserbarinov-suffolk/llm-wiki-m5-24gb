@@ -4,11 +4,11 @@ page_kind: source
 summary: Mutation / mutation and data structures: 13 source-backed entries and 2 atom(s) from raw/javascriptallonge.pdf.
 page_family: section-reference
 sources: raw/javascriptallonge.pdf
-updated: 2026-07-01
+updated: 2026-07-02
 domain: javascriptallonge
 category_path: sources/javascriptallonge/sections
 source_id: javascriptallonge.pdf
-projection_coverage: section-javascriptallonge-section-mutation-mutation-and-data-structures-a8d1f947@0e71a6a4527ca17ed01be9f7ff9f58c9
+projection_coverage: section-javascriptallonge-section-mutation-mutation-and-data-structures-a8d1f947@2a38cccf110169a2b0acdc1d52eb1a5e
 ---
 
 # Mutation / mutation and data structures
@@ -17,8 +17,13 @@ From [[javascriptallonge]].
 
 ## Related pages
 
-- [[javascriptallonge-section-mutation-93ded492]] - broader source section: Mutation
+### Source order
+
 - [[javascriptallonge-section-mutation-building-with-mutation-04e59f50]] - next source section: Mutation / building with mutation
+
+### Source structure
+
+- [[javascriptallonge-section-mutation-93ded492]] - broader source section: Mutation
 
 ## Statements
 
@@ -37,6 +42,7 @@ From [[javascriptallonge]].
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01139))_
 
+<a id="atom-technical-atom-cf798538dc642609"></a>
 > But after returning the new list, we then become conservative about mutation. This also makes sense: Linked lists often use structure sharing. For example:
 
 ### Technical frame 2: Mutation / mutation and data structures
@@ -47,6 +53,7 @@ From [[javascriptallonge]].
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01141))_
 
+<a id="atom-technical-atom-862c392e49bf3354"></a>
 ```
 const EMPTY = {};
 const OneToFive = { first: 1,

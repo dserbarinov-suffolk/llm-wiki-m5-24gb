@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-5-1-5-consuming-mental-power-8bf319fe@f53282a44880d820b688cdd122a57a7c
+projection_coverage: section-sword-world-rpg-complete-edition-section-5-1-5-consuming-mental-power-8bf319fe@c6c33a967e6679e5735449e2e21a6ab5
 ---
 
 # 5.1.5 Consuming Mental Power
@@ -16,6 +16,8 @@ projection_coverage: section-sword-world-rpg-complete-edition-section-5-1-5-cons
 From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
+
+### Source order
 
 - [[sword-world-rpg-complete-edition-section-4-10-excellent-weapons-and-armor-1d473647]] - previous source section: 4.10 Excellent Weapons and Armor
 
@@ -39,6 +41,7 @@ From [[sword-world-rpg-complete-edition]].
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-01666))_
 
+<a id="atom-technical-atom-a6f3166c4792489d"></a>
 > If a character's mental power reaches 0 , they will lose consciousness .
 
 ### Technical frame 2: 5.1.5 Consuming Mental Power
@@ -49,4 +52,5 @@ From [[sword-world-rpg-complete-edition]].
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-01667))_
 
+<a id="atom-technical-atom-a773a45f19ff0996"></a>
 > Even if magic fails , such as by rolling double ones or being resisted by the opponent, a character must still consume their mental power, same as if they had actually used the magic.

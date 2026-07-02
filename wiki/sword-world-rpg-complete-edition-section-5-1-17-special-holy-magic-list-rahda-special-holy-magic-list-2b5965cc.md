@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-5-1-17-special-holy-magic-list-rahda-special-holy-magic-list-2b5965cc@ecb8da6a49a23a4b6e83a3bef0c25e61
+projection_coverage: section-sword-world-rpg-complete-edition-section-5-1-17-special-holy-magic-list-rahda-special-holy-magic-list-2b5965cc@a17b6454d576fed3d846a79e4d929417
 ---
 
 # 5.1.17 Special Holy Magic List / Rahda Special Holy Magic List
@@ -17,12 +17,17 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-5-1-17-special-holy-magic-list-f9b52bf1]] - broader source section: 5.1.17 Special Holy Magic List
-- [[sword-world-rpg-complete-edition-section-5-1-17-special-holy-magic-list-rahda-special-holy-magic-list-inspiration-spell-level-3-eeeda2a0]] - narrower source section: 5.1.17 Special Holy Magic List / Rahda Special Holy Magic List / [ Inspiration ] (Spell Level=3)
-- [[sword-world-rpg-complete-edition-section-5-1-17-special-holy-magic-list-rahda-special-holy-magic-list-weak-point-spell-level-3-6c1dac85]] - narrower source section: 5.1.17 Special Holy Magic List / Rahda Special Holy Magic List / [ Weak Point ] (Spell Level=3)
-- [[sword-world-rpg-complete-edition-section-5-1-17-special-holy-magic-list-rahda-special-holy-magic-list-legend-spell-level-7-0024b692]] - narrower source section: 5.1.17 Special Holy Magic List / Rahda Special Holy Magic List / [ Legend ] (Spell Level=7)
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-5-1-17-special-holy-magic-list-divine-weapon-spell-level-7-463b088f]] - previous source section: 5.1.17 Special Holy Magic List / [ Divine Weapon ] (Spell Level=7)
 - [[sword-world-rpg-complete-edition-section-5-1-17-special-holy-magic-list-cha-za-special-holy-magic-list-luck-69091557]] - next source section: 5.1.17 Special Holy Magic List / Cha Za Special Holy Magic List [ Luck ]
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-5-1-17-special-holy-magic-list-f9b52bf1]] - broader source section: 5.1.17 Special Holy Magic List
+- [[sword-world-rpg-complete-edition-section-5-1-17-special-holy-magic-list-rahda-special-holy-magic-list-inspiration-spell-level-3-eeeda2a0]] - narrower source section: 5.1.17 Special Holy Magic List / Rahda Special Holy Magic List / [ Inspiration ] (Spell Level=3)
+- [[sword-world-rpg-complete-edition-section-5-1-17-special-holy-magic-list-rahda-special-holy-magic-list-legend-spell-level-7-0024b692]] - narrower source section: 5.1.17 Special Holy Magic List / Rahda Special Holy Magic List / [ Legend ] (Spell Level=7)
+- [[sword-world-rpg-complete-edition-section-5-1-17-special-holy-magic-list-rahda-special-holy-magic-list-weak-point-spell-level-3-6c1dac85]] - narrower source section: 5.1.17 Special Holy Magic List / Rahda Special Holy Magic List / [ Weak Point ] (Spell Level=3)
 
 ## Statements by subsection
 

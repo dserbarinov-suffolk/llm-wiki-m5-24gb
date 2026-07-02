@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-spellsongs-filling-out-the-character-sheet-resistance-77e70b20@a369894ac21707adc708b980491524c6
+projection_coverage: section-sword-world-rpg-complete-edition-section-spellsongs-filling-out-the-character-sheet-resistance-77e70b20@cdad74204d5f8b3aea4e95f80636256a
 ---
 
 # Spellsongs / Filling out the Character Sheet / Resistance
@@ -17,9 +17,17 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-spellsongs-filling-out-the-character-sheet-866f5da1]] - broader source section: Spellsongs / Filling out the Character Sheet
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-spellsongs-filling-out-the-character-sheet-requiem-14d6191f]] - previous source section: Spellsongs / Filling out the Character Sheet / Requiem
 - [[sword-world-rpg-complete-edition-section-spellsongs-filling-out-the-character-sheet-vibrato-fc9dc6bd]] - next source section: Spellsongs / Filling out the Character Sheet / Vibrato
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-spellsongs-filling-out-the-character-sheet-866f5da1]] - broader source section: Spellsongs / Filling out the Character Sheet
+
+### Topics
+
 - [[sword-world-rpg-complete-edition-resistance]] - topic hub: opens the topic page for Resistance
 
 ## Statements

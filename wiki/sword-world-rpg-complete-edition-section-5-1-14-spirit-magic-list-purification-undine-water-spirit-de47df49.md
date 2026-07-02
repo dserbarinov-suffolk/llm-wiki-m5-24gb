@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-5-1-14-spirit-magic-list-purification-undine-water-spirit-de47df49@aaf6531dd35ae61aaf0d0c7878aba1ff
+projection_coverage: section-sword-world-rpg-complete-edition-section-5-1-14-spirit-magic-list-purification-undine-water-spirit-de47df49@9248eb0c31614739bddc976bdcc718d3
 ---
 
 # 5.1.14 Spirit Magic List / [ Purification ] (Undine/Water Spirit)
@@ -17,9 +17,14 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-5-1-14-spirit-magic-list-1f53ed62]] - broader source section: 5.1.14 Spirit Magic List
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-5-1-14-spirit-magic-list-destruction-5d4331e9]] - previous source section: 5.1.14 Spirit Magic List / [ Destruction ]
 - [[sword-world-rpg-complete-edition-section-5-1-14-spirit-magic-list-firebolt-salamander-fire-spirit-9ac410fc]] - next source section: 5.1.14 Spirit Magic List / [ Firebolt ] (Salamander/Fire Spirit)
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-5-1-14-spirit-magic-list-1f53ed62]] - broader source section: 5.1.14 Spirit Magic List
 
 ## Statements
 

@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-13-2-3-youma-will-o-wisp-694a777b@f150c6f61317ef0899c5fb87f4ef56d6
+projection_coverage: section-sword-world-rpg-complete-edition-section-13-2-3-youma-will-o-wisp-694a777b@56046f3fd564db3bdacfb1bc134d998d
 ---
 
 # 13.2.3 Youma / [ Will-O-Wisp ]
@@ -17,10 +17,15 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-13-2-3-youma-05ea9fd0]] - broader source section: 13.2.3 Youma
-- [[sword-world-rpg-complete-edition-section-13-2-3-youma-will-o-wisp-13-2-4-spirits-e7e122f6]] - narrower source section: 13.2.3 Youma / [ Will-O-Wisp ] / 13.2.4 Spirits
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-13-2-3-youma-dark-elf-42e5064f]] - previous source section: 13.2.3 Youma / [ Dark Elf ]
 - [[sword-world-rpg-complete-edition-section-13-2-3-youma-shade-ff941acb]] - next source section: 13.2.3 Youma / [ Shade ]
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-13-2-3-youma-05ea9fd0]] - broader source section: 13.2.3 Youma
+- [[sword-world-rpg-complete-edition-section-13-2-3-youma-will-o-wisp-13-2-4-spirits-e7e122f6]] - narrower source section: 13.2.3 Youma / [ Will-O-Wisp ] / 13.2.4 Spirits
 
 ## Statements
 

@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-damage-ff07e120@7e2e5f46dadc18636c9c1f7600ea5854
+projection_coverage: section-sword-world-rpg-complete-edition-section-damage-ff07e120@e2b96ec196882a8f0a3964796f2c5043
 ---
 
 # 《 Damage 》
@@ -17,7 +17,12 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-effect-contraction-6b63d8f6]] - previous source section: 《 Effect Contraction 》
+
+### Topics
+
 - [[sword-world-rpg-complete-edition-damage]] - topic hub: opens the topic page for Damage
 
 ## Statements
@@ -38,6 +43,7 @@ From [[sword-world-rpg-complete-edition]].
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-01746))_
 
+<a id="atom-technical-atom-d49d6a0c014e6e72"></a>
 > If you roll 10 or greater during the strike roll, a critical will occur and deal even more damage, same as in weapon combat.
 
 ### Technical frame 2: 《 Damage 》
@@ -48,6 +54,7 @@ From [[sword-world-rpg-complete-edition]].
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-01747))_
 
+<a id="atom-technical-atom-5eb9f8a22278000e"></a>
 > Most magic of the damage type can still deal damage even if it's resisted by the target, only with a reduced effect.
 
 ### Technical frame 3: 《 Damage 》
@@ -58,6 +65,7 @@ From [[sword-world-rpg-complete-edition]].
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-01748))_
 
+<a id="atom-technical-atom-0dd5d1b4ba1ea1c7"></a>
 > In this case, no matter how much magic power your character (monster) has, they cannot deal damage to the target at all.
 
 ### Technical frame 4: 《 Damage 》
@@ -68,4 +76,5 @@ From [[sword-world-rpg-complete-edition]].
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-01749))_
 
+<a id="atom-technical-atom-7ad54e0b1f154ec1"></a>
 > Also, even magic of the damage type may in rare cases take no effect if resisted.

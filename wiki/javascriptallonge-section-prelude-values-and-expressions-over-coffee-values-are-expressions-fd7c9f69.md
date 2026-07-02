@@ -4,11 +4,11 @@ page_kind: source
 summary: Prelude: Values and Expressions over Coffee / values are expressions: 49 source-backed entries and 7 atom(s) from raw/javascriptallonge.pdf.
 page_family: section-reference
 sources: raw/javascriptallonge.pdf
-updated: 2026-07-01
+updated: 2026-07-02
 domain: javascriptallonge
 category_path: sources/javascriptallonge/sections
 source_id: javascriptallonge.pdf
-projection_coverage: section-javascriptallonge-section-prelude-values-and-expressions-over-coffee-values-are-expressions-fd7c9f69@12577e01880d55bd4aca2d6249e2ac4d
+projection_coverage: section-javascriptallonge-section-prelude-values-and-expressions-over-coffee-values-are-expressions-fd7c9f69@e4cbb0b4e2b22b8adf18614161511825
 ---
 
 # Prelude: Values and Expressions over Coffee / values are expressions
@@ -17,9 +17,11 @@ From [[javascriptallonge]].
 
 ## Related pages
 
+### Source structure
+
 - [[javascriptallonge-section-prelude-values-and-expressions-over-coffee-beffef42]] - broader source section: Prelude: Values and Expressions over Coffee
-- [[javascriptallonge-section-prelude-values-and-expressions-over-coffee-values-are-expressions-value-types-eb75a9e8]] - narrower source section: Prelude: Values and Expressions over Coffee / values are expressions / value types
 - [[javascriptallonge-section-prelude-values-and-expressions-over-coffee-values-are-expressions-reference-types-aa5fccf9]] - narrower source section: Prelude: Values and Expressions over Coffee / values are expressions / reference types
+- [[javascriptallonge-section-prelude-values-and-expressions-over-coffee-values-are-expressions-value-types-eb75a9e8]] - narrower source section: Prelude: Values and Expressions over Coffee / values are expressions / value types
 
 ## Statements
 
@@ -60,6 +62,7 @@ From [[javascriptallonge]].
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00108))_
 
+<a id="atom-technical-atom-1f8b62d44e312d4f"></a>
 ```
 42
 //=> 42
@@ -73,6 +76,7 @@ From [[javascriptallonge]].
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00111))_
 
+<a id="atom-technical-atom-4d47451f3e2595d1"></a>
 > And if we hand over the espresso, we get the espresso right back.
 
 ### Technical frame 3: Prelude: Values and Expressions over Coffee / values are expressions
@@ -83,6 +87,7 @@ From [[javascriptallonge]].
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00114))_
 
+<a id="atom-technical-atom-a3ddd2e6a907036d"></a>
 ```text
 10 Technically, it's a representation of a value using Base10 notation, but we needn't worry about that in this book. You and I both understand that this means '42,' and so does the computer.
 11 In some languages, expressions are a kind of value unto themselves and can be manipulated. The grandfather of such languages is Lisp. JavaScript is not such a language, expressions in and of themselves are not values.
@@ -106,6 +111,7 @@ From [[javascriptallonge]].
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00116))_
 
+<a id="atom-technical-atom-bd6b2150c17dfd44"></a>
 ```text
 2 In JavaScript, we test whether two values are identical with the operator, and whether they are === not identical with the operator: !== 2 === 2 //=> true 'hello' !== 'goodbye' //=> true How does work, exactly? Imagine that you’re shown a cup of coffee. And then you’re shown === another cup of coffee. Are the two cups “identical?” In JavaScript, there are four possibilities: First, sometimes, the cups are of different kinds. One is a demitasse, the other a mug. This corresponds to comparing two things in JavaScript that have different types. For example, the string "2" is not the same thing as the number 2. Strings and numbers are different types, so strings and numbers are never identical:
 2 === '2' //=> false true !== 'true' //=> true Second, sometimes, the cups are of the same type–perhaps two espresso cups–but they have different contents. One holds a single, one a double. This corresponds to comparing two JavaScript values that have the same type but different “content.” For example, the number 5 is not the same thing as the number 2. true === false //=> false
@@ -132,6 +138,7 @@ From [[javascriptallonge]].
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00127))_
 
+<a id="atom-technical-atom-507da98d1e62801a"></a>
 ```
 2 + 2 === 4
 //=> true
@@ -147,6 +154,7 @@ From [[javascriptallonge]].
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00129))_
 
+<a id="atom-technical-atom-41f1205dee552ceb"></a>
 > So even if you have two cups of the same type, and their contents are the same, you can still distinguish between them.
 
 ### Technical frame 7: Prelude: Values and Expressions over Coffee / values are expressions / value types
@@ -157,4 +165,5 @@ From [[javascriptallonge]].
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00130))_
 
+<a id="atom-technical-atom-f71fb4eaae2f8e5d"></a>
 > [Figure] (p.22)

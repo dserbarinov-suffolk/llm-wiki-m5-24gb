@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-3-3-2-action-order-0a8e2138@1cc0a0f8bda5a44afc4f6412fd419eee
+projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-3-3-2-action-order-0a8e2138@3b6c10bd0247b9b64c117be6236bcc65
 ---
 
 # Chapter 3: / 3.2 Action Order
@@ -17,9 +17,14 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-chapter-3-b1c23679]] - broader source section: Chapter 3:
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-chapter-3-action-announcements-7eca0973]] - previous source section: Chapter 3: / Action Announcements
 - [[sword-world-rpg-complete-edition-section-chapter-3-3-3-action-canceling-9085aed0]] - next source section: Chapter 3: / 3.3 Action Canceling
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-chapter-3-b1c23679]] - broader source section: Chapter 3:
 
 ## Statements
 
@@ -47,4 +52,5 @@ From [[sword-world-rpg-complete-edition]].
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-01088))_
 
+<a id="atom-technical-atom-df7746b429a5e145"></a>
 > Suppose that Ducard II has an agility of 13, which is equal to that of a goblin (let's call him IIDash from now on, since he is a bit faster). In this case, both attacks are considered to be carried out simultaneously. During the course of the game, each attack check is made in the order of goblin → IIDash (or vice versa). Otherwise, it would be difficult to progress the game.

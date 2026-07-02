@@ -4,11 +4,11 @@ page_kind: source
 summary: Recipes with Data / mapWith: 17 source-backed entries and 4 atom(s) from raw/javascriptallonge.pdf.
 page_family: section-reference
 sources: raw/javascriptallonge.pdf
-updated: 2026-07-01
+updated: 2026-07-02
 domain: javascriptallonge
 category_path: sources/javascriptallonge/sections
 source_id: javascriptallonge.pdf
-projection_coverage: section-javascriptallonge-section-recipes-with-data-mapwith-2ccc7b36@fa588b9448ea982e195b67976d96882a
+projection_coverage: section-javascriptallonge-section-recipes-with-data-mapwith-2ccc7b36@fd62bf82686431408aa4a49f55910bf2
 ---
 
 # Recipes with Data / mapWith
@@ -17,9 +17,14 @@ From [[javascriptallonge]].
 
 ## Related pages
 
-- [[javascriptallonge-section-recipes-with-data-57848af5]] - broader source section: Recipes with Data
+### Source order
+
 - [[javascriptallonge-section-recipes-with-data-disclaimer-3cee3bd7]] - previous source section: Recipes with Data / Disclaimer
 - [[javascriptallonge-section-recipes-with-data-flip-9096a873]] - next source section: Recipes with Data / Flip
+
+### Source structure
+
+- [[javascriptallonge-section-recipes-with-data-57848af5]] - broader source section: Recipes with Data
 
 ## Statements
 
@@ -41,6 +46,7 @@ From [[javascriptallonge]].
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01430))_
 
+<a id="atom-technical-atom-fdea92d8ed84629a"></a>
 ```
 const mapWith = (fn) => (list) => list.map(fn);
 ```
@@ -53,6 +59,7 @@ const mapWith = (fn) => (list) => list.map(fn);
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01433))_
 
+<a id="atom-technical-atom-659a882a54401842"></a>
 ```
 const squaresOf = (list) =>
 list.map(x => x * x);
@@ -68,6 +75,7 @@ squaresOf([1, 2, 3, 4, 5])
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01436))_
 
+<a id="atom-technical-atom-7a99ee96403f7c1d"></a>
 ```
 const squaresOf = mapWith(n => n * n);
 squaresOf([1, 2, 3, 4, 5])
@@ -82,6 +90,7 @@ squaresOf([1, 2, 3, 4, 5])
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01438))_
 
+<a id="atom-technical-atom-7bdf231001c8652e"></a>
 ```
 const squaresOf = callRight(map, (n => n * n);
 squaresOf([1, 2, 3, 4, 5])

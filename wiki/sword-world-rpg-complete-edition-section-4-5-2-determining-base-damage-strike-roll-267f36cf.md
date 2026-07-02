@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-4-5-2-determining-base-damage-strike-roll-267f36cf@7ed191ca2533e374c8fddaa91e080751
+projection_coverage: section-sword-world-rpg-complete-edition-section-4-5-2-determining-base-damage-strike-roll-267f36cf@6987189b3549976fc2d4f9d780a733a2
 ---
 
 # 4.5.2 Determining Base Damage (Strike Roll)
@@ -17,10 +17,15 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-4-5-2-determining-base-damage-strike-roll-0-damage-e4fd9431]] - narrower source section: 4.5.2 Determining Base Damage (Strike Roll) / 【 0 Damage! 】
-- [[sword-world-rpg-complete-edition-section-4-5-2-determining-base-damage-strike-roll-criticals-0fbd66c4]] - narrower source section: 4.5.2 Determining Base Damage (Strike Roll) / 【 Criticals
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-chapter-3-b1c23679]] - previous source section: Chapter 3:
 - [[sword-world-rpg-complete-edition-section-4-5-3-bonus-damage-7c2fc601]] - next source section: 4.5.3 Bonus Damage
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-4-5-2-determining-base-damage-strike-roll-0-damage-e4fd9431]] - narrower source section: 4.5.2 Determining Base Damage (Strike Roll) / 【 0 Damage! 】
+- [[sword-world-rpg-complete-edition-section-4-5-2-determining-base-damage-strike-roll-criticals-0fbd66c4]] - narrower source section: 4.5.2 Determining Base Damage (Strike Roll) / 【 Criticals
 
 ## Statements
 
@@ -61,6 +66,7 @@ From [[sword-world-rpg-complete-edition]].
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-01271))_
 
+<a id="atom-technical-atom-b8a67fd960dacca9"></a>
 > [Figure] (p.44)
 
 ### Technical frame 2: 4.5.2 Determining Base Damage (Strike Roll)
@@ -71,6 +77,7 @@ From [[sword-world-rpg-complete-edition]].
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-01272))_
 
+<a id="atom-technical-atom-121d8999065f21f4"></a>
 > Table 4-2: Rating Table, Key Number Column 14
 
 ### Technical frame 3: 4.5.2 Determining Base Damage (Strike Roll)
@@ -81,6 +88,7 @@ From [[sword-world-rpg-complete-edition]].
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-01275))_
 
+<a id="atom-technical-atom-9b3dd9aeb8d1431c"></a>
 > Now that he's hit the goblin, Ducard II must determine how much damage his strike dealt.
 
 ### Technical frame 4: 4.5.2 Determining Base Damage (Strike Roll) / 【 Criticals
@@ -91,6 +99,7 @@ From [[sword-world-rpg-complete-edition]].
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-01283))_
 
+<a id="atom-technical-atom-356139782811e111"></a>
 > When making a strike roll, if your 2D roll is equal to or greater than the critical target (usually 10 , 9 if using the thief skill), the strike is critical .
 
 ### Technical frame 5: 4.5.2 Determining Base Damage (Strike Roll) / 【 Criticals
@@ -101,6 +110,7 @@ From [[sword-world-rpg-complete-edition]].
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-01285))_
 
+<a id="atom-technical-atom-3778944b6ebe4895"></a>
 > If the second 2D roll is also greater than or equal to the critical target, you can make a third roll to add even more damage.
 
 ### Technical frame 6: 4.5.2 Determining Base Damage (Strike Roll) / 【 Criticals
@@ -111,4 +121,5 @@ From [[sword-world-rpg-complete-edition]].
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-01290))_
 
+<a id="atom-technical-atom-d24d95d1e49ee502"></a>
 > If the third roll were a 2 (double ones), the base damage would instead be 6+8+0= 14 .

@@ -4,11 +4,11 @@ page_kind: source
 summary: A Pull of the Lever: Prefaces / What JavaScript Allongé is. And isn't.: 28 source-backed entries and 0 atom(s) from raw/javascriptallonge.pdf.
 page_family: section-reference
 sources: raw/javascriptallonge.pdf
-updated: 2026-07-01
+updated: 2026-07-02
 domain: javascriptallonge
 category_path: sources/javascriptallonge/sections
 source_id: javascriptallonge.pdf
-projection_coverage: section-javascriptallonge-section-a-pull-of-the-lever-prefaces-what-javascript-allong-is-and-isn-t-8c44526e@c1aa73879fc51d6b5ffdbc7cce98de3c
+projection_coverage: section-javascriptallonge-section-a-pull-of-the-lever-prefaces-what-javascript-allong-is-and-isn-t-8c44526e@d3df12aa529ff251052e0d4328d1086f
 ---
 
 # A Pull of the Lever: Prefaces / What JavaScript Allongé is. And isn't.
@@ -17,10 +17,18 @@ From [[javascriptallonge]].
 
 ## Related pages
 
-- [[javascriptallonge-section-a-pull-of-the-lever-prefaces-b60951a1]] - broader source section: A Pull of the Lever: Prefaces
-- [[javascriptallonge-section-a-pull-of-the-lever-prefaces-what-javascript-allong-is-and-isn-t-how-this-book-is-organized-c2f3a612]] - narrower source section: A Pull of the Lever: Prefaces / What JavaScript Allongé is. And isn't. / how this book is organized
+### Source order
+
 - [[javascriptallonge-section-a-pull-of-the-lever-prefaces-about-javascript-allong-b566e707]] - previous source section: A Pull of the Lever: Prefaces / About JavaScript Allongé
 - [[javascriptallonge-section-a-pull-of-the-lever-prefaces-foreword-to-the-six-edition-f25d9972]] - next source section: A Pull of the Lever: Prefaces / Foreword to the 'Six' edition
+
+### Source structure
+
+- [[javascriptallonge-section-a-pull-of-the-lever-prefaces-b60951a1]] - broader source section: A Pull of the Lever: Prefaces
+- [[javascriptallonge-section-a-pull-of-the-lever-prefaces-what-javascript-allong-is-and-isn-t-how-this-book-is-organized-c2f3a612]] - narrower source section: A Pull of the Lever: Prefaces / What JavaScript Allongé is. And isn't. / how this book is organized
+
+### Topics
+
 - [[javascriptallonge-javascript-allong]] - topic hub: opens the topic page for Javascript Allong
 
 ## Statements

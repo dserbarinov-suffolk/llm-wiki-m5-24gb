@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-5-1-12-ancient-magic-list-sense-magic-08b5df38@f2c20b2e76adce95e3f996c2fe3ba223
+projection_coverage: section-sword-world-rpg-complete-edition-section-5-1-12-ancient-magic-list-sense-magic-08b5df38@8d1b5cdcd46df3473f321db289018c29
 ---
 
 # 5.1.12 Ancient Magic List / [ Sense Magic ]
@@ -17,9 +17,17 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-5-1-12-ancient-magic-list-2e59bfee]] - broader source section: 5.1.12 Ancient Magic List
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-5-1-12-ancient-magic-list-sleep-cloud-a914e884]] - previous source section: 5.1.12 Ancient Magic List / [ Sleep Cloud ]
 - [[sword-world-rpg-complete-edition-section-5-1-12-ancient-magic-list-darkness-342ac1c0]] - next source section: 5.1.12 Ancient Magic List / [ Darkness ]
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-5-1-12-ancient-magic-list-2e59bfee]] - broader source section: 5.1.12 Ancient Magic List
+
+### Topics
+
 - [[sword-world-rpg-complete-edition-magic]] - topic hub: opens the topic page for Magic
 
 ## Statements

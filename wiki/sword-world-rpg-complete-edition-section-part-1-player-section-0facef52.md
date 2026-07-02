@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-part-1-player-section-0facef52@0c875c3303347e1505b8fba9be8ef29e
+projection_coverage: section-sword-world-rpg-complete-edition-section-part-1-player-section-0facef52@2cf98709ead36e72f2e4bd4336e4ce08
 ---
 
 # Part 1 Player Section
@@ -16,6 +16,8 @@ projection_coverage: section-sword-world-rpg-complete-edition-section-part-1-pla
 From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
+
+### Source order
 
 - [[sword-world-rpg-complete-edition-section-welcome-to-sword-world-6fb5cf53]] - previous source section: Welcome to Sword World!
 - [[sword-world-rpg-complete-edition-section-part-2-game-master-section-f9fa84b3]] - next source section: Part 2 Game Master Section

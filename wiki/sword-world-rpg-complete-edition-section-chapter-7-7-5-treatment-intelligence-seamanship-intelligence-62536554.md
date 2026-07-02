@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-7-7-5-treatment-intelligence-seamanship-intelligence-62536554@23236f1b601b8857615911dfbbdc22e6
+projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-7-7-5-treatment-intelligence-seamanship-intelligence-62536554@29594005799917051925aab37baa5e83
 ---
 
 # Chapter 7: / 7.5 [ ② Treatment [Intelligence]] / [ ② Seamanship [Intelligence] ]
@@ -17,9 +17,14 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-chapter-7-7-5-treatment-intelligence-27e205e5]] - broader source section: Chapter 7: / 7.5 [ ② Treatment [Intelligence]]
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-chapter-7-7-5-treatment-intelligence-large-ship-steering-intelligence-f21e0938]] - previous source section: Chapter 7: / 7.5 [ ② Treatment [Intelligence]] / [ ① Large Ship Steering [Intelligence] ]
 - [[sword-world-rpg-complete-edition-section-chapter-7-7-5-treatment-intelligence-small-ship-steering-dexterity-9411db2e]] - next source section: Chapter 7: / 7.5 [ ② Treatment [Intelligence]] / [ ③ Small Ship Steering [Dexterity] ]
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-chapter-7-7-5-treatment-intelligence-27e205e5]] - broader source section: Chapter 7: / 7.5 [ ② Treatment [Intelligence]]
 
 ## Statements
 

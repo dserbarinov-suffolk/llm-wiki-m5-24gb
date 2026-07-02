@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-13-2-3-youma-giant-398539fc@4696d442f6b4c29749a639b412fa0876
+projection_coverage: section-sword-world-rpg-complete-edition-section-13-2-3-youma-giant-398539fc@03e54c88f1c606c9b6499f668f76485d
 ---
 
 # 13.2.3 Youma / [ Giant ]
@@ -17,9 +17,14 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-13-2-3-youma-05ea9fd0]] - broader source section: 13.2.3 Youma
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-13-2-3-youma-hecatoncheir-31491c8c]] - previous source section: 13.2.3 Youma / [ Hecatoncheir ]
 - [[sword-world-rpg-complete-edition-section-13-2-3-youma-cyclops-00f0eab9]] - next source section: 13.2.3 Youma / [ Cyclops ]
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-13-2-3-youma-05ea9fd0]] - broader source section: 13.2.3 Youma
 
 ## Statements
 
@@ -48,6 +53,7 @@ From [[sword-world-rpg-complete-edition]].
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-06356))_
 
+<a id="atom-technical-atom-708d11289e253d68"></a>
 > Perception=Five senses
 
 ### Technical frame 2: 13.2.3 Youma / [ Giant ]
@@ -58,6 +64,8 @@ From [[sword-world-rpg-complete-edition]].
 
 **Atoms:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-06382, source-range-0d48087c-06383))_
 
+<a id="atom-technical-atom-f4349950014b0afb"></a>
 > Special Abilities=8th level spirit (Magic Intensity/Magic Power=17/10, spirits only)
 
+<a id="atom-technical-atom-0e3720de0f55c61e"></a>
 > Cold immunity Snow adaptation Habitat=Cold regions Languages=Giant, silent spirit Perception=Five senses (infravision)

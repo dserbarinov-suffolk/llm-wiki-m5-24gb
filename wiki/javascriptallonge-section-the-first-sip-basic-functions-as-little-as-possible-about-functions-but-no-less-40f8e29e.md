@@ -4,11 +4,11 @@ page_kind: source
 summary: The first sip: Basic Functions / As Little As Possible About Functions, But No Less: 40 source-backed entries and 2 atom(s) from raw/javascriptallonge.pdf.
 page_family: section-reference
 sources: raw/javascriptallonge.pdf
-updated: 2026-07-01
+updated: 2026-07-02
 domain: javascriptallonge
 category_path: sources/javascriptallonge/sections
 source_id: javascriptallonge.pdf
-projection_coverage: section-javascriptallonge-section-the-first-sip-basic-functions-as-little-as-possible-about-functions-but-no-less-40f8e29e@490538314b01b35490a7fd465d1e83ae
+projection_coverage: section-javascriptallonge-section-the-first-sip-basic-functions-as-little-as-possible-about-functions-but-no-less-40f8e29e@1034878ffab6b613238121f4de27e2ee
 ---
 
 # The first sip: Basic Functions / As Little As Possible About Functions, But No Less
@@ -17,11 +17,13 @@ From [[javascriptallonge]].
 
 ## Related pages
 
+### Source structure
+
 - [[javascriptallonge-section-the-first-sip-basic-functions-e66ec551]] - broader source section: The first sip: Basic Functions
-- [[javascriptallonge-section-the-first-sip-basic-functions-as-little-as-possible-about-functions-but-no-less-functions-and-id-3a5543a3]] - narrower source section: The first sip: Basic Functions / As Little As Possible About Functions, But No Less / functions and identities
 - [[javascriptallonge-section-the-first-sip-basic-functions-as-little-as-possible-about-functions-but-no-less-applying-functio-fa7923f6]] - narrower source section: The first sip: Basic Functions / As Little As Possible About Functions, But No Less / applying functions
-- [[javascriptallonge-section-the-first-sip-basic-functions-as-little-as-possible-about-functions-but-no-less-functions-that-r-5f549e47]] - narrower source section: The first sip: Basic Functions / As Little As Possible About Functions, But No Less / functions that return values and evaluate expressions
 - [[javascriptallonge-section-the-first-sip-basic-functions-as-little-as-possible-about-functions-but-no-less-commas-17f3a7f9]] - narrower source section: The first sip: Basic Functions / As Little As Possible About Functions, But No Less / commas
+- [[javascriptallonge-section-the-first-sip-basic-functions-as-little-as-possible-about-functions-but-no-less-functions-and-id-3a5543a3]] - narrower source section: The first sip: Basic Functions / As Little As Possible About Functions, But No Less / functions and identities
+- [[javascriptallonge-section-the-first-sip-basic-functions-as-little-as-possible-about-functions-but-no-less-functions-that-r-5f549e47]] - narrower source section: The first sip: Basic Functions / As Little As Possible About Functions, But No Less / functions that return values and evaluate expressions
 
 ## Statements
 
@@ -66,6 +68,7 @@ From [[javascriptallonge]].
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00171))_
 
+<a id="atom-technical-atom-48cd5041e359cb82"></a>
 ```
 () => 0
 ```
@@ -78,6 +81,7 @@ From [[javascriptallonge]].
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00194))_
 
+<a id="atom-technical-atom-23c16ebe3854932d"></a>
 ```
 (() => 1 + 1)()
 //=> 2

@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-9-9-3-general-modifiers-35fd7665@375e0d8273445de7d882de568cc3ce80
+projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-9-9-3-general-modifiers-35fd7665@143fac29ae800d2dcc3311e9f8b1ee77
 ---
 
 # Chapter 9: / 9.3 General Modifiers
@@ -17,9 +17,14 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-chapter-9-46ac5338]] - broader source section: Chapter 9:
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-chapter-9-setting-target-scores-and-difficulties-22942d33]] - previous source section: Chapter 9: / Setting Target Scores and Difficulties
 - [[sword-world-rpg-complete-edition-section-chapter-9-9-4-automatic-success-restrictions-20569786]] - next source section: Chapter 9: / 9.4 Automatic Success Restrictions
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-chapter-9-46ac5338]] - broader source section: Chapter 9:
 
 ## Statements
 
@@ -40,6 +45,7 @@ From [[sword-world-rpg-complete-edition]].
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-04655))_
 
+<a id="atom-technical-atom-9ddcc774ed615772"></a>
 | Extremely difficult situation | -4 |
 | --- | --- |
 | Tough but manageable situation | -2 |
@@ -66,4 +72,5 @@ General Modifiers
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-04658))_
 
+<a id="atom-technical-atom-ea0038fc016ac235"></a>
 > In Sword World RPG , the only guidelines for general success roll modifiers are as follows (Table 9-2: Success Roll Modifiers).

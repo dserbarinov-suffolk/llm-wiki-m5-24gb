@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-16-shield-modifiers-a0fa8bce@3e9be5fb71d4c70b6b424fb352fc2c74
+projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-16-shield-modifiers-a0fa8bce@ddee27ca319ceb0085a8931e1f7514e2
 ---
 
 # Chapter 16: / Shield Modifiers
@@ -17,9 +17,14 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-chapter-16-de7f0512]] - broader source section: Chapter 16:
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-chapter-16-anti-strangling-protection-cb00dfaf]] - previous source section: Chapter 16: / Anti-Strangling Protection
 - [[sword-world-rpg-complete-edition-section-chapter-16-projectile-bonus-damage-70ac798f]] - next source section: Chapter 16: / Projectile Bonus Damage
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-chapter-16-de7f0512]] - broader source section: Chapter 16:
 
 ## Statements
 

@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-description-zombie-maker-dose-mind-8d10a530@52dc470640664c0e291097facb1a0cae
+projection_coverage: section-sword-world-rpg-complete-edition-section-description-zombie-maker-dose-mind-8d10a530@23a7877b000a734dc4edb4c29bc65a90
 ---
 
 # 《 Description 》 / [Zombie Maker (Dose/Mind)]
@@ -17,8 +17,13 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-description-d5853f98]] - broader source section: 《 Description 》
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-description-stone-tongue-injected-fc7013ad]] - previous source section: 《 Description 》 / [Stone Tongue (Injected)]
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-description-d5853f98]] - broader source section: 《 Description 》
 
 ## Statements
 

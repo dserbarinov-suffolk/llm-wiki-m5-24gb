@@ -4,10 +4,10 @@ page_kind: concept
 summary: Iterable: 14 statement(s) and 12 atom(s) from raw/javascriptallonge.pdf.
 page_family: topic-concept
 sources: raw/javascriptallonge.pdf
-updated: 2026-07-01
+updated: 2026-07-02
 domain: javascriptallonge
 category_path: concepts
-projection_coverage: topic-javascriptallonge-iterable@55dc49939f04855a35504080c1d2d83f
+projection_coverage: topic-javascriptallonge-iterable@f6fdebb4d71cda2f86ef01ee87c926b0
 ---
 
 # Iterable
@@ -67,6 +67,7 @@ What [[javascriptallonge]] covers about iterable:
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01558))_
 
+<a id="atom-technical-atom-92c82b1d649104c2"></a>
 ```
 const EMPTY = {
 isEmpty: () => true
@@ -112,6 +113,7 @@ iterableSum(someSquares)
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01561))_
 
+<a id="atom-technical-atom-bf283260b68810d0"></a>
 ```
 ['some squares', ...someSquares]
 //=> ["some squares", 1, 4, 9, 16, 25]
@@ -125,6 +127,7 @@ iterableSum(someSquares)
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01569))_
 
+<a id="atom-technical-atom-ae70cd24c375a4e8"></a>
 ```
 const Numbers = {
 [Symbol.iterator] () {
@@ -145,6 +148,7 @@ next: () =>
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01571))_
 
+<a id="atom-technical-atom-981393a6332489cc"></a>
 ```
 ['all the numbers', ...Numbers]
 //=> infinite loop!
@@ -160,6 +164,7 @@ firstAndSecondElement(...Numbers)
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01575))_
 
+<a id="atom-technical-atom-7dce9b57088ba8b7"></a>
 ```
 const abc = ["a", "b", "c"];
 for (const i of abc) {
@@ -186,6 +191,7 @@ c
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01578))_
 
+<a id="atom-technical-atom-9804cd19e3118a86"></a>
 ```
 const RandomNumbers = {
 [Symbol.iterator]: () =>
@@ -221,6 +227,7 @@ console.log(i)
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01593))_
 
+<a id="atom-technical-atom-7b211bece25d6bb2"></a>
 ```
 const ZeroesToNines = mapWith((n) => Math.floor(10 * limit), RandomNumbers);
 for (const i of ZeroesToNines) {
@@ -246,6 +253,7 @@ console.log(i)
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01594))_
 
+<a id="atom-technical-atom-555373b40479799d"></a>
 ```
 6
 1
@@ -260,6 +268,7 @@ console.log(i)
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01595))_
 
+<a id="atom-technical-atom-26cbec94849c97df"></a>
 > mapWith can get a new iterator from RandomNumbers each time we iterate over ZeroesToNines , but if RandomNumbers doesn't behave like an ordered collection, that's not mapWith 's fault.
 
 ### Technical frame 10: Served by the Pot: Collections / Iteration and Iterables / operations on ordered collections
@@ -270,6 +279,7 @@ console.log(i)
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01603))_
 
+<a id="atom-technical-atom-1581b42a5e1872cd"></a>
 ```
 const first = (iterable) =>
 iterable[Symbol.iterator]().next().value;
@@ -291,6 +301,7 @@ return iterator;
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01608))_
 
+<a id="atom-technical-atom-796cd4abc1f1f1a2"></a>
 ```
 Array.from(UpTo1000)
 //=> [1,81,121,361,441,841,961]
@@ -304,6 +315,7 @@ Array.from(UpTo1000)
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01709))_
 
+<a id="atom-technical-atom-22b0cf12cabe801a"></a>
 ```
 const ThreeNumbers = {
 *[Symbol.iterator] () {
@@ -317,17 +329,20 @@ yield 3
 
 ## Related pages
 
+### Source structure
+
+- [[javascriptallonge-section-served-by-the-pot-collections-iteration-and-iterables-iterables-5688770e]] - source section: Served by the Pot: Collections / Iteration and Iterables / iterables shares source evidence from Served by the Pot: Collections / Iteration and Iterables / iterables: People have been writing iterators since JavaScript was first released in the late 1990s. Since there was no particular standard way to do it, people used all sorts ... [truncated]; Served by the Pot: Collections / Iteration and Iterables / iterables shares technical record from Served by the Pot: Collections / Iteration and Iterables / iterables: const Stack3 = () => ({ array: [], index: -1, push (value) { return this.array[this.index += 1] = value; }, pop () { const value = this.array[this.index]; this.array ... [truncated] (16 shared statement(s), 5 shared atom(s))
+
+### Shared technical atoms
+
+- [[javascriptallonge-iteration]] - shared technical atoms: Iteration shares technical record from Served by the Pot: Collections / Iteration and Iterables / iterables: const EMPTY = { isEmpty: () => true }; const isEmpty = (node) => node === EMPTY; const Pair1 = (first, rest = EMPTY) => ({ first, rest, isEmpty () { return false }, ... [truncated] (11 shared atom(s))
+- [[javascriptallonge-collection]] - shared technical atoms: Collection shares technical record from Served by the Pot: Collections / Iteration and Iterables / iterables out to infinity: const Numbers = { [Symbol.iterator] () { let n = 0; return { next: () => ({done: false, value: n++}) } } } (8 shared atom(s))
 - [[javascriptallonge-iterator]] - shared statements and technical atoms: Iterator shares source evidence from Served by the Pot: Collections / Iteration and Iterables / ordered collections: Whether you work with the same iterator over and over, or get a fresh iterable every time, you are always going to get fresh random numbers. Therefore, RandomNumbers ... [truncated]; Iterator shares technical record from Served by the Pot: Collections / Iteration and Iterables / iterables: const EMPTY = { isEmpty: () => true }; const isEmpty = (node) => node === EMPTY; const Pair1 = (first, rest = EMPTY) => ({ first, rest, isEmpty () { return false }, ... [truncated] (2 shared statement(s), 3 shared atom(s))
 - [[javascriptallonge-element]] - shared statements and technical atoms: Element shares source evidence from Served by the Pot: Collections / Iteration and Iterables / operations on ordered collections: For completeness, here are two more handy iterable functions. first returns the first element of an iterable (if it has one), and rest returns an iterable that itera ... [truncated]; Element shares technical record from Served by the Pot: Collections / Iteration and Iterables / iterables: ['some squares', ...someSquares] //=> ["some squares", 1, 4, 9, 16, 25] (1 shared statement(s), 3 shared atom(s))
 - [[javascriptallonge-object]] - shared statements and technical atoms: Object shares source evidence from Served by the Pot: Collections / Iteration and Iterables / iterables: The for...of loop works directly with any object that is iterable , meaning it works with any object that has a Symbol.iterator method that returns an object iterato ... [truncated]; Object shares technical record from Served by the Pot: Collections / Iteration and Iterables / iterables: const EMPTY = { isEmpty: () => true }; const isEmpty = (node) => node === EMPTY; const Pair1 = (first, rest = EMPTY) => ({ first, rest, isEmpty () { return false }, ... [truncated] (2 shared statement(s), 2 shared atom(s))
-- [[javascriptallonge-pattern]] - shared statements and technical atoms: Pattern shares source evidence from Served by the Pot: Collections / Iteration and Iterables / operations on ordered collections: This illustrates the general pattern of working with ordered collections: We make them iterables , meaning that they have a [Symbol.iterator] method, that returns an ... [truncated]; Pattern shares technical record from Served by the Pot: Collections / Generating Iterables / generators and iterables: const ThreeNumbers = { *[Symbol.iterator] () { yield 1; yield 2; yield 3 } } (1 shared statement(s), 1 shared atom(s))
-- [[javascriptallonge-return]] - shared statements and technical atoms: Return shares source evidence from Served by the Pot: Collections / Iteration and Iterables / operations on ordered collections: For completeness, here are two more handy iterable functions. first returns the first element of an iterable (if it has one), and rest returns an iterable that itera ... [truncated]; Return shares technical record from Served by the Pot: Collections / Iteration and Iterables / operations on ordered collections: const first = (iterable) => iterable[Symbol.iterator]().next().value; const rest = (iterable) => ({ [Symbol.iterator] () { const iterator = iterable[Symbol.iterator] ... [truncated] (1 shared statement(s), 1 shared atom(s))
-- [[javascriptallonge-iteration]] - shared technical atoms: Iteration shares technical record from Served by the Pot: Collections / Iteration and Iterables / iterables: const EMPTY = { isEmpty: () => true }; const isEmpty = (node) => node === EMPTY; const Pair1 = (first, rest = EMPTY) => ({ first, rest, isEmpty () { return false }, ... [truncated] (11 shared atom(s))
-- [[javascriptallonge-collection]] - shared technical atoms: Collection shares technical record from Served by the Pot: Collections / Iteration and Iterables / iterables out to infinity: const Numbers = { [Symbol.iterator] () { let n = 0; return { next: () => ({done: false, value: n++}) } } } (8 shared atom(s))
 - [[javascriptallonge-javascript]] - shared technical atoms: Javascript shares technical record from Served by the Pot: Collections / Iteration and Iterables / from: Array.from(UpTo1000) //=> [1,81,121,361,441,841,961] (2 shared atom(s))
 - [[javascriptallonge-method]] - shared technical atoms: Method shares technical record from Served by the Pot: Collections / Iteration and Iterables / iterables: const EMPTY = { isEmpty: () => true }; const isEmpty = (node) => node === EMPTY; const Pair1 = (first, rest = EMPTY) => ({ first, rest, isEmpty () { return false }, ... [truncated] (2 shared atom(s))
-- [[javascriptallonge-generator]] - shared technical atoms: Generator shares technical record from Served by the Pot: Collections / Generating Iterables / generators and iterables: const ThreeNumbers = { *[Symbol.iterator] () { yield 1; yield 2; yield 3 } } (1 shared atom(s))
-- [[javascriptallonge-section-served-by-the-pot-collections-iteration-and-iterables-iterables-5688770e]] - source section: Served by the Pot: Collections / Iteration and Iterables / iterables shares source evidence from Served by the Pot: Collections / Iteration and Iterables / iterables: People have been writing iterators since JavaScript was first released in the late 1990s. Since there was no particular standard way to do it, people used all sorts ... [truncated]; Served by the Pot: Collections / Iteration and Iterables / iterables shares technical record from Served by the Pot: Collections / Iteration and Iterables / iterables: const Stack3 = () => ({ array: [], index: -1, push (value) { return this.array[this.index += 1] = value; }, pop () { const value = this.array[this.index]; this.array ... [truncated] (16 shared statement(s), 5 shared atom(s))
+- [[javascriptallonge-pattern]] - shared statements and technical atoms: Pattern shares source evidence from Served by the Pot: Collections / Iteration and Iterables / operations on ordered collections: This illustrates the general pattern of working with ordered collections: We make them iterables , meaning that they have a [Symbol.iterator] method, that returns an ... [truncated]; Pattern shares technical record from Served by the Pot: Collections / Generating Iterables / generators and iterables: const ThreeNumbers = { *[Symbol.iterator] () { yield 1; yield 2; yield 3 } } (1 shared statement(s), 1 shared atom(s))
 
 ## Source
 

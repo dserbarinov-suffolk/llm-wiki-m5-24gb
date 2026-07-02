@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-1-4-character-creation-1-4-2-determine-ability-scores-19cf4113@763371dc7d091e99f272b1411dda2f8f
+projection_coverage: section-sword-world-rpg-complete-edition-section-1-4-character-creation-1-4-2-determine-ability-scores-19cf4113@3b95225c0ce33867682012667012709f
 ---
 
 # 1.4 Character Creation / 1.4.2 Determine Ability Scores
@@ -17,9 +17,14 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-1-4-character-creation-f6aa6108]] - broader source section: 1.4 Character Creation
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-1-4-character-creation-half-elf-0f1e4f36]] - previous source section: 1.4 Character Creation / 【 Half-Elf 】
 - [[sword-world-rpg-complete-edition-section-1-4-character-creation-1-4-3-starting-skills-and-starting-7536fe31]] - next source section: 1.4 Character Creation / 1.4.3 Starting Skills and Starting
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-1-4-character-creation-f6aa6108]] - broader source section: 1.4 Character Creation
 
 ## Statements
 
@@ -47,6 +52,7 @@ From [[sword-world-rpg-complete-edition]].
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-00309))_
 
+<a id="atom-technical-atom-908c99dc83175409"></a>
 > Table 1-3: Determining Sub-Ability Scores shows how to determine subability scores for each race.
 
 ### Technical frame 2: Table 1-3: Determining Sub-Ability Scores
@@ -57,6 +63,7 @@ From [[sword-world-rpg-complete-edition]].
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-00342))_
 
+<a id="atom-technical-atom-c652601c48969227"></a>
 ```text
 Table 1-3: Determining Sub-Ability Scores
   Dwarves excel in strength, life force,       Sub-Ability Score   Human   Dwarf  Grassrunner   Elf    Half-Elf
@@ -98,6 +105,7 @@ Table 1-3: Determining Sub-Ability Scores
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-00345))_
 
+<a id="atom-technical-atom-e9a0f6e0bd8d8ff9"></a>
 | Ability Score | Human | Grassrunner | Dwarf | Elf | Half-Elf |
 | --- | --- | --- | --- | --- | --- |
 | Dexterity | 14 | 20.5 | 15 | 19 | 17 |
@@ -132,6 +140,7 @@ Table 1-3: Determining Sub-Ability Scores
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-00346))_
 
+<a id="atom-technical-atom-cb2bbae8e27cec04"></a>
 | been | determined, | the | next | step | is | to |
 | --- | --- | --- | --- | --- | --- | --- |
 | 2D Background Starting Skills Exp. Pts. Money determine 2 Savage Fighter 1 & Ranger 1 2000 2Dx100 adventure 3 Rune Master Sorcerer & Sage 1 2000 2Dx200 represented 4 Villain Thief 1 2500 2Dx200 starting 5 Traveler Bard 1 3000 2Dx200 6 Hunter Ranger 1 3000 2Dx200 For | experience Humans | the adventurer's experience. by starting points. | and | This skills Half- | pre- and | is |

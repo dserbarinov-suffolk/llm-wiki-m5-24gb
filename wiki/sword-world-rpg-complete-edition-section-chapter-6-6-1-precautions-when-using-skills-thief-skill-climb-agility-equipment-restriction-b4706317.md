@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-6-6-1-precautions-when-using-skills-thief-skill-climb-agility-equipment-restriction-b4706317@fcbd79117f699e9cda5f38f11c045259
+projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-6-6-1-precautions-when-using-skills-thief-skill-climb-agility-equipment-restriction-b4706317@3272112c38a83be6f32898227fbee588
 ---
 
 # Chapter 6: / 6.1 Precautions When Using Skills / Thief Skill / [ ⑩ Climb [Agility] ] (Equipment restriction)
@@ -17,9 +17,14 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-chapter-6-6-1-precautions-when-using-skills-thief-skill-f1b62afe]] - broader source section: Chapter 6: / 6.1 Precautions When Using Skills / Thief Skill
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-chapter-6-6-1-precautions-when-using-skills-thief-skill-search-intelligence-no-equipment-restric-a65c04fe]] - previous source section: Chapter 6: / 6.1 Precautions When Using Skills / Thief Skill / [ ⑨ Search [Intelligence] ] (No equipment restriction, not retriable)
 - [[sword-world-rpg-complete-edition-section-chapter-6-6-1-precautions-when-using-skills-thief-skill-special-combat-dexterity-agility-strengt-cb7a8a64]] - next source section: Chapter 6: / 6.1 Precautions When Using Skills / Thief Skill / [ ⑪ Special Combat [Dexterity, Agility, Strength]] (Equipment restriction)
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-chapter-6-6-1-precautions-when-using-skills-thief-skill-f1b62afe]] - broader source section: Chapter 6: / 6.1 Precautions When Using Skills / Thief Skill
 
 ## Statements
 

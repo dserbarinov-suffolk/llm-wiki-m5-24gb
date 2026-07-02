@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-description-centauri-blood-touch-damage-40979612@07fe7b0c316a7ff1b123ad3ef86b8a43
+projection_coverage: section-sword-world-rpg-complete-edition-section-description-centauri-blood-touch-damage-40979612@5ba53e219fe072719369adce4cd5b4f8
 ---
 
 # 《 Description 》 / [Centauri Blood (Touch/Damage)]
@@ -17,10 +17,15 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-description-d5853f98]] - broader source section: 《 Description 》
-- [[sword-world-rpg-complete-edition-section-description-centauri-blood-touch-damage-sandman-s-sand-inhaled-mind-5dc73811]] - narrower source section: 《 Description 》 / [Centauri Blood (Touch/Damage)] / [Sandman's Sand (Inhaled/Mind)]
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-description-eternal-child-dose-762f37dc]] - previous source section: 《 Description 》 / [ Eternal Child (Dose) ]
 - [[sword-world-rpg-complete-edition-section-description-stone-tongue-injected-fc7013ad]] - next source section: 《 Description 》 / [Stone Tongue (Injected)]
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-description-d5853f98]] - broader source section: 《 Description 》
+- [[sword-world-rpg-complete-edition-section-description-centauri-blood-touch-damage-sandman-s-sand-inhaled-mind-5dc73811]] - narrower source section: 《 Description 》 / [Centauri Blood (Touch/Damage)] / [Sandman's Sand (Inhaled/Mind)]
 
 ## Statements
 

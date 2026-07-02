@@ -4,11 +4,11 @@ page_kind: source
 summary: A Pull of the Lever: Prefaces: 87 source-backed entries and 0 atom(s) from raw/javascriptallonge.pdf.
 page_family: section-reference
 sources: raw/javascriptallonge.pdf
-updated: 2026-07-01
+updated: 2026-07-02
 domain: javascriptallonge
 category_path: sources/javascriptallonge/sections
 source_id: javascriptallonge.pdf
-projection_coverage: section-javascriptallonge-section-a-pull-of-the-lever-prefaces-b60951a1@08314bcd71c7b3a5b6e1837a04eb0b77
+projection_coverage: section-javascriptallonge-section-a-pull-of-the-lever-prefaces-b60951a1@0f8e1f94d11cd3b9f14cfafbe8a5f36c
 ---
 
 # A Pull of the Lever: Prefaces
@@ -17,11 +17,16 @@ From [[javascriptallonge]].
 
 ## Related pages
 
-- [[javascriptallonge-section-a-pull-of-the-lever-prefaces-about-javascript-allong-b566e707]] - narrower source section: A Pull of the Lever: Prefaces / About JavaScript Allongé
-- [[javascriptallonge-section-a-pull-of-the-lever-prefaces-what-javascript-allong-is-and-isn-t-8c44526e]] - narrower source section: A Pull of the Lever: Prefaces / What JavaScript Allongé is. And isn't.
-- [[javascriptallonge-section-a-pull-of-the-lever-prefaces-foreword-to-the-six-edition-f25d9972]] - narrower source section: A Pull of the Lever: Prefaces / Foreword to the 'Six' edition
+### Source order
+
 - [[javascriptallonge-section-javascript-allong-the-six-edition-40c74589]] - previous source section: JavaScript Allongé, the 'Six' Edition
 - [[javascriptallonge-section-ecmascript-6-has-three-major-groups-of-features-631f6890]] - next source section: ECMAScript 6 has three major groups of features:
+
+### Source structure
+
+- [[javascriptallonge-section-a-pull-of-the-lever-prefaces-about-javascript-allong-b566e707]] - narrower source section: A Pull of the Lever: Prefaces / About JavaScript Allongé
+- [[javascriptallonge-section-a-pull-of-the-lever-prefaces-foreword-to-the-six-edition-f25d9972]] - narrower source section: A Pull of the Lever: Prefaces / Foreword to the 'Six' edition
+- [[javascriptallonge-section-a-pull-of-the-lever-prefaces-what-javascript-allong-is-and-isn-t-8c44526e]] - narrower source section: A Pull of the Lever: Prefaces / What JavaScript Allongé is. And isn't.
 
 ## Statements by subsection
 

@@ -4,11 +4,11 @@ page_kind: source
 summary: Lazy and Eager Collections / eager collections: 10 source-backed entries and 3 atom(s) from raw/javascriptallonge.pdf.
 page_family: section-reference
 sources: raw/javascriptallonge.pdf
-updated: 2026-07-01
+updated: 2026-07-02
 domain: javascriptallonge
 category_path: sources/javascriptallonge/sections
 source_id: javascriptallonge.pdf
-projection_coverage: section-javascriptallonge-section-lazy-and-eager-collections-eager-collections-4dcc549f@13c7308e98cb213639f76f1156012a93
+projection_coverage: section-javascriptallonge-section-lazy-and-eager-collections-eager-collections-4dcc549f@cb9c4c31c8c37fc9c30160bb3f4a37b8
 ---
 
 # Lazy and Eager Collections / eager collections
@@ -17,8 +17,16 @@ From [[javascriptallonge]].
 
 ## Related pages
 
-- [[javascriptallonge-section-lazy-and-eager-collections-60e3645a]] - broader source section: Lazy and Eager Collections
+### Source order
+
 - [[javascriptallonge-section-lazy-and-eager-collections-lazy-collection-operations-358e58c2]] - previous source section: Lazy and Eager Collections / lazy collection operations
+
+### Source structure
+
+- [[javascriptallonge-section-lazy-and-eager-collections-60e3645a]] - broader source section: Lazy and Eager Collections
+
+### Topics
+
 - [[javascriptallonge-eager-collection]] - topic hub: opens the topic page for Eager Collection
 
 ## Statements
@@ -37,6 +45,7 @@ From [[javascriptallonge]].
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01799))_
 
+<a id="atom-technical-atom-ad76bed54ae2e76c"></a>
 ```
 const extend = function (consumer, ...providers) {
 for (let i = 0; i < providers.length; ++i) {
@@ -59,6 +68,7 @@ return consumer
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01800))_
 
+<a id="atom-technical-atom-305ec57a4cbf73ac"></a>
 ```
 const EagerCollection = (gatherable) =>
 ({
@@ -106,6 +116,7 @@ until(fn) {
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01801))_
 
+<a id="atom-technical-atom-72390dcacd432825"></a>
 ```
 const original = this;
 return gatherable.from(

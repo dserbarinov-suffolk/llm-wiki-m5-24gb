@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-5-1-17-special-holy-magic-list-marfa-special-holy-magic-list-71669c74@3fd978f8ad0052a4d92e87985a6c1629
+projection_coverage: section-sword-world-rpg-complete-edition-section-5-1-17-special-holy-magic-list-marfa-special-holy-magic-list-71669c74@40ef474d18434fd9e5169b858e4bfe1b
 ---
 
 # 5.1.17 Special Holy Magic List / Marfa Special Holy Magic List
@@ -17,10 +17,15 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-5-1-17-special-holy-magic-list-f9b52bf1]] - broader source section: 5.1.17 Special Holy Magic List
-- [[sword-world-rpg-complete-edition-section-5-1-17-special-holy-magic-list-marfa-special-holy-magic-list-return-home-spell-level-6-d03a7191]] - narrower source section: 5.1.17 Special Holy Magic List / Marfa Special Holy Magic List / [ Return Home ] (Spell Level=6)
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-5-1-17-special-holy-magic-list-cha-za-special-holy-magic-list-luck-69091557]] - previous source section: 5.1.17 Special Holy Magic List / Cha Za Special Holy Magic List [ Luck ]
 - [[sword-world-rpg-complete-edition-section-5-1-17-special-holy-magic-list-braki-special-holy-magic-list-e553151f]] - next source section: 5.1.17 Special Holy Magic List / Braki Special Holy Magic List
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-5-1-17-special-holy-magic-list-f9b52bf1]] - broader source section: 5.1.17 Special Holy Magic List
+- [[sword-world-rpg-complete-edition-section-5-1-17-special-holy-magic-list-marfa-special-holy-magic-list-return-home-spell-level-6-d03a7191]] - narrower source section: 5.1.17 Special Holy Magic List / Marfa Special Holy Magic List / [ Return Home ] (Spell Level=6)
 
 ## Statements
 

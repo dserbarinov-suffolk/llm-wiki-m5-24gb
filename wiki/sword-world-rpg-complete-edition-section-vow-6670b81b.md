@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-vow-6670b81b@304b7e35f3dcd59db1e96510ee77275d
+projection_coverage: section-sword-world-rpg-complete-edition-section-vow-6670b81b@138fddda7e91e19e174dc154d7387bff
 ---
 
 # 《 Vow 》
@@ -16,6 +16,8 @@ projection_coverage: section-sword-world-rpg-complete-edition-section-vow-6670b8
 From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
+
+### Source order
 
 - [[sword-world-rpg-complete-edition-section-divination-1374c0e6]] - previous source section: 《 Divination 》
 - [[sword-world-rpg-complete-edition-section-5-1-16-basic-holy-magic-list-2faf8a2d]] - next source section: 5.1.16 Basic Holy Magic List

@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-5-1-14-spirit-magic-list-5th-level-spirit-magic-list-control-plant-shoot-arrow-sylph-wind-spirit-c42d2f75@d2ceeb655f841f8a2fb5072953d2a0bb
+projection_coverage: section-sword-world-rpg-complete-edition-section-5-1-14-spirit-magic-list-5th-level-spirit-magic-list-control-plant-shoot-arrow-sylph-wind-spirit-c42d2f75@ea7bd59c60f6ed92eba3502209564e59
 ---
 
 # 5.1.14 Spirit Magic List / 5th Level Spirit Magic List [ Control Plant ] / [ Shoot Arrow ] (Sylph/Wind Spirit)
@@ -17,8 +17,13 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-5-1-14-spirit-magic-list-5th-level-spirit-magic-list-control-plant-b425997a]] - broader source section: 5.1.14 Spirit Magic List / 5th Level Spirit Magic List [ Control Plant ]
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-5-1-14-spirit-magic-list-5th-level-spirit-magic-list-control-plant-charm-dryad-plant-spirit-c6213c94]] - next source section: 5.1.14 Spirit Magic List / 5th Level Spirit Magic List [ Control Plant ] / [ Charm ] (Dryad/Plant Spirit)
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-5-1-14-spirit-magic-list-5th-level-spirit-magic-list-control-plant-b425997a]] - broader source section: 5.1.14 Spirit Magic List / 5th Level Spirit Magic List [ Control Plant ]
 
 ## Statements
 

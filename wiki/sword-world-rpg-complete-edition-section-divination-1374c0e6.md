@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-divination-1374c0e6@aea8d293fe6ee9b66b177d153656c054
+projection_coverage: section-sword-world-rpg-complete-edition-section-divination-1374c0e6@78a10b98d009caf5b7cfa070bfb44654
 ---
 
 # 《 Divination 》
@@ -16,6 +16,8 @@ projection_coverage: section-sword-world-rpg-complete-edition-section-divination
 From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
+
+### Source order
 
 - [[sword-world-rpg-complete-edition-section-kardis-wicked-god-ec34c08d]] - previous source section: 《 Kardis (Wicked God) 》
 - [[sword-world-rpg-complete-edition-section-vow-6670b81b]] - next source section: 《 Vow 》

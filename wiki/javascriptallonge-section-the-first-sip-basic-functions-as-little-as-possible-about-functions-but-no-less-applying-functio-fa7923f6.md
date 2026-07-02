@@ -4,11 +4,11 @@ page_kind: source
 summary: The first sip: Basic Functions / As Little As Possible About Functions, But No Less / applying functions: 6 source-backed entries and 0 atom(s) from raw/javascriptallonge.pdf.
 page_family: section-reference
 sources: raw/javascriptallonge.pdf
-updated: 2026-07-01
+updated: 2026-07-02
 domain: javascriptallonge
 category_path: sources/javascriptallonge/sections
 source_id: javascriptallonge.pdf
-projection_coverage: section-javascriptallonge-section-the-first-sip-basic-functions-as-little-as-possible-about-functions-but-no-less-applying-functio-fa7923f6@b7c978bb91117f2dde286ff9c569b3b1
+projection_coverage: section-javascriptallonge-section-the-first-sip-basic-functions-as-little-as-possible-about-functions-but-no-less-applying-functio-fa7923f6@36d8f7bca410348a9236bfb9cd0d570c
 ---
 
 # The first sip: Basic Functions / As Little As Possible About Functions, But No Less / applying functions
@@ -17,9 +17,14 @@ From [[javascriptallonge]].
 
 ## Related pages
 
-- [[javascriptallonge-section-the-first-sip-basic-functions-as-little-as-possible-about-functions-but-no-less-40f8e29e]] - broader source section: The first sip: Basic Functions / As Little As Possible About Functions, But No Less
+### Source order
+
 - [[javascriptallonge-section-the-first-sip-basic-functions-as-little-as-possible-about-functions-but-no-less-functions-and-id-3a5543a3]] - previous source section: The first sip: Basic Functions / As Little As Possible About Functions, But No Less / functions and identities
 - [[javascriptallonge-section-the-first-sip-basic-functions-as-little-as-possible-about-functions-but-no-less-functions-that-r-5f549e47]] - next source section: The first sip: Basic Functions / As Little As Possible About Functions, But No Less / functions that return values and evaluate expressions
+
+### Source structure
+
+- [[javascriptallonge-section-the-first-sip-basic-functions-as-little-as-possible-about-functions-but-no-less-40f8e29e]] - broader source section: The first sip: Basic Functions / As Little As Possible About Functions, But No Less
 
 ## Statements
 

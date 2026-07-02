@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-13-2-1-humans-2369e4b2@d1ced7ffa5dd9182e26617c4e1d94bcc
+projection_coverage: section-sword-world-rpg-complete-edition-section-13-2-1-humans-2369e4b2@f20ba5b04b4b6b6011b66fce7aca204c
 ---
 
 # 13.2.1 《 Humans 》
@@ -17,34 +17,21 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-13-2-1-humans-monster-catalog-7065b437]] - narrower source section: 13.2.1 《 Humans 》 / Monster Catalog
-- [[sword-world-rpg-complete-edition-section-13-2-1-humans-monster-level-ecb5953a]] - narrower source section: 13.2.1 《 Humans 》 / 《 Monster Level 》
-- [[sword-world-rpg-complete-edition-section-13-2-1-humans-dog-54f59f23]] - narrower source section: 13.2.1 《 Humans 》 / [ Dog ]
-- [[sword-world-rpg-complete-edition-section-13-2-1-humans-other-d37533ec]] - narrower source section: 13.2.1 《 Humans 》 / 《 Other 》
-- [[sword-world-rpg-complete-edition-section-13-2-1-humans-rarity-cffc446f]] - narrower source section: 13.2.1 《 Humans 》 / 《 Rarity 》
-- [[sword-world-rpg-complete-edition-section-13-2-1-humans-agility-6019ab3f]] - narrower source section: 13.2.1 《 Humans 》 / 《 Agility 》
-- [[sword-world-rpg-complete-edition-section-13-2-1-humans-movement-speed-3a3c49a1]] - narrower source section: 13.2.1 《 Humans 》 / 《 Movement Speed 》
-- [[sword-world-rpg-complete-edition-section-13-2-1-humans-number-c093d105]] - narrower source section: 13.2.1 《 Humans 》 / 《 Number 》
-- [[sword-world-rpg-complete-edition-section-13-2-1-humans-frequency-1013763a]] - narrower source section: 13.2.1 《 Humans 》 / 《 Frequency 》
-- [[sword-world-rpg-complete-edition-section-13-2-1-humans-intellect-73dc3091]] - narrower source section: 13.2.1 《 Humans 》 / 《 Intellect 》
-- [[sword-world-rpg-complete-edition-section-13-2-1-humans-reaction-ea4ee40f]] - narrower source section: 13.2.1 《 Humans 》 / 《 Reaction 》
-- [[sword-world-rpg-complete-edition-section-13-2-1-humans-attack-points-95c786c0]] - narrower source section: 13.2.1 《 Humans 》 / 《 Attack Points 》
-- [[sword-world-rpg-complete-edition-section-13-2-1-humans-strike-points-e927c83f]] - narrower source section: 13.2.1 《 Humans 》 / 《 Strike Points
-- [[sword-world-rpg-complete-edition-section-13-2-1-humans-evasion-points-99e511e5]] - narrower source section: 13.2.1 《 Humans 》 / 《 Evasion Points 》
-- [[sword-world-rpg-complete-edition-section-13-2-1-humans-defense-points-30fa3db0]] - narrower source section: 13.2.1 《 Humans 》 / 《 Defense Points 》
-- [[sword-world-rpg-complete-edition-section-13-2-1-humans-life-points-resistance-362e5a12]] - narrower source section: 13.2.1 《 Humans 》 / 《 Life Points/Resistance 》
-- [[sword-world-rpg-complete-edition-section-13-2-1-humans-special-abilities-c54b1817]] - narrower source section: 13.2.1 《 Humans 》 / 《 Special Abilities 》
-- [[sword-world-rpg-complete-edition-section-13-2-1-humans-habitat-2fd9a32e]] - narrower source section: 13.2.1 《 Humans 》 / 《 Habitat 》
-- [[sword-world-rpg-complete-edition-section-13-2-1-humans-perception-55f8f7ca]] - narrower source section: 13.2.1 《 Humans 》 / 《 Perception 》
-- [[sword-world-rpg-complete-edition-section-13-2-1-humans-languages-0888b827]] - narrower source section: 13.2.1 《 Humans 》 / 《 Languages 》
-- [[sword-world-rpg-complete-edition-section-13-2-1-humans-pixie-a3547bb5]] - narrower source section: 13.2.1 《 Humans 》 / [ Pixie ]
-- [[sword-world-rpg-complete-edition-section-13-2-1-humans-pooka-c87a72b2]] - narrower source section: 13.2.1 《 Humans 》 / [ Pooka ]
-- [[sword-world-rpg-complete-edition-section-13-2-1-humans-featherfolk-9800b640]] - narrower source section: 13.2.1 《 Humans 》 / [ Featherfolk ]
-- [[sword-world-rpg-complete-edition-section-13-2-1-humans-merman-monster-level-2-rarity-11-agility-16-movement-speed-3-20-water-number-sever-e6b9d74e]] - narrower source section: 13.2.1 《 Humans 》 / [ Merman ] Monster Level=2 Rarity=11 Agility=16 Movement Speed=3/20 (water) Number=Several to dozens Frequency=Rare Intellect=Human Reaction=Neutral Attack Points=Weapon: 9 (2) Strike Points=5 Evasion Points=10 (3) Defense Points=4 Life Points/Resistance=14/10 (3) Mental Points/Resistance=16/10 (3) Special Abilities=Water adaptation Habitat=Seas Languages=Merman Perception=Five senses (illumination)
-- [[sword-world-rpg-complete-edition-section-13-2-1-humans-imp-7d6833df]] - narrower source section: 13.2.1 《 Humans 》 / [ Imp ]
-- [[sword-world-rpg-complete-edition-section-13-2-1-humans-kobold-c288d8ec]] - narrower source section: 13.2.1 《 Humans 》 / [ Kobold ]
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-13-1-types-of-monsters-7512eede]] - previous source section: 13.1 Types of Monsters
 - [[sword-world-rpg-complete-edition-section-13-2-3-youma-05ea9fd0]] - next source section: 13.2.3 Youma
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-13-2-1-humans-agility-6019ab3f]] - narrower source section: 13.2.1 《 Humans 》 / 《 Agility 》
+- [[sword-world-rpg-complete-edition-section-13-2-1-humans-attack-points-95c786c0]] - narrower source section: 13.2.1 《 Humans 》 / 《 Attack Points 》
+- [[sword-world-rpg-complete-edition-section-13-2-1-humans-defense-points-30fa3db0]] - narrower source section: 13.2.1 《 Humans 》 / 《 Defense Points 》
+- [[sword-world-rpg-complete-edition-section-13-2-1-humans-dog-54f59f23]] - narrower source section: 13.2.1 《 Humans 》 / [ Dog ]
+- [[sword-world-rpg-complete-edition-section-13-2-1-humans-evasion-points-99e511e5]] - narrower source section: 13.2.1 《 Humans 》 / 《 Evasion Points 》
+- [[sword-world-rpg-complete-edition-section-13-2-1-humans-featherfolk-9800b640]] - narrower source section: 13.2.1 《 Humans 》 / [ Featherfolk ]
+- [[sword-world-rpg-complete-edition-section-13-2-1-humans-frequency-1013763a]] - narrower source section: 13.2.1 《 Humans 》 / 《 Frequency 》
+- [[sword-world-rpg-complete-edition-section-13-2-1-humans-habitat-2fd9a32e]] - narrower source section: 13.2.1 《 Humans 》 / 《 Habitat 》
 
 ## Statements
 

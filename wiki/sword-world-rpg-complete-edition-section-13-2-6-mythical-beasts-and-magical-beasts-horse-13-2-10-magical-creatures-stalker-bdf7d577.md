@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-13-2-6-mythical-beasts-and-magical-beasts-horse-13-2-10-magical-creatures-stalker-bdf7d577@6cd303fec8c9ba21f24bccb99af810c6
+projection_coverage: section-sword-world-rpg-complete-edition-section-13-2-6-mythical-beasts-and-magical-beasts-horse-13-2-10-magical-creatures-stalker-bdf7d577@408fd0df4bb227730b1f26828bb895b7
 ---
 
 # 13.2.6 Mythical Beasts and Magical Beasts / [ Horse ] / 13.2.10 Magical Creatures / [ Stalker ]
@@ -17,9 +17,14 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-13-2-6-mythical-beasts-and-magical-beasts-horse-13-2-10-magical-creatures-0e88a6a0]] - broader source section: 13.2.6 Mythical Beasts and Magical Beasts / [ Horse ] / 13.2.10 Magical Creatures
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-13-2-6-mythical-beasts-and-magical-beasts-horse-13-2-10-magical-creatures-gargoyle-0a89dce7]] - previous source section: 13.2.6 Mythical Beasts and Magical Beasts / [ Horse ] / 13.2.10 Magical Creatures / [ Gargoyle ]
 - [[sword-world-rpg-complete-edition-section-13-2-6-mythical-beasts-and-magical-beasts-horse-13-2-10-magical-creatures-mutant-monster-a081a366]] - next source section: 13.2.6 Mythical Beasts and Magical Beasts / [ Horse ] / 13.2.10 Magical Creatures / [ Mutant Monster ]
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-13-2-6-mythical-beasts-and-magical-beasts-horse-13-2-10-magical-creatures-0e88a6a0]] - broader source section: 13.2.6 Mythical Beasts and Magical Beasts / [ Horse ] / 13.2.10 Magical Creatures
 
 ## Statements
 
@@ -56,6 +61,7 @@ From [[sword-world-rpg-complete-edition]].
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-08119))_
 
+<a id="atom-technical-atom-f99bce3449acb449"></a>
 > Stalkers are usually ghostly beings, who can move without being blocked by physical obstacles.
 
 ### Technical frame 2: 13.2.6 Mythical Beasts and Magical Beasts / [ Horse ] / 13.2.10 Magical Creatures / [ Stalker ]
@@ -66,6 +72,7 @@ From [[sword-world-rpg-complete-edition]].
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-08127))_
 
+<a id="atom-technical-atom-eb1eb351874a890a"></a>
 > Even if a gizmo's attack hits, it does not deal damage by itself.
 
 ### Technical frame 3: 13.2.6 Mythical Beasts and Magical Beasts / [ Horse ] / 13.2.10 Magical Creatures / [ Stalker ]
@@ -76,10 +83,13 @@ From [[sword-world-rpg-complete-edition]].
 
 **Atoms:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-08146, source-range-0d48087c-08147, source-range-0d48087c-08148))_
 
+<a id="atom-technical-atom-7580ebedef010440"></a>
 > Habitat=Ruins
 
+<a id="atom-technical-atom-ce0824e27f0f5969"></a>
 > Languages=None
 
+<a id="atom-technical-atom-0a4405da5f61ab9a"></a>
 > Perception=Pseudo, Magic while in ghostly form
 
 ### Technical frame 4: 13.2.6 Mythical Beasts and Magical Beasts / [ Horse ] / 13.2.10 Magical Creatures / [ Stalker ]
@@ -90,34 +100,49 @@ From [[sword-world-rpg-complete-edition]].
 
 **Atoms:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-08151, source-range-0d48087c-08152, source-range-0d48087c-08153, source-range-0d48087c-08154, source-range-0d48087c-08155, source-range-0d48087c-08156, source-range-0d48087c-08157, source-range-0d48087c-08158, source-range-0d48087c-08159, source-range-0d48087c-08160, source-range-0d48087c-08161, source-range-0d48087c-08162, source-range-0d48087c-08163, source-range-0d48087c-08164, source-range-0d48087c-08165))_
 
+<a id="atom-technical-atom-fd47ec0f574b80a9"></a>
 > Monster Level=5
 
+<a id="atom-technical-atom-981816e3ac9c99bc"></a>
 > Rarity=14
 
+<a id="atom-technical-atom-99a67f827117350b"></a>
 > Agility=15
 
+<a id="atom-technical-atom-18a47ec592978066"></a>
 > Movement Speed=15
 
+<a id="atom-technical-atom-990321141d0abb7f"></a>
 > Number=One, rarely multiple
 
+<a id="atom-technical-atom-515b9605cbb24fab"></a>
 > Frequency=Rare
 
+<a id="atom-technical-atom-2af2d99d2990de07"></a>
 > Intellect=Low
 
+<a id="atom-technical-atom-dd439b4ad709d5cc"></a>
 > Reaction=Adversarial
 
+<a id="atom-technical-atom-d1bc65163527b8fa"></a>
 > Attack Points=Garrote:10 (3)
 
+<a id="atom-technical-atom-249971eb411a0cab"></a>
 > Strike Points=Special
 
+<a id="atom-technical-atom-0b9f88a516b7ae3b"></a>
 > Evasion Points=13 (6) Defense Points=7
 
+<a id="atom-technical-atom-72b82aa6e874ada8"></a>
 > Life Points/Resistance=16/13 (6)
 
+<a id="atom-technical-atom-f7eb74959db1ae4c"></a>
 > Mental Points/Resistance=20/14 (7)
 
+<a id="atom-technical-atom-b4da8273ca997239"></a>
 > Special Abilities=Choke (Strike power 10, bonus damage 5)
 
+<a id="atom-technical-atom-2896706ae35098d5"></a>
 > Surprise attack (Sense target score=16) Normal attack immunity
 
 ### Technical frame 5: 13.2.6 Mythical Beasts and Magical Beasts / [ Horse ] / 13.2.10 Magical Creatures / [ Stalker ]
@@ -128,4 +153,5 @@ From [[sword-world-rpg-complete-edition]].
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-08174))_
 
+<a id="atom-technical-atom-51f4fbaa8cefa661"></a>
 > Those with the ranger skill can detect this attack using their sense danger ability if they succeed on a success roll against target score 16 using ranger skill level + intelligence bonus as the baseline score.

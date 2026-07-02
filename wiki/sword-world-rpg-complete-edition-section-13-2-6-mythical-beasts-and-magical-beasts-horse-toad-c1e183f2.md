@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-13-2-6-mythical-beasts-and-magical-beasts-horse-toad-c1e183f2@00498f87823246c06eb8ff14c0472c20
+projection_coverage: section-sword-world-rpg-complete-edition-section-13-2-6-mythical-beasts-and-magical-beasts-horse-toad-c1e183f2@a3b6bc60ecd70bc20523be61d6ac87a8
 ---
 
 # 13.2.6 Mythical Beasts and Magical Beasts / [ Horse ] / [ Toad ]
@@ -17,9 +17,14 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-13-2-6-mythical-beasts-and-magical-beasts-horse-9c294c60]] - broader source section: 13.2.6 Mythical Beasts and Magical Beasts / [ Horse ]
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-13-2-6-mythical-beasts-and-magical-beasts-horse-giant-slug-c5f80539]] - previous source section: 13.2.6 Mythical Beasts and Magical Beasts / [ Horse ] / [ Giant Slug ]
 - [[sword-world-rpg-complete-edition-section-13-2-6-mythical-beasts-and-magical-beasts-horse-ant-39885396]] - next source section: 13.2.6 Mythical Beasts and Magical Beasts / [ Horse ] / [ Ant ]
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-13-2-6-mythical-beasts-and-magical-beasts-horse-9c294c60]] - broader source section: 13.2.6 Mythical Beasts and Magical Beasts / [ Horse ]
 
 ## Statements
 
@@ -49,6 +54,7 @@ From [[sword-world-rpg-complete-edition]].
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-07102))_
 
+<a id="atom-technical-atom-4d0b5c6445d868ec"></a>
 > Anyone within 3 meters of a poison toad when it spews its venom must succeed on a life force resistance roll against target score 9.
 
 ### Technical frame 2: 13.2.6 Mythical Beasts and Magical Beasts / [ Horse ] / [ Toad ]
@@ -59,6 +65,7 @@ From [[sword-world-rpg-complete-edition]].
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-07111))_
 
+<a id="atom-technical-atom-519920087dabba47"></a>
 > penalty, and if you hit, the damage check is made as normal, and if the toad dies, you can escape.
 
 ### Technical frame 3: 13.2.6 Mythical Beasts and Magical Beasts / [ Horse ] / [ Toad ]
@@ -69,4 +76,5 @@ From [[sword-world-rpg-complete-edition]].
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-07112))_
 
+<a id="atom-technical-atom-5508a19d05a0fc84"></a>
 > In that case, if you deal more damage than the toad's remaining life points, that same damage (before it's reduced by the toad's defense points) is also dealt to the victim inside its belly at the same time.

@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-6-6-1-precautions-when-using-skills-thief-skill-listen-intelligence-equipment-restrictio-12b641f4@82ccb46c6061864f99c3fd5e1c2b70a6
+projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-6-6-1-precautions-when-using-skills-thief-skill-listen-intelligence-equipment-restrictio-12b641f4@85111865b275200d2b06b55a111b9172
 ---
 
 # Chapter 6: / 6.1 Precautions When Using Skills / Thief Skill / [ ⑤ Listen [Intelligence] ] (Equipment restriction)
@@ -17,9 +17,17 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-chapter-6-6-1-precautions-when-using-skills-thief-skill-f1b62afe]] - broader source section: Chapter 6: / 6.1 Precautions When Using Skills / Thief Skill
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-chapter-6-6-1-precautions-when-using-skills-thief-skill-acrobatics-agility-equipment-restriction-c1d479b4]] - previous source section: Chapter 6: / 6.1 Precautions When Using Skills / Thief Skill / [ ③ Acrobatics [Agility] ] (Equipment restriction)
 - [[sword-world-rpg-complete-edition-section-chapter-6-6-1-precautions-when-using-skills-thief-skill-stealthy-step-agility-equipment-restrict-69256f8b]] - next source section: Chapter 6: / 6.1 Precautions When Using Skills / Thief Skill / [ ⑥ Stealthy Step [Agility] ] (Equipment restriction)
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-chapter-6-6-1-precautions-when-using-skills-thief-skill-f1b62afe]] - broader source section: Chapter 6: / 6.1 Precautions When Using Skills / Thief Skill
+
+### Topics
+
 - [[sword-world-rpg-complete-edition-listen-intelligence-equipment-restriction]] - topic hub: opens the topic page for Listen Intelligence Equipment Restriction
 
 ## Statements

@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-13-1-types-of-monsters-youma-88f0a111@6c59cdacaeb6123625b245e8d4ce1705
+projection_coverage: section-sword-world-rpg-complete-edition-section-13-1-types-of-monsters-youma-88f0a111@b6ec2bd3b64ac344e897405ed5e49004
 ---
 
 # 13.1 Types of Monsters / 《 Youma 》
@@ -17,9 +17,14 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-13-1-types-of-monsters-7512eede]] - broader source section: 13.1 Types of Monsters
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-13-1-types-of-monsters-fae-b74946ce]] - previous source section: 13.1 Types of Monsters / 《 Fae 》
 - [[sword-world-rpg-complete-edition-section-13-1-types-of-monsters-spirits-43d51143]] - next source section: 13.1 Types of Monsters / 《 Spirits 》
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-13-1-types-of-monsters-7512eede]] - broader source section: 13.1 Types of Monsters
 
 ## Statements
 

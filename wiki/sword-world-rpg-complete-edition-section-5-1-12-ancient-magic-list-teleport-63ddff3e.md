@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-5-1-12-ancient-magic-list-teleport-63ddff3e@1a9b12b49847388dd5dd63e81d2fedf3
+projection_coverage: section-sword-world-rpg-complete-edition-section-5-1-12-ancient-magic-list-teleport-63ddff3e@cf229ada3ff97b1d7d24acb97bc9f1a1
 ---
 
 # 5.1.12 Ancient Magic List / [ Teleport ]
@@ -17,9 +17,14 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-5-1-12-ancient-magic-list-2e59bfee]] - broader source section: 5.1.12 Ancient Magic List
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-5-1-12-ancient-magic-list-telekinesis-18779c71]] - previous source section: 5.1.12 Ancient Magic List / [ Telekinesis ]
 - [[sword-world-rpg-complete-edition-section-5-1-12-ancient-magic-list-full-potential-6889e92f]] - next source section: 5.1.12 Ancient Magic List / [ Full Potential ]
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-5-1-12-ancient-magic-list-2e59bfee]] - broader source section: 5.1.12 Ancient Magic List
 
 ## Statements
 

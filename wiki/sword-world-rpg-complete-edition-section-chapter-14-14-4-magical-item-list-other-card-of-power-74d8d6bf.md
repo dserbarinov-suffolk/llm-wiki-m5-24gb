@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-other-card-of-power-74d8d6bf@1522f5296cc2f6c1ddfbc0c69d953ad2
+projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-other-card-of-power-74d8d6bf@a4022beb76d4d393a72316ce4ee684f6
 ---
 
 # Chapter 14: / 14.4 Magical Item List / 《 Other 》 / [ Card of Power ]
@@ -17,9 +17,14 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-other-ae5b041d]] - broader source section: Chapter 14: / 14.4 Magical Item List / 《 Other 》
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-other-old-man-liar-punisher-e935b921]] - previous source section: Chapter 14: / 14.4 Magical Item List / 《 Other 》 / [ Old Man Liar Punisher ]
 - [[sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-other-guard-glove-70b1bc84]] - next source section: Chapter 14: / 14.4 Magical Item List / 《 Other 》 / [ Guard Glove ]
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-other-ae5b041d]] - broader source section: Chapter 14: / 14.4 Magical Item List / 《 Other 》
 
 ## Statements
 

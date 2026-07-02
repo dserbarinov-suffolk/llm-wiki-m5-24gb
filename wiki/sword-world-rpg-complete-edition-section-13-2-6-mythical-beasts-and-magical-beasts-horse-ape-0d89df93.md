@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-13-2-6-mythical-beasts-and-magical-beasts-horse-ape-0d89df93@01ff72b0efb2b2cb5d6bade38d90f140
+projection_coverage: section-sword-world-rpg-complete-edition-section-13-2-6-mythical-beasts-and-magical-beasts-horse-ape-0d89df93@0e5326fdea48733cad570a491cbf26e2
 ---
 
 # 13.2.6 Mythical Beasts and Magical Beasts / [ Horse ] / [ Ape ]
@@ -17,9 +17,14 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-13-2-6-mythical-beasts-and-magical-beasts-horse-9c294c60]] - broader source section: 13.2.6 Mythical Beasts and Magical Beasts / [ Horse ]
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-13-2-6-mythical-beasts-and-magical-beasts-horse-ant-39885396]] - previous source section: 13.2.6 Mythical Beasts and Magical Beasts / [ Horse ] / [ Ant ]
 - [[sword-world-rpg-complete-edition-section-13-2-6-mythical-beasts-and-magical-beasts-horse-giant-antlion-8f2cb3e5]] - next source section: 13.2.6 Mythical Beasts and Magical Beasts / [ Horse ] / [ Giant Antlion ]
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-13-2-6-mythical-beasts-and-magical-beasts-horse-9c294c60]] - broader source section: 13.2.6 Mythical Beasts and Magical Beasts / [ Horse ]
 
 ## Statements
 

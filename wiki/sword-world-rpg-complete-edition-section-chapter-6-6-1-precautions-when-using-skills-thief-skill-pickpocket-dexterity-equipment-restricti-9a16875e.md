@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-6-6-1-precautions-when-using-skills-thief-skill-pickpocket-dexterity-equipment-restricti-9a16875e@6f39e09b9d4dcc1ee5eeca04361dfe88
+projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-6-6-1-precautions-when-using-skills-thief-skill-pickpocket-dexterity-equipment-restricti-9a16875e@eeb613d8c2703e00aabb75615f84151f
 ---
 
 # Chapter 6: / 6.1 Precautions When Using Skills / Thief Skill / [ ⑦ Pickpocket [Dexterity] ] (Equipment restriction)
@@ -17,9 +17,14 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-chapter-6-6-1-precautions-when-using-skills-thief-skill-f1b62afe]] - broader source section: Chapter 6: / 6.1 Precautions When Using Skills / Thief Skill
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-chapter-6-6-1-precautions-when-using-skills-thief-skill-stealthy-step-agility-equipment-restrict-69256f8b]] - previous source section: Chapter 6: / 6.1 Precautions When Using Skills / Thief Skill / [ ⑥ Stealthy Step [Agility] ] (Equipment restriction)
 - [[sword-world-rpg-complete-edition-section-chapter-6-6-1-precautions-when-using-skills-thief-skill-hide-agility-equipment-restriction-17be70ed]] - next source section: Chapter 6: / 6.1 Precautions When Using Skills / Thief Skill / [ ⑧ Hide [Agility] ] (Equipment restriction)
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-chapter-6-6-1-precautions-when-using-skills-thief-skill-f1b62afe]] - broader source section: Chapter 6: / 6.1 Precautions When Using Skills / Thief Skill
 
 ## Statements
 

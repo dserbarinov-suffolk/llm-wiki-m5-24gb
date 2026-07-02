@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-6-common-adventurer-abilities-swim-agility-fd4642f2@22d3532d5f9cd46975c7fc7b30db8aaa
+projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-6-common-adventurer-abilities-swim-agility-fd4642f2@c142c7db073c33906fe18da243c2ee33
 ---
 
 # Chapter 6: / Common Adventurer Abilities / [ ② Swim [Agility] ]
@@ -17,9 +17,14 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-chapter-6-common-adventurer-abilities-328f2370]] - broader source section: Chapter 6: / Common Adventurer Abilities
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-chapter-6-common-adventurer-abilities-riding-agility-84a32022]] - previous source section: Chapter 6: / Common Adventurer Abilities / [ ① Riding [Agility] ]
 - [[sword-world-rpg-complete-edition-section-chapter-6-common-adventurer-abilities-ship-steering-dexterity-3632bbca]] - next source section: Chapter 6: / Common Adventurer Abilities / [ ③ Ship Steering [Dexterity]]
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-chapter-6-common-adventurer-abilities-328f2370]] - broader source section: Chapter 6: / Common Adventurer Abilities
 
 ## Statements
 
@@ -45,6 +50,7 @@ From [[sword-world-rpg-complete-edition]].
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-04207))_
 
+<a id="atom-technical-atom-7025938782086e9e"></a>
 > Y ou can only wear cloth or at most soft leather.
 
 ### Technical frame 2: Chapter 6: / Common Adventurer Abilities / [ ② Swim [Agility] ]
@@ -55,6 +61,7 @@ From [[sword-world-rpg-complete-edition]].
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-04208))_
 
+<a id="atom-technical-atom-661bf4e1b3bb59fb"></a>
 > If you succeed, you will be able to take it off and rise to the surface.
 
 ### Technical frame 3: Chapter 6: / Common Adventurer Abilities / [ ② Swim [Agility] ]
@@ -65,4 +72,5 @@ From [[sword-world-rpg-complete-edition]].
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-04211))_
 
+<a id="atom-technical-atom-ad1e5d4afefd5e12"></a>
 > When a drowning person loses consciousness, their life force immediately falls to 0, so a death check must be made.

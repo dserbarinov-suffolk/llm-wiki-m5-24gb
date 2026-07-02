@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-7-7-5-treatment-intelligence-climb-agility-equipment-restriction-1a6fd4b3@12e372241b1b75c264a32a32f2d9eb82
+projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-7-7-5-treatment-intelligence-climb-agility-equipment-restriction-1a6fd4b3@1eda77f94bfec7e313709b4068a9584b
 ---
 
 # Chapter 7: / 7.5 [ ② Treatment [Intelligence]] / [ ⑥ Climb [Agility] ] (Equipment restriction)
@@ -17,9 +17,14 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
+### Source order
+
+- [[sword-world-rpg-complete-edition-section-chapter-7-7-5-treatment-intelligence-weather-prediction-intelligence-not-retriable-f4f13e3f]] - previous source section: Chapter 7: / 7.5 [ ② Treatment [Intelligence]] / [ ⑤ Weather Prediction [Intelligence] ] (Not retriable)
+
+### Source structure
+
 - [[sword-world-rpg-complete-edition-section-chapter-7-7-5-treatment-intelligence-27e205e5]] - broader source section: Chapter 7: / 7.5 [ ② Treatment [Intelligence]]
 - [[sword-world-rpg-complete-edition-section-chapter-7-7-5-treatment-intelligence-climb-agility-equipment-restriction-ropework-dexterity-95b8851f]] - narrower source section: Chapter 7: / 7.5 [ ② Treatment [Intelligence]] / [ ⑥ Climb [Agility] ] (Equipment restriction) / [ ⑦ Ropework [Dexterity] ]
-- [[sword-world-rpg-complete-edition-section-chapter-7-7-5-treatment-intelligence-weather-prediction-intelligence-not-retriable-f4f13e3f]] - previous source section: Chapter 7: / 7.5 [ ② Treatment [Intelligence]] / [ ⑤ Weather Prediction [Intelligence] ] (Not retriable)
 
 ## Statements
 

@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-5-1-17-special-holy-magic-list-cha-za-special-holy-magic-list-luck-69091557@a6e96d08c67d3bc9f17fe2baebb2eab4
+projection_coverage: section-sword-world-rpg-complete-edition-section-5-1-17-special-holy-magic-list-cha-za-special-holy-magic-list-luck-69091557@3bbc096e78fef51d13b0fc0a2e76f2d5
 ---
 
 # 5.1.17 Special Holy Magic List / Cha Za Special Holy Magic List [ Luck ]
@@ -17,10 +17,15 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-5-1-17-special-holy-magic-list-f9b52bf1]] - broader source section: 5.1.17 Special Holy Magic List
-- [[sword-world-rpg-complete-edition-section-5-1-17-special-holy-magic-list-cha-za-special-holy-magic-list-luck-guard-trading-spell-level-5-a7de8a5c]] - narrower source section: 5.1.17 Special Holy Magic List / Cha Za Special Holy Magic List [ Luck ] / [ Guard Trading ] (Spell Level=5)
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-5-1-17-special-holy-magic-list-rahda-special-holy-magic-list-2b5965cc]] - previous source section: 5.1.17 Special Holy Magic List / Rahda Special Holy Magic List
 - [[sword-world-rpg-complete-edition-section-5-1-17-special-holy-magic-list-marfa-special-holy-magic-list-71669c74]] - next source section: 5.1.17 Special Holy Magic List / Marfa Special Holy Magic List
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-5-1-17-special-holy-magic-list-f9b52bf1]] - broader source section: 5.1.17 Special Holy Magic List
+- [[sword-world-rpg-complete-edition-section-5-1-17-special-holy-magic-list-cha-za-special-holy-magic-list-luck-guard-trading-spell-level-5-a7de8a5c]] - narrower source section: 5.1.17 Special Holy Magic List / Cha Za Special Holy Magic List [ Luck ] / [ Guard Trading ] (Spell Level=5)
 
 ## Statements
 

@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-18-3-rules-for-destroying-structures-world-view-calendar-and-time-3a7048a5@1fe2a7afe3581695387030e3144b027c
+projection_coverage: section-sword-world-rpg-complete-edition-section-18-3-rules-for-destroying-structures-world-view-calendar-and-time-3a7048a5@95a1288df64d1c30bbcc513c5ed18d45
 ---
 
 # 18.3 Rules for Destroying Structures / World View / Calendar and Time
@@ -17,8 +17,13 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-18-3-rules-for-destroying-structures-world-view-7061c465]] - broader source section: 18.3 Rules for Destroying Structures / World View
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-18-3-rules-for-destroying-structures-world-view-climate-6abe5857]] - previous source section: 18.3 Rules for Destroying Structures / World View / Climate
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-18-3-rules-for-destroying-structures-world-view-7061c465]] - broader source section: 18.3 Rules for Destroying Structures / World View
 
 ## Statements
 

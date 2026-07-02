@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-effect-duration-5916b2a4@de5bf5a99c80da2b4c7ce253cb0b6747
+projection_coverage: section-sword-world-rpg-complete-edition-section-effect-duration-5916b2a4@089455bbd2218f2475b6f5e2f19b0577
 ---
 
 # 《 Effect Duration 》
@@ -16,6 +16,8 @@ projection_coverage: section-sword-world-rpg-complete-edition-section-effect-dur
 From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
+
+### Source order
 
 - [[sword-world-rpg-complete-edition-section-effect-start-time-f4f92748]] - previous source section: 《 Effect Start Time 》
 - [[sword-world-rpg-complete-edition-section-description-d5853f98]] - next source section: 《 Description 》

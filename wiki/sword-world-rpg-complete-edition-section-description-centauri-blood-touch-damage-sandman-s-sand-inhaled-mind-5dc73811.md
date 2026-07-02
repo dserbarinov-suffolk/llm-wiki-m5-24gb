@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-description-centauri-blood-touch-damage-sandman-s-sand-inhaled-mind-5dc73811@6160484edade72f63d12db7bd013555f
+projection_coverage: section-sword-world-rpg-complete-edition-section-description-centauri-blood-touch-damage-sandman-s-sand-inhaled-mind-5dc73811@d0192fe9facbd695b2ff0f5877f14427
 ---
 
 # 《 Description 》 / [Centauri Blood (Touch/Damage)] / [Sandman's Sand (Inhaled/Mind)]
@@ -16,6 +16,8 @@ projection_coverage: section-sword-world-rpg-complete-edition-section-descriptio
 From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
+
+### Source structure
 
 - [[sword-world-rpg-complete-edition-section-description-centauri-blood-touch-damage-40979612]] - broader source section: 《 Description 》 / [Centauri Blood (Touch/Damage)]
 

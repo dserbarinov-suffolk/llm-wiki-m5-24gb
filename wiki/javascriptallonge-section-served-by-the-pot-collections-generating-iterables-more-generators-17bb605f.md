@@ -4,11 +4,11 @@ page_kind: source
 summary: Served by the Pot: Collections / Generating Iterables / more generators: 9 source-backed entries and 4 atom(s) from raw/javascriptallonge.pdf.
 page_family: section-reference
 sources: raw/javascriptallonge.pdf
-updated: 2026-07-01
+updated: 2026-07-02
 domain: javascriptallonge
 category_path: sources/javascriptallonge/sections
 source_id: javascriptallonge.pdf
-projection_coverage: section-javascriptallonge-section-served-by-the-pot-collections-generating-iterables-more-generators-17bb605f@10470c25d97efdbd3213e10cdfb49085
+projection_coverage: section-javascriptallonge-section-served-by-the-pot-collections-generating-iterables-more-generators-17bb605f@dd9148c9c2d70a96d1d07e5602b8183c
 ---
 
 # Served by the Pot: Collections / Generating Iterables / more generators
@@ -17,9 +17,17 @@ From [[javascriptallonge]].
 
 ## Related pages
 
-- [[javascriptallonge-section-served-by-the-pot-collections-generating-iterables-8c929c4d]] - broader source section: Served by the Pot: Collections / Generating Iterables
+### Source order
+
 - [[javascriptallonge-section-served-by-the-pot-collections-generating-iterables-generators-and-iterables-4081f666]] - previous source section: Served by the Pot: Collections / Generating Iterables / generators and iterables
 - [[javascriptallonge-section-served-by-the-pot-collections-generating-iterables-yielding-iterables-0e804668]] - next source section: Served by the Pot: Collections / Generating Iterables / yielding iterables
+
+### Source structure
+
+- [[javascriptallonge-section-served-by-the-pot-collections-generating-iterables-8c929c4d]] - broader source section: Served by the Pot: Collections / Generating Iterables
+
+### Topics
+
 - [[javascriptallonge-generator]] - topic hub: opens the topic page for Generator
 
 ## Statements
@@ -37,6 +45,7 @@ From [[javascriptallonge]].
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01714))_
 
+<a id="atom-technical-atom-facfdad5b7bff810"></a>
 ```
 const Numbers = {
 *[Symbol.iterator] () {
@@ -68,6 +77,7 @@ console.log(i);
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01715))_
 
+<a id="atom-technical-atom-f14f729425590874"></a>
 ```
 8
 9
@@ -83,6 +93,7 @@ console.log(i);
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01720))_
 
+<a id="atom-technical-atom-c719e932801ca1af"></a>
 ```
 const Fibonacci = {
 *[Symbol.iterator] () {
@@ -123,6 +134,7 @@ console.log(i);
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01723))_
 
+<a id="atom-technical-atom-48554583c9c81b5b"></a>
 ```
 function * fibonacci () {
 let a, b;

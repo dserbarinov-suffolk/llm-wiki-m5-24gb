@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-12-2-2-illnesses-bat-fever-56d254a7@6fe169d72ea2340df757aa3a4976b72f
+projection_coverage: section-sword-world-rpg-complete-edition-section-12-2-2-illnesses-bat-fever-56d254a7@c20ea4a30396cef3a81deee9aa7279cc
 ---
 
 # 12.2.2 Illnesses / [ Bat Fever ]
@@ -17,10 +17,15 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-12-2-2-illnesses-5611d07e]] - broader source section: 12.2.2 Illnesses
-- [[sword-world-rpg-complete-edition-section-12-2-2-illnesses-bat-fever-balloon-burst-3eae53ab]] - narrower source section: 12.2.2 Illnesses / [ Bat Fever ] / [ Balloon Burst ]
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-12-2-2-illnesses-description-edb99c5e]] - previous source section: 12.2.2 Illnesses / 《 Description 》
 - [[sword-world-rpg-complete-edition-section-12-2-2-illnesses-vampire-skin-867f7078]] - next source section: 12.2.2 Illnesses / [ Vampire Skin ]
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-12-2-2-illnesses-5611d07e]] - broader source section: 12.2.2 Illnesses
+- [[sword-world-rpg-complete-edition-section-12-2-2-illnesses-bat-fever-balloon-burst-3eae53ab]] - narrower source section: 12.2.2 Illnesses / [ Bat Fever ] / [ Balloon Burst ]
 
 ## Statements
 

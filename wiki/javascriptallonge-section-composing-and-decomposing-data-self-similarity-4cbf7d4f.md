@@ -4,11 +4,11 @@ page_kind: source
 summary: Composing and Decomposing Data / Self-Similarity: 73 source-backed entries and 0 atom(s) from raw/javascriptallonge.pdf.
 page_family: section-reference
 sources: raw/javascriptallonge.pdf
-updated: 2026-07-01
+updated: 2026-07-02
 domain: javascriptallonge
 category_path: sources/javascriptallonge/sections
 source_id: javascriptallonge.pdf
-projection_coverage: section-javascriptallonge-section-composing-and-decomposing-data-self-similarity-4cbf7d4f@b7413fa32261a45e91f5c72a5df083d1
+projection_coverage: section-javascriptallonge-section-composing-and-decomposing-data-self-similarity-4cbf7d4f@f9d80786f857dfb5210b8647a784e7c1
 ---
 
 # Composing and Decomposing Data / Self-Similarity
@@ -17,13 +17,18 @@ From [[javascriptallonge]].
 
 ## Related pages
 
-- [[javascriptallonge-section-composing-and-decomposing-data-58c1e32b]] - broader source section: Composing and Decomposing Data
-- [[javascriptallonge-section-composing-and-decomposing-data-self-similarity-linear-recursion-4f6c918d]] - narrower source section: Composing and Decomposing Data / Self-Similarity / linear recursion
-- [[javascriptallonge-section-composing-and-decomposing-data-self-similarity-mapping-c68b0f1d]] - narrower source section: Composing and Decomposing Data / Self-Similarity / mapping
-- [[javascriptallonge-section-composing-and-decomposing-data-self-similarity-folding-f9fb03a1]] - narrower source section: Composing and Decomposing Data / Self-Similarity / folding
-- [[javascriptallonge-section-composing-and-decomposing-data-self-similarity-summary-591a8229]] - narrower source section: Composing and Decomposing Data / Self-Similarity / summary
+### Source order
+
 - [[javascriptallonge-section-composing-and-decomposing-data-arrays-and-destructuring-arguments-c857af65]] - previous source section: Composing and Decomposing Data / Arrays and Destructuring Arguments
 - [[javascriptallonge-section-composing-and-decomposing-data-tail-calls-and-default-arguments-2f80f1b0]] - next source section: Composing and Decomposing Data / Tail Calls (and Default Arguments)
+
+### Source structure
+
+- [[javascriptallonge-section-composing-and-decomposing-data-58c1e32b]] - broader source section: Composing and Decomposing Data
+- [[javascriptallonge-section-composing-and-decomposing-data-self-similarity-folding-f9fb03a1]] - narrower source section: Composing and Decomposing Data / Self-Similarity / folding
+- [[javascriptallonge-section-composing-and-decomposing-data-self-similarity-linear-recursion-4f6c918d]] - narrower source section: Composing and Decomposing Data / Self-Similarity / linear recursion
+- [[javascriptallonge-section-composing-and-decomposing-data-self-similarity-mapping-c68b0f1d]] - narrower source section: Composing and Decomposing Data / Self-Similarity / mapping
+- [[javascriptallonge-section-composing-and-decomposing-data-self-similarity-summary-591a8229]] - narrower source section: Composing and Decomposing Data / Self-Similarity / summary
 
 ## Statements
 

@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-rarity-dc2209f1@205c0eb94b8bfdaf7469cf35d36bc71d
+projection_coverage: section-sword-world-rpg-complete-edition-section-rarity-dc2209f1@0696c5123d5d386471d5d55b90f068fc
 ---
 
 # 《 Rarity 》
@@ -16,6 +16,8 @@ projection_coverage: section-sword-world-rpg-complete-edition-section-rarity-dc2
 From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
+
+### Source order
 
 - [[sword-world-rpg-complete-edition-section-toxicity-score-2075f424]] - previous source section: 《 Toxicity Score 》
 - [[sword-world-rpg-complete-edition-section-effect-start-time-f4f92748]] - next source section: 《 Effect Start Time 》
@@ -35,4 +37,5 @@ From [[sword-world-rpg-complete-edition]].
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-05557))_
 
+<a id="atom-technical-atom-6ddc4c212f0bfa3b"></a>
 > However, even if you know how to make it, whether or not you can make it is another matter.

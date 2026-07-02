@@ -7,7 +7,7 @@ sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: concepts
-projection_coverage: topic-sword-world-rpg-complete-edition-10-silver-weapon@e2b7491e0760a25837b90ad3bb9416c1
+projection_coverage: topic-sword-world-rpg-complete-edition-10-silver-weapon@86db04f27a2b49b965b245544f4bb136
 ---
 
 # 10 Silver Weapon
@@ -24,6 +24,8 @@ What [[sword-world-rpg-complete-edition]] covers about 10 silver weapon:
 
 
 ## Related pages
+
+### Shared claims
 
 - [[sword-world-rpg-complete-edition-armor]] - shared statements: Armor shares source evidence from 4.10 Excellent Weapons and Armor / 4.10.2 Silver Weapons and Armor: Even silver weapons and armor have no differences in their strike power, defense power, attack power, or evasion speed at all. (3 shared statement(s))
 

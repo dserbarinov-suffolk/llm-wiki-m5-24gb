@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-7-7-5-treatment-intelligence-small-ship-steering-dexterity-9411db2e@53438c2b0f15133fd25627f1470c16a2
+projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-7-7-5-treatment-intelligence-small-ship-steering-dexterity-9411db2e@5bbcf735ee29b0fecf7f84bfd2716cc4
 ---
 
 # Chapter 7: / 7.5 [ ② Treatment [Intelligence]] / [ ③ Small Ship Steering [Dexterity] ]
@@ -17,9 +17,17 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-chapter-7-7-5-treatment-intelligence-27e205e5]] - broader source section: Chapter 7: / 7.5 [ ② Treatment [Intelligence]]
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-chapter-7-7-5-treatment-intelligence-seamanship-intelligence-62536554]] - previous source section: Chapter 7: / 7.5 [ ② Treatment [Intelligence]] / [ ② Seamanship [Intelligence] ]
 - [[sword-world-rpg-complete-edition-section-chapter-7-7-5-treatment-intelligence-swim-agility-equipment-restriction-d9627e70]] - next source section: Chapter 7: / 7.5 [ ② Treatment [Intelligence]] / [ ④ Swim [Agility] ] (Equipment restriction)
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-chapter-7-7-5-treatment-intelligence-27e205e5]] - broader source section: Chapter 7: / 7.5 [ ② Treatment [Intelligence]]
+
+### Topics
+
 - [[sword-world-rpg-complete-edition-ship-steering-dexterity]] - topic hub: opens the topic page for Ship Steering Dexterity
 
 ## Statements

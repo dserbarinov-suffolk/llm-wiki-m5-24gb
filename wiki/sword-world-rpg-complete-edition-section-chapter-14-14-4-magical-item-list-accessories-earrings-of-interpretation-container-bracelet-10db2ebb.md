@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-accessories-earrings-of-interpretation-container-bracelet-10db2ebb@9b7e5f338a8240cc6b854295ccaa51d8
+projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-accessories-earrings-of-interpretation-container-bracelet-10db2ebb@b92ca9c7eba3460b0182e744da960bf4
 ---
 
 # Chapter 14: / 14.4 Magical Item List / 《 Accessories 》 [ Earrings of Interpretation ] / [ Container Bracelet ]
@@ -17,9 +17,14 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-accessories-earrings-of-interpretation-6973f651]] - broader source section: Chapter 14: / 14.4 Magical Item List / 《 Accessories 》 [ Earrings of Interpretation ]
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-accessories-earrings-of-interpretation-earrings-of-pooka-6fe82deb]] - previous source section: Chapter 14: / 14.4 Magical Item List / 《 Accessories 》 [ Earrings of Interpretation ] / [ Earrings of Pooka ]
 - [[sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-accessories-earrings-of-interpretation-sleepless-pendant-63a24329]] - next source section: Chapter 14: / 14.4 Magical Item List / 《 Accessories 》 [ Earrings of Interpretation ] / [ Sleepless Pendant ]
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-accessories-earrings-of-interpretation-6973f651]] - broader source section: Chapter 14: / 14.4 Magical Item List / 《 Accessories 》 [ Earrings of Interpretation ]
 
 ## Statements
 

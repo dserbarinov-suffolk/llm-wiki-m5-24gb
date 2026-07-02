@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-6-6-3-ranger-skill-footprint-tracking-intelligence-no-equipment-restriction-not-retriabl-bded9019@729dd57a3f60d4f4e06fcad12977d4b1
+projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-6-6-3-ranger-skill-footprint-tracking-intelligence-no-equipment-restriction-not-retriabl-bded9019@a73a7653ae78c8ee0b5562f3ff922313
 ---
 
 # Chapter 6: / 6.3 Ranger Skill / [ ① Footprint Tracking [Intelligence] ] (No equipment restriction, not retriable)
@@ -17,9 +17,14 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-chapter-6-6-3-ranger-skill-ae825c0d]] - broader source section: Chapter 6: / 6.3 Ranger Skill
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-chapter-6-6-3-ranger-skill-first-aid-no-equipment-restriction-ca76d7dd]] - previous source section: Chapter 6: / 6.3 Ranger Skill / [ ② First-Aid [-] ] (No equipment restriction)
 - [[sword-world-rpg-complete-edition-section-chapter-6-6-3-ranger-skill-camouflage-intelligence-equipment-restriction-b7028d9e]] - next source section: Chapter 6: / 6.3 Ranger Skill / [ ③ Camouflage [Intelligence] ] (Equipment restriction)
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-chapter-6-6-3-ranger-skill-ae825c0d]] - broader source section: Chapter 6: / 6.3 Ranger Skill
 
 ## Statements
 

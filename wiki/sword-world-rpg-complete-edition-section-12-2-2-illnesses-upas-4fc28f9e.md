@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-12-2-2-illnesses-upas-4fc28f9e@463e0895ee6cad30fdfafc461eb6f8ee
+projection_coverage: section-sword-world-rpg-complete-edition-section-12-2-2-illnesses-upas-4fc28f9e@15a3cda2bef2d9d06dea683e7ad8bef3
 ---
 
 # 12.2.2 Illnesses / [ Upas ]
@@ -17,9 +17,14 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-12-2-2-illnesses-5611d07e]] - broader source section: 12.2.2 Illnesses
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-12-2-2-illnesses-arnica-b80b32cc]] - previous source section: 12.2.2 Illnesses / [ Arnica ]
 - [[sword-world-rpg-complete-edition-section-12-2-2-illnesses-dulcamara-b79d20dc]] - next source section: 12.2.2 Illnesses / [ Dulcamara ]
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-12-2-2-illnesses-5611d07e]] - broader source section: 12.2.2 Illnesses
 
 ## Statements
 

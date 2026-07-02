@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-13-2-6-mythical-beasts-and-magical-beasts-horse-giant-slug-c5f80539@8836e10357aad808a6e7cf7acf42999a
+projection_coverage: section-sword-world-rpg-complete-edition-section-13-2-6-mythical-beasts-and-magical-beasts-horse-giant-slug-c5f80539@82b09e83288603b09d36fdd7c4c746ae
 ---
 
 # 13.2.6 Mythical Beasts and Magical Beasts / [ Horse ] / [ Giant Slug ]
@@ -17,9 +17,14 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-13-2-6-mythical-beasts-and-magical-beasts-horse-9c294c60]] - broader source section: 13.2.6 Mythical Beasts and Magical Beasts / [ Horse ]
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-13-2-6-mythical-beasts-and-magical-beasts-horse-lion-fa2410da]] - previous source section: 13.2.6 Mythical Beasts and Magical Beasts / [ Horse ] / [ Lion ]
 - [[sword-world-rpg-complete-edition-section-13-2-6-mythical-beasts-and-magical-beasts-horse-toad-c1e183f2]] - next source section: 13.2.6 Mythical Beasts and Magical Beasts / [ Horse ] / [ Toad ]
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-13-2-6-mythical-beasts-and-magical-beasts-horse-9c294c60]] - broader source section: 13.2.6 Mythical Beasts and Magical Beasts / [ Horse ]
 
 ## Statements
 

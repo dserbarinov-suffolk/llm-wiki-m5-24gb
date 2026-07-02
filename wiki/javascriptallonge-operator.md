@@ -4,10 +4,10 @@ page_kind: concept
 summary: Operator: 0 statement(s) and 1 atom(s) from raw/javascriptallonge.pdf.
 page_family: topic-concept
 sources: raw/javascriptallonge.pdf
-updated: 2026-07-01
+updated: 2026-07-02
 domain: javascriptallonge
 category_path: concepts
-projection_coverage: topic-javascriptallonge-operator@fe2dc055ef4ca51487e7991906d437a0
+projection_coverage: topic-javascriptallonge-operator@96a976cd96af24e38736e908b12b8c7e
 ---
 
 # Operator
@@ -27,6 +27,7 @@ What [[javascriptallonge]] covers about operator:
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00772))_
 
+<a id="atom-technical-atom-39a1812ab600996f"></a>
 ```
 !5
 //=> false
@@ -36,6 +37,8 @@ What [[javascriptallonge]] covers about operator:
 
 
 ## Related pages
+
+### Shared technical atoms
 
 - [[javascriptallonge-argument]] - shared technical atoms: Argument shares technical record from Picking the Bean: Choice and Truthiness / truthiness and operators: !5 //=> false !undefined //=> true (1 shared atom(s))
 - [[javascriptallonge-javascript]] - shared technical atoms: Javascript shares technical record from Picking the Bean: Choice and Truthiness / truthiness and operators: !5 //=> false !undefined //=> true (1 shared atom(s))

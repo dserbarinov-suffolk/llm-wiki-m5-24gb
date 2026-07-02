@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-5-1-14-spirit-magic-list-4th-level-spirit-magic-list-water-walking-undine-water-spirit-restore-h-1cecd6be@e98eb166e880fbbe1e2d4d8c8d5c63ea
+projection_coverage: section-sword-world-rpg-complete-edition-section-5-1-14-spirit-magic-list-4th-level-spirit-magic-list-water-walking-undine-water-spirit-restore-h-1cecd6be@6ba618d12af1daccadb1240a12d54b99
 ---
 
 # 5.1.14 Spirit Magic List / 4th Level Spirit Magic List [ Water Walking ] (Undine/Water Spirit) / [ Restore Health ] (The Unknown Spirit of Life)
@@ -17,8 +17,13 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-5-1-14-spirit-magic-list-4th-level-spirit-magic-list-water-walking-undine-water-spirit-bd6d8f37]] - broader source section: 5.1.14 Spirit Magic List / 4th Level Spirit Magic List [ Water Walking ] (Undine/Water Spirit)
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-5-1-14-spirit-magic-list-4th-level-spirit-magic-list-water-walking-undine-water-spirit-fear-shad-af709617]] - previous source section: 5.1.14 Spirit Magic List / 4th Level Spirit Magic List [ Water Walking ] (Undine/Water Spirit) / [ Fear ] (Shade/Dark Spirit)
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-5-1-14-spirit-magic-list-4th-level-spirit-magic-list-water-walking-undine-water-spirit-bd6d8f37]] - broader source section: 5.1.14 Spirit Magic List / 4th Level Spirit Magic List [ Water Walking ] (Undine/Water Spirit)
 
 ## Statements
 

@@ -4,10 +4,10 @@ page_kind: concept
 summary: Identity: 2 statement(s) and 1 atom(s) from raw/javascriptallonge.pdf.
 page_family: topic-concept
 sources: raw/javascriptallonge.pdf
-updated: 2026-07-01
+updated: 2026-07-02
 domain: javascriptallonge
 category_path: concepts
-projection_coverage: topic-javascriptallonge-identity@33c0797e6234763b17df6713b447fb7f
+projection_coverage: topic-javascriptallonge-identity@670b723e9b1884aafcb5ccf58e8198d1
 ---
 
 # Identity
@@ -31,6 +31,7 @@ What [[javascriptallonge]] covers about identity:
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00180))_
 
+<a id="atom-technical-atom-8fdd8121582af5fe"></a>
 ```
 (() => 0) === (() => 0)
 //=> false
@@ -39,7 +40,12 @@ What [[javascriptallonge]] covers about identity:
 
 ## Related pages
 
+### Shared technical atoms
+
 - [[javascriptallonge-javascript]] - shared technical atoms: Javascript shares technical record from The first sip: Basic Functions / As Little As Possible About Functions, But No Less / functions and identities: (() => 0) === (() => 0) //=> false (1 shared atom(s))
+
+### Shared claims
+
 - [[javascriptallonge-type]] - shared statements: Type shares source evidence from The first sip: Basic Functions / As Little As Possible About Functions, But No Less / functions and identities: You recall that we have two types of values with respect to identity: Value types and reference types. Value types share the same identity if they have the same cont ... [truncated] (1 shared statement(s))
 
 ## Source

@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-9-9-4-automatic-success-restrictions-20569786@9894a81bf3699db081e1ac7c67261e45
+projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-9-9-4-automatic-success-restrictions-20569786@273511f91d0b7a64cd97147a6e0deebb
 ---
 
 # Chapter 9: / 9.4 Automatic Success Restrictions
@@ -17,8 +17,13 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-chapter-9-46ac5338]] - broader source section: Chapter 9:
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-chapter-9-9-3-general-modifiers-35fd7665]] - previous source section: Chapter 9: / 9.3 General Modifiers
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-chapter-9-46ac5338]] - broader source section: Chapter 9:
 
 ## Statements
 

@@ -7,7 +7,7 @@ sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: concepts
-projection_coverage: topic-sword-world-rpg-complete-edition-damage-reduction@f434eb4a562c773e1afa0c412b37f84a
+projection_coverage: topic-sword-world-rpg-complete-edition-damage-reduction@79585a204534274cdf99690b0df59f71
 ---
 
 # 【 Damage Reduction 】
@@ -99,6 +99,7 @@ What [[sword-world-rpg-complete-edition]] covers about 【 damage reduction 】:
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-01241))_
 
+<a id="atom-technical-atom-1edd5e6b6bc5b84d"></a>
 > damage reduction = adventurer level
 
 ### Technical frame 2: Attacks From Monsters Against Characters / 4.6.5 Final Damage
@@ -109,23 +110,32 @@ What [[sword-world-rpg-complete-edition]] covers about 【 damage reduction 】:
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-01348))_
 
+<a id="atom-technical-atom-eda94d067ee6bdc9"></a>
 > Final damage = monster's strike points - (defense roll result + damage reduction)
 
 
 ## Related pages
 
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-chapter-3-3-4-4-actions-you-can-take-while-standing-still-scores-used-in-weapon-combat-damage-re-71260367]] - source section: Chapter 3: / 3.4.4 Actions You Can Take While Standing Still / Scores Used in Weapon Combat / 【 Damage Reduction 】 shares source evidence from Chapter 3: / 3.4.4 Actions You Can Take While Standing Still / Scores Used in Weapon Combat / 【 Damage Reduction 】: Those who are called heroes do not die from just a few injuries. In Sword World RPG , a character with a high adventurer level, that is, a character who has a high l ... [truncated]; Chapter 3: / 3.4.4 Actions You Can Take While Standing Still / Scores Used in Weapon Combat / 【 Damage Reduction 】 shares technical record from Chapter 3: / 3.4.4 Actions You Can Take While Standing Still / Scores Used in Weapon Combat / 【 Damage Reduction 】: damage reduction = adventurer level (3 shared statement(s), 1 shared atom(s))
+- [[sword-world-rpg-complete-edition-section-attacks-from-monsters-against-characters-4-6-4-damage-reduction-b3691cec]] - source section: Attacks From Monsters Against Characters / 4.6.4 Damage Reduction shares source evidence from Attacks From Monsters Against Characters / 4.6.4 Damage Reduction: Characters can also reduce damage using their adventurer level . The result of your defense roll plus this damage reduction equals the fi nal amount of damage your c ... [truncated] (4 shared statement(s))
+
+### Shared technical atoms
+
 - [[sword-world-rpg-complete-edition-adventurer-level]] - shared statements and technical atoms: 1.3.3 Adventurer Level shares source evidence from Chapter 3: / 3.4.4 Actions You Can Take While Standing Still / Scores Used in Weapon Combat / 【 Damage Reduction 】: Those who are called heroes do not die from just a few injuries. In Sword World RPG , a character with a high adventurer level, that is, a character who has a high l ... [truncated]; 1.3.3 Adventurer Level shares technical record from Chapter 3: / 3.4.4 Actions You Can Take While Standing Still / Scores Used in Weapon Combat / 【 Damage Reduction 】: damage reduction = adventurer level (7 shared statement(s), 1 shared atom(s))
 - [[sword-world-rpg-complete-edition-attack-monster-character]] - shared statements and technical atoms: Attacks From Monsters Against Characters shares source evidence from Attacks From Monsters Against Characters / 4.6.4 Damage Reduction: Characters can also reduce damage using their adventurer level . The result of your defense roll plus this damage reduction equals the fi nal amount of damage your c ... [truncated]; Attacks From Monsters Against Characters shares technical record from Attacks From Monsters Against Characters / 4.6.5 Final Damage: Final damage = monster's strike points - (defense roll result + damage reduction) (5 shared statement(s), 1 shared atom(s))
 - [[sword-world-rpg-complete-edition-final-damage]] - shared statements and technical atoms: 4.5.5 Final Damage shares source evidence from Attacks From Monsters Against Characters / 4.6.5 Final Damage: The final damage your character suffers from a monster equals the monster's strike points minus the result of your defense roll plus your character's damage reduction .; 4.5.5 Final Damage shares technical record from Attacks From Monsters Against Characters / 4.6.5 Final Damage: Final damage = monster's strike points - (defense roll result + damage reduction) (2 shared statement(s), 1 shared atom(s))
 - [[sword-world-rpg-complete-edition-attack-character-monster]] - shared statements and technical atoms: Attacks From Characters Against Monsters shares source evidence from Attacks From Monsters Against Characters / 4.6.5 Final Damage: The final damage your character suffers from a monster equals the monster's strike points minus the result of your defense roll plus your character's damage reduction .; Attacks From Characters Against Monsters shares technical record from Attacks From Monsters Against Characters / 4.6.5 Final Damage: Final damage = monster's strike points - (defense roll result + damage reduction) (1 shared statement(s), 1 shared atom(s))
+
+### Shared claims
+
 - [[sword-world-rpg-complete-edition-bonus-damage]] - shared statements: 【 Bonus Damage 】 shares source evidence from Chapter 3: / 3.4.4 Actions You Can Take While Standing Still / Scores Used in Weapon Combat: Attack power , strike power , bonus damage , critical target , evasion speed , defense power , and damage reduction . (3 shared statement(s))
 - [[sword-world-rpg-complete-edition-critical-target-variation]] - shared statements: Critical Target Variation shares source evidence from Chapter 3: / 3.4.4 Actions You Can Take While Standing Still / Scores Used in Weapon Combat: Attack power , strike power , bonus damage , critical target , evasion speed , defense power , and damage reduction . (2 shared statement(s))
 - [[sword-world-rpg-complete-edition-armor]] - shared statements: Armor shares source evidence from 4.10 Excellent Weapons and Armor / 4.10.3 Magical Weapons and Armor / 【 Magical Armor 】: Magical armor increases evasion speed and damage reduction . If you wear +1 magical armor, you gain +1 to evasion speed and damage reduction. +2 means +2, and +3 mea ... [truncated] (1 shared statement(s))
 - [[sword-world-rpg-complete-edition-filling-character-sheet]] - shared statements: 1.4.9 Filling Out the Character Sheet shares source evidence from Chapter 3: / 3.4.4 Actions You Can Take While Standing Still / Scores Used in Weapon Combat / Filling out the Character Sheet: The entry fields may seem complicated, but this is to assist you when using Chapter 16: Optional Rules for Combat (see p. 260). Now, don't worry about it too much. I ... [truncated] (1 shared statement(s))
 - [[sword-world-rpg-complete-edition-magic-armor]] - shared statements: 《 Magic Armor (+1) 》 shares source evidence from Chapter 14: / 14.4 Magical Item List / 《 Magic Armor (+3) 》: Chain mail, splint, lamellar, plate armor Rarity=16 Enchanter=Many Form=Metal Armor Required Strength/Base Trade Price=See description Magic Power=+3 to evasion spee ... [truncated] (1 shared statement(s))
 - [[sword-world-rpg-complete-edition-weapon-critical]] - shared statements: 《 Weapons Cannot Critical 》 shares source evidence from Chapter 3: / 3.4.4 Actions You Can Take While Standing Still / Scores Used in Weapon Combat / Filling out the Character Sheet: The entry fields may seem complicated, but this is to assist you when using Chapter 16: Optional Rules for Combat (see p. 260). Now, don't worry about it too much. I ... [truncated] (1 shared statement(s))
-- [[sword-world-rpg-complete-edition-section-chapter-3-3-4-4-actions-you-can-take-while-standing-still-scores-used-in-weapon-combat-damage-re-71260367]] - source section: Chapter 3: / 3.4.4 Actions You Can Take While Standing Still / Scores Used in Weapon Combat / 【 Damage Reduction 】 shares source evidence from Chapter 3: / 3.4.4 Actions You Can Take While Standing Still / Scores Used in Weapon Combat / 【 Damage Reduction 】: Those who are called heroes do not die from just a few injuries. In Sword World RPG , a character with a high adventurer level, that is, a character who has a high l ... [truncated]; Chapter 3: / 3.4.4 Actions You Can Take While Standing Still / Scores Used in Weapon Combat / 【 Damage Reduction 】 shares technical record from Chapter 3: / 3.4.4 Actions You Can Take While Standing Still / Scores Used in Weapon Combat / 【 Damage Reduction 】: damage reduction = adventurer level (3 shared statement(s), 1 shared atom(s))
-- [[sword-world-rpg-complete-edition-section-attacks-from-monsters-against-characters-4-6-4-damage-reduction-b3691cec]] - source section: Attacks From Monsters Against Characters / 4.6.4 Damage Reduction shares source evidence from Attacks From Monsters Against Characters / 4.6.4 Damage Reduction: Characters can also reduce damage using their adventurer level . The result of your defense roll plus this damage reduction equals the fi nal amount of damage your c ... [truncated] (4 shared statement(s))
 
 ## Source
 

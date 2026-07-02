@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-5-1-12-ancient-magic-list-fireball-79bfcaea@5c7c17600704695f7b227566254631d7
+projection_coverage: section-sword-world-rpg-complete-edition-section-5-1-12-ancient-magic-list-fireball-79bfcaea@61d03a870439293417b5c139d02e1798
 ---
 
 # 5.1.12 Ancient Magic List / [ Fireball ]
@@ -17,9 +17,14 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-5-1-12-ancient-magic-list-2e59bfee]] - broader source section: 5.1.12 Ancient Magic List
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-5-1-12-ancient-magic-list-paralyze-1b5f5495]] - previous source section: 5.1.12 Ancient Magic List / [ Paralyze ]
 - [[sword-world-rpg-complete-edition-section-5-1-12-ancient-magic-list-location-63127d67]] - next source section: 5.1.12 Ancient Magic List / [ Location ]
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-5-1-12-ancient-magic-list-2e59bfee]] - broader source section: 5.1.12 Ancient Magic List
 
 ## Statements
 

@@ -4,11 +4,11 @@ page_kind: source
 summary: Recipes with Data / Object.assign: 8 source-backed entries and 4 atom(s) from raw/javascriptallonge.pdf.
 page_family: section-reference
 sources: raw/javascriptallonge.pdf
-updated: 2026-07-01
+updated: 2026-07-02
 domain: javascriptallonge
 category_path: sources/javascriptallonge/sections
 source_id: javascriptallonge.pdf
-projection_coverage: section-javascriptallonge-section-recipes-with-data-object-assign-bd2a6434@b0cf60932753806ef894e4bf295038fd
+projection_coverage: section-javascriptallonge-section-recipes-with-data-object-assign-bd2a6434@1a818d26f4d3e16260f7f897f0ac76b6
 ---
 
 # Recipes with Data / Object.assign
@@ -17,9 +17,14 @@ From [[javascriptallonge]].
 
 ## Related pages
 
-- [[javascriptallonge-section-recipes-with-data-57848af5]] - broader source section: Recipes with Data
+### Source order
+
 - [[javascriptallonge-section-recipes-with-data-flip-9096a873]] - previous source section: Recipes with Data / Flip
 - [[javascriptallonge-section-recipes-with-data-why-3f8e67cf]] - next source section: Recipes with Data / Why?
+
+### Source structure
+
+- [[javascriptallonge-section-recipes-with-data-57848af5]] - broader source section: Recipes with Data
 
 ## Statements
 
@@ -35,6 +40,7 @@ From [[javascriptallonge]].
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01471))_
 
+<a id="atom-technical-atom-bb040e102c1b52ab"></a>
 ```
 for (let fruit in shipment) {
 inventory[fruit] = shipment[fruit]
@@ -49,6 +55,7 @@ inventory[fruit] = shipment[fruit]
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01473))_
 
+<a id="atom-technical-atom-efe6c3ce41924d38"></a>
 ```
 Object.assign({}, {
 apples: 12,
@@ -65,6 +72,7 @@ oranges: 12
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01478))_
 
+<a id="atom-technical-atom-d1c45916ae0eb20d"></a>
 ```
 const Queue = function () {
 this.array = [];
@@ -107,6 +115,7 @@ isEmpty () {
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01479))_
 
+<a id="atom-technical-atom-eed4c35a917ca158"></a>
 ```
 Recipes with Data
 }

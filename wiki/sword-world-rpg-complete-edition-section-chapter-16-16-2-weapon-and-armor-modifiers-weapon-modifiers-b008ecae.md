@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-16-16-2-weapon-and-armor-modifiers-weapon-modifiers-b008ecae@3663c966758856f8ec800b60ec74aba0
+projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-16-16-2-weapon-and-armor-modifiers-weapon-modifiers-b008ecae@3fd9b364096f00cd58a8a7c58aecdc4c
 ---
 
 # Chapter 16: / 16.2 Weapon and Armor Modifiers / Weapon Modifiers
@@ -17,8 +17,13 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-chapter-16-16-2-weapon-and-armor-modifiers-04ec9a3a]] - broader source section: Chapter 16: / 16.2 Weapon and Armor Modifiers
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-chapter-16-16-2-weapon-and-armor-modifiers-attack-power-modifier-80829277]] - next source section: Chapter 16: / 16.2 Weapon and Armor Modifiers / Attack Power Modifier
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-chapter-16-16-2-weapon-and-armor-modifiers-04ec9a3a]] - broader source section: Chapter 16: / 16.2 Weapon and Armor Modifiers
 
 ## Statements
 

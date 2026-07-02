@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-13-2-3-youma-dryad-f7282616@9443c05f437013c59e13296294b84a69
+projection_coverage: section-sword-world-rpg-complete-edition-section-13-2-3-youma-dryad-f7282616@b69f2a5254264ff71f5aa66909e29415
 ---
 
 # 13.2.3 Youma / [ Dryad ]
@@ -17,9 +17,14 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-13-2-3-youma-05ea9fd0]] - broader source section: 13.2.3 Youma
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-13-2-3-youma-leprechaun-b94459cd]] - previous source section: 13.2.3 Youma / [ Leprechaun ]
 - [[sword-world-rpg-complete-edition-section-13-2-3-youma-mad-spirit-of-life-bbb39b57]] - next source section: 13.2.3 Youma / [ Mad Spirit of Life ]
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-13-2-3-youma-05ea9fd0]] - broader source section: 13.2.3 Youma
 
 ## Statements
 
@@ -39,4 +44,5 @@ From [[sword-world-rpg-complete-edition]].
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-06265))_
 
+<a id="atom-technical-atom-bf2673f7212b242d"></a>
 > If magic cannot be cast on the target, the dryad will attack barehanded.

@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-final-score-increase-0d82dff1@9c7e586c27865d3df502e0d622e0bbd3
+projection_coverage: section-sword-world-rpg-complete-edition-section-final-score-increase-0d82dff1@3361ad73fd315acb33dc67882734d70a
 ---
 
 # 《 Final Score Increase 》
@@ -16,6 +16,8 @@ projection_coverage: section-sword-world-rpg-complete-edition-section-final-scor
 From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
+
+### Source order
 
 - [[sword-world-rpg-complete-edition-section-damage-expansion-e4ff56f7]] - previous source section: 《 Damage Expansion 》
 - [[sword-world-rpg-complete-edition-section-effect-expansion-b59d1d8c]] - next source section: 《 Effect Expansion 》
@@ -38,4 +40,5 @@ From [[sword-world-rpg-complete-edition]].
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-01717))_
 
+<a id="atom-technical-atom-750a934dd63fc1dd"></a>
 > you can add a +1 or +2 bonus to your final score.

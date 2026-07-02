@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-sample-magic-details-type-81d79973@8868b5bf74f6a1c79e7b8eee60f41d52
+projection_coverage: section-sword-world-rpg-complete-edition-section-sample-magic-details-type-81d79973@bdc225776afbd91241f71bf227efe337
 ---
 
 # [Sample Magic Details] / 《 Type 》
@@ -17,8 +17,13 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-sample-magic-details-cbfd0ab1]] - broader source section: [Sample Magic Details]
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-sample-magic-details-effect-4acf4d99]] - previous source section: [Sample Magic Details] / 《 Effect 》
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-sample-magic-details-cbfd0ab1]] - broader source section: [Sample Magic Details]
 
 ## Statements
 

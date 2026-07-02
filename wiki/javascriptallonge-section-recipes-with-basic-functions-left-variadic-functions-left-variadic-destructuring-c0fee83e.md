@@ -4,11 +4,11 @@ page_kind: source
 summary: Recipes with Basic Functions / Left-Variadic Functions / left-variadic destructuring: 7 source-backed entries and 1 atom(s) from raw/javascriptallonge.pdf.
 page_family: section-reference
 sources: raw/javascriptallonge.pdf
-updated: 2026-07-01
+updated: 2026-07-02
 domain: javascriptallonge
 category_path: sources/javascriptallonge/sections
 source_id: javascriptallonge.pdf
-projection_coverage: section-javascriptallonge-section-recipes-with-basic-functions-left-variadic-functions-left-variadic-destructuring-c0fee83e@3266d7def6cbcd2a0e29e4a33efeb0db
+projection_coverage: section-javascriptallonge-section-recipes-with-basic-functions-left-variadic-functions-left-variadic-destructuring-c0fee83e@ea5ec893a78fe0cc0360c97f84d48d7b
 ---
 
 # Recipes with Basic Functions / Left-Variadic Functions / left-variadic destructuring
@@ -17,8 +17,13 @@ From [[javascriptallonge]].
 
 ## Related pages
 
-- [[javascriptallonge-section-recipes-with-basic-functions-left-variadic-functions-c0cc9e6b]] - broader source section: Recipes with Basic Functions / Left-Variadic Functions
+### Source order
+
 - [[javascriptallonge-section-recipes-with-basic-functions-left-variadic-functions-overcoming-limitations-ba6c5a7e]] - previous source section: Recipes with Basic Functions / Left-Variadic Functions / overcoming limitations
+
+### Source structure
+
+- [[javascriptallonge-section-recipes-with-basic-functions-left-variadic-functions-c0cc9e6b]] - broader source section: Recipes with Basic Functions / Left-Variadic Functions
 
 ## Statements
 
@@ -36,6 +41,7 @@ From [[javascriptallonge]].
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00739))_
 
+<a id="atom-technical-atom-e604a49d9451c634"></a>
 ```
 const [...butLast, last] = ['why', 'hello', 'there', 'little', 'droid'];
 //=> Unexpected token

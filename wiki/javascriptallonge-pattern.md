@@ -4,10 +4,10 @@ page_kind: concept
 summary: Pattern: 8 statement(s) and 3 atom(s) from raw/javascriptallonge.pdf.
 page_family: broad-topic
 sources: raw/javascriptallonge.pdf
-updated: 2026-07-01
+updated: 2026-07-02
 domain: javascriptallonge
 category_path: concepts
-projection_coverage: topic-javascriptallonge-pattern@e6b90c58e96e15b6f4d32be6fb22f064
+projection_coverage: topic-javascriptallonge-pattern@a599cf9210f47a3a051652ec32363237
 ---
 
 # Pattern
@@ -55,6 +55,7 @@ What [[javascriptallonge]] covers about pattern:
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00400))_
 
+<a id="atom-technical-atom-f2e6dafd6f91a28c"></a>
 ```
 (diameter) =>
 // ...
@@ -68,6 +69,7 @@ What [[javascriptallonge]] covers about pattern:
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00583))_
 
+<a id="atom-technical-atom-6411c982006a8113"></a>
 > Of course, you needn't use combinators to implement either of these ideas, you can use if statements.
 
 ### Technical frame 3: Served by the Pot: Collections / Generating Iterables / generators and iterables
@@ -78,6 +80,7 @@ What [[javascriptallonge]] covers about pattern:
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01709))_
 
+<a id="atom-technical-atom-22b0cf12cabe801a"></a>
 ```
 const ThreeNumbers = {
 *[Symbol.iterator] () {
@@ -91,13 +94,18 @@ yield 3
 
 ## Related pages
 
+### Shared technical atoms
+
+- [[javascriptallonge-javascript]] - shared technical atoms: Javascript shares technical record from And also: / That Constant Coffee Craving / inside-out: (diameter) => // ... (2 shared atom(s))
 - [[javascriptallonge-generator]] - shared statements and technical atoms: Generator shares source evidence from Served by the Pot: Collections / Generating Iterables / generators and iterables: This pattern is encouraged, so much so that JavaScript provides a concise syntax for writing generator methods for objects:; Generator shares technical record from Served by the Pot: Collections / Generating Iterables / generators and iterables: const ThreeNumbers = { *[Symbol.iterator] () { yield 1; yield 2; yield 3 } } (1 shared statement(s), 1 shared atom(s))
 - [[javascriptallonge-iterable]] - shared statements and technical atoms: Iterable shares source evidence from Served by the Pot: Collections / Iteration and Iterables / operations on ordered collections: This illustrates the general pattern of working with ordered collections: We make them iterables , meaning that they have a [Symbol.iterator] method, that returns an ... [truncated]; Iterable shares technical record from Served by the Pot: Collections / Generating Iterables / generators and iterables: const ThreeNumbers = { *[Symbol.iterator] () { yield 1; yield 2; yield 3 } } (1 shared statement(s), 1 shared atom(s))
-- [[javascriptallonge-javascript]] - shared technical atoms: Javascript shares technical record from And also: / That Constant Coffee Craving / inside-out: (diameter) => // ... (2 shared atom(s))
 - [[javascriptallonge-expression]] - shared technical atoms: Expression shares technical record from And also: / That Constant Coffee Craving / inside-out: (diameter) => // ... (1 shared atom(s))
 - [[javascriptallonge-iterator]] - shared technical atoms: Iterator shares technical record from Served by the Pot: Collections / Generating Iterables / generators and iterables: const ThreeNumbers = { *[Symbol.iterator] () { yield 1; yield 2; yield 3 } } (1 shared atom(s))
 - [[javascriptallonge-method]] - shared technical atoms: Method shares technical record from Served by the Pot: Collections / Generating Iterables / generators and iterables: const ThreeNumbers = { *[Symbol.iterator] () { yield 1; yield 2; yield 3 } } (1 shared atom(s))
 - [[javascriptallonge-object]] - shared technical atoms: Object shares technical record from Served by the Pot: Collections / Generating Iterables / generators and iterables: const ThreeNumbers = { *[Symbol.iterator] () { yield 1; yield 2; yield 3 } } (1 shared atom(s))
+
+### Shared claims
+
 - [[javascriptallonge-mutation]] - shared statements: Mutation shares source evidence from Mutation / mutation and data structures: One pattern many people follow is to be liberal with mutation when constructing data, but conservative with mutation when consuming data. Let's recall linked lists f ... [truncated] (2 shared statement(s))
 - [[javascriptallonge-copy]] - shared statements: Copy shares source evidence from Copy on Write / a few utilities / copy-on-write: Looking at the code again, you see that the copy function doesn't copy on write: It follows the pattern that while constructing something, we own it and can be liber ... [truncated] (1 shared statement(s))
 - [[javascriptallonge-copy-write]] - shared statements: Copy on Write shares source evidence from Copy on Write / a few utilities / copy-on-write: Looking at the code again, you see that the copy function doesn't copy on write: It follows the pattern that while constructing something, we own it and can be liber ... [truncated] (1 shared statement(s))

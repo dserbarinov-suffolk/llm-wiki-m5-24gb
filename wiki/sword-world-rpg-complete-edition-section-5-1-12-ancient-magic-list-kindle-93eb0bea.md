@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-5-1-12-ancient-magic-list-kindle-93eb0bea@2a63ceab5451160915df44a9e87e2af5
+projection_coverage: section-sword-world-rpg-complete-edition-section-5-1-12-ancient-magic-list-kindle-93eb0bea@15677abc3236d56ee39f8058ddf954cc
 ---
 
 # 5.1.12 Ancient Magic List / [ Kindle ]
@@ -17,9 +17,14 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-5-1-12-ancient-magic-list-2e59bfee]] - broader source section: 5.1.12 Ancient Magic List
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-5-1-12-ancient-magic-list-dispel-magic-ee3f3308]] - previous source section: 5.1.12 Ancient Magic List / [ Dispel Magic ]
 - [[sword-world-rpg-complete-edition-section-5-1-12-ancient-magic-list-protection-e88ff913]] - next source section: 5.1.12 Ancient Magic List / [ Protection ]
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-5-1-12-ancient-magic-list-2e59bfee]] - broader source section: 5.1.12 Ancient Magic List
 
 ## Statements
 

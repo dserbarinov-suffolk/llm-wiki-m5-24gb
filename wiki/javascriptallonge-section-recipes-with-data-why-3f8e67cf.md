@@ -4,11 +4,11 @@ page_kind: source
 summary: Recipes with Data / Why?: 10 source-backed entries and 3 atom(s) from raw/javascriptallonge.pdf.
 page_family: section-reference
 sources: raw/javascriptallonge.pdf
-updated: 2026-07-01
+updated: 2026-07-02
 domain: javascriptallonge
 category_path: sources/javascriptallonge/sections
 source_id: javascriptallonge.pdf
-projection_coverage: section-javascriptallonge-section-recipes-with-data-why-3f8e67cf@1d0351b831277855effff05f8ea9dc00
+projection_coverage: section-javascriptallonge-section-recipes-with-data-why-3f8e67cf@100a486fa26c1f6e6da36d37b9556127
 ---
 
 # Recipes with Data / Why?
@@ -17,8 +17,13 @@ From [[javascriptallonge]].
 
 ## Related pages
 
-- [[javascriptallonge-section-recipes-with-data-57848af5]] - broader source section: Recipes with Data
+### Source order
+
 - [[javascriptallonge-section-recipes-with-data-object-assign-bd2a6434]] - previous source section: Recipes with Data / Object.assign
+
+### Source structure
+
+- [[javascriptallonge-section-recipes-with-data-57848af5]] - broader source section: Recipes with Data
 
 ## Statements
 
@@ -39,6 +44,7 @@ From [[javascriptallonge]].
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01482))_
 
+<a id="atom-technical-atom-d1b96ff557264db1"></a>
 ```
 This is the canonical Y Combinator86:
 const Y = (f) =>
@@ -59,6 +65,7 @@ return (n == 0 ? 1 : n * fac(n - 1));
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01483))_
 
+<a id="atom-technical-atom-2578924f7cb66241"></a>
 ```
 return function (n) {
 return (n == 0 ? 1
@@ -76,6 +83,7 @@ factorial(5)
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01488))_
 
+<a id="atom-technical-atom-660e1c47290a30df"></a>
 ```
 const Y = (f) => {
 const something = x => f(v => x(x)(v));

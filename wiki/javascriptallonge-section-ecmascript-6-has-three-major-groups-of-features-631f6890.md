@@ -4,11 +4,11 @@ page_kind: source
 summary: ECMAScript 6 has three major groups of features:: 27 source-backed entries and 2 atom(s) from raw/javascriptallonge.pdf.
 page_family: section-reference
 sources: raw/javascriptallonge.pdf
-updated: 2026-07-01
+updated: 2026-07-02
 domain: javascriptallonge
 category_path: sources/javascriptallonge/sections
 source_id: javascriptallonge.pdf
-projection_coverage: section-javascriptallonge-section-ecmascript-6-has-three-major-groups-of-features-631f6890@1b80219428cf0685f3705cc138953591
+projection_coverage: section-javascriptallonge-section-ecmascript-6-has-three-major-groups-of-features-631f6890@e4a12e087893d7ef32fddbd97a91a778
 ---
 
 # ECMAScript 6 has three major groups of features:
@@ -17,10 +17,15 @@ From [[javascriptallonge]].
 
 ## Related pages
 
-- [[javascriptallonge-section-ecmascript-6-has-three-major-groups-of-features-forewords-to-the-first-edition-822b044c]] - narrower source section: ECMAScript 6 has three major groups of features: / Forewords to the First Edition
-- [[javascriptallonge-section-ecmascript-6-has-three-major-groups-of-features-about-the-sample-pdf-1735a824]] - narrower source section: ECMAScript 6 has three major groups of features: / About The Sample PDF
+### Source order
+
 - [[javascriptallonge-section-a-pull-of-the-lever-prefaces-b60951a1]] - previous source section: A Pull of the Lever: Prefaces
 - [[javascriptallonge-section-prelude-values-and-expressions-over-coffee-beffef42]] - next source section: Prelude: Values and Expressions over Coffee
+
+### Source structure
+
+- [[javascriptallonge-section-ecmascript-6-has-three-major-groups-of-features-about-the-sample-pdf-1735a824]] - narrower source section: ECMAScript 6 has three major groups of features: / About The Sample PDF
+- [[javascriptallonge-section-ecmascript-6-has-three-major-groups-of-features-forewords-to-the-first-edition-822b044c]] - narrower source section: ECMAScript 6 has three major groups of features: / Forewords to the First Edition
 
 ## Statements
 
@@ -55,6 +60,7 @@ From [[javascriptallonge]].
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00083))_
 
+<a id="atom-technical-atom-8d2772ab4d71ef15"></a>
 ```text
 2 http://www.2ality.com
 4 http://exploringjs.com
@@ -76,6 +82,7 @@ From [[javascriptallonge]].
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00093))_
 
+<a id="atom-technical-atom-5b4deb9766edbcd4"></a>
 ```text
 matthew knox
 A different kind of language requires a different kind of book.

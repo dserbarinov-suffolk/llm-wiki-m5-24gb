@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-11-notes-on-magic-11-3-dragon-roar-magic-2nd-level-dragon-roar-magic-list-poison-proof-5e379620@fad80de09758c16442162efda1c5d7d3
+projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-11-notes-on-magic-11-3-dragon-roar-magic-2nd-level-dragon-roar-magic-list-poison-proof-5e379620@7fecac71acdaabf338ea448178b0cdc0
 ---
 
 # Chapter 11: Notes on Magic / 11.3 Dragon Roar Magic / 2nd Level Dragon Roar Magic List / Poison Proof ]
@@ -16,6 +16,8 @@ projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-11
 From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
+
+### Source structure
 
 - [[sword-world-rpg-complete-edition-section-chapter-11-notes-on-magic-11-3-dragon-roar-magic-2nd-level-dragon-roar-magic-list-eede9404]] - broader source section: Chapter 11: Notes on Magic / 11.3 Dragon Roar Magic / 2nd Level Dragon Roar Magic List
 

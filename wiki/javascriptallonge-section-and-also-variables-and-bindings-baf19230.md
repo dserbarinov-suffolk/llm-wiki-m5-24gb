@@ -4,11 +4,11 @@ page_kind: source
 summary: And also: / variables and bindings: 20 source-backed entries and 0 atom(s) from raw/javascriptallonge.pdf.
 page_family: section-reference
 sources: raw/javascriptallonge.pdf
-updated: 2026-07-01
+updated: 2026-07-02
 domain: javascriptallonge
 category_path: sources/javascriptallonge/sections
 source_id: javascriptallonge.pdf
-projection_coverage: section-javascriptallonge-section-and-also-variables-and-bindings-baf19230@0cc58f972024a0ee4868ed2117892ac2
+projection_coverage: section-javascriptallonge-section-and-also-variables-and-bindings-baf19230@c7a0cea0efc611fec7b5845da3ad5ab9
 ---
 
 # And also: / variables and bindings
@@ -17,9 +17,14 @@ From [[javascriptallonge]].
 
 ## Related pages
 
-- [[javascriptallonge-section-and-also-0e29dfba]] - broader source section: And also:
+### Source order
+
 - [[javascriptallonge-section-and-also-ah-i-d-like-to-have-an-argument-please-22-1153c61b]] - previous source section: And also: / Ah. I'd Like to Have an Argument, Please. 22
 - [[javascriptallonge-section-and-also-call-by-sharing-db439a98]] - next source section: And also: / call by sharing
+
+### Source structure
+
+- [[javascriptallonge-section-and-also-0e29dfba]] - broader source section: And also:
 
 ## Statements
 

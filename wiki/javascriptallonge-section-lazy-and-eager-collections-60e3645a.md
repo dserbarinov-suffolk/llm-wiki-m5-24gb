@@ -4,11 +4,11 @@ page_kind: source
 summary: Lazy and Eager Collections: 59 source-backed entries and 4 atom(s) from raw/javascriptallonge.pdf.
 page_family: section-reference
 sources: raw/javascriptallonge.pdf
-updated: 2026-07-01
+updated: 2026-07-02
 domain: javascriptallonge
 category_path: sources/javascriptallonge/sections
 source_id: javascriptallonge.pdf
-projection_coverage: section-javascriptallonge-section-lazy-and-eager-collections-60e3645a@2ce6938e6b59b3c5058ce74791a3afb1
+projection_coverage: section-javascriptallonge-section-lazy-and-eager-collections-60e3645a@164809bd7b27b7ed54251103c9294307
 ---
 
 # Lazy and Eager Collections
@@ -17,11 +17,16 @@ From [[javascriptallonge]].
 
 ## Related pages
 
-- [[javascriptallonge-section-lazy-and-eager-collections-implementing-methods-with-iteration-e2493942]] - narrower source section: Lazy and Eager Collections / implementing methods with iteration
-- [[javascriptallonge-section-lazy-and-eager-collections-lazy-collection-operations-358e58c2]] - narrower source section: Lazy and Eager Collections / lazy collection operations
-- [[javascriptallonge-section-lazy-and-eager-collections-eager-collections-4dcc549f]] - narrower source section: Lazy and Eager Collections / eager collections
+### Source order
+
 - [[javascriptallonge-section-served-by-the-pot-collections-14399de3]] - previous source section: Served by the Pot: Collections
 - [[javascriptallonge-section-interlude-the-carpenter-interviews-for-a-job-2e3e33f6]] - next source section: Interlude: The Carpenter Interviews for a Job
+
+### Source structure
+
+- [[javascriptallonge-section-lazy-and-eager-collections-eager-collections-4dcc549f]] - narrower source section: Lazy and Eager Collections / eager collections
+- [[javascriptallonge-section-lazy-and-eager-collections-implementing-methods-with-iteration-e2493942]] - narrower source section: Lazy and Eager Collections / implementing methods with iteration
+- [[javascriptallonge-section-lazy-and-eager-collections-lazy-collection-operations-358e58c2]] - narrower source section: Lazy and Eager Collections / lazy collection operations
 
 ## Statements
 
@@ -72,6 +77,7 @@ From [[javascriptallonge]].
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01795))_
 
+<a id="atom-technical-atom-5f902340f55c79d4"></a>
 ```
 const Numbers = Object.assign({
 [Symbol.iterator]: () => {
@@ -98,6 +104,7 @@ Numbers
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01799))_
 
+<a id="atom-technical-atom-ad76bed54ae2e76c"></a>
 ```
 const extend = function (consumer, ...providers) {
 for (let i = 0; i < providers.length; ++i) {
@@ -120,6 +127,7 @@ return consumer
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01800))_
 
+<a id="atom-technical-atom-305ec57a4cbf73ac"></a>
 ```
 const EagerCollection = (gatherable) =>
 ({
@@ -167,6 +175,7 @@ until(fn) {
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01801))_
 
+<a id="atom-technical-atom-72390dcacd432825"></a>
 ```
 const original = this;
 return gatherable.from(

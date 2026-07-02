@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-deathlike-sleep-dose-white-marble-inhaled-magic-midnight-scream-touch-mind-e0313fb5@ed2e88b001b9f84d6b12bcb147dcf6e6
+projection_coverage: section-sword-world-rpg-complete-edition-section-deathlike-sleep-dose-white-marble-inhaled-magic-midnight-scream-touch-mind-e0313fb5@b8fd1d21fe0888c29a2797206200344e
 ---
 
 # [Deathlike Sleep (Dose)] / [White Marble (Inhaled/Magic)] / [Midnight Scream (Touch/Mind)]
@@ -17,8 +17,13 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-deathlike-sleep-dose-white-marble-inhaled-magic-17b4b9a5]] - broader source section: [Deathlike Sleep (Dose)] / [White Marble (Inhaled/Magic)]
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-deathlike-sleep-dose-white-marble-inhaled-magic-moonlight-drone-dose-magic-e5cc049b]] - next source section: [Deathlike Sleep (Dose)] / [White Marble (Inhaled/Magic)] / [Moonlight Drone (Dose/Magic)]
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-deathlike-sleep-dose-white-marble-inhaled-magic-17b4b9a5]] - broader source section: [Deathlike Sleep (Dose)] / [White Marble (Inhaled/Magic)]
 
 ## Statements
 

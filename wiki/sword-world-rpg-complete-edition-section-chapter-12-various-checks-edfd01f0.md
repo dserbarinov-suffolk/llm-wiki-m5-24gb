@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-12-various-checks-edfd01f0@3f167b75245f17b39e4d02bfa31c9075
+projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-12-various-checks-edfd01f0@37fee72f5fa189972d61e01b12492d31
 ---
 
 # Chapter 12: Various Checks
@@ -17,10 +17,15 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-chapter-12-various-checks-12-1-rules-regarding-language-5c470256]] - narrower source section: Chapter 12: Various Checks / 12.1 Rules Regarding Language
-- [[sword-world-rpg-complete-edition-section-chapter-12-various-checks-c4b81b14]] - narrower source section: Chapter 12: Various Checks
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-10th-level-dragon-roar-magic-list-reborn-dragon-e7d7b94a]] - previous source section: 10th Level Dragon Roar Magic List [ Reborn Dragon ]
 - [[sword-world-rpg-complete-edition-section-ale-dose-6cad4963]] - next source section: [ Ale (Dose) ]
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-chapter-12-various-checks-12-1-rules-regarding-language-5c470256]] - narrower source section: Chapter 12: Various Checks / 12.1 Rules Regarding Language
+- [[sword-world-rpg-complete-edition-section-chapter-12-various-checks-c4b81b14]] - narrower source section: Chapter 12: Various Checks
 
 ## Statements by subsection
 
@@ -174,6 +179,7 @@ From [[sword-world-rpg-complete-edition]].
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-05433))_
 
+<a id="atom-technical-atom-5463aa8393578628"></a>
 | High | ancient | Yes | [ | Common | ] | Not | among | the | monsters | in | this | book |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | Silent | spirit | No | Soldier (knight, | knight | leader) |  |  |  |  |  |  |  |
@@ -204,6 +210,7 @@ Table 12-1: Languages table below lists the languages used by
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-05531))_
 
+<a id="atom-technical-atom-60008690a2ba6359"></a>
 ```text
 12.2.1.2 Resistance to Poison
 Poisons are not effective against everything. It has no effect on monsters that have no life such as undead, golems, etc.  Some  mythical  and  magical  beasts have  strong  life  force  that  makes  them immune to poison. Some poison effects may or may not affect specific monsters.

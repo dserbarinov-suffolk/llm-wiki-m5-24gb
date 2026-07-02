@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-11-notes-on-magic-11-2-dark-magic-10th-level-basic-dark-magic-list-call-god-32bbe070@7776039dc5b266d96d083d3fe76039b1
+projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-11-notes-on-magic-11-2-dark-magic-10th-level-basic-dark-magic-list-call-god-32bbe070@f8ba659a4b866eaaa845d001ea792a46
 ---
 
 # Chapter 11: Notes on Magic / 11.2 Dark Magic / 10th Level Basic Dark Magic List [ Call God ]
@@ -17,9 +17,14 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-chapter-11-notes-on-magic-11-2-dark-magic-3498c004]] - broader source section: Chapter 11: Notes on Magic / 11.2 Dark Magic
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-chapter-11-notes-on-magic-11-2-dark-magic-9th-level-basic-dark-magic-list-plague-02ff19b7]] - previous source section: Chapter 11: Notes on Magic / 11.2 Dark Magic / 9th Level Basic Dark Magic List [ Plague ]
 - [[sword-world-rpg-complete-edition-section-chapter-11-notes-on-magic-11-2-dark-magic-11-2-3-special-dark-magic-list-87e60851]] - next source section: Chapter 11: Notes on Magic / 11.2 Dark Magic / 11.2.3 Special Dark Magic List
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-chapter-11-notes-on-magic-11-2-dark-magic-3498c004]] - broader source section: Chapter 11: Notes on Magic / 11.2 Dark Magic
 
 ## Statements
 

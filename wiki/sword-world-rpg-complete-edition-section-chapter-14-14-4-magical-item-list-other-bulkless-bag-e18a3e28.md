@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-other-bulkless-bag-e18a3e28@7a4b9e6919399af0d4a760e19d06d86c
+projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-other-bulkless-bag-e18a3e28@110961e38233869497ebcf0363725267
 ---
 
 # Chapter 14: / 14.4 Magical Item List / 《 Other 》 / [ Bulkless Bag ]
@@ -17,9 +17,14 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-other-ae5b041d]] - broader source section: Chapter 14: / 14.4 Magical Item List / 《 Other 》
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-other-bag-of-protection-52f4824a]] - previous source section: Chapter 14: / 14.4 Magical Item List / 《 Other 》 / [ Bag of Protection ]
 - [[sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-other-forging-sheath-550e7182]] - next source section: Chapter 14: / 14.4 Magical Item List / 《 Other 》 / [ Forging Sheath ]
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-other-ae5b041d]] - broader source section: Chapter 14: / 14.4 Magical Item List / 《 Other 》
 
 ## Statements
 
@@ -39,14 +44,19 @@ From [[sword-world-rpg-complete-edition]].
 
 **Atoms:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-09909, source-range-0d48087c-09910, source-range-0d48087c-09911, source-range-0d48087c-09912, source-range-0d48087c-09913))_
 
+<a id="atom-technical-atom-63731474525c9380"></a>
 > Rarity=14
 
+<a id="atom-technical-atom-c9ab6fd6aa08d8b8"></a>
 > Enchanter=Many
 
+<a id="atom-technical-atom-4c949a16f13efc14"></a>
 > Form=Lightly colored backpack
 
+<a id="atom-technical-atom-87e200d43a319efb"></a>
 > Base Trade Price=200,000 gamels
 
+<a id="atom-technical-atom-07662371e635d05b"></a>
 > Powers=You can put objects in regardless of size
 
 ### Technical frame 2: Chapter 14: / 14.4 Magical Item List / 《 Other 》 / [ Bulkless Bag ]
@@ -57,4 +67,5 @@ From [[sword-world-rpg-complete-edition]].
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-09914))_
 
+<a id="atom-technical-atom-f639a809592abb21"></a>
 > To take it out, put your hand inside and think of the object itself (you can also take it out with a vague thought, but it's not reliable).

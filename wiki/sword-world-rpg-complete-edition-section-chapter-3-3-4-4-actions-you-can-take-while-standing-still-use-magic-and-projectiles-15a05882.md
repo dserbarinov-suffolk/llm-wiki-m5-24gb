@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-3-3-4-4-actions-you-can-take-while-standing-still-use-magic-and-projectiles-15a05882@c914066932210555441c9c7f8a6afc52
+projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-3-3-4-4-actions-you-can-take-while-standing-still-use-magic-and-projectiles-15a05882@54224321ba4f4587ff7899dd5be100d6
 ---
 
 # Chapter 3: / 3.4.4 Actions You Can Take While Standing Still / Use Magic and Projectiles
@@ -17,8 +17,13 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-chapter-3-3-4-4-actions-you-can-take-while-standing-still-ac427570]] - broader source section: Chapter 3: / 3.4.4 Actions You Can Take While Standing Still
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-chapter-3-3-4-4-actions-you-can-take-while-standing-still-stand-up-and-ready-yourself-ff0f3432]] - next source section: Chapter 3: / 3.4.4 Actions You Can Take While Standing Still / Stand Up and Ready Yourself
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-chapter-3-3-4-4-actions-you-can-take-while-standing-still-ac427570]] - broader source section: Chapter 3: / 3.4.4 Actions You Can Take While Standing Still
 
 ## Statements
 
@@ -36,4 +41,5 @@ From [[sword-world-rpg-complete-edition]].
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-01167))_
 
+<a id="atom-technical-atom-86791c94ae83cbd9"></a>
 > If you want to attack with a projectile, please follow the process of actions you can take during normal movement .

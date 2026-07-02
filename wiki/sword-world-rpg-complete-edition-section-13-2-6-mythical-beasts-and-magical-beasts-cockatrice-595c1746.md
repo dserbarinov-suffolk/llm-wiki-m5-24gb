@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-13-2-6-mythical-beasts-and-magical-beasts-cockatrice-595c1746@ae9744670a7e19142023af66ab937fcb
+projection_coverage: section-sword-world-rpg-complete-edition-section-13-2-6-mythical-beasts-and-magical-beasts-cockatrice-595c1746@130251216e0386440624f27d63565d91
 ---
 
 # 13.2.6 Mythical Beasts and Magical Beasts / [ Cockatrice ]
@@ -17,9 +17,14 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-13-2-6-mythical-beasts-and-magical-beasts-f86962d2]] - broader source section: 13.2.6 Mythical Beasts and Magical Beasts
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-13-2-6-mythical-beasts-and-magical-beasts-centaur-abf0f164]] - previous source section: 13.2.6 Mythical Beasts and Magical Beasts / [ Centaur ]
 - [[sword-world-rpg-complete-edition-section-13-2-6-mythical-beasts-and-magical-beasts-scylla-monster-level-4-rarity-13-agility-12-movement-s-ea917130]] - next source section: 13.2.6 Mythical Beasts and Magical Beasts / [ Scylla ] Monster Level=4 Rarity=13 Agility=12 Movement Speed=12/12 (water) Number=One Frequency=Rare Intellect=Human Reaction=Adversarial
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-13-2-6-mythical-beasts-and-magical-beasts-f86962d2]] - broader source section: 13.2.6 Mythical Beasts and Magical Beasts
 
 ## Statements
 
@@ -37,4 +42,5 @@ From [[sword-world-rpg-complete-edition]].
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-06498))_
 
+<a id="atom-technical-atom-2dd0b980fba26e3e"></a>
 > If you find and eat henruda in advance, you can neutralize the cockatrice's magical power and prevent being petrified.

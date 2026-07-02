@@ -7,7 +7,7 @@ sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: concepts
-projection_coverage: topic-sword-world-rpg-complete-edition-weapon-critical@5bf8f4d5ab805d92f1dce031f7b02d40
+projection_coverage: topic-sword-world-rpg-complete-edition-weapon-critical@cf1198d265d3b17a53e8aaf952d09fd5
 ---
 
 # 《 Weapons Cannot Critical 》
@@ -81,6 +81,7 @@ What [[sword-world-rpg-complete-edition]] covers about 《 weapons cannot critic
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-10045))_
 
+<a id="atom-technical-atom-2e4e68dee50a01bf"></a>
 | differ | in | ease | of | use | and | power. | This | rule | Axes/2H | ±0 | +10 | 11* |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | quantifies weapons used Optional explained | Here by The | the and Weapon is adventurers Rules"). terms below. | armor. a table | finer used | differences Modifiers of weapons ("Table on | 16-1 this | between commonly Weapon table | are | Spears/1H Spears/2H Maces/1H Maces/2H Clubs/1H Staves/2H Flails/1H Flails/2H War Hammer/1H War Hammer/2H Bows Crossbow | -1 ±0 +1 +1 +1 +1 -1 -1 -1 -2 ±0 ±0 | +5 +5 +5 +10 ±0 +5 +5 +10 +5 +15 +5 +10 | 10* 10* 12 12 12 12 10 10 10 10 10* 10* |
@@ -107,20 +108,29 @@ Table 16-1 Weapon Optional Rules
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-10643))_
 
+<a id="atom-technical-atom-8c00a4d0dca05b4e"></a>
 > Special = If you cast Fire Weapon magic, not only will strike power increase by +10, even weapons that cannot cause criticals will now be able to cause criticals (defense points are effective).
 
 
 ## Related pages
 
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-13-2-6-mythical-beasts-and-magical-beasts-horse-13-6-handling-monster-special-abilities-certain-6c52a35a]] - source section: 13.2.6 Mythical Beasts and Magical Beasts / [ Horse ] / 13.6 Handling Monster Special Abilities / 《 Certain Weapons Cannot Critical 》 shares source evidence from 13.2.6 Mythical Beasts and Magical Beasts / [ Horse ] / 13.6 Handling Monster Special Abilities / 《 Certain Weapons Cannot Critical 》: There are weapons that cannot deliver effective strikes due to their form, etc. Attacks with the indicated weapon, no matter how powerful or magical it is, will neve ... [truncated] (2 shared statement(s))
+- [[sword-world-rpg-complete-edition-section-13-2-6-mythical-beasts-and-magical-beasts-horse-13-6-handling-monster-special-abilities-weapons-e9a1ee61]] - source section: 13.2.6 Mythical Beasts and Magical Beasts / [ Horse ] / 13.6 Handling Monster Special Abilities / 《 Weapons Cannot Critical 》 shares source evidence from 13.2.6 Mythical Beasts and Magical Beasts / [ Horse ] / 13.6 Handling Monster Special Abilities / 《 Weapons Cannot Critical 》: Weapons do not deal additional damage from criticals. (1 shared statement(s))
+
+### Shared technical atoms
+
 - [[sword-world-rpg-complete-edition-critical-target-variation]] - shared statements and technical atoms: Critical Target Variation shares source evidence from Chapter 3: / 3.4.4 Actions You Can Take While Standing Still / Scores Used in Weapon Combat / Filling out the Character Sheet: The entry fields may seem complicated, but this is to assist you when using Chapter 16: Optional Rules for Combat (see p. 260). Now, don't worry about it too much. I ... [truncated]; Critical Target Variation shares technical record from Table 16-1 Weapon Optional Rules: Table 16-1 Weapon Optional Rules | differ | in | ease | of | use | and | power. | This | rule | Axes/2H | ±0 | +10 | 11* | | --- | --- | --- | --- | --- | --- | --- ... [truncated] (8 shared statement(s), 1 shared atom(s))
 - [[sword-world-rpg-complete-edition-16-weapon]] - shared statements and technical atoms: 16 Weapon shares source evidence from Chapter 16: / 16.2 Weapon and Armor Modifiers / Critical Target Variation: Under the basic rules, when using the Rating Table to determine damage, a 10 or greater is considered a critical , but with this rule, the chance of a critical is di ... [truncated]; 16 Weapon shares technical record from Table 16-1 Weapon Optional Rules: Table 16-1 Weapon Optional Rules | differ | in | ease | of | use | and | power. | This | rule | Axes/2H | ±0 | +10 | 11* | | --- | --- | --- | --- | --- | --- | --- ... [truncated] (2 shared statement(s), 1 shared atom(s))
+
+### Shared claims
+
 - [[sword-world-rpg-complete-edition-attack-character-monster]] - shared statements: Attacks From Characters Against Monsters shares source evidence from 13.2.6 Mythical Beasts and Magical Beasts / [ Horse ] / 13.2.10 Magical Creatures / [ Golem ]: Monster Level=9 Rarity=12 Agility=6 Movement Speed=8 Number=One Frequency=Rare Intellect=Obeys commands Reaction=Command-based Attack Points=Arms:17 (10) Strike Poin ... [truncated] (1 shared statement(s))
 - [[sword-world-rpg-complete-edition-attack-monster-character]] - shared statements: Attacks From Monsters Against Characters shares source evidence from 13.2.6 Mythical Beasts and Magical Beasts / [ Horse ] / 13.2.10 Magical Creatures / [ Golem ]: Monster Level=9 Rarity=12 Agility=6 Movement Speed=8 Number=One Frequency=Rare Intellect=Obeys commands Reaction=Command-based Attack Points=Arms:17 (10) Strike Poin ... [truncated] (1 shared statement(s))
 - [[sword-world-rpg-complete-edition-bonus-damage]] - shared statements: 【 Bonus Damage 】 shares source evidence from Chapter 3: / 3.4.4 Actions You Can Take While Standing Still / Scores Used in Weapon Combat / Filling out the Character Sheet: The entry fields may seem complicated, but this is to assist you when using Chapter 16: Optional Rules for Combat (see p. 260). Now, don't worry about it too much. I ... [truncated] (1 shared statement(s))
 - [[sword-world-rpg-complete-edition-damage-reduction]] - shared statements: 【 Damage Reduction 】 shares source evidence from Chapter 3: / 3.4.4 Actions You Can Take While Standing Still / Scores Used in Weapon Combat / Filling out the Character Sheet: The entry fields may seem complicated, but this is to assist you when using Chapter 16: Optional Rules for Combat (see p. 260). Now, don't worry about it too much. I ... [truncated] (1 shared statement(s))
 - [[sword-world-rpg-complete-edition-filling-character-sheet]] - shared statements: 1.4.9 Filling Out the Character Sheet shares source evidence from Chapter 3: / 3.4.4 Actions You Can Take While Standing Still / Scores Used in Weapon Combat / Filling out the Character Sheet: The entry fields may seem complicated, but this is to assist you when using Chapter 16: Optional Rules for Combat (see p. 260). Now, don't worry about it too much. I ... [truncated] (1 shared statement(s))
-- [[sword-world-rpg-complete-edition-section-13-2-6-mythical-beasts-and-magical-beasts-horse-13-6-handling-monster-special-abilities-weapons-e9a1ee61]] - source section: 13.2.6 Mythical Beasts and Magical Beasts / [ Horse ] / 13.6 Handling Monster Special Abilities / 《 Weapons Cannot Critical 》 shares source evidence from 13.2.6 Mythical Beasts and Magical Beasts / [ Horse ] / 13.6 Handling Monster Special Abilities / 《 Weapons Cannot Critical 》: Weapons do not deal additional damage from criticals. (1 shared statement(s))
-- [[sword-world-rpg-complete-edition-section-13-2-6-mythical-beasts-and-magical-beasts-horse-13-6-handling-monster-special-abilities-certain-6c52a35a]] - source section: 13.2.6 Mythical Beasts and Magical Beasts / [ Horse ] / 13.6 Handling Monster Special Abilities / 《 Certain Weapons Cannot Critical 》 shares source evidence from 13.2.6 Mythical Beasts and Magical Beasts / [ Horse ] / 13.6 Handling Monster Special Abilities / 《 Certain Weapons Cannot Critical 》: There are weapons that cannot deliver effective strikes due to their form, etc. Attacks with the indicated weapon, no matter how powerful or magical it is, will neve ... [truncated] (2 shared statement(s))
 
 ## Source
 

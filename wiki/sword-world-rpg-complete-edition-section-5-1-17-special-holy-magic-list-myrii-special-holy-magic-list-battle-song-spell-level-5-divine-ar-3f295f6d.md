@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-5-1-17-special-holy-magic-list-myrii-special-holy-magic-list-battle-song-spell-level-5-divine-ar-3f295f6d@2c4551d6fef906e387b8188d903051b2
+projection_coverage: section-sword-world-rpg-complete-edition-section-5-1-17-special-holy-magic-list-myrii-special-holy-magic-list-battle-song-spell-level-5-divine-ar-3f295f6d@66bc7edda5f1bf0be1eec580bec14e5a
 ---
 
 # 5.1.17 Special Holy Magic List / Myrii Special Holy Magic List [ Battle Song ] (Spell Level=5) / [ Divine Armor ] (Spell Level=7)
@@ -16,6 +16,8 @@ projection_coverage: section-sword-world-rpg-complete-edition-section-5-1-17-spe
 From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
+
+### Source structure
 
 - [[sword-world-rpg-complete-edition-section-5-1-17-special-holy-magic-list-myrii-special-holy-magic-list-battle-song-spell-level-5-c41ce112]] - broader source section: 5.1.17 Special Holy Magic List / Myrii Special Holy Magic List [ Battle Song ] (Spell Level=5)
 

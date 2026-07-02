@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-16-16-5-combat-options-grapple-7c1eacef@fb7e7a2b5f2cf14c6611c2c55b614dea
+projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-16-16-5-combat-options-grapple-7c1eacef@e3db01af17f41d08d787e41351ec3f9d
 ---
 
 # Chapter 16: / 16.5 Combat Options / Grapple
@@ -17,9 +17,14 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-chapter-16-16-5-combat-options-cdfeb0d1]] - broader source section: Chapter 16: / 16.5 Combat Options
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-chapter-16-16-5-combat-options-mow-down-0c578acc]] - previous source section: Chapter 16: / 16.5 Combat Options / Mow Down
 - [[sword-world-rpg-complete-edition-section-chapter-16-16-5-combat-options-ram-2d591984]] - next source section: Chapter 16: / 16.5 Combat Options / Ram
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-chapter-16-16-5-combat-options-cdfeb0d1]] - broader source section: Chapter 16: / 16.5 Combat Options
 
 ## Statements
 
@@ -47,6 +52,7 @@ From [[sword-world-rpg-complete-edition]].
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-10356))_
 
+<a id="atom-technical-atom-ccd5afa03cca2293"></a>
 ```text
 1. Normal Attack
 Attack  with  a  dagger,  barehanded (claws, talons),  cestus, etc. If  a monster has  fangs,  it  can  also  bite.  Opponents have a -2 penalty to evasion.
@@ -89,4 +95,5 @@ Ancient magic, spirit magic,  and spellsongs cannot be used.
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-10358))_
 
+<a id="atom-technical-atom-991e07bf6e38f4ac"></a>
 > Those being strangled or pinned down cannot attempt to escape from a grapple unless they fi rst escape from those conditions.

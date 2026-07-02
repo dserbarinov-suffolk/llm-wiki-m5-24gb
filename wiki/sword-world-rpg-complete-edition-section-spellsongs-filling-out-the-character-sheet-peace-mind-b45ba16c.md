@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-spellsongs-filling-out-the-character-sheet-peace-mind-b45ba16c@0e4a9434377eac2fe5bead306d6bbfd5
+projection_coverage: section-sword-world-rpg-complete-edition-section-spellsongs-filling-out-the-character-sheet-peace-mind-b45ba16c@01e5d9d719d6f919eb22049f12a56368
 ---
 
 # Spellsongs / Filling out the Character Sheet / Peace (Mind)
@@ -17,9 +17,14 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-spellsongs-filling-out-the-character-sheet-866f5da1]] - broader source section: Spellsongs / Filling out the Character Sheet
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-spellsongs-filling-out-the-character-sheet-nostalgia-mind-4f5a42c9]] - previous source section: Spellsongs / Filling out the Character Sheet / Nostalgia (Mind)
 - [[sword-world-rpg-complete-edition-section-spellsongs-filling-out-the-character-sheet-healing-37de0f6b]] - next source section: Spellsongs / Filling out the Character Sheet / Healing
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-spellsongs-filling-out-the-character-sheet-866f5da1]] - broader source section: Spellsongs / Filling out the Character Sheet
 
 ## Statements
 

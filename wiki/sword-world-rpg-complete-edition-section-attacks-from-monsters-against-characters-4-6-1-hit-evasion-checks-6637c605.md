@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-attacks-from-monsters-against-characters-4-6-1-hit-evasion-checks-6637c605@b16516ab88836df8efe582d35cd34c18
+projection_coverage: section-sword-world-rpg-complete-edition-section-attacks-from-monsters-against-characters-4-6-1-hit-evasion-checks-6637c605@d1602cfe8e1f76e4ddffb4a3699d1a88
 ---
 
 # Attacks From Monsters Against Characters / 4.6.1 Hit (Evasion) Checks
@@ -16,6 +16,8 @@ projection_coverage: section-sword-world-rpg-complete-edition-section-attacks-fr
 From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
+
+### Source structure
 
 - [[sword-world-rpg-complete-edition-section-attacks-from-monsters-against-characters-a9a9211c]] - broader source section: Attacks From Monsters Against Characters
 

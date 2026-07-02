@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-4-10-excellent-weapons-and-armor-4-10-4-mithril-silver-weapons-and-armor-when-an-adventurer-cast-9777c07e@49828b2acc6dddc80226554a859794e7
+projection_coverage: section-sword-world-rpg-complete-edition-section-4-10-excellent-weapons-and-armor-4-10-4-mithril-silver-weapons-and-armor-when-an-adventurer-cast-9777c07e@ac4ab604f52e438047021302da8ed216
 ---
 
 # 4.10 Excellent Weapons and Armor / 4.10.4 Mithril Silver Weapons and Armor / When an Adventurer Casts Magic on Monsters
@@ -17,9 +17,14 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-4-10-excellent-weapons-and-armor-4-10-4-mithril-silver-weapons-and-armor-8cb5003a]] - broader source section: 4.10 Excellent Weapons and Armor / 4.10.4 Mithril Silver Weapons and Armor
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-4-10-excellent-weapons-and-armor-4-10-4-mithril-silver-weapons-and-armor-basic-rules-of-magic-39bb4a82]] - previous source section: 4.10 Excellent Weapons and Armor / 4.10.4 Mithril Silver Weapons and Armor / Basic Rules of Magic
 - [[sword-world-rpg-complete-edition-section-4-10-excellent-weapons-and-armor-4-10-4-mithril-silver-weapons-and-armor-when-a-monster-casts-ma-b1e30d11]] - next source section: 4.10 Excellent Weapons and Armor / 4.10.4 Mithril Silver Weapons and Armor / When a Monster Casts Magic on Adventurers
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-4-10-excellent-weapons-and-armor-4-10-4-mithril-silver-weapons-and-armor-8cb5003a]] - broader source section: 4.10 Excellent Weapons and Armor / 4.10.4 Mithril Silver Weapons and Armor
 
 ## Statements
 
@@ -38,4 +43,5 @@ From [[sword-world-rpg-complete-edition]].
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-01633))_
 
+<a id="atom-technical-atom-041d30012c2337b7"></a>
 > The player rolls the dice four times and for each one must determine whether the magic breaks through the resist and takes its full effect.

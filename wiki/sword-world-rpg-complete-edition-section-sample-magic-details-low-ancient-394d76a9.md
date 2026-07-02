@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-sample-magic-details-low-ancient-394d76a9@769fcb52eab47c7050a87437edee4edd
+projection_coverage: section-sword-world-rpg-complete-edition-section-sample-magic-details-low-ancient-394d76a9@1e93b9539761290f9c30f56840ab9d39
 ---
 
 # [Sample Magic Details] / 《 Low Ancient 》
@@ -17,9 +17,17 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-sample-magic-details-cbfd0ab1]] - broader source section: [Sample Magic Details]
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-sample-magic-details-high-ancient-3f3964e5]] - previous source section: [Sample Magic Details] / 《 High Ancient 》
 - [[sword-world-rpg-complete-edition-section-sample-magic-details-spellbook-cef5cb5e]] - next source section: [Sample Magic Details] / 《 Spellbook 》
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-sample-magic-details-cbfd0ab1]] - broader source section: [Sample Magic Details]
+
+### Topics
+
 - [[sword-world-rpg-complete-edition-low-ancient]] - topic hub: opens the topic page for Low Ancient
 
 ## Statements

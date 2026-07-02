@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-welcome-to-sword-world-6fb5cf53@8afe811657fef3d1951400937e4cb34f
+projection_coverage: section-sword-world-rpg-complete-edition-section-welcome-to-sword-world-6fb5cf53@6113c98e530eace7630253ab3b49600e
 ---
 
 # Welcome to Sword World!
@@ -16,6 +16,8 @@ projection_coverage: section-sword-world-rpg-complete-edition-section-welcome-to
 From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
+
+### Source order
 
 - [[sword-world-rpg-complete-edition-section-the-structure-of-the-rulebook-cbc9e039]] - previous source section: The Structure of the Rulebook
 - [[sword-world-rpg-complete-edition-section-part-1-player-section-0facef52]] - next source section: Part 1 Player Section

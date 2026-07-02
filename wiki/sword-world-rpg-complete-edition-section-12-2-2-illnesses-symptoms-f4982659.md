@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-12-2-2-illnesses-symptoms-f4982659@6e4edd6c666660038ef9b572bf317764
+projection_coverage: section-sword-world-rpg-complete-edition-section-12-2-2-illnesses-symptoms-f4982659@65db9b3b0c371a687c5cc3fecfc56a95
 ---
 
 # 12.2.2 Illnesses / 《 Symptoms 》
@@ -17,9 +17,14 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-12-2-2-illnesses-5611d07e]] - broader source section: 12.2.2 Illnesses
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-12-2-2-illnesses-common-cold-92a75f39]] - previous source section: 12.2.2 Illnesses / [ Common Cold ]
 - [[sword-world-rpg-complete-edition-section-12-2-2-illnesses-rarity-5504c398]] - next source section: 12.2.2 Illnesses / 《 Rarity 》
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-12-2-2-illnesses-5611d07e]] - broader source section: 12.2.2 Illnesses
 
 ## Statements
 

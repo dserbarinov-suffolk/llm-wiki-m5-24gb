@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-1-2-races-skills-1-3-4-explanation-of-adventurer-skills-a5ebb75d@fd7c6d8bbe2dd8f86bc274aa0a330e85
+projection_coverage: section-sword-world-rpg-complete-edition-section-1-2-races-skills-1-3-4-explanation-of-adventurer-skills-a5ebb75d@ed34a3cb832c576549579365cac76b2a
 ---
 
 # 1.2 Races / Skills / 1.3.4 Explanation of Adventurer Skills
@@ -17,9 +17,14 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-1-2-races-skills-d796863a]] - broader source section: 1.2 Races / Skills
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-1-2-races-skills-1-3-3-adventurer-level-4dd1e335]] - previous source section: 1.2 Races / Skills / 1.3.3 Adventurer Level
 - [[sword-world-rpg-complete-edition-section-1-2-races-skills-fighter-96226d96]] - next source section: 1.2 Races / Skills / 【 Fighter 】
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-1-2-races-skills-d796863a]] - broader source section: 1.2 Races / Skills
 
 ## Statements
 

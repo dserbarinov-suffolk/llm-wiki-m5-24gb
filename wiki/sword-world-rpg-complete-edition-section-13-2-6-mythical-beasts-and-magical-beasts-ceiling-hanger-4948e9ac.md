@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-13-2-6-mythical-beasts-and-magical-beasts-ceiling-hanger-4948e9ac@0ec305491fc07d35c0a950644712b242
+projection_coverage: section-sword-world-rpg-complete-edition-section-13-2-6-mythical-beasts-and-magical-beasts-ceiling-hanger-4948e9ac@4f3c592158326747770eafc6bb4942e3
 ---
 
 # 13.2.6 Mythical Beasts and Magical Beasts / [ Ceiling Hanger ]
@@ -17,9 +17,14 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-13-2-6-mythical-beasts-and-magical-beasts-f86962d2]] - broader source section: 13.2.6 Mythical Beasts and Magical Beasts
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-13-2-6-mythical-beasts-and-magical-beasts-satyr-8f5a7e42]] - previous source section: 13.2.6 Mythical Beasts and Magical Beasts / [ Satyr ]
 - [[sword-world-rpg-complete-edition-section-13-2-6-mythical-beasts-and-magical-beasts-harpy-a3ea1436]] - next source section: 13.2.6 Mythical Beasts and Magical Beasts / [ Harpy ]
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-13-2-6-mythical-beasts-and-magical-beasts-f86962d2]] - broader source section: 13.2.6 Mythical Beasts and Magical Beasts
 
 ## Statements
 
@@ -35,28 +40,40 @@ From [[sword-world-rpg-complete-edition]].
 
 **Atoms:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-06412, source-range-0d48087c-06413, source-range-0d48087c-06414, source-range-0d48087c-06415, source-range-0d48087c-06416, source-range-0d48087c-06417, source-range-0d48087c-06418, source-range-0d48087c-06420, source-range-0d48087c-06421, source-range-0d48087c-06422, source-range-0d48087c-06423, source-range-0d48087c-06424))_
 
+<a id="atom-technical-atom-4d3f495f0803d7a7"></a>
 > Monster Level=3
 
+<a id="atom-technical-atom-864813e1beb02951"></a>
 > Rarity=14
 
+<a id="atom-technical-atom-f82df8c90807d66e"></a>
 > Agility=12 Movement Speed=6
 
+<a id="atom-technical-atom-3e6ff9debadbb5fb"></a>
 > Frequency=Rare
 
+<a id="atom-technical-atom-b2661289cb7a5ddc"></a>
 > Number=One
 
+<a id="atom-technical-atom-f2043beede1f8c73"></a>
 > Intellect=Low Reaction=Adversarial
 
+<a id="atom-technical-atom-4df63193ac887487"></a>
 > Attack Points=Right arm:11 (4)/Left arm:10
 
+<a id="atom-technical-atom-e8a8fc651144152b"></a>
 > Strike Points=Special/5
 
+<a id="atom-technical-atom-b611d68aa43c71f8"></a>
 > Evasion Points=10 (3) Defense Points=5
 
+<a id="atom-technical-atom-cb0245de6a1d0cfa"></a>
 > Life Points/Resistance=14 /11(4)
 
+<a id="atom-technical-atom-3ce6fa6f72f83788"></a>
 > Mental Points/Resistance=11/10(3)
 
+<a id="atom-technical-atom-9b1a5a00bd900c45"></a>
 > Special Abilities=Surprise attack (Sense target score=12)
 
 ### Technical frame 2: 13.2.6 Mythical Beasts and Magical Beasts / [ Ceiling Hanger ]
@@ -67,6 +84,7 @@ From [[sword-world-rpg-complete-edition]].
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-06425))_
 
+<a id="atom-technical-atom-9818c7b7bdaa2eaf"></a>
 > By sticking with this lower body, a ceiling hanger can also move along walls and ceilings.
 
 ### Technical frame 3: 13.2.6 Mythical Beasts and Magical Beasts / [ Ceiling Hanger ]
@@ -77,4 +95,5 @@ From [[sword-world-rpg-complete-edition]].
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-06428))_
 
+<a id="atom-technical-atom-146377e234e4ff1d"></a>
 > From then on, in each round, a death check must be made when applying damage (even if it's 0).

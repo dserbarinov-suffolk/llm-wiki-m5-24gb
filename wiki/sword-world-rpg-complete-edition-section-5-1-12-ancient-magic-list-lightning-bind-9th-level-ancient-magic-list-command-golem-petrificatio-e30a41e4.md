@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-5-1-12-ancient-magic-list-lightning-bind-9th-level-ancient-magic-list-command-golem-petrificatio-e30a41e4@e05bac4f3599f41d8a93b47026eedd1d
+projection_coverage: section-sword-world-rpg-complete-edition-section-5-1-12-ancient-magic-list-lightning-bind-9th-level-ancient-magic-list-command-golem-petrificatio-e30a41e4@bd2ceb0c6b1274d1296b169190ee4c73
 ---
 
 # 5.1.12 Ancient Magic List / [ Lightning Bind ] / 9th Level Ancient Magic List [ Command Golem ] / [ Petrification
@@ -17,9 +17,14 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-5-1-12-ancient-magic-list-lightning-bind-9th-level-ancient-magic-list-command-golem-0fbf68a1]] - broader source section: 5.1.12 Ancient Magic List / [ Lightning Bind ] / 9th Level Ancient Magic List [ Command Golem ]
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-5-1-12-ancient-magic-list-lightning-bind-9th-level-ancient-magic-list-command-golem-disintegrate-b789532b]] - previous source section: 5.1.12 Ancient Magic List / [ Lightning Bind ] / 9th Level Ancient Magic List [ Command Golem ] / [ Disintegrate ]
 - [[sword-world-rpg-complete-edition-section-5-1-12-ancient-magic-list-lightning-bind-9th-level-ancient-magic-list-command-golem-rune-shield-0181f761]] - next source section: 5.1.12 Ancient Magic List / [ Lightning Bind ] / 9th Level Ancient Magic List [ Command Golem ] / [ Rune Shield ]
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-5-1-12-ancient-magic-list-lightning-bind-9th-level-ancient-magic-list-command-golem-0fbf68a1]] - broader source section: 5.1.12 Ancient Magic List / [ Lightning Bind ] / 9th Level Ancient Magic List [ Command Golem ]
 
 ## Statements
 

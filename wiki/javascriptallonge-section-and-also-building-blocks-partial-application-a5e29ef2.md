@@ -4,11 +4,11 @@ page_kind: source
 summary: And also: / Building Blocks / partial application: 15 source-backed entries and 5 atom(s) from raw/javascriptallonge.pdf.
 page_family: section-reference
 sources: raw/javascriptallonge.pdf
-updated: 2026-07-01
+updated: 2026-07-02
 domain: javascriptallonge
 category_path: sources/javascriptallonge/sections
 source_id: javascriptallonge.pdf
-projection_coverage: section-javascriptallonge-section-and-also-building-blocks-partial-application-a5e29ef2@1f263b625a52de1fdd092c28050b31e2
+projection_coverage: section-javascriptallonge-section-and-also-building-blocks-partial-application-a5e29ef2@2d5f10dd19bd45f7970fe2464473fe61
 ---
 
 # And also: / Building Blocks / partial application
@@ -17,8 +17,16 @@ From [[javascriptallonge]].
 
 ## Related pages
 
-- [[javascriptallonge-section-and-also-building-blocks-d30b6215]] - broader source section: And also: / Building Blocks
+### Source order
+
 - [[javascriptallonge-section-and-also-building-blocks-composition-b488e601]] - previous source section: And also: / Building Blocks / composition
+
+### Source structure
+
+- [[javascriptallonge-section-and-also-building-blocks-d30b6215]] - broader source section: And also: / Building Blocks
+
+### Topics
+
 - [[javascriptallonge-partial-application]] - topic hub: opens the topic page for Partial Application
 
 ## Statements
@@ -39,6 +47,7 @@ From [[javascriptallonge]].
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00588))_
 
+<a id="atom-technical-atom-056ce8634521f287"></a>
 ```
 _.map([1, 2, 3], (n) => n * n)
 //=> [1, 4, 9]
@@ -52,6 +61,7 @@ _.map([1, 2, 3], (n) => n * n)
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00591))_
 
+<a id="atom-technical-atom-feda299a4a4ec2a5"></a>
 ```
 const squareAll = (array) => map(array,
 (n) => n * n);
@@ -65,6 +75,7 @@ const squareAll = (array) => map(array,
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00595))_
 
+<a id="atom-technical-atom-489106d51addd885"></a>
 ```text
 39 http://underscorejs.org
 41 If we don't want to sort out Underscore, we can also write the following: const map = (a, fn) => a.map(fn); , and trust that it works even though we haven't discussed methods yet.
@@ -90,6 +101,7 @@ const squareAll = (array) => map(array,
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00596))_
 
+<a id="atom-technical-atom-178d9ec7a982006c"></a>
 ```
 const safeSquareAll = mapWith(maybe((n) => n * n));
 ```
@@ -102,6 +114,7 @@ const safeSquareAll = mapWith(maybe((n) => n * n));
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00597))_
 
+<a id="atom-technical-atom-b17e7af479dc0872"></a>
 ```
 safeSquareAll([1, null, 2, 3])
 //=> [1, null, 4, 9]

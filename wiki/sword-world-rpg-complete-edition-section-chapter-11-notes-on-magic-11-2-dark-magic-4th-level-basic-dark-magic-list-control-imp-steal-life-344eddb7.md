@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-11-notes-on-magic-11-2-dark-magic-4th-level-basic-dark-magic-list-control-imp-steal-life-344eddb7@50e998dfc5743c0685d1208876ea972f
+projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-11-notes-on-magic-11-2-dark-magic-4th-level-basic-dark-magic-list-control-imp-steal-life-344eddb7@9ce441af0356ac743b41d84fcc372411
 ---
 
 # Chapter 11: Notes on Magic / 11.2 Dark Magic / 4th Level Basic Dark Magic List [ Control Imp ] / [ Steal Life ]
@@ -16,6 +16,8 @@ projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-11
 From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
+
+### Source structure
 
 - [[sword-world-rpg-complete-edition-section-chapter-11-notes-on-magic-11-2-dark-magic-4th-level-basic-dark-magic-list-control-imp-f9f143cc]] - broader source section: Chapter 11: Notes on Magic / 11.2 Dark Magic / 4th Level Basic Dark Magic List [ Control Imp ]
 

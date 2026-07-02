@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-13-2-3-youma-05ea9fd0@5074c249a947f9476e474afab6eeb2ab
+projection_coverage: section-sword-world-rpg-complete-edition-section-13-2-3-youma-05ea9fd0@55c196e37b7530fe0f94c09d1a23791a
 ---
 
 # 13.2.3 Youma
@@ -17,34 +17,21 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-13-2-3-youma-gremlin-monster-level-2-rarity-9-agility-17-movement-speed-6-8-air-number-one-to-se-deba2bd0]] - narrower source section: 13.2.3 Youma / [ Gremlin ] Monster Level=2 Rarity=9 Agility=17 Movement Speed=6/8 (air) Number=One to several Frequency=Rare Intellect=Human Reaction=Adversarial Attack Points=Fangs: 9 (2) Strike Points=3 Evasion Points=11 (4) Defense Points=4 Life Points/Resistance=8/9 (2) Mental Points/Resistance=14/10 (3) Special Abilities=2nd level spirit magic (Magic Intensity/Magic Power=11/4) Habitat=Mountains, highlands Languages=Impish, silent spirit Perception=Five senses (infravision)
-- [[sword-world-rpg-complete-edition-section-13-2-3-youma-hobgoblin-510a6ae9]] - narrower source section: 13.2.3 Youma / [ Hobgoblin ]
-- [[sword-world-rpg-complete-edition-section-13-2-3-youma-goblin-d6eadc2f]] - narrower source section: 13.2.3 Youma / [ Goblin ]
-- [[sword-world-rpg-complete-edition-section-13-2-3-youma-marshman-9facfc8e]] - narrower source section: 13.2.3 Youma / [ Marshman ]
-- [[sword-world-rpg-complete-edition-section-13-2-3-youma-dark-elf-42e5064f]] - narrower source section: 13.2.3 Youma / [ Dark Elf ]
-- [[sword-world-rpg-complete-edition-section-13-2-3-youma-will-o-wisp-694a777b]] - narrower source section: 13.2.3 Youma / [ Will-O-Wisp ]
-- [[sword-world-rpg-complete-edition-section-13-2-3-youma-shade-ff941acb]] - narrower source section: 13.2.3 Youma / [ Shade ]
-- [[sword-world-rpg-complete-edition-section-13-2-3-youma-brownie-45e89f46]] - narrower source section: 13.2.3 Youma / [ Brownie ]
-- [[sword-world-rpg-complete-edition-section-13-2-3-youma-undine-95a6de0e]] - narrower source section: 13.2.3 Youma / [ Undine ]
-- [[sword-world-rpg-complete-edition-section-13-2-3-youma-salamander-05d40506]] - narrower source section: 13.2.3 Youma / [ Salamander ]
-- [[sword-world-rpg-complete-edition-section-13-2-3-youma-sandman-5e142462]] - narrower source section: 13.2.3 Youma / [ Sandman ]
-- [[sword-world-rpg-complete-edition-section-13-2-3-youma-sylph-902e3f9c]] - narrower source section: 13.2.3 Youma / [ Sylph ]
-- [[sword-world-rpg-complete-edition-section-13-2-3-youma-sprite-bda05ea6]] - narrower source section: 13.2.3 Youma / [ Sprite ]
-- [[sword-world-rpg-complete-edition-section-13-2-3-youma-gnome-22f3b87b]] - narrower source section: 13.2.3 Youma / [ Gnome ]
-- [[sword-world-rpg-complete-edition-section-13-2-3-youma-frau-51e5358f]] - narrower source section: 13.2.3 Youma / [ Frau ]
-- [[sword-world-rpg-complete-edition-section-13-2-3-youma-leprechaun-b94459cd]] - narrower source section: 13.2.3 Youma / [ Leprechaun ]
-- [[sword-world-rpg-complete-edition-section-13-2-3-youma-dryad-f7282616]] - narrower source section: 13.2.3 Youma / [ Dryad ]
-- [[sword-world-rpg-complete-edition-section-13-2-3-youma-mad-spirit-of-life-bbb39b57]] - narrower source section: 13.2.3 Youma / [ Mad Spirit of Life ]
-- [[sword-world-rpg-complete-edition-section-13-2-3-youma-valkyrie-0dbee5d3]] - narrower source section: 13.2.3 Youma / [ Valkyrie ]
-- [[sword-world-rpg-complete-edition-section-13-2-3-youma-yeti-6c93abb9]] - narrower source section: 13.2.3 Youma / [ Yeti ]
-- [[sword-world-rpg-complete-edition-section-13-2-3-youma-ogre-183bea8e]] - narrower source section: 13.2.3 Youma / [ Ogre ]
-- [[sword-world-rpg-complete-edition-section-13-2-3-youma-spriggan-69d0ac98]] - narrower source section: 13.2.3 Youma / [ Spriggan ]
-- [[sword-world-rpg-complete-edition-section-13-2-3-youma-troll-monster-level-6-rarity-11-agility-12-movement-speed-24-number-one-to-several-a7270635]] - narrower source section: 13.2.3 Youma / [ Troll ] Monster Level=6 Rarity=11 Agility=12 Movement Speed=24 Number=One to several Frequency=Rare Intellect=Low Reaction=Adversarial Attack Points=Arm:14 (7) Strike Points=13 Evasion Points=13 (6) Defense Points=11 Life Points/Resistance=21/15 (8) Mental Points/Resistance=14/14 (7) Special Abilities=Camouflage (Sense target score=13) Habitat=Caves, hills Languages=Giant Perception=Five senses (darkvision)
-- [[sword-world-rpg-complete-edition-section-13-2-3-youma-hecatoncheir-31491c8c]] - narrower source section: 13.2.3 Youma / [ Hecatoncheir ]
-- [[sword-world-rpg-complete-edition-section-13-2-3-youma-giant-398539fc]] - narrower source section: 13.2.3 Youma / [ Giant ]
-- [[sword-world-rpg-complete-edition-section-13-2-3-youma-cyclops-00f0eab9]] - narrower source section: 13.2.3 Youma / [ Cyclops ]
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-13-2-1-humans-2369e4b2]] - previous source section: 13.2.1 《 Humans 》
 - [[sword-world-rpg-complete-edition-section-13-2-6-mythical-beasts-and-magical-beasts-f86962d2]] - next source section: 13.2.6 Mythical Beasts and Magical Beasts
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-13-2-3-youma-brownie-45e89f46]] - narrower source section: 13.2.3 Youma / [ Brownie ]
+- [[sword-world-rpg-complete-edition-section-13-2-3-youma-cyclops-00f0eab9]] - narrower source section: 13.2.3 Youma / [ Cyclops ]
+- [[sword-world-rpg-complete-edition-section-13-2-3-youma-dark-elf-42e5064f]] - narrower source section: 13.2.3 Youma / [ Dark Elf ]
+- [[sword-world-rpg-complete-edition-section-13-2-3-youma-dryad-f7282616]] - narrower source section: 13.2.3 Youma / [ Dryad ]
+- [[sword-world-rpg-complete-edition-section-13-2-3-youma-frau-51e5358f]] - narrower source section: 13.2.3 Youma / [ Frau ]
+- [[sword-world-rpg-complete-edition-section-13-2-3-youma-giant-398539fc]] - narrower source section: 13.2.3 Youma / [ Giant ]
+- [[sword-world-rpg-complete-edition-section-13-2-3-youma-gnome-22f3b87b]] - narrower source section: 13.2.3 Youma / [ Gnome ]
+- [[sword-world-rpg-complete-edition-section-13-2-3-youma-goblin-d6eadc2f]] - narrower source section: 13.2.3 Youma / [ Goblin ]
 
 ## Statements
 
@@ -277,34 +264,49 @@ From [[sword-world-rpg-complete-edition]].
 
 **Atoms:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-06056, source-range-0d48087c-06057, source-range-0d48087c-06058, source-range-0d48087c-06059, source-range-0d48087c-06060, source-range-0d48087c-06061, source-range-0d48087c-06062, source-range-0d48087c-06063, source-range-0d48087c-06064, source-range-0d48087c-06065, source-range-0d48087c-06066, source-range-0d48087c-06068, source-range-0d48087c-06069, source-range-0d48087c-06070, source-range-0d48087c-06071))_
 
+<a id="atom-technical-atom-611bfc4dfc2a78d5"></a>
 > Monster Level=3
 
+<a id="atom-technical-atom-dc29ca93fcfc284f"></a>
 > Rarity=10
 
+<a id="atom-technical-atom-83335f861998968b"></a>
 > Agility=13
 
+<a id="atom-technical-atom-208fb49a54c5433a"></a>
 > Number=One Movement Speed=8
 
+<a id="atom-technical-atom-f9c9dfbc05e046e7"></a>
 > Frequency=Rare
 
+<a id="atom-technical-atom-4f6402c778505f7a"></a>
 > Intellect=Human Reaction=Adversarial
 
+<a id="atom-technical-atom-34fd96398eac7fdc"></a>
 > Attack Points=Weapon or fang: 10 (3) Strike Points=8
 
+<a id="atom-technical-atom-48ac44b105ea8862"></a>
 > Evasion Points=11 (4) Defense Points=6
 
+<a id="atom-technical-atom-50f23ee5b14aae20"></a>
 > Life Points/Resistance=12/11 (4)
 
+<a id="atom-technical-atom-7328dc52762934db"></a>
 > Mental Points/Resistance=15/11 (4)
 
+<a id="atom-technical-atom-c1d87b19cdc5e4ac"></a>
 > Special Abilities=3rd level spirit magic (Magic Intensity/Magic Power=12/5)
 
+<a id="atom-technical-atom-7c7404331732cd0d"></a>
 > Intensity/Magic Power=10/3)
 
+<a id="atom-technical-atom-70245dda57d43d9c"></a>
 > Habitat=Mountains, forests, caves
 
+<a id="atom-technical-atom-540b50b866ab9162"></a>
 > Languages=Goblin, silent spirit, regional
 
+<a id="atom-technical-atom-147a5e2675b31fe2"></a>
 > Perception=Five senses (darkvision, infravision)
 
 ### Technical frame 2: 13.2.3 Youma / [ Marshman ]
@@ -315,6 +317,7 @@ From [[sword-world-rpg-complete-edition]].
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-06099))_
 
+<a id="atom-technical-atom-868fc91dc6ec6926"></a>
 > They're weak against fire and heat, so when attacking a marshman with firebased magic, add +10 to strike power when making the check.
 
 ### Technical frame 3: 13.2.3 Youma / [ Giant ]
@@ -325,4 +328,5 @@ From [[sword-world-rpg-complete-edition]].
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-06356))_
 
+<a id="atom-technical-atom-708d11289e253d68"></a>
 > Perception=Five senses

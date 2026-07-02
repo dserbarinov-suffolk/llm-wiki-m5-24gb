@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-the-meaning-of-the-rulebook-910ef587@82a9e5254bd1a960a2ec1568cf1a2556
+projection_coverage: section-sword-world-rpg-complete-edition-section-the-meaning-of-the-rulebook-910ef587@ce14262ad3b26de760a5a2fd3109a820
 ---
 
 # The Meaning of the Rulebook
@@ -16,6 +16,8 @@ projection_coverage: section-sword-world-rpg-complete-edition-section-the-meanin
 From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
+
+### Source order
 
 - [[sword-world-rpg-complete-edition-section-what-is-a-role-playing-game-rpg-042b4995]] - previous source section: What is a Role-Playing Game (RPG)?
 - [[sword-world-rpg-complete-edition-section-the-structure-of-the-rulebook-cbc9e039]] - next source section: The Structure of the Rulebook

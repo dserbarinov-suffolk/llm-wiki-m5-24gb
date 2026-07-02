@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-13-2-6-mythical-beasts-and-magical-beasts-horse-lion-fa2410da@3da38b9448c47fda7850ffe1683b6f47
+projection_coverage: section-sword-world-rpg-complete-edition-section-13-2-6-mythical-beasts-and-magical-beasts-horse-lion-fa2410da@4f8805b47681cb3120ed70592246dc2a
 ---
 
 # 13.2.6 Mythical Beasts and Magical Beasts / [ Horse ] / [ Lion ]
@@ -17,9 +17,14 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-13-2-6-mythical-beasts-and-magical-beasts-horse-9c294c60]] - broader source section: 13.2.6 Mythical Beasts and Magical Beasts / [ Horse ]
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-13-2-6-mythical-beasts-and-magical-beasts-horse-bear-4b66c11c]] - previous source section: 13.2.6 Mythical Beasts and Magical Beasts / [ Horse ] / [ Bear ]
 - [[sword-world-rpg-complete-edition-section-13-2-6-mythical-beasts-and-magical-beasts-horse-giant-slug-c5f80539]] - next source section: 13.2.6 Mythical Beasts and Magical Beasts / [ Horse ] / [ Giant Slug ]
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-13-2-6-mythical-beasts-and-magical-beasts-horse-9c294c60]] - broader source section: 13.2.6 Mythical Beasts and Magical Beasts / [ Horse ]
 
 ## Statements
 
@@ -38,6 +43,8 @@ From [[sword-world-rpg-complete-edition]].
 
 **Atoms:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-07070, source-range-0d48087c-07071))_
 
+<a id="atom-technical-atom-7c26dd1da48611ff"></a>
 > Languages=None
 
+<a id="atom-technical-atom-90a0447d21fd25a9"></a>
 > Perception=Five senses (illumination)

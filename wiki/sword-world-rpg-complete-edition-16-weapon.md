@@ -7,7 +7,7 @@ sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: concepts
-projection_coverage: topic-sword-world-rpg-complete-edition-16-weapon@d12dbb34a38b4fe01a0f761dc357fe28
+projection_coverage: topic-sword-world-rpg-complete-edition-16-weapon@ba217afdf5ab2350a6b670ccbcb53753
 ---
 
 # 16 Weapon
@@ -43,6 +43,7 @@ What [[sword-world-rpg-complete-edition]] covers about 16 weapon:
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-10045))_
 
+<a id="atom-technical-atom-2e4e68dee50a01bf"></a>
 | differ | in | ease | of | use | and | power. | This | rule | Axes/2H | ±0 | +10 | 11* |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | quantifies weapons used Optional explained | Here by The | the and Weapon is adventurers Rules"). terms below. | armor. a table | finer used | differences Modifiers of weapons ("Table on | 16-1 this | between commonly Weapon table | are | Spears/1H Spears/2H Maces/1H Maces/2H Clubs/1H Staves/2H Flails/1H Flails/2H War Hammer/1H War Hammer/2H Bows Crossbow | -1 ±0 +1 +1 +1 +1 -1 -1 -1 -2 ±0 ±0 | +5 +5 +5 +10 ±0 +5 +5 +10 +5 +15 +5 +10 | 10* 10* 12 12 12 12 10 10 10 10 10* 10* |
@@ -69,10 +70,13 @@ Table 16-1 Weapon Optional Rules
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-10200))_
 
+<a id="atom-technical-atom-5952b16c5450c171"></a>
 > A sling can shoot every round if it fires its own bullets.
 
 
 ## Related pages
+
+### Shared technical atoms
 
 - [[sword-world-rpg-complete-edition-critical-target-variation]] - shared statements and technical atoms: Critical Target Variation shares source evidence from Chapter 16: / 16.2 Weapon and Armor Modifiers / Critical Target Variation: Under the basic rules, when using the Rating Table to determine damage, a 10 or greater is considered a critical , but with this rule, the chance of a critical is di ... [truncated]; Critical Target Variation shares technical record from Table 16-1 Weapon Optional Rules: Table 16-1 Weapon Optional Rules | differ | in | ease | of | use | and | power. | This | rule | Axes/2H | ±0 | +10 | 11* | | --- | --- | --- | --- | --- | --- | --- ... [truncated] (3 shared statement(s), 1 shared atom(s))
 - [[sword-world-rpg-complete-edition-weapon-critical]] - shared statements and technical atoms: 《 Weapons Cannot Critical 》 shares source evidence from Chapter 16: / 16.2 Weapon and Armor Modifiers / Critical Target Variation: Under the basic rules, when using the Rating Table to determine damage, a 10 or greater is considered a critical , but with this rule, the chance of a critical is di ... [truncated]; 《 Weapons Cannot Critical 》 shares technical record from Table 16-1 Weapon Optional Rules: Table 16-1 Weapon Optional Rules | differ | in | ease | of | use | and | power. | This | rule | Axes/2H | ±0 | +10 | 11* | | --- | --- | --- | --- | --- | --- | --- ... [truncated] (2 shared statement(s), 1 shared atom(s))

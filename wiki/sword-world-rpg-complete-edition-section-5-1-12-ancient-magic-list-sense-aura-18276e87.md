@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-5-1-12-ancient-magic-list-sense-aura-18276e87@e918d88c068c206a98f45e9a548935a4
+projection_coverage: section-sword-world-rpg-complete-edition-section-5-1-12-ancient-magic-list-sense-aura-18276e87@86870996e6dd3c1df56a984a3a6ed300
 ---
 
 # 5.1.12 Ancient Magic List / [ Sense Aura ]
@@ -17,9 +17,14 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-5-1-12-ancient-magic-list-2e59bfee]] - broader source section: 5.1.12 Ancient Magic List
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-5-1-12-ancient-magic-list-shape-change-1e62400c]] - previous source section: 5.1.12 Ancient Magic List / [ Shape Change
 - [[sword-world-rpg-complete-edition-section-5-1-12-ancient-magic-list-tongue-f3bb3f93]] - next source section: 5.1.12 Ancient Magic List / [ Tongue ]
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-5-1-12-ancient-magic-list-2e59bfee]] - broader source section: 5.1.12 Ancient Magic List
 
 ## Statements
 

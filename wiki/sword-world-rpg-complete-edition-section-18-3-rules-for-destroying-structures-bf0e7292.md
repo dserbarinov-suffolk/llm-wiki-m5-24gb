@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-18-3-rules-for-destroying-structures-bf0e7292@daeb95d313abcc7eb2a9f3304da8bc07
+projection_coverage: section-sword-world-rpg-complete-edition-section-18-3-rules-for-destroying-structures-bf0e7292@7f5f65f0eb38c807542f8e26987ebbdc
 ---
 
 # 18.3 Rules for Destroying Structures
@@ -17,16 +17,20 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
+### Source order
+
+- [[sword-world-rpg-complete-edition-section-dwarves-grassrunners-half-elves-74803f58]] - previous source section: Dwarves, Grassrunners, Half-Elves
+
+### Source structure
+
 - [[sword-world-rpg-complete-edition-section-18-3-rules-for-destroying-structures-18-3-1-how-to-read-the-structure-strength-table-39ed4a38]] - narrower source section: 18.3 Rules for Destroying Structures / 18.3.1 How to Read the Structure Strength Table
 - [[sword-world-rpg-complete-edition-section-18-3-rules-for-destroying-structures-18-3-2-structure-material-list-f884c43f]] - narrower source section: 18.3 Rules for Destroying Structures / 18.3.2 Structure Material List
 - [[sword-world-rpg-complete-edition-section-18-3-rules-for-destroying-structures-18-3-3-handling-spirit-walls-6db38e28]] - narrower source section: 18.3 Rules for Destroying Structures / 18.3.3 Handling Spirit Walls
-- [[sword-world-rpg-complete-edition-section-18-3-rules-for-destroying-structures-history-5d635441]] - narrower source section: 18.3 Rules for Destroying Structures / History
-- [[sword-world-rpg-complete-edition-section-18-3-rules-for-destroying-structures-world-view-7061c465]] - narrower source section: 18.3 Rules for Destroying Structures / World View
-- [[sword-world-rpg-complete-edition-section-18-3-rules-for-destroying-structures-politics-and-class-f3bf72c2]] - narrower source section: 18.3 Rules for Destroying Structures / Politics and Class
-- [[sword-world-rpg-complete-edition-section-18-3-rules-for-destroying-structures-organizations-and-groups-6ed13bfc]] - narrower source section: 18.3 Rules for Destroying Structures / Organizations and Groups
-- [[sword-world-rpg-complete-edition-section-18-3-rules-for-destroying-structures-geography-f18d9385]] - narrower source section: 18.3 Rules for Destroying Structures / Geography
 - [[sword-world-rpg-complete-edition-section-18-3-rules-for-destroying-structures-currency-a09b0d2c]] - narrower source section: 18.3 Rules for Destroying Structures / Currency
-- [[sword-world-rpg-complete-edition-section-dwarves-grassrunners-half-elves-74803f58]] - previous source section: Dwarves, Grassrunners, Half-Elves
+- [[sword-world-rpg-complete-edition-section-18-3-rules-for-destroying-structures-geography-f18d9385]] - narrower source section: 18.3 Rules for Destroying Structures / Geography
+- [[sword-world-rpg-complete-edition-section-18-3-rules-for-destroying-structures-history-5d635441]] - narrower source section: 18.3 Rules for Destroying Structures / History
+- [[sword-world-rpg-complete-edition-section-18-3-rules-for-destroying-structures-organizations-and-groups-6ed13bfc]] - narrower source section: 18.3 Rules for Destroying Structures / Organizations and Groups
+- [[sword-world-rpg-complete-edition-section-18-3-rules-for-destroying-structures-politics-and-class-f3bf72c2]] - narrower source section: 18.3 Rules for Destroying Structures / Politics and Class
 
 ## Statements
 
@@ -406,6 +410,7 @@ From [[sword-world-rpg-complete-edition]].
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-10592))_
 
+<a id="atom-technical-atom-47dc0db8cb1c6a0d"></a>
 | Fire-type | Firebolt, Fireball, Firestorm |
 | --- | --- |
 | Cold-type | Blizzard, Ice Storm |
@@ -446,6 +451,7 @@ Destruction Points
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-10599))_
 
+<a id="atom-technical-atom-e8e2fde4652f0e54"></a>
 ```text
 Table 18-2 Types of Magic
  its destruction points begin to decrease,
@@ -457,6 +463,7 @@ Table 18-2 Types of Magic
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-10960))_
 
+<a id="atom-technical-atom-56822f6aa5dafc10"></a>
 | Ability | Relevant Ability Score | Equipment Restrictions | Retrying a success roll on the same target |
 | --- | --- | --- | --- |
 | Footprint Tracking | Intelligence | No | Not Possible |
@@ -507,6 +514,7 @@ Currency
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-10988))_
 
+<a id="atom-technical-atom-a38fa55849f44f2c"></a>
 | Ability | Relevant Ability Score | Retrying a success roll on the same target |
 | --- | --- | --- |
 | Sing | Mental Power | Possible |
@@ -535,6 +543,7 @@ Currency
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-11024))_
 
+<a id="atom-technical-atom-1d01c3a09bbf8829"></a>
 | Ability | Relevant Ability Score | Equipment Restrictions | Retrying a success roll on the same target |
 | --- | --- | --- | --- |
 | Footprint Tracking | Intelligence | No | Not Possible |
@@ -579,6 +588,7 @@ Currency
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-11079))_
 
+<a id="atom-technical-atom-d95e5c31e576845f"></a>
 ```text
 Table 1-1: Ability Bonuses                    Table 1-2: Skill Types
     Ability Score           Bonus
@@ -614,6 +624,7 @@ Table 1-1: Ability Bonuses                    Table 1-2: Skill Types
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-11081))_
 
+<a id="atom-technical-atom-7f1418735013c449"></a>
 ```text
 Table 1-3: Determining Sub-Ability Scores
   Sub-Ability Score   Human   Dwarf   Grassrunner  Elf    Half-Elf
@@ -651,6 +662,7 @@ Table 1-3: Determining Sub-Ability Scores
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-11083))_
 
+<a id="atom-technical-atom-c639c9211d91f51f"></a>
 | Ability | Score | Human | Grassrunner | Dwarf | Elf | Half-Elf |
 | --- | --- | --- | --- | --- | --- | --- |
 | Dexterity |  | 14 | 20.5 | 15 | 19 | 17 |
@@ -685,6 +697,7 @@ Table 1-4: Average Ability Scores by Race
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-11084))_
 
+<a id="atom-technical-atom-476989ddce4cdc51"></a>
 | 2D | Background | Starting | Skills | Exp. | Pts. | Money |
 | --- | --- | --- | --- | --- | --- | --- |
 | 2 Savage |  | Fighter 1 & Ranger | 1 | 2000 |  | 2Dx100 |
@@ -729,6 +742,7 @@ Table 1-5: Backgrounds
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-11085))_
 
+<a id="atom-technical-atom-2bbf011e8e470a2f"></a>
 ```text
 Table 1-6: Starting Experience by Race
                                                 Pre-Adventure
@@ -745,6 +759,7 @@ Table 1-6: Starting Experience by Race
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-11151))_
 
+<a id="atom-technical-atom-ed831feecfa6c647"></a>
 | Category | Weapon | Name | Usage | Required | Str. | Price | Calculation |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | Swords | Dagger (throwable) |  | 1H | 1~5 |  |  | x10+20 |
@@ -827,6 +842,7 @@ Table 1-8: Weapons-1
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-11164))_
 
+<a id="atom-technical-atom-d0b7d0b7500092f9"></a>
 | Category | Weapon | Name | Usage | Required | Str. | Price | Calculation |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | Flails | Light flail |  | 1H | 7~14 |  |  | x10+20 |
@@ -905,6 +921,7 @@ Table 1-8: Weapons-2
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-11165))_
 
+<a id="atom-technical-atom-f2d3066f4564779a"></a>
 | Armor | Name | Required | Strength | Price | Calculation | Shield | Name | Req. | Str. | Price |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | Non-metal armor |  |  |  |  |  | Small | shield |  | 1 | 60 |
@@ -941,6 +958,7 @@ Table 1-9: Armor Table 1-10: Shields
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-11184))_
 
+<a id="atom-technical-atom-bb34e2d004e4c74e"></a>
 | Category | Name | Price | (in | Gamels) | Expansion | Area | Expansion | Volume | Expansion |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | Bags | Rucksack (leather) |  |  | 50 | Rate x 2 x 3 |  | Length 1.4 1.7 |  | Length 1.3 1.4 |
@@ -973,6 +991,7 @@ Table 1-11: Equipment Table 5-1: Area and Size Expansion
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-11213))_
 
+<a id="atom-technical-atom-dbff668dd7b30f7d"></a>
 ```text
 100 pen／ink 5 Quill 100 Thieves' tools 100+ Musical instrument Food
 1 serving 3+
@@ -998,6 +1017,7 @@ Table 1-11: Equipment Table 5-1: Area and Size Expansion
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-11230))_
 
+<a id="atom-technical-atom-4ace177c67c16a84"></a>
 ```text
 1 night (not including food)
 1 week (not including food)
@@ -1081,6 +1101,7 @@ x 10
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-11235))_
 
+<a id="atom-technical-atom-5a77653aee3043fe"></a>
 | If | you’re | a | pro | in | that | field, | you’ll | most | likely | succeed, | but | if | you | only | have | the | skill, | there’s | a | greater | risk | of | failure. |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 11 4 Amateurs |  |  | should |  | stay | away | from | it. |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
@@ -1115,6 +1136,7 @@ Table 9-1: Determining Target Scores or Difficulties
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-11293))_
 
+<a id="atom-technical-atom-81f82ed78488d93e"></a>
 ```text
 Table 9-2: Success Roll Modifiers
  Extremely difficult situation                                       -4
@@ -1136,6 +1158,7 @@ Table 9-2: Success Roll Modifiers
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-11294))_
 
+<a id="atom-technical-atom-6eec7451d86cbacd"></a>
 ```text
 Table 10-1: Attack Power and Evasion Speed Modifiers
  Full movement (Evasion speed only)                                      -4
@@ -1146,6 +1169,7 @@ Table 10-1: Attack Power and Evasion Speed Modifiers
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-11307))_
 
+<a id="atom-technical-atom-2d54fe2f04424d53"></a>
 | None, | almost | none, | obeys | commands | -6 | +6 |
 | --- | --- | --- | --- | --- | --- | --- |
 | Animal, | low |  |  |  | -5 | +7 |
@@ -1170,6 +1194,7 @@ Table 10-2: Surprise Attack Check
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-11323))_
 
+<a id="atom-technical-atom-cbd58a0a99701de3"></a>
 | 7th | level | Large | city | in | a | large | country, | royal | capital | level | of | a | small | country |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 5th | level | Moderate |  | city |  |  |  |  |  |  |  |  |  |  |
@@ -1194,6 +1219,7 @@ Table 11-2: NPC Presence by Level
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-11334))_
 
+<a id="atom-technical-atom-da967a59328b595d"></a>
 | Category | Evasion | Speed | Defense | Critical | Target | Anti-strangling |
 | --- | --- | --- | --- | --- | --- | --- |
 | Armor Name | Modifier |  | Modifier | Change |  | Protection |
@@ -1222,6 +1248,7 @@ Table 16-3 Optional Armor Table
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-11335))_
 
+<a id="atom-technical-atom-efdb78646e3c8073"></a>
 | Boomerang | 20 | + | (Character's | Strength | - | Required | Strength) | x | 2 |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | Club | 20 | + | (Character's | Strength | - | Required | Strength) | x | 2 |
@@ -1270,6 +1297,7 @@ Table 16-4 Maximum Ranges Table
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-11339))_
 
+<a id="atom-technical-atom-88dd84b7509fbe60"></a>
 | 3 | – | 5 | All | ability | scores | reduced | by | 1/6 |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 6 | – | 8 | All | ability | scores | reduced | by | 2/6 |
@@ -1341,6 +1369,7 @@ All ability scores reduced to 3/6, except intelligence and mental power remain t
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-11343))_
 
+<a id="atom-technical-atom-1ca0aa88a942cd0f"></a>
 | Fire-Type | Firebolt, | Fireball, | Firestorm |
 | --- | --- | --- | --- |
 | Cold-Type | Blizzard, Ice Storm |  |  |
@@ -1369,6 +1398,7 @@ Table 18-2 Types of Magic
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-11353))_
 
+<a id="atom-technical-atom-f95b26cf7e542d55"></a>
 ```text
 Key Number
 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19

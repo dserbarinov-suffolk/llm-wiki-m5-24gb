@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-details-cc13bc5e@7dfcad4e7b8961538984cd813d189420
+projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-details-cc13bc5e@03b18713f6db5ddfe1c8bffec3dc00ea
 ---
 
 # Chapter 14: / 14.4 Magical Item List / Details
@@ -17,14 +17,19 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
+### Source order
+
+- [[sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-14-4-2-list-of-magical-items-7461270b]] - next source section: Chapter 14: / 14.4 Magical Item List / 14.4.2 List of Magical Items
+
+### Source structure
+
 - [[sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-51d7c911]] - broader source section: Chapter 14: / 14.4 Magical Item List
-- [[sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-details-sword-world-rpg-complete-edition-rulebook-5ed3db83]] - narrower source section: Chapter 14: / 14.4 Magical Item List / Details / Sword World RPG: Complete Edition Rulebook
-- [[sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-details-rarity-b92b568e]] - narrower source section: Chapter 14: / 14.4 Magical Item List / Details / 《 Rarity 》
-- [[sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-details-enchanter-b4a86b7b]] - narrower source section: Chapter 14: / 14.4 Magical Item List / Details / 《 Enchanter 》
 - [[sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-details-base-trade-price-cf7f2ba0]] - narrower source section: Chapter 14: / 14.4 Magical Item List / Details / 《 Base Trade Price 》
 - [[sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-details-description-2505e32c]] - narrower source section: Chapter 14: / 14.4 Magical Item List / Details / 《 Description 》
+- [[sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-details-enchanter-b4a86b7b]] - narrower source section: Chapter 14: / 14.4 Magical Item List / Details / 《 Enchanter 》
 - [[sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-details-other-2ab61af8]] - narrower source section: Chapter 14: / 14.4 Magical Item List / Details / 《 Other 》
-- [[sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-14-4-2-list-of-magical-items-7461270b]] - next source section: Chapter 14: / 14.4 Magical Item List / 14.4.2 List of Magical Items
+- [[sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-details-rarity-b92b568e]] - narrower source section: Chapter 14: / 14.4 Magical Item List / Details / 《 Rarity 》
+- [[sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-details-sword-world-rpg-complete-edition-rulebook-5ed3db83]] - narrower source section: Chapter 14: / 14.4 Magical Item List / Details / Sword World RPG: Complete Edition Rulebook
 
 ## Statements by subsection
 
@@ -71,6 +76,7 @@ From [[sword-world-rpg-complete-edition]].
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-08949))_
 
+<a id="atom-technical-atom-5319b58e09cfcd1c"></a>
 | Required | Price | Required | Price |
 | --- | --- | --- | --- |
 | Strength | (Gamels) | Strength | (Gamels) |

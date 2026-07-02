@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-part-2-game-master-section-f9fa84b3@dfc9ddb49f499d6b62ec38dea754330b
+projection_coverage: section-sword-world-rpg-complete-edition-section-part-2-game-master-section-f9fa84b3@14ae8046fa6d6d52f67a07f6f596dcde
 ---
 
 # Part 2 Game Master Section
@@ -16,6 +16,8 @@ projection_coverage: section-sword-world-rpg-complete-edition-section-part-2-gam
 From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
+
+### Source order
 
 - [[sword-world-rpg-complete-edition-section-part-1-player-section-0facef52]] - previous source section: Part 1 Player Section
 - [[sword-world-rpg-complete-edition-section-part-3-optional-rules-e43609ed]] - next source section: Part 3 Optional Rules
@@ -36,4 +38,5 @@ From [[sword-world-rpg-complete-edition]].
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-00091))_
 
+<a id="atom-technical-atom-4e938aa81c98dd0f"></a>
 > When you're a game master, you will have to remember rules that you wouldn't have to remember when you're a player.

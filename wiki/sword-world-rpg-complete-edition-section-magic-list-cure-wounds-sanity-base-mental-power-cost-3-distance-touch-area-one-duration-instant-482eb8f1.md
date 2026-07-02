@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-magic-list-cure-wounds-sanity-base-mental-power-cost-3-distance-touch-area-one-duration-instant-482eb8f1@e3ade451566b54934ff3e9ad7da78f8c
+projection_coverage: section-sword-world-rpg-complete-edition-section-magic-list-cure-wounds-sanity-base-mental-power-cost-3-distance-touch-area-one-duration-instant-482eb8f1@edd421f0d844179173d484545c033d9b
 ---
 
 # Magic List [ Cure Wounds ] / [ Sanity ] Base Mental Power Cost=3 Distance=Touch Area=One Duration=Instant Effect=Restore the target's peace of mind Type=Mind Expansion=Final score Resist=Negated effect
@@ -17,8 +17,13 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-magic-list-cure-wounds-2bf72421]] - broader source section: Magic List [ Cure Wounds ]
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-magic-list-cure-wounds-turn-undead-2475705d]] - next source section: Magic List [ Cure Wounds ] / [ Turn Undead ]
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-magic-list-cure-wounds-2bf72421]] - broader source section: Magic List [ Cure Wounds ]
 
 ## Statements
 

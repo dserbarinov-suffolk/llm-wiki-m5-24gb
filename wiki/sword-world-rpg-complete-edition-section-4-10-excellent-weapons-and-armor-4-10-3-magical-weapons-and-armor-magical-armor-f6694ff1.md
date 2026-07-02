@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-4-10-excellent-weapons-and-armor-4-10-3-magical-weapons-and-armor-magical-armor-f6694ff1@1a6a03c013b2b47bd80d6e2e4f7c1c26
+projection_coverage: section-sword-world-rpg-complete-edition-section-4-10-excellent-weapons-and-armor-4-10-3-magical-weapons-and-armor-magical-armor-f6694ff1@f4a7fd3617e45e127b1aa5bb6fefa8b6
 ---
 
 # 4.10 Excellent Weapons and Armor / 4.10.3 Magical Weapons and Armor / 【 Magical Armor 】
@@ -17,8 +17,13 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-4-10-excellent-weapons-and-armor-4-10-3-magical-weapons-and-armor-cdf3ce21]] - broader source section: 4.10 Excellent Weapons and Armor / 4.10.3 Magical Weapons and Armor
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-4-10-excellent-weapons-and-armor-4-10-3-magical-weapons-and-armor-magical-shields-2887937e]] - previous source section: 4.10 Excellent Weapons and Armor / 4.10.3 Magical Weapons and Armor / 【 Magical Shields 】
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-4-10-excellent-weapons-and-armor-4-10-3-magical-weapons-and-armor-cdf3ce21]] - broader source section: 4.10 Excellent Weapons and Armor / 4.10.3 Magical Weapons and Armor
 
 ## Statements
 

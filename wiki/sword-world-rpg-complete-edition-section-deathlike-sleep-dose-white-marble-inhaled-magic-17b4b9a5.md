@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-deathlike-sleep-dose-white-marble-inhaled-magic-17b4b9a5@fa2b313205b2ec91a352b00921af540d
+projection_coverage: section-sword-world-rpg-complete-edition-section-deathlike-sleep-dose-white-marble-inhaled-magic-17b4b9a5@27119ef98892fae5a05fbae7d04fab17
 ---
 
 # [Deathlike Sleep (Dose)] / [White Marble (Inhaled/Magic)]
@@ -17,11 +17,16 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
+### Source order
+
+- [[sword-world-rpg-complete-edition-section-deathlike-sleep-dose-blue-nail-injected-8513d02b]] - previous source section: [Deathlike Sleep (Dose)] / [ Blue Nail (Injected) ]
+- [[sword-world-rpg-complete-edition-section-deathlike-sleep-dose-medusa-eyes-dose-magic-4e60aab1]] - next source section: [Deathlike Sleep (Dose)] / [Medusa Eyes (Dose/Magic)]
+
+### Source structure
+
 - [[sword-world-rpg-complete-edition-section-deathlike-sleep-dose-839e5efc]] - broader source section: [Deathlike Sleep (Dose)]
 - [[sword-world-rpg-complete-edition-section-deathlike-sleep-dose-white-marble-inhaled-magic-midnight-scream-touch-mind-e0313fb5]] - narrower source section: [Deathlike Sleep (Dose)] / [White Marble (Inhaled/Magic)] / [Midnight Scream (Touch/Mind)]
 - [[sword-world-rpg-complete-edition-section-deathlike-sleep-dose-white-marble-inhaled-magic-moonlight-drone-dose-magic-e5cc049b]] - narrower source section: [Deathlike Sleep (Dose)] / [White Marble (Inhaled/Magic)] / [Moonlight Drone (Dose/Magic)]
-- [[sword-world-rpg-complete-edition-section-deathlike-sleep-dose-blue-nail-injected-8513d02b]] - previous source section: [Deathlike Sleep (Dose)] / [ Blue Nail (Injected) ]
-- [[sword-world-rpg-complete-edition-section-deathlike-sleep-dose-medusa-eyes-dose-magic-4e60aab1]] - next source section: [Deathlike Sleep (Dose)] / [Medusa Eyes (Dose/Magic)]
 
 ## Statements
 

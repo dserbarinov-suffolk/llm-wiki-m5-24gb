@@ -7,7 +7,7 @@ sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: concepts
-projection_coverage: topic-sword-world-rpg-complete-edition-projectile@745f294bb20dee4e83ef325defb9f960
+projection_coverage: topic-sword-world-rpg-complete-edition-projectile@b4ee930b5df365614ded2844c8364204
 ---
 
 # Projectile
@@ -33,6 +33,7 @@ What [[sword-world-rpg-complete-edition]] covers about projectile:
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-01167))_
 
+<a id="atom-technical-atom-86791c94ae83cbd9"></a>
 > If you want to attack with a projectile, please follow the process of actions you can take during normal movement .
 
 ### Technical frame 2: Chapter 3: / 3.4.4 Actions You Can Take While Standing Still / Use Magic and Projectiles
@@ -43,13 +44,19 @@ What [[sword-world-rpg-complete-edition]] covers about projectile:
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-01168))_
 
+<a id="atom-technical-atom-48979192bb3618e8"></a>
 > If you choose to stand still , in addition to magic and projectiles, you can also take the following special action:
 
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-magic]] - shared statements and technical atoms: Magic shares source evidence from Chapter 3: / 3.4.4 Actions You Can Take While Standing Still / Use Magic and Projectiles: Above all, the advantage of standing still is the ability to use magic and attack with projectiles. Conversely, if you are not standing still , you cannot use magic or projectiles.; Magic shares technical record from Chapter 3: / 3.4.4 Actions You Can Take While Standing Still / Use Magic and Projectiles: If you want to attack with a projectile, please follow the process of actions you can take during normal movement . (2 shared statement(s), 1 shared atom(s))
+### Source structure
+
 - [[sword-world-rpg-complete-edition-section-1-4-character-creation-projectiles-0ec6301d]] - source section: 1.4 Character Creation / Projectiles shares source evidence from 1.4 Character Creation / Projectiles: On Table 1-8: Weapons, weapons with made for throwing or shooting after the weapon's name are strictly projectile weapons. Note that these cannot be used in melee. T ... [truncated]; 1.4 Character Creation / Projectiles shares technical record from 1.4 Character Creation / Projectiles: Throwable weapons are basically used in melee, although they can be thrown when the need arises. (2 shared statement(s), 3 shared atom(s))
+
+### Shared technical atoms
+
+- [[sword-world-rpg-complete-edition-magic]] - shared statements and technical atoms: Magic shares source evidence from Chapter 3: / 3.4.4 Actions You Can Take While Standing Still / Use Magic and Projectiles: Above all, the advantage of standing still is the ability to use magic and attack with projectiles. Conversely, if you are not standing still , you cannot use magic or projectiles.; Magic shares technical record from Chapter 3: / 3.4.4 Actions You Can Take While Standing Still / Use Magic and Projectiles: If you want to attack with a projectile, please follow the process of actions you can take during normal movement . (2 shared statement(s), 1 shared atom(s))
 
 ## Source
 

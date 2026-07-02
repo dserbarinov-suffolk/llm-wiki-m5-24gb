@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-deathlike-sleep-dose-bad-joke-inhaled-fa7fa757@2e15ae0343c066b897ca23daef1dabbf
+projection_coverage: section-sword-world-rpg-complete-edition-section-deathlike-sleep-dose-bad-joke-inhaled-fa7fa757@fc898ca616e0fc33b92ad5c344881aa8
 ---
 
 # [Deathlike Sleep (Dose)] / [ Bad Joke (Inhaled) ]
@@ -17,11 +17,16 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
+### Source order
+
+- [[sword-world-rpg-complete-edition-section-deathlike-sleep-dose-dream-runner-inhaled-f6df1b7c]] - previous source section: [Deathlike Sleep (Dose)] / [ Dream Runner (Inhaled) ]
+- [[sword-world-rpg-complete-edition-section-deathlike-sleep-dose-blue-nail-injected-8513d02b]] - next source section: [Deathlike Sleep (Dose)] / [ Blue Nail (Injected) ]
+
+### Source structure
+
 - [[sword-world-rpg-complete-edition-section-deathlike-sleep-dose-839e5efc]] - broader source section: [Deathlike Sleep (Dose)]
 - [[sword-world-rpg-complete-edition-section-deathlike-sleep-dose-bad-joke-inhaled-beast-maker-dose-magic-73d9209e]] - narrower source section: [Deathlike Sleep (Dose)] / [ Bad Joke (Inhaled) ] / [Beast Maker (Dose/Magic)]
 - [[sword-world-rpg-complete-edition-section-deathlike-sleep-dose-bad-joke-inhaled-black-death-touch-injected-or-inhaled-magic-damage-4cd762c4]] - narrower source section: [Deathlike Sleep (Dose)] / [ Bad Joke (Inhaled) ] / [Black Death (Touch, Injected, or Inhaled/Magic, Damage)]
-- [[sword-world-rpg-complete-edition-section-deathlike-sleep-dose-dream-runner-inhaled-f6df1b7c]] - previous source section: [Deathlike Sleep (Dose)] / [ Dream Runner (Inhaled) ]
-- [[sword-world-rpg-complete-edition-section-deathlike-sleep-dose-blue-nail-injected-8513d02b]] - next source section: [Deathlike Sleep (Dose)] / [ Blue Nail (Injected) ]
 
 ## Statements
 

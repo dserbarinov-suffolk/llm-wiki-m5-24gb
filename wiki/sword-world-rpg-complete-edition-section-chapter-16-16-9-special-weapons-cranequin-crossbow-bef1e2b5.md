@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-16-16-9-special-weapons-cranequin-crossbow-bef1e2b5@ba527fe34aa726a92213bd9d59bb04c0
+projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-16-16-9-special-weapons-cranequin-crossbow-bef1e2b5@ae831a4f4cc06db7d91bb1f2d773a4ea
 ---
 
 # Chapter 16: / 16.9 Special Weapons / Cranequin Crossbow
@@ -17,9 +17,14 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-chapter-16-16-9-special-weapons-8824e2ed]] - broader source section: Chapter 16: / 16.9 Special Weapons
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-chapter-16-16-9-special-weapons-shield-attack-37cd647e]] - previous source section: Chapter 16: / 16.9 Special Weapons / Shield Attack
 - [[sword-world-rpg-complete-edition-section-chapter-16-16-9-special-weapons-ballista-c25fa889]] - next source section: Chapter 16: / 16.9 Special Weapons / Ballista
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-chapter-16-16-9-special-weapons-8824e2ed]] - broader source section: Chapter 16: / 16.9 Special Weapons
 
 ## Statements
 

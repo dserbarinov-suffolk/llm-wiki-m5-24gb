@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-other-crystal-orb-of-clairvoyance-5abbe49f@1c9fe4af11ae8d37a089fe70ecb83352
+projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-other-crystal-orb-of-clairvoyance-5abbe49f@d442a02ccdf437b5be14262ed4a2c41e
 ---
 
 # Chapter 14: / 14.4 Magical Item List / 《 Other 》 / [Crystal Orb of Clairvoyance]
@@ -17,9 +17,14 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-other-ae5b041d]] - broader source section: Chapter 14: / 14.4 Magical Item List / 《 Other 》
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-other-guard-glove-70b1bc84]] - previous source section: Chapter 14: / 14.4 Magical Item List / 《 Other 》 / [ Guard Glove ]
 - [[sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-other-gale-horseshoes-f8ec6713]] - next source section: Chapter 14: / 14.4 Magical Item List / 《 Other 》 / [ Gale Horseshoes ]
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-other-ae5b041d]] - broader source section: Chapter 14: / 14.4 Magical Item List / 《 Other 》
 
 ## Statements
 

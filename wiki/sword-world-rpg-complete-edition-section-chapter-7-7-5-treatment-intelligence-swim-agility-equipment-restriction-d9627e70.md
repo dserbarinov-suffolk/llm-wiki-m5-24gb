@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-7-7-5-treatment-intelligence-swim-agility-equipment-restriction-d9627e70@c4c94b1a61d5170028bddf250dce857d
+projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-7-7-5-treatment-intelligence-swim-agility-equipment-restriction-d9627e70@23e368dadc5e4e6442f6212c4cdcf1ea
 ---
 
 # Chapter 7: / 7.5 [ ② Treatment [Intelligence]] / [ ④ Swim [Agility] ] (Equipment restriction)
@@ -17,9 +17,14 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-chapter-7-7-5-treatment-intelligence-27e205e5]] - broader source section: Chapter 7: / 7.5 [ ② Treatment [Intelligence]]
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-chapter-7-7-5-treatment-intelligence-small-ship-steering-dexterity-9411db2e]] - previous source section: Chapter 7: / 7.5 [ ② Treatment [Intelligence]] / [ ③ Small Ship Steering [Dexterity] ]
 - [[sword-world-rpg-complete-edition-section-chapter-7-7-5-treatment-intelligence-weather-prediction-intelligence-not-retriable-f4f13e3f]] - next source section: Chapter 7: / 7.5 [ ② Treatment [Intelligence]] / [ ⑤ Weather Prediction [Intelligence] ] (Not retriable)
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-chapter-7-7-5-treatment-intelligence-27e205e5]] - broader source section: Chapter 7: / 7.5 [ ② Treatment [Intelligence]]
 
 ## Statements
 

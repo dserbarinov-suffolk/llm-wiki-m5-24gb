@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-1-2-races-4e414960@51d2b3aab7a34c53dcdbe4a49b5cae1c
+projection_coverage: section-sword-world-rpg-complete-edition-section-1-2-races-4e414960@463a8bbc4a6e0ee27719fc4127757c60
 ---
 
 # 1.2 Races
@@ -17,12 +17,17 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-1-2-races-grassrunner-e4946bfe]] - narrower source section: 1.2 Races / 【 Grassrunner 】
-- [[sword-world-rpg-complete-edition-section-1-2-races-elf-f299994c]] - narrower source section: 1.2 Races / 【 Elf 】
-- [[sword-world-rpg-complete-edition-section-1-2-races-half-elf-6a232db4]] - narrower source section: 1.2 Races / 【 Half-Elf 】
-- [[sword-world-rpg-complete-edition-section-1-2-races-skills-d796863a]] - narrower source section: 1.2 Races / Skills
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-8-game-master-screen-4f143413]] - previous source section: 8. Game Master Screen
 - [[sword-world-rpg-complete-edition-section-1-4-character-creation-f6aa6108]] - next source section: 1.4 Character Creation
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-1-2-races-elf-f299994c]] - narrower source section: 1.2 Races / 【 Elf 】
+- [[sword-world-rpg-complete-edition-section-1-2-races-grassrunner-e4946bfe]] - narrower source section: 1.2 Races / 【 Grassrunner 】
+- [[sword-world-rpg-complete-edition-section-1-2-races-half-elf-6a232db4]] - narrower source section: 1.2 Races / 【 Half-Elf 】
+- [[sword-world-rpg-complete-edition-section-1-2-races-skills-d796863a]] - narrower source section: 1.2 Races / Skills
 
 ## Statements by subsection
 
@@ -168,6 +173,7 @@ From [[sword-world-rpg-complete-edition]].
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-00195))_
 
+<a id="atom-technical-atom-4f3fac7d954a733c"></a>
 ```text
 Races
 2. Among the craftsman general skill, has  any  one  of  the  following  at  level  5: carpentry, smithing, woodworking, stonemasonry, gem crafting (details are explained under 7.3: Craftsman Skill, see p. 126).

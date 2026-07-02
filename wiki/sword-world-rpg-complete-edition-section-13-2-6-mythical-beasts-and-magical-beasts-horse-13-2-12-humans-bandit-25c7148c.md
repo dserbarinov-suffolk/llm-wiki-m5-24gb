@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-13-2-6-mythical-beasts-and-magical-beasts-horse-13-2-12-humans-bandit-25c7148c@104081e59a00ad43f43a9703f9294e4c
+projection_coverage: section-sword-world-rpg-complete-edition-section-13-2-6-mythical-beasts-and-magical-beasts-horse-13-2-12-humans-bandit-25c7148c@8e6816980155990e8c14fab8aa032306
 ---
 
 # 13.2.6 Mythical Beasts and Magical Beasts / [ Horse ] / 13.2.12 Humans / [ Bandit ]
@@ -17,9 +17,14 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-13-2-6-mythical-beasts-and-magical-beasts-horse-13-2-12-humans-b1a222f1]] - broader source section: 13.2.6 Mythical Beasts and Magical Beasts / [ Horse ] / 13.2.12 Humans
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-13-2-6-mythical-beasts-and-magical-beasts-horse-13-2-12-humans-normal-man-ab0dd857]] - previous source section: 13.2.6 Mythical Beasts and Magical Beasts / [ Horse ] / 13.2.12 Humans / [ Normal Man ]
 - [[sword-world-rpg-complete-edition-section-13-2-6-mythical-beasts-and-magical-beasts-horse-13-2-12-humans-soldier-1913fa70]] - next source section: 13.2.6 Mythical Beasts and Magical Beasts / [ Horse ] / 13.2.12 Humans / [ Soldier ]
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-13-2-6-mythical-beasts-and-magical-beasts-horse-13-2-12-humans-b1a222f1]] - broader source section: 13.2.6 Mythical Beasts and Magical Beasts / [ Horse ] / 13.2.12 Humans
 
 ## Statements
 

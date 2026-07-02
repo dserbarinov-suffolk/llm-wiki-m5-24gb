@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-5-1-17-special-holy-magic-list-marfa-special-holy-magic-list-return-home-spell-level-6-d03a7191@1bdac35dc975c16d06617a0073b227fd
+projection_coverage: section-sword-world-rpg-complete-edition-section-5-1-17-special-holy-magic-list-marfa-special-holy-magic-list-return-home-spell-level-6-d03a7191@b286af1f4872540a9b063459581ab66c
 ---
 
 # 5.1.17 Special Holy Magic List / Marfa Special Holy Magic List / [ Return Home ] (Spell Level=6)
@@ -16,6 +16,8 @@ projection_coverage: section-sword-world-rpg-complete-edition-section-5-1-17-spe
 From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
+
+### Source structure
 
 - [[sword-world-rpg-complete-edition-section-5-1-17-special-holy-magic-list-marfa-special-holy-magic-list-71669c74]] - broader source section: 5.1.17 Special Holy Magic List / Marfa Special Holy Magic List
 

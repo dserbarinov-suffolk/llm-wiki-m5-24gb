@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-16-16-5-combat-options-strong-blow-e8651dbc@5a6191b95880d5d40f5f6e219a5e2c3e
+projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-16-16-5-combat-options-strong-blow-e8651dbc@388e00df580ded0164f70eceb8567ca2
 ---
 
 # Chapter 16: / 16.5 Combat Options / Strong Blow
@@ -17,9 +17,14 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-chapter-16-16-5-combat-options-cdfeb0d1]] - broader source section: Chapter 16: / 16.5 Combat Options
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-chapter-16-16-5-combat-options-full-defense-2aa7a973]] - previous source section: Chapter 16: / 16.5 Combat Options / Full Defense
 - [[sword-world-rpg-complete-edition-section-chapter-16-16-5-combat-options-charge-db161c7b]] - next source section: Chapter 16: / 16.5 Combat Options / Charge
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-chapter-16-16-5-combat-options-cdfeb0d1]] - broader source section: Chapter 16: / 16.5 Combat Options
 
 ## Statements
 
@@ -34,6 +39,7 @@ From [[sword-world-rpg-complete-edition]].
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-10323))_
 
+<a id="atom-technical-atom-365737d93b2338a7"></a>
 ```text
 Table 16-4 Maximum  Ranges
  20 meters for throwing weapons and 100
@@ -49,6 +55,7 @@ Table 16-4 Maximum  Ranges
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-10324))_
 
+<a id="atom-technical-atom-41af1183bf762079"></a>
 > You cannot declare mercy (of course!).
 
 ### Technical frame 3: Chapter 16: / 16.5 Combat Options / Strong Blow
@@ -59,4 +66,5 @@ Table 16-4 Maximum  Ranges
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-10325))_
 
+<a id="atom-technical-atom-e097ca93a0cec172"></a>
 > However, if you're attacked during the round in which you took this action, your evasion speed will be reduced by -4.

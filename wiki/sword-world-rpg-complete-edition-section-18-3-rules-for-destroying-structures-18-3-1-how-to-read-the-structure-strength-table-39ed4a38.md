@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-18-3-rules-for-destroying-structures-18-3-1-how-to-read-the-structure-strength-table-39ed4a38@4fe339cc648f9365b25829381c7a1da8
+projection_coverage: section-sword-world-rpg-complete-edition-section-18-3-rules-for-destroying-structures-18-3-1-how-to-read-the-structure-strength-table-39ed4a38@7b352dec89793d6a4278c17e2f621d61
 ---
 
 # 18.3 Rules for Destroying Structures / 18.3.1 How to Read the Structure Strength Table
@@ -17,12 +17,17 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
+### Source order
+
+- [[sword-world-rpg-complete-edition-section-18-3-rules-for-destroying-structures-18-3-2-structure-material-list-f884c43f]] - next source section: 18.3 Rules for Destroying Structures / 18.3.2 Structure Material List
+
+### Source structure
+
 - [[sword-world-rpg-complete-edition-section-18-3-rules-for-destroying-structures-bf0e7292]] - broader source section: 18.3 Rules for Destroying Structures
-- [[sword-world-rpg-complete-edition-section-18-3-rules-for-destroying-structures-18-3-1-how-to-read-the-structure-strength-table-paper-d7096d44]] - narrower source section: 18.3 Rules for Destroying Structures / 18.3.1 How to Read the Structure Strength Table / [ Paper ]
 - [[sword-world-rpg-complete-edition-section-18-3-rules-for-destroying-structures-18-3-1-how-to-read-the-structure-strength-table-defense-poi-b5a5773f]] - narrower source section: 18.3 Rules for Destroying Structures / 18.3.1 How to Read the Structure Strength Table / Defense Points
 - [[sword-world-rpg-complete-edition-section-18-3-rules-for-destroying-structures-18-3-1-how-to-read-the-structure-strength-table-destruction-bd445d60]] - narrower source section: 18.3 Rules for Destroying Structures / 18.3.1 How to Read the Structure Strength Table / Destruction Points
+- [[sword-world-rpg-complete-edition-section-18-3-rules-for-destroying-structures-18-3-1-how-to-read-the-structure-strength-table-paper-d7096d44]] - narrower source section: 18.3 Rules for Destroying Structures / 18.3.1 How to Read the Structure Strength Table / [ Paper ]
 - [[sword-world-rpg-complete-edition-section-18-3-rules-for-destroying-structures-18-3-1-how-to-read-the-structure-strength-table-special-001bc49e]] - narrower source section: 18.3 Rules for Destroying Structures / 18.3.1 How to Read the Structure Strength Table / Special
-- [[sword-world-rpg-complete-edition-section-18-3-rules-for-destroying-structures-18-3-2-structure-material-list-f884c43f]] - next source section: 18.3 Rules for Destroying Structures / 18.3.2 Structure Material List
 
 ## Statements by subsection
 
@@ -67,6 +72,7 @@ From [[sword-world-rpg-complete-edition]].
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-10592))_
 
+<a id="atom-technical-atom-47dc0db8cb1c6a0d"></a>
 | Fire-type | Firebolt, Fireball, Firestorm |
 | --- | --- |
 | Cold-type | Blizzard, Ice Storm |
@@ -107,6 +113,7 @@ Destruction Points
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-10599))_
 
+<a id="atom-technical-atom-e8e2fde4652f0e54"></a>
 ```text
 Table 18-2 Types of Magic
  its destruction points begin to decrease,

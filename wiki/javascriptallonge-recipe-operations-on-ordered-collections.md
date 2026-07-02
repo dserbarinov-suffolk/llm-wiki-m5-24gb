@@ -4,7 +4,7 @@ page_kind: recipe
 summary: operations on ordered collections: reusable source-backed pattern with 18 statement(s) and 8 technical atom(s) from raw/javascriptallonge.pdf.
 page_family: recipe-pattern
 sources: raw/javascriptallonge.pdf
-updated: 2026-07-01
+updated: 2026-07-02
 domain: javascriptallonge
 category_path: recipes/javascriptallonge
 source_id: javascriptallonge.pdf

@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-5-1-12-ancient-magic-list-seal-enchantment-94da84b4@81eedc79cb4bd664927c80bf934b1cea
+projection_coverage: section-sword-world-rpg-complete-edition-section-5-1-12-ancient-magic-list-seal-enchantment-94da84b4@2db7427912457fc79c9401608dd81a03
 ---
 
 # 5.1.12 Ancient Magic List / [ Seal Enchantment ]
@@ -17,9 +17,14 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-5-1-12-ancient-magic-list-2e59bfee]] - broader source section: 5.1.12 Ancient Magic List
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-5-1-12-ancient-magic-list-see-through-a33c9d61]] - previous source section: 5.1.12 Ancient Magic List / [ See-Through ]
 - [[sword-world-rpg-complete-edition-section-5-1-12-ancient-magic-list-steal-mind-de9949b5]] - next source section: 5.1.12 Ancient Magic List / [ Steal Mind ]
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-5-1-12-ancient-magic-list-2e59bfee]] - broader source section: 5.1.12 Ancient Magic List
 
 ## Statements
 

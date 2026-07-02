@@ -4,11 +4,11 @@ page_kind: source
 summary: Copy on Write / Making Data Out Of Functions / the vireo: 13 source-backed entries and 1 atom(s) from raw/javascriptallonge.pdf.
 page_family: section-reference
 sources: raw/javascriptallonge.pdf
-updated: 2026-07-01
+updated: 2026-07-02
 domain: javascriptallonge
 category_path: sources/javascriptallonge/sections
 source_id: javascriptallonge.pdf
-projection_coverage: section-javascriptallonge-section-copy-on-write-making-data-out-of-functions-the-vireo-b7923ab5@34232a9d07aec4587d161b95836169c0
+projection_coverage: section-javascriptallonge-section-copy-on-write-making-data-out-of-functions-the-vireo-b7923ab5@ea795b7ae3a5f6b8d53d6ca615f549fe
 ---
 
 # Copy on Write / Making Data Out Of Functions / the vireo
@@ -17,9 +17,14 @@ From [[javascriptallonge]].
 
 ## Related pages
 
-- [[javascriptallonge-section-copy-on-write-making-data-out-of-functions-12daea71]] - broader source section: Copy on Write / Making Data Out Of Functions
+### Source order
+
 - [[javascriptallonge-section-copy-on-write-making-data-out-of-functions-backwardness-24f99a95]] - previous source section: Copy on Write / Making Data Out Of Functions / backwardness
 - [[javascriptallonge-section-copy-on-write-making-data-out-of-functions-lists-with-functions-as-data-52fd04fd]] - next source section: Copy on Write / Making Data Out Of Functions / lists with functions as data
+
+### Source structure
+
+- [[javascriptallonge-section-copy-on-write-making-data-out-of-functions-12daea71]] - broader source section: Copy on Write / Making Data Out Of Functions
 
 ## Statements
 
@@ -38,6 +43,7 @@ From [[javascriptallonge]].
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01368))_
 
+<a id="atom-technical-atom-ddb1d9072402c49c"></a>
 ```
 const first = K,
 second = K(I),

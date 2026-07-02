@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-7-7-4-healer-skill-a84ed61d@620a06a2a1abaf5ea1e410b24e606a08
+projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-7-7-4-healer-skill-a84ed61d@c8fb2b510fcc99ad96eec15167753ad2
 ---
 
 # Chapter 7: / 7.4 Healer Skill
@@ -17,10 +17,15 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-chapter-7-c3cc20a8]] - broader source section: Chapter 7:
-- [[sword-world-rpg-complete-edition-section-chapter-7-7-4-healer-skill-first-aid-b0286eac]] - narrower source section: Chapter 7: / 7.4 Healer Skill / [ ① First-Aid [-] ]
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-chapter-7-7-3-craftsman-skill-e4aaafc0]] - previous source section: Chapter 7: / 7.3 Craftsman Skill
 - [[sword-world-rpg-complete-edition-section-chapter-7-7-5-treatment-intelligence-27e205e5]] - next source section: Chapter 7: / 7.5 [ ② Treatment [Intelligence]]
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-chapter-7-c3cc20a8]] - broader source section: Chapter 7:
+- [[sword-world-rpg-complete-edition-section-chapter-7-7-4-healer-skill-first-aid-b0286eac]] - narrower source section: Chapter 7: / 7.4 Healer Skill / [ ① First-Aid [-] ]
 
 ## Statements
 

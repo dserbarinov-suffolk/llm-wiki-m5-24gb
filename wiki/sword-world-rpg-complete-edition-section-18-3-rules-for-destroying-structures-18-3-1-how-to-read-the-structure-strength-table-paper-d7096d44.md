@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-18-3-rules-for-destroying-structures-18-3-1-how-to-read-the-structure-strength-table-paper-d7096d44@61c750da2ddb7ca16a2c742cdbf3cfe9
+projection_coverage: section-sword-world-rpg-complete-edition-section-18-3-rules-for-destroying-structures-18-3-1-how-to-read-the-structure-strength-table-paper-d7096d44@5c3500be9c3f1c33d2de8aeedf7d2d67
 ---
 
 # 18.3 Rules for Destroying Structures / 18.3.1 How to Read the Structure Strength Table / [ Paper ]
@@ -17,8 +17,13 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-18-3-rules-for-destroying-structures-18-3-1-how-to-read-the-structure-strength-table-39ed4a38]] - broader source section: 18.3 Rules for Destroying Structures / 18.3.1 How to Read the Structure Strength Table
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-18-3-rules-for-destroying-structures-18-3-1-how-to-read-the-structure-strength-table-defense-poi-b5a5773f]] - next source section: 18.3 Rules for Destroying Structures / 18.3.1 How to Read the Structure Strength Table / Defense Points
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-18-3-rules-for-destroying-structures-18-3-1-how-to-read-the-structure-strength-table-39ed4a38]] - broader source section: 18.3 Rules for Destroying Structures / 18.3.1 How to Read the Structure Strength Table
 
 ## Statements
 
@@ -34,6 +39,7 @@ From [[sword-world-rpg-complete-edition]].
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-10592))_
 
+<a id="atom-technical-atom-47dc0db8cb1c6a0d"></a>
 | Fire-type | Firebolt, Fireball, Firestorm |
 | --- | --- |
 | Cold-type | Blizzard, Ice Storm |

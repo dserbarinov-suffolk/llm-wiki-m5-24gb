@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-magic-shield-a31533e2@c662e19d6947f3b60ab857192992ad15
+projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-magic-shield-a31533e2@b0b9cfefd3c024db8c205336e0057005
 ---
 
 # Chapter 14: / 14.4 Magical Item List / 《 Magic Shield 》
@@ -17,16 +17,21 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
+### Source order
+
+- [[sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-magic-armor-3-7cd72617]] - previous source section: Chapter 14: / 14.4 Magical Item List / 《 Magic Armor (+3) 》
+- [[sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-accessories-earrings-of-interpretation-6973f651]] - next source section: Chapter 14: / 14.4 Magical Item List / 《 Accessories 》 [ Earrings of Interpretation ]
+
+### Source structure
+
 - [[sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-51d7c911]] - broader source section: Chapter 14: / 14.4 Magical Item List
-- [[sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-magic-shield-amber-robe-e9dea43e]] - narrower source section: Chapter 14: / 14.4 Magical Item List / 《 Magic Shield 》 / 《 Amber Robe 》
 - [[sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-magic-shield-air-cloak-6fdb0d96]] - narrower source section: Chapter 14: / 14.4 Magical Item List / 《 Magic Shield 》 / 《 Air Cloak 》
-- [[sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-magic-shield-grey-suit-675afe0f]] - narrower source section: Chapter 14: / 14.4 Magical Item List / 《 Magic Shield 》 / 《 Grey Suit 》
+- [[sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-magic-shield-amber-robe-e9dea43e]] - narrower source section: Chapter 14: / 14.4 Magical Item List / 《 Magic Shield 》 / 《 Amber Robe 》
 - [[sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-magic-shield-cold-cloak-e69c6d41]] - narrower source section: Chapter 14: / 14.4 Magical Item List / 《 Magic Shield 》 / 《 Cold Cloak 》
+- [[sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-magic-shield-grey-suit-675afe0f]] - narrower source section: Chapter 14: / 14.4 Magical Item List / 《 Magic Shield 》 / 《 Grey Suit 》
 - [[sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-magic-shield-magic-acceptor-5e015f96]] - narrower source section: Chapter 14: / 14.4 Magical Item List / 《 Magic Shield 》 / 《 Magic Acceptor 》
 - [[sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-magic-shield-mithril-mesh-e536dcc3]] - narrower source section: Chapter 14: / 14.4 Magical Item List / 《 Magic Shield 》 / 《 Mithril Mesh 》
 - [[sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-magic-shield-shield-of-the-brave-fc0d7b38]] - narrower source section: Chapter 14: / 14.4 Magical Item List / 《 Magic Shield 》 / 《 Shield of the Brave 》
-- [[sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-magic-armor-3-7cd72617]] - previous source section: Chapter 14: / 14.4 Magical Item List / 《 Magic Armor (+3) 》
-- [[sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-accessories-earrings-of-interpretation-6973f651]] - next source section: Chapter 14: / 14.4 Magical Item List / 《 Accessories 》 [ Earrings of Interpretation ]
 
 ## Statements
 

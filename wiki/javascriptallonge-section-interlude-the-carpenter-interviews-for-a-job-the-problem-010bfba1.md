@@ -4,11 +4,11 @@ page_kind: source
 summary: Interlude: The Carpenter Interviews for a Job / the problem: 14 source-backed entries and 2 atom(s) from raw/javascriptallonge.pdf.
 page_family: section-reference
 sources: raw/javascriptallonge.pdf
-updated: 2026-07-01
+updated: 2026-07-02
 domain: javascriptallonge
 category_path: sources/javascriptallonge/sections
 source_id: javascriptallonge.pdf
-projection_coverage: section-javascriptallonge-section-interlude-the-carpenter-interviews-for-a-job-the-problem-010bfba1@8d9bfd2b9e4bb82d7a8e331310e79677
+projection_coverage: section-javascriptallonge-section-interlude-the-carpenter-interviews-for-a-job-the-problem-010bfba1@4bff185ade10d8c51b257362b78191ee
 ---
 
 # Interlude: The Carpenter Interviews for a Job / the problem
@@ -17,8 +17,13 @@ From [[javascriptallonge]].
 
 ## Related pages
 
-- [[javascriptallonge-section-interlude-the-carpenter-interviews-for-a-job-2e3e33f6]] - broader source section: Interlude: The Carpenter Interviews for a Job
+### Source order
+
 - [[javascriptallonge-section-interlude-the-carpenter-interviews-for-a-job-the-carpenter-s-solution-b3771f17]] - next source section: Interlude: The Carpenter Interviews for a Job / the carpenter's solution
+
+### Source structure
+
+- [[javascriptallonge-section-interlude-the-carpenter-interviews-for-a-job-2e3e33f6]] - broader source section: Interlude: The Carpenter Interviews for a Job
 
 ## Statements
 
@@ -40,6 +45,7 @@ From [[javascriptallonge]].
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01817))_
 
+<a id="atom-technical-atom-2eb592c2d2c2ac18"></a>
 > You may use babeljs.io 95 , or ES6Fiddle 96 to check your work.
 
 ### Technical frame 2: Interlude: The Carpenter Interviews for a Job / the problem
@@ -50,6 +56,7 @@ From [[javascriptallonge]].
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01821))_
 
+<a id="atom-technical-atom-808959651f782b5e"></a>
 ```text
 95 http://babeljs.io
 96 http://www.es6fiddle.net

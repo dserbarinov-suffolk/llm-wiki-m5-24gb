@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-12-various-checks-rules-for-poison-illness-and-infection-189edca4@5fb8b907c75304bfeb82adbbea91355e
+projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-12-various-checks-rules-for-poison-illness-and-infection-189edca4@17a86f74bee26d61d8e47ae70bbc2029
 ---
 
 # Chapter 12: Various Checks / Rules for Poison, Illness and Infection
@@ -17,8 +17,13 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-chapter-12-various-checks-c4b81b14]] - broader source section: Chapter 12: Various Checks
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-chapter-12-various-checks-12-2-1-poisons-73df3909]] - next source section: Chapter 12: Various Checks / 12.2.1 Poisons
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-chapter-12-various-checks-c4b81b14]] - broader source section: Chapter 12: Various Checks
 
 ## Statements
 

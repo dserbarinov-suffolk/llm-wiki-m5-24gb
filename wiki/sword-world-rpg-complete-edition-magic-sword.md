@@ -7,7 +7,7 @@ sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: concepts
-projection_coverage: topic-sword-world-rpg-complete-edition-magic-sword@3e5b66492362d7d8b5d7347a73fd1bfe
+projection_coverage: topic-sword-world-rpg-complete-edition-magic-sword@0188b72ffbc3e9e269e40d9031b81bfd
 ---
 
 # 《 Magic Sword (+1) 》
@@ -63,31 +63,22 @@ What [[sword-world-rpg-complete-edition]] covers about 《 magic sword (+1) 》:
 
 **Atoms:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-08970, source-range-0d48087c-08971, source-range-0d48087c-08972, source-range-0d48087c-08973, source-range-0d48087c-08974))_
 
+<a id="atom-technical-atom-1affe250595f01ba"></a>
 > Rarity=12
 
+<a id="atom-technical-atom-5cf9102ac5c989f0"></a>
 > Enchanter=Many
 
+<a id="atom-technical-atom-073f641d78d00451"></a>
 > Form=A dagger, a one-handed sword, or a two-handed sword
 
+<a id="atom-technical-atom-123e0daca0629e2e"></a>
 > Required Strength/Base Trade Price=See description
 
+<a id="atom-technical-atom-f2e053906c690c5a"></a>
 > Powers=+1 to attack power and bonus damage
 
-### Technical frame 2: Chapter 14: / 14.4 Magical Item List / 14.4.2 List of Magical Items / 《 Magic Sword (+2) 》
-
-**Atoms:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-09033, source-range-0d48087c-09034, source-range-0d48087c-09035, source-range-0d48087c-09036, source-range-0d48087c-09037))_
-
-> Rarity=14
-
-> Enchanter=Many
-
-> Form=A dagger, a one-handed sword, or a two-handed sword
-
-> Required Strength/Base Trade Price=See description
-
-> Powers=+2 to attack power and bonus damage Here's a list of prices of magical daggers, one-handed swords, and twohanded swords with +2 power.
-
-### Technical frame 3: Chapter 14: / 14.4 Magical Item List / 14.4.2 List of Magical Items / 《 Magic Sword (+3) 》
+### Technical frame 2: Chapter 14: / 14.4 Magical Item List / 14.4.2 List of Magical Items / 《 Magic Sword (+3) 》
 
 **Context:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-09097))_
 
@@ -95,11 +86,13 @@ What [[sword-world-rpg-complete-edition]] covers about 《 magic sword (+1) 》:
 
 **Atoms:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-09095, source-range-0d48087c-09096))_
 
+<a id="atom-technical-atom-79d829e32bafab5a"></a>
 > Rarity=16 Enchanter=Many Form=A dagger, a one-handed sword, or a two-handed sword Required Strength/Base Trade Price=See description bonus
 
+<a id="atom-technical-atom-733df7a044970de4"></a>
 > Powers=+3 to attack power and damage
 
-### Technical frame 4: Chapter 14: / 14.4 Magical Item List / 14.4.2 List of Magical Items / 《 Magic Sword (+3) 》
+### Technical frame 3: Chapter 14: / 14.4 Magical Item List / 14.4.2 List of Magical Items / 《 Magic Sword (+3) 》
 
 **Context:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-09097))_
 
@@ -107,6 +100,7 @@ What [[sword-world-rpg-complete-edition]] covers about 《 magic sword (+1) 》:
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-09098))_
 
+<a id="atom-technical-atom-d42bc46e7b98a08d"></a>
 | Required | Price | Required | Price |
 | --- | --- | --- | --- |
 | Strength | (Gamels) | Strength | (Gamels) |
@@ -150,11 +144,16 @@ What [[sword-world-rpg-complete-edition]] covers about 《 magic sword (+1) 》:
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-rune-master]] - shared statements: Rune Master shares source evidence from 4.10 Excellent Weapons and Armor / 4.10.4 Mithril Silver Weapons and Armor / Basic Rules of Magic / 5.1.2 Rune Masters and Rune Master Skills: In Sword World , all those who use magic utilizing runes are called rune masters . Rune masters are divided into five types according to the type of magic (runes) they use. Namely, (1 shared statement(s))
-- [[sword-world-rpg-complete-edition-underworld-creature]] - shared statements: Underworld Creature shares source evidence from 13.2.6 Mythical Beasts and Magical Beasts / [ Horse ] / 13.2.11 Daemons/Underworld Creatures / [ Lesser Daemon ] Grunel: A grunel is a humanoid lesser daemon with steel-blue skin. It's characterized by its long tail, which it can manipulate freely like a whip to attack or entangle enem ... [truncated] (1 shared statement(s))
+### Source structure
+
 - [[sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-14-4-2-list-of-magical-items-magic-sword-1-e6a150f1]] - source section: Chapter 14: / 14.4 Magical Item List / 14.4.2 List of Magical Items / 《 Magic Sword (+1) 》 shares source evidence from Chapter 14: / 14.4 Magical Item List / 14.4.2 List of Magical Items / 《 Magic Sword (+1) 》: Rather than having these appear as +1 swords , it might be better to refer to the descriptions of some of the following magical weapons and give each one a name and ... [truncated]; Chapter 14: / 14.4 Magical Item List / 14.4.2 List of Magical Items / 《 Magic Sword (+1) 》 shares technical record from Chapter 14: / 14.4 Magical Item List / 14.4.2 List of Magical Items / 《 Magic Sword (+1) 》: Rarity=12 (2 shared statement(s), 5 shared atom(s))
 - [[sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-14-4-2-list-of-magical-items-magic-sword-2-12ab608c]] - source section: Chapter 14: / 14.4 Magical Item List / 14.4.2 List of Magical Items / 《 Magic Sword (+2) 》 shares technical record from Chapter 14: / 14.4 Magical Item List / 14.4.2 List of Magical Items / 《 Magic Sword (+2) 》: Rarity=14 (5 shared atom(s))
 - [[sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-14-4-2-list-of-magical-items-magic-sword-3-689d1d27]] - source section: Chapter 14: / 14.4 Magical Item List / 14.4.2 List of Magical Items / 《 Magic Sword (+3) 》 shares source evidence from Chapter 14: / 14.4 Magical Item List / 14.4.2 List of Magical Items / 《 Magic Sword (+3) 》: Here's a list of prices of magical daggers, one-handed swords, and twohanded swords with +3 power.; Chapter 14: / 14.4 Magical Item List / 14.4.2 List of Magical Items / 《 Magic Sword (+3) 》 shares technical record from Chapter 14: / 14.4 Magical Item List / 14.4.2 List of Magical Items / 《 Magic Sword (+3) 》: Rarity=16 Enchanter=Many Form=A dagger, a one-handed sword, or a two-handed sword Required Strength/Base Trade Price=See description bonus (1 shared statement(s), 3 shared atom(s))
+
+### Shared claims
+
+- [[sword-world-rpg-complete-edition-rune-master]] - shared statements: Rune Master shares source evidence from 4.10 Excellent Weapons and Armor / 4.10.4 Mithril Silver Weapons and Armor / Basic Rules of Magic / 5.1.2 Rune Masters and Rune Master Skills: In Sword World , all those who use magic utilizing runes are called rune masters . Rune masters are divided into five types according to the type of magic (runes) they use. Namely, (1 shared statement(s))
+- [[sword-world-rpg-complete-edition-underworld-creature]] - shared statements: Underworld Creature shares source evidence from 13.2.6 Mythical Beasts and Magical Beasts / [ Horse ] / 13.2.11 Daemons/Underworld Creatures / [ Lesser Daemon ] Grunel: A grunel is a humanoid lesser daemon with steel-blue skin. It's characterized by its long tail, which it can manipulate freely like a whip to attack or entangle enem ... [truncated] (1 shared statement(s))
 
 ## Source
 

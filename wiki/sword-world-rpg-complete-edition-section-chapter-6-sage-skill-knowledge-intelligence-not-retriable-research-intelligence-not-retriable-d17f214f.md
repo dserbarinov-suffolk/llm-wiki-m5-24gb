@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-6-sage-skill-knowledge-intelligence-not-retriable-research-intelligence-not-retriable-d17f214f@43ba7cdd06ae4f9c09b187b141fa4bfe
+projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-6-sage-skill-knowledge-intelligence-not-retriable-research-intelligence-not-retriable-d17f214f@c4ff9c0aaa64211be1c6b2898bef6a05
 ---
 
 # Chapter 6: / Sage Skill / [ ④ Knowledge [Intelligence]] (Not retriable) / [ ⑤ Research [Intelligence] ] (Not retriable)
@@ -16,6 +16,8 @@ projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-6-
 From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
+
+### Source structure
 
 - [[sword-world-rpg-complete-edition-section-chapter-6-sage-skill-knowledge-intelligence-not-retriable-17d5f7bb]] - broader source section: Chapter 6: / Sage Skill / [ ④ Knowledge [Intelligence]] (Not retriable)
 

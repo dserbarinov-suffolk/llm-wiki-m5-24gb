@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-7-c3cc20a8@6f69dc22aad77f114b6a953fb71d9c83
+projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-7-c3cc20a8@6da3fba4c7553f9c369eadae3e498824
 ---
 
 # Chapter 7:
@@ -17,13 +17,18 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
+### Source order
+
+- [[sword-world-rpg-complete-edition-section-chapter-6-26ccc185]] - previous source section: Chapter 6:
+- [[sword-world-rpg-complete-edition-section-8-1-experience-points-e5a03227]] - next source section: 8.1 Experience Points
+
+### Source structure
+
 - [[sword-world-rpg-complete-edition-section-chapter-7-7-1-notes-on-general-skills-ac9fd0d7]] - narrower source section: Chapter 7: / 7.1 Notes on General Skills
 - [[sword-world-rpg-complete-edition-section-chapter-7-7-2-merchant-skill-a6d33078]] - narrower source section: Chapter 7: / 7.2 Merchant Skill
 - [[sword-world-rpg-complete-edition-section-chapter-7-7-3-craftsman-skill-e4aaafc0]] - narrower source section: Chapter 7: / 7.3 Craftsman Skill
 - [[sword-world-rpg-complete-edition-section-chapter-7-7-4-healer-skill-a84ed61d]] - narrower source section: Chapter 7: / 7.4 Healer Skill
 - [[sword-world-rpg-complete-edition-section-chapter-7-7-5-treatment-intelligence-27e205e5]] - narrower source section: Chapter 7: / 7.5 [ ② Treatment [Intelligence]]
-- [[sword-world-rpg-complete-edition-section-chapter-6-26ccc185]] - previous source section: Chapter 6:
-- [[sword-world-rpg-complete-edition-section-8-1-experience-points-e5a03227]] - next source section: 8.1 Experience Points
 
 ## Statements by subsection
 
@@ -156,6 +161,7 @@ From [[sword-world-rpg-complete-edition]].
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-04410))_
 
+<a id="atom-technical-atom-a1c811a707b80d3f"></a>
 ```text
 7.6
 7.6 Sailor Skill
@@ -179,4 +185,5 @@ From [[sword-world-rpg-complete-edition]].
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-04441))_
 
+<a id="atom-technical-atom-4cbdd2fc1c7e33d7"></a>
 > [Figure] (p.129)

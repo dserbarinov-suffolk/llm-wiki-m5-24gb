@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-5-1-12-ancient-magic-list-rune-rope-c0ccc2e0@6a40e39178a9d9989cdd7e92fe68a99c
+projection_coverage: section-sword-world-rpg-complete-edition-section-5-1-12-ancient-magic-list-rune-rope-c0ccc2e0@4cb91d5afc83dd17f0aa80fdc38be239
 ---
 
 # 5.1.12 Ancient Magic List / [ Rune Rope ]
@@ -17,10 +17,15 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-5-1-12-ancient-magic-list-2e59bfee]] - broader source section: 5.1.12 Ancient Magic List
-- [[sword-world-rpg-complete-edition-section-5-1-12-ancient-magic-list-rune-rope-7th-level-ancient-magic-list-dispel-order-8025ba77]] - narrower source section: 5.1.12 Ancient Magic List / [ Rune Rope ] / 7th Level Ancient Magic List [ Dispel Order ]
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-5-1-12-ancient-magic-list-haste-2feda0e8]] - previous source section: 5.1.12 Ancient Magic List / [ Haste ]
 - [[sword-world-rpg-complete-edition-section-5-1-12-ancient-magic-list-telekinesis-18779c71]] - next source section: 5.1.12 Ancient Magic List / [ Telekinesis ]
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-5-1-12-ancient-magic-list-2e59bfee]] - broader source section: 5.1.12 Ancient Magic List
+- [[sword-world-rpg-complete-edition-section-5-1-12-ancient-magic-list-rune-rope-7th-level-ancient-magic-list-dispel-order-8025ba77]] - narrower source section: 5.1.12 Ancient Magic List / [ Rune Rope ] / 7th Level Ancient Magic List [ Dispel Order ]
 
 ## Statements
 

@@ -4,11 +4,11 @@ page_kind: source
 summary: And also: / That Constant Coffee Craving / nested blocks: 12 source-backed entries and 0 atom(s) from raw/javascriptallonge.pdf.
 page_family: section-reference
 sources: raw/javascriptallonge.pdf
-updated: 2026-07-01
+updated: 2026-07-02
 domain: javascriptallonge
 category_path: sources/javascriptallonge/sections
 source_id: javascriptallonge.pdf
-projection_coverage: section-javascriptallonge-section-and-also-that-constant-coffee-craving-nested-blocks-78bcbfc7@8f04a29c1b2e7ad7fc36aff7ef233c12
+projection_coverage: section-javascriptallonge-section-and-also-that-constant-coffee-craving-nested-blocks-78bcbfc7@11ba97ba04a3d38d008a89f3bf2069f9
 ---
 
 # And also: / That Constant Coffee Craving / nested blocks
@@ -17,9 +17,14 @@ From [[javascriptallonge]].
 
 ## Related pages
 
-- [[javascriptallonge-section-and-also-that-constant-coffee-craving-ac9d9918]] - broader source section: And also: / That Constant Coffee Craving
+### Source order
+
 - [[javascriptallonge-section-and-also-that-constant-coffee-craving-const-9122b281]] - previous source section: And also: / That Constant Coffee Craving / const
 - [[javascriptallonge-section-and-also-that-constant-coffee-craving-const-and-lexical-scope-326031a2]] - next source section: And also: / That Constant Coffee Craving / const and lexical scope
+
+### Source structure
+
+- [[javascriptallonge-section-and-also-that-constant-coffee-craving-ac9d9918]] - broader source section: And also: / That Constant Coffee Craving
 
 ## Statements
 

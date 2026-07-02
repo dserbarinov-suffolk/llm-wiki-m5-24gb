@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-rings-rune-ring-ece4cd32@bd2890505bf4983c2544b310514001a9
+projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-rings-rune-ring-ece4cd32@f4eb62fd538b75b835fdaf64ab191cf6
 ---
 
 # Chapter 14: / 14.4 Magical Item List / 《 Rings 》 / [ Rune Ring ]
@@ -17,8 +17,13 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-rings-89a8088e]] - broader source section: Chapter 14: / 14.4 Magical Item List / 《 Rings 》
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-rings-linkage-ring-0a7e7092]] - previous source section: Chapter 14: / 14.4 Magical Item List / 《 Rings 》 / [ Linkage Ring ]
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-rings-89a8088e]] - broader source section: Chapter 14: / 14.4 Magical Item List / 《 Rings 》
 
 ## Statements
 

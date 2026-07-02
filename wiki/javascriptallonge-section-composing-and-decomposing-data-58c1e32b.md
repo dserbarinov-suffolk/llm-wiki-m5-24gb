@@ -4,11 +4,11 @@ page_kind: source
 summary: Composing and Decomposing Data: 207 source-backed entries and 2 atom(s) from raw/javascriptallonge.pdf.
 page_family: section-reference
 sources: raw/javascriptallonge.pdf
-updated: 2026-07-01
+updated: 2026-07-02
 domain: javascriptallonge
 category_path: sources/javascriptallonge/sections
 source_id: javascriptallonge.pdf
-projection_coverage: section-javascriptallonge-section-composing-and-decomposing-data-58c1e32b@2a0af50c1763a388e56fd5350cad150b
+projection_coverage: section-javascriptallonge-section-composing-and-decomposing-data-58c1e32b@f3e33d688b07ed2163c8df4d3386c009
 ---
 
 # Composing and Decomposing Data
@@ -17,14 +17,19 @@ From [[javascriptallonge]].
 
 ## Related pages
 
-- [[javascriptallonge-section-composing-and-decomposing-data-arrays-and-destructuring-arguments-c857af65]] - narrower source section: Composing and Decomposing Data / Arrays and Destructuring Arguments
-- [[javascriptallonge-section-composing-and-decomposing-data-self-similarity-4cbf7d4f]] - narrower source section: Composing and Decomposing Data / Self-Similarity
-- [[javascriptallonge-section-composing-and-decomposing-data-tail-calls-and-default-arguments-2f80f1b0]] - narrower source section: Composing and Decomposing Data / Tail Calls (and Default Arguments)
-- [[javascriptallonge-section-composing-and-decomposing-data-factorials-48d5d159]] - narrower source section: Composing and Decomposing Data / factorials
-- [[javascriptallonge-section-composing-and-decomposing-data-default-arguments-870cb490]] - narrower source section: Composing and Decomposing Data / default arguments
-- [[javascriptallonge-section-composing-and-decomposing-data-defaults-and-destructuring-cd5ea708]] - narrower source section: Composing and Decomposing Data / defaults and destructuring
+### Source order
+
 - [[javascriptallonge-section-picking-the-bean-choice-and-truthiness-851a6e13]] - previous source section: Picking the Bean: Choice and Truthiness
 - [[javascriptallonge-section-garbage-garbage-everywhere-c3e1739c]] - next source section: Garbage, Garbage Everywhere
+
+### Source structure
+
+- [[javascriptallonge-section-composing-and-decomposing-data-arrays-and-destructuring-arguments-c857af65]] - narrower source section: Composing and Decomposing Data / Arrays and Destructuring Arguments
+- [[javascriptallonge-section-composing-and-decomposing-data-default-arguments-870cb490]] - narrower source section: Composing and Decomposing Data / default arguments
+- [[javascriptallonge-section-composing-and-decomposing-data-defaults-and-destructuring-cd5ea708]] - narrower source section: Composing and Decomposing Data / defaults and destructuring
+- [[javascriptallonge-section-composing-and-decomposing-data-factorials-48d5d159]] - narrower source section: Composing and Decomposing Data / factorials
+- [[javascriptallonge-section-composing-and-decomposing-data-self-similarity-4cbf7d4f]] - narrower source section: Composing and Decomposing Data / Self-Similarity
+- [[javascriptallonge-section-composing-and-decomposing-data-tail-calls-and-default-arguments-2f80f1b0]] - narrower source section: Composing and Decomposing Data / Tail Calls (and Default Arguments)
 
 ## Statements
 
@@ -196,6 +201,7 @@ From [[javascriptallonge]].
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00851))_
 
+<a id="atom-technical-atom-fa2666d9345d6631"></a>
 ```text
 57 https://en.wikipedia.org/wiki/CAR_and_CDR
 58 Kyle Simpson is the author of You Don't Know JS, available here
@@ -219,6 +225,7 @@ From [[javascriptallonge]].
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00980))_
 
+<a id="atom-technical-atom-729a50b40f08fbd9"></a>
 | 0, | 1, | 2, | 3, | 4, | 5, | 6, | 7, | 8, | 9, |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 10, | 11, | 12, | 13, | 14, | 15, | 16, | 17, | 18, | 19, |

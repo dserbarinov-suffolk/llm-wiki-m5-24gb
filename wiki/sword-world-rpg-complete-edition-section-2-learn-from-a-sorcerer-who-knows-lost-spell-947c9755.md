@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-2-learn-from-a-sorcerer-who-knows-lost-spell-947c9755@6a9ca0227d3cdd22706670910e0a68a0
+projection_coverage: section-sword-world-rpg-complete-edition-section-2-learn-from-a-sorcerer-who-knows-lost-spell-947c9755@f556d74b9e64f7b7293e7a917515460a
 ---
 
 # 2. Learn From a Sorcerer Who Knows Lost Spell
@@ -16,6 +16,8 @@ projection_coverage: section-sword-world-rpg-complete-edition-section-2-learn-fr
 From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
+
+### Source order
 
 - [[sword-world-rpg-complete-edition-section-1-obtain-spellbooks-or-scrolls-containing-lost-spell-832b2327]] - previous source section: 1. Obtain Spellbooks or Scrolls Containing Lost Spell
 - [[sword-world-rpg-complete-edition-section-17-3-catalysts-other-than-staves-a47a464c]] - next source section: 17.3 Catalysts Other Than Staves
@@ -38,6 +40,7 @@ From [[sword-world-rpg-complete-edition]].
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-10528))_
 
+<a id="atom-technical-atom-ceca125b7603cead"></a>
 | The | learning | methods | are | as | follows. | you | must | wait | until | your | skill | level Decrease Weight |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1. | Obtain | Spellbooks |  |  | or | increases | Which | before spells | you are | can use considered | it. | Increase Weight lost is Bone Servant |

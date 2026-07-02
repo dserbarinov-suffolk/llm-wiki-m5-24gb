@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-13-1-types-of-monsters-mythical-beasts-and-magical-beasts-71c23084@eb8b5a5b69ff175f069ae20cf282c5c0
+projection_coverage: section-sword-world-rpg-complete-edition-section-13-1-types-of-monsters-mythical-beasts-and-magical-beasts-71c23084@bdec3adcf8917b71c4d739a843dc18a4
 ---
 
 # 13.1 Types of Monsters / 《 Mythical Beasts and Magical Beasts 》
@@ -17,9 +17,14 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-13-1-types-of-monsters-7512eede]] - broader source section: 13.1 Types of Monsters
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-13-1-types-of-monsters-titans-c6e4f09e]] - previous source section: 13.1 Types of Monsters / 《 Titans 》
 - [[sword-world-rpg-complete-edition-section-13-1-types-of-monsters-animals-6a656fb9]] - next source section: 13.1 Types of Monsters / 《 Animals 》
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-13-1-types-of-monsters-7512eede]] - broader source section: 13.1 Types of Monsters
 
 ## Statements
 

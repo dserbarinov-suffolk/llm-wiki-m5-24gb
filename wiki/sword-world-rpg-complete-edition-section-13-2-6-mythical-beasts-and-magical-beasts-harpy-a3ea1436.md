@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-13-2-6-mythical-beasts-and-magical-beasts-harpy-a3ea1436@61e47d006ba4f17284f27136a551baa3
+projection_coverage: section-sword-world-rpg-complete-edition-section-13-2-6-mythical-beasts-and-magical-beasts-harpy-a3ea1436@78681ae1cd973d2bf11b74a0816320da
 ---
 
 # 13.2.6 Mythical Beasts and Magical Beasts / [ Harpy ]
@@ -17,9 +17,14 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-13-2-6-mythical-beasts-and-magical-beasts-f86962d2]] - broader source section: 13.2.6 Mythical Beasts and Magical Beasts
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-13-2-6-mythical-beasts-and-magical-beasts-ceiling-hanger-4948e9ac]] - previous source section: 13.2.6 Mythical Beasts and Magical Beasts / [ Ceiling Hanger ]
 - [[sword-world-rpg-complete-edition-section-13-2-6-mythical-beasts-and-magical-beasts-hippocampus-718c4175]] - next source section: 13.2.6 Mythical Beasts and Magical Beasts / [ Hippocampus ]
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-13-2-6-mythical-beasts-and-magical-beasts-f86962d2]] - broader source section: 13.2.6 Mythical Beasts and Magical Beasts
 
 ## Statements
 
@@ -43,20 +48,29 @@ From [[sword-world-rpg-complete-edition]].
 
 **Atoms:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-06437, source-range-0d48087c-06438, source-range-0d48087c-06439, source-range-0d48087c-06440, source-range-0d48087c-06441, source-range-0d48087c-06442, source-range-0d48087c-06443, source-range-0d48087c-06444, source-range-0d48087c-06445))_
 
+<a id="atom-technical-atom-2a3cba3a4b6c254b"></a>
 > Monster Level=3
 
+<a id="atom-technical-atom-41d1bc85ea884a55"></a>
 > Rarity=18
 
+<a id="atom-technical-atom-8a6e70dce15fa847"></a>
 > Agility=16 Movement Speed=6/30 (air)
 
+<a id="atom-technical-atom-2b886b1d5432d07d"></a>
 > Number=One Frequency=Very Rare
 
+<a id="atom-technical-atom-65c5abf7e2f2fab6"></a>
 > Intellect=Human Reaction=Neutral
 
+<a id="atom-technical-atom-ff5d7632148c2b86"></a>
 > Attack Points=Talons:11 (4)
 
+<a id="atom-technical-atom-02a69ba5796b2366"></a>
 > Strike Points=9
 
+<a id="atom-technical-atom-1c6ad90fda7d342b"></a>
 > Evasion Points=11 (4) Defense Points=6 Life Points/Resistance=15/11 (4)
 
+<a id="atom-technical-atom-1d9adb26f97524b0"></a>
 > Mental Points/Resistance=12/11 (4) Special Abilities=None in particular Habitat=Coasts Languages=Harpy, regional Perception=Five senses

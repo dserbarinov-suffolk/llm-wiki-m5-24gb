@@ -4,10 +4,10 @@ page_kind: concept
 summary: Reason: 4 statement(s) and 0 atom(s) from raw/javascriptallonge.pdf.
 page_family: topic-concept
 sources: raw/javascriptallonge.pdf
-updated: 2026-07-01
+updated: 2026-07-02
 domain: javascriptallonge
 category_path: concepts
-projection_coverage: topic-javascriptallonge-reason@3b5bb2129133bf3c4b37874659c348af
+projection_coverage: topic-javascriptallonge-reason@8849357777b2833190adf51d675ca744
 ---
 
 # Reason
@@ -34,6 +34,8 @@ What [[javascriptallonge]] covers about reason:
 
 
 ## Related pages
+
+### Shared claims
 
 - [[javascriptallonge-truthiness]] - shared statements: Truthiness shares source evidence from Picking the Bean: Choice and Truthiness / truthiness and the ternary operator: The reason why truthiness matters is that the various logical operators (as well as the if statement) actually operate on truthiness , not on boolean values. This af ... [truncated] (1 shared statement(s))
 

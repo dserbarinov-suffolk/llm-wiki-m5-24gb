@@ -7,7 +7,7 @@ sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: concepts
-projection_coverage: topic-sword-world-rpg-complete-edition-class@9cfb53aff3656dbb3c38e762ee191fd8
+projection_coverage: topic-sword-world-rpg-complete-edition-class@366bcfb4afb07f71c204ccf2af1a0fa1
 ---
 
 # Class
@@ -39,6 +39,7 @@ What [[sword-world-rpg-complete-edition]] covers about class:
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-10760))_
 
+<a id="atom-technical-atom-326f28d0b254dc44"></a>
 > When misfortune befalls them, these adventurers have few other people they can rely on.
 
 

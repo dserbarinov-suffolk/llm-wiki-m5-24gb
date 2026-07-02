@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-misty-sword-1c0c27f5@85ee1772e5478a0907f7affeae75d3bb
+projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-misty-sword-1c0c27f5@2198cb96e24b10937d65027f6b452df1
 ---
 
 # Chapter 14: / 14.4 Magical Item List / 《 Misty Sword 》
@@ -17,11 +17,16 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
+### Source order
+
+- [[sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-14-4-2-list-of-magical-items-7461270b]] - previous source section: Chapter 14: / 14.4 Magical Item List / 14.4.2 List of Magical Items
+- [[sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-magic-armor-1-fd58f79f]] - next source section: Chapter 14: / 14.4 Magical Item List / 《 Magic Armor (+1) 》
+
+### Source structure
+
 - [[sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-51d7c911]] - broader source section: Chapter 14: / 14.4 Magical Item List
 - [[sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-misty-sword-red-eye-22a66737]] - narrower source section: Chapter 14: / 14.4 Magical Item List / 《 Misty Sword 》 / 《 Red Eye 》
 - [[sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-misty-sword-roan-ax-8d19b70a]] - narrower source section: Chapter 14: / 14.4 Magical Item List / 《 Misty Sword 》 / 《 Roan Ax 》
-- [[sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-14-4-2-list-of-magical-items-7461270b]] - previous source section: Chapter 14: / 14.4 Magical Item List / 14.4.2 List of Magical Items
-- [[sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-magic-armor-1-fd58f79f]] - next source section: Chapter 14: / 14.4 Magical Item List / 《 Magic Armor (+1) 》
 
 ## Statements
 
@@ -40,6 +45,7 @@ From [[sword-world-rpg-complete-edition]].
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-09205))_
 
+<a id="atom-technical-atom-ae73afc00e014512"></a>
 ```text
 1 23000 《 Roan Ax 》 Strength (Gamels) Strength (Gamels) 8 29000 Rarity=11 Enchanter=Roan, “The Imperfect” 26000 9 25000 Form=Battle-ax 28000 10 23000
 4 30000

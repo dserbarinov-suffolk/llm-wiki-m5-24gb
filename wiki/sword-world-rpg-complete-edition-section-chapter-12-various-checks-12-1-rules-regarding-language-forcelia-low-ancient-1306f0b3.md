@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-12-various-checks-12-1-rules-regarding-language-forcelia-low-ancient-1306f0b3@dccec749452538e4aed2655f42fa59fd
+projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-12-various-checks-12-1-rules-regarding-language-forcelia-low-ancient-1306f0b3@36c7ecf974f56346637c23165205c982
 ---
 
 # Chapter 12: Various Checks / 12.1 Rules Regarding Language / Forcelia / 《 Low Ancient 》
@@ -17,9 +17,17 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-chapter-12-various-checks-12-1-rules-regarding-language-forcelia-dabbb4cf]] - broader source section: Chapter 12: Various Checks / 12.1 Rules Regarding Language / Forcelia
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-chapter-12-various-checks-12-1-rules-regarding-language-forcelia-gundar-d136bcec]] - previous source section: Chapter 12: Various Checks / 12.1 Rules Regarding Language / Forcelia / [ Gundar ]
 - [[sword-world-rpg-complete-edition-section-chapter-12-various-checks-12-1-rules-regarding-language-forcelia-racial-bd18b878]] - next source section: Chapter 12: Various Checks / 12.1 Rules Regarding Language / Forcelia / 《 Racial 》
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-chapter-12-various-checks-12-1-rules-regarding-language-forcelia-dabbb4cf]] - broader source section: Chapter 12: Various Checks / 12.1 Rules Regarding Language / Forcelia
+
+### Topics
+
 - [[sword-world-rpg-complete-edition-low-ancient]] - topic hub: opens the topic page for Low Ancient
 
 ## Statements

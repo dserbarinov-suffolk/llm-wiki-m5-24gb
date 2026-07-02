@@ -4,11 +4,11 @@ page_kind: source
 summary: Copy on Write / a few utilities: 24 source-backed entries and 2 atom(s) from raw/javascriptallonge.pdf.
 page_family: section-reference
 sources: raw/javascriptallonge.pdf
-updated: 2026-07-01
+updated: 2026-07-02
 domain: javascriptallonge
 category_path: sources/javascriptallonge/sections
 source_id: javascriptallonge.pdf
-projection_coverage: section-javascriptallonge-section-copy-on-write-a-few-utilities-31a03dc1@340d50fcd7235a341ba517ee88c5f6cc
+projection_coverage: section-javascriptallonge-section-copy-on-write-a-few-utilities-31a03dc1@dcf5aedcbee63a48a630dc94b47fd54d
 ---
 
 # Copy on Write / a few utilities
@@ -17,10 +17,15 @@ From [[javascriptallonge]].
 
 ## Related pages
 
+### Source order
+
+- [[javascriptallonge-section-copy-on-write-tortoises-hares-and-teleporting-turtles-62bfcbc0]] - next source section: Copy on Write / Tortoises, Hares, and Teleporting Turtles
+
+### Source structure
+
 - [[javascriptallonge-section-copy-on-write-ea36c891]] - broader source section: Copy on Write
 - [[javascriptallonge-section-copy-on-write-a-few-utilities-copy-on-read-3e3c1bfb]] - narrower source section: Copy on Write / a few utilities / copy-on-read
 - [[javascriptallonge-section-copy-on-write-a-few-utilities-copy-on-write-09152c57]] - narrower source section: Copy on Write / a few utilities / copy-on-write
-- [[javascriptallonge-section-copy-on-write-tortoises-hares-and-teleporting-turtles-62bfcbc0]] - next source section: Copy on Write / Tortoises, Hares, and Teleporting Turtles
 
 ## Statements
 
@@ -56,6 +61,7 @@ From [[javascriptallonge]].
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01230))_
 
+<a id="atom-technical-atom-7a89503a1c2513d4"></a>
 ```
 const copy = (node, head = null, tail = null) => {
 if (node === EMPTY) {
@@ -103,6 +109,7 @@ const parentList = { first: 1, rest: { first: 2, rest: { first: 3, rest: EMPTY }
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01231))_
 
+<a id="atom-technical-atom-ba90ceb93ebdc5ae"></a>
 ```
 const childList = rest(parentList);
 set(2, "three", parentList);

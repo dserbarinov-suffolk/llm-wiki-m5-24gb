@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-1-2-races-half-elf-6a232db4@bf9678e84754f64e27c3b758f325c6b3
+projection_coverage: section-sword-world-rpg-complete-edition-section-1-2-races-half-elf-6a232db4@e8100e37d008b255529c2f831219e401
 ---
 
 # 1.2 Races / 【 Half-Elf 】
@@ -17,9 +17,14 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-1-2-races-4e414960]] - broader source section: 1.2 Races
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-1-2-races-elf-f299994c]] - previous source section: 1.2 Races / 【 Elf 】
 - [[sword-world-rpg-complete-edition-section-1-2-races-skills-d796863a]] - next source section: 1.2 Races / Skills
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-1-2-races-4e414960]] - broader source section: 1.2 Races
 
 ## Statements
 

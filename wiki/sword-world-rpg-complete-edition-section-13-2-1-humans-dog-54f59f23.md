@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-13-2-1-humans-dog-54f59f23@b4c838ecc29953f69eef996d9fccfe8c
+projection_coverage: section-sword-world-rpg-complete-edition-section-13-2-1-humans-dog-54f59f23@b2f66912abae4e9405c2790226a81118
 ---
 
 # 13.2.1 《 Humans 》 / [ Dog ]
@@ -17,9 +17,14 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-13-2-1-humans-2369e4b2]] - broader source section: 13.2.1 《 Humans 》
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-13-2-1-humans-monster-level-ecb5953a]] - previous source section: 13.2.1 《 Humans 》 / 《 Monster Level 》
 - [[sword-world-rpg-complete-edition-section-13-2-1-humans-other-d37533ec]] - next source section: 13.2.1 《 Humans 》 / 《 Other 》
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-13-2-1-humans-2369e4b2]] - broader source section: 13.2.1 《 Humans 》
 
 ## Statements
 

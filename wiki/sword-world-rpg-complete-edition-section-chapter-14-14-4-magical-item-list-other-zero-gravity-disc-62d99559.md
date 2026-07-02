@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-other-zero-gravity-disc-62d99559@bf4dc2ca25709cbc45b2e999580f5883
+projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-other-zero-gravity-disc-62d99559@c4df9571acb64e334bba7f3cdf57831e
 ---
 
 # Chapter 14: / 14.4 Magical Item List / 《 Other 》 / [ Zero Gravity Disc ]
@@ -17,9 +17,14 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-other-ae5b041d]] - broader source section: Chapter 14: / 14.4 Magical Item List / 《 Other 》
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-other-sleep-eye-15812a51]] - previous source section: Chapter 14: / 14.4 Magical Item List / 《 Other 》 / [ Sleep Eye ]
 - [[sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-other-soft-lander-830df0a9]] - next source section: Chapter 14: / 14.4 Magical Item List / 《 Other 》 / [ Soft Lander ]
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-other-ae5b041d]] - broader source section: Chapter 14: / 14.4 Magical Item List / 《 Other 》
 
 ## Statements
 

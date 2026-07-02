@@ -4,11 +4,11 @@ page_kind: source
 summary: Served by the Pot: Collections / Generating Iterables / generators and iterables: 12 source-backed entries and 2 atom(s) from raw/javascriptallonge.pdf.
 page_family: section-reference
 sources: raw/javascriptallonge.pdf
-updated: 2026-07-01
+updated: 2026-07-02
 domain: javascriptallonge
 category_path: sources/javascriptallonge/sections
 source_id: javascriptallonge.pdf
-projection_coverage: section-javascriptallonge-section-served-by-the-pot-collections-generating-iterables-generators-and-iterables-4081f666@22492c06070a4139bf97e21a09af1344
+projection_coverage: section-javascriptallonge-section-served-by-the-pot-collections-generating-iterables-generators-and-iterables-4081f666@4981d1cc2439bcc564a600a69d2521ad
 ---
 
 # Served by the Pot: Collections / Generating Iterables / generators and iterables
@@ -17,9 +17,14 @@ From [[javascriptallonge]].
 
 ## Related pages
 
-- [[javascriptallonge-section-served-by-the-pot-collections-generating-iterables-8c929c4d]] - broader source section: Served by the Pot: Collections / Generating Iterables
+### Source order
+
 - [[javascriptallonge-section-served-by-the-pot-collections-generating-iterables-generators-are-coroutines-e97b031c]] - previous source section: Served by the Pot: Collections / Generating Iterables / generators are coroutines
 - [[javascriptallonge-section-served-by-the-pot-collections-generating-iterables-more-generators-17bb605f]] - next source section: Served by the Pot: Collections / Generating Iterables / more generators
+
+### Source structure
+
+- [[javascriptallonge-section-served-by-the-pot-collections-generating-iterables-8c929c4d]] - broader source section: Served by the Pot: Collections / Generating Iterables
 
 ## Statements
 
@@ -39,6 +44,7 @@ From [[javascriptallonge]].
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01707))_
 
+<a id="atom-technical-atom-282c78b5afaaa88e"></a>
 ```text
 yield 3
 }
@@ -159,6 +165,7 @@ console.log(n)
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01709))_
 
+<a id="atom-technical-atom-22b0cf12cabe801a"></a>
 ```
 const ThreeNumbers = {
 *[Symbol.iterator] () {

@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-1-4-character-creation-elf-c473f9de@3f26aefd7beca17b43e19bbafebd526d
+projection_coverage: section-sword-world-rpg-complete-edition-section-1-4-character-creation-elf-c473f9de@33fc0d75df4375784dee8fc9efd8e2e9
 ---
 
 # 1.4 Character Creation / 【 Elf 】
@@ -17,9 +17,14 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-1-4-character-creation-f6aa6108]] - broader source section: 1.4 Character Creation
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-1-4-character-creation-grassrunner-59ede53b]] - previous source section: 1.4 Character Creation / 【 Grassrunner 】
 - [[sword-world-rpg-complete-edition-section-1-4-character-creation-half-elf-0f1e4f36]] - next source section: 1.4 Character Creation / 【 Half-Elf 】
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-1-4-character-creation-f6aa6108]] - broader source section: 1.4 Character Creation
 
 ## Statements
 

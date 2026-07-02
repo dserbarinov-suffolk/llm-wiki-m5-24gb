@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-target-score-29fe1470@bdeb97f116f7f521c616ad6de1dfbaeb
+projection_coverage: section-sword-world-rpg-complete-edition-section-target-score-29fe1470@bdca6a203e135f618ea9e7926386f855
 ---
 
 # 《 Target Score 》
@@ -17,7 +17,12 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-counters-negates-462dea0d]] - next source section: 《 Counters (Negates) 》
+
+### Topics
+
 - [[sword-world-rpg-complete-edition-target-score]] - topic hub: opens the topic page for Target Score
 
 ## Statements
@@ -41,6 +46,7 @@ From [[sword-world-rpg-complete-edition]].
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-01754))_
 
+<a id="atom-technical-atom-0408e61b36c83da7"></a>
 > When casting any magic, no matter what kind of magic it is, you must roll 2D to check whether an automatic failure (double ones) will occur or not.
 
 ### Technical frame 2: 《 Target Score 》
@@ -51,6 +57,7 @@ From [[sword-world-rpg-complete-edition]].
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-01756))_
 
+<a id="atom-technical-atom-bcbd574f14ef79c1"></a>
 > However, if you feel this is cumbersome, or if you forget to make a note, then when it becomes necessary (nullifying magic has been used), you can roll 2D on the spot to determine a final score = target score .
 
 ### Technical frame 3: 《 Target Score 》
@@ -61,6 +68,7 @@ From [[sword-world-rpg-complete-edition]].
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-01757))_
 
+<a id="atom-technical-atom-4f5bb705c4f73122"></a>
 > When you use magic that nullifies other magic, if your roll is double sixes , the magic will automatically be nullified, no matter what the target score is.
 
 ### Technical frame 4: 《 Target Score 》
@@ -71,4 +79,5 @@ From [[sword-world-rpg-complete-edition]].
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-01758))_
 
+<a id="atom-technical-atom-ea1a19405ef7d8e7"></a>
 > Conversely, if the dice roll double sixes when determining the target score (the success score of the first magic), you must roll another double sixes in order to nullify that magic.

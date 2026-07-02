@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-5-1-14-spirit-magic-list-3rd-level-spirit-magic-list-invisibility-sprite-mind-spirit-binding-dry-49842c6f@90e343cc6fdca69989c7a41688c121fc
+projection_coverage: section-sword-world-rpg-complete-edition-section-5-1-14-spirit-magic-list-3rd-level-spirit-magic-list-invisibility-sprite-mind-spirit-binding-dry-49842c6f@21d59725d961d91345f0b18eb5720cfe
 ---
 
 # 5.1.14 Spirit Magic List / 3rd Level Spirit Magic List [ Invisibility ] (Sprite/Mind Spirit) / [ Binding ] (Dryad/Plant Spirit)
@@ -17,9 +17,14 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-5-1-14-spirit-magic-list-3rd-level-spirit-magic-list-invisibility-sprite-mind-spirit-c96f9e17]] - broader source section: 5.1.14 Spirit Magic List / 3rd Level Spirit Magic List [ Invisibility ] (Sprite/Mind Spirit)
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-5-1-14-spirit-magic-list-3rd-level-spirit-magic-list-invisibility-sprite-mind-spirit-stone-blast-bbf4cba9]] - previous source section: 5.1.14 Spirit Magic List / 3rd Level Spirit Magic List [ Invisibility ] (Sprite/Mind Spirit) / [ Stone Blast ] (Gnome/Earth Spirit)
 - [[sword-world-rpg-complete-edition-section-5-1-14-spirit-magic-list-3rd-level-spirit-magic-list-invisibility-sprite-mind-spirit-healing-the-e830125a]] - next source section: 5.1.14 Spirit Magic List / 3rd Level Spirit Magic List [ Invisibility ] (Sprite/Mind Spirit) / [ Healing ] (The Unknown Spirit of Life)
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-5-1-14-spirit-magic-list-3rd-level-spirit-magic-list-invisibility-sprite-mind-spirit-c96f9e17]] - broader source section: 5.1.14 Spirit Magic List / 3rd Level Spirit Magic List [ Invisibility ] (Sprite/Mind Spirit)
 
 ## Statements
 

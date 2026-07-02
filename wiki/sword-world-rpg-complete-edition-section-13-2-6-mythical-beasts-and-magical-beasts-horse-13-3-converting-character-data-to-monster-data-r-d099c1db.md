@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-13-2-6-mythical-beasts-and-magical-beasts-horse-13-3-converting-character-data-to-monster-data-r-d099c1db@26b0a30826c66ef79140f45c7e892815
+projection_coverage: section-sword-world-rpg-complete-edition-section-13-2-6-mythical-beasts-and-magical-beasts-horse-13-3-converting-character-data-to-monster-data-r-d099c1db@423ae20fd35a4d991600fdc2041163c2
 ---
 
 # 13.2.6 Mythical Beasts and Magical Beasts / [ Horse ] / 13.3 Converting Character Data to Monster Data / [ Redcap ]
@@ -16,6 +16,8 @@ projection_coverage: section-sword-world-rpg-complete-edition-section-13-2-6-myt
 From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
+
+### Source structure
 
 - [[sword-world-rpg-complete-edition-section-13-2-6-mythical-beasts-and-magical-beasts-horse-13-3-converting-character-data-to-monster-data-3a448e24]] - broader source section: 13.2.6 Mythical Beasts and Magical Beasts / [ Horse ] / 13.3 Converting Character Data to Monster Data
 

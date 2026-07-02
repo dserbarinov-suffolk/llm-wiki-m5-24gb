@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-10th-level-dragon-roar-magic-list-reborn-dragon-e7d7b94a@72eaacd197de795193f7e768da6ac941
+projection_coverage: section-sword-world-rpg-complete-edition-section-10th-level-dragon-roar-magic-list-reborn-dragon-e7d7b94a@4310ff71f1b5d50afe2fb65810566a9c
 ---
 
 # 10th Level Dragon Roar Magic List [ Reborn Dragon ]
@@ -16,6 +16,8 @@ projection_coverage: section-sword-world-rpg-complete-edition-section-10th-level
 From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
+
+### Source order
 
 - [[sword-world-rpg-complete-edition-section-chapter-11-notes-on-magic-147e95d8]] - previous source section: Chapter 11: Notes on Magic
 - [[sword-world-rpg-complete-edition-section-chapter-12-various-checks-edfd01f0]] - next source section: Chapter 12: Various Checks

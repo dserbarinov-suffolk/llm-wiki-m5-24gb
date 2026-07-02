@@ -4,11 +4,11 @@ page_kind: source
 summary: JavaScript Allongé, the 'Six' Edition / Reg 'raganwald' Braithwaite: 4 source-backed entries and 2 atom(s) from raw/javascriptallonge.pdf.
 page_family: section-reference
 sources: raw/javascriptallonge.pdf
-updated: 2026-07-01
+updated: 2026-07-02
 domain: javascriptallonge
 category_path: sources/javascriptallonge/sections
 source_id: javascriptallonge.pdf
-projection_coverage: section-javascriptallonge-section-javascript-allong-the-six-edition-reg-raganwald-braithwaite-6c9c026a@452db9f6459574d7cbf856a142b3512b
+projection_coverage: section-javascriptallonge-section-javascript-allong-the-six-edition-reg-raganwald-braithwaite-6c9c026a@acd7ffd63423295c5a17f1e3356ac939
 ---
 
 # JavaScript Allongé, the 'Six' Edition / Reg 'raganwald' Braithwaite
@@ -16,6 +16,8 @@ projection_coverage: section-javascriptallonge-section-javascript-allong-the-six
 From [[javascriptallonge]].
 
 ## Related pages
+
+### Source structure
 
 - [[javascriptallonge-section-javascript-allong-the-six-edition-40c74589]] - broader source section: JavaScript Allongé, the 'Six' Edition
 
@@ -25,6 +27,7 @@ From [[javascriptallonge]].
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00009))_
 
+<a id="atom-technical-atom-d07a963e6eb25b94"></a>
 | A Pull of the Lever: Prefaces................................... | i |
 | --- | --- |
 | About JavaScript Allongé................................... | ii |
@@ -97,6 +100,7 @@ Contents
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00010))_
 
+<a id="atom-technical-atom-491d1db42bf76f17"></a>
 | Composing and Decomposing Data....... | ........................ | 77 |
 | --- | --- | --- |
 | Arrays and Destructuring Arguments.... | ........................ | 78 |

@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-13-2-1-humans-evasion-points-99e511e5@ee49a0d202896539157591c04adb490b
+projection_coverage: section-sword-world-rpg-complete-edition-section-13-2-1-humans-evasion-points-99e511e5@549e74b31aa51b1e52632070c502d50c
 ---
 
 # 13.2.1 《 Humans 》 / 《 Evasion Points 》
@@ -17,9 +17,14 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-13-2-1-humans-2369e4b2]] - broader source section: 13.2.1 《 Humans 》
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-13-2-1-humans-strike-points-e927c83f]] - previous source section: 13.2.1 《 Humans 》 / 《 Strike Points
 - [[sword-world-rpg-complete-edition-section-13-2-1-humans-defense-points-30fa3db0]] - next source section: 13.2.1 《 Humans 》 / 《 Defense Points 》
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-13-2-1-humans-2369e4b2]] - broader source section: 13.2.1 《 Humans 》
 
 ## Statements
 

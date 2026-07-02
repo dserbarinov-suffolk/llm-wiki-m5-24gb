@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-5-1-12-ancient-magic-list-stone-servant-445e48e5@11e30ed3583a36b759215d2488267443
+projection_coverage: section-sword-world-rpg-complete-edition-section-5-1-12-ancient-magic-list-stone-servant-445e48e5@d0513db9347b1219f3b9d184eb71f985
 ---
 
 # 5.1.12 Ancient Magic List / [ Stone Servant ]
@@ -17,9 +17,14 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-5-1-12-ancient-magic-list-2e59bfee]] - broader source section: 5.1.12 Ancient Magic List
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-5-1-12-ancient-magic-list-create-image-143bfa29]] - previous source section: 5.1.12 Ancient Magic List / [ Create Image ]
 - [[sword-world-rpg-complete-edition-section-5-1-12-ancient-magic-list-hard-lock-e0f865d3]] - next source section: 5.1.12 Ancient Magic List / [ Hard Lock ]
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-5-1-12-ancient-magic-list-2e59bfee]] - broader source section: 5.1.12 Ancient Magic List
 
 ## Statements
 

@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-5-1-12-ancient-magic-list-full-potential-6889e92f@7c5363ff42ff9bf0a51dc516fbba2838
+projection_coverage: section-sword-world-rpg-complete-edition-section-5-1-12-ancient-magic-list-full-potential-6889e92f@c50b0e17e305b2bc9c8e8a90fb23fc61
 ---
 
 # 5.1.12 Ancient Magic List / [ Full Potential ]
@@ -17,9 +17,14 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-5-1-12-ancient-magic-list-2e59bfee]] - broader source section: 5.1.12 Ancient Magic List
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-5-1-12-ancient-magic-list-teleport-63ddff3e]] - previous source section: 5.1.12 Ancient Magic List / [ Teleport ]
 - [[sword-world-rpg-complete-edition-section-5-1-12-ancient-magic-list-blade-net-3de06986]] - next source section: 5.1.12 Ancient Magic List / [ Blade Net ]
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-5-1-12-ancient-magic-list-2e59bfee]] - broader source section: 5.1.12 Ancient Magic List
 
 ## Statements
 
@@ -35,18 +40,26 @@ From [[sword-world-rpg-complete-edition]].
 
 **Atoms:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-02534, source-range-0d48087c-02535, source-range-0d48087c-02536, source-range-0d48087c-02537, source-range-0d48087c-02538, source-range-0d48087c-02539, source-range-0d48087c-02540, source-range-0d48087c-02541))_
 
+<a id="atom-technical-atom-e69eb92049556ae4"></a>
 > Base Mental Power Cost=28
 
+<a id="atom-technical-atom-80f7a22a3cb644c5"></a>
 > Distance=10 meters
 
+<a id="atom-technical-atom-821c9f57bf2716cb"></a>
 > Area=One
 
+<a id="atom-technical-atom-23af6763ec48c0bf"></a>
 > Duration=18 rounds
 
+<a id="atom-technical-atom-7741a265e0880b0e"></a>
 > Effect=Increase the three ability scores of dexterity, agility, and strength by 6
 
+<a id="atom-technical-atom-da0c142d82fa63f5"></a>
 > Type=Target score, physical ability
 
+<a id="atom-technical-atom-5bb5279460867d48"></a>
 > Expansion=Final score, duration, distance, targets
 
+<a id="atom-technical-atom-8bae53e6861a684f"></a>
 > Resist=None

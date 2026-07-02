@@ -7,7 +7,7 @@ sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: concepts
-projection_coverage: topic-sword-world-rpg-complete-edition-sage-skill@d3ac82b48b3ea1cb017523bc1185ec86
+projection_coverage: topic-sword-world-rpg-complete-edition-sage-skill@e4fd641028a20891f61d4aec575880f3
 ---
 
 # Sage Skill
@@ -146,15 +146,10 @@ What [[sword-world-rpg-complete-edition]] covers about sage skill:
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-04137))_
 
+<a id="atom-technical-atom-898bf60fd5c119cd"></a>
 > If you can read both common and low ancient, you are free to learn subsequent languages.
 
-### Technical frame 2: Chapter 6: / Sage Skill / [ ③ Astrology [Intelligence] ] (Not retriable)
-
-**Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-04140))_
-
-> You can also set a difficulty and ask for a success roll.
-
-### Technical frame 3: Chapter 6: / Sage Skill / [ ④ Knowledge [Intelligence]] (Not retriable) / [ ⑤ Research [Intelligence] ] (Not retriable)
+### Technical frame 2: Chapter 6: / Sage Skill / [ ④ Knowledge [Intelligence]] (Not retriable) / [ ⑤ Research [Intelligence] ] (Not retriable)
 
 **Context:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-04153))_
 
@@ -162,9 +157,10 @@ What [[sword-world-rpg-complete-edition]] covers about sage skill:
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-04149))_
 
+<a id="atom-technical-atom-e8ef604479b73b29"></a>
 > If the research is successful, the sage may make another success roll.
 
-### Technical frame 4: 8.2 How to Use Experience Points: Increasing Skill Levels / Sage Skill
+### Technical frame 3: 8.2 How to Use Experience Points: Increasing Skill Levels / Sage Skill
 
 **Context:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-04540))_
 
@@ -172,9 +168,10 @@ What [[sword-world-rpg-complete-edition]] covers about sage skill:
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-04538))_
 
+<a id="atom-technical-atom-6dfc5b91361abd20"></a>
 > Please see the rightmost column of Table 8-1: Experience Points by Skill.
 
-### Technical frame 5: Table 8-1: Experience Points by Skill. There is no reduction in experience
+### Technical frame 4: Table 8-1: Experience Points by Skill. There is no reduction in experience
 
 **Context:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-04540))_
 
@@ -182,6 +179,7 @@ What [[sword-world-rpg-complete-edition]] covers about sage skill:
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-04539))_
 
+<a id="atom-technical-atom-0d11cca473789202"></a>
 ```text
 Table 8-1: Experience Points by Skill.        There is no reduction in experience
                                     points when increasing the sage skill to    Example 3:
@@ -222,7 +220,7 @@ Table 8-1: Experience Points by Skill.        There is no reduction in experienc
 
 </details>
 
-### Technical frame 6: 8.2 How to Use Experience Points: Increasing Skill Levels / Sage Skill
+### Technical frame 5: 8.2 How to Use Experience Points: Increasing Skill Levels / Sage Skill
 
 **Context:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-04547))_
 
@@ -230,9 +228,10 @@ Table 8-1: Experience Points by Skill.        There is no reduction in experienc
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-04549))_
 
+<a id="atom-technical-atom-04819339ebb8a18a"></a>
 > If you acquire the 1st level sorcerer skill first, the experience points will be reduced when you acquire the 1st level sage skill, and as a result, the required experience points will be 500 500 = 0 points.
 
-### Technical frame 7: Chapter 12: Various Checks / 12.1 Rules Regarding Language / Languages
+### Technical frame 6: Chapter 12: Various Checks / 12.1 Rules Regarding Language / Languages
 
 **Context:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-05431))_
 
@@ -240,12 +239,23 @@ Table 8-1: Experience Points by Skill.        There is no reduction in experienc
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-05430))_
 
+<a id="atom-technical-atom-16f57207d106a461"></a>
 > An owner of the sorcerer skill can read low ancient, so acquiring the sage skill will quickly allow you to learn new languages (if you can read common).
 
 
 ## Related pages
 
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-chapter-6-sage-skill-c808db17]] - source section: Chapter 6: / Sage Skill shares source evidence from Chapter 6: / Sage Skill: The player chooses which language to learn, along with whether they will speak or read it. However, runes cannot be chosen. Even in the same language, being able to ... [truncated]; Chapter 6: / Sage Skill shares technical record from Chapter 6: / Sage Skill: If you can read both common and low ancient, you are free to learn subsequent languages. (27 shared statement(s), 3 shared atom(s))
+- [[sword-world-rpg-complete-edition-section-8-2-how-to-use-experience-points-increasing-skill-levels-sage-skill-e3acce07]] - source section: 8.2 How to Use Experience Points: Increasing Skill Levels / Sage Skill shares source evidence from 8.2 How to Use Experience Points: Increasing Skill Levels / Sage Skill: There is a close connection between the sorcerer skill and the sage skill. The sorcerer skill is the mastery of ancient through study and the improvement of magical ... [truncated]; 8.2 How to Use Experience Points: Increasing Skill Levels / Sage Skill shares technical record from 8.2 How to Use Experience Points: Increasing Skill Levels / Sage Skill: Please see the rightmost column of Table 8-1: Experience Points by Skill. (17 shared statement(s), 3 shared atom(s))
+
+### Shared technical atoms
+
 - [[sword-world-rpg-complete-edition-low-ancient]] - shared statements and technical atoms: 《 Low Ancient 》 shares source evidence from Chapter 6: / Sage Skill: There are limitations to learning languages through the sage skill. Characters who cannot read common must fi rst learn how to read common before learning other lang ... [truncated]; 《 Low Ancient 》 shares technical record from Chapter 12: Various Checks / 12.1 Rules Regarding Language / Languages: An owner of the sorcerer skill can read low ancient, so acquiring the sage skill will quickly allow you to learn new languages (if you can read common). (3 shared statement(s), 1 shared atom(s))
+
+### Shared claims
+
 - [[sword-world-rpg-complete-edition-target-score]] - shared statements: Target Scores shares source evidence from Chapter 6: / 6.3 Ranger Skill / [ ⑭ Surprise Attack [Intelligence]] (No equipment restriction): Each monster has a score called rarity . Using sage skill level + intelligence bonus as the baseline score, make a success roll with this rarity as the target score, ... [truncated] (4 shared statement(s))
 - [[sword-world-rpg-complete-edition-ranger-skill]] - shared statements: 【 Ranger Skill 】 shares source evidence from Chapter 6: / 6.3 Ranger Skill / [ ⑭ Surprise Attack [Intelligence]] (No equipment restriction): The sage skill represents a comprehensive understanding and depth of knowledge in all academic fields. Academic fields in Sword World are undifferentiated, and owner ... [truncated] (2 shared statement(s))
 - [[sword-world-rpg-complete-edition-11-acquiring-rune-master-skill]] - shared statements: 11 Acquiring Rune Master Skill shares source evidence from Chapter 11: Notes on Magic / 11.4 Acquiring Rune Master Skills and Increasing Levels / 《 Sorcerer Skill 》: Then, you'll be given basic knowledge as a sorcerer, such as speaking and reading in high and low ancient, thus a sorcerer who can use 1st level spells is born. In t ... [truncated] (1 shared statement(s))
@@ -253,8 +263,6 @@ Table 8-1: Experience Points by Skill.        There is no reduction in experienc
 - [[sword-world-rpg-complete-edition-priest-skill]] - shared statements: Priest Skill shares source evidence from Chapter 11: Notes on Magic / 11.3 Dragon Roar Magic / Reptile Check [Intelligence]: Dragon priests have knowledge of dragons, their subspecies such as wyrms, wyverns, etc. and reptiles. For these monsters only, they can identify them with a success ... [truncated] (1 shared statement(s))
 - [[sword-world-rpg-complete-edition-shape-change]] - shared statements: [ Shape Change shares source evidence from 5.1.12 Ancient Magic List / [ Shape Change: This is a spell that allows the caster to change their form into another living creature at will. However, the creatures they can change into are limited to about 10 ... [truncated] (1 shared statement(s))
 - [[sword-world-rpg-complete-edition-thief-skill]] - shared statements: 【 Thief Skill 】 shares source evidence from Chapter 7: / 7.2 Merchant Skill / How to Create General Skills: This is almost the same ability as the thief and sage skills' treasure appraisal . However, you can only make a check for items that the merchant deals with. Therefo ... [truncated] (1 shared statement(s))
-- [[sword-world-rpg-complete-edition-section-chapter-6-sage-skill-c808db17]] - source section: Chapter 6: / Sage Skill shares source evidence from Chapter 6: / Sage Skill: The player chooses which language to learn, along with whether they will speak or read it. However, runes cannot be chosen. Even in the same language, being able to ... [truncated]; Chapter 6: / Sage Skill shares technical record from Chapter 6: / Sage Skill: If you can read both common and low ancient, you are free to learn subsequent languages. (27 shared statement(s), 3 shared atom(s))
-- [[sword-world-rpg-complete-edition-section-8-2-how-to-use-experience-points-increasing-skill-levels-sage-skill-e3acce07]] - source section: 8.2 How to Use Experience Points: Increasing Skill Levels / Sage Skill shares source evidence from 8.2 How to Use Experience Points: Increasing Skill Levels / Sage Skill: There is a close connection between the sorcerer skill and the sage skill. The sorcerer skill is the mastery of ancient through study and the improvement of magical ... [truncated]; 8.2 How to Use Experience Points: Increasing Skill Levels / Sage Skill shares technical record from 8.2 How to Use Experience Points: Increasing Skill Levels / Sage Skill: Please see the rightmost column of Table 8-1: Experience Points by Skill. (17 shared statement(s), 3 shared atom(s))
 
 ## Source
 

@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-13-2-6-mythical-beasts-and-magical-beasts-horse-giant-crab-monster-level-5-rarity-12-agility-10-bd798001@0dcf0a2ead614965fc31d8505c621baa
+projection_coverage: section-sword-world-rpg-complete-edition-section-13-2-6-mythical-beasts-and-magical-beasts-horse-giant-crab-monster-level-5-rarity-12-agility-10-bd798001@937247c9bf982ea8fa10efdaa71f9b74
 ---
 
 # 13.2.6 Mythical Beasts and Magical Beasts / [ Horse ] / [ Giant Crab ] Monster Level=5 Rarity=12 Agility=10 Movement Speed=10/10 (water) Number=One Frequency=Rare Intellect=Almost none Reaction=Hunger-based Attack Points=Large pincer:13 (6)/Pincer:13 (6) Strike Points=13/12 Evasion Points=11 (4) Defense Points=10 Life Points/Resistance=20/14 (7) Mental Points/Resistance=7/12 (5) Special Abilities=Right pincer strangling Water Adaptation Habitat=Warm coastal areas Languages=None
@@ -17,9 +17,14 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-13-2-6-mythical-beasts-and-magical-beasts-horse-9c294c60]] - broader source section: 13.2.6 Mythical Beasts and Magical Beasts / [ Horse ]
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-13-2-6-mythical-beasts-and-magical-beasts-horse-giant-antlion-8f2cb3e5]] - previous source section: 13.2.6 Mythical Beasts and Magical Beasts / [ Horse ] / [ Giant Antlion ]
 - [[sword-world-rpg-complete-edition-section-13-2-6-mythical-beasts-and-magical-beasts-horse-worm-383b71be]] - next source section: 13.2.6 Mythical Beasts and Magical Beasts / [ Horse ] / [ Worm ]
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-13-2-6-mythical-beasts-and-magical-beasts-horse-9c294c60]] - broader source section: 13.2.6 Mythical Beasts and Magical Beasts / [ Horse ]
 
 ## Statements
 

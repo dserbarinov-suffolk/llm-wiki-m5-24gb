@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-12-2-2-illnesses-description-deep-sleep-081411b5@fac2d0c2061d8ef2c14ca44fe10da980
+projection_coverage: section-sword-world-rpg-complete-edition-section-12-2-2-illnesses-description-deep-sleep-081411b5@a13aa20f1728eae80852bf8d6d4e2f6b
 ---
 
 # 12.2.2 Illnesses / 《 Description 》 / [ Deep Sleep ]
@@ -17,8 +17,13 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-12-2-2-illnesses-description-edb99c5e]] - broader source section: 12.2.2 Illnesses / 《 Description 》
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-12-2-2-illnesses-description-dance-macabre-32d7d8a9]] - previous source section: 12.2.2 Illnesses / 《 Description 》 / [ Dance Macabre ]
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-12-2-2-illnesses-description-edb99c5e]] - broader source section: 12.2.2 Illnesses / 《 Description 》
 
 ## Statements
 

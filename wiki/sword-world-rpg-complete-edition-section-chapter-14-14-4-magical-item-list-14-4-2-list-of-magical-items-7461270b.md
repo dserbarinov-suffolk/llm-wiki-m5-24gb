@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-14-4-2-list-of-magical-items-7461270b@085ae66b8f2cf9f46aa5c0896e757e78
+projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-14-4-2-list-of-magical-items-7461270b@8e21c0b5f9c85e9fe38a4d8808060bb5
 ---
 
 # Chapter 14: / 14.4 Magical Item List / 14.4.2 List of Magical Items
@@ -17,30 +17,21 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-51d7c911]] - broader source section: Chapter 14: / 14.4 Magical Item List
-- [[sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-14-4-2-list-of-magical-items-magic-sword-1-e6a150f1]] - narrower source section: Chapter 14: / 14.4 Magical Item List / 14.4.2 List of Magical Items / 《 Magic Sword (+1) 》
-- [[sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-14-4-2-list-of-magical-items-magic-sword-2-12ab608c]] - narrower source section: Chapter 14: / 14.4 Magical Item List / 14.4.2 List of Magical Items / 《 Magic Sword (+2) 》
-- [[sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-14-4-2-list-of-magical-items-magic-sword-3-689d1d27]] - narrower source section: Chapter 14: / 14.4 Magical Item List / 14.4.2 List of Magical Items / 《 Magic Sword (+3) 》
-- [[sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-14-4-2-list-of-magical-items-assassin-s-flute-3515dfe0]] - narrower source section: Chapter 14: / 14.4 Magical Item List / 14.4.2 List of Magical Items / 《 Assassin's Flute 》
-- [[sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-14-4-2-list-of-magical-items-undead-ruler-6bb8bbc9]] - narrower source section: Chapter 14: / 14.4 Magical Item List / 14.4.2 List of Magical Items / 《 Undead Ruler 》
-- [[sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-14-4-2-list-of-magical-items-impulse-4b0df6a0]] - narrower source section: Chapter 14: / 14.4 Magical Item List / 14.4.2 List of Magical Items / 《 Impulse 》
-- [[sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-14-4-2-list-of-magical-items-van-blade-50b21aa2]] - narrower source section: Chapter 14: / 14.4 Magical Item List / 14.4.2 List of Magical Items / 《 Van Blade 》
-- [[sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-14-4-2-list-of-magical-items-cat-claw-4c1626eb]] - narrower source section: Chapter 14: / 14.4 Magical Item List / 14.4.2 List of Magical Items / 《 Cat Claw 》
-- [[sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-14-4-2-list-of-magical-items-crusher-fc76e997]] - narrower source section: Chapter 14: / 14.4 Magical Item List / 14.4.2 List of Magical Items / 《 Crusher 》
-- [[sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-14-4-2-list-of-magical-items-green-light-2e883f91]] - narrower source section: Chapter 14: / 14.4 Magical Item List / 14.4.2 List of Magical Items / 《 Green Light 》
-- [[sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-14-4-2-list-of-magical-items-sea-slayer-69d1a02f]] - narrower source section: Chapter 14: / 14.4 Magical Item List / 14.4.2 List of Magical Items / 《 Sea Slayer 》
-- [[sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-14-4-2-list-of-magical-items-shy-blade-70572a01]] - narrower source section: Chapter 14: / 14.4 Magical Item List / 14.4.2 List of Magical Items / 《 Shy Blade 》
-- [[sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-14-4-2-list-of-magical-items-stone-statue-18a2f475]] - narrower source section: Chapter 14: / 14.4 Magical Item List / 14.4.2 List of Magical Items / 《 Stone Statue 》
-- [[sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-14-4-2-list-of-magical-items-slice-slider-5856278d]] - narrower source section: Chapter 14: / 14.4 Magical Item List / 14.4.2 List of Magical Items / 《 Slice Slider 》
-- [[sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-14-4-2-list-of-magical-items-twisted-sling-03307920]] - narrower source section: Chapter 14: / 14.4 Magical Item List / 14.4.2 List of Magical Items / 《 Twisted Sling 》
-- [[sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-14-4-2-list-of-magical-items-fame-face-f163d24a]] - narrower source section: Chapter 14: / 14.4 Magical Item List / 14.4.2 List of Magical Items / 《 Fame Face 》
-- [[sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-14-4-2-list-of-magical-items-blade-of-bravery-08cb1c79]] - narrower source section: Chapter 14: / 14.4 Magical Item List / 14.4.2 List of Magical Items / 《 Blade of Bravery 》
-- [[sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-14-4-2-list-of-magical-items-flame-smasher-dcafeed1]] - narrower source section: Chapter 14: / 14.4 Magical Item List / 14.4.2 List of Magical Items / 《 Flame Smasher 》
-- [[sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-14-4-2-list-of-magical-items-blaster-0b0e8733]] - narrower source section: Chapter 14: / 14.4 Magical Item List / 14.4.2 List of Magical Items / 《 Blaster 》
-- [[sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-14-4-2-list-of-magical-items-brain-blade-7713cc58]] - narrower source section: Chapter 14: / 14.4 Magical Item List / 14.4.2 List of Magical Items / 《 Brain Blade 》
-- [[sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-14-4-2-list-of-magical-items-mind-eater-74a61d46]] - narrower source section: Chapter 14: / 14.4 Magical Item List / 14.4.2 List of Magical Items / 《 Mind Eater 》
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-details-cc13bc5e]] - previous source section: Chapter 14: / 14.4 Magical Item List / Details
 - [[sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-misty-sword-1c0c27f5]] - next source section: Chapter 14: / 14.4 Magical Item List / 《 Misty Sword 》
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-51d7c911]] - broader source section: Chapter 14: / 14.4 Magical Item List
+- [[sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-14-4-2-list-of-magical-items-assassin-s-flute-3515dfe0]] - narrower source section: Chapter 14: / 14.4 Magical Item List / 14.4.2 List of Magical Items / 《 Assassin's Flute 》
+- [[sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-14-4-2-list-of-magical-items-blade-of-bravery-08cb1c79]] - narrower source section: Chapter 14: / 14.4 Magical Item List / 14.4.2 List of Magical Items / 《 Blade of Bravery 》
+- [[sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-14-4-2-list-of-magical-items-blaster-0b0e8733]] - narrower source section: Chapter 14: / 14.4 Magical Item List / 14.4.2 List of Magical Items / 《 Blaster 》
+- [[sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-14-4-2-list-of-magical-items-brain-blade-7713cc58]] - narrower source section: Chapter 14: / 14.4 Magical Item List / 14.4.2 List of Magical Items / 《 Brain Blade 》
+- [[sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-14-4-2-list-of-magical-items-cat-claw-4c1626eb]] - narrower source section: Chapter 14: / 14.4 Magical Item List / 14.4.2 List of Magical Items / 《 Cat Claw 》
+- [[sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-14-4-2-list-of-magical-items-crusher-fc76e997]] - narrower source section: Chapter 14: / 14.4 Magical Item List / 14.4.2 List of Magical Items / 《 Crusher 》
+- [[sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-14-4-2-list-of-magical-items-fame-face-f163d24a]] - narrower source section: Chapter 14: / 14.4 Magical Item List / 14.4.2 List of Magical Items / 《 Fame Face 》
 
 ## Statements by subsection
 
@@ -126,6 +117,7 @@ From [[sword-world-rpg-complete-edition]].
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-09098))_
 
+<a id="atom-technical-atom-d42bc46e7b98a08d"></a>
 | Required | Price | Required | Price |
 | --- | --- | --- | --- |
 | Strength | (Gamels) | Strength | (Gamels) |

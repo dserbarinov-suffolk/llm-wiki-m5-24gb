@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-magic-armor-1-56d3d6d5@321ba8a812731fdd9d1421a57ff3520a
+projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-magic-armor-1-56d3d6d5@9313f3a199df9634320411af404a1acb
 ---
 
 # Chapter 14: / 14.4 Magical Item List / 《 Magic Armor (+1)
@@ -17,9 +17,17 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-51d7c911]] - broader source section: Chapter 14: / 14.4 Magical Item List
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-magic-armor-1-fd58f79f]] - previous source section: Chapter 14: / 14.4 Magical Item List / 《 Magic Armor (+1) 》
 - [[sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-magic-armor-2-non-metal-or-ring-mail-e50b05a6]] - next source section: Chapter 14: / 14.4 Magical Item List / 《 Magic Armor (+2) 》 Non-metal or ring mail
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-51d7c911]] - broader source section: Chapter 14: / 14.4 Magical Item List
+
+### Topics
+
 - [[sword-world-rpg-complete-edition-magic-armor]] - topic hub: opens the topic page for Magic Armor
 
 ## Statements
@@ -36,6 +44,7 @@ From [[sword-world-rpg-complete-edition]].
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-09263))_
 
+<a id="atom-technical-atom-2774aef600c6191b"></a>
 | exceptionally | column 2 | high-end, it | column 4 | suddenly | Required | column 7 | Price | Required | column 10 | Price | column 12 | column 13 | column 14 | column 15 |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | becomes | an object |  | of interest for |  | Strength |  | (Gamels) | Strength | (Gamels) |  | Required | Price | Required | Price |

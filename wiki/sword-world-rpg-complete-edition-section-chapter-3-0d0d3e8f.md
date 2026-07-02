@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-3-0d0d3e8f@ab4f3dd3c490b44fcf383c184cc56424
+projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-3-0d0d3e8f@a63aadfe84d22b809d3c4ecd19b61ad9
 ---
 
 # Chapter 3:
@@ -17,10 +17,15 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-chapter-3-b1c23679]] - broader source section: Chapter 3:
-- [[sword-world-rpg-complete-edition-section-chapter-3-drop-a-weapon-etc-on-the-ground-8917869d]] - narrower source section: Chapter 3: / Drop a Weapon, Etc. On the Ground
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-chapter-3-movement-and-actions-e72c5ad4]] - previous source section: Chapter 3: / Movement and Actions
 - [[sword-world-rpg-complete-edition-section-chapter-3-3-4-2-actions-you-can-take-e7faacab]] - next source section: Chapter 3: / 3.4.2 Actions You Can Take
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-chapter-3-b1c23679]] - broader source section: Chapter 3:
+- [[sword-world-rpg-complete-edition-section-chapter-3-drop-a-weapon-etc-on-the-ground-8917869d]] - narrower source section: Chapter 3: / Drop a Weapon, Etc. On the Ground
 
 ## Statements by subsection
 
@@ -34,4 +39,5 @@ From [[sword-world-rpg-complete-edition]].
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-01120))_
 
+<a id="atom-technical-atom-dfd0e1f6577585e5"></a>
 > consider it as if you never had it in the first place , then choose your action.

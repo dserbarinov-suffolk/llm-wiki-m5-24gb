@@ -4,11 +4,11 @@ page_kind: source
 summary: Composing and Decomposing Data / defaults and destructuring: 3 source-backed entries and 1 atom(s) from raw/javascriptallonge.pdf.
 page_family: section-reference
 sources: raw/javascriptallonge.pdf
-updated: 2026-07-01
+updated: 2026-07-02
 domain: javascriptallonge
 category_path: sources/javascriptallonge/sections
 source_id: javascriptallonge.pdf
-projection_coverage: section-javascriptallonge-section-composing-and-decomposing-data-defaults-and-destructuring-cd5ea708@7eb831832d56b9e51fd457c152c0e455
+projection_coverage: section-javascriptallonge-section-composing-and-decomposing-data-defaults-and-destructuring-cd5ea708@464b5947a3948bd1bdfa382808541a46
 ---
 
 # Composing and Decomposing Data / defaults and destructuring
@@ -17,8 +17,13 @@ From [[javascriptallonge]].
 
 ## Related pages
 
-- [[javascriptallonge-section-composing-and-decomposing-data-58c1e32b]] - broader source section: Composing and Decomposing Data
+### Source order
+
 - [[javascriptallonge-section-composing-and-decomposing-data-default-arguments-870cb490]] - previous source section: Composing and Decomposing Data / default arguments
+
+### Source structure
+
+- [[javascriptallonge-section-composing-and-decomposing-data-58c1e32b]] - broader source section: Composing and Decomposing Data
 
 ## Statements
 
@@ -35,6 +40,7 @@ From [[javascriptallonge]].
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01007))_
 
+<a id="atom-technical-atom-641bd340a36cffff"></a>
 ```
 const [first, second = "two"] = ["one"];
 `${first} . ${second}`

@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-4-10-excellent-weapons-and-armor-4-10-4-mithril-silver-weapons-and-armor-when-an-adventurer-cast-0a0cd9c4@d4aa5ce898e7261750a0093c6c3f6308
+projection_coverage: section-sword-world-rpg-complete-edition-section-4-10-excellent-weapons-and-armor-4-10-4-mithril-silver-weapons-and-armor-when-an-adventurer-cast-0a0cd9c4@d7555621ac8cacf0a6c7e18f100c3123
 ---
 
 # 4.10 Excellent Weapons and Armor / 4.10.4 Mithril Silver Weapons and Armor / When an Adventurer Casts Magic on a Mix of Adventurers and Monsters
@@ -17,8 +17,13 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-4-10-excellent-weapons-and-armor-4-10-4-mithril-silver-weapons-and-armor-8cb5003a]] - broader source section: 4.10 Excellent Weapons and Armor / 4.10.4 Mithril Silver Weapons and Armor
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-4-10-excellent-weapons-and-armor-4-10-4-mithril-silver-weapons-and-armor-when-an-adventurer-cast-7c15f5c7]] - previous source section: 4.10 Excellent Weapons and Armor / 4.10.4 Mithril Silver Weapons and Armor / When an Adventurer Casts Magic on Adventurers
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-4-10-excellent-weapons-and-armor-4-10-4-mithril-silver-weapons-and-armor-8cb5003a]] - broader source section: 4.10 Excellent Weapons and Armor / 4.10.4 Mithril Silver Weapons and Armor
 
 ## Statements
 
@@ -38,4 +43,5 @@ From [[sword-world-rpg-complete-edition]].
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-01653))_
 
+<a id="atom-technical-atom-78f947d6223725c2"></a>
 > [Figure] (p.60)

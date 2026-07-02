@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-18-3-rules-for-destroying-structures-geography-northeast-region-language-eastern-m-rdan-345e3b41@b88c7e4082a0a32f3b388f9c547c4459
+projection_coverage: section-sword-world-rpg-complete-edition-section-18-3-rules-for-destroying-structures-geography-northeast-region-language-eastern-m-rdan-345e3b41@c57d660f7c47d45b93ea864bd7af35e0
 ---
 
 # 18.3 Rules for Destroying Structures / Geography / Northeast Region (Language = Eastern/Mārdan)
@@ -17,8 +17,13 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-18-3-rules-for-destroying-structures-geography-f18d9385]] - broader source section: 18.3 Rules for Destroying Structures / Geography
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-18-3-rules-for-destroying-structures-geography-oran-language-eastern-m-rdan-896012ab]] - next source section: 18.3 Rules for Destroying Structures / Geography / Oran (Language = Eastern/Mārdan)
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-18-3-rules-for-destroying-structures-geography-f18d9385]] - broader source section: 18.3 Rules for Destroying Structures / Geography
 
 ## Statements
 

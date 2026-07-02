@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-11-notes-on-magic-11-3-dragon-roar-magic-1st-level-dragon-roar-magic-list-iron-stomach-h-5faefe54@938b1d605eb338eafdcb606d3196486f
+projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-11-notes-on-magic-11-3-dragon-roar-magic-1st-level-dragon-roar-magic-list-iron-stomach-h-5faefe54@49e4a5be7195b8cbfbc5b19b8e491a74
 ---
 
 # Chapter 11: Notes on Magic / 11.3 Dragon Roar Magic / 1st Level Dragon Roar Magic List [ Iron Stomach ] / [ Heavy Scale ]
@@ -17,8 +17,13 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-chapter-11-notes-on-magic-11-3-dragon-roar-magic-1st-level-dragon-roar-magic-list-iron-stomach-d613bc88]] - broader source section: Chapter 11: Notes on Magic / 11.3 Dragon Roar Magic / 1st Level Dragon Roar Magic List [ Iron Stomach ]
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-chapter-11-notes-on-magic-11-3-dragon-roar-magic-1st-level-dragon-roar-magic-list-iron-stomach-c-8aad5bac]] - previous source section: Chapter 11: Notes on Magic / 11.3 Dragon Roar Magic / 1st Level Dragon Roar Magic List [ Iron Stomach ] / [ Communicate Reptile ]
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-chapter-11-notes-on-magic-11-3-dragon-roar-magic-1st-level-dragon-roar-magic-list-iron-stomach-d613bc88]] - broader source section: Chapter 11: Notes on Magic / 11.3 Dragon Roar Magic / 1st Level Dragon Roar Magic List [ Iron Stomach ]
 
 ## Technical atoms
 
@@ -26,6 +31,7 @@ From [[sword-world-rpg-complete-edition]].
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-05140))_
 
+<a id="atom-technical-atom-33e2c146dcfad025"></a>
 ```text
 Table 11-1: Summon
  digest anything that enters their stomach
@@ -44,6 +50,7 @@ Table 11-1: Summon
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-05142))_
 
+<a id="atom-technical-atom-5324ab00f084f75c"></a>
 ```text
 1 day later
 -5

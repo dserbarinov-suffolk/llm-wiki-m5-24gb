@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-10th-level-basic-holy-magic-list-call-god-reincarnation-df022eb2@92e3ae91d6b567d19a81c58bd169fc19
+projection_coverage: section-sword-world-rpg-complete-edition-section-10th-level-basic-holy-magic-list-call-god-reincarnation-df022eb2@e887e50e68804264ad444444230c0e3e
 ---
 
 # 10th Level Basic Holy Magic List [ Call God ] / [ Reincarnation
@@ -17,9 +17,14 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-10th-level-basic-holy-magic-list-call-god-aa2b3933]] - broader source section: 10th Level Basic Holy Magic List [ Call God ]
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-10th-level-basic-holy-magic-list-call-god-save-soul-7a89c583]] - previous source section: 10th Level Basic Holy Magic List [ Call God ] / [ Save Soul ]
 - [[sword-world-rpg-complete-edition-section-10th-level-basic-holy-magic-list-call-god-rescue-32f1a4d2]] - next source section: 10th Level Basic Holy Magic List [ Call God ] / [ Rescue ]
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-10th-level-basic-holy-magic-list-call-god-aa2b3933]] - broader source section: 10th Level Basic Holy Magic List [ Call God ]
 
 ## Statements
 
@@ -39,4 +44,5 @@ From [[sword-world-rpg-complete-edition]].
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-03734))_
 
+<a id="atom-technical-atom-421b2e3dff524977"></a>
 > Even before a person regains their personality, if someone who knew them well before reincarnation can identify their body after reincarnation, they can try to restore the person's old memories.

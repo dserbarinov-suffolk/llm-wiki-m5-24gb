@@ -4,10 +4,10 @@ page_kind: concept
 summary: Recipe: 5 statement(s) and 9 atom(s) from raw/javascriptallonge.pdf.
 page_family: broad-topic
 sources: raw/javascriptallonge.pdf
-updated: 2026-07-01
+updated: 2026-07-02
 domain: javascriptallonge
 category_path: concepts
-projection_coverage: topic-javascriptallonge-recipe@470b477be2cbd72c3abeeaea065b0a56
+projection_coverage: topic-javascriptallonge-recipe@42d592be22d25f88ec49ef741cfceeac
 ---
 
 # Recipe
@@ -39,31 +39,7 @@ What [[javascriptallonge]] covers about recipe:
 
 ## Technical atoms
 
-### Technical frame 1: ECMAScript 6 has three major groups of features: / Forewords to the First Edition / matthew knox
-
-**Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00093))_
-
-```text
-matthew knox
-A different kind of language requires a different kind of book.
-JavaScript holds surprising depths-its scoping rules are neither strictly lexical nor strictly dynamic, and it supports procedural, object-oriented (in several flavors!), and functional programming. Many books try to hide most of those capabilities away, giving you recipes for writing JavaScript in a way that approximates class-centric programming in other languages. Not JavaScript Allongé. It starts with the fundamentals of values, functions, and objects, and then guides you through JavaScript from the inside with exploratory bits of code that illustrate scoping, combinators, context, state, prototypes, and constructors.
-5 http://www.fogus.me
-Like JavaScript itself, this book gives you a gentle start before showing you its full depth, and like a Cafe Allongé, it's over too soon. Enjoy!
--Matthew Knox, mattknox.com 6
-6 http://mattknox.com
-```
-
-<details>
-<summary>Parsed table preview (needs review)</summary>
-
-| entry | content |
-| --- | --- |
-| 5 | http://www.fogus.me Like JavaScript itself, this book gives you a gentle start before showing you its full depth, and like a Cafe Allongé, it's over too soon. Enjoy! -Matthew Knox, mattknox.com 6 |
-| 6 | http://mattknox.com |
-
-</details>
-
-### Technical frame 2: Recipes with Basic Functions / Partial Application
+### Technical frame 1: Recipes with Basic Functions / Partial Application
 
 **Context:** _(javascriptallonge.pdf (source-range-0e12e052-00655))_
 
@@ -71,6 +47,7 @@ Like JavaScript itself, this book gives you a gentle start before showing you it
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00654))_
 
+<a id="atom-technical-atom-33d675e7d462cdb6"></a>
 ```text
 Partial Application
 In Building Blocks, we discussed partial application, but we didn't write a generalized recipe for it. This is such a common tool that many libraries provide some form of partial application. You'll find examples in Lemonad 45 from Michael Fogus, Functional JavaScript 46 from Oliver Steele and the terse but handy node-ap 47 from James Halliday.
@@ -87,7 +64,7 @@ In Building Blocks, we discussed partial application, but we didn't write a gene
 
 </details>
 
-### Technical frame 3: Recipes with Basic Functions / Partial Application
+### Technical frame 2: Recipes with Basic Functions / Partial Application
 
 **Context:** _(javascriptallonge.pdf (source-range-0e12e052-00657))_
 
@@ -95,6 +72,7 @@ In Building Blocks, we discussed partial application, but we didn't write a gene
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00656))_
 
+<a id="atom-technical-atom-12e2e0144ff30f83"></a>
 ```
 const callFirst = (fn, larg) =>
 function (...rest) {
@@ -114,7 +92,7 @@ sayHelloToCeline('Eartha')
 //=> 'Hello, Celine, my name is Eartha'
 ```
 
-### Technical frame 4: Recipes with Basic Functions / Partial Application
+### Technical frame 3: Recipes with Basic Functions / Partial Application
 
 **Context:** _(javascriptallonge.pdf (source-range-0e12e052-00660))_
 
@@ -122,6 +100,7 @@ sayHelloToCeline('Eartha')
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00658))_
 
+<a id="atom-technical-atom-6a1f8c07567d2732"></a>
 ```text
 45 https://github.com/fogus/lemonad 46 http://osteele.com/sources/javascript/functional/ 47 https://github.com/substack/node-ap 48
 ```
@@ -137,7 +116,7 @@ sayHelloToCeline('Eartha')
 
 </details>
 
-### Technical frame 5: Recipes with Basic Functions / Maybe
+### Technical frame 4: Recipes with Basic Functions / Maybe
 
 **Context:** _(javascriptallonge.pdf (source-range-0e12e052-00693))_
 
@@ -145,6 +124,7 @@ sayHelloToCeline('Eartha')
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00692))_
 
+<a id="atom-technical-atom-b391f2eda61e4a54"></a>
 ```
 const isSomething = (value) =>
 value !== null && value !== void 0;
@@ -155,7 +135,7 @@ if (isSomething(value)) {
 }
 ```
 
-### Technical frame 6: Recipes with Basic Functions / Maybe
+### Technical frame 5: Recipes with Basic Functions / Maybe
 
 **Context:** _(javascriptallonge.pdf (source-range-0e12e052-00703))_
 
@@ -163,6 +143,7 @@ if (isSomething(value)) {
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00696))_
 
+<a id="atom-technical-atom-5ec51305fdef23e8"></a>
 ```
 const maybe = (fn) =>
 function (...args) {
@@ -175,7 +156,7 @@ if (arg == null) return;
 }
 ```
 
-### Technical frame 7: Recipes with Basic Functions / Maybe
+### Technical frame 6: Recipes with Basic Functions / Maybe
 
 **Context:** _(javascriptallonge.pdf (source-range-0e12e052-00695))_
 
@@ -183,6 +164,7 @@ if (arg == null) return;
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00697))_
 
+<a id="atom-technical-atom-5afd53750bded0f2"></a>
 ```text
 50 https://en.wikipedia.org/wiki/Monad_(functional_programming)#The_Maybe_monad
 51 https://github.com/raganwald/andand
@@ -198,7 +180,7 @@ if (arg == null) return;
 
 </details>
 
-### Technical frame 8: Recipes with Basic Functions / Maybe
+### Technical frame 7: Recipes with Basic Functions / Maybe
 
 **Context:** _(javascriptallonge.pdf (source-range-0e12e052-00703))_
 
@@ -206,13 +188,14 @@ if (arg == null) return;
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00698))_
 
+<a id="atom-technical-atom-754594f35861b72e"></a>
 ```
 return fn.apply(this, args)
 }
 }
 ```
 
-### Technical frame 9: Recipes with Data / Flip
+### Technical frame 8: Recipes with Data / Flip
 
 **Context:** _(javascriptallonge.pdf (source-range-0e12e052-01457))_
 
@@ -220,6 +203,7 @@ return fn.apply(this, args)
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01458))_
 
+<a id="atom-technical-atom-e691ed10c98b5052"></a>
 ```text
 84 https://github.com/raganwald/allong.es
 85 http://underscorejs.org
@@ -238,21 +222,16 @@ return fn.apply(this, args)
 
 ## Related pages
 
+### Shared technical atoms
+
 - [[javascriptallonge-decorator]] - shared statements and technical atoms: Decorator shares source evidence from And also: / Building Blocks / composition: In the recipes, we'll look at a decorator called once: It ensures that a function can only be executed once. Thereafter, it does nothing. Once is useful for ensuring ... [truncated]; Decorator shares technical record from Recipes with Basic Functions / Maybe: const maybe = (fn) => function (...args) { if (args.length === 0) { return } else { for (let arg of args) { if (arg == null) return; } (2 shared statement(s), 3 shared atom(s))
-- [[javascriptallonge-partial-application]] - shared statements and technical atoms: partial application shares source evidence from Recipes with Basic Functions / Partial Application: These two recipes are for quickly and simply applying a single argument, either the leftmost or rightmost. 48 If you want to bind more than one argument, or you want ... [truncated]; partial application shares technical record from Recipes with Basic Functions / Partial Application: const callFirst = (fn, larg) => function (...rest) { return fn.call(this, larg, ...rest); } const callLast = (fn, rarg) => function (...rest) { return fn.call(this, ... [truncated] (1 shared statement(s), 3 shared atom(s))
 - [[javascriptallonge-functional]] - shared technical atoms: Functional shares technical record from ECMAScript 6 has three major groups of features: / Forewords to the First Edition / matthew knox: 45 https://github.com/fogus/lemonad 46 http://osteele.com/sources/javascript/functional/ 47 https://github.com/substack/node-ap 48 (4 shared atom(s))
+- [[javascriptallonge-partial-application]] - shared statements and technical atoms: partial application shares source evidence from Recipes with Basic Functions / Partial Application: These two recipes are for quickly and simply applying a single argument, either the leftmost or rightmost. 48 If you want to bind more than one argument, or you want ... [truncated]; partial application shares technical record from Recipes with Basic Functions / Partial Application: const callFirst = (fn, larg) => function (...rest) { return fn.call(this, larg, ...rest); } const callLast = (fn, rarg) => function (...rest) { return fn.call(this, ... [truncated] (1 shared statement(s), 3 shared atom(s))
 - [[javascriptallonge-javascript]] - shared technical atoms: Javascript shares technical record from ECMAScript 6 has three major groups of features: / Forewords to the First Edition / matthew knox: 45 https://github.com/fogus/lemonad 46 http://osteele.com/sources/javascript/functional/ 47 https://github.com/substack/node-ap 48 (3 shared atom(s))
 - [[javascriptallonge-allong]] - shared technical atoms: Allong shares technical record from ECMAScript 6 has three major groups of features: / Forewords to the First Edition / matthew knox: matthew knox A different kind of language requires a different kind of book. JavaScript holds surprising depths-its scoping rules are neither strictly lexical nor st ... [truncated] (2 shared atom(s))
 - [[javascriptallonge-argument]] - shared technical atoms: Argument shares technical record from Recipes with Basic Functions / Partial Application: const callFirst = (fn, larg) => function (...rest) { return fn.call(this, larg, ...rest); } const callLast = (fn, rarg) => function (...rest) { return fn.call(this, ... [truncated] (2 shared atom(s))
 - [[javascriptallonge-bind]] - shared technical atoms: Bind shares technical record from Recipes with Basic Functions / Partial Application: const callFirst = (fn, larg) => function (...rest) { return fn.call(this, larg, ...rest); } const callLast = (fn, rarg) => function (...rest) { return fn.call(this, ... [truncated] (2 shared atom(s))
 - [[javascriptallonge-list]] - shared technical atoms: List shares technical record from Recipes with Basic Functions / Partial Application: const callFirst = (fn, larg) => function (...rest) { return fn.call(this, larg, ...rest); } const callLast = (fn, rarg) => function (...rest) { return fn.call(this, ... [truncated] (2 shared atom(s))
-- [[javascriptallonge-programming]] - shared technical atoms: Programming shares technical record from ECMAScript 6 has three major groups of features: / Forewords to the First Edition / matthew knox: 50 https://en.wikipedia.org/wiki/Monad_(functional_programming)#The_Maybe_monad 51 https://github.com/raganwald/andand (2 shared atom(s))
-- [[javascriptallonge-data]] - shared technical atoms: Data shares technical record from Recipes with Data / Flip: 84 https://github.com/raganwald/allong.es 85 http://underscorejs.org (1 shared atom(s))
-- [[javascriptallonge-ecmascript]] - shared technical atoms: Ecmascript shares technical record from ECMAScript 6 has three major groups of features: / Forewords to the First Edition / matthew knox: matthew knox A different kind of language requires a different kind of book. JavaScript holds surprising depths-its scoping rules are neither strictly lexical nor st ... [truncated] (1 shared atom(s))
-- [[javascriptallonge-edition]] - shared technical atoms: Edition shares technical record from ECMAScript 6 has three major groups of features: / Forewords to the First Edition / matthew knox: matthew knox A different kind of language requires a different kind of book. JavaScript holds surprising depths-its scoping rules are neither strictly lexical nor st ... [truncated] (1 shared atom(s))
-- [[javascriptallonge-feature]] - shared technical atoms: Feature shares technical record from ECMAScript 6 has three major groups of features: / Forewords to the First Edition / matthew knox: matthew knox A different kind of language requires a different kind of book. JavaScript holds surprising depths-its scoping rules are neither strictly lexical nor st ... [truncated] (1 shared atom(s))
-- [[javascriptallonge-object]] - shared technical atoms: Object shares technical record from ECMAScript 6 has three major groups of features: / Forewords to the First Edition / matthew knox: matthew knox A different kind of language requires a different kind of book. JavaScript holds surprising depths-its scoping rules are neither strictly lexical nor st ... [truncated] (1 shared atom(s))
-- [[javascriptallonge-write]] - shared technical atoms: Write shares technical record from Recipes with Basic Functions / Partial Application: Partial Application In Building Blocks, we discussed partial application, but we didn't write a generalized recipe for it. This is such a common tool that many libra ... [truncated] (1 shared atom(s))
 
 ## Source
 

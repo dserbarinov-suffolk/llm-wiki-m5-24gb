@@ -4,11 +4,11 @@ page_kind: source
 summary: A Warm Cup: Basic Strings and Quasi-Literals / evaluation time: 7 source-backed entries and 0 atom(s) from raw/javascriptallonge.pdf.
 page_family: section-reference
 sources: raw/javascriptallonge.pdf
-updated: 2026-07-01
+updated: 2026-07-02
 domain: javascriptallonge
 category_path: sources/javascriptallonge/sections
 source_id: javascriptallonge.pdf
-projection_coverage: section-javascriptallonge-section-a-warm-cup-basic-strings-and-quasi-literals-evaluation-time-1634aeef@be5b14cfef3eb3ce0e2c8fcf58e276f8
+projection_coverage: section-javascriptallonge-section-a-warm-cup-basic-strings-and-quasi-literals-evaluation-time-1634aeef@955c495b90b711fc8570f790908299c2
 ---
 
 # A Warm Cup: Basic Strings and Quasi-Literals / evaluation time
@@ -17,8 +17,13 @@ From [[javascriptallonge]].
 
 ## Related pages
 
-- [[javascriptallonge-section-a-warm-cup-basic-strings-and-quasi-literals-50e42ba0]] - broader source section: A Warm Cup: Basic Strings and Quasi-Literals
+### Source order
+
 - [[javascriptallonge-section-a-warm-cup-basic-strings-and-quasi-literals-quasi-literals-6d1aa137]] - previous source section: A Warm Cup: Basic Strings and Quasi-Literals / quasi-literals
+
+### Source structure
+
+- [[javascriptallonge-section-a-warm-cup-basic-strings-and-quasi-literals-50e42ba0]] - broader source section: A Warm Cup: Basic Strings and Quasi-Literals
 
 ## Statements
 

@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-12-2-2-illnesses-description-edb99c5e@981cb590a1c399fb067123d4189a4f62
+projection_coverage: section-sword-world-rpg-complete-edition-section-12-2-2-illnesses-description-edb99c5e@34186839c1e6ec1b69f1e62f62ea668e
 ---
 
 # 12.2.2 Illnesses / 《 Description 》
@@ -17,14 +17,19 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-12-2-2-illnesses-5611d07e]] - broader source section: 12.2.2 Illnesses
-- [[sword-world-rpg-complete-edition-section-12-2-2-illnesses-description-green-slime-rot-5a737090]] - narrower source section: 12.2.2 Illnesses / 《 Description 》 / [ Green Slime Rot ]
-- [[sword-world-rpg-complete-edition-section-12-2-2-illnesses-description-cotton-weaver-5a91d867]] - narrower source section: 12.2.2 Illnesses / 《 Description 》 / [ Cotton Weaver ]
-- [[sword-world-rpg-complete-edition-section-12-2-2-illnesses-description-stone-skin-626f7e50]] - narrower source section: 12.2.2 Illnesses / 《 Description 》 / [ Stone Skin ]
-- [[sword-world-rpg-complete-edition-section-12-2-2-illnesses-description-dance-macabre-32d7d8a9]] - narrower source section: 12.2.2 Illnesses / 《 Description 》 / [ Dance Macabre ]
-- [[sword-world-rpg-complete-edition-section-12-2-2-illnesses-description-deep-sleep-081411b5]] - narrower source section: 12.2.2 Illnesses / 《 Description 》 / [ Deep Sleep ]
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-12-2-2-illnesses-infection-power-865cf146]] - previous source section: 12.2.2 Illnesses / 《 Infection Power 》
 - [[sword-world-rpg-complete-edition-section-12-2-2-illnesses-bat-fever-56d254a7]] - next source section: 12.2.2 Illnesses / [ Bat Fever ]
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-12-2-2-illnesses-5611d07e]] - broader source section: 12.2.2 Illnesses
+- [[sword-world-rpg-complete-edition-section-12-2-2-illnesses-description-cotton-weaver-5a91d867]] - narrower source section: 12.2.2 Illnesses / 《 Description 》 / [ Cotton Weaver ]
+- [[sword-world-rpg-complete-edition-section-12-2-2-illnesses-description-dance-macabre-32d7d8a9]] - narrower source section: 12.2.2 Illnesses / 《 Description 》 / [ Dance Macabre ]
+- [[sword-world-rpg-complete-edition-section-12-2-2-illnesses-description-deep-sleep-081411b5]] - narrower source section: 12.2.2 Illnesses / 《 Description 》 / [ Deep Sleep ]
+- [[sword-world-rpg-complete-edition-section-12-2-2-illnesses-description-green-slime-rot-5a737090]] - narrower source section: 12.2.2 Illnesses / 《 Description 》 / [ Green Slime Rot ]
+- [[sword-world-rpg-complete-edition-section-12-2-2-illnesses-description-stone-skin-626f7e50]] - narrower source section: 12.2.2 Illnesses / 《 Description 》 / [ Stone Skin ]
 
 ## Statements
 

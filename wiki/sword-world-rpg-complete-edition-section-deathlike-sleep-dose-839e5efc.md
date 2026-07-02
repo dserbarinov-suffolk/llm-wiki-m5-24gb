@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-deathlike-sleep-dose-839e5efc@10017ea712d743c7d2b0c34f4dda9813
+projection_coverage: section-sword-world-rpg-complete-edition-section-deathlike-sleep-dose-839e5efc@71636d478223cf5ae74bd4162497f9be
 ---
 
 # [Deathlike Sleep (Dose)]
@@ -17,14 +17,19 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-deathlike-sleep-dose-dream-runner-inhaled-f6df1b7c]] - narrower source section: [Deathlike Sleep (Dose)] / [ Dream Runner (Inhaled) ]
-- [[sword-world-rpg-complete-edition-section-deathlike-sleep-dose-bad-joke-inhaled-fa7fa757]] - narrower source section: [Deathlike Sleep (Dose)] / [ Bad Joke (Inhaled) ]
-- [[sword-world-rpg-complete-edition-section-deathlike-sleep-dose-blue-nail-injected-8513d02b]] - narrower source section: [Deathlike Sleep (Dose)] / [ Blue Nail (Injected) ]
-- [[sword-world-rpg-complete-edition-section-deathlike-sleep-dose-white-marble-inhaled-magic-17b4b9a5]] - narrower source section: [Deathlike Sleep (Dose)] / [White Marble (Inhaled/Magic)]
-- [[sword-world-rpg-complete-edition-section-deathlike-sleep-dose-medusa-eyes-dose-magic-4e60aab1]] - narrower source section: [Deathlike Sleep (Dose)] / [Medusa Eyes (Dose/Magic)]
-- [[sword-world-rpg-complete-edition-section-deathlike-sleep-dose-love-passion-inhaled-dose-magic-mind-f8d31402]] - narrower source section: [Deathlike Sleep (Dose)] / [ Love Passion (Inhaled, Dose/Magic, Mind) ]
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-description-d5853f98]] - previous source section: 《 Description 》
 - [[sword-world-rpg-complete-edition-section-12-2-2-illnesses-5611d07e]] - next source section: 12.2.2 Illnesses
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-deathlike-sleep-dose-bad-joke-inhaled-fa7fa757]] - narrower source section: [Deathlike Sleep (Dose)] / [ Bad Joke (Inhaled) ]
+- [[sword-world-rpg-complete-edition-section-deathlike-sleep-dose-blue-nail-injected-8513d02b]] - narrower source section: [Deathlike Sleep (Dose)] / [ Blue Nail (Injected) ]
+- [[sword-world-rpg-complete-edition-section-deathlike-sleep-dose-dream-runner-inhaled-f6df1b7c]] - narrower source section: [Deathlike Sleep (Dose)] / [ Dream Runner (Inhaled) ]
+- [[sword-world-rpg-complete-edition-section-deathlike-sleep-dose-love-passion-inhaled-dose-magic-mind-f8d31402]] - narrower source section: [Deathlike Sleep (Dose)] / [ Love Passion (Inhaled, Dose/Magic, Mind) ]
+- [[sword-world-rpg-complete-edition-section-deathlike-sleep-dose-medusa-eyes-dose-magic-4e60aab1]] - narrower source section: [Deathlike Sleep (Dose)] / [Medusa Eyes (Dose/Magic)]
+- [[sword-world-rpg-complete-edition-section-deathlike-sleep-dose-white-marble-inhaled-magic-17b4b9a5]] - narrower source section: [Deathlike Sleep (Dose)] / [White Marble (Inhaled/Magic)]
 
 ## Statements
 

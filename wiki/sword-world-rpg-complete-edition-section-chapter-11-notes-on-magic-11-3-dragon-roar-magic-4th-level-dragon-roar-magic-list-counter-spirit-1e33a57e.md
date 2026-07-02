@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-11-notes-on-magic-11-3-dragon-roar-magic-4th-level-dragon-roar-magic-list-counter-spirit-1e33a57e@8d547dbfdde2f04c829a036a5ffb6c67
+projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-11-notes-on-magic-11-3-dragon-roar-magic-4th-level-dragon-roar-magic-list-counter-spirit-1e33a57e@77c1cd9308da4f20b5b32d0300fd5ab6
 ---
 
 # Chapter 11: Notes on Magic / 11.3 Dragon Roar Magic / 4th Level Dragon Roar Magic List / [ Counter Spirit ]
@@ -17,8 +17,13 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-chapter-11-notes-on-magic-11-3-dragon-roar-magic-4th-level-dragon-roar-magic-list-8ae54bdc]] - broader source section: Chapter 11: Notes on Magic / 11.3 Dragon Roar Magic / 4th Level Dragon Roar Magic List
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-chapter-11-notes-on-magic-11-3-dragon-roar-magic-4th-level-dragon-roar-magic-list-fire-breath-e075b4b3]] - next source section: Chapter 11: Notes on Magic / 11.3 Dragon Roar Magic / 4th Level Dragon Roar Magic List / [ Fire Breath ]
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-chapter-11-notes-on-magic-11-3-dragon-roar-magic-4th-level-dragon-roar-magic-list-8ae54bdc]] - broader source section: Chapter 11: Notes on Magic / 11.3 Dragon Roar Magic / 4th Level Dragon Roar Magic List
 
 ## Statements
 

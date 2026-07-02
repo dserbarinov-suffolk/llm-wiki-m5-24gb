@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-3-3-4-4-actions-you-can-take-while-standing-still-attacks-from-characters-against-monste-2531bc5c@b6926626d0c12ab81334fdd9a0fb23e6
+projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-3-3-4-4-actions-you-can-take-while-standing-still-attacks-from-characters-against-monste-2531bc5c@ab4d1487c8dedd967f6963e542d017ce
 ---
 
 # Chapter 3: / 3.4.4 Actions You Can Take While Standing Still / Attacks From Characters Against Monsters
@@ -17,9 +17,17 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
+### Source order
+
+- [[sword-world-rpg-complete-edition-section-chapter-3-3-4-4-actions-you-can-take-while-standing-still-scores-used-in-weapon-combat-4d2e9a59]] - previous source section: Chapter 3: / 3.4.4 Actions You Can Take While Standing Still / Scores Used in Weapon Combat
+
+### Source structure
+
 - [[sword-world-rpg-complete-edition-section-chapter-3-3-4-4-actions-you-can-take-while-standing-still-ac427570]] - broader source section: Chapter 3: / 3.4.4 Actions You Can Take While Standing Still
 - [[sword-world-rpg-complete-edition-section-chapter-3-3-4-4-actions-you-can-take-while-standing-still-attacks-from-characters-against-monste-43579a86]] - narrower source section: Chapter 3: / 3.4.4 Actions You Can Take While Standing Still / Attacks From Characters Against Monsters / 4.5.1 Hit Checks
-- [[sword-world-rpg-complete-edition-section-chapter-3-3-4-4-actions-you-can-take-while-standing-still-scores-used-in-weapon-combat-4d2e9a59]] - previous source section: Chapter 3: / 3.4.4 Actions You Can Take While Standing Still / Scores Used in Weapon Combat
+
+### Topics
+
 - [[sword-world-rpg-complete-edition-attack-character-monster]] - topic hub: opens the topic page for Attack Character Monster
 
 ## Statements by subsection
@@ -43,6 +51,7 @@ From [[sword-world-rpg-complete-edition]].
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-01262))_
 
+<a id="atom-technical-atom-2534865c8cb05080"></a>
 ```text
 4.5.1 Hit Checks
 Key Number
@@ -105,6 +114,7 @@ Key Number
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-01263))_
 
+<a id="atom-technical-atom-c0717a255f518b63"></a>
 ```text
 Table 4-2: Rating Table, Key Number
    8  6  6  6 7  7  7 8  8  8  8 8  8  8  8  9  9  9  9 10 10

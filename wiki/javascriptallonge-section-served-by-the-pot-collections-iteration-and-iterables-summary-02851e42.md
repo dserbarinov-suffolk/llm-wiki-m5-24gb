@@ -4,11 +4,11 @@ page_kind: source
 summary: Served by the Pot: Collections / Iteration and Iterables / summary: 3 source-backed entries and 0 atom(s) from raw/javascriptallonge.pdf.
 page_family: section-reference
 sources: raw/javascriptallonge.pdf
-updated: 2026-07-01
+updated: 2026-07-02
 domain: javascriptallonge
 category_path: sources/javascriptallonge/sections
 source_id: javascriptallonge.pdf
-projection_coverage: section-javascriptallonge-section-served-by-the-pot-collections-iteration-and-iterables-summary-02851e42@ba03732b88982dd51511fcfa03b1e9bb
+projection_coverage: section-javascriptallonge-section-served-by-the-pot-collections-iteration-and-iterables-summary-02851e42@d431ef43c5d35e59c4b5c6bd851e8ca1
 ---
 
 # Served by the Pot: Collections / Iteration and Iterables / summary
@@ -17,8 +17,13 @@ From [[javascriptallonge]].
 
 ## Related pages
 
-- [[javascriptallonge-section-served-by-the-pot-collections-iteration-and-iterables-6006fd95]] - broader source section: Served by the Pot: Collections / Iteration and Iterables
+### Source order
+
 - [[javascriptallonge-section-served-by-the-pot-collections-iteration-and-iterables-from-b90bf31a]] - previous source section: Served by the Pot: Collections / Iteration and Iterables / from
+
+### Source structure
+
+- [[javascriptallonge-section-served-by-the-pot-collections-iteration-and-iterables-6006fd95]] - broader source section: Served by the Pot: Collections / Iteration and Iterables
 
 ## Statements
 

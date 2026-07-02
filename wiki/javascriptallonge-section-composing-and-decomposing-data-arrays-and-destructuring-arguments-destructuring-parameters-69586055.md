@@ -4,11 +4,11 @@ page_kind: source
 summary: Composing and Decomposing Data / Arrays and Destructuring Arguments / destructuring parameters: 7 source-backed entries and 0 atom(s) from raw/javascriptallonge.pdf.
 page_family: section-reference
 sources: raw/javascriptallonge.pdf
-updated: 2026-07-01
+updated: 2026-07-02
 domain: javascriptallonge
 category_path: sources/javascriptallonge/sections
 source_id: javascriptallonge.pdf
-projection_coverage: section-javascriptallonge-section-composing-and-decomposing-data-arrays-and-destructuring-arguments-destructuring-parameters-69586055@d25fd48ae6b94f21ff1a9cd6d50434d4
+projection_coverage: section-javascriptallonge-section-composing-and-decomposing-data-arrays-and-destructuring-arguments-destructuring-parameters-69586055@542e4a8544d6c2b75d9c4134628c5050
 ---
 
 # Composing and Decomposing Data / Arrays and Destructuring Arguments / destructuring parameters
@@ -17,8 +17,13 @@ From [[javascriptallonge]].
 
 ## Related pages
 
-- [[javascriptallonge-section-composing-and-decomposing-data-arrays-and-destructuring-arguments-c857af65]] - broader source section: Composing and Decomposing Data / Arrays and Destructuring Arguments
+### Source order
+
 - [[javascriptallonge-section-composing-and-decomposing-data-arrays-and-destructuring-arguments-destructuring-and-return-value-65445863]] - previous source section: Composing and Decomposing Data / Arrays and Destructuring Arguments / destructuring and return values
+
+### Source structure
+
+- [[javascriptallonge-section-composing-and-decomposing-data-arrays-and-destructuring-arguments-c857af65]] - broader source section: Composing and Decomposing Data / Arrays and Destructuring Arguments
 
 ## Statements
 

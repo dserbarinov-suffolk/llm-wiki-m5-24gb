@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-11-notes-on-magic-11-2-dark-magic-11-2-2-basic-dark-magic-list-a6d7778b@ffd8377adc87819819001bb02b960f56
+projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-11-notes-on-magic-11-2-dark-magic-11-2-2-basic-dark-magic-list-a6d7778b@dc752774149d93a8b450f0ab44f0bed9
 ---
 
 # Chapter 11: Notes on Magic / 11.2 Dark Magic / 11.2.2 Basic Dark Magic List
@@ -17,9 +17,14 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-chapter-11-notes-on-magic-11-2-dark-magic-3498c004]] - broader source section: Chapter 11: Notes on Magic / 11.2 Dark Magic
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-chapter-11-notes-on-magic-11-2-dark-magic-11-2-1-basic-abilities-of-the-dark-priest-skill-085ee769]] - previous source section: Chapter 11: Notes on Magic / 11.2 Dark Magic / 11.2.1 Basic Abilities of the Dark Priest Skill
 - [[sword-world-rpg-complete-edition-section-chapter-11-notes-on-magic-11-2-dark-magic-1st-level-basic-dark-magic-list-87936227]] - next source section: Chapter 11: Notes on Magic / 11.2 Dark Magic / 1st Level Basic Dark Magic List
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-chapter-11-notes-on-magic-11-2-dark-magic-3498c004]] - broader source section: Chapter 11: Notes on Magic / 11.2 Dark Magic
 
 ## Statements
 

@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-amulets-amulet-of-countersense-b16dab40@aacd8644fa1aa4fb3c5784ec37bd1cde
+projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-amulets-amulet-of-countersense-b16dab40@eddc464009611249e969343dbb7be4d1
 ---
 
 # Chapter 14: / 14.4 Magical Item List / 《 Amulets 》 / [ Amulet of Countersense ]
@@ -17,8 +17,13 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-amulets-e411eab6]] - broader source section: Chapter 14: / 14.4 Magical Item List / 《 Amulets 》
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-amulets-amulet-versus-undead-8958c068]] - next source section: Chapter 14: / 14.4 Magical Item List / 《 Amulets 》 / [ Amulet Versus Undead ]
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-amulets-e411eab6]] - broader source section: Chapter 14: / 14.4 Magical Item List / 《 Amulets 》
 
 ## Statements
 

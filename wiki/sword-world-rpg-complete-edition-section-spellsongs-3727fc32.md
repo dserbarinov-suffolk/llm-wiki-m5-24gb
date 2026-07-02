@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-spellsongs-3727fc32@e0d1858b13d7c649c599308f653fd3c2
+projection_coverage: section-sword-world-rpg-complete-edition-section-spellsongs-3727fc32@3eac06a4a19d56c92d595607e372f79d
 ---
 
 # Spellsongs
@@ -16,6 +16,8 @@ projection_coverage: section-sword-world-rpg-complete-edition-section-spellsongs
 From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
+
+### Source structure
 
 - [[sword-world-rpg-complete-edition-section-5-3-b419e428]] - broader source section: 5.3
 - [[sword-world-rpg-complete-edition-section-spellsongs-5-3-1-spellsong-list-55e26038]] - narrower source section: Spellsongs / 5.3.1 Spellsong List
@@ -135,6 +137,7 @@ From [[sword-world-rpg-complete-edition]].
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-03909))_
 
+<a id="atom-technical-atom-85fd1f034d38ec1b"></a>
 > Also, if you choose a fl ute as your instrument, you can use the spellsong without having to sing the lyrics.
 
 ### Technical frame 2: Spellsongs
@@ -145,6 +148,7 @@ From [[sword-world-rpg-complete-edition]].
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-03912))_
 
+<a id="atom-technical-atom-04f2baab6bc6c3e1"></a>
 > As long as a bard is singing a spellsong, they cannot take any other actions and cannot move more than 3 meters in one round.
 
 ### Technical frame 3: Spellsongs / Filling out the Character Sheet / Charm (Mind)
@@ -155,12 +159,14 @@ From [[sword-world-rpg-complete-edition]].
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-03931))_
 
+<a id="atom-technical-atom-097d2d4b0a000943"></a>
 > With this spellsong, a bard can make those they charm take specific actions.
 
 ### Technical frame 4: Table 5-10: Requiem
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-03932))_
 
+<a id="atom-technical-atom-f5366413a6f9df24"></a>
 ```text
 Table 5-10: Requiem
  around the bard. It takes about 18 rounds
@@ -172,6 +178,7 @@ Table 5-10: Requiem
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-03933))_
 
+<a id="atom-technical-atom-1eed3be880b18304"></a>
 ```text
 Table 5-10: Requiem
 2D Result
@@ -203,6 +210,7 @@ Movement slows down while the song continues. -3 to attack points and evasion po
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-03934))_
 
+<a id="atom-technical-atom-c1a64492fd11420c"></a>
 > 7-8
 
 ### Technical frame 7: Spellsongs / Filling out the Character Sheet / Charm (Mind)
@@ -213,6 +221,7 @@ Movement slows down while the song continues. -3 to attack points and evasion po
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-03943))_
 
+<a id="atom-technical-atom-2bd2f12ae115556d"></a>
 > If you are using a flute as your instrument, you can use this spellsong, but you cannot make anyone take any actions.
 
 ### Technical frame 8: Spellsongs / Filling out the Character Sheet / Requiem
@@ -223,4 +232,5 @@ Movement slows down while the song continues. -3 to attack points and evasion po
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-03960))_
 
+<a id="atom-technical-atom-0cd88c7bbdc2bec5"></a>
 > If this spellsong is sung to the deceased for over an hour during their funeral, the deceased will never become undead.

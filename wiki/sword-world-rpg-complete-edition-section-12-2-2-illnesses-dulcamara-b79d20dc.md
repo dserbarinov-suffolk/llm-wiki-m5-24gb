@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-12-2-2-illnesses-dulcamara-b79d20dc@dc46d71bd5d6e6b5026198182b5cd9d6
+projection_coverage: section-sword-world-rpg-complete-edition-section-12-2-2-illnesses-dulcamara-b79d20dc@6926468e77205ae0eacc3b19e685b260
 ---
 
 # 12.2.2 Illnesses / [ Dulcamara ]
@@ -17,9 +17,14 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-12-2-2-illnesses-5611d07e]] - broader source section: 12.2.2 Illnesses
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-12-2-2-illnesses-upas-4fc28f9e]] - previous source section: 12.2.2 Illnesses / [ Upas ]
 - [[sword-world-rpg-complete-edition-section-12-2-2-illnesses-henruda-4151d45f]] - next source section: 12.2.2 Illnesses / [ Henruda ]
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-12-2-2-illnesses-5611d07e]] - broader source section: 12.2.2 Illnesses
 
 ## Statements
 

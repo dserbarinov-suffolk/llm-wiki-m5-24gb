@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-details-sword-world-rpg-complete-edition-rulebook-5ed3db83@20437aa67ef1cecb3e98e85d18b8309e
+projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-details-sword-world-rpg-complete-edition-rulebook-5ed3db83@d557d637e44c6611b48c4dcc79c17961
 ---
 
 # Chapter 14: / 14.4 Magical Item List / Details / Sword World RPG: Complete Edition Rulebook
@@ -17,8 +17,13 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-details-cc13bc5e]] - broader source section: Chapter 14: / 14.4 Magical Item List / Details
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-details-rarity-b92b568e]] - next source section: Chapter 14: / 14.4 Magical Item List / Details / 《 Rarity 》
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-details-cc13bc5e]] - broader source section: Chapter 14: / 14.4 Magical Item List / Details
 
 ## Statements
 

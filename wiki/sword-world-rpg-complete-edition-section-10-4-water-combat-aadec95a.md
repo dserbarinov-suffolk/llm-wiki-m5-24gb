@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-10-4-water-combat-aadec95a@5eba74dfc2b93a64d0fb9bf63156caf4
+projection_coverage: section-sword-world-rpg-complete-edition-section-10-4-water-combat-aadec95a@de6464b49c0f5eceb4f0b29eb2aaab66
 ---
 
 # 10.4 Water Combat
@@ -16,6 +16,8 @@ projection_coverage: section-sword-world-rpg-complete-edition-section-10-4-water
 From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
+
+### Source order
 
 - [[sword-world-rpg-complete-edition-section-10-3-surprise-attacks-4b377f5c]] - previous source section: 10.3 Surprise Attacks
 - [[sword-world-rpg-complete-edition-section-10-5-attacks-against-the-sleeping-a6ff2046]] - next source section: 10.5 Attacks Against the Sleeping

@@ -4,11 +4,11 @@ page_kind: source
 summary: Served by the Pot: Collections / Iteration and Iterables / a look back at functional iterators: 10 source-backed entries and 3 atom(s) from raw/javascriptallonge.pdf.
 page_family: section-reference
 sources: raw/javascriptallonge.pdf
-updated: 2026-07-01
+updated: 2026-07-02
 domain: javascriptallonge
 category_path: sources/javascriptallonge/sections
 source_id: javascriptallonge.pdf
-projection_coverage: section-javascriptallonge-section-served-by-the-pot-collections-iteration-and-iterables-a-look-back-at-functional-iterators-39b0dbb4@86ff3288c2ecdf51426f40266bbbfb8c
+projection_coverage: section-javascriptallonge-section-served-by-the-pot-collections-iteration-and-iterables-a-look-back-at-functional-iterators-39b0dbb4@fe77ff9a933766eb48cce05e4d1f2131
 ---
 
 # Served by the Pot: Collections / Iteration and Iterables / a look back at functional iterators
@@ -17,8 +17,16 @@ From [[javascriptallonge]].
 
 ## Related pages
 
-- [[javascriptallonge-section-served-by-the-pot-collections-iteration-and-iterables-6006fd95]] - broader source section: Served by the Pot: Collections / Iteration and Iterables
+### Source order
+
 - [[javascriptallonge-section-served-by-the-pot-collections-iteration-and-iterables-iterator-objects-7abb0097]] - next source section: Served by the Pot: Collections / Iteration and Iterables / iterator objects
+
+### Source structure
+
+- [[javascriptallonge-section-served-by-the-pot-collections-iteration-and-iterables-6006fd95]] - broader source section: Served by the Pot: Collections / Iteration and Iterables
+
+### Topics
+
 - [[javascriptallonge-functional-iterator]] - topic hub: opens the topic page for Functional Iterator
 
 ## Statements
@@ -37,6 +45,7 @@ From [[javascriptallonge]].
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01528))_
 
+<a id="atom-technical-atom-ddee552faf251bd7"></a>
 ```
 const Stack1 = () =>
 ({
@@ -85,6 +94,7 @@ stack.push("you!")
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01529))_
 
+<a id="atom-technical-atom-f68796c5cf2886ed"></a>
 ```
 const iter = stack.iterator();
 iter().value
@@ -101,6 +111,7 @@ iter().value
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01533))_
 
+<a id="atom-technical-atom-1f7883384ea561b0"></a>
 ```
 const iteratorSum = (iterator) => {
 let eachIteration,

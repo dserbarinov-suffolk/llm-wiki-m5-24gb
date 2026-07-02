@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-5-1-17-special-holy-magic-list-braki-special-holy-magic-list-heat-metal-spell-level-5-b8b0ee7b@39dbc617f0a50a7c788f9e8b12c7df08
+projection_coverage: section-sword-world-rpg-complete-edition-section-5-1-17-special-holy-magic-list-braki-special-holy-magic-list-heat-metal-spell-level-5-b8b0ee7b@382df4ea22e9956ff737d3ad1b130726
 ---
 
 # 5.1.17 Special Holy Magic List / Braki Special Holy Magic List / [ Heat Metal ] (Spell Level=5)
@@ -17,8 +17,13 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-5-1-17-special-holy-magic-list-braki-special-holy-magic-list-e553151f]] - broader source section: 5.1.17 Special Holy Magic List / Braki Special Holy Magic List
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-5-1-17-special-holy-magic-list-braki-special-holy-magic-list-sense-metal-spell-level-3-bcace8c8]] - previous source section: 5.1.17 Special Holy Magic List / Braki Special Holy Magic List / [ Sense Metal ] (Spell Level=3)
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-5-1-17-special-holy-magic-list-braki-special-holy-magic-list-e553151f]] - broader source section: 5.1.17 Special Holy Magic List / Braki Special Holy Magic List
 
 ## Statements
 
@@ -36,6 +41,7 @@ From [[sword-world-rpg-complete-edition]].
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-03889))_
 
+<a id="atom-technical-atom-9845bf70bedcb1fd"></a>
 > Resist=None
 
 ### Technical frame 2: 5.1.17 Special Holy Magic List / Braki Special Holy Magic List / [ Heat Metal ] (Spell Level=5)
@@ -46,4 +52,5 @@ From [[sword-world-rpg-complete-edition]].
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-03891))_
 
+<a id="atom-technical-atom-09795fd5403b6d99"></a>
 > This heating of metal is magical, so if the caster's focus is broken, the targeted metal mass instantly loses its heat.

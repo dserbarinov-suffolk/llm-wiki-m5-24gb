@@ -4,11 +4,11 @@ page_kind: source
 summary: And also: / That Constant Coffee Craving / inside-out: 21 source-backed entries and 1 atom(s) from raw/javascriptallonge.pdf.
 page_family: section-reference
 sources: raw/javascriptallonge.pdf
-updated: 2026-07-01
+updated: 2026-07-02
 domain: javascriptallonge
 category_path: sources/javascriptallonge/sections
 source_id: javascriptallonge.pdf
-projection_coverage: section-javascriptallonge-section-and-also-that-constant-coffee-craving-inside-out-973a2848@1c038d1997cba29419efee6e4d0f46c4
+projection_coverage: section-javascriptallonge-section-and-also-that-constant-coffee-craving-inside-out-973a2848@c8ecda5383edad81fb0d73718bedf4e1
 ---
 
 # And also: / That Constant Coffee Craving / inside-out
@@ -17,8 +17,13 @@ From [[javascriptallonge]].
 
 ## Related pages
 
-- [[javascriptallonge-section-and-also-that-constant-coffee-craving-ac9d9918]] - broader source section: And also: / That Constant Coffee Craving
+### Source order
+
 - [[javascriptallonge-section-and-also-that-constant-coffee-craving-const-9122b281]] - next source section: And also: / That Constant Coffee Craving / const
+
+### Source structure
+
+- [[javascriptallonge-section-and-also-that-constant-coffee-craving-ac9d9918]] - broader source section: And also: / That Constant Coffee Craving
 
 ## Statements
 
@@ -45,6 +50,7 @@ From [[javascriptallonge]].
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00394))_
 
+<a id="atom-technical-atom-5867db6f7f79d9da"></a>
 ```
 (diameter) =>
 ((PI) =>

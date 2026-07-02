@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-51d7c911@91c8920271b0f495893745f91565f68e
+projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-51d7c911@c24909d00092ca12dee502b525eca1ce
 ---
 
 # Chapter 14: / 14.4 Magical Item List
@@ -17,29 +17,20 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
+### Source order
+
+- [[sword-world-rpg-complete-edition-section-chapter-14-14-3-treasure-types-3e3d33e2]] - previous source section: Chapter 14: / 14.3 Treasure Types
+
+### Source structure
+
 - [[sword-world-rpg-complete-edition-section-chapter-14-bd22bf6b]] - broader source section: Chapter 14:
-- [[sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-magical-items-377c53f5]] - narrower source section: Chapter 14: / 14.4 Magical Item List / Magical Items
-- [[sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-details-cc13bc5e]] - narrower source section: Chapter 14: / 14.4 Magical Item List / Details
 - [[sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-14-4-2-list-of-magical-items-7461270b]] - narrower source section: Chapter 14: / 14.4 Magical Item List / 14.4.2 List of Magical Items
-- [[sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-misty-sword-1c0c27f5]] - narrower source section: Chapter 14: / 14.4 Magical Item List / 《 Misty Sword 》
-- [[sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-magic-armor-1-fd58f79f]] - narrower source section: Chapter 14: / 14.4 Magical Item List / 《 Magic Armor (+1) 》
-- [[sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-magic-armor-1-56d3d6d5]] - narrower source section: Chapter 14: / 14.4 Magical Item List / 《 Magic Armor (+1)
-- [[sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-magic-armor-2-non-metal-or-ring-mail-e50b05a6]] - narrower source section: Chapter 14: / 14.4 Magical Item List / 《 Magic Armor (+2) 》 Non-metal or ring mail
-- [[sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-magic-armor-2-d0b6ac74]] - narrower source section: Chapter 14: / 14.4 Magical Item List / 《 Magic Armor (+2) 》
-- [[sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-magic-armor-3-19e307e7]] - narrower source section: Chapter 14: / 14.4 Magical Item List / 《 Magic Armor (+3) 》
-- [[sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-magic-armor-3-7cd72617]] - narrower source section: Chapter 14: / 14.4 Magical Item List / 《 Magic Armor (+3) 》
-- [[sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-magic-shield-a31533e2]] - narrower source section: Chapter 14: / 14.4 Magical Item List / 《 Magic Shield 》
 - [[sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-accessories-earrings-of-interpretation-6973f651]] - narrower source section: Chapter 14: / 14.4 Magical Item List / 《 Accessories 》 [ Earrings of Interpretation ]
 - [[sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-amulets-e411eab6]] - narrower source section: Chapter 14: / 14.4 Magical Item List / 《 Amulets 》
-- [[sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-staves-and-wands-ice-blaze-wand-8c8e01dd]] - narrower source section: Chapter 14: / 14.4 Magical Item List / 《 Staves and Wands 》 [ Ice Blaze Wand ]
-- [[sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-rings-89a8088e]] - narrower source section: Chapter 14: / 14.4 Magical Item List / 《 Rings 》
-- [[sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-other-ae5b041d]] - narrower source section: Chapter 14: / 14.4 Magical Item List / 《 Other 》
-- [[sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-mask-of-scale-c9869f29]] - narrower source section: Chapter 14: / 14.4 Magical Item List / [ Mask of Scale
-- [[sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-mask-of-lady-1af61a11]] - narrower source section: Chapter 14: / 14.4 Magical Item List / [ Mask of Lady ]
-- [[sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-mirror-of-knowledge-528f4243]] - narrower source section: Chapter 14: / 14.4 Magical Item List / [ Mirror of Knowledge ]
-- [[sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-mirror-of-truth-1c1ab2a2]] - narrower source section: Chapter 14: / 14.4 Magical Item List / [ Mirror of Truth ]
-- [[sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-unicorn-s-horn-6bfbd07c]] - narrower source section: Chapter 14: / 14.4 Magical Item List / [ Unicorn's Horn ]
-- [[sword-world-rpg-complete-edition-section-chapter-14-14-3-treasure-types-3e3d33e2]] - previous source section: Chapter 14: / 14.3 Treasure Types
+- [[sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-details-cc13bc5e]] - narrower source section: Chapter 14: / 14.4 Magical Item List / Details
+- [[sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-magic-armor-1-56d3d6d5]] - narrower source section: Chapter 14: / 14.4 Magical Item List / 《 Magic Armor (+1)
+- [[sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-magic-armor-1-fd58f79f]] - narrower source section: Chapter 14: / 14.4 Magical Item List / 《 Magic Armor (+1) 》
+- [[sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-magic-armor-2-d0b6ac74]] - narrower source section: Chapter 14: / 14.4 Magical Item List / 《 Magic Armor (+2) 》
 
 ## Statements
 
@@ -517,6 +508,7 @@ From [[sword-world-rpg-complete-edition]].
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-08949))_
 
+<a id="atom-technical-atom-5319b58e09cfcd1c"></a>
 | Required | Price | Required | Price |
 | --- | --- | --- | --- |
 | Strength | (Gamels) | Strength | (Gamels) |
@@ -565,6 +557,7 @@ From [[sword-world-rpg-complete-edition]].
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-09098))_
 
+<a id="atom-technical-atom-d42bc46e7b98a08d"></a>
 | Required | Price | Required | Price |
 | --- | --- | --- | --- |
 | Strength | (Gamels) | Strength | (Gamels) |
@@ -609,6 +602,7 @@ From [[sword-world-rpg-complete-edition]].
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-09205))_
 
+<a id="atom-technical-atom-ae73afc00e014512"></a>
 ```text
 1 23000 《 Roan Ax 》 Strength (Gamels) Strength (Gamels) 8 29000 Rarity=11 Enchanter=Roan, “The Imperfect” 26000 9 25000 Form=Battle-ax 28000 10 23000
 4 30000
@@ -636,6 +630,7 @@ From [[sword-world-rpg-complete-edition]].
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-09263))_
 
+<a id="atom-technical-atom-2774aef600c6191b"></a>
 | exceptionally | column 2 | high-end, it | column 4 | suddenly | Required | column 7 | Price | Required | column 10 | Price | column 12 | column 13 | column 14 | column 15 |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | becomes | an object |  | of interest for |  | Strength |  | (Gamels) | Strength | (Gamels) |  | Required | Price | Required | Price |
@@ -682,6 +677,7 @@ From [[sword-world-rpg-complete-edition]].
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-09344))_
 
+<a id="atom-technical-atom-b2a15d7634f4bf4b"></a>
 ```text
 17 18000 Rarity=12 (+1)/14 (+2)/16 (+3) Rarity=16 17 Enchanter=Many Enchanter=Many Form=Shield Form=Non-metal or ring mail armor 《 》 Magic Armor (+2) Required Strength/Base Trade Price=See Required Strength/Base Trade Price=See description description Non-metal or ring mail Magic Power=+3 to evasion speed and Powers=+1~+3 to evasion speed Rarity=14 damage reduction This is a price list for magical shields Enchanter=Many with enchantments. For shields with +2 Here is a list of prices of magical non- Form=Non-metal or ring mail armor metal or ring mail armor with +3 power. or higher enchantment, small shields Required Strength/Base Trade Price=See tend to be more expensive than large description Required Price Required Price shields due to differences in demand. For Powers=+2 to evasion speed and damage Strength (Gamels) Strength (Gamels) the same reason, high-quality large reduction
 1 200000 8 150000 Here is a list of prices of magical non- shields +1/+2 are more expensive than
@@ -703,6 +699,7 @@ From [[sword-world-rpg-complete-edition]].
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-09826))_
 
+<a id="atom-technical-atom-00ac4bbfaf378dd8"></a>
 ```text
 Table 14-1: Daemon  Jar Summon
  form as the statue. A shapeshifted form

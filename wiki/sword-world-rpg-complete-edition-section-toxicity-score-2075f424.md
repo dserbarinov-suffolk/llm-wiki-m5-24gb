@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-toxicity-score-2075f424@aa7ab6ad76246299a58b1b808a4fbbb4
+projection_coverage: section-sword-world-rpg-complete-edition-section-toxicity-score-2075f424@40a90a14ebfe3cc2d83a3e95c6f95c68
 ---
 
 # 《 Toxicity Score 》
@@ -16,6 +16,8 @@ projection_coverage: section-sword-world-rpg-complete-edition-section-toxicity-s
 From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
+
+### Source order
 
 - [[sword-world-rpg-complete-edition-section-rarity-dc2209f1]] - next source section: 《 Rarity 》
 

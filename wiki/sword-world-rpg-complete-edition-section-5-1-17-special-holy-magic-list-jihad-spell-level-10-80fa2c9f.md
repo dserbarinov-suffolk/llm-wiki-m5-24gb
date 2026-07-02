@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-5-1-17-special-holy-magic-list-jihad-spell-level-10-80fa2c9f@26178279e0f7975eba8ccb610c350d07
+projection_coverage: section-sword-world-rpg-complete-edition-section-5-1-17-special-holy-magic-list-jihad-spell-level-10-80fa2c9f@a4370ee34f43bafefd6556e6705ebfbe
 ---
 
 # 5.1.17 Special Holy Magic List / [ Jihad ] (Spell Level=10)
@@ -17,8 +17,13 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-5-1-17-special-holy-magic-list-f9b52bf1]] - broader source section: 5.1.17 Special Holy Magic List
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-5-1-17-special-holy-magic-list-myrii-special-holy-magic-list-battle-song-spell-level-5-c41ce112]] - next source section: 5.1.17 Special Holy Magic List / Myrii Special Holy Magic List [ Battle Song ] (Spell Level=5)
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-5-1-17-special-holy-magic-list-f9b52bf1]] - broader source section: 5.1.17 Special Holy Magic List
 
 ## Statements
 

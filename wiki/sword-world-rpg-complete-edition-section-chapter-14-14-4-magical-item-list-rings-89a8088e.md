@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-rings-89a8088e@edeab7579336fe7e83d2a641db52e395
+projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-rings-89a8088e@adf79e64ef240fff98badcd24db64a08
 ---
 
 # Chapter 14: / 14.4 Magical Item List / 《 Rings 》
@@ -17,16 +17,21 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-51d7c911]] - broader source section: Chapter 14: / 14.4 Magical Item List
-- [[sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-rings-unpoison-ring-7386f058]] - narrower source section: Chapter 14: / 14.4 Magical Item List / 《 Rings 》 / [ Unpoison Ring ]
-- [[sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-rings-quickness-ring-721ce4a9]] - narrower source section: Chapter 14: / 14.4 Magical Item List / 《 Rings 》 / [ Quickness Ring ]
-- [[sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-rings-thermal-ring-27ca5ccf]] - narrower source section: Chapter 14: / 14.4 Magical Item List / 《 Rings 》 / [ Thermal Ring ]
-- [[sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-rings-parry-parry-43e84912]] - narrower source section: Chapter 14: / 14.4 Magical Item List / 《 Rings 》 / [ Parry Parry ]
-- [[sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-rings-fast-finger-7d94db4e]] - narrower source section: Chapter 14: / 14.4 Magical Item List / 《 Rings 》 / [ Fast Finger ]
-- [[sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-rings-linkage-ring-0a7e7092]] - narrower source section: Chapter 14: / 14.4 Magical Item List / 《 Rings 》 / [ Linkage Ring ]
-- [[sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-rings-rune-ring-ece4cd32]] - narrower source section: Chapter 14: / 14.4 Magical Item List / 《 Rings 》 / [ Rune Ring ]
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-staves-and-wands-ice-blaze-wand-8c8e01dd]] - previous source section: Chapter 14: / 14.4 Magical Item List / 《 Staves and Wands 》 [ Ice Blaze Wand ]
 - [[sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-other-ae5b041d]] - next source section: Chapter 14: / 14.4 Magical Item List / 《 Other 》
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-51d7c911]] - broader source section: Chapter 14: / 14.4 Magical Item List
+- [[sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-rings-fast-finger-7d94db4e]] - narrower source section: Chapter 14: / 14.4 Magical Item List / 《 Rings 》 / [ Fast Finger ]
+- [[sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-rings-linkage-ring-0a7e7092]] - narrower source section: Chapter 14: / 14.4 Magical Item List / 《 Rings 》 / [ Linkage Ring ]
+- [[sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-rings-parry-parry-43e84912]] - narrower source section: Chapter 14: / 14.4 Magical Item List / 《 Rings 》 / [ Parry Parry ]
+- [[sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-rings-quickness-ring-721ce4a9]] - narrower source section: Chapter 14: / 14.4 Magical Item List / 《 Rings 》 / [ Quickness Ring ]
+- [[sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-rings-rune-ring-ece4cd32]] - narrower source section: Chapter 14: / 14.4 Magical Item List / 《 Rings 》 / [ Rune Ring ]
+- [[sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-rings-thermal-ring-27ca5ccf]] - narrower source section: Chapter 14: / 14.4 Magical Item List / 《 Rings 》 / [ Thermal Ring ]
+- [[sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-rings-unpoison-ring-7386f058]] - narrower source section: Chapter 14: / 14.4 Magical Item List / 《 Rings 》 / [ Unpoison Ring ]
 
 ## Statements by subsection
 
@@ -63,4 +68,5 @@ From [[sword-world-rpg-complete-edition]].
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-09662))_
 
+<a id="atom-technical-atom-798e86242aef61d1"></a>
 > The detox effect can be discovered on final score 10 when using treasure appraisal , and the drawbacks on final score 15.

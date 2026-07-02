@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-11-notes-on-magic-11-2-dark-magic-8th-level-basic-dark-magic-list-cripple-summon-servant-5d366e28@16636612eafc816164cfd3f88dceb1ed
+projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-11-notes-on-magic-11-2-dark-magic-8th-level-basic-dark-magic-list-cripple-summon-servant-5d366e28@283a5c59afea8c6c11c050b36eaa6b5a
 ---
 
 # Chapter 11: Notes on Magic / 11.2 Dark Magic / 8th Level Basic Dark Magic List [ Cripple ] / [ Summon Servant ]
@@ -16,6 +16,8 @@ projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-11
 From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
+
+### Source structure
 
 - [[sword-world-rpg-complete-edition-section-chapter-11-notes-on-magic-11-2-dark-magic-8th-level-basic-dark-magic-list-cripple-dee8eeb2]] - broader source section: Chapter 11: Notes on Magic / 11.2 Dark Magic / 8th Level Basic Dark Magic List [ Cripple ]
 

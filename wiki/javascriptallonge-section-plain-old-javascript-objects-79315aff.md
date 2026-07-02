@@ -4,11 +4,11 @@ page_kind: source
 summary: Plain Old JavaScript Objects: 62 source-backed entries and 0 atom(s) from raw/javascriptallonge.pdf.
 page_family: section-reference
 sources: raw/javascriptallonge.pdf
-updated: 2026-07-01
+updated: 2026-07-02
 domain: javascriptallonge
 category_path: sources/javascriptallonge/sections
 source_id: javascriptallonge.pdf
-projection_coverage: section-javascriptallonge-section-plain-old-javascript-objects-79315aff@7e43dcf735f8ee44545292c4bdcec00d
+projection_coverage: section-javascriptallonge-section-plain-old-javascript-objects-79315aff@4be638c9cfa4c040cf35aff36cb0e0e1
 ---
 
 # Plain Old JavaScript Objects
@@ -17,11 +17,16 @@ From [[javascriptallonge]].
 
 ## Related pages
 
-- [[javascriptallonge-section-plain-old-javascript-objects-literal-object-syntax-25e0b081]] - narrower source section: Plain Old JavaScript Objects / literal object syntax
-- [[javascriptallonge-section-plain-old-javascript-objects-destructuring-objects-233d242e]] - narrower source section: Plain Old JavaScript Objects / destructuring objects
-- [[javascriptallonge-section-plain-old-javascript-objects-revisiting-linked-lists-23e98a21]] - narrower source section: Plain Old JavaScript Objects / revisiting linked lists
+### Source order
+
 - [[javascriptallonge-section-garbage-garbage-everywhere-c3e1739c]] - previous source section: Garbage, Garbage Everywhere
 - [[javascriptallonge-section-mutation-93ded492]] - next source section: Mutation
+
+### Source structure
+
+- [[javascriptallonge-section-plain-old-javascript-objects-destructuring-objects-233d242e]] - narrower source section: Plain Old JavaScript Objects / destructuring objects
+- [[javascriptallonge-section-plain-old-javascript-objects-literal-object-syntax-25e0b081]] - narrower source section: Plain Old JavaScript Objects / literal object syntax
+- [[javascriptallonge-section-plain-old-javascript-objects-revisiting-linked-lists-23e98a21]] - narrower source section: Plain Old JavaScript Objects / revisiting linked lists
 
 ## Statements
 

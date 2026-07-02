@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-5-2-common-runes-b036a9a5@ce27bd69492d4f07dc31915c6661790d
+projection_coverage: section-sword-world-rpg-complete-edition-section-5-2-common-runes-b036a9a5@5224d6bc296327f13c0ad5b41955d05e
 ---
 
 # 5.2 Common Runes
@@ -16,6 +16,8 @@ projection_coverage: section-sword-world-rpg-complete-edition-section-5-2-common
 From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
+
+### Source order
 
 - [[sword-world-rpg-complete-edition-section-5-1-17-special-holy-magic-list-f9b52bf1]] - previous source section: 5.1.17 Special Holy Magic List
 - [[sword-world-rpg-complete-edition-section-5-3-b419e428]] - next source section: 5.3
@@ -42,6 +44,7 @@ From [[sword-world-rpg-complete-edition]].
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-03894))_
 
+<a id="atom-technical-atom-a9497c63458097f9"></a>
 ```text
 Common Runes
 5.2 Common Runes
@@ -102,6 +105,7 @@ Table 5-9: Common  Runes
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-03899))_
 
+<a id="atom-technical-atom-bb27fce85bb69cbd"></a>
 > For detailed effects of these, please refer to the ancient magic of the same name (see Table 5-9: Common Runes).
 
 ### Technical frame 3: 5.2 Common Runes
@@ -112,4 +116,5 @@ Table 5-9: Common  Runes
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-03900))_
 
+<a id="atom-technical-atom-ec63cb04ebcd499b"></a>
 > The game master may add other common runes at their discretion.

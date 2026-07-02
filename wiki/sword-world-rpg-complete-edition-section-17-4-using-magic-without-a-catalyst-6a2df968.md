@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-17-4-using-magic-without-a-catalyst-6a2df968@ad8da719967aae001128f03cfd984f0e
+projection_coverage: section-sword-world-rpg-complete-edition-section-17-4-using-magic-without-a-catalyst-6a2df968@744d521652dfa16b446c56edff5b2dc3
 ---
 
 # 17.4 Using Magic Without a Catalyst
@@ -16,6 +16,8 @@ projection_coverage: section-sword-world-rpg-complete-edition-section-17-4-using
 From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
+
+### Source order
 
 - [[sword-world-rpg-complete-edition-section-17-3-catalysts-other-than-staves-a47a464c]] - previous source section: 17.3 Catalysts Other Than Staves
 - [[sword-world-rpg-complete-edition-section-17-5-full-resistance-969284f0]] - next source section: 17.5 Full Resistance

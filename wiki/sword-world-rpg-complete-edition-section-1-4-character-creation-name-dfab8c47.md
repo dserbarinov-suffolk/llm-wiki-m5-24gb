@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-1-4-character-creation-name-dfab8c47@7b20d619bd28ee61364101d140a5a046
+projection_coverage: section-sword-world-rpg-complete-edition-section-1-4-character-creation-name-dfab8c47@85ca9180084f341a9fb53937ce23df8b
 ---
 
 # 1.4 Character Creation / 《 Name 》
@@ -17,9 +17,14 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-1-4-character-creation-f6aa6108]] - broader source section: 1.4 Character Creation
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-1-4-character-creation-gender-7bc3dcd4]] - previous source section: 1.4 Character Creation / 《 Gender 》
 - [[sword-world-rpg-complete-edition-section-1-4-character-creation-1-4-5-character-growth-via-starting-experience-points-4530c1f3]] - next source section: 1.4 Character Creation / 1.4.5 Character Growth via Starting Experience Points
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-1-4-character-creation-f6aa6108]] - broader source section: 1.4 Character Creation
 
 ## Statements
 
@@ -45,6 +50,7 @@ From [[sword-world-rpg-complete-edition]].
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-00441))_
 
+<a id="atom-technical-atom-0f869b7568f58dea"></a>
 | Attained Level | Sorcerer & Sage at the same time | Sorcerer | Sorcerer (with Sage) | Shaman | Fighter Thief Priest | Ranger Sage Bard |
 | --- | --- | --- | --- | --- | --- | --- |
 | 1 | 2000 | 2000 | 1500 | 1500 | 1000 | 500 |

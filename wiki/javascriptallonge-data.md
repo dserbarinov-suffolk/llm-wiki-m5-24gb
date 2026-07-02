@@ -4,10 +4,10 @@ page_kind: concept
 summary: Data: 7 statement(s) and 14 atom(s) from raw/javascriptallonge.pdf.
 page_family: broad-topic
 sources: raw/javascriptallonge.pdf
-updated: 2026-07-01
+updated: 2026-07-02
 domain: javascriptallonge
 category_path: concepts
-projection_coverage: topic-javascriptallonge-data@8edf1eec156be559023cfdd0ba61987a
+projection_coverage: topic-javascriptallonge-data@5c8eecbe1cca11c471e027e1ffa8eed6
 ---
 
 # Data
@@ -43,83 +43,7 @@ What [[javascriptallonge]] covers about data:
 
 ## Technical atoms
 
-### Technical frame 1: JavaScript Allongé, the 'Six' Edition / Reg 'raganwald' Braithwaite
-
-**Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00010))_
-
-| Composing and Decomposing Data....... | ........................ | 77 |
-| --- | --- | --- |
-| Arrays and Destructuring Arguments.... | ........................ | 78 |
-| Self-Similarity................. | ........................ | 86 |
-| Tail Calls (and Default Arguments)...... | ........................ | 94 |
-| Garbage, Garbage Everywhere........ | ........................ | 103 |
-| Plain Old JavaScript Objects......... | ........................ | 109 |
-| Mutation.................... | ........................ | 118 |
-| Reassignment................. | ........................ | 125 |
-| Copy on Write................. | ........................ | 135 |
-| Tortoises, Hares, and Teleporting Turtles... | ........................ | 141 |
-| Functional Iterators.............. | ........................ | 144 |
-| Making Data Out Of Functions........ | ........................ | 154 |
-| Recipes with Data................. | ........................ | 168 |
-| mapWith.................... | ........................ | 170 |
-| Flip....................... | ........................ | 172 |
-| Object.assign.................. | ........................ | 175 |
-| Why?...................... | ........................ | 178 |
-| A Warm Cup: Basic Strings and Quasi-Literals | ........................ | 179 |
-| Served by the Pot: Collections.......... | ........................ | 182 |
-| Iteration and Iterables............. | ........................ | 183 |
-| Generating Iterables.............. | ........................ | 201 |
-| Lazy and Eager Collections.......... | ........................ | 223 |
-| Interlude: The Carpenter Interviews for a Job | ........................ | 238 |
-| Interactive Generators............. | ........................ | 250 |
-| Basic Operations on Iterables......... | ........................ | 261 |
-| The Golden Crema: Appendices and Afterwords | ....................... | 265 |
-| How to run the examples........... | ........................ | 266 |
-| Thanks!..................... | ........................ | 268 |
-| Copyright Notice................ | ........................ | 270 |
-| About The Author............... | ........................ | 274 |
-
-<details>
-<summary>Raw table text</summary>
-
-```text
-Contents
-| Composing and Decomposing Data . . . . . . . | . . . . . . . . . . . . . . . . . . . . . . . . | 77 |
-| --- | --- | --- |
-| Arrays and Destructuring Arguments . . . . | . . . . . . . . . . . . . . . . . . . . . . . . | 78 |
-| Self-Similarity . . . . . . . . . . . . . . . . . | . . . . . . . . . . . . . . . . . . . . . . . . | 86 |
-| Tail Calls (and Default Arguments) . . . . . . | . . . . . . . . . . . . . . . . . . . . . . . . | 94 |
-| Garbage, Garbage Everywhere . . . . . . . . | . . . . . . . . . . . . . . . . . . . . . . . . | 103 |
-| Plain Old JavaScript Objects . . . . . . . . . | . . . . . . . . . . . . . . . . . . . . . . . . | 109 |
-| Mutation . . . . . . . . . . . . . . . . . . . . | . . . . . . . . . . . . . . . . . . . . . . . . | 118 |
-| Reassignment . . . . . . . . . . . . . . . . . | . . . . . . . . . . . . . . . . . . . . . . . . | 125 |
-| Copy on Write . . . . . . . . . . . . . . . . . | . . . . . . . . . . . . . . . . . . . . . . . . | 135 |
-| Tortoises, Hares, and Teleporting Turtles . . . | . . . . . . . . . . . . . . . . . . . . . . . . | 141 |
-| Functional Iterators . . . . . . . . . . . . . . | . . . . . . . . . . . . . . . . . . . . . . . . | 144 |
-| Making Data Out Of Functions . . . . . . . . | . . . . . . . . . . . . . . . . . . . . . . . . | 154 |
-| Recipes with Data . . . . . . . . . . . . . . . . . | . . . . . . . . . . . . . . . . . . . . . . . . | 168 |
-| mapWith . . . . . . . . . . . . . . . . . . . . | . . . . . . . . . . . . . . . . . . . . . . . . | 170 |
-| Flip . . . . . . . . . . . . . . . . . . . . . . . | . . . . . . . . . . . . . . . . . . . . . . . . | 172 |
-| Object.assign . . . . . . . . . . . . . . . . . . | . . . . . . . . . . . . . . . . . . . . . . . . | 175 |
-| Why? . . . . . . . . . . . . . . . . . . . . . . | . . . . . . . . . . . . . . . . . . . . . . . . | 178 |
-| A Warm Cup: Basic Strings and Quasi-Literals | . . . . . . . . . . . . . . . . . . . . . . . . | 179 |
-| Served by the Pot: Collections . . . . . . . . . . | . . . . . . . . . . . . . . . . . . . . . . . . | 182 |
-| Iteration and Iterables . . . . . . . . . . . . . | . . . . . . . . . . . . . . . . . . . . . . . . | 183 |
-| Generating Iterables . . . . . . . . . . . . . . | . . . . . . . . . . . . . . . . . . . . . . . . | 201 |
-| Lazy and Eager Collections . . . . . . . . . . | . . . . . . . . . . . . . . . . . . . . . . . . | 223 |
-| Interlude: The Carpenter Interviews for a Job | . . . . . . . . . . . . . . . . . . . . . . . . | 238 |
-| Interactive Generators . . . . . . . . . . . . . | . . . . . . . . . . . . . . . . . . . . . . . . | 250 |
-| Basic Operations on Iterables . . . . . . . . . | . . . . . . . . . . . . . . . . . . . . . . . . | 261 |
-| The Golden Crema: Appendices and Afterwords | . . . . . . . . . . . . . . . . . . . . . . . | 265 |
-| How to run the examples . . . . . . . . . . . | . . . . . . . . . . . . . . . . . . . . . . . . | 266 |
-| Thanks! . . . . . . . . . . . . . . . . . . . . . | . . . . . . . . . . . . . . . . . . . . . . . . | 268 |
-| Copyright Notice . . . . . . . . . . . . . . . . | . . . . . . . . . . . . . . . . . . . . . . . . | 270 |
-| About The Author . . . . . . . . . . . . . . . | . . . . . . . . . . . . . . . . . . . . . . . . | 274 |
-```
-
-</details>
-
-### Technical frame 2: Composing and Decomposing Data / Arrays and Destructuring Arguments / gathering
+### Technical frame 1: Composing and Decomposing Data / Arrays and Destructuring Arguments / gathering
 
 **Context:** _(javascriptallonge.pdf (source-range-0e12e052-00847))_
 
@@ -127,6 +51,7 @@ Contents
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00851))_
 
+<a id="atom-technical-atom-fa2666d9345d6631"></a>
 ```text
 57 https://en.wikipedia.org/wiki/CAR_and_CDR
 58 Kyle Simpson is the author of You Don't Know JS, available here
@@ -142,7 +67,7 @@ Contents
 
 </details>
 
-### Technical frame 3: Composing and Decomposing Data / Tail Calls (and Default Arguments) / converting non-tail-calls to tail-calls
+### Technical frame 2: Composing and Decomposing Data / Tail Calls (and Default Arguments) / converting non-tail-calls to tail-calls
 
 **Context:** _(javascriptallonge.pdf (source-range-0e12e052-00981))_
 
@@ -150,6 +75,7 @@ Contents
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00980))_
 
+<a id="atom-technical-atom-729a50b40f08fbd9"></a>
 | 0, | 1, | 2, | 3, | 4, | 5, | 6, | 7, | 8, | 9, |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 10, | 11, | 12, | 13, | 14, | 15, | 16, | 17, | 18, | 19, |
@@ -182,7 +108,7 @@ converting non-tail-calls to tail-calls
 
 </details>
 
-### Technical frame 4: Garbage, Garbage Everywhere / some history
+### Technical frame 3: Garbage, Garbage Everywhere / some history
 
 **Context:** _(javascriptallonge.pdf (source-range-0e12e052-01039))_
 
@@ -190,12 +116,13 @@ converting non-tail-calls to tail-calls
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01038))_
 
+<a id="atom-technical-atom-1c270cf9d479184b"></a>
 ```
 car(oneToFive)
 //=> 1
 ```
 
-### Technical frame 5: Copy on Write / Functional Iterators / iterating
+### Technical frame 4: Copy on Write / Functional Iterators / iterating
 
 **Context:** _(javascriptallonge.pdf (source-range-0e12e052-01290))_
 
@@ -203,6 +130,7 @@ car(oneToFive)
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01291))_
 
+<a id="atom-technical-atom-282dba3fa6180714"></a>
 ```
 const EMPTY = null;
 const isEmpty = (node) => node === EMPTY;
@@ -228,7 +156,7 @@ const {first, rest} = aPair;
 aPair = aPair.rest;
 ```
 
-### Technical frame 6: Copy on Write / Functional Iterators / iterating
+### Technical frame 5: Copy on Write / Functional Iterators / iterating
 
 **Context:** _(javascriptallonge.pdf (source-range-0e12e052-01290))_
 
@@ -236,6 +164,7 @@ aPair = aPair.rest;
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01292))_
 
+<a id="atom-technical-atom-ec11f07272147db8"></a>
 ```
 return { done, value: first }
 }
@@ -253,7 +182,7 @@ iteratorSum(aListIterator)
 //=> 55
 ```
 
-### Technical frame 7: Copy on Write / Functional Iterators / unfolding and laziness
+### Technical frame 6: Copy on Write / Functional Iterators / unfolding and laziness
 
 **Context:** _(javascriptallonge.pdf (source-range-0e12e052-01298))_
 
@@ -261,6 +190,7 @@ iteratorSum(aListIterator)
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01295))_
 
+<a id="atom-technical-atom-e9b34a22026fe73e"></a>
 ```
 const NumberIterator = (number = 0) =>
 () => ({ done: false, value: number++ })
@@ -277,7 +207,7 @@ fromOne().value;
 //=> 5
 ```
 
-### Technical frame 8: Copy on Write / Making Data Out Of Functions
+### Technical frame 7: Copy on Write / Making Data Out Of Functions
 
 **Context:** _(javascriptallonge.pdf (source-range-0e12e052-01326))_
 
@@ -285,6 +215,7 @@ fromOne().value;
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01330))_
 
+<a id="atom-technical-atom-57cdb7ea2b16e63b"></a>
 ```text
 76 http://www.amazon.com/gp/product/0192801422/ref=as_li_ss_tl?ie=UTF8&tag=raganwald001-20&linkCode=as2&camp=1789&creative= 390957&creativeASIN=0192801422
 77 http://oscin.es
@@ -300,7 +231,7 @@ fromOne().value;
 
 </details>
 
-### Technical frame 9: Copy on Write / Making Data Out Of Functions / backwardness
+### Technical frame 8: Copy on Write / Making Data Out Of Functions / backwardness
 
 **Context:** _(javascriptallonge.pdf (source-range-0e12e052-01353))_
 
@@ -308,6 +239,7 @@ fromOne().value;
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01350))_
 
+<a id="atom-technical-atom-05532f0c19b3ce5b"></a>
 ```
 const first = ([first, second]) => first,
 second = ([first, second]) => second;
@@ -318,7 +250,7 @@ second(latin)
 //=> "secundus"
 ```
 
-### Technical frame 10: Copy on Write / Making Data Out Of Functions / the vireo
+### Technical frame 9: Copy on Write / Making Data Out Of Functions / the vireo
 
 **Context:** _(javascriptallonge.pdf (source-range-0e12e052-01362))_
 
@@ -326,11 +258,12 @@ second(latin)
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01361))_
 
+<a id="atom-technical-atom-2a6b147bd13e773b"></a>
 ```
 (first, second) => (selector) => selector(first)(second)
 ```
 
-### Technical frame 11: Copy on Write / Making Data Out Of Functions / the vireo
+### Technical frame 10: Copy on Write / Making Data Out Of Functions / the vireo
 
 **Context:** _(javascriptallonge.pdf (source-range-0e12e052-01369))_
 
@@ -338,6 +271,7 @@ second(latin)
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01365))_
 
+<a id="atom-technical-atom-90a08a2d5bc3ce00"></a>
 ```
 const first = K,
 second = K(I),
@@ -349,7 +283,7 @@ latin(second)
 //=> "secundus"
 ```
 
-### Technical frame 12: Copy on Write / Making Data Out Of Functions / the vireo
+### Technical frame 11: Copy on Write / Making Data Out Of Functions / the vireo
 
 **Context:** _(javascriptallonge.pdf (source-range-0e12e052-01369))_
 
@@ -357,9 +291,10 @@ latin(second)
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01366))_
 
+<a id="atom-technical-atom-c2c35023a60a3182"></a>
 > If we change the names to x , y , and z , we get: (x) => (y) => (z) => z(x)(y) .
 
-### Technical frame 13: Copy on Write / Making Data Out Of Functions / functions are not the real point
+### Technical frame 12: Copy on Write / Making Data Out Of Functions / functions are not the real point
 
 **Context:** _(javascriptallonge.pdf (source-range-0e12e052-01400))_
 
@@ -367,6 +302,7 @@ latin(second)
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01401))_
 
+<a id="atom-technical-atom-e05b4d965ecfffbd"></a>
 ```text
 79 https://en.wikipedia.org/wiki/Church_encoding
 81 https://en.wikipedia.org/wiki/Gauge_boson
@@ -384,7 +320,7 @@ latin(second)
 
 </details>
 
-### Technical frame 14: Recipes with Data / Flip
+### Technical frame 13: Recipes with Data / Flip
 
 **Context:** _(javascriptallonge.pdf (source-range-0e12e052-01457))_
 
@@ -392,6 +328,7 @@ latin(second)
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01458))_
 
+<a id="atom-technical-atom-e691ed10c98b5052"></a>
 ```text
 84 https://github.com/raganwald/allong.es
 85 http://underscorejs.org
@@ -410,6 +347,8 @@ latin(second)
 
 ## Related pages
 
+### Shared technical atoms
+
 - [[javascriptallonge-copy-write]] - shared statements and technical atoms: Copy on Write shares source evidence from Copy on Write / Functional Iterators: What we've done is turn an array into a function that folds an array with const foldArray = (array) => callRight(foldArrayWith, array); . The sumFoldable function do ... [truncated]; Copy on Write shares technical record from Copy on Write / Functional Iterators / iterating: const EMPTY = null; const isEmpty = (node) => node === EMPTY; const pair = (first, rest = EMPTY) => ({first, rest}); const list = (...elements) => { const [first, .. ... [truncated] (5 shared statement(s), 9 shared atom(s))
 - [[javascriptallonge-list]] - shared statements and technical atoms: List shares source evidence from Composing and Decomposing Data / Self-Similarity: Let's be more specific. Some data structures, like lists, can obviously be seen as a collection of items. Some are empty, some have three items, some forty-two, some ... [truncated]; List shares technical record from Garbage, Garbage Everywhere / some history: car(oneToFive) //=> 1 (1 shared statement(s), 5 shared atom(s))
 - [[javascriptallonge-structure]] - shared statements and technical atoms: Structure shares source evidence from Composing and Decomposing Data / Self-Similarity: Let's be more specific. Some data structures, like lists, can obviously be seen as a collection of items. Some are empty, some have three items, some forty-two, some ... [truncated]; Structure shares technical record from Copy on Write / Functional Iterators / iterating: const EMPTY = null; const isEmpty = (node) => node === EMPTY; const pair = (first, rest = EMPTY) => ({first, rest}); const list = (...elements) => { const [first, .. ... [truncated] (4 shared statement(s), 3 shared atom(s))
@@ -418,12 +357,9 @@ latin(second)
 - [[javascriptallonge-argument]] - shared technical atoms: Argument shares technical record from Composing and Decomposing Data / Arrays and Destructuring Arguments / gathering: 57 https://en.wikipedia.org/wiki/CAR_and_CDR 58 Kyle Simpson is the author of You Don't Know JS, available here (2 shared atom(s))
 - [[javascriptallonge-copy]] - shared technical atoms: Copy shares technical record from Copy on Write / Making Data Out Of Functions: 76 http://www.amazon.com/gp/product/0192801422/ref=as_li_ss_tl?ie=UTF8&tag=raganwald001-20&linkCode=as2&camp=1789&creative= 390957&creativeASIN=0192801422 77 http://oscin.es (2 shared atom(s))
 - [[javascriptallonge-javascript]] - shared technical atoms: Javascript shares technical record from JavaScript Allongé, the 'Six' Edition / Reg 'raganwald' Braithwaite: Contents | Composing and Decomposing Data . . . . . . . | . . . . . . . . . . . . . . . . . . . . . . . . | 77 | | --- | --- | --- | | Arrays and Destructuring Argum ... [truncated] (2 shared atom(s))
-- [[javascriptallonge-write]] - shared technical atoms: Write shares technical record from Copy on Write / Making Data Out Of Functions: 76 http://www.amazon.com/gp/product/0192801422/ref=as_li_ss_tl?ie=UTF8&tag=raganwald001-20&linkCode=as2&camp=1789&creative= 390957&creativeASIN=0192801422 77 http://oscin.es (2 shared atom(s))
-- [[javascriptallonge-edition]] - shared technical atoms: Edition shares technical record from JavaScript Allongé, the 'Six' Edition / Reg 'raganwald' Braithwaite: Contents | Composing and Decomposing Data . . . . . . . | . . . . . . . . . . . . . . . . . . . . . . . . | 77 | | --- | --- | --- | | Arrays and Destructuring Argum ... [truncated] (1 shared atom(s))
-- [[javascriptallonge-iterator]] - shared technical atoms: Iterator shares technical record from Copy on Write / Functional Iterators / unfolding and laziness: const NumberIterator = (number = 0) => () => ({ done: false, value: number++ }) fromOne = NumberIterator(1); fromOne().value; //=> 1 fromOne().value; //=> 2 fromOne( ... [truncated] (1 shared atom(s))
-- [[javascriptallonge-parameter]] - shared technical atoms: Parameter shares technical record from Copy on Write / Making Data Out Of Functions / the vireo: (first, second) => (selector) => selector(first)(second) (1 shared atom(s))
-- [[javascriptallonge-recipe]] - shared technical atoms: Recipe shares technical record from Recipes with Data / Flip: 84 https://github.com/raganwald/allong.es 85 http://underscorejs.org (1 shared atom(s))
-- [[javascriptallonge-reference]] - shared technical atoms: Reference shares technical record from Garbage, Garbage Everywhere / some history: car(oneToFive) //=> 1 (1 shared atom(s))
+
+### Shared claims
+
 - [[javascriptallonge-type]] - shared statements: Type shares source evidence from Garbage, Garbage Everywhere / some history: Thus, CONS put two values together, CAR extracted one, and CDR extracted the other. Lisp's basic data type is often said to be the list, but in actuality it was the ... [truncated] (1 shared statement(s))
 
 ## Source

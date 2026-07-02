@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-16-16-1-combat-in-which-monsters-roll-dice-ae771dc9@d05cef01e9eca8708bffa27655cf3030
+projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-16-16-1-combat-in-which-monsters-roll-dice-ae771dc9@afcb47bf59e907cd07cb35b50971a367
 ---
 
 # Chapter 16: / 16.1 Combat in Which Monsters Roll Dice
@@ -17,10 +17,15 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-chapter-16-faf82038]] - broader source section: Chapter 16:
-- [[sword-world-rpg-complete-edition-section-chapter-16-16-1-combat-in-which-monsters-roll-dice-attacks-from-monsters-against-characters-777d3622]] - narrower source section: Chapter 16: / 16.1 Combat in Which Monsters Roll Dice / Attacks From Monsters Against Characters
-- [[sword-world-rpg-complete-edition-section-chapter-16-16-1-combat-in-which-monsters-roll-dice-attacks-from-characters-against-monsters-5b049796]] - narrower source section: Chapter 16: / 16.1 Combat in Which Monsters Roll Dice / Attacks From Characters Against Monsters
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-chapter-16-16-2-weapon-and-armor-modifiers-04ec9a3a]] - next source section: Chapter 16: / 16.2 Weapon and Armor Modifiers
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-chapter-16-faf82038]] - broader source section: Chapter 16:
+- [[sword-world-rpg-complete-edition-section-chapter-16-16-1-combat-in-which-monsters-roll-dice-attacks-from-characters-against-monsters-5b049796]] - narrower source section: Chapter 16: / 16.1 Combat in Which Monsters Roll Dice / Attacks From Characters Against Monsters
+- [[sword-world-rpg-complete-edition-section-chapter-16-16-1-combat-in-which-monsters-roll-dice-attacks-from-monsters-against-characters-777d3622]] - narrower source section: Chapter 16: / 16.1 Combat in Which Monsters Roll Dice / Attacks From Monsters Against Characters
 
 ## Statements
 
@@ -56,6 +61,7 @@ From [[sword-world-rpg-complete-edition]].
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-10019))_
 
+<a id="atom-technical-atom-a82fe2e505453713"></a>
 > When both sides roll the dice, the range of numbers will expand and the enjoyment can increase.
 
 ### Technical frame 2: Chapter 16: / 16.1 Combat in Which Monsters Roll Dice / Attacks From Monsters Against Characters
@@ -66,6 +72,7 @@ From [[sword-world-rpg-complete-edition]].
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-10024))_
 
+<a id="atom-technical-atom-8276734281e65ba2"></a>
 > The game master should roll 2D and add it to the number in parenthesis.
 
 ### Technical frame 3: Chapter 16: / 16.1 Combat in Which Monsters Roll Dice / Attacks From Characters Against Monsters
@@ -76,4 +83,5 @@ From [[sword-world-rpg-complete-edition]].
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-10028))_
 
+<a id="atom-technical-atom-48b77365a775c629"></a>
 > The game master should roll 2D and add it to the number in parenthesis.

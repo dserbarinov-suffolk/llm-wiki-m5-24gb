@@ -4,10 +4,10 @@ page_kind: concept
 summary: Truthiness: 4 statement(s) and 10 atom(s) from raw/javascriptallonge.pdf.
 page_family: topic-concept
 sources: raw/javascriptallonge.pdf
-updated: 2026-07-01
+updated: 2026-07-02
 domain: javascriptallonge
 category_path: concepts
-projection_coverage: topic-javascriptallonge-truthiness@795eb0bb62e2cdfb8ce0f61602ff83fd
+projection_coverage: topic-javascriptallonge-truthiness@3ca0517d55282abc2f50ba2eb6e4be64
 ---
 
 # Truthiness
@@ -39,6 +39,7 @@ What [[javascriptallonge]] covers about truthiness:
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00755))_
 
+<a id="atom-technical-atom-9e7ebd8e80d594bf"></a>
 ```
 !true
 //=> false
@@ -54,6 +55,7 @@ What [[javascriptallonge]] covers about truthiness:
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00757))_
 
+<a id="atom-technical-atom-c0963afd93d5f50e"></a>
 ```
 false && false //=> false
 false && true
@@ -81,6 +83,7 @@ true
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00767))_
 
+<a id="atom-technical-atom-8a38ccb9b6091e45"></a>
 ```
 true ? 'Hello' : 'Good bye'
 //=> 'Hello'
@@ -98,6 +101,7 @@ true ? 'Hello' : 'Good bye'
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00768))_
 
+<a id="atom-technical-atom-8a0bd30e2d4f15a1"></a>
 ```text
 //=> 'Hello'
 0 ? 'Hello' : 'Good bye'
@@ -216,6 +220,7 @@ or(() => n === 0, () => and(() => n !== 1, () => even(n - 2)))
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00772))_
 
+<a id="atom-technical-atom-39a1812ab600996f"></a>
 ```
 !5
 //=> false
@@ -231,6 +236,7 @@ or(() => n === 0, () => and(() => n !== 1, () => even(n - 2)))
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00782))_
 
+<a id="atom-technical-atom-ca81fa5fdf41bd67"></a>
 > But when we pass other values, we no longer get true or false :
 
 ### Technical frame 7: Picking the Bean: Choice and Truthiness / truthiness and operators
@@ -241,6 +247,7 @@ or(() => n === 0, () => and(() => n !== 1, () => even(n - 2)))
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00783))_
 
+<a id="atom-technical-atom-1f694c2ddb341f9a"></a>
 ```
 1 || 2
 //=> 1
@@ -258,6 +265,7 @@ undefined && null
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00789))_
 
+<a id="atom-technical-atom-5921adfcefe74da3"></a>
 ```
 const even = (n) =>
 n === 0 || (n !== 1 && even(n - 2))
@@ -273,6 +281,7 @@ even(42)
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00796))_
 
+<a id="atom-technical-atom-33bd73954caacf60"></a>
 ```
 const or = (a, b) => a || b
 const and = (a, b) => a && b
@@ -290,6 +299,7 @@ even(42)
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00799))_
 
+<a id="atom-technical-atom-36c27b5336544e64"></a>
 ```
 const or = (a, b) => a() || b()
 const and = (a, b) => a() && b()
@@ -302,11 +312,16 @@ even(7)
 
 ## Related pages
 
-- [[javascriptallonge-javascript]] - shared statements and technical atoms: Javascript shares source evidence from Picking the Bean: Choice and Truthiness / truthiness and the ternary operator: In JavaScript, there is a notion of 'truthiness.' Every value is either 'truthy' or 'falsy.' Obviously, false is falsy. So are null and undefined , values that seman ... [truncated]; Javascript shares technical record from Picking the Bean: Choice and Truthiness / truthiness and operators: !5 //=> false !undefined //=> true (1 shared statement(s), 1 shared atom(s))
+### Shared technical atoms
+
 - [[javascriptallonge-ternary-operator]] - shared technical atoms: Ternary Operator shares technical record from Picking the Bean: Choice and Truthiness / truthiness and the ternary operator: true ? 'Hello' : 'Good bye' //=> 'Hello' 0 ? 'Hello' : 'Good bye' //=> 'Good bye' [1, 2, 3, 4, 5].length === 5 ? 'Pentatonic' : 'Quasimodal' //=> 'Pentatonic' (2 shared atom(s))
+- [[javascriptallonge-javascript]] - shared statements and technical atoms: Javascript shares source evidence from Picking the Bean: Choice and Truthiness / truthiness and the ternary operator: In JavaScript, there is a notion of 'truthiness.' Every value is either 'truthy' or 'falsy.' Obviously, false is falsy. So are null and undefined , values that seman ... [truncated]; Javascript shares technical record from Picking the Bean: Choice and Truthiness / truthiness and operators: !5 //=> false !undefined //=> true (1 shared statement(s), 1 shared atom(s))
 - [[javascriptallonge-argument]] - shared technical atoms: Argument shares technical record from Picking the Bean: Choice and Truthiness / truthiness and operators: !5 //=> false !undefined //=> true (1 shared atom(s))
 - [[javascriptallonge-operator]] - shared technical atoms: Operator shares technical record from Picking the Bean: Choice and Truthiness / truthiness and operators: !5 //=> false !undefined //=> true (1 shared atom(s))
 - [[javascriptallonge-return]] - shared technical atoms: Return shares technical record from Picking the Bean: Choice and Truthiness / truthiness and operators: !5 //=> false !undefined //=> true (1 shared atom(s))
+
+### Shared claims
+
 - [[javascriptallonge-reason]] - shared statements: Reason shares source evidence from Picking the Bean: Choice and Truthiness / truthiness and the ternary operator: The reason why truthiness matters is that the various logical operators (as well as the if statement) actually operate on truthiness , not on boolean values. This af ... [truncated] (1 shared statement(s))
 
 ## Source

@@ -4,11 +4,11 @@ page_kind: source
 summary: Yes. Consider this variation:: 16 source-backed entries and 0 atom(s) from raw/javascriptallonge.pdf.
 page_family: section-reference
 sources: raw/javascriptallonge.pdf
-updated: 2026-07-01
+updated: 2026-07-02
 domain: javascriptallonge
 category_path: sources/javascriptallonge/sections
 source_id: javascriptallonge.pdf
-projection_coverage: section-javascriptallonge-section-yes-consider-this-variation-db4ad8a2@5925ba5b0cce93973671939250e32dde
+projection_coverage: section-javascriptallonge-section-yes-consider-this-variation-db4ad8a2@9d777f002b0e32ade75c13bee26198bb
 ---
 
 # Yes. Consider this variation:
@@ -16,6 +16,8 @@ projection_coverage: section-javascriptallonge-section-yes-consider-this-variati
 From [[javascriptallonge]].
 
 ## Related pages
+
+### Source order
 
 - [[javascriptallonge-section-reassignment-ecc49acb]] - previous source section: Reassignment
 - [[javascriptallonge-section-copy-on-write-ea36c891]] - next source section: Copy on Write

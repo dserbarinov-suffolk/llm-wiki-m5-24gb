@@ -4,10 +4,10 @@ page_kind: concept
 summary: Operation: 4 statement(s) and 5 atom(s) from raw/javascriptallonge.pdf.
 page_family: topic-concept
 sources: raw/javascriptallonge.pdf
-updated: 2026-07-01
+updated: 2026-07-02
 domain: javascriptallonge
 category_path: concepts
-projection_coverage: topic-javascriptallonge-operation@6f0b54338cb93a2997e113340621f5c3
+projection_coverage: topic-javascriptallonge-operation@b63783ac04c86041050bf0736149bdea
 ---
 
 # Operation
@@ -41,6 +41,7 @@ What [[javascriptallonge]] covers about operation:
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01313))_
 
+<a id="atom-technical-atom-4befcf9fdb3ad196"></a>
 ```
 const firstInIteration = (fn, iterator) =>
 take(filterIteratorWith(fn, iterator), 1);
@@ -54,6 +55,7 @@ take(filterIteratorWith(fn, iterator), 1);
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01584))_
 
+<a id="atom-technical-atom-fbbf1aa0775abd4d"></a>
 ```
 const mapWith = (fn, collection) =>
 ({
@@ -77,6 +79,7 @@ return ({done, value: done ? undefined : fn(value)});
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01587))_
 
+<a id="atom-technical-atom-bbfb5055a2d70d9e"></a>
 ```
 const Evens = mapWith((x) => 2 * x, Numbers);
 for (const i of Evens) {
@@ -105,6 +108,7 @@ console.log(i)
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01597))_
 
+<a id="atom-technical-atom-053b19c44dbfcd19"></a>
 ```
 const filterWith = (fn, iterable) =>
 ({
@@ -143,6 +147,7 @@ return ({done, value: done ? undefined : value});
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01600))_
 
+<a id="atom-technical-atom-1fc36dec4bd8e986"></a>
 ```
 const Squares = mapWith((x) => x * x, Numbers);
 const EndWithOne = filterWith((x) => x % 10 === 1, Squares);
@@ -157,6 +162,8 @@ const UpTo1000 = untilWith((x) => (x > 1000), EndWithOne);
 
 
 ## Related pages
+
+### Shared technical atoms
 
 - [[javascriptallonge-collection]] - shared technical atoms: Collection shares technical record from Served by the Pot: Collections / Iteration and Iterables / operations on ordered collections: const mapWith = (fn, collection) => ({ [Symbol.iterator] () { const iterator = collection[Symbol.iterator](); return { next () { const {done, value} = iterator.next( ... [truncated] (4 shared atom(s))
 - [[javascriptallonge-iteration]] - shared technical atoms: Iteration shares technical record from Served by the Pot: Collections / Iteration and Iterables / operations on ordered collections: const mapWith = (fn, collection) => ({ [Symbol.iterator] () { const iterator = collection[Symbol.iterator](); return { next () { const {done, value} = iterator.next( ... [truncated] (4 shared atom(s))

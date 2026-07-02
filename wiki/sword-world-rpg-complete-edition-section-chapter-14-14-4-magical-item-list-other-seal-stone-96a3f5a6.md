@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-other-seal-stone-96a3f5a6@6d84ce1d21d971a6324de342ac76cc50
+projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-other-seal-stone-96a3f5a6@f93db0db9b3f0ea0859173411c890042
 ---
 
 # Chapter 14: / 14.4 Magical Item List / 《 Other 》 / [ Seal Stone ]
@@ -17,9 +17,14 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-other-ae5b041d]] - broader source section: Chapter 14: / 14.4 Magical Item List / 《 Other 》
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-other-sealing-jar-131d9ef6]] - previous source section: Chapter 14: / 14.4 Magical Item List / 《 Other 》 / [ Sealing Jar ]
 - [[sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-other-jumping-boots-93f82062]] - next source section: Chapter 14: / 14.4 Magical Item List / 《 Other 》 / [ Jumping Boots ]
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-other-ae5b041d]] - broader source section: Chapter 14: / 14.4 Magical Item List / 《 Other 》
 
 ## Statements
 

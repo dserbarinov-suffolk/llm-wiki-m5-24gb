@@ -7,7 +7,7 @@ sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: concepts
-projection_coverage: topic-sword-world-rpg-complete-edition-13-monster-level@262e722de1596143e20164cfb70445b8
+projection_coverage: topic-sword-world-rpg-complete-edition-13-monster-level@65d92a3758ae501ed569eec16d5e8dd5
 ---
 
 # 13 Monster Level
@@ -35,6 +35,7 @@ What [[sword-world-rpg-complete-edition]] covers about 13 monster level:
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-08685))_
 
+<a id="atom-technical-atom-a92438eec348fa6b"></a>
 | Level 1-2 | It's no big deal. Just a small problem in a small village |
 | --- | --- |
 | Level 2-4 | A crisis in a small village. Cue the novice adventurers. |
@@ -69,12 +70,16 @@ Monster Level and Adventurer Level
 
 **Atoms:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-08688, source-range-0d48087c-08689))_
 
+<a id="atom-technical-atom-22d39634e816b931"></a>
 > Table 13-3: Monster Level/Event Scale Comparisons
 
+<a id="atom-technical-atom-3ccb062d3df22f7e"></a>
 > Table 13-2: Determining Monster Sub-Ability Scores
 
 
 ## Related pages
+
+### Shared claims
 
 - [[sword-world-rpg-complete-edition-adventurer-level]] - shared statements: 1.3.3 Adventurer Level shares source evidence from 13.2.6 Mythical Beasts and Magical Beasts / [ Horse ] / 13.5 Monster Level and Adventurer Level: A monster's monster level is a rough guide to its strength when it appears in a scenario. A monster level's score is basically set so that if it's equal to a charact ... [truncated] (1 shared statement(s))
 - [[sword-world-rpg-complete-edition-attack-character-monster]] - shared statements: Attacks From Characters Against Monsters shares source evidence from 13.2.6 Mythical Beasts and Magical Beasts / [ Horse ] / 13.5 Monster Level and Adventurer Level: A monster's monster level is a rough guide to its strength when it appears in a scenario. A monster level's score is basically set so that if it's equal to a charact ... [truncated] (1 shared statement(s))

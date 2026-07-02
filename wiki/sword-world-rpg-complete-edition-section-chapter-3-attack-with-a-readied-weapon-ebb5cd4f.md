@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-3-attack-with-a-readied-weapon-ebb5cd4f@226f910d6a0ab8ed5ce04f4a2beecdce
+projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-3-attack-with-a-readied-weapon-ebb5cd4f@ea029b44676458b115260dc4106c51b1
 ---
 
 # Chapter 3: / Attack with a Readied Weapon
@@ -17,8 +17,13 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-chapter-3-92cd315b]] - broader source section: Chapter 3:
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-chapter-3-switch-a-weapon-s-hands-and-attack-b959ce2a]] - previous source section: Chapter 3: / Switch a Weapon's Hands and Attack
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-chapter-3-92cd315b]] - broader source section: Chapter 3:
 
 ## Statements
 

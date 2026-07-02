@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-5-1-14-spirit-magic-list-magic-list-b89f2a18@3b78e94c49738a75c51d938c91c714e1
+projection_coverage: section-sword-world-rpg-complete-edition-section-5-1-14-spirit-magic-list-magic-list-b89f2a18@b54291b4331b4fdacf50c4aa13f7edf6
 ---
 
 # 5.1.14 Spirit Magic List / Magic List
@@ -17,13 +17,18 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-5-1-14-spirit-magic-list-1f53ed62]] - broader source section: 5.1.14 Spirit Magic List
-- [[sword-world-rpg-complete-edition-section-5-1-14-spirit-magic-list-magic-list-windstorm-djinn-greater-wind-spirit-a64b8f3c]] - narrower source section: 5.1.14 Spirit Magic List / Magic List / [ Windstorm ] (Djinn/Greater Wind Spirit)
-- [[sword-world-rpg-complete-edition-section-5-1-14-spirit-magic-list-magic-list-crack-behemoth-greater-earth-spirit-b5b41442]] - narrower source section: 5.1.14 Spirit Magic List / Magic List / [ Crack ] (Behemoth/Greater Earth Spirit)
-- [[sword-world-rpg-complete-edition-section-5-1-14-spirit-magic-list-magic-list-valkyrie-blessing-valkyrie-mind-spirit-b5414f9a]] - narrower source section: 5.1.14 Spirit Magic List / Magic List / [ Valkyrie Blessing ] (Valkyrie/Mind Spirit)
-- [[sword-world-rpg-complete-edition-section-5-1-14-spirit-magic-list-magic-list-plant-shell-3f3dd947]] - narrower source section: 5.1.14 Spirit Magic List / Magic List / [ Plant Shell ]
-- [[sword-world-rpg-complete-edition-section-5-1-14-spirit-magic-list-magic-list-full-control-spirit-various-lesser-spirits-e38f7396]] - narrower source section: 5.1.14 Spirit Magic List / Magic List / [ Full Control Spirit ] (Various lesser spirits)
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-5-1-14-spirit-magic-list-8th-level-spirit-magic-list-ice-coffin-3b781afa]] - next source section: 5.1.14 Spirit Magic List / 8th Level Spirit Magic List [ Ice Coffin ]
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-5-1-14-spirit-magic-list-1f53ed62]] - broader source section: 5.1.14 Spirit Magic List
+- [[sword-world-rpg-complete-edition-section-5-1-14-spirit-magic-list-magic-list-crack-behemoth-greater-earth-spirit-b5b41442]] - narrower source section: 5.1.14 Spirit Magic List / Magic List / [ Crack ] (Behemoth/Greater Earth Spirit)
+- [[sword-world-rpg-complete-edition-section-5-1-14-spirit-magic-list-magic-list-full-control-spirit-various-lesser-spirits-e38f7396]] - narrower source section: 5.1.14 Spirit Magic List / Magic List / [ Full Control Spirit ] (Various lesser spirits)
+- [[sword-world-rpg-complete-edition-section-5-1-14-spirit-magic-list-magic-list-plant-shell-3f3dd947]] - narrower source section: 5.1.14 Spirit Magic List / Magic List / [ Plant Shell ]
+- [[sword-world-rpg-complete-edition-section-5-1-14-spirit-magic-list-magic-list-valkyrie-blessing-valkyrie-mind-spirit-b5414f9a]] - narrower source section: 5.1.14 Spirit Magic List / Magic List / [ Valkyrie Blessing ] (Valkyrie/Mind Spirit)
+- [[sword-world-rpg-complete-edition-section-5-1-14-spirit-magic-list-magic-list-windstorm-djinn-greater-wind-spirit-a64b8f3c]] - narrower source section: 5.1.14 Spirit Magic List / Magic List / [ Windstorm ] (Djinn/Greater Wind Spirit)
 
 ## Statements by subsection
 

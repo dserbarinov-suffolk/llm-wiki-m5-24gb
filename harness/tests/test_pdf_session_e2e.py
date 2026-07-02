@@ -64,6 +64,14 @@ def _raw_pdf(paths: WikiPaths) -> str:
     return "book.pdf"
 
 
+def _page_containing(store: WikiStore, text: str) -> str:
+    for page_id in store.list_pages():
+        body = store.read_page(page_id)
+        if text in body:
+            return body
+    raise AssertionError(f"No page contains {text!r}.")
+
+
 class TestLedgerPdfIngest:
     async def test_pdf_ingest_projects_single_source_page_from_ledger(
         self, store: WikiStore, paths: WikiPaths
@@ -74,9 +82,15 @@ class TestLedgerPdfIngest:
         assert "Claim-ledger ingest" in result.output
         assert "[[book]]" in result.output
         body = store.read_page("book")
-        assert "Functions are ordinary first-class values." in body
-        assert "## Functions" in body
-        assert "## Closures" in body
+        assert "## Page Families" in body
+        assert "## Source Section Index" in body
+        assert "Functions are ordinary first-class values." not in body
+        assert "Functions are ordinary first-class values." in _page_containing(
+            store, "Functions are ordinary first-class values."
+        )
+        assert "Closures contain their captured scope." in _page_containing(
+            store, "Closures contain their captured scope."
+        )
         assert isinstance(result.run, IngestRun)
         assert f"## [{TODAY}] ingest | book.pdf" in paths.log_path.read_text(encoding="utf-8")
 
@@ -85,7 +99,7 @@ class TestLedgerPdfIngest:
     ) -> None:
         source = _raw_pdf(paths)
         await _session(store, paths, _fake_extraction(paths)).ingest(source)
-        body = store.read_page("book")
+        body = _page_containing(store, "const f = () => 1;")
         assert "const f = () => 1;" in body  # code atom rendered verbatim
         ledger = json.loads(store.read_claim_ledger_artifact(source))["ledger"]
         atom_kinds = {atom["technical_atom_kind"] for atom in ledger["technical_atoms"]}

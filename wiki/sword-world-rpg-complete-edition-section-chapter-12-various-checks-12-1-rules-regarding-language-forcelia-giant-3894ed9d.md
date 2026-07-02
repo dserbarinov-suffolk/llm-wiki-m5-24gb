@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-12-various-checks-12-1-rules-regarding-language-forcelia-giant-3894ed9d@6b7635a0e3208a0ab645da723a608bf4
+projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-12-various-checks-12-1-rules-regarding-language-forcelia-giant-3894ed9d@f5f6c375b444b076a2465ece0afc2505
 ---
 
 # Chapter 12: Various Checks / 12.1 Rules Regarding Language / Forcelia / [ Giant ]
@@ -17,9 +17,14 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-chapter-12-various-checks-12-1-rules-regarding-language-forcelia-dabbb4cf]] - broader source section: Chapter 12: Various Checks / 12.1 Rules Regarding Language / Forcelia
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-chapter-12-various-checks-12-1-rules-regarding-language-forcelia-goblin-2b16f414]] - previous source section: Chapter 12: Various Checks / 12.1 Rules Regarding Language / Forcelia / [ Goblin ]
 - [[sword-world-rpg-complete-edition-section-chapter-12-various-checks-12-1-rules-regarding-language-forcelia-harpy-edf17f49]] - next source section: Chapter 12: Various Checks / 12.1 Rules Regarding Language / Forcelia / [ Harpy ]
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-chapter-12-various-checks-12-1-rules-regarding-language-forcelia-dabbb4cf]] - broader source section: Chapter 12: Various Checks / 12.1 Rules Regarding Language / Forcelia
 
 ## Statements
 

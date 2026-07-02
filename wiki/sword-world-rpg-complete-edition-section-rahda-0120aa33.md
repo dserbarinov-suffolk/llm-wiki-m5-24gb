@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-rahda-0120aa33@4506f16d798b9f0822d9728293914b91
+projection_coverage: section-sword-world-rpg-complete-edition-section-rahda-0120aa33@a025a8e6229aba1951b7d6e5eb27fa14
 ---
 
 # 《 Rahda 》
@@ -16,6 +16,8 @@ projection_coverage: section-sword-world-rpg-complete-edition-section-rahda-0120
 From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
+
+### Source order
 
 - [[sword-world-rpg-complete-edition-section-myrii-8d7c116a]] - previous source section: 《 Myrii 》
 - [[sword-world-rpg-complete-edition-section-cha-za-057c6ee7]] - next source section: 《 Cha Za 》

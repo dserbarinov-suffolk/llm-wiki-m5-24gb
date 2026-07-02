@@ -4,10 +4,10 @@ page_kind: concept
 summary: Array: 14 statement(s) and 14 atom(s) from raw/javascriptallonge.pdf.
 page_family: topic-concept
 sources: raw/javascriptallonge.pdf
-updated: 2026-07-01
+updated: 2026-07-02
 domain: javascriptallonge
 category_path: concepts
-projection_coverage: topic-javascriptallonge-array@0e3b1d420a0fe0ca3bf21b4b4f0f62e0
+projection_coverage: topic-javascriptallonge-array@34a12823538e5554b22f87c697c5b387
 ---
 
 # Array
@@ -61,6 +61,7 @@ What [[javascriptallonge]] covers about array:
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00815))_
 
+<a id="atom-technical-atom-dd48e092b1674580"></a>
 ```
 []
 //=> []
@@ -74,6 +75,7 @@ What [[javascriptallonge]] covers about array:
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00817))_
 
+<a id="atom-technical-atom-cd7632ad5d80e511"></a>
 ```
 [1]
 //=> [1]
@@ -89,6 +91,7 @@ What [[javascriptallonge]] covers about array:
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00821))_
 
+<a id="atom-technical-atom-678ccd49c3c72f5e"></a>
 ```
 [[[[[]]]]]
 ```
@@ -101,6 +104,7 @@ What [[javascriptallonge]] covers about array:
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00826))_
 
+<a id="atom-technical-atom-8df93e461ef26254"></a>
 ```
 [] === []
 //=> false
@@ -119,6 +123,7 @@ array_of_one() === array_of_one()
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00829))_
 
+<a id="atom-technical-atom-6754230ebb1f4009"></a>
 ```
 const oneTwoThree = ["one", "two", "three"];
 oneTwoThree[0]
@@ -137,6 +142,7 @@ oneTwoThree[2]
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00833))_
 
+<a id="atom-technical-atom-7ff06c2c17e6a7c8"></a>
 ```
 const x = [],
 a = [x];
@@ -152,6 +158,7 @@ a[0] === x
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00836))_
 
+<a id="atom-technical-atom-f35e446be8a2c0dc"></a>
 ```
 const wrap = (something) => [something];
 Let’s expand it to use a block and an extra name:
@@ -167,6 +174,7 @@ const wrapped = [something];
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00837))_
 
+<a id="atom-technical-atom-7c6d2c5a26cb3115"></a>
 ```
 const wrap = (something) => {
 const wrapped = [something]
@@ -184,6 +192,7 @@ wrap("package")
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00842))_
 
+<a id="atom-technical-atom-03220fbc99849a87"></a>
 ```
 const surname = (name) => {
 const [first, last] = name;
@@ -201,6 +210,7 @@ surname(["Reginald", "Braithwaite"])
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00848))_
 
+<a id="atom-technical-atom-188e747ffe4e0b3b"></a>
 ```
 const [car, ...cdr] = [1, 2, 3, 4, 5];
 car
@@ -217,6 +227,7 @@ cdr
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00858))_
 
+<a id="atom-technical-atom-c93d24e3decbb431"></a>
 ```
 const [what] = [];
 ```
@@ -229,6 +240,7 @@ const [what] = [];
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00860))_
 
+<a id="atom-technical-atom-b7199cad0f3cd977"></a>
 ```
 const [what] = [];
 what
@@ -246,6 +258,7 @@ who
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00861))_
 
+<a id="atom-technical-atom-45e36f5bd9d4ecc4"></a>
 ```
 const [...they] = [];
 they
@@ -263,6 +276,7 @@ they
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00871))_
 
+<a id="atom-technical-atom-3a6bd9349011d488"></a>
 ```
 const foo = () => ...
 const bar = (name) => ...
@@ -272,13 +286,18 @@ const baz = (a, b, c) => ...
 
 ## Related pages
 
+### Source structure
+
+- [[javascriptallonge-section-garbage-garbage-everywhere-so-why-arrays-270c6428]] - source section: Garbage, Garbage Everywhere / so why arrays shares source evidence from Garbage, Garbage Everywhere / so why arrays: Well, linked lists are fast for a few things, like taking the front element off a list, and taking the remainder of a list. But not for iterating over a list: Pointe ... [truncated]; Garbage, Garbage Everywhere / so why arrays shares technical record from Garbage, Garbage Everywhere / so why arrays: And if you want an arbitrary item from a list, you have to iterate through the list element by element, whereas with the indexed array you just fetch it. (5 shared statement(s), 2 shared atom(s))
+
+### Shared technical atoms
+
 - [[javascriptallonge-javascript]] - shared statements and technical atoms: Javascript shares source evidence from Composing and Decomposing Data / Arrays and Destructuring Arguments / array literals: JavaScript has a literal syntax for creating an array: The [ and ] characters. We can create an empty array:; Javascript shares technical record from Composing and Decomposing Data / Arrays and Destructuring Arguments / array literals: [] //=> [] (1 shared statement(s), 4 shared atom(s))
+- [[javascriptallonge-bind]] - shared technical atoms: Bind shares technical record from Composing and Decomposing Data / Arrays and Destructuring Arguments / destructuring is not pattern matching: const [what] = []; (3 shared atom(s))
 - [[javascriptallonge-literal]] - shared statements and technical atoms: Literal shares source evidence from Composing and Decomposing Data / Arrays and Destructuring Arguments / array literals: Array literals are expressions, and arrays are reference types . We can see that each time an array literal is evaluated, we get a new, distinct array, even if it co ... [truncated]; Literal shares technical record from Composing and Decomposing Data / Arrays and Destructuring Arguments / array literals: [] //=> [] (1 shared statement(s), 2 shared atom(s))
 - [[javascriptallonge-element]] - shared statements and technical atoms: Element shares source evidence from Composing and Decomposing Data / Arrays and Destructuring Arguments / element references: Array elements can be extracted using [ and ] as postfix operators. We pass an integer as an index of the element to extract:; Element shares technical record from Composing and Decomposing Data / Arrays and Destructuring Arguments / element references: const oneTwoThree = ["one", "two", "three"]; oneTwoThree[0] //=> 'one' oneTwoThree[1] //=> 'two' oneTwoThree[2] //=> 'three' (1 shared statement(s), 1 shared atom(s))
 - [[javascriptallonge-statement]] - shared statements and technical atoms: Statement shares source evidence from Composing and Decomposing Data / Arrays and Destructuring Arguments / destructuring arrays: The statement const [something] = wrapped; destructures the array represented by wrapped , binding the value of its single element to the name something . We can do ... [truncated]; Statement shares technical record from Composing and Decomposing Data / Arrays and Destructuring Arguments / destructuring arrays: const surname = (name) => { const [first, last] = name; return last; } surname(["Reginald", "Braithwaite"]) //=> "Braithwaite" (1 shared statement(s), 1 shared atom(s))
-- [[javascriptallonge-bind]] - shared technical atoms: Bind shares technical record from Composing and Decomposing Data / Arrays and Destructuring Arguments / destructuring is not pattern matching: const [what] = []; (3 shared atom(s))
 - [[javascriptallonge-parameter]] - shared technical atoms: Parameter shares technical record from Composing and Decomposing Data / Arrays and Destructuring Arguments / destructuring parameters: const foo = () => ... const bar = (name) => ... const baz = (a, b, c) => ... (1 shared atom(s))
-- [[javascriptallonge-section-garbage-garbage-everywhere-so-why-arrays-270c6428]] - source section: Garbage, Garbage Everywhere / so why arrays shares source evidence from Garbage, Garbage Everywhere / so why arrays: Well, linked lists are fast for a few things, like taking the front element off a list, and taking the remainder of a list. But not for iterating over a list: Pointe ... [truncated]; Garbage, Garbage Everywhere / so why arrays shares technical record from Garbage, Garbage Everywhere / so why arrays: And if you want an arbitrary item from a list, you have to iterate through the list element by element, whereas with the indexed array you just fetch it. (5 shared statement(s), 2 shared atom(s))
 
 ## Source
 

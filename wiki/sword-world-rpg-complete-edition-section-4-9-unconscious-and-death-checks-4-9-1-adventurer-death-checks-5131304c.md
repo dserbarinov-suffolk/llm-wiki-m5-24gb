@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-4-9-unconscious-and-death-checks-4-9-1-adventurer-death-checks-5131304c@37981ce731bc45a6865e6b0cb6856cd8
+projection_coverage: section-sword-world-rpg-complete-edition-section-4-9-unconscious-and-death-checks-4-9-1-adventurer-death-checks-5131304c@56f977dee10ee7347be2ab0ca117fa32
 ---
 
 # 4.9 Unconscious and Death Checks / 4.9.1 Adventurer Death Checks
@@ -17,8 +17,13 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-4-9-unconscious-and-death-checks-e6129e9c]] - broader source section: 4.9 Unconscious and Death Checks
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-4-9-unconscious-and-death-checks-4-9-2-death-checks-every-hour-f62c02d6]] - next source section: 4.9 Unconscious and Death Checks / 4.9.2 Death Checks Every Hour
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-4-9-unconscious-and-death-checks-e6129e9c]] - broader source section: 4.9 Unconscious and Death Checks
 
 ## Statements
 
@@ -39,6 +44,7 @@ From [[sword-world-rpg-complete-edition]].
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-01430))_
 
+<a id="atom-technical-atom-57c4f94fc6c4d43e"></a>
 > life force resistance + 2D - (damage applied beyond life force) ≥ 7 → survival
 
 ### Technical frame 2: 4.9 Unconscious and Death Checks / 4.9.1 Adventurer Death Checks
@@ -49,4 +55,5 @@ From [[sword-world-rpg-complete-edition]].
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-01433))_
 
+<a id="atom-technical-atom-67cf3cb14b6f830a"></a>
 > Ducard II, with a life force of -4 , must make a death check .

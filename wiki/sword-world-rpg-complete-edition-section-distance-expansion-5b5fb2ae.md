@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-distance-expansion-5b5fb2ae@2c88d7b1cc2c73145f8d103ec130ce3d
+projection_coverage: section-sword-world-rpg-complete-edition-section-distance-expansion-5b5fb2ae@16ffbb53769c74e1b4170014d6144bb5
 ---
 
 # 《 Distance Expansion 》
@@ -16,6 +16,8 @@ projection_coverage: section-sword-world-rpg-complete-edition-section-distance-e
 From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
+
+### Source order
 
 - [[sword-world-rpg-complete-edition-section-duration-expansion-29faeb1e]] - previous source section: 《 Duration Expansion 》
 - [[sword-world-rpg-complete-edition-section-damage-expansion-e4ff56f7]] - next source section: 《 Damage Expansion 》

@@ -7,7 +7,7 @@ sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: concepts
-projection_coverage: topic-sword-world-rpg-complete-edition-handed@33d3e8722c2cab32e6df5e8465aef906
+projection_coverage: topic-sword-world-rpg-complete-edition-handed@807453144a152f4f22f7d3ef91ec4977
 ---
 
 # Handed
@@ -33,6 +33,7 @@ What [[sword-world-rpg-complete-edition]] covers about handed:
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-00638))_
 
+<a id="atom-technical-atom-9b45eb8349c95a48"></a>
 > Of course, if you have a twohanded weapon, you cannot hold a shield, which will make your character less capable of defense.
 
 

@@ -7,7 +7,7 @@ sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: concepts
-projection_coverage: topic-sword-world-rpg-complete-edition-thief-skill@41c15f7830d031185f2d7543e0270313
+projection_coverage: topic-sword-world-rpg-complete-edition-thief-skill@839559f12c21ed31e1b2a84f3972d204
 ---
 
 # 【 Thief Skill 】
@@ -197,15 +197,10 @@ What [[sword-world-rpg-complete-edition]] covers about 【 thief skill 】:
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-00247))_
 
+<a id="atom-technical-atom-92b3d507d00e0df0"></a>
 > Their fighting style is based on lightness, and although they cannot use heavy weapons or armor, they can use light weapons and armor that does not impede their movement, allowing them to fight as well as a fighter.
 
-### Technical frame 2: Chapter 3: / 3.4.4 Actions You Can Take While Standing Still / Weapon Combat Skills / 【 Thief Skill 】
-
-**Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-01189))_
-
-> Specifically, you can only fight if the weapon or armor you're using requires up to half (rounded up) of your character's strength.
-
-### Technical frame 3: Chapter 3: / 3.4.4 Actions You Can Take While Standing Still / Scores Used in Weapon Combat / 【 Critical Target 】
+### Technical frame 2: Chapter 3: / 3.4.4 Actions You Can Take While Standing Still / Scores Used in Weapon Combat / 【 Critical Target 】
 
 **Context:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-01225))_
 
@@ -213,9 +208,10 @@ What [[sword-world-rpg-complete-edition]] covers about 【 thief skill 】:
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-01226))_
 
+<a id="atom-technical-atom-ffb289d61342cf52"></a>
 > critical target = 10 (9 if using thief skill)
 
-### Technical frame 4: Chapter 6: / 6.1 Precautions When Using Skills
+### Technical frame 3: Chapter 6: / 6.1 Precautions When Using Skills
 
 **Context:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-03981))_
 
@@ -223,15 +219,10 @@ What [[sword-world-rpg-complete-edition]] covers about 【 thief skill 】:
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-03980))_
 
+<a id="atom-technical-atom-b4e37383091e28bb"></a>
 > Even those who have not joined a guild can directly learn the thief skill from those who have a higher thief skill level than themselves, but if the guild finds out that such outsider thieves (including those who have not paid the prescribed amount) used this skill to do business , they'll send an assassin.
 
-### Technical frame 5: Chapter 6: / 6.1 Precautions When Using Skills / Thief Skill / [ ① Tumble [Agility] ] (Equipment restriction)
-
-**Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-03997))_
-
-> Even if a thief falls from a high place, they can reduce the damage by being skillful at taking a defensive tumble.
-
-### Technical frame 6: Chapter 6: / 6.1 Precautions When Using Skills / Thief Skill / [ ① Tumble [Agility] ] (Equipment restriction)
+### Technical frame 4: Chapter 6: / 6.1 Precautions When Using Skills / Thief Skill / [ ① Tumble [Agility] ] (Equipment restriction)
 
 **Context:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-04009))_
 
@@ -239,15 +230,10 @@ What [[sword-world-rpg-complete-edition]] covers about 【 thief skill 】:
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-04010))_
 
+<a id="atom-technical-atom-5471e1d22081ba04"></a>
 > These can be attempted again if the baseline score for a success roll increases (that is, if the skill level increases or the ability bonus of the relevant ability score increases).
 
-### Technical frame 7: Chapter 6: / 6.1 Precautions When Using Skills / Thief Skill / [ ② Lockpicking [Dexterity]] (No equipment restriction, not retriable)
-
-**Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-04012))_
-
-> Even if you don't have these tools, you can try using wire, etc.
-
-### Technical frame 8: Chapter 6: / 6.1 Precautions When Using Skills / Thief Skill / [ ③ Acrobatics [Agility] ] (Equipment restriction)
+### Technical frame 5: Chapter 6: / 6.1 Precautions When Using Skills / Thief Skill / [ ③ Acrobatics [Agility] ] (Equipment restriction)
 
 **Context:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-04018))_
 
@@ -255,9 +241,10 @@ What [[sword-world-rpg-complete-edition]] covers about 【 thief skill 】:
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-04016))_
 
+<a id="atom-technical-atom-d844621aad151d35"></a>
 > Each time a character performs such an action, the game master must set a target score and ask for a success roll check.
 
-### Technical frame 9: Chapter 6: / 6.1 Precautions When Using Skills / Thief Skill / [ ③ Acrobatics [Agility] ] (Equipment restriction)
+### Technical frame 6: Chapter 6: / 6.1 Precautions When Using Skills / Thief Skill / [ ③ Acrobatics [Agility] ] (Equipment restriction)
 
 **Context:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-04015))_
 
@@ -265,9 +252,10 @@ What [[sword-world-rpg-complete-edition]] covers about 【 thief skill 】:
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-04018))_
 
+<a id="atom-technical-atom-a14205203766722e"></a>
 > For example, even if a book is written in a language you don't know, by using this ability you can memorize the shape of each letter exactly as it is, even if you don't know the meaning, and can write it down later.
 
-### Technical frame 10: Chapter 6: / 6.1 Precautions When Using Skills / Thief Skill / [ ⑤ Listen [Intelligence] ] (Equipment restriction)
+### Technical frame 7: Chapter 6: / 6.1 Precautions When Using Skills / Thief Skill / [ ⑤ Listen [Intelligence] ] (Equipment restriction)
 
 **Context:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-04021))_
 
@@ -275,9 +263,10 @@ What [[sword-world-rpg-complete-edition]] covers about 【 thief skill 】:
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-04020))_
 
+<a id="atom-technical-atom-8334b0643fecc484"></a>
 > You can also choose and listen to a specific sound from a mixture of various sounds.
 
-### Technical frame 11: Chapter 6: / 6.1 Precautions When Using Skills / Thief Skill / [ ⑥ Stealthy Step [Agility] ] (Equipment restriction)
+### Technical frame 8: Chapter 6: / 6.1 Precautions When Using Skills / Thief Skill / [ ⑥ Stealthy Step [Agility] ] (Equipment restriction)
 
 **Context:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-04025))_
 
@@ -285,9 +274,10 @@ What [[sword-world-rpg-complete-edition]] covers about 【 thief skill 】:
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-04024))_
 
+<a id="atom-technical-atom-6414f75932a605e3"></a>
 > If the thief's final score is greater, the sound will never be heard.
 
-### Technical frame 12: Chapter 6: / 6.1 Precautions When Using Skills / Thief Skill / [ ⑥ Stealthy Step [Agility] ] (Equipment restriction)
+### Technical frame 9: Chapter 6: / 6.1 Precautions When Using Skills / Thief Skill / [ ⑥ Stealthy Step [Agility] ] (Equipment restriction)
 
 **Context:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-04025))_
 
@@ -295,15 +285,10 @@ What [[sword-world-rpg-complete-edition]] covers about 【 thief skill 】:
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-04026))_
 
+<a id="atom-technical-atom-65b01dcd5fcfa4ff"></a>
 > If the person hearing the sound also has the thief skill, they may make a check using thief skill level + intelligence bonus (this is the listen ability from the previous section).
 
-### Technical frame 13: Chapter 6: / 6.1 Precautions When Using Skills / Thief Skill / [ ⑦ Pickpocket [Dexterity] ] (Equipment restriction)
-
-**Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-04028))_
-
-> The person trying to pickpocket must make a success roll using thief skill level + dexterity bonus and the person being pickpocketed must make one using adventurer level + intelligence bonus as the baseline score.
-
-### Technical frame 14: Chapter 6: / 6.1 Precautions When Using Skills / Thief Skill / [ ⑦ Pickpocket [Dexterity] ] (Equipment restriction)
+### Technical frame 10: Chapter 6: / 6.1 Precautions When Using Skills / Thief Skill / [ ⑦ Pickpocket [Dexterity] ] (Equipment restriction)
 
 **Context:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-04028))_
 
@@ -311,21 +296,10 @@ What [[sword-world-rpg-complete-edition]] covers about 【 thief skill 】:
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-04029))_
 
+<a id="atom-technical-atom-8feec0ea6ee4e67e"></a>
 > The game master may add modifiers depending on the surroundings and the opponent's situation.
 
-### Technical frame 15: Chapter 6: / 6.1 Precautions When Using Skills / Thief Skill / [ ⑧ Hide [Agility] ] (Equipment restriction)
-
-**Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-04031))_
-
-> A success roll must be made when the thief is hiding and someone attempts to search for them or approaches them.
-
-### Technical frame 16: Chapter 6: / 6.1 Precautions When Using Skills / Thief Skill / [ ⑨ Search [Intelligence] ] (No equipment restriction, not retriable)
-
-**Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-04033))_
-
-> The game master should determine the difficulty depending on what is hidden.
-
-### Technical frame 17: Chapter 6: / 6.1 Precautions When Using Skills / Thief Skill / [ ⑪ Special Combat [Dexterity, Agility, Strength]] (Equipment restriction)
+### Technical frame 11: Chapter 6: / 6.1 Precautions When Using Skills / Thief Skill / [ ⑪ Special Combat [Dexterity, Agility, Strength]] (Equipment restriction)
 
 **Context:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-04038))_
 
@@ -333,9 +307,10 @@ What [[sword-world-rpg-complete-edition]] covers about 【 thief skill 】:
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-04039))_
 
+<a id="atom-technical-atom-7563d513837552c4"></a>
 > If one adventurer has acquired both the thief skill and the fighter skill, the player must choose which skill to fight with.
 
-### Technical frame 18: Chapter 6: / 6.1 Precautions When Using Skills / Thief Skill / [ ⑫ Long Jump/High Jump [Agility] ] (Equipment restriction) / [ ⑬ Follow [Agility] ] (Equipment restriction)
+### Technical frame 12: Chapter 6: / 6.1 Precautions When Using Skills / Thief Skill / [ ⑫ Long Jump/High Jump [Agility] ] (Equipment restriction) / [ ⑬ Follow [Agility] ] (Equipment restriction)
 
 **Context:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-04044))_
 
@@ -343,9 +318,10 @@ What [[sword-world-rpg-complete-edition]] covers about 【 thief skill 】:
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-04043))_
 
+<a id="atom-technical-atom-cf7d9c2195181bf8"></a>
 > The side that's following must use thief skill level + agility bonus as their baseline score, while the side being followed must use adventurer level + intelligence bonus , and success or failure is determined by comparing the final scores of their success rolls.
 
-### Technical frame 19: Chapter 6: / 6.1 Precautions When Using Skills / Thief Skill / [ ⑫ Long Jump/High Jump [Agility] ] (Equipment restriction) / [ ⑭ Disguise [Dexterity] ] (No equipment restriction)
+### Technical frame 13: Chapter 6: / 6.1 Precautions When Using Skills / Thief Skill / [ ⑫ Long Jump/High Jump [Agility] ] (Equipment restriction) / [ ⑭ Disguise [Dexterity] ] (No equipment restriction)
 
 **Context:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-04046))_
 
@@ -353,9 +329,10 @@ What [[sword-world-rpg-complete-edition]] covers about 【 thief skill 】:
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-04047))_
 
+<a id="atom-technical-atom-996c55d2d71b490e"></a>
 > If the thief is disguised as a specific person and they encounter an acquaintance of that person, they must make a success roll to determine success or failure.
 
-### Technical frame 20: Chapter 6: / 6.1 Precautions When Using Skills / Thief Skill / [ ⑮ Treasure Appraisal [Intelligence] ] (No equipment restriction, not retriable)
+### Technical frame 14: Chapter 6: / 6.1 Precautions When Using Skills / Thief Skill / [ ⑮ Treasure Appraisal [Intelligence] ] (No equipment restriction, not retriable)
 
 **Context:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-04051))_
 
@@ -363,9 +340,10 @@ What [[sword-world-rpg-complete-edition]] covers about 【 thief skill 】:
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-04049))_
 
+<a id="atom-technical-atom-8082893aed9fb6d7"></a>
 > If you take your time, you can determine specific prices for items such as jewelry, gold and silver, as well as works of art.
 
-### Technical frame 21: Chapter 6: / 6.1 Precautions When Using Skills / Thief Skill / [ ⑮ Treasure Appraisal [Intelligence] ] (No equipment restriction, not retriable)
+### Technical frame 15: Chapter 6: / 6.1 Precautions When Using Skills / Thief Skill / [ ⑮ Treasure Appraisal [Intelligence] ] (No equipment restriction, not retriable)
 
 **Context:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-04052))_
 
@@ -373,9 +351,10 @@ What [[sword-world-rpg-complete-edition]] covers about 【 thief skill 】:
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-04053))_
 
+<a id="atom-technical-atom-d1e7f54528594267"></a>
 > If successful, the presence of a trap will be sensed at a perilous point, and the game master must inform the player of the type of trap.
 
-### Technical frame 22: Chapter 6: / 6.1 Precautions When Using Skills / Thief Skill / [ ⑮ Treasure Appraisal [Intelligence] ] (No equipment restriction, not retriable) / [ ⑰ Remove/Set Trap [Dexterity] ] (Equipment restriction, not retriable)
+### Technical frame 16: Chapter 6: / 6.1 Precautions When Using Skills / Thief Skill / [ ⑮ Treasure Appraisal [Intelligence] ] (No equipment restriction, not retriable) / [ ⑰ Remove/Set Trap [Dexterity] ] (Equipment restriction, not retriable)
 
 **Context:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-04057))_
 
@@ -383,9 +362,10 @@ What [[sword-world-rpg-complete-edition]] covers about 【 thief skill 】:
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-04056))_
 
+<a id="atom-technical-atom-e94500f8f5557474"></a>
 > If you fail, the trap will be activated if the dice roll was 6 or more beneath the target score.
 
-### Technical frame 23: Chapter 6: / 6.1 Precautions When Using Skills / Thief Skill / [ ⑮ Treasure Appraisal [Intelligence] ] (No equipment restriction, not retriable) / [ ⑰ Remove/Set Trap [Dexterity] ] (Equipment restriction, not retriable)
+### Technical frame 17: Chapter 6: / 6.1 Precautions When Using Skills / Thief Skill / [ ⑮ Treasure Appraisal [Intelligence] ] (No equipment restriction, not retriable) / [ ⑰ Remove/Set Trap [Dexterity] ] (Equipment restriction, not retriable)
 
 **Context:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-04056))_
 
@@ -393,9 +373,10 @@ What [[sword-world-rpg-complete-edition]] covers about 【 thief skill 】:
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-04057))_
 
+<a id="atom-technical-atom-39f98e884099a59b"></a>
 > For set , you can set traps up to a difficulty equal to your thief skill level without failing (you cannot set traps of a higher level).
 
-### Technical frame 24: Table 6-1: Climb by Skill
+### Technical frame 18: Table 6-1: Climb by Skill
 
 **Context:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-04222))_
 
@@ -403,6 +384,7 @@ What [[sword-world-rpg-complete-edition]] covers about 【 thief skill 】:
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-04218))_
 
+<a id="atom-technical-atom-f73f0b2f661b7450"></a>
 ```text
 Table 6-1: Climb by Skill
  using adventurer level + agility bonus as
@@ -432,12 +414,22 @@ Table 6-1: Climb by Skill
 
 ## Related pages
 
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-chapter-6-6-1-precautions-when-using-skills-thief-skill-f1b62afe]] - source section: Chapter 6: / 6.1 Precautions When Using Skills / Thief Skill shares source evidence from Chapter 6: / 6.1 Precautions When Using Skills / Thief Skill: armor) must only be up to half your strength (rounded up). In particular, armor must adhere to this restriction and must also be ring mail or non-metal. Regarding ab ... [truncated]; Chapter 6: / 6.1 Precautions When Using Skills / Thief Skill shares technical record from Chapter 6: / 6.1 Precautions When Using Skills / Thief Skill / [ ① Tumble [Agility] ] (Equipment restriction): Even if a thief falls from a high place, they can reduce the damage by being skillful at taking a defensive tumble. (69 shared statement(s), 19 shared atom(s))
+- [[sword-world-rpg-complete-edition-section-chapter-3-3-4-4-actions-you-can-take-while-standing-still-weapon-combat-skills-thief-skill-ee7d77ad]] - source section: Chapter 3: / 3.4.4 Actions You Can Take While Standing Still / Weapon Combat Skills / 【 Thief Skill 】 shares source evidence from Chapter 3: / 3.4.4 Actions You Can Take While Standing Still / Weapon Combat Skills / 【 Thief Skill 】: A thief also has the ability to fight, but only with light equipment. Specifically, you can only fight if the weapon or armor you're using requires up to half (round ... [truncated]; Chapter 3: / 3.4.4 Actions You Can Take While Standing Still / Weapon Combat Skills / 【 Thief Skill 】 shares technical record from Chapter 3: / 3.4.4 Actions You Can Take While Standing Still / Weapon Combat Skills / 【 Thief Skill 】: Specifically, you can only fight if the weapon or armor you're using requires up to half (rounded up) of your character's strength. (2 shared statement(s), 1 shared atom(s))
+
+### Shared technical atoms
+
 - [[sword-world-rpg-complete-edition-target-score]] - shared statements and technical atoms: Target Scores shares source evidence from Chapter 3: / 3.4.4 Actions You Can Take While Standing Still / Attacks From Characters Against Monsters / 4.5.1 Hit Checks: In other words, you roll 2D and add the result to your attack power (fighter/thief/ranger skill level + dexterity bonus) in order to meet or exceed a certain target score.; Target Scores shares technical record from Chapter 3: / 3.4.4 Actions You Can Take While Standing Still / Scores Used in Weapon Combat / 【 Critical Target 】: critical target = 10 (9 if using thief skill) (7 shared statement(s), 1 shared atom(s))
 - [[sword-world-rpg-complete-edition-adventurer-level]] - shared statements and technical atoms: 1.3.3 Adventurer Level shares source evidence from Chapter 6: / 6.1 Precautions When Using Skills / Thief Skill / [ ⑥ Stealthy Step [Agility] ] (Equipment restriction): At this time, the thief makes a success roll using thief skill + dexterity bonus as the baseline score, and the person trying to hear the sound makes one using adven ... [truncated]; 1.3.3 Adventurer Level shares technical record from Table 6-1: Climb by Skill: Table 6-1: Climb by Skill using adventurer level + agility bonus as With Rope             Without Rope the baseline score, make a success roll against target score 1 ... [truncated] (6 shared statement(s), 1 shared atom(s))
 - [[sword-world-rpg-complete-edition-listen-intelligence-equipment-restriction]] - shared statements and technical atoms: [ ⑤ Listen [Intelligence] ] (Equipment restriction) shares source evidence from Chapter 6: / 6.1 Precautions When Using Skills / Thief Skill / [ ⑤ Listen [Intelligence] ] (Equipment restriction): This ability is used to hear certain sounds from behind walls, doors, or from a distance. You can also choose and listen to a specific sound from a mixture of variou ... [truncated]; [ ⑤ Listen [Intelligence] ] (Equipment restriction) shares technical record from Chapter 6: / 6.1 Precautions When Using Skills / Thief Skill / [ ⑤ Listen [Intelligence] ] (Equipment restriction): You can also choose and listen to a specific sound from a mixture of various sounds. (5 shared statement(s), 1 shared atom(s))
 - [[sword-world-rpg-complete-edition-remove]] - shared statements and technical atoms: Remove shares source evidence from Chapter 6: / 6.1 Precautions When Using Skills / Thief Skill / [ ⑮ Treasure Appraisal [Intelligence] ] (No equipment restriction, not retriable) / [ ⑰ Remove/Set Trap [Dexterity] ] (Equipment restriction, not retriable): You can attempt to remove traps discovered through fi nd . Removal also involves attempting a success roll against the trap's difficulty.; Remove shares technical record from Chapter 6: / 6.1 Precautions When Using Skills / Thief Skill / [ ⑮ Treasure Appraisal [Intelligence] ] (No equipment restriction, not retriable) / [ ⑰ Remove/Set Trap [Dexterity] ] (Equipment restriction, not retriable): If you fail, the trap will be activated if the dice roll was 6 or more beneath the target score. (3 shared statement(s), 2 shared atom(s))
 - [[sword-world-rpg-complete-edition-critical-target-variation]] - shared statements and technical atoms: Critical Target Variation shares source evidence from Chapter 6: / 6.1 Precautions When Using Skills / Thief Skill / [ ⑪ Special Combat [Dexterity, Agility, Strength]] (Equipment restriction): Even thieves have combat abilities and can fight using their thief skill level. However, the way a thief fights is quite different from that of a fighter. For more i ... [truncated]; Critical Target Variation shares technical record from Chapter 3: / 3.4.4 Actions You Can Take While Standing Still / Scores Used in Weapon Combat / 【 Critical Target 】: critical target = 10 (9 if using thief skill) (4 shared statement(s), 1 shared atom(s))
 - [[sword-world-rpg-complete-edition-search-intelligence-equipment-restriction-not-retriable]] - shared statements and technical atoms: [ ⑨ Search [Intelligence] ] (No equipment restriction, not retriable) shares source evidence from Chapter 6: / 6.1 Precautions When Using Skills / Thief Skill / [ ⑨ Search [Intelligence] ] (No equipment restriction, not retriable): This is the ability to search for hidden things. This ability is used to find things such as treasure chests with double bottoms, hidden doors in hallways, etc. The ... [truncated]; [ ⑨ Search [Intelligence] ] (No equipment restriction, not retriable) shares technical record from Chapter 6: / 6.1 Precautions When Using Skills / Thief Skill / [ ⑨ Search [Intelligence] ] (No equipment restriction, not retriable): The game master should determine the difficulty depending on what is hidden. (2 shared statement(s), 1 shared atom(s))
+
+### Shared claims
+
 - [[sword-world-rpg-complete-edition-ranger-skill]] - shared statements: 【 Ranger Skill 】 shares source evidence from Chapter 3: / 3.4.4 Actions You Can Take While Standing Still / Scores Used in Weapon Combat / 【 Attack Power 】: If fighter (or thief, ranger) skill level is 0 , then attack power is 0 regardless of the character's dexterity bonus. (13 shared statement(s))
 - [[sword-world-rpg-complete-edition-jump]] - shared statements: Jump shares source evidence from Chapter 6: / 6.1 Precautions When Using Skills / Thief Skill / [ ⑫ Long Jump/High Jump [Agility] ] (Equipment restriction): You can jump over obstacles using (pole) high jump or (pole) long jump . For more information, please refer to the rules for ⑤ Long Jump/High Jump (see p. 122) under ... [truncated] (5 shared statement(s))
 - [[sword-world-rpg-complete-edition-bonus-damage]] - shared statements: 【 Bonus Damage 】 shares source evidence from Chapter 3: / 3.4.4 Actions You Can Take While Standing Still / Scores Used in Weapon Combat / 【 Bonus Damage 】: If fighter (or thief, ranger) skill level is 0 , bonus damage is 0 regardless of the character's strength bonus. (4 shared statement(s))
@@ -446,8 +438,6 @@ Table 6-1: Climb by Skill
 - [[sword-world-rpg-complete-edition-attack-monster-character]] - shared statements: Attacks From Monsters Against Characters shares source evidence from Chapter 3: / 3.4.4 Actions You Can Take While Standing Still / Scores Used in Weapon Combat / 【 Attack Power 】: If fighter (or thief, ranger) skill level is 0 , then attack power is 0 regardless of the character's dexterity bonus. (1 shared statement(s))
 - [[sword-world-rpg-complete-edition-hit-check]] - shared statements: 4.5.1 Hit Checks shares source evidence from Chapter 3: / 3.4.4 Actions You Can Take While Standing Still / Attacks From Characters Against Monsters / 4.5.1 Hit Checks: In other words, you roll 2D and add the result to your attack power (fighter/thief/ranger skill level + dexterity bonus) in order to meet or exceed a certain target score. (1 shared statement(s))
 - [[sword-world-rpg-complete-edition-sage-skill]] - shared statements: Sage Skill shares source evidence from Chapter 7: / 7.2 Merchant Skill / How to Create General Skills: This is almost the same ability as the thief and sage skills' treasure appraisal . However, you can only make a check for items that the merchant deals with. Therefo ... [truncated] (1 shared statement(s))
-- [[sword-world-rpg-complete-edition-section-chapter-3-3-4-4-actions-you-can-take-while-standing-still-weapon-combat-skills-thief-skill-ee7d77ad]] - source section: Chapter 3: / 3.4.4 Actions You Can Take While Standing Still / Weapon Combat Skills / 【 Thief Skill 】 shares source evidence from Chapter 3: / 3.4.4 Actions You Can Take While Standing Still / Weapon Combat Skills / 【 Thief Skill 】: A thief also has the ability to fight, but only with light equipment. Specifically, you can only fight if the weapon or armor you're using requires up to half (round ... [truncated]; Chapter 3: / 3.4.4 Actions You Can Take While Standing Still / Weapon Combat Skills / 【 Thief Skill 】 shares technical record from Chapter 3: / 3.4.4 Actions You Can Take While Standing Still / Weapon Combat Skills / 【 Thief Skill 】: Specifically, you can only fight if the weapon or armor you're using requires up to half (rounded up) of your character's strength. (2 shared statement(s), 1 shared atom(s))
-- [[sword-world-rpg-complete-edition-section-chapter-6-6-1-precautions-when-using-skills-thief-skill-f1b62afe]] - source section: Chapter 6: / 6.1 Precautions When Using Skills / Thief Skill shares source evidence from Chapter 6: / 6.1 Precautions When Using Skills / Thief Skill: armor) must only be up to half your strength (rounded up). In particular, armor must adhere to this restriction and must also be ring mail or non-metal. Regarding ab ... [truncated]; Chapter 6: / 6.1 Precautions When Using Skills / Thief Skill shares technical record from Chapter 6: / 6.1 Precautions When Using Skills / Thief Skill / [ ① Tumble [Agility] ] (Equipment restriction): Even if a thief falls from a high place, they can reduce the damage by being skillful at taking a defensive tumble. (69 shared statement(s), 19 shared atom(s))
 
 ## Source
 

@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-1-4-character-creation-1-4-7-restrictions-on-weapons-and-armor-based-on-skill-sage-bard-priest-2df89f33@73b2ef799ffc018b607aaa46ea64d84f
+projection_coverage: section-sword-world-rpg-complete-edition-section-1-4-character-creation-1-4-7-restrictions-on-weapons-and-armor-based-on-skill-sage-bard-priest-2df89f33@1f7c19a2cbee7553c457e9971aaabd84
 ---
 
 # 1.4 Character Creation / 1.4.7 Restrictions on Weapons and Armor Based on Skill / [ Sage, Bard, Priest ]
@@ -17,8 +17,13 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-1-4-character-creation-1-4-7-restrictions-on-weapons-and-armor-based-on-skill-2ee2bab4]] - broader source section: 1.4 Character Creation / 1.4.7 Restrictions on Weapons and Armor Based on Skill
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-1-4-character-creation-1-4-7-restrictions-on-weapons-and-armor-based-on-skill-shaman-d9a9cb32]] - previous source section: 1.4 Character Creation / 1.4.7 Restrictions on Weapons and Armor Based on Skill / [ Shaman ]
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-1-4-character-creation-1-4-7-restrictions-on-weapons-and-armor-based-on-skill-2ee2bab4]] - broader source section: 1.4 Character Creation / 1.4.7 Restrictions on Weapons and Armor Based on Skill
 
 ## Statements
 

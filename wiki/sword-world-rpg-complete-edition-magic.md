@@ -7,7 +7,7 @@ sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: concepts
-projection_coverage: topic-sword-world-rpg-complete-edition-magic@a6fe5dc13dad6cd07ea8d9ea46565e01
+projection_coverage: topic-sword-world-rpg-complete-edition-magic@9f264c9f427935524851b3e24f3cc286
 ---
 
 # Magic
@@ -59,15 +59,24 @@ What [[sword-world-rpg-complete-edition]] covers about magic:
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-01167))_
 
+<a id="atom-technical-atom-86791c94ae83cbd9"></a>
 > If you want to attack with a projectile, please follow the process of actions you can take during normal movement .
 
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-projectile]] - shared statements and technical atoms: Projectile shares source evidence from Chapter 3: / 3.4.4 Actions You Can Take While Standing Still / Use Magic and Projectiles: Above all, the advantage of standing still is the ability to use magic and attack with projectiles. Conversely, if you are not standing still , you cannot use magic or projectiles.; Projectile shares technical record from Chapter 3: / 3.4.4 Actions You Can Take While Standing Still / Use Magic and Projectiles: If you want to attack with a projectile, please follow the process of actions you can take during normal movement . (2 shared statement(s), 1 shared atom(s))
-- [[sword-world-rpg-complete-edition-beast-maker-dose]] - shared statements: Beast Maker Dose shares source evidence from [Deathlike Sleep (Dose)] / [ Bad Joke (Inhaled) ] / [Beast Maker (Dose/Magic)]: This is a liquid with a slight odor, used by mixing into cooking, etc. It has an effect similar to the ancient magic Shape Change , and those who drink it and fail t ... [truncated] (2 shared statement(s))
+### Source structure
+
 - [[sword-world-rpg-complete-edition-section-5-1-12-ancient-magic-list-sense-magic-08b5df38]] - source section: 5.1.12 Ancient Magic List / [ Sense Magic ] shares source evidence from 5.1.12 Ancient Magic List / [ Sense Magic ]: By casting this spell, a normally invisible magical aura becomes visible to the caster. This lets you know if there are magical items, magical traps, etc. within you ... [truncated]; 5.1.12 Ancient Magic List / [ Sense Magic ] shares technical record from 5.1.12 Ancient Magic List / [ Sense Magic ]: Base Mental Power Cost=3 (4 shared statement(s), 8 shared atom(s))
 - [[sword-world-rpg-complete-edition-section-13-2-6-mythical-beasts-and-magical-beasts-horse-13-6-handling-monster-special-abilities-magic-1fb70cf7]] - source section: 13.2.6 Mythical Beasts and Magical Beasts / [ Horse ] / 13.6 Handling Monster Special Abilities / 《 Magic 》 shares source evidence from 13.2.6 Mythical Beasts and Magical Beasts / [ Horse ] / 13.6 Handling Monster Special Abilities / 《 Magic 》: Monsters with this ability can use magic at the indicated level and magic intensity (magic power). Those with this ability often have an intellect equal to or greate ... [truncated] (2 shared statement(s))
+
+### Shared technical atoms
+
+- [[sword-world-rpg-complete-edition-projectile]] - shared statements and technical atoms: Projectile shares source evidence from Chapter 3: / 3.4.4 Actions You Can Take While Standing Still / Use Magic and Projectiles: Above all, the advantage of standing still is the ability to use magic and attack with projectiles. Conversely, if you are not standing still , you cannot use magic or projectiles.; Projectile shares technical record from Chapter 3: / 3.4.4 Actions You Can Take While Standing Still / Use Magic and Projectiles: If you want to attack with a projectile, please follow the process of actions you can take during normal movement . (2 shared statement(s), 1 shared atom(s))
+
+### Shared claims
+
+- [[sword-world-rpg-complete-edition-beast-maker-dose]] - shared statements: Beast Maker Dose shares source evidence from [Deathlike Sleep (Dose)] / [ Bad Joke (Inhaled) ] / [Beast Maker (Dose/Magic)]: This is a liquid with a slight odor, used by mixing into cooking, etc. It has an effect similar to the ancient magic Shape Change , and those who drink it and fail t ... [truncated] (2 shared statement(s))
 
 ## Source
 

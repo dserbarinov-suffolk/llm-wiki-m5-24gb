@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-16-16-6-2-two-handed-attacks-throwing-multiple-darts-or-daggers-7a38c023@4b42ed06e8290485086979f176657bb4
+projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-16-16-6-2-two-handed-attacks-throwing-multiple-darts-or-daggers-7a38c023@c7cc2c399b9e3df520f47a01acfa2d18
 ---
 
 # Chapter 16: / 16.6.2 Two-Handed Attacks / Throwing Multiple Darts or Daggers
@@ -17,8 +17,13 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-chapter-16-16-6-2-two-handed-attacks-c3cb462a]] - broader source section: Chapter 16: / 16.6.2 Two-Handed Attacks
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-chapter-16-16-6-2-two-handed-attacks-weapons-and-armor-that-are-too-heavy-29ae537a]] - next source section: Chapter 16: / 16.6.2 Two-Handed Attacks / Weapons and Armor That Are Too Heavy
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-chapter-16-16-6-2-two-handed-attacks-c3cb462a]] - broader source section: Chapter 16: / 16.6.2 Two-Handed Attacks
 
 ## Statements
 
@@ -39,6 +44,7 @@ From [[sword-world-rpg-complete-edition]].
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-10408))_
 
+<a id="atom-technical-atom-1c4f06a715fb962b"></a>
 ```text
 Throwing Multiple Darts or Daggers
 16.7 Throwing Multiple Darts or Daggers

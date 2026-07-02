@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-1-2-races-skills-dragon-priest-f14f32d2@a2c76dbe84c7b977ede160e7417ac580
+projection_coverage: section-sword-world-rpg-complete-edition-section-1-2-races-skills-dragon-priest-f14f32d2@dda964a11f819dd294e3e6a854f58ac7
 ---
 
 # 1.2 Races / Skills / 【 Dragon Priest 】
@@ -17,8 +17,13 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-1-2-races-skills-d796863a]] - broader source section: 1.2 Races / Skills
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-1-2-races-skills-dark-priest-19e1b4f8]] - previous source section: 1.2 Races / Skills / 【 Dark Priest 】
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-1-2-races-skills-d796863a]] - broader source section: 1.2 Races / Skills
 
 ## Statements
 

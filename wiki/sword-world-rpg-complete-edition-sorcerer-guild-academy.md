@@ -7,7 +7,7 @@ sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: concepts
-projection_coverage: topic-sword-world-rpg-complete-edition-sorcerer-guild-academy@7c8965cb8fa1a44033f1db121f98e2d6
+projection_coverage: topic-sword-world-rpg-complete-edition-sorcerer-guild-academy@42c605c4fbbd7b8f408ebe100fdae65d
 ---
 
 # Sorcerer Guild Academy
@@ -24,6 +24,8 @@ What [[sword-world-rpg-complete-edition]] covers about sorcerer guild academy:
 
 
 ## Related pages
+
+### Shared claims
 
 - [[sword-world-rpg-complete-edition-organization]] - shared statements: Organization shares source evidence from 18.3 Rules for Destroying Structures / Organizations and Groups / Thieves Guild/Sorcerers' Guild (Academy): Though not official guilds, the Thieves Guild and Sorcerers' Guild (Academy) are essential organizations. Both are global organizations that regularly exchange infor ... [truncated] (1 shared statement(s))
 - [[sword-world-rpg-complete-edition-thieve-guild]] - shared statements: Thieve Guild shares source evidence from 18.3 Rules for Destroying Structures / Organizations and Groups / Thieves Guild/Sorcerers' Guild (Academy): Though not official guilds, the Thieves Guild and Sorcerers' Guild (Academy) are essential organizations. Both are global organizations that regularly exchange infor ... [truncated] (1 shared statement(s))

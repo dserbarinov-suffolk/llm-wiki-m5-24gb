@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-6th-level-basic-holy-magic-list-47f7e2bf@34c1620c53c3378fa4bfe4a61b760fa3
+projection_coverage: section-sword-world-rpg-complete-edition-section-6th-level-basic-holy-magic-list-47f7e2bf@ed46ee80234002f7d22644a36c07d4da
 ---
 
 # 6th Level Basic Holy Magic List
@@ -17,9 +17,14 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-6th-level-basic-holy-magic-list-preservation-330c97bb]] - narrower source section: 6th Level Basic Holy Magic List / [ Preservation ]
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-5th-level-basic-holy-magic-list-quest-ef5d1df7]] - previous source section: 5th Level Basic Holy Magic List [ Quest ]
 - [[sword-world-rpg-complete-edition-section-7th-level-basic-holy-magic-list-03629bc8]] - next source section: 7th Level Basic Holy Magic List
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-6th-level-basic-holy-magic-list-preservation-330c97bb]] - narrower source section: 6th Level Basic Holy Magic List / [ Preservation ]
 
 ## Statements
 

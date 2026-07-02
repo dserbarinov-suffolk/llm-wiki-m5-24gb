@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-8-2-how-to-use-experience-points-increasing-skill-levels-8e61e7ca@bc84bc67696fa02528239c7d3d190e37
+projection_coverage: section-sword-world-rpg-complete-edition-section-8-2-how-to-use-experience-points-increasing-skill-levels-8e61e7ca@7493d8a491277d2cbfced0400b885ac1
 ---
 
 # 8.2 How to Use Experience Points: Increasing Skill Levels
@@ -17,9 +17,14 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-8-2-how-to-use-experience-points-increasing-skill-levels-sage-skill-e3acce07]] - narrower source section: 8.2 How to Use Experience Points: Increasing Skill Levels / Sage Skill
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-8-1-experience-points-e5a03227]] - previous source section: 8.1 Experience Points
 - [[sword-world-rpg-complete-edition-section-8-3-how-to-use-experience-points-increasing-ability-scores-74c000b1]] - next source section: 8.3 How to Use Experience Points: Increasing Ability Scores
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-8-2-how-to-use-experience-points-increasing-skill-levels-sage-skill-e3acce07]] - narrower source section: 8.2 How to Use Experience Points: Increasing Skill Levels / Sage Skill
 
 ## Statements
 
@@ -59,6 +64,7 @@ From [[sword-world-rpg-complete-edition]].
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-04456))_
 
+<a id="atom-technical-atom-046a90e2ff97658d"></a>
 > If he gains 5000 experience points again on his next adventure, he can now use his 5500 experience points to advance.
 
 ### Technical frame 2: Table 8-1: Experience Points by Skill
@@ -69,6 +75,7 @@ From [[sword-world-rpg-complete-edition]].
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-04458))_
 
+<a id="atom-technical-atom-3734ef59de1b63e8"></a>
 ```text
 Table 8-1: Experience Points by Skill
  experience points are 2000 points. He
@@ -98,6 +105,7 @@ Table 8-1: Experience Points by Skill
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-04539))_
 
+<a id="atom-technical-atom-0d11cca473789202"></a>
 ```text
 Table 8-1: Experience Points by Skill.        There is no reduction in experience
                                     points when increasing the sage skill to    Example 3:

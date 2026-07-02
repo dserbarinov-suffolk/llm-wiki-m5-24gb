@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-5-1-14-spirit-magic-list-6th-level-spirit-magic-list-spirit-wall-187b67f7@ee8113787a32637006b5060c8a159088
+projection_coverage: section-sword-world-rpg-complete-edition-section-5-1-14-spirit-magic-list-6th-level-spirit-magic-list-spirit-wall-187b67f7@3cbfc226d9b2c22628757291e224da96
 ---
 
 # 5.1.14 Spirit Magic List / 6th Level Spirit Magic List / [ Spirit Wall ]
@@ -17,8 +17,13 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-5-1-14-spirit-magic-list-6th-level-spirit-magic-list-48210847]] - broader source section: 5.1.14 Spirit Magic List / 6th Level Spirit Magic List
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-5-1-14-spirit-magic-list-6th-level-spirit-magic-list-decrease-water-pressure-undine-water-spirit-37377b8c]] - next source section: 5.1.14 Spirit Magic List / 6th Level Spirit Magic List / [ Decrease Water Pressure ] (Undine/Water Spirit)
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-5-1-14-spirit-magic-list-6th-level-spirit-magic-list-48210847]] - broader source section: 5.1.14 Spirit Magic List / 6th Level Spirit Magic List
 
 ## Statements
 
@@ -62,6 +67,7 @@ From [[sword-world-rpg-complete-edition]].
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-03151))_
 
+<a id="atom-technical-atom-722162c77aab1d85"></a>
 > There are also walls that you cannot pass through, walls that deal damage even if you force your way through, etc.
 
 ### Technical frame 2: 5.1.14 Spirit Magic List / 6th Level Spirit Magic List / [ Spirit Wall ]
@@ -72,6 +78,7 @@ From [[sword-world-rpg-complete-edition]].
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-03155))_
 
+<a id="atom-technical-atom-144c2b308933d03d"></a>
 > Type=Target score, damage (Pure energytype)
 
 ### Technical frame 3: 5.1.14 Spirit Magic List / 6th Level Spirit Magic List / [ Spirit Wall ]
@@ -82,6 +89,7 @@ From [[sword-world-rpg-complete-edition]].
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-03158))_
 
+<a id="atom-technical-atom-24ad3c1dec000436"></a>
 > Expansion=Final score, duration, distance, target volume, damage certainty Resist=Reduced effect
 
 ### Technical frame 4: 5.1.14 Spirit Magic List / 6th Level Spirit Magic List / [ Spirit Wall ]
@@ -92,6 +100,7 @@ From [[sword-world-rpg-complete-edition]].
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-03160))_
 
+<a id="atom-technical-atom-91e7a0c0d356bf35"></a>
 > The wall of light cannot be destroyed by physical methods or damage magic, but when the dark spirit shade collides with the wall, a round hole about 50 cm in diameter will be created.
 
 ### Technical frame 5: 5.1.14 Spirit Magic List / 6th Level Spirit Magic List / [ Spirit Wall ]
@@ -102,6 +111,7 @@ From [[sword-world-rpg-complete-edition]].
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-03187))_
 
+<a id="atom-technical-atom-8f831ce86338d64f"></a>
 > The wall of darkness cannot be destroyed by physical methods or damage magic, but when the spirit of light will-o-wisp collides with the wall, a round hole 50 cm in diameter will be created.
 
 ### Technical frame 6: 5.1.14 Spirit Magic List / 6th Level Spirit Magic List / [ Spirit Wall ]
@@ -112,4 +122,5 @@ From [[sword-world-rpg-complete-edition]].
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-03195))_
 
+<a id="atom-technical-atom-c093fc69b4ebfa4c"></a>
 > Type=Target score Expansion=Final score, duration, distance, target volume Resist=None

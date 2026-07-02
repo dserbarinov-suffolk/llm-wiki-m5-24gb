@@ -4,11 +4,11 @@ page_kind: source
 summary: Recipes with Data / Flip: 17 source-backed entries and 5 atom(s) from raw/javascriptallonge.pdf.
 page_family: section-reference
 sources: raw/javascriptallonge.pdf
-updated: 2026-07-01
+updated: 2026-07-02
 domain: javascriptallonge
 category_path: sources/javascriptallonge/sections
 source_id: javascriptallonge.pdf
-projection_coverage: section-javascriptallonge-section-recipes-with-data-flip-9096a873@9f316f8977accacc37836add42e8dfe5
+projection_coverage: section-javascriptallonge-section-recipes-with-data-flip-9096a873@240fd493aded0b13a021483fc870db73
 ---
 
 # Recipes with Data / Flip
@@ -17,11 +17,16 @@ From [[javascriptallonge]].
 
 ## Related pages
 
-- [[javascriptallonge-section-recipes-with-data-57848af5]] - broader source section: Recipes with Data
-- [[javascriptallonge-section-recipes-with-data-flip-self-currying-flip-419bc9f2]] - narrower source section: Recipes with Data / Flip / self-currying flip
-- [[javascriptallonge-section-recipes-with-data-flip-flipping-methods-f076629f]] - narrower source section: Recipes with Data / Flip / flipping methods
+### Source order
+
 - [[javascriptallonge-section-recipes-with-data-mapwith-2ccc7b36]] - previous source section: Recipes with Data / mapWith
 - [[javascriptallonge-section-recipes-with-data-object-assign-bd2a6434]] - next source section: Recipes with Data / Object.assign
+
+### Source structure
+
+- [[javascriptallonge-section-recipes-with-data-57848af5]] - broader source section: Recipes with Data
+- [[javascriptallonge-section-recipes-with-data-flip-flipping-methods-f076629f]] - narrower source section: Recipes with Data / Flip / flipping methods
+- [[javascriptallonge-section-recipes-with-data-flip-self-currying-flip-419bc9f2]] - narrower source section: Recipes with Data / Flip / self-currying flip
 
 ## Statements
 
@@ -48,6 +53,7 @@ From [[javascriptallonge]].
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01458))_
 
+<a id="atom-technical-atom-e691ed10c98b5052"></a>
 ```text
 84 https://github.com/raganwald/allong.es
 85 http://underscorejs.org
@@ -71,6 +77,7 @@ From [[javascriptallonge]].
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01459))_
 
+<a id="atom-technical-atom-184f0ed3e8436b22"></a>
 ```
 const flipAndCurry = (fn) =>
 (first) => (second) => fn(second, first);
@@ -90,6 +97,7 @@ Much nicer!
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01462))_
 
+<a id="atom-technical-atom-f230dd31b0c350df"></a>
 ```
 const flip = (fn) =>
 function (first, second) {
@@ -112,6 +120,7 @@ return fn(second, first);
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01463))_
 
+<a id="atom-technical-atom-8c8fba9b1e240c32"></a>
 > Nowif we write mapWith = flip(map) , we can call mapWith(fn, list) or mapWith(fn)(list) , our choice.
 
 ### Technical frame 5: Recipes with Data / Flip / flipping methods
@@ -122,6 +131,7 @@ return fn(second, first);
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01466))_
 
+<a id="atom-technical-atom-38fd1956ff6b2819"></a>
 ```
 const flipAndCurry = (fn) =>
 (first) =>

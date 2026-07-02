@@ -4,11 +4,11 @@ page_kind: source
 summary: Copy on Write / Making Data Out Of Functions / backwardness: 7 source-backed entries and 0 atom(s) from raw/javascriptallonge.pdf.
 page_family: section-reference
 sources: raw/javascriptallonge.pdf
-updated: 2026-07-01
+updated: 2026-07-02
 domain: javascriptallonge
 category_path: sources/javascriptallonge/sections
 source_id: javascriptallonge.pdf
-projection_coverage: section-javascriptallonge-section-copy-on-write-making-data-out-of-functions-backwardness-24f99a95@4f729e6fc231fb52663c2c58abd3ff58
+projection_coverage: section-javascriptallonge-section-copy-on-write-making-data-out-of-functions-backwardness-24f99a95@cb0252522541db8fdfed5503c04f8782
 ---
 
 # Copy on Write / Making Data Out Of Functions / backwardness
@@ -17,9 +17,14 @@ From [[javascriptallonge]].
 
 ## Related pages
 
-- [[javascriptallonge-section-copy-on-write-making-data-out-of-functions-12daea71]] - broader source section: Copy on Write / Making Data Out Of Functions
+### Source order
+
 - [[javascriptallonge-section-copy-on-write-making-data-out-of-functions-the-kestrel-and-the-idiot-301fbaf6]] - previous source section: Copy on Write / Making Data Out Of Functions / the kestrel and the idiot
 - [[javascriptallonge-section-copy-on-write-making-data-out-of-functions-the-vireo-b7923ab5]] - next source section: Copy on Write / Making Data Out Of Functions / the vireo
+
+### Source structure
+
+- [[javascriptallonge-section-copy-on-write-making-data-out-of-functions-12daea71]] - broader source section: Copy on Write / Making Data Out Of Functions
 
 ## Statements
 

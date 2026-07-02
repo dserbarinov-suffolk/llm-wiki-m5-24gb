@@ -4,10 +4,10 @@ page_kind: concept
 summary: List: 21 statement(s) and 48 atom(s) from raw/javascriptallonge.pdf.
 page_family: broad-topic
 sources: raw/javascriptallonge.pdf
-updated: 2026-07-01
+updated: 2026-07-02
 domain: javascriptallonge
 category_path: concepts
-projection_coverage: topic-javascriptallonge-list@5961cd62ee19b235d0c058dcad10fca5
+projection_coverage: topic-javascriptallonge-list@b33d8c37def7681c92994a6fabe6cc2b
 ---
 
 # List
@@ -91,6 +91,7 @@ What [[javascriptallonge]] covers about list:
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00246))_
 
+<a id="atom-technical-atom-d51366af88ef2feb"></a>
 ```text
 //=> undefined
 We said that the function returns the result of evaluating a block, and we said that a block is a
@@ -215,6 +216,7 @@ Ah. I’d Like to Have an Argument, Please.22
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00656))_
 
+<a id="atom-technical-atom-12e2e0144ff30f83"></a>
 ```
 const callFirst = (fn, larg) =>
 function (...rest) {
@@ -242,6 +244,7 @@ sayHelloToCeline('Eartha')
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00658))_
 
+<a id="atom-technical-atom-6a1f8c07567d2732"></a>
 ```text
 45 https://github.com/fogus/lemonad 46 http://osteele.com/sources/javascript/functional/ 47 https://github.com/substack/node-ap 48
 ```
@@ -265,6 +268,7 @@ sayHelloToCeline('Eartha')
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00885))_
 
+<a id="atom-technical-atom-5db5a12711f55845"></a>
 ```
 []
 //=> []
@@ -284,6 +288,7 @@ sayHelloToCeline('Eartha')
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00889))_
 
+<a id="atom-technical-atom-96bc7646d4a75acf"></a>
 ```
 const [first, ...rest] = [];
 first
@@ -317,6 +322,7 @@ const isEmpty = ([first, ...rest]) => first === undefined;
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00896))_
 
+<a id="atom-technical-atom-df3fa442932fa4e3"></a>
 ```
 const length = ([first, ...rest]) =>
 first === undefined
@@ -338,6 +344,7 @@ length(["foo", "bar", "baz"])
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00897))_
 
+<a id="atom-technical-atom-bd2a5d4e2e642f3b"></a>
 ```
 //=> 3
 ```
@@ -350,6 +357,7 @@ length(["foo", "bar", "baz"])
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00921))_
 
+<a id="atom-technical-atom-82b9cbdfd6d4abe2"></a>
 ```
 const squareAll = ([first, ...rest]) => first === undefined
 ? []
@@ -367,6 +375,7 @@ squareAll([1, 2, 3, 4, 5])
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00923))_
 
+<a id="atom-technical-atom-0b39d7f78e6c482c"></a>
 ```
 const truthyAll = ([first, ...rest]) => first === undefined
 ? []
@@ -383,6 +392,7 @@ truthyAll([null, true, 25, false, "foo"])
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00931))_
 
+<a id="atom-technical-atom-70a277f42a5f4efa"></a>
 ```
 const sumSquares = ([first, ...rest]) => first === undefined
 ? 0
@@ -399,6 +409,7 @@ sumSquares([1, 2, 3, 4, 5])
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01003))_
 
+<a id="atom-technical-atom-3dc1efbffae77206"></a>
 ```
 const length = ([first, ...rest], numberToBeAdded = 0) =>
 first === undefined
@@ -416,29 +427,16 @@ mapWith((x) => x * x, [1, 2, 3, 4, 5])
 
 ### Technical frame 12: Garbage, Garbage Everywhere / some history
 
-**Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01025))_
+**Context:** _(javascriptallonge.pdf (source-range-0e12e052-01037))_
 
-```text
-some history
-Once upon a time, there was a programming language called Lisp 65 , an acronym for LISt Processing. 66 Lisp was one of the very first high-level languages, the very first implementation was written for the IBM 704 67 computer. (The very first FORTRAN implementation was also written for the 704).
-The 704 had a 36-bit word, meaning that it was very fast to store and retrieve 36-bit values. The CPU's instruction set featured two important macros: CAR would fetch 15 bits representing the Contents of the Address part of the Register, while CDR would fetch the Contents of the Decrement part of the Register.
-65 https://en.wikipedia.org/wiki/Lisp_
-67 https://en.wikipedia.org/wiki/IBM_704
-66 Lisp is still very much alive, and one of the most interesting and exciting programming languages in use today is Clojure, a Lisp dialect that runs on the JVM, along with its sibling ClojureScript, Clojure that transpiles to JavaScript.
+> This is a Linked List 68 , it's just that those early Lispers used the names car and cdr after the hardware instructions, whereas today we use words like data and reference . But it works the same way: If we want the head of a list, we call car on it:
+
+**Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01033))_
+
+<a id="atom-technical-atom-72c7fead27fec7c2"></a>
 ```
-
-<details>
-<summary>Parsed table preview (needs review)</summary>
-
-| entry | content |
-| --- | --- |
-| 66 | Lisp was one of the very first high-level languages, the very first implementation was written for the IBM 704 |
-| 67 | computer. (The very first FORTRAN implementation was also written for the 704). The 704 had a 36-bit word, meaning that it was very fast to store and retrieve 36-bit values. The CPU's instruction set featured two important macros: CAR would fetch 15 bits representing the Contents of the Address part of the Register, while CDR would fetch the Contents of the Decrement part of the Register. |
-| 65 | https://en.wikipedia.org/wiki/Lisp_ |
-| 67 | https://en.wikipedia.org/wiki/IBM_704 |
-| 66 | Lisp is still very much alive, and one of the most interesting and exciting programming languages in use today is Clojure, a Lisp dialect that runs on the JVM, along with its sibling ClojureScript, Clojure that transpiles to JavaScript. |
-
-</details>
+const oneToFive = cons(1, cons(2, cons(3, cons(4, cons(5, null)))));
+```
 
 ### Technical frame 13: Garbage, Garbage Everywhere / some history
 
@@ -446,10 +444,12 @@ The 704 had a 36-bit word, meaning that it was very fast to store and retrieve 3
 
 > This is a Linked List 68 , it's just that those early Lispers used the names car and cdr after the hardware instructions, whereas today we use words like data and reference . But it works the same way: If we want the head of a list, we call car on it:
 
-**Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01033))_
+**Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01034))_
 
+<a id="atom-technical-atom-cafbca7ec60e55f1"></a>
 ```
-const oneToFive = cons(1, cons(2, cons(3, cons(4, cons(5, null)))));
+oneToFive
+//=> [1,[2,[3,[4,[5,null]]]]]
 ```
 
 ### Technical frame 14: Garbage, Garbage Everywhere / some history
@@ -458,21 +458,9 @@ const oneToFive = cons(1, cons(2, cons(3, cons(4, cons(5, null)))));
 
 > This is a Linked List 68 , it's just that those early Lispers used the names car and cdr after the hardware instructions, whereas today we use words like data and reference . But it works the same way: If we want the head of a list, we call car on it:
 
-**Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01034))_
-
-```
-oneToFive
-//=> [1,[2,[3,[4,[5,null]]]]]
-```
-
-### Technical frame 15: Garbage, Garbage Everywhere / some history
-
-**Context:** _(javascriptallonge.pdf (source-range-0e12e052-01037))_
-
-> This is a Linked List 68 , it's just that those early Lispers used the names car and cdr after the hardware instructions, whereas today we use words like data and reference . But it works the same way: If we want the head of a list, we call car on it:
-
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01036))_
 
+<a id="atom-technical-atom-3db2213a6548bbeb"></a>
 ```
 const node5 = [5,null],
 node4 = [4, node5],
@@ -482,7 +470,7 @@ node1 = [1, node2];
 const oneToFive = node1;
 ```
 
-### Technical frame 16: Garbage, Garbage Everywhere / some history
+### Technical frame 15: Garbage, Garbage Everywhere / some history
 
 **Context:** _(javascriptallonge.pdf (source-range-0e12e052-01039))_
 
@@ -490,12 +478,13 @@ const oneToFive = node1;
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01038))_
 
+<a id="atom-technical-atom-1c270cf9d479184b"></a>
 ```
 car(oneToFive)
 //=> 1
 ```
 
-### Technical frame 17: Garbage, Garbage Everywhere / some history
+### Technical frame 16: Garbage, Garbage Everywhere / some history
 
 **Context:** _(javascriptallonge.pdf (source-range-0e12e052-01042))_
 
@@ -503,12 +492,13 @@ car(oneToFive)
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01041))_
 
+<a id="atom-technical-atom-cc6241a012867740"></a>
 ```
 cdr(oneToFive)
 //=> [2,[3,[4,[5,null]]]]
 ```
 
-### Technical frame 18: Garbage, Garbage Everywhere / so why arrays
+### Technical frame 17: Garbage, Garbage Everywhere / so why arrays
 
 **Context:** _(javascriptallonge.pdf (source-range-0e12e052-01051))_
 
@@ -516,9 +506,10 @@ cdr(oneToFive)
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01050))_
 
+<a id="atom-technical-atom-71a2f1f07a35e3c3"></a>
 > And if you want an arbitrary item from a list, you have to iterate through the list element by element, whereas with the indexed array you just fetch it.
 
-### Technical frame 19: Garbage, Garbage Everywhere / so why arrays
+### Technical frame 18: Garbage, Garbage Everywhere / so why arrays
 
 **Context:** _(javascriptallonge.pdf (source-range-0e12e052-01052))_
 
@@ -526,9 +517,10 @@ cdr(oneToFive)
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01051))_
 
+<a id="atom-technical-atom-0fd9e385f39620fc"></a>
 > We have avoided discussing rebinding and mutating values, but if we want to change elements of our lists, the naïve linked list implementation suffers as well: When we take the cdr of a linked list, we are sharing the elements.
 
-### Technical frame 20: Plain Old JavaScript Objects
+### Technical frame 19: Plain Old JavaScript Objects
 
 **Context:** _(javascriptallonge.pdf (source-range-0e12e052-01060))_
 
@@ -536,12 +528,13 @@ cdr(oneToFive)
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01058))_
 
+<a id="atom-technical-atom-0933cca74b5c049d"></a>
 ```
 const remember = ["the milk", "the coffee beans", "the biscotti"];
 And they can be used to store heterogeneous things in various levels of structure:
 ```
 
-### Technical frame 21: Plain Old JavaScript Objects
+### Technical frame 20: Plain Old JavaScript Objects
 
 **Context:** _(javascriptallonge.pdf (source-range-0e12e052-01060))_
 
@@ -549,12 +542,13 @@ And they can be used to store heterogeneous things in various levels of structur
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01059))_
 
+<a id="atom-technical-atom-c9fe32e8979d0953"></a>
 ```
 const user = [["Reginald", "Braithwaite"],[ "author", ["JavaScript Allongé", "Ja\
 vaScript Spessore", "CoffeeScript Ristretto"]]];
 ```
 
-### Technical frame 22: Plain Old JavaScript Objects
+### Technical frame 21: Plain Old JavaScript Objects
 
 **Context:** _(javascriptallonge.pdf (source-range-0e12e052-01062))_
 
@@ -562,6 +556,7 @@ vaScript Spessore", "CoffeeScript Ristretto"]]];
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01061))_
 
+<a id="atom-technical-atom-3db8d61e2f6cf0fc"></a>
 ```
 const NAME = 0,
 FIRST = 0,
@@ -573,7 +568,7 @@ const user = [["Reginald", "Braithwaite"],[ "author", ["JavaScript Allongé", "J
 vaScript Spessore", "CoffeeScript Ristretto"]]];
 ```
 
-### Technical frame 23: Plain Old JavaScript Objects / revisiting linked lists
+### Technical frame 22: Plain Old JavaScript Objects / revisiting linked lists
 
 **Context:** _(javascriptallonge.pdf (source-range-0e12e052-01101))_
 
@@ -581,6 +576,7 @@ vaScript Spessore", "CoffeeScript Ristretto"]]];
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01100))_
 
+<a id="atom-technical-atom-13a9af0726fd3970"></a>
 ```
 const cons = (a, d) => [a, d],
 car
@@ -589,7 +585,7 @@ cdr
 = ([a, d]) => d;
 ```
 
-### Technical frame 24: Plain Old JavaScript Objects / revisiting linked lists
+### Technical frame 23: Plain Old JavaScript Objects / revisiting linked lists
 
 **Context:** _(javascriptallonge.pdf (source-range-0e12e052-01104))_
 
@@ -597,13 +593,14 @@ cdr
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01102))_
 
+<a id="atom-technical-atom-bace31307fdcecd9"></a>
 ```
 In that case, a linked list of the numbers 1, 2, and 3 will look like this: { first: 1, rest: { first:
 2, rest: { first: 3, rest: EMPTY } } }.
 We can then perform the equivalent of [first, ...rest] with direct property accessors:
 ```
 
-### Technical frame 25: Plain Old JavaScript Objects / revisiting linked lists
+### Technical frame 24: Plain Old JavaScript Objects / revisiting linked lists
 
 **Context:** _(javascriptallonge.pdf (source-range-0e12e052-01104))_
 
@@ -611,6 +608,7 @@ We can then perform the equivalent of [first, ...rest] with direct property acce
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01103))_
 
+<a id="atom-technical-atom-55614a7e6312a79f"></a>
 ```
 const EMPTY = {};
 const OneTwoThree = { first: 1, rest: { first: 2, rest: { first: 3, rest: EMPTY \
@@ -630,7 +628,7 @@ length(OneTwoThree)
 //=> 3
 ```
 
-### Technical frame 26: Plain Old JavaScript Objects / revisiting linked lists
+### Technical frame 25: Plain Old JavaScript Objects / revisiting linked lists
 
 **Context:** _(javascriptallonge.pdf (source-range-0e12e052-01106))_
 
@@ -638,6 +636,7 @@ length(OneTwoThree)
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01105))_
 
+<a id="atom-technical-atom-15d969a4e1cd03dd"></a>
 ```
 const slowcopy = (node) =>
 node === EMPTY
@@ -647,7 +646,7 @@ slowcopy(OneTwoThree)
 //=> {"first":1,"rest":{"first":2,"rest":{"first":3,"rest":{}}}}
 ```
 
-### Technical frame 27: Plain Old JavaScript Objects / revisiting linked lists
+### Technical frame 26: Plain Old JavaScript Objects / revisiting linked lists
 
 **Context:** _(javascriptallonge.pdf (source-range-0e12e052-01111))_
 
@@ -655,6 +654,7 @@ slowcopy(OneTwoThree)
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01110))_
 
+<a id="atom-technical-atom-378688b13fd63662"></a>
 ```
 const reverse = (node, delayed = EMPTY) =>
 node === EMPTY
@@ -680,7 +680,7 @@ mapWith((x) => x * x, OneTwoThree)
 //=> {"first":1,"rest":{"first":4,"rest":{"first":9,"rest":{}}}}
 ```
 
-### Technical frame 28: Mutation / building with mutation
+### Technical frame 27: Mutation / building with mutation
 
 **Context:** _(javascriptallonge.pdf (source-range-0e12e052-01150))_
 
@@ -688,6 +688,7 @@ mapWith((x) => x * x, OneTwoThree)
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01149))_
 
+<a id="atom-technical-atom-735da8efb72e03d5"></a>
 ```
 const reverse = (node, delayed = EMPTY) =>
 node === EMPTY
@@ -696,7 +697,7 @@ node === EMPTY
 const copy = (node) => reverse(reverse(node));
 ```
 
-### Technical frame 29: Mutation / building with mutation
+### Technical frame 28: Mutation / building with mutation
 
 **Context:** _(javascriptallonge.pdf (source-range-0e12e052-01152))_
 
@@ -704,6 +705,7 @@ const copy = (node) => reverse(reverse(node));
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01151))_
 
+<a id="atom-technical-atom-d0bea95be98353c3"></a>
 ```
 const copy = (node, head = null, tail = null) => {
 if (node === EMPTY) {
@@ -723,7 +725,7 @@ return copy(node.rest, head, newNode);
 }
 ```
 
-### Technical frame 30: Copy on Write
+### Technical frame 29: Copy on Write
 
 **Context:** _(javascriptallonge.pdf (source-range-0e12e052-01227))_
 
@@ -731,9 +733,10 @@ return copy(node.rest, head, newNode);
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01223))_
 
+<a id="atom-technical-atom-93d06280c439087e"></a>
 > The consequence of this is that if you have an array, and you take it's 'rest,' your 'child' array is a copy of the elements of the parent array.
 
-### Technical frame 31: Copy on Write
+### Technical frame 30: Copy on Write
 
 **Context:** _(javascriptallonge.pdf (source-range-0e12e052-01227))_
 
@@ -741,9 +744,10 @@ return copy(node.rest, head, newNode);
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01224))_
 
+<a id="atom-technical-atom-6eb3e5646b36ffaf"></a>
 > Whereas if you have a linked list, and you take it's 'rest,' your 'child' list shares its nodes with the 'parent' list.
 
-### Technical frame 32: Copy on Write / a few utilities
+### Technical frame 31: Copy on Write / a few utilities
 
 **Context:** _(javascriptallonge.pdf (source-range-0e12e052-01232))_
 
@@ -751,6 +755,7 @@ return copy(node.rest, head, newNode);
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01230))_
 
+<a id="atom-technical-atom-7a89503a1c2513d4"></a>
 ```
 const copy = (node, head = null, tail = null) => {
 if (node === EMPTY) {
@@ -790,7 +795,7 @@ const parentList = { first: 1, rest: { first: 2, rest: { first: 3, rest: EMPTY }
 }};
 ```
 
-### Technical frame 33: Copy on Write / a few utilities
+### Technical frame 32: Copy on Write / a few utilities
 
 **Context:** _(javascriptallonge.pdf (source-range-0e12e052-01232))_
 
@@ -798,6 +803,7 @@ const parentList = { first: 1, rest: { first: 2, rest: { first: 3, rest: EMPTY }
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01231))_
 
+<a id="atom-technical-atom-ba90ceb93ebdc5ae"></a>
 ```
 const childList = rest(parentList);
 set(2, "three", parentList);
@@ -809,7 +815,7 @@ childList
 //=> {"first":"two","rest":{"first":"three","rest":{"first":{},"rest":{}}}}
 ```
 
-### Technical frame 34: Copy on Write / a few utilities / copy-on-read
+### Technical frame 33: Copy on Write / a few utilities / copy-on-read
 
 **Context:** _(javascriptallonge.pdf (source-range-0e12e052-01236))_
 
@@ -817,6 +823,7 @@ childList
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01235))_
 
+<a id="atom-technical-atom-51bc48aa99117cc3"></a>
 ```
 const rest = ({first, rest}) => copy(rest);
 const parentList = { first: 1, rest: { first: 2, rest: { first: 3, rest: EMPTY }\
@@ -831,7 +838,7 @@ childList
 //=> {"first":"two","rest":{"first":3,"rest":{"first":{},"rest":{}}}}
 ```
 
-### Technical frame 35: Copy on Write / a few utilities / copy-on-write
+### Technical frame 34: Copy on Write / a few utilities / copy-on-write
 
 **Context:** _(javascriptallonge.pdf (source-range-0e12e052-01244))_
 
@@ -839,6 +846,7 @@ childList
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01241))_
 
+<a id="atom-technical-atom-ff1a11e29eb3914a"></a>
 ```
 const rest = ({first, rest}) => rest;
 const set = (index, value, list) =>
@@ -852,7 +860,7 @@ const newParentList = set(2, "three", parentList);
 const newChildList = set(0, "two", childList);
 ```
 
-### Technical frame 36: Copy on Write / a few utilities / copy-on-write
+### Technical frame 35: Copy on Write / a few utilities / copy-on-write
 
 **Context:** _(javascriptallonge.pdf (source-range-0e12e052-01244))_
 
@@ -860,6 +868,7 @@ const newChildList = set(0, "two", childList);
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01243))_
 
+<a id="atom-technical-atom-1e7e254cfd478251"></a>
 ```
 parentList
 //=> {"first":1,"rest":{"first":2,"rest":{"first":3,"rest":{"first":{},"rest":\
@@ -868,7 +877,7 @@ childList
 //=> {"first":2,"rest":{"first":3,"rest":{"first":{},"rest":{}}}}
 ```
 
-### Technical frame 37: Copy on Write / a few utilities / copy-on-write
+### Technical frame 36: Copy on Write / a few utilities / copy-on-write
 
 **Context:** _(javascriptallonge.pdf (source-range-0e12e052-01246))_
 
@@ -876,6 +885,7 @@ childList
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01245))_
 
+<a id="atom-technical-atom-9eb84e521487b3d3"></a>
 ```
 newParentList
 //=> {"first":1,"rest":{"first":2,"rest":{"first":"three","rest":{"first":{},"\
@@ -884,7 +894,7 @@ newChildList
 //=> {"first":"two","rest":{"first":3,"rest":{"first":{},"rest":{}}}}
 ```
 
-### Technical frame 38: Copy on Write / Functional Iterators / iterating
+### Technical frame 37: Copy on Write / Functional Iterators / iterating
 
 **Context:** _(javascriptallonge.pdf (source-range-0e12e052-01290))_
 
@@ -892,6 +902,7 @@ newChildList
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01291))_
 
+<a id="atom-technical-atom-282dba3fa6180714"></a>
 ```
 const EMPTY = null;
 const isEmpty = (node) => node === EMPTY;
@@ -917,7 +928,7 @@ const {first, rest} = aPair;
 aPair = aPair.rest;
 ```
 
-### Technical frame 39: Copy on Write / Functional Iterators / iterating
+### Technical frame 38: Copy on Write / Functional Iterators / iterating
 
 **Context:** _(javascriptallonge.pdf (source-range-0e12e052-01290))_
 
@@ -925,6 +936,7 @@ aPair = aPair.rest;
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01292))_
 
+<a id="atom-technical-atom-ec11f07272147db8"></a>
 ```
 return { done, value: first }
 }
@@ -942,7 +954,7 @@ iteratorSum(aListIterator)
 //=> 55
 ```
 
-### Technical frame 40: Copy on Write / Functional Iterators / unfolding and laziness
+### Technical frame 39: Copy on Write / Functional Iterators / unfolding and laziness
 
 **Context:** _(javascriptallonge.pdf (source-range-0e12e052-01298))_
 
@@ -950,6 +962,7 @@ iteratorSum(aListIterator)
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01295))_
 
+<a id="atom-technical-atom-e9b34a22026fe73e"></a>
 ```
 const NumberIterator = (number = 0) =>
 () => ({ done: false, value: number++ })
@@ -966,7 +979,7 @@ fromOne().value;
 //=> 5
 ```
 
-### Technical frame 41: Copy on Write / Making Data Out Of Functions
+### Technical frame 40: Copy on Write / Making Data Out Of Functions
 
 **Context:** _(javascriptallonge.pdf (source-range-0e12e052-01325))_
 
@@ -974,6 +987,7 @@ fromOne().value;
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01324))_
 
+<a id="atom-technical-atom-07148a923c2b2af4"></a>
 ```
 const EMPTY = {};
 const OneTwoThree = { first: 1, rest: { first: 2, rest: { first: 3, rest: EMPTY \
@@ -992,7 +1006,7 @@ length(OneTwoThree)
 //=> 3
 ```
 
-### Technical frame 42: Copy on Write / Making Data Out Of Functions / lists with functions as data
+### Technical frame 41: Copy on Write / Making Data Out Of Functions / lists with functions as data
 
 **Context:** _(javascriptallonge.pdf (source-range-0e12e052-01380))_
 
@@ -1000,6 +1014,7 @@ length(OneTwoThree)
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01373))_
 
+<a id="atom-technical-atom-be4667f4576edd9e"></a>
 ```
 const first = ({first, rest}) => first,
 rest
@@ -1015,7 +1030,7 @@ first(rest(rest(l123)))
 //=3
 ```
 
-### Technical frame 43: Copy on Write / Making Data Out Of Functions / say 'please'
+### Technical frame 42: Copy on Write / Making Data Out Of Functions / say 'please'
 
 **Context:** _(javascriptallonge.pdf (source-range-0e12e052-01389))_
 
@@ -1023,6 +1038,7 @@ first(rest(rest(l123)))
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01388))_
 
+<a id="atom-technical-atom-0c0414bf19714ec5"></a>
 ```
 const length = (list) => list(
 () => 0,
@@ -1030,7 +1046,7 @@ const length = (list) => list(
 );
 ```
 
-### Technical frame 44: Copy on Write / Making Data Out Of Functions / say 'please'
+### Technical frame 43: Copy on Write / Making Data Out Of Functions / say 'please'
 
 **Context:** _(javascriptallonge.pdf (source-range-0e12e052-01392))_
 
@@ -1038,6 +1054,7 @@ const length = (list) => list(
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01390))_
 
+<a id="atom-technical-atom-b146e2d7690f1eaa"></a>
 ```
 const pairFirst = K,
 pairRest
@@ -1050,7 +1067,7 @@ const first = (list) => list(
 const rest = (list) => list(
 ```
 
-### Technical frame 45: Copy on Write / Making Data Out Of Functions / say 'please'
+### Technical frame 44: Copy on Write / Making Data Out Of Functions / say 'please'
 
 **Context:** _(javascriptallonge.pdf (source-range-0e12e052-01392))_
 
@@ -1058,6 +1075,7 @@ const rest = (list) => list(
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01391))_
 
+<a id="atom-technical-atom-4dc2a4525a7055f2"></a>
 ```
 () => "ERROR: Can't take first of an empty list",
 (aPair) => aPair(pairRest)
@@ -1082,7 +1100,7 @@ print(l123)
 //=> 1 2 3
 ```
 
-### Technical frame 46: Copy on Write / Making Data Out Of Functions / functions are not the real point
+### Technical frame 45: Copy on Write / Making Data Out Of Functions / functions are not the real point
 
 **Context:** _(javascriptallonge.pdf (source-range-0e12e052-01400))_
 
@@ -1090,6 +1108,7 @@ print(l123)
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01401))_
 
+<a id="atom-technical-atom-e05b4d965ecfffbd"></a>
 ```text
 79 https://en.wikipedia.org/wiki/Church_encoding
 81 https://en.wikipedia.org/wiki/Gauge_boson
@@ -1107,7 +1126,7 @@ print(l123)
 
 </details>
 
-### Technical frame 47: Copy on Write / Making Data Out Of Functions / a return to backward thinking
+### Technical frame 46: Copy on Write / Making Data Out Of Functions / a return to backward thinking
 
 **Context:** _(javascriptallonge.pdf (source-range-0e12e052-01411))_
 
@@ -1115,6 +1134,7 @@ print(l123)
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01410))_
 
+<a id="atom-technical-atom-009c927d23932a6d"></a>
 ```
 const length = (list) => list(
 () => 0,
@@ -1122,7 +1142,7 @@ const length = (list) => list(
 );
 ```
 
-### Technical frame 48: Copy on Write / Making Data Out Of Functions / a return to backward thinking
+### Technical frame 47: Copy on Write / Making Data Out Of Functions / a return to backward thinking
 
 **Context:** _(javascriptallonge.pdf (source-range-0e12e052-01414))_
 
@@ -1130,6 +1150,7 @@ const length = (list) => list(
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01413))_
 
+<a id="atom-technical-atom-4491629ebdd4c91e"></a>
 ```
 const length = (node, delayed = 0) =>
 node === EMPTY
@@ -1140,29 +1161,16 @@ node === EMPTY
 
 ## Related pages
 
+### Shared technical atoms
+
 - [[javascriptallonge-copy-write]] - shared statements and technical atoms: Copy on Write shares source evidence from Copy on Write: We've seen how to build lists with arrays and with linked lists. We've touched on an important difference between them:; Copy on Write shares technical record from Copy on Write: The consequence of this is that if you have an array, and you take it's 'rest,' your 'child' array is a copy of the elements of the parent array. (7 shared statement(s), 19 shared atom(s))
 - [[javascriptallonge-copy]] - shared statements and technical atoms: Copy shares source evidence from Garbage, Garbage Everywhere / some history: Again, it's just extracting a reference from a cons cell, it's very fast. In Lisp, it's blazingly fast because it happens in hardware. There's no making copies of ar ... [truncated]; Copy shares technical record from Garbage, Garbage Everywhere / some history: cdr(oneToFive) //=> [2,[3,[4,[5,null]]]] (2 shared statement(s), 8 shared atom(s))
 - [[javascriptallonge-element]] - shared statements and technical atoms: Element shares source evidence from Composing and Decomposing Data / Self-Similarity: Let's convert our rules to array literals. The first rule is simple: [] is a list. How about the second rule? We can express that using a spread. Given an element e ... [truncated]; Element shares technical record from Composing and Decomposing Data / Self-Similarity: [] //=> [] ["baz", ...[]] //=> ["baz"] ["bar", ...["baz"]] //=> ["bar","baz"] ["foo", ...["bar", "baz"]] //=> ["foo","bar","baz"] (3 shared statement(s), 6 shared atom(s))
 - [[javascriptallonge-data]] - shared statements and technical atoms: Data shares source evidence from Composing and Decomposing Data / Self-Similarity: Let's be more specific. Some data structures, like lists, can obviously be seen as a collection of items. Some are empty, some have three items, some forty-two, some ... [truncated]; Data shares technical record from Garbage, Garbage Everywhere / some history: car(oneToFive) //=> 1 (1 shared statement(s), 5 shared atom(s))
-- [[javascriptallonge-structure]] - shared statements and technical atoms: Structure shares source evidence from Composing and Decomposing Data / Self-Similarity: Let's be more specific. Some data structures, like lists, can obviously be seen as a collection of items. Some are empty, some have three items, some forty-two, some ... [truncated]; Structure shares technical record from Garbage, Garbage Everywhere / some history: cdr(oneToFive) //=> [2,[3,[4,[5,null]]]] (1 shared statement(s), 3 shared atom(s))
-- [[javascriptallonge-argument]] - shared statements and technical atoms: Argument shares source evidence from Recipes with Basic Functions / Partial Application: These two recipes are for quickly and simply applying a single argument, either the leftmost or rightmost. 48 If you want to bind more than one argument, or you want ... [truncated]; Argument shares technical record from Recipes with Basic Functions / Partial Application: const callFirst = (fn, larg) => function (...rest) { return fn.call(this, larg, ...rest); } const callLast = (fn, rarg) => function (...rest) { return fn.call(this, ... [truncated] (1 shared statement(s), 2 shared atom(s))
-- [[javascriptallonge-bind]] - shared statements and technical atoms: Bind shares source evidence from Recipes with Basic Functions / Partial Application: These two recipes are for quickly and simply applying a single argument, either the leftmost or rightmost. 48 If you want to bind more than one argument, or you want ... [truncated]; Bind shares technical record from Recipes with Basic Functions / Partial Application: const callFirst = (fn, larg) => function (...rest) { return fn.call(this, larg, ...rest); } const callLast = (fn, rarg) => function (...rest) { return fn.call(this, ... [truncated] (1 shared statement(s), 2 shared atom(s))
-- [[javascriptallonge-partial-application]] - shared statements and technical atoms: partial application shares source evidence from Recipes with Basic Functions / Partial Application: These two recipes are for quickly and simply applying a single argument, either the leftmost or rightmost. 48 If you want to bind more than one argument, or you want ... [truncated]; partial application shares technical record from Recipes with Basic Functions / Partial Application: const callFirst = (fn, larg) => function (...rest) { return fn.call(this, larg, ...rest); } const callLast = (fn, rarg) => function (...rest) { return fn.call(this, ... [truncated] (1 shared statement(s), 2 shared atom(s))
-- [[javascriptallonge-parameter]] - shared statements and technical atoms: Parameter shares source evidence from Composing and Decomposing Data / default arguments: By writing our parameter list as (n, work = 1) => , we're stating that if a second parameter is not provided, work is to be bound to 1 . We can do similar things wit ... [truncated]; Parameter shares technical record from Composing and Decomposing Data / default arguments: const length = ([first, ...rest], numberToBeAdded = 0) => first === undefined ? numberToBeAdded : length(rest, 1 + numberToBeAdded) length(["foo", "bar", "baz"]) //= ... [truncated] (1 shared statement(s), 1 shared atom(s))
 - [[javascriptallonge-javascript]] - shared technical atoms: Javascript shares technical record from Or even: / back on the block: 45 https://github.com/fogus/lemonad 46 http://osteele.com/sources/javascript/functional/ 47 https://github.com/substack/node-ap 48 (4 shared atom(s))
+- [[javascriptallonge-structure]] - shared statements and technical atoms: Structure shares source evidence from Composing and Decomposing Data / Self-Similarity: Let's be more specific. Some data structures, like lists, can obviously be seen as a collection of items. Some are empty, some have three items, some forty-two, some ... [truncated]; Structure shares technical record from Garbage, Garbage Everywhere / some history: cdr(oneToFive) //=> [2,[3,[4,[5,null]]]] (1 shared statement(s), 3 shared atom(s))
 - [[javascriptallonge-functional-iterator]] - shared technical atoms: Functional Iterators shares technical record from Copy on Write / Functional Iterators / iterating: const EMPTY = null; const isEmpty = (node) => node === EMPTY; const pair = (first, rest = EMPTY) => ({first, rest}); const list = (...elements) => { const [first, .. ... [truncated] (3 shared atom(s))
 - [[javascriptallonge-reference]] - shared technical atoms: Reference shares technical record from Garbage, Garbage Everywhere / some history: const node5 = [5,null], node4 = [4, node5], node3 = [3, node4], node2 = [2, node3], node1 = [1, node2]; const oneToFive = node1; (3 shared atom(s))
-- [[javascriptallonge-literal]] - shared technical atoms: Literal shares technical record from Composing and Decomposing Data / Self-Similarity: [] //=> [] ["baz", ...[]] //=> ["baz"] ["bar", ...["baz"]] //=> ["bar","baz"] ["foo", ...["bar", "baz"]] //=> ["foo","bar","baz"] (2 shared atom(s))
-- [[javascriptallonge-object]] - shared technical atoms: Object shares technical record from Plain Old JavaScript Objects / revisiting linked lists: In that case, a linked list of the numbers 1, 2, and 3 will look like this: { first: 1, rest: { first: 2, rest: { first: 3, rest: EMPTY } } }. We can then perform th ... [truncated] (2 shared atom(s))
-- [[javascriptallonge-recipe]] - shared technical atoms: Recipe shares technical record from Recipes with Basic Functions / Partial Application: const callFirst = (fn, larg) => function (...rest) { return fn.call(this, larg, ...rest); } const callLast = (fn, rarg) => function (...rest) { return fn.call(this, ... [truncated] (2 shared atom(s))
-- [[javascriptallonge-evaluate]] - shared technical atoms: Evaluate shares technical record from Or even: / back on the block: //=> undefined We said that the function returns the result of evaluating a block, and we said that a block is a (possibly empty) list of JavaScript statements separ ... [truncated] (1 shared atom(s))
-- [[javascriptallonge-expression]] - shared technical atoms: Expression shares technical record from Or even: / back on the block: //=> undefined We said that the function returns the result of evaluating a block, and we said that a block is a (possibly empty) list of JavaScript statements separ ... [truncated] (1 shared atom(s))
-- [[javascriptallonge-functional]] - shared technical atoms: Functional shares technical record from Recipes with Basic Functions / Partial Application: 45 https://github.com/fogus/lemonad 46 http://osteele.com/sources/javascript/functional/ 47 https://github.com/substack/node-ap 48 (1 shared atom(s))
-- [[javascriptallonge-iterator]] - shared technical atoms: Iterator shares technical record from Copy on Write / Functional Iterators / unfolding and laziness: const NumberIterator = (number = 0) => () => ({ done: false, value: number++ }) fromOne = NumberIterator(1); fromOne().value; //=> 1 fromOne().value; //=> 2 fromOne( ... [truncated] (1 shared atom(s))
-- [[javascriptallonge-programming]] - shared technical atoms: Programming shares technical record from Garbage, Garbage Everywhere / some history: some history Once upon a time, there was a programming language called Lisp 65 , an acronym for LISt Processing. 66 Lisp was one of the very first high-level languag ... [truncated] (1 shared atom(s))
-- [[javascriptallonge-return]] - shared technical atoms: Return shares technical record from Or even: / back on the block: //=> undefined We said that the function returns the result of evaluating a block, and we said that a block is a (possibly empty) list of JavaScript statements separ ... [truncated] (1 shared atom(s))
-- [[javascriptallonge-statement]] - shared technical atoms: Statement shares technical record from Or even: / back on the block: //=> undefined We said that the function returns the result of evaluating a block, and we said that a block is a (possibly empty) list of JavaScript statements separ ... [truncated] (1 shared atom(s))
-- [[javascriptallonge-write]] - shared technical atoms: Write shares technical record from Copy on Write / Making Data Out Of Functions / functions are not the real point: 79 https://en.wikipedia.org/wiki/Church_encoding 81 https://en.wikipedia.org/wiki/Gauge_boson 80 https://en.wikipedia.org/wiki/Surreal_number (1 shared atom(s))
 
 ## Source
 

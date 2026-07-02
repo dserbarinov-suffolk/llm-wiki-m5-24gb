@@ -4,10 +4,10 @@ page_kind: concept
 summary: Pure: 4 statement(s) and 1 atom(s) from raw/javascriptallonge.pdf.
 page_family: topic-concept
 sources: raw/javascriptallonge.pdf
-updated: 2026-07-01
+updated: 2026-07-02
 domain: javascriptallonge
 category_path: concepts
-projection_coverage: topic-javascriptallonge-pure@374f6e9ba7df33d57bdb4d49d04f29f5
+projection_coverage: topic-javascriptallonge-pure@e68085a1c73b192b0fbe6c67781c60cc
 ---
 
 # Pure
@@ -39,10 +39,13 @@ What [[javascriptallonge]] covers about pure:
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00346))_
 
+<a id="atom-technical-atom-e40f9d634f430538"></a>
 > If pure functions can contain closures, can a closure contain a pure function?
 
 
 ## Related pages
+
+### Shared technical atoms
 
 - [[javascriptallonge-closure]] - shared statements and technical atoms: Closure shares source evidence from And also: / Closures and Scope / if functions without free variables are pure, are closures impure?: From this, we learn something: A pure function can contain a closure.; Closure shares technical record from And also: / Closures and Scope / if functions without free variables are pure, are closures impure?: If pure functions can contain closures, can a closure contain a pure function? (2 shared statement(s), 1 shared atom(s))
 - [[javascriptallonge-scope]] - shared technical atoms: Scope shares technical record from And also: / Closures and Scope / if functions without free variables are pure, are closures impure?: If pure functions can contain closures, can a closure contain a pure function? (1 shared atom(s))

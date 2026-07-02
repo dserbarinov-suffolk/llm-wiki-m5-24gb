@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-15-1-four-types-of-experience-points-success-rolls-dfa6f42a@90c4f9c0cfc7e09216e73f3a7412b995
+projection_coverage: section-sword-world-rpg-complete-edition-section-15-1-four-types-of-experience-points-success-rolls-dfa6f42a@d76c1e6a87cbc3b630fd5c9cb0be769c
 ---
 
 # 15.1 Four Types of Experience Points / Success Rolls
@@ -17,9 +17,14 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-15-1-four-types-of-experience-points-46385836]] - broader source section: 15.1 Four Types of Experience Points
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-15-1-four-types-of-experience-points-fighting-monsters-84c07e62]] - previous source section: 15.1 Four Types of Experience Points / Fighting Monsters
 - [[sword-world-rpg-complete-edition-section-15-1-four-types-of-experience-points-special-bonuses-e7624c67]] - next source section: 15.1 Four Types of Experience Points / Special Bonuses
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-15-1-four-types-of-experience-points-46385836]] - broader source section: 15.1 Four Types of Experience Points
 
 ## Statements
 

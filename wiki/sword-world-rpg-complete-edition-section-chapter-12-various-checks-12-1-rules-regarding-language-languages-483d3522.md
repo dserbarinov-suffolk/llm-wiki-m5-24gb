@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-12-various-checks-12-1-rules-regarding-language-languages-483d3522@1aa122b27623ffad871391f2eb161109
+projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-12-various-checks-12-1-rules-regarding-language-languages-483d3522@0e202c7d1b24f1186163254fd1da19ea
 ---
 
 # Chapter 12: Various Checks / 12.1 Rules Regarding Language / Languages
@@ -16,6 +16,8 @@ projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-12
 From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
+
+### Source structure
 
 - [[sword-world-rpg-complete-edition-section-chapter-12-various-checks-12-1-rules-regarding-language-5c470256]] - broader source section: Chapter 12: Various Checks / 12.1 Rules Regarding Language
 
@@ -39,6 +41,7 @@ From [[sword-world-rpg-complete-edition]].
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-05430))_
 
+<a id="atom-technical-atom-16f57207d106a461"></a>
 > An owner of the sorcerer skill can read low ancient, so acquiring the sage skill will quickly allow you to learn new languages (if you can read common).
 
 ### Technical frame 2: Table 12-1: Languages table below lists the languages used by
@@ -49,6 +52,7 @@ From [[sword-world-rpg-complete-edition]].
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-05433))_
 
+<a id="atom-technical-atom-5463aa8393578628"></a>
 | High | ancient | Yes | [ | Common | ] | Not | among | the | monsters | in | this | book |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | Silent | spirit | No | Soldier (knight, | knight | leader) |  |  |  |  |  |  |  |

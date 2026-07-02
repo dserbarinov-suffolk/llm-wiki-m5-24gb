@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-other-bag-of-protection-52f4824a@4279032150a38f441e8bf717fb53267c
+projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-other-bag-of-protection-52f4824a@f8f3900c8edfb4d1a7a813883ffe2e18
 ---
 
 # Chapter 14: / 14.4 Magical Item List / 《 Other 》 / [ Bag of Protection ]
@@ -17,9 +17,14 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-other-ae5b041d]] - broader source section: Chapter 14: / 14.4 Magical Item List / 《 Other 》
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-other-fire-jack-aa2c0e46]] - previous source section: Chapter 14: / 14.4 Magical Item List / 《 Other 》 / [ Fire Jack ]
 - [[sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-other-bulkless-bag-e18a3e28]] - next source section: Chapter 14: / 14.4 Magical Item List / 《 Other 》 / [ Bulkless Bag ]
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-other-ae5b041d]] - broader source section: Chapter 14: / 14.4 Magical Item List / 《 Other 》
 
 ## Statements
 

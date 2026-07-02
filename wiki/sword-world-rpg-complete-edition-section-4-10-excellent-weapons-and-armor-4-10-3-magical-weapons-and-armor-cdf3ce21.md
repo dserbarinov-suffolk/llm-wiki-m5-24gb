@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-4-10-excellent-weapons-and-armor-4-10-3-magical-weapons-and-armor-cdf3ce21@1b65ff41943c0fb33b83e573bffe6dea
+projection_coverage: section-sword-world-rpg-complete-edition-section-4-10-excellent-weapons-and-armor-4-10-3-magical-weapons-and-armor-cdf3ce21@17018c85fb540a2798fae9518929db59
 ---
 
 # 4.10 Excellent Weapons and Armor / 4.10.3 Magical Weapons and Armor
@@ -17,12 +17,17 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-4-10-excellent-weapons-and-armor-1d473647]] - broader source section: 4.10 Excellent Weapons and Armor
-- [[sword-world-rpg-complete-edition-section-4-10-excellent-weapons-and-armor-4-10-3-magical-weapons-and-armor-magical-weapons-bd40de81]] - narrower source section: 4.10 Excellent Weapons and Armor / 4.10.3 Magical Weapons and Armor / 【 Magical Weapons 】
-- [[sword-world-rpg-complete-edition-section-4-10-excellent-weapons-and-armor-4-10-3-magical-weapons-and-armor-magical-shields-2887937e]] - narrower source section: 4.10 Excellent Weapons and Armor / 4.10.3 Magical Weapons and Armor / 【 Magical Shields 】
-- [[sword-world-rpg-complete-edition-section-4-10-excellent-weapons-and-armor-4-10-3-magical-weapons-and-armor-magical-armor-f6694ff1]] - narrower source section: 4.10 Excellent Weapons and Armor / 4.10.3 Magical Weapons and Armor / 【 Magical Armor 】
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-4-10-excellent-weapons-and-armor-4-10-2-silver-weapons-and-armor-dadef958]] - previous source section: 4.10 Excellent Weapons and Armor / 4.10.2 Silver Weapons and Armor
 - [[sword-world-rpg-complete-edition-section-4-10-excellent-weapons-and-armor-4-10-4-mithril-silver-weapons-and-armor-8cb5003a]] - next source section: 4.10 Excellent Weapons and Armor / 4.10.4 Mithril Silver Weapons and Armor
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-4-10-excellent-weapons-and-armor-1d473647]] - broader source section: 4.10 Excellent Weapons and Armor
+- [[sword-world-rpg-complete-edition-section-4-10-excellent-weapons-and-armor-4-10-3-magical-weapons-and-armor-magical-armor-f6694ff1]] - narrower source section: 4.10 Excellent Weapons and Armor / 4.10.3 Magical Weapons and Armor / 【 Magical Armor 】
+- [[sword-world-rpg-complete-edition-section-4-10-excellent-weapons-and-armor-4-10-3-magical-weapons-and-armor-magical-shields-2887937e]] - narrower source section: 4.10 Excellent Weapons and Armor / 4.10.3 Magical Weapons and Armor / 【 Magical Shields 】
+- [[sword-world-rpg-complete-edition-section-4-10-excellent-weapons-and-armor-4-10-3-magical-weapons-and-armor-magical-weapons-bd40de81]] - narrower source section: 4.10 Excellent Weapons and Armor / 4.10.3 Magical Weapons and Armor / 【 Magical Weapons 】
 
 ## Statements
 
@@ -60,4 +65,5 @@ From [[sword-world-rpg-complete-edition]].
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-01484))_
 
+<a id="atom-technical-atom-e95f18afcff444da"></a>
 > Magical weapons can deal damage to monsters that normal weapons cannot harm.

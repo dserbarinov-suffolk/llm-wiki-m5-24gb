@@ -4,11 +4,11 @@ page_kind: source
 summary: Served by the Pot: Collections / Generating Iterables / javascript's generators: 18 source-backed entries and 0 atom(s) from raw/javascriptallonge.pdf.
 page_family: section-reference
 sources: raw/javascriptallonge.pdf
-updated: 2026-07-01
+updated: 2026-07-02
 domain: javascriptallonge
 category_path: sources/javascriptallonge/sections
 source_id: javascriptallonge.pdf
-projection_coverage: section-javascriptallonge-section-served-by-the-pot-collections-generating-iterables-javascript-s-generators-c3a5aa1e@35f976a1ced08113cdbb938aa5b8a601
+projection_coverage: section-javascriptallonge-section-served-by-the-pot-collections-generating-iterables-javascript-s-generators-c3a5aa1e@1a3054eabc288e661663e77cd16af05b
 ---
 
 # Served by the Pot: Collections / Generating Iterables / javascript's generators
@@ -17,9 +17,14 @@ From [[javascriptallonge]].
 
 ## Related pages
 
-- [[javascriptallonge-section-served-by-the-pot-collections-generating-iterables-8c929c4d]] - broader source section: Served by the Pot: Collections / Generating Iterables
+### Source order
+
 - [[javascriptallonge-section-served-by-the-pot-collections-generating-iterables-state-machines-c4cec34a]] - previous source section: Served by the Pot: Collections / Generating Iterables / state machines
 - [[javascriptallonge-section-served-by-the-pot-collections-generating-iterables-generators-are-coroutines-e97b031c]] - next source section: Served by the Pot: Collections / Generating Iterables / generators are coroutines
+
+### Source structure
+
+- [[javascriptallonge-section-served-by-the-pot-collections-generating-iterables-8c929c4d]] - broader source section: Served by the Pot: Collections / Generating Iterables
 
 ## Statements
 

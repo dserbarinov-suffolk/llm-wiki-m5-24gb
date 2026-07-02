@@ -7,7 +7,7 @@ sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: concepts
-projection_coverage: topic-sword-world-rpg-complete-edition-daemon@47cd35595be3fa8b19cafff0bb138117
+projection_coverage: topic-sword-world-rpg-complete-edition-daemon@f3f7e53067b89c9ff2ff1983e6bda9a6
 ---
 
 # Daemon
@@ -39,6 +39,7 @@ What [[sword-world-rpg-complete-edition]] covers about daemon:
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-05884))_
 
+<a id="atom-technical-atom-c6ad81a89de7379e"></a>
 ```text
 13.2
 13.2 Monster Catalog
@@ -56,6 +57,8 @@ What [[sword-world-rpg-complete-edition]] covers about daemon:
 
 
 ## Related pages
+
+### Shared technical atoms
 
 - [[sword-world-rpg-complete-edition-underworld-creature]] - shared statements and technical atoms: Underworld Creature shares source evidence from 13.1 Types of Monsters / 《 Daemons/Underworld Creatures 》: Daemons are underworld monsters that live in a material world different from ours. In the age of the gods, they were known as terrifying slaughterers who followed th ... [truncated]; Underworld Creature shares technical record from 13.1 Types of Monsters / 《 Daemons/Underworld Creatures 》: 13.2 13.2 Monster Catalog (7 shared statement(s), 1 shared atom(s))
 

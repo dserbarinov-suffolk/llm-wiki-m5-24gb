@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-5-1-14-spirit-magic-list-4th-level-spirit-magic-list-water-walking-undine-water-spirit-fear-shad-af709617@949c879814d7a27e12e409d2b2dde5ca
+projection_coverage: section-sword-world-rpg-complete-edition-section-5-1-14-spirit-magic-list-4th-level-spirit-magic-list-water-walking-undine-water-spirit-fear-shad-af709617@7e6e66a18a462dc39fef2ba6506687cc
 ---
 
 # 5.1.14 Spirit Magic List / 4th Level Spirit Magic List [ Water Walking ] (Undine/Water Spirit) / [ Fear ] (Shade/Dark Spirit)
@@ -17,9 +17,14 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-5-1-14-spirit-magic-list-4th-level-spirit-magic-list-water-walking-undine-water-spirit-bd6d8f37]] - broader source section: 5.1.14 Spirit Magic List / 4th Level Spirit Magic List [ Water Walking ] (Undine/Water Spirit)
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-5-1-14-spirit-magic-list-4th-level-spirit-magic-list-water-walking-undine-water-spirit-tunnel-gn-c5a573c1]] - previous source section: 5.1.14 Spirit Magic List / 4th Level Spirit Magic List [ Water Walking ] (Undine/Water Spirit) / [ Tunnel ] (Gnome/Earth Spirit)
 - [[sword-world-rpg-complete-edition-section-5-1-14-spirit-magic-list-4th-level-spirit-magic-list-water-walking-undine-water-spirit-restore-h-1cecd6be]] - next source section: 5.1.14 Spirit Magic List / 4th Level Spirit Magic List [ Water Walking ] (Undine/Water Spirit) / [ Restore Health ] (The Unknown Spirit of Life)
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-5-1-14-spirit-magic-list-4th-level-spirit-magic-list-water-walking-undine-water-spirit-bd6d8f37]] - broader source section: 5.1.14 Spirit Magic List / 4th Level Spirit Magic List [ Water Walking ] (Undine/Water Spirit)
 
 ## Statements
 

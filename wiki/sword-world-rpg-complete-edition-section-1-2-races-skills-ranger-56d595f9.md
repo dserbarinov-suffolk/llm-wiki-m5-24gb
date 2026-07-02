@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-1-2-races-skills-ranger-56d595f9@e6f67a4178c22adc33ce5c24608425bc
+projection_coverage: section-sword-world-rpg-complete-edition-section-1-2-races-skills-ranger-56d595f9@7a1f1d65c7011074ef4bfccfa278e4d9
 ---
 
 # 1.2 Races / Skills / 【 Ranger 】
@@ -17,9 +17,14 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-1-2-races-skills-d796863a]] - broader source section: 1.2 Races / Skills
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-1-2-races-skills-sage-abcdd228]] - previous source section: 1.2 Races / Skills / 【 Sage 】
 - [[sword-world-rpg-complete-edition-section-1-2-races-skills-bard-55e9d43f]] - next source section: 1.2 Races / Skills / 【 Bard 】
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-1-2-races-skills-d796863a]] - broader source section: 1.2 Races / Skills
 
 ## Statements
 

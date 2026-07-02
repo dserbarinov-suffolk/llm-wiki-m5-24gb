@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-2-5-difficulty-checks-2-5-3-analogy-of-success-and-failure-86286098@4bdd67790b678f9a8e6b228d26f6d5c0
+projection_coverage: section-sword-world-rpg-complete-edition-section-2-5-difficulty-checks-2-5-3-analogy-of-success-and-failure-86286098@52d872958d4f0e814c8bb922d7450c68
 ---
 
 # 2.5 Difficulty Checks / 2.5.3 Analogy of Success and Failure
@@ -17,8 +17,13 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-2-5-difficulty-checks-d95d8c9d]] - broader source section: 2.5 Difficulty Checks
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-2-5-difficulty-checks-2-5-2-how-to-make-a-difficulty-check-6d909d75]] - previous source section: 2.5 Difficulty Checks / 2.5.2 How to Make a Difficulty Check
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-2-5-difficulty-checks-d95d8c9d]] - broader source section: 2.5 Difficulty Checks
 
 ## Statements
 
@@ -49,4 +54,5 @@ From [[sword-world-rpg-complete-edition]].
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-01013))_
 
+<a id="atom-technical-atom-909ef186c6b63af5"></a>
 > If the roll is as high as 10 or 11, the success roll is considered to have a very high chance of success.

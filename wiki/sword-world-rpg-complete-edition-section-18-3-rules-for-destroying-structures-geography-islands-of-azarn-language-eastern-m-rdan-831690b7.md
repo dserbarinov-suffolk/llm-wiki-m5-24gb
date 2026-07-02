@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-18-3-rules-for-destroying-structures-geography-islands-of-azarn-language-eastern-m-rdan-831690b7@dd5137dcd8d6d57ec4379f8803003eda
+projection_coverage: section-sword-world-rpg-complete-edition-section-18-3-rules-for-destroying-structures-geography-islands-of-azarn-language-eastern-m-rdan-831690b7@8fc6b3d4c4f910c3019d61f34b26b3ef
 ---
 
 # 18.3 Rules for Destroying Structures / Geography / Islands of Azarn (Language = Eastern/Mārdan)
@@ -17,9 +17,14 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-18-3-rules-for-destroying-structures-geography-f18d9385]] - broader source section: 18.3 Rules for Destroying Structures / Geography
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-18-3-rules-for-destroying-structures-geography-western-countries-language-western-except-palmer-48f47741]] - previous source section: 18.3 Rules for Destroying Structures / Geography / Western Countries (Language: Western, except Palmer Village which uses Eastern)
 - [[sword-world-rpg-complete-edition-section-18-3-rules-for-destroying-structures-geography-island-of-damned-language-native-language-576aa4a6]] - next source section: 18.3 Rules for Destroying Structures / Geography / Island of Damned (Language = Native Language)
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-18-3-rules-for-destroying-structures-geography-f18d9385]] - broader source section: 18.3 Rules for Destroying Structures / Geography
 
 ## Statements
 

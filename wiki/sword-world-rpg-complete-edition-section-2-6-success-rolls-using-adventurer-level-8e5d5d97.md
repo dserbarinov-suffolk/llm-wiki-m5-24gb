@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-2-6-success-rolls-using-adventurer-level-8e5d5d97@cf44ed7bd6316bdee96fe84b3634f81d
+projection_coverage: section-sword-world-rpg-complete-edition-section-2-6-success-rolls-using-adventurer-level-8e5d5d97@480c2806899cf590268e3f258cc9a7ae
 ---
 
 # 2.6 Success Rolls Using Adventurer Level
@@ -17,9 +17,14 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-2-6-success-rolls-using-adventurer-level-resistance-rolls-b5e39a22]] - narrower source section: 2.6 Success Rolls Using Adventurer Level / Resistance Rolls
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-2-5-difficulty-checks-d95d8c9d]] - previous source section: 2.5 Difficulty Checks
 - [[sword-world-rpg-complete-edition-section-chapter-3-b1c23679]] - next source section: Chapter 3:
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-2-6-success-rolls-using-adventurer-level-resistance-rolls-b5e39a22]] - narrower source section: 2.6 Success Rolls Using Adventurer Level / Resistance Rolls
 
 ## Statements
 
@@ -54,6 +59,7 @@ From [[sword-world-rpg-complete-edition]].
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-01025))_
 
+<a id="atom-technical-atom-3fd7b784e846e838"></a>
 ```text
 Success Rolls Using Adventurer Level
 2.6 Success Rolls Using Adventurer Level

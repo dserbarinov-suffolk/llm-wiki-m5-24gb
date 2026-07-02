@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-5-1-12-ancient-magic-list-lightning-bind-10th-level-ancient-magic-list-dimension-gate-meteor-str-8d160c8b@7306631d9113b4f3fd4be237cab38e4a
+projection_coverage: section-sword-world-rpg-complete-edition-section-5-1-12-ancient-magic-list-lightning-bind-10th-level-ancient-magic-list-dimension-gate-meteor-str-8d160c8b@9f7bcba39a6eed4d91e2bba427d8e867
 ---
 
 # 5.1.12 Ancient Magic List / [ Lightning Bind ] / 10th Level Ancient Magic List [ Dimension Gate ] / [ Meteor Strike ]
@@ -17,8 +17,13 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-5-1-12-ancient-magic-list-lightning-bind-10th-level-ancient-magic-list-dimension-gate-fc396ce7]] - broader source section: 5.1.12 Ancient Magic List / [ Lightning Bind ] / 10th Level Ancient Magic List [ Dimension Gate ]
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-5-1-12-ancient-magic-list-lightning-bind-10th-level-ancient-magic-list-dimension-gate-perfect-ca-0ae1003b]] - previous source section: 5.1.12 Ancient Magic List / [ Lightning Bind ] / 10th Level Ancient Magic List [ Dimension Gate ] / [ Perfect Cancellation ]
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-5-1-12-ancient-magic-list-lightning-bind-10th-level-ancient-magic-list-dimension-gate-fc396ce7]] - broader source section: 5.1.12 Ancient Magic List / [ Lightning Bind ] / 10th Level Ancient Magic List [ Dimension Gate ]
 
 ## Statements
 

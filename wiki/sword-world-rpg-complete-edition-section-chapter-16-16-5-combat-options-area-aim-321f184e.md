@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-16-16-5-combat-options-area-aim-321f184e@41c559361bcb272bc5de32b024f1685e
+projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-16-16-5-combat-options-area-aim-321f184e@61918e0e9f2a53365a328e9133f7ac4b
 ---
 
 # Chapter 16: / 16.5 Combat Options / Area Aim
@@ -17,8 +17,13 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-chapter-16-16-5-combat-options-cdfeb0d1]] - broader source section: Chapter 16: / 16.5 Combat Options
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-chapter-16-16-5-combat-options-ram-2d591984]] - previous source section: Chapter 16: / 16.5 Combat Options / Ram
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-chapter-16-16-5-combat-options-cdfeb0d1]] - broader source section: Chapter 16: / 16.5 Combat Options
 
 ## Statements
 
@@ -46,4 +51,5 @@ From [[sword-world-rpg-complete-edition]].
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-10391))_
 
+<a id="atom-technical-atom-655ad7c41a9f0b4c"></a>
 > [Figure] (p.267)

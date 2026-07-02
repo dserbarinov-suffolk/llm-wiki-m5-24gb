@@ -4,11 +4,11 @@ page_kind: source
 summary: Composing and Decomposing Data / Tail Calls (and Default Arguments) / converting non-tail-calls to tail-calls: 11 source-backed entries and 1 atom(s) from raw/javascriptallonge.pdf.
 page_family: section-reference
 sources: raw/javascriptallonge.pdf
-updated: 2026-07-01
+updated: 2026-07-02
 domain: javascriptallonge
 category_path: sources/javascriptallonge/sections
 source_id: javascriptallonge.pdf
-projection_coverage: section-javascriptallonge-section-composing-and-decomposing-data-tail-calls-and-default-arguments-converting-non-tail-calls-to-tai-5acf5969@3260c2b25d8031ad300108b5dd81837b
+projection_coverage: section-javascriptallonge-section-composing-and-decomposing-data-tail-calls-and-default-arguments-converting-non-tail-calls-to-tai-5acf5969@6d24d9c8c0b72d7eb91f00393a638891
 ---
 
 # Composing and Decomposing Data / Tail Calls (and Default Arguments) / converting non-tail-calls to tail-calls
@@ -17,8 +17,13 @@ From [[javascriptallonge]].
 
 ## Related pages
 
-- [[javascriptallonge-section-composing-and-decomposing-data-tail-calls-and-default-arguments-2f80f1b0]] - broader source section: Composing and Decomposing Data / Tail Calls (and Default Arguments)
+### Source order
+
 - [[javascriptallonge-section-composing-and-decomposing-data-tail-calls-and-default-arguments-tail-call-optimization-766c0a60]] - previous source section: Composing and Decomposing Data / Tail Calls (and Default Arguments) / tail-call optimization
+
+### Source structure
+
+- [[javascriptallonge-section-composing-and-decomposing-data-tail-calls-and-default-arguments-2f80f1b0]] - broader source section: Composing and Decomposing Data / Tail Calls (and Default Arguments)
 
 ## Statements
 
@@ -37,6 +42,7 @@ From [[javascriptallonge]].
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00980))_
 
+<a id="atom-technical-atom-729a50b40f08fbd9"></a>
 | 0, | 1, | 2, | 3, | 4, | 5, | 6, | 7, | 8, | 9, |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 10, | 11, | 12, | 13, | 14, | 15, | 16, | 17, | 18, | 19, |

@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-illusion-4928a046@5c09abd03d810b2964cfed6ca4e4d73b
+projection_coverage: section-sword-world-rpg-complete-edition-section-illusion-4928a046@bb108da66ab77cb6d1d4c063ec401d5e
 ---
 
 # 《 Illusion 》
@@ -16,6 +16,8 @@ projection_coverage: section-sword-world-rpg-complete-edition-section-illusion-4
 From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
+
+### Source order
 
 - [[sword-world-rpg-complete-edition-section-focus-bba4a423]] - previous source section: 《 Focus 》
 - [[sword-world-rpg-complete-edition-section-ritual-093f2f83]] - next source section: 《 Ritual 》

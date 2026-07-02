@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-2-1-baseline-scores-target-scores-16aa968b@de174eff9ef3603840dac13e737e8b2f
+projection_coverage: section-sword-world-rpg-complete-edition-section-2-1-baseline-scores-target-scores-16aa968b@1abf3424498967129f9cc920fa27e8be
 ---
 
 # 2.1 Baseline Scores / Target Scores
@@ -17,8 +17,16 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-2-1-baseline-scores-879d539e]] - broader source section: 2.1 Baseline Scores
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-2-1-baseline-scores-checks-b13b5a15]] - next source section: 2.1 Baseline Scores / Checks
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-2-1-baseline-scores-879d539e]] - broader source section: 2.1 Baseline Scores
+
+### Topics
+
 - [[sword-world-rpg-complete-edition-target-score]] - topic hub: opens the topic page for Target Score
 
 ## Statements
@@ -37,6 +45,7 @@ From [[sword-world-rpg-complete-edition]].
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-00941))_
 
+<a id="atom-technical-atom-ba652488ba562f9c"></a>
 ```text
 Target Scores
 2.2 Target Scores
@@ -64,6 +73,7 @@ The baseline score is  a number that represents a character's ability. However, 
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-00943))_
 
+<a id="atom-technical-atom-4405836276df990c"></a>
 > The player must roll two dice and add their baseline score to the roll.
 
 ### Technical frame 3: 2.1 Baseline Scores / Target Scores
@@ -74,4 +84,5 @@ The baseline score is  a number that represents a character's ability. However, 
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-00944))_
 
+<a id="atom-technical-atom-c3cf083c1ce1f607"></a>
 > final score (baseline score + 2D) ≥ target score → action is successful

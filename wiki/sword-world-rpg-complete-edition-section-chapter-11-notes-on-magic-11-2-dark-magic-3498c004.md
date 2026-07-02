@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-11-notes-on-magic-11-2-dark-magic-3498c004@ede6b7c58cb888ba0654c0bcbd767377
+projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-11-notes-on-magic-11-2-dark-magic-3498c004@97768bd16757f5c313c021af9f56fbaf
 ---
 
 # Chapter 11: Notes on Magic / 11.2 Dark Magic
@@ -17,23 +17,21 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
+### Source order
+
+- [[sword-world-rpg-complete-edition-section-chapter-11-notes-on-magic-11-1-rune-masters-status-4e95a608]] - previous source section: Chapter 11: Notes on Magic / 11.1 Rune Masters' Status
+- [[sword-world-rpg-complete-edition-section-chapter-11-notes-on-magic-11-3-dragon-roar-magic-992d31da]] - next source section: Chapter 11: Notes on Magic / 11.3 Dragon Roar Magic
+
+### Source structure
+
 - [[sword-world-rpg-complete-edition-section-chapter-11-notes-on-magic-147e95d8]] - broader source section: Chapter 11: Notes on Magic
+- [[sword-world-rpg-complete-edition-section-chapter-11-notes-on-magic-11-2-dark-magic-10th-level-basic-dark-magic-list-call-god-32bbe070]] - narrower source section: Chapter 11: Notes on Magic / 11.2 Dark Magic / 10th Level Basic Dark Magic List [ Call God ]
 - [[sword-world-rpg-complete-edition-section-chapter-11-notes-on-magic-11-2-dark-magic-11-2-1-basic-abilities-of-the-dark-priest-skill-085ee769]] - narrower source section: Chapter 11: Notes on Magic / 11.2 Dark Magic / 11.2.1 Basic Abilities of the Dark Priest Skill
 - [[sword-world-rpg-complete-edition-section-chapter-11-notes-on-magic-11-2-dark-magic-11-2-2-basic-dark-magic-list-a6d7778b]] - narrower source section: Chapter 11: Notes on Magic / 11.2 Dark Magic / 11.2.2 Basic Dark Magic List
+- [[sword-world-rpg-complete-edition-section-chapter-11-notes-on-magic-11-2-dark-magic-11-2-3-special-dark-magic-list-87e60851]] - narrower source section: Chapter 11: Notes on Magic / 11.2 Dark Magic / 11.2.3 Special Dark Magic List
 - [[sword-world-rpg-complete-edition-section-chapter-11-notes-on-magic-11-2-dark-magic-1st-level-basic-dark-magic-list-87936227]] - narrower source section: Chapter 11: Notes on Magic / 11.2 Dark Magic / 1st Level Basic Dark Magic List
 - [[sword-world-rpg-complete-edition-section-chapter-11-notes-on-magic-11-2-dark-magic-2nd-level-basic-dark-magic-list-f2521ffa]] - narrower source section: Chapter 11: Notes on Magic / 11.2 Dark Magic / 2nd Level Basic Dark Magic List
 - [[sword-world-rpg-complete-edition-section-chapter-11-notes-on-magic-11-2-dark-magic-3rd-level-basic-dark-magic-list-poison-8784743f]] - narrower source section: Chapter 11: Notes on Magic / 11.2 Dark Magic / 3rd Level Basic Dark Magic List [ Poison ]
-- [[sword-world-rpg-complete-edition-section-chapter-11-notes-on-magic-11-2-dark-magic-4th-level-basic-dark-magic-list-control-imp-f9f143cc]] - narrower source section: Chapter 11: Notes on Magic / 11.2 Dark Magic / 4th Level Basic Dark Magic List [ Control Imp ]
-- [[sword-world-rpg-complete-edition-section-chapter-11-notes-on-magic-11-2-dark-magic-5th-level-basic-dark-magic-list-5cfcb896]] - narrower source section: Chapter 11: Notes on Magic / 11.2 Dark Magic / 5th Level Basic Dark Magic List
-- [[sword-world-rpg-complete-edition-section-chapter-11-notes-on-magic-11-2-dark-magic-curse-1d1806ab]] - narrower source section: Chapter 11: Notes on Magic / 11.2 Dark Magic / Curse
-- [[sword-world-rpg-complete-edition-section-chapter-11-notes-on-magic-11-2-dark-magic-6th-level-basic-dark-magic-list-mesmerize-c86f3f74]] - narrower source section: Chapter 11: Notes on Magic / 11.2 Dark Magic / 6th Level Basic Dark Magic List [ Mesmerize ]
-- [[sword-world-rpg-complete-edition-section-chapter-11-notes-on-magic-11-2-dark-magic-7th-level-basic-dark-magic-list-1e1b9aa0]] - narrower source section: Chapter 11: Notes on Magic / 11.2 Dark Magic / 7th Level Basic Dark Magic List
-- [[sword-world-rpg-complete-edition-section-chapter-11-notes-on-magic-11-2-dark-magic-8th-level-basic-dark-magic-list-cripple-dee8eeb2]] - narrower source section: Chapter 11: Notes on Magic / 11.2 Dark Magic / 8th Level Basic Dark Magic List [ Cripple ]
-- [[sword-world-rpg-complete-edition-section-chapter-11-notes-on-magic-11-2-dark-magic-9th-level-basic-dark-magic-list-plague-02ff19b7]] - narrower source section: Chapter 11: Notes on Magic / 11.2 Dark Magic / 9th Level Basic Dark Magic List [ Plague ]
-- [[sword-world-rpg-complete-edition-section-chapter-11-notes-on-magic-11-2-dark-magic-10th-level-basic-dark-magic-list-call-god-32bbe070]] - narrower source section: Chapter 11: Notes on Magic / 11.2 Dark Magic / 10th Level Basic Dark Magic List [ Call God ]
-- [[sword-world-rpg-complete-edition-section-chapter-11-notes-on-magic-11-2-dark-magic-11-2-3-special-dark-magic-list-87e60851]] - narrower source section: Chapter 11: Notes on Magic / 11.2 Dark Magic / 11.2.3 Special Dark Magic List
-- [[sword-world-rpg-complete-edition-section-chapter-11-notes-on-magic-11-1-rune-masters-status-4e95a608]] - previous source section: Chapter 11: Notes on Magic / 11.1 Rune Masters' Status
-- [[sword-world-rpg-complete-edition-section-chapter-11-notes-on-magic-11-3-dragon-roar-magic-992d31da]] - next source section: Chapter 11: Notes on Magic / 11.3 Dragon Roar Magic
 
 ## Statements
 

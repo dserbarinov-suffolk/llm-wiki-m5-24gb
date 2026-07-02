@@ -4,11 +4,11 @@ page_kind: source
 summary: Served by the Pot: Collections / Generating Iterables / recursive iterators: 11 source-backed entries and 1 atom(s) from raw/javascriptallonge.pdf.
 page_family: section-reference
 sources: raw/javascriptallonge.pdf
-updated: 2026-07-01
+updated: 2026-07-02
 domain: javascriptallonge
 category_path: sources/javascriptallonge/sections
 source_id: javascriptallonge.pdf
-projection_coverage: section-javascriptallonge-section-served-by-the-pot-collections-generating-iterables-recursive-iterators-6bfe7273@3b9e2801c62a8b5ce4310d6cbf4010a8
+projection_coverage: section-javascriptallonge-section-served-by-the-pot-collections-generating-iterables-recursive-iterators-6bfe7273@8837a1af69093dcb34726322ba0b534c
 ---
 
 # Served by the Pot: Collections / Generating Iterables / recursive iterators
@@ -17,8 +17,13 @@ From [[javascriptallonge]].
 
 ## Related pages
 
-- [[javascriptallonge-section-served-by-the-pot-collections-generating-iterables-8c929c4d]] - broader source section: Served by the Pot: Collections / Generating Iterables
+### Source order
+
 - [[javascriptallonge-section-served-by-the-pot-collections-generating-iterables-state-machines-c4cec34a]] - next source section: Served by the Pot: Collections / Generating Iterables / state machines
+
+### Source structure
+
+- [[javascriptallonge-section-served-by-the-pot-collections-generating-iterables-8c929c4d]] - broader source section: Served by the Pot: Collections / Generating Iterables
 
 ## Statements
 
@@ -39,6 +44,7 @@ From [[javascriptallonge]].
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01638))_
 
+<a id="atom-technical-atom-b45c726d94a282f5"></a>
 ```
 const isIterable = (something) =>
 !!something[Symbol.iterator];

@@ -16,6 +16,7 @@ from llmwiki.domain.ledger.evidence_blocks import EvidenceBlock
 from llmwiki.domain.ledger.ledger import ClaimLedger
 from llmwiki.domain.ledger.section_navigation import section_title
 from llmwiki.domain.ledger.structure import DocumentStructure
+from llmwiki.domain.ledger.table_authority import accepted_table_atom_ids
 from llmwiki.domain.ledger.topic_terms import source_label_terms
 
 _ADJACENT_GROUP_ATOM_KINDS = {"formula"}
@@ -60,10 +61,14 @@ def build_atom_frames(
 
 
 def _technical_atom_entries(ledger: ClaimLedger) -> tuple[LedgerEntry, ...]:
+    accepted_tables = accepted_table_atom_ids(ledger.technical_atoms)
     return tuple(
         entry
         for entry in ledger.usable_entries
         if entry.ledger_entry_kind == "technical-atom" and entry.technical_atom_id
+        and (
+            entry.technical_atom_kind != "table" or entry.technical_atom_id in accepted_tables
+        )
     )
 
 

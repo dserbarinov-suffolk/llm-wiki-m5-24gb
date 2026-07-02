@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-1-4-character-creation-projectiles-0ec6301d@0150cec0fbadfe7f1fffb20a717d8af1
+projection_coverage: section-sword-world-rpg-complete-edition-section-1-4-character-creation-projectiles-0ec6301d@f597399db7da040fb18bf255ac67aebc
 ---
 
 # 1.4 Character Creation / Projectiles
@@ -17,9 +17,17 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-1-4-character-creation-f6aa6108]] - broader source section: 1.4 Character Creation
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-1-4-character-creation-one-handed-and-twohanded-weapons-ac9404dc]] - previous source section: 1.4 Character Creation / One-Handed and TwoHanded Weapons
 - [[sword-world-rpg-complete-edition-section-1-4-character-creation-armor-3358c0d8]] - next source section: 1.4 Character Creation / Armor
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-1-4-character-creation-f6aa6108]] - broader source section: 1.4 Character Creation
+
+### Topics
+
 - [[sword-world-rpg-complete-edition-projectile]] - topic hub: opens the topic page for Projectile
 
 ## Statements
@@ -37,6 +45,7 @@ From [[sword-world-rpg-complete-edition]].
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-00642))_
 
+<a id="atom-technical-atom-297d474dbc69fb06"></a>
 ```text
 Table 1-8: Weapons-2
   When  buying weapons and armor,
@@ -67,6 +76,7 @@ Table 1-8: Weapons-2
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-00751))_
 
+<a id="atom-technical-atom-129c883b299d7438"></a>
 ```text
 10 for 12
 10 for 12

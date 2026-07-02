@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-12-2-2-illnesses-rarity-5504c398@189a4edb6459b84405848db40f0fcb27
+projection_coverage: section-sword-world-rpg-complete-edition-section-12-2-2-illnesses-rarity-5504c398@c5a3c6926640e2d345534823d27926cb
 ---
 
 # 12.2.2 Illnesses / 《 Rarity 》
@@ -17,9 +17,14 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-12-2-2-illnesses-5611d07e]] - broader source section: 12.2.2 Illnesses
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-12-2-2-illnesses-symptoms-f4982659]] - previous source section: 12.2.2 Illnesses / 《 Symptoms 》
 - [[sword-world-rpg-complete-edition-section-12-2-2-illnesses-fatal-depth-51859caa]] - next source section: 12.2.2 Illnesses / 《 Fatal Depth 》
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-12-2-2-illnesses-5611d07e]] - broader source section: 12.2.2 Illnesses
 
 ## Statements
 
@@ -45,4 +50,5 @@ From [[sword-world-rpg-complete-edition]].
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-05695))_
 
+<a id="atom-technical-atom-939f598dfbea35ec"></a>
 > If the roll is less than the progression intensity , the disease gets worse and the depth increases by 1.

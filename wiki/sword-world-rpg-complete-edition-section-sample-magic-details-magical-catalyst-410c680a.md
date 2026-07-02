@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-sample-magic-details-magical-catalyst-410c680a@501686d7401f1ec4548cee2f52a217c4
+projection_coverage: section-sword-world-rpg-complete-edition-section-sample-magic-details-magical-catalyst-410c680a@5b5b7c6e945355f55eef647e799ece22
 ---
 
 # [Sample Magic Details] / 《 Magical Catalyst 》
@@ -17,9 +17,14 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-sample-magic-details-cbfd0ab1]] - broader source section: [Sample Magic Details]
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-sample-magic-details-spellbook-cef5cb5e]] - previous source section: [Sample Magic Details] / 《 Spellbook 》
 - [[sword-world-rpg-complete-edition-section-sample-magic-details-1st-level-ancient-magic-list-unlock-348edce4]] - next source section: [Sample Magic Details] / 1st Level Ancient Magic List [ Unlock ]
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-sample-magic-details-cbfd0ab1]] - broader source section: [Sample Magic Details]
 
 ## Statements
 
@@ -36,4 +41,5 @@ From [[sword-world-rpg-complete-edition]].
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-01886))_
 
+<a id="atom-technical-atom-c4f58145c6fa2305"></a>
 > [Figure] (p.67)

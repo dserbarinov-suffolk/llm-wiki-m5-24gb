@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-8-1-experience-points-e5a03227@4a0e4428806d967353d79d348a0af9db
+projection_coverage: section-sword-world-rpg-complete-edition-section-8-1-experience-points-e5a03227@64758dae7f1597d46f099f80e44b318b
 ---
 
 # 8.1 Experience Points
@@ -16,6 +16,8 @@ projection_coverage: section-sword-world-rpg-complete-edition-section-8-1-experi
 From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
+
+### Source order
 
 - [[sword-world-rpg-complete-edition-section-chapter-7-c3cc20a8]] - previous source section: Chapter 7:
 - [[sword-world-rpg-complete-edition-section-8-2-how-to-use-experience-points-increasing-skill-levels-8e61e7ca]] - next source section: 8.2 How to Use Experience Points: Increasing Skill Levels

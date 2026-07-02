@@ -4,11 +4,11 @@ page_kind: source
 summary: The Golden Crema: Appendices and Afterwords / Thanks! / Daniel Friedman and Matthias Felleisen: 2 source-backed entries and 0 atom(s) from raw/javascriptallonge.pdf.
 page_family: section-reference
 sources: raw/javascriptallonge.pdf
-updated: 2026-07-01
+updated: 2026-07-02
 domain: javascriptallonge
 category_path: sources/javascriptallonge/sections
 source_id: javascriptallonge.pdf
-projection_coverage: section-javascriptallonge-section-the-golden-crema-appendices-and-afterwords-thanks-daniel-friedman-and-matthias-felleisen-328936ab@d6a1a7a91b57eae118317e5b8c3c8e20
+projection_coverage: section-javascriptallonge-section-the-golden-crema-appendices-and-afterwords-thanks-daniel-friedman-and-matthias-felleisen-328936ab@b215421d56670d123a32088067f935fd
 ---
 
 # The Golden Crema: Appendices and Afterwords / Thanks! / Daniel Friedman and Matthias Felleisen
@@ -17,8 +17,13 @@ From [[javascriptallonge]].
 
 ## Related pages
 
-- [[javascriptallonge-section-the-golden-crema-appendices-and-afterwords-thanks-5038d33a]] - broader source section: The Golden Crema: Appendices and Afterwords / Thanks!
+### Source order
+
 - [[javascriptallonge-section-the-golden-crema-appendices-and-afterwords-thanks-richard-feynman-aacee893]] - next source section: The Golden Crema: Appendices and Afterwords / Thanks! / Richard Feynman
+
+### Source structure
+
+- [[javascriptallonge-section-the-golden-crema-appendices-and-afterwords-thanks-5038d33a]] - broader source section: The Golden Crema: Appendices and Afterwords / Thanks!
 
 ## Statements
 

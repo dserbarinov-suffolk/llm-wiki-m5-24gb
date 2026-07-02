@@ -4,10 +4,10 @@ page_kind: concept
 summary: Bind: 10 statement(s) and 31 atom(s) from raw/javascriptallonge.pdf.
 page_family: topic-concept
 sources: raw/javascriptallonge.pdf
-updated: 2026-07-01
+updated: 2026-07-02
 domain: javascriptallonge
 category_path: concepts
-projection_coverage: topic-javascriptallonge-bind@1020ce099935dfc23a669a33a350a884
+projection_coverage: topic-javascriptallonge-bind@6c6e40a02956cdcd05dff7d5b660e3e3
 ---
 
 # Bind
@@ -65,6 +65,7 @@ What [[javascriptallonge]] covers about bind:
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00384))_
 
+<a id="atom-technical-atom-d9a852cd6bb0fca3"></a>
 ```
 ((PI) =>
 // ????
@@ -79,6 +80,7 @@ What [[javascriptallonge]] covers about bind:
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00386))_
 
+<a id="atom-technical-atom-357d7006c12cdde2"></a>
 ```
 ((PI) =>
 (diameter) => diameter * PI
@@ -93,6 +95,7 @@ What [[javascriptallonge]] covers about bind:
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00394))_
 
+<a id="atom-technical-atom-5867db6f7f79d9da"></a>
 ```
 (diameter) =>
 ((PI) =>
@@ -107,6 +110,7 @@ diameter * PI)(3.14159265)
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00413))_
 
+<a id="atom-technical-atom-33dd473b56661e4e"></a>
 ```
 ((diameter, PI) => diameter * PI)(2, 3.14159265)
 //=> 6.2831853
@@ -120,6 +124,7 @@ diameter * PI)(3.14159265)
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00426))_
 
+<a id="atom-technical-atom-21caf88c6af4269f"></a>
 ```
 (d) => {
 const calc = (diameter) => {
@@ -138,6 +143,7 @@ return "The circumference is " + calc(d)
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00427))_
 
+<a id="atom-technical-atom-07458faecbca866e"></a>
 > This underscores what we've said: if we have an expression that evaluates to a function, we apply it with () .
 
 ### Technical frame 7: And also: / That Constant Coffee Craving / const
@@ -148,6 +154,7 @@ return "The circumference is " + calc(d)
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00430))_
 
+<a id="atom-technical-atom-bf575b013f590d4e"></a>
 ```
 (d) => {
 const PI
@@ -165,6 +172,7 @@ return "The circumference is " + calc(d)
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00448))_
 
+<a id="atom-technical-atom-1fcd50d7b7a6f5c2"></a>
 ```
 ((diameter_fn) =>
 diameter_fn(2)
@@ -184,6 +192,7 @@ diameter_fn(2)
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00465))_
 
+<a id="atom-technical-atom-10b93a8cefe61ba3"></a>
 ```
 ((PI) =>
 ((PI) =>
@@ -200,6 +209,7 @@ diameter_fn(2)
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00469))_
 
+<a id="atom-technical-atom-9015b3cf2462a504"></a>
 ```
 ((PI) => {
 ((PI) => {})(3);
@@ -215,6 +225,7 @@ return (diameter) => diameter * PI;
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00471))_
 
+<a id="atom-technical-atom-91c404fc287165c5"></a>
 ```
 ((PI) => {
 ((PI) => {})(3);
@@ -231,6 +242,7 @@ return (diameter) => diameter * PI;
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00474))_
 
+<a id="atom-technical-atom-87052ff25d95631f"></a>
 ```
 ((diameter) => {
 const PI = 3.14159265;
@@ -250,6 +262,7 @@ return diameter * PI;
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00495))_
 
+<a id="atom-technical-atom-55d46ad008593b37"></a>
 ```
 const repeat = (str) => str + str
 ```
@@ -262,6 +275,7 @@ const repeat = (str) => str + str
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00517))_
 
+<a id="atom-technical-atom-bdff3a3eb0232671"></a>
 ```
 const double = function repeat (str) {
 return str + str;
@@ -276,6 +290,7 @@ return str + str;
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00527))_
 
+<a id="atom-technical-atom-8186b253c7941f9e"></a>
 ```
 (function even (n) {
 if (n === 0) {
@@ -301,6 +316,7 @@ else return !even(n - 1)
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00529))_
 
+<a id="atom-technical-atom-d19e2f64206e68c8"></a>
 ```
 even
 //=> Can't find variable: even
@@ -314,6 +330,7 @@ even
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00534))_
 
+<a id="atom-technical-atom-f72d1116e0b95f4e"></a>
 ```
 {
 ```
@@ -326,6 +343,7 @@ even
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00537))_
 
+<a id="atom-technical-atom-95a32dfb7f98a627"></a>
 ```
 (function () {
 return fizzbuzz();
@@ -344,6 +362,7 @@ return "Fizz" + "Buzz";
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00608))_
 
+<a id="atom-technical-atom-216c7e390d5b4860"></a>
 ```text
 42 You should never attempt to define your own bindings against 'magic' names that JavaScript binds for you. It is wise to treat them as read-only at all times.
 43 We'll look at arrays and plain old javascript objects in depth later.
@@ -367,6 +386,7 @@ return "Fizz" + "Buzz";
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00621))_
 
+<a id="atom-technical-atom-34cc4e2d51243815"></a>
 ```
 const row = function () {
 return mapWith(
@@ -386,6 +406,7 @@ row(3)
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00624))_
 
+<a id="atom-technical-atom-2a714b34dc172e0a"></a>
 ```
 const row = function () {
 return mapWith(
@@ -405,6 +426,7 @@ row(3)
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00656))_
 
+<a id="atom-technical-atom-12e2e0144ff30f83"></a>
 ```
 const callFirst = (fn, larg) =>
 function (...rest) {
@@ -432,6 +454,7 @@ sayHelloToCeline('Eartha')
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00658))_
 
+<a id="atom-technical-atom-6a1f8c07567d2732"></a>
 ```text
 45 https://github.com/fogus/lemonad 46 http://osteele.com/sources/javascript/functional/ 47 https://github.com/substack/node-ap 48
 ```
@@ -455,6 +478,7 @@ sayHelloToCeline('Eartha')
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00858))_
 
+<a id="atom-technical-atom-c93d24e3decbb431"></a>
 ```
 const [what] = [];
 ```
@@ -467,6 +491,7 @@ const [what] = [];
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00860))_
 
+<a id="atom-technical-atom-b7199cad0f3cd977"></a>
 ```
 const [what] = [];
 what
@@ -484,6 +509,7 @@ who
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00861))_
 
+<a id="atom-technical-atom-45e36f5bd9d4ecc4"></a>
 ```
 const [...they] = [];
 they
@@ -501,6 +527,7 @@ they
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01167))_
 
+<a id="atom-technical-atom-1b483f8e0657577c"></a>
 ```
 (() => {
 let age = 49;
@@ -520,6 +547,7 @@ return age;
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01169))_
 
+<a id="atom-technical-atom-8a284e0b07940e14"></a>
 ```
 {age: 49, '..': global-environment}
 To:
@@ -535,6 +563,7 @@ Then back to:
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01170))_
 
+<a id="atom-technical-atom-028ad3558fbe47fd"></a>
 ```
 {age: 49, '..': global-environment}
 ```
@@ -547,6 +576,7 @@ Then back to:
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01183))_
 
+<a id="atom-technical-atom-6a1d7611ecb44363"></a>
 ```
 const factorial = (n) => {
 let x = n;
@@ -577,6 +607,7 @@ else {
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01185))_
 
+<a id="atom-technical-atom-2865c0fb65d705d7"></a>
 ```
 return n * factorial2(x);
 }
@@ -588,20 +619,16 @@ factorial2(5)
 
 ## Related pages
 
+### Shared technical atoms
+
+- [[javascriptallonge-expression]] - shared technical atoms: Expression shares technical record from And also: / That Constant Coffee Craving: ((PI) => // ???? )(3.14159265) (8 shared atom(s))
 - [[javascriptallonge-javascript]] - shared statements and technical atoms: Javascript shares source evidence from And also: / call by sharing: We said that JavaScript binds names to values, but we didn't say what it means to bind a name to a value. Now we can elaborate: When JavaScript binds a value-type to ... [truncated]; Javascript shares technical record from And also: / Magic Names / the function keyword: 45 https://github.com/fogus/lemonad 46 http://osteele.com/sources/javascript/functional/ 47 https://github.com/substack/node-ap 48 (2 shared statement(s), 7 shared atom(s))
 - [[javascriptallonge-binding]] - shared statements and technical atoms: Binding shares source evidence from And also: / That Constant Coffee Craving / are consts also from a shadowy planet?: We can test this by creating another conflict. But instead of binding two different variables to the same name in two different places, we'll bind two different valu ... [truncated]; Binding shares technical record from And also: / That Constant Coffee Craving / are consts also from a shadowy planet?: ((PI) => { ((PI) => {})(3); return (diameter) => diameter * PI; })(3.14159265) (1 shared statement(s), 7 shared atom(s))
 - [[javascriptallonge-argument]] - shared statements and technical atoms: Argument shares source evidence from And also: / Magic Names / magic names and fat arrows: This works just fine, because arguments[0] refers to the 3 we passed to the function row . Our 'fat arrow' function (column) => column * arguments[0] doesn't bind ar ... [truncated]; Argument shares technical record from And also: / Magic Names / the function keyword: const row = function () { return mapWith( (column) => column * arguments[0], [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12] ) } row(3) //=> [3,6,9,12,15,18,21,24,27,30,33,36] (2 shared statement(s), 5 shared atom(s))
-- [[javascriptallonge-list]] - shared statements and technical atoms: List shares source evidence from Recipes with Basic Functions / Partial Application: These two recipes are for quickly and simply applying a single argument, either the leftmost or rightmost. 48 If you want to bind more than one argument, or you want ... [truncated]; List shares technical record from Recipes with Basic Functions / Partial Application: const callFirst = (fn, larg) => function (...rest) { return fn.call(this, larg, ...rest); } const callLast = (fn, rarg) => function (...rest) { return fn.call(this, ... [truncated] (1 shared statement(s), 2 shared atom(s))
-- [[javascriptallonge-partial-application]] - shared statements and technical atoms: partial application shares source evidence from Recipes with Basic Functions / Partial Application: These two recipes are for quickly and simply applying a single argument, either the leftmost or rightmost. 48 If you want to bind more than one argument, or you want ... [truncated]; partial application shares technical record from Recipes with Basic Functions / Partial Application: const callFirst = (fn, larg) => function (...rest) { return fn.call(this, larg, ...rest); } const callLast = (fn, rarg) => function (...rest) { return fn.call(this, ... [truncated] (1 shared statement(s), 2 shared atom(s))
-- [[javascriptallonge-fat-arrow]] - shared statements and technical atoms: Fat Arrow shares source evidence from And also: / Magic Names / magic names and fat arrows: This works just fine, because arguments[0] refers to the 3 we passed to the function row . Our 'fat arrow' function (column) => column * arguments[0] doesn't bind ar ... [truncated]; Fat Arrow shares technical record from And also: / Magic Names / magic names and fat arrows: const row = function () { return mapWith( (column) => column * arguments[0], [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12] ) } row(3) //=> [3,6,9,12,15,18,21,24,27,30,33,36] (1 shared statement(s), 1 shared atom(s))
-- [[javascriptallonge-expression]] - shared technical atoms: Expression shares technical record from And also: / That Constant Coffee Craving: ((PI) => // ???? )(3.14159265) (8 shared atom(s))
 - [[javascriptallonge-function-keyword]] - shared technical atoms: the function keyword shares technical record from And also: / Naming Functions / the function keyword: const double = function repeat (str) { return str + str; } (4 shared atom(s))
 - [[javascriptallonge-array]] - shared technical atoms: Array shares technical record from Composing and Decomposing Data / Arrays and Destructuring Arguments / destructuring is not pattern matching: const [what] = []; (3 shared atom(s))
-- [[javascriptallonge-recipe]] - shared technical atoms: Recipe shares technical record from Recipes with Basic Functions / Partial Application: const callFirst = (fn, larg) => function (...rest) { return fn.call(this, larg, ...rest); } const callLast = (fn, rarg) => function (...rest) { return fn.call(this, ... [truncated] (2 shared atom(s))
-- [[javascriptallonge-declaration]] - shared technical atoms: Declaration shares technical record from And also: / Naming Functions / function declarations: { (1 shared atom(s))
-- [[javascriptallonge-functional]] - shared technical atoms: Functional shares technical record from Recipes with Basic Functions / Partial Application: 45 https://github.com/fogus/lemonad 46 http://osteele.com/sources/javascript/functional/ 47 https://github.com/substack/node-ap 48 (1 shared atom(s))
-- [[javascriptallonge-object]] - shared technical atoms: Object shares technical record from And also: / Magic Names / the function keyword: 42 You should never attempt to define your own bindings against 'magic' names that JavaScript binds for you. It is wise to treat them as read-only at all times. 43 W ... [truncated] (1 shared atom(s))
-- [[javascriptallonge-parameter]] - shared technical atoms: Parameter shares technical record from And also: / That Constant Coffee Craving / are consts also from a shadowy planet?: ((diameter) => { const PI = 3.14159265; (() => { const PI = 3; })(); return diameter * PI; })(2) //=> 6.2831853 (1 shared atom(s))
+- [[javascriptallonge-list]] - shared statements and technical atoms: List shares source evidence from Recipes with Basic Functions / Partial Application: These two recipes are for quickly and simply applying a single argument, either the leftmost or rightmost. 48 If you want to bind more than one argument, or you want ... [truncated]; List shares technical record from Recipes with Basic Functions / Partial Application: const callFirst = (fn, larg) => function (...rest) { return fn.call(this, larg, ...rest); } const callLast = (fn, rarg) => function (...rest) { return fn.call(this, ... [truncated] (1 shared statement(s), 2 shared atom(s))
+- [[javascriptallonge-partial-application]] - shared statements and technical atoms: partial application shares source evidence from Recipes with Basic Functions / Partial Application: These two recipes are for quickly and simply applying a single argument, either the leftmost or rightmost. 48 If you want to bind more than one argument, or you want ... [truncated]; partial application shares technical record from Recipes with Basic Functions / Partial Application: const callFirst = (fn, larg) => function (...rest) { return fn.call(this, larg, ...rest); } const callLast = (fn, rarg) => function (...rest) { return fn.call(this, ... [truncated] (1 shared statement(s), 2 shared atom(s))
 
 ## Source
 

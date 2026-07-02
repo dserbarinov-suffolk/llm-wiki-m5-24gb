@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-5-1-14-spirit-magic-list-10th-level-spirit-magic-list-cf90da5a@8eb3e30c95109e785ffcc8f9788046be
+projection_coverage: section-sword-world-rpg-complete-edition-section-5-1-14-spirit-magic-list-10th-level-spirit-magic-list-cf90da5a@bb50da2264d274d806ba90d33c864adc
 ---
 
 # 5.1.14 Spirit Magic List / 10th Level Spirit Magic List ]
@@ -17,8 +17,13 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-5-1-14-spirit-magic-list-1f53ed62]] - broader source section: 5.1.14 Spirit Magic List
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-5-1-14-spirit-magic-list-9th-level-spirit-magic-list-earthquake-behemoth-greater-earth-spirit-5eb28679]] - previous source section: 5.1.14 Spirit Magic List / 9th Level Spirit Magic List [ Earthquake ] (Behemoth/Greater Earth Spirit)
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-5-1-14-spirit-magic-list-1f53ed62]] - broader source section: 5.1.14 Spirit Magic List
 
 ## Statements
 

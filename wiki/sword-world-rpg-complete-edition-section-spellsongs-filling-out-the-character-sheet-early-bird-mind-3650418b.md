@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-spellsongs-filling-out-the-character-sheet-early-bird-mind-3650418b@f2d456fa27edbbeb48048e451436cda2
+projection_coverage: section-sword-world-rpg-complete-edition-section-spellsongs-filling-out-the-character-sheet-early-bird-mind-3650418b@2c6f91cbb410afd19e0e17c4c8ea81a5
 ---
 
 # Spellsongs / Filling out the Character Sheet / Early Bird (Mind)
@@ -17,8 +17,13 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-spellsongs-filling-out-the-character-sheet-866f5da1]] - broader source section: Spellsongs / Filling out the Character Sheet
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-spellsongs-filling-out-the-character-sheet-curiosity-mind-c419ad37]] - next source section: Spellsongs / Filling out the Character Sheet / Curiosity (Mind)
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-spellsongs-filling-out-the-character-sheet-866f5da1]] - broader source section: Spellsongs / Filling out the Character Sheet
 
 ## Statements
 

@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-13-2-3-youma-frau-51e5358f@3e1a9ab8aa6c0b5c9fb67ea2952fe9d4
+projection_coverage: section-sword-world-rpg-complete-edition-section-13-2-3-youma-frau-51e5358f@65ddee6c0ebaf16a451cc7071237210e
 ---
 
 # 13.2.3 Youma / [ Frau ]
@@ -17,9 +17,14 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-13-2-3-youma-05ea9fd0]] - broader source section: 13.2.3 Youma
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-13-2-3-youma-gnome-22f3b87b]] - previous source section: 13.2.3 Youma / [ Gnome ]
 - [[sword-world-rpg-complete-edition-section-13-2-3-youma-leprechaun-b94459cd]] - next source section: 13.2.3 Youma / [ Leprechaun ]
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-13-2-3-youma-05ea9fd0]] - broader source section: 13.2.3 Youma
 
 ## Statements
 
@@ -36,20 +41,29 @@ From [[sword-world-rpg-complete-edition]].
 
 **Atoms:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-06223, source-range-0d48087c-06224, source-range-0d48087c-06225, source-range-0d48087c-06226, source-range-0d48087c-06227, source-range-0d48087c-06228, source-range-0d48087c-06229, source-range-0d48087c-06230, source-range-0d48087c-06231))_
 
+<a id="atom-technical-atom-8918ed2868bd8896"></a>
 > Monster Level=4
 
+<a id="atom-technical-atom-31b93c4c25ed9386"></a>
 > Rarity=12 (However, a shaman always knows)
 
+<a id="atom-technical-atom-2061d405da42493b"></a>
 > Agility=10 Movement Speed=18 (air)
 
+<a id="atom-technical-atom-df43743ffffccdff"></a>
 > Number=One to several Frequency=Rare
 
+<a id="atom-technical-atom-a1fe28848b9801db"></a>
 > Intellect=Human Reaction=Violent
 
+<a id="atom-technical-atom-0ae8b44d533b3710"></a>
 > Attack Points=Strike Points=-
 
+<a id="atom-technical-atom-9cae00a7c3c00d0d"></a>
 > Evasion Points=12 (5) Defense Points=6 Life Points/Resistance=10/11 (4)
 
+<a id="atom-technical-atom-03693f31f13a64fa"></a>
 > Mental Points/Resistance=20/13 (6)
 
+<a id="atom-technical-atom-d18dbe7b61ada0ad"></a>
 > Special Abilities=Cold (Strike power 10, bonus damage 6, Magic Intensity/Magic Power=13/6)

@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-5-1-14-spirit-magic-list-snare-gnome-earth-spirit-7109c8fd@35c50a3925b06ba25d5cec55a8a0852b
+projection_coverage: section-sword-world-rpg-complete-edition-section-5-1-14-spirit-magic-list-snare-gnome-earth-spirit-7109c8fd@b54c7f3dd4f736fb8a10afccc5154407
 ---
 
 # 5.1.14 Spirit Magic List / [ Snare ] (Gnome/Earth Spirit)
@@ -17,8 +17,13 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-5-1-14-spirit-magic-list-1f53ed62]] - broader source section: 5.1.14 Spirit Magic List
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-5-1-14-spirit-magic-list-destruction-5d4331e9]] - next source section: 5.1.14 Spirit Magic List / [ Destruction ]
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-5-1-14-spirit-magic-list-1f53ed62]] - broader source section: 5.1.14 Spirit Magic List
 
 ## Statements
 

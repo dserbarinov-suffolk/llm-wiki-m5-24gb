@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-5-1-12-ancient-magic-list-familiar-128bdc4d@a6494b89a63c7605801581e238296168
+projection_coverage: section-sword-world-rpg-complete-edition-section-5-1-12-ancient-magic-list-familiar-128bdc4d@dea4a6489e35d9f9c5ea764e3e48b40b
 ---
 
 # 5.1.12 Ancient Magic List / [ Familiar ]
@@ -17,9 +17,14 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-5-1-12-ancient-magic-list-2e59bfee]] - broader source section: 5.1.12 Ancient Magic List
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-5-1-12-ancient-magic-list-hard-lock-e0f865d3]] - previous source section: 5.1.12 Ancient Magic List / [ Hard Lock ]
 - [[sword-world-rpg-complete-edition-section-5-1-12-ancient-magic-list-physical-enchant-9f31ae82]] - next source section: 5.1.12 Ancient Magic List / [ Physical Enchant ]
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-5-1-12-ancient-magic-list-2e59bfee]] - broader source section: 5.1.12 Ancient Magic List
 
 ## Statements
 
@@ -45,8 +50,10 @@ From [[sword-world-rpg-complete-edition]].
 
 **Atoms:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-02116, source-range-0d48087c-02117))_
 
+<a id="atom-technical-atom-d04ed1771e4ecc9a"></a>
 > Base Mental Power Cost=15 Distance=1 kilometer Area=1 specific animal Duration=Permanent Effect=You can turn a small animal into your familiar Type=Target score, Non-removable Expansion=Final score
 
+<a id="atom-technical-atom-15e117457df2c005"></a>
 > Resist=None
 
 ### Technical frame 2: 5.1.12 Ancient Magic List / [ Familiar ]
@@ -57,6 +64,7 @@ From [[sword-world-rpg-complete-edition]].
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-02120))_
 
+<a id="atom-technical-atom-92cc9cf7b33865c9"></a>
 > The caster can use their familiar's sensory organs to see and hear, and vice versa.
 
 ### Technical frame 3: 5.1.12 Ancient Magic List / [ Familiar ]
@@ -67,6 +75,7 @@ From [[sword-world-rpg-complete-edition]].
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-02121))_
 
+<a id="atom-technical-atom-e020a3a95ae6ec37"></a>
 > Of course, you cannot make a substitution that would cause mental points to become negative, and a familiar whose mental points reach 0 will lose consciousness.
 
 ### Technical frame 4: Table 5-2: Familiars
@@ -77,6 +86,7 @@ From [[sword-world-rpg-complete-edition]].
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-02122))_
 
+<a id="atom-technical-atom-dc08870c22889d88"></a>
 | Category | Frog | 2 | 2 | Can | see | things | over | a | wide | range |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 |  | Area=1 specific animal Dove | 3 | 3 |  |  |  | Can fly |  |  |  |

@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-1-obtain-spellbooks-or-scrolls-containing-lost-spell-832b2327@ae706e889ffa71bdb66741b3fb49820e
+projection_coverage: section-sword-world-rpg-complete-edition-section-1-obtain-spellbooks-or-scrolls-containing-lost-spell-832b2327@e771a34d4e2dcc10445fd8eefb455c81
 ---
 
 # 1. Obtain Spellbooks or Scrolls Containing Lost Spell
@@ -16,6 +16,8 @@ projection_coverage: section-sword-world-rpg-complete-edition-section-1-obtain-s
 From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
+
+### Source order
 
 - [[sword-world-rpg-complete-edition-section-monster-resistance-cec5b624]] - previous source section: Monster Resistance
 - [[sword-world-rpg-complete-edition-section-2-learn-from-a-sorcerer-who-knows-lost-spell-947c9755]] - next source section: 2. Learn From a Sorcerer Who Knows Lost Spell

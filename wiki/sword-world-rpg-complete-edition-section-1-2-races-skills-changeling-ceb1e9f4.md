@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-1-2-races-skills-changeling-ceb1e9f4@31e88ef4fa88b3872a7b3c7c2ed82dd6
+projection_coverage: section-sword-world-rpg-complete-edition-section-1-2-races-skills-changeling-ceb1e9f4@b32315e6bc41b4c22b73432fab3a2ab6
 ---
 
 # 1.2 Races / Skills / 《 Changeling 》
@@ -17,9 +17,14 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-1-2-races-skills-d796863a]] - broader source section: 1.2 Races / Skills
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-1-2-races-skills-1-3-2-skill-types-7028cd70]] - previous source section: 1.2 Races / Skills / 1.3.2 Skill Types
 - [[sword-world-rpg-complete-edition-section-1-2-races-skills-1-3-3-adventurer-level-4dd1e335]] - next source section: 1.2 Races / Skills / 1.3.3 Adventurer Level
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-1-2-races-skills-d796863a]] - broader source section: 1.2 Races / Skills
 
 ## Statements
 

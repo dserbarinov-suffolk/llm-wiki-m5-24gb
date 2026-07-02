@@ -4,11 +4,11 @@ page_kind: source
 summary: Served by the Pot: Collections / Iteration and Iterables / operations on ordered collections: 30 source-backed entries and 5 atom(s) from raw/javascriptallonge.pdf.
 page_family: section-reference
 sources: raw/javascriptallonge.pdf
-updated: 2026-07-01
+updated: 2026-07-02
 domain: javascriptallonge
 category_path: sources/javascriptallonge/sections
 source_id: javascriptallonge.pdf
-projection_coverage: section-javascriptallonge-section-served-by-the-pot-collections-iteration-and-iterables-operations-on-ordered-collections-097315e6@226f83b900bd7a84c8c3cca5a78aeae8
+projection_coverage: section-javascriptallonge-section-served-by-the-pot-collections-iteration-and-iterables-operations-on-ordered-collections-097315e6@ae97490133e49a494702fe58c60b41c0
 ---
 
 # Served by the Pot: Collections / Iteration and Iterables / operations on ordered collections
@@ -17,9 +17,14 @@ From [[javascriptallonge]].
 
 ## Related pages
 
-- [[javascriptallonge-section-served-by-the-pot-collections-iteration-and-iterables-6006fd95]] - broader source section: Served by the Pot: Collections / Iteration and Iterables
+### Source order
+
 - [[javascriptallonge-section-served-by-the-pot-collections-iteration-and-iterables-ordered-collections-3e509cbd]] - previous source section: Served by the Pot: Collections / Iteration and Iterables / ordered collections
 - [[javascriptallonge-section-served-by-the-pot-collections-iteration-and-iterables-from-b90bf31a]] - next source section: Served by the Pot: Collections / Iteration and Iterables / from
+
+### Source structure
+
+- [[javascriptallonge-section-served-by-the-pot-collections-iteration-and-iterables-6006fd95]] - broader source section: Served by the Pot: Collections / Iteration and Iterables
 
 ## Statements
 
@@ -50,6 +55,7 @@ From [[javascriptallonge]].
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01584))_
 
+<a id="atom-technical-atom-fbbf1aa0775abd4d"></a>
 ```
 const mapWith = (fn, collection) =>
 ({
@@ -73,6 +79,7 @@ return ({done, value: done ? undefined : fn(value)});
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01587))_
 
+<a id="atom-technical-atom-bbfb5055a2d70d9e"></a>
 ```
 const Evens = mapWith((x) => 2 * x, Numbers);
 for (const i of Evens) {
@@ -101,6 +108,7 @@ console.log(i)
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01589))_
 
+<a id="atom-technical-atom-cdb9eedb1fb81073"></a>
 ```
 const Evens =
 {
@@ -124,6 +132,7 @@ return ({done, value: done ? undefined : 2 *value});
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01597))_
 
+<a id="atom-technical-atom-053b19c44dbfcd19"></a>
 ```
 const filterWith = (fn, iterable) =>
 ({
@@ -162,6 +171,7 @@ return ({done, value: done ? undefined : value});
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01600))_
 
+<a id="atom-technical-atom-1fc36dec4bd8e986"></a>
 ```
 const Squares = mapWith((x) => x * x, Numbers);
 const EndWithOne = filterWith((x) => x % 10 === 1, Squares);

@@ -7,7 +7,7 @@ sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: concepts
-projection_coverage: topic-sword-world-rpg-complete-edition-weapon@cca9691abc865000330c62e43428be21
+projection_coverage: topic-sword-world-rpg-complete-edition-weapon@1cca34466d07c07f174697744ae4e80b
 ---
 
 # Weapon
@@ -31,6 +31,7 @@ What [[sword-world-rpg-complete-edition]] covers about weapon:
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-10416))_
 
+<a id="atom-technical-atom-f8447417e4cfaa9e"></a>
 > If a Weapon or Shield's Required Strength Exceeds Your Strength
 
 

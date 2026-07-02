@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-6-bard-skill-sing-mental-power-6f2e6b50@e14a14939d6c2249b6fe47c7f373ec52
+projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-6-bard-skill-sing-mental-power-6f2e6b50@034d2385a1ec91196bb8ae1a5c1d6449
 ---
 
 # Chapter 6: / Bard Skill / [ ① Sing [Mental Power] ]
@@ -17,8 +17,13 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-chapter-6-bard-skill-c54b1125]] - broader source section: Chapter 6: / Bard Skill
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-chapter-6-bard-skill-medicines-intelligence-appraisal-only-not-retriable-8d42c647]] - next source section: Chapter 6: / Bard Skill / [ ⑦ Medicines [Intelligence]] ((Appraisal only) Not retriable)
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-chapter-6-bard-skill-c54b1125]] - broader source section: Chapter 6: / Bard Skill
 
 ## Statements
 

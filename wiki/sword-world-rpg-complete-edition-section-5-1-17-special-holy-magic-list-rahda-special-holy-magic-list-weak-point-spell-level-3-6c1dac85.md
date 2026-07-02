@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-5-1-17-special-holy-magic-list-rahda-special-holy-magic-list-weak-point-spell-level-3-6c1dac85@68cebc38f6ee37d2b71a228f3fdf27bb
+projection_coverage: section-sword-world-rpg-complete-edition-section-5-1-17-special-holy-magic-list-rahda-special-holy-magic-list-weak-point-spell-level-3-6c1dac85@7db80917f476b85a42b2c7f73a544880
 ---
 
 # 5.1.17 Special Holy Magic List / Rahda Special Holy Magic List / [ Weak Point ] (Spell Level=3)
@@ -17,9 +17,14 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-5-1-17-special-holy-magic-list-rahda-special-holy-magic-list-2b5965cc]] - broader source section: 5.1.17 Special Holy Magic List / Rahda Special Holy Magic List
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-5-1-17-special-holy-magic-list-rahda-special-holy-magic-list-inspiration-spell-level-3-eeeda2a0]] - previous source section: 5.1.17 Special Holy Magic List / Rahda Special Holy Magic List / [ Inspiration ] (Spell Level=3)
 - [[sword-world-rpg-complete-edition-section-5-1-17-special-holy-magic-list-rahda-special-holy-magic-list-legend-spell-level-7-0024b692]] - next source section: 5.1.17 Special Holy Magic List / Rahda Special Holy Magic List / [ Legend ] (Spell Level=7)
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-5-1-17-special-holy-magic-list-rahda-special-holy-magic-list-2b5965cc]] - broader source section: 5.1.17 Special Holy Magic List / Rahda Special Holy Magic List
 
 ## Statements
 
@@ -39,4 +44,5 @@ From [[sword-world-rpg-complete-edition]].
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-03837))_
 
+<a id="atom-technical-atom-381eaa9e15006841"></a>
 > If a character has this spell cast on them and a monster with fixed strike points attacks, the character's defense roll will be affected.

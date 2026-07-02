@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-12-2-2-illnesses-lycanthropy-273174c8@ae797169434c09ae4bd125d8048d05ef
+projection_coverage: section-sword-world-rpg-complete-edition-section-12-2-2-illnesses-lycanthropy-273174c8@d693edc642a1442b915b29ebb80cdee4
 ---
 
 # 12.2.2 Illnesses / [ Lycanthropy ]
@@ -17,9 +17,14 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-12-2-2-illnesses-5611d07e]] - broader source section: 12.2.2 Illnesses
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-12-2-2-illnesses-humbaba-curse-23191d95]] - previous source section: 12.2.2 Illnesses / [ Humbaba Curse ]
 - [[sword-world-rpg-complete-edition-section-12-2-2-illnesses-rat-disease-53ac68c7]] - next source section: 12.2.2 Illnesses / [ Rat Disease ]
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-12-2-2-illnesses-5611d07e]] - broader source section: 12.2.2 Illnesses
 
 ## Statements
 

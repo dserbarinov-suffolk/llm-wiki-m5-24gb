@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-13-2-3-youma-hecatoncheir-31491c8c@12dcc8b77c4513998922f2ea0d532a0b
+projection_coverage: section-sword-world-rpg-complete-edition-section-13-2-3-youma-hecatoncheir-31491c8c@f6a2ecac9cf5c1c63b6bb6f79f1095b4
 ---
 
 # 13.2.3 Youma / [ Hecatoncheir ]
@@ -17,9 +17,14 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-13-2-3-youma-05ea9fd0]] - broader source section: 13.2.3 Youma
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-13-2-3-youma-troll-monster-level-6-rarity-11-agility-12-movement-speed-24-number-one-to-several-a7270635]] - previous source section: 13.2.3 Youma / [ Troll ] Monster Level=6 Rarity=11 Agility=12 Movement Speed=24 Number=One to several Frequency=Rare Intellect=Low Reaction=Adversarial Attack Points=Arm:14 (7) Strike Points=13 Evasion Points=13 (6) Defense Points=11 Life Points/Resistance=21/15 (8) Mental Points/Resistance=14/14 (7) Special Abilities=Camouflage (Sense target score=13) Habitat=Caves, hills Languages=Giant Perception=Five senses (darkvision)
 - [[sword-world-rpg-complete-edition-section-13-2-3-youma-giant-398539fc]] - next source section: 13.2.3 Youma / [ Giant ]
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-13-2-3-youma-05ea9fd0]] - broader source section: 13.2.3 Youma
 
 ## Statements
 
@@ -38,4 +43,5 @@ From [[sword-world-rpg-complete-edition]].
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-06349))_
 
+<a id="atom-technical-atom-2700f0cf5ffb93e6"></a>
 > Perception=Five senses (darkvision)

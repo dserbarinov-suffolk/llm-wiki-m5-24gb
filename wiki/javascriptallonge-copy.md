@@ -4,10 +4,10 @@ page_kind: concept
 summary: Copy: 7 statement(s) and 9 atom(s) from raw/javascriptallonge.pdf.
 page_family: broad-topic
 sources: raw/javascriptallonge.pdf
-updated: 2026-07-01
+updated: 2026-07-02
 domain: javascriptallonge
 category_path: concepts
-projection_coverage: topic-javascriptallonge-copy@8beec9dbab9c6c7066b19925163e0fb3
+projection_coverage: topic-javascriptallonge-copy@61f7a7ff6e6424a1da873beb682d42c3
 ---
 
 # Copy
@@ -49,6 +49,7 @@ What [[javascriptallonge]] covers about copy:
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01041))_
 
+<a id="atom-technical-atom-cc6241a012867740"></a>
 ```
 cdr(oneToFive)
 //=> [2,[3,[4,[5,null]]]]
@@ -62,6 +63,7 @@ cdr(oneToFive)
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01102))_
 
+<a id="atom-technical-atom-bace31307fdcecd9"></a>
 ```
 In that case, a linked list of the numbers 1, 2, and 3 will look like this: { first: 1, rest: { first:
 2, rest: { first: 3, rest: EMPTY } } }.
@@ -76,6 +78,7 @@ We can then perform the equivalent of [first, ...rest] with direct property acce
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01103))_
 
+<a id="atom-technical-atom-55614a7e6312a79f"></a>
 ```
 const EMPTY = {};
 const OneTwoThree = { first: 1, rest: { first: 2, rest: { first: 3, rest: EMPTY \
@@ -103,6 +106,7 @@ length(OneTwoThree)
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01105))_
 
+<a id="atom-technical-atom-15d969a4e1cd03dd"></a>
 ```
 const slowcopy = (node) =>
 node === EMPTY
@@ -120,6 +124,7 @@ slowcopy(OneTwoThree)
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01110))_
 
+<a id="atom-technical-atom-378688b13fd63662"></a>
 ```
 const reverse = (node, delayed = EMPTY) =>
 node === EMPTY
@@ -153,6 +158,7 @@ mapWith((x) => x * x, OneTwoThree)
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01241))_
 
+<a id="atom-technical-atom-ff1a11e29eb3914a"></a>
 ```
 const rest = ({first, rest}) => rest;
 const set = (index, value, list) =>
@@ -174,6 +180,7 @@ const newChildList = set(0, "two", childList);
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01245))_
 
+<a id="atom-technical-atom-9eb84e521487b3d3"></a>
 ```
 newParentList
 //=> {"first":1,"rest":{"first":2,"rest":{"first":"three","rest":{"first":{},"\
@@ -190,6 +197,7 @@ newChildList
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01330))_
 
+<a id="atom-technical-atom-57cdb7ea2b16e63b"></a>
 ```text
 76 http://www.amazon.com/gp/product/0192801422/ref=as_li_ss_tl?ie=UTF8&tag=raganwald001-20&linkCode=as2&camp=1789&creative= 390957&creativeASIN=0192801422
 77 http://oscin.es
@@ -213,6 +221,7 @@ newChildList
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01401))_
 
+<a id="atom-technical-atom-e05b4d965ecfffbd"></a>
 ```text
 79 https://en.wikipedia.org/wiki/Church_encoding
 81 https://en.wikipedia.org/wiki/Gauge_boson
@@ -233,16 +242,24 @@ newChildList
 
 ## Related pages
 
-- [[javascriptallonge-copy-write]] - narrower topic: Copy on Write shares source evidence from Copy on Write / a few utilities / copy-on-write: This strategy of waiting to copy until you are writing is called copy-on-write, or 'COW:'; Copy on Write shares technical record from Copy on Write / a few utilities / copy-on-write: const rest = ({first, rest}) => rest; const set = (index, value, list) => index === 0 ? { first: value, rest: list.rest } : { first: list.first, rest: set(index - 1, ... [truncated] (3 shared statement(s), 4 shared atom(s))
+### Shared technical atoms
+
 - [[javascriptallonge-list]] - shared statements and technical atoms: List shares source evidence from Garbage, Garbage Everywhere / some history: Again, it's just extracting a reference from a cons cell, it's very fast. In Lisp, it's blazingly fast because it happens in hardware. There's no making copies of ar ... [truncated]; List shares technical record from Garbage, Garbage Everywhere / some history: cdr(oneToFive) //=> [2,[3,[4,[5,null]]]] (2 shared statement(s), 8 shared atom(s))
 - [[javascriptallonge-write]] - shared statements and technical atoms: Write shares source evidence from Copy on Write / a few utilities / copy-on-write: Copy-on-write is the name given to the policy that whenever a task attempts to make a change to the shared information, it should first create a separate (private) c ... [truncated]; Write shares technical record from Copy on Write / Making Data Out Of Functions: 76 http://www.amazon.com/gp/product/0192801422/ref=as_li_ss_tl?ie=UTF8&tag=raganwald001-20&linkCode=as2&camp=1789&creative= 390957&creativeASIN=0192801422 77 http://oscin.es (2 shared statement(s), 2 shared atom(s))
-- [[javascriptallonge-element]] - shared statements and technical atoms: Element shares source evidence from Garbage, Garbage Everywhere / some history: Again, it's just extracting a reference from a cons cell, it's very fast. In Lisp, it's blazingly fast because it happens in hardware. There's no making copies of ar ... [truncated]; Element shares technical record from Garbage, Garbage Everywhere / some history: cdr(oneToFive) //=> [2,[3,[4,[5,null]]]] (1 shared statement(s), 1 shared atom(s))
 - [[javascriptallonge-data]] - shared technical atoms: Data shares technical record from Copy on Write / Making Data Out Of Functions: 76 http://www.amazon.com/gp/product/0192801422/ref=as_li_ss_tl?ie=UTF8&tag=raganwald001-20&linkCode=as2&camp=1789&creative= 390957&creativeASIN=0192801422 77 http://oscin.es (2 shared atom(s))
 - [[javascriptallonge-object]] - shared technical atoms: Object shares technical record from Plain Old JavaScript Objects / revisiting linked lists: In that case, a linked list of the numbers 1, 2, and 3 will look like this: { first: 1, rest: { first: 2, rest: { first: 3, rest: EMPTY } } }. We can then perform th ... [truncated] (2 shared atom(s))
+- [[javascriptallonge-element]] - shared statements and technical atoms: Element shares source evidence from Garbage, Garbage Everywhere / some history: Again, it's just extracting a reference from a cons cell, it's very fast. In Lisp, it's blazingly fast because it happens in hardware. There's no making copies of ar ... [truncated]; Element shares technical record from Garbage, Garbage Everywhere / some history: cdr(oneToFive) //=> [2,[3,[4,[5,null]]]] (1 shared statement(s), 1 shared atom(s))
 - [[javascriptallonge-javascript]] - shared technical atoms: Javascript shares technical record from Garbage, Garbage Everywhere / some history: cdr(oneToFive) //=> [2,[3,[4,[5,null]]]] (1 shared atom(s))
 - [[javascriptallonge-reference]] - shared technical atoms: Reference shares technical record from Garbage, Garbage Everywhere / some history: cdr(oneToFive) //=> [2,[3,[4,[5,null]]]] (1 shared atom(s))
 - [[javascriptallonge-structure]] - shared technical atoms: Structure shares technical record from Garbage, Garbage Everywhere / some history: cdr(oneToFive) //=> [2,[3,[4,[5,null]]]] (1 shared atom(s))
+
+### Shared claims
+
 - [[javascriptallonge-pattern]] - shared statements: Pattern shares source evidence from Copy on Write / a few utilities / copy-on-write: Looking at the code again, you see that the copy function doesn't copy on write: It follows the pattern that while constructing something, we own it and can be liber ... [truncated] (1 shared statement(s))
+
+### Topics
+
+- [[javascriptallonge-copy-write]] - narrower topic: Copy on Write shares source evidence from Copy on Write / a few utilities / copy-on-write: This strategy of waiting to copy until you are writing is called copy-on-write, or 'COW:'; Copy on Write shares technical record from Copy on Write / a few utilities / copy-on-write: const rest = ({first, rest}) => rest; const set = (index, value, list) => index === 0 ? { first: value, rest: list.rest } : { first: list.first, rest: set(index - 1, ... [truncated] (3 shared statement(s), 4 shared atom(s))
 
 ## Source
 

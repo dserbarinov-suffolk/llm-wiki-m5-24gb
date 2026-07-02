@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-wehner-3fa3b3a1@3d545e7bd0a944d89b77d3d39581b0a6
+projection_coverage: section-sword-world-rpg-complete-edition-section-wehner-3fa3b3a1@85fa70a044c8198ed06dca31098ac04a
 ---
 
 # 《 Wehner 》
@@ -16,6 +16,8 @@ projection_coverage: section-sword-world-rpg-complete-edition-section-wehner-3fa
 From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
+
+### Source order
 
 - [[sword-world-rpg-complete-edition-section-fenes-b73a7d3a]] - previous source section: 《 Fenes 》
 - [[sword-world-rpg-complete-edition-section-ganerd-ca0a1c92]] - next source section: 《 Ganerd 》

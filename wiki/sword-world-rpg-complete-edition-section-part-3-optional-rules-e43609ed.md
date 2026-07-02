@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-part-3-optional-rules-e43609ed@24466cd2253b8bf7b6f689e40ffb4fef
+projection_coverage: section-sword-world-rpg-complete-edition-section-part-3-optional-rules-e43609ed@046f08875cac7bb2535e843c26fac72a
 ---
 
 # Part 3 Optional Rules
@@ -16,6 +16,8 @@ projection_coverage: section-sword-world-rpg-complete-edition-section-part-3-opt
 From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
+
+### Source order
 
 - [[sword-world-rpg-complete-edition-section-part-2-game-master-section-f9fa84b3]] - previous source section: Part 2 Game Master Section
 - [[sword-world-rpg-complete-edition-section-guide-to-forcelia-and-alecrast-2bc9f290]] - next source section: Guide to Forcelia and Alecrast

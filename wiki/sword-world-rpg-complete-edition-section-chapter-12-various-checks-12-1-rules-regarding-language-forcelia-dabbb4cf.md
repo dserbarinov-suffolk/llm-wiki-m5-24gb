@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-12-various-checks-12-1-rules-regarding-language-forcelia-dabbb4cf@c72a77bbc0d4d034908706b3fe27c302
+projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-12-various-checks-12-1-rules-regarding-language-forcelia-dabbb4cf@4e5ddfcbaef68f945f9cb34ab70b5cd7
 ---
 
 # Chapter 12: Various Checks / 12.1 Rules Regarding Language / Forcelia
@@ -17,22 +17,20 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-chapter-12-various-checks-12-1-rules-regarding-language-5c470256]] - broader source section: Chapter 12: Various Checks / 12.1 Rules Regarding Language
-- [[sword-world-rpg-complete-edition-section-chapter-12-various-checks-12-1-rules-regarding-language-forcelia-common-d79984de]] - narrower source section: Chapter 12: Various Checks / 12.1 Rules Regarding Language / Forcelia / 《 Common 》
-- [[sword-world-rpg-complete-edition-section-chapter-12-various-checks-12-1-rules-regarding-language-forcelia-regional-1fb2dfbd]] - narrower source section: Chapter 12: Various Checks / 12.1 Rules Regarding Language / Forcelia / 《 Regional 》
-- [[sword-world-rpg-complete-edition-section-chapter-12-various-checks-12-1-rules-regarding-language-forcelia-m-rdan-32992b0a]] - narrower source section: Chapter 12: Various Checks / 12.1 Rules Regarding Language / Forcelia / [ Mārdan ]
-- [[sword-world-rpg-complete-edition-section-chapter-12-various-checks-12-1-rules-regarding-language-forcelia-gundar-d136bcec]] - narrower source section: Chapter 12: Various Checks / 12.1 Rules Regarding Language / Forcelia / [ Gundar ]
-- [[sword-world-rpg-complete-edition-section-chapter-12-various-checks-12-1-rules-regarding-language-forcelia-low-ancient-1306f0b3]] - narrower source section: Chapter 12: Various Checks / 12.1 Rules Regarding Language / Forcelia / 《 Low Ancient 》
-- [[sword-world-rpg-complete-edition-section-chapter-12-various-checks-12-1-rules-regarding-language-forcelia-racial-bd18b878]] - narrower source section: Chapter 12: Various Checks / 12.1 Rules Regarding Language / Forcelia / 《 Racial 》
-- [[sword-world-rpg-complete-edition-section-chapter-12-various-checks-12-1-rules-regarding-language-forcelia-elven-0742886a]] - narrower source section: Chapter 12: Various Checks / 12.1 Rules Regarding Language / Forcelia / [ Elven ]
-- [[sword-world-rpg-complete-edition-section-chapter-12-various-checks-12-1-rules-regarding-language-forcelia-dwarven-752a308a]] - narrower source section: Chapter 12: Various Checks / 12.1 Rules Regarding Language / Forcelia / [ Dwarven ]
-- [[sword-world-rpg-complete-edition-section-chapter-12-various-checks-12-1-rules-regarding-language-forcelia-centaurian-834c5d10]] - narrower source section: Chapter 12: Various Checks / 12.1 Rules Regarding Language / Forcelia / [ Centaurian ]
-- [[sword-world-rpg-complete-edition-section-chapter-12-various-checks-12-1-rules-regarding-language-forcelia-goblin-2b16f414]] - narrower source section: Chapter 12: Various Checks / 12.1 Rules Regarding Language / Forcelia / [ Goblin ]
-- [[sword-world-rpg-complete-edition-section-chapter-12-various-checks-12-1-rules-regarding-language-forcelia-giant-3894ed9d]] - narrower source section: Chapter 12: Various Checks / 12.1 Rules Regarding Language / Forcelia / [ Giant ]
-- [[sword-world-rpg-complete-edition-section-chapter-12-various-checks-12-1-rules-regarding-language-forcelia-harpy-edf17f49]] - narrower source section: Chapter 12: Various Checks / 12.1 Rules Regarding Language / Forcelia / [ Harpy ]
-- [[sword-world-rpg-complete-edition-section-chapter-12-various-checks-12-1-rules-regarding-language-forcelia-merman-398b9bcb]] - narrower source section: Chapter 12: Various Checks / 12.1 Rules Regarding Language / Forcelia / [ Merman ]
-- [[sword-world-rpg-complete-edition-section-chapter-12-various-checks-12-1-rules-regarding-language-forcelia-lizardman-81cd8f58]] - narrower source section: Chapter 12: Various Checks / 12.1 Rules Regarding Language / Forcelia / [ Lizardman ]
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-chapter-12-various-checks-12-1-rules-regarding-language-12-1-3-adventurer-languages-ce57733a]] - next source section: Chapter 12: Various Checks / 12.1 Rules Regarding Language / 12.1.3 Adventurer Languages
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-chapter-12-various-checks-12-1-rules-regarding-language-5c470256]] - broader source section: Chapter 12: Various Checks / 12.1 Rules Regarding Language
+- [[sword-world-rpg-complete-edition-section-chapter-12-various-checks-12-1-rules-regarding-language-forcelia-centaurian-834c5d10]] - narrower source section: Chapter 12: Various Checks / 12.1 Rules Regarding Language / Forcelia / [ Centaurian ]
+- [[sword-world-rpg-complete-edition-section-chapter-12-various-checks-12-1-rules-regarding-language-forcelia-common-d79984de]] - narrower source section: Chapter 12: Various Checks / 12.1 Rules Regarding Language / Forcelia / 《 Common 》
+- [[sword-world-rpg-complete-edition-section-chapter-12-various-checks-12-1-rules-regarding-language-forcelia-dwarven-752a308a]] - narrower source section: Chapter 12: Various Checks / 12.1 Rules Regarding Language / Forcelia / [ Dwarven ]
+- [[sword-world-rpg-complete-edition-section-chapter-12-various-checks-12-1-rules-regarding-language-forcelia-elven-0742886a]] - narrower source section: Chapter 12: Various Checks / 12.1 Rules Regarding Language / Forcelia / [ Elven ]
+- [[sword-world-rpg-complete-edition-section-chapter-12-various-checks-12-1-rules-regarding-language-forcelia-giant-3894ed9d]] - narrower source section: Chapter 12: Various Checks / 12.1 Rules Regarding Language / Forcelia / [ Giant ]
+- [[sword-world-rpg-complete-edition-section-chapter-12-various-checks-12-1-rules-regarding-language-forcelia-goblin-2b16f414]] - narrower source section: Chapter 12: Various Checks / 12.1 Rules Regarding Language / Forcelia / [ Goblin ]
+- [[sword-world-rpg-complete-edition-section-chapter-12-various-checks-12-1-rules-regarding-language-forcelia-gundar-d136bcec]] - narrower source section: Chapter 12: Various Checks / 12.1 Rules Regarding Language / Forcelia / [ Gundar ]
 
 ## Statements
 

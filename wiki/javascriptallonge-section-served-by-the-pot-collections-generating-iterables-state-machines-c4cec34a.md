@@ -4,11 +4,11 @@ page_kind: source
 summary: Served by the Pot: Collections / Generating Iterables / state machines: 17 source-backed entries and 1 atom(s) from raw/javascriptallonge.pdf.
 page_family: section-reference
 sources: raw/javascriptallonge.pdf
-updated: 2026-07-01
+updated: 2026-07-02
 domain: javascriptallonge
 category_path: sources/javascriptallonge/sections
 source_id: javascriptallonge.pdf
-projection_coverage: section-javascriptallonge-section-served-by-the-pot-collections-generating-iterables-state-machines-c4cec34a@f68a751ee092439fa273a8982ae5908f
+projection_coverage: section-javascriptallonge-section-served-by-the-pot-collections-generating-iterables-state-machines-c4cec34a@6c1990979a96ea15b5249b271f22135a
 ---
 
 # Served by the Pot: Collections / Generating Iterables / state machines
@@ -17,10 +17,15 @@ From [[javascriptallonge]].
 
 ## Related pages
 
-- [[javascriptallonge-section-served-by-the-pot-collections-generating-iterables-8c929c4d]] - broader source section: Served by the Pot: Collections / Generating Iterables
-- [[javascriptallonge-section-served-by-the-pot-collections-generating-iterables-state-machines-we-ll-keep-it-simple-b9ff91ab]] - narrower source section: Served by the Pot: Collections / Generating Iterables / state machines / We'll keep it simple:
+### Source order
+
 - [[javascriptallonge-section-served-by-the-pot-collections-generating-iterables-recursive-iterators-6bfe7273]] - previous source section: Served by the Pot: Collections / Generating Iterables / recursive iterators
 - [[javascriptallonge-section-served-by-the-pot-collections-generating-iterables-javascript-s-generators-c3a5aa1e]] - next source section: Served by the Pot: Collections / Generating Iterables / javascript's generators
+
+### Source structure
+
+- [[javascriptallonge-section-served-by-the-pot-collections-generating-iterables-8c929c4d]] - broader source section: Served by the Pot: Collections / Generating Iterables
+- [[javascriptallonge-section-served-by-the-pot-collections-generating-iterables-state-machines-we-ll-keep-it-simple-b9ff91ab]] - narrower source section: Served by the Pot: Collections / Generating Iterables / state machines / We'll keep it simple:
 
 ## Statements
 
@@ -50,6 +55,7 @@ From [[javascriptallonge]].
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01648))_
 
+<a id="atom-technical-atom-e8b408628ccd4bce"></a>
 ```text
 while (true) {
 [a, b] = [b, a + b];

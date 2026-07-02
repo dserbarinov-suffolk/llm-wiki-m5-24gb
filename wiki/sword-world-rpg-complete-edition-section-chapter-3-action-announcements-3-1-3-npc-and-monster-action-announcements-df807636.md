@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-3-action-announcements-3-1-3-npc-and-monster-action-announcements-df807636@f4050ab5ebe8436867074d4b80b42c5f
+projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-3-action-announcements-3-1-3-npc-and-monster-action-announcements-df807636@c69da02df1e7ca6198d54a5267b0d8a6
 ---
 
 # Chapter 3: / Action Announcements / 3.1.3 NPC and Monster Action Announcements
@@ -17,8 +17,13 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-chapter-3-action-announcements-7eca0973]] - broader source section: Chapter 3: / Action Announcements
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-chapter-3-action-announcements-3-1-2-player-action-announcements-586f9066]] - previous source section: Chapter 3: / Action Announcements / 3.1.2 Player Action Announcements
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-chapter-3-action-announcements-7eca0973]] - broader source section: Chapter 3: / Action Announcements
 
 ## Statements
 

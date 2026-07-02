@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-5-1-14-spirit-magic-list-8th-level-spirit-magic-list-ice-coffin-firestorm-efreet-greater-fire-sp-ef992285@d5a855d3cdef84cafee6a7af916d7238
+projection_coverage: section-sword-world-rpg-complete-edition-section-5-1-14-spirit-magic-list-8th-level-spirit-magic-list-ice-coffin-firestorm-efreet-greater-fire-sp-ef992285@6844450304f37842946460dd3b50aa54
 ---
 
 # 5.1.14 Spirit Magic List / 8th Level Spirit Magic List [ Ice Coffin ] / [ Firestorm ] (Efreet/Greater Fire Spirit)
@@ -17,9 +17,14 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-5-1-14-spirit-magic-list-8th-level-spirit-magic-list-ice-coffin-3b781afa]] - broader source section: 5.1.14 Spirit Magic List / 8th Level Spirit Magic List [ Ice Coffin ]
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-5-1-14-spirit-magic-list-8th-level-spirit-magic-list-ice-coffin-nightmare-incubus-succubus-dream-dba7d50a]] - previous source section: 5.1.14 Spirit Magic List / 8th Level Spirit Magic List [ Ice Coffin ] / [ Nightmare ] (Incubus, Succubus/Dream Spirit)
 - [[sword-world-rpg-complete-edition-section-5-1-14-spirit-magic-list-8th-level-spirit-magic-list-ice-coffin-maze-woods-ent-greater-plant-spi-b03a105c]] - next source section: 5.1.14 Spirit Magic List / 8th Level Spirit Magic List [ Ice Coffin ] / [ Maze Woods ] (Ent/Greater Plant Spirit)
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-5-1-14-spirit-magic-list-8th-level-spirit-magic-list-ice-coffin-3b781afa]] - broader source section: 5.1.14 Spirit Magic List / 8th Level Spirit Magic List [ Ice Coffin ]
 
 ## Statements
 

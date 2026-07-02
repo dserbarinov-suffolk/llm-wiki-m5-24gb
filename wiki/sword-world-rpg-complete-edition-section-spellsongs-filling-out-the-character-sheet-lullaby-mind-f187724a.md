@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-spellsongs-filling-out-the-character-sheet-lullaby-mind-f187724a@cdeea2b9c639baf78dc81f10229be88f
+projection_coverage: section-sword-world-rpg-complete-edition-section-spellsongs-filling-out-the-character-sheet-lullaby-mind-f187724a@a78853f76da25f7ef6a7a280f9b7ac4b
 ---
 
 # Spellsongs / Filling out the Character Sheet / Lullaby (Mind)
@@ -17,9 +17,14 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-spellsongs-filling-out-the-character-sheet-866f5da1]] - broader source section: Spellsongs / Filling out the Character Sheet
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-spellsongs-filling-out-the-character-sheet-morale-mind-13d744e7]] - previous source section: Spellsongs / Filling out the Character Sheet / Morale (Mind)
 - [[sword-world-rpg-complete-edition-section-spellsongs-filling-out-the-character-sheet-requiem-14d6191f]] - next source section: Spellsongs / Filling out the Character Sheet / Requiem
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-spellsongs-filling-out-the-character-sheet-866f5da1]] - broader source section: Spellsongs / Filling out the Character Sheet
 
 ## Statements
 

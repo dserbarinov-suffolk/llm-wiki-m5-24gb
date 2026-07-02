@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-13-2-1-humans-attack-points-95c786c0@09fbf1f3758208ce203cd9a5beeff00a
+projection_coverage: section-sword-world-rpg-complete-edition-section-13-2-1-humans-attack-points-95c786c0@e4ba12f44103f16a12252bd3b7378e26
 ---
 
 # 13.2.1 《 Humans 》 / 《 Attack Points 》
@@ -17,9 +17,17 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-13-2-1-humans-2369e4b2]] - broader source section: 13.2.1 《 Humans 》
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-13-2-1-humans-reaction-ea4ee40f]] - previous source section: 13.2.1 《 Humans 》 / 《 Reaction 》
 - [[sword-world-rpg-complete-edition-section-13-2-1-humans-strike-points-e927c83f]] - next source section: 13.2.1 《 Humans 》 / 《 Strike Points
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-13-2-1-humans-2369e4b2]] - broader source section: 13.2.1 《 Humans 》
+
+### Topics
+
 - [[sword-world-rpg-complete-edition-attack]] - topic hub: opens the topic page for Attack
 
 ## Statements
@@ -41,4 +49,5 @@ From [[sword-world-rpg-complete-edition]].
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-05938))_
 
+<a id="atom-technical-atom-a1b38e16cdae6783"></a>
 > In this case, if they're written on one line separated by a slash (/), it means that they can attack that number of times in one round.

@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-magic-list-cure-wounds-2bf72421@e28444ff9238f9838cec0a21a950e153
+projection_coverage: section-sword-world-rpg-complete-edition-section-magic-list-cure-wounds-2bf72421@0b4578720fc772e45d865702f75d78b9
 ---
 
 # Magic List [ Cure Wounds ]
@@ -17,10 +17,15 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-magic-list-cure-wounds-sanity-base-mental-power-cost-3-distance-touch-area-one-duration-instant-482eb8f1]] - narrower source section: Magic List [ Cure Wounds ] / [ Sanity ] Base Mental Power Cost=3 Distance=Touch Area=One Duration=Instant Effect=Restore the target's peace of mind Type=Mind Expansion=Final score Resist=Negated effect
-- [[sword-world-rpg-complete-edition-section-magic-list-cure-wounds-turn-undead-2475705d]] - narrower source section: Magic List [ Cure Wounds ] / [ Turn Undead ]
-- [[sword-world-rpg-complete-edition-section-magic-list-cure-wounds-transfer-mental-power-b2346a6e]] - narrower source section: Magic List [ Cure Wounds ] / [ Transfer Mental Power
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-2nd-level-basic-holy-magic-list-cure-deafness-3286a71c]] - next source section: 2nd Level Basic Holy Magic List [ Cure Deafness ]
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-magic-list-cure-wounds-sanity-base-mental-power-cost-3-distance-touch-area-one-duration-instant-482eb8f1]] - narrower source section: Magic List [ Cure Wounds ] / [ Sanity ] Base Mental Power Cost=3 Distance=Touch Area=One Duration=Instant Effect=Restore the target's peace of mind Type=Mind Expansion=Final score Resist=Negated effect
+- [[sword-world-rpg-complete-edition-section-magic-list-cure-wounds-transfer-mental-power-b2346a6e]] - narrower source section: Magic List [ Cure Wounds ] / [ Transfer Mental Power
+- [[sword-world-rpg-complete-edition-section-magic-list-cure-wounds-turn-undead-2475705d]] - narrower source section: Magic List [ Cure Wounds ] / [ Turn Undead ]
 
 ## Statements
 
@@ -59,6 +64,7 @@ From [[sword-world-rpg-complete-edition]].
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-03454))_
 
+<a id="atom-technical-atom-1c52de693340bb65"></a>
 | The | undead | go | berserk | from | a | state | of | panic. | Attack | points | +2, | evasion | points | -4. | Even | those | with | intelligence | can | no | longer | act | rationally | and |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 2 cannot 3 Same | use as | magic, above | etc. |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
@@ -89,6 +95,7 @@ Table 5-6: Turn Undead
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-03456))_
 
+<a id="atom-technical-atom-a24cd71031e91cb7"></a>
 ```text
 2 The undead go berserk from a state of panic. Attack points +2, evasion points -4. Even those with intelligence can no longer act rationally and cannot use magic, etc.
 3 Same as above

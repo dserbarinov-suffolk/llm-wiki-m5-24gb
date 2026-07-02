@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-3-pick-a-weapon-up-off-the-ground-and-ready-it-0bc7258e@948642e12215bfa8046601cb37b11c10
+projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-3-pick-a-weapon-up-off-the-ground-and-ready-it-0bc7258e@6b7d802f4cc71e6115fd1a8029f192f3
 ---
 
 # Chapter 3: / Pick a Weapon Up off the Ground and Ready It
@@ -17,8 +17,13 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-chapter-3-92cd315b]] - broader source section: Chapter 3:
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-chapter-3-switch-out-a-onehanded-weapon-b57b987f]] - next source section: Chapter 3: / Switch Out a OneHanded Weapon
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-chapter-3-92cd315b]] - broader source section: Chapter 3:
 
 ## Statements
 

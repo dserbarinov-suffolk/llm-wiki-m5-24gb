@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-14-4-2-list-of-magical-items-twisted-sling-03307920@ae943b24aab9ca04640bebc30c4af2a1
+projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-14-4-2-list-of-magical-items-twisted-sling-03307920@7e414664aa7734b1a890f81c0e38d695
 ---
 
 # Chapter 14: / 14.4 Magical Item List / 14.4.2 List of Magical Items / 《 Twisted Sling 》
@@ -17,9 +17,14 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-14-4-2-list-of-magical-items-7461270b]] - broader source section: Chapter 14: / 14.4 Magical Item List / 14.4.2 List of Magical Items
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-14-4-2-list-of-magical-items-slice-slider-5856278d]] - previous source section: Chapter 14: / 14.4 Magical Item List / 14.4.2 List of Magical Items / 《 Slice Slider 》
 - [[sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-14-4-2-list-of-magical-items-fame-face-f163d24a]] - next source section: Chapter 14: / 14.4 Magical Item List / 14.4.2 List of Magical Items / 《 Fame Face 》
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-14-4-2-list-of-magical-items-7461270b]] - broader source section: Chapter 14: / 14.4 Magical Item List / 14.4.2 List of Magical Items
 
 ## Statements
 

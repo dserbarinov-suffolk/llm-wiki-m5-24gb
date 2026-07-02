@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-13-2-6-mythical-beasts-and-magical-beasts-horse-13-2-12-humans-soldier-1913fa70@2bf9ee250b27b5bcde72ae37b90667ee
+projection_coverage: section-sword-world-rpg-complete-edition-section-13-2-6-mythical-beasts-and-magical-beasts-horse-13-2-12-humans-soldier-1913fa70@2bb3a459b3259e4707426b2f750cf8b8
 ---
 
 # 13.2.6 Mythical Beasts and Magical Beasts / [ Horse ] / 13.2.12 Humans / [ Soldier ]
@@ -17,9 +17,14 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-13-2-6-mythical-beasts-and-magical-beasts-horse-13-2-12-humans-b1a222f1]] - broader source section: 13.2.6 Mythical Beasts and Magical Beasts / [ Horse ] / 13.2.12 Humans
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-13-2-6-mythical-beasts-and-magical-beasts-horse-13-2-12-humans-bandit-25c7148c]] - previous source section: 13.2.6 Mythical Beasts and Magical Beasts / [ Horse ] / 13.2.12 Humans / [ Bandit ]
 - [[sword-world-rpg-complete-edition-section-13-2-6-mythical-beasts-and-magical-beasts-horse-13-2-12-humans-dark-priest-warrior-b095b367]] - next source section: 13.2.6 Mythical Beasts and Magical Beasts / [ Horse ] / 13.2.12 Humans / [ Dark Priest Warrior ]
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-13-2-6-mythical-beasts-and-magical-beasts-horse-13-2-12-humans-b1a222f1]] - broader source section: 13.2.6 Mythical Beasts and Magical Beasts / [ Horse ] / 13.2.12 Humans
 
 ## Statements
 
@@ -40,34 +45,50 @@ From [[sword-world-rpg-complete-edition]].
 
 **Atoms:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-08484, source-range-0d48087c-08485, source-range-0d48087c-08486, source-range-0d48087c-08487, source-range-0d48087c-08488, source-range-0d48087c-08489, source-range-0d48087c-08490, source-range-0d48087c-08491, source-range-0d48087c-08492, source-range-0d48087c-08493, source-range-0d48087c-08494, source-range-0d48087c-08495, source-range-0d48087c-08496, source-range-0d48087c-08497, source-range-0d48087c-08498, source-range-0d48087c-08499))_
 
+<a id="atom-technical-atom-01b3941bc18800fa"></a>
 > Monster Level=1
 
+<a id="atom-technical-atom-361d904e0ee556c5"></a>
 > Rarity=5
 
+<a id="atom-technical-atom-bac1e6d72cc93900"></a>
 > Agility=12
 
+<a id="atom-technical-atom-e38f1cb4f240859a"></a>
 > Movement Speed=12
 
+<a id="atom-technical-atom-797d368b5ba8f5b8"></a>
 > Number=One to dozens
 
+<a id="atom-technical-atom-ca9e221a7633ba8f"></a>
 > Frequency=Frequent
 
+<a id="atom-technical-atom-98481dd685665f9f"></a>
 > Intellect=Human Reaction=Friendly
 
+<a id="atom-technical-atom-6306dfed3da92950"></a>
 > Attack Points=Weapon: 8 (1)
 
+<a id="atom-technical-atom-e617ca47e414c954"></a>
 > Strike Points=5
 
+<a id="atom-technical-atom-951193a415e9d7cd"></a>
 > Evasion Points=9 (2) Defense Points=5
 
+<a id="atom-technical-atom-b85d6416fe08e724"></a>
 > Life Points/Resistance=12/9 (2)
 
+<a id="atom-technical-atom-bc53a87a0d9f5525"></a>
 > Mental Points/Resistance=2/9 (2)
 
+<a id="atom-technical-atom-906f10715301a58a"></a>
 > Special Abilities=None in particular
 
+<a id="atom-technical-atom-a97f53b27d451afc"></a>
 > Habitat=Towns, villages
 
+<a id="atom-technical-atom-fbc42ecc36f74968"></a>
 > Languages=Regional
 
+<a id="atom-technical-atom-b08e0ac79d5bead6"></a>
 > Perception=Five senses

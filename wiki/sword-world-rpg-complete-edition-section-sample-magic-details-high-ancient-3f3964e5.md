@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-sample-magic-details-high-ancient-3f3964e5@0744778f79d1785d47fd36687472ead3
+projection_coverage: section-sword-world-rpg-complete-edition-section-sample-magic-details-high-ancient-3f3964e5@37cc994024febb41adcf4c9d13b31a1a
 ---
 
 # [Sample Magic Details] / 《 High Ancient 》
@@ -17,9 +17,14 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-sample-magic-details-cbfd0ab1]] - broader source section: [Sample Magic Details]
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-sample-magic-details-5-1-11-ancient-magic-and-the-sorcerer-skill-6106c3bd]] - previous source section: [Sample Magic Details] / 5.1.11 Ancient Magic and the Sorcerer Skill
 - [[sword-world-rpg-complete-edition-section-sample-magic-details-low-ancient-394d76a9]] - next source section: [Sample Magic Details] / 《 Low Ancient 》
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-sample-magic-details-cbfd0ab1]] - broader source section: [Sample Magic Details]
 
 ## Statements
 

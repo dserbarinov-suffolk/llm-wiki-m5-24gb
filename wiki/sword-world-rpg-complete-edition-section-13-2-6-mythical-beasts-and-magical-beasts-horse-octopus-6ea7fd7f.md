@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-13-2-6-mythical-beasts-and-magical-beasts-horse-octopus-6ea7fd7f@52e6a65fc43a98ef21149e0de373fa6f
+projection_coverage: section-sword-world-rpg-complete-edition-section-13-2-6-mythical-beasts-and-magical-beasts-horse-octopus-6ea7fd7f@efb6cb872d8bcf4062507b957d0f4c22
 ---
 
 # 13.2.6 Mythical Beasts and Magical Beasts / [ Horse ] / [ Octopus ]
@@ -17,9 +17,14 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-13-2-6-mythical-beasts-and-magical-beasts-horse-9c294c60]] - broader source section: 13.2.6 Mythical Beasts and Magical Beasts / [ Horse ]
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-13-2-6-mythical-beasts-and-magical-beasts-horse-spider-610b0bc3]] - previous source section: 13.2.6 Mythical Beasts and Magical Beasts / [ Horse ] / [ Spider ]
 - [[sword-world-rpg-complete-edition-section-13-2-6-mythical-beasts-and-magical-beasts-horse-13-2-8-plants-6ae09235]] - next source section: 13.2.6 Mythical Beasts and Magical Beasts / [ Horse ] / 13.2.8 Plants
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-13-2-6-mythical-beasts-and-magical-beasts-horse-9c294c60]] - broader source section: 13.2.6 Mythical Beasts and Magical Beasts / [ Horse ]
 
 ## Statements
 
@@ -41,36 +46,53 @@ From [[sword-world-rpg-complete-edition]].
 
 **Atoms:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-07424, source-range-0d48087c-07425, source-range-0d48087c-07426, source-range-0d48087c-07427, source-range-0d48087c-07428, source-range-0d48087c-07429, source-range-0d48087c-07430, source-range-0d48087c-07431, source-range-0d48087c-07432, source-range-0d48087c-07433, source-range-0d48087c-07434, source-range-0d48087c-07435, source-range-0d48087c-07436, source-range-0d48087c-07437, source-range-0d48087c-07438, source-range-0d48087c-07439, source-range-0d48087c-07440))_
 
+<a id="atom-technical-atom-482834504b1f40b8"></a>
 > Monster Level=7
 
+<a id="atom-technical-atom-21b9c69d5308ade3"></a>
 > Rarity=12
 
+<a id="atom-technical-atom-4dcc465757c98526"></a>
 > Agility=10
 
+<a id="atom-technical-atom-bb3e214c4547986a"></a>
 > Movement Speed=5/20 (water)
 
+<a id="atom-technical-atom-03d4f5f30c5906f3"></a>
 > Number=One
 
+<a id="atom-technical-atom-80df9116071db3b6"></a>
 > Frequency=Very Rare
 
+<a id="atom-technical-atom-48fd35814f722185"></a>
 > Intellect=Animal
 
+<a id="atom-technical-atom-58fb14fbc2856cea"></a>
 > Reaction=Hunger-based
 
+<a id="atom-technical-atom-579754e19941da21"></a>
 > Attack Points=Strangle (8 times):16 (9)
 
+<a id="atom-technical-atom-46367bcbe0b5e316"></a>
 > Strike Points=16
 
+<a id="atom-technical-atom-1ebfccdc8435097b"></a>
 > Evasion Points=12 (5) Defense Points=9
 
+<a id="atom-technical-atom-e2cf8c26eb22a45c"></a>
 > Life Points/Resistance=50/21 (14)
 
+<a id="atom-technical-atom-3e90592d9438a865"></a>
 > Mental Points/Resistance=10/14 (7)
 
+<a id="atom-technical-atom-20137b238d3a953a"></a>
 > Special Abilities=Strangling
 
+<a id="atom-technical-atom-8cb2f54931794b4e"></a>
 > Habitat=Seas
 
+<a id="atom-technical-atom-bd963e837d7f88da"></a>
 > Languages=None
 
+<a id="atom-technical-atom-346a9e2a2574fb0c"></a>
 > Perception=Five senses

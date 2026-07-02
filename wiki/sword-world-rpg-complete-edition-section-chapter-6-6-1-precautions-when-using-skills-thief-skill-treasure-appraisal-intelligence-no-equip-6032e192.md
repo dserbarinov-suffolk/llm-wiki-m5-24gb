@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-6-6-1-precautions-when-using-skills-thief-skill-treasure-appraisal-intelligence-no-equip-6032e192@0c01c8124d53fb580e96bea8bbe7a125
+projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-6-6-1-precautions-when-using-skills-thief-skill-treasure-appraisal-intelligence-no-equip-6032e192@fb5dd6aa25b1b6aea78bcd7a5782cb4d
 ---
 
 # Chapter 6: / 6.1 Precautions When Using Skills / Thief Skill / [ ⑮ Treasure Appraisal [Intelligence] ] (No equipment restriction, not retriable)
@@ -17,9 +17,14 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
+### Source order
+
+- [[sword-world-rpg-complete-edition-section-chapter-6-6-1-precautions-when-using-skills-thief-skill-long-jump-high-jump-agility-equipment-re-76624506]] - previous source section: Chapter 6: / 6.1 Precautions When Using Skills / Thief Skill / [ ⑫ Long Jump/High Jump [Agility] ] (Equipment restriction)
+
+### Source structure
+
 - [[sword-world-rpg-complete-edition-section-chapter-6-6-1-precautions-when-using-skills-thief-skill-f1b62afe]] - broader source section: Chapter 6: / 6.1 Precautions When Using Skills / Thief Skill
 - [[sword-world-rpg-complete-edition-section-chapter-6-6-1-precautions-when-using-skills-thief-skill-treasure-appraisal-intelligence-no-equip-a62ed767]] - narrower source section: Chapter 6: / 6.1 Precautions When Using Skills / Thief Skill / [ ⑮ Treasure Appraisal [Intelligence] ] (No equipment restriction, not retriable) / [ ⑰ Remove/Set Trap [Dexterity] ] (Equipment restriction, not retriable)
-- [[sword-world-rpg-complete-edition-section-chapter-6-6-1-precautions-when-using-skills-thief-skill-long-jump-high-jump-agility-equipment-re-76624506]] - previous source section: Chapter 6: / 6.1 Precautions When Using Skills / Thief Skill / [ ⑫ Long Jump/High Jump [Agility] ] (Equipment restriction)
 
 ## Statements
 

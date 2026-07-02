@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-magic-shield-grey-suit-675afe0f@cb69f29ec881ec5e9912b291407874db
+projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-magic-shield-grey-suit-675afe0f@cfdc3b2f77ef9878f950aa61b7ed0701
 ---
 
 # Chapter 14: / 14.4 Magical Item List / 《 Magic Shield 》 / 《 Grey Suit 》
@@ -17,9 +17,14 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-magic-shield-a31533e2]] - broader source section: Chapter 14: / 14.4 Magical Item List / 《 Magic Shield 》
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-magic-shield-air-cloak-6fdb0d96]] - previous source section: Chapter 14: / 14.4 Magical Item List / 《 Magic Shield 》 / 《 Air Cloak 》
 - [[sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-magic-shield-cold-cloak-e69c6d41]] - next source section: Chapter 14: / 14.4 Magical Item List / 《 Magic Shield 》 / 《 Cold Cloak 》
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-magic-shield-a31533e2]] - broader source section: Chapter 14: / 14.4 Magical Item List / 《 Magic Shield 》
 
 ## Statements
 

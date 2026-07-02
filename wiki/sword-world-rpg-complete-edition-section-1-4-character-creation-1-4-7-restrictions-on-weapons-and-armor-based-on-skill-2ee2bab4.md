@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-1-4-character-creation-1-4-7-restrictions-on-weapons-and-armor-based-on-skill-2ee2bab4@c8d3ead88d73e472712468bf48b91d4e
+projection_coverage: section-sword-world-rpg-complete-edition-section-1-4-character-creation-1-4-7-restrictions-on-weapons-and-armor-based-on-skill-2ee2bab4@e19974ae056ea0a79813810e5cffd277
 ---
 
 # 1.4 Character Creation / 1.4.7 Restrictions on Weapons and Armor Based on Skill
@@ -17,14 +17,19 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
+### Source order
+
+- [[sword-world-rpg-complete-edition-section-1-4-character-creation-price-calculation-1effa062]] - previous source section: 1.4 Character Creation / Price Calculation
+
+### Source structure
+
 - [[sword-world-rpg-complete-edition-section-1-4-character-creation-f6aa6108]] - broader source section: 1.4 Character Creation
 - [[sword-world-rpg-complete-edition-section-1-4-character-creation-1-4-7-restrictions-on-weapons-and-armor-based-on-skill-fighter-cd452f16]] - narrower source section: 1.4 Character Creation / 1.4.7 Restrictions on Weapons and Armor Based on Skill / [ Fighter ］
-- [[sword-world-rpg-complete-edition-section-1-4-character-creation-1-4-7-restrictions-on-weapons-and-armor-based-on-skill-thief-8785babb]] - narrower source section: 1.4 Character Creation / 1.4.7 Restrictions on Weapons and Armor Based on Skill / [ Thief ]
 - [[sword-world-rpg-complete-edition-section-1-4-character-creation-1-4-7-restrictions-on-weapons-and-armor-based-on-skill-ranger-b08e9ec6]] - narrower source section: 1.4 Character Creation / 1.4.7 Restrictions on Weapons and Armor Based on Skill / [ Ranger ]
-- [[sword-world-rpg-complete-edition-section-1-4-character-creation-1-4-7-restrictions-on-weapons-and-armor-based-on-skill-sorcerer-e2b699ed]] - narrower source section: 1.4 Character Creation / 1.4.7 Restrictions on Weapons and Armor Based on Skill / [ Sorcerer ]
-- [[sword-world-rpg-complete-edition-section-1-4-character-creation-1-4-7-restrictions-on-weapons-and-armor-based-on-skill-shaman-d9a9cb32]] - narrower source section: 1.4 Character Creation / 1.4.7 Restrictions on Weapons and Armor Based on Skill / [ Shaman ]
 - [[sword-world-rpg-complete-edition-section-1-4-character-creation-1-4-7-restrictions-on-weapons-and-armor-based-on-skill-sage-bard-priest-2df89f33]] - narrower source section: 1.4 Character Creation / 1.4.7 Restrictions on Weapons and Armor Based on Skill / [ Sage, Bard, Priest ]
-- [[sword-world-rpg-complete-edition-section-1-4-character-creation-price-calculation-1effa062]] - previous source section: 1.4 Character Creation / Price Calculation
+- [[sword-world-rpg-complete-edition-section-1-4-character-creation-1-4-7-restrictions-on-weapons-and-armor-based-on-skill-shaman-d9a9cb32]] - narrower source section: 1.4 Character Creation / 1.4.7 Restrictions on Weapons and Armor Based on Skill / [ Shaman ]
+- [[sword-world-rpg-complete-edition-section-1-4-character-creation-1-4-7-restrictions-on-weapons-and-armor-based-on-skill-sorcerer-e2b699ed]] - narrower source section: 1.4 Character Creation / 1.4.7 Restrictions on Weapons and Armor Based on Skill / [ Sorcerer ]
+- [[sword-world-rpg-complete-edition-section-1-4-character-creation-1-4-7-restrictions-on-weapons-and-armor-based-on-skill-thief-8785babb]] - narrower source section: 1.4 Character Creation / 1.4.7 Restrictions on Weapons and Armor Based on Skill / [ Thief ]
 
 ## Statements
 
@@ -81,6 +86,7 @@ From [[sword-world-rpg-complete-edition]].
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-00762))_
 
+<a id="atom-technical-atom-c8ff927811ea369c"></a>
 | In | the | case | of | shields, | there | are |
 | --- | --- | --- | --- | --- | --- | --- |
 | only two strength strength 13 or greater, | types: 1) 13). | small and If a a large | large character's shield | shields shields can | (required (required strength be chosen. | Hard leather armor 5~13 x30+30 Metal armor Ring mail armor 5~12 x30+40 is Splint armor 8~17 x40+50 Chain mail armor 10~19 x50+50 |
@@ -107,6 +113,7 @@ Table 1-9: Armor
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-00818))_
 
+<a id="atom-technical-atom-272c441f87ef892f"></a>
 > If a character has acquired only these skills, the basic idea is to choose weapons and armor whose required strength is the same as their own strength.
 
 ### Technical frame 3: 1.4 Character Creation / 1.4.7 Restrictions on Weapons and Armor Based on Skill / [ Sage, Bard, Priest ]
@@ -117,4 +124,5 @@ Table 1-9: Armor
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-00821))_
 
+<a id="atom-technical-atom-b4fca61edbad427b"></a>
 > So, when choosing a weapon, we'll choose one that has a required strength equal to the character's strength (14).

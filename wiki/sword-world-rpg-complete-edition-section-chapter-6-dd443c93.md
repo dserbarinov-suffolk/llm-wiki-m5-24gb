@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-6-dd443c93@4a4a41a490a7020578dbe880271eb61d
+projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-6-dd443c93@3a464881eaabf6911fdfdd3510022853
 ---
 
 # Chapter 6:
@@ -17,11 +17,16 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
+### Source order
+
+- [[sword-world-rpg-complete-edition-section-chapter-6-79bede4b]] - previous source section: Chapter 6:
+
+### Source structure
+
 - [[sword-world-rpg-complete-edition-section-chapter-6-26ccc185]] - broader source section: Chapter 6:
-- [[sword-world-rpg-complete-edition-section-chapter-6-treasure-appraisal-intelligence-not-retriable-0a827273]] - narrower source section: Chapter 6: / [ ⑥ Treasure Appraisal [Intelligence] ] (Not retriable)
 - [[sword-world-rpg-complete-edition-section-chapter-6-bard-skill-c54b1125]] - narrower source section: Chapter 6: / Bard Skill
 - [[sword-world-rpg-complete-edition-section-chapter-6-common-adventurer-abilities-328f2370]] - narrower source section: Chapter 6: / Common Adventurer Abilities
-- [[sword-world-rpg-complete-edition-section-chapter-6-79bede4b]] - previous source section: Chapter 6:
+- [[sword-world-rpg-complete-edition-section-chapter-6-treasure-appraisal-intelligence-not-retriable-0a827273]] - narrower source section: Chapter 6: / [ ⑥ Treasure Appraisal [Intelligence] ] (Not retriable)
 
 ## Statements by subsection
 
@@ -136,6 +141,7 @@ From [[sword-world-rpg-complete-edition]].
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-04159))_
 
+<a id="atom-technical-atom-ea4291b70f9455eb"></a>
 > Alternatively, if it is something that can be used in combat, such as weapons or armor, other adventurers may purchase it.
 
 ### Technical frame 2: Chapter 6: / Bard Skill / [ ⑦ Medicines [Intelligence]] ((Appraisal only) Not retriable)
@@ -146,6 +152,7 @@ From [[sword-world-rpg-complete-edition]].
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-04171))_
 
+<a id="atom-technical-atom-9db100cd033e6463"></a>
 > When appraising medicines or poisons, a success roll must be made using their rarity as the target score.
 
 ### Technical frame 3: Chapter 6: / Bard Skill / [ ⑦ Medicines [Intelligence]] ((Appraisal only) Not retriable)
@@ -156,6 +163,7 @@ From [[sword-world-rpg-complete-edition]].
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-04172))_
 
+<a id="atom-technical-atom-a0af7eaeaf50260c"></a>
 > To create medicines or poisons, the game master should set a target score depending on the type, and ask for a success roll check.
 
 ### Technical frame 4: Chapter 6: / Bard Skill / [ ⑦ Medicines [Intelligence]] ((Appraisal only) Not retriable) / [ ⑤ Folklore Knowledge [Intelligence] ] (Not retriable)
@@ -166,6 +174,7 @@ From [[sword-world-rpg-complete-edition]].
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-04186))_
 
+<a id="atom-technical-atom-87325a58c7651772"></a>
 > By the nature of their business, a bard is familiar with myths and folklore passed down in various regions, as well as ancient poetry. This is because telling these stories is an important part of their job. Also, some of these legends include things that can serve as clues for your adventures. For example, a saga that tells of a battle between a monster and a hero may contain information about the monster's weakness. Legends about the ancient kingdom can sometimes lead adventurers to ancient ruins.
 
 ### Technical frame 5: Chapter 6: / Common Adventurer Abilities / [ ① Riding [Agility] ]
@@ -176,6 +185,7 @@ From [[sword-world-rpg-complete-edition]].
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-04199))_
 
+<a id="atom-technical-atom-c649e747c90943fb"></a>
 > If you are just riding normally, you do not need to make a success roll.
 
 ### Technical frame 6: Chapter 6: / Common Adventurer Abilities / [ ① Riding [Agility] ]
@@ -186,6 +196,7 @@ From [[sword-world-rpg-complete-edition]].
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-04200))_
 
+<a id="atom-technical-atom-c658a12f125fba4a"></a>
 > Falling off a horse will be treated as if you had fallen from a height of 3 meters, so you must make a damage check.
 
 ### Technical frame 7: Chapter 6: / Common Adventurer Abilities / [ ① Riding [Agility] ]
@@ -196,6 +207,7 @@ From [[sword-world-rpg-complete-edition]].
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-04201))_
 
+<a id="atom-technical-atom-4e4cb194649c6410"></a>
 > The riding rules here apply when dealing with trained horses, such as riding horses, war horses, etc. When trying to ride a wild horse, you must first succeed on a success roll while attempting to mount it. At this time, the target score is 9, but since the wild horse is not wearing a rein, a -4 penalty will be imposed. You can think of it as actually 13 . If you want to control a wild horse in combat, etc. the target score is 11. If you consider the penalty for not having reins, it's effectively 15 .
 
 ### Technical frame 8: Chapter 6: / Common Adventurer Abilities / [ ① Riding [Agility] ]
@@ -206,6 +218,7 @@ From [[sword-world-rpg-complete-edition]].
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-04201))_
 
+<a id="atom-technical-atom-458b4f1b60fbc9f5"></a>
 > When trying to ride a wild horse, you must first succeed on a success roll while attempting to mount it.
 
 ### Technical frame 9: Chapter 6: / Common Adventurer Abilities / [ ① Riding [Agility] ]
@@ -216,6 +229,7 @@ From [[sword-world-rpg-complete-edition]].
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-04202))_
 
+<a id="atom-technical-atom-20dedebbaa094e05"></a>
 > [Figure] (p.120)
 
 ### Technical frame 10: Chapter 6: / Common Adventurer Abilities / [ ① Riding [Agility] ]
@@ -226,6 +240,7 @@ From [[sword-world-rpg-complete-edition]].
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-04203))_
 
+<a id="atom-technical-atom-22b4a3b87a2ddf24"></a>
 > [Figure] (p.120)
 
 ### Technical frame 11: Chapter 6: / Common Adventurer Abilities / [ ② Swim [Agility] ]
@@ -236,6 +251,7 @@ From [[sword-world-rpg-complete-edition]].
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-04206))_
 
+<a id="atom-technical-atom-6ad74c6430d8d859"></a>
 > However, if you are trying to swim to an island many kilometers away, or trying to swim across rapids, you'll need a success roll.
 
 ### Technical frame 12: Chapter 6: / Common Adventurer Abilities / [ ② Swim [Agility] ]
@@ -246,6 +262,7 @@ From [[sword-world-rpg-complete-edition]].
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-04207))_
 
+<a id="atom-technical-atom-7025938782086e9e"></a>
 > Y ou can only wear cloth or at most soft leather.
 
 ### Technical frame 13: Chapter 6: / Common Adventurer Abilities / [ ② Swim [Agility] ]
@@ -256,6 +273,7 @@ From [[sword-world-rpg-complete-edition]].
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-04208))_
 
+<a id="atom-technical-atom-661bf4e1b3bb59fb"></a>
 > If you succeed, you will be able to take it off and rise to the surface.
 
 ### Technical frame 14: Chapter 6: / Common Adventurer Abilities / [ ② Swim [Agility] ]
@@ -266,6 +284,7 @@ From [[sword-world-rpg-complete-edition]].
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-04210))_
 
+<a id="atom-technical-atom-03710242d5a1dc79"></a>
 > Also, if the distance is long or there are rapids, add a few more points to the target score), and if you fail, you will sink.
 
 ### Technical frame 15: Chapter 6: / Common Adventurer Abilities / [ ② Swim [Agility] ]
@@ -276,6 +295,7 @@ From [[sword-world-rpg-complete-edition]].
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-04210))_
 
+<a id="atom-technical-atom-e5ea97aba7068a2d"></a>
 > Heavy weapons and luggage also impede swimming. If you recklessly try to swim with a sword, spear, or ax, then using adventurer level + agility bonus as the baseline score, make a success roll against target score 13 (this can be increased or decreased depending on the weight of your belongings. Also, if the distance is long or there are rapids, add a few more points to the target score), and if you fail, you will sink. However, unlike armor, weapons can be easily discarded. Even when carrying something other than a weapon, the game master should consider its weight when determining the target score.
 
 ### Technical frame 16: Chapter 6: / Common Adventurer Abilities / [ ② Swim [Agility] ]
@@ -286,6 +306,7 @@ From [[sword-world-rpg-complete-edition]].
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-04211))_
 
+<a id="atom-technical-atom-ad1e5d4afefd5e12"></a>
 > When a drowning person loses consciousness, their life force immediately falls to 0, so a death check must be made.
 
 ### Technical frame 17: Chapter 6: / Common Adventurer Abilities / [ ③ Ship Steering [Dexterity]]
@@ -296,6 +317,7 @@ From [[sword-world-rpg-complete-edition]].
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-04214))_
 
+<a id="atom-technical-atom-11be29ac1fd1141a"></a>
 > If you're just going straight through calm water, you don't need a success roll.
 
 ### Technical frame 18: Chapter 6: / Common Adventurer Abilities / [ ④ Climb [Agility] ]
@@ -306,6 +328,7 @@ From [[sword-world-rpg-complete-edition]].
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-04217))_
 
+<a id="atom-technical-atom-e400812d3a107e4a"></a>
 > Climbing with the thief skill does not require rope assistance, and if you do have a rope, you can almost certainly climb.
 
 ### Technical frame 19: Table 6-1: Climb by Skill
@@ -316,6 +339,7 @@ From [[sword-world-rpg-complete-edition]].
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-04218))_
 
+<a id="atom-technical-atom-f73f0b2f661b7450"></a>
 ```text
 Table 6-1: Climb by Skill
  using adventurer level + agility bonus as
@@ -350,6 +374,7 @@ Table 6-1: Climb by Skill
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-04227))_
 
+<a id="atom-technical-atom-df7716f24eceb2fb"></a>
 > If this adventurer is a thief, he can remove and discard the heavy armor he is wearing, and he can use his thief skill to attempt the climb more safely.
 
 ### Technical frame 21: Chapter 6: / Common Adventurer Abilities / [ ④ Climb [Agility] ]
@@ -360,6 +385,7 @@ Table 6-1: Climb by Skill
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-04228))_
 
+<a id="atom-technical-atom-fda69f974d8136a4"></a>
 > If you fail on the way, add 2D-2 meters to the height you climbed and height you descended up to that point to determine the final height you climbed and descended.
 
 ### Technical frame 22: Chapter 6: / Common Adventurer Abilities / [ ④ Climb [Agility] ]
@@ -370,6 +396,7 @@ Table 6-1: Climb by Skill
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-04236))_
 
+<a id="atom-technical-atom-87b120f31610c9cf"></a>
 > Just like when reducing damage in weapon combat, make a defense roll using the armor's defense power as the key number, and add your adventurer level to the result to determine the damage reduced.
 
 ### Technical frame 23: Table 6-2: Determining Climb Target Scores
@@ -380,6 +407,7 @@ Table 6-1: Climb by Skill
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-04237))_
 
+<a id="atom-technical-atom-f270ca8f93f46b62"></a>
 ```text
 Table 6-2: Determining Climb Target Scores
  failure.
@@ -398,6 +426,7 @@ Table 6-2: Determining Climb Target Scores
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-04266))_
 
+<a id="atom-technical-atom-e65ecac568b71cf0"></a>
 > Falling damage = fall height x 3 (defense roll result + adventurer level)
 
 ### Technical frame 25: Chapter 6: / Common Adventurer Abilities / [ ④ Climb [Agility] ]
@@ -408,6 +437,7 @@ Table 6-2: Determining Climb Target Scores
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-04268))_
 
+<a id="atom-technical-atom-f5f3ce9bbb3ee595"></a>
 > If an owner of the thief skill falls, the height can be calculated by subtracting thief skill level + agility bonus meters from the height of the fall.
 
 ### Technical frame 26: Table 6-3: Determining Long Jump Target Scores
@@ -418,6 +448,7 @@ Table 6-2: Determining Climb Target Scores
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-04280))_
 
+<a id="atom-technical-atom-d1cebcc65144dbc4"></a>
 ```text
 Table 6-3: Determining Long Jump Target Scores
  boiling lava. At this time, considering the
@@ -433,6 +464,7 @@ Table 6-3: Determining Long Jump Target Scores
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-04282))_
 
+<a id="atom-technical-atom-cc94441037493139"></a>
 ```text
 5 for 3 meters, +1 for every 15 cm
 Thief Skill (Normal Long Jump)
@@ -462,12 +494,14 @@ Adventurer Level (Normal Long Jump)
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-04309))_
 
+<a id="atom-technical-atom-398a6143b7032072"></a>
 > Table 6-4: Determining High Jump Target Scores
 
 ### Technical frame 29: Chapter 6: / Common Adventurer Abilities / [ ⑤ Long Jump/High Jump [Agility] ]
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-04311))_
 
+<a id="atom-technical-atom-b65b85d56f095bd1"></a>
 | Skill Used Thief Skill (Normal High Jump) Thief Skill (Pole High Jump) | Base Target Score 5 for 2 meters, +1 for every 5 cm 5 for 4 meters, +1 for every 20 cm | column 3 |
 | --- | --- | --- |
 | Adventurer Level (Normal High Jump) | 5 for 1 meter, +1 for every 5 cm |  |

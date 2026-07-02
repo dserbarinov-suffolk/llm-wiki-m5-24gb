@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-18-3-rules-for-destroying-structures-world-view-sun-moon-stars-fb110a6c@e1578e7ad2015b5ac32f05378ae67a42
+projection_coverage: section-sword-world-rpg-complete-edition-section-18-3-rules-for-destroying-structures-world-view-sun-moon-stars-fb110a6c@4adf4033c6d80e8af94f1a71fbbe587a
 ---
 
 # 18.3 Rules for Destroying Structures / World View / Sun, Moon, Stars
@@ -17,9 +17,14 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-18-3-rules-for-destroying-structures-world-view-7061c465]] - broader source section: 18.3 Rules for Destroying Structures / World View
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-18-3-rules-for-destroying-structures-world-view-world-010e578b]] - previous source section: 18.3 Rules for Destroying Structures / World View / World
 - [[sword-world-rpg-complete-edition-section-18-3-rules-for-destroying-structures-world-view-climate-6abe5857]] - next source section: 18.3 Rules for Destroying Structures / World View / Climate
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-18-3-rules-for-destroying-structures-world-view-7061c465]] - broader source section: 18.3 Rules for Destroying Structures / World View
 
 ## Statements
 

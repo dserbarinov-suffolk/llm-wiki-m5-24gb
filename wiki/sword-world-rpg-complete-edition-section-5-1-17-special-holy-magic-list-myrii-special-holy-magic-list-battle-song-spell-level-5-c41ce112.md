@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-5-1-17-special-holy-magic-list-myrii-special-holy-magic-list-battle-song-spell-level-5-c41ce112@4528afb32ff2c12088dceaaadb5a6130
+projection_coverage: section-sword-world-rpg-complete-edition-section-5-1-17-special-holy-magic-list-myrii-special-holy-magic-list-battle-song-spell-level-5-c41ce112@17df75e65f558bc2d3a6dcd8c82155b0
 ---
 
 # 5.1.17 Special Holy Magic List / Myrii Special Holy Magic List [ Battle Song ] (Spell Level=5)
@@ -17,10 +17,15 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-5-1-17-special-holy-magic-list-f9b52bf1]] - broader source section: 5.1.17 Special Holy Magic List
-- [[sword-world-rpg-complete-edition-section-5-1-17-special-holy-magic-list-myrii-special-holy-magic-list-battle-song-spell-level-5-divine-ar-3f295f6d]] - narrower source section: 5.1.17 Special Holy Magic List / Myrii Special Holy Magic List [ Battle Song ] (Spell Level=5) / [ Divine Armor ] (Spell Level=7)
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-5-1-17-special-holy-magic-list-jihad-spell-level-10-80fa2c9f]] - previous source section: 5.1.17 Special Holy Magic List / [ Jihad ] (Spell Level=10)
 - [[sword-world-rpg-complete-edition-section-5-1-17-special-holy-magic-list-divine-weapon-spell-level-7-463b088f]] - next source section: 5.1.17 Special Holy Magic List / [ Divine Weapon ] (Spell Level=7)
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-5-1-17-special-holy-magic-list-f9b52bf1]] - broader source section: 5.1.17 Special Holy Magic List
+- [[sword-world-rpg-complete-edition-section-5-1-17-special-holy-magic-list-myrii-special-holy-magic-list-battle-song-spell-level-5-divine-ar-3f295f6d]] - narrower source section: 5.1.17 Special Holy Magic List / Myrii Special Holy Magic List [ Battle Song ] (Spell Level=5) / [ Divine Armor ] (Spell Level=7)
 
 ## Statements
 

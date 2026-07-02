@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-16-defense-modifier-dbee970d@95e57869e37ea38b60a90d09882df919
+projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-16-defense-modifier-dbee970d@7726211f949b6364c028b3da926c2ed5
 ---
 
 # Chapter 16: / Defense Modifier
@@ -17,8 +17,13 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-chapter-16-de7f0512]] - broader source section: Chapter 16:
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-chapter-16-critical-target-variation-f713085f]] - next source section: Chapter 16: / Critical Target Variation
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-chapter-16-de7f0512]] - broader source section: Chapter 16:
 
 ## Statements
 

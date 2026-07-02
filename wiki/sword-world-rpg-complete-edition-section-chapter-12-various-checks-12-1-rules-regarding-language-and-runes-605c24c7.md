@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-12-various-checks-12-1-rules-regarding-language-and-runes-605c24c7@b4450f4b69a6b9e1c0ee9a9894436066
+projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-12-various-checks-12-1-rules-regarding-language-and-runes-605c24c7@a6f861f1deb280da7a38a603746d0600
 ---
 
 # Chapter 12: Various Checks / 12.1 Rules Regarding Language / and Runes
@@ -16,6 +16,8 @@ projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-12
 From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
+
+### Source structure
 
 - [[sword-world-rpg-complete-edition-section-chapter-12-various-checks-12-1-rules-regarding-language-5c470256]] - broader source section: Chapter 12: Various Checks / 12.1 Rules Regarding Language
 - [[sword-world-rpg-complete-edition-section-chapter-12-various-checks-12-1-rules-regarding-language-and-runes-normal-languages-e7512a52]] - narrower source section: Chapter 12: Various Checks / 12.1 Rules Regarding Language / and Runes / 《 Normal Languages 》

@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-3-3-4-2-actions-you-can-take-e7faacab@7614aa4f344e2bb5ee80412cf60171b7
+projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-3-3-4-2-actions-you-can-take-e7faacab@f764296edef5d5516865ae348c64ee54
 ---
 
 # Chapter 3: / 3.4.2 Actions You Can Take
@@ -17,9 +17,14 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-chapter-3-b1c23679]] - broader source section: Chapter 3:
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-chapter-3-0d0d3e8f]] - previous source section: Chapter 3:
 - [[sword-world-rpg-complete-edition-section-chapter-3-ready-a-sheathed-weapon-04504555]] - next source section: Chapter 3: / Ready a Sheathed Weapon
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-chapter-3-b1c23679]] - broader source section: Chapter 3:
 
 ## Statements
 

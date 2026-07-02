@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-13-1-types-of-monsters-spirits-43d51143@7f33a19d3b4fd749a31af2091fb4ef2f
+projection_coverage: section-sword-world-rpg-complete-edition-section-13-1-types-of-monsters-spirits-43d51143@ae992055630ce7aa2b41c0b2a0abf427
 ---
 
 # 13.1 Types of Monsters / 《 Spirits 》
@@ -17,9 +17,14 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-13-1-types-of-monsters-7512eede]] - broader source section: 13.1 Types of Monsters
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-13-1-types-of-monsters-youma-88f0a111]] - previous source section: 13.1 Types of Monsters / 《 Youma 》
 - [[sword-world-rpg-complete-edition-section-13-1-types-of-monsters-titans-c6e4f09e]] - next source section: 13.1 Types of Monsters / 《 Titans 》
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-13-1-types-of-monsters-7512eede]] - broader source section: 13.1 Types of Monsters
 
 ## Statements
 
@@ -38,6 +43,7 @@ From [[sword-world-rpg-complete-edition]].
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-05852))_
 
+<a id="atom-technical-atom-4e8d50cf857a7dc9"></a>
 > Spirits can use an unlimited amount of spirit magic depending on their power.
 
 ### Technical frame 2: 13.1 Types of Monsters / 《 Spirits 》
@@ -48,4 +54,5 @@ From [[sword-world-rpg-complete-edition]].
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-05853))_
 
+<a id="atom-technical-atom-38fdccd720e79152"></a>
 > When encountering a spirit, a shaman can recognize a spirit without the need for a success roll.

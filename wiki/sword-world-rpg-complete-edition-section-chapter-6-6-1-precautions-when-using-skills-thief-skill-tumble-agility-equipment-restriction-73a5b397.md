@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-6-6-1-precautions-when-using-skills-thief-skill-tumble-agility-equipment-restriction-73a5b397@9bedfce039c79af9df678db6b3bfb0d8
+projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-6-6-1-precautions-when-using-skills-thief-skill-tumble-agility-equipment-restriction-73a5b397@340c49c94a3d656484dc3399e4494c71
 ---
 
 # Chapter 6: / 6.1 Precautions When Using Skills / Thief Skill / [ ① Tumble [Agility] ] (Equipment restriction)
@@ -17,8 +17,13 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-chapter-6-6-1-precautions-when-using-skills-thief-skill-f1b62afe]] - broader source section: Chapter 6: / 6.1 Precautions When Using Skills / Thief Skill
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-chapter-6-6-1-precautions-when-using-skills-thief-skill-lockpicking-dexterity-no-equipment-restr-e787ca8c]] - next source section: Chapter 6: / 6.1 Precautions When Using Skills / Thief Skill / [ ② Lockpicking [Dexterity]] (No equipment restriction, not retriable)
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-chapter-6-6-1-precautions-when-using-skills-thief-skill-f1b62afe]] - broader source section: Chapter 6: / 6.1 Precautions When Using Skills / Thief Skill
 
 ## Statements
 

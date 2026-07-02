@@ -4,11 +4,11 @@ page_kind: source
 summary: Recipes with Data: 57 source-backed entries and 1 atom(s) from raw/javascriptallonge.pdf.
 page_family: section-reference
 sources: raw/javascriptallonge.pdf
-updated: 2026-07-01
+updated: 2026-07-02
 domain: javascriptallonge
 category_path: sources/javascriptallonge/sections
 source_id: javascriptallonge.pdf
-projection_coverage: section-javascriptallonge-section-recipes-with-data-57848af5@4c5ae6f83231587b648f75eb6bb6eafb
+projection_coverage: section-javascriptallonge-section-recipes-with-data-57848af5@a7ced7a69ea0f94b360af987beb1dc98
 ---
 
 # Recipes with Data
@@ -17,13 +17,18 @@ From [[javascriptallonge]].
 
 ## Related pages
 
-- [[javascriptallonge-section-recipes-with-data-disclaimer-3cee3bd7]] - narrower source section: Recipes with Data / Disclaimer
-- [[javascriptallonge-section-recipes-with-data-mapwith-2ccc7b36]] - narrower source section: Recipes with Data / mapWith
-- [[javascriptallonge-section-recipes-with-data-flip-9096a873]] - narrower source section: Recipes with Data / Flip
-- [[javascriptallonge-section-recipes-with-data-object-assign-bd2a6434]] - narrower source section: Recipes with Data / Object.assign
-- [[javascriptallonge-section-recipes-with-data-why-3f8e67cf]] - narrower source section: Recipes with Data / Why?
+### Source order
+
 - [[javascriptallonge-section-copy-on-write-ea36c891]] - previous source section: Copy on Write
 - [[javascriptallonge-section-a-warm-cup-basic-strings-and-quasi-literals-50e42ba0]] - next source section: A Warm Cup: Basic Strings and Quasi-Literals
+
+### Source structure
+
+- [[javascriptallonge-section-recipes-with-data-disclaimer-3cee3bd7]] - narrower source section: Recipes with Data / Disclaimer
+- [[javascriptallonge-section-recipes-with-data-flip-9096a873]] - narrower source section: Recipes with Data / Flip
+- [[javascriptallonge-section-recipes-with-data-mapwith-2ccc7b36]] - narrower source section: Recipes with Data / mapWith
+- [[javascriptallonge-section-recipes-with-data-object-assign-bd2a6434]] - narrower source section: Recipes with Data / Object.assign
+- [[javascriptallonge-section-recipes-with-data-why-3f8e67cf]] - narrower source section: Recipes with Data / Why?
 
 ## Statements by subsection
 
@@ -79,6 +84,7 @@ From [[javascriptallonge]].
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01458))_
 
+<a id="atom-technical-atom-e691ed10c98b5052"></a>
 ```text
 84 https://github.com/raganwald/allong.es
 85 http://underscorejs.org

@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-16-16-2-weapon-and-armor-modifiers-critical-target-variation-0b9847e4@b9f25ac0d4ae171298e7dca8f3962460
+projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-16-16-2-weapon-and-armor-modifiers-critical-target-variation-0b9847e4@3a4bb8a4de444c0524c13c13d00652a8
 ---
 
 # Chapter 16: / 16.2 Weapon and Armor Modifiers / Critical Target Variation
@@ -17,9 +17,17 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-chapter-16-16-2-weapon-and-armor-modifiers-04ec9a3a]] - broader source section: Chapter 16: / 16.2 Weapon and Armor Modifiers
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-chapter-16-16-2-weapon-and-armor-modifiers-strike-power-modifier-c398c4b8]] - previous source section: Chapter 16: / 16.2 Weapon and Armor Modifiers / Strike Power Modifier
 - [[sword-world-rpg-complete-edition-section-chapter-16-16-2-weapon-and-armor-modifiers-number-of-projectile-shots-9603575d]] - next source section: Chapter 16: / 16.2 Weapon and Armor Modifiers / Number of Projectile Shots
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-chapter-16-16-2-weapon-and-armor-modifiers-04ec9a3a]] - broader source section: Chapter 16: / 16.2 Weapon and Armor Modifiers
+
+### Topics
+
 - [[sword-world-rpg-complete-edition-critical-target-variation]] - topic hub: opens the topic page for Critical Target Variation
 
 ## Statements
@@ -39,6 +47,7 @@ From [[sword-world-rpg-complete-edition]].
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-10045))_
 
+<a id="atom-technical-atom-2e4e68dee50a01bf"></a>
 | differ | in | ease | of | use | and | power. | This | rule | Axes/2H | ±0 | +10 | 11* |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | quantifies weapons used Optional explained | Here by The | the and Weapon is adventurers Rules"). terms below. | armor. a table | finer used | differences Modifiers of weapons ("Table on | 16-1 this | between commonly Weapon table | are | Spears/1H Spears/2H Maces/1H Maces/2H Clubs/1H Staves/2H Flails/1H Flails/2H War Hammer/1H War Hammer/2H Bows Crossbow | -1 ±0 +1 +1 +1 +1 -1 -1 -1 -2 ±0 ±0 | +5 +5 +5 +10 ±0 +5 +5 +10 +5 +15 +5 +10 | 10* 10* 12 12 12 12 10 10 10 10 10* 10* |

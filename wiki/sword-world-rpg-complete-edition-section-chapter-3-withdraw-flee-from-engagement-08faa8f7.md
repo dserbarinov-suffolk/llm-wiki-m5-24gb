@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-3-withdraw-flee-from-engagement-08faa8f7@8862c7d591c7ef7e32d78c719460f9c1
+projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-3-withdraw-flee-from-engagement-08faa8f7@8bba91b3ea1bc86d9b7d32ab5b3b3503
 ---
 
 # Chapter 3: / Withdraw (Flee) From Engagement
@@ -17,9 +17,14 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-chapter-3-b1c23679]] - broader source section: Chapter 3:
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-chapter-3-sheath-a-weapon-etc-7ebe9cde]] - previous source section: Chapter 3: / Sheath a Weapon, Etc.
 - [[sword-world-rpg-complete-edition-section-chapter-3-92cd315b]] - next source section: Chapter 3:
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-chapter-3-b1c23679]] - broader source section: Chapter 3:
 
 ## Statements
 

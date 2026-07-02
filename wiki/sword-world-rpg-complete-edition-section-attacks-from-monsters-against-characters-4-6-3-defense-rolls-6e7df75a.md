@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-attacks-from-monsters-against-characters-4-6-3-defense-rolls-6e7df75a@75e068c95a24bdea329a39096fc83bcb
+projection_coverage: section-sword-world-rpg-complete-edition-section-attacks-from-monsters-against-characters-4-6-3-defense-rolls-6e7df75a@1992c06b11aa9a05fd8c78bcc7b98ae2
 ---
 
 # Attacks From Monsters Against Characters / 4.6.3 Defense Rolls
@@ -17,9 +17,14 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-attacks-from-monsters-against-characters-a9a9211c]] - broader source section: Attacks From Monsters Against Characters
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-attacks-from-monsters-against-characters-monsters-77a3fb28]] - previous source section: Attacks From Monsters Against Characters / Monsters
 - [[sword-world-rpg-complete-edition-section-attacks-from-monsters-against-characters-failure-f4804b9e]] - next source section: Attacks From Monsters Against Characters / 【 Failure! 】
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-attacks-from-monsters-against-characters-a9a9211c]] - broader source section: Attacks From Monsters Against Characters
 
 ## Statements
 
@@ -39,6 +44,7 @@ From [[sword-world-rpg-complete-edition]].
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-01332))_
 
+<a id="atom-technical-atom-622bdaff7123b24a"></a>
 | Suppose | Ducard | II’s | defense | roll | came | means | you | took | no | damage | at | all. | The |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 7 up 12 (double | sixes!). |  | The | number | on | monster's |  | attack | was | completely |  | blocked |  |
@@ -67,4 +73,5 @@ Table 4-3: Rating Table, Key Number
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-01333))_
 
+<a id="atom-technical-atom-bfff393c6e0770b8"></a>
 > [Figure] (p.47)

@@ -4,11 +4,11 @@ page_kind: source
 summary: Lazy and Eager Collections / implementing methods with iteration: 14 source-backed entries and 0 atom(s) from raw/javascriptallonge.pdf.
 page_family: section-reference
 sources: raw/javascriptallonge.pdf
-updated: 2026-07-01
+updated: 2026-07-02
 domain: javascriptallonge
 category_path: sources/javascriptallonge/sections
 source_id: javascriptallonge.pdf
-projection_coverage: section-javascriptallonge-section-lazy-and-eager-collections-implementing-methods-with-iteration-e2493942@da24e553d4834e473f8bcae6bf307327
+projection_coverage: section-javascriptallonge-section-lazy-and-eager-collections-implementing-methods-with-iteration-e2493942@9dbcafa194146ed707a7e5911c982ff3
 ---
 
 # Lazy and Eager Collections / implementing methods with iteration
@@ -17,8 +17,13 @@ From [[javascriptallonge]].
 
 ## Related pages
 
-- [[javascriptallonge-section-lazy-and-eager-collections-60e3645a]] - broader source section: Lazy and Eager Collections
+### Source order
+
 - [[javascriptallonge-section-lazy-and-eager-collections-lazy-collection-operations-358e58c2]] - next source section: Lazy and Eager Collections / lazy collection operations
+
+### Source structure
+
+- [[javascriptallonge-section-lazy-and-eager-collections-60e3645a]] - broader source section: Lazy and Eager Collections
 
 ## Statements
 

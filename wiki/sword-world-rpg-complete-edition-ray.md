@@ -7,7 +7,7 @@ sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: concepts
-projection_coverage: topic-sword-world-rpg-complete-edition-ray@624d9282c8f5cc9aea99b8faf8549b9d
+projection_coverage: topic-sword-world-rpg-complete-edition-ray@6a6b225b94ea1d2b55454ded6815f6f9
 ---
 
 # Ray
@@ -31,10 +31,13 @@ What [[sword-world-rpg-complete-edition]] covers about ray:
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-08762))_
 
+<a id="atom-technical-atom-571b7e769ad52b55"></a>
 > but if this is not specified, it cannot be reflected.
 
 
 ## Related pages
+
+### Shared technical atoms
 
 - [[sword-world-rpg-complete-edition-gaze]] - shared statements and technical atoms: Gaze shares source evidence from 13.2.6 Mythical Beasts and Magical Beasts / [ Horse ] / 13.6 Handling Monster Special Abilities / 《 Gaze/Ray 》: In some cases, the gaze or ray can be reflected off a mirror, etc. but if this is not specified, it cannot be reflected.; Gaze shares technical record from 13.2.6 Mythical Beasts and Magical Beasts / [ Horse ] / 13.6 Handling Monster Special Abilities / 《 Gaze/Ray 》: but if this is not specified, it cannot be reflected. (1 shared statement(s), 1 shared atom(s))
 

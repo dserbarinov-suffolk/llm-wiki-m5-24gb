@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-12-various-checks-12-1-rules-regarding-language-forcelia-regional-1fb2dfbd@c882b56a270a79080e26404a7c3037ea
+projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-12-various-checks-12-1-rules-regarding-language-forcelia-regional-1fb2dfbd@92bc46b84b4176ebfc98009804163cbc
 ---
 
 # Chapter 12: Various Checks / 12.1 Rules Regarding Language / Forcelia / 《 Regional 》
@@ -17,9 +17,14 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-chapter-12-various-checks-12-1-rules-regarding-language-forcelia-dabbb4cf]] - broader source section: Chapter 12: Various Checks / 12.1 Rules Regarding Language / Forcelia
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-chapter-12-various-checks-12-1-rules-regarding-language-forcelia-common-d79984de]] - previous source section: Chapter 12: Various Checks / 12.1 Rules Regarding Language / Forcelia / 《 Common 》
 - [[sword-world-rpg-complete-edition-section-chapter-12-various-checks-12-1-rules-regarding-language-forcelia-m-rdan-32992b0a]] - next source section: Chapter 12: Various Checks / 12.1 Rules Regarding Language / Forcelia / [ Mārdan ]
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-chapter-12-various-checks-12-1-rules-regarding-language-forcelia-dabbb4cf]] - broader source section: Chapter 12: Various Checks / 12.1 Rules Regarding Language / Forcelia
 
 ## Statements
 

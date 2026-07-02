@@ -4,11 +4,11 @@ page_kind: source
 summary: Interactive Generators / representing naughts and crosses as a stateless function / We get:: 3 source-backed entries and 3 atom(s) from raw/javascriptallonge.pdf.
 page_family: section-reference
 sources: raw/javascriptallonge.pdf
-updated: 2026-07-01
+updated: 2026-07-02
 domain: javascriptallonge
 category_path: sources/javascriptallonge/sections
 source_id: javascriptallonge.pdf
-projection_coverage: section-javascriptallonge-section-interactive-generators-representing-naughts-and-crosses-as-a-stateless-function-we-get-5a2b4c84@133a13eacabcd0fb3666ce6292ddc231
+projection_coverage: section-javascriptallonge-section-interactive-generators-representing-naughts-and-crosses-as-a-stateless-function-we-get-5a2b4c84@f2e63907efa2a78678150acaec8fc00e
 ---
 
 # Interactive Generators / representing naughts and crosses as a stateless function / We get:
@@ -17,8 +17,13 @@ From [[javascriptallonge]].
 
 ## Related pages
 
-- [[javascriptallonge-section-interactive-generators-representing-naughts-and-crosses-as-a-stateless-function-566c2092]] - broader source section: Interactive Generators / representing naughts and crosses as a stateless function
+### Source order
+
 - [[javascriptallonge-section-interactive-generators-representing-naughts-and-crosses-as-a-stateless-function-will-be-represen-f1dabfc6]] - previous source section: Interactive Generators / representing naughts and crosses as a stateless function / Will be represented as:
+
+### Source structure
+
+- [[javascriptallonge-section-interactive-generators-representing-naughts-and-crosses-as-a-stateless-function-566c2092]] - broader source section: Interactive Generators / representing naughts and crosses as a stateless function
 
 ## Technical atoms
 
@@ -26,6 +31,7 @@ From [[javascriptallonge]].
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01912))_
 
+<a id="atom-technical-atom-9a11a3bf96ad3714"></a>
 ```
 {
 "o,x, , , , , , , ":6,
@@ -42,6 +48,7 @@ From [[javascriptallonge]].
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01914))_
 
+<a id="atom-technical-atom-4f29c33a0841d43e"></a>
 ```
 moveLookupTable[[
 'o', 'x', ' ',
@@ -55,6 +62,7 @@ moveLookupTable[[
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01916))_
 
+<a id="atom-technical-atom-9fcf1a3c35e563fa"></a>
 ```
 statelessNaughtsAndCrosses([
 'o', 'x', ' ',

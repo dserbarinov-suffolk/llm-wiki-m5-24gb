@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-12-2-2-illnesses-rat-disease-lockjaw-7d74ebae@58fc6cc2773b561be98a485902820902
+projection_coverage: section-sword-world-rpg-complete-edition-section-12-2-2-illnesses-rat-disease-lockjaw-7d74ebae@ad6d51f5f7036074af057760ddb35c87
 ---
 
 # 12.2.2 Illnesses / [ Rat Disease ] / [ Lockjaw ]
@@ -17,9 +17,14 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-12-2-2-illnesses-rat-disease-53ac68c7]] - broader source section: 12.2.2 Illnesses / [ Rat Disease ]
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-12-2-2-illnesses-rat-disease-red-cap-a2c429e3]] - previous source section: 12.2.2 Illnesses / [ Rat Disease ] / [ Red Cap ]
 - [[sword-world-rpg-complete-edition-section-12-2-2-illnesses-rat-disease-12-2-3-herbs-fb062b18]] - next source section: 12.2.2 Illnesses / [ Rat Disease ] / 12.2.3 Herbs
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-12-2-2-illnesses-rat-disease-53ac68c7]] - broader source section: 12.2.2 Illnesses / [ Rat Disease ]
 
 ## Statements
 
@@ -38,10 +43,14 @@ From [[sword-world-rpg-complete-edition]].
 
 **Atoms:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-05790, source-range-0d48087c-05791, source-range-0d48087c-05793, source-range-0d48087c-05794))_
 
+<a id="atom-technical-atom-1719efe32f5ef26d"></a>
 > Symptoms=Extreme fever, shortness of breath
 
+<a id="atom-technical-atom-7f2c44df2280ef41"></a>
 > Rarity=7
 
+<a id="atom-technical-atom-c29b8c29be0f9cea"></a>
 > Fatal Depth=4
 
+<a id="atom-technical-atom-e62830d68fda0b5b"></a>
 > Infection Power=Very weak

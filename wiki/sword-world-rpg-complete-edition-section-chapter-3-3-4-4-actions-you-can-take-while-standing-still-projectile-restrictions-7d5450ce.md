@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-3-3-4-4-actions-you-can-take-while-standing-still-projectile-restrictions-7d5450ce@6afcc819ff0e7089a69e5ad0ca14c63f
+projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-3-3-4-4-actions-you-can-take-while-standing-still-projectile-restrictions-7d5450ce@3566c8e0ccc4f0971de4cd2a046c0a0a
 ---
 
 # Chapter 3: / 3.4.4 Actions You Can Take While Standing Still / Projectile Restrictions
@@ -17,10 +17,15 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-chapter-3-3-4-4-actions-you-can-take-while-standing-still-ac427570]] - broader source section: Chapter 3: / 3.4.4 Actions You Can Take While Standing Still
-- [[sword-world-rpg-complete-edition-section-chapter-3-3-4-4-actions-you-can-take-while-standing-still-projectile-restrictions-ranger-skill-27fbe3a6]] - narrower source section: Chapter 3: / 3.4.4 Actions You Can Take While Standing Still / Projectile Restrictions / 【 Ranger Skill 】
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-chapter-3-3-4-4-actions-you-can-take-while-standing-still-weapon-combat-skills-bf9595ab]] - previous source section: Chapter 3: / 3.4.4 Actions You Can Take While Standing Still / Weapon Combat Skills
 - [[sword-world-rpg-complete-edition-section-chapter-3-3-4-4-actions-you-can-take-while-standing-still-scores-used-in-weapon-combat-4d2e9a59]] - next source section: Chapter 3: / 3.4.4 Actions You Can Take While Standing Still / Scores Used in Weapon Combat
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-chapter-3-3-4-4-actions-you-can-take-while-standing-still-ac427570]] - broader source section: Chapter 3: / 3.4.4 Actions You Can Take While Standing Still
+- [[sword-world-rpg-complete-edition-section-chapter-3-3-4-4-actions-you-can-take-while-standing-still-projectile-restrictions-ranger-skill-27fbe3a6]] - narrower source section: Chapter 3: / 3.4.4 Actions You Can Take While Standing Still / Projectile Restrictions / 【 Ranger Skill 】
 
 ## Statements
 

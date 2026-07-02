@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-1-2-races-skills-sage-abcdd228@ea1e0ad5dd0667aff6ec881130fe4d49
+projection_coverage: section-sword-world-rpg-complete-edition-section-1-2-races-skills-sage-abcdd228@6d142d646641e42a9adfec38e984f197
 ---
 
 # 1.2 Races / Skills / 【 Sage 】
@@ -17,9 +17,14 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-1-2-races-skills-d796863a]] - broader source section: 1.2 Races / Skills
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-1-2-races-skills-thief-2f03999d]] - previous source section: 1.2 Races / Skills / 【 Thief 】
 - [[sword-world-rpg-complete-edition-section-1-2-races-skills-ranger-56d595f9]] - next source section: 1.2 Races / Skills / 【 Ranger 】
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-1-2-races-skills-d796863a]] - broader source section: 1.2 Races / Skills
 
 ## Statements
 

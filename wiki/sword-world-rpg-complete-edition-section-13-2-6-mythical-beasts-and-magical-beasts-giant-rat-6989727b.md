@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-13-2-6-mythical-beasts-and-magical-beasts-giant-rat-6989727b@72f9129291cb5ed27fd7adcb11ab4f09
+projection_coverage: section-sword-world-rpg-complete-edition-section-13-2-6-mythical-beasts-and-magical-beasts-giant-rat-6989727b@0ce1ff9e730c4c3f1845ead15c04e218
 ---
 
 # 13.2.6 Mythical Beasts and Magical Beasts / [ Giant Rat ]
@@ -17,10 +17,15 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-13-2-6-mythical-beasts-and-magical-beasts-f86962d2]] - broader source section: 13.2.6 Mythical Beasts and Magical Beasts
-- [[sword-world-rpg-complete-edition-section-13-2-6-mythical-beasts-and-magical-beasts-giant-rat-13-2-7-animals-d47e876d]] - narrower source section: 13.2.6 Mythical Beasts and Magical Beasts / [ Giant Rat ] / 13.2.7 Animals
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-13-2-6-mythical-beasts-and-magical-beasts-wolf-e19da3e9]] - previous source section: 13.2.6 Mythical Beasts and Magical Beasts / [ Wolf ]
 - [[sword-world-rpg-complete-edition-section-13-2-6-mythical-beasts-and-magical-beasts-hanger-leg-monster-level-1-rarity-13-agility-18-moveme-b3d4cf8e]] - next source section: 13.2.6 Mythical Beasts and Magical Beasts / [ Hanger Leg ] Monster Level=1 Rarity=13 Agility=18 Movement Speed=8 Number=One. However, eggs are often found in groups Frequency=Rare Intellect=Human Reaction=Neutral Attack Points=Needle: 8 (1) Strike Points=6 Evasion Points=11 (4) Defense Points=4 Life Points/Resistance=8/8 (1) Mental Points/Resistance=8/8 (1) Special Abilities=Parasitism (Resist target score=8) Habitat=Forests Languages=None Perception=Five senses
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-13-2-6-mythical-beasts-and-magical-beasts-f86962d2]] - broader source section: 13.2.6 Mythical Beasts and Magical Beasts
+- [[sword-world-rpg-complete-edition-section-13-2-6-mythical-beasts-and-magical-beasts-giant-rat-13-2-7-animals-d47e876d]] - narrower source section: 13.2.6 Mythical Beasts and Magical Beasts / [ Giant Rat ] / 13.2.7 Animals
 
 ## Statements
 

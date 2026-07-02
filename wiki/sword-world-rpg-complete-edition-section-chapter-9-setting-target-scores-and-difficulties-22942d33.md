@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-9-setting-target-scores-and-difficulties-22942d33@d7c394b4c33ada01259e85d6e600c87e
+projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-9-setting-target-scores-and-difficulties-22942d33@3796ea079dc760044681029b4891ab6e
 ---
 
 # Chapter 9: / Setting Target Scores and Difficulties
@@ -17,9 +17,14 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
+### Source order
+
+- [[sword-world-rpg-complete-edition-section-chapter-9-9-3-general-modifiers-35fd7665]] - next source section: Chapter 9: / 9.3 General Modifiers
+
+### Source structure
+
 - [[sword-world-rpg-complete-edition-section-chapter-9-46ac5338]] - broader source section: Chapter 9:
 - [[sword-world-rpg-complete-edition-section-chapter-9-setting-target-scores-and-difficulties-should-you-use-a-target-score-check-or-a-diffic-bdc00952]] - narrower source section: Chapter 9: / Setting Target Scores and Difficulties / Should You Use a Target Score Check or a Difficulty Check?
-- [[sword-world-rpg-complete-edition-section-chapter-9-9-3-general-modifiers-35fd7665]] - next source section: Chapter 9: / 9.3 General Modifiers
 
 ## Statements
 
@@ -72,6 +77,7 @@ From [[sword-world-rpg-complete-edition]].
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-04575))_
 
+<a id="atom-technical-atom-cd96adedcbb1a45e"></a>
 | If | you’re | a | pro | in | that | field, | you’ll | most | likely | succeed, | but | if | you | only | have | the | skill, | there’s | a | greater | risk | of | failure. |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 11 4 Amateurs |  |  | should |  | stay | away | from | it. |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
@@ -114,4 +120,5 @@ Table 9-1: Determining Target Scores or Difficulties
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-04639))_
 
+<a id="atom-technical-atom-12866225b78d24ef"></a>
 > The standard for deciding is whether the character can tell if the action succeeded or failed .

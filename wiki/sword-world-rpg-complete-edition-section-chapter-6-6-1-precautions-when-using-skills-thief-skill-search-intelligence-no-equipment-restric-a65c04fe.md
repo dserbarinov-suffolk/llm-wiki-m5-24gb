@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-6-6-1-precautions-when-using-skills-thief-skill-search-intelligence-no-equipment-restric-a65c04fe@baf339a25ca7b7addfb4992ae4c2a277
+projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-6-6-1-precautions-when-using-skills-thief-skill-search-intelligence-no-equipment-restric-a65c04fe@bf6f2563af6945bb780c8dd7c931143c
 ---
 
 # Chapter 6: / 6.1 Precautions When Using Skills / Thief Skill / [ ⑨ Search [Intelligence] ] (No equipment restriction, not retriable)
@@ -17,9 +17,17 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-chapter-6-6-1-precautions-when-using-skills-thief-skill-f1b62afe]] - broader source section: Chapter 6: / 6.1 Precautions When Using Skills / Thief Skill
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-chapter-6-6-1-precautions-when-using-skills-thief-skill-hide-agility-equipment-restriction-17be70ed]] - previous source section: Chapter 6: / 6.1 Precautions When Using Skills / Thief Skill / [ ⑧ Hide [Agility] ] (Equipment restriction)
 - [[sword-world-rpg-complete-edition-section-chapter-6-6-1-precautions-when-using-skills-thief-skill-climb-agility-equipment-restriction-b4706317]] - next source section: Chapter 6: / 6.1 Precautions When Using Skills / Thief Skill / [ ⑩ Climb [Agility] ] (Equipment restriction)
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-chapter-6-6-1-precautions-when-using-skills-thief-skill-f1b62afe]] - broader source section: Chapter 6: / 6.1 Precautions When Using Skills / Thief Skill
+
+### Topics
+
 - [[sword-world-rpg-complete-edition-search-intelligence-equipment-restriction-not-retriable]] - topic hub: opens the topic page for Search Intelligence Equipment Restriction Not Retriable
 
 ## Statements

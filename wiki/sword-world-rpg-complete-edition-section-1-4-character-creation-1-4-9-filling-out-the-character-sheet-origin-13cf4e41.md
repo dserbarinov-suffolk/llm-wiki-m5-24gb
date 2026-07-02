@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-1-4-character-creation-1-4-9-filling-out-the-character-sheet-origin-13cf4e41@e9bd8fc0902c899c1e2f876d4111a288
+projection_coverage: section-sword-world-rpg-complete-edition-section-1-4-character-creation-1-4-9-filling-out-the-character-sheet-origin-13cf4e41@43d9f077e25465886d1003ebd715e3e2
 ---
 
 # 1.4 Character Creation / 1.4.9 Filling Out the Character Sheet / [ ⑥ Origin ]
@@ -17,8 +17,13 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-1-4-character-creation-1-4-9-filling-out-the-character-sheet-e4f251c1]] - broader source section: 1.4 Character Creation / 1.4.9 Filling Out the Character Sheet
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-1-4-character-creation-1-4-9-filling-out-the-character-sheet-ability-bonuses-89bb601a]] - previous source section: 1.4 Character Creation / 1.4.9 Filling Out the Character Sheet / [ ⑤ Ability Bonuses ]
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-1-4-character-creation-1-4-9-filling-out-the-character-sheet-e4f251c1]] - broader source section: 1.4 Character Creation / 1.4.9 Filling Out the Character Sheet
 
 ## Statements
 
@@ -34,4 +39,5 @@ From [[sword-world-rpg-complete-edition]].
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-00899))_
 
+<a id="atom-technical-atom-7d11c1aecfd8f96e"></a>
 > Please write down starting experience points as determined by Table 1-5: Backgrounds or Table 1-6: Starting Experience by Race in the experience points field.

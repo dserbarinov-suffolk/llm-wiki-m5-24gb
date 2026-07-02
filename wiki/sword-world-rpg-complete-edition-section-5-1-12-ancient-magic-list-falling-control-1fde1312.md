@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-5-1-12-ancient-magic-list-falling-control-1fde1312@47036be143087b643ea7d26938ef62c9
+projection_coverage: section-sword-world-rpg-complete-edition-section-5-1-12-ancient-magic-list-falling-control-1fde1312@dc1fc881f3bccbbb8b1239ac6efbe551
 ---
 
 # 5.1.12 Ancient Magic List / [ Falling Control ]
@@ -17,9 +17,14 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-5-1-12-ancient-magic-list-2e59bfee]] - broader source section: 5.1.12 Ancient Magic List
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-5-1-12-ancient-magic-list-fire-weapon-eab7ab97]] - previous source section: 5.1.12 Ancient Magic List / [ Fire Weapon ]
 - [[sword-world-rpg-complete-edition-section-5-1-12-ancient-magic-list-replace-sound-d51d7373]] - next source section: 5.1.12 Ancient Magic List / [ Replace Sound ]
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-5-1-12-ancient-magic-list-2e59bfee]] - broader source section: 5.1.12 Ancient Magic List
 
 ## Statements
 

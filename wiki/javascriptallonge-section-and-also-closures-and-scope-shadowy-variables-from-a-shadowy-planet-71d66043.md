@@ -4,11 +4,11 @@ page_kind: source
 summary: And also: / Closures and Scope / shadowy variables from a shadowy planet: 11 source-backed entries and 0 atom(s) from raw/javascriptallonge.pdf.
 page_family: section-reference
 sources: raw/javascriptallonge.pdf
-updated: 2026-07-01
+updated: 2026-07-02
 domain: javascriptallonge
 category_path: sources/javascriptallonge/sections
 source_id: javascriptallonge.pdf
-projection_coverage: section-javascriptallonge-section-and-also-closures-and-scope-shadowy-variables-from-a-shadowy-planet-71d66043@64121ab4a5917ea8acbbc02192db8d5f
+projection_coverage: section-javascriptallonge-section-and-also-closures-and-scope-shadowy-variables-from-a-shadowy-planet-71d66043@0728f3ae03d10d121a45038dac2ac9e1
 ---
 
 # And also: / Closures and Scope / shadowy variables from a shadowy planet
@@ -17,9 +17,14 @@ From [[javascriptallonge]].
 
 ## Related pages
 
-- [[javascriptallonge-section-and-also-closures-and-scope-ff45d11c]] - broader source section: And also: / Closures and Scope
+### Source order
+
 - [[javascriptallonge-section-and-also-closures-and-scope-it-s-always-the-environment-3905285c]] - previous source section: And also: / Closures and Scope / it's always the environment
 - [[javascriptallonge-section-and-also-closures-and-scope-which-came-first-the-chicken-or-the-egg-66a98800]] - next source section: And also: / Closures and Scope / which came first, the chicken or the egg?
+
+### Source structure
+
+- [[javascriptallonge-section-and-also-closures-and-scope-ff45d11c]] - broader source section: And also: / Closures and Scope
 
 ## Statements
 

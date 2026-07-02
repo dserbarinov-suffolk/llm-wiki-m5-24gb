@@ -4,11 +4,11 @@ page_kind: source
 summary: Garbage, Garbage Everywhere / summary: 3 source-backed entries and 0 atom(s) from raw/javascriptallonge.pdf.
 page_family: section-reference
 sources: raw/javascriptallonge.pdf
-updated: 2026-07-01
+updated: 2026-07-02
 domain: javascriptallonge
 category_path: sources/javascriptallonge/sections
 source_id: javascriptallonge.pdf
-projection_coverage: section-javascriptallonge-section-garbage-garbage-everywhere-summary-ca623d10@1e388afab944bbd55f620f3c1a9aed4f
+projection_coverage: section-javascriptallonge-section-garbage-garbage-everywhere-summary-ca623d10@6cfef04fcd8b0bb7b87f5bfc85c9877f
 ---
 
 # Garbage, Garbage Everywhere / summary
@@ -17,8 +17,13 @@ From [[javascriptallonge]].
 
 ## Related pages
 
-- [[javascriptallonge-section-garbage-garbage-everywhere-c3e1739c]] - broader source section: Garbage, Garbage Everywhere
+### Source order
+
 - [[javascriptallonge-section-garbage-garbage-everywhere-so-why-arrays-270c6428]] - previous source section: Garbage, Garbage Everywhere / so why arrays
+
+### Source structure
+
+- [[javascriptallonge-section-garbage-garbage-everywhere-c3e1739c]] - broader source section: Garbage, Garbage Everywhere
 
 ## Statements
 

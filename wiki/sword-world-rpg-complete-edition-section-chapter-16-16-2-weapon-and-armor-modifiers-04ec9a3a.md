@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-16-16-2-weapon-and-armor-modifiers-04ec9a3a@e827dcbeb091d25afe432ad8c956c17e
+projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-16-16-2-weapon-and-armor-modifiers-04ec9a3a@3f0ad77c843c16fa0d33ac753cefc2a5
 ---
 
 # Chapter 16: / 16.2 Weapon and Armor Modifiers
@@ -17,16 +17,21 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-chapter-16-faf82038]] - broader source section: Chapter 16:
-- [[sword-world-rpg-complete-edition-section-chapter-16-16-2-weapon-and-armor-modifiers-weapon-modifiers-b008ecae]] - narrower source section: Chapter 16: / 16.2 Weapon and Armor Modifiers / Weapon Modifiers
-- [[sword-world-rpg-complete-edition-section-chapter-16-16-2-weapon-and-armor-modifiers-attack-power-modifier-80829277]] - narrower source section: Chapter 16: / 16.2 Weapon and Armor Modifiers / Attack Power Modifier
-- [[sword-world-rpg-complete-edition-section-chapter-16-16-2-weapon-and-armor-modifiers-strike-power-modifier-c398c4b8]] - narrower source section: Chapter 16: / 16.2 Weapon and Armor Modifiers / Strike Power Modifier
-- [[sword-world-rpg-complete-edition-section-chapter-16-16-2-weapon-and-armor-modifiers-critical-target-variation-0b9847e4]] - narrower source section: Chapter 16: / 16.2 Weapon and Armor Modifiers / Critical Target Variation
-- [[sword-world-rpg-complete-edition-section-chapter-16-16-2-weapon-and-armor-modifiers-number-of-projectile-shots-9603575d]] - narrower source section: Chapter 16: / 16.2 Weapon and Armor Modifiers / Number of Projectile Shots
-- [[sword-world-rpg-complete-edition-section-chapter-16-16-2-weapon-and-armor-modifiers-armor-modifiers-b2d97cc2]] - narrower source section: Chapter 16: / 16.2 Weapon and Armor Modifiers / Armor Modifiers
-- [[sword-world-rpg-complete-edition-section-chapter-16-16-2-weapon-and-armor-modifiers-evasion-modifier-66c4d066]] - narrower source section: Chapter 16: / 16.2 Weapon and Armor Modifiers / Evasion Modifier
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-chapter-16-16-1-combat-in-which-monsters-roll-dice-ae771dc9]] - previous source section: Chapter 16: / 16.1 Combat in Which Monsters Roll Dice
 - [[sword-world-rpg-complete-edition-section-chapter-16-de7f0512]] - next source section: Chapter 16:
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-chapter-16-faf82038]] - broader source section: Chapter 16:
+- [[sword-world-rpg-complete-edition-section-chapter-16-16-2-weapon-and-armor-modifiers-armor-modifiers-b2d97cc2]] - narrower source section: Chapter 16: / 16.2 Weapon and Armor Modifiers / Armor Modifiers
+- [[sword-world-rpg-complete-edition-section-chapter-16-16-2-weapon-and-armor-modifiers-attack-power-modifier-80829277]] - narrower source section: Chapter 16: / 16.2 Weapon and Armor Modifiers / Attack Power Modifier
+- [[sword-world-rpg-complete-edition-section-chapter-16-16-2-weapon-and-armor-modifiers-critical-target-variation-0b9847e4]] - narrower source section: Chapter 16: / 16.2 Weapon and Armor Modifiers / Critical Target Variation
+- [[sword-world-rpg-complete-edition-section-chapter-16-16-2-weapon-and-armor-modifiers-evasion-modifier-66c4d066]] - narrower source section: Chapter 16: / 16.2 Weapon and Armor Modifiers / Evasion Modifier
+- [[sword-world-rpg-complete-edition-section-chapter-16-16-2-weapon-and-armor-modifiers-number-of-projectile-shots-9603575d]] - narrower source section: Chapter 16: / 16.2 Weapon and Armor Modifiers / Number of Projectile Shots
+- [[sword-world-rpg-complete-edition-section-chapter-16-16-2-weapon-and-armor-modifiers-strike-power-modifier-c398c4b8]] - narrower source section: Chapter 16: / 16.2 Weapon and Armor Modifiers / Strike Power Modifier
+- [[sword-world-rpg-complete-edition-section-chapter-16-16-2-weapon-and-armor-modifiers-weapon-modifiers-b008ecae]] - narrower source section: Chapter 16: / 16.2 Weapon and Armor Modifiers / Weapon Modifiers
 
 ## Statements by subsection
 
@@ -74,6 +79,7 @@ From [[sword-world-rpg-complete-edition]].
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-10045))_
 
+<a id="atom-technical-atom-2e4e68dee50a01bf"></a>
 | differ | in | ease | of | use | and | power. | This | rule | Axes/2H | ±0 | +10 | 11* |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | quantifies weapons used Optional explained | Here by The | the and Weapon is adventurers Rules"). terms below. | armor. a table | finer used | differences Modifiers of weapons ("Table on | 16-1 this | between commonly Weapon table | are | Spears/1H Spears/2H Maces/1H Maces/2H Clubs/1H Staves/2H Flails/1H Flails/2H War Hammer/1H War Hammer/2H Bows Crossbow | -1 ±0 +1 +1 +1 +1 -1 -1 -1 -2 ±0 ±0 | +5 +5 +5 +10 ±0 +5 +5 +10 +5 +15 +5 +10 | 10* 10* 12 12 12 12 10 10 10 10 10* 10* |
@@ -100,6 +106,7 @@ Table 16-1 Weapon Optional Rules
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-10200))_
 
+<a id="atom-technical-atom-5952b16c5450c171"></a>
 > A sling can shoot every round if it fires its own bullets.
 
 ### Technical frame 3: Chapter 16: / 16.2 Weapon and Armor Modifiers / Number of Projectile Shots
@@ -110,6 +117,7 @@ Table 16-1 Weapon Optional Rules
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-10202))_
 
+<a id="atom-technical-atom-debddd5ec163544a"></a>
 | Shield Name | Evasion Speed Mod. | Attack Power Mod. |
 | --- | --- | --- |
 | Small Shields | +1 | ±0 |

@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-15-1-four-types-of-experience-points-46385836@a029bbd807182ecb2e49376f0a1e1175
+projection_coverage: section-sword-world-rpg-complete-edition-section-15-1-four-types-of-experience-points-46385836@d76f2c2ac10f859ef4093e0dec682094
 ---
 
 # 15.1 Four Types of Experience Points
@@ -17,12 +17,17 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-15-1-four-types-of-experience-points-accomplishing-missions-bc3c93c2]] - narrower source section: 15.1 Four Types of Experience Points / Accomplishing Missions
-- [[sword-world-rpg-complete-edition-section-15-1-four-types-of-experience-points-fighting-monsters-84c07e62]] - narrower source section: 15.1 Four Types of Experience Points / Fighting Monsters
-- [[sword-world-rpg-complete-edition-section-15-1-four-types-of-experience-points-success-rolls-dfa6f42a]] - narrower source section: 15.1 Four Types of Experience Points / Success Rolls
-- [[sword-world-rpg-complete-edition-section-15-1-four-types-of-experience-points-special-bonuses-e7624c67]] - narrower source section: 15.1 Four Types of Experience Points / Special Bonuses
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-chapter-14-bd22bf6b]] - previous source section: Chapter 14:
 - [[sword-world-rpg-complete-edition-section-chapter-16-faf82038]] - next source section: Chapter 16:
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-15-1-four-types-of-experience-points-accomplishing-missions-bc3c93c2]] - narrower source section: 15.1 Four Types of Experience Points / Accomplishing Missions
+- [[sword-world-rpg-complete-edition-section-15-1-four-types-of-experience-points-fighting-monsters-84c07e62]] - narrower source section: 15.1 Four Types of Experience Points / Fighting Monsters
+- [[sword-world-rpg-complete-edition-section-15-1-four-types-of-experience-points-special-bonuses-e7624c67]] - narrower source section: 15.1 Four Types of Experience Points / Special Bonuses
+- [[sword-world-rpg-complete-edition-section-15-1-four-types-of-experience-points-success-rolls-dfa6f42a]] - narrower source section: 15.1 Four Types of Experience Points / Success Rolls
 
 ## Statements
 

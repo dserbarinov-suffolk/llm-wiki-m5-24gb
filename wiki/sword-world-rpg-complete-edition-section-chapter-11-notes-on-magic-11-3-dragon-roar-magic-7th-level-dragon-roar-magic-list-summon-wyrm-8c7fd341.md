@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-11-notes-on-magic-11-3-dragon-roar-magic-7th-level-dragon-roar-magic-list-summon-wyrm-8c7fd341@aa5914d7f97983b4fd26c975052d1ac6
+projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-11-notes-on-magic-11-3-dragon-roar-magic-7th-level-dragon-roar-magic-list-summon-wyrm-8c7fd341@390ee9d7d52da3e444e6ab6e624f550b
 ---
 
 # Chapter 11: Notes on Magic / 11.3 Dragon Roar Magic / 7th Level Dragon Roar Magic List [ Summon Wyrm ]
@@ -17,10 +17,15 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-chapter-11-notes-on-magic-11-3-dragon-roar-magic-992d31da]] - broader source section: Chapter 11: Notes on Magic / 11.3 Dragon Roar Magic
-- [[sword-world-rpg-complete-edition-section-chapter-11-notes-on-magic-11-3-dragon-roar-magic-7th-level-dragon-roar-magic-list-summon-wyrm-sh-bccf274c]] - narrower source section: Chapter 11: Notes on Magic / 11.3 Dragon Roar Magic / 7th Level Dragon Roar Magic List [ Summon Wyrm ] / [ Shape Change
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-chapter-11-notes-on-magic-11-3-dragon-roar-magic-6th-level-dragon-roar-magic-list-16eb69e9]] - previous source section: Chapter 11: Notes on Magic / 11.3 Dragon Roar Magic / 6th Level Dragon Roar Magic List
 - [[sword-world-rpg-complete-edition-section-chapter-11-notes-on-magic-11-3-dragon-roar-magic-8th-level-dragon-roar-magic-list-cba3ce47]] - next source section: Chapter 11: Notes on Magic / 11.3 Dragon Roar Magic / 8th Level Dragon Roar Magic List
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-chapter-11-notes-on-magic-11-3-dragon-roar-magic-992d31da]] - broader source section: Chapter 11: Notes on Magic / 11.3 Dragon Roar Magic
+- [[sword-world-rpg-complete-edition-section-chapter-11-notes-on-magic-11-3-dragon-roar-magic-7th-level-dragon-roar-magic-list-summon-wyrm-sh-bccf274c]] - narrower source section: Chapter 11: Notes on Magic / 11.3 Dragon Roar Magic / 7th Level Dragon Roar Magic List [ Summon Wyrm ] / [ Shape Change
 
 ## Statements
 

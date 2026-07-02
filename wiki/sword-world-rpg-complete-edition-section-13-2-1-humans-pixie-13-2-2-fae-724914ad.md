@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-13-2-1-humans-pixie-13-2-2-fae-724914ad@7f534bf63ae19b49326a654a728caa08
+projection_coverage: section-sword-world-rpg-complete-edition-section-13-2-1-humans-pixie-13-2-2-fae-724914ad@02403a158aabd99d0f3461d5db96b561
 ---
 
 # 13.2.1 《 Humans 》 / [ Pixie ] / 13.2.2 Fae
@@ -16,6 +16,8 @@ projection_coverage: section-sword-world-rpg-complete-edition-section-13-2-1-hum
 From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
+
+### Source structure
 
 - [[sword-world-rpg-complete-edition-section-13-2-1-humans-pixie-a3547bb5]] - broader source section: 13.2.1 《 Humans 》 / [ Pixie ]
 

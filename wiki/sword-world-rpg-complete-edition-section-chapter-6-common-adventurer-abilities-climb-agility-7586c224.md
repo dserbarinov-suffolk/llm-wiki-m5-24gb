@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-6-common-adventurer-abilities-climb-agility-7586c224@a4ee14cdd8315ba4eeb96f0485e05beb
+projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-6-common-adventurer-abilities-climb-agility-7586c224@8a4197abd84d9dc7b48024096fb963ed
 ---
 
 # Chapter 6: / Common Adventurer Abilities / [ ④ Climb [Agility] ]
@@ -17,9 +17,14 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-chapter-6-common-adventurer-abilities-328f2370]] - broader source section: Chapter 6: / Common Adventurer Abilities
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-chapter-6-common-adventurer-abilities-ship-steering-dexterity-3632bbca]] - previous source section: Chapter 6: / Common Adventurer Abilities / [ ③ Ship Steering [Dexterity]]
 - [[sword-world-rpg-complete-edition-section-chapter-6-common-adventurer-abilities-long-jump-high-jump-agility-6cafd500]] - next source section: Chapter 6: / Common Adventurer Abilities / [ ⑤ Long Jump/High Jump [Agility] ]
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-chapter-6-common-adventurer-abilities-328f2370]] - broader source section: Chapter 6: / Common Adventurer Abilities
 
 ## Statements
 
@@ -56,6 +61,7 @@ From [[sword-world-rpg-complete-edition]].
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-04218))_
 
+<a id="atom-technical-atom-f73f0b2f661b7450"></a>
 ```text
 Table 6-1: Climb by Skill
  using adventurer level + agility bonus as
@@ -90,6 +96,7 @@ Table 6-1: Climb by Skill
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-04227))_
 
+<a id="atom-technical-atom-df7716f24eceb2fb"></a>
 > If this adventurer is a thief, he can remove and discard the heavy armor he is wearing, and he can use his thief skill to attempt the climb more safely.
 
 ### Technical frame 3: Table 6-2: Determining Climb Target Scores
@@ -100,6 +107,7 @@ Table 6-1: Climb by Skill
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-04237))_
 
+<a id="atom-technical-atom-f270ca8f93f46b62"></a>
 ```text
 Table 6-2: Determining Climb Target Scores
  failure.

@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-13-2-6-mythical-beasts-and-magical-beasts-humbaba-c8925660@99470c6686934a92775e907ff8bb3ce9
+projection_coverage: section-sword-world-rpg-complete-edition-section-13-2-6-mythical-beasts-and-magical-beasts-humbaba-c8925660@33ac4c65d148ed3916572338b5e8ec52
 ---
 
 # 13.2.6 Mythical Beasts and Magical Beasts / [ Humbaba ]
@@ -17,9 +17,14 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-13-2-6-mythical-beasts-and-magical-beasts-f86962d2]] - broader source section: 13.2.6 Mythical Beasts and Magical Beasts
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-13-2-6-mythical-beasts-and-magical-beasts-hydra-dc4fda2a]] - previous source section: 13.2.6 Mythical Beasts and Magical Beasts / [ Hydra ]
 - [[sword-world-rpg-complete-edition-section-13-2-6-mythical-beasts-and-magical-beasts-roc-08fefbde]] - next source section: 13.2.6 Mythical Beasts and Magical Beasts / [ Roc ]
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-13-2-6-mythical-beasts-and-magical-beasts-f86962d2]] - broader source section: 13.2.6 Mythical Beasts and Magical Beasts
 
 ## Statements
 
@@ -38,6 +43,7 @@ From [[sword-world-rpg-complete-edition]].
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-06799))_
 
+<a id="atom-technical-atom-ea2608892d2995e4"></a>
 > You must roll 2D and if you don't roll a 7 or greater, you will become infected.
 
 ### Technical frame 2: 13.2.6 Mythical Beasts and Magical Beasts / [ Humbaba ]
@@ -48,4 +54,5 @@ From [[sword-world-rpg-complete-edition]].
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-06801))_
 
+<a id="atom-technical-atom-c04aea65d822feaa"></a>
 > A humbaba cannot use gaze, fire, and normal attacks at the same time.

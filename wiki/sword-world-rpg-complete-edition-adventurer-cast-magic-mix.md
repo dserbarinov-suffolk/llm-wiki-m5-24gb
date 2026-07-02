@@ -7,7 +7,7 @@ sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: concepts
-projection_coverage: topic-sword-world-rpg-complete-edition-adventurer-cast-magic-mix@d852607c15d2e21593926aca6e0b917f
+projection_coverage: topic-sword-world-rpg-complete-edition-adventurer-cast-magic-mix@0f8eda58013a3fa44815a6763db89640
 ---
 
 # Adventurer Cast Magic Mix
@@ -35,6 +35,7 @@ What [[sword-world-rpg-complete-edition]] covers about adventurer cast magic mix
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-01652))_
 
+<a id="atom-technical-atom-2d64034d20b52147"></a>
 > At this time, the monsters must also roll the dice to make resist checks.
 
 ### Technical frame 2: 4.10 Excellent Weapons and Armor / 4.10.4 Mithril Silver Weapons and Armor / When an Adventurer Casts Magic on a Mix of Adventurers and Monsters
@@ -45,6 +46,7 @@ What [[sword-world-rpg-complete-edition]] covers about adventurer cast magic mix
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-01656))_
 
+<a id="atom-technical-atom-23ba5d7f8e3959b7"></a>
 > If the one on whom the magic is being cast chooses not to resist the magic, it will definitely take effect so long as the one casting the magic does not roll double ones.
 
 

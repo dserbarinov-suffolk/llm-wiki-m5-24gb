@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-5-1-14-spirit-magic-list-2nd-level-spirit-magic-list-will-o-wisp-will-o-wisp-light-spirit-confus-4f1e401e@4f5ad85be20e5fb7e2b2c58e824f5c69
+projection_coverage: section-sword-world-rpg-complete-edition-section-5-1-14-spirit-magic-list-2nd-level-spirit-magic-list-will-o-wisp-will-o-wisp-light-spirit-confus-4f1e401e@5f6420a65d3094d66ed3f87fd2c228ef
 ---
 
 # 5.1.14 Spirit Magic List / 2nd Level Spirit Magic List [ Will-O-Wisp ] (Will-O-Wisp/Light Spirit) / [ Confusion ] (Leprechaun/Mind Spirit)
@@ -17,9 +17,14 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-5-1-14-spirit-magic-list-2nd-level-spirit-magic-list-will-o-wisp-will-o-wisp-light-spirit-d5164997]] - broader source section: 5.1.14 Spirit Magic List / 2nd Level Spirit Magic List [ Will-O-Wisp ] (Will-O-Wisp/Light Spirit)
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-5-1-14-spirit-magic-list-2nd-level-spirit-magic-list-will-o-wisp-will-o-wisp-light-spirit-water-6912c0b9]] - previous source section: 5.1.14 Spirit Magic List / 2nd Level Spirit Magic List [ Will-O-Wisp ] (Will-O-Wisp/Light Spirit) / [ Water Screen ] (Undine/Water Spirit)
 - [[sword-world-rpg-complete-edition-section-5-1-14-spirit-magic-list-2nd-level-spirit-magic-list-will-o-wisp-will-o-wisp-light-spirit-shade-82e8f3ab]] - next source section: 5.1.14 Spirit Magic List / 2nd Level Spirit Magic List [ Will-O-Wisp ] (Will-O-Wisp/Light Spirit) / [ Shade ] (Shade/Dark Spirit)
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-5-1-14-spirit-magic-list-2nd-level-spirit-magic-list-will-o-wisp-will-o-wisp-light-spirit-d5164997]] - broader source section: 5.1.14 Spirit Magic List / 2nd Level Spirit Magic List [ Will-O-Wisp ] (Will-O-Wisp/Light Spirit)
 
 ## Statements
 

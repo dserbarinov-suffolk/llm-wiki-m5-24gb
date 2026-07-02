@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-4-8-applying-damage-44a7268d@8ac7b4b5a172f38e482675e3399045f4
+projection_coverage: section-sword-world-rpg-complete-edition-section-4-8-applying-damage-44a7268d@2b57460497517af4b1d3c6c716d84b54
 ---
 
 # 4.8 Applying Damage
@@ -16,6 +16,8 @@ projection_coverage: section-sword-world-rpg-complete-edition-section-4-8-applyi
 From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
+
+### Source order
 
 - [[sword-world-rpg-complete-edition-section-4-7-attacks-from-characters-against-characters-86d787cb]] - previous source section: 4.7 Attacks From Characters Against Characters
 - [[sword-world-rpg-complete-edition-section-4-9-unconscious-and-death-checks-e6129e9c]] - next source section: 4.9 Unconscious and Death Checks

@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-5-1-12-ancient-magic-list-stun-cloud-b197ed89@1ea37e34a124815783f2cdae76f4435f
+projection_coverage: section-sword-world-rpg-complete-edition-section-5-1-12-ancient-magic-list-stun-cloud-b197ed89@942e0b9e49be1daa7a7ba4956cc2869e
 ---
 
 # 5.1.12 Ancient Magic List / [ Stun Cloud ]
@@ -17,9 +17,14 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-5-1-12-ancient-magic-list-2e59bfee]] - broader source section: 5.1.12 Ancient Magic List
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-5-1-12-ancient-magic-list-magic-reflection-3d7d6ee5]] - previous source section: 5.1.12 Ancient Magic List / [ Magic Reflection ]
 - [[sword-world-rpg-complete-edition-section-5-1-12-ancient-magic-list-force-field-aebc13c6]] - next source section: 5.1.12 Ancient Magic List / [ Force Field ]
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-5-1-12-ancient-magic-list-2e59bfee]] - broader source section: 5.1.12 Ancient Magic List
 
 ## Statements
 

@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-other-tracer-doll-cffb7cde@38c7e6067c55099d98ca2797361d0173
+projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-other-tracer-doll-cffb7cde@200f414403b7f0b31eb737daa67f1a61
 ---
 
 # Chapter 14: / 14.4 Magical Item List / 《 Other 》 / [ Tracer Doll ]
@@ -17,9 +17,14 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-other-ae5b041d]] - broader source section: Chapter 14: / 14.4 Magical Item List / 《 Other 》
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-other-dragon-tooth-05f57616]] - previous source section: Chapter 14: / 14.4 Magical Item List / 《 Other 》 / [ Dragon Tooth ]
 - [[sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-other-night-goggles-b21292ba]] - next source section: Chapter 14: / 14.4 Magical Item List / 《 Other 》 / [ Night Goggles ]
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-other-ae5b041d]] - broader source section: Chapter 14: / 14.4 Magical Item List / 《 Other 》
 
 ## Statements
 

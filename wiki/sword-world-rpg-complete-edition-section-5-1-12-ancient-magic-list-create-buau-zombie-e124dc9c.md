@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-5-1-12-ancient-magic-list-create-buau-zombie-e124dc9c@51045f713e1776d8d27b43ae7b490d74
+projection_coverage: section-sword-world-rpg-complete-edition-section-5-1-12-ancient-magic-list-create-buau-zombie-e124dc9c@8606b456f5882217ef14f826df9c8c22
 ---
 
 # 5.1.12 Ancient Magic List / [ Create Buau Zombie
@@ -17,9 +17,14 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-5-1-12-ancient-magic-list-2e59bfee]] - broader source section: 5.1.12 Ancient Magic List
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-5-1-12-ancient-magic-list-create-device-5a463a3c]] - previous source section: 5.1.12 Ancient Magic List / [ Create Device ]
 - [[sword-world-rpg-complete-edition-section-5-1-12-ancient-magic-list-see-through-a33c9d61]] - next source section: 5.1.12 Ancient Magic List / [ See-Through ]
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-5-1-12-ancient-magic-list-2e59bfee]] - broader source section: 5.1.12 Ancient Magic List
 
 ## Statements
 

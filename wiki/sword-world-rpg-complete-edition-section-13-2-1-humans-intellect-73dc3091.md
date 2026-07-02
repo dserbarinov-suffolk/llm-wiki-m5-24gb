@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-13-2-1-humans-intellect-73dc3091@91282eea31eab73ab16d7e152497ea5c
+projection_coverage: section-sword-world-rpg-complete-edition-section-13-2-1-humans-intellect-73dc3091@143af3dcdeec0170447fbe0e10058532
 ---
 
 # 13.2.1 《 Humans 》 / 《 Intellect 》
@@ -17,9 +17,14 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-13-2-1-humans-2369e4b2]] - broader source section: 13.2.1 《 Humans 》
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-13-2-1-humans-frequency-1013763a]] - previous source section: 13.2.1 《 Humans 》 / 《 Frequency 》
 - [[sword-world-rpg-complete-edition-section-13-2-1-humans-reaction-ea4ee40f]] - next source section: 13.2.1 《 Humans 》 / 《 Reaction 》
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-13-2-1-humans-2369e4b2]] - broader source section: 13.2.1 《 Humans 》
 
 ## Statements
 
@@ -54,6 +59,7 @@ From [[sword-world-rpg-complete-edition]].
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-05921))_
 
+<a id="atom-technical-atom-8d39b0c4c36dfee5"></a>
 > If given a command-- the only ones who can give commands are those who directly created the monster or those who used magic to give the command -they will faithfully carry it out, but they cannot make their own decisions.
 
 ### Technical frame 2: 13.2.1 《 Humans 》 / 《 Intellect 》
@@ -64,4 +70,5 @@ From [[sword-world-rpg-complete-edition]].
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-05922))_
 
+<a id="atom-technical-atom-8438242abd6f51e0"></a>
 > They can distinguish their master and will follow their commands (if they're trained).

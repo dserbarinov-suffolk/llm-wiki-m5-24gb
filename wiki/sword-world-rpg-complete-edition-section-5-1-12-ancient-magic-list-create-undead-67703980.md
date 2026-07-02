@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-5-1-12-ancient-magic-list-create-undead-67703980@779ed5f68fb0c78500001c0ed7a59f71
+projection_coverage: section-sword-world-rpg-complete-edition-section-5-1-12-ancient-magic-list-create-undead-67703980@871d1be9cb731bce7f8e1395d69826d2
 ---
 
 # 5.1.12 Ancient Magic List / Create Undead ]
@@ -17,8 +17,13 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-5-1-12-ancient-magic-list-2e59bfee]] - broader source section: 5.1.12 Ancient Magic List
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-5-1-12-ancient-magic-list-create-device-5a463a3c]] - next source section: 5.1.12 Ancient Magic List / [ Create Device ]
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-5-1-12-ancient-magic-list-2e59bfee]] - broader source section: 5.1.12 Ancient Magic List
 
 ## Statements
 
@@ -38,4 +43,5 @@ From [[sword-world-rpg-complete-edition]].
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-02398))_
 
+<a id="atom-technical-atom-628baaf80a17fad0"></a>
 > If you wish, you can turn non-human animals, fae, youma, titans, mythical beasts, magical beasts, etc.

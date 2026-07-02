@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-13-2-1-humans-perception-55f8f7ca@744743c582b6d15ed523fcd55df56dd9
+projection_coverage: section-sword-world-rpg-complete-edition-section-13-2-1-humans-perception-55f8f7ca@213692d15dfd029a907e1da19126e347
 ---
 
 # 13.2.1 《 Humans 》 / 《 Perception 》
@@ -17,9 +17,14 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-13-2-1-humans-2369e4b2]] - broader source section: 13.2.1 《 Humans 》
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-13-2-1-humans-habitat-2fd9a32e]] - previous source section: 13.2.1 《 Humans 》 / 《 Habitat 》
 - [[sword-world-rpg-complete-edition-section-13-2-1-humans-languages-0888b827]] - next source section: 13.2.1 《 Humans 》 / 《 Languages 》
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-13-2-1-humans-2369e4b2]] - broader source section: 13.2.1 《 Humans 》
 
 ## Statements
 

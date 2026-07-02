@@ -4,10 +4,10 @@ page_kind: concept
 summary: String: 7 statement(s) and 7 atom(s) from raw/javascriptallonge.pdf.
 page_family: broad-topic
 sources: raw/javascriptallonge.pdf
-updated: 2026-07-01
+updated: 2026-07-02
 domain: javascriptallonge
 category_path: concepts
-projection_coverage: topic-javascriptallonge-string@b2899169e48b5ea1ced1ba0833645a08
+projection_coverage: topic-javascriptallonge-string@3d0a65e5d9cc62439b87aebde2732315
 ---
 
 # String
@@ -55,6 +55,7 @@ What [[javascriptallonge]] covers about string:
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00116))_
 
+<a id="atom-technical-atom-bd6b2150c17dfd44"></a>
 ```text
 2 In JavaScript, we test whether two values are identical with the operator, and whether they are === not identical with the operator: !== 2 === 2 //=> true 'hello' !== 'goodbye' //=> true How does work, exactly? Imagine that you’re shown a cup of coffee. And then you’re shown === another cup of coffee. Are the two cups “identical?” In JavaScript, there are four possibilities: First, sometimes, the cups are of different kinds. One is a demitasse, the other a mug. This corresponds to comparing two things in JavaScript that have different types. For example, the string "2" is not the same thing as the number 2. Strings and numbers are different types, so strings and numbers are never identical:
 2 === '2' //=> false true !== 'true' //=> true Second, sometimes, the cups are of the same type–perhaps two espresso cups–but they have different contents. One holds a single, one a double. This corresponds to comparing two JavaScript values that have the same type but different “content.” For example, the number 5 is not the same thing as the number 2. true === false //=> false
@@ -81,6 +82,7 @@ What [[javascriptallonge]] covers about string:
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00121))_
 
+<a id="atom-technical-atom-b358c04aed3b8cee"></a>
 ```
 2 === '2'
 //=> false
@@ -96,6 +98,7 @@ true !== 'true'
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00127))_
 
+<a id="atom-technical-atom-507da98d1e62801a"></a>
 ```
 2 + 2 === 4
 //=> true
@@ -111,6 +114,7 @@ true !== 'true'
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00129))_
 
+<a id="atom-technical-atom-41f1205dee552ceb"></a>
 > So even if you have two cups of the same type, and their contents are the same, you can still distinguish between them.
 
 ### Technical frame 5: The first sip: Basic Functions / As Little As Possible About Functions, But No Less
@@ -121,6 +125,7 @@ true !== 'true'
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00171))_
 
+<a id="atom-technical-atom-48cd5041e359cb82"></a>
 ```
 () => 0
 ```
@@ -133,6 +138,7 @@ true !== 'true'
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01497))_
 
+<a id="atom-technical-atom-674e282d41ace6ab"></a>
 ```
 'fu' + 'bar'
 //=> 'fubar'
@@ -146,6 +152,7 @@ true !== 'true'
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01501))_
 
+<a id="atom-technical-atom-eba515be482d2fd3"></a>
 ```
 `foobar`
 //=> 'foobar'
@@ -156,12 +163,14 @@ true !== 'true'
 
 ## Related pages
 
+### Shared technical atoms
+
 - [[javascriptallonge-javascript]] - shared statements and technical atoms: Javascript shares source evidence from Or even: / the simplest possible block / undefined: Like numbers, booleans and strings, JavaScript can print out the value undefined .; Javascript shares technical record from Prelude: Values and Expressions over Coffee / values are expressions: 2 === '2' //=> false true !== 'true' //=> true (1 shared statement(s), 5 shared atom(s))
 - [[javascriptallonge-type]] - shared statements and technical atoms: Type shares source evidence from And also: / call by sharing: We said that JavaScript binds names to values, but we didn't say what it means to bind a name to a value. Now we can elaborate: When JavaScript binds a value-type to ... [truncated]; Type shares technical record from Prelude: Values and Expressions over Coffee / values are expressions: 2 + 2 === 4 //=> true (2 + 2 === 4) === (2 !== 5) //=> true (1 shared statement(s), 3 shared atom(s))
+- [[javascriptallonge-expression]] - shared technical atoms: Expression shares technical record from Prelude: Values and Expressions over Coffee / values are expressions: `foobar` //=> 'foobar' `fizz` + `buzz` //=> 'fizzbuzz' (2 shared atom(s))
 - [[javascriptallonge-literal]] - shared statements and technical atoms: Literal shares source evidence from A Warm Cup: Basic Strings and Quasi-Literals / quasi-literals: JavaScript supports quasi-literal strings , a/k/a 'Template Strings' or 'String Interpolation Expressions.' A quasi-literal string is something that looks like a str ... [truncated]; Literal shares technical record from A Warm Cup: Basic Strings and Quasi-Literals / quasi-literals: `foobar` //=> 'foobar' `fizz` + `buzz` //=> 'fizzbuzz' (1 shared statement(s), 1 shared atom(s))
 - [[javascriptallonge-quasi]] - shared statements and technical atoms: Quasi shares source evidence from A Warm Cup: Basic Strings and Quasi-Literals / quasi-literals: JavaScript supports quasi-literal strings , a/k/a 'Template Strings' or 'String Interpolation Expressions.' A quasi-literal string is something that looks like a str ... [truncated]; Quasi shares technical record from A Warm Cup: Basic Strings and Quasi-Literals / quasi-literals: `foobar` //=> 'foobar' `fizz` + `buzz` //=> 'fizzbuzz' (1 shared statement(s), 1 shared atom(s))
 - [[javascriptallonge-quasi-literal]] - shared statements and technical atoms: Quasi Literal shares source evidence from A Warm Cup: Basic Strings and Quasi-Literals / quasi-literals: JavaScript supports quasi-literal strings , a/k/a 'Template Strings' or 'String Interpolation Expressions.' A quasi-literal string is something that looks like a str ... [truncated]; Quasi Literal shares technical record from A Warm Cup: Basic Strings and Quasi-Literals / quasi-literals: `foobar` //=> 'foobar' `fizz` + `buzz` //=> 'fizzbuzz' (1 shared statement(s), 1 shared atom(s))
-- [[javascriptallonge-expression]] - shared technical atoms: Expression shares technical record from Prelude: Values and Expressions over Coffee / values are expressions: `foobar` //=> 'foobar' `fizz` + `buzz` //=> 'fizzbuzz' (2 shared atom(s))
 - [[javascriptallonge-coffee]] - shared technical atoms: Coffee shares technical record from Prelude: Values and Expressions over Coffee / values are expressions: 2 In JavaScript, we test whether two values are identical with the operator, and whether they are === not identical with the operator: !== 2 === 2 //=> true 'hello' ... [truncated] (1 shared atom(s))
 
 ## Source

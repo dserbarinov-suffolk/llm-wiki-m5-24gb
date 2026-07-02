@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-2-5-difficulty-checks-2-5-2-how-to-make-a-difficulty-check-6d909d75@5085dd11214cf221fe38199db00a7ae1
+projection_coverage: section-sword-world-rpg-complete-edition-section-2-5-difficulty-checks-2-5-2-how-to-make-a-difficulty-check-6d909d75@826b717fd0b47c0c049aef174e51c3e3
 ---
 
 # 2.5 Difficulty Checks / 2.5.2 How to Make a Difficulty Check
@@ -17,9 +17,14 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-2-5-difficulty-checks-d95d8c9d]] - broader source section: 2.5 Difficulty Checks
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-2-5-difficulty-checks-2-5-1-difficulty-24f6c32c]] - previous source section: 2.5 Difficulty Checks / 2.5.1 Difficulty
 - [[sword-world-rpg-complete-edition-section-2-5-difficulty-checks-2-5-3-analogy-of-success-and-failure-86286098]] - next source section: 2.5 Difficulty Checks / 2.5.3 Analogy of Success and Failure
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-2-5-difficulty-checks-d95d8c9d]] - broader source section: 2.5 Difficulty Checks
 
 ## Statements
 
@@ -43,6 +48,7 @@ From [[sword-world-rpg-complete-edition]].
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-01004))_
 
+<a id="atom-technical-atom-e21df2581d60e8c2"></a>
 > final score ≥ target score (difficulty + 2D) → action succeeds
 
 ### Technical frame 2: 2.5 Difficulty Checks / 2.5.2 How to Make a Difficulty Check
@@ -53,6 +59,7 @@ From [[sword-world-rpg-complete-edition]].
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-01007))_
 
+<a id="atom-technical-atom-3cf79449812f868b"></a>
 ```text
 1. There is a  trap, the find trap check is successful → There is a trap at the door 2. There is a trap, the find trap check is a failure → You don't find any traps 3. There is no trap, the find trap check is successful → You don't find any traps 4. There is no trap, the find trap check is a failure → You don't find any traps
 ```

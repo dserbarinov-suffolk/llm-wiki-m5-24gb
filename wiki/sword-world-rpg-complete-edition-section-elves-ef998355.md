@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-elves-ef998355@b8bda69498f31feafeae08bff772d65b
+projection_coverage: section-sword-world-rpg-complete-edition-section-elves-ef998355@0c5a47ee188c93ccaa5b0555fa609ab2
 ---
 
 # Elves
@@ -16,6 +16,8 @@ projection_coverage: section-sword-world-rpg-complete-edition-section-elves-ef99
 From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
+
+### Source order
 
 - [[sword-world-rpg-complete-edition-section-18-2-19c6fad6]] - previous source section: 18.2
 - [[sword-world-rpg-complete-edition-section-dwarves-grassrunners-half-elves-74803f58]] - next source section: Dwarves, Grassrunners, Half-Elves

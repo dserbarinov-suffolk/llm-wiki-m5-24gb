@@ -9,7 +9,7 @@ domain: sword-world-rpg-complete-edition
 category_path: procedures/sword-world-rpg-complete-edition
 source_id: Sword World RPG - Complete Edition.pdf
 aliases: complete-difficulty-checks, difficulty-checks
-projection_coverage: procedure-sword-world-rpg-complete-edition-procedure-difficulty-checks@d91abda1d2eab37f44ab9432b2cff6be
+projection_coverage: procedure-sword-world-rpg-complete-edition-procedure-difficulty-checks@edd9cc042b8c54b4be52fc9936cb12aa
 ---
 
 # Difficulty Checks
@@ -42,13 +42,13 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Tables And Formulas
 
-- `formula`: You (the player) roll the dice. The roll is 8 . 4+8= 12 , so it's a success, although just barely. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-00982))_
-- `rule`: Even if a bonus or penalty is applied, the roll is still an automatic success if the roll comes up double sixes , and an _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-00992))_
-- `formula`: final score ≥ target score (difficulty + 2D) → action succeeds _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-01004))_
-- `table`: 1. There is a  trap, the find trap check is successful → There is a trap at the door 2. There is a trap, the find trap c _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-01007))_
-- `rule`: If the roll is as high as 10 or 11, the success roll is considered to have a very high chance of success. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-01013))_
-- `rule`: If the roll is low, such as 3 or 4, then there's a high chance that the success roll has failed. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-01014))_
-- `formula`: final score {baseline score + 2D ± (bonus, penalty)} ≥ target score → action is successful _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-00975))_
+- `formula`: [[sword-world-rpg-complete-edition-section-2-5-difficulty-checks-d95d8c9d]]#atom-technical-atom-d9993c6aea2c0352 You (the player) roll the dice. The roll is 8 . 4+8= 12 , so it's a success, although just barely. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-00982))_
+- `rule`: [[sword-world-rpg-complete-edition-section-2-5-difficulty-checks-d95d8c9d]]#atom-technical-atom-ece9292aabeeb24f Even if a bonus or penalty is applied, the roll is still an automatic success if the roll comes up double sixes , and an _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-00992))_
+- `formula`: [[sword-world-rpg-complete-edition-section-2-5-difficulty-checks-d95d8c9d]]#atom-technical-atom-e21df2581d60e8c2 final score ≥ target score (difficulty + 2D) → action succeeds _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-01004))_
+- `table`: [[sword-world-rpg-complete-edition-section-2-5-difficulty-checks-d95d8c9d]]#atom-technical-atom-3cf79449812f868b 1. There is a  trap, the find trap check is successful → There is a trap at the door 2. There is a trap, the find trap c _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-01007))_
+- `rule`: [[sword-world-rpg-complete-edition-section-2-5-difficulty-checks-d95d8c9d]]#atom-technical-atom-909ef186c6b63af5 If the roll is as high as 10 or 11, the success roll is considered to have a very high chance of success. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-01013))_
+- `rule`: [[sword-world-rpg-complete-edition-section-2-5-difficulty-checks-d95d8c9d]]#atom-technical-atom-1efb3eeb96d369d5 If the roll is low, such as 3 or 4, then there's a high chance that the success roll has failed. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-01014))_
+- `formula`: [[sword-world-rpg-complete-edition-section-2-5-difficulty-checks-d95d8c9d]]#atom-technical-atom-59ca9f8714c10637 final score {baseline score + 2D ± (bonus, penalty)} ≥ target score → action is successful _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-00975))_
 
 ## Completion Check
 

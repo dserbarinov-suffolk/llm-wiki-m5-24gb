@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-1-4-character-creation-1-4-9-filling-out-the-character-sheet-race-c8a3c500@8e3ab918123e035fd995e9e0bf9ba87e
+projection_coverage: section-sword-world-rpg-complete-edition-section-1-4-character-creation-1-4-9-filling-out-the-character-sheet-race-c8a3c500@390435d3b809fe740c56ddf5785eab26
 ---
 
 # 1.4 Character Creation / 1.4.9 Filling Out the Character Sheet / [ ② Race ]
@@ -17,9 +17,14 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-1-4-character-creation-1-4-9-filling-out-the-character-sheet-e4f251c1]] - broader source section: 1.4 Character Creation / 1.4.9 Filling Out the Character Sheet
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-1-4-character-creation-1-4-9-filling-out-the-character-sheet-player-name-9e5a0b37]] - previous source section: 1.4 Character Creation / 1.4.9 Filling Out the Character Sheet / [ ① Player Name ]
 - [[sword-world-rpg-complete-edition-section-1-4-character-creation-1-4-9-filling-out-the-character-sheet-sub-ability-scores-b9ddc342]] - next source section: 1.4 Character Creation / 1.4.9 Filling Out the Character Sheet / [ ③ Sub-Ability Scores]
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-1-4-character-creation-1-4-9-filling-out-the-character-sheet-e4f251c1]] - broader source section: 1.4 Character Creation / 1.4.9 Filling Out the Character Sheet
 
 ## Statements
 

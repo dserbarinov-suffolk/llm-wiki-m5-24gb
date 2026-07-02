@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-magic-shield-mithril-mesh-e536dcc3@9e415a827290fe758058ca4037ccaa9f
+projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-magic-shield-mithril-mesh-e536dcc3@9ed09076948153022e387fb1ebdf189c
 ---
 
 # Chapter 14: / 14.4 Magical Item List / 《 Magic Shield 》 / 《 Mithril Mesh 》
@@ -17,9 +17,14 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-magic-shield-a31533e2]] - broader source section: Chapter 14: / 14.4 Magical Item List / 《 Magic Shield 》
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-magic-shield-magic-acceptor-5e015f96]] - previous source section: Chapter 14: / 14.4 Magical Item List / 《 Magic Shield 》 / 《 Magic Acceptor 》
 - [[sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-magic-shield-shield-of-the-brave-fc0d7b38]] - next source section: Chapter 14: / 14.4 Magical Item List / 《 Magic Shield 》 / 《 Shield of the Brave 》
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-magic-shield-a31533e2]] - broader source section: Chapter 14: / 14.4 Magical Item List / 《 Magic Shield 》
 
 ## Statements
 

@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-6-6-3-ranger-skill-map-creation-intelligence-no-equipment-restriction-not-retriable-2f14328a@f585f292cfbfe2e6aa8aa8aec1c5f62b
+projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-6-6-3-ranger-skill-map-creation-intelligence-no-equipment-restriction-not-retriable-2f14328a@1d333091354c78f14f37ffb91c9e40df
 ---
 
 # Chapter 6: / 6.3 Ranger Skill / [ ⑨ Map Creation [Intelligence]] (No equipment restriction, not retriable)
@@ -17,9 +17,14 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-chapter-6-6-3-ranger-skill-ae825c0d]] - broader source section: Chapter 6: / 6.3 Ranger Skill
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-chapter-6-6-3-ranger-skill-search-intelligence-no-equipment-restriction-not-retriable-ba9ab8c0]] - previous source section: Chapter 6: / 6.3 Ranger Skill / [ ⑧ Search [Intelligence] ] (No equipment restriction, not retriable)
 - [[sword-world-rpg-complete-edition-section-chapter-6-6-3-ranger-skill-weather-prediction-intelligence-no-equipment-restriction-not-retriabl-38514fd4]] - next source section: Chapter 6: / 6.3 Ranger Skill / [ ⑩ Weather Prediction [Intelligence] ] (No equipment restriction, not retriable)
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-chapter-6-6-3-ranger-skill-ae825c0d]] - broader source section: Chapter 6: / 6.3 Ranger Skill
 
 ## Statements
 

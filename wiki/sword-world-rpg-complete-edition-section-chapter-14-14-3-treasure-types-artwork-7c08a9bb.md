@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-14-14-3-treasure-types-artwork-7c08a9bb@bf6f7bf953568019b042cd9a163a4f2a
+projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-14-14-3-treasure-types-artwork-7c08a9bb@247626243f2a5ec44c3cd636d153c9f7
 ---
 
 # Chapter 14: / 14.3 Treasure Types / Artwork
@@ -17,8 +17,13 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-chapter-14-14-3-treasure-types-3e3d33e2]] - broader source section: Chapter 14: / 14.3 Treasure Types
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-chapter-14-14-3-treasure-types-gems-and-precious-metals-4f7287c2]] - previous source section: Chapter 14: / 14.3 Treasure Types / Gems and Precious Metals
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-chapter-14-14-3-treasure-types-3e3d33e2]] - broader source section: Chapter 14: / 14.3 Treasure Types
 
 ## Statements
 

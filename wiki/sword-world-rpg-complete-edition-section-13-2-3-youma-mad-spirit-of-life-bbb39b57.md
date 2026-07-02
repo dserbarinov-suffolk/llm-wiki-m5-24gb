@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-13-2-3-youma-mad-spirit-of-life-bbb39b57@914006ecda478903883e08762ffa2e7c
+projection_coverage: section-sword-world-rpg-complete-edition-section-13-2-3-youma-mad-spirit-of-life-bbb39b57@9470a7f12c4a11f8f2038bf19df70b08
 ---
 
 # 13.2.3 Youma / [ Mad Spirit of Life ]
@@ -17,9 +17,14 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-13-2-3-youma-05ea9fd0]] - broader source section: 13.2.3 Youma
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-13-2-3-youma-dryad-f7282616]] - previous source section: 13.2.3 Youma / [ Dryad ]
 - [[sword-world-rpg-complete-edition-section-13-2-3-youma-valkyrie-0dbee5d3]] - next source section: 13.2.3 Youma / [ Valkyrie ]
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-13-2-3-youma-05ea9fd0]] - broader source section: 13.2.3 Youma
 
 ## Statements
 

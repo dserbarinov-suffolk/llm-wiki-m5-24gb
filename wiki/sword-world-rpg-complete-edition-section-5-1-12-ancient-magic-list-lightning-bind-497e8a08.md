@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-5-1-12-ancient-magic-list-lightning-bind-497e8a08@4993b873a9f39a2f35b7002ee6a8c5a4
+projection_coverage: section-sword-world-rpg-complete-edition-section-5-1-12-ancient-magic-list-lightning-bind-497e8a08@c4619a31d77b4cd5988bcdc53e5407f5
 ---
 
 # 5.1.12 Ancient Magic List / [ Lightning Bind ]
@@ -17,15 +17,20 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
+### Source order
+
+- [[sword-world-rpg-complete-edition-section-5-1-12-ancient-magic-list-force-field-aebc13c6]] - previous source section: 5.1.12 Ancient Magic List / [ Force Field ]
+
+### Source structure
+
 - [[sword-world-rpg-complete-edition-section-5-1-12-ancient-magic-list-2e59bfee]] - broader source section: 5.1.12 Ancient Magic List
-- [[sword-world-rpg-complete-edition-section-5-1-12-ancient-magic-list-lightning-bind-wraith-form-686db865]] - narrower source section: 5.1.12 Ancient Magic List / [ Lightning Bind ] / [ Wraith Form ]
-- [[sword-world-rpg-complete-edition-section-5-1-12-ancient-magic-list-lightning-bind-9th-level-ancient-magic-list-command-golem-0fbf68a1]] - narrower source section: 5.1.12 Ancient Magic List / [ Lightning Bind ] / 9th Level Ancient Magic List [ Command Golem ]
 - [[sword-world-rpg-complete-edition-section-5-1-12-ancient-magic-list-lightning-bind-10th-level-ancient-magic-list-dimension-gate-fc396ce7]] - narrower source section: 5.1.12 Ancient Magic List / [ Lightning Bind ] / 10th Level Ancient Magic List [ Dimension Gate ]
 - [[sword-world-rpg-complete-edition-section-5-1-12-ancient-magic-list-lightning-bind-5-1-13-spirit-magic-and-the-shaman-skill-f3a8ad93]] - narrower source section: 5.1.12 Ancient Magic List / [ Lightning Bind ] / 5.1.13 Spirit Magic and the Shaman Skill
+- [[sword-world-rpg-complete-edition-section-5-1-12-ancient-magic-list-lightning-bind-9th-level-ancient-magic-list-command-golem-0fbf68a1]] - narrower source section: 5.1.12 Ancient Magic List / [ Lightning Bind ] / 9th Level Ancient Magic List [ Command Golem ]
 - [[sword-world-rpg-complete-edition-section-5-1-12-ancient-magic-list-lightning-bind-infravision-9c568d4b]] - narrower source section: 5.1.12 Ancient Magic List / [ Lightning Bind ] / 《 Infravision 》
 - [[sword-world-rpg-complete-edition-section-5-1-12-ancient-magic-list-lightning-bind-sense-aura-5b4a4eef]] - narrower source section: 5.1.12 Ancient Magic List / [ Lightning Bind ] / 《 Sense Aura 》
 - [[sword-world-rpg-complete-edition-section-5-1-12-ancient-magic-list-lightning-bind-silent-spirit-7b6855c6]] - narrower source section: 5.1.12 Ancient Magic List / [ Lightning Bind ] / 《 Silent Spirit 》
-- [[sword-world-rpg-complete-edition-section-5-1-12-ancient-magic-list-force-field-aebc13c6]] - previous source section: 5.1.12 Ancient Magic List / [ Force Field ]
+- [[sword-world-rpg-complete-edition-section-5-1-12-ancient-magic-list-lightning-bind-wraith-form-686db865]] - narrower source section: 5.1.12 Ancient Magic List / [ Lightning Bind ] / [ Wraith Form ]
 
 ## Statements
 
@@ -145,6 +150,7 @@ From [[sword-world-rpg-complete-edition]].
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-02758))_
 
+<a id="atom-technical-atom-6c4c923eac11fbd8"></a>
 ```text
 5.1.13 Spirit Magic and the Shaman Skill
 5.1.13 Spirit Magic  and the Shaman Skil

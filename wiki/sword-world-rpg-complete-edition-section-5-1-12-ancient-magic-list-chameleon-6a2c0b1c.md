@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-5-1-12-ancient-magic-list-chameleon-6a2c0b1c@d8756b53741d5443cd0f830c18f63a63
+projection_coverage: section-sword-world-rpg-complete-edition-section-5-1-12-ancient-magic-list-chameleon-6a2c0b1c@8ffca0faa3c732fea2f4825dc68b41d1
 ---
 
 # 5.1.12 Ancient Magic List / [ Chameleon ]
@@ -17,6 +17,11 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-5-1-12-ancient-magic-list-2e59bfee]] - broader source section: 5.1.12 Ancient Magic List
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-5-1-12-ancient-magic-list-counterspell-289fbfb1]] - previous source section: 5.1.12 Ancient Magic List / [ Counterspell ]
 - [[sword-world-rpg-complete-edition-section-5-1-12-ancient-magic-list-sleep-cloud-a914e884]] - next source section: 5.1.12 Ancient Magic List / [ Sleep Cloud ]
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-5-1-12-ancient-magic-list-2e59bfee]] - broader source section: 5.1.12 Ancient Magic List

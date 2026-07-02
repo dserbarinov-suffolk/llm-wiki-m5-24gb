@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-1-4-character-creation-one-handed-and-twohanded-weapons-ac9404dc@a7cfeeb7897129628c7e66c82f2cf50a
+projection_coverage: section-sword-world-rpg-complete-edition-section-1-4-character-creation-one-handed-and-twohanded-weapons-ac9404dc@1aefcbf37efcb5b3b9beccdcfb722f17
 ---
 
 # 1.4 Character Creation / One-Handed and TwoHanded Weapons
@@ -17,9 +17,14 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-1-4-character-creation-f6aa6108]] - broader source section: 1.4 Character Creation
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-1-4-character-creation-required-strength-4f483781]] - previous source section: 1.4 Character Creation / Required Strength
 - [[sword-world-rpg-complete-edition-section-1-4-character-creation-projectiles-0ec6301d]] - next source section: 1.4 Character Creation / Projectiles
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-1-4-character-creation-f6aa6108]] - broader source section: 1.4 Character Creation
 
 ## Statements
 

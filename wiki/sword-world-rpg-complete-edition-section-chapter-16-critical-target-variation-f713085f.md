@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-16-critical-target-variation-f713085f@eae1fbfc7f1b7801b04412923502b680
+projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-16-critical-target-variation-f713085f@48f9a8f31411304ccf5ddaf7a39e9dac
 ---
 
 # Chapter 16: / Critical Target Variation
@@ -17,9 +17,17 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-chapter-16-de7f0512]] - broader source section: Chapter 16:
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-chapter-16-defense-modifier-dbee970d]] - previous source section: Chapter 16: / Defense Modifier
 - [[sword-world-rpg-complete-edition-section-chapter-16-anti-strangling-protection-cb00dfaf]] - next source section: Chapter 16: / Anti-Strangling Protection
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-chapter-16-de7f0512]] - broader source section: Chapter 16:
+
+### Topics
+
 - [[sword-world-rpg-complete-edition-critical-target-variation]] - topic hub: opens the topic page for Critical Target Variation
 
 ## Statements

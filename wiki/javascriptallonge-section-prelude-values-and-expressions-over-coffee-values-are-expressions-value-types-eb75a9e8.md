@@ -4,11 +4,11 @@ page_kind: source
 summary: Prelude: Values and Expressions over Coffee / values are expressions / value types: 9 source-backed entries and 3 atom(s) from raw/javascriptallonge.pdf.
 page_family: section-reference
 sources: raw/javascriptallonge.pdf
-updated: 2026-07-01
+updated: 2026-07-02
 domain: javascriptallonge
 category_path: sources/javascriptallonge/sections
 source_id: javascriptallonge.pdf
-projection_coverage: section-javascriptallonge-section-prelude-values-and-expressions-over-coffee-values-are-expressions-value-types-eb75a9e8@a28a7c7043378d70a17789ad9bda7920
+projection_coverage: section-javascriptallonge-section-prelude-values-and-expressions-over-coffee-values-are-expressions-value-types-eb75a9e8@f2a249dc0b0a6cc1cdfac5185cf9664d
 ---
 
 # Prelude: Values and Expressions over Coffee / values are expressions / value types
@@ -17,8 +17,13 @@ From [[javascriptallonge]].
 
 ## Related pages
 
-- [[javascriptallonge-section-prelude-values-and-expressions-over-coffee-values-are-expressions-fd7c9f69]] - broader source section: Prelude: Values and Expressions over Coffee / values are expressions
+### Source order
+
 - [[javascriptallonge-section-prelude-values-and-expressions-over-coffee-values-are-expressions-reference-types-aa5fccf9]] - next source section: Prelude: Values and Expressions over Coffee / values are expressions / reference types
+
+### Source structure
+
+- [[javascriptallonge-section-prelude-values-and-expressions-over-coffee-values-are-expressions-fd7c9f69]] - broader source section: Prelude: Values and Expressions over Coffee / values are expressions
 
 ## Statements
 
@@ -36,6 +41,7 @@ From [[javascriptallonge]].
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00127))_
 
+<a id="atom-technical-atom-507da98d1e62801a"></a>
 ```
 2 + 2 === 4
 //=> true
@@ -51,6 +57,7 @@ From [[javascriptallonge]].
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00129))_
 
+<a id="atom-technical-atom-41f1205dee552ceb"></a>
 > So even if you have two cups of the same type, and their contents are the same, you can still distinguish between them.
 
 ### Technical frame 3: Prelude: Values and Expressions over Coffee / values are expressions / value types
@@ -61,4 +68,5 @@ From [[javascriptallonge]].
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00130))_
 
+<a id="atom-technical-atom-f71fb4eaae2f8e5d"></a>
 > [Figure] (p.22)

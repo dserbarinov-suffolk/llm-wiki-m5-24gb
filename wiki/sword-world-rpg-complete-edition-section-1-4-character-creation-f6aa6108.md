@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-1-4-character-creation-f6aa6108@cf29b14b04177cfa8a7e48f1b11be469
+projection_coverage: section-sword-world-rpg-complete-edition-section-1-4-character-creation-f6aa6108@391f228fb0f22174b206b4e1452c02f6
 ---
 
 # 1.4 Character Creation
@@ -17,33 +17,21 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
+### Source order
+
+- [[sword-world-rpg-complete-edition-section-1-2-races-4e414960]] - previous source section: 1.2 Races
+- [[sword-world-rpg-complete-edition-section-2-1-baseline-scores-879d539e]] - next source section: 2.1 Baseline Scores
+
+### Source structure
+
 - [[sword-world-rpg-complete-edition-section-1-4-character-creation-1-4-1-choose-a-race-3f76c68e]] - narrower source section: 1.4 Character Creation / 1.4.1 Choose a Race
-- [[sword-world-rpg-complete-edition-section-1-4-character-creation-human-09a66c2b]] - narrower source section: 1.4 Character Creation / 【 Human 】
-- [[sword-world-rpg-complete-edition-section-1-4-character-creation-dwarf-4b493eff]] - narrower source section: 1.4 Character Creation / 【 Dwarf 】
-- [[sword-world-rpg-complete-edition-section-1-4-character-creation-grassrunner-59ede53b]] - narrower source section: 1.4 Character Creation / 【 Grassrunner 】
-- [[sword-world-rpg-complete-edition-section-1-4-character-creation-elf-c473f9de]] - narrower source section: 1.4 Character Creation / 【 Elf 】
-- [[sword-world-rpg-complete-edition-section-1-4-character-creation-half-elf-0f1e4f36]] - narrower source section: 1.4 Character Creation / 【 Half-Elf 】
 - [[sword-world-rpg-complete-edition-section-1-4-character-creation-1-4-2-determine-ability-scores-19cf4113]] - narrower source section: 1.4 Character Creation / 1.4.2 Determine Ability Scores
 - [[sword-world-rpg-complete-edition-section-1-4-character-creation-1-4-3-starting-skills-and-starting-7536fe31]] - narrower source section: 1.4 Character Creation / 1.4.3 Starting Skills and Starting
 - [[sword-world-rpg-complete-edition-section-1-4-character-creation-1-4-4-age-gender-name-a9f7e86a]] - narrower source section: 1.4 Character Creation / 1.4.4 Age, Gender, Name
-- [[sword-world-rpg-complete-edition-section-1-4-character-creation-age-a5cf1903]] - narrower source section: 1.4 Character Creation / 《 Age 》
-- [[sword-world-rpg-complete-edition-section-1-4-character-creation-ages-of-each-race-ff3c5657]] - narrower source section: 1.4 Character Creation / 《 Ages of Each Race 》
-- [[sword-world-rpg-complete-edition-section-1-4-character-creation-gender-7bc3dcd4]] - narrower source section: 1.4 Character Creation / 《 Gender 》
-- [[sword-world-rpg-complete-edition-section-1-4-character-creation-name-dfab8c47]] - narrower source section: 1.4 Character Creation / 《 Name 》
 - [[sword-world-rpg-complete-edition-section-1-4-character-creation-1-4-5-character-growth-via-starting-experience-points-4530c1f3]] - narrower source section: 1.4 Character Creation / 1.4.5 Character Growth via Starting Experience Points
 - [[sword-world-rpg-complete-edition-section-1-4-character-creation-1-4-6-purchasing-weapons-and-armor-b95d4959]] - narrower source section: 1.4 Character Creation / 1.4.6 Purchasing Weapons and Armor
-- [[sword-world-rpg-complete-edition-section-1-4-character-creation-required-strength-4f483781]] - narrower source section: 1.4 Character Creation / Required Strength
-- [[sword-world-rpg-complete-edition-section-1-4-character-creation-one-handed-and-twohanded-weapons-ac9404dc]] - narrower source section: 1.4 Character Creation / One-Handed and TwoHanded Weapons
-- [[sword-world-rpg-complete-edition-section-1-4-character-creation-projectiles-0ec6301d]] - narrower source section: 1.4 Character Creation / Projectiles
-- [[sword-world-rpg-complete-edition-section-1-4-character-creation-armor-3358c0d8]] - narrower source section: 1.4 Character Creation / Armor
-- [[sword-world-rpg-complete-edition-section-1-4-character-creation-shields-f1d0f2eb]] - narrower source section: 1.4 Character Creation / Shields
-- [[sword-world-rpg-complete-edition-section-1-4-character-creation-price-calculation-1effa062]] - narrower source section: 1.4 Character Creation / Price Calculation
 - [[sword-world-rpg-complete-edition-section-1-4-character-creation-1-4-7-restrictions-on-weapons-and-armor-based-on-skill-2ee2bab4]] - narrower source section: 1.4 Character Creation / 1.4.7 Restrictions on Weapons and Armor Based on Skill
-- [[sword-world-rpg-complete-edition-section-1-4-character-creation-equipment-17ea0e40]] - narrower source section: 1.4 Character Creation / Equipment
-- [[sword-world-rpg-complete-edition-section-1-4-character-creation-weight-limits-e7e868db]] - narrower source section: 1.4 Character Creation / [ Weight Limits ]
 - [[sword-world-rpg-complete-edition-section-1-4-character-creation-1-4-9-filling-out-the-character-sheet-e4f251c1]] - narrower source section: 1.4 Character Creation / 1.4.9 Filling Out the Character Sheet
-- [[sword-world-rpg-complete-edition-section-1-2-races-4e414960]] - previous source section: 1.2 Races
-- [[sword-world-rpg-complete-edition-section-2-1-baseline-scores-879d539e]] - next source section: 2.1 Baseline Scores
 
 ## Statements
 
@@ -335,6 +323,7 @@ From [[sword-world-rpg-complete-edition]].
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-00342))_
 
+<a id="atom-technical-atom-c652601c48969227"></a>
 ```text
 Table 1-3: Determining Sub-Ability Scores
   Dwarves excel in strength, life force,       Sub-Ability Score   Human   Dwarf  Grassrunner   Elf    Half-Elf
@@ -376,6 +365,7 @@ Table 1-3: Determining Sub-Ability Scores
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-00345))_
 
+<a id="atom-technical-atom-e9a0f6e0bd8d8ff9"></a>
 | Ability Score | Human | Grassrunner | Dwarf | Elf | Half-Elf |
 | --- | --- | --- | --- | --- | --- |
 | Dexterity | 14 | 20.5 | 15 | 19 | 17 |
@@ -410,6 +400,7 @@ Table 1-3: Determining Sub-Ability Scores
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-00346))_
 
+<a id="atom-technical-atom-cb2bbae8e27cec04"></a>
 | been | determined, | the | next | step | is | to |
 | --- | --- | --- | --- | --- | --- | --- |
 | 2D Background Starting Skills Exp. Pts. Money determine 2 Savage Fighter 1 & Ranger 1 2000 2Dx100 adventure 3 Rune Master Sorcerer & Sage 1 2000 2Dx200 represented 4 Villain Thief 1 2500 2Dx200 starting 5 Traveler Bard 1 3000 2Dx200 6 Hunter Ranger 1 3000 2Dx200 For | experience Humans | the adventurer's experience. by starting points. | and | This skills Half- | pre- and | is |
@@ -442,6 +433,7 @@ Table 1-5: Backgrounds
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-00378))_
 
+<a id="atom-technical-atom-d52456b4ed89c74f"></a>
 ```text
 Table 1-6: Starting Experience by Race
                                                                         character, it should be between 15 years
@@ -473,6 +465,7 @@ Table 1-6: Starting Experience by Race
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-00441))_
 
+<a id="atom-technical-atom-0f869b7568f58dea"></a>
 | Attained Level | Sorcerer & Sage at the same time | Sorcerer | Sorcerer (with Sage) | Shaman | Fighter Thief Priest | Ranger Sage Bard |
 | --- | --- | --- | --- | --- | --- | --- |
 | 1 | 2000 | 2000 | 1500 | 1500 | 1000 | 500 |
@@ -501,6 +494,7 @@ Table 1-6: Starting Experience by Race
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-00451))_
 
+<a id="atom-technical-atom-89322ea4c8cdfbd7"></a>
 > Characters can spend their starting experience points to gain skill levels.
 
 ### Technical frame 7: Table 1-7: Experience Points by Skill Trident (throwable) 1H 4~16 x10+20
@@ -511,6 +505,7 @@ Table 1-6: Starting Experience by Race
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-00493))_
 
+<a id="atom-technical-atom-4ea607f12a59b197"></a>
 ```text
 Table 1-7: Experience Points by Skill     Trident (throwable)                  1H      4~16        x10+20
  (at Character Creation) is almost      Longspear                         1~2H     4~20        x10+20
@@ -537,6 +532,7 @@ Table 1-7: Experience Points by Skill     Trident (throwable)                  1
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-00498))_
 
+<a id="atom-technical-atom-3f08f5fea09ad052"></a>
 ```text
 Table 1-8: Weapons-1
   When  you have the sorcerer skill,
@@ -564,6 +560,7 @@ Table 1-8: Weapons-1
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-00642))_
 
+<a id="atom-technical-atom-297d474dbc69fb06"></a>
 ```text
 Table 1-8: Weapons-2
   When  buying weapons and armor,
@@ -594,6 +591,7 @@ Table 1-8: Weapons-2
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-00751))_
 
+<a id="atom-technical-atom-129c883b299d7438"></a>
 ```text
 10 for 12
 10 for 12
@@ -619,6 +617,7 @@ Table 1-8: Weapons-2
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-00762))_
 
+<a id="atom-technical-atom-c8ff927811ea369c"></a>
 | In | the | case | of | shields, | there | are |
 | --- | --- | --- | --- | --- | --- | --- |
 | only two strength strength 13 or greater, | types: 1) 13). | small and If a a large | large character's shield | shields shields can | (required (required strength be chosen. | Hard leather armor 5~13 x30+30 Metal armor Ring mail armor 5~12 x30+40 is Splint armor 8~17 x40+50 Chain mail armor 10~19 x50+50 |
@@ -641,6 +640,7 @@ Table 1-9: Armor
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-00845))_
 
+<a id="atom-technical-atom-ccde7f58305bb584"></a>
 | Category | Name | Price | (in | Gamels) |
 | --- | --- | --- | --- | --- |
 | Bags | Rucksack (leather) |  |  | 50 |
@@ -687,6 +687,7 @@ Table 1-11: Equipment
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-00861))_
 
+<a id="atom-technical-atom-cda1c57b4646c39b"></a>
 ```text
 100 pen／ink 5 Quill 100 Thieves' tools 100+ Musical instrument Food
 1 serving 3+
@@ -708,6 +709,7 @@ Table 1-11: Equipment
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-00878))_
 
+<a id="atom-technical-atom-fdeb895e8d6038d4"></a>
 ```text
 1 night (not including food)
 1 week (not including food)
@@ -735,6 +737,7 @@ Living expenses
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-00883))_
 
+<a id="atom-technical-atom-6619bcc7f0860f93"></a>
 ```text
 Table 1-5: Backgrounds or Table 1-6:   highest adventurer skill level. Write this
  record and list various character details.

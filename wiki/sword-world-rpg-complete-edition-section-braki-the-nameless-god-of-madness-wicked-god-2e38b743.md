@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-braki-the-nameless-god-of-madness-wicked-god-2e38b743@35ef8e29346a23f9a44234ec462714be
+projection_coverage: section-sword-world-rpg-complete-edition-section-braki-the-nameless-god-of-madness-wicked-god-2e38b743@7740007a8b88928ad0ee8c6007ebea60
 ---
 
 # 《 Braki 》 / The Nameless God of Madness (Wicked God)
@@ -16,6 +16,8 @@ projection_coverage: section-sword-world-rpg-complete-edition-section-braki-the-
 From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
+
+### Source structure
 
 - [[sword-world-rpg-complete-edition-section-braki-525d5232]] - broader source section: 《 Braki 》
 

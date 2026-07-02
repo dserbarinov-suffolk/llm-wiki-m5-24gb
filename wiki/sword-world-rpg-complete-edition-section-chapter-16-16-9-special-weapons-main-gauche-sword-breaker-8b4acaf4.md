@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-16-16-9-special-weapons-main-gauche-sword-breaker-8b4acaf4@9d27e6f42eedbc98dea1cc22c22ac782
+projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-16-16-9-special-weapons-main-gauche-sword-breaker-8b4acaf4@665a82c9174b06c166527d9cab60200a
 ---
 
 # Chapter 16: / 16.9 Special Weapons / Main-gauche/Sword Breaker
@@ -17,9 +17,14 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-chapter-16-16-9-special-weapons-8824e2ed]] - broader source section: Chapter 16: / 16.9 Special Weapons
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-chapter-16-16-9-special-weapons-pole-weapons-4ab72b8d]] - previous source section: Chapter 16: / 16.9 Special Weapons / Pole Weapons
 - [[sword-world-rpg-complete-edition-section-chapter-16-16-9-special-weapons-whip-net-bola-54c91d2c]] - next source section: Chapter 16: / 16.9 Special Weapons / Whip, Net, Bola
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-chapter-16-16-9-special-weapons-8824e2ed]] - broader source section: Chapter 16: / 16.9 Special Weapons
 
 ## Statements
 
@@ -39,4 +44,5 @@ From [[sword-world-rpg-complete-edition]].
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-10454))_
 
+<a id="atom-technical-atom-299a956912d0cb51"></a>
 > Also, if you use it for an attack, you'll lose the evasion bonus.

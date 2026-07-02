@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-5-1-17-special-holy-magic-list-divine-weapon-spell-level-7-463b088f@0a9d8ebbbec745753f89f9f7a20957d2
+projection_coverage: section-sword-world-rpg-complete-edition-section-5-1-17-special-holy-magic-list-divine-weapon-spell-level-7-463b088f@9fcff4a06503a07519be6203ffac0c27
 ---
 
 # 5.1.17 Special Holy Magic List / [ Divine Weapon ] (Spell Level=7)
@@ -17,9 +17,14 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-5-1-17-special-holy-magic-list-f9b52bf1]] - broader source section: 5.1.17 Special Holy Magic List
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-5-1-17-special-holy-magic-list-myrii-special-holy-magic-list-battle-song-spell-level-5-c41ce112]] - previous source section: 5.1.17 Special Holy Magic List / Myrii Special Holy Magic List [ Battle Song ] (Spell Level=5)
 - [[sword-world-rpg-complete-edition-section-5-1-17-special-holy-magic-list-rahda-special-holy-magic-list-2b5965cc]] - next source section: 5.1.17 Special Holy Magic List / Rahda Special Holy Magic List
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-5-1-17-special-holy-magic-list-f9b52bf1]] - broader source section: 5.1.17 Special Holy Magic List
 
 ## Statements
 

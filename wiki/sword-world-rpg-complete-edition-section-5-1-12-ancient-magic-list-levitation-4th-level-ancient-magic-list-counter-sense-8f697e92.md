@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-5-1-12-ancient-magic-list-levitation-4th-level-ancient-magic-list-counter-sense-8f697e92@7d7a1f8767c1d667b0c9cbf05631d81b
+projection_coverage: section-sword-world-rpg-complete-edition-section-5-1-12-ancient-magic-list-levitation-4th-level-ancient-magic-list-counter-sense-8f697e92@9e39a87b30fd42ff4b56a1cd755ef910
 ---
 
 # 5.1.12 Ancient Magic List / [ Levitation ] / 4th Level Ancient Magic List [ Counter Sense ]
@@ -16,6 +16,8 @@ projection_coverage: section-sword-world-rpg-complete-edition-section-5-1-12-anc
 From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
+
+### Source structure
 
 - [[sword-world-rpg-complete-edition-section-5-1-12-ancient-magic-list-levitation-ebabb699]] - broader source section: 5.1.12 Ancient Magic List / [ Levitation ]
 

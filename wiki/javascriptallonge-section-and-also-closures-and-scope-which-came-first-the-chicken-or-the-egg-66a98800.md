@@ -4,11 +4,11 @@ page_kind: source
 summary: And also: / Closures and Scope / which came first, the chicken or the egg?: 5 source-backed entries and 0 atom(s) from raw/javascriptallonge.pdf.
 page_family: section-reference
 sources: raw/javascriptallonge.pdf
-updated: 2026-07-01
+updated: 2026-07-02
 domain: javascriptallonge
 category_path: sources/javascriptallonge/sections
 source_id: javascriptallonge.pdf
-projection_coverage: section-javascriptallonge-section-and-also-closures-and-scope-which-came-first-the-chicken-or-the-egg-66a98800@4da691189b07cc8fa20a82e584b71cae
+projection_coverage: section-javascriptallonge-section-and-also-closures-and-scope-which-came-first-the-chicken-or-the-egg-66a98800@370202a705784ff0775f6554fda97a98
 ---
 
 # And also: / Closures and Scope / which came first, the chicken or the egg?
@@ -17,8 +17,13 @@ From [[javascriptallonge]].
 
 ## Related pages
 
-- [[javascriptallonge-section-and-also-closures-and-scope-ff45d11c]] - broader source section: And also: / Closures and Scope
+### Source order
+
 - [[javascriptallonge-section-and-also-closures-and-scope-shadowy-variables-from-a-shadowy-planet-71d66043]] - previous source section: And also: / Closures and Scope / shadowy variables from a shadowy planet
+
+### Source structure
+
+- [[javascriptallonge-section-and-also-closures-and-scope-ff45d11c]] - broader source section: And also: / Closures and Scope
 
 ## Statements
 

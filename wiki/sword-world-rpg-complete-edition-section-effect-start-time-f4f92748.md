@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-effect-start-time-f4f92748@f7e4a0375ea133f0b250aa0fe16d52d5
+projection_coverage: section-sword-world-rpg-complete-edition-section-effect-start-time-f4f92748@abb83315ff36fa60e31228b91d0a8217
 ---
 
 # 《 Effect Start Time 》
@@ -16,6 +16,8 @@ projection_coverage: section-sword-world-rpg-complete-edition-section-effect-sta
 From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
+
+### Source order
 
 - [[sword-world-rpg-complete-edition-section-rarity-dc2209f1]] - previous source section: 《 Rarity 》
 - [[sword-world-rpg-complete-edition-section-effect-duration-5916b2a4]] - next source section: 《 Effect Duration 》

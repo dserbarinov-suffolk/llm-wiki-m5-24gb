@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-12-2-2-illnesses-description-dance-macabre-32d7d8a9@81d5fb27ee6d9207ce1f84f8d8d9bb47
+projection_coverage: section-sword-world-rpg-complete-edition-section-12-2-2-illnesses-description-dance-macabre-32d7d8a9@a97042c7977bd5bdd18c2a4880d8141c
 ---
 
 # 12.2.2 Illnesses / 《 Description 》 / [ Dance Macabre ]
@@ -17,9 +17,14 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-12-2-2-illnesses-description-edb99c5e]] - broader source section: 12.2.2 Illnesses / 《 Description 》
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-12-2-2-illnesses-description-stone-skin-626f7e50]] - previous source section: 12.2.2 Illnesses / 《 Description 》 / [ Stone Skin ]
 - [[sword-world-rpg-complete-edition-section-12-2-2-illnesses-description-deep-sleep-081411b5]] - next source section: 12.2.2 Illnesses / 《 Description 》 / [ Deep Sleep ]
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-12-2-2-illnesses-description-edb99c5e]] - broader source section: 12.2.2 Illnesses / 《 Description 》
 
 ## Statements
 

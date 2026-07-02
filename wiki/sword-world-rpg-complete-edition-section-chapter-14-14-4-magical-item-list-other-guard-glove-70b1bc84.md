@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-other-guard-glove-70b1bc84@2ab0c969ea2afa997c6ba59e9955ba10
+projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-other-guard-glove-70b1bc84@4310b202ae7b80e9c16133de81b0f77d
 ---
 
 # Chapter 14: / 14.4 Magical Item List / 《 Other 》 / [ Guard Glove ]
@@ -17,9 +17,14 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-other-ae5b041d]] - broader source section: Chapter 14: / 14.4 Magical Item List / 《 Other 》
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-other-card-of-power-74d8d6bf]] - previous source section: Chapter 14: / 14.4 Magical Item List / 《 Other 》 / [ Card of Power ]
 - [[sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-other-crystal-orb-of-clairvoyance-5abbe49f]] - next source section: Chapter 14: / 14.4 Magical Item List / 《 Other 》 / [Crystal Orb of Clairvoyance]
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-other-ae5b041d]] - broader source section: Chapter 14: / 14.4 Magical Item List / 《 Other 》
 
 ## Statements
 
@@ -37,10 +42,14 @@ From [[sword-world-rpg-complete-edition]].
 
 **Atoms:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-09748, source-range-0d48087c-09749, source-range-0d48087c-09750, source-range-0d48087c-09751))_
 
+<a id="atom-technical-atom-44d406ddbdb3ef5f"></a>
 > Rarity=15
 
+<a id="atom-technical-atom-01b3639a05cc50a6"></a>
 > Enchanter=Le Val
 
+<a id="atom-technical-atom-9436ea5bedd82524"></a>
 > Form=Silver candlestick densely engraved with high ancient runes
 
+<a id="atom-technical-atom-f087f1d8784b9997"></a>
 > Base Trade Price=1,000,000 gamels (not for sale)

@@ -4,10 +4,10 @@ page_kind: concept
 summary: Generator: 4 statement(s) and 4 atom(s) from raw/javascriptallonge.pdf.
 page_family: topic-concept
 sources: raw/javascriptallonge.pdf
-updated: 2026-07-01
+updated: 2026-07-02
 domain: javascriptallonge
 category_path: concepts
-projection_coverage: topic-javascriptallonge-generator@eb56d5eb97435307c2c0e5450cc21c98
+projection_coverage: topic-javascriptallonge-generator@0d8850179498ec762c1364c611aca6b0
 ---
 
 # Generator
@@ -37,6 +37,7 @@ What [[javascriptallonge]] covers about generator:
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01705))_
 
+<a id="atom-technical-atom-10582a3c053cd9e3"></a>
 > If we call our generator function more than once, we get new iterators.
 
 ### Technical frame 2: Served by the Pot: Collections / Generating Iterables / generators and iterables
@@ -47,6 +48,7 @@ What [[javascriptallonge]] covers about generator:
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01706))_
 
+<a id="atom-technical-atom-a966242b238a4f73"></a>
 ```
 const ThreeNumbers = {
 [Symbol.iterator]: function * () {
@@ -88,6 +90,7 @@ iterator.next()
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01707))_
 
+<a id="atom-technical-atom-282c78b5afaaa88e"></a>
 ```text
 yield 3
 }
@@ -208,6 +211,7 @@ console.log(n)
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01709))_
 
+<a id="atom-technical-atom-22b0cf12cabe801a"></a>
 ```
 const ThreeNumbers = {
 *[Symbol.iterator] () {
@@ -221,16 +225,20 @@ yield 3
 
 ## Related pages
 
-- [[javascriptallonge-pattern]] - shared statements and technical atoms: Pattern shares source evidence from Served by the Pot: Collections / Generating Iterables / generators and iterables: This pattern is encouraged, so much so that JavaScript provides a concise syntax for writing generator methods for objects:; Pattern shares technical record from Served by the Pot: Collections / Generating Iterables / generators and iterables: const ThreeNumbers = { *[Symbol.iterator] () { yield 1; yield 2; yield 3 } } (1 shared statement(s), 1 shared atom(s))
+### Source structure
+
+- [[javascriptallonge-section-served-by-the-pot-collections-generating-iterables-more-generators-17bb605f]] - source section: Served by the Pot: Collections / Generating Iterables / more generators shares source evidence from Served by the Pot: Collections / Generating Iterables / more generators: Our OneTwoThree example used implicit state to output the numbers in sequence. Recall that we wrote Fibonacci using explicit state:; Served by the Pot: Collections / Generating Iterables / more generators shares technical record from Served by the Pot: Collections / Generating Iterables / more generators: const Numbers = { *[Symbol.iterator] () { let i = 0; while (true) { yield i++; } } }; for (const i of Numbers) { console.log(i); } //=> 0 1 2 3 4 5 6 7 (3 shared statement(s), 6 shared atom(s))
+
+### Shared technical atoms
+
 - [[javascriptallonge-iterator]] - shared technical atoms: Iterator shares technical record from Served by the Pot: Collections / Generating Iterables / generators and iterables: If we call our generator function more than once, we get new iterators. (4 shared atom(s))
 - [[javascriptallonge-javascript]] - shared technical atoms: Javascript shares technical record from Served by the Pot: Collections / Generating Iterables / generators and iterables: If we call our generator function more than once, we get new iterators. (2 shared atom(s))
 - [[javascriptallonge-object]] - shared technical atoms: Object shares technical record from Served by the Pot: Collections / Generating Iterables / generators and iterables: If we call our generator function more than once, we get new iterators. (2 shared atom(s))
+- [[javascriptallonge-pattern]] - shared statements and technical atoms: Pattern shares source evidence from Served by the Pot: Collections / Generating Iterables / generators and iterables: This pattern is encouraged, so much so that JavaScript provides a concise syntax for writing generator methods for objects:; Pattern shares technical record from Served by the Pot: Collections / Generating Iterables / generators and iterables: const ThreeNumbers = { *[Symbol.iterator] () { yield 1; yield 2; yield 3 } } (1 shared statement(s), 1 shared atom(s))
 - [[javascriptallonge-collection]] - shared technical atoms: Collection shares technical record from Served by the Pot: Collections / Generating Iterables / generators and iterables: yield 3 } } for (const i of ThreeNumbers) { console.log(i); } //=> 1 2 3 [...ThreeNumbers] //=> [1,2,3] const iterator = ThreeNumbers[Symbol.iterator](); iterator.ne ... [truncated] (1 shared atom(s))
 - [[javascriptallonge-iterable]] - shared technical atoms: Iterable shares technical record from Served by the Pot: Collections / Generating Iterables / generators and iterables: const ThreeNumbers = { *[Symbol.iterator] () { yield 1; yield 2; yield 3 } } (1 shared atom(s))
 - [[javascriptallonge-method]] - shared technical atoms: Method shares technical record from Served by the Pot: Collections / Generating Iterables / generators and iterables: const ThreeNumbers = { *[Symbol.iterator] () { yield 1; yield 2; yield 3 } } (1 shared atom(s))
 - [[javascriptallonge-return]] - shared technical atoms: Return shares technical record from Served by the Pot: Collections / Generating Iterables / generators and iterables: If we call our generator function more than once, we get new iterators. (1 shared atom(s))
-- [[javascriptallonge-write]] - shared technical atoms: Write shares technical record from Served by the Pot: Collections / Generating Iterables / generators and iterables: If we call our generator function more than once, we get new iterators. (1 shared atom(s))
-- [[javascriptallonge-section-served-by-the-pot-collections-generating-iterables-more-generators-17bb605f]] - source section: Served by the Pot: Collections / Generating Iterables / more generators shares source evidence from Served by the Pot: Collections / Generating Iterables / more generators: Our OneTwoThree example used implicit state to output the numbers in sequence. Recall that we wrote Fibonacci using explicit state:; Served by the Pot: Collections / Generating Iterables / more generators shares technical record from Served by the Pot: Collections / Generating Iterables / more generators: const Numbers = { *[Symbol.iterator] () { let i = 0; while (true) { yield i++; } } }; for (const i of Numbers) { console.log(i); } //=> 0 1 2 3 4 5 6 7 (3 shared statement(s), 6 shared atom(s))
 
 ## Source
 

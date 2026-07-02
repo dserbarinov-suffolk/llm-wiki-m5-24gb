@@ -4,11 +4,11 @@ page_kind: source
 summary: Composing and Decomposing Data / default arguments: 9 source-backed entries and 1 atom(s) from raw/javascriptallonge.pdf.
 page_family: section-reference
 sources: raw/javascriptallonge.pdf
-updated: 2026-07-01
+updated: 2026-07-02
 domain: javascriptallonge
 category_path: sources/javascriptallonge/sections
 source_id: javascriptallonge.pdf
-projection_coverage: section-javascriptallonge-section-composing-and-decomposing-data-default-arguments-870cb490@c1e61b74789545b66cb64c9ef5514b47
+projection_coverage: section-javascriptallonge-section-composing-and-decomposing-data-default-arguments-870cb490@72e37fe47525ded528321f45886a7595
 ---
 
 # Composing and Decomposing Data / default arguments
@@ -17,9 +17,14 @@ From [[javascriptallonge]].
 
 ## Related pages
 
-- [[javascriptallonge-section-composing-and-decomposing-data-58c1e32b]] - broader source section: Composing and Decomposing Data
+### Source order
+
 - [[javascriptallonge-section-composing-and-decomposing-data-factorials-48d5d159]] - previous source section: Composing and Decomposing Data / factorials
 - [[javascriptallonge-section-composing-and-decomposing-data-defaults-and-destructuring-cd5ea708]] - next source section: Composing and Decomposing Data / defaults and destructuring
+
+### Source structure
+
+- [[javascriptallonge-section-composing-and-decomposing-data-58c1e32b]] - broader source section: Composing and Decomposing Data
 
 ## Statements
 
@@ -37,6 +42,7 @@ From [[javascriptallonge]].
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01001))_
 
+<a id="atom-technical-atom-c42a85af37040385"></a>
 ```
 const factorial = (n, work = 1) =>
 n === 1

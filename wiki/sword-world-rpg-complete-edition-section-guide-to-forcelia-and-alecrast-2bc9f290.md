@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-guide-to-forcelia-and-alecrast-2bc9f290@340baf32b67cd319478ca61feaa8ee60
+projection_coverage: section-sword-world-rpg-complete-edition-section-guide-to-forcelia-and-alecrast-2bc9f290@5a531cdc7677ffc33563d2dc6680f071
 ---
 
 # Guide to Forcelia and Alecrast
@@ -16,6 +16,8 @@ projection_coverage: section-sword-world-rpg-complete-edition-section-guide-to-f
 From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
+
+### Source order
 
 - [[sword-world-rpg-complete-edition-section-part-3-optional-rules-e43609ed]] - previous source section: Part 3 Optional Rules
 - [[sword-world-rpg-complete-edition-section-what-you-ll-need-to-play-sword-world-rpg-43efa1fc]] - next source section: What You'll Need to Play Sword World RPG

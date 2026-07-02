@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-5-1-12-ancient-magic-list-tongue-f3bb3f93@d9ed59159ad29401e33b2f6721cb1ffa
+projection_coverage: section-sword-world-rpg-complete-edition-section-5-1-12-ancient-magic-list-tongue-f3bb3f93@107a376489c17d568a17e3fd049c83cb
 ---
 
 # 5.1.12 Ancient Magic List / [ Tongue ]
@@ -17,9 +17,14 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-5-1-12-ancient-magic-list-2e59bfee]] - broader source section: 5.1.12 Ancient Magic List
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-5-1-12-ancient-magic-list-sense-aura-18276e87]] - previous source section: 5.1.12 Ancient Magic List / [ Sense Aura ]
 - [[sword-world-rpg-complete-edition-section-5-1-12-ancient-magic-list-paralyze-1b5f5495]] - next source section: 5.1.12 Ancient Magic List / [ Paralyze ]
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-5-1-12-ancient-magic-list-2e59bfee]] - broader source section: 5.1.12 Ancient Magic List
 
 ## Statements
 

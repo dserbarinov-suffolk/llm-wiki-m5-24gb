@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-2-5-difficulty-checks-2-5-1-difficulty-24f6c32c@1dd8e10f9c633763af06c1c556aa0329
+projection_coverage: section-sword-world-rpg-complete-edition-section-2-5-difficulty-checks-2-5-1-difficulty-24f6c32c@835364afeeb2e3c23b051e46d979d301
 ---
 
 # 2.5 Difficulty Checks / 2.5.1 Difficulty
@@ -17,8 +17,16 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-2-5-difficulty-checks-d95d8c9d]] - broader source section: 2.5 Difficulty Checks
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-2-5-difficulty-checks-2-5-2-how-to-make-a-difficulty-check-6d909d75]] - next source section: 2.5 Difficulty Checks / 2.5.2 How to Make a Difficulty Check
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-2-5-difficulty-checks-d95d8c9d]] - broader source section: 2.5 Difficulty Checks
+
+### Topics
+
 - [[sword-world-rpg-complete-edition-difficulty]] - topic hub: opens the topic page for Difficulty
 
 ## Statements

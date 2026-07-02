@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-ale-dose-types-of-poison-8e6cc1f2@db0556a86d5655141f2801bedb573f1f
+projection_coverage: section-sword-world-rpg-complete-edition-section-ale-dose-types-of-poison-8e6cc1f2@cf91886902c5341474870cb421078348
 ---
 
 # [ Ale (Dose) ] / 《 Types of Poison 》
@@ -17,8 +17,13 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-ale-dose-6cad4963]] - broader source section: [ Ale (Dose) ]
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-ale-dose-usage-429f9c27]] - previous source section: [ Ale (Dose) ] / 《 Usage 》
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-ale-dose-6cad4963]] - broader source section: [ Ale (Dose) ]
 
 ## Statements
 
@@ -38,6 +43,7 @@ From [[sword-world-rpg-complete-edition]].
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-05549))_
 
+<a id="atom-technical-atom-04f84dcffa39d42f"></a>
 > Those affected by the poison can reduce this damage.
 
 ### Technical frame 2: [ Ale (Dose) ] / 《 Types of Poison 》
@@ -48,4 +54,5 @@ From [[sword-world-rpg-complete-edition]].
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-05550))_
 
+<a id="atom-technical-atom-e04e012171275648"></a>
 > If you successfully resist, the damage will be reduced (in this case, strike power will be -10 and no criticals will occur) or you will not suffer any damage at all.

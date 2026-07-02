@@ -4,11 +4,11 @@ page_kind: source
 summary: Copy on Write: 205 source-backed entries and 3 atom(s) from raw/javascriptallonge.pdf.
 page_family: section-reference
 sources: raw/javascriptallonge.pdf
-updated: 2026-07-01
+updated: 2026-07-02
 domain: javascriptallonge
 category_path: sources/javascriptallonge/sections
 source_id: javascriptallonge.pdf
-projection_coverage: section-javascriptallonge-section-copy-on-write-ea36c891@2d9b5357da30946b3d313bc11fa548eb
+projection_coverage: section-javascriptallonge-section-copy-on-write-ea36c891@36c34e31eb02086883e8e0c2cd7c0fae
 ---
 
 # Copy on Write
@@ -17,12 +17,20 @@ From [[javascriptallonge]].
 
 ## Related pages
 
-- [[javascriptallonge-section-copy-on-write-a-few-utilities-31a03dc1]] - narrower source section: Copy on Write / a few utilities
-- [[javascriptallonge-section-copy-on-write-tortoises-hares-and-teleporting-turtles-62bfcbc0]] - narrower source section: Copy on Write / Tortoises, Hares, and Teleporting Turtles
-- [[javascriptallonge-section-copy-on-write-functional-iterators-773e8dc1]] - narrower source section: Copy on Write / Functional Iterators
-- [[javascriptallonge-section-copy-on-write-making-data-out-of-functions-12daea71]] - narrower source section: Copy on Write / Making Data Out Of Functions
+### Source order
+
 - [[javascriptallonge-section-yes-consider-this-variation-db4ad8a2]] - previous source section: Yes. Consider this variation:
 - [[javascriptallonge-section-recipes-with-data-57848af5]] - next source section: Recipes with Data
+
+### Source structure
+
+- [[javascriptallonge-section-copy-on-write-a-few-utilities-31a03dc1]] - narrower source section: Copy on Write / a few utilities
+- [[javascriptallonge-section-copy-on-write-functional-iterators-773e8dc1]] - narrower source section: Copy on Write / Functional Iterators
+- [[javascriptallonge-section-copy-on-write-making-data-out-of-functions-12daea71]] - narrower source section: Copy on Write / Making Data Out Of Functions
+- [[javascriptallonge-section-copy-on-write-tortoises-hares-and-teleporting-turtles-62bfcbc0]] - narrower source section: Copy on Write / Tortoises, Hares, and Teleporting Turtles
+
+### Topics
+
 - [[javascriptallonge-copy-write]] - topic hub: opens the topic page for Copy Write
 
 ## Statements
@@ -188,6 +196,7 @@ From [[javascriptallonge]].
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01235))_
 
+<a id="atom-technical-atom-51bc48aa99117cc3"></a>
 ```
 const rest = ({first, rest}) => copy(rest);
 const parentList = { first: 1, rest: { first: 2, rest: { first: 3, rest: EMPTY }\
@@ -210,6 +219,7 @@ childList
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01330))_
 
+<a id="atom-technical-atom-57cdb7ea2b16e63b"></a>
 ```text
 76 http://www.amazon.com/gp/product/0192801422/ref=as_li_ss_tl?ie=UTF8&tag=raganwald001-20&linkCode=as2&camp=1789&creative= 390957&creativeASIN=0192801422
 77 http://oscin.es
@@ -233,6 +243,7 @@ childList
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01401))_
 
+<a id="atom-technical-atom-e05b4d965ecfffbd"></a>
 ```text
 79 https://en.wikipedia.org/wiki/Church_encoding
 81 https://en.wikipedia.org/wiki/Gauge_boson

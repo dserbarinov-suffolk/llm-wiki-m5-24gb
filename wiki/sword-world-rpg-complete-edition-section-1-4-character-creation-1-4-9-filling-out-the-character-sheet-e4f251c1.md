@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-1-4-character-creation-1-4-9-filling-out-the-character-sheet-e4f251c1@23129ddcda903ce9d111977169bd39fa
+projection_coverage: section-sword-world-rpg-complete-edition-section-1-4-character-creation-1-4-9-filling-out-the-character-sheet-e4f251c1@752cc7b98a95f4011a2347f5ef7b58e5
 ---
 
 # 1.4 Character Creation / 1.4.9 Filling Out the Character Sheet
@@ -17,17 +17,23 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
+### Source order
+
+- [[sword-world-rpg-complete-edition-section-1-4-character-creation-weight-limits-e7e868db]] - previous source section: 1.4 Character Creation / [ Weight Limits ]
+
+### Source structure
+
 - [[sword-world-rpg-complete-edition-section-1-4-character-creation-f6aa6108]] - broader source section: 1.4 Character Creation
-- [[sword-world-rpg-complete-edition-section-1-4-character-creation-1-4-9-filling-out-the-character-sheet-player-name-9e5a0b37]] - narrower source section: 1.4 Character Creation / 1.4.9 Filling Out the Character Sheet / [ ① Player Name ]
-- [[sword-world-rpg-complete-edition-section-1-4-character-creation-1-4-9-filling-out-the-character-sheet-race-c8a3c500]] - narrower source section: 1.4 Character Creation / 1.4.9 Filling Out the Character Sheet / [ ② Race ]
-- [[sword-world-rpg-complete-edition-section-1-4-character-creation-1-4-9-filling-out-the-character-sheet-sub-ability-scores-b9ddc342]] - narrower source section: 1.4 Character Creation / 1.4.9 Filling Out the Character Sheet / [ ③ Sub-Ability Scores]
 - [[sword-world-rpg-complete-edition-section-1-4-character-creation-1-4-9-filling-out-the-character-sheet-ability-bonuses-89bb601a]] - narrower source section: 1.4 Character Creation / 1.4.9 Filling Out the Character Sheet / [ ⑤ Ability Bonuses ]
-- [[sword-world-rpg-complete-edition-section-1-4-character-creation-1-4-9-filling-out-the-character-sheet-origin-13cf4e41]] - narrower source section: 1.4 Character Creation / 1.4.9 Filling Out the Character Sheet / [ ⑥ Origin ]
+- [[sword-world-rpg-complete-edition-section-1-4-character-creation-1-4-9-filling-out-the-character-sheet-adventurer-level-96712647]] - narrower source section: 1.4 Character Creation / 1.4.9 Filling Out the Character Sheet / [ ⑭ Adventurer Level ]
 - [[sword-world-rpg-complete-edition-section-1-4-character-creation-1-4-9-filling-out-the-character-sheet-gender-1062e815]] - narrower source section: 1.4 Character Creation / 1.4.9 Filling Out the Character Sheet / [ ⑩ Gender ]
 - [[sword-world-rpg-complete-edition-section-1-4-character-creation-1-4-9-filling-out-the-character-sheet-increase-skills-2b3ba450]] - narrower source section: 1.4 Character Creation / 1.4.9 Filling Out the Character Sheet / [ ⑬ Increase Skills ]
-- [[sword-world-rpg-complete-edition-section-1-4-character-creation-1-4-9-filling-out-the-character-sheet-adventurer-level-96712647]] - narrower source section: 1.4 Character Creation / 1.4.9 Filling Out the Character Sheet / [ ⑭ Adventurer Level ]
+- [[sword-world-rpg-complete-edition-section-1-4-character-creation-1-4-9-filling-out-the-character-sheet-origin-13cf4e41]] - narrower source section: 1.4 Character Creation / 1.4.9 Filling Out the Character Sheet / [ ⑥ Origin ]
 - [[sword-world-rpg-complete-edition-section-1-4-character-creation-1-4-9-filling-out-the-character-sheet-other-sections-fcb8d76d]] - narrower source section: 1.4 Character Creation / 1.4.9 Filling Out the Character Sheet / ⑯ Other Sections ]
-- [[sword-world-rpg-complete-edition-section-1-4-character-creation-weight-limits-e7e868db]] - previous source section: 1.4 Character Creation / [ Weight Limits ]
+- [[sword-world-rpg-complete-edition-section-1-4-character-creation-1-4-9-filling-out-the-character-sheet-player-name-9e5a0b37]] - narrower source section: 1.4 Character Creation / 1.4.9 Filling Out the Character Sheet / [ ① Player Name ]
+
+### Topics
+
 - [[sword-world-rpg-complete-edition-filling-character-sheet]] - topic hub: opens the topic page for Filling Character Sheet
 
 ## Statements
@@ -81,6 +87,7 @@ From [[sword-world-rpg-complete-edition]].
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-00883))_
 
+<a id="atom-technical-atom-6619bcc7f0860f93"></a>
 ```text
 Table 1-5: Backgrounds or Table 1-6:   highest adventurer skill level. Write this
  record and list various character details.

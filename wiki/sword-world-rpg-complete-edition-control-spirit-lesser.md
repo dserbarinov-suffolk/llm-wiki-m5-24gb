@@ -7,7 +7,7 @@ sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: concepts
-projection_coverage: topic-sword-world-rpg-complete-edition-control-spirit-lesser@6110a434a1235c884b8a4054365ae44a
+projection_coverage: topic-sword-world-rpg-complete-edition-control-spirit-lesser@b3ffe544479cf29db41a06b8935737bb
 ---
 
 # [ Control Spirit ] (Various lesser spirits)
@@ -84,33 +84,19 @@ What [[sword-world-rpg-complete-edition]] covers about [ control spirit ] (vario
 
 ### Technical frame 1: 5.1.14 Spirit Magic List / 3rd Level Spirit Magic List [ Invisibility ] (Sprite/Mind Spirit) / [ Control Spirit ] (Various lesser spirits)
 
-**Atoms:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-02953, source-range-0d48087c-02954, source-range-0d48087c-02955, source-range-0d48087c-02956, source-range-0d48087c-02957, source-range-0d48087c-02958))_
-
-> Base Mental Power Cost=15
-
-> Distance=10 meters
-
-> Area=One lesser spirit
-
-> Duration=Permanent
-
-> Effect=Summon and control one type of spirit
-
-> Type=Target score
-
-### Technical frame 2: 5.1.14 Spirit Magic List / 3rd Level Spirit Magic List [ Invisibility ] (Sprite/Mind Spirit) / [ Control Spirit ] (Various lesser spirits)
-
 **Context:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-02964))_
 
 > This is a spell that summons a spirit and lets you control it as your servant (you're free to call it your friend). The only spirits you can summon are those that belong to the lesser spirits (monster level 4 or lower). Of course, it can only be summoned in a place where spirit power is at work, and summoning also requires a three-hour magical ritual.
 
 **Atoms:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-02962, source-range-0d48087c-02963))_
 
+<a id="atom-technical-atom-fb0e84286297db8d"></a>
 > Expansion=Final score, distance
 
+<a id="atom-technical-atom-ef9cb5a34a7392df"></a>
 > Resist=None
 
-### Technical frame 3: 5.1.14 Spirit Magic List / Magic List / [ Full Control Spirit ] (Various lesser spirits)
+### Technical frame 2: 5.1.14 Spirit Magic List / Magic List / [ Full Control Spirit ] (Various lesser spirits)
 
 **Context:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-03266))_
 
@@ -118,20 +104,28 @@ What [[sword-world-rpg-complete-edition]] covers about [ control spirit ] (vario
 
 **Atoms:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-03262, source-range-0d48087c-03263, source-range-0d48087c-03264))_
 
+<a id="atom-technical-atom-b7f98153b7249bca"></a>
 > Base Mental Power Cost=35
 
+<a id="atom-technical-atom-164a1e0973b5ea9f"></a>
 > Distance=10 meters
 
+<a id="atom-technical-atom-11f55509e3cc3d0b"></a>
 > Area=One lesser spirit
 
 
 ## Related pages
 
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-5-1-14-spirit-magic-list-3rd-level-spirit-magic-list-invisibility-sprite-mind-spirit-control-spi-7a702fb2]] - source section: 5.1.14 Spirit Magic List / 3rd Level Spirit Magic List [ Invisibility ] (Sprite/Mind Spirit) / [ Control Spirit ] (Various lesser spirits) shares source evidence from 5.1.14 Spirit Magic List / 3rd Level Spirit Magic List [ Invisibility ] (Sprite/Mind Spirit) / [ Control Spirit ] (Various lesser spirits): This is a spell that summons a spirit and lets you control it as your servant (you're free to call it your friend). The only spirits you can summon are those that be ... [truncated]; 5.1.14 Spirit Magic List / 3rd Level Spirit Magic List [ Invisibility ] (Sprite/Mind Spirit) / [ Control Spirit ] (Various lesser spirits) shares technical record from 5.1.14 Spirit Magic List / 3rd Level Spirit Magic List [ Invisibility ] (Sprite/Mind Spirit) / [ Control Spirit ] (Various lesser spirits): Base Mental Power Cost=15 (11 shared statement(s), 8 shared atom(s))
+- [[sword-world-rpg-complete-edition-section-5-1-14-spirit-magic-list-magic-list-full-control-spirit-various-lesser-spirits-e38f7396]] - source section: 5.1.14 Spirit Magic List / Magic List / [ Full Control Spirit ] (Various lesser spirits) shares source evidence from 5.1.14 Spirit Magic List / Magic List / [ Full Control Spirit ] (Various lesser spirits): Please note that it is not possible to use both the Control Spirit and Full Control Spirit spells to control different spirits. In this case, the effect of the previ ... [truncated]; 5.1.14 Spirit Magic List / Magic List / [ Full Control Spirit ] (Various lesser spirits) shares technical record from 5.1.14 Spirit Magic List / Magic List / [ Full Control Spirit ] (Various lesser spirits): Base Mental Power Cost=35 (2 shared statement(s), 3 shared atom(s))
+
+### Shared claims
+
 - [[sword-world-rpg-complete-edition-final-damage]] - shared statements: 4.5.5 Final Damage shares source evidence from 5.1.14 Spirit Magic List / 2nd Level Spirit Magic List [ Will-O-Wisp ] (Will-O-Wisp/Light Spirit) / [ Shade ] (Shade/Dark Spirit): Expansion=Final score, duration, distance, targets, damage certainty Resist=Reduced effect Shade is the spirit of darkness that opposes will-o-wisp, and is also the ... [truncated] (1 shared statement(s))
 - [[sword-world-rpg-complete-edition-shade]] - shared statements: Shade shares source evidence from 5.1.14 Spirit Magic List / 2nd Level Spirit Magic List [ Will-O-Wisp ] (Will-O-Wisp/Light Spirit) / [ Shade ] (Shade/Dark Spirit): Expansion=Final score, duration, distance, targets, damage certainty Resist=Reduced effect Shade is the spirit of darkness that opposes will-o-wisp, and is also the ... [truncated] (1 shared statement(s))
 - [[sword-world-rpg-complete-edition-target-score]] - shared statements: Target Scores shares source evidence from 5.1.14 Spirit Magic List / 2nd Level Spirit Magic List [ Will-O-Wisp ] (Will-O-Wisp/Light Spirit) / [ Shade ] (Shade/Dark Spirit): Expansion=Final score, duration, distance, targets, damage certainty Resist=Reduced effect Shade is the spirit of darkness that opposes will-o-wisp, and is also the ... [truncated] (1 shared statement(s))
-- [[sword-world-rpg-complete-edition-section-5-1-14-spirit-magic-list-3rd-level-spirit-magic-list-invisibility-sprite-mind-spirit-control-spi-7a702fb2]] - source section: 5.1.14 Spirit Magic List / 3rd Level Spirit Magic List [ Invisibility ] (Sprite/Mind Spirit) / [ Control Spirit ] (Various lesser spirits) shares source evidence from 5.1.14 Spirit Magic List / 3rd Level Spirit Magic List [ Invisibility ] (Sprite/Mind Spirit) / [ Control Spirit ] (Various lesser spirits): This is a spell that summons a spirit and lets you control it as your servant (you're free to call it your friend). The only spirits you can summon are those that be ... [truncated]; 5.1.14 Spirit Magic List / 3rd Level Spirit Magic List [ Invisibility ] (Sprite/Mind Spirit) / [ Control Spirit ] (Various lesser spirits) shares technical record from 5.1.14 Spirit Magic List / 3rd Level Spirit Magic List [ Invisibility ] (Sprite/Mind Spirit) / [ Control Spirit ] (Various lesser spirits): Base Mental Power Cost=15 (11 shared statement(s), 8 shared atom(s))
-- [[sword-world-rpg-complete-edition-section-5-1-14-spirit-magic-list-magic-list-full-control-spirit-various-lesser-spirits-e38f7396]] - source section: 5.1.14 Spirit Magic List / Magic List / [ Full Control Spirit ] (Various lesser spirits) shares source evidence from 5.1.14 Spirit Magic List / Magic List / [ Full Control Spirit ] (Various lesser spirits): Please note that it is not possible to use both the Control Spirit and Full Control Spirit spells to control different spirits. In this case, the effect of the previ ... [truncated]; 5.1.14 Spirit Magic List / Magic List / [ Full Control Spirit ] (Various lesser spirits) shares technical record from 5.1.14 Spirit Magic List / Magic List / [ Full Control Spirit ] (Various lesser spirits): Base Mental Power Cost=35 (2 shared statement(s), 3 shared atom(s))
 
 ## Source
 

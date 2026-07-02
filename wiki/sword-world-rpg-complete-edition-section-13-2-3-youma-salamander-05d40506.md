@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-13-2-3-youma-salamander-05d40506@0d266f406b3e5eb786cac52483b66f37
+projection_coverage: section-sword-world-rpg-complete-edition-section-13-2-3-youma-salamander-05d40506@21b2a9c4955d5bf44e9f6d8e219743b6
 ---
 
 # 13.2.3 Youma / [ Salamander ]
@@ -17,9 +17,14 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-13-2-3-youma-05ea9fd0]] - broader source section: 13.2.3 Youma
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-13-2-3-youma-undine-95a6de0e]] - previous source section: 13.2.3 Youma / [ Undine ]
 - [[sword-world-rpg-complete-edition-section-13-2-3-youma-sandman-5e142462]] - next source section: 13.2.3 Youma / [ Sandman ]
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-13-2-3-youma-05ea9fd0]] - broader source section: 13.2.3 Youma
 
 ## Statements
 
@@ -38,4 +43,5 @@ From [[sword-world-rpg-complete-edition]].
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-06183))_
 
+<a id="atom-technical-atom-07643fb1ff67ce27"></a>
 > Also, when a person using the spirit magic Water Screen is attacked by a salamander, after the normal effect, 2 points of damage will be dealt to the salamander (the salamander cannot reduce this damage), then the magic's effect will vanish.

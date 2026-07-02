@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-6-26ccc185@869a46494b038d75d7611cbe37c7fbbd
+projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-6-26ccc185@077643147a6c446da8837040a4f5c1ec
 ---
 
 # Chapter 6:
@@ -17,12 +17,17 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
+### Source order
+
+- [[sword-world-rpg-complete-edition-section-5-3-b419e428]] - previous source section: 5.3
+- [[sword-world-rpg-complete-edition-section-chapter-7-c3cc20a8]] - next source section: Chapter 7:
+
+### Source structure
+
 - [[sword-world-rpg-complete-edition-section-chapter-6-6-1-precautions-when-using-skills-3fccdf49]] - narrower source section: Chapter 6: / 6.1 Precautions When Using Skills
 - [[sword-world-rpg-complete-edition-section-chapter-6-6-3-ranger-skill-ae825c0d]] - narrower source section: Chapter 6: / 6.3 Ranger Skill
 - [[sword-world-rpg-complete-edition-section-chapter-6-79bede4b]] - narrower source section: Chapter 6:
 - [[sword-world-rpg-complete-edition-section-chapter-6-dd443c93]] - narrower source section: Chapter 6:
-- [[sword-world-rpg-complete-edition-section-5-3-b419e428]] - previous source section: 5.3
-- [[sword-world-rpg-complete-edition-section-chapter-7-c3cc20a8]] - next source section: Chapter 7:
 
 ## Statements by subsection
 
@@ -343,6 +348,7 @@ From [[sword-world-rpg-complete-edition]].
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-03978))_
 
+<a id="atom-technical-atom-d3147573b798e2e9"></a>
 ```text
 Precautions When Using Skills
 6.1 Precautions When Using Skills
@@ -371,6 +377,7 @@ If the rules for determining the target score  or  difficulty  are  clearly  ind
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-04039))_
 
+<a id="atom-technical-atom-7563d513837552c4"></a>
 > If one adventurer has acquired both the thief skill and the fighter skill, the player must choose which skill to fight with.
 
 ### Technical frame 3: Table 6-1: Climb by Skill
@@ -381,6 +388,7 @@ If the rules for determining the target score  or  difficulty  are  clearly  ind
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-04218))_
 
+<a id="atom-technical-atom-f73f0b2f661b7450"></a>
 ```text
 Table 6-1: Climb by Skill
  using adventurer level + agility bonus as
@@ -415,6 +423,7 @@ Table 6-1: Climb by Skill
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-04237))_
 
+<a id="atom-technical-atom-f270ca8f93f46b62"></a>
 ```text
 Table 6-2: Determining Climb Target Scores
  failure.
@@ -433,6 +442,7 @@ Table 6-2: Determining Climb Target Scores
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-04280))_
 
+<a id="atom-technical-atom-d1cebcc65144dbc4"></a>
 ```text
 Table 6-3: Determining Long Jump Target Scores
  boiling lava. At this time, considering the
@@ -448,6 +458,7 @@ Table 6-3: Determining Long Jump Target Scores
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-04282))_
 
+<a id="atom-technical-atom-cc94441037493139"></a>
 ```text
 5 for 3 meters, +1 for every 15 cm
 Thief Skill (Normal Long Jump)
@@ -477,6 +488,7 @@ Adventurer Level (Normal Long Jump)
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-04311))_
 
+<a id="atom-technical-atom-b65b85d56f095bd1"></a>
 | Skill Used Thief Skill (Normal High Jump) Thief Skill (Pole High Jump) | Base Target Score 5 for 2 meters, +1 for every 5 cm 5 for 4 meters, +1 for every 20 cm | column 3 |
 | --- | --- | --- |
 | Adventurer Level (Normal High Jump) | 5 for 1 meter, +1 for every 5 cm |  |

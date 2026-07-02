@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-12-2-2-illnesses-arnica-b80b32cc@6ff7b4614dd6f5bc7aaa720a852c6f9c
+projection_coverage: section-sword-world-rpg-complete-edition-section-12-2-2-illnesses-arnica-b80b32cc@40b03922f5c2a18a82e5856ad97edb39
 ---
 
 # 12.2.2 Illnesses / [ Arnica ]
@@ -17,9 +17,14 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-12-2-2-illnesses-5611d07e]] - broader source section: 12.2.2 Illnesses
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-12-2-2-illnesses-rat-disease-53ac68c7]] - previous source section: 12.2.2 Illnesses / [ Rat Disease ]
 - [[sword-world-rpg-complete-edition-section-12-2-2-illnesses-upas-4fc28f9e]] - next source section: 12.2.2 Illnesses / [ Upas ]
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-12-2-2-illnesses-5611d07e]] - broader source section: 12.2.2 Illnesses
 
 ## Statements
 

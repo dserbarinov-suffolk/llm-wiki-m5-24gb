@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-1-4-character-creation-1-4-3-starting-skills-and-starting-for-races-other-than-humans-12c027e5@c76c1e9407c189455cb43733ce780de6
+projection_coverage: section-sword-world-rpg-complete-edition-section-1-4-character-creation-1-4-3-starting-skills-and-starting-for-races-other-than-humans-12c027e5@16a6cc56f6ff79b0c58437cd6e753d33
 ---
 
 # 1.4 Character Creation / 1.4.3 Starting Skills and Starting / For Races Other Than Humans
@@ -17,8 +17,13 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-1-4-character-creation-1-4-3-starting-skills-and-starting-7536fe31]] - broader source section: 1.4 Character Creation / 1.4.3 Starting Skills and Starting
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-1-4-character-creation-1-4-3-starting-skills-and-starting-for-humans-and-halfelves-raised-by-hum-d5539b0e]] - previous source section: 1.4 Character Creation / 1.4.3 Starting Skills and Starting / For Humans and HalfElves Raised by Humans
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-1-4-character-creation-1-4-3-starting-skills-and-starting-7536fe31]] - broader source section: 1.4 Character Creation / 1.4.3 Starting Skills and Starting
 
 ## Statements
 

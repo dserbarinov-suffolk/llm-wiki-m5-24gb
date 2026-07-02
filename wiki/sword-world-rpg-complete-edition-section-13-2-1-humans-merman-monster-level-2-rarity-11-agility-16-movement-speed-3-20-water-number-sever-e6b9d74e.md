@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-13-2-1-humans-merman-monster-level-2-rarity-11-agility-16-movement-speed-3-20-water-number-sever-e6b9d74e@2ca63fe515d8f74be2d789900f7b604b
+projection_coverage: section-sword-world-rpg-complete-edition-section-13-2-1-humans-merman-monster-level-2-rarity-11-agility-16-movement-speed-3-20-water-number-sever-e6b9d74e@af7e70fd7c98c2b095901f6078a39128
 ---
 
 # 13.2.1 《 Humans 》 / [ Merman ] Monster Level=2 Rarity=11 Agility=16 Movement Speed=3/20 (water) Number=Several to dozens Frequency=Rare Intellect=Human Reaction=Neutral Attack Points=Weapon: 9 (2) Strike Points=5 Evasion Points=10 (3) Defense Points=4 Life Points/Resistance=14/10 (3) Mental Points/Resistance=16/10 (3) Special Abilities=Water adaptation Habitat=Seas Languages=Merman Perception=Five senses (illumination)
@@ -17,9 +17,14 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-13-2-1-humans-2369e4b2]] - broader source section: 13.2.1 《 Humans 》
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-13-2-1-humans-featherfolk-9800b640]] - previous source section: 13.2.1 《 Humans 》 / [ Featherfolk ]
 - [[sword-world-rpg-complete-edition-section-13-2-1-humans-imp-7d6833df]] - next source section: 13.2.1 《 Humans 》 / [ Imp ]
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-13-2-1-humans-2369e4b2]] - broader source section: 13.2.1 《 Humans 》
 
 ## Statements
 

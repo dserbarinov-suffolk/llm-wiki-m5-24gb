@@ -4,11 +4,11 @@ page_kind: source
 summary: Copy on Write / Making Data Out Of Functions / a return to backward thinking: 20 source-backed entries and 0 atom(s) from raw/javascriptallonge.pdf.
 page_family: section-reference
 sources: raw/javascriptallonge.pdf
-updated: 2026-07-01
+updated: 2026-07-02
 domain: javascriptallonge
 category_path: sources/javascriptallonge/sections
 source_id: javascriptallonge.pdf
-projection_coverage: section-javascriptallonge-section-copy-on-write-making-data-out-of-functions-a-return-to-backward-thinking-f261e0bd@3a7b5d7250f9619787054c2fb5c8aabe
+projection_coverage: section-javascriptallonge-section-copy-on-write-making-data-out-of-functions-a-return-to-backward-thinking-f261e0bd@9e7c21341247d332d36e1937fb087062
 ---
 
 # Copy on Write / Making Data Out Of Functions / a return to backward thinking
@@ -17,8 +17,13 @@ From [[javascriptallonge]].
 
 ## Related pages
 
-- [[javascriptallonge-section-copy-on-write-making-data-out-of-functions-12daea71]] - broader source section: Copy on Write / Making Data Out Of Functions
+### Source order
+
 - [[javascriptallonge-section-copy-on-write-making-data-out-of-functions-functions-are-not-the-real-point-ee3008de]] - previous source section: Copy on Write / Making Data Out Of Functions / functions are not the real point
+
+### Source structure
+
+- [[javascriptallonge-section-copy-on-write-making-data-out-of-functions-12daea71]] - broader source section: Copy on Write / Making Data Out Of Functions
 
 ## Statements
 

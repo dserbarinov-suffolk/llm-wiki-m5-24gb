@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-16-16-9-special-weapons-8824e2ed@b344e7e2aeead1406e9723fee466bd4c
+projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-16-16-9-special-weapons-8824e2ed@04e0d7a492a3708163b257842848665d
 ---
 
 # Chapter 16: / 16.9 Special Weapons
@@ -17,20 +17,20 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-chapter-16-faf82038]] - broader source section: Chapter 16:
-- [[sword-world-rpg-complete-edition-section-chapter-16-16-9-special-weapons-pole-weapons-4ab72b8d]] - narrower source section: Chapter 16: / 16.9 Special Weapons / Pole Weapons
-- [[sword-world-rpg-complete-edition-section-chapter-16-16-9-special-weapons-main-gauche-sword-breaker-8b4acaf4]] - narrower source section: Chapter 16: / 16.9 Special Weapons / Main-gauche/Sword Breaker
-- [[sword-world-rpg-complete-edition-section-chapter-16-16-9-special-weapons-whip-net-bola-54c91d2c]] - narrower source section: Chapter 16: / 16.9 Special Weapons / Whip, Net, Bola
-- [[sword-world-rpg-complete-edition-section-chapter-16-16-9-special-weapons-shield-attack-37cd647e]] - narrower source section: Chapter 16: / 16.9 Special Weapons / Shield Attack
-- [[sword-world-rpg-complete-edition-section-chapter-16-16-9-special-weapons-cranequin-crossbow-bef1e2b5]] - narrower source section: Chapter 16: / 16.9 Special Weapons / Cranequin Crossbow
-- [[sword-world-rpg-complete-edition-section-chapter-16-16-9-special-weapons-ballista-c25fa889]] - narrower source section: Chapter 16: / 16.9 Special Weapons / Ballista
-- [[sword-world-rpg-complete-edition-section-chapter-16-16-9-special-weapons-lance-8475ba9f]] - narrower source section: Chapter 16: / 16.9 Special Weapons / Lance
-- [[sword-world-rpg-complete-edition-section-chapter-16-16-9-special-weapons-boomerang-c239f583]] - narrower source section: Chapter 16: / 16.9 Special Weapons / Boomerang
-- [[sword-world-rpg-complete-edition-section-chapter-16-16-9-special-weapons-shotel-5092e38f]] - narrower source section: Chapter 16: / 16.9 Special Weapons / Shotel
-- [[sword-world-rpg-complete-edition-section-chapter-16-16-9-special-weapons-cestus-aef131a0]] - narrower source section: Chapter 16: / 16.9 Special Weapons / Cestus
-- [[sword-world-rpg-complete-edition-section-chapter-16-16-9-special-weapons-sap-blackjack-0444899b]] - narrower source section: Chapter 16: / 16.9 Special Weapons / Sap (Blackjack)
-- [[sword-world-rpg-complete-edition-section-chapter-16-16-9-special-weapons-garrote-06874847]] - narrower source section: Chapter 16: / 16.9 Special Weapons / Garrote
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-chapter-16-16-6-2-two-handed-attacks-c3cb462a]] - previous source section: Chapter 16: / 16.6.2 Two-Handed Attacks
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-chapter-16-faf82038]] - broader source section: Chapter 16:
+- [[sword-world-rpg-complete-edition-section-chapter-16-16-9-special-weapons-ballista-c25fa889]] - narrower source section: Chapter 16: / 16.9 Special Weapons / Ballista
+- [[sword-world-rpg-complete-edition-section-chapter-16-16-9-special-weapons-boomerang-c239f583]] - narrower source section: Chapter 16: / 16.9 Special Weapons / Boomerang
+- [[sword-world-rpg-complete-edition-section-chapter-16-16-9-special-weapons-cestus-aef131a0]] - narrower source section: Chapter 16: / 16.9 Special Weapons / Cestus
+- [[sword-world-rpg-complete-edition-section-chapter-16-16-9-special-weapons-cranequin-crossbow-bef1e2b5]] - narrower source section: Chapter 16: / 16.9 Special Weapons / Cranequin Crossbow
+- [[sword-world-rpg-complete-edition-section-chapter-16-16-9-special-weapons-garrote-06874847]] - narrower source section: Chapter 16: / 16.9 Special Weapons / Garrote
+- [[sword-world-rpg-complete-edition-section-chapter-16-16-9-special-weapons-lance-8475ba9f]] - narrower source section: Chapter 16: / 16.9 Special Weapons / Lance
+- [[sword-world-rpg-complete-edition-section-chapter-16-16-9-special-weapons-main-gauche-sword-breaker-8b4acaf4]] - narrower source section: Chapter 16: / 16.9 Special Weapons / Main-gauche/Sword Breaker
 
 ## Statements by subsection
 

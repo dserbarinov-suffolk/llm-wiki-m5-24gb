@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-1-4-character-creation-price-calculation-1effa062@7863b6a9866810d770552f7b11a8a241
+projection_coverage: section-sword-world-rpg-complete-edition-section-1-4-character-creation-price-calculation-1effa062@6ef24f3964c421cd59b263836126ca20
 ---
 
 # 1.4 Character Creation / Price Calculation
@@ -17,9 +17,14 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-1-4-character-creation-f6aa6108]] - broader source section: 1.4 Character Creation
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-1-4-character-creation-shields-f1d0f2eb]] - previous source section: 1.4 Character Creation / Shields
 - [[sword-world-rpg-complete-edition-section-1-4-character-creation-1-4-7-restrictions-on-weapons-and-armor-based-on-skill-2ee2bab4]] - next source section: 1.4 Character Creation / 1.4.7 Restrictions on Weapons and Armor Based on Skill
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-1-4-character-creation-f6aa6108]] - broader source section: 1.4 Character Creation
 
 ## Statements
 
@@ -35,4 +40,5 @@ From [[sword-world-rpg-complete-edition]].
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-00758))_
 
+<a id="atom-technical-atom-f41e3d378fe01547"></a>
 > 14 (required strength) x 20 + 40 = 320. Prices are in gamels ( G ).

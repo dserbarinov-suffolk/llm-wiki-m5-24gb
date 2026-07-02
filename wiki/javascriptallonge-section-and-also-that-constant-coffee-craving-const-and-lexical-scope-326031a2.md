@@ -4,11 +4,11 @@ page_kind: source
 summary: And also: / That Constant Coffee Craving / const and lexical scope: 13 source-backed entries and 0 atom(s) from raw/javascriptallonge.pdf.
 page_family: section-reference
 sources: raw/javascriptallonge.pdf
-updated: 2026-07-01
+updated: 2026-07-02
 domain: javascriptallonge
 category_path: sources/javascriptallonge/sections
 source_id: javascriptallonge.pdf
-projection_coverage: section-javascriptallonge-section-and-also-that-constant-coffee-craving-const-and-lexical-scope-326031a2@d1091535c27b4c0c417ae374a4450be4
+projection_coverage: section-javascriptallonge-section-and-also-that-constant-coffee-craving-const-and-lexical-scope-326031a2@6e22287ee3c6cb46a720c3f6b9e20d49
 ---
 
 # And also: / That Constant Coffee Craving / const and lexical scope
@@ -17,9 +17,14 @@ From [[javascriptallonge]].
 
 ## Related pages
 
-- [[javascriptallonge-section-and-also-that-constant-coffee-craving-ac9d9918]] - broader source section: And also: / That Constant Coffee Craving
+### Source order
+
 - [[javascriptallonge-section-and-also-that-constant-coffee-craving-nested-blocks-78bcbfc7]] - previous source section: And also: / That Constant Coffee Craving / nested blocks
 - [[javascriptallonge-section-and-also-that-constant-coffee-craving-are-consts-also-from-a-shadowy-planet-f4ab49ce]] - next source section: And also: / That Constant Coffee Craving / are consts also from a shadowy planet?
+
+### Source structure
+
+- [[javascriptallonge-section-and-also-that-constant-coffee-craving-ac9d9918]] - broader source section: And also: / That Constant Coffee Craving
 
 ## Statements
 

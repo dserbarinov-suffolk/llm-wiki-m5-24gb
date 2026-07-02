@@ -4,11 +4,11 @@ page_kind: source
 summary: Plain Old JavaScript Objects / revisiting linked lists: 22 source-backed entries and 5 atom(s) from raw/javascriptallonge.pdf.
 page_family: section-reference
 sources: raw/javascriptallonge.pdf
-updated: 2026-07-01
+updated: 2026-07-02
 domain: javascriptallonge
 category_path: sources/javascriptallonge/sections
 source_id: javascriptallonge.pdf
-projection_coverage: section-javascriptallonge-section-plain-old-javascript-objects-revisiting-linked-lists-23e98a21@88d19d2a0d56a690c0d1817639c034eb
+projection_coverage: section-javascriptallonge-section-plain-old-javascript-objects-revisiting-linked-lists-23e98a21@13df5135f1d82a786032b84438120140
 ---
 
 # Plain Old JavaScript Objects / revisiting linked lists
@@ -17,8 +17,13 @@ From [[javascriptallonge]].
 
 ## Related pages
 
-- [[javascriptallonge-section-plain-old-javascript-objects-79315aff]] - broader source section: Plain Old JavaScript Objects
+### Source order
+
 - [[javascriptallonge-section-plain-old-javascript-objects-destructuring-objects-233d242e]] - previous source section: Plain Old JavaScript Objects / destructuring objects
+
+### Source structure
+
+- [[javascriptallonge-section-plain-old-javascript-objects-79315aff]] - broader source section: Plain Old JavaScript Objects
 
 ## Statements
 
@@ -44,6 +49,7 @@ From [[javascriptallonge]].
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01100))_
 
+<a id="atom-technical-atom-13a9af0726fd3970"></a>
 ```
 const cons = (a, d) => [a, d],
 car
@@ -60,6 +66,7 @@ cdr
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01102))_
 
+<a id="atom-technical-atom-bace31307fdcecd9"></a>
 ```
 In that case, a linked list of the numbers 1, 2, and 3 will look like this: { first: 1, rest: { first:
 2, rest: { first: 3, rest: EMPTY } } }.
@@ -74,6 +81,7 @@ We can then perform the equivalent of [first, ...rest] with direct property acce
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01103))_
 
+<a id="atom-technical-atom-55614a7e6312a79f"></a>
 ```
 const EMPTY = {};
 const OneTwoThree = { first: 1, rest: { first: 2, rest: { first: 3, rest: EMPTY \
@@ -101,6 +109,7 @@ length(OneTwoThree)
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01105))_
 
+<a id="atom-technical-atom-15d969a4e1cd03dd"></a>
 ```
 const slowcopy = (node) =>
 node === EMPTY
@@ -118,6 +127,7 @@ slowcopy(OneTwoThree)
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01110))_
 
+<a id="atom-technical-atom-378688b13fd63662"></a>
 ```
 const reverse = (node, delayed = EMPTY) =>
 node === EMPTY

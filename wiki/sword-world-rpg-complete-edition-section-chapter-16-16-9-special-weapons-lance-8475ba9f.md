@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-16-16-9-special-weapons-lance-8475ba9f@5b515202c96b5d612d2d4e825617ff68
+projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-16-16-9-special-weapons-lance-8475ba9f@fcff674663cad97af04b3ffba13cac7d
 ---
 
 # Chapter 16: / 16.9 Special Weapons / Lance
@@ -17,9 +17,14 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-chapter-16-16-9-special-weapons-8824e2ed]] - broader source section: Chapter 16: / 16.9 Special Weapons
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-chapter-16-16-9-special-weapons-ballista-c25fa889]] - previous source section: Chapter 16: / 16.9 Special Weapons / Ballista
 - [[sword-world-rpg-complete-edition-section-chapter-16-16-9-special-weapons-boomerang-c239f583]] - next source section: Chapter 16: / 16.9 Special Weapons / Boomerang
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-chapter-16-16-9-special-weapons-8824e2ed]] - broader source section: Chapter 16: / 16.9 Special Weapons
 
 ## Statements
 

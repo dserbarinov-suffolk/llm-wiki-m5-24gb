@@ -4,11 +4,11 @@ page_kind: source
 summary: Served by the Pot: Collections / Iteration and Iterables / from: 10 source-backed entries and 3 atom(s) from raw/javascriptallonge.pdf.
 page_family: section-reference
 sources: raw/javascriptallonge.pdf
-updated: 2026-07-01
+updated: 2026-07-02
 domain: javascriptallonge
 category_path: sources/javascriptallonge/sections
 source_id: javascriptallonge.pdf
-projection_coverage: section-javascriptallonge-section-served-by-the-pot-collections-iteration-and-iterables-from-b90bf31a@75ff57631e22f8f5d8a5e26bdfc113c2
+projection_coverage: section-javascriptallonge-section-served-by-the-pot-collections-iteration-and-iterables-from-b90bf31a@f9730fdf5af0632fe058b0faba694ece
 ---
 
 # Served by the Pot: Collections / Iteration and Iterables / from
@@ -17,9 +17,14 @@ From [[javascriptallonge]].
 
 ## Related pages
 
-- [[javascriptallonge-section-served-by-the-pot-collections-iteration-and-iterables-6006fd95]] - broader source section: Served by the Pot: Collections / Iteration and Iterables
+### Source order
+
 - [[javascriptallonge-section-served-by-the-pot-collections-iteration-and-iterables-operations-on-ordered-collections-097315e6]] - previous source section: Served by the Pot: Collections / Iteration and Iterables / operations on ordered collections
 - [[javascriptallonge-section-served-by-the-pot-collections-iteration-and-iterables-summary-02851e42]] - next source section: Served by the Pot: Collections / Iteration and Iterables / summary
+
+### Source structure
+
+- [[javascriptallonge-section-served-by-the-pot-collections-iteration-and-iterables-6006fd95]] - broader source section: Served by the Pot: Collections / Iteration and Iterables
 
 ## Statements
 
@@ -38,6 +43,7 @@ From [[javascriptallonge]].
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01608))_
 
+<a id="atom-technical-atom-796cd4abc1f1f1a2"></a>
 ```
 Array.from(UpTo1000)
 //=> [1,81,121,361,441,841,961]
@@ -51,6 +57,7 @@ Array.from(UpTo1000)
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01611))_
 
+<a id="atom-technical-atom-7fc8699bd710f113"></a>
 ```
 Stack3.from = function (iterable) {
 const stack = this();
@@ -74,6 +81,7 @@ return done ? EMPTY : Pair1(value, iterationToList(iteration));
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01613))_
 
+<a id="atom-technical-atom-ada69411918922ed"></a>
 ```
 const numberList = Pair1.from(untilWith((x) => x > 10, Numbers));
 Pair1.from(Squares)

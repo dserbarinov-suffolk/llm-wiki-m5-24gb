@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-13-2-6-mythical-beasts-and-magical-beasts-horse-13-2-8-plants-mandrake-bd890986@870308198fe79f3639b6dd6a929cefac
+projection_coverage: section-sword-world-rpg-complete-edition-section-13-2-6-mythical-beasts-and-magical-beasts-horse-13-2-8-plants-mandrake-bd890986@3819e612ff3ef4ad49a1867c768b5b65
 ---
 
 # 13.2.6 Mythical Beasts and Magical Beasts / [ Horse ] / 13.2.8 Plants / [ Mandrake ]
@@ -17,9 +17,14 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-13-2-6-mythical-beasts-and-magical-beasts-horse-13-2-8-plants-6ae09235]] - broader source section: 13.2.6 Mythical Beasts and Magical Beasts / [ Horse ] / 13.2.8 Plants
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-13-2-6-mythical-beasts-and-magical-beasts-horse-13-2-8-plants-killer-creeper-68e34452]] - previous source section: 13.2.6 Mythical Beasts and Magical Beasts / [ Horse ] / 13.2.8 Plants / [ Killer Creeper ]
 - [[sword-world-rpg-complete-edition-section-13-2-6-mythical-beasts-and-magical-beasts-horse-13-2-8-plants-alraune-monster-level-6-rarity-16-207f18c5]] - next source section: 13.2.6 Mythical Beasts and Magical Beasts / [ Horse ] / 13.2.8 Plants / [ Alraune ] Monster Level=6 Rarity=16 Agility=14 Movement Speed=14 Number=One Frequency=Very Rare Intellect=Human Reaction=Neutral Attack Points=Barehanded:13 (6) Strike Points=8 Evasion Points=14 (7) Defense Points=8 Life Points/Resistance=14/14 (7) Mental Points/Resistance=18/15 (8) magic (Magic Intensity/Magic Power=13/6, gnome,
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-13-2-6-mythical-beasts-and-magical-beasts-horse-13-2-8-plants-6ae09235]] - broader source section: 13.2.6 Mythical Beasts and Magical Beasts / [ Horse ] / 13.2.8 Plants
 
 ## Statements
 
@@ -41,6 +46,7 @@ From [[sword-world-rpg-complete-edition]].
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-07513))_
 
+<a id="atom-technical-atom-a1b11bcb5fabf433"></a>
 > Anyone who hears this at close range without first wearing earplugs must make a mental power resistance roll against target score 12.
 
 ### Technical frame 2: 13.2.6 Mythical Beasts and Magical Beasts / [ Horse ] / 13.2.8 Plants / [ Mandrake ]
@@ -51,4 +57,5 @@ From [[sword-world-rpg-complete-edition]].
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-07514))_
 
+<a id="atom-technical-atom-b63934439df6eab0"></a>
 > Additionally, those who fail the resistance roll must make another one, this time a life force resistance roll against target score 12.

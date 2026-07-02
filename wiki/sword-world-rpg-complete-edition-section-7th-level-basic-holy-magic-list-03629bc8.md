@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-7th-level-basic-holy-magic-list-03629bc8@3455c4dc6efd78ca967ffe1076af9908
+projection_coverage: section-sword-world-rpg-complete-edition-section-7th-level-basic-holy-magic-list-03629bc8@5b1e10ca0e362cc14d526f11860f517e
 ---
 
 # 7th Level Basic Holy Magic List
@@ -17,9 +17,14 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-7th-level-basic-holy-magic-list-regeneration-f66b204e]] - narrower source section: 7th Level Basic Holy Magic List / [ Regeneration ]
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-6th-level-basic-holy-magic-list-47f7e2bf]] - previous source section: 6th Level Basic Holy Magic List
 - [[sword-world-rpg-complete-edition-section-8th-level-basic-holy-magic-list-b5e7bb53]] - next source section: 8th Level Basic Holy Magic List
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-7th-level-basic-holy-magic-list-regeneration-f66b204e]] - narrower source section: 7th Level Basic Holy Magic List / [ Regeneration ]
 
 ## Statements
 
@@ -41,6 +46,7 @@ From [[sword-world-rpg-complete-edition]].
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-03621))_
 
+<a id="atom-technical-atom-8caf6c2d36e6c769"></a>
 | Cha | Za | Small | bird, | wolf | (they | chirp, | howl, | etc.), | rabbit | (their | feet | are | a | symbol | of | good | luck), | crows | aren’t | allowed | (a | symbol | of | bad | luck) |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | Marfa |  | Cow, | horse, | rabbit, |  | chicken | (they’re | livestock) |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |

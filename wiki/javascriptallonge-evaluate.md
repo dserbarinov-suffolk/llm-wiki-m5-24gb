@@ -4,10 +4,10 @@ page_kind: concept
 summary: Evaluate: 10 statement(s) and 3 atom(s) from raw/javascriptallonge.pdf.
 page_family: broad-topic
 sources: raw/javascriptallonge.pdf
-updated: 2026-07-01
+updated: 2026-07-02
 domain: javascriptallonge
 category_path: concepts
-projection_coverage: topic-javascriptallonge-evaluate@1b01b9ee93dbe1c27f32109f3c1e1141
+projection_coverage: topic-javascriptallonge-evaluate@97e3b09c16addbe29351a517c350abd0
 ---
 
 # Evaluate
@@ -65,6 +65,7 @@ What [[javascriptallonge]] covers about evaluate:
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00223))_
 
+<a id="atom-technical-atom-19d368aa877bf601"></a>
 ```
 undefined === undefined
 //=> true
@@ -82,6 +83,7 @@ undefined === undefined
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00246))_
 
+<a id="atom-technical-atom-d51366af88ef2feb"></a>
 ```text
 //=> undefined
 We said that the function returns the result of evaluating a block, and we said that a block is a
@@ -206,12 +208,15 @@ Ah. I’d Like to Have an Argument, Please.22
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00359))_
 
+<a id="atom-technical-atom-ed81aab62f6b0a9f"></a>
 ```
 (x, y, z) => x + y + z
 ```
 
 
 ## Related pages
+
+### Shared technical atoms
 
 - [[javascriptallonge-expression]] - shared statements and technical atoms: Expression shares source evidence from Prelude: Values and Expressions over Coffee / values are expressions / reference types: They look the same, but if you examine them with === , you see that they are different. Every time you evaluate an expression (including typing something in) to crea ... [truncated]; Expression shares technical record from Or even: / back on the block: //=> undefined We said that the function returns the result of evaluating a block, and we said that a block is a (possibly empty) list of JavaScript statements separ ... [truncated] (4 shared statement(s), 1 shared atom(s))
 - [[javascriptallonge-javascript]] - shared statements and technical atoms: Javascript shares source evidence from Picking the Bean: Choice and Truthiness / truthiness and the ternary operator: Wecertainly don't want JavaScript trying to evaluate deleteRecord(currentRecord) unless isAuthorized(currentUser) returns true .; Javascript shares technical record from Or even: / back on the block: //=> undefined We said that the function returns the result of evaluating a block, and we said that a block is a (possibly empty) list of JavaScript statements separ ... [truncated] (2 shared statement(s), 1 shared atom(s))
@@ -220,6 +225,9 @@ Ah. I’d Like to Have an Argument, Please.22
 - [[javascriptallonge-return]] - shared technical atoms: Return shares technical record from Or even: / back on the block: //=> undefined We said that the function returns the result of evaluating a block, and we said that a block is a (possibly empty) list of JavaScript statements separ ... [truncated] (1 shared atom(s))
 - [[javascriptallonge-scope]] - shared technical atoms: Scope shares technical record from And also: / Closures and Scope / it's always the environment: (x, y, z) => x + y + z (1 shared atom(s))
 - [[javascriptallonge-statement]] - shared technical atoms: Statement shares technical record from Or even: / back on the block: //=> undefined We said that the function returns the result of evaluating a block, and we said that a block is a (possibly empty) list of JavaScript statements separ ... [truncated] (1 shared atom(s))
+
+### Shared claims
+
 - [[javascriptallonge-body]] - shared statements: Body shares source evidence from And also: / Summary / Functions: Block bodies evaluate to whatever is returned with the return keyword, or to undefined . (1 shared statement(s))
 - [[javascriptallonge-iterator]] - shared statements: Iterator shares source evidence from Served by the Pot: Collections / Iteration and Iterables / iterables: The expression Symbol.iterator evaluates to a special symbol representing the name of the method that objects should use if they return an iterator object. (1 shared statement(s))
 - [[javascriptallonge-literal]] - shared statements: Literal shares source evidence from A Warm Cup: Basic Strings and Quasi-Literals / evaluation time: JavaScript evaluates the quasi-literal when the function is invoked and the quasi-literal inside the function's body is evaluated. Thus, name is not bound to "Harry" ... [truncated] (1 shared statement(s))

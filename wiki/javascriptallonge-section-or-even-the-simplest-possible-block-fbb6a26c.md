@@ -4,11 +4,11 @@ page_kind: source
 summary: Or even: / the simplest possible block: 18 source-backed entries and 0 atom(s) from raw/javascriptallonge.pdf.
 page_family: section-reference
 sources: raw/javascriptallonge.pdf
-updated: 2026-07-01
+updated: 2026-07-02
 domain: javascriptallonge
 category_path: sources/javascriptallonge/sections
 source_id: javascriptallonge.pdf
-projection_coverage: section-javascriptallonge-section-or-even-the-simplest-possible-block-fbb6a26c@ee2e56500042970de1c846aa44ce5e21
+projection_coverage: section-javascriptallonge-section-or-even-the-simplest-possible-block-fbb6a26c@8ae051e51a0c755776a0479199c97c0c
 ---
 
 # Or even: / the simplest possible block
@@ -17,9 +17,14 @@ From [[javascriptallonge]].
 
 ## Related pages
 
+### Source order
+
+- [[javascriptallonge-section-or-even-void-fe958725]] - next source section: Or even: / void
+
+### Source structure
+
 - [[javascriptallonge-section-or-even-bc497226]] - broader source section: Or even:
 - [[javascriptallonge-section-or-even-the-simplest-possible-block-undefined-7e43bbd5]] - narrower source section: Or even: / the simplest possible block / undefined
-- [[javascriptallonge-section-or-even-void-fe958725]] - next source section: Or even: / void
 
 ## Statements
 

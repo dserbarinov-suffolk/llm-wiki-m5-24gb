@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-energy-bolt-4700b080@02974d89bc1376f4db8026d7c4e4e630
+projection_coverage: section-sword-world-rpg-complete-edition-section-energy-bolt-4700b080@e4b2bea43ffc93b04888e38928de4c7e
 ---
 
 # [ Energy Bolt ]
@@ -16,6 +16,8 @@ projection_coverage: section-sword-world-rpg-complete-edition-section-energy-bol
 From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
+
+### Source order
 
 - [[sword-world-rpg-complete-edition-section-sample-magic-details-cbfd0ab1]] - previous source section: [Sample Magic Details]
 - [[sword-world-rpg-complete-edition-section-enchant-weapon-f44ff0f5]] - next source section: [ Enchant Weapon ]

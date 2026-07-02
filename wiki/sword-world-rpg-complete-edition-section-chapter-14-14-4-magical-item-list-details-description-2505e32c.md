@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-details-description-2505e32c@f87ed2fb2833368307c3d857beeb7da9
+projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-details-description-2505e32c@3b682e8ccdf8853ef81b5c06f7a70cd9
 ---
 
 # Chapter 14: / 14.4 Magical Item List / Details / 《 Description 》
@@ -17,8 +17,13 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-details-cc13bc5e]] - broader source section: Chapter 14: / 14.4 Magical Item List / Details
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-details-other-2ab61af8]] - next source section: Chapter 14: / 14.4 Magical Item List / Details / 《 Other 》
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-details-cc13bc5e]] - broader source section: Chapter 14: / 14.4 Magical Item List / Details
 
 ## Statements
 

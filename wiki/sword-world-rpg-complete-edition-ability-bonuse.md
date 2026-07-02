@@ -7,7 +7,7 @@ sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: concepts
-projection_coverage: topic-sword-world-rpg-complete-edition-ability-bonuse@a8e29462d5ea941de06d36e5f00b0b9b
+projection_coverage: topic-sword-world-rpg-complete-edition-ability-bonuse@48cf717cf2f3f8cb6d459984eb9579e7
 ---
 
 # 【 Ability Bonuses 】
@@ -35,13 +35,7 @@ What [[sword-world-rpg-complete-edition]] covers about 【 ability bonuses 】:
 
 ## Technical atoms
 
-### Technical frame 1: 8. Game Master Screen / Ability Scores / 【 Ability Bonuses 】
-
-**Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-00173))_
-
-> etc.) When a character's ability score increases or decreases, even temporarily, the ability bonus increases or decreases accordingly.
-
-### Technical frame 2: Table 1-1: Ability Bonuses
+### Technical frame 1: Table 1-1: Ability Bonuses
 
 **Context:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-00173))_
 
@@ -49,6 +43,7 @@ What [[sword-world-rpg-complete-edition]] covers about 【 ability bonuses 】:
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-00174))_
 
+<a id="atom-technical-atom-866bf61f91d0fd07"></a>
 ```text
 Table 1-1: Ability Bonuses
                                     represented by a loss of life force and
@@ -76,9 +71,14 @@ Table 1-1: Ability Bonuses
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-filling-character-sheet]] - shared statements: 1.4.9 Filling Out the Character Sheet shares source evidence from 1.4 Character Creation / 1.4.2 Determine Ability Scores: Once the ability scores have been determined, also find the ability bonuses and write them down on the Character Sheet. (2 shared statement(s))
+### Source structure
+
 - [[sword-world-rpg-complete-edition-section-8-game-master-screen-ability-scores-ability-bonuses-b62ddaa2]] - source section: 8. Game Master Screen / Ability Scores / 【 Ability Bonuses 】 shares source evidence from 8. Game Master Screen / Ability Scores / 【 Ability Bonuses 】: An ability score value is related to the success or failure of an action that an adventurer tries to perform, but in Sword World RPG , success or failure is determin ... [truncated]; 8. Game Master Screen / Ability Scores / 【 Ability Bonuses 】 shares technical record from 8. Game Master Screen / Ability Scores / 【 Ability Bonuses 】: etc.) When a character's ability score increases or decreases, even temporarily, the ability bonus increases or decreases accordingly. (6 shared statement(s), 2 shared atom(s))
 - [[sword-world-rpg-complete-edition-section-1-4-character-creation-1-4-9-filling-out-the-character-sheet-ability-bonuses-89bb601a]] - source section: 1.4 Character Creation / 1.4.9 Filling Out the Character Sheet / [ ⑤ Ability Bonuses ] shares source evidence from 1.4 Character Creation / 1.4.9 Filling Out the Character Sheet / [ ⑤ Ability Bonuses ]: Once ability scores have been calculated, the next step is the ability bonuses. A bonus is an ability score divided by 6 (rounded down). (1 shared statement(s))
+
+### Shared claims
+
+- [[sword-world-rpg-complete-edition-filling-character-sheet]] - shared statements: 1.4.9 Filling Out the Character Sheet shares source evidence from 1.4 Character Creation / 1.4.2 Determine Ability Scores: Once the ability scores have been determined, also find the ability bonuses and write them down on the Character Sheet. (2 shared statement(s))
 
 ## Source
 

@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-5-1-12-ancient-magic-list-fire-weapon-eab7ab97@79f97afe867d479f413815a5e9e59211
+projection_coverage: section-sword-world-rpg-complete-edition-section-5-1-12-ancient-magic-list-fire-weapon-eab7ab97@4fbaeb902911206ad0dd100cca0c7cf0
 ---
 
 # 5.1.12 Ancient Magic List / [ Fire Weapon ]
@@ -17,9 +17,14 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-5-1-12-ancient-magic-list-2e59bfee]] - broader source section: 5.1.12 Ancient Magic List
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-5-1-12-ancient-magic-list-disguise-40db142d]] - previous source section: 5.1.12 Ancient Magic List / [ Disguise ]
 - [[sword-world-rpg-complete-edition-section-5-1-12-ancient-magic-list-falling-control-1fde1312]] - next source section: 5.1.12 Ancient Magic List / [ Falling Control ]
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-5-1-12-ancient-magic-list-2e59bfee]] - broader source section: 5.1.12 Ancient Magic List
 
 ## Statements
 

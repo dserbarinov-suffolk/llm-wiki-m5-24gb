@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-11-notes-on-magic-11-3-dragon-roar-magic-6th-level-dragon-roar-magic-list-blood-protecti-29437103@c01167b431dec4c3809535085a934b25
+projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-11-notes-on-magic-11-3-dragon-roar-magic-6th-level-dragon-roar-magic-list-blood-protecti-29437103@d4c3a4c56b962a78250aa7f47e17a89d
 ---
 
 # Chapter 11: Notes on Magic / 11.3 Dragon Roar Magic / 6th Level Dragon Roar Magic List / [ Blood Protection ]
@@ -17,8 +17,13 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-chapter-11-notes-on-magic-11-3-dragon-roar-magic-6th-level-dragon-roar-magic-list-16eb69e9]] - broader source section: Chapter 11: Notes on Magic / 11.3 Dragon Roar Magic / 6th Level Dragon Roar Magic List
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-chapter-11-notes-on-magic-11-3-dragon-roar-magic-6th-level-dragon-roar-magic-list-summon-wyvern-9151633e]] - previous source section: Chapter 11: Notes on Magic / 11.3 Dragon Roar Magic / 6th Level Dragon Roar Magic List / [ Summon Wyvern ]
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-chapter-11-notes-on-magic-11-3-dragon-roar-magic-6th-level-dragon-roar-magic-list-16eb69e9]] - broader source section: Chapter 11: Notes on Magic / 11.3 Dragon Roar Magic / 6th Level Dragon Roar Magic List
 
 ## Statements
 

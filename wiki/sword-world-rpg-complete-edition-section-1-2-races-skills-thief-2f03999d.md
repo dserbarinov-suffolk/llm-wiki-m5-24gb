@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-1-2-races-skills-thief-2f03999d@6d101652e47b4e5b3f3643afd30410be
+projection_coverage: section-sword-world-rpg-complete-edition-section-1-2-races-skills-thief-2f03999d@86b949ab053d98b98851c82cec993dbd
 ---
 
 # 1.2 Races / Skills / 【 Thief 】
@@ -17,9 +17,14 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-1-2-races-skills-d796863a]] - broader source section: 1.2 Races / Skills
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-1-2-races-skills-fighter-96226d96]] - previous source section: 1.2 Races / Skills / 【 Fighter 】
 - [[sword-world-rpg-complete-edition-section-1-2-races-skills-sage-abcdd228]] - next source section: 1.2 Races / Skills / 【 Sage 】
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-1-2-races-skills-d796863a]] - broader source section: 1.2 Races / Skills
 
 ## Statements
 
@@ -40,4 +45,5 @@ From [[sword-world-rpg-complete-edition]].
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-00247))_
 
+<a id="atom-technical-atom-92b3d507d00e0df0"></a>
 > Their fighting style is based on lightness, and although they cannot use heavy weapons or armor, they can use light weapons and armor that does not impede their movement, allowing them to fight as well as a fighter.

@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-16-16-1-combat-in-which-monsters-roll-dice-attacks-from-characters-against-monsters-5b049796@6f0c4ef771e0a6b6499a2d89ab538535
+projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-16-16-1-combat-in-which-monsters-roll-dice-attacks-from-characters-against-monsters-5b049796@ec582f0dcf3f76b8041991be4a19d6cb
 ---
 
 # Chapter 16: / 16.1 Combat in Which Monsters Roll Dice / Attacks From Characters Against Monsters
@@ -17,8 +17,16 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-chapter-16-16-1-combat-in-which-monsters-roll-dice-ae771dc9]] - broader source section: Chapter 16: / 16.1 Combat in Which Monsters Roll Dice
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-chapter-16-16-1-combat-in-which-monsters-roll-dice-attacks-from-monsters-against-characters-777d3622]] - previous source section: Chapter 16: / 16.1 Combat in Which Monsters Roll Dice / Attacks From Monsters Against Characters
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-chapter-16-16-1-combat-in-which-monsters-roll-dice-ae771dc9]] - broader source section: Chapter 16: / 16.1 Combat in Which Monsters Roll Dice
+
+### Topics
+
 - [[sword-world-rpg-complete-edition-attack-character-monster]] - topic hub: opens the topic page for Attack Character Monster
 
 ## Statements
@@ -38,6 +46,7 @@ From [[sword-world-rpg-complete-edition]].
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-10028))_
 
+<a id="atom-technical-atom-48b77365a775c629"></a>
 > The game master should roll 2D and add it to the number in parenthesis.
 
 ### Technical frame 2: Chapter 16: / 16.1 Combat in Which Monsters Roll Dice / Attacks From Characters Against Monsters
@@ -48,4 +57,5 @@ From [[sword-world-rpg-complete-edition]].
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-10031))_
 
+<a id="atom-technical-atom-56c0ff645a3ca20e"></a>
 > [Figure] (p.261)

@@ -4,11 +4,11 @@ page_kind: source
 summary: Served by the Pot: Collections / Iteration and Iterables / iterator objects: 11 source-backed entries and 0 atom(s) from raw/javascriptallonge.pdf.
 page_family: section-reference
 sources: raw/javascriptallonge.pdf
-updated: 2026-07-01
+updated: 2026-07-02
 domain: javascriptallonge
 category_path: sources/javascriptallonge/sections
 source_id: javascriptallonge.pdf
-projection_coverage: section-javascriptallonge-section-served-by-the-pot-collections-iteration-and-iterables-iterator-objects-7abb0097@8065df3360a3aa4fafe616a1ecb0080b
+projection_coverage: section-javascriptallonge-section-served-by-the-pot-collections-iteration-and-iterables-iterator-objects-7abb0097@d500e90e61709661d625a789e32a9deb
 ---
 
 # Served by the Pot: Collections / Iteration and Iterables / iterator objects
@@ -17,10 +17,15 @@ From [[javascriptallonge]].
 
 ## Related pages
 
-- [[javascriptallonge-section-served-by-the-pot-collections-iteration-and-iterables-6006fd95]] - broader source section: Served by the Pot: Collections / Iteration and Iterables
-- [[javascriptallonge-section-served-by-the-pot-collections-iteration-and-iterables-iterator-objects-like-this-5d729179]] - narrower source section: Served by the Pot: Collections / Iteration and Iterables / iterator objects / Like this:
+### Source order
+
 - [[javascriptallonge-section-served-by-the-pot-collections-iteration-and-iterables-a-look-back-at-functional-iterators-39b0dbb4]] - previous source section: Served by the Pot: Collections / Iteration and Iterables / a look back at functional iterators
 - [[javascriptallonge-section-served-by-the-pot-collections-iteration-and-iterables-iterables-5688770e]] - next source section: Served by the Pot: Collections / Iteration and Iterables / iterables
+
+### Source structure
+
+- [[javascriptallonge-section-served-by-the-pot-collections-iteration-and-iterables-6006fd95]] - broader source section: Served by the Pot: Collections / Iteration and Iterables
+- [[javascriptallonge-section-served-by-the-pot-collections-iteration-and-iterables-iterator-objects-like-this-5d729179]] - narrower source section: Served by the Pot: Collections / Iteration and Iterables / iterator objects / Like this:
 
 ## Statements
 

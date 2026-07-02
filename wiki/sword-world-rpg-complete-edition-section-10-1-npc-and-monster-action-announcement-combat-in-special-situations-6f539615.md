@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-10-1-npc-and-monster-action-announcement-combat-in-special-situations-6f539615@44b39c1d91e01f75ba1b7daf14167dfd
+projection_coverage: section-sword-world-rpg-complete-edition-section-10-1-npc-and-monster-action-announcement-combat-in-special-situations-6f539615@5577ae9ea9b9330ed259aa3c0db2e659
 ---
 
 # 10.1 NPC and Monster Action Announcement / Combat in Special Situations
@@ -16,6 +16,8 @@ projection_coverage: section-sword-world-rpg-complete-edition-section-10-1-npc-a
 From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
+
+### Source structure
 
 - [[sword-world-rpg-complete-edition-section-10-1-npc-and-monster-action-announcement-3fefd8eb]] - broader source section: 10.1 NPC and Monster Action Announcement
 
@@ -35,6 +37,7 @@ From [[sword-world-rpg-complete-edition]].
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-04690))_
 
+<a id="atom-technical-atom-97c4d2b1f0087811"></a>
 | Full movement (Evasion speed only) | -4 |
 | --- | --- |
 | Can’t see opponent (in the dark, invisible enemy, etc.) However, if alternative senses (smell, hearing, etc.) are developed to some extent If you don't have to rely on vision | -4 -2 None |

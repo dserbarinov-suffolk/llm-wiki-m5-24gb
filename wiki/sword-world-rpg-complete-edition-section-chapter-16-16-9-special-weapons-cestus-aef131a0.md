@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-16-16-9-special-weapons-cestus-aef131a0@f213cc235310e8315c3fb5795cc6dde2
+projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-16-16-9-special-weapons-cestus-aef131a0@08a2c0d18e9d1b7987be9b6c14dae4ff
 ---
 
 # Chapter 16: / 16.9 Special Weapons / Cestus
@@ -17,9 +17,14 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-chapter-16-16-9-special-weapons-8824e2ed]] - broader source section: Chapter 16: / 16.9 Special Weapons
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-chapter-16-16-9-special-weapons-shotel-5092e38f]] - previous source section: Chapter 16: / 16.9 Special Weapons / Shotel
 - [[sword-world-rpg-complete-edition-section-chapter-16-16-9-special-weapons-sap-blackjack-0444899b]] - next source section: Chapter 16: / 16.9 Special Weapons / Sap (Blackjack)
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-chapter-16-16-9-special-weapons-8824e2ed]] - broader source section: Chapter 16: / 16.9 Special Weapons
 
 ## Statements
 

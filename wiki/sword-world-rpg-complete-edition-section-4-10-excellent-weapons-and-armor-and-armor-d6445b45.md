@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-4-10-excellent-weapons-and-armor-and-armor-d6445b45@2f129c4d08ae61bdf2d59df10344a6c2
+projection_coverage: section-sword-world-rpg-complete-edition-section-4-10-excellent-weapons-and-armor-and-armor-d6445b45@dfcf12b9b64abaf2e8ab48b2a1c0e71f
 ---
 
 # 4.10 Excellent Weapons and Armor / and Armor
@@ -17,8 +17,16 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-4-10-excellent-weapons-and-armor-1d473647]] - broader source section: 4.10 Excellent Weapons and Armor
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-4-10-excellent-weapons-and-armor-4-10-2-silver-weapons-and-armor-dadef958]] - next source section: 4.10 Excellent Weapons and Armor / 4.10.2 Silver Weapons and Armor
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-4-10-excellent-weapons-and-armor-1d473647]] - broader source section: 4.10 Excellent Weapons and Armor
+
+### Topics
+
 - [[sword-world-rpg-complete-edition-armor]] - topic hub: opens the topic page for Armor
 
 ## Statements
@@ -48,6 +56,7 @@ From [[sword-world-rpg-complete-edition]].
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-01464))_
 
+<a id="atom-technical-atom-de7b2422f985ece0"></a>
 > Also, even if you search all over Alecrast, you will usually only find one with a required strength up to 5 lower than usual .
 
 ### Technical frame 2: 4.10 Excellent Weapons and Armor / and Armor
@@ -58,6 +67,7 @@ From [[sword-world-rpg-complete-edition]].
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-01465))_
 
+<a id="atom-technical-atom-2c3f7ec66a837600"></a>
 > However, if you want one of higher quality, you must go to a larger town.
 
 ### Technical frame 3: Table 4-5: Guideline for Obtaining High-Quality Weapons and Armor
@@ -68,6 +78,7 @@ From [[sword-world-rpg-complete-edition]].
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-01466))_
 
+<a id="atom-technical-atom-5f0d5d906d59ff3e"></a>
 ```text
 These high-quality weapons and armor  can  be  expensive.  Their  price increases  by 20% for  every 1 required strength lower than usual. 2 lower will be 40% more expensive, 3 lower will be 60% more  expensive, 4 lower  will  be 80% more expensive, and 5 lower will be twice the original price.
 Table 4-5: Guideline for Obtaining High-Quality Weapons and Armor

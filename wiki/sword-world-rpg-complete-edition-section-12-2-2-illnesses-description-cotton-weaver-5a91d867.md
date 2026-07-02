@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-12-2-2-illnesses-description-cotton-weaver-5a91d867@e464f2f11ecd52d6da172883e63892ef
+projection_coverage: section-sword-world-rpg-complete-edition-section-12-2-2-illnesses-description-cotton-weaver-5a91d867@37f318d57b6cd77139dfe5951df99eeb
 ---
 
 # 12.2.2 Illnesses / 《 Description 》 / [ Cotton Weaver ]
@@ -17,9 +17,14 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-12-2-2-illnesses-description-edb99c5e]] - broader source section: 12.2.2 Illnesses / 《 Description 》
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-12-2-2-illnesses-description-green-slime-rot-5a737090]] - previous source section: 12.2.2 Illnesses / 《 Description 》 / [ Green Slime Rot ]
 - [[sword-world-rpg-complete-edition-section-12-2-2-illnesses-description-stone-skin-626f7e50]] - next source section: 12.2.2 Illnesses / 《 Description 》 / [ Stone Skin ]
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-12-2-2-illnesses-description-edb99c5e]] - broader source section: 12.2.2 Illnesses / 《 Description 》
 
 ## Statements
 

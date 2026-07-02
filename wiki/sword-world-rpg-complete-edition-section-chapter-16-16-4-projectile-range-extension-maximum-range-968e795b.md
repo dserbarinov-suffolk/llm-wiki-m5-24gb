@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-16-16-4-projectile-range-extension-maximum-range-968e795b@d7be1ea9a5400f83afc112ff7822fe3d
+projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-16-16-4-projectile-range-extension-maximum-range-968e795b@079d2cbda19db805392824c7642b19a8
 ---
 
 # Chapter 16: / 16.4 Projectile Range Extension / Maximum Range
@@ -17,8 +17,13 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-chapter-16-16-4-projectile-range-extension-e49b508c]] - broader source section: Chapter 16: / 16.4 Projectile Range Extension
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-chapter-16-16-4-projectile-range-extension-long-distance-modifiers-3f7244ce]] - previous source section: Chapter 16: / 16.4 Projectile Range Extension / Long Distance Modifiers
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-chapter-16-16-4-projectile-range-extension-e49b508c]] - broader source section: Chapter 16: / 16.4 Projectile Range Extension
 
 ## Statements
 

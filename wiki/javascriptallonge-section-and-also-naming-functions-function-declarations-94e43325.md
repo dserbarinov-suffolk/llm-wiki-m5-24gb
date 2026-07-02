@@ -4,11 +4,11 @@ page_kind: source
 summary: And also: / Naming Functions / function declarations: 15 source-backed entries and 4 atom(s) from raw/javascriptallonge.pdf.
 page_family: section-reference
 sources: raw/javascriptallonge.pdf
-updated: 2026-07-01
+updated: 2026-07-02
 domain: javascriptallonge
 category_path: sources/javascriptallonge/sections
 source_id: javascriptallonge.pdf
-projection_coverage: section-javascriptallonge-section-and-also-naming-functions-function-declarations-94e43325@a78d6d8c545f742b37c389de437bf048
+projection_coverage: section-javascriptallonge-section-and-also-naming-functions-function-declarations-94e43325@5fd83ad0320d7548619aa41e43b846e5
 ---
 
 # And also: / Naming Functions / function declarations
@@ -17,9 +17,14 @@ From [[javascriptallonge]].
 
 ## Related pages
 
-- [[javascriptallonge-section-and-also-naming-functions-cae91ee1]] - broader source section: And also: / Naming Functions
+### Source order
+
 - [[javascriptallonge-section-and-also-naming-functions-the-function-keyword-443f109f]] - previous source section: And also: / Naming Functions / the function keyword
 - [[javascriptallonge-section-and-also-naming-functions-function-declaration-caveats-34-d724d0dc]] - next source section: And also: / Naming Functions / function declaration caveats 34
+
+### Source structure
+
+- [[javascriptallonge-section-and-also-naming-functions-cae91ee1]] - broader source section: And also: / Naming Functions
 
 ## Statements
 
@@ -39,6 +44,7 @@ From [[javascriptallonge]].
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00533))_
 
+<a id="atom-technical-atom-453990520af7bc31"></a>
 ```
 function someName () {
 // ...
@@ -57,6 +63,7 @@ const someName = function someName ()
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00534))_
 
+<a id="atom-technical-atom-f72d1116e0b95f4e"></a>
 ```
 {
 ```
@@ -69,6 +76,7 @@ const someName = function someName ()
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00539))_
 
+<a id="atom-technical-atom-30bd3487342b5bd3"></a>
 ```
 (function () {
 return fizzbuzz();
@@ -90,6 +98,7 @@ const fizzbuzz = function fizzbuzz () {
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00540))_
 
+<a id="atom-technical-atom-fb0b9ce888acf178"></a>
 ```
 const fizzbuzz = function fizzbuzz ()
 return "Fizz" + "Buzz";

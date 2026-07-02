@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-5-1-14-spirit-magic-list-brownie-brownie-building-spirit-6d316156@6b7cee6fda5e040f70750a7f1d2558db
+projection_coverage: section-sword-world-rpg-complete-edition-section-5-1-14-spirit-magic-list-brownie-brownie-building-spirit-6d316156@36ec08035bbc11a86f6923bc7c02f89b
 ---
 
 # 5.1.14 Spirit Magic List / [ Brownie ] (Brownie/Building Spirit)
@@ -17,9 +17,14 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-5-1-14-spirit-magic-list-1f53ed62]] - broader source section: 5.1.14 Spirit Magic List
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-5-1-14-spirit-magic-list-firebolt-salamander-fire-spirit-9ac410fc]] - previous source section: 5.1.14 Spirit Magic List / [ Firebolt ] (Salamander/Fire Spirit)
 - [[sword-world-rpg-complete-edition-section-5-1-14-spirit-magic-list-2nd-level-spirit-magic-list-will-o-wisp-will-o-wisp-light-spirit-d5164997]] - next source section: 5.1.14 Spirit Magic List / 2nd Level Spirit Magic List [ Will-O-Wisp ] (Will-O-Wisp/Light Spirit)
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-5-1-14-spirit-magic-list-1f53ed62]] - broader source section: 5.1.14 Spirit Magic List
 
 ## Statements
 
@@ -35,6 +40,8 @@ From [[sword-world-rpg-complete-edition]].
 
 **Atoms:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-02848, source-range-0d48087c-02849))_
 
+<a id="atom-technical-atom-fd4f02bb053792b5"></a>
 > Base Mental Power Cost=3 Distance=Inside a building Area=Inside a building Duration=While the caster is asleep Effect=Do chores around the house Type=Expansion=-
 
+<a id="atom-technical-atom-ee12406584065b0f"></a>
 > Resist=None

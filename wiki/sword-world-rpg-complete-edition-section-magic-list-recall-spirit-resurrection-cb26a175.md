@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-magic-list-recall-spirit-resurrection-cb26a175@30d40aa9ea1f254f8e8c326f4f17112a
+projection_coverage: section-sword-world-rpg-complete-edition-section-magic-list-recall-spirit-resurrection-cb26a175@a07dc7c5ab21ac8c4d10bf49ef7acacc
 ---
 
 # Magic List [ Recall Spirit ] / [ Resurrection
@@ -16,6 +16,8 @@ projection_coverage: section-sword-world-rpg-complete-edition-section-magic-list
 From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
+
+### Source structure
 
 - [[sword-world-rpg-complete-edition-section-magic-list-recall-spirit-e4635c34]] - broader source section: Magic List [ Recall Spirit ]
 
@@ -40,4 +42,5 @@ From [[sword-world-rpg-complete-edition]].
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-03697))_
 
+<a id="atom-technical-atom-136076e0b114d596"></a>
 > You can add +6 to the final score of the spell if you have a corpse.

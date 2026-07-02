@@ -4,10 +4,10 @@ page_kind: concept
 summary: Combinator: 5 statement(s) and 2 atom(s) from raw/javascriptallonge.pdf.
 page_family: topic-concept
 sources: raw/javascriptallonge.pdf
-updated: 2026-07-01
+updated: 2026-07-02
 domain: javascriptallonge
 category_path: concepts
-projection_coverage: topic-javascriptallonge-combinator@02a229ff368aaf771058e65eef87577f
+projection_coverage: topic-javascriptallonge-combinator@4d1462418563b832d8c50af6ae526f02
 ---
 
 # Combinator
@@ -41,6 +41,7 @@ What [[javascriptallonge]] covers about combinator:
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00560))_
 
+<a id="atom-technical-atom-5936d0925efccdd7"></a>
 ```
 const compose = (a, b) =>
 (c) => a(b(c))
@@ -61,6 +62,7 @@ const doubleOfAddOne = compose(doubleOf, addOne);
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00572))_
 
+<a id="atom-technical-atom-ad78f7455392b913"></a>
 ```
 const nothing = not(something);
 ```
@@ -68,9 +70,14 @@ const nothing = not(something);
 
 ## Related pages
 
+### Source structure
+
+- [[javascriptallonge-section-and-also-combinators-and-function-decorators-combinators-d366528a]] - source section: And also: / Combinators and Function Decorators / combinators shares source evidence from And also: / Combinators and Function Decorators / combinators: In this book, we will be using a looser definition of 'combinator:' Higher-order pure functions that take only functions as arguments and return a function. We won't ... [truncated]; And also: / Combinators and Function Decorators / combinators shares technical record from And also: / Combinators and Function Decorators / combinators: combinators The word 'combinator' has a precise technical meaning in mathematics: 'A combinator is a higher-order function that uses only function application and ea ... [truncated] (3 shared statement(s), 2 shared atom(s))
+
+### Shared technical atoms
+
 - [[javascriptallonge-decorator]] - shared statements and technical atoms: Decorator shares source evidence from And also: / Combinators and Function Decorators / function decorators: not is a function decorator because it modifies a function while remaining strongly related to the original function's semantics. You'll see other function decorator ... [truncated]; Decorator shares technical record from And also: / Combinators and Function Decorators / function decorators: const nothing = not(something); (1 shared statement(s), 1 shared atom(s))
 - [[javascriptallonge-function-decorator]] - shared statements and technical atoms: Function Decorator shares source evidence from And also: / Combinators and Function Decorators / function decorators: not is a function decorator because it modifies a function while remaining strongly related to the original function's semantics. You'll see other function decorator ... [truncated]; Function Decorator shares technical record from And also: / Combinators and Function Decorators / function decorators: const nothing = not(something); (1 shared statement(s), 1 shared atom(s))
-- [[javascriptallonge-section-and-also-combinators-and-function-decorators-combinators-d366528a]] - source section: And also: / Combinators and Function Decorators / combinators shares source evidence from And also: / Combinators and Function Decorators / combinators: In this book, we will be using a looser definition of 'combinator:' Higher-order pure functions that take only functions as arguments and return a function. We won't ... [truncated]; And also: / Combinators and Function Decorators / combinators shares technical record from And also: / Combinators and Function Decorators / combinators: combinators The word 'combinator' has a precise technical meaning in mathematics: 'A combinator is a higher-order function that uses only function application and ea ... [truncated] (3 shared statement(s), 2 shared atom(s))
 
 ## Source
 

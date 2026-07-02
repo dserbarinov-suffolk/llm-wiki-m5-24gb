@@ -7,7 +7,7 @@ sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: concepts
-projection_coverage: topic-sword-world-rpg-complete-edition-shade@da150b6e63f9269b3eb7ac6c1e95bcaf
+projection_coverage: topic-sword-world-rpg-complete-edition-shade@304ae9a4a3b9d1fa66ec0bc2dbedafcc
 ---
 
 # Shade
@@ -27,37 +27,27 @@ What [[sword-world-rpg-complete-edition]] covers about shade:
 
 ### Technical frame 1: 5.1.14 Spirit Magic List / 2nd Level Spirit Magic List [ Will-O-Wisp ] (Will-O-Wisp/Light Spirit) / [ Shade ] (Shade/Dark Spirit)
 
-**Atoms:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-02884, source-range-0d48087c-02885, source-range-0d48087c-02886, source-range-0d48087c-02887, source-range-0d48087c-02888, source-range-0d48087c-02889))_
-
-> Base Mental Power Cost=6
-
-> Distance=20 meters
-
-> Area=A space with a 5 meter radius
-
-> Duration=1 hour
-
-> Effect=Negates natural light within the area of effect, closing it in darkness
-
-> Type=Damage (Mind-type)
-
-### Technical frame 2: 5.1.14 Spirit Magic List / 2nd Level Spirit Magic List [ Will-O-Wisp ] (Will-O-Wisp/Light Spirit) / [ Shade ] (Shade/Dark Spirit)
-
 **Context:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-02894))_
 
 > If a shade itself comes into contact with a will-o-wisp's body or enters the area of effect of the ancient magic Light , it'll vanish without emitting any energy.
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-02893))_
 
+<a id="atom-technical-atom-47bc14fdabdbd67f"></a>
 > The shade will fly freely in the air according to the caster's commands, but can no longer be controlled if it moves more than 20 meters away from the caster.
 
 
 ## Related pages
 
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-13-2-3-youma-shade-ff941acb]] - source section: 13.2.3 Youma / [ Shade ] shares source evidence from 13.2.3 Youma / [ Shade ]: Shade is a spirit of darkness, and also a mind spirit that controls fear. All natural light within 5 meters of its body is canceled out, leaving you in total darknes ... [truncated]; 13.2.3 Youma / [ Shade ] shares technical record from 13.2.3 Youma / [ Shade ]: Monster Level=2 (6 shared statement(s), 14 shared atom(s))
+
+### Shared claims
+
 - [[sword-world-rpg-complete-edition-control-spirit-lesser]] - shared statements: [ Control Spirit ] (Various lesser spirits) shares source evidence from 5.1.14 Spirit Magic List / 2nd Level Spirit Magic List [ Will-O-Wisp ] (Will-O-Wisp/Light Spirit) / [ Shade ] (Shade/Dark Spirit): Expansion=Final score, duration, distance, targets, damage certainty Resist=Reduced effect Shade is the spirit of darkness that opposes will-o-wisp, and is also the ... [truncated] (1 shared statement(s))
 - [[sword-world-rpg-complete-edition-final-damage]] - shared statements: 4.5.5 Final Damage shares source evidence from 5.1.14 Spirit Magic List / 2nd Level Spirit Magic List [ Will-O-Wisp ] (Will-O-Wisp/Light Spirit) / [ Shade ] (Shade/Dark Spirit): Expansion=Final score, duration, distance, targets, damage certainty Resist=Reduced effect Shade is the spirit of darkness that opposes will-o-wisp, and is also the ... [truncated] (1 shared statement(s))
 - [[sword-world-rpg-complete-edition-target-score]] - shared statements: Target Scores shares source evidence from 5.1.14 Spirit Magic List / 2nd Level Spirit Magic List [ Will-O-Wisp ] (Will-O-Wisp/Light Spirit) / [ Shade ] (Shade/Dark Spirit): Expansion=Final score, duration, distance, targets, damage certainty Resist=Reduced effect Shade is the spirit of darkness that opposes will-o-wisp, and is also the ... [truncated] (1 shared statement(s))
-- [[sword-world-rpg-complete-edition-section-13-2-3-youma-shade-ff941acb]] - source section: 13.2.3 Youma / [ Shade ] shares source evidence from 13.2.3 Youma / [ Shade ]: Shade is a spirit of darkness, and also a mind spirit that controls fear. All natural light within 5 meters of its body is canceled out, leaving you in total darknes ... [truncated]; 13.2.3 Youma / [ Shade ] shares technical record from 13.2.3 Youma / [ Shade ]: Monster Level=2 (6 shared statement(s), 14 shared atom(s))
 
 ## Source
 

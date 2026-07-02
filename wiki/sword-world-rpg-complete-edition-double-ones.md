@@ -7,7 +7,7 @@ sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: concepts
-projection_coverage: topic-sword-world-rpg-complete-edition-double-ones@eb114b7e4f3ea7397c2f63152b7295e5
+projection_coverage: topic-sword-world-rpg-complete-edition-double-ones@e7df45758981b43fdaa043d70a53100d
 ---
 
 # Double Ones
@@ -35,6 +35,7 @@ What [[sword-world-rpg-complete-edition]] covers about double ones:
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-01374))_
 
+<a id="atom-technical-atom-4c136240fce2252a"></a>
 > The defender doesn't even have to roll the dice.
 
 ### Technical frame 2: 4.7 Attacks From Characters Against Characters / Double Sixes and Double Ones
@@ -45,10 +46,13 @@ What [[sword-world-rpg-complete-edition]] covers about double ones:
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-01377))_
 
+<a id="atom-technical-atom-ea8aaaa7e8237428"></a>
 > If the defender's roll is double sixes , the attack will always fail.
 
 
 ## Related pages
+
+### Shared technical atoms
 
 - [[sword-world-rpg-complete-edition-double-sixe]] - shared statements and technical atoms: Double Sixe shares source evidence from 4.7 Attacks From Characters Against Characters / Double Sixes and Double Ones: If a roll comes up double sixes or double ones during combat between characters, the situation is resolved as follows:; Double Sixe shares technical record from 4.7 Attacks From Characters Against Characters / Double Sixes and Double Ones: The defender doesn't even have to roll the dice. (1 shared statement(s), 1 shared atom(s))
 

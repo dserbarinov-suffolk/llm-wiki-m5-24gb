@@ -7,7 +7,7 @@ sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: concepts
-projection_coverage: topic-sword-world-rpg-complete-edition-rune-master@f0b9fd508eda737db320c1662867a03f
+projection_coverage: topic-sword-world-rpg-complete-edition-rune-master@b99e2336ec8b11711a3f3c190ef1f686
 ---
 
 # Rune Master
@@ -25,8 +25,13 @@ What [[sword-world-rpg-complete-edition]] covers about rune master:
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-magic-sword]] - shared statements: 《 Magic Sword (+1) 》 shares source evidence from 4.10 Excellent Weapons and Armor / 4.10.4 Mithril Silver Weapons and Armor / Basic Rules of Magic / 5.1.2 Rune Masters and Rune Master Skills: In Sword World , all those who use magic utilizing runes are called rune masters . Rune masters are divided into five types according to the type of magic (runes) they use. Namely, (1 shared statement(s))
+### Source structure
+
 - [[sword-world-rpg-complete-edition-section-1-2-races-skills-rune-master-75078adc]] - source section: 1.2 Races / Skills / 【 Rune Master 】 shares source evidence from 1.2 Races / Skills / 【 Rune Master 】: The five adventurer skills of sorcerer, shaman, priest, dark priest, and dragon priest are sometimes collectively referred to as rune master skills . This is because ... [truncated] (4 shared statement(s))
+
+### Shared claims
+
+- [[sword-world-rpg-complete-edition-magic-sword]] - shared statements: 《 Magic Sword (+1) 》 shares source evidence from 4.10 Excellent Weapons and Armor / 4.10.4 Mithril Silver Weapons and Armor / Basic Rules of Magic / 5.1.2 Rune Masters and Rune Master Skills: In Sword World , all those who use magic utilizing runes are called rune masters . Rune masters are divided into five types according to the type of magic (runes) they use. Namely, (1 shared statement(s))
 
 ## Source
 

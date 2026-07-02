@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-14-4-2-list-of-magical-items-magic-sword-1-e6a150f1@cd654c272e735f5738c1499da0fb9df7
+projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-14-4-2-list-of-magical-items-magic-sword-1-e6a150f1@12fd7c3691f3351b0563ca53dbcec99c
 ---
 
 # Chapter 14: / 14.4 Magical Item List / 14.4.2 List of Magical Items / 《 Magic Sword (+1) 》
@@ -17,8 +17,16 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-14-4-2-list-of-magical-items-7461270b]] - broader source section: Chapter 14: / 14.4 Magical Item List / 14.4.2 List of Magical Items
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-14-4-2-list-of-magical-items-magic-sword-2-12ab608c]] - next source section: Chapter 14: / 14.4 Magical Item List / 14.4.2 List of Magical Items / 《 Magic Sword (+2) 》
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-14-4-2-list-of-magical-items-7461270b]] - broader source section: Chapter 14: / 14.4 Magical Item List / 14.4.2 List of Magical Items
+
+### Topics
+
 - [[sword-world-rpg-complete-edition-magic-sword]] - topic hub: opens the topic page for Magic Sword
 
 ## Statements

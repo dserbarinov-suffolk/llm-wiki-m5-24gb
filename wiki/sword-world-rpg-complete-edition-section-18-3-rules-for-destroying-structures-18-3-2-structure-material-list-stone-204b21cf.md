@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-18-3-rules-for-destroying-structures-18-3-2-structure-material-list-stone-204b21cf@52453918be56212be1a61e381c461717
+projection_coverage: section-sword-world-rpg-complete-edition-section-18-3-rules-for-destroying-structures-18-3-2-structure-material-list-stone-204b21cf@845a4f85d25d74ef2e366a48530a0439
 ---
 
 # 18.3 Rules for Destroying Structures / 18.3.2 Structure Material List / [ Stone ]
@@ -17,6 +17,11 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-18-3-rules-for-destroying-structures-18-3-2-structure-material-list-f884c43f]] - broader source section: 18.3 Rules for Destroying Structures / 18.3.2 Structure Material List
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-18-3-rules-for-destroying-structures-18-3-2-structure-material-list-brick-598fe15b]] - previous source section: 18.3 Rules for Destroying Structures / 18.3.2 Structure Material List / [ Brick ]
 - [[sword-world-rpg-complete-edition-section-18-3-rules-for-destroying-structures-18-3-2-structure-material-list-iron-eb6b697e]] - next source section: 18.3 Rules for Destroying Structures / 18.3.2 Structure Material List / [ Iron ]
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-18-3-rules-for-destroying-structures-18-3-2-structure-material-list-f884c43f]] - broader source section: 18.3 Rules for Destroying Structures / 18.3.2 Structure Material List

@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-1-4-character-creation-half-elf-0f1e4f36@0af25ec6058abb5446a2422a94bb23a6
+projection_coverage: section-sword-world-rpg-complete-edition-section-1-4-character-creation-half-elf-0f1e4f36@75b7cbce6dcffb295e5cb89ecc8b5835
 ---
 
 # 1.4 Character Creation / 【 Half-Elf 】
@@ -17,9 +17,14 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-1-4-character-creation-f6aa6108]] - broader source section: 1.4 Character Creation
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-1-4-character-creation-elf-c473f9de]] - previous source section: 1.4 Character Creation / 【 Elf 】
 - [[sword-world-rpg-complete-edition-section-1-4-character-creation-1-4-2-determine-ability-scores-19cf4113]] - next source section: 1.4 Character Creation / 1.4.2 Determine Ability Scores
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-1-4-character-creation-f6aa6108]] - broader source section: 1.4 Character Creation
 
 ## Statements
 

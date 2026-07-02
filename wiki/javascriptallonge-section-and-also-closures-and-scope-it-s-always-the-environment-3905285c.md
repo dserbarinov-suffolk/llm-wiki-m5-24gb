@@ -4,11 +4,11 @@ page_kind: source
 summary: And also: / Closures and Scope / it's always the environment: 20 source-backed entries and 1 atom(s) from raw/javascriptallonge.pdf.
 page_family: section-reference
 sources: raw/javascriptallonge.pdf
-updated: 2026-07-01
+updated: 2026-07-02
 domain: javascriptallonge
 category_path: sources/javascriptallonge/sections
 source_id: javascriptallonge.pdf
-projection_coverage: section-javascriptallonge-section-and-also-closures-and-scope-it-s-always-the-environment-3905285c@d3efc4c8dd181507d99a4baeca65d823
+projection_coverage: section-javascriptallonge-section-and-also-closures-and-scope-it-s-always-the-environment-3905285c@95af428c6c5277a27dded2b0180752b6
 ---
 
 # And also: / Closures and Scope / it's always the environment
@@ -17,9 +17,14 @@ From [[javascriptallonge]].
 
 ## Related pages
 
-- [[javascriptallonge-section-and-also-closures-and-scope-ff45d11c]] - broader source section: And also: / Closures and Scope
+### Source order
+
 - [[javascriptallonge-section-and-also-closures-and-scope-if-functions-without-free-variables-are-pure-are-closures-impure-3d794f70]] - previous source section: And also: / Closures and Scope / if functions without free variables are pure, are closures impure?
 - [[javascriptallonge-section-and-also-closures-and-scope-shadowy-variables-from-a-shadowy-planet-71d66043]] - next source section: And also: / Closures and Scope / shadowy variables from a shadowy planet
+
+### Source structure
+
+- [[javascriptallonge-section-and-also-closures-and-scope-ff45d11c]] - broader source section: And also: / Closures and Scope
 
 ## Statements
 
@@ -43,4 +48,5 @@ From [[javascriptallonge]].
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00351))_
 
+<a id="atom-technical-atom-f2f36581d048455a"></a>
 > So whenever a function is applied to arguments, its environment always has a reference to its parent environment.

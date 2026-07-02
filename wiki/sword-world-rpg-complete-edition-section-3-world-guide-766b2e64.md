@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-3-world-guide-766b2e64@1014d614ef7b6cae1ce166aaefb910b7
+projection_coverage: section-sword-world-rpg-complete-edition-section-3-world-guide-766b2e64@5cc552a6e1429c3dc6f494db78002a46
 ---
 
 # 3. World Guide
@@ -16,6 +16,8 @@ projection_coverage: section-sword-world-rpg-complete-edition-section-3-world-gu
 From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
+
+### Source order
 
 - [[sword-world-rpg-complete-edition-section-collections-4d41e6de]] - previous source section: Collections
 - [[sword-world-rpg-complete-edition-section-4-sword-world-novels-and-short-story-collections-21ea268b]] - next source section: 4. Sword World Novels and Short Story Collections

@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-4-5-3-bonus-damage-7c2fc601@028b4f5afe57f175f4f9b919021f0426
+projection_coverage: section-sword-world-rpg-complete-edition-section-4-5-3-bonus-damage-7c2fc601@ef1a9e85c6d852192067cf58d53a90a8
 ---
 
 # 4.5.3 Bonus Damage
@@ -17,8 +17,13 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-4-5-2-determining-base-damage-strike-roll-267f36cf]] - previous source section: 4.5.2 Determining Base Damage (Strike Roll)
 - [[sword-world-rpg-complete-edition-section-4-5-4-monster-defense-points-ba0d81a1]] - next source section: 4.5.4 Monster Defense Points
+
+### Topics
+
 - [[sword-world-rpg-complete-edition-bonus-damage]] - topic hub: opens the topic page for Bonus Damage
 
 ## Statements

@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-18-3-rules-for-destroying-structures-18-3-1-how-to-read-the-structure-strength-table-special-001bc49e@c2b728cb755114582a919a18cf0f7472
+projection_coverage: section-sword-world-rpg-complete-edition-section-18-3-rules-for-destroying-structures-18-3-1-how-to-read-the-structure-strength-table-special-001bc49e@9880f663c7cab323e6ff9bf0e08373f4
 ---
 
 # 18.3 Rules for Destroying Structures / 18.3.1 How to Read the Structure Strength Table / Special
@@ -17,8 +17,13 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-18-3-rules-for-destroying-structures-18-3-1-how-to-read-the-structure-strength-table-39ed4a38]] - broader source section: 18.3 Rules for Destroying Structures / 18.3.1 How to Read the Structure Strength Table
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-18-3-rules-for-destroying-structures-18-3-1-how-to-read-the-structure-strength-table-destruction-bd445d60]] - previous source section: 18.3 Rules for Destroying Structures / 18.3.1 How to Read the Structure Strength Table / Destruction Points
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-18-3-rules-for-destroying-structures-18-3-1-how-to-read-the-structure-strength-table-39ed4a38]] - broader source section: 18.3 Rules for Destroying Structures / 18.3.1 How to Read the Structure Strength Table
 
 ## Statements
 

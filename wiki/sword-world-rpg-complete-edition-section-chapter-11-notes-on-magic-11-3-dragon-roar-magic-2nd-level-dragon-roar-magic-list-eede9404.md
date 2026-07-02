@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-11-notes-on-magic-11-3-dragon-roar-magic-2nd-level-dragon-roar-magic-list-eede9404@57e3c2407148f681e567f74082c5ed31
+projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-11-notes-on-magic-11-3-dragon-roar-magic-2nd-level-dragon-roar-magic-list-eede9404@c55bca33e5779fa624887fdfd53e12d6
 ---
 
 # Chapter 11: Notes on Magic / 11.3 Dragon Roar Magic / 2nd Level Dragon Roar Magic List
@@ -17,12 +17,17 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-chapter-11-notes-on-magic-11-3-dragon-roar-magic-992d31da]] - broader source section: Chapter 11: Notes on Magic / 11.3 Dragon Roar Magic
-- [[sword-world-rpg-complete-edition-section-chapter-11-notes-on-magic-11-3-dragon-roar-magic-2nd-level-dragon-roar-magic-list-summon-reptile-22a2c5d1]] - narrower source section: Chapter 11: Notes on Magic / 11.3 Dragon Roar Magic / 2nd Level Dragon Roar Magic List / [ Summon Reptile ]
-- [[sword-world-rpg-complete-edition-section-chapter-11-notes-on-magic-11-3-dragon-roar-magic-2nd-level-dragon-roar-magic-list-swordclaw-97d4280d]] - narrower source section: Chapter 11: Notes on Magic / 11.3 Dragon Roar Magic / 2nd Level Dragon Roar Magic List / [ Swordclaw ]
-- [[sword-world-rpg-complete-edition-section-chapter-11-notes-on-magic-11-3-dragon-roar-magic-2nd-level-dragon-roar-magic-list-poison-proof-5e379620]] - narrower source section: Chapter 11: Notes on Magic / 11.3 Dragon Roar Magic / 2nd Level Dragon Roar Magic List / Poison Proof ]
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-chapter-11-notes-on-magic-11-3-dragon-roar-magic-1st-level-dragon-roar-magic-list-iron-stomach-d613bc88]] - previous source section: Chapter 11: Notes on Magic / 11.3 Dragon Roar Magic / 1st Level Dragon Roar Magic List [ Iron Stomach ]
 - [[sword-world-rpg-complete-edition-section-chapter-11-notes-on-magic-11-3-dragon-roar-magic-3rd-level-dragon-roar-magic-list-9518b428]] - next source section: Chapter 11: Notes on Magic / 11.3 Dragon Roar Magic / 3rd Level Dragon Roar Magic List
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-chapter-11-notes-on-magic-11-3-dragon-roar-magic-992d31da]] - broader source section: Chapter 11: Notes on Magic / 11.3 Dragon Roar Magic
+- [[sword-world-rpg-complete-edition-section-chapter-11-notes-on-magic-11-3-dragon-roar-magic-2nd-level-dragon-roar-magic-list-poison-proof-5e379620]] - narrower source section: Chapter 11: Notes on Magic / 11.3 Dragon Roar Magic / 2nd Level Dragon Roar Magic List / Poison Proof ]
+- [[sword-world-rpg-complete-edition-section-chapter-11-notes-on-magic-11-3-dragon-roar-magic-2nd-level-dragon-roar-magic-list-summon-reptile-22a2c5d1]] - narrower source section: Chapter 11: Notes on Magic / 11.3 Dragon Roar Magic / 2nd Level Dragon Roar Magic List / [ Summon Reptile ]
+- [[sword-world-rpg-complete-edition-section-chapter-11-notes-on-magic-11-3-dragon-roar-magic-2nd-level-dragon-roar-magic-list-swordclaw-97d4280d]] - narrower source section: Chapter 11: Notes on Magic / 11.3 Dragon Roar Magic / 2nd Level Dragon Roar Magic List / [ Swordclaw ]
 
 ## Statements by subsection
 

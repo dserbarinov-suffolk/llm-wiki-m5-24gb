@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-mirror-of-knowledge-528f4243@f65ac309885ee399fc49032d2e1e985b
+projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-mirror-of-knowledge-528f4243@f1a7ef68c9eafe838a59e07560cc5416
 ---
 
 # Chapter 14: / 14.4 Magical Item List / [ Mirror of Knowledge ]
@@ -17,9 +17,14 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-51d7c911]] - broader source section: Chapter 14: / 14.4 Magical Item List
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-mask-of-lady-1af61a11]] - previous source section: Chapter 14: / 14.4 Magical Item List / [ Mask of Lady ]
 - [[sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-mirror-of-truth-1c1ab2a2]] - next source section: Chapter 14: / 14.4 Magical Item List / [ Mirror of Truth ]
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-51d7c911]] - broader source section: Chapter 14: / 14.4 Magical Item List
 
 ## Statements
 

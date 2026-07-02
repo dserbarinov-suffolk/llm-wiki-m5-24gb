@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-13-2-6-mythical-beasts-and-magical-beasts-head-displacer-fbf3e967@0863eb883075ca7c682fe5a4b3dc66be
+projection_coverage: section-sword-world-rpg-complete-edition-section-13-2-6-mythical-beasts-and-magical-beasts-head-displacer-fbf3e967@51851fd7289e6ebf56174bf20328b1ff
 ---
 
 # 13.2.6 Mythical Beasts and Magical Beasts / [ Head Displacer ]
@@ -17,9 +17,14 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-13-2-6-mythical-beasts-and-magical-beasts-f86962d2]] - broader source section: 13.2.6 Mythical Beasts and Magical Beasts
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-13-2-6-mythical-beasts-and-magical-beasts-pegasus-monster-level-5-rarity-10-agility-12-movement-85aafec4]] - previous source section: 13.2.6 Mythical Beasts and Magical Beasts / [ Pegasus ] Monster Level=5 Rarity=10 Agility=12 Movement Speed=30/40 (air) Number=One to several Frequency=Rare Intellect=Human Reaction=Neutral Attack Points=Heel:11 (4) Strike Points=13 Evasion Points=12 (5) Defense Points=8 Life Points/Resistance=20/14 (7) Mental Points/Resistance=15/13 (6) Special Abilities=Not affected by poison and illness Habitat=Steep mountains, meadows Languages=None
 - [[sword-world-rpg-complete-edition-section-13-2-6-mythical-beasts-and-magical-beasts-lamia-5a1c951d]] - next source section: 13.2.6 Mythical Beasts and Magical Beasts / [ Lamia ]
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-13-2-6-mythical-beasts-and-magical-beasts-f86962d2]] - broader source section: 13.2.6 Mythical Beasts and Magical Beasts
 
 ## Statements
 
@@ -41,6 +46,7 @@ From [[sword-world-rpg-complete-edition]].
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-06546))_
 
+<a id="atom-technical-atom-b6c8dcd528c5991b"></a>
 > If the tentacles are not clear, those with the sage skill cannot use the monster check ability.
 
 ### Technical frame 2: 13.2.6 Mythical Beasts and Magical Beasts / [ Head Displacer ]
@@ -51,4 +57,5 @@ From [[sword-world-rpg-complete-edition]].
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-06548))_
 
+<a id="atom-technical-atom-f0189da58bb5278a"></a>
 > A head displacer may use dark magic on very rare occasions.

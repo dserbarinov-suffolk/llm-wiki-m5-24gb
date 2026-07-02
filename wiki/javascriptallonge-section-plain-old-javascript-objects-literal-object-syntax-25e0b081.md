@@ -4,11 +4,11 @@ page_kind: source
 summary: Plain Old JavaScript Objects / literal object syntax: 19 source-backed entries and 2 atom(s) from raw/javascriptallonge.pdf.
 page_family: section-reference
 sources: raw/javascriptallonge.pdf
-updated: 2026-07-01
+updated: 2026-07-02
 domain: javascriptallonge
 category_path: sources/javascriptallonge/sections
 source_id: javascriptallonge.pdf
-projection_coverage: section-javascriptallonge-section-plain-old-javascript-objects-literal-object-syntax-25e0b081@33cc24f9684e9a28876084745cc16daa
+projection_coverage: section-javascriptallonge-section-plain-old-javascript-objects-literal-object-syntax-25e0b081@3ecf83b5c03cd89828b4a5f5f0a96557
 ---
 
 # Plain Old JavaScript Objects / literal object syntax
@@ -17,8 +17,13 @@ From [[javascriptallonge]].
 
 ## Related pages
 
-- [[javascriptallonge-section-plain-old-javascript-objects-79315aff]] - broader source section: Plain Old JavaScript Objects
+### Source order
+
 - [[javascriptallonge-section-plain-old-javascript-objects-destructuring-objects-233d242e]] - next source section: Plain Old JavaScript Objects / destructuring objects
+
+### Source structure
+
+- [[javascriptallonge-section-plain-old-javascript-objects-79315aff]] - broader source section: Plain Old JavaScript Objects
 
 ## Statements
 
@@ -42,6 +47,7 @@ From [[javascriptallonge]].
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01069))_
 
+<a id="atom-technical-atom-a195732ae5f93c24"></a>
 ```
 { year: 2012, month: 6, day: 14 }
 ```
@@ -54,6 +60,7 @@ From [[javascriptallonge]].
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01087))_
 
+<a id="atom-technical-atom-309e77615053b1d2"></a>
 ```
 const SecretDecoderRing = {
 encode (plaintext) {

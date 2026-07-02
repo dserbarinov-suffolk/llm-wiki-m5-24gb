@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-3-drop-a-weapon-etc-on-the-ground-8917869d@dd61b87fe1461927de85611ae74084a7
+projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-3-drop-a-weapon-etc-on-the-ground-8917869d@6d1a5ba997ecd782de1551fb3c8d7364
 ---
 
 # Chapter 3: / Drop a Weapon, Etc. On the Ground
@@ -16,6 +16,8 @@ projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-3-
 From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
+
+### Source structure
 
 - [[sword-world-rpg-complete-edition-section-chapter-3-0d0d3e8f]] - broader source section: Chapter 3:
 

@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-5-1-12-ancient-magic-list-magic-reflection-3d7d6ee5@26befd4e6e26599cdd3a067ed8f9e464
+projection_coverage: section-sword-world-rpg-complete-edition-section-5-1-12-ancient-magic-list-magic-reflection-3d7d6ee5@e8c16c9a53f0fc0a9464b652ffaa710e
 ---
 
 # 5.1.12 Ancient Magic List / [ Magic Reflection ]
@@ -17,10 +17,15 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-5-1-12-ancient-magic-list-2e59bfee]] - broader source section: 5.1.12 Ancient Magic List
-- [[sword-world-rpg-complete-edition-section-5-1-12-ancient-magic-list-magic-reflection-8th-level-ancient-magic-list-2c39d806]] - narrower source section: 5.1.12 Ancient Magic List / [ Magic Reflection ] / 8th Level Ancient Magic List
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-5-1-12-ancient-magic-list-polymorph-5103db3e]] - previous source section: 5.1.12 Ancient Magic List / [ Polymorph ]
 - [[sword-world-rpg-complete-edition-section-5-1-12-ancient-magic-list-stun-cloud-b197ed89]] - next source section: 5.1.12 Ancient Magic List / [ Stun Cloud ]
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-5-1-12-ancient-magic-list-2e59bfee]] - broader source section: 5.1.12 Ancient Magic List
+- [[sword-world-rpg-complete-edition-section-5-1-12-ancient-magic-list-magic-reflection-8th-level-ancient-magic-list-2c39d806]] - narrower source section: 5.1.12 Ancient Magic List / [ Magic Reflection ] / 8th Level Ancient Magic List
 
 ## Statements
 

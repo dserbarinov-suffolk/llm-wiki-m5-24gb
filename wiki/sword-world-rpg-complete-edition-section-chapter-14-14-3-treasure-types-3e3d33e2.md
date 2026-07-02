@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-14-14-3-treasure-types-3e3d33e2@65d42db836167f210279fac77537c84d
+projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-14-14-3-treasure-types-3e3d33e2@3a36853bbc93c3547b20c4730e49dac0
 ---
 
 # Chapter 14: / 14.3 Treasure Types
@@ -17,11 +17,16 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-chapter-14-bd22bf6b]] - broader source section: Chapter 14:
-- [[sword-world-rpg-complete-edition-section-chapter-14-14-3-treasure-types-gems-and-precious-metals-4f7287c2]] - narrower source section: Chapter 14: / 14.3 Treasure Types / Gems and Precious Metals
-- [[sword-world-rpg-complete-edition-section-chapter-14-14-3-treasure-types-artwork-7c08a9bb]] - narrower source section: Chapter 14: / 14.3 Treasure Types / Artwork
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-chapter-14-14-2-adventure-treasure-and-reward-amounts-f34ef13f]] - previous source section: Chapter 14: / 14.2 Adventure Treasure and Reward Amounts
 - [[sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-51d7c911]] - next source section: Chapter 14: / 14.4 Magical Item List
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-chapter-14-bd22bf6b]] - broader source section: Chapter 14:
+- [[sword-world-rpg-complete-edition-section-chapter-14-14-3-treasure-types-artwork-7c08a9bb]] - narrower source section: Chapter 14: / 14.3 Treasure Types / Artwork
+- [[sword-world-rpg-complete-edition-section-chapter-14-14-3-treasure-types-gems-and-precious-metals-4f7287c2]] - narrower source section: Chapter 14: / 14.3 Treasure Types / Gems and Precious Metals
 
 ## Statements
 

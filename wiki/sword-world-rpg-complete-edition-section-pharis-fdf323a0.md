@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-pharis-fdf323a0@f645a196180678fe3e78876a5d29aa3d
+projection_coverage: section-sword-world-rpg-complete-edition-section-pharis-fdf323a0@a2e6defe2682e1ca79cc492434294ff9
 ---
 
 # 《 Pharis 》
@@ -16,6 +16,8 @@ projection_coverage: section-sword-world-rpg-complete-edition-section-pharis-fdf
 From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
+
+### Source order
 
 - [[sword-world-rpg-complete-edition-section-priest-skill-a22f84d8]] - previous source section: Priest Skill
 - [[sword-world-rpg-complete-edition-section-myrii-8d7c116a]] - next source section: 《 Myrii 》

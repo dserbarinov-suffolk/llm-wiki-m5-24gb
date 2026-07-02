@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-2-4-bonuses-and-penalties-5c33a45f@fec7b3adb32993f4517b11256e16cc14
+projection_coverage: section-sword-world-rpg-complete-edition-section-2-4-bonuses-and-penalties-5c33a45f@07ee0584866baa3c7220ccdb19212a73
 ---
 
 # 2.4 Bonuses and Penalties
@@ -16,6 +16,8 @@ projection_coverage: section-sword-world-rpg-complete-edition-section-2-4-bonuse
 From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
+
+### Source order
 
 - [[sword-world-rpg-complete-edition-section-2-1-baseline-scores-879d539e]] - previous source section: 2.1 Baseline Scores
 - [[sword-world-rpg-complete-edition-section-2-5-difficulty-checks-d95d8c9d]] - next source section: 2.5 Difficulty Checks
@@ -40,4 +42,5 @@ From [[sword-world-rpg-complete-edition]].
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-00975))_
 
+<a id="atom-technical-atom-59ca9f8714c10637"></a>
 > final score {baseline score + 2D ± (bonus, penalty)} ≥ target score → action is successful

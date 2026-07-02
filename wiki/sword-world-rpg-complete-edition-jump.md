@@ -7,7 +7,7 @@ sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: concepts
-projection_coverage: topic-sword-world-rpg-complete-edition-jump@22a006a4560e851b1dc43568c33698ef
+projection_coverage: topic-sword-world-rpg-complete-edition-jump@485baed5dedbe80fd182d45844b9bb23
 ---
 
 # Jump
@@ -41,6 +41,7 @@ What [[sword-world-rpg-complete-edition]] covers about jump:
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-04280))_
 
+<a id="atom-technical-atom-d1cebcc65144dbc4"></a>
 ```text
 Table 6-3: Determining Long Jump Target Scores
  boiling lava. At this time, considering the
@@ -51,7 +52,12 @@ Table 6-3: Determining Long Jump Target Scores
 
 ## Related pages
 
+### Shared technical atoms
+
 - [[sword-world-rpg-complete-edition-target-score]] - shared statements and technical atoms: Target Scores shares source evidence from Chapter 6: / Common Adventurer Abilities / [ ⑤ Long Jump/High Jump [Agility] ]: Long jump and high jump are common adventurer abilities, and are also abilities of the thief skill. The latter allows you to jump farther and higher. The baseline sc ... [truncated]; Target Scores shares technical record from Table 6-3: Determining Long Jump Target Scores: Table 6-3: Determining Long Jump Target Scores boiling lava. At this time, considering the Feature Used                         Base Target Score following condition ... [truncated] (2 shared statement(s), 1 shared atom(s))
+
+### Shared claims
+
 - [[sword-world-rpg-complete-edition-thief-skill]] - shared statements: 【 Thief Skill 】 shares source evidence from Chapter 6: / 6.1 Precautions When Using Skills / Thief Skill / [ ⑫ Long Jump/High Jump [Agility] ] (Equipment restriction): You can jump over obstacles using (pole) high jump or (pole) long jump . For more information, please refer to the rules for ⑤ Long Jump/High Jump (see p. 122) under ... [truncated] (5 shared statement(s))
 - [[sword-world-rpg-complete-edition-adventurer-level]] - shared statements: 1.3.3 Adventurer Level shares source evidence from Chapter 6: / Common Adventurer Abilities / [ ⑤ Long Jump/High Jump [Agility] ]: Long jump and high jump are common adventurer abilities, and are also abilities of the thief skill. The latter allows you to jump farther and higher. The baseline sc ... [truncated] (1 shared statement(s))
 

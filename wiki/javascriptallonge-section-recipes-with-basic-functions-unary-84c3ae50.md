@@ -4,11 +4,11 @@ page_kind: source
 summary: Recipes with Basic Functions / Unary: 15 source-backed entries and 0 atom(s) from raw/javascriptallonge.pdf.
 page_family: section-reference
 sources: raw/javascriptallonge.pdf
-updated: 2026-07-01
+updated: 2026-07-02
 domain: javascriptallonge
 category_path: sources/javascriptallonge/sections
 source_id: javascriptallonge.pdf
-projection_coverage: section-javascriptallonge-section-recipes-with-basic-functions-unary-84c3ae50@0fec22fe7b45bde49ea7e79c09c29ee4
+projection_coverage: section-javascriptallonge-section-recipes-with-basic-functions-unary-84c3ae50@36058064864952e26765ff51cf5ce0ac
 ---
 
 # Recipes with Basic Functions / Unary
@@ -17,9 +17,14 @@ From [[javascriptallonge]].
 
 ## Related pages
 
-- [[javascriptallonge-section-recipes-with-basic-functions-58df4c63]] - broader source section: Recipes with Basic Functions
+### Source order
+
 - [[javascriptallonge-section-recipes-with-basic-functions-partial-application-80bc1196]] - previous source section: Recipes with Basic Functions / Partial Application
 - [[javascriptallonge-section-recipes-with-basic-functions-tap-bcbc81bc]] - next source section: Recipes with Basic Functions / Tap
+
+### Source structure
+
+- [[javascriptallonge-section-recipes-with-basic-functions-58df4c63]] - broader source section: Recipes with Basic Functions
 
 ## Statements
 

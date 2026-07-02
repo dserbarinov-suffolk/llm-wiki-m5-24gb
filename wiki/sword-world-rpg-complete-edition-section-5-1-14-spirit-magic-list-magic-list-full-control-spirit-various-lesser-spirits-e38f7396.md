@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-5-1-14-spirit-magic-list-magic-list-full-control-spirit-various-lesser-spirits-e38f7396@ad0b96e11321527b9ac4605047440302
+projection_coverage: section-sword-world-rpg-complete-edition-section-5-1-14-spirit-magic-list-magic-list-full-control-spirit-various-lesser-spirits-e38f7396@94158797d6248bb793d297bdbb55ff8c
 ---
 
 # 5.1.14 Spirit Magic List / Magic List / [ Full Control Spirit ] (Various lesser spirits)
@@ -17,8 +17,16 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-5-1-14-spirit-magic-list-magic-list-b89f2a18]] - broader source section: 5.1.14 Spirit Magic List / Magic List
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-5-1-14-spirit-magic-list-magic-list-plant-shell-3f3dd947]] - previous source section: 5.1.14 Spirit Magic List / Magic List / [ Plant Shell ]
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-5-1-14-spirit-magic-list-magic-list-b89f2a18]] - broader source section: 5.1.14 Spirit Magic List / Magic List
+
+### Topics
+
 - [[sword-world-rpg-complete-edition-control-spirit-lesser]] - topic hub: opens the topic page for Control Spirit Lesser
 
 ## Statements

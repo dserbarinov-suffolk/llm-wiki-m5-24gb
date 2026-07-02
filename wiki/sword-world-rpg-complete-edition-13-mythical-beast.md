@@ -7,7 +7,7 @@ sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: concepts
-projection_coverage: topic-sword-world-rpg-complete-edition-13-mythical-beast@b6af4c1f504bad296a7b3999ef4ebdf9
+projection_coverage: topic-sword-world-rpg-complete-edition-13-mythical-beast@cc7199aa7182ddb36638354fd106853d
 ---
 
 # 13 Mythical Beast
@@ -63,6 +63,7 @@ What [[sword-world-rpg-complete-edition]] covers about 13 mythical beast:
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-06526))_
 
+<a id="atom-technical-atom-2211b146646bcd04"></a>
 > Perception=Five senses infravision)
 
 ### Technical frame 2: 13.2.6 Mythical Beasts and Magical Beasts / [ Twintail Cat ]
@@ -73,6 +74,7 @@ What [[sword-world-rpg-complete-edition]] covers about 13 mythical beast:
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-06528))_
 
+<a id="atom-technical-atom-aa038e6cccfef9cd"></a>
 > They can use ancient magic and spirit magic, but they are especially fond of illusions and magic that affects the mind.
 
 ### Technical frame 3: 13.2.6 Mythical Beasts and Magical Beasts / [ Lizardman ]
@@ -83,10 +85,13 @@ What [[sword-world-rpg-complete-edition]] covers about 13 mythical beast:
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-06557))_
 
+<a id="atom-technical-atom-8d30512d1e70c795"></a>
 > Slaves have low intellect and cannot use magic.
 
 
 ## Related pages
+
+### Shared technical atoms
 
 - [[sword-world-rpg-complete-edition-magical-beast]] - shared statements and technical atoms: Magical Beast shares source evidence from 13.2.6 Mythical Beasts and Magical Beasts / [ Lizardman ]: The magic used by noble lizardmen is said to be dragon roar magic. Although the Witch of Orphan Laverna assumed that the lizardman family was closely related to drag ... [truncated]; Magical Beast shares technical record from 13.2.6 Mythical Beasts and Magical Beasts / [ Lizardman ]: Slaves have low intellect and cannot use magic. (4 shared statement(s), 1 shared atom(s))
 

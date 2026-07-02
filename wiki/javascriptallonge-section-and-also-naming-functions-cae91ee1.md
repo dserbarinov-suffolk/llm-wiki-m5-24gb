@@ -4,11 +4,11 @@ page_kind: source
 summary: And also: / Naming Functions: 63 source-backed entries and 3 atom(s) from raw/javascriptallonge.pdf.
 page_family: section-reference
 sources: raw/javascriptallonge.pdf
-updated: 2026-07-01
+updated: 2026-07-02
 domain: javascriptallonge
 category_path: sources/javascriptallonge/sections
 source_id: javascriptallonge.pdf
-projection_coverage: section-javascriptallonge-section-and-also-naming-functions-cae91ee1@720b6cf44ae4f0875a5a1540c67fc188
+projection_coverage: section-javascriptallonge-section-and-also-naming-functions-cae91ee1@5c01f05dbff1ae27f6b6ede6d310d62e
 ---
 
 # And also: / Naming Functions
@@ -17,12 +17,17 @@ From [[javascriptallonge]].
 
 ## Related pages
 
-- [[javascriptallonge-section-and-also-0e29dfba]] - broader source section: And also:
-- [[javascriptallonge-section-and-also-naming-functions-the-function-keyword-443f109f]] - narrower source section: And also: / Naming Functions / the function keyword
-- [[javascriptallonge-section-and-also-naming-functions-function-declarations-94e43325]] - narrower source section: And also: / Naming Functions / function declarations
-- [[javascriptallonge-section-and-also-naming-functions-function-declaration-caveats-34-d724d0dc]] - narrower source section: And also: / Naming Functions / function declaration caveats 34
+### Source order
+
 - [[javascriptallonge-section-and-also-that-constant-coffee-craving-ac9d9918]] - previous source section: And also: / That Constant Coffee Craving
 - [[javascriptallonge-section-and-also-combinators-and-function-decorators-4a7771ac]] - next source section: And also: / Combinators and Function Decorators
+
+### Source structure
+
+- [[javascriptallonge-section-and-also-0e29dfba]] - broader source section: And also:
+- [[javascriptallonge-section-and-also-naming-functions-function-declaration-caveats-34-d724d0dc]] - narrower source section: And also: / Naming Functions / function declaration caveats 34
+- [[javascriptallonge-section-and-also-naming-functions-function-declarations-94e43325]] - narrower source section: And also: / Naming Functions / function declarations
+- [[javascriptallonge-section-and-also-naming-functions-the-function-keyword-443f109f]] - narrower source section: And also: / Naming Functions / the function keyword
 
 ## Statements
 
@@ -76,6 +81,7 @@ From [[javascriptallonge]].
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00523))_
 
+<a id="atom-technical-atom-014788c338760071"></a>
 ```
 someBackboneView.on('click', function clickHandler () {
 //...
@@ -90,6 +96,7 @@ someBackboneView.on('click', function clickHandler () {
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00533))_
 
+<a id="atom-technical-atom-453990520af7bc31"></a>
 ```
 function someName () {
 // ...
@@ -108,6 +115,7 @@ const someName = function someName ()
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00534))_
 
+<a id="atom-technical-atom-f72d1116e0b95f4e"></a>
 ```
 {
 ```

@@ -4,11 +4,11 @@ page_kind: source
 summary: The first sip: Basic Functions / As Little As Possible About Functions, But No Less / functions and identities: 5 source-backed entries and 0 atom(s) from raw/javascriptallonge.pdf.
 page_family: section-reference
 sources: raw/javascriptallonge.pdf
-updated: 2026-07-01
+updated: 2026-07-02
 domain: javascriptallonge
 category_path: sources/javascriptallonge/sections
 source_id: javascriptallonge.pdf
-projection_coverage: section-javascriptallonge-section-the-first-sip-basic-functions-as-little-as-possible-about-functions-but-no-less-functions-and-id-3a5543a3@10bf8f269f491e38288d9952c462e3a5
+projection_coverage: section-javascriptallonge-section-the-first-sip-basic-functions-as-little-as-possible-about-functions-but-no-less-functions-and-id-3a5543a3@5e26de05e448c9b4f18b1dcc57db5e32
 ---
 
 # The first sip: Basic Functions / As Little As Possible About Functions, But No Less / functions and identities
@@ -17,8 +17,13 @@ From [[javascriptallonge]].
 
 ## Related pages
 
-- [[javascriptallonge-section-the-first-sip-basic-functions-as-little-as-possible-about-functions-but-no-less-40f8e29e]] - broader source section: The first sip: Basic Functions / As Little As Possible About Functions, But No Less
+### Source order
+
 - [[javascriptallonge-section-the-first-sip-basic-functions-as-little-as-possible-about-functions-but-no-less-applying-functio-fa7923f6]] - next source section: The first sip: Basic Functions / As Little As Possible About Functions, But No Less / applying functions
+
+### Source structure
+
+- [[javascriptallonge-section-the-first-sip-basic-functions-as-little-as-possible-about-functions-but-no-less-40f8e29e]] - broader source section: The first sip: Basic Functions / As Little As Possible About Functions, But No Less
 
 ## Statements
 

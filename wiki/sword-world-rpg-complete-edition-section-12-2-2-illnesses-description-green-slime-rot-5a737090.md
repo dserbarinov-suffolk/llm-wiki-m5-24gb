@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-12-2-2-illnesses-description-green-slime-rot-5a737090@6d595a15dfd7c0c9ae3f4f541cc555f2
+projection_coverage: section-sword-world-rpg-complete-edition-section-12-2-2-illnesses-description-green-slime-rot-5a737090@e616184a94e2bc21e32e4a8fcbb05b11
 ---
 
 # 12.2.2 Illnesses / 《 Description 》 / [ Green Slime Rot ]
@@ -17,8 +17,13 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-12-2-2-illnesses-description-edb99c5e]] - broader source section: 12.2.2 Illnesses / 《 Description 》
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-12-2-2-illnesses-description-cotton-weaver-5a91d867]] - next source section: 12.2.2 Illnesses / 《 Description 》 / [ Cotton Weaver ]
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-12-2-2-illnesses-description-edb99c5e]] - broader source section: 12.2.2 Illnesses / 《 Description 》
 
 ## Statements
 

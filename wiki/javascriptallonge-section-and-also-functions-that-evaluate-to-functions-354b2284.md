@@ -4,11 +4,11 @@ page_kind: source
 summary: And also: / functions that evaluate to functions: 9 source-backed entries and 1 atom(s) from raw/javascriptallonge.pdf.
 page_family: section-reference
 sources: raw/javascriptallonge.pdf
-updated: 2026-07-01
+updated: 2026-07-02
 domain: javascriptallonge
 category_path: sources/javascriptallonge/sections
 source_id: javascriptallonge.pdf
-projection_coverage: section-javascriptallonge-section-and-also-functions-that-evaluate-to-functions-354b2284@4bad1b6b17c209c2bf5c71c6e373a818
+projection_coverage: section-javascriptallonge-section-and-also-functions-that-evaluate-to-functions-354b2284@a67329a20879e935f50c11516b8f2ed9
 ---
 
 # And also: / functions that evaluate to functions
@@ -17,8 +17,13 @@ From [[javascriptallonge]].
 
 ## Related pages
 
-- [[javascriptallonge-section-and-also-0e29dfba]] - broader source section: And also:
+### Source order
+
 - [[javascriptallonge-section-and-also-ah-i-d-like-to-have-an-argument-please-22-1153c61b]] - next source section: And also: / Ah. I'd Like to Have an Argument, Please. 22
+
+### Source structure
+
+- [[javascriptallonge-section-and-also-0e29dfba]] - broader source section: And also:
 
 ## Statements
 
@@ -35,6 +40,7 @@ From [[javascriptallonge]].
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00257))_
 
+<a id="atom-technical-atom-b6b20d5a41ace1b5"></a>
 ```
 () => () => true
 ```

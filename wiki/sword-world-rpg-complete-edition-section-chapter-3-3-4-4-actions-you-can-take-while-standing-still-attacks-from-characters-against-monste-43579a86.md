@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-3-3-4-4-actions-you-can-take-while-standing-still-attacks-from-characters-against-monste-43579a86@1805101f8045f94c630fe619cdb669e0
+projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-3-3-4-4-actions-you-can-take-while-standing-still-attacks-from-characters-against-monste-43579a86@4ed6a16b8413a30ab716e933261eefb3
 ---
 
 # Chapter 3: / 3.4.4 Actions You Can Take While Standing Still / Attacks From Characters Against Monsters / 4.5.1 Hit Checks
@@ -17,7 +17,12 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
+### Source structure
+
 - [[sword-world-rpg-complete-edition-section-chapter-3-3-4-4-actions-you-can-take-while-standing-still-attacks-from-characters-against-monste-2531bc5c]] - broader source section: Chapter 3: / 3.4.4 Actions You Can Take While Standing Still / Attacks From Characters Against Monsters
+
+### Topics
+
 - [[sword-world-rpg-complete-edition-hit-check]] - topic hub: opens the topic page for Hit Check
 
 ## Statements
@@ -39,6 +44,7 @@ From [[sword-world-rpg-complete-edition]].
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-01261))_
 
+<a id="atom-technical-atom-feb11feacd5ff921"></a>
 > Table 4-1: Rating Table
 
 ### Technical frame 2: Chapter 3: / 3.4.4 Actions You Can Take While Standing Still / Attacks From Characters Against Monsters / 4.5.1 Hit Checks
@@ -49,6 +55,7 @@ From [[sword-world-rpg-complete-edition]].
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-01262))_
 
+<a id="atom-technical-atom-2534865c8cb05080"></a>
 ```text
 4.5.1 Hit Checks
 Key Number
@@ -111,6 +118,7 @@ Key Number
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-01263))_
 
+<a id="atom-technical-atom-c0717a255f518b63"></a>
 ```text
 Table 4-2: Rating Table, Key Number
    8  6  6  6 7  7  7 8  8  8  8 8  8  8  8  9  9  9  9 10 10

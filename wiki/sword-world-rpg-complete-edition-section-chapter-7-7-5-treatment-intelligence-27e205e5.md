@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-7-7-5-treatment-intelligence-27e205e5@15c46ce722d6e461f86da7e5920737b2
+projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-7-7-5-treatment-intelligence-27e205e5@4d50d19e8c66b5103d84845e5ca92f88
 ---
 
 # Chapter 7: / 7.5 [ ② Treatment [Intelligence]]
@@ -17,15 +17,20 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
+### Source order
+
+- [[sword-world-rpg-complete-edition-section-chapter-7-7-4-healer-skill-a84ed61d]] - previous source section: Chapter 7: / 7.4 Healer Skill
+
+### Source structure
+
 - [[sword-world-rpg-complete-edition-section-chapter-7-c3cc20a8]] - broader source section: Chapter 7:
+- [[sword-world-rpg-complete-edition-section-chapter-7-7-5-treatment-intelligence-climb-agility-equipment-restriction-1a6fd4b3]] - narrower source section: Chapter 7: / 7.5 [ ② Treatment [Intelligence]] / [ ⑥ Climb [Agility] ] (Equipment restriction)
 - [[sword-world-rpg-complete-edition-section-chapter-7-7-5-treatment-intelligence-hunter-skill-2161247f]] - narrower source section: Chapter 7: / 7.5 [ ② Treatment [Intelligence]] / Hunter Skill
 - [[sword-world-rpg-complete-edition-section-chapter-7-7-5-treatment-intelligence-large-ship-steering-intelligence-f21e0938]] - narrower source section: Chapter 7: / 7.5 [ ② Treatment [Intelligence]] / [ ① Large Ship Steering [Intelligence] ]
 - [[sword-world-rpg-complete-edition-section-chapter-7-7-5-treatment-intelligence-seamanship-intelligence-62536554]] - narrower source section: Chapter 7: / 7.5 [ ② Treatment [Intelligence]] / [ ② Seamanship [Intelligence] ]
 - [[sword-world-rpg-complete-edition-section-chapter-7-7-5-treatment-intelligence-small-ship-steering-dexterity-9411db2e]] - narrower source section: Chapter 7: / 7.5 [ ② Treatment [Intelligence]] / [ ③ Small Ship Steering [Dexterity] ]
 - [[sword-world-rpg-complete-edition-section-chapter-7-7-5-treatment-intelligence-swim-agility-equipment-restriction-d9627e70]] - narrower source section: Chapter 7: / 7.5 [ ② Treatment [Intelligence]] / [ ④ Swim [Agility] ] (Equipment restriction)
 - [[sword-world-rpg-complete-edition-section-chapter-7-7-5-treatment-intelligence-weather-prediction-intelligence-not-retriable-f4f13e3f]] - narrower source section: Chapter 7: / 7.5 [ ② Treatment [Intelligence]] / [ ⑤ Weather Prediction [Intelligence] ] (Not retriable)
-- [[sword-world-rpg-complete-edition-section-chapter-7-7-5-treatment-intelligence-climb-agility-equipment-restriction-1a6fd4b3]] - narrower source section: Chapter 7: / 7.5 [ ② Treatment [Intelligence]] / [ ⑥ Climb [Agility] ] (Equipment restriction)
-- [[sword-world-rpg-complete-edition-section-chapter-7-7-4-healer-skill-a84ed61d]] - previous source section: Chapter 7: / 7.4 Healer Skill
 
 ## Statements
 
@@ -102,6 +107,7 @@ From [[sword-world-rpg-complete-edition]].
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-04410))_
 
+<a id="atom-technical-atom-a1c811a707b80d3f"></a>
 ```text
 7.6
 7.6 Sailor Skill

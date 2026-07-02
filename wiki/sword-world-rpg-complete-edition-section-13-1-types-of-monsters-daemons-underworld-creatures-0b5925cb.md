@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-13-1-types-of-monsters-daemons-underworld-creatures-0b5925cb@7579a8fd7c25137c90d3e45fa61c5493
+projection_coverage: section-sword-world-rpg-complete-edition-section-13-1-types-of-monsters-daemons-underworld-creatures-0b5925cb@3d87492f79d4d0003412df9e90d826ff
 ---
 
 # 13.1 Types of Monsters / 《 Daemons/Underworld Creatures 》
@@ -17,8 +17,13 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-13-1-types-of-monsters-7512eede]] - broader source section: 13.1 Types of Monsters
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-13-1-types-of-monsters-magical-creatures-643def16]] - previous source section: 13.1 Types of Monsters / 《 Magical Creatures 》
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-13-1-types-of-monsters-7512eede]] - broader source section: 13.1 Types of Monsters
 
 ## Statements
 
@@ -39,6 +44,7 @@ From [[sword-world-rpg-complete-edition]].
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-05884))_
 
+<a id="atom-technical-atom-c6ad81a89de7379e"></a>
 ```text
 13.2
 13.2 Monster Catalog

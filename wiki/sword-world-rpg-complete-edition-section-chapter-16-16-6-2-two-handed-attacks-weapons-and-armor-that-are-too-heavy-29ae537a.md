@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-16-16-6-2-two-handed-attacks-weapons-and-armor-that-are-too-heavy-29ae537a@6052591b89828e21fdddc9d2a6586ba8
+projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-16-16-6-2-two-handed-attacks-weapons-and-armor-that-are-too-heavy-29ae537a@5840b85b9ea866737ea005b2bfff413e
 ---
 
 # Chapter 16: / 16.6.2 Two-Handed Attacks / Weapons and Armor That Are Too Heavy
@@ -17,8 +17,13 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-chapter-16-16-6-2-two-handed-attacks-c3cb462a]] - broader source section: Chapter 16: / 16.6.2 Two-Handed Attacks
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-chapter-16-16-6-2-two-handed-attacks-throwing-multiple-darts-or-daggers-7a38c023]] - previous source section: Chapter 16: / 16.6.2 Two-Handed Attacks / Throwing Multiple Darts or Daggers
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-chapter-16-16-6-2-two-handed-attacks-c3cb462a]] - broader source section: Chapter 16: / 16.6.2 Two-Handed Attacks
 
 ## Statements
 
@@ -37,4 +42,5 @@ From [[sword-world-rpg-complete-edition]].
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-10416))_
 
+<a id="atom-technical-atom-f8447417e4cfaa9e"></a>
 > If a Weapon or Shield's Required Strength Exceeds Your Strength

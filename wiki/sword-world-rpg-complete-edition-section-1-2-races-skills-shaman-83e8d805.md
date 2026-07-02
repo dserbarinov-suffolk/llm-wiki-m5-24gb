@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-1-2-races-skills-shaman-83e8d805@93fa637992b6126c91fb9a3da451ca14
+projection_coverage: section-sword-world-rpg-complete-edition-section-1-2-races-skills-shaman-83e8d805@5879505ebcd8f24afb733bc6c924e543
 ---
 
 # 1.2 Races / Skills / 【 Shaman 】
@@ -17,9 +17,14 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-1-2-races-skills-d796863a]] - broader source section: 1.2 Races / Skills
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-1-2-races-skills-sorcerer-021503d4]] - previous source section: 1.2 Races / Skills / 【 Sorcerer 】
 - [[sword-world-rpg-complete-edition-section-1-2-races-skills-priest-5f2911e3]] - next source section: 1.2 Races / Skills / 【 Priest 】
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-1-2-races-skills-d796863a]] - broader source section: 1.2 Races / Skills
 
 ## Statements
 

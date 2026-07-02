@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-5-1-14-spirit-magic-list-1f53ed62@1342f85afa583ae735e3189800e4cbd7
+projection_coverage: section-sword-world-rpg-complete-edition-section-5-1-14-spirit-magic-list-1f53ed62@da87267b9ad3418e95ad05d2b87339e4
 ---
 
 # 5.1.14 Spirit Magic List
@@ -17,21 +17,20 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-5-1-14-spirit-magic-list-snare-gnome-earth-spirit-7109c8fd]] - narrower source section: 5.1.14 Spirit Magic List / [ Snare ] (Gnome/Earth Spirit)
-- [[sword-world-rpg-complete-edition-section-5-1-14-spirit-magic-list-destruction-5d4331e9]] - narrower source section: 5.1.14 Spirit Magic List / [ Destruction ]
-- [[sword-world-rpg-complete-edition-section-5-1-14-spirit-magic-list-purification-undine-water-spirit-de47df49]] - narrower source section: 5.1.14 Spirit Magic List / [ Purification ] (Undine/Water Spirit)
-- [[sword-world-rpg-complete-edition-section-5-1-14-spirit-magic-list-firebolt-salamander-fire-spirit-9ac410fc]] - narrower source section: 5.1.14 Spirit Magic List / [ Firebolt ] (Salamander/Fire Spirit)
-- [[sword-world-rpg-complete-edition-section-5-1-14-spirit-magic-list-brownie-brownie-building-spirit-6d316156]] - narrower source section: 5.1.14 Spirit Magic List / [ Brownie ] (Brownie/Building Spirit)
+### Source order
+
+- [[sword-world-rpg-complete-edition-section-5-1-12-ancient-magic-list-2e59bfee]] - previous source section: 5.1.12 Ancient Magic List
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-5-1-14-spirit-magic-list-10th-level-spirit-magic-list-cf90da5a]] - narrower source section: 5.1.14 Spirit Magic List / 10th Level Spirit Magic List ]
 - [[sword-world-rpg-complete-edition-section-5-1-14-spirit-magic-list-2nd-level-spirit-magic-list-will-o-wisp-will-o-wisp-light-spirit-d5164997]] - narrower source section: 5.1.14 Spirit Magic List / 2nd Level Spirit Magic List [ Will-O-Wisp ] (Will-O-Wisp/Light Spirit)
 - [[sword-world-rpg-complete-edition-section-5-1-14-spirit-magic-list-3rd-level-spirit-magic-list-invisibility-sprite-mind-spirit-c96f9e17]] - narrower source section: 5.1.14 Spirit Magic List / 3rd Level Spirit Magic List [ Invisibility ] (Sprite/Mind Spirit)
 - [[sword-world-rpg-complete-edition-section-5-1-14-spirit-magic-list-4th-level-spirit-magic-list-water-walking-undine-water-spirit-bd6d8f37]] - narrower source section: 5.1.14 Spirit Magic List / 4th Level Spirit Magic List [ Water Walking ] (Undine/Water Spirit)
 - [[sword-world-rpg-complete-edition-section-5-1-14-spirit-magic-list-5th-level-spirit-magic-list-control-plant-b425997a]] - narrower source section: 5.1.14 Spirit Magic List / 5th Level Spirit Magic List [ Control Plant ]
 - [[sword-world-rpg-complete-edition-section-5-1-14-spirit-magic-list-6th-level-spirit-magic-list-48210847]] - narrower source section: 5.1.14 Spirit Magic List / 6th Level Spirit Magic List
-- [[sword-world-rpg-complete-edition-section-5-1-14-spirit-magic-list-magic-list-b89f2a18]] - narrower source section: 5.1.14 Spirit Magic List / Magic List
 - [[sword-world-rpg-complete-edition-section-5-1-14-spirit-magic-list-8th-level-spirit-magic-list-ice-coffin-3b781afa]] - narrower source section: 5.1.14 Spirit Magic List / 8th Level Spirit Magic List [ Ice Coffin ]
 - [[sword-world-rpg-complete-edition-section-5-1-14-spirit-magic-list-9th-level-spirit-magic-list-earthquake-behemoth-greater-earth-spirit-5eb28679]] - narrower source section: 5.1.14 Spirit Magic List / 9th Level Spirit Magic List [ Earthquake ] (Behemoth/Greater Earth Spirit)
-- [[sword-world-rpg-complete-edition-section-5-1-14-spirit-magic-list-10th-level-spirit-magic-list-cf90da5a]] - narrower source section: 5.1.14 Spirit Magic List / 10th Level Spirit Magic List ]
-- [[sword-world-rpg-complete-edition-section-5-1-12-ancient-magic-list-2e59bfee]] - previous source section: 5.1.12 Ancient Magic List
 
 ## Statements
 
@@ -394,26 +393,35 @@ From [[sword-world-rpg-complete-edition]].
 
 **Atoms:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-02798, source-range-0d48087c-02799, source-range-0d48087c-02800, source-range-0d48087c-02801, source-range-0d48087c-02802, source-range-0d48087c-02804, source-range-0d48087c-02805, source-range-0d48087c-02806))_
 
+<a id="atom-technical-atom-63aed069e099d729"></a>
 > Base Mental Power Cost=3
 
+<a id="atom-technical-atom-ddac27a6094db2bc"></a>
 > Distance=500 meters
 
+<a id="atom-technical-atom-13b592a1c17e1aad"></a>
 > Area=A space with a 5 meter radius
 
+<a id="atom-technical-atom-128b0607283a5e64"></a>
 > Duration=1 hour
 
+<a id="atom-technical-atom-453c3e09c5eac669"></a>
 > Effect=Hears sounds occurring at the target
 
+<a id="atom-technical-atom-3e7542d5f45632f6"></a>
 > Type=Detection
 
+<a id="atom-technical-atom-981f570e0dac3b47"></a>
 > Expansion=Duration, distance, area
 
+<a id="atom-technical-atom-87fbefac56ed481e"></a>
 > Resist=None
 
 ### Technical frame 2: Table 5-5: Fears
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-03061))_
 
+<a id="atom-technical-atom-975f17287b6d6949"></a>
 | The | target | goes | berserk | from | a | state | of | panic. | Attack | points | +2, | evasion | points | -4. | Even | those | with | intelligence | can | no | longer | act | rationally | and |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 2 cannot 3 Same | as | use magic, above | etc. |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
@@ -440,6 +448,7 @@ Table 5-5: Fears
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-03068))_
 
+<a id="atom-technical-atom-022423f0c3eefbf5"></a>
 ```text
 4 Target is struck by panic and is prevented from taking action. Take a -1 penalty on all success rolls
 5
@@ -483,10 +492,13 @@ Same as above
 
 **Atoms:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-03096, source-range-0d48087c-03098, source-range-0d48087c-03099))_
 
+<a id="atom-technical-atom-b7f90abe0936e3e6"></a>
 > Monster Level =5 Rarity=15 Agility=6 Movement Speed=6 Attack Points=12 (5) Evasion Points=12 (5) Mental Points/Resistance=-/12(5) Special Abilities=Mental attack immunity, Weak to fire
 
+<a id="atom-technical-atom-06789e1169d2951b"></a>
 > Strike Points=10 Defense Points=7
 
+<a id="atom-technical-atom-8029ac9bb2c77e81"></a>
 > Life Points/Resistance=30/15(8)
 
 ### Technical frame 5: 5.1.14 Spirit Magic List / 6th Level Spirit Magic List / [ Spirit Wall ]
@@ -497,4 +509,5 @@ Same as above
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-03195))_
 
+<a id="atom-technical-atom-c093fc69b4ebfa4c"></a>
 > Type=Target score Expansion=Final score, duration, distance, target volume Resist=None

@@ -7,7 +7,7 @@ sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: concepts
-projection_coverage: topic-sword-world-rpg-complete-edition-penalty@ebb85625d291912ec4044d2524dda238
+projection_coverage: topic-sword-world-rpg-complete-edition-penalty@279a1c4cda5ca05fd1a90310e82cd649
 ---
 
 # Penalty
@@ -33,10 +33,13 @@ What [[sword-world-rpg-complete-edition]] covers about penalty:
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-00975))_
 
+<a id="atom-technical-atom-59ca9f8714c10637"></a>
 > final score {baseline score + 2D ± (bonus, penalty)} ≥ target score → action is successful
 
 
 ## Related pages
+
+### Shared technical atoms
 
 - [[sword-world-rpg-complete-edition-bonuse]] - shared statements and technical atoms: Bonuse shares source evidence from 2.4 Bonuses and Penalties: When such bonuses or penalties are applied, the baseline score will go up or down. A player must also calculate these before making a success roll.; Bonuse shares technical record from 2.4 Bonuses and Penalties: final score {baseline score + 2D ± (bonus, penalty)} ≥ target score → action is successful (1 shared statement(s), 1 shared atom(s))
 

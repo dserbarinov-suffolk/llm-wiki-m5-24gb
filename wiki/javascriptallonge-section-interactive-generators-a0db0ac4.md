@@ -4,11 +4,11 @@ page_kind: source
 summary: Interactive Generators: 70 source-backed entries and 0 atom(s) from raw/javascriptallonge.pdf.
 page_family: section-reference
 sources: raw/javascriptallonge.pdf
-updated: 2026-07-01
+updated: 2026-07-02
 domain: javascriptallonge
 category_path: sources/javascriptallonge/sections
 source_id: javascriptallonge.pdf
-projection_coverage: section-javascriptallonge-section-interactive-generators-a0db0ac4@217738124fd051d74d2c12a9c20bce97
+projection_coverage: section-javascriptallonge-section-interactive-generators-a0db0ac4@ed32530a8bb9e97157b0a5cd60300376
 ---
 
 # Interactive Generators
@@ -17,12 +17,20 @@ From [[javascriptallonge]].
 
 ## Related pages
 
-- [[javascriptallonge-section-interactive-generators-representing-naughts-and-crosses-as-a-stateless-function-566c2092]] - narrower source section: Interactive Generators / representing naughts and crosses as a stateless function
-- [[javascriptallonge-section-interactive-generators-representing-naughts-and-crosses-as-a-stateful-function-50fe6464]] - narrower source section: Interactive Generators / representing naughts and crosses as a stateful function
-- [[javascriptallonge-section-interactive-generators-this-seems-familiar-4e1f58a1]] - narrower source section: Interactive Generators / this seems familiar
-- [[javascriptallonge-section-interactive-generators-basic-operations-on-iterables-e1c8a49e]] - narrower source section: Interactive Generators / Basic Operations on Iterables
+### Source order
+
 - [[javascriptallonge-section-interlude-the-carpenter-interviews-for-a-job-2e3e33f6]] - previous source section: Interlude: The Carpenter Interviews for a Job
 - [[javascriptallonge-section-the-golden-crema-appendices-and-afterwords-048855ac]] - next source section: The Golden Crema: Appendices and Afterwords
+
+### Source structure
+
+- [[javascriptallonge-section-interactive-generators-basic-operations-on-iterables-e1c8a49e]] - narrower source section: Interactive Generators / Basic Operations on Iterables
+- [[javascriptallonge-section-interactive-generators-representing-naughts-and-crosses-as-a-stateful-function-50fe6464]] - narrower source section: Interactive Generators / representing naughts and crosses as a stateful function
+- [[javascriptallonge-section-interactive-generators-representing-naughts-and-crosses-as-a-stateless-function-566c2092]] - narrower source section: Interactive Generators / representing naughts and crosses as a stateless function
+- [[javascriptallonge-section-interactive-generators-this-seems-familiar-4e1f58a1]] - narrower source section: Interactive Generators / this seems familiar
+
+### Topics
+
 - [[javascriptallonge-interactive-generator]] - topic hub: opens the topic page for Interactive Generator
 
 ## Statements

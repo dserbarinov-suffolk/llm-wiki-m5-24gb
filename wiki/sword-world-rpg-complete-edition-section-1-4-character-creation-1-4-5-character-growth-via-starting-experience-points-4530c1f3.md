@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-1-4-character-creation-1-4-5-character-growth-via-starting-experience-points-4530c1f3@637b69b3c5a0539602a591a5897e3db6
+projection_coverage: section-sword-world-rpg-complete-edition-section-1-4-character-creation-1-4-5-character-growth-via-starting-experience-points-4530c1f3@587f96dec9ffe37595aa386e3dc000e5
 ---
 
 # 1.4 Character Creation / 1.4.5 Character Growth via Starting Experience Points
@@ -17,9 +17,14 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-1-4-character-creation-f6aa6108]] - broader source section: 1.4 Character Creation
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-1-4-character-creation-name-dfab8c47]] - previous source section: 1.4 Character Creation / 《 Name 》
 - [[sword-world-rpg-complete-edition-section-1-4-character-creation-1-4-6-purchasing-weapons-and-armor-b95d4959]] - next source section: 1.4 Character Creation / 1.4.6 Purchasing Weapons and Armor
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-1-4-character-creation-f6aa6108]] - broader source section: 1.4 Character Creation
 
 ## Statements
 
@@ -53,6 +58,7 @@ From [[sword-world-rpg-complete-edition]].
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-00453))_
 
+<a id="atom-technical-atom-d7b66d40af038a44"></a>
 > For example, if you do not have the ranger skill and you want to acquire 2 levels in ranger at once, you must spend 500 + 1000 for a total of 1500 experience points.
 
 ### Technical frame 2: Table 1-7: Experience Points by Skill Trident (throwable) 1H 4~16 x10+20
@@ -63,6 +69,7 @@ From [[sword-world-rpg-complete-edition]].
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-00493))_
 
+<a id="atom-technical-atom-4ea607f12a59b197"></a>
 ```text
 Table 1-7: Experience Points by Skill     Trident (throwable)                  1H      4~16        x10+20
  (at Character Creation) is almost      Longspear                         1~2H     4~20        x10+20

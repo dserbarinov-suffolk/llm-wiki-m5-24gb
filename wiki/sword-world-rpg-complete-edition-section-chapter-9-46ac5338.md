@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-9-46ac5338@24d75d803394f528ddf7a9963bae88e3
+projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-9-46ac5338@7d6ddb65fa45012c0c856dcc28705770
 ---
 
 # Chapter 9:
@@ -17,11 +17,16 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-chapter-9-setting-target-scores-and-difficulties-22942d33]] - narrower source section: Chapter 9: / Setting Target Scores and Difficulties
-- [[sword-world-rpg-complete-edition-section-chapter-9-9-3-general-modifiers-35fd7665]] - narrower source section: Chapter 9: / 9.3 General Modifiers
-- [[sword-world-rpg-complete-edition-section-chapter-9-9-4-automatic-success-restrictions-20569786]] - narrower source section: Chapter 9: / 9.4 Automatic Success Restrictions
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-8-4-increasing-general-skills-b2e7e74d]] - previous source section: 8.4 Increasing General Skills
 - [[sword-world-rpg-complete-edition-section-10-1-npc-and-monster-action-announcement-3fefd8eb]] - next source section: 10.1 NPC and Monster Action Announcement
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-chapter-9-9-3-general-modifiers-35fd7665]] - narrower source section: Chapter 9: / 9.3 General Modifiers
+- [[sword-world-rpg-complete-edition-section-chapter-9-9-4-automatic-success-restrictions-20569786]] - narrower source section: Chapter 9: / 9.4 Automatic Success Restrictions
+- [[sword-world-rpg-complete-edition-section-chapter-9-setting-target-scores-and-difficulties-22942d33]] - narrower source section: Chapter 9: / Setting Target Scores and Difficulties
 
 ## Statements by subsection
 
@@ -100,6 +105,7 @@ From [[sword-world-rpg-complete-edition]].
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-04575))_
 
+<a id="atom-technical-atom-cd96adedcbb1a45e"></a>
 | If | you’re | a | pro | in | that | field, | you’ll | most | likely | succeed, | but | if | you | only | have | the | skill, | there’s | a | greater | risk | of | failure. |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 11 4 Amateurs |  |  | should |  | stay | away | from | it. |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
@@ -142,6 +148,7 @@ Table 9-1: Determining Target Scores or Difficulties
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-04655))_
 
+<a id="atom-technical-atom-9ddcc774ed615772"></a>
 | Extremely difficult situation | -4 |
 | --- | --- |
 | Tough but manageable situation | -2 |
@@ -168,4 +175,5 @@ General Modifiers
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-04680))_
 
+<a id="atom-technical-atom-b72f2204820c4f12"></a>
 > [Figure] (p.137)

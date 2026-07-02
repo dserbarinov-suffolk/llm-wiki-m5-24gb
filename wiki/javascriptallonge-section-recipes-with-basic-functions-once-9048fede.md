@@ -4,11 +4,11 @@ page_kind: source
 summary: Recipes with Basic Functions / Once: 8 source-backed entries and 2 atom(s) from raw/javascriptallonge.pdf.
 page_family: section-reference
 sources: raw/javascriptallonge.pdf
-updated: 2026-07-01
+updated: 2026-07-02
 domain: javascriptallonge
 category_path: sources/javascriptallonge/sections
 source_id: javascriptallonge.pdf
-projection_coverage: section-javascriptallonge-section-recipes-with-basic-functions-once-9048fede@f88b36ecedc90b8d5e3d56db7ef2596b
+projection_coverage: section-javascriptallonge-section-recipes-with-basic-functions-once-9048fede@96c1097fb1d5d9d1a59cfea35cab2533
 ---
 
 # Recipes with Basic Functions / Once
@@ -17,9 +17,14 @@ From [[javascriptallonge]].
 
 ## Related pages
 
-- [[javascriptallonge-section-recipes-with-basic-functions-58df4c63]] - broader source section: Recipes with Basic Functions
+### Source order
+
 - [[javascriptallonge-section-recipes-with-basic-functions-maybe-d9752e09]] - previous source section: Recipes with Basic Functions / Maybe
 - [[javascriptallonge-section-recipes-with-basic-functions-left-variadic-functions-c0cc9e6b]] - next source section: Recipes with Basic Functions / Left-Variadic Functions
+
+### Source structure
+
+- [[javascriptallonge-section-recipes-with-basic-functions-58df4c63]] - broader source section: Recipes with Basic Functions
 
 ## Statements
 
@@ -39,6 +44,7 @@ From [[javascriptallonge]].
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00706))_
 
+<a id="atom-technical-atom-6d0086ae5b54964c"></a>
 ```
 const once = (fn) => {
 let done = false;
@@ -56,6 +62,7 @@ return done ? void 0 : ((done = true), fn.apply(this, arguments))
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00708))_
 
+<a id="atom-technical-atom-1882c40093bab51d"></a>
 ```
 const askedOnBlindDate = once(
 () => "sure, why not?"

@@ -4,11 +4,11 @@ page_kind: source
 summary: And also: / Naming Functions / function declaration caveats 34: 13 source-backed entries and 3 atom(s) from raw/javascriptallonge.pdf.
 page_family: section-reference
 sources: raw/javascriptallonge.pdf
-updated: 2026-07-01
+updated: 2026-07-02
 domain: javascriptallonge
 category_path: sources/javascriptallonge/sections
 source_id: javascriptallonge.pdf
-projection_coverage: section-javascriptallonge-section-and-also-naming-functions-function-declaration-caveats-34-d724d0dc@9881b5bd8e53c81542ed455251ec4865
+projection_coverage: section-javascriptallonge-section-and-also-naming-functions-function-declaration-caveats-34-d724d0dc@4e5dea533f2dab09b2648f60abb2e6d9
 ---
 
 # And also: / Naming Functions / function declaration caveats 34
@@ -17,8 +17,13 @@ From [[javascriptallonge]].
 
 ## Related pages
 
-- [[javascriptallonge-section-and-also-naming-functions-cae91ee1]] - broader source section: And also: / Naming Functions
+### Source order
+
 - [[javascriptallonge-section-and-also-naming-functions-function-declarations-94e43325]] - previous source section: And also: / Naming Functions / function declarations
+
+### Source structure
+
+- [[javascriptallonge-section-and-also-naming-functions-cae91ee1]] - broader source section: And also: / Naming Functions
 
 ## Statements
 
@@ -41,6 +46,7 @@ From [[javascriptallonge]].
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00545))_
 
+<a id="atom-technical-atom-ce289536d085780b"></a>
 ```
 (function (camelCase) {
 return fizzbuzz();
@@ -66,6 +72,7 @@ return "Fizz" + "Buzz";
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00546))_
 
+<a id="atom-technical-atom-e503dd92fb56c97b"></a>
 > Or it may work one way today and a different way when the JavaScript engine is updated, say with a new optimization.
 
 ### Technical frame 3: And also: / Naming Functions / function declaration caveats 34
@@ -76,6 +83,7 @@ return "Fizz" + "Buzz";
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00548))_
 
+<a id="atom-technical-atom-ab153667b01d5d1e"></a>
 ```
 function trueDat () { return true }
 But this is not:

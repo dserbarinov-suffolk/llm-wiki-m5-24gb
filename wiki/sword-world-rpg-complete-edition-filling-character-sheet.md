@@ -7,7 +7,7 @@ sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: concepts
-projection_coverage: topic-sword-world-rpg-complete-edition-filling-character-sheet@4c1df4f15e0cb15a3d45107af7211a86
+projection_coverage: topic-sword-world-rpg-complete-edition-filling-character-sheet@19a86010d9821e51ec1db5e59313efe9
 ---
 
 # 1.4.9 Filling Out the Character Sheet
@@ -186,45 +186,7 @@ What [[sword-world-rpg-complete-edition]] covers about 1.4.9 filling out the cha
 
 ## Technical atoms
 
-### Technical frame 1: Table 1-5: Backgrounds or Table 1-6: highest adventurer skill level. Write this
-
-**Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-00883))_
-
-```text
-Table 1-5: Backgrounds or Table 1-6:   highest adventurer skill level. Write this
- record and list various character details.
-                                    Starting Experience by Race in the    number down.
- This will help keep the game running
-                                    experience points field.
- smoothly.
-  In fact, a Character Sheet saves time
-                                                                         [⑮   Purchase   Equipment]
- and eliminates mistakes in character
-                                     [
-                                         ⑧
-                                             Starting   Skills   ]
-                                                                           Use  your  money  to  purchase
-```
-
-<details>
-<summary>Parsed table preview (needs review)</summary>
-
-| Table 1-5: Backgrounds or Table 1-6: | highest adventurer skill level. Write this |
-| --- | --- |
-| Starting Experience by Race in the | number down. |
-| [⑮ | Purchase |
-| Starting | Skills |
-| Use | your |
-
-</details>
-
-### Technical frame 2: 1.4 Character Creation / 1.4.9 Filling Out the Character Sheet / [ ⑥ Origin ]
-
-**Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-00897))_
-
-> If the character is a human or a halfelf raised by a human, Table 1-5: Backgrounds must be used to determine their origin.
-
-### Technical frame 3: 1.4 Character Creation / 1.4.9 Filling Out the Character Sheet / [ ⑥ Origin ]
+### Technical frame 1: 1.4 Character Creation / 1.4.9 Filling Out the Character Sheet / [ ⑥ Origin ]
 
 **Context:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-00897))_
 
@@ -232,15 +194,10 @@ Table 1-5: Backgrounds or Table 1-6:   highest adventurer skill level. Write thi
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-00899))_
 
+<a id="atom-technical-atom-7d11c1aecfd8f96e"></a>
 > Please write down starting experience points as determined by Table 1-5: Backgrounds or Table 1-6: Starting Experience by Race in the experience points field.
 
-### Technical frame 4: 1.4 Character Creation / 1.4.9 Filling Out the Character Sheet / [ ⑬ Increase Skills ]
-
-**Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-00913))_
-
-> Starting experience points can be used to acquire new adventurer skills or to increase any skills already acquired (Table 1-7: Experience Points by Skill).
-
-### Technical frame 5: 1.4 Character Creation / 1.4.9 Filling Out the Character Sheet / [ ⑭ Adventurer Level ] / [ ⑮ Purchase Equipment]
+### Technical frame 2: 1.4 Character Creation / 1.4.9 Filling Out the Character Sheet / [ ⑭ Adventurer Level ] / [ ⑮ Purchase Equipment]
 
 **Context:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-00919))_
 
@@ -248,9 +205,10 @@ Table 1-5: Backgrounds or Table 1-6:   highest adventurer skill level. Write thi
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-00920))_
 
+<a id="atom-technical-atom-90ca541d47f7bb9b"></a>
 > When you purchase weapons, shields, and armor, write them in the appropriate fields (Table 1-8: Weapons, Table 1-9: Armor, and Table 1-10: Shields).
 
-### Technical frame 6: 4.10 Excellent Weapons and Armor / 4.10.4 Mithril Silver Weapons and Armor / Basic Rules of Magic / Filling out the Character Sheet
+### Technical frame 3: 4.10 Excellent Weapons and Armor / 4.10.4 Mithril Silver Weapons and Armor / Basic Rules of Magic / Filling out the Character Sheet
 
 **Context:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-01576))_
 
@@ -258,9 +216,10 @@ Table 1-5: Backgrounds or Table 1-6:   highest adventurer skill level. Write thi
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-01575))_
 
+<a id="atom-technical-atom-ce06c17c5b201844"></a>
 > Magic that is resistible can be rendered ineffective or less effective if the target chooses to resist .
 
-### Technical frame 7: 4.10 Excellent Weapons and Armor / 4.10.4 Mithril Silver Weapons and Armor / Basic Rules of Magic / Filling out the Character Sheet
+### Technical frame 4: 4.10 Excellent Weapons and Armor / 4.10.4 Mithril Silver Weapons and Armor / Basic Rules of Magic / Filling out the Character Sheet
 
 **Context:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-01585))_
 
@@ -268,9 +227,10 @@ Table 1-5: Backgrounds or Table 1-6:   highest adventurer skill level. Write thi
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-01582))_
 
+<a id="atom-technical-atom-25d0a2fe6f334bb2"></a>
 > If the result is anything other than double ones, the magic takes effect.
 
-### Technical frame 8: 4.10 Excellent Weapons and Armor / 4.10.4 Mithril Silver Weapons and Armor / Basic Rules of Magic / Filling out the Character Sheet
+### Technical frame 5: 4.10 Excellent Weapons and Armor / 4.10.4 Mithril Silver Weapons and Armor / Basic Rules of Magic / Filling out the Character Sheet
 
 **Context:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-01586))_
 
@@ -278,9 +238,10 @@ Table 1-5: Backgrounds or Table 1-6:   highest adventurer skill level. Write thi
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-01585))_
 
+<a id="atom-technical-atom-0a47d21aff225be5"></a>
 > When attempting to cast resistible magic on a monster, the caster must determine whether their opponent can resist it.
 
-### Technical frame 9: 4.10 Excellent Weapons and Armor / 4.10.4 Mithril Silver Weapons and Armor / Basic Rules of Magic / Filling out the Character Sheet
+### Technical frame 6: 4.10 Excellent Weapons and Armor / 4.10.4 Mithril Silver Weapons and Armor / Basic Rules of Magic / Filling out the Character Sheet
 
 **Context:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-01590))_
 
@@ -288,9 +249,10 @@ Table 1-5: Backgrounds or Table 1-6:   highest adventurer skill level. Write thi
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-01586))_
 
+<a id="atom-technical-atom-aea46202d43e8696"></a>
 > If the 2D roll comes up double sixes , the magic automatically succeeds and will take its full effect, no matter how high the monster's mental point resistance (except for when the magic itself has no effect on that monster.
 
-### Technical frame 10: 4.10 Excellent Weapons and Armor / 4.10.4 Mithril Silver Weapons and Armor / Basic Rules of Magic / Filling out the Character Sheet
+### Technical frame 7: 4.10 Excellent Weapons and Armor / 4.10.4 Mithril Silver Weapons and Armor / Basic Rules of Magic / Filling out the Character Sheet
 
 **Context:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-01590))_
 
@@ -298,9 +260,10 @@ Table 1-5: Backgrounds or Table 1-6:   highest adventurer skill level. Write thi
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-01589))_
 
+<a id="atom-technical-atom-3feed96402c41445"></a>
 > Fire Bolt is resistible magic, so if it's resisted by the opponent, its effect will be reduced.
 
-### Technical frame 11: 4.10 Excellent Weapons and Armor / 4.10.4 Mithril Silver Weapons and Armor / Basic Rules of Magic / Filling out the Character Sheet
+### Technical frame 8: 4.10 Excellent Weapons and Armor / 4.10.4 Mithril Silver Weapons and Armor / Basic Rules of Magic / Filling out the Character Sheet
 
 **Context:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-01586))_
 
@@ -308,9 +271,10 @@ Table 1-5: Backgrounds or Table 1-6:   highest adventurer skill level. Write thi
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-01590))_
 
+<a id="atom-technical-atom-ede2b82a20b903a7"></a>
 > In this case, the adventurer (the player controlling them) must make a success roll.
 
-### Technical frame 12: 4.10 Excellent Weapons and Armor / 4.10.4 Mithril Silver Weapons and Armor / Basic Rules of Magic / Filling out the Character Sheet
+### Technical frame 9: 4.10 Excellent Weapons and Armor / 4.10.4 Mithril Silver Weapons and Armor / Basic Rules of Magic / Filling out the Character Sheet
 
 **Context:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-01590))_
 
@@ -318,11 +282,13 @@ Table 1-5: Backgrounds or Table 1-6:   highest adventurer skill level. Write thi
 
 **Atoms:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-01593, source-range-0d48087c-01595))_
 
+<a id="atom-technical-atom-636e8fa6449df63e"></a>
 > Roll of 3-4: Fire Bolt takes an incomplete effect.
 
+<a id="atom-technical-atom-32cff97b7fa5fccb"></a>
 > magic power + 2D ≥ monster's mental point resistance → magic takes
 
-### Technical frame 13: 4.10 Excellent Weapons and Armor / 4.10.4 Mithril Silver Weapons and Armor / Basic Rules of Magic / Filling out the Character Sheet
+### Technical frame 10: 4.10 Excellent Weapons and Armor / 4.10.4 Mithril Silver Weapons and Armor / Basic Rules of Magic / Filling out the Character Sheet
 
 **Context:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-01602))_
 
@@ -330,9 +296,10 @@ Table 1-5: Backgrounds or Table 1-6:   highest adventurer skill level. Write thi
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-01598))_
 
+<a id="atom-technical-atom-ab15c3ba6555591f"></a>
 > When the 2D roll is double sixes , the magic will automatically take its full effect.
 
-### Technical frame 14: 4.10 Excellent Weapons and Armor / 4.10.4 Mithril Silver Weapons and Armor / Basic Rules of Magic / Filling out the Character Sheet
+### Technical frame 11: 4.10 Excellent Weapons and Armor / 4.10.4 Mithril Silver Weapons and Armor / Basic Rules of Magic / Filling out the Character Sheet
 
 **Context:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-01602))_
 
@@ -340,9 +307,10 @@ Table 1-5: Backgrounds or Table 1-6:   highest adventurer skill level. Write thi
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-01599))_
 
+<a id="atom-technical-atom-acd015f709370c8d"></a>
 > When the 2D roll is double ones , the magic unconditionally takes no effect at all.
 
-### Technical frame 15: 4.10 Excellent Weapons and Armor / 4.10.4 Mithril Silver Weapons and Armor / Basic Rules of Magic / Filling out the Character Sheet
+### Technical frame 12: 4.10 Excellent Weapons and Armor / 4.10.4 Mithril Silver Weapons and Armor / Basic Rules of Magic / Filling out the Character Sheet
 
 **Context:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-01605))_
 
@@ -350,9 +318,10 @@ Table 1-5: Backgrounds or Table 1-6:   highest adventurer skill level. Write thi
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-01604))_
 
+<a id="atom-technical-atom-8b331aa7aee108da"></a>
 > If the adventurer's final score ( mental power resistance + 2D ) is equal to or greater than the monster's magic intensity , the monster's magic will only take an incomplete effect (some magic will take no effect at all).
 
-### Technical frame 16: 4.10 Excellent Weapons and Armor / 4.10.4 Mithril Silver Weapons and Armor / Basic Rules of Magic / Filling out the Character Sheet
+### Technical frame 13: 4.10 Excellent Weapons and Armor / 4.10.4 Mithril Silver Weapons and Armor / Basic Rules of Magic / Filling out the Character Sheet
 
 **Context:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-01609))_
 
@@ -360,9 +329,10 @@ Table 1-5: Backgrounds or Table 1-6:   highest adventurer skill level. Write thi
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-01607))_
 
+<a id="atom-technical-atom-d9e2792976f537b2"></a>
 > *In this way, when making a resistible magic check, you can also call it a successful resist or failed resist from the perspective of the one being affected by the magic.
 
-### Technical frame 17: 4.10 Excellent Weapons and Armor / 4.10.4 Mithril Silver Weapons and Armor / Basic Rules of Magic / Filling out the Character Sheet
+### Technical frame 14: 4.10 Excellent Weapons and Armor / 4.10.4 Mithril Silver Weapons and Armor / Basic Rules of Magic / Filling out the Character Sheet
 
 **Context:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-01605))_
 
@@ -370,9 +340,10 @@ Table 1-5: Backgrounds or Table 1-6:   highest adventurer skill level. Write thi
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-01609))_
 
+<a id="atom-technical-atom-e89aa29150bda694"></a>
 > If the dark elf casts a Fire Bolt on Ducard II, Ducard II must make a mental power resistance roll (baseline score 4, target score 13).
 
-### Technical frame 18: 4.10 Excellent Weapons and Armor / 4.10.4 Mithril Silver Weapons and Armor / Basic Rules of Magic / Filling out the Character Sheet
+### Technical frame 15: 4.10 Excellent Weapons and Armor / 4.10.4 Mithril Silver Weapons and Armor / Basic Rules of Magic / Filling out the Character Sheet
 
 **Context:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-01619))_
 
@@ -380,9 +351,10 @@ Table 1-5: Backgrounds or Table 1-6:   highest adventurer skill level. Write thi
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-01612))_
 
+<a id="atom-technical-atom-72f82e320b2cc3c1"></a>
 > mental power resistance + 2D ≥ monster's magic intensity → magic takes an incomplete effect (some take no effect at all)
 
-### Technical frame 19: 4.10 Excellent Weapons and Armor / 4.10.4 Mithril Silver Weapons and Armor / Basic Rules of Magic / Filling out the Character Sheet
+### Technical frame 16: 4.10 Excellent Weapons and Armor / 4.10.4 Mithril Silver Weapons and Armor / Basic Rules of Magic / Filling out the Character Sheet
 
 **Context:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-01621))_
 
@@ -390,9 +362,10 @@ Table 1-5: Backgrounds or Table 1-6:   highest adventurer skill level. Write thi
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-01620))_
 
+<a id="atom-technical-atom-a588957f44fd7eca"></a>
 > If the score of the one casting the magic is greater, the magic will take full effect, but if there is a tie or if the score of the one on whom the magic is being cast is greater, the magic is resisted and will only take an incomplete effect.
 
-### Technical frame 20: 4.10 Excellent Weapons and Armor / 4.10.4 Mithril Silver Weapons and Armor / Basic Rules of Magic / Filling out the Character Sheet
+### Technical frame 17: 4.10 Excellent Weapons and Armor / 4.10.4 Mithril Silver Weapons and Armor / Basic Rules of Magic / Filling out the Character Sheet
 
 **Context:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-01627))_
 
@@ -400,9 +373,10 @@ Table 1-5: Backgrounds or Table 1-6:   highest adventurer skill level. Write thi
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-01622))_
 
+<a id="atom-technical-atom-815b50e0f6695578"></a>
 > When the one casting the magic rolls double ones , the magic takes no effect at all.
 
-### Technical frame 21: 4.10 Excellent Weapons and Armor / 4.10.4 Mithril Silver Weapons and Armor / Basic Rules of Magic / Filling out the Character Sheet
+### Technical frame 18: 4.10 Excellent Weapons and Armor / 4.10.4 Mithril Silver Weapons and Armor / Basic Rules of Magic / Filling out the Character Sheet
 
 **Context:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-01627))_
 
@@ -410,21 +384,10 @@ Table 1-5: Backgrounds or Table 1-6:   highest adventurer skill level. Write thi
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-01623))_
 
+<a id="atom-technical-atom-b847bb7685fb7840"></a>
 > When the resisting side rolls double ones , the resist fails , unless the side casting the magic also rolls double ones.
 
-### Technical frame 22: Spellsongs / Filling out the Character Sheet
-
-**Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-03918))_
-
-> In other words, each one counters (overpowers): and cannot take an effect at the same time as magic or other spellsongs that also belong to mind .
-
-### Technical frame 23: Spellsongs / Filling out the Character Sheet / Sing (Mind)
-
-**Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-03926))_
-
-> Of course, they can't even converse, and they cannot use spellsongs or common runes.
-
-### Technical frame 24: Spellsongs / Filling out the Character Sheet / Charm (Mind)
+### Technical frame 19: Spellsongs / Filling out the Character Sheet / Charm (Mind)
 
 **Context:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-03931))_
 
@@ -432,9 +395,10 @@ Table 1-5: Backgrounds or Table 1-6:   highest adventurer skill level. Write thi
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-03930))_
 
+<a id="atom-technical-atom-5cab94fb8384dfeb"></a>
 > However, if you suffer physical or mental damage, you can make another resistance roll.
 
-### Technical frame 25: Spellsongs / Filling out the Character Sheet / Charm (Mind)
+### Technical frame 20: Spellsongs / Filling out the Character Sheet / Charm (Mind)
 
 **Context:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-03935))_
 
@@ -442,9 +406,82 @@ Table 1-5: Backgrounds or Table 1-6:   highest adventurer skill level. Write thi
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-03931))_
 
+<a id="atom-technical-atom-097d2d4b0a000943"></a>
 > With this spellsong, a bard can make those they charm take specific actions.
 
-### Technical frame 26: Table 5-10: Requiem
+### Technical frame 21: Spellsongs / Filling out the Character Sheet / Charm (Mind)
+
+**Context:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-03935))_
+
+> Run away. If this is not possible, -3 to attack points and evasion points while the song continues.
+
+**Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-03934))_
+
+<a id="atom-technical-atom-c1a64492fd11420c"></a>
+> 7-8
+
+### Technical frame 22: Spellsongs / Filling out the Character Sheet / Charm (Mind)
+
+**Context:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-03935))_
+
+> Run away. If this is not possible, -3 to attack points and evasion points while the song continues.
+
+**Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-03937))_
+
+<a id="atom-technical-atom-0b3e5056acae6b2f"></a>
+> If this is not possible, cannot act while the song continues.
+
+### Technical frame 23: Spellsongs / Filling out the Character Sheet / Charm (Mind)
+
+**Context:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-03935))_
+
+> Run away. If this is not possible, -3 to attack points and evasion points while the song continues.
+
+**Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-03938))_
+
+<a id="atom-technical-atom-f5a7960170877510"></a>
+> 10-11
+
+### Technical frame 24: Spellsongs / Filling out the Character Sheet / Charm (Mind)
+
+**Context:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-03935))_
+
+> Run away. If this is not possible, -3 to attack points and evasion points while the song continues.
+
+**Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-03942))_
+
+<a id="atom-technical-atom-90fa9dde90b38c19"></a>
+> a resistance roll again If the resist is successful, not only does this save you from having to take the action, but also breaks you free from the spellsong's charm effect completely.
+
+### Technical frame 25: Spellsongs / Filling out the Character Sheet / Charm (Mind)
+
+**Context:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-03935))_
+
+> Run away. If this is not possible, -3 to attack points and evasion points while the song continues.
+
+**Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-03943))_
+
+<a id="atom-technical-atom-2bd2f12ae115556d"></a>
+> If you are using a flute as your instrument, you can use this spellsong, but you cannot make anyone take any actions.
+
+### Technical frame 26: Spellsongs / Filling out the Character Sheet / Requiem
+
+**Context:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-03959))_
+
+> With a song that mourns the souls of the dead, it has the effect of weakening the undead. The effect begins on the fourth round after starting the spellsong. For undead that fail to resist, roll 2D and look at Table 5-10: Requiem to determine the effect it has on them.
+
+**Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-03960))_
+
+<a id="atom-technical-atom-0cd88c7bbdc2bec5"></a>
+> If this spellsong is sung to the deceased for over an hour during their funeral, the deceased will never become undead.
+
+### Technical atom 27
+
+<a id="atom-technical-atom-f5366413a6f9df24"></a>
+
+**Context:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-03931))_
+
+> With this spellsong, a bard can make those they charm take specific actions. What you want them to do must be carefully woven into the lyrics. This weaving of lyrics must be in a language that is understandable to those who hear it (conversely, it does not have to be in high ancient). If forced to perform such an action, the charmed one can attempt
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-03932))_
 
@@ -455,7 +492,13 @@ Table 5-10: Requiem
  to gather. If the summoned  small
 ```
 
-### Technical frame 27: Table 5-10: Requiem
+### Technical atom 28
+
+<a id="atom-technical-atom-1eed3be880b18304"></a>
+
+**Context:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-03931))_
+
+> With this spellsong, a bard can make those they charm take specific actions. What you want them to do must be carefully woven into the lyrics. This weaving of lyrics must be in a language that is understandable to those who hear it (conversely, it does not have to be in high ancient). If forced to perform such an action, the charmed one can attempt
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-03933))_
 
@@ -482,70 +525,24 @@ Movement slows down while the song continues. -3 to attack points and evasion po
 
 </details>
 
-### Technical frame 28: Spellsongs / Filling out the Character Sheet / Charm (Mind)
-
-**Context:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-03935))_
-
-> Run away. If this is not possible, -3 to attack points and evasion points while the song continues.
-
-**Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-03934))_
-
-> 7-8
-
-### Technical frame 29: Spellsongs / Filling out the Character Sheet / Charm (Mind)
-
-**Context:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-03935))_
-
-> Run away. If this is not possible, -3 to attack points and evasion points while the song continues.
-
-**Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-03937))_
-
-> If this is not possible, cannot act while the song continues.
-
-### Technical frame 30: Spellsongs / Filling out the Character Sheet / Charm (Mind)
-
-**Context:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-03935))_
-
-> Run away. If this is not possible, -3 to attack points and evasion points while the song continues.
-
-**Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-03938))_
-
-> 10-11
-
-### Technical frame 31: Spellsongs / Filling out the Character Sheet / Charm (Mind)
-
-**Context:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-03935))_
-
-> Run away. If this is not possible, -3 to attack points and evasion points while the song continues.
-
-**Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-03942))_
-
-> a resistance roll again If the resist is successful, not only does this save you from having to take the action, but also breaks you free from the spellsong's charm effect completely.
-
-### Technical frame 32: Spellsongs / Filling out the Character Sheet / Charm (Mind)
-
-**Context:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-03935))_
-
-> Run away. If this is not possible, -3 to attack points and evasion points while the song continues.
-
-**Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-03943))_
-
-> If you are using a flute as your instrument, you can use this spellsong, but you cannot make anyone take any actions.
-
-### Technical frame 33: Spellsongs / Filling out the Character Sheet / Requiem
-
-**Context:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-03959))_
-
-> With a song that mourns the souls of the dead, it has the effect of weakening the undead. The effect begins on the fourth round after starting the spellsong. For undead that fail to resist, roll 2D and look at Table 5-10: Requiem to determine the effect it has on them.
-
-**Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-03960))_
-
-> If this spellsong is sung to the deceased for over an hour during their funeral, the deceased will never become undead.
-
 
 ## Related pages
 
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-spellsongs-filling-out-the-character-sheet-866f5da1]] - source section: Spellsongs / Filling out the Character Sheet shares source evidence from Spellsongs / Filling out the Character Sheet: belongs to mind explained under 5.1.9: Magic Types (see p. 63). In other words, each one counters (overpowers): and cannot take an effect at the same time as magic o ... [truncated]; Spellsongs / Filling out the Character Sheet shares technical record from Spellsongs / Filling out the Character Sheet: In other words, each one counters (overpowers): and cannot take an effect at the same time as magic or other spellsongs that also belong to mind . (61 shared statement(s), 12 shared atom(s))
+- [[sword-world-rpg-complete-edition-section-4-10-excellent-weapons-and-armor-4-10-4-mithril-silver-weapons-and-armor-basic-rules-of-magic-fi-cb04ed3d]] - source section: 4.10 Excellent Weapons and Armor / 4.10.4 Mithril Silver Weapons and Armor / Basic Rules of Magic / Filling out the Character Sheet shares source evidence from 4.10 Excellent Weapons and Armor / 4.10.4 Mithril Silver Weapons and Armor / Basic Rules of Magic / Filling out the Character Sheet: On the Character Sheet, there is a magic field. Characters with rune master skills must write their runes , skill level , and magic power in this field.; 4.10 Excellent Weapons and Armor / 4.10.4 Mithril Silver Weapons and Armor / Basic Rules of Magic / Filling out the Character Sheet shares technical record from 4.10 Excellent Weapons and Armor / 4.10.4 Mithril Silver Weapons and Armor / Basic Rules of Magic / Filling out the Character Sheet: Magic that is resistible can be rendered ineffective or less effective if the target chooses to resist . (30 shared statement(s), 17 shared atom(s))
+- [[sword-world-rpg-complete-edition-section-1-4-character-creation-1-4-9-filling-out-the-character-sheet-e4f251c1]] - source section: 1.4 Character Creation / 1.4.9 Filling Out the Character Sheet shares source evidence from 1.4 Character Creation / 1.4.9 Filling Out the Character Sheet: The Character Sheet that accompanies this book is designed to record and list various character details. This will help keep the game running smoothly.; 1.4 Character Creation / 1.4.9 Filling Out the Character Sheet shares technical record from Table 1-5: Backgrounds or Table 1-6: highest adventurer skill level. Write this: Table 1-5: Backgrounds or Table 1-6:   highest adventurer skill level. Write this record and list various character details. Starting Experience by Race in the    nu ... [truncated] (18 shared statement(s), 5 shared atom(s))
+- [[sword-world-rpg-complete-edition-section-chapter-3-3-4-4-actions-you-can-take-while-standing-still-scores-used-in-weapon-combat-filling-o-8360c4a4]] - source section: Chapter 3: / 3.4.4 Actions You Can Take While Standing Still / Scores Used in Weapon Combat / Filling out the Character Sheet shares source evidence from Chapter 3: / 3.4.4 Actions You Can Take While Standing Still / Scores Used in Weapon Combat / Filling out the Character Sheet: Please write these scores in the designated fields on the Character Sheet. This will make the game run more smoothly. (7 shared statement(s))
+- [[sword-world-rpg-complete-edition-section-2-6-success-rolls-using-adventurer-level-resistance-rolls-filling-out-the-character-sheet-dfbf3a97]] - source section: 2.6 Success Rolls Using Adventurer Level / Resistance Rolls / Filling Out the Character Sheet shares source evidence from 2.6 Success Rolls Using Adventurer Level / Resistance Rolls / Filling Out the Character Sheet: The two resistance rolls are frequently performed. Therefore, it' s advisable to make a note of the baseline score ( resistance ) so that it is readily available. Th ... [truncated] (5 shared statement(s))
+- [[sword-world-rpg-complete-edition-section-spellsongs-filling-out-the-character-sheet-de617cbb]] - source section: Spellsongs / Filling out the Character Sheet shares source evidence from Spellsongs / Filling out the Character Sheet: Characters with the bard skill write the names of the spellsongs they have learned in the designated field ( Spellsongs ) on their character sheet. (1 shared statement(s))
+
+### Shared technical atoms
+
 - [[sword-world-rpg-complete-edition-adventurer-level]] - shared statements and technical atoms: 1.3.3 Adventurer Level shares source evidence from 1.4 Character Creation / 1.4.9 Filling Out the Character Sheet / [ ⑭ Adventurer Level ]: Once you've acquired your final skills (starting skill and growth via starting experience points), you can determine your adventurer level.; 1.3.3 Adventurer Level shares technical record from 1.4 Character Creation / 1.4.9 Filling Out the Character Sheet / [ ⑭ Adventurer Level ] / [ ⑮ Purchase Equipment]: When you purchase weapons, shields, and armor, write them in the appropriate fields (Table 1-8: Weapons, Table 1-9: Armor, and Table 1-10: Shields). (3 shared statement(s), 1 shared atom(s))
+
+### Shared claims
+
 - [[sword-world-rpg-complete-edition-target-score]] - shared statements: Target Scores shares source evidence from 4.10 Excellent Weapons and Armor / 4.10.4 Mithril Silver Weapons and Armor / Basic Rules of Magic / Filling out the Character Sheet: When attempting to cast resistible magic on a monster, the caster must determine whether their opponent can resist it. Y ou must make a success roll using caster's m ... [truncated] (3 shared statement(s))
 - [[sword-world-rpg-complete-edition-ability-bonuse]] - shared statements: 【 Ability Bonuses 】 shares source evidence from 1.4 Character Creation / 1.4.2 Determine Ability Scores: Once the ability scores have been determined, also find the ability bonuses and write them down on the Character Sheet. (2 shared statement(s))
 - [[sword-world-rpg-complete-edition-attack-character-monster]] - shared statements: Attacks From Characters Against Monsters shares source evidence from Chapter 3: / 3.4.4 Actions You Can Take While Standing Still / Scores Used in Weapon Combat / Filling out the Character Sheet: These procedures differ when the attacker and defender are character against monster , monster against character , or character against character . There is one othe ... [truncated] (1 shared statement(s))
@@ -554,13 +551,6 @@ Movement slows down while the song continues. -3 to attack points and evasion po
 - [[sword-world-rpg-complete-edition-critical-target-variation]] - shared statements: Critical Target Variation shares source evidence from Chapter 3: / 3.4.4 Actions You Can Take While Standing Still / Scores Used in Weapon Combat / Filling out the Character Sheet: The entry fields may seem complicated, but this is to assist you when using Chapter 16: Optional Rules for Combat (see p. 260). Now, don't worry about it too much. I ... [truncated] (1 shared statement(s))
 - [[sword-world-rpg-complete-edition-damage-reduction]] - shared statements: 【 Damage Reduction 】 shares source evidence from Chapter 3: / 3.4.4 Actions You Can Take While Standing Still / Scores Used in Weapon Combat / Filling out the Character Sheet: The entry fields may seem complicated, but this is to assist you when using Chapter 16: Optional Rules for Combat (see p. 260). Now, don't worry about it too much. I ... [truncated] (1 shared statement(s))
 - [[sword-world-rpg-complete-edition-hit-check]] - shared statements: 4.5.1 Hit Checks shares source evidence from Chapter 3: / 3.4.4 Actions You Can Take While Standing Still / Scores Used in Weapon Combat / Filling out the Character Sheet: Have you learned each of these terms? Now, let's get into the actual description of the combat procedure. Combat consists of two checks: one is made to determine if ... [truncated] (1 shared statement(s))
-- [[sword-world-rpg-complete-edition-weapon-critical]] - shared statements: 《 Weapons Cannot Critical 》 shares source evidence from Chapter 3: / 3.4.4 Actions You Can Take While Standing Still / Scores Used in Weapon Combat / Filling out the Character Sheet: The entry fields may seem complicated, but this is to assist you when using Chapter 16: Optional Rules for Combat (see p. 260). Now, don't worry about it too much. I ... [truncated] (1 shared statement(s))
-- [[sword-world-rpg-complete-edition-section-1-4-character-creation-1-4-9-filling-out-the-character-sheet-e4f251c1]] - source section: 1.4 Character Creation / 1.4.9 Filling Out the Character Sheet shares source evidence from 1.4 Character Creation / 1.4.9 Filling Out the Character Sheet: The Character Sheet that accompanies this book is designed to record and list various character details. This will help keep the game running smoothly.; 1.4 Character Creation / 1.4.9 Filling Out the Character Sheet shares technical record from Table 1-5: Backgrounds or Table 1-6: highest adventurer skill level. Write this: Table 1-5: Backgrounds or Table 1-6:   highest adventurer skill level. Write this record and list various character details. Starting Experience by Race in the    nu ... [truncated] (18 shared statement(s), 5 shared atom(s))
-- [[sword-world-rpg-complete-edition-section-2-6-success-rolls-using-adventurer-level-resistance-rolls-filling-out-the-character-sheet-dfbf3a97]] - source section: 2.6 Success Rolls Using Adventurer Level / Resistance Rolls / Filling Out the Character Sheet shares source evidence from 2.6 Success Rolls Using Adventurer Level / Resistance Rolls / Filling Out the Character Sheet: The two resistance rolls are frequently performed. Therefore, it' s advisable to make a note of the baseline score ( resistance ) so that it is readily available. Th ... [truncated] (5 shared statement(s))
-- [[sword-world-rpg-complete-edition-section-chapter-3-3-4-4-actions-you-can-take-while-standing-still-scores-used-in-weapon-combat-filling-o-8360c4a4]] - source section: Chapter 3: / 3.4.4 Actions You Can Take While Standing Still / Scores Used in Weapon Combat / Filling out the Character Sheet shares source evidence from Chapter 3: / 3.4.4 Actions You Can Take While Standing Still / Scores Used in Weapon Combat / Filling out the Character Sheet: Please write these scores in the designated fields on the Character Sheet. This will make the game run more smoothly. (7 shared statement(s))
-- [[sword-world-rpg-complete-edition-section-4-10-excellent-weapons-and-armor-4-10-4-mithril-silver-weapons-and-armor-basic-rules-of-magic-fi-cb04ed3d]] - source section: 4.10 Excellent Weapons and Armor / 4.10.4 Mithril Silver Weapons and Armor / Basic Rules of Magic / Filling out the Character Sheet shares source evidence from 4.10 Excellent Weapons and Armor / 4.10.4 Mithril Silver Weapons and Armor / Basic Rules of Magic / Filling out the Character Sheet: On the Character Sheet, there is a magic field. Characters with rune master skills must write their runes , skill level , and magic power in this field.; 4.10 Excellent Weapons and Armor / 4.10.4 Mithril Silver Weapons and Armor / Basic Rules of Magic / Filling out the Character Sheet shares technical record from 4.10 Excellent Weapons and Armor / 4.10.4 Mithril Silver Weapons and Armor / Basic Rules of Magic / Filling out the Character Sheet: Magic that is resistible can be rendered ineffective or less effective if the target chooses to resist . (30 shared statement(s), 17 shared atom(s))
-- [[sword-world-rpg-complete-edition-section-spellsongs-filling-out-the-character-sheet-866f5da1]] - source section: Spellsongs / Filling out the Character Sheet shares source evidence from Spellsongs / Filling out the Character Sheet: belongs to mind explained under 5.1.9: Magic Types (see p. 63). In other words, each one counters (overpowers): and cannot take an effect at the same time as magic o ... [truncated]; Spellsongs / Filling out the Character Sheet shares technical record from Spellsongs / Filling out the Character Sheet: In other words, each one counters (overpowers): and cannot take an effect at the same time as magic or other spellsongs that also belong to mind . (61 shared statement(s), 12 shared atom(s))
-- [[sword-world-rpg-complete-edition-section-spellsongs-filling-out-the-character-sheet-de617cbb]] - source section: Spellsongs / Filling out the Character Sheet shares source evidence from Spellsongs / Filling out the Character Sheet: Characters with the bard skill write the names of the spellsongs they have learned in the designated field ( Spellsongs ) on their character sheet. (1 shared statement(s))
 
 ## Source
 

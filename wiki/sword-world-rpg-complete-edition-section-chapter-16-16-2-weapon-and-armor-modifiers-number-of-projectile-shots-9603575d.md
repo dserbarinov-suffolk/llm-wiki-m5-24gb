@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-16-16-2-weapon-and-armor-modifiers-number-of-projectile-shots-9603575d@5763c05457e8755705199f16ae53b478
+projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-16-16-2-weapon-and-armor-modifiers-number-of-projectile-shots-9603575d@dd7c4a5c10d1277e13881c9846593f30
 ---
 
 # Chapter 16: / 16.2 Weapon and Armor Modifiers / Number of Projectile Shots
@@ -17,9 +17,14 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-chapter-16-16-2-weapon-and-armor-modifiers-04ec9a3a]] - broader source section: Chapter 16: / 16.2 Weapon and Armor Modifiers
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-chapter-16-16-2-weapon-and-armor-modifiers-critical-target-variation-0b9847e4]] - previous source section: Chapter 16: / 16.2 Weapon and Armor Modifiers / Critical Target Variation
 - [[sword-world-rpg-complete-edition-section-chapter-16-16-2-weapon-and-armor-modifiers-armor-modifiers-b2d97cc2]] - next source section: Chapter 16: / 16.2 Weapon and Armor Modifiers / Armor Modifiers
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-chapter-16-16-2-weapon-and-armor-modifiers-04ec9a3a]] - broader source section: Chapter 16: / 16.2 Weapon and Armor Modifiers
 
 ## Statements
 
@@ -41,6 +46,7 @@ From [[sword-world-rpg-complete-edition]].
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-10202))_
 
+<a id="atom-technical-atom-debddd5ec163544a"></a>
 | Shield Name | Evasion Speed Mod. | Attack Power Mod. |
 | --- | --- | --- |
 | Small Shields | +1 | ±0 |

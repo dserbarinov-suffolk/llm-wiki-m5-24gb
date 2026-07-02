@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-5-1-17-special-holy-magic-list-rahda-special-holy-magic-list-legend-spell-level-7-0024b692@edd2c7a3144509a6aa3e98886796454a
+projection_coverage: section-sword-world-rpg-complete-edition-section-5-1-17-special-holy-magic-list-rahda-special-holy-magic-list-legend-spell-level-7-0024b692@7d12d34fa2d9f0709d75ae94bb39ca04
 ---
 
 # 5.1.17 Special Holy Magic List / Rahda Special Holy Magic List / [ Legend ] (Spell Level=7)
@@ -17,8 +17,13 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-5-1-17-special-holy-magic-list-rahda-special-holy-magic-list-2b5965cc]] - broader source section: 5.1.17 Special Holy Magic List / Rahda Special Holy Magic List
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-5-1-17-special-holy-magic-list-rahda-special-holy-magic-list-weak-point-spell-level-3-6c1dac85]] - previous source section: 5.1.17 Special Holy Magic List / Rahda Special Holy Magic List / [ Weak Point ] (Spell Level=3)
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-5-1-17-special-holy-magic-list-rahda-special-holy-magic-list-2b5965cc]] - broader source section: 5.1.17 Special Holy Magic List / Rahda Special Holy Magic List
 
 ## Statements
 

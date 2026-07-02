@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-other-sleep-eye-15812a51@265b4eef5b2bdc77c2986ca6a1f4724f
+projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-other-sleep-eye-15812a51@cf6852d726be5e13e456361b53f3b74b
 ---
 
 # Chapter 14: / 14.4 Magical Item List / 《 Other 》 / [ Sleep Eye ]
@@ -17,9 +17,14 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-other-ae5b041d]] - broader source section: Chapter 14: / 14.4 Magical Item List / 《 Other 》
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-other-spirit-sealing-stone-3f5be059]] - previous source section: Chapter 14: / 14.4 Magical Item List / 《 Other 》 / [ Spirit Sealing Stone ]
 - [[sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-other-zero-gravity-disc-62d99559]] - next source section: Chapter 14: / 14.4 Magical Item List / 《 Other 》 / [ Zero Gravity Disc ]
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-other-ae5b041d]] - broader source section: Chapter 14: / 14.4 Magical Item List / 《 Other 》
 
 ## Statements
 
@@ -32,6 +37,7 @@ From [[sword-world-rpg-complete-edition]].
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-09826))_
 
+<a id="atom-technical-atom-00ac4bbfaf378dd8"></a>
 ```text
 Table 14-1: Daemon  Jar Summon
  form as the statue. A shapeshifted form

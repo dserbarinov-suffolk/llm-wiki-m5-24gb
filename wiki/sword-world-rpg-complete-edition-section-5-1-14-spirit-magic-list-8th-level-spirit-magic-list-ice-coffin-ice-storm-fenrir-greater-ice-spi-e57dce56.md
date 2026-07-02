@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-5-1-14-spirit-magic-list-8th-level-spirit-magic-list-ice-coffin-ice-storm-fenrir-greater-ice-spi-e57dce56@ed1da32dc57e319ddf7c5b32ab7c3bbb
+projection_coverage: section-sword-world-rpg-complete-edition-section-5-1-14-spirit-magic-list-8th-level-spirit-magic-list-ice-coffin-ice-storm-fenrir-greater-ice-spi-e57dce56@a7c4b92e15055deb45a1eda6c4924d1d
 ---
 
 # 5.1.14 Spirit Magic List / 8th Level Spirit Magic List [ Ice Coffin ] / [ Ice Storm ] (Fenrir/Greater Ice Spirit)
@@ -17,8 +17,13 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-5-1-14-spirit-magic-list-8th-level-spirit-magic-list-ice-coffin-3b781afa]] - broader source section: 5.1.14 Spirit Magic List / 8th Level Spirit Magic List [ Ice Coffin ]
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-5-1-14-spirit-magic-list-8th-level-spirit-magic-list-ice-coffin-current-kraken-greater-water-spi-8ff1d3c5]] - next source section: 5.1.14 Spirit Magic List / 8th Level Spirit Magic List [ Ice Coffin ] / [ Current ] (Kraken/Greater Water Spirit)
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-5-1-14-spirit-magic-list-8th-level-spirit-magic-list-ice-coffin-3b781afa]] - broader source section: 5.1.14 Spirit Magic List / 8th Level Spirit Magic List [ Ice Coffin ]
 
 ## Statements
 

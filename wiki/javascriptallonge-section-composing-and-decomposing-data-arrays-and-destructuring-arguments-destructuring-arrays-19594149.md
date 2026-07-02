@@ -4,11 +4,11 @@ page_kind: source
 summary: Composing and Decomposing Data / Arrays and Destructuring Arguments / destructuring arrays: 10 source-backed entries and 2 atom(s) from raw/javascriptallonge.pdf.
 page_family: section-reference
 sources: raw/javascriptallonge.pdf
-updated: 2026-07-01
+updated: 2026-07-02
 domain: javascriptallonge
 category_path: sources/javascriptallonge/sections
 source_id: javascriptallonge.pdf
-projection_coverage: section-javascriptallonge-section-composing-and-decomposing-data-arrays-and-destructuring-arguments-destructuring-arrays-19594149@1d3beab912db671454b2396ccc433cf8
+projection_coverage: section-javascriptallonge-section-composing-and-decomposing-data-arrays-and-destructuring-arguments-destructuring-arrays-19594149@c887827a8cdb14d59afa5a286647e201
 ---
 
 # Composing and Decomposing Data / Arrays and Destructuring Arguments / destructuring arrays
@@ -17,9 +17,14 @@ From [[javascriptallonge]].
 
 ## Related pages
 
-- [[javascriptallonge-section-composing-and-decomposing-data-arrays-and-destructuring-arguments-c857af65]] - broader source section: Composing and Decomposing Data / Arrays and Destructuring Arguments
+### Source order
+
 - [[javascriptallonge-section-composing-and-decomposing-data-arrays-and-destructuring-arguments-element-references-24b6e6cb]] - previous source section: Composing and Decomposing Data / Arrays and Destructuring Arguments / element references
 - [[javascriptallonge-section-composing-and-decomposing-data-arrays-and-destructuring-arguments-gathering-781aaf08]] - next source section: Composing and Decomposing Data / Arrays and Destructuring Arguments / gathering
+
+### Source structure
+
+- [[javascriptallonge-section-composing-and-decomposing-data-arrays-and-destructuring-arguments-c857af65]] - broader source section: Composing and Decomposing Data / Arrays and Destructuring Arguments
 
 ## Statements
 
@@ -39,6 +44,7 @@ From [[javascriptallonge]].
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00836))_
 
+<a id="atom-technical-atom-f35e446be8a2c0dc"></a>
 ```
 const wrap = (something) => [something];
 Let’s expand it to use a block and an extra name:
@@ -54,6 +60,7 @@ const wrapped = [something];
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00837))_
 
+<a id="atom-technical-atom-7c6d2c5a26cb3115"></a>
 ```
 const wrap = (something) => {
 const wrapped = [something]

@@ -4,10 +4,10 @@ page_kind: concept
 summary: Return: 18 statement(s) and 20 atom(s) from raw/javascriptallonge.pdf.
 page_family: broad-topic
 sources: raw/javascriptallonge.pdf
-updated: 2026-07-01
+updated: 2026-07-02
 domain: javascriptallonge
 category_path: concepts
-projection_coverage: topic-javascriptallonge-return@612a4d7695fc8d933621ba8bfdd2e7a5
+projection_coverage: topic-javascriptallonge-return@46d554d2095f8be6aad5eba95592371c
 ---
 
 # Return
@@ -92,6 +92,7 @@ What [[javascriptallonge]] covers about return:
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00191))_
 
+<a id="atom-technical-atom-cd2dde484415bb44"></a>
 ```
 (() => 1)()
 //=> 1
@@ -109,6 +110,7 @@ What [[javascriptallonge]] covers about return:
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00194))_
 
+<a id="atom-technical-atom-23c16ebe3854932d"></a>
 ```
 (() => 1 + 1)()
 //=> 2
@@ -126,6 +128,7 @@ What [[javascriptallonge]] covers about return:
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00199))_
 
+<a id="atom-technical-atom-d80a006f6758d4fe"></a>
 > When dealing with expressions that have a lot of the same characters (like parentheses), you may find it helpful to format the code to make things stand out.
 
 ### Technical frame 4: Or even: / the simplest possible block
@@ -136,6 +139,7 @@ What [[javascriptallonge]] covers about return:
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00214))_
 
+<a id="atom-technical-atom-e7a38235b4846c3c"></a>
 ```
 () => {}
 ```
@@ -148,6 +152,7 @@ What [[javascriptallonge]] covers about return:
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00216))_
 
+<a id="atom-technical-atom-b310aa297ef111e0"></a>
 ```
 (() => {})()
 //=> undefined
@@ -161,6 +166,7 @@ What [[javascriptallonge]] covers about return:
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00246))_
 
+<a id="atom-technical-atom-d51366af88ef2feb"></a>
 ```text
 //=> undefined
 We said that the function returns the result of evaluating a block, and we said that a block is a
@@ -285,6 +291,7 @@ Ah. I’d Like to Have an Argument, Please.22
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00565))_
 
+<a id="atom-technical-atom-f97ec19748b3df8d"></a>
 ```text
 function decorators
 A function decorator is a higher-order function that takes one function as an argument, returns another function, and the returned function is a variation of the argument function. Here's a ridiculously simple decorator: 38
@@ -310,6 +317,7 @@ A function decorator is a higher-order function that takes one function as an ar
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00593))_
 
+<a id="atom-technical-atom-5fc00c3a7dcf13db"></a>
 ```
 const mapWith = (fn) =>
 (array) => map(array, fn);
@@ -326,6 +334,7 @@ squareAll([1, 2, 3])
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00772))_
 
+<a id="atom-technical-atom-39a1812ab600996f"></a>
 ```
 !5
 //=> false
@@ -341,6 +350,7 @@ squareAll([1, 2, 3])
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00944))_
 
+<a id="atom-technical-atom-cd3d0c436ec9b9d0"></a>
 ```
 const length = (array) => foldWith((first, rest) => 1 + rest, 0, array);
 length([1, 2, 3, 4, 5])
@@ -355,6 +365,7 @@ length([1, 2, 3, 4, 5])
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01584))_
 
+<a id="atom-technical-atom-fbbf1aa0775abd4d"></a>
 ```
 const mapWith = (fn, collection) =>
 ({
@@ -378,6 +389,7 @@ return ({done, value: done ? undefined : fn(value)});
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01587))_
 
+<a id="atom-technical-atom-bbfb5055a2d70d9e"></a>
 ```
 const Evens = mapWith((x) => 2 * x, Numbers);
 for (const i of Evens) {
@@ -406,6 +418,7 @@ console.log(i)
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01603))_
 
+<a id="atom-technical-atom-1581b42a5e1872cd"></a>
 ```
 const first = (iterable) =>
 iterable[Symbol.iterator]().next().value;
@@ -427,6 +440,7 @@ return iterator;
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01662))_
 
+<a id="atom-technical-atom-7ba461d3f7d71aec"></a>
 ```
 function * empty () {};
 empty().next()
@@ -442,6 +456,7 @@ empty().next()
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01663))_
 
+<a id="atom-technical-atom-6448be6bd77c9be5"></a>
 > When we invoke empty , we get an iterator with no elements.
 
 ### Technical frame 16: Served by the Pot: Collections / Generating Iterables / javascript's generators
@@ -452,6 +467,7 @@ empty().next()
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01668))_
 
+<a id="atom-technical-atom-797ebebbdc5a7e27"></a>
 ```
 only("you").next()
 //=>
@@ -469,6 +485,7 @@ only("the lonely").next()
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01705))_
 
+<a id="atom-technical-atom-10582a3c053cd9e3"></a>
 > If we call our generator function more than once, we get new iterators.
 
 ### Technical frame 18: Served by the Pot: Collections / Generating Iterables / yielding iterables
@@ -479,6 +496,7 @@ only("the lonely").next()
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01726))_
 
+<a id="atom-technical-atom-7b0b457a7a31fd36"></a>
 ```
 const isIterable = (something) =>
 !!something[Symbol.iterator];
@@ -516,6 +534,7 @@ console.log(i);
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01728))_
 
+<a id="atom-technical-atom-1cc140d49fd735af"></a>
 > But if you can write it as a simple generator, write it as a simple generator.
 
 ### Technical frame 20: Lazy and Eager Collections / lazy collection operations
@@ -526,6 +545,7 @@ console.log(i);
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01786))_
 
+<a id="atom-technical-atom-55e3e5b8db0117c3"></a>
 ```
 Stack.from([ 0,
 1,
@@ -547,31 +567,27 @@ Stack.from([ 0,
 
 ## Related pages
 
-- [[javascriptallonge-function-return-value]] - narrower topic: Function Return Value shares technical record from The first sip: Basic Functions / As Little As Possible About Functions, But No Less / functions that return values and evaluate expressions: (() => 1 + 1)() //=> 2 (() => "Hello, " + "JavaScript")() //=> "Hello, JavaScript" (() => Infinity * Infinity)() //=> Infinity (2 shared atom(s))
+### Shared technical atoms
+
 - [[javascriptallonge-iterator]] - shared statements and technical atoms: Iterator shares source evidence from Served by the Pot: Collections / Generating Iterables / javascript's generators: Invoking only("you") returns an iterator that we can call with .next() , and it yields "you" . Invoking only more than once gives us fresh iterators each time:; Iterator shares technical record from Served by the Pot: Collections / Iteration and Iterables / operations on ordered collections: const mapWith = (fn, collection) => ({ [Symbol.iterator] () { const iterator = collection[Symbol.iterator](); return { next () { const {done, value} = iterator.next( ... [truncated] (2 shared statement(s), 5 shared atom(s))
 - [[javascriptallonge-argument]] - shared statements and technical atoms: Argument shares source evidence from And also: / Combinators and Function Decorators / higher-order functions: As we've seen, JavaScript functions take values as arguments and return values. JavaScript functions are values, so JavaScript functions can take functions as argume ... [truncated]; Argument shares technical record from And also: / Combinators and Function Decorators / function decorators: const mapWith = (fn) => (array) => map(array, fn); const squareAll = mapWith((n) => n * n); squareAll([1, 2, 3]) //=> [1, 4, 9] (3 shared statement(s), 3 shared atom(s))
 - [[javascriptallonge-javascript]] - shared statements and technical atoms: Javascript shares source evidence from Served by the Pot: Collections / Generating Iterables / generators and iterables: Our generator function oneTwoThree is not an iterator. It's a function that returns an iterator when we invoke it. We write the function to yield values instead of r ... [truncated]; Javascript shares technical record from Or even: / back on the block: !5 //=> false !undefined //=> true (1 shared statement(s), 4 shared atom(s))
 - [[javascriptallonge-object]] - shared statements and technical atoms: Object shares source evidence from Served by the Pot: Collections / Generating Iterables / generators and iterables: Our generator function oneTwoThree is not an iterator. It's a function that returns an iterator when we invoke it. We write the function to yield values instead of r ... [truncated]; Object shares technical record from Served by the Pot: Collections / Generating Iterables / generators and iterables: If we call our generator function more than once, we get new iterators. (1 shared statement(s), 3 shared atom(s))
-- [[javascriptallonge-element]] - shared statements and technical atoms: Element shares source evidence from Served by the Pot: Collections / Iteration and Iterables / operations on ordered collections: For completeness, here are two more handy iterable functions. first returns the first element of an iterable (if it has one), and rest returns an iterable that itera ... [truncated]; Element shares technical record from Served by the Pot: Collections / Iteration and Iterables / operations on ordered collections: const first = (iterable) => iterable[Symbol.iterator]().next().value; const rest = (iterable) => ({ [Symbol.iterator] () { const iterator = iterable[Symbol.iterator] ... [truncated] (1 shared statement(s), 2 shared atom(s))
-- [[javascriptallonge-iterable]] - shared statements and technical atoms: Iterable shares source evidence from Served by the Pot: Collections / Iteration and Iterables / operations on ordered collections: For completeness, here are two more handy iterable functions. first returns the first element of an iterable (if it has one), and rest returns an iterable that itera ... [truncated]; Iterable shares technical record from Served by the Pot: Collections / Iteration and Iterables / operations on ordered collections: const first = (iterable) => iterable[Symbol.iterator]().next().value; const rest = (iterable) => ({ [Symbol.iterator] () { const iterator = iterable[Symbol.iterator] ... [truncated] (1 shared statement(s), 1 shared atom(s))
-- [[javascriptallonge-partial-application]] - shared statements and technical atoms: partial application shares source evidence from And also: / Building Blocks / partial application: The resulting functionsquareAll -is still the map function, it's just that we've applied one of its two arguments already. squareAll is nice, but why write one funct ... [truncated]; partial application shares technical record from And also: / Building Blocks / partial application: const mapWith = (fn) => (array) => map(array, fn); const squareAll = mapWith((n) => n * n); squareAll([1, 2, 3]) //=> [1, 4, 9] (1 shared statement(s), 1 shared atom(s))
-- [[javascriptallonge-write]] - shared statements and technical atoms: Write shares source evidence from Served by the Pot: Collections / Generating Iterables / generators and iterables: Our generator function oneTwoThree is not an iterator. It's a function that returns an iterator when we invoke it. We write the function to yield values instead of r ... [truncated]; Write shares technical record from Served by the Pot: Collections / Generating Iterables / generators and iterables: If we call our generator function more than once, we get new iterators. (1 shared statement(s), 1 shared atom(s))
 - [[javascriptallonge-iteration]] - shared technical atoms: Iteration shares technical record from Served by the Pot: Collections / Iteration and Iterables / operations on ordered collections: const mapWith = (fn, collection) => ({ [Symbol.iterator] () { const iterator = collection[Symbol.iterator](); return { next () { const {done, value} = iterator.next( ... [truncated] (3 shared atom(s))
 - [[javascriptallonge-method]] - shared technical atoms: Method shares technical record from Served by the Pot: Collections / Generating Iterables / javascript's generators: function * empty () {}; empty().next() //=> {"done":true} (3 shared atom(s))
+- [[javascriptallonge-element]] - shared statements and technical atoms: Element shares source evidence from Served by the Pot: Collections / Iteration and Iterables / operations on ordered collections: For completeness, here are two more handy iterable functions. first returns the first element of an iterable (if it has one), and rest returns an iterable that itera ... [truncated]; Element shares technical record from Served by the Pot: Collections / Iteration and Iterables / operations on ordered collections: const first = (iterable) => iterable[Symbol.iterator]().next().value; const rest = (iterable) => ({ [Symbol.iterator] () { const iterator = iterable[Symbol.iterator] ... [truncated] (1 shared statement(s), 2 shared atom(s))
 - [[javascriptallonge-collection]] - shared technical atoms: Collection shares technical record from Served by the Pot: Collections / Iteration and Iterables / operations on ordered collections: const mapWith = (fn, collection) => ({ [Symbol.iterator] () { const iterator = collection[Symbol.iterator](); return { next () { const {done, value} = iterator.next( ... [truncated] (2 shared atom(s))
-- [[javascriptallonge-operation]] - shared technical atoms: Operation shares technical record from Served by the Pot: Collections / Iteration and Iterables / operations on ordered collections: const mapWith = (fn, collection) => ({ [Symbol.iterator] () { const iterator = collection[Symbol.iterator](); return { next () { const {done, value} = iterator.next( ... [truncated] (2 shared atom(s))
-- [[javascriptallonge-decorator]] - shared technical atoms: Decorator shares technical record from And also: / Combinators and Function Decorators / function decorators: function decorators A function decorator is a higher-order function that takes one function as an argument, returns another function, and the returned function is a ... [truncated] (1 shared atom(s))
-- [[javascriptallonge-evaluate]] - shared technical atoms: Evaluate shares technical record from Or even: / back on the block: //=> undefined We said that the function returns the result of evaluating a block, and we said that a block is a (possibly empty) list of JavaScript statements separ ... [truncated] (1 shared atom(s))
-- [[javascriptallonge-expression]] - shared technical atoms: Expression shares technical record from Or even: / back on the block: //=> undefined We said that the function returns the result of evaluating a block, and we said that a block is a (possibly empty) list of JavaScript statements separ ... [truncated] (1 shared atom(s))
-- [[javascriptallonge-generator]] - shared technical atoms: Generator shares technical record from Served by the Pot: Collections / Generating Iterables / generators and iterables: If we call our generator function more than once, we get new iterators. (1 shared atom(s))
-- [[javascriptallonge-list]] - shared technical atoms: List shares technical record from Or even: / back on the block: //=> undefined We said that the function returns the result of evaluating a block, and we said that a block is a (possibly empty) list of JavaScript statements separ ... [truncated] (1 shared atom(s))
-- [[javascriptallonge-operator]] - shared technical atoms: Operator shares technical record from Picking the Bean: Choice and Truthiness / truthiness and operators: !5 //=> false !undefined //=> true (1 shared atom(s))
-- [[javascriptallonge-statement]] - shared technical atoms: Statement shares technical record from Or even: / back on the block: //=> undefined We said that the function returns the result of evaluating a block, and we said that a block is a (possibly empty) list of JavaScript statements separ ... [truncated] (1 shared atom(s))
-- [[javascriptallonge-truthiness]] - shared technical atoms: Truthiness shares technical record from Picking the Bean: Choice and Truthiness / truthiness and operators: !5 //=> false !undefined //=> true (1 shared atom(s))
+
+### Shared claims
+
 - [[javascriptallonge-body]] - shared statements: Body shares source evidence from Served by the Pot: Collections / Generating Iterables / generators are coroutines: The body of our generator runs until it returns, ends, or encounters a yield statement, which is yield 1; . (4 shared statement(s))
 - [[javascriptallonge-copy-write]] - shared statements: Copy on Write shares source evidence from Copy on Write / Functional Iterators / iterating: Now this is something else. The arrayIterator function takes an array and returns a function we can call repeatedly to obtain the elements of the array. The iterator ... [truncated] (2 shared statement(s))
 - [[javascriptallonge-functional-iterator]] - shared statements: Functional Iterators shares source evidence from Copy on Write / Functional Iterators / iterating: Now this is something else. The arrayIterator function takes an array and returns a function we can call repeatedly to obtain the elements of the array. The iterator ... [truncated] (1 shared statement(s))
 - [[javascriptallonge-parameter]] - shared statements: Parameter shares source evidence from Copy on Write / Making Data Out Of Functions / the vireo: Given that our latin data is represented as the function (selector) => selector("primus")("secundus") , our obvious next step is to make a function that makes data. ... [truncated] (1 shared statement(s))
+
+### Topics
+
+- [[javascriptallonge-function-return-value]] - narrower topic: Function Return Value shares technical record from The first sip: Basic Functions / As Little As Possible About Functions, But No Less / functions that return values and evaluate expressions: (() => 1 + 1)() //=> 2 (() => "Hello, " + "JavaScript")() //=> "Hello, JavaScript" (() => Infinity * Infinity)() //=> Infinity (2 shared atom(s))
 
 ## Source
 

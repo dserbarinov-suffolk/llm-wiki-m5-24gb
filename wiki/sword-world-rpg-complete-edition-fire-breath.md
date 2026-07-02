@@ -7,7 +7,7 @@ sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: concepts
-projection_coverage: topic-sword-world-rpg-complete-edition-fire-breath@df4a1af80f3d3cca77272be6a22caf2b
+projection_coverage: topic-sword-world-rpg-complete-edition-fire-breath@26b85e378979a66a6da7651ce9528826
 ---
 
 # [ Fire Breath ]
@@ -39,34 +39,41 @@ What [[sword-world-rpg-complete-edition]] covers about [ fire breath ]:
 
 **Atoms:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-05221, source-range-0d48087c-05222, source-range-0d48087c-05223, source-range-0d48087c-05224, source-range-0d48087c-05225, source-range-0d48087c-05226, source-range-0d48087c-05227, source-range-0d48087c-05228))_
 
+<a id="atom-technical-atom-55794380ef9b3ba8"></a>
 > Base Mental Power Cost=20
 
+<a id="atom-technical-atom-f40585e9bda3e7a2"></a>
 > Distance=Caster
 
+<a id="atom-technical-atom-a2f3b91b1945bb27"></a>
 > Area=Semicircle with a 10 meter forward radius
 
+<a id="atom-technical-atom-5cfc564ca3616150"></a>
 > Duration=Instant
 
+<a id="atom-technical-atom-53bb424628a79a22"></a>
 > Effect=Breathe fire from the mouth
 
+<a id="atom-technical-atom-a42117f3bf91dbfc"></a>
 > Type=Damage (Fire-type)
 
+<a id="atom-technical-atom-24070ddbf051feaf"></a>
 > Expansion=Final score, area, damage certainty
 
+<a id="atom-technical-atom-dc321a1e9d58d7f4"></a>
 > Resist=Reduced effect
-
-### Technical frame 2: 13.2.6 Mythical Beasts and Magical Beasts / [ Horse ] / 13.6 Handling Monster Special Abilities / 《 Fire Breath 》
-
-**Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-08773))_
-
-> You must also make a mental power resistance roll against the indicated target score, which if successful will result in a smaller amount of damage.
 
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-bonus-damage]] - shared statements: 【 Bonus Damage 】 shares source evidence from Chapter 11: Notes on Magic / 11.3 Dragon Roar Magic / 4th Level Dragon Roar Magic List / [ Fire Breath ]: The caster breathes fire from their mouth like a dragon. The fire's area of effect is a semicircle with a 10 meter forward radius. The fire's strike power is 20, and ... [truncated] (1 shared statement(s))
+### Source structure
+
 - [[sword-world-rpg-complete-edition-section-chapter-11-notes-on-magic-11-3-dragon-roar-magic-4th-level-dragon-roar-magic-list-fire-breath-e075b4b3]] - source section: Chapter 11: Notes on Magic / 11.3 Dragon Roar Magic / 4th Level Dragon Roar Magic List / [ Fire Breath ] shares source evidence from Chapter 11: Notes on Magic / 11.3 Dragon Roar Magic / 4th Level Dragon Roar Magic List / [ Fire Breath ]: The caster breathes fire from their mouth like a dragon. The fire's area of effect is a semicircle with a 10 meter forward radius. The fire's strike power is 20, and ... [truncated]; Chapter 11: Notes on Magic / 11.3 Dragon Roar Magic / 4th Level Dragon Roar Magic List / [ Fire Breath ] shares technical record from Chapter 11: Notes on Magic / 11.3 Dragon Roar Magic / 4th Level Dragon Roar Magic List / [ Fire Breath ]: Base Mental Power Cost=20 (2 shared statement(s), 8 shared atom(s))
 - [[sword-world-rpg-complete-edition-section-13-2-6-mythical-beasts-and-magical-beasts-horse-13-6-handling-monster-special-abilities-fire-bre-d2c73283]] - source section: 13.2.6 Mythical Beasts and Magical Beasts / [ Horse ] / 13.6 Handling Monster Special Abilities / 《 Fire Breath 》 shares source evidence from 13.2.6 Mythical Beasts and Magical Beasts / [ Horse ] / 13.6 Handling Monster Special Abilities / 《 Fire Breath 》: Monsters with this ability can breathe fire. Characters exposed to the fire (the range of the fire varies by monster) will suffer damage. This damage cannot be preve ... [truncated]; 13.2.6 Mythical Beasts and Magical Beasts / [ Horse ] / 13.6 Handling Monster Special Abilities / 《 Fire Breath 》 shares technical record from 13.2.6 Mythical Beasts and Magical Beasts / [ Horse ] / 13.6 Handling Monster Special Abilities / 《 Fire Breath 》: You must also make a mental power resistance roll against the indicated target score, which if successful will result in a smaller amount of damage. (1 shared statement(s), 1 shared atom(s))
+
+### Shared claims
+
+- [[sword-world-rpg-complete-edition-bonus-damage]] - shared statements: 【 Bonus Damage 】 shares source evidence from Chapter 11: Notes on Magic / 11.3 Dragon Roar Magic / 4th Level Dragon Roar Magic List / [ Fire Breath ]: The caster breathes fire from their mouth like a dragon. The fire's area of effect is a semicircle with a 10 meter forward radius. The fire's strike power is 20, and ... [truncated] (1 shared statement(s))
 
 ## Source
 

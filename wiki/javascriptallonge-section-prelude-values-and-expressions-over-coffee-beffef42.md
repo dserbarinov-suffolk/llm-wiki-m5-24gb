@@ -4,11 +4,11 @@ page_kind: source
 summary: Prelude: Values and Expressions over Coffee: 50 source-backed entries and 4 atom(s) from raw/javascriptallonge.pdf.
 page_family: section-reference
 sources: raw/javascriptallonge.pdf
-updated: 2026-07-01
+updated: 2026-07-02
 domain: javascriptallonge
 category_path: sources/javascriptallonge/sections
 source_id: javascriptallonge.pdf
-projection_coverage: section-javascriptallonge-section-prelude-values-and-expressions-over-coffee-beffef42@77c15435b5b783073dc926ff1b24f816
+projection_coverage: section-javascriptallonge-section-prelude-values-and-expressions-over-coffee-beffef42@0a86e7ecb1e246be4a200b9d1f7dd9ea
 ---
 
 # Prelude: Values and Expressions over Coffee
@@ -17,9 +17,14 @@ From [[javascriptallonge]].
 
 ## Related pages
 
-- [[javascriptallonge-section-prelude-values-and-expressions-over-coffee-values-are-expressions-fd7c9f69]] - narrower source section: Prelude: Values and Expressions over Coffee / values are expressions
+### Source order
+
 - [[javascriptallonge-section-ecmascript-6-has-three-major-groups-of-features-631f6890]] - previous source section: ECMAScript 6 has three major groups of features:
 - [[javascriptallonge-section-a-rich-aroma-basic-numbers-ef9b6d69]] - next source section: A Rich Aroma: Basic Numbers
+
+### Source structure
+
+- [[javascriptallonge-section-prelude-values-and-expressions-over-coffee-values-are-expressions-fd7c9f69]] - narrower source section: Prelude: Values and Expressions over Coffee / values are expressions
 
 ## Statements by subsection
 
@@ -56,6 +61,7 @@ From [[javascriptallonge]].
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00101))_
 
+<a id="atom-technical-atom-1ed7f0e9f3243661"></a>
 ```text
 Prelude: Values and Expressions over Coffee
 The following material is extremely basic, however like most stories, the best way to begin is to start at the very beginning.
@@ -83,6 +89,7 @@ You express your order at one end of their counter, the folks behind the counter
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00111))_
 
+<a id="atom-technical-atom-4d47451f3e2595d1"></a>
 > And if we hand over the espresso, we get the espresso right back.
 
 ### Technical frame 3: Prelude: Values and Expressions over Coffee / values are expressions
@@ -93,6 +100,7 @@ You express your order at one end of their counter, the folks behind the counter
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00114))_
 
+<a id="atom-technical-atom-a3ddd2e6a907036d"></a>
 ```text
 10 Technically, it's a representation of a value using Base10 notation, but we needn't worry about that in this book. You and I both understand that this means '42,' and so does the computer.
 11 In some languages, expressions are a kind of value unto themselves and can be manipulated. The grandfather of such languages is Lisp. JavaScript is not such a language, expressions in and of themselves are not values.
@@ -116,6 +124,7 @@ You express your order at one end of their counter, the folks behind the counter
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00116))_
 
+<a id="atom-technical-atom-bd6b2150c17dfd44"></a>
 ```text
 2 In JavaScript, we test whether two values are identical with the operator, and whether they are === not identical with the operator: !== 2 === 2 //=> true 'hello' !== 'goodbye' //=> true How does work, exactly? Imagine that you’re shown a cup of coffee. And then you’re shown === another cup of coffee. Are the two cups “identical?” In JavaScript, there are four possibilities: First, sometimes, the cups are of different kinds. One is a demitasse, the other a mug. This corresponds to comparing two things in JavaScript that have different types. For example, the string "2" is not the same thing as the number 2. Strings and numbers are different types, so strings and numbers are never identical:
 2 === '2' //=> false true !== 'true' //=> true Second, sometimes, the cups are of the same type–perhaps two espresso cups–but they have different contents. One holds a single, one a double. This corresponds to comparing two JavaScript values that have the same type but different “content.” For example, the number 5 is not the same thing as the number 2. true === false //=> false

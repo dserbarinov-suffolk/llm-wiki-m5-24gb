@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-focus-bba4a423@04b8662998114025531da20ab60cb930
+projection_coverage: section-sword-world-rpg-complete-edition-section-focus-bba4a423@e056d98dfdb687fb452d1eaa5fa89532
 ---
 
 # 《 Focus 》
@@ -16,6 +16,8 @@ projection_coverage: section-sword-world-rpg-complete-edition-section-focus-bba4
 From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
+
+### Source order
 
 - [[sword-world-rpg-complete-edition-section-illusion-4928a046]] - next source section: 《 Illusion 》
 

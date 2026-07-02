@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-13-2-6-mythical-beasts-and-magical-beasts-horse-13-4-representing-special-monsters-with-characte-a07b5e34@68b7253ca17a3eaa69591dcd8900c8c0
+projection_coverage: section-sword-world-rpg-complete-edition-section-13-2-6-mythical-beasts-and-magical-beasts-horse-13-4-representing-special-monsters-with-characte-a07b5e34@4250da836d1b21bd32d468bca870e47e
 ---
 
 # 13.2.6 Mythical Beasts and Magical Beasts / [ Horse ] / 13.4 Representing Special Monsters with Character Data
@@ -17,9 +17,14 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-13-2-6-mythical-beasts-and-magical-beasts-horse-9c294c60]] - broader source section: 13.2.6 Mythical Beasts and Magical Beasts / [ Horse ]
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-13-2-6-mythical-beasts-and-magical-beasts-horse-13-3-converting-character-data-to-monster-data-3a448e24]] - previous source section: 13.2.6 Mythical Beasts and Magical Beasts / [ Horse ] / 13.3 Converting Character Data to Monster Data
 - [[sword-world-rpg-complete-edition-section-13-2-6-mythical-beasts-and-magical-beasts-horse-13-5-monster-level-and-adventurer-level-ee4c9cb3]] - next source section: 13.2.6 Mythical Beasts and Magical Beasts / [ Horse ] / 13.5 Monster Level and Adventurer Level
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-13-2-6-mythical-beasts-and-magical-beasts-horse-9c294c60]] - broader source section: 13.2.6 Mythical Beasts and Magical Beasts / [ Horse ]
 
 ## Statements
 
@@ -39,6 +44,7 @@ From [[sword-world-rpg-complete-edition]].
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-08678))_
 
+<a id="atom-technical-atom-f8075dfc72a94c65"></a>
 | Sub-Ability Score | Featherfolk | Merman | Dark Elf | Noble Lizardman | Centaur |
 | --- | --- | --- | --- | --- | --- |
 | A B C D E F G H | 2D 1D+6 2D 2D 1D+3 2D 1D+2 2D+6 | 2D 1D+6 2D 2D 1/2D 2D 2D 1D+6 | 1D+6 1D+6 1D+6 1D+6 1D 1/2D 1D+4 1D+6 | 2D 1D+3 2D 2D 2D 2D+6 2D 2D | 2D 2D 2D 2D 1D+6 1D+6 1D+6 1D |

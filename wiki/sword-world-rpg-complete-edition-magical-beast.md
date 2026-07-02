@@ -7,7 +7,7 @@ sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: concepts
-projection_coverage: topic-sword-world-rpg-complete-edition-magical-beast@34b4b9af0b25c1b724ebe293872b8a6a
+projection_coverage: topic-sword-world-rpg-complete-edition-magical-beast@34c68e8d6bafb7e0c8b623aa9cf50bce
 ---
 
 # Magical Beast
@@ -68,12 +68,18 @@ What [[sword-world-rpg-complete-edition]] covers about magical beast:
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-06557))_
 
+<a id="atom-technical-atom-8d30512d1e70c795"></a>
 > Slaves have low intellect and cannot use magic.
 
 
 ## Related pages
 
+### Shared technical atoms
+
 - [[sword-world-rpg-complete-edition-13-mythical-beast]] - shared statements and technical atoms: 13 Mythical Beast shares source evidence from 13.2.6 Mythical Beasts and Magical Beasts / [ Lizardman ]: The magic used by noble lizardmen is said to be dragon roar magic. Although the Witch of Orphan Laverna assumed that the lizardman family was closely related to drag ... [truncated]; 13 Mythical Beast shares technical record from 13.2.6 Mythical Beasts and Magical Beasts / [ Lizardman ]: Slaves have low intellect and cannot use magic. (4 shared statement(s), 1 shared atom(s))
+
+### Shared claims
+
 - [[sword-world-rpg-complete-edition-mythical-beast]] - shared statements: Mythical Beast shares source evidence from 13.1 Types of Monsters / 《 Mythical Beasts and Magical Beasts 》: Mythical beast and magical beast are general terms for monsters that have living bodies, unlike spirits or undead. These include three types: things that have existe ... [truncated] (5 shared statement(s))
 
 ## Source

@@ -4,11 +4,11 @@ page_kind: source
 summary: Composing and Decomposing Data / Arrays and Destructuring Arguments / destructuring is not pattern matching: 12 source-backed entries and 0 atom(s) from raw/javascriptallonge.pdf.
 page_family: section-reference
 sources: raw/javascriptallonge.pdf
-updated: 2026-07-01
+updated: 2026-07-02
 domain: javascriptallonge
 category_path: sources/javascriptallonge/sections
 source_id: javascriptallonge.pdf
-projection_coverage: section-javascriptallonge-section-composing-and-decomposing-data-arrays-and-destructuring-arguments-destructuring-is-not-pattern-m-4de47703@eda0337d9fe3987e1d00dfd2e3f85f44
+projection_coverage: section-javascriptallonge-section-composing-and-decomposing-data-arrays-and-destructuring-arguments-destructuring-is-not-pattern-m-4de47703@2fa9538978b40a78bdf7766b07e97a1d
 ---
 
 # Composing and Decomposing Data / Arrays and Destructuring Arguments / destructuring is not pattern matching
@@ -17,9 +17,14 @@ From [[javascriptallonge]].
 
 ## Related pages
 
-- [[javascriptallonge-section-composing-and-decomposing-data-arrays-and-destructuring-arguments-c857af65]] - broader source section: Composing and Decomposing Data / Arrays and Destructuring Arguments
+### Source order
+
 - [[javascriptallonge-section-composing-and-decomposing-data-arrays-and-destructuring-arguments-gathering-781aaf08]] - previous source section: Composing and Decomposing Data / Arrays and Destructuring Arguments / gathering
 - [[javascriptallonge-section-composing-and-decomposing-data-arrays-and-destructuring-arguments-destructuring-and-return-value-65445863]] - next source section: Composing and Decomposing Data / Arrays and Destructuring Arguments / destructuring and return values
+
+### Source structure
+
+- [[javascriptallonge-section-composing-and-decomposing-data-arrays-and-destructuring-arguments-c857af65]] - broader source section: Composing and Decomposing Data / Arrays and Destructuring Arguments
 
 ## Statements
 

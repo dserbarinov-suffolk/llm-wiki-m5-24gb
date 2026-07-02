@@ -4,11 +4,11 @@ page_kind: source
 summary: Recipes with Basic Functions / Left-Variadic Functions: 27 source-backed entries and 2 atom(s) from raw/javascriptallonge.pdf.
 page_family: section-reference
 sources: raw/javascriptallonge.pdf
-updated: 2026-07-01
+updated: 2026-07-02
 domain: javascriptallonge
 category_path: sources/javascriptallonge/sections
 source_id: javascriptallonge.pdf
-projection_coverage: section-javascriptallonge-section-recipes-with-basic-functions-left-variadic-functions-c0cc9e6b@c3b0b8dbf2df20b767f9f64c8d13a498
+projection_coverage: section-javascriptallonge-section-recipes-with-basic-functions-left-variadic-functions-c0cc9e6b@8b876661c2cf54154ceed33fb56501a5
 ---
 
 # Recipes with Basic Functions / Left-Variadic Functions
@@ -17,11 +17,16 @@ From [[javascriptallonge]].
 
 ## Related pages
 
+### Source order
+
+- [[javascriptallonge-section-recipes-with-basic-functions-once-9048fede]] - previous source section: Recipes with Basic Functions / Once
+
+### Source structure
+
 - [[javascriptallonge-section-recipes-with-basic-functions-58df4c63]] - broader source section: Recipes with Basic Functions
 - [[javascriptallonge-section-recipes-with-basic-functions-left-variadic-functions-a-history-lesson-153d863d]] - narrower source section: Recipes with Basic Functions / Left-Variadic Functions / a history lesson
-- [[javascriptallonge-section-recipes-with-basic-functions-left-variadic-functions-overcoming-limitations-ba6c5a7e]] - narrower source section: Recipes with Basic Functions / Left-Variadic Functions / overcoming limitations
 - [[javascriptallonge-section-recipes-with-basic-functions-left-variadic-functions-left-variadic-destructuring-c0fee83e]] - narrower source section: Recipes with Basic Functions / Left-Variadic Functions / left-variadic destructuring
-- [[javascriptallonge-section-recipes-with-basic-functions-once-9048fede]] - previous source section: Recipes with Basic Functions / Once
+- [[javascriptallonge-section-recipes-with-basic-functions-left-variadic-functions-overcoming-limitations-ba6c5a7e]] - narrower source section: Recipes with Basic Functions / Left-Variadic Functions / overcoming limitations
 
 ## Statements
 
@@ -60,6 +65,7 @@ From [[javascriptallonge]].
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00713))_
 
+<a id="atom-technical-atom-0055f260c20f9697"></a>
 ```
 const abccc = (a, b, ...c) => {
 console.log(a);
@@ -80,6 +86,7 @@ abccc(1, 2, 3, 4, 5)
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00743))_
 
+<a id="atom-technical-atom-75b1facae029040a"></a>
 ```
 const leftGather = (outputArrayLength) => {
 return function (inputArray) {

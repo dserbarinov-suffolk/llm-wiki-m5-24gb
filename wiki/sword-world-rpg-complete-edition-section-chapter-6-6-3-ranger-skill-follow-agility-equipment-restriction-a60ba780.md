@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-6-6-3-ranger-skill-follow-agility-equipment-restriction-a60ba780@bec394416d9563d85c23b2160bb35f36
+projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-6-6-3-ranger-skill-follow-agility-equipment-restriction-a60ba780@2e86df44bdb594eaa781efa2f00d672e
 ---
 
 # Chapter 6: / 6.3 Ranger Skill / [ ⑬ Follow [Agility] ] (Equipment restriction)
@@ -17,9 +17,14 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-chapter-6-6-3-ranger-skill-ae825c0d]] - broader source section: Chapter 6: / 6.3 Ranger Skill
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-chapter-6-6-3-ranger-skill-projectile-use-dexterity-strength-no-equipment-restriction-ecda9f65]] - previous source section: Chapter 6: / 6.3 Ranger Skill / [ ⑫ Projectile Use [Dexterity, Strength] ] (No equipment restriction)
 - [[sword-world-rpg-complete-edition-section-chapter-6-6-3-ranger-skill-surprise-attack-intelligence-no-equipment-restriction-b52af17c]] - next source section: Chapter 6: / 6.3 Ranger Skill / [ ⑭ Surprise Attack [Intelligence]] (No equipment restriction)
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-chapter-6-6-3-ranger-skill-ae825c0d]] - broader source section: Chapter 6: / 6.3 Ranger Skill
 
 ## Statements
 

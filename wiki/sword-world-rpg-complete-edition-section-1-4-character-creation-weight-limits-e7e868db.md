@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-1-4-character-creation-weight-limits-e7e868db@0a41d3223fd94a0c6c222da69e4a8997
+projection_coverage: section-sword-world-rpg-complete-edition-section-1-4-character-creation-weight-limits-e7e868db@150d4014ef920483e48e48b16bd3ac23
 ---
 
 # 1.4 Character Creation / [ Weight Limits ]
@@ -17,9 +17,14 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-1-4-character-creation-f6aa6108]] - broader source section: 1.4 Character Creation
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-1-4-character-creation-equipment-17ea0e40]] - previous source section: 1.4 Character Creation / Equipment
 - [[sword-world-rpg-complete-edition-section-1-4-character-creation-1-4-9-filling-out-the-character-sheet-e4f251c1]] - next source section: 1.4 Character Creation / 1.4.9 Filling Out the Character Sheet
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-1-4-character-creation-f6aa6108]] - broader source section: 1.4 Character Creation
 
 ## Statements
 
@@ -40,6 +45,7 @@ From [[sword-world-rpg-complete-edition]].
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-00845))_
 
+<a id="atom-technical-atom-ccde7f58305bb584"></a>
 | Category | Name | Price | (in | Gamels) |
 | --- | --- | --- | --- | --- |
 | Bags | Rucksack (leather) |  |  | 50 |
@@ -86,6 +92,7 @@ Table 1-11: Equipment
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-00861))_
 
+<a id="atom-technical-atom-cda1c57b4646c39b"></a>
 ```text
 100 pen／ink 5 Quill 100 Thieves' tools 100+ Musical instrument Food
 1 serving 3+
@@ -107,6 +114,7 @@ Table 1-11: Equipment
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-00878))_
 
+<a id="atom-technical-atom-fdeb895e8d6038d4"></a>
 ```text
 1 night (not including food)
 1 week (not including food)

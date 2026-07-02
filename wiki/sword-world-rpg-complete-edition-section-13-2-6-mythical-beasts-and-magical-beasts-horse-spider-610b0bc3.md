@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-13-2-6-mythical-beasts-and-magical-beasts-horse-spider-610b0bc3@e859ae727181d0f444384e563613f785
+projection_coverage: section-sword-world-rpg-complete-edition-section-13-2-6-mythical-beasts-and-magical-beasts-horse-spider-610b0bc3@3c2357885082efebc9121b3b1bd49048
 ---
 
 # 13.2.6 Mythical Beasts and Magical Beasts / [ Horse ] / [ Spider ]
@@ -17,9 +17,14 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-13-2-6-mythical-beasts-and-magical-beasts-horse-9c294c60]] - broader source section: 13.2.6 Mythical Beasts and Magical Beasts / [ Horse ]
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-13-2-6-mythical-beasts-and-magical-beasts-horse-snake-41b4e252]] - previous source section: 13.2.6 Mythical Beasts and Magical Beasts / [ Horse ] / [ Snake ]
 - [[sword-world-rpg-complete-edition-section-13-2-6-mythical-beasts-and-magical-beasts-horse-octopus-6ea7fd7f]] - next source section: 13.2.6 Mythical Beasts and Magical Beasts / [ Horse ] / [ Octopus ]
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-13-2-6-mythical-beasts-and-magical-beasts-horse-9c294c60]] - broader source section: 13.2.6 Mythical Beasts and Magical Beasts / [ Horse ]
 
 ## Statements
 
@@ -45,22 +50,31 @@ From [[sword-world-rpg-complete-edition]].
 
 **Atoms:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-07384, source-range-0d48087c-07385, source-range-0d48087c-07386, source-range-0d48087c-07387, source-range-0d48087c-07388, source-range-0d48087c-07389, source-range-0d48087c-07390, source-range-0d48087c-07391, source-range-0d48087c-07392))_
 
+<a id="atom-technical-atom-3c16a9cfd3e3a148"></a>
 > Monster Level=1
 
+<a id="atom-technical-atom-483ed47ba14fbe3c"></a>
 > Rarity=6
 
+<a id="atom-technical-atom-693bcf78e68849f5"></a>
 > Agility=12 Movement Speed=10
 
+<a id="atom-technical-atom-d9df08ddd3e8c6e5"></a>
 > Number=One to several
 
+<a id="atom-technical-atom-66eb1539e641cd0c"></a>
 > Frequency=Moderate
 
+<a id="atom-technical-atom-5ef37666fc550f41"></a>
 > Intellect=Almost none
 
+<a id="atom-technical-atom-4b37b73ae2cf73ed"></a>
 > Reaction=Hunger-based
 
+<a id="atom-technical-atom-5714e44abadda05a"></a>
 > Attack Points=Fangs:8 (1)
 
+<a id="atom-technical-atom-b178c17cf5b12bd3"></a>
 > Strike Points=6
 
 ### Technical frame 2: 13.2.6 Mythical Beasts and Magical Beasts / [ Horse ] / [ Spider ]
@@ -71,4 +85,5 @@ From [[sword-world-rpg-complete-edition]].
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-07398))_
 
+<a id="atom-technical-atom-a3893214588a7c34"></a>
 > If hit by the string attack, an adventurer will become entangled and lose their freedom of movement.

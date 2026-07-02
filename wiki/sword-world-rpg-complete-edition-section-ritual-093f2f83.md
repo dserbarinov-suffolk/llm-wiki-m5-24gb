@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-ritual-093f2f83@2c78814399a12439db583d0f935aa7e3
+projection_coverage: section-sword-world-rpg-complete-edition-section-ritual-093f2f83@d01373cda0c459b59cdea5efb82bdf82
 ---
 
 # 《 Ritual 》
@@ -16,6 +16,8 @@ projection_coverage: section-sword-world-rpg-complete-edition-section-ritual-093
 From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
+
+### Source order
 
 - [[sword-world-rpg-complete-edition-section-illusion-4928a046]] - previous source section: 《 Illusion 》
 - [[sword-world-rpg-complete-edition-section-lost-c0e20087]] - next source section: 《 Lost 》
@@ -44,6 +46,7 @@ From [[sword-world-rpg-complete-edition]].
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-01818))_
 
+<a id="atom-technical-atom-d0a2c69e0a59ac69"></a>
 > If the ritual takes two days (+2), one extra priest who can also use Remove Curse participates (+1), and 30 believers participate (+3), the final score bonus will be 2 x (1 + 3) = +8 .
 
 ### Technical frame 2: 《 Ritual 》
@@ -54,4 +57,5 @@ From [[sword-world-rpg-complete-edition]].
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-01822))_
 
+<a id="atom-technical-atom-0c2452d5ac315b8b"></a>
 > The game master may also use a ritual to perform other expansions (targets, area, volume, etc.) that the magic would allow.

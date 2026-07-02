@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-16-16-2-weapon-and-armor-modifiers-strike-power-modifier-c398c4b8@fbf4ecadd18caf0363f19ce778f22d05
+projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-16-16-2-weapon-and-armor-modifiers-strike-power-modifier-c398c4b8@3702130b8f48f3b0350713b5ed94b1a8
 ---
 
 # Chapter 16: / 16.2 Weapon and Armor Modifiers / Strike Power Modifier
@@ -17,9 +17,14 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-chapter-16-16-2-weapon-and-armor-modifiers-04ec9a3a]] - broader source section: Chapter 16: / 16.2 Weapon and Armor Modifiers
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-chapter-16-16-2-weapon-and-armor-modifiers-attack-power-modifier-80829277]] - previous source section: Chapter 16: / 16.2 Weapon and Armor Modifiers / Attack Power Modifier
 - [[sword-world-rpg-complete-edition-section-chapter-16-16-2-weapon-and-armor-modifiers-critical-target-variation-0b9847e4]] - next source section: Chapter 16: / 16.2 Weapon and Armor Modifiers / Critical Target Variation
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-chapter-16-16-2-weapon-and-armor-modifiers-04ec9a3a]] - broader source section: Chapter 16: / 16.2 Weapon and Armor Modifiers
 
 ## Statements
 

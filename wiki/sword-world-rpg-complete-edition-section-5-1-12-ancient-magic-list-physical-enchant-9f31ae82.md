@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-5-1-12-ancient-magic-list-physical-enchant-9f31ae82@b4b70991334a6ba64289e906eac3a57f
+projection_coverage: section-sword-world-rpg-complete-edition-section-5-1-12-ancient-magic-list-physical-enchant-9f31ae82@2bb883bfd2c5f46e680f7554fc44e020
 ---
 
 # 5.1.12 Ancient Magic List / [ Physical Enchant ]
@@ -17,9 +17,14 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-5-1-12-ancient-magic-list-2e59bfee]] - broader source section: 5.1.12 Ancient Magic List
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-5-1-12-ancient-magic-list-familiar-128bdc4d]] - previous source section: 5.1.12 Ancient Magic List / [ Familiar ]
 - [[sword-world-rpg-complete-edition-section-5-1-12-ancient-magic-list-bone-servant-79954b67]] - next source section: 5.1.12 Ancient Magic List / [ Bone Servant ]
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-5-1-12-ancient-magic-list-2e59bfee]] - broader source section: 5.1.12 Ancient Magic List
 
 ## Statements
 

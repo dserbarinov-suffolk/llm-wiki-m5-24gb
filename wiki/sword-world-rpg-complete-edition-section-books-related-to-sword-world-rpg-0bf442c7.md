@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-books-related-to-sword-world-rpg-0bf442c7@ffd54430d03674349621374179ec5fc7
+projection_coverage: section-sword-world-rpg-complete-edition-section-books-related-to-sword-world-rpg-0bf442c7@b88a01b25f75f8728872ad7aa7038085
 ---
 
 # Books Related to Sword World RPG
@@ -16,6 +16,8 @@ projection_coverage: section-sword-world-rpg-complete-edition-section-books-rela
 From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
+
+### Source order
 
 - [[sword-world-rpg-complete-edition-section-what-you-ll-need-to-play-sword-world-rpg-43efa1fc]] - previous source section: What You'll Need to Play Sword World RPG
 - [[sword-world-rpg-complete-edition-section-1-replay-collections-98ae659a]] - next source section: 1. Replay Collections

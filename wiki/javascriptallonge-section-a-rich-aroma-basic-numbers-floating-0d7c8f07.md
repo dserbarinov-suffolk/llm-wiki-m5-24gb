@@ -4,11 +4,11 @@ page_kind: source
 summary: A Rich Aroma: Basic Numbers / floating: 16 source-backed entries and 1 atom(s) from raw/javascriptallonge.pdf.
 page_family: section-reference
 sources: raw/javascriptallonge.pdf
-updated: 2026-07-01
+updated: 2026-07-02
 domain: javascriptallonge
 category_path: sources/javascriptallonge/sections
 source_id: javascriptallonge.pdf
-projection_coverage: section-javascriptallonge-section-a-rich-aroma-basic-numbers-floating-0d7c8f07@70c9c1e7d0e9821f6cb41474a8470762
+projection_coverage: section-javascriptallonge-section-a-rich-aroma-basic-numbers-floating-0d7c8f07@f524d3e98519b45b35d67ad51459ce7f
 ---
 
 # A Rich Aroma: Basic Numbers / floating
@@ -17,8 +17,13 @@ From [[javascriptallonge]].
 
 ## Related pages
 
-- [[javascriptallonge-section-a-rich-aroma-basic-numbers-ef9b6d69]] - broader source section: A Rich Aroma: Basic Numbers
+### Source order
+
 - [[javascriptallonge-section-a-rich-aroma-basic-numbers-operations-on-numbers-1b9984ae]] - next source section: A Rich Aroma: Basic Numbers / operations on numbers
+
+### Source structure
+
+- [[javascriptallonge-section-a-rich-aroma-basic-numbers-ef9b6d69]] - broader source section: A Rich Aroma: Basic Numbers
 
 ## Statements
 
@@ -40,6 +45,7 @@ From [[javascriptallonge]].
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00154))_
 
+<a id="atom-technical-atom-c55f74778c79c801"></a>
 ```text
 13 http://en.wikipedia.org/wiki/Double-precision_floating-point_format
 14 Implementations of JavaScript are free to handle larger numbers. For example, if you type 9007199254740991 + 9007199254740991 into node.js , it will happily report that the answer is 18014398509481982 . But code that depends upon numbers larger than 9007199254740991 may not be reliable when moved to other implementations.

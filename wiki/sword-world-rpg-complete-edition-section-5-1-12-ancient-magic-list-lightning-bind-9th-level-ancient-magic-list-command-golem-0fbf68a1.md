@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-5-1-12-ancient-magic-list-lightning-bind-9th-level-ancient-magic-list-command-golem-0fbf68a1@03866aae095ba2ac3d9add349d4dd0d1
+projection_coverage: section-sword-world-rpg-complete-edition-section-5-1-12-ancient-magic-list-lightning-bind-9th-level-ancient-magic-list-command-golem-0fbf68a1@99180d21804ffa35baa63e3b1e4a125d
 ---
 
 # 5.1.12 Ancient Magic List / [ Lightning Bind ] / 9th Level Ancient Magic List [ Command Golem ]
@@ -17,13 +17,18 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
+### Source order
+
+- [[sword-world-rpg-complete-edition-section-5-1-12-ancient-magic-list-lightning-bind-wraith-form-686db865]] - previous source section: 5.1.12 Ancient Magic List / [ Lightning Bind ] / [ Wraith Form ]
+- [[sword-world-rpg-complete-edition-section-5-1-12-ancient-magic-list-lightning-bind-10th-level-ancient-magic-list-dimension-gate-fc396ce7]] - next source section: 5.1.12 Ancient Magic List / [ Lightning Bind ] / 10th Level Ancient Magic List [ Dimension Gate ]
+
+### Source structure
+
 - [[sword-world-rpg-complete-edition-section-5-1-12-ancient-magic-list-lightning-bind-497e8a08]] - broader source section: 5.1.12 Ancient Magic List / [ Lightning Bind ]
 - [[sword-world-rpg-complete-edition-section-5-1-12-ancient-magic-list-lightning-bind-9th-level-ancient-magic-list-command-golem-control-weat-b0a3b602]] - narrower source section: 5.1.12 Ancient Magic List / [ Lightning Bind ] / 9th Level Ancient Magic List [ Command Golem ] / [ Control Weather ]
 - [[sword-world-rpg-complete-edition-section-5-1-12-ancient-magic-list-lightning-bind-9th-level-ancient-magic-list-command-golem-disintegrate-b789532b]] - narrower source section: 5.1.12 Ancient Magic List / [ Lightning Bind ] / 9th Level Ancient Magic List [ Command Golem ] / [ Disintegrate ]
 - [[sword-world-rpg-complete-edition-section-5-1-12-ancient-magic-list-lightning-bind-9th-level-ancient-magic-list-command-golem-petrificatio-e30a41e4]] - narrower source section: 5.1.12 Ancient Magic List / [ Lightning Bind ] / 9th Level Ancient Magic List [ Command Golem ] / [ Petrification
 - [[sword-world-rpg-complete-edition-section-5-1-12-ancient-magic-list-lightning-bind-9th-level-ancient-magic-list-command-golem-rune-shield-0181f761]] - narrower source section: 5.1.12 Ancient Magic List / [ Lightning Bind ] / 9th Level Ancient Magic List [ Command Golem ] / [ Rune Shield ]
-- [[sword-world-rpg-complete-edition-section-5-1-12-ancient-magic-list-lightning-bind-wraith-form-686db865]] - previous source section: 5.1.12 Ancient Magic List / [ Lightning Bind ] / [ Wraith Form ]
-- [[sword-world-rpg-complete-edition-section-5-1-12-ancient-magic-list-lightning-bind-10th-level-ancient-magic-list-dimension-gate-fc396ce7]] - next source section: 5.1.12 Ancient Magic List / [ Lightning Bind ] / 10th Level Ancient Magic List [ Dimension Gate ]
 
 ## Statements
 

@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-16-16-9-special-weapons-garrote-06874847@6bbe0752f6eca6d47ccd8d6add7185bb
+projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-16-16-9-special-weapons-garrote-06874847@996b81ae0a7ef7b0827f58457ad9a7ba
 ---
 
 # Chapter 16: / 16.9 Special Weapons / Garrote
@@ -17,8 +17,13 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-chapter-16-16-9-special-weapons-8824e2ed]] - broader source section: Chapter 16: / 16.9 Special Weapons
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-chapter-16-16-9-special-weapons-sap-blackjack-0444899b]] - previous source section: Chapter 16: / 16.9 Special Weapons / Sap (Blackjack)
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-chapter-16-16-9-special-weapons-8824e2ed]] - broader source section: Chapter 16: / 16.9 Special Weapons
 
 ## Statements
 

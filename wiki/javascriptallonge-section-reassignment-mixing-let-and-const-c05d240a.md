@@ -4,11 +4,11 @@ page_kind: source
 summary: Reassignment / mixing let and const: 21 source-backed entries and 1 atom(s) from raw/javascriptallonge.pdf.
 page_family: section-reference
 sources: raw/javascriptallonge.pdf
-updated: 2026-07-01
+updated: 2026-07-02
 domain: javascriptallonge
 category_path: sources/javascriptallonge/sections
 source_id: javascriptallonge.pdf
-projection_coverage: section-javascriptallonge-section-reassignment-mixing-let-and-const-c05d240a@b73caeab79b84e9f07ecd9fee54b48a2
+projection_coverage: section-javascriptallonge-section-reassignment-mixing-let-and-const-c05d240a@9bac1d7d4e7dd8d472a982642c55319f
 ---
 
 # Reassignment / mixing let and const
@@ -17,9 +17,14 @@ From [[javascriptallonge]].
 
 ## Related pages
 
+### Source order
+
+- [[javascriptallonge-section-reassignment-why-const-and-let-were-invented-d4d91fa1]] - next source section: Reassignment / why const and let were invented
+
+### Source structure
+
 - [[javascriptallonge-section-reassignment-ecc49acb]] - broader source section: Reassignment
 - [[javascriptallonge-section-reassignment-mixing-let-and-const-var-9446c873]] - narrower source section: Reassignment / mixing let and const / var
-- [[javascriptallonge-section-reassignment-why-const-and-let-were-invented-d4d91fa1]] - next source section: Reassignment / why const and let were invented
 
 ## Statements
 
@@ -49,6 +54,7 @@ From [[javascriptallonge]].
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01177))_
 
+<a id="atom-technical-atom-0912d8019a651001"></a>
 ```
 (() => {
 let age = 49;

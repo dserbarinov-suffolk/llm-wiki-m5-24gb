@@ -4,10 +4,10 @@ page_kind: concept
 summary: Expression: 19 statement(s) and 38 atom(s) from raw/javascriptallonge.pdf.
 page_family: broad-topic
 sources: raw/javascriptallonge.pdf
-updated: 2026-07-01
+updated: 2026-07-02
 domain: javascriptallonge
 category_path: concepts
-projection_coverage: topic-javascriptallonge-expression@a2b503aa16e18bad20462c5f6e4fd6c1
+projection_coverage: topic-javascriptallonge-expression@827ed6ac259fc36e828965a2aaa2506b
 ---
 
 # Expression
@@ -93,30 +93,7 @@ What [[javascriptallonge]] covers about expression:
 
 ## Technical atoms
 
-### Technical frame 1: Prelude: Values and Expressions over Coffee
-
-**Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00101))_
-
-```text
-Prelude: Values and Expressions over Coffee
-The following material is extremely basic, however like most stories, the best way to begin is to start at the very beginning.
-Imagine we are visiting our favourite coffee shop. They will make for you just about any drink you desire, from a short, intense espresso ristretto through a dry cappuccino, up to those coffee-flavoured desert concoctions featuring various concentrated syrups and milks. (You tolerate the existence of sugary drinks because they provide a sufficient profit margin to the establishment to finance your hanging out there all day using their WiFi and ordering a $3 drink every few hours.)
-You express your order at one end of their counter, the folks behind the counter perform their magic, and deliver the coffee you value at the other end. This is exactly how the JavaScript environment works for the purpose of this book. We are going to dispense with web servers, browsers and other complexities and deal with this simple model: You give the computer an expression 8 , and it returns a value 9 , just as you express your wishes to a barista and receive a coffee in return.
-8 https://en.wikipedia.org/wiki/Expression_
-9 https://en.wikipedia.org/wiki/Value_
-```
-
-<details>
-<summary>Parsed table preview (needs review)</summary>
-
-| entry | content |
-| --- | --- |
-| 8 | https://en.wikipedia.org/wiki/Expression_ |
-| 9 | https://en.wikipedia.org/wiki/Value_ |
-
-</details>
-
-### Technical frame 2: Prelude: Values and Expressions over Coffee / values are expressions
+### Technical frame 1: Prelude: Values and Expressions over Coffee / values are expressions
 
 **Context:** _(javascriptallonge.pdf (source-range-0e12e052-00122))_
 
@@ -124,6 +101,7 @@ You express your order at one end of their counter, the folks behind the counter
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00114))_
 
+<a id="atom-technical-atom-a3ddd2e6a907036d"></a>
 ```text
 10 Technically, it's a representation of a value using Base10 notation, but we needn't worry about that in this book. You and I both understand that this means '42,' and so does the computer.
 11 In some languages, expressions are a kind of value unto themselves and can be manipulated. The grandfather of such languages is Lisp. JavaScript is not such a language, expressions in and of themselves are not values.
@@ -139,7 +117,7 @@ You express your order at one end of their counter, the folks behind the counter
 
 </details>
 
-### Technical frame 3: Prelude: Values and Expressions over Coffee / values are expressions
+### Technical frame 2: Prelude: Values and Expressions over Coffee / values are expressions
 
 **Context:** _(javascriptallonge.pdf (source-range-0e12e052-00122))_
 
@@ -147,6 +125,7 @@ You express your order at one end of their counter, the folks behind the counter
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00116))_
 
+<a id="atom-technical-atom-bd6b2150c17dfd44"></a>
 ```text
 2 In JavaScript, we test whether two values are identical with the operator, and whether they are === not identical with the operator: !== 2 === 2 //=> true 'hello' !== 'goodbye' //=> true How does work, exactly? Imagine that you’re shown a cup of coffee. And then you’re shown === another cup of coffee. Are the two cups “identical?” In JavaScript, there are four possibilities: First, sometimes, the cups are of different kinds. One is a demitasse, the other a mug. This corresponds to comparing two things in JavaScript that have different types. For example, the string "2" is not the same thing as the number 2. Strings and numbers are different types, so strings and numbers are never identical:
 2 === '2' //=> false true !== 'true' //=> true Second, sometimes, the cups are of the same type–perhaps two espresso cups–but they have different contents. One holds a single, one a double. This corresponds to comparing two JavaScript values that have the same type but different “content.” For example, the number 5 is not the same thing as the number 2. true === false //=> false
@@ -165,7 +144,7 @@ You express your order at one end of their counter, the folks behind the counter
 
 </details>
 
-### Technical frame 4: Prelude: Values and Expressions over Coffee / values are expressions / reference types
+### Technical frame 3: Prelude: Values and Expressions over Coffee / values are expressions / reference types
 
 **Context:** _(javascriptallonge.pdf (source-range-0e12e052-00136))_
 
@@ -173,12 +152,13 @@ You express your order at one end of their counter, the folks behind the counter
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00135))_
 
+<a id="atom-technical-atom-ed5302c59156d0a2"></a>
 ```
 [2-1, 2, 2+1]
 [1, 1+1, 1+1+1]
 ```
 
-### Technical frame 5: A Rich Aroma: Basic Numbers / operations on numbers
+### Technical frame 4: A Rich Aroma: Basic Numbers / operations on numbers
 
 **Context:** _(javascriptallonge.pdf (source-range-0e12e052-00162))_
 
@@ -186,6 +166,7 @@ You express your order at one end of their counter, the folks behind the counter
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00161))_
 
+<a id="atom-technical-atom-de8908bc0a2e1c48"></a>
 ```
 2 * 5 + 1
 //=> 11
@@ -193,7 +174,7 @@ You express your order at one end of their counter, the folks behind the counter
 //=> 11
 ```
 
-### Technical frame 6: Or even: / back on the block
+### Technical frame 5: Or even: / back on the block
 
 **Context:** _(javascriptallonge.pdf (source-range-0e12e052-00243))_
 
@@ -201,12 +182,13 @@ You express your order at one end of their counter, the folks behind the counter
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00242))_
 
+<a id="atom-technical-atom-3078928c66d8a755"></a>
 ```
 () => { 2 + 2 }
 () => { 1 + 1; 2 + 2 }
 ```
 
-### Technical frame 7: Or even: / back on the block
+### Technical frame 6: Or even: / back on the block
 
 **Context:** _(javascriptallonge.pdf (source-range-0e12e052-00245))_
 
@@ -214,6 +196,7 @@ You express your order at one end of their counter, the folks behind the counter
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00246))_
 
+<a id="atom-technical-atom-d51366af88ef2feb"></a>
 ```text
 //=> undefined
 We said that the function returns the result of evaluating a block, and we said that a block is a
@@ -330,7 +313,7 @@ Ah. I’d Like to Have an Argument, Please.22
 
 </details>
 
-### Technical frame 8: And also: / That Constant Coffee Craving
+### Technical frame 7: And also: / That Constant Coffee Craving
 
 **Context:** _(javascriptallonge.pdf (source-range-0e12e052-00387))_
 
@@ -338,10 +321,26 @@ Ah. I’d Like to Have an Argument, Please.22
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00384))_
 
+<a id="atom-technical-atom-d9a852cd6bb0fca3"></a>
 ```
 ((PI) =>
 // ????
 )(3.14159265)
+```
+
+### Technical frame 8: And also: / That Constant Coffee Craving / inside-out
+
+**Context:** _(javascriptallonge.pdf (source-range-0e12e052-00397))_
+
+> Which one is better? Well, the first one seems simplest, but a half-century of experience has taught us that names matter. A 'magic literal' like 3.14159265 is anathema to sustainable software development.
+
+**Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00394))_
+
+<a id="atom-technical-atom-5867db6f7f79d9da"></a>
+```
+(diameter) =>
+((PI) =>
+diameter * PI)(3.14159265)
 ```
 
 ### Technical frame 9: And also: / That Constant Coffee Craving / inside-out
@@ -350,22 +349,9 @@ Ah. I’d Like to Have an Argument, Please.22
 
 > Which one is better? Well, the first one seems simplest, but a half-century of experience has taught us that names matter. A 'magic literal' like 3.14159265 is anathema to sustainable software development.
 
-**Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00394))_
-
-```
-(diameter) =>
-((PI) =>
-diameter * PI)(3.14159265)
-```
-
-### Technical frame 10: And also: / That Constant Coffee Craving / inside-out
-
-**Context:** _(javascriptallonge.pdf (source-range-0e12e052-00397))_
-
-> Which one is better? Well, the first one seems simplest, but a half-century of experience has taught us that names matter. A 'magic literal' like 3.14159265 is anathema to sustainable software development.
-
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00396))_
 
+<a id="atom-technical-atom-09bf555aa2e0fb26"></a>
 ```
 ((diameter) => diameter * 3.14159265)(2)
 //=> 6.2831853
@@ -379,7 +365,7 @@ diameter * PI)(3.14159265))(2)
 //=> 6.2831853
 ```
 
-### Technical frame 11: And also: / That Constant Coffee Craving / inside-out
+### Technical frame 10: And also: / That Constant Coffee Craving / inside-out
 
 **Context:** _(javascriptallonge.pdf (source-range-0e12e052-00401))_
 
@@ -387,12 +373,13 @@ diameter * PI)(3.14159265))(2)
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00400))_
 
+<a id="atom-technical-atom-f2e6dafd6f91a28c"></a>
 ```
 (diameter) =>
 // ...
 ```
 
-### Technical frame 12: And also: / That Constant Coffee Craving / const
+### Technical frame 11: And also: / That Constant Coffee Craving / const
 
 **Context:** _(javascriptallonge.pdf (source-range-0e12e052-00427))_
 
@@ -400,6 +387,7 @@ diameter * PI)(3.14159265))(2)
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00426))_
 
+<a id="atom-technical-atom-21caf88c6af4269f"></a>
 ```
 (d) => {
 const calc = (diameter) => {
@@ -410,7 +398,7 @@ return "The circumference is " + calc(d)
 }
 ```
 
-### Technical frame 13: And also: / That Constant Coffee Craving / const
+### Technical frame 12: And also: / That Constant Coffee Craving / const
 
 **Context:** _(javascriptallonge.pdf (source-range-0e12e052-00428))_
 
@@ -418,9 +406,10 @@ return "The circumference is " + calc(d)
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00427))_
 
+<a id="atom-technical-atom-07458faecbca866e"></a>
 > This underscores what we've said: if we have an expression that evaluates to a function, we apply it with () .
 
-### Technical frame 14: And also: / That Constant Coffee Craving / nested blocks
+### Technical frame 13: And also: / That Constant Coffee Craving / nested blocks
 
 **Context:** _(javascriptallonge.pdf (source-range-0e12e052-00441))_
 
@@ -428,6 +417,7 @@ return "The circumference is " + calc(d)
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00438))_
 
+<a id="atom-technical-atom-1b3bb52352723ac1"></a>
 ```
 (n) => {
 const even = (x) => {
@@ -439,7 +429,7 @@ return odd(x - 1);
 }
 ```
 
-### Technical frame 15: And also: / That Constant Coffee Craving / nested blocks
+### Technical frame 14: And also: / That Constant Coffee Craving / nested blocks
 
 **Context:** _(javascriptallonge.pdf (source-range-0e12e052-00441))_
 
@@ -447,6 +437,7 @@ return odd(x - 1);
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00439))_
 
+<a id="atom-technical-atom-1ec59ee6e5737160"></a>
 ```
 }
 return even(n)
@@ -465,7 +456,7 @@ return even(n)
 })(42)
 ```
 
-### Technical frame 16: And also: / That Constant Coffee Craving / nested blocks
+### Technical frame 15: And also: / That Constant Coffee Craving / nested blocks
 
 **Context:** _(javascriptallonge.pdf (source-range-0e12e052-00441))_
 
@@ -473,11 +464,12 @@ return even(n)
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00440))_
 
+<a id="atom-technical-atom-48d0846cdae20744"></a>
 ```
 //=> true
 ```
 
-### Technical frame 17: And also: / That Constant Coffee Craving / const and lexical scope
+### Technical frame 16: And also: / That Constant Coffee Craving / const and lexical scope
 
 **Context:** _(javascriptallonge.pdf (source-range-0e12e052-00449))_
 
@@ -485,6 +477,7 @@ return even(n)
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00448))_
 
+<a id="atom-technical-atom-1fcd50d7b7a6f5c2"></a>
 ```
 ((diameter_fn) =>
 diameter_fn(2)
@@ -496,7 +489,7 @@ diameter_fn(2)
 //=> 6.2831853
 ```
 
-### Technical frame 18: And also: / That Constant Coffee Craving / are consts also from a shadowy planet?
+### Technical frame 17: And also: / That Constant Coffee Craving / are consts also from a shadowy planet?
 
 **Context:** _(javascriptallonge.pdf (source-range-0e12e052-00470))_
 
@@ -504,6 +497,7 @@ diameter_fn(2)
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00469))_
 
+<a id="atom-technical-atom-9015b3cf2462a504"></a>
 ```
 ((PI) => {
 ((PI) => {})(3);
@@ -511,7 +505,7 @@ return (diameter) => diameter * PI;
 })(3.14159265)
 ```
 
-### Technical frame 19: And also: / Naming Functions / the function keyword
+### Technical frame 18: And also: / Naming Functions / the function keyword
 
 **Context:** _(javascriptallonge.pdf (source-range-0e12e052-00528))_
 
@@ -519,6 +513,7 @@ return (diameter) => diameter * PI;
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00527))_
 
+<a id="atom-technical-atom-8186b253c7941f9e"></a>
 ```
 (function even (n) {
 if (n === 0) {
@@ -536,7 +531,7 @@ else return !even(n - 1)
 //=> true
 ```
 
-### Technical frame 20: And also: / Naming Functions / the function keyword
+### Technical frame 19: And also: / Naming Functions / the function keyword
 
 **Context:** _(javascriptallonge.pdf (source-range-0e12e052-00530))_
 
@@ -544,12 +539,13 @@ else return !even(n - 1)
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00529))_
 
+<a id="atom-technical-atom-d19e2f64206e68c8"></a>
 ```
 even
 //=> Can't find variable: even
 ```
 
-### Technical frame 21: And also: / Naming Functions / function declaration caveats 34
+### Technical frame 20: And also: / Naming Functions / function declaration caveats 34
 
 **Context:** _(javascriptallonge.pdf (source-range-0e12e052-00546))_
 
@@ -557,6 +553,7 @@ even
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00545))_
 
+<a id="atom-technical-atom-ce289536d085780b"></a>
 ```
 (function (camelCase) {
 return fizzbuzz();
@@ -574,7 +571,7 @@ return "Fizz" + "Buzz";
 //=> 'FizzBuzz'? Or ERROR: Can't find variable: fizzbuzz?
 ```
 
-### Technical frame 22: And also: / Naming Functions / function declaration caveats 34
+### Technical frame 21: And also: / Naming Functions / function declaration caveats 34
 
 **Context:** _(javascriptallonge.pdf (source-range-0e12e052-00547))_
 
@@ -582,9 +579,10 @@ return "Fizz" + "Buzz";
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00546))_
 
+<a id="atom-technical-atom-e503dd92fb56c97b"></a>
 > Or it may work one way today and a different way when the JavaScript engine is updated, say with a new optimization.
 
-### Technical frame 23: And also: / Naming Functions / function declaration caveats 34
+### Technical frame 22: And also: / Naming Functions / function declaration caveats 34
 
 **Context:** _(javascriptallonge.pdf (source-range-0e12e052-00549))_
 
@@ -592,13 +590,14 @@ return "Fizz" + "Buzz";
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00548))_
 
+<a id="atom-technical-atom-ab153667b01d5d1e"></a>
 ```
 function trueDat () { return true }
 But this is not:
 (function trueDat () { return true })
 ```
 
-### Technical frame 24: And also: / Magic Names / magic names and fat arrows
+### Technical frame 23: And also: / Magic Names / magic names and fat arrows
 
 **Context:** _(javascriptallonge.pdf (source-range-0e12e052-00617))_
 
@@ -606,11 +605,28 @@ But this is not:
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00616))_
 
+<a id="atom-technical-atom-ba3ef853a0e0c78c"></a>
 ```
 (function () {
 return (function () { return arguments[0]; })('inner');
 })('outer')
 //=> "inner"
+```
+
+### Technical frame 24: Plain Old JavaScript Objects / literal object syntax
+
+**Context:** _(javascriptallonge.pdf (source-range-0e12e052-01086))_
+
+> It is very common to associate named function expressions with keys in objects, and there is a 'compact method syntax' for binding named function expressions to keywords:
+
+**Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01079))_
+
+<a id="atom-technical-atom-cc51638c02df5b7f"></a>
+```
+{
+["p" + "i"]: 3.14159265
+}
+//=> {"pi":3.14159265}
 ```
 
 ### Technical frame 25: Plain Old JavaScript Objects / literal object syntax
@@ -619,23 +635,9 @@ return (function () { return arguments[0]; })('inner');
 
 > It is very common to associate named function expressions with keys in objects, and there is a 'compact method syntax' for binding named function expressions to keywords:
 
-**Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01079))_
-
-```
-{
-["p" + "i"]: 3.14159265
-}
-//=> {"pi":3.14159265}
-```
-
-### Technical frame 26: Plain Old JavaScript Objects / literal object syntax
-
-**Context:** _(javascriptallonge.pdf (source-range-0e12e052-01086))_
-
-> It is very common to associate named function expressions with keys in objects, and there is a 'compact method syntax' for binding named function expressions to keywords:
-
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01085))_
 
+<a id="atom-technical-atom-b4d20d564095f58a"></a>
 ```
 const SecretDecoderRing = {
 encode: function encode (plaintext) {
@@ -657,7 +659,7 @@ return cyphertext
 }
 ```
 
-### Technical frame 27: Plain Old JavaScript Objects / literal object syntax
+### Technical frame 26: Plain Old JavaScript Objects / literal object syntax
 
 **Context:** _(javascriptallonge.pdf (source-range-0e12e052-01088))_
 
@@ -665,6 +667,7 @@ return cyphertext
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01087))_
 
+<a id="atom-technical-atom-309e77615053b1d2"></a>
 ```
 const SecretDecoderRing = {
 encode (plaintext) {
@@ -686,7 +689,7 @@ return cyphertext
 }
 ```
 
-### Technical frame 28: A Warm Cup: Basic Strings and Quasi-Literals / quasi-literals
+### Technical frame 27: A Warm Cup: Basic Strings and Quasi-Literals / quasi-literals
 
 **Context:** _(javascriptallonge.pdf (source-range-0e12e052-01502))_
 
@@ -694,6 +697,7 @@ return cyphertext
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01501))_
 
+<a id="atom-technical-atom-eba515be482d2fd3"></a>
 ```
 `foobar`
 //=> 'foobar'
@@ -701,7 +705,7 @@ return cyphertext
 //=> 'fizzbuzz'
 ```
 
-### Technical frame 29: A Warm Cup: Basic Strings and Quasi-Literals / quasi-literals
+### Technical frame 28: A Warm Cup: Basic Strings and Quasi-Literals / quasi-literals
 
 **Context:** _(javascriptallonge.pdf (source-range-0e12e052-01505))_
 
@@ -709,8 +713,23 @@ return cyphertext
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01504))_
 
+<a id="atom-technical-atom-fff19beffe4ba425"></a>
 ```
 `A popular number for nerds is ${40 + 2}`
+//=> 'A popular number for nerds is 42'
+```
+
+### Technical frame 29: A Warm Cup: Basic Strings and Quasi-Literals / quasi-literals
+
+**Context:** _(javascriptallonge.pdf (source-range-0e12e052-01508))_
+
+> However, there is a big semantic difference between a quasi-literal and an expression. Quasi-literals are expressions that resemble their result. They're easier to read and it's easier to avid errors like the following:
+
+**Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01507))_
+
+<a id="atom-technical-atom-a0702ab6f119b921"></a>
+```
+'A popular number for nerds is ' + (40 + 2)
 //=> 'A popular number for nerds is 42'
 ```
 
@@ -720,27 +739,15 @@ return cyphertext
 
 > However, there is a big semantic difference between a quasi-literal and an expression. Quasi-literals are expressions that resemble their result. They're easier to read and it's easier to avid errors like the following:
 
-**Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01507))_
-
-```
-'A popular number for nerds is ' + (40 + 2)
-//=> 'A popular number for nerds is 42'
-```
-
-### Technical frame 31: A Warm Cup: Basic Strings and Quasi-Literals / quasi-literals
-
-**Context:** _(javascriptallonge.pdf (source-range-0e12e052-01508))_
-
-> However, there is a big semantic difference between a quasi-literal and an expression. Quasi-literals are expressions that resemble their result. They're easier to read and it's easier to avid errors like the following:
-
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01509))_
 
+<a id="atom-technical-atom-6197af834ec5d959"></a>
 ```
 'A popular number for nerds is' + (40 + 2)
 //=> 'A popular number for nerds is42'
 ```
 
-### Technical frame 32: Served by the Pot: Collections / Iteration and Iterables / iterables
+### Technical frame 31: Served by the Pot: Collections / Iteration and Iterables / iterables
 
 **Context:** _(javascriptallonge.pdf (source-range-0e12e052-01557))_
 
@@ -748,6 +755,7 @@ return cyphertext
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01555))_
 
+<a id="atom-technical-atom-8ca29fcc27de5e8d"></a>
 ```
 const Stack3 = () =>
 ({
@@ -787,7 +795,7 @@ return {done: false, value: this.array[iterationIndex--]}
 const stack = Stack3();
 ```
 
-### Technical frame 33: Served by the Pot: Collections / Iteration and Iterables / iterables
+### Technical frame 32: Served by the Pot: Collections / Iteration and Iterables / iterables
 
 **Context:** _(javascriptallonge.pdf (source-range-0e12e052-01557))_
 
@@ -795,6 +803,7 @@ const stack = Stack3();
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01556))_
 
+<a id="atom-technical-atom-e36b76567b01bc93"></a>
 ```
 stack.push(2000);
 stack.push(10);
@@ -824,7 +833,7 @@ iterableSum(stack)
 //=> 2015
 ```
 
-### Technical frame 34: Lazy and Eager Collections / lazy collection operations
+### Technical frame 33: Lazy and Eager Collections / lazy collection operations
 
 **Context:** _(javascriptallonge.pdf (source-range-0e12e052-01782))_
 
@@ -832,6 +841,7 @@ iterableSum(stack)
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01781))_
 
+<a id="atom-technical-atom-41e9742bad9adbd2"></a>
 ```
 [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 .map((x) => x * x)
@@ -843,7 +853,7 @@ Pair.from([1, 2, 3, 4, 5, 6, 7, 8, 9, 10])
 .reduce((seed, element) => seed + element, 0)
 ```
 
-### Technical frame 35: Lazy and Eager Collections / lazy collection operations
+### Technical frame 34: Lazy and Eager Collections / lazy collection operations
 
 **Context:** _(javascriptallonge.pdf (source-range-0e12e052-01787))_
 
@@ -851,9 +861,10 @@ Pair.from([1, 2, 3, 4, 5, 6, 7, 8, 9, 10])
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01784))_
 
+<a id="atom-technical-atom-3c66eb00d74973d5"></a>
 > When working with very large collections and many operations, this can be important.
 
-### Technical frame 36: Lazy and Eager Collections / lazy collection operations
+### Technical frame 35: Lazy and Eager Collections / lazy collection operations
 
 **Context:** _(javascriptallonge.pdf (source-range-0e12e052-01787))_
 
@@ -861,9 +872,10 @@ Pair.from([1, 2, 3, 4, 5, 6, 7, 8, 9, 10])
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01785))_
 
+<a id="atom-technical-atom-0a63c8632a3e1a0d"></a>
 > The effect is even more pronounced when we use methods like first , until , or take :
 
-### Technical frame 37: The Golden Crema: Appendices and Afterwords / How to run the examples
+### Technical frame 36: The Golden Crema: Appendices and Afterwords / How to run the examples
 
 **Context:** _(javascriptallonge.pdf (source-range-0e12e052-01972))_
 
@@ -871,12 +883,13 @@ Pair.from([1, 2, 3, 4, 5, 6, 7, 8, 9, 10])
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01970))_
 
+<a id="atom-technical-atom-ff8518839e17b226"></a>
 ```
 100https://github.com
 101http://babeljs.io/
 ```
 
-### Technical frame 38: The Golden Crema: Appendices and Afterwords / How to run the examples
+### Technical frame 37: The Golden Crema: Appendices and Afterwords / How to run the examples
 
 **Context:** _(javascriptallonge.pdf (source-range-0e12e052-01972))_
 
@@ -884,6 +897,7 @@ Pair.from([1, 2, 3, 4, 5, 6, 7, 8, 9, 10])
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01971))_
 
+<a id="atom-technical-atom-91af19efea5a6bed"></a>
 ```
 const before = (decoration) =>
 (method) =>
@@ -909,27 +923,16 @@ return method.apply(this, args);
 
 ## Related pages
 
+### Shared technical atoms
+
+- [[javascriptallonge-bind]] - shared technical atoms: Bind shares technical record from And also: / That Constant Coffee Craving: ((PI) => // ???? )(3.14159265) (8 shared atom(s))
+- [[javascriptallonge-javascript]] - shared technical atoms: Javascript shares technical record from Prelude: Values and Expressions over Coffee / values are expressions: 2 * 5 + 1 //=> 11 1 + 5 * 2 //=> 11 (5 shared atom(s))
 - [[javascriptallonge-literal]] - shared statements and technical atoms: Literal shares source evidence from Composing and Decomposing Data / Self-Similarity: We saw that the basic idea that putting an array together with a literal array expression was the reverse or opposite of taking it apart with a destructuring assignment.; Literal shares technical record from A Warm Cup: Basic Strings and Quasi-Literals / quasi-literals: `foobar` //=> 'foobar' `fizz` + `buzz` //=> 'fizzbuzz' (2 shared statement(s), 4 shared atom(s))
+- [[javascriptallonge-statement]] - shared technical atoms: Statement shares technical record from Or even: / back on the block: //=> undefined We said that the function returns the result of evaluating a block, and we said that a block is a (possibly empty) list of JavaScript statements separ ... [truncated] (4 shared atom(s))
 - [[javascriptallonge-coffee]] - shared statements and technical atoms: Coffee shares source evidence from A Warm Cup: Basic Strings and Quasi-Literals: Coffee and a Book An expression is any valid unit of code that resolves to a value.-Mozilla Development Network: Expressions and operators 87; Coffee shares technical record from Prelude: Values and Expressions over Coffee: Prelude: Values and Expressions over Coffee The following material is extremely basic, however like most stories, the best way to begin is to start at the very begin ... [truncated] (1 shared statement(s), 3 shared atom(s))
 - [[javascriptallonge-object]] - shared statements and technical atoms: Object shares source evidence from Served by the Pot: Collections / Iteration and Iterables / iterables: The expression Symbol.iterator evaluates to a special symbol representing the name of the method that objects should use if they return an iterator object.; Object shares technical record from Plain Old JavaScript Objects / literal object syntax: const SecretDecoderRing = { encode (plaintext) { return plaintext .split('') .map( char => char.charCodeAt() ) .map( code => code + 1 ) .map( code => String.fromChar ... [truncated] (1 shared statement(s), 3 shared atom(s))
 - [[javascriptallonge-quasi]] - shared statements and technical atoms: Quasi shares source evidence from A Warm Cup: Basic Strings and Quasi-Literals / evaluation time: Like any other expression, quasi-literals are evaluated late , when that line or lines of code is evaluated.; Quasi shares technical record from A Warm Cup: Basic Strings and Quasi-Literals / quasi-literals: `foobar` //=> 'foobar' `fizz` + `buzz` //=> 'fizzbuzz' (1 shared statement(s), 3 shared atom(s))
 - [[javascriptallonge-quasi-literal]] - shared statements and technical atoms: Quasi Literal shares source evidence from A Warm Cup: Basic Strings and Quasi-Literals / evaluation time: Like any other expression, quasi-literals are evaluated late , when that line or lines of code is evaluated.; Quasi Literal shares technical record from A Warm Cup: Basic Strings and Quasi-Literals / quasi-literals: `foobar` //=> 'foobar' `fizz` + `buzz` //=> 'fizzbuzz' (1 shared statement(s), 3 shared atom(s))
-- [[javascriptallonge-evaluate]] - shared statements and technical atoms: Evaluate shares source evidence from Prelude: Values and Expressions over Coffee / values are expressions / reference types: They look the same, but if you examine them with === , you see that they are different. Every time you evaluate an expression (including typing something in) to crea ... [truncated]; Evaluate shares technical record from Or even: / back on the block: //=> undefined We said that the function returns the result of evaluating a block, and we said that a block is a (possibly empty) list of JavaScript statements separ ... [truncated] (4 shared statement(s), 1 shared atom(s))
-- [[javascriptallonge-function-keyword]] - shared statements and technical atoms: the function keyword shares source evidence from And also: / Naming Functions / the function keyword: In this expression, double is the name in the environment, but repeat is the function's actual name. This is a named function expression . That may seem confusing, b ... [truncated]; the function keyword shares technical record from And also: / Naming Functions / the function keyword: (function even (n) { if (n === 0) { return true } else return !even(n - 1) })(5) //=> false (function even (n) { if (n === 0) { return true } else return !even(n - 1 ... [truncated] (1 shared statement(s), 2 shared atom(s))
-- [[javascriptallonge-iterator]] - shared statements and technical atoms: Iterator shares source evidence from Served by the Pot: Collections / Iteration and Iterables / iterables: The expression Symbol.iterator evaluates to a special symbol representing the name of the method that objects should use if they return an iterator object.; Iterator shares technical record from Served by the Pot: Collections / Iteration and Iterables / iterables: const Stack3 = () => ({ array: [], index: -1, push (value) { return this.array[this.index += 1] = value; }, pop () { const value = this.array[this.index]; this.array ... [truncated] (1 shared statement(s), 2 shared atom(s))
-- [[javascriptallonge-method]] - shared statements and technical atoms: Method shares source evidence from Served by the Pot: Collections / Iteration and Iterables / iterables: The expression Symbol.iterator evaluates to a special symbol representing the name of the method that objects should use if they return an iterator object.; Method shares technical record from Served by the Pot: Collections / Iteration and Iterables / iterables: const Stack3 = () => ({ array: [], index: -1, push (value) { return this.array[this.index += 1] = value; }, pop () { const value = this.array[this.index]; this.array ... [truncated] (1 shared statement(s), 2 shared atom(s))
-- [[javascriptallonge-bind]] - shared technical atoms: Bind shares technical record from And also: / That Constant Coffee Craving: ((PI) => // ???? )(3.14159265) (8 shared atom(s))
-- [[javascriptallonge-javascript]] - shared technical atoms: Javascript shares technical record from Prelude: Values and Expressions over Coffee / values are expressions: 2 * 5 + 1 //=> 11 1 + 5 * 2 //=> 11 (5 shared atom(s))
-- [[javascriptallonge-statement]] - shared technical atoms: Statement shares technical record from Or even: / back on the block: //=> undefined We said that the function returns the result of evaluating a block, and we said that a block is a (possibly empty) list of JavaScript statements separ ... [truncated] (4 shared atom(s))
-- [[javascriptallonge-binding]] - shared technical atoms: Binding shares technical record from And also: / That Constant Coffee Craving / are consts also from a shadowy planet?: ((PI) => { ((PI) => {})(3); return (diameter) => diameter * PI; })(3.14159265) (2 shared atom(s))
-- [[javascriptallonge-iteration]] - shared technical atoms: Iteration shares technical record from Served by the Pot: Collections / Iteration and Iterables / iterables: const Stack3 = () => ({ array: [], index: -1, push (value) { return this.array[this.index += 1] = value; }, pop () { const value = this.array[this.index]; this.array ... [truncated] (2 shared atom(s))
-- [[javascriptallonge-string]] - shared technical atoms: String shares technical record from Prelude: Values and Expressions over Coffee / values are expressions: `foobar` //=> 'foobar' `fizz` + `buzz` //=> 'fizzbuzz' (2 shared atom(s))
-- [[javascriptallonge-argument]] - shared technical atoms: Argument shares technical record from And also: / Magic Names / magic names and fat arrows: (function () { return (function () { return arguments[0]; })('inner'); })('outer') //=> "inner" (1 shared atom(s))
-- [[javascriptallonge-declaration]] - shared technical atoms: Declaration shares technical record from And also: / Naming Functions / function declaration caveats 34: function trueDat () { return true } But this is not: (function trueDat () { return true }) (1 shared atom(s))
-- [[javascriptallonge-list]] - shared technical atoms: List shares technical record from Or even: / back on the block: //=> undefined We said that the function returns the result of evaluating a block, and we said that a block is a (possibly empty) list of JavaScript statements separ ... [truncated] (1 shared atom(s))
-- [[javascriptallonge-pattern]] - shared technical atoms: Pattern shares technical record from And also: / That Constant Coffee Craving / inside-out: (diameter) => // ... (1 shared atom(s))
-- [[javascriptallonge-return]] - shared technical atoms: Return shares technical record from Or even: / back on the block: //=> undefined We said that the function returns the result of evaluating a block, and we said that a block is a (possibly empty) list of JavaScript statements separ ... [truncated] (1 shared atom(s))
-- [[javascriptallonge-type]] - shared technical atoms: Type shares technical record from Prelude: Values and Expressions over Coffee / values are expressions: 2 In JavaScript, we test whether two values are identical with the operator, and whether they are === not identical with the operator: !== 2 === 2 //=> true 'hello' ... [truncated] (1 shared atom(s))
 
 ## Source
 

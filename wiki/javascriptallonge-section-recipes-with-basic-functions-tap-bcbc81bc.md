@@ -4,11 +4,11 @@ page_kind: source
 summary: Recipes with Basic Functions / Tap: 7 source-backed entries and 0 atom(s) from raw/javascriptallonge.pdf.
 page_family: section-reference
 sources: raw/javascriptallonge.pdf
-updated: 2026-07-01
+updated: 2026-07-02
 domain: javascriptallonge
 category_path: sources/javascriptallonge/sections
 source_id: javascriptallonge.pdf
-projection_coverage: section-javascriptallonge-section-recipes-with-basic-functions-tap-bcbc81bc@fb82fc380e36e323beec2c31107c6cb5
+projection_coverage: section-javascriptallonge-section-recipes-with-basic-functions-tap-bcbc81bc@a799fcd8456908914976fe047340e6ed
 ---
 
 # Recipes with Basic Functions / Tap
@@ -17,9 +17,14 @@ From [[javascriptallonge]].
 
 ## Related pages
 
-- [[javascriptallonge-section-recipes-with-basic-functions-58df4c63]] - broader source section: Recipes with Basic Functions
+### Source order
+
 - [[javascriptallonge-section-recipes-with-basic-functions-unary-84c3ae50]] - previous source section: Recipes with Basic Functions / Unary
 - [[javascriptallonge-section-recipes-with-basic-functions-maybe-d9752e09]] - next source section: Recipes with Basic Functions / Maybe
+
+### Source structure
+
+- [[javascriptallonge-section-recipes-with-basic-functions-58df4c63]] - broader source section: Recipes with Basic Functions
 
 ## Statements
 

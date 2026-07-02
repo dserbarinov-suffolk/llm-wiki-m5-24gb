@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-1-4-character-creation-dwarf-4b493eff@9749337c2db645d5efffd784d386db92
+projection_coverage: section-sword-world-rpg-complete-edition-section-1-4-character-creation-dwarf-4b493eff@6f522b24c6e17d2b6866b3b81d03de4d
 ---
 
 # 1.4 Character Creation / 【 Dwarf 】
@@ -17,9 +17,14 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-1-4-character-creation-f6aa6108]] - broader source section: 1.4 Character Creation
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-1-4-character-creation-human-09a66c2b]] - previous source section: 1.4 Character Creation / 【 Human 】
 - [[sword-world-rpg-complete-edition-section-1-4-character-creation-grassrunner-59ede53b]] - next source section: 1.4 Character Creation / 【 Grassrunner 】
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-1-4-character-creation-f6aa6108]] - broader source section: 1.4 Character Creation
 
 ## Statements
 

@@ -4,11 +4,11 @@ page_kind: source
 summary: The Golden Crema: Appendices and Afterwords / Copyright Notice: 5 source-backed entries and 3 atom(s) from raw/javascriptallonge.pdf.
 page_family: section-reference
 sources: raw/javascriptallonge.pdf
-updated: 2026-07-01
+updated: 2026-07-02
 domain: javascriptallonge
 category_path: sources/javascriptallonge/sections
 source_id: javascriptallonge.pdf
-projection_coverage: section-javascriptallonge-section-the-golden-crema-appendices-and-afterwords-copyright-notice-f8b0acba@bf5ba4b9a3e9e90fd16da3ed1ced6fc3
+projection_coverage: section-javascriptallonge-section-the-golden-crema-appendices-and-afterwords-copyright-notice-f8b0acba@d3f6ef4fc6a9133a327b260a171bc38c
 ---
 
 # The Golden Crema: Appendices and Afterwords / Copyright Notice
@@ -17,10 +17,15 @@ From [[javascriptallonge]].
 
 ## Related pages
 
-- [[javascriptallonge-section-the-golden-crema-appendices-and-afterwords-048855ac]] - broader source section: The Golden Crema: Appendices and Afterwords
-- [[javascriptallonge-section-the-golden-crema-appendices-and-afterwords-copyright-notice-images-1c56ac89]] - narrower source section: The Golden Crema: Appendices and Afterwords / Copyright Notice / images
+### Source order
+
 - [[javascriptallonge-section-the-golden-crema-appendices-and-afterwords-thanks-5038d33a]] - previous source section: The Golden Crema: Appendices and Afterwords / Thanks!
 - [[javascriptallonge-section-the-golden-crema-appendices-and-afterwords-about-the-author-6f0e2290]] - next source section: The Golden Crema: Appendices and Afterwords / About The Author
+
+### Source structure
+
+- [[javascriptallonge-section-the-golden-crema-appendices-and-afterwords-048855ac]] - broader source section: The Golden Crema: Appendices and Afterwords
+- [[javascriptallonge-section-the-golden-crema-appendices-and-afterwords-copyright-notice-images-1c56ac89]] - narrower source section: The Golden Crema: Appendices and Afterwords / Copyright Notice / images
 
 ## Technical atoms
 
@@ -28,6 +33,7 @@ From [[javascriptallonge]].
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-02007))_
 
+<a id="atom-technical-atom-2b2e65de2bb6b8fb"></a>
 ```text
 106 http://www.flickr.com/photos/trumpetca/
 http://creativecommons.org/licenses/by/2.0/deed.en
@@ -70,6 +76,7 @@ http://creativecommons.org/licenses/by/2.0/deed.en
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-02041))_
 
+<a id="atom-technical-atom-0c6b96b9c51fbe88"></a>
 ```text
 163 http://www.flickr.com/photos/93425126@N00/313053257/ 164 http://creativecommons.org/licenses/by-sa/2.0/deed.en 165 http://www.flickr.com/photos/digitalcolony/2833809436/ 166 http://creativecommons.org/licenses/by-sa/2.0/deed.en 167 http://www.flickr.com/photos/citizenhelder/5006498068/ 168 http://creativecommons.org/licenses/by/2.0/deed.en 169 http://www.flickr.com/photos/joncrel/237026246/ 170 http://creativecommons.org/licenses/by-nd/2.0/deed.en 171 http://www.flickr.com/photos/nalundgaard/3163852170/ 172 http://creativecommons.org/licenses/by-sa/2.0/deed.en 173 http://www.flickr.com/photos/47000103@N05/6525288841/ 174 http://creativecommons.org/licenses/by-sa/2.0/deed.en 175 http://www.flickr.com/photos/lotzman/978418891/ 176 http://creativecommons.org/licenses/by/2.0/deed.en 177 http://www.flickr.com/photos/kk/sets/72157626168201654/with/5484839102/ 178 http://creativecommons.org/licenses/by-sa/2.0/deed.en 179 https://www.flickr.com/photos/kellan/434503323 180 http://creativecommons.org/licenses/by/2.0/deed.en 181 https://www.flickr.com/photos/whitneyinchicago/3835218626 182 http://creativecommons.org/licenses/by/2.0/deed.en 183 https://www.flickr.com/photos/sankarshan/5165312159 184 http://creativecommons.org/licenses/by-sa/2.0/deed.en 185 https://www.flickr.com/photos/candy-s/7619358284 186 https://www.flickr.com/photos/candy-s/ 187 http://creativecommons.org/licenses/by/2.0/deed.en 188 https://www.flickr.com/photos/lorentey/22193876 189 https://www.flickr.com/photos/lorentey/ 190 http://creativecommons.org/licenses/by/2.0/deed.en 191 https://www.flickr.com/photos/kk/5484876862 192 http://creativecommons.org/licenses/by-sa/2.0/deed.en 193 https://www.flickr.com/photos/f_mafra/2956649121 194
 http://creativecommons.org/licenses/by-sa/2.0/deed.en
@@ -121,6 +128,7 @@ coffee pots 195 (c) 2009 Jonas Forth Some rights reserved 196 .
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-02053))_
 
+<a id="atom-technical-atom-fdddd9cfcc1c335c"></a>
 ```text
 195 https://www.flickr.com/photos/jforth/3360599750/
 197 https://www.flickr.com/photos/dlytle/8720139854

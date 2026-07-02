@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-13-2-3-youma-troll-monster-level-6-rarity-11-agility-12-movement-speed-24-number-one-to-several-a7270635@94a3bee7dc7796707f92c39577a0a578
+projection_coverage: section-sword-world-rpg-complete-edition-section-13-2-3-youma-troll-monster-level-6-rarity-11-agility-12-movement-speed-24-number-one-to-several-a7270635@15e0b6bc5a66123dcd7286cc140c0d7f
 ---
 
 # 13.2.3 Youma / [ Troll ] Monster Level=6 Rarity=11 Agility=12 Movement Speed=24 Number=One to several Frequency=Rare Intellect=Low Reaction=Adversarial Attack Points=Arm:14 (7) Strike Points=13 Evasion Points=13 (6) Defense Points=11 Life Points/Resistance=21/15 (8) Mental Points/Resistance=14/14 (7) Special Abilities=Camouflage (Sense target score=13) Habitat=Caves, hills Languages=Giant Perception=Five senses (darkvision)
@@ -17,9 +17,14 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-13-2-3-youma-05ea9fd0]] - broader source section: 13.2.3 Youma
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-13-2-3-youma-spriggan-69d0ac98]] - previous source section: 13.2.3 Youma / [ Spriggan ]
 - [[sword-world-rpg-complete-edition-section-13-2-3-youma-hecatoncheir-31491c8c]] - next source section: 13.2.3 Youma / [ Hecatoncheir ]
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-13-2-3-youma-05ea9fd0]] - broader source section: 13.2.3 Youma
 
 ## Statements
 

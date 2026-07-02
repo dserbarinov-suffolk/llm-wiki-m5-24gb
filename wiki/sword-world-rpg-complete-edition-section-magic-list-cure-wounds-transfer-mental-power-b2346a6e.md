@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-magic-list-cure-wounds-transfer-mental-power-b2346a6e@6d10777a9e1b519694f93d13037c8be3
+projection_coverage: section-sword-world-rpg-complete-edition-section-magic-list-cure-wounds-transfer-mental-power-b2346a6e@256a79b9c23e1299f9bcfa73b363fa30
 ---
 
 # Magic List [ Cure Wounds ] / [ Transfer Mental Power
@@ -17,8 +17,13 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-magic-list-cure-wounds-2bf72421]] - broader source section: Magic List [ Cure Wounds ]
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-magic-list-cure-wounds-turn-undead-2475705d]] - previous source section: Magic List [ Cure Wounds ] / [ Turn Undead ]
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-magic-list-cure-wounds-2bf72421]] - broader source section: Magic List [ Cure Wounds ]
 
 ## Statements
 
@@ -36,4 +41,5 @@ From [[sword-world-rpg-complete-edition]].
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-03468))_
 
+<a id="atom-technical-atom-98ad1a90f9e278fa"></a>
 > Even if you are a 10th level priest, if you want to give 10 points of mental power (points) to a target, you must spend 11 points of mental power (points).

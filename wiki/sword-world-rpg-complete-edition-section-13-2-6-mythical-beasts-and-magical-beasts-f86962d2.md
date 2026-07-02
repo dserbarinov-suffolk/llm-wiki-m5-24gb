@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-13-2-6-mythical-beasts-and-magical-beasts-f86962d2@ec3f7e5510064176468fa3d55a3f1606
+projection_coverage: section-sword-world-rpg-complete-edition-section-13-2-6-mythical-beasts-and-magical-beasts-f86962d2@9a908935ab4ad3c32d08703009876ed7
 ---
 
 # 13.2.6 Mythical Beasts and Magical Beasts
@@ -17,48 +17,21 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-13-2-6-mythical-beasts-and-magical-beasts-satyr-8f5a7e42]] - narrower source section: 13.2.6 Mythical Beasts and Magical Beasts / [ Satyr ]
-- [[sword-world-rpg-complete-edition-section-13-2-6-mythical-beasts-and-magical-beasts-ceiling-hanger-4948e9ac]] - narrower source section: 13.2.6 Mythical Beasts and Magical Beasts / [ Ceiling Hanger ]
-- [[sword-world-rpg-complete-edition-section-13-2-6-mythical-beasts-and-magical-beasts-harpy-a3ea1436]] - narrower source section: 13.2.6 Mythical Beasts and Magical Beasts / [ Harpy ]
-- [[sword-world-rpg-complete-edition-section-13-2-6-mythical-beasts-and-magical-beasts-hippocampus-718c4175]] - narrower source section: 13.2.6 Mythical Beasts and Magical Beasts / [ Hippocampus ]
-- [[sword-world-rpg-complete-edition-section-13-2-6-mythical-beasts-and-magical-beasts-medusa-e737f6c9]] - narrower source section: 13.2.6 Mythical Beasts and Magical Beasts / [ Medusa ]
-- [[sword-world-rpg-complete-edition-section-13-2-6-mythical-beasts-and-magical-beasts-androscorpio-166a7af6]] - narrower source section: 13.2.6 Mythical Beasts and Magical Beasts / [ Androscorpio ]
-- [[sword-world-rpg-complete-edition-section-13-2-6-mythical-beasts-and-magical-beasts-centaur-abf0f164]] - narrower source section: 13.2.6 Mythical Beasts and Magical Beasts / [ Centaur ]
-- [[sword-world-rpg-complete-edition-section-13-2-6-mythical-beasts-and-magical-beasts-cockatrice-595c1746]] - narrower source section: 13.2.6 Mythical Beasts and Magical Beasts / [ Cockatrice ]
-- [[sword-world-rpg-complete-edition-section-13-2-6-mythical-beasts-and-magical-beasts-scylla-monster-level-4-rarity-13-agility-12-movement-s-ea917130]] - narrower source section: 13.2.6 Mythical Beasts and Magical Beasts / [ Scylla ] Monster Level=4 Rarity=13 Agility=12 Movement Speed=12/12 (water) Number=One Frequency=Rare Intellect=Human Reaction=Adversarial
-- [[sword-world-rpg-complete-edition-section-13-2-6-mythical-beasts-and-magical-beasts-chimera-08a31e29]] - narrower source section: 13.2.6 Mythical Beasts and Magical Beasts / [ Chimera ]
-- [[sword-world-rpg-complete-edition-section-13-2-6-mythical-beasts-and-magical-beasts-twintail-cat-fb14f285]] - narrower source section: 13.2.6 Mythical Beasts and Magical Beasts / [ Twintail Cat ]
-- [[sword-world-rpg-complete-edition-section-13-2-6-mythical-beasts-and-magical-beasts-telchines-monster-level-5-rarity-14-agility-12-movemen-1b982874]] - narrower source section: 13.2.6 Mythical Beasts and Magical Beasts / [ Telchines ] Monster Level=5 Rarity=14 Agility=12 Movement Speed=10/10 (water) Number=One Frequency=Very Rare Intellect=High Reaction=Neutral Attack Points=Weapon:11 (4)/Tail:12 (5) Strike Points=12/11 Evasion Points=12 (5) Defense Points=8 Life Points/Resistance=16/13 (6) Mental Points/Resistance=20/14 (7) Special Abilities=5th level ancient magic (Magic Intensity/Magic Power=15/8) Water adaptation Habitat=Secluded coasts Languages=Merman, low ancient Perception=Five senses (illumination)
-- [[sword-world-rpg-complete-edition-section-13-2-6-mythical-beasts-and-magical-beasts-hippogriff-836953e1]] - narrower source section: 13.2.6 Mythical Beasts and Magical Beasts / [ Hippogriff ]
-- [[sword-world-rpg-complete-edition-section-13-2-6-mythical-beasts-and-magical-beasts-pegasus-monster-level-5-rarity-10-agility-12-movement-85aafec4]] - narrower source section: 13.2.6 Mythical Beasts and Magical Beasts / [ Pegasus ] Monster Level=5 Rarity=10 Agility=12 Movement Speed=30/40 (air) Number=One to several Frequency=Rare Intellect=Human Reaction=Neutral Attack Points=Heel:11 (4) Strike Points=13 Evasion Points=12 (5) Defense Points=8 Life Points/Resistance=20/14 (7) Mental Points/Resistance=15/13 (6) Special Abilities=Not affected by poison and illness Habitat=Steep mountains, meadows Languages=None
-- [[sword-world-rpg-complete-edition-section-13-2-6-mythical-beasts-and-magical-beasts-head-displacer-fbf3e967]] - narrower source section: 13.2.6 Mythical Beasts and Magical Beasts / [ Head Displacer ]
-- [[sword-world-rpg-complete-edition-section-13-2-6-mythical-beasts-and-magical-beasts-lamia-5a1c951d]] - narrower source section: 13.2.6 Mythical Beasts and Magical Beasts / [ Lamia ]
-- [[sword-world-rpg-complete-edition-section-13-2-6-mythical-beasts-and-magical-beasts-lizardman-7e02457a]] - narrower source section: 13.2.6 Mythical Beasts and Magical Beasts / [ Lizardman ]
-- [[sword-world-rpg-complete-edition-section-13-2-6-mythical-beasts-and-magical-beasts-griffon-e367712c]] - narrower source section: 13.2.6 Mythical Beasts and Magical Beasts / [ Griffon ]
-- [[sword-world-rpg-complete-edition-section-13-2-6-mythical-beasts-and-magical-beasts-manticore-5ce884c9]] - narrower source section: 13.2.6 Mythical Beasts and Magical Beasts / [ Manticore ]
-- [[sword-world-rpg-complete-edition-section-13-2-6-mythical-beasts-and-magical-beasts-minotaur-916cdc73]] - narrower source section: 13.2.6 Mythical Beasts and Magical Beasts / [ Minotaur ]
-- [[sword-world-rpg-complete-edition-section-13-2-6-mythical-beasts-and-magical-beasts-unicorn-47f6e4bf]] - narrower source section: 13.2.6 Mythical Beasts and Magical Beasts / [ Unicorn ]
-- [[sword-world-rpg-complete-edition-section-13-2-6-mythical-beasts-and-magical-beasts-lynx-1b04b77d]] - narrower source section: 13.2.6 Mythical Beasts and Magical Beasts / [ Lynx ]
-- [[sword-world-rpg-complete-edition-section-13-2-6-mythical-beasts-and-magical-beasts-sphinx-monster-level-7-rarity-12-agility-14-movement-s-2e6495e7]] - narrower source section: 13.2.6 Mythical Beasts and Magical Beasts / [ Sphinx ] Monster Level=7 Rarity=12 Agility=14 Movement Speed=18/30 (air) Number=One Frequency=Very Rare Intellect=High Reaction=Neutral Attack Points=Claw:15 (8)/Claw:15 (8) Strike Points=16/16 Evasion Points=14 (7) Defense Points=11 Life Points/Resistance=24/17 (10) Mental Points/Resistance=20/16 (9) Special Abilities=5th level ancient magic (Magic Intensity/Magic Power=15/8) Tell riddles Not affected by poison and illness Sleepless Habitat=Ruins, underground labyrinths Languages=Regional, low ancient
-- [[sword-world-rpg-complete-edition-section-13-2-6-mythical-beasts-and-magical-beasts-wyvern-5f9920f0]] - narrower source section: 13.2.6 Mythical Beasts and Magical Beasts / [ Wyvern ]
-- [[sword-world-rpg-complete-edition-section-13-2-6-mythical-beasts-and-magical-beasts-basilisk-636ad7d6]] - narrower source section: 13.2.6 Mythical Beasts and Magical Beasts / [ Basilisk ]
-- [[sword-world-rpg-complete-edition-section-13-2-6-mythical-beasts-and-magical-beasts-sea-dragon-c0b3bff1]] - narrower source section: 13.2.6 Mythical Beasts and Magical Beasts / [ Sea Dragon ]
-- [[sword-world-rpg-complete-edition-section-13-2-6-mythical-beasts-and-magical-beasts-wyrm-79ae102a]] - narrower source section: 13.2.6 Mythical Beasts and Magical Beasts / [ Wyrm ]
-- [[sword-world-rpg-complete-edition-section-13-2-6-mythical-beasts-and-magical-beasts-buckbaird-4cfc4260]] - narrower source section: 13.2.6 Mythical Beasts and Magical Beasts / [ Buckbaird ]
-- [[sword-world-rpg-complete-edition-section-13-2-6-mythical-beasts-and-magical-beasts-hydra-dc4fda2a]] - narrower source section: 13.2.6 Mythical Beasts and Magical Beasts / [ Hydra ]
-- [[sword-world-rpg-complete-edition-section-13-2-6-mythical-beasts-and-magical-beasts-humbaba-c8925660]] - narrower source section: 13.2.6 Mythical Beasts and Magical Beasts / [ Humbaba ]
-- [[sword-world-rpg-complete-edition-section-13-2-6-mythical-beasts-and-magical-beasts-roc-08fefbde]] - narrower source section: 13.2.6 Mythical Beasts and Magical Beasts / [ Roc ]
-- [[sword-world-rpg-complete-edition-section-13-2-6-mythical-beasts-and-magical-beasts-dragon-c305604d]] - narrower source section: 13.2.6 Mythical Beasts and Magical Beasts / [ Dragon ]
-- [[sword-world-rpg-complete-edition-section-13-2-6-mythical-beasts-and-magical-beasts-wolf-e19da3e9]] - narrower source section: 13.2.6 Mythical Beasts and Magical Beasts / [ Wolf ]
-- [[sword-world-rpg-complete-edition-section-13-2-6-mythical-beasts-and-magical-beasts-giant-rat-6989727b]] - narrower source section: 13.2.6 Mythical Beasts and Magical Beasts / [ Giant Rat ]
-- [[sword-world-rpg-complete-edition-section-13-2-6-mythical-beasts-and-magical-beasts-hanger-leg-monster-level-1-rarity-13-agility-18-moveme-b3d4cf8e]] - narrower source section: 13.2.6 Mythical Beasts and Magical Beasts / [ Hanger Leg ] Monster Level=1 Rarity=13 Agility=18 Movement Speed=8 Number=One. However, eggs are often found in groups Frequency=Rare Intellect=Human Reaction=Neutral Attack Points=Needle: 8 (1) Strike Points=6 Evasion Points=11 (4) Defense Points=4 Life Points/Resistance=8/8 (1) Mental Points/Resistance=8/8 (1) Special Abilities=Parasitism (Resist target score=8) Habitat=Forests Languages=None Perception=Five senses
-- [[sword-world-rpg-complete-edition-section-13-2-6-mythical-beasts-and-magical-beasts-eagle-a56d1ea9]] - narrower source section: 13.2.6 Mythical Beasts and Magical Beasts / [ Eagle ]
-- [[sword-world-rpg-complete-edition-section-13-2-6-mythical-beasts-and-magical-beasts-giant-centipede-ad7533e0]] - narrower source section: 13.2.6 Mythical Beasts and Magical Beasts / [ Giant Centipede ]
-- [[sword-world-rpg-complete-edition-section-13-2-6-mythical-beasts-and-magical-beasts-giant-lizard-9faed596]] - narrower source section: 13.2.6 Mythical Beasts and Magical Beasts / [ Giant Lizard ]
-- [[sword-world-rpg-complete-edition-section-13-2-6-mythical-beasts-and-magical-beasts-giant-wasp-5c5fec17]] - narrower source section: 13.2.6 Mythical Beasts and Magical Beasts / [ Giant Wasp ]
-- [[sword-world-rpg-complete-edition-section-13-2-6-mythical-beasts-and-magical-beasts-horse-9c294c60]] - narrower source section: 13.2.6 Mythical Beasts and Magical Beasts / [ Horse ]
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-13-2-3-youma-05ea9fd0]] - previous source section: 13.2.3 Youma
 - [[sword-world-rpg-complete-edition-section-chapter-14-bd22bf6b]] - next source section: Chapter 14:
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-13-2-6-mythical-beasts-and-magical-beasts-androscorpio-166a7af6]] - narrower source section: 13.2.6 Mythical Beasts and Magical Beasts / [ Androscorpio ]
+- [[sword-world-rpg-complete-edition-section-13-2-6-mythical-beasts-and-magical-beasts-basilisk-636ad7d6]] - narrower source section: 13.2.6 Mythical Beasts and Magical Beasts / [ Basilisk ]
+- [[sword-world-rpg-complete-edition-section-13-2-6-mythical-beasts-and-magical-beasts-buckbaird-4cfc4260]] - narrower source section: 13.2.6 Mythical Beasts and Magical Beasts / [ Buckbaird ]
+- [[sword-world-rpg-complete-edition-section-13-2-6-mythical-beasts-and-magical-beasts-ceiling-hanger-4948e9ac]] - narrower source section: 13.2.6 Mythical Beasts and Magical Beasts / [ Ceiling Hanger ]
+- [[sword-world-rpg-complete-edition-section-13-2-6-mythical-beasts-and-magical-beasts-centaur-abf0f164]] - narrower source section: 13.2.6 Mythical Beasts and Magical Beasts / [ Centaur ]
+- [[sword-world-rpg-complete-edition-section-13-2-6-mythical-beasts-and-magical-beasts-chimera-08a31e29]] - narrower source section: 13.2.6 Mythical Beasts and Magical Beasts / [ Chimera ]
+- [[sword-world-rpg-complete-edition-section-13-2-6-mythical-beasts-and-magical-beasts-cockatrice-595c1746]] - narrower source section: 13.2.6 Mythical Beasts and Magical Beasts / [ Cockatrice ]
+- [[sword-world-rpg-complete-edition-section-13-2-6-mythical-beasts-and-magical-beasts-dragon-c305604d]] - narrower source section: 13.2.6 Mythical Beasts and Magical Beasts / [ Dragon ]
 
 ## Statements by subsection
 
@@ -1323,6 +1296,7 @@ From [[sword-world-rpg-complete-edition]].
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-06526))_
 
+<a id="atom-technical-atom-2211b146646bcd04"></a>
 > Perception=Five senses infravision)
 
 ### Technical frame 2: 13.2.6 Mythical Beasts and Magical Beasts / [ Twintail Cat ]
@@ -1333,6 +1307,7 @@ From [[sword-world-rpg-complete-edition]].
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-06528))_
 
+<a id="atom-technical-atom-aa038e6cccfef9cd"></a>
 > They can use ancient magic and spirit magic, but they are especially fond of illusions and magic that affects the mind.
 
 ### Technical frame 3: 13.2.6 Mythical Beasts and Magical Beasts / [ Lizardman ]
@@ -1343,6 +1318,7 @@ From [[sword-world-rpg-complete-edition]].
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-06557))_
 
+<a id="atom-technical-atom-8d30512d1e70c795"></a>
 > Slaves have low intellect and cannot use magic.
 
 ### Technical frame 4: 13.2.6 Mythical Beasts and Magical Beasts / [ Buckbaird ]
@@ -1353,6 +1329,7 @@ From [[sword-world-rpg-complete-edition]].
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-06763))_
 
+<a id="atom-technical-atom-52ec40966eb4bce2"></a>
 ```text
 1. Paralysis Ray
 You will be paralyzed for 6 rounds.
@@ -1389,6 +1366,7 @@ Destroys metal weapons and armor you are wearing. Magical weapons and armor are 
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-08647))_
 
+<a id="atom-technical-atom-9147359a7cbeba8a"></a>
 | Critical Target 9 | 0-1 | 2-5 | 6-9 | 10-13 | 14-18 | 19-22 | 23-26 | 27-31 | 32-35 |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | Critical Target 10 | 0-2 | 3-7 | 8-12 | 13-17 | 18-22 | 23-27 | 28-32 | 33-37 | 38-42 |
@@ -1421,6 +1399,7 @@ Converting Character Data to Monster Data
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-08678))_
 
+<a id="atom-technical-atom-f8075dfc72a94c65"></a>
 | Sub-Ability Score | Featherfolk | Merman | Dark Elf | Noble Lizardman | Centaur |
 | --- | --- | --- | --- | --- | --- |
 | A B C D E F G H | 2D 1D+6 2D 2D 1D+3 2D 1D+2 2D+6 | 2D 1D+6 2D 2D 1/2D 2D 2D 1D+6 | 1D+6 1D+6 1D+6 1D+6 1D 1/2D 1D+4 1D+6 | 2D 1D+3 2D 2D 2D 2D+6 2D 2D | 2D 2D 2D 2D 1D+6 1D+6 1D+6 1D |
@@ -1445,6 +1424,7 @@ Monster Level and Adventurer Level
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-08685))_
 
+<a id="atom-technical-atom-a92438eec348fa6b"></a>
 | Level 1-2 | It's no big deal. Just a small problem in a small village |
 | --- | --- |
 | Level 2-4 | A crisis in a small village. Cue the novice adventurers. |

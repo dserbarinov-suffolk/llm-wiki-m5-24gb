@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-12-2-2-illnesses-mandrake-b0793d01@4cb452929d18c5d772ce381c69c409c2
+projection_coverage: section-sword-world-rpg-complete-edition-section-12-2-2-illnesses-mandrake-b0793d01@3255a0670a918fabf9bdfcf2dcf6da46
 ---
 
 # 12.2.2 Illnesses / [ Mandrake ]
@@ -17,9 +17,14 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-12-2-2-illnesses-5611d07e]] - broader source section: 12.2.2 Illnesses
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-12-2-2-illnesses-henruda-4151d45f]] - previous source section: 12.2.2 Illnesses / [ Henruda ]
 - [[sword-world-rpg-complete-edition-section-12-2-2-illnesses-work-requests-to-npcs-d3908296]] - next source section: 12.2.2 Illnesses / Work Requests to NPCs
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-12-2-2-illnesses-5611d07e]] - broader source section: 12.2.2 Illnesses
 
 ## Statements
 

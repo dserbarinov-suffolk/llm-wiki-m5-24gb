@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-15-1-four-types-of-experience-points-accomplishing-missions-bc3c93c2@d4df06c3a8d0b05d2d6507264de3b126
+projection_coverage: section-sword-world-rpg-complete-edition-section-15-1-four-types-of-experience-points-accomplishing-missions-bc3c93c2@c5d6ba641977df6e4f8207c125db7f93
 ---
 
 # 15.1 Four Types of Experience Points / Accomplishing Missions
@@ -17,8 +17,13 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-15-1-four-types-of-experience-points-46385836]] - broader source section: 15.1 Four Types of Experience Points
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-15-1-four-types-of-experience-points-fighting-monsters-84c07e62]] - next source section: 15.1 Four Types of Experience Points / Fighting Monsters
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-15-1-four-types-of-experience-points-46385836]] - broader source section: 15.1 Four Types of Experience Points
 
 ## Statements
 

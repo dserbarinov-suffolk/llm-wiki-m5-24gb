@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-13-2-3-youma-cyclops-00f0eab9@2ccaff7b8be807f69f6d6ca68b37fe6e
+projection_coverage: section-sword-world-rpg-complete-edition-section-13-2-3-youma-cyclops-00f0eab9@a5ec060a2686a42765e1e0eb3f27761c
 ---
 
 # 13.2.3 Youma / [ Cyclops ]
@@ -17,8 +17,13 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-13-2-3-youma-05ea9fd0]] - broader source section: 13.2.3 Youma
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-13-2-3-youma-giant-398539fc]] - previous source section: 13.2.3 Youma / [ Giant ]
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-13-2-3-youma-05ea9fd0]] - broader source section: 13.2.3 Youma
 
 ## Statements
 

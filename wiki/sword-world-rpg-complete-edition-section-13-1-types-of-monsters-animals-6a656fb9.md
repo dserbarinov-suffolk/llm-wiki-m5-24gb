@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-13-1-types-of-monsters-animals-6a656fb9@7a8a18d9c9148c8e3189f77e2e2b328f
+projection_coverage: section-sword-world-rpg-complete-edition-section-13-1-types-of-monsters-animals-6a656fb9@65e4f96872c0c2a51b2647fe114a64b6
 ---
 
 # 13.1 Types of Monsters / 《 Animals 》
@@ -17,9 +17,14 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-13-1-types-of-monsters-7512eede]] - broader source section: 13.1 Types of Monsters
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-13-1-types-of-monsters-mythical-beasts-and-magical-beasts-71c23084]] - previous source section: 13.1 Types of Monsters / 《 Mythical Beasts and Magical Beasts 》
 - [[sword-world-rpg-complete-edition-section-13-1-types-of-monsters-plants-677e280b]] - next source section: 13.1 Types of Monsters / 《 Plants 》
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-13-1-types-of-monsters-7512eede]] - broader source section: 13.1 Types of Monsters
 
 ## Statements
 

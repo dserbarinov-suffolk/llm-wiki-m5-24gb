@@ -4,10 +4,10 @@ page_kind: concept
 summary: Argument: 15 statement(s) and 33 atom(s) from raw/javascriptallonge.pdf.
 page_family: broad-topic
 sources: raw/javascriptallonge.pdf
-updated: 2026-07-01
+updated: 2026-07-02
 domain: javascriptallonge
 category_path: concepts
-projection_coverage: topic-javascriptallonge-argument@a0714f32e2d00dd0c6bd83864bb3f4af
+projection_coverage: topic-javascriptallonge-argument@e6923f64c139970ad664d83c9819c71d
 ---
 
 # Argument
@@ -71,28 +71,7 @@ What [[javascriptallonge]] covers about argument:
 
 ## Technical atoms
 
-### Technical frame 1: Or even: / back on the block
-
-**Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00236))_
-
-```text
-back on the block
-Back to our function. We evaluated this:
-19 Experienced JavaScript programmers are aware that there's a fourth way, using a function argument. This was actually the preferred mechanism until void became commonplace.
-20 As an exercise for the reader, we suggest you ask your friendly neighbourhood programming language designer or human factors subjectmatter expert to explain why a keyword called void is used to generate an undefined value, instead of calling them both void or both undefined . We have no idea.
-```
-
-<details>
-<summary>Parsed table preview (needs review)</summary>
-
-| entry | content |
-| --- | --- |
-| 19 | Experienced JavaScript programmers are aware that there's a fourth way, using a function argument. This was actually the preferred mechanism until void became commonplace. |
-| 20 | As an exercise for the reader, we suggest you ask your friendly neighbourhood programming language designer or human factors subjectmatter expert to explain why a keyword called void is used to generate an undefined value, instead of calling them both void or both undefined. We have no idea. |
-
-</details>
-
-### Technical frame 2: And also: / Ah. I'd Like to Have an Argument, Please. 22
+### Technical frame 1: And also: / Ah. I'd Like to Have an Argument, Please. 22
 
 **Context:** _(javascriptallonge.pdf (source-range-0e12e052-00269))_
 
@@ -100,11 +79,12 @@ Back to our function. We evaluated this:
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00268))_
 
+<a id="atom-technical-atom-ef664eb8389ed729"></a>
 ```
 (room) => {}
 ```
 
-### Technical frame 3: And also: / Ah. I'd Like to Have an Argument, Please. 22
+### Technical frame 2: And also: / Ah. I'd Like to Have an Argument, Please. 22
 
 **Context:** _(javascriptallonge.pdf (source-range-0e12e052-00271))_
 
@@ -112,11 +92,12 @@ Back to our function. We evaluated this:
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00270))_
 
+<a id="atom-technical-atom-6f0fe876fd13afb4"></a>
 ```
 (room, board) => {}
 ```
 
-### Technical frame 4: And also: / Ah. I'd Like to Have an Argument, Please. 22
+### Technical frame 3: And also: / Ah. I'd Like to Have an Argument, Please. 22
 
 **Context:** _(javascriptallonge.pdf (source-range-0e12e052-00273))_
 
@@ -124,8 +105,23 @@ Back to our function. We evaluated this:
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00272))_
 
+<a id="atom-technical-atom-558c391e496c3b03"></a>
 ```
 (diameter) => diameter * 3.14159265
+```
+
+### Technical frame 4: And also: / Ah. I'd Like to Have an Argument, Please. 22
+
+**Context:** _(javascriptallonge.pdf (source-range-0e12e052-00276))_
+
+> You won't be surprised to see how to write and apply a function to two arguments:
+
+**Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00275))_
+
+<a id="atom-technical-atom-d086e545955f2b4c"></a>
+```
+((diameter) => diameter * 3.14159265)(2)
+//=> 6.2831853
 ```
 
 ### Technical frame 5: And also: / Ah. I'd Like to Have an Argument, Please. 22
@@ -134,27 +130,15 @@ Back to our function. We evaluated this:
 
 > You won't be surprised to see how to write and apply a function to two arguments:
 
-**Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00275))_
-
-```
-((diameter) => diameter * 3.14159265)(2)
-//=> 6.2831853
-```
-
-### Technical frame 6: And also: / Ah. I'd Like to Have an Argument, Please. 22
-
-**Context:** _(javascriptallonge.pdf (source-range-0e12e052-00276))_
-
-> You won't be surprised to see how to write and apply a function to two arguments:
-
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00278))_
 
+<a id="atom-technical-atom-25b780f159468a10"></a>
 ```
 ((room, board) => room + board)(800, 150)
 //=> 950
 ```
 
-### Technical frame 7: And also: / variables and bindings
+### Technical frame 6: And also: / variables and bindings
 
 **Context:** _(javascriptallonge.pdf (source-range-0e12e052-00295))_
 
@@ -162,11 +146,12 @@ Back to our function. We evaluated this:
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00294))_
 
+<a id="atom-technical-atom-56a0062ccd1c98c9"></a>
 ```
 (x) => (y) => x
 ```
 
-### Technical frame 8: And also: / variables and bindings
+### Technical frame 7: And also: / variables and bindings
 
 **Context:** _(javascriptallonge.pdf (source-range-0e12e052-00309))_
 
@@ -174,12 +159,13 @@ Back to our function. We evaluated this:
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00301))_
 
+<a id="atom-technical-atom-c16cf6005d6a99db"></a>
 ```
 ((x) => x)(2)
 //=> 2
 ```
 
-### Technical frame 9: And also: / call by sharing
+### Technical frame 8: And also: / call by sharing
 
 **Context:** _(javascriptallonge.pdf (source-range-0e12e052-00323))_
 
@@ -187,12 +173,13 @@ Back to our function. We evaluated this:
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00322))_
 
+<a id="atom-technical-atom-f9cb510c71c3bcdb"></a>
 ```
 (value) =>
 ((ref1, ref2) => ref1 === ref2)(value, value)
 ```
 
-### Technical frame 10: And also: / Combinators and Function Decorators / higher-order functions
+### Technical frame 9: And also: / Combinators and Function Decorators / higher-order functions
 
 **Context:** _(javascriptallonge.pdf (source-range-0e12e052-00552))_
 
@@ -200,6 +187,7 @@ Back to our function. We evaluated this:
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00554))_
 
+<a id="atom-technical-atom-26ee5b06c51cb73d"></a>
 ```
 const repeat = (num, fn) =>
 (num > 0)
@@ -215,7 +203,7 @@ console.log(`Hello ${n}`)
 undefined
 ```
 
-### Technical frame 11: And also: / Combinators and Function Decorators / combinators
+### Technical frame 10: And also: / Combinators and Function Decorators / combinators
 
 **Context:** _(javascriptallonge.pdf (source-range-0e12e052-00558))_
 
@@ -223,6 +211,7 @@ undefined
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00557))_
 
+<a id="atom-technical-atom-f4f4fcfc19e6c5d3"></a>
 ```text
 combinators
 The word 'combinator' has a precise technical meaning in mathematics:
@@ -242,7 +231,7 @@ If we were learning Combinatorial Logic, we'd start with the most basic combinat
 
 </details>
 
-### Technical frame 12: And also: / Combinators and Function Decorators / function decorators
+### Technical frame 11: And also: / Combinators and Function Decorators / function decorators
 
 **Context:** _(javascriptallonge.pdf (source-range-0e12e052-00573))_
 
@@ -250,6 +239,7 @@ If we were learning Combinatorial Logic, we'd start with the most basic combinat
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00565))_
 
+<a id="atom-technical-atom-f97ec19748b3df8d"></a>
 ```text
 function decorators
 A function decorator is a higher-order function that takes one function as an argument, returns another function, and the returned function is a variation of the argument function. Here's a ridiculously simple decorator: 38
@@ -267,7 +257,7 @@ A function decorator is a higher-order function that takes one function as an ar
 
 </details>
 
-### Technical frame 13: And also: / Building Blocks / partial application
+### Technical frame 12: And also: / Building Blocks / partial application
 
 **Context:** _(javascriptallonge.pdf (source-range-0e12e052-00592))_
 
@@ -275,12 +265,13 @@ A function decorator is a higher-order function that takes one function as an ar
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00588))_
 
+<a id="atom-technical-atom-056ce8634521f287"></a>
 ```
 _.map([1, 2, 3], (n) => n * n)
 //=> [1, 4, 9]
 ```
 
-### Technical frame 14: And also: / Building Blocks / partial application
+### Technical frame 13: And also: / Building Blocks / partial application
 
 **Context:** _(javascriptallonge.pdf (source-range-0e12e052-00592))_
 
@@ -288,12 +279,13 @@ _.map([1, 2, 3], (n) => n * n)
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00591))_
 
+<a id="atom-technical-atom-feda299a4a4ec2a5"></a>
 ```
 const squareAll = (array) => map(array,
 (n) => n * n);
 ```
 
-### Technical frame 15: And also: / Building Blocks / partial application
+### Technical frame 14: And also: / Building Blocks / partial application
 
 **Context:** _(javascriptallonge.pdf (source-range-0e12e052-00594))_
 
@@ -301,6 +293,7 @@ const squareAll = (array) => map(array,
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00593))_
 
+<a id="atom-technical-atom-5fc00c3a7dcf13db"></a>
 ```
 const mapWith = (fn) =>
 (array) => map(array, fn);
@@ -309,7 +302,7 @@ squareAll([1, 2, 3])
 //=> [1, 4, 9]
 ```
 
-### Technical frame 16: And also: / Magic Names / the function keyword
+### Technical frame 15: And also: / Magic Names / the function keyword
 
 **Context:** _(javascriptallonge.pdf (source-range-0e12e052-00607))_
 
@@ -317,6 +310,7 @@ squareAll([1, 2, 3])
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00604))_
 
+<a id="atom-technical-atom-1d443d04a5fa8e7f"></a>
 ```
 const plus = function (a, b) {
 return arguments[0] + arguments[1];
@@ -325,7 +319,7 @@ plus(2,3)
 //=> 5
 ```
 
-### Technical frame 17: And also: / Magic Names / the function keyword
+### Technical frame 16: And also: / Magic Names / the function keyword
 
 **Context:** _(javascriptallonge.pdf (source-range-0e12e052-00607))_
 
@@ -333,6 +327,7 @@ plus(2,3)
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00606))_
 
+<a id="atom-technical-atom-4fa04f57675d185a"></a>
 ```
 const args = function (a, b) {
 return arguments;
@@ -341,7 +336,7 @@ args(2,3)
 //=> { '0': 2, '1': 3 }
 ```
 
-### Technical frame 18: And also: / Magic Names / the function keyword
+### Technical frame 17: And also: / Magic Names / the function keyword
 
 **Context:** _(javascriptallonge.pdf (source-range-0e12e052-00612))_
 
@@ -349,6 +344,7 @@ args(2,3)
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00608))_
 
+<a id="atom-technical-atom-216c7e390d5b4860"></a>
 ```text
 42 You should never attempt to define your own bindings against 'magic' names that JavaScript binds for you. It is wise to treat them as read-only at all times.
 43 We'll look at arrays and plain old javascript objects in depth later.
@@ -364,7 +360,7 @@ args(2,3)
 
 </details>
 
-### Technical frame 19: And also: / Magic Names / the function keyword
+### Technical frame 18: And also: / Magic Names / the function keyword
 
 **Context:** _(javascriptallonge.pdf (source-range-0e12e052-00612))_
 
@@ -372,6 +368,7 @@ args(2,3)
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00609))_
 
+<a id="atom-technical-atom-fecbd729f9c90bb4"></a>
 ```
 const plus = function () {
 return arguments[0] + arguments[1];
@@ -380,7 +377,7 @@ plus(2,3)
 //=> 5
 ```
 
-### Technical frame 20: And also: / Magic Names / the function keyword
+### Technical frame 19: And also: / Magic Names / the function keyword
 
 **Context:** _(javascriptallonge.pdf (source-range-0e12e052-00612))_
 
@@ -388,6 +385,7 @@ plus(2,3)
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00611))_
 
+<a id="atom-technical-atom-5925e7e19042ad68"></a>
 ```
 const howMany = function () {
 return arguments['length'];
@@ -400,7 +398,7 @@ howMany('sharks', 'are', 'apex', 'predators')
 //=> 4
 ```
 
-### Technical frame 21: And also: / Magic Names / magic names and fat arrows
+### Technical frame 20: And also: / Magic Names / magic names and fat arrows
 
 **Context:** _(javascriptallonge.pdf (source-range-0e12e052-00617))_
 
@@ -408,6 +406,7 @@ howMany('sharks', 'are', 'apex', 'predators')
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00616))_
 
+<a id="atom-technical-atom-ba3ef853a0e0c78c"></a>
 ```
 (function () {
 return (function () { return arguments[0]; })('inner');
@@ -415,7 +414,7 @@ return (function () { return arguments[0]; })('inner');
 //=> "inner"
 ```
 
-### Technical frame 22: And also: / Magic Names / magic names and fat arrows
+### Technical frame 21: And also: / Magic Names / magic names and fat arrows
 
 **Context:** _(javascriptallonge.pdf (source-range-0e12e052-00619))_
 
@@ -423,6 +422,7 @@ return (function () { return arguments[0]; })('inner');
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00618))_
 
+<a id="atom-technical-atom-1f21fdd6be9ef40d"></a>
 ```
 (function () {
 return (() => arguments[0])('inner');
@@ -430,7 +430,7 @@ return (() => arguments[0])('inner');
 //=> "outer"
 ```
 
-### Technical frame 23: And also: / Magic Names / magic names and fat arrows
+### Technical frame 22: And also: / Magic Names / magic names and fat arrows
 
 **Context:** _(javascriptallonge.pdf (source-range-0e12e052-00622))_
 
@@ -438,6 +438,7 @@ return (() => arguments[0])('inner');
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00621))_
 
+<a id="atom-technical-atom-34cc4e2d51243815"></a>
 ```
 const row = function () {
 return mapWith(
@@ -449,7 +450,7 @@ row(3)
 //=> [3,6,9,12,15,18,21,24,27,30,33,36]
 ```
 
-### Technical frame 24: And also: / Magic Names / magic names and fat arrows
+### Technical frame 23: And also: / Magic Names / magic names and fat arrows
 
 **Context:** _(javascriptallonge.pdf (source-range-0e12e052-00626))_
 
@@ -457,6 +458,7 @@ row(3)
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00624))_
 
+<a id="atom-technical-atom-2a714b34dc172e0a"></a>
 ```
 const row = function () {
 return mapWith(
@@ -468,7 +470,7 @@ row(3)
 //=> [1,4,9,16,25,36,49,64,81,100,121,144]
 ```
 
-### Technical frame 25: Recipes with Basic Functions / Partial Application
+### Technical frame 24: Recipes with Basic Functions / Partial Application
 
 **Context:** _(javascriptallonge.pdf (source-range-0e12e052-00657))_
 
@@ -476,6 +478,7 @@ row(3)
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00656))_
 
+<a id="atom-technical-atom-12e2e0144ff30f83"></a>
 ```
 const callFirst = (fn, larg) =>
 function (...rest) {
@@ -495,7 +498,7 @@ sayHelloToCeline('Eartha')
 //=> 'Hello, Celine, my name is Eartha'
 ```
 
-### Technical frame 26: Recipes with Basic Functions / Partial Application
+### Technical frame 25: Recipes with Basic Functions / Partial Application
 
 **Context:** _(javascriptallonge.pdf (source-range-0e12e052-00660))_
 
@@ -503,6 +506,7 @@ sayHelloToCeline('Eartha')
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00658))_
 
+<a id="atom-technical-atom-6a1f8c07567d2732"></a>
 ```text
 45 https://github.com/fogus/lemonad 46 http://osteele.com/sources/javascript/functional/ 47 https://github.com/substack/node-ap 48
 ```
@@ -518,7 +522,7 @@ sayHelloToCeline('Eartha')
 
 </details>
 
-### Technical frame 27: Recipes with Basic Functions / Partial Application
+### Technical frame 26: Recipes with Basic Functions / Partial Application
 
 **Context:** _(javascriptallonge.pdf (source-range-0e12e052-00660))_
 
@@ -526,6 +530,7 @@ sayHelloToCeline('Eartha')
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00661))_
 
+<a id="atom-technical-atom-21a14ad8292299c9"></a>
 ```
 const callLeft = (fn, ...args) =>
 (...remainingArgs) =>
@@ -535,7 +540,7 @@ const callRight = (fn, ...args) =>
 fn(...remainingArgs, ...args);
 ```
 
-### Technical frame 28: Recipes with Basic Functions / Left-Variadic Functions / left-variadic destructuring
+### Technical frame 27: Recipes with Basic Functions / Left-Variadic Functions / left-variadic destructuring
 
 **Context:** _(javascriptallonge.pdf (source-range-0e12e052-00742))_
 
@@ -543,6 +548,7 @@ fn(...remainingArgs, ...args);
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00737))_
 
+<a id="atom-technical-atom-2943b3b385877484"></a>
 ```
 const [first, ...butFirst] = ['why', 'hello', 'there', 'little', 'droid'];
 first
@@ -551,7 +557,7 @@ butFirst
 //=> ["hello","there","little","droid"]
 ```
 
-### Technical frame 29: Recipes with Basic Functions / Left-Variadic Functions / left-variadic destructuring
+### Technical frame 28: Recipes with Basic Functions / Left-Variadic Functions / left-variadic destructuring
 
 **Context:** _(javascriptallonge.pdf (source-range-0e12e052-00744))_
 
@@ -559,6 +565,7 @@ butFirst
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00743))_
 
+<a id="atom-technical-atom-75b1facae029040a"></a>
 ```
 const leftGather = (outputArrayLength) => {
 return function (inputArray) {
@@ -576,7 +583,7 @@ last
 //=> 'droid'
 ```
 
-### Technical frame 30: Picking the Bean: Choice and Truthiness / truthiness and operators
+### Technical frame 29: Picking the Bean: Choice and Truthiness / truthiness and operators
 
 **Context:** _(javascriptallonge.pdf (source-range-0e12e052-00773))_
 
@@ -584,6 +591,7 @@ last
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00772))_
 
+<a id="atom-technical-atom-39a1812ab600996f"></a>
 ```
 !5
 //=> false
@@ -591,7 +599,7 @@ last
 //=> true
 ```
 
-### Technical frame 31: Composing and Decomposing Data / Arrays and Destructuring Arguments / gathering
+### Technical frame 30: Composing and Decomposing Data / Arrays and Destructuring Arguments / gathering
 
 **Context:** _(javascriptallonge.pdf (source-range-0e12e052-00847))_
 
@@ -599,6 +607,7 @@ last
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00851))_
 
+<a id="atom-technical-atom-fa2666d9345d6631"></a>
 ```text
 57 https://en.wikipedia.org/wiki/CAR_and_CDR
 58 Kyle Simpson is the author of You Don't Know JS, available here
@@ -614,7 +623,7 @@ last
 
 </details>
 
-### Technical frame 32: Composing and Decomposing Data / Tail Calls (and Default Arguments) / converting non-tail-calls to tail-calls
+### Technical frame 31: Composing and Decomposing Data / Tail Calls (and Default Arguments) / converting non-tail-calls to tail-calls
 
 **Context:** _(javascriptallonge.pdf (source-range-0e12e052-00981))_
 
@@ -622,6 +631,7 @@ last
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00980))_
 
+<a id="atom-technical-atom-729a50b40f08fbd9"></a>
 | 0, | 1, | 2, | 3, | 4, | 5, | 6, | 7, | 8, | 9, |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 10, | 11, | 12, | 13, | 14, | 15, | 16, | 17, | 18, | 19, |
@@ -654,7 +664,7 @@ converting non-tail-calls to tail-calls
 
 </details>
 
-### Technical frame 33: Composing and Decomposing Data / default arguments
+### Technical frame 32: Composing and Decomposing Data / default arguments
 
 **Context:** _(javascriptallonge.pdf (source-range-0e12e052-01002))_
 
@@ -662,6 +672,7 @@ converting non-tail-calls to tail-calls
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01001))_
 
+<a id="atom-technical-atom-c42a85af37040385"></a>
 ```
 const factorial = (n, work = 1) =>
 n === 1
@@ -673,30 +684,50 @@ factorial(6)
 //=> 720
 ```
 
+### Technical atom 33
+
+<a id="atom-technical-atom-2b5f1646ad268fb3"></a>
+
+**Context:** _(javascriptallonge.pdf (source-range-0e12e052-00238))_
+
+> We said that the function returns the result of evaluating a block , and we said that a block is a (possibly empty) list of JavaScript statements separated by semicolons. 21
+
+**Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00236))_
+
+```text
+back on the block
+Back to our function. We evaluated this:
+19 Experienced JavaScript programmers are aware that there's a fourth way, using a function argument. This was actually the preferred mechanism until void became commonplace.
+20 As an exercise for the reader, we suggest you ask your friendly neighbourhood programming language designer or human factors subjectmatter expert to explain why a keyword called void is used to generate an undefined value, instead of calling them both void or both undefined . We have no idea.
+```
+
+<details>
+<summary>Parsed table preview (needs review)</summary>
+
+| entry | content |
+| --- | --- |
+| 19 | Experienced JavaScript programmers are aware that there's a fourth way, using a function argument. This was actually the preferred mechanism until void became commonplace. |
+| 20 | As an exercise for the reader, we suggest you ask your friendly neighbourhood programming language designer or human factors subjectmatter expert to explain why a keyword called void is used to generate an undefined value, instead of calling them both void or both undefined. We have no idea. |
+
+</details>
+
 
 ## Related pages
 
-- [[javascriptallonge-works-just-fine-because-arguments]] - narrower topic: Works Just Fine, Because Arguments[0 shares source evidence from And also: / Magic Names / magic names and fat arrows: This works just fine, because arguments[0] refers to the 3 we passed to the function row . Our 'fat arrow' function (column) => column * arguments[0] doesn't bind ar ... [truncated] (1 shared statement(s))
+### Shared technical atoms
+
 - [[javascriptallonge-partial-application]] - shared statements and technical atoms: partial application shares source evidence from And also: / Building Blocks / partial application: The resulting functionsquareAll -is still the map function, it's just that we've applied one of its two arguments already. squareAll is nice, but why write one funct ... [truncated]; partial application shares technical record from And also: / Building Blocks / partial application: _.map([1, 2, 3], (n) => n * n) //=> [1, 4, 9] (2 shared statement(s), 6 shared atom(s))
 - [[javascriptallonge-bind]] - shared statements and technical atoms: Bind shares source evidence from And also: / Magic Names / magic names and fat arrows: This works just fine, because arguments[0] refers to the 3 we passed to the function row . Our 'fat arrow' function (column) => column * arguments[0] doesn't bind ar ... [truncated]; Bind shares technical record from And also: / Magic Names / the function keyword: 42 You should never attempt to define your own bindings against 'magic' names that JavaScript binds for you. It is wise to treat them as read-only at all times. 43 W ... [truncated] (2 shared statement(s), 5 shared atom(s))
+- [[javascriptallonge-javascript]] - shared technical atoms: Javascript shares technical record from Or even: / back on the block: 42 You should never attempt to define your own bindings against 'magic' names that JavaScript binds for you. It is wise to treat them as read-only at all times. 43 W ... [truncated] (6 shared atom(s))
 - [[javascriptallonge-function-keyword]] - shared statements and technical atoms: the function keyword shares source evidence from And also: / Magic Names / the function keyword: arguments always contains all of the arguments passed to a function, regardless of how many are declared. Therefore, we can write plus like this:; the function keyword shares technical record from And also: / Magic Names / the function keyword: const plus = function (a, b) { return arguments[0] + arguments[1]; } plus(2,3) //=> 5 (1 shared statement(s), 5 shared atom(s))
 - [[javascriptallonge-return]] - shared statements and technical atoms: Return shares source evidence from And also: / Combinators and Function Decorators / higher-order functions: As we've seen, JavaScript functions take values as arguments and return values. JavaScript functions are values, so JavaScript functions can take functions as argume ... [truncated]; Return shares technical record from And also: / Combinators and Function Decorators / function decorators: const mapWith = (fn) => (array) => map(array, fn); const squareAll = mapWith((n) => n * n); squareAll([1, 2, 3]) //=> [1, 4, 9] (3 shared statement(s), 3 shared atom(s))
 - [[javascriptallonge-fat-arrow]] - shared statements and technical atoms: Fat Arrow shares source evidence from And also: / Magic Names / magic names and fat arrows: This works just fine, because arguments[0] refers to the 3 we passed to the function row . Our 'fat arrow' function (column) => column * arguments[0] doesn't bind ar ... [truncated]; Fat Arrow shares technical record from And also: / Magic Names / magic names and fat arrows: (function () { return (() => arguments[0])('inner'); })('outer') //=> "outer" (1 shared statement(s), 2 shared atom(s))
 - [[javascriptallonge-list]] - shared statements and technical atoms: List shares source evidence from Recipes with Basic Functions / Partial Application: These two recipes are for quickly and simply applying a single argument, either the leftmost or rightmost. 48 If you want to bind more than one argument, or you want ... [truncated]; List shares technical record from Recipes with Basic Functions / Partial Application: const callFirst = (fn, larg) => function (...rest) { return fn.call(this, larg, ...rest); } const callLast = (fn, rarg) => function (...rest) { return fn.call(this, ... [truncated] (1 shared statement(s), 2 shared atom(s))
-- [[javascriptallonge-javascript]] - shared technical atoms: Javascript shares technical record from Or even: / back on the block: 42 You should never attempt to define your own bindings against 'magic' names that JavaScript binds for you. It is wise to treat them as read-only at all times. 43 W ... [truncated] (6 shared atom(s))
 - [[javascriptallonge-data]] - shared technical atoms: Data shares technical record from Composing and Decomposing Data / Arrays and Destructuring Arguments / gathering: 57 https://en.wikipedia.org/wiki/CAR_and_CDR 58 Kyle Simpson is the author of You Don't Know JS, available here (2 shared atom(s))
-- [[javascriptallonge-decorator]] - shared technical atoms: Decorator shares technical record from And also: / Combinators and Function Decorators / combinators: combinators The word 'combinator' has a precise technical meaning in mathematics: 'A combinator is a higher-order function that uses only function application and ea ... [truncated] (2 shared atom(s))
-- [[javascriptallonge-recipe]] - shared technical atoms: Recipe shares technical record from Recipes with Basic Functions / Partial Application: const callFirst = (fn, larg) => function (...rest) { return fn.call(this, larg, ...rest); } const callLast = (fn, rarg) => function (...rest) { return fn.call(this, ... [truncated] (2 shared atom(s))
-- [[javascriptallonge-variable]] - shared technical atoms: Variable shares technical record from And also: / variables and bindings: (x) => (y) => x (2 shared atom(s))
-- [[javascriptallonge-binding]] - shared technical atoms: Binding shares technical record from And also: / Magic Names / the function keyword: 42 You should never attempt to define your own bindings against 'magic' names that JavaScript binds for you. It is wise to treat them as read-only at all times. 43 W ... [truncated] (1 shared atom(s))
-- [[javascriptallonge-expression]] - shared technical atoms: Expression shares technical record from And also: / Magic Names / magic names and fat arrows: (function () { return (function () { return arguments[0]; })('inner'); })('outer') //=> "inner" (1 shared atom(s))
-- [[javascriptallonge-functional]] - shared technical atoms: Functional shares technical record from Recipes with Basic Functions / Partial Application: 45 https://github.com/fogus/lemonad 46 http://osteele.com/sources/javascript/functional/ 47 https://github.com/substack/node-ap 48 (1 shared atom(s))
-- [[javascriptallonge-object]] - shared technical atoms: Object shares technical record from And also: / Magic Names / the function keyword: 42 You should never attempt to define your own bindings against 'magic' names that JavaScript binds for you. It is wise to treat them as read-only at all times. 43 W ... [truncated] (1 shared atom(s))
-- [[javascriptallonge-operator]] - shared technical atoms: Operator shares technical record from Picking the Bean: Choice and Truthiness / truthiness and operators: !5 //=> false !undefined //=> true (1 shared atom(s))
-- [[javascriptallonge-parameter]] - shared technical atoms: Parameter shares technical record from Recipes with Basic Functions / Left-Variadic Functions / left-variadic destructuring: const leftGather = (outputArrayLength) => { return function (inputArray) { return [inputArray.slice(0, inputArray.length - outputArrayLength + 1)].conc\ at( inputArr ... [truncated] (1 shared atom(s))
-- [[javascriptallonge-reference]] - shared technical atoms: Reference shares technical record from And also: / call by sharing: (value) => ((ref1, ref2) => ref1 === ref2)(value, value) (1 shared atom(s))
-- [[javascriptallonge-truthiness]] - shared technical atoms: Truthiness shares technical record from Picking the Bean: Choice and Truthiness / truthiness and operators: !5 //=> false !undefined //=> true (1 shared atom(s))
-- [[javascriptallonge-type]] - shared technical atoms: Type shares technical record from And also: / call by sharing: (value) => ((ref1, ref2) => ref1 === ref2)(value, value) (1 shared atom(s))
+
+### Topics
+
+- [[javascriptallonge-works-just-fine-because-arguments]] - narrower topic: Works Just Fine, Because Arguments[0 shares source evidence from And also: / Magic Names / magic names and fat arrows: This works just fine, because arguments[0] refers to the 3 we passed to the function row . Our 'fat arrow' function (column) => column * arguments[0] doesn't bind ar ... [truncated] (1 shared statement(s))
 
 ## Source
 

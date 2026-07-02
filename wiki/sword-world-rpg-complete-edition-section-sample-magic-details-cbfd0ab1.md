@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-sample-magic-details-cbfd0ab1@4ba0081731630fc354e4a1ba538739cf
+projection_coverage: section-sword-world-rpg-complete-edition-section-sample-magic-details-cbfd0ab1@f3f0b31949d4d2387dd305189f1af5fc
 ---
 
 # [Sample Magic Details]
@@ -17,20 +17,20 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
+### Source order
+
+- [[sword-world-rpg-complete-edition-section-energy-bolt-4700b080]] - next source section: [ Energy Bolt ]
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-sample-magic-details-1st-level-ancient-magic-list-unlock-348edce4]] - narrower source section: [Sample Magic Details] / 1st Level Ancient Magic List [ Unlock ]
+- [[sword-world-rpg-complete-edition-section-sample-magic-details-5-1-11-ancient-magic-and-the-sorcerer-skill-6106c3bd]] - narrower source section: [Sample Magic Details] / 5.1.11 Ancient Magic and the Sorcerer Skill
+- [[sword-world-rpg-complete-edition-section-sample-magic-details-area-6a47f6c1]] - narrower source section: [Sample Magic Details] / 《 Area 》
 - [[sword-world-rpg-complete-edition-section-sample-magic-details-base-mental-power-cost-5655be63]] - narrower source section: [Sample Magic Details] / 《 Base Mental Power Cost 》
 - [[sword-world-rpg-complete-edition-section-sample-magic-details-distance-1d9bb1b3]] - narrower source section: [Sample Magic Details] / 《 Distance 》
-- [[sword-world-rpg-complete-edition-section-sample-magic-details-area-6a47f6c1]] - narrower source section: [Sample Magic Details] / 《 Area 》
 - [[sword-world-rpg-complete-edition-section-sample-magic-details-duration-b6d63625]] - narrower source section: [Sample Magic Details] / 《 Duration 》
 - [[sword-world-rpg-complete-edition-section-sample-magic-details-effect-4acf4d99]] - narrower source section: [Sample Magic Details] / 《 Effect 》
-- [[sword-world-rpg-complete-edition-section-sample-magic-details-type-81d79973]] - narrower source section: [Sample Magic Details] / 《 Type 》
-- [[sword-world-rpg-complete-edition-section-sample-magic-details-resist-45929b6d]] - narrower source section: [Sample Magic Details] / 《 Resist 》
-- [[sword-world-rpg-complete-edition-section-sample-magic-details-5-1-11-ancient-magic-and-the-sorcerer-skill-6106c3bd]] - narrower source section: [Sample Magic Details] / 5.1.11 Ancient Magic and the Sorcerer Skill
 - [[sword-world-rpg-complete-edition-section-sample-magic-details-high-ancient-3f3964e5]] - narrower source section: [Sample Magic Details] / 《 High Ancient 》
-- [[sword-world-rpg-complete-edition-section-sample-magic-details-low-ancient-394d76a9]] - narrower source section: [Sample Magic Details] / 《 Low Ancient 》
-- [[sword-world-rpg-complete-edition-section-sample-magic-details-spellbook-cef5cb5e]] - narrower source section: [Sample Magic Details] / 《 Spellbook 》
-- [[sword-world-rpg-complete-edition-section-sample-magic-details-magical-catalyst-410c680a]] - narrower source section: [Sample Magic Details] / 《 Magical Catalyst 》
-- [[sword-world-rpg-complete-edition-section-sample-magic-details-1st-level-ancient-magic-list-unlock-348edce4]] - narrower source section: [Sample Magic Details] / 1st Level Ancient Magic List [ Unlock ]
-- [[sword-world-rpg-complete-edition-section-energy-bolt-4700b080]] - next source section: [ Energy Bolt ]
 
 ## Statements
 

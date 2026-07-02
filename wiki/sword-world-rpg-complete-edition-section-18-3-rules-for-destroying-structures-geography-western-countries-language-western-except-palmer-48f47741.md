@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-18-3-rules-for-destroying-structures-geography-western-countries-language-western-except-palmer-48f47741@16b517d798b0f7f51d5f2a3531ad5875
+projection_coverage: section-sword-world-rpg-complete-edition-section-18-3-rules-for-destroying-structures-geography-western-countries-language-western-except-palmer-48f47741@964fe0f0d599472798297531abd13900
 ---
 
 # 18.3 Rules for Destroying Structures / Geography / Western Countries (Language: Western, except Palmer Village which uses Eastern)
@@ -17,9 +17,14 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-18-3-rules-for-destroying-structures-geography-f18d9385]] - broader source section: 18.3 Rules for Destroying Structures / Geography
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-18-3-rules-for-destroying-structures-geography-southern-central-region-language-western-gundar-2326e7bd]] - previous source section: 18.3 Rules for Destroying Structures / Geography / Southern Central Region (Language = Western/Gundar)
 - [[sword-world-rpg-complete-edition-section-18-3-rules-for-destroying-structures-geography-islands-of-azarn-language-eastern-m-rdan-831690b7]] - next source section: 18.3 Rules for Destroying Structures / Geography / Islands of Azarn (Language = Eastern/Mārdan)
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-18-3-rules-for-destroying-structures-geography-f18d9385]] - broader source section: 18.3 Rules for Destroying Structures / Geography
 
 ## Statements
 

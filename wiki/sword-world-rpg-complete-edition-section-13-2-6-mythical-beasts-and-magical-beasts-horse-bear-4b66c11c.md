@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-13-2-6-mythical-beasts-and-magical-beasts-horse-bear-4b66c11c@555058b8aea833b4db8b440ac2154ef4
+projection_coverage: section-sword-world-rpg-complete-edition-section-13-2-6-mythical-beasts-and-magical-beasts-horse-bear-4b66c11c@58f3a5fe0d0dd6dd7d61dc41e842fe0a
 ---
 
 # 13.2.6 Mythical Beasts and Magical Beasts / [ Horse ] / [ Bear ]
@@ -17,9 +17,14 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-13-2-6-mythical-beasts-and-magical-beasts-horse-9c294c60]] - broader source section: 13.2.6 Mythical Beasts and Magical Beasts / [ Horse ]
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-13-2-6-mythical-beasts-and-magical-beasts-horse-bat-236061d4]] - previous source section: 13.2.6 Mythical Beasts and Magical Beasts / [ Horse ] / [ Bat ]
 - [[sword-world-rpg-complete-edition-section-13-2-6-mythical-beasts-and-magical-beasts-horse-lion-fa2410da]] - next source section: 13.2.6 Mythical Beasts and Magical Beasts / [ Horse ] / [ Lion ]
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-13-2-6-mythical-beasts-and-magical-beasts-horse-9c294c60]] - broader source section: 13.2.6 Mythical Beasts and Magical Beasts / [ Horse ]
 
 ## Statements
 
@@ -42,4 +47,5 @@ From [[sword-world-rpg-complete-edition]].
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-07064))_
 
+<a id="atom-technical-atom-658532270065e9f1"></a>
 > In this state, the bear cannot attack other opponents.

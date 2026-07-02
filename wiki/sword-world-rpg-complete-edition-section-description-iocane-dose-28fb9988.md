@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-description-iocane-dose-28fb9988@fd62261a592c6fcc18a0d98c0da29cf3
+projection_coverage: section-sword-world-rpg-complete-edition-section-description-iocane-dose-28fb9988@1e6e4d31c34932ad6365cb9fd66fcd87
 ---
 
 # 《 Description 》 / [ Iocane (Dose) ]
@@ -17,8 +17,13 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-description-d5853f98]] - broader source section: 《 Description 》
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-description-eternal-child-dose-762f37dc]] - next source section: 《 Description 》 / [ Eternal Child (Dose) ]
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-description-d5853f98]] - broader source section: 《 Description 》
 
 ## Statements
 

@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-18-3-rules-for-destroying-structures-politics-and-class-adventurers-92f0e599@ece918948c1c92358bbb09aabcec5f09
+projection_coverage: section-sword-world-rpg-complete-edition-section-18-3-rules-for-destroying-structures-politics-and-class-adventurers-92f0e599@4c44921a77ac0f6112735e46b4411458
 ---
 
 # 18.3 Rules for Destroying Structures / Politics and Class / Adventurers
@@ -17,8 +17,13 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-18-3-rules-for-destroying-structures-politics-and-class-f3bf72c2]] - broader source section: 18.3 Rules for Destroying Structures / Politics and Class
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-18-3-rules-for-destroying-structures-politics-and-class-intellectuals-clergy-traveling-merchants-53d3e0a8]] - previous source section: 18.3 Rules for Destroying Structures / Politics and Class / Intellectuals/Clergy/ Traveling Merchants
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-18-3-rules-for-destroying-structures-politics-and-class-f3bf72c2]] - broader source section: 18.3 Rules for Destroying Structures / Politics and Class
 
 ## Statements
 

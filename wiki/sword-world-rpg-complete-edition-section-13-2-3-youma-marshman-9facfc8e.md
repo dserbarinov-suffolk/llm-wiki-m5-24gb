@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-13-2-3-youma-marshman-9facfc8e@5f0d6f180b7926fee7fb9d82329c454f
+projection_coverage: section-sword-world-rpg-complete-edition-section-13-2-3-youma-marshman-9facfc8e@ac30ea4d7cd2f39328c64f60041dffec
 ---
 
 # 13.2.3 Youma / [ Marshman ]
@@ -17,9 +17,14 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-13-2-3-youma-05ea9fd0]] - broader source section: 13.2.3 Youma
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-13-2-3-youma-goblin-d6eadc2f]] - previous source section: 13.2.3 Youma / [ Goblin ]
 - [[sword-world-rpg-complete-edition-section-13-2-3-youma-dark-elf-42e5064f]] - next source section: 13.2.3 Youma / [ Dark Elf ]
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-13-2-3-youma-05ea9fd0]] - broader source section: 13.2.3 Youma
 
 ## Statements
 

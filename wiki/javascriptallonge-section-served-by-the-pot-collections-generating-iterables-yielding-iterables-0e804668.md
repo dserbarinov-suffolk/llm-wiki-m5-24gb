@@ -4,11 +4,11 @@ page_kind: source
 summary: Served by the Pot: Collections / Generating Iterables / yielding iterables: 17 source-backed entries and 4 atom(s) from raw/javascriptallonge.pdf.
 page_family: section-reference
 sources: raw/javascriptallonge.pdf
-updated: 2026-07-01
+updated: 2026-07-02
 domain: javascriptallonge
 category_path: sources/javascriptallonge/sections
 source_id: javascriptallonge.pdf
-projection_coverage: section-javascriptallonge-section-served-by-the-pot-collections-generating-iterables-yielding-iterables-0e804668@28d871cd7ecd59c57740e4a94920540e
+projection_coverage: section-javascriptallonge-section-served-by-the-pot-collections-generating-iterables-yielding-iterables-0e804668@e47b622f3fa772cc61e38d57653a86f9
 ---
 
 # Served by the Pot: Collections / Generating Iterables / yielding iterables
@@ -17,8 +17,13 @@ From [[javascriptallonge]].
 
 ## Related pages
 
-- [[javascriptallonge-section-served-by-the-pot-collections-generating-iterables-8c929c4d]] - broader source section: Served by the Pot: Collections / Generating Iterables
+### Source order
+
 - [[javascriptallonge-section-served-by-the-pot-collections-generating-iterables-more-generators-17bb605f]] - previous source section: Served by the Pot: Collections / Generating Iterables / more generators
+
+### Source structure
+
+- [[javascriptallonge-section-served-by-the-pot-collections-generating-iterables-8c929c4d]] - broader source section: Served by the Pot: Collections / Generating Iterables
 
 ## Statements
 
@@ -39,6 +44,7 @@ From [[javascriptallonge]].
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01738))_
 
+<a id="atom-technical-atom-367cd27fcaddc9af"></a>
 ```
 function * append (...iterables) {
 for (const iterable of iterables) {
@@ -60,6 +66,7 @@ console.log(word);
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01739))_
 
+<a id="atom-technical-atom-ba4b65c89018722e"></a>
 ```
 //=>
 a
@@ -80,6 +87,7 @@ re
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01740))_
 
+<a id="atom-technical-atom-ce2d985e63bdec2f"></a>
 ```
 const isIterable = (something) =>
 !!something[Symbol.iterator];
@@ -112,6 +120,7 @@ console.log(i);
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01742))_
 
+<a id="atom-technical-atom-84ef11af1d305c7e"></a>
 ```text
 else {
 yield e;

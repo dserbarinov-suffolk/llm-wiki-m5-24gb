@@ -4,11 +4,11 @@ page_kind: source
 summary: Garbage, Garbage Everywhere / so why arrays: 7 source-backed entries and 2 atom(s) from raw/javascriptallonge.pdf.
 page_family: section-reference
 sources: raw/javascriptallonge.pdf
-updated: 2026-07-01
+updated: 2026-07-02
 domain: javascriptallonge
 category_path: sources/javascriptallonge/sections
 source_id: javascriptallonge.pdf
-projection_coverage: section-javascriptallonge-section-garbage-garbage-everywhere-so-why-arrays-270c6428@f1a8a70f1b558035f85ec525df2d54f2
+projection_coverage: section-javascriptallonge-section-garbage-garbage-everywhere-so-why-arrays-270c6428@6edda0a5d9d38d60490d28e368640320
 ---
 
 # Garbage, Garbage Everywhere / so why arrays
@@ -17,9 +17,17 @@ From [[javascriptallonge]].
 
 ## Related pages
 
-- [[javascriptallonge-section-garbage-garbage-everywhere-c3e1739c]] - broader source section: Garbage, Garbage Everywhere
+### Source order
+
 - [[javascriptallonge-section-garbage-garbage-everywhere-some-history-a956a93b]] - previous source section: Garbage, Garbage Everywhere / some history
 - [[javascriptallonge-section-garbage-garbage-everywhere-summary-ca623d10]] - next source section: Garbage, Garbage Everywhere / summary
+
+### Source structure
+
+- [[javascriptallonge-section-garbage-garbage-everywhere-c3e1739c]] - broader source section: Garbage, Garbage Everywhere
+
+### Topics
+
 - [[javascriptallonge-array]] - topic hub: opens the topic page for Array
 
 ## Statements
@@ -39,6 +47,7 @@ From [[javascriptallonge]].
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01050))_
 
+<a id="atom-technical-atom-71a2f1f07a35e3c3"></a>
 > And if you want an arbitrary item from a list, you have to iterate through the list element by element, whereas with the indexed array you just fetch it.
 
 ### Technical frame 2: Garbage, Garbage Everywhere / so why arrays
@@ -49,4 +58,5 @@ From [[javascriptallonge]].
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01051))_
 
+<a id="atom-technical-atom-0fd9e385f39620fc"></a>
 > We have avoided discussing rebinding and mutating values, but if we want to change elements of our lists, the naïve linked list implementation suffers as well: When we take the cdr of a linked list, we are sharing the elements.

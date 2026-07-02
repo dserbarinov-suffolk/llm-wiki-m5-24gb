@@ -7,7 +7,7 @@ sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: concepts
-projection_coverage: topic-sword-world-rpg-complete-edition-10-magical-weapon@867a7a512f178d69edf6941aaf1df0af
+projection_coverage: topic-sword-world-rpg-complete-edition-10-magical-weapon@89e1285ceb8b880fb3e55749e4f4515c
 ---
 
 # 10 Magical Weapon
@@ -41,10 +41,13 @@ What [[sword-world-rpg-complete-edition]] covers about 10 magical weapon:
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-01484))_
 
+<a id="atom-technical-atom-e95f18afcff444da"></a>
 > Magical weapons can deal damage to monsters that normal weapons cannot harm.
 
 
 ## Related pages
+
+### Shared claims
 
 - [[sword-world-rpg-complete-edition-armor]] - shared statements: Armor shares source evidence from 4.10 Excellent Weapons and Armor / 4.10.3 Magical Weapons and Armor: In Forcelia, there are magical weapons and armor that were once created during the age of the magical kingdom (Kastuul). These magical weapons and armor are seldom f ... [truncated] (4 shared statement(s))
 - [[sword-world-rpg-complete-edition-bonus-damage]] - shared statements: 【 Bonus Damage 】 shares source evidence from 4.10 Excellent Weapons and Armor / 4.10.3 Magical Weapons and Armor / 【 Magical Weapons 】: Magical weapons have exceptional attack power and bonus damage . If you use a +1 magical weapon, you receive a +1 bonus to attack power and bonus damage. If +2, thos ... [truncated] (2 shared statement(s))

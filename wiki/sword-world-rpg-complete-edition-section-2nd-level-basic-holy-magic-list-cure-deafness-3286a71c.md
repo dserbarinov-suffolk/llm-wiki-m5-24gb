@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-2nd-level-basic-holy-magic-list-cure-deafness-3286a71c@c70ef6a23be514ac7b29aa742f3259f0
+projection_coverage: section-sword-world-rpg-complete-edition-section-2nd-level-basic-holy-magic-list-cure-deafness-3286a71c@073f0f913c5a0adf86e65e5150e8a400
 ---
 
 # 2nd Level Basic Holy Magic List [ Cure Deafness ]
@@ -17,11 +17,16 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
+### Source order
+
+- [[sword-world-rpg-complete-edition-section-magic-list-cure-wounds-2bf72421]] - previous source section: Magic List [ Cure Wounds ]
+- [[sword-world-rpg-complete-edition-section-3rd-level-basic-holy-magic-list-cure-poison-4f03565a]] - next source section: 3rd Level Basic Holy Magic List [ Cure Poison ]
+
+### Source structure
+
 - [[sword-world-rpg-complete-edition-section-2nd-level-basic-holy-magic-list-cure-deafness-cure-blindness-4f91ff4f]] - narrower source section: 2nd Level Basic Holy Magic List [ Cure Deafness ] / [ Cure Blindness
 - [[sword-world-rpg-complete-edition-section-2nd-level-basic-holy-magic-list-cure-deafness-force-11aa05d3]] - narrower source section: 2nd Level Basic Holy Magic List [ Cure Deafness ] / [ Force ]
 - [[sword-world-rpg-complete-edition-section-2nd-level-basic-holy-magic-list-cure-deafness-holy-weapon-81f376da]] - narrower source section: 2nd Level Basic Holy Magic List [ Cure Deafness ] / [ Holy Weapon ]
-- [[sword-world-rpg-complete-edition-section-magic-list-cure-wounds-2bf72421]] - previous source section: Magic List [ Cure Wounds ]
-- [[sword-world-rpg-complete-edition-section-3rd-level-basic-holy-magic-list-cure-poison-4f03565a]] - next source section: 3rd Level Basic Holy Magic List [ Cure Poison ]
 
 ## Statements
 

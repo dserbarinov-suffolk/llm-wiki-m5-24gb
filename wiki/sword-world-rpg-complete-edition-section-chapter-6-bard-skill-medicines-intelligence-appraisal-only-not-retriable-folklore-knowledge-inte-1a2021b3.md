@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-6-bard-skill-medicines-intelligence-appraisal-only-not-retriable-folklore-knowledge-inte-1a2021b3@8ba16038bcfbf0240c8fa1af4461b2db
+projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-6-bard-skill-medicines-intelligence-appraisal-only-not-retriable-folklore-knowledge-inte-1a2021b3@8b5483e555c4c710e15a8009a28e73d6
 ---
 
 # Chapter 6: / Bard Skill / [ ⑦ Medicines [Intelligence]] ((Appraisal only) Not retriable) / [ ⑤ Folklore Knowledge [Intelligence] ] (Not retriable)
@@ -17,8 +17,13 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-chapter-6-bard-skill-medicines-intelligence-appraisal-only-not-retriable-8d42c647]] - broader source section: Chapter 6: / Bard Skill / [ ⑦ Medicines [Intelligence]] ((Appraisal only) Not retriable)
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-chapter-6-bard-skill-medicines-intelligence-appraisal-only-not-retriable-languages-spoken-intell-360ee28c]] - previous source section: Chapter 6: / Bard Skill / [ ⑦ Medicines [Intelligence]] ((Appraisal only) Not retriable) / [ ③ Languages (Spoken) [Intelligence] ]
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-chapter-6-bard-skill-medicines-intelligence-appraisal-only-not-retriable-8d42c647]] - broader source section: Chapter 6: / Bard Skill / [ ⑦ Medicines [Intelligence]] ((Appraisal only) Not retriable)
 
 ## Statements
 

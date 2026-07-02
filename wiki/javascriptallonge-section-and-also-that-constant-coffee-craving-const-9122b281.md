@@ -4,11 +4,11 @@ page_kind: source
 summary: And also: / That Constant Coffee Craving / const: 22 source-backed entries and 1 atom(s) from raw/javascriptallonge.pdf.
 page_family: section-reference
 sources: raw/javascriptallonge.pdf
-updated: 2026-07-01
+updated: 2026-07-02
 domain: javascriptallonge
 category_path: sources/javascriptallonge/sections
 source_id: javascriptallonge.pdf
-projection_coverage: section-javascriptallonge-section-and-also-that-constant-coffee-craving-const-9122b281@ebb2c7059952383df03751664d1c15a3
+projection_coverage: section-javascriptallonge-section-and-also-that-constant-coffee-craving-const-9122b281@f469815ef96c16bacd1096cb3665831d
 ---
 
 # And also: / That Constant Coffee Craving / const
@@ -17,9 +17,17 @@ From [[javascriptallonge]].
 
 ## Related pages
 
-- [[javascriptallonge-section-and-also-that-constant-coffee-craving-ac9d9918]] - broader source section: And also: / That Constant Coffee Craving
+### Source order
+
 - [[javascriptallonge-section-and-also-that-constant-coffee-craving-inside-out-973a2848]] - previous source section: And also: / That Constant Coffee Craving / inside-out
 - [[javascriptallonge-section-and-also-that-constant-coffee-craving-nested-blocks-78bcbfc7]] - next source section: And also: / That Constant Coffee Craving / nested blocks
+
+### Source structure
+
+- [[javascriptallonge-section-and-also-that-constant-coffee-craving-ac9d9918]] - broader source section: And also: / That Constant Coffee Craving
+
+### Topics
+
 - [[javascriptallonge-const]] - topic hub: opens the topic page for Const
 
 ## Statements
@@ -45,6 +53,7 @@ From [[javascriptallonge]].
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00416))_
 
+<a id="atom-technical-atom-68b753908d337989"></a>
 ```
 (diameter) => {
 const PI = 3.14159265;

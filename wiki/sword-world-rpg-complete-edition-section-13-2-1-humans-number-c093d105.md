@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-13-2-1-humans-number-c093d105@266fe94cfabaf9a619af70905400b6ab
+projection_coverage: section-sword-world-rpg-complete-edition-section-13-2-1-humans-number-c093d105@ad2ff02be9399e025b18aa6ed96ef343
 ---
 
 # 13.2.1 《 Humans 》 / 《 Number 》
@@ -17,9 +17,14 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-13-2-1-humans-2369e4b2]] - broader source section: 13.2.1 《 Humans 》
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-13-2-1-humans-movement-speed-3a3c49a1]] - previous source section: 13.2.1 《 Humans 》 / 《 Movement Speed 》
 - [[sword-world-rpg-complete-edition-section-13-2-1-humans-frequency-1013763a]] - next source section: 13.2.1 《 Humans 》 / 《 Frequency 》
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-13-2-1-humans-2369e4b2]] - broader source section: 13.2.1 《 Humans 》
 
 ## Statements
 

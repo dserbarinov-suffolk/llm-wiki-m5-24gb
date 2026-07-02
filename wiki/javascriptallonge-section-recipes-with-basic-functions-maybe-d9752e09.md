@@ -4,11 +4,11 @@ page_kind: source
 summary: Recipes with Basic Functions / Maybe: 12 source-backed entries and 7 atom(s) from raw/javascriptallonge.pdf.
 page_family: section-reference
 sources: raw/javascriptallonge.pdf
-updated: 2026-07-01
+updated: 2026-07-02
 domain: javascriptallonge
 category_path: sources/javascriptallonge/sections
 source_id: javascriptallonge.pdf
-projection_coverage: section-javascriptallonge-section-recipes-with-basic-functions-maybe-d9752e09@5f8ea0a1d767a3d4ac10827101455581
+projection_coverage: section-javascriptallonge-section-recipes-with-basic-functions-maybe-d9752e09@c854977cc41fb6a666997a5213fa7ba5
 ---
 
 # Recipes with Basic Functions / Maybe
@@ -17,9 +17,14 @@ From [[javascriptallonge]].
 
 ## Related pages
 
-- [[javascriptallonge-section-recipes-with-basic-functions-58df4c63]] - broader source section: Recipes with Basic Functions
+### Source order
+
 - [[javascriptallonge-section-recipes-with-basic-functions-tap-bcbc81bc]] - previous source section: Recipes with Basic Functions / Tap
 - [[javascriptallonge-section-recipes-with-basic-functions-once-9048fede]] - next source section: Recipes with Basic Functions / Once
+
+### Source structure
+
+- [[javascriptallonge-section-recipes-with-basic-functions-58df4c63]] - broader source section: Recipes with Basic Functions
 
 ## Statements
 
@@ -38,6 +43,7 @@ From [[javascriptallonge]].
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00692))_
 
+<a id="atom-technical-atom-b391f2eda61e4a54"></a>
 ```
 const isSomething = (value) =>
 value !== null && value !== void 0;
@@ -56,6 +62,7 @@ if (isSomething(value)) {
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00694))_
 
+<a id="atom-technical-atom-2f07de826b087d7f"></a>
 ```
 var something =
 isSomething(value)
@@ -71,6 +78,7 @@ isSomething(value)
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00696))_
 
+<a id="atom-technical-atom-5ec51305fdef23e8"></a>
 ```
 const maybe = (fn) =>
 function (...args) {
@@ -91,6 +99,7 @@ if (arg == null) return;
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00697))_
 
+<a id="atom-technical-atom-5afd53750bded0f2"></a>
 ```text
 50 https://en.wikipedia.org/wiki/Monad_(functional_programming)#The_Maybe_monad
 51 https://github.com/raganwald/andand
@@ -114,6 +123,7 @@ if (arg == null) return;
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00698))_
 
+<a id="atom-technical-atom-754594f35861b72e"></a>
 ```
 return fn.apply(this, args)
 }
@@ -128,6 +138,7 @@ return fn.apply(this, args)
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00700))_
 
+<a id="atom-technical-atom-6d82388cd9cbed1b"></a>
 ```
 maybe((a, b, c) => a + b + c)(1, 2, 3)
 //=> 6
@@ -143,6 +154,7 @@ maybe((a, b, c) => a + b + c)(1, null, 3)
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00702))_
 
+<a id="atom-technical-atom-c3b5ab330a9c3b81"></a>
 ```
 function Model () {};
 Model.prototype.setSomething = maybe(function (value) {

@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-6-bard-skill-c54b1125@dcd1fcf9806efdcc6d67cbd3b3fc33f3
+projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-6-bard-skill-c54b1125@21b8c140c07f36c3149647a6d2008b81
 ---
 
 # Chapter 6: / Bard Skill
@@ -17,11 +17,16 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-chapter-6-dd443c93]] - broader source section: Chapter 6:
-- [[sword-world-rpg-complete-edition-section-chapter-6-bard-skill-sing-mental-power-6f2e6b50]] - narrower source section: Chapter 6: / Bard Skill / [ ① Sing [Mental Power] ]
-- [[sword-world-rpg-complete-edition-section-chapter-6-bard-skill-medicines-intelligence-appraisal-only-not-retriable-8d42c647]] - narrower source section: Chapter 6: / Bard Skill / [ ⑦ Medicines [Intelligence]] ((Appraisal only) Not retriable)
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-chapter-6-treasure-appraisal-intelligence-not-retriable-0a827273]] - previous source section: Chapter 6: / [ ⑥ Treasure Appraisal [Intelligence] ] (Not retriable)
 - [[sword-world-rpg-complete-edition-section-chapter-6-common-adventurer-abilities-328f2370]] - next source section: Chapter 6: / Common Adventurer Abilities
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-chapter-6-dd443c93]] - broader source section: Chapter 6:
+- [[sword-world-rpg-complete-edition-section-chapter-6-bard-skill-medicines-intelligence-appraisal-only-not-retriable-8d42c647]] - narrower source section: Chapter 6: / Bard Skill / [ ⑦ Medicines [Intelligence]] ((Appraisal only) Not retriable)
+- [[sword-world-rpg-complete-edition-section-chapter-6-bard-skill-sing-mental-power-6f2e6b50]] - narrower source section: Chapter 6: / Bard Skill / [ ① Sing [Mental Power] ]
 
 ## Statements by subsection
 

@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-2-6-success-rolls-using-adventurer-level-resistance-rolls-b5e39a22@36b07f385b9d90ed422e99ec805df4a0
+projection_coverage: section-sword-world-rpg-complete-edition-section-2-6-success-rolls-using-adventurer-level-resistance-rolls-b5e39a22@7d1672911180a42ca9d922c67db7431f
 ---
 
 # 2.6 Success Rolls Using Adventurer Level / Resistance Rolls
@@ -16,6 +16,8 @@ projection_coverage: section-sword-world-rpg-complete-edition-section-2-6-succes
 From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
+
+### Source structure
 
 - [[sword-world-rpg-complete-edition-section-2-6-success-rolls-using-adventurer-level-8e5d5d97]] - broader source section: 2.6 Success Rolls Using Adventurer Level
 - [[sword-world-rpg-complete-edition-section-2-6-success-rolls-using-adventurer-level-resistance-rolls-filling-out-the-character-sheet-dfbf3a97]] - narrower source section: 2.6 Success Rolls Using Adventurer Level / Resistance Rolls / Filling Out the Character Sheet
@@ -48,6 +50,7 @@ From [[sword-world-rpg-complete-edition]].
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-01034))_
 
+<a id="atom-technical-atom-ccfd148975f0114a"></a>
 > In particular, all checks against magic, even if it causes physical damage, are made with mental power resistance rolls.
 
 ### Technical frame 2: 2.6 Success Rolls Using Adventurer Level / Resistance Rolls
@@ -58,4 +61,5 @@ From [[sword-world-rpg-complete-edition]].
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-01041))_
 
+<a id="atom-technical-atom-6b3034b1609b4bcc"></a>
 > [Figure] (p.33)

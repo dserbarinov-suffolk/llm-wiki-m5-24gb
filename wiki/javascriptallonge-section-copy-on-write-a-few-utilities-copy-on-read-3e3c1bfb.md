@@ -4,11 +4,11 @@ page_kind: source
 summary: Copy on Write / a few utilities / copy-on-read: 10 source-backed entries and 1 atom(s) from raw/javascriptallonge.pdf.
 page_family: section-reference
 sources: raw/javascriptallonge.pdf
-updated: 2026-07-01
+updated: 2026-07-02
 domain: javascriptallonge
 category_path: sources/javascriptallonge/sections
 source_id: javascriptallonge.pdf
-projection_coverage: section-javascriptallonge-section-copy-on-write-a-few-utilities-copy-on-read-3e3c1bfb@b1f40c4c90e00cdcfb142ca9a3abf037
+projection_coverage: section-javascriptallonge-section-copy-on-write-a-few-utilities-copy-on-read-3e3c1bfb@7dbb5698a7c2b44547c87889e4da83c7
 ---
 
 # Copy on Write / a few utilities / copy-on-read
@@ -17,8 +17,13 @@ From [[javascriptallonge]].
 
 ## Related pages
 
-- [[javascriptallonge-section-copy-on-write-a-few-utilities-31a03dc1]] - broader source section: Copy on Write / a few utilities
+### Source order
+
 - [[javascriptallonge-section-copy-on-write-a-few-utilities-copy-on-write-09152c57]] - next source section: Copy on Write / a few utilities / copy-on-write
+
+### Source structure
+
+- [[javascriptallonge-section-copy-on-write-a-few-utilities-31a03dc1]] - broader source section: Copy on Write / a few utilities
 
 ## Statements
 
@@ -38,6 +43,7 @@ From [[javascriptallonge]].
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01235))_
 
+<a id="atom-technical-atom-51bc48aa99117cc3"></a>
 ```
 const rest = ({first, rest}) => copy(rest);
 const parentList = { first: 1, rest: { first: 2, rest: { first: 3, rest: EMPTY }\

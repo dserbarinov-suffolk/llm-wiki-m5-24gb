@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-sample-magic-details-distance-1d9bb1b3@63f6ced88971ccf98878970bc08e0bf9
+projection_coverage: section-sword-world-rpg-complete-edition-section-sample-magic-details-distance-1d9bb1b3@8ddbeb9226441bd8d322537a1b4f9954
 ---
 
 # [Sample Magic Details] / 《 Distance 》
@@ -17,9 +17,14 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-sample-magic-details-cbfd0ab1]] - broader source section: [Sample Magic Details]
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-sample-magic-details-base-mental-power-cost-5655be63]] - previous source section: [Sample Magic Details] / 《 Base Mental Power Cost 》
 - [[sword-world-rpg-complete-edition-section-sample-magic-details-area-6a47f6c1]] - next source section: [Sample Magic Details] / 《 Area 》
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-sample-magic-details-cbfd0ab1]] - broader source section: [Sample Magic Details]
 
 ## Statements
 

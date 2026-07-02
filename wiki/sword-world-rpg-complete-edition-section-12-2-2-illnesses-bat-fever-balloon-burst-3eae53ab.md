@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-12-2-2-illnesses-bat-fever-balloon-burst-3eae53ab@80fba69606808a272523dbf553f613a9
+projection_coverage: section-sword-world-rpg-complete-edition-section-12-2-2-illnesses-bat-fever-balloon-burst-3eae53ab@94f67ee705b842bbb050a913cfe179cb
 ---
 
 # 12.2.2 Illnesses / [ Bat Fever ] / [ Balloon Burst ]
@@ -16,6 +16,8 @@ projection_coverage: section-sword-world-rpg-complete-edition-section-12-2-2-ill
 From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
+
+### Source structure
 
 - [[sword-world-rpg-complete-edition-section-12-2-2-illnesses-bat-fever-56d254a7]] - broader source section: 12.2.2 Illnesses / [ Bat Fever ]
 

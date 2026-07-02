@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-spellsongs-filling-out-the-character-sheet-866f5da1@c5c0ebbea9d4e9bc7c793cb73658ac49
+projection_coverage: section-sword-world-rpg-complete-edition-section-spellsongs-filling-out-the-character-sheet-866f5da1@b75c476ca129602ecf14b48867e23316
 ---
 
 # Spellsongs / Filling out the Character Sheet
@@ -17,23 +17,24 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-spellsongs-3727fc32]] - broader source section: Spellsongs
-- [[sword-world-rpg-complete-edition-section-spellsongs-filling-out-the-character-sheet-early-bird-mind-3650418b]] - narrower source section: Spellsongs / Filling out the Character Sheet / Early Bird (Mind)
-- [[sword-world-rpg-complete-edition-section-spellsongs-filling-out-the-character-sheet-curiosity-mind-c419ad37]] - narrower source section: Spellsongs / Filling out the Character Sheet / Curiosity (Mind)
-- [[sword-world-rpg-complete-edition-section-spellsongs-filling-out-the-character-sheet-sing-mind-b8b9db6c]] - narrower source section: Spellsongs / Filling out the Character Sheet / Sing (Mind)
-- [[sword-world-rpg-complete-edition-section-spellsongs-filling-out-the-character-sheet-dance-mind-039e6aed]] - narrower source section: Spellsongs / Filling out the Character Sheet / Dance (Mind)
-- [[sword-world-rpg-complete-edition-section-spellsongs-filling-out-the-character-sheet-charm-mind-a3e1ef8b]] - narrower source section: Spellsongs / Filling out the Character Sheet / Charm (Mind)
-- [[sword-world-rpg-complete-edition-section-spellsongs-filling-out-the-character-sheet-nostalgia-mind-4f5a42c9]] - narrower source section: Spellsongs / Filling out the Character Sheet / Nostalgia (Mind)
-- [[sword-world-rpg-complete-edition-section-spellsongs-filling-out-the-character-sheet-peace-mind-b45ba16c]] - narrower source section: Spellsongs / Filling out the Character Sheet / Peace (Mind)
-- [[sword-world-rpg-complete-edition-section-spellsongs-filling-out-the-character-sheet-healing-37de0f6b]] - narrower source section: Spellsongs / Filling out the Character Sheet / Healing
-- [[sword-world-rpg-complete-edition-section-spellsongs-filling-out-the-character-sheet-march-mind-ae215a19]] - narrower source section: Spellsongs / Filling out the Character Sheet / March (Mind)
-- [[sword-world-rpg-complete-edition-section-spellsongs-filling-out-the-character-sheet-morale-mind-13d744e7]] - narrower source section: Spellsongs / Filling out the Character Sheet / Morale (Mind)
-- [[sword-world-rpg-complete-edition-section-spellsongs-filling-out-the-character-sheet-lullaby-mind-f187724a]] - narrower source section: Spellsongs / Filling out the Character Sheet / Lullaby (Mind)
-- [[sword-world-rpg-complete-edition-section-spellsongs-filling-out-the-character-sheet-requiem-14d6191f]] - narrower source section: Spellsongs / Filling out the Character Sheet / Requiem
-- [[sword-world-rpg-complete-edition-section-spellsongs-filling-out-the-character-sheet-resistance-77e70b20]] - narrower source section: Spellsongs / Filling out the Character Sheet / Resistance
-- [[sword-world-rpg-complete-edition-section-spellsongs-filling-out-the-character-sheet-vibrato-fc9dc6bd]] - narrower source section: Spellsongs / Filling out the Character Sheet / Vibrato
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-spellsongs-5-3-1-spellsong-list-55e26038]] - previous source section: Spellsongs / 5.3.1 Spellsong List
 - [[sword-world-rpg-complete-edition-section-spellsongs-filling-out-the-character-sheet-de617cbb]] - next source section: Spellsongs / Filling out the Character Sheet
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-spellsongs-3727fc32]] - broader source section: Spellsongs
+- [[sword-world-rpg-complete-edition-section-spellsongs-filling-out-the-character-sheet-charm-mind-a3e1ef8b]] - narrower source section: Spellsongs / Filling out the Character Sheet / Charm (Mind)
+- [[sword-world-rpg-complete-edition-section-spellsongs-filling-out-the-character-sheet-curiosity-mind-c419ad37]] - narrower source section: Spellsongs / Filling out the Character Sheet / Curiosity (Mind)
+- [[sword-world-rpg-complete-edition-section-spellsongs-filling-out-the-character-sheet-dance-mind-039e6aed]] - narrower source section: Spellsongs / Filling out the Character Sheet / Dance (Mind)
+- [[sword-world-rpg-complete-edition-section-spellsongs-filling-out-the-character-sheet-early-bird-mind-3650418b]] - narrower source section: Spellsongs / Filling out the Character Sheet / Early Bird (Mind)
+- [[sword-world-rpg-complete-edition-section-spellsongs-filling-out-the-character-sheet-healing-37de0f6b]] - narrower source section: Spellsongs / Filling out the Character Sheet / Healing
+- [[sword-world-rpg-complete-edition-section-spellsongs-filling-out-the-character-sheet-lullaby-mind-f187724a]] - narrower source section: Spellsongs / Filling out the Character Sheet / Lullaby (Mind)
+- [[sword-world-rpg-complete-edition-section-spellsongs-filling-out-the-character-sheet-march-mind-ae215a19]] - narrower source section: Spellsongs / Filling out the Character Sheet / March (Mind)
+
+### Topics
+
 - [[sword-world-rpg-complete-edition-filling-character-sheet]] - topic hub: opens the topic page for Filling Character Sheet
 
 ## Statements
@@ -125,6 +126,7 @@ From [[sword-world-rpg-complete-edition]].
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-03932))_
 
+<a id="atom-technical-atom-f5366413a6f9df24"></a>
 ```text
 Table 5-10: Requiem
  around the bard. It takes about 18 rounds
@@ -136,6 +138,7 @@ Table 5-10: Requiem
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-03933))_
 
+<a id="atom-technical-atom-1eed3be880b18304"></a>
 ```text
 Table 5-10: Requiem
 2D Result

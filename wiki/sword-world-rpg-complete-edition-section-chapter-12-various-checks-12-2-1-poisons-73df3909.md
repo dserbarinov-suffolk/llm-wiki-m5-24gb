@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-12-various-checks-12-2-1-poisons-73df3909@6ad92d8969f4c3e35edb28ccc6716cee
+projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-12-various-checks-12-2-1-poisons-73df3909@c627a40609702007e5e5065459956ba7
 ---
 
 # Chapter 12: Various Checks / 12.2.1 Poisons
@@ -17,8 +17,13 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-chapter-12-various-checks-c4b81b14]] - broader source section: Chapter 12: Various Checks
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-chapter-12-various-checks-rules-for-poison-illness-and-infection-189edca4]] - previous source section: Chapter 12: Various Checks / Rules for Poison, Illness and Infection
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-chapter-12-various-checks-c4b81b14]] - broader source section: Chapter 12: Various Checks
 
 ## Statements
 
@@ -40,6 +45,7 @@ From [[sword-world-rpg-complete-edition]].
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-05524))_
 
+<a id="atom-technical-atom-19e48363b7cd5cbc"></a>
 > [Figure] (p.160)
 
 ### Technical frame 2: Chapter 12: Various Checks / 12.2.1 Poisons
@@ -50,6 +56,7 @@ From [[sword-world-rpg-complete-edition]].
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-05527))_
 
+<a id="atom-technical-atom-eeffbab1f33c811a"></a>
 > Poisons that have entered the body can be cleared using specific antidotes (if any), the holy magic Cure Poison or Refresh , or the spirit magic Restore Health .
 
 ### Technical frame 3: Chapter 12: Various Checks / 12.2.1 Poisons
@@ -60,6 +67,7 @@ From [[sword-world-rpg-complete-edition]].
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-05528))_
 
+<a id="atom-technical-atom-ef078e91eba9743b"></a>
 > Once a detox fails, the same caster cannot attempt detox magic until their magic power increases (and even if they try, they will always fail).
 
 ### Technical frame 4: Chapter 12: Various Checks / 12.2.1 Poisons
@@ -70,6 +78,7 @@ From [[sword-world-rpg-complete-edition]].
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-05530))_
 
+<a id="atom-technical-atom-ed898a958c1493b3"></a>
 > The spirit magic Purification can make liquid poison harmless if the final score when casting the magic is greater than or equal to than the toxicity score.
 
 ### Technical frame 5: Chapter 12: Various Checks / 12.2.1 Poisons
@@ -80,6 +89,7 @@ From [[sword-world-rpg-complete-edition]].
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-05531))_
 
+<a id="atom-technical-atom-60008690a2ba6359"></a>
 ```text
 12.2.1.2 Resistance to Poison
 Poisons are not effective against everything. It has no effect on monsters that have no life such as undead, golems, etc.  Some  mythical  and  magical  beasts have  strong  life  force  that  makes  them immune to poison. Some poison effects may or may not affect specific monsters.

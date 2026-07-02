@@ -74,6 +74,14 @@ def _ledger(store: WikiStore, source_locator: str) -> dict:
     return json.loads(text)["ledger"]
 
 
+def _page_containing(store: WikiStore, text: str, required_text: str = "") -> str:
+    for page_id in store.list_pages():
+        body = store.read_page(page_id)
+        if text in body and (not required_text or required_text in body):
+            return body
+    raise AssertionError(f"No page contains {text!r}.")
+
+
 class TestIngest:
     async def test_markdown_ingest_projects_source_page_from_ledger(
         self, store: WikiStore, paths: WikiPaths, source: str
@@ -83,11 +91,14 @@ class TestIngest:
         assert "Claim-ledger ingest" in result.output
         assert "[[widgets]]" in result.output
         body = store.read_page("widgets")
-        # The page is a projection of the ledger: source-close claim text, a
-        # source-structure heading, and a visible source citation.
-        assert "A widget contains three slots." in body
-        assert "## Widget Protocol" in body
-        assert "widgets.md (" in body  # source-facing citation label
+        assert "## Page Families" in body
+        assert "## Source Section Index" in body
+        assert "A widget contains three slots." not in body
+        section_body = _page_containing(
+            store, "A widget contains three slots.", "page_family: section-reference"
+        )
+        assert "## Statements" in section_body
+        assert "widgets.md (" in section_body  # source-facing citation label
         assert isinstance(result.run, IngestRun)
         log = paths.log_path.read_text(encoding="utf-8")
         assert f"## [{TODAY}] ingest | widgets.md" in log

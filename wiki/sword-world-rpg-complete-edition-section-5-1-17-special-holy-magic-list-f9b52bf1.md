@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-5-1-17-special-holy-magic-list-f9b52bf1@f1c72e1baaa9fd93f7be764a88582c93
+projection_coverage: section-sword-world-rpg-complete-edition-section-5-1-17-special-holy-magic-list-f9b52bf1@09808d890eaa1eca10759b39e1293103
 ---
 
 # 5.1.17 Special Holy Magic List
@@ -17,15 +17,20 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-5-1-17-special-holy-magic-list-jihad-spell-level-10-80fa2c9f]] - narrower source section: 5.1.17 Special Holy Magic List / [ Jihad ] (Spell Level=10)
-- [[sword-world-rpg-complete-edition-section-5-1-17-special-holy-magic-list-myrii-special-holy-magic-list-battle-song-spell-level-5-c41ce112]] - narrower source section: 5.1.17 Special Holy Magic List / Myrii Special Holy Magic List [ Battle Song ] (Spell Level=5)
-- [[sword-world-rpg-complete-edition-section-5-1-17-special-holy-magic-list-divine-weapon-spell-level-7-463b088f]] - narrower source section: 5.1.17 Special Holy Magic List / [ Divine Weapon ] (Spell Level=7)
-- [[sword-world-rpg-complete-edition-section-5-1-17-special-holy-magic-list-rahda-special-holy-magic-list-2b5965cc]] - narrower source section: 5.1.17 Special Holy Magic List / Rahda Special Holy Magic List
-- [[sword-world-rpg-complete-edition-section-5-1-17-special-holy-magic-list-cha-za-special-holy-magic-list-luck-69091557]] - narrower source section: 5.1.17 Special Holy Magic List / Cha Za Special Holy Magic List [ Luck ]
-- [[sword-world-rpg-complete-edition-section-5-1-17-special-holy-magic-list-marfa-special-holy-magic-list-71669c74]] - narrower source section: 5.1.17 Special Holy Magic List / Marfa Special Holy Magic List
-- [[sword-world-rpg-complete-edition-section-5-1-17-special-holy-magic-list-braki-special-holy-magic-list-e553151f]] - narrower source section: 5.1.17 Special Holy Magic List / Braki Special Holy Magic List
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-banish-spell-level-8-92ed6278]] - previous source section: [ Banish ] (Spell Level=8)
 - [[sword-world-rpg-complete-edition-section-5-2-common-runes-b036a9a5]] - next source section: 5.2 Common Runes
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-5-1-17-special-holy-magic-list-braki-special-holy-magic-list-e553151f]] - narrower source section: 5.1.17 Special Holy Magic List / Braki Special Holy Magic List
+- [[sword-world-rpg-complete-edition-section-5-1-17-special-holy-magic-list-cha-za-special-holy-magic-list-luck-69091557]] - narrower source section: 5.1.17 Special Holy Magic List / Cha Za Special Holy Magic List [ Luck ]
+- [[sword-world-rpg-complete-edition-section-5-1-17-special-holy-magic-list-divine-weapon-spell-level-7-463b088f]] - narrower source section: 5.1.17 Special Holy Magic List / [ Divine Weapon ] (Spell Level=7)
+- [[sword-world-rpg-complete-edition-section-5-1-17-special-holy-magic-list-jihad-spell-level-10-80fa2c9f]] - narrower source section: 5.1.17 Special Holy Magic List / [ Jihad ] (Spell Level=10)
+- [[sword-world-rpg-complete-edition-section-5-1-17-special-holy-magic-list-marfa-special-holy-magic-list-71669c74]] - narrower source section: 5.1.17 Special Holy Magic List / Marfa Special Holy Magic List
+- [[sword-world-rpg-complete-edition-section-5-1-17-special-holy-magic-list-myrii-special-holy-magic-list-battle-song-spell-level-5-c41ce112]] - narrower source section: 5.1.17 Special Holy Magic List / Myrii Special Holy Magic List [ Battle Song ] (Spell Level=5)
+- [[sword-world-rpg-complete-edition-section-5-1-17-special-holy-magic-list-rahda-special-holy-magic-list-2b5965cc]] - narrower source section: 5.1.17 Special Holy Magic List / Rahda Special Holy Magic List
 
 ## Statements
 

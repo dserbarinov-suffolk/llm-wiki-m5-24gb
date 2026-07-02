@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-banish-spell-level-8-92ed6278@97bab8e5b90c6f94e4fa2000160d02c5
+projection_coverage: section-sword-world-rpg-complete-edition-section-banish-spell-level-8-92ed6278@ab2c1dceb6971251d5a0ea80e44e76b4
 ---
 
 # [ Banish ] (Spell Level=8)
@@ -16,6 +16,8 @@ projection_coverage: section-sword-world-rpg-complete-edition-section-banish-spe
 From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
+
+### Source order
 
 - [[sword-world-rpg-complete-edition-section-sense-evil-spell-level-1-aa5a6054]] - previous source section: [ Sense Evil ] (Spell Level=1)
 - [[sword-world-rpg-complete-edition-section-5-1-17-special-holy-magic-list-f9b52bf1]] - next source section: 5.1.17 Special Holy Magic List

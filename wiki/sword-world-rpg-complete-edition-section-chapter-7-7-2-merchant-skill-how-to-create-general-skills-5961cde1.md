@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-7-7-2-merchant-skill-how-to-create-general-skills-5961cde1@e5bb36c437314aa827da592db5cb7ef2
+projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-7-7-2-merchant-skill-how-to-create-general-skills-5961cde1@049480d74cd32368c3810f7a9782005f
 ---
 
 # Chapter 7: / 7.2 Merchant Skill / How to Create General Skills
@@ -16,6 +16,8 @@ projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-7-
 From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
+
+### Source structure
 
 - [[sword-world-rpg-complete-edition-section-chapter-7-7-2-merchant-skill-a6d33078]] - broader source section: Chapter 7: / 7.2 Merchant Skill
 

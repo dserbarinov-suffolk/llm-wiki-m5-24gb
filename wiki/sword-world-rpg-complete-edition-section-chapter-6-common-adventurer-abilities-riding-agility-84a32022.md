@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-6-common-adventurer-abilities-riding-agility-84a32022@af1a89658a1c3c63d887bd225baff34b
+projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-6-common-adventurer-abilities-riding-agility-84a32022@51a2482aa8accade3e1c0e1d8dfc3f70
 ---
 
 # Chapter 6: / Common Adventurer Abilities / [ ① Riding [Agility] ]
@@ -17,8 +17,13 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-chapter-6-common-adventurer-abilities-328f2370]] - broader source section: Chapter 6: / Common Adventurer Abilities
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-chapter-6-common-adventurer-abilities-swim-agility-fd4642f2]] - next source section: Chapter 6: / Common Adventurer Abilities / [ ② Swim [Agility] ]
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-chapter-6-common-adventurer-abilities-328f2370]] - broader source section: Chapter 6: / Common Adventurer Abilities
 
 ## Statements
 
@@ -35,4 +40,5 @@ From [[sword-world-rpg-complete-edition]].
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-04200))_
 
+<a id="atom-technical-atom-c658a12f125fba4a"></a>
 > Falling off a horse will be treated as if you had fallen from a height of 3 meters, so you must make a damage check.

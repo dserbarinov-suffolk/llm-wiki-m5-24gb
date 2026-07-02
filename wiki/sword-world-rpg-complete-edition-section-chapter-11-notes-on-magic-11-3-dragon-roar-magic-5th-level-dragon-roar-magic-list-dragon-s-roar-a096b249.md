@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-11-notes-on-magic-11-3-dragon-roar-magic-5th-level-dragon-roar-magic-list-dragon-s-roar-a096b249@57416f3c8d25dd828a12533683e6b661
+projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-11-notes-on-magic-11-3-dragon-roar-magic-5th-level-dragon-roar-magic-list-dragon-s-roar-a096b249@032c6e74581fdc76a5f867ebe1557d0e
 ---
 
 # Chapter 11: Notes on Magic / 11.3 Dragon Roar Magic / 5th Level Dragon Roar Magic List [ Dragon's Roar ]
@@ -17,10 +17,15 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-chapter-11-notes-on-magic-11-3-dragon-roar-magic-992d31da]] - broader source section: Chapter 11: Notes on Magic / 11.3 Dragon Roar Magic
-- [[sword-world-rpg-complete-edition-section-chapter-11-notes-on-magic-11-3-dragon-roar-magic-5th-level-dragon-roar-magic-list-dragon-s-roar-df599d05]] - narrower source section: Chapter 11: Notes on Magic / 11.3 Dragon Roar Magic / 5th Level Dragon Roar Magic List [ Dragon's Roar ] / [ Partial Dragon ]
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-chapter-11-notes-on-magic-11-3-dragon-roar-magic-4th-level-dragon-roar-magic-list-8ae54bdc]] - previous source section: Chapter 11: Notes on Magic / 11.3 Dragon Roar Magic / 4th Level Dragon Roar Magic List
 - [[sword-world-rpg-complete-edition-section-chapter-11-notes-on-magic-11-3-dragon-roar-magic-6th-level-dragon-roar-magic-list-16eb69e9]] - next source section: Chapter 11: Notes on Magic / 11.3 Dragon Roar Magic / 6th Level Dragon Roar Magic List
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-chapter-11-notes-on-magic-11-3-dragon-roar-magic-992d31da]] - broader source section: Chapter 11: Notes on Magic / 11.3 Dragon Roar Magic
+- [[sword-world-rpg-complete-edition-section-chapter-11-notes-on-magic-11-3-dragon-roar-magic-5th-level-dragon-roar-magic-list-dragon-s-roar-df599d05]] - narrower source section: Chapter 11: Notes on Magic / 11.3 Dragon Roar Magic / 5th Level Dragon Roar Magic List [ Dragon's Roar ] / [ Partial Dragon ]
 
 ## Statements
 

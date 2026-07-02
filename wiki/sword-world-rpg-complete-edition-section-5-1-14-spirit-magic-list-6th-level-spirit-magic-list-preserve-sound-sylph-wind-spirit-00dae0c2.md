@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-5-1-14-spirit-magic-list-6th-level-spirit-magic-list-preserve-sound-sylph-wind-spirit-00dae0c2@c5f268ba041fd47044b7c5fc22d218fc
+projection_coverage: section-sword-world-rpg-complete-edition-section-5-1-14-spirit-magic-list-6th-level-spirit-magic-list-preserve-sound-sylph-wind-spirit-00dae0c2@0e9dff164e59261aaa2e459727f43f09
 ---
 
 # 5.1.14 Spirit Magic List / 6th Level Spirit Magic List / [ Preserve Sound ] (Sylph/Wind Spirit)
@@ -17,8 +17,13 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-5-1-14-spirit-magic-list-6th-level-spirit-magic-list-48210847]] - broader source section: 5.1.14 Spirit Magic List / 6th Level Spirit Magic List
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-5-1-14-spirit-magic-list-6th-level-spirit-magic-list-decrease-water-pressure-undine-water-spirit-37377b8c]] - previous source section: 5.1.14 Spirit Magic List / 6th Level Spirit Magic List / [ Decrease Water Pressure ] (Undine/Water Spirit)
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-5-1-14-spirit-magic-list-6th-level-spirit-magic-list-48210847]] - broader source section: 5.1.14 Spirit Magic List / 6th Level Spirit Magic List
 
 ## Statements
 

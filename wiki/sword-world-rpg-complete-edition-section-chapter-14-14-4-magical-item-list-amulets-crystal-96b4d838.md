@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-amulets-crystal-96b4d838@f6f304cbe1ad1ce1ca3b0a0e8c1dc8ac
+projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-amulets-crystal-96b4d838@83e760ed2804862873cf56d74df00d2f
 ---
 
 # Chapter 14: / 14.4 Magical Item List / 《 Amulets 》 / [ Crystal ]
@@ -17,8 +17,13 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-amulets-e411eab6]] - broader source section: Chapter 14: / 14.4 Magical Item List / 《 Amulets 》
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-amulets-telecall-amulet-7dd8c638]] - previous source section: Chapter 14: / 14.4 Magical Item List / 《 Amulets 》 / [ Telecall Amulet ]
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-amulets-e411eab6]] - broader source section: Chapter 14: / 14.4 Magical Item List / 《 Amulets 》
 
 ## Statements
 
@@ -56,6 +61,7 @@ From [[sword-world-rpg-complete-edition]].
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-09547))_
 
+<a id="atom-technical-atom-f988792c30850bfa"></a>
 > In this case, adventurers can purchase these stones if they have enough money.
 
 ### Technical frame 2: Chapter 14: / 14.4 Magical Item List / 《 Amulets 》 / [ Crystal ]
@@ -66,6 +72,7 @@ From [[sword-world-rpg-complete-edition]].
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-09553))_
 
+<a id="atom-technical-atom-7f1c53e7b65bb079"></a>
 > Rarity=13 Enchanter=Many Form=Spherical polished white crystal Base Trade Price=5,000 gamels Powers=Has the same effect as Blizzard when thrown
 
 ### Technical frame 3: Chapter 14: / 14.4 Magical Item List / 《 Amulets 》 / [ Crystal ]
@@ -76,12 +83,17 @@ From [[sword-world-rpg-complete-edition]].
 
 **Atoms:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-09556, source-range-0d48087c-09557, source-range-0d48087c-09558, source-range-0d48087c-09559, source-range-0d48087c-09560))_
 
+<a id="atom-technical-atom-35694f2bb5990e47"></a>
 > Rarity=13
 
+<a id="atom-technical-atom-daa065ba5718123b"></a>
 > Enchanter=Many
 
+<a id="atom-technical-atom-3b6c3aec9c06aa7d"></a>
 > Form=Spherical polished blue crystal
 
+<a id="atom-technical-atom-e7140241fe6011e8"></a>
 > Base Trade Price=Remaining absorption points x 480 gamels
 
+<a id="atom-technical-atom-5e4d843249fe56a6"></a>
 > Powers=Absorbs 10 points of fire damage

@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-2-5-difficulty-checks-d95d8c9d@28b789a776e5b69ffb538cae4c47f4c3
+projection_coverage: section-sword-world-rpg-complete-edition-section-2-5-difficulty-checks-d95d8c9d@40b88efb49a78e863ef3a94a4bbbd385
 ---
 
 # 2.5 Difficulty Checks
@@ -17,11 +17,19 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
+### Source order
+
+- [[sword-world-rpg-complete-edition-section-2-4-bonuses-and-penalties-5c33a45f]] - previous source section: 2.4 Bonuses and Penalties
+- [[sword-world-rpg-complete-edition-section-2-6-success-rolls-using-adventurer-level-8e5d5d97]] - next source section: 2.6 Success Rolls Using Adventurer Level
+
+### Source structure
+
 - [[sword-world-rpg-complete-edition-section-2-5-difficulty-checks-2-5-1-difficulty-24f6c32c]] - narrower source section: 2.5 Difficulty Checks / 2.5.1 Difficulty
 - [[sword-world-rpg-complete-edition-section-2-5-difficulty-checks-2-5-2-how-to-make-a-difficulty-check-6d909d75]] - narrower source section: 2.5 Difficulty Checks / 2.5.2 How to Make a Difficulty Check
 - [[sword-world-rpg-complete-edition-section-2-5-difficulty-checks-2-5-3-analogy-of-success-and-failure-86286098]] - narrower source section: 2.5 Difficulty Checks / 2.5.3 Analogy of Success and Failure
-- [[sword-world-rpg-complete-edition-section-2-4-bonuses-and-penalties-5c33a45f]] - previous source section: 2.4 Bonuses and Penalties
-- [[sword-world-rpg-complete-edition-section-2-6-success-rolls-using-adventurer-level-8e5d5d97]] - next source section: 2.6 Success Rolls Using Adventurer Level
+
+### Topics
+
 - [[sword-world-rpg-complete-edition-difficulty-check]] - topic hub: opens the topic page for Difficulty Check
 
 ## Statements
@@ -88,6 +96,7 @@ From [[sword-world-rpg-complete-edition]].
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-01004))_
 
+<a id="atom-technical-atom-e21df2581d60e8c2"></a>
 > final score ≥ target score (difficulty + 2D) → action succeeds
 
 ### Technical frame 2: 2.5 Difficulty Checks / 2.5.2 How to Make a Difficulty Check
@@ -98,6 +107,7 @@ From [[sword-world-rpg-complete-edition]].
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-01007))_
 
+<a id="atom-technical-atom-3cf79449812f868b"></a>
 ```text
 1. There is a  trap, the find trap check is successful → There is a trap at the door 2. There is a trap, the find trap check is a failure → You don't find any traps 3. There is no trap, the find trap check is successful → You don't find any traps 4. There is no trap, the find trap check is a failure → You don't find any traps
 ```
@@ -122,4 +132,5 @@ From [[sword-world-rpg-complete-edition]].
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-01013))_
 
+<a id="atom-technical-atom-909ef186c6b63af5"></a>
 > If the roll is as high as 10 or 11, the success roll is considered to have a very high chance of success.

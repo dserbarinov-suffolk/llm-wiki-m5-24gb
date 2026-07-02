@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-1-4-character-creation-1-4-3-starting-skills-and-starting-7536fe31@f6d2fc5960ffb6579f965208092f3c2a
+projection_coverage: section-sword-world-rpg-complete-edition-section-1-4-character-creation-1-4-3-starting-skills-and-starting-7536fe31@a84591dbe1f66e1395fbb47f8515292d
 ---
 
 # 1.4 Character Creation / 1.4.3 Starting Skills and Starting
@@ -17,12 +17,17 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
+### Source order
+
+- [[sword-world-rpg-complete-edition-section-1-4-character-creation-1-4-2-determine-ability-scores-19cf4113]] - previous source section: 1.4 Character Creation / 1.4.2 Determine Ability Scores
+- [[sword-world-rpg-complete-edition-section-1-4-character-creation-1-4-4-age-gender-name-a9f7e86a]] - next source section: 1.4 Character Creation / 1.4.4 Age, Gender, Name
+
+### Source structure
+
 - [[sword-world-rpg-complete-edition-section-1-4-character-creation-f6aa6108]] - broader source section: 1.4 Character Creation
 - [[sword-world-rpg-complete-edition-section-1-4-character-creation-1-4-3-starting-skills-and-starting-experience-points-6b72155c]] - narrower source section: 1.4 Character Creation / 1.4.3 Starting Skills and Starting / Experience Points
 - [[sword-world-rpg-complete-edition-section-1-4-character-creation-1-4-3-starting-skills-and-starting-for-humans-and-halfelves-raised-by-hum-d5539b0e]] - narrower source section: 1.4 Character Creation / 1.4.3 Starting Skills and Starting / For Humans and HalfElves Raised by Humans
 - [[sword-world-rpg-complete-edition-section-1-4-character-creation-1-4-3-starting-skills-and-starting-for-races-other-than-humans-12c027e5]] - narrower source section: 1.4 Character Creation / 1.4.3 Starting Skills and Starting / For Races Other Than Humans
-- [[sword-world-rpg-complete-edition-section-1-4-character-creation-1-4-2-determine-ability-scores-19cf4113]] - previous source section: 1.4 Character Creation / 1.4.2 Determine Ability Scores
-- [[sword-world-rpg-complete-edition-section-1-4-character-creation-1-4-4-age-gender-name-a9f7e86a]] - next source section: 1.4 Character Creation / 1.4.4 Age, Gender, Name
 
 ## Statements by subsection
 
@@ -56,6 +61,7 @@ From [[sword-world-rpg-complete-edition]].
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-00378))_
 
+<a id="atom-technical-atom-d52456b4ed89c74f"></a>
 ```text
 Table 1-6: Starting Experience by Race
                                                                         character, it should be between 15 years

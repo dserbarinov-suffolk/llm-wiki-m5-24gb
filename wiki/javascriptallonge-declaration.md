@@ -4,10 +4,10 @@ page_kind: concept
 summary: Declaration: 4 statement(s) and 8 atom(s) from raw/javascriptallonge.pdf.
 page_family: topic-concept
 sources: raw/javascriptallonge.pdf
-updated: 2026-07-01
+updated: 2026-07-02
 domain: javascriptallonge
 category_path: concepts
-projection_coverage: topic-javascriptallonge-declaration@e021a3064a8c1e3e0d56cb7d7d9506b4
+projection_coverage: topic-javascriptallonge-declaration@7c37fc109c1ef0cd65ddcdfed294640e
 ---
 
 # Declaration
@@ -41,6 +41,7 @@ What [[javascriptallonge]] covers about declaration:
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00533))_
 
+<a id="atom-technical-atom-453990520af7bc31"></a>
 ```
 function someName () {
 // ...
@@ -59,6 +60,7 @@ const someName = function someName ()
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00534))_
 
+<a id="atom-technical-atom-f72d1116e0b95f4e"></a>
 ```
 {
 ```
@@ -71,6 +73,7 @@ const someName = function someName ()
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00539))_
 
+<a id="atom-technical-atom-30bd3487342b5bd3"></a>
 ```
 (function () {
 return fizzbuzz();
@@ -92,6 +95,7 @@ const fizzbuzz = function fizzbuzz () {
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00540))_
 
+<a id="atom-technical-atom-fb0b9ce888acf178"></a>
 ```
 const fizzbuzz = function fizzbuzz ()
 return "Fizz" + "Buzz";
@@ -108,6 +112,7 @@ return fizzbuzz();
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00548))_
 
+<a id="atom-technical-atom-ab153667b01d5d1e"></a>
 ```
 function trueDat () { return true }
 But this is not:
@@ -122,6 +127,7 @@ But this is not:
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01187))_
 
+<a id="atom-technical-atom-d4c7dd4ee1a2d1be"></a>
 ```
 (() => {
 var age = 49;
@@ -141,6 +147,7 @@ return age;
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01190))_
 
+<a id="atom-technical-atom-352b5d36412b2fda"></a>
 ```
 const factorial = (n) => {
 return innerFactorial(n, 1);
@@ -165,6 +172,7 @@ factorial(4)
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01194))_
 
+<a id="atom-technical-atom-ac884e411f763d00"></a>
 ```
 const factorial = (n) => {
 let innerFactorial = undefined;
@@ -184,6 +192,8 @@ factorial(4)
 
 
 ## Related pages
+
+### Shared technical atoms
 
 - [[javascriptallonge-javascript]] - shared technical atoms: Javascript shares technical record from Reassignment / mixing let and const / var: const factorial = (n) => { return innerFactorial(n, 1); function innerFactorial (x, y) { if (x == 1) { return y; } else { return innerFactorial(x-1, x * y); } } } fa ... [truncated] (2 shared atom(s))
 - [[javascriptallonge-bind]] - shared technical atoms: Bind shares technical record from And also: / Naming Functions / function declarations: { (1 shared atom(s))

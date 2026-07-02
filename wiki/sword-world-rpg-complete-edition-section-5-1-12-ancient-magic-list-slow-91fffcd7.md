@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-5-1-12-ancient-magic-list-slow-91fffcd7@7e20fade78a49e8aca6f90d517ab23c1
+projection_coverage: section-sword-world-rpg-complete-edition-section-5-1-12-ancient-magic-list-slow-91fffcd7@9548bab00a3bcc7496b144ad293a3790
 ---
 
 # 5.1.12 Ancient Magic List / [ Slow ]
@@ -17,9 +17,14 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-5-1-12-ancient-magic-list-2e59bfee]] - broader source section: 5.1.12 Ancient Magic List
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-5-1-12-ancient-magic-list-steal-mind-de9949b5]] - previous source section: 5.1.12 Ancient Magic List / [ Steal Mind ]
 - [[sword-world-rpg-complete-edition-section-5-1-12-ancient-magic-list-haste-2feda0e8]] - next source section: 5.1.12 Ancient Magic List / [ Haste ]
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-5-1-12-ancient-magic-list-2e59bfee]] - broader source section: 5.1.12 Ancient Magic List
 
 ## Statements
 
@@ -35,6 +40,7 @@ From [[sword-world-rpg-complete-edition]].
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-02467))_
 
+<a id="atom-technical-atom-9bf30d4970c8437f"></a>
 ```text
 Table 5-3: Slow: Agility and Evasion                                        Distance=Within the caster's view
                                     completely unable to move. The poor
@@ -50,6 +56,7 @@ Table 5-3: Slow: Agility and Evasion                                        Dist
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-02469))_
 
+<a id="atom-technical-atom-bb0bd4d341e666d7"></a>
 | Target's Agility | Evasion Speed (Points) Penalty |
 | --- | --- |
 | 1-5 | 0 |

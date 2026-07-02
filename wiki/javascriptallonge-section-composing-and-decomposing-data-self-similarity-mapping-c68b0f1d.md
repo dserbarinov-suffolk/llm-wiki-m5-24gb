@@ -4,11 +4,11 @@ page_kind: source
 summary: Composing and Decomposing Data / Self-Similarity / mapping: 8 source-backed entries and 0 atom(s) from raw/javascriptallonge.pdf.
 page_family: section-reference
 sources: raw/javascriptallonge.pdf
-updated: 2026-07-01
+updated: 2026-07-02
 domain: javascriptallonge
 category_path: sources/javascriptallonge/sections
 source_id: javascriptallonge.pdf
-projection_coverage: section-javascriptallonge-section-composing-and-decomposing-data-self-similarity-mapping-c68b0f1d@7d05c62077ef6cde67e8cbf5d79b7277
+projection_coverage: section-javascriptallonge-section-composing-and-decomposing-data-self-similarity-mapping-c68b0f1d@6c345e59e79003de6f44d6fdac39474c
 ---
 
 # Composing and Decomposing Data / Self-Similarity / mapping
@@ -17,9 +17,14 @@ From [[javascriptallonge]].
 
 ## Related pages
 
-- [[javascriptallonge-section-composing-and-decomposing-data-self-similarity-4cbf7d4f]] - broader source section: Composing and Decomposing Data / Self-Similarity
+### Source order
+
 - [[javascriptallonge-section-composing-and-decomposing-data-self-similarity-linear-recursion-4f6c918d]] - previous source section: Composing and Decomposing Data / Self-Similarity / linear recursion
 - [[javascriptallonge-section-composing-and-decomposing-data-self-similarity-folding-f9fb03a1]] - next source section: Composing and Decomposing Data / Self-Similarity / folding
+
+### Source structure
+
+- [[javascriptallonge-section-composing-and-decomposing-data-self-similarity-4cbf7d4f]] - broader source section: Composing and Decomposing Data / Self-Similarity
 
 ## Statements
 

@@ -4,11 +4,11 @@ page_kind: source
 summary: And also: / That Constant Coffee Craving / rebinding: 5 source-backed entries and 1 atom(s) from raw/javascriptallonge.pdf.
 page_family: section-reference
 sources: raw/javascriptallonge.pdf
-updated: 2026-07-01
+updated: 2026-07-02
 domain: javascriptallonge
 category_path: sources/javascriptallonge/sections
 source_id: javascriptallonge.pdf
-projection_coverage: section-javascriptallonge-section-and-also-that-constant-coffee-craving-rebinding-145a514e@1bdc0bba69c9140032fdc1f7567ae791
+projection_coverage: section-javascriptallonge-section-and-also-that-constant-coffee-craving-rebinding-145a514e@70b8f0f7e257731cffe13d44e55bba41
 ---
 
 # And also: / That Constant Coffee Craving / rebinding
@@ -17,8 +17,13 @@ From [[javascriptallonge]].
 
 ## Related pages
 
-- [[javascriptallonge-section-and-also-that-constant-coffee-craving-ac9d9918]] - broader source section: And also: / That Constant Coffee Craving
+### Source order
+
 - [[javascriptallonge-section-and-also-that-constant-coffee-craving-are-consts-also-from-a-shadowy-planet-f4ab49ce]] - previous source section: And also: / That Constant Coffee Craving / are consts also from a shadowy planet?
+
+### Source structure
+
+- [[javascriptallonge-section-and-also-that-constant-coffee-craving-ac9d9918]] - broader source section: And also: / That Constant Coffee Craving
 
 ## Statements
 
@@ -35,6 +40,7 @@ From [[javascriptallonge]].
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00490))_
 
+<a id="atom-technical-atom-7f57ec9822b0a494"></a>
 ```
 evenStevens = (n) => {
 if (n === 0) {

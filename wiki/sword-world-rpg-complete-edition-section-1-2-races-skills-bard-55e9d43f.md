@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-1-2-races-skills-bard-55e9d43f@608d00e1e6ca1f613bab9ca3a2229a44
+projection_coverage: section-sword-world-rpg-complete-edition-section-1-2-races-skills-bard-55e9d43f@f29c63874ae3f65f5bad1b7e15a4fc97
 ---
 
 # 1.2 Races / Skills / 【 Bard 】
@@ -17,9 +17,14 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-1-2-races-skills-d796863a]] - broader source section: 1.2 Races / Skills
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-1-2-races-skills-ranger-56d595f9]] - previous source section: 1.2 Races / Skills / 【 Ranger 】
 - [[sword-world-rpg-complete-edition-section-1-2-races-skills-rune-master-75078adc]] - next source section: 1.2 Races / Skills / 【 Rune Master 】
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-1-2-races-skills-d796863a]] - broader source section: 1.2 Races / Skills
 
 ## Statements
 

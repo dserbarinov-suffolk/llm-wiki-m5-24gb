@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-12-2-2-illnesses-description-stone-skin-626f7e50@9880f78e5b60b2c29f766791b36466ea
+projection_coverage: section-sword-world-rpg-complete-edition-section-12-2-2-illnesses-description-stone-skin-626f7e50@a039e4a8d7efc8e55c0a881dd9a83308
 ---
 
 # 12.2.2 Illnesses / 《 Description 》 / [ Stone Skin ]
@@ -17,9 +17,14 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-12-2-2-illnesses-description-edb99c5e]] - broader source section: 12.2.2 Illnesses / 《 Description 》
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-12-2-2-illnesses-description-cotton-weaver-5a91d867]] - previous source section: 12.2.2 Illnesses / 《 Description 》 / [ Cotton Weaver ]
 - [[sword-world-rpg-complete-edition-section-12-2-2-illnesses-description-dance-macabre-32d7d8a9]] - next source section: 12.2.2 Illnesses / 《 Description 》 / [ Dance Macabre ]
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-12-2-2-illnesses-description-edb99c5e]] - broader source section: 12.2.2 Illnesses / 《 Description 》
 
 ## Statements
 

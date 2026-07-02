@@ -4,11 +4,11 @@ page_kind: source
 summary: And also: / Closures and Scope / if functions without free variables are pure, are closures impure?: 27 source-backed entries and 2 atom(s) from raw/javascriptallonge.pdf.
 page_family: section-reference
 sources: raw/javascriptallonge.pdf
-updated: 2026-07-01
+updated: 2026-07-02
 domain: javascriptallonge
 category_path: sources/javascriptallonge/sections
 source_id: javascriptallonge.pdf
-projection_coverage: section-javascriptallonge-section-and-also-closures-and-scope-if-functions-without-free-variables-are-pure-are-closures-impure-3d794f70@48ff7e12164a84fd8efc76f201f7f09a
+projection_coverage: section-javascriptallonge-section-and-also-closures-and-scope-if-functions-without-free-variables-are-pure-are-closures-impure-3d794f70@889875b46f888e1a3e66cb150e7176df
 ---
 
 # And also: / Closures and Scope / if functions without free variables are pure, are closures impure?
@@ -17,8 +17,13 @@ From [[javascriptallonge]].
 
 ## Related pages
 
-- [[javascriptallonge-section-and-also-closures-and-scope-ff45d11c]] - broader source section: And also: / Closures and Scope
+### Source order
+
 - [[javascriptallonge-section-and-also-closures-and-scope-it-s-always-the-environment-3905285c]] - next source section: And also: / Closures and Scope / it's always the environment
+
+### Source structure
+
+- [[javascriptallonge-section-and-also-closures-and-scope-ff45d11c]] - broader source section: And also: / Closures and Scope
 
 ## Statements
 
@@ -50,6 +55,7 @@ From [[javascriptallonge]].
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00345))_
 
+<a id="atom-technical-atom-e32e1b6c17bb3ec8"></a>
 > [Figure] (p.45)
 
 ### Technical frame 2: And also: / Closures and Scope / if functions without free variables are pure, are closures impure?
@@ -60,4 +66,5 @@ From [[javascriptallonge]].
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00346))_
 
+<a id="atom-technical-atom-e40f9d634f430538"></a>
 > If pure functions can contain closures, can a closure contain a pure function?

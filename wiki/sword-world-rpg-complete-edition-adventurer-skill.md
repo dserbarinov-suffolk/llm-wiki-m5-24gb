@@ -7,7 +7,7 @@ sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: concepts
-projection_coverage: topic-sword-world-rpg-complete-edition-adventurer-skill@aac9a0b211973dc0fc140750e790c880
+projection_coverage: topic-sword-world-rpg-complete-edition-adventurer-skill@853e4959f7adc40eca2eaf0beddb9ef7
 ---
 
 # Adventurer Skill
@@ -26,6 +26,8 @@ What [[sword-world-rpg-complete-edition]] covers about adventurer skill:
 
 
 ## Related pages
+
+### Shared claims
 
 - [[sword-world-rpg-complete-edition-ranger-skill]] - shared statements: 【 Ranger Skill 】 shares source evidence from Chapter 7: / 7.1 Notes on General Skills / The Difference Between General Skills and Adventurer Skills: The reason for this is that the hunter skill is a general skill, while the ranger skill is, as precisely called, an adventurer skill. (1 shared statement(s))
 

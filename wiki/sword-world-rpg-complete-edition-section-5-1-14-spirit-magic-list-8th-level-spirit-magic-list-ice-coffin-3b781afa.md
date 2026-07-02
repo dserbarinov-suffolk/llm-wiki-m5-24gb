@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-5-1-14-spirit-magic-list-8th-level-spirit-magic-list-ice-coffin-3b781afa@ea7dd8a8f1be99dd357e4dfa74bd3645
+projection_coverage: section-sword-world-rpg-complete-edition-section-5-1-14-spirit-magic-list-8th-level-spirit-magic-list-ice-coffin-3b781afa@a63775f62465652c48e8f55bf474fd12
 ---
 
 # 5.1.14 Spirit Magic List / 8th Level Spirit Magic List [ Ice Coffin ]
@@ -17,15 +17,20 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-5-1-14-spirit-magic-list-1f53ed62]] - broader source section: 5.1.14 Spirit Magic List
-- [[sword-world-rpg-complete-edition-section-5-1-14-spirit-magic-list-8th-level-spirit-magic-list-ice-coffin-ice-storm-fenrir-greater-ice-spi-e57dce56]] - narrower source section: 5.1.14 Spirit Magic List / 8th Level Spirit Magic List [ Ice Coffin ] / [ Ice Storm ] (Fenrir/Greater Ice Spirit)
-- [[sword-world-rpg-complete-edition-section-5-1-14-spirit-magic-list-8th-level-spirit-magic-list-ice-coffin-current-kraken-greater-water-spi-8ff1d3c5]] - narrower source section: 5.1.14 Spirit Magic List / 8th Level Spirit Magic List [ Ice Coffin ] / [ Current ] (Kraken/Greater Water Spirit)
-- [[sword-world-rpg-complete-edition-section-5-1-14-spirit-magic-list-8th-level-spirit-magic-list-ice-coffin-suffocate-djinn-wind-spirit-d2d43c3f]] - narrower source section: 5.1.14 Spirit Magic List / 8th Level Spirit Magic List [ Ice Coffin ] / [ Suffocate ] (Djinn/Wind Spirit)
-- [[sword-world-rpg-complete-edition-section-5-1-14-spirit-magic-list-8th-level-spirit-magic-list-ice-coffin-nightmare-incubus-succubus-dream-dba7d50a]] - narrower source section: 5.1.14 Spirit Magic List / 8th Level Spirit Magic List [ Ice Coffin ] / [ Nightmare ] (Incubus, Succubus/Dream Spirit)
-- [[sword-world-rpg-complete-edition-section-5-1-14-spirit-magic-list-8th-level-spirit-magic-list-ice-coffin-firestorm-efreet-greater-fire-sp-ef992285]] - narrower source section: 5.1.14 Spirit Magic List / 8th Level Spirit Magic List [ Ice Coffin ] / [ Firestorm ] (Efreet/Greater Fire Spirit)
-- [[sword-world-rpg-complete-edition-section-5-1-14-spirit-magic-list-8th-level-spirit-magic-list-ice-coffin-maze-woods-ent-greater-plant-spi-b03a105c]] - narrower source section: 5.1.14 Spirit Magic List / 8th Level Spirit Magic List [ Ice Coffin ] / [ Maze Woods ] (Ent/Greater Plant Spirit)
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-5-1-14-spirit-magic-list-magic-list-b89f2a18]] - previous source section: 5.1.14 Spirit Magic List / Magic List
 - [[sword-world-rpg-complete-edition-section-5-1-14-spirit-magic-list-9th-level-spirit-magic-list-earthquake-behemoth-greater-earth-spirit-5eb28679]] - next source section: 5.1.14 Spirit Magic List / 9th Level Spirit Magic List [ Earthquake ] (Behemoth/Greater Earth Spirit)
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-5-1-14-spirit-magic-list-1f53ed62]] - broader source section: 5.1.14 Spirit Magic List
+- [[sword-world-rpg-complete-edition-section-5-1-14-spirit-magic-list-8th-level-spirit-magic-list-ice-coffin-current-kraken-greater-water-spi-8ff1d3c5]] - narrower source section: 5.1.14 Spirit Magic List / 8th Level Spirit Magic List [ Ice Coffin ] / [ Current ] (Kraken/Greater Water Spirit)
+- [[sword-world-rpg-complete-edition-section-5-1-14-spirit-magic-list-8th-level-spirit-magic-list-ice-coffin-firestorm-efreet-greater-fire-sp-ef992285]] - narrower source section: 5.1.14 Spirit Magic List / 8th Level Spirit Magic List [ Ice Coffin ] / [ Firestorm ] (Efreet/Greater Fire Spirit)
+- [[sword-world-rpg-complete-edition-section-5-1-14-spirit-magic-list-8th-level-spirit-magic-list-ice-coffin-ice-storm-fenrir-greater-ice-spi-e57dce56]] - narrower source section: 5.1.14 Spirit Magic List / 8th Level Spirit Magic List [ Ice Coffin ] / [ Ice Storm ] (Fenrir/Greater Ice Spirit)
+- [[sword-world-rpg-complete-edition-section-5-1-14-spirit-magic-list-8th-level-spirit-magic-list-ice-coffin-maze-woods-ent-greater-plant-spi-b03a105c]] - narrower source section: 5.1.14 Spirit Magic List / 8th Level Spirit Magic List [ Ice Coffin ] / [ Maze Woods ] (Ent/Greater Plant Spirit)
+- [[sword-world-rpg-complete-edition-section-5-1-14-spirit-magic-list-8th-level-spirit-magic-list-ice-coffin-nightmare-incubus-succubus-dream-dba7d50a]] - narrower source section: 5.1.14 Spirit Magic List / 8th Level Spirit Magic List [ Ice Coffin ] / [ Nightmare ] (Incubus, Succubus/Dream Spirit)
+- [[sword-world-rpg-complete-edition-section-5-1-14-spirit-magic-list-8th-level-spirit-magic-list-ice-coffin-suffocate-djinn-wind-spirit-d2d43c3f]] - narrower source section: 5.1.14 Spirit Magic List / 8th Level Spirit Magic List [ Ice Coffin ] / [ Suffocate ] (Djinn/Wind Spirit)
 
 ## Statements
 

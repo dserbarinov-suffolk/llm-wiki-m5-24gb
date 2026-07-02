@@ -4,11 +4,11 @@ page_kind: source
 summary: Recipes with Basic Functions / Left-Variadic Functions / overcoming limitations: 5 source-backed entries and 0 atom(s) from raw/javascriptallonge.pdf.
 page_family: section-reference
 sources: raw/javascriptallonge.pdf
-updated: 2026-07-01
+updated: 2026-07-02
 domain: javascriptallonge
 category_path: sources/javascriptallonge/sections
 source_id: javascriptallonge.pdf
-projection_coverage: section-javascriptallonge-section-recipes-with-basic-functions-left-variadic-functions-overcoming-limitations-ba6c5a7e@8bbf87ddaa2a2fd058968b8762be36fb
+projection_coverage: section-javascriptallonge-section-recipes-with-basic-functions-left-variadic-functions-overcoming-limitations-ba6c5a7e@daf6e634de0f162772e863b2ccbae27a
 ---
 
 # Recipes with Basic Functions / Left-Variadic Functions / overcoming limitations
@@ -17,9 +17,14 @@ From [[javascriptallonge]].
 
 ## Related pages
 
-- [[javascriptallonge-section-recipes-with-basic-functions-left-variadic-functions-c0cc9e6b]] - broader source section: Recipes with Basic Functions / Left-Variadic Functions
+### Source order
+
 - [[javascriptallonge-section-recipes-with-basic-functions-left-variadic-functions-a-history-lesson-153d863d]] - previous source section: Recipes with Basic Functions / Left-Variadic Functions / a history lesson
 - [[javascriptallonge-section-recipes-with-basic-functions-left-variadic-functions-left-variadic-destructuring-c0fee83e]] - next source section: Recipes with Basic Functions / Left-Variadic Functions / left-variadic destructuring
+
+### Source structure
+
+- [[javascriptallonge-section-recipes-with-basic-functions-left-variadic-functions-c0cc9e6b]] - broader source section: Recipes with Basic Functions / Left-Variadic Functions
 
 ## Statements
 

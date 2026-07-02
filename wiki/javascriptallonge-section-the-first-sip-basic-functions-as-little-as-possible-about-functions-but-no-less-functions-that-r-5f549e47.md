@@ -4,11 +4,11 @@ page_kind: source
 summary: The first sip: Basic Functions / As Little As Possible About Functions, But No Less / functions that return values and evaluate expressions: 12 source-backed entries and 2 atom(s) from raw/javascriptallonge.pdf.
 page_family: section-reference
 sources: raw/javascriptallonge.pdf
-updated: 2026-07-01
+updated: 2026-07-02
 domain: javascriptallonge
 category_path: sources/javascriptallonge/sections
 source_id: javascriptallonge.pdf
-projection_coverage: section-javascriptallonge-section-the-first-sip-basic-functions-as-little-as-possible-about-functions-but-no-less-functions-that-r-5f549e47@d650ad41afee3017c0a9f61909a56c54
+projection_coverage: section-javascriptallonge-section-the-first-sip-basic-functions-as-little-as-possible-about-functions-but-no-less-functions-that-r-5f549e47@e97ff4782a3fba4bc0e3b87ff0cde261
 ---
 
 # The first sip: Basic Functions / As Little As Possible About Functions, But No Less / functions that return values and evaluate expressions
@@ -17,9 +17,14 @@ From [[javascriptallonge]].
 
 ## Related pages
 
-- [[javascriptallonge-section-the-first-sip-basic-functions-as-little-as-possible-about-functions-but-no-less-40f8e29e]] - broader source section: The first sip: Basic Functions / As Little As Possible About Functions, But No Less
+### Source order
+
 - [[javascriptallonge-section-the-first-sip-basic-functions-as-little-as-possible-about-functions-but-no-less-applying-functio-fa7923f6]] - previous source section: The first sip: Basic Functions / As Little As Possible About Functions, But No Less / applying functions
 - [[javascriptallonge-section-the-first-sip-basic-functions-as-little-as-possible-about-functions-but-no-less-commas-17f3a7f9]] - next source section: The first sip: Basic Functions / As Little As Possible About Functions, But No Less / commas
+
+### Source structure
+
+- [[javascriptallonge-section-the-first-sip-basic-functions-as-little-as-possible-about-functions-but-no-less-40f8e29e]] - broader source section: The first sip: Basic Functions / As Little As Possible About Functions, But No Less
 
 ## Statements
 
@@ -39,6 +44,7 @@ From [[javascriptallonge]].
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00194))_
 
+<a id="atom-technical-atom-23c16ebe3854932d"></a>
 ```
 (() => 1 + 1)()
 //=> 2
@@ -56,4 +62,5 @@ From [[javascriptallonge]].
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00199))_
 
+<a id="atom-technical-atom-d80a006f6758d4fe"></a>
 > When dealing with expressions that have a lot of the same characters (like parentheses), you may find it helpful to format the code to make things stand out.

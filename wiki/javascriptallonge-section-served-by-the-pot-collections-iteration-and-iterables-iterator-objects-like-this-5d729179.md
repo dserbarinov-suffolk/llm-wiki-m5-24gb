@@ -4,11 +4,11 @@ page_kind: source
 summary: Served by the Pot: Collections / Iteration and Iterables / iterator objects / Like this:: 4 source-backed entries and 2 atom(s) from raw/javascriptallonge.pdf.
 page_family: section-reference
 sources: raw/javascriptallonge.pdf
-updated: 2026-07-01
+updated: 2026-07-02
 domain: javascriptallonge
 category_path: sources/javascriptallonge/sections
 source_id: javascriptallonge.pdf
-projection_coverage: section-javascriptallonge-section-served-by-the-pot-collections-iteration-and-iterables-iterator-objects-like-this-5d729179@f20e5ed1505a11baf00e23822f4be2d9
+projection_coverage: section-javascriptallonge-section-served-by-the-pot-collections-iteration-and-iterables-iterator-objects-like-this-5d729179@c78474d554e7f5fa43f1a8aaf868c477
 ---
 
 # Served by the Pot: Collections / Iteration and Iterables / iterator objects / Like this:
@@ -16,6 +16,8 @@ projection_coverage: section-javascriptallonge-section-served-by-the-pot-collect
 From [[javascriptallonge]].
 
 ## Related pages
+
+### Source structure
 
 - [[javascriptallonge-section-served-by-the-pot-collections-iteration-and-iterables-iterator-objects-7abb0097]] - broader source section: Served by the Pot: Collections / Iteration and Iterables / iterator objects
 
@@ -33,6 +35,7 @@ From [[javascriptallonge]].
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01545))_
 
+<a id="atom-technical-atom-8ea5289baa2cf562"></a>
 ```
 const Stack2 = () =>
 ({
@@ -79,6 +82,7 @@ return {done: false, value: this.array[iterationIndex--]}
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01546))_
 
+<a id="atom-technical-atom-4d14253aa89b4328"></a>
 ```
 const stack = Stack2();
 stack.push(2000);

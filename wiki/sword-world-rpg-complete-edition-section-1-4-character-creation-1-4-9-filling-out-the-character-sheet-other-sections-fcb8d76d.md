@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-1-4-character-creation-1-4-9-filling-out-the-character-sheet-other-sections-fcb8d76d@4abc3fe807d17171f6a6c64bbd65c199
+projection_coverage: section-sword-world-rpg-complete-edition-section-1-4-character-creation-1-4-9-filling-out-the-character-sheet-other-sections-fcb8d76d@ea132ec04fdcd41841ca99e18f3096c6
 ---
 
 # 1.4 Character Creation / 1.4.9 Filling Out the Character Sheet / ⑯ Other Sections ]
@@ -16,6 +16,8 @@ projection_coverage: section-sword-world-rpg-complete-edition-section-1-4-charac
 From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
+
+### Source structure
 
 - [[sword-world-rpg-complete-edition-section-1-4-character-creation-1-4-9-filling-out-the-character-sheet-e4f251c1]] - broader source section: 1.4 Character Creation / 1.4.9 Filling Out the Character Sheet
 

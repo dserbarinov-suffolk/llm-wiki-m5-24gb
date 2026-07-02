@@ -4,11 +4,11 @@ page_kind: source
 summary: A Pull of the Lever: Prefaces / About JavaScript Allongé: 49 source-backed entries and 1 atom(s) from raw/javascriptallonge.pdf.
 page_family: section-reference
 sources: raw/javascriptallonge.pdf
-updated: 2026-07-01
+updated: 2026-07-02
 domain: javascriptallonge
 category_path: sources/javascriptallonge/sections
 source_id: javascriptallonge.pdf
-projection_coverage: section-javascriptallonge-section-a-pull-of-the-lever-prefaces-about-javascript-allong-b566e707@37088df2603e70856dae2ab06a466e2e
+projection_coverage: section-javascriptallonge-section-a-pull-of-the-lever-prefaces-about-javascript-allong-b566e707@be809ca9b87124b0a1d89a6f306f356e
 ---
 
 # A Pull of the Lever: Prefaces / About JavaScript Allongé
@@ -17,10 +17,18 @@ From [[javascriptallonge]].
 
 ## Related pages
 
-- [[javascriptallonge-section-a-pull-of-the-lever-prefaces-b60951a1]] - broader source section: A Pull of the Lever: Prefaces
-- [[javascriptallonge-section-a-pull-of-the-lever-prefaces-about-javascript-allong-why-the-six-edition-35c3fb78]] - narrower source section: A Pull of the Lever: Prefaces / About JavaScript Allongé / why the 'six' edition?
-- [[javascriptallonge-section-a-pull-of-the-lever-prefaces-about-javascript-allong-that-s-nice-is-that-the-only-reason-fdd15849]] - narrower source section: A Pull of the Lever: Prefaces / About JavaScript Allongé / that's nice. is that the only reason?
+### Source order
+
 - [[javascriptallonge-section-a-pull-of-the-lever-prefaces-what-javascript-allong-is-and-isn-t-8c44526e]] - next source section: A Pull of the Lever: Prefaces / What JavaScript Allongé is. And isn't.
+
+### Source structure
+
+- [[javascriptallonge-section-a-pull-of-the-lever-prefaces-b60951a1]] - broader source section: A Pull of the Lever: Prefaces
+- [[javascriptallonge-section-a-pull-of-the-lever-prefaces-about-javascript-allong-that-s-nice-is-that-the-only-reason-fdd15849]] - narrower source section: A Pull of the Lever: Prefaces / About JavaScript Allongé / that's nice. is that the only reason?
+- [[javascriptallonge-section-a-pull-of-the-lever-prefaces-about-javascript-allong-why-the-six-edition-35c3fb78]] - narrower source section: A Pull of the Lever: Prefaces / About JavaScript Allongé / why the 'six' edition?
+
+### Topics
+
 - [[javascriptallonge-javascript-allong]] - topic hub: opens the topic page for Javascript Allong
 
 ## Statements
@@ -76,6 +84,7 @@ From [[javascriptallonge]].
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00039))_
 
+<a id="atom-technical-atom-4c8367e1e02a1633"></a>
 ```
 function foo (first, ...rest) {
 // ...

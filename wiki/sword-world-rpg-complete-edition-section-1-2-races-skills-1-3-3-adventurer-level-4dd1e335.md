@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-1-2-races-skills-1-3-3-adventurer-level-4dd1e335@a0e2f67c4af17a55a3174dacb9b7bb25
+projection_coverage: section-sword-world-rpg-complete-edition-section-1-2-races-skills-1-3-3-adventurer-level-4dd1e335@65daa1c72ba5de1341f082a702fb8e1f
 ---
 
 # 1.2 Races / Skills / 1.3.3 Adventurer Level
@@ -17,9 +17,17 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-1-2-races-skills-d796863a]] - broader source section: 1.2 Races / Skills
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-1-2-races-skills-changeling-ceb1e9f4]] - previous source section: 1.2 Races / Skills / 《 Changeling 》
 - [[sword-world-rpg-complete-edition-section-1-2-races-skills-1-3-4-explanation-of-adventurer-skills-a5ebb75d]] - next source section: 1.2 Races / Skills / 1.3.4 Explanation of Adventurer Skills
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-1-2-races-skills-d796863a]] - broader source section: 1.2 Races / Skills
+
+### Topics
+
 - [[sword-world-rpg-complete-edition-adventurer-level]] - topic hub: opens the topic page for Adventurer Level
 
 ## Statements

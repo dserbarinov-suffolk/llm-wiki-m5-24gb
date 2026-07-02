@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-3-b1c23679@6711e98bdc06fd764d8e76b13c6e132f
+projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-3-b1c23679@c70b0410f9bcfc79b9666c9c34385bb0
 ---
 
 # Chapter 3:
@@ -17,21 +17,21 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-chapter-3-action-announcements-7eca0973]] - narrower source section: Chapter 3: / Action Announcements
-- [[sword-world-rpg-complete-edition-section-chapter-3-3-2-action-order-0a8e2138]] - narrower source section: Chapter 3: / 3.2 Action Order
-- [[sword-world-rpg-complete-edition-section-chapter-3-3-3-action-canceling-9085aed0]] - narrower source section: Chapter 3: / 3.3 Action Canceling
-- [[sword-world-rpg-complete-edition-section-chapter-3-3-2-1-delaying-an-action-98203a92]] - narrower source section: Chapter 3: / 3.2.1 Delaying an Action
-- [[sword-world-rpg-complete-edition-section-chapter-3-movement-and-actions-e72c5ad4]] - narrower source section: Chapter 3: / Movement and Actions
-- [[sword-world-rpg-complete-edition-section-chapter-3-0d0d3e8f]] - narrower source section: Chapter 3:
-- [[sword-world-rpg-complete-edition-section-chapter-3-3-4-2-actions-you-can-take-e7faacab]] - narrower source section: Chapter 3: / 3.4.2 Actions You Can Take
-- [[sword-world-rpg-complete-edition-section-chapter-3-ready-a-sheathed-weapon-04504555]] - narrower source section: Chapter 3: / Ready a Sheathed Weapon
-- [[sword-world-rpg-complete-edition-section-chapter-3-switch-a-weapon-from-hand-to-hand-c96843b7]] - narrower source section: Chapter 3: / Switch a Weapon From Hand to Hand
-- [[sword-world-rpg-complete-edition-section-chapter-3-sheath-a-weapon-etc-7ebe9cde]] - narrower source section: Chapter 3: / Sheath a Weapon, Etc.
-- [[sword-world-rpg-complete-edition-section-chapter-3-withdraw-flee-from-engagement-08faa8f7]] - narrower source section: Chapter 3: / Withdraw (Flee) From Engagement
-- [[sword-world-rpg-complete-edition-section-chapter-3-92cd315b]] - narrower source section: Chapter 3:
-- [[sword-world-rpg-complete-edition-section-chapter-3-3-4-4-actions-you-can-take-while-standing-still-ac427570]] - narrower source section: Chapter 3: / 3.4.4 Actions You Can Take While Standing Still
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-2-6-success-rolls-using-adventurer-level-8e5d5d97]] - previous source section: 2.6 Success Rolls Using Adventurer Level
 - [[sword-world-rpg-complete-edition-section-4-5-2-determining-base-damage-strike-roll-267f36cf]] - next source section: 4.5.2 Determining Base Damage (Strike Roll)
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-chapter-3-0d0d3e8f]] - narrower source section: Chapter 3:
+- [[sword-world-rpg-complete-edition-section-chapter-3-3-2-1-delaying-an-action-98203a92]] - narrower source section: Chapter 3: / 3.2.1 Delaying an Action
+- [[sword-world-rpg-complete-edition-section-chapter-3-3-2-action-order-0a8e2138]] - narrower source section: Chapter 3: / 3.2 Action Order
+- [[sword-world-rpg-complete-edition-section-chapter-3-3-3-action-canceling-9085aed0]] - narrower source section: Chapter 3: / 3.3 Action Canceling
+- [[sword-world-rpg-complete-edition-section-chapter-3-3-4-2-actions-you-can-take-e7faacab]] - narrower source section: Chapter 3: / 3.4.2 Actions You Can Take
+- [[sword-world-rpg-complete-edition-section-chapter-3-3-4-4-actions-you-can-take-while-standing-still-ac427570]] - narrower source section: Chapter 3: / 3.4.4 Actions You Can Take While Standing Still
+- [[sword-world-rpg-complete-edition-section-chapter-3-92cd315b]] - narrower source section: Chapter 3:
+- [[sword-world-rpg-complete-edition-section-chapter-3-action-announcements-7eca0973]] - narrower source section: Chapter 3: / Action Announcements
 
 ## Statements by subsection
 
@@ -309,6 +309,7 @@ From [[sword-world-rpg-complete-edition]].
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-01113))_
 
+<a id="atom-technical-atom-bbff782e85d13ec1"></a>
 ```text
 Movement and Actions
 3.4 Movement and Actions
@@ -333,6 +334,7 @@ Movement and Actions
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-01174))_
 
+<a id="atom-technical-atom-be33bcf6128216f8"></a>
 > [Figure] (p.39)
 
 ### Technical frame 3: Chapter 3: / 3.4.4 Actions You Can Take While Standing Still / Weapon and Armor Restrictions
@@ -343,6 +345,7 @@ Movement and Actions
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-01178))_
 
+<a id="atom-technical-atom-c51b84defdbeed91"></a>
 ```text
 Weapon and Armor Restrictions
 4.1 Weapon and Armor Restrictions
@@ -369,6 +372,7 @@ All joking aside, however, if we want to be realistic, weapons and armor used sh
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-01262))_
 
+<a id="atom-technical-atom-2534865c8cb05080"></a>
 ```text
 4.5.1 Hit Checks
 Key Number
@@ -431,6 +435,7 @@ Key Number
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-01263))_
 
+<a id="atom-technical-atom-c0717a255f518b63"></a>
 ```text
 Table 4-2: Rating Table, Key Number
    8  6  6  6 7  7  7 8  8  8  8 8  8  8  8  9  9  9  9 10 10

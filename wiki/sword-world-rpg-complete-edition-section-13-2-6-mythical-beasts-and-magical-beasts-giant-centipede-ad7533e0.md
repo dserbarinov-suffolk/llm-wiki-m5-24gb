@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-13-2-6-mythical-beasts-and-magical-beasts-giant-centipede-ad7533e0@3f25046d33a7ecc7714b401c05ee66d1
+projection_coverage: section-sword-world-rpg-complete-edition-section-13-2-6-mythical-beasts-and-magical-beasts-giant-centipede-ad7533e0@745aea4fea422061b0d80a6c517bdf41
 ---
 
 # 13.2.6 Mythical Beasts and Magical Beasts / [ Giant Centipede ]
@@ -17,9 +17,14 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-13-2-6-mythical-beasts-and-magical-beasts-f86962d2]] - broader source section: 13.2.6 Mythical Beasts and Magical Beasts
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-13-2-6-mythical-beasts-and-magical-beasts-eagle-a56d1ea9]] - previous source section: 13.2.6 Mythical Beasts and Magical Beasts / [ Eagle ]
 - [[sword-world-rpg-complete-edition-section-13-2-6-mythical-beasts-and-magical-beasts-giant-lizard-9faed596]] - next source section: 13.2.6 Mythical Beasts and Magical Beasts / [ Giant Lizard ]
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-13-2-6-mythical-beasts-and-magical-beasts-f86962d2]] - broader source section: 13.2.6 Mythical Beasts and Magical Beasts
 
 ## Statements
 
@@ -37,4 +42,5 @@ From [[sword-world-rpg-complete-edition]].
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-06902))_
 
+<a id="atom-technical-atom-9fa2dd78a4a9cd8e"></a>
 > An adventurer bitten by a giant centipede must make a life force resistance roll against target score 9.

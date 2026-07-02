@@ -9,7 +9,7 @@ domain: sword-world-rpg-complete-edition
 category_path: procedures/sword-world-rpg-complete-edition
 source_id: Sword World RPG - Complete Edition.pdf
 aliases: create-character, character-creation
-projection_coverage: procedure-sword-world-rpg-complete-edition-procedure-create-character@2ea531fbebdf62e4a4364062b286f4b7
+projection_coverage: procedure-sword-world-rpg-complete-edition-procedure-create-character@85f6317931a6e0c32df0a9da258b7f79
 ---
 
 # Create Character
@@ -65,18 +65,18 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Tables And Formulas
 
-- `formula`: Table 1-3: Determining Sub-Ability Scores shows how to determine subability scores for each race. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-00309))_
-- `table`: Table 1-3: Determining Sub-Ability Scores _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-00342))_
-- `formula`: Table 1-4: Average Ability Scores by Race _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-00344))_
-- `rule`: If the player's background is merchant/scholar (roll 8), they must choose either 3rd level in the merchant skill or 3rd  _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-00377))_
-- `table`: Table 1-6: Starting Experience by Race _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-00378))_
-- `rule`: If you have enough experience points, you can acquire multiple skills. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-00454))_
-- `formula`: Table 1-7: Experience Points by Skill (at Character Creation) _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-00460))_
-- `formula`: Please determine how much money you have by following the instructions on Table 1-5: Backgrounds or Table 1-6: Starting  _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-00497))_
-- `rule`: When buying weapons and armor, one must be aware of their required strength . _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-00633))_
-- `rule`: Therefore, if the required strength of the weapon you're buying on Table 1-8: Weapons does not match your character's st _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-00636))_
-- `formula`: 14 (required strength) x 20 + 40 = 320. Prices are in gamels ( G ). _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-00758))_
-- `rule`: If the equipment has both unrestricted and restricted skills, please understand that your equipment must conform to the  _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-00761))_
+- `formula`: [[sword-world-rpg-complete-edition-section-1-4-character-creation-f6aa6108]]#atom-technical-atom-908c99dc83175409 Table 1-3: Determining Sub-Ability Scores shows how to determine subability scores for each race. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-00309))_
+- `table`: [[sword-world-rpg-complete-edition-section-1-4-character-creation-f6aa6108]]#atom-technical-atom-c652601c48969227 Table 1-3: Determining Sub-Ability Scores _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-00342))_
+- `formula`: [[sword-world-rpg-complete-edition-section-1-4-character-creation-f6aa6108]]#atom-technical-atom-8ecf95c911b539f5 Table 1-4: Average Ability Scores by Race _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-00344))_
+- `rule`: [[sword-world-rpg-complete-edition-section-1-4-character-creation-f6aa6108]]#atom-technical-atom-af73704272b47aa7 If the player's background is merchant/scholar (roll 8), they must choose either 3rd level in the merchant skill or 3rd _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-00377))_
+- `table`: [[sword-world-rpg-complete-edition-section-1-4-character-creation-f6aa6108]]#atom-technical-atom-d52456b4ed89c74f Table 1-6: Starting Experience by Race _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-00378))_
+- `rule`: [[sword-world-rpg-complete-edition-section-1-4-character-creation-f6aa6108]]#atom-technical-atom-480e7d6d6a66f4ea If you have enough experience points, you can acquire multiple skills. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-00454))_
+- `formula`: [[sword-world-rpg-complete-edition-section-1-4-character-creation-f6aa6108]]#atom-technical-atom-05707a526d5e9c1f Table 1-7: Experience Points by Skill (at Character Creation) _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-00460))_
+- `formula`: [[sword-world-rpg-complete-edition-section-1-4-character-creation-f6aa6108]]#atom-technical-atom-7657b3b29a864bbe Please determine how much money you have by following the instructions on Table 1-5: Backgrounds or Table 1-6: Starting _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-00497))_
+- `rule`: [[sword-world-rpg-complete-edition-section-1-4-character-creation-f6aa6108]]#atom-technical-atom-1db8446aeb270650 When buying weapons and armor, one must be aware of their required strength . _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-00633))_
+- `rule`: [[sword-world-rpg-complete-edition-section-1-4-character-creation-f6aa6108]]#atom-technical-atom-8328ca17c3a2970e Therefore, if the required strength of the weapon you're buying on Table 1-8: Weapons does not match your character's st _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-00636))_
+- `formula`: [[sword-world-rpg-complete-edition-section-1-4-character-creation-f6aa6108]]#atom-technical-atom-f41e3d378fe01547 14 (required strength) x 20 + 40 = 320. Prices are in gamels ( G ). _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-00758))_
+- `rule`: [[sword-world-rpg-complete-edition-section-1-4-character-creation-f6aa6108]]#atom-technical-atom-cae0a1b3d17f6406 If the equipment has both unrestricted and restricted skills, please understand that your equipment must conform to the _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-00761))_
 
 ## Completion Check
 

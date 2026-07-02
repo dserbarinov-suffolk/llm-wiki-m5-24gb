@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-description-eternal-child-dose-762f37dc@32edce8347952012edb8c6aeb966923c
+projection_coverage: section-sword-world-rpg-complete-edition-section-description-eternal-child-dose-762f37dc@2de4cf01e35388617d54efe6efc61de3
 ---
 
 # 《 Description 》 / [ Eternal Child (Dose) ]
@@ -17,9 +17,14 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-description-d5853f98]] - broader source section: 《 Description 》
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-description-iocane-dose-28fb9988]] - previous source section: 《 Description 》 / [ Iocane (Dose) ]
 - [[sword-world-rpg-complete-edition-section-description-centauri-blood-touch-damage-40979612]] - next source section: 《 Description 》 / [Centauri Blood (Touch/Damage)]
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-description-d5853f98]] - broader source section: 《 Description 》
 
 ## Statements
 

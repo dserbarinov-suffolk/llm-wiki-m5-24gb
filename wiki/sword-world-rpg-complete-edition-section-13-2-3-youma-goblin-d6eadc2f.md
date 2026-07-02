@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-13-2-3-youma-goblin-d6eadc2f@4b167cf48ac8d2809cacdde5eceac676
+projection_coverage: section-sword-world-rpg-complete-edition-section-13-2-3-youma-goblin-d6eadc2f@085aa219b421ec51886a366279d74857
 ---
 
 # 13.2.3 Youma / [ Goblin ]
@@ -17,9 +17,14 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-13-2-3-youma-05ea9fd0]] - broader source section: 13.2.3 Youma
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-13-2-3-youma-hobgoblin-510a6ae9]] - previous source section: 13.2.3 Youma / [ Hobgoblin ]
 - [[sword-world-rpg-complete-edition-section-13-2-3-youma-marshman-9facfc8e]] - next source section: 13.2.3 Youma / [ Marshman ]
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-13-2-3-youma-05ea9fd0]] - broader source section: 13.2.3 Youma
 
 ## Statements
 
@@ -42,34 +47,49 @@ From [[sword-world-rpg-complete-edition]].
 
 **Atoms:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-06056, source-range-0d48087c-06057, source-range-0d48087c-06058, source-range-0d48087c-06059, source-range-0d48087c-06060, source-range-0d48087c-06061, source-range-0d48087c-06062, source-range-0d48087c-06063, source-range-0d48087c-06064, source-range-0d48087c-06065, source-range-0d48087c-06066, source-range-0d48087c-06068, source-range-0d48087c-06069, source-range-0d48087c-06070, source-range-0d48087c-06071))_
 
+<a id="atom-technical-atom-611bfc4dfc2a78d5"></a>
 > Monster Level=3
 
+<a id="atom-technical-atom-dc29ca93fcfc284f"></a>
 > Rarity=10
 
+<a id="atom-technical-atom-83335f861998968b"></a>
 > Agility=13
 
+<a id="atom-technical-atom-208fb49a54c5433a"></a>
 > Number=One Movement Speed=8
 
+<a id="atom-technical-atom-f9c9dfbc05e046e7"></a>
 > Frequency=Rare
 
+<a id="atom-technical-atom-4f6402c778505f7a"></a>
 > Intellect=Human Reaction=Adversarial
 
+<a id="atom-technical-atom-34fd96398eac7fdc"></a>
 > Attack Points=Weapon or fang: 10 (3) Strike Points=8
 
+<a id="atom-technical-atom-48ac44b105ea8862"></a>
 > Evasion Points=11 (4) Defense Points=6
 
+<a id="atom-technical-atom-50f23ee5b14aae20"></a>
 > Life Points/Resistance=12/11 (4)
 
+<a id="atom-technical-atom-7328dc52762934db"></a>
 > Mental Points/Resistance=15/11 (4)
 
+<a id="atom-technical-atom-c1d87b19cdc5e4ac"></a>
 > Special Abilities=3rd level spirit magic (Magic Intensity/Magic Power=12/5)
 
+<a id="atom-technical-atom-7c7404331732cd0d"></a>
 > Intensity/Magic Power=10/3)
 
+<a id="atom-technical-atom-70245dda57d43d9c"></a>
 > Habitat=Mountains, forests, caves
 
+<a id="atom-technical-atom-540b50b866ab9162"></a>
 > Languages=Goblin, silent spirit, regional
 
+<a id="atom-technical-atom-147a5e2675b31fe2"></a>
 > Perception=Five senses (darkvision, infravision)
 
 ### Technical frame 2: 13.2.3 Youma / [ Goblin ]
@@ -80,6 +100,7 @@ From [[sword-world-rpg-complete-edition]].
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-06073))_
 
+<a id="atom-technical-atom-4489ab88b8fdca5e"></a>
 > [Figure] (p.179)
 
 ### Technical frame 3: 13.2.3 Youma / [ Goblin ]
@@ -90,4 +111,5 @@ From [[sword-world-rpg-complete-edition]].
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-06075))_
 
+<a id="atom-technical-atom-b19d9053ea4860a3"></a>
 > Monster Level=4

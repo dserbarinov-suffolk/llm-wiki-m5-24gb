@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-4th-level-basic-holy-magic-list-cure-disease-protective-circle-eab62bcf@15c5b8238ac2d19c3438b6ac1fe5477e
+projection_coverage: section-sword-world-rpg-complete-edition-section-4th-level-basic-holy-magic-list-cure-disease-protective-circle-eab62bcf@537575c2d103c18cb5aeab03125d8fe6
 ---
 
 # 4th Level Basic Holy Magic List [ Cure Disease ] / [ Protective Circle ]
@@ -16,6 +16,8 @@ projection_coverage: section-sword-world-rpg-complete-edition-section-4th-level-
 From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
+
+### Source structure
 
 - [[sword-world-rpg-complete-edition-section-4th-level-basic-holy-magic-list-cure-disease-fa615de9]] - broader source section: 4th Level Basic Holy Magic List [ Cure Disease ]
 
@@ -36,6 +38,7 @@ From [[sword-world-rpg-complete-edition]].
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-03558))_
 
+<a id="atom-technical-atom-6edb5b95c48ab4c7"></a>
 > Type=Counters (Overpowers): Heat Protective Circle, Spirit Wall: Frau Countered (Overpowered) By: Heat Protective Circle, Spirit Wall: Frau Expansion=Duration, Area Resist=None
 
 ### Technical frame 2: 4th Level Basic Holy Magic List [ Cure Disease ] / [ Protective Circle ]
@@ -46,4 +49,5 @@ From [[sword-world-rpg-complete-edition]].
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-03559))_
 
+<a id="atom-technical-atom-236327507b07a147"></a>
 > Those within the area of effect can subtract 2 points from this kind of damage.

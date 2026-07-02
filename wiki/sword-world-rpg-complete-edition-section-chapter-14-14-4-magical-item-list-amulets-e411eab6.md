@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-amulets-e411eab6@967fac1591e9f6ee697967be312ade36
+projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-amulets-e411eab6@06dd41f0c4f31cc3570f767aed040b36
 ---
 
 # Chapter 14: / 14.4 Magical Item List / 《 Amulets 》
@@ -17,13 +17,18 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
+### Source order
+
+- [[sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-accessories-earrings-of-interpretation-6973f651]] - previous source section: Chapter 14: / 14.4 Magical Item List / 《 Accessories 》 [ Earrings of Interpretation ]
+- [[sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-staves-and-wands-ice-blaze-wand-8c8e01dd]] - next source section: Chapter 14: / 14.4 Magical Item List / 《 Staves and Wands 》 [ Ice Blaze Wand ]
+
+### Source structure
+
 - [[sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-51d7c911]] - broader source section: Chapter 14: / 14.4 Magical Item List
 - [[sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-amulets-amulet-of-countersense-b16dab40]] - narrower source section: Chapter 14: / 14.4 Magical Item List / 《 Amulets 》 / [ Amulet of Countersense ]
 - [[sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-amulets-amulet-versus-undead-8958c068]] - narrower source section: Chapter 14: / 14.4 Magical Item List / 《 Amulets 》 / [ Amulet Versus Undead ]
-- [[sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-amulets-telecall-amulet-7dd8c638]] - narrower source section: Chapter 14: / 14.4 Magical Item List / 《 Amulets 》 / [ Telecall Amulet ]
 - [[sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-amulets-crystal-96b4d838]] - narrower source section: Chapter 14: / 14.4 Magical Item List / 《 Amulets 》 / [ Crystal ]
-- [[sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-accessories-earrings-of-interpretation-6973f651]] - previous source section: Chapter 14: / 14.4 Magical Item List / 《 Accessories 》 [ Earrings of Interpretation ]
-- [[sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-staves-and-wands-ice-blaze-wand-8c8e01dd]] - next source section: Chapter 14: / 14.4 Magical Item List / 《 Staves and Wands 》 [ Ice Blaze Wand ]
+- [[sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-amulets-telecall-amulet-7dd8c638]] - narrower source section: Chapter 14: / 14.4 Magical Item List / 《 Amulets 》 / [ Telecall Amulet ]
 
 ## Statements by subsection
 

@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-4-9-unconscious-and-death-checks-4-9-4-mercy-f26f4d54@edf151eabc26de3a1a37c35185fd7685
+projection_coverage: section-sword-world-rpg-complete-edition-section-4-9-unconscious-and-death-checks-4-9-4-mercy-f26f4d54@0220c54cd393842195abe7d3966ee032
 ---
 
 # 4.9 Unconscious and Death Checks / 4.9.4 Mercy
@@ -17,8 +17,13 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-4-9-unconscious-and-death-checks-e6129e9c]] - broader source section: 4.9 Unconscious and Death Checks
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-4-9-unconscious-and-death-checks-4-9-3-monster-death-check-3624af68]] - previous source section: 4.9 Unconscious and Death Checks / 4.9.3 Monster Death Check
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-4-9-unconscious-and-death-checks-e6129e9c]] - broader source section: 4.9 Unconscious and Death Checks
 
 ## Statements
 
@@ -38,4 +43,5 @@ From [[sword-world-rpg-complete-edition]].
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-01454))_
 
+<a id="atom-technical-atom-018eabf1ebf940e8"></a>
 > If left untreated, they must make another death check after 1 hour , and

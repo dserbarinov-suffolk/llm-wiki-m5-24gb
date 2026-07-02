@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-3-switch-a-weapon-s-hands-and-attack-b959ce2a@d54fc9a899c77a80269a6c5674767d75
+projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-3-switch-a-weapon-s-hands-and-attack-b959ce2a@a84be19da4be21250e79a14177d78267
 ---
 
 # Chapter 3: / Switch a Weapon's Hands and Attack
@@ -17,9 +17,14 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-chapter-3-92cd315b]] - broader source section: Chapter 3:
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-chapter-3-ready-a-weapon-and-attack-8e52c746]] - previous source section: Chapter 3: / Ready a Weapon and Attack
 - [[sword-world-rpg-complete-edition-section-chapter-3-attack-with-a-readied-weapon-ebb5cd4f]] - next source section: Chapter 3: / Attack with a Readied Weapon
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-chapter-3-92cd315b]] - broader source section: Chapter 3:
 
 ## Statements
 
@@ -36,4 +41,5 @@ From [[sword-world-rpg-complete-edition]].
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-01158))_
 
+<a id="atom-technical-atom-5b66609d7989c62c"></a>
 > If you're holding a weapon in one hand and a shield in the other, and that weapon can be used with both hands, you can drop the shield on the ground and attack with both hands, since it's as if you were holding the weapon in only one hand from the beginning.

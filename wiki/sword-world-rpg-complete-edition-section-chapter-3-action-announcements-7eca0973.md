@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-3-action-announcements-7eca0973@8b25cf80a556a85f6f24b2478b792546
+projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-3-action-announcements-7eca0973@37e8c9f953cb3fef0f504f4832d0f8f4
 ---
 
 # Chapter 3: / Action Announcements
@@ -17,11 +17,16 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
+### Source order
+
+- [[sword-world-rpg-complete-edition-section-chapter-3-3-2-action-order-0a8e2138]] - next source section: Chapter 3: / 3.2 Action Order
+
+### Source structure
+
 - [[sword-world-rpg-complete-edition-section-chapter-3-b1c23679]] - broader source section: Chapter 3:
 - [[sword-world-rpg-complete-edition-section-chapter-3-action-announcements-3-1-1-order-of-action-announcements-8874dec4]] - narrower source section: Chapter 3: / Action Announcements / 3.1.1 Order of Action Announcements
 - [[sword-world-rpg-complete-edition-section-chapter-3-action-announcements-3-1-2-player-action-announcements-586f9066]] - narrower source section: Chapter 3: / Action Announcements / 3.1.2 Player Action Announcements
 - [[sword-world-rpg-complete-edition-section-chapter-3-action-announcements-3-1-3-npc-and-monster-action-announcements-df807636]] - narrower source section: Chapter 3: / Action Announcements / 3.1.3 NPC and Monster Action Announcements
-- [[sword-world-rpg-complete-edition-section-chapter-3-3-2-action-order-0a8e2138]] - next source section: Chapter 3: / 3.2 Action Order
 
 ## Statements by subsection
 
@@ -63,4 +68,5 @@ From [[sword-world-rpg-complete-edition]].
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-01061))_
 
+<a id="atom-technical-atom-cd45f2030403f992"></a>
 > If a settlement cannot be reached, the game master gets to announce their group's actions first (NPCs and monsters) and then the players follow.

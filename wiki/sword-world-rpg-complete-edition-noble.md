@@ -7,7 +7,7 @@ sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: concepts
-projection_coverage: topic-sword-world-rpg-complete-edition-noble@d44c364918ed4c2ca3019f9b381cc7cc
+projection_coverage: topic-sword-world-rpg-complete-edition-noble@6d602b7de911ccf3c42b11f3b531fed8
 ---
 
 # Noble
@@ -22,6 +22,8 @@ What [[sword-world-rpg-complete-edition]] covers about noble:
 
 
 ## Related pages
+
+### Shared claims
 
 - [[sword-world-rpg-complete-edition-knight]] - shared statements: Knight shares source evidence from 18.3 Rules for Destroying Structures / Politics and Class / Nobles/Knights: Next, regarding nobles and knights they are direct vassals of the king, with those who own their own land being called nobles, and those who don't being called knigh ... [truncated] (2 shared statement(s))
 

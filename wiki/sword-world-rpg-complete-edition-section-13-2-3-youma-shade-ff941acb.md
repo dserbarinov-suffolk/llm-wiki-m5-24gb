@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-13-2-3-youma-shade-ff941acb@ff149389a5b80f22917c5fe1ea910bbf
+projection_coverage: section-sword-world-rpg-complete-edition-section-13-2-3-youma-shade-ff941acb@600a8724da882ca2d12ff1db853476a5
 ---
 
 # 13.2.3 Youma / [ Shade ]
@@ -17,9 +17,17 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-13-2-3-youma-05ea9fd0]] - broader source section: 13.2.3 Youma
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-13-2-3-youma-will-o-wisp-694a777b]] - previous source section: 13.2.3 Youma / [ Will-O-Wisp ]
 - [[sword-world-rpg-complete-edition-section-13-2-3-youma-brownie-45e89f46]] - next source section: 13.2.3 Youma / [ Brownie ]
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-13-2-3-youma-05ea9fd0]] - broader source section: 13.2.3 Youma
+
+### Topics
+
 - [[sword-world-rpg-complete-edition-shade]] - topic hub: opens the topic page for Shade
 
 ## Statements
@@ -41,12 +49,17 @@ From [[sword-world-rpg-complete-edition]].
 
 **Atoms:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-06136, source-range-0d48087c-06137, source-range-0d48087c-06138, source-range-0d48087c-06139, source-range-0d48087c-06140))_
 
+<a id="atom-technical-atom-4278a450ce4b8bc3"></a>
 > Habitat=Anywhere
 
+<a id="atom-technical-atom-2fb1d8617c8d5b6f"></a>
 > Languages=None
 
+<a id="atom-technical-atom-ac60627176cbbe33"></a>
 > Perception=Magic
 
+<a id="atom-technical-atom-aa592370238b3fe2"></a>
 > Life Points/Resistance=1/8 (1)
 
+<a id="atom-technical-atom-3962e03582bade8a"></a>
 > Mental Points/Resistance=-/10 (3)

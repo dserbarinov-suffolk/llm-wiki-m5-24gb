@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-1-2-races-skills-fighter-96226d96@b1292adec5d179ed15809ddd2c26e7ce
+projection_coverage: section-sword-world-rpg-complete-edition-section-1-2-races-skills-fighter-96226d96@b7384f83b37c050010e35d8bca3e1901
 ---
 
 # 1.2 Races / Skills / 【 Fighter 】
@@ -17,9 +17,14 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-1-2-races-skills-d796863a]] - broader source section: 1.2 Races / Skills
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-1-2-races-skills-1-3-4-explanation-of-adventurer-skills-a5ebb75d]] - previous source section: 1.2 Races / Skills / 1.3.4 Explanation of Adventurer Skills
 - [[sword-world-rpg-complete-edition-section-1-2-races-skills-thief-2f03999d]] - next source section: 1.2 Races / Skills / 【 Thief 】
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-1-2-races-skills-d796863a]] - broader source section: 1.2 Races / Skills
 
 ## Statements
 

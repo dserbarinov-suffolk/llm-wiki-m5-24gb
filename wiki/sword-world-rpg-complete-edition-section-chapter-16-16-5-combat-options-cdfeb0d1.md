@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-16-16-5-combat-options-cdfeb0d1@39fe2f06c5a84e5dc93093bf2bd3445f
+projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-16-16-5-combat-options-cdfeb0d1@5bd23722cd164e67ac2800c6a27dfc2b
 ---
 
 # Chapter 16: / 16.5 Combat Options
@@ -17,17 +17,21 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-chapter-16-faf82038]] - broader source section: Chapter 16:
-- [[sword-world-rpg-complete-edition-section-chapter-16-16-5-combat-options-full-defense-2aa7a973]] - narrower source section: Chapter 16: / 16.5 Combat Options / Full Defense
-- [[sword-world-rpg-complete-edition-section-chapter-16-16-5-combat-options-strong-blow-e8651dbc]] - narrower source section: Chapter 16: / 16.5 Combat Options / Strong Blow
-- [[sword-world-rpg-complete-edition-section-chapter-16-16-5-combat-options-charge-db161c7b]] - narrower source section: Chapter 16: / 16.5 Combat Options / Charge
-- [[sword-world-rpg-complete-edition-section-chapter-16-16-5-combat-options-snipe-d7c3b3a0]] - narrower source section: Chapter 16: / 16.5 Combat Options / Snipe
-- [[sword-world-rpg-complete-edition-section-chapter-16-16-5-combat-options-mow-down-0c578acc]] - narrower source section: Chapter 16: / 16.5 Combat Options / Mow Down
-- [[sword-world-rpg-complete-edition-section-chapter-16-16-5-combat-options-grapple-7c1eacef]] - narrower source section: Chapter 16: / 16.5 Combat Options / Grapple
-- [[sword-world-rpg-complete-edition-section-chapter-16-16-5-combat-options-ram-2d591984]] - narrower source section: Chapter 16: / 16.5 Combat Options / Ram
-- [[sword-world-rpg-complete-edition-section-chapter-16-16-5-combat-options-area-aim-321f184e]] - narrower source section: Chapter 16: / 16.5 Combat Options / Area Aim
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-chapter-16-16-4-projectile-range-extension-e49b508c]] - previous source section: Chapter 16: / 16.4 Projectile Range Extension
 - [[sword-world-rpg-complete-edition-section-chapter-16-16-6-holding-weapons-in-both-hands-ef386a94]] - next source section: Chapter 16: / 16.6 Holding Weapons in Both Hands
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-chapter-16-faf82038]] - broader source section: Chapter 16:
+- [[sword-world-rpg-complete-edition-section-chapter-16-16-5-combat-options-area-aim-321f184e]] - narrower source section: Chapter 16: / 16.5 Combat Options / Area Aim
+- [[sword-world-rpg-complete-edition-section-chapter-16-16-5-combat-options-charge-db161c7b]] - narrower source section: Chapter 16: / 16.5 Combat Options / Charge
+- [[sword-world-rpg-complete-edition-section-chapter-16-16-5-combat-options-full-defense-2aa7a973]] - narrower source section: Chapter 16: / 16.5 Combat Options / Full Defense
+- [[sword-world-rpg-complete-edition-section-chapter-16-16-5-combat-options-grapple-7c1eacef]] - narrower source section: Chapter 16: / 16.5 Combat Options / Grapple
+- [[sword-world-rpg-complete-edition-section-chapter-16-16-5-combat-options-mow-down-0c578acc]] - narrower source section: Chapter 16: / 16.5 Combat Options / Mow Down
+- [[sword-world-rpg-complete-edition-section-chapter-16-16-5-combat-options-ram-2d591984]] - narrower source section: Chapter 16: / 16.5 Combat Options / Ram
+- [[sword-world-rpg-complete-edition-section-chapter-16-16-5-combat-options-snipe-d7c3b3a0]] - narrower source section: Chapter 16: / 16.5 Combat Options / Snipe
 
 ## Statements
 
@@ -128,6 +132,7 @@ From [[sword-world-rpg-complete-edition]].
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-10307))_
 
+<a id="atom-technical-atom-7e463fefde3aca70"></a>
 ```text
 16.5
 Dagger
@@ -202,6 +207,7 @@ Ballista
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-10323))_
 
+<a id="atom-technical-atom-365737d93b2338a7"></a>
 ```text
 Table 16-4 Maximum  Ranges
  20 meters for throwing weapons and 100
@@ -217,6 +223,7 @@ Table 16-4 Maximum  Ranges
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-10356))_
 
+<a id="atom-technical-atom-ccd5afa03cca2293"></a>
 ```text
 1. Normal Attack
 Attack  with  a  dagger,  barehanded (claws, talons),  cestus, etc. If  a monster has  fangs,  it  can  also  bite.  Opponents have a -2 penalty to evasion.

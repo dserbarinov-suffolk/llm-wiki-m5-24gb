@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-12-2-2-illnesses-rat-disease-red-cap-a2c429e3@2a2c8cd1489e13f8f9190348e3edfb37
+projection_coverage: section-sword-world-rpg-complete-edition-section-12-2-2-illnesses-rat-disease-red-cap-a2c429e3@e884ae4abeda67b78accd47a4c0b6908
 ---
 
 # 12.2.2 Illnesses / [ Rat Disease ] / [ Red Cap ]
@@ -17,8 +17,13 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-12-2-2-illnesses-rat-disease-53ac68c7]] - broader source section: 12.2.2 Illnesses / [ Rat Disease ]
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-12-2-2-illnesses-rat-disease-lockjaw-7d74ebae]] - next source section: 12.2.2 Illnesses / [ Rat Disease ] / [ Lockjaw ]
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-12-2-2-illnesses-rat-disease-53ac68c7]] - broader source section: 12.2.2 Illnesses / [ Rat Disease ]
 
 ## Statements
 

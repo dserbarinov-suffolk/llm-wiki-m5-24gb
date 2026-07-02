@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-14-4-2-list-of-magical-items-van-blade-50b21aa2@94dd37b0373382543272361080a1421e
+projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-14-4-2-list-of-magical-items-van-blade-50b21aa2@9a6b1268dcfd619c7058f4e6c58c1309
 ---
 
 # Chapter 14: / 14.4 Magical Item List / 14.4.2 List of Magical Items / 《 Van Blade 》
@@ -17,9 +17,14 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-14-4-2-list-of-magical-items-7461270b]] - broader source section: Chapter 14: / 14.4 Magical Item List / 14.4.2 List of Magical Items
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-14-4-2-list-of-magical-items-impulse-4b0df6a0]] - previous source section: Chapter 14: / 14.4 Magical Item List / 14.4.2 List of Magical Items / 《 Impulse 》
 - [[sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-14-4-2-list-of-magical-items-cat-claw-4c1626eb]] - next source section: Chapter 14: / 14.4 Magical Item List / 14.4.2 List of Magical Items / 《 Cat Claw 》
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-14-4-2-list-of-magical-items-7461270b]] - broader source section: Chapter 14: / 14.4 Magical Item List / 14.4.2 List of Magical Items
 
 ## Statements
 

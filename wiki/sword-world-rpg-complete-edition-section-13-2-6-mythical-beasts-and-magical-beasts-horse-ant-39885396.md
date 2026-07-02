@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-13-2-6-mythical-beasts-and-magical-beasts-horse-ant-39885396@7e482d8d67e9e7be02eeb813a2f628cf
+projection_coverage: section-sword-world-rpg-complete-edition-section-13-2-6-mythical-beasts-and-magical-beasts-horse-ant-39885396@c3e5103cfadac264850f4efdfce5ab23
 ---
 
 # 13.2.6 Mythical Beasts and Magical Beasts / [ Horse ] / [ Ant ]
@@ -17,9 +17,14 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-13-2-6-mythical-beasts-and-magical-beasts-horse-9c294c60]] - broader source section: 13.2.6 Mythical Beasts and Magical Beasts / [ Horse ]
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-13-2-6-mythical-beasts-and-magical-beasts-horse-toad-c1e183f2]] - previous source section: 13.2.6 Mythical Beasts and Magical Beasts / [ Horse ] / [ Toad ]
 - [[sword-world-rpg-complete-edition-section-13-2-6-mythical-beasts-and-magical-beasts-horse-ape-0d89df93]] - next source section: 13.2.6 Mythical Beasts and Magical Beasts / [ Horse ] / [ Ape ]
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-13-2-6-mythical-beasts-and-magical-beasts-horse-9c294c60]] - broader source section: 13.2.6 Mythical Beasts and Magical Beasts / [ Horse ]
 
 ## Statements
 
@@ -43,34 +48,50 @@ From [[sword-world-rpg-complete-edition]].
 
 **Atoms:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-07169, source-range-0d48087c-07170, source-range-0d48087c-07171, source-range-0d48087c-07172, source-range-0d48087c-07173, source-range-0d48087c-07174, source-range-0d48087c-07175, source-range-0d48087c-07176, source-range-0d48087c-07177, source-range-0d48087c-07178, source-range-0d48087c-07179, source-range-0d48087c-07180, source-range-0d48087c-07181, source-range-0d48087c-07183, source-range-0d48087c-07184, source-range-0d48087c-07185))_
 
+<a id="atom-technical-atom-e56ce0e6293b10cf"></a>
 > Monster Level=5
 
+<a id="atom-technical-atom-5274cb1eb827cf89"></a>
 > Rarity=10
 
+<a id="atom-technical-atom-98f0df0745d3412c"></a>
 > Agility=16 Movement Speed=5
 
+<a id="atom-technical-atom-936c4299e7d3bb9d"></a>
 > Number=One
 
+<a id="atom-technical-atom-dced5ef3429f8400"></a>
 > Frequency=Rare
 
+<a id="atom-technical-atom-be516ad7d9b7be05"></a>
 > Intellect=Low
 
+<a id="atom-technical-atom-50c4880aa9edf13b"></a>
 > Reaction=Adversarial
 
+<a id="atom-technical-atom-239183747c177067"></a>
 > Attack Points=Fangs:12 (5)
 
+<a id="atom-technical-atom-8a78efe2b4b851d1"></a>
 > Strike Points=16
 
+<a id="atom-technical-atom-f1efe734ad4e650f"></a>
 > Evasion Points=12 (5) Defense Points=8
 
+<a id="atom-technical-atom-300bd9ecec78d268"></a>
 > Life Points/Resistance=35/16 (9)
 
+<a id="atom-technical-atom-cc8a30c09abc98a5"></a>
 > Mental Points/Resistance=15/13 (6)
 
+<a id="atom-technical-atom-a6e73e6799ad7b07"></a>
 > Special Abilities=Entangling
 
+<a id="atom-technical-atom-6d76b5738436c335"></a>
 > Habitat=Caves, ruins
 
+<a id="atom-technical-atom-e1d50dc54bb469a0"></a>
 > Languages=None
 
+<a id="atom-technical-atom-264c24612058bf2d"></a>
 > Perception=Five senses

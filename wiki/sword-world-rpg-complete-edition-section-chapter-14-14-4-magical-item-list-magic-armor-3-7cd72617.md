@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-magic-armor-3-7cd72617@933ef423edb266adb67d42532b32299f
+projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-magic-armor-3-7cd72617@99e530523a470c56740b4afed8c6d6b8
 ---
 
 # Chapter 14: / 14.4 Magical Item List / 《 Magic Armor (+3) 》
@@ -17,9 +17,17 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-51d7c911]] - broader source section: Chapter 14: / 14.4 Magical Item List
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-magic-armor-3-19e307e7]] - previous source section: Chapter 14: / 14.4 Magical Item List / 《 Magic Armor (+3) 》
 - [[sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-magic-shield-a31533e2]] - next source section: Chapter 14: / 14.4 Magical Item List / 《 Magic Shield 》
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-51d7c911]] - broader source section: Chapter 14: / 14.4 Magical Item List
+
+### Topics
+
 - [[sword-world-rpg-complete-edition-magic-armor]] - topic hub: opens the topic page for Magic Armor
 
 ## Statements

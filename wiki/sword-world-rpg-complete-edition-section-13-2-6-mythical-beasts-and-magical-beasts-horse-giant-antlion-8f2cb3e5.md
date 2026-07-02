@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-13-2-6-mythical-beasts-and-magical-beasts-horse-giant-antlion-8f2cb3e5@7dc2ea5df7465b30589cac9dd61da638
+projection_coverage: section-sword-world-rpg-complete-edition-section-13-2-6-mythical-beasts-and-magical-beasts-horse-giant-antlion-8f2cb3e5@0185a15905df0f9738d6a49ebf83a810
 ---
 
 # 13.2.6 Mythical Beasts and Magical Beasts / [ Horse ] / [ Giant Antlion ]
@@ -17,9 +17,14 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-13-2-6-mythical-beasts-and-magical-beasts-horse-9c294c60]] - broader source section: 13.2.6 Mythical Beasts and Magical Beasts / [ Horse ]
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-13-2-6-mythical-beasts-and-magical-beasts-horse-ape-0d89df93]] - previous source section: 13.2.6 Mythical Beasts and Magical Beasts / [ Horse ] / [ Ape ]
 - [[sword-world-rpg-complete-edition-section-13-2-6-mythical-beasts-and-magical-beasts-horse-giant-crab-monster-level-5-rarity-12-agility-10-bd798001]] - next source section: 13.2.6 Mythical Beasts and Magical Beasts / [ Horse ] / [ Giant Crab ] Monster Level=5 Rarity=12 Agility=10 Movement Speed=10/10 (water) Number=One Frequency=Rare Intellect=Almost none Reaction=Hunger-based Attack Points=Large pincer:13 (6)/Pincer:13 (6) Strike Points=13/12 Evasion Points=11 (4) Defense Points=10 Life Points/Resistance=20/14 (7) Mental Points/Resistance=7/12 (5) Special Abilities=Right pincer strangling Water Adaptation Habitat=Warm coastal areas Languages=None
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-13-2-6-mythical-beasts-and-magical-beasts-horse-9c294c60]] - broader source section: 13.2.6 Mythical Beasts and Magical Beasts / [ Horse ]
 
 ## Statements
 
@@ -45,12 +50,16 @@ From [[sword-world-rpg-complete-edition]].
 
 **Atoms:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-07262, source-range-0d48087c-07264, source-range-0d48087c-07265, source-range-0d48087c-07266))_
 
+<a id="atom-technical-atom-0cf9622868d96a6c"></a>
 > Surprise attack (Sense target score=16)
 
+<a id="atom-technical-atom-b17de5a9d09867d2"></a>
 > Habitat=Deserts (Khan Desert only)
 
+<a id="atom-technical-atom-415a5ec22873157b"></a>
 > Languages=None
 
+<a id="atom-technical-atom-00a8283ed2edef70"></a>
 > Perception=Five senses
 
 ### Technical frame 2: 13.2.6 Mythical Beasts and Magical Beasts / [ Horse ] / [ Giant Antlion ]
@@ -61,6 +70,8 @@ From [[sword-world-rpg-complete-edition]].
 
 **Atoms:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-07273, source-range-0d48087c-07274))_
 
+<a id="atom-technical-atom-62fc5370f86c1665"></a>
 > Languages=None
 
+<a id="atom-technical-atom-8f872f1c0e5f0398"></a>
 > Perception=Five senses

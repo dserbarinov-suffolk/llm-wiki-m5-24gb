@@ -10,6 +10,7 @@ PAGE_FAMILIES = (
     "topic-concept",
     "procedure-guide",
     "recipe-pattern",
+    "collection-page",
     "broad-topic",
     "entity-profile",
     "cross-source-synthesis",

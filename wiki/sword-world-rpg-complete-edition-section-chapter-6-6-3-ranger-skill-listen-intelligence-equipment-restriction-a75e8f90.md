@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-6-6-3-ranger-skill-listen-intelligence-equipment-restriction-a75e8f90@edbeee77572694f0217b67c0d1216a39
+projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-6-6-3-ranger-skill-listen-intelligence-equipment-restriction-a75e8f90@799dbcf4b6c41f444174cfb903d04322
 ---
 
 # Chapter 6: / 6.3 Ranger Skill / [ ④ Listen [Intelligence] ] (Equipment restriction)
@@ -17,9 +17,17 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-chapter-6-6-3-ranger-skill-ae825c0d]] - broader source section: Chapter 6: / 6.3 Ranger Skill
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-chapter-6-6-3-ranger-skill-camouflage-intelligence-equipment-restriction-b7028d9e]] - previous source section: Chapter 6: / 6.3 Ranger Skill / [ ③ Camouflage [Intelligence] ] (Equipment restriction)
 - [[sword-world-rpg-complete-edition-section-chapter-6-6-3-ranger-skill-stealthy-step-agility-equipment-restriction-c919bd2e]] - next source section: Chapter 6: / 6.3 Ranger Skill / [ ⑥ Stealthy Step [Agility] ] (Equipment restriction)
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-chapter-6-6-3-ranger-skill-ae825c0d]] - broader source section: Chapter 6: / 6.3 Ranger Skill
+
+### Topics
+
 - [[sword-world-rpg-complete-edition-listen-intelligence-equipment-restriction]] - topic hub: opens the topic page for Listen Intelligence Equipment Restriction
 
 ## Statements

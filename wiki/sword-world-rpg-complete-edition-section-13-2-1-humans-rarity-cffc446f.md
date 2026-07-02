@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-13-2-1-humans-rarity-cffc446f@17c6a38af2df8b89e4db71a78c0d9b26
+projection_coverage: section-sword-world-rpg-complete-edition-section-13-2-1-humans-rarity-cffc446f@343d1b23bdea735e9f2c5c2a58e73c92
 ---
 
 # 13.2.1 《 Humans 》 / 《 Rarity 》
@@ -17,9 +17,14 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-13-2-1-humans-2369e4b2]] - broader source section: 13.2.1 《 Humans 》
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-13-2-1-humans-other-d37533ec]] - previous source section: 13.2.1 《 Humans 》 / 《 Other 》
 - [[sword-world-rpg-complete-edition-section-13-2-1-humans-agility-6019ab3f]] - next source section: 13.2.1 《 Humans 》 / 《 Agility 》
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-13-2-1-humans-2369e4b2]] - broader source section: 13.2.1 《 Humans 》
 
 ## Statements
 

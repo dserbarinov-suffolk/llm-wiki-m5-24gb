@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-deathlike-sleep-dose-dream-runner-inhaled-f6df1b7c@6b94ae22ca7d08c03e1ecc757e0b6283
+projection_coverage: section-sword-world-rpg-complete-edition-section-deathlike-sleep-dose-dream-runner-inhaled-f6df1b7c@7d0e8d12178b8511a134baf5933001a9
 ---
 
 # [Deathlike Sleep (Dose)] / [ Dream Runner (Inhaled) ]
@@ -17,8 +17,13 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-deathlike-sleep-dose-839e5efc]] - broader source section: [Deathlike Sleep (Dose)]
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-deathlike-sleep-dose-bad-joke-inhaled-fa7fa757]] - next source section: [Deathlike Sleep (Dose)] / [ Bad Joke (Inhaled) ]
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-deathlike-sleep-dose-839e5efc]] - broader source section: [Deathlike Sleep (Dose)]
 
 ## Statements
 

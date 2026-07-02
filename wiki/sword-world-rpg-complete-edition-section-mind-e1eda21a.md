@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-mind-e1eda21a@a084bbf2734f2cf66c730315336a8a8f
+projection_coverage: section-sword-world-rpg-complete-edition-section-mind-e1eda21a@41fcde251cbabef665716e7a01a02729
 ---
 
 # 《 Mind 》
@@ -16,6 +16,8 @@ projection_coverage: section-sword-world-rpg-complete-edition-section-mind-e1eda
 From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
+
+### Source order
 
 - [[sword-world-rpg-complete-edition-section-counters-negates-462dea0d]] - previous source section: 《 Counters (Negates) 》
 - [[sword-world-rpg-complete-edition-section-physical-ability-698688cf]] - next source section: 《 Physical Ability 》

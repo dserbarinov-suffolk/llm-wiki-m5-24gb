@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-16-16-5-combat-options-charge-db161c7b@0433bf79f69a6b62e52fe41f14e476d5
+projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-16-16-5-combat-options-charge-db161c7b@3f929957f3cc975892a878da0a5f4c5a
 ---
 
 # Chapter 16: / 16.5 Combat Options / Charge
@@ -17,9 +17,14 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-chapter-16-16-5-combat-options-cdfeb0d1]] - broader source section: Chapter 16: / 16.5 Combat Options
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-chapter-16-16-5-combat-options-strong-blow-e8651dbc]] - previous source section: Chapter 16: / 16.5 Combat Options / Strong Blow
 - [[sword-world-rpg-complete-edition-section-chapter-16-16-5-combat-options-snipe-d7c3b3a0]] - next source section: Chapter 16: / 16.5 Combat Options / Snipe
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-chapter-16-16-5-combat-options-cdfeb0d1]] - broader source section: Chapter 16: / 16.5 Combat Options
 
 ## Statements
 
@@ -44,6 +49,7 @@ From [[sword-world-rpg-complete-edition]].
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-10330))_
 
+<a id="atom-technical-atom-7f72fcc2cfd347cf"></a>
 > If you're any closer than this, it's not possible to charge, and if you're any further away, you cannot reach your opponent.
 
 ### Technical frame 2: Chapter 16: / 16.5 Combat Options / Charge
@@ -54,6 +60,7 @@ From [[sword-world-rpg-complete-edition]].
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-10331))_
 
+<a id="atom-technical-atom-648bacc0e44b572c"></a>
 > If you're attacked by a projectile in the middle of a charge, your evasion against it always suffers a -4 penalty.
 
 ### Technical frame 3: Chapter 16: / 16.5 Combat Options / Charge
@@ -64,4 +71,5 @@ From [[sword-world-rpg-complete-edition]].
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-10334))_
 
+<a id="atom-technical-atom-983bef70f536c11b"></a>
 > If your opponent's weapon is a spear, etc., you may both charge each other this includes cases where you're waiting.

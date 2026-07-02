@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-3-3-3-action-canceling-9085aed0@1ea5602e1d40d7e0114106c850a4213b
+projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-3-3-3-action-canceling-9085aed0@c4fbca22b296ec9ef4b3488bc4868afc
 ---
 
 # Chapter 3: / 3.3 Action Canceling
@@ -17,10 +17,15 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-chapter-3-b1c23679]] - broader source section: Chapter 3:
-- [[sword-world-rpg-complete-edition-section-chapter-3-3-3-action-canceling-3-3-1-when-it-s-possible-to-99bf4585]] - narrower source section: Chapter 3: / 3.3 Action Canceling / 3.3.1 When It's Possible to
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-chapter-3-3-2-action-order-0a8e2138]] - previous source section: Chapter 3: / 3.2 Action Order
 - [[sword-world-rpg-complete-edition-section-chapter-3-3-2-1-delaying-an-action-98203a92]] - next source section: Chapter 3: / 3.2.1 Delaying an Action
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-chapter-3-b1c23679]] - broader source section: Chapter 3:
+- [[sword-world-rpg-complete-edition-section-chapter-3-3-3-action-canceling-3-3-1-when-it-s-possible-to-99bf4585]] - narrower source section: Chapter 3: / 3.3 Action Canceling / 3.3.1 When It's Possible to
 
 ## Statements
 

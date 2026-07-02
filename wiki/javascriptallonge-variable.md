@@ -4,10 +4,10 @@ page_kind: concept
 summary: Variable: 3 statement(s) and 3 atom(s) from raw/javascriptallonge.pdf.
 page_family: topic-concept
 sources: raw/javascriptallonge.pdf
-updated: 2026-07-01
+updated: 2026-07-02
 domain: javascriptallonge
 category_path: concepts
-projection_coverage: topic-javascriptallonge-variable@d28277a65aac5aeebb58391483e461f8
+projection_coverage: topic-javascriptallonge-variable@4b51f9184d505460e82806cac7d1d681
 ---
 
 # Variable
@@ -35,6 +35,7 @@ What [[javascriptallonge]] covers about variable:
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00294))_
 
+<a id="atom-technical-atom-56a0062ccd1c98c9"></a>
 ```
 (x) => (y) => x
 ```
@@ -47,6 +48,7 @@ What [[javascriptallonge]] covers about variable:
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00301))_
 
+<a id="atom-technical-atom-c16cf6005d6a99db"></a>
 ```
 ((x) => x)(2)
 //=> 2
@@ -60,10 +62,13 @@ What [[javascriptallonge]] covers about variable:
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00305))_
 
+<a id="atom-technical-atom-57a8b5ffffec909b"></a>
 > - One sub-expression, (x) => x evaluates to a function.
 
 
 ## Related pages
+
+### Shared technical atoms
 
 - [[javascriptallonge-argument]] - shared technical atoms: Argument shares technical record from And also: / variables and bindings: (x) => (y) => x (2 shared atom(s))
 

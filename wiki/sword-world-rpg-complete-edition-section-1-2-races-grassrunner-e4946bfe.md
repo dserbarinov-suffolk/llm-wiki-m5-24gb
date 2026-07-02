@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-1-2-races-grassrunner-e4946bfe@ce5c88d00b6c4477a06dc214ab17a4ac
+projection_coverage: section-sword-world-rpg-complete-edition-section-1-2-races-grassrunner-e4946bfe@e4800e88eb1d5418b1b501695e6a5020
 ---
 
 # 1.2 Races / 【 Grassrunner 】
@@ -17,8 +17,13 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-1-2-races-4e414960]] - broader source section: 1.2 Races
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-1-2-races-elf-f299994c]] - next source section: 1.2 Races / 【 Elf 】
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-1-2-races-4e414960]] - broader source section: 1.2 Races
 
 ## Statements
 

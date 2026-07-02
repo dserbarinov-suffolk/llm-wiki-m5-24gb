@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-other-scape-doll-d5ce600c@4dcd7edafd0401615532154b8f0afbe6
+projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-other-scape-doll-d5ce600c@79807edca1cd40fd18149c00aedde0c5
 ---
 
 # Chapter 14: / 14.4 Magical Item List / 《 Other 》 / [ Scape Doll ]
@@ -17,9 +17,14 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-other-ae5b041d]] - broader source section: Chapter 14: / 14.4 Magical Item List / 《 Other 》
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-other-jumping-boots-93f82062]] - previous source section: Chapter 14: / 14.4 Magical Item List / 《 Other 》 / [ Jumping Boots ]
 - [[sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-other-statue-of-changing-1a860ba6]] - next source section: Chapter 14: / 14.4 Magical Item List / 《 Other 》 / [ Statue of Changing ]
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-other-ae5b041d]] - broader source section: Chapter 14: / 14.4 Magical Item List / 《 Other 》
 
 ## Statements
 

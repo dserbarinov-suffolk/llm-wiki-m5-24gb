@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-1-2-races-skills-priest-5f2911e3@4926fb32206a99f1dcaff0f0d5b18cf2
+projection_coverage: section-sword-world-rpg-complete-edition-section-1-2-races-skills-priest-5f2911e3@d2134f6bb950af569147a97018b99afb
 ---
 
 # 1.2 Races / Skills / 【 Priest 】
@@ -17,9 +17,14 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-1-2-races-skills-d796863a]] - broader source section: 1.2 Races / Skills
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-1-2-races-skills-shaman-83e8d805]] - previous source section: 1.2 Races / Skills / 【 Shaman 】
 - [[sword-world-rpg-complete-edition-section-1-2-races-skills-dark-priest-19e1b4f8]] - next source section: 1.2 Races / Skills / 【 Dark Priest 】
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-1-2-races-skills-d796863a]] - broader source section: 1.2 Races / Skills
 
 ## Statements
 

@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-1-4-character-creation-ages-of-each-race-ff3c5657@21c1f48c567fc1f61790ff458de29a7d
+projection_coverage: section-sword-world-rpg-complete-edition-section-1-4-character-creation-ages-of-each-race-ff3c5657@a0197847544ab769da7acadbc49ea786
 ---
 
 # 1.4 Character Creation / 《 Ages of Each Race 》
@@ -17,9 +17,14 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-1-4-character-creation-f6aa6108]] - broader source section: 1.4 Character Creation
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-1-4-character-creation-age-a5cf1903]] - previous source section: 1.4 Character Creation / 《 Age 》
 - [[sword-world-rpg-complete-edition-section-1-4-character-creation-gender-7bc3dcd4]] - next source section: 1.4 Character Creation / 《 Gender 》
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-1-4-character-creation-f6aa6108]] - broader source section: 1.4 Character Creation
 
 ## Statements
 

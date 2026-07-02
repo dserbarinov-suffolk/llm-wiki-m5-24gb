@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-14-4-2-list-of-magical-items-flame-smasher-dcafeed1@cbe49f0438568127bef3ccf527ca5327
+projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-14-4-2-list-of-magical-items-flame-smasher-dcafeed1@1db83930eeb5f9eb3f2bae50b1541ce9
 ---
 
 # Chapter 14: / 14.4 Magical Item List / 14.4.2 List of Magical Items / 《 Flame Smasher 》
@@ -17,9 +17,14 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-14-4-2-list-of-magical-items-7461270b]] - broader source section: Chapter 14: / 14.4 Magical Item List / 14.4.2 List of Magical Items
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-14-4-2-list-of-magical-items-blade-of-bravery-08cb1c79]] - previous source section: Chapter 14: / 14.4 Magical Item List / 14.4.2 List of Magical Items / 《 Blade of Bravery 》
 - [[sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-14-4-2-list-of-magical-items-blaster-0b0e8733]] - next source section: Chapter 14: / 14.4 Magical Item List / 14.4.2 List of Magical Items / 《 Blaster 》
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-14-4-2-list-of-magical-items-7461270b]] - broader source section: Chapter 14: / 14.4 Magical Item List / 14.4.2 List of Magical Items
 
 ## Statements
 

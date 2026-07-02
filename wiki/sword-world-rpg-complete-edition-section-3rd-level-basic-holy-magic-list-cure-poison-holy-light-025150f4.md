@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-3rd-level-basic-holy-magic-list-cure-poison-holy-light-025150f4@50f334acbe356e2176ca4f70c97ed8f5
+projection_coverage: section-sword-world-rpg-complete-edition-section-3rd-level-basic-holy-magic-list-cure-poison-holy-light-025150f4@31133c0c10d8475bf0dedc8f0e3929d9
 ---
 
 # 3rd Level Basic Holy Magic List [ Cure Poison ] / [ Holy Light ]
@@ -16,6 +16,8 @@ projection_coverage: section-sword-world-rpg-complete-edition-section-3rd-level-
 From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
+
+### Source structure
 
 - [[sword-world-rpg-complete-edition-section-3rd-level-basic-holy-magic-list-cure-poison-4f03565a]] - broader source section: 3rd Level Basic Holy Magic List [ Cure Poison ]
 

@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-6-6-1-precautions-when-using-skills-3fccdf49@be6770c9308f57c114492c3b206e70f9
+projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-6-6-1-precautions-when-using-skills-3fccdf49@4a5ef5853550022655a6a07126ca79fd
 ---
 
 # Chapter 6: / 6.1 Precautions When Using Skills
@@ -17,9 +17,14 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
+### Source order
+
+- [[sword-world-rpg-complete-edition-section-chapter-6-6-3-ranger-skill-ae825c0d]] - next source section: Chapter 6: / 6.3 Ranger Skill
+
+### Source structure
+
 - [[sword-world-rpg-complete-edition-section-chapter-6-26ccc185]] - broader source section: Chapter 6:
 - [[sword-world-rpg-complete-edition-section-chapter-6-6-1-precautions-when-using-skills-thief-skill-f1b62afe]] - narrower source section: Chapter 6: / 6.1 Precautions When Using Skills / Thief Skill
-- [[sword-world-rpg-complete-edition-section-chapter-6-6-3-ranger-skill-ae825c0d]] - next source section: Chapter 6: / 6.3 Ranger Skill
 
 ## Statements
 
@@ -133,6 +138,7 @@ From [[sword-world-rpg-complete-edition]].
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-03978))_
 
+<a id="atom-technical-atom-d3147573b798e2e9"></a>
 ```text
 Precautions When Using Skills
 6.1 Precautions When Using Skills

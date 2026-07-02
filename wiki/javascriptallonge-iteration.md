@@ -4,10 +4,10 @@ page_kind: concept
 summary: Iteration: 2 statement(s) and 29 atom(s) from raw/javascriptallonge.pdf.
 page_family: topic-concept
 sources: raw/javascriptallonge.pdf
-updated: 2026-07-01
+updated: 2026-07-02
 domain: javascriptallonge
 category_path: concepts
-projection_coverage: topic-javascriptallonge-iteration@4841d70e9f07880885562f78e4231ccc
+projection_coverage: topic-javascriptallonge-iteration@2cc896b03a82e72050dd7b12dfa56e35
 ---
 
 # Iteration
@@ -35,6 +35,7 @@ What [[javascriptallonge]] covers about iteration:
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01528))_
 
+<a id="atom-technical-atom-ddee552faf251bd7"></a>
 ```
 const Stack1 = () =>
 ({
@@ -83,6 +84,7 @@ stack.push("you!")
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01529))_
 
+<a id="atom-technical-atom-f68796c5cf2886ed"></a>
 ```
 const iter = stack.iterator();
 iter().value
@@ -99,6 +101,7 @@ iter().value
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01531))_
 
+<a id="atom-technical-atom-c4ccdca248ad2fba"></a>
 ```
 The .iterator() method is defined with shorthand equivalent to iterator: function iterator()
 { ... }. Note that it uses the function keyword, so when we invoke it with stack.iterator(),
@@ -120,6 +123,7 @@ object, even though we call it with iter().
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01533))_
 
+<a id="atom-technical-atom-1f7883384ea561b0"></a>
 ```
 const iteratorSum = (iterator) => {
 let eachIteration,
@@ -139,6 +143,7 @@ return sum
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01535))_
 
+<a id="atom-technical-atom-f6c0e3a1edc3cc92"></a>
 ```
 const stack = Stack1();
 stack.push(1);
@@ -156,6 +161,7 @@ iteratorSum(stack.iterator())
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01537))_
 
+<a id="atom-technical-atom-4b8d7d8121853f46"></a>
 ```
 const collectionSum = (collection) => {
 const iterator = collection.iterator();
@@ -178,6 +184,7 @@ collectionSum(stack)
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01545))_
 
+<a id="atom-technical-atom-8ea5289baa2cf562"></a>
 ```
 const Stack2 = () =>
 ({
@@ -224,6 +231,7 @@ return {done: false, value: this.array[iterationIndex--]}
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01546))_
 
+<a id="atom-technical-atom-4d14253aa89b4328"></a>
 ```
 const stack = Stack2();
 stack.push(2000);
@@ -250,6 +258,7 @@ collectionSum(stack)
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01555))_
 
+<a id="atom-technical-atom-8ca29fcc27de5e8d"></a>
 ```
 const Stack3 = () =>
 ({
@@ -297,6 +306,7 @@ const stack = Stack3();
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01556))_
 
+<a id="atom-technical-atom-e36b76567b01bc93"></a>
 ```
 stack.push(2000);
 stack.push(10);
@@ -334,6 +344,7 @@ iterableSum(stack)
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01558))_
 
+<a id="atom-technical-atom-92c82b1d649104c2"></a>
 ```
 const EMPTY = {
 isEmpty: () => true
@@ -379,6 +390,7 @@ iterableSum(someSquares)
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01561))_
 
+<a id="atom-technical-atom-bf283260b68810d0"></a>
 ```
 ['some squares', ...someSquares]
 //=> ["some squares", 1, 4, 9, 16, 25]
@@ -392,6 +404,7 @@ iterableSum(someSquares)
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01563))_
 
+<a id="atom-technical-atom-05fc43a5c1be73ab"></a>
 ```
 const firstAndSecondElement = (first, second) =>
 ({first, second})
@@ -407,6 +420,7 @@ firstAndSecondElement(...stack)
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01569))_
 
+<a id="atom-technical-atom-ae70cd24c375a4e8"></a>
 ```
 const Numbers = {
 [Symbol.iterator] () {
@@ -427,6 +441,7 @@ next: () =>
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01571))_
 
+<a id="atom-technical-atom-981393a6332489cc"></a>
 ```
 ['all the numbers', ...Numbers]
 //=> infinite loop!
@@ -442,6 +457,7 @@ firstAndSecondElement(...Numbers)
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01575))_
 
+<a id="atom-technical-atom-7dce9b57088ba8b7"></a>
 ```
 const abc = ["a", "b", "c"];
 for (const i of abc) {
@@ -468,6 +484,7 @@ c
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01578))_
 
+<a id="atom-technical-atom-9804cd19e3118a86"></a>
 ```
 const RandomNumbers = {
 [Symbol.iterator]: () =>
@@ -503,6 +520,7 @@ console.log(i)
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01584))_
 
+<a id="atom-technical-atom-fbbf1aa0775abd4d"></a>
 ```
 const mapWith = (fn, collection) =>
 ({
@@ -526,6 +544,7 @@ return ({done, value: done ? undefined : fn(value)});
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01587))_
 
+<a id="atom-technical-atom-bbfb5055a2d70d9e"></a>
 ```
 const Evens = mapWith((x) => 2 * x, Numbers);
 for (const i of Evens) {
@@ -554,6 +573,7 @@ console.log(i)
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01589))_
 
+<a id="atom-technical-atom-cdb9eedb1fb81073"></a>
 ```
 const Evens =
 {
@@ -577,6 +597,7 @@ return ({done, value: done ? undefined : 2 *value});
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01593))_
 
+<a id="atom-technical-atom-7b211bece25d6bb2"></a>
 ```
 const ZeroesToNines = mapWith((n) => Math.floor(10 * limit), RandomNumbers);
 for (const i of ZeroesToNines) {
@@ -602,6 +623,7 @@ console.log(i)
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01594))_
 
+<a id="atom-technical-atom-555373b40479799d"></a>
 ```
 6
 1
@@ -616,6 +638,7 @@ console.log(i)
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01595))_
 
+<a id="atom-technical-atom-26cbec94849c97df"></a>
 > mapWith can get a new iterator from RandomNumbers each time we iterate over ZeroesToNines , but if RandomNumbers doesn't behave like an ordered collection, that's not mapWith 's fault.
 
 ### Technical frame 24: Served by the Pot: Collections / Iteration and Iterables / operations on ordered collections
@@ -626,6 +649,7 @@ console.log(i)
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01597))_
 
+<a id="atom-technical-atom-053b19c44dbfcd19"></a>
 ```
 const filterWith = (fn, iterable) =>
 ({
@@ -664,6 +688,7 @@ return ({done, value: done ? undefined : value});
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01600))_
 
+<a id="atom-technical-atom-1fc36dec4bd8e986"></a>
 ```
 const Squares = mapWith((x) => x * x, Numbers);
 const EndWithOne = filterWith((x) => x % 10 === 1, Squares);
@@ -684,6 +709,7 @@ const UpTo1000 = untilWith((x) => (x > 1000), EndWithOne);
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01603))_
 
+<a id="atom-technical-atom-1581b42a5e1872cd"></a>
 ```
 const first = (iterable) =>
 iterable[Symbol.iterator]().next().value;
@@ -705,6 +731,7 @@ return iterator;
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01608))_
 
+<a id="atom-technical-atom-796cd4abc1f1f1a2"></a>
 ```
 Array.from(UpTo1000)
 //=> [1,81,121,361,441,841,961]
@@ -718,6 +745,7 @@ Array.from(UpTo1000)
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01611))_
 
+<a id="atom-technical-atom-7fc8699bd710f113"></a>
 ```
 Stack3.from = function (iterable) {
 const stack = this();
@@ -741,6 +769,7 @@ return done ? EMPTY : Pair1(value, iterationToList(iteration));
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01613))_
 
+<a id="atom-technical-atom-ada69411918922ed"></a>
 ```
 const numberList = Pair1.from(untilWith((x) => x > 10, Numbers));
 Pair1.from(Squares)
@@ -753,18 +782,16 @@ Pair1.from(Squares)
 
 ## Related pages
 
-- [[javascriptallonge-functional-iterator]] - shared statements and technical atoms: Functional Iterators shares source evidence from Served by the Pot: Collections / Iteration and Iterables / a look back at functional iterators: If we write a program with the presumption that 'everything is an object,' we can write maps, folds, and filters that work on objects. We just ask the object for an ... [truncated]; Functional Iterators shares technical record from Served by the Pot: Collections / Iteration and Iterables / a look back at functional iterators: const Stack1 = () => ({ array:[], index: -1, push (value) { return this.array[this.index += 1] = value; }, pop () { const value = this.array[this.index]; this.array[ ... [truncated] (1 shared statement(s), 6 shared atom(s))
-- [[javascriptallonge-object]] - shared statements and technical atoms: Object shares source evidence from Served by the Pot: Collections / Iteration and Iterables / iterator objects: Iteration for functions and objects has been around for many, many decades. For simple linear collections like arrays, linked lists, stacks, and queues, functional i ... [truncated]; Object shares technical record from Served by the Pot: Collections / Iteration and Iterables / a look back at functional iterators: const Stack1 = () => ({ array:[], index: -1, push (value) { return this.array[this.index += 1] = value; }, pop () { const value = this.array[this.index]; this.array[ ... [truncated] (1 shared statement(s), 6 shared atom(s))
+### Shared technical atoms
+
 - [[javascriptallonge-collection]] - shared technical atoms: Collection shares technical record from Served by the Pot: Collections / Iteration and Iterables / iterables out to infinity: const Numbers = { [Symbol.iterator] () { let n = 0; return { next: () => ({done: false, value: n++}) } } } (13 shared atom(s))
 - [[javascriptallonge-iterable]] - shared technical atoms: Iterable shares technical record from Served by the Pot: Collections / Iteration and Iterables / iterables: const EMPTY = { isEmpty: () => true }; const isEmpty = (node) => node === EMPTY; const Pair1 = (first, rest = EMPTY) => ({ first, rest, isEmpty () { return false }, ... [truncated] (11 shared atom(s))
 - [[javascriptallonge-iterator]] - shared technical atoms: Iterator shares technical record from Served by the Pot: Collections / Iteration and Iterables / iterables: const Stack3 = () => ({ array: [], index: -1, push (value) { return this.array[this.index += 1] = value; }, pop () { const value = this.array[this.index]; this.array ... [truncated] (7 shared atom(s))
+- [[javascriptallonge-functional-iterator]] - shared statements and technical atoms: Functional Iterators shares source evidence from Served by the Pot: Collections / Iteration and Iterables / a look back at functional iterators: If we write a program with the presumption that 'everything is an object,' we can write maps, folds, and filters that work on objects. We just ask the object for an ... [truncated]; Functional Iterators shares technical record from Served by the Pot: Collections / Iteration and Iterables / a look back at functional iterators: const Stack1 = () => ({ array:[], index: -1, push (value) { return this.array[this.index += 1] = value; }, pop () { const value = this.array[this.index]; this.array[ ... [truncated] (1 shared statement(s), 6 shared atom(s))
+- [[javascriptallonge-object]] - shared statements and technical atoms: Object shares source evidence from Served by the Pot: Collections / Iteration and Iterables / iterator objects: Iteration for functions and objects has been around for many, many decades. For simple linear collections like arrays, linked lists, stacks, and queues, functional i ... [truncated]; Object shares technical record from Served by the Pot: Collections / Iteration and Iterables / a look back at functional iterators: const Stack1 = () => ({ array:[], index: -1, push (value) { return this.array[this.index += 1] = value; }, pop () { const value = this.array[this.index]; this.array[ ... [truncated] (1 shared statement(s), 6 shared atom(s))
 - [[javascriptallonge-element]] - shared technical atoms: Element shares technical record from Served by the Pot: Collections / Iteration and Iterables / iterables: ['some squares', ...someSquares] //=> ["some squares", 1, 4, 9, 16, 25] (4 shared atom(s))
 - [[javascriptallonge-operation]] - shared technical atoms: Operation shares technical record from Served by the Pot: Collections / Iteration and Iterables / operations on ordered collections: const mapWith = (fn, collection) => ({ [Symbol.iterator] () { const iterator = collection[Symbol.iterator](); return { next () { const {done, value} = iterator.next( ... [truncated] (4 shared atom(s))
 - [[javascriptallonge-method]] - shared technical atoms: Method shares technical record from Served by the Pot: Collections / Iteration and Iterables / iterables: const Stack3 = () => ({ array: [], index: -1, push (value) { return this.array[this.index += 1] = value; }, pop () { const value = this.array[this.index]; this.array ... [truncated] (3 shared atom(s))
-- [[javascriptallonge-return]] - shared technical atoms: Return shares technical record from Served by the Pot: Collections / Iteration and Iterables / operations on ordered collections: const mapWith = (fn, collection) => ({ [Symbol.iterator] () { const iterator = collection[Symbol.iterator](); return { next () { const {done, value} = iterator.next( ... [truncated] (3 shared atom(s))
-- [[javascriptallonge-expression]] - shared technical atoms: Expression shares technical record from Served by the Pot: Collections / Iteration and Iterables / iterables: const Stack3 = () => ({ array: [], index: -1, push (value) { return this.array[this.index += 1] = value; }, pop () { const value = this.array[this.index]; this.array ... [truncated] (2 shared atom(s))
-- [[javascriptallonge-javascript]] - shared technical atoms: Javascript shares technical record from Served by the Pot: Collections / Iteration and Iterables / operations on ordered collections: const Evens = { [Symbol.iterator] () { const iterator = Numbers[Symbol.iterator](); return { next () { const {done, value} = iterator.next(); return ({done, value: d ... [truncated] (2 shared atom(s))
-- [[javascriptallonge-write]] - shared technical atoms: Write shares technical record from Served by the Pot: Collections / Iteration and Iterables / a look back at functional iterators: const collectionSum = (collection) => { const iterator = collection.iterator(); let eachIteration, sum = 0; while ((eachIteration = iterator(), !eachIteration.done)) ... [truncated] (1 shared atom(s))
 
 ## Source
 

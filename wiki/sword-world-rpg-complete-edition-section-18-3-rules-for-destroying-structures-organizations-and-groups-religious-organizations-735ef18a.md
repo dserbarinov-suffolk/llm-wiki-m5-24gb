@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-18-3-rules-for-destroying-structures-organizations-and-groups-religious-organizations-735ef18a@1be1e8101798ceff6da6ad1fe3bd265b
+projection_coverage: section-sword-world-rpg-complete-edition-section-18-3-rules-for-destroying-structures-organizations-and-groups-religious-organizations-735ef18a@fd7da6d36f663c77086fab5ceaacd80e
 ---
 
 # 18.3 Rules for Destroying Structures / Organizations and Groups / Religious Organizations
@@ -17,8 +17,13 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-18-3-rules-for-destroying-structures-organizations-and-groups-6ed13bfc]] - broader source section: 18.3 Rules for Destroying Structures / Organizations and Groups
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-18-3-rules-for-destroying-structures-organizations-and-groups-thieves-guild-sorcerers-guild-acad-d7e06313]] - previous source section: 18.3 Rules for Destroying Structures / Organizations and Groups / Thieves Guild/Sorcerers' Guild (Academy)
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-18-3-rules-for-destroying-structures-organizations-and-groups-6ed13bfc]] - broader source section: 18.3 Rules for Destroying Structures / Organizations and Groups
 
 ## Statements
 

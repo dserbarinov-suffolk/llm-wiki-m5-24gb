@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-8th-level-basic-holy-magic-list-b5e7bb53@efbb9e1f717b8005d2191ea2043c846e
+projection_coverage: section-sword-world-rpg-complete-edition-section-8th-level-basic-holy-magic-list-b5e7bb53@cf08095c393cb61f78cb2e08de9f1dc2
 ---
 
 # 8th Level Basic Holy Magic List
@@ -17,9 +17,14 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
+### Source order
+
+- [[sword-world-rpg-complete-edition-section-7th-level-basic-holy-magic-list-03629bc8]] - previous source section: 7th Level Basic Holy Magic List
+
+### Source structure
+
 - [[sword-world-rpg-complete-edition-section-8th-level-basic-holy-magic-list-power-link-e48ba4a7]] - narrower source section: 8th Level Basic Holy Magic List / [ Power Link ]
 - [[sword-world-rpg-complete-edition-section-8th-level-basic-holy-magic-list-refresh-072d8927]] - narrower source section: 8th Level Basic Holy Magic List / [ Refresh ]
-- [[sword-world-rpg-complete-edition-section-7th-level-basic-holy-magic-list-03629bc8]] - previous source section: 7th Level Basic Holy Magic List
 
 ## Statements
 

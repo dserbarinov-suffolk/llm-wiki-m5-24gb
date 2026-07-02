@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-13-2-1-humans-reaction-ea4ee40f@c4b04c037a6b30b988b92841d60cf6e5
+projection_coverage: section-sword-world-rpg-complete-edition-section-13-2-1-humans-reaction-ea4ee40f@c70cdc77f0b00fa946e5ae81ca4b6fbd
 ---
 
 # 13.2.1 《 Humans 》 / 《 Reaction 》
@@ -17,9 +17,14 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-13-2-1-humans-2369e4b2]] - broader source section: 13.2.1 《 Humans 》
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-13-2-1-humans-intellect-73dc3091]] - previous source section: 13.2.1 《 Humans 》 / 《 Intellect 》
 - [[sword-world-rpg-complete-edition-section-13-2-1-humans-attack-points-95c786c0]] - next source section: 13.2.1 《 Humans 》 / 《 Attack Points 》
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-13-2-1-humans-2369e4b2]] - broader source section: 13.2.1 《 Humans 》
 
 ## Statements
 

@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-13-2-3-youma-leprechaun-b94459cd@e6f6fdba357751d9e77db58d75192d95
+projection_coverage: section-sword-world-rpg-complete-edition-section-13-2-3-youma-leprechaun-b94459cd@66c5a2379217f943908b0cdf978562c5
 ---
 
 # 13.2.3 Youma / [ Leprechaun ]
@@ -17,9 +17,14 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-13-2-3-youma-05ea9fd0]] - broader source section: 13.2.3 Youma
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-13-2-3-youma-frau-51e5358f]] - previous source section: 13.2.3 Youma / [ Frau ]
 - [[sword-world-rpg-complete-edition-section-13-2-3-youma-dryad-f7282616]] - next source section: 13.2.3 Youma / [ Dryad ]
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-13-2-3-youma-05ea9fd0]] - broader source section: 13.2.3 Youma
 
 ## Statements
 

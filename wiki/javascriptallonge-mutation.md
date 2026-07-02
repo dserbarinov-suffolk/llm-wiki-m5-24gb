@@ -4,10 +4,10 @@ page_kind: concept
 summary: Mutation: 4 statement(s) and 1 atom(s) from raw/javascriptallonge.pdf.
 page_family: topic-concept
 sources: raw/javascriptallonge.pdf
-updated: 2026-07-01
+updated: 2026-07-02
 domain: javascriptallonge
 category_path: concepts
-projection_coverage: topic-javascriptallonge-mutation@da44fd520f8bc9fc4f637e734d1018ac
+projection_coverage: topic-javascriptallonge-mutation@6ebb0fb8728038ca1aac3bb182344d7f
 ---
 
 # Mutation
@@ -33,6 +33,7 @@ What [[javascriptallonge]] covers about mutation:
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01141))_
 
+<a id="atom-technical-atom-862c392e49bf3354"></a>
 ```
 const EMPTY = {};
 const OneToFive = { first: 1,
@@ -69,8 +70,13 @@ Structure sharing like this is what makes linked lists so fast for taking everyt
 
 ## Related pages
 
-- [[javascriptallonge-pattern]] - shared statements: Pattern shares source evidence from Mutation / mutation and data structures: One pattern many people follow is to be liberal with mutation when constructing data, but conservative with mutation when consuming data. Let's recall linked lists f ... [truncated] (2 shared statement(s))
+### Source structure
+
 - [[javascriptallonge-section-mutation-93ded492]] - source section: Mutation shares source evidence from Mutation: In JavaScript, almost every type of value can mutate . Their identities stay the same, but not their structure. Specifically, arrays and objects can mutate. Recall t ... [truncated]; Mutation shares technical record from Mutation: const oneTwoThree = [1, 2, 3]; oneTwoThree[0] = 'one'; oneTwoThree //=> [ 'one', 2, 3 ] (25 shared statement(s), 15 shared atom(s))
+
+### Shared claims
+
+- [[javascriptallonge-pattern]] - shared statements: Pattern shares source evidence from Mutation / mutation and data structures: One pattern many people follow is to be liberal with mutation when constructing data, but conservative with mutation when consuming data. Let's recall linked lists f ... [truncated] (2 shared statement(s))
 
 ## Source
 

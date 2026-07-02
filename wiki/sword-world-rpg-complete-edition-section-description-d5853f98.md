@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-description-d5853f98@f82cfee88a65c4c1fba0df8bd4c44b37
+projection_coverage: section-sword-world-rpg-complete-edition-section-description-d5853f98@7be98b746bf7d27c4fd7fd8d9af455bf
 ---
 
 # 《 Description 》
@@ -17,13 +17,18 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-description-iocane-dose-28fb9988]] - narrower source section: 《 Description 》 / [ Iocane (Dose) ]
-- [[sword-world-rpg-complete-edition-section-description-eternal-child-dose-762f37dc]] - narrower source section: 《 Description 》 / [ Eternal Child (Dose) ]
-- [[sword-world-rpg-complete-edition-section-description-centauri-blood-touch-damage-40979612]] - narrower source section: 《 Description 》 / [Centauri Blood (Touch/Damage)]
-- [[sword-world-rpg-complete-edition-section-description-stone-tongue-injected-fc7013ad]] - narrower source section: 《 Description 》 / [Stone Tongue (Injected)]
-- [[sword-world-rpg-complete-edition-section-description-zombie-maker-dose-mind-8d10a530]] - narrower source section: 《 Description 》 / [Zombie Maker (Dose/Mind)]
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-effect-duration-5916b2a4]] - previous source section: 《 Effect Duration 》
 - [[sword-world-rpg-complete-edition-section-deathlike-sleep-dose-839e5efc]] - next source section: [Deathlike Sleep (Dose)]
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-description-centauri-blood-touch-damage-40979612]] - narrower source section: 《 Description 》 / [Centauri Blood (Touch/Damage)]
+- [[sword-world-rpg-complete-edition-section-description-eternal-child-dose-762f37dc]] - narrower source section: 《 Description 》 / [ Eternal Child (Dose) ]
+- [[sword-world-rpg-complete-edition-section-description-iocane-dose-28fb9988]] - narrower source section: 《 Description 》 / [ Iocane (Dose) ]
+- [[sword-world-rpg-complete-edition-section-description-stone-tongue-injected-fc7013ad]] - narrower source section: 《 Description 》 / [Stone Tongue (Injected)]
+- [[sword-world-rpg-complete-edition-section-description-zombie-maker-dose-mind-8d10a530]] - narrower source section: 《 Description 》 / [Zombie Maker (Dose/Mind)]
 
 ## Statements
 

@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-17-188c9523@49c2b898df09a8e7599de0257042f8ff
+projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-17-188c9523@d4a44db2fe31a4a1ce80afe8d935c553
 ---
 
 # Chapter 17:
@@ -17,10 +17,15 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-chapter-17-17-1-changes-to-magic-procedure-b5fb5e11]] - narrower source section: Chapter 17: / 17.1 Changes to Magic Procedure
-- [[sword-world-rpg-complete-edition-section-chapter-17-17-2-lost-spells-a5c0f77a]] - narrower source section: Chapter 17: / 17.2 Lost Spells
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-chapter-16-faf82038]] - previous source section: Chapter 16:
 - [[sword-world-rpg-complete-edition-section-monster-magic-power-9559d158]] - next source section: Monster Magic Power
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-chapter-17-17-1-changes-to-magic-procedure-b5fb5e11]] - narrower source section: Chapter 17: / 17.1 Changes to Magic Procedure
+- [[sword-world-rpg-complete-edition-section-chapter-17-17-2-lost-spells-a5c0f77a]] - narrower source section: Chapter 17: / 17.2 Lost Spells
 
 ## Statements by subsection
 

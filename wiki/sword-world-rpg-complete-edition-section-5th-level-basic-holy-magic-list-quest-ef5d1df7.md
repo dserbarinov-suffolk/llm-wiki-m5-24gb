@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-5th-level-basic-holy-magic-list-quest-ef5d1df7@325218879e598a67a0c0b5704aea0ae9
+projection_coverage: section-sword-world-rpg-complete-edition-section-5th-level-basic-holy-magic-list-quest-ef5d1df7@c9b8e8a8c2e0fddeacb836938240bcb3
 ---
 
 # 5th Level Basic Holy Magic List [ Quest ]
@@ -17,9 +17,14 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-5th-level-basic-holy-magic-list-quest-remove-curse-1df867bf]] - narrower source section: 5th Level Basic Holy Magic List [ Quest ] / [ Remove Curse ]
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-4th-level-basic-holy-magic-list-cure-disease-fa615de9]] - previous source section: 4th Level Basic Holy Magic List [ Cure Disease ]
 - [[sword-world-rpg-complete-edition-section-6th-level-basic-holy-magic-list-47f7e2bf]] - next source section: 6th Level Basic Holy Magic List
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-5th-level-basic-holy-magic-list-quest-remove-curse-1df867bf]] - narrower source section: 5th Level Basic Holy Magic List [ Quest ] / [ Remove Curse ]
 
 ## Statements
 

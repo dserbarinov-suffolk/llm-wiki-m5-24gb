@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-5-1-12-ancient-magic-list-steal-mind-de9949b5@7485717a0efcaef2b86a68d389df9667
+projection_coverage: section-sword-world-rpg-complete-edition-section-5-1-12-ancient-magic-list-steal-mind-de9949b5@4965b31c14f91b9bc1a8e9087df873bc
 ---
 
 # 5.1.12 Ancient Magic List / [ Steal Mind ]
@@ -17,9 +17,14 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-5-1-12-ancient-magic-list-2e59bfee]] - broader source section: 5.1.12 Ancient Magic List
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-5-1-12-ancient-magic-list-seal-enchantment-94da84b4]] - previous source section: 5.1.12 Ancient Magic List / [ Seal Enchantment ]
 - [[sword-world-rpg-complete-edition-section-5-1-12-ancient-magic-list-slow-91fffcd7]] - next source section: 5.1.12 Ancient Magic List / [ Slow ]
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-5-1-12-ancient-magic-list-2e59bfee]] - broader source section: 5.1.12 Ancient Magic List
 
 ## Statements
 

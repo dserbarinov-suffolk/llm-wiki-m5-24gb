@@ -4,11 +4,11 @@ page_kind: source
 summary: And also: / Magic Names / magic names and fat arrows: 23 source-backed entries and 2 atom(s) from raw/javascriptallonge.pdf.
 page_family: section-reference
 sources: raw/javascriptallonge.pdf
-updated: 2026-07-01
+updated: 2026-07-02
 domain: javascriptallonge
 category_path: sources/javascriptallonge/sections
 source_id: javascriptallonge.pdf
-projection_coverage: section-javascriptallonge-section-and-also-magic-names-magic-names-and-fat-arrows-0831b561@a0498605ad017284dd58f6f356b0a593
+projection_coverage: section-javascriptallonge-section-and-also-magic-names-magic-names-and-fat-arrows-0831b561@bf7855cfdfe2b00cbf7b8e437b6fa7bf
 ---
 
 # And also: / Magic Names / magic names and fat arrows
@@ -17,8 +17,13 @@ From [[javascriptallonge]].
 
 ## Related pages
 
-- [[javascriptallonge-section-and-also-magic-names-9b4fa0d7]] - broader source section: And also: / Magic Names
+### Source order
+
 - [[javascriptallonge-section-and-also-magic-names-the-function-keyword-b21492ad]] - previous source section: And also: / Magic Names / the function keyword
+
+### Source structure
+
+- [[javascriptallonge-section-and-also-magic-names-9b4fa0d7]] - broader source section: And also: / Magic Names
 
 ## Statements
 
@@ -46,6 +51,7 @@ From [[javascriptallonge]].
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00618))_
 
+<a id="atom-technical-atom-1f21fdd6be9ef40d"></a>
 ```
 (function () {
 return (() => arguments[0])('inner');
@@ -61,6 +67,7 @@ return (() => arguments[0])('inner');
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00621))_
 
+<a id="atom-technical-atom-34cc4e2d51243815"></a>
 ```
 const row = function () {
 return mapWith(

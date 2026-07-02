@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-13-2-3-youma-sylph-902e3f9c@ec71fa138d18ceae4864a5f1089d5bce
+projection_coverage: section-sword-world-rpg-complete-edition-section-13-2-3-youma-sylph-902e3f9c@5c43c7f9199477d4095cb580dd7babbd
 ---
 
 # 13.2.3 Youma / [ Sylph ]
@@ -17,9 +17,14 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-13-2-3-youma-05ea9fd0]] - broader source section: 13.2.3 Youma
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-13-2-3-youma-sandman-5e142462]] - previous source section: 13.2.3 Youma / [ Sandman ]
 - [[sword-world-rpg-complete-edition-section-13-2-3-youma-sprite-bda05ea6]] - next source section: 13.2.3 Youma / [ Sprite ]
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-13-2-3-youma-05ea9fd0]] - broader source section: 13.2.3 Youma
 
 ## Statements
 

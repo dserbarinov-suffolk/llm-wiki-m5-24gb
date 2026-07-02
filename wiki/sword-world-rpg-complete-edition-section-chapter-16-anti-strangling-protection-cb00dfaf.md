@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-16-anti-strangling-protection-cb00dfaf@76bd027544084ad3ce7787768ce3ba33
+projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-16-anti-strangling-protection-cb00dfaf@e3e7aa3e7a6686299b86550ebdb626bf
 ---
 
 # Chapter 16: / Anti-Strangling Protection
@@ -17,9 +17,14 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-chapter-16-de7f0512]] - broader source section: Chapter 16:
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-chapter-16-critical-target-variation-f713085f]] - previous source section: Chapter 16: / Critical Target Variation
 - [[sword-world-rpg-complete-edition-section-chapter-16-shield-modifiers-a0fa8bce]] - next source section: Chapter 16: / Shield Modifiers
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-chapter-16-de7f0512]] - broader source section: Chapter 16:
 
 ## Technical atoms
 
@@ -27,6 +32,7 @@ From [[sword-world-rpg-complete-edition]].
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-10217))_
 
+<a id="atom-technical-atom-00408b892a0a413e"></a>
 ```text
 Table 16-3 Armor Optional Rules
  place that's easy to reach (such as on a

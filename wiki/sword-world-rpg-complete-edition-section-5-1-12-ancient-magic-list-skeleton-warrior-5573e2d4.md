@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-5-1-12-ancient-magic-list-skeleton-warrior-5573e2d4@96d5a305ba822b7b00ade1d62dd0661e
+projection_coverage: section-sword-world-rpg-complete-edition-section-5-1-12-ancient-magic-list-skeleton-warrior-5573e2d4@70d734941b85832ea161c688f324fdd4
 ---
 
 # 5.1.12 Ancient Magic List / [ Skeleton Warrior ]
@@ -17,9 +17,14 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-5-1-12-ancient-magic-list-2e59bfee]] - broader source section: 5.1.12 Ancient Magic List
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-5-1-12-ancient-magic-list-suppress-elemental-778770d6]] - previous source section: 5.1.12 Ancient Magic List / [ Suppress Elemental ]
 - [[sword-world-rpg-complete-edition-section-5-1-12-ancient-magic-list-sense-lie-e435e029]] - next source section: 5.1.12 Ancient Magic List / [ Sense Lie ]
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-5-1-12-ancient-magic-list-2e59bfee]] - broader source section: 5.1.12 Ancient Magic List
 
 ## Statements
 

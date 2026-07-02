@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-attacks-from-monsters-against-characters-a9a9211c@63b3fe4b1746f8bb6eb06491f2146d44
+projection_coverage: section-sword-world-rpg-complete-edition-section-attacks-from-monsters-against-characters-a9a9211c@32d163bd13d1420cf5c3d17ed720cbe7
 ---
 
 # Attacks From Monsters Against Characters
@@ -17,15 +17,23 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-attacks-from-monsters-against-characters-4-6-1-hit-evasion-checks-6637c605]] - narrower source section: Attacks From Monsters Against Characters / 4.6.1 Hit (Evasion) Checks
-- [[sword-world-rpg-complete-edition-section-attacks-from-monsters-against-characters-monsters-77a3fb28]] - narrower source section: Attacks From Monsters Against Characters / Monsters
-- [[sword-world-rpg-complete-edition-section-attacks-from-monsters-against-characters-4-6-3-defense-rolls-6e7df75a]] - narrower source section: Attacks From Monsters Against Characters / 4.6.3 Defense Rolls
-- [[sword-world-rpg-complete-edition-section-attacks-from-monsters-against-characters-failure-f4804b9e]] - narrower source section: Attacks From Monsters Against Characters / 【 Failure! 】
-- [[sword-world-rpg-complete-edition-section-attacks-from-monsters-against-characters-criticals-9e0eac15]] - narrower source section: Attacks From Monsters Against Characters / 【 Criticals? 】
-- [[sword-world-rpg-complete-edition-section-attacks-from-monsters-against-characters-4-6-4-damage-reduction-b3691cec]] - narrower source section: Attacks From Monsters Against Characters / 4.6.4 Damage Reduction
-- [[sword-world-rpg-complete-edition-section-attacks-from-monsters-against-characters-4-6-5-final-damage-cb8f53e4]] - narrower source section: Attacks From Monsters Against Characters / 4.6.5 Final Damage
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-4-5-5-final-damage-0c099f84]] - previous source section: 4.5.5 Final Damage
 - [[sword-world-rpg-complete-edition-section-4-7-attacks-from-characters-against-characters-86d787cb]] - next source section: 4.7 Attacks From Characters Against Characters
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-attacks-from-monsters-against-characters-4-6-1-hit-evasion-checks-6637c605]] - narrower source section: Attacks From Monsters Against Characters / 4.6.1 Hit (Evasion) Checks
+- [[sword-world-rpg-complete-edition-section-attacks-from-monsters-against-characters-4-6-3-defense-rolls-6e7df75a]] - narrower source section: Attacks From Monsters Against Characters / 4.6.3 Defense Rolls
+- [[sword-world-rpg-complete-edition-section-attacks-from-monsters-against-characters-4-6-4-damage-reduction-b3691cec]] - narrower source section: Attacks From Monsters Against Characters / 4.6.4 Damage Reduction
+- [[sword-world-rpg-complete-edition-section-attacks-from-monsters-against-characters-4-6-5-final-damage-cb8f53e4]] - narrower source section: Attacks From Monsters Against Characters / 4.6.5 Final Damage
+- [[sword-world-rpg-complete-edition-section-attacks-from-monsters-against-characters-criticals-9e0eac15]] - narrower source section: Attacks From Monsters Against Characters / 【 Criticals? 】
+- [[sword-world-rpg-complete-edition-section-attacks-from-monsters-against-characters-failure-f4804b9e]] - narrower source section: Attacks From Monsters Against Characters / 【 Failure! 】
+- [[sword-world-rpg-complete-edition-section-attacks-from-monsters-against-characters-monsters-77a3fb28]] - narrower source section: Attacks From Monsters Against Characters / Monsters
+
+### Topics
+
 - [[sword-world-rpg-complete-edition-attack-monster-character]] - topic hub: opens the topic page for Attack Monster Character
 
 ## Statements by subsection
@@ -80,6 +88,7 @@ From [[sword-world-rpg-complete-edition]].
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-01332))_
 
+<a id="atom-technical-atom-622bdaff7123b24a"></a>
 | Suppose | Ducard | II’s | defense | roll | came | means | you | took | no | damage | at | all. | The |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 7 up 12 (double | sixes!). |  | The | number | on | monster's |  | attack | was | completely |  | blocked |  |
@@ -108,6 +117,7 @@ Table 4-3: Rating Table, Key Number
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-01333))_
 
+<a id="atom-technical-atom-bfff393c6e0770b8"></a>
 > [Figure] (p.47)
 
 ### Technical frame 3: Attacks From Monsters Against Characters / 4.6.5 Final Damage
@@ -118,6 +128,7 @@ Table 4-3: Rating Table, Key Number
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-01348))_
 
+<a id="atom-technical-atom-eda94d067ee6bdc9"></a>
 > Final damage = monster's strike points - (defense roll result + damage reduction)
 
 ### Technical frame 4: Attacks From Monsters Against Characters / 4.6.5 Final Damage
@@ -128,6 +139,7 @@ Table 4-3: Rating Table, Key Number
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-01351))_
 
+<a id="atom-technical-atom-602ec93348c7d5a2"></a>
 ```text
 7 (goblin's strike points) - {0 (defense roll) +2 (damage reduction)} = 5
 7 (goblin's strike points) - {6 (defense roll) +2 (damage reduction)} = -1

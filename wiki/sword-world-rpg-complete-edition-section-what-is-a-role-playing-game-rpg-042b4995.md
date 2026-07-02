@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-what-is-a-role-playing-game-rpg-042b4995@c767a984a8e4f719b99b13a861264ab6
+projection_coverage: section-sword-world-rpg-complete-edition-section-what-is-a-role-playing-game-rpg-042b4995@784405fd22ee89d5c4866b2042ff77a6
 ---
 
 # What is a Role-Playing Game (RPG)?
@@ -16,6 +16,8 @@ projection_coverage: section-sword-world-rpg-complete-edition-section-what-is-a-
 From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
+
+### Source order
 
 - [[sword-world-rpg-complete-edition-section-the-meaning-of-the-rulebook-910ef587]] - next source section: The Meaning of the Rulebook
 
@@ -60,4 +62,5 @@ From [[sword-world-rpg-complete-edition]].
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-00030))_
 
+<a id="atom-technical-atom-eafd8eacef4f013d"></a>
 > The players must make their characters act based on their abilities and characteristics.

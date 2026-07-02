@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-5-1-12-ancient-magic-list-lightning-bind-wraith-form-686db865@a0e48bf513bef9f14f7d4f56fa06135a
+projection_coverage: section-sword-world-rpg-complete-edition-section-5-1-12-ancient-magic-list-lightning-bind-wraith-form-686db865@d8b2b47beeeacf62e360d17823bb2b70
 ---
 
 # 5.1.12 Ancient Magic List / [ Lightning Bind ] / [ Wraith Form ]
@@ -17,8 +17,13 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-5-1-12-ancient-magic-list-lightning-bind-497e8a08]] - broader source section: 5.1.12 Ancient Magic List / [ Lightning Bind ]
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-5-1-12-ancient-magic-list-lightning-bind-9th-level-ancient-magic-list-command-golem-0fbf68a1]] - next source section: 5.1.12 Ancient Magic List / [ Lightning Bind ] / 9th Level Ancient Magic List [ Command Golem ]
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-5-1-12-ancient-magic-list-lightning-bind-497e8a08]] - broader source section: 5.1.12 Ancient Magic List / [ Lightning Bind ]
 
 ## Statements
 

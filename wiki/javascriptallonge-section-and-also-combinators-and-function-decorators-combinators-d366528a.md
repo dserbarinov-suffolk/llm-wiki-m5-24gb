@@ -4,11 +4,11 @@ page_kind: source
 summary: And also: / Combinators and Function Decorators / combinators: 7 source-backed entries and 2 atom(s) from raw/javascriptallonge.pdf.
 page_family: section-reference
 sources: raw/javascriptallonge.pdf
-updated: 2026-07-01
+updated: 2026-07-02
 domain: javascriptallonge
 category_path: sources/javascriptallonge/sections
 source_id: javascriptallonge.pdf
-projection_coverage: section-javascriptallonge-section-and-also-combinators-and-function-decorators-combinators-d366528a@76279b32d327eb55426600045d63da5c
+projection_coverage: section-javascriptallonge-section-and-also-combinators-and-function-decorators-combinators-d366528a@063872b980c11c45fa5956bc53bcd2a8
 ---
 
 # And also: / Combinators and Function Decorators / combinators
@@ -17,9 +17,17 @@ From [[javascriptallonge]].
 
 ## Related pages
 
-- [[javascriptallonge-section-and-also-combinators-and-function-decorators-4a7771ac]] - broader source section: And also: / Combinators and Function Decorators
+### Source order
+
 - [[javascriptallonge-section-and-also-combinators-and-function-decorators-higher-order-functions-15759c94]] - previous source section: And also: / Combinators and Function Decorators / higher-order functions
 - [[javascriptallonge-section-and-also-combinators-and-function-decorators-a-balanced-statement-about-combinators-09d1a71e]] - next source section: And also: / Combinators and Function Decorators / a balanced statement about combinators
+
+### Source structure
+
+- [[javascriptallonge-section-and-also-combinators-and-function-decorators-4a7771ac]] - broader source section: And also: / Combinators and Function Decorators
+
+### Topics
+
 - [[javascriptallonge-combinator]] - topic hub: opens the topic page for Combinator
 
 ## Statements
@@ -39,6 +47,7 @@ From [[javascriptallonge]].
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00557))_
 
+<a id="atom-technical-atom-f4f4fcfc19e6c5d3"></a>
 ```text
 combinators
 The word 'combinator' has a precise technical meaning in mathematics:
@@ -66,6 +75,7 @@ If we were learning Combinatorial Logic, we'd start with the most basic combinat
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00560))_
 
+<a id="atom-technical-atom-5936d0925efccdd7"></a>
 ```
 const compose = (a, b) =>
 (c) => a(b(c))

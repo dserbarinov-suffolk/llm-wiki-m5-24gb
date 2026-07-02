@@ -7,7 +7,7 @@ sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: concepts
-projection_coverage: topic-sword-world-rpg-complete-edition-damage@c5b0113dc0bcb7f7418c30b0a4d3387d
+projection_coverage: topic-sword-world-rpg-complete-edition-damage@80c7e1aff1cc815ca87a809ead4861c9
 ---
 
 # Damage
@@ -31,10 +31,13 @@ What [[sword-world-rpg-complete-edition]] covers about damage:
 
 **Atoms:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-05584, source-range-0d48087c-05585, source-range-0d48087c-05586))_
 
+<a id="atom-technical-atom-72f85ac06d816f41"></a>
 > Effect=Deals strike power 30 damage plus 12 bonus damage every hour. Resist reduces effect
 
+<a id="atom-technical-atom-28b7692c78492410"></a>
 > Toxicity Score=14 Rarity=14 Effect Start Time=1 hour later
 
+<a id="atom-technical-atom-d4180703d60f889f"></a>
 > Effect Duration=Permanent
 
 ### Technical frame 2: 《 Description 》 / [Centauri Blood (Touch/Damage)] / [Sandman's Sand (Inhaled/Mind)]
@@ -45,17 +48,24 @@ What [[sword-world-rpg-complete-edition]] covers about damage:
 
 **Atoms:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-05590, source-range-0d48087c-05591))_
 
+<a id="atom-technical-atom-a201eabb2c052e86"></a>
 > Effect=Put to sleep
 
+<a id="atom-technical-atom-0cd70aad6fc28a7c"></a>
 > Toxicity Score=10 Rarity=14 Effect Start Time=1 round later Effect Duration=1 hour
 
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-bonus-damage]] - narrower topic: 【 Bonus Damage 】 shares source evidence from 《 Description 》 / [Centauri Blood (Touch/Damage)]: What's more, this poison is completely harmless at room temperature, and only becomes toxic when warmed by body heat. Those wearing cloth soaked with centauri blood ... [truncated] (1 shared statement(s))
-- [[sword-world-rpg-complete-edition-section-4-5-2-determining-base-damage-strike-roll-0-damage-e4fd9431]] - source section: 4.5.2 Determining Base Damage (Strike Roll) / 【 0 Damage! 】 shares source evidence from 4.5.2 Determining Base Damage (Strike Roll) / 【 0 Damage! 】: roll is 2 (double ones), the result is ＊＊ regardless of the key number. This means your attack hit the target, but failed to deal any damage! (2 shared statement(s))
+### Source structure
+
 - [[sword-world-rpg-complete-edition-section-damage-ff07e120]] - source section: 《 Damage 》 shares source evidence from 《 Damage 》: A spell that deals damage to the target's life force or mental power. Spells of the damage type always have a clearly defined strike power . If you manage to break t ... [truncated]; 《 Damage 》 shares technical record from 《 Damage 》: If you roll 10 or greater during the strike roll, a critical will occur and deal even more damage, same as in weapon combat. (9 shared statement(s), 4 shared atom(s))
 - [[sword-world-rpg-complete-edition-section-10-5-attacks-against-the-sleeping-damage-adc079fa]] - source section: 10.5 Attacks Against the Sleeping / 《 Damage 》 shares source evidence from 10.5 Attacks Against the Sleeping / 《 Damage 》: If the attack hits, roll 2D. If it's double ones, the damage will be equal to the strike points of the attacking monster. Otherwise, the damage equals the attacking ... [truncated]; 10.5 Attacks Against the Sleeping / 《 Damage 》 shares technical record from 10.5 Attacks Against the Sleeping / 《 Damage 》: If the attack hits, roll 2D. (2 shared statement(s), 1 shared atom(s))
+- [[sword-world-rpg-complete-edition-section-4-5-2-determining-base-damage-strike-roll-0-damage-e4fd9431]] - source section: 4.5.2 Determining Base Damage (Strike Roll) / 【 0 Damage! 】 shares source evidence from 4.5.2 Determining Base Damage (Strike Roll) / 【 0 Damage! 】: roll is 2 (double ones), the result is ＊＊ regardless of the key number. This means your attack hit the target, but failed to deal any damage! (2 shared statement(s))
+
+### Topics
+
+- [[sword-world-rpg-complete-edition-bonus-damage]] - narrower topic: 【 Bonus Damage 】 shares source evidence from 《 Description 》 / [Centauri Blood (Touch/Damage)]: What's more, this poison is completely harmless at room temperature, and only becomes toxic when warmed by body heat. Those wearing cloth soaked with centauri blood ... [truncated] (1 shared statement(s))
 
 ## Source
 

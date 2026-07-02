@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-13-2-6-mythical-beasts-and-magical-beasts-dragon-c305604d@926ad853d3cea8a2a7364e46d27c7096
+projection_coverage: section-sword-world-rpg-complete-edition-section-13-2-6-mythical-beasts-and-magical-beasts-dragon-c305604d@1e4df4ec75d3e6eee170410416e35b86
 ---
 
 # 13.2.6 Mythical Beasts and Magical Beasts / [ Dragon ]
@@ -17,9 +17,14 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-13-2-6-mythical-beasts-and-magical-beasts-f86962d2]] - broader source section: 13.2.6 Mythical Beasts and Magical Beasts
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-13-2-6-mythical-beasts-and-magical-beasts-roc-08fefbde]] - previous source section: 13.2.6 Mythical Beasts and Magical Beasts / [ Roc ]
 - [[sword-world-rpg-complete-edition-section-13-2-6-mythical-beasts-and-magical-beasts-wolf-e19da3e9]] - next source section: 13.2.6 Mythical Beasts and Magical Beasts / [ Wolf ]
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-13-2-6-mythical-beasts-and-magical-beasts-f86962d2]] - broader source section: 13.2.6 Mythical Beasts and Magical Beasts
 
 ## Statements
 
@@ -49,6 +54,7 @@ From [[sword-world-rpg-complete-edition]].
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-06841))_
 
+<a id="atom-technical-atom-b7af8ea534306efe"></a>
 > Those within range must make a mental power resistance roll against target score 17.
 
 ### Technical frame 2: 13.2.6 Mythical Beasts and Magical Beasts / [ Dragon ]
@@ -59,6 +65,7 @@ From [[sword-world-rpg-complete-edition]].
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-06842))_
 
+<a id="atom-technical-atom-56b95d7d51d1b459"></a>
 > Anyone who hears the dragon's roar must make a mental power resistance roll against target score 17.
 
 ### Technical frame 3: 13.2.6 Mythical Beasts and Magical Beasts / [ Dragon ]
@@ -69,4 +76,5 @@ From [[sword-world-rpg-complete-edition]].
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-06843))_
 
+<a id="atom-technical-atom-19505dee0fcf759c"></a>
 > Dragons may take long periods of rest called dormant season , but they do not require sleep in the normal sense of the word and cannot be put to sleep by magic.

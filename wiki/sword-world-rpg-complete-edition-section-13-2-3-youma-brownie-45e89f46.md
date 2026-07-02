@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-13-2-3-youma-brownie-45e89f46@75652ea42252cf23445a14ed5f06a6c2
+projection_coverage: section-sword-world-rpg-complete-edition-section-13-2-3-youma-brownie-45e89f46@b666c25005e05f24745a9b4a4eea3f78
 ---
 
 # 13.2.3 Youma / [ Brownie ]
@@ -17,9 +17,17 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-13-2-3-youma-05ea9fd0]] - broader source section: 13.2.3 Youma
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-13-2-3-youma-shade-ff941acb]] - previous source section: 13.2.3 Youma / [ Shade ]
 - [[sword-world-rpg-complete-edition-section-13-2-3-youma-undine-95a6de0e]] - next source section: 13.2.3 Youma / [ Undine ]
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-13-2-3-youma-05ea9fd0]] - broader source section: 13.2.3 Youma
+
+### Topics
+
 - [[sword-world-rpg-complete-edition-brownie]] - topic hub: opens the topic page for Brownie
 
 ## Statements

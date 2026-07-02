@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-12-2-2-illnesses-rat-disease-53ac68c7@df0f649f44fa111feb8f452842369439
+projection_coverage: section-sword-world-rpg-complete-edition-section-12-2-2-illnesses-rat-disease-53ac68c7@75d18cd414738614c26fc261946a17d7
 ---
 
 # 12.2.2 Illnesses / [ Rat Disease ]
@@ -17,12 +17,17 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-12-2-2-illnesses-5611d07e]] - broader source section: 12.2.2 Illnesses
-- [[sword-world-rpg-complete-edition-section-12-2-2-illnesses-rat-disease-red-cap-a2c429e3]] - narrower source section: 12.2.2 Illnesses / [ Rat Disease ] / [ Red Cap ]
-- [[sword-world-rpg-complete-edition-section-12-2-2-illnesses-rat-disease-lockjaw-7d74ebae]] - narrower source section: 12.2.2 Illnesses / [ Rat Disease ] / [ Lockjaw ]
-- [[sword-world-rpg-complete-edition-section-12-2-2-illnesses-rat-disease-12-2-3-herbs-fb062b18]] - narrower source section: 12.2.2 Illnesses / [ Rat Disease ] / 12.2.3 Herbs
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-12-2-2-illnesses-lycanthropy-273174c8]] - previous source section: 12.2.2 Illnesses / [ Lycanthropy ]
 - [[sword-world-rpg-complete-edition-section-12-2-2-illnesses-arnica-b80b32cc]] - next source section: 12.2.2 Illnesses / [ Arnica ]
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-12-2-2-illnesses-5611d07e]] - broader source section: 12.2.2 Illnesses
+- [[sword-world-rpg-complete-edition-section-12-2-2-illnesses-rat-disease-12-2-3-herbs-fb062b18]] - narrower source section: 12.2.2 Illnesses / [ Rat Disease ] / 12.2.3 Herbs
+- [[sword-world-rpg-complete-edition-section-12-2-2-illnesses-rat-disease-lockjaw-7d74ebae]] - narrower source section: 12.2.2 Illnesses / [ Rat Disease ] / [ Lockjaw ]
+- [[sword-world-rpg-complete-edition-section-12-2-2-illnesses-rat-disease-red-cap-a2c429e3]] - narrower source section: 12.2.2 Illnesses / [ Rat Disease ] / [ Red Cap ]
 
 ## Statements
 

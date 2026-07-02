@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-11-notes-on-magic-11-3-dragon-roar-magic-3rd-level-dragon-roar-magic-list-dragon-s-wings-d3606fa3@4d74e57712836f5d504871be88aef2e1
+projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-11-notes-on-magic-11-3-dragon-roar-magic-3rd-level-dragon-roar-magic-list-dragon-s-wings-d3606fa3@ce31c9090cdfac63ec6333cd5e2a1f05
 ---
 
 # Chapter 11: Notes on Magic / 11.3 Dragon Roar Magic / 3rd Level Dragon Roar Magic List / [ Dragon's Wings ]
@@ -17,8 +17,13 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-chapter-11-notes-on-magic-11-3-dragon-roar-magic-3rd-level-dragon-roar-magic-list-9518b428]] - broader source section: Chapter 11: Notes on Magic / 11.3 Dragon Roar Magic / 3rd Level Dragon Roar Magic List
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-chapter-11-notes-on-magic-11-3-dragon-roar-magic-3rd-level-dragon-roar-magic-list-fire-proof-654ac914]] - previous source section: Chapter 11: Notes on Magic / 11.3 Dragon Roar Magic / 3rd Level Dragon Roar Magic List / [ Fire Proof ]
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-chapter-11-notes-on-magic-11-3-dragon-roar-magic-3rd-level-dragon-roar-magic-list-9518b428]] - broader source section: Chapter 11: Notes on Magic / 11.3 Dragon Roar Magic / 3rd Level Dragon Roar Magic List
 
 ## Statements
 
@@ -34,4 +39,5 @@ From [[sword-world-rpg-complete-edition]].
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-05207))_
 
+<a id="atom-technical-atom-e0c3fdcfcb52cc6d"></a>
 > If you are wearing armor, you will not be able to grow your wings (unless you take some measure like having a hole in the back, etc.).

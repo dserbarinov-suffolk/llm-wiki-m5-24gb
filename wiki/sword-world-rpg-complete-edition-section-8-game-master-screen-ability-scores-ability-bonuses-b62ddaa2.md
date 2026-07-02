@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-8-game-master-screen-ability-scores-ability-bonuses-b62ddaa2@fe41372a908cddde9242dd75983acc14
+projection_coverage: section-sword-world-rpg-complete-edition-section-8-game-master-screen-ability-scores-ability-bonuses-b62ddaa2@c120ea84ab18c7ddf25f0ad4bd52214e
 ---
 
 # 8. Game Master Screen / Ability Scores / 【 Ability Bonuses 】
@@ -17,9 +17,17 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-8-game-master-screen-ability-scores-a41763db]] - broader source section: 8. Game Master Screen / Ability Scores
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-8-game-master-screen-ability-scores-loss-of-ability-scores-and-its-impact-8d38dd7f]] - previous source section: 8. Game Master Screen / Ability Scores / Loss of Ability Scores and Its Impact
 - [[sword-world-rpg-complete-edition-section-8-game-master-screen-ability-scores-dwarf-37a133c5]] - next source section: 8. Game Master Screen / Ability Scores / 【 Dwarf 】
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-8-game-master-screen-ability-scores-a41763db]] - broader source section: 8. Game Master Screen / Ability Scores
+
+### Topics
+
 - [[sword-world-rpg-complete-edition-ability-bonuse]] - topic hub: opens the topic page for Ability Bonuse
 
 ## Statements
@@ -40,6 +48,7 @@ From [[sword-world-rpg-complete-edition]].
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-00174))_
 
+<a id="atom-technical-atom-866bf61f91d0fd07"></a>
 ```text
 Table 1-1: Ability Bonuses
                                     represented by a loss of life force and

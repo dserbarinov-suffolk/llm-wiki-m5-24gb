@@ -4,11 +4,11 @@ page_kind: source
 summary: Served by the Pot: Collections / Iteration and Iterables: 107 source-backed entries and 0 atom(s) from raw/javascriptallonge.pdf.
 page_family: section-reference
 sources: raw/javascriptallonge.pdf
-updated: 2026-07-01
+updated: 2026-07-02
 domain: javascriptallonge
 category_path: sources/javascriptallonge/sections
 source_id: javascriptallonge.pdf
-projection_coverage: section-javascriptallonge-section-served-by-the-pot-collections-iteration-and-iterables-6006fd95@2a508012a1674025303c2e537f5abe23
+projection_coverage: section-javascriptallonge-section-served-by-the-pot-collections-iteration-and-iterables-6006fd95@00fc29a8ceb4d7b3a93a11e5e198e515
 ---
 
 # Served by the Pot: Collections / Iteration and Iterables
@@ -17,16 +17,20 @@ From [[javascriptallonge]].
 
 ## Related pages
 
+### Source order
+
+- [[javascriptallonge-section-served-by-the-pot-collections-generating-iterables-8c929c4d]] - next source section: Served by the Pot: Collections / Generating Iterables
+
+### Source structure
+
 - [[javascriptallonge-section-served-by-the-pot-collections-14399de3]] - broader source section: Served by the Pot: Collections
 - [[javascriptallonge-section-served-by-the-pot-collections-iteration-and-iterables-a-look-back-at-functional-iterators-39b0dbb4]] - narrower source section: Served by the Pot: Collections / Iteration and Iterables / a look back at functional iterators
-- [[javascriptallonge-section-served-by-the-pot-collections-iteration-and-iterables-iterator-objects-7abb0097]] - narrower source section: Served by the Pot: Collections / Iteration and Iterables / iterator objects
+- [[javascriptallonge-section-served-by-the-pot-collections-iteration-and-iterables-from-b90bf31a]] - narrower source section: Served by the Pot: Collections / Iteration and Iterables / from
 - [[javascriptallonge-section-served-by-the-pot-collections-iteration-and-iterables-iterables-5688770e]] - narrower source section: Served by the Pot: Collections / Iteration and Iterables / iterables
 - [[javascriptallonge-section-served-by-the-pot-collections-iteration-and-iterables-iterables-out-to-infinity-376606ac]] - narrower source section: Served by the Pot: Collections / Iteration and Iterables / iterables out to infinity
-- [[javascriptallonge-section-served-by-the-pot-collections-iteration-and-iterables-ordered-collections-3e509cbd]] - narrower source section: Served by the Pot: Collections / Iteration and Iterables / ordered collections
+- [[javascriptallonge-section-served-by-the-pot-collections-iteration-and-iterables-iterator-objects-7abb0097]] - narrower source section: Served by the Pot: Collections / Iteration and Iterables / iterator objects
 - [[javascriptallonge-section-served-by-the-pot-collections-iteration-and-iterables-operations-on-ordered-collections-097315e6]] - narrower source section: Served by the Pot: Collections / Iteration and Iterables / operations on ordered collections
-- [[javascriptallonge-section-served-by-the-pot-collections-iteration-and-iterables-from-b90bf31a]] - narrower source section: Served by the Pot: Collections / Iteration and Iterables / from
-- [[javascriptallonge-section-served-by-the-pot-collections-iteration-and-iterables-summary-02851e42]] - narrower source section: Served by the Pot: Collections / Iteration and Iterables / summary
-- [[javascriptallonge-section-served-by-the-pot-collections-generating-iterables-8c929c4d]] - next source section: Served by the Pot: Collections / Generating Iterables
+- [[javascriptallonge-section-served-by-the-pot-collections-iteration-and-iterables-ordered-collections-3e509cbd]] - narrower source section: Served by the Pot: Collections / Iteration and Iterables / ordered collections
 
 ## Statements
 

@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-13-2-1-humans-monster-catalog-how-to-read-the-monster-catalog-35efd787@1fdea0024d8b7bda5a2cb48690b4ae16
+projection_coverage: section-sword-world-rpg-complete-edition-section-13-2-1-humans-monster-catalog-how-to-read-the-monster-catalog-35efd787@8e6cb025d831b098264e3583618cf5ea
 ---
 
 # 13.2.1 《 Humans 》 / Monster Catalog / How to Read the Monster Catalog
@@ -16,6 +16,8 @@ projection_coverage: section-sword-world-rpg-complete-edition-section-13-2-1-hum
 From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
+
+### Source structure
 
 - [[sword-world-rpg-complete-edition-section-13-2-1-humans-monster-catalog-7065b437]] - broader source section: 13.2.1 《 Humans 》 / Monster Catalog
 

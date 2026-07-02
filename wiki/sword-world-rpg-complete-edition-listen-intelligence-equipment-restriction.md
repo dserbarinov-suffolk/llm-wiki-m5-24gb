@@ -7,7 +7,7 @@ sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: concepts
-projection_coverage: topic-sword-world-rpg-complete-edition-listen-intelligence-equipment-restriction@6d3a8c59a2f773a0a08515fbfa7afc7e
+projection_coverage: topic-sword-world-rpg-complete-edition-listen-intelligence-equipment-restriction@e013f8f2e9e7b49ec9b3e1b19e4c13a8
 ---
 
 # [ ⑤ Listen [Intelligence] ] (Equipment restriction)
@@ -39,6 +39,7 @@ What [[sword-world-rpg-complete-edition]] covers about [ ⑤ listen [intelligenc
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-04020))_
 
+<a id="atom-technical-atom-8334b0643fecc484"></a>
 > You can also choose and listen to a specific sound from a mixture of various sounds.
 
 ### Technical frame 2: Chapter 6: / 6.3 Ranger Skill / [ ④ Listen [Intelligence] ] (Equipment restriction)
@@ -49,15 +50,21 @@ What [[sword-world-rpg-complete-edition]] covers about [ ⑤ listen [intelligenc
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-04091))_
 
+<a id="atom-technical-atom-08d1debf48683966"></a>
 > For example, when you walk through a ravine and see a pebble fall, you may feel like a landslide is about to occur, or you may feel an arrow flying from the darkness.
 
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-thief-skill]] - shared statements and technical atoms: 【 Thief Skill 】 shares source evidence from Chapter 6: / 6.1 Precautions When Using Skills / Thief Skill / [ ⑤ Listen [Intelligence] ] (Equipment restriction): This ability is used to hear certain sounds from behind walls, doors, or from a distance. You can also choose and listen to a specific sound from a mixture of variou ... [truncated]; 【 Thief Skill 】 shares technical record from Chapter 6: / 6.1 Precautions When Using Skills / Thief Skill / [ ⑤ Listen [Intelligence] ] (Equipment restriction): You can also choose and listen to a specific sound from a mixture of various sounds. (5 shared statement(s), 1 shared atom(s))
-- [[sword-world-rpg-complete-edition-ranger-skill]] - shared statements and technical atoms: 【 Ranger Skill 】 shares source evidence from Chapter 6: / 6.3 Ranger Skill / [ ④ Listen [Intelligence] ] (Equipment restriction): Rangers can listen to even the smallest sounds and can choose the sound they want to hear from a wide range of sounds. This is handed the same way as the thief's ability.; 【 Ranger Skill 】 shares technical record from Chapter 6: / 6.3 Ranger Skill / [ ④ Listen [Intelligence] ] (Equipment restriction): For example, when you walk through a ravine and see a pebble fall, you may feel like a landslide is about to occur, or you may feel an arrow flying from the darkness. (4 shared statement(s), 1 shared atom(s))
+### Source structure
+
 - [[sword-world-rpg-complete-edition-section-chapter-6-6-1-precautions-when-using-skills-thief-skill-listen-intelligence-equipment-restrictio-12b641f4]] - source section: Chapter 6: / 6.1 Precautions When Using Skills / Thief Skill / [ ⑤ Listen [Intelligence] ] (Equipment restriction) shares source evidence from Chapter 6: / 6.1 Precautions When Using Skills / Thief Skill / [ ⑤ Listen [Intelligence] ] (Equipment restriction): This ability is used to hear certain sounds from behind walls, doors, or from a distance. You can also choose and listen to a specific sound from a mixture of variou ... [truncated]; Chapter 6: / 6.1 Precautions When Using Skills / Thief Skill / [ ⑤ Listen [Intelligence] ] (Equipment restriction) shares technical record from Chapter 6: / 6.1 Precautions When Using Skills / Thief Skill / [ ⑤ Listen [Intelligence] ] (Equipment restriction): You can also choose and listen to a specific sound from a mixture of various sounds. (5 shared statement(s), 1 shared atom(s))
 - [[sword-world-rpg-complete-edition-section-chapter-6-6-3-ranger-skill-listen-intelligence-equipment-restriction-a75e8f90]] - source section: Chapter 6: / 6.3 Ranger Skill / [ ④ Listen [Intelligence] ] (Equipment restriction) shares source evidence from Chapter 6: / 6.3 Ranger Skill / [ ④ Listen [Intelligence] ] (Equipment restriction): Rangers can listen to even the smallest sounds and can choose the sound they want to hear from a wide range of sounds. This is handed the same way as the thief's ability.; Chapter 6: / 6.3 Ranger Skill / [ ④ Listen [Intelligence] ] (Equipment restriction) shares technical record from Chapter 6: / 6.3 Ranger Skill / [ ④ Listen [Intelligence] ] (Equipment restriction): For example, when you walk through a ravine and see a pebble fall, you may feel like a landslide is about to occur, or you may feel an arrow flying from the darkness. (4 shared statement(s), 1 shared atom(s))
+
+### Shared technical atoms
+
+- [[sword-world-rpg-complete-edition-thief-skill]] - shared statements and technical atoms: 【 Thief Skill 】 shares source evidence from Chapter 6: / 6.1 Precautions When Using Skills / Thief Skill / [ ⑤ Listen [Intelligence] ] (Equipment restriction): This ability is used to hear certain sounds from behind walls, doors, or from a distance. You can also choose and listen to a specific sound from a mixture of variou ... [truncated]; 【 Thief Skill 】 shares technical record from Chapter 6: / 6.1 Precautions When Using Skills / Thief Skill / [ ⑤ Listen [Intelligence] ] (Equipment restriction): You can also choose and listen to a specific sound from a mixture of various sounds. (5 shared statement(s), 1 shared atom(s))
+- [[sword-world-rpg-complete-edition-ranger-skill]] - shared statements and technical atoms: 【 Ranger Skill 】 shares source evidence from Chapter 6: / 6.3 Ranger Skill / [ ④ Listen [Intelligence] ] (Equipment restriction): Rangers can listen to even the smallest sounds and can choose the sound they want to hear from a wide range of sounds. This is handed the same way as the thief's ability.; 【 Ranger Skill 】 shares technical record from Chapter 6: / 6.3 Ranger Skill / [ ④ Listen [Intelligence] ] (Equipment restriction): For example, when you walk through a ravine and see a pebble fall, you may feel like a landslide is about to occur, or you may feel an arrow flying from the darkness. (4 shared statement(s), 1 shared atom(s))
 
 ## Source
 

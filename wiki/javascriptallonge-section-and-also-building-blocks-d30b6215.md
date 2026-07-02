@@ -4,11 +4,11 @@ page_kind: source
 summary: And also: / Building Blocks: 35 source-backed entries and 2 atom(s) from raw/javascriptallonge.pdf.
 page_family: section-reference
 sources: raw/javascriptallonge.pdf
-updated: 2026-07-01
+updated: 2026-07-02
 domain: javascriptallonge
 category_path: sources/javascriptallonge/sections
 source_id: javascriptallonge.pdf
-projection_coverage: section-javascriptallonge-section-and-also-building-blocks-d30b6215@58e856a132900e0f7b47e5792e3f5d23
+projection_coverage: section-javascriptallonge-section-and-also-building-blocks-d30b6215@9aa2fa395df3bae94feae4cc28df9a68
 ---
 
 # And also: / Building Blocks
@@ -17,11 +17,16 @@ From [[javascriptallonge]].
 
 ## Related pages
 
+### Source order
+
+- [[javascriptallonge-section-and-also-combinators-and-function-decorators-4a7771ac]] - previous source section: And also: / Combinators and Function Decorators
+- [[javascriptallonge-section-and-also-magic-names-9b4fa0d7]] - next source section: And also: / Magic Names
+
+### Source structure
+
 - [[javascriptallonge-section-and-also-0e29dfba]] - broader source section: And also:
 - [[javascriptallonge-section-and-also-building-blocks-composition-b488e601]] - narrower source section: And also: / Building Blocks / composition
 - [[javascriptallonge-section-and-also-building-blocks-partial-application-a5e29ef2]] - narrower source section: And also: / Building Blocks / partial application
-- [[javascriptallonge-section-and-also-combinators-and-function-decorators-4a7771ac]] - previous source section: And also: / Combinators and Function Decorators
-- [[javascriptallonge-section-and-also-magic-names-9b4fa0d7]] - next source section: And also: / Magic Names
 
 ## Statements
 
@@ -57,6 +62,7 @@ From [[javascriptallonge]].
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00578))_
 
+<a id="atom-technical-atom-6ecb67d5a76f0442"></a>
 ```
 const cookAndEat = (food) => eat(cook(food));
 ```
@@ -69,6 +75,7 @@ const cookAndEat = (food) => eat(cook(food));
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00595))_
 
+<a id="atom-technical-atom-489106d51addd885"></a>
 ```text
 39 http://underscorejs.org
 41 If we don't want to sort out Underscore, we can also write the following: const map = (a, fn) => a.map(fn); , and trust that it works even though we haven't discussed methods yet.

@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-12-various-checks-12-1-rules-regarding-language-5c470256@c0a0b5b4a3d13a617cb2e49f3bc7074f
+projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-12-various-checks-12-1-rules-regarding-language-5c470256@24285cb9673981e2ca71ef64ea9dc1ea
 ---
 
 # Chapter 12: Various Checks / 12.1 Rules Regarding Language
@@ -17,13 +17,18 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
+### Source order
+
+- [[sword-world-rpg-complete-edition-section-chapter-12-various-checks-c4b81b14]] - next source section: Chapter 12: Various Checks
+
+### Source structure
+
 - [[sword-world-rpg-complete-edition-section-chapter-12-various-checks-edfd01f0]] - broader source section: Chapter 12: Various Checks
+- [[sword-world-rpg-complete-edition-section-chapter-12-various-checks-12-1-rules-regarding-language-12-1-3-adventurer-languages-ce57733a]] - narrower source section: Chapter 12: Various Checks / 12.1 Rules Regarding Language / 12.1.3 Adventurer Languages
+- [[sword-world-rpg-complete-edition-section-chapter-12-various-checks-12-1-rules-regarding-language-ability-a1d1c565]] - narrower source section: Chapter 12: Various Checks / 12.1 Rules Regarding Language / Ability
 - [[sword-world-rpg-complete-edition-section-chapter-12-various-checks-12-1-rules-regarding-language-and-runes-605c24c7]] - narrower source section: Chapter 12: Various Checks / 12.1 Rules Regarding Language / and Runes
 - [[sword-world-rpg-complete-edition-section-chapter-12-various-checks-12-1-rules-regarding-language-forcelia-dabbb4cf]] - narrower source section: Chapter 12: Various Checks / 12.1 Rules Regarding Language / Forcelia
-- [[sword-world-rpg-complete-edition-section-chapter-12-various-checks-12-1-rules-regarding-language-12-1-3-adventurer-languages-ce57733a]] - narrower source section: Chapter 12: Various Checks / 12.1 Rules Regarding Language / 12.1.3 Adventurer Languages
 - [[sword-world-rpg-complete-edition-section-chapter-12-various-checks-12-1-rules-regarding-language-languages-483d3522]] - narrower source section: Chapter 12: Various Checks / 12.1 Rules Regarding Language / Languages
-- [[sword-world-rpg-complete-edition-section-chapter-12-various-checks-12-1-rules-regarding-language-ability-a1d1c565]] - narrower source section: Chapter 12: Various Checks / 12.1 Rules Regarding Language / Ability
-- [[sword-world-rpg-complete-edition-section-chapter-12-various-checks-c4b81b14]] - next source section: Chapter 12: Various Checks
 
 ## Statements
 
@@ -154,6 +159,7 @@ From [[sword-world-rpg-complete-edition]].
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-05433))_
 
+<a id="atom-technical-atom-5463aa8393578628"></a>
 | High | ancient | Yes | [ | Common | ] | Not | among | the | monsters | in | this | book |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | Silent | spirit | No | Soldier (knight, | knight | leader) |  |  |  |  |  |  |  |

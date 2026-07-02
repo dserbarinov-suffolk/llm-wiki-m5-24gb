@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-5-1-12-ancient-magic-list-create-image-143bfa29@2ce14f21a866dc466fac10d53fa95a10
+projection_coverage: section-sword-world-rpg-complete-edition-section-5-1-12-ancient-magic-list-create-image-143bfa29@c62c7a64d2b216273e005e54f29fa37a
 ---
 
 # 5.1.12 Ancient Magic List / [ Create Image ]
@@ -17,9 +17,14 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-5-1-12-ancient-magic-list-2e59bfee]] - broader source section: 5.1.12 Ancient Magic List
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-5-1-12-ancient-magic-list-increase-weight-base-mental-power-cost-9-distance-10-meters-area-one-o-c593fd1e]] - previous source section: 5.1.12 Ancient Magic List / [ Increase Weight ] Base Mental Power Cost=9 Distance=10 meters Area=One object Duration=18 rounds Effect=Increase the weight of an object Type=Lost Counters (Negates): Decrease Weight Countered (Negated) By: Decrease Weight
 - [[sword-world-rpg-complete-edition-section-5-1-12-ancient-magic-list-stone-servant-445e48e5]] - next source section: 5.1.12 Ancient Magic List / [ Stone Servant ]
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-5-1-12-ancient-magic-list-2e59bfee]] - broader source section: 5.1.12 Ancient Magic List
 
 ## Statements
 

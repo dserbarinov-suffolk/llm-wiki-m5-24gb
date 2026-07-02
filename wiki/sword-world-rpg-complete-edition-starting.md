@@ -7,7 +7,7 @@ sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: concepts
-projection_coverage: topic-sword-world-rpg-complete-edition-starting@69a1e46b992eac9263014325cee9cef2
+projection_coverage: topic-sword-world-rpg-complete-edition-starting@96614920954c3b5e25ae9ff7914bfb4b
 ---
 
 # Starting
@@ -33,6 +33,7 @@ What [[sword-world-rpg-complete-edition]] covers about starting:
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-00375))_
 
+<a id="atom-technical-atom-0a74428040dc138e"></a>
 > If the race is human or half-elf raised by humans, use Table 1-5: Backgrounds. Roll 2D and look at the appropriate row.
 
 ### Technical frame 2: 1.4 Character Creation / 1.4.3 Starting Skills and Starting / For Humans and HalfElves Raised by Humans
@@ -43,6 +44,7 @@ What [[sword-world-rpg-complete-edition]] covers about starting:
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-00376))_
 
+<a id="atom-technical-atom-233af9b06343cee4"></a>
 > If the player's background is ordinary citizen (roll 7), they must consult with the game master to determine one general skill appropriate for the character and acquire it at 3rd level.
 
 ### Technical frame 3: 1.4 Character Creation / 1.4.3 Starting Skills and Starting / For Humans and HalfElves Raised by Humans
@@ -53,6 +55,7 @@ What [[sword-world-rpg-complete-edition]] covers about starting:
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-00377))_
 
+<a id="atom-technical-atom-af73704272b47aa7"></a>
 > If the player's background is merchant/scholar (roll 8), they must choose either 3rd level in the merchant skill or 3rd level in the sage skill for their character to acquire.
 
 ### Technical frame 4: Table 1-6: Starting Experience by Race
@@ -63,6 +66,7 @@ What [[sword-world-rpg-complete-edition]] covers about starting:
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-00378))_
 
+<a id="atom-technical-atom-d52456b4ed89c74f"></a>
 ```text
 Table 1-6: Starting Experience by Race
                                                                         character, it should be between 15 years
@@ -88,6 +92,8 @@ Table 1-6: Starting Experience by Race
 
 
 ## Related pages
+
+### Shared technical atoms
 
 - [[sword-world-rpg-complete-edition-halfelve-raised-human]] - shared technical atoms: Halfelve Raised Human shares technical record from 1.4 Character Creation / 1.4.3 Starting Skills and Starting / For Humans and HalfElves Raised by Humans: If the player's background is ordinary citizen (roll 7), they must consult with the game master to determine one general skill appropriate for the character and acqu ... [truncated] (1 shared atom(s))
 

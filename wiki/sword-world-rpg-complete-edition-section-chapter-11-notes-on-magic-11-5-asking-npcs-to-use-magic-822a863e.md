@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-11-notes-on-magic-11-5-asking-npcs-to-use-magic-822a863e@ee935ec530b7bb53aaf669625a1a22a1
+projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-11-notes-on-magic-11-5-asking-npcs-to-use-magic-822a863e@7665eb274e83664979991ceb930dc5bb
 ---
 
 # Chapter 11: Notes on Magic / 11.5 Asking NPCs to Use Magic
@@ -17,9 +17,14 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
+### Source order
+
+- [[sword-world-rpg-complete-edition-section-chapter-11-notes-on-magic-11-4-acquiring-rune-master-skills-and-increasing-levels-7501099d]] - previous source section: Chapter 11: Notes on Magic / 11.4 Acquiring Rune Master Skills and Increasing Levels
+
+### Source structure
+
 - [[sword-world-rpg-complete-edition-section-chapter-11-notes-on-magic-147e95d8]] - broader source section: Chapter 11: Notes on Magic
 - [[sword-world-rpg-complete-edition-section-chapter-11-notes-on-magic-11-5-asking-npcs-to-use-magic-dragon-priest-skill-a03d4ddb]] - narrower source section: Chapter 11: Notes on Magic / 11.5 Asking NPCs to Use Magic / 《 Dragon Priest Skill 》
-- [[sword-world-rpg-complete-edition-section-chapter-11-notes-on-magic-11-4-acquiring-rune-master-skills-and-increasing-levels-7501099d]] - previous source section: Chapter 11: Notes on Magic / 11.4 Acquiring Rune Master Skills and Increasing Levels
 
 ## Statements
 
@@ -55,6 +60,7 @@ From [[sword-world-rpg-complete-edition]].
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-05340))_
 
+<a id="atom-technical-atom-5ce0afec19ee1ae5"></a>
 ```text
 Table 11-2: NPC Presence by Level.
                                     The market price is NPC's rune master      You successfully find a 10th level
@@ -88,6 +94,7 @@ Table 11-2: NPC Presence by Level.
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-05343))_
 
+<a id="atom-technical-atom-f43aa8329769b919"></a>
 | You | may | want | to | have | a | Remove | Curse | 7th | level | Large | city | in | a | large | country, | royal | capital | level | of | a | small | country |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | cast Resurrection have | on a | you magical | when cast | when item | you're someone appraised | cursed, | a dies, or using | 5th 3rd | level level | Moderate Town | of | city around |  | 1000 | people |  |  |  |  |  |  |  |

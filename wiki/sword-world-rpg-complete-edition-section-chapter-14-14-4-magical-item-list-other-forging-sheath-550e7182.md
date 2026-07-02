@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-other-forging-sheath-550e7182@904c776faa202dace15891aa23dfec73
+projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-other-forging-sheath-550e7182@004ecefe75356f8490757650083c790f
 ---
 
 # Chapter 14: / 14.4 Magical Item List / 《 Other 》 / [ Forging Sheath ]
@@ -17,9 +17,14 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-other-ae5b041d]] - broader source section: Chapter 14: / 14.4 Magical Item List / 《 Other 》
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-other-bulkless-bag-e18a3e28]] - previous source section: Chapter 14: / 14.4 Magical Item List / 《 Other 》 / [ Bulkless Bag ]
 - [[sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-other-flying-carpet-83b363f2]] - next source section: Chapter 14: / 14.4 Magical Item List / 《 Other 》 / [ Flying Carpet ]
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-other-ae5b041d]] - broader source section: Chapter 14: / 14.4 Magical Item List / 《 Other 》
 
 ## Statements
 

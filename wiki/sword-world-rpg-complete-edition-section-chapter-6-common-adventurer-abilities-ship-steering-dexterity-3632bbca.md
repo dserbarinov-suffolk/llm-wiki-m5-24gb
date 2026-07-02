@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-6-common-adventurer-abilities-ship-steering-dexterity-3632bbca@49f1ebb7916164ef6c1884a0e0a019a0
+projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-6-common-adventurer-abilities-ship-steering-dexterity-3632bbca@e8d4b103f729cc1d3ef6ebdf4fa3fc08
 ---
 
 # Chapter 6: / Common Adventurer Abilities / [ ③ Ship Steering [Dexterity]]
@@ -17,9 +17,17 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-chapter-6-common-adventurer-abilities-328f2370]] - broader source section: Chapter 6: / Common Adventurer Abilities
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-chapter-6-common-adventurer-abilities-swim-agility-fd4642f2]] - previous source section: Chapter 6: / Common Adventurer Abilities / [ ② Swim [Agility] ]
 - [[sword-world-rpg-complete-edition-section-chapter-6-common-adventurer-abilities-climb-agility-7586c224]] - next source section: Chapter 6: / Common Adventurer Abilities / [ ④ Climb [Agility] ]
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-chapter-6-common-adventurer-abilities-328f2370]] - broader source section: Chapter 6: / Common Adventurer Abilities
+
+### Topics
+
 - [[sword-world-rpg-complete-edition-ship-steering-dexterity]] - topic hub: opens the topic page for Ship Steering Dexterity
 
 ## Statements

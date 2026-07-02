@@ -4,11 +4,11 @@ page_kind: source
 summary: And also: / Combinators and Function Decorators: 22 source-backed entries and 3 atom(s) from raw/javascriptallonge.pdf.
 page_family: section-reference
 sources: raw/javascriptallonge.pdf
-updated: 2026-07-01
+updated: 2026-07-02
 domain: javascriptallonge
 category_path: sources/javascriptallonge/sections
 source_id: javascriptallonge.pdf
-projection_coverage: section-javascriptallonge-section-and-also-combinators-and-function-decorators-4a7771ac@447e05dd37f96637fd3a1728fc38fc3c
+projection_coverage: section-javascriptallonge-section-and-also-combinators-and-function-decorators-4a7771ac@3567bd6bef07e74b42e12c8e6772c035
 ---
 
 # And also: / Combinators and Function Decorators
@@ -17,13 +17,18 @@ From [[javascriptallonge]].
 
 ## Related pages
 
-- [[javascriptallonge-section-and-also-0e29dfba]] - broader source section: And also:
-- [[javascriptallonge-section-and-also-combinators-and-function-decorators-higher-order-functions-15759c94]] - narrower source section: And also: / Combinators and Function Decorators / higher-order functions
-- [[javascriptallonge-section-and-also-combinators-and-function-decorators-combinators-d366528a]] - narrower source section: And also: / Combinators and Function Decorators / combinators
-- [[javascriptallonge-section-and-also-combinators-and-function-decorators-a-balanced-statement-about-combinators-09d1a71e]] - narrower source section: And also: / Combinators and Function Decorators / a balanced statement about combinators
-- [[javascriptallonge-section-and-also-combinators-and-function-decorators-function-decorators-989cc9e8]] - narrower source section: And also: / Combinators and Function Decorators / function decorators
+### Source order
+
 - [[javascriptallonge-section-and-also-naming-functions-cae91ee1]] - previous source section: And also: / Naming Functions
 - [[javascriptallonge-section-and-also-building-blocks-d30b6215]] - next source section: And also: / Building Blocks
+
+### Source structure
+
+- [[javascriptallonge-section-and-also-0e29dfba]] - broader source section: And also:
+- [[javascriptallonge-section-and-also-combinators-and-function-decorators-a-balanced-statement-about-combinators-09d1a71e]] - narrower source section: And also: / Combinators and Function Decorators / a balanced statement about combinators
+- [[javascriptallonge-section-and-also-combinators-and-function-decorators-combinators-d366528a]] - narrower source section: And also: / Combinators and Function Decorators / combinators
+- [[javascriptallonge-section-and-also-combinators-and-function-decorators-function-decorators-989cc9e8]] - narrower source section: And also: / Combinators and Function Decorators / function decorators
+- [[javascriptallonge-section-and-also-combinators-and-function-decorators-higher-order-functions-15759c94]] - narrower source section: And also: / Combinators and Function Decorators / higher-order functions
 
 ## Statements by subsection
 
@@ -59,6 +64,7 @@ From [[javascriptallonge]].
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00557))_
 
+<a id="atom-technical-atom-f4f4fcfc19e6c5d3"></a>
 ```text
 combinators
 The word 'combinator' has a precise technical meaning in mathematics:
@@ -86,6 +92,7 @@ If we were learning Combinatorial Logic, we'd start with the most basic combinat
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00565))_
 
+<a id="atom-technical-atom-f97ec19748b3df8d"></a>
 ```text
 function decorators
 A function decorator is a higher-order function that takes one function as an argument, returns another function, and the returned function is a variation of the argument function. Here's a ridiculously simple decorator: 38
@@ -111,6 +118,7 @@ A function decorator is a higher-order function that takes one function as an ar
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00572))_
 
+<a id="atom-technical-atom-ad78f7455392b913"></a>
 ```
 const nothing = not(something);
 ```

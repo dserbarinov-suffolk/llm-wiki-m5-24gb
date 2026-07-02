@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-12-various-checks-12-1-rules-regarding-language-forcelia-dwarven-752a308a@0db7f6f34a2495630b54b2ae0999161e
+projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-12-various-checks-12-1-rules-regarding-language-forcelia-dwarven-752a308a@b37ba03151fc8ba8e4c4fc3e694951d8
 ---
 
 # Chapter 12: Various Checks / 12.1 Rules Regarding Language / Forcelia / [ Dwarven ]
@@ -17,8 +17,13 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-chapter-12-various-checks-12-1-rules-regarding-language-forcelia-dabbb4cf]] - broader source section: Chapter 12: Various Checks / 12.1 Rules Regarding Language / Forcelia
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-chapter-12-various-checks-12-1-rules-regarding-language-forcelia-elven-0742886a]] - previous source section: Chapter 12: Various Checks / 12.1 Rules Regarding Language / Forcelia / [ Elven ]
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-chapter-12-various-checks-12-1-rules-regarding-language-forcelia-dabbb4cf]] - broader source section: Chapter 12: Various Checks / 12.1 Rules Regarding Language / Forcelia
 
 ## Statements
 

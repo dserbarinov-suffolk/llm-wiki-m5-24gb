@@ -4,11 +4,11 @@ page_kind: source
 summary: The Golden Crema: Appendices and Afterwords / About The Author / contact: 2 source-backed entries and 1 atom(s) from raw/javascriptallonge.pdf.
 page_family: section-reference
 sources: raw/javascriptallonge.pdf
-updated: 2026-07-01
+updated: 2026-07-02
 domain: javascriptallonge
 category_path: sources/javascriptallonge/sections
 source_id: javascriptallonge.pdf
-projection_coverage: section-javascriptallonge-section-the-golden-crema-appendices-and-afterwords-about-the-author-contact-13032416@1e2cebeef7eead2aa6bf243e4004b8f0
+projection_coverage: section-javascriptallonge-section-the-golden-crema-appendices-and-afterwords-about-the-author-contact-13032416@8218ba4c9235441c9977e34610c66aaa
 ---
 
 # The Golden Crema: Appendices and Afterwords / About The Author / contact
@@ -16,6 +16,8 @@ projection_coverage: section-javascriptallonge-section-the-golden-crema-appendic
 From [[javascriptallonge]].
 
 ## Related pages
+
+### Source structure
 
 - [[javascriptallonge-section-the-golden-crema-appendices-and-afterwords-about-the-author-6f0e2290]] - broader source section: The Golden Crema: Appendices and Afterwords / About The Author
 
@@ -25,6 +27,7 @@ From [[javascriptallonge]].
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-02061))_
 
+<a id="atom-technical-atom-44b8a8ea1fcbccfc"></a>
 ```text
 221 http://github.com/raganwald
 223 http://braythwayt.com

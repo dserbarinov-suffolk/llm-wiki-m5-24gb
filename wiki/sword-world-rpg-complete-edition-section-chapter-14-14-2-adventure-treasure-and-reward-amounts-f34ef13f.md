@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-14-14-2-adventure-treasure-and-reward-amounts-f34ef13f@f3980e368067da477865360f0dd5bc54
+projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-14-14-2-adventure-treasure-and-reward-amounts-f34ef13f@ddfde032aa35f087b1c4901d077cbb7c
 ---
 
 # Chapter 14: / 14.2 Adventure Treasure and Reward Amounts
@@ -17,10 +17,15 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-chapter-14-bd22bf6b]] - broader source section: Chapter 14:
-- [[sword-world-rpg-complete-edition-section-chapter-14-14-2-adventure-treasure-and-reward-amounts-14-2-1-negotiations-with-adventurers-cfa49bab]] - narrower source section: Chapter 14: / 14.2 Adventure Treasure and Reward Amounts / 14.2.1 Negotiations With Adventurers
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-chapter-14-14-1-treasure-and-rewards-in-sword-world-f7cd5d29]] - previous source section: Chapter 14: / 14.1 Treasure and Rewards in Sword World
 - [[sword-world-rpg-complete-edition-section-chapter-14-14-3-treasure-types-3e3d33e2]] - next source section: Chapter 14: / 14.3 Treasure Types
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-chapter-14-bd22bf6b]] - broader source section: Chapter 14:
+- [[sword-world-rpg-complete-edition-section-chapter-14-14-2-adventure-treasure-and-reward-amounts-14-2-1-negotiations-with-adventurers-cfa49bab]] - narrower source section: Chapter 14: / 14.2 Adventure Treasure and Reward Amounts / 14.2.1 Negotiations With Adventurers
 
 ## Statements
 

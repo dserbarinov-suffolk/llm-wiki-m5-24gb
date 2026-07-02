@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-spellsongs-filling-out-the-character-sheet-requiem-14d6191f@fbb63be9d6720db6d3508df138cbfe12
+projection_coverage: section-sword-world-rpg-complete-edition-section-spellsongs-filling-out-the-character-sheet-requiem-14d6191f@41db6e10b40bb9dce9f43e5754ef3572
 ---
 
 # Spellsongs / Filling out the Character Sheet / Requiem
@@ -17,9 +17,14 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-spellsongs-filling-out-the-character-sheet-866f5da1]] - broader source section: Spellsongs / Filling out the Character Sheet
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-spellsongs-filling-out-the-character-sheet-lullaby-mind-f187724a]] - previous source section: Spellsongs / Filling out the Character Sheet / Lullaby (Mind)
 - [[sword-world-rpg-complete-edition-section-spellsongs-filling-out-the-character-sheet-resistance-77e70b20]] - next source section: Spellsongs / Filling out the Character Sheet / Resistance
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-spellsongs-filling-out-the-character-sheet-866f5da1]] - broader source section: Spellsongs / Filling out the Character Sheet
 
 ## Statements
 
@@ -37,4 +42,5 @@ From [[sword-world-rpg-complete-edition]].
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-03960))_
 
+<a id="atom-technical-atom-0cd88c7bbdc2bec5"></a>
 > If this spellsong is sung to the deceased for over an hour during their funeral, the deceased will never become undead.

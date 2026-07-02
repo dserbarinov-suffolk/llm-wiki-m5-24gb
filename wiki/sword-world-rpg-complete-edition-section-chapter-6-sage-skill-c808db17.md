@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-6-sage-skill-c808db17@c37700c83f365f7f5a4fce09bbf2d581
+projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-6-sage-skill-c808db17@e306a07c5900111c67a1f145e952433d
 ---
 
 # Chapter 6: / Sage Skill
@@ -17,10 +17,18 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
+### Source order
+
+- [[sword-world-rpg-complete-edition-section-chapter-6-languages-intelligence-7db828ab]] - previous source section: Chapter 6: / [ ② Languages [Intelligence]]
+
+### Source structure
+
 - [[sword-world-rpg-complete-edition-section-chapter-6-79bede4b]] - broader source section: Chapter 6:
 - [[sword-world-rpg-complete-edition-section-chapter-6-sage-skill-astrology-intelligence-not-retriable-ddaf4670]] - narrower source section: Chapter 6: / Sage Skill / [ ③ Astrology [Intelligence] ] (Not retriable)
 - [[sword-world-rpg-complete-edition-section-chapter-6-sage-skill-knowledge-intelligence-not-retriable-17d5f7bb]] - narrower source section: Chapter 6: / Sage Skill / [ ④ Knowledge [Intelligence]] (Not retriable)
-- [[sword-world-rpg-complete-edition-section-chapter-6-languages-intelligence-7db828ab]] - previous source section: Chapter 6: / [ ② Languages [Intelligence]]
+
+### Topics
+
 - [[sword-world-rpg-complete-edition-sage-skill]] - topic hub: opens the topic page for Sage Skill
 
 ## Statements

@@ -4,11 +4,11 @@ page_kind: source
 summary: Copy on Write / Functional Iterators: 59 source-backed entries and 0 atom(s) from raw/javascriptallonge.pdf.
 page_family: section-reference
 sources: raw/javascriptallonge.pdf
-updated: 2026-07-01
+updated: 2026-07-02
 domain: javascriptallonge
 category_path: sources/javascriptallonge/sections
 source_id: javascriptallonge.pdf
-projection_coverage: section-javascriptallonge-section-copy-on-write-functional-iterators-773e8dc1@09de4091e9c55509117c82abfd909b20
+projection_coverage: section-javascriptallonge-section-copy-on-write-functional-iterators-773e8dc1@c58ed79ff8261cb584db18d9b58492b6
 ---
 
 # Copy on Write / Functional Iterators
@@ -17,13 +17,21 @@ From [[javascriptallonge]].
 
 ## Related pages
 
-- [[javascriptallonge-section-copy-on-write-ea36c891]] - broader source section: Copy on Write
-- [[javascriptallonge-section-copy-on-write-functional-iterators-iterating-5412bc60]] - narrower source section: Copy on Write / Functional Iterators / iterating
-- [[javascriptallonge-section-copy-on-write-functional-iterators-unfolding-and-laziness-34b94643]] - narrower source section: Copy on Write / Functional Iterators / unfolding and laziness
-- [[javascriptallonge-section-copy-on-write-functional-iterators-bonus-164389bb]] - narrower source section: Copy on Write / Functional Iterators / bonus
-- [[javascriptallonge-section-copy-on-write-functional-iterators-caveat-b77bc79a]] - narrower source section: Copy on Write / Functional Iterators / caveat
+### Source order
+
 - [[javascriptallonge-section-copy-on-write-tortoises-hares-and-teleporting-turtles-62bfcbc0]] - previous source section: Copy on Write / Tortoises, Hares, and Teleporting Turtles
 - [[javascriptallonge-section-copy-on-write-making-data-out-of-functions-12daea71]] - next source section: Copy on Write / Making Data Out Of Functions
+
+### Source structure
+
+- [[javascriptallonge-section-copy-on-write-ea36c891]] - broader source section: Copy on Write
+- [[javascriptallonge-section-copy-on-write-functional-iterators-bonus-164389bb]] - narrower source section: Copy on Write / Functional Iterators / bonus
+- [[javascriptallonge-section-copy-on-write-functional-iterators-caveat-b77bc79a]] - narrower source section: Copy on Write / Functional Iterators / caveat
+- [[javascriptallonge-section-copy-on-write-functional-iterators-iterating-5412bc60]] - narrower source section: Copy on Write / Functional Iterators / iterating
+- [[javascriptallonge-section-copy-on-write-functional-iterators-unfolding-and-laziness-34b94643]] - narrower source section: Copy on Write / Functional Iterators / unfolding and laziness
+
+### Topics
+
 - [[javascriptallonge-functional-iterator]] - topic hub: opens the topic page for Functional Iterator
 
 ## Statements

@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-13-2-6-mythical-beasts-and-magical-beasts-horse-snake-41b4e252@fcf1b8ea3164e6742b210c93037da900
+projection_coverage: section-sword-world-rpg-complete-edition-section-13-2-6-mythical-beasts-and-magical-beasts-horse-snake-41b4e252@f1ad3ded5aa0d75d55e5af8b1e2d8838
 ---
 
 # 13.2.6 Mythical Beasts and Magical Beasts / [ Horse ] / [ Snake ]
@@ -17,9 +17,14 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-13-2-6-mythical-beasts-and-magical-beasts-horse-9c294c60]] - broader source section: 13.2.6 Mythical Beasts and Magical Beasts / [ Horse ]
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-13-2-6-mythical-beasts-and-magical-beasts-horse-giant-seal-15ca89f9]] - previous source section: 13.2.6 Mythical Beasts and Magical Beasts / [ Horse ] / [ Giant Seal ]
 - [[sword-world-rpg-complete-edition-section-13-2-6-mythical-beasts-and-magical-beasts-horse-spider-610b0bc3]] - next source section: 13.2.6 Mythical Beasts and Magical Beasts / [ Horse ] / [ Spider ]
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-13-2-6-mythical-beasts-and-magical-beasts-horse-9c294c60]] - broader source section: 13.2.6 Mythical Beasts and Magical Beasts / [ Horse ]
 
 ## Statements
 
@@ -46,4 +51,5 @@ From [[sword-world-rpg-complete-edition]].
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-07354))_
 
+<a id="atom-technical-atom-b1cb3f8b4289a7a9"></a>
 > [Figure] (p.209)

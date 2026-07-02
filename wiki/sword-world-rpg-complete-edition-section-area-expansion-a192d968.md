@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-area-expansion-a192d968@9f6fc282c8ee89fd60ce921ced90b3b6
+projection_coverage: section-sword-world-rpg-complete-edition-section-area-expansion-a192d968@40e587ce8b5f3b4060631569073c6aeb
 ---
 
 # 《 Area Expansion 》
@@ -16,6 +16,8 @@ projection_coverage: section-sword-world-rpg-complete-edition-section-area-expan
 From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
+
+### Source order
 
 - [[sword-world-rpg-complete-edition-section-targets-expansion-4b9ebedb]] - previous source section: 《 Targets Expansion 》
 - [[sword-world-rpg-complete-edition-section-volume-expansion-94acc4c6]] - next source section: 《 Volume Expansion 》

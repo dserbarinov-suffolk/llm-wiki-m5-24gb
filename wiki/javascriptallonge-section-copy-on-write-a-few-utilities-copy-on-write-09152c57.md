@@ -4,11 +4,11 @@ page_kind: source
 summary: Copy on Write / a few utilities / copy-on-write: 11 source-backed entries and 0 atom(s) from raw/javascriptallonge.pdf.
 page_family: section-reference
 sources: raw/javascriptallonge.pdf
-updated: 2026-07-01
+updated: 2026-07-02
 domain: javascriptallonge
 category_path: sources/javascriptallonge/sections
 source_id: javascriptallonge.pdf
-projection_coverage: section-javascriptallonge-section-copy-on-write-a-few-utilities-copy-on-write-09152c57@7ab5bfb1b0eb2d95f4e27a16e14cf4e6
+projection_coverage: section-javascriptallonge-section-copy-on-write-a-few-utilities-copy-on-write-09152c57@ff26a4a4dd3992ebcf11850bcb3c993b
 ---
 
 # Copy on Write / a few utilities / copy-on-write
@@ -17,8 +17,16 @@ From [[javascriptallonge]].
 
 ## Related pages
 
-- [[javascriptallonge-section-copy-on-write-a-few-utilities-31a03dc1]] - broader source section: Copy on Write / a few utilities
+### Source order
+
 - [[javascriptallonge-section-copy-on-write-a-few-utilities-copy-on-read-3e3c1bfb]] - previous source section: Copy on Write / a few utilities / copy-on-read
+
+### Source structure
+
+- [[javascriptallonge-section-copy-on-write-a-few-utilities-31a03dc1]] - broader source section: Copy on Write / a few utilities
+
+### Topics
+
 - [[javascriptallonge-copy-write]] - topic hub: opens the topic page for Copy Write
 
 ## Statements

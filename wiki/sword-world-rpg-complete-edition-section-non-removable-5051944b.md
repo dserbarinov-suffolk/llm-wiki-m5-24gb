@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-non-removable-5051944b@8194ba10ea881ba05ca2119164ed5823
+projection_coverage: section-sword-world-rpg-complete-edition-section-non-removable-5051944b@4b57c7a56b2048562d80a704360344f2
 ---
 
 # 《 Non-removable 》
@@ -16,6 +16,8 @@ projection_coverage: section-sword-world-rpg-complete-edition-section-non-remova
 From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
+
+### Source order
 
 - [[sword-world-rpg-complete-edition-section-physical-ability-698688cf]] - previous source section: 《 Physical Ability 》
 - [[sword-world-rpg-complete-edition-section-curse-27cb44d5]] - next source section: 《 Curse 》

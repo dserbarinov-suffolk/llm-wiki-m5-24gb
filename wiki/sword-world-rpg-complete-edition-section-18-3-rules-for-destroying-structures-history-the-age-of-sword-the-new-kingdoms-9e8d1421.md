@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-18-3-rules-for-destroying-structures-history-the-age-of-sword-the-new-kingdoms-9e8d1421@afc5f9755816ab6b7f2077f7ce06d87e
+projection_coverage: section-sword-world-rpg-complete-edition-section-18-3-rules-for-destroying-structures-history-the-age-of-sword-the-new-kingdoms-9e8d1421@4a2855c3bdc06ac168d0351d9a47aa2c
 ---
 
 # 18.3 Rules for Destroying Structures / History / The Age of Sword = The New Kingdoms
@@ -17,8 +17,13 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-18-3-rules-for-destroying-structures-history-5d635441]] - broader source section: 18.3 Rules for Destroying Structures / History
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-18-3-rules-for-destroying-structures-history-the-age-of-magic-the-kingdom-of-kastuul-3b66f0f5]] - previous source section: 18.3 Rules for Destroying Structures / History / The Age of Magic = The Kingdom of Kastuul
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-18-3-rules-for-destroying-structures-history-5d635441]] - broader source section: 18.3 Rules for Destroying Structures / History
 
 ## Statements
 

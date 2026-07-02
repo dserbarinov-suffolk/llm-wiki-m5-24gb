@@ -7,7 +7,7 @@ sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: concepts
-projection_coverage: topic-sword-world-rpg-complete-edition-full-movement@b8e6d2ff3cfddb607ce993d31a89e098
+projection_coverage: topic-sword-world-rpg-complete-edition-full-movement@c5cdcd4d60adb87fa928cc798079eb1c
 ---
 
 # Full Movement
@@ -31,6 +31,7 @@ What [[sword-world-rpg-complete-edition]] covers about full movement:
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-01113))_
 
+<a id="atom-technical-atom-bbff782e85d13ec1"></a>
 ```text
 Movement and Actions
 3.4 Movement and Actions
@@ -55,6 +56,7 @@ Movement and Actions
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-04690))_
 
+<a id="atom-technical-atom-97c4d2b1f0087811"></a>
 | Full movement (Evasion speed only) | -4 |
 | --- | --- |
 | Can’t see opponent (in the dark, invisible enemy, etc.) However, if alternative senses (smell, hearing, etc.) are developed to some extent If you don't have to rely on vision | -4 -2 None |
@@ -75,18 +77,10 @@ Surprise Attacks
 
 </details>
 
-### Technical frame 3: Table 10-1: Attack Power and Evasion Speed Modifiers
-
-**Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-11294))_
-
-```text
-Table 10-1: Attack Power and Evasion Speed Modifiers
- Full movement (Evasion speed only)                                      -4
- Can’t see opponent (in the dark, invisible enemy, etc.)                         -4
-```
-
 
 ## Related pages
+
+### Shared technical atoms
 
 - [[sword-world-rpg-complete-edition-action]] - shared technical atoms: Action shares technical record from Chapter 3: / Movement and Actions: Movement and Actions 3.4 Movement and Actions 1 round lasts 10 seconds . Therefore, a character can also move during this time. However,  when movement is made, acti ... [truncated] (1 shared atom(s))
 - [[sword-world-rpg-complete-edition-movement]] - shared technical atoms: Movement shares technical record from Chapter 3: / Movement and Actions: Movement and Actions 3.4 Movement and Actions 1 round lasts 10 seconds . Therefore, a character can also move during this time. However,  when movement is made, acti ... [truncated] (1 shared atom(s))

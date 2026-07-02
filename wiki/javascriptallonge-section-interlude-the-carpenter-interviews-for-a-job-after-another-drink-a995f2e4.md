@@ -4,11 +4,11 @@ page_kind: source
 summary: Interlude: The Carpenter Interviews for a Job / after another drink: 8 source-backed entries and 0 atom(s) from raw/javascriptallonge.pdf.
 page_family: section-reference
 sources: raw/javascriptallonge.pdf
-updated: 2026-07-01
+updated: 2026-07-02
 domain: javascriptallonge
 category_path: sources/javascriptallonge/sections
 source_id: javascriptallonge.pdf
-projection_coverage: section-javascriptallonge-section-interlude-the-carpenter-interviews-for-a-job-after-another-drink-a995f2e4@0c3b0b5ccf5b88f72db0bf8d31415aa1
+projection_coverage: section-javascriptallonge-section-interlude-the-carpenter-interviews-for-a-job-after-another-drink-a995f2e4@3448367f29a00765e27e001ff5b51b2f
 ---
 
 # Interlude: The Carpenter Interviews for a Job / after another drink
@@ -17,8 +17,13 @@ From [[javascriptallonge]].
 
 ## Related pages
 
-- [[javascriptallonge-section-interlude-the-carpenter-interviews-for-a-job-2e3e33f6]] - broader source section: Interlude: The Carpenter Interviews for a Job
+### Source order
+
 - [[javascriptallonge-section-interlude-the-carpenter-interviews-for-a-job-the-aftermath-cd68ddb6]] - previous source section: Interlude: The Carpenter Interviews for a Job / the aftermath
+
+### Source structure
+
+- [[javascriptallonge-section-interlude-the-carpenter-interviews-for-a-job-2e3e33f6]] - broader source section: Interlude: The Carpenter Interviews for a Job
 
 ## Statements
 

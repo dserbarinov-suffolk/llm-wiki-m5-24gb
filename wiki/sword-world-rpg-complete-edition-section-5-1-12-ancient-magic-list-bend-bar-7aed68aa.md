@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-5-1-12-ancient-magic-list-bend-bar-7aed68aa@cdb704a48cb77dd4abb6dc8fc3d75851
+projection_coverage: section-sword-world-rpg-complete-edition-section-5-1-12-ancient-magic-list-bend-bar-7aed68aa@8321dd25b85cacf64ab0b18697d946dc
 ---
 
 # 5.1.12 Ancient Magic List / [ Bend Bar ]
@@ -17,9 +17,14 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-5-1-12-ancient-magic-list-2e59bfee]] - broader source section: 5.1.12 Ancient Magic List
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-5-1-12-ancient-magic-list-blade-net-3de06986]] - previous source section: 5.1.12 Ancient Magic List / [ Blade Net ]
 - [[sword-world-rpg-complete-edition-section-5-1-12-ancient-magic-list-polymorph-5103db3e]] - next source section: 5.1.12 Ancient Magic List / [ Polymorph ]
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-5-1-12-ancient-magic-list-2e59bfee]] - broader source section: 5.1.12 Ancient Magic List
 
 ## Statements
 

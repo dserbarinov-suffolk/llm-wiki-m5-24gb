@@ -4,11 +4,11 @@ page_kind: source
 summary: A Rich Aroma: Basic Numbers: 36 source-backed entries and 1 atom(s) from raw/javascriptallonge.pdf.
 page_family: section-reference
 sources: raw/javascriptallonge.pdf
-updated: 2026-07-01
+updated: 2026-07-02
 domain: javascriptallonge
 category_path: sources/javascriptallonge/sections
 source_id: javascriptallonge.pdf
-projection_coverage: section-javascriptallonge-section-a-rich-aroma-basic-numbers-ef9b6d69@19550e5ccfe696578d56b88f218cb998
+projection_coverage: section-javascriptallonge-section-a-rich-aroma-basic-numbers-ef9b6d69@038a6dc93407335b6157c718bd22cb86
 ---
 
 # A Rich Aroma: Basic Numbers
@@ -17,10 +17,15 @@ From [[javascriptallonge]].
 
 ## Related pages
 
-- [[javascriptallonge-section-a-rich-aroma-basic-numbers-floating-0d7c8f07]] - narrower source section: A Rich Aroma: Basic Numbers / floating
-- [[javascriptallonge-section-a-rich-aroma-basic-numbers-operations-on-numbers-1b9984ae]] - narrower source section: A Rich Aroma: Basic Numbers / operations on numbers
+### Source order
+
 - [[javascriptallonge-section-prelude-values-and-expressions-over-coffee-beffef42]] - previous source section: Prelude: Values and Expressions over Coffee
 - [[javascriptallonge-section-the-first-sip-basic-functions-e66ec551]] - next source section: The first sip: Basic Functions
+
+### Source structure
+
+- [[javascriptallonge-section-a-rich-aroma-basic-numbers-floating-0d7c8f07]] - narrower source section: A Rich Aroma: Basic Numbers / floating
+- [[javascriptallonge-section-a-rich-aroma-basic-numbers-operations-on-numbers-1b9984ae]] - narrower source section: A Rich Aroma: Basic Numbers / operations on numbers
 
 ## Statements
 
@@ -59,6 +64,7 @@ From [[javascriptallonge]].
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00154))_
 
+<a id="atom-technical-atom-c55f74778c79c801"></a>
 ```text
 13 http://en.wikipedia.org/wiki/Double-precision_floating-point_format
 14 Implementations of JavaScript are free to handle larger numbers. For example, if you type 9007199254740991 + 9007199254740991 into node.js , it will happily report that the answer is 18014398509481982 . But code that depends upon numbers larger than 9007199254740991 may not be reliable when moved to other implementations.

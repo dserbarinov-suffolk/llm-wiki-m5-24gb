@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-13-2-6-mythical-beasts-and-magical-beasts-horse-bat-236061d4@6ac48a1fd1c61df293ac539e57c4a378
+projection_coverage: section-sword-world-rpg-complete-edition-section-13-2-6-mythical-beasts-and-magical-beasts-horse-bat-236061d4@6602e9c1ddb9ceda0db40d7fb347a489
 ---
 
 # 13.2.6 Mythical Beasts and Magical Beasts / [ Horse ] / [ Bat ]
@@ -17,9 +17,14 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-13-2-6-mythical-beasts-and-magical-beasts-horse-9c294c60]] - broader source section: 13.2.6 Mythical Beasts and Magical Beasts / [ Horse ]
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-13-2-6-mythical-beasts-and-magical-beasts-horse-tiger-monster-level-3-rarity-6-agility-21-moveme-bfda9580]] - previous source section: 13.2.6 Mythical Beasts and Magical Beasts / [ Horse ] / [ Tiger ] Monster Level=3 Rarity=6 Agility=21 Movement Speed=25 Number=One to several Frequency=Rare Intellect=Animal Reaction=Hunger-based Attack Points=Fang:10 (3)/Claw:11 (4)/ Claw:11 (4) Strike Points=11/10/10 Evasion Points=11 (4) Defense Points=7 Life Points/Resistance=20/12 (5) Mental Points/Resistance=7/10 (3) Special Abilities=None in particular Habitat=Deep in forests Languages=None
 - [[sword-world-rpg-complete-edition-section-13-2-6-mythical-beasts-and-magical-beasts-horse-bear-4b66c11c]] - next source section: 13.2.6 Mythical Beasts and Magical Beasts / [ Horse ] / [ Bear ]
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-13-2-6-mythical-beasts-and-magical-beasts-horse-9c294c60]] - broader source section: 13.2.6 Mythical Beasts and Magical Beasts / [ Horse ]
 
 ## Statements
 
@@ -47,16 +52,22 @@ From [[sword-world-rpg-complete-edition]].
 
 **Atoms:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-07038, source-range-0d48087c-07039, source-range-0d48087c-07041, source-range-0d48087c-07043, source-range-0d48087c-07044, source-range-0d48087c-07045))_
 
+<a id="atom-technical-atom-5e386eeda4d590e0"></a>
 > Monster Level=2
 
+<a id="atom-technical-atom-98a788137a02b777"></a>
 > Rarity=10
 
+<a id="atom-technical-atom-43707dcf0419ccf0"></a>
 > Special Abilities=Bloodsuck (Strike power 10, bonus damage 2)
 
+<a id="atom-technical-atom-e4afe4421dfcdb1a"></a>
 > Habitat=Places sunlight does not reach, such as caves, etc.
 
+<a id="atom-technical-atom-3bcb7847d2fd1868"></a>
 > Languages=None
 
+<a id="atom-technical-atom-17da648a4ca173f0"></a>
 > Perception=Five senses (sonar)
 
 ### Technical frame 2: 13.2.6 Mythical Beasts and Magical Beasts / [ Horse ] / [ Bat ]
@@ -67,10 +78,14 @@ From [[sword-world-rpg-complete-edition]].
 
 **Atoms:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-07050, source-range-0d48087c-07052, source-range-0d48087c-07053, source-range-0d48087c-07054))_
 
+<a id="atom-technical-atom-e1a78cbf1f73bf83"></a>
 > Special Abilities=Capture
 
+<a id="atom-technical-atom-e20fa2b558bcd445"></a>
 > Habitat=Places sunlight does not reach, such as caves, etc.
 
+<a id="atom-technical-atom-14133d98e7b6871e"></a>
 > Languages=None
 
+<a id="atom-technical-atom-204dd55359019623"></a>
 > Perception=Five senses (sonar)

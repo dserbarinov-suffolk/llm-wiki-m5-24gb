@@ -4,10 +4,10 @@ page_kind: concept
 summary: Copy on Write: 120 statement(s) and 63 atom(s) from raw/javascriptallonge.pdf.
 page_family: broad-topic
 sources: raw/javascriptallonge.pdf
-updated: 2026-07-01
+updated: 2026-07-02
 domain: javascriptallonge
 category_path: concepts
-projection_coverage: topic-javascriptallonge-copy-write@289400e22c7574cbd750a347e26df9bf
+projection_coverage: topic-javascriptallonge-copy-write@5a77c133645ae8d2bf31c23abb30900e
 ---
 
 # Copy on Write
@@ -201,6 +201,7 @@ What [[javascriptallonge]] covers about copy on write:
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01223))_
 
+<a id="atom-technical-atom-93d06280c439087e"></a>
 > The consequence of this is that if you have an array, and you take it's 'rest,' your 'child' array is a copy of the elements of the parent array.
 
 ### Technical frame 2: Copy on Write
@@ -211,6 +212,7 @@ What [[javascriptallonge]] covers about copy on write:
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01224))_
 
+<a id="atom-technical-atom-6eb3e5646b36ffaf"></a>
 > Whereas if you have a linked list, and you take it's 'rest,' your 'child' list shares its nodes with the 'parent' list.
 
 ### Technical frame 3: Copy on Write
@@ -221,6 +223,7 @@ What [[javascriptallonge]] covers about copy on write:
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01226))_
 
+<a id="atom-technical-atom-efd8e690680d3b5a"></a>
 ```
 const parentArray = [1, 2, 3];
 const [aFirst, ...childArray] = parentArray;
@@ -251,6 +254,7 @@ childList
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01230))_
 
+<a id="atom-technical-atom-7a89503a1c2513d4"></a>
 ```
 const copy = (node, head = null, tail = null) => {
 if (node === EMPTY) {
@@ -298,6 +302,7 @@ const parentList = { first: 1, rest: { first: 2, rest: { first: 3, rest: EMPTY }
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01231))_
 
+<a id="atom-technical-atom-ba90ceb93ebdc5ae"></a>
 ```
 const childList = rest(parentList);
 set(2, "three", parentList);
@@ -317,6 +322,7 @@ childList
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01235))_
 
+<a id="atom-technical-atom-51bc48aa99117cc3"></a>
 ```
 const rest = ({first, rest}) => copy(rest);
 const parentList = { first: 1, rest: { first: 2, rest: { first: 3, rest: EMPTY }\
@@ -339,6 +345,7 @@ childList
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01241))_
 
+<a id="atom-technical-atom-ff1a11e29eb3914a"></a>
 ```
 const rest = ({first, rest}) => rest;
 const set = (index, value, list) =>
@@ -360,6 +367,7 @@ const newChildList = set(0, "two", childList);
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01243))_
 
+<a id="atom-technical-atom-1e7e254cfd478251"></a>
 ```
 parentList
 //=> {"first":1,"rest":{"first":2,"rest":{"first":3,"rest":{"first":{},"rest":\
@@ -376,6 +384,7 @@ childList
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01245))_
 
+<a id="atom-technical-atom-9eb84e521487b3d3"></a>
 ```
 newParentList
 //=> {"first":1,"rest":{"first":2,"rest":{"first":"three","rest":{"first":{},"\
@@ -392,6 +401,7 @@ newChildList
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01257))_
 
+<a id="atom-technical-atom-a993affc743c52b5"></a>
 ```
 const EMPTY = null;
 const isEmpty = (node) => node === EMPTY;
@@ -421,6 +431,7 @@ forceAppend(list1.rest, list2);
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01259))_
 
+<a id="atom-technical-atom-b0240c0c8e5b526f"></a>
 ```
 }
 }
@@ -461,6 +472,7 @@ tortoiseAndHare(aList);
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01262))_
 
+<a id="atom-technical-atom-b624cf119b4f811e"></a>
 ```
 const teleportingTurtle = (list) => {
 let speed = 1,
@@ -497,6 +509,7 @@ teleportingTurtle(aList);
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01268))_
 
+<a id="atom-technical-atom-24fc5bde3dd87bda"></a>
 ```
 const arraySum = ([first, ...rest], accumulator = 0) =>
 first === undefined
@@ -514,6 +527,7 @@ arraySum([1, 4, 9, 16, 25])
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01270))_
 
+<a id="atom-technical-atom-73aaabb73418a011"></a>
 ```
 const callLeft = (fn, ...args) =>
 (...remainingArgs) =>
@@ -535,6 +549,7 @@ arraySum([1, 4, 9, 16, 25])
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01274))_
 
+<a id="atom-technical-atom-c699834d7bae69f5"></a>
 ```
 const callRight = (fn, ...args) =>
 (...remainingArgs) =>
@@ -557,6 +572,7 @@ sumFoldable(foldArray([1, 4, 9, 16, 25]))
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01277))_
 
+<a id="atom-technical-atom-8d1904e8f85266ff"></a>
 ```
 const callRight = (fn, ...args) =>
 (...remainingArgs) =>
@@ -582,6 +598,7 @@ sumFoldable(foldTree([1, [4, [9, 16]], 25]))
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01282))_
 
+<a id="atom-technical-atom-f7b456184e95d5ca"></a>
 ```
 const arraySum = (array) => {
 let sum = 0;
@@ -602,6 +619,7 @@ arraySum([1, 4, 9, 16, 25])
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01285))_
 
+<a id="atom-technical-atom-4bd546db6cc10b01"></a>
 ```
 const arraySum = (array) => {
 let done,
@@ -625,6 +643,7 @@ arraySum([1, 4, 9, 16, 25])
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01287))_
 
+<a id="atom-technical-atom-557883d9714f88ed"></a>
 ```
 const arraySum = (array) => {
 let iter,
@@ -670,6 +689,7 @@ while ((eachIteration = iterator(), !eachIteration.done)) {
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01288))_
 
+<a id="atom-technical-atom-2a456f2976964a98"></a>
 ```
 sum += eachIteration.value;
 }
@@ -687,6 +707,7 @@ iteratorSum(arrayIterator([1, 4, 9, 16, 25]))
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01291))_
 
+<a id="atom-technical-atom-282dba3fa6180714"></a>
 ```
 const EMPTY = null;
 const isEmpty = (node) => node === EMPTY;
@@ -720,6 +741,7 @@ aPair = aPair.rest;
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01292))_
 
+<a id="atom-technical-atom-ec11f07272147db8"></a>
 ```
 return { done, value: first }
 }
@@ -745,6 +767,7 @@ iteratorSum(aListIterator)
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01295))_
 
+<a id="atom-technical-atom-e9b34a22026fe73e"></a>
 ```
 const NumberIterator = (number = 0) =>
 () => ({ done: false, value: number++ })
@@ -769,6 +792,7 @@ fromOne().value;
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01297))_
 
+<a id="atom-technical-atom-dc6d7632125621cc"></a>
 ```
 const FibonacciIterator
 = () => {
@@ -801,6 +825,7 @@ fib().value
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01300))_
 
+<a id="atom-technical-atom-106566f7f4dc0942"></a>
 ```
 const mapIteratorWith = (fn, iterator) =>
 () => {
@@ -821,6 +846,7 @@ squares().value
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01301))_
 
+<a id="atom-technical-atom-9a11199dca2516d3"></a>
 ```
 //=> 4
 squares().value
@@ -835,6 +861,7 @@ squares().value
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01303))_
 
+<a id="atom-technical-atom-f28b1a77d2c0e6d7"></a>
 ```
 const take = (iterator, numberToTake) => {
 let count = 0;
@@ -868,6 +895,7 @@ toArray(take(squares, 5))
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01305))_
 
+<a id="atom-technical-atom-7adc89bbb45aec36"></a>
 ```
 const odds = () => {
 ```
@@ -880,6 +908,7 @@ const odds = () => {
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01306))_
 
+<a id="atom-technical-atom-d8db762dae8a0974"></a>
 ```
 let number = 1;
 return () => {
@@ -901,6 +930,7 @@ toArray(take(squareOf(odds()), 5))
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01308))_
 
+<a id="atom-technical-atom-921c472cdded54e5"></a>
 ```
 const filterIteratorWith = (fn, iterator) =>
 () => {
@@ -922,6 +952,7 @@ toArray(take(squareOf(oddsOf(NumberIterator(1))), 5))
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01313))_
 
+<a id="atom-technical-atom-4befcf9fdb3ad196"></a>
 ```
 const firstInIteration = (fn, iterator) =>
 take(filterIteratorWith(fn, iterator), 1);
@@ -935,6 +966,7 @@ take(filterIteratorWith(fn, iterator), 1);
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01315))_
 
+<a id="atom-technical-atom-8cc7c05afa7a0aff"></a>
 ```
 const firstInArray = (fn, array) =>
 array.filter(fn)[0];
@@ -948,6 +980,7 @@ array.filter(fn)[0];
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01324))_
 
+<a id="atom-technical-atom-07148a923c2b2af4"></a>
 ```
 const EMPTY = {};
 const OneTwoThree = { first: 1, rest: { first: 2, rest: { first: 3, rest: EMPTY \
@@ -974,6 +1007,7 @@ length(OneTwoThree)
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01330))_
 
+<a id="atom-technical-atom-57cdb7ea2b16e63b"></a>
 ```text
 76 http://www.amazon.com/gp/product/0192801422/ref=as_li_ss_tl?ie=UTF8&tag=raganwald001-20&linkCode=as2&camp=1789&creative= 390957&creativeASIN=0192801422
 77 http://oscin.es
@@ -997,6 +1031,7 @@ length(OneTwoThree)
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01331))_
 
+<a id="atom-technical-atom-2ef931b2b0dbc278"></a>
 ```
 const K = (x) => (y) => x;
 const I = (x) => (x);
@@ -1011,6 +1046,7 @@ const V = (x) => (y) => (z) => z(x)(y);
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01335))_
 
+<a id="atom-technical-atom-f9f9877805aad860"></a>
 ```
 const K = (x) => (y) => x;
 const fortyTwo = K(42);
@@ -1028,6 +1064,7 @@ fortyTwo("Hello")
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01338))_
 
+<a id="atom-technical-atom-67a0d732081662ca"></a>
 ```
 K(6)(7)
 //=> 6
@@ -1043,6 +1080,7 @@ K(12)(24)
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01341))_
 
+<a id="atom-technical-atom-e4bdac6f60a9bebc"></a>
 ```
 Therefore, K(I)(x)(y) => y:
 ```
@@ -1055,6 +1093,7 @@ Therefore, K(I)(x)(y) => y:
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01342))_
 
+<a id="atom-technical-atom-e55c85ff4063e0f7"></a>
 ```
 K(I)(6)(7)
 //=> 7
@@ -1070,6 +1109,7 @@ K(I)(12)(24)
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01344))_
 
+<a id="atom-technical-atom-b494eff1e2dca526"></a>
 ```
 K("primus")("secundus")
 //=> "primus"
@@ -1085,6 +1125,7 @@ K(I)("primus")("secundus")
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01346))_
 
+<a id="atom-technical-atom-8871a2c75ac3c4da"></a>
 ```
 const first = K,
 second = K(I);
@@ -1102,6 +1143,7 @@ second("primus")("secundus")
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01350))_
 
+<a id="atom-technical-atom-05532f0c19b3ce5b"></a>
 ```
 const first = ([first, second]) => first,
 second = ([first, second]) => second;
@@ -1120,6 +1162,7 @@ second(latin)
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01352))_
 
+<a id="atom-technical-atom-e90b2fae7eea36a8"></a>
 ```
 const first = ({first, second}) => first,
 second = ({first, second}) => second;
@@ -1138,6 +1181,7 @@ second(latin)
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01356))_
 
+<a id="atom-technical-atom-7e75bd95ad51e161"></a>
 ```
 const first = K,
 second = K(I);
@@ -1156,6 +1200,7 @@ latin(second)
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01361))_
 
+<a id="atom-technical-atom-2a6b147bd13e773b"></a>
 ```
 (first, second) => (selector) => selector(first)(second)
 ```
@@ -1168,6 +1213,7 @@ latin(second)
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01363))_
 
+<a id="atom-technical-atom-820a5b99b6707dae"></a>
 ```
 (first) => (second) => (selector) => selector(first)(second)
 ```
@@ -1180,6 +1226,7 @@ latin(second)
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01365))_
 
+<a id="atom-technical-atom-90a08a2d5bc3ce00"></a>
 ```
 const first = K,
 second = K(I),
@@ -1199,6 +1246,7 @@ latin(second)
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01366))_
 
+<a id="atom-technical-atom-c2c35023a60a3182"></a>
 > If we change the names to x , y , and z , we get: (x) => (y) => (z) => z(x)(y) .
 
 ### Technical frame 49: Copy on Write / Making Data Out Of Functions / the vireo
@@ -1209,6 +1257,7 @@ latin(second)
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01368))_
 
+<a id="atom-technical-atom-ddb1d9072402c49c"></a>
 ```
 const first = K,
 second = K(I),
@@ -1228,6 +1277,7 @@ latin(second)
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01373))_
 
+<a id="atom-technical-atom-be4667f4576edd9e"></a>
 ```
 const first = ({first, rest}) => first,
 rest
@@ -1251,6 +1301,7 @@ first(rest(rest(l123)))
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01375))_
 
+<a id="atom-technical-atom-2ea4405a4bc43a2c"></a>
 ```
 const length = (aPair) =>
 aPair === EMPTY
@@ -1290,6 +1341,7 @@ const l123 = pair(1)(pair(2)(pair(3)(EMPTY)));
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01376))_
 
+<a id="atom-technical-atom-68d4fd56d2eb827e"></a>
 ```
 rest
 = K(I),
@@ -1309,6 +1361,7 @@ l123(rest)(first)
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01377))_
 
+<a id="atom-technical-atom-48d90dfc9ff9b36d"></a>
 ```
 //=> 2
 return l123(rest)(rest)(first)
@@ -1324,6 +1377,7 @@ We write them in a backwards way, but they seem to work. How about
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01379))_
 
+<a id="atom-technical-atom-fc8603101a93ed1b"></a>
 ```
 const length = (aPair) =>
 aPair === EMPTY
@@ -1357,6 +1411,7 @@ doubled(rest)(rest)(first)
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01386))_
 
+<a id="atom-technical-atom-2afeadb610200cc6"></a>
 ```
 const length = (aPair) =>
 aPair === EMPTY
@@ -1372,6 +1427,7 @@ aPair === EMPTY
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01388))_
 
+<a id="atom-technical-atom-0c0414bf19714ec5"></a>
 ```
 const length = (list) => list(
 () => 0,
@@ -1387,6 +1443,7 @@ const length = (list) => list(
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01390))_
 
+<a id="atom-technical-atom-b146e2d7690f1eaa"></a>
 ```
 const pairFirst = K,
 pairRest
@@ -1407,6 +1464,7 @@ const rest = (list) => list(
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01391))_
 
+<a id="atom-technical-atom-4dc2a4525a7055f2"></a>
 ```
 () => "ERROR: Can't take first of an empty list",
 (aPair) => aPair(pairRest)
@@ -1439,6 +1497,7 @@ print(l123)
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01393))_
 
+<a id="atom-technical-atom-f44f347835096da1"></a>
 ```
 const reverse = (list, delayed = EMPTYLIST) => list(
 () => delayed,
@@ -1463,6 +1522,7 @@ print(mapWith(x => x * x, reverse(l123)))
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01401))_
 
+<a id="atom-technical-atom-e05b4d965ecfffbd"></a>
 ```text
 79 https://en.wikipedia.org/wiki/Church_encoding
 81 https://en.wikipedia.org/wiki/Gauge_boson
@@ -1488,6 +1548,7 @@ print(mapWith(x => x * x, reverse(l123)))
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01407))_
 
+<a id="atom-technical-atom-246b9710702b0c68"></a>
 ```
 const first = K,
 second = K(I),
@@ -1510,6 +1571,7 @@ latin(second)
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01410))_
 
+<a id="atom-technical-atom-009c927d23932a6d"></a>
 ```
 const length = (list) => list(
 () => 0,
@@ -1525,6 +1587,7 @@ const length = (list) => list(
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01413))_
 
+<a id="atom-technical-atom-4491629ebdd4c91e"></a>
 ```
 const length = (node, delayed = 0) =>
 node === EMPTY
@@ -1535,8 +1598,13 @@ node === EMPTY
 
 ## Related pages
 
-- [[javascriptallonge-copy]] - broader topic: Copy shares source evidence from Copy on Write / a few utilities / copy-on-write: This strategy of waiting to copy until you are writing is called copy-on-write, or 'COW:'; Copy shares technical record from Copy on Write / a few utilities / copy-on-write: const rest = ({first, rest}) => rest; const set = (index, value, list) => index === 0 ? { first: value, rest: list.rest } : { first: list.first, rest: set(index - 1, ... [truncated] (3 shared statement(s), 4 shared atom(s))
-- [[javascriptallonge-write]] - broader topic: Write shares source evidence from Copy on Write / a few utilities / copy-on-write: Copy-on-write is the name given to the policy that whenever a task attempts to make a change to the shared information, it should first create a separate (private) c ... [truncated]; Write shares technical record from Copy on Write / Making Data Out Of Functions: 76 http://www.amazon.com/gp/product/0192801422/ref=as_li_ss_tl?ie=UTF8&tag=raganwald001-20&linkCode=as2&camp=1789&creative= 390957&creativeASIN=0192801422 77 http://oscin.es (2 shared statement(s), 2 shared atom(s))
+### Source structure
+
+- [[javascriptallonge-section-copy-on-write-ea36c891]] - source section: Copy on Write shares source evidence from Copy on Write: We've seen how to build lists with arrays and with linked lists. We've touched on an important difference between them:; Copy on Write shares technical record from Copy on Write: The consequence of this is that if you have an array, and you take it's 'rest,' your 'child' array is a copy of the elements of the parent array. (120 shared statement(s), 63 shared atom(s))
+- [[javascriptallonge-section-copy-on-write-a-few-utilities-copy-on-write-09152c57]] - source section: Copy on Write / a few utilities / copy-on-write shares source evidence from Copy on Write / a few utilities / copy-on-write: But our new parent and child lists are copies that contain the desired modifications, without interfering with each other:; Copy on Write / a few utilities / copy-on-write shares technical record from Copy on Write / a few utilities / copy-on-write: const rest = ({first, rest}) => rest; const set = (index, value, list) => index === 0 ? { first: value, rest: list.rest } : { first: list.first, rest: set(index - 1, ... [truncated] (7 shared statement(s), 3 shared atom(s))
+
+### Shared technical atoms
+
 - [[javascriptallonge-functional-iterator]] - shared statements and technical atoms: Functional Iterators shares source evidence from Copy on Write / Functional Iterators: The nice thing about this is that the definition for arraySum mostly concerns itself with summing, and not with traversing over a collection of data. But it still re ... [truncated]; Functional Iterators shares technical record from Copy on Write / Functional Iterators: const arraySum = ([first, ...rest], accumulator = 0) => first === undefined ? accumulator : arraySum(rest, first + accumulator) arraySum([1, 4, 9, 16, 25]) //=> 55 (31 shared statement(s), 20 shared atom(s))
 - [[javascriptallonge-list]] - shared statements and technical atoms: List shares source evidence from Copy on Write: We've seen how to build lists with arrays and with linked lists. We've touched on an important difference between them:; List shares technical record from Copy on Write: The consequence of this is that if you have an array, and you take it's 'rest,' your 'child' array is a copy of the elements of the parent array. (7 shared statement(s), 19 shared atom(s))
 - [[javascriptallonge-data]] - shared statements and technical atoms: Data shares source evidence from Copy on Write / Functional Iterators: What we've done is turn an array into a function that folds an array with const foldArray = (array) => callRight(foldArrayWith, array); . The sumFoldable function do ... [truncated]; Data shares technical record from Copy on Write / Functional Iterators / iterating: const EMPTY = null; const isEmpty = (node) => node === EMPTY; const pair = (first, rest = EMPTY) => ({first, rest}); const list = (...elements) => { const [first, .. ... [truncated] (5 shared statement(s), 9 shared atom(s))
@@ -1545,12 +1613,17 @@ node === EMPTY
 - [[javascriptallonge-javascript]] - shared statements and technical atoms: Javascript shares source evidence from Copy on Write / Functional Iterators / iterating: JavaScript has a particularly low-level version of for loop that mimics the semantics of the C language. Summing the elements of an array can be accomplished with:; Javascript shares technical record from Copy on Write / Functional Iterators / iterating: const arraySum = (array) => { let sum = 0; for (let i = 0; i < array.length; ++i) { sum += array[i]; } return sum } arraySum([1, 4, 9, 16, 25]) //=> 55 (4 shared statement(s), 4 shared atom(s))
 - [[javascriptallonge-structure]] - shared statements and technical atoms: Structure shares source evidence from Copy on Write / Functional Iterators: What we've done is turn an array into a function that folds an array with const foldArray = (array) => callRight(foldArrayWith, array); . The sumFoldable function do ... [truncated]; Structure shares technical record from Copy on Write / Functional Iterators / iterating: const EMPTY = null; const isEmpty = (node) => node === EMPTY; const pair = (first, rest = EMPTY) => ({first, rest}); const list = (...elements) => { const [first, .. ... [truncated] (3 shared statement(s), 3 shared atom(s))
 - [[javascriptallonge-parameter]] - shared statements and technical atoms: Parameter shares source evidence from Copy on Write / Making Data Out Of Functions / the vireo: Given that our latin data is represented as the function (selector) => selector("primus")("secundus") , our obvious next step is to make a function that makes data. ... [truncated]; Parameter shares technical record from Copy on Write / Making Data Out Of Functions / the vireo: (first, second) => (selector) => selector(first)(second) (1 shared statement(s), 2 shared atom(s))
-- [[javascriptallonge-operation]] - shared technical atoms: Operation shares technical record from Copy on Write / Functional Iterators / bonus: const firstInIteration = (fn, iterator) => take(filterIteratorWith(fn, iterator), 1); (1 shared atom(s))
+
+### Shared claims
+
 - [[javascriptallonge-return]] - shared statements: Return shares source evidence from Copy on Write / Functional Iterators / iterating: Now this is something else. The arrayIterator function takes an array and returns a function we can call repeatedly to obtain the elements of the array. The iterator ... [truncated] (2 shared statement(s))
 - [[javascriptallonge-kestrel]] - shared statements: Kestrel shares source evidence from Copy on Write / Making Data Out Of Functions / the kestrel and the idiot: A constant function is a function that always returns the same thing, no matter what you give it. For example, (x) => 42 is a constant function that always evaluates ... [truncated] (1 shared statement(s))
 - [[javascriptallonge-pattern]] - shared statements: Pattern shares source evidence from Copy on Write / a few utilities / copy-on-write: Looking at the code again, you see that the copy function doesn't copy on write: It follows the pattern that while constructing something, we own it and can be liber ... [truncated] (1 shared statement(s))
-- [[javascriptallonge-section-copy-on-write-ea36c891]] - source section: Copy on Write shares source evidence from Copy on Write: We've seen how to build lists with arrays and with linked lists. We've touched on an important difference between them:; Copy on Write shares technical record from Copy on Write: The consequence of this is that if you have an array, and you take it's 'rest,' your 'child' array is a copy of the elements of the parent array. (120 shared statement(s), 63 shared atom(s))
-- [[javascriptallonge-section-copy-on-write-a-few-utilities-copy-on-write-09152c57]] - source section: Copy on Write / a few utilities / copy-on-write shares source evidence from Copy on Write / a few utilities / copy-on-write: But our new parent and child lists are copies that contain the desired modifications, without interfering with each other:; Copy on Write / a few utilities / copy-on-write shares technical record from Copy on Write / a few utilities / copy-on-write: const rest = ({first, rest}) => rest; const set = (index, value, list) => index === 0 ? { first: value, rest: list.rest } : { first: list.first, rest: set(index - 1, ... [truncated] (7 shared statement(s), 3 shared atom(s))
+
+### Topics
+
+- [[javascriptallonge-copy]] - broader topic: Copy shares source evidence from Copy on Write / a few utilities / copy-on-write: This strategy of waiting to copy until you are writing is called copy-on-write, or 'COW:'; Copy shares technical record from Copy on Write / a few utilities / copy-on-write: const rest = ({first, rest}) => rest; const set = (index, value, list) => index === 0 ? { first: value, rest: list.rest } : { first: list.first, rest: set(index - 1, ... [truncated] (3 shared statement(s), 4 shared atom(s))
+- [[javascriptallonge-write]] - broader topic: Write shares source evidence from Copy on Write / a few utilities / copy-on-write: Copy-on-write is the name given to the policy that whenever a task attempts to make a change to the shared information, it should first create a separate (private) c ... [truncated]; Write shares technical record from Copy on Write / Making Data Out Of Functions: 76 http://www.amazon.com/gp/product/0192801422/ref=as_li_ss_tl?ie=UTF8&tag=raganwald001-20&linkCode=as2&camp=1789&creative= 390957&creativeASIN=0192801422 77 http://oscin.es (2 shared statement(s), 2 shared atom(s))
 
 ## Source
 

@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-5-1-12-ancient-magic-list-magic-protection-4612efc7@b88c9c373d71d81adef075d00a0219e8
+projection_coverage: section-sword-world-rpg-complete-edition-section-5-1-12-ancient-magic-list-magic-protection-4612efc7@62e5a68dffab7bfeeb19b3b4fe2bc641
 ---
 
 # 5.1.12 Ancient Magic List / [ Magic Protection ]
@@ -17,9 +17,14 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-5-1-12-ancient-magic-list-2e59bfee]] - broader source section: 5.1.12 Ancient Magic List
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-5-1-12-ancient-magic-list-protection-e88ff913]] - previous source section: 5.1.12 Ancient Magic List / [ Protection ]
 - [[sword-world-rpg-complete-edition-section-5-1-12-ancient-magic-list-light-abfe847d]] - next source section: 5.1.12 Ancient Magic List / [ Light ]
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-5-1-12-ancient-magic-list-2e59bfee]] - broader source section: 5.1.12 Ancient Magic List
 
 ## Statements
 

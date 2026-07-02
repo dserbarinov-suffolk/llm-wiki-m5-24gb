@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-3-ready-a-sheathed-weapon-04504555@bc00d024d3387970ab071a2c02661f2f
+projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-3-ready-a-sheathed-weapon-04504555@d2d773f66a9b8ecac5d22a380854fddb
 ---
 
 # Chapter 3: / Ready a Sheathed Weapon
@@ -17,9 +17,14 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-chapter-3-b1c23679]] - broader source section: Chapter 3:
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-chapter-3-3-4-2-actions-you-can-take-e7faacab]] - previous source section: Chapter 3: / 3.4.2 Actions You Can Take
 - [[sword-world-rpg-complete-edition-section-chapter-3-switch-a-weapon-from-hand-to-hand-c96843b7]] - next source section: Chapter 3: / Switch a Weapon From Hand to Hand
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-chapter-3-b1c23679]] - broader source section: Chapter 3:
 
 ## Statements
 
@@ -38,4 +43,5 @@ From [[sword-world-rpg-complete-edition]].
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-01129))_
 
+<a id="atom-technical-atom-bbd9397d5fc90e6b"></a>
 > If you're carrying a shield on your back, you can also ready it.

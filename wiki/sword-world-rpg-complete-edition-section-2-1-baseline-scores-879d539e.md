@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-2-1-baseline-scores-879d539e@e84837464639a7c67e3dd8589deae3f4
+projection_coverage: section-sword-world-rpg-complete-edition-section-2-1-baseline-scores-879d539e@2573303ad5f75b80af54df422fa49d15
 ---
 
 # 2.1 Baseline Scores
@@ -17,10 +17,15 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-2-1-baseline-scores-target-scores-16aa968b]] - narrower source section: 2.1 Baseline Scores / Target Scores
-- [[sword-world-rpg-complete-edition-section-2-1-baseline-scores-checks-b13b5a15]] - narrower source section: 2.1 Baseline Scores / Checks
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-1-4-character-creation-f6aa6108]] - previous source section: 1.4 Character Creation
 - [[sword-world-rpg-complete-edition-section-2-4-bonuses-and-penalties-5c33a45f]] - next source section: 2.4 Bonuses and Penalties
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-2-1-baseline-scores-checks-b13b5a15]] - narrower source section: 2.1 Baseline Scores / Checks
+- [[sword-world-rpg-complete-edition-section-2-1-baseline-scores-target-scores-16aa968b]] - narrower source section: 2.1 Baseline Scores / Target Scores
 
 ## Statements
 
@@ -66,6 +71,7 @@ From [[sword-world-rpg-complete-edition]].
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-00932))_
 
+<a id="atom-technical-atom-934bc6deabbcaf8c"></a>
 ```text
 Baseline Scores
 2.1 Baseline Scores
@@ -97,6 +103,7 @@ For  example,  if  the  player  wields  a sword, their fighter skill level is us
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-00941))_
 
+<a id="atom-technical-atom-ba652488ba562f9c"></a>
 ```text
 Target Scores
 2.2 Target Scores
@@ -124,6 +131,7 @@ The baseline score is  a number that represents a character's ability. However, 
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-00943))_
 
+<a id="atom-technical-atom-4405836276df990c"></a>
 > The player must roll two dice and add their baseline score to the roll.
 
 ### Technical frame 4: 2.1 Baseline Scores / Target Scores
@@ -134,6 +142,7 @@ The baseline score is  a number that represents a character's ability. However, 
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-00944))_
 
+<a id="atom-technical-atom-c3cf083c1ce1f607"></a>
 > final score (baseline score + 2D) ≥ target score → action is successful
 
 ### Technical frame 5: 2.1 Baseline Scores / Checks
@@ -144,6 +153,7 @@ The baseline score is  a number that represents a character's ability. However, 
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-00953))_
 
+<a id="atom-technical-atom-46d2041515cbfa64"></a>
 > If the roll is 6 or greater, it's a hit , and if the roll is 5 or lower, it's a miss .
 
 ### Technical frame 6: 2.1 Baseline Scores / Checks / 2.3.1 Automatic Success and Automatic Failure
@@ -154,4 +164,5 @@ The baseline score is  a number that represents a character's ability. However, 
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-00964))_
 
+<a id="atom-technical-atom-3e265c2a6721a15a"></a>
 > Conversely, if that player rolls a 2 , that is, if the two dice both roll a 1 ( double ones ), the action fails , no matter

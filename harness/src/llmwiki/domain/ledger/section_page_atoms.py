@@ -7,6 +7,7 @@ from llmwiki.domain.ledger.atoms import TechnicalAtom, atom_raw_text
 from llmwiki.domain.ledger.entries import LedgerEntry
 from llmwiki.domain.ledger.ledger import ClaimLedger
 from llmwiki.domain.ledger.structure import DocumentStructure, StructureNode
+from llmwiki.domain.ledger.table_authority import accepted_table_atom_ids
 from llmwiki.domain.ledger.table_identity import (
     has_matching_table_name,
     named_table_references,
@@ -24,7 +25,15 @@ def atoms_for_section_entries(
     structure: DocumentStructure,
     node: StructureNode,
 ) -> tuple[TechnicalAtom, ...]:
+    accepted_tables = accepted_table_atom_ids(ledger.technical_atoms)
     atom_ids = _context_supported_atom_ids(ledger, entries, node)
+    atom_ids = {
+        atom_id
+        for atom_id in atom_ids
+        if (atom := ledger.atom(atom_id)) is None
+        or atom.technical_atom_kind != "table"
+        or atom_id in accepted_tables
+    }
     section_name = normalize_table_name(node.heading_text)
     if section_name:
         atom_node_ids = table_structure_node_ids_by_atom_id(ledger)
@@ -48,6 +57,7 @@ def atoms_for_section_entries(
         atom
         for atom in ledger.technical_atoms
         if atom.technical_atom_id in atom_ids and atom_raw_text(atom.payload).strip()
+        and (atom.technical_atom_kind != "table" or atom.technical_atom_id in accepted_tables)
     )
 
 

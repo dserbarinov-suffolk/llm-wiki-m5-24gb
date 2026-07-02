@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-13-2-6-mythical-beasts-and-magical-beasts-horse-13-2-13-other-lycanthrope-573fff54@d34645d799ac452c7f608144726115f5
+projection_coverage: section-sword-world-rpg-complete-edition-section-13-2-6-mythical-beasts-and-magical-beasts-horse-13-2-13-other-lycanthrope-573fff54@a3d5968e08edc3a484aa043308383ebb
 ---
 
 # 13.2.6 Mythical Beasts and Magical Beasts / [ Horse ] / 13.2.13 Other / [ Lycanthrope ]
@@ -16,6 +16,8 @@ projection_coverage: section-sword-world-rpg-complete-edition-section-13-2-6-myt
 From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
+
+### Source structure
 
 - [[sword-world-rpg-complete-edition-section-13-2-6-mythical-beasts-and-magical-beasts-horse-13-2-13-other-1185d157]] - broader source section: 13.2.6 Mythical Beasts and Magical Beasts / [ Horse ] / 13.2.13 Other
 
@@ -40,6 +42,7 @@ From [[sword-world-rpg-complete-edition]].
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-08580))_
 
+<a id="atom-technical-atom-2a6df6c326d7444b"></a>
 > When the score is equal to or less than this, the lycanthrope will always enter beast form (the lycanthrope will always enter beast form on nights when the moon is full = 15 days).
 
 ### Technical frame 2: 13.2.6 Mythical Beasts and Magical Beasts / [ Horse ] / 13.2.13 Other / [ Lycanthrope ]
@@ -50,4 +53,5 @@ From [[sword-world-rpg-complete-edition]].
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-08581))_
 
+<a id="atom-technical-atom-23eb3ea082627f31"></a>
 > Even when it's not, a lycanthrope can transform into a beast at their own will.

@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-13-2-1-humans-monster-level-ecb5953a@066c33983145b9cd676f042fe695bfe0
+projection_coverage: section-sword-world-rpg-complete-edition-section-13-2-1-humans-monster-level-ecb5953a@5cb78b856b8af45dc245c480bb7de5b7
 ---
 
 # 13.2.1 《 Humans 》 / 《 Monster Level 》
@@ -17,9 +17,14 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-13-2-1-humans-2369e4b2]] - broader source section: 13.2.1 《 Humans 》
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-13-2-1-humans-monster-catalog-7065b437]] - previous source section: 13.2.1 《 Humans 》 / Monster Catalog
 - [[sword-world-rpg-complete-edition-section-13-2-1-humans-dog-54f59f23]] - next source section: 13.2.1 《 Humans 》 / [ Dog ]
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-13-2-1-humans-2369e4b2]] - broader source section: 13.2.1 《 Humans 》
 
 ## Statements
 

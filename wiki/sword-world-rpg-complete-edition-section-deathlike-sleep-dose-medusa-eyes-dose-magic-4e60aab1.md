@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-deathlike-sleep-dose-medusa-eyes-dose-magic-4e60aab1@a3975179b01f179a6c2664fd553dcdc4
+projection_coverage: section-sword-world-rpg-complete-edition-section-deathlike-sleep-dose-medusa-eyes-dose-magic-4e60aab1@e0d5a9daaa1369c661a116c59c43264b
 ---
 
 # [Deathlike Sleep (Dose)] / [Medusa Eyes (Dose/Magic)]
@@ -17,9 +17,14 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-deathlike-sleep-dose-839e5efc]] - broader source section: [Deathlike Sleep (Dose)]
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-deathlike-sleep-dose-white-marble-inhaled-magic-17b4b9a5]] - previous source section: [Deathlike Sleep (Dose)] / [White Marble (Inhaled/Magic)]
 - [[sword-world-rpg-complete-edition-section-deathlike-sleep-dose-love-passion-inhaled-dose-magic-mind-f8d31402]] - next source section: [Deathlike Sleep (Dose)] / [ Love Passion (Inhaled, Dose/Magic, Mind) ]
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-deathlike-sleep-dose-839e5efc]] - broader source section: [Deathlike Sleep (Dose)]
 
 ## Statements
 

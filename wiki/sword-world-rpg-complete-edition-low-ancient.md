@@ -7,7 +7,7 @@ sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: concepts
-projection_coverage: topic-sword-world-rpg-complete-edition-low-ancient@4ca00d3f75ebb92fc02a1c70d5acb66d
+projection_coverage: topic-sword-world-rpg-complete-edition-low-ancient@bba4799397de46809e67c0a3aef73716
 ---
 
 # 《 Low Ancient 》
@@ -81,13 +81,7 @@ What [[sword-world-rpg-complete-edition]] covers about 《 low ancient 》:
 
 ## Technical atoms
 
-### Technical frame 1: Chapter 12: Various Checks / 12.1 Rules Regarding Language / Forcelia / 《 Low Ancient 》
-
-**Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-05393))_
-
-> This is because you cannot begin to understand the great civilization of the ancient kingdom unless you know low ancient.
-
-### Technical frame 2: Chapter 12: Various Checks / 12.1 Rules Regarding Language / Languages
+### Technical frame 1: Chapter 12: Various Checks / 12.1 Rules Regarding Language / Languages
 
 **Context:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-05431))_
 
@@ -95,17 +89,26 @@ What [[sword-world-rpg-complete-edition]] covers about 《 low ancient 》:
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-05430))_
 
+<a id="atom-technical-atom-16f57207d106a461"></a>
 > An owner of the sorcerer skill can read low ancient, so acquiring the sage skill will quickly allow you to learn new languages (if you can read common).
 
 
 ## Related pages
 
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-chapter-12-various-checks-12-1-rules-regarding-language-forcelia-low-ancient-1306f0b3]] - source section: Chapter 12: Various Checks / 12.1 Rules Regarding Language / Forcelia / 《 Low Ancient 》 shares source evidence from Chapter 12: Various Checks / 12.1 Rules Regarding Language / Forcelia / 《 Low Ancient 》: Low ancient is the normal language used in the ancient kingdom of Kastuul, which once flourished throughout Alecrast. Although it is now a dead language, its words a ... [truncated]; Chapter 12: Various Checks / 12.1 Rules Regarding Language / Forcelia / 《 Low Ancient 》 shares technical record from Chapter 12: Various Checks / 12.1 Rules Regarding Language / Forcelia / 《 Low Ancient 》: This is because you cannot begin to understand the great civilization of the ancient kingdom unless you know low ancient. (3 shared statement(s), 1 shared atom(s))
+- [[sword-world-rpg-complete-edition-section-sample-magic-details-low-ancient-394d76a9]] - source section: [Sample Magic Details] / 《 Low Ancient 》 shares source evidence from [Sample Magic Details] / 《 Low Ancient 》: This was an everyday language of the ancient kingdom, called low ancient , and was the language used by citizens and slaves. Sorcerers can speak, read and write in t ... [truncated] (2 shared statement(s))
+
+### Shared technical atoms
+
 - [[sword-world-rpg-complete-edition-sage-skill]] - shared statements and technical atoms: Sage Skill shares source evidence from Chapter 6: / Sage Skill: There are limitations to learning languages through the sage skill. Characters who cannot read common must fi rst learn how to read common before learning other lang ... [truncated]; Sage Skill shares technical record from Chapter 12: Various Checks / 12.1 Rules Regarding Language / Languages: An owner of the sorcerer skill can read low ancient, so acquiring the sage skill will quickly allow you to learn new languages (if you can read common). (3 shared statement(s), 1 shared atom(s))
+
+### Shared claims
+
 - [[sword-world-rpg-complete-edition-attack-character-monster]] - shared statements: Attacks From Characters Against Monsters shares source evidence from 13.2.6 Mythical Beasts and Magical Beasts / [ Lamia ]: Monster Level=5 Rarity=15 Agility=9 Movement Speed=12 Number=One Frequency=Rare Intellect=Human Reaction=Neutral Attack Points=Strangle:13 (6) Strike Points=11 Evasi ... [truncated] (3 shared statement(s))
 - [[sword-world-rpg-complete-edition-attack-monster-character]] - shared statements: Attacks From Monsters Against Characters shares source evidence from 13.2.6 Mythical Beasts and Magical Beasts / [ Lamia ]: Monster Level=5 Rarity=15 Agility=9 Movement Speed=12 Number=One Frequency=Rare Intellect=Human Reaction=Neutral Attack Points=Strangle:13 (6) Strike Points=11 Evasi ... [truncated] (3 shared statement(s))
 - [[sword-world-rpg-complete-edition-11-acquiring-rune-master-skill]] - shared statements: 11 Acquiring Rune Master Skill shares source evidence from Chapter 11: Notes on Magic / 11.4 Acquiring Rune Master Skills and Increasing Levels / 《 Sorcerer Skill 》: Then, you'll be given basic knowledge as a sorcerer, such as speaking and reading in high and low ancient, thus a sorcerer who can use 1st level spells is born. In t ... [truncated] (1 shared statement(s))
-- [[sword-world-rpg-complete-edition-section-sample-magic-details-low-ancient-394d76a9]] - source section: [Sample Magic Details] / 《 Low Ancient 》 shares source evidence from [Sample Magic Details] / 《 Low Ancient 》: This was an everyday language of the ancient kingdom, called low ancient , and was the language used by citizens and slaves. Sorcerers can speak, read and write in t ... [truncated] (2 shared statement(s))
-- [[sword-world-rpg-complete-edition-section-chapter-12-various-checks-12-1-rules-regarding-language-forcelia-low-ancient-1306f0b3]] - source section: Chapter 12: Various Checks / 12.1 Rules Regarding Language / Forcelia / 《 Low Ancient 》 shares source evidence from Chapter 12: Various Checks / 12.1 Rules Regarding Language / Forcelia / 《 Low Ancient 》: Low ancient is the normal language used in the ancient kingdom of Kastuul, which once flourished throughout Alecrast. Although it is now a dead language, its words a ... [truncated]; Chapter 12: Various Checks / 12.1 Rules Regarding Language / Forcelia / 《 Low Ancient 》 shares technical record from Chapter 12: Various Checks / 12.1 Rules Regarding Language / Forcelia / 《 Low Ancient 》: This is because you cannot begin to understand the great civilization of the ancient kingdom unless you know low ancient. (3 shared statement(s), 1 shared atom(s))
 
 ## Source
 

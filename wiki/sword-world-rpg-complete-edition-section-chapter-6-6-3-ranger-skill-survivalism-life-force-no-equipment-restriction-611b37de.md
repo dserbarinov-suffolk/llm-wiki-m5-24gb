@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-6-6-3-ranger-skill-survivalism-life-force-no-equipment-restriction-611b37de@78916e87d38a7e9641f81c8086760797
+projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-6-6-3-ranger-skill-survivalism-life-force-no-equipment-restriction-611b37de@edd33cdb7e71b2e927f2dea5f8b18137
 ---
 
 # Chapter 6: / 6.3 Ranger Skill / [ ⑦ Survivalism [Life Force] ] (No equipment restriction)
@@ -17,9 +17,14 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-chapter-6-6-3-ranger-skill-ae825c0d]] - broader source section: Chapter 6: / 6.3 Ranger Skill
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-chapter-6-6-3-ranger-skill-stealthy-step-agility-equipment-restriction-c919bd2e]] - previous source section: Chapter 6: / 6.3 Ranger Skill / [ ⑥ Stealthy Step [Agility] ] (Equipment restriction)
 - [[sword-world-rpg-complete-edition-section-chapter-6-6-3-ranger-skill-search-intelligence-no-equipment-restriction-not-retriable-ba9ab8c0]] - next source section: Chapter 6: / 6.3 Ranger Skill / [ ⑧ Search [Intelligence] ] (No equipment restriction, not retriable)
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-chapter-6-6-3-ranger-skill-ae825c0d]] - broader source section: Chapter 6: / 6.3 Ranger Skill
 
 ## Statements
 

@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-18-3-rules-for-destroying-structures-geography-northern-central-region-language-western-gundar-c52a1c7e@b4316d2f2a4ad991dc812a223496a4af
+projection_coverage: section-sword-world-rpg-complete-edition-section-18-3-rules-for-destroying-structures-geography-northern-central-region-language-western-gundar-c52a1c7e@7dfe5658757dd79f67c2c3bc9620fc24
 ---
 
 # 18.3 Rules for Destroying Structures / Geography / Northern Central Region (Language = Western/Gundar)
@@ -17,9 +17,14 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-18-3-rules-for-destroying-structures-geography-f18d9385]] - broader source section: 18.3 Rules for Destroying Structures / Geography
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-18-3-rules-for-destroying-structures-geography-central-region-language-m-rdan-eremire-gundar-sai-c2382841]] - previous source section: 18.3 Rules for Destroying Structures / Geography / Central Region (Language = Mārdan/Eremire Gundar/Saine)
 - [[sword-world-rpg-complete-edition-section-18-3-rules-for-destroying-structures-geography-southern-central-region-language-western-gundar-2326e7bd]] - next source section: 18.3 Rules for Destroying Structures / Geography / Southern Central Region (Language = Western/Gundar)
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-18-3-rules-for-destroying-structures-geography-f18d9385]] - broader source section: 18.3 Rules for Destroying Structures / Geography
 
 ## Statements
 

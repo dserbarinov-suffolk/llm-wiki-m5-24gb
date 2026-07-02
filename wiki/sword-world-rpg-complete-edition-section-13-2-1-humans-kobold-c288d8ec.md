@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-13-2-1-humans-kobold-c288d8ec@2bbfd3e8c4b057fb161c28e00c36ba2f
+projection_coverage: section-sword-world-rpg-complete-edition-section-13-2-1-humans-kobold-c288d8ec@ab398f0599c3d5e48f9897bae27e590a
 ---
 
 # 13.2.1 《 Humans 》 / [ Kobold ]
@@ -17,5 +17,10 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-13-2-1-humans-2369e4b2]] - broader source section: 13.2.1 《 Humans 》
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-13-2-1-humans-imp-7d6833df]] - previous source section: 13.2.1 《 Humans 》 / [ Imp ]
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-13-2-1-humans-2369e4b2]] - broader source section: 13.2.1 《 Humans 》

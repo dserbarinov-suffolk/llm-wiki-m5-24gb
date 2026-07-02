@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-10-5-attacks-against-the-sleeping-damage-adc079fa@91e572c24dcb27a3fddcd2e1c1b3af6f
+projection_coverage: section-sword-world-rpg-complete-edition-section-10-5-attacks-against-the-sleeping-damage-adc079fa@40a8fa522e1850844f4377476b2ee81c
 ---
 
 # 10.5 Attacks Against the Sleeping / 《 Damage 》
@@ -17,8 +17,16 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-10-5-attacks-against-the-sleeping-a6ff2046]] - broader source section: 10.5 Attacks Against the Sleeping
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-10-5-attacks-against-the-sleeping-hit-checks-5bc987e8]] - previous source section: 10.5 Attacks Against the Sleeping / 《 Hit Checks 》
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-10-5-attacks-against-the-sleeping-a6ff2046]] - broader source section: 10.5 Attacks Against the Sleeping
+
+### Topics
+
 - [[sword-world-rpg-complete-edition-damage]] - topic hub: opens the topic page for Damage
 
 ## Statements
@@ -36,4 +44,5 @@ From [[sword-world-rpg-complete-edition]].
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-04753))_
 
+<a id="atom-technical-atom-8f4a5fc51b92d930"></a>
 > [Figure] (p.140)

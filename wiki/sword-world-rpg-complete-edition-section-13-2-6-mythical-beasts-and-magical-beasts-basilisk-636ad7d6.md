@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-13-2-6-mythical-beasts-and-magical-beasts-basilisk-636ad7d6@b6c9e0a1b01216e52823bd57bef2d937
+projection_coverage: section-sword-world-rpg-complete-edition-section-13-2-6-mythical-beasts-and-magical-beasts-basilisk-636ad7d6@6bbc1c01c59fdd0789be1fc6d320e858
 ---
 
 # 13.2.6 Mythical Beasts and Magical Beasts / [ Basilisk ]
@@ -17,9 +17,14 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-13-2-6-mythical-beasts-and-magical-beasts-f86962d2]] - broader source section: 13.2.6 Mythical Beasts and Magical Beasts
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-13-2-6-mythical-beasts-and-magical-beasts-wyvern-5f9920f0]] - previous source section: 13.2.6 Mythical Beasts and Magical Beasts / [ Wyvern ]
 - [[sword-world-rpg-complete-edition-section-13-2-6-mythical-beasts-and-magical-beasts-sea-dragon-c0b3bff1]] - next source section: 13.2.6 Mythical Beasts and Magical Beasts / [ Sea Dragon ]
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-13-2-6-mythical-beasts-and-magical-beasts-f86962d2]] - broader source section: 13.2.6 Mythical Beasts and Magical Beasts
 
 ## Statements
 
@@ -40,6 +45,7 @@ From [[sword-world-rpg-complete-edition]].
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-06720))_
 
+<a id="atom-technical-atom-a07de9f57be50dde"></a>
 > Anyone holding a weapon with basilisk blood on it must make a life force resistance roll against target score 15 each round, and if they fail, they will suffer damage resulting from a strike power 10 strike roll plus bonus damage 8.
 
 ### Technical frame 2: 13.2.6 Mythical Beasts and Magical Beasts / [ Basilisk ]
@@ -50,12 +56,17 @@ From [[sword-world-rpg-complete-edition]].
 
 **Atoms:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-06722, source-range-0d48087c-06723, source-range-0d48087c-06724, source-range-0d48087c-06725, source-range-0d48087c-06726))_
 
+<a id="atom-technical-atom-efb13a5b50ea12ce"></a>
 > Monster Level=5 Rarity=10 Agility=12 Movement Speed=7 Number=One Frequency=Very Rare Intellect=Animal Reaction=Adversarial Attack Points=Fangs:12 (5) Strike Points=13
 
+<a id="atom-technical-atom-5d06eef779104855"></a>
 > Evasion Points=13 (6) Defense Points=9
 
+<a id="atom-technical-atom-5bb44db5e15eb93f"></a>
 > Life Points/Resistance=19/14 (7)
 
+<a id="atom-technical-atom-03a208f021f1c6cb"></a>
 > Mental Points/Resistance=9/12 (5)
 
+<a id="atom-technical-atom-f3addf1858b6cfa2"></a>
 > Special Ability=Gaze (Resist target score=15, petrifying, once every 2 rounds)

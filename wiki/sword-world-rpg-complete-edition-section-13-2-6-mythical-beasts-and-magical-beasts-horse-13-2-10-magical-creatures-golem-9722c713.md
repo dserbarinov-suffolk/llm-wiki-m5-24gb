@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-13-2-6-mythical-beasts-and-magical-beasts-horse-13-2-10-magical-creatures-golem-9722c713@0bbcfdce3b7e8ec493f90c9c1af2bc25
+projection_coverage: section-sword-world-rpg-complete-edition-section-13-2-6-mythical-beasts-and-magical-beasts-horse-13-2-10-magical-creatures-golem-9722c713@4bc51b300e1a8e438b0ba0a1484def8d
 ---
 
 # 13.2.6 Mythical Beasts and Magical Beasts / [ Horse ] / 13.2.10 Magical Creatures / [ Golem ]
@@ -17,8 +17,13 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-13-2-6-mythical-beasts-and-magical-beasts-horse-13-2-10-magical-creatures-0e88a6a0]] - broader source section: 13.2.6 Mythical Beasts and Magical Beasts / [ Horse ] / 13.2.10 Magical Creatures
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-13-2-6-mythical-beasts-and-magical-beasts-horse-13-2-10-magical-creatures-mutant-monster-a081a366]] - previous source section: 13.2.6 Mythical Beasts and Magical Beasts / [ Horse ] / 13.2.10 Magical Creatures / [ Mutant Monster ]
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-13-2-6-mythical-beasts-and-magical-beasts-horse-13-2-10-magical-creatures-0e88a6a0]] - broader source section: 13.2.6 Mythical Beasts and Magical Beasts / [ Horse ] / 13.2.10 Magical Creatures
 
 ## Statements
 
@@ -50,30 +55,44 @@ From [[sword-world-rpg-complete-edition]].
 
 **Atoms:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-08217, source-range-0d48087c-08218, source-range-0d48087c-08219, source-range-0d48087c-08220, source-range-0d48087c-08221, source-range-0d48087c-08222, source-range-0d48087c-08223, source-range-0d48087c-08224, source-range-0d48087c-08225, source-range-0d48087c-08226, source-range-0d48087c-08227, source-range-0d48087c-08228, source-range-0d48087c-08229, source-range-0d48087c-08230))_
 
+<a id="atom-technical-atom-68f7e443f35c321a"></a>
 > Monster Level=13
 
+<a id="atom-technical-atom-48d37f5224825e33"></a>
 > Rarity=16
 
+<a id="atom-technical-atom-8d17ab304bb35445"></a>
 > Agility=12
 
+<a id="atom-technical-atom-ddc2320cd8899610"></a>
 > Movement Speed=15
 
+<a id="atom-technical-atom-8394d81927a76b0c"></a>
 > Number=One
 
+<a id="atom-technical-atom-1bbee90f0d764395"></a>
 > Frequency=Very rare
 
+<a id="atom-technical-atom-ee9c59936cd6ec62"></a>
 > Intellect=Obeys commands
 
+<a id="atom-technical-atom-3afe0500ad65a770"></a>
 > Reaction=Command-based
 
+<a id="atom-technical-atom-a330a3e5ec04a78a"></a>
 > Attack Points=Arms:21 (14)
 
+<a id="atom-technical-atom-3246c32ea57e8dd7"></a>
 > Strike Points=25
 
+<a id="atom-technical-atom-253809bf658d4cce"></a>
 > Evasion Points=19 (12) Defense Points=19
 
+<a id="atom-technical-atom-aba43f0705b4527e"></a>
 > Life Points/Resistance=75/31 (24)
 
+<a id="atom-technical-atom-2c2df555897fd2aa"></a>
 > Mental Points/Resistance=-/21 (14)
 
+<a id="atom-technical-atom-74f461ddccd871c0"></a>
 > Special Abilities=Weapons cannot critical

@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-guidelines-for-adventurer-age-and-ability-score-changes-45c10fdb@64c1400c78f65b8eaa3cd6f437b64667
+projection_coverage: section-sword-world-rpg-complete-edition-section-guidelines-for-adventurer-age-and-ability-score-changes-45c10fdb@baf9f232a9e03f81510f2c12bfa42451
 ---
 
 # Guidelines for Adventurer Age and Ability Score Changes
@@ -16,6 +16,8 @@ projection_coverage: section-sword-world-rpg-complete-edition-section-guidelines
 From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
+
+### Source structure
 
 - [[sword-world-rpg-complete-edition-section-18-2-19c6fad6]] - broader source section: 18.2
 
@@ -30,6 +32,7 @@ From [[sword-world-rpg-complete-edition]].
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-10569))_
 
+<a id="atom-technical-atom-125d58b3a1dc196a"></a>
 ```text
 Guidelines for Adventurer Age and Ability Score Changes
 18.2 Guidelines for Adventurer Age and Ability Score Changes

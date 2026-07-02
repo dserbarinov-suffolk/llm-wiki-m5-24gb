@@ -4,11 +4,11 @@ page_kind: source
 summary: Lazy and Eager Collections / lazy collection operations: 23 source-backed entries and 1 atom(s) from raw/javascriptallonge.pdf.
 page_family: section-reference
 sources: raw/javascriptallonge.pdf
-updated: 2026-07-01
+updated: 2026-07-02
 domain: javascriptallonge
 category_path: sources/javascriptallonge/sections
 source_id: javascriptallonge.pdf
-projection_coverage: section-javascriptallonge-section-lazy-and-eager-collections-lazy-collection-operations-358e58c2@2ce2472bd938a382fd6bbbf392404842
+projection_coverage: section-javascriptallonge-section-lazy-and-eager-collections-lazy-collection-operations-358e58c2@e13532b9e553d5aff15df709dd7b8fe7
 ---
 
 # Lazy and Eager Collections / lazy collection operations
@@ -17,9 +17,14 @@ From [[javascriptallonge]].
 
 ## Related pages
 
-- [[javascriptallonge-section-lazy-and-eager-collections-60e3645a]] - broader source section: Lazy and Eager Collections
+### Source order
+
 - [[javascriptallonge-section-lazy-and-eager-collections-implementing-methods-with-iteration-e2493942]] - previous source section: Lazy and Eager Collections / implementing methods with iteration
 - [[javascriptallonge-section-lazy-and-eager-collections-eager-collections-4dcc549f]] - next source section: Lazy and Eager Collections / eager collections
+
+### Source structure
+
+- [[javascriptallonge-section-lazy-and-eager-collections-60e3645a]] - broader source section: Lazy and Eager Collections
 
 ## Statements
 
@@ -46,6 +51,7 @@ From [[javascriptallonge]].
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01795))_
 
+<a id="atom-technical-atom-5f902340f55c79d4"></a>
 ```
 const Numbers = Object.assign({
 [Symbol.iterator]: () => {

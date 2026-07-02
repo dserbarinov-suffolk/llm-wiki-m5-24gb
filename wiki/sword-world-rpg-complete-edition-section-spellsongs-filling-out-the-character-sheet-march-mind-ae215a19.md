@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-spellsongs-filling-out-the-character-sheet-march-mind-ae215a19@7cd2cf025eca44a8555ab298befb78a0
+projection_coverage: section-sword-world-rpg-complete-edition-section-spellsongs-filling-out-the-character-sheet-march-mind-ae215a19@55e95c10a03e9fae186a5f3f0541c5d1
 ---
 
 # Spellsongs / Filling out the Character Sheet / March (Mind)
@@ -17,9 +17,14 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-spellsongs-filling-out-the-character-sheet-866f5da1]] - broader source section: Spellsongs / Filling out the Character Sheet
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-spellsongs-filling-out-the-character-sheet-healing-37de0f6b]] - previous source section: Spellsongs / Filling out the Character Sheet / Healing
 - [[sword-world-rpg-complete-edition-section-spellsongs-filling-out-the-character-sheet-morale-mind-13d744e7]] - next source section: Spellsongs / Filling out the Character Sheet / Morale (Mind)
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-spellsongs-filling-out-the-character-sheet-866f5da1]] - broader source section: Spellsongs / Filling out the Character Sheet
 
 ## Statements
 

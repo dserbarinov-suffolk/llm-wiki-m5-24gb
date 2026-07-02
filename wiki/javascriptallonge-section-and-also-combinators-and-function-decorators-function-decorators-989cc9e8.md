@@ -4,11 +4,11 @@ page_kind: source
 summary: And also: / Combinators and Function Decorators / function decorators: 9 source-backed entries and 2 atom(s) from raw/javascriptallonge.pdf.
 page_family: section-reference
 sources: raw/javascriptallonge.pdf
-updated: 2026-07-01
+updated: 2026-07-02
 domain: javascriptallonge
 category_path: sources/javascriptallonge/sections
 source_id: javascriptallonge.pdf
-projection_coverage: section-javascriptallonge-section-and-also-combinators-and-function-decorators-function-decorators-989cc9e8@31a7e6ef34d47392bf78112debed8474
+projection_coverage: section-javascriptallonge-section-and-also-combinators-and-function-decorators-function-decorators-989cc9e8@6625df576626973d23dee41f16018b12
 ---
 
 # And also: / Combinators and Function Decorators / function decorators
@@ -17,8 +17,16 @@ From [[javascriptallonge]].
 
 ## Related pages
 
-- [[javascriptallonge-section-and-also-combinators-and-function-decorators-4a7771ac]] - broader source section: And also: / Combinators and Function Decorators
+### Source order
+
 - [[javascriptallonge-section-and-also-combinators-and-function-decorators-a-balanced-statement-about-combinators-09d1a71e]] - previous source section: And also: / Combinators and Function Decorators / a balanced statement about combinators
+
+### Source structure
+
+- [[javascriptallonge-section-and-also-combinators-and-function-decorators-4a7771ac]] - broader source section: And also: / Combinators and Function Decorators
+
+### Topics
+
 - [[javascriptallonge-function-decorator]] - topic hub: opens the topic page for Function Decorator
 
 ## Statements
@@ -37,6 +45,7 @@ From [[javascriptallonge]].
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00565))_
 
+<a id="atom-technical-atom-f97ec19748b3df8d"></a>
 ```text
 function decorators
 A function decorator is a higher-order function that takes one function as an argument, returns another function, and the returned function is a variation of the argument function. Here's a ridiculously simple decorator: 38
@@ -62,6 +71,7 @@ A function decorator is a higher-order function that takes one function as an ar
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00572))_
 
+<a id="atom-technical-atom-ad78f7455392b913"></a>
 ```
 const nothing = not(something);
 ```

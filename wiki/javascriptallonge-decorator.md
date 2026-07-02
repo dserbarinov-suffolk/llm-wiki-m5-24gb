@@ -4,10 +4,10 @@ page_kind: concept
 summary: Decorator: 4 statement(s) and 8 atom(s) from raw/javascriptallonge.pdf.
 page_family: topic-concept
 sources: raw/javascriptallonge.pdf
-updated: 2026-07-01
+updated: 2026-07-02
 domain: javascriptallonge
 category_path: concepts
-projection_coverage: topic-javascriptallonge-decorator@cf516e63734a2d2f9c0cf425ab6771bf
+projection_coverage: topic-javascriptallonge-decorator@ca8e0fee5243ae27e68fd3db9cb990dd
 ---
 
 # Decorator
@@ -43,6 +43,7 @@ What [[javascriptallonge]] covers about decorator:
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00557))_
 
+<a id="atom-technical-atom-f4f4fcfc19e6c5d3"></a>
 ```text
 combinators
 The word 'combinator' has a precise technical meaning in mathematics:
@@ -70,6 +71,7 @@ If we were learning Combinatorial Logic, we'd start with the most basic combinat
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00565))_
 
+<a id="atom-technical-atom-f97ec19748b3df8d"></a>
 ```text
 function decorators
 A function decorator is a higher-order function that takes one function as an argument, returns another function, and the returned function is a variation of the argument function. Here's a ridiculously simple decorator: 38
@@ -95,6 +97,7 @@ A function decorator is a higher-order function that takes one function as an ar
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00572))_
 
+<a id="atom-technical-atom-ad78f7455392b913"></a>
 ```
 const nothing = not(something);
 ```
@@ -107,6 +110,7 @@ const nothing = not(something);
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00580))_
 
+<a id="atom-technical-atom-274e722a7f47e506"></a>
 ```
 const compose = (a, b) => (c) => a(b(c));
 const cookAndEat = compose(eat, cook);
@@ -120,6 +124,7 @@ const cookAndEat = compose(eat, cook);
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00581))_
 
+<a id="atom-technical-atom-677f9f34d487491a"></a>
 > The other 80% comes from organizing your code such that you can use it: Writing functions that can be composed in various ways.
 
 ### Technical frame 6: Recipes with Basic Functions / Maybe
@@ -130,6 +135,7 @@ const cookAndEat = compose(eat, cook);
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00696))_
 
+<a id="atom-technical-atom-5ec51305fdef23e8"></a>
 ```
 const maybe = (fn) =>
 function (...args) {
@@ -150,6 +156,7 @@ if (arg == null) return;
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00697))_
 
+<a id="atom-technical-atom-5afd53750bded0f2"></a>
 ```text
 50 https://en.wikipedia.org/wiki/Monad_(functional_programming)#The_Maybe_monad
 51 https://github.com/raganwald/andand
@@ -173,6 +180,7 @@ if (arg == null) return;
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00698))_
 
+<a id="atom-technical-atom-754594f35861b72e"></a>
 ```
 return fn.apply(this, args)
 }
@@ -182,15 +190,23 @@ return fn.apply(this, args)
 
 ## Related pages
 
-- [[javascriptallonge-function-decorator]] - narrower topic: Function Decorator shares source evidence from And also: / Combinators and Function Decorators / function decorators: not is a function decorator because it modifies a function while remaining strongly related to the original function's semantics. You'll see other function decorator ... [truncated]; Function Decorator shares technical record from And also: / Combinators and Function Decorators / function decorators: const nothing = not(something); (1 shared statement(s), 1 shared atom(s))
+### Shared technical atoms
+
 - [[javascriptallonge-recipe]] - shared statements and technical atoms: Recipe shares source evidence from And also: / Building Blocks / composition: In the recipes, we'll look at a decorator called once: It ensures that a function can only be executed once. Thereafter, it does nothing. Once is useful for ensuring ... [truncated]; Recipe shares technical record from Recipes with Basic Functions / Maybe: const maybe = (fn) => function (...args) { if (args.length === 0) { return } else { for (let arg of args) { if (arg == null) return; } (2 shared statement(s), 3 shared atom(s))
 - [[javascriptallonge-javascript]] - shared statements and technical atoms: Javascript shares source evidence from A Pull of the Lever: Prefaces / About JavaScript Allongé: It also provides recipes for using functions to write software that is simpler, cleaner, and less complicated than alternative approaches that are object-centric or ... [truncated]; Javascript shares technical record from And also: / Combinators and Function Decorators / function decorators: const compose = (a, b) => (c) => a(b(c)); const cookAndEat = compose(eat, cook); (1 shared statement(s), 3 shared atom(s))
-- [[javascriptallonge-combinator]] - shared statements and technical atoms: Combinator shares source evidence from And also: / Combinators and Function Decorators / function decorators: not is a function decorator because it modifies a function while remaining strongly related to the original function's semantics. You'll see other function decorator ... [truncated]; Combinator shares technical record from And also: / Combinators and Function Decorators / function decorators: const nothing = not(something); (1 shared statement(s), 1 shared atom(s))
 - [[javascriptallonge-argument]] - shared technical atoms: Argument shares technical record from And also: / Combinators and Function Decorators / combinators: combinators The word 'combinator' has a precise technical meaning in mathematics: 'A combinator is a higher-order function that uses only function application and ea ... [truncated] (2 shared atom(s))
+- [[javascriptallonge-combinator]] - shared statements and technical atoms: Combinator shares source evidence from And also: / Combinators and Function Decorators / function decorators: not is a function decorator because it modifies a function while remaining strongly related to the original function's semantics. You'll see other function decorator ... [truncated]; Combinator shares technical record from And also: / Combinators and Function Decorators / function decorators: const nothing = not(something); (1 shared statement(s), 1 shared atom(s))
 - [[javascriptallonge-functional]] - shared technical atoms: Functional shares technical record from Recipes with Basic Functions / Maybe: 50 https://en.wikipedia.org/wiki/Monad_(functional_programming)#The_Maybe_monad 51 https://github.com/raganwald/andand (1 shared atom(s))
 - [[javascriptallonge-programming]] - shared technical atoms: Programming shares technical record from Recipes with Basic Functions / Maybe: 50 https://en.wikipedia.org/wiki/Monad_(functional_programming)#The_Maybe_monad 51 https://github.com/raganwald/andand (1 shared atom(s))
 - [[javascriptallonge-return]] - shared technical atoms: Return shares technical record from And also: / Combinators and Function Decorators / function decorators: function decorators A function decorator is a higher-order function that takes one function as an argument, returns another function, and the returned function is a ... [truncated] (1 shared atom(s))
+
+### Shared claims
+
 - [[javascriptallonge-javascript-allong]] - shared statements: About JavaScript Allongé shares source evidence from A Pull of the Lever: Prefaces / About JavaScript Allongé: It also provides recipes for using functions to write software that is simpler, cleaner, and less complicated than alternative approaches that are object-centric or ... [truncated] (1 shared statement(s))
+
+### Topics
+
+- [[javascriptallonge-function-decorator]] - narrower topic: Function Decorator shares source evidence from And also: / Combinators and Function Decorators / function decorators: not is a function decorator because it modifies a function while remaining strongly related to the original function's semantics. You'll see other function decorator ... [truncated]; Function Decorator shares technical record from And also: / Combinators and Function Decorators / function decorators: const nothing = not(something); (1 shared statement(s), 1 shared atom(s))
 
 ## Source
 

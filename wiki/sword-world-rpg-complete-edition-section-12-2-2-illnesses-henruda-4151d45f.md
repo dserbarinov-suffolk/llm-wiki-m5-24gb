@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-12-2-2-illnesses-henruda-4151d45f@509f604a4b0f265db6997c911a13895a
+projection_coverage: section-sword-world-rpg-complete-edition-section-12-2-2-illnesses-henruda-4151d45f@d0be99fc2a7a067cc25aa7425a1eaadc
 ---
 
 # 12.2.2 Illnesses / [ Henruda ]
@@ -17,9 +17,14 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-12-2-2-illnesses-5611d07e]] - broader source section: 12.2.2 Illnesses
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-12-2-2-illnesses-dulcamara-b79d20dc]] - previous source section: 12.2.2 Illnesses / [ Dulcamara ]
 - [[sword-world-rpg-complete-edition-section-12-2-2-illnesses-mandrake-b0793d01]] - next source section: 12.2.2 Illnesses / [ Mandrake ]
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-12-2-2-illnesses-5611d07e]] - broader source section: 12.2.2 Illnesses
 
 ## Statements
 

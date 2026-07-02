@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-13-2-3-youma-undine-95a6de0e@b842beed23975d6362d1b815744fa163
+projection_coverage: section-sword-world-rpg-complete-edition-section-13-2-3-youma-undine-95a6de0e@b782893dffa0d002b7f24a344ddaa12d
 ---
 
 # 13.2.3 Youma / [ Undine ]
@@ -17,9 +17,14 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-13-2-3-youma-05ea9fd0]] - broader source section: 13.2.3 Youma
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-13-2-3-youma-brownie-45e89f46]] - previous source section: 13.2.3 Youma / [ Brownie ]
 - [[sword-world-rpg-complete-edition-section-13-2-3-youma-salamander-05d40506]] - next source section: 13.2.3 Youma / [ Salamander ]
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-13-2-3-youma-05ea9fd0]] - broader source section: 13.2.3 Youma
 
 ## Statements
 
@@ -44,6 +49,7 @@ From [[sword-world-rpg-complete-edition]].
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-06169))_
 
+<a id="atom-technical-atom-c91076506b9595c5"></a>
 > Undine can cast magic sourced from the power of undine without consuming its own mental points (the spells cannot be expanded).
 
 ### Technical frame 2: 13.2.3 Youma / [ Undine ]
@@ -54,4 +60,5 @@ From [[sword-world-rpg-complete-edition]].
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-06171))_
 
+<a id="atom-technical-atom-b4d8cb42cc903614"></a>
 > To do so, you must make a successful life force resistance roll.

@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-16-16-9-special-weapons-pole-weapons-4ab72b8d@65addbd8dd83a5d04e3d238e51f6d6ee
+projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-16-16-9-special-weapons-pole-weapons-4ab72b8d@bd467ae16f42bbb5460d9f0e7ed25a9d
 ---
 
 # Chapter 16: / 16.9 Special Weapons / Pole Weapons
@@ -17,8 +17,13 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-chapter-16-16-9-special-weapons-8824e2ed]] - broader source section: Chapter 16: / 16.9 Special Weapons
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-chapter-16-16-9-special-weapons-main-gauche-sword-breaker-8b4acaf4]] - next source section: Chapter 16: / 16.9 Special Weapons / Main-gauche/Sword Breaker
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-chapter-16-16-9-special-weapons-8824e2ed]] - broader source section: Chapter 16: / 16.9 Special Weapons
 
 ## Statements
 

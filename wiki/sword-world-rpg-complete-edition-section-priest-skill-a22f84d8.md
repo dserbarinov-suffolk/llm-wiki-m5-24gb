@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-priest-skill-a22f84d8@551ef80cfed41a2df835456f4c4cfe52
+projection_coverage: section-sword-world-rpg-complete-edition-section-priest-skill-a22f84d8@5f39950860ad45d3d76e93c205cfe18e
 ---
 
 # Priest Skill
@@ -17,7 +17,12 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-pharis-fdf323a0]] - next source section: 《 Pharis 》
+
+### Topics
+
 - [[sword-world-rpg-complete-edition-priest-skill]] - topic hub: opens the topic page for Priest Skill
 
 ## Statements
@@ -31,6 +36,7 @@ From [[sword-world-rpg-complete-edition]].
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-03374))_
 
+<a id="atom-technical-atom-0fe936e8087a36cf"></a>
 ```text
 Priest Skill
 5.1.15 Holy Magic  and the  Priest Skil

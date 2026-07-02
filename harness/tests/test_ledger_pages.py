@@ -1,5 +1,13 @@
+from llmwiki.domain.ledger.structure import DocumentStructure
 from llmwiki.domain.pages import PageMetadata, WikiPage
-from llmwiki.runtime.ledger_pages import append_source_page_links
+from llmwiki.runtime.ledger_pages import append_source_page_links, source_title
+
+
+def test_source_title_uses_source_locator_stem_and_preserves_abbreviations() -> None:
+    structure = DocumentStructure("root", ())
+    title = source_title("Sword World RPG - Complete Edition.pdf", structure=structure)
+
+    assert title == "Sword World RPG Complete Edition"
 
 
 def test_append_source_page_links_adds_walkable_derived_pages() -> None:

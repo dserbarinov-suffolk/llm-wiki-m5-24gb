@@ -4,11 +4,11 @@ page_kind: source
 summary: A Warm Cup: Basic Strings and Quasi-Literals: 25 source-backed entries and 1 atom(s) from raw/javascriptallonge.pdf.
 page_family: section-reference
 sources: raw/javascriptallonge.pdf
-updated: 2026-07-01
+updated: 2026-07-02
 domain: javascriptallonge
 category_path: sources/javascriptallonge/sections
 source_id: javascriptallonge.pdf
-projection_coverage: section-javascriptallonge-section-a-warm-cup-basic-strings-and-quasi-literals-50e42ba0@d65dc6a9e972258d8ec2bf8e9b0cd43b
+projection_coverage: section-javascriptallonge-section-a-warm-cup-basic-strings-and-quasi-literals-50e42ba0@9ea6b9cb5db691120054738e7526e457
 ---
 
 # A Warm Cup: Basic Strings and Quasi-Literals
@@ -17,10 +17,15 @@ From [[javascriptallonge]].
 
 ## Related pages
 
-- [[javascriptallonge-section-a-warm-cup-basic-strings-and-quasi-literals-quasi-literals-6d1aa137]] - narrower source section: A Warm Cup: Basic Strings and Quasi-Literals / quasi-literals
-- [[javascriptallonge-section-a-warm-cup-basic-strings-and-quasi-literals-evaluation-time-1634aeef]] - narrower source section: A Warm Cup: Basic Strings and Quasi-Literals / evaluation time
+### Source order
+
 - [[javascriptallonge-section-recipes-with-data-57848af5]] - previous source section: Recipes with Data
 - [[javascriptallonge-section-served-by-the-pot-collections-14399de3]] - next source section: Served by the Pot: Collections
+
+### Source structure
+
+- [[javascriptallonge-section-a-warm-cup-basic-strings-and-quasi-literals-evaluation-time-1634aeef]] - narrower source section: A Warm Cup: Basic Strings and Quasi-Literals / evaluation time
+- [[javascriptallonge-section-a-warm-cup-basic-strings-and-quasi-literals-quasi-literals-6d1aa137]] - narrower source section: A Warm Cup: Basic Strings and Quasi-Literals / quasi-literals
 
 ## Statements
 
@@ -56,6 +61,7 @@ From [[javascriptallonge]].
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01501))_
 
+<a id="atom-technical-atom-eba515be482d2fd3"></a>
 ```
 `foobar`
 //=> 'foobar'

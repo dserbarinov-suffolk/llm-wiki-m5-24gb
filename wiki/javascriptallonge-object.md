@@ -4,10 +4,10 @@ page_kind: concept
 summary: Object: 19 statement(s) and 28 atom(s) from raw/javascriptallonge.pdf.
 page_family: broad-topic
 sources: raw/javascriptallonge.pdf
-updated: 2026-07-01
+updated: 2026-07-02
 domain: javascriptallonge
 category_path: concepts
-projection_coverage: topic-javascriptallonge-object@93e82af757c239288c56b298f375ea7e
+projection_coverage: topic-javascriptallonge-object@9f8aac6d4211c72c8803f640a205e33a
 ---
 
 # Object
@@ -83,31 +83,7 @@ What [[javascriptallonge]] covers about object:
 
 ## Technical atoms
 
-### Technical frame 1: ECMAScript 6 has three major groups of features: / Forewords to the First Edition / matthew knox
-
-**Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00093))_
-
-```text
-matthew knox
-A different kind of language requires a different kind of book.
-JavaScript holds surprising depths-its scoping rules are neither strictly lexical nor strictly dynamic, and it supports procedural, object-oriented (in several flavors!), and functional programming. Many books try to hide most of those capabilities away, giving you recipes for writing JavaScript in a way that approximates class-centric programming in other languages. Not JavaScript Allongé. It starts with the fundamentals of values, functions, and objects, and then guides you through JavaScript from the inside with exploratory bits of code that illustrate scoping, combinators, context, state, prototypes, and constructors.
-5 http://www.fogus.me
-Like JavaScript itself, this book gives you a gentle start before showing you its full depth, and like a Cafe Allongé, it's over too soon. Enjoy!
--Matthew Knox, mattknox.com 6
-6 http://mattknox.com
-```
-
-<details>
-<summary>Parsed table preview (needs review)</summary>
-
-| entry | content |
-| --- | --- |
-| 5 | http://www.fogus.me Like JavaScript itself, this book gives you a gentle start before showing you its full depth, and like a Cafe Allongé, it's over too soon. Enjoy! -Matthew Knox, mattknox.com 6 |
-| 6 | http://mattknox.com |
-
-</details>
-
-### Technical frame 2: And also: / Magic Names / the function keyword
+### Technical frame 1: And also: / Magic Names / the function keyword
 
 **Context:** _(javascriptallonge.pdf (source-range-0e12e052-00612))_
 
@@ -115,6 +91,7 @@ Like JavaScript itself, this book gives you a gentle start before showing you it
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00608))_
 
+<a id="atom-technical-atom-216c7e390d5b4860"></a>
 ```text
 42 You should never attempt to define your own bindings against 'magic' names that JavaScript binds for you. It is wise to treat them as read-only at all times.
 43 We'll look at arrays and plain old javascript objects in depth later.
@@ -130,7 +107,7 @@ Like JavaScript itself, this book gives you a gentle start before showing you it
 
 </details>
 
-### Technical frame 3: Plain Old JavaScript Objects / literal object syntax
+### Technical frame 2: Plain Old JavaScript Objects / literal object syntax
 
 **Context:** _(javascriptallonge.pdf (source-range-0e12e052-01070))_
 
@@ -138,11 +115,12 @@ Like JavaScript itself, this book gives you a gentle start before showing you it
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01069))_
 
+<a id="atom-technical-atom-a195732ae5f93c24"></a>
 ```
 { year: 2012, month: 6, day: 14 }
 ```
 
-### Technical frame 4: Plain Old JavaScript Objects / literal object syntax
+### Technical frame 3: Plain Old JavaScript Objects / literal object syntax
 
 **Context:** _(javascriptallonge.pdf (source-range-0e12e052-01072))_
 
@@ -150,6 +128,7 @@ Like JavaScript itself, this book gives you a gentle start before showing you it
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01071))_
 
+<a id="atom-technical-atom-bfc0b00d1311ab51"></a>
 ```
 { year: 2012, month: 6, day: 14 } === { year: 2012, month: 6, day: 14 }
 //=> false
@@ -158,7 +137,7 @@ Objects use [] to access the values by name, using a string:
 //=> 14
 ```
 
-### Technical frame 5: Plain Old JavaScript Objects / literal object syntax
+### Technical frame 4: Plain Old JavaScript Objects / literal object syntax
 
 **Context:** _(javascriptallonge.pdf (source-range-0e12e052-01074))_
 
@@ -166,6 +145,7 @@ Objects use [] to access the values by name, using a string:
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01073))_
 
+<a id="atom-technical-atom-f3f9effd500ca163"></a>
 ```
 const unique = () => [],
 x = unique(),
@@ -176,7 +156,7 @@ o['a'] === x && o['b'] === y && o['c'] === z
 //=> true
 ```
 
-### Technical frame 6: Plain Old JavaScript Objects / literal object syntax
+### Technical frame 5: Plain Old JavaScript Objects / literal object syntax
 
 **Context:** _(javascriptallonge.pdf (source-range-0e12e052-01088))_
 
@@ -184,6 +164,7 @@ o['a'] === x && o['b'] === y && o['c'] === z
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01087))_
 
+<a id="atom-technical-atom-309e77615053b1d2"></a>
 ```
 const SecretDecoderRing = {
 encode (plaintext) {
@@ -205,7 +186,7 @@ return cyphertext
 }
 ```
 
-### Technical frame 7: Plain Old JavaScript Objects / destructuring objects
+### Technical frame 6: Plain Old JavaScript Objects / destructuring objects
 
 **Context:** _(javascriptallonge.pdf (source-range-0e12e052-01095))_
 
@@ -213,6 +194,7 @@ return cyphertext
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01091))_
 
+<a id="atom-technical-atom-cca4608e07a067cc"></a>
 ```
 const user = {
 name: { first: "Reginald",
@@ -238,7 +220,7 @@ title
 //=> "Author"
 ```
 
-### Technical frame 8: Plain Old JavaScript Objects / destructuring objects
+### Technical frame 7: Plain Old JavaScript Objects / destructuring objects
 
 **Context:** _(javascriptallonge.pdf (source-range-0e12e052-01095))_
 
@@ -246,6 +228,7 @@ title
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01096))_
 
+<a id="atom-technical-atom-b6a4e0f7d193b194"></a>
 ```
 const description = ({name: { first }, occupation: { title } }) =>
 `${first} is a ${title}`;
@@ -255,7 +238,7 @@ And that same syntax works for literals:
 const abbrev = ({name: { first, last }, occupation: { title } }) => {
 ```
 
-### Technical frame 9: Plain Old JavaScript Objects / destructuring objects
+### Technical frame 8: Plain Old JavaScript Objects / destructuring objects
 
 **Context:** _(javascriptallonge.pdf (source-range-0e12e052-01095))_
 
@@ -263,6 +246,7 @@ const abbrev = ({name: { first, last }, occupation: { title } }) => {
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01097))_
 
+<a id="atom-technical-atom-160e07446d578d5b"></a>
 ```
 const abbrev = ({name: { first, last }, occupation: { title } }) =>
 return { first, last, title};
@@ -271,7 +255,7 @@ abbrev(user)
 //=> {"first":"Reginald","last":"Braithwaite","title":"Author"}
 ```
 
-### Technical frame 10: Plain Old JavaScript Objects / revisiting linked lists
+### Technical frame 9: Plain Old JavaScript Objects / revisiting linked lists
 
 **Context:** _(javascriptallonge.pdf (source-range-0e12e052-01104))_
 
@@ -279,13 +263,14 @@ abbrev(user)
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01102))_
 
+<a id="atom-technical-atom-bace31307fdcecd9"></a>
 ```
 In that case, a linked list of the numbers 1, 2, and 3 will look like this: { first: 1, rest: { first:
 2, rest: { first: 3, rest: EMPTY } } }.
 We can then perform the equivalent of [first, ...rest] with direct property accessors:
 ```
 
-### Technical frame 11: Plain Old JavaScript Objects / revisiting linked lists
+### Technical frame 10: Plain Old JavaScript Objects / revisiting linked lists
 
 **Context:** _(javascriptallonge.pdf (source-range-0e12e052-01104))_
 
@@ -293,6 +278,7 @@ We can then perform the equivalent of [first, ...rest] with direct property acce
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01103))_
 
+<a id="atom-technical-atom-55614a7e6312a79f"></a>
 ```
 const EMPTY = {};
 const OneTwoThree = { first: 1, rest: { first: 2, rest: { first: 3, rest: EMPTY \
@@ -312,7 +298,7 @@ length(OneTwoThree)
 //=> 3
 ```
 
-### Technical frame 12: Mutation
+### Technical frame 11: Mutation
 
 **Context:** _(javascriptallonge.pdf (source-range-0e12e052-01122))_
 
@@ -320,6 +306,7 @@ length(OneTwoThree)
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01117))_
 
+<a id="atom-technical-atom-cbce49171fbd497e"></a>
 ```
 const oneTwoThree = [1, 2, 3];
 oneTwoThree[0] = 'one';
@@ -327,7 +314,7 @@ oneTwoThree
 //=> [ 'one', 2, 3 ]
 ```
 
-### Technical frame 13: Mutation
+### Technical frame 12: Mutation
 
 **Context:** _(javascriptallonge.pdf (source-range-0e12e052-01122))_
 
@@ -335,6 +322,7 @@ oneTwoThree
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01121))_
 
+<a id="atom-technical-atom-e4d6c4b69f3ee5b5"></a>
 ```
 const name = {firstName: 'Leonard', lastName: 'Braithwaite'};
 name.middleName = 'Austin'
@@ -346,7 +334,7 @@ lastName: 'Braithwaite',
 middleName: 'Austin' }
 ```
 
-### Technical frame 14: Served by the Pot: Collections / Iteration and Iterables / a look back at functional iterators
+### Technical frame 13: Served by the Pot: Collections / Iteration and Iterables / a look back at functional iterators
 
 **Context:** _(javascriptallonge.pdf (source-range-0e12e052-01536))_
 
@@ -354,6 +342,7 @@ middleName: 'Austin' }
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01528))_
 
+<a id="atom-technical-atom-ddee552faf251bd7"></a>
 ```
 const Stack1 = () =>
 ({
@@ -394,7 +383,7 @@ stack.push("to");
 stack.push("you!")
 ```
 
-### Technical frame 15: Served by the Pot: Collections / Iteration and Iterables / a look back at functional iterators
+### Technical frame 14: Served by the Pot: Collections / Iteration and Iterables / a look back at functional iterators
 
 **Context:** _(javascriptallonge.pdf (source-range-0e12e052-01536))_
 
@@ -402,6 +391,7 @@ stack.push("you!")
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01529))_
 
+<a id="atom-technical-atom-f68796c5cf2886ed"></a>
 ```
 const iter = stack.iterator();
 iter().value
@@ -410,7 +400,7 @@ iter().value
 //=> "to"
 ```
 
-### Technical frame 16: Served by the Pot: Collections / Iteration and Iterables / a look back at functional iterators
+### Technical frame 15: Served by the Pot: Collections / Iteration and Iterables / a look back at functional iterators
 
 **Context:** _(javascriptallonge.pdf (source-range-0e12e052-01538))_
 
@@ -418,6 +408,7 @@ iter().value
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01537))_
 
+<a id="atom-technical-atom-4b8d7d8121853f46"></a>
 ```
 const collectionSum = (collection) => {
 const iterator = collection.iterator();
@@ -432,7 +423,7 @@ collectionSum(stack)
 //=> 6
 ```
 
-### Technical frame 17: Served by the Pot: Collections / Iteration and Iterables / iterables
+### Technical frame 16: Served by the Pot: Collections / Iteration and Iterables / iterables
 
 **Context:** _(javascriptallonge.pdf (source-range-0e12e052-01557))_
 
@@ -440,6 +431,7 @@ collectionSum(stack)
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01555))_
 
+<a id="atom-technical-atom-8ca29fcc27de5e8d"></a>
 ```
 const Stack3 = () =>
 ({
@@ -479,7 +471,7 @@ return {done: false, value: this.array[iterationIndex--]}
 const stack = Stack3();
 ```
 
-### Technical frame 18: Served by the Pot: Collections / Iteration and Iterables / iterables
+### Technical frame 17: Served by the Pot: Collections / Iteration and Iterables / iterables
 
 **Context:** _(javascriptallonge.pdf (source-range-0e12e052-01557))_
 
@@ -487,6 +479,7 @@ const stack = Stack3();
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01556))_
 
+<a id="atom-technical-atom-e36b76567b01bc93"></a>
 ```
 stack.push(2000);
 stack.push(10);
@@ -516,7 +509,7 @@ iterableSum(stack)
 //=> 2015
 ```
 
-### Technical frame 19: Served by the Pot: Collections / Iteration and Iterables / iterables
+### Technical frame 18: Served by the Pot: Collections / Iteration and Iterables / iterables
 
 **Context:** _(javascriptallonge.pdf (source-range-0e12e052-01559))_
 
@@ -524,6 +517,7 @@ iterableSum(stack)
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01558))_
 
+<a id="atom-technical-atom-92c82b1d649104c2"></a>
 ```
 const EMPTY = {
 isEmpty: () => true
@@ -561,7 +555,7 @@ iterableSum(someSquares)
 //=> 55
 ```
 
-### Technical frame 20: Served by the Pot: Collections / Generating Iterables
+### Technical frame 19: Served by the Pot: Collections / Generating Iterables
 
 **Context:** _(javascriptallonge.pdf (source-range-0e12e052-01625))_
 
@@ -569,9 +563,10 @@ iterableSum(someSquares)
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01622))_
 
+<a id="atom-technical-atom-53996de6cffe7496"></a>
 > Iterators have to arrange its own state such that when you call them, they compute and return the next item.
 
-### Technical frame 21: Served by the Pot: Collections / Generating Iterables / generators and iterables
+### Technical frame 20: Served by the Pot: Collections / Generating Iterables / generators and iterables
 
 **Context:** _(javascriptallonge.pdf (source-range-0e12e052-01708))_
 
@@ -579,9 +574,10 @@ iterableSum(someSquares)
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01705))_
 
+<a id="atom-technical-atom-10582a3c053cd9e3"></a>
 > If we call our generator function more than once, we get new iterators.
 
-### Technical frame 22: Served by the Pot: Collections / Generating Iterables / generators and iterables
+### Technical frame 21: Served by the Pot: Collections / Generating Iterables / generators and iterables
 
 **Context:** _(javascriptallonge.pdf (source-range-0e12e052-01710))_
 
@@ -589,6 +585,7 @@ iterableSum(someSquares)
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01709))_
 
+<a id="atom-technical-atom-22b0cf12cabe801a"></a>
 ```
 const ThreeNumbers = {
 *[Symbol.iterator] () {
@@ -599,7 +596,7 @@ yield 3
 }
 ```
 
-### Technical frame 23: Served by the Pot: Collections / Generating Iterables / yielding iterables
+### Technical frame 22: Served by the Pot: Collections / Generating Iterables / yielding iterables
 
 **Context:** _(javascriptallonge.pdf (source-range-0e12e052-01727))_
 
@@ -607,6 +604,7 @@ yield 3
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01726))_
 
+<a id="atom-technical-atom-7b0b457a7a31fd36"></a>
 ```
 const isIterable = (something) =>
 !!something[Symbol.iterator];
@@ -636,7 +634,7 @@ console.log(i);
 5
 ```
 
-### Technical frame 24: Served by the Pot: Collections / Generating Iterables / yielding iterables
+### Technical frame 23: Served by the Pot: Collections / Generating Iterables / yielding iterables
 
 **Context:** _(javascriptallonge.pdf (source-range-0e12e052-01731))_
 
@@ -644,9 +642,10 @@ console.log(i);
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01728))_
 
+<a id="atom-technical-atom-1cc140d49fd735af"></a>
 > But if you can write it as a simple generator, write it as a simple generator.
 
-### Technical frame 25: Served by the Pot: Collections / Generating Iterables / yielding iterables
+### Technical frame 24: Served by the Pot: Collections / Generating Iterables / yielding iterables
 
 **Context:** _(javascriptallonge.pdf (source-range-0e12e052-01731))_
 
@@ -654,6 +653,7 @@ console.log(i);
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01729))_
 
+<a id="atom-technical-atom-969ddf7e68ede0c0"></a>
 ```
 function * tree (iterable) {
 for (const e of iterable) {
@@ -678,7 +678,7 @@ console.log(i);
 5
 ```
 
-### Technical frame 26: Lazy and Eager Collections / implementing methods with iteration
+### Technical frame 25: Lazy and Eager Collections / implementing methods with iteration
 
 **Context:** _(javascriptallonge.pdf (source-range-0e12e052-01772))_
 
@@ -686,6 +686,7 @@ console.log(i);
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01773))_
 
+<a id="atom-technical-atom-b71b9b56d3a09043"></a>
 ```
 const Numbers = Object.assign({
 [Symbol.iterator]: () => {
@@ -701,7 +702,7 @@ const EMPTY = {
 isEmpty: () => true
 ```
 
-### Technical frame 27: Lazy and Eager Collections / implementing methods with iteration
+### Technical frame 26: Lazy and Eager Collections / implementing methods with iteration
 
 **Context:** _(javascriptallonge.pdf (source-range-0e12e052-01772))_
 
@@ -709,6 +710,7 @@ isEmpty: () => true
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01774))_
 
+<a id="atom-technical-atom-f18ccd5d3cbbc241"></a>
 ```
 };
 const isEmpty = (node) => node === EMPTY;
@@ -746,7 +748,7 @@ index: -1,
 push: function (value) {
 ```
 
-### Technical frame 28: Lazy and Eager Collections / implementing methods with iteration
+### Technical frame 27: Lazy and Eager Collections / implementing methods with iteration
 
 **Context:** _(javascriptallonge.pdf (source-range-0e12e052-01772))_
 
@@ -754,6 +756,7 @@ push: function (value) {
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01775))_
 
+<a id="atom-technical-atom-de8e0311632dc2e8"></a>
 ```
 return this.array[this.index += 1] = value;
 },
@@ -797,6 +800,8 @@ return stack;
 
 ## Related pages
 
+### Shared technical atoms
+
 - [[javascriptallonge-javascript]] - shared statements and technical atoms: Javascript shares source evidence from Plain Old JavaScript Objects: In JavaScript, an object is a map from string keys to values.; Javascript shares technical record from ECMAScript 6 has three major groups of features: / Forewords to the First Edition / matthew knox: { year: 2012, month: 6, day: 14 } (3 shared statement(s), 8 shared atom(s))
 - [[javascriptallonge-iterator]] - shared statements and technical atoms: Iterator shares source evidence from Served by the Pot: Collections / Iteration and Iterables / iterator objects: Fortunately, an iterator object is almost as simple as an iterator function. Instead of having a function that you call to get the next element, you have an object w ... [truncated]; Iterator shares technical record from Served by the Pot: Collections / Iteration and Iterables / iterables: const Stack3 = () => ({ array: [], index: -1, push (value) { return this.array[this.index += 1] = value; }, pop () { const value = this.array[this.index]; this.array ... [truncated] (5 shared statement(s), 6 shared atom(s))
 - [[javascriptallonge-method]] - shared statements and technical atoms: Method shares source evidence from Served by the Pot: Collections / Iteration and Iterables / iterables: The expression Symbol.iterator evaluates to a special symbol representing the name of the method that objects should use if they return an iterator object.; Method shares technical record from Served by the Pot: Collections / Iteration and Iterables / iterables: const Stack3 = () => ({ array: [], index: -1, push (value) { return this.array[this.index += 1] = value; }, pop () { const value = this.array[this.index]; this.array ... [truncated] (2 shared statement(s), 7 shared atom(s))
@@ -805,23 +810,9 @@ return stack;
 - [[javascriptallonge-functional-iterator]] - shared statements and technical atoms: Functional Iterators shares source evidence from Served by the Pot: Collections / Generating Iterables: Let's consider how they work. Whether it's a simple functional iterator, or an iterable object with a .next() method, an iterator is something we call repeatedly unt ... [truncated]; Functional Iterators shares technical record from Served by the Pot: Collections / Iteration and Iterables / a look back at functional iterators: const Stack1 = () => ({ array:[], index: -1, push (value) { return this.array[this.index += 1] = value; }, pop () { const value = this.array[this.index]; this.array[ ... [truncated] (1 shared statement(s), 3 shared atom(s))
 - [[javascriptallonge-return]] - shared statements and technical atoms: Return shares source evidence from Served by the Pot: Collections / Generating Iterables / generators and iterables: Our generator function oneTwoThree is not an iterator. It's a function that returns an iterator when we invoke it. We write the function to yield values instead of r ... [truncated]; Return shares technical record from Served by the Pot: Collections / Generating Iterables / generators and iterables: If we call our generator function more than once, we get new iterators. (1 shared statement(s), 3 shared atom(s))
 - [[javascriptallonge-iterable]] - shared statements and technical atoms: Iterable shares source evidence from Served by the Pot: Collections / Iteration and Iterables / iterables: The for...of loop works directly with any object that is iterable , meaning it works with any object that has a Symbol.iterator method that returns an object iterato ... [truncated]; Iterable shares technical record from Served by the Pot: Collections / Iteration and Iterables / iterables: const EMPTY = { isEmpty: () => true }; const isEmpty = (node) => node === EMPTY; const Pair1 = (first, rest = EMPTY) => ({ first, rest, isEmpty () { return false }, ... [truncated] (2 shared statement(s), 2 shared atom(s))
-- [[javascriptallonge-functional]] - shared statements and technical atoms: Functional shares source evidence from Served by the Pot: Collections / Generating Iterables: Let's consider how they work. Whether it's a simple functional iterator, or an iterable object with a .next() method, an iterator is something we call repeatedly unt ... [truncated]; Functional shares technical record from ECMAScript 6 has three major groups of features: / Forewords to the First Edition / matthew knox: Iterators have to arrange its own state such that when you call them, they compute and return the next item. (1 shared statement(s), 2 shared atom(s))
-- [[javascriptallonge-write]] - shared statements and technical atoms: Write shares source evidence from Served by the Pot: Collections / Generating Iterables / generators and iterables: Our generator function oneTwoThree is not an iterator. It's a function that returns an iterator when we invoke it. We write the function to yield values instead of r ... [truncated]; Write shares technical record from Served by the Pot: Collections / Iteration and Iterables / a look back at functional iterators: const collectionSum = (collection) => { const iterator = collection.iterator(); let eachIteration, sum = 0; while ((eachIteration = iterator(), !eachIteration.done)) ... [truncated] (1 shared statement(s), 2 shared atom(s))
-- [[javascriptallonge-binding]] - shared technical atoms: Binding shares technical record from And also: / Magic Names / the function keyword: const SecretDecoderRing = { encode (plaintext) { return plaintext .split('') .map( char => char.charCodeAt() ) .map( code => code + 1 ) .map( code => String.fromChar ... [truncated] (2 shared atom(s))
-- [[javascriptallonge-copy]] - shared technical atoms: Copy shares technical record from Plain Old JavaScript Objects / revisiting linked lists: In that case, a linked list of the numbers 1, 2, and 3 will look like this: { first: 1, rest: { first: 2, rest: { first: 3, rest: EMPTY } } }. We can then perform th ... [truncated] (2 shared atom(s))
-- [[javascriptallonge-generator]] - shared technical atoms: Generator shares technical record from Served by the Pot: Collections / Generating Iterables / generators and iterables: If we call our generator function more than once, we get new iterators. (2 shared atom(s))
-- [[javascriptallonge-list]] - shared technical atoms: List shares technical record from Plain Old JavaScript Objects / revisiting linked lists: In that case, a linked list of the numbers 1, 2, and 3 will look like this: { first: 1, rest: { first: 2, rest: { first: 3, rest: EMPTY } } }. We can then perform th ... [truncated] (2 shared atom(s))
-- [[javascriptallonge-allong]] - shared technical atoms: Allong shares technical record from ECMAScript 6 has three major groups of features: / Forewords to the First Edition / matthew knox: matthew knox A different kind of language requires a different kind of book. JavaScript holds surprising depths-its scoping rules are neither strictly lexical nor st ... [truncated] (1 shared atom(s))
-- [[javascriptallonge-argument]] - shared technical atoms: Argument shares technical record from And also: / Magic Names / the function keyword: 42 You should never attempt to define your own bindings against 'magic' names that JavaScript binds for you. It is wise to treat them as read-only at all times. 43 W ... [truncated] (1 shared atom(s))
-- [[javascriptallonge-bind]] - shared technical atoms: Bind shares technical record from And also: / Magic Names / the function keyword: 42 You should never attempt to define your own bindings against 'magic' names that JavaScript binds for you. It is wise to treat them as read-only at all times. 43 W ... [truncated] (1 shared atom(s))
-- [[javascriptallonge-ecmascript]] - shared technical atoms: Ecmascript shares technical record from ECMAScript 6 has three major groups of features: / Forewords to the First Edition / matthew knox: matthew knox A different kind of language requires a different kind of book. JavaScript holds surprising depths-its scoping rules are neither strictly lexical nor st ... [truncated] (1 shared atom(s))
-- [[javascriptallonge-edition]] - shared technical atoms: Edition shares technical record from ECMAScript 6 has three major groups of features: / Forewords to the First Edition / matthew knox: matthew knox A different kind of language requires a different kind of book. JavaScript holds surprising depths-its scoping rules are neither strictly lexical nor st ... [truncated] (1 shared atom(s))
-- [[javascriptallonge-feature]] - shared technical atoms: Feature shares technical record from ECMAScript 6 has three major groups of features: / Forewords to the First Edition / matthew knox: matthew knox A different kind of language requires a different kind of book. JavaScript holds surprising depths-its scoping rules are neither strictly lexical nor st ... [truncated] (1 shared atom(s))
-- [[javascriptallonge-function-keyword]] - shared technical atoms: the function keyword shares technical record from And also: / Magic Names / the function keyword: 42 You should never attempt to define your own bindings against 'magic' names that JavaScript binds for you. It is wise to treat them as read-only at all times. 43 W ... [truncated] (1 shared atom(s))
-- [[javascriptallonge-pattern]] - shared technical atoms: Pattern shares technical record from Served by the Pot: Collections / Generating Iterables / generators and iterables: const ThreeNumbers = { *[Symbol.iterator] () { yield 1; yield 2; yield 3 } } (1 shared atom(s))
-- [[javascriptallonge-programming]] - shared technical atoms: Programming shares technical record from ECMAScript 6 has three major groups of features: / Forewords to the First Edition / matthew knox: matthew knox A different kind of language requires a different kind of book. JavaScript holds surprising depths-its scoping rules are neither strictly lexical nor st ... [truncated] (1 shared atom(s))
-- [[javascriptallonge-recipe]] - shared technical atoms: Recipe shares technical record from ECMAScript 6 has three major groups of features: / Forewords to the First Edition / matthew knox: matthew knox A different kind of language requires a different kind of book. JavaScript holds surprising depths-its scoping rules are neither strictly lexical nor st ... [truncated] (1 shared atom(s))
-- [[javascriptallonge-type]] - shared technical atoms: Type shares technical record from Mutation: const oneTwoThree = [1, 2, 3]; oneTwoThree[0] = 'one'; oneTwoThree //=> [ 'one', 2, 3 ] (1 shared atom(s))
+
+### Shared claims
+
 - [[javascriptallonge-collection]] - shared statements: Collection shares source evidence from Served by the Pot: Collections / Iteration and Iterables / iterator objects: In programs involving large collections of objects, it can be handy to implement iterators as objects, rather than functions. The mechanics of iterating can then be ... [truncated] (2 shared statement(s))
 - [[javascriptallonge-evaluate]] - shared statements: Evaluate shares source evidence from Served by the Pot: Collections / Iteration and Iterables / iterables: The expression Symbol.iterator evaluates to a special symbol representing the name of the method that objects should use if they return an iterator object. (1 shared statement(s))
 

@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-16-16-9-special-weapons-shotel-5092e38f@949e74952b52bc6b752c72f3f4847eed
+projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-16-16-9-special-weapons-shotel-5092e38f@f03401a1d5b9c9b50a184ade0fc0b55e
 ---
 
 # Chapter 16: / 16.9 Special Weapons / Shotel
@@ -17,9 +17,14 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-chapter-16-16-9-special-weapons-8824e2ed]] - broader source section: Chapter 16: / 16.9 Special Weapons
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-chapter-16-16-9-special-weapons-boomerang-c239f583]] - previous source section: Chapter 16: / 16.9 Special Weapons / Boomerang
 - [[sword-world-rpg-complete-edition-section-chapter-16-16-9-special-weapons-cestus-aef131a0]] - next source section: Chapter 16: / 16.9 Special Weapons / Cestus
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-chapter-16-16-9-special-weapons-8824e2ed]] - broader source section: Chapter 16: / 16.9 Special Weapons
 
 ## Statements
 

@@ -4,10 +4,10 @@ page_kind: concept
 summary: Element: 21 statement(s) and 23 atom(s) from raw/javascriptallonge.pdf.
 page_family: broad-topic
 sources: raw/javascriptallonge.pdf
-updated: 2026-07-01
+updated: 2026-07-02
 domain: javascriptallonge
 category_path: concepts
-projection_coverage: topic-javascriptallonge-element@fdda29579af4088816d26d671a12f83c
+projection_coverage: topic-javascriptallonge-element@2f5ffb2791379406b56e057ed5ee1e21
 ---
 
 # Element
@@ -99,6 +99,7 @@ What [[javascriptallonge]] covers about element:
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00829))_
 
+<a id="atom-technical-atom-6754230ebb1f4009"></a>
 ```
 const oneTwoThree = ["one", "two", "three"];
 oneTwoThree[0]
@@ -117,6 +118,7 @@ oneTwoThree[2]
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00885))_
 
+<a id="atom-technical-atom-5db5a12711f55845"></a>
 ```
 []
 //=> []
@@ -136,6 +138,7 @@ oneTwoThree[2]
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00923))_
 
+<a id="atom-technical-atom-0b39d7f78e6c482c"></a>
 ```
 const truthyAll = ([first, ...rest]) => first === undefined
 ? []
@@ -152,6 +155,7 @@ truthyAll([null, true, 25, false, "foo"])
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01031))_
 
+<a id="atom-technical-atom-a313a54114f7afe7"></a>
 ```
 const cons = (a, d) => [a, d],
 car
@@ -168,6 +172,7 @@ cdr
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01041))_
 
+<a id="atom-technical-atom-cc6241a012867740"></a>
 ```
 cdr(oneToFive)
 //=> [2,[3,[4,[5,null]]]]
@@ -181,6 +186,7 @@ cdr(oneToFive)
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01051))_
 
+<a id="atom-technical-atom-0fd9e385f39620fc"></a>
 > We have avoided discussing rebinding and mutating values, but if we want to change elements of our lists, the naïve linked list implementation suffers as well: When we take the cdr of a linked list, we are sharing the elements.
 
 ### Technical frame 7: Copy on Write
@@ -191,6 +197,7 @@ cdr(oneToFive)
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01223))_
 
+<a id="atom-technical-atom-93d06280c439087e"></a>
 > The consequence of this is that if you have an array, and you take it's 'rest,' your 'child' array is a copy of the elements of the parent array.
 
 ### Technical frame 8: Copy on Write
@@ -201,6 +208,7 @@ cdr(oneToFive)
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01224))_
 
+<a id="atom-technical-atom-6eb3e5646b36ffaf"></a>
 > Whereas if you have a linked list, and you take it's 'rest,' your 'child' list shares its nodes with the 'parent' list.
 
 ### Technical frame 9: Copy on Write / Functional Iterators
@@ -211,6 +219,7 @@ cdr(oneToFive)
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01268))_
 
+<a id="atom-technical-atom-24fc5bde3dd87bda"></a>
 ```
 const arraySum = ([first, ...rest], accumulator = 0) =>
 first === undefined
@@ -228,6 +237,7 @@ arraySum([1, 4, 9, 16, 25])
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01282))_
 
+<a id="atom-technical-atom-f7b456184e95d5ca"></a>
 ```
 const arraySum = (array) => {
 let sum = 0;
@@ -248,6 +258,7 @@ arraySum([1, 4, 9, 16, 25])
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01303))_
 
+<a id="atom-technical-atom-f28b1a77d2c0e6d7"></a>
 ```
 const take = (iterator, numberToTake) => {
 let count = 0;
@@ -281,6 +292,7 @@ toArray(take(squares, 5))
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01313))_
 
+<a id="atom-technical-atom-4befcf9fdb3ad196"></a>
 ```
 const firstInIteration = (fn, iterator) =>
 take(filterIteratorWith(fn, iterator), 1);
@@ -294,6 +306,7 @@ take(filterIteratorWith(fn, iterator), 1);
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01315))_
 
+<a id="atom-technical-atom-8cc7c05afa7a0aff"></a>
 ```
 const firstInArray = (fn, array) =>
 array.filter(fn)[0];
@@ -307,6 +320,7 @@ array.filter(fn)[0];
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01561))_
 
+<a id="atom-technical-atom-bf283260b68810d0"></a>
 ```
 ['some squares', ...someSquares]
 //=> ["some squares", 1, 4, 9, 16, 25]
@@ -320,6 +334,7 @@ array.filter(fn)[0];
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01563))_
 
+<a id="atom-technical-atom-05fc43a5c1be73ab"></a>
 ```
 const firstAndSecondElement = (first, second) =>
 ({first, second})
@@ -335,6 +350,7 @@ firstAndSecondElement(...stack)
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01575))_
 
+<a id="atom-technical-atom-7dce9b57088ba8b7"></a>
 ```
 const abc = ["a", "b", "c"];
 for (const i of abc) {
@@ -361,6 +377,7 @@ c
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01603))_
 
+<a id="atom-technical-atom-1581b42a5e1872cd"></a>
 ```
 const first = (iterable) =>
 iterable[Symbol.iterator]().next().value;
@@ -382,6 +399,7 @@ return iterator;
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01634))_
 
+<a id="atom-technical-atom-688f12cc04f1d7e2"></a>
 ```
 // Generation
 const isIterable = (something) =>
@@ -413,6 +431,7 @@ generate([1, [2, [3, 4], 5]])
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01735))_
 
+<a id="atom-technical-atom-4bc55e9b8635077e"></a>
 ```
 function * append (...iterables) {
 for (const iterable of iterables) {
@@ -446,6 +465,7 @@ me
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01738))_
 
+<a id="atom-technical-atom-367cd27fcaddc9af"></a>
 ```
 function * append (...iterables) {
 for (const iterable of iterables) {
@@ -467,6 +487,7 @@ console.log(word);
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01739))_
 
+<a id="atom-technical-atom-ba4b65c89018722e"></a>
 ```
 //=>
 a
@@ -487,6 +508,7 @@ re
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01740))_
 
+<a id="atom-technical-atom-ce2d985e63bdec2f"></a>
 ```
 const isIterable = (something) =>
 !!something[Symbol.iterator];
@@ -519,6 +541,7 @@ console.log(i);
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01786))_
 
+<a id="atom-technical-atom-55e3e5b8db0117c3"></a>
 ```
 Stack.from([ 0,
 1,
@@ -540,22 +563,19 @@ Stack.from([ 0,
 
 ## Related pages
 
+### Shared technical atoms
+
 - [[javascriptallonge-copy-write]] - shared statements and technical atoms: Copy on Write shares source evidence from Copy on Write: This is remarkably unsafe. If we know that a list doesn't share any elements with another list, we can safely modify it. But how do we keep track of that? Add a bunc ... [truncated]; Copy on Write shares technical record from Copy on Write: The consequence of this is that if you have an array, and you take it's 'rest,' your 'child' array is a copy of the elements of the parent array. (2 shared statement(s), 7 shared atom(s))
 - [[javascriptallonge-list]] - shared statements and technical atoms: List shares source evidence from Composing and Decomposing Data / Self-Similarity: Let's convert our rules to array literals. The first rule is simple: [] is a list. How about the second rule? We can express that using a spread. Given an element e ... [truncated]; List shares technical record from Composing and Decomposing Data / Self-Similarity: [] //=> [] ["baz", ...[]] //=> ["baz"] ["bar", ...["baz"]] //=> ["bar","baz"] ["foo", ...["bar", "baz"]] //=> ["foo","bar","baz"] (3 shared statement(s), 6 shared atom(s))
 - [[javascriptallonge-functional-iterator]] - shared statements and technical atoms: Functional Iterators shares source evidence from Copy on Write / Functional Iterators / iterating: Once again, we're mixing the code for iterating over an array with the code for calculating a sum. And worst of all, we're getting really low-level with details like ... [truncated]; Functional Iterators shares technical record from Copy on Write / Functional Iterators: const arraySum = ([first, ...rest], accumulator = 0) => first === undefined ? accumulator : arraySum(rest, first + accumulator) arraySum([1, 4, 9, 16, 25]) //=> 55 (1 shared statement(s), 5 shared atom(s))
 - [[javascriptallonge-javascript]] - shared statements and technical atoms: Javascript shares source evidence from Garbage, Garbage Everywhere / some history: Again, it's just extracting a reference from a cons cell, it's very fast. In Lisp, it's blazingly fast because it happens in hardware. There's no making copies of ar ... [truncated]; Javascript shares technical record from Garbage, Garbage Everywhere / some history: const cons = (a, d) => [a, d], car = ([a, d]) => a, cdr = ([a, d]) => d; (1 shared statement(s), 4 shared atom(s))
+- [[javascriptallonge-iteration]] - shared technical atoms: Iteration shares technical record from Served by the Pot: Collections / Iteration and Iterables / iterables: ['some squares', ...someSquares] //=> ["some squares", 1, 4, 9, 16, 25] (4 shared atom(s))
 - [[javascriptallonge-iterable]] - shared statements and technical atoms: Iterable shares source evidence from Served by the Pot: Collections / Iteration and Iterables / operations on ordered collections: For completeness, here are two more handy iterable functions. first returns the first element of an iterable (if it has one), and rest returns an iterable that itera ... [truncated]; Iterable shares technical record from Served by the Pot: Collections / Iteration and Iterables / iterables: ['some squares', ...someSquares] //=> ["some squares", 1, 4, 9, 16, 25] (1 shared statement(s), 3 shared atom(s))
 - [[javascriptallonge-return]] - shared statements and technical atoms: Return shares source evidence from Served by the Pot: Collections / Iteration and Iterables / operations on ordered collections: For completeness, here are two more handy iterable functions. first returns the first element of an iterable (if it has one), and rest returns an iterable that itera ... [truncated]; Return shares technical record from Served by the Pot: Collections / Iteration and Iterables / operations on ordered collections: const first = (iterable) => iterable[Symbol.iterator]().next().value; const rest = (iterable) => ({ [Symbol.iterator] () { const iterator = iterable[Symbol.iterator] ... [truncated] (1 shared statement(s), 2 shared atom(s))
 - [[javascriptallonge-collection]] - shared statements and technical atoms: Collection shares source evidence from Served by the Pot: Collections / Iteration and Iterables: All of these actions involve going through the contents one by one. Acting on the elements of a collection one at a time is called iterating over the contents , and ... [truncated]; Collection shares technical record from Served by the Pot: Collections / Iteration and Iterables / ordered collections: const abc = ["a", "b", "c"]; for (const i of abc) { console.log(i) } //=> a b c for (const i of abc) { console.log(i) } //=> a b c (2 shared statement(s), 1 shared atom(s))
-- [[javascriptallonge-array]] - shared statements and technical atoms: Array shares source evidence from Composing and Decomposing Data / Arrays and Destructuring Arguments / element references: Array elements can be extracted using [ and ] as postfix operators. We pass an integer as an index of the element to extract:; Array shares technical record from Composing and Decomposing Data / Arrays and Destructuring Arguments / element references: const oneTwoThree = ["one", "two", "three"]; oneTwoThree[0] //=> 'one' oneTwoThree[1] //=> 'two' oneTwoThree[2] //=> 'three' (1 shared statement(s), 1 shared atom(s))
-- [[javascriptallonge-copy]] - shared statements and technical atoms: Copy shares source evidence from Garbage, Garbage Everywhere / some history: Again, it's just extracting a reference from a cons cell, it's very fast. In Lisp, it's blazingly fast because it happens in hardware. There's no making copies of ar ... [truncated]; Copy shares technical record from Garbage, Garbage Everywhere / some history: cdr(oneToFive) //=> [2,[3,[4,[5,null]]]] (1 shared statement(s), 1 shared atom(s))
-- [[javascriptallonge-reference]] - shared statements and technical atoms: Reference shares source evidence from Garbage, Garbage Everywhere / so why arrays: Arrays avoid this problem by pessimistically copying all the references whenever we extract an element or sequence of elements from them (We'll see this explained la ... [truncated]; Reference shares technical record from Garbage, Garbage Everywhere / some history: cdr(oneToFive) //=> [2,[3,[4,[5,null]]]] (1 shared statement(s), 1 shared atom(s))
-- [[javascriptallonge-iteration]] - shared technical atoms: Iteration shares technical record from Served by the Pot: Collections / Iteration and Iterables / iterables: ['some squares', ...someSquares] //=> ["some squares", 1, 4, 9, 16, 25] (4 shared atom(s))
-- [[javascriptallonge-iterator]] - shared technical atoms: Iterator shares technical record from Copy on Write / Functional Iterators / unfolding and laziness: const take = (iterator, numberToTake) => { let count = 0; return () => { if (++count <= numberToTake) { return iterator(); } else { return {done: true}; } }; }; cons ... [truncated] (1 shared atom(s))
-- [[javascriptallonge-literal]] - shared technical atoms: Literal shares technical record from Composing and Decomposing Data / Self-Similarity: [] //=> [] ["baz", ...[]] //=> ["baz"] ["bar", ...["baz"]] //=> ["bar","baz"] ["foo", ...["bar", "baz"]] //=> ["foo","bar","baz"] (1 shared atom(s))
-- [[javascriptallonge-method]] - shared technical atoms: Method shares technical record from Lazy and Eager Collections / lazy collection operations: Stack.from([ 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29]) .map((x) => x * x) .filter((x) => x % 2 == 0) .first() (1 shared atom(s))
-- [[javascriptallonge-operation]] - shared technical atoms: Operation shares technical record from Copy on Write / Functional Iterators / bonus: const firstInIteration = (fn, iterator) => take(filterIteratorWith(fn, iterator), 1); (1 shared atom(s))
-- [[javascriptallonge-structure]] - shared technical atoms: Structure shares technical record from Garbage, Garbage Everywhere / some history: cdr(oneToFive) //=> [2,[3,[4,[5,null]]]] (1 shared atom(s))
+
+### Shared claims
+
 - [[javascriptallonge-composing]] - shared statements: Composing shares source evidence from Composing and Decomposing Data / Self-Similarity / linear recursion: Once again, the solution directly displays the important elements: Dividing a problem into subproblems, detecting terminal cases, solving the terminal cases, and com ... [truncated] (1 shared statement(s))
 - [[javascriptallonge-solution]] - shared statements: Solution shares source evidence from Composing and Decomposing Data / Self-Similarity / linear recursion: Once again, the solution directly displays the important elements: Dividing a problem into subproblems, detecting terminal cases, solving the terminal cases, and com ... [truncated] (1 shared statement(s))
 

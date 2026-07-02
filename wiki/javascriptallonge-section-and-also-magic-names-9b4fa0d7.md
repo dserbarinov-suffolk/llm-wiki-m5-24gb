@@ -4,11 +4,11 @@ page_kind: source
 summary: And also: / Magic Names: 36 source-backed entries and 2 atom(s) from raw/javascriptallonge.pdf.
 page_family: section-reference
 sources: raw/javascriptallonge.pdf
-updated: 2026-07-01
+updated: 2026-07-02
 domain: javascriptallonge
 category_path: sources/javascriptallonge/sections
 source_id: javascriptallonge.pdf
-projection_coverage: section-javascriptallonge-section-and-also-magic-names-9b4fa0d7@b14a2b16fedf0cd27aaace00c73addf4
+projection_coverage: section-javascriptallonge-section-and-also-magic-names-9b4fa0d7@9e7a3ab9201cbd20f3915ae3e5b206d7
 ---
 
 # And also: / Magic Names
@@ -17,11 +17,19 @@ From [[javascriptallonge]].
 
 ## Related pages
 
-- [[javascriptallonge-section-and-also-0e29dfba]] - broader source section: And also:
-- [[javascriptallonge-section-and-also-magic-names-the-function-keyword-b21492ad]] - narrower source section: And also: / Magic Names / the function keyword
-- [[javascriptallonge-section-and-also-magic-names-magic-names-and-fat-arrows-0831b561]] - narrower source section: And also: / Magic Names / magic names and fat arrows
+### Source order
+
 - [[javascriptallonge-section-and-also-building-blocks-d30b6215]] - previous source section: And also: / Building Blocks
 - [[javascriptallonge-section-and-also-summary-eea33d30]] - next source section: And also: / Summary
+
+### Source structure
+
+- [[javascriptallonge-section-and-also-0e29dfba]] - broader source section: And also:
+- [[javascriptallonge-section-and-also-magic-names-magic-names-and-fat-arrows-0831b561]] - narrower source section: And also: / Magic Names / magic names and fat arrows
+- [[javascriptallonge-section-and-also-magic-names-the-function-keyword-b21492ad]] - narrower source section: And also: / Magic Names / the function keyword
+
+### Topics
+
 - [[javascriptallonge-magic]] - topic hub: opens the topic page for Magic
 
 ## Statements
@@ -63,6 +71,7 @@ From [[javascriptallonge]].
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00604))_
 
+<a id="atom-technical-atom-1d443d04a5fa8e7f"></a>
 ```
 const plus = function (a, b) {
 return arguments[0] + arguments[1];
@@ -79,6 +88,7 @@ plus(2,3)
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00608))_
 
+<a id="atom-technical-atom-216c7e390d5b4860"></a>
 ```text
 42 You should never attempt to define your own bindings against 'magic' names that JavaScript binds for you. It is wise to treat them as read-only at all times.
 43 We'll look at arrays and plain old javascript objects in depth later.

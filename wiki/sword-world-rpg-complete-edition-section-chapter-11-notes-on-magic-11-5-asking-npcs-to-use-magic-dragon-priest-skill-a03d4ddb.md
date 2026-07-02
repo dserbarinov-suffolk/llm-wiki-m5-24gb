@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-11-notes-on-magic-11-5-asking-npcs-to-use-magic-dragon-priest-skill-a03d4ddb@0980f1453219320f27b569690298683f
+projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-11-notes-on-magic-11-5-asking-npcs-to-use-magic-dragon-priest-skill-a03d4ddb@b3b68ea157618880a71584f50851b849
 ---
 
 # Chapter 11: Notes on Magic / 11.5 Asking NPCs to Use Magic / 《 Dragon Priest Skill 》
@@ -17,7 +17,12 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
+### Source structure
+
 - [[sword-world-rpg-complete-edition-section-chapter-11-notes-on-magic-11-5-asking-npcs-to-use-magic-822a863e]] - broader source section: Chapter 11: Notes on Magic / 11.5 Asking NPCs to Use Magic
+
+### Topics
+
 - [[sword-world-rpg-complete-edition-dragon-priest-skill]] - topic hub: opens the topic page for Dragon Priest Skill
 
 ## Statements

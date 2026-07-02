@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-6-languages-intelligence-7db828ab@3d1b47b49e19e6e188309fad4b0ef827
+projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-6-languages-intelligence-7db828ab@b9a910cc2f94fc8de2022f0b703eac6e
 ---
 
 # Chapter 6: / [ ② Languages [Intelligence]]
@@ -17,8 +17,13 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-chapter-6-79bede4b]] - broader source section: Chapter 6:
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-chapter-6-sage-skill-c808db17]] - next source section: Chapter 6: / Sage Skill
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-chapter-6-79bede4b]] - broader source section: Chapter 6:
 
 ## Statements
 

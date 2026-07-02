@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-5-1-12-ancient-magic-list-sleep-cloud-a914e884@6aff330fa4af5275da0bb36bb7e438d6
+projection_coverage: section-sword-world-rpg-complete-edition-section-5-1-12-ancient-magic-list-sleep-cloud-a914e884@df99f1c59d3de8791e13062c9c31bedc
 ---
 
 # 5.1.12 Ancient Magic List / [ Sleep Cloud ]
@@ -17,9 +17,14 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-5-1-12-ancient-magic-list-2e59bfee]] - broader source section: 5.1.12 Ancient Magic List
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-5-1-12-ancient-magic-list-chameleon-6a2c0b1c]] - previous source section: 5.1.12 Ancient Magic List / [ Chameleon ]
 - [[sword-world-rpg-complete-edition-section-5-1-12-ancient-magic-list-sense-magic-08b5df38]] - next source section: 5.1.12 Ancient Magic List / [ Sense Magic ]
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-5-1-12-ancient-magic-list-2e59bfee]] - broader source section: 5.1.12 Ancient Magic List
 
 ## Statements
 

@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-7-7-5-treatment-intelligence-weather-prediction-intelligence-not-retriable-f4f13e3f@3c983b02a99101637395ab8f57c38025
+projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-7-7-5-treatment-intelligence-weather-prediction-intelligence-not-retriable-f4f13e3f@1e8d639835371e186372b8ff5869ec09
 ---
 
 # Chapter 7: / 7.5 [ ② Treatment [Intelligence]] / [ ⑤ Weather Prediction [Intelligence] ] (Not retriable)
@@ -17,9 +17,14 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-chapter-7-7-5-treatment-intelligence-27e205e5]] - broader source section: Chapter 7: / 7.5 [ ② Treatment [Intelligence]]
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-chapter-7-7-5-treatment-intelligence-swim-agility-equipment-restriction-d9627e70]] - previous source section: Chapter 7: / 7.5 [ ② Treatment [Intelligence]] / [ ④ Swim [Agility] ] (Equipment restriction)
 - [[sword-world-rpg-complete-edition-section-chapter-7-7-5-treatment-intelligence-climb-agility-equipment-restriction-1a6fd4b3]] - next source section: Chapter 7: / 7.5 [ ② Treatment [Intelligence]] / [ ⑥ Climb [Agility] ] (Equipment restriction)
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-chapter-7-7-5-treatment-intelligence-27e205e5]] - broader source section: Chapter 7: / 7.5 [ ② Treatment [Intelligence]]
 
 ## Statements
 

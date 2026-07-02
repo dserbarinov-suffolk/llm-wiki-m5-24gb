@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-1-4-character-creation-required-strength-4f483781@290fd47737d8d85256e7f26c0189c780
+projection_coverage: section-sword-world-rpg-complete-edition-section-1-4-character-creation-required-strength-4f483781@5613c170f4dba08e630e86d86ad24e30
 ---
 
 # 1.4 Character Creation / Required Strength
@@ -17,9 +17,14 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-1-4-character-creation-f6aa6108]] - broader source section: 1.4 Character Creation
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-1-4-character-creation-1-4-6-purchasing-weapons-and-armor-b95d4959]] - previous source section: 1.4 Character Creation / 1.4.6 Purchasing Weapons and Armor
 - [[sword-world-rpg-complete-edition-section-1-4-character-creation-one-handed-and-twohanded-weapons-ac9404dc]] - next source section: 1.4 Character Creation / One-Handed and TwoHanded Weapons
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-1-4-character-creation-f6aa6108]] - broader source section: 1.4 Character Creation
 
 ## Statements
 
@@ -41,6 +46,7 @@ From [[sword-world-rpg-complete-edition]].
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-00633))_
 
+<a id="atom-technical-atom-1db8446aeb270650"></a>
 > When buying weapons and armor, one must be aware of their required strength .
 
 ### Technical frame 2: 1.4 Character Creation / Required Strength
@@ -51,4 +57,5 @@ From [[sword-world-rpg-complete-edition]].
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-00636))_
 
+<a id="atom-technical-atom-8328ca17c3a2970e"></a>
 > Therefore, if the required strength of the weapon you're buying on Table 1-8: Weapons does not match your character's strength, you should not buy that weapon.

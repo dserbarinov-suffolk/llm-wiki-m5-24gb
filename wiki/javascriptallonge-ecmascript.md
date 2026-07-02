@@ -4,10 +4,10 @@ page_kind: concept
 summary: Ecmascript: 11 statement(s) and 8 atom(s) from raw/javascriptallonge.pdf.
 page_family: topic-concept
 sources: raw/javascriptallonge.pdf
-updated: 2026-07-01
+updated: 2026-07-02
 domain: javascriptallonge
 category_path: concepts
-projection_coverage: topic-javascriptallonge-ecmascript@e11f807bcbad43c553594ec89685798a
+projection_coverage: topic-javascriptallonge-ecmascript@320a08bf261fea93f5091dfb877aea6f
 ---
 
 # Ecmascript
@@ -59,6 +59,7 @@ What [[javascriptallonge]] covers about ecmascript:
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00028))_
 
+<a id="atom-technical-atom-33a084ad9ef4dd37"></a>
 ```
 var i;
 for (i = 0; i < array.length; ++i) {
@@ -76,6 +77,7 @@ for (i = 0; i < array.length; ++i) {
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00033))_
 
+<a id="atom-technical-atom-dfc46ddf341a4840"></a>
 ```
 function foo () {
 var first = arguments[0],
@@ -93,6 +95,7 @@ rest
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00037))_
 
+<a id="atom-technical-atom-424a0a8e8a0c5de6"></a>
 ```
 for (let i = 0; i < array.length; ++i) {
 // ...
@@ -107,6 +110,7 @@ for (let i = 0; i < array.length; ++i) {
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00083))_
 
+<a id="atom-technical-atom-8d2772ab4d71ef15"></a>
 ```text
 2 http://www.2ality.com
 4 http://exploringjs.com
@@ -124,31 +128,7 @@ for (let i = 0; i < array.length; ++i) {
 
 </details>
 
-### Technical frame 5: ECMAScript 6 has three major groups of features: / Forewords to the First Edition / matthew knox
-
-**Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00093))_
-
-```text
-matthew knox
-A different kind of language requires a different kind of book.
-JavaScript holds surprising depths-its scoping rules are neither strictly lexical nor strictly dynamic, and it supports procedural, object-oriented (in several flavors!), and functional programming. Many books try to hide most of those capabilities away, giving you recipes for writing JavaScript in a way that approximates class-centric programming in other languages. Not JavaScript Allongé. It starts with the fundamentals of values, functions, and objects, and then guides you through JavaScript from the inside with exploratory bits of code that illustrate scoping, combinators, context, state, prototypes, and constructors.
-5 http://www.fogus.me
-Like JavaScript itself, this book gives you a gentle start before showing you its full depth, and like a Cafe Allongé, it's over too soon. Enjoy!
--Matthew Knox, mattknox.com 6
-6 http://mattknox.com
-```
-
-<details>
-<summary>Parsed table preview (needs review)</summary>
-
-| entry | content |
-| --- | --- |
-| 5 | http://www.fogus.me Like JavaScript itself, this book gives you a gentle start before showing you its full depth, and like a Cafe Allongé, it's over too soon. Enjoy! -Matthew Knox, mattknox.com 6 |
-| 6 | http://mattknox.com |
-
-</details>
-
-### Technical frame 6: Recipes with Basic Functions / Left-Variadic Functions
+### Technical frame 5: Recipes with Basic Functions / Left-Variadic Functions
 
 **Context:** _(javascriptallonge.pdf (source-range-0e12e052-00716))_
 
@@ -156,6 +136,7 @@ Like JavaScript itself, this book gives you a gentle start before showing you it
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00715))_
 
+<a id="atom-technical-atom-9ba670ae0280c320"></a>
 ```
 function team(coach, captain, ...players) {
 console.log(`${captain} (captain)`);
@@ -175,7 +156,7 @@ squad coached by Luis Enrique
 But we can’t go the other way around:
 ```
 
-### Technical frame 7: Recipes with Basic Functions / Left-Variadic Functions
+### Technical frame 6: Recipes with Basic Functions / Left-Variadic Functions
 
 **Context:** _(javascriptallonge.pdf (source-range-0e12e052-00718))_
 
@@ -183,6 +164,7 @@ But we can’t go the other way around:
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00717))_
 
+<a id="atom-technical-atom-8f6c04005067c03e"></a>
 ```
 function team2(...players, captain, coach) {
 console.log(`${captain} (captain)`);
@@ -194,7 +176,7 @@ console.log(`squad coached by ${coach}`);
 //=> Unexpected token
 ```
 
-### Technical frame 8: Recipes with Basic Functions / Left-Variadic Functions / a history lesson
+### Technical frame 7: Recipes with Basic Functions / Left-Variadic Functions / a history lesson
 
 **Context:** _(javascriptallonge.pdf (source-range-0e12e052-00726))_
 
@@ -202,6 +184,7 @@ console.log(`squad coached by ${coach}`);
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00721))_
 
+<a id="atom-technical-atom-1108bf48e86da005"></a>
 ```
 var __slice = Array.prototype.slice;
 function rightVariadic (fn) {
@@ -225,16 +208,19 @@ firstAndButFirst('why', 'hello', 'there', 'little', 'droid')
 
 ## Related pages
 
+### Shared technical atoms
+
 - [[javascriptallonge-javascript]] - shared statements and technical atoms: Javascript shares source evidence from A Pull of the Lever: Prefaces / About JavaScript Allongé / why the 'six' edition?: Prior to ECMAScript 2015, JavaScript did not include many features that programmers have discovered are vital to writing great software. For example, JavaScript did ... [truncated]; Javascript shares technical record from A Pull of the Lever: Prefaces / About JavaScript Allongé / why the 'six' edition?: var i; for (i = 0; i < array.length; ++i) { (function (i) { // ... })(i) } (4 shared statement(s), 6 shared atom(s))
 - [[javascriptallonge-javascript-allong]] - shared statements and technical atoms: About JavaScript Allongé shares source evidence from A Pull of the Lever: Prefaces / About JavaScript Allongé / why the 'six' edition?: ECMAScript 2015 (formerly called ECMAScript 6 or 'ES6'), is ushering in a very large number of improvements to the way programmers can write small, powerful componen ... [truncated]; About JavaScript Allongé shares technical record from A Pull of the Lever: Prefaces / About JavaScript Allongé / why the 'six' edition?: var i; for (i = 0; i < array.length; ++i) { (function (i) { // ... })(i) } (5 shared statement(s), 3 shared atom(s))
 - [[javascriptallonge-feature]] - shared statements and technical atoms: Feature shares source evidence from A Pull of the Lever: Prefaces / Foreword to the 'Six' edition: A larger upgrade would substantially improve JavaScript, but without being as radical as ECMAScript 4. This upgrade became ECMAScript 6 (some features that were init ... [truncated]; Feature shares technical record from A Pull of the Lever: Prefaces / About JavaScript Allongé / why the 'six' edition?: for (let i = 0; i < array.length; ++i) { // ... } (1 shared statement(s), 3 shared atom(s))
-- [[javascriptallonge-parameter]] - shared statements and technical atoms: Parameter shares source evidence from Recipes with Basic Functions / Left-Variadic Functions: ECMAScript 2015 only permits gathering parameters from the end of the parameter list. Not the beginning. What to do?; Parameter shares technical record from Recipes with Basic Functions / Left-Variadic Functions / a history lesson: var __slice = Array.prototype.slice; function rightVariadic (fn) { if (fn.length < 1) return fn; return function () { var ordinaryArgs = (1 <= arguments.length ? __s ... [truncated] (1 shared statement(s), 1 shared atom(s))
 - [[javascriptallonge-allong]] - shared technical atoms: Allong shares technical record from ECMAScript 6 has three major groups of features:: 2 http://www.2ality.com 4 http://exploringjs.com 3 http://ecmanauten.de (2 shared atom(s))
 - [[javascriptallonge-edition]] - shared technical atoms: Edition shares technical record from ECMAScript 6 has three major groups of features:: 2 http://www.2ality.com 4 http://exploringjs.com 3 http://ecmanauten.de (2 shared atom(s))
 - [[javascriptallonge-programming]] - shared technical atoms: Programming shares technical record from A Pull of the Lever: Prefaces / About JavaScript Allongé / why the 'six' edition?: var i; for (i = 0; i < array.length; ++i) { (function (i) { // ... })(i) } (2 shared atom(s))
+- [[javascriptallonge-parameter]] - shared statements and technical atoms: Parameter shares source evidence from Recipes with Basic Functions / Left-Variadic Functions: ECMAScript 2015 only permits gathering parameters from the end of the parameter list. Not the beginning. What to do?; Parameter shares technical record from Recipes with Basic Functions / Left-Variadic Functions / a history lesson: var __slice = Array.prototype.slice; function rightVariadic (fn) { if (fn.length < 1) return fn; return function () { var ordinaryArgs = (1 <= arguments.length ? __s ... [truncated] (1 shared statement(s), 1 shared atom(s))
 - [[javascriptallonge-functional]] - shared technical atoms: Functional shares technical record from ECMAScript 6 has three major groups of features: / Forewords to the First Edition / matthew knox: matthew knox A different kind of language requires a different kind of book. JavaScript holds surprising depths-its scoping rules are neither strictly lexical nor st ... [truncated] (1 shared atom(s))
-- [[javascriptallonge-object]] - shared technical atoms: Object shares technical record from ECMAScript 6 has three major groups of features: / Forewords to the First Edition / matthew knox: matthew knox A different kind of language requires a different kind of book. JavaScript holds surprising depths-its scoping rules are neither strictly lexical nor st ... [truncated] (1 shared atom(s))
-- [[javascriptallonge-recipe]] - shared technical atoms: Recipe shares technical record from ECMAScript 6 has three major groups of features: / Forewords to the First Edition / matthew knox: matthew knox A different kind of language requires a different kind of book. JavaScript holds surprising depths-its scoping rules are neither strictly lexical nor st ... [truncated] (1 shared atom(s))
+
+### Shared claims
+
 - [[javascriptallonge-function-keyword]] - shared statements: the function keyword shares source evidence from And also: / Naming Functions / the function keyword: JavaScript does have a syntax for naming a function, we use the function keyword. Until ECMAScript 2015 was created, function was the usual syntax for writing functions. (1 shared statement(s))
 
 ## Source

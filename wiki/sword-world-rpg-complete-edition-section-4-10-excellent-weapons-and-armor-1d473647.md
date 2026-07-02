@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-4-10-excellent-weapons-and-armor-1d473647@fd46e32dd963136b30122a325a4c3b9a
+projection_coverage: section-sword-world-rpg-complete-edition-section-4-10-excellent-weapons-and-armor-1d473647@d484433899aac98d4ef916bf18dc1011
 ---
 
 # 4.10 Excellent Weapons and Armor
@@ -17,12 +17,17 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-4-10-excellent-weapons-and-armor-and-armor-d6445b45]] - narrower source section: 4.10 Excellent Weapons and Armor / and Armor
+### Source order
+
+- [[sword-world-rpg-complete-edition-section-4-9-unconscious-and-death-checks-e6129e9c]] - previous source section: 4.9 Unconscious and Death Checks
+- [[sword-world-rpg-complete-edition-section-5-1-5-consuming-mental-power-8bf319fe]] - next source section: 5.1.5 Consuming Mental Power
+
+### Source structure
+
 - [[sword-world-rpg-complete-edition-section-4-10-excellent-weapons-and-armor-4-10-2-silver-weapons-and-armor-dadef958]] - narrower source section: 4.10 Excellent Weapons and Armor / 4.10.2 Silver Weapons and Armor
 - [[sword-world-rpg-complete-edition-section-4-10-excellent-weapons-and-armor-4-10-3-magical-weapons-and-armor-cdf3ce21]] - narrower source section: 4.10 Excellent Weapons and Armor / 4.10.3 Magical Weapons and Armor
 - [[sword-world-rpg-complete-edition-section-4-10-excellent-weapons-and-armor-4-10-4-mithril-silver-weapons-and-armor-8cb5003a]] - narrower source section: 4.10 Excellent Weapons and Armor / 4.10.4 Mithril Silver Weapons and Armor
-- [[sword-world-rpg-complete-edition-section-4-9-unconscious-and-death-checks-e6129e9c]] - previous source section: 4.9 Unconscious and Death Checks
-- [[sword-world-rpg-complete-edition-section-5-1-5-consuming-mental-power-8bf319fe]] - next source section: 5.1.5 Consuming Mental Power
+- [[sword-world-rpg-complete-edition-section-4-10-excellent-weapons-and-armor-and-armor-d6445b45]] - narrower source section: 4.10 Excellent Weapons and Armor / and Armor
 
 ## Statements
 
@@ -231,6 +236,7 @@ From [[sword-world-rpg-complete-edition]].
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-01464))_
 
+<a id="atom-technical-atom-de7b2422f985ece0"></a>
 > Also, even if you search all over Alecrast, you will usually only find one with a required strength up to 5 lower than usual .
 
 ### Technical frame 2: 4.10 Excellent Weapons and Armor / and Armor
@@ -241,6 +247,7 @@ From [[sword-world-rpg-complete-edition]].
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-01465))_
 
+<a id="atom-technical-atom-2c3f7ec66a837600"></a>
 > However, if you want one of higher quality, you must go to a larger town.
 
 ### Technical frame 3: Table 4-5: Guideline for Obtaining High-Quality Weapons and Armor
@@ -251,6 +258,7 @@ From [[sword-world-rpg-complete-edition]].
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-01466))_
 
+<a id="atom-technical-atom-5f0d5d906d59ff3e"></a>
 ```text
 These high-quality weapons and armor  can  be  expensive.  Their  price increases  by 20% for  every 1 required strength lower than usual. 2 lower will be 40% more expensive, 3 lower will be 60% more  expensive, 4 lower  will  be 80% more expensive, and 5 lower will be twice the original price.
 Table 4-5: Guideline for Obtaining High-Quality Weapons and Armor

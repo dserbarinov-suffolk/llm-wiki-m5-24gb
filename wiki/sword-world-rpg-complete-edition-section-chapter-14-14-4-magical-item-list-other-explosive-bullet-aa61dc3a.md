@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-other-explosive-bullet-aa61dc3a@314f2d131a96383fba1568a79f28e5b7
+projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-other-explosive-bullet-aa61dc3a@d4780578b61e062ee6cd400f26fe8ea3
 ---
 
 # Chapter 14: / 14.4 Magical Item List / 《 Other 》 / [ Explosive Bullet ]
@@ -17,9 +17,14 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-other-ae5b041d]] - broader source section: Chapter 14: / 14.4 Magical Item List / 《 Other 》
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-other-weightless-bag-fd41b3b7]] - previous source section: Chapter 14: / 14.4 Magical Item List / 《 Other 》 / [ Weightless Bag ]
 - [[sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-other-old-man-liar-punisher-e935b921]] - next source section: Chapter 14: / 14.4 Magical Item List / 《 Other 》 / [ Old Man Liar Punisher ]
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-other-ae5b041d]] - broader source section: Chapter 14: / 14.4 Magical Item List / 《 Other 》
 
 ## Statements
 

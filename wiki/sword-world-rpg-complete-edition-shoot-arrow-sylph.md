@@ -7,7 +7,7 @@ sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: concepts
-projection_coverage: topic-sword-world-rpg-complete-edition-shoot-arrow-sylph@6788d400b9651b7f2f491979bfe54340
+projection_coverage: topic-sword-world-rpg-complete-edition-shoot-arrow-sylph@51dea69486b6c3a6b9eaeab5d6cc4d28
 ---
 
 # Shoot Arrow Sylph
@@ -31,6 +31,7 @@ What [[sword-world-rpg-complete-edition]] covers about shoot arrow sylph:
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-03109))_
 
+<a id="atom-technical-atom-8a70fc069da75637"></a>
 > Note that this spell cannot deal damage to monsters that can only be wounded by silver or magical weapons, such as werewolves, etc.
 
 

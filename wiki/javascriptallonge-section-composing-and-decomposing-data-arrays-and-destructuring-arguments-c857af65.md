@@ -4,11 +4,11 @@ page_kind: source
 summary: Composing and Decomposing Data / Arrays and Destructuring Arguments: 62 source-backed entries and 3 atom(s) from raw/javascriptallonge.pdf.
 page_family: section-reference
 sources: raw/javascriptallonge.pdf
-updated: 2026-07-01
+updated: 2026-07-02
 domain: javascriptallonge
 category_path: sources/javascriptallonge/sections
 source_id: javascriptallonge.pdf
-projection_coverage: section-javascriptallonge-section-composing-and-decomposing-data-arrays-and-destructuring-arguments-c857af65@5d9fa1b472595c0ba18775ae5c6a72d5
+projection_coverage: section-javascriptallonge-section-composing-and-decomposing-data-arrays-and-destructuring-arguments-c857af65@4d54239a559980934470eb9b810c63f0
 ---
 
 # Composing and Decomposing Data / Arrays and Destructuring Arguments
@@ -17,15 +17,20 @@ From [[javascriptallonge]].
 
 ## Related pages
 
+### Source order
+
+- [[javascriptallonge-section-composing-and-decomposing-data-self-similarity-4cbf7d4f]] - next source section: Composing and Decomposing Data / Self-Similarity
+
+### Source structure
+
 - [[javascriptallonge-section-composing-and-decomposing-data-58c1e32b]] - broader source section: Composing and Decomposing Data
 - [[javascriptallonge-section-composing-and-decomposing-data-arrays-and-destructuring-arguments-array-literals-7490c12f]] - narrower source section: Composing and Decomposing Data / Arrays and Destructuring Arguments / array literals
-- [[javascriptallonge-section-composing-and-decomposing-data-arrays-and-destructuring-arguments-element-references-24b6e6cb]] - narrower source section: Composing and Decomposing Data / Arrays and Destructuring Arguments / element references
-- [[javascriptallonge-section-composing-and-decomposing-data-arrays-and-destructuring-arguments-destructuring-arrays-19594149]] - narrower source section: Composing and Decomposing Data / Arrays and Destructuring Arguments / destructuring arrays
-- [[javascriptallonge-section-composing-and-decomposing-data-arrays-and-destructuring-arguments-gathering-781aaf08]] - narrower source section: Composing and Decomposing Data / Arrays and Destructuring Arguments / gathering
-- [[javascriptallonge-section-composing-and-decomposing-data-arrays-and-destructuring-arguments-destructuring-is-not-pattern-m-4de47703]] - narrower source section: Composing and Decomposing Data / Arrays and Destructuring Arguments / destructuring is not pattern matching
 - [[javascriptallonge-section-composing-and-decomposing-data-arrays-and-destructuring-arguments-destructuring-and-return-value-65445863]] - narrower source section: Composing and Decomposing Data / Arrays and Destructuring Arguments / destructuring and return values
+- [[javascriptallonge-section-composing-and-decomposing-data-arrays-and-destructuring-arguments-destructuring-arrays-19594149]] - narrower source section: Composing and Decomposing Data / Arrays and Destructuring Arguments / destructuring arrays
+- [[javascriptallonge-section-composing-and-decomposing-data-arrays-and-destructuring-arguments-destructuring-is-not-pattern-m-4de47703]] - narrower source section: Composing and Decomposing Data / Arrays and Destructuring Arguments / destructuring is not pattern matching
 - [[javascriptallonge-section-composing-and-decomposing-data-arrays-and-destructuring-arguments-destructuring-parameters-69586055]] - narrower source section: Composing and Decomposing Data / Arrays and Destructuring Arguments / destructuring parameters
-- [[javascriptallonge-section-composing-and-decomposing-data-self-similarity-4cbf7d4f]] - next source section: Composing and Decomposing Data / Self-Similarity
+- [[javascriptallonge-section-composing-and-decomposing-data-arrays-and-destructuring-arguments-element-references-24b6e6cb]] - narrower source section: Composing and Decomposing Data / Arrays and Destructuring Arguments / element references
+- [[javascriptallonge-section-composing-and-decomposing-data-arrays-and-destructuring-arguments-gathering-781aaf08]] - narrower source section: Composing and Decomposing Data / Arrays and Destructuring Arguments / gathering
 
 ## Statements
 
@@ -88,6 +93,7 @@ From [[javascriptallonge]].
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00836))_
 
+<a id="atom-technical-atom-f35e446be8a2c0dc"></a>
 ```
 const wrap = (something) => [something];
 Let’s expand it to use a block and an extra name:
@@ -103,6 +109,7 @@ const wrapped = [something];
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00837))_
 
+<a id="atom-technical-atom-7c6d2c5a26cb3115"></a>
 ```
 const wrap = (something) => {
 const wrapped = [something]
@@ -120,6 +127,7 @@ wrap("package")
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00851))_
 
+<a id="atom-technical-atom-fa2666d9345d6631"></a>
 ```text
 57 https://en.wikipedia.org/wiki/CAR_and_CDR
 58 Kyle Simpson is the author of You Don't Know JS, available here

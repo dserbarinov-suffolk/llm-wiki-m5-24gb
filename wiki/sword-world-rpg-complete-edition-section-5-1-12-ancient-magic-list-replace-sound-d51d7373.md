@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-5-1-12-ancient-magic-list-replace-sound-d51d7373@a7a1b45d982a88d7921470dae36afcdd
+projection_coverage: section-sword-world-rpg-complete-edition-section-5-1-12-ancient-magic-list-replace-sound-d51d7373@4c10d6aa1be63f4ef8850dbbf91cf591
 ---
 
 # 5.1.12 Ancient Magic List / [ Replace Sound ]
@@ -17,9 +17,14 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-5-1-12-ancient-magic-list-2e59bfee]] - broader source section: 5.1.12 Ancient Magic List
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-5-1-12-ancient-magic-list-falling-control-1fde1312]] - previous source section: 5.1.12 Ancient Magic List / [ Falling Control ]
 - [[sword-world-rpg-complete-edition-section-5-1-12-ancient-magic-list-increase-weight-base-mental-power-cost-9-distance-10-meters-area-one-o-c593fd1e]] - next source section: 5.1.12 Ancient Magic List / [ Increase Weight ] Base Mental Power Cost=9 Distance=10 meters Area=One object Duration=18 rounds Effect=Increase the weight of an object Type=Lost Counters (Negates): Decrease Weight Countered (Negated) By: Decrease Weight
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-5-1-12-ancient-magic-list-2e59bfee]] - broader source section: 5.1.12 Ancient Magic List
 
 ## Statements
 

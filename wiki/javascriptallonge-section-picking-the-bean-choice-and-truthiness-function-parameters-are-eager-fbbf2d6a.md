@@ -4,11 +4,11 @@ page_kind: source
 summary: Picking the Bean: Choice and Truthiness / function parameters are eager: 5 source-backed entries and 1 atom(s) from raw/javascriptallonge.pdf.
 page_family: section-reference
 sources: raw/javascriptallonge.pdf
-updated: 2026-07-01
+updated: 2026-07-02
 domain: javascriptallonge
 category_path: sources/javascriptallonge/sections
 source_id: javascriptallonge.pdf
-projection_coverage: section-javascriptallonge-section-picking-the-bean-choice-and-truthiness-function-parameters-are-eager-fbbf2d6a@247bffe51aa7647761cf841d9d441d1d
+projection_coverage: section-javascriptallonge-section-picking-the-bean-choice-and-truthiness-function-parameters-are-eager-fbbf2d6a@27fb3b2424d16d1d05b4d6cf78f357d9
 ---
 
 # Picking the Bean: Choice and Truthiness / function parameters are eager
@@ -17,9 +17,14 @@ From [[javascriptallonge]].
 
 ## Related pages
 
-- [[javascriptallonge-section-picking-the-bean-choice-and-truthiness-851a6e13]] - broader source section: Picking the Bean: Choice and Truthiness
+### Source order
+
 - [[javascriptallonge-section-picking-the-bean-choice-and-truthiness-and-are-control-flow-operators-e907a1ef]] - previous source section: Picking the Bean: Choice and Truthiness / || and && are control-flow operators
 - [[javascriptallonge-section-picking-the-bean-choice-and-truthiness-summary-cb659264]] - next source section: Picking the Bean: Choice and Truthiness / summary
+
+### Source structure
+
+- [[javascriptallonge-section-picking-the-bean-choice-and-truthiness-851a6e13]] - broader source section: Picking the Bean: Choice and Truthiness
 
 ## Statements
 
@@ -37,6 +42,7 @@ From [[javascriptallonge]].
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00796))_
 
+<a id="atom-technical-atom-33bd73954caacf60"></a>
 ```
 const or = (a, b) => a || b
 const and = (a, b) => a && b

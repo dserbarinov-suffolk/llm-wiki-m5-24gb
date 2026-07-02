@@ -4,11 +4,11 @@ page_kind: source
 summary: Copy on Write / Making Data Out Of Functions / the kestrel and the idiot: 14 source-backed entries and 0 atom(s) from raw/javascriptallonge.pdf.
 page_family: section-reference
 sources: raw/javascriptallonge.pdf
-updated: 2026-07-01
+updated: 2026-07-02
 domain: javascriptallonge
 category_path: sources/javascriptallonge/sections
 source_id: javascriptallonge.pdf
-projection_coverage: section-javascriptallonge-section-copy-on-write-making-data-out-of-functions-the-kestrel-and-the-idiot-301fbaf6@04de301014d9079c2da040dd20dfe2fe
+projection_coverage: section-javascriptallonge-section-copy-on-write-making-data-out-of-functions-the-kestrel-and-the-idiot-301fbaf6@a45f664b8b5896383d95321717e07a51
 ---
 
 # Copy on Write / Making Data Out Of Functions / the kestrel and the idiot
@@ -17,8 +17,13 @@ From [[javascriptallonge]].
 
 ## Related pages
 
-- [[javascriptallonge-section-copy-on-write-making-data-out-of-functions-12daea71]] - broader source section: Copy on Write / Making Data Out Of Functions
+### Source order
+
 - [[javascriptallonge-section-copy-on-write-making-data-out-of-functions-backwardness-24f99a95]] - next source section: Copy on Write / Making Data Out Of Functions / backwardness
+
+### Source structure
+
+- [[javascriptallonge-section-copy-on-write-making-data-out-of-functions-12daea71]] - broader source section: Copy on Write / Making Data Out Of Functions
 
 ## Statements
 

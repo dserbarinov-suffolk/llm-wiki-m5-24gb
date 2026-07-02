@@ -4,11 +4,11 @@ page_kind: source
 summary: Garbage, Garbage Everywhere: 58 source-backed entries and 1 atom(s) from raw/javascriptallonge.pdf.
 page_family: section-reference
 sources: raw/javascriptallonge.pdf
-updated: 2026-07-01
+updated: 2026-07-02
 domain: javascriptallonge
 category_path: sources/javascriptallonge/sections
 source_id: javascriptallonge.pdf
-projection_coverage: section-javascriptallonge-section-garbage-garbage-everywhere-c3e1739c@ae617edfd8bcc3e2452803dde5ca7385
+projection_coverage: section-javascriptallonge-section-garbage-garbage-everywhere-c3e1739c@3a34485ff433244ccb7e156d33b3cb10
 ---
 
 # Garbage, Garbage Everywhere
@@ -17,11 +17,16 @@ From [[javascriptallonge]].
 
 ## Related pages
 
-- [[javascriptallonge-section-garbage-garbage-everywhere-some-history-a956a93b]] - narrower source section: Garbage, Garbage Everywhere / some history
-- [[javascriptallonge-section-garbage-garbage-everywhere-so-why-arrays-270c6428]] - narrower source section: Garbage, Garbage Everywhere / so why arrays
-- [[javascriptallonge-section-garbage-garbage-everywhere-summary-ca623d10]] - narrower source section: Garbage, Garbage Everywhere / summary
+### Source order
+
 - [[javascriptallonge-section-composing-and-decomposing-data-58c1e32b]] - previous source section: Composing and Decomposing Data
 - [[javascriptallonge-section-plain-old-javascript-objects-79315aff]] - next source section: Plain Old JavaScript Objects
+
+### Source structure
+
+- [[javascriptallonge-section-garbage-garbage-everywhere-so-why-arrays-270c6428]] - narrower source section: Garbage, Garbage Everywhere / so why arrays
+- [[javascriptallonge-section-garbage-garbage-everywhere-some-history-a956a93b]] - narrower source section: Garbage, Garbage Everywhere / some history
+- [[javascriptallonge-section-garbage-garbage-everywhere-summary-ca623d10]] - narrower source section: Garbage, Garbage Everywhere / summary
 
 ## Statements
 
@@ -75,6 +80,7 @@ From [[javascriptallonge]].
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01025))_
 
+<a id="atom-technical-atom-d4eb14b1b95ff80e"></a>
 ```text
 some history
 Once upon a time, there was a programming language called Lisp 65 , an acronym for LISt Processing. 66 Lisp was one of the very first high-level languages, the very first implementation was written for the IBM 704 67 computer. (The very first FORTRAN implementation was also written for the 704).

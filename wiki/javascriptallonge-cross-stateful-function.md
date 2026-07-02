@@ -4,10 +4,10 @@ page_kind: concept
 summary: Cross Stateful Function: 1 statement(s) and 0 atom(s) from raw/javascriptallonge.pdf.
 page_family: topic-concept
 sources: raw/javascriptallonge.pdf
-updated: 2026-07-01
+updated: 2026-07-02
 domain: javascriptallonge
 category_path: concepts
-projection_coverage: topic-javascriptallonge-cross-stateful-function@32bb0f67b4e2ebb741013f1dcf535e85
+projection_coverage: topic-javascriptallonge-cross-stateful-function@83e1cb2c897877f602e121169f9d21c1
 ---
 
 # Cross Stateful Function
@@ -22,6 +22,8 @@ What [[javascriptallonge]] covers about cross stateful function:
 
 
 ## Related pages
+
+### Shared claims
 
 - [[javascriptallonge-interactive-generator]] - shared statements: Interactive Generators shares source evidence from Interactive Generators / representing naughts and crosses as a stateful function: Our statelessNaughtsAndCrosses function pushes the work of tracking the game's state onto us, the player. What if we want to exchange moves with the function? In tha ... [truncated] (1 shared statement(s))
 

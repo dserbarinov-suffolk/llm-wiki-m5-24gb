@@ -7,7 +7,7 @@ sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: concepts
-projection_coverage: topic-sword-world-rpg-complete-edition-gauche@a2f8adc8f415646bbb9fba8811c6ec28
+projection_coverage: topic-sword-world-rpg-complete-edition-gauche@2a36274112f45fbd7c928b7902d9613f
 ---
 
 # Gauche
@@ -33,6 +33,7 @@ What [[sword-world-rpg-complete-edition]] covers about gauche:
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-10453))_
 
+<a id="atom-technical-atom-30a7bcc280c26930"></a>
 > When you roll 2D for evasion, if you get double sixes , you can break your opponent's weapon.
 
 ### Technical frame 2: Chapter 16: / 16.9 Special Weapons / Main-gauche/Sword Breaker
@@ -43,10 +44,13 @@ What [[sword-world-rpg-complete-edition]] covers about gauche:
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-10454))_
 
+<a id="atom-technical-atom-299a956912d0cb51"></a>
 > Also, if you use it for an attack, you'll lose the evasion bonus.
 
 
 ## Related pages
+
+### Shared technical atoms
 
 - [[sword-world-rpg-complete-edition-sword-breaker]] - shared statements and technical atoms: Sword Breaker shares source evidence from Chapter 16: / 16.9 Special Weapons / Main-gauche/Sword Breaker: Main-gauche and sword breaker have the same attack scores as a dagger . When attacking with both hands, you'll still suffer a -2 ／ -4 penalty. Also, if you use it fo ... [truncated]; Sword Breaker shares technical record from Chapter 16: / 16.9 Special Weapons / Main-gauche/Sword Breaker: Also, if you use it for an attack, you'll lose the evasion bonus. (1 shared statement(s), 1 shared atom(s))
 

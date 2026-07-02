@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-misty-sword-red-eye-22a66737@e563f5aad9f99d8cbb1eb1387c3fd563
+projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-misty-sword-red-eye-22a66737@e1a6e713c714f56252d1d177d358bde8
 ---
 
 # Chapter 14: / 14.4 Magical Item List / 《 Misty Sword 》 / 《 Red Eye 》
@@ -17,8 +17,13 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-misty-sword-1c0c27f5]] - broader source section: Chapter 14: / 14.4 Magical Item List / 《 Misty Sword 》
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-misty-sword-roan-ax-8d19b70a]] - next source section: Chapter 14: / 14.4 Magical Item List / 《 Misty Sword 》 / 《 Roan Ax 》
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-misty-sword-1c0c27f5]] - broader source section: Chapter 14: / 14.4 Magical Item List / 《 Misty Sword 》
 
 ## Statements
 
@@ -31,6 +36,7 @@ From [[sword-world-rpg-complete-edition]].
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-09205))_
 
+<a id="atom-technical-atom-ae73afc00e014512"></a>
 ```text
 1 23000 《 Roan Ax 》 Strength (Gamels) Strength (Gamels) 8 29000 Rarity=11 Enchanter=Roan, “The Imperfect” 26000 9 25000 Form=Battle-ax 28000 10 23000
 4 30000

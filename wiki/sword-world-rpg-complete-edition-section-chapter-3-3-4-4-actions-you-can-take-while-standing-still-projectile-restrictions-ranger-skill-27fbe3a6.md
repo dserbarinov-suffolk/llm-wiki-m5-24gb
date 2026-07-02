@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-3-3-4-4-actions-you-can-take-while-standing-still-projectile-restrictions-ranger-skill-27fbe3a6@397e35bcbb2c1bd0317cb16d59590195
+projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-3-3-4-4-actions-you-can-take-while-standing-still-projectile-restrictions-ranger-skill-27fbe3a6@83886a0df633fbcdfafd041796ec6a67
 ---
 
 # Chapter 3: / 3.4.4 Actions You Can Take While Standing Still / Projectile Restrictions / 【 Ranger Skill 】
@@ -17,7 +17,12 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
+### Source structure
+
 - [[sword-world-rpg-complete-edition-section-chapter-3-3-4-4-actions-you-can-take-while-standing-still-projectile-restrictions-7d5450ce]] - broader source section: Chapter 3: / 3.4.4 Actions You Can Take While Standing Still / Projectile Restrictions
+
+### Topics
+
 - [[sword-world-rpg-complete-edition-ranger-skill]] - topic hub: opens the topic page for Ranger Skill
 
 ## Statements

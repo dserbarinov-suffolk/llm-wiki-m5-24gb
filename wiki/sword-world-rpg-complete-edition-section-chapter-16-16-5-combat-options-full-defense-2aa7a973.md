@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-16-16-5-combat-options-full-defense-2aa7a973@34b33ec8ad8cefd5db35d7705190577e
+projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-16-16-5-combat-options-full-defense-2aa7a973@482a86bb75028535a612980e90e4a0ed
 ---
 
 # Chapter 16: / 16.5 Combat Options / Full Defense
@@ -17,8 +17,13 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-chapter-16-16-5-combat-options-cdfeb0d1]] - broader source section: Chapter 16: / 16.5 Combat Options
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-chapter-16-16-5-combat-options-strong-blow-e8651dbc]] - next source section: Chapter 16: / 16.5 Combat Options / Strong Blow
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-chapter-16-16-5-combat-options-cdfeb0d1]] - broader source section: Chapter 16: / 16.5 Combat Options
 
 ## Statements
 

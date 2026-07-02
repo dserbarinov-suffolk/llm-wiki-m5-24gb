@@ -4,11 +4,11 @@ page_kind: source
 summary: Recipes with Basic Functions: 86 source-backed entries and 8 atom(s) from raw/javascriptallonge.pdf.
 page_family: section-reference
 sources: raw/javascriptallonge.pdf
-updated: 2026-07-01
+updated: 2026-07-02
 domain: javascriptallonge
 category_path: sources/javascriptallonge/sections
 source_id: javascriptallonge.pdf
-projection_coverage: section-javascriptallonge-section-recipes-with-basic-functions-58df4c63@70a04948fdcaaaa0f8ff5d3207ad5903
+projection_coverage: section-javascriptallonge-section-recipes-with-basic-functions-58df4c63@867c94359e4e6e42cf95e0055a42d95d
 ---
 
 # Recipes with Basic Functions
@@ -17,15 +17,20 @@ From [[javascriptallonge]].
 
 ## Related pages
 
-- [[javascriptallonge-section-recipes-with-basic-functions-disclaimer-ccfb4e57]] - narrower source section: Recipes with Basic Functions / Disclaimer
-- [[javascriptallonge-section-recipes-with-basic-functions-partial-application-80bc1196]] - narrower source section: Recipes with Basic Functions / Partial Application
-- [[javascriptallonge-section-recipes-with-basic-functions-unary-84c3ae50]] - narrower source section: Recipes with Basic Functions / Unary
-- [[javascriptallonge-section-recipes-with-basic-functions-tap-bcbc81bc]] - narrower source section: Recipes with Basic Functions / Tap
-- [[javascriptallonge-section-recipes-with-basic-functions-maybe-d9752e09]] - narrower source section: Recipes with Basic Functions / Maybe
-- [[javascriptallonge-section-recipes-with-basic-functions-once-9048fede]] - narrower source section: Recipes with Basic Functions / Once
-- [[javascriptallonge-section-recipes-with-basic-functions-left-variadic-functions-c0cc9e6b]] - narrower source section: Recipes with Basic Functions / Left-Variadic Functions
+### Source order
+
 - [[javascriptallonge-section-and-also-0e29dfba]] - previous source section: And also:
 - [[javascriptallonge-section-picking-the-bean-choice-and-truthiness-851a6e13]] - next source section: Picking the Bean: Choice and Truthiness
+
+### Source structure
+
+- [[javascriptallonge-section-recipes-with-basic-functions-disclaimer-ccfb4e57]] - narrower source section: Recipes with Basic Functions / Disclaimer
+- [[javascriptallonge-section-recipes-with-basic-functions-left-variadic-functions-c0cc9e6b]] - narrower source section: Recipes with Basic Functions / Left-Variadic Functions
+- [[javascriptallonge-section-recipes-with-basic-functions-maybe-d9752e09]] - narrower source section: Recipes with Basic Functions / Maybe
+- [[javascriptallonge-section-recipes-with-basic-functions-once-9048fede]] - narrower source section: Recipes with Basic Functions / Once
+- [[javascriptallonge-section-recipes-with-basic-functions-partial-application-80bc1196]] - narrower source section: Recipes with Basic Functions / Partial Application
+- [[javascriptallonge-section-recipes-with-basic-functions-tap-bcbc81bc]] - narrower source section: Recipes with Basic Functions / Tap
+- [[javascriptallonge-section-recipes-with-basic-functions-unary-84c3ae50]] - narrower source section: Recipes with Basic Functions / Unary
 
 ## Statements
 
@@ -111,6 +116,7 @@ From [[javascriptallonge]].
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00654))_
 
+<a id="atom-technical-atom-33d675e7d462cdb6"></a>
 ```text
 Partial Application
 In Building Blocks, we discussed partial application, but we didn't write a generalized recipe for it. This is such a common tool that many libraries provide some form of partial application. You'll find examples in Lemonad 45 from Michael Fogus, Functional JavaScript 46 from Oliver Steele and the terse but handy node-ap 47 from James Halliday.
@@ -135,6 +141,7 @@ In Building Blocks, we discussed partial application, but we didn't write a gene
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00656))_
 
+<a id="atom-technical-atom-12e2e0144ff30f83"></a>
 ```
 const callFirst = (fn, larg) =>
 function (...rest) {
@@ -162,6 +169,7 @@ sayHelloToCeline('Eartha')
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00658))_
 
+<a id="atom-technical-atom-6a1f8c07567d2732"></a>
 ```text
 45 https://github.com/fogus/lemonad 46 http://osteele.com/sources/javascript/functional/ 47 https://github.com/substack/node-ap 48
 ```
@@ -185,6 +193,7 @@ sayHelloToCeline('Eartha')
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00692))_
 
+<a id="atom-technical-atom-b391f2eda61e4a54"></a>
 ```
 const isSomething = (value) =>
 value !== null && value !== void 0;
@@ -203,6 +212,7 @@ if (isSomething(value)) {
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00696))_
 
+<a id="atom-technical-atom-5ec51305fdef23e8"></a>
 ```
 const maybe = (fn) =>
 function (...args) {
@@ -223,6 +233,7 @@ if (arg == null) return;
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00697))_
 
+<a id="atom-technical-atom-5afd53750bded0f2"></a>
 ```text
 50 https://en.wikipedia.org/wiki/Monad_(functional_programming)#The_Maybe_monad
 51 https://github.com/raganwald/andand
@@ -246,6 +257,7 @@ if (arg == null) return;
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00698))_
 
+<a id="atom-technical-atom-754594f35861b72e"></a>
 ```
 return fn.apply(this, args)
 }
@@ -260,6 +272,7 @@ return fn.apply(this, args)
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00706))_
 
+<a id="atom-technical-atom-6d0086ae5b54964c"></a>
 ```
 const once = (fn) => {
 let done = false;

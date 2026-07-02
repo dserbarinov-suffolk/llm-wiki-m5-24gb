@@ -4,10 +4,10 @@ page_kind: concept
 summary: Parameter: 6 statement(s) and 13 atom(s) from raw/javascriptallonge.pdf.
 page_family: topic-concept
 sources: raw/javascriptallonge.pdf
-updated: 2026-07-01
+updated: 2026-07-02
 domain: javascriptallonge
 category_path: concepts
-projection_coverage: topic-javascriptallonge-parameter@f393cab6942c30d89ebdc238ddf51677
+projection_coverage: topic-javascriptallonge-parameter@413d9f89efffa65ce61ada20e408b2db
 ---
 
 # Parameter
@@ -49,6 +49,7 @@ What [[javascriptallonge]] covers about parameter:
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00463))_
 
+<a id="atom-technical-atom-2d09b3f1ba4067f3"></a>
 ```
 ((PI) =>
 (diameter) => diameter * PI
@@ -63,6 +64,7 @@ What [[javascriptallonge]] covers about parameter:
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00474))_
 
+<a id="atom-technical-atom-87052ff25d95631f"></a>
 ```
 ((diameter) => {
 const PI = 3.14159265;
@@ -82,6 +84,7 @@ return diameter * PI;
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00477))_
 
+<a id="atom-technical-atom-1cf4fe52d95d2a8f"></a>
 ```
 if (true) {
 // an immediately invoked block statement (IIBS)
@@ -111,6 +114,7 @@ return diameter * PI;
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00478))_
 
+<a id="atom-technical-atom-fd635f45849def79"></a>
 ```
 })(2)
 //=> 6.2831853
@@ -124,6 +128,7 @@ return diameter * PI;
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00713))_
 
+<a id="atom-technical-atom-0055f260c20f9697"></a>
 ```
 const abccc = (a, b, ...c) => {
 console.log(a);
@@ -144,6 +149,7 @@ abccc(1, 2, 3, 4, 5)
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00721))_
 
+<a id="atom-technical-atom-1108bf48e86da005"></a>
 ```
 var __slice = Array.prototype.slice;
 function rightVariadic (fn) {
@@ -172,6 +178,7 @@ firstAndButFirst('why', 'hello', 'there', 'little', 'droid')
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00739))_
 
+<a id="atom-technical-atom-e604a49d9451c634"></a>
 ```
 const [...butLast, last] = ['why', 'hello', 'there', 'little', 'droid'];
 //=> Unexpected token
@@ -185,6 +192,7 @@ const [...butLast, last] = ['why', 'hello', 'there', 'little', 'droid'];
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00743))_
 
+<a id="atom-technical-atom-75b1facae029040a"></a>
 ```
 const leftGather = (outputArrayLength) => {
 return function (inputArray) {
@@ -210,6 +218,7 @@ last
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00869))_
 
+<a id="atom-technical-atom-1873b0cdca1a674a"></a>
 ```
 foo()
 bar("smaug")
@@ -224,6 +233,7 @@ baz(1, 2, 3)
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00871))_
 
+<a id="atom-technical-atom-3a6bd9349011d488"></a>
 ```
 const foo = () => ...
 const bar = (name) => ...
@@ -238,6 +248,7 @@ const baz = (a, b, c) => ...
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01003))_
 
+<a id="atom-technical-atom-3dc1efbffae77206"></a>
 ```
 const length = ([first, ...rest], numberToBeAdded = 0) =>
 first === undefined
@@ -261,6 +272,7 @@ mapWith((x) => x * x, [1, 2, 3, 4, 5])
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01361))_
 
+<a id="atom-technical-atom-2a6b147bd13e773b"></a>
 ```
 (first, second) => (selector) => selector(first)(second)
 ```
@@ -273,6 +285,7 @@ mapWith((x) => x * x, [1, 2, 3, 4, 5])
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01363))_
 
+<a id="atom-technical-atom-820a5b99b6707dae"></a>
 ```
 (first) => (second) => (selector) => selector(first)(second)
 ```
@@ -280,17 +293,19 @@ mapWith((x) => x * x, [1, 2, 3, 4, 5])
 
 ## Related pages
 
+### Shared technical atoms
+
 - [[javascriptallonge-copy-write]] - shared statements and technical atoms: Copy on Write shares source evidence from Copy on Write / Making Data Out Of Functions / the vireo: Given that our latin data is represented as the function (selector) => selector("primus")("secundus") , our obvious next step is to make a function that makes data. ... [truncated]; Copy on Write shares technical record from Copy on Write / Making Data Out Of Functions / the vireo: (first, second) => (selector) => selector(first)(second) (1 shared statement(s), 2 shared atom(s))
+- [[javascriptallonge-statement]] - shared technical atoms: Statement shares technical record from And also: / That Constant Coffee Craving / are consts also from a shadowy planet?: if (true) { // an immediately invoked block statement (IIBS) } Let’s try it: ((diameter) => { const PI = 3; if (true) { const PI = 3.14159265; return diameter * PI; ... [truncated] (2 shared atom(s))
 - [[javascriptallonge-binding]] - shared statements and technical atoms: Binding shares source evidence from And also: / That Constant Coffee Craving / const and lexical scope: Yes. Binding values to names with const works just like binding values to names with parameter invocations, it uses lexical scope.; Binding shares technical record from And also: / That Constant Coffee Craving / are consts also from a shadowy planet?: ((diameter) => { const PI = 3.14159265; (() => { const PI = 3; })(); return diameter * PI; })(2) //=> 6.2831853 (1 shared statement(s), 1 shared atom(s))
 - [[javascriptallonge-ecmascript]] - shared statements and technical atoms: Ecmascript shares source evidence from Recipes with Basic Functions / Left-Variadic Functions: ECMAScript 2015 only permits gathering parameters from the end of the parameter list. Not the beginning. What to do?; Ecmascript shares technical record from Recipes with Basic Functions / Left-Variadic Functions / a history lesson: var __slice = Array.prototype.slice; function rightVariadic (fn) { if (fn.length < 1) return fn; return function () { var ordinaryArgs = (1 <= arguments.length ? __s ... [truncated] (1 shared statement(s), 1 shared atom(s))
 - [[javascriptallonge-list]] - shared statements and technical atoms: List shares source evidence from Composing and Decomposing Data / default arguments: By writing our parameter list as (n, work = 1) => , we're stating that if a second parameter is not provided, work is to be bound to 1 . We can do similar things wit ... [truncated]; List shares technical record from Composing and Decomposing Data / default arguments: const length = ([first, ...rest], numberToBeAdded = 0) => first === undefined ? numberToBeAdded : length(rest, 1 + numberToBeAdded) length(["foo", "bar", "baz"]) //= ... [truncated] (1 shared statement(s), 1 shared atom(s))
-- [[javascriptallonge-statement]] - shared technical atoms: Statement shares technical record from And also: / That Constant Coffee Craving / are consts also from a shadowy planet?: if (true) { // an immediately invoked block statement (IIBS) } Let’s try it: ((diameter) => { const PI = 3; if (true) { const PI = 3.14159265; return diameter * PI; ... [truncated] (2 shared atom(s))
 - [[javascriptallonge-argument]] - shared technical atoms: Argument shares technical record from Recipes with Basic Functions / Left-Variadic Functions / left-variadic destructuring: const leftGather = (outputArrayLength) => { return function (inputArray) { return [inputArray.slice(0, inputArray.length - outputArrayLength + 1)].conc\ at( inputArr ... [truncated] (1 shared atom(s))
 - [[javascriptallonge-array]] - shared technical atoms: Array shares technical record from Composing and Decomposing Data / Arrays and Destructuring Arguments / destructuring parameters: const foo = () => ... const bar = (name) => ... const baz = (a, b, c) => ... (1 shared atom(s))
 - [[javascriptallonge-bind]] - shared technical atoms: Bind shares technical record from And also: / That Constant Coffee Craving / are consts also from a shadowy planet?: ((diameter) => { const PI = 3.14159265; (() => { const PI = 3; })(); return diameter * PI; })(2) //=> 6.2831853 (1 shared atom(s))
-- [[javascriptallonge-data]] - shared technical atoms: Data shares technical record from Copy on Write / Making Data Out Of Functions / the vireo: (first, second) => (selector) => selector(first)(second) (1 shared atom(s))
-- [[javascriptallonge-javascript]] - shared technical atoms: Javascript shares technical record from Recipes with Basic Functions / Left-Variadic Functions / a history lesson: var __slice = Array.prototype.slice; function rightVariadic (fn) { if (fn.length < 1) return fn; return function () { var ordinaryArgs = (1 <= arguments.length ? __s ... [truncated] (1 shared atom(s))
-- [[javascriptallonge-structure]] - shared technical atoms: Structure shares technical record from Copy on Write / Making Data Out Of Functions / the vireo: (first, second) => (selector) => selector(first)(second) (1 shared atom(s))
+
+### Shared claims
+
 - [[javascriptallonge-const]] - shared statements: Const shares source evidence from And also: / That Constant Coffee Craving / const and lexical scope: Yes. Binding values to names with const works just like binding values to names with parameter invocations, it uses lexical scope. (1 shared statement(s))
 - [[javascriptallonge-lexical-scope]] - shared statements: Lexical Scope shares source evidence from And also: / That Constant Coffee Craving / const and lexical scope: Yes. Binding values to names with const works just like binding values to names with parameter invocations, it uses lexical scope. (1 shared statement(s))
 - [[javascriptallonge-return]] - shared statements: Return shares source evidence from Copy on Write / Making Data Out Of Functions / the vireo: Given that our latin data is represented as the function (selector) => selector("primus")("secundus") , our obvious next step is to make a function that makes data. ... [truncated] (1 shared statement(s))

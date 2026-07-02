@@ -4,10 +4,10 @@ page_kind: concept
 summary: Fat Arrow: 3 statement(s) and 2 atom(s) from raw/javascriptallonge.pdf.
 page_family: topic-concept
 sources: raw/javascriptallonge.pdf
-updated: 2026-07-01
+updated: 2026-07-02
 domain: javascriptallonge
 category_path: concepts
-projection_coverage: topic-javascriptallonge-fat-arrow@ea60c17eeeb791730e12d06a5ec5faf4
+projection_coverage: topic-javascriptallonge-fat-arrow@691d4668971d8de65c30d2e3976aa5e5
 ---
 
 # Fat Arrow
@@ -35,6 +35,7 @@ What [[javascriptallonge]] covers about fat arrow:
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00618))_
 
+<a id="atom-technical-atom-1f21fdd6be9ef40d"></a>
 ```
 (function () {
 return (() => arguments[0])('inner');
@@ -50,6 +51,7 @@ return (() => arguments[0])('inner');
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00621))_
 
+<a id="atom-technical-atom-34cc4e2d51243815"></a>
 ```
 const row = function () {
 return mapWith(
@@ -63,6 +65,8 @@ row(3)
 
 
 ## Related pages
+
+### Shared technical atoms
 
 - [[javascriptallonge-argument]] - shared statements and technical atoms: Argument shares source evidence from And also: / Magic Names / magic names and fat arrows: This works just fine, because arguments[0] refers to the 3 we passed to the function row . Our 'fat arrow' function (column) => column * arguments[0] doesn't bind ar ... [truncated]; Argument shares technical record from And also: / Magic Names / magic names and fat arrows: (function () { return (() => arguments[0])('inner'); })('outer') //=> "outer" (1 shared statement(s), 2 shared atom(s))
 - [[javascriptallonge-bind]] - shared statements and technical atoms: Bind shares source evidence from And also: / Magic Names / magic names and fat arrows: This works just fine, because arguments[0] refers to the 3 we passed to the function row . Our 'fat arrow' function (column) => column * arguments[0] doesn't bind ar ... [truncated]; Bind shares technical record from And also: / Magic Names / magic names and fat arrows: const row = function () { return mapWith( (column) => column * arguments[0], [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12] ) } row(3) //=> [3,6,9,12,15,18,21,24,27,30,33,36] (1 shared statement(s), 1 shared atom(s))

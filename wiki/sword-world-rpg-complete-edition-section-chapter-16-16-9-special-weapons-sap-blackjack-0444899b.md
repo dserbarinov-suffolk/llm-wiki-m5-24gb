@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-16-16-9-special-weapons-sap-blackjack-0444899b@e0a1fa06385846e582e90ba41743098b
+projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-16-16-9-special-weapons-sap-blackjack-0444899b@cc5b531f08ad3694a9c79a459c528573
 ---
 
 # Chapter 16: / 16.9 Special Weapons / Sap (Blackjack)
@@ -17,9 +17,14 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-chapter-16-16-9-special-weapons-8824e2ed]] - broader source section: Chapter 16: / 16.9 Special Weapons
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-chapter-16-16-9-special-weapons-cestus-aef131a0]] - previous source section: Chapter 16: / 16.9 Special Weapons / Cestus
 - [[sword-world-rpg-complete-edition-section-chapter-16-16-9-special-weapons-garrote-06874847]] - next source section: Chapter 16: / 16.9 Special Weapons / Garrote
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-chapter-16-16-9-special-weapons-8824e2ed]] - broader source section: Chapter 16: / 16.9 Special Weapons
 
 ## Statements
 

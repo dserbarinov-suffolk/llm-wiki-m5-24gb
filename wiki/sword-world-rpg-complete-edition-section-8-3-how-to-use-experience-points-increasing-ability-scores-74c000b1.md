@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-8-3-how-to-use-experience-points-increasing-ability-scores-74c000b1@cb6a01122d038ac0fc52161632c7cadd
+projection_coverage: section-sword-world-rpg-complete-edition-section-8-3-how-to-use-experience-points-increasing-ability-scores-74c000b1@053db833e422575745767183beda6632
 ---
 
 # 8.3 How to Use Experience Points: Increasing Ability Scores
@@ -16,6 +16,8 @@ projection_coverage: section-sword-world-rpg-complete-edition-section-8-3-how-to
 From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
+
+### Source order
 
 - [[sword-world-rpg-complete-edition-section-8-2-how-to-use-experience-points-increasing-skill-levels-8e61e7ca]] - previous source section: 8.2 How to Use Experience Points: Increasing Skill Levels
 - [[sword-world-rpg-complete-edition-section-8-4-increasing-general-skills-b2e7e74d]] - next source section: 8.4 Increasing General Skills

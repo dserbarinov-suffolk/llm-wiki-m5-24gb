@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-13-1-types-of-monsters-fae-b74946ce@5d0eb6f2c8ca12071f6974b897279636
+projection_coverage: section-sword-world-rpg-complete-edition-section-13-1-types-of-monsters-fae-b74946ce@81c7286d4f747aada99ada4c01cd2c12
 ---
 
 # 13.1 Types of Monsters / 《 Fae 》
@@ -17,8 +17,13 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-13-1-types-of-monsters-7512eede]] - broader source section: 13.1 Types of Monsters
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-13-1-types-of-monsters-youma-88f0a111]] - next source section: 13.1 Types of Monsters / 《 Youma 》
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-13-1-types-of-monsters-7512eede]] - broader source section: 13.1 Types of Monsters
 
 ## Statements
 

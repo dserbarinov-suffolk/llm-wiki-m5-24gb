@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-5-1-12-ancient-magic-list-magic-reflection-8th-level-ancient-magic-list-2c39d806@a2b77283c3f40a05050a1d82345e368e
+projection_coverage: section-sword-world-rpg-complete-edition-section-5-1-12-ancient-magic-list-magic-reflection-8th-level-ancient-magic-list-2c39d806@d1904f6661f50e1203dffe6016d6a0d2
 ---
 
 # 5.1.12 Ancient Magic List / [ Magic Reflection ] / 8th Level Ancient Magic List
@@ -16,6 +16,8 @@ projection_coverage: section-sword-world-rpg-complete-edition-section-5-1-12-anc
 From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
+
+### Source structure
 
 - [[sword-world-rpg-complete-edition-section-5-1-12-ancient-magic-list-magic-reflection-3d7d6ee5]] - broader source section: 5.1.12 Ancient Magic List / [ Magic Reflection ]
 

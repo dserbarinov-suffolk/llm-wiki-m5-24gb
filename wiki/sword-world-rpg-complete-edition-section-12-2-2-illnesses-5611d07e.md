@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-12-2-2-illnesses-5611d07e@0585e7ae6c39fdc3f2aa62f33c8d1a5a
+projection_coverage: section-sword-world-rpg-complete-edition-section-12-2-2-illnesses-5611d07e@15970f1ca04920410816c9cb3e0c6083
 ---
 
 # 12.2.2 Illnesses
@@ -17,25 +17,21 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-12-2-2-illnesses-common-cold-92a75f39]] - narrower source section: 12.2.2 Illnesses / [ Common Cold ]
-- [[sword-world-rpg-complete-edition-section-12-2-2-illnesses-symptoms-f4982659]] - narrower source section: 12.2.2 Illnesses / 《 Symptoms 》
-- [[sword-world-rpg-complete-edition-section-12-2-2-illnesses-rarity-5504c398]] - narrower source section: 12.2.2 Illnesses / 《 Rarity 》
-- [[sword-world-rpg-complete-edition-section-12-2-2-illnesses-fatal-depth-51859caa]] - narrower source section: 12.2.2 Illnesses / 《 Fatal Depth 》
-- [[sword-world-rpg-complete-edition-section-12-2-2-illnesses-infection-power-865cf146]] - narrower source section: 12.2.2 Illnesses / 《 Infection Power 》
-- [[sword-world-rpg-complete-edition-section-12-2-2-illnesses-description-edb99c5e]] - narrower source section: 12.2.2 Illnesses / 《 Description 》
-- [[sword-world-rpg-complete-edition-section-12-2-2-illnesses-bat-fever-56d254a7]] - narrower source section: 12.2.2 Illnesses / [ Bat Fever ]
-- [[sword-world-rpg-complete-edition-section-12-2-2-illnesses-vampire-skin-867f7078]] - narrower source section: 12.2.2 Illnesses / [ Vampire Skin ]
-- [[sword-world-rpg-complete-edition-section-12-2-2-illnesses-humbaba-curse-23191d95]] - narrower source section: 12.2.2 Illnesses / [ Humbaba Curse ]
-- [[sword-world-rpg-complete-edition-section-12-2-2-illnesses-lycanthropy-273174c8]] - narrower source section: 12.2.2 Illnesses / [ Lycanthropy ]
-- [[sword-world-rpg-complete-edition-section-12-2-2-illnesses-rat-disease-53ac68c7]] - narrower source section: 12.2.2 Illnesses / [ Rat Disease ]
-- [[sword-world-rpg-complete-edition-section-12-2-2-illnesses-arnica-b80b32cc]] - narrower source section: 12.2.2 Illnesses / [ Arnica ]
-- [[sword-world-rpg-complete-edition-section-12-2-2-illnesses-upas-4fc28f9e]] - narrower source section: 12.2.2 Illnesses / [ Upas ]
-- [[sword-world-rpg-complete-edition-section-12-2-2-illnesses-dulcamara-b79d20dc]] - narrower source section: 12.2.2 Illnesses / [ Dulcamara ]
-- [[sword-world-rpg-complete-edition-section-12-2-2-illnesses-henruda-4151d45f]] - narrower source section: 12.2.2 Illnesses / [ Henruda ]
-- [[sword-world-rpg-complete-edition-section-12-2-2-illnesses-mandrake-b0793d01]] - narrower source section: 12.2.2 Illnesses / [ Mandrake ]
-- [[sword-world-rpg-complete-edition-section-12-2-2-illnesses-work-requests-to-npcs-d3908296]] - narrower source section: 12.2.2 Illnesses / Work Requests to NPCs
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-deathlike-sleep-dose-839e5efc]] - previous source section: [Deathlike Sleep (Dose)]
 - [[sword-world-rpg-complete-edition-section-13-1-types-of-monsters-7512eede]] - next source section: 13.1 Types of Monsters
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-12-2-2-illnesses-arnica-b80b32cc]] - narrower source section: 12.2.2 Illnesses / [ Arnica ]
+- [[sword-world-rpg-complete-edition-section-12-2-2-illnesses-bat-fever-56d254a7]] - narrower source section: 12.2.2 Illnesses / [ Bat Fever ]
+- [[sword-world-rpg-complete-edition-section-12-2-2-illnesses-common-cold-92a75f39]] - narrower source section: 12.2.2 Illnesses / [ Common Cold ]
+- [[sword-world-rpg-complete-edition-section-12-2-2-illnesses-description-edb99c5e]] - narrower source section: 12.2.2 Illnesses / 《 Description 》
+- [[sword-world-rpg-complete-edition-section-12-2-2-illnesses-dulcamara-b79d20dc]] - narrower source section: 12.2.2 Illnesses / [ Dulcamara ]
+- [[sword-world-rpg-complete-edition-section-12-2-2-illnesses-fatal-depth-51859caa]] - narrower source section: 12.2.2 Illnesses / 《 Fatal Depth 》
+- [[sword-world-rpg-complete-edition-section-12-2-2-illnesses-henruda-4151d45f]] - narrower source section: 12.2.2 Illnesses / [ Henruda ]
+- [[sword-world-rpg-complete-edition-section-12-2-2-illnesses-humbaba-curse-23191d95]] - narrower source section: 12.2.2 Illnesses / [ Humbaba Curse ]
 
 ## Statements
 
@@ -206,6 +202,7 @@ From [[sword-world-rpg-complete-edition]].
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-05693))_
 
+<a id="atom-technical-atom-9849dc76fb3efb90"></a>
 > If a disease can be identified, owners of the healer skill can provide appropriate treatment.
 
 ### Technical frame 2: 12.2.2 Illnesses / 《 Rarity 》
@@ -216,6 +213,7 @@ From [[sword-world-rpg-complete-edition]].
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-05695))_
 
+<a id="atom-technical-atom-939f598dfbea35ec"></a>
 > If the roll is less than the progression intensity , the disease gets worse and the depth increases by 1.
 
 ### Technical frame 3: 12.2.2 Illnesses / 《 Rarity 》
@@ -226,6 +224,7 @@ From [[sword-world-rpg-complete-edition]].
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-05696))_
 
+<a id="atom-technical-atom-9c8a37edbf64141f"></a>
 > Even if a shaman cannot use the spell Restore Health , they can still work with one type of spirit to alleviate symptoms.
 
 ### Technical frame 4: 12.2.2 Illnesses / 《 Rarity 》
@@ -236,6 +235,7 @@ From [[sword-world-rpg-complete-edition]].
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-05699))_
 
+<a id="atom-technical-atom-55260e285bfdb8a0"></a>
 > immediately after the illness's progression check), and you can only make one success roll.
 
 ### Technical frame 5: 12.2.2 Illnesses / [ Rat Disease ] / [ Red Cap ]
@@ -246,12 +246,16 @@ From [[sword-world-rpg-complete-edition]].
 
 **Atoms:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-05782, source-range-0d48087c-05783, source-range-0d48087c-05785, source-range-0d48087c-05786))_
 
+<a id="atom-technical-atom-a4412e9d827339ce"></a>
 > Symptoms=Going berserk, change in body shape
 
+<a id="atom-technical-atom-24602b8daa15959f"></a>
 > Rarity=12
 
+<a id="atom-technical-atom-2412e1d8c3137217"></a>
 > Fatal Depth=5
 
+<a id="atom-technical-atom-549def81369ad848"></a>
 > Infection Power=Very strong (Infection through gaze)
 
 ### Technical frame 6: 12.2.2 Illnesses / [ Rat Disease ] / [ Red Cap ]
@@ -262,4 +266,5 @@ From [[sword-world-rpg-complete-edition]].
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-05788))_
 
+<a id="atom-technical-atom-7880043482aeec2b"></a>
 > If you make eye contact with someone who has the illness, a progression check must be made immediately.

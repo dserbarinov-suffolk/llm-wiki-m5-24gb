@@ -7,7 +7,7 @@ sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: concepts
-projection_coverage: topic-sword-world-rpg-complete-edition-shape-change@534aec1137ee218b4eb587bf752f6078
+projection_coverage: topic-sword-world-rpg-complete-edition-shape-change@5eb487630bde7919c32dfa801667a06d
 ---
 
 # [ Shape Change
@@ -57,20 +57,28 @@ What [[sword-world-rpg-complete-edition]] covers about [ shape change:
 
 **Atoms:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-02219, source-range-0d48087c-02220, source-range-0d48087c-02221, source-range-0d48087c-02222, source-range-0d48087c-02223, source-range-0d48087c-02224, source-range-0d48087c-02225, source-range-0d48087c-02226))_
 
+<a id="atom-technical-atom-43cb30f958108342"></a>
 > Base Mental Power Cost=20
 
+<a id="atom-technical-atom-06ef113785b10110"></a>
 > Distance=Caster
 
+<a id="atom-technical-atom-cafadc4300cea3b6"></a>
 > Area=Caster
 
+<a id="atom-technical-atom-2700c67a059b140c"></a>
 > Duration=Depends on caster's intention
 
+<a id="atom-technical-atom-88a24ea1069dd7c3"></a>
 > Effect=Change the caster's appearance
 
+<a id="atom-technical-atom-955c47d4749ce259"></a>
 > Type=Target score
 
+<a id="atom-technical-atom-81a80d5e7a327064"></a>
 > Expansion=Final score
 
+<a id="atom-technical-atom-67eadcb44199351d"></a>
 > Resist=None
 
 ### Technical frame 2: 5.1.12 Ancient Magic List / [ Shape Change
@@ -81,6 +89,7 @@ What [[sword-world-rpg-complete-edition]] covers about [ shape change:
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-02227))_
 
+<a id="atom-technical-atom-b9994bdda1bd7da7"></a>
 > The caster can cancel the spell's effect at any time, but once it's canceled, you cannot take on that form again unless you cast the spell again.
 
 ### Technical frame 3: Chapter 11: Notes on Magic / 11.3 Dragon Roar Magic / 7th Level Dragon Roar Magic List [ Summon Wyrm ] / [ Shape Change
@@ -91,28 +100,41 @@ What [[sword-world-rpg-complete-edition]] covers about [ shape change:
 
 **Atoms:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-05280, source-range-0d48087c-05281, source-range-0d48087c-05282, source-range-0d48087c-05283, source-range-0d48087c-05284, source-range-0d48087c-05285, source-range-0d48087c-05286, source-range-0d48087c-05287))_
 
+<a id="atom-technical-atom-2096667a2457ef95"></a>
 > Base Mental Power Cost=35
 
+<a id="atom-technical-atom-149d3171bb1b2039"></a>
 > Distance=Caster
 
+<a id="atom-technical-atom-c10ba58b5e7b2c49"></a>
 > Area=Caster
 
+<a id="atom-technical-atom-5f8ff076d6d2b7e2"></a>
 > Duration=18 rounds
 
+<a id="atom-technical-atom-dab5a4a3a19ab067"></a>
 > Effect=Transform into a lesser dragon
 
+<a id="atom-technical-atom-d90f8d6b09ae7ea1"></a>
 > Type=Target score
 
+<a id="atom-technical-atom-8de2933add09489b"></a>
 > Expansion=Final score, duration
 
+<a id="atom-technical-atom-35735ee9c8698dc4"></a>
 > Resist=None
 
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-sage-skill]] - shared statements: Sage Skill shares source evidence from 5.1.12 Ancient Magic List / [ Shape Change: This is a spell that allows the caster to change their form into another living creature at will. However, the creatures they can change into are limited to about 10 ... [truncated] (1 shared statement(s))
+### Source structure
+
 - [[sword-world-rpg-complete-edition-section-5-1-12-ancient-magic-list-shape-change-1e62400c]] - source section: 5.1.12 Ancient Magic List / [ Shape Change shares source evidence from 5.1.12 Ancient Magic List / [ Shape Change: This is a spell that allows the caster to change their form into another living creature at will. However, the creatures they can change into are limited to about 10 ... [truncated]; 5.1.12 Ancient Magic List / [ Shape Change shares technical record from 5.1.12 Ancient Magic List / [ Shape Change: Base Mental Power Cost=20 (10 shared statement(s), 9 shared atom(s))
 - [[sword-world-rpg-complete-edition-section-chapter-11-notes-on-magic-11-3-dragon-roar-magic-7th-level-dragon-roar-magic-list-summon-wyrm-sh-bccf274c]] - source section: Chapter 11: Notes on Magic / 11.3 Dragon Roar Magic / 7th Level Dragon Roar Magic List [ Summon Wyrm ] / [ Shape Change shares source evidence from Chapter 11: Notes on Magic / 11.3 Dragon Roar Magic / 7th Level Dragon Roar Magic List [ Summon Wyrm ] / [ Shape Change: Transform into a lesser dragon. Life force and mental power will be taken from the caster's current scores ( not their maximum scores), but other details such as att ... [truncated]; Chapter 11: Notes on Magic / 11.3 Dragon Roar Magic / 7th Level Dragon Roar Magic List [ Summon Wyrm ] / [ Shape Change shares technical record from Chapter 11: Notes on Magic / 11.3 Dragon Roar Magic / 7th Level Dragon Roar Magic List [ Summon Wyrm ] / [ Shape Change: Base Mental Power Cost=35 (2 shared statement(s), 8 shared atom(s))
+
+### Shared claims
+
+- [[sword-world-rpg-complete-edition-sage-skill]] - shared statements: Sage Skill shares source evidence from 5.1.12 Ancient Magic List / [ Shape Change: This is a spell that allows the caster to change their form into another living creature at will. However, the creatures they can change into are limited to about 10 ... [truncated] (1 shared statement(s))
 
 ## Source
 

@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-deathlike-sleep-dose-love-passion-inhaled-dose-magic-mind-f8d31402@097150c09e968032e5bbf1b2b998c009
+projection_coverage: section-sword-world-rpg-complete-edition-section-deathlike-sleep-dose-love-passion-inhaled-dose-magic-mind-f8d31402@bf9849d547b18f181c445bc46c3b2b4b
 ---
 
 # [Deathlike Sleep (Dose)] / [ Love Passion (Inhaled, Dose/Magic, Mind) ]
@@ -17,9 +17,14 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
+### Source order
+
+- [[sword-world-rpg-complete-edition-section-deathlike-sleep-dose-medusa-eyes-dose-magic-4e60aab1]] - previous source section: [Deathlike Sleep (Dose)] / [Medusa Eyes (Dose/Magic)]
+
+### Source structure
+
 - [[sword-world-rpg-complete-edition-section-deathlike-sleep-dose-839e5efc]] - broader source section: [Deathlike Sleep (Dose)]
 - [[sword-world-rpg-complete-edition-section-deathlike-sleep-dose-love-passion-inhaled-dose-magic-mind-living-doll-injected-magic-43a8e0fd]] - narrower source section: [Deathlike Sleep (Dose)] / [ Love Passion (Inhaled, Dose/Magic, Mind) ] / [Living Doll (Injected/Magic)]
-- [[sword-world-rpg-complete-edition-section-deathlike-sleep-dose-medusa-eyes-dose-magic-4e60aab1]] - previous source section: [Deathlike Sleep (Dose)] / [Medusa Eyes (Dose/Magic)]
 
 ## Statements
 

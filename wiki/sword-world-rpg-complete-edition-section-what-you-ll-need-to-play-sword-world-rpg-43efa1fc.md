@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-what-you-ll-need-to-play-sword-world-rpg-43efa1fc@7d8e0b136af3a4f6ddb6a14ec944f030
+projection_coverage: section-sword-world-rpg-complete-edition-section-what-you-ll-need-to-play-sword-world-rpg-43efa1fc@4387fc5f48bd6e11955f65fa72ab9052
 ---
 
 # What You'll Need to Play Sword World RPG
@@ -16,6 +16,8 @@ projection_coverage: section-sword-world-rpg-complete-edition-section-what-you-l
 From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
+
+### Source order
 
 - [[sword-world-rpg-complete-edition-section-guide-to-forcelia-and-alecrast-2bc9f290]] - previous source section: Guide to Forcelia and Alecrast
 - [[sword-world-rpg-complete-edition-section-books-related-to-sword-world-rpg-0bf442c7]] - next source section: Books Related to Sword World RPG
@@ -40,4 +42,5 @@ From [[sword-world-rpg-complete-edition]].
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-00105))_
 
+<a id="atom-technical-atom-7a2f97b1aa78e4e3"></a>
 > When you roll 1D , roll one die and use the result that comes up.

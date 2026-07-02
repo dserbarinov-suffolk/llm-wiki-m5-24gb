@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-rings-thermal-ring-27ca5ccf@dbd30391ef4804ddffa2a38a3d0a81cc
+projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-rings-thermal-ring-27ca5ccf@3409bfe9578ceb931375eccc211e8ca7
 ---
 
 # Chapter 14: / 14.4 Magical Item List / 《 Rings 》 / [ Thermal Ring ]
@@ -17,9 +17,14 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-rings-89a8088e]] - broader source section: Chapter 14: / 14.4 Magical Item List / 《 Rings 》
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-rings-quickness-ring-721ce4a9]] - previous source section: Chapter 14: / 14.4 Magical Item List / 《 Rings 》 / [ Quickness Ring ]
 - [[sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-rings-parry-parry-43e84912]] - next source section: Chapter 14: / 14.4 Magical Item List / 《 Rings 》 / [ Parry Parry ]
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-rings-89a8088e]] - broader source section: Chapter 14: / 14.4 Magical Item List / 《 Rings 》
 
 ## Statements
 

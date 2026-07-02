@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-11-notes-on-magic-147e95d8@1c4766182bf4092bc20e063f5a755301
+projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-11-notes-on-magic-147e95d8@2f396e52ba51b25e43864dab8bb377dc
 ---
 
 # Chapter 11: Notes on Magic
@@ -17,13 +17,18 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
+### Source order
+
+- [[sword-world-rpg-complete-edition-section-10-5-attacks-against-the-sleeping-a6ff2046]] - previous source section: 10.5 Attacks Against the Sleeping
+- [[sword-world-rpg-complete-edition-section-10th-level-dragon-roar-magic-list-reborn-dragon-e7d7b94a]] - next source section: 10th Level Dragon Roar Magic List [ Reborn Dragon ]
+
+### Source structure
+
 - [[sword-world-rpg-complete-edition-section-chapter-11-notes-on-magic-11-1-rune-masters-status-4e95a608]] - narrower source section: Chapter 11: Notes on Magic / 11.1 Rune Masters' Status
 - [[sword-world-rpg-complete-edition-section-chapter-11-notes-on-magic-11-2-dark-magic-3498c004]] - narrower source section: Chapter 11: Notes on Magic / 11.2 Dark Magic
 - [[sword-world-rpg-complete-edition-section-chapter-11-notes-on-magic-11-3-dragon-roar-magic-992d31da]] - narrower source section: Chapter 11: Notes on Magic / 11.3 Dragon Roar Magic
 - [[sword-world-rpg-complete-edition-section-chapter-11-notes-on-magic-11-4-acquiring-rune-master-skills-and-increasing-levels-7501099d]] - narrower source section: Chapter 11: Notes on Magic / 11.4 Acquiring Rune Master Skills and Increasing Levels
 - [[sword-world-rpg-complete-edition-section-chapter-11-notes-on-magic-11-5-asking-npcs-to-use-magic-822a863e]] - narrower source section: Chapter 11: Notes on Magic / 11.5 Asking NPCs to Use Magic
-- [[sword-world-rpg-complete-edition-section-10-5-attacks-against-the-sleeping-a6ff2046]] - previous source section: 10.5 Attacks Against the Sleeping
-- [[sword-world-rpg-complete-edition-section-10th-level-dragon-roar-magic-list-reborn-dragon-e7d7b94a]] - next source section: 10th Level Dragon Roar Magic List [ Reborn Dragon ]
 
 ## Statements by subsection
 
@@ -424,6 +429,7 @@ From [[sword-world-rpg-complete-edition]].
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-05140))_
 
+<a id="atom-technical-atom-33e2c146dcfad025"></a>
 ```text
 Table 11-1: Summon
  digest anything that enters their stomach
@@ -442,6 +448,7 @@ Table 11-1: Summon
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-05142))_
 
+<a id="atom-technical-atom-5324ab00f084f75c"></a>
 ```text
 1 day later
 -5
@@ -480,6 +487,7 @@ Table 11-1: Summon
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-05340))_
 
+<a id="atom-technical-atom-5ce0afec19ee1ae5"></a>
 ```text
 Table 11-2: NPC Presence by Level.
                                     The market price is NPC's rune master      You successfully find a 10th level
@@ -513,6 +521,7 @@ Table 11-2: NPC Presence by Level.
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-05343))_
 
+<a id="atom-technical-atom-f43aa8329769b919"></a>
 | You | may | want | to | have | a | Remove | Curse | 7th | level | Large | city | in | a | large | country, | royal | capital | level | of | a | small | country |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | cast Resurrection have | on a | you magical | when cast | when item | you're someone appraised | cursed, | a dies, or using | 5th 3rd | level level | Moderate Town | of | city around |  | 1000 | people |  |  |  |  |  |  |  |

@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-5-1-12-ancient-magic-list-shape-change-1e62400c@ce20685e571fb15859ba902c08cf3b5f
+projection_coverage: section-sword-world-rpg-complete-edition-section-5-1-12-ancient-magic-list-shape-change-1e62400c@41b8a4b481cb83f16bd07a3a0a0c04fe
 ---
 
 # 5.1.12 Ancient Magic List / [ Shape Change
@@ -17,9 +17,17 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-5-1-12-ancient-magic-list-2e59bfee]] - broader source section: 5.1.12 Ancient Magic List
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-5-1-12-ancient-magic-list-conceal-self-2ef34865]] - previous source section: 5.1.12 Ancient Magic List / [ Conceal Self ]
 - [[sword-world-rpg-complete-edition-section-5-1-12-ancient-magic-list-sense-aura-18276e87]] - next source section: 5.1.12 Ancient Magic List / [ Sense Aura ]
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-5-1-12-ancient-magic-list-2e59bfee]] - broader source section: 5.1.12 Ancient Magic List
+
+### Topics
+
 - [[sword-world-rpg-complete-edition-shape-change]] - topic hub: opens the topic page for Shape Change
 
 ## Statements

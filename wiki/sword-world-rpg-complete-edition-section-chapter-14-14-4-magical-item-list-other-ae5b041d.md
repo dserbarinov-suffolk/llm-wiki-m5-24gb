@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-other-ae5b041d@3dc916d7d21a83ce93611a9d4e78656c
+projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-other-ae5b041d@9727c3618577d3078454d75b536ccc50
 ---
 
 # Chapter 14: / 14.4 Magical Item List / 《 Other 》
@@ -17,38 +17,21 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-51d7c911]] - broader source section: Chapter 14: / 14.4 Magical Item List
-- [[sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-other-weightless-bag-fd41b3b7]] - narrower source section: Chapter 14: / 14.4 Magical Item List / 《 Other 》 / [ Weightless Bag ]
-- [[sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-other-explosive-bullet-aa61dc3a]] - narrower source section: Chapter 14: / 14.4 Magical Item List / 《 Other 》 / [ Explosive Bullet ]
-- [[sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-other-old-man-liar-punisher-e935b921]] - narrower source section: Chapter 14: / 14.4 Magical Item List / 《 Other 》 / [ Old Man Liar Punisher ]
-- [[sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-other-card-of-power-74d8d6bf]] - narrower source section: Chapter 14: / 14.4 Magical Item List / 《 Other 》 / [ Card of Power ]
-- [[sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-other-guard-glove-70b1bc84]] - narrower source section: Chapter 14: / 14.4 Magical Item List / 《 Other 》 / [ Guard Glove ]
-- [[sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-other-crystal-orb-of-clairvoyance-5abbe49f]] - narrower source section: Chapter 14: / 14.4 Magical Item List / 《 Other 》 / [Crystal Orb of Clairvoyance]
-- [[sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-other-gale-horseshoes-f8ec6713]] - narrower source section: Chapter 14: / 14.4 Magical Item List / 《 Other 》 / [ Gale Horseshoes ]
-- [[sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-other-sealing-jar-131d9ef6]] - narrower source section: Chapter 14: / 14.4 Magical Item List / 《 Other 》 / [ Sealing Jar ]
-- [[sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-other-seal-stone-96a3f5a6]] - narrower source section: Chapter 14: / 14.4 Magical Item List / 《 Other 》 / [ Seal Stone ]
-- [[sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-other-jumping-boots-93f82062]] - narrower source section: Chapter 14: / 14.4 Magical Item List / 《 Other 》 / [ Jumping Boots ]
-- [[sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-other-scape-doll-d5ce600c]] - narrower source section: Chapter 14: / 14.4 Magical Item List / 《 Other 》 / [ Scape Doll ]
-- [[sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-other-statue-of-changing-1a860ba6]] - narrower source section: Chapter 14: / 14.4 Magical Item List / 《 Other 》 / [ Statue of Changing ]
-- [[sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-other-spirit-sealing-stone-3f5be059]] - narrower source section: Chapter 14: / 14.4 Magical Item List / 《 Other 》 / [ Spirit Sealing Stone ]
-- [[sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-other-sleep-eye-15812a51]] - narrower source section: Chapter 14: / 14.4 Magical Item List / 《 Other 》 / [ Sleep Eye ]
-- [[sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-other-zero-gravity-disc-62d99559]] - narrower source section: Chapter 14: / 14.4 Magical Item List / 《 Other 》 / [ Zero Gravity Disc ]
-- [[sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-other-soft-lander-830df0a9]] - narrower source section: Chapter 14: / 14.4 Magical Item List / 《 Other 》 / [ Soft Lander ]
-- [[sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-other-daemon-jar-2cf88c8a]] - narrower source section: Chapter 14: / 14.4 Magical Item List / 《 Other 》 / [ Daemon Jar ]
-- [[sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-other-daemon-hand-2209e731]] - narrower source section: Chapter 14: / 14.4 Magical Item List / 《 Other 》 / [ Daemon Hand ]
-- [[sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-other-dragon-tooth-05f57616]] - narrower source section: Chapter 14: / 14.4 Magical Item List / 《 Other 》 / [ Dragon Tooth ]
-- [[sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-other-tracer-doll-cffb7cde]] - narrower source section: Chapter 14: / 14.4 Magical Item List / 《 Other 》 / [ Tracer Doll ]
-- [[sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-other-night-goggles-b21292ba]] - narrower source section: Chapter 14: / 14.4 Magical Item List / 《 Other 》 / [ Night Goggles ]
-- [[sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-other-fire-jack-aa2c0e46]] - narrower source section: Chapter 14: / 14.4 Magical Item List / 《 Other 》 / [ Fire Jack ]
-- [[sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-other-bag-of-protection-52f4824a]] - narrower source section: Chapter 14: / 14.4 Magical Item List / 《 Other 》 / [ Bag of Protection ]
-- [[sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-other-bulkless-bag-e18a3e28]] - narrower source section: Chapter 14: / 14.4 Magical Item List / 《 Other 》 / [ Bulkless Bag ]
-- [[sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-other-forging-sheath-550e7182]] - narrower source section: Chapter 14: / 14.4 Magical Item List / 《 Other 》 / [ Forging Sheath ]
-- [[sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-other-flying-carpet-83b363f2]] - narrower source section: Chapter 14: / 14.4 Magical Item List / 《 Other 》 / [ Flying Carpet ]
-- [[sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-other-flying-mantle-a2d61038]] - narrower source section: Chapter 14: / 14.4 Magical Item List / 《 Other 》 / [ Flying Mantle ]
-- [[sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-other-potion-of-power-74c902b4]] - narrower source section: Chapter 14: / 14.4 Magical Item List / 《 Other 》 / [ Potion of Power ]
-- [[sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-other-magic-scroll-b17e04ff]] - narrower source section: Chapter 14: / 14.4 Magical Item List / 《 Other 》 / [ Magic Scroll ]
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-rings-89a8088e]] - previous source section: Chapter 14: / 14.4 Magical Item List / 《 Rings 》
 - [[sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-mask-of-scale-c9869f29]] - next source section: Chapter 14: / 14.4 Magical Item List / [ Mask of Scale
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-51d7c911]] - broader source section: Chapter 14: / 14.4 Magical Item List
+- [[sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-other-bag-of-protection-52f4824a]] - narrower source section: Chapter 14: / 14.4 Magical Item List / 《 Other 》 / [ Bag of Protection ]
+- [[sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-other-bulkless-bag-e18a3e28]] - narrower source section: Chapter 14: / 14.4 Magical Item List / 《 Other 》 / [ Bulkless Bag ]
+- [[sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-other-card-of-power-74d8d6bf]] - narrower source section: Chapter 14: / 14.4 Magical Item List / 《 Other 》 / [ Card of Power ]
+- [[sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-other-crystal-orb-of-clairvoyance-5abbe49f]] - narrower source section: Chapter 14: / 14.4 Magical Item List / 《 Other 》 / [Crystal Orb of Clairvoyance]
+- [[sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-other-daemon-hand-2209e731]] - narrower source section: Chapter 14: / 14.4 Magical Item List / 《 Other 》 / [ Daemon Hand ]
+- [[sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-other-daemon-jar-2cf88c8a]] - narrower source section: Chapter 14: / 14.4 Magical Item List / 《 Other 》 / [ Daemon Jar ]
+- [[sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-other-dragon-tooth-05f57616]] - narrower source section: Chapter 14: / 14.4 Magical Item List / 《 Other 》 / [ Dragon Tooth ]
 
 ## Statements by subsection
 
@@ -195,14 +178,19 @@ From [[sword-world-rpg-complete-edition]].
 
 **Atoms:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-09708, source-range-0d48087c-09709, source-range-0d48087c-09710, source-range-0d48087c-09711, source-range-0d48087c-09712))_
 
+<a id="atom-technical-atom-ff2bc3a189aa05bb"></a>
 > Rarity=14
 
+<a id="atom-technical-atom-9f81315e10c69466"></a>
 > Enchanter=Many
 
+<a id="atom-technical-atom-407f5b747c5ca5e2"></a>
 > Form=Lightly colored backpack
 
+<a id="atom-technical-atom-780e04132c6f1bd9"></a>
 > Base Trade Price=40,000 gamels
 
+<a id="atom-technical-atom-221f5f21d61331c0"></a>
 > Powers=Removes gravity from objects in the bag
 
 ### Technical frame 2: Chapter 14: / 14.4 Magical Item List / 《 Other 》 / [ Weightless Bag ]
@@ -213,6 +201,7 @@ From [[sword-world-rpg-complete-edition]].
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-09713))_
 
+<a id="atom-technical-atom-541b3cf1b10281ed"></a>
 > However, you can only put in as many objects as you can outwardly see , so if you put in something of an abnormal weight (the game master should make a suitable decision), the magical power will disintegrate and it'll tear.
 
 ### Technical frame 3: Chapter 14: / 14.4 Magical Item List / 《 Other 》 / [ Explosive Bullet ]
@@ -223,14 +212,19 @@ From [[sword-world-rpg-complete-edition]].
 
 **Atoms:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-09716, source-range-0d48087c-09717, source-range-0d48087c-09718, source-range-0d48087c-09719, source-range-0d48087c-09720))_
 
+<a id="atom-technical-atom-4a86fc6455e8cf41"></a>
 > Rarity=15
 
+<a id="atom-technical-atom-ada005d0c039e101"></a>
 > Enchanter=Many
 
+<a id="atom-technical-atom-317f81b178ac0b45"></a>
 > Form=Sling Bullet
 
+<a id="atom-technical-atom-d991fe6b997c6178"></a>
 > Base Trade Price=2500 gamels
 
+<a id="atom-technical-atom-b13d68e653f8a2f5"></a>
 > Powers=Explodes on impact, dealing strike power 30 damage
 
 ### Technical frame 4: Chapter 14: / 14.4 Magical Item List / 《 Other 》 / [ Old Man Liar Punisher ]
@@ -241,14 +235,19 @@ From [[sword-world-rpg-complete-edition]].
 
 **Atoms:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-09723, source-range-0d48087c-09724, source-range-0d48087c-09725, source-range-0d48087c-09727, source-range-0d48087c-09728))_
 
+<a id="atom-technical-atom-eb3aa22efb68afba"></a>
 > Rarity=15
 
+<a id="atom-technical-atom-19269d0edfb2a20c"></a>
 > Enchanter=Unknown
 
+<a id="atom-technical-atom-e57a977ae4668b24"></a>
 > Form=Relief of an old man's face with its
 
+<a id="atom-technical-atom-2a89b3066713160d"></a>
 > Base Trade Price=150,000 gamels
 
+<a id="atom-technical-atom-a5a8bce4d00c0b80"></a>
 > Powers=Sees through lies
 
 ### Technical frame 5: Chapter 14: / 14.4 Magical Item List / 《 Other 》 / [ Card of Power ]
@@ -259,12 +258,16 @@ From [[sword-world-rpg-complete-edition]].
 
 **Atoms:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-09731, source-range-0d48087c-09732, source-range-0d48087c-09734, source-range-0d48087c-09735))_
 
+<a id="atom-technical-atom-cb2c91e93118ef69"></a>
 > Rarity=13
 
+<a id="atom-technical-atom-def04f136d1d9ee6"></a>
 > Enchanter=Void, "The Immoral Summoning
 
+<a id="atom-technical-atom-363f2ea43afcd34c"></a>
 > Form=Palm-sized card of unknown material Base Trade Price=Magic's base mental power cost x 320 gamels
 
+<a id="atom-technical-atom-e248acf85c384e97"></a>
 > Powers=User can use various ancient magic
 
 ### Technical frame 6: Chapter 14: / 14.4 Magical Item List / 《 Other 》 / [ Guard Glove ]
@@ -275,12 +278,16 @@ From [[sword-world-rpg-complete-edition]].
 
 **Atoms:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-09742, source-range-0d48087c-09743, source-range-0d48087c-09744, source-range-0d48087c-09745))_
 
+<a id="atom-technical-atom-f7f4f43230e83a52"></a>
 > Rarity=12
 
+<a id="atom-technical-atom-0b7e61610f4d9c83"></a>
 > Form=Left hand (rarely right hand) glove Enchanter=Many
 
+<a id="atom-technical-atom-684f40143a3b8711"></a>
 > Base Trade Price=1500 (Small shield)/5000 (Large shield)
 
+<a id="atom-technical-atom-ba04ef3fab43d5c2"></a>
 > Powers=Generates a force field equivalent to a shield
 
 ### Technical frame 7: Chapter 14: / 14.4 Magical Item List / 《 Other 》 / [ Guard Glove ]
@@ -291,6 +298,7 @@ From [[sword-world-rpg-complete-edition]].
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-09746))_
 
+<a id="atom-technical-atom-76bb31e58ce58aa9"></a>
 > Y ou cannot use ancient magic while one hand is clenched.
 
 ### Technical frame 8: Chapter 14: / 14.4 Magical Item List / 《 Other 》 / [ Guard Glove ]
@@ -301,12 +309,16 @@ From [[sword-world-rpg-complete-edition]].
 
 **Atoms:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-09748, source-range-0d48087c-09749, source-range-0d48087c-09750, source-range-0d48087c-09751))_
 
+<a id="atom-technical-atom-44d406ddbdb3ef5f"></a>
 > Rarity=15
 
+<a id="atom-technical-atom-01b3639a05cc50a6"></a>
 > Enchanter=Le Val
 
+<a id="atom-technical-atom-9436ea5bedd82524"></a>
 > Form=Silver candlestick densely engraved with high ancient runes
 
+<a id="atom-technical-atom-f087f1d8784b9997"></a>
 > Base Trade Price=1,000,000 gamels (not for sale)
 
 ### Technical frame 9: Chapter 14: / 14.4 Magical Item List / 《 Other 》 / [ Guard Glove ]
@@ -317,6 +329,7 @@ From [[sword-world-rpg-complete-edition]].
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-09752))_
 
+<a id="atom-technical-atom-6d1c67d0c7a220ca"></a>
 > Even if that person relights the candle, this misfortune cannot be gotten rid of.
 
 ### Technical frame 10: Chapter 14: / 14.4 Magical Item List / 《 Other 》 / [Crystal Orb of Clairvoyance]
@@ -327,26 +340,35 @@ From [[sword-world-rpg-complete-edition]].
 
 **Atoms:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-09754, source-range-0d48087c-09755, source-range-0d48087c-09756, source-range-0d48087c-09757))_
 
+<a id="atom-technical-atom-29b96a0ecb98f558"></a>
 > Rarity=15
 
+<a id="atom-technical-atom-0d4658d65fa44558"></a>
 > Enchanter=Many
 
+<a id="atom-technical-atom-a6c8a7c610b160b1"></a>
 > Form=Crystal ball about 10cm in diameter Base Trade Price=300,000 gamels~
 
+<a id="atom-technical-atom-a4c3eddf1686963c"></a>
 > Powers=You can see various places around the world
 
 ### Technical frame 11: Chapter 14: / 14.4 Magical Item List / 《 Other 》 / [ Gale Horseshoes ]
 
 **Atoms:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-09761, source-range-0d48087c-09762, source-range-0d48087c-09763, source-range-0d48087c-09764, source-range-0d48087c-09765))_
 
+<a id="atom-technical-atom-ef0faf15045f98ae"></a>
 > Rarity=15
 
+<a id="atom-technical-atom-5954e04372ac3300"></a>
 > Enchanter=Unknown
 
+<a id="atom-technical-atom-bc22a8f38c0e8d24"></a>
 > Form=Horseshoes equipped to a horse
 
+<a id="atom-technical-atom-1cfe854434a3dcb0"></a>
 > Base Trade Price=50,000 gamels
 
+<a id="atom-technical-atom-97d3e14970ccdb5f"></a>
 > Powers=Increases the equipped horse's movement speed by 10
 
 ### Technical frame 12: Chapter 14: / 14.4 Magical Item List / 《 Other 》 / [ Sealing Jar ]
@@ -357,14 +379,19 @@ From [[sword-world-rpg-complete-edition]].
 
 **Atoms:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-09768, source-range-0d48087c-09769, source-range-0d48087c-09770, source-range-0d48087c-09771, source-range-0d48087c-09772))_
 
+<a id="atom-technical-atom-9c288279b155d646"></a>
 > Rarity=15
 
+<a id="atom-technical-atom-bbb6a1606d7fa08e"></a>
 > Enchanter=Unknown
 
+<a id="atom-technical-atom-4e37f7823c5f1b06"></a>
 > Form=Iron jar
 
+<a id="atom-technical-atom-2c975cbe732517b8"></a>
 > Base Trade Price=1,000,000 gamels (not for sale)
 
+<a id="atom-technical-atom-2b9a60f2335377ba"></a>
 > Powers=Seals something from another world within
 
 ### Technical frame 13: Chapter 14: / 14.4 Magical Item List / 《 Other 》 / [ Sealing Jar ]
@@ -375,6 +402,7 @@ From [[sword-world-rpg-complete-edition]].
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-09774))_
 
+<a id="atom-technical-atom-088d9a5759d36840"></a>
 > If you point this jar at a spirit and chant a password, any kind of spirit can be entrapped.
 
 ### Technical frame 14: Chapter 14: / 14.4 Magical Item List / 《 Other 》 / [ Seal Stone ]
@@ -385,28 +413,38 @@ From [[sword-world-rpg-complete-edition]].
 
 **Atoms:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-09776, source-range-0d48087c-09777, source-range-0d48087c-09778, source-range-0d48087c-09780, source-range-0d48087c-09781))_
 
+<a id="atom-technical-atom-105c14e5beee0fff"></a>
 > Rarity=16
 
+<a id="atom-technical-atom-788f501d6250ec02"></a>
 > Enchanter=Unknown
 
+<a id="atom-technical-atom-e0feb16e8670fe28"></a>
 > Form=A crystal-like stone about 10cm in
 
+<a id="atom-technical-atom-2356145e9b8e6822"></a>
 > Powers=Seals a human soul
 
+<a id="atom-technical-atom-d40c8089d0352125"></a>
 > Base Trade Price=480,000 gamels (not for sale)
 
 ### Technical frame 15: Chapter 14: / 14.4 Magical Item List / 《 Other 》 / [ Jumping Boots ]
 
 **Atoms:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-09785, source-range-0d48087c-09786, source-range-0d48087c-09788, source-range-0d48087c-09789, source-range-0d48087c-09790))_
 
+<a id="atom-technical-atom-3db5d6a3126bcdcc"></a>
 > Rarity=15
 
+<a id="atom-technical-atom-b6f0f70bc5c24d3f"></a>
 > Enchanter=Faye, 'The One Who Wears the
 
+<a id="atom-technical-atom-62d4775c0af27ee4"></a>
 > Form=Boots
 
+<a id="atom-technical-atom-593b77a9f530e093"></a>
 > Base Trade Price=24,000 gamels
 
+<a id="atom-technical-atom-cb47e1bd1445f3e1"></a>
 > Powers=The equipped person will be able to jump 3m high and 10m far.
 
 ### Technical frame 16: Chapter 14: / 14.4 Magical Item List / 《 Other 》 / [ Scape Doll ]
@@ -417,14 +455,19 @@ From [[sword-world-rpg-complete-edition]].
 
 **Atoms:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-09792, source-range-0d48087c-09793, source-range-0d48087c-09794, source-range-0d48087c-09795, source-range-0d48087c-09796))_
 
+<a id="atom-technical-atom-085858a1b46c460d"></a>
 > Rarity=12
 
+<a id="atom-technical-atom-ad3b5be9583425c9"></a>
 > Enchanter=Many
 
+<a id="atom-technical-atom-6bbf47d04745f892"></a>
 > Form=A wooden doll about 20 cm long
 
+<a id="atom-technical-atom-59e680b7017c80cb"></a>
 > Base Trade Price=90,000 gamels
 
+<a id="atom-technical-atom-3013d5745e6851b3"></a>
 > Powers=Suffers damage in place of the user
 
 ### Technical frame 17: Chapter 14: / 14.4 Magical Item List / 《 Other 》 / [ Scape Doll ]
@@ -435,6 +478,7 @@ From [[sword-world-rpg-complete-edition]].
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-09798))_
 
+<a id="atom-technical-atom-9ef20ccc196eefaf"></a>
 > At this time, if there is surplus damage, reduce the character's own life force.
 
 ### Technical frame 18: Chapter 14: / 14.4 Magical Item List / 《 Other 》 / [ Scape Doll ]
@@ -445,6 +489,7 @@ From [[sword-world-rpg-complete-edition]].
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-09799))_
 
+<a id="atom-technical-atom-58315794b26e8d6b"></a>
 > Once you start using it, this effect cannot be canceled even if you untie your hair.
 
 ### Technical frame 19: Chapter 14: / 14.4 Magical Item List / 《 Other 》 / [ Statue of Changing ]
@@ -455,14 +500,19 @@ From [[sword-world-rpg-complete-edition]].
 
 **Atoms:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-09802, source-range-0d48087c-09803, source-range-0d48087c-09804, source-range-0d48087c-09805, source-range-0d48087c-09806))_
 
+<a id="atom-technical-atom-65050c2d6ea3e519"></a>
 > Rarity=14
 
+<a id="atom-technical-atom-a4e89d56422499a4"></a>
 > Enchanter=Unknown
 
+<a id="atom-technical-atom-e65ffe82d9e042f8"></a>
 > Form=Four statues of a crocodile, a snake, an ape and a bear made of mithril silver
 
+<a id="atom-technical-atom-1bb93dc08433f307"></a>
 > Base Trade Price=480,000 gamels (not for sale)
 
+<a id="atom-technical-atom-9bfae3d80437126c"></a>
 > Powers=Anyone who touches the statue shapeshifts into the form of the same animal as the statue (other than the snake)
 
 ### Technical frame 20: Chapter 14: / 14.4 Magical Item List / 《 Other 》 / [ Statue of Changing ]
@@ -473,10 +523,13 @@ From [[sword-world-rpg-complete-edition]].
 
 **Atoms:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-09809, source-range-0d48087c-09810, source-range-0d48087c-09811))_
 
+<a id="atom-technical-atom-8c7347e38418b6d4"></a>
 > Crocodile=Crocodile
 
+<a id="atom-technical-atom-470aec9ccbb11408"></a>
 > Bear=Grizzly
 
+<a id="atom-technical-atom-97f78d55612a60d2"></a>
 > Ape=Boss Ape
 
 ### Technical frame 21: Chapter 14: / 14.4 Magical Item List / 《 Other 》 / [ Spirit Sealing Stone ]
@@ -487,10 +540,13 @@ From [[sword-world-rpg-complete-edition]].
 
 **Atoms:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-09813, source-range-0d48087c-09814, source-range-0d48087c-09815))_
 
+<a id="atom-technical-atom-209682af098f4f8d"></a>
 > Rarity=16 Enchanter=Unknown Form=White gem
 
+<a id="atom-technical-atom-9d17f57eca0ebfed"></a>
 > Base Trade Price=45,000 gamels
 
+<a id="atom-technical-atom-54e376e44ae6b440"></a>
 > Powers=Seals a spirit
 
 ### Technical frame 22: Chapter 14: / 14.4 Magical Item List / 《 Other 》 / [ Sleep Eye ]
@@ -501,20 +557,26 @@ From [[sword-world-rpg-complete-edition]].
 
 **Atoms:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-09820, source-range-0d48087c-09821, source-range-0d48087c-09822, source-range-0d48087c-09823, source-range-0d48087c-09824))_
 
+<a id="atom-technical-atom-0bc9a09d1e3ff83b"></a>
 > Rarity=18
 
+<a id="atom-technical-atom-3c8db42a2b7b0a5f"></a>
 > Enchanter=Unknown
 
+<a id="atom-technical-atom-71d0b2a904049228"></a>
 > Form=Glass prosthetic eye
 
+<a id="atom-technical-atom-f4b049850c697f3d"></a>
 > Base Trade Price=280,000 gamels
 
+<a id="atom-technical-atom-78870494804d94a3"></a>
 > Powers=Puts those who stare at it to sleep
 
 ### Technical frame 23: Table 14-1: Daemon Jar Summon
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-09826))_
 
+<a id="atom-technical-atom-00ac4bbfaf378dd8"></a>
 ```text
 Table 14-1: Daemon  Jar Summon
  form as the statue. A shapeshifted form
@@ -546,6 +608,7 @@ Table 14-1: Daemon  Jar Summon
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-09829))_
 
+<a id="atom-technical-atom-d6aeac32cf763365"></a>
 > Rarity=18 Enchanter=Kaiber, "The Sorcerer of Gravity" Form=A 1.5m diameter golden plate Base Trade Price=160,000 gamels Powers=Negates gravity
 
 ### Technical frame 25: Chapter 14: / 14.4 Magical Item List / 《 Other 》 / [ Soft Lander ]
@@ -556,14 +619,19 @@ Table 14-1: Daemon  Jar Summon
 
 **Atoms:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-09833, source-range-0d48087c-09834, source-range-0d48087c-09835, source-range-0d48087c-09836, source-range-0d48087c-09837))_
 
+<a id="atom-technical-atom-9dcabd0772731970"></a>
 > Rarity=12
 
+<a id="atom-technical-atom-1a224f35c9020c48"></a>
 > Enchanter=Faye, 'The One Who Wears the Wind'
 
+<a id="atom-technical-atom-f56293bfa08c73af"></a>
 > Form=Cloak
 
+<a id="atom-technical-atom-43de51298fa18b74"></a>
 > Base Trade Price=24,000 gamels
 
+<a id="atom-technical-atom-3c3b158ee2d879e5"></a>
 > Powers=Reduces fall speed
 
 ### Technical frame 26: Chapter 14: / 14.4 Magical Item List / 《 Other 》 / [ Daemon Jar ]
@@ -574,28 +642,38 @@ Table 14-1: Daemon  Jar Summon
 
 **Atoms:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-09840, source-range-0d48087c-09841, source-range-0d48087c-09842, source-range-0d48087c-09843, source-range-0d48087c-09844))_
 
+<a id="atom-technical-atom-05158ca6a34edfac"></a>
 > Rarity=16
 
+<a id="atom-technical-atom-d557d4ec5127f0bf"></a>
 > Enchanter=Unknown
 
+<a id="atom-technical-atom-8e1bfba763ce1376"></a>
 > Form=Iron jar
 
+<a id="atom-technical-atom-6c0663e88105ce28"></a>
 > Base Trade Price=1,000,000 gamels (not for sale)
 
+<a id="atom-technical-atom-eca9571f3dd63bc8"></a>
 > Powers=Summon a daemon
 
 ### Technical frame 27: Chapter 14: / 14.4 Magical Item List / 《 Other 》 / [ Daemon Hand ]
 
 **Atoms:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-09870, source-range-0d48087c-09871, source-range-0d48087c-09872, source-range-0d48087c-09874, source-range-0d48087c-09875))_
 
+<a id="atom-technical-atom-f4e0f772c29fa7be"></a>
 > Rarity=16
 
+<a id="atom-technical-atom-8221e6ed3f82e105"></a>
 > Enchanter= "All-encompassing" Phreg
 
+<a id="atom-technical-atom-6be42cb39afe843c"></a>
 > Form=Gloves with fingers that are twice as
 
+<a id="atom-technical-atom-54532154b46195f4"></a>
 > Base Trade Price=6000 gamels
 
+<a id="atom-technical-atom-1aa7a9f2db30f14d"></a>
 > Powers=With freely-moving fingertips, gain a +2 to the thief skill's lockpicking , remove/set trap , climb , and pickpocket checks
 
 ### Technical frame 28: Chapter 14: / 14.4 Magical Item List / 《 Other 》 / [ Dragon Tooth ]
@@ -606,12 +684,16 @@ Table 14-1: Daemon  Jar Summon
 
 **Atoms:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-09877, source-range-0d48087c-09879, source-range-0d48087c-09880, source-range-0d48087c-09881))_
 
+<a id="atom-technical-atom-94a1fe3573d3f739"></a>
 > Rarity=10
 
+<a id="atom-technical-atom-0deddf649926651e"></a>
 > Form=Dragon tooth
 
+<a id="atom-technical-atom-98f0ce36c70811fc"></a>
 > Base Trade Price=5000 gamels
 
+<a id="atom-technical-atom-3532385b80bfa410"></a>
 > Powers=Material for a skeleton warrior
 
 ### Technical frame 29: Chapter 14: / 14.4 Magical Item List / 《 Other 》 / [ Tracer Doll ]
@@ -622,42 +704,55 @@ Table 14-1: Daemon  Jar Summon
 
 **Atoms:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-09884, source-range-0d48087c-09885, source-range-0d48087c-09886, source-range-0d48087c-09887, source-range-0d48087c-09888))_
 
+<a id="atom-technical-atom-62357010b7ff6b8f"></a>
 > Rarity=11
 
+<a id="atom-technical-atom-57eec7c03c68384c"></a>
 > Enchanter=Many
 
+<a id="atom-technical-atom-38112958c74d8567"></a>
 > Form=A doll about 30 cm long
 
+<a id="atom-technical-atom-9750464526514653"></a>
 > Base Trade Price=260,000 gamels
 
+<a id="atom-technical-atom-9129bda73e0aea3d"></a>
 > Powers=Indicates direction of a specific object or person
 
 ### Technical frame 30: Chapter 14: / 14.4 Magical Item List / 《 Other 》 / [ Tracer Doll ]
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-09889))_
 
+<a id="atom-technical-atom-4d1743b873dabe40"></a>
 > What the doll remembers is displayed on its pedestal, so you can know this if you read low ancient.
 
 ### Technical frame 31: Chapter 14: / 14.4 Magical Item List / 《 Other 》 / [ Night Goggles ]
 
 **Atoms:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-09891, source-range-0d48087c-09892))_
 
+<a id="atom-technical-atom-8ec39a933f4d2868"></a>
 > Rarity=18 Enchanter=Unknown Form=Glasses with red lenses Base Trade Price=130,000 gamels
 
+<a id="atom-technical-atom-7e8f9d5feeea9f3f"></a>
 > Powers=See through darkness
 
 ### Technical frame 32: Chapter 14: / 14.4 Magical Item List / 《 Other 》 / [ Fire Jack ]
 
 **Atoms:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-09895, source-range-0d48087c-09896, source-range-0d48087c-09897, source-range-0d48087c-09898, source-range-0d48087c-09899))_
 
+<a id="atom-technical-atom-443c0b720ee4ae07"></a>
 > Rarity=15
 
+<a id="atom-technical-atom-9a0e2ede07399ffe"></a>
 > Enchanter=Unknown
 
+<a id="atom-technical-atom-279a2d273c6d5a88"></a>
 > Form=An old wooden box
 
+<a id="atom-technical-atom-83e0bc96a61af890"></a>
 > Base Trade Price=3200~8000 gamels
 
+<a id="atom-technical-atom-5185afd8ccbb1129"></a>
 > Powers=Explodes if opened by someone who doesn't know how.
 
 ### Technical frame 33: Chapter 14: / 14.4 Magical Item List / 《 Other 》 / [ Bag of Protection ]
@@ -668,14 +763,19 @@ Table 14-1: Daemon  Jar Summon
 
 **Atoms:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-09902, source-range-0d48087c-09903, source-range-0d48087c-09904, source-range-0d48087c-09905, source-range-0d48087c-09906))_
 
+<a id="atom-technical-atom-b3e23f7564df3b67"></a>
 > Rarity=10
 
+<a id="atom-technical-atom-50ee21f15a8060ec"></a>
 > Enchanter=Unknown
 
+<a id="atom-technical-atom-cd524753f6e2b6f8"></a>
 > Form=A 20 x 20cm bag made of a mysterious brown material
 
+<a id="atom-technical-atom-e908a1b002fc9f26"></a>
 > Base Trade Price=250,000 gamels
 
+<a id="atom-technical-atom-1974478f1e9da205"></a>
 > Powers=Protects objects put inside the bag from detection magic.
 
 ### Technical frame 34: Chapter 14: / 14.4 Magical Item List / 《 Other 》 / [ Bulkless Bag ]
@@ -686,14 +786,19 @@ Table 14-1: Daemon  Jar Summon
 
 **Atoms:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-09909, source-range-0d48087c-09910, source-range-0d48087c-09911, source-range-0d48087c-09912, source-range-0d48087c-09913))_
 
+<a id="atom-technical-atom-63731474525c9380"></a>
 > Rarity=14
 
+<a id="atom-technical-atom-c9ab6fd6aa08d8b8"></a>
 > Enchanter=Many
 
+<a id="atom-technical-atom-4c949a16f13efc14"></a>
 > Form=Lightly colored backpack
 
+<a id="atom-technical-atom-87e200d43a319efb"></a>
 > Base Trade Price=200,000 gamels
 
+<a id="atom-technical-atom-07662371e635d05b"></a>
 > Powers=You can put objects in regardless of size
 
 ### Technical frame 35: Chapter 14: / 14.4 Magical Item List / 《 Other 》 / [ Bulkless Bag ]
@@ -704,6 +809,7 @@ Table 14-1: Daemon  Jar Summon
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-09914))_
 
+<a id="atom-technical-atom-f639a809592abb21"></a>
 > To take it out, put your hand inside and think of the object itself (you can also take it out with a vague thought, but it's not reliable).
 
 ### Technical frame 36: Chapter 14: / 14.4 Magical Item List / 《 Other 》 / [ Forging Sheath ]
@@ -714,14 +820,19 @@ Table 14-1: Daemon  Jar Summon
 
 **Atoms:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-09917, source-range-0d48087c-09918, source-range-0d48087c-09919, source-range-0d48087c-09920, source-range-0d48087c-09921))_
 
+<a id="atom-technical-atom-941b0f816d6901a7"></a>
 > Rarity=15
 
+<a id="atom-technical-atom-03ff4c0e726cde2b"></a>
 > Enchanter=Unknown
 
+<a id="atom-technical-atom-85638a87f4fd3cba"></a>
 > Form=Sheath for a broadsword
 
+<a id="atom-technical-atom-ba0472c8325230fd"></a>
 > Base Trade Price=6000 gamels
 
+<a id="atom-technical-atom-37ec31c0be1adad5"></a>
 > Powers=Gives a sword the effect of Enchant Weapon when unsheathed
 
 ### Technical frame 37: Chapter 14: / 14.4 Magical Item List / 《 Other 》 / [ Forging Sheath ]
@@ -732,6 +843,7 @@ Table 14-1: Daemon  Jar Summon
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-09923))_
 
+<a id="atom-technical-atom-f6d63767658c3d1c"></a>
 > If it is a broadsword, the sheath will automatically expand or contract to adjust for any slight differences in length.
 
 ### Technical frame 38: Chapter 14: / 14.4 Magical Item List / 《 Other 》 / [ Flying Carpet ]
@@ -742,20 +854,26 @@ Table 14-1: Daemon  Jar Summon
 
 **Atoms:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-09925, source-range-0d48087c-09926, source-range-0d48087c-09927, source-range-0d48087c-09928, source-range-0d48087c-09929))_
 
+<a id="atom-technical-atom-781e659e7995de8d"></a>
 > Rarity=14
 
+<a id="atom-technical-atom-02054eda2e3d8297"></a>
 > Enchanter=Unknown
 
+<a id="atom-technical-atom-04f1fb91d01e8c28"></a>
 > Form=A carpet about 1m square
 
+<a id="atom-technical-atom-70a0728b0a3f5001"></a>
 > Base Trade Price=180,000 gamels
 
+<a id="atom-technical-atom-4a25be07b268e3af"></a>
 > Powers=You can move through the air by riding on the carpet.
 
 ### Technical frame 39: Chapter 14: / 14.4 Magical Item List / 《 Other 》 / [ Flying Carpet ]
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-09930))_
 
+<a id="atom-technical-atom-470e5144a26ab31f"></a>
 > Also, if you don't hold your baggage securely, it can easily fall off the carpet.
 
 ### Technical frame 40: Chapter 14: / 14.4 Magical Item List / 《 Other 》 / [ Flying Mantle ]
@@ -766,14 +884,19 @@ Table 14-1: Daemon  Jar Summon
 
 **Atoms:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-09932, source-range-0d48087c-09933, source-range-0d48087c-09935, source-range-0d48087c-09936, source-range-0d48087c-09937))_
 
+<a id="atom-technical-atom-96f0be6e4d2c796e"></a>
 > Rarity=12
 
+<a id="atom-technical-atom-1b6c96efb4ee5ca1"></a>
 > Enchanter=Faye, 'The One Who Wears the
 
+<a id="atom-technical-atom-3c2f279802dfba69"></a>
 > Form=Mantle
 
+<a id="atom-technical-atom-46992686b891ab1f"></a>
 > Base Trade Price=400,000 gamels
 
+<a id="atom-technical-atom-3f08296e8c03833e"></a>
 > Powers=You'll be able to fly
 
 ### Technical frame 41: Chapter 14: / 14.4 Magical Item List / 《 Other 》 / [ Potion of Power ]
@@ -784,8 +907,10 @@ Table 14-1: Daemon  Jar Summon
 
 **Atoms:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-09940, source-range-0d48087c-09941))_
 
+<a id="atom-technical-atom-44d19b24bcc67856"></a>
 > Rarity=15 Form=Potion Enchanter=Many
 
+<a id="atom-technical-atom-6a0ba4e640d4a56d"></a>
 > Base Trade Price=10,000 gamels (not for sale) Power=Increase an ability score by 1 point
 
 ### Technical frame 42: Chapter 14: / 14.4 Magical Item List / 《 Other 》 / [ Potion of Power ]
@@ -796,6 +921,7 @@ Table 14-1: Daemon  Jar Summon
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-09942))_
 
+<a id="atom-technical-atom-d973097f0e606952"></a>
 > If a character drinks this potion, it'll permanently increase an ability score by 1 point.
 
 ### Technical frame 43: Chapter 14: / 14.4 Magical Item List / 《 Other 》 / [ Magic Scroll ]
@@ -806,6 +932,7 @@ Table 14-1: Daemon  Jar Summon
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-09945))_
 
+<a id="atom-technical-atom-cbf0ac4a6e40704d"></a>
 > Rarity=13 (However, if a sorcerer reads it, it will always be identified)
 
 ### Technical frame 44: Chapter 14: / 14.4 Magical Item List / 《 Other 》 / [ Magic Scroll ]
@@ -816,12 +943,16 @@ Table 14-1: Daemon  Jar Summon
 
 **Atoms:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-09945, source-range-0d48087c-09946, source-range-0d48087c-09947, source-range-0d48087c-09948))_
 
+<a id="atom-technical-atom-e81dc44259d70806"></a>
 > Rarity=13 (However, if a sorcerer reads it, it will always be identified)
 
+<a id="atom-technical-atom-e4a9dca2a5cf3abd"></a>
 > Form=A scroll with a spell written on it Enchanter=Many
 
+<a id="atom-technical-atom-8a177c308e6242cd"></a>
 > Base Trade Price=Magic level x magic's base mental power cost x 20 gamels
 
+<a id="atom-technical-atom-b8331e4b69ef7d5e"></a>
 > Powers=Can use a magic spell only once
 
 ### Technical frame 45: Chapter 14: / 14.4 Magical Item List / 《 Other 》 / [ Magic Scroll ]
@@ -832,6 +963,7 @@ Table 14-1: Daemon  Jar Summon
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-09949))_
 
+<a id="atom-technical-atom-eb6bcadb1d04c090"></a>
 > If a sorcerer reads it, he or she can use the magic written on it only once .
 
 ### Technical frame 46: Chapter 14: / 14.4 Magical Item List / 《 Other 》 / [ Magic Scroll ]
@@ -842,4 +974,5 @@ Table 14-1: Daemon  Jar Summon
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-09950))_
 
+<a id="atom-technical-atom-7904024cbff1789b"></a>
 > If you bring it back without using it, perhaps the lost magic may spread throughout the world through the research of an academy of sages .

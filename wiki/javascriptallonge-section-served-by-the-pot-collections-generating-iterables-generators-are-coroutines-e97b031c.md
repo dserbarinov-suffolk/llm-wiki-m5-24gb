@@ -4,11 +4,11 @@ page_kind: source
 summary: Served by the Pot: Collections / Generating Iterables / generators are coroutines: 27 source-backed entries and 1 atom(s) from raw/javascriptallonge.pdf.
 page_family: section-reference
 sources: raw/javascriptallonge.pdf
-updated: 2026-07-01
+updated: 2026-07-02
 domain: javascriptallonge
 category_path: sources/javascriptallonge/sections
 source_id: javascriptallonge.pdf
-projection_coverage: section-javascriptallonge-section-served-by-the-pot-collections-generating-iterables-generators-are-coroutines-e97b031c@7e73da2ce18e09eb44d8cdabf2e7ab36
+projection_coverage: section-javascriptallonge-section-served-by-the-pot-collections-generating-iterables-generators-are-coroutines-e97b031c@0412c62ace06b8074a174a4214883ba2
 ---
 
 # Served by the Pot: Collections / Generating Iterables / generators are coroutines
@@ -17,9 +17,14 @@ From [[javascriptallonge]].
 
 ## Related pages
 
-- [[javascriptallonge-section-served-by-the-pot-collections-generating-iterables-8c929c4d]] - broader source section: Served by the Pot: Collections / Generating Iterables
+### Source order
+
 - [[javascriptallonge-section-served-by-the-pot-collections-generating-iterables-javascript-s-generators-c3a5aa1e]] - previous source section: Served by the Pot: Collections / Generating Iterables / javascript's generators
 - [[javascriptallonge-section-served-by-the-pot-collections-generating-iterables-generators-and-iterables-4081f666]] - next source section: Served by the Pot: Collections / Generating Iterables / generators and iterables
+
+### Source structure
+
+- [[javascriptallonge-section-served-by-the-pot-collections-generating-iterables-8c929c4d]] - broader source section: Served by the Pot: Collections / Generating Iterables
 
 ## Statements
 
@@ -54,6 +59,7 @@ From [[javascriptallonge]].
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01701))_
 
+<a id="atom-technical-atom-cfac619b7e4cacc8"></a>
 ```
 const oneTwoThree = function () {
 let state = 'newborn';

@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-13-2-6-mythical-beasts-and-magical-beasts-horse-13-2-8-plants-mummy-e27e5bdb@e60ec4aa4e06881a76fbfca26ce727d5
+projection_coverage: section-sword-world-rpg-complete-edition-section-13-2-6-mythical-beasts-and-magical-beasts-horse-13-2-8-plants-mummy-e27e5bdb@06ff12cca7e3207123f6ea8106762016
 ---
 
 # 13.2.6 Mythical Beasts and Magical Beasts / [ Horse ] / 13.2.8 Plants / [ Mummy ]
@@ -17,9 +17,14 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-13-2-6-mythical-beasts-and-magical-beasts-horse-13-2-8-plants-6ae09235]] - broader source section: 13.2.6 Mythical Beasts and Magical Beasts / [ Horse ] / 13.2.8 Plants
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-13-2-6-mythical-beasts-and-magical-beasts-horse-13-2-8-plants-wraith-c68f9316]] - previous source section: 13.2.6 Mythical Beasts and Magical Beasts / [ Horse ] / 13.2.8 Plants / [ Wraith ]
 - [[sword-world-rpg-complete-edition-section-13-2-6-mythical-beasts-and-magical-beasts-horse-13-2-8-plants-vampire-58e7e543]] - next source section: 13.2.6 Mythical Beasts and Magical Beasts / [ Horse ] / 13.2.8 Plants / [ Vampire ]
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-13-2-6-mythical-beasts-and-magical-beasts-horse-13-2-8-plants-6ae09235]] - broader source section: 13.2.6 Mythical Beasts and Magical Beasts / [ Horse ] / 13.2.8 Plants
 
 ## Statements
 
@@ -43,32 +48,47 @@ From [[sword-world-rpg-complete-edition]].
 
 **Atoms:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-07858, source-range-0d48087c-07859, source-range-0d48087c-07860, source-range-0d48087c-07861, source-range-0d48087c-07862, source-range-0d48087c-07863, source-range-0d48087c-07864, source-range-0d48087c-07865, source-range-0d48087c-07866, source-range-0d48087c-07867, source-range-0d48087c-07868, source-range-0d48087c-07869, source-range-0d48087c-07870, source-range-0d48087c-07871, source-range-0d48087c-07873))_
 
+<a id="atom-technical-atom-d452a1078198b7a7"></a>
 > Monster Level=9
 
+<a id="atom-technical-atom-44b5c2c338e1d421"></a>
 > Rarity=15
 
+<a id="atom-technical-atom-74dee5bfdce85678"></a>
 > Agility=14
 
+<a id="atom-technical-atom-7c8c06fdd476edc9"></a>
 > Movement Speed=14
 
+<a id="atom-technical-atom-d532e23159cece46"></a>
 > Number=One
 
+<a id="atom-technical-atom-09bbabc30d89ac9d"></a>
 > Frequency=Very rare
 
+<a id="atom-technical-atom-cd68fe6976be3e49"></a>
 > Intellect=High
 
+<a id="atom-technical-atom-2370c9bd76412f0f"></a>
 > Reaction=Adversarial
 
+<a id="atom-technical-atom-fbd1ffacba18669e"></a>
 > Attack Points=Arms:17 (10)
 
+<a id="atom-technical-atom-0ff74a64c147161f"></a>
 > Strike Points=16+curse
 
+<a id="atom-technical-atom-4a15dc84a8c7c06e"></a>
 > Evasion Points=17 (10) Defense Points=11
 
+<a id="atom-technical-atom-867d48fd45536154"></a>
 > Life Points/Resistance=21/18 (11)
 
+<a id="atom-technical-atom-d0f311402cd44b63"></a>
 > Mental Points/Resistance=21/18 (11)
 
+<a id="atom-technical-atom-507025ea6944b607"></a>
 > Special Abilities=7th level ancient magic (Magic intensity/magic power=17/10)
 
+<a id="atom-technical-atom-37f83d3615b6e07a"></a>
 > Curse (Resist target score=16)

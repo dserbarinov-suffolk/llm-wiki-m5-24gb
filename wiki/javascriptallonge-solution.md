@@ -4,10 +4,10 @@ page_kind: concept
 summary: Solution: 3 statement(s) and 1 atom(s) from raw/javascriptallonge.pdf.
 page_family: topic-concept
 sources: raw/javascriptallonge.pdf
-updated: 2026-07-01
+updated: 2026-07-02
 domain: javascriptallonge
 category_path: concepts
-projection_coverage: topic-javascriptallonge-solution@5d4bc81cfb43239c0a0e9830659a925c
+projection_coverage: topic-javascriptallonge-solution@bda44a82a35c87c29160a25a52085c54
 ---
 
 # Solution
@@ -39,6 +39,7 @@ What [[javascriptallonge]] covers about solution:
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00973))_
 
+<a id="atom-technical-atom-7385963fd949443d"></a>
 ```
 const lengthDelaysWork = ([first, ...rest], numberToBeAdded) =>
 first === undefined
@@ -50,6 +51,8 @@ lengthDelaysWork(["foo", "bar", "baz"], 0)
 
 
 ## Related pages
+
+### Shared claims
 
 - [[javascriptallonge-composing]] - shared statements: Composing shares source evidence from Composing and Decomposing Data / Self-Similarity / linear recursion: Once again, the solution directly displays the important elements: Dividing a problem into subproblems, detecting terminal cases, solving the terminal cases, and com ... [truncated] (1 shared statement(s))
 - [[javascriptallonge-element]] - shared statements: Element shares source evidence from Composing and Decomposing Data / Self-Similarity / linear recursion: Once again, the solution directly displays the important elements: Dividing a problem into subproblems, detecting terminal cases, solving the terminal cases, and com ... [truncated] (1 shared statement(s))

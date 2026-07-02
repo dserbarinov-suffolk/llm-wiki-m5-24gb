@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-10th-level-basic-holy-magic-list-call-god-save-soul-7a89c583@cd82ef24492d18dc15123b574d69dcc6
+projection_coverage: section-sword-world-rpg-complete-edition-section-10th-level-basic-holy-magic-list-call-god-save-soul-7a89c583@cda1a481d61f6ef704d439db205869e2
 ---
 
 # 10th Level Basic Holy Magic List [ Call God ] / [ Save Soul ]
@@ -17,8 +17,13 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-10th-level-basic-holy-magic-list-call-god-aa2b3933]] - broader source section: 10th Level Basic Holy Magic List [ Call God ]
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-10th-level-basic-holy-magic-list-call-god-reincarnation-df022eb2]] - next source section: 10th Level Basic Holy Magic List [ Call God ] / [ Reincarnation
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-10th-level-basic-holy-magic-list-call-god-aa2b3933]] - broader source section: 10th Level Basic Holy Magic List [ Call God ]
 
 ## Statements
 
@@ -36,6 +41,7 @@ From [[sword-world-rpg-complete-edition]].
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-03723))_
 
+<a id="atom-technical-atom-22c2930062e2ad51"></a>
 | Final | Score | Time | to | regain | memories | Special | Holy | Magic |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 20 | or less | Memories |  | cannot | be regained naturally |  | List |  |

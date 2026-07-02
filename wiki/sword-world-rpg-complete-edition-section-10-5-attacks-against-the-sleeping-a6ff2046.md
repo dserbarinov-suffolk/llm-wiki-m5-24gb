@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-10-5-attacks-against-the-sleeping-a6ff2046@7f89ce1c8f0f15354c6d4cb249052d25
+projection_coverage: section-sword-world-rpg-complete-edition-section-10-5-attacks-against-the-sleeping-a6ff2046@3fbc931b9dec933f54fa4745226d47bf
 ---
 
 # 10.5 Attacks Against the Sleeping
@@ -17,13 +17,18 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-10-5-attacks-against-the-sleeping-rules-for-sleeping-monsters-21c2f8ac]] - narrower source section: 10.5 Attacks Against the Sleeping / Rules for Sleeping Monsters
-- [[sword-world-rpg-complete-edition-section-10-5-attacks-against-the-sleeping-rules-for-sleeping-adventurers-de34dc25]] - narrower source section: 10.5 Attacks Against the Sleeping / Rules for Sleeping Adventurers
-- [[sword-world-rpg-complete-edition-section-10-5-attacks-against-the-sleeping-combat-between-monsters-cc148517]] - narrower source section: 10.5 Attacks Against the Sleeping / Combat Between Monsters
-- [[sword-world-rpg-complete-edition-section-10-5-attacks-against-the-sleeping-hit-checks-5bc987e8]] - narrower source section: 10.5 Attacks Against the Sleeping / 《 Hit Checks 》
-- [[sword-world-rpg-complete-edition-section-10-5-attacks-against-the-sleeping-damage-adc079fa]] - narrower source section: 10.5 Attacks Against the Sleeping / 《 Damage 》
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-10-4-water-combat-aadec95a]] - previous source section: 10.4 Water Combat
 - [[sword-world-rpg-complete-edition-section-chapter-11-notes-on-magic-147e95d8]] - next source section: Chapter 11: Notes on Magic
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-10-5-attacks-against-the-sleeping-combat-between-monsters-cc148517]] - narrower source section: 10.5 Attacks Against the Sleeping / Combat Between Monsters
+- [[sword-world-rpg-complete-edition-section-10-5-attacks-against-the-sleeping-damage-adc079fa]] - narrower source section: 10.5 Attacks Against the Sleeping / 《 Damage 》
+- [[sword-world-rpg-complete-edition-section-10-5-attacks-against-the-sleeping-hit-checks-5bc987e8]] - narrower source section: 10.5 Attacks Against the Sleeping / 《 Hit Checks 》
+- [[sword-world-rpg-complete-edition-section-10-5-attacks-against-the-sleeping-rules-for-sleeping-adventurers-de34dc25]] - narrower source section: 10.5 Attacks Against the Sleeping / Rules for Sleeping Adventurers
+- [[sword-world-rpg-complete-edition-section-10-5-attacks-against-the-sleeping-rules-for-sleeping-monsters-21c2f8ac]] - narrower source section: 10.5 Attacks Against the Sleeping / Rules for Sleeping Monsters
 
 ## Statements by subsection
 
@@ -73,6 +78,7 @@ From [[sword-world-rpg-complete-edition]].
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-04733))_
 
+<a id="atom-technical-atom-91b0fc6fe5791fc8"></a>
 > If you attack a sleeping monster but do not deal any damage, or if you deal damage but are unable to reduce its life points to 0, the monster will wake up immediately.
 
 ### Technical frame 2: 10.5 Attacks Against the Sleeping / Rules for Sleeping Adventurers
@@ -83,4 +89,5 @@ From [[sword-world-rpg-complete-edition]].
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-04742))_
 
+<a id="atom-technical-atom-4f6b045fd80ae5ae"></a>
 > If you're put to sleep by magical means such as Sleep Cloud , you must make a check via mental power resistance roll each round as long as combat continues.

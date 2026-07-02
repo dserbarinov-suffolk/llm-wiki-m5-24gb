@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-1-2-races-skills-sorcerer-021503d4@bd4c912d9b07739bb96ca5734c2d434d
+projection_coverage: section-sword-world-rpg-complete-edition-section-1-2-races-skills-sorcerer-021503d4@6d8f1d7a77efc56fa70f0d80e797ca6d
 ---
 
 # 1.2 Races / Skills / 【 Sorcerer 】
@@ -17,9 +17,14 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-1-2-races-skills-d796863a]] - broader source section: 1.2 Races / Skills
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-1-2-races-skills-rune-master-75078adc]] - previous source section: 1.2 Races / Skills / 【 Rune Master 】
 - [[sword-world-rpg-complete-edition-section-1-2-races-skills-shaman-83e8d805]] - next source section: 1.2 Races / Skills / 【 Shaman 】
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-1-2-races-skills-d796863a]] - broader source section: 1.2 Races / Skills
 
 ## Statements
 

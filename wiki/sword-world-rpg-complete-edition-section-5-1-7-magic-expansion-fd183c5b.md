@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-5-1-7-magic-expansion-fd183c5b@817a493da46082b0c3ce249c7158027f
+projection_coverage: section-sword-world-rpg-complete-edition-section-5-1-7-magic-expansion-fd183c5b@e4b31bdfb01785ae5c5760ef8de26ab7
 ---
 
 # 5.1.7 Magic Expansion
@@ -16,6 +16,8 @@ projection_coverage: section-sword-world-rpg-complete-edition-section-5-1-7-magi
 From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
+
+### Source order
 
 - [[sword-world-rpg-complete-edition-section-recovery-via-sleep-d68d4711]] - previous source section: 《 Recovery via Sleep 》
 - [[sword-world-rpg-complete-edition-section-targets-expansion-4b9ebedb]] - next source section: 《 Targets Expansion 》
@@ -34,6 +36,7 @@ From [[sword-world-rpg-complete-edition]].
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-01678))_
 
+<a id="atom-technical-atom-6029671ed3b3049e"></a>
 ```text
 5.1.7 Magic Expansion
 5.1.7 Magic Expansion

@@ -4,11 +4,11 @@ page_kind: source
 summary: Served by the Pot: Collections / Generating Iterables / state machines / We'll keep it simple:: 7 source-backed entries and 3 atom(s) from raw/javascriptallonge.pdf.
 page_family: section-reference
 sources: raw/javascriptallonge.pdf
-updated: 2026-07-01
+updated: 2026-07-02
 domain: javascriptallonge
 category_path: sources/javascriptallonge/sections
 source_id: javascriptallonge.pdf
-projection_coverage: section-javascriptallonge-section-served-by-the-pot-collections-generating-iterables-state-machines-we-ll-keep-it-simple-b9ff91ab@fb9f7c4f58992a71975651de147b5203
+projection_coverage: section-javascriptallonge-section-served-by-the-pot-collections-generating-iterables-state-machines-we-ll-keep-it-simple-b9ff91ab@35a6447ef6594edfe6a40a87e4ee72a8
 ---
 
 # Served by the Pot: Collections / Generating Iterables / state machines / We'll keep it simple:
@@ -16,6 +16,8 @@ projection_coverage: section-javascriptallonge-section-served-by-the-pot-collect
 From [[javascriptallonge]].
 
 ## Related pages
+
+### Source structure
 
 - [[javascriptallonge-section-served-by-the-pot-collections-generating-iterables-state-machines-c4cec34a]] - broader source section: Served by the Pot: Collections / Generating Iterables / state machines
 
@@ -35,6 +37,7 @@ From [[javascriptallonge]].
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01651))_
 
+<a id="atom-technical-atom-af94adcc2913d073"></a>
 ```
 // Iteration
 let a, b, state = 0;
@@ -73,6 +76,7 @@ console.log(fibonacci());
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01653))_
 
+<a id="atom-technical-atom-05b5aac49f9fac27"></a>
 ```
 21
 34
@@ -90,4 +94,5 @@ console.log(fibonacci());
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01655))_
 
+<a id="atom-technical-atom-27b24b3da34d4ce1"></a>
 > Whereas the iteration version must make that state explicit.

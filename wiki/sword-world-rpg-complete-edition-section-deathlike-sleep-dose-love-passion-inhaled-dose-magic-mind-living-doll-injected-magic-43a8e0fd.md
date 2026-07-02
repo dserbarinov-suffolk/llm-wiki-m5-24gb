@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-deathlike-sleep-dose-love-passion-inhaled-dose-magic-mind-living-doll-injected-magic-43a8e0fd@d6c528722e404b5febac0c2aa89c4f81
+projection_coverage: section-sword-world-rpg-complete-edition-section-deathlike-sleep-dose-love-passion-inhaled-dose-magic-mind-living-doll-injected-magic-43a8e0fd@29c569e89263c46f94d5ab6f1efc434b
 ---
 
 # [Deathlike Sleep (Dose)] / [ Love Passion (Inhaled, Dose/Magic, Mind) ] / [Living Doll (Injected/Magic)]
@@ -16,6 +16,8 @@ projection_coverage: section-sword-world-rpg-complete-edition-section-deathlike-
 From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
+
+### Source structure
 
 - [[sword-world-rpg-complete-edition-section-deathlike-sleep-dose-love-passion-inhaled-dose-magic-mind-f8d31402]] - broader source section: [Deathlike Sleep (Dose)] / [ Love Passion (Inhaled, Dose/Magic, Mind) ]
 

@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-12-2-2-illnesses-fatal-depth-51859caa@9a3394a1d2bcafde796b249a4f93400d
+projection_coverage: section-sword-world-rpg-complete-edition-section-12-2-2-illnesses-fatal-depth-51859caa@f0b63123c78a7c924c38b9c8f5b9790c
 ---
 
 # 12.2.2 Illnesses / 《 Fatal Depth 》
@@ -17,9 +17,14 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-12-2-2-illnesses-5611d07e]] - broader source section: 12.2.2 Illnesses
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-12-2-2-illnesses-rarity-5504c398]] - previous source section: 12.2.2 Illnesses / 《 Rarity 》
 - [[sword-world-rpg-complete-edition-section-12-2-2-illnesses-infection-power-865cf146]] - next source section: 12.2.2 Illnesses / 《 Infection Power 》
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-12-2-2-illnesses-5611d07e]] - broader source section: 12.2.2 Illnesses
 
 ## Statements
 

@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-5-1-14-spirit-magic-list-magic-list-valkyrie-blessing-valkyrie-mind-spirit-b5414f9a@e62a4182984a3aa675f4daab7f59ab4c
+projection_coverage: section-sword-world-rpg-complete-edition-section-5-1-14-spirit-magic-list-magic-list-valkyrie-blessing-valkyrie-mind-spirit-b5414f9a@f1120f5545fe7d3cfe715097d34959ae
 ---
 
 # 5.1.14 Spirit Magic List / Magic List / [ Valkyrie Blessing ] (Valkyrie/Mind Spirit)
@@ -17,9 +17,14 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-5-1-14-spirit-magic-list-magic-list-b89f2a18]] - broader source section: 5.1.14 Spirit Magic List / Magic List
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-5-1-14-spirit-magic-list-magic-list-crack-behemoth-greater-earth-spirit-b5b41442]] - previous source section: 5.1.14 Spirit Magic List / Magic List / [ Crack ] (Behemoth/Greater Earth Spirit)
 - [[sword-world-rpg-complete-edition-section-5-1-14-spirit-magic-list-magic-list-plant-shell-3f3dd947]] - next source section: 5.1.14 Spirit Magic List / Magic List / [ Plant Shell ]
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-5-1-14-spirit-magic-list-magic-list-b89f2a18]] - broader source section: 5.1.14 Spirit Magic List / Magic List
 
 ## Statements
 

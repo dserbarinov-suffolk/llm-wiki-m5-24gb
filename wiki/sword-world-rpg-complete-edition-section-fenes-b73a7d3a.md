@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-fenes-b73a7d3a@b7d3343074d6bde7ab5b6b4e5064361a
+projection_coverage: section-sword-world-rpg-complete-edition-section-fenes-b73a7d3a@64daeb021662f096a47b252db822e933
 ---
 
 # 《 Fenes 》
@@ -16,6 +16,8 @@ projection_coverage: section-sword-world-rpg-complete-edition-section-fenes-b73a
 From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
+
+### Source order
 
 - [[sword-world-rpg-complete-edition-section-marfa-4d8ebca1]] - previous source section: 《 Marfa 》
 - [[sword-world-rpg-complete-edition-section-wehner-3fa3b3a1]] - next source section: 《 Wehner 》

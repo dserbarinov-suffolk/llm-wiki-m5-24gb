@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-5-1-12-ancient-magic-list-blizzard-e8c00109@fb70dbf2aa407c068414a0729ff31c25
+projection_coverage: section-sword-world-rpg-complete-edition-section-5-1-12-ancient-magic-list-blizzard-e8c00109@63e333cac3a4d6886f52d6b53af43828
 ---
 
 # 5.1.12 Ancient Magic List / Blizzard ]
@@ -17,10 +17,15 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-5-1-12-ancient-magic-list-2e59bfee]] - broader source section: 5.1.12 Ancient Magic List
-- [[sword-world-rpg-complete-edition-section-5-1-12-ancient-magic-list-blizzard-6th-level-ancient-magic-list-acid-cloud-e046e7e1]] - narrower source section: 5.1.12 Ancient Magic List / Blizzard ] / 6th Level Ancient Magic List [ Acid Cloud ]
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-5-1-12-ancient-magic-list-flight-7c8755e3]] - previous source section: 5.1.12 Ancient Magic List / [ Flight ]
 - [[sword-world-rpg-complete-edition-section-5-1-12-ancient-magic-list-analyze-enchantment-77538a77]] - next source section: 5.1.12 Ancient Magic List / [ Analyze Enchantment ]
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-5-1-12-ancient-magic-list-2e59bfee]] - broader source section: 5.1.12 Ancient Magic List
+- [[sword-world-rpg-complete-edition-section-5-1-12-ancient-magic-list-blizzard-6th-level-ancient-magic-list-acid-cloud-e046e7e1]] - narrower source section: 5.1.12 Ancient Magic List / Blizzard ] / 6th Level Ancient Magic List [ Acid Cloud ]
 
 ## Statements
 

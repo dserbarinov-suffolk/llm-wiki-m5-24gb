@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-sample-magic-details-spellbook-cef5cb5e@ffc79d800cd1e755757fe515ec702a18
+projection_coverage: section-sword-world-rpg-complete-edition-section-sample-magic-details-spellbook-cef5cb5e@014c4002b856a25eb6e218006feb9f08
 ---
 
 # [Sample Magic Details] / 《 Spellbook 》
@@ -17,9 +17,14 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-sample-magic-details-cbfd0ab1]] - broader source section: [Sample Magic Details]
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-sample-magic-details-low-ancient-394d76a9]] - previous source section: [Sample Magic Details] / 《 Low Ancient 》
 - [[sword-world-rpg-complete-edition-section-sample-magic-details-magical-catalyst-410c680a]] - next source section: [Sample Magic Details] / 《 Magical Catalyst 》
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-sample-magic-details-cbfd0ab1]] - broader source section: [Sample Magic Details]
 
 ## Statements
 

@@ -2,6 +2,7 @@
 
 from __future__ import annotations
 
+from llmwiki.domain.ledger.atom_addressing import technical_atom_link
 from llmwiki.domain.ledger.atoms import TechnicalAtom
 from llmwiki.domain.ledger.canonical import short_digest
 from llmwiki.domain.ledger.entries import LedgerEntry
@@ -83,8 +84,11 @@ def render_procedure_page(guide: ProcedureGuide, source_page_id: str) -> str:
     if guide.technical_atoms:
         lines.extend(("## Tables And Formulas", ""))
         for atom in guide.technical_atoms[:12]:
+            target = technical_atom_link(
+                guide.source_section_page_id, atom, atom_label(atom)
+            )
             lines.append(
-                f"- `{atom.technical_atom_kind}`: {atom_label(atom)} _({_atom_citation(atom)})_"
+                f"- `{atom.technical_atom_kind}`: {target} _({_atom_citation(atom)})_"
             )
         lines.append("")
     lines.extend(

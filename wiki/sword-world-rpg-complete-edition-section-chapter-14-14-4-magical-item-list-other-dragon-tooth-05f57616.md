@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-other-dragon-tooth-05f57616@86c0f653b9b48abf41d2df69ddba528f
+projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-other-dragon-tooth-05f57616@51b8f728702784bce5f074ab98df2bdb
 ---
 
 # Chapter 14: / 14.4 Magical Item List / 《 Other 》 / [ Dragon Tooth ]
@@ -17,9 +17,14 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-other-ae5b041d]] - broader source section: Chapter 14: / 14.4 Magical Item List / 《 Other 》
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-other-daemon-hand-2209e731]] - previous source section: Chapter 14: / 14.4 Magical Item List / 《 Other 》 / [ Daemon Hand ]
 - [[sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-other-tracer-doll-cffb7cde]] - next source section: Chapter 14: / 14.4 Magical Item List / 《 Other 》 / [ Tracer Doll ]
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-other-ae5b041d]] - broader source section: Chapter 14: / 14.4 Magical Item List / 《 Other 》
 
 ## Statements
 

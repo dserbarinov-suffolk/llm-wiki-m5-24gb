@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-counters-negates-counters-overpowers-a7822623@d5af357c56c86448688bedd69b00edc9
+projection_coverage: section-sword-world-rpg-complete-edition-section-counters-negates-counters-overpowers-a7822623@a4ec081804b241b4cdad949ec03bdbec
 ---
 
 # 《 Counters (Negates) 》 / 《 Counters (Overpowers) 》
@@ -16,6 +16,8 @@ projection_coverage: section-sword-world-rpg-complete-edition-section-counters-n
 From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
+
+### Source structure
 
 - [[sword-world-rpg-complete-edition-section-counters-negates-462dea0d]] - broader source section: 《 Counters (Negates) 》
 
@@ -48,4 +50,5 @@ From [[sword-world-rpg-complete-edition]].
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-01775))_
 
+<a id="atom-technical-atom-806af3d4bf86ee18"></a>
 > - ⑤ If the target successfully resisted in ④ , the new magic cast will not take effect.

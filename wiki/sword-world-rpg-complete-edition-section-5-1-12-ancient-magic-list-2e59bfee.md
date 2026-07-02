@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-5-1-12-ancient-magic-list-2e59bfee@4bbc15e737c38007bf9f5986aa387b20
+projection_coverage: section-sword-world-rpg-complete-edition-section-5-1-12-ancient-magic-list-2e59bfee@349a30dc1159e0c2f5e6d225152433c0
 ---
 
 # 5.1.12 Ancient Magic List
@@ -17,70 +17,21 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-5-1-12-ancient-magic-list-counterspell-289fbfb1]] - narrower source section: 5.1.12 Ancient Magic List / [ Counterspell ]
-- [[sword-world-rpg-complete-edition-section-5-1-12-ancient-magic-list-chameleon-6a2c0b1c]] - narrower source section: 5.1.12 Ancient Magic List / [ Chameleon ]
-- [[sword-world-rpg-complete-edition-section-5-1-12-ancient-magic-list-sleep-cloud-a914e884]] - narrower source section: 5.1.12 Ancient Magic List / [ Sleep Cloud ]
-- [[sword-world-rpg-complete-edition-section-5-1-12-ancient-magic-list-sense-magic-08b5df38]] - narrower source section: 5.1.12 Ancient Magic List / [ Sense Magic ]
-- [[sword-world-rpg-complete-edition-section-5-1-12-ancient-magic-list-darkness-342ac1c0]] - narrower source section: 5.1.12 Ancient Magic List / [ Darkness ]
-- [[sword-world-rpg-complete-edition-section-5-1-12-ancient-magic-list-decrease-weight-base-mental-power-cost-3-distance-10-meters-area-one-o-6c5c79eb]] - narrower source section: 5.1.12 Ancient Magic List / [ Decrease Weight ] Base Mental Power Cost=3 Distance=10 meters Area=One object Duration=18 rounds Effect=Reduce the weight of an object Type=Lost Counters (Negates): Increase Weight Countered (Negated) By: Increase Weight Expansion=Duration, distance, targets, effect (see description)
-- [[sword-world-rpg-complete-edition-section-5-1-12-ancient-magic-list-dispel-magic-ee3f3308]] - narrower source section: 5.1.12 Ancient Magic List / [ Dispel Magic ]
-- [[sword-world-rpg-complete-edition-section-5-1-12-ancient-magic-list-kindle-93eb0bea]] - narrower source section: 5.1.12 Ancient Magic List / [ Kindle ]
-- [[sword-world-rpg-complete-edition-section-5-1-12-ancient-magic-list-protection-e88ff913]] - narrower source section: 5.1.12 Ancient Magic List / [ Protection ]
-- [[sword-world-rpg-complete-edition-section-5-1-12-ancient-magic-list-magic-protection-4612efc7]] - narrower source section: 5.1.12 Ancient Magic List / [ Magic Protection ]
-- [[sword-world-rpg-complete-edition-section-5-1-12-ancient-magic-list-light-abfe847d]] - narrower source section: 5.1.12 Ancient Magic List / [ Light ]
-- [[sword-world-rpg-complete-edition-section-5-1-12-ancient-magic-list-lock-f149d5a1]] - narrower source section: 5.1.12 Ancient Magic List / [ Lock ]
-- [[sword-world-rpg-complete-edition-section-5-1-12-ancient-magic-list-sense-enemy-4be8c6a8]] - narrower source section: 5.1.12 Ancient Magic List / [ Sense Enemy ]
-- [[sword-world-rpg-complete-edition-section-5-1-12-ancient-magic-list-disguise-40db142d]] - narrower source section: 5.1.12 Ancient Magic List / [ Disguise ]
-- [[sword-world-rpg-complete-edition-section-5-1-12-ancient-magic-list-fire-weapon-eab7ab97]] - narrower source section: 5.1.12 Ancient Magic List / [ Fire Weapon ]
-- [[sword-world-rpg-complete-edition-section-5-1-12-ancient-magic-list-falling-control-1fde1312]] - narrower source section: 5.1.12 Ancient Magic List / [ Falling Control ]
-- [[sword-world-rpg-complete-edition-section-5-1-12-ancient-magic-list-replace-sound-d51d7373]] - narrower source section: 5.1.12 Ancient Magic List / [ Replace Sound ]
-- [[sword-world-rpg-complete-edition-section-5-1-12-ancient-magic-list-increase-weight-base-mental-power-cost-9-distance-10-meters-area-one-o-c593fd1e]] - narrower source section: 5.1.12 Ancient Magic List / [ Increase Weight ] Base Mental Power Cost=9 Distance=10 meters Area=One object Duration=18 rounds Effect=Increase the weight of an object Type=Lost Counters (Negates): Decrease Weight Countered (Negated) By: Decrease Weight
-- [[sword-world-rpg-complete-edition-section-5-1-12-ancient-magic-list-create-image-143bfa29]] - narrower source section: 5.1.12 Ancient Magic List / [ Create Image ]
-- [[sword-world-rpg-complete-edition-section-5-1-12-ancient-magic-list-stone-servant-445e48e5]] - narrower source section: 5.1.12 Ancient Magic List / [ Stone Servant ]
-- [[sword-world-rpg-complete-edition-section-5-1-12-ancient-magic-list-hard-lock-e0f865d3]] - narrower source section: 5.1.12 Ancient Magic List / [ Hard Lock ]
-- [[sword-world-rpg-complete-edition-section-5-1-12-ancient-magic-list-familiar-128bdc4d]] - narrower source section: 5.1.12 Ancient Magic List / [ Familiar ]
-- [[sword-world-rpg-complete-edition-section-5-1-12-ancient-magic-list-physical-enchant-9f31ae82]] - narrower source section: 5.1.12 Ancient Magic List / [ Physical Enchant ]
-- [[sword-world-rpg-complete-edition-section-5-1-12-ancient-magic-list-bone-servant-79954b67]] - narrower source section: 5.1.12 Ancient Magic List / [ Bone Servant ]
-- [[sword-world-rpg-complete-edition-section-5-1-12-ancient-magic-list-lightning-eab11083]] - narrower source section: 5.1.12 Ancient Magic List / [ Lightning ]
-- [[sword-world-rpg-complete-edition-section-5-1-12-ancient-magic-list-levitation-ebabb699]] - narrower source section: 5.1.12 Ancient Magic List / [ Levitation ]
-- [[sword-world-rpg-complete-edition-section-5-1-12-ancient-magic-list-conceal-self-2ef34865]] - narrower source section: 5.1.12 Ancient Magic List / [ Conceal Self ]
-- [[sword-world-rpg-complete-edition-section-5-1-12-ancient-magic-list-shape-change-1e62400c]] - narrower source section: 5.1.12 Ancient Magic List / [ Shape Change
-- [[sword-world-rpg-complete-edition-section-5-1-12-ancient-magic-list-sense-aura-18276e87]] - narrower source section: 5.1.12 Ancient Magic List / [ Sense Aura ]
-- [[sword-world-rpg-complete-edition-section-5-1-12-ancient-magic-list-tongue-f3bb3f93]] - narrower source section: 5.1.12 Ancient Magic List / [ Tongue ]
-- [[sword-world-rpg-complete-edition-section-5-1-12-ancient-magic-list-paralyze-1b5f5495]] - narrower source section: 5.1.12 Ancient Magic List / [ Paralyze ]
-- [[sword-world-rpg-complete-edition-section-5-1-12-ancient-magic-list-fireball-79bfcaea]] - narrower source section: 5.1.12 Ancient Magic List / [ Fireball ]
-- [[sword-world-rpg-complete-edition-section-5-1-12-ancient-magic-list-location-63127d67]] - narrower source section: 5.1.12 Ancient Magic List / [ Location ]
-- [[sword-world-rpg-complete-edition-section-5-1-12-ancient-magic-list-illusion-6c1fcda0]] - narrower source section: 5.1.12 Ancient Magic List / [ Illusion ]
-- [[sword-world-rpg-complete-edition-section-5-1-12-ancient-magic-list-suppress-elemental-778770d6]] - narrower source section: 5.1.12 Ancient Magic List / [ Suppress Elemental ]
-- [[sword-world-rpg-complete-edition-section-5-1-12-ancient-magic-list-skeleton-warrior-5573e2d4]] - narrower source section: 5.1.12 Ancient Magic List / [ Skeleton Warrior ]
-- [[sword-world-rpg-complete-edition-section-5-1-12-ancient-magic-list-sense-lie-e435e029]] - narrower source section: 5.1.12 Ancient Magic List / [ Sense Lie ]
-- [[sword-world-rpg-complete-edition-section-5-1-12-ancient-magic-list-translate-ddc1405d]] - narrower source section: 5.1.12 Ancient Magic List / [ Translate ]
-- [[sword-world-rpg-complete-edition-section-5-1-12-ancient-magic-list-vision-ac5cb13e]] - narrower source section: 5.1.12 Ancient Magic List / [ Vision ]
-- [[sword-world-rpg-complete-edition-section-5-1-12-ancient-magic-list-flight-7c8755e3]] - narrower source section: 5.1.12 Ancient Magic List / [ Flight ]
-- [[sword-world-rpg-complete-edition-section-5-1-12-ancient-magic-list-blizzard-e8c00109]] - narrower source section: 5.1.12 Ancient Magic List / Blizzard ]
-- [[sword-world-rpg-complete-edition-section-5-1-12-ancient-magic-list-analyze-enchantment-77538a77]] - narrower source section: 5.1.12 Ancient Magic List / [ Analyze Enchantment ]
-- [[sword-world-rpg-complete-edition-section-5-1-12-ancient-magic-list-geas-cb116ef9]] - narrower source section: 5.1.12 Ancient Magic List / [ Geas ]
-- [[sword-world-rpg-complete-edition-section-5-1-12-ancient-magic-list-create-undead-67703980]] - narrower source section: 5.1.12 Ancient Magic List / Create Undead ]
-- [[sword-world-rpg-complete-edition-section-5-1-12-ancient-magic-list-create-device-5a463a3c]] - narrower source section: 5.1.12 Ancient Magic List / [ Create Device ]
-- [[sword-world-rpg-complete-edition-section-5-1-12-ancient-magic-list-create-buau-zombie-e124dc9c]] - narrower source section: 5.1.12 Ancient Magic List / [ Create Buau Zombie
-- [[sword-world-rpg-complete-edition-section-5-1-12-ancient-magic-list-see-through-a33c9d61]] - narrower source section: 5.1.12 Ancient Magic List / [ See-Through ]
-- [[sword-world-rpg-complete-edition-section-5-1-12-ancient-magic-list-seal-enchantment-94da84b4]] - narrower source section: 5.1.12 Ancient Magic List / [ Seal Enchantment ]
-- [[sword-world-rpg-complete-edition-section-5-1-12-ancient-magic-list-steal-mind-de9949b5]] - narrower source section: 5.1.12 Ancient Magic List / [ Steal Mind ]
-- [[sword-world-rpg-complete-edition-section-5-1-12-ancient-magic-list-slow-91fffcd7]] - narrower source section: 5.1.12 Ancient Magic List / [ Slow ]
-- [[sword-world-rpg-complete-edition-section-5-1-12-ancient-magic-list-haste-2feda0e8]] - narrower source section: 5.1.12 Ancient Magic List / [ Haste ]
-- [[sword-world-rpg-complete-edition-section-5-1-12-ancient-magic-list-rune-rope-c0ccc2e0]] - narrower source section: 5.1.12 Ancient Magic List / [ Rune Rope ]
-- [[sword-world-rpg-complete-edition-section-5-1-12-ancient-magic-list-telekinesis-18779c71]] - narrower source section: 5.1.12 Ancient Magic List / [ Telekinesis ]
-- [[sword-world-rpg-complete-edition-section-5-1-12-ancient-magic-list-teleport-63ddff3e]] - narrower source section: 5.1.12 Ancient Magic List / [ Teleport ]
-- [[sword-world-rpg-complete-edition-section-5-1-12-ancient-magic-list-full-potential-6889e92f]] - narrower source section: 5.1.12 Ancient Magic List / [ Full Potential ]
-- [[sword-world-rpg-complete-edition-section-5-1-12-ancient-magic-list-blade-net-3de06986]] - narrower source section: 5.1.12 Ancient Magic List / [ Blade Net ]
-- [[sword-world-rpg-complete-edition-section-5-1-12-ancient-magic-list-bend-bar-7aed68aa]] - narrower source section: 5.1.12 Ancient Magic List / [ Bend Bar ]
-- [[sword-world-rpg-complete-edition-section-5-1-12-ancient-magic-list-polymorph-5103db3e]] - narrower source section: 5.1.12 Ancient Magic List / [ Polymorph ]
-- [[sword-world-rpg-complete-edition-section-5-1-12-ancient-magic-list-magic-reflection-3d7d6ee5]] - narrower source section: 5.1.12 Ancient Magic List / [ Magic Reflection ]
-- [[sword-world-rpg-complete-edition-section-5-1-12-ancient-magic-list-stun-cloud-b197ed89]] - narrower source section: 5.1.12 Ancient Magic List / [ Stun Cloud ]
-- [[sword-world-rpg-complete-edition-section-5-1-12-ancient-magic-list-force-field-aebc13c6]] - narrower source section: 5.1.12 Ancient Magic List / [ Force Field ]
-- [[sword-world-rpg-complete-edition-section-5-1-12-ancient-magic-list-lightning-bind-497e8a08]] - narrower source section: 5.1.12 Ancient Magic List / [ Lightning Bind ]
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-enchant-weapon-f44ff0f5]] - previous source section: [ Enchant Weapon ]
 - [[sword-world-rpg-complete-edition-section-5-1-14-spirit-magic-list-1f53ed62]] - next source section: 5.1.14 Spirit Magic List
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-5-1-12-ancient-magic-list-analyze-enchantment-77538a77]] - narrower source section: 5.1.12 Ancient Magic List / [ Analyze Enchantment ]
+- [[sword-world-rpg-complete-edition-section-5-1-12-ancient-magic-list-bend-bar-7aed68aa]] - narrower source section: 5.1.12 Ancient Magic List / [ Bend Bar ]
+- [[sword-world-rpg-complete-edition-section-5-1-12-ancient-magic-list-blade-net-3de06986]] - narrower source section: 5.1.12 Ancient Magic List / [ Blade Net ]
+- [[sword-world-rpg-complete-edition-section-5-1-12-ancient-magic-list-blizzard-e8c00109]] - narrower source section: 5.1.12 Ancient Magic List / Blizzard ]
+- [[sword-world-rpg-complete-edition-section-5-1-12-ancient-magic-list-bone-servant-79954b67]] - narrower source section: 5.1.12 Ancient Magic List / [ Bone Servant ]
+- [[sword-world-rpg-complete-edition-section-5-1-12-ancient-magic-list-chameleon-6a2c0b1c]] - narrower source section: 5.1.12 Ancient Magic List / [ Chameleon ]
+- [[sword-world-rpg-complete-edition-section-5-1-12-ancient-magic-list-conceal-self-2ef34865]] - narrower source section: 5.1.12 Ancient Magic List / [ Conceal Self ]
+- [[sword-world-rpg-complete-edition-section-5-1-12-ancient-magic-list-counterspell-289fbfb1]] - narrower source section: 5.1.12 Ancient Magic List / [ Counterspell ]
 
 ## Statements
 
@@ -602,6 +553,7 @@ From [[sword-world-rpg-complete-edition]].
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-02122))_
 
+<a id="atom-technical-atom-dc08870c22889d88"></a>
 | Category | Frog | 2 | 2 | Can | see | things | over | a | wide | range |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 |  | Area=1 specific animal Dove | 3 | 3 |  |  |  | Can fly |  |  |  |
@@ -628,6 +580,7 @@ Table 5-2: Familiars
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-02467))_
 
+<a id="atom-technical-atom-9bf30d4970c8437f"></a>
 ```text
 Table 5-3: Slow: Agility and Evasion                                        Distance=Within the caster's view
                                     completely unable to move. The poor
@@ -643,6 +596,7 @@ Table 5-3: Slow: Agility and Evasion                                        Dist
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-02469))_
 
+<a id="atom-technical-atom-bb0bd4d341e666d7"></a>
 | Target's Agility | Evasion Speed (Points) Penalty |
 | --- | --- |
 | 1-5 | 0 |
@@ -675,6 +629,7 @@ Table 5-3: Slow: Agility and Evasion                                        Dist
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-02480))_
 
+<a id="atom-technical-atom-f08d6b376c0feb04"></a>
 ```text
 Table 5-4: Haste: Agility and Evasion    commands
                                                                         Type=-
@@ -692,6 +647,7 @@ Table 5-4: Haste: Agility and Evasion    commands
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-02758))_
 
+<a id="atom-technical-atom-6c4c923eac11fbd8"></a>
 ```text
 5.1.13 Spirit Magic and the Shaman Skill
 5.1.13 Spirit Magic  and the Shaman Skil

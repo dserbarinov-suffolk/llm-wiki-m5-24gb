@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-13-2-6-mythical-beasts-and-magical-beasts-horse-13-2-8-plants-haunt-dd41f1dd@68cf418151b41dcb28ecb8ab97fc268d
+projection_coverage: section-sword-world-rpg-complete-edition-section-13-2-6-mythical-beasts-and-magical-beasts-horse-13-2-8-plants-haunt-dd41f1dd@3fcf24cdab4e2754ddf5364750e52a99
 ---
 
 # 13.2.6 Mythical Beasts and Magical Beasts / [ Horse ] / 13.2.8 Plants / [ Haunt ]
@@ -17,9 +17,14 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-13-2-6-mythical-beasts-and-magical-beasts-horse-13-2-8-plants-6ae09235]] - broader source section: 13.2.6 Mythical Beasts and Magical Beasts / [ Horse ] / 13.2.8 Plants
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-13-2-6-mythical-beasts-and-magical-beasts-horse-13-2-8-plants-wight-7091b82d]] - previous source section: 13.2.6 Mythical Beasts and Magical Beasts / [ Horse ] / 13.2.8 Plants / [ Wight ]
 - [[sword-world-rpg-complete-edition-section-13-2-6-mythical-beasts-and-magical-beasts-horse-13-2-8-plants-jack-o-lantern-d3b07cb7]] - next source section: 13.2.6 Mythical Beasts and Magical Beasts / [ Horse ] / 13.2.8 Plants / [ Jack-O-Lantern ]
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-13-2-6-mythical-beasts-and-magical-beasts-horse-13-2-8-plants-6ae09235]] - broader source section: 13.2.6 Mythical Beasts and Magical Beasts / [ Horse ] / 13.2.8 Plants
 
 ## Statements
 
@@ -60,26 +65,38 @@ From [[sword-world-rpg-complete-edition]].
 
 **Atoms:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-07668, source-range-0d48087c-07669, source-range-0d48087c-07670, source-range-0d48087c-07671, source-range-0d48087c-07672, source-range-0d48087c-07673, source-range-0d48087c-07674, source-range-0d48087c-07675, source-range-0d48087c-07676, source-range-0d48087c-07677, source-range-0d48087c-07678, source-range-0d48087c-07679))_
 
+<a id="atom-technical-atom-65f244969399495a"></a>
 > Monster Level=5
 
+<a id="atom-technical-atom-3d429706672c824c"></a>
 > Rarity=14
 
+<a id="atom-technical-atom-9f4f77e3ab7b8815"></a>
 > Agility=14 Movement Speed=14
 
+<a id="atom-technical-atom-488562d30e2f9334"></a>
 > Number=One, rarely multiple depending on the situation
 
+<a id="atom-technical-atom-cbdb058792162a0b"></a>
 > Frequency=Rare Intellect=Human
 
+<a id="atom-technical-atom-306f987aeb298b0c"></a>
 > Reaction=Friendly, however, some are extremely adversarial
 
+<a id="atom-technical-atom-de8f1cd4e5a4e9ab"></a>
 > Attack Points=Weapon:12 (5)
 
+<a id="atom-technical-atom-94da6e1cf73b104d"></a>
 > Strike Points=10
 
+<a id="atom-technical-atom-eb81cda360d59c9a"></a>
 > Evasion Points=13 (6) Defense Points=7
 
+<a id="atom-technical-atom-bb10143b60bd3da3"></a>
 > Life Points/Resistance=14/13 (6)
 
+<a id="atom-technical-atom-5edaa43f200b1431"></a>
 > Mental Points/Resistance=20/14 (7)
 
+<a id="atom-technical-atom-cd98c3bac1568b62"></a>
 > Special Abilities=Possess (Resist target score=12)

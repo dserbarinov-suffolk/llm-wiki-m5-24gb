@@ -4,11 +4,11 @@ page_kind: source
 summary: Interactive Generators / this seems familiar: 23 source-backed entries and 0 atom(s) from raw/javascriptallonge.pdf.
 page_family: section-reference
 sources: raw/javascriptallonge.pdf
-updated: 2026-07-01
+updated: 2026-07-02
 domain: javascriptallonge
 category_path: sources/javascriptallonge/sections
 source_id: javascriptallonge.pdf
-projection_coverage: section-javascriptallonge-section-interactive-generators-this-seems-familiar-4e1f58a1@2f88eb31a13668c24dffc11ec6659e36
+projection_coverage: section-javascriptallonge-section-interactive-generators-this-seems-familiar-4e1f58a1@158719ed828ae01053c1b8c384b712cd
 ---
 
 # Interactive Generators / this seems familiar
@@ -17,11 +17,16 @@ From [[javascriptallonge]].
 
 ## Related pages
 
+### Source order
+
+- [[javascriptallonge-section-interactive-generators-representing-naughts-and-crosses-as-a-stateful-function-50fe6464]] - previous source section: Interactive Generators / representing naughts and crosses as a stateful function
+- [[javascriptallonge-section-interactive-generators-basic-operations-on-iterables-e1c8a49e]] - next source section: Interactive Generators / Basic Operations on Iterables
+
+### Source structure
+
 - [[javascriptallonge-section-interactive-generators-a0db0ac4]] - broader source section: Interactive Generators
 - [[javascriptallonge-section-interactive-generators-this-seems-familiar-interactive-generators-3de32faa]] - narrower source section: Interactive Generators / this seems familiar / interactive generators
 - [[javascriptallonge-section-interactive-generators-this-seems-familiar-summary-46445b98]] - narrower source section: Interactive Generators / this seems familiar / summary
-- [[javascriptallonge-section-interactive-generators-representing-naughts-and-crosses-as-a-stateful-function-50fe6464]] - previous source section: Interactive Generators / representing naughts and crosses as a stateful function
-- [[javascriptallonge-section-interactive-generators-basic-operations-on-iterables-e1c8a49e]] - next source section: Interactive Generators / Basic Operations on Iterables
 
 ## Statements
 

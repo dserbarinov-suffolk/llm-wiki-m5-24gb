@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-effect-expansion-b59d1d8c@fd276f2d9b4f185c0c1c6a51eb2391b3
+projection_coverage: section-sword-world-rpg-complete-edition-section-effect-expansion-b59d1d8c@dd4aa05ea277a8af997d7e052aeae079
 ---
 
 # 《 Effect Expansion 》
@@ -16,6 +16,8 @@ projection_coverage: section-sword-world-rpg-complete-edition-section-effect-exp
 From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
+
+### Source order
 
 - [[sword-world-rpg-complete-edition-section-final-score-increase-0d82dff1]] - previous source section: 《 Final Score Increase 》
 - [[sword-world-rpg-complete-edition-section-5-1-8-magic-contraction-aa73a588]] - next source section: 5.1.8 Magic Contraction

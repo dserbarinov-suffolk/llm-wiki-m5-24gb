@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-8-2-how-to-use-experience-points-increasing-skill-levels-sage-skill-e3acce07@782283506ebaf68cd0dd411e57220d40
+projection_coverage: section-sword-world-rpg-complete-edition-section-8-2-how-to-use-experience-points-increasing-skill-levels-sage-skill-e3acce07@27f0038f173e4be3e3d5c7be337fdbfd
 ---
 
 # 8.2 How to Use Experience Points: Increasing Skill Levels / Sage Skill
@@ -17,7 +17,12 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
+### Source structure
+
 - [[sword-world-rpg-complete-edition-section-8-2-how-to-use-experience-points-increasing-skill-levels-8e61e7ca]] - broader source section: 8.2 How to Use Experience Points: Increasing Skill Levels
+
+### Topics
+
 - [[sword-world-rpg-complete-edition-sage-skill]] - topic hub: opens the topic page for Sage Skill
 
 ## Statements
@@ -46,6 +51,7 @@ From [[sword-world-rpg-complete-edition]].
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-04539))_
 
+<a id="atom-technical-atom-0d11cca473789202"></a>
 ```text
 Table 8-1: Experience Points by Skill.        There is no reduction in experience
                                     points when increasing the sage skill to    Example 3:

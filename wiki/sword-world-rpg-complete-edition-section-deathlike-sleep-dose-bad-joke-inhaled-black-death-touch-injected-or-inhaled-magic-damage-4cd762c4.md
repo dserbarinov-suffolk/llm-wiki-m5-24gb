@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-deathlike-sleep-dose-bad-joke-inhaled-black-death-touch-injected-or-inhaled-magic-damage-4cd762c4@7ccd21177238cec7e0b38418b91d65e7
+projection_coverage: section-sword-world-rpg-complete-edition-section-deathlike-sleep-dose-bad-joke-inhaled-black-death-touch-injected-or-inhaled-magic-damage-4cd762c4@e32455ea564e488c5aa99f1cbdf51f58
 ---
 
 # [Deathlike Sleep (Dose)] / [ Bad Joke (Inhaled) ] / [Black Death (Touch, Injected, or Inhaled/Magic, Damage)]
@@ -17,8 +17,13 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-deathlike-sleep-dose-bad-joke-inhaled-fa7fa757]] - broader source section: [Deathlike Sleep (Dose)] / [ Bad Joke (Inhaled) ]
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-deathlike-sleep-dose-bad-joke-inhaled-beast-maker-dose-magic-73d9209e]] - previous source section: [Deathlike Sleep (Dose)] / [ Bad Joke (Inhaled) ] / [Beast Maker (Dose/Magic)]
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-deathlike-sleep-dose-bad-joke-inhaled-fa7fa757]] - broader source section: [Deathlike Sleep (Dose)] / [ Bad Joke (Inhaled) ]
 
 ## Statements
 

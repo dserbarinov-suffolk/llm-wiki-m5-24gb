@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-16-16-4-projectile-range-extension-e49b508c@89b3e848418d118f3b76878b2533e5eb
+projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-16-16-4-projectile-range-extension-e49b508c@ced91ccd2973fe7a65112f750d156c3c
 ---
 
 # Chapter 16: / 16.4 Projectile Range Extension
@@ -17,11 +17,16 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
+### Source order
+
+- [[sword-world-rpg-complete-edition-section-chapter-16-de7f0512]] - previous source section: Chapter 16:
+- [[sword-world-rpg-complete-edition-section-chapter-16-16-5-combat-options-cdfeb0d1]] - next source section: Chapter 16: / 16.5 Combat Options
+
+### Source structure
+
 - [[sword-world-rpg-complete-edition-section-chapter-16-faf82038]] - broader source section: Chapter 16:
 - [[sword-world-rpg-complete-edition-section-chapter-16-16-4-projectile-range-extension-long-distance-modifiers-3f7244ce]] - narrower source section: Chapter 16: / 16.4 Projectile Range Extension / Long Distance Modifiers
 - [[sword-world-rpg-complete-edition-section-chapter-16-16-4-projectile-range-extension-maximum-range-968e795b]] - narrower source section: Chapter 16: / 16.4 Projectile Range Extension / Maximum Range
-- [[sword-world-rpg-complete-edition-section-chapter-16-de7f0512]] - previous source section: Chapter 16:
-- [[sword-world-rpg-complete-edition-section-chapter-16-16-5-combat-options-cdfeb0d1]] - next source section: Chapter 16: / 16.5 Combat Options
 
 ## Statements
 
@@ -48,6 +53,7 @@ From [[sword-world-rpg-complete-edition]].
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-10301))_
 
+<a id="atom-technical-atom-6dc1933e62305df2"></a>
 | Dagger | 30 |
 | --- | --- |
 | Hand Ax | 20 + Character's Strength |

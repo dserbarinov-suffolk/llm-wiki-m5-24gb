@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-1-2-races-skills-d796863a@577c77eeb5e18e02821e12c2295e1c3c
+projection_coverage: section-sword-world-rpg-complete-edition-section-1-2-races-skills-d796863a@f59f0b8d150c5b9a75763dfe6d40eb5e
 ---
 
 # 1.2 Races / Skills
@@ -17,24 +17,20 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
+### Source order
+
+- [[sword-world-rpg-complete-edition-section-1-2-races-half-elf-6a232db4]] - previous source section: 1.2 Races / 【 Half-Elf 】
+
+### Source structure
+
 - [[sword-world-rpg-complete-edition-section-1-2-races-4e414960]] - broader source section: 1.2 Races
 - [[sword-world-rpg-complete-edition-section-1-2-races-skills-1-3-1-skill-basics-88dddfc1]] - narrower source section: 1.2 Races / Skills / 1.3.1 Skill Basics
 - [[sword-world-rpg-complete-edition-section-1-2-races-skills-1-3-2-skill-types-7028cd70]] - narrower source section: 1.2 Races / Skills / 1.3.2 Skill Types
-- [[sword-world-rpg-complete-edition-section-1-2-races-skills-changeling-ceb1e9f4]] - narrower source section: 1.2 Races / Skills / 《 Changeling 》
 - [[sword-world-rpg-complete-edition-section-1-2-races-skills-1-3-3-adventurer-level-4dd1e335]] - narrower source section: 1.2 Races / Skills / 1.3.3 Adventurer Level
 - [[sword-world-rpg-complete-edition-section-1-2-races-skills-1-3-4-explanation-of-adventurer-skills-a5ebb75d]] - narrower source section: 1.2 Races / Skills / 1.3.4 Explanation of Adventurer Skills
-- [[sword-world-rpg-complete-edition-section-1-2-races-skills-fighter-96226d96]] - narrower source section: 1.2 Races / Skills / 【 Fighter 】
-- [[sword-world-rpg-complete-edition-section-1-2-races-skills-thief-2f03999d]] - narrower source section: 1.2 Races / Skills / 【 Thief 】
-- [[sword-world-rpg-complete-edition-section-1-2-races-skills-sage-abcdd228]] - narrower source section: 1.2 Races / Skills / 【 Sage 】
-- [[sword-world-rpg-complete-edition-section-1-2-races-skills-ranger-56d595f9]] - narrower source section: 1.2 Races / Skills / 【 Ranger 】
 - [[sword-world-rpg-complete-edition-section-1-2-races-skills-bard-55e9d43f]] - narrower source section: 1.2 Races / Skills / 【 Bard 】
-- [[sword-world-rpg-complete-edition-section-1-2-races-skills-rune-master-75078adc]] - narrower source section: 1.2 Races / Skills / 【 Rune Master 】
-- [[sword-world-rpg-complete-edition-section-1-2-races-skills-sorcerer-021503d4]] - narrower source section: 1.2 Races / Skills / 【 Sorcerer 】
-- [[sword-world-rpg-complete-edition-section-1-2-races-skills-shaman-83e8d805]] - narrower source section: 1.2 Races / Skills / 【 Shaman 】
-- [[sword-world-rpg-complete-edition-section-1-2-races-skills-priest-5f2911e3]] - narrower source section: 1.2 Races / Skills / 【 Priest 】
+- [[sword-world-rpg-complete-edition-section-1-2-races-skills-changeling-ceb1e9f4]] - narrower source section: 1.2 Races / Skills / 《 Changeling 》
 - [[sword-world-rpg-complete-edition-section-1-2-races-skills-dark-priest-19e1b4f8]] - narrower source section: 1.2 Races / Skills / 【 Dark Priest 】
-- [[sword-world-rpg-complete-edition-section-1-2-races-skills-dragon-priest-f14f32d2]] - narrower source section: 1.2 Races / Skills / 【 Dragon Priest 】
-- [[sword-world-rpg-complete-edition-section-1-2-races-half-elf-6a232db4]] - previous source section: 1.2 Races / 【 Half-Elf 】
 
 ## Statements
 
@@ -158,6 +154,7 @@ From [[sword-world-rpg-complete-edition]].
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-00232))_
 
+<a id="atom-technical-atom-bd6cb2f2374cd8c6"></a>
 > The table below shows the names and types of each skill (Table 1-2: Skill Types).
 
 ### Technical frame 2: 1.2 Races / Skills / 【 Thief 】
@@ -168,4 +165,5 @@ From [[sword-world-rpg-complete-edition]].
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-00247))_
 
+<a id="atom-technical-atom-92b3d507d00e0df0"></a>
 > Their fighting style is based on lightness, and although they cannot use heavy weapons or armor, they can use light weapons and armor that does not impede their movement, allowing them to fight as well as a fighter.

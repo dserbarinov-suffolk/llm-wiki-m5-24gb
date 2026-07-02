@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-16-16-5-combat-options-snipe-d7c3b3a0@4c7778d6ff1d0e79e9ee6dd8b14f317d
+projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-16-16-5-combat-options-snipe-d7c3b3a0@62b9bebaa260a9c1f69790c297e80314
 ---
 
 # Chapter 16: / 16.5 Combat Options / Snipe
@@ -17,9 +17,14 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-chapter-16-16-5-combat-options-cdfeb0d1]] - broader source section: Chapter 16: / 16.5 Combat Options
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-chapter-16-16-5-combat-options-charge-db161c7b]] - previous source section: Chapter 16: / 16.5 Combat Options / Charge
 - [[sword-world-rpg-complete-edition-section-chapter-16-16-5-combat-options-mow-down-0c578acc]] - next source section: Chapter 16: / 16.5 Combat Options / Mow Down
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-chapter-16-16-5-combat-options-cdfeb0d1]] - broader source section: Chapter 16: / 16.5 Combat Options
 
 ## Statements
 

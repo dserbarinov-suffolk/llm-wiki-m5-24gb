@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-myrii-8d7c116a@61614321cfe43259664e59f4d1e955a2
+projection_coverage: section-sword-world-rpg-complete-edition-section-myrii-8d7c116a@be55f7aaecf4c10a43d277d4d41f6b6a
 ---
 
 # 《 Myrii 》
@@ -16,6 +16,8 @@ projection_coverage: section-sword-world-rpg-complete-edition-section-myrii-8d7c
 From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
+
+### Source order
 
 - [[sword-world-rpg-complete-edition-section-pharis-fdf323a0]] - previous source section: 《 Pharis 》
 - [[sword-world-rpg-complete-edition-section-rahda-0120aa33]] - next source section: 《 Rahda 》

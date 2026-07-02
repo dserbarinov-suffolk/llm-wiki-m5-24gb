@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-10-5-attacks-against-the-sleeping-rules-for-sleeping-monsters-21c2f8ac@d77570717a47846393ee4c6e96ac361d
+projection_coverage: section-sword-world-rpg-complete-edition-section-10-5-attacks-against-the-sleeping-rules-for-sleeping-monsters-21c2f8ac@00a5d1e28a1dc7863a968672e8c25974
 ---
 
 # 10.5 Attacks Against the Sleeping / Rules for Sleeping Monsters
@@ -17,8 +17,13 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-10-5-attacks-against-the-sleeping-a6ff2046]] - broader source section: 10.5 Attacks Against the Sleeping
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-10-5-attacks-against-the-sleeping-rules-for-sleeping-adventurers-de34dc25]] - next source section: 10.5 Attacks Against the Sleeping / Rules for Sleeping Adventurers
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-10-5-attacks-against-the-sleeping-a6ff2046]] - broader source section: 10.5 Attacks Against the Sleeping
 
 ## Statements
 

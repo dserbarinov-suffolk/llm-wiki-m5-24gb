@@ -4,11 +4,11 @@ page_kind: source
 summary: Interactive Generators / this seems familiar / interactive generators: 9 source-backed entries and 0 atom(s) from raw/javascriptallonge.pdf.
 page_family: section-reference
 sources: raw/javascriptallonge.pdf
-updated: 2026-07-01
+updated: 2026-07-02
 domain: javascriptallonge
 category_path: sources/javascriptallonge/sections
 source_id: javascriptallonge.pdf
-projection_coverage: section-javascriptallonge-section-interactive-generators-this-seems-familiar-interactive-generators-3de32faa@fdce218f0cb66b7a4b04167ecf26631d
+projection_coverage: section-javascriptallonge-section-interactive-generators-this-seems-familiar-interactive-generators-3de32faa@36d97712e0c6a1726acadbbe972cf257
 ---
 
 # Interactive Generators / this seems familiar / interactive generators
@@ -17,8 +17,16 @@ From [[javascriptallonge]].
 
 ## Related pages
 
-- [[javascriptallonge-section-interactive-generators-this-seems-familiar-4e1f58a1]] - broader source section: Interactive Generators / this seems familiar
+### Source order
+
 - [[javascriptallonge-section-interactive-generators-this-seems-familiar-summary-46445b98]] - next source section: Interactive Generators / this seems familiar / summary
+
+### Source structure
+
+- [[javascriptallonge-section-interactive-generators-this-seems-familiar-4e1f58a1]] - broader source section: Interactive Generators / this seems familiar
+
+### Topics
+
 - [[javascriptallonge-interactive-generator]] - topic hub: opens the topic page for Interactive Generator
 
 ## Statements

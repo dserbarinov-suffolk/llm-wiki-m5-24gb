@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-5-1-12-ancient-magic-list-bone-servant-79954b67@e0095bd3976de2edf49f9912ef542386
+projection_coverage: section-sword-world-rpg-complete-edition-section-5-1-12-ancient-magic-list-bone-servant-79954b67@9357352157325e5a9c88722964170202
 ---
 
 # 5.1.12 Ancient Magic List / [ Bone Servant ]
@@ -17,9 +17,14 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-5-1-12-ancient-magic-list-2e59bfee]] - broader source section: 5.1.12 Ancient Magic List
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-5-1-12-ancient-magic-list-physical-enchant-9f31ae82]] - previous source section: 5.1.12 Ancient Magic List / [ Physical Enchant ]
 - [[sword-world-rpg-complete-edition-section-5-1-12-ancient-magic-list-lightning-eab11083]] - next source section: 5.1.12 Ancient Magic List / [ Lightning ]
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-5-1-12-ancient-magic-list-2e59bfee]] - broader source section: 5.1.12 Ancient Magic List
 
 ## Statements
 
@@ -38,4 +43,5 @@ From [[sword-world-rpg-complete-edition]].
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-02186))_
 
+<a id="atom-technical-atom-bda446a8f4f1a38f"></a>
 > If you use human bones, it'll take the form of a human skeleton, such as a skeleton (see p.

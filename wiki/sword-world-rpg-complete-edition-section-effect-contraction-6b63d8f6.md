@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-effect-contraction-6b63d8f6@51c828ed58e13542dfb08e7893539da0
+projection_coverage: section-sword-world-rpg-complete-edition-section-effect-contraction-6b63d8f6@461e50185a85897de1b778fc44bcbd2a
 ---
 
 # 《 Effect Contraction 》
@@ -16,6 +16,8 @@ projection_coverage: section-sword-world-rpg-complete-edition-section-effect-con
 From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
+
+### Source order
 
 - [[sword-world-rpg-complete-edition-section-volume-contraction-21e5bc2a]] - previous source section: 《 Volume Contraction 》
 - [[sword-world-rpg-complete-edition-section-damage-ff07e120]] - next source section: 《 Damage 》
@@ -30,6 +32,7 @@ From [[sword-world-rpg-complete-edition]].
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-01742))_
 
+<a id="atom-technical-atom-e99ec8b1e1093de0"></a>
 ```text
 《 Effect Contraction 》
 All  magic  that  can  expand  their effects can also contract their effects.

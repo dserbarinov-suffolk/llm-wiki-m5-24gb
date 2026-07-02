@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-7-7-1-notes-on-general-skills-ac9fd0d7@51ca81f605a08332ab6334aa94f2b20b
+projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-7-7-1-notes-on-general-skills-ac9fd0d7@557795b22fb04c0497e022f761f13c38
 ---
 
 # Chapter 7: / 7.1 Notes on General Skills
@@ -17,9 +17,14 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
+### Source order
+
+- [[sword-world-rpg-complete-edition-section-chapter-7-7-2-merchant-skill-a6d33078]] - next source section: Chapter 7: / 7.2 Merchant Skill
+
+### Source structure
+
 - [[sword-world-rpg-complete-edition-section-chapter-7-c3cc20a8]] - broader source section: Chapter 7:
 - [[sword-world-rpg-complete-edition-section-chapter-7-7-1-notes-on-general-skills-the-difference-between-general-skills-and-adventurer-skill-88453a35]] - narrower source section: Chapter 7: / 7.1 Notes on General Skills / The Difference Between General Skills and Adventurer Skills
-- [[sword-world-rpg-complete-edition-section-chapter-7-7-2-merchant-skill-a6d33078]] - next source section: Chapter 7: / 7.2 Merchant Skill
 
 ## Statements by subsection
 

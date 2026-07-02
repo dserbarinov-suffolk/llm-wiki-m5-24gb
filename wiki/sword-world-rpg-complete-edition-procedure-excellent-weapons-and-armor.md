@@ -9,7 +9,7 @@ domain: sword-world-rpg-complete-edition
 category_path: procedures/sword-world-rpg-complete-edition
 source_id: Sword World RPG - Complete Edition.pdf
 aliases: complete-excellent-weapons-and-armor, excellent-weapons-and-armor
-projection_coverage: procedure-sword-world-rpg-complete-edition-procedure-excellent-weapons-and-armor@153f138d55b72abcba1d8b7675c75b8b
+projection_coverage: procedure-sword-world-rpg-complete-edition-procedure-excellent-weapons-and-armor@537c344b507c4f619a30b5d1150dde12
 ---
 
 # Excellent Weapons and Armor
@@ -52,18 +52,18 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Tables And Formulas
 
-- `rule`: Also, even if you search all over Alecrast, you will usually only find one with a required strength up to 5 lower than u _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-01464))_
-- `rule`: However, if you want one of higher quality, you must go to a larger town. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-01465))_
-- `table`: These high-quality weapons and armor  can  be  expensive.  Their  price increases  by 20% for  every 1 required strength _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-01466))_
-- `rule`: Whenever an adventurer declares that their attack on a monster is a mercy, that monster will always remain alive. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-01468))_
-- `rule`: Magical weapons can deal damage to monsters that normal weapons cannot harm. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-01484))_
-- `rule`: Mithril silver weapons can deal damage to monsters that normal weapons cannot harm. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-01500))_
-- `rule`: Mithril silver weapons and armor are never , if ever, placed in shops or traded for money. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-01503))_
-- `rule`: A rune master can use all magic up to their skill level, but cannot use magic of a higher level than their current skill _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-01555))_
-- `formula`: magic power = magic skill level + intelligence bonus _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-01565))_
-- `rule`: If the result is anything other than double ones, the magic takes effect. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-01582))_
-- `rule`: If the 2D roll comes up double sixes , the magic automatically succeeds and will take its full effect, no matter how hig _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-01586))_
-- `rule`: Fire Bolt is resistible magic, so if it's resisted by the opponent, its effect will be reduced. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-01589))_
+- `rule`: [[sword-world-rpg-complete-edition-section-4-10-excellent-weapons-and-armor-1d473647]]#atom-technical-atom-de7b2422f985ece0 Also, even if you search all over Alecrast, you will usually only find one with a required strength up to 5 lower than u _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-01464))_
+- `rule`: [[sword-world-rpg-complete-edition-section-4-10-excellent-weapons-and-armor-1d473647]]#atom-technical-atom-2c3f7ec66a837600 However, if you want one of higher quality, you must go to a larger town. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-01465))_
+- `table`: [[sword-world-rpg-complete-edition-section-4-10-excellent-weapons-and-armor-1d473647]]#atom-technical-atom-5f0d5d906d59ff3e These high-quality weapons and armor  can  be  expensive.  Their  price increases  by 20% for  every 1 required strength _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-01466))_
+- `rule`: [[sword-world-rpg-complete-edition-section-4-10-excellent-weapons-and-armor-1d473647]]#atom-technical-atom-c5d03c438bb689e2 Whenever an adventurer declares that their attack on a monster is a mercy, that monster will always remain alive. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-01468))_
+- `rule`: [[sword-world-rpg-complete-edition-section-4-10-excellent-weapons-and-armor-1d473647]]#atom-technical-atom-e95f18afcff444da Magical weapons can deal damage to monsters that normal weapons cannot harm. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-01484))_
+- `rule`: [[sword-world-rpg-complete-edition-section-4-10-excellent-weapons-and-armor-1d473647]]#atom-technical-atom-a6b4d8dcc929bfe1 Mithril silver weapons can deal damage to monsters that normal weapons cannot harm. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-01500))_
+- `rule`: [[sword-world-rpg-complete-edition-section-4-10-excellent-weapons-and-armor-1d473647]]#atom-technical-atom-5b8302e8a18c818b Mithril silver weapons and armor are never , if ever, placed in shops or traded for money. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-01503))_
+- `rule`: [[sword-world-rpg-complete-edition-section-4-10-excellent-weapons-and-armor-1d473647]]#atom-technical-atom-2470c5891dbdbab0 A rune master can use all magic up to their skill level, but cannot use magic of a higher level than their current skill _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-01555))_
+- `formula`: [[sword-world-rpg-complete-edition-section-4-10-excellent-weapons-and-armor-1d473647]]#atom-technical-atom-5983c4235605a03c magic power = magic skill level + intelligence bonus _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-01565))_
+- `rule`: [[sword-world-rpg-complete-edition-section-4-10-excellent-weapons-and-armor-1d473647]]#atom-technical-atom-25d0a2fe6f334bb2 If the result is anything other than double ones, the magic takes effect. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-01582))_
+- `rule`: [[sword-world-rpg-complete-edition-section-4-10-excellent-weapons-and-armor-1d473647]]#atom-technical-atom-aea46202d43e8696 If the 2D roll comes up double sixes , the magic automatically succeeds and will take its full effect, no matter how hig _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-01586))_
+- `rule`: [[sword-world-rpg-complete-edition-section-4-10-excellent-weapons-and-armor-1d473647]]#atom-technical-atom-3feed96402c41445 Fire Bolt is resistible magic, so if it's resisted by the opponent, its effect will be reduced. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-01589))_
 
 ## Completion Check
 

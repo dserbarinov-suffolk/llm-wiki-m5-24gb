@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-other-flying-mantle-a2d61038@8f94521a57c1222d5e25af3e069d17da
+projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-other-flying-mantle-a2d61038@8796238db1493d21433eafeef9efde65
 ---
 
 # Chapter 14: / 14.4 Magical Item List / 《 Other 》 / [ Flying Mantle ]
@@ -17,9 +17,14 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-other-ae5b041d]] - broader source section: Chapter 14: / 14.4 Magical Item List / 《 Other 》
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-other-flying-carpet-83b363f2]] - previous source section: Chapter 14: / 14.4 Magical Item List / 《 Other 》 / [ Flying Carpet ]
 - [[sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-other-potion-of-power-74c902b4]] - next source section: Chapter 14: / 14.4 Magical Item List / 《 Other 》 / [ Potion of Power ]
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-other-ae5b041d]] - broader source section: Chapter 14: / 14.4 Magical Item List / 《 Other 》
 
 ## Statements
 

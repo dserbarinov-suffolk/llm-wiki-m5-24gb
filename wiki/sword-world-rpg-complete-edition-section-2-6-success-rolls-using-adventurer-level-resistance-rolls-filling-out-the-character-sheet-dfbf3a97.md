@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-2-6-success-rolls-using-adventurer-level-resistance-rolls-filling-out-the-character-sheet-dfbf3a97@ab42922bc8f43ec183ba43c9129f4c28
+projection_coverage: section-sword-world-rpg-complete-edition-section-2-6-success-rolls-using-adventurer-level-resistance-rolls-filling-out-the-character-sheet-dfbf3a97@8ae5d22a4d778d691cd9d0ac0b23a081
 ---
 
 # 2.6 Success Rolls Using Adventurer Level / Resistance Rolls / Filling Out the Character Sheet
@@ -17,7 +17,12 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
+### Source structure
+
 - [[sword-world-rpg-complete-edition-section-2-6-success-rolls-using-adventurer-level-resistance-rolls-b5e39a22]] - broader source section: 2.6 Success Rolls Using Adventurer Level / Resistance Rolls
+
+### Topics
+
 - [[sword-world-rpg-complete-edition-filling-character-sheet]] - topic hub: opens the topic page for Filling Character Sheet
 
 ## Statements

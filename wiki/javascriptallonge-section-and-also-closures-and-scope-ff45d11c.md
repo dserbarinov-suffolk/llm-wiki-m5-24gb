@@ -4,11 +4,11 @@ page_kind: source
 summary: And also: / Closures and Scope: 74 source-backed entries and 0 atom(s) from raw/javascriptallonge.pdf.
 page_family: section-reference
 sources: raw/javascriptallonge.pdf
-updated: 2026-07-01
+updated: 2026-07-02
 domain: javascriptallonge
 category_path: sources/javascriptallonge/sections
 source_id: javascriptallonge.pdf
-projection_coverage: section-javascriptallonge-section-and-also-closures-and-scope-ff45d11c@ad57836012c50e3488668bbc2d9fb5e3
+projection_coverage: section-javascriptallonge-section-and-also-closures-and-scope-ff45d11c@2f0d6ccae165f4257a6f19a806a54373
 ---
 
 # And also: / Closures and Scope
@@ -17,13 +17,18 @@ From [[javascriptallonge]].
 
 ## Related pages
 
+### Source order
+
+- [[javascriptallonge-section-and-also-call-by-sharing-db439a98]] - previous source section: And also: / call by sharing
+- [[javascriptallonge-section-and-also-that-constant-coffee-craving-ac9d9918]] - next source section: And also: / That Constant Coffee Craving
+
+### Source structure
+
 - [[javascriptallonge-section-and-also-0e29dfba]] - broader source section: And also:
 - [[javascriptallonge-section-and-also-closures-and-scope-if-functions-without-free-variables-are-pure-are-closures-impure-3d794f70]] - narrower source section: And also: / Closures and Scope / if functions without free variables are pure, are closures impure?
 - [[javascriptallonge-section-and-also-closures-and-scope-it-s-always-the-environment-3905285c]] - narrower source section: And also: / Closures and Scope / it's always the environment
 - [[javascriptallonge-section-and-also-closures-and-scope-shadowy-variables-from-a-shadowy-planet-71d66043]] - narrower source section: And also: / Closures and Scope / shadowy variables from a shadowy planet
 - [[javascriptallonge-section-and-also-closures-and-scope-which-came-first-the-chicken-or-the-egg-66a98800]] - narrower source section: And also: / Closures and Scope / which came first, the chicken or the egg?
-- [[javascriptallonge-section-and-also-call-by-sharing-db439a98]] - previous source section: And also: / call by sharing
-- [[javascriptallonge-section-and-also-that-constant-coffee-craving-ac9d9918]] - next source section: And also: / That Constant Coffee Craving
 
 ## Statements
 

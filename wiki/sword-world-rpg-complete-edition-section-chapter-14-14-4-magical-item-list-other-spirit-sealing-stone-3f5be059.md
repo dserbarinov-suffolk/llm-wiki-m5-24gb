@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-other-spirit-sealing-stone-3f5be059@eb0eff5f8db0f7aca4562caeecfad6eb
+projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-other-spirit-sealing-stone-3f5be059@02fe5a2f7c775328b3378799d2ba6cae
 ---
 
 # Chapter 14: / 14.4 Magical Item List / 《 Other 》 / [ Spirit Sealing Stone ]
@@ -17,9 +17,14 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-other-ae5b041d]] - broader source section: Chapter 14: / 14.4 Magical Item List / 《 Other 》
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-other-statue-of-changing-1a860ba6]] - previous source section: Chapter 14: / 14.4 Magical Item List / 《 Other 》 / [ Statue of Changing ]
 - [[sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-other-sleep-eye-15812a51]] - next source section: Chapter 14: / 14.4 Magical Item List / 《 Other 》 / [ Sleep Eye ]
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-other-ae5b041d]] - broader source section: Chapter 14: / 14.4 Magical Item List / 《 Other 》
 
 ## Statements
 
@@ -38,8 +43,11 @@ From [[sword-world-rpg-complete-edition]].
 
 **Atoms:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-09813, source-range-0d48087c-09814, source-range-0d48087c-09815))_
 
+<a id="atom-technical-atom-209682af098f4f8d"></a>
 > Rarity=16 Enchanter=Unknown Form=White gem
 
+<a id="atom-technical-atom-9d17f57eca0ebfed"></a>
 > Base Trade Price=45,000 gamels
 
+<a id="atom-technical-atom-54e376e44ae6b440"></a>
 > Powers=Seals a spirit

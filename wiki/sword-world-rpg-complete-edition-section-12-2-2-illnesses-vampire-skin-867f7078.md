@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-12-2-2-illnesses-vampire-skin-867f7078@93f9772dd7af8a9edc7469de4271ca67
+projection_coverage: section-sword-world-rpg-complete-edition-section-12-2-2-illnesses-vampire-skin-867f7078@0a78c42877f0472fedd4d261155b69b5
 ---
 
 # 12.2.2 Illnesses / [ Vampire Skin ]
@@ -17,9 +17,14 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-12-2-2-illnesses-5611d07e]] - broader source section: 12.2.2 Illnesses
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-12-2-2-illnesses-bat-fever-56d254a7]] - previous source section: 12.2.2 Illnesses / [ Bat Fever ]
 - [[sword-world-rpg-complete-edition-section-12-2-2-illnesses-humbaba-curse-23191d95]] - next source section: 12.2.2 Illnesses / [ Humbaba Curse ]
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-12-2-2-illnesses-5611d07e]] - broader source section: 12.2.2 Illnesses
 
 ## Statements
 

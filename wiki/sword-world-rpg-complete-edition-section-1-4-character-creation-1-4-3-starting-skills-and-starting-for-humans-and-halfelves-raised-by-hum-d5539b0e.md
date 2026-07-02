@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-1-4-character-creation-1-4-3-starting-skills-and-starting-for-humans-and-halfelves-raised-by-hum-d5539b0e@cea752fc8479a5f4f67a923ba8b3e8de
+projection_coverage: section-sword-world-rpg-complete-edition-section-1-4-character-creation-1-4-3-starting-skills-and-starting-for-humans-and-halfelves-raised-by-hum-d5539b0e@20c4d90b89c721557a2a46f6c9105c12
 ---
 
 # 1.4 Character Creation / 1.4.3 Starting Skills and Starting / For Humans and HalfElves Raised by Humans
@@ -17,9 +17,14 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-1-4-character-creation-1-4-3-starting-skills-and-starting-7536fe31]] - broader source section: 1.4 Character Creation / 1.4.3 Starting Skills and Starting
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-1-4-character-creation-1-4-3-starting-skills-and-starting-experience-points-6b72155c]] - previous source section: 1.4 Character Creation / 1.4.3 Starting Skills and Starting / Experience Points
 - [[sword-world-rpg-complete-edition-section-1-4-character-creation-1-4-3-starting-skills-and-starting-for-races-other-than-humans-12c027e5]] - next source section: 1.4 Character Creation / 1.4.3 Starting Skills and Starting / For Races Other Than Humans
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-1-4-character-creation-1-4-3-starting-skills-and-starting-7536fe31]] - broader source section: 1.4 Character Creation / 1.4.3 Starting Skills and Starting
 
 ## Statements
 
@@ -37,6 +42,7 @@ From [[sword-world-rpg-complete-edition]].
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-00378))_
 
+<a id="atom-technical-atom-d52456b4ed89c74f"></a>
 ```text
 Table 1-6: Starting Experience by Race
                                                                         character, it should be between 15 years

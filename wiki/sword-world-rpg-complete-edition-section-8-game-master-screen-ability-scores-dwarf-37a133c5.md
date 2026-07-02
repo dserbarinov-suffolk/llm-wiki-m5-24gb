@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-8-game-master-screen-ability-scores-dwarf-37a133c5@6bc4814059e590a3dc17647a5f77c447
+projection_coverage: section-sword-world-rpg-complete-edition-section-8-game-master-screen-ability-scores-dwarf-37a133c5@5c36a2bb4f9df9ac68944424e2fdba4c
 ---
 
 # 8. Game Master Screen / Ability Scores / 【 Dwarf 】
@@ -17,8 +17,13 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-8-game-master-screen-ability-scores-a41763db]] - broader source section: 8. Game Master Screen / Ability Scores
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-8-game-master-screen-ability-scores-ability-bonuses-b62ddaa2]] - previous source section: 8. Game Master Screen / Ability Scores / 【 Ability Bonuses 】
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-8-game-master-screen-ability-scores-a41763db]] - broader source section: 8. Game Master Screen / Ability Scores
 
 ## Statements
 

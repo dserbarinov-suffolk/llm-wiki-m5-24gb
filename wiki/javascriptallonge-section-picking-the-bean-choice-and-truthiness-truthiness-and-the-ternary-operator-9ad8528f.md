@@ -4,11 +4,11 @@ page_kind: source
 summary: Picking the Bean: Choice and Truthiness / truthiness and the ternary operator: 17 source-backed entries and 2 atom(s) from raw/javascriptallonge.pdf.
 page_family: section-reference
 sources: raw/javascriptallonge.pdf
-updated: 2026-07-01
+updated: 2026-07-02
 domain: javascriptallonge
 category_path: sources/javascriptallonge/sections
 source_id: javascriptallonge.pdf
-projection_coverage: section-javascriptallonge-section-picking-the-bean-choice-and-truthiness-truthiness-and-the-ternary-operator-9ad8528f@08aa640c2c08ad7abc02de5315db6923
+projection_coverage: section-javascriptallonge-section-picking-the-bean-choice-and-truthiness-truthiness-and-the-ternary-operator-9ad8528f@67d0c8e7b2fb313ee83f973a321faeb9
 ---
 
 # Picking the Bean: Choice and Truthiness / truthiness and the ternary operator
@@ -17,8 +17,13 @@ From [[javascriptallonge]].
 
 ## Related pages
 
-- [[javascriptallonge-section-picking-the-bean-choice-and-truthiness-851a6e13]] - broader source section: Picking the Bean: Choice and Truthiness
+### Source order
+
 - [[javascriptallonge-section-picking-the-bean-choice-and-truthiness-truthiness-and-operators-e7aa9191]] - next source section: Picking the Bean: Choice and Truthiness / truthiness and operators
+
+### Source structure
+
+- [[javascriptallonge-section-picking-the-bean-choice-and-truthiness-851a6e13]] - broader source section: Picking the Bean: Choice and Truthiness
 
 ## Statements
 
@@ -42,6 +47,7 @@ From [[javascriptallonge]].
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00767))_
 
+<a id="atom-technical-atom-8a38ccb9b6091e45"></a>
 ```
 true ? 'Hello' : 'Good bye'
 //=> 'Hello'
@@ -59,6 +65,7 @@ true ? 'Hello' : 'Good bye'
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00768))_
 
+<a id="atom-technical-atom-8a0bd30e2d4f15a1"></a>
 ```text
 //=> 'Hello'
 0 ? 'Hello' : 'Good bye'

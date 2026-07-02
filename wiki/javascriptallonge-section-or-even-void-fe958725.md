@@ -4,11 +4,11 @@ page_kind: source
 summary: Or even: / void: 4 source-backed entries and 1 atom(s) from raw/javascriptallonge.pdf.
 page_family: section-reference
 sources: raw/javascriptallonge.pdf
-updated: 2026-07-01
+updated: 2026-07-02
 domain: javascriptallonge
 category_path: sources/javascriptallonge/sections
 source_id: javascriptallonge.pdf
-projection_coverage: section-javascriptallonge-section-or-even-void-fe958725@594a4cdd23b6e78e1aae6f0549c6b8e7
+projection_coverage: section-javascriptallonge-section-or-even-void-fe958725@50cb5af3992418dab8a096cabe999f1c
 ---
 
 # Or even: / void
@@ -17,9 +17,14 @@ From [[javascriptallonge]].
 
 ## Related pages
 
-- [[javascriptallonge-section-or-even-bc497226]] - broader source section: Or even:
+### Source order
+
 - [[javascriptallonge-section-or-even-the-simplest-possible-block-fbb6a26c]] - previous source section: Or even: / the simplest possible block
 - [[javascriptallonge-section-or-even-back-on-the-block-b65a6ef3]] - next source section: Or even: / back on the block
+
+### Source structure
+
+- [[javascriptallonge-section-or-even-bc497226]] - broader source section: Or even:
 
 ## Statements
 
@@ -36,6 +41,7 @@ From [[javascriptallonge]].
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00232))_
 
+<a id="atom-technical-atom-8540685666108da1"></a>
 ```
 void 0
 //=> undefined

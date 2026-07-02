@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-13-2-6-mythical-beasts-and-magical-beasts-horse-9c294c60@df869f3dbc81817f9808a2cfd0f6ee28
+projection_coverage: section-sword-world-rpg-complete-edition-section-13-2-6-mythical-beasts-and-magical-beasts-horse-9c294c60@ed466239be1c088f7291825671787b35
 ---
 
 # 13.2.6 Mythical Beasts and Magical Beasts / [ Horse ]
@@ -17,38 +17,20 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
+### Source order
+
+- [[sword-world-rpg-complete-edition-section-13-2-6-mythical-beasts-and-magical-beasts-giant-wasp-5c5fec17]] - previous source section: 13.2.6 Mythical Beasts and Magical Beasts / [ Giant Wasp ]
+
+### Source structure
+
 - [[sword-world-rpg-complete-edition-section-13-2-6-mythical-beasts-and-magical-beasts-f86962d2]] - broader source section: 13.2.6 Mythical Beasts and Magical Beasts
-- [[sword-world-rpg-complete-edition-section-13-2-6-mythical-beasts-and-magical-beasts-horse-wardog-6a5d3c45]] - narrower source section: 13.2.6 Mythical Beasts and Magical Beasts / [ Horse ] / [ Wardog ]
-- [[sword-world-rpg-complete-edition-section-13-2-6-mythical-beasts-and-magical-beasts-horse-killer-shark-911f35e7]] - narrower source section: 13.2.6 Mythical Beasts and Magical Beasts / [ Horse ] / [ Killer Shark ]
-- [[sword-world-rpg-complete-edition-section-13-2-6-mythical-beasts-and-magical-beasts-horse-crocodile-01fa6295]] - narrower source section: 13.2.6 Mythical Beasts and Magical Beasts / [ Horse ] / [ Crocodile ]
-- [[sword-world-rpg-complete-edition-section-13-2-6-mythical-beasts-and-magical-beasts-horse-giant-scorpion-3165bf5f]] - narrower source section: 13.2.6 Mythical Beasts and Magical Beasts / [ Horse ] / [ Giant Scorpion ]
-- [[sword-world-rpg-complete-edition-section-13-2-6-mythical-beasts-and-magical-beasts-horse-giant-mantis-69229295]] - narrower source section: 13.2.6 Mythical Beasts and Magical Beasts / [ Horse ] / [ Giant Mantis
-- [[sword-world-rpg-complete-edition-section-13-2-6-mythical-beasts-and-magical-beasts-horse-scarlet-vulture-monster-level-3-rarity-10-agilit-d31bdc79]] - narrower source section: 13.2.6 Mythical Beasts and Magical Beasts / [ Horse ] / [ Scarlet Vulture ] Monster Level=3 Rarity=10 Agility=15 Movement Speed=10/30 (air) Number=One to several Frequency=Moderate Intellect=Animal Reaction=Hunger-based Attack Points=Beak:10 (3)/Talons:11 (4) Strike Points=6/6 Evasion Points=10 (3) Defense Points=6 Life Points/Resistance=15/11 (4) Mental Points/Resistance=9/10 (3) Special Abilities=Capture Opponent's attack is -2 Habitat=Mountains, meadows
-- [[sword-world-rpg-complete-edition-section-13-2-6-mythical-beasts-and-magical-beasts-horse-tiger-monster-level-3-rarity-6-agility-21-moveme-bfda9580]] - narrower source section: 13.2.6 Mythical Beasts and Magical Beasts / [ Horse ] / [ Tiger ] Monster Level=3 Rarity=6 Agility=21 Movement Speed=25 Number=One to several Frequency=Rare Intellect=Animal Reaction=Hunger-based Attack Points=Fang:10 (3)/Claw:11 (4)/ Claw:11 (4) Strike Points=11/10/10 Evasion Points=11 (4) Defense Points=7 Life Points/Resistance=20/12 (5) Mental Points/Resistance=7/10 (3) Special Abilities=None in particular Habitat=Deep in forests Languages=None
-- [[sword-world-rpg-complete-edition-section-13-2-6-mythical-beasts-and-magical-beasts-horse-bat-236061d4]] - narrower source section: 13.2.6 Mythical Beasts and Magical Beasts / [ Horse ] / [ Bat ]
-- [[sword-world-rpg-complete-edition-section-13-2-6-mythical-beasts-and-magical-beasts-horse-bear-4b66c11c]] - narrower source section: 13.2.6 Mythical Beasts and Magical Beasts / [ Horse ] / [ Bear ]
-- [[sword-world-rpg-complete-edition-section-13-2-6-mythical-beasts-and-magical-beasts-horse-lion-fa2410da]] - narrower source section: 13.2.6 Mythical Beasts and Magical Beasts / [ Horse ] / [ Lion ]
-- [[sword-world-rpg-complete-edition-section-13-2-6-mythical-beasts-and-magical-beasts-horse-giant-slug-c5f80539]] - narrower source section: 13.2.6 Mythical Beasts and Magical Beasts / [ Horse ] / [ Giant Slug ]
-- [[sword-world-rpg-complete-edition-section-13-2-6-mythical-beasts-and-magical-beasts-horse-toad-c1e183f2]] - narrower source section: 13.2.6 Mythical Beasts and Magical Beasts / [ Horse ] / [ Toad ]
-- [[sword-world-rpg-complete-edition-section-13-2-6-mythical-beasts-and-magical-beasts-horse-ant-39885396]] - narrower source section: 13.2.6 Mythical Beasts and Magical Beasts / [ Horse ] / [ Ant ]
-- [[sword-world-rpg-complete-edition-section-13-2-6-mythical-beasts-and-magical-beasts-horse-ape-0d89df93]] - narrower source section: 13.2.6 Mythical Beasts and Magical Beasts / [ Horse ] / [ Ape ]
-- [[sword-world-rpg-complete-edition-section-13-2-6-mythical-beasts-and-magical-beasts-horse-giant-antlion-8f2cb3e5]] - narrower source section: 13.2.6 Mythical Beasts and Magical Beasts / [ Horse ] / [ Giant Antlion ]
-- [[sword-world-rpg-complete-edition-section-13-2-6-mythical-beasts-and-magical-beasts-horse-giant-crab-monster-level-5-rarity-12-agility-10-bd798001]] - narrower source section: 13.2.6 Mythical Beasts and Magical Beasts / [ Horse ] / [ Giant Crab ] Monster Level=5 Rarity=12 Agility=10 Movement Speed=10/10 (water) Number=One Frequency=Rare Intellect=Almost none Reaction=Hunger-based Attack Points=Large pincer:13 (6)/Pincer:13 (6) Strike Points=13/12 Evasion Points=11 (4) Defense Points=10 Life Points/Resistance=20/14 (7) Mental Points/Resistance=7/12 (5) Special Abilities=Right pincer strangling Water Adaptation Habitat=Warm coastal areas Languages=None
-- [[sword-world-rpg-complete-edition-section-13-2-6-mythical-beasts-and-magical-beasts-horse-worm-383b71be]] - narrower source section: 13.2.6 Mythical Beasts and Magical Beasts / [ Horse ] / [ Worm ]
-- [[sword-world-rpg-complete-edition-section-13-2-6-mythical-beasts-and-magical-beasts-horse-giant-seal-15ca89f9]] - narrower source section: 13.2.6 Mythical Beasts and Magical Beasts / [ Horse ] / [ Giant Seal ]
-- [[sword-world-rpg-complete-edition-section-13-2-6-mythical-beasts-and-magical-beasts-horse-snake-41b4e252]] - narrower source section: 13.2.6 Mythical Beasts and Magical Beasts / [ Horse ] / [ Snake ]
-- [[sword-world-rpg-complete-edition-section-13-2-6-mythical-beasts-and-magical-beasts-horse-spider-610b0bc3]] - narrower source section: 13.2.6 Mythical Beasts and Magical Beasts / [ Horse ] / [ Spider ]
-- [[sword-world-rpg-complete-edition-section-13-2-6-mythical-beasts-and-magical-beasts-horse-octopus-6ea7fd7f]] - narrower source section: 13.2.6 Mythical Beasts and Magical Beasts / [ Horse ] / [ Octopus ]
-- [[sword-world-rpg-complete-edition-section-13-2-6-mythical-beasts-and-magical-beasts-horse-13-2-8-plants-6ae09235]] - narrower source section: 13.2.6 Mythical Beasts and Magical Beasts / [ Horse ] / 13.2.8 Plants
 - [[sword-world-rpg-complete-edition-section-13-2-6-mythical-beasts-and-magical-beasts-horse-13-2-10-magical-creatures-0e88a6a0]] - narrower source section: 13.2.6 Mythical Beasts and Magical Beasts / [ Horse ] / 13.2.10 Magical Creatures
 - [[sword-world-rpg-complete-edition-section-13-2-6-mythical-beasts-and-magical-beasts-horse-13-2-11-daemons-underworld-creatures-692da0bd]] - narrower source section: 13.2.6 Mythical Beasts and Magical Beasts / [ Horse ] / 13.2.11 Daemons/Underworld Creatures
 - [[sword-world-rpg-complete-edition-section-13-2-6-mythical-beasts-and-magical-beasts-horse-13-2-12-humans-b1a222f1]] - narrower source section: 13.2.6 Mythical Beasts and Magical Beasts / [ Horse ] / 13.2.12 Humans
 - [[sword-world-rpg-complete-edition-section-13-2-6-mythical-beasts-and-magical-beasts-horse-13-2-13-other-1185d157]] - narrower source section: 13.2.6 Mythical Beasts and Magical Beasts / [ Horse ] / 13.2.13 Other
+- [[sword-world-rpg-complete-edition-section-13-2-6-mythical-beasts-and-magical-beasts-horse-13-2-8-plants-6ae09235]] - narrower source section: 13.2.6 Mythical Beasts and Magical Beasts / [ Horse ] / 13.2.8 Plants
 - [[sword-world-rpg-complete-edition-section-13-2-6-mythical-beasts-and-magical-beasts-horse-13-3-converting-character-data-to-monster-data-3a448e24]] - narrower source section: 13.2.6 Mythical Beasts and Magical Beasts / [ Horse ] / 13.3 Converting Character Data to Monster Data
 - [[sword-world-rpg-complete-edition-section-13-2-6-mythical-beasts-and-magical-beasts-horse-13-4-representing-special-monsters-with-characte-a07b5e34]] - narrower source section: 13.2.6 Mythical Beasts and Magical Beasts / [ Horse ] / 13.4 Representing Special Monsters with Character Data
-- [[sword-world-rpg-complete-edition-section-13-2-6-mythical-beasts-and-magical-beasts-horse-13-5-monster-level-and-adventurer-level-ee4c9cb3]] - narrower source section: 13.2.6 Mythical Beasts and Magical Beasts / [ Horse ] / 13.5 Monster Level and Adventurer Level
-- [[sword-world-rpg-complete-edition-section-13-2-6-mythical-beasts-and-magical-beasts-horse-13-6-handling-monster-special-abilities-11888df1]] - narrower source section: 13.2.6 Mythical Beasts and Magical Beasts / [ Horse ] / 13.6 Handling Monster Special Abilities
-- [[sword-world-rpg-complete-edition-section-13-2-6-mythical-beasts-and-magical-beasts-giant-wasp-5c5fec17]] - previous source section: 13.2.6 Mythical Beasts and Magical Beasts / [ Giant Wasp ]
 
 ## Statements
 
@@ -1003,28 +985,40 @@ From [[sword-world-rpg-complete-edition]].
 
 **Atoms:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-07781, source-range-0d48087c-07782, source-range-0d48087c-07783, source-range-0d48087c-07784, source-range-0d48087c-07785, source-range-0d48087c-07786, source-range-0d48087c-07787, source-range-0d48087c-07788, source-range-0d48087c-07789, source-range-0d48087c-07790, source-range-0d48087c-07791, source-range-0d48087c-07792))_
 
+<a id="atom-technical-atom-651435f832196bf0"></a>
 > Monster Level=4
 
+<a id="atom-technical-atom-cf87d61794271d66"></a>
 > Rarity=14
 
+<a id="atom-technical-atom-bb2a7d12da167c81"></a>
 > Agility=16
 
+<a id="atom-technical-atom-f8ee5b018e5ee3eb"></a>
 > Movement Speed=30/30 (air)
 
+<a id="atom-technical-atom-39ff81652d02bc0f"></a>
 > Number=One Frequency=Rare
 
+<a id="atom-technical-atom-2447cb823dd75ead"></a>
 > Intellect=None Reaction=Adversarial
 
+<a id="atom-technical-atom-f84cb2f9938f2e8d"></a>
 > Attack Points=Ram:14 (7)
 
+<a id="atom-technical-atom-c0fbfaef8a53cacf"></a>
 > Strike Points=15
 
+<a id="atom-technical-atom-f01f6afc4d451de2"></a>
 > Evasion Points=13 (6) Defense Points=8
 
+<a id="atom-technical-atom-e307fe925939e46e"></a>
 > Life Points/Resistance=30/15 (8)
 
+<a id="atom-technical-atom-8238065edef96c92"></a>
 > Mental Points/Resistance=-/12 (5)
 
+<a id="atom-technical-atom-ecbeaad6b1bdde10"></a>
 > Special Abilities=Normal weapon immunity
 
 ### Technical frame 2: 13.2.6 Mythical Beasts and Magical Beasts / [ Horse ] / 13.3 Converting Character Data to Monster Data
@@ -1035,6 +1029,7 @@ From [[sword-world-rpg-complete-edition]].
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-08647))_
 
+<a id="atom-technical-atom-9147359a7cbeba8a"></a>
 | Critical Target 9 | 0-1 | 2-5 | 6-9 | 10-13 | 14-18 | 19-22 | 23-26 | 27-31 | 32-35 |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | Critical Target 10 | 0-2 | 3-7 | 8-12 | 13-17 | 18-22 | 23-27 | 28-32 | 33-37 | 38-42 |
@@ -1067,6 +1062,7 @@ Converting Character Data to Monster Data
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-08678))_
 
+<a id="atom-technical-atom-f8075dfc72a94c65"></a>
 | Sub-Ability Score | Featherfolk | Merman | Dark Elf | Noble Lizardman | Centaur |
 | --- | --- | --- | --- | --- | --- |
 | A B C D E F G H | 2D 1D+6 2D 2D 1D+3 2D 1D+2 2D+6 | 2D 1D+6 2D 2D 1/2D 2D 2D 1D+6 | 1D+6 1D+6 1D+6 1D+6 1D 1/2D 1D+4 1D+6 | 2D 1D+3 2D 2D 2D 2D+6 2D 2D | 2D 2D 2D 2D 1D+6 1D+6 1D+6 1D |
@@ -1091,6 +1087,7 @@ Monster Level and Adventurer Level
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-08685))_
 
+<a id="atom-technical-atom-a92438eec348fa6b"></a>
 | Level 1-2 | It's no big deal. Just a small problem in a small village |
 | --- | --- |
 | Level 2-4 | A crisis in a small village. Cue the novice adventurers. |

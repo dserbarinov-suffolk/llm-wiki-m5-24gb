@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-13-2-3-youma-dark-elf-42e5064f@4d90465bcb77b08303dd1b75fec9f6d1
+projection_coverage: section-sword-world-rpg-complete-edition-section-13-2-3-youma-dark-elf-42e5064f@2e78ddccba1ef625925ec8a9f9c4db6f
 ---
 
 # 13.2.3 Youma / [ Dark Elf ]
@@ -17,9 +17,14 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-13-2-3-youma-05ea9fd0]] - broader source section: 13.2.3 Youma
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-13-2-3-youma-marshman-9facfc8e]] - previous source section: 13.2.3 Youma / [ Marshman ]
 - [[sword-world-rpg-complete-edition-section-13-2-3-youma-will-o-wisp-694a777b]] - next source section: 13.2.3 Youma / [ Will-O-Wisp ]
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-13-2-3-youma-05ea9fd0]] - broader source section: 13.2.3 Youma
 
 ## Statements
 

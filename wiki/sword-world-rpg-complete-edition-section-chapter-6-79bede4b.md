@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-6-79bede4b@96b5038fdd31e80cd7ce8d7a9af1fbbf
+projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-6-79bede4b@886dc93d91aef0effffebd7e26177e42
 ---
 
 # Chapter 6:
@@ -17,11 +17,16 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
+### Source order
+
+- [[sword-world-rpg-complete-edition-section-chapter-6-6-3-ranger-skill-ae825c0d]] - previous source section: Chapter 6: / 6.3 Ranger Skill
+- [[sword-world-rpg-complete-edition-section-chapter-6-dd443c93]] - next source section: Chapter 6:
+
+### Source structure
+
 - [[sword-world-rpg-complete-edition-section-chapter-6-26ccc185]] - broader source section: Chapter 6:
 - [[sword-world-rpg-complete-edition-section-chapter-6-languages-intelligence-7db828ab]] - narrower source section: Chapter 6: / [ ② Languages [Intelligence]]
 - [[sword-world-rpg-complete-edition-section-chapter-6-sage-skill-c808db17]] - narrower source section: Chapter 6: / Sage Skill
-- [[sword-world-rpg-complete-edition-section-chapter-6-6-3-ranger-skill-ae825c0d]] - previous source section: Chapter 6: / 6.3 Ranger Skill
-- [[sword-world-rpg-complete-edition-section-chapter-6-dd443c93]] - next source section: Chapter 6:
 
 ## Statements by subsection
 
@@ -69,12 +74,14 @@ From [[sword-world-rpg-complete-edition]].
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-04137))_
 
+<a id="atom-technical-atom-898bf60fd5c119cd"></a>
 > If you can read both common and low ancient, you are free to learn subsequent languages.
 
 ### Technical frame 2: Chapter 6: / Sage Skill / [ ③ Astrology [Intelligence] ] (Not retriable)
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-04140))_
 
+<a id="atom-technical-atom-fd20bc4d6ea5ad6a"></a>
 > You can also set a difficulty and ask for a success roll.
 
 ### Technical frame 3: Chapter 6: / Sage Skill / [ ④ Knowledge [Intelligence]] (Not retriable)
@@ -85,6 +92,7 @@ From [[sword-world-rpg-complete-edition]].
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-04145))_
 
+<a id="atom-technical-atom-a20685c4736ef8cd"></a>
 > [Figure] (p.118)
 
 ### Technical frame 4: Chapter 6: / Sage Skill / [ ④ Knowledge [Intelligence]] (Not retriable) / [ ⑤ Research [Intelligence] ] (Not retriable)
@@ -95,4 +103,5 @@ From [[sword-world-rpg-complete-edition]].
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-04149))_
 
+<a id="atom-technical-atom-e8ef604479b73b29"></a>
 > If the research is successful, the sage may make another success roll.

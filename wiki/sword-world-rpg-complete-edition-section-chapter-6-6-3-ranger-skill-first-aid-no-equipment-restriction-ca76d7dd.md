@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-6-6-3-ranger-skill-first-aid-no-equipment-restriction-ca76d7dd@ed047c60494a580cf4fb7cb488ef1a1c
+projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-6-6-3-ranger-skill-first-aid-no-equipment-restriction-ca76d7dd@54c2490cc20048f78f5f7320078de6a1
 ---
 
 # Chapter 6: / 6.3 Ranger Skill / [ ② First-Aid [-] ] (No equipment restriction)
@@ -17,8 +17,13 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-chapter-6-6-3-ranger-skill-ae825c0d]] - broader source section: Chapter 6: / 6.3 Ranger Skill
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-chapter-6-6-3-ranger-skill-footprint-tracking-intelligence-no-equipment-restriction-not-retriabl-bded9019]] - next source section: Chapter 6: / 6.3 Ranger Skill / [ ① Footprint Tracking [Intelligence] ] (No equipment restriction, not retriable)
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-chapter-6-6-3-ranger-skill-ae825c0d]] - broader source section: Chapter 6: / 6.3 Ranger Skill
 
 ## Statements
 

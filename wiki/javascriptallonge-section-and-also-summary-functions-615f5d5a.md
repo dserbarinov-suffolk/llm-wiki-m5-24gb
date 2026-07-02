@@ -4,11 +4,11 @@ page_kind: source
 summary: And also: / Summary / Functions: 15 source-backed entries and 0 atom(s) from raw/javascriptallonge.pdf.
 page_family: section-reference
 sources: raw/javascriptallonge.pdf
-updated: 2026-07-01
+updated: 2026-07-02
 domain: javascriptallonge
 category_path: sources/javascriptallonge/sections
 source_id: javascriptallonge.pdf
-projection_coverage: section-javascriptallonge-section-and-also-summary-functions-615f5d5a@07840cd9598fb745d0be742a241d9968
+projection_coverage: section-javascriptallonge-section-and-also-summary-functions-615f5d5a@e7b430ecafb19f8023777056db2cc342
 ---
 
 # And also: / Summary / Functions
@@ -16,6 +16,8 @@ projection_coverage: section-javascriptallonge-section-and-also-summary-function
 From [[javascriptallonge]].
 
 ## Related pages
+
+### Source structure
 
 - [[javascriptallonge-section-and-also-summary-eea33d30]] - broader source section: And also: / Summary
 

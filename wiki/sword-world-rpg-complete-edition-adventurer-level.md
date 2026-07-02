@@ -7,7 +7,7 @@ sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: concepts
-projection_coverage: topic-sword-world-rpg-complete-edition-adventurer-level@e6362852d0077e6f7a758ecc23381519
+projection_coverage: topic-sword-world-rpg-complete-edition-adventurer-level@3b1d06fa5693dd839eef2e45db6309d7
 ---
 
 # 1.3.3 Adventurer Level
@@ -190,6 +190,7 @@ What [[sword-world-rpg-complete-edition]] covers about 1.3.3 adventurer level:
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-00920))_
 
+<a id="atom-technical-atom-90ca541d47f7bb9b"></a>
 > When you purchase weapons, shields, and armor, write them in the appropriate fields (Table 1-8: Weapons, Table 1-9: Armor, and Table 1-10: Shields).
 
 ### Technical frame 2: Chapter 3: / 3.4.4 Actions You Can Take While Standing Still / Scores Used in Weapon Combat / 【 Damage Reduction 】
@@ -200,6 +201,7 @@ What [[sword-world-rpg-complete-edition]] covers about 1.3.3 adventurer level:
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-01241))_
 
+<a id="atom-technical-atom-1edd5e6b6bc5b84d"></a>
 > damage reduction = adventurer level
 
 ### Technical frame 3: Table 6-1: Climb by Skill
@@ -210,6 +212,7 @@ What [[sword-world-rpg-complete-edition]] covers about 1.3.3 adventurer level:
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-04218))_
 
+<a id="atom-technical-atom-f73f0b2f661b7450"></a>
 ```text
 Table 6-1: Climb by Skill
  using adventurer level + agility bonus as
@@ -244,6 +247,7 @@ Table 6-1: Climb by Skill
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-04697))_
 
+<a id="atom-technical-atom-9b29d78d5ffc7bc3"></a>
 ```text
 Table 10-2: Surprise Attack Check
  included Table 10-2: Surprise Attack
@@ -274,12 +278,22 @@ Table 10-2: Surprise Attack Check
 
 ## Related pages
 
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-1-4-character-creation-1-4-9-filling-out-the-character-sheet-adventurer-level-96712647]] - source section: 1.4 Character Creation / 1.4.9 Filling Out the Character Sheet / [ ⑭ Adventurer Level ] shares source evidence from 1.4 Character Creation / 1.4.9 Filling Out the Character Sheet / [ ⑭ Adventurer Level ]: Once you've acquired your final skills (starting skill and growth via starting experience points), you can determine your adventurer level.; 1.4 Character Creation / 1.4.9 Filling Out the Character Sheet / [ ⑭ Adventurer Level ] shares technical record from 1.4 Character Creation / 1.4.9 Filling Out the Character Sheet / [ ⑭ Adventurer Level ] / [ ⑮ Purchase Equipment]: When you purchase weapons, shields, and armor, write them in the appropriate fields (Table 1-8: Weapons, Table 1-9: Armor, and Table 1-10: Shields). (3 shared statement(s), 1 shared atom(s))
+- [[sword-world-rpg-complete-edition-section-1-2-races-skills-1-3-3-adventurer-level-4dd1e335]] - source section: 1.2 Races / Skills / 1.3.3 Adventurer Level shares source evidence from 1.2 Races / Skills / 1.3.3 Adventurer Level: In Sword World RPG, a character's capability as an adventurer is determined by their adventurer skill level. The highest level among the adventurer skills that a cha ... [truncated] (2 shared statement(s))
+
+### Shared technical atoms
+
 - [[sword-world-rpg-complete-edition-damage-reduction]] - shared statements and technical atoms: 【 Damage Reduction 】 shares source evidence from Chapter 3: / 3.4.4 Actions You Can Take While Standing Still / Scores Used in Weapon Combat / 【 Damage Reduction 】: Those who are called heroes do not die from just a few injuries. In Sword World RPG , a character with a high adventurer level, that is, a character who has a high l ... [truncated]; 【 Damage Reduction 】 shares technical record from Chapter 3: / 3.4.4 Actions You Can Take While Standing Still / Scores Used in Weapon Combat / 【 Damage Reduction 】: damage reduction = adventurer level (7 shared statement(s), 1 shared atom(s))
 - [[sword-world-rpg-complete-edition-thief-skill]] - shared statements and technical atoms: 【 Thief Skill 】 shares source evidence from Chapter 6: / 6.1 Precautions When Using Skills / Thief Skill / [ ⑥ Stealthy Step [Agility] ] (Equipment restriction): At this time, the thief makes a success roll using thief skill + dexterity bonus as the baseline score, and the person trying to hear the sound makes one using adven ... [truncated]; 【 Thief Skill 】 shares technical record from Table 6-1: Climb by Skill: Table 6-1: Climb by Skill using adventurer level + agility bonus as With Rope             Without Rope the baseline score, make a success roll against target score 1 ... [truncated] (6 shared statement(s), 1 shared atom(s))
 - [[sword-world-rpg-complete-edition-attack-monster-character]] - shared statements and technical atoms: Attacks From Monsters Against Characters shares source evidence from Attacks From Monsters Against Characters / 4.6.4 Damage Reduction: Characters can also reduce damage using their adventurer level . The result of your defense roll plus this damage reduction equals the fi nal amount of damage your c ... [truncated]; Attacks From Monsters Against Characters shares technical record from Table 10-2: Surprise Attack Check: Table 10-2: Surprise Attack Check included Table 10-2: Surprise Attack Intelligence                                  Monster    Adventurer Check as a reference. The ... [truncated] (5 shared statement(s), 1 shared atom(s))
 - [[sword-world-rpg-complete-edition-attack-character-monster]] - shared statements and technical atoms: Attacks From Characters Against Monsters shares source evidence from [ Ale (Dose) ] / 《 Types of Poison 》: Those affected by the poison can reduce this damage. For characters, the score is adventurer level, and for monsters, it's monster level. After deducting this score, ... [truncated]; Attacks From Characters Against Monsters shares technical record from Table 10-2: Surprise Attack Check: Table 10-2: Surprise Attack Check included Table 10-2: Surprise Attack Intelligence                                  Monster    Adventurer Check as a reference. The ... [truncated] (3 shared statement(s), 1 shared atom(s))
 - [[sword-world-rpg-complete-edition-filling-character-sheet]] - shared statements and technical atoms: 1.4.9 Filling Out the Character Sheet shares source evidence from 1.4 Character Creation / 1.4.9 Filling Out the Character Sheet / [ ⑭ Adventurer Level ]: Once you've acquired your final skills (starting skill and growth via starting experience points), you can determine your adventurer level.; 1.4.9 Filling Out the Character Sheet shares technical record from 1.4 Character Creation / 1.4.9 Filling Out the Character Sheet / [ ⑭ Adventurer Level ] / [ ⑮ Purchase Equipment]: When you purchase weapons, shields, and armor, write them in the appropriate fields (Table 1-8: Weapons, Table 1-9: Armor, and Table 1-10: Shields). (3 shared statement(s), 1 shared atom(s))
 - [[sword-world-rpg-complete-edition-ranger-skill]] - shared statements and technical atoms: 【 Ranger Skill 】 shares source evidence from 10.3 Surprise Attacks: When encountering a monster, one of you may notice the other without them noticing you, allowing you to perform a surprise attack . This should also be determined by ... [truncated]; 【 Ranger Skill 】 shares technical record from Table 10-2: Surprise Attack Check: Table 10-2: Surprise Attack Check included Table 10-2: Surprise Attack Intelligence                                  Monster    Adventurer Check as a reference. The ... [truncated] (3 shared statement(s), 1 shared atom(s))
+
+### Shared claims
+
 - [[sword-world-rpg-complete-edition-target-score]] - shared statements: Target Scores shares source evidence from 4.9 Unconscious and Death Checks / 4.9.1 Adventurer Death Checks: This check is made using a life force resistance roll . The baseline score is life force resistance (adventurer level + life force bonus) and the target score is 7 . ... [truncated] (10 shared statement(s))
 - [[sword-world-rpg-complete-edition-bonus-damage]] - shared statements: 【 Bonus Damage 】 shares source evidence from 13.2.3 Youma / [ Shade ]: Shade is a spirit of darkness, and also a mind spirit that controls fear. All natural light within 5 meters of its body is canceled out, leaving you in total darknes ... [truncated] (3 shared statement(s))
 - [[sword-world-rpg-complete-edition-dragon-priest-skill]] - shared statements: Dragon Priest Skill shares source evidence from 1.2 Races / Skills / 1.3.3 Adventurer Level: In Sword World RPG, a character's capability as an adventurer is determined by their adventurer skill level. The highest level among the adventurer skills that a cha ... [truncated] (3 shared statement(s))
@@ -288,8 +302,6 @@ Table 10-2: Surprise Attack Check
 - [[sword-world-rpg-complete-edition-underworld-creature]] - shared statements: Underworld Creature shares source evidence from 13.2.6 Mythical Beasts and Magical Beasts / [ Horse ] / 13.2.11 Daemons/Underworld Creatures / [ Hellhound ]: At first glance, the hellhound looks like a large black dog. However, in reality, it' s a terrifying beast from the underworld, also known as the watchdog of Hell. H ... [truncated] (2 shared statement(s))
 - [[sword-world-rpg-complete-edition-13-monster-level]] - shared statements: 13 Monster Level shares source evidence from 13.2.6 Mythical Beasts and Magical Beasts / [ Horse ] / 13.5 Monster Level and Adventurer Level: A monster's monster level is a rough guide to its strength when it appears in a scenario. A monster level's score is basically set so that if it's equal to a charact ... [truncated] (1 shared statement(s))
 - [[sword-world-rpg-complete-edition-jump]] - shared statements: Jump shares source evidence from Chapter 6: / Common Adventurer Abilities / [ ⑤ Long Jump/High Jump [Agility] ]: Long jump and high jump are common adventurer abilities, and are also abilities of the thief skill. The latter allows you to jump farther and higher. The baseline sc ... [truncated] (1 shared statement(s))
-- [[sword-world-rpg-complete-edition-section-1-2-races-skills-1-3-3-adventurer-level-4dd1e335]] - source section: 1.2 Races / Skills / 1.3.3 Adventurer Level shares source evidence from 1.2 Races / Skills / 1.3.3 Adventurer Level: In Sword World RPG, a character's capability as an adventurer is determined by their adventurer skill level. The highest level among the adventurer skills that a cha ... [truncated] (2 shared statement(s))
-- [[sword-world-rpg-complete-edition-section-1-4-character-creation-1-4-9-filling-out-the-character-sheet-adventurer-level-96712647]] - source section: 1.4 Character Creation / 1.4.9 Filling Out the Character Sheet / [ ⑭ Adventurer Level ] shares source evidence from 1.4 Character Creation / 1.4.9 Filling Out the Character Sheet / [ ⑭ Adventurer Level ]: Once you've acquired your final skills (starting skill and growth via starting experience points), you can determine your adventurer level.; 1.4 Character Creation / 1.4.9 Filling Out the Character Sheet / [ ⑭ Adventurer Level ] shares technical record from 1.4 Character Creation / 1.4.9 Filling Out the Character Sheet / [ ⑭ Adventurer Level ] / [ ⑮ Purchase Equipment]: When you purchase weapons, shields, and armor, write them in the appropriate fields (Table 1-8: Weapons, Table 1-9: Armor, and Table 1-10: Shields). (3 shared statement(s), 1 shared atom(s))
 
 ## Source
 

@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-16-faf82038@b65a95308dd8befcd0008df5bff573b9
+projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-16-faf82038@4883fc9e7f611f05f6908c00a351fbd7
 ---
 
 # Chapter 16:
@@ -17,16 +17,21 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-chapter-16-16-1-combat-in-which-monsters-roll-dice-ae771dc9]] - narrower source section: Chapter 16: / 16.1 Combat in Which Monsters Roll Dice
-- [[sword-world-rpg-complete-edition-section-chapter-16-16-2-weapon-and-armor-modifiers-04ec9a3a]] - narrower source section: Chapter 16: / 16.2 Weapon and Armor Modifiers
-- [[sword-world-rpg-complete-edition-section-chapter-16-de7f0512]] - narrower source section: Chapter 16:
-- [[sword-world-rpg-complete-edition-section-chapter-16-16-4-projectile-range-extension-e49b508c]] - narrower source section: Chapter 16: / 16.4 Projectile Range Extension
-- [[sword-world-rpg-complete-edition-section-chapter-16-16-5-combat-options-cdfeb0d1]] - narrower source section: Chapter 16: / 16.5 Combat Options
-- [[sword-world-rpg-complete-edition-section-chapter-16-16-6-holding-weapons-in-both-hands-ef386a94]] - narrower source section: Chapter 16: / 16.6 Holding Weapons in Both Hands
-- [[sword-world-rpg-complete-edition-section-chapter-16-16-6-2-two-handed-attacks-c3cb462a]] - narrower source section: Chapter 16: / 16.6.2 Two-Handed Attacks
-- [[sword-world-rpg-complete-edition-section-chapter-16-16-9-special-weapons-8824e2ed]] - narrower source section: Chapter 16: / 16.9 Special Weapons
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-15-1-four-types-of-experience-points-46385836]] - previous source section: 15.1 Four Types of Experience Points
 - [[sword-world-rpg-complete-edition-section-chapter-17-188c9523]] - next source section: Chapter 17:
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-chapter-16-16-1-combat-in-which-monsters-roll-dice-ae771dc9]] - narrower source section: Chapter 16: / 16.1 Combat in Which Monsters Roll Dice
+- [[sword-world-rpg-complete-edition-section-chapter-16-16-2-weapon-and-armor-modifiers-04ec9a3a]] - narrower source section: Chapter 16: / 16.2 Weapon and Armor Modifiers
+- [[sword-world-rpg-complete-edition-section-chapter-16-16-4-projectile-range-extension-e49b508c]] - narrower source section: Chapter 16: / 16.4 Projectile Range Extension
+- [[sword-world-rpg-complete-edition-section-chapter-16-16-5-combat-options-cdfeb0d1]] - narrower source section: Chapter 16: / 16.5 Combat Options
+- [[sword-world-rpg-complete-edition-section-chapter-16-16-6-2-two-handed-attacks-c3cb462a]] - narrower source section: Chapter 16: / 16.6.2 Two-Handed Attacks
+- [[sword-world-rpg-complete-edition-section-chapter-16-16-6-holding-weapons-in-both-hands-ef386a94]] - narrower source section: Chapter 16: / 16.6 Holding Weapons in Both Hands
+- [[sword-world-rpg-complete-edition-section-chapter-16-16-9-special-weapons-8824e2ed]] - narrower source section: Chapter 16: / 16.9 Special Weapons
+- [[sword-world-rpg-complete-edition-section-chapter-16-de7f0512]] - narrower source section: Chapter 16:
 
 ## Statements by subsection
 
@@ -335,6 +340,7 @@ From [[sword-world-rpg-complete-edition]].
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-10019))_
 
+<a id="atom-technical-atom-a82fe2e505453713"></a>
 > When both sides roll the dice, the range of numbers will expand and the enjoyment can increase.
 
 ### Technical frame 2: Table 16-1 Weapon Optional Rules
@@ -345,6 +351,7 @@ From [[sword-world-rpg-complete-edition]].
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-10045))_
 
+<a id="atom-technical-atom-2e4e68dee50a01bf"></a>
 | differ | in | ease | of | use | and | power. | This | rule | Axes/2H | ±0 | +10 | 11* |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | quantifies weapons used Optional explained | Here by The | the and Weapon is adventurers Rules"). terms below. | armor. a table | finer used | differences Modifiers of weapons ("Table on | 16-1 this | between commonly Weapon table | are | Spears/1H Spears/2H Maces/1H Maces/2H Clubs/1H Staves/2H Flails/1H Flails/2H War Hammer/1H War Hammer/2H Bows Crossbow | -1 ±0 +1 +1 +1 +1 -1 -1 -1 -2 ±0 ±0 | +5 +5 +5 +10 ±0 +5 +5 +10 +5 +15 +5 +10 | 10* 10* 12 12 12 12 10 10 10 10 10* 10* |
@@ -371,6 +378,7 @@ Table 16-1 Weapon Optional Rules
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-10202))_
 
+<a id="atom-technical-atom-debddd5ec163544a"></a>
 | Shield Name | Evasion Speed Mod. | Attack Power Mod. |
 | --- | --- | --- |
 | Small Shields | +1 | ±0 |
@@ -393,6 +401,7 @@ Shield Modifiers
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-10217))_
 
+<a id="atom-technical-atom-00408b892a0a413e"></a>
 ```text
 Table 16-3 Armor Optional Rules
  place that's easy to reach (such as on a
@@ -424,6 +433,7 @@ Table 16-3 Armor Optional Rules
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-10301))_
 
+<a id="atom-technical-atom-6dc1933e62305df2"></a>
 | Dagger | 30 |
 | --- | --- |
 | Hand Ax | 20 + Character's Strength |
@@ -482,6 +492,7 @@ Strong Blow
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-10307))_
 
+<a id="atom-technical-atom-7e463fefde3aca70"></a>
 ```text
 16.5
 Dagger
@@ -556,6 +567,7 @@ Ballista
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-10323))_
 
+<a id="atom-technical-atom-365737d93b2338a7"></a>
 ```text
 Table 16-4 Maximum  Ranges
  20 meters for throwing weapons and 100
@@ -571,6 +583,7 @@ Table 16-4 Maximum  Ranges
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-10356))_
 
+<a id="atom-technical-atom-ccd5afa03cca2293"></a>
 ```text
 1. Normal Attack
 Attack  with  a  dagger,  barehanded (claws, talons),  cestus, etc. If  a monster has  fangs,  it  can  also  bite.  Opponents have a -2 penalty to evasion.
@@ -613,6 +626,7 @@ Ancient magic, spirit magic,  and spellsongs cannot be used.
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-10408))_
 
+<a id="atom-technical-atom-1c4f06a715fb962b"></a>
 ```text
 Throwing Multiple Darts or Daggers
 16.7 Throwing Multiple Darts or Daggers

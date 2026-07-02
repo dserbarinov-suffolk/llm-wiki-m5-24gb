@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-13-2-3-youma-sprite-bda05ea6@8228f818a5c39b95f857d63155f9d7f7
+projection_coverage: section-sword-world-rpg-complete-edition-section-13-2-3-youma-sprite-bda05ea6@797e93cab2629e9ee41b6dd9ada30bde
 ---
 
 # 13.2.3 Youma / [ Sprite ]
@@ -17,9 +17,14 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-13-2-3-youma-05ea9fd0]] - broader source section: 13.2.3 Youma
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-13-2-3-youma-sylph-902e3f9c]] - previous source section: 13.2.3 Youma / [ Sylph ]
 - [[sword-world-rpg-complete-edition-section-13-2-3-youma-gnome-22f3b87b]] - next source section: 13.2.3 Youma / [ Gnome ]
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-13-2-3-youma-05ea9fd0]] - broader source section: 13.2.3 Youma
 
 ## Statements
 

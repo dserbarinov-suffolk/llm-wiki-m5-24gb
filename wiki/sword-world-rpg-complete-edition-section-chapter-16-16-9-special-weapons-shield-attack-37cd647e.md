@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-16-16-9-special-weapons-shield-attack-37cd647e@49b4184052f6ab47b161e7e539bec9c7
+projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-16-16-9-special-weapons-shield-attack-37cd647e@5741f20da9db188e673a1f66821fa010
 ---
 
 # Chapter 16: / 16.9 Special Weapons / Shield Attack
@@ -17,9 +17,14 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-chapter-16-16-9-special-weapons-8824e2ed]] - broader source section: Chapter 16: / 16.9 Special Weapons
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-chapter-16-16-9-special-weapons-whip-net-bola-54c91d2c]] - previous source section: Chapter 16: / 16.9 Special Weapons / Whip, Net, Bola
 - [[sword-world-rpg-complete-edition-section-chapter-16-16-9-special-weapons-cranequin-crossbow-bef1e2b5]] - next source section: Chapter 16: / 16.9 Special Weapons / Cranequin Crossbow
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-chapter-16-16-9-special-weapons-8824e2ed]] - broader source section: Chapter 16: / 16.9 Special Weapons
 
 ## Statements
 
@@ -37,6 +42,7 @@ From [[sword-world-rpg-complete-edition]].
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-10468))_
 
+<a id="atom-technical-atom-2378b7faeb729d51"></a>
 > Even if it's a magic shield, the only bonus damage you get is the usual (fi ghter/thief skill level + strength bonus ).
 
 ### Technical frame 2: Chapter 16: / 16.9 Special Weapons / Shield Attack
@@ -47,4 +53,5 @@ From [[sword-world-rpg-complete-edition]].
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-10469))_
 
+<a id="atom-technical-atom-188eea50c06b300c"></a>
 > If you're a fighter , you can also perform a shield attack as a ram .

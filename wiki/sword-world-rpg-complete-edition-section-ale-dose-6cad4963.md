@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-ale-dose-6cad4963@605e4c07c65cbeb0e04f1457abfc7238
+projection_coverage: section-sword-world-rpg-complete-edition-section-ale-dose-6cad4963@8246737c044f3e5ace072b362d8ff6c8
 ---
 
 # [ Ale (Dose) ]
@@ -17,9 +17,14 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-ale-dose-usage-429f9c27]] - narrower source section: [ Ale (Dose) ] / 《 Usage 》
-- [[sword-world-rpg-complete-edition-section-ale-dose-types-of-poison-8e6cc1f2]] - narrower source section: [ Ale (Dose) ] / 《 Types of Poison 》
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-chapter-12-various-checks-edfd01f0]] - previous source section: Chapter 12: Various Checks
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-ale-dose-types-of-poison-8e6cc1f2]] - narrower source section: [ Ale (Dose) ] / 《 Types of Poison 》
+- [[sword-world-rpg-complete-edition-section-ale-dose-usage-429f9c27]] - narrower source section: [ Ale (Dose) ] / 《 Usage 》
 
 ## Statements
 

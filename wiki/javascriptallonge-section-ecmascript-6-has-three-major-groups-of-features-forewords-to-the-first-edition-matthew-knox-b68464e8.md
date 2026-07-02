@@ -4,11 +4,11 @@ page_kind: source
 summary: ECMAScript 6 has three major groups of features: / Forewords to the First Edition / matthew knox: 1 source-backed entries and 1 atom(s) from raw/javascriptallonge.pdf.
 page_family: section-reference
 sources: raw/javascriptallonge.pdf
-updated: 2026-07-01
+updated: 2026-07-02
 domain: javascriptallonge
 category_path: sources/javascriptallonge/sections
 source_id: javascriptallonge.pdf
-projection_coverage: section-javascriptallonge-section-ecmascript-6-has-three-major-groups-of-features-forewords-to-the-first-edition-matthew-knox-b68464e8@23f01f8ef12f9b993b41efae87886e92
+projection_coverage: section-javascriptallonge-section-ecmascript-6-has-three-major-groups-of-features-forewords-to-the-first-edition-matthew-knox-b68464e8@606ce5c8f21b6c068c3a5de195b6b26b
 ---
 
 # ECMAScript 6 has three major groups of features: / Forewords to the First Edition / matthew knox
@@ -17,8 +17,13 @@ From [[javascriptallonge]].
 
 ## Related pages
 
-- [[javascriptallonge-section-ecmascript-6-has-three-major-groups-of-features-forewords-to-the-first-edition-822b044c]] - broader source section: ECMAScript 6 has three major groups of features: / Forewords to the First Edition
+### Source order
+
 - [[javascriptallonge-section-ecmascript-6-has-three-major-groups-of-features-forewords-to-the-first-edition-michael-fogus-8e7f4f15]] - previous source section: ECMAScript 6 has three major groups of features: / Forewords to the First Edition / michael fogus
+
+### Source structure
+
+- [[javascriptallonge-section-ecmascript-6-has-three-major-groups-of-features-forewords-to-the-first-edition-822b044c]] - broader source section: ECMAScript 6 has three major groups of features: / Forewords to the First Edition
 
 ## Technical atoms
 
@@ -26,6 +31,7 @@ From [[javascriptallonge]].
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00093))_
 
+<a id="atom-technical-atom-5b4deb9766edbcd4"></a>
 ```text
 matthew knox
 A different kind of language requires a different kind of book.

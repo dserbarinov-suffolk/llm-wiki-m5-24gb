@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-sample-magic-details-5-1-11-ancient-magic-and-the-sorcerer-skill-6106c3bd@ac74a31a9f480bcd72594ea54c1c1cb5
+projection_coverage: section-sword-world-rpg-complete-edition-section-sample-magic-details-5-1-11-ancient-magic-and-the-sorcerer-skill-6106c3bd@aa490260c46d0d2e64c25212ee95da67
 ---
 
 # [Sample Magic Details] / 5.1.11 Ancient Magic and the Sorcerer Skill
@@ -17,9 +17,14 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-sample-magic-details-cbfd0ab1]] - broader source section: [Sample Magic Details]
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-sample-magic-details-resist-45929b6d]] - previous source section: [Sample Magic Details] / 《 Resist 》
 - [[sword-world-rpg-complete-edition-section-sample-magic-details-high-ancient-3f3964e5]] - next source section: [Sample Magic Details] / 《 High Ancient 》
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-sample-magic-details-cbfd0ab1]] - broader source section: [Sample Magic Details]
 
 ## Statements
 
@@ -41,4 +46,5 @@ From [[sword-world-rpg-complete-edition]].
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-01863))_
 
+<a id="atom-technical-atom-1aa81bc507885ddc"></a>
 > [Figure] (p.66)

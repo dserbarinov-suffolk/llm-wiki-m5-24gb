@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-sample-magic-details-area-6a47f6c1@b0d735c1485f95ff1034a8bf7bcd5d5b
+projection_coverage: section-sword-world-rpg-complete-edition-section-sample-magic-details-area-6a47f6c1@e342480d1bfb22a6196af3f4b0af36b9
 ---
 
 # [Sample Magic Details] / 《 Area 》
@@ -17,9 +17,14 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-sample-magic-details-cbfd0ab1]] - broader source section: [Sample Magic Details]
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-sample-magic-details-distance-1d9bb1b3]] - previous source section: [Sample Magic Details] / 《 Distance 》
 - [[sword-world-rpg-complete-edition-section-sample-magic-details-duration-b6d63625]] - next source section: [Sample Magic Details] / 《 Duration 》
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-sample-magic-details-cbfd0ab1]] - broader source section: [Sample Magic Details]
 
 ## Statements
 

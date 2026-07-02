@@ -4,11 +4,11 @@ page_kind: source
 summary: Interlude: The Carpenter Interviews for a Job: 51 source-backed entries and 1 atom(s) from raw/javascriptallonge.pdf.
 page_family: section-reference
 sources: raw/javascriptallonge.pdf
-updated: 2026-07-01
+updated: 2026-07-02
 domain: javascriptallonge
 category_path: sources/javascriptallonge/sections
 source_id: javascriptallonge.pdf
-projection_coverage: section-javascriptallonge-section-interlude-the-carpenter-interviews-for-a-job-2e3e33f6@41567538d4169b333e1f36388f64b4a6
+projection_coverage: section-javascriptallonge-section-interlude-the-carpenter-interviews-for-a-job-2e3e33f6@b59600bf1d142cdaed9da8368782d172
 ---
 
 # Interlude: The Carpenter Interviews for a Job
@@ -17,12 +17,17 @@ From [[javascriptallonge]].
 
 ## Related pages
 
-- [[javascriptallonge-section-interlude-the-carpenter-interviews-for-a-job-the-problem-010bfba1]] - narrower source section: Interlude: The Carpenter Interviews for a Job / the problem
-- [[javascriptallonge-section-interlude-the-carpenter-interviews-for-a-job-the-carpenter-s-solution-b3771f17]] - narrower source section: Interlude: The Carpenter Interviews for a Job / the carpenter's solution
-- [[javascriptallonge-section-interlude-the-carpenter-interviews-for-a-job-the-aftermath-cd68ddb6]] - narrower source section: Interlude: The Carpenter Interviews for a Job / the aftermath
-- [[javascriptallonge-section-interlude-the-carpenter-interviews-for-a-job-after-another-drink-a995f2e4]] - narrower source section: Interlude: The Carpenter Interviews for a Job / after another drink
+### Source order
+
 - [[javascriptallonge-section-lazy-and-eager-collections-60e3645a]] - previous source section: Lazy and Eager Collections
 - [[javascriptallonge-section-interactive-generators-a0db0ac4]] - next source section: Interactive Generators
+
+### Source structure
+
+- [[javascriptallonge-section-interlude-the-carpenter-interviews-for-a-job-after-another-drink-a995f2e4]] - narrower source section: Interlude: The Carpenter Interviews for a Job / after another drink
+- [[javascriptallonge-section-interlude-the-carpenter-interviews-for-a-job-the-aftermath-cd68ddb6]] - narrower source section: Interlude: The Carpenter Interviews for a Job / the aftermath
+- [[javascriptallonge-section-interlude-the-carpenter-interviews-for-a-job-the-carpenter-s-solution-b3771f17]] - narrower source section: Interlude: The Carpenter Interviews for a Job / the carpenter's solution
+- [[javascriptallonge-section-interlude-the-carpenter-interviews-for-a-job-the-problem-010bfba1]] - narrower source section: Interlude: The Carpenter Interviews for a Job / the problem
 
 ## Statements by subsection
 
@@ -75,6 +80,7 @@ From [[javascriptallonge]].
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01821))_
 
+<a id="atom-technical-atom-808959651f782b5e"></a>
 ```text
 95 http://babeljs.io
 96 http://www.es6fiddle.net

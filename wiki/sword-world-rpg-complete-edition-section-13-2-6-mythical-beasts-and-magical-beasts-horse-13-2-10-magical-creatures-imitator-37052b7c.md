@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-13-2-6-mythical-beasts-and-magical-beasts-horse-13-2-10-magical-creatures-imitator-37052b7c@bd1ef04b91b37b6ed93fdd87813882ec
+projection_coverage: section-sword-world-rpg-complete-edition-section-13-2-6-mythical-beasts-and-magical-beasts-horse-13-2-10-magical-creatures-imitator-37052b7c@1cc652b3973931551928be39157e10fb
 ---
 
 # 13.2.6 Mythical Beasts and Magical Beasts / [ Horse ] / 13.2.10 Magical Creatures / [ Imitator ]
@@ -17,9 +17,14 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-13-2-6-mythical-beasts-and-magical-beasts-horse-13-2-10-magical-creatures-0e88a6a0]] - broader source section: 13.2.6 Mythical Beasts and Magical Beasts / [ Horse ] / 13.2.10 Magical Creatures
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-13-2-6-mythical-beasts-and-magical-beasts-horse-13-2-10-magical-creatures-puppet-golem-1c56df99]] - previous source section: 13.2.6 Mythical Beasts and Magical Beasts / [ Horse ] / 13.2.10 Magical Creatures / [ Puppet Golem ]
 - [[sword-world-rpg-complete-edition-section-13-2-6-mythical-beasts-and-magical-beasts-horse-13-2-10-magical-creatures-obsidian-dog-7a3b0c49]] - next source section: 13.2.6 Mythical Beasts and Magical Beasts / [ Horse ] / 13.2.10 Magical Creatures / [ Obsidian Dog ]
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-13-2-6-mythical-beasts-and-magical-beasts-horse-13-2-10-magical-creatures-0e88a6a0]] - broader source section: 13.2.6 Mythical Beasts and Magical Beasts / [ Horse ] / 13.2.10 Magical Creatures
 
 ## Statements
 
@@ -56,30 +61,43 @@ From [[sword-world-rpg-complete-edition]].
 
 **Atoms:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-08009, source-range-0d48087c-08010, source-range-0d48087c-08011, source-range-0d48087c-08012, source-range-0d48087c-08013, source-range-0d48087c-08014, source-range-0d48087c-08015, source-range-0d48087c-08016, source-range-0d48087c-08017, source-range-0d48087c-08018, source-range-0d48087c-08019, source-range-0d48087c-08020, source-range-0d48087c-08021))_
 
+<a id="atom-technical-atom-f61d958b550a2b4d"></a>
 > Monster Level=2
 
+<a id="atom-technical-atom-f2a83d6b63ab44a6"></a>
 > Rarity=13
 
+<a id="atom-technical-atom-43fa30465ee61eff"></a>
 > Agility=10
 
+<a id="atom-technical-atom-e669ee884eb6d657"></a>
 > Number=One Movement Speed=10
 
+<a id="atom-technical-atom-411cd11e674572e6"></a>
 > Frequency=Moderate
 
+<a id="atom-technical-atom-577082660a5a9b6d"></a>
 > Intellect= Almost none Reaction=Violent
 
+<a id="atom-technical-atom-afa161d627aae7bb"></a>
 > Attack Points=Arms:10 (3)
 
+<a id="atom-technical-atom-4c95d8e310b9e68b"></a>
 > Strike Points=4
 
+<a id="atom-technical-atom-6362133858224d39"></a>
 > Evasion Points=10 (3) Defense Points=6
 
+<a id="atom-technical-atom-432522cb11b11e41"></a>
 > Life Points/Resistance=8/9 (2)
 
+<a id="atom-technical-atom-af43f6dea68dfe8c"></a>
 > Mental Points/Resistance=-/10 (3)
 
+<a id="atom-technical-atom-59c0030f05ce04f8"></a>
 > Special Abilities=Camouflage (Sense target
 
+<a id="atom-technical-atom-38925803305cc63f"></a>
 > score=16)
 
 ### Technical frame 2: 13.2.6 Mythical Beasts and Magical Beasts / [ Horse ] / 13.2.10 Magical Creatures / [ Imitator ]
@@ -90,28 +108,41 @@ From [[sword-world-rpg-complete-edition]].
 
 **Atoms:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-08049, source-range-0d48087c-08050, source-range-0d48087c-08051, source-range-0d48087c-08052, source-range-0d48087c-08053, source-range-0d48087c-08054, source-range-0d48087c-08055, source-range-0d48087c-08056, source-range-0d48087c-08057, source-range-0d48087c-08058, source-range-0d48087c-08059, source-range-0d48087c-08060, source-range-0d48087c-08061))_
 
+<a id="atom-technical-atom-69f55b98b9587c9b"></a>
 > Monster Level=5
 
+<a id="atom-technical-atom-20a5a7dc7c35151c"></a>
 > Rarity=13
 
+<a id="atom-technical-atom-ab357178cd29532c"></a>
 > Agility=10
 
+<a id="atom-technical-atom-7dcffc414d9a1779"></a>
 > Movement Speed=10
 
+<a id="atom-technical-atom-a2432b290990bed7"></a>
 > Number=One
 
+<a id="atom-technical-atom-c96ad3c562dd3116"></a>
 > Frequency=Rare
 
+<a id="atom-technical-atom-5e2ae0fb545c0f70"></a>
 > Intellect=Almost none Reaction=Violent
 
+<a id="atom-technical-atom-075e352bda0f9e70"></a>
 > Attack Points=Arms:13 (6)
 
+<a id="atom-technical-atom-c09a725f0f5682b0"></a>
 > Strike Points=13
 
+<a id="atom-technical-atom-33358f35f5f15bb8"></a>
 > Strike Points=11 (4) Defense Points=9
 
+<a id="atom-technical-atom-94aed720974ff35f"></a>
 > Life Points/Resistance=24/15 (8)
 
+<a id="atom-technical-atom-ca1bf4369cfd5655"></a>
 > Mental Points/Resistance=-/13 (6)
 
+<a id="atom-technical-atom-bd0ae036b1e2c97e"></a>
 > Special Abilities=Camouflage (Sense target score=16)

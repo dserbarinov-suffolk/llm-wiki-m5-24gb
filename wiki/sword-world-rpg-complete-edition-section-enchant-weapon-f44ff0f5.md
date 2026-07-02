@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-enchant-weapon-f44ff0f5@216713f7c6d0e4b855b5786431844c06
+projection_coverage: section-sword-world-rpg-complete-edition-section-enchant-weapon-f44ff0f5@a044871ba721ea9c579e8e5accd96669
 ---
 
 # [ Enchant Weapon ]
@@ -16,6 +16,8 @@ projection_coverage: section-sword-world-rpg-complete-edition-section-enchant-we
 From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
+
+### Source order
 
 - [[sword-world-rpg-complete-edition-section-energy-bolt-4700b080]] - previous source section: [ Energy Bolt ]
 - [[sword-world-rpg-complete-edition-section-5-1-12-ancient-magic-list-2e59bfee]] - next source section: 5.1.12 Ancient Magic List

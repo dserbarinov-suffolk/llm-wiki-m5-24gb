@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-5-1-12-ancient-magic-list-suppress-elemental-778770d6@d14db380a470c19b726f479112cb72ee
+projection_coverage: section-sword-world-rpg-complete-edition-section-5-1-12-ancient-magic-list-suppress-elemental-778770d6@c0ba6e915f5184379f041641656d5e63
 ---
 
 # 5.1.12 Ancient Magic List / [ Suppress Elemental ]
@@ -17,9 +17,14 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-5-1-12-ancient-magic-list-2e59bfee]] - broader source section: 5.1.12 Ancient Magic List
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-5-1-12-ancient-magic-list-illusion-6c1fcda0]] - previous source section: 5.1.12 Ancient Magic List / [ Illusion ]
 - [[sword-world-rpg-complete-edition-section-5-1-12-ancient-magic-list-skeleton-warrior-5573e2d4]] - next source section: 5.1.12 Ancient Magic List / [ Skeleton Warrior ]
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-5-1-12-ancient-magic-list-2e59bfee]] - broader source section: 5.1.12 Ancient Magic List
 
 ## Statements
 

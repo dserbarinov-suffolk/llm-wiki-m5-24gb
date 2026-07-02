@@ -4,11 +4,11 @@ page_kind: source
 summary: And also:: 439 source-backed entries and 131 atom(s) from raw/javascriptallonge.pdf.
 page_family: section-reference
 sources: raw/javascriptallonge.pdf
-updated: 2026-07-01
+updated: 2026-07-02
 domain: javascriptallonge
 category_path: sources/javascriptallonge/sections
 source_id: javascriptallonge.pdf
-projection_coverage: section-javascriptallonge-section-and-also-0e29dfba@2aa09611467ec68fbf5d1f8b29230791
+projection_coverage: section-javascriptallonge-section-and-also-0e29dfba@f244bc1f074f16c56cbc5073cef888f9
 ---
 
 # And also:
@@ -17,19 +17,21 @@ From [[javascriptallonge]].
 
 ## Related pages
 
-- [[javascriptallonge-section-and-also-functions-that-evaluate-to-functions-354b2284]] - narrower source section: And also: / functions that evaluate to functions
-- [[javascriptallonge-section-and-also-ah-i-d-like-to-have-an-argument-please-22-1153c61b]] - narrower source section: And also: / Ah. I'd Like to Have an Argument, Please. 22
-- [[javascriptallonge-section-and-also-variables-and-bindings-baf19230]] - narrower source section: And also: / variables and bindings
-- [[javascriptallonge-section-and-also-call-by-sharing-db439a98]] - narrower source section: And also: / call by sharing
-- [[javascriptallonge-section-and-also-closures-and-scope-ff45d11c]] - narrower source section: And also: / Closures and Scope
-- [[javascriptallonge-section-and-also-that-constant-coffee-craving-ac9d9918]] - narrower source section: And also: / That Constant Coffee Craving
-- [[javascriptallonge-section-and-also-naming-functions-cae91ee1]] - narrower source section: And also: / Naming Functions
-- [[javascriptallonge-section-and-also-combinators-and-function-decorators-4a7771ac]] - narrower source section: And also: / Combinators and Function Decorators
-- [[javascriptallonge-section-and-also-building-blocks-d30b6215]] - narrower source section: And also: / Building Blocks
-- [[javascriptallonge-section-and-also-magic-names-9b4fa0d7]] - narrower source section: And also: / Magic Names
-- [[javascriptallonge-section-and-also-summary-eea33d30]] - narrower source section: And also: / Summary
+### Source order
+
 - [[javascriptallonge-section-or-even-bc497226]] - previous source section: Or even:
 - [[javascriptallonge-section-recipes-with-basic-functions-58df4c63]] - next source section: Recipes with Basic Functions
+
+### Source structure
+
+- [[javascriptallonge-section-and-also-ah-i-d-like-to-have-an-argument-please-22-1153c61b]] - narrower source section: And also: / Ah. I'd Like to Have an Argument, Please. 22
+- [[javascriptallonge-section-and-also-building-blocks-d30b6215]] - narrower source section: And also: / Building Blocks
+- [[javascriptallonge-section-and-also-call-by-sharing-db439a98]] - narrower source section: And also: / call by sharing
+- [[javascriptallonge-section-and-also-closures-and-scope-ff45d11c]] - narrower source section: And also: / Closures and Scope
+- [[javascriptallonge-section-and-also-combinators-and-function-decorators-4a7771ac]] - narrower source section: And also: / Combinators and Function Decorators
+- [[javascriptallonge-section-and-also-functions-that-evaluate-to-functions-354b2284]] - narrower source section: And also: / functions that evaluate to functions
+- [[javascriptallonge-section-and-also-magic-names-9b4fa0d7]] - narrower source section: And also: / Magic Names
+- [[javascriptallonge-section-and-also-naming-functions-cae91ee1]] - narrower source section: And also: / Naming Functions
 
 ## Statements
 
@@ -363,6 +365,7 @@ From [[javascriptallonge]].
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00248))_
 
+<a id="atom-technical-atom-eaa40230b336a5f9"></a>
 ```
 (() => {
 return 1 + 1;
@@ -375,12 +378,14 @@ return 1 + 1;
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00249))_
 
+<a id="atom-technical-atom-f79044d2c3b6b275"></a>
 > The return statement is the first statement we've seen, and it behaves differently than an expression. For example, you can't use one as the expression in a simple function, because it isn't an expression:
 
 ### Technical frame 3: And also:
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00250))_
 
+<a id="atom-technical-atom-7b2b13d6d793a955"></a>
 ```
 (() => return 0)()
 //=> ERROR
@@ -394,6 +399,7 @@ return 1 + 1;
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00253))_
 
+<a id="atom-technical-atom-0d39a295d936690f"></a>
 > If an expression that evaluates to a function is, well, an expression, and if a return statement can have any expression on its right side… Can we put an expression that evaluates to a function on the right side of a function expression?
 
 ### Technical frame 5: And also: / functions that evaluate to functions
@@ -404,6 +410,7 @@ return 1 + 1;
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00255))_
 
+<a id="atom-technical-atom-47a7f7dea3f6eca4"></a>
 ```
 () => () => 0
 ```
@@ -416,6 +423,7 @@ return 1 + 1;
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00257))_
 
+<a id="atom-technical-atom-b6b20d5a41ace1b5"></a>
 ```
 () => () => true
 ```
@@ -428,6 +436,7 @@ return 1 + 1;
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00259))_
 
+<a id="atom-technical-atom-8de14c5c17385733"></a>
 ```
 (() => () => true)()()
 //=> true
@@ -441,6 +450,7 @@ return 1 + 1;
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00261))_
 
+<a id="atom-technical-atom-8302c187019302e7"></a>
 ```
 () => () => { return true; }
 ```
@@ -453,6 +463,7 @@ return 1 + 1;
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00268))_
 
+<a id="atom-technical-atom-ef664eb8389ed729"></a>
 ```
 (room) => {}
 ```
@@ -465,6 +476,7 @@ return 1 + 1;
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00270))_
 
+<a id="atom-technical-atom-6f0fe876fd13afb4"></a>
 ```
 (room, board) => {}
 ```
@@ -477,6 +489,7 @@ return 1 + 1;
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00272))_
 
+<a id="atom-technical-atom-558c391e496c3b03"></a>
 ```
 (diameter) => diameter * 3.14159265
 ```
@@ -489,6 +502,7 @@ return 1 + 1;
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00275))_
 
+<a id="atom-technical-atom-d086e545955f2b4c"></a>
 ```
 ((diameter) => diameter * 3.14159265)(2)
 //=> 6.2831853
@@ -502,6 +516,7 @@ return 1 + 1;
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00278))_
 
+<a id="atom-technical-atom-25b780f159468a10"></a>
 ```
 ((room, board) => room + board)(800, 150)
 //=> 950
@@ -515,6 +530,7 @@ return 1 + 1;
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00279))_
 
+<a id="atom-technical-atom-0de2a2ad21a2e7c2"></a>
 > [Figure] (p.40)
 
 ### Technical frame 15: And also: / Ah. I'd Like to Have an Argument, Please. 22 / call by value
@@ -525,6 +541,7 @@ return 1 + 1;
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00289))_
 
+<a id="atom-technical-atom-698bd3e19076f3c0"></a>
 ```
 ((diameter) => diameter * 3.14159265)(1 + 1)
 //=> 6.2831853
@@ -538,6 +555,7 @@ return 1 + 1;
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00294))_
 
+<a id="atom-technical-atom-56a0062ccd1c98c9"></a>
 ```
 (x) => (y) => x
 ```
@@ -550,6 +568,7 @@ return 1 + 1;
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00301))_
 
+<a id="atom-technical-atom-c16cf6005d6a99db"></a>
 ```
 ((x) => x)(2)
 //=> 2
@@ -563,6 +582,7 @@ return 1 + 1;
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00305))_
 
+<a id="atom-technical-atom-57a8b5ffffec909b"></a>
 > - One sub-expression, (x) => x evaluates to a function.
 
 ### Technical frame 19: And also: / call by sharing
@@ -573,6 +593,7 @@ return 1 + 1;
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00317))_
 
+<a id="atom-technical-atom-4f22dae2573b7c9c"></a>
 > So JavaScript can make as many copies of strings, numbers, or booleans as it wishes.
 
 ### Technical frame 20: And also: / call by sharing
@@ -583,6 +604,7 @@ return 1 + 1;
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00322))_
 
+<a id="atom-technical-atom-f9cb510c71c3bcdb"></a>
 ```
 (value) =>
 ((ref1, ref2) => ref1 === ref2)(value, value)
@@ -596,6 +618,7 @@ return 1 + 1;
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00326))_
 
+<a id="atom-technical-atom-482593ad18295e4d"></a>
 ```
 ((x) => (y) => x)(1)(2)
 //=> 1
@@ -609,6 +632,7 @@ return 1 + 1;
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00328))_
 
+<a id="atom-technical-atom-77bdcdbcf6465b1a"></a>
 ```
 ((x) => (y) => x)(1)
 //=> [Function]
@@ -622,6 +646,7 @@ return 1 + 1;
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00330))_
 
+<a id="atom-technical-atom-92db49b5efba9c89"></a>
 ```
 (y) => x
 ```
@@ -634,6 +659,7 @@ return 1 + 1;
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00332))_
 
+<a id="atom-technical-atom-74b3f74446fea422"></a>
 ```
 ((y) => x)(2)
 ```
@@ -646,6 +672,7 @@ return 1 + 1;
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00335))_
 
+<a id="atom-technical-atom-90ec51f7820209bd"></a>
 ```
 lambda { |x|
 lambda { |y| x }
@@ -661,6 +688,7 @@ lambda { |y| x }
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00345))_
 
+<a id="atom-technical-atom-e32e1b6c17bb3ec8"></a>
 > [Figure] (p.45)
 
 ### Technical frame 27: And also: / Closures and Scope / if functions without free variables are pure, are closures impure?
@@ -671,6 +699,7 @@ lambda { |y| x }
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00346))_
 
+<a id="atom-technical-atom-e40f9d634f430538"></a>
 > If pure functions can contain closures, can a closure contain a pure function?
 
 ### Technical frame 28: And also: / Closures and Scope / it's always the environment
@@ -681,6 +710,7 @@ lambda { |y| x }
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00351))_
 
+<a id="atom-technical-atom-f2f36581d048455a"></a>
 > So whenever a function is applied to arguments, its environment always has a reference to its parent environment.
 
 ### Technical frame 29: And also: / Closures and Scope / it's always the environment
@@ -691,6 +721,7 @@ lambda { |y| x }
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00355))_
 
+<a id="atom-technical-atom-aa15d9cc8debfd53"></a>
 ```
 bh
 ```
@@ -703,6 +734,7 @@ bh
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00357))_
 
+<a id="atom-technical-atom-0b2e6939e02f226c"></a>
 ```
 (x) =>
 (y) =>
@@ -717,6 +749,7 @@ bh
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00359))_
 
+<a id="atom-technical-atom-ed81aab62f6b0a9f"></a>
 ```
 (x, y, z) => x + y + z
 ```
@@ -729,6 +762,7 @@ bh
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00362))_
 
+<a id="atom-technical-atom-ea4e89d1d181d9c9"></a>
 ```
 ah
 bh
@@ -742,6 +776,7 @@ bh
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00367))_
 
+<a id="atom-technical-atom-ee25e18f1a8be511"></a>
 ```
 (x) =>
 (x, y) => x + y
@@ -755,6 +790,7 @@ bh
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00369))_
 
+<a id="atom-technical-atom-948f85ac003d9fa2"></a>
 ```
 (x) =>
 (x, y) =>
@@ -771,6 +807,7 @@ x + y + z
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00376))_
 
+<a id="atom-technical-atom-89e95093a7ef1f18"></a>
 > If you don't want your code to operate directly within the global environment, what can you do?
 
 ### Technical frame 36: And also: / Closures and Scope / which came first, the chicken or the egg?
@@ -781,6 +818,7 @@ x + y + z
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00377))_
 
+<a id="atom-technical-atom-36c5b991a80956ba"></a>
 ```
 // top of the file
 (() => {
@@ -797,6 +835,7 @@ x + y + z
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00381))_
 
+<a id="atom-technical-atom-dfebd66a2f067470"></a>
 > There are other ways to name things in JavaScript, but before we learn some of those, let's see how to use what we already have to name things. Let's revisit a very simple example:
 
 ### Technical frame 38: And also: / That Constant Coffee Craving
@@ -807,6 +846,7 @@ x + y + z
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00384))_
 
+<a id="atom-technical-atom-d9a852cd6bb0fca3"></a>
 ```
 ((PI) =>
 // ????
@@ -821,6 +861,7 @@ x + y + z
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00386))_
 
+<a id="atom-technical-atom-357d7006c12cdde2"></a>
 ```
 ((PI) =>
 (diameter) => diameter * PI
@@ -835,6 +876,7 @@ x + y + z
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00390))_
 
+<a id="atom-technical-atom-2d89f5fc27af699d"></a>
 ```
 ((diameter) => diameter * 3.14159265)(2)
 //=> 6.2831853
@@ -852,6 +894,7 @@ x + y + z
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00394))_
 
+<a id="atom-technical-atom-5867db6f7f79d9da"></a>
 ```
 (diameter) =>
 ((PI) =>
@@ -866,6 +909,7 @@ diameter * PI)(3.14159265)
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00396))_
 
+<a id="atom-technical-atom-09bf555aa2e0fb26"></a>
 ```
 ((diameter) => diameter * 3.14159265)(2)
 //=> 6.2831853
@@ -887,6 +931,7 @@ diameter * PI)(3.14159265))(2)
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00400))_
 
+<a id="atom-technical-atom-f2e6dafd6f91a28c"></a>
 ```
 (diameter) =>
 // ...
@@ -900,6 +945,7 @@ diameter * PI)(3.14159265))(2)
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00402))_
 
+<a id="atom-technical-atom-0c40c9b382ee72c0"></a>
 ```
 ((PI) =>
 // ...
@@ -914,6 +960,7 @@ diameter * PI)(3.14159265))(2)
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00404))_
 
+<a id="atom-technical-atom-6f0bfcee49fb199b"></a>
 ```
 (diameter) =>
 ((PI) =>
@@ -928,6 +975,7 @@ diameter * PI)(3.14159265)
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00406))_
 
+<a id="atom-technical-atom-e8f5bc351ab8dc86"></a>
 ```
 ((PI) =>
 (diameter) => diameter * PI
@@ -942,6 +990,7 @@ diameter * PI)(3.14159265)
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00411))_
 
+<a id="atom-technical-atom-099900050495c781"></a>
 ```
 (diameter, PI) => diameter * PI
 ```
@@ -954,6 +1003,7 @@ diameter * PI)(3.14159265)
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00413))_
 
+<a id="atom-technical-atom-33dd473b56661e4e"></a>
 ```
 ((diameter, PI) => diameter * PI)(2, 3.14159265)
 //=> 6.2831853
@@ -967,6 +1017,7 @@ diameter * PI)(3.14159265)
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00416))_
 
+<a id="atom-technical-atom-68b753908d337989"></a>
 ```
 (diameter) => {
 const PI = 3.14159265;
@@ -982,6 +1033,7 @@ return diameter * PI
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00420))_
 
+<a id="atom-technical-atom-6017e45bf5f324b1"></a>
 ```
 ((diameter) =>
 ((PI) =>
@@ -995,6 +1047,7 @@ return diameter * PI
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00421))_
 
+<a id="atom-technical-atom-f4a4fb5364c165b1"></a>
 ```
 diameter * PI)(3.14159265))(2)
 Or:
@@ -1009,6 +1062,7 @@ Or:
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00422))_
 
+<a id="atom-technical-atom-ff80aeee187de369"></a>
 ```
 //=> 6.2831853
 ```
@@ -1021,6 +1075,7 @@ Or:
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00424))_
 
+<a id="atom-technical-atom-8c6a20676ca22bc4"></a>
 ```
 ((diameter) => {
 const PI = 3.14159265;
@@ -1037,6 +1092,7 @@ return diameter * PI
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00426))_
 
+<a id="atom-technical-atom-21caf88c6af4269f"></a>
 ```
 (d) => {
 const calc = (diameter) => {
@@ -1055,6 +1111,7 @@ return "The circumference is " + calc(d)
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00427))_
 
+<a id="atom-technical-atom-07458faecbca866e"></a>
 > This underscores what we've said: if we have an expression that evaluates to a function, we apply it with () .
 
 ### Technical frame 56: And also: / That Constant Coffee Craving / const
@@ -1065,6 +1122,7 @@ return "The circumference is " + calc(d)
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00430))_
 
+<a id="atom-technical-atom-bf575b013f590d4e"></a>
 ```
 (d) => {
 const PI
@@ -1082,6 +1140,7 @@ return "The circumference is " + calc(d)
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00433))_
 
+<a id="atom-technical-atom-f31474bc0c555250"></a>
 > One of the places you can find blocks is in an if statement.
 
 ### Technical frame 58: And also: / That Constant Coffee Craving / nested blocks
@@ -1092,6 +1151,7 @@ return "The circumference is " + calc(d)
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00434))_
 
+<a id="atom-technical-atom-813af9924af2ee84"></a>
 ```
 (n) => {
 const even = (x) => {
@@ -1112,6 +1172,7 @@ return even(n)
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00436))_
 
+<a id="atom-technical-atom-528d6f44cc266b86"></a>
 ```
 ((n) => {
 const even = (x) => {
@@ -1133,6 +1194,7 @@ return even(n)
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00438))_
 
+<a id="atom-technical-atom-1b3bb52352723ac1"></a>
 ```
 (n) => {
 const even = (x) => {
@@ -1152,6 +1214,7 @@ return odd(x - 1);
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00439))_
 
+<a id="atom-technical-atom-1ec59ee6e5737160"></a>
 ```
 }
 return even(n)
@@ -1178,6 +1241,7 @@ return even(n)
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00440))_
 
+<a id="atom-technical-atom-48d0846cdae20744"></a>
 ```
 //=> true
 ```
@@ -1190,6 +1254,7 @@ return even(n)
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00446))_
 
+<a id="atom-technical-atom-af0ad07cf8224fc9"></a>
 ```
 ((diameter_fn) =>
 // ...
@@ -1208,6 +1273,7 @@ return even(n)
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00448))_
 
+<a id="atom-technical-atom-1fcd50d7b7a6f5c2"></a>
 ```
 ((diameter_fn) =>
 diameter_fn(2)
@@ -1227,6 +1293,7 @@ diameter_fn(2)
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00452))_
 
+<a id="atom-technical-atom-c13f88cb5a86d7c7"></a>
 ```
 ((diameter_fn) =>
 ((PI) =>
@@ -1248,6 +1315,7 @@ diameter_fn(2)
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00456))_
 
+<a id="atom-technical-atom-7e64dcfae49f8794"></a>
 ```
 ((diameter_fn) => {
 const PI = 3;
@@ -1269,6 +1337,7 @@ return (diameter) => diameter * PI
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00463))_
 
+<a id="atom-technical-atom-2d09b3f1ba4067f3"></a>
 ```
 ((PI) =>
 (diameter) => diameter * PI
@@ -1283,6 +1352,7 @@ return (diameter) => diameter * PI
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00465))_
 
+<a id="atom-technical-atom-10b93a8cefe61ba3"></a>
 ```
 ((PI) =>
 ((PI) =>
@@ -1299,6 +1369,7 @@ return (diameter) => diameter * PI
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00467))_
 
+<a id="atom-technical-atom-f284a6857d0f64e0"></a>
 ```
 ((PI) =>
 ((PI) =>
@@ -1316,6 +1387,7 @@ return (diameter) => diameter * PI
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00469))_
 
+<a id="atom-technical-atom-9015b3cf2462a504"></a>
 ```
 ((PI) => {
 ((PI) => {})(3);
@@ -1331,6 +1403,7 @@ return (diameter) => diameter * PI;
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00471))_
 
+<a id="atom-technical-atom-91c404fc287165c5"></a>
 ```
 ((PI) => {
 ((PI) => {})(3);
@@ -1347,6 +1420,7 @@ return (diameter) => diameter * PI;
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00474))_
 
+<a id="atom-technical-atom-87052ff25d95631f"></a>
 ```
 ((diameter) => {
 const PI = 3.14159265;
@@ -1366,6 +1440,7 @@ return diameter * PI;
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00477))_
 
+<a id="atom-technical-atom-1cf4fe52d95d2a8f"></a>
 ```
 if (true) {
 // an immediately invoked block statement (IIBS)
@@ -1395,6 +1470,7 @@ return diameter * PI;
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00478))_
 
+<a id="atom-technical-atom-fd635f45849def79"></a>
 ```
 })(2)
 //=> 6.2831853
@@ -1408,6 +1484,7 @@ return diameter * PI;
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00481))_
 
+<a id="atom-technical-atom-dcbc2a8d26b64fd4"></a>
 ```
 ((diameter) => {
 const PI = 3.14159265;
@@ -1427,6 +1504,7 @@ return diameter * PI;
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00482))_
 
+<a id="atom-technical-atom-1241fa76c37b3549"></a>
 > If const always bound its value to the name defined in the function's environment, placing a const statement inside of a block would merely rebind the existing name, overwriting its old contents.
 
 ### Technical frame 77: And also: / That Constant Coffee Craving / are consts also from a shadowy planet?
@@ -1437,6 +1515,7 @@ return diameter * PI;
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00483))_
 
+<a id="atom-technical-atom-d4b4a8d99bd35adf"></a>
 ```
 ((diameter) => {
 if (true) {
@@ -1455,6 +1534,7 @@ return diameter * PI;
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00488))_
 
+<a id="atom-technical-atom-59c7f6abe27f03d2"></a>
 ```
 const evenStevens = (n) => {
 if (n === 0) {
@@ -1480,6 +1560,7 @@ evenStevens(42)
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00490))_
 
+<a id="atom-technical-atom-7f57ec9822b0a494"></a>
 ```
 evenStevens = (n) => {
 if (n === 0) {
@@ -1503,6 +1584,7 @@ return evenStevens(n - 2);
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00495))_
 
+<a id="atom-technical-atom-55d46ad008593b37"></a>
 ```
 const repeat = (str) => str + str
 ```
@@ -1515,6 +1597,7 @@ const repeat = (str) => str + str
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00500))_
 
+<a id="atom-technical-atom-3ce453d3afe6ed2c"></a>
 ```
 (str) => str + str
 ```
@@ -1527,6 +1610,7 @@ const repeat = (str) => str + str
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00502))_
 
+<a id="atom-technical-atom-99939e6b57768b31"></a>
 ```
 function (str) { return str + str }
 ```
@@ -1539,6 +1623,7 @@ function (str) { return str + str }
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00509))_
 
+<a id="atom-technical-atom-93857d24054781f5"></a>
 > If we leave out the 'something optional' that comes after the function keyword, we can translate all of the fat arrow functions that we've seen into function keyword functions, e.g.
 
 ### Technical frame 84: And also: / Naming Functions / the function keyword
@@ -1549,6 +1634,7 @@ function (str) { return str + str }
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00510))_
 
+<a id="atom-technical-atom-104b7c0ab18af093"></a>
 ```
 (n) => (1.618**n - -1.618**-n) / 2.236
 ```
@@ -1561,6 +1647,7 @@ function (str) { return str + str }
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00512))_
 
+<a id="atom-technical-atom-69ab5534835c188b"></a>
 ```
 function (n) {
 return (1.618**n - -1.618**-n) / 2.236;
@@ -1575,6 +1662,7 @@ return (1.618**n - -1.618**-n) / 2.236;
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00515))_
 
+<a id="atom-technical-atom-f526750340e70021"></a>
 ```
 const repeat = function repeat (str) {
 return str + str;
@@ -1592,6 +1680,7 @@ return (1.618**n - -1.618**-n) / 2.236;
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00516))_
 
+<a id="atom-technical-atom-0bf038bc7d5dbb5a"></a>
 > Placing a name between the function keyword and the argument list names the function. Confusingly, the name of the function is not exactly the same thing as the name we may choose to bind to the value of the function. For example, we can write:
 
 ### Technical frame 88: And also: / Naming Functions / the function keyword
@@ -1602,6 +1691,7 @@ return (1.618**n - -1.618**-n) / 2.236;
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00517))_
 
+<a id="atom-technical-atom-bdff3a3eb0232671"></a>
 ```
 const double = function repeat (str) {
 return str + str;
@@ -1616,6 +1706,7 @@ return str + str;
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00520))_
 
+<a id="atom-technical-atom-7e3510a580bdd409"></a>
 ```
 double.name
 //=> 'repeat'
@@ -1629,6 +1720,7 @@ double.name
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00523))_
 
+<a id="atom-technical-atom-014788c338760071"></a>
 ```
 someBackboneView.on('click', function clickHandler () {
 //...
@@ -1643,6 +1735,7 @@ someBackboneView.on('click', function clickHandler () {
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00525))_
 
+<a id="atom-technical-atom-ba217991e720f630"></a>
 ```
 const bindingName = function actualName () {
 //...
@@ -1661,6 +1754,7 @@ actualName
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00527))_
 
+<a id="atom-technical-atom-8186b253c7941f9e"></a>
 ```
 (function even (n) {
 if (n === 0) {
@@ -1686,6 +1780,7 @@ else return !even(n - 1)
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00529))_
 
+<a id="atom-technical-atom-d19e2f64206e68c8"></a>
 ```
 even
 //=> Can't find variable: even
@@ -1699,6 +1794,7 @@ even
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00533))_
 
+<a id="atom-technical-atom-453990520af7bc31"></a>
 ```
 function someName () {
 // ...
@@ -1717,6 +1813,7 @@ const someName = function someName ()
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00534))_
 
+<a id="atom-technical-atom-f72d1116e0b95f4e"></a>
 ```
 {
 ```
@@ -1729,6 +1826,7 @@ const someName = function someName ()
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00536))_
 
+<a id="atom-technical-atom-7a8afdd4636c1ff5"></a>
 > Consider this example where we try to use the variable fizzbuzz as a function before we bind a function to it with const :
 
 ### Technical frame 97: And also: / Naming Functions / function declarations
@@ -1739,6 +1837,7 @@ const someName = function someName ()
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00537))_
 
+<a id="atom-technical-atom-95a32dfb7f98a627"></a>
 ```
 (function () {
 return fizzbuzz();
@@ -1757,6 +1856,7 @@ return "Fizz" + "Buzz";
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00539))_
 
+<a id="atom-technical-atom-30bd3487342b5bd3"></a>
 ```
 (function () {
 return fizzbuzz();
@@ -1778,6 +1878,7 @@ const fizzbuzz = function fizzbuzz () {
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00540))_
 
+<a id="atom-technical-atom-fb0b9ce888acf178"></a>
 ```
 const fizzbuzz = function fizzbuzz ()
 return "Fizz" + "Buzz";
@@ -1794,6 +1895,7 @@ return fizzbuzz();
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00545))_
 
+<a id="atom-technical-atom-ce289536d085780b"></a>
 ```
 (function (camelCase) {
 return fizzbuzz();
@@ -1819,6 +1921,7 @@ return "Fizz" + "Buzz";
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00546))_
 
+<a id="atom-technical-atom-e503dd92fb56c97b"></a>
 > Or it may work one way today and a different way when the JavaScript engine is updated, say with a new optimization.
 
 ### Technical frame 102: And also: / Naming Functions / function declaration caveats 34
@@ -1829,6 +1932,7 @@ return "Fizz" + "Buzz";
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00548))_
 
+<a id="atom-technical-atom-ab153667b01d5d1e"></a>
 ```
 function trueDat () { return true }
 But this is not:
@@ -1843,6 +1947,7 @@ But this is not:
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00554))_
 
+<a id="atom-technical-atom-26ee5b06c51cb73d"></a>
 ```
 const repeat = (num, fn) =>
 (num > 0)
@@ -1866,6 +1971,7 @@ undefined
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00557))_
 
+<a id="atom-technical-atom-f4f4fcfc19e6c5d3"></a>
 ```text
 combinators
 The word 'combinator' has a precise technical meaning in mathematics:
@@ -1893,6 +1999,7 @@ If we were learning Combinatorial Logic, we'd start with the most basic combinat
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00560))_
 
+<a id="atom-technical-atom-5936d0925efccdd7"></a>
 ```
 const compose = (a, b) =>
 (c) => a(b(c))
@@ -1913,6 +2020,7 @@ const doubleOfAddOne = compose(doubleOf, addOne);
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00565))_
 
+<a id="atom-technical-atom-f97ec19748b3df8d"></a>
 ```text
 function decorators
 A function decorator is a higher-order function that takes one function as an argument, returns another function, and the returned function is a variation of the argument function. Here's a ridiculously simple decorator: 38
@@ -1938,6 +2046,7 @@ A function decorator is a higher-order function that takes one function as an ar
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00566))_
 
+<a id="atom-technical-atom-a18f02b57411702a"></a>
 ```
 const not = (fn) => (x) => !fn(x)
 ```
@@ -1950,6 +2059,7 @@ const not = (fn) => (x) => !fn(x)
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00568))_
 
+<a id="atom-technical-atom-cb0b0e547d13ac4a"></a>
 ```
 const something = (x) => x != null;
 ```
@@ -1962,6 +2072,7 @@ const something = (x) => x != null;
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00570))_
 
+<a id="atom-technical-atom-ff05ce02edcfddf2"></a>
 ```
 const nothing = (x) => !something(x);
 ```
@@ -1974,6 +2085,7 @@ const nothing = (x) => !something(x);
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00572))_
 
+<a id="atom-technical-atom-ad78f7455392b913"></a>
 ```
 const nothing = not(something);
 ```
@@ -1986,6 +2098,7 @@ const nothing = not(something);
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00578))_
 
+<a id="atom-technical-atom-6ecb67d5a76f0442"></a>
 ```
 const cookAndEat = (food) => eat(cook(food));
 ```
@@ -1998,6 +2111,7 @@ const cookAndEat = (food) => eat(cook(food));
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00580))_
 
+<a id="atom-technical-atom-274e722a7f47e506"></a>
 ```
 const compose = (a, b) => (c) => a(b(c));
 const cookAndEat = compose(eat, cook);
@@ -2011,6 +2125,7 @@ const cookAndEat = compose(eat, cook);
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00581))_
 
+<a id="atom-technical-atom-677f9f34d487491a"></a>
 > The other 80% comes from organizing your code such that you can use it: Writing functions that can be composed in various ways.
 
 ### Technical frame 114: And also: / Building Blocks / composition
@@ -2021,6 +2136,7 @@ const cookAndEat = compose(eat, cook);
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00583))_
 
+<a id="atom-technical-atom-6411c982006a8113"></a>
 > Of course, you needn't use combinators to implement either of these ideas, you can use if statements.
 
 ### Technical frame 115: And also: / Building Blocks / composition
@@ -2031,6 +2147,7 @@ const cookAndEat = compose(eat, cook);
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00584))_
 
+<a id="atom-technical-atom-3a10c9e60dea4643"></a>
 ```
 const actuallyTransfer= (from, to, amount) =>
 // do something
@@ -2045,6 +2162,7 @@ const invokeTransfer = once(maybe(actuallyTransfer(...)));
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00588))_
 
+<a id="atom-technical-atom-056ce8634521f287"></a>
 ```
 _.map([1, 2, 3], (n) => n * n)
 //=> [1, 4, 9]
@@ -2058,6 +2176,7 @@ _.map([1, 2, 3], (n) => n * n)
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00591))_
 
+<a id="atom-technical-atom-feda299a4a4ec2a5"></a>
 ```
 const squareAll = (array) => map(array,
 (n) => n * n);
@@ -2071,6 +2190,7 @@ const squareAll = (array) => map(array,
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00593))_
 
+<a id="atom-technical-atom-5fc00c3a7dcf13db"></a>
 ```
 const mapWith = (fn) =>
 (array) => map(array, fn);
@@ -2087,6 +2207,7 @@ squareAll([1, 2, 3])
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00595))_
 
+<a id="atom-technical-atom-489106d51addd885"></a>
 ```text
 39 http://underscorejs.org
 41 If we don't want to sort out Underscore, we can also write the following: const map = (a, fn) => a.map(fn); , and trust that it works even though we haven't discussed methods yet.
@@ -2112,6 +2233,7 @@ squareAll([1, 2, 3])
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00596))_
 
+<a id="atom-technical-atom-178d9ec7a982006c"></a>
 ```
 const safeSquareAll = mapWith(maybe((n) => n * n));
 ```
@@ -2124,6 +2246,7 @@ const safeSquareAll = mapWith(maybe((n) => n * n));
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00597))_
 
+<a id="atom-technical-atom-b17e7af479dc0872"></a>
 ```
 safeSquareAll([1, null, 2, 3])
 //=> [1, null, 4, 9]
@@ -2137,6 +2260,7 @@ safeSquareAll([1, null, 2, 3])
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00604))_
 
+<a id="atom-technical-atom-1d443d04a5fa8e7f"></a>
 ```
 const plus = function (a, b) {
 return arguments[0] + arguments[1];
@@ -2153,6 +2277,7 @@ plus(2,3)
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00606))_
 
+<a id="atom-technical-atom-4fa04f57675d185a"></a>
 ```
 const args = function (a, b) {
 return arguments;
@@ -2169,6 +2294,7 @@ args(2,3)
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00608))_
 
+<a id="atom-technical-atom-216c7e390d5b4860"></a>
 ```text
 42 You should never attempt to define your own bindings against 'magic' names that JavaScript binds for you. It is wise to treat them as read-only at all times.
 43 We'll look at arrays and plain old javascript objects in depth later.
@@ -2192,6 +2318,7 @@ args(2,3)
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00609))_
 
+<a id="atom-technical-atom-fecbd729f9c90bb4"></a>
 ```
 const plus = function () {
 return arguments[0] + arguments[1];
@@ -2208,6 +2335,7 @@ plus(2,3)
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00611))_
 
+<a id="atom-technical-atom-5925e7e19042ad68"></a>
 ```
 const howMany = function () {
 return arguments['length'];
@@ -2228,6 +2356,7 @@ howMany('sharks', 'are', 'apex', 'predators')
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00616))_
 
+<a id="atom-technical-atom-ba3ef853a0e0c78c"></a>
 ```
 (function () {
 return (function () { return arguments[0]; })('inner');
@@ -2243,6 +2372,7 @@ return (function () { return arguments[0]; })('inner');
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00618))_
 
+<a id="atom-technical-atom-1f21fdd6be9ef40d"></a>
 ```
 (function () {
 return (() => arguments[0])('inner');
@@ -2258,6 +2388,7 @@ return (() => arguments[0])('inner');
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00621))_
 
+<a id="atom-technical-atom-34cc4e2d51243815"></a>
 ```
 const row = function () {
 return mapWith(
@@ -2277,6 +2408,7 @@ row(3)
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00624))_
 
+<a id="atom-technical-atom-2a714b34dc172e0a"></a>
 ```
 const row = function () {
 return mapWith(
@@ -2292,4 +2424,5 @@ row(3)
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00630))_
 
+<a id="atom-technical-atom-fbc803ba11877349"></a>
 > [Figure] (p.78)

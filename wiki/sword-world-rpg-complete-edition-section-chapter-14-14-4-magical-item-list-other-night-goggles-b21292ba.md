@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-other-night-goggles-b21292ba@ffa7ac065a81cd6e7b39407fe74a0946
+projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-other-night-goggles-b21292ba@4a5534f10662336b04d316b9bb382356
 ---
 
 # Chapter 14: / 14.4 Magical Item List / 《 Other 》 / [ Night Goggles ]
@@ -17,6 +17,11 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-other-ae5b041d]] - broader source section: Chapter 14: / 14.4 Magical Item List / 《 Other 》
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-other-tracer-doll-cffb7cde]] - previous source section: Chapter 14: / 14.4 Magical Item List / 《 Other 》 / [ Tracer Doll ]
 - [[sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-other-fire-jack-aa2c0e46]] - next source section: Chapter 14: / 14.4 Magical Item List / 《 Other 》 / [ Fire Jack ]
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-other-ae5b041d]] - broader source section: Chapter 14: / 14.4 Magical Item List / 《 Other 》

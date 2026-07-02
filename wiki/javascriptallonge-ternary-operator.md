@@ -4,10 +4,10 @@ page_kind: concept
 summary: Ternary Operator: 1 statement(s) and 2 atom(s) from raw/javascriptallonge.pdf.
 page_family: topic-concept
 sources: raw/javascriptallonge.pdf
-updated: 2026-07-01
+updated: 2026-07-02
 domain: javascriptallonge
 category_path: concepts
-projection_coverage: topic-javascriptallonge-ternary-operator@68ef62cdaa1eb8acf5efcd228812533b
+projection_coverage: topic-javascriptallonge-ternary-operator@7b28615ce7d4eb66b0488622793a6d7d
 ---
 
 # Ternary Operator
@@ -31,6 +31,7 @@ What [[javascriptallonge]] covers about ternary operator:
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00767))_
 
+<a id="atom-technical-atom-8a38ccb9b6091e45"></a>
 ```
 true ? 'Hello' : 'Good bye'
 //=> 'Hello'
@@ -48,6 +49,7 @@ true ? 'Hello' : 'Good bye'
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00768))_
 
+<a id="atom-technical-atom-8a0bd30e2d4f15a1"></a>
 ```text
 //=> 'Hello'
 0 ? 'Hello' : 'Good bye'
@@ -161,7 +163,12 @@ or(() => n === 0, () => and(() => n !== 1, () => even(n - 2)))
 
 ## Related pages
 
+### Shared technical atoms
+
 - [[javascriptallonge-truthiness]] - shared technical atoms: Truthiness shares technical record from Picking the Bean: Choice and Truthiness / truthiness and the ternary operator: true ? 'Hello' : 'Good bye' //=> 'Hello' 0 ? 'Hello' : 'Good bye' //=> 'Good bye' [1, 2, 3, 4, 5].length === 5 ? 'Pentatonic' : 'Quasimodal' //=> 'Pentatonic' (2 shared atom(s))
+
+### Shared claims
+
 - [[javascriptallonge-javascript]] - shared statements: Javascript shares source evidence from Picking the Bean: Choice and Truthiness / truthiness and the ternary operator: JavaScript inherited an operator from the C family of languages, the ternary operator. It's the only operator that takes three arguments. It looks like this: first ? ... [truncated] (1 shared statement(s))
 
 ## Source

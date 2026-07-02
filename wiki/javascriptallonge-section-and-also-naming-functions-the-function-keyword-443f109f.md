@@ -4,11 +4,11 @@ page_kind: source
 summary: And also: / Naming Functions / the function keyword: 33 source-backed entries and 5 atom(s) from raw/javascriptallonge.pdf.
 page_family: section-reference
 sources: raw/javascriptallonge.pdf
-updated: 2026-07-01
+updated: 2026-07-02
 domain: javascriptallonge
 category_path: sources/javascriptallonge/sections
 source_id: javascriptallonge.pdf
-projection_coverage: section-javascriptallonge-section-and-also-naming-functions-the-function-keyword-443f109f@7496ea12dbff390b230b7e40f37d8b37
+projection_coverage: section-javascriptallonge-section-and-also-naming-functions-the-function-keyword-443f109f@758780c8bca105b4eed5c9e0628934df
 ---
 
 # And also: / Naming Functions / the function keyword
@@ -17,8 +17,16 @@ From [[javascriptallonge]].
 
 ## Related pages
 
-- [[javascriptallonge-section-and-also-naming-functions-cae91ee1]] - broader source section: And also: / Naming Functions
+### Source order
+
 - [[javascriptallonge-section-and-also-naming-functions-function-declarations-94e43325]] - next source section: And also: / Naming Functions / function declarations
+
+### Source structure
+
+- [[javascriptallonge-section-and-also-naming-functions-cae91ee1]] - broader source section: And also: / Naming Functions
+
+### Topics
+
 - [[javascriptallonge-function-keyword]] - topic hub: opens the topic page for Function Keyword
 
 ## Statements
@@ -48,6 +56,7 @@ From [[javascriptallonge]].
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00502))_
 
+<a id="atom-technical-atom-99939e6b57768b31"></a>
 ```
 function (str) { return str + str }
 ```
@@ -60,6 +69,7 @@ function (str) { return str + str }
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00509))_
 
+<a id="atom-technical-atom-93857d24054781f5"></a>
 > If we leave out the 'something optional' that comes after the function keyword, we can translate all of the fat arrow functions that we've seen into function keyword functions, e.g.
 
 ### Technical frame 3: And also: / Naming Functions / the function keyword
@@ -70,6 +80,7 @@ function (str) { return str + str }
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00510))_
 
+<a id="atom-technical-atom-104b7c0ab18af093"></a>
 ```
 (n) => (1.618**n - -1.618**-n) / 2.236
 ```
@@ -82,6 +93,7 @@ function (str) { return str + str }
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00512))_
 
+<a id="atom-technical-atom-69ab5534835c188b"></a>
 ```
 function (n) {
 return (1.618**n - -1.618**-n) / 2.236;
@@ -96,6 +108,7 @@ return (1.618**n - -1.618**-n) / 2.236;
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00517))_
 
+<a id="atom-technical-atom-bdff3a3eb0232671"></a>
 ```
 const double = function repeat (str) {
 return str + str;

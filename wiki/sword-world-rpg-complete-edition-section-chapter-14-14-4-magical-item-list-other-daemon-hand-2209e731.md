@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-other-daemon-hand-2209e731@08b2abc945203d326e75b4e6551a937b
+projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-other-daemon-hand-2209e731@5419ea798386851329919d84daf70fdb
 ---
 
 # Chapter 14: / 14.4 Magical Item List / 《 Other 》 / [ Daemon Hand ]
@@ -17,6 +17,11 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-other-ae5b041d]] - broader source section: Chapter 14: / 14.4 Magical Item List / 《 Other 》
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-other-daemon-jar-2cf88c8a]] - previous source section: Chapter 14: / 14.4 Magical Item List / 《 Other 》 / [ Daemon Jar ]
 - [[sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-other-dragon-tooth-05f57616]] - next source section: Chapter 14: / 14.4 Magical Item List / 《 Other 》 / [ Dragon Tooth ]
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-other-ae5b041d]] - broader source section: Chapter 14: / 14.4 Magical Item List / 《 Other 》

@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-13-2-1-humans-other-d37533ec@ee832f86d683632cce88cd16a3092db8
+projection_coverage: section-sword-world-rpg-complete-edition-section-13-2-1-humans-other-d37533ec@baf307b9d8d44edd1f3809220b8ebccb
 ---
 
 # 13.2.1 《 Humans 》 / 《 Other 》
@@ -17,9 +17,14 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-13-2-1-humans-2369e4b2]] - broader source section: 13.2.1 《 Humans 》
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-13-2-1-humans-dog-54f59f23]] - previous source section: 13.2.1 《 Humans 》 / [ Dog ]
 - [[sword-world-rpg-complete-edition-section-13-2-1-humans-rarity-cffc446f]] - next source section: 13.2.1 《 Humans 》 / 《 Rarity 》
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-13-2-1-humans-2369e4b2]] - broader source section: 13.2.1 《 Humans 》
 
 ## Statements
 

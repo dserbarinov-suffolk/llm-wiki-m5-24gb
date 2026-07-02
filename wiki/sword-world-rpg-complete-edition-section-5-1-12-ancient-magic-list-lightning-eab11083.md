@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-5-1-12-ancient-magic-list-lightning-eab11083@941e7a6c5877e6347e9097e069ff23bb
+projection_coverage: section-sword-world-rpg-complete-edition-section-5-1-12-ancient-magic-list-lightning-eab11083@ab7289cd02e169892bf1d8951adc4dd1
 ---
 
 # 5.1.12 Ancient Magic List / [ Lightning ]
@@ -17,9 +17,14 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-5-1-12-ancient-magic-list-2e59bfee]] - broader source section: 5.1.12 Ancient Magic List
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-5-1-12-ancient-magic-list-bone-servant-79954b67]] - previous source section: 5.1.12 Ancient Magic List / [ Bone Servant ]
 - [[sword-world-rpg-complete-edition-section-5-1-12-ancient-magic-list-levitation-ebabb699]] - next source section: 5.1.12 Ancient Magic List / [ Levitation ]
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-5-1-12-ancient-magic-list-2e59bfee]] - broader source section: 5.1.12 Ancient Magic List
 
 ## Statements
 

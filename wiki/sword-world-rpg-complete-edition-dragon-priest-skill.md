@@ -7,7 +7,7 @@ sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: concepts
-projection_coverage: topic-sword-world-rpg-complete-edition-dragon-priest-skill@c5786617fd8e2a10d167323302750485
+projection_coverage: topic-sword-world-rpg-complete-edition-dragon-priest-skill@0557b56a4b5c588986e31996ca6c920a
 ---
 
 # Dragon Priest Skill
@@ -142,6 +142,7 @@ What [[sword-world-rpg-complete-edition]] covers about dragon priest skill:
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-05364))_
 
+<a id="atom-technical-atom-10ea9b40e5177b89"></a>
 > If you do this, the resurrection will be successful unless you roll double ones.
 
 ### Technical frame 2: Chapter 11: Notes on Magic / 11.5 Asking NPCs to Use Magic / 《 Dragon Priest Skill 》
@@ -152,17 +153,26 @@ What [[sword-world-rpg-complete-edition]] covers about dragon priest skill:
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-05365))_
 
+<a id="atom-technical-atom-0e51d2bbb25b7525"></a>
 > If you don't have clients, you won't get paid.
 
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-priest-skill]] - broader topic: Priest Skill shares source evidence from 1.2 Races / Skills / 1.3.3 Adventurer Level: In Sword World RPG, a character's capability as an adventurer is determined by their adventurer skill level. The highest level among the adventurer skills that a cha ... [truncated] (22 shared statement(s))
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-chapter-11-notes-on-magic-11-5-asking-npcs-to-use-magic-dragon-priest-skill-a03d4ddb]] - source section: Chapter 11: Notes on Magic / 11.5 Asking NPCs to Use Magic / 《 Dragon Priest Skill 》 shares source evidence from Chapter 11: Notes on Magic / 11.5 Asking NPCs to Use Magic / 《 Dragon Priest Skill 》: Dragon priests are based on a unique belief in dragons. This is only possible if you're part of a group of people who believe in dragons (mostly considered savages).; Chapter 11: Notes on Magic / 11.5 Asking NPCs to Use Magic / 《 Dragon Priest Skill 》 shares technical record from Chapter 11: Notes on Magic / 11.5 Asking NPCs to Use Magic / 《 Dragon Priest Skill 》: If you do this, the resurrection will be successful unless you roll double ones. (11 shared statement(s), 2 shared atom(s))
+- [[sword-world-rpg-complete-edition-section-chapter-11-notes-on-magic-11-3-dragon-roar-magic-dragon-priest-skill-a9fd3cd8]] - source section: Chapter 11: Notes on Magic / 11.3 Dragon Roar Magic / Dragon Priest Skill shares source evidence from Chapter 11: Notes on Magic / 11.3 Dragon Roar Magic / Dragon Priest Skill: Owners of the dragon priest skill gain the following basic abilities. (1 shared statement(s))
+
+### Shared claims
+
 - [[sword-world-rpg-complete-edition-11-acquiring-rune-master-skill]] - shared statements: 11 Acquiring Rune Master Skill shares source evidence from Chapter 11: Notes on Magic / 11.4 Acquiring Rune Master Skills and Increasing Levels / 《 Priest Skill 》: To acquire the priest skill, it is necessary to awaken to faith . When you awaken to faith and recognize the existence of the gods, you can acquire the 1st level pri ... [truncated] (5 shared statement(s))
 - [[sword-world-rpg-complete-edition-adventurer-level]] - shared statements: 1.3.3 Adventurer Level shares source evidence from 1.2 Races / Skills / 1.3.3 Adventurer Level: In Sword World RPG, a character's capability as an adventurer is determined by their adventurer skill level. The highest level among the adventurer skills that a cha ... [truncated] (3 shared statement(s))
 - [[sword-world-rpg-complete-edition-sage-skill]] - shared statements: Sage Skill shares source evidence from Chapter 11: Notes on Magic / 11.3 Dragon Roar Magic / Reptile Check [Intelligence]: Dragon priests have knowledge of dragons, their subspecies such as wyrms, wyverns, etc. and reptiles. For these monsters only, they can identify them with a success ... [truncated] (1 shared statement(s))
-- [[sword-world-rpg-complete-edition-section-chapter-11-notes-on-magic-11-3-dragon-roar-magic-dragon-priest-skill-a9fd3cd8]] - source section: Chapter 11: Notes on Magic / 11.3 Dragon Roar Magic / Dragon Priest Skill shares source evidence from Chapter 11: Notes on Magic / 11.3 Dragon Roar Magic / Dragon Priest Skill: Owners of the dragon priest skill gain the following basic abilities. (1 shared statement(s))
-- [[sword-world-rpg-complete-edition-section-chapter-11-notes-on-magic-11-5-asking-npcs-to-use-magic-dragon-priest-skill-a03d4ddb]] - source section: Chapter 11: Notes on Magic / 11.5 Asking NPCs to Use Magic / 《 Dragon Priest Skill 》 shares source evidence from Chapter 11: Notes on Magic / 11.5 Asking NPCs to Use Magic / 《 Dragon Priest Skill 》: Dragon priests are based on a unique belief in dragons. This is only possible if you're part of a group of people who believe in dragons (mostly considered savages).; Chapter 11: Notes on Magic / 11.5 Asking NPCs to Use Magic / 《 Dragon Priest Skill 》 shares technical record from Chapter 11: Notes on Magic / 11.5 Asking NPCs to Use Magic / 《 Dragon Priest Skill 》: If you do this, the resurrection will be successful unless you roll double ones. (11 shared statement(s), 2 shared atom(s))
+
+### Topics
+
+- [[sword-world-rpg-complete-edition-priest-skill]] - broader topic: Priest Skill shares source evidence from 1.2 Races / Skills / 1.3.3 Adventurer Level: In Sword World RPG, a character's capability as an adventurer is determined by their adventurer skill level. The highest level among the adventurer skills that a cha ... [truncated] (22 shared statement(s))
 
 ## Source
 

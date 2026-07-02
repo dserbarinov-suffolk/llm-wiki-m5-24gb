@@ -4,11 +4,11 @@ page_kind: source
 summary: Copy on Write / Making Data Out Of Functions / say 'please': 11 source-backed entries and 0 atom(s) from raw/javascriptallonge.pdf.
 page_family: section-reference
 sources: raw/javascriptallonge.pdf
-updated: 2026-07-01
+updated: 2026-07-02
 domain: javascriptallonge
 category_path: sources/javascriptallonge/sections
 source_id: javascriptallonge.pdf
-projection_coverage: section-javascriptallonge-section-copy-on-write-making-data-out-of-functions-say-please-c42d16f5@e9770a61fe143699b109fcbd0dde3fbe
+projection_coverage: section-javascriptallonge-section-copy-on-write-making-data-out-of-functions-say-please-c42d16f5@d1376ed978ee001a2acf8e73c632a577
 ---
 
 # Copy on Write / Making Data Out Of Functions / say 'please'
@@ -17,9 +17,14 @@ From [[javascriptallonge]].
 
 ## Related pages
 
-- [[javascriptallonge-section-copy-on-write-making-data-out-of-functions-12daea71]] - broader source section: Copy on Write / Making Data Out Of Functions
+### Source order
+
 - [[javascriptallonge-section-copy-on-write-making-data-out-of-functions-lists-with-functions-as-data-52fd04fd]] - previous source section: Copy on Write / Making Data Out Of Functions / lists with functions as data
 - [[javascriptallonge-section-copy-on-write-making-data-out-of-functions-functions-are-not-the-real-point-ee3008de]] - next source section: Copy on Write / Making Data Out Of Functions / functions are not the real point
+
+### Source structure
+
+- [[javascriptallonge-section-copy-on-write-making-data-out-of-functions-12daea71]] - broader source section: Copy on Write / Making Data Out Of Functions
 
 ## Statements
 

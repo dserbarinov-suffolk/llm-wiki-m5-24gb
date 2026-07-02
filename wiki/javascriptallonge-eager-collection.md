@@ -4,10 +4,10 @@ page_kind: concept
 summary: Eager Collection: 1 statement(s) and 3 atom(s) from raw/javascriptallonge.pdf.
 page_family: topic-concept
 sources: raw/javascriptallonge.pdf
-updated: 2026-07-01
+updated: 2026-07-02
 domain: javascriptallonge
 category_path: concepts
-projection_coverage: topic-javascriptallonge-eager-collection@bd0434725f86e7f42043eb06dac83340
+projection_coverage: topic-javascriptallonge-eager-collection@64c3e2abf66d4a50e2f613b1f0a3576a
 ---
 
 # Eager Collection
@@ -31,6 +31,7 @@ What [[javascriptallonge]] covers about eager collection:
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01799))_
 
+<a id="atom-technical-atom-ad76bed54ae2e76c"></a>
 ```
 const extend = function (consumer, ...providers) {
 for (let i = 0; i < providers.length; ++i) {
@@ -53,6 +54,7 @@ return consumer
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01800))_
 
+<a id="atom-technical-atom-305ec57a4cbf73ac"></a>
 ```
 const EagerCollection = (gatherable) =>
 ({
@@ -100,6 +102,7 @@ until(fn) {
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01801))_
 
+<a id="atom-technical-atom-72390dcacd432825"></a>
 ```
 const original = this;
 return gatherable.from(
@@ -142,9 +145,17 @@ yield element;
 
 ## Related pages
 
-- [[javascriptallonge-collection]] - broader topic: Collection shares technical record from Lazy and Eager Collections / eager collections: const extend = function (consumer, ...providers) { for (let i = 0; i < providers.length; ++i) { const provider = providers[i]; for (let key in provider) { if (provid ... [truncated] (3 shared atom(s))
-- [[javascriptallonge-method]] - shared technical atoms: Method shares technical record from Lazy and Eager Collections / eager collections: const extend = function (consumer, ...providers) { for (let i = 0; i < providers.length; ++i) { const provider = providers[i]; for (let key in provider) { if (provid ... [truncated] (3 shared atom(s))
+### Source structure
+
 - [[javascriptallonge-section-lazy-and-eager-collections-eager-collections-4dcc549f]] - source section: Lazy and Eager Collections / eager collections shares source evidence from Lazy and Eager Collections / eager collections: An eager collection, like an array, returns a collection of its own type from each of the methods. We can make an eager collection out of any collection that is gath ... [truncated]; Lazy and Eager Collections / eager collections shares technical record from Lazy and Eager Collections / eager collections: const extend = function (consumer, ...providers) { for (let i = 0; i < providers.length; ++i) { const provider = providers[i]; for (let key in provider) { if (provid ... [truncated] (4 shared statement(s), 5 shared atom(s))
+
+### Shared technical atoms
+
+- [[javascriptallonge-method]] - shared technical atoms: Method shares technical record from Lazy and Eager Collections / eager collections: const extend = function (consumer, ...providers) { for (let i = 0; i < providers.length; ++i) { const provider = providers[i]; for (let key in provider) { if (provid ... [truncated] (3 shared atom(s))
+
+### Topics
+
+- [[javascriptallonge-collection]] - broader topic: Collection shares technical record from Lazy and Eager Collections / eager collections: const extend = function (consumer, ...providers) { for (let i = 0; i < providers.length; ++i) { const provider = providers[i]; for (let key in provider) { if (provid ... [truncated] (3 shared atom(s))
 
 ## Source
 

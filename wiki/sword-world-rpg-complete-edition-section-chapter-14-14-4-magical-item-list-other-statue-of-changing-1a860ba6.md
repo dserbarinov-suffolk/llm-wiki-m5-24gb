@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-other-statue-of-changing-1a860ba6@9e545a041ef6abd2246079b70204b436
+projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-other-statue-of-changing-1a860ba6@b2d4552f60c0edcf1a38058331f711eb
 ---
 
 # Chapter 14: / 14.4 Magical Item List / 《 Other 》 / [ Statue of Changing ]
@@ -17,9 +17,14 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-other-ae5b041d]] - broader source section: Chapter 14: / 14.4 Magical Item List / 《 Other 》
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-other-scape-doll-d5ce600c]] - previous source section: Chapter 14: / 14.4 Magical Item List / 《 Other 》 / [ Scape Doll ]
 - [[sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-other-spirit-sealing-stone-3f5be059]] - next source section: Chapter 14: / 14.4 Magical Item List / 《 Other 》 / [ Spirit Sealing Stone ]
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-other-ae5b041d]] - broader source section: Chapter 14: / 14.4 Magical Item List / 《 Other 》
 
 ## Statements
 

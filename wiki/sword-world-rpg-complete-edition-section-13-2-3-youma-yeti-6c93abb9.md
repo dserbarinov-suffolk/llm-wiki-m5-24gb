@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-13-2-3-youma-yeti-6c93abb9@4a3708e0380fd6978af106db775b1782
+projection_coverage: section-sword-world-rpg-complete-edition-section-13-2-3-youma-yeti-6c93abb9@652d9fef94fc9c0b0a9f69e1779dfac8
 ---
 
 # 13.2.3 Youma / [ Yeti ]
@@ -17,9 +17,14 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-13-2-3-youma-05ea9fd0]] - broader source section: 13.2.3 Youma
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-13-2-3-youma-valkyrie-0dbee5d3]] - previous source section: 13.2.3 Youma / [ Valkyrie ]
 - [[sword-world-rpg-complete-edition-section-13-2-3-youma-ogre-183bea8e]] - next source section: 13.2.3 Youma / [ Ogre ]
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-13-2-3-youma-05ea9fd0]] - broader source section: 13.2.3 Youma
 
 ## Statements
 
@@ -37,4 +42,5 @@ From [[sword-world-rpg-complete-edition]].
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-06327))_
 
+<a id="atom-technical-atom-2b13aa646296f777"></a>
 > Conversely, it is weak against fire, so if it's a fire-based attack, the check can be made with +10 to strike power.

@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-6-treasure-appraisal-intelligence-not-retriable-0a827273@7ca8ccbbdebba1304c2209bb650c4b01
+projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-6-treasure-appraisal-intelligence-not-retriable-0a827273@e56adea2f76ff8b419600e644af38b7a
 ---
 
 # Chapter 6: / [ ⑥ Treasure Appraisal [Intelligence] ] (Not retriable)
@@ -17,8 +17,13 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-chapter-6-dd443c93]] - broader source section: Chapter 6:
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-chapter-6-bard-skill-c54b1125]] - next source section: Chapter 6: / Bard Skill
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-chapter-6-dd443c93]] - broader source section: Chapter 6:
 
 ## Statements
 

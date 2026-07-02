@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-5-1-12-ancient-magic-list-lightning-bind-infravision-9c568d4b@83bcb5db37f10b4d7be14cbd71efa72e
+projection_coverage: section-sword-world-rpg-complete-edition-section-5-1-12-ancient-magic-list-lightning-bind-infravision-9c568d4b@0fb656e850ba2a7a741670e8ee0a26f4
 ---
 
 # 5.1.12 Ancient Magic List / [ Lightning Bind ] / 《 Infravision 》
@@ -17,9 +17,14 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-5-1-12-ancient-magic-list-lightning-bind-497e8a08]] - broader source section: 5.1.12 Ancient Magic List / [ Lightning Bind ]
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-5-1-12-ancient-magic-list-lightning-bind-5-1-13-spirit-magic-and-the-shaman-skill-f3a8ad93]] - previous source section: 5.1.12 Ancient Magic List / [ Lightning Bind ] / 5.1.13 Spirit Magic and the Shaman Skill
 - [[sword-world-rpg-complete-edition-section-5-1-12-ancient-magic-list-lightning-bind-sense-aura-5b4a4eef]] - next source section: 5.1.12 Ancient Magic List / [ Lightning Bind ] / 《 Sense Aura 》
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-5-1-12-ancient-magic-list-lightning-bind-497e8a08]] - broader source section: 5.1.12 Ancient Magic List / [ Lightning Bind ]
 
 ## Statements
 

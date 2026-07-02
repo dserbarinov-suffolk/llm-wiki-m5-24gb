@@ -4,11 +4,11 @@ page_kind: source
 summary: Recipes with Basic Functions / Partial Application: 9 source-backed entries and 4 atom(s) from raw/javascriptallonge.pdf.
 page_family: section-reference
 sources: raw/javascriptallonge.pdf
-updated: 2026-07-01
+updated: 2026-07-02
 domain: javascriptallonge
 category_path: sources/javascriptallonge/sections
 source_id: javascriptallonge.pdf
-projection_coverage: section-javascriptallonge-section-recipes-with-basic-functions-partial-application-80bc1196@233b94e24e9ce6ac6b6228b9ce3154b4
+projection_coverage: section-javascriptallonge-section-recipes-with-basic-functions-partial-application-80bc1196@12c2e706c39331d9c745a399c3a35913
 ---
 
 # Recipes with Basic Functions / Partial Application
@@ -17,9 +17,17 @@ From [[javascriptallonge]].
 
 ## Related pages
 
-- [[javascriptallonge-section-recipes-with-basic-functions-58df4c63]] - broader source section: Recipes with Basic Functions
+### Source order
+
 - [[javascriptallonge-section-recipes-with-basic-functions-disclaimer-ccfb4e57]] - previous source section: Recipes with Basic Functions / Disclaimer
 - [[javascriptallonge-section-recipes-with-basic-functions-unary-84c3ae50]] - next source section: Recipes with Basic Functions / Unary
+
+### Source structure
+
+- [[javascriptallonge-section-recipes-with-basic-functions-58df4c63]] - broader source section: Recipes with Basic Functions
+
+### Topics
+
 - [[javascriptallonge-partial-application]] - topic hub: opens the topic page for Partial Application
 
 ## Statements
@@ -38,6 +46,7 @@ From [[javascriptallonge]].
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00654))_
 
+<a id="atom-technical-atom-33d675e7d462cdb6"></a>
 ```text
 Partial Application
 In Building Blocks, we discussed partial application, but we didn't write a generalized recipe for it. This is such a common tool that many libraries provide some form of partial application. You'll find examples in Lemonad 45 from Michael Fogus, Functional JavaScript 46 from Oliver Steele and the terse but handy node-ap 47 from James Halliday.
@@ -62,6 +71,7 @@ In Building Blocks, we discussed partial application, but we didn't write a gene
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00656))_
 
+<a id="atom-technical-atom-12e2e0144ff30f83"></a>
 ```
 const callFirst = (fn, larg) =>
 function (...rest) {
@@ -89,6 +99,7 @@ sayHelloToCeline('Eartha')
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00658))_
 
+<a id="atom-technical-atom-6a1f8c07567d2732"></a>
 ```text
 45 https://github.com/fogus/lemonad 46 http://osteele.com/sources/javascript/functional/ 47 https://github.com/substack/node-ap 48
 ```
@@ -112,6 +123,7 @@ sayHelloToCeline('Eartha')
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00661))_
 
+<a id="atom-technical-atom-21a14ad8292299c9"></a>
 ```
 const callLeft = (fn, ...args) =>
 (...remainingArgs) =>

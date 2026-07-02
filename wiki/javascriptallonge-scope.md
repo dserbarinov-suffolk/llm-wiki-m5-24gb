@@ -4,10 +4,10 @@ page_kind: concept
 summary: Scope: 2 statement(s) and 15 atom(s) from raw/javascriptallonge.pdf.
 page_family: topic-concept
 sources: raw/javascriptallonge.pdf
-updated: 2026-07-01
+updated: 2026-07-02
 domain: javascriptallonge
 category_path: concepts
-projection_coverage: topic-javascriptallonge-scope@ff1e7f8a201353c7f3b67238413b5729
+projection_coverage: topic-javascriptallonge-scope@f597297adbb0ae9368331d5f776bf38f
 ---
 
 # Scope
@@ -31,6 +31,7 @@ What [[javascriptallonge]] covers about scope:
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00326))_
 
+<a id="atom-technical-atom-482593ad18295e4d"></a>
 ```
 ((x) => (y) => x)(1)(2)
 //=> 1
@@ -44,6 +45,7 @@ What [[javascriptallonge]] covers about scope:
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00328))_
 
+<a id="atom-technical-atom-77bdcdbcf6465b1a"></a>
 ```
 ((x) => (y) => x)(1)
 //=> [Function]
@@ -57,6 +59,7 @@ What [[javascriptallonge]] covers about scope:
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00330))_
 
+<a id="atom-technical-atom-92db49b5efba9c89"></a>
 ```
 (y) => x
 ```
@@ -69,6 +72,7 @@ What [[javascriptallonge]] covers about scope:
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00332))_
 
+<a id="atom-technical-atom-74b3f74446fea422"></a>
 ```
 ((y) => x)(2)
 ```
@@ -81,6 +85,7 @@ What [[javascriptallonge]] covers about scope:
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00335))_
 
+<a id="atom-technical-atom-90ec51f7820209bd"></a>
 ```
 lambda { |x|
 lambda { |y| x }
@@ -96,6 +101,7 @@ lambda { |y| x }
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00346))_
 
+<a id="atom-technical-atom-e40f9d634f430538"></a>
 > If pure functions can contain closures, can a closure contain a pure function?
 
 ### Technical frame 7: And also: / Closures and Scope / it's always the environment
@@ -106,6 +112,7 @@ lambda { |y| x }
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00351))_
 
+<a id="atom-technical-atom-f2f36581d048455a"></a>
 > So whenever a function is applied to arguments, its environment always has a reference to its parent environment.
 
 ### Technical frame 8: And also: / Closures and Scope / it's always the environment
@@ -116,6 +123,7 @@ lambda { |y| x }
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00355))_
 
+<a id="atom-technical-atom-aa15d9cc8debfd53"></a>
 ```
 bh
 ```
@@ -128,6 +136,7 @@ bh
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00357))_
 
+<a id="atom-technical-atom-0b2e6939e02f226c"></a>
 ```
 (x) =>
 (y) =>
@@ -142,6 +151,7 @@ bh
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00359))_
 
+<a id="atom-technical-atom-ed81aab62f6b0a9f"></a>
 ```
 (x, y, z) => x + y + z
 ```
@@ -154,6 +164,7 @@ bh
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00362))_
 
+<a id="atom-technical-atom-ea4e89d1d181d9c9"></a>
 ```
 ah
 bh
@@ -167,6 +178,7 @@ bh
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00367))_
 
+<a id="atom-technical-atom-ee25e18f1a8be511"></a>
 ```
 (x) =>
 (x, y) => x + y
@@ -180,6 +192,7 @@ bh
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00369))_
 
+<a id="atom-technical-atom-948f85ac003d9fa2"></a>
 ```
 (x) =>
 (x, y) =>
@@ -196,6 +209,7 @@ x + y + z
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00376))_
 
+<a id="atom-technical-atom-89e95093a7ef1f18"></a>
 > If you don't want your code to operate directly within the global environment, what can you do?
 
 ### Technical frame 15: And also: / Closures and Scope / which came first, the chicken or the egg?
@@ -206,6 +220,7 @@ x + y + z
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00377))_
 
+<a id="atom-technical-atom-36c5b991a80956ba"></a>
 ```
 // top of the file
 (() => {
@@ -216,6 +231,8 @@ x + y + z
 
 
 ## Related pages
+
+### Shared technical atoms
 
 - [[javascriptallonge-javascript]] - shared statements and technical atoms: Javascript shares source evidence from And also: / Closures and Scope / shadowy variables from a shadowy planet: When evaluating x + y + z , JavaScript will find x and y in the great-grandparent scope and z in the parent scope. The x in the great-great-grandparent scope is igno ... [truncated]; Javascript shares technical record from And also: / Closures and Scope / shadowy variables from a shadowy planet: (x) => (x, y) => x + y (1 shared statement(s), 4 shared atom(s))
 - [[javascriptallonge-closure]] - shared technical atoms: Closure shares technical record from And also: / Closures and Scope / if functions without free variables are pure, are closures impure?: If pure functions can contain closures, can a closure contain a pure function? (2 shared atom(s))

@@ -4,11 +4,11 @@ page_kind: source
 summary: Composing and Decomposing Data / Arrays and Destructuring Arguments / array literals: 12 source-backed entries and 2 atom(s) from raw/javascriptallonge.pdf.
 page_family: section-reference
 sources: raw/javascriptallonge.pdf
-updated: 2026-07-01
+updated: 2026-07-02
 domain: javascriptallonge
 category_path: sources/javascriptallonge/sections
 source_id: javascriptallonge.pdf
-projection_coverage: section-javascriptallonge-section-composing-and-decomposing-data-arrays-and-destructuring-arguments-array-literals-7490c12f@b5e86cfc4e898a97501ed3c791cf0063
+projection_coverage: section-javascriptallonge-section-composing-and-decomposing-data-arrays-and-destructuring-arguments-array-literals-7490c12f@aa396c97d455458d986ada139e65048b
 ---
 
 # Composing and Decomposing Data / Arrays and Destructuring Arguments / array literals
@@ -17,8 +17,13 @@ From [[javascriptallonge]].
 
 ## Related pages
 
-- [[javascriptallonge-section-composing-and-decomposing-data-arrays-and-destructuring-arguments-c857af65]] - broader source section: Composing and Decomposing Data / Arrays and Destructuring Arguments
+### Source order
+
 - [[javascriptallonge-section-composing-and-decomposing-data-arrays-and-destructuring-arguments-element-references-24b6e6cb]] - next source section: Composing and Decomposing Data / Arrays and Destructuring Arguments / element references
+
+### Source structure
+
+- [[javascriptallonge-section-composing-and-decomposing-data-arrays-and-destructuring-arguments-c857af65]] - broader source section: Composing and Decomposing Data / Arrays and Destructuring Arguments
 
 ## Statements
 
@@ -37,6 +42,7 @@ From [[javascriptallonge]].
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00815))_
 
+<a id="atom-technical-atom-dd48e092b1674580"></a>
 ```
 []
 //=> []
@@ -50,6 +56,7 @@ From [[javascriptallonge]].
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00826))_
 
+<a id="atom-technical-atom-8df93e461ef26254"></a>
 ```
 [] === []
 //=> false

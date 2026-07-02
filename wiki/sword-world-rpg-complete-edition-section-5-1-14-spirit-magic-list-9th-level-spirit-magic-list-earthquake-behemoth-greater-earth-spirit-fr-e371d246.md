@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-5-1-14-spirit-magic-list-9th-level-spirit-magic-list-earthquake-behemoth-greater-earth-spirit-fr-e371d246@74e29ae22ed7648b4bd3f939196e6f5a
+projection_coverage: section-sword-world-rpg-complete-edition-section-5-1-14-spirit-magic-list-9th-level-spirit-magic-list-earthquake-behemoth-greater-earth-spirit-fr-e371d246@10734ab6bfd860dd766617a9ab088867
 ---
 
 # 5.1.14 Spirit Magic List / 9th Level Spirit Magic List [ Earthquake ] (Behemoth/Greater Earth Spirit) / [ Freeze ] (Fenrir/Greater Ice Spirit)
@@ -17,8 +17,13 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-5-1-14-spirit-magic-list-9th-level-spirit-magic-list-earthquake-behemoth-greater-earth-spirit-5eb28679]] - broader source section: 5.1.14 Spirit Magic List / 9th Level Spirit Magic List [ Earthquake ] (Behemoth/Greater Earth Spirit)
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-5-1-14-spirit-magic-list-9th-level-spirit-magic-list-earthquake-behemoth-greater-earth-spirit-ma-03da7f6e]] - next source section: 5.1.14 Spirit Magic List / 9th Level Spirit Magic List [ Earthquake ] (Behemoth/Greater Earth Spirit) / [ Maelstrom ]
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-5-1-14-spirit-magic-list-9th-level-spirit-magic-list-earthquake-behemoth-greater-earth-spirit-5eb28679]] - broader source section: 5.1.14 Spirit Magic List / 9th Level Spirit Magic List [ Earthquake ] (Behemoth/Greater Earth Spirit)
 
 ## Statements
 

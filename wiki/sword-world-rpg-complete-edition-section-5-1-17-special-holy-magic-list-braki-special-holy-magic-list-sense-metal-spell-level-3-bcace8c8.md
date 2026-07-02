@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-5-1-17-special-holy-magic-list-braki-special-holy-magic-list-sense-metal-spell-level-3-bcace8c8@95cff867d21e22f671fd629b2a079b05
+projection_coverage: section-sword-world-rpg-complete-edition-section-5-1-17-special-holy-magic-list-braki-special-holy-magic-list-sense-metal-spell-level-3-bcace8c8@4933c5c16d1dab06c3de76d38616738f
 ---
 
 # 5.1.17 Special Holy Magic List / Braki Special Holy Magic List / [ Sense Metal ] (Spell Level=3)
@@ -17,8 +17,13 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-5-1-17-special-holy-magic-list-braki-special-holy-magic-list-e553151f]] - broader source section: 5.1.17 Special Holy Magic List / Braki Special Holy Magic List
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-5-1-17-special-holy-magic-list-braki-special-holy-magic-list-heat-metal-spell-level-5-b8b0ee7b]] - next source section: 5.1.17 Special Holy Magic List / Braki Special Holy Magic List / [ Heat Metal ] (Spell Level=5)
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-5-1-17-special-holy-magic-list-braki-special-holy-magic-list-e553151f]] - broader source section: 5.1.17 Special Holy Magic List / Braki Special Holy Magic List
 
 ## Statements
 

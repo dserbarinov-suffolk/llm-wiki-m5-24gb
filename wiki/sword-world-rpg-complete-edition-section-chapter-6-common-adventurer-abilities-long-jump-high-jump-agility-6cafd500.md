@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-6-common-adventurer-abilities-long-jump-high-jump-agility-6cafd500@de17553ba435b856aa63d35922979f0b
+projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-6-common-adventurer-abilities-long-jump-high-jump-agility-6cafd500@9a050622b9dbc4927b8f948cd9ae4bb8
 ---
 
 # Chapter 6: / Common Adventurer Abilities / [ ⑤ Long Jump/High Jump [Agility] ]
@@ -17,8 +17,13 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-chapter-6-common-adventurer-abilities-328f2370]] - broader source section: Chapter 6: / Common Adventurer Abilities
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-chapter-6-common-adventurer-abilities-climb-agility-7586c224]] - previous source section: Chapter 6: / Common Adventurer Abilities / [ ④ Climb [Agility] ]
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-chapter-6-common-adventurer-abilities-328f2370]] - broader source section: Chapter 6: / Common Adventurer Abilities
 
 ## Statements
 
@@ -39,6 +44,7 @@ From [[sword-world-rpg-complete-edition]].
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-04280))_
 
+<a id="atom-technical-atom-d1cebcc65144dbc4"></a>
 ```text
 Table 6-3: Determining Long Jump Target Scores
  boiling lava. At this time, considering the
@@ -54,6 +60,7 @@ Table 6-3: Determining Long Jump Target Scores
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-04282))_
 
+<a id="atom-technical-atom-cc94441037493139"></a>
 ```text
 5 for 3 meters, +1 for every 15 cm
 Thief Skill (Normal Long Jump)
@@ -83,6 +90,7 @@ Adventurer Level (Normal Long Jump)
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-04311))_
 
+<a id="atom-technical-atom-b65b85d56f095bd1"></a>
 | Skill Used Thief Skill (Normal High Jump) Thief Skill (Pole High Jump) | Base Target Score 5 for 2 meters, +1 for every 5 cm 5 for 4 meters, +1 for every 20 cm | column 3 |
 | --- | --- | --- |
 | Adventurer Level (Normal High Jump) | 5 for 1 meter, +1 for every 5 cm |  |

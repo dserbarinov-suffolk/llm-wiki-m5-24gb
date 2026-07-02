@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-18-3-rules-for-destroying-structures-geography-f18d9385@5fb984eb1eea097dc78b7a23e64e139d
+projection_coverage: section-sword-world-rpg-complete-edition-section-18-3-rules-for-destroying-structures-geography-f18d9385@40232b718fb8192f22f7cc592833bb5f
 ---
 
 # 18.3 Rules for Destroying Structures / Geography
@@ -17,20 +17,21 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
+### Source order
+
+- [[sword-world-rpg-complete-edition-section-18-3-rules-for-destroying-structures-organizations-and-groups-6ed13bfc]] - previous source section: 18.3 Rules for Destroying Structures / Organizations and Groups
+- [[sword-world-rpg-complete-edition-section-18-3-rules-for-destroying-structures-currency-a09b0d2c]] - next source section: 18.3 Rules for Destroying Structures / Currency
+
+### Source structure
+
 - [[sword-world-rpg-complete-edition-section-18-3-rules-for-destroying-structures-bf0e7292]] - broader source section: 18.3 Rules for Destroying Structures
-- [[sword-world-rpg-complete-edition-section-18-3-rules-for-destroying-structures-geography-northeast-region-language-eastern-m-rdan-345e3b41]] - narrower source section: 18.3 Rules for Destroying Structures / Geography / Northeast Region (Language = Eastern/Mārdan)
-- [[sword-world-rpg-complete-edition-section-18-3-rules-for-destroying-structures-geography-oran-language-eastern-m-rdan-896012ab]] - narrower source section: 18.3 Rules for Destroying Structures / Geography / Oran (Language = Eastern/Mārdan)
 - [[sword-world-rpg-complete-edition-section-18-3-rules-for-destroying-structures-geography-central-region-language-m-rdan-eremire-gundar-sai-c2382841]] - narrower source section: 18.3 Rules for Destroying Structures / Geography / Central Region (Language = Mārdan/Eremire Gundar/Saine)
-- [[sword-world-rpg-complete-edition-section-18-3-rules-for-destroying-structures-geography-northern-central-region-language-western-gundar-c52a1c7e]] - narrower source section: 18.3 Rules for Destroying Structures / Geography / Northern Central Region (Language = Western/Gundar)
-- [[sword-world-rpg-complete-edition-section-18-3-rules-for-destroying-structures-geography-southern-central-region-language-western-gundar-2326e7bd]] - narrower source section: 18.3 Rules for Destroying Structures / Geography / Southern Central Region (Language = Western/Gundar)
-- [[sword-world-rpg-complete-edition-section-18-3-rules-for-destroying-structures-geography-western-countries-language-western-except-palmer-48f47741]] - narrower source section: 18.3 Rules for Destroying Structures / Geography / Western Countries (Language: Western, except Palmer Village which uses Eastern)
-- [[sword-world-rpg-complete-edition-section-18-3-rules-for-destroying-structures-geography-islands-of-azarn-language-eastern-m-rdan-831690b7]] - narrower source section: 18.3 Rules for Destroying Structures / Geography / Islands of Azarn (Language = Eastern/Mārdan)
-- [[sword-world-rpg-complete-edition-section-18-3-rules-for-destroying-structures-geography-island-of-damned-language-native-language-576aa4a6]] - narrower source section: 18.3 Rules for Destroying Structures / Geography / Island of Damned (Language = Native Language)
 - [[sword-world-rpg-complete-edition-section-18-3-rules-for-destroying-structures-geography-chaosland-language-native-language-bdea0859]] - narrower source section: 18.3 Rules for Destroying Structures / Geography / Chaosland (Language = Native Language)
 - [[sword-world-rpg-complete-edition-section-18-3-rules-for-destroying-structures-geography-eastend-languages-5841758b]] - narrower source section: 18.3 Rules for Destroying Structures / Geography / Eastend (Languages = ?)
 - [[sword-world-rpg-complete-edition-section-18-3-rules-for-destroying-structures-geography-farland-languages-6998481a]] - narrower source section: 18.3 Rules for Destroying Structures / Geography / Farland (Languages = ?)
-- [[sword-world-rpg-complete-edition-section-18-3-rules-for-destroying-structures-organizations-and-groups-6ed13bfc]] - previous source section: 18.3 Rules for Destroying Structures / Organizations and Groups
-- [[sword-world-rpg-complete-edition-section-18-3-rules-for-destroying-structures-currency-a09b0d2c]] - next source section: 18.3 Rules for Destroying Structures / Currency
+- [[sword-world-rpg-complete-edition-section-18-3-rules-for-destroying-structures-geography-island-of-damned-language-native-language-576aa4a6]] - narrower source section: 18.3 Rules for Destroying Structures / Geography / Island of Damned (Language = Native Language)
+- [[sword-world-rpg-complete-edition-section-18-3-rules-for-destroying-structures-geography-islands-of-azarn-language-eastern-m-rdan-831690b7]] - narrower source section: 18.3 Rules for Destroying Structures / Geography / Islands of Azarn (Language = Eastern/Mārdan)
+- [[sword-world-rpg-complete-edition-section-18-3-rules-for-destroying-structures-geography-northeast-region-language-eastern-m-rdan-345e3b41]] - narrower source section: 18.3 Rules for Destroying Structures / Geography / Northeast Region (Language = Eastern/Mārdan)
 
 ## Statements
 

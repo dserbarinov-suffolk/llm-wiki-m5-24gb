@@ -4,11 +4,11 @@ page_kind: source
 summary: The Golden Crema: Appendices and Afterwords / How to run the examples: 17 source-backed entries and 1 atom(s) from raw/javascriptallonge.pdf.
 page_family: section-reference
 sources: raw/javascriptallonge.pdf
-updated: 2026-07-01
+updated: 2026-07-02
 domain: javascriptallonge
 category_path: sources/javascriptallonge/sections
 source_id: javascriptallonge.pdf
-projection_coverage: section-javascriptallonge-section-the-golden-crema-appendices-and-afterwords-how-to-run-the-examples-3dfa1cc9@a903a33867886faedb1f597ed63bb29a
+projection_coverage: section-javascriptallonge-section-the-golden-crema-appendices-and-afterwords-how-to-run-the-examples-3dfa1cc9@624eda4e1c87dd958676980e2198951c
 ---
 
 # The Golden Crema: Appendices and Afterwords / How to run the examples
@@ -17,8 +17,13 @@ From [[javascriptallonge]].
 
 ## Related pages
 
-- [[javascriptallonge-section-the-golden-crema-appendices-and-afterwords-048855ac]] - broader source section: The Golden Crema: Appendices and Afterwords
+### Source order
+
 - [[javascriptallonge-section-the-golden-crema-appendices-and-afterwords-thanks-5038d33a]] - next source section: The Golden Crema: Appendices and Afterwords / Thanks!
+
+### Source structure
+
+- [[javascriptallonge-section-the-golden-crema-appendices-and-afterwords-048855ac]] - broader source section: The Golden Crema: Appendices and Afterwords
 
 ## Statements
 
@@ -38,6 +43,7 @@ From [[javascriptallonge]].
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01979))_
 
+<a id="atom-technical-atom-93c68ecc81401898"></a>
 ```text
 102 http://nodejs.org/
 103 https://en.wikipedia.org/wiki/REPL

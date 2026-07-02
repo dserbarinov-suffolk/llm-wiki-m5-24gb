@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-13-2-6-mythical-beasts-and-magical-beasts-lamia-5a1c951d@d13eacc47ac985f49c8f472fa4756531
+projection_coverage: section-sword-world-rpg-complete-edition-section-13-2-6-mythical-beasts-and-magical-beasts-lamia-5a1c951d@9d10b4f528c90cdbdd08ed68db3612b8
 ---
 
 # 13.2.6 Mythical Beasts and Magical Beasts / [ Lamia ]
@@ -17,9 +17,14 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-13-2-6-mythical-beasts-and-magical-beasts-f86962d2]] - broader source section: 13.2.6 Mythical Beasts and Magical Beasts
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-13-2-6-mythical-beasts-and-magical-beasts-head-displacer-fbf3e967]] - previous source section: 13.2.6 Mythical Beasts and Magical Beasts / [ Head Displacer ]
 - [[sword-world-rpg-complete-edition-section-13-2-6-mythical-beasts-and-magical-beasts-lizardman-7e02457a]] - next source section: 13.2.6 Mythical Beasts and Magical Beasts / [ Lizardman ]
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-13-2-6-mythical-beasts-and-magical-beasts-f86962d2]] - broader source section: 13.2.6 Mythical Beasts and Magical Beasts
 
 ## Statements
 
@@ -41,4 +46,5 @@ From [[sword-world-rpg-complete-edition]].
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-06553))_
 
+<a id="atom-technical-atom-6442a020897421bd"></a>
 > Whenever they suck blood, they must return to their original form.

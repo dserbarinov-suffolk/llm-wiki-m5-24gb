@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-4th-level-basic-holy-magic-list-cure-disease-fa615de9@3db3b81685f215225434cd3593fadec8
+projection_coverage: section-sword-world-rpg-complete-edition-section-4th-level-basic-holy-magic-list-cure-disease-fa615de9@62692142a450dfe9f91a04ce8899f84f
 ---
 
 # 4th Level Basic Holy Magic List [ Cure Disease ]
@@ -17,9 +17,14 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-4th-level-basic-holy-magic-list-cure-disease-protective-circle-eab62bcf]] - narrower source section: 4th Level Basic Holy Magic List [ Cure Disease ] / [ Protective Circle ]
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-3rd-level-basic-holy-magic-list-cure-poison-4f03565a]] - previous source section: 3rd Level Basic Holy Magic List [ Cure Poison ]
 - [[sword-world-rpg-complete-edition-section-5th-level-basic-holy-magic-list-quest-ef5d1df7]] - next source section: 5th Level Basic Holy Magic List [ Quest ]
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-4th-level-basic-holy-magic-list-cure-disease-protective-circle-eab62bcf]] - narrower source section: 4th Level Basic Holy Magic List [ Cure Disease ] / [ Protective Circle ]
 
 ## Statements
 

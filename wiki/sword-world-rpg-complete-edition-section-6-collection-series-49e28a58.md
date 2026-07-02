@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-6-collection-series-49e28a58@5d249af91065326c5e18902a47d39c1c
+projection_coverage: section-sword-world-rpg-complete-edition-section-6-collection-series-49e28a58@1d7ba2040cc2afdb6a933349038e43f8
 ---
 
 # 6. Collection Series
@@ -16,6 +16,8 @@ projection_coverage: section-sword-world-rpg-complete-edition-section-6-collecti
 From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
+
+### Source order
 
 - [[sword-world-rpg-complete-edition-section-5-sword-world-rpg-adventures-b4713380]] - previous source section: 5. Sword World RPG Adventures
 - [[sword-world-rpg-complete-edition-section-7-old-version-of-the-rules-3c51f3ab]] - next source section: 7. Old Version of the Rules

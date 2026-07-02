@@ -4,11 +4,11 @@ page_kind: source
 summary: Mutation: 50 source-backed entries and 4 atom(s) from raw/javascriptallonge.pdf.
 page_family: section-reference
 sources: raw/javascriptallonge.pdf
-updated: 2026-07-01
+updated: 2026-07-02
 domain: javascriptallonge
 category_path: sources/javascriptallonge/sections
 source_id: javascriptallonge.pdf
-projection_coverage: section-javascriptallonge-section-mutation-93ded492@fc0a108d45c1564ff2f1bef54a786784
+projection_coverage: section-javascriptallonge-section-mutation-93ded492@0027d08e8c75a91bd7906c0444e4cfc5
 ---
 
 # Mutation
@@ -17,10 +17,18 @@ From [[javascriptallonge]].
 
 ## Related pages
 
-- [[javascriptallonge-section-mutation-mutation-and-data-structures-a8d1f947]] - narrower source section: Mutation / mutation and data structures
-- [[javascriptallonge-section-mutation-building-with-mutation-04e59f50]] - narrower source section: Mutation / building with mutation
+### Source order
+
 - [[javascriptallonge-section-plain-old-javascript-objects-79315aff]] - previous source section: Plain Old JavaScript Objects
 - [[javascriptallonge-section-reassignment-ecc49acb]] - next source section: Reassignment
+
+### Source structure
+
+- [[javascriptallonge-section-mutation-building-with-mutation-04e59f50]] - narrower source section: Mutation / building with mutation
+- [[javascriptallonge-section-mutation-mutation-and-data-structures-a8d1f947]] - narrower source section: Mutation / mutation and data structures
+
+### Topics
+
 - [[javascriptallonge-mutation]] - topic hub: opens the topic page for Mutation
 
 ## Statements
@@ -65,6 +73,7 @@ From [[javascriptallonge]].
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01139))_
 
+<a id="atom-technical-atom-cf798538dc642609"></a>
 > But after returning the new list, we then become conservative about mutation. This also makes sense: Linked lists often use structure sharing. For example:
 
 ### Technical frame 2: Mutation / mutation and data structures
@@ -75,6 +84,7 @@ From [[javascriptallonge]].
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01141))_
 
+<a id="atom-technical-atom-862c392e49bf3354"></a>
 ```
 const EMPTY = {};
 const OneToFive = { first: 1,
@@ -116,6 +126,7 @@ Structure sharing like this is what makes linked lists so fast for taking everyt
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01149))_
 
+<a id="atom-technical-atom-735da8efb72e03d5"></a>
 ```
 const reverse = (node, delayed = EMPTY) =>
 node === EMPTY
@@ -132,6 +143,7 @@ const copy = (node) => reverse(reverse(node));
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01151))_
 
+<a id="atom-technical-atom-d0bea95be98353c3"></a>
 ```
 const copy = (node, head = null, tail = null) => {
 if (node === EMPTY) {

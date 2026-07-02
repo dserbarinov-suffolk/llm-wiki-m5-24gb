@@ -4,11 +4,11 @@ page_kind: source
 summary: Composing and Decomposing Data / Tail Calls (and Default Arguments) / tail-call optimization: 18 source-backed entries and 0 atom(s) from raw/javascriptallonge.pdf.
 page_family: section-reference
 sources: raw/javascriptallonge.pdf
-updated: 2026-07-01
+updated: 2026-07-02
 domain: javascriptallonge
 category_path: sources/javascriptallonge/sections
 source_id: javascriptallonge.pdf
-projection_coverage: section-javascriptallonge-section-composing-and-decomposing-data-tail-calls-and-default-arguments-tail-call-optimization-766c0a60@0a4787bb37d1e838b814d5aed400d1ff
+projection_coverage: section-javascriptallonge-section-composing-and-decomposing-data-tail-calls-and-default-arguments-tail-call-optimization-766c0a60@804daf9c40cdcf940c576811c7a2838d
 ---
 
 # Composing and Decomposing Data / Tail Calls (and Default Arguments) / tail-call optimization
@@ -17,8 +17,13 @@ From [[javascriptallonge]].
 
 ## Related pages
 
-- [[javascriptallonge-section-composing-and-decomposing-data-tail-calls-and-default-arguments-2f80f1b0]] - broader source section: Composing and Decomposing Data / Tail Calls (and Default Arguments)
+### Source order
+
 - [[javascriptallonge-section-composing-and-decomposing-data-tail-calls-and-default-arguments-converting-non-tail-calls-to-tai-5acf5969]] - next source section: Composing and Decomposing Data / Tail Calls (and Default Arguments) / converting non-tail-calls to tail-calls
+
+### Source structure
+
+- [[javascriptallonge-section-composing-and-decomposing-data-tail-calls-and-default-arguments-2f80f1b0]] - broader source section: Composing and Decomposing Data / Tail Calls (and Default Arguments)
 
 ## Statements
 

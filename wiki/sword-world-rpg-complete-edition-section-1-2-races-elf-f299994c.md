@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-1-2-races-elf-f299994c@db6dff0dad35f1cdbb5dd94e321c8af1
+projection_coverage: section-sword-world-rpg-complete-edition-section-1-2-races-elf-f299994c@4edb04bcc65b28b061db41807aecb6a8
 ---
 
 # 1.2 Races / 【 Elf 】
@@ -17,9 +17,14 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-1-2-races-4e414960]] - broader source section: 1.2 Races
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-1-2-races-grassrunner-e4946bfe]] - previous source section: 1.2 Races / 【 Grassrunner 】
 - [[sword-world-rpg-complete-edition-section-1-2-races-half-elf-6a232db4]] - next source section: 1.2 Races / 【 Half-Elf 】
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-1-2-races-4e414960]] - broader source section: 1.2 Races
 
 ## Statements
 

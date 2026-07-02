@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-attacks-from-monsters-against-characters-monsters-77a3fb28@295c5277f56971eaf4551cdae7b64049
+projection_coverage: section-sword-world-rpg-complete-edition-section-attacks-from-monsters-against-characters-monsters-77a3fb28@810659a6bcf0ca0b53d6f2b4990a4acd
 ---
 
 # Attacks From Monsters Against Characters / Monsters
@@ -17,8 +17,13 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-attacks-from-monsters-against-characters-a9a9211c]] - broader source section: Attacks From Monsters Against Characters
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-attacks-from-monsters-against-characters-4-6-3-defense-rolls-6e7df75a]] - next source section: Attacks From Monsters Against Characters / 4.6.3 Defense Rolls
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-attacks-from-monsters-against-characters-a9a9211c]] - broader source section: Attacks From Monsters Against Characters
 
 ## Statements
 

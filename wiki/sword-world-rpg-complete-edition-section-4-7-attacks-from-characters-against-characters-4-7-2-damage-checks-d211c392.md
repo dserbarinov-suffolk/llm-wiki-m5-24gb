@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-4-7-attacks-from-characters-against-characters-4-7-2-damage-checks-d211c392@3aa71662e6eab34344fd062a9bc52e62
+projection_coverage: section-sword-world-rpg-complete-edition-section-4-7-attacks-from-characters-against-characters-4-7-2-damage-checks-d211c392@91ea46cdafe124e71ab915578a5f56c1
 ---
 
 # 4.7 Attacks From Characters Against Characters / 4.7.2 Damage Checks
@@ -17,8 +17,13 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-4-7-attacks-from-characters-against-characters-86d787cb]] - broader source section: 4.7 Attacks From Characters Against Characters
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-4-7-attacks-from-characters-against-characters-double-sixes-and-double-ones-8a562321]] - previous source section: 4.7 Attacks From Characters Against Characters / Double Sixes and Double Ones
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-4-7-attacks-from-characters-against-characters-86d787cb]] - broader source section: 4.7 Attacks From Characters Against Characters
 
 ## Statements
 
@@ -36,6 +41,7 @@ From [[sword-world-rpg-complete-edition]].
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-01389))_
 
+<a id="atom-technical-atom-b47fa1f1e7953af3"></a>
 ```text
 Table 4-4: Attack Checks
  hits

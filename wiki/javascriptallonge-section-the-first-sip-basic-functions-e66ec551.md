@@ -4,11 +4,11 @@ page_kind: source
 summary: The first sip: Basic Functions: 41 source-backed entries and 0 atom(s) from raw/javascriptallonge.pdf.
 page_family: section-reference
 sources: raw/javascriptallonge.pdf
-updated: 2026-07-01
+updated: 2026-07-02
 domain: javascriptallonge
 category_path: sources/javascriptallonge/sections
 source_id: javascriptallonge.pdf
-projection_coverage: section-javascriptallonge-section-the-first-sip-basic-functions-e66ec551@b45b821a3a96cccb11d362864897c967
+projection_coverage: section-javascriptallonge-section-the-first-sip-basic-functions-e66ec551@0c381bca7d4af2d648961b65ccde04ff
 ---
 
 # The first sip: Basic Functions
@@ -17,9 +17,14 @@ From [[javascriptallonge]].
 
 ## Related pages
 
-- [[javascriptallonge-section-the-first-sip-basic-functions-as-little-as-possible-about-functions-but-no-less-40f8e29e]] - narrower source section: The first sip: Basic Functions / As Little As Possible About Functions, But No Less
+### Source order
+
 - [[javascriptallonge-section-a-rich-aroma-basic-numbers-ef9b6d69]] - previous source section: A Rich Aroma: Basic Numbers
 - [[javascriptallonge-section-or-even-bc497226]] - next source section: Or even:
+
+### Source structure
+
+- [[javascriptallonge-section-the-first-sip-basic-functions-as-little-as-possible-about-functions-but-no-less-40f8e29e]] - narrower source section: The first sip: Basic Functions / As Little As Possible About Functions, But No Less
 
 ## Statements by subsection
 

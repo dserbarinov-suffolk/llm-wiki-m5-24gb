@@ -4,11 +4,11 @@ page_kind: source
 summary: Picking the Bean: Choice and Truthiness: 48 source-backed entries and 1 atom(s) from raw/javascriptallonge.pdf.
 page_family: section-reference
 sources: raw/javascriptallonge.pdf
-updated: 2026-07-01
+updated: 2026-07-02
 domain: javascriptallonge
 category_path: sources/javascriptallonge/sections
 source_id: javascriptallonge.pdf
-projection_coverage: section-javascriptallonge-section-picking-the-bean-choice-and-truthiness-851a6e13@f8eaffeca972b186b7306e9fc6704032
+projection_coverage: section-javascriptallonge-section-picking-the-bean-choice-and-truthiness-851a6e13@336695ce2e0cc08973515cf5ea8c62ed
 ---
 
 # Picking the Bean: Choice and Truthiness
@@ -17,13 +17,18 @@ From [[javascriptallonge]].
 
 ## Related pages
 
-- [[javascriptallonge-section-picking-the-bean-choice-and-truthiness-truthiness-and-the-ternary-operator-9ad8528f]] - narrower source section: Picking the Bean: Choice and Truthiness / truthiness and the ternary operator
-- [[javascriptallonge-section-picking-the-bean-choice-and-truthiness-truthiness-and-operators-e7aa9191]] - narrower source section: Picking the Bean: Choice and Truthiness / truthiness and operators
+### Source order
+
+- [[javascriptallonge-section-recipes-with-basic-functions-58df4c63]] - previous source section: Recipes with Basic Functions
+- [[javascriptallonge-section-composing-and-decomposing-data-58c1e32b]] - next source section: Composing and Decomposing Data
+
+### Source structure
+
 - [[javascriptallonge-section-picking-the-bean-choice-and-truthiness-and-are-control-flow-operators-e907a1ef]] - narrower source section: Picking the Bean: Choice and Truthiness / || and && are control-flow operators
 - [[javascriptallonge-section-picking-the-bean-choice-and-truthiness-function-parameters-are-eager-fbbf2d6a]] - narrower source section: Picking the Bean: Choice and Truthiness / function parameters are eager
 - [[javascriptallonge-section-picking-the-bean-choice-and-truthiness-summary-cb659264]] - narrower source section: Picking the Bean: Choice and Truthiness / summary
-- [[javascriptallonge-section-recipes-with-basic-functions-58df4c63]] - previous source section: Recipes with Basic Functions
-- [[javascriptallonge-section-composing-and-decomposing-data-58c1e32b]] - next source section: Composing and Decomposing Data
+- [[javascriptallonge-section-picking-the-bean-choice-and-truthiness-truthiness-and-operators-e7aa9191]] - narrower source section: Picking the Bean: Choice and Truthiness / truthiness and operators
+- [[javascriptallonge-section-picking-the-bean-choice-and-truthiness-truthiness-and-the-ternary-operator-9ad8528f]] - narrower source section: Picking the Bean: Choice and Truthiness / truthiness and the ternary operator
 
 ## Statements
 
@@ -82,6 +87,7 @@ From [[javascriptallonge]].
 
 **Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00768))_
 
+<a id="atom-technical-atom-8a0bd30e2d4f15a1"></a>
 ```text
 //=> 'Hello'
 0 ? 'Hello' : 'Good bye'

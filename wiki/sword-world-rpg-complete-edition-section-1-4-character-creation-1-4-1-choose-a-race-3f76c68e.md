@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-1-4-character-creation-1-4-1-choose-a-race-3f76c68e@4e39191d8f0f5c6dc76034b48e5077a9
+projection_coverage: section-sword-world-rpg-complete-edition-section-1-4-character-creation-1-4-1-choose-a-race-3f76c68e@c48cb853087387c346d1f0185823f81f
 ---
 
 # 1.4 Character Creation / 1.4.1 Choose a Race
@@ -17,8 +17,13 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-1-4-character-creation-f6aa6108]] - broader source section: 1.4 Character Creation
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-1-4-character-creation-human-09a66c2b]] - next source section: 1.4 Character Creation / 【 Human 】
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-1-4-character-creation-f6aa6108]] - broader source section: 1.4 Character Creation
 
 ## Statements
 

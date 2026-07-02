@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-18-3-rules-for-destroying-structures-geography-southern-central-region-language-western-gundar-2326e7bd@8fa42a0bfd5a4e3245312022d94b2916
+projection_coverage: section-sword-world-rpg-complete-edition-section-18-3-rules-for-destroying-structures-geography-southern-central-region-language-western-gundar-2326e7bd@b4fb6d7c947e9966bbcfb37954fbf9c5
 ---
 
 # 18.3 Rules for Destroying Structures / Geography / Southern Central Region (Language = Western/Gundar)
@@ -17,9 +17,14 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-18-3-rules-for-destroying-structures-geography-f18d9385]] - broader source section: 18.3 Rules for Destroying Structures / Geography
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-18-3-rules-for-destroying-structures-geography-northern-central-region-language-western-gundar-c52a1c7e]] - previous source section: 18.3 Rules for Destroying Structures / Geography / Northern Central Region (Language = Western/Gundar)
 - [[sword-world-rpg-complete-edition-section-18-3-rules-for-destroying-structures-geography-western-countries-language-western-except-palmer-48f47741]] - next source section: 18.3 Rules for Destroying Structures / Geography / Western Countries (Language: Western, except Palmer Village which uses Eastern)
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-18-3-rules-for-destroying-structures-geography-f18d9385]] - broader source section: 18.3 Rules for Destroying Structures / Geography
 
 ## Statements
 

@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-10th-level-basic-holy-magic-list-call-god-aa2b3933@1aee3023717ac06d13b68d69efb238a3
+projection_coverage: section-sword-world-rpg-complete-edition-section-10th-level-basic-holy-magic-list-call-god-aa2b3933@ead22e64a575a5ca40c902f765e70e2c
 ---
 
 # 10th Level Basic Holy Magic List [ Call God ]
@@ -17,10 +17,15 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-10th-level-basic-holy-magic-list-call-god-save-soul-7a89c583]] - narrower source section: 10th Level Basic Holy Magic List [ Call God ] / [ Save Soul ]
+### Source order
+
+- [[sword-world-rpg-complete-edition-section-magic-list-recall-spirit-e4635c34]] - previous source section: Magic List [ Recall Spirit ]
+
+### Source structure
+
 - [[sword-world-rpg-complete-edition-section-10th-level-basic-holy-magic-list-call-god-reincarnation-df022eb2]] - narrower source section: 10th Level Basic Holy Magic List [ Call God ] / [ Reincarnation
 - [[sword-world-rpg-complete-edition-section-10th-level-basic-holy-magic-list-call-god-rescue-32f1a4d2]] - narrower source section: 10th Level Basic Holy Magic List [ Call God ] / [ Rescue ]
-- [[sword-world-rpg-complete-edition-section-magic-list-recall-spirit-e4635c34]] - previous source section: Magic List [ Recall Spirit ]
+- [[sword-world-rpg-complete-edition-section-10th-level-basic-holy-magic-list-call-god-save-soul-7a89c583]] - narrower source section: 10th Level Basic Holy Magic List [ Call God ] / [ Save Soul ]
 
 ## Statements
 
@@ -61,6 +66,7 @@ From [[sword-world-rpg-complete-edition]].
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-03723))_
 
+<a id="atom-technical-atom-22c2930062e2ad51"></a>
 | Final | Score | Time | to | regain | memories | Special | Holy | Magic |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 20 | or less | Memories |  | cannot | be regained naturally |  | List |  |

@@ -4,11 +4,11 @@ page_kind: source
 summary: Copy on Write / Functional Iterators / iterating: 16 source-backed entries and 0 atom(s) from raw/javascriptallonge.pdf.
 page_family: section-reference
 sources: raw/javascriptallonge.pdf
-updated: 2026-07-01
+updated: 2026-07-02
 domain: javascriptallonge
 category_path: sources/javascriptallonge/sections
 source_id: javascriptallonge.pdf
-projection_coverage: section-javascriptallonge-section-copy-on-write-functional-iterators-iterating-5412bc60@fde1257825089a5cfab893cf0b253893
+projection_coverage: section-javascriptallonge-section-copy-on-write-functional-iterators-iterating-5412bc60@1e91dbf294580929858d3bc0329567e0
 ---
 
 # Copy on Write / Functional Iterators / iterating
@@ -17,8 +17,13 @@ From [[javascriptallonge]].
 
 ## Related pages
 
-- [[javascriptallonge-section-copy-on-write-functional-iterators-773e8dc1]] - broader source section: Copy on Write / Functional Iterators
+### Source order
+
 - [[javascriptallonge-section-copy-on-write-functional-iterators-unfolding-and-laziness-34b94643]] - next source section: Copy on Write / Functional Iterators / unfolding and laziness
+
+### Source structure
+
+- [[javascriptallonge-section-copy-on-write-functional-iterators-773e8dc1]] - broader source section: Copy on Write / Functional Iterators
 
 ## Statements
 

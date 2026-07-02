@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-targets-expansion-4b9ebedb@25b94b74492cd4102bccafa3af0c9a96
+projection_coverage: section-sword-world-rpg-complete-edition-section-targets-expansion-4b9ebedb@0dff636f449d2389312ec887cd490af2
 ---
 
 # 《 Targets Expansion 》
@@ -16,6 +16,8 @@ projection_coverage: section-sword-world-rpg-complete-edition-section-targets-ex
 From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
+
+### Source order
 
 - [[sword-world-rpg-complete-edition-section-5-1-7-magic-expansion-fd183c5b]] - previous source section: 5.1.7 Magic Expansion
 - [[sword-world-rpg-complete-edition-section-area-expansion-a192d968]] - next source section: 《 Area Expansion 》

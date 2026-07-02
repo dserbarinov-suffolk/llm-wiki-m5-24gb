@@ -10,6 +10,7 @@ source-facing labels; internal support ids never appear in the body.
 
 from __future__ import annotations
 
+from llmwiki.domain.ledger.atom_addressing import technical_atom_anchor
 from llmwiki.domain.ledger.atom_context import TechnicalAtomContext, best_atom_context
 from llmwiki.domain.ledger.atoms import AtomPayload, TablePayload, atom_raw_text
 from llmwiki.domain.ledger.canonical import deterministic_id, short_digest
@@ -67,7 +68,8 @@ def _render_atom(
         return body.add(f"> _(missing atom {atom_id})_\n\n")
     rendered = atom_block(atom.technical_atom_kind, atom.payload)
     context = _atom_context_line(ledger, atom_id, atom.source_locator)
-    return body.add(f"{context}**Atom:** _({citation})_\n\n{rendered}\n\n")
+    anchor = technical_atom_anchor(atom_id)
+    return body.add(f"{anchor}\n{context}**Atom:** _({citation})_\n\n{rendered}\n\n")
 
 
 def atom_block(kind: str, payload: AtomPayload) -> str:

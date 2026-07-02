@@ -7,7 +7,7 @@ sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: concepts
-projection_coverage: topic-sword-world-rpg-complete-edition-sword-breaker@28d54102b5aae82a0e184276e4083337
+projection_coverage: topic-sword-world-rpg-complete-edition-sword-breaker@50bb94f3d9fbfd3e35a374e20d4f80bd
 ---
 
 # Sword Breaker
@@ -33,10 +33,13 @@ What [[sword-world-rpg-complete-edition]] covers about sword breaker:
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-10454))_
 
+<a id="atom-technical-atom-299a956912d0cb51"></a>
 > Also, if you use it for an attack, you'll lose the evasion bonus.
 
 
 ## Related pages
+
+### Shared technical atoms
 
 - [[sword-world-rpg-complete-edition-gauche]] - shared statements and technical atoms: Gauche shares source evidence from Chapter 16: / 16.9 Special Weapons / Main-gauche/Sword Breaker: Main-gauche and sword breaker have the same attack scores as a dagger . When attacking with both hands, you'll still suffer a -2 ／ -4 penalty. Also, if you use it fo ... [truncated]; Gauche shares technical record from Chapter 16: / 16.9 Special Weapons / Main-gauche/Sword Breaker: Also, if you use it for an attack, you'll lose the evasion bonus. (1 shared statement(s), 1 shared atom(s))
 

@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-5-1-14-spirit-magic-list-9th-level-spirit-magic-list-earthquake-behemoth-greater-earth-spirit-5eb28679@6fff791c24f5d5959dc40ae99df9c3ce
+projection_coverage: section-sword-world-rpg-complete-edition-section-5-1-14-spirit-magic-list-9th-level-spirit-magic-list-earthquake-behemoth-greater-earth-spirit-5eb28679@aaea2cc119a1c59a7dfca3242ec4140d
 ---
 
 # 5.1.14 Spirit Magic List / 9th Level Spirit Magic List [ Earthquake ] (Behemoth/Greater Earth Spirit)
@@ -17,11 +17,16 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
+### Source order
+
+- [[sword-world-rpg-complete-edition-section-5-1-14-spirit-magic-list-8th-level-spirit-magic-list-ice-coffin-3b781afa]] - previous source section: 5.1.14 Spirit Magic List / 8th Level Spirit Magic List [ Ice Coffin ]
+- [[sword-world-rpg-complete-edition-section-5-1-14-spirit-magic-list-10th-level-spirit-magic-list-cf90da5a]] - next source section: 5.1.14 Spirit Magic List / 10th Level Spirit Magic List ]
+
+### Source structure
+
 - [[sword-world-rpg-complete-edition-section-5-1-14-spirit-magic-list-1f53ed62]] - broader source section: 5.1.14 Spirit Magic List
 - [[sword-world-rpg-complete-edition-section-5-1-14-spirit-magic-list-9th-level-spirit-magic-list-earthquake-behemoth-greater-earth-spirit-fr-e371d246]] - narrower source section: 5.1.14 Spirit Magic List / 9th Level Spirit Magic List [ Earthquake ] (Behemoth/Greater Earth Spirit) / [ Freeze ] (Fenrir/Greater Ice Spirit)
 - [[sword-world-rpg-complete-edition-section-5-1-14-spirit-magic-list-9th-level-spirit-magic-list-earthquake-behemoth-greater-earth-spirit-ma-03da7f6e]] - narrower source section: 5.1.14 Spirit Magic List / 9th Level Spirit Magic List [ Earthquake ] (Behemoth/Greater Earth Spirit) / [ Maelstrom ]
-- [[sword-world-rpg-complete-edition-section-5-1-14-spirit-magic-list-8th-level-spirit-magic-list-ice-coffin-3b781afa]] - previous source section: 5.1.14 Spirit Magic List / 8th Level Spirit Magic List [ Ice Coffin ]
-- [[sword-world-rpg-complete-edition-section-5-1-14-spirit-magic-list-10th-level-spirit-magic-list-cf90da5a]] - next source section: 5.1.14 Spirit Magic List / 10th Level Spirit Magic List ]
 
 ## Statements
 

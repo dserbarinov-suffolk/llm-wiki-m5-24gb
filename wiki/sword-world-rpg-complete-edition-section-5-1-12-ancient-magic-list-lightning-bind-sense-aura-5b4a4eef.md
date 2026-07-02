@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-5-1-12-ancient-magic-list-lightning-bind-sense-aura-5b4a4eef@e5cfd0d9cbf91fcf8a074c18b8b4ebbd
+projection_coverage: section-sword-world-rpg-complete-edition-section-5-1-12-ancient-magic-list-lightning-bind-sense-aura-5b4a4eef@069f23833eb3deb0457211bfcf59ca66
 ---
 
 # 5.1.12 Ancient Magic List / [ Lightning Bind ] / 《 Sense Aura 》
@@ -17,9 +17,14 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-5-1-12-ancient-magic-list-lightning-bind-497e8a08]] - broader source section: 5.1.12 Ancient Magic List / [ Lightning Bind ]
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-5-1-12-ancient-magic-list-lightning-bind-infravision-9c568d4b]] - previous source section: 5.1.12 Ancient Magic List / [ Lightning Bind ] / 《 Infravision 》
 - [[sword-world-rpg-complete-edition-section-5-1-12-ancient-magic-list-lightning-bind-silent-spirit-7b6855c6]] - next source section: 5.1.12 Ancient Magic List / [ Lightning Bind ] / 《 Silent Spirit 》
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-5-1-12-ancient-magic-list-lightning-bind-497e8a08]] - broader source section: 5.1.12 Ancient Magic List / [ Lightning Bind ]
 
 ## Statements
 

@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-5-1-12-ancient-magic-list-lock-f149d5a1@de646161c6ba0b93d4ae378699cbc578
+projection_coverage: section-sword-world-rpg-complete-edition-section-5-1-12-ancient-magic-list-lock-f149d5a1@980ea65a090c2292849dc5e35fb5aa78
 ---
 
 # 5.1.12 Ancient Magic List / [ Lock ]
@@ -17,10 +17,15 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-- [[sword-world-rpg-complete-edition-section-5-1-12-ancient-magic-list-2e59bfee]] - broader source section: 5.1.12 Ancient Magic List
-- [[sword-world-rpg-complete-edition-section-5-1-12-ancient-magic-list-lock-2nd-level-ancient-magic-list-oak-cb79db0a]] - narrower source section: 5.1.12 Ancient Magic List / [ Lock ] / 2nd Level Ancient Magic List [ Oak ]
+### Source order
+
 - [[sword-world-rpg-complete-edition-section-5-1-12-ancient-magic-list-light-abfe847d]] - previous source section: 5.1.12 Ancient Magic List / [ Light ]
 - [[sword-world-rpg-complete-edition-section-5-1-12-ancient-magic-list-sense-enemy-4be8c6a8]] - next source section: 5.1.12 Ancient Magic List / [ Sense Enemy ]
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-5-1-12-ancient-magic-list-2e59bfee]] - broader source section: 5.1.12 Ancient Magic List
+- [[sword-world-rpg-complete-edition-section-5-1-12-ancient-magic-list-lock-2nd-level-ancient-magic-list-oak-cb79db0a]] - narrower source section: 5.1.12 Ancient Magic List / [ Lock ] / 2nd Level Ancient Magic List [ Oak ]
 
 ## Statements
 
@@ -48,6 +53,7 @@ From [[sword-world-rpg-complete-edition]].
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-02040))_
 
+<a id="atom-technical-atom-5765744643ce5e92"></a>
 > Resist=None
 
 ### Technical frame 2: 5.1.12 Ancient Magic List / [ Lock ]
@@ -58,4 +64,5 @@ From [[sword-world-rpg-complete-edition]].
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-02041))_
 
+<a id="atom-technical-atom-37e5bc4f27a10c68"></a>
 > As a result, the door or lid will never open unless you chant the password you chose when casting the spell.

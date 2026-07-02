@@ -8,7 +8,7 @@ updated: 2026-07-02
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-4-9-unconscious-and-death-checks-e6129e9c@92518cacdf11e3055cabf4cd38168b91
+projection_coverage: section-sword-world-rpg-complete-edition-section-4-9-unconscious-and-death-checks-e6129e9c@50a8dc773f9bb0514708916b81d7df3c
 ---
 
 # 4.9 Unconscious and Death Checks
@@ -17,12 +17,17 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
+### Source order
+
+- [[sword-world-rpg-complete-edition-section-4-8-applying-damage-44a7268d]] - previous source section: 4.8 Applying Damage
+- [[sword-world-rpg-complete-edition-section-4-10-excellent-weapons-and-armor-1d473647]] - next source section: 4.10 Excellent Weapons and Armor
+
+### Source structure
+
 - [[sword-world-rpg-complete-edition-section-4-9-unconscious-and-death-checks-4-9-1-adventurer-death-checks-5131304c]] - narrower source section: 4.9 Unconscious and Death Checks / 4.9.1 Adventurer Death Checks
 - [[sword-world-rpg-complete-edition-section-4-9-unconscious-and-death-checks-4-9-2-death-checks-every-hour-f62c02d6]] - narrower source section: 4.9 Unconscious and Death Checks / 4.9.2 Death Checks Every Hour
 - [[sword-world-rpg-complete-edition-section-4-9-unconscious-and-death-checks-4-9-3-monster-death-check-3624af68]] - narrower source section: 4.9 Unconscious and Death Checks / 4.9.3 Monster Death Check
 - [[sword-world-rpg-complete-edition-section-4-9-unconscious-and-death-checks-4-9-4-mercy-f26f4d54]] - narrower source section: 4.9 Unconscious and Death Checks / 4.9.4 Mercy
-- [[sword-world-rpg-complete-edition-section-4-8-applying-damage-44a7268d]] - previous source section: 4.8 Applying Damage
-- [[sword-world-rpg-complete-edition-section-4-10-excellent-weapons-and-armor-1d473647]] - next source section: 4.10 Excellent Weapons and Armor
 
 ## Statements
 
@@ -74,6 +79,7 @@ From [[sword-world-rpg-complete-edition]].
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-01433))_
 
+<a id="atom-technical-atom-67cf3cb14b6f830a"></a>
 > Ducard II, with a life force of -4 , must make a death check .
 
 ### Technical frame 2: 4.9 Unconscious and Death Checks / 4.9.4 Mercy
@@ -84,4 +90,5 @@ From [[sword-world-rpg-complete-edition]].
 
 **Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-01454))_
 
+<a id="atom-technical-atom-018eabf1ebf940e8"></a>
 > If left untreated, they must make another death check after 1 hour , and
