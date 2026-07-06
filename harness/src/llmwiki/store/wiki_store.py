@@ -90,6 +90,10 @@ class WikiStore:
             return text[:SOURCE_READ_BUDGET_CHARS] + _TRUNCATION_MARKER
         return text
 
+    def read_source_for_ingest(self, source_locator: str) -> str:
+        """Read a raw source completely for coverage-preserving ingest."""
+        return self.raw_source_path(source_locator).read_text(encoding="utf-8")
+
     def list_sources(self) -> list[str]:
         raw = self._paths.raw_dir
         return sorted(

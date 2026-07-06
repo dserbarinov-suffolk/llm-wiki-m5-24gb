@@ -11,7 +11,7 @@ import json
 import re
 from dataclasses import asdict, dataclass
 
-from llmwiki.pdf.chunking import CHUNK_TOKEN_BUDGET, estimate_tokens
+from llmwiki.domain.source_batching import CHUNK_TOKEN_BUDGET, estimate_tokens
 
 
 @dataclass(frozen=True)

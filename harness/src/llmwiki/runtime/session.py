@@ -43,12 +43,12 @@ from llmwiki.domain.objects import (
 )
 from llmwiki.domain.pages import PageMetadata, WikiPage, slugify
 from llmwiki.domain.planning import (
-    build_markdown_page_plan,
     build_page_plan,
     observation_report,
     page_plan_to_json,
 )
 from llmwiki.domain.salience import compute_salience
+from llmwiki.domain.source_batching import SourceTextChunk, markdown_source_chunks
 from llmwiki.pdf import PdfError
 from llmwiki.pdf.document import DocumentModel
 from llmwiki.pdf.pipeline import (
@@ -177,25 +177,37 @@ class Session:
     async def _ingest_markdown(self, source_locator: str) -> OperationResult:
         raw_source = self.store.raw_source(source_locator)
         source_bundle = SourceBundle.one(raw_source)
-        source_text = self.store.read_source(source_locator)
-        page_plan = build_markdown_page_plan(
+        source_text = self.store.read_source_for_ingest(source_locator)
+        source_text_record = source_text_from_text(source_locator, source_text)
+        title = _markdown_title(source_locator)
+        source_chunks = markdown_source_chunks(source_text, title)
+        extracted_units = self._markdown_extracted_units(
+            raw_source,
+            source_chunks,
+            source_hash=source_text_record.source_hash,
+            fallback_title=title,
+            fallback_text=source_text,
+        )
+        page_plan = build_page_plan(
             plan_id=f"{slugify(Path(source_locator).stem)}-page-plan",
             source_bundle=source_bundle,
             raw_source=raw_source,
-            source_text=source_text,
+            extracted_units=extracted_units,
             existing_pages=self.store.page_texts(),
             wiki_structure=self.store.structure,
             today=self.today,
             schema=self._schema_object(),
         )
-        title = page_plan.extracted_units[0].heading_path if page_plan.extracted_units else ""
-        chunks = (ChunkText("unit-0001", "document", title, source_text),)
+        chunks = tuple(
+            ChunkText(unit.unit_id, unit.locator, unit.heading_path, unit.text)
+            for unit in extracted_units
+        )
         return self._finish_ledger_ingest(
             source_locator=source_locator,
             page_plan=page_plan,
             chunks=chunks,
             document_model=None,
-            source_text=source_text_from_text(source_locator, source_text),
+            source_text=source_text_record,
             run=self._markdown_ingest_run(source_locator, page_plan),
         )
 
@@ -581,6 +593,40 @@ class Session:
             )
         return tuple(units)
 
+    def _markdown_extracted_units(
+        self,
+        raw_source: RawSource,
+        source_chunks: tuple[SourceTextChunk, ...],
+        *,
+        source_hash: str,
+        fallback_title: str,
+        fallback_text: str,
+    ) -> tuple[ExtractedUnit, ...]:
+        if not source_chunks:
+            return (
+                ExtractedUnit(
+                    unit_id="unit-0001",
+                    raw_source=raw_source,
+                    locator="document",
+                    heading_path=fallback_title,
+                    text=fallback_text,
+                    extraction_status="ok",
+                    source_hash=source_hash,
+                ),
+            )
+        return tuple(
+            ExtractedUnit(
+                unit_id=f"unit-{chunk.chunk_id:04d}",
+                raw_source=raw_source,
+                locator=chunk.locator,
+                heading_path=chunk.heading_path,
+                text=chunk.text,
+                extraction_status="ok",
+                source_hash=source_hash,
+            )
+            for chunk in source_chunks
+        )
+
     def _write_page_plan(self, cache_dir: Path, page_plan: PagePlan) -> Path:
         path = cache_dir / "page_plan.json"
         path.write_text(page_plan_to_json(page_plan), encoding="utf-8")
@@ -629,6 +675,11 @@ class Session:
         graph = build_wiki_graph(self.store.page_texts(), generated_date=self.today)
         self.store.write_graph_json(graph.to_json_text())
         return graph_status(graph, self.store.read_graph_json())
+
+
+def _markdown_title(source_locator: str) -> str:
+    stem = Path(source_locator).stem.replace("_", " ").replace("-", " ")
+    return " ".join(word if word.isupper() else word.capitalize() for word in stem.split())
 
 
 def _confidence_summary_line(report: Any) -> str:

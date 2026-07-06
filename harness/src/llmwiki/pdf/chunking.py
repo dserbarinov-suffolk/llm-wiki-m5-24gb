@@ -10,14 +10,7 @@ from __future__ import annotations
 
 from dataclasses import dataclass
 
-# Per-map-run input budget from the design's 16K context table.
-CHUNK_TOKEN_BUDGET = 6000
-
-_CHARS_PER_TOKEN = 4  # same rough estimate forge uses
-
-
-def estimate_tokens(text: str) -> int:
-    return len(text) // _CHARS_PER_TOKEN
+from llmwiki.domain.source_batching import CHUNK_TOKEN_BUDGET, estimate_tokens
 
 
 @dataclass(frozen=True)

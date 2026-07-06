@@ -49,6 +49,15 @@ class TestRawLayer:
         assert "[TRUNCATED" in text
         assert len(text) < SOURCE_READ_BUDGET_CHARS + 200
 
+    def test_ingest_source_read_is_not_prompt_bounded(
+        self, paths: WikiPaths, store: WikiStore
+    ) -> None:
+        body = "x" * (SOURCE_READ_BUDGET_CHARS + 100) + " sentinel-at-end"
+        (paths.raw_dir / "big.md").write_text(body, encoding="utf-8")
+
+        assert store.read_source_for_ingest("big.md") == body
+        assert "sentinel-at-end" not in store.read_source("big.md")
+
 
 class TestWikiLayer:
     def test_write_page_creates_file_and_index_entry(
