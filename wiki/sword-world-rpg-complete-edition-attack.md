@@ -4,10 +4,10 @@ page_kind: concept
 summary: Attack: 0 statement(s) and 1 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: topic-concept
 sources: raw/Sword World RPG - Complete Edition.pdf
-updated: 2026-07-02
+updated: 2026-07-06
 domain: sword-world-rpg-complete-edition
 category_path: concepts
-projection_coverage: topic-sword-world-rpg-complete-edition-attack@79a0324c6d01a4678fefc09feeef8e39
+projection_coverage: topic-sword-world-rpg-complete-edition-attack@7943d8bf0060df9ee6f42287aa8c55ba
 ---
 
 # Attack
@@ -21,13 +21,13 @@ What [[sword-world-rpg-complete-edition]] covers about attack:
 
 ### Technical frame 1: Chapter 3: / Switch a Weapon's Hands and Attack
 
-**Context:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-01157))_
+**Context:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01157))_
 
 > Switch a weapon you're using with only one hand to both hands and attack. This action may be effective if you have a weapon that can be used with one or both hands.
 
-**Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-01158))_
+**Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01158))_
 
-<a id="atom-technical-atom-5b66609d7989c62c"></a>
+<a id="atom-technical-atom-9c4d4baa13eab000"></a>
 > If you're holding a weapon in one hand and a shield in the other, and that weapon can be used with both hands, you can drop the shield on the ground and attack with both hands, since it's as if you were holding the weapon in only one hand from the beginning.
 
 
@@ -35,7 +35,7 @@ What [[sword-world-rpg-complete-edition]] covers about attack:
 
 ### Source structure
 
-- [[sword-world-rpg-complete-edition-section-13-2-1-humans-attack-points-95c786c0]] - source section: 13.2.1 《 Humans 》 / 《 Attack Points 》 shares source evidence from 13.2.1 《 Humans 》 / 《 Attack Points 》: This represents the monster's attack method and its accuracy. The higher this score, the more likely the monster will be able to hit you with an attack. A character ... [truncated]; 13.2.1 《 Humans 》 / 《 Attack Points 》 shares technical record from 13.2.1 《 Humans 》 / 《 Attack Points 》: A character must make a success roll using their evasion speed as the baseline score and these attack points as the target score. (9 shared statement(s), 2 shared atom(s))
+- [[sword-world-rpg-complete-edition-section-13-2-1-humans-attack-points-4134717a]] - source section: 13.2.1 《 Humans 》 / 《 Attack Points 》 shares source evidence from 13.2.1 《 Humans 》 / 《 Attack Points 》: This represents the monster's attack method and its accuracy. The higher this score, the more likely the monster will be able to hit you with an attack. A character ... [truncated]; 13.2.1 《 Humans 》 / 《 Attack Points 》 shares technical record from 13.2.1 《 Humans 》 / 《 Attack Points 》: A character must make a success roll using their evasion speed as the baseline score and these attack points as the target score. (9 shared statement(s), 2 shared atom(s))
 
 ### Shared technical atoms
 

@@ -4,12 +4,12 @@ page_kind: recipe
 summary: function declaration caveats 34: reusable source-backed pattern with 7 statement(s) and 2 technical atom(s) from raw/javascriptallonge.pdf.
 page_family: recipe-pattern
 sources: raw/javascriptallonge.pdf
-updated: 2026-07-02
+updated: 2026-07-06
 domain: javascriptallonge
 category_path: recipes/javascriptallonge
 source_id: javascriptallonge.pdf
 aliases: function-declaration-caveats-34
-projection_coverage: recipe-javascriptallonge-recipe-function-declaration-caveats-34@32c195e745575103aebfb9862313c6fa
+projection_coverage: recipe-javascriptallonge-recipe-function-declaration-caveats-34@1c048acd2b605875f35ff62d7c3bddf6
 ---
 
 # function declaration caveats 34
@@ -18,23 +18,23 @@ From [[javascriptallonge]].
 
 ## Pattern
 
-- Use the source-backed pattern described in [[javascriptallonge-section-and-also-naming-functions-function-declaration-caveats-34-d724d0dc]].
+- Use the source-backed pattern described in [[javascriptallonge-section-and-also-naming-functions-function-declaration-caveats-34-4f93ce28]].
 - Evidence roles: decision, explanation, constraint, procedure, example, structured-state.
 
 ## Applicability And Rationale
 
-- Function declarations are formally only supposed to be made at what we might call the 'top level' of a function. _(javascriptallonge.pdf (source-range-0e12e052-00543))_
-- Although some JavaScript environments permit the following code, this example is technically illegal and definitely a bad idea: _(javascriptallonge.pdf (source-range-0e12e052-00543))_
-- 34 A number of the caveats discussed here were described in Jyrly Zaytsev's excellent article Named function expressions demystified. _(javascriptallonge.pdf (source-range-0e12e052-00544))_
-- Function declarations are not supposed to occur inside of blocks. _(javascriptallonge.pdf (source-range-0e12e052-00546))_
-- The big trouble with expressions like this is that they may work just fine in your test environment but work a different way in production. _(javascriptallonge.pdf (source-range-0e12e052-00546))_
-- Another caveat is that a function declaration cannot exist inside of any expression, otherwise it's a function expression. _(javascriptallonge.pdf (source-range-0e12e052-00547))_
+- Function declarations are formally only supposed to be made at what we might call the 'top level' of a function. _(javascriptallonge.pdf (source-range-c98ab3e6-00543))_
+- Although some JavaScript environments permit the following code, this example is technically illegal and definitely a bad idea: _(javascriptallonge.pdf (source-range-c98ab3e6-00543))_
+- 34 A number of the caveats discussed here were described in Jyrly Zaytsev's excellent article Named function expressions demystified. _(javascriptallonge.pdf (source-range-c98ab3e6-00544))_
+- Function declarations are not supposed to occur inside of blocks. _(javascriptallonge.pdf (source-range-c98ab3e6-00546))_
+- The big trouble with expressions like this is that they may work just fine in your test environment but work a different way in production. _(javascriptallonge.pdf (source-range-c98ab3e6-00546))_
+- Another caveat is that a function declaration cannot exist inside of any expression, otherwise it's a function expression. _(javascriptallonge.pdf (source-range-c98ab3e6-00547))_
 
 ## Technical Atoms
 
 ### Atom 1: `code-block`
 
-_Source: javascriptallonge.pdf (source-range-0e12e052-00545)_
+_Source: javascriptallonge.pdf (source-range-c98ab3e6-00545)_
 
 ```
 (function (camelCase) {
@@ -55,7 +55,7 @@ return "Fizz" + "Buzz";
 
 ### Atom 2: `code-block`
 
-_Source: javascriptallonge.pdf (source-range-0e12e052-00548)_
+_Source: javascriptallonge.pdf (source-range-c98ab3e6-00548)_
 
 ```
 function trueDat () { return true }
@@ -66,4 +66,4 @@ But this is not:
 ## Source Trail
 
 - Source manifest: [[javascriptallonge]]
-- Source section: [[javascriptallonge-section-and-also-naming-functions-function-declaration-caveats-34-d724d0dc]]
+- Source section: [[javascriptallonge-section-and-also-naming-functions-function-declaration-caveats-34-4f93ce28]]

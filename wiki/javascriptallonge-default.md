@@ -4,10 +4,10 @@ page_kind: concept
 summary: Default: 2 statement(s) and 1 atom(s) from raw/javascriptallonge.pdf.
 page_family: topic-concept
 sources: raw/javascriptallonge.pdf
-updated: 2026-07-02
+updated: 2026-07-06
 domain: javascriptallonge
 category_path: concepts
-projection_coverage: topic-javascriptallonge-default@44428331bf8779124563040c95417889
+projection_coverage: topic-javascriptallonge-default@57245bc55a2a1ff947d69ec1c07f7723
 ---
 
 # Default
@@ -18,22 +18,22 @@ What [[javascriptallonge]] covers about default:
 
 ### Composing and Decomposing Data / defaults and destructuring
 
-- Wesawearlier that destructuring parameters works the same way as destructuring assignment. Now we learn that we can create a default parameter argument. Can we create a default destructuring assignment? _(javascriptallonge.pdf (source-range-0e12e052-01006))_
+- Wesawearlier that destructuring parameters works the same way as destructuring assignment. Now we learn that we can create a default parameter argument. Can we create a default destructuring assignment? _(javascriptallonge.pdf (source-range-c98ab3e6-01006))_
 
-- How very useful: defaults can be supplied for destructuring assignments, just like defaults for parameters. _(javascriptallonge.pdf (source-range-0e12e052-01008))_
+- How very useful: defaults can be supplied for destructuring assignments, just like defaults for parameters. _(javascriptallonge.pdf (source-range-c98ab3e6-01008))_
 
 
 ## Technical atoms
 
 ### Technical frame 1: Composing and Decomposing Data / defaults and destructuring
 
-**Context:** _(javascriptallonge.pdf (source-range-0e12e052-01008))_
+**Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01008))_
 
 > How very useful: defaults can be supplied for destructuring assignments, just like defaults for parameters.
 
-**Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01007))_
+**Atom:** _(javascriptallonge.pdf (source-range-c98ab3e6-01007))_
 
-<a id="atom-technical-atom-641bd340a36cffff"></a>
+<a id="atom-technical-atom-08a4d8c2f911d51a"></a>
 ```
 const [first, second = "two"] = ["one"];
 `${first} . ${second}`

@@ -4,10 +4,10 @@ page_kind: concept
 summary: [ ③ Ship Steering [Dexterity]]: 9 statement(s) and 2 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: topic-concept
 sources: raw/Sword World RPG - Complete Edition.pdf
-updated: 2026-07-02
+updated: 2026-07-06
 domain: sword-world-rpg-complete-edition
 category_path: concepts
-projection_coverage: topic-sword-world-rpg-complete-edition-ship-steering-dexterity@c180256a82116faa51354faf2a8f31aa
+projection_coverage: topic-sword-world-rpg-complete-edition-ship-steering-dexterity@228332395d2f09f4afd9490b2ade06f3
 ---
 
 # [ ③ Ship Steering [Dexterity]]
@@ -18,34 +18,34 @@ What [[sword-world-rpg-complete-edition]] covers about [ ③ ship steering [dext
 
 ### 5.1.14 Spirit Magic List / 9th Level Spirit Magic List [ Earthquake ] (Behemoth/Greater Earth Spirit) / [ Maelstrom ]
 
-- If a ship is caught in the whirlpool, the person at the helm must make a success roll using the ship steering ability. The baseline score is sailor skill level/adventurer level + dexterity bonus for a small ship, and sailor skill level + intelligence bonus for a large ship. The target score is the final score from when the spell was cast. For more information, please refer to the section Sailor Skill (see p. 128). If successful, the ship will be able to safely survive the whirlpool, but if you fail, it will be swallowed up by the whirlpool and sink into the water. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-03362))_
+- If a ship is caught in the whirlpool, the person at the helm must make a success roll using the ship steering ability. The baseline score is sailor skill level/adventurer level + dexterity bonus for a small ship, and sailor skill level + intelligence bonus for a large ship. The target score is the final score from when the spell was cast. For more information, please refer to the section Sailor Skill (see p. 128). If successful, the ship will be able to safely survive the whirlpool, but if you fail, it will be swallowed up by the whirlpool and sink into the water. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-03362))_
 
 ### Chapter 6: / Common Adventurer Abilities / [ ③ Ship Steering [Dexterity]]
 
-- Adventurers can handle small boats using oars or poles. However, sailing ships require the full-fledged sailor skill , and adventurer level cannot be used as a substitute. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-04213))_
+- Adventurers can handle small boats using oars or poles. However, sailing ships require the full-fledged sailor skill , and adventurer level cannot be used as a substitute. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-04213))_
 
-- Any adventurer can operate a small vessel (boat, raft, etc.) that is operated using oars or poles. If you're just going straight through calm water, you don't need a success roll. In special cases such as avoiding collision with an approaching ship or surviving rapids , the adventurer operating the ship must succeed on a success roll using adventurer level + dexterity bonus as the baseline score. The difficulty is determined by the game master. If you fail, the boat will capsize. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-04214))_
+- Any adventurer can operate a small vessel (boat, raft, etc.) that is operated using oars or poles. If you're just going straight through calm water, you don't need a success roll. In special cases such as avoiding collision with an approaching ship or surviving rapids , the adventurer operating the ship must succeed on a success roll using adventurer level + dexterity bonus as the baseline score. The difficulty is determined by the game master. If you fail, the boat will capsize. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-04214))_
 
 ### Chapter 7: / 7.2 Merchant Skill / How to Create General Skills
 
-- Think about the abilities required for the skill (e.g. A skilled fisherman must be able to identify fish - fi sh check , be good at swimming swim , and be able to operate a boat small ship steering ) _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-04341))_
+- Think about the abilities required for the skill (e.g. A skilled fisherman must be able to identify fish - fi sh check , be good at swimming swim , and be able to operate a boat small ship steering ) _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-04341))_
 
 ### Chapter 7: / 7.5 [ ② Treatment [Intelligence]] / [ ③ Small Ship Steering [Dexterity] ]
 
-- This is the ability to handle small boats that are moved by poles or oars, and move them as desired. If you're just going straight through calm water, you don't need a success roll. In special cases such as avoiding collision with an approaching ship or surviving rapids , you must succeed on a success roll using sailor skill level + dexterity bonus as the baseline score. The difficulty is determined by the game master. If you fail, the boat will capsize. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-04428))_
+- This is the ability to handle small boats that are moved by poles or oars, and move them as desired. If you're just going straight through calm water, you don't need a success roll. In special cases such as avoiding collision with an approaching ship or surviving rapids , you must succeed on a success roll using sailor skill level + dexterity bonus as the baseline score. The difficulty is determined by the game master. If you fail, the boat will capsize. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-04428))_
 
 
 ## Technical atoms
 
 ### Technical frame 1: Chapter 6: / Common Adventurer Abilities / [ ③ Ship Steering [Dexterity]]
 
-**Context:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-04213))_
+**Context:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-04213))_
 
 > Adventurers can handle small boats using oars or poles. However, sailing ships require the full-fledged sailor skill , and adventurer level cannot be used as a substitute.
 
-**Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-04214))_
+**Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-04214))_
 
-<a id="atom-technical-atom-11be29ac1fd1141a"></a>
+<a id="atom-technical-atom-5621f0a60391deb3"></a>
 > If you're just going straight through calm water, you don't need a success roll.
 
 
@@ -53,8 +53,8 @@ What [[sword-world-rpg-complete-edition]] covers about [ ③ ship steering [dext
 
 ### Source structure
 
-- [[sword-world-rpg-complete-edition-section-chapter-6-common-adventurer-abilities-ship-steering-dexterity-3632bbca]] - source section: Chapter 6: / Common Adventurer Abilities / [ ③ Ship Steering [Dexterity]] shares source evidence from Chapter 6: / Common Adventurer Abilities / [ ③ Ship Steering [Dexterity]]: Adventurers can handle small boats using oars or poles. However, sailing ships require the full-fledged sailor skill , and adventurer level cannot be used as a substitute.; Chapter 6: / Common Adventurer Abilities / [ ③ Ship Steering [Dexterity]] shares technical record from Chapter 6: / Common Adventurer Abilities / [ ③ Ship Steering [Dexterity]]: If you're just going straight through calm water, you don't need a success roll. (5 shared statement(s), 1 shared atom(s))
-- [[sword-world-rpg-complete-edition-section-chapter-7-7-5-treatment-intelligence-small-ship-steering-dexterity-9411db2e]] - source section: Chapter 7: / 7.5 [ ② Treatment [Intelligence]] / [ ③ Small Ship Steering [Dexterity] ] shares source evidence from Chapter 7: / 7.5 [ ② Treatment [Intelligence]] / [ ③ Small Ship Steering [Dexterity] ]: This is the ability to handle small boats that are moved by poles or oars, and move them as desired. If you're just going straight through calm water, you don't need ... [truncated]; Chapter 7: / 7.5 [ ② Treatment [Intelligence]] / [ ③ Small Ship Steering [Dexterity] ] shares technical record from Chapter 7: / 7.5 [ ② Treatment [Intelligence]] / [ ③ Small Ship Steering [Dexterity] ]: If you're just going straight through calm water, you don't need a success roll. (2 shared statement(s), 1 shared atom(s))
+- [[sword-world-rpg-complete-edition-section-chapter-6-common-adventurer-abilities-ship-steering-dexterity-0c72e5b8]] - source section: Chapter 6: / Common Adventurer Abilities / [ ③ Ship Steering [Dexterity]] shares source evidence from Chapter 6: / Common Adventurer Abilities / [ ③ Ship Steering [Dexterity]]: Adventurers can handle small boats using oars or poles. However, sailing ships require the full-fledged sailor skill , and adventurer level cannot be used as a substitute.; Chapter 6: / Common Adventurer Abilities / [ ③ Ship Steering [Dexterity]] shares technical record from Chapter 6: / Common Adventurer Abilities / [ ③ Ship Steering [Dexterity]]: If you're just going straight through calm water, you don't need a success roll. (5 shared statement(s), 1 shared atom(s))
+- [[sword-world-rpg-complete-edition-section-chapter-7-7-5-treatment-intelligence-small-ship-steering-dexterity-c4021a0f]] - source section: Chapter 7: / 7.5 [ ② Treatment [Intelligence]] / [ ③ Small Ship Steering [Dexterity] ] shares source evidence from Chapter 7: / 7.5 [ ② Treatment [Intelligence]] / [ ③ Small Ship Steering [Dexterity] ]: This is the ability to handle small boats that are moved by poles or oars, and move them as desired. If you're just going straight through calm water, you don't need ... [truncated]; Chapter 7: / 7.5 [ ② Treatment [Intelligence]] / [ ③ Small Ship Steering [Dexterity] ] shares technical record from Chapter 7: / 7.5 [ ② Treatment [Intelligence]] / [ ③ Small Ship Steering [Dexterity] ]: If you're just going straight through calm water, you don't need a success roll. (2 shared statement(s), 1 shared atom(s))
 
 ### Shared claims
 

@@ -4,12 +4,12 @@ page_kind: recipe
 summary: Object.assign: reusable source-backed pattern with 1 statement(s) and 7 technical atom(s) from raw/javascriptallonge.pdf.
 page_family: recipe-pattern
 sources: raw/javascriptallonge.pdf
-updated: 2026-07-02
+updated: 2026-07-06
 domain: javascriptallonge
 category_path: recipes/javascriptallonge
 source_id: javascriptallonge.pdf
 aliases: object-assign
-projection_coverage: recipe-javascriptallonge-recipe-object-assign@ae4c149bfe9dfb6c8a83e6d45825495c
+projection_coverage: recipe-javascriptallonge-recipe-object-assign@5d5c3be535ed4708f172d003969e9e1d
 ---
 
 # Object.assign
@@ -18,18 +18,18 @@ From [[javascriptallonge]].
 
 ## Pattern
 
-- Use the source-backed pattern described in [[javascriptallonge-section-recipes-with-data-object-assign-bd2a6434]].
+- Use the source-backed pattern described in [[javascriptallonge-section-recipes-with-data-object-assign-892f42ff]].
 - Evidence roles: decision, constraint, example.
 
 ## Applicability And Rationale
 
-- Both needs can be met with Object.assign , a standard function. _(javascriptallonge.pdf (source-range-0e12e052-01472))_
+- Both needs can be met with Object.assign , a standard function. _(javascriptallonge.pdf (source-range-c98ab3e6-01472))_
 
 ## Technical Atoms
 
 ### Atom 1: `code-block`
 
-_Source: javascriptallonge.pdf (source-range-0e12e052-01469)_
+_Source: javascriptallonge.pdf (source-range-c98ab3e6-01469)_
 
 ```
 const inventory = {
@@ -42,7 +42,7 @@ inventory.pears = 24;
 
 ### Atom 2: `code-block`
 
-_Source: javascriptallonge.pdf (source-range-0e12e052-01471)_
+_Source: javascriptallonge.pdf (source-range-c98ab3e6-01471)_
 
 ```
 for (let fruit in shipment) {
@@ -52,7 +52,7 @@ inventory[fruit] = shipment[fruit]
 
 ### Atom 3: `code-block`
 
-_Source: javascriptallonge.pdf (source-range-0e12e052-01473)_
+_Source: javascriptallonge.pdf (source-range-c98ab3e6-01473)_
 
 ```
 Object.assign({}, {
@@ -64,7 +64,7 @@ oranges: 12
 
 ### Atom 4: `code-block`
 
-_Source: javascriptallonge.pdf (source-range-0e12e052-01475)_
+_Source: javascriptallonge.pdf (source-range-c98ab3e6-01475)_
 
 ```
 const inventory = {
@@ -80,7 +80,7 @@ Object.assign(inventory, shipment)
 
 ### Atom 5: `code-block`
 
-_Source: javascriptallonge.pdf (source-range-0e12e052-01476)_
+_Source: javascriptallonge.pdf (source-range-c98ab3e6-01476)_
 
 ```
 //=> { apples: 12,
@@ -94,7 +94,7 @@ pears: 24 }
 
 ### Atom 6: `code-block`
 
-_Source: javascriptallonge.pdf (source-range-0e12e052-01478)_
+_Source: javascriptallonge.pdf (source-range-c98ab3e6-01478)_
 
 ```
 const Queue = function () {
@@ -133,4 +133,4 @@ isEmpty () {
 ## Source Trail
 
 - Source manifest: [[javascriptallonge]]
-- Source section: [[javascriptallonge-section-recipes-with-data-object-assign-bd2a6434]]
+- Source section: [[javascriptallonge-section-recipes-with-data-object-assign-892f42ff]]

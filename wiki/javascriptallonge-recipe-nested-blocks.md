@@ -4,12 +4,12 @@ page_kind: recipe
 summary: nested blocks: reusable source-backed pattern with 4 statement(s) and 5 technical atom(s) from raw/javascriptallonge.pdf.
 page_family: recipe-pattern
 sources: raw/javascriptallonge.pdf
-updated: 2026-07-02
+updated: 2026-07-06
 domain: javascriptallonge
 category_path: recipes/javascriptallonge
 source_id: javascriptallonge.pdf
 aliases: nested-blocks
-projection_coverage: recipe-javascriptallonge-recipe-nested-blocks@ebd667bd1306b20741d6753382cc5623
+projection_coverage: recipe-javascriptallonge-recipe-nested-blocks@9a31177c1abe60fe301d18340627abc4
 ---
 
 # nested blocks
@@ -18,21 +18,21 @@ From [[javascriptallonge]].
 
 ## Pattern
 
-- Use the source-backed pattern described in [[javascriptallonge-section-and-also-that-constant-coffee-craving-nested-blocks-78bcbfc7]].
+- Use the source-backed pattern described in [[javascriptallonge-section-and-also-that-constant-coffee-craving-nested-blocks-9a8a3f7d]].
 - Evidence roles: decision, explanation, procedure, structured-state, example.
 
 ## Applicability And Rationale
 
-- But there are other kinds of blocks. _(javascriptallonge.pdf (source-range-0e12e052-00433))_
-- Up to now, we've only ever seen blocks we use as the body of functions. _(javascriptallonge.pdf (source-range-0e12e052-00433))_
-- The if statement is a statement, not an expression (an unfortunate design choice), and its clauses are statements or blocks. _(javascriptallonge.pdf (source-range-0e12e052-00437))_
-- We've used a block as the else clause, and since it's a block, we've placed a const statement inside it. _(javascriptallonge.pdf (source-range-0e12e052-00441))_
+- But there are other kinds of blocks. _(javascriptallonge.pdf (source-range-c98ab3e6-00433))_
+- Up to now, we've only ever seen blocks we use as the body of functions. _(javascriptallonge.pdf (source-range-c98ab3e6-00433))_
+- The if statement is a statement, not an expression (an unfortunate design choice), and its clauses are statements or blocks. _(javascriptallonge.pdf (source-range-c98ab3e6-00437))_
+- We've used a block as the else clause, and since it's a block, we've placed a const statement inside it. _(javascriptallonge.pdf (source-range-c98ab3e6-00441))_
 
 ## Technical Atoms
 
 ### Atom 1: `code-block`
 
-_Source: javascriptallonge.pdf (source-range-0e12e052-00434)_
+_Source: javascriptallonge.pdf (source-range-c98ab3e6-00434)_
 
 ```
 (n) => {
@@ -48,7 +48,7 @@ return even(n)
 
 ### Atom 2: `code-block`
 
-_Source: javascriptallonge.pdf (source-range-0e12e052-00436)_
+_Source: javascriptallonge.pdf (source-range-c98ab3e6-00436)_
 
 ```
 ((n) => {
@@ -65,7 +65,7 @@ return even(n)
 
 ### Atom 3: `code-block`
 
-_Source: javascriptallonge.pdf (source-range-0e12e052-00438)_
+_Source: javascriptallonge.pdf (source-range-c98ab3e6-00438)_
 
 ```
 (n) => {
@@ -80,7 +80,7 @@ return odd(x - 1);
 
 ### Atom 4: `code-block`
 
-_Source: javascriptallonge.pdf (source-range-0e12e052-00439)_
+_Source: javascriptallonge.pdf (source-range-c98ab3e6-00439)_
 
 ```
 }
@@ -102,7 +102,7 @@ return even(n)
 
 ### Atom 5: `code-block`
 
-_Source: javascriptallonge.pdf (source-range-0e12e052-00440)_
+_Source: javascriptallonge.pdf (source-range-c98ab3e6-00440)_
 
 ```
 //=> true
@@ -111,4 +111,4 @@ _Source: javascriptallonge.pdf (source-range-0e12e052-00440)_
 ## Source Trail
 
 - Source manifest: [[javascriptallonge]]
-- Source section: [[javascriptallonge-section-and-also-that-constant-coffee-craving-nested-blocks-78bcbfc7]]
+- Source section: [[javascriptallonge-section-and-also-that-constant-coffee-craving-nested-blocks-9a8a3f7d]]

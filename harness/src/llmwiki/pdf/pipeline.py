@@ -1,4 +1,4 @@
-"""Extraction pipeline orchestrator: PDF -> cached DocumentModel + chunks + manifest.
+"""Extraction pipeline orchestrator: PDF -> cached DocumentModel + source units + manifest.
 
 Derived artifacts live under <cache_root>/<sha256-prefix>/.
 They are disposable, reproducible, and outside the wiki's three layers.
@@ -8,6 +8,7 @@ Re-running with a complete existing artifact set is a cache hit.
 from __future__ import annotations
 
 import hashlib
+import shutil
 from collections.abc import Callable
 from dataclasses import dataclass
 from pathlib import Path
@@ -18,22 +19,26 @@ from llmwiki.pdf.classify import PdfKind, classify_pdf
 from llmwiki.pdf.docling_extractor import extract_document_model
 from llmwiki.pdf.document import (
     DocumentModel,
-    SourceChunk,
-    build_source_chunks,
+    SourceUnit,
     build_source_sections,
+    build_source_units,
     document_model_from_json,
     document_model_to_json,
+    render_source_units,
     source_sections_to_json,
+    source_units_from_jsonl,
+    source_units_to_jsonl,
 )
 from llmwiki.pdf.extractor import read_page_char_counts
-from llmwiki.pdf.manifest import ChunkRecord, Manifest, from_json, to_json
+from llmwiki.pdf.manifest import Manifest, SourceUnitRecord, from_json, to_json
 from llmwiki.pdf.recognizer import TextRecognizer
 from llmwiki.pdf.table_extractor import enrich_document_model_with_tables
 
 _MANIFEST_FILE = "manifest.json"
 _DOCUMENT_MODEL_FILE = "document_model.json"
 _SOURCE_SECTIONS_FILE = "source_sections.json"
-_CHUNK_DIR = "chunks"
+_SOURCE_UNITS_FILE = "source_units.jsonl"
+_OBSOLETE_CHUNK_DIR = "chunks"
 
 DocumentExtractFn = Callable[[Path, str, str], DocumentModel]
 
@@ -44,16 +49,16 @@ class ExtractionResult:
     cache_dir: Path
 
 
-def chunk_file(cache_dir: Path, chunk_id: int) -> Path:
-    return cache_dir / _CHUNK_DIR / f"{chunk_id:04d}.md"
+def source_units_file(cache_dir: Path) -> Path:
+    return cache_dir / _SOURCE_UNITS_FILE
 
 
 def read_source_text(cache_dir: Path) -> str:
-    """The whole extracted source (all chunks) — salience's mention corpus."""
-    chunk_dir = cache_dir / _CHUNK_DIR
-    if not chunk_dir.is_dir():
+    """The whole extracted source rendered from structured source units."""
+    units = read_source_units(cache_dir)
+    if not units:
         return ""
-    return "\n\n".join(p.read_text(encoding="utf-8") for p in sorted(chunk_dir.glob("*.md")))
+    return render_source_units(units)
 
 
 def save_manifest(result: ExtractionResult) -> None:
@@ -67,11 +72,20 @@ def read_document_model(cache_dir: Path) -> DocumentModel | None:
     return document_model_from_json(path.read_text(encoding="utf-8"))
 
 
+def read_source_units(cache_dir: Path) -> tuple[SourceUnit, ...]:
+    path = source_units_file(cache_dir)
+    if not path.is_file():
+        return ()
+    return source_units_from_jsonl(path.read_text(encoding="utf-8"))
+
+
 def cache_has_current_pdf_artifacts(cache_dir: Path) -> bool:
     return (
         (cache_dir / _MANIFEST_FILE).is_file()
         and (cache_dir / _DOCUMENT_MODEL_FILE).is_file()
         and (cache_dir / _SOURCE_SECTIONS_FILE).is_file()
+        and source_units_file(cache_dir).is_file()
+        and _read_manifest_if_current(cache_dir) is not None
     )
 
 
@@ -92,26 +106,21 @@ def ensure_extracted(
     document_extractor: DocumentExtractFn = extract_document_model,
     model_profile: ModelProfile = DEFAULT_MODEL_PROFILE,
 ) -> ExtractionResult:
-    """Extract + chunk the PDF, or return the cached manifest (resume)."""
+    """Extract + structure the PDF, or return the cached manifest (resume)."""
     _ = recognizer
     sha = _sha256(pdf_path)
     cache_dir = cache_root / sha[:16]
-    manifest_path = cache_dir / _MANIFEST_FILE
 
-    if cache_has_current_pdf_artifacts(cache_dir) and not reextract:
+    if not reextract:
         document_model = read_document_model(cache_dir)
         if document_model is not None:
-            manifest = from_json(manifest_path.read_text(encoding="utf-8"))
             return _write_derived_artifacts(
                 cache_dir,
                 source_rel,
                 document_model,
-                previous_manifest=manifest,
+                previous_manifest=_read_manifest_if_current(cache_dir),
                 model_profile=model_profile,
             )
-        manifest = from_json(manifest_path.read_text(encoding="utf-8"))
-        if _chunk_files_present(cache_dir, manifest):
-            return ExtractionResult(manifest=manifest, cache_dir=cache_dir)
 
     if classify_pdf(read_page_char_counts(pdf_path)) is PdfKind.SCANNED:
         raise ScannedPdfError(
@@ -138,7 +147,7 @@ def _write_derived_artifacts(
     model_profile: ModelProfile = DEFAULT_MODEL_PROFILE,
 ) -> ExtractionResult:
     source_sections = build_source_sections(document_model)
-    source_chunks = build_source_chunks(
+    source_units = build_source_units(
         document_model, source_sections, model_profile=model_profile
     )
 
@@ -149,43 +158,55 @@ def _write_derived_artifacts(
         source_sections_to_json(source_sections), encoding="utf-8"
     )
 
-    chunk_dir = cache_dir / _CHUNK_DIR
-    chunk_dir.mkdir(parents=True, exist_ok=True)
-    for old_chunk in chunk_dir.glob("*.md"):
-        old_chunk.unlink()
-    for chunk in source_chunks:
-        chunk_file(cache_dir, chunk.chunk_id).write_text(chunk.text, encoding="utf-8")
+    source_units_file(cache_dir).write_text(
+        source_units_to_jsonl(source_units), encoding="utf-8"
+    )
+    obsolete_chunk_dir = cache_dir / _OBSOLETE_CHUNK_DIR
+    if obsolete_chunk_dir.is_dir():
+        shutil.rmtree(obsolete_chunk_dir)
 
     manifest = Manifest(
         source=source_rel,
         sha256=document_model.source_hash,
         extractor_name=document_model.extractor_name,
-        chunks=tuple(_record(c, previous_manifest) for c in source_chunks),
+        source_units=tuple(_record(unit, previous_manifest) for unit in source_units),
     )
     result = ExtractionResult(manifest=manifest, cache_dir=cache_dir)
     save_manifest(result)
     return result
 
 
-def _chunk_files_present(cache_dir: Path, manifest: Manifest) -> bool:
-    return all(chunk_file(cache_dir, record.chunk_id).is_file() for record in manifest.chunks)
+def _source_units_file_present(cache_dir: Path) -> bool:
+    return source_units_file(cache_dir).is_file()
 
 
-def _record(chunk: SourceChunk, previous_manifest: Manifest | None = None) -> ChunkRecord:
-    base = ChunkRecord(
-        chunk_id=chunk.chunk_id,
-        heading=chunk.heading_path,
-        start_page=chunk.page_start,
-        end_page=chunk.page_end,
-        token_estimate=chunk.token_estimate,
+def _read_manifest_if_current(cache_dir: Path) -> Manifest | None:
+    path = cache_dir / _MANIFEST_FILE
+    if not path.is_file() or not _source_units_file_present(cache_dir):
+        return None
+    try:
+        return from_json(path.read_text(encoding="utf-8"))
+    except (KeyError, TypeError, ValueError):
+        return None
+
+
+def _record(
+    source_unit: SourceUnit, previous_manifest: Manifest | None = None
+) -> SourceUnitRecord:
+    base = SourceUnitRecord(
+        unit_id=source_unit.unit_id,
+        heading=source_unit.heading_path,
+        start_page=source_unit.page_start,
+        end_page=source_unit.page_end,
+        token_estimate=source_unit.token_estimate,
     )
     if previous_manifest is None:
         return base
     previous = _matching_previous_record(base, previous_manifest)
     if previous is None:
         return base
-    return ChunkRecord(
-        chunk_id=base.chunk_id,
+    return SourceUnitRecord(
+        unit_id=base.unit_id,
         heading=base.heading,
         start_page=base.start_page,
         end_page=base.end_page,
@@ -197,11 +218,11 @@ def _record(chunk: SourceChunk, previous_manifest: Manifest | None = None) -> Ch
 
 
 def _matching_previous_record(
-    record: ChunkRecord, previous_manifest: Manifest
-) -> ChunkRecord | None:
-    for previous in previous_manifest.chunks:
+    record: SourceUnitRecord, previous_manifest: Manifest
+) -> SourceUnitRecord | None:
+    for previous in previous_manifest.source_units:
         if (
-            previous.chunk_id == record.chunk_id
+            previous.unit_id == record.unit_id
             and previous.heading == record.heading
             and previous.start_page == record.start_page
             and previous.end_page == record.end_page

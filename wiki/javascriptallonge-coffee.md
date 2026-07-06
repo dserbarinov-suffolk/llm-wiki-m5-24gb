@@ -4,10 +4,10 @@ page_kind: concept
 summary: Coffee: 5 statement(s) and 5 atom(s) from raw/javascriptallonge.pdf.
 page_family: broad-topic
 sources: raw/javascriptallonge.pdf
-updated: 2026-07-02
+updated: 2026-07-06
 domain: javascriptallonge
 category_path: concepts
-projection_coverage: topic-javascriptallonge-coffee@da1fa8eaa601a8db5dbd8071444e48ab
+projection_coverage: topic-javascriptallonge-coffee@3be1596e7a068be004e1ebb92b10377e
 ---
 
 # Coffee
@@ -18,37 +18,37 @@ What [[javascriptallonge]] covers about coffee:
 
 ### Prelude: Values and Expressions over Coffee / values are expressions
 
-- All values are expressions. Say you hand the barista a café Cubano. Yup, you hand over a cup with some coffee infused through partially caramelized sugar. You say, 'I want one of these.' The barista is no fool, she gives it straight back to you, and you get exactly what you want. Thus, a café Cubano is an expression (you can use it to place an order) and a value (you get it back from the barista). _(javascriptallonge.pdf (source-range-0e12e052-00103))_
+- All values are expressions. Say you hand the barista a café Cubano. Yup, you hand over a cup with some coffee infused through partially caramelized sugar. You say, 'I want one of these.' The barista is no fool, she gives it straight back to you, and you get exactly what you want. Thus, a café Cubano is an expression (you can use it to place an order) and a value (you get it back from the barista). _(javascriptallonge.pdf (source-range-c98ab3e6-00103))_
 
-- Now the barista gives us back an espresso. And if we hand over the espresso, we get the espresso right back. So, boiling water plus ground coffee is an expression, but it isn't a value. 11 Boiling water is a value. Ground coffee is a value. Espresso is a value. Boiling water plus ground coffee is an expression. _(javascriptallonge.pdf (source-range-0e12e052-00111))_
+- Now the barista gives us back an espresso. And if we hand over the espresso, we get the espresso right back. So, boiling water plus ground coffee is an expression, but it isn't a value. 11 Boiling water is a value. Ground coffee is a value. Espresso is a value. Boiling water plus ground coffee is an expression. _(javascriptallonge.pdf (source-range-c98ab3e6-00111))_
 
 ### A Warm Cup: Basic Strings and Quasi-Literals
 
-- Coffee and a Book An expression is any valid unit of code that resolves to a value.-Mozilla Development Network: Expressions and operators 87 _(javascriptallonge.pdf (source-range-0e12e052-01494))_
+- Coffee and a Book An expression is any valid unit of code that resolves to a value.-Mozilla Development Network: Expressions and operators 87 _(javascriptallonge.pdf (source-range-c98ab3e6-01494))_
 
 
 ## Technical atoms
 
 ### Technical frame 1: Prelude: Values and Expressions over Coffee / values are expressions
 
-**Context:** _(javascriptallonge.pdf (source-range-0e12e052-00110))_
+**Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-00110))_
 
 > Astute readers will realize we're omitting something. Congratulations! Take a sip of espresso. We'll get to that in a moment.
 
-**Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00111))_
+**Atom:** _(javascriptallonge.pdf (source-range-c98ab3e6-00111))_
 
-<a id="atom-technical-atom-4d47451f3e2595d1"></a>
+<a id="atom-technical-atom-8c1ad56d79ea95eb"></a>
 > And if we hand over the espresso, we get the espresso right back.
 
 ### Technical frame 2: Prelude: Values and Expressions over Coffee / values are expressions
 
-**Context:** _(javascriptallonge.pdf (source-range-0e12e052-00122))_
+**Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-00122))_
 
 > Second, sometimes, the cups are of the same type-perhaps two espresso cups-but they have different contents. One holds a single, one a double. This corresponds to comparing two JavaScript values that have the same type but different 'content.' For example, the number 5 is not the same thing as the number 2 .
 
-**Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00114))_
+**Atom:** _(javascriptallonge.pdf (source-range-c98ab3e6-00114))_
 
-<a id="atom-technical-atom-a3ddd2e6a907036d"></a>
+<a id="atom-technical-atom-57fe95035173cab8"></a>
 ```text
 10 Technically, it's a representation of a value using Base10 notation, but we needn't worry about that in this book. You and I both understand that this means '42,' and so does the computer.
 11 In some languages, expressions are a kind of value unto themselves and can be manipulated. The grandfather of such languages is Lisp. JavaScript is not such a language, expressions in and of themselves are not values.
@@ -66,13 +66,13 @@ What [[javascriptallonge]] covers about coffee:
 
 ### Technical frame 3: Prelude: Values and Expressions over Coffee / values are expressions
 
-**Context:** _(javascriptallonge.pdf (source-range-0e12e052-00122))_
+**Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-00122))_
 
 > Second, sometimes, the cups are of the same type-perhaps two espresso cups-but they have different contents. One holds a single, one a double. This corresponds to comparing two JavaScript values that have the same type but different 'content.' For example, the number 5 is not the same thing as the number 2 .
 
-**Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00116))_
+**Atom:** _(javascriptallonge.pdf (source-range-c98ab3e6-00116))_
 
-<a id="atom-technical-atom-bd6b2150c17dfd44"></a>
+<a id="atom-technical-atom-a1ed3b32e9497902"></a>
 ```text
 2 In JavaScript, we test whether two values are identical with the operator, and whether they are === not identical with the operator: !== 2 === 2 //=> true 'hello' !== 'goodbye' //=> true How does work, exactly? Imagine that you’re shown a cup of coffee. And then you’re shown === another cup of coffee. Are the two cups “identical?” In JavaScript, there are four possibilities: First, sometimes, the cups are of different kinds. One is a demitasse, the other a mug. This corresponds to comparing two things in JavaScript that have different types. For example, the string "2" is not the same thing as the number 2. Strings and numbers are different types, so strings and numbers are never identical:
 2 === '2' //=> false true !== 'true' //=> true Second, sometimes, the cups are of the same type–perhaps two espresso cups–but they have different contents. One holds a single, one a double. This corresponds to comparing two JavaScript values that have the same type but different “content.” For example, the number 5 is not the same thing as the number 2. true === false //=> false

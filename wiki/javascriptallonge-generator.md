@@ -4,10 +4,10 @@ page_kind: concept
 summary: Generator: 4 statement(s) and 4 atom(s) from raw/javascriptallonge.pdf.
 page_family: topic-concept
 sources: raw/javascriptallonge.pdf
-updated: 2026-07-02
+updated: 2026-07-06
 domain: javascriptallonge
 category_path: concepts
-projection_coverage: topic-javascriptallonge-generator@0d8850179498ec762c1364c611aca6b0
+projection_coverage: topic-javascriptallonge-generator@c14e8912f1adb9be286a6fc80ab528f9
 ---
 
 # Generator
@@ -18,37 +18,37 @@ What [[javascriptallonge]] covers about generator:
 
 ### Served by the Pot: Collections / Generating Iterables / generators and iterables
 
-- Our generator function oneTwoThree is not an iterator. It's a function that returns an iterator when we invoke it. We write the function to yield values instead of return a single value, and JavaScript takes care of turning this into an object with a .next() function we can call. _(javascriptallonge.pdf (source-range-0e12e052-01704))_
+- Our generator function oneTwoThree is not an iterator. It's a function that returns an iterator when we invoke it. We write the function to yield values instead of return a single value, and JavaScript takes care of turning this into an object with a .next() function we can call. _(javascriptallonge.pdf (source-range-c98ab3e6-01704))_
 
-- If we call our generator function more than once, we get new iterators. As we saw above, we called oneTwoThree three times, and each time we got an iterator that begins at 1 and counts to 3 . Recalling the way we wrote ordered collections, we could make a collection that uses a generator function: _(javascriptallonge.pdf (source-range-0e12e052-01705))_
+- If we call our generator function more than once, we get new iterators. As we saw above, we called oneTwoThree three times, and each time we got an iterator that begins at 1 and counts to 3 . Recalling the way we wrote ordered collections, we could make a collection that uses a generator function: _(javascriptallonge.pdf (source-range-c98ab3e6-01705))_
 
-- This pattern is encouraged, so much so that JavaScript provides a concise syntax for writing generator methods for objects: _(javascriptallonge.pdf (source-range-0e12e052-01708))_
+- This pattern is encouraged, so much so that JavaScript provides a concise syntax for writing generator methods for objects: _(javascriptallonge.pdf (source-range-c98ab3e6-01708))_
 
-- This object declares a [Symbol.iterator] function that makes it iterable. Because it's declared *[Symbol.iterator] , it's a generator instead of an iterator. _(javascriptallonge.pdf (source-range-0e12e052-01710))_
+- This object declares a [Symbol.iterator] function that makes it iterable. Because it's declared *[Symbol.iterator] , it's a generator instead of an iterator. _(javascriptallonge.pdf (source-range-c98ab3e6-01710))_
 
 
 ## Technical atoms
 
 ### Technical frame 1: Served by the Pot: Collections / Generating Iterables / generators and iterables
 
-**Context:** _(javascriptallonge.pdf (source-range-0e12e052-01708))_
+**Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01708))_
 
 > This pattern is encouraged, so much so that JavaScript provides a concise syntax for writing generator methods for objects:
 
-**Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01705))_
+**Atom:** _(javascriptallonge.pdf (source-range-c98ab3e6-01705))_
 
-<a id="atom-technical-atom-10582a3c053cd9e3"></a>
+<a id="atom-technical-atom-a2b198fc412f2c39"></a>
 > If we call our generator function more than once, we get new iterators.
 
 ### Technical frame 2: Served by the Pot: Collections / Generating Iterables / generators and iterables
 
-**Context:** _(javascriptallonge.pdf (source-range-0e12e052-01708))_
+**Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01708))_
 
 > This pattern is encouraged, so much so that JavaScript provides a concise syntax for writing generator methods for objects:
 
-**Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01706))_
+**Atom:** _(javascriptallonge.pdf (source-range-c98ab3e6-01706))_
 
-<a id="atom-technical-atom-a966242b238a4f73"></a>
+<a id="atom-technical-atom-2a39c6e65c5f3819"></a>
 ```
 const ThreeNumbers = {
 [Symbol.iterator]: function * () {
@@ -84,13 +84,13 @@ iterator.next()
 
 ### Technical frame 3: Served by the Pot: Collections / Generating Iterables / generators and iterables
 
-**Context:** _(javascriptallonge.pdf (source-range-0e12e052-01708))_
+**Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01708))_
 
 > This pattern is encouraged, so much so that JavaScript provides a concise syntax for writing generator methods for objects:
 
-**Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01707))_
+**Atom:** _(javascriptallonge.pdf (source-range-c98ab3e6-01707))_
 
-<a id="atom-technical-atom-282c78b5afaaa88e"></a>
+<a id="atom-technical-atom-65f1973a77631c13"></a>
 ```text
 yield 3
 }
@@ -205,13 +205,13 @@ console.log(n)
 
 ### Technical frame 4: Served by the Pot: Collections / Generating Iterables / generators and iterables
 
-**Context:** _(javascriptallonge.pdf (source-range-0e12e052-01710))_
+**Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01710))_
 
 > This object declares a [Symbol.iterator] function that makes it iterable. Because it's declared *[Symbol.iterator] , it's a generator instead of an iterator.
 
-**Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01709))_
+**Atom:** _(javascriptallonge.pdf (source-range-c98ab3e6-01709))_
 
-<a id="atom-technical-atom-22b0cf12cabe801a"></a>
+<a id="atom-technical-atom-efece5465e7385f2"></a>
 ```
 const ThreeNumbers = {
 *[Symbol.iterator] () {
@@ -227,7 +227,7 @@ yield 3
 
 ### Source structure
 
-- [[javascriptallonge-section-served-by-the-pot-collections-generating-iterables-more-generators-17bb605f]] - source section: Served by the Pot: Collections / Generating Iterables / more generators shares source evidence from Served by the Pot: Collections / Generating Iterables / more generators: Our OneTwoThree example used implicit state to output the numbers in sequence. Recall that we wrote Fibonacci using explicit state:; Served by the Pot: Collections / Generating Iterables / more generators shares technical record from Served by the Pot: Collections / Generating Iterables / more generators: const Numbers = { *[Symbol.iterator] () { let i = 0; while (true) { yield i++; } } }; for (const i of Numbers) { console.log(i); } //=> 0 1 2 3 4 5 6 7 (3 shared statement(s), 6 shared atom(s))
+- [[javascriptallonge-section-served-by-the-pot-collections-generating-iterables-more-generators-2435cbf2]] - source section: Served by the Pot: Collections / Generating Iterables / more generators shares source evidence from Served by the Pot: Collections / Generating Iterables / more generators: Our OneTwoThree example used implicit state to output the numbers in sequence. Recall that we wrote Fibonacci using explicit state:; Served by the Pot: Collections / Generating Iterables / more generators shares technical record from Served by the Pot: Collections / Generating Iterables / more generators: const Numbers = { *[Symbol.iterator] () { let i = 0; while (true) { yield i++; } } }; for (const i of Numbers) { console.log(i); } //=> 0 1 2 3 4 5 6 7 (3 shared statement(s), 6 shared atom(s))
 
 ### Shared technical atoms
 

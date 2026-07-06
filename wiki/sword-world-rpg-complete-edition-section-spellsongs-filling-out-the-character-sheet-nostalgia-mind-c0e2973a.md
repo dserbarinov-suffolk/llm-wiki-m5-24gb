@@ -1,0 +1,35 @@
+---
+page_id: sword-world-rpg-complete-edition-section-spellsongs-filling-out-the-character-sheet-nostalgia-mind-c0e2973a
+page_kind: source
+summary: Spellsongs / Filling out the Character Sheet / Nostalgia (Mind): 10 source-backed entries and 0 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+page_family: section-reference
+sources: raw/Sword World RPG - Complete Edition.pdf
+updated: 2026-07-06
+domain: sword-world-rpg-complete-edition
+category_path: sources/sword-world-rpg-complete-edition/sections
+source_id: Sword World RPG - Complete Edition.pdf
+projection_coverage: section-sword-world-rpg-complete-edition-section-spellsongs-filling-out-the-character-sheet-nostalgia-mind-c0e2973a@c5069e057597a7ae2dac8c939e4042be
+---
+
+# Spellsongs / Filling out the Character Sheet / Nostalgia (Mind)
+
+From [[sword-world-rpg-complete-edition]].
+
+## Related pages
+
+### Source order
+
+- [[sword-world-rpg-complete-edition-section-spellsongs-filling-out-the-character-sheet-charm-mind-4690964f]] - previous source section: Spellsongs / Filling out the Character Sheet / Charm (Mind)
+- [[sword-world-rpg-complete-edition-section-spellsongs-filling-out-the-character-sheet-peace-mind-409358c8]] - next source section: Spellsongs / Filling out the Character Sheet / Peace (Mind)
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-spellsongs-filling-out-the-character-sheet-f978ca0e]] - broader source section: Spellsongs / Filling out the Character Sheet
+
+## Statements
+
+- This is a spellsong that evokes feelings of nostalgia in the hearts of those who hear it. The effect begins on the fourth round after starting. Those who fail to resist will feel the urge to return to their roost and leave. However, it has no effect on those who do not have a roost. The same applies if the place where the person is listening to the spellsong is their roost. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-03945))_
+- The effect of this song lasts for one hour even after the spellsong is no longer heard. However, if the person returns to their roost within one hour, the effect will vanish at that point. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-03946))_
+- The effect begins on the fourth round after starting. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-03945))_
+- However, if the person returns to their roost within one hour, the effect will vanish at that point. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-03946))_
+- The effect of this song lasts for one hour even after the spellsong is no longer heard. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-03946))_

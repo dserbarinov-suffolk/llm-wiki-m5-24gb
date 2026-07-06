@@ -4,10 +4,10 @@ page_kind: concept
 summary: Switch Weapon Hand: 1 statement(s) and 1 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: topic-concept
 sources: raw/Sword World RPG - Complete Edition.pdf
-updated: 2026-07-02
+updated: 2026-07-06
 domain: sword-world-rpg-complete-edition
 category_path: concepts
-projection_coverage: topic-sword-world-rpg-complete-edition-switch-weapon-hand@b87aafd9b1295f0610e80a93570e5cdc
+projection_coverage: topic-sword-world-rpg-complete-edition-switch-weapon-hand@25478606c8578dc29cf44d4fe890f2f8
 ---
 
 # Switch Weapon Hand
@@ -18,20 +18,20 @@ What [[sword-world-rpg-complete-edition]] covers about switch weapon hand:
 
 ### Chapter 3: / Switch a Weapon's Hands and Attack
 
-- Switch a weapon you're using with only one hand to both hands and attack. This action may be effective if you have a weapon that can be used with one or both hands. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-01157))_
+- Switch a weapon you're using with only one hand to both hands and attack. This action may be effective if you have a weapon that can be used with one or both hands. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01157))_
 
 
 ## Technical atoms
 
 ### Technical frame 1: Chapter 3: / Switch a Weapon's Hands and Attack
 
-**Context:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-01157))_
+**Context:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01157))_
 
 > Switch a weapon you're using with only one hand to both hands and attack. This action may be effective if you have a weapon that can be used with one or both hands.
 
-**Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-01158))_
+**Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01158))_
 
-<a id="atom-technical-atom-5b66609d7989c62c"></a>
+<a id="atom-technical-atom-9c4d4baa13eab000"></a>
 > If you're holding a weapon in one hand and a shield in the other, and that weapon can be used with both hands, you can drop the shield on the ground and attack with both hands, since it's as if you were holding the weapon in only one hand from the beginning.
 
 
@@ -39,7 +39,7 @@ What [[sword-world-rpg-complete-edition]] covers about switch weapon hand:
 
 ### Source structure
 
-- [[sword-world-rpg-complete-edition-section-chapter-3-switch-a-weapon-from-hand-to-hand-c96843b7]] - source section: Chapter 3: / Switch a Weapon From Hand to Hand shares source evidence from Chapter 3: / Switch a Weapon From Hand to Hand: You can move something in your right hand to your left hand, or hold something you had in one hand with both hands.; Chapter 3: / Switch a Weapon From Hand to Hand shares technical record from Chapter 3: / Switch a Weapon From Hand to Hand: If you have such a weapon in one hand and a shield in the other, if you drop the shield, the weapon is now considered to be in only one hand, so you can then hold it ... [truncated] (2 shared statement(s), 1 shared atom(s))
+- [[sword-world-rpg-complete-edition-section-chapter-3-switch-a-weapon-from-hand-to-hand-8e685c28]] - source section: Chapter 3: / Switch a Weapon From Hand to Hand shares source evidence from Chapter 3: / Switch a Weapon From Hand to Hand: You can move something in your right hand to your left hand, or hold something you had in one hand with both hands.; Chapter 3: / Switch a Weapon From Hand to Hand shares technical record from Chapter 3: / Switch a Weapon From Hand to Hand: If you have such a weapon in one hand and a shield in the other, if you drop the shield, the weapon is now considered to be in only one hand, so you can then hold it ... [truncated] (2 shared statement(s), 1 shared atom(s))
 
 ### Shared technical atoms
 

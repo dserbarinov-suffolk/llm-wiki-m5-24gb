@@ -4,12 +4,12 @@ page_kind: recipe
 summary: mutation and data structures: reusable source-backed pattern with 8 statement(s) and 4 technical atom(s) from raw/javascriptallonge.pdf.
 page_family: recipe-pattern
 sources: raw/javascriptallonge.pdf
-updated: 2026-07-02
+updated: 2026-07-06
 domain: javascriptallonge
 category_path: recipes/javascriptallonge
 source_id: javascriptallonge.pdf
 aliases: mutation-and-data-structures
-projection_coverage: recipe-javascriptallonge-recipe-mutation-and-data-structures@653a951ba59ee91337c0ed82d6bf61e4
+projection_coverage: recipe-javascriptallonge-recipe-mutation-and-data-structures@cb21ab7e381548038af1162d107022aa
 ---
 
 # mutation and data structures
@@ -18,23 +18,23 @@ From [[javascriptallonge]].
 
 ## Pattern
 
-- Use the source-backed pattern described in [[javascriptallonge-section-mutation-mutation-and-data-structures-a8d1f947]].
+- Use the source-backed pattern described in [[javascriptallonge-section-mutation-mutation-and-data-structures-fe09390c]].
 - Evidence roles: decision, constraint, example, structured-state.
 
 ## Applicability And Rationale
 
-- It is possible to compute anything without ever mutating an existing entity. _(javascriptallonge.pdf (source-range-0e12e052-01137))_
-- In general, mutation makes some algorithms shorter to write and possibly faster, but harder to reason about. _(javascriptallonge.pdf (source-range-0e12e052-01137))_
-- Mutation is a surprisingly complex subject. _(javascriptallonge.pdf (source-range-0e12e052-01137))_
-- By this pattern, we would be happy to use mutation to construct the list while running mapWith . _(javascriptallonge.pdf (source-range-0e12e052-01138))_
-- While we're executing the mapWith function, we're constructing a new linked list. _(javascriptallonge.pdf (source-range-0e12e052-01138))_
-- One pattern many people follow is to be liberal with mutation when constructing data, but conservative with mutation when consuming data. _(javascriptallonge.pdf (source-range-0e12e052-01138))_
+- In general, mutation makes some algorithms shorter to write and possibly faster, but harder to reason about. _(javascriptallonge.pdf (source-range-c98ab3e6-01137))_
+- It is possible to compute anything without ever mutating an existing entity. _(javascriptallonge.pdf (source-range-c98ab3e6-01137))_
+- Mutation is a surprisingly complex subject. _(javascriptallonge.pdf (source-range-c98ab3e6-01137))_
+- While we're executing the mapWith function, we're constructing a new linked list. _(javascriptallonge.pdf (source-range-c98ab3e6-01138))_
+- One pattern many people follow is to be liberal with mutation when constructing data, but conservative with mutation when consuming data. _(javascriptallonge.pdf (source-range-c98ab3e6-01138))_
+- By this pattern, we would be happy to use mutation to construct the list while running mapWith . _(javascriptallonge.pdf (source-range-c98ab3e6-01138))_
 
 ## Technical Atoms
 
 ### Atom 1: `worked-example`
 
-_Source: javascriptallonge.pdf (source-range-0e12e052-01139)_
+_Source: javascriptallonge.pdf (source-range-c98ab3e6-01139)_
 
 ```
 But after returning the new list, we then become conservative about mutation. This also makes sense: Linked lists often use structure sharing. For example:
@@ -42,7 +42,7 @@ But after returning the new list, we then become conservative about mutation. Th
 
 ### Atom 2: `code-block`
 
-_Source: javascriptallonge.pdf (source-range-0e12e052-01141)_
+_Source: javascriptallonge.pdf (source-range-c98ab3e6-01141)_
 
 ```
 const EMPTY = {};
@@ -79,7 +79,7 @@ Structure sharing like this is what makes linked lists so fast for taking everyt
 
 ### Atom 3: `code-block`
 
-_Source: javascriptallonge.pdf (source-range-0e12e052-01143)_
+_Source: javascriptallonge.pdf (source-range-c98ab3e6-01143)_
 
 ```
 const OneToFive = [1, 2, 3, 4, 5];
@@ -90,7 +90,7 @@ const [a, b, ...ThreeToFive] = OneToFive;
 
 ### Atom 4: `code-block`
 
-_Source: javascriptallonge.pdf (source-range-0e12e052-01144)_
+_Source: javascriptallonge.pdf (source-range-c98ab3e6-01144)_
 
 ```
 OneToFive
@@ -110,4 +110,4 @@ OneToFive
 ## Source Trail
 
 - Source manifest: [[javascriptallonge]]
-- Source section: [[javascriptallonge-section-mutation-mutation-and-data-structures-a8d1f947]]
+- Source section: [[javascriptallonge-section-mutation-mutation-and-data-structures-fe09390c]]

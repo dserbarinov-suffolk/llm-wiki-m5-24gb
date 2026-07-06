@@ -4,10 +4,10 @@ page_kind: concept
 summary: Structure: 5 statement(s) and 4 atom(s) from raw/javascriptallonge.pdf.
 page_family: topic-concept
 sources: raw/javascriptallonge.pdf
-updated: 2026-07-02
+updated: 2026-07-06
 domain: javascriptallonge
 category_path: concepts
-projection_coverage: topic-javascriptallonge-structure@3caa865f894ce89da950f44d41e2cc5d
+projection_coverage: topic-javascriptallonge-structure@cac3bbeadbfa15d7772cd46a905ee528
 ---
 
 # Structure
@@ -18,36 +18,36 @@ What [[javascriptallonge]] covers about structure:
 
 ### Composing and Decomposing Data / Self-Similarity
 
-- Let's be more specific. Some data structures, like lists, can obviously be seen as a collection of items. Some are empty, some have three items, some forty-two, some contain numbers, some contain strings, some a mixture of elements, there are all kinds of lists. _(javascriptallonge.pdf (source-range-0e12e052-00880))_
+- Let's be more specific. Some data structures, like lists, can obviously be seen as a collection of items. Some are empty, some have three items, some forty-two, some contain numbers, some contain strings, some a mixture of elements, there are all kinds of lists. _(javascriptallonge.pdf (source-range-c98ab3e6-00880))_
 
 ### Garbage, Garbage Everywhere / some history
 
-- Again, it's just extracting a reference from a cons cell, it's very fast. In Lisp, it's blazingly fast because it happens in hardware. There's no making copies of arrays, the time to cdr a list with five elements is the same as the time to cdr a list with 5,000 elements, and no temporary arrays are needed. In JavaScript, it's still much, much, much faster to get all the elements except the head from a linked list than from an array. Getting one reference to a structure that already exists is faster than copying a bunch of elements. _(javascriptallonge.pdf (source-range-0e12e052-01042))_
+- Again, it's just extracting a reference from a cons cell, it's very fast. In Lisp, it's blazingly fast because it happens in hardware. There's no making copies of arrays, the time to cdr a list with five elements is the same as the time to cdr a list with 5,000 elements, and no temporary arrays are needed. In JavaScript, it's still much, much, much faster to get all the elements except the head from a linked list than from an array. Getting one reference to a structure that already exists is faster than copying a bunch of elements. _(javascriptallonge.pdf (source-range-c98ab3e6-01042))_
 
 ### Copy on Write / Functional Iterators
 
-- What we've done is turn an array into a function that folds an array with const foldArray = (array) => callRight(foldArrayWith, array); . The sumFoldable function doesn't care what kind of data structure we have, as long as it's foldable. _(javascriptallonge.pdf (source-range-0e12e052-01275))_
+- What we've done is turn an array into a function that folds an array with const foldArray = (array) => callRight(foldArrayWith, array); . The sumFoldable function doesn't care what kind of data structure we have, as long as it's foldable. _(javascriptallonge.pdf (source-range-c98ab3e6-01275))_
 
 ### Copy on Write / Making Data Out Of Functions / backwardness
 
-- Our latin data structure is no longer a dumb data structure, it's a function. And instead of passing latin to first or second , we pass first or second to latin . It's exactly backwards of the way we write functions that operate on data. _(javascriptallonge.pdf (source-range-0e12e052-01357))_
+- Our latin data structure is no longer a dumb data structure, it's a function. And instead of passing latin to first or second , we pass first or second to latin . It's exactly backwards of the way we write functions that operate on data. _(javascriptallonge.pdf (source-range-c98ab3e6-01357))_
 
 ### Copy on Write / Making Data Out Of Functions / the vireo
 
-- For 'data' we access with K and K(I) , our 'structure' is the function (selector) => selector("primus")("secundus") . Let's extract those into parameters: _(javascriptallonge.pdf (source-range-0e12e052-01360))_
+- For 'data' we access with K and K(I) , our 'structure' is the function (selector) => selector("primus")("secundus") . Let's extract those into parameters: _(javascriptallonge.pdf (source-range-c98ab3e6-01360))_
 
 
 ## Technical atoms
 
 ### Technical frame 1: Garbage, Garbage Everywhere / some history
 
-**Context:** _(javascriptallonge.pdf (source-range-0e12e052-01042))_
+**Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01042))_
 
 > Again, it's just extracting a reference from a cons cell, it's very fast. In Lisp, it's blazingly fast because it happens in hardware. There's no making copies of arrays, the time to cdr a list with five elements is the same as the time to cdr a list with 5,000 elements, and no temporary arrays are needed. In JavaScript, it's still much, much, much faster to get all the elements except the head from a linked list than from an array. Getting one reference to a structure that already exists is fas
 
-**Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01041))_
+**Atom:** _(javascriptallonge.pdf (source-range-c98ab3e6-01041))_
 
-<a id="atom-technical-atom-cc6241a012867740"></a>
+<a id="atom-technical-atom-c04ec28db918d40d"></a>
 ```
 cdr(oneToFive)
 //=> [2,[3,[4,[5,null]]]]
@@ -55,13 +55,13 @@ cdr(oneToFive)
 
 ### Technical frame 2: Copy on Write / Functional Iterators / iterating
 
-**Context:** _(javascriptallonge.pdf (source-range-0e12e052-01290))_
+**Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01290))_
 
 > We can write a different iterator for a different data structure. Here's one for linked lists:
 
-**Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01291))_
+**Atom:** _(javascriptallonge.pdf (source-range-c98ab3e6-01291))_
 
-<a id="atom-technical-atom-282dba3fa6180714"></a>
+<a id="atom-technical-atom-b78a2e7b3e34b7ee"></a>
 ```
 const EMPTY = null;
 const isEmpty = (node) => node === EMPTY;
@@ -89,13 +89,13 @@ aPair = aPair.rest;
 
 ### Technical frame 3: Copy on Write / Functional Iterators / iterating
 
-**Context:** _(javascriptallonge.pdf (source-range-0e12e052-01290))_
+**Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01290))_
 
 > We can write a different iterator for a different data structure. Here's one for linked lists:
 
-**Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01292))_
+**Atom:** _(javascriptallonge.pdf (source-range-c98ab3e6-01292))_
 
-<a id="atom-technical-atom-ec11f07272147db8"></a>
+<a id="atom-technical-atom-1f5f88b3bd874599"></a>
 ```
 return { done, value: first }
 }
@@ -115,13 +115,13 @@ iteratorSum(aListIterator)
 
 ### Technical frame 4: Copy on Write / Making Data Out Of Functions / the vireo
 
-**Context:** _(javascriptallonge.pdf (source-range-0e12e052-01362))_
+**Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01362))_
 
 > For consistency with the way combinators are written as functions taking just one parameter, we'll curry 78 the function:
 
-**Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01361))_
+**Atom:** _(javascriptallonge.pdf (source-range-c98ab3e6-01361))_
 
-<a id="atom-technical-atom-2a6b147bd13e773b"></a>
+<a id="atom-technical-atom-630bdbff0d9e82ad"></a>
 ```
 (first, second) => (selector) => selector(first)(second)
 ```

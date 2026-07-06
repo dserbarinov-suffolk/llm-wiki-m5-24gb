@@ -4,10 +4,10 @@ page_kind: concept
 summary: Damage: 3 statement(s) and 5 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: topic-concept
 sources: raw/Sword World RPG - Complete Edition.pdf
-updated: 2026-07-02
+updated: 2026-07-06
 domain: sword-world-rpg-complete-edition
 category_path: concepts
-projection_coverage: topic-sword-world-rpg-complete-edition-damage@80c7e1aff1cc815ca87a809ead4861c9
+projection_coverage: topic-sword-world-rpg-complete-edition-damage@49e195fcce977c8e0d7987a6fb8c695b
 ---
 
 # Damage
@@ -18,40 +18,40 @@ What [[sword-world-rpg-complete-edition]] covers about damage:
 
 ### 《 Description 》 / [Centauri Blood (Touch/Damage)]
 
-- What's more, this poison is completely harmless at room temperature, and only becomes toxic when warmed by body heat. Those wearing cloth soaked with centauri blood will experience intense pain and heat after one hour. Once that happens, you can no longer strip it from your body or wash it off, and it will continue to deal damage every hour from then on. The damage is a terrifying strike power 30 plus bonus damage 12. A successful resistance roll will reduce the damage. This poison is said to have killed a famous hero. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-05588))_
+- What's more, this poison is completely harmless at room temperature, and only becomes toxic when warmed by body heat. Those wearing cloth soaked with centauri blood will experience intense pain and heat after one hour. Once that happens, you can no longer strip it from your body or wash it off, and it will continue to deal damage every hour from then on. The damage is a terrifying strike power 30 plus bonus damage 12. A successful resistance roll will reduce the damage. This poison is said to have killed a famous hero. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-05588))_
 
 
 ## Technical atoms
 
 ### Technical frame 1: 《 Description 》 / [Centauri Blood (Touch/Damage)]
 
-**Context:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-05587))_
+**Context:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-05587))_
 
 > A poison said to have been invented by a wise centaur. There is a myth that it's made from the blood of centaurs, but it's actually made from the fruit of certain plants. It' s used in assassinations by soaking it into items that are close to the body, such as underwear, etc. It's naturally a red liquid, but if you soak it in a cloth and then wash it, it becomes colorless. Even if you wash it, only the color will come off, and the poisonous ingredients will remain on the cloth.
 
-**Atoms:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-05584, source-range-0d48087c-05585, source-range-0d48087c-05586))_
+**Atoms:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-05584, source-range-e5870dca-05585, source-range-e5870dca-05586))_
 
-<a id="atom-technical-atom-72f85ac06d816f41"></a>
+<a id="atom-technical-atom-69f4689b3a9c966f"></a>
 > Effect=Deals strike power 30 damage plus 12 bonus damage every hour. Resist reduces effect
 
-<a id="atom-technical-atom-28b7692c78492410"></a>
+<a id="atom-technical-atom-5ff49004de7cfc4d"></a>
 > Toxicity Score=14 Rarity=14 Effect Start Time=1 hour later
 
-<a id="atom-technical-atom-d4180703d60f889f"></a>
+<a id="atom-technical-atom-a45fd556e95af727"></a>
 > Effect Duration=Permanent
 
 ### Technical frame 2: 《 Description 》 / [Centauri Blood (Touch/Damage)] / [Sandman's Sand (Inhaled/Mind)]
 
-**Context:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-05592))_
+**Context:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-05592))_
 
 > It has this name because its effect is similar to the spirit magic Sleep , but it's also called black lotus because it's made from black lotus seeds. The strong flower-scented gas will put anyone who fails to resist into a state of sleep.
 
-**Atoms:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-05590, source-range-0d48087c-05591))_
+**Atoms:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-05590, source-range-e5870dca-05591))_
 
-<a id="atom-technical-atom-a201eabb2c052e86"></a>
+<a id="atom-technical-atom-fa8f684cfd597ac4"></a>
 > Effect=Put to sleep
 
-<a id="atom-technical-atom-0cd70aad6fc28a7c"></a>
+<a id="atom-technical-atom-40fa21ed390bdb5b"></a>
 > Toxicity Score=10 Rarity=14 Effect Start Time=1 round later Effect Duration=1 hour
 
 
@@ -59,9 +59,9 @@ What [[sword-world-rpg-complete-edition]] covers about damage:
 
 ### Source structure
 
-- [[sword-world-rpg-complete-edition-section-damage-ff07e120]] - source section: 《 Damage 》 shares source evidence from 《 Damage 》: A spell that deals damage to the target's life force or mental power. Spells of the damage type always have a clearly defined strike power . If you manage to break t ... [truncated]; 《 Damage 》 shares technical record from 《 Damage 》: If you roll 10 or greater during the strike roll, a critical will occur and deal even more damage, same as in weapon combat. (9 shared statement(s), 4 shared atom(s))
-- [[sword-world-rpg-complete-edition-section-10-5-attacks-against-the-sleeping-damage-adc079fa]] - source section: 10.5 Attacks Against the Sleeping / 《 Damage 》 shares source evidence from 10.5 Attacks Against the Sleeping / 《 Damage 》: If the attack hits, roll 2D. If it's double ones, the damage will be equal to the strike points of the attacking monster. Otherwise, the damage equals the attacking ... [truncated]; 10.5 Attacks Against the Sleeping / 《 Damage 》 shares technical record from 10.5 Attacks Against the Sleeping / 《 Damage 》: If the attack hits, roll 2D. (2 shared statement(s), 1 shared atom(s))
-- [[sword-world-rpg-complete-edition-section-4-5-2-determining-base-damage-strike-roll-0-damage-e4fd9431]] - source section: 4.5.2 Determining Base Damage (Strike Roll) / 【 0 Damage! 】 shares source evidence from 4.5.2 Determining Base Damage (Strike Roll) / 【 0 Damage! 】: roll is 2 (double ones), the result is ＊＊ regardless of the key number. This means your attack hit the target, but failed to deal any damage! (2 shared statement(s))
+- [[sword-world-rpg-complete-edition-section-damage-b1dbd060]] - source section: 《 Damage 》 shares source evidence from 《 Damage 》: A spell that deals damage to the target's life force or mental power. Spells of the damage type always have a clearly defined strike power . If you manage to break t ... [truncated]; 《 Damage 》 shares technical record from 《 Damage 》: If you roll 10 or greater during the strike roll, a critical will occur and deal even more damage, same as in weapon combat. (9 shared statement(s), 4 shared atom(s))
+- [[sword-world-rpg-complete-edition-section-10-5-attacks-against-the-sleeping-damage-a8371d36]] - source section: 10.5 Attacks Against the Sleeping / 《 Damage 》 shares source evidence from 10.5 Attacks Against the Sleeping / 《 Damage 》: If the attack hits, roll 2D. If it's double ones, the damage will be equal to the strike points of the attacking monster. Otherwise, the damage equals the attacking ... [truncated]; 10.5 Attacks Against the Sleeping / 《 Damage 》 shares technical record from 10.5 Attacks Against the Sleeping / 《 Damage 》: If the attack hits, roll 2D. (2 shared statement(s), 1 shared atom(s))
+- [[sword-world-rpg-complete-edition-section-4-5-2-determining-base-damage-strike-roll-0-damage-22c765de]] - source section: 4.5.2 Determining Base Damage (Strike Roll) / 【 0 Damage! 】 shares source evidence from 4.5.2 Determining Base Damage (Strike Roll) / 【 0 Damage! 】: roll is 2 (double ones), the result is ＊＊ regardless of the key number. This means your attack hit the target, but failed to deal any damage! (2 shared statement(s))
 
 ### Topics
 

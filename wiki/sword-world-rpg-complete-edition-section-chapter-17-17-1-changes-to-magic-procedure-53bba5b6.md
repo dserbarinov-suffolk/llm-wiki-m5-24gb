@@ -1,0 +1,32 @@
+---
+page_id: sword-world-rpg-complete-edition-section-chapter-17-17-1-changes-to-magic-procedure-53bba5b6
+page_kind: source
+summary: Chapter 17: / 17.1 Changes to Magic Procedure: 8 source-backed entries and 0 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+page_family: section-reference
+sources: raw/Sword World RPG - Complete Edition.pdf
+updated: 2026-07-06
+domain: sword-world-rpg-complete-edition
+category_path: sources/sword-world-rpg-complete-edition/sections
+source_id: Sword World RPG - Complete Edition.pdf
+projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-17-17-1-changes-to-magic-procedure-53bba5b6@756f799044a719876206b6da81a5c7ea
+---
+
+# Chapter 17: / 17.1 Changes to Magic Procedure
+
+From [[sword-world-rpg-complete-edition]].
+
+## Related pages
+
+### Source order
+
+- [[sword-world-rpg-complete-edition-section-chapter-17-17-2-lost-spells-04f15bce]] - next source section: Chapter 17: / 17.2 Lost Spells
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-chapter-17-6e567303]] - broader source section: Chapter 17:
+
+## Statements
+
+- You can unify the rules of magic, allowing for a more integrated approach to casting. However, in this case, the master's work becomes quite complicated. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-10506))_
+- The magic procedure is resolved the same way regardless of whether a monster or an adventurer is casting the spell. In other words, you roll 2D and add it to your magic power . Using that as the target score, everyone on the side on which it was cast must attempt a mental power resistance roll. If they fail, the magic will be cast with its full effect. If they succeed, the magic will not be cast or its effect will be reduced . However, if _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-10507))_
+- the caster rolls double ones , the magic will fail completely and have no effect. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-10509))_

@@ -4,10 +4,10 @@ page_kind: concept
 summary: Functional: 4 statement(s) and 8 atom(s) from raw/javascriptallonge.pdf.
 page_family: broad-topic
 sources: raw/javascriptallonge.pdf
-updated: 2026-07-02
+updated: 2026-07-06
 domain: javascriptallonge
 category_path: concepts
-projection_coverage: topic-javascriptallonge-functional@b97471b42301776e966be106e9163cb6
+projection_coverage: topic-javascriptallonge-functional@35b2f502bb4ff3d8c783afcf0ad788ed
 ---
 
 # Functional
@@ -18,28 +18,28 @@ What [[javascriptallonge]] covers about functional:
 
 ### ECMAScript 6 has three major groups of features: / Forewords to the First Edition / michael fogus
 
-- As a staunch advocate of functional programming, much of what Reg has written rings true to me. While not exclusively a book about functional programming, JavaScript Allongé will provide a solid foundation for functional techniques. However, you'll not be beaten about the head and neck with dogma. Instead, every section is motivated by relevant dialog and fortified with compelling source examples. As an author of programming books I admire what Reg has managed to accomplish and I envy the fine reader who finds JavaScript Allongé via some darkened channel in the Internet sprawl and reads it for the first time. _(javascriptallonge.pdf (source-range-0e12e052-00089))_
+- As a staunch advocate of functional programming, much of what Reg has written rings true to me. While not exclusively a book about functional programming, JavaScript Allongé will provide a solid foundation for functional techniques. However, you'll not be beaten about the head and neck with dogma. Instead, every section is motivated by relevant dialog and fortified with compelling source examples. As an author of programming books I admire what Reg has managed to accomplish and I envy the fine reader who finds JavaScript Allongé via some darkened channel in the Internet sprawl and reads it for the first time. _(javascriptallonge.pdf (source-range-c98ab3e6-00089))_
 
 ### Reassignment / why const and let were invented
 
-- const and let are recent additions to JavaScript. For nearly twenty years, variables were declared with var (not counting parameters and function declarations, of course). However, its functional scope was a problem. _(javascriptallonge.pdf (source-range-0e12e052-01197))_
+- const and let are recent additions to JavaScript. For nearly twenty years, variables were declared with var (not counting parameters and function declarations, of course). However, its functional scope was a problem. _(javascriptallonge.pdf (source-range-c98ab3e6-01197))_
 
 ### Served by the Pot: Collections / Generating Iterables
 
-- Let's consider how they work. Whether it's a simple functional iterator, or an iterable object with a .next() method, an iterator is something we call repeatedly until it tells us that it's done. _(javascriptallonge.pdf (source-range-0e12e052-01621))_
+- Let's consider how they work. Whether it's a simple functional iterator, or an iterable object with a .next() method, an iterator is something we call repeatedly until it tells us that it's done. _(javascriptallonge.pdf (source-range-c98ab3e6-01621))_
 
 
 ## Technical atoms
 
 ### Technical frame 1: Recipes with Basic Functions / Partial Application
 
-**Context:** _(javascriptallonge.pdf (source-range-0e12e052-00655))_
+**Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-00655))_
 
 > These two recipes are for quickly and simply applying a single argument, either the leftmost or rightmost. 48 If you want to bind more than one argument, or you want to leave a 'hole' in the argument list, you will need to either use a generalized partial recipe, or you will need to repeatedly apply arguments. They are context-agnostic.
 
-**Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00654))_
+**Atom:** _(javascriptallonge.pdf (source-range-c98ab3e6-00654))_
 
-<a id="atom-technical-atom-33d675e7d462cdb6"></a>
+<a id="atom-technical-atom-1cc50651f1542e2d"></a>
 ```text
 Partial Application
 In Building Blocks, we discussed partial application, but we didn't write a generalized recipe for it. This is such a common tool that many libraries provide some form of partial application. You'll find examples in Lemonad 45 from Michael Fogus, Functional JavaScript 46 from Oliver Steele and the terse but handy node-ap 47 from James Halliday.
@@ -58,13 +58,13 @@ In Building Blocks, we discussed partial application, but we didn't write a gene
 
 ### Technical frame 2: Recipes with Basic Functions / Partial Application
 
-**Context:** _(javascriptallonge.pdf (source-range-0e12e052-00660))_
+**Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-00660))_
 
 > We take it a step further, and can use gathering and spreading to allow for partial application with more than one argument:
 
-**Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00658))_
+**Atom:** _(javascriptallonge.pdf (source-range-c98ab3e6-00658))_
 
-<a id="atom-technical-atom-6a1f8c07567d2732"></a>
+<a id="atom-technical-atom-aeda04316027e1eb"></a>
 ```text
 45 https://github.com/fogus/lemonad 46 http://osteele.com/sources/javascript/functional/ 47 https://github.com/substack/node-ap 48
 ```
@@ -82,13 +82,13 @@ In Building Blocks, we discussed partial application, but we didn't write a gene
 
 ### Technical frame 3: Recipes with Basic Functions / Maybe
 
-**Context:** _(javascriptallonge.pdf (source-range-0e12e052-00695))_
+**Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-00695))_
 
 > Naturally, there's a function decorator recipe for that, borrowed from Haskell's maybe monad 50 , Ruby's andand 51 , and CoffeeScript's existential method invocation:
 
-**Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00697))_
+**Atom:** _(javascriptallonge.pdf (source-range-c98ab3e6-00697))_
 
-<a id="atom-technical-atom-5afd53750bded0f2"></a>
+<a id="atom-technical-atom-b584cc27a63d4a4f"></a>
 ```text
 50 https://en.wikipedia.org/wiki/Monad_(functional_programming)#The_Maybe_monad
 51 https://github.com/raganwald/andand
@@ -106,24 +106,24 @@ In Building Blocks, we discussed partial application, but we didn't write a gene
 
 ### Technical frame 4: Served by the Pot: Collections / Generating Iterables
 
-**Context:** _(javascriptallonge.pdf (source-range-0e12e052-01625))_
+**Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01625))_
 
 > Well, we've written our iterator as a server . It waits until given a request, and then it returns exactly one item. Then it waits for the next request. There is no concept of pushing numbers out from the iterator, just waiting until a number is pulled out of the iterator by whatever code consumes numbers.
 
-**Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01622))_
+**Atom:** _(javascriptallonge.pdf (source-range-c98ab3e6-01622))_
 
-<a id="atom-technical-atom-53996de6cffe7496"></a>
+<a id="atom-technical-atom-4368f14f8a6c24c1"></a>
 > Iterators have to arrange its own state such that when you call them, they compute and return the next item.
 
 ### Technical frame 5: Served by the Pot: Collections / Generating Iterables / recursive iterators
 
-**Context:** _(javascriptallonge.pdf (source-range-0e12e052-01639))_
+**Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01639))_
 
 > If you peel off isIterable and ignore the way that the iteration version uses [Symbol.iterator] and .next , we're left with the fact that the generating version calls itself recursively, and the iteration version maintains an explicit stack. In essence, both the generation and iteration implementations have stacks, but the generation version's stack is implicit , while the iteration version's stack is explicit .
 
-**Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01638))_
+**Atom:** _(javascriptallonge.pdf (source-range-c98ab3e6-01638))_
 
-<a id="atom-technical-atom-b45c726d94a282f5"></a>
+<a id="atom-technical-atom-7f953e2e51e4d518"></a>
 ```
 const isIterable = (something) =>
 !!something[Symbol.iterator];
@@ -160,13 +160,13 @@ console.log(n)
 
 ### Technical frame 6: Served by the Pot: Collections / Generating Iterables / state machines
 
-**Context:** _(javascriptallonge.pdf (source-range-0e12e052-01649))_
+**Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01649))_
 
 > The thing to note here is that our fibonacci generator has three states: generating 0 , generating 1 , and generating everything after that. This isn't a good fit for an iterator, because iterators have one functional entry point and therefore, we'd have to represent our three states explicitly, perhaps using a state pattern 90 :
 
-**Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01647))_
+**Atom:** _(javascriptallonge.pdf (source-range-c98ab3e6-01647))_
 
-<a id="atom-technical-atom-bda043e6ec9d6ce5"></a>
+<a id="atom-technical-atom-edc9ab5bf79cf317"></a>
 ```
 // Generation
 const fibonacci = () => {
@@ -194,13 +194,13 @@ fibonacci()
 
 ### Technical frame 7: Served by the Pot: Collections / Generating Iterables / state machines
 
-**Context:** _(javascriptallonge.pdf (source-range-0e12e052-01649))_
+**Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01649))_
 
 > The thing to note here is that our fibonacci generator has three states: generating 0 , generating 1 , and generating everything after that. This isn't a good fit for an iterator, because iterators have one functional entry point and therefore, we'd have to represent our three states explicitly, perhaps using a state pattern 90 :
 
-**Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01648))_
+**Atom:** _(javascriptallonge.pdf (source-range-c98ab3e6-01648))_
 
-<a id="atom-technical-atom-e8b408628ccd4bce"></a>
+<a id="atom-technical-atom-d123a32b65b3a00d"></a>
 ```text
 while (true) {
 [a, b] = [b, a + b];

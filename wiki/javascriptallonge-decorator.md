@@ -4,10 +4,10 @@ page_kind: concept
 summary: Decorator: 4 statement(s) and 8 atom(s) from raw/javascriptallonge.pdf.
 page_family: topic-concept
 sources: raw/javascriptallonge.pdf
-updated: 2026-07-02
+updated: 2026-07-06
 domain: javascriptallonge
 category_path: concepts
-projection_coverage: topic-javascriptallonge-decorator@ca8e0fee5243ae27e68fd3db9cb990dd
+projection_coverage: topic-javascriptallonge-decorator@de4b8e8ff8f6247044f289a7fa8162e0
 ---
 
 # Decorator
@@ -18,32 +18,32 @@ What [[javascriptallonge]] covers about decorator:
 
 ### A Pull of the Lever: Prefaces / About JavaScript Allongé
 
-- It also provides recipes for using functions to write software that is simpler, cleaner, and less complicated than alternative approaches that are object-centric or code-centric. JavaScript idioms like function combinators and decorators leverage JavaScript's power to make code easier to read, modify, debug and refactor. _(javascriptallonge.pdf (source-range-0e12e052-00020))_
+- It also provides recipes for using functions to write software that is simpler, cleaner, and less complicated than alternative approaches that are object-centric or code-centric. JavaScript idioms like function combinators and decorators leverage JavaScript's power to make code easier to read, modify, debug and refactor. _(javascriptallonge.pdf (source-range-c98ab3e6-00020))_
 
 ### And also: / Combinators and Function Decorators / function decorators
 
-- not is a function decorator because it modifies a function while remaining strongly related to the original function's semantics. You'll see other function decorators in the recipes, like once and maybe. Function decorators aren't strict about being pure functions, so there's more latitude for making decorators than combinators. _(javascriptallonge.pdf (source-range-0e12e052-00573))_
+- not is a function decorator because it modifies a function while remaining strongly related to the original function's semantics. You'll see other function decorators in the recipes, like once and maybe. Function decorators aren't strict about being pure functions, so there's more latitude for making decorators than combinators. _(javascriptallonge.pdf (source-range-c98ab3e6-00573))_
 
 ### And also: / Building Blocks / composition
 
-- In the recipes, we'll look at a decorator called once: It ensures that a function can only be executed once. Thereafter, it does nothing. Once is useful for ensuring that certain side effects are not repeated. We'll also look at maybe: It ensures that a function does nothing if it is given nothing (like null or undefined ) as an argument. _(javascriptallonge.pdf (source-range-0e12e052-00582))_
+- In the recipes, we'll look at a decorator called once: It ensures that a function can only be executed once. Thereafter, it does nothing. Once is useful for ensuring that certain side effects are not repeated. We'll also look at maybe: It ensures that a function does nothing if it is given nothing (like null or undefined ) as an argument. _(javascriptallonge.pdf (source-range-c98ab3e6-00582))_
 
 ### Recipes with Basic Functions / Maybe
 
-- Naturally, there's a function decorator recipe for that, borrowed from Haskell's maybe monad 50 , Ruby's andand 51 , and CoffeeScript's existential method invocation: _(javascriptallonge.pdf (source-range-0e12e052-00695))_
+- Naturally, there's a function decorator recipe for that, borrowed from Haskell's maybe monad 50 , Ruby's andand 51 , and CoffeeScript's existential method invocation: _(javascriptallonge.pdf (source-range-c98ab3e6-00695))_
 
 
 ## Technical atoms
 
 ### Technical frame 1: And also: / Combinators and Function Decorators / combinators
 
-**Context:** _(javascriptallonge.pdf (source-range-0e12e052-00558))_
+**Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-00558))_
 
 > In this book, we will be using a looser definition of 'combinator:' Higher-order pure functions that take only functions as arguments and return a function. We won't be strict about using only previously defined combinators in their construction.
 
-**Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00557))_
+**Atom:** _(javascriptallonge.pdf (source-range-c98ab3e6-00557))_
 
-<a id="atom-technical-atom-f4f4fcfc19e6c5d3"></a>
+<a id="atom-technical-atom-34eed5cf99dd08a1"></a>
 ```text
 combinators
 The word 'combinator' has a precise technical meaning in mathematics:
@@ -65,13 +65,13 @@ If we were learning Combinatorial Logic, we'd start with the most basic combinat
 
 ### Technical frame 2: And also: / Combinators and Function Decorators / function decorators
 
-**Context:** _(javascriptallonge.pdf (source-range-0e12e052-00573))_
+**Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-00573))_
 
 > not is a function decorator because it modifies a function while remaining strongly related to the original function's semantics. You'll see other function decorators in the recipes, like once and maybe. Function decorators aren't strict about being pure functions, so there's more latitude for making decorators than combinators.
 
-**Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00565))_
+**Atom:** _(javascriptallonge.pdf (source-range-c98ab3e6-00565))_
 
-<a id="atom-technical-atom-f97ec19748b3df8d"></a>
+<a id="atom-technical-atom-ece2f4b7b92ce2c5"></a>
 ```text
 function decorators
 A function decorator is a higher-order function that takes one function as an argument, returns another function, and the returned function is a variation of the argument function. Here's a ridiculously simple decorator: 38
@@ -91,26 +91,26 @@ A function decorator is a higher-order function that takes one function as an ar
 
 ### Technical frame 3: And also: / Combinators and Function Decorators / function decorators
 
-**Context:** _(javascriptallonge.pdf (source-range-0e12e052-00573))_
+**Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-00573))_
 
 > not is a function decorator because it modifies a function while remaining strongly related to the original function's semantics. You'll see other function decorators in the recipes, like once and maybe. Function decorators aren't strict about being pure functions, so there's more latitude for making decorators than combinators.
 
-**Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00572))_
+**Atom:** _(javascriptallonge.pdf (source-range-c98ab3e6-00572))_
 
-<a id="atom-technical-atom-ad78f7455392b913"></a>
+<a id="atom-technical-atom-48b9732f10355b03"></a>
 ```
 const nothing = not(something);
 ```
 
 ### Technical frame 4: And also: / Building Blocks / composition
 
-**Context:** _(javascriptallonge.pdf (source-range-0e12e052-00581))_
+**Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-00581))_
 
 > If that was all there was to it, composition wouldn't matter much. But like many patterns, using it when it applies is only 20% of the benefit. The other 80% comes from organizing your code such that you can use it: Writing functions that can be composed in various ways.
 
-**Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00580))_
+**Atom:** _(javascriptallonge.pdf (source-range-c98ab3e6-00580))_
 
-<a id="atom-technical-atom-274e722a7f47e506"></a>
+<a id="atom-technical-atom-f640f6d4abf32482"></a>
 ```
 const compose = (a, b) => (c) => a(b(c));
 const cookAndEat = compose(eat, cook);
@@ -118,24 +118,24 @@ const cookAndEat = compose(eat, cook);
 
 ### Technical frame 5: And also: / Building Blocks / composition
 
-**Context:** _(javascriptallonge.pdf (source-range-0e12e052-00582))_
+**Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-00582))_
 
 > In the recipes, we'll look at a decorator called once: It ensures that a function can only be executed once. Thereafter, it does nothing. Once is useful for ensuring that certain side effects are not repeated. We'll also look at maybe: It ensures that a function does nothing if it is given nothing (like null or undefined ) as an argument.
 
-**Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00581))_
+**Atom:** _(javascriptallonge.pdf (source-range-c98ab3e6-00581))_
 
-<a id="atom-technical-atom-677f9f34d487491a"></a>
+<a id="atom-technical-atom-6409eab3891c8c8f"></a>
 > The other 80% comes from organizing your code such that you can use it: Writing functions that can be composed in various ways.
 
 ### Technical frame 6: Recipes with Basic Functions / Maybe
 
-**Context:** _(javascriptallonge.pdf (source-range-0e12e052-00703))_
+**Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-00703))_
 
 > If some code ever tries to call model.setSomething with nothing, the operation will be skipped.
 
-**Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00696))_
+**Atom:** _(javascriptallonge.pdf (source-range-c98ab3e6-00696))_
 
-<a id="atom-technical-atom-5ec51305fdef23e8"></a>
+<a id="atom-technical-atom-88add223b9628933"></a>
 ```
 const maybe = (fn) =>
 function (...args) {
@@ -150,13 +150,13 @@ if (arg == null) return;
 
 ### Technical frame 7: Recipes with Basic Functions / Maybe
 
-**Context:** _(javascriptallonge.pdf (source-range-0e12e052-00695))_
+**Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-00695))_
 
 > Naturally, there's a function decorator recipe for that, borrowed from Haskell's maybe monad 50 , Ruby's andand 51 , and CoffeeScript's existential method invocation:
 
-**Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00697))_
+**Atom:** _(javascriptallonge.pdf (source-range-c98ab3e6-00697))_
 
-<a id="atom-technical-atom-5afd53750bded0f2"></a>
+<a id="atom-technical-atom-b584cc27a63d4a4f"></a>
 ```text
 50 https://en.wikipedia.org/wiki/Monad_(functional_programming)#The_Maybe_monad
 51 https://github.com/raganwald/andand
@@ -174,13 +174,13 @@ if (arg == null) return;
 
 ### Technical frame 8: Recipes with Basic Functions / Maybe
 
-**Context:** _(javascriptallonge.pdf (source-range-0e12e052-00703))_
+**Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-00703))_
 
 > If some code ever tries to call model.setSomething with nothing, the operation will be skipped.
 
-**Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00698))_
+**Atom:** _(javascriptallonge.pdf (source-range-c98ab3e6-00698))_
 
-<a id="atom-technical-atom-754594f35861b72e"></a>
+<a id="atom-technical-atom-6df57b17b341935d"></a>
 ```
 return fn.apply(this, args)
 }

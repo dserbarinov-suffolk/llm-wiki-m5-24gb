@@ -4,10 +4,10 @@ page_kind: concept
 summary: [ Fire Breath ]: 5 statement(s) and 9 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: broad-topic
 sources: raw/Sword World RPG - Complete Edition.pdf
-updated: 2026-07-02
+updated: 2026-07-06
 domain: sword-world-rpg-complete-edition
 category_path: concepts
-projection_coverage: topic-sword-world-rpg-complete-edition-fire-breath@26b85e378979a66a6da7651ce9528826
+projection_coverage: topic-sword-world-rpg-complete-edition-fire-breath@3d65b56ad404011fe12d2969f09e57ea
 ---
 
 # [ Fire Breath ]
@@ -18,49 +18,49 @@ What [[sword-world-rpg-complete-edition]] covers about [ fire breath ]:
 
 ### Chapter 11: Notes on Magic / 11.3 Dragon Roar Magic / 4th Level Dragon Roar Magic List / [ Fire Breath ]
 
-- The caster breathes fire from their mouth like a dragon. The fire's area of effect is a semicircle with a 10 meter forward radius. The fire's strike power is 20, and the caster's magic power equals bonus damage. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-05229))_
+- The caster breathes fire from their mouth like a dragon. The fire's area of effect is a semicircle with a 10 meter forward radius. The fire's strike power is 20, and the caster's magic power equals bonus damage. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-05229))_
 
 ### 13.2.3 Youma / [ Salamander ]
 
-- Salamanders, which are spirits of fire, look like quadrupedal beasts with a body length of about 1 meter, as they are called by the name fi re lizard . However, its entire body is not covered in animal skin but in flames, making it extremely dangerous as it ignites flammable materials around it. A mad salamander, as befitting of a spirit of fire, a symbol of destruction, acts with the sole purpose of burning everything to ash. Salamanders shower you in a breath of fire, which has the same effect as the 1st level spirit magic spell Fire Bolt . This fire always hits, but an adventurer can attempt to resist just the same way they would against magic. A Salamander's fire breath ability should be treated as shaman skill level 4, magic intensity 12 (magic power 5). Even when the Salamander breathes out this fiery breath , it does not consume a single mental point. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-06182))_
+- Salamanders, which are spirits of fire, look like quadrupedal beasts with a body length of about 1 meter, as they are called by the name fi re lizard . However, its entire body is not covered in animal skin but in flames, making it extremely dangerous as it ignites flammable materials around it. A mad salamander, as befitting of a spirit of fire, a symbol of destruction, acts with the sole purpose of burning everything to ash. Salamanders shower you in a breath of fire, which has the same effect as the 1st level spirit magic spell Fire Bolt . This fire always hits, but an adventurer can attempt to resist just the same way they would against magic. A Salamander's fire breath ability should be treated as shaman skill level 4, magic intensity 12 (magic power 5). Even when the Salamander breathes out this fiery breath , it does not consume a single mental point. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-06182))_
 
 ### 13.2.6 Mythical Beasts and Magical Beasts / [ Horse ] / 13.6 Handling Monster Special Abilities / 《 Fire Breath 》
 
-- Monsters with this ability can breathe fire. Characters exposed to the fire (the range of the fire varies by monster) will suffer damage. This damage cannot be prevented by armor, it can only be reduced by adventurer level and magical defense. You must also make a mental power resistance roll against the indicated target score, which if successful will result in a smaller amount of damage. (Strike power will be reduced by 10, and a critical will not occur) _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-08773))_
+- Monsters with this ability can breathe fire. Characters exposed to the fire (the range of the fire varies by monster) will suffer damage. This damage cannot be prevented by armor, it can only be reduced by adventurer level and magical defense. You must also make a mental power resistance roll against the indicated target score, which if successful will result in a smaller amount of damage. (Strike power will be reduced by 10, and a critical will not occur) _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-08773))_
 
 
 ## Technical atoms
 
 ### Technical frame 1: Chapter 11: Notes on Magic / 11.3 Dragon Roar Magic / 4th Level Dragon Roar Magic List / [ Fire Breath ]
 
-**Context:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-05229))_
+**Context:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-05229))_
 
 > The caster breathes fire from their mouth like a dragon. The fire's area of effect is a semicircle with a 10 meter forward radius. The fire's strike power is 20, and the caster's magic power equals bonus damage.
 
-**Atoms:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-05221, source-range-0d48087c-05222, source-range-0d48087c-05223, source-range-0d48087c-05224, source-range-0d48087c-05225, source-range-0d48087c-05226, source-range-0d48087c-05227, source-range-0d48087c-05228))_
+**Atoms:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-05221, source-range-e5870dca-05222, source-range-e5870dca-05223, source-range-e5870dca-05224, source-range-e5870dca-05225, source-range-e5870dca-05226, source-range-e5870dca-05227, source-range-e5870dca-05228))_
 
-<a id="atom-technical-atom-55794380ef9b3ba8"></a>
+<a id="atom-technical-atom-4e69c3f6f8f02106"></a>
 > Base Mental Power Cost=20
 
-<a id="atom-technical-atom-f40585e9bda3e7a2"></a>
+<a id="atom-technical-atom-70e33fc8a2f527be"></a>
 > Distance=Caster
 
-<a id="atom-technical-atom-a2f3b91b1945bb27"></a>
+<a id="atom-technical-atom-40b1ec2cde0ddf0b"></a>
 > Area=Semicircle with a 10 meter forward radius
 
-<a id="atom-technical-atom-5cfc564ca3616150"></a>
+<a id="atom-technical-atom-05590a56026ee993"></a>
 > Duration=Instant
 
-<a id="atom-technical-atom-53bb424628a79a22"></a>
+<a id="atom-technical-atom-d1be9b77db851d57"></a>
 > Effect=Breathe fire from the mouth
 
-<a id="atom-technical-atom-a42117f3bf91dbfc"></a>
+<a id="atom-technical-atom-ee9a737db58d764a"></a>
 > Type=Damage (Fire-type)
 
-<a id="atom-technical-atom-24070ddbf051feaf"></a>
+<a id="atom-technical-atom-447cde164ec78a7a"></a>
 > Expansion=Final score, area, damage certainty
 
-<a id="atom-technical-atom-dc321a1e9d58d7f4"></a>
+<a id="atom-technical-atom-a13af2aaaa87235a"></a>
 > Resist=Reduced effect
 
 
@@ -68,8 +68,8 @@ What [[sword-world-rpg-complete-edition]] covers about [ fire breath ]:
 
 ### Source structure
 
-- [[sword-world-rpg-complete-edition-section-chapter-11-notes-on-magic-11-3-dragon-roar-magic-4th-level-dragon-roar-magic-list-fire-breath-e075b4b3]] - source section: Chapter 11: Notes on Magic / 11.3 Dragon Roar Magic / 4th Level Dragon Roar Magic List / [ Fire Breath ] shares source evidence from Chapter 11: Notes on Magic / 11.3 Dragon Roar Magic / 4th Level Dragon Roar Magic List / [ Fire Breath ]: The caster breathes fire from their mouth like a dragon. The fire's area of effect is a semicircle with a 10 meter forward radius. The fire's strike power is 20, and ... [truncated]; Chapter 11: Notes on Magic / 11.3 Dragon Roar Magic / 4th Level Dragon Roar Magic List / [ Fire Breath ] shares technical record from Chapter 11: Notes on Magic / 11.3 Dragon Roar Magic / 4th Level Dragon Roar Magic List / [ Fire Breath ]: Base Mental Power Cost=20 (2 shared statement(s), 8 shared atom(s))
-- [[sword-world-rpg-complete-edition-section-13-2-6-mythical-beasts-and-magical-beasts-horse-13-6-handling-monster-special-abilities-fire-bre-d2c73283]] - source section: 13.2.6 Mythical Beasts and Magical Beasts / [ Horse ] / 13.6 Handling Monster Special Abilities / 《 Fire Breath 》 shares source evidence from 13.2.6 Mythical Beasts and Magical Beasts / [ Horse ] / 13.6 Handling Monster Special Abilities / 《 Fire Breath 》: Monsters with this ability can breathe fire. Characters exposed to the fire (the range of the fire varies by monster) will suffer damage. This damage cannot be preve ... [truncated]; 13.2.6 Mythical Beasts and Magical Beasts / [ Horse ] / 13.6 Handling Monster Special Abilities / 《 Fire Breath 》 shares technical record from 13.2.6 Mythical Beasts and Magical Beasts / [ Horse ] / 13.6 Handling Monster Special Abilities / 《 Fire Breath 》: You must also make a mental power resistance roll against the indicated target score, which if successful will result in a smaller amount of damage. (1 shared statement(s), 1 shared atom(s))
+- [[sword-world-rpg-complete-edition-section-chapter-11-notes-on-magic-11-3-dragon-roar-magic-4th-level-dragon-roar-magic-list-fire-breath-29b359d3]] - source section: Chapter 11: Notes on Magic / 11.3 Dragon Roar Magic / 4th Level Dragon Roar Magic List / [ Fire Breath ] shares source evidence from Chapter 11: Notes on Magic / 11.3 Dragon Roar Magic / 4th Level Dragon Roar Magic List / [ Fire Breath ]: The caster breathes fire from their mouth like a dragon. The fire's area of effect is a semicircle with a 10 meter forward radius. The fire's strike power is 20, and ... [truncated]; Chapter 11: Notes on Magic / 11.3 Dragon Roar Magic / 4th Level Dragon Roar Magic List / [ Fire Breath ] shares technical record from Chapter 11: Notes on Magic / 11.3 Dragon Roar Magic / 4th Level Dragon Roar Magic List / [ Fire Breath ]: Base Mental Power Cost=20 (2 shared statement(s), 8 shared atom(s))
+- [[sword-world-rpg-complete-edition-section-13-2-6-mythical-beasts-and-magical-beasts-horse-13-6-handling-monster-special-abilities-fire-bre-276d550d]] - source section: 13.2.6 Mythical Beasts and Magical Beasts / [ Horse ] / 13.6 Handling Monster Special Abilities / 《 Fire Breath 》 shares source evidence from 13.2.6 Mythical Beasts and Magical Beasts / [ Horse ] / 13.6 Handling Monster Special Abilities / 《 Fire Breath 》: Monsters with this ability can breathe fire. Characters exposed to the fire (the range of the fire varies by monster) will suffer damage. This damage cannot be preve ... [truncated]; 13.2.6 Mythical Beasts and Magical Beasts / [ Horse ] / 13.6 Handling Monster Special Abilities / 《 Fire Breath 》 shares technical record from 13.2.6 Mythical Beasts and Magical Beasts / [ Horse ] / 13.6 Handling Monster Special Abilities / 《 Fire Breath 》: You must also make a mental power resistance roll against the indicated target score, which if successful will result in a smaller amount of damage. (1 shared statement(s), 1 shared atom(s))
 
 ### Shared claims
 

@@ -4,12 +4,12 @@ page_kind: recipe
 summary: representing naughts and crosses as a stateful function: reusable source-backed pattern with 3 statement(s) and 3 technical atom(s) from raw/javascriptallonge.pdf.
 page_family: recipe-pattern
 sources: raw/javascriptallonge.pdf
-updated: 2026-07-02
+updated: 2026-07-06
 domain: javascriptallonge
 category_path: recipes/javascriptallonge
 source_id: javascriptallonge.pdf
 aliases: representing-naughts-and-crosses-as-a-stateful-function
-projection_coverage: recipe-javascriptallonge-recipe-representing-naughts-and-crosses-as-a-stateful-function@9d214395291b1cacd80b84941c8c77dc
+projection_coverage: recipe-javascriptallonge-recipe-representing-naughts-and-crosses-as-a-stateful-function@218f1adc1e6f833477b78a8af5ed03eb
 ---
 
 # representing naughts and crosses as a stateful function
@@ -18,20 +18,20 @@ From [[javascriptallonge]].
 
 ## Pattern
 
-- Use the source-backed pattern described in [[javascriptallonge-section-interactive-generators-representing-naughts-and-crosses-as-a-stateful-function-50fe6464]].
+- Use the source-backed pattern described in [[javascriptallonge-section-interactive-generators-representing-naughts-and-crosses-as-a-stateful-function-2e75ec69]].
 - Evidence roles: decision, example.
 
 ## Applicability And Rationale
 
-- Our 'API' will work like this: When we want a new game, we'll call a function that will return a game function, We'll call the game function repeatedly, passing our moves, and get the opponent's moves from it. _(javascriptallonge.pdf (source-range-0e12e052-01918))_
-- In that case, we need a stateful function. _(javascriptallonge.pdf (source-range-0e12e052-01918))_
-- The state is encoded entirely in data. _(javascriptallonge.pdf (source-range-0e12e052-01924))_
+- In that case, we need a stateful function. _(javascriptallonge.pdf (source-range-c98ab3e6-01918))_
+- Our 'API' will work like this: When we want a new game, we'll call a function that will return a game function, We'll call the game function repeatedly, passing our moves, and get the opponent's moves from it. _(javascriptallonge.pdf (source-range-c98ab3e6-01918))_
+- The state is encoded entirely in data. _(javascriptallonge.pdf (source-range-c98ab3e6-01924))_
 
 ## Technical Atoms
 
 ### Atom 1: `code-block`
 
-_Source: javascriptallonge.pdf (source-range-0e12e052-01920)_
+_Source: javascriptallonge.pdf (source-range-c98ab3e6-01920)_
 
 ```
 const aNaughtsAndCrossesGame = statefulNaughtsAndCrosses();
@@ -48,7 +48,7 @@ aNaughtsAndCrossesGame(4)
 
 ### Atom 2: `code-block`
 
-_Source: javascriptallonge.pdf (source-range-0e12e052-01922)_
+_Source: javascriptallonge.pdf (source-range-c98ab3e6-01922)_
 
 ```
 const statefulNaughtsAndCrosses = () => {
@@ -63,7 +63,7 @@ if (x) {
 
 ### Atom 3: `code-block`
 
-_Source: javascriptallonge.pdf (source-range-0e12e052-01923)_
+_Source: javascriptallonge.pdf (source-range-c98ab3e6-01923)_
 
 ```
 if (state[x] === ' ') {
@@ -91,4 +91,4 @@ aNaughtsAndCrossesGame(4)
 ## Source Trail
 
 - Source manifest: [[javascriptallonge]]
-- Source section: [[javascriptallonge-section-interactive-generators-representing-naughts-and-crosses-as-a-stateful-function-50fe6464]]
+- Source section: [[javascriptallonge-section-interactive-generators-representing-naughts-and-crosses-as-a-stateful-function-2e75ec69]]

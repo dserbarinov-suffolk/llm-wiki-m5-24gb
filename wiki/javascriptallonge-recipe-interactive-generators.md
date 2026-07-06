@@ -4,12 +4,12 @@ page_kind: recipe
 summary: interactive generators: reusable source-backed pattern with 6 statement(s) and 1 technical atom(s) from raw/javascriptallonge.pdf.
 page_family: recipe-pattern
 sources: raw/javascriptallonge.pdf
-updated: 2026-07-02
+updated: 2026-07-06
 domain: javascriptallonge
 category_path: recipes/javascriptallonge
 source_id: javascriptallonge.pdf
 aliases: interactive-generators
-projection_coverage: recipe-javascriptallonge-recipe-interactive-generators@b14567dad1d932f7bb716c9dfc31ff1c
+projection_coverage: recipe-javascriptallonge-recipe-interactive-generators@931d6be8699a6aa452bc3d88f88fc161
 ---
 
 # interactive generators
@@ -18,23 +18,23 @@ From [[javascriptallonge]].
 
 ## Pattern
 
-- Use the source-backed pattern described in [[javascriptallonge-section-interactive-generators-this-seems-familiar-interactive-generators-3de32faa]].
+- Use the source-backed pattern described in [[javascriptallonge-section-interactive-generators-this-seems-familiar-interactive-generators-8882af95]].
 - Evidence roles: decision, explanation, example.
 
 ## Applicability And Rationale
 
-- So far, we have called iterators (and generators) with .next() . _(javascriptallonge.pdf (source-range-0e12e052-01934))_
-- Thereafter, we call .next(...) and pass in our moves (The very first call has to be .next() without any arguments, because the generator hasn't started yet. _(javascriptallonge.pdf (source-range-0e12e052-01937))_
-- If we wanted to pass some state to the generator before it begins, we'd do that with parameters.): aNaughtsAndCrossesGame.next().value //=> 0 aNaughtsAndCrossesGame.next(1).value //=> 6 aNaughtsAndCrossesGame.next(3).value //=> 8 aNaughtsAndCrossesGame.next(7).value //=> 4 _(javascriptallonge.pdf (source-range-0e12e052-01937))_
-- It isn't a collection, it has no meaning if we try to spread it into parameters or as the subject of a for...of block. _(javascriptallonge.pdf (source-range-0e12e052-01938))_
-- But the generator function allows us to maintain state implicitly. _(javascriptallonge.pdf (source-range-0e12e052-01939))_
-- And sometimes, we want to use implicit state instead of explicitly storing state in our data. _(javascriptallonge.pdf (source-range-0e12e052-01939))_
+- So far, we have called iterators (and generators) with .next() . _(javascriptallonge.pdf (source-range-c98ab3e6-01934))_
+- If we wanted to pass some state to the generator before it begins, we'd do that with parameters.): aNaughtsAndCrossesGame.next().value //=> 0 aNaughtsAndCrossesGame.next(1).value //=> 6 aNaughtsAndCrossesGame.next(3).value //=> 8 aNaughtsAndCrossesGame.next(7).value //=> 4 _(javascriptallonge.pdf (source-range-c98ab3e6-01937))_
+- Thereafter, we call .next(...) and pass in our moves (The very first call has to be .next() without any arguments, because the generator hasn't started yet. _(javascriptallonge.pdf (source-range-c98ab3e6-01937))_
+- It isn't a collection, it has no meaning if we try to spread it into parameters or as the subject of a for...of block. _(javascriptallonge.pdf (source-range-c98ab3e6-01938))_
+- And sometimes, we want to use implicit state instead of explicitly storing state in our data. _(javascriptallonge.pdf (source-range-c98ab3e6-01939))_
+- But the generator function allows us to maintain state implicitly. _(javascriptallonge.pdf (source-range-c98ab3e6-01939))_
 
 ## Technical Atoms
 
 ### Atom 1: `code-block`
 
-_Source: javascriptallonge.pdf (source-range-0e12e052-01936)_
+_Source: javascriptallonge.pdf (source-range-c98ab3e6-01936)_
 
 ```
 function* generatorNaughtsAndCrosses () {
@@ -66,4 +66,4 @@ break;
 ## Source Trail
 
 - Source manifest: [[javascriptallonge]]
-- Source section: [[javascriptallonge-section-interactive-generators-this-seems-familiar-interactive-generators-3de32faa]]
+- Source section: [[javascriptallonge-section-interactive-generators-this-seems-familiar-interactive-generators-8882af95]]

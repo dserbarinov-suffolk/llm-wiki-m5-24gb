@@ -4,10 +4,10 @@ page_kind: concept
 summary: Ternary Operator: 1 statement(s) and 2 atom(s) from raw/javascriptallonge.pdf.
 page_family: topic-concept
 sources: raw/javascriptallonge.pdf
-updated: 2026-07-02
+updated: 2026-07-06
 domain: javascriptallonge
 category_path: concepts
-projection_coverage: topic-javascriptallonge-ternary-operator@7b28615ce7d4eb66b0488622793a6d7d
+projection_coverage: topic-javascriptallonge-ternary-operator@7ce69aa88169df2709be57c61b94eaa4
 ---
 
 # Ternary Operator
@@ -18,20 +18,20 @@ What [[javascriptallonge]] covers about ternary operator:
 
 ### Picking the Bean: Choice and Truthiness / truthiness and the ternary operator
 
-- JavaScript inherited an operator from the C family of languages, the ternary operator. It's the only operator that takes three arguments. It looks like this: first ? second : third . It evaluates first , and if first is 'truthy', it evaluates second and that is its value. If first is not truthy, it evaluates third and that is its value. _(javascriptallonge.pdf (source-range-0e12e052-00763))_
+- JavaScript inherited an operator from the C family of languages, the ternary operator. It's the only operator that takes three arguments. It looks like this: first ? second : third . It evaluates first , and if first is 'truthy', it evaluates second and that is its value. If first is not truthy, it evaluates third and that is its value. _(javascriptallonge.pdf (source-range-c98ab3e6-00763))_
 
 
 ## Technical atoms
 
 ### Technical frame 1: Picking the Bean: Choice and Truthiness / truthiness and the ternary operator
 
-**Context:** _(javascriptallonge.pdf (source-range-0e12e052-00769))_
+**Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-00769))_
 
 > Wecertainly don't want JavaScript trying to evaluate deleteRecord(currentRecord) unless isAuthorized(currentUser) returns true .
 
-**Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00767))_
+**Atom:** _(javascriptallonge.pdf (source-range-c98ab3e6-00767))_
 
-<a id="atom-technical-atom-8a38ccb9b6091e45"></a>
+<a id="atom-technical-atom-850cbf42a14e0910"></a>
 ```
 true ? 'Hello' : 'Good bye'
 //=> 'Hello'
@@ -43,13 +43,13 @@ true ? 'Hello' : 'Good bye'
 
 ### Technical frame 2: Picking the Bean: Choice and Truthiness / truthiness and the ternary operator
 
-**Context:** _(javascriptallonge.pdf (source-range-0e12e052-00763))_
+**Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-00763))_
 
 > JavaScript inherited an operator from the C family of languages, the ternary operator. It's the only operator that takes three arguments. It looks like this: first ? second : third . It evaluates first , and if first is 'truthy', it evaluates second and that is its value. If first is not truthy, it evaluates third and that is its value.
 
-**Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00768))_
+**Atom:** _(javascriptallonge.pdf (source-range-c98ab3e6-00768))_
 
-<a id="atom-technical-atom-8a0bd30e2d4f15a1"></a>
+<a id="atom-technical-atom-9f2f063732907792"></a>
 ```text
 //=> 'Hello'
 0 ? 'Hello' : 'Good bye'

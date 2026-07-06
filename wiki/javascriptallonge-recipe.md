@@ -4,10 +4,10 @@ page_kind: concept
 summary: Recipe: 5 statement(s) and 9 atom(s) from raw/javascriptallonge.pdf.
 page_family: broad-topic
 sources: raw/javascriptallonge.pdf
-updated: 2026-07-02
+updated: 2026-07-06
 domain: javascriptallonge
 category_path: concepts
-projection_coverage: topic-javascriptallonge-recipe@42d592be22d25f88ec49ef741cfceeac
+projection_coverage: topic-javascriptallonge-recipe@5a6bc8c357059a07e959af48bbba8ede
 ---
 
 # Recipe
@@ -18,36 +18,36 @@ What [[javascriptallonge]] covers about recipe:
 
 ### And also: / Building Blocks / composition
 
-- In the recipes, we'll look at a decorator called once: It ensures that a function can only be executed once. Thereafter, it does nothing. Once is useful for ensuring that certain side effects are not repeated. We'll also look at maybe: It ensures that a function does nothing if it is given nothing (like null or undefined ) as an argument. _(javascriptallonge.pdf (source-range-0e12e052-00582))_
+- In the recipes, we'll look at a decorator called once: It ensures that a function can only be executed once. Thereafter, it does nothing. Once is useful for ensuring that certain side effects are not repeated. We'll also look at maybe: It ensures that a function does nothing if it is given nothing (like null or undefined ) as an argument. _(javascriptallonge.pdf (source-range-c98ab3e6-00582))_
 
 ### Recipes with Basic Functions / Disclaimer
 
-- The recipes are written for practicality, and their implementation may introduce JavaScript features that haven't been discussed in the text to this point, such as methods and/or prototypes. The overall use of each recipe will fit within the spirit of the language discussed so far, even if the implementations may not. _(javascriptallonge.pdf (source-range-0e12e052-00652))_
+- The recipes are written for practicality, and their implementation may introduce JavaScript features that haven't been discussed in the text to this point, such as methods and/or prototypes. The overall use of each recipe will fit within the spirit of the language discussed so far, even if the implementations may not. _(javascriptallonge.pdf (source-range-c98ab3e6-00652))_
 
 ### Recipes with Basic Functions / Partial Application
 
-- These two recipes are for quickly and simply applying a single argument, either the leftmost or rightmost. 48 If you want to bind more than one argument, or you want to leave a 'hole' in the argument list, you will need to either use a generalized partial recipe, or you will need to repeatedly apply arguments. They are context-agnostic. _(javascriptallonge.pdf (source-range-0e12e052-00655))_
+- These two recipes are for quickly and simply applying a single argument, either the leftmost or rightmost. 48 If you want to bind more than one argument, or you want to leave a 'hole' in the argument list, you will need to either use a generalized partial recipe, or you will need to repeatedly apply arguments. They are context-agnostic. _(javascriptallonge.pdf (source-range-c98ab3e6-00655))_
 
 ### Recipes with Basic Functions / Maybe
 
-- Naturally, there's a function decorator recipe for that, borrowed from Haskell's maybe monad 50 , Ruby's andand 51 , and CoffeeScript's existential method invocation: _(javascriptallonge.pdf (source-range-0e12e052-00695))_
+- Naturally, there's a function decorator recipe for that, borrowed from Haskell's maybe monad 50 , Ruby's andand 51 , and CoffeeScript's existential method invocation: _(javascriptallonge.pdf (source-range-c98ab3e6-00695))_
 
 ### Recipes with Data / Disclaimer
 
-- The recipes are written for practicality, and their implementation may introduce JavaScript features that haven't been discussed in the text to this point, such as methods and/or prototypes. The overall use of each recipe will fit within the spirit of the language discussed so far, even if the implementations may not. _(javascriptallonge.pdf (source-range-0e12e052-01423))_
+- The recipes are written for practicality, and their implementation may introduce JavaScript features that haven't been discussed in the text to this point, such as methods and/or prototypes. The overall use of each recipe will fit within the spirit of the language discussed so far, even if the implementations may not. _(javascriptallonge.pdf (source-range-c98ab3e6-01423))_
 
 
 ## Technical atoms
 
 ### Technical frame 1: Recipes with Basic Functions / Partial Application
 
-**Context:** _(javascriptallonge.pdf (source-range-0e12e052-00655))_
+**Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-00655))_
 
 > These two recipes are for quickly and simply applying a single argument, either the leftmost or rightmost. 48 If you want to bind more than one argument, or you want to leave a 'hole' in the argument list, you will need to either use a generalized partial recipe, or you will need to repeatedly apply arguments. They are context-agnostic.
 
-**Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00654))_
+**Atom:** _(javascriptallonge.pdf (source-range-c98ab3e6-00654))_
 
-<a id="atom-technical-atom-33d675e7d462cdb6"></a>
+<a id="atom-technical-atom-1cc50651f1542e2d"></a>
 ```text
 Partial Application
 In Building Blocks, we discussed partial application, but we didn't write a generalized recipe for it. This is such a common tool that many libraries provide some form of partial application. You'll find examples in Lemonad 45 from Michael Fogus, Functional JavaScript 46 from Oliver Steele and the terse but handy node-ap 47 from James Halliday.
@@ -66,13 +66,13 @@ In Building Blocks, we discussed partial application, but we didn't write a gene
 
 ### Technical frame 2: Recipes with Basic Functions / Partial Application
 
-**Context:** _(javascriptallonge.pdf (source-range-0e12e052-00657))_
+**Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-00657))_
 
 > As noted above, our partial recipe allows us to create functions that are partial applications of functions that are context aware. We'd need a different recipe if we wish to create partial applications of object methods.
 
-**Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00656))_
+**Atom:** _(javascriptallonge.pdf (source-range-c98ab3e6-00656))_
 
-<a id="atom-technical-atom-12e2e0144ff30f83"></a>
+<a id="atom-technical-atom-edcba002c446c9b0"></a>
 ```
 const callFirst = (fn, larg) =>
 function (...rest) {
@@ -94,13 +94,13 @@ sayHelloToCeline('Eartha')
 
 ### Technical frame 3: Recipes with Basic Functions / Partial Application
 
-**Context:** _(javascriptallonge.pdf (source-range-0e12e052-00660))_
+**Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-00660))_
 
 > We take it a step further, and can use gathering and spreading to allow for partial application with more than one argument:
 
-**Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00658))_
+**Atom:** _(javascriptallonge.pdf (source-range-c98ab3e6-00658))_
 
-<a id="atom-technical-atom-6a1f8c07567d2732"></a>
+<a id="atom-technical-atom-aeda04316027e1eb"></a>
 ```text
 45 https://github.com/fogus/lemonad 46 http://osteele.com/sources/javascript/functional/ 47 https://github.com/substack/node-ap 48
 ```
@@ -118,13 +118,13 @@ sayHelloToCeline('Eartha')
 
 ### Technical frame 4: Recipes with Basic Functions / Maybe
 
-**Context:** _(javascriptallonge.pdf (source-range-0e12e052-00693))_
+**Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-00693))_
 
 > Alternately, the function may be intended to work with any value, but the code calling the function wishes to emulate the behaviour of doing nothing by design when given nothing:
 
-**Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00692))_
+**Atom:** _(javascriptallonge.pdf (source-range-c98ab3e6-00692))_
 
-<a id="atom-technical-atom-b391f2eda61e4a54"></a>
+<a id="atom-technical-atom-d174c902a9dab363"></a>
 ```
 const isSomething = (value) =>
 value !== null && value !== void 0;
@@ -137,13 +137,13 @@ if (isSomething(value)) {
 
 ### Technical frame 5: Recipes with Basic Functions / Maybe
 
-**Context:** _(javascriptallonge.pdf (source-range-0e12e052-00703))_
+**Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-00703))_
 
 > If some code ever tries to call model.setSomething with nothing, the operation will be skipped.
 
-**Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00696))_
+**Atom:** _(javascriptallonge.pdf (source-range-c98ab3e6-00696))_
 
-<a id="atom-technical-atom-5ec51305fdef23e8"></a>
+<a id="atom-technical-atom-88add223b9628933"></a>
 ```
 const maybe = (fn) =>
 function (...args) {
@@ -158,13 +158,13 @@ if (arg == null) return;
 
 ### Technical frame 6: Recipes with Basic Functions / Maybe
 
-**Context:** _(javascriptallonge.pdf (source-range-0e12e052-00695))_
+**Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-00695))_
 
 > Naturally, there's a function decorator recipe for that, borrowed from Haskell's maybe monad 50 , Ruby's andand 51 , and CoffeeScript's existential method invocation:
 
-**Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00697))_
+**Atom:** _(javascriptallonge.pdf (source-range-c98ab3e6-00697))_
 
-<a id="atom-technical-atom-5afd53750bded0f2"></a>
+<a id="atom-technical-atom-b584cc27a63d4a4f"></a>
 ```text
 50 https://en.wikipedia.org/wiki/Monad_(functional_programming)#The_Maybe_monad
 51 https://github.com/raganwald/andand
@@ -182,13 +182,13 @@ if (arg == null) return;
 
 ### Technical frame 7: Recipes with Basic Functions / Maybe
 
-**Context:** _(javascriptallonge.pdf (source-range-0e12e052-00703))_
+**Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-00703))_
 
 > If some code ever tries to call model.setSomething with nothing, the operation will be skipped.
 
-**Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00698))_
+**Atom:** _(javascriptallonge.pdf (source-range-c98ab3e6-00698))_
 
-<a id="atom-technical-atom-754594f35861b72e"></a>
+<a id="atom-technical-atom-6df57b17b341935d"></a>
 ```
 return fn.apply(this, args)
 }
@@ -197,13 +197,13 @@ return fn.apply(this, args)
 
 ### Technical frame 8: Recipes with Data / Flip
 
-**Context:** _(javascriptallonge.pdf (source-range-0e12e052-01457))_
+**Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01457))_
 
 > What we have now is a function that takes a function and 'flips' the order of arguments around, then curries it. So let's call it flipAndCurry :
 
-**Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01458))_
+**Atom:** _(javascriptallonge.pdf (source-range-c98ab3e6-01458))_
 
-<a id="atom-technical-atom-e691ed10c98b5052"></a>
+<a id="atom-technical-atom-5494cc74c8c832f8"></a>
 ```text
 84 https://github.com/raganwald/allong.es
 85 http://underscorejs.org

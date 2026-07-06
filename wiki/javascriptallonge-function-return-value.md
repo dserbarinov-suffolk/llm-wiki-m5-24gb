@@ -4,10 +4,10 @@ page_kind: concept
 summary: Function Return Value: 1 statement(s) and 2 atom(s) from raw/javascriptallonge.pdf.
 page_family: topic-concept
 sources: raw/javascriptallonge.pdf
-updated: 2026-07-02
+updated: 2026-07-06
 domain: javascriptallonge
 category_path: concepts
-projection_coverage: topic-javascriptallonge-function-return-value@ddf560b7aab7cb454b2b83a83309bb98
+projection_coverage: topic-javascriptallonge-function-return-value@5cd29b1d4c72d762c8b6182ecbc8f5c9
 ---
 
 # Function Return Value
@@ -18,20 +18,20 @@ What [[javascriptallonge]] covers about function return value:
 
 ### The first sip: Basic Functions / As Little As Possible About Functions, But No Less / functions that return values and evaluate expressions
 
-- Yes we can! Functions can return the value of evaluating another function. _(javascriptallonge.pdf (source-range-0e12e052-00198))_
+- Yes we can! Functions can return the value of evaluating another function. _(javascriptallonge.pdf (source-range-c98ab3e6-00198))_
 
 
 ## Technical atoms
 
 ### Technical frame 1: The first sip: Basic Functions / As Little As Possible About Functions, But No Less / functions that return values and evaluate expressions
 
-**Context:** _(javascriptallonge.pdf (source-range-0e12e052-00195))_
+**Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-00195))_
 
 > Yes we can. We can put any expression to the right of the arrow. For example, (() => 0)() is an expression. Can we put it to the right of an arrow, like this: () => (() => 0)() ?
 
-**Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00194))_
+**Atom:** _(javascriptallonge.pdf (source-range-c98ab3e6-00194))_
 
-<a id="atom-technical-atom-23c16ebe3854932d"></a>
+<a id="atom-technical-atom-05b18e9495339725"></a>
 ```
 (() => 1 + 1)()
 //=> 2
@@ -43,13 +43,13 @@ What [[javascriptallonge]] covers about function return value:
 
 ### Technical frame 2: The first sip: Basic Functions / As Little As Possible About Functions, But No Less / functions that return values and evaluate expressions
 
-**Context:** _(javascriptallonge.pdf (source-range-0e12e052-00198))_
+**Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-00198))_
 
 > Yes we can! Functions can return the value of evaluating another function.
 
-**Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00199))_
+**Atom:** _(javascriptallonge.pdf (source-range-c98ab3e6-00199))_
 
-<a id="atom-technical-atom-d80a006f6758d4fe"></a>
+<a id="atom-technical-atom-313acb45627b4528"></a>
 > When dealing with expressions that have a lot of the same characters (like parentheses), you may find it helpful to format the code to make things stand out.
 
 

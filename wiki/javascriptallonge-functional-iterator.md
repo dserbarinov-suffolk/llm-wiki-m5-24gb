@@ -4,10 +4,10 @@ page_kind: concept
 summary: Functional Iterators: 39 statement(s) and 27 atom(s) from raw/javascriptallonge.pdf.
 page_family: topic-concept
 sources: raw/javascriptallonge.pdf
-updated: 2026-07-02
+updated: 2026-07-06
 domain: javascriptallonge
 category_path: concepts
-projection_coverage: topic-javascriptallonge-functional-iterator@f02d8f5a2449e6a997f4c32a2e0791b7
+projection_coverage: topic-javascriptallonge-functional-iterator@595c7b03ad779baae0fae99e580dc982
 ---
 
 # Functional Iterators
@@ -18,88 +18,88 @@ What [[javascriptallonge]] covers about functional iterators:
 
 ### Copy on Write / Functional Iterators
 
-- The nice thing about this is that the definition for arraySum mostly concerns itself with summing, and not with traversing over a collection of data. But it still relies on foldArrayWith , so it can only sum arrays. _(javascriptallonge.pdf (source-range-0e12e052-01271))_
+- The nice thing about this is that the definition for arraySum mostly concerns itself with summing, and not with traversing over a collection of data. But it still relies on foldArrayWith , so it can only sum arrays. _(javascriptallonge.pdf (source-range-c98ab3e6-01271))_
 
-- Well, we call arraySum with an array, and it has baked into it a method for traversing the array. Perhaps we could extract both of those things. Let's rearrange our code a bit: _(javascriptallonge.pdf (source-range-0e12e052-01273))_
+- Well, we call arraySum with an array, and it has baked into it a method for traversing the array. Perhaps we could extract both of those things. Let's rearrange our code a bit: _(javascriptallonge.pdf (source-range-c98ab3e6-01273))_
 
-- What we've done is turn an array into a function that folds an array with const foldArray = (array) => callRight(foldArrayWith, array); . The sumFoldable function doesn't care what kind of data structure we have, as long as it's foldable. _(javascriptallonge.pdf (source-range-0e12e052-01275))_
+- What we've done is turn an array into a function that folds an array with const foldArray = (array) => callRight(foldArrayWith, array); . The sumFoldable function doesn't care what kind of data structure we have, as long as it's foldable. _(javascriptallonge.pdf (source-range-c98ab3e6-01275))_
 
 ### Copy on Write / Functional Iterators / iterating
 
-- Folding is a universal operation, and with care we can accomplish any task with folds that could be accomplished with that stalwart of structured programming, the for loop. Nevertheless, there is some value in being able to express some algorithms as iteration. _(javascriptallonge.pdf (source-range-0e12e052-01280))_
+- Folding is a universal operation, and with care we can accomplish any task with folds that could be accomplished with that stalwart of structured programming, the for loop. Nevertheless, there is some value in being able to express some algorithms as iteration. _(javascriptallonge.pdf (source-range-c98ab3e6-01280))_
 
-- JavaScript has a particularly low-level version of for loop that mimics the semantics of the C language. Summing the elements of an array can be accomplished with: _(javascriptallonge.pdf (source-range-0e12e052-01281))_
+- JavaScript has a particularly low-level version of for loop that mimics the semantics of the C language. Summing the elements of an array can be accomplished with: _(javascriptallonge.pdf (source-range-c98ab3e6-01281))_
 
-- Once again, we're mixing the code for iterating over an array with the code for calculating a sum. And worst of all, we're getting really low-level with details like knowing that the elements of an array are indexed with consecutive integers that begin with 0 . _(javascriptallonge.pdf (source-range-0e12e052-01283))_
+- Once again, we're mixing the code for iterating over an array with the code for calculating a sum. And worst of all, we're getting really low-level with details like knowing that the elements of an array are indexed with consecutive integers that begin with 0 . _(javascriptallonge.pdf (source-range-c98ab3e6-01283))_
 
-- Notice that buried inside our loop, we have bound the names done and value . We can put those into a POJO (a Plain Old JavaScript Object). It'll be a little awkward, but we'll be patient: _(javascriptallonge.pdf (source-range-0e12e052-01286))_
+- Notice that buried inside our loop, we have bound the names done and value . We can put those into a POJO (a Plain Old JavaScript Object). It'll be a little awkward, but we'll be patient: _(javascriptallonge.pdf (source-range-c98ab3e6-01286))_
 
-- Now this is something else. The arrayIterator function takes an array and returns a function we can call repeatedly to obtain the elements of the array. The iteratorSum function iterates over the elements by calling the iterator function repeatedly until it returns { done: true } . _(javascriptallonge.pdf (source-range-0e12e052-01289))_
+- Now this is something else. The arrayIterator function takes an array and returns a function we can call repeatedly to obtain the elements of the array. The iteratorSum function iterates over the elements by calling the iterator function repeatedly until it returns { done: true } . _(javascriptallonge.pdf (source-range-c98ab3e6-01289))_
 
-- We can write a different iterator for a different data structure. Here's one for linked lists: _(javascriptallonge.pdf (source-range-0e12e052-01290))_
+- We can write a different iterator for a different data structure. Here's one for linked lists: _(javascriptallonge.pdf (source-range-c98ab3e6-01290))_
 
 ### Copy on Write / Functional Iterators / unfolding and laziness
 
-- Iterators are functions. When they iterate over an array or linked list, they are traversing something that is already there. But they could just as easily manufacture the data as they go. Let's consider the simplest example: _(javascriptallonge.pdf (source-range-0e12e052-01294))_
+- Iterators are functions. When they iterate over an array or linked list, they are traversing something that is already there. But they could just as easily manufacture the data as they go. Let's consider the simplest example: _(javascriptallonge.pdf (source-range-c98ab3e6-01294))_
 
-- A function that starts with a seed and expands it into a data structure is called an unfold . It's the opposite of a fold. It's possible to write a generic unfold mechanism, but let's pass on to what we can do with unfolded iterators. _(javascriptallonge.pdf (source-range-0e12e052-01298))_
+- A function that starts with a seed and expands it into a data structure is called an unfold . It's the opposite of a fold. It's possible to write a generic unfold mechanism, but let's pass on to what we can do with unfolded iterators. _(javascriptallonge.pdf (source-range-c98ab3e6-01298))_
 
-- This business of going on forever has some drawbacks. Let's introduce an idea: A function that takes an iterator and returns another iterator. We can start with take , an easy function that returns an iterator that only returns a fixed number of elements: _(javascriptallonge.pdf (source-range-0e12e052-01302))_
+- This business of going on forever has some drawbacks. Let's introduce an idea: A function that takes an iterator and returns another iterator. We can start with take , an easy function that returns an iterator that only returns a fixed number of elements: _(javascriptallonge.pdf (source-range-c98ab3e6-01302))_
 
-- How about the squares of the first five odd numbers? We'll need an iterator that produces odd numbers. We can write that directly: _(javascriptallonge.pdf (source-range-0e12e052-01304))_
+- How about the squares of the first five odd numbers? We'll need an iterator that produces odd numbers. We can write that directly: _(javascriptallonge.pdf (source-range-c98ab3e6-01304))_
 
-- Mapping and filtering iterators allows us to compose the parts we already have, rather than writing a tricky bit of code with ifs and whiles and boundary conditions. _(javascriptallonge.pdf (source-range-0e12e052-01309))_
+- Mapping and filtering iterators allows us to compose the parts we already have, rather than writing a tricky bit of code with ifs and whiles and boundary conditions. _(javascriptallonge.pdf (source-range-c98ab3e6-01309))_
 
 ### Copy on Write / Functional Iterators / bonus
 
-- Many programmers coming to JavaScript from other languages are familiar with three 'canonical' operations on collections: folding, filtering, and finding. In Smalltalk, for example, they are known as collect , select , and detect . _(javascriptallonge.pdf (source-range-0e12e052-01311))_
+- Many programmers coming to JavaScript from other languages are familiar with three 'canonical' operations on collections: folding, filtering, and finding. In Smalltalk, for example, they are known as collect , select , and detect . _(javascriptallonge.pdf (source-range-c98ab3e6-01311))_
 
-- This is interesting, because it is lazy: It doesn't apply fn to every element in an iteration, just enough to find the first that passes the test. Whereas if we wrote something like: _(javascriptallonge.pdf (source-range-0e12e052-01314))_
+- This is interesting, because it is lazy: It doesn't apply fn to every element in an iteration, just enough to find the first that passes the test. Whereas if we wrote something like: _(javascriptallonge.pdf (source-range-c98ab3e6-01314))_
 
-- JavaScript would apply fn to every element. If array was very large, and fn very slow, this would consume a lot of unnecessary time. And if fn had some sort of side-effect, the program could be buggy. _(javascriptallonge.pdf (source-range-0e12e052-01316))_
+- JavaScript would apply fn to every element. If array was very large, and fn very slow, this would consume a lot of unnecessary time. And if fn had some sort of side-effect, the program could be buggy. _(javascriptallonge.pdf (source-range-c98ab3e6-01316))_
 
 ### Copy on Write / Functional Iterators / caveat
 
-- Please note that unlike most of the other functions discussed in this book, iterators are stateful . There are some important implications of stateful functions. One is that while functions like take(...) appear to create an entirely new iterator, in reality they return a decorated reference to the original iterator. So as you traverse the new decorator, you're changing the state of the original! _(javascriptallonge.pdf (source-range-0e12e052-01318))_
+- Please note that unlike most of the other functions discussed in this book, iterators are stateful . There are some important implications of stateful functions. One is that while functions like take(...) appear to create an entirely new iterator, in reality they return a decorated reference to the original iterator. So as you traverse the new decorator, you're changing the state of the original! _(javascriptallonge.pdf (source-range-c98ab3e6-01318))_
 
-- For all intents and purposes, once you pass an iterator to a function, you can expect that you no longer 'own' that iterator, and that its state either has changed or will change. _(javascriptallonge.pdf (source-range-0e12e052-01319))_
+- For all intents and purposes, once you pass an iterator to a function, you can expect that you no longer 'own' that iterator, and that its state either has changed or will change. _(javascriptallonge.pdf (source-range-c98ab3e6-01319))_
 
 ### Served by the Pot: Collections / Iteration and Iterables / a look back at functional iterators
 
-- When discussing functions, we looked at the benefits of writing Functional Iterators. We can do the same thing for objects. Here's a stack that has its own functional iterator method: _(javascriptallonge.pdf (source-range-0e12e052-01527))_
+- When discussing functions, we looked at the benefits of writing Functional Iterators. We can do the same thing for objects. Here's a stack that has its own functional iterator method: _(javascriptallonge.pdf (source-range-c98ab3e6-01527))_
 
-- We could save a step and write collectionSum , a function that folds over any object, provided that the object implements an .iterator method: _(javascriptallonge.pdf (source-range-0e12e052-01536))_
+- We could save a step and write collectionSum , a function that folds over any object, provided that the object implements an .iterator method: _(javascriptallonge.pdf (source-range-c98ab3e6-01536))_
 
-- If we write a program with the presumption that 'everything is an object,' we can write maps, folds, and filters that work on objects. We just ask the object for an iterator, and work on the iterator. Our functions don't need to know anything about how an object implements iteration, and we get the benefit of lazily traversing our objects. _(javascriptallonge.pdf (source-range-0e12e052-01538))_
+- If we write a program with the presumption that 'everything is an object,' we can write maps, folds, and filters that work on objects. We just ask the object for an iterator, and work on the iterator. Our functions don't need to know anything about how an object implements iteration, and we get the benefit of lazily traversing our objects. _(javascriptallonge.pdf (source-range-c98ab3e6-01538))_
 
 ### Served by the Pot: Collections / Iteration and Iterables / iterator objects
 
-- Iteration for functions and objects has been around for many, many decades. For simple linear collections like arrays, linked lists, stacks, and queues, functional iterators are the simplest and easiest way to implement iterators. _(javascriptallonge.pdf (source-range-0e12e052-01541))_
+- Iteration for functions and objects has been around for many, many decades. For simple linear collections like arrays, linked lists, stacks, and queues, functional iterators are the simplest and easiest way to implement iterators. _(javascriptallonge.pdf (source-range-c98ab3e6-01541))_
 
 ### Served by the Pot: Collections / Iteration and Iterables / iterables
 
-- People have been writing iterators since JavaScript was first released in the late 1990s. Since there was no particular standard way to do it, people used all sorts of methods, and their methods returned all sorts of things: Objects with various interfaces, functional iterators, you name it. _(javascriptallonge.pdf (source-range-0e12e052-01549))_
+- People have been writing iterators since JavaScript was first released in the late 1990s. Since there was no particular standard way to do it, people used all sorts of methods, and their methods returned all sorts of things: Objects with various interfaces, functional iterators, you name it. _(javascriptallonge.pdf (source-range-c98ab3e6-01549))_
 
 ### Served by the Pot: Collections / Generating Iterables
 
-- Let's consider how they work. Whether it's a simple functional iterator, or an iterable object with a .next() method, an iterator is something we call repeatedly until it tells us that it's done. _(javascriptallonge.pdf (source-range-0e12e052-01621))_
+- Let's consider how they work. Whether it's a simple functional iterator, or an iterable object with a .next() method, an iterator is something we call repeatedly until it tells us that it's done. _(javascriptallonge.pdf (source-range-c98ab3e6-01621))_
 
 ### Served by the Pot: Collections / Generating Iterables / state machines
 
-- The thing to note here is that our fibonacci generator has three states: generating 0 , generating 1 , and generating everything after that. This isn't a good fit for an iterator, because iterators have one functional entry point and therefore, we'd have to represent our three states explicitly, perhaps using a state pattern 90 : _(javascriptallonge.pdf (source-range-0e12e052-01649))_
+- The thing to note here is that our fibonacci generator has three states: generating 0 , generating 1 , and generating everything after that. This isn't a good fit for an iterator, because iterators have one functional entry point and therefore, we'd have to represent our three states explicitly, perhaps using a state pattern 90 : _(javascriptallonge.pdf (source-range-c98ab3e6-01649))_
 
 
 ## Technical atoms
 
 ### Technical frame 1: Copy on Write / Functional Iterators
 
-**Context:** _(javascriptallonge.pdf (source-range-0e12e052-01271))_
+**Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01271))_
 
 > The nice thing about this is that the definition for arraySum mostly concerns itself with summing, and not with traversing over a collection of data. But it still relies on foldArrayWith , so it can only sum arrays.
 
-**Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01268))_
+**Atom:** _(javascriptallonge.pdf (source-range-c98ab3e6-01268))_
 
-<a id="atom-technical-atom-24fc5bde3dd87bda"></a>
+<a id="atom-technical-atom-80d896d718eee609"></a>
 ```
 const arraySum = ([first, ...rest], accumulator = 0) =>
 first === undefined
@@ -111,13 +111,13 @@ arraySum([1, 4, 9, 16, 25])
 
 ### Technical frame 2: Copy on Write / Functional Iterators
 
-**Context:** _(javascriptallonge.pdf (source-range-0e12e052-01271))_
+**Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01271))_
 
 > The nice thing about this is that the definition for arraySum mostly concerns itself with summing, and not with traversing over a collection of data. But it still relies on foldArrayWith , so it can only sum arrays.
 
-**Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01270))_
+**Atom:** _(javascriptallonge.pdf (source-range-c98ab3e6-01270))_
 
-<a id="atom-technical-atom-73aaabb73418a011"></a>
+<a id="atom-technical-atom-b9893f34adcd8a08"></a>
 ```
 const callLeft = (fn, ...args) =>
 (...remainingArgs) =>
@@ -133,13 +133,13 @@ arraySum([1, 4, 9, 16, 25])
 
 ### Technical frame 3: Copy on Write / Functional Iterators
 
-**Context:** _(javascriptallonge.pdf (source-range-0e12e052-01275))_
+**Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01275))_
 
 > What we've done is turn an array into a function that folds an array with const foldArray = (array) => callRight(foldArrayWith, array); . The sumFoldable function doesn't care what kind of data structure we have, as long as it's foldable.
 
-**Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01274))_
+**Atom:** _(javascriptallonge.pdf (source-range-c98ab3e6-01274))_
 
-<a id="atom-technical-atom-c699834d7bae69f5"></a>
+<a id="atom-technical-atom-e550b7b8befc0e88"></a>
 ```
 const callRight = (fn, ...args) =>
 (...remainingArgs) =>
@@ -156,13 +156,13 @@ sumFoldable(foldArray([1, 4, 9, 16, 25]))
 
 ### Technical frame 4: Copy on Write / Functional Iterators
 
-**Context:** _(javascriptallonge.pdf (source-range-0e12e052-01278))_
+**Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01278))_
 
 > We've found another way to express the principle of separating traversing a data structure from the operation we want to perform on that data structure, we've completely separated the knowledge of how to sum from the knowledge of how to fold an array or tree (or anything else, really).
 
-**Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01277))_
+**Atom:** _(javascriptallonge.pdf (source-range-c98ab3e6-01277))_
 
-<a id="atom-technical-atom-8d1904e8f85266ff"></a>
+<a id="atom-technical-atom-13d7bc68616b530d"></a>
 ```
 const callRight = (fn, ...args) =>
 (...remainingArgs) =>
@@ -182,13 +182,13 @@ sumFoldable(foldTree([1, [4, [9, 16]], 25]))
 
 ### Technical frame 5: Copy on Write / Functional Iterators / iterating
 
-**Context:** _(javascriptallonge.pdf (source-range-0e12e052-01283))_
+**Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01283))_
 
 > Once again, we're mixing the code for iterating over an array with the code for calculating a sum. And worst of all, we're getting really low-level with details like knowing that the elements of an array are indexed with consecutive integers that begin with 0 .
 
-**Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01282))_
+**Atom:** _(javascriptallonge.pdf (source-range-c98ab3e6-01282))_
 
-<a id="atom-technical-atom-f7b456184e95d5ca"></a>
+<a id="atom-technical-atom-dc6f0a5615eda044"></a>
 ```
 const arraySum = (array) => {
 let sum = 0;
@@ -203,13 +203,13 @@ arraySum([1, 4, 9, 16, 25])
 
 ### Technical frame 6: Copy on Write / Functional Iterators / iterating
 
-**Context:** _(javascriptallonge.pdf (source-range-0e12e052-01286))_
+**Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01286))_
 
 > Notice that buried inside our loop, we have bound the names done and value . We can put those into a POJO (a Plain Old JavaScript Object). It'll be a little awkward, but we'll be patient:
 
-**Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01285))_
+**Atom:** _(javascriptallonge.pdf (source-range-c98ab3e6-01285))_
 
-<a id="atom-technical-atom-4bd546db6cc10b01"></a>
+<a id="atom-technical-atom-7dcf0060f7357608"></a>
 ```
 const arraySum = (array) => {
 let done,
@@ -227,13 +227,13 @@ arraySum([1, 4, 9, 16, 25])
 
 ### Technical frame 7: Copy on Write / Functional Iterators / iterating
 
-**Context:** _(javascriptallonge.pdf (source-range-0e12e052-01289))_
+**Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01289))_
 
 > Now this is something else. The arrayIterator function takes an array and returns a function we can call repeatedly to obtain the elements of the array. The iteratorSum function iterates over the elements by calling the iterator function repeatedly until it returns { done: true } .
 
-**Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01287))_
+**Atom:** _(javascriptallonge.pdf (source-range-c98ab3e6-01287))_
 
-<a id="atom-technical-atom-557883d9714f88ed"></a>
+<a id="atom-technical-atom-4c1b1954267e7b6c"></a>
 ```
 const arraySum = (array) => {
 let iter,
@@ -273,13 +273,13 @@ while ((eachIteration = iterator(), !eachIteration.done)) {
 
 ### Technical frame 8: Copy on Write / Functional Iterators / iterating
 
-**Context:** _(javascriptallonge.pdf (source-range-0e12e052-01289))_
+**Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01289))_
 
 > Now this is something else. The arrayIterator function takes an array and returns a function we can call repeatedly to obtain the elements of the array. The iteratorSum function iterates over the elements by calling the iterator function repeatedly until it returns { done: true } .
 
-**Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01288))_
+**Atom:** _(javascriptallonge.pdf (source-range-c98ab3e6-01288))_
 
-<a id="atom-technical-atom-2a456f2976964a98"></a>
+<a id="atom-technical-atom-029c4a32693ee8bb"></a>
 ```
 sum += eachIteration.value;
 }
@@ -291,13 +291,13 @@ iteratorSum(arrayIterator([1, 4, 9, 16, 25]))
 
 ### Technical frame 9: Copy on Write / Functional Iterators / iterating
 
-**Context:** _(javascriptallonge.pdf (source-range-0e12e052-01290))_
+**Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01290))_
 
 > We can write a different iterator for a different data structure. Here's one for linked lists:
 
-**Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01291))_
+**Atom:** _(javascriptallonge.pdf (source-range-c98ab3e6-01291))_
 
-<a id="atom-technical-atom-282dba3fa6180714"></a>
+<a id="atom-technical-atom-b78a2e7b3e34b7ee"></a>
 ```
 const EMPTY = null;
 const isEmpty = (node) => node === EMPTY;
@@ -325,13 +325,13 @@ aPair = aPair.rest;
 
 ### Technical frame 10: Copy on Write / Functional Iterators / iterating
 
-**Context:** _(javascriptallonge.pdf (source-range-0e12e052-01290))_
+**Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01290))_
 
 > We can write a different iterator for a different data structure. Here's one for linked lists:
 
-**Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01292))_
+**Atom:** _(javascriptallonge.pdf (source-range-c98ab3e6-01292))_
 
-<a id="atom-technical-atom-ec11f07272147db8"></a>
+<a id="atom-technical-atom-1f5f88b3bd874599"></a>
 ```
 return { done, value: first }
 }
@@ -351,13 +351,13 @@ iteratorSum(aListIterator)
 
 ### Technical frame 11: Copy on Write / Functional Iterators / unfolding and laziness
 
-**Context:** _(javascriptallonge.pdf (source-range-0e12e052-01298))_
+**Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01298))_
 
 > A function that starts with a seed and expands it into a data structure is called an unfold . It's the opposite of a fold. It's possible to write a generic unfold mechanism, but let's pass on to what we can do with unfolded iterators.
 
-**Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01295))_
+**Atom:** _(javascriptallonge.pdf (source-range-c98ab3e6-01295))_
 
-<a id="atom-technical-atom-e9b34a22026fe73e"></a>
+<a id="atom-technical-atom-416d64126ec0debc"></a>
 ```
 const NumberIterator = (number = 0) =>
 () => ({ done: false, value: number++ })
@@ -376,13 +376,13 @@ fromOne().value;
 
 ### Technical frame 12: Copy on Write / Functional Iterators / unfolding and laziness
 
-**Context:** _(javascriptallonge.pdf (source-range-0e12e052-01298))_
+**Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01298))_
 
 > A function that starts with a seed and expands it into a data structure is called an unfold . It's the opposite of a fold. It's possible to write a generic unfold mechanism, but let's pass on to what we can do with unfolded iterators.
 
-**Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01297))_
+**Atom:** _(javascriptallonge.pdf (source-range-c98ab3e6-01297))_
 
-<a id="atom-technical-atom-dc6d7632125621cc"></a>
+<a id="atom-technical-atom-df5827253a8b1363"></a>
 ```
 const FibonacciIterator
 = () => {
@@ -409,13 +409,13 @@ fib().value
 
 ### Technical frame 13: Copy on Write / Functional Iterators / unfolding and laziness
 
-**Context:** _(javascriptallonge.pdf (source-range-0e12e052-01302))_
+**Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01302))_
 
 > This business of going on forever has some drawbacks. Let's introduce an idea: A function that takes an iterator and returns another iterator. We can start with take , an easy function that returns an iterator that only returns a fixed number of elements:
 
-**Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01300))_
+**Atom:** _(javascriptallonge.pdf (source-range-c98ab3e6-01300))_
 
-<a id="atom-technical-atom-106566f7f4dc0942"></a>
+<a id="atom-technical-atom-b26ff8257490707e"></a>
 ```
 const mapIteratorWith = (fn, iterator) =>
 () => {
@@ -430,13 +430,13 @@ squares().value
 
 ### Technical frame 14: Copy on Write / Functional Iterators / unfolding and laziness
 
-**Context:** _(javascriptallonge.pdf (source-range-0e12e052-01302))_
+**Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01302))_
 
 > This business of going on forever has some drawbacks. Let's introduce an idea: A function that takes an iterator and returns another iterator. We can start with take , an easy function that returns an iterator that only returns a fixed number of elements:
 
-**Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01301))_
+**Atom:** _(javascriptallonge.pdf (source-range-c98ab3e6-01301))_
 
-<a id="atom-technical-atom-9a11199dca2516d3"></a>
+<a id="atom-technical-atom-4f03f7dacb451d7f"></a>
 ```
 //=> 4
 squares().value
@@ -445,13 +445,13 @@ squares().value
 
 ### Technical frame 15: Copy on Write / Functional Iterators / unfolding and laziness
 
-**Context:** _(javascriptallonge.pdf (source-range-0e12e052-01304))_
+**Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01304))_
 
 > How about the squares of the first five odd numbers? We'll need an iterator that produces odd numbers. We can write that directly:
 
-**Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01303))_
+**Atom:** _(javascriptallonge.pdf (source-range-c98ab3e6-01303))_
 
-<a id="atom-technical-atom-f28b1a77d2c0e6d7"></a>
+<a id="atom-technical-atom-2c7a9b859d2ccfeb"></a>
 ```
 const take = (iterator, numberToTake) => {
 let count = 0;
@@ -479,26 +479,26 @@ toArray(take(squares, 5))
 
 ### Technical frame 16: Copy on Write / Functional Iterators / unfolding and laziness
 
-**Context:** _(javascriptallonge.pdf (source-range-0e12e052-01309))_
+**Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01309))_
 
 > Mapping and filtering iterators allows us to compose the parts we already have, rather than writing a tricky bit of code with ifs and whiles and boundary conditions.
 
-**Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01305))_
+**Atom:** _(javascriptallonge.pdf (source-range-c98ab3e6-01305))_
 
-<a id="atom-technical-atom-7adc89bbb45aec36"></a>
+<a id="atom-technical-atom-49ced4e2cd5e2ff5"></a>
 ```
 const odds = () => {
 ```
 
 ### Technical frame 17: Copy on Write / Functional Iterators / unfolding and laziness
 
-**Context:** _(javascriptallonge.pdf (source-range-0e12e052-01309))_
+**Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01309))_
 
 > Mapping and filtering iterators allows us to compose the parts we already have, rather than writing a tricky bit of code with ifs and whiles and boundary conditions.
 
-**Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01306))_
+**Atom:** _(javascriptallonge.pdf (source-range-c98ab3e6-01306))_
 
-<a id="atom-technical-atom-d8db762dae8a0974"></a>
+<a id="atom-technical-atom-5d5cf32321078057"></a>
 ```
 let number = 1;
 return () => {
@@ -514,13 +514,13 @@ toArray(take(squareOf(odds()), 5))
 
 ### Technical frame 18: Copy on Write / Functional Iterators / unfolding and laziness
 
-**Context:** _(javascriptallonge.pdf (source-range-0e12e052-01309))_
+**Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01309))_
 
 > Mapping and filtering iterators allows us to compose the parts we already have, rather than writing a tricky bit of code with ifs and whiles and boundary conditions.
 
-**Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01308))_
+**Atom:** _(javascriptallonge.pdf (source-range-c98ab3e6-01308))_
 
-<a id="atom-technical-atom-921c472cdded54e5"></a>
+<a id="atom-technical-atom-bed6fae2f13c342d"></a>
 ```
 const filterIteratorWith = (fn, iterator) =>
 () => {
@@ -536,13 +536,13 @@ toArray(take(squareOf(oddsOf(NumberIterator(1))), 5))
 
 ### Technical frame 19: Copy on Write / Functional Iterators / bonus
 
-**Context:** _(javascriptallonge.pdf (source-range-0e12e052-01314))_
+**Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01314))_
 
 > This is interesting, because it is lazy: It doesn't apply fn to every element in an iteration, just enough to find the first that passes the test. Whereas if we wrote something like:
 
-**Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01313))_
+**Atom:** _(javascriptallonge.pdf (source-range-c98ab3e6-01313))_
 
-<a id="atom-technical-atom-4befcf9fdb3ad196"></a>
+<a id="atom-technical-atom-cabc945d7488f343"></a>
 ```
 const firstInIteration = (fn, iterator) =>
 take(filterIteratorWith(fn, iterator), 1);
@@ -550,13 +550,13 @@ take(filterIteratorWith(fn, iterator), 1);
 
 ### Technical frame 20: Copy on Write / Functional Iterators / bonus
 
-**Context:** _(javascriptallonge.pdf (source-range-0e12e052-01316))_
+**Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01316))_
 
 > JavaScript would apply fn to every element. If array was very large, and fn very slow, this would consume a lot of unnecessary time. And if fn had some sort of side-effect, the program could be buggy.
 
-**Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01315))_
+**Atom:** _(javascriptallonge.pdf (source-range-c98ab3e6-01315))_
 
-<a id="atom-technical-atom-8cc7c05afa7a0aff"></a>
+<a id="atom-technical-atom-60b89d772fd1145f"></a>
 ```
 const firstInArray = (fn, array) =>
 array.filter(fn)[0];
@@ -564,13 +564,13 @@ array.filter(fn)[0];
 
 ### Technical frame 21: Served by the Pot: Collections / Iteration and Iterables / a look back at functional iterators
 
-**Context:** _(javascriptallonge.pdf (source-range-0e12e052-01536))_
+**Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01536))_
 
 > We could save a step and write collectionSum , a function that folds over any object, provided that the object implements an .iterator method:
 
-**Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01528))_
+**Atom:** _(javascriptallonge.pdf (source-range-c98ab3e6-01528))_
 
-<a id="atom-technical-atom-ddee552faf251bd7"></a>
+<a id="atom-technical-atom-efb23b41b7f26646"></a>
 ```
 const Stack1 = () =>
 ({
@@ -613,13 +613,13 @@ stack.push("you!")
 
 ### Technical frame 22: Served by the Pot: Collections / Iteration and Iterables / a look back at functional iterators
 
-**Context:** _(javascriptallonge.pdf (source-range-0e12e052-01536))_
+**Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01536))_
 
 > We could save a step and write collectionSum , a function that folds over any object, provided that the object implements an .iterator method:
 
-**Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01529))_
+**Atom:** _(javascriptallonge.pdf (source-range-c98ab3e6-01529))_
 
-<a id="atom-technical-atom-f68796c5cf2886ed"></a>
+<a id="atom-technical-atom-d140cccf9e81ec77"></a>
 ```
 const iter = stack.iterator();
 iter().value
@@ -630,13 +630,13 @@ iter().value
 
 ### Technical frame 23: Served by the Pot: Collections / Iteration and Iterables / a look back at functional iterators
 
-**Context:** _(javascriptallonge.pdf (source-range-0e12e052-01536))_
+**Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01536))_
 
 > We could save a step and write collectionSum , a function that folds over any object, provided that the object implements an .iterator method:
 
-**Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01531))_
+**Atom:** _(javascriptallonge.pdf (source-range-c98ab3e6-01531))_
 
-<a id="atom-technical-atom-c4ccdca248ad2fba"></a>
+<a id="atom-technical-atom-c700bb04afdf7011"></a>
 ```
 The .iterator() method is defined with shorthand equivalent to iterator: function iterator()
 { ... }. Note that it uses the function keyword, so when we invoke it with stack.iterator(),
@@ -652,13 +652,13 @@ object, even though we call it with iter().
 
 ### Technical frame 24: Served by the Pot: Collections / Iteration and Iterables / a look back at functional iterators
 
-**Context:** _(javascriptallonge.pdf (source-range-0e12e052-01536))_
+**Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01536))_
 
 > We could save a step and write collectionSum , a function that folds over any object, provided that the object implements an .iterator method:
 
-**Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01533))_
+**Atom:** _(javascriptallonge.pdf (source-range-c98ab3e6-01533))_
 
-<a id="atom-technical-atom-1f7883384ea561b0"></a>
+<a id="atom-technical-atom-82c6b6b67f499ecd"></a>
 ```
 const iteratorSum = (iterator) => {
 let eachIteration,
@@ -672,13 +672,13 @@ return sum
 
 ### Technical frame 25: Served by the Pot: Collections / Iteration and Iterables / a look back at functional iterators
 
-**Context:** _(javascriptallonge.pdf (source-range-0e12e052-01536))_
+**Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01536))_
 
 > We could save a step and write collectionSum , a function that folds over any object, provided that the object implements an .iterator method:
 
-**Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01535))_
+**Atom:** _(javascriptallonge.pdf (source-range-c98ab3e6-01535))_
 
-<a id="atom-technical-atom-f6c0e3a1edc3cc92"></a>
+<a id="atom-technical-atom-c4c8eda7f010d5f0"></a>
 ```
 const stack = Stack1();
 stack.push(1);
@@ -690,13 +690,13 @@ iteratorSum(stack.iterator())
 
 ### Technical frame 26: Served by the Pot: Collections / Iteration and Iterables / a look back at functional iterators
 
-**Context:** _(javascriptallonge.pdf (source-range-0e12e052-01538))_
+**Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01538))_
 
 > If we write a program with the presumption that 'everything is an object,' we can write maps, folds, and filters that work on objects. We just ask the object for an iterator, and work on the iterator. Our functions don't need to know anything about how an object implements iteration, and we get the benefit of lazily traversing our objects.
 
-**Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01537))_
+**Atom:** _(javascriptallonge.pdf (source-range-c98ab3e6-01537))_
 
-<a id="atom-technical-atom-4b8d7d8121853f46"></a>
+<a id="atom-technical-atom-5c49abd92d7eff0a"></a>
 ```
 const collectionSum = (collection) => {
 const iterator = collection.iterator();
@@ -713,13 +713,13 @@ collectionSum(stack)
 
 ### Technical frame 27: Served by the Pot: Collections / Generating Iterables / state machines
 
-**Context:** _(javascriptallonge.pdf (source-range-0e12e052-01649))_
+**Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01649))_
 
 > The thing to note here is that our fibonacci generator has three states: generating 0 , generating 1 , and generating everything after that. This isn't a good fit for an iterator, because iterators have one functional entry point and therefore, we'd have to represent our three states explicitly, perhaps using a state pattern 90 :
 
-**Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01648))_
+**Atom:** _(javascriptallonge.pdf (source-range-c98ab3e6-01648))_
 
-<a id="atom-technical-atom-e8b408628ccd4bce"></a>
+<a id="atom-technical-atom-d123a32b65b3a00d"></a>
 ```text
 while (true) {
 [a, b] = [b, a + b];
@@ -837,8 +837,8 @@ function * only (something) {
 
 ### Source structure
 
-- [[javascriptallonge-section-copy-on-write-functional-iterators-773e8dc1]] - source section: Copy on Write / Functional Iterators shares source evidence from Copy on Write / Functional Iterators: The nice thing about this is that the definition for arraySum mostly concerns itself with summing, and not with traversing over a collection of data. But it still re ... [truncated]; Copy on Write / Functional Iterators shares technical record from Copy on Write / Functional Iterators: const arraySum = ([first, ...rest], accumulator = 0) => first === undefined ? accumulator : arraySum(rest, first + accumulator) arraySum([1, 4, 9, 16, 25]) //=> 55 (31 shared statement(s), 20 shared atom(s))
-- [[javascriptallonge-section-served-by-the-pot-collections-iteration-and-iterables-a-look-back-at-functional-iterators-39b0dbb4]] - source section: Served by the Pot: Collections / Iteration and Iterables / a look back at functional iterators shares source evidence from Served by the Pot: Collections / Iteration and Iterables / a look back at functional iterators: When discussing functions, we looked at the benefits of writing Functional Iterators. We can do the same thing for objects. Here's a stack that has its own functiona ... [truncated]; Served by the Pot: Collections / Iteration and Iterables / a look back at functional iterators shares technical record from Served by the Pot: Collections / Iteration and Iterables / a look back at functional iterators: const Stack1 = () => ({ array:[], index: -1, push (value) { return this.array[this.index += 1] = value; }, pop () { const value = this.array[this.index]; this.array[ ... [truncated] (4 shared statement(s), 6 shared atom(s))
+- [[javascriptallonge-section-copy-on-write-functional-iterators-ef79a70c]] - source section: Copy on Write / Functional Iterators shares source evidence from Copy on Write / Functional Iterators: The nice thing about this is that the definition for arraySum mostly concerns itself with summing, and not with traversing over a collection of data. But it still re ... [truncated]; Copy on Write / Functional Iterators shares technical record from Copy on Write / Functional Iterators: const arraySum = ([first, ...rest], accumulator = 0) => first === undefined ? accumulator : arraySum(rest, first + accumulator) arraySum([1, 4, 9, 16, 25]) //=> 55 (31 shared statement(s), 20 shared atom(s))
+- [[javascriptallonge-section-served-by-the-pot-collections-iteration-and-iterables-a-look-back-at-functional-iterators-1de825aa]] - source section: Served by the Pot: Collections / Iteration and Iterables / a look back at functional iterators shares source evidence from Served by the Pot: Collections / Iteration and Iterables / a look back at functional iterators: When discussing functions, we looked at the benefits of writing Functional Iterators. We can do the same thing for objects. Here's a stack that has its own functiona ... [truncated]; Served by the Pot: Collections / Iteration and Iterables / a look back at functional iterators shares technical record from Served by the Pot: Collections / Iteration and Iterables / a look back at functional iterators: const Stack1 = () => ({ array:[], index: -1, push (value) { return this.array[this.index += 1] = value; }, pop () { const value = this.array[this.index]; this.array[ ... [truncated] (4 shared statement(s), 6 shared atom(s))
 
 ### Shared technical atoms
 

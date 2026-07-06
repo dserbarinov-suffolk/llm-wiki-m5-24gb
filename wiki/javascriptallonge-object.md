@@ -4,10 +4,10 @@ page_kind: concept
 summary: Object: 19 statement(s) and 28 atom(s) from raw/javascriptallonge.pdf.
 page_family: broad-topic
 sources: raw/javascriptallonge.pdf
-updated: 2026-07-02
+updated: 2026-07-06
 domain: javascriptallonge
 category_path: concepts
-projection_coverage: topic-javascriptallonge-object@9f8aac6d4211c72c8803f640a205e33a
+projection_coverage: topic-javascriptallonge-object@6050c613fd877c8bff27bdaf99ef801a
 ---
 
 # Object
@@ -18,80 +18,80 @@ What [[javascriptallonge]] covers about object:
 
 ### Plain Old JavaScript Objects
 
-- In JavaScript, an object is a map from string keys to values. _(javascriptallonge.pdf (source-range-0e12e052-01065))_
+- In JavaScript, an object is a map from string keys to values. _(javascriptallonge.pdf (source-range-c98ab3e6-01065))_
 
 ### Plain Old JavaScript Objects / literal object syntax
 
-- Two objects created with separate evaluations have differing identities, just like arrays: _(javascriptallonge.pdf (source-range-0e12e052-01070))_
+- Two objects created with separate evaluations have differing identities, just like arrays: _(javascriptallonge.pdf (source-range-c98ab3e6-01070))_
 
 ### Mutation
 
-- In JavaScript, almost every type of value can mutate . Their identities stay the same, but not their structure. Specifically, arrays and objects can mutate. Recall that you can access a value from within an array or an object using [] . You can reassign a value using [] = : _(javascriptallonge.pdf (source-range-0e12e052-01116))_
+- In JavaScript, almost every type of value can mutate . Their identities stay the same, but not their structure. Specifically, arrays and objects can mutate. Recall that you can access a value from within an array or an object using [] . You can reassign a value using [] = : _(javascriptallonge.pdf (source-range-c98ab3e6-01116))_
 
-- JavaScript permits the reassignment of new values to existing bindings, as well as the reassignment and assignment of new values to elements of containers such as arrays and objects. Mutating existing objects has special implications when two bindings are aliases of the same value. _(javascriptallonge.pdf (source-range-0e12e052-01133))_
+- JavaScript permits the reassignment of new values to existing bindings, as well as the reassignment and assignment of new values to elements of containers such as arrays and objects. Mutating existing objects has special implications when two bindings are aliases of the same value. _(javascriptallonge.pdf (source-range-c98ab3e6-01133))_
 
 ### Served by the Pot: Collections / Iteration and Iterables
 
-- Many objects in JavaScript can model collections of things. A collection is like a box containing stuff. Sometimes you just want to move the box around. But sometimes you want to open it up and do things with its contents. _(javascriptallonge.pdf (source-range-0e12e052-01523))_
+- Many objects in JavaScript can model collections of things. A collection is like a box containing stuff. Sometimes you just want to move the box around. But sometimes you want to open it up and do things with its contents. _(javascriptallonge.pdf (source-range-c98ab3e6-01523))_
 
 ### Served by the Pot: Collections / Iteration and Iterables / iterator objects
 
-- Iteration for functions and objects has been around for many, many decades. For simple linear collections like arrays, linked lists, stacks, and queues, functional iterators are the simplest and easiest way to implement iterators. _(javascriptallonge.pdf (source-range-0e12e052-01541))_
+- Iteration for functions and objects has been around for many, many decades. For simple linear collections like arrays, linked lists, stacks, and queues, functional iterators are the simplest and easiest way to implement iterators. _(javascriptallonge.pdf (source-range-c98ab3e6-01541))_
 
-- In programs involving large collections of objects, it can be handy to implement iterators as objects, rather than functions. The mechanics of iterating can then be factored using the same tools that are used to factor the mechanics of all other objects in the system. _(javascriptallonge.pdf (source-range-0e12e052-01542))_
+- In programs involving large collections of objects, it can be handy to implement iterators as objects, rather than functions. The mechanics of iterating can then be factored using the same tools that are used to factor the mechanics of all other objects in the system. _(javascriptallonge.pdf (source-range-c98ab3e6-01542))_
 
-- Fortunately, an iterator object is almost as simple as an iterator function. Instead of having a function that you call to get the next element, you have an object with a .next() method. _(javascriptallonge.pdf (source-range-0e12e052-01543))_
+- Fortunately, an iterator object is almost as simple as an iterator function. Instead of having a function that you call to get the next element, you have an object with a .next() method. _(javascriptallonge.pdf (source-range-c98ab3e6-01543))_
 
 ### Served by the Pot: Collections / Iteration and Iterables / iterator objects / Like this:
 
-- Now our .iterator() method is returning an iterator object. When working with objects, we do things the object way. But having started by building functional iterators, we understand what is happening underneath the object's scaffolding. _(javascriptallonge.pdf (source-range-0e12e052-01547))_
+- Now our .iterator() method is returning an iterator object. When working with objects, we do things the object way. But having started by building functional iterators, we understand what is happening underneath the object's scaffolding. _(javascriptallonge.pdf (source-range-c98ab3e6-01547))_
 
 ### Served by the Pot: Collections / Iteration and Iterables / iterables
 
-- The expression Symbol.iterator evaluates to a special symbol representing the name of the method that objects should use if they return an iterator object. _(javascriptallonge.pdf (source-range-0e12e052-01552))_
+- The expression Symbol.iterator evaluates to a special symbol representing the name of the method that objects should use if they return an iterator object. _(javascriptallonge.pdf (source-range-c98ab3e6-01552))_
 
-- The for...of loop works directly with any object that is iterable , meaning it works with any object that has a Symbol.iterator method that returns an object iterator. Here's another linked list, this one is iterable: _(javascriptallonge.pdf (source-range-0e12e052-01557))_
+- The for...of loop works directly with any object that is iterable , meaning it works with any object that has a Symbol.iterator method that returns an object iterator. Here's another linked list, this one is iterable: _(javascriptallonge.pdf (source-range-c98ab3e6-01557))_
 
 ### Served by the Pot: Collections / Generating Iterables
 
-- Let's consider how they work. Whether it's a simple functional iterator, or an iterable object with a .next() method, an iterator is something we call repeatedly until it tells us that it's done. _(javascriptallonge.pdf (source-range-0e12e052-01621))_
+- Let's consider how they work. Whether it's a simple functional iterator, or an iterable object with a .next() method, an iterator is something we call repeatedly until it tells us that it's done. _(javascriptallonge.pdf (source-range-c98ab3e6-01621))_
 
 ### Served by the Pot: Collections / Generating Iterables / generators and iterables
 
-- Our generator function oneTwoThree is not an iterator. It's a function that returns an iterator when we invoke it. We write the function to yield values instead of return a single value, and JavaScript takes care of turning this into an object with a .next() function we can call. _(javascriptallonge.pdf (source-range-0e12e052-01704))_
+- Our generator function oneTwoThree is not an iterator. It's a function that returns an iterator when we invoke it. We write the function to yield values instead of return a single value, and JavaScript takes care of turning this into an object with a .next() function we can call. _(javascriptallonge.pdf (source-range-c98ab3e6-01704))_
 
-- This object declares a [Symbol.iterator] function that makes it iterable. Because it's declared *[Symbol.iterator] , it's a generator instead of an iterator. _(javascriptallonge.pdf (source-range-0e12e052-01710))_
+- This object declares a [Symbol.iterator] function that makes it iterable. Because it's declared *[Symbol.iterator] , it's a generator instead of an iterator. _(javascriptallonge.pdf (source-range-c98ab3e6-01710))_
 
 ### Served by the Pot: Collections / Summary
 
-- A generator is a function that is defined with function * and uses yield (or yield * ) to generate values. Using a generator instead of writing an iterator object that has a .next() method allows us to write code that can be much simpler for cases like recursive iterations or state patterns. And we don't need to worry about wrapping our values in an object with .done and .value properties. _(javascriptallonge.pdf (source-range-0e12e052-01755))_
+- A generator is a function that is defined with function * and uses yield (or yield * ) to generate values. Using a generator instead of writing an iterator object that has a .next() method allows us to write code that can be much simpler for cases like recursive iterations or state patterns. And we don't need to worry about wrapping our values in an object with .done and .value properties. _(javascriptallonge.pdf (source-range-c98ab3e6-01755))_
 
 ### Lazy and Eager Collections
 
-- in the older style of object-oriented programming, we built 'fat' objects. Each collection knew how to map itself ( .map ), how to fold itself ( .reduce ), how to filter itself ( .filter ) and how to find one element within itself ( .find ). If we wanted to flatten collections to arrays, we wrote a .toArray method for each type of collection. _(javascriptallonge.pdf (source-range-0e12e052-01760))_
+- in the older style of object-oriented programming, we built 'fat' objects. Each collection knew how to map itself ( .map ), how to fold itself ( .reduce ), how to filter itself ( .filter ) and how to find one element within itself ( .find ). If we wanted to flatten collections to arrays, we wrote a .toArray method for each type of collection. _(javascriptallonge.pdf (source-range-c98ab3e6-01760))_
 
-- This 'fat object' style springs from a misunderstanding: When we say a collection should know how to perform a map over itself, we don't need for the collection to handle every single detail. That would be like saying that when we ask a bank teller for some cash, they personally print every bank note. _(javascriptallonge.pdf (source-range-0e12e052-01763))_
+- This 'fat object' style springs from a misunderstanding: When we say a collection should know how to perform a map over itself, we don't need for the collection to handle every single detail. That would be like saying that when we ask a bank teller for some cash, they personally print every bank note. _(javascriptallonge.pdf (source-range-c98ab3e6-01763))_
 
 ### Lazy and Eager Collections / implementing methods with iteration
 
-- Object-oriented collections should definitely have methods for mapping, reducing, filtering, and finding. And they should know how to accomplish the desired result, but they should do so by delegating as much of the work as possible to operations like mapWith . _(javascriptallonge.pdf (source-range-0e12e052-01765))_
+- Object-oriented collections should definitely have methods for mapping, reducing, filtering, and finding. And they should know how to accomplish the desired result, but they should do so by delegating as much of the work as possible to operations like mapWith . _(javascriptallonge.pdf (source-range-c98ab3e6-01765))_
 
 ### Lazy and Eager Collections / lazy collection operations
 
-- Whereas the .map and .filter methods on Pair work with iterators. They produce small iterable objects that refer back to the original iteration. This reduces the memory footprint. When working with very large collections and many operations, this can be important. _(javascriptallonge.pdf (source-range-0e12e052-01784))_
+- Whereas the .map and .filter methods on Pair work with iterators. They produce small iterable objects that refer back to the original iteration. This reduces the memory footprint. When working with very large collections and many operations, this can be important. _(javascriptallonge.pdf (source-range-c98ab3e6-01784))_
 
 
 ## Technical atoms
 
 ### Technical frame 1: And also: / Magic Names / the function keyword
 
-**Context:** _(javascriptallonge.pdf (source-range-0e12e052-00612))_
+**Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-00612))_
 
 > The most common use of the arguments binding is to build functions that can take a variable number of arguments. We'll see it used in many of the recipes, starting off with partial application and ellipses.
 
-**Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00608))_
+**Atom:** _(javascriptallonge.pdf (source-range-c98ab3e6-00608))_
 
-<a id="atom-technical-atom-216c7e390d5b4860"></a>
+<a id="atom-technical-atom-0cef432672ec2709"></a>
 ```text
 42 You should never attempt to define your own bindings against 'magic' names that JavaScript binds for you. It is wise to treat them as read-only at all times.
 43 We'll look at arrays and plain old javascript objects in depth later.
@@ -109,26 +109,26 @@ What [[javascriptallonge]] covers about object:
 
 ### Technical frame 2: Plain Old JavaScript Objects / literal object syntax
 
-**Context:** _(javascriptallonge.pdf (source-range-0e12e052-01070))_
+**Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01070))_
 
 > Two objects created with separate evaluations have differing identities, just like arrays:
 
-**Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01069))_
+**Atom:** _(javascriptallonge.pdf (source-range-c98ab3e6-01069))_
 
-<a id="atom-technical-atom-a195732ae5f93c24"></a>
+<a id="atom-technical-atom-f31185ae5ded35e1"></a>
 ```
 { year: 2012, month: 6, day: 14 }
 ```
 
 ### Technical frame 3: Plain Old JavaScript Objects / literal object syntax
 
-**Context:** _(javascriptallonge.pdf (source-range-0e12e052-01072))_
+**Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01072))_
 
 > Values contained within an object work just like values contained within an array, we access them by reference to the original:
 
-**Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01071))_
+**Atom:** _(javascriptallonge.pdf (source-range-c98ab3e6-01071))_
 
-<a id="atom-technical-atom-bfc0b00d1311ab51"></a>
+<a id="atom-technical-atom-19b46c4a59c7c4d5"></a>
 ```
 { year: 2012, month: 6, day: 14 } === { year: 2012, month: 6, day: 14 }
 //=> false
@@ -139,13 +139,13 @@ Objects use [] to access the values by name, using a string:
 
 ### Technical frame 4: Plain Old JavaScript Objects / literal object syntax
 
-**Context:** _(javascriptallonge.pdf (source-range-0e12e052-01074))_
+**Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01074))_
 
 > Names needn't be alphanumeric strings. For anything else, enclose the label in quotes:
 
-**Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01073))_
+**Atom:** _(javascriptallonge.pdf (source-range-c98ab3e6-01073))_
 
-<a id="atom-technical-atom-f3f9effd500ca163"></a>
+<a id="atom-technical-atom-0c649e1dffaabd06"></a>
 ```
 const unique = () => [],
 x = unique(),
@@ -158,13 +158,13 @@ o['a'] === x && o['b'] === y && o['c'] === z
 
 ### Technical frame 5: Plain Old JavaScript Objects / literal object syntax
 
-**Context:** _(javascriptallonge.pdf (source-range-0e12e052-01088))_
+**Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01088))_
 
 > (There are some other technical differences between binding a named function expression and using compact method syntax, but they are not relevant here. We will generally prefer compact method syntax whenever we can.)
 
-**Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01087))_
+**Atom:** _(javascriptallonge.pdf (source-range-c98ab3e6-01087))_
 
-<a id="atom-technical-atom-309e77615053b1d2"></a>
+<a id="atom-technical-atom-1534944fd65c6824"></a>
 ```
 const SecretDecoderRing = {
 encode (plaintext) {
@@ -188,13 +188,13 @@ return cyphertext
 
 ### Technical frame 6: Plain Old JavaScript Objects / destructuring objects
 
-**Context:** _(javascriptallonge.pdf (source-range-0e12e052-01095))_
+**Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01095))_
 
 > Terrible grammar and capitalization, but let's move on. It is very common to write things like title: title when destructuring objects. When the label is a valid variable name, it's often the most obvious variable name as well. So JavaScript supports a further syntactic optimization:
 
-**Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01091))_
+**Atom:** _(javascriptallonge.pdf (source-range-c98ab3e6-01091))_
 
-<a id="atom-technical-atom-cca4608e07a067cc"></a>
+<a id="atom-technical-atom-7141153c8ac902cb"></a>
 ```
 const user = {
 name: { first: "Reginald",
@@ -222,13 +222,13 @@ title
 
 ### Technical frame 7: Plain Old JavaScript Objects / destructuring objects
 
-**Context:** _(javascriptallonge.pdf (source-range-0e12e052-01095))_
+**Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01095))_
 
 > Terrible grammar and capitalization, but let's move on. It is very common to write things like title: title when destructuring objects. When the label is a valid variable name, it's often the most obvious variable name as well. So JavaScript supports a further syntactic optimization:
 
-**Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01096))_
+**Atom:** _(javascriptallonge.pdf (source-range-c98ab3e6-01096))_
 
-<a id="atom-technical-atom-b6a4e0f7d193b194"></a>
+<a id="atom-technical-atom-a86cc25d423f9f82"></a>
 ```
 const description = ({name: { first }, occupation: { title } }) =>
 `${first} is a ${title}`;
@@ -240,13 +240,13 @@ const abbrev = ({name: { first, last }, occupation: { title } }) => {
 
 ### Technical frame 8: Plain Old JavaScript Objects / destructuring objects
 
-**Context:** _(javascriptallonge.pdf (source-range-0e12e052-01095))_
+**Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01095))_
 
 > Terrible grammar and capitalization, but let's move on. It is very common to write things like title: title when destructuring objects. When the label is a valid variable name, it's often the most obvious variable name as well. So JavaScript supports a further syntactic optimization:
 
-**Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01097))_
+**Atom:** _(javascriptallonge.pdf (source-range-c98ab3e6-01097))_
 
-<a id="atom-technical-atom-160e07446d578d5b"></a>
+<a id="atom-technical-atom-9b97494fb49ff067"></a>
 ```
 const abbrev = ({name: { first, last }, occupation: { title } }) =>
 return { first, last, title};
@@ -257,13 +257,13 @@ abbrev(user)
 
 ### Technical frame 9: Plain Old JavaScript Objects / revisiting linked lists
 
-**Context:** _(javascriptallonge.pdf (source-range-0e12e052-01104))_
+**Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01104))_
 
 > What about mapping? Well, let's start with the simplest possible thing, making a copy of a list. As we saw above, and discussed in Garbage, Garbage Everywhere, it is fast to iterate forward through a linked list. What isn't fast is naïvely copying a list:
 
-**Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01102))_
+**Atom:** _(javascriptallonge.pdf (source-range-c98ab3e6-01102))_
 
-<a id="atom-technical-atom-bace31307fdcecd9"></a>
+<a id="atom-technical-atom-d343ff4220304127"></a>
 ```
 In that case, a linked list of the numbers 1, 2, and 3 will look like this: { first: 1, rest: { first:
 2, rest: { first: 3, rest: EMPTY } } }.
@@ -272,13 +272,13 @@ We can then perform the equivalent of [first, ...rest] with direct property acce
 
 ### Technical frame 10: Plain Old JavaScript Objects / revisiting linked lists
 
-**Context:** _(javascriptallonge.pdf (source-range-0e12e052-01104))_
+**Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01104))_
 
 > What about mapping? Well, let's start with the simplest possible thing, making a copy of a list. As we saw above, and discussed in Garbage, Garbage Everywhere, it is fast to iterate forward through a linked list. What isn't fast is naïvely copying a list:
 
-**Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01103))_
+**Atom:** _(javascriptallonge.pdf (source-range-c98ab3e6-01103))_
 
-<a id="atom-technical-atom-55614a7e6312a79f"></a>
+<a id="atom-technical-atom-8de105e9f388d796"></a>
 ```
 const EMPTY = {};
 const OneTwoThree = { first: 1, rest: { first: 2, rest: { first: 3, rest: EMPTY \
@@ -300,13 +300,13 @@ length(OneTwoThree)
 
 ### Technical frame 11: Mutation
 
-**Context:** _(javascriptallonge.pdf (source-range-0e12e052-01122))_
+**Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01122))_
 
 > Wehave established that JavaScript's semantics allow for two different bindings to refer to the same value. For example:
 
-**Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01117))_
+**Atom:** _(javascriptallonge.pdf (source-range-c98ab3e6-01117))_
 
-<a id="atom-technical-atom-cbce49171fbd497e"></a>
+<a id="atom-technical-atom-77dd3a6d8c843547"></a>
 ```
 const oneTwoThree = [1, 2, 3];
 oneTwoThree[0] = 'one';
@@ -316,13 +316,13 @@ oneTwoThree
 
 ### Technical frame 12: Mutation
 
-**Context:** _(javascriptallonge.pdf (source-range-0e12e052-01122))_
+**Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01122))_
 
 > Wehave established that JavaScript's semantics allow for two different bindings to refer to the same value. For example:
 
-**Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01121))_
+**Atom:** _(javascriptallonge.pdf (source-range-c98ab3e6-01121))_
 
-<a id="atom-technical-atom-e4d6c4b69f3ee5b5"></a>
+<a id="atom-technical-atom-2ee48ecaf20cfae0"></a>
 ```
 const name = {firstName: 'Leonard', lastName: 'Braithwaite'};
 name.middleName = 'Austin'
@@ -336,13 +336,13 @@ middleName: 'Austin' }
 
 ### Technical frame 13: Served by the Pot: Collections / Iteration and Iterables / a look back at functional iterators
 
-**Context:** _(javascriptallonge.pdf (source-range-0e12e052-01536))_
+**Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01536))_
 
 > We could save a step and write collectionSum , a function that folds over any object, provided that the object implements an .iterator method:
 
-**Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01528))_
+**Atom:** _(javascriptallonge.pdf (source-range-c98ab3e6-01528))_
 
-<a id="atom-technical-atom-ddee552faf251bd7"></a>
+<a id="atom-technical-atom-efb23b41b7f26646"></a>
 ```
 const Stack1 = () =>
 ({
@@ -385,13 +385,13 @@ stack.push("you!")
 
 ### Technical frame 14: Served by the Pot: Collections / Iteration and Iterables / a look back at functional iterators
 
-**Context:** _(javascriptallonge.pdf (source-range-0e12e052-01536))_
+**Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01536))_
 
 > We could save a step and write collectionSum , a function that folds over any object, provided that the object implements an .iterator method:
 
-**Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01529))_
+**Atom:** _(javascriptallonge.pdf (source-range-c98ab3e6-01529))_
 
-<a id="atom-technical-atom-f68796c5cf2886ed"></a>
+<a id="atom-technical-atom-d140cccf9e81ec77"></a>
 ```
 const iter = stack.iterator();
 iter().value
@@ -402,13 +402,13 @@ iter().value
 
 ### Technical frame 15: Served by the Pot: Collections / Iteration and Iterables / a look back at functional iterators
 
-**Context:** _(javascriptallonge.pdf (source-range-0e12e052-01538))_
+**Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01538))_
 
 > If we write a program with the presumption that 'everything is an object,' we can write maps, folds, and filters that work on objects. We just ask the object for an iterator, and work on the iterator. Our functions don't need to know anything about how an object implements iteration, and we get the benefit of lazily traversing our objects.
 
-**Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01537))_
+**Atom:** _(javascriptallonge.pdf (source-range-c98ab3e6-01537))_
 
-<a id="atom-technical-atom-4b8d7d8121853f46"></a>
+<a id="atom-technical-atom-5c49abd92d7eff0a"></a>
 ```
 const collectionSum = (collection) => {
 const iterator = collection.iterator();
@@ -425,13 +425,13 @@ collectionSum(stack)
 
 ### Technical frame 16: Served by the Pot: Collections / Iteration and Iterables / iterables
 
-**Context:** _(javascriptallonge.pdf (source-range-0e12e052-01557))_
+**Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01557))_
 
 > The for...of loop works directly with any object that is iterable , meaning it works with any object that has a Symbol.iterator method that returns an object iterator. Here's another linked list, this one is iterable:
 
-**Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01555))_
+**Atom:** _(javascriptallonge.pdf (source-range-c98ab3e6-01555))_
 
-<a id="atom-technical-atom-8ca29fcc27de5e8d"></a>
+<a id="atom-technical-atom-fc36ee51558450a3"></a>
 ```
 const Stack3 = () =>
 ({
@@ -473,13 +473,13 @@ const stack = Stack3();
 
 ### Technical frame 17: Served by the Pot: Collections / Iteration and Iterables / iterables
 
-**Context:** _(javascriptallonge.pdf (source-range-0e12e052-01557))_
+**Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01557))_
 
 > The for...of loop works directly with any object that is iterable , meaning it works with any object that has a Symbol.iterator method that returns an object iterator. Here's another linked list, this one is iterable:
 
-**Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01556))_
+**Atom:** _(javascriptallonge.pdf (source-range-c98ab3e6-01556))_
 
-<a id="atom-technical-atom-e36b76567b01bc93"></a>
+<a id="atom-technical-atom-0a9a1e99a462a155"></a>
 ```
 stack.push(2000);
 stack.push(10);
@@ -511,13 +511,13 @@ iterableSum(stack)
 
 ### Technical frame 18: Served by the Pot: Collections / Iteration and Iterables / iterables
 
-**Context:** _(javascriptallonge.pdf (source-range-0e12e052-01559))_
+**Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01559))_
 
 > As we can see, we can use for...of with linked lists just as easily as with stacks. And there's one more thing: You recall that the spread operator ( ... ) can spread the elements of an array in an array literal or as parameters in a function invocation.
 
-**Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01558))_
+**Atom:** _(javascriptallonge.pdf (source-range-c98ab3e6-01558))_
 
-<a id="atom-technical-atom-92c82b1d649104c2"></a>
+<a id="atom-technical-atom-d6cf37664791d012"></a>
 ```
 const EMPTY = {
 isEmpty: () => true
@@ -557,35 +557,35 @@ iterableSum(someSquares)
 
 ### Technical frame 19: Served by the Pot: Collections / Generating Iterables
 
-**Context:** _(javascriptallonge.pdf (source-range-0e12e052-01625))_
+**Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01625))_
 
 > Well, we've written our iterator as a server . It waits until given a request, and then it returns exactly one item. Then it waits for the next request. There is no concept of pushing numbers out from the iterator, just waiting until a number is pulled out of the iterator by whatever code consumes numbers.
 
-**Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01622))_
+**Atom:** _(javascriptallonge.pdf (source-range-c98ab3e6-01622))_
 
-<a id="atom-technical-atom-53996de6cffe7496"></a>
+<a id="atom-technical-atom-4368f14f8a6c24c1"></a>
 > Iterators have to arrange its own state such that when you call them, they compute and return the next item.
 
 ### Technical frame 20: Served by the Pot: Collections / Generating Iterables / generators and iterables
 
-**Context:** _(javascriptallonge.pdf (source-range-0e12e052-01708))_
+**Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01708))_
 
 > This pattern is encouraged, so much so that JavaScript provides a concise syntax for writing generator methods for objects:
 
-**Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01705))_
+**Atom:** _(javascriptallonge.pdf (source-range-c98ab3e6-01705))_
 
-<a id="atom-technical-atom-10582a3c053cd9e3"></a>
+<a id="atom-technical-atom-a2b198fc412f2c39"></a>
 > If we call our generator function more than once, we get new iterators.
 
 ### Technical frame 21: Served by the Pot: Collections / Generating Iterables / generators and iterables
 
-**Context:** _(javascriptallonge.pdf (source-range-0e12e052-01710))_
+**Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01710))_
 
 > This object declares a [Symbol.iterator] function that makes it iterable. Because it's declared *[Symbol.iterator] , it's a generator instead of an iterator.
 
-**Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01709))_
+**Atom:** _(javascriptallonge.pdf (source-range-c98ab3e6-01709))_
 
-<a id="atom-technical-atom-22b0cf12cabe801a"></a>
+<a id="atom-technical-atom-efece5465e7385f2"></a>
 ```
 const ThreeNumbers = {
 *[Symbol.iterator] () {
@@ -598,13 +598,13 @@ yield 3
 
 ### Technical frame 22: Served by the Pot: Collections / Generating Iterables / yielding iterables
 
-**Context:** _(javascriptallonge.pdf (source-range-0e12e052-01727))_
+**Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01727))_
 
 > We've gone with the full iterable here, a TreeIterable(iterable) returns an iterable that treats iterable as a tree. It works, but as we've just seen, a function that returns an iterable can often be written much more simply as a generator, rather than a function that returns an iterable object: 93
 
-**Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01726))_
+**Atom:** _(javascriptallonge.pdf (source-range-c98ab3e6-01726))_
 
-<a id="atom-technical-atom-7b0b457a7a31fd36"></a>
+<a id="atom-technical-atom-ca7f50854041aa88"></a>
 ```
 const isIterable = (something) =>
 !!something[Symbol.iterator];
@@ -636,24 +636,24 @@ console.log(i);
 
 ### Technical frame 23: Served by the Pot: Collections / Generating Iterables / yielding iterables
 
-**Context:** _(javascriptallonge.pdf (source-range-0e12e052-01731))_
+**Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01731))_
 
 > Wetake advantage of the for...of loop in a plain and direct way: For each element e , if it is iterable, treat it as a tree and iterate over it, yielding each of its elements. If e is not an iterable, yield e .
 
-**Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01728))_
+**Atom:** _(javascriptallonge.pdf (source-range-c98ab3e6-01728))_
 
-<a id="atom-technical-atom-1cc140d49fd735af"></a>
+<a id="atom-technical-atom-a5c1bafd2ab950ef"></a>
 > But if you can write it as a simple generator, write it as a simple generator.
 
 ### Technical frame 24: Served by the Pot: Collections / Generating Iterables / yielding iterables
 
-**Context:** _(javascriptallonge.pdf (source-range-0e12e052-01731))_
+**Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01731))_
 
 > Wetake advantage of the for...of loop in a plain and direct way: For each element e , if it is iterable, treat it as a tree and iterate over it, yielding each of its elements. If e is not an iterable, yield e .
 
-**Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01729))_
+**Atom:** _(javascriptallonge.pdf (source-range-c98ab3e6-01729))_
 
-<a id="atom-technical-atom-969ddf7e68ede0c0"></a>
+<a id="atom-technical-atom-606d41cb2ea5274f"></a>
 ```
 function * tree (iterable) {
 for (const e of iterable) {
@@ -680,13 +680,13 @@ console.log(i);
 
 ### Technical frame 25: Lazy and Eager Collections / implementing methods with iteration
 
-**Context:** _(javascriptallonge.pdf (source-range-0e12e052-01772))_
+**Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01772))_
 
 > To use LazyCollection , we mix it into an any iterable object. For simplicity, we'll show how to mix it into Numbers and Pair . But it can also be mixed into prototypes (a/k/a 'classes'), traits, or other OO constructs:
 
-**Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01773))_
+**Atom:** _(javascriptallonge.pdf (source-range-c98ab3e6-01773))_
 
-<a id="atom-technical-atom-b71b9b56d3a09043"></a>
+<a id="atom-technical-atom-a0deced2a2bc5a74"></a>
 ```
 const Numbers = Object.assign({
 [Symbol.iterator]: () => {
@@ -704,13 +704,13 @@ isEmpty: () => true
 
 ### Technical frame 26: Lazy and Eager Collections / implementing methods with iteration
 
-**Context:** _(javascriptallonge.pdf (source-range-0e12e052-01772))_
+**Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01772))_
 
 > To use LazyCollection , we mix it into an any iterable object. For simplicity, we'll show how to mix it into Numbers and Pair . But it can also be mixed into prototypes (a/k/a 'classes'), traits, or other OO constructs:
 
-**Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01774))_
+**Atom:** _(javascriptallonge.pdf (source-range-c98ab3e6-01774))_
 
-<a id="atom-technical-atom-f18ccd5d3cbbc241"></a>
+<a id="atom-technical-atom-7892c7fe385547f6"></a>
 ```
 };
 const isEmpty = (node) => node === EMPTY;
@@ -750,13 +750,13 @@ push: function (value) {
 
 ### Technical frame 27: Lazy and Eager Collections / implementing methods with iteration
 
-**Context:** _(javascriptallonge.pdf (source-range-0e12e052-01772))_
+**Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01772))_
 
 > To use LazyCollection , we mix it into an any iterable object. For simplicity, we'll show how to mix it into Numbers and Pair . But it can also be mixed into prototypes (a/k/a 'classes'), traits, or other OO constructs:
 
-**Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01775))_
+**Atom:** _(javascriptallonge.pdf (source-range-c98ab3e6-01775))_
 
-<a id="atom-technical-atom-de8e0311632dc2e8"></a>
+<a id="atom-technical-atom-7be72079a4cb655b"></a>
 ```
 return this.array[this.index += 1] = value;
 },

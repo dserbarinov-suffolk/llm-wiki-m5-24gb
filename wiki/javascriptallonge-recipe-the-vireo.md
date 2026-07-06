@@ -4,12 +4,12 @@ page_kind: recipe
 summary: the vireo: reusable source-backed pattern with 8 statement(s) and 4 technical atom(s) from raw/javascriptallonge.pdf.
 page_family: recipe-pattern
 sources: raw/javascriptallonge.pdf
-updated: 2026-07-02
+updated: 2026-07-06
 domain: javascriptallonge
 category_path: recipes/javascriptallonge
 source_id: javascriptallonge.pdf
 aliases: the-vireo
-projection_coverage: recipe-javascriptallonge-recipe-the-vireo@79bd17eea2485cd2fc6c9d930ed64a05
+projection_coverage: recipe-javascriptallonge-recipe-the-vireo@7c962e575c08c06384e50fab5bab690b
 ---
 
 # the vireo
@@ -18,23 +18,23 @@ From [[javascriptallonge]].
 
 ## Pattern
 
-- Use the source-backed pattern described in [[javascriptallonge-section-copy-on-write-making-data-out-of-functions-the-vireo-b7923ab5]].
+- Use the source-backed pattern described in [[javascriptallonge-section-copy-on-write-making-data-out-of-functions-the-vireo-5e69a8bd]].
 - Evidence roles: decision, procedure, example, structured-state.
 
 ## Applicability And Rationale
 
-- In both cases, we take two parameters, and return the form of the data. _(javascriptallonge.pdf (source-range-0e12e052-01359))_
-- Given that our latin data is represented as the function (selector) => selector("primus")("secundus") , our obvious next step is to make a function that makes data. _(javascriptallonge.pdf (source-range-0e12e052-01359))_
-- For 'data' we access with K and K(I) , our 'structure' is the function (selector) => selector("primus")("secundus") . _(javascriptallonge.pdf (source-range-0e12e052-01360))_
-- For consistency with the way combinators are written as functions taking just one parameter, we'll curry 78 the function: _(javascriptallonge.pdf (source-range-0e12e052-01362))_
-- It says, 'take these two values and apply them to this function.' There are other, similar combinators that apply values to functions. _(javascriptallonge.pdf (source-range-0e12e052-01369))_
-- It is known to most programmers as .tap . _(javascriptallonge.pdf (source-range-0e12e052-01369))_
+- Given that our latin data is represented as the function (selector) => selector("primus")("secundus") , our obvious next step is to make a function that makes data. _(javascriptallonge.pdf (source-range-c98ab3e6-01359))_
+- In both cases, we take two parameters, and return the form of the data. _(javascriptallonge.pdf (source-range-c98ab3e6-01359))_
+- For 'data' we access with K and K(I) , our 'structure' is the function (selector) => selector("primus")("secundus") . _(javascriptallonge.pdf (source-range-c98ab3e6-01360))_
+- For consistency with the way combinators are written as functions taking just one parameter, we'll curry 78 the function: _(javascriptallonge.pdf (source-range-c98ab3e6-01362))_
+- It says, 'take these two values and apply them to this function.' There are other, similar combinators that apply values to functions. _(javascriptallonge.pdf (source-range-c98ab3e6-01369))_
+- As an aside, the Vireo is a little like JavaScript's .apply function. _(javascriptallonge.pdf (source-range-c98ab3e6-01369))_
 
 ## Technical Atoms
 
 ### Atom 1: `code-block`
 
-_Source: javascriptallonge.pdf (source-range-0e12e052-01361)_
+_Source: javascriptallonge.pdf (source-range-c98ab3e6-01361)_
 
 ```
 (first, second) => (selector) => selector(first)(second)
@@ -42,7 +42,7 @@ _Source: javascriptallonge.pdf (source-range-0e12e052-01361)_
 
 ### Atom 2: `code-block`
 
-_Source: javascriptallonge.pdf (source-range-0e12e052-01363)_
+_Source: javascriptallonge.pdf (source-range-c98ab3e6-01363)_
 
 ```
 (first) => (second) => (selector) => selector(first)(second)
@@ -50,7 +50,7 @@ _Source: javascriptallonge.pdf (source-range-0e12e052-01363)_
 
 ### Atom 3: `code-block`
 
-_Source: javascriptallonge.pdf (source-range-0e12e052-01365)_
+_Source: javascriptallonge.pdf (source-range-c98ab3e6-01365)_
 
 ```
 const first = K,
@@ -65,7 +65,7 @@ latin(second)
 
 ### Atom 4: `code-block`
 
-_Source: javascriptallonge.pdf (source-range-0e12e052-01368)_
+_Source: javascriptallonge.pdf (source-range-c98ab3e6-01368)_
 
 ```
 const first = K,
@@ -81,4 +81,4 @@ latin(second)
 ## Source Trail
 
 - Source manifest: [[javascriptallonge]]
-- Source section: [[javascriptallonge-section-copy-on-write-making-data-out-of-functions-the-vireo-b7923ab5]]
+- Source section: [[javascriptallonge-section-copy-on-write-making-data-out-of-functions-the-vireo-5e69a8bd]]

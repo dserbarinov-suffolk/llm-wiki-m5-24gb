@@ -4,10 +4,10 @@ page_kind: concept
 summary: Copy on Write: 120 statement(s) and 63 atom(s) from raw/javascriptallonge.pdf.
 page_family: broad-topic
 sources: raw/javascriptallonge.pdf
-updated: 2026-07-02
+updated: 2026-07-06
 domain: javascriptallonge
 category_path: concepts
-projection_coverage: topic-javascriptallonge-copy-write@5a77c133645ae8d2bf31c23abb30900e
+projection_coverage: topic-javascriptallonge-copy-write@62a295c65a961685d9edcc32bad6de92
 ---
 
 # Copy on Write
@@ -18,212 +18,212 @@ What [[javascriptallonge]] covers about copy on write:
 
 ### Copy on Write
 
-- We've seen how to build lists with arrays and with linked lists. We've touched on an important difference between them: _(javascriptallonge.pdf (source-range-0e12e052-01220))_
+- We've seen how to build lists with arrays and with linked lists. We've touched on an important difference between them: _(javascriptallonge.pdf (source-range-c98ab3e6-01220))_
 
-- When you take the rest of an array with destructuring ( [first, ...rest] ), you are given a copy of the elements of the array. _(javascriptallonge.pdf (source-range-0e12e052-01221))_
+- When you take the rest of an array with destructuring ( [first, ...rest] ), you are given a copy of the elements of the array. _(javascriptallonge.pdf (source-range-c98ab3e6-01221))_
 
-- When you take the rest of a linked list with its reference, you are given the exact same nodes of the elements of the original list. _(javascriptallonge.pdf (source-range-0e12e052-01222))_
+- When you take the rest of a linked list with its reference, you are given the exact same nodes of the elements of the original list. _(javascriptallonge.pdf (source-range-c98ab3e6-01222))_
 
 ### Copy on Write / a few utilities
 
-- Our new at and set functions behave similarly to array[index] and array[index] = value . The main difference is that array[index] = value evaluates to value , while set(index, value, list) evaluates to the modified list . _(javascriptallonge.pdf (source-range-0e12e052-01232))_
+- Our new at and set functions behave similarly to array[index] and array[index] = value . The main difference is that array[index] = value evaluates to value , while set(index, value, list) evaluates to the modified list . _(javascriptallonge.pdf (source-range-c98ab3e6-01232))_
 
 ### Copy on Write / a few utilities / copy-on-read
 
-- So back to the problem of structure sharing. One strategy for avoiding problems is to be pessimistic . Whenever we take the rest of a list, make a copy. _(javascriptallonge.pdf (source-range-0e12e052-01234))_
+- So back to the problem of structure sharing. One strategy for avoiding problems is to be pessimistic . Whenever we take the rest of a list, make a copy. _(javascriptallonge.pdf (source-range-c98ab3e6-01234))_
 
-- This strategy is called 'copy-on-read', because when we attempt the parent to 'read' the value of a child of the list, we make a copy and read the copy of the child. Thereafter, we can write to the parent or the copy of the child freely. _(javascriptallonge.pdf (source-range-0e12e052-01236))_
+- This strategy is called 'copy-on-read', because when we attempt the parent to 'read' the value of a child of the list, we make a copy and read the copy of the child. Thereafter, we can write to the parent or the copy of the child freely. _(javascriptallonge.pdf (source-range-c98ab3e6-01236))_
 
-- As we expected, making a copy lets us modify the copy without interfering with the original. This is, however, expensive. Sometimes we don't need to make a copy because we won't be modifying the list. Our mapWith function would be very expensive if we make a copy every time we call rest(node) . _(javascriptallonge.pdf (source-range-0e12e052-01237))_
+- As we expected, making a copy lets us modify the copy without interfering with the original. This is, however, expensive. Sometimes we don't need to make a copy because we won't be modifying the list. Our mapWith function would be very expensive if we make a copy every time we call rest(node) . _(javascriptallonge.pdf (source-range-c98ab3e6-01237))_
 
 ### Copy on Write / a few utilities / copy-on-write
 
-- But our new parent and child lists are copies that contain the desired modifications, without interfering with each other: _(javascriptallonge.pdf (source-range-0e12e052-01244))_
+- But our new parent and child lists are copies that contain the desired modifications, without interfering with each other: _(javascriptallonge.pdf (source-range-c98ab3e6-01244))_
 
-- And now functions like mapWith that make copies without modifying anything, work at full speed. _(javascriptallonge.pdf (source-range-0e12e052-01246))_
+- And now functions like mapWith that make copies without modifying anything, work at full speed. _(javascriptallonge.pdf (source-range-c98ab3e6-01246))_
 
-- This strategy of waiting to copy until you are writing is called copy-on-write, or 'COW:' _(javascriptallonge.pdf (source-range-0e12e052-01247))_
+- This strategy of waiting to copy until you are writing is called copy-on-write, or 'COW:' _(javascriptallonge.pdf (source-range-c98ab3e6-01247))_
 
 ### Copy on Write / Tortoises, Hares, and Teleporting Turtles
 
-- A good long while ago (The First Age of Internet Startups), someone asked me one of those pet algorithm questions. It was, 'Write an algorithm to detect a loop in a linked list, in constant space.' _(javascriptallonge.pdf (source-range-0e12e052-01253))_
+- A good long while ago (The First Age of Internet Startups), someone asked me one of those pet algorithm questions. It was, 'Write an algorithm to detect a loop in a linked list, in constant space.' _(javascriptallonge.pdf (source-range-c98ab3e6-01253))_
 
-- I think I told him that I was trying to figure out if I could adapt a hashing algorithm such as XORing everything together. This is the 'trick answer' to a question about finding a missing integer from a list, so I was trying the old, 'Transform this into a problem you've already solved 74 ' meta-algorithm. We moved on from there, and he didn't reveal the 'solution.' _(javascriptallonge.pdf (source-range-0e12e052-01255))_
+- I think I told him that I was trying to figure out if I could adapt a hashing algorithm such as XORing everything together. This is the 'trick answer' to a question about finding a missing integer from a list, so I was trying the old, 'Transform this into a problem you've already solved 74 ' meta-algorithm. We moved on from there, and he didn't reveal the 'solution.' _(javascriptallonge.pdf (source-range-c98ab3e6-01255))_
 
-- I went home and pondered the problem. I wanted to solve it. Eventually, I came up with something and tried it (In Java!) on my home PC. I sent him an email sharing my result, to demonstrate my ability to follow through. I then forgot about it for a while. Some time later, I was told that the correct solution was: _(javascriptallonge.pdf (source-range-0e12e052-01256))_
+- I went home and pondered the problem. I wanted to solve it. Eventually, I came up with something and tried it (In Java!) on my home PC. I sent him an email sharing my result, to demonstrate my ability to follow through. I then forgot about it for a while. Some time later, I was told that the correct solution was: _(javascriptallonge.pdf (source-range-c98ab3e6-01256))_
 
 ### Copy on Write / Functional Iterators
 
-- The nice thing about this is that the definition for arraySum mostly concerns itself with summing, and not with traversing over a collection of data. But it still relies on foldArrayWith , so it can only sum arrays. _(javascriptallonge.pdf (source-range-0e12e052-01271))_
+- The nice thing about this is that the definition for arraySum mostly concerns itself with summing, and not with traversing over a collection of data. But it still relies on foldArrayWith , so it can only sum arrays. _(javascriptallonge.pdf (source-range-c98ab3e6-01271))_
 
-- Well, we call arraySum with an array, and it has baked into it a method for traversing the array. Perhaps we could extract both of those things. Let's rearrange our code a bit: _(javascriptallonge.pdf (source-range-0e12e052-01273))_
+- Well, we call arraySum with an array, and it has baked into it a method for traversing the array. Perhaps we could extract both of those things. Let's rearrange our code a bit: _(javascriptallonge.pdf (source-range-c98ab3e6-01273))_
 
-- What we've done is turn an array into a function that folds an array with const foldArray = (array) => callRight(foldArrayWith, array); . The sumFoldable function doesn't care what kind of data structure we have, as long as it's foldable. _(javascriptallonge.pdf (source-range-0e12e052-01275))_
+- What we've done is turn an array into a function that folds an array with const foldArray = (array) => callRight(foldArrayWith, array); . The sumFoldable function doesn't care what kind of data structure we have, as long as it's foldable. _(javascriptallonge.pdf (source-range-c98ab3e6-01275))_
 
 ### Copy on Write / Functional Iterators / iterating
 
-- Folding is a universal operation, and with care we can accomplish any task with folds that could be accomplished with that stalwart of structured programming, the for loop. Nevertheless, there is some value in being able to express some algorithms as iteration. _(javascriptallonge.pdf (source-range-0e12e052-01280))_
+- Folding is a universal operation, and with care we can accomplish any task with folds that could be accomplished with that stalwart of structured programming, the for loop. Nevertheless, there is some value in being able to express some algorithms as iteration. _(javascriptallonge.pdf (source-range-c98ab3e6-01280))_
 
-- JavaScript has a particularly low-level version of for loop that mimics the semantics of the C language. Summing the elements of an array can be accomplished with: _(javascriptallonge.pdf (source-range-0e12e052-01281))_
+- JavaScript has a particularly low-level version of for loop that mimics the semantics of the C language. Summing the elements of an array can be accomplished with: _(javascriptallonge.pdf (source-range-c98ab3e6-01281))_
 
-- Once again, we're mixing the code for iterating over an array with the code for calculating a sum. And worst of all, we're getting really low-level with details like knowing that the elements of an array are indexed with consecutive integers that begin with 0 . _(javascriptallonge.pdf (source-range-0e12e052-01283))_
+- Once again, we're mixing the code for iterating over an array with the code for calculating a sum. And worst of all, we're getting really low-level with details like knowing that the elements of an array are indexed with consecutive integers that begin with 0 . _(javascriptallonge.pdf (source-range-c98ab3e6-01283))_
 
 ### Copy on Write / Functional Iterators / unfolding and laziness
 
-- Iterators are functions. When they iterate over an array or linked list, they are traversing something that is already there. But they could just as easily manufacture the data as they go. Let's consider the simplest example: _(javascriptallonge.pdf (source-range-0e12e052-01294))_
+- Iterators are functions. When they iterate over an array or linked list, they are traversing something that is already there. But they could just as easily manufacture the data as they go. Let's consider the simplest example: _(javascriptallonge.pdf (source-range-c98ab3e6-01294))_
 
-- A function that starts with a seed and expands it into a data structure is called an unfold . It's the opposite of a fold. It's possible to write a generic unfold mechanism, but let's pass on to what we can do with unfolded iterators. _(javascriptallonge.pdf (source-range-0e12e052-01298))_
+- A function that starts with a seed and expands it into a data structure is called an unfold . It's the opposite of a fold. It's possible to write a generic unfold mechanism, but let's pass on to what we can do with unfolded iterators. _(javascriptallonge.pdf (source-range-c98ab3e6-01298))_
 
-- This business of going on forever has some drawbacks. Let's introduce an idea: A function that takes an iterator and returns another iterator. We can start with take , an easy function that returns an iterator that only returns a fixed number of elements: _(javascriptallonge.pdf (source-range-0e12e052-01302))_
+- This business of going on forever has some drawbacks. Let's introduce an idea: A function that takes an iterator and returns another iterator. We can start with take , an easy function that returns an iterator that only returns a fixed number of elements: _(javascriptallonge.pdf (source-range-c98ab3e6-01302))_
 
 ### Copy on Write / Functional Iterators / bonus
 
-- Many programmers coming to JavaScript from other languages are familiar with three 'canonical' operations on collections: folding, filtering, and finding. In Smalltalk, for example, they are known as collect , select , and detect . _(javascriptallonge.pdf (source-range-0e12e052-01311))_
+- Many programmers coming to JavaScript from other languages are familiar with three 'canonical' operations on collections: folding, filtering, and finding. In Smalltalk, for example, they are known as collect , select , and detect . _(javascriptallonge.pdf (source-range-c98ab3e6-01311))_
 
-- This is interesting, because it is lazy: It doesn't apply fn to every element in an iteration, just enough to find the first that passes the test. Whereas if we wrote something like: _(javascriptallonge.pdf (source-range-0e12e052-01314))_
+- This is interesting, because it is lazy: It doesn't apply fn to every element in an iteration, just enough to find the first that passes the test. Whereas if we wrote something like: _(javascriptallonge.pdf (source-range-c98ab3e6-01314))_
 
-- JavaScript would apply fn to every element. If array was very large, and fn very slow, this would consume a lot of unnecessary time. And if fn had some sort of side-effect, the program could be buggy. _(javascriptallonge.pdf (source-range-0e12e052-01316))_
+- JavaScript would apply fn to every element. If array was very large, and fn very slow, this would consume a lot of unnecessary time. And if fn had some sort of side-effect, the program could be buggy. _(javascriptallonge.pdf (source-range-c98ab3e6-01316))_
 
 ### Copy on Write / Functional Iterators / caveat
 
-- Please note that unlike most of the other functions discussed in this book, iterators are stateful . There are some important implications of stateful functions. One is that while functions like take(...) appear to create an entirely new iterator, in reality they return a decorated reference to the original iterator. So as you traverse the new decorator, you're changing the state of the original! _(javascriptallonge.pdf (source-range-0e12e052-01318))_
+- Please note that unlike most of the other functions discussed in this book, iterators are stateful . There are some important implications of stateful functions. One is that while functions like take(...) appear to create an entirely new iterator, in reality they return a decorated reference to the original iterator. So as you traverse the new decorator, you're changing the state of the original! _(javascriptallonge.pdf (source-range-c98ab3e6-01318))_
 
-- For all intents and purposes, once you pass an iterator to a function, you can expect that you no longer 'own' that iterator, and that its state either has changed or will change. _(javascriptallonge.pdf (source-range-0e12e052-01319))_
+- For all intents and purposes, once you pass an iterator to a function, you can expect that you no longer 'own' that iterator, and that its state either has changed or will change. _(javascriptallonge.pdf (source-range-c98ab3e6-01319))_
 
 ### Copy on Write / Making Data Out Of Functions
 
-- In our code so far, we have used arrays and objects to represent the structure of data, and we have extensively used the ternary operator to write algorithms that terminate when we reach a base case. For example, this length function uses a functions to bind values to names, POJOs to structure nodes, and the ternary function to detect the base case, the empty list. _(javascriptallonge.pdf (source-range-0e12e052-01323))_
+- In our code so far, we have used arrays and objects to represent the structure of data, and we have extensively used the ternary operator to write algorithms that terminate when we reach a base case. For example, this length function uses a functions to bind values to names, POJOs to structure nodes, and the ternary function to detect the base case, the empty list. _(javascriptallonge.pdf (source-range-c98ab3e6-01323))_
 
-- A very long time ago, mathematicians like Alonzo Church, Moses Schönfinkel, Alan Turning, and Haskell Curry and asked themselves if we really needed all these features to perform computations. They searched for a radically simpler set of tools that could accomplish all of the same things. _(javascriptallonge.pdf (source-range-0e12e052-01325))_
+- A very long time ago, mathematicians like Alonzo Church, Moses Schönfinkel, Alan Turning, and Haskell Curry and asked themselves if we really needed all these features to perform computations. They searched for a radically simpler set of tools that could accomplish all of the same things. _(javascriptallonge.pdf (source-range-c98ab3e6-01325))_
 
-- They established that arbitrary computations could be represented a small set of axiomatic components. For example, we don't need arrays to represent lists, or even POJOs to represent nodes in a linked list. We can model lists just using functions. _(javascriptallonge.pdf (source-range-0e12e052-01326))_
+- They established that arbitrary computations could be represented a small set of axiomatic components. For example, we don't need arrays to represent lists, or even POJOs to represent nodes in a linked list. We can model lists just using functions. _(javascriptallonge.pdf (source-range-c98ab3e6-01326))_
 
 ### Copy on Write / Making Data Out Of Functions / the kestrel and the idiot
 
-- A constant function is a function that always returns the same thing, no matter what you give it. For example, (x) => 42 is a constant function that always evaluates to 42. The kestrel, or K , is a function that makes constant functions. You give it a value, and it returns a constant function that gives that value. _(javascriptallonge.pdf (source-range-0e12e052-01333))_
+- A constant function is a function that always returns the same thing, no matter what you give it. For example, (x) => 42 is a constant function that always evaluates to 42. The kestrel, or K , is a function that makes constant functions. You give it a value, and it returns a constant function that gives that value. _(javascriptallonge.pdf (source-range-c98ab3e6-01333))_
 
-- The identity function is a function that evaluates to whatever parameter you pass it. So I(42) => 42 . Very simple, but useful. Now we'll take it one more step forward: Passing a value to K gets a function back, and passing a value to that function gets us a value. _(javascriptallonge.pdf (source-range-0e12e052-01336))_
+- The identity function is a function that evaluates to whatever parameter you pass it. So I(42) => 42 . Very simple, but useful. Now we'll take it one more step forward: Passing a value to K gets a function back, and passing a value to that function gets us a value. _(javascriptallonge.pdf (source-range-c98ab3e6-01336))_
 
-- This is very interesting. Given two values, we can say that K always returns the first value: K(x)(y) => x (that's not valid JavaScript, but it's essentially how it works). _(javascriptallonge.pdf (source-range-0e12e052-01339))_
+- This is very interesting. Given two values, we can say that K always returns the first value: K(x)(y) => x (that's not valid JavaScript, but it's essentially how it works). _(javascriptallonge.pdf (source-range-c98ab3e6-01339))_
 
 ### Copy on Write / Making Data Out Of Functions / backwardness
 
-- Our first and second functions are a little different than what most people are used to when we talk about functions that access data. If we represented a pair of values as an array, we'd write them like this: _(javascriptallonge.pdf (source-range-0e12e052-01349))_
+- Our first and second functions are a little different than what most people are used to when we talk about functions that access data. If we represented a pair of values as an array, we'd write them like this: _(javascriptallonge.pdf (source-range-c98ab3e6-01349))_
 
-- In both cases, the functions first and second know how the data is represented, whether it be an array or an object. You pass the data to these functions, and they extract it. _(javascriptallonge.pdf (source-range-0e12e052-01353))_
+- In both cases, the functions first and second know how the data is represented, whether it be an array or an object. You pass the data to these functions, and they extract it. _(javascriptallonge.pdf (source-range-c98ab3e6-01353))_
 
-- But the first and second we built out of K and I don't work that way. You call them and pass them the bits, and they choose what to return. So if we wanted to use them with a two-element array, we'd need to have a piece of code that calls some code. _(javascriptallonge.pdf (source-range-0e12e052-01354))_
+- But the first and second we built out of K and I don't work that way. You call them and pass them the bits, and they choose what to return. So if we wanted to use them with a two-element array, we'd need to have a piece of code that calls some code. _(javascriptallonge.pdf (source-range-c98ab3e6-01354))_
 
 ### Copy on Write / Making Data Out Of Functions / the vireo
 
-- Given that our latin data is represented as the function (selector) => selector("primus")("secundus") , our obvious next step is to make a function that makes data. For arrays, we'd write cons = (first, second) => [first, second] . For objects we'd write: cons = (first, second) => {first, second} . In both cases, we take two parameters, and return the form of the data. _(javascriptallonge.pdf (source-range-0e12e052-01359))_
+- Given that our latin data is represented as the function (selector) => selector("primus")("secundus") , our obvious next step is to make a function that makes data. For arrays, we'd write cons = (first, second) => [first, second] . For objects we'd write: cons = (first, second) => {first, second} . In both cases, we take two parameters, and return the form of the data. _(javascriptallonge.pdf (source-range-c98ab3e6-01359))_
 
-- For 'data' we access with K and K(I) , our 'structure' is the function (selector) => selector("primus")("secundus") . Let's extract those into parameters: _(javascriptallonge.pdf (source-range-0e12e052-01360))_
+- For 'data' we access with K and K(I) , our 'structure' is the function (selector) => selector("primus")("secundus") . Let's extract those into parameters: _(javascriptallonge.pdf (source-range-c98ab3e6-01360))_
 
-- For consistency with the way combinators are written as functions taking just one parameter, we'll curry 78 the function: _(javascriptallonge.pdf (source-range-0e12e052-01362))_
+- For consistency with the way combinators are written as functions taking just one parameter, we'll curry 78 the function: _(javascriptallonge.pdf (source-range-c98ab3e6-01362))_
 
 ### Copy on Write / Making Data Out Of Functions / lists with functions as data
 
-- Here's another look at linked lists using POJOs. We use the term rest instead of second , but it's otherwise identical to what we have above: _(javascriptallonge.pdf (source-range-0e12e052-01372))_
+- Here's another look at linked lists using POJOs. We use the term rest instead of second , but it's otherwise identical to what we have above: _(javascriptallonge.pdf (source-range-c98ab3e6-01372))_
 
-- Presto, we can use pure functions to represent a linked list . And with care, we can do amazing things like use functions to represent numbers, build more complex data structures like trees, and in fact, anything that can be computed can be computed using just functions and nothing else. _(javascriptallonge.pdf (source-range-0e12e052-01380))_
+- Presto, we can use pure functions to represent a linked list . And with care, we can do amazing things like use functions to represent numbers, build more complex data structures like trees, and in fact, anything that can be computed can be computed using just functions and nothing else. _(javascriptallonge.pdf (source-range-c98ab3e6-01380))_
 
-- We used functions to replace arrays and POJOs, but we still use JavaScript's built-in operators to test for equality ( === ) and to branch ?: . _(javascriptallonge.pdf (source-range-0e12e052-01382))_
+- We used functions to replace arrays and POJOs, but we still use JavaScript's built-in operators to test for equality ( === ) and to branch ?: . _(javascriptallonge.pdf (source-range-c98ab3e6-01382))_
 
 ### Copy on Write / Making Data Out Of Functions / say 'please'
 
-- Wekeep using the same pattern in our functions: aPair === EMPTY ? doSomething : doSomethingElse . This follows the philosophy we used with data structures: The function doing the work inspects the data structure. _(javascriptallonge.pdf (source-range-0e12e052-01384))_
+- Wekeep using the same pattern in our functions: aPair === EMPTY ? doSomething : doSomethingElse . This follows the philosophy we used with data structures: The function doing the work inspects the data structure. _(javascriptallonge.pdf (source-range-c98ab3e6-01384))_
 
-- We can reverse this: Instead of asking a pair if it is empty and then deciding what to do, we can ask the pair to do it for us. Here's length again: _(javascriptallonge.pdf (source-range-0e12e052-01385))_
+- We can reverse this: Instead of asking a pair if it is empty and then deciding what to do, we can ask the pair to do it for us. Here's length again: _(javascriptallonge.pdf (source-range-c98ab3e6-01385))_
 
-- Now we'll need to write first and rest functions for a list, and those names will collide with the first and rest we wrote for pairs. So let's disambiguate our names: _(javascriptallonge.pdf (source-range-0e12e052-01389))_
+- Now we'll need to write first and rest functions for a list, and those names will collide with the first and rest we wrote for pairs. So let's disambiguate our names: _(javascriptallonge.pdf (source-range-c98ab3e6-01389))_
 
 ### Copy on Write / Making Data Out Of Functions / functions are not the real point
 
-- There are lots of similar texts explaining how to construct complex semantics out of functions. You can establish that K and K(I) can represent true and false , model magnitudes with Church Numerals 79 or Surreal Numbers 80 , and build your way up to printing FizzBuzz. _(javascriptallonge.pdf (source-range-0e12e052-01396))_
+- There are lots of similar texts explaining how to construct complex semantics out of functions. You can establish that K and K(I) can represent true and false , model magnitudes with Church Numerals 79 or Surreal Numbers 80 , and build your way up to printing FizzBuzz. _(javascriptallonge.pdf (source-range-c98ab3e6-01396))_
 
-- Functions are a fundamental building block of computation. They are 'axioms' of combinatory logic, and can be used to compute anything that JavaScript can compute. _(javascriptallonge.pdf (source-range-0e12e052-01398))_
+- Functions are a fundamental building block of computation. They are 'axioms' of combinatory logic, and can be used to compute anything that JavaScript can compute. _(javascriptallonge.pdf (source-range-c98ab3e6-01398))_
 
-- However, that is not the interesting thing to note here. Practically speaking, languages like JavaScript already provide arrays with mapping and folding methods, choice operations, and other rich constructs. Knowing how to make a linked list out of functions is not really necessary for the working programmer. (Knowing that it can be done, on the other hand, is very important to understanding computer science.) _(javascriptallonge.pdf (source-range-0e12e052-01399))_
+- However, that is not the interesting thing to note here. Practically speaking, languages like JavaScript already provide arrays with mapping and folding methods, choice operations, and other rich constructs. Knowing how to make a linked list out of functions is not really necessary for the working programmer. (Knowing that it can be done, on the other hand, is very important to understanding computer science.) _(javascriptallonge.pdf (source-range-c98ab3e6-01399))_
 
 ### Copy on Write / Making Data Out Of Functions / a return to backward thinking
 
-- To make pairs work, we did things backwards , we passed the first and rest functions to the pair, and the pair called our function. As it happened, the pair was composed by the vireo (or V combinator): (x) => (y) => (z) => z(x)(y) . _(javascriptallonge.pdf (source-range-0e12e052-01404))_
+- To make pairs work, we did things backwards , we passed the first and rest functions to the pair, and the pair called our function. As it happened, the pair was composed by the vireo (or V combinator): (x) => (y) => (z) => z(x)(y) . _(javascriptallonge.pdf (source-range-c98ab3e6-01404))_
 
-- But we could have done something completely different. We could have written a pair that stored its elements in an array, or a pair that stored its elements in a POJO. All we know is that we can pass the pair function a function of our own, at it will be called with the elements of the pair. _(javascriptallonge.pdf (source-range-0e12e052-01405))_
+- But we could have done something completely different. We could have written a pair that stored its elements in an array, or a pair that stored its elements in a POJO. All we know is that we can pass the pair function a function of our own, at it will be called with the elements of the pair. _(javascriptallonge.pdf (source-range-c98ab3e6-01405))_
 
-- The exact implementation of a pair is hidden from the code that uses a pair. Here, we'll prove it: _(javascriptallonge.pdf (source-range-0e12e052-01406))_
+- The exact implementation of a pair is hidden from the code that uses a pair. Here, we'll prove it: _(javascriptallonge.pdf (source-range-c98ab3e6-01406))_
 
-- And therefore, modifications to the parent do not affect the child, and modifications to the child do not affect the parent. _(javascriptallonge.pdf (source-range-0e12e052-01223))_
-- If we know that a list doesn't share any elements with another list, we can safely modify it. _(javascriptallonge.pdf (source-range-0e12e052-01227))_
-- We'll end up reinventing reference counting and garbage collection. _(javascriptallonge.pdf (source-range-0e12e052-01227))_
-- Copy-on-write is the name given to the policy that whenever a task attempts to make a change to the shared information, it should first create a separate (private) copy of that information to prevent its changes from becoming visible to all the other tasks.Wikipedia 73 _(javascriptallonge.pdf (source-range-0e12e052-01248))_
-- Like all strategies, it makes a tradeoff: It's much cheaper than pessimistically copying structures when you make an infrequent number of small changes, but if you tend to make a lot of changes to some that you aren't sharing, it's more expensive. _(javascriptallonge.pdf (source-range-0e12e052-01249))_
-- Once we're done with it and give it to someone else, we need to be conservative and use a strategy like copy-on-read or copy-on-write. _(javascriptallonge.pdf (source-range-0e12e052-01250))_
-- Looking at the code again, you see that the copy function doesn't copy on write: It follows the pattern that while constructing something, we own it and can be liberal with mutation. _(javascriptallonge.pdf (source-range-0e12e052-01250))_
-- You have two node references, and one traverses the list at twice the speed of the other. _(javascriptallonge.pdf (source-range-0e12e052-01260))_
-- No matter how large it is, you will eventually have the fast reference equal to the slow reference, and thus you'll detect the loop. _(javascriptallonge.pdf (source-range-0e12e052-01260))_
-- It seems to be faster under certain circumstances, depending on the size of the loop and the relative costs of certain operations. _(javascriptallonge.pdf (source-range-0e12e052-01263))_
-- What's interesting about these two algorithms is that they both tangle two separate concerns: How to traverse a data structure, and what to do with the elements that you encounter. _(javascriptallonge.pdf (source-range-0e12e052-01264))_
-- Notice that buried inside our loop, we have bound the names done and value . _(javascriptallonge.pdf (source-range-0e12e052-01286))_
-- We can put those into a POJO (a Plain Old JavaScript Object). _(javascriptallonge.pdf (source-range-0e12e052-01286))_
-- The arrayIterator function takes an array and returns a function we can call repeatedly to obtain the elements of the array. _(javascriptallonge.pdf (source-range-0e12e052-01289))_
-- Now this is something else. _(javascriptallonge.pdf (source-range-0e12e052-01289))_
-- We can write a different iterator for a different data structure. _(javascriptallonge.pdf (source-range-0e12e052-01290))_
-- We'll need an iterator that produces odd numbers. _(javascriptallonge.pdf (source-range-0e12e052-01304))_
-- Mapping and filtering iterators allows us to compose the parts we already have, rather than writing a tricky bit of code with ifs and whiles and boundary conditions. _(javascriptallonge.pdf (source-range-0e12e052-01309))_
-- The oscin.es 77 library contains code for all of the standard combinators and for experimenting using the standard notation. _(javascriptallonge.pdf (source-range-0e12e052-01328))_
-- Given two values, we can say that K always returns the first value, and given two values, K(I) always returns the second value. _(javascriptallonge.pdf (source-range-0e12e052-01347))_
-- Our latin data structure is no longer a dumb data structure, it's a function. _(javascriptallonge.pdf (source-range-0e12e052-01357))_
-- It is known to most programmers as .tap . _(javascriptallonge.pdf (source-range-0e12e052-01369))_
-- One notable example is the 'thrush' or T combinator: It takes one value and applies it to a function. _(javascriptallonge.pdf (source-range-0e12e052-01369))_
-- As an aside, the Vireo is a little like JavaScript's .apply function. _(javascriptallonge.pdf (source-range-0e12e052-01369))_
-- We can write reverse and mapWith as well. _(javascriptallonge.pdf (source-range-0e12e052-01392))_
-- We have managed to provide the exact same functionality that === and ?: provided, but using functions and nothing else. _(javascriptallonge.pdf (source-range-0e12e052-01394))_
-- Knowing how to make a list out of just functions is a little like knowing that photons are the Gauge Bosons 81 of the electromagnetic force. _(javascriptallonge.pdf (source-range-0e12e052-01400))_
-- This is a little gratuitous, but it makes the point: The code that uses the data doesn't reach in and touch it: The code that uses the data provides some code and asks the data to do something with it. _(javascriptallonge.pdf (source-range-0e12e052-01408))_
-- We're passing list what we want done with an empty list, and what we want done with a list that has at least one element. _(javascriptallonge.pdf (source-range-0e12e052-01411))_
-- We then ask list to do it, and provide a way for list to call the code we pass in. _(javascriptallonge.pdf (source-range-0e12e052-01411))_
-- It presumes you can compare these things with the === operator. _(javascriptallonge.pdf (source-range-0e12e052-01414))_
-- We can fix this with an isEmpty function, but now we're pushing even more knowledge about the structure of lists into the code that uses them. _(javascriptallonge.pdf (source-range-0e12e052-01414))_
-- This is a fundamental principle of good design. _(javascriptallonge.pdf (source-range-0e12e052-01415))_
-- It is a tenet of Object-Oriented Programming, but it is not exclusive to OOP: We can and should design data structures to hide implementation information from the code that use them, whether we are working with functions, objects, or both. _(javascriptallonge.pdf (source-range-0e12e052-01415))_
-- Having a list know itself whether it is empty hides implementation information from the code that uses lists. _(javascriptallonge.pdf (source-range-0e12e052-01415))_
-- Instead of directly manipulating part of an entity, pass it a function and have it call our function with the part we want. _(javascriptallonge.pdf (source-range-0e12e052-01417))_
+- And therefore, modifications to the parent do not affect the child, and modifications to the child do not affect the parent. _(javascriptallonge.pdf (source-range-c98ab3e6-01223))_
+- If we know that a list doesn't share any elements with another list, we can safely modify it. _(javascriptallonge.pdf (source-range-c98ab3e6-01227))_
+- We'll end up reinventing reference counting and garbage collection. _(javascriptallonge.pdf (source-range-c98ab3e6-01227))_
+- Copy-on-write is the name given to the policy that whenever a task attempts to make a change to the shared information, it should first create a separate (private) copy of that information to prevent its changes from becoming visible to all the other tasks.Wikipedia 73 _(javascriptallonge.pdf (source-range-c98ab3e6-01248))_
+- Like all strategies, it makes a tradeoff: It's much cheaper than pessimistically copying structures when you make an infrequent number of small changes, but if you tend to make a lot of changes to some that you aren't sharing, it's more expensive. _(javascriptallonge.pdf (source-range-c98ab3e6-01249))_
+- Once we're done with it and give it to someone else, we need to be conservative and use a strategy like copy-on-read or copy-on-write. _(javascriptallonge.pdf (source-range-c98ab3e6-01250))_
+- Looking at the code again, you see that the copy function doesn't copy on write: It follows the pattern that while constructing something, we own it and can be liberal with mutation. _(javascriptallonge.pdf (source-range-c98ab3e6-01250))_
+- You have two node references, and one traverses the list at twice the speed of the other. _(javascriptallonge.pdf (source-range-c98ab3e6-01260))_
+- No matter how large it is, you will eventually have the fast reference equal to the slow reference, and thus you'll detect the loop. _(javascriptallonge.pdf (source-range-c98ab3e6-01260))_
+- It seems to be faster under certain circumstances, depending on the size of the loop and the relative costs of certain operations. _(javascriptallonge.pdf (source-range-c98ab3e6-01263))_
+- What's interesting about these two algorithms is that they both tangle two separate concerns: How to traverse a data structure, and what to do with the elements that you encounter. _(javascriptallonge.pdf (source-range-c98ab3e6-01264))_
+- We can put those into a POJO (a Plain Old JavaScript Object). _(javascriptallonge.pdf (source-range-c98ab3e6-01286))_
+- Notice that buried inside our loop, we have bound the names done and value . _(javascriptallonge.pdf (source-range-c98ab3e6-01286))_
+- The arrayIterator function takes an array and returns a function we can call repeatedly to obtain the elements of the array. _(javascriptallonge.pdf (source-range-c98ab3e6-01289))_
+- Now this is something else. _(javascriptallonge.pdf (source-range-c98ab3e6-01289))_
+- We can write a different iterator for a different data structure. _(javascriptallonge.pdf (source-range-c98ab3e6-01290))_
+- We'll need an iterator that produces odd numbers. _(javascriptallonge.pdf (source-range-c98ab3e6-01304))_
+- Mapping and filtering iterators allows us to compose the parts we already have, rather than writing a tricky bit of code with ifs and whiles and boundary conditions. _(javascriptallonge.pdf (source-range-c98ab3e6-01309))_
+- The oscin.es 77 library contains code for all of the standard combinators and for experimenting using the standard notation. _(javascriptallonge.pdf (source-range-c98ab3e6-01328))_
+- Given two values, we can say that K always returns the first value, and given two values, K(I) always returns the second value. _(javascriptallonge.pdf (source-range-c98ab3e6-01347))_
+- Our latin data structure is no longer a dumb data structure, it's a function. _(javascriptallonge.pdf (source-range-c98ab3e6-01357))_
+- As an aside, the Vireo is a little like JavaScript's .apply function. _(javascriptallonge.pdf (source-range-c98ab3e6-01369))_
+- One notable example is the 'thrush' or T combinator: It takes one value and applies it to a function. _(javascriptallonge.pdf (source-range-c98ab3e6-01369))_
+- It is known to most programmers as .tap . _(javascriptallonge.pdf (source-range-c98ab3e6-01369))_
+- We can write reverse and mapWith as well. _(javascriptallonge.pdf (source-range-c98ab3e6-01392))_
+- We have managed to provide the exact same functionality that === and ?: provided, but using functions and nothing else. _(javascriptallonge.pdf (source-range-c98ab3e6-01394))_
+- Knowing how to make a list out of just functions is a little like knowing that photons are the Gauge Bosons 81 of the electromagnetic force. _(javascriptallonge.pdf (source-range-c98ab3e6-01400))_
+- This is a little gratuitous, but it makes the point: The code that uses the data doesn't reach in and touch it: The code that uses the data provides some code and asks the data to do something with it. _(javascriptallonge.pdf (source-range-c98ab3e6-01408))_
+- We're passing list what we want done with an empty list, and what we want done with a list that has at least one element. _(javascriptallonge.pdf (source-range-c98ab3e6-01411))_
+- We then ask list to do it, and provide a way for list to call the code we pass in. _(javascriptallonge.pdf (source-range-c98ab3e6-01411))_
+- We can fix this with an isEmpty function, but now we're pushing even more knowledge about the structure of lists into the code that uses them. _(javascriptallonge.pdf (source-range-c98ab3e6-01414))_
+- It presumes you can compare these things with the === operator. _(javascriptallonge.pdf (source-range-c98ab3e6-01414))_
+- This is a fundamental principle of good design. _(javascriptallonge.pdf (source-range-c98ab3e6-01415))_
+- It is a tenet of Object-Oriented Programming, but it is not exclusive to OOP: We can and should design data structures to hide implementation information from the code that use them, whether we are working with functions, objects, or both. _(javascriptallonge.pdf (source-range-c98ab3e6-01415))_
+- Having a list know itself whether it is empty hides implementation information from the code that uses lists. _(javascriptallonge.pdf (source-range-c98ab3e6-01415))_
+- Instead of directly manipulating part of an entity, pass it a function and have it call our function with the part we want. _(javascriptallonge.pdf (source-range-c98ab3e6-01417))_
 
 ## Technical atoms
 
 ### Technical frame 1: Copy on Write
 
-**Context:** _(javascriptallonge.pdf (source-range-0e12e052-01227))_
+**Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01227))_
 
 > This is remarkably unsafe. If we know that a list doesn't share any elements with another list, we can safely modify it. But how do we keep track of that? Add a bunch of bookkeeping to track references? We'll end up reinventing reference counting and garbage collection.
 
-**Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01223))_
+**Atom:** _(javascriptallonge.pdf (source-range-c98ab3e6-01223))_
 
-<a id="atom-technical-atom-93d06280c439087e"></a>
+<a id="atom-technical-atom-c1fbcf287476a654"></a>
 > The consequence of this is that if you have an array, and you take it's 'rest,' your 'child' array is a copy of the elements of the parent array.
 
 ### Technical frame 2: Copy on Write
 
-**Context:** _(javascriptallonge.pdf (source-range-0e12e052-01227))_
+**Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01227))_
 
 > This is remarkably unsafe. If we know that a list doesn't share any elements with another list, we can safely modify it. But how do we keep track of that? Add a bunch of bookkeeping to track references? We'll end up reinventing reference counting and garbage collection.
 
-**Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01224))_
+**Atom:** _(javascriptallonge.pdf (source-range-c98ab3e6-01224))_
 
-<a id="atom-technical-atom-6eb3e5646b36ffaf"></a>
+<a id="atom-technical-atom-e3ac7770ca9c5321"></a>
 > Whereas if you have a linked list, and you take it's 'rest,' your 'child' list shares its nodes with the 'parent' list.
 
 ### Technical frame 3: Copy on Write
 
-**Context:** _(javascriptallonge.pdf (source-range-0e12e052-01227))_
+**Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01227))_
 
 > This is remarkably unsafe. If we know that a list doesn't share any elements with another list, we can safely modify it. But how do we keep track of that? Add a bunch of bookkeeping to track references? We'll end up reinventing reference counting and garbage collection.
 
-**Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01226))_
+**Atom:** _(javascriptallonge.pdf (source-range-c98ab3e6-01226))_
 
-<a id="atom-technical-atom-efd8e690680d3b5a"></a>
+<a id="atom-technical-atom-7f2222e5eeab8f05"></a>
 ```
 const parentArray = [1, 2, 3];
 const [aFirst, ...childArray] = parentArray;
@@ -248,13 +248,13 @@ childList
 
 ### Technical frame 4: Copy on Write / a few utilities
 
-**Context:** _(javascriptallonge.pdf (source-range-0e12e052-01232))_
+**Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01232))_
 
 > Our new at and set functions behave similarly to array[index] and array[index] = value . The main difference is that array[index] = value evaluates to value , while set(index, value, list) evaluates to the modified list .
 
-**Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01230))_
+**Atom:** _(javascriptallonge.pdf (source-range-c98ab3e6-01230))_
 
-<a id="atom-technical-atom-7a89503a1c2513d4"></a>
+<a id="atom-technical-atom-51a8f689aa83adef"></a>
 ```
 const copy = (node, head = null, tail = null) => {
 if (node === EMPTY) {
@@ -296,13 +296,13 @@ const parentList = { first: 1, rest: { first: 2, rest: { first: 3, rest: EMPTY }
 
 ### Technical frame 5: Copy on Write / a few utilities
 
-**Context:** _(javascriptallonge.pdf (source-range-0e12e052-01232))_
+**Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01232))_
 
 > Our new at and set functions behave similarly to array[index] and array[index] = value . The main difference is that array[index] = value evaluates to value , while set(index, value, list) evaluates to the modified list .
 
-**Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01231))_
+**Atom:** _(javascriptallonge.pdf (source-range-c98ab3e6-01231))_
 
-<a id="atom-technical-atom-ba90ceb93ebdc5ae"></a>
+<a id="atom-technical-atom-4d796befad060cab"></a>
 ```
 const childList = rest(parentList);
 set(2, "three", parentList);
@@ -316,13 +316,13 @@ childList
 
 ### Technical frame 6: Copy on Write / a few utilities / copy-on-read
 
-**Context:** _(javascriptallonge.pdf (source-range-0e12e052-01236))_
+**Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01236))_
 
 > This strategy is called 'copy-on-read', because when we attempt the parent to 'read' the value of a child of the list, we make a copy and read the copy of the child. Thereafter, we can write to the parent or the copy of the child freely.
 
-**Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01235))_
+**Atom:** _(javascriptallonge.pdf (source-range-c98ab3e6-01235))_
 
-<a id="atom-technical-atom-51bc48aa99117cc3"></a>
+<a id="atom-technical-atom-9ac2bd1abfc7b2a0"></a>
 ```
 const rest = ({first, rest}) => copy(rest);
 const parentList = { first: 1, rest: { first: 2, rest: { first: 3, rest: EMPTY }\
@@ -339,13 +339,13 @@ childList
 
 ### Technical frame 7: Copy on Write / a few utilities / copy-on-write
 
-**Context:** _(javascriptallonge.pdf (source-range-0e12e052-01244))_
+**Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01244))_
 
 > But our new parent and child lists are copies that contain the desired modifications, without interfering with each other:
 
-**Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01241))_
+**Atom:** _(javascriptallonge.pdf (source-range-c98ab3e6-01241))_
 
-<a id="atom-technical-atom-ff1a11e29eb3914a"></a>
+<a id="atom-technical-atom-2911751c148fd67b"></a>
 ```
 const rest = ({first, rest}) => rest;
 const set = (index, value, list) =>
@@ -361,13 +361,13 @@ const newChildList = set(0, "two", childList);
 
 ### Technical frame 8: Copy on Write / a few utilities / copy-on-write
 
-**Context:** _(javascriptallonge.pdf (source-range-0e12e052-01244))_
+**Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01244))_
 
 > But our new parent and child lists are copies that contain the desired modifications, without interfering with each other:
 
-**Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01243))_
+**Atom:** _(javascriptallonge.pdf (source-range-c98ab3e6-01243))_
 
-<a id="atom-technical-atom-1e7e254cfd478251"></a>
+<a id="atom-technical-atom-5f2fd36e9d8e8d2f"></a>
 ```
 parentList
 //=> {"first":1,"rest":{"first":2,"rest":{"first":3,"rest":{"first":{},"rest":\
@@ -378,13 +378,13 @@ childList
 
 ### Technical frame 9: Copy on Write / a few utilities / copy-on-write
 
-**Context:** _(javascriptallonge.pdf (source-range-0e12e052-01246))_
+**Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01246))_
 
 > And now functions like mapWith that make copies without modifying anything, work at full speed.
 
-**Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01245))_
+**Atom:** _(javascriptallonge.pdf (source-range-c98ab3e6-01245))_
 
-<a id="atom-technical-atom-9eb84e521487b3d3"></a>
+<a id="atom-technical-atom-2c173023c637118d"></a>
 ```
 newParentList
 //=> {"first":1,"rest":{"first":2,"rest":{"first":"three","rest":{"first":{},"\
@@ -395,13 +395,13 @@ newChildList
 
 ### Technical frame 10: Copy on Write / Tortoises, Hares, and Teleporting Turtles
 
-**Context:** _(javascriptallonge.pdf (source-range-0e12e052-01260))_
+**Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01260))_
 
 > This algorithm is called 'The Tortoise and the Hare,' and was discovered by Robert Floyd in the 1960s. You have two node references, and one traverses the list at twice the speed of the other. No matter how large it is, you will eventually have the fast reference equal to the slow reference, and thus you'll detect the loop.
 
-**Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01257))_
+**Atom:** _(javascriptallonge.pdf (source-range-c98ab3e6-01257))_
 
-<a id="atom-technical-atom-a993affc743c52b5"></a>
+<a id="atom-technical-atom-9f87722f85fba961"></a>
 ```
 const EMPTY = null;
 const isEmpty = (node) => node === EMPTY;
@@ -425,13 +425,13 @@ forceAppend(list1.rest, list2);
 
 ### Technical frame 11: Copy on Write / Tortoises, Hares, and Teleporting Turtles
 
-**Context:** _(javascriptallonge.pdf (source-range-0e12e052-01260))_
+**Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01260))_
 
 > This algorithm is called 'The Tortoise and the Hare,' and was discovered by Robert Floyd in the 1960s. You have two node references, and one traverses the list at twice the speed of the other. No matter how large it is, you will eventually have the fast reference equal to the slow reference, and thus you'll detect the loop.
 
-**Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01259))_
+**Atom:** _(javascriptallonge.pdf (source-range-c98ab3e6-01259))_
 
-<a id="atom-technical-atom-b0240c0c8e5b526f"></a>
+<a id="atom-technical-atom-ed21dcafa9d64cee"></a>
 ```
 }
 }
@@ -466,13 +466,13 @@ tortoiseAndHare(aList);
 
 ### Technical frame 12: Copy on Write / Tortoises, Hares, and Teleporting Turtles
 
-**Context:** _(javascriptallonge.pdf (source-range-0e12e052-01263))_
+**Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01263))_
 
 > Years later, I came across a discussion of this algorithm, The Tale of the Teleporting Turtle 75 . It seems to be faster under certain circumstances, depending on the size of the loop and the relative costs of certain operations.
 
-**Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01262))_
+**Atom:** _(javascriptallonge.pdf (source-range-c98ab3e6-01262))_
 
-<a id="atom-technical-atom-b624cf119b4f811e"></a>
+<a id="atom-technical-atom-241cd991e0e11696"></a>
 ```
 const teleportingTurtle = (list) => {
 let speed = 1,
@@ -503,13 +503,13 @@ teleportingTurtle(aList);
 
 ### Technical frame 13: Copy on Write / Functional Iterators
 
-**Context:** _(javascriptallonge.pdf (source-range-0e12e052-01271))_
+**Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01271))_
 
 > The nice thing about this is that the definition for arraySum mostly concerns itself with summing, and not with traversing over a collection of data. But it still relies on foldArrayWith , so it can only sum arrays.
 
-**Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01268))_
+**Atom:** _(javascriptallonge.pdf (source-range-c98ab3e6-01268))_
 
-<a id="atom-technical-atom-24fc5bde3dd87bda"></a>
+<a id="atom-technical-atom-80d896d718eee609"></a>
 ```
 const arraySum = ([first, ...rest], accumulator = 0) =>
 first === undefined
@@ -521,13 +521,13 @@ arraySum([1, 4, 9, 16, 25])
 
 ### Technical frame 14: Copy on Write / Functional Iterators
 
-**Context:** _(javascriptallonge.pdf (source-range-0e12e052-01271))_
+**Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01271))_
 
 > The nice thing about this is that the definition for arraySum mostly concerns itself with summing, and not with traversing over a collection of data. But it still relies on foldArrayWith , so it can only sum arrays.
 
-**Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01270))_
+**Atom:** _(javascriptallonge.pdf (source-range-c98ab3e6-01270))_
 
-<a id="atom-technical-atom-73aaabb73418a011"></a>
+<a id="atom-technical-atom-b9893f34adcd8a08"></a>
 ```
 const callLeft = (fn, ...args) =>
 (...remainingArgs) =>
@@ -543,13 +543,13 @@ arraySum([1, 4, 9, 16, 25])
 
 ### Technical frame 15: Copy on Write / Functional Iterators
 
-**Context:** _(javascriptallonge.pdf (source-range-0e12e052-01275))_
+**Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01275))_
 
 > What we've done is turn an array into a function that folds an array with const foldArray = (array) => callRight(foldArrayWith, array); . The sumFoldable function doesn't care what kind of data structure we have, as long as it's foldable.
 
-**Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01274))_
+**Atom:** _(javascriptallonge.pdf (source-range-c98ab3e6-01274))_
 
-<a id="atom-technical-atom-c699834d7bae69f5"></a>
+<a id="atom-technical-atom-e550b7b8befc0e88"></a>
 ```
 const callRight = (fn, ...args) =>
 (...remainingArgs) =>
@@ -566,13 +566,13 @@ sumFoldable(foldArray([1, 4, 9, 16, 25]))
 
 ### Technical frame 16: Copy on Write / Functional Iterators
 
-**Context:** _(javascriptallonge.pdf (source-range-0e12e052-01278))_
+**Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01278))_
 
 > We've found another way to express the principle of separating traversing a data structure from the operation we want to perform on that data structure, we've completely separated the knowledge of how to sum from the knowledge of how to fold an array or tree (or anything else, really).
 
-**Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01277))_
+**Atom:** _(javascriptallonge.pdf (source-range-c98ab3e6-01277))_
 
-<a id="atom-technical-atom-8d1904e8f85266ff"></a>
+<a id="atom-technical-atom-13d7bc68616b530d"></a>
 ```
 const callRight = (fn, ...args) =>
 (...remainingArgs) =>
@@ -592,13 +592,13 @@ sumFoldable(foldTree([1, [4, [9, 16]], 25]))
 
 ### Technical frame 17: Copy on Write / Functional Iterators / iterating
 
-**Context:** _(javascriptallonge.pdf (source-range-0e12e052-01283))_
+**Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01283))_
 
 > Once again, we're mixing the code for iterating over an array with the code for calculating a sum. And worst of all, we're getting really low-level with details like knowing that the elements of an array are indexed with consecutive integers that begin with 0 .
 
-**Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01282))_
+**Atom:** _(javascriptallonge.pdf (source-range-c98ab3e6-01282))_
 
-<a id="atom-technical-atom-f7b456184e95d5ca"></a>
+<a id="atom-technical-atom-dc6f0a5615eda044"></a>
 ```
 const arraySum = (array) => {
 let sum = 0;
@@ -613,13 +613,13 @@ arraySum([1, 4, 9, 16, 25])
 
 ### Technical frame 18: Copy on Write / Functional Iterators / iterating
 
-**Context:** _(javascriptallonge.pdf (source-range-0e12e052-01286))_
+**Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01286))_
 
 > Notice that buried inside our loop, we have bound the names done and value . We can put those into a POJO (a Plain Old JavaScript Object). It'll be a little awkward, but we'll be patient:
 
-**Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01285))_
+**Atom:** _(javascriptallonge.pdf (source-range-c98ab3e6-01285))_
 
-<a id="atom-technical-atom-4bd546db6cc10b01"></a>
+<a id="atom-technical-atom-7dcf0060f7357608"></a>
 ```
 const arraySum = (array) => {
 let done,
@@ -637,13 +637,13 @@ arraySum([1, 4, 9, 16, 25])
 
 ### Technical frame 19: Copy on Write / Functional Iterators / iterating
 
-**Context:** _(javascriptallonge.pdf (source-range-0e12e052-01289))_
+**Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01289))_
 
 > Now this is something else. The arrayIterator function takes an array and returns a function we can call repeatedly to obtain the elements of the array. The iteratorSum function iterates over the elements by calling the iterator function repeatedly until it returns { done: true } .
 
-**Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01287))_
+**Atom:** _(javascriptallonge.pdf (source-range-c98ab3e6-01287))_
 
-<a id="atom-technical-atom-557883d9714f88ed"></a>
+<a id="atom-technical-atom-4c1b1954267e7b6c"></a>
 ```
 const arraySum = (array) => {
 let iter,
@@ -683,13 +683,13 @@ while ((eachIteration = iterator(), !eachIteration.done)) {
 
 ### Technical frame 20: Copy on Write / Functional Iterators / iterating
 
-**Context:** _(javascriptallonge.pdf (source-range-0e12e052-01289))_
+**Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01289))_
 
 > Now this is something else. The arrayIterator function takes an array and returns a function we can call repeatedly to obtain the elements of the array. The iteratorSum function iterates over the elements by calling the iterator function repeatedly until it returns { done: true } .
 
-**Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01288))_
+**Atom:** _(javascriptallonge.pdf (source-range-c98ab3e6-01288))_
 
-<a id="atom-technical-atom-2a456f2976964a98"></a>
+<a id="atom-technical-atom-029c4a32693ee8bb"></a>
 ```
 sum += eachIteration.value;
 }
@@ -701,13 +701,13 @@ iteratorSum(arrayIterator([1, 4, 9, 16, 25]))
 
 ### Technical frame 21: Copy on Write / Functional Iterators / iterating
 
-**Context:** _(javascriptallonge.pdf (source-range-0e12e052-01290))_
+**Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01290))_
 
 > We can write a different iterator for a different data structure. Here's one for linked lists:
 
-**Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01291))_
+**Atom:** _(javascriptallonge.pdf (source-range-c98ab3e6-01291))_
 
-<a id="atom-technical-atom-282dba3fa6180714"></a>
+<a id="atom-technical-atom-b78a2e7b3e34b7ee"></a>
 ```
 const EMPTY = null;
 const isEmpty = (node) => node === EMPTY;
@@ -735,13 +735,13 @@ aPair = aPair.rest;
 
 ### Technical frame 22: Copy on Write / Functional Iterators / iterating
 
-**Context:** _(javascriptallonge.pdf (source-range-0e12e052-01290))_
+**Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01290))_
 
 > We can write a different iterator for a different data structure. Here's one for linked lists:
 
-**Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01292))_
+**Atom:** _(javascriptallonge.pdf (source-range-c98ab3e6-01292))_
 
-<a id="atom-technical-atom-ec11f07272147db8"></a>
+<a id="atom-technical-atom-1f5f88b3bd874599"></a>
 ```
 return { done, value: first }
 }
@@ -761,13 +761,13 @@ iteratorSum(aListIterator)
 
 ### Technical frame 23: Copy on Write / Functional Iterators / unfolding and laziness
 
-**Context:** _(javascriptallonge.pdf (source-range-0e12e052-01298))_
+**Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01298))_
 
 > A function that starts with a seed and expands it into a data structure is called an unfold . It's the opposite of a fold. It's possible to write a generic unfold mechanism, but let's pass on to what we can do with unfolded iterators.
 
-**Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01295))_
+**Atom:** _(javascriptallonge.pdf (source-range-c98ab3e6-01295))_
 
-<a id="atom-technical-atom-e9b34a22026fe73e"></a>
+<a id="atom-technical-atom-416d64126ec0debc"></a>
 ```
 const NumberIterator = (number = 0) =>
 () => ({ done: false, value: number++ })
@@ -786,13 +786,13 @@ fromOne().value;
 
 ### Technical frame 24: Copy on Write / Functional Iterators / unfolding and laziness
 
-**Context:** _(javascriptallonge.pdf (source-range-0e12e052-01298))_
+**Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01298))_
 
 > A function that starts with a seed and expands it into a data structure is called an unfold . It's the opposite of a fold. It's possible to write a generic unfold mechanism, but let's pass on to what we can do with unfolded iterators.
 
-**Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01297))_
+**Atom:** _(javascriptallonge.pdf (source-range-c98ab3e6-01297))_
 
-<a id="atom-technical-atom-dc6d7632125621cc"></a>
+<a id="atom-technical-atom-df5827253a8b1363"></a>
 ```
 const FibonacciIterator
 = () => {
@@ -819,13 +819,13 @@ fib().value
 
 ### Technical frame 25: Copy on Write / Functional Iterators / unfolding and laziness
 
-**Context:** _(javascriptallonge.pdf (source-range-0e12e052-01302))_
+**Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01302))_
 
 > This business of going on forever has some drawbacks. Let's introduce an idea: A function that takes an iterator and returns another iterator. We can start with take , an easy function that returns an iterator that only returns a fixed number of elements:
 
-**Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01300))_
+**Atom:** _(javascriptallonge.pdf (source-range-c98ab3e6-01300))_
 
-<a id="atom-technical-atom-106566f7f4dc0942"></a>
+<a id="atom-technical-atom-b26ff8257490707e"></a>
 ```
 const mapIteratorWith = (fn, iterator) =>
 () => {
@@ -840,13 +840,13 @@ squares().value
 
 ### Technical frame 26: Copy on Write / Functional Iterators / unfolding and laziness
 
-**Context:** _(javascriptallonge.pdf (source-range-0e12e052-01302))_
+**Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01302))_
 
 > This business of going on forever has some drawbacks. Let's introduce an idea: A function that takes an iterator and returns another iterator. We can start with take , an easy function that returns an iterator that only returns a fixed number of elements:
 
-**Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01301))_
+**Atom:** _(javascriptallonge.pdf (source-range-c98ab3e6-01301))_
 
-<a id="atom-technical-atom-9a11199dca2516d3"></a>
+<a id="atom-technical-atom-4f03f7dacb451d7f"></a>
 ```
 //=> 4
 squares().value
@@ -855,13 +855,13 @@ squares().value
 
 ### Technical frame 27: Copy on Write / Functional Iterators / unfolding and laziness
 
-**Context:** _(javascriptallonge.pdf (source-range-0e12e052-01304))_
+**Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01304))_
 
 > How about the squares of the first five odd numbers? We'll need an iterator that produces odd numbers. We can write that directly:
 
-**Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01303))_
+**Atom:** _(javascriptallonge.pdf (source-range-c98ab3e6-01303))_
 
-<a id="atom-technical-atom-f28b1a77d2c0e6d7"></a>
+<a id="atom-technical-atom-2c7a9b859d2ccfeb"></a>
 ```
 const take = (iterator, numberToTake) => {
 let count = 0;
@@ -889,26 +889,26 @@ toArray(take(squares, 5))
 
 ### Technical frame 28: Copy on Write / Functional Iterators / unfolding and laziness
 
-**Context:** _(javascriptallonge.pdf (source-range-0e12e052-01309))_
+**Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01309))_
 
 > Mapping and filtering iterators allows us to compose the parts we already have, rather than writing a tricky bit of code with ifs and whiles and boundary conditions.
 
-**Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01305))_
+**Atom:** _(javascriptallonge.pdf (source-range-c98ab3e6-01305))_
 
-<a id="atom-technical-atom-7adc89bbb45aec36"></a>
+<a id="atom-technical-atom-49ced4e2cd5e2ff5"></a>
 ```
 const odds = () => {
 ```
 
 ### Technical frame 29: Copy on Write / Functional Iterators / unfolding and laziness
 
-**Context:** _(javascriptallonge.pdf (source-range-0e12e052-01309))_
+**Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01309))_
 
 > Mapping and filtering iterators allows us to compose the parts we already have, rather than writing a tricky bit of code with ifs and whiles and boundary conditions.
 
-**Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01306))_
+**Atom:** _(javascriptallonge.pdf (source-range-c98ab3e6-01306))_
 
-<a id="atom-technical-atom-d8db762dae8a0974"></a>
+<a id="atom-technical-atom-5d5cf32321078057"></a>
 ```
 let number = 1;
 return () => {
@@ -924,13 +924,13 @@ toArray(take(squareOf(odds()), 5))
 
 ### Technical frame 30: Copy on Write / Functional Iterators / unfolding and laziness
 
-**Context:** _(javascriptallonge.pdf (source-range-0e12e052-01309))_
+**Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01309))_
 
 > Mapping and filtering iterators allows us to compose the parts we already have, rather than writing a tricky bit of code with ifs and whiles and boundary conditions.
 
-**Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01308))_
+**Atom:** _(javascriptallonge.pdf (source-range-c98ab3e6-01308))_
 
-<a id="atom-technical-atom-921c472cdded54e5"></a>
+<a id="atom-technical-atom-bed6fae2f13c342d"></a>
 ```
 const filterIteratorWith = (fn, iterator) =>
 () => {
@@ -946,13 +946,13 @@ toArray(take(squareOf(oddsOf(NumberIterator(1))), 5))
 
 ### Technical frame 31: Copy on Write / Functional Iterators / bonus
 
-**Context:** _(javascriptallonge.pdf (source-range-0e12e052-01314))_
+**Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01314))_
 
 > This is interesting, because it is lazy: It doesn't apply fn to every element in an iteration, just enough to find the first that passes the test. Whereas if we wrote something like:
 
-**Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01313))_
+**Atom:** _(javascriptallonge.pdf (source-range-c98ab3e6-01313))_
 
-<a id="atom-technical-atom-4befcf9fdb3ad196"></a>
+<a id="atom-technical-atom-cabc945d7488f343"></a>
 ```
 const firstInIteration = (fn, iterator) =>
 take(filterIteratorWith(fn, iterator), 1);
@@ -960,13 +960,13 @@ take(filterIteratorWith(fn, iterator), 1);
 
 ### Technical frame 32: Copy on Write / Functional Iterators / bonus
 
-**Context:** _(javascriptallonge.pdf (source-range-0e12e052-01316))_
+**Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01316))_
 
 > JavaScript would apply fn to every element. If array was very large, and fn very slow, this would consume a lot of unnecessary time. And if fn had some sort of side-effect, the program could be buggy.
 
-**Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01315))_
+**Atom:** _(javascriptallonge.pdf (source-range-c98ab3e6-01315))_
 
-<a id="atom-technical-atom-8cc7c05afa7a0aff"></a>
+<a id="atom-technical-atom-60b89d772fd1145f"></a>
 ```
 const firstInArray = (fn, array) =>
 array.filter(fn)[0];
@@ -974,13 +974,13 @@ array.filter(fn)[0];
 
 ### Technical frame 33: Copy on Write / Making Data Out Of Functions
 
-**Context:** _(javascriptallonge.pdf (source-range-0e12e052-01325))_
+**Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01325))_
 
 > A very long time ago, mathematicians like Alonzo Church, Moses Schönfinkel, Alan Turning, and Haskell Curry and asked themselves if we really needed all these features to perform computations. They searched for a radically simpler set of tools that could accomplish all of the same things.
 
-**Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01324))_
+**Atom:** _(javascriptallonge.pdf (source-range-c98ab3e6-01324))_
 
-<a id="atom-technical-atom-07148a923c2b2af4"></a>
+<a id="atom-technical-atom-304f2c8db444031a"></a>
 ```
 const EMPTY = {};
 const OneTwoThree = { first: 1, rest: { first: 2, rest: { first: 3, rest: EMPTY \
@@ -1001,13 +1001,13 @@ length(OneTwoThree)
 
 ### Technical frame 34: Copy on Write / Making Data Out Of Functions
 
-**Context:** _(javascriptallonge.pdf (source-range-0e12e052-01326))_
+**Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01326))_
 
 > They established that arbitrary computations could be represented a small set of axiomatic components. For example, we don't need arrays to represent lists, or even POJOs to represent nodes in a linked list. We can model lists just using functions.
 
-**Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01330))_
+**Atom:** _(javascriptallonge.pdf (source-range-c98ab3e6-01330))_
 
-<a id="atom-technical-atom-57cdb7ea2b16e63b"></a>
+<a id="atom-technical-atom-29d69ea34d7d4dc8"></a>
 ```text
 76 http://www.amazon.com/gp/product/0192801422/ref=as_li_ss_tl?ie=UTF8&tag=raganwald001-20&linkCode=as2&camp=1789&creative= 390957&creativeASIN=0192801422
 77 http://oscin.es
@@ -1025,13 +1025,13 @@ length(OneTwoThree)
 
 ### Technical frame 35: Copy on Write / Making Data Out Of Functions
 
-**Context:** _(javascriptallonge.pdf (source-range-0e12e052-01328))_
+**Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01328))_
 
 > The oscin.es 77 library contains code for all of the standard combinators and for experimenting using the standard notation.
 
-**Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01331))_
+**Atom:** _(javascriptallonge.pdf (source-range-c98ab3e6-01331))_
 
-<a id="atom-technical-atom-2ef931b2b0dbc278"></a>
+<a id="atom-technical-atom-f4a95334dc3815fd"></a>
 ```
 const K = (x) => (y) => x;
 const I = (x) => (x);
@@ -1040,13 +1040,13 @@ const V = (x) => (y) => (z) => z(x)(y);
 
 ### Technical frame 36: Copy on Write / Making Data Out Of Functions / the kestrel and the idiot
 
-**Context:** _(javascriptallonge.pdf (source-range-0e12e052-01336))_
+**Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01336))_
 
 > The identity function is a function that evaluates to whatever parameter you pass it. So I(42) => 42 . Very simple, but useful. Now we'll take it one more step forward: Passing a value to K gets a function back, and passing a value to that function gets us a value.
 
-**Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01335))_
+**Atom:** _(javascriptallonge.pdf (source-range-c98ab3e6-01335))_
 
-<a id="atom-technical-atom-f9f9877805aad860"></a>
+<a id="atom-technical-atom-ab6698d36111e830"></a>
 ```
 const K = (x) => (y) => x;
 const fortyTwo = K(42);
@@ -1058,13 +1058,13 @@ fortyTwo("Hello")
 
 ### Technical frame 37: Copy on Write / Making Data Out Of Functions / the kestrel and the idiot
 
-**Context:** _(javascriptallonge.pdf (source-range-0e12e052-01339))_
+**Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01339))_
 
 > This is very interesting. Given two values, we can say that K always returns the first value: K(x)(y) => x (that's not valid JavaScript, but it's essentially how it works).
 
-**Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01338))_
+**Atom:** _(javascriptallonge.pdf (source-range-c98ab3e6-01338))_
 
-<a id="atom-technical-atom-67a0d732081662ca"></a>
+<a id="atom-technical-atom-8c8799b31d2b7bcc"></a>
 ```
 K(6)(7)
 //=> 6
@@ -1074,26 +1074,26 @@ K(12)(24)
 
 ### Technical frame 38: Copy on Write / Making Data Out Of Functions / the kestrel and the idiot
 
-**Context:** _(javascriptallonge.pdf (source-range-0e12e052-01347))_
+**Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01347))_
 
 > This is very interesting. Given two values, we can say that K always returns the first value, and given two values, K(I) always returns the second value.
 
-**Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01341))_
+**Atom:** _(javascriptallonge.pdf (source-range-c98ab3e6-01341))_
 
-<a id="atom-technical-atom-e4bdac6f60a9bebc"></a>
+<a id="atom-technical-atom-69cb27f3d94c43c2"></a>
 ```
 Therefore, K(I)(x)(y) => y:
 ```
 
 ### Technical frame 39: Copy on Write / Making Data Out Of Functions / the kestrel and the idiot
 
-**Context:** _(javascriptallonge.pdf (source-range-0e12e052-01347))_
+**Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01347))_
 
 > This is very interesting. Given two values, we can say that K always returns the first value, and given two values, K(I) always returns the second value.
 
-**Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01342))_
+**Atom:** _(javascriptallonge.pdf (source-range-c98ab3e6-01342))_
 
-<a id="atom-technical-atom-e55c85ff4063e0f7"></a>
+<a id="atom-technical-atom-fb651819c6f30c6d"></a>
 ```
 K(I)(6)(7)
 //=> 7
@@ -1103,13 +1103,13 @@ K(I)(12)(24)
 
 ### Technical frame 40: Copy on Write / Making Data Out Of Functions / the kestrel and the idiot
 
-**Context:** _(javascriptallonge.pdf (source-range-0e12e052-01347))_
+**Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01347))_
 
 > This is very interesting. Given two values, we can say that K always returns the first value, and given two values, K(I) always returns the second value.
 
-**Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01344))_
+**Atom:** _(javascriptallonge.pdf (source-range-c98ab3e6-01344))_
 
-<a id="atom-technical-atom-b494eff1e2dca526"></a>
+<a id="atom-technical-atom-38659fa73af820a5"></a>
 ```
 K("primus")("secundus")
 //=> "primus"
@@ -1119,13 +1119,13 @@ K(I)("primus")("secundus")
 
 ### Technical frame 41: Copy on Write / Making Data Out Of Functions / the kestrel and the idiot
 
-**Context:** _(javascriptallonge.pdf (source-range-0e12e052-01347))_
+**Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01347))_
 
 > This is very interesting. Given two values, we can say that K always returns the first value, and given two values, K(I) always returns the second value.
 
-**Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01346))_
+**Atom:** _(javascriptallonge.pdf (source-range-c98ab3e6-01346))_
 
-<a id="atom-technical-atom-8871a2c75ac3c4da"></a>
+<a id="atom-technical-atom-50458ddceab669bb"></a>
 ```
 const first = K,
 second = K(I);
@@ -1137,13 +1137,13 @@ second("primus")("secundus")
 
 ### Technical frame 42: Copy on Write / Making Data Out Of Functions / backwardness
 
-**Context:** _(javascriptallonge.pdf (source-range-0e12e052-01353))_
+**Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01353))_
 
 > In both cases, the functions first and second know how the data is represented, whether it be an array or an object. You pass the data to these functions, and they extract it.
 
-**Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01350))_
+**Atom:** _(javascriptallonge.pdf (source-range-c98ab3e6-01350))_
 
-<a id="atom-technical-atom-05532f0c19b3ce5b"></a>
+<a id="atom-technical-atom-bac62292489a9eea"></a>
 ```
 const first = ([first, second]) => first,
 second = ([first, second]) => second;
@@ -1156,13 +1156,13 @@ second(latin)
 
 ### Technical frame 43: Copy on Write / Making Data Out Of Functions / backwardness
 
-**Context:** _(javascriptallonge.pdf (source-range-0e12e052-01353))_
+**Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01353))_
 
 > In both cases, the functions first and second know how the data is represented, whether it be an array or an object. You pass the data to these functions, and they extract it.
 
-**Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01352))_
+**Atom:** _(javascriptallonge.pdf (source-range-c98ab3e6-01352))_
 
-<a id="atom-technical-atom-e90b2fae7eea36a8"></a>
+<a id="atom-technical-atom-6de2f712f128052e"></a>
 ```
 const first = ({first, second}) => first,
 second = ({first, second}) => second;
@@ -1175,13 +1175,13 @@ second(latin)
 
 ### Technical frame 44: Copy on Write / Making Data Out Of Functions / backwardness
 
-**Context:** _(javascriptallonge.pdf (source-range-0e12e052-01357))_
+**Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01357))_
 
 > Our latin data structure is no longer a dumb data structure, it's a function. And instead of passing latin to first or second , we pass first or second to latin . It's exactly backwards of the way we write functions that operate on data.
 
-**Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01356))_
+**Atom:** _(javascriptallonge.pdf (source-range-c98ab3e6-01356))_
 
-<a id="atom-technical-atom-7e75bd95ad51e161"></a>
+<a id="atom-technical-atom-1a073c03678e3b8b"></a>
 ```
 const first = K,
 second = K(I);
@@ -1194,39 +1194,39 @@ latin(second)
 
 ### Technical frame 45: Copy on Write / Making Data Out Of Functions / the vireo
 
-**Context:** _(javascriptallonge.pdf (source-range-0e12e052-01362))_
+**Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01362))_
 
 > For consistency with the way combinators are written as functions taking just one parameter, we'll curry 78 the function:
 
-**Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01361))_
+**Atom:** _(javascriptallonge.pdf (source-range-c98ab3e6-01361))_
 
-<a id="atom-technical-atom-2a6b147bd13e773b"></a>
+<a id="atom-technical-atom-630bdbff0d9e82ad"></a>
 ```
 (first, second) => (selector) => selector(first)(second)
 ```
 
 ### Technical frame 46: Copy on Write / Making Data Out Of Functions / the vireo
 
-**Context:** _(javascriptallonge.pdf (source-range-0e12e052-01369))_
+**Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01369))_
 
 > As an aside, the Vireo is a little like JavaScript's .apply function. It says, 'take these two values and apply them to this function.' There are other, similar combinators that apply values to functions. One notable example is the 'thrush' or T combinator: It takes one value and applies it to a function. It is known to most programmers as .tap .
 
-**Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01363))_
+**Atom:** _(javascriptallonge.pdf (source-range-c98ab3e6-01363))_
 
-<a id="atom-technical-atom-820a5b99b6707dae"></a>
+<a id="atom-technical-atom-fb7e9aaaefbc51f6"></a>
 ```
 (first) => (second) => (selector) => selector(first)(second)
 ```
 
 ### Technical frame 47: Copy on Write / Making Data Out Of Functions / the vireo
 
-**Context:** _(javascriptallonge.pdf (source-range-0e12e052-01369))_
+**Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01369))_
 
 > As an aside, the Vireo is a little like JavaScript's .apply function. It says, 'take these two values and apply them to this function.' There are other, similar combinators that apply values to functions. One notable example is the 'thrush' or T combinator: It takes one value and applies it to a function. It is known to most programmers as .tap .
 
-**Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01365))_
+**Atom:** _(javascriptallonge.pdf (source-range-c98ab3e6-01365))_
 
-<a id="atom-technical-atom-90a08a2d5bc3ce00"></a>
+<a id="atom-technical-atom-8225ea59ca76dd28"></a>
 ```
 const first = K,
 second = K(I),
@@ -1240,24 +1240,24 @@ latin(second)
 
 ### Technical frame 48: Copy on Write / Making Data Out Of Functions / the vireo
 
-**Context:** _(javascriptallonge.pdf (source-range-0e12e052-01369))_
+**Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01369))_
 
 > As an aside, the Vireo is a little like JavaScript's .apply function. It says, 'take these two values and apply them to this function.' There are other, similar combinators that apply values to functions. One notable example is the 'thrush' or T combinator: It takes one value and applies it to a function. It is known to most programmers as .tap .
 
-**Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01366))_
+**Atom:** _(javascriptallonge.pdf (source-range-c98ab3e6-01366))_
 
-<a id="atom-technical-atom-c2c35023a60a3182"></a>
+<a id="atom-technical-atom-16863b38285f48b1"></a>
 > If we change the names to x , y , and z , we get: (x) => (y) => (z) => z(x)(y) .
 
 ### Technical frame 49: Copy on Write / Making Data Out Of Functions / the vireo
 
-**Context:** _(javascriptallonge.pdf (source-range-0e12e052-01369))_
+**Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01369))_
 
 > As an aside, the Vireo is a little like JavaScript's .apply function. It says, 'take these two values and apply them to this function.' There are other, similar combinators that apply values to functions. One notable example is the 'thrush' or T combinator: It takes one value and applies it to a function. It is known to most programmers as .tap .
 
-**Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01368))_
+**Atom:** _(javascriptallonge.pdf (source-range-c98ab3e6-01368))_
 
-<a id="atom-technical-atom-ddb1d9072402c49c"></a>
+<a id="atom-technical-atom-ecde8194de9ab8e8"></a>
 ```
 const first = K,
 second = K(I),
@@ -1271,13 +1271,13 @@ latin(second)
 
 ### Technical frame 50: Copy on Write / Making Data Out Of Functions / lists with functions as data
 
-**Context:** _(javascriptallonge.pdf (source-range-0e12e052-01380))_
+**Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01380))_
 
 > Presto, we can use pure functions to represent a linked list . And with care, we can do amazing things like use functions to represent numbers, build more complex data structures like trees, and in fact, anything that can be computed can be computed using just functions and nothing else.
 
-**Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01373))_
+**Atom:** _(javascriptallonge.pdf (source-range-c98ab3e6-01373))_
 
-<a id="atom-technical-atom-be4667f4576edd9e"></a>
+<a id="atom-technical-atom-c77316464d1b23f0"></a>
 ```
 const first = ({first, rest}) => first,
 rest
@@ -1295,13 +1295,13 @@ first(rest(rest(l123)))
 
 ### Technical frame 51: Copy on Write / Making Data Out Of Functions / lists with functions as data
 
-**Context:** _(javascriptallonge.pdf (source-range-0e12e052-01380))_
+**Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01380))_
 
 > Presto, we can use pure functions to represent a linked list . And with care, we can do amazing things like use functions to represent numbers, build more complex data structures like trees, and in fact, anything that can be computed can be computed using just functions and nothing else.
 
-**Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01375))_
+**Atom:** _(javascriptallonge.pdf (source-range-c98ab3e6-01375))_
 
-<a id="atom-technical-atom-2ea4405a4bc43a2c"></a>
+<a id="atom-technical-atom-dc3b6469f6f2ad7d"></a>
 ```
 const length = (aPair) =>
 aPair === EMPTY
@@ -1335,13 +1335,13 @@ const l123 = pair(1)(pair(2)(pair(3)(EMPTY)));
 
 ### Technical frame 52: Copy on Write / Making Data Out Of Functions / lists with functions as data
 
-**Context:** _(javascriptallonge.pdf (source-range-0e12e052-01380))_
+**Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01380))_
 
 > Presto, we can use pure functions to represent a linked list . And with care, we can do amazing things like use functions to represent numbers, build more complex data structures like trees, and in fact, anything that can be computed can be computed using just functions and nothing else.
 
-**Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01376))_
+**Atom:** _(javascriptallonge.pdf (source-range-c98ab3e6-01376))_
 
-<a id="atom-technical-atom-68d4fd56d2eb827e"></a>
+<a id="atom-technical-atom-f6937b726b4d8c92"></a>
 ```
 rest
 = K(I),
@@ -1355,13 +1355,13 @@ l123(rest)(first)
 
 ### Technical frame 53: Copy on Write / Making Data Out Of Functions / lists with functions as data
 
-**Context:** _(javascriptallonge.pdf (source-range-0e12e052-01380))_
+**Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01380))_
 
 > Presto, we can use pure functions to represent a linked list . And with care, we can do amazing things like use functions to represent numbers, build more complex data structures like trees, and in fact, anything that can be computed can be computed using just functions and nothing else.
 
-**Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01377))_
+**Atom:** _(javascriptallonge.pdf (source-range-c98ab3e6-01377))_
 
-<a id="atom-technical-atom-48d90dfc9ff9b36d"></a>
+<a id="atom-technical-atom-1dae8b6bd03bed67"></a>
 ```
 //=> 2
 return l123(rest)(rest)(first)
@@ -1371,13 +1371,13 @@ We write them in a backwards way, but they seem to work. How about
 
 ### Technical frame 54: Copy on Write / Making Data Out Of Functions / lists with functions as data
 
-**Context:** _(javascriptallonge.pdf (source-range-0e12e052-01380))_
+**Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01380))_
 
 > Presto, we can use pure functions to represent a linked list . And with care, we can do amazing things like use functions to represent numbers, build more complex data structures like trees, and in fact, anything that can be computed can be computed using just functions and nothing else.
 
-**Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01379))_
+**Atom:** _(javascriptallonge.pdf (source-range-c98ab3e6-01379))_
 
-<a id="atom-technical-atom-fc8603101a93ed1b"></a>
+<a id="atom-technical-atom-f29467c489a13df8"></a>
 ```
 const length = (aPair) =>
 aPair === EMPTY
@@ -1405,13 +1405,13 @@ doubled(rest)(rest)(first)
 
 ### Technical frame 55: Copy on Write / Making Data Out Of Functions / say 'please'
 
-**Context:** _(javascriptallonge.pdf (source-range-0e12e052-01389))_
+**Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01389))_
 
 > Now we'll need to write first and rest functions for a list, and those names will collide with the first and rest we wrote for pairs. So let's disambiguate our names:
 
-**Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01386))_
+**Atom:** _(javascriptallonge.pdf (source-range-c98ab3e6-01386))_
 
-<a id="atom-technical-atom-2afeadb610200cc6"></a>
+<a id="atom-technical-atom-0c07a2635a6f11f4"></a>
 ```
 const length = (aPair) =>
 aPair === EMPTY
@@ -1421,13 +1421,13 @@ aPair === EMPTY
 
 ### Technical frame 56: Copy on Write / Making Data Out Of Functions / say 'please'
 
-**Context:** _(javascriptallonge.pdf (source-range-0e12e052-01389))_
+**Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01389))_
 
 > Now we'll need to write first and rest functions for a list, and those names will collide with the first and rest we wrote for pairs. So let's disambiguate our names:
 
-**Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01388))_
+**Atom:** _(javascriptallonge.pdf (source-range-c98ab3e6-01388))_
 
-<a id="atom-technical-atom-0c0414bf19714ec5"></a>
+<a id="atom-technical-atom-bf5c1febc57d0fbc"></a>
 ```
 const length = (list) => list(
 () => 0,
@@ -1437,13 +1437,13 @@ const length = (list) => list(
 
 ### Technical frame 57: Copy on Write / Making Data Out Of Functions / say 'please'
 
-**Context:** _(javascriptallonge.pdf (source-range-0e12e052-01392))_
+**Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01392))_
 
 > We can write reverse and mapWith as well. We aren't being super-strict about emulating combinatory logic, we'll use default parameters:
 
-**Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01390))_
+**Atom:** _(javascriptallonge.pdf (source-range-c98ab3e6-01390))_
 
-<a id="atom-technical-atom-b146e2d7690f1eaa"></a>
+<a id="atom-technical-atom-14e3bc08c96b5a1b"></a>
 ```
 const pairFirst = K,
 pairRest
@@ -1458,13 +1458,13 @@ const rest = (list) => list(
 
 ### Technical frame 58: Copy on Write / Making Data Out Of Functions / say 'please'
 
-**Context:** _(javascriptallonge.pdf (source-range-0e12e052-01392))_
+**Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01392))_
 
 > We can write reverse and mapWith as well. We aren't being super-strict about emulating combinatory logic, we'll use default parameters:
 
-**Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01391))_
+**Atom:** _(javascriptallonge.pdf (source-range-c98ab3e6-01391))_
 
-<a id="atom-technical-atom-4dc2a4525a7055f2"></a>
+<a id="atom-technical-atom-91c65c5a54284e99"></a>
 ```
 () => "ERROR: Can't take first of an empty list",
 (aPair) => aPair(pairRest)
@@ -1491,13 +1491,13 @@ print(l123)
 
 ### Technical frame 59: Copy on Write / Making Data Out Of Functions / say 'please'
 
-**Context:** _(javascriptallonge.pdf (source-range-0e12e052-01394))_
+**Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01394))_
 
 > We have managed to provide the exact same functionality that === and ?: provided, but using functions and nothing else.
 
-**Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01393))_
+**Atom:** _(javascriptallonge.pdf (source-range-c98ab3e6-01393))_
 
-<a id="atom-technical-atom-f44f347835096da1"></a>
+<a id="atom-technical-atom-9456cbb98427e7d8"></a>
 ```
 const reverse = (list, delayed = EMPTYLIST) => list(
 () => delayed,
@@ -1516,13 +1516,13 @@ print(mapWith(x => x * x, reverse(l123)))
 
 ### Technical frame 60: Copy on Write / Making Data Out Of Functions / functions are not the real point
 
-**Context:** _(javascriptallonge.pdf (source-range-0e12e052-01400))_
+**Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01400))_
 
 > Knowing how to make a list out of just functions is a little like knowing that photons are the Gauge Bosons 81 of the electromagnetic force. It's the QED of physics that underpins the Maxwell's Equations of programming. Deeply important, but not practical when you're building a bridge.
 
-**Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01401))_
+**Atom:** _(javascriptallonge.pdf (source-range-c98ab3e6-01401))_
 
-<a id="atom-technical-atom-e05b4d965ecfffbd"></a>
+<a id="atom-technical-atom-165f79a76d58718b"></a>
 ```text
 79 https://en.wikipedia.org/wiki/Church_encoding
 81 https://en.wikipedia.org/wiki/Gauge_boson
@@ -1542,13 +1542,13 @@ print(mapWith(x => x * x, reverse(l123)))
 
 ### Technical frame 61: Copy on Write / Making Data Out Of Functions / a return to backward thinking
 
-**Context:** _(javascriptallonge.pdf (source-range-0e12e052-01408))_
+**Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01408))_
 
 > This is a little gratuitous, but it makes the point: The code that uses the data doesn't reach in and touch it: The code that uses the data provides some code and asks the data to do something with it.
 
-**Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01407))_
+**Atom:** _(javascriptallonge.pdf (source-range-c98ab3e6-01407))_
 
-<a id="atom-technical-atom-246b9710702b0c68"></a>
+<a id="atom-technical-atom-80488f7bb234736a"></a>
 ```
 const first = K,
 second = K(I),
@@ -1565,13 +1565,13 @@ latin(second)
 
 ### Technical frame 62: Copy on Write / Making Data Out Of Functions / a return to backward thinking
 
-**Context:** _(javascriptallonge.pdf (source-range-0e12e052-01411))_
+**Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01411))_
 
 > We're passing list what we want done with an empty list, and what we want done with a list that has at least one element. We then ask list to do it, and provide a way for list to call the code we pass in.
 
-**Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01410))_
+**Atom:** _(javascriptallonge.pdf (source-range-c98ab3e6-01410))_
 
-<a id="atom-technical-atom-009c927d23932a6d"></a>
+<a id="atom-technical-atom-6440e9e68e9c8559"></a>
 ```
 const length = (list) => list(
 () => 0,
@@ -1581,13 +1581,13 @@ const length = (list) => list(
 
 ### Technical frame 63: Copy on Write / Making Data Out Of Functions / a return to backward thinking
 
-**Context:** _(javascriptallonge.pdf (source-range-0e12e052-01414))_
+**Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01414))_
 
 > The line node === EMPTY presumes a lot of things. It presumes there is one canonical empty list value. It presumes you can compare these things with the === operator. We can fix this with an isEmpty function, but now we're pushing even more knowledge about the structure of lists into the code that uses them.
 
-**Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01413))_
+**Atom:** _(javascriptallonge.pdf (source-range-c98ab3e6-01413))_
 
-<a id="atom-technical-atom-4491629ebdd4c91e"></a>
+<a id="atom-technical-atom-92ea57a82dc4cf64"></a>
 ```
 const length = (node, delayed = 0) =>
 node === EMPTY
@@ -1600,8 +1600,8 @@ node === EMPTY
 
 ### Source structure
 
-- [[javascriptallonge-section-copy-on-write-ea36c891]] - source section: Copy on Write shares source evidence from Copy on Write: We've seen how to build lists with arrays and with linked lists. We've touched on an important difference between them:; Copy on Write shares technical record from Copy on Write: The consequence of this is that if you have an array, and you take it's 'rest,' your 'child' array is a copy of the elements of the parent array. (120 shared statement(s), 63 shared atom(s))
-- [[javascriptallonge-section-copy-on-write-a-few-utilities-copy-on-write-09152c57]] - source section: Copy on Write / a few utilities / copy-on-write shares source evidence from Copy on Write / a few utilities / copy-on-write: But our new parent and child lists are copies that contain the desired modifications, without interfering with each other:; Copy on Write / a few utilities / copy-on-write shares technical record from Copy on Write / a few utilities / copy-on-write: const rest = ({first, rest}) => rest; const set = (index, value, list) => index === 0 ? { first: value, rest: list.rest } : { first: list.first, rest: set(index - 1, ... [truncated] (7 shared statement(s), 3 shared atom(s))
+- [[javascriptallonge-section-copy-on-write-5c8d94ae]] - source section: Copy on Write shares source evidence from Copy on Write: We've seen how to build lists with arrays and with linked lists. We've touched on an important difference between them:; Copy on Write shares technical record from Copy on Write: The consequence of this is that if you have an array, and you take it's 'rest,' your 'child' array is a copy of the elements of the parent array. (120 shared statement(s), 63 shared atom(s))
+- [[javascriptallonge-section-copy-on-write-a-few-utilities-copy-on-write-0ef13d1c]] - source section: Copy on Write / a few utilities / copy-on-write shares source evidence from Copy on Write / a few utilities / copy-on-write: But our new parent and child lists are copies that contain the desired modifications, without interfering with each other:; Copy on Write / a few utilities / copy-on-write shares technical record from Copy on Write / a few utilities / copy-on-write: const rest = ({first, rest}) => rest; const set = (index, value, list) => index === 0 ? { first: value, rest: list.rest } : { first: list.first, rest: set(index - 1, ... [truncated] (7 shared statement(s), 3 shared atom(s))
 
 ### Shared technical atoms
 

@@ -4,10 +4,10 @@ page_kind: concept
 summary: 【 Bonus Damage 】: 57 statement(s) and 8 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: broad-topic
 sources: raw/Sword World RPG - Complete Edition.pdf
-updated: 2026-07-02
+updated: 2026-07-06
 domain: sword-world-rpg-complete-edition
 category_path: concepts
-projection_coverage: topic-sword-world-rpg-complete-edition-bonus-damage@dcdb6757afccc305fdc4a7c2e4e915c3
+projection_coverage: topic-sword-world-rpg-complete-edition-bonus-damage@6cfb7c9b182a1af60775ae96fb9b10f6
 ---
 
 # 【 Bonus Damage 】
@@ -18,207 +18,207 @@ What [[sword-world-rpg-complete-edition]] covers about 【 bonus damage 】:
 
 ### Chapter 3: / 3.4.4 Actions You Can Take While Standing Still / Scores Used in Weapon Combat
 
-- Attack power , strike power , bonus damage , critical target , evasion speed , defense power , and damage reduction . _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-01205))_
+- Attack power , strike power , bonus damage , critical target , evasion speed , defense power , and damage reduction . _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01205))_
 
 ### Chapter 3: / 3.4.4 Actions You Can Take While Standing Still / Scores Used in Weapon Combat / 【 Bonus Damage 】
 
-- Characters with deep experience in combat can handle weapons effectively. In addition, characters with high strength can wield weapons more powerfully. These characters can deal more damage to their foes, even when using the same sized weapon. This is represented by bonus damage . _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-01217))_
+- Characters with deep experience in combat can handle weapons effectively. In addition, characters with high strength can wield weapons more powerfully. These characters can deal more damage to their foes, even when using the same sized weapon. This is represented by bonus damage . _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01217))_
 
-- If fighter (or thief, ranger) skill level is 0 , bonus damage is 0 regardless of the character's strength bonus. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-01220))_
+- If fighter (or thief, ranger) skill level is 0 , bonus damage is 0 regardless of the character's strength bonus. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01220))_
 
 ### Chapter 3: / 3.4.4 Actions You Can Take While Standing Still / Scores Used in Weapon Combat / Filling out the Character Sheet
 
-- The entry fields may seem complicated, but this is to assist you when using Chapter 16: Optional Rules for Combat (see p. 260). Now, don't worry about it too much. It is sufficient to write down each weapon, shield, and armor along with their required strength, as well as attack power, strike power, critical target, bonus damage, evasion speed, defense power, and damage reduction in the total field at the bottom. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-01244))_
+- The entry fields may seem complicated, but this is to assist you when using Chapter 16: Optional Rules for Combat (see p. 260). Now, don't worry about it too much. It is sufficient to write down each weapon, shield, and armor along with their required strength, as well as attack power, strike power, critical target, bonus damage, evasion speed, defense power, and damage reduction in the total field at the bottom. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01244))_
 
 ### 4.5.2 Determining Base Damage (Strike Roll)
 
-- Damage calculation takes three steps: ① Determine base damage , ② Add bonus damage , and ③ Subtract the monster's defense points . _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-01267))_
+- Damage calculation takes three steps: ① Determine base damage , ② Add bonus damage , and ③ Subtract the monster's defense points . _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01267))_
 
 ### 4.5.3 Bonus Damage
 
-- Once you've determined base damage, you must then add your character's bonus damage. This will be the total amount of damage the character deals the monster. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-01292))_
+- Once you've determined base damage, you must then add your character's bonus damage. This will be the total amount of damage the character deals the monster. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01292))_
 
-- Ducard II's bonus damage is 4 (fighter skill level 2, strength bonus 2). _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-01294))_
+- Ducard II's bonus damage is 4 (fighter skill level 2, strength bonus 2). _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01294))_
 
-- When determining base damage (strike roll), if you suddenly roll double ones, the damage will always be 0 . No matter how much bonus damage you have, it means nothing. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-01298))_
+- When determining base damage (strike roll), if you suddenly roll double ones, the damage will always be 0 . No matter how much bonus damage you have, it means nothing. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01298))_
 
 ### 4.7 Attacks From Characters Against Characters / 4.7.2 Damage Checks
 
-- Bucky then determines the damage he deals. Bucky is wielding a battle-ax (required strength 15) with both hands, so he has a strike power of 20 . The result of his strike roll is 11 (base damage 9 ). That's a critical . His following 2D roll is 9 (base damage 7 ). His bonus damage is 5 (fighter skill level 3, strength bonus +2), which brings the total amount of damage to 9+7+5= 21 . _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-01386))_
+- Bucky then determines the damage he deals. Bucky is wielding a battle-ax (required strength 15) with both hands, so he has a strike power of 20 . The result of his strike roll is 11 (base damage 9 ). That's a critical . His following 2D roll is 9 (base damage 7 ). His bonus damage is 5 (fighter skill level 3, strength bonus +2), which brings the total amount of damage to 9+7+5= 21 . _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01386))_
 
 ### 4.10 Excellent Weapons and Armor / 4.10.3 Magical Weapons and Armor / 【 Magical Weapons 】
 
-- Magical weapons have exceptional attack power and bonus damage . If you use a +1 magical weapon, you receive a +1 bonus to attack power and bonus damage. If +2, those bonuses are +2, and if +3, they're +3. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-01483))_
+- Magical weapons have exceptional attack power and bonus damage . If you use a +1 magical weapon, you receive a +1 bonus to attack power and bonus damage. If +2, those bonuses are +2, and if +3, they're +3. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01483))_
 
 ### 4.10 Excellent Weapons and Armor / 4.10.4 Mithril Silver Weapons and Armor
 
-- Mithril silver weapons and armor are always magical items and, like magical weapons and armor, have a power of +1 or +2. This power affects attack power, evasion speed, bonus damage, and damage reduction. The maximum power is +3. No one has yet discovered anything with a power of +4 or higher. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-01496))_
+- Mithril silver weapons and armor are always magical items and, like magical weapons and armor, have a power of +1 or +2. This power affects attack power, evasion speed, bonus damage, and damage reduction. The maximum power is +3. No one has yet discovered anything with a power of +4 or higher. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01496))_
 
 ### 《 Damage 》
 
-- In either case, the caster's magic power can be added as bonus damage to the result of the strike roll. Also, the target's adventurer level (or the monster's monster level) is subtracted from the damage. However, there's an exception if you roll double ones during your strike roll. In this case, no matter how much magic power your character (monster) has, they cannot deal damage to the target at all. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-01748))_
+- In either case, the caster's magic power can be added as bonus damage to the result of the strike roll. Also, the target's adventurer level (or the monster's monster level) is subtracted from the damage. However, there's an exception if you roll double ones during your strike roll. In this case, no matter how much magic power your character (monster) has, they cannot deal damage to the target at all. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01748))_
 
 ### 5.1.14 Spirit Magic List / 5th Level Spirit Magic List [ Control Plant ] / [ Shoot Arrow ] (Sylph/Wind Spirit)
 
-- Type=Counters (Negates): Missile Protection Expansion=Distance, targets Resist=None When you cast this spell, the caster's arrow will be carried by a sylph, ensuring that it hits the target. The strike power of the arrow is a uniform 20, the magic power of the caster is used as bonus damage. Also, if you roll 10 or greater on your damage check, a critical will occur. The target cannot resist this spell. However, armor protection is effective. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-03107))_
+- Type=Counters (Negates): Missile Protection Expansion=Distance, targets Resist=None When you cast this spell, the caster's arrow will be carried by a sylph, ensuring that it hits the target. The strike power of the arrow is a uniform 20, the magic power of the caster is used as bonus damage. Also, if you roll 10 or greater on your damage check, a critical will occur. The target cannot resist this spell. However, armor protection is effective. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-03107))_
 
 ### Chapter 6: / 6.3 Ranger Skill / [ ⑫ Projectile Use [Dexterity, Strength] ] (No equipment restriction)
 
-- The ranger skill is treated the same as the fighter skill (attack power, bonus damage modifiers) only when attacking with projectiles. You can use any projectile as long as your strength allows it. The ranger skill is not relevant to the use of or defense from melee weapons. Adventurers attack with the ranger skill and defend with the fighter or thief skill. When using the thief skill for defense, you must be lightly armed (required strength of weapons and armor must be half your own strength or less). _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-04108))_
+- The ranger skill is treated the same as the fighter skill (attack power, bonus damage modifiers) only when attacking with projectiles. You can use any projectile as long as your strength allows it. The ranger skill is not relevant to the use of or defense from melee weapons. Adventurers attack with the ranger skill and defend with the fighter or thief skill. When using the thief skill for defense, you must be lightly armed (required strength of weapons and armor must be half your own strength or less). _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-04108))_
 
 ### Chapter 6: / Common Adventurer Abilities / [ ④ Climb [Agility] ]
 
-- A thief with thief skill level 3 and dexterity bonus +2 can fall from a height of 5 meters or less without suffering any damage. If you fall from a height of 6 _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-04270))_
+- A thief with thief skill level 3 and dexterity bonus +2 can fall from a height of 5 meters or less without suffering any damage. If you fall from a height of 6 _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-04270))_
 
 ### Chapter 11: Notes on Magic / 11.2 Dark Magic / 11.2.3 Special Dark Magic List / The Nameless God of Madness Special Dark Magic List / [ Berserk ] (Spell Level=3)
 
-- Base Mental Power Cost=15 Distance=Touch Area=One Duration=18 rounds Effect=Make the target go berserk Type=Mind Expansion=Final score, duration Resist=Negated effect Those who have this spell cast on them and fail to resist will go berserk and feel an urge to destroy everything nearby. Even the caster is not safe from the target. As a result, they will destroy property within sight and blindly attack creatures, regardless of friend or foe. At this time, their attack power and bonus damage will be +2, and their evasion speed will be -4. They also become indifferent to wounds and pain and ignore the risks of injury or life. Also, if no one is around, they will wound themselves. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-05034))_
+- Base Mental Power Cost=15 Distance=Touch Area=One Duration=18 rounds Effect=Make the target go berserk Type=Mind Expansion=Final score, duration Resist=Negated effect Those who have this spell cast on them and fail to resist will go berserk and feel an urge to destroy everything nearby. Even the caster is not safe from the target. As a result, they will destroy property within sight and blindly attack creatures, regardless of friend or foe. At this time, their attack power and bonus damage will be +2, and their evasion speed will be -4. They also become indifferent to wounds and pain and ignore the risks of injury or life. Also, if no one is around, they will wound themselves. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-05034))_
 
 ### Chapter 11: Notes on Magic / 11.3 Dragon Roar Magic / 4th Level Dragon Roar Magic List / [ Fire Breath ]
 
-- The caster breathes fire from their mouth like a dragon. The fire's area of effect is a semicircle with a 10 meter forward radius. The fire's strike power is 20, and the caster's magic power equals bonus damage. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-05229))_
+- The caster breathes fire from their mouth like a dragon. The fire's area of effect is a semicircle with a 10 meter forward radius. The fire's strike power is 20, and the caster's magic power equals bonus damage. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-05229))_
 
 ### [ Ale (Dose) ] / 《 Types of Poison 》
 
-- Those that say damage are poisons that damage life force (points), but there are common rules for these types of poisons. Each poison has its own unique strike power and bonus damage. If this type of poison enters your body, you will suffer this damage. Make a strike roll as you would for any magic that deals damage. If you roll 10 or greater, it becomes a critical. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-05548))_
+- Those that say damage are poisons that damage life force (points), but there are common rules for these types of poisons. Each poison has its own unique strike power and bonus damage. If this type of poison enters your body, you will suffer this damage. Make a strike roll as you would for any magic that deals damage. If you roll 10 or greater, it becomes a critical. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-05548))_
 
 ### 《 Description 》 / [Centauri Blood (Touch/Damage)]
 
-- What's more, this poison is completely harmless at room temperature, and only becomes toxic when warmed by body heat. Those wearing cloth soaked with centauri blood will experience intense pain and heat after one hour. Once that happens, you can no longer strip it from your body or wash it off, and it will continue to deal damage every hour from then on. The damage is a terrifying strike power 30 plus bonus damage 12. A successful resistance roll will reduce the damage. This poison is said to have killed a famous hero. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-05588))_
+- What's more, this poison is completely harmless at room temperature, and only becomes toxic when warmed by body heat. Those wearing cloth soaked with centauri blood will experience intense pain and heat after one hour. Once that happens, you can no longer strip it from your body or wash it off, and it will continue to deal damage every hour from then on. The damage is a terrifying strike power 30 plus bonus damage 12. A successful resistance roll will reduce the damage. This poison is said to have killed a famous hero. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-05588))_
 
 ### 《 Description 》 / [Zombie Maker (Dose/Mind)]
 
-- Effect=Become disabled, and suffer strike power 20 damage plus bonus damage 6 every 10 minutes. Resist negates effect Toxicity Score=15 Rarity=10 Effect Start Time= 1 round later Effect Duration=Permanent _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-05606))_
+- Effect=Become disabled, and suffer strike power 20 damage plus bonus damage 6 every 10 minutes. Resist negates effect Toxicity Score=15 Rarity=10 Effect Start Time= 1 round later Effect Duration=Permanent _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-05606))_
 
 ### 13.2.3 Youma / [ Dark Elf ]
 
-- They are apostles of the dark gods, and love to be despicable. Assassination using Invisibility is said to be their most special technique. The weapons they use are often coated with poison. A character who is attacked by a poisoned weapon and suffers damage must immediately make a life force resistance roll against target score 10. If you fail, you will suffer damage resulting from a strike power 10 strike roll plus +3 bonus damage. This damage is separate from the damage of the weapon itself and can be reduced by adventurer level. If you successfully resist, you will not suffer any poison damage. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-06105))_
+- They are apostles of the dark gods, and love to be despicable. Assassination using Invisibility is said to be their most special technique. The weapons they use are often coated with poison. A character who is attacked by a poisoned weapon and suffers damage must immediately make a life force resistance roll against target score 10. If you fail, you will suffer damage resulting from a strike power 10 strike roll plus +3 bonus damage. This damage is separate from the damage of the weapon itself and can be reduced by adventurer level. If you successfully resist, you will not suffer any poison damage. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-06105))_
 
 ### 13.2.3 Youma / [ Will-O-Wisp ]
 
-- The other type is one that collides directly with anything that comes into view. Will-o-wisps only target things that have a functioning mind. They will not target plants, minerals, vessels, etc. that do not have intelligence. They also will not attack low grade undead that do not have a mind. However, sleeping humans are subject to attack. Please make your judgment based on whether it has a score called mental power (points) . Will-o-wisp attacks are always successful. When a Will-O-Wisp hits its target, it'll simply shatter. However, at the same time, the will-o-wisp emits a powerful shockwave. This shockwave's damage results from a strike power 10 strike roll plus bonus _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-06119))_
+- The other type is one that collides directly with anything that comes into view. Will-o-wisps only target things that have a functioning mind. They will not target plants, minerals, vessels, etc. that do not have intelligence. They also will not attack low grade undead that do not have a mind. However, sleeping humans are subject to attack. Please make your judgment based on whether it has a score called mental power (points) . Will-o-wisp attacks are always successful. When a Will-O-Wisp hits its target, it'll simply shatter. However, at the same time, the will-o-wisp emits a powerful shockwave. This shockwave's damage results from a strike power 10 strike roll plus bonus _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-06119))_
 
 ### 13.2.3 Youma / [ Shade ]
 
-- Shade is a spirit of darkness, and also a mind spirit that controls fear. All natural light within 5 meters of its body is canceled out, leaving you in total darkness. Its body seems to be dark and spherical, but it's impossible to identify its shape because it' s in the dark. Therefore, attacks against shades always suffer a -4 penalty. Since the shade itself has 12 evasion points, it's unlikely that your attacks will hit it (it'll definitely disintegrate if they do). They will always attack by ramming any being with a will that comes into their view. Its effect is exactly like a will-o-wisp attack, except that the damage is dealt to mental power instead of life force. Strike power is 10, bonus damage is 2, and only adventurer level can reduce it. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-06141))_
+- Shade is a spirit of darkness, and also a mind spirit that controls fear. All natural light within 5 meters of its body is canceled out, leaving you in total darkness. Its body seems to be dark and spherical, but it's impossible to identify its shape because it' s in the dark. Therefore, attacks against shades always suffer a -4 penalty. Since the shade itself has 12 evasion points, it's unlikely that your attacks will hit it (it'll definitely disintegrate if they do). They will always attack by ramming any being with a will that comes into their view. Its effect is exactly like a will-o-wisp attack, except that the damage is dealt to mental power instead of life force. Strike power is 10, bonus damage is 2, and only adventurer level can reduce it. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-06141))_
 
 ### 13.2.6 Mythical Beasts and Magical Beasts / [ Ceiling Hanger ]
 
-- Strangling has strike power 0 and bonus damage 6 when making a damage check. Non-metal armor and ring mail have no effect against this damage, and points can only be reduced by adventurer level. Characters wearing metal armor (other than ring mail) will not suffer any damage. Regardless of damage or armor, once character's life force rounds have elapsed, the character will suffocate and fall unconscious (life force 0). From then on, in each round, a death check must be made when applying damage (even if it's 0). _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-06428))_
+- Strangling has strike power 0 and bonus damage 6 when making a damage check. Non-metal armor and ring mail have no effect against this damage, and points can only be reduced by adventurer level. Characters wearing metal armor (other than ring mail) will not suffer any damage. Regardless of damage or armor, once character's life force rounds have elapsed, the character will suffocate and fall unconscious (life force 0). From then on, in each round, a death check must be made when applying damage (even if it's 0). _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-06428))_
 
 ### 13.2.6 Mythical Beasts and Magical Beasts / [ Medusa ]
 
-- A medusa uses the snakes on her head to attack. A medusa has countless snakes (hair), and anyone who engages with a medusa in melee is exposed to these snakes' attacks. The snakes are poisonous, and anyone dealt damage by the snakes' attacks must immediately make a life force resistance roll against target score 10. If you fail, you immediately suffer damage resulting from a strike power 10 strike roll plus bonus damage 3. This damage can be reduced by adventurer level. If the resistance roll is successful, no poison damage is sustained. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-06462))_
+- A medusa uses the snakes on her head to attack. A medusa has countless snakes (hair), and anyone who engages with a medusa in melee is exposed to these snakes' attacks. The snakes are poisonous, and anyone dealt damage by the snakes' attacks must immediately make a life force resistance roll against target score 10. If you fail, you immediately suffer damage resulting from a strike power 10 strike roll plus bonus damage 3. This damage can be reduced by adventurer level. If the resistance roll is successful, no poison damage is sustained. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-06462))_
 
 ### 13.2.6 Mythical Beasts and Magical Beasts / [ Wyvern ]
 
-- Monster Level=7 Rarity=10 Agility=18 Movement Speed=8/35 (air) Number=One Frequency=Rare Intellect=Animal Reaction=Neutral Attack Points=Fangs:14 (7)/Talon:15 (8)/ Talon:15 (8)/Tail:14 (7) Strike Points=17/16/16/16+poison Evasion Points=13 (6) Defense Points=11 Life Points/Resistance=25/17 (10) Special Abilities=Poison (Toxicity score 14, strike power 20, bonus damage 7) Habitat=Deserts, forests, mountains, etc. Languages=None _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-06694))_
+- Monster Level=7 Rarity=10 Agility=18 Movement Speed=8/35 (air) Number=One Frequency=Rare Intellect=Animal Reaction=Neutral Attack Points=Fangs:14 (7)/Talon:15 (8)/ Talon:15 (8)/Tail:14 (7) Strike Points=17/16/16/16+poison Evasion Points=13 (6) Defense Points=11 Life Points/Resistance=25/17 (10) Special Abilities=Poison (Toxicity score 14, strike power 20, bonus damage 7) Habitat=Deserts, forests, mountains, etc. Languages=None _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-06694))_
 
 ### 13.2.6 Mythical Beasts and Magical Beasts / [ Humbaba ]
 
-- A humbaba can also spit fire from its large mouth, which takes up half of its face, once every 3 rounds. The fire is large enough to cover one person, and those hit by the fire will suffer damage resulting from a strike power 20 strike roll plus bonus damage 10. However, if you succeed on a mental power resistance roll against target score 17, the strike power becomes 10. This damage can only be reduced by adventurer level and magical defense. The humbaba's fire deals damage and at the same time causes a terrible disease. Anyone who suffers even 1 point of damage from the humbaba's fire has a chance of contracting a dreadful illness called humbaba curse . You must roll 2D and if you don't roll a 7 or greater, you will become infected. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-06799))_
+- A humbaba can also spit fire from its large mouth, which takes up half of its face, once every 3 rounds. The fire is large enough to cover one person, and those hit by the fire will suffer damage resulting from a strike power 20 strike roll plus bonus damage 10. However, if you succeed on a mental power resistance roll against target score 17, the strike power becomes 10. This damage can only be reduced by adventurer level and magical defense. The humbaba's fire deals damage and at the same time causes a terrible disease. Anyone who suffers even 1 point of damage from the humbaba's fire has a chance of contracting a dreadful illness called humbaba curse . You must roll 2D and if you don't roll a 7 or greater, you will become infected. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-06799))_
 
-- If you fail, you'll suffer damage resulting from a strike power 20 strike roll plus 10 points of bonus damage. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-06841))_
-- Elder-species' fire spreads in a 30-meter forward radius, and those who fail a mental power resistance roll against target score 22 will suffer damage resulting from a strike power 30 strike roll plus bonus damage 15. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-06852))_
-- Those who are swallowed whole will continue to suffer strike power 10 damage plus bonus damage 4 each round spent inside the toad's belly. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-07110))_
-- Those thrown into the pouch will suffer strike power 10 damage plus bonus damage 3 each round, starting on the next round. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-07488))_
-- As long as you continue to fail, you will suffer strike power 10 damage and 2 plus bonus damage 2 every round. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-07618))_
-- The damage dealt to mental power is merely the result of a strike power 10 strike roll plus bonus damage 4. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-07661))_
-- Monster Level=8 Rarity=14 Agility=14 Movement Speed=14 Number=One Frequency=Rare Intellect=Human Reaction=Adversarial Attack Points=Weapon:15 (8) Strike Points=17+mental damage Evasion Points=16 (9) Defense Points=13 Life Points/Resistance=21/17 (10) Mental Points/Resistance=24/18 (11) Special Abilities=Steal mental power (Strike power 10, bonus damage 8) _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-07803))_
-- This damage is calculated as strike power 10 plus bonus damage 8, and armor defense power is useless. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-07813))_
-- If it duplicates someone who is holding a broadsword +1, it will attack with a broadsword with the same strike power, but will not receive any bonuses to attack power or bonus damage. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-07958))_
-- However, the body of a gizmo is poisonous gas, so those hit by it will inhale it and suffer damage resulting from a strike power 10 strike roll plus 3 points of bonus damage. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-08127))_
-- The damage is strike power 10, plus 5 points of bonus damage. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-08175))_
-- Everyone within a 5 meter radius semicircle in front of the hellhound will suffer damage equal to a strike power 10 strike roll plus 5 points of bonus damage. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-08282))_
-- Everyone in a 5 meter radius surrounding the cerberus will suffer damage equal to a strike power 20 strike roll plus bonus damage 8. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-08301))_
-- Those attacked by the fire will suffer damage equal to a strike power 10 strike roll plus 5 points of bonus damage. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-08344))_
-- Poison (toxicity score 13, strike power 20, bonus damage 6) Habitat=Underground labyrinths, secluded ruins _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-08371))_
-- Its sharp fangs contain a powerful poison, and those who fail to resist will immediately suffer damage equal to a strike power 20 strike roll plus 6 points of bonus damage. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-08374))_
-- If they transform into a dragon, they can breathe fire, and if they transform into a 10th level fighter, they can fight with their attack power, strike power, and bonus damage. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-08415))_
-- For strike points , apply strike power to Table 13-1: Key Number = Expected Equivalents , then add bonus damage to the result. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-08646))_
-- Magic that deals damage with fire ( Fire Bolt and Fireball ) is completely useless, and the strike power bonus of Fire Weapon is also not added. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-08852))_
-- Resistant to fire attacks, so for magic that deals damage with fire ( Fire Bolt and Fireball ), checks are made at -10 to strike power (the strike power bonus of Fire Weapon is completely ineffective). _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-08854))_
-- Rarity=18 Enchanter=Jagrilis, "The Master of Death" Form=Mage's staff engraved with ancient runes Required Strength=5 (Strike power 10) Base Trade Price=400,000 gamels (complete)/27,000 gamels (incomplete) Powers=+1 to attack power and bonus damage. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-09104))_
-- Rarity=10 Enchanter=Van Form=Greatsword with a shining white blade Required Strength=18 (Strike power 23) Base Trade Price=1,000,000 gamels (not for sale, estimated) Powers=+3 to attack power and bonus damage. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-09114))_
-- Rarity=17 Enchanter=Frodia, "The Liberator" Form=Heavy mace Required Strength=16 (Strike power 16, 21 with two hands) Base Trade Price=700,000 gamels Powers=+2 to attack power and bonus damage. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-09126))_
-- Rarity=15 Enchanter=Cyrus "The Uncertain" Form=A trident with a fish engraved on the handle Required Strength=15 (Strike power 15) Base Trade Price=235,000 gamels Powers=+1 to attack power and bonus damage only in water. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-09134))_
-- As usual, bonus damage is fi ghter/thief/ranger skill level + strength bonus , and furthermore, your opponent can only reduce this damage with adventurer level (monster level). _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-09721))_
-- In the basic rules, any weapon's bonus damage equals fi ghter (or thief, ranger) skill level + strength bonus , but for projectiles , an adventurer's strength is not fully utilized as-is. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-10295))_
-- Add the attacker's bonus damage to the result in 1. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-10388))_
-- Even so, the bonus damage will be shooter's skill level + (ballista's required strength ÷ 3) , so a ballista with a greater required strength will be more powerful. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-10476))_
+- If you fail, you'll suffer damage resulting from a strike power 20 strike roll plus 10 points of bonus damage. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-06841))_
+- Elder-species' fire spreads in a 30-meter forward radius, and those who fail a mental power resistance roll against target score 22 will suffer damage resulting from a strike power 30 strike roll plus bonus damage 15. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-06852))_
+- Those who are swallowed whole will continue to suffer strike power 10 damage plus bonus damage 4 each round spent inside the toad's belly. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-07110))_
+- Those thrown into the pouch will suffer strike power 10 damage plus bonus damage 3 each round, starting on the next round. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-07488))_
+- As long as you continue to fail, you will suffer strike power 10 damage and 2 plus bonus damage 2 every round. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-07618))_
+- The damage dealt to mental power is merely the result of a strike power 10 strike roll plus bonus damage 4. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-07661))_
+- Monster Level=8 Rarity=14 Agility=14 Movement Speed=14 Number=One Frequency=Rare Intellect=Human Reaction=Adversarial Attack Points=Weapon:15 (8) Strike Points=17+mental damage Evasion Points=16 (9) Defense Points=13 Life Points/Resistance=21/17 (10) Mental Points/Resistance=24/18 (11) Special Abilities=Steal mental power (Strike power 10, bonus damage 8) _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-07803))_
+- This damage is calculated as strike power 10 plus bonus damage 8, and armor defense power is useless. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-07813))_
+- If it duplicates someone who is holding a broadsword +1, it will attack with a broadsword with the same strike power, but will not receive any bonuses to attack power or bonus damage. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-07958))_
+- However, the body of a gizmo is poisonous gas, so those hit by it will inhale it and suffer damage resulting from a strike power 10 strike roll plus 3 points of bonus damage. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-08127))_
+- The damage is strike power 10, plus 5 points of bonus damage. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-08175))_
+- Everyone within a 5 meter radius semicircle in front of the hellhound will suffer damage equal to a strike power 10 strike roll plus 5 points of bonus damage. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-08282))_
+- Everyone in a 5 meter radius surrounding the cerberus will suffer damage equal to a strike power 20 strike roll plus bonus damage 8. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-08301))_
+- Those attacked by the fire will suffer damage equal to a strike power 10 strike roll plus 5 points of bonus damage. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-08344))_
+- Poison (toxicity score 13, strike power 20, bonus damage 6) Habitat=Underground labyrinths, secluded ruins _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-08371))_
+- Its sharp fangs contain a powerful poison, and those who fail to resist will immediately suffer damage equal to a strike power 20 strike roll plus 6 points of bonus damage. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-08374))_
+- If they transform into a dragon, they can breathe fire, and if they transform into a 10th level fighter, they can fight with their attack power, strike power, and bonus damage. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-08415))_
+- For strike points , apply strike power to Table 13-1: Key Number = Expected Equivalents , then add bonus damage to the result. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-08646))_
+- Magic that deals damage with fire ( Fire Bolt and Fireball ) is completely useless, and the strike power bonus of Fire Weapon is also not added. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-08852))_
+- Resistant to fire attacks, so for magic that deals damage with fire ( Fire Bolt and Fireball ), checks are made at -10 to strike power (the strike power bonus of Fire Weapon is completely ineffective). _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-08854))_
+- Rarity=18 Enchanter=Jagrilis, "The Master of Death" Form=Mage's staff engraved with ancient runes Required Strength=5 (Strike power 10) Base Trade Price=400,000 gamels (complete)/27,000 gamels (incomplete) Powers=+1 to attack power and bonus damage. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-09104))_
+- Rarity=10 Enchanter=Van Form=Greatsword with a shining white blade Required Strength=18 (Strike power 23) Base Trade Price=1,000,000 gamels (not for sale, estimated) Powers=+3 to attack power and bonus damage. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-09114))_
+- Rarity=17 Enchanter=Frodia, "The Liberator" Form=Heavy mace Required Strength=16 (Strike power 16, 21 with two hands) Base Trade Price=700,000 gamels Powers=+2 to attack power and bonus damage. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-09126))_
+- Rarity=15 Enchanter=Cyrus "The Uncertain" Form=A trident with a fish engraved on the handle Required Strength=15 (Strike power 15) Base Trade Price=235,000 gamels Powers=+1 to attack power and bonus damage only in water. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-09134))_
+- As usual, bonus damage is fi ghter/thief/ranger skill level + strength bonus , and furthermore, your opponent can only reduce this damage with adventurer level (monster level). _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-09721))_
+- In the basic rules, any weapon's bonus damage equals fi ghter (or thief, ranger) skill level + strength bonus , but for projectiles , an adventurer's strength is not fully utilized as-is. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-10295))_
+- Add the attacker's bonus damage to the result in 1. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-10388))_
+- Even so, the bonus damage will be shooter's skill level + (ballista's required strength ÷ 3) , so a ballista with a greater required strength will be more powerful. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-10476))_
 
 ## Technical atoms
 
 ### Technical frame 1: Chapter 3: / 3.4.4 Actions You Can Take While Standing Still / Scores Used in Weapon Combat / 【 Bonus Damage 】
 
-**Context:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-01220))_
+**Context:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01220))_
 
 > If fighter (or thief, ranger) skill level is 0 , bonus damage is 0 regardless of the character's strength bonus.
 
-**Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-01217))_
+**Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01217))_
 
-<a id="atom-technical-atom-bb51a93f2c98b011"></a>
+<a id="atom-technical-atom-662f6c7f107eb851"></a>
 > These characters can deal more damage to their foes, even when using the same sized weapon.
 
 ### Technical frame 2: Chapter 3: / 3.4.4 Actions You Can Take While Standing Still / Scores Used in Weapon Combat / 【 Bonus Damage 】
 
-**Context:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-01220))_
+**Context:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01220))_
 
 > If fighter (or thief, ranger) skill level is 0 , bonus damage is 0 regardless of the character's strength bonus.
 
-**Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-01219))_
+**Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01219))_
 
-<a id="atom-technical-atom-0532c126cb093af2"></a>
+<a id="atom-technical-atom-d994b2fe658e0cad"></a>
 > bonus damage = fighter (thief/ranger) skill level + strength bonus
 
 ### Technical frame 3: 4.5.3 Bonus Damage
 
-**Context:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-01294))_
+**Context:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01294))_
 
 > Ducard II's bonus damage is 4 (fighter skill level 2, strength bonus 2).
 
-**Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-01292))_
+**Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01292))_
 
-<a id="atom-technical-atom-86fb9813c7fc96c6"></a>
+<a id="atom-technical-atom-2d47062f63af4064"></a>
 > Once you've determined base damage, you must then add your character's bonus damage.
 
 ### Technical frame 4: 4.5.3 Bonus Damage
 
-**Context:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-01298))_
+**Context:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01298))_
 
 > When determining base damage (strike roll), if you suddenly roll double ones, the damage will always be 0 . No matter how much bonus damage you have, it means nothing.
 
-**Atoms:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-01295, source-range-0d48087c-01296, source-range-0d48087c-01297))_
+**Atoms:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01295, source-range-e5870dca-01296, source-range-e5870dca-01297))_
 
-<a id="atom-technical-atom-7cbb7a954db3b264"></a>
+<a id="atom-technical-atom-cc5d3321c986a217"></a>
 > If base damage is 4, the total damage is 4+4= 8 ,
 
-<a id="atom-technical-atom-75b441a9c77fe833"></a>
+<a id="atom-technical-atom-a002eb4ef393c9b3"></a>
 > If base damage is 18, the total damage is 18+4= 22 ,
 
-<a id="atom-technical-atom-db4015dceaa9d093"></a>
+<a id="atom-technical-atom-62da15729addbd17"></a>
 > If base damage is 14, the total damage is 14+4= 18 .
 
 ### Technical frame 5: 4.5.3 Bonus Damage
 
-**Context:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-01294))_
+**Context:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01294))_
 
 > Ducard II's bonus damage is 4 (fighter skill level 2, strength bonus 2).
 
-**Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-01298))_
+**Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01298))_
 
-<a id="atom-technical-atom-a42862ec7255d349"></a>
+<a id="atom-technical-atom-eb3b49c10454c87a"></a>
 > When determining base damage (strike roll), if you suddenly roll double ones, the damage will always be 0 .
 
 ### Technical frame 6: 13.2.6 Mythical Beasts and Magical Beasts / [ Horse ] / 13.2.8 Plants / [ Ash ] Monster Level=2 Rarity=11 Agility=9 Movement Speed=8 Number=Several Frequency=Moderate Intellect=Almost none Reaction=Violent Attack Points=- Strike Points=Evasion Points=- Defense Points=Life Points/Resistance=7/9 (2) Mental Points/Resistance=-/10 (3) Special Abilities=Wrap (Evasion target score=10, strike power 10, bonus damage 2) Mental attack immunity Weapon immunity Fire immunity Not affected by poison and illness Damage from healing magic Habitat=Ruins Languages=None Perception=Magic
 
-**Context:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-07618))_
+**Context:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-07618))_
 
 > An ash's attacks also do not deal direct damage. The Ash wraps itself around the target creature and attacks it. The target of the attack must make a success roll using adventurer level + agility bonus as the baseline score, and if they fail, they will inhale a portion of the ash. Every round thereafter, they must make a life force resistance roll against target score 10. As long as you continue to fail, you will suffer strike power 10 damage and 2 plus bonus damage 2 every round. This damage ca
 
-**Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-07619))_
+**Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-07619))_
 
-<a id="atom-technical-atom-db6a97f4909ad717"></a>
+<a id="atom-technical-atom-74b6ed689e3ece3c"></a>
 > If you cast the spirit magic Missile Protection , you can protect yourself from being enwrapped by the ash.
 
 
@@ -226,8 +226,8 @@ What [[sword-world-rpg-complete-edition]] covers about 【 bonus damage 】:
 
 ### Source structure
 
-- [[sword-world-rpg-complete-edition-section-4-5-3-bonus-damage-7c2fc601]] - source section: 4.5.3 Bonus Damage shares source evidence from 4.5.3 Bonus Damage: Once you've determined base damage, you must then add your character's bonus damage. This will be the total amount of damage the character deals the monster.; 4.5.3 Bonus Damage shares technical record from 4.5.3 Bonus Damage: Once you've determined base damage, you must then add your character's bonus damage. (3 shared statement(s), 5 shared atom(s))
-- [[sword-world-rpg-complete-edition-section-chapter-3-3-4-4-actions-you-can-take-while-standing-still-scores-used-in-weapon-combat-bonus-dam-defc1b25]] - source section: Chapter 3: / 3.4.4 Actions You Can Take While Standing Still / Scores Used in Weapon Combat / 【 Bonus Damage 】 shares source evidence from Chapter 3: / 3.4.4 Actions You Can Take While Standing Still / Scores Used in Weapon Combat / 【 Bonus Damage 】: Characters with deep experience in combat can handle weapons effectively. In addition, characters with high strength can wield weapons more powerfully. These charact ... [truncated]; Chapter 3: / 3.4.4 Actions You Can Take While Standing Still / Scores Used in Weapon Combat / 【 Bonus Damage 】 shares technical record from Chapter 3: / 3.4.4 Actions You Can Take While Standing Still / Scores Used in Weapon Combat / 【 Bonus Damage 】: These characters can deal more damage to their foes, even when using the same sized weapon. (3 shared statement(s), 2 shared atom(s))
+- [[sword-world-rpg-complete-edition-section-4-5-3-bonus-damage-a7447d82]] - source section: 4.5.3 Bonus Damage shares source evidence from 4.5.3 Bonus Damage: Once you've determined base damage, you must then add your character's bonus damage. This will be the total amount of damage the character deals the monster.; 4.5.3 Bonus Damage shares technical record from 4.5.3 Bonus Damage: Once you've determined base damage, you must then add your character's bonus damage. (3 shared statement(s), 5 shared atom(s))
+- [[sword-world-rpg-complete-edition-section-chapter-3-3-4-4-actions-you-can-take-while-standing-still-scores-used-in-weapon-combat-bonus-dam-188a6d4e]] - source section: Chapter 3: / 3.4.4 Actions You Can Take While Standing Still / Scores Used in Weapon Combat / 【 Bonus Damage 】 shares source evidence from Chapter 3: / 3.4.4 Actions You Can Take While Standing Still / Scores Used in Weapon Combat / 【 Bonus Damage 】: Characters with deep experience in combat can handle weapons effectively. In addition, characters with high strength can wield weapons more powerfully. These charact ... [truncated]; Chapter 3: / 3.4.4 Actions You Can Take While Standing Still / Scores Used in Weapon Combat / 【 Bonus Damage 】 shares technical record from Chapter 3: / 3.4.4 Actions You Can Take While Standing Still / Scores Used in Weapon Combat / 【 Bonus Damage 】: These characters can deal more damage to their foes, even when using the same sized weapon. (3 shared statement(s), 2 shared atom(s))
 
 ### Shared technical atoms
 

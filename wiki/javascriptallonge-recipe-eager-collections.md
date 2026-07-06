@@ -4,12 +4,12 @@ page_kind: recipe
 summary: eager collections: reusable source-backed pattern with 4 statement(s) and 5 technical atom(s) from raw/javascriptallonge.pdf.
 page_family: recipe-pattern
 sources: raw/javascriptallonge.pdf
-updated: 2026-07-02
+updated: 2026-07-06
 domain: javascriptallonge
 category_path: recipes/javascriptallonge
 source_id: javascriptallonge.pdf
 aliases: eager-collections
-projection_coverage: recipe-javascriptallonge-recipe-eager-collections@9c15fbd0548c533399a9f72d69adffff
+projection_coverage: recipe-javascriptallonge-recipe-eager-collections@a14f511cfe4ad9a900e5aa47463eeeb3
 ---
 
 # eager collections
@@ -18,21 +18,21 @@ From [[javascriptallonge]].
 
 ## Pattern
 
-- Use the source-backed pattern described in [[javascriptallonge-section-lazy-and-eager-collections-eager-collections-4dcc549f]].
+- Use the source-backed pattern described in [[javascriptallonge-section-lazy-and-eager-collections-eager-collections-0a3f9a39]].
 - Evidence roles: decision, constraint, explanation, example.
 
 ## Applicability And Rationale
 
-- We can make an eager collection out of any collection that is gatherable , meaning it has a .from method: _(javascriptallonge.pdf (source-range-0e12e052-01798))_
-- We mix EagerCollection(Pair) into it, and this gives it all of our collection methods, which each method returning a new list of pairs: _(javascriptallonge.pdf (source-range-0e12e052-01802))_
-- Here is our Pair implementation. _(javascriptallonge.pdf (source-range-0e12e052-01802))_
-- Pair is gatherable, because it implements .from() . _(javascriptallonge.pdf (source-range-0e12e052-01802))_
+- We can make an eager collection out of any collection that is gatherable , meaning it has a .from method: _(javascriptallonge.pdf (source-range-c98ab3e6-01798))_
+- Here is our Pair implementation. _(javascriptallonge.pdf (source-range-c98ab3e6-01802))_
+- We mix EagerCollection(Pair) into it, and this gives it all of our collection methods, which each method returning a new list of pairs: _(javascriptallonge.pdf (source-range-c98ab3e6-01802))_
+- Pair is gatherable, because it implements .from() . _(javascriptallonge.pdf (source-range-c98ab3e6-01802))_
 
 ## Technical Atoms
 
 ### Atom 1: `code-block`
 
-_Source: javascriptallonge.pdf (source-range-0e12e052-01799)_
+_Source: javascriptallonge.pdf (source-range-c98ab3e6-01799)_
 
 ```
 const extend = function (consumer, ...providers) {
@@ -50,7 +50,7 @@ return consumer
 
 ### Atom 2: `code-block`
 
-_Source: javascriptallonge.pdf (source-range-0e12e052-01800)_
+_Source: javascriptallonge.pdf (source-range-c98ab3e6-01800)_
 
 ```
 const EagerCollection = (gatherable) =>
@@ -93,7 +93,7 @@ until(fn) {
 
 ### Atom 3: `code-block`
 
-_Source: javascriptallonge.pdf (source-range-0e12e052-01801)_
+_Source: javascriptallonge.pdf (source-range-c98ab3e6-01801)_
 
 ```
 const original = this;
@@ -136,7 +136,7 @@ yield element;
 
 ### Atom 4: `code-block`
 
-_Source: javascriptallonge.pdf (source-range-0e12e052-01803)_
+_Source: javascriptallonge.pdf (source-range-c98ab3e6-01803)_
 
 ```
 const EMPTY = {
@@ -175,7 +175,7 @@ Pair.from([1, 2, 3, 4, 5]).map(x => x * 2)
 
 ### Atom 5: `code-block`
 
-_Source: javascriptallonge.pdf (source-range-0e12e052-01804)_
+_Source: javascriptallonge.pdf (source-range-c98ab3e6-01804)_
 
 ```
 {"car": 2,
@@ -194,4 +194,4 @@ _Source: javascriptallonge.pdf (source-range-0e12e052-01804)_
 ## Source Trail
 
 - Source manifest: [[javascriptallonge]]
-- Source section: [[javascriptallonge-section-lazy-and-eager-collections-eager-collections-4dcc549f]]
+- Source section: [[javascriptallonge-section-lazy-and-eager-collections-eager-collections-0a3f9a39]]

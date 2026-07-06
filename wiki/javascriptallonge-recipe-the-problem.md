@@ -4,12 +4,12 @@ page_kind: recipe
 summary: the problem: reusable source-backed pattern with 7 statement(s) and 1 technical atom(s) from raw/javascriptallonge.pdf.
 page_family: recipe-pattern
 sources: raw/javascriptallonge.pdf
-updated: 2026-07-02
+updated: 2026-07-06
 domain: javascriptallonge
 category_path: recipes/javascriptallonge
 source_id: javascriptallonge.pdf
 aliases: the-problem
-projection_coverage: recipe-javascriptallonge-recipe-the-problem@d1a4d59a26266de13afde1bdd8a90be2
+projection_coverage: recipe-javascriptallonge-recipe-the-problem@b6f65ded7b75e2e4f57e4f8fc412eb6b
 ---
 
 # the problem
@@ -18,23 +18,23 @@ From [[javascriptallonge]].
 
 ## Pattern
 
-- Use the source-backed pattern described in [[javascriptallonge-section-interlude-the-carpenter-interviews-for-a-job-the-problem-010bfba1]].
+- Use the source-backed pattern described in [[javascriptallonge-section-interlude-the-carpenter-interviews-for-a-job-the-problem-088c57a5]].
 - Evidence roles: decision, constraint, explanation, technical-atom, structured-state, example.
 
 ## Applicability And Rationale
 
-- Despite his experience and industry longevity, the Carpenter did not mind being asked to demonstrate that he was, in fact, the person described on the resumé. _(javascriptallonge.pdf (source-range-0e12e052-01809))_
-- After some small talk, Christine explained that they liked to ask candidates to whiteboard some code. _(javascriptallonge.pdf (source-range-0e12e052-01809))_
-- Many companies use white-boarding code as an excuse to have a technical conversation with a candidate, and The Carpenter felt that being asked to whiteboard code was an excuse to have a technical conversation with a future colleague. _(javascriptallonge.pdf (source-range-0e12e052-01810))_
-- Each move consists of moving the chequer one square in the direction of the arrow in the square it occupies. _(javascriptallonge.pdf (source-range-0e12e052-01814))_
-- A chequer is placed randomly on the checkerboard. _(javascriptallonge.pdf (source-range-0e12e052-01814))_
-- The problem is this: The game board is hidden from us. _(javascriptallonge.pdf (source-range-0e12e052-01815))_
+- Despite his experience and industry longevity, the Carpenter did not mind being asked to demonstrate that he was, in fact, the person described on the resumé. _(javascriptallonge.pdf (source-range-c98ab3e6-01809))_
+- After some small talk, Christine explained that they liked to ask candidates to whiteboard some code. _(javascriptallonge.pdf (source-range-c98ab3e6-01809))_
+- Many companies use white-boarding code as an excuse to have a technical conversation with a candidate, and The Carpenter felt that being asked to whiteboard code was an excuse to have a technical conversation with a future colleague. _(javascriptallonge.pdf (source-range-c98ab3e6-01810))_
+- A chequer is placed randomly on the checkerboard. _(javascriptallonge.pdf (source-range-c98ab3e6-01814))_
+- Each move consists of moving the chequer one square in the direction of the arrow in the square it occupies. _(javascriptallonge.pdf (source-range-c98ab3e6-01814))_
+- The problem is this: The game board is hidden from us. _(javascriptallonge.pdf (source-range-c98ab3e6-01815))_
 
 ## Technical Atoms
 
 ### Atom 1: `code-block`
 
-_Source: javascriptallonge.pdf (source-range-0e12e052-01820)_
+_Source: javascriptallonge.pdf (source-range-c98ab3e6-01820)_
 
 ```
 const Game = (size = 8) => {
@@ -71,4 +71,4 @@ const arrow = board[x][y];
 ## Source Trail
 
 - Source manifest: [[javascriptallonge]]
-- Source section: [[javascriptallonge-section-interlude-the-carpenter-interviews-for-a-job-the-problem-010bfba1]]
+- Source section: [[javascriptallonge-section-interlude-the-carpenter-interviews-for-a-job-the-problem-088c57a5]]

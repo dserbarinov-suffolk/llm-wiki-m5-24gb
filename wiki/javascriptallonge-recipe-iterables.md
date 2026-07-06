@@ -4,12 +4,12 @@ page_kind: recipe
 summary: iterables: reusable source-backed pattern with 16 statement(s) and 5 technical atom(s) from raw/javascriptallonge.pdf.
 page_family: recipe-pattern
 sources: raw/javascriptallonge.pdf
-updated: 2026-07-02
+updated: 2026-07-06
 domain: javascriptallonge
 category_path: recipes/javascriptallonge
 source_id: javascriptallonge.pdf
 aliases: iterables
-projection_coverage: recipe-javascriptallonge-recipe-iterables@d271dcafa98a5873f0b885f6a702d471
+projection_coverage: recipe-javascriptallonge-recipe-iterables@02a71194ace266fa99d56646cee2141c
 ---
 
 # iterables
@@ -18,23 +18,23 @@ From [[javascriptallonge]].
 
 ## Pattern
 
-- Use the source-backed pattern described in [[javascriptallonge-section-served-by-the-pot-collections-iteration-and-iterables-iterables-5688770e]].
+- Use the source-backed pattern described in [[javascriptallonge-section-served-by-the-pot-collections-iteration-and-iterables-iterables-0d466551]].
 - Evidence roles: decision, procedure, constraint, explanation, example.
 
 ## Applicability And Rationale
 
-- People have been writing iterators since JavaScript was first released in the late 1990s. _(javascriptallonge.pdf (source-range-0e12e052-01549))_
-- Since there was no particular standard way to do it, people used all sorts of methods, and their methods returned all sorts of things: Objects with various interfaces, functional iterators, you name it. _(javascriptallonge.pdf (source-range-0e12e052-01549))_
-- Instead, the language encourages new code to be written with a different name for the method that a collection object uses to return its iterator. _(javascriptallonge.pdf (source-range-0e12e052-01550))_
-- So, when a standard way to write iterators was added to the JavaScript language, it didn't make sense to use a method like .iterator() for it: That would conflict with existing code. _(javascriptallonge.pdf (source-range-0e12e052-01550))_
-- To ensure that the method would not conflict with any existing code, JavaScript provides a symbol . _(javascriptallonge.pdf (source-range-0e12e052-01551))_
-- Symbols are a longstanding technique in programming going back to Lisp, where the GENSYM function generated… You guessed it… Symbols. _(javascriptallonge.pdf (source-range-0e12e052-01551))_
+- Since there was no particular standard way to do it, people used all sorts of methods, and their methods returned all sorts of things: Objects with various interfaces, functional iterators, you name it. _(javascriptallonge.pdf (source-range-c98ab3e6-01549))_
+- People have been writing iterators since JavaScript was first released in the late 1990s. _(javascriptallonge.pdf (source-range-c98ab3e6-01549))_
+- So, when a standard way to write iterators was added to the JavaScript language, it didn't make sense to use a method like .iterator() for it: That would conflict with existing code. _(javascriptallonge.pdf (source-range-c98ab3e6-01550))_
+- Instead, the language encourages new code to be written with a different name for the method that a collection object uses to return its iterator. _(javascriptallonge.pdf (source-range-c98ab3e6-01550))_
+- To ensure that the method would not conflict with any existing code, JavaScript provides a symbol . _(javascriptallonge.pdf (source-range-c98ab3e6-01551))_
+- Symbols are a longstanding technique in programming going back to Lisp, where the GENSYM function generated… You guessed it… Symbols. _(javascriptallonge.pdf (source-range-c98ab3e6-01551))_
 
 ## Technical Atoms
 
 ### Atom 1: `code-block`
 
-_Source: javascriptallonge.pdf (source-range-0e12e052-01555)_
+_Source: javascriptallonge.pdf (source-range-c98ab3e6-01555)_
 
 ```
 const Stack3 = () =>
@@ -77,7 +77,7 @@ const stack = Stack3();
 
 ### Atom 2: `code-block`
 
-_Source: javascriptallonge.pdf (source-range-0e12e052-01556)_
+_Source: javascriptallonge.pdf (source-range-c98ab3e6-01556)_
 
 ```
 stack.push(2000);
@@ -110,7 +110,7 @@ iterableSum(stack)
 
 ### Atom 3: `code-block`
 
-_Source: javascriptallonge.pdf (source-range-0e12e052-01558)_
+_Source: javascriptallonge.pdf (source-range-c98ab3e6-01558)_
 
 ```
 const EMPTY = {
@@ -151,7 +151,7 @@ iterableSum(someSquares)
 
 ### Atom 4: `code-block`
 
-_Source: javascriptallonge.pdf (source-range-0e12e052-01561)_
+_Source: javascriptallonge.pdf (source-range-c98ab3e6-01561)_
 
 ```
 ['some squares', ...someSquares]
@@ -160,7 +160,7 @@ _Source: javascriptallonge.pdf (source-range-0e12e052-01561)_
 
 ### Atom 5: `code-block`
 
-_Source: javascriptallonge.pdf (source-range-0e12e052-01563)_
+_Source: javascriptallonge.pdf (source-range-c98ab3e6-01563)_
 
 ```
 const firstAndSecondElement = (first, second) =>
@@ -172,4 +172,4 @@ firstAndSecondElement(...stack)
 ## Source Trail
 
 - Source manifest: [[javascriptallonge]]
-- Source section: [[javascriptallonge-section-served-by-the-pot-collections-iteration-and-iterables-iterables-5688770e]]
+- Source section: [[javascriptallonge-section-served-by-the-pot-collections-iteration-and-iterables-iterables-0d466551]]

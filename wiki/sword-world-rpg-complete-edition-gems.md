@@ -4,10 +4,10 @@ page_kind: concept
 summary: Gems: 2 statement(s) and 1 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: topic-concept
 sources: raw/Sword World RPG - Complete Edition.pdf
-updated: 2026-07-02
+updated: 2026-07-06
 domain: sword-world-rpg-complete-edition
 category_path: concepts
-projection_coverage: topic-sword-world-rpg-complete-edition-gems@c48bd84a977fe920042fee33aa0e86f3
+projection_coverage: topic-sword-world-rpg-complete-edition-gems@939b2c1abe33f6f5e7bde3e0a897dc06
 ---
 
 # Gems
@@ -18,20 +18,20 @@ What [[sword-world-rpg-complete-edition]] covers about gems:
 
 ### Chapter 14: / 14.3 Treasure Types / Gems and Precious Metals
 
-- This refers to wares and handicrafts, etc., made from gems and precious metals. These include crowns, rings, brooches, earrings, necklaces, bracelets, etc., and other accessories that are made with gems or precious metals. This kind of treasure can be judged as treasure or junk by using the thief skill and sage skill's treasure appraisal ability. If you spend enough time, you can determine a specific price. Naturally, merchants who deal with this kind of item can also determine the price. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-08918))_
+- This refers to wares and handicrafts, etc., made from gems and precious metals. These include crowns, rings, brooches, earrings, necklaces, bracelets, etc., and other accessories that are made with gems or precious metals. This kind of treasure can be judged as treasure or junk by using the thief skill and sage skill's treasure appraisal ability. If you spend enough time, you can determine a specific price. Naturally, merchants who deal with this kind of item can also determine the price. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-08918))_
 
 
 ## Technical atoms
 
 ### Technical frame 1: Chapter 14: / 14.3 Treasure Types / Gems and Precious Metals
 
-**Context:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-08919))_
+**Context:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-08919))_
 
 > The lowest value is 10 silver coins, and the highest quality are worth around 10,000 silver coins.
 
-**Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-08918))_
+**Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-08918))_
 
-<a id="atom-technical-atom-764b1af901253d1c"></a>
+<a id="atom-technical-atom-8079c8843ae0e8cb"></a>
 > If you spend enough time, you can determine a specific price.
 
 

@@ -4,12 +4,12 @@ page_kind: recipe
 summary: variables and bindings: reusable source-backed pattern with 15 statement(s) and 2 technical atom(s) from raw/javascriptallonge.pdf.
 page_family: recipe-pattern
 sources: raw/javascriptallonge.pdf
-updated: 2026-07-02
+updated: 2026-07-06
 domain: javascriptallonge
 category_path: recipes/javascriptallonge
 source_id: javascriptallonge.pdf
 aliases: variables-and-bindings
-projection_coverage: recipe-javascriptallonge-recipe-variables-and-bindings@da9429d3cde7c32311b5a9eec3c3e575
+projection_coverage: recipe-javascriptallonge-recipe-variables-and-bindings@815f137b35e49653b3910623e0677333
 ---
 
 # variables and bindings
@@ -18,23 +18,23 @@ From [[javascriptallonge]].
 
 ## Pattern
 
-- Use the source-backed pattern described in [[javascriptallonge-section-and-also-variables-and-bindings-baf19230]].
+- Use the source-backed pattern described in [[javascriptallonge-section-and-also-variables-and-bindings-a81a2ca5]].
 - Evidence roles: decision, constraint, explanation, definition, procedure, example, structured-state.
 
 ## Applicability And Rationale
 
-- Right now everything looks simple and straightforward, and we can move on to talk about arguments in more detail. _(javascriptallonge.pdf (source-range-0e12e052-00293))_
-- Besides a desire to use long words to sound impressive, this is not going to seem attractive until we find ourselves wanting to discuss the role of the Church of England in 19th century British politics. _(javascriptallonge.pdf (source-range-0e12e052-00295))_
-- But there's another reason for learning the word antidisestablishmentarianism : We might learn how prefixes and postfixes work in English grammar. _(javascriptallonge.pdf (source-range-0e12e052-00296))_
-- It has a certain important meaning in its own right, and it's also an excellent excuse to learn about functions that make functions, environments, variables, and more. _(javascriptallonge.pdf (source-range-0e12e052-00296))_
-- The second x , the one in => x , is not an argument, it's an expression referring to a variable . _(javascriptallonge.pdf (source-range-0e12e052-00297))_
-- Every time a function is invoked ('invoked' means 'applied to zero or more arguments'), a new environment is created. _(javascriptallonge.pdf (source-range-0e12e052-00298))_
+- Right now everything looks simple and straightforward, and we can move on to talk about arguments in more detail. _(javascriptallonge.pdf (source-range-c98ab3e6-00293))_
+- Besides a desire to use long words to sound impressive, this is not going to seem attractive until we find ourselves wanting to discuss the role of the Church of England in 19th century British politics. _(javascriptallonge.pdf (source-range-c98ab3e6-00295))_
+- It has a certain important meaning in its own right, and it's also an excellent excuse to learn about functions that make functions, environments, variables, and more. _(javascriptallonge.pdf (source-range-c98ab3e6-00296))_
+- But there's another reason for learning the word antidisestablishmentarianism : We might learn how prefixes and postfixes work in English grammar. _(javascriptallonge.pdf (source-range-c98ab3e6-00296))_
+- The second x , the one in => x , is not an argument, it's an expression referring to a variable . _(javascriptallonge.pdf (source-range-c98ab3e6-00297))_
+- Every time a function is invoked ('invoked' means 'applied to zero or more arguments'), a new environment is created. _(javascriptallonge.pdf (source-range-c98ab3e6-00298))_
 
 ## Technical Atoms
 
 ### Atom 1: `code-block`
 
-_Source: javascriptallonge.pdf (source-range-0e12e052-00294)_
+_Source: javascriptallonge.pdf (source-range-c98ab3e6-00294)_
 
 ```
 (x) => (y) => x
@@ -42,7 +42,7 @@ _Source: javascriptallonge.pdf (source-range-0e12e052-00294)_
 
 ### Atom 2: `code-block`
 
-_Source: javascriptallonge.pdf (source-range-0e12e052-00301)_
+_Source: javascriptallonge.pdf (source-range-c98ab3e6-00301)_
 
 ```
 ((x) => x)(2)
@@ -52,4 +52,4 @@ _Source: javascriptallonge.pdf (source-range-0e12e052-00301)_
 ## Source Trail
 
 - Source manifest: [[javascriptallonge]]
-- Source section: [[javascriptallonge-section-and-also-variables-and-bindings-baf19230]]
+- Source section: [[javascriptallonge-section-and-also-variables-and-bindings-a81a2ca5]]

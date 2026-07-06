@@ -1,0 +1,107 @@
+---
+page_id: sword-world-rpg-complete-edition-section-chapter-3-3bb30127
+page_kind: source
+summary: Chapter 3:: 15 source-backed entries and 5 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+page_family: section-reference
+sources: raw/Sword World RPG - Complete Edition.pdf
+updated: 2026-07-06
+domain: sword-world-rpg-complete-edition
+category_path: sources/sword-world-rpg-complete-edition/sections
+source_id: Sword World RPG - Complete Edition.pdf
+projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-3-3bb30127@c3a77219a7cdec28910257bb136d4a43
+---
+
+# Chapter 3:
+
+From [[sword-world-rpg-complete-edition]].
+
+## Related pages
+
+### Source order
+
+- [[sword-world-rpg-complete-edition-section-chapter-3-withdraw-flee-from-engagement-4c462a7d]] - previous source section: Chapter 3: / Withdraw (Flee) From Engagement
+- [[sword-world-rpg-complete-edition-section-chapter-3-3-4-4-actions-you-can-take-while-standing-still-0dc5b9fc]] - next source section: Chapter 3: / 3.4.4 Actions You Can Take While Standing Still
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-chapter-3-4c6275a8]] - broader source section: Chapter 3:
+- [[sword-world-rpg-complete-edition-section-chapter-3-attack-with-a-readied-weapon-df7ac140]] - narrower source section: Chapter 3: / Attack with a Readied Weapon
+- [[sword-world-rpg-complete-edition-section-chapter-3-pick-a-weapon-up-off-the-ground-and-ready-it-b9d452cf]] - narrower source section: Chapter 3: / Pick a Weapon Up off the Ground and Ready It
+- [[sword-world-rpg-complete-edition-section-chapter-3-ready-a-weapon-1a01669d]] - narrower source section: Chapter 3: / Ready a Weapon
+- [[sword-world-rpg-complete-edition-section-chapter-3-ready-a-weapon-and-attack-7beee5a5]] - narrower source section: Chapter 3: / Ready a Weapon and Attack
+- [[sword-world-rpg-complete-edition-section-chapter-3-switch-a-weapon-s-hands-and-attack-dd92f7c8]] - narrower source section: Chapter 3: / Switch a Weapon's Hands and Attack
+- [[sword-world-rpg-complete-edition-section-chapter-3-switch-out-a-onehanded-weapon-4c513762]] - narrower source section: Chapter 3: / Switch Out a OneHanded Weapon
+
+## Statements by subsection
+
+### Chapter 3: / Ready a Weapon
+
+- As during full movement, you can ready a weapon from a sheath, etc. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01145))_
+- You can wield up to two, one in each hand. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01146))_
+
+### Chapter 3: / Pick a Weapon Up off the Ground and Ready It
+
+- If a weapon or shield has fallen on the ground, you can pick it up and ready it. However, that weapon cannot be used to attack this round. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01150))_
+
+### Chapter 3: / Switch Out a OneHanded Weapon
+
+- Return a weapon in your hand to its sheath, etc. and ready a different weapon. Only one can be switched out. For example, if you have a sword and a shield, you cannot return them both and ready a different weapon. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01152))_
+- Only one can be switched out. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01152))_
+
+### Chapter 3: / Ready a Weapon and Attack
+
+- Take a weapon out of a sheath, etc. that you're wearing and use it to attack immediately. However, bows and other projectiles cannot be used to attack while moving. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01155))_
+
+### Chapter 3: / Switch a Weapon's Hands and Attack
+
+- Switch a weapon you're using with only one hand to both hands and attack. This action may be effective if you have a weapon that can be used with one or both hands. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01157))_
+- Switch a weapon you're using with only one hand to both hands and attack. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01157))_
+
+### Chapter 3: / Attack with a Readied Weapon
+
+- If you already have a weapon ready, you can of course attack with that weapon. However, bows and other projectiles cannot be used to attack while moving. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01160))_
+
+## Technical atoms
+
+### Technical frame 1: Chapter 3: / Pick a Weapon Up off the Ground and Ready It
+
+**Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01150))_
+
+<a id="atom-technical-atom-2efab4935cccb0e3"></a>
+> If a weapon or shield has fallen on the ground, you can pick it up and ready it.
+
+### Technical frame 2: Chapter 3: / Switch Out a OneHanded Weapon
+
+**Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01152))_
+
+<a id="atom-technical-atom-67ebcdd670ae1096"></a>
+> For example, if you have a sword and a shield, you cannot return them both and ready a different weapon.
+
+### Technical frame 3: Chapter 3: / Switch Out a OneHanded Weapon
+
+**Context:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01152))_
+
+> Return a weapon in your hand to its sheath, etc. and ready a different weapon. Only one can be switched out. For example, if you have a sword and a shield, you cannot return them both and ready a different weapon.
+
+**Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01153))_
+
+<a id="atom-technical-atom-835a98f90862bd9f"></a>
+> If you do have a sword and a shield, you can drop one of them on the ground, return the other one, then ready a different weapon.
+
+### Technical frame 4: Chapter 3: / Switch a Weapon's Hands and Attack
+
+**Context:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01157))_
+
+> Switch a weapon you're using with only one hand to both hands and attack. This action may be effective if you have a weapon that can be used with one or both hands.
+
+**Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01158))_
+
+<a id="atom-technical-atom-9c4d4baa13eab000"></a>
+> If you're holding a weapon in one hand and a shield in the other, and that weapon can be used with both hands, you can drop the shield on the ground and attack with both hands, since it's as if you were holding the weapon in only one hand from the beginning.
+
+### Technical frame 5: Chapter 3: / Attack with a Readied Weapon
+
+**Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01160))_
+
+<a id="atom-technical-atom-065d0aad6be196d2"></a>
+> If you already have a weapon ready, you can of course attack with that weapon.

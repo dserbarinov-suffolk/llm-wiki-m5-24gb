@@ -4,12 +4,12 @@ page_kind: recipe
 summary: the carpenter's solution: reusable source-backed pattern with 12 statement(s) and 7 technical atom(s) from raw/javascriptallonge.pdf.
 page_family: recipe-pattern
 sources: raw/javascriptallonge.pdf
-updated: 2026-07-02
+updated: 2026-07-06
 domain: javascriptallonge
 category_path: recipes/javascriptallonge
 source_id: javascriptallonge.pdf
 aliases: the-carpenter-s-solution
-projection_coverage: recipe-javascriptallonge-recipe-the-carpenter-s-solution@80c10118e7e1c0423c210b586c7d527e
+projection_coverage: recipe-javascriptallonge-recipe-the-carpenter-s-solution@f4aa1f0feb18cdc0bc32987621f8f8f8
 ---
 
 # the carpenter's solution
@@ -18,23 +18,23 @@ From [[javascriptallonge]].
 
 ## Pattern
 
-- Use the source-backed pattern described in [[javascriptallonge-section-interlude-the-carpenter-interviews-for-a-job-the-carpenter-s-solution-b3771f17]].
+- Use the source-backed pattern described in [[javascriptallonge-section-interlude-the-carpenter-interviews-for-a-job-the-carpenter-s-solution-9e180884]].
 - Evidence roles: decision, constraint, explanation, procedure, example, technical-atom.
 
 ## Applicability And Rationale
 
-- He then coached subsequent candidates to give polished answers to the company's pet technical questions. _(javascriptallonge.pdf (source-range-0e12e052-01824))_
-- The Carpenter was not surprised at the problem. _(javascriptallonge.pdf (source-range-0e12e052-01824))_
-- Bob had, in fact, warned The Carpenter that 'Thing' liked to ask either or both of two questions: Determine how to detect a loop in a linked list, and determine whether the chequerboard game would halt. _(javascriptallonge.pdf (source-range-0e12e052-01826))_
-- To save time, The Carpenter had prepared the same answer for both questions. _(javascriptallonge.pdf (source-range-0e12e052-01826))_
-- The Carpenter coughed softly, then began. _(javascriptallonge.pdf (source-range-0e12e052-01827))_
-- I'll refactor a touch to make things clearer, for example I'll extract the board to make it easier to test:' _(javascriptallonge.pdf (source-range-0e12e052-01827))_
+- He then coached subsequent candidates to give polished answers to the company's pet technical questions. _(javascriptallonge.pdf (source-range-c98ab3e6-01824))_
+- The Carpenter was not surprised at the problem. _(javascriptallonge.pdf (source-range-c98ab3e6-01824))_
+- To save time, The Carpenter had prepared the same answer for both questions. _(javascriptallonge.pdf (source-range-c98ab3e6-01826))_
+- Bob had, in fact, warned The Carpenter that 'Thing' liked to ask either or both of two questions: Determine how to detect a loop in a linked list, and determine whether the chequerboard game would halt. _(javascriptallonge.pdf (source-range-c98ab3e6-01826))_
+- The Carpenter coughed softly, then began. _(javascriptallonge.pdf (source-range-c98ab3e6-01827))_
+- I'll refactor a touch to make things clearer, for example I'll extract the board to make it easier to test:' _(javascriptallonge.pdf (source-range-c98ab3e6-01827))_
 
 ## Technical Atoms
 
 ### Atom 1: `code-block`
 
-_Source: javascriptallonge.pdf (source-range-0e12e052-01828)_
+_Source: javascriptallonge.pdf (source-range-c98ab3e6-01828)_
 
 ```
 const MOVE = {
@@ -58,7 +58,7 @@ const position = [
 
 ### Atom 2: `code-block`
 
-_Source: javascriptallonge.pdf (source-range-0e12e052-01829)_
+_Source: javascriptallonge.pdf (source-range-c98ab3e6-01829)_
 
 ```
 Math.floor(Math.random() * size),
@@ -83,7 +83,7 @@ yield direction;
 
 ### Atom 3: `code-block`
 
-_Source: javascriptallonge.pdf (source-range-0e12e052-01832)_
+_Source: javascriptallonge.pdf (source-range-c98ab3e6-01832)_
 
 ```
 const statefulMapWith = (fn, seed, iterable) =>
@@ -98,7 +98,7 @@ yield value;
 
 ### Atom 4: `code-block`
 
-_Source: javascriptallonge.pdf (source-range-0e12e052-01833)_
+_Source: javascriptallonge.pdf (source-range-c98ab3e6-01833)_
 
 ```
 }
@@ -108,7 +108,7 @@ _Source: javascriptallonge.pdf (source-range-0e12e052-01833)_
 
 ### Atom 5: `code-block`
 
-_Source: javascriptallonge.pdf (source-range-0e12e052-01835)_
+_Source: javascriptallonge.pdf (source-range-c98ab3e6-01835)_
 
 ```
 const positionsOf = (game) =>
@@ -125,7 +125,7 @@ game);
 
 ### Atom 6: `code-block`
 
-_Source: javascriptallonge.pdf (source-range-0e12e052-01841)_
+_Source: javascriptallonge.pdf (source-range-c98ab3e6-01841)_
 
 ```
 const tortoiseAndHare = (iterable) => {
@@ -154,4 +154,4 @@ return false;
 ## Source Trail
 
 - Source manifest: [[javascriptallonge]]
-- Source section: [[javascriptallonge-section-interlude-the-carpenter-interviews-for-a-job-the-carpenter-s-solution-b3771f17]]
+- Source section: [[javascriptallonge-section-interlude-the-carpenter-interviews-for-a-job-the-carpenter-s-solution-9e180884]]

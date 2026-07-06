@@ -8,12 +8,16 @@ from typing import Any
 
 import pymupdf  # type: ignore[import-untyped]
 
-from llmwiki.pdf.document import DocumentElement, DocumentModel
-from llmwiki.pdf.pipeline import chunk_file, ensure_extracted
+from llmwiki.pdf.document import DocumentElement, DocumentModel, render_source_units
+from llmwiki.pdf.pipeline import ExtractionResult, ensure_extracted, read_source_units
 from llmwiki.pdf.recognizer import NullRecognizer
 from llmwiki.pdf.table_geometry_repair import geometry_table_rows, preface_numbered_table_text
 
 _PAGE_PROSE = "Functions are first-class values. " * 40
+
+
+def _rendered_source_units(result: ExtractionResult) -> str:
+    return render_source_units(read_source_units(result.cache_dir))
 
 
 def _make_forward_cue_table_pdf(path: Path) -> None:
@@ -227,16 +231,13 @@ def test_recovers_forward_cue_numbered_table_with_readable_cells(tmp_path: Path)
     )
 
     model = (result.cache_dir / "document_model.json").read_text(encoding="utf-8")
-    chunk = "\n\n".join(
-        chunk_file(result.cache_dir, chunk_record.chunk_id).read_text(encoding="utf-8")
-        for chunk_record in result.manifest.chunks
-    )
+    source_text = _rendered_source_units(result)
     assert '"element_kind": "table"' in model
-    assert "1 Trial Alpha result keeps separate words." in chunk
-    assert "2 Review Beta result keeps spaces." in chunk
-    assert "Alpharesult" not in chunk
-    assert chunk.index("Roll on the table below.") < chunk.index("1 Trial")
-    assert chunk.index("2 Review") < chunk.index("Follow-up Notes")
+    assert "1 Trial Alpha result keeps separate words." in source_text
+    assert "2 Review Beta result keeps spaces." in source_text
+    assert "Alpharesult" not in source_text
+    assert source_text.index("Roll on the table below.") < source_text.index("1 Trial")
+    assert source_text.index("2 Review") < source_text.index("Follow-up Notes")
 
 
 def test_forward_cue_without_numbered_rows_does_not_create_table(tmp_path: Path) -> None:

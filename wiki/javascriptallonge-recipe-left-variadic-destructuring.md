@@ -4,12 +4,12 @@ page_kind: recipe
 summary: left-variadic destructuring: reusable source-backed pattern with 3 statement(s) and 4 technical atom(s) from raw/javascriptallonge.pdf.
 page_family: recipe-pattern
 sources: raw/javascriptallonge.pdf
-updated: 2026-07-02
+updated: 2026-07-06
 domain: javascriptallonge
 category_path: recipes/javascriptallonge
 source_id: javascriptallonge.pdf
 aliases: left-variadic-destructuring
-projection_coverage: recipe-javascriptallonge-recipe-left-variadic-destructuring@50f61341e7109144db85763654ca28c1
+projection_coverage: recipe-javascriptallonge-recipe-left-variadic-destructuring@6ca221cc08d6c335057b6c4df923e2be
 ---
 
 # left-variadic destructuring
@@ -18,20 +18,20 @@ From [[javascriptallonge]].
 
 ## Pattern
 
-- Use the source-backed pattern described in [[javascriptallonge-section-recipes-with-basic-functions-left-variadic-functions-left-variadic-destructuring-c0fee83e]].
+- Use the source-backed pattern described in [[javascriptallonge-section-recipes-with-basic-functions-left-variadic-functions-left-variadic-destructuring-15603a30]].
 - Evidence roles: decision, constraint, procedure, example.
 
 ## Applicability And Rationale
 
-- Gathering arguments for functions is one of the ways JavaScript can destructure arrays. _(javascriptallonge.pdf (source-range-0e12e052-00736))_
-- But we can write our own left-gathering function utility using the same principles without all the tedium: _(javascriptallonge.pdf (source-range-0e12e052-00742))_
-- With leftGather , we have to supply the length of the array we wish to use as the result, and it gathers excess arguments into it from the left, just like leftVariadic gathers excess parameters for a function. _(javascriptallonge.pdf (source-range-0e12e052-00744))_
+- Gathering arguments for functions is one of the ways JavaScript can destructure arrays. _(javascriptallonge.pdf (source-range-c98ab3e6-00736))_
+- But we can write our own left-gathering function utility using the same principles without all the tedium: _(javascriptallonge.pdf (source-range-c98ab3e6-00742))_
+- With leftGather , we have to supply the length of the array we wish to use as the result, and it gathers excess arguments into it from the left, just like leftVariadic gathers excess parameters for a function. _(javascriptallonge.pdf (source-range-c98ab3e6-00744))_
 
 ## Technical Atoms
 
 ### Atom 1: `code-block`
 
-_Source: javascriptallonge.pdf (source-range-0e12e052-00737)_
+_Source: javascriptallonge.pdf (source-range-c98ab3e6-00737)_
 
 ```
 const [first, ...butFirst] = ['why', 'hello', 'there', 'little', 'droid'];
@@ -43,7 +43,7 @@ butFirst
 
 ### Atom 2: `code-block`
 
-_Source: javascriptallonge.pdf (source-range-0e12e052-00739)_
+_Source: javascriptallonge.pdf (source-range-c98ab3e6-00739)_
 
 ```
 const [...butLast, last] = ['why', 'hello', 'there', 'little', 'droid'];
@@ -52,7 +52,7 @@ const [...butLast, last] = ['why', 'hello', 'there', 'little', 'droid'];
 
 ### Atom 3: `code-block`
 
-_Source: javascriptallonge.pdf (source-range-0e12e052-00741)_
+_Source: javascriptallonge.pdf (source-range-c98ab3e6-00741)_
 
 ```
 const [butLast, last] = leftVariadic((butLast, last) => [butLast, last])(...['wh\
@@ -65,7 +65,7 @@ last
 
 ### Atom 4: `code-block`
 
-_Source: javascriptallonge.pdf (source-range-0e12e052-00743)_
+_Source: javascriptallonge.pdf (source-range-c98ab3e6-00743)_
 
 ```
 const leftGather = (outputArrayLength) => {
@@ -87,4 +87,4 @@ last
 ## Source Trail
 
 - Source manifest: [[javascriptallonge]]
-- Source section: [[javascriptallonge-section-recipes-with-basic-functions-left-variadic-functions-left-variadic-destructuring-c0fee83e]]
+- Source section: [[javascriptallonge-section-recipes-with-basic-functions-left-variadic-functions-left-variadic-destructuring-15603a30]]

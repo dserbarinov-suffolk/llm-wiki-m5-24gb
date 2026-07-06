@@ -1,0 +1,33 @@
+---
+page_id: sword-world-rpg-complete-edition-section-chapter-6-6-1-precautions-when-using-skills-thief-skill-special-combat-dexterity-agility-strengt-e62400c9
+page_kind: source
+summary: Chapter 6: / 6.1 Precautions When Using Skills / Thief Skill / [ ⑪ Special Combat [Dexterity, Agility, Strength]] (Equipment restriction): 12 source-backed entries and 0 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+page_family: section-reference
+sources: raw/Sword World RPG - Complete Edition.pdf
+updated: 2026-07-06
+domain: sword-world-rpg-complete-edition
+category_path: sources/sword-world-rpg-complete-edition/sections
+source_id: Sword World RPG - Complete Edition.pdf
+projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-6-6-1-precautions-when-using-skills-thief-skill-special-combat-dexterity-agility-strengt-e62400c9@ac9e5230c3d87706ab47975137d041ef
+---
+
+# Chapter 6: / 6.1 Precautions When Using Skills / Thief Skill / [ ⑪ Special Combat [Dexterity, Agility, Strength]] (Equipment restriction)
+
+From [[sword-world-rpg-complete-edition]].
+
+## Related pages
+
+### Source order
+
+- [[sword-world-rpg-complete-edition-section-chapter-6-6-1-precautions-when-using-skills-thief-skill-climb-agility-equipment-restriction-a88c34ad]] - previous source section: Chapter 6: / 6.1 Precautions When Using Skills / Thief Skill / [ ⑩ Climb [Agility] ] (Equipment restriction)
+- [[sword-world-rpg-complete-edition-section-chapter-6-6-1-precautions-when-using-skills-thief-skill-long-jump-high-jump-agility-equipment-re-c679ea9f]] - next source section: Chapter 6: / 6.1 Precautions When Using Skills / Thief Skill / [ ⑫ Long Jump/High Jump [Agility] ] (Equipment restriction)
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-chapter-6-6-1-precautions-when-using-skills-thief-skill-d8fcbfde]] - broader source section: Chapter 6: / 6.1 Precautions When Using Skills / Thief Skill
+
+## Statements
+
+- Even thieves have combat abilities and can fight using their thief skill level. However, the way a thief fights is quite different from that of a fighter. For more information, please refer to Chapter 4: Weapon Combat . The major difference (other than equipment restrictions) is the critical target. While a fighter fights in a linear style, trying to crush the enemy head-on, a thief tries to focus on the opponent's vital points and weaknesses. For this reason, a thief's attacks have a greater chance of dealing intense damage in one hit. To reflect this, when a thief's attack hits, the critical target is -1 (i.e. usually 9) during the check. This critical target modifier is always -1, regardless of your thief skill level. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-04038))_
+- If one adventurer has acquired both the thief skill and the fighter skill, the player must choose which skill to fight with. If you want to use heavy weapons and armor that are full of strength, you should use the fighter skill as your standard for combat, and if you want to deal a lot of damage with a single blow, you should use light weapons and the thief skill in combat. You may change the skill you use in combat each round, but you may not use different skills for attack and defense on the same round (such as defending with the fighter skill, then attacking with the thief skill, etc.). If you use weapons or armor that exceed the thief skill's restrictions, you will automatically have to fight with the fighter skill. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-04039))_
+- You may change the skill you use in combat each round, but you may not use different skills for attack and defense on the same round (such as defending with the fighter skill, then attacking with the thief skill, etc.). _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-04039))_

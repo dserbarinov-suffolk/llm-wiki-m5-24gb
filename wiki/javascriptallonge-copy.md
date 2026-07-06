@@ -4,10 +4,10 @@ page_kind: concept
 summary: Copy: 7 statement(s) and 9 atom(s) from raw/javascriptallonge.pdf.
 page_family: broad-topic
 sources: raw/javascriptallonge.pdf
-updated: 2026-07-02
+updated: 2026-07-06
 domain: javascriptallonge
 category_path: concepts
-projection_coverage: topic-javascriptallonge-copy@61f7a7ff6e6424a1da873beb682d42c3
+projection_coverage: topic-javascriptallonge-copy@b2371d07c27949596d35052fc1880e41
 ---
 
 # Copy
@@ -18,38 +18,38 @@ What [[javascriptallonge]] covers about copy:
 
 ### ECMAScript 6 has three major groups of features: / Forewords to the First Edition / michael fogus
 
-- As a life-long bibliophile and long-time follower of Reg's online work, I was excited when he started writing books. However, I'm very conservative about books - let's just say that if there was an aftershave scented to the essence of 'Used Book Store' then I would be first in line to buy. So as you might imagine I was 'skeptical' about the decision to release JavaScript Allongé as an ongoing ebook, with a pay-what-you-want model. However, Reg sent me a copy of his book and I was humbled. Not only was this a great book, but it was also a great way to write and distribute books. Having written books myself, I know the pain of soliciting and receiving feedback. _(javascriptallonge.pdf (source-range-0e12e052-00086))_
+- As a life-long bibliophile and long-time follower of Reg's online work, I was excited when he started writing books. However, I'm very conservative about books - let's just say that if there was an aftershave scented to the essence of 'Used Book Store' then I would be first in line to buy. So as you might imagine I was 'skeptical' about the decision to release JavaScript Allongé as an ongoing ebook, with a pay-what-you-want model. However, Reg sent me a copy of his book and I was humbled. Not only was this a great book, but it was also a great way to write and distribute books. Having written books myself, I know the pain of soliciting and receiving feedback. _(javascriptallonge.pdf (source-range-c98ab3e6-00086))_
 
-- The act of writing is an iterative process with (very often) tight revision loops. However, the process of soliciting feedback, gathering responses, sending out copies, waiting for people to actually read it (if they ever do), receiving feedback and then ultimately making sense out of how to use it takes weeks and sometimes months. On more than one occasion I've found myself attempting to reify feedback with content that either no longer existed or was changed beyond recognition. However, with the Leanpub model the read-feedback-change process is extremely efficient, leaving in its wake a quality book that continues to get better as others likewise read and comment into infinitude. _(javascriptallonge.pdf (source-range-0e12e052-00087))_
+- The act of writing is an iterative process with (very often) tight revision loops. However, the process of soliciting feedback, gathering responses, sending out copies, waiting for people to actually read it (if they ever do), receiving feedback and then ultimately making sense out of how to use it takes weeks and sometimes months. On more than one occasion I've found myself attempting to reify feedback with content that either no longer existed or was changed beyond recognition. However, with the Leanpub model the read-feedback-change process is extremely efficient, leaving in its wake a quality book that continues to get better as others likewise read and comment into infinitude. _(javascriptallonge.pdf (source-range-c98ab3e6-00087))_
 
 ### Garbage, Garbage Everywhere / some history
 
-- Again, it's just extracting a reference from a cons cell, it's very fast. In Lisp, it's blazingly fast because it happens in hardware. There's no making copies of arrays, the time to cdr a list with five elements is the same as the time to cdr a list with 5,000 elements, and no temporary arrays are needed. In JavaScript, it's still much, much, much faster to get all the elements except the head from a linked list than from an array. Getting one reference to a structure that already exists is faster than copying a bunch of elements. _(javascriptallonge.pdf (source-range-0e12e052-01042))_
+- Again, it's just extracting a reference from a cons cell, it's very fast. In Lisp, it's blazingly fast because it happens in hardware. There's no making copies of arrays, the time to cdr a list with five elements is the same as the time to cdr a list with 5,000 elements, and no temporary arrays are needed. In JavaScript, it's still much, much, much faster to get all the elements except the head from a linked list than from an array. Getting one reference to a structure that already exists is faster than copying a bunch of elements. _(javascriptallonge.pdf (source-range-c98ab3e6-01042))_
 
 ### Plain Old JavaScript Objects / revisiting linked lists
 
-- The problem here is that linked lists are constructed back-to-front, but we iterate over them frontto-back. So to copy a list, we have to save all the bits on the call stack and then construct the list from back-to-front as all the recursive calls return. _(javascriptallonge.pdf (source-range-0e12e052-01106))_
+- The problem here is that linked lists are constructed back-to-front, but we iterate over them frontto-back. So to copy a list, we have to save all the bits on the call stack and then construct the list from back-to-front as all the recursive calls return. _(javascriptallonge.pdf (source-range-c98ab3e6-01106))_
 
 ### Copy on Write / a few utilities / copy-on-write
 
-- This strategy of waiting to copy until you are writing is called copy-on-write, or 'COW:' _(javascriptallonge.pdf (source-range-0e12e052-01247))_
+- This strategy of waiting to copy until you are writing is called copy-on-write, or 'COW:' _(javascriptallonge.pdf (source-range-c98ab3e6-01247))_
 
-- Copy-on-write is the name given to the policy that whenever a task attempts to make a change to the shared information, it should first create a separate (private) copy of that information to prevent its changes from becoming visible to all the other tasks.Wikipedia 73 _(javascriptallonge.pdf (source-range-0e12e052-01248))_
+- Copy-on-write is the name given to the policy that whenever a task attempts to make a change to the shared information, it should first create a separate (private) copy of that information to prevent its changes from becoming visible to all the other tasks.Wikipedia 73 _(javascriptallonge.pdf (source-range-c98ab3e6-01248))_
 
-- Looking at the code again, you see that the copy function doesn't copy on write: It follows the pattern that while constructing something, we own it and can be liberal with mutation. Once we're done with it and give it to someone else, we need to be conservative and use a strategy like copy-on-read or copy-on-write. _(javascriptallonge.pdf (source-range-0e12e052-01250))_
+- Looking at the code again, you see that the copy function doesn't copy on write: It follows the pattern that while constructing something, we own it and can be liberal with mutation. Once we're done with it and give it to someone else, we need to be conservative and use a strategy like copy-on-read or copy-on-write. _(javascriptallonge.pdf (source-range-c98ab3e6-01250))_
 
 
 ## Technical atoms
 
 ### Technical frame 1: Garbage, Garbage Everywhere / some history
 
-**Context:** _(javascriptallonge.pdf (source-range-0e12e052-01042))_
+**Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01042))_
 
 > Again, it's just extracting a reference from a cons cell, it's very fast. In Lisp, it's blazingly fast because it happens in hardware. There's no making copies of arrays, the time to cdr a list with five elements is the same as the time to cdr a list with 5,000 elements, and no temporary arrays are needed. In JavaScript, it's still much, much, much faster to get all the elements except the head from a linked list than from an array. Getting one reference to a structure that already exists is fas
 
-**Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01041))_
+**Atom:** _(javascriptallonge.pdf (source-range-c98ab3e6-01041))_
 
-<a id="atom-technical-atom-cc6241a012867740"></a>
+<a id="atom-technical-atom-c04ec28db918d40d"></a>
 ```
 cdr(oneToFive)
 //=> [2,[3,[4,[5,null]]]]
@@ -57,13 +57,13 @@ cdr(oneToFive)
 
 ### Technical frame 2: Plain Old JavaScript Objects / revisiting linked lists
 
-**Context:** _(javascriptallonge.pdf (source-range-0e12e052-01104))_
+**Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01104))_
 
 > What about mapping? Well, let's start with the simplest possible thing, making a copy of a list. As we saw above, and discussed in Garbage, Garbage Everywhere, it is fast to iterate forward through a linked list. What isn't fast is naïvely copying a list:
 
-**Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01102))_
+**Atom:** _(javascriptallonge.pdf (source-range-c98ab3e6-01102))_
 
-<a id="atom-technical-atom-bace31307fdcecd9"></a>
+<a id="atom-technical-atom-d343ff4220304127"></a>
 ```
 In that case, a linked list of the numbers 1, 2, and 3 will look like this: { first: 1, rest: { first:
 2, rest: { first: 3, rest: EMPTY } } }.
@@ -72,13 +72,13 @@ We can then perform the equivalent of [first, ...rest] with direct property acce
 
 ### Technical frame 3: Plain Old JavaScript Objects / revisiting linked lists
 
-**Context:** _(javascriptallonge.pdf (source-range-0e12e052-01104))_
+**Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01104))_
 
 > What about mapping? Well, let's start with the simplest possible thing, making a copy of a list. As we saw above, and discussed in Garbage, Garbage Everywhere, it is fast to iterate forward through a linked list. What isn't fast is naïvely copying a list:
 
-**Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01103))_
+**Atom:** _(javascriptallonge.pdf (source-range-c98ab3e6-01103))_
 
-<a id="atom-technical-atom-55614a7e6312a79f"></a>
+<a id="atom-technical-atom-8de105e9f388d796"></a>
 ```
 const EMPTY = {};
 const OneTwoThree = { first: 1, rest: { first: 2, rest: { first: 3, rest: EMPTY \
@@ -100,13 +100,13 @@ length(OneTwoThree)
 
 ### Technical frame 4: Plain Old JavaScript Objects / revisiting linked lists
 
-**Context:** _(javascriptallonge.pdf (source-range-0e12e052-01106))_
+**Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01106))_
 
 > The problem here is that linked lists are constructed back-to-front, but we iterate over them frontto-back. So to copy a list, we have to save all the bits on the call stack and then construct the list from back-to-front as all the recursive calls return.
 
-**Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01105))_
+**Atom:** _(javascriptallonge.pdf (source-range-c98ab3e6-01105))_
 
-<a id="atom-technical-atom-15d969a4e1cd03dd"></a>
+<a id="atom-technical-atom-6d7209e4440a1cd8"></a>
 ```
 const slowcopy = (node) =>
 node === EMPTY
@@ -118,13 +118,13 @@ slowcopy(OneTwoThree)
 
 ### Technical frame 5: Plain Old JavaScript Objects / revisiting linked lists
 
-**Context:** _(javascriptallonge.pdf (source-range-0e12e052-01111))_
+**Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01111))_
 
 > Our mapWith function takes twice as long as a straight iteration, because it iterates over the entire list twice, once to map, and once to reverse the list. Likewise, it takes twice as much memory, because it constructs a reverse of the desired result before throwing it away.
 
-**Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01110))_
+**Atom:** _(javascriptallonge.pdf (source-range-c98ab3e6-01110))_
 
-<a id="atom-technical-atom-378688b13fd63662"></a>
+<a id="atom-technical-atom-4b18156fef6ab335"></a>
 ```
 const reverse = (node, delayed = EMPTY) =>
 node === EMPTY
@@ -152,13 +152,13 @@ mapWith((x) => x * x, OneTwoThree)
 
 ### Technical frame 6: Copy on Write / a few utilities / copy-on-write
 
-**Context:** _(javascriptallonge.pdf (source-range-0e12e052-01244))_
+**Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01244))_
 
 > But our new parent and child lists are copies that contain the desired modifications, without interfering with each other:
 
-**Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01241))_
+**Atom:** _(javascriptallonge.pdf (source-range-c98ab3e6-01241))_
 
-<a id="atom-technical-atom-ff1a11e29eb3914a"></a>
+<a id="atom-technical-atom-2911751c148fd67b"></a>
 ```
 const rest = ({first, rest}) => rest;
 const set = (index, value, list) =>
@@ -174,13 +174,13 @@ const newChildList = set(0, "two", childList);
 
 ### Technical frame 7: Copy on Write / a few utilities / copy-on-write
 
-**Context:** _(javascriptallonge.pdf (source-range-0e12e052-01246))_
+**Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01246))_
 
 > And now functions like mapWith that make copies without modifying anything, work at full speed.
 
-**Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01245))_
+**Atom:** _(javascriptallonge.pdf (source-range-c98ab3e6-01245))_
 
-<a id="atom-technical-atom-9eb84e521487b3d3"></a>
+<a id="atom-technical-atom-2c173023c637118d"></a>
 ```
 newParentList
 //=> {"first":1,"rest":{"first":2,"rest":{"first":"three","rest":{"first":{},"\
@@ -191,13 +191,13 @@ newChildList
 
 ### Technical frame 8: Copy on Write / Making Data Out Of Functions
 
-**Context:** _(javascriptallonge.pdf (source-range-0e12e052-01326))_
+**Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01326))_
 
 > They established that arbitrary computations could be represented a small set of axiomatic components. For example, we don't need arrays to represent lists, or even POJOs to represent nodes in a linked list. We can model lists just using functions.
 
-**Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01330))_
+**Atom:** _(javascriptallonge.pdf (source-range-c98ab3e6-01330))_
 
-<a id="atom-technical-atom-57cdb7ea2b16e63b"></a>
+<a id="atom-technical-atom-29d69ea34d7d4dc8"></a>
 ```text
 76 http://www.amazon.com/gp/product/0192801422/ref=as_li_ss_tl?ie=UTF8&tag=raganwald001-20&linkCode=as2&camp=1789&creative= 390957&creativeASIN=0192801422
 77 http://oscin.es
@@ -215,13 +215,13 @@ newChildList
 
 ### Technical frame 9: Copy on Write / Making Data Out Of Functions / functions are not the real point
 
-**Context:** _(javascriptallonge.pdf (source-range-0e12e052-01400))_
+**Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01400))_
 
 > Knowing how to make a list out of just functions is a little like knowing that photons are the Gauge Bosons 81 of the electromagnetic force. It's the QED of physics that underpins the Maxwell's Equations of programming. Deeply important, but not practical when you're building a bridge.
 
-**Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01401))_
+**Atom:** _(javascriptallonge.pdf (source-range-c98ab3e6-01401))_
 
-<a id="atom-technical-atom-e05b4d965ecfffbd"></a>
+<a id="atom-technical-atom-165f79a76d58718b"></a>
 ```text
 79 https://en.wikipedia.org/wiki/Church_encoding
 81 https://en.wikipedia.org/wiki/Gauge_boson

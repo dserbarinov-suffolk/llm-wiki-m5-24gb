@@ -4,10 +4,10 @@ page_kind: concept
 summary: Edition: 4 statement(s) and 4 atom(s) from raw/javascriptallonge.pdf.
 page_family: topic-concept
 sources: raw/javascriptallonge.pdf
-updated: 2026-07-02
+updated: 2026-07-06
 domain: javascriptallonge
 category_path: concepts
-projection_coverage: topic-javascriptallonge-edition@ed72cbeb30e3e231fe8042ba4c9f3ac3
+projection_coverage: topic-javascriptallonge-edition@feb5951dc20162bc5cd4a38c23ec4a89
 ---
 
 # Edition
@@ -18,28 +18,28 @@ What [[javascriptallonge]] covers about edition:
 
 ### A Pull of the Lever: Prefaces / About JavaScript Allongé / why the 'six' edition?
 
-- JavaScript Allongé, The 'Six' Edition packs all the goodness of JavaScript Allongé into a new, updated package that is relevant for programmers working with (or planning to work with) the latest version of JavaScript. _(javascriptallonge.pdf (source-range-0e12e052-00041))_
+- JavaScript Allongé, The 'Six' Edition packs all the goodness of JavaScript Allongé into a new, updated package that is relevant for programmers working with (or planning to work with) the latest version of JavaScript. _(javascriptallonge.pdf (source-range-c98ab3e6-00041))_
 
 ### ECMAScript 6 has three major groups of features:
 
-- With ECMAScript 6, JavaScript has become much larger as a language. JavaScript Allongé, the 'Six' Edition is both a comprehensive tour of its features and a rich collection of techniques for making better use of them. You will learn much about functional programming and object-oriented programming. And you'll do so via ES6 code, handed to you in small, easily digestible pieces. _(javascriptallonge.pdf (source-range-0e12e052-00081))_
+- With ECMAScript 6, JavaScript has become much larger as a language. JavaScript Allongé, the 'Six' Edition is both a comprehensive tour of its features and a rich collection of techniques for making better use of them. You will learn much about functional programming and object-oriented programming. And you'll do so via ES6 code, handed to you in small, easily digestible pieces. _(javascriptallonge.pdf (source-range-c98ab3e6-00081))_
 
 ### ECMAScript 6 has three major groups of features: / About The Sample PDF
 
-- This sample edition of the book includes just a portion of the complete book. Buying the book in progress entitles you to free updates, so download it today 7 ! Besides, there's really no risk at all . If you read JavaScript Allongé, The 'six' edition and it doesn't blow your mind, your money will be cheerfully refunded. _(javascriptallonge.pdf (source-range-0e12e052-00095))_
+- This sample edition of the book includes just a portion of the complete book. Buying the book in progress entitles you to free updates, so download it today 7 ! Besides, there's really no risk at all . If you read JavaScript Allongé, The 'six' edition and it doesn't blow your mind, your money will be cheerfully refunded. _(javascriptallonge.pdf (source-range-c98ab3e6-00095))_
 
 
 ## Technical atoms
 
 ### Technical frame 1: ECMAScript 6 has three major groups of features:
 
-**Context:** _(javascriptallonge.pdf (source-range-0e12e052-00081))_
+**Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-00081))_
 
 > With ECMAScript 6, JavaScript has become much larger as a language. JavaScript Allongé, the 'Six' Edition is both a comprehensive tour of its features and a rich collection of techniques for making better use of them. You will learn much about functional programming and object-oriented programming. And you'll do so via ES6 code, handed to you in small, easily digestible pieces.
 
-**Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00083))_
+**Atom:** _(javascriptallonge.pdf (source-range-c98ab3e6-00083))_
 
-<a id="atom-technical-atom-8d2772ab4d71ef15"></a>
+<a id="atom-technical-atom-5cd434a2e2ddee73"></a>
 ```text
 2 http://www.2ality.com
 4 http://exploringjs.com

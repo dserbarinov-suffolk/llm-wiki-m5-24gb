@@ -4,10 +4,10 @@ page_kind: concept
 summary: Interactive Generators: 31 statement(s) and 17 atom(s) from raw/javascriptallonge.pdf.
 page_family: topic-concept
 sources: raw/javascriptallonge.pdf
-updated: 2026-07-02
+updated: 2026-07-06
 domain: javascriptallonge
 category_path: concepts
-projection_coverage: topic-javascriptallonge-interactive-generator@29efb0fbec98631dc02f795815636ab9
+projection_coverage: topic-javascriptallonge-interactive-generator@cde2cd7db2bb572b3dc77970ef01960d
 ---
 
 # Interactive Generators
@@ -18,78 +18,78 @@ What [[javascriptallonge]] covers about interactive generators:
 
 ### Interactive Generators
 
-- We used generators to build iterators that maintain implicit state. We saw how to use them for recursive unfolds and state machines. But there are other times we want to build functions that maintain implicit state. Let's start by looking at a very simple example of a function that can be written statefully. _(javascriptallonge.pdf (source-range-0e12e052-01869))_
+- We used generators to build iterators that maintain implicit state. We saw how to use them for recursive unfolds and state machines. But there are other times we want to build functions that maintain implicit state. Let's start by looking at a very simple example of a function that can be written statefully. _(javascriptallonge.pdf (source-range-c98ab3e6-01869))_
 
-- Consider, for example, the moves in a game. The moves a player makes are a stream of values, just like the contents of an array can be consider a stream of values. But of course, iterating over a stream of moves requires us to wait for the game to be over so we know what moves were made. _(javascriptallonge.pdf (source-range-0e12e052-01872))_
+- Consider, for example, the moves in a game. The moves a player makes are a stream of values, just like the contents of an array can be consider a stream of values. But of course, iterating over a stream of moves requires us to wait for the game to be over so we know what moves were made. _(javascriptallonge.pdf (source-range-c98ab3e6-01872))_
 
-- The first player will always be o , and they will always place their chequer in the top-left corner, coincidentally numbered o : _(javascriptallonge.pdf (source-range-0e12e052-01874))_
+- The first player will always be o , and they will always place their chequer in the top-left corner, coincidentally numbered o : _(javascriptallonge.pdf (source-range-c98ab3e6-01874))_
 
-- x has six possible moves, but they are really just two choices: 3 and anything else: _(javascriptallonge.pdf (source-range-0e12e052-01883))_
+- x has six possible moves, but they are really just two choices: 3 and anything else: _(javascriptallonge.pdf (source-range-c98ab3e6-01883))_
 
 ### Interactive Generators / representing naughts and crosses as a stateless function
 
-- We could plays naughts and crosses as a stateless function. We encode each position of the board in some fashion, and then we build a dictionary from positions to moves. For example, the entry for: _(javascriptallonge.pdf (source-range-0e12e052-01891))_
+- We could plays naughts and crosses as a stateless function. We encode each position of the board in some fashion, and then we build a dictionary from positions to moves. For example, the entry for: _(javascriptallonge.pdf (source-range-c98ab3e6-01891))_
 
 ### Interactive Generators / representing naughts and crosses as a stateless function / Would be 3 , producing:
 
-- We can encode the board in several different ways. We could use multiline strings with formatting just as we've written it here, but it is a design smell to couple presentation with modelling. Our function should be just as useful on a teletype as it would be backing a DOM game that uses a table, or a browser game that draws on Canvas. _(javascriptallonge.pdf (source-range-0e12e052-01899))_
+- We can encode the board in several different ways. We could use multiline strings with formatting just as we've written it here, but it is a design smell to couple presentation with modelling. Our function should be just as useful on a teletype as it would be backing a DOM game that uses a table, or a browser game that draws on Canvas. _(javascriptallonge.pdf (source-range-c98ab3e6-01899))_
 
 ### Interactive Generators / representing naughts and crosses as a stateless function / Will be represented as:
 
-- We can use a POJO to make a map from positions to moves. We'll use the [] notation for keys, it allows us to use any expression as a key, and JavaScript will convert it to a string. So if we write: _(javascriptallonge.pdf (source-range-0e12e052-01908))_
+- We can use a POJO to make a map from positions to moves. We'll use the [] notation for keys, it allows us to use any expression as a key, and JavaScript will convert it to a string. So if we write: _(javascriptallonge.pdf (source-range-c98ab3e6-01908))_
 
 ### Interactive Generators / representing naughts and crosses as a stateful function
 
-- Our statelessNaughtsAndCrosses function pushes the work of tracking the game's state onto us, the player. What if we want to exchange moves with the function? In that case, we need a stateful function. Our 'API' will work like this: When we want a new game, we'll call a function that will return a game function, We'll call the game function repeatedly, passing our moves, and get the opponent's moves from it. _(javascriptallonge.pdf (source-range-0e12e052-01918))_
+- Our statelessNaughtsAndCrosses function pushes the work of tracking the game's state onto us, the player. What if we want to exchange moves with the function? In that case, we need a stateful function. Our 'API' will work like this: When we want a new game, we'll call a function that will return a game function, We'll call the game function repeatedly, passing our moves, and get the opponent's moves from it. _(javascriptallonge.pdf (source-range-c98ab3e6-01918))_
 
-- Let's recap what we have: We have a stateful function, but we built it by wrapping a stateless function in a function that updates state based on the moves we provide. The state is encoded entirely in data. _(javascriptallonge.pdf (source-range-0e12e052-01924))_
+- Let's recap what we have: We have a stateful function, but we built it by wrapping a stateless function in a function that updates state based on the moves we provide. The state is encoded entirely in data. _(javascriptallonge.pdf (source-range-c98ab3e6-01924))_
 
 ### Interactive Generators / this seems familiar
 
-- When we looked at generators, we saw that some iterators are inherently stateful, but sometimes it is awkward to represent them in a fully stateless fashion. Sometimes there is a state machine that is naturally represented implicitly in JavaScript's control flow rather than explicitly in data. _(javascriptallonge.pdf (source-range-0e12e052-01926))_
+- When we looked at generators, we saw that some iterators are inherently stateful, but sometimes it is awkward to represent them in a fully stateless fashion. Sometimes there is a state machine that is naturally represented implicitly in JavaScript's control flow rather than explicitly in data. _(javascriptallonge.pdf (source-range-c98ab3e6-01926))_
 
-- We've done almost the exact same thing here with our naughts and crosses game. A game like this is absolutely a state machine, and we've explicitly coded those states into the lookup table. Which leads us to wonder: Is there a way to encode those states implicitly , in JavaScript control flow? _(javascriptallonge.pdf (source-range-0e12e052-01927))_
+- We've done almost the exact same thing here with our naughts and crosses game. A game like this is absolutely a state machine, and we've explicitly coded those states into the lookup table. Which leads us to wonder: Is there a way to encode those states implicitly , in JavaScript control flow? _(javascriptallonge.pdf (source-range-c98ab3e6-01927))_
 
-- If we were in full control of the interaction, it would be easy to encode the game play as a decision tree instead of as a lookup table. For example, we could do this in a browser: _(javascriptallonge.pdf (source-range-0e12e052-01928))_
+- If we were in full control of the interaction, it would be easy to encode the game play as a decision tree instead of as a lookup table. For example, we could do this in a browser: _(javascriptallonge.pdf (source-range-c98ab3e6-01928))_
 
-- Naughts and crosses is simple enough that the lookup function seems substantially simpler, in part because linear code doesn't represent trees particularly well. But we can clearly see that if we wanted to, we could represent the state of the program implicitly in a decision tree. _(javascriptallonge.pdf (source-range-0e12e052-01930))_
+- Naughts and crosses is simple enough that the lookup function seems substantially simpler, in part because linear code doesn't represent trees particularly well. But we can clearly see that if we wanted to, we could represent the state of the program implicitly in a decision tree. _(javascriptallonge.pdf (source-range-c98ab3e6-01930))_
 
-- However, our solution inverts the control. We aren't calling our function with moves, it's calling us. With iterators, we wrote a generator function using function * , and then used yield to yield values while maintaining the implicit state of the generator's control flow. _(javascriptallonge.pdf (source-range-0e12e052-01931))_
+- However, our solution inverts the control. We aren't calling our function with moves, it's calling us. With iterators, we wrote a generator function using function * , and then used yield to yield values while maintaining the implicit state of the generator's control flow. _(javascriptallonge.pdf (source-range-c98ab3e6-01931))_
 
-- Canwedothesamethinghere?Atfirst glance, no. How do we get the player's moves to the generator function? But the first glance is deceptive, because we only see what we've seen so far. Let's see how it would actually work. _(javascriptallonge.pdf (source-range-0e12e052-01932))_
+- Canwedothesamethinghere?Atfirst glance, no. How do we get the player's moves to the generator function? But the first glance is deceptive, because we only see what we've seen so far. Let's see how it would actually work. _(javascriptallonge.pdf (source-range-c98ab3e6-01932))_
 
 ### Interactive Generators / this seems familiar / interactive generators
 
-- So far, we have called iterators (and generators) with .next() . But what if we pass a value to .next() ? If we could do that, a generator function that played naughts and crosses would look like this: _(javascriptallonge.pdf (source-range-0e12e052-01934))_
+- So far, we have called iterators (and generators) with .next() . But what if we pass a value to .next() ? If we could do that, a generator function that played naughts and crosses would look like this: _(javascriptallonge.pdf (source-range-c98ab3e6-01934))_
 
-- Served by the Pot: Collections 260 } } break ; // ... } } const aNaughtsAndCrossesGame = generatorNaughtsAndCrosses(); We can then get the first move by calling .next() . Thereafter, we call .next(...) and pass in our moves (The very first call has to be .next() without any arguments, because the generator hasn't started yet. If we wanted to pass some state to the generator before it begins, we'd do that with parameters.): aNaughtsAndCrossesGame.next().value //=> 0 aNaughtsAndCrossesGame.next(1).value //=> 6 aNaughtsAndCrossesGame.next(3).value //=> 8 aNaughtsAndCrossesGame.next(7).value //=> 4 _(javascriptallonge.pdf (source-range-0e12e052-01937))_
+- Served by the Pot: Collections 260 } } break ; // ... } } const aNaughtsAndCrossesGame = generatorNaughtsAndCrosses(); We can then get the first move by calling .next() . Thereafter, we call .next(...) and pass in our moves (The very first call has to be .next() without any arguments, because the generator hasn't started yet. If we wanted to pass some state to the generator before it begins, we'd do that with parameters.): aNaughtsAndCrossesGame.next().value //=> 0 aNaughtsAndCrossesGame.next(1).value //=> 6 aNaughtsAndCrossesGame.next(3).value //=> 8 aNaughtsAndCrossesGame.next(7).value //=> 4 _(javascriptallonge.pdf (source-range-c98ab3e6-01937))_
 
-- Our generator function maintains state implicitly in its control flow, but returns an iterator that we call, it doesn't call us. It isn't a collection, it has no meaning if we try to spread it into parameters or as the subject of a for...of block. _(javascriptallonge.pdf (source-range-0e12e052-01938))_
+- Our generator function maintains state implicitly in its control flow, but returns an iterator that we call, it doesn't call us. It isn't a collection, it has no meaning if we try to spread it into parameters or as the subject of a for...of block. _(javascriptallonge.pdf (source-range-c98ab3e6-01938))_
 
-- But the generator function allows us to maintain state implicitly. And sometimes, we want to use implicit state instead of explicitly storing state in our data. _(javascriptallonge.pdf (source-range-0e12e052-01939))_
+- But the generator function allows us to maintain state implicitly. And sometimes, we want to use implicit state instead of explicitly storing state in our data. _(javascriptallonge.pdf (source-range-c98ab3e6-01939))_
 
 ### Interactive Generators / this seems familiar / summary
 
-- We have looked at generators as ways of making iterators over static collections, where state is modelled implicitly in control flow. But as we see here, it's also possible to use a generator interactively, passing values in and receiving a value in return, just like an ordinary function. _(javascriptallonge.pdf (source-range-0e12e052-01941))_
+- We have looked at generators as ways of making iterators over static collections, where state is modelled implicitly in control flow. But as we see here, it's also possible to use a generator interactively, passing values in and receiving a value in return, just like an ordinary function. _(javascriptallonge.pdf (source-range-c98ab3e6-01941))_
 
-- Again, the salient difference is that an 'interactive' generator is stateful, and it embodies its state in its control flow. _(javascriptallonge.pdf (source-range-0e12e052-01942))_
+- Again, the salient difference is that an 'interactive' generator is stateful, and it embodies its state in its control flow. _(javascriptallonge.pdf (source-range-c98ab3e6-01942))_
 
 ### Interactive Generators / Basic Operations on Iterables
 
-- Here are the operations we've defined on Iterables. As discussed, they preserve the collection semantics of the iterable they are given: _(javascriptallonge.pdf (source-range-0e12e052-01944))_
+- Here are the operations we've defined on Iterables. As discussed, they preserve the collection semantics of the iterable they are given: _(javascriptallonge.pdf (source-range-c98ab3e6-01944))_
 
 
 ## Technical atoms
 
 ### Technical frame 1: Interactive Generators / representing naughts and crosses as a stateless function / Will be represented as:
 
-**Context:** _(javascriptallonge.pdf (source-range-0e12e052-01908))_
+**Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01908))_
 
 > We can use a POJO to make a map from positions to moves. We'll use the [] notation for keys, it allows us to use any expression as a key, and JavaScript will convert it to a string. So if we write:
 
-**Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01907))_
+**Atom:** _(javascriptallonge.pdf (source-range-c98ab3e6-01907))_
 
-<a id="atom-technical-atom-71048b04f17a5615"></a>
+<a id="atom-technical-atom-93a039bf7b11ba41"></a>
 ```
 [
 'o', 'x', ' ',
@@ -100,13 +100,13 @@ What [[javascriptallonge]] covers about interactive generators:
 
 ### Technical frame 2: Interactive Generators / representing naughts and crosses as a stateless function / Will be represented as:
 
-**Context:** _(javascriptallonge.pdf (source-range-0e12e052-01908))_
+**Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01908))_
 
 > We can use a POJO to make a map from positions to moves. We'll use the [] notation for keys, it allows us to use any expression as a key, and JavaScript will convert it to a string. So if we write:
 
-**Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01909))_
+**Atom:** _(javascriptallonge.pdf (source-range-c98ab3e6-01909))_
 
-<a id="atom-technical-atom-cf1219ae470caeaa"></a>
+<a id="atom-technical-atom-061ce44eb6e19097"></a>
 ```
 const moveLookupTable = {
 [[
@@ -137,13 +137,13 @@ const moveLookupTable = {
 
 ### Technical frame 3: Interactive Generators / representing naughts and crosses as a stateless function / Will be represented as:
 
-**Context:** _(javascriptallonge.pdf (source-range-0e12e052-01908))_
+**Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01908))_
 
 > We can use a POJO to make a map from positions to moves. We'll use the [] notation for keys, it allows us to use any expression as a key, and JavaScript will convert it to a string. So if we write:
 
-**Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01910))_
+**Atom:** _(javascriptallonge.pdf (source-range-c98ab3e6-01910))_
 
-<a id="atom-technical-atom-5ab06977f9de46ba"></a>
+<a id="atom-technical-atom-e73e3d3d65ffc242"></a>
 ```
 ]]: 3,
 [[
@@ -167,13 +167,13 @@ const moveLookupTable = {
 
 ### Technical frame 4: Interactive Generators / representing naughts and crosses as a stateful function
 
-**Context:** _(javascriptallonge.pdf (source-range-0e12e052-01924))_
+**Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01924))_
 
 > Let's recap what we have: We have a stateful function, but we built it by wrapping a stateless function in a function that updates state based on the moves we provide. The state is encoded entirely in data.
 
-**Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01920))_
+**Atom:** _(javascriptallonge.pdf (source-range-c98ab3e6-01920))_
 
-<a id="atom-technical-atom-23143a937bd750cd"></a>
+<a id="atom-technical-atom-99b1ae448b7d20d2"></a>
 ```
 const aNaughtsAndCrossesGame = statefulNaughtsAndCrosses();
 // our opponent makes the first move
@@ -189,13 +189,13 @@ aNaughtsAndCrossesGame(4)
 
 ### Technical frame 5: Interactive Generators / representing naughts and crosses as a stateful function
 
-**Context:** _(javascriptallonge.pdf (source-range-0e12e052-01924))_
+**Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01924))_
 
 > Let's recap what we have: We have a stateful function, but we built it by wrapping a stateless function in a function that updates state based on the moves we provide. The state is encoded entirely in data.
 
-**Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01922))_
+**Atom:** _(javascriptallonge.pdf (source-range-c98ab3e6-01922))_
 
-<a id="atom-technical-atom-747d79ddd509d2cd"></a>
+<a id="atom-technical-atom-abb81136a2eaac6d"></a>
 ```
 const statefulNaughtsAndCrosses = () => {
 const state = [
@@ -209,13 +209,13 @@ if (x) {
 
 ### Technical frame 6: Interactive Generators / representing naughts and crosses as a stateful function
 
-**Context:** _(javascriptallonge.pdf (source-range-0e12e052-01924))_
+**Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01924))_
 
 > Let's recap what we have: We have a stateful function, but we built it by wrapping a stateless function in a function that updates state based on the moves we provide. The state is encoded entirely in data.
 
-**Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01923))_
+**Atom:** _(javascriptallonge.pdf (source-range-c98ab3e6-01923))_
 
-<a id="atom-technical-atom-067376184d94b5a2"></a>
+<a id="atom-technical-atom-1133dd6a2ebc76a0"></a>
 ```
 if (state[x] === ' ') {
 state[x] = 'x';
@@ -241,13 +241,13 @@ aNaughtsAndCrossesGame(4)
 
 ### Technical frame 7: Interactive Generators / this seems familiar
 
-**Context:** _(javascriptallonge.pdf (source-range-0e12e052-01930))_
+**Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01930))_
 
 > Naughts and crosses is simple enough that the lookup function seems substantially simpler, in part because linear code doesn't represent trees particularly well. But we can clearly see that if we wanted to, we could represent the state of the program implicitly in a decision tree.
 
-**Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01929))_
+**Atom:** _(javascriptallonge.pdf (source-range-c98ab3e6-01929))_
 
-<a id="atom-technical-atom-98083118e44372d1"></a>
+<a id="atom-technical-atom-ffb23103495bb440"></a>
 ```
 function browserNaughtsAndCrosses () {
 const x1 = parseInt(prompt('o plays 0, where does x play?'));
@@ -283,13 +283,13 @@ break;
 
 ### Technical frame 8: Interactive Generators / this seems familiar / interactive generators
 
-**Context:** _(javascriptallonge.pdf (source-range-0e12e052-01937))_
+**Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01937))_
 
 > Served by the Pot: Collections 260 } } break ; // ... } } const aNaughtsAndCrossesGame = generatorNaughtsAndCrosses(); We can then get the first move by calling .next() . Thereafter, we call .next(...) and pass in our moves (The very first call has to be .next() without any arguments, because the generator hasn't started yet. If we wanted to pass some state to the generator before it begins, we'd do that with parameters.): aNaughtsAndCrossesGame.next().value //=> 0 aNaughtsAndCrossesGame.next(1)
 
-**Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01936))_
+**Atom:** _(javascriptallonge.pdf (source-range-c98ab3e6-01936))_
 
-<a id="atom-technical-atom-c9b97a65e5653fd1"></a>
+<a id="atom-technical-atom-cc14fc622a8ca9d6"></a>
 ```
 function* generatorNaughtsAndCrosses () {
 const x1 = yield 0;
@@ -319,13 +319,13 @@ break;
 
 ### Technical atom 9
 
-<a id="atom-technical-atom-4f29c33a0841d43e"></a>
+<a id="atom-technical-atom-85a15d8898bf0076"></a>
 
-**Context:** _(javascriptallonge.pdf (source-range-0e12e052-01913))_
+**Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01913))_
 
 > And if we want to look up what move to make, we can write:
 
-**Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01914))_
+**Atom:** _(javascriptallonge.pdf (source-range-c98ab3e6-01914))_
 
 ```
 moveLookupTable[[
@@ -338,13 +338,13 @@ moveLookupTable[[
 
 ### Technical atom 10
 
-<a id="atom-technical-atom-9fcf1a3c35e563fa"></a>
+<a id="atom-technical-atom-e8bd210dde564a7c"></a>
 
-**Context:** _(javascriptallonge.pdf (source-range-0e12e052-01915))_
+**Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01915))_
 
 > And from there, a stateless function to play naughts-and-crosses is trivial:
 
-**Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01916))_
+**Atom:** _(javascriptallonge.pdf (source-range-c98ab3e6-01916))_
 
 ```
 statelessNaughtsAndCrosses([
@@ -357,13 +357,13 @@ statelessNaughtsAndCrosses([
 
 ### Technical atom 11
 
-<a id="atom-technical-atom-38302dfa8e8b789a"></a>
+<a id="atom-technical-atom-ffe2353d9819b581"></a>
 
-**Context:** _(javascriptallonge.pdf (source-range-0e12e052-01950))_
+**Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01950))_
 
 > Note: zip is also the following special case of zipWith :
 
-**Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01951))_
+**Atom:** _(javascriptallonge.pdf (source-range-c98ab3e6-01951))_
 
 ```
 const zip = callFirst(zipWith, (...values) => values);
@@ -374,8 +374,8 @@ const zip = callFirst(zipWith, (...values) => values);
 
 ### Source structure
 
-- [[javascriptallonge-section-interactive-generators-a0db0ac4]] - source section: Interactive Generators shares source evidence from Interactive Generators: We used generators to build iterators that maintain implicit state. We saw how to use them for recursive unfolds and state machines. But there are other times we wan ... [truncated]; Interactive Generators shares technical record from Interactive Generators / representing naughts and crosses as a stateless function / Will be represented as:: [ 'o', 'x', ' ', 'x', ' ', ' ', 'o', ' ', ' ' ] (31 shared statement(s), 17 shared atom(s))
-- [[javascriptallonge-section-interactive-generators-this-seems-familiar-interactive-generators-3de32faa]] - source section: Interactive Generators / this seems familiar / interactive generators shares source evidence from Interactive Generators / this seems familiar / interactive generators: So far, we have called iterators (and generators) with .next() . But what if we pass a value to .next() ? If we could do that, a generator function that played naugh ... [truncated]; Interactive Generators / this seems familiar / interactive generators shares technical record from Interactive Generators / this seems familiar / interactive generators: function* generatorNaughtsAndCrosses () { const x1 = yield 0; switch (x1) { case 1: const x2 = yield 6; switch (x2) { case 2: case 4: case 5: case 7: case 8: yield 3 ... [truncated] (6 shared statement(s), 1 shared atom(s))
+- [[javascriptallonge-section-interactive-generators-21aeba33]] - source section: Interactive Generators shares source evidence from Interactive Generators: We used generators to build iterators that maintain implicit state. We saw how to use them for recursive unfolds and state machines. But there are other times we wan ... [truncated]; Interactive Generators shares technical record from Interactive Generators / representing naughts and crosses as a stateless function / Will be represented as:: [ 'o', 'x', ' ', 'x', ' ', ' ', 'o', ' ', ' ' ] (31 shared statement(s), 17 shared atom(s))
+- [[javascriptallonge-section-interactive-generators-this-seems-familiar-interactive-generators-8882af95]] - source section: Interactive Generators / this seems familiar / interactive generators shares source evidence from Interactive Generators / this seems familiar / interactive generators: So far, we have called iterators (and generators) with .next() . But what if we pass a value to .next() ? If we could do that, a generator function that played naugh ... [truncated]; Interactive Generators / this seems familiar / interactive generators shares technical record from Interactive Generators / this seems familiar / interactive generators: function* generatorNaughtsAndCrosses () { const x1 = yield 0; switch (x1) { case 1: const x2 = yield 6; switch (x2) { case 2: case 4: case 5: case 7: case 8: yield 3 ... [truncated] (6 shared statement(s), 1 shared atom(s))
 
 ### Shared technical atoms
 

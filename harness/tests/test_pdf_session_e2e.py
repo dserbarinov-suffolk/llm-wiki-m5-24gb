@@ -1,8 +1,8 @@
 """End-to-end PDF ingest: real store + claim-ledger domain, fake extractor.
 
 PDF ingest is deterministic — the source page is a projection of the ledger
-built from the extracted chunks, with no model call. These tests use a fake
-extractor (synthetic manifest + chunks) and assert the projected page, the
+built from the extracted source units, with no model call. These tests use a fake
+extractor (synthetic manifest + source units) and assert the projected page, the
 ledger artifacts, and atom preservation.
 """
 
@@ -13,38 +13,108 @@ from forge.context import ContextManager, NoCompact
 
 from llmwiki.config import WikiPaths
 from llmwiki.domain.objects import IngestRun
-from llmwiki.pdf.manifest import ChunkRecord, Manifest, from_json
-from llmwiki.pdf.pipeline import ExtractionResult
+from llmwiki.pdf.document import SourceUnit, SourceUnitBlock, source_units_to_jsonl
+from llmwiki.pdf.manifest import Manifest, SourceUnitRecord, from_json
+from llmwiki.pdf.pipeline import ExtractionResult, source_units_file
 from llmwiki.runtime.session import Session
 from llmwiki.store import WikiStore
 
 TODAY = "2026-06-11"
 
-_CHUNK_ONE = (
-    "# Functions\n\nFunctions are ordinary first-class values.\n\n"
-    "A function must return a result.\n\n"
-    "```js\nconst f = () => 1;\n```\n"
-)
-_CHUNK_TWO = (
-    "# Closures\n\nClosures contain their captured scope.\n\nValue cups are undistinguishable.\n"
-)
-
-
 def _fake_extraction(paths: WikiPaths) -> ExtractionResult:
     cache_dir = paths.cache_dir / "deadbeef"
-    chunks_dir = cache_dir / "chunks"
-    chunks_dir.mkdir(parents=True, exist_ok=True)
-    (chunks_dir / "0001.md").write_text(_CHUNK_ONE, encoding="utf-8")
-    (chunks_dir / "0002.md").write_text(_CHUNK_TWO, encoding="utf-8")
+    cache_dir.mkdir(parents=True, exist_ok=True)
+    source_units = (
+        _source_unit(
+            "unit-0001",
+            "Functions",
+            1,
+            10,
+            (
+                SourceUnitBlock("element-000001", "heading", "Functions", 1, 1, "Functions"),
+                SourceUnitBlock(
+                    "element-000002",
+                    "paragraph",
+                    "Functions",
+                    1,
+                    10,
+                    "Functions are ordinary first-class values.",
+                ),
+                SourceUnitBlock(
+                    "element-000003",
+                    "paragraph",
+                    "Functions",
+                    1,
+                    10,
+                    "A function must return a result.",
+                ),
+                SourceUnitBlock(
+                    "element-000004",
+                    "code_block",
+                    "Functions",
+                    1,
+                    10,
+                    "const f = () => 1;",
+                    code_text="const f = () => 1;",
+                ),
+            ),
+        ),
+        _source_unit(
+            "unit-0002",
+            "Closures",
+            11,
+            20,
+            (
+                SourceUnitBlock("element-000005", "heading", "Closures", 11, 11, "Closures"),
+                SourceUnitBlock(
+                    "element-000006",
+                    "paragraph",
+                    "Closures",
+                    11,
+                    20,
+                    "Closures contain their captured scope.",
+                ),
+                SourceUnitBlock(
+                    "element-000007",
+                    "paragraph",
+                    "Closures",
+                    11,
+                    20,
+                    "Value cups are undistinguishable.",
+                ),
+            ),
+        ),
+    )
+    source_units_file(cache_dir).write_text(source_units_to_jsonl(source_units), encoding="utf-8")
     manifest = Manifest(
         source="book.pdf",
         sha256="deadbeef" * 8,
-        chunks=(
-            ChunkRecord(1, "Functions", 1, 10, 4000),
-            ChunkRecord(2, "Closures", 11, 20, 3800),
+        extractor_name="docling",
+        source_units=(
+            SourceUnitRecord("unit-0001", "Functions", 1, 10, 4000),
+            SourceUnitRecord("unit-0002", "Closures", 11, 20, 3800),
         ),
     )
     return ExtractionResult(manifest=manifest, cache_dir=cache_dir)
+
+
+def _source_unit(
+    unit_id: str,
+    heading_path: str,
+    page_start: int,
+    page_end: int,
+    blocks: tuple[SourceUnitBlock, ...],
+) -> SourceUnit:
+    return SourceUnit(
+        unit_id=unit_id,
+        source_section_id=f"section-{unit_id}",
+        heading_path=heading_path,
+        page_start=page_start,
+        page_end=page_end,
+        element_ids=tuple(block.element_id for block in blocks),
+        blocks=blocks,
+        token_estimate=4000,
+    )
 
 
 def _session(store: WikiStore, paths: WikiPaths, extraction: ExtractionResult) -> Session:

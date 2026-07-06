@@ -4,10 +4,10 @@ page_kind: concept
 summary: Penalty: 2 statement(s) and 1 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: topic-concept
 sources: raw/Sword World RPG - Complete Edition.pdf
-updated: 2026-07-02
+updated: 2026-07-06
 domain: sword-world-rpg-complete-edition
 category_path: concepts
-projection_coverage: topic-sword-world-rpg-complete-edition-penalty@279a1c4cda5ca05fd1a90310e82cd649
+projection_coverage: topic-sword-world-rpg-complete-edition-penalty@fa873b9489c89cf48ad6515551250d03
 ---
 
 # Penalty
@@ -18,22 +18,22 @@ What [[sword-world-rpg-complete-edition]] covers about penalty:
 
 ### 2.4 Bonuses and Penalties
 
-- In such cases, the game master applies a bonus or penalty to the success roll. Things like, +2 because they're falling over , or -4 because it's dark . _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-00973))_
+- In such cases, the game master applies a bonus or penalty to the success roll. Things like, +2 because they're falling over , or -4 because it's dark . _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-00973))_
 
-- When such bonuses or penalties are applied, the baseline score will go up or down. A player must also calculate these before making a success roll. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-00974))_
+- When such bonuses or penalties are applied, the baseline score will go up or down. A player must also calculate these before making a success roll. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-00974))_
 
 
 ## Technical atoms
 
 ### Technical frame 1: 2.4 Bonuses and Penalties
 
-**Context:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-00974))_
+**Context:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-00974))_
 
 > When such bonuses or penalties are applied, the baseline score will go up or down. A player must also calculate these before making a success roll.
 
-**Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-00975))_
+**Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-00975))_
 
-<a id="atom-technical-atom-59ca9f8714c10637"></a>
+<a id="atom-technical-atom-40168944c0315332"></a>
 > final score {baseline score + 2D ± (bonus, penalty)} ≥ target score → action is successful
 
 

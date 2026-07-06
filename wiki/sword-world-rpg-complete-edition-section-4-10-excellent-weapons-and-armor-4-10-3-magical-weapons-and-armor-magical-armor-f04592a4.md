@@ -1,0 +1,34 @@
+---
+page_id: sword-world-rpg-complete-edition-section-4-10-excellent-weapons-and-armor-4-10-3-magical-weapons-and-armor-magical-armor-f04592a4
+page_kind: source
+summary: 4.10 Excellent Weapons and Armor / 4.10.3 Magical Weapons and Armor / 【 Magical Armor 】: 9 source-backed entries and 0 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+page_family: section-reference
+sources: raw/Sword World RPG - Complete Edition.pdf
+updated: 2026-07-06
+domain: sword-world-rpg-complete-edition
+category_path: sources/sword-world-rpg-complete-edition/sections
+source_id: Sword World RPG - Complete Edition.pdf
+projection_coverage: section-sword-world-rpg-complete-edition-section-4-10-excellent-weapons-and-armor-4-10-3-magical-weapons-and-armor-magical-armor-f04592a4@ee526196e04b2a91db475d3151bff65c
+---
+
+# 4.10 Excellent Weapons and Armor / 4.10.3 Magical Weapons and Armor / 【 Magical Armor 】
+
+From [[sword-world-rpg-complete-edition]].
+
+## Related pages
+
+### Source order
+
+- [[sword-world-rpg-complete-edition-section-4-10-excellent-weapons-and-armor-4-10-3-magical-weapons-and-armor-magical-shields-e5fefca0]] - previous source section: 4.10 Excellent Weapons and Armor / 4.10.3 Magical Weapons and Armor / 【 Magical Shields 】
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-4-10-excellent-weapons-and-armor-4-10-3-magical-weapons-and-armor-6f4069c0]] - broader source section: 4.10 Excellent Weapons and Armor / 4.10.3 Magical Weapons and Armor
+
+## Statements
+
+- Magical armor increases evasion speed and damage reduction . If you wear +1 magical armor, you gain +1 to evasion speed and damage reduction. +2 means +2, and +3 means +3. The damage reduction bonus from magical armor applies only to weapon attacks. It does not reduce damage caused by magic. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01488))_
+- Magical weapons and armor are not usually traded, but if you are very lucky you may be able to buy them if they're +1. A guide to prices can be found in Chapter 14: Treasure (see p. 240). Also, they offer basically no bonus to strike power or defense power, same as required strength. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01490))_
+- High-quality ones (made with lower required strength) seem to exist only rarely . _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01491))_
+- The damage reduction bonus from magical armor applies only to weapon attacks. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01488))_
+- High-quality ones (made with lower required strength) seem to exist only rarely . _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01491))_

@@ -4,10 +4,10 @@ page_kind: concept
 summary: Programming: 9 statement(s) and 7 atom(s) from raw/javascriptallonge.pdf.
 page_family: topic-concept
 sources: raw/javascriptallonge.pdf
-updated: 2026-07-02
+updated: 2026-07-06
 domain: javascriptallonge
 category_path: concepts
-projection_coverage: topic-javascriptallonge-programming@23ea8ff4b4c10a583d4f8049c659e4bc
+projection_coverage: topic-javascriptallonge-programming@ff843b54f72e927955bd888f2b8cdb27
 ---
 
 # Programming
@@ -18,44 +18,44 @@ What [[javascriptallonge]] covers about programming:
 
 ### A Pull of the Lever: Prefaces / About JavaScript Allongé / why the 'six' edition?
 
-- Likewise, many programming languages permit functions to have a variable number of arguments, and to collect the arguments into a single variable as an array. In Ruby, we can write: _(javascriptallonge.pdf (source-range-0e12e052-00030))_
+- Likewise, many programming languages permit functions to have a variable number of arguments, and to collect the arguments into a single variable as an array. In Ruby, we can write: _(javascriptallonge.pdf (source-range-c98ab3e6-00030))_
 
 ### ECMAScript 6 has three major groups of features: / Forewords to the First Edition / michael fogus
 
-- As a staunch advocate of functional programming, much of what Reg has written rings true to me. While not exclusively a book about functional programming, JavaScript Allongé will provide a solid foundation for functional techniques. However, you'll not be beaten about the head and neck with dogma. Instead, every section is motivated by relevant dialog and fortified with compelling source examples. As an author of programming books I admire what Reg has managed to accomplish and I envy the fine reader who finds JavaScript Allongé via some darkened channel in the Internet sprawl and reads it for the first time. _(javascriptallonge.pdf (source-range-0e12e052-00089))_
+- As a staunch advocate of functional programming, much of what Reg has written rings true to me. While not exclusively a book about functional programming, JavaScript Allongé will provide a solid foundation for functional techniques. However, you'll not be beaten about the head and neck with dogma. Instead, every section is motivated by relevant dialog and fortified with compelling source examples. As an author of programming books I admire what Reg has managed to accomplish and I envy the fine reader who finds JavaScript Allongé via some darkened channel in the Internet sprawl and reads it for the first time. _(javascriptallonge.pdf (source-range-c98ab3e6-00089))_
 
 ### A Rich Aroma: Basic Numbers
 
-- In computer science, a literal is a notation for representing a fixed value in source code. Almost all programming languages have notations for atomic values such as integers, floating-point numbers, and strings, and usually for booleans and characters; some also have notations for elements of enumerated types and compound values such as arrays, records, and objects. An anonymous function is a literal for the function type.Wikipedia 12 _(javascriptallonge.pdf (source-range-0e12e052-00143))_
+- In computer science, a literal is a notation for representing a fixed value in source code. Almost all programming languages have notations for atomic values such as integers, floating-point numbers, and strings, and usually for booleans and characters; some also have notations for elements of enumerated types and compound values such as arrays, records, and objects. An anonymous function is a literal for the function type.Wikipedia 12 _(javascriptallonge.pdf (source-range-c98ab3e6-00143))_
 
 ### And also: / Closures and Scope / it's always the environment
 
-- The first function is the result of currying a the second function. Calling a curried function with only some of its arguments is sometimes called partial application b . Some programming languages automatically curry and partially evaluate functions without the need to manually nest them. _(javascriptallonge.pdf (source-range-0e12e052-00361))_
+- The first function is the result of currying a the second function. Calling a curried function with only some of its arguments is sometimes called partial application b . Some programming languages automatically curry and partially evaluate functions without the need to manually nest them. _(javascriptallonge.pdf (source-range-c98ab3e6-00361))_
 
 ### And also: / That Constant Coffee Craving
 
-- Up to now, all we've really seen are anonymous functions , functions that don't have a name. This feels very different from programming in most other languages, where the focus is on naming functions, methods, and procedures. Naming things is a critical part of programming, but all we've seen so far is how to name arguments. _(javascriptallonge.pdf (source-range-0e12e052-00380))_
+- Up to now, all we've really seen are anonymous functions , functions that don't have a name. This feels very different from programming in most other languages, where the focus is on naming functions, methods, and procedures. Naming things is a critical part of programming, but all we've seen so far is how to name arguments. _(javascriptallonge.pdf (source-range-c98ab3e6-00380))_
 
 ### Recipes with Basic Functions / Maybe
 
-- A common problem in programming is checking for null or undefined (hereafter called 'nothing,' while all other values including 0 , [] and false will be called 'something'). Languages like JavaScript do not strongly enforce the notion that a particular variable or particular property be something, so programs are often written to account for values that may be nothing. _(javascriptallonge.pdf (source-range-0e12e052-00690))_
+- A common problem in programming is checking for null or undefined (hereafter called 'nothing,' while all other values including 0 , [] and false will be called 'something'). Languages like JavaScript do not strongly enforce the notion that a particular variable or particular property be something, so programs are often written to account for values that may be nothing. _(javascriptallonge.pdf (source-range-c98ab3e6-00690))_
 
 ### Reassignment
 
-- Like some imperative programming languages, JavaScript allows you to re-assign the value bound to parameters. We saw this earlier in rebinding: _(javascriptallonge.pdf (source-range-0e12e052-01157))_
+- Like some imperative programming languages, JavaScript allows you to re-assign the value bound to parameters. We saw this earlier in rebinding: _(javascriptallonge.pdf (source-range-c98ab3e6-01157))_
 
 
 ## Technical atoms
 
 ### Technical frame 1: A Pull of the Lever: Prefaces / About JavaScript Allongé / why the 'six' edition?
 
-**Context:** _(javascriptallonge.pdf (source-range-0e12e052-00030))_
+**Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-00030))_
 
 > Likewise, many programming languages permit functions to have a variable number of arguments, and to collect the arguments into a single variable as an array. In Ruby, we can write:
 
-**Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00028))_
+**Atom:** _(javascriptallonge.pdf (source-range-c98ab3e6-00028))_
 
-<a id="atom-technical-atom-33a084ad9ef4dd37"></a>
+<a id="atom-technical-atom-9e1ce42d29747c2c"></a>
 ```
 var i;
 for (i = 0; i < array.length; ++i) {
@@ -67,13 +67,13 @@ for (i = 0; i < array.length; ++i) {
 
 ### Technical frame 2: A Pull of the Lever: Prefaces / About JavaScript Allongé / why the 'six' edition?
 
-**Context:** _(javascriptallonge.pdf (source-range-0e12e052-00032))_
+**Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-00032))_
 
 > Prior to ECMAScript 2015, JavaScript did not support collecting a variable number of arguments into a parameter, so programmers would take advantage of an awkward work-around and write things like:
 
-**Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00031))_
+**Atom:** _(javascriptallonge.pdf (source-range-c98ab3e6-00031))_
 
-<a id="atom-technical-atom-02a1f7c48c464f9a"></a>
+<a id="atom-technical-atom-914506c42e89fcec"></a>
 ```
 def foo (first, *rest)
 # ...
@@ -82,37 +82,37 @@ end
 
 ### Technical frame 3: A Rich Aroma: Basic Numbers
 
-**Context:** _(javascriptallonge.pdf (source-range-0e12e052-00147))_
+**Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-00147))_
 
 > For example, the largest integer JavaScript can safely 14 handle is 9007199254740991 , or 2 '53' - 1 . Like most programming languages, JavaScript does not allow us to use commas to separate groups of digits.
 
-**Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00146))_
+**Atom:** _(javascriptallonge.pdf (source-range-c98ab3e6-00146))_
 
-<a id="atom-technical-atom-31b2e9c525c55db3"></a>
+<a id="atom-technical-atom-21633fcb699bacde"></a>
 > The machine's representation of a number almost never lines up perfectly with our understanding of how a number behaves, and thus there will be places where the computer's behaviour surprises us if we don't know a little about what it's doing 'under the hood.'
 
 ### Technical frame 4: And also: / Closures and Scope / it's always the environment
 
-**Context:** _(javascriptallonge.pdf (source-range-0e12e052-00360))_
+**Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-00360))_
 
 > Only you call it with (1)(2)(3) instead of (1, 2, 3) . The other big difference is that you can call it with (1) and get a function back that you can later call with (2)(3) .
 
-**Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00359))_
+**Atom:** _(javascriptallonge.pdf (source-range-c98ab3e6-00359))_
 
-<a id="atom-technical-atom-ed81aab62f6b0a9f"></a>
+<a id="atom-technical-atom-30a4e428ab8015d7"></a>
 ```
 (x, y, z) => x + y + z
 ```
 
 ### Technical frame 5: Recipes with Basic Functions / Maybe
 
-**Context:** _(javascriptallonge.pdf (source-range-0e12e052-00695))_
+**Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-00695))_
 
 > Naturally, there's a function decorator recipe for that, borrowed from Haskell's maybe monad 50 , Ruby's andand 51 , and CoffeeScript's existential method invocation:
 
-**Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00697))_
+**Atom:** _(javascriptallonge.pdf (source-range-c98ab3e6-00697))_
 
-<a id="atom-technical-atom-5afd53750bded0f2"></a>
+<a id="atom-technical-atom-b584cc27a63d4a4f"></a>
 ```text
 50 https://en.wikipedia.org/wiki/Monad_(functional_programming)#The_Maybe_monad
 51 https://github.com/raganwald/andand

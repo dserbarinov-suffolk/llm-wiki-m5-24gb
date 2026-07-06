@@ -4,12 +4,12 @@ page_kind: recipe
 summary: implementing methods with iteration: reusable source-backed pattern with 6 statement(s) and 8 technical atom(s) from raw/javascriptallonge.pdf.
 page_family: recipe-pattern
 sources: raw/javascriptallonge.pdf
-updated: 2026-07-02
+updated: 2026-07-06
 domain: javascriptallonge
 category_path: recipes/javascriptallonge
 source_id: javascriptallonge.pdf
 aliases: implementing-methods-with-iteration
-projection_coverage: recipe-javascriptallonge-recipe-implementing-methods-with-iteration@b6d61161604765d7b62cab69907b4045
+projection_coverage: recipe-javascriptallonge-recipe-implementing-methods-with-iteration@fb2fd9ef2d08b111b5b2886d07243948
 ---
 
 # implementing methods with iteration
@@ -18,23 +18,23 @@ From [[javascriptallonge]].
 
 ## Pattern
 
-- Use the source-backed pattern described in [[javascriptallonge-section-lazy-and-eager-collections-implementing-methods-with-iteration-e2493942]].
+- Use the source-backed pattern described in [[javascriptallonge-section-lazy-and-eager-collections-implementing-methods-with-iteration-7da1cc7d]].
 - Evidence roles: decision, constraint, example.
 
 ## Applicability And Rationale
 
-- Object-oriented collections should definitely have methods for mapping, reducing, filtering, and finding. _(javascriptallonge.pdf (source-range-0e12e052-01765))_
-- And they should know how to accomplish the desired result, but they should do so by delegating as much of the work as possible to operations like mapWith . _(javascriptallonge.pdf (source-range-0e12e052-01765))_
-- And if we want to create convenience methods, we can reuse common pieces. _(javascriptallonge.pdf (source-range-0e12e052-01766))_
-- Composing an iterable with a mapIterable method cleaves the responsibility for knowing how to map from the fiddly bits of how a linked list differs from a stack. _(javascriptallonge.pdf (source-range-0e12e052-01766))_
-- For simplicity, we'll show how to mix it into Numbers and Pair . _(javascriptallonge.pdf (source-range-0e12e052-01772))_
-- To use LazyCollection , we mix it into an any iterable object. _(javascriptallonge.pdf (source-range-0e12e052-01772))_
+- Object-oriented collections should definitely have methods for mapping, reducing, filtering, and finding. _(javascriptallonge.pdf (source-range-c98ab3e6-01765))_
+- And they should know how to accomplish the desired result, but they should do so by delegating as much of the work as possible to operations like mapWith . _(javascriptallonge.pdf (source-range-c98ab3e6-01765))_
+- Composing an iterable with a mapIterable method cleaves the responsibility for knowing how to map from the fiddly bits of how a linked list differs from a stack. _(javascriptallonge.pdf (source-range-c98ab3e6-01766))_
+- And if we want to create convenience methods, we can reuse common pieces. _(javascriptallonge.pdf (source-range-c98ab3e6-01766))_
+- For simplicity, we'll show how to mix it into Numbers and Pair . _(javascriptallonge.pdf (source-range-c98ab3e6-01772))_
+- To use LazyCollection , we mix it into an any iterable object. _(javascriptallonge.pdf (source-range-c98ab3e6-01772))_
 
 ## Technical Atoms
 
 ### Atom 1: `code-block`
 
-_Source: javascriptallonge.pdf (source-range-0e12e052-01768)_
+_Source: javascriptallonge.pdf (source-range-c98ab3e6-01768)_
 
 ```
 const extend = function (consumer, ...providers) {
@@ -78,7 +78,7 @@ return accumulator;
 
 ### Atom 2: `code-block`
 
-_Source: javascriptallonge.pdf (source-range-0e12e052-01769)_
+_Source: javascriptallonge.pdf (source-range-c98ab3e6-01769)_
 
 ```
 },
@@ -121,7 +121,7 @@ done, value: done ? undefined : value
 
 ### Atom 3: `code-block`
 
-_Source: javascriptallonge.pdf (source-range-0e12e052-01770)_
+_Source: javascriptallonge.pdf (source-range-c98ab3e6-01770)_
 
 ```
 }, LazyCollection)
@@ -162,7 +162,7 @@ return Object.assign({
 
 ### Atom 4: `code-block`
 
-_Source: javascriptallonge.pdf (source-range-0e12e052-01771)_
+_Source: javascriptallonge.pdf (source-range-c98ab3e6-01771)_
 
 ```
 [Symbol.iterator]: () => {
@@ -187,7 +187,7 @@ done, value: done ? undefined : value
 
 ### Atom 5: `code-block`
 
-_Source: javascriptallonge.pdf (source-range-0e12e052-01773)_
+_Source: javascriptallonge.pdf (source-range-c98ab3e6-01773)_
 
 ```
 const Numbers = Object.assign({
@@ -206,7 +206,7 @@ isEmpty: () => true
 
 ### Atom 6: `code-block`
 
-_Source: javascriptallonge.pdf (source-range-0e12e052-01774)_
+_Source: javascriptallonge.pdf (source-range-c98ab3e6-01774)_
 
 ```
 };
@@ -248,4 +248,4 @@ push: function (value) {
 ## Source Trail
 
 - Source manifest: [[javascriptallonge]]
-- Source section: [[javascriptallonge-section-lazy-and-eager-collections-implementing-methods-with-iteration-e2493942]]
+- Source section: [[javascriptallonge-section-lazy-and-eager-collections-implementing-methods-with-iteration-7da1cc7d]]

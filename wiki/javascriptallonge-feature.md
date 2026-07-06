@@ -4,10 +4,10 @@ page_kind: concept
 summary: Feature: 4 statement(s) and 4 atom(s) from raw/javascriptallonge.pdf.
 page_family: topic-concept
 sources: raw/javascriptallonge.pdf
-updated: 2026-07-02
+updated: 2026-07-06
 domain: javascriptallonge
 category_path: concepts
-projection_coverage: topic-javascriptallonge-feature@abfe8fc28e7ecb1225c6133a6b5a7ea0
+projection_coverage: topic-javascriptallonge-feature@3ddbaab3c21199d780b37ff542b72468
 ---
 
 # Feature
@@ -18,28 +18,28 @@ What [[javascriptallonge]] covers about feature:
 
 ### A Pull of the Lever: Prefaces / About JavaScript Allongé / why the 'six' edition?
 
-- ECMAScript 2015 (formerly called ECMAScript 6 or 'ES6'), is ushering in a very large number of improvements to the way programmers can write small, powerful components and combine them into larger, fully featured programs. Features like destructuring, block-structured variables, iterables, generators, and the class keyword are poised to make JavaScript programming more expressive. _(javascriptallonge.pdf (source-range-0e12e052-00023))_
+- ECMAScript 2015 (formerly called ECMAScript 6 or 'ES6'), is ushering in a very large number of improvements to the way programmers can write small, powerful components and combine them into larger, fully featured programs. Features like destructuring, block-structured variables, iterables, generators, and the class keyword are poised to make JavaScript programming more expressive. _(javascriptallonge.pdf (source-range-c98ab3e6-00023))_
 
-- Working around the missing features was a necessary evil. _(javascriptallonge.pdf (source-range-0e12e052-00035))_
+- Working around the missing features was a necessary evil. _(javascriptallonge.pdf (source-range-c98ab3e6-00035))_
 
-- And presto, rest collects the rest of the arguments without a lot of malarky involving slicing arguments . Not having to work around these kinds of missing features makes JavaScript Allongé a better book , because it can focus on the why to do something and when to do it, instead of on the how to make it work _(javascriptallonge.pdf (source-range-0e12e052-00040))_
+- And presto, rest collects the rest of the arguments without a lot of malarky involving slicing arguments . Not having to work around these kinds of missing features makes JavaScript Allongé a better book , because it can focus on the why to do something and when to do it, instead of on the how to make it work _(javascriptallonge.pdf (source-range-c98ab3e6-00040))_
 
 ### A Pull of the Lever: Prefaces / Foreword to the 'Six' edition
 
-- A larger upgrade would substantially improve JavaScript, but without being as radical as ECMAScript 4. This upgrade became ECMAScript 6 (some features that were initially discussed will show up later, in upcoming ECMAScript versions). _(javascriptallonge.pdf (source-range-0e12e052-00073))_
+- A larger upgrade would substantially improve JavaScript, but without being as radical as ECMAScript 4. This upgrade became ECMAScript 6 (some features that were initially discussed will show up later, in upcoming ECMAScript versions). _(javascriptallonge.pdf (source-range-c98ab3e6-00073))_
 
 
 ## Technical atoms
 
 ### Technical frame 1: A Pull of the Lever: Prefaces / About JavaScript Allongé / why the 'six' edition?
 
-**Context:** _(javascriptallonge.pdf (source-range-0e12e052-00038))_
+**Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-00038))_
 
 > And i is scoped to the for loop. We can also write:
 
-**Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00037))_
+**Atom:** _(javascriptallonge.pdf (source-range-c98ab3e6-00037))_
 
-<a id="atom-technical-atom-424a0a8e8a0c5de6"></a>
+<a id="atom-technical-atom-2d0667e1ae0b1a9f"></a>
 ```
 for (let i = 0; i < array.length; ++i) {
 // ...
@@ -48,13 +48,13 @@ for (let i = 0; i < array.length; ++i) {
 
 ### Technical frame 2: A Pull of the Lever: Prefaces / About JavaScript Allongé / why the 'six' edition?
 
-**Context:** _(javascriptallonge.pdf (source-range-0e12e052-00040))_
+**Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-00040))_
 
 > And presto, rest collects the rest of the arguments without a lot of malarky involving slicing arguments . Not having to work around these kinds of missing features makes JavaScript Allongé a better book , because it can focus on the why to do something and when to do it, instead of on the how to make it work
 
-**Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00039))_
+**Atom:** _(javascriptallonge.pdf (source-range-c98ab3e6-00039))_
 
-<a id="atom-technical-atom-4c8367e1e02a1633"></a>
+<a id="atom-technical-atom-ecec909eb0f78ef3"></a>
 ```
 function foo (first, ...rest) {
 // ...
@@ -63,13 +63,13 @@ function foo (first, ...rest) {
 
 ### Technical frame 3: ECMAScript 6 has three major groups of features:
 
-**Context:** _(javascriptallonge.pdf (source-range-0e12e052-00081))_
+**Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-00081))_
 
 > With ECMAScript 6, JavaScript has become much larger as a language. JavaScript Allongé, the 'Six' Edition is both a comprehensive tour of its features and a rich collection of techniques for making better use of them. You will learn much about functional programming and object-oriented programming. And you'll do so via ES6 code, handed to you in small, easily digestible pieces.
 
-**Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00083))_
+**Atom:** _(javascriptallonge.pdf (source-range-c98ab3e6-00083))_
 
-<a id="atom-technical-atom-8d2772ab4d71ef15"></a>
+<a id="atom-technical-atom-5cd434a2e2ddee73"></a>
 ```text
 2 http://www.2ality.com
 4 http://exploringjs.com

@@ -4,10 +4,10 @@ page_kind: concept
 summary: Sorcerer Guild Academy: 2 statement(s) and 0 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: topic-concept
 sources: raw/Sword World RPG - Complete Edition.pdf
-updated: 2026-07-02
+updated: 2026-07-06
 domain: sword-world-rpg-complete-edition
 category_path: concepts
-projection_coverage: topic-sword-world-rpg-complete-edition-sorcerer-guild-academy@42c605c4fbbd7b8f408ebe100fdae65d
+projection_coverage: topic-sword-world-rpg-complete-edition-sorcerer-guild-academy@15796c4bbb5aad5c7bbba99551860602
 ---
 
 # Sorcerer Guild Academy
@@ -18,9 +18,9 @@ What [[sword-world-rpg-complete-edition]] covers about sorcerer guild academy:
 
 ### 18.3 Rules for Destroying Structures / Organizations and Groups / Thieves Guild/Sorcerers' Guild (Academy)
 
-- Though not official guilds, the Thieves Guild and Sorcerers' Guild (Academy) are essential organizations. Both are global organizations that regularly exchange information between headquarters and branches. Thieves, Sorcerers, and Sages belong to these groups. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-10772))_
+- Though not official guilds, the Thieves Guild and Sorcerers' Guild (Academy) are essential organizations. Both are global organizations that regularly exchange information between headquarters and branches. Thieves, Sorcerers, and Sages belong to these groups. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-10772))_
 
-- The Sorcerers' Guild, on the other hand, is less restrictive and operates more as a cooperative for mutual development. It's closest to an academic society. While the advice is readily available, it might not be particularly reliable in times of crisis. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-10774))_
+- The Sorcerers' Guild, on the other hand, is less restrictive and operates more as a cooperative for mutual development. It's closest to an academic society. While the advice is readily available, it might not be particularly reliable in times of crisis. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-10774))_
 
 
 ## Related pages

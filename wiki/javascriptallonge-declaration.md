@@ -4,10 +4,10 @@ page_kind: concept
 summary: Declaration: 4 statement(s) and 8 atom(s) from raw/javascriptallonge.pdf.
 page_family: topic-concept
 sources: raw/javascriptallonge.pdf
-updated: 2026-07-02
+updated: 2026-07-06
 domain: javascriptallonge
 category_path: concepts
-projection_coverage: topic-javascriptallonge-declaration@7c37fc109c1ef0cd65ddcdfed294640e
+projection_coverage: topic-javascriptallonge-declaration@9b07983766a2af19acb3863643fbb6ff
 ---
 
 # Declaration
@@ -18,30 +18,30 @@ What [[javascriptallonge]] covers about declaration:
 
 ### And also: / Naming Functions / function declarations
 
-- In that it binds a name in the environment to a named function. However, there are two important differences. First, function declarations are hoisted to the top of the function in which they occur. _(javascriptallonge.pdf (source-range-0e12e052-00535))_
+- In that it binds a name in the environment to a named function. However, there are two important differences. First, function declarations are hoisted to the top of the function in which they occur. _(javascriptallonge.pdf (source-range-c98ab3e6-00535))_
 
 ### And also: / Naming Functions / function declaration caveats 34
 
-- Function declarations are formally only supposed to be made at what we might call the 'top level' of a function. Although some JavaScript environments permit the following code, this example is technically illegal and definitely a bad idea: _(javascriptallonge.pdf (source-range-0e12e052-00543))_
+- Function declarations are formally only supposed to be made at what we might call the 'top level' of a function. Although some JavaScript environments permit the following code, this example is technically illegal and definitely a bad idea: _(javascriptallonge.pdf (source-range-c98ab3e6-00543))_
 
-- Function declarations are not supposed to occur inside of blocks. The big trouble with expressions like this is that they may work just fine in your test environment but work a different way in production. Or it may work one way today and a different way when the JavaScript engine is updated, say with a new optimization. _(javascriptallonge.pdf (source-range-0e12e052-00546))_
+- Function declarations are not supposed to occur inside of blocks. The big trouble with expressions like this is that they may work just fine in your test environment but work a different way in production. Or it may work one way today and a different way when the JavaScript engine is updated, say with a new optimization. _(javascriptallonge.pdf (source-range-c98ab3e6-00546))_
 
 ### Reassignment / mixing let and const / var
 
-- But, again, it is unwise to expect consistency. A function declaration can appear anywhere within a function, but the declaration and the definition are hoisted. Note this example of a function that uses a helper: _(javascriptallonge.pdf (source-range-0e12e052-01189))_
+- But, again, it is unwise to expect consistency. A function declaration can appear anywhere within a function, but the declaration and the definition are hoisted. Note this example of a function that uses a helper: _(javascriptallonge.pdf (source-range-c98ab3e6-01189))_
 
 
 ## Technical atoms
 
 ### Technical frame 1: And also: / Naming Functions / function declarations
 
-**Context:** _(javascriptallonge.pdf (source-range-0e12e052-00535))_
+**Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-00535))_
 
 > In that it binds a name in the environment to a named function. However, there are two important differences. First, function declarations are hoisted to the top of the function in which they occur.
 
-**Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00533))_
+**Atom:** _(javascriptallonge.pdf (source-range-c98ab3e6-00533))_
 
-<a id="atom-technical-atom-453990520af7bc31"></a>
+<a id="atom-technical-atom-0ab51df09609c9a7"></a>
 ```
 function someName () {
 // ...
@@ -54,26 +54,26 @@ const someName = function someName ()
 
 ### Technical frame 2: And also: / Naming Functions / function declarations
 
-**Context:** _(javascriptallonge.pdf (source-range-0e12e052-00535))_
+**Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-00535))_
 
 > In that it binds a name in the environment to a named function. However, there are two important differences. First, function declarations are hoisted to the top of the function in which they occur.
 
-**Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00534))_
+**Atom:** _(javascriptallonge.pdf (source-range-c98ab3e6-00534))_
 
-<a id="atom-technical-atom-f72d1116e0b95f4e"></a>
+<a id="atom-technical-atom-6e5c8cf419fc735b"></a>
 ```
 {
 ```
 
 ### Technical frame 3: And also: / Naming Functions / function declarations
 
-**Context:** _(javascriptallonge.pdf (source-range-0e12e052-00541))_
+**Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-00541))_
 
 > The definition of the fizzbuzz is 'hoisted' to the top of its enclosing scope (an IIFE in this case). This behaviour is intentional on the part of JavaScript's design to facilitate a certain style of programming where you put the main logic up front, and the 'helper functions' at the bottom. It is not necessary to declare functions in this way in JavaScript, but understanding the syntax and its behaviour (especially the way it differs from const ) is essential for working with production code.
 
-**Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00539))_
+**Atom:** _(javascriptallonge.pdf (source-range-c98ab3e6-00539))_
 
-<a id="atom-technical-atom-30bd3487342b5bd3"></a>
+<a id="atom-technical-atom-524f907061a9862d"></a>
 ```
 (function () {
 return fizzbuzz();
@@ -89,13 +89,13 @@ const fizzbuzz = function fizzbuzz () {
 
 ### Technical frame 4: And also: / Naming Functions / function declarations
 
-**Context:** _(javascriptallonge.pdf (source-range-0e12e052-00541))_
+**Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-00541))_
 
 > The definition of the fizzbuzz is 'hoisted' to the top of its enclosing scope (an IIFE in this case). This behaviour is intentional on the part of JavaScript's design to facilitate a certain style of programming where you put the main logic up front, and the 'helper functions' at the bottom. It is not necessary to declare functions in this way in JavaScript, but understanding the syntax and its behaviour (especially the way it differs from const ) is essential for working with production code.
 
-**Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00540))_
+**Atom:** _(javascriptallonge.pdf (source-range-c98ab3e6-00540))_
 
-<a id="atom-technical-atom-fb0b9ce888acf178"></a>
+<a id="atom-technical-atom-48428010d2f136cf"></a>
 ```
 const fizzbuzz = function fizzbuzz ()
 return "Fizz" + "Buzz";
@@ -106,13 +106,13 @@ return fizzbuzz();
 
 ### Technical frame 5: And also: / Naming Functions / function declaration caveats 34
 
-**Context:** _(javascriptallonge.pdf (source-range-0e12e052-00549))_
+**Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-00549))_
 
 > The parentheses make this an expression, not a function declaration.
 
-**Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00548))_
+**Atom:** _(javascriptallonge.pdf (source-range-c98ab3e6-00548))_
 
-<a id="atom-technical-atom-ab153667b01d5d1e"></a>
+<a id="atom-technical-atom-10f60b81014128d0"></a>
 ```
 function trueDat () { return true }
 But this is not:
@@ -121,13 +121,13 @@ But this is not:
 
 ### Technical frame 6: Reassignment / mixing let and const / var
 
-**Context:** _(javascriptallonge.pdf (source-range-0e12e052-01188))_
+**Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01188))_
 
 > Declaring age twice does not cause an error(!), and the inner declaration does not shadow the outer declaration. All var declarations behave as if they were hoisted to the top of the function, a little like function declarations.
 
-**Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01187))_
+**Atom:** _(javascriptallonge.pdf (source-range-c98ab3e6-01187))_
 
-<a id="atom-technical-atom-d4c7dd4ee1a2d1be"></a>
+<a id="atom-technical-atom-bccd27cd263f4eda"></a>
 ```
 (() => {
 var age = 49;
@@ -141,13 +141,13 @@ return age;
 
 ### Technical frame 7: Reassignment / mixing let and const / var
 
-**Context:** _(javascriptallonge.pdf (source-range-0e12e052-01195))_
+**Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01195))_
 
 > In that way, var is a little like const and let , we should always declare and bind names before using them. But it's not like const and let in that it's function scoped, not block scoped.
 
-**Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01190))_
+**Atom:** _(javascriptallonge.pdf (source-range-c98ab3e6-01190))_
 
-<a id="atom-technical-atom-352b5d36412b2fda"></a>
+<a id="atom-technical-atom-f0a089a5065492ef"></a>
 ```
 const factorial = (n) => {
 return innerFactorial(n, 1);
@@ -166,13 +166,13 @@ factorial(4)
 
 ### Technical frame 8: Reassignment / mixing let and const / var
 
-**Context:** _(javascriptallonge.pdf (source-range-0e12e052-01195))_
+**Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01195))_
 
 > In that way, var is a little like const and let , we should always declare and bind names before using them. But it's not like const and let in that it's function scoped, not block scoped.
 
-**Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01194))_
+**Atom:** _(javascriptallonge.pdf (source-range-c98ab3e6-01194))_
 
-<a id="atom-technical-atom-ac884e411f763d00"></a>
+<a id="atom-technical-atom-10083092d505fe38"></a>
 ```
 const factorial = (n) => {
 let innerFactorial = undefined;

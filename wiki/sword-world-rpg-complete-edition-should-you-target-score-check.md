@@ -4,10 +4,10 @@ page_kind: concept
 summary: Should You Target Score Check: 3 statement(s) and 2 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: topic-concept
 sources: raw/Sword World RPG - Complete Edition.pdf
-updated: 2026-07-02
+updated: 2026-07-06
 domain: sword-world-rpg-complete-edition
 category_path: concepts
-projection_coverage: topic-sword-world-rpg-complete-edition-should-you-target-score-check@c4cc2217c52d73b2ad8c75b01ad09688
+projection_coverage: topic-sword-world-rpg-complete-edition-should-you-target-score-check@85db6c213c39e49d2cad4d8e70691625
 ---
 
 # Should You Target Score Check
@@ -18,35 +18,35 @@ What [[sword-world-rpg-complete-edition]] covers about should you target score c
 
 ### Chapter 9: / Setting Target Scores and Difficulties / Should You Use a Target Score Check or a Difficulty Check?
 
-- There are two types of success rolls: those that use a target score for the check and those that use a difficulty for the check. The game master must decide which of these should be used to make the success roll. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-04638))_
+- There are two types of success rolls: those that use a target score for the check and those that use a difficulty for the check. The game master must decide which of these should be used to make the success roll. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-04638))_
 
-- The standard for deciding is whether the character can tell if the action succeeded or failed . For example, if you want to jump over a cliff, success or failure is clear. If you succeed, you can jump over it, and if you fail, you will fall. Checks for actions with clear successes or failures are made using target scores . _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-04639))_
+- The standard for deciding is whether the character can tell if the action succeeded or failed . For example, if you want to jump over a cliff, success or failure is clear. If you succeed, you can jump over it, and if you fail, you will fall. Checks for actions with clear successes or failures are made using target scores . _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-04639))_
 
-- These actions result in a difficulty check . If you can fail on a success roll but still have it appear to be a success, then the success roll should be made as a difficulty check. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-04641))_
+- These actions result in a difficulty check . If you can fail on a success roll but still have it appear to be a success, then the success roll should be made as a difficulty check. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-04641))_
 
 
 ## Technical atoms
 
 ### Technical frame 1: Chapter 9: / Setting Target Scores and Difficulties / Should You Use a Target Score Check or a Difficulty Check?
 
-**Context:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-04640))_
+**Context:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-04640))_
 
 > An example of something where success or failure cannot be determined is finding a trap. When a trap is not found, a character has no way of knowing whether there really are no traps or if it's because they couldn't find it. The same goes for when you're sneaking up on a sleeping monster. Even though it looks like it's a success, the monster may actually be pretending to be asleep.
 
-**Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-04639))_
+**Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-04639))_
 
-<a id="atom-technical-atom-12866225b78d24ef"></a>
+<a id="atom-technical-atom-08d3ce8b7bbfdcb9"></a>
 > The standard for deciding is whether the character can tell if the action succeeded or failed .
 
 ### Technical frame 2: Chapter 9: / Setting Target Scores and Difficulties / Should You Use a Target Score Check or a Difficulty Check?
 
-**Context:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-04645))_
+**Context:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-04645))_
 
 > However, this is not possible without knowing the difficulty.
 
-**Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-04644))_
+**Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-04644))_
 
-<a id="atom-technical-atom-90f64cf231f4a242"></a>
+<a id="atom-technical-atom-908a1b19c827f852"></a>
 > If the difficulty is clear, let's say it's 3, players can infer that they can only fail when the game master rolls an 11 or 12.
 
 

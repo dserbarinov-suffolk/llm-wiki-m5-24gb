@@ -51,12 +51,12 @@ from llmwiki.domain.planning import (
 from llmwiki.domain.salience import compute_salience
 from llmwiki.domain.source_batching import SourceTextChunk, markdown_source_chunks
 from llmwiki.pdf import PdfError
-from llmwiki.pdf.document import DocumentModel
+from llmwiki.pdf.document import DocumentModel, render_source_unit
 from llmwiki.pdf.pipeline import (
     ExtractionResult,
-    chunk_file,
     read_document_model,
     read_source_text,
+    read_source_units,
     save_manifest,
 )
 from llmwiki.runtime.chat_turn import prepare_chat_turn
@@ -255,8 +255,11 @@ class Session:
             page_plan=page_plan,
             chunks=chunks,
             document_model=read_document_model(result.cache_dir),
-            source_text=source_text_from_text(
-                source_locator, read_source_text(result.cache_dir), "pdf-cache"
+            source_text=SourceText(
+                source_locator=source_locator,
+                source_hash=manifest.sha256,
+                source_text_kind="structured-pdf-cache",
+                lines=tuple(read_source_text(result.cache_dir).splitlines()),
             ),
             run=self._pdf_ingest_run(source_locator, page_plan),
         )
@@ -325,7 +328,7 @@ class Session:
         if self.on_chunk_note is not None:
             self.on_chunk_note(ledger.summary)
         report = (
-            f"Claim-ledger ingest of raw/{source_locator} ({len(chunks)} chunk(s)).\n"
+            f"Claim-ledger ingest of raw/{source_locator} ({len(chunks)} source unit(s)).\n"
             f"{ledger.summary}\n"
             f"Source page: {written}; linked pages: {len(ledger.topic_pages)}. "
             f"Ledger artifacts: {self.store.page_plan_artifact_dir(source_locator)}/ledger.\n"
@@ -584,16 +587,16 @@ class Session:
     def _extracted_units(
         self, result: ExtractionResult, raw_source: RawSource
     ) -> tuple[ExtractedUnit, ...]:
+        source_units = read_source_units(result.cache_dir)
         units = []
-        for record in result.manifest.chunks:
-            text = chunk_file(result.cache_dir, record.chunk_id).read_text(encoding="utf-8")
+        for source_unit in source_units:
             units.append(
                 ExtractedUnit(
-                    unit_id=f"unit-{record.chunk_id:04d}",
+                    unit_id=source_unit.unit_id,
                     raw_source=raw_source,
-                    locator=f"p.{record.start_page}-{record.end_page}",
-                    heading_path=record.heading,
-                    text=text,
+                    locator=f"p.{source_unit.page_start}-{source_unit.page_end}",
+                    heading_path=source_unit.heading_path,
+                    text=render_source_unit(source_unit),
                     extraction_status="ok",
                     source_hash=result.manifest.sha256,
                 )

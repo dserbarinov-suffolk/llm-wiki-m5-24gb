@@ -4,10 +4,10 @@ page_kind: concept
 summary: Statement: 6 statement(s) and 11 atom(s) from raw/javascriptallonge.pdf.
 page_family: topic-concept
 sources: raw/javascriptallonge.pdf
-updated: 2026-07-02
+updated: 2026-07-06
 domain: javascriptallonge
 category_path: concepts
-projection_coverage: topic-javascriptallonge-statement@dc84126a6cb1a0fb9f758b68a34e68ef
+projection_coverage: topic-javascriptallonge-statement@217acb528c2bfdcebed78d763e1e3539
 ---
 
 # Statement
@@ -18,38 +18,38 @@ What [[javascriptallonge]] covers about statement:
 
 ### And also: / Ah. I'd Like to Have an Argument, Please. 22 / a quick summary of functions and bodies
 
-- One of the important possible statements is a return statement. A return statement accepts any valid JavaScript expression. _(javascriptallonge.pdf (source-range-0e12e052-00283))_
+- One of the important possible statements is a return statement. A return statement accepts any valid JavaScript expression. _(javascriptallonge.pdf (source-range-c98ab3e6-00283))_
 
 ### And also: / That Constant Coffee Craving / nested blocks
 
-- The if statement is a statement, not an expression (an unfortunate design choice), and its clauses are statements or blocks. So we could also write something like: _(javascriptallonge.pdf (source-range-0e12e052-00437))_
+- The if statement is a statement, not an expression (an unfortunate design choice), and its clauses are statements or blocks. So we could also write something like: _(javascriptallonge.pdf (source-range-c98ab3e6-00437))_
 
 ### And also: / That Constant Coffee Craving / are consts also from a shadowy planet?
 
-- But const statements can appear inside blocks, and we saw that blocks can appear inside of other blocks, including function bodies. So where are const variables bound? In the function environment? Or in an environment corresponding to the block? _(javascriptallonge.pdf (source-range-0e12e052-00460))_
+- But const statements can appear inside blocks, and we saw that blocks can appear inside of other blocks, including function bodies. So where are const variables bound? In the function environment? Or in an environment corresponding to the block? _(javascriptallonge.pdf (source-range-c98ab3e6-00460))_
 
-- Parameters are only bound when we invoke a function. That's why we made all these IIFEs. But const statements can appear inside blocks. What happens when we use a const inside of a block? We'll need a gratuitous block. We've seen if statements, what could be more gratuitous than: _(javascriptallonge.pdf (source-range-0e12e052-00476))_
+- Parameters are only bound when we invoke a function. That's why we made all these IIFEs. But const statements can appear inside blocks. What happens when we use a const inside of a block? We'll need a gratuitous block. We've seen if statements, what could be more gratuitous than: _(javascriptallonge.pdf (source-range-c98ab3e6-00476))_
 
 ### And also: / Summary / Functions
 
-- Blocks also create scopes if const statements are within them. _(javascriptallonge.pdf (source-range-0e12e052-00644))_
+- Blocks also create scopes if const statements are within them. _(javascriptallonge.pdf (source-range-c98ab3e6-00644))_
 
 ### Composing and Decomposing Data / Arrays and Destructuring Arguments / destructuring arrays
 
-- The statement const [something] = wrapped; destructures the array represented by wrapped , binding the value of its single element to the name something . We can do the same thing with more than one element: _(javascriptallonge.pdf (source-range-0e12e052-00841))_
+- The statement const [something] = wrapped; destructures the array represented by wrapped , binding the value of its single element to the name something . We can do the same thing with more than one element: _(javascriptallonge.pdf (source-range-c98ab3e6-00841))_
 
 
 ## Technical atoms
 
 ### Technical frame 1: Or even: / back on the block
 
-**Context:** _(javascriptallonge.pdf (source-range-0e12e052-00245))_
+**Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-00245))_
 
 > But no matter how we arrange them, a block with one or more expressions still evaluates to undefined :
 
-**Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00246))_
+**Atom:** _(javascriptallonge.pdf (source-range-c98ab3e6-00246))_
 
-<a id="atom-technical-atom-d51366af88ef2feb"></a>
+<a id="atom-technical-atom-34ea4e035787e576"></a>
 ```text
 //=> undefined
 We said that the function returns the result of evaluating a block, and we said that a block is a
@@ -168,13 +168,13 @@ Ah. I’d Like to Have an Argument, Please.22
 
 ### Technical frame 2: And also: / That Constant Coffee Craving / nested blocks
 
-**Context:** _(javascriptallonge.pdf (source-range-0e12e052-00437))_
+**Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-00437))_
 
 > The if statement is a statement, not an expression (an unfortunate design choice), and its clauses are statements or blocks. So we could also write something like:
 
-**Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00434))_
+**Atom:** _(javascriptallonge.pdf (source-range-c98ab3e6-00434))_
 
-<a id="atom-technical-atom-813af9924af2ee84"></a>
+<a id="atom-technical-atom-e67b820748ba0049"></a>
 ```
 (n) => {
 const even = (x) => {
@@ -189,13 +189,13 @@ return even(n)
 
 ### Technical frame 3: And also: / That Constant Coffee Craving / nested blocks
 
-**Context:** _(javascriptallonge.pdf (source-range-0e12e052-00441))_
+**Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-00441))_
 
 > We've used a block as the else clause, and since it's a block, we've placed a const statement inside it.
 
-**Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00438))_
+**Atom:** _(javascriptallonge.pdf (source-range-c98ab3e6-00438))_
 
-<a id="atom-technical-atom-1b3bb52352723ac1"></a>
+<a id="atom-technical-atom-0d9f08f18535239f"></a>
 ```
 (n) => {
 const even = (x) => {
@@ -209,13 +209,13 @@ return odd(x - 1);
 
 ### Technical frame 4: And also: / That Constant Coffee Craving / nested blocks
 
-**Context:** _(javascriptallonge.pdf (source-range-0e12e052-00441))_
+**Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-00441))_
 
 > We've used a block as the else clause, and since it's a block, we've placed a const statement inside it.
 
-**Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00439))_
+**Atom:** _(javascriptallonge.pdf (source-range-c98ab3e6-00439))_
 
-<a id="atom-technical-atom-1ec59ee6e5737160"></a>
+<a id="atom-technical-atom-8c9e193ceefd106f"></a>
 ```
 }
 return even(n)
@@ -236,26 +236,26 @@ return even(n)
 
 ### Technical frame 5: And also: / That Constant Coffee Craving / nested blocks
 
-**Context:** _(javascriptallonge.pdf (source-range-0e12e052-00441))_
+**Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-00441))_
 
 > We've used a block as the else clause, and since it's a block, we've placed a const statement inside it.
 
-**Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00440))_
+**Atom:** _(javascriptallonge.pdf (source-range-c98ab3e6-00440))_
 
-<a id="atom-technical-atom-48d0846cdae20744"></a>
+<a id="atom-technical-atom-7606d2710d39fd29"></a>
 ```
 //=> true
 ```
 
 ### Technical frame 6: And also: / That Constant Coffee Craving / are consts also from a shadowy planet?
 
-**Context:** _(javascriptallonge.pdf (source-range-0e12e052-00484))_
+**Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-00484))_
 
 > Again, confusing. Typically, we want to bind our names as close to where we need them as possible. This design rule is called the Principle of Least Privilege 32 , and it has both quality and security implications. Being able to bind a name inside of a block means that if the name is only needed in the block, we are not 'leaking' its binding to other parts of the code that do not need to interact with it.
 
-**Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00477))_
+**Atom:** _(javascriptallonge.pdf (source-range-c98ab3e6-00477))_
 
-<a id="atom-technical-atom-1cf4fe52d95d2a8f"></a>
+<a id="atom-technical-atom-0b9114a0af25f5dd"></a>
 ```
 if (true) {
 // an immediately invoked block statement (IIBS)
@@ -279,13 +279,13 @@ return diameter * PI;
 
 ### Technical frame 7: And also: / That Constant Coffee Craving / are consts also from a shadowy planet?
 
-**Context:** _(javascriptallonge.pdf (source-range-0e12e052-00484))_
+**Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-00484))_
 
 > Again, confusing. Typically, we want to bind our names as close to where we need them as possible. This design rule is called the Principle of Least Privilege 32 , and it has both quality and security implications. Being able to bind a name inside of a block means that if the name is only needed in the block, we are not 'leaking' its binding to other parts of the code that do not need to interact with it.
 
-**Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00478))_
+**Atom:** _(javascriptallonge.pdf (source-range-c98ab3e6-00478))_
 
-<a id="atom-technical-atom-fd635f45849def79"></a>
+<a id="atom-technical-atom-ee49304565dd3e20"></a>
 ```
 })(2)
 //=> 6.2831853
@@ -293,13 +293,13 @@ return diameter * PI;
 
 ### Technical frame 8: And also: / That Constant Coffee Craving / are consts also from a shadowy planet?
 
-**Context:** _(javascriptallonge.pdf (source-range-0e12e052-00484))_
+**Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-00484))_
 
 > Again, confusing. Typically, we want to bind our names as close to where we need them as possible. This design rule is called the Principle of Least Privilege 32 , and it has both quality and security implications. Being able to bind a name inside of a block means that if the name is only needed in the block, we are not 'leaking' its binding to other parts of the code that do not need to interact with it.
 
-**Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00481))_
+**Atom:** _(javascriptallonge.pdf (source-range-c98ab3e6-00481))_
 
-<a id="atom-technical-atom-dcbc2a8d26b64fd4"></a>
+<a id="atom-technical-atom-c802e18aa1217e7c"></a>
 ```
 ((diameter) => {
 const PI = 3.14159265;
@@ -313,13 +313,13 @@ return diameter * PI;
 
 ### Technical frame 9: And also: / That Constant Coffee Craving / are consts also from a shadowy planet?
 
-**Context:** _(javascriptallonge.pdf (source-range-0e12e052-00484))_
+**Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-00484))_
 
 > Again, confusing. Typically, we want to bind our names as close to where we need them as possible. This design rule is called the Principle of Least Privilege 32 , and it has both quality and security implications. Being able to bind a name inside of a block means that if the name is only needed in the block, we are not 'leaking' its binding to other parts of the code that do not need to interact with it.
 
-**Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00483))_
+**Atom:** _(javascriptallonge.pdf (source-range-c98ab3e6-00483))_
 
-<a id="atom-technical-atom-d4b4a8d99bd35adf"></a>
+<a id="atom-technical-atom-1f302173cfb952ac"></a>
 ```
 ((diameter) => {
 if (true) {
@@ -332,13 +332,13 @@ return diameter * PI;
 
 ### Technical frame 10: Composing and Decomposing Data / Arrays and Destructuring Arguments / destructuring arrays
 
-**Context:** _(javascriptallonge.pdf (source-range-0e12e052-00841))_
+**Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-00841))_
 
 > The statement const [something] = wrapped; destructures the array represented by wrapped , binding the value of its single element to the name something . We can do the same thing with more than one element:
 
-**Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00840))_
+**Atom:** _(javascriptallonge.pdf (source-range-c98ab3e6-00840))_
 
-<a id="atom-technical-atom-84e968decb885309"></a>
+<a id="atom-technical-atom-221d29e36d30f39f"></a>
 ```
 const unwrap = (wrapped) => {
 const [something] = wrapped;
@@ -350,13 +350,13 @@ unwrap(["present"])
 
 ### Technical frame 11: Composing and Decomposing Data / Arrays and Destructuring Arguments / destructuring arrays
 
-**Context:** _(javascriptallonge.pdf (source-range-0e12e052-00843))_
+**Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-00843))_
 
 > We could do the same thing with (name) => name[1] , but destructuring is code that resembles the data it consumes, a valuable coding style.
 
-**Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00842))_
+**Atom:** _(javascriptallonge.pdf (source-range-c98ab3e6-00842))_
 
-<a id="atom-technical-atom-03220fbc99849a87"></a>
+<a id="atom-technical-atom-84d6d834f49d4264"></a>
 ```
 const surname = (name) => {
 const [first, last] = name;

@@ -4,10 +4,10 @@ page_kind: concept
 summary: Truthiness: 4 statement(s) and 10 atom(s) from raw/javascriptallonge.pdf.
 page_family: topic-concept
 sources: raw/javascriptallonge.pdf
-updated: 2026-07-02
+updated: 2026-07-06
 domain: javascriptallonge
 category_path: concepts
-projection_coverage: topic-javascriptallonge-truthiness@3ca0517d55282abc2f50ba2eb6e4be64
+projection_coverage: topic-javascriptallonge-truthiness@274b0c643b5d1b949703741a2d1acf1c
 ---
 
 # Truthiness
@@ -18,28 +18,28 @@ What [[javascriptallonge]] covers about truthiness:
 
 ### Picking the Bean: Choice and Truthiness / truthiness and the ternary operator
 
-- In JavaScript, there is a notion of 'truthiness.' Every value is either 'truthy' or 'falsy.' Obviously, false is falsy. So are null and undefined , values that semantically represent 'no value.' NaN is falsy, a value representing the result of a calculation that is not a number. 54 And there are more: 0 is falsy, a value representing 'none of something.' The empty string, '' is falsy, a value representing having no characters. _(javascriptallonge.pdf (source-range-0e12e052-00760))_
+- In JavaScript, there is a notion of 'truthiness.' Every value is either 'truthy' or 'falsy.' Obviously, false is falsy. So are null and undefined , values that semantically represent 'no value.' NaN is falsy, a value representing the result of a calculation that is not a number. 54 And there are more: 0 is falsy, a value representing 'none of something.' The empty string, '' is falsy, a value representing having no characters. _(javascriptallonge.pdf (source-range-c98ab3e6-00760))_
 
-- Every other value in JavaScript is 'truthy' except the aforementioned false , null , undefined , NaN , 0 , and '' . (Many other languages that have a notion of truthiness consider zero and the empty string to be truthy, not falsy, so beware of blindly transliterating code from one language to another!) _(javascriptallonge.pdf (source-range-0e12e052-00761))_
+- Every other value in JavaScript is 'truthy' except the aforementioned false , null , undefined , NaN , 0 , and '' . (Many other languages that have a notion of truthiness consider zero and the empty string to be truthy, not falsy, so beware of blindly transliterating code from one language to another!) _(javascriptallonge.pdf (source-range-c98ab3e6-00761))_
 
-- The reason why truthiness matters is that the various logical operators (as well as the if statement) actually operate on truthiness , not on boolean values. This affects the way the ! , && , and || operators work. We'll look at them in a moment, but first, we'll look at one more operator. _(javascriptallonge.pdf (source-range-0e12e052-00762))_
+- The reason why truthiness matters is that the various logical operators (as well as the if statement) actually operate on truthiness , not on boolean values. This affects the way the ! , && , and || operators work. We'll look at them in a moment, but first, we'll look at one more operator. _(javascriptallonge.pdf (source-range-c98ab3e6-00762))_
 
 ### Picking the Bean: Choice and Truthiness / summary
 
-- Logical operators are based on truthiness and falsiness, not the strict values true and false . _(javascriptallonge.pdf (source-range-0e12e052-00802))_
+- Logical operators are based on truthiness and falsiness, not the strict values true and false . _(javascriptallonge.pdf (source-range-c98ab3e6-00802))_
 
 
 ## Technical atoms
 
 ### Technical frame 1: Picking the Bean: Choice and Truthiness
 
-**Context:** _(javascriptallonge.pdf (source-range-0e12e052-00758))_
+**Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-00758))_
 
 > Now, note well: We have said what happens if you pass boolean values to ! , && , and || , but we've said nothing about expressions or about passing other values. We'll look at those presently.
 
-**Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00755))_
+**Atom:** _(javascriptallonge.pdf (source-range-c98ab3e6-00755))_
 
-<a id="atom-technical-atom-9e7ebd8e80d594bf"></a>
+<a id="atom-technical-atom-e1e545dec4365bca"></a>
 ```
 !true
 //=> false
@@ -49,13 +49,13 @@ What [[javascriptallonge]] covers about truthiness:
 
 ### Technical frame 2: Picking the Bean: Choice and Truthiness
 
-**Context:** _(javascriptallonge.pdf (source-range-0e12e052-00758))_
+**Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-00758))_
 
 > Now, note well: We have said what happens if you pass boolean values to ! , && , and || , but we've said nothing about expressions or about passing other values. We'll look at those presently.
 
-**Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00757))_
+**Atom:** _(javascriptallonge.pdf (source-range-c98ab3e6-00757))_
 
-<a id="atom-technical-atom-c0963afd93d5f50e"></a>
+<a id="atom-technical-atom-5bf2333190776756"></a>
 ```
 false && false //=> false
 false && true
@@ -77,13 +77,13 @@ true
 
 ### Technical frame 3: Picking the Bean: Choice and Truthiness / truthiness and the ternary operator
 
-**Context:** _(javascriptallonge.pdf (source-range-0e12e052-00769))_
+**Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-00769))_
 
 > Wecertainly don't want JavaScript trying to evaluate deleteRecord(currentRecord) unless isAuthorized(currentUser) returns true .
 
-**Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00767))_
+**Atom:** _(javascriptallonge.pdf (source-range-c98ab3e6-00767))_
 
-<a id="atom-technical-atom-8a38ccb9b6091e45"></a>
+<a id="atom-technical-atom-850cbf42a14e0910"></a>
 ```
 true ? 'Hello' : 'Good bye'
 //=> 'Hello'
@@ -95,13 +95,13 @@ true ? 'Hello' : 'Good bye'
 
 ### Technical frame 4: Picking the Bean: Choice and Truthiness / truthiness and the ternary operator
 
-**Context:** _(javascriptallonge.pdf (source-range-0e12e052-00763))_
+**Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-00763))_
 
 > JavaScript inherited an operator from the C family of languages, the ternary operator. It's the only operator that takes three arguments. It looks like this: first ? second : third . It evaluates first , and if first is 'truthy', it evaluates second and that is its value. If first is not truthy, it evaluates third and that is its value.
 
-**Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00768))_
+**Atom:** _(javascriptallonge.pdf (source-range-c98ab3e6-00768))_
 
-<a id="atom-technical-atom-8a0bd30e2d4f15a1"></a>
+<a id="atom-technical-atom-9f2f063732907792"></a>
 ```text
 //=> 'Hello'
 0 ? 'Hello' : 'Good bye'
@@ -214,13 +214,13 @@ or(() => n === 0, () => and(() => n !== 1, () => even(n - 2)))
 
 ### Technical frame 5: Picking the Bean: Choice and Truthiness / truthiness and operators
 
-**Context:** _(javascriptallonge.pdf (source-range-0e12e052-00773))_
+**Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-00773))_
 
 > Programmers often take advantage of this behaviour to observe that !!(someExpression) will always evaluate to true is someExpression is truthy, and to false if it is not. So in JavaScript (and other languages with similar semantics), when you see something like !!currentUser() , this is an idiom that means 'true if currentUser is truthy.' Thus, a function like currentUser() is free to return null , or undefined , or false if there is no current user.
 
-**Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00772))_
+**Atom:** _(javascriptallonge.pdf (source-range-c98ab3e6-00772))_
 
-<a id="atom-technical-atom-39a1812ab600996f"></a>
+<a id="atom-technical-atom-202fbb91244bd506"></a>
 ```
 !5
 //=> false
@@ -230,24 +230,24 @@ or(() => n === 0, () => and(() => n !== 1, () => even(n - 2)))
 
 ### Technical frame 6: Picking the Bean: Choice and Truthiness / truthiness and operators
 
-**Context:** _(javascriptallonge.pdf (source-range-0e12e052-00784))_
+**Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-00784))_
 
 > In JavaScript, && and || aren't boolean logical operators in the logical sense. They don't operate strictly on logical values, and they don't commute: a || b is not always equal to b || a , and the same goes for && .
 
-**Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00782))_
+**Atom:** _(javascriptallonge.pdf (source-range-c98ab3e6-00782))_
 
-<a id="atom-technical-atom-ca81fa5fdf41bd67"></a>
+<a id="atom-technical-atom-b14c951f0506c005"></a>
 > But when we pass other values, we no longer get true or false :
 
 ### Technical frame 7: Picking the Bean: Choice and Truthiness / truthiness and operators
 
-**Context:** _(javascriptallonge.pdf (source-range-0e12e052-00784))_
+**Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-00784))_
 
 > In JavaScript, && and || aren't boolean logical operators in the logical sense. They don't operate strictly on logical values, and they don't commute: a || b is not always equal to b || a , and the same goes for && .
 
-**Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00783))_
+**Atom:** _(javascriptallonge.pdf (source-range-c98ab3e6-00783))_
 
-<a id="atom-technical-atom-1f694c2ddb341f9a"></a>
+<a id="atom-technical-atom-fc748eb8a6ab186c"></a>
 ```
 1 || 2
 //=> 1
@@ -259,13 +259,13 @@ undefined && null
 
 ### Technical frame 8: Picking the Bean: Choice and Truthiness / || and && are control-flow operators
 
-**Context:** _(javascriptallonge.pdf (source-range-0e12e052-00793))_
+**Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-00793))_
 
 > This is more than just an optimization. It's best to think of || and && as control-flow operators. The expression on the left is always evaluated, and its value determines whether the expression on the right is evaluated or not.
 
-**Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00789))_
+**Atom:** _(javascriptallonge.pdf (source-range-c98ab3e6-00789))_
 
-<a id="atom-technical-atom-5921adfcefe74da3"></a>
+<a id="atom-technical-atom-fdb5309c7078f56a"></a>
 ```
 const even = (n) =>
 n === 0 || (n !== 1 && even(n - 2))
@@ -275,13 +275,13 @@ even(42)
 
 ### Technical frame 9: Picking the Bean: Choice and Truthiness / function parameters are eager
 
-**Context:** _(javascriptallonge.pdf (source-range-0e12e052-00798))_
+**Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-00798))_
 
 > If we need to have functions with control-flow semantics, we can pass anonymous functions. We obviously don't need anything like this for or and and , but to demonstrate the technique:
 
-**Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00796))_
+**Atom:** _(javascriptallonge.pdf (source-range-c98ab3e6-00796))_
 
-<a id="atom-technical-atom-33bd73954caacf60"></a>
+<a id="atom-technical-atom-ac68792c16a36ba6"></a>
 ```
 const or = (a, b) => a || b
 const and = (a, b) => a && b
@@ -293,13 +293,13 @@ even(42)
 
 ### Technical frame 10: Picking the Bean: Choice and Truthiness / function parameters are eager
 
-**Context:** _(javascriptallonge.pdf (source-range-0e12e052-00800))_
+**Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-00800))_
 
 > Here we've passed functions that contain the expressions we want to evaluate, and now we can write our own functions that can delay evaluation.
 
-**Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00799))_
+**Atom:** _(javascriptallonge.pdf (source-range-c98ab3e6-00799))_
 
-<a id="atom-technical-atom-36c27b5336544e64"></a>
+<a id="atom-technical-atom-d78e3a7dd66c46ec"></a>
 ```
 const or = (a, b) => a() || b()
 const and = (a, b) => a() && b()

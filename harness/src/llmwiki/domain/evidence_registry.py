@@ -10,7 +10,7 @@ from typing import Literal
 from llmwiki.domain.evidence_locator_index import EvidenceIdentity
 from llmwiki.domain.objects import ExtractedUnit, PagePlan
 
-SourceTextKind = Literal["markdown", "pdf-cache"]
+SourceTextKind = Literal["markdown", "pdf-cache", "structured-pdf-cache"]
 EvidenceKind = Literal["source-claim", "citation", "table-cell"]
 
 

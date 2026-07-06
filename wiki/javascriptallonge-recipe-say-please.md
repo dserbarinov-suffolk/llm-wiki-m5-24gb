@@ -4,12 +4,12 @@ page_kind: recipe
 summary: say 'please': reusable source-backed pattern with 5 statement(s) and 5 technical atom(s) from raw/javascriptallonge.pdf.
 page_family: recipe-pattern
 sources: raw/javascriptallonge.pdf
-updated: 2026-07-02
+updated: 2026-07-06
 domain: javascriptallonge
 category_path: recipes/javascriptallonge
 source_id: javascriptallonge.pdf
 aliases: say-please
-projection_coverage: recipe-javascriptallonge-recipe-say-please@c0cadb1e8477825afb79f6e343ce5f10
+projection_coverage: recipe-javascriptallonge-recipe-say-please@24ea0de011c388b585bb3fb9c4ddb6b2
 ---
 
 # say 'please'
@@ -18,22 +18,22 @@ From [[javascriptallonge]].
 
 ## Pattern
 
-- Use the source-backed pattern described in [[javascriptallonge-section-copy-on-write-making-data-out-of-functions-say-please-c42d16f5]].
+- Use the source-backed pattern described in [[javascriptallonge-section-copy-on-write-making-data-out-of-functions-say-please-d2c373a6]].
 - Evidence roles: decision, procedure, constraint, explanation, example.
 
 ## Applicability And Rationale
 
-- This follows the philosophy we used with data structures: The function doing the work inspects the data structure. _(javascriptallonge.pdf (source-range-0e12e052-01384))_
-- We can reverse this: Instead of asking a pair if it is empty and then deciding what to do, we can ask the pair to do it for us. _(javascriptallonge.pdf (source-range-0e12e052-01385))_
-- Now we'll need to write first and rest functions for a list, and those names will collide with the first and rest we wrote for pairs. _(javascriptallonge.pdf (source-range-0e12e052-01389))_
-- We can write reverse and mapWith as well. _(javascriptallonge.pdf (source-range-0e12e052-01392))_
-- We have managed to provide the exact same functionality that === and ?: provided, but using functions and nothing else. _(javascriptallonge.pdf (source-range-0e12e052-01394))_
+- This follows the philosophy we used with data structures: The function doing the work inspects the data structure. _(javascriptallonge.pdf (source-range-c98ab3e6-01384))_
+- We can reverse this: Instead of asking a pair if it is empty and then deciding what to do, we can ask the pair to do it for us. _(javascriptallonge.pdf (source-range-c98ab3e6-01385))_
+- Now we'll need to write first and rest functions for a list, and those names will collide with the first and rest we wrote for pairs. _(javascriptallonge.pdf (source-range-c98ab3e6-01389))_
+- We can write reverse and mapWith as well. _(javascriptallonge.pdf (source-range-c98ab3e6-01392))_
+- We have managed to provide the exact same functionality that === and ?: provided, but using functions and nothing else. _(javascriptallonge.pdf (source-range-c98ab3e6-01394))_
 
 ## Technical Atoms
 
 ### Atom 1: `code-block`
 
-_Source: javascriptallonge.pdf (source-range-0e12e052-01386)_
+_Source: javascriptallonge.pdf (source-range-c98ab3e6-01386)_
 
 ```
 const length = (aPair) =>
@@ -44,7 +44,7 @@ aPair === EMPTY
 
 ### Atom 2: `code-block`
 
-_Source: javascriptallonge.pdf (source-range-0e12e052-01388)_
+_Source: javascriptallonge.pdf (source-range-c98ab3e6-01388)_
 
 ```
 const length = (list) => list(
@@ -55,7 +55,7 @@ const length = (list) => list(
 
 ### Atom 3: `code-block`
 
-_Source: javascriptallonge.pdf (source-range-0e12e052-01390)_
+_Source: javascriptallonge.pdf (source-range-c98ab3e6-01390)_
 
 ```
 const pairFirst = K,
@@ -71,7 +71,7 @@ const rest = (list) => list(
 
 ### Atom 4: `code-block`
 
-_Source: javascriptallonge.pdf (source-range-0e12e052-01391)_
+_Source: javascriptallonge.pdf (source-range-c98ab3e6-01391)_
 
 ```
 () => "ERROR: Can't take first of an empty list",
@@ -99,7 +99,7 @@ print(l123)
 
 ### Atom 5: `code-block`
 
-_Source: javascriptallonge.pdf (source-range-0e12e052-01393)_
+_Source: javascriptallonge.pdf (source-range-c98ab3e6-01393)_
 
 ```
 const reverse = (list, delayed = EMPTYLIST) => list(
@@ -120,4 +120,4 @@ print(mapWith(x => x * x, reverse(l123)))
 ## Source Trail
 
 - Source manifest: [[javascriptallonge]]
-- Source section: [[javascriptallonge-section-copy-on-write-making-data-out-of-functions-say-please-c42d16f5]]
+- Source section: [[javascriptallonge-section-copy-on-write-making-data-out-of-functions-say-please-d2c373a6]]

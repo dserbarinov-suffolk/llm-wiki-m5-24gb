@@ -4,10 +4,10 @@ page_kind: concept
 summary: Weapon: 2 statement(s) and 1 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: broad-topic
 sources: raw/Sword World RPG - Complete Edition.pdf
-updated: 2026-07-02
+updated: 2026-07-06
 domain: sword-world-rpg-complete-edition
 category_path: concepts
-projection_coverage: topic-sword-world-rpg-complete-edition-weapon@1cca34466d07c07f174697744ae4e80b
+projection_coverage: topic-sword-world-rpg-complete-edition-weapon@6ddeb99de3cdffb4f52d793178f448c5
 ---
 
 # Weapon
@@ -18,20 +18,20 @@ What [[sword-world-rpg-complete-edition]] covers about weapon:
 
 ### Chapter 3: / 3.4.4 Actions You Can Take While Standing Still / Weapon and Armor Restrictions
 
-- A character's arms are largely divided into weapons, shields, and armor. Required strength should not be added up, but rather considered separately for each of these. In other words, a character with 14 strength can wield a weapon with a required strength of 14, wield a shield with a required strength of 14, and wear armor with a required strength of 14. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-01179))_
+- A character's arms are largely divided into weapons, shields, and armor. Required strength should not be added up, but rather considered separately for each of these. In other words, a character with 14 strength can wield a weapon with a required strength of 14, wield a shield with a required strength of 14, and wear armor with a required strength of 14. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01179))_
 
 
 ## Technical atoms
 
 ### Technical frame 1: Chapter 16: / 16.6.2 Two-Handed Attacks / Weapons and Armor That Are Too Heavy
 
-**Context:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-10417))_
+**Context:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-10417))_
 
 > For each point of required strength, reduce attack power by -1. If one in one hand is too heavy, you will receive a penalty, but there will be no stacking. For example, if your sword is 3 too heavy in required strength and your shield is 2 too heavy in required strength, your penalty is -3 .
 
-**Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-10416))_
+**Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-10416))_
 
-<a id="atom-technical-atom-f8447417e4cfaa9e"></a>
+<a id="atom-technical-atom-330478ffdc5b05e6"></a>
 > If a Weapon or Shield's Required Strength Exceeds Your Strength
 
 

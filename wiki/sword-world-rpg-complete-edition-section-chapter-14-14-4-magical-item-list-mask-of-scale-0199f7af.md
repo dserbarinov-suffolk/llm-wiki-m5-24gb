@@ -1,0 +1,27 @@
+---
+page_id: sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-mask-of-scale-0199f7af
+page_kind: source
+summary: Chapter 14: / 14.4 Magical Item List / [ Mask of Scale: 5 source-backed entries and 0 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+page_family: section-reference
+sources: raw/Sword World RPG - Complete Edition.pdf
+updated: 2026-07-06
+domain: sword-world-rpg-complete-edition
+category_path: sources/sword-world-rpg-complete-edition/sections
+source_id: Sword World RPG - Complete Edition.pdf
+projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-mask-of-scale-0199f7af@d7d236329a0ae8704063d2f8bb9f8c74
+---
+
+# Chapter 14: / 14.4 Magical Item List / [ Mask of Scale
+
+From [[sword-world-rpg-complete-edition]].
+
+## Related pages
+
+### Source order
+
+- [[sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-other-80b130b5]] - previous source section: Chapter 14: / 14.4 Magical Item List / 《 Other 》
+- [[sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-mask-of-lady-8b487b9b]] - next source section: Chapter 14: / 14.4 Magical Item List / [ Mask of Lady ]
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-35f993b3]] - broader source section: Chapter 14: / 14.4 Magical Item List

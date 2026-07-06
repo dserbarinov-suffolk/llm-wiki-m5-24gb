@@ -4,10 +4,10 @@ page_kind: concept
 summary: Solution: 3 statement(s) and 1 atom(s) from raw/javascriptallonge.pdf.
 page_family: topic-concept
 sources: raw/javascriptallonge.pdf
-updated: 2026-07-02
+updated: 2026-07-06
 domain: javascriptallonge
 category_path: concepts
-projection_coverage: topic-javascriptallonge-solution@bda44a82a35c87c29160a25a52085c54
+projection_coverage: topic-javascriptallonge-solution@eb30cd8be737282684dc6475769e2fc0
 ---
 
 # Solution
@@ -18,28 +18,28 @@ What [[javascriptallonge]] covers about solution:
 
 ### Composing and Decomposing Data / Self-Similarity / linear recursion
 
-- Once again, the solution directly displays the important elements: Dividing a problem into subproblems, detecting terminal cases, solving the terminal cases, and composing a solution from the solved portions. _(javascriptallonge.pdf (source-range-0e12e052-00917))_
+- Once again, the solution directly displays the important elements: Dividing a problem into subproblems, detecting terminal cases, solving the terminal cases, and composing a solution from the solved portions. _(javascriptallonge.pdf (source-range-c98ab3e6-00917))_
 
 ### Composing and Decomposing Data / Tail Calls (and Default Arguments) / converting non-tail-calls to tail-calls
 
-- The obvious solution is push the 1 + work into the call to length . Here's our first cut: _(javascriptallonge.pdf (source-range-0e12e052-00972))_
+- The obvious solution is push the 1 + work into the call to length . Here's our first cut: _(javascriptallonge.pdf (source-range-c98ab3e6-00972))_
 
 ### Interlude: The Carpenter Interviews for a Job / the aftermath
 
-- The Carpenter sat down and waited. This type of solution provided an excellent opportunity to explore lazy versus eager evaluation, the performance of iterators versus native iteration, single responsibility design, and many other rich topics. _(javascriptallonge.pdf (source-range-0e12e052-01849))_
+- The Carpenter sat down and waited. This type of solution provided an excellent opportunity to explore lazy versus eager evaluation, the performance of iterators versus native iteration, single responsibility design, and many other rich topics. _(javascriptallonge.pdf (source-range-c98ab3e6-01849))_
 
 
 ## Technical atoms
 
 ### Technical frame 1: Composing and Decomposing Data / Tail Calls (and Default Arguments) / converting non-tail-calls to tail-calls
 
-**Context:** _(javascriptallonge.pdf (source-range-0e12e052-00974))_
+**Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-00974))_
 
 > This lengthDelaysWork function calls itself in tail position. The 1 + work is done before calling itself, and by the time it reaches the terminal position, it has the answer. Now that we've seen how it works, we can clean up the 0 + numberToBeAdded business. But while we're doing that, it's annoying to remember to call it with a zero. Let's fix that:
 
-**Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00973))_
+**Atom:** _(javascriptallonge.pdf (source-range-c98ab3e6-00973))_
 
-<a id="atom-technical-atom-7385963fd949443d"></a>
+<a id="atom-technical-atom-dfae22252ba4db30"></a>
 ```
 const lengthDelaysWork = ([first, ...rest], numberToBeAdded) =>
 first === undefined

@@ -4,10 +4,10 @@ page_kind: concept
 summary: Automatic Success: 1 statement(s) and 0 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: topic-concept
 sources: raw/Sword World RPG - Complete Edition.pdf
-updated: 2026-07-02
+updated: 2026-07-06
 domain: sword-world-rpg-complete-edition
 category_path: concepts
-projection_coverage: topic-sword-world-rpg-complete-edition-automatic-success@6baf55643b6e9d45e6501c9708f89719
+projection_coverage: topic-sword-world-rpg-complete-edition-automatic-success@eee8d50c7d1513470bd8b1b6d30342a3
 ---
 
 # Automatic Success
@@ -18,7 +18,7 @@ What [[sword-world-rpg-complete-edition]] covers about automatic success:
 
 ### 2.1 Baseline Scores / Checks / 2.3.1 Automatic Success and Automatic Failure
 
-- Basically, automatic success and automatic failure are not definitive success or definitive failure. It simply means that you succeeded or failed, not that you succeeded very well or failed very badly . _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-00967))_
+- Basically, automatic success and automatic failure are not definitive success or definitive failure. It simply means that you succeeded or failed, not that you succeeded very well or failed very badly . _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-00967))_
 
 
 ## Related pages

@@ -4,10 +4,10 @@ page_kind: concept
 summary: Double Ones: 4 statement(s) and 2 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: topic-concept
 sources: raw/Sword World RPG - Complete Edition.pdf
-updated: 2026-07-02
+updated: 2026-07-06
 domain: sword-world-rpg-complete-edition
 category_path: concepts
-projection_coverage: topic-sword-world-rpg-complete-edition-double-ones@e7df45758981b43fdaa043d70a53100d
+projection_coverage: topic-sword-world-rpg-complete-edition-double-ones@4670a1908279ab5e81e242508c7179e6
 ---
 
 # Double Ones
@@ -18,35 +18,35 @@ What [[sword-world-rpg-complete-edition]] covers about double ones:
 
 ### 4.7 Attacks From Characters Against Characters / Double Sixes and Double Ones
 
-- If a roll comes up double sixes or double ones during combat between characters, the situation is resolved as follows: _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-01373))_
+- If a roll comes up double sixes or double ones during combat between characters, the situation is resolved as follows: _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01373))_
 
-- If the attacker's roll is double ones , the attack fails without question. The defender doesn't even have to roll the dice. _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-01374))_
+- If the attacker's roll is double ones , the attack fails without question. The defender doesn't even have to roll the dice. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01374))_
 
-- If the defender's roll is double ones , it' s basically an automatic hit. However, if the attacker's roll is also double ones, the attack fails . _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-01376))_
+- If the defender's roll is double ones , it' s basically an automatic hit. However, if the attacker's roll is also double ones, the attack fails . _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01376))_
 
 
 ## Technical atoms
 
 ### Technical frame 1: 4.7 Attacks From Characters Against Characters / Double Sixes and Double Ones
 
-**Context:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-01375))_
+**Context:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01375))_
 
 > If the attacker's roll is double sixes , it' s basically an automatic hit. However, if the defender's roll is also double sixes, the attack fails .
 
-**Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-01374))_
+**Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01374))_
 
-<a id="atom-technical-atom-4c136240fce2252a"></a>
+<a id="atom-technical-atom-38132160c7a64362"></a>
 > The defender doesn't even have to roll the dice.
 
 ### Technical frame 2: 4.7 Attacks From Characters Against Characters / Double Sixes and Double Ones
 
-**Context:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-01376))_
+**Context:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01376))_
 
 > If the defender's roll is double ones , it' s basically an automatic hit. However, if the attacker's roll is also double ones, the attack fails .
 
-**Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-0d48087c-01377))_
+**Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01377))_
 
-<a id="atom-technical-atom-ea8aaaa7e8237428"></a>
+<a id="atom-technical-atom-d2e3c5c6b3b26fda"></a>
 > If the defender's roll is double sixes , the attack will always fail.
 
 

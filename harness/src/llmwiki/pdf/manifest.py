@@ -1,6 +1,6 @@
-"""Chunk manifest: the on-disk resume cursor for a PDF ingest (pure).
+"""PDF source-unit manifest: the on-disk resume cursor for a PDF ingest (pure).
 
-Chunk state lives here, not in the model's context — the design's
+Source-unit state lives here, not in the model's context — the design's
 "control flow is not memory" applied at the orchestration level.
 """
 
@@ -15,34 +15,34 @@ _STATUSES = ("pending", "done")
 
 
 @dataclass(frozen=True)
-class ChunkRecord:
-    chunk_id: int
+class SourceUnitRecord:
+    unit_id: str
     heading: str
     start_page: int
     end_page: int
     token_estimate: int
     status: str = "pending"
     notes: str = ""
-    # Machine record of pages the chunk run actually wrote (captured at the
+    # Machine record of pages the source-unit run actually wrote (captured at the
     # write_page tool) — ground truth where notes have over-claimed.
     pages_written: tuple[str, ...] = ()
 
     def __post_init__(self) -> None:
         if self.status not in _STATUSES:
-            raise ValueError(f"invalid chunk status {self.status!r}")
+            raise ValueError(f"invalid source-unit status {self.status!r}")
 
 
 @dataclass(frozen=True)
 class Manifest:
     source: str  # path relative to raw/
     sha256: str
-    chunks: tuple[ChunkRecord, ...]
+    source_units: tuple[SourceUnitRecord, ...]
     extractor_name: str = "docling"
     integrated: bool = field(default=False)
 
     @property
-    def pending(self) -> tuple[ChunkRecord, ...]:
-        return tuple(c for c in self.chunks if c.status == "pending")
+    def pending(self) -> tuple[SourceUnitRecord, ...]:
+        return tuple(unit for unit in self.source_units if unit.status == "pending")
 
     @property
     def all_done(self) -> bool:
@@ -50,48 +50,51 @@ class Manifest:
 
     def mark_done(
         self,
-        chunk_id: int,
+        unit_id: str,
         notes: str,
         pages_written: tuple[str, ...] = (),
         note_cap_chars: int = DEFAULT_MODEL_PROFILE.pdf_manifest_note_chars,
     ) -> Manifest:
         capped = notes if len(notes) <= note_cap_chars else notes[: note_cap_chars - 1] + "…"
-        chunks = tuple(
-            replace(c, status="done", notes=capped, pages_written=pages_written)
-            if c.chunk_id == chunk_id
-            else c
-            for c in self.chunks
+        source_units = tuple(
+            replace(unit, status="done", notes=capped, pages_written=pages_written)
+            if unit.unit_id == unit_id
+            else unit
+            for unit in self.source_units
         )
-        if chunks == self.chunks:
-            raise ValueError(f"no pending chunk with id {chunk_id}")
-        return replace(self, chunks=chunks)
+        if source_units == self.source_units:
+            raise ValueError(f"no pending source unit with id {unit_id}")
+        return replace(self, source_units=source_units)
 
     def mark_integrated(self) -> Manifest:
         return replace(self, integrated=True)
 
     def digest(self) -> str:
-        """Concatenated per-chunk notes for the integrate run.
+        """Concatenated per-source-unit notes for the integrate run.
 
         The recorded pages_written line is the machine record; the notes
         above it are the model's own account.
         """
         parts = []
-        for c in self.chunks:
-            if c.status != "done" or not c.notes:
+        for unit in self.source_units:
+            if unit.status != "done" or not unit.notes:
                 continue
-            entry = f"Chunk {c.chunk_id} — {c.heading} (p.{c.start_page}-{c.end_page}):\n{c.notes}"
-            if c.pages_written:
+            entry = (
+                f"Source unit {unit.unit_id} — {unit.heading} "
+                f"(p.{unit.start_page}-{unit.end_page}):\n{unit.notes}"
+            )
+            if unit.pages_written:
                 entry += "\nPages written (recorded): " + ", ".join(
-                    f"[[{p}]]" for p in c.pages_written
+                    f"[[{page}]]" for page in unit.pages_written
                 )
             parts.append(entry)
         return "\n\n".join(parts)
 
     def write_counts(self) -> dict[str, int]:
-        """Per-page write totals across done chunks (salience input)."""
+        """Per-page write totals across done source units (salience input)."""
         counts: dict[str, int] = {}
-        for c in self.chunks:
-            for page in c.pages_written:
+        for unit in self.source_units:
+            for page in unit.pages_written:
                 counts[page] = counts.get(page, 0) + 1
         return counts
 
@@ -103,17 +106,17 @@ def to_json(manifest: Manifest) -> str:
             "sha256": manifest.sha256,
             "extractor_name": manifest.extractor_name,
             "integrated": manifest.integrated,
-            "chunks": [
+            "source_units": [
                 {
-                    "id": c.chunk_id,
-                    "heading": c.heading,
-                    "pages": [c.start_page, c.end_page],
-                    "tokens": c.token_estimate,
-                    "status": c.status,
-                    "notes": c.notes,
-                    "pages_written": list(c.pages_written),
+                    "id": unit.unit_id,
+                    "heading": unit.heading,
+                    "pages": [unit.start_page, unit.end_page],
+                    "tokens": unit.token_estimate,
+                    "status": unit.status,
+                    "notes": unit.notes,
+                    "pages_written": list(unit.pages_written),
                 }
-                for c in manifest.chunks
+                for unit in manifest.source_units
             ],
         },
         indent=2,
@@ -126,20 +129,19 @@ def from_json(text: str) -> Manifest:
     return Manifest(
         source=data["source"],
         sha256=data["sha256"],
-        extractor_name=data.get("extractor_name", "pymupdf4llm"),
+        extractor_name=data["extractor_name"],
         integrated=data["integrated"],
-        chunks=tuple(
-            ChunkRecord(
-                chunk_id=c["id"],
-                heading=c["heading"],
-                start_page=c["pages"][0],
-                end_page=c["pages"][1],
-                token_estimate=c["tokens"],
-                status=c["status"],
-                notes=c["notes"],
-                # absent in manifests written before the salience design
-                pages_written=tuple(c.get("pages_written", [])),
+        source_units=tuple(
+            SourceUnitRecord(
+                unit_id=unit["id"],
+                heading=unit["heading"],
+                start_page=unit["pages"][0],
+                end_page=unit["pages"][1],
+                token_estimate=unit["tokens"],
+                status=unit["status"],
+                notes=unit["notes"],
+                pages_written=tuple(unit["pages_written"]),
             )
-            for c in data["chunks"]
+            for unit in data["source_units"]
         ),
     )

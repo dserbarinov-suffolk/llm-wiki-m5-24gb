@@ -4,12 +4,12 @@ page_kind: recipe
 summary: operations on ordered collections: reusable source-backed pattern with 18 statement(s) and 8 technical atom(s) from raw/javascriptallonge.pdf.
 page_family: recipe-pattern
 sources: raw/javascriptallonge.pdf
-updated: 2026-07-02
+updated: 2026-07-06
 domain: javascriptallonge
 category_path: recipes/javascriptallonge
 source_id: javascriptallonge.pdf
 aliases: operations-on-ordered-collections
-projection_coverage: recipe-javascriptallonge-recipe-operations-on-ordered-collections@6259736407216d1cb58012e00095a20f
+projection_coverage: recipe-javascriptallonge-recipe-operations-on-ordered-collections@a9109e91f0d0a984ccb375d7f0ada618
 ---
 
 # operations on ordered collections
@@ -18,23 +18,23 @@ From [[javascriptallonge]].
 
 ## Pattern
 
-- Use the source-backed pattern described in [[javascriptallonge-section-served-by-the-pot-collections-iteration-and-iterables-operations-on-ordered-collections-097315e6]].
-- Evidence roles: decision, constraint, procedure, explanation, definition, example, structured-state.
+- Use the source-backed pattern described in [[javascriptallonge-section-served-by-the-pot-collections-iteration-and-iterables-operations-on-ordered-collections-da2b4aad]].
+- Evidence roles: decision, procedure, constraint, explanation, definition, example, structured-state.
 
 ## Applicability And Rationale
 
-- Here's mapWith , it takes an ordered collection, and returns another ordered collection representing a mapping over the original: 89 _(javascriptallonge.pdf (source-range-0e12e052-01582))_
-- If we were writing a library of functions, we would have to disambiguate the two kinds of mapping functions with special names, namespaces, or modules. _(javascriptallonge.pdf (source-range-0e12e052-01583))_
-- 89 Yes, we also used the name mapWith for working with ordinary collections elsewhere. _(javascriptallonge.pdf (source-range-0e12e052-01583))_
-- But for the purposes of discussing ideas, we can use the same name twice in two different contexts. _(javascriptallonge.pdf (source-range-0e12e052-01583))_
-- It's the same idea, after all. _(javascriptallonge.pdf (source-range-0e12e052-01583))_
-- This illustrates the general pattern of working with ordered collections: We make them iterables , meaning that they have a [Symbol.iterator] method, that returns an iterator . _(javascriptallonge.pdf (source-range-0e12e052-01585))_
+- Here's mapWith , it takes an ordered collection, and returns another ordered collection representing a mapping over the original: 89 _(javascriptallonge.pdf (source-range-c98ab3e6-01582))_
+- 89 Yes, we also used the name mapWith for working with ordinary collections elsewhere. _(javascriptallonge.pdf (source-range-c98ab3e6-01583))_
+- But for the purposes of discussing ideas, we can use the same name twice in two different contexts. _(javascriptallonge.pdf (source-range-c98ab3e6-01583))_
+- If we were writing a library of functions, we would have to disambiguate the two kinds of mapping functions with special names, namespaces, or modules. _(javascriptallonge.pdf (source-range-c98ab3e6-01583))_
+- It's the same idea, after all. _(javascriptallonge.pdf (source-range-c98ab3e6-01583))_
+- An iterator is also an object, but with a .next() method that is invoked repeatedly to obtain the elements in order. _(javascriptallonge.pdf (source-range-c98ab3e6-01585))_
 
 ## Technical Atoms
 
 ### Atom 1: `code-block`
 
-_Source: javascriptallonge.pdf (source-range-0e12e052-01584)_
+_Source: javascriptallonge.pdf (source-range-c98ab3e6-01584)_
 
 ```
 const mapWith = (fn, collection) =>
@@ -53,7 +53,7 @@ return ({done, value: done ? undefined : fn(value)});
 
 ### Atom 2: `code-block`
 
-_Source: javascriptallonge.pdf (source-range-0e12e052-01587)_
+_Source: javascriptallonge.pdf (source-range-c98ab3e6-01587)_
 
 ```
 const Evens = mapWith((x) => 2 * x, Numbers);
@@ -77,7 +77,7 @@ console.log(i)
 
 ### Atom 3: `code-block`
 
-_Source: javascriptallonge.pdf (source-range-0e12e052-01589)_
+_Source: javascriptallonge.pdf (source-range-c98ab3e6-01589)_
 
 ```
 const Evens =
@@ -96,7 +96,7 @@ return ({done, value: done ? undefined : 2 *value});
 
 ### Atom 4: `code-block`
 
-_Source: javascriptallonge.pdf (source-range-0e12e052-01593)_
+_Source: javascriptallonge.pdf (source-range-c98ab3e6-01593)_
 
 ```
 const ZeroesToNines = mapWith((n) => Math.floor(10 * limit), RandomNumbers);
@@ -117,7 +117,7 @@ console.log(i)
 
 ### Atom 5: `code-block`
 
-_Source: javascriptallonge.pdf (source-range-0e12e052-01594)_
+_Source: javascriptallonge.pdf (source-range-c98ab3e6-01594)_
 
 ```
 6
@@ -127,7 +127,7 @@ _Source: javascriptallonge.pdf (source-range-0e12e052-01594)_
 
 ### Atom 6: `code-block`
 
-_Source: javascriptallonge.pdf (source-range-0e12e052-01597)_
+_Source: javascriptallonge.pdf (source-range-c98ab3e6-01597)_
 
 ```
 const filterWith = (fn, iterable) =>
@@ -162,4 +162,4 @@ return ({done, value: done ? undefined : value});
 ## Source Trail
 
 - Source manifest: [[javascriptallonge]]
-- Source section: [[javascriptallonge-section-served-by-the-pot-collections-iteration-and-iterables-operations-on-ordered-collections-097315e6]]
+- Source section: [[javascriptallonge-section-served-by-the-pot-collections-iteration-and-iterables-operations-on-ordered-collections-da2b4aad]]

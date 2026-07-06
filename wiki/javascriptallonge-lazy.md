@@ -4,10 +4,10 @@ page_kind: concept
 summary: Lazy: 1 statement(s) and 1 atom(s) from raw/javascriptallonge.pdf.
 page_family: topic-concept
 sources: raw/javascriptallonge.pdf
-updated: 2026-07-02
+updated: 2026-07-06
 domain: javascriptallonge
 category_path: concepts
-projection_coverage: topic-javascriptallonge-lazy@39638dac194011068a1d11fe634fbfd4
+projection_coverage: topic-javascriptallonge-lazy@2624bfa0d2efc76c1eb8d4e51e15d0f0
 ---
 
 # Lazy
@@ -18,20 +18,20 @@ What [[javascriptallonge]] covers about lazy:
 
 ### Lazy and Eager Collections / lazy collection operations
 
-- Balanced against their flexibility, our 'lazy collections' use structure sharing. If we mutate a collection after taking an iterable, we might get an unexpected result. This is why 'pure' functional languages like Haskell combine lazy semantics with immutable collections, and why even 'impure' languages like Clojure emphasize the use of immutable collections. _(javascriptallonge.pdf (source-range-0e12e052-01796))_
+- Balanced against their flexibility, our 'lazy collections' use structure sharing. If we mutate a collection after taking an iterable, we might get an unexpected result. This is why 'pure' functional languages like Haskell combine lazy semantics with immutable collections, and why even 'impure' languages like Clojure emphasize the use of immutable collections. _(javascriptallonge.pdf (source-range-c98ab3e6-01796))_
 
 
 ## Technical atoms
 
 ### Technical frame 1: Lazy and Eager Collections / lazy collection operations
 
-**Context:** _(javascriptallonge.pdf (source-range-0e12e052-01796))_
+**Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01796))_
 
 > Balanced against their flexibility, our 'lazy collections' use structure sharing. If we mutate a collection after taking an iterable, we might get an unexpected result. This is why 'pure' functional languages like Haskell combine lazy semantics with immutable collections, and why even 'impure' languages like Clojure emphasize the use of immutable collections.
 
-**Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01795))_
+**Atom:** _(javascriptallonge.pdf (source-range-c98ab3e6-01795))_
 
-<a id="atom-technical-atom-5f902340f55c79d4"></a>
+<a id="atom-technical-atom-8961ba32fb300113"></a>
 ```
 const Numbers = Object.assign({
 [Symbol.iterator]: () => {

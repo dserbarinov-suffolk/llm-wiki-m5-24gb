@@ -2,14 +2,14 @@
 page_id: wiki-ingest-confidence
 page_kind: synthesis
 summary: Latest bounded post-ingest confidence report.
-updated: 2026-07-02
+updated: 2026-07-06
 ---
 
 # Ingest Confidence Report
 
 ## Summary
 
-Run id: 2026-07-02-133540
+Run id: 2026-07-06-113449
 Source: raw/Sword World RPG - Complete Edition.pdf
 Confidence status: passed
 Blockers: 0

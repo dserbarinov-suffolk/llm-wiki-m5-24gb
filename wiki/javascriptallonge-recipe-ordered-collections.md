@@ -4,12 +4,12 @@ page_kind: recipe
 summary: ordered collections: reusable source-backed pattern with 9 statement(s) and 2 technical atom(s) from raw/javascriptallonge.pdf.
 page_family: recipe-pattern
 sources: raw/javascriptallonge.pdf
-updated: 2026-07-02
+updated: 2026-07-06
 domain: javascriptallonge
 category_path: recipes/javascriptallonge
 source_id: javascriptallonge.pdf
 aliases: ordered-collections
-projection_coverage: recipe-javascriptallonge-recipe-ordered-collections@02e1f3cfecc7efac334cb5b1a7ae1f99
+projection_coverage: recipe-javascriptallonge-recipe-ordered-collections@325b4ad084e5a900761eb350e9727c9f
 ---
 
 # ordered collections
@@ -18,23 +18,23 @@ From [[javascriptallonge]].
 
 ## Pattern
 
-- Use the source-backed pattern described in [[javascriptallonge-section-served-by-the-pot-collections-iteration-and-iterables-ordered-collections-3e509cbd]].
+- Use the source-backed pattern described in [[javascriptallonge-section-served-by-the-pot-collections-iteration-and-iterables-ordered-collections-1677b0b5]].
 - Evidence roles: decision, explanation, example.
 
 ## Applicability And Rationale
 
-- The iterables we're discussing represent ordered collections . _(javascriptallonge.pdf (source-range-0e12e052-01574))_
-- One of the semantic properties of an ordered collection is that every time you iterate over it, you get its elements in order, from the beginning. _(javascriptallonge.pdf (source-range-0e12e052-01574))_
-- This is accomplished with our own collections by returning a brand new iterator every time we call [Symbol.iterator] , and ensuring that our iterators start at the beginning and work forward. _(javascriptallonge.pdf (source-range-0e12e052-01576))_
-- Iterables needn't represent ordered collections. _(javascriptallonge.pdf (source-range-0e12e052-01577))_
-- Therefore, RandomNumbers is not an ordered collection. _(javascriptallonge.pdf (source-range-0e12e052-01579))_
-- Whether you work with the same iterator over and over, or get a fresh iterable every time, you are always going to get fresh random numbers. _(javascriptallonge.pdf (source-range-0e12e052-01579))_
+- One of the semantic properties of an ordered collection is that every time you iterate over it, you get its elements in order, from the beginning. _(javascriptallonge.pdf (source-range-c98ab3e6-01574))_
+- The iterables we're discussing represent ordered collections . _(javascriptallonge.pdf (source-range-c98ab3e6-01574))_
+- This is accomplished with our own collections by returning a brand new iterator every time we call [Symbol.iterator] , and ensuring that our iterators start at the beginning and work forward. _(javascriptallonge.pdf (source-range-c98ab3e6-01576))_
+- Iterables needn't represent ordered collections. _(javascriptallonge.pdf (source-range-c98ab3e6-01577))_
+- Whether you work with the same iterator over and over, or get a fresh iterable every time, you are always going to get fresh random numbers. _(javascriptallonge.pdf (source-range-c98ab3e6-01579))_
+- Therefore, RandomNumbers is not an ordered collection. _(javascriptallonge.pdf (source-range-c98ab3e6-01579))_
 
 ## Technical Atoms
 
 ### Atom 1: `code-block`
 
-_Source: javascriptallonge.pdf (source-range-0e12e052-01575)_
+_Source: javascriptallonge.pdf (source-range-c98ab3e6-01575)_
 
 ```
 const abc = ["a", "b", "c"];
@@ -56,7 +56,7 @@ c
 
 ### Atom 2: `code-block`
 
-_Source: javascriptallonge.pdf (source-range-0e12e052-01578)_
+_Source: javascriptallonge.pdf (source-range-c98ab3e6-01578)_
 
 ```
 const RandomNumbers = {
@@ -88,4 +88,4 @@ console.log(i)
 ## Source Trail
 
 - Source manifest: [[javascriptallonge]]
-- Source section: [[javascriptallonge-section-served-by-the-pot-collections-iteration-and-iterables-ordered-collections-3e509cbd]]
+- Source section: [[javascriptallonge-section-served-by-the-pot-collections-iteration-and-iterables-ordered-collections-1677b0b5]]

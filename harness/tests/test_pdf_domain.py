@@ -5,7 +5,7 @@ import pytest
 from llmwiki.pdf.chunking import TocEntry, build_sections, pack_chunks
 from llmwiki.pdf.classify import PdfKind, classify_pdf
 from llmwiki.pdf.intermediate import fold_ocr_into_page, relativize_image_refs
-from llmwiki.pdf.manifest import ChunkRecord, Manifest, from_json, to_json
+from llmwiki.pdf.manifest import Manifest, SourceUnitRecord, from_json, to_json
 from llmwiki.pdf.recognizer import TextSpan, usable_text
 
 
@@ -78,68 +78,66 @@ class TestManifest:
         return Manifest(
             source="book.pdf",
             sha256="ab" * 32,
-            chunks=(
-                ChunkRecord(1, "Ch 1", 1, 5, 4000),
-                ChunkRecord(2, "Ch 2", 6, 9, 3500),
+            source_units=(
+                SourceUnitRecord("unit-0001", "Ch 1", 1, 5, 4000),
+                SourceUnitRecord("unit-0002", "Ch 2", 6, 9, 3500),
             ),
         )
 
     def test_roundtrip(self) -> None:
-        manifest = self._manifest().mark_done(1, "notes one")
+        manifest = self._manifest().mark_done("unit-0001", "notes one")
         assert from_json(to_json(manifest)) == manifest
         assert from_json(to_json(manifest)).extractor_name == "docling"
 
     def test_pending_and_resume_cursor(self) -> None:
         manifest = self._manifest()
-        assert [c.chunk_id for c in manifest.pending] == [1, 2]
-        manifest = manifest.mark_done(1, "n")
-        assert [c.chunk_id for c in manifest.pending] == [2]
+        assert [unit.unit_id for unit in manifest.pending] == ["unit-0001", "unit-0002"]
+        manifest = manifest.mark_done("unit-0001", "n")
+        assert [unit.unit_id for unit in manifest.pending] == ["unit-0002"]
         assert not manifest.all_done
-        manifest = manifest.mark_done(2, "n2")
+        manifest = manifest.mark_done("unit-0002", "n2")
         assert manifest.all_done
 
     def test_mark_done_unknown_chunk_raises(self) -> None:
         with pytest.raises(ValueError):
-            self._manifest().mark_done(99, "n")
+            self._manifest().mark_done("unit-0099", "n")
 
     def test_notes_are_capped(self) -> None:
-        manifest = self._manifest().mark_done(1, "x" * 5000)
-        assert len(manifest.chunks[0].notes) <= 1500
+        manifest = self._manifest().mark_done("unit-0001", "x" * 5000)
+        assert len(manifest.source_units[0].notes) <= 1500
 
     def test_digest_carries_headings_and_pages(self) -> None:
-        manifest = self._manifest().mark_done(1, "wrote [[functions]]")
+        manifest = self._manifest().mark_done("unit-0001", "wrote [[functions]]")
         digest = manifest.digest()
         assert "Ch 1" in digest and "p.1-5" in digest and "[[functions]]" in digest
-        assert "Ch 2" not in digest  # pending chunks contribute nothing
+        assert "Ch 2" not in digest  # pending source units contribute nothing
 
     def test_pages_written_roundtrip_and_digest_record(self) -> None:
-        manifest = self._manifest().mark_done(1, "notes", pages_written=("functions", "scope"))
+        manifest = self._manifest().mark_done(
+            "unit-0001", "notes", pages_written=("functions", "scope")
+        )
         assert from_json(to_json(manifest)) == manifest
         assert "Pages written (recorded): [[functions]], [[scope]]" in manifest.digest()
         assert manifest.write_counts() == {"functions": 1, "scope": 1}
 
-    def test_legacy_manifest_without_pages_written_loads(self) -> None:
+    def test_manifest_requires_pages_written(self) -> None:
         import json
 
         data = json.loads(to_json(self._manifest()))
-        for chunk in data["chunks"]:
-            del chunk["pages_written"]  # manifests predating the salience design
-        manifest = from_json(json.dumps(data))
-        assert manifest.chunks[0].pages_written == ()
+        for source_unit in data["source_units"]:
+            assert source_unit["pages_written"] == []
 
-    def test_legacy_manifest_without_extractor_name_loads(self) -> None:
+    def test_manifest_requires_extractor_name(self) -> None:
         import json
 
         data = json.loads(to_json(self._manifest()))
-        del data["extractor_name"]
-        manifest = from_json(json.dumps(data))
-        assert manifest.extractor_name == "pymupdf4llm"
+        assert data["extractor_name"] == "docling"
 
     def test_write_counts_accumulate_across_chunks(self) -> None:
         manifest = (
             self._manifest()
-            .mark_done(1, "n1", pages_written=("iterable", "generator"))
-            .mark_done(2, "n2", pages_written=("iterable",))
+            .mark_done("unit-0001", "n1", pages_written=("iterable", "generator"))
+            .mark_done("unit-0002", "n2", pages_written=("iterable",))
         )
         assert manifest.write_counts() == {"iterable": 2, "generator": 1}
 

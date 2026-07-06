@@ -4,10 +4,10 @@ page_kind: concept
 summary: Evaluate: 10 statement(s) and 3 atom(s) from raw/javascriptallonge.pdf.
 page_family: broad-topic
 sources: raw/javascriptallonge.pdf
-updated: 2026-07-02
+updated: 2026-07-06
 domain: javascriptallonge
 category_path: concepts
-projection_coverage: topic-javascriptallonge-evaluate@97e3b09c16addbe29351a517c350abd0
+projection_coverage: topic-javascriptallonge-evaluate@d04be3bc925b9b73286debd4ffe0d7f3
 ---
 
 # Evaluate
@@ -18,54 +18,54 @@ What [[javascriptallonge]] covers about evaluate:
 
 ### Prelude: Values and Expressions over Coffee / values are expressions / reference types
 
-- They look the same, but if you examine them with === , you see that they are different. Every time you evaluate an expression (including typing something in) to create an array, you're creating a new, distinct value even if it appears to be the same as some other array value. As we'll see, this is true of many other kinds of values, including functions , the main subject of this book. _(javascriptallonge.pdf (source-range-0e12e052-00139))_
+- They look the same, but if you examine them with === , you see that they are different. Every time you evaluate an expression (including typing something in) to create an array, you're creating a new, distinct value even if it appears to be the same as some other array value. As we'll see, this is true of many other kinds of values, including functions , the main subject of this book. _(javascriptallonge.pdf (source-range-c98ab3e6-00139))_
 
 ### The first sip: Basic Functions / As Little As Possible About Functions, But No Less / functions and identities
 
-- Like arrays, every time you evaluate an expression to produce a function, you get a new function that is not identical to any other function, even if you use the same expression to generate it. 'Function' is a reference type. _(javascriptallonge.pdf (source-range-0e12e052-00181))_
+- Like arrays, every time you evaluate an expression to produce a function, you get a new function that is not identical to any other function, even if you use the same expression to generate it. 'Function' is a reference type. _(javascriptallonge.pdf (source-range-c98ab3e6-00181))_
 
 ### Or even: / the simplest possible block / undefined
 
-- No matter how you evaluate undefined , you get an identical value back. undefined is a value that means 'I don't have a value.' But it's still a value :-) _(javascriptallonge.pdf (source-range-0e12e052-00224))_
+- No matter how you evaluate undefined , you get an identical value back. undefined is a value that means 'I don't have a value.' But it's still a value :-) _(javascriptallonge.pdf (source-range-c98ab3e6-00224))_
 
 ### Or even: / back on the block
 
-- But no matter how we arrange them, a block with one or more expressions still evaluates to undefined : _(javascriptallonge.pdf (source-range-0e12e052-00245))_
+- But no matter how we arrange them, a block with one or more expressions still evaluates to undefined : _(javascriptallonge.pdf (source-range-c98ab3e6-00245))_
 
 ### And also: / Closures and Scope / it's always the environment
 
-- The first function is the result of currying a the second function. Calling a curried function with only some of its arguments is sometimes called partial application b . Some programming languages automatically curry and partially evaluate functions without the need to manually nest them. _(javascriptallonge.pdf (source-range-0e12e052-00361))_
+- The first function is the result of currying a the second function. Calling a curried function with only some of its arguments is sometimes called partial application b . Some programming languages automatically curry and partially evaluate functions without the need to manually nest them. _(javascriptallonge.pdf (source-range-c98ab3e6-00361))_
 
 ### And also: / Summary / Functions
 
-- Block bodies evaluate to whatever is returned with the return keyword, or to undefined . _(javascriptallonge.pdf (source-range-0e12e052-00640))_
+- Block bodies evaluate to whatever is returned with the return keyword, or to undefined . _(javascriptallonge.pdf (source-range-c98ab3e6-00640))_
 
 ### Picking the Bean: Choice and Truthiness / truthiness and the ternary operator
 
-- JavaScript inherited an operator from the C family of languages, the ternary operator. It's the only operator that takes three arguments. It looks like this: first ? second : third . It evaluates first , and if first is 'truthy', it evaluates second and that is its value. If first is not truthy, it evaluates third and that is its value. _(javascriptallonge.pdf (source-range-0e12e052-00763))_
+- JavaScript inherited an operator from the C family of languages, the ternary operator. It's the only operator that takes three arguments. It looks like this: first ? second : third . It evaluates first , and if first is 'truthy', it evaluates second and that is its value. If first is not truthy, it evaluates third and that is its value. _(javascriptallonge.pdf (source-range-c98ab3e6-00763))_
 
-- Wecertainly don't want JavaScript trying to evaluate deleteRecord(currentRecord) unless isAuthorized(currentUser) returns true . _(javascriptallonge.pdf (source-range-0e12e052-00769))_
+- Wecertainly don't want JavaScript trying to evaluate deleteRecord(currentRecord) unless isAuthorized(currentUser) returns true . _(javascriptallonge.pdf (source-range-c98ab3e6-00769))_
 
 ### A Warm Cup: Basic Strings and Quasi-Literals / evaluation time
 
-- JavaScript evaluates the quasi-literal when the function is invoked and the quasi-literal inside the function's body is evaluated. Thus, name is not bound to "Harry" , it is bound to 'Arthur Dent' , the value of the parameter when the function is invoked. _(javascriptallonge.pdf (source-range-0e12e052-01514))_
+- JavaScript evaluates the quasi-literal when the function is invoked and the quasi-literal inside the function's body is evaluated. Thus, name is not bound to "Harry" , it is bound to 'Arthur Dent' , the value of the parameter when the function is invoked. _(javascriptallonge.pdf (source-range-c98ab3e6-01514))_
 
 ### Served by the Pot: Collections / Iteration and Iterables / iterables
 
-- The expression Symbol.iterator evaluates to a special symbol representing the name of the method that objects should use if they return an iterator object. _(javascriptallonge.pdf (source-range-0e12e052-01552))_
+- The expression Symbol.iterator evaluates to a special symbol representing the name of the method that objects should use if they return an iterator object. _(javascriptallonge.pdf (source-range-c98ab3e6-01552))_
 
 
 ## Technical atoms
 
 ### Technical frame 1: Or even: / the simplest possible block / undefined
 
-**Context:** _(javascriptallonge.pdf (source-range-0e12e052-00224))_
+**Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-00224))_
 
 > No matter how you evaluate undefined , you get an identical value back. undefined is a value that means 'I don't have a value.' But it's still a value :-)
 
-**Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00223))_
+**Atom:** _(javascriptallonge.pdf (source-range-c98ab3e6-00223))_
 
-<a id="atom-technical-atom-19d368aa877bf601"></a>
+<a id="atom-technical-atom-5a32c82afb1975e9"></a>
 ```
 undefined === undefined
 //=> true
@@ -77,13 +77,13 @@ undefined === undefined
 
 ### Technical frame 2: Or even: / back on the block
 
-**Context:** _(javascriptallonge.pdf (source-range-0e12e052-00245))_
+**Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-00245))_
 
 > But no matter how we arrange them, a block with one or more expressions still evaluates to undefined :
 
-**Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00246))_
+**Atom:** _(javascriptallonge.pdf (source-range-c98ab3e6-00246))_
 
-<a id="atom-technical-atom-d51366af88ef2feb"></a>
+<a id="atom-technical-atom-34ea4e035787e576"></a>
 ```text
 //=> undefined
 We said that the function returns the result of evaluating a block, and we said that a block is a
@@ -202,13 +202,13 @@ Ah. I’d Like to Have an Argument, Please.22
 
 ### Technical frame 3: And also: / Closures and Scope / it's always the environment
 
-**Context:** _(javascriptallonge.pdf (source-range-0e12e052-00360))_
+**Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-00360))_
 
 > Only you call it with (1)(2)(3) instead of (1, 2, 3) . The other big difference is that you can call it with (1) and get a function back that you can later call with (2)(3) .
 
-**Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00359))_
+**Atom:** _(javascriptallonge.pdf (source-range-c98ab3e6-00359))_
 
-<a id="atom-technical-atom-ed81aab62f6b0a9f"></a>
+<a id="atom-technical-atom-30a4e428ab8015d7"></a>
 ```
 (x, y, z) => x + y + z
 ```

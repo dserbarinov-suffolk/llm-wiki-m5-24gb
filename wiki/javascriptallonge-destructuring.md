@@ -4,10 +4,10 @@ page_kind: concept
 summary: Destructuring: 1 statement(s) and 2 atom(s) from raw/javascriptallonge.pdf.
 page_family: topic-concept
 sources: raw/javascriptallonge.pdf
-updated: 2026-07-02
+updated: 2026-07-06
 domain: javascriptallonge
 category_path: concepts
-projection_coverage: topic-javascriptallonge-destructuring@6abaaf4b19d70bd828bbf9768bc54098
+projection_coverage: topic-javascriptallonge-destructuring@ab0de441783a13c277cfbfaef549d976
 ---
 
 # Destructuring
@@ -18,20 +18,20 @@ What [[javascriptallonge]] covers about destructuring:
 
 ### Composing and Decomposing Data / defaults and destructuring
 
-- How very useful: defaults can be supplied for destructuring assignments, just like defaults for parameters. _(javascriptallonge.pdf (source-range-0e12e052-01008))_
+- How very useful: defaults can be supplied for destructuring assignments, just like defaults for parameters. _(javascriptallonge.pdf (source-range-c98ab3e6-01008))_
 
 
 ## Technical atoms
 
 ### Technical frame 1: Composing and Decomposing Data / defaults and destructuring
 
-**Context:** _(javascriptallonge.pdf (source-range-0e12e052-01008))_
+**Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01008))_
 
 > How very useful: defaults can be supplied for destructuring assignments, just like defaults for parameters.
 
-**Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01007))_
+**Atom:** _(javascriptallonge.pdf (source-range-c98ab3e6-01007))_
 
-<a id="atom-technical-atom-641bd340a36cffff"></a>
+<a id="atom-technical-atom-08a4d8c2f911d51a"></a>
 ```
 const [first, second = "two"] = ["one"];
 `${first} . ${second}`
@@ -43,13 +43,13 @@ const [first, second = "two"] = ["primus", "secundus"];
 
 ### Technical atom 2
 
-<a id="atom-technical-atom-3cae8f2f94ac5f79"></a>
+<a id="atom-technical-atom-59a39b6960f40892"></a>
 
-**Context:** _(javascriptallonge.pdf (source-range-0e12e052-00865))_
+**Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-00865))_
 
 > Some languages support multiple return values: A function can return several things at once, like a value and an error code. This can easily be emulated in JavaScript with destructuring:
 
-**Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00866))_
+**Atom:** _(javascriptallonge.pdf (source-range-c98ab3e6-00866))_
 
 ```
 const description = (nameAndOccupation) => {

@@ -1,12 +1,15 @@
 from llmwiki.pdf.document import (
     DocumentElement,
     DocumentModel,
-    build_source_chunks,
     build_source_sections,
+    build_source_units,
     document_model_from_json,
     document_model_to_json,
+    render_source_unit,
     source_sections_from_json,
     source_sections_to_json,
+    source_units_from_jsonl,
+    source_units_to_jsonl,
 )
 
 
@@ -136,7 +139,7 @@ class TestSourceSections:
         assert document_model_from_json(document_model_to_json(model)) == model
 
 
-class TestSourceChunks:
+class TestSourceUnits:
     def test_does_not_merge_adjacent_sections(self) -> None:
         model = _model(
             (
@@ -148,11 +151,11 @@ class TestSourceChunks:
         )
         sections = build_source_sections(model)
 
-        chunks = build_source_chunks(model, sections, budget_tokens=6000)
+        units = build_source_units(model, sections, budget_tokens=6000)
 
-        assert len(chunks) == 2
-        assert chunks[0].heading_path == "Object.assign"
-        assert chunks[1].heading_path == "Why?"
+        assert len(units) == 2
+        assert units[0].heading_path == "Object.assign"
+        assert units[1].heading_path == "Why?"
 
     def test_splits_oversized_section_at_element_boundaries(self) -> None:
         model = _model(
@@ -165,8 +168,24 @@ class TestSourceChunks:
         )
         sections = build_source_sections(model)
 
-        chunks = build_source_chunks(model, sections, budget_tokens=40)
+        units = build_source_units(model, sections, budget_tokens=40)
 
-        assert len(chunks) > 1
-        assert all(chunk.heading_path == "Chapter" for chunk in chunks)
-        assert "const answer = 42;" in chunks[-1].text
+        assert len(units) > 1
+        assert all(unit.heading_path == "Chapter" for unit in units)
+        assert "const answer = 42;" in render_source_unit(units[-1])
+
+    def test_source_units_jsonl_roundtrips_structured_blocks(self) -> None:
+        model = _model(
+            (
+                _element("e1", "heading", "Chapter", "Chapter", 1),
+                _element("e2", "paragraph", "Chapter", "alpha", 1),
+                _element("e3", "code_block", "Chapter", "const answer = 42;", 2),
+            )
+        )
+        units = build_source_units(model, build_source_sections(model), budget_tokens=6000)
+
+        roundtripped = source_units_from_jsonl(source_units_to_jsonl(units))
+
+        assert roundtripped == units
+        assert roundtripped[0].blocks[2].code_text == "const answer = 42;"
+        assert "```\nconst answer = 42;\n```" in render_source_unit(roundtripped[0])

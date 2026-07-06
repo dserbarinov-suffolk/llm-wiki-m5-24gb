@@ -4,10 +4,10 @@ page_kind: concept
 summary: Binding: 3 statement(s) and 8 atom(s) from raw/javascriptallonge.pdf.
 page_family: topic-concept
 sources: raw/javascriptallonge.pdf
-updated: 2026-07-02
+updated: 2026-07-06
 domain: javascriptallonge
 category_path: concepts
-projection_coverage: topic-javascriptallonge-binding@e47dcd3aad578d86b82775c2e08ce16f
+projection_coverage: topic-javascriptallonge-binding@9733b6caeb9b320bf7d364ac9fa05a8f
 ---
 
 # Binding
@@ -18,28 +18,28 @@ What [[javascriptallonge]] covers about binding:
 
 ### And also: / That Constant Coffee Craving / const and lexical scope
 
-- Yes. Binding values to names with const works just like binding values to names with parameter invocations, it uses lexical scope. _(javascriptallonge.pdf (source-range-0e12e052-00457))_
+- Yes. Binding values to names with const works just like binding values to names with parameter invocations, it uses lexical scope. _(javascriptallonge.pdf (source-range-c98ab3e6-00457))_
 
 ### And also: / That Constant Coffee Craving / are consts also from a shadowy planet?
 
-- We can test this by creating another conflict. But instead of binding two different variables to the same name in two different places, we'll bind two different values to the same name, but one environment will be completely enclosed by the other. _(javascriptallonge.pdf (source-range-0e12e052-00461))_
+- We can test this by creating another conflict. But instead of binding two different variables to the same name in two different places, we'll bind two different values to the same name, but one environment will be completely enclosed by the other. _(javascriptallonge.pdf (source-range-c98ab3e6-00461))_
 
 ### Reassignment
 
-- Like evaluating variable labels, when a binding is rebound, JavaScript searches for the binding in the current environment and then each ancestor in turn until it finds one. It then rebinds the name in that environment. _(javascriptallonge.pdf (source-range-0e12e052-01173))_
+- Like evaluating variable labels, when a binding is rebound, JavaScript searches for the binding in the current environment and then each ancestor in turn until it finds one. It then rebinds the name in that environment. _(javascriptallonge.pdf (source-range-c98ab3e6-01173))_
 
 
 ## Technical atoms
 
 ### Technical frame 1: And also: / That Constant Coffee Craving / are consts also from a shadowy planet?
 
-**Context:** _(javascriptallonge.pdf (source-range-0e12e052-00470))_
+**Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-00470))_
 
 > Now we bind 3 to PI in an otherwise empty IIFE inside of our IIFE that binds 3.14159265 to PI . Does that binding 'overwrite' the outer one? Will our function return 6 or 6.2831853 ? This is a book, you've already scanned ahead, so you know that the answer is no , the inner binding does not overwrite the outer binding:
 
-**Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00469))_
+**Atom:** _(javascriptallonge.pdf (source-range-c98ab3e6-00469))_
 
-<a id="atom-technical-atom-9015b3cf2462a504"></a>
+<a id="atom-technical-atom-81cc93279d65de76"></a>
 ```
 ((PI) => {
 ((PI) => {})(3);
@@ -49,13 +49,13 @@ return (diameter) => diameter * PI;
 
 ### Technical frame 2: And also: / That Constant Coffee Craving / are consts also from a shadowy planet?
 
-**Context:** _(javascriptallonge.pdf (source-range-0e12e052-00472))_
+**Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-00472))_
 
 > We say that when we bind a variable using a parameter inside another binding, the inner binding shadows the outer binding. It has effect inside its own scope, but does not affect the binding in the enclosing scope.
 
-**Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00471))_
+**Atom:** _(javascriptallonge.pdf (source-range-c98ab3e6-00471))_
 
-<a id="atom-technical-atom-91c404fc287165c5"></a>
+<a id="atom-technical-atom-e607cb51ca30f199"></a>
 ```
 ((PI) => {
 ((PI) => {})(3);
@@ -66,13 +66,13 @@ return (diameter) => diameter * PI;
 
 ### Technical frame 3: And also: / That Constant Coffee Craving / are consts also from a shadowy planet?
 
-**Context:** _(javascriptallonge.pdf (source-range-0e12e052-00476))_
+**Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-00476))_
 
 > Parameters are only bound when we invoke a function. That's why we made all these IIFEs. But const statements can appear inside blocks. What happens when we use a const inside of a block? We'll need a gratuitous block. We've seen if statements, what could be more gratuitous than:
 
-**Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00474))_
+**Atom:** _(javascriptallonge.pdf (source-range-c98ab3e6-00474))_
 
-<a id="atom-technical-atom-87052ff25d95631f"></a>
+<a id="atom-technical-atom-f59577654195d7a7"></a>
 ```
 ((diameter) => {
 const PI = 3.14159265;
@@ -86,13 +86,13 @@ return diameter * PI;
 
 ### Technical frame 4: And also: / Magic Names / the function keyword
 
-**Context:** _(javascriptallonge.pdf (source-range-0e12e052-00612))_
+**Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-00612))_
 
 > The most common use of the arguments binding is to build functions that can take a variable number of arguments. We'll see it used in many of the recipes, starting off with partial application and ellipses.
 
-**Atom:** _(javascriptallonge.pdf (source-range-0e12e052-00608))_
+**Atom:** _(javascriptallonge.pdf (source-range-c98ab3e6-00608))_
 
-<a id="atom-technical-atom-216c7e390d5b4860"></a>
+<a id="atom-technical-atom-0cef432672ec2709"></a>
 ```text
 42 You should never attempt to define your own bindings against 'magic' names that JavaScript binds for you. It is wise to treat them as read-only at all times.
 43 We'll look at arrays and plain old javascript objects in depth later.
@@ -110,13 +110,13 @@ return diameter * PI;
 
 ### Technical frame 5: Plain Old JavaScript Objects / literal object syntax
 
-**Context:** _(javascriptallonge.pdf (source-range-0e12e052-01088))_
+**Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01088))_
 
 > (There are some other technical differences between binding a named function expression and using compact method syntax, but they are not relevant here. We will generally prefer compact method syntax whenever we can.)
 
-**Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01087))_
+**Atom:** _(javascriptallonge.pdf (source-range-c98ab3e6-01087))_
 
-<a id="atom-technical-atom-309e77615053b1d2"></a>
+<a id="atom-technical-atom-1534944fd65c6824"></a>
 ```
 const SecretDecoderRing = {
 encode (plaintext) {
@@ -140,13 +140,13 @@ return cyphertext
 
 ### Technical frame 6: Reassignment
 
-**Context:** _(javascriptallonge.pdf (source-range-0e12e052-01168))_
+**Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01168))_
 
 > Using let to bind 50 to age within the block does not change the binding of age in the outer environment because the binding of age in the block shadows the binding of age in the outer environment, just like const . We go from:
 
-**Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01167))_
+**Atom:** _(javascriptallonge.pdf (source-range-c98ab3e6-01167))_
 
-<a id="atom-technical-atom-1b483f8e0657577c"></a>
+<a id="atom-technical-atom-496e5f65cb97adb9"></a>
 ```
 (() => {
 let age = 49;
@@ -160,13 +160,13 @@ return age;
 
 ### Technical frame 7: Reassignment
 
-**Context:** _(javascriptallonge.pdf (source-range-0e12e052-01173))_
+**Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01173))_
 
 > Like evaluating variable labels, when a binding is rebound, JavaScript searches for the binding in the current environment and then each ancestor in turn until it finds one. It then rebinds the name in that environment.
 
-**Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01169))_
+**Atom:** _(javascriptallonge.pdf (source-range-c98ab3e6-01169))_
 
-<a id="atom-technical-atom-8a284e0b07940e14"></a>
+<a id="atom-technical-atom-d3429773e014c0b3"></a>
 ```
 {age: 49, '..': global-environment}
 To:
@@ -176,13 +176,13 @@ Then back to:
 
 ### Technical frame 8: Reassignment
 
-**Context:** _(javascriptallonge.pdf (source-range-0e12e052-01173))_
+**Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01173))_
 
 > Like evaluating variable labels, when a binding is rebound, JavaScript searches for the binding in the current environment and then each ancestor in turn until it finds one. It then rebinds the name in that environment.
 
-**Atom:** _(javascriptallonge.pdf (source-range-0e12e052-01170))_
+**Atom:** _(javascriptallonge.pdf (source-range-c98ab3e6-01170))_
 
-<a id="atom-technical-atom-028ad3558fbe47fd"></a>
+<a id="atom-technical-atom-f8164847be7d0adf"></a>
 ```
 {age: 49, '..': global-environment}
 ```

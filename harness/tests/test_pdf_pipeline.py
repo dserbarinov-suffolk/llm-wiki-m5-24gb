@@ -6,8 +6,13 @@ import pymupdf  # type: ignore[import-untyped]
 import pytest
 
 from llmwiki.pdf import ScannedPdfError
-from llmwiki.pdf.document import DocumentElement, DocumentModel
-from llmwiki.pdf.pipeline import chunk_file, ensure_extracted, save_manifest
+from llmwiki.pdf.document import DocumentElement, DocumentModel, render_source_units
+from llmwiki.pdf.pipeline import (
+    ensure_extracted,
+    read_source_units,
+    save_manifest,
+    source_units_file,
+)
 from llmwiki.pdf.recognizer import NullRecognizer
 
 _PAGE_PROSE = "Functions are first-class values. " * 40  # ~1.4K chars/page: classifies TEXT
@@ -107,7 +112,7 @@ class FakeDocumentExtractor:
 
 
 class TestEnsureExtracted:
-    def test_extracts_chunks_and_manifest(self, tmp_path: Path) -> None:
+    def test_extracts_structured_source_units_and_manifest(self, tmp_path: Path) -> None:
         pdf = tmp_path / "book.pdf"
         _make_pdf(pdf)
         document_extractor = FakeDocumentExtractor()
@@ -122,14 +127,18 @@ class TestEnsureExtracted:
         manifest = result.manifest
         assert manifest.source == "book.pdf"
         assert manifest.extractor_name == "docling"
-        assert len(manifest.chunks) == 1
-        assert manifest.pending == manifest.chunks
-        first = manifest.chunks[0]
-        text = chunk_file(result.cache_dir, first.chunk_id).read_text(encoding="utf-8")
+        assert len(manifest.source_units) == 1
+        assert manifest.pending == manifest.source_units
+        first = manifest.source_units[0]
+        source_units = read_source_units(result.cache_dir)
+        text = render_source_units(source_units)
         assert "Functions are values" in text
-        assert (first.start_page, manifest.chunks[-1].end_page) == (1, 6)
+        assert source_units[0].element_ids == ("element-000001", "element-000002")
+        assert (first.start_page, manifest.source_units[-1].end_page) == (1, 6)
         assert (result.cache_dir / "document_model.json").is_file()
         assert (result.cache_dir / "source_sections.json").is_file()
+        assert source_units_file(result.cache_dir).is_file()
+        assert not (result.cache_dir / "chunks").exists()
         assert document_extractor.calls == 1
 
     def test_cache_hit_skips_reextraction(self, tmp_path: Path) -> None:
@@ -143,7 +152,7 @@ class TestEnsureExtracted:
             NullRecognizer(),
             document_extractor=document_extractor,
         )
-        marked = first.manifest.mark_done(1, "notes")
+        marked = first.manifest.mark_done("unit-0001", "notes")
         save_manifest(type(first)(manifest=marked, cache_dir=first.cache_dir))
 
         again = ensure_extracted(
@@ -153,10 +162,12 @@ class TestEnsureExtracted:
             NullRecognizer(),
             document_extractor=document_extractor,
         )
-        assert again.manifest.chunks[0].status == "done"  # resume state survived
+        assert again.manifest.source_units[0].status == "done"  # resume state survived
         assert document_extractor.calls == 1
 
-    def test_cache_hit_rebuilds_missing_chunk_from_document_model(self, tmp_path: Path) -> None:
+    def test_cache_hit_rebuilds_missing_source_units_from_document_model(
+        self, tmp_path: Path
+    ) -> None:
         pdf = tmp_path / "book.pdf"
         _make_pdf(pdf)
         document_extractor = FakeDocumentExtractor()
@@ -167,7 +178,7 @@ class TestEnsureExtracted:
             NullRecognizer(),
             document_extractor=document_extractor,
         )
-        chunk_file(first.cache_dir, first.manifest.chunks[0].chunk_id).unlink()
+        source_units_file(first.cache_dir).unlink()
 
         again = ensure_extracted(
             pdf,
@@ -178,7 +189,8 @@ class TestEnsureExtracted:
         )
 
         assert document_extractor.calls == 1
-        assert chunk_file(again.cache_dir, again.manifest.chunks[0].chunk_id).is_file()
+        assert source_units_file(again.cache_dir).is_file()
+        assert read_source_units(again.cache_dir)
 
     def test_reextract_rebuilds_pending_manifest(self, tmp_path: Path) -> None:
         pdf = tmp_path / "book.pdf"
@@ -192,7 +204,10 @@ class TestEnsureExtracted:
             document_extractor=document_extractor,
         )
         save_manifest(
-            type(first)(manifest=first.manifest.mark_done(1, "n"), cache_dir=first.cache_dir)
+            type(first)(
+                manifest=first.manifest.mark_done("unit-0001", "n"),
+                cache_dir=first.cache_dir,
+            )
         )
         redone = ensure_extracted(
             pdf,
@@ -202,7 +217,7 @@ class TestEnsureExtracted:
             reextract=True,
             document_extractor=document_extractor,
         )
-        assert redone.manifest.pending == redone.manifest.chunks
+        assert redone.manifest.pending == redone.manifest.source_units
         assert document_extractor.calls == 2
 
     def test_scanned_pdf_is_refused_cleanly(self, tmp_path: Path) -> None:
@@ -236,14 +251,11 @@ class TestEnsureExtracted:
         )
 
         model = (result.cache_dir / "document_model.json").read_text(encoding="utf-8")
-        chunk = "\n\n".join(
-            chunk_file(result.cache_dir, chunk_record.chunk_id).read_text(encoding="utf-8")
-            for chunk_record in result.manifest.chunks
-        )
+        source_text = render_source_units(read_source_units(result.cache_dir))
         assert '"element_kind": "table"' in model
         assert model.count('"element_kind": "table"') == 1
-        assert chunk.count("Table- Sample Matrix") == 1
-        assert "Label" in chunk
-        assert "Alpha" in chunk
-        assert "Gamma" in chunk
-        assert "Next Section" not in chunk
+        assert source_text.count("Table- Sample Matrix") == 1
+        assert "Label" in source_text
+        assert "Alpha" in source_text
+        assert "Gamma" in source_text
+        assert "Next Section" not in source_text
