@@ -5,13 +5,13 @@ from __future__ import annotations
 import re
 from collections.abc import Mapping, Sequence
 
+from llmwiki.domain.model_profile import DEFAULT_MODEL_PROFILE, ModelProfile
 from llmwiki.domain.pages import PageError, parse_page
 from llmwiki.domain.structured_evidence_blocks import extract_structured_artifacts
 from llmwiki.domain.structured_evidence_types import StructuredEvidenceArtifact
 
 __all__ = ["StructuredEvidenceArtifact", "select_structured_evidence_artifacts"]
 
-_MAX_ARTIFACT_CHARS = 900
 _TOKEN_RE = re.compile(r"[a-z0-9][a-z0-9'~-]{2,}")
 _TABLE_LABEL_RE = re.compile(
     r"\bTable\s+[A-Za-z0-9][A-Za-z0-9.-]*(?::\s*[^,.\n_`>()]+)?",
@@ -49,7 +49,8 @@ def select_structured_evidence_artifacts(
     focus_texts: Sequence[str],
     *,
     max_artifacts: int = 24,
-    max_total_chars: int = 12_000,
+    max_total_chars: int | None = None,
+    model_profile: ModelProfile = DEFAULT_MODEL_PROFILE,
 ) -> tuple[StructuredEvidenceArtifact, ...]:
     """Select table, code, formula, and example artifacts from candidate pages."""
 
@@ -67,7 +68,12 @@ def select_structured_evidence_artifacts(
             continue
         for artifact in extract_structured_artifacts(page.page_id, page.page_body):
             scored.append((_score(artifact, focus_terms, page_order), page_order, artifact))
-    return _select_artifacts(scored, max_artifacts=max_artifacts, max_total_chars=max_total_chars)
+    return _select_artifacts(
+        scored,
+        max_artifacts=max_artifacts,
+        max_total_chars=max_total_chars or model_profile.structured_evidence_total_chars,
+        model_profile=model_profile,
+    )
 
 
 def _select_artifacts(
@@ -75,6 +81,7 @@ def _select_artifacts(
     *,
     max_artifacts: int,
     max_total_chars: int,
+    model_profile: ModelProfile,
 ) -> tuple[StructuredEvidenceArtifact, ...]:
     selected: list[StructuredEvidenceArtifact] = []
     seen: set[str] = set()
@@ -90,7 +97,7 @@ def _select_artifacts(
         key = _fingerprint(artifact)
         if key in seen:
             continue
-        excerpt = _clip(artifact.excerpt, _MAX_ARTIFACT_CHARS)
+        excerpt = _clip(artifact.excerpt, model_profile.structured_evidence_artifact_chars)
         if total + len(excerpt) > max_total_chars:
             break
         seen.add(key)

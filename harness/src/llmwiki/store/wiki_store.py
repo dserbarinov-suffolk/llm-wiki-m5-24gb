@@ -18,9 +18,10 @@ import re
 from collections.abc import Callable
 from pathlib import Path
 
-from llmwiki.config import SOURCE_READ_BUDGET_CHARS, WikiPaths
+from llmwiki.config import WikiPaths
 from llmwiki.domain.index import index_page_ids, remove_index_entries, upsert_index_entry
 from llmwiki.domain.log import format_log_entry
+from llmwiki.domain.model_profile import DEFAULT_MODEL_PROFILE, ModelProfile
 from llmwiki.domain.objects import RawSource
 from llmwiki.domain.pages import (
     LOCAL_FLAT_STRUCTURE,
@@ -50,13 +51,23 @@ class SourceNotFoundError(WikiStoreError):
 
 
 class WikiStore:
-    def __init__(self, paths: WikiPaths, structure: WikiStructure = LOCAL_FLAT_STRUCTURE) -> None:
+    def __init__(
+        self,
+        paths: WikiPaths,
+        structure: WikiStructure = LOCAL_FLAT_STRUCTURE,
+        model_profile: ModelProfile = DEFAULT_MODEL_PROFILE,
+    ) -> None:
         self._paths = paths
         self._structure = structure
+        self._model_profile = model_profile
 
     @property
     def structure(self) -> WikiStructure:
         return self._structure
+
+    @property
+    def model_profile(self) -> ModelProfile:
+        return self._model_profile
 
     # -- schema layer -----------------------------------------------------
 
@@ -86,8 +97,9 @@ class WikiStore:
 
     def read_source(self, source_locator: str) -> str:
         text = self.raw_source_path(source_locator).read_text(encoding="utf-8")
-        if len(text) > SOURCE_READ_BUDGET_CHARS:
-            return text[:SOURCE_READ_BUDGET_CHARS] + _TRUNCATION_MARKER
+        limit = self._model_profile.raw_source_read_chars
+        if len(text) > limit:
+            return text[:limit] + _TRUNCATION_MARKER
         return text
 
     def read_source_for_ingest(self, source_locator: str) -> str:

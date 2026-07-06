@@ -9,9 +9,7 @@ from __future__ import annotations
 import json
 from dataclasses import dataclass, field, replace
 
-# Cap carried-forward notes so 20 chunks of digest fit the integrate run
-# (~1.5K chars ≈ 375 tokens each). Awaiting experimentation.
-NOTE_CAP_CHARS = 1500
+from llmwiki.domain.model_profile import DEFAULT_MODEL_PROFILE
 
 _STATUSES = ("pending", "done")
 
@@ -50,8 +48,14 @@ class Manifest:
     def all_done(self) -> bool:
         return not self.pending
 
-    def mark_done(self, chunk_id: int, notes: str, pages_written: tuple[str, ...] = ()) -> Manifest:
-        capped = notes if len(notes) <= NOTE_CAP_CHARS else notes[: NOTE_CAP_CHARS - 1] + "…"
+    def mark_done(
+        self,
+        chunk_id: int,
+        notes: str,
+        pages_written: tuple[str, ...] = (),
+        note_cap_chars: int = DEFAULT_MODEL_PROFILE.pdf_manifest_note_chars,
+    ) -> Manifest:
+        capped = notes if len(notes) <= note_cap_chars else notes[: note_cap_chars - 1] + "…"
         chunks = tuple(
             replace(c, status="done", notes=capped, pages_written=pages_written)
             if c.chunk_id == chunk_id

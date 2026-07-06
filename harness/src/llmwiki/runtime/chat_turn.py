@@ -10,6 +10,7 @@ from forge.core.workflow import Workflow
 
 from llmwiki.domain.chat_turn_context import build_chat_turn_context
 from llmwiki.domain.chatwindow import QAPair
+from llmwiki.domain.model_profile import DEFAULT_MODEL_PROFILE, ModelProfile
 from llmwiki.store import WikiStore
 from llmwiki.workflows import build_chat_workflow
 
@@ -27,6 +28,7 @@ def prepare_chat_turn(
     question: str,
     window: Sequence[QAPair],
     grounded: bool,
+    model_profile: ModelProfile = DEFAULT_MODEL_PROFILE,
 ) -> PreparedChatTurn:
     pages = store.page_texts()
     chat_context = build_chat_turn_context(
@@ -35,6 +37,7 @@ def prepare_chat_turn(
         index_text=store.read_index(),
         grounded=grounded,
         has_window=bool(window),
+        model_profile=model_profile,
     )
     workflow = build_chat_workflow(
         store,

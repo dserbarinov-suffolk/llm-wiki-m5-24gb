@@ -8,6 +8,7 @@ from dataclasses import dataclass
 
 from llmwiki.domain.chat_grounding import ChatTaskMode
 from llmwiki.domain.links import extract_links
+from llmwiki.domain.model_profile import DEFAULT_MODEL_PROFILE, ModelProfile
 from llmwiki.domain.pages import PageError, parse_page
 from llmwiki.domain.search import SearchHit
 from llmwiki.domain.structured_evidence import (
@@ -19,10 +20,6 @@ _STEP_RE = re.compile(
     r"^\s*(?P<sequence>\d+)\.\s+\*\*(?P<title>[^*]+)\*\*.*?\[\[(?P<page_id>[a-z0-9-]+)\]\]",
     re.MULTILINE,
 )
-_MAX_PROCEDURE_CHARS = 5_000
-_MAX_PAGE_CHARS = 350
-_MAX_TOTAL_CHARS = 8_000
-
 
 @dataclass(frozen=True)
 class ProcedureStepRequirement:
@@ -108,6 +105,7 @@ def build_task_evidence_pack(
     hits: Sequence[SearchHit],
     *,
     task_mode: ChatTaskMode,
+    model_profile: ModelProfile = DEFAULT_MODEL_PROFILE,
 ) -> TaskEvidencePack | None:
     """Build a task evidence pack from search hits and procedure-page links."""
 
@@ -130,8 +128,9 @@ def build_task_evidence_pack(
         pages,
         page_ids,
         (procedure_page.page_body, *(step.title for step in steps)),
+        model_profile=model_profile,
     )
-    evidence_pages = _pack_pages(pages, page_ids)
+    evidence_pages = _pack_pages(pages, page_ids, model_profile)
     if not evidence_pages:
         return None
     return TaskEvidencePack(
@@ -203,7 +202,7 @@ def _page_link_priority(page_id: str, pages: Mapping[str, str]) -> tuple[int, st
 
 
 def _pack_pages(
-    pages: Mapping[str, str], page_ids: tuple[str, ...]
+    pages: Mapping[str, str], page_ids: tuple[str, ...], model_profile: ModelProfile
 ) -> tuple[TaskEvidencePage, ...]:
     packed: list[TaskEvidencePage] = []
     total = 0
@@ -215,8 +214,12 @@ def _pack_pages(
             continue
         if page_id != page_ids[0] and page.page_metadata.page_family == "source-manifest":
             continue
-        cap = _MAX_PROCEDURE_CHARS if page_id == page_ids[0] else _MAX_PAGE_CHARS
-        remaining = _MAX_TOTAL_CHARS - total
+        cap = (
+            model_profile.task_evidence_procedure_chars
+            if page_id == page_ids[0]
+            else model_profile.task_evidence_page_chars
+        )
+        remaining = model_profile.task_evidence_total_chars - total
         if remaining <= 0:
             break
         excerpt = _clip(page.page_body, min(cap, remaining))

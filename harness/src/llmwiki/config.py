@@ -6,11 +6,13 @@ import os
 from dataclasses import dataclass
 from pathlib import Path
 
-DEFAULT_CONTEXT_TOKENS = 16384
+from llmwiki.domain.model_profile import (
+    BASELINE_CONTEXT_TOKENS,
+    ModelProfile,
+    qwen3_14b_profile,
+)
+
 DEFAULT_PORT = 8080
-# Per-read cap on raw source text. Sources beyond this are truncated with an
-# explicit marker (chunked ingest is an open question in the design doc).
-SOURCE_READ_BUDGET_CHARS = 24_000
 
 _HF_CACHE_GLOB = ".cache/huggingface/hub/models--Qwen--Qwen3-14B-GGUF/snapshots/*/*.gguf"
 
@@ -73,7 +75,7 @@ class BackendConfig:
 
     gguf_path: Path
     port: int = DEFAULT_PORT
-    context_tokens: int = DEFAULT_CONTEXT_TOKENS
+    model_profile: ModelProfile = qwen3_14b_profile()
 
 
 def find_qwen3_gguf() -> Path | None:
@@ -92,5 +94,9 @@ def load_backend_config() -> BackendConfig:
             "download it: llama-cli -hf Qwen/Qwen3-14B-GGUF:Q4_K_M"
         )
     port = int(os.environ.get("LLMWIKI_PORT", str(DEFAULT_PORT)))
-    ctx = int(os.environ.get("LLMWIKI_CTX", str(DEFAULT_CONTEXT_TOKENS)))
-    return BackendConfig(gguf_path=gguf, port=port, context_tokens=ctx)
+    return BackendConfig(gguf_path=gguf, port=port, model_profile=load_model_profile())
+
+
+def load_model_profile() -> ModelProfile:
+    ctx = int(os.environ.get("LLMWIKI_CTX", str(BASELINE_CONTEXT_TOKENS)))
+    return qwen3_14b_profile(ctx)

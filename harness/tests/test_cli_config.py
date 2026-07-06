@@ -49,7 +49,7 @@ class TestBackendConfig:
         config = load_backend_config()
         assert config.gguf_path == gguf
         assert config.port == 9001
-        assert config.context_tokens == 8192
+        assert config.model_profile.context_window_tokens == 8192
 
     def test_missing_model_fails_loudly(
         self, tmp_path: Path, monkeypatch: pytest.MonkeyPatch

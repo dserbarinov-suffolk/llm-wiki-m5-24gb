@@ -6,12 +6,12 @@ import re
 from dataclasses import dataclass
 
 from llmwiki.domain.links import extract_links
+from llmwiki.domain.model_profile import DEFAULT_MODEL_PROFILE
 from llmwiki.domain.pages import PageError, PageMetadata, parse_page
 from llmwiki.domain.retrieval import query_terms, token_keys_for_text
 
 _HEADING_RE = re.compile(r"^(?P<marks>#{1,6})\s+(?P<title>.+?)\s*$")
 _SOURCE_RANGE_RE = re.compile(r"source-range-[a-z0-9]+-\d+")
-DEFAULT_PAGE_MAP_MAX_CHARS = 2_800
 _RELATED_PAGE_LIMIT = 6
 _CITATION_LIMIT = 3
 
@@ -66,7 +66,9 @@ def inspect_page_text(
     )
 
 
-def render_page_map(page_map: PageMap, *, max_chars: int = DEFAULT_PAGE_MAP_MAX_CHARS) -> str:
+def render_page_map(
+    page_map: PageMap, *, max_chars: int = DEFAULT_MODEL_PROFILE.page_map_chars
+) -> str:
     lines = [
         f"Page map for [[{page_map.page_id}]]",
         f"kind: {page_map.page_kind}",

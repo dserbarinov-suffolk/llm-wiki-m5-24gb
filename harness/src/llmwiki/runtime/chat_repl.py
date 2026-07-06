@@ -132,7 +132,7 @@ class ChatRepl:
 
     async def _turn(self, question: str) -> None:
         history = self.chat_store.history(self.active_id)
-        window = build_window(history)
+        window = build_window(history, model_profile=self.session.model_profile)
         tag = f"chat-{self.active_id}-{self.chat_store.turn_count(self.active_id) + 1:04d}"
         try:
             answer, transcript = await self.session.chat_turn(
@@ -146,7 +146,7 @@ class ChatRepl:
             question,
             answer,
             str(transcript) if transcript else "",
-            estimate_tokens(question + answer),
+            estimate_tokens(question + answer, self.session.model_profile),
             _now_iso(),
         )
         self.turns += 1

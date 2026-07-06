@@ -28,6 +28,7 @@ from llmwiki.domain.evidence_registry_io import registry_to_json
 from llmwiki.domain.graph import GraphStatus, build_wiki_graph, graph_status
 from llmwiki.domain.ledger.canonical import short_digest
 from llmwiki.domain.links import compute_findings
+from llmwiki.domain.model_profile import DEFAULT_MODEL_PROFILE, ModelProfile
 from llmwiki.domain.objects import (
     ExtractedUnit,
     ExtractionPrompt,
@@ -160,6 +161,7 @@ class Session:
     client: Any  # forge LLMClient protocol
     context_manager: ContextManager
     today: str
+    model_profile: ModelProfile = DEFAULT_MODEL_PROFILE
     runs_dir: Path | None = None
     run_id: str = ""  # unique per run (e.g. timestamp); falls back to date
     extract_pdf: ExtractFn | None = None  # required for PDF ingest; CLI wires it
@@ -180,7 +182,9 @@ class Session:
         source_text = self.store.read_source_for_ingest(source_locator)
         source_text_record = source_text_from_text(source_locator, source_text)
         title = _markdown_title(source_locator)
-        source_chunks = markdown_source_chunks(source_text, title)
+        source_chunks = markdown_source_chunks(
+            source_text, title, model_profile=self.model_profile
+        )
         extracted_units = self._markdown_extracted_units(
             raw_source,
             source_chunks,
@@ -197,6 +201,7 @@ class Session:
             wiki_structure=self.store.structure,
             today=self.today,
             schema=self._schema_object(),
+            model_profile=self.model_profile,
         )
         chunks = tuple(
             ChunkText(unit.unit_id, unit.locator, unit.heading_path, unit.text)
@@ -234,6 +239,7 @@ class Session:
             wiki_structure=self.store.structure,
             today=self.today,
             schema=self._schema_object(),
+            model_profile=self.model_profile,
         )
         self._write_page_plan(result.cache_dir, page_plan)
         self._write_observation(result.cache_dir, page_plan)
@@ -378,6 +384,7 @@ class Session:
             question=question,
             window=window,
             grounded=grounded,
+            model_profile=self.model_profile,
         )
         return await self._run(
             prepared.workflow,

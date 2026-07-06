@@ -3,7 +3,7 @@ import json
 from fakes import FakeClient
 from forge.context import ContextManager, NoCompact
 
-from llmwiki.config import SOURCE_READ_BUDGET_CHARS, WikiPaths
+from llmwiki.config import WikiPaths
 from llmwiki.runtime.session import Session
 from llmwiki.store import WikiStore
 
@@ -27,7 +27,9 @@ class TestMarkdownIngest:
     ) -> None:
         sentinel = "The final sentinel concept is retained."
         filler = "Background material is intentionally repetitive.\n\n"
-        body = "# Long Source\n\n" + filler * ((SOURCE_READ_BUDGET_CHARS // len(filler)) + 2)
+        body = "# Long Source\n\n" + filler * (
+            (store.model_profile.raw_source_read_chars // len(filler)) + 2
+        )
         body += f"\n\n# Final Section\n\n{sentinel}\n"
         (paths.raw_dir / "long-source.md").write_text(body, encoding="utf-8")
 

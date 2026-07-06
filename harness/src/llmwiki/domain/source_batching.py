@@ -10,8 +10,7 @@ from __future__ import annotations
 import re
 from dataclasses import dataclass
 
-CHUNK_TOKEN_BUDGET = 6000
-CHARS_PER_TOKEN = 4
+from llmwiki.domain.model_profile import DEFAULT_MODEL_PROFILE, ModelProfile
 
 _HEADING = re.compile(r"^\s{0,3}(#{1,6})\s+(.+?)\s*$")
 _FENCE = re.compile(r"^\s*(```|~~~)")
@@ -54,8 +53,10 @@ class SourceTextChunk:
     token_estimate: int
 
 
-def estimate_tokens(text: str) -> int:
-    return len(text) // CHARS_PER_TOKEN
+def estimate_tokens(
+    text: str, model_profile: ModelProfile = DEFAULT_MODEL_PROFILE
+) -> int:
+    return model_profile.estimate_tokens(text)
 
 
 def line_locator(start_line: int, end_line: int) -> str:
@@ -126,8 +127,10 @@ def markdown_source_sections(
 def chunk_source_sections(
     sections: tuple[SourceTextSection, ...],
     *,
-    budget_tokens: int = CHUNK_TOKEN_BUDGET,
+    budget_tokens: int | None = None,
+    model_profile: ModelProfile = DEFAULT_MODEL_PROFILE,
 ) -> tuple[SourceTextChunk, ...]:
+    resolved_budget = budget_tokens or model_profile.source_chunk_tokens
     chunks: list[SourceTextChunk] = []
     for section in sections:
         current: list[SourceTextBlock] = []
@@ -144,14 +147,14 @@ def chunk_source_sections(
                     heading_path=source_section.heading_path,
                     locator=line_locator(current[0].start_line, current[-1].end_line),
                     text=text,
-                    token_estimate=estimate_tokens(text),
+                    token_estimate=model_profile.estimate_tokens(text),
                 )
             )
             current = []
 
         for block in section.blocks:
             candidate = "\n\n".join((*[item.text for item in current], block.text))
-            if current and estimate_tokens(candidate) > budget_tokens:
+            if current and model_profile.estimate_tokens(candidate) > resolved_budget:
                 flush(section)
             current.append(block)
         flush(section)
@@ -162,11 +165,13 @@ def markdown_source_chunks(
     text: str,
     default_heading: str = "Document",
     *,
-    budget_tokens: int = CHUNK_TOKEN_BUDGET,
+    budget_tokens: int | None = None,
+    model_profile: ModelProfile = DEFAULT_MODEL_PROFILE,
 ) -> tuple[SourceTextChunk, ...]:
     return chunk_source_sections(
         markdown_source_sections(text, default_heading),
         budget_tokens=budget_tokens,
+        model_profile=model_profile,
     )
 
 

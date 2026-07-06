@@ -232,7 +232,7 @@ def _page_body_contract_source_text(store: WikiStore, planned_write: PlannedPage
     raw_source = planned_write.evidence[0].raw_source
     if raw_source.source_format != "markdown":
         return ""
-    return store.read_source(raw_source.source_locator)
+    return store.read_source_for_ingest(raw_source.source_locator)
 
 
 def _validate_planned_page_body(

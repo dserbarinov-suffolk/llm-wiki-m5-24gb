@@ -13,17 +13,13 @@ from __future__ import annotations
 from collections.abc import Sequence
 from dataclasses import dataclass, replace
 
-# Seed budget from the design's 16K table: ~2.5K system + window + current
-# question + tool headroom + generation. Awaiting tuning on real sessions.
-WINDOW_TOKEN_BUDGET = 6000
-# Per-answer clip in the SEED COPY only; stored answers are never truncated.
-SEED_ANSWER_CAP_CHARS = 2000
-
-_CHARS_PER_TOKEN = 4  # same rough estimate used across the harness
+from llmwiki.domain.model_profile import DEFAULT_MODEL_PROFILE, ModelProfile
 
 
-def estimate_tokens(text: str) -> int:
-    return len(text) // _CHARS_PER_TOKEN
+def estimate_tokens(
+    text: str, model_profile: ModelProfile = DEFAULT_MODEL_PROFILE
+) -> int:
+    return model_profile.estimate_tokens(text)
 
 
 @dataclass(frozen=True)
@@ -38,14 +34,17 @@ class QAPair:
         return estimate_tokens(self.question) + estimate_tokens(self.answer)
 
 
-def _clip_for_seed(pair: QAPair) -> QAPair:
-    if len(pair.answer) <= SEED_ANSWER_CAP_CHARS:
+def _clip_for_seed(pair: QAPair, model_profile: ModelProfile) -> QAPair:
+    answer_cap = model_profile.chat_seed_answer_chars
+    if len(pair.answer) <= answer_cap:
         return pair
-    return replace(pair, answer=pair.answer[: SEED_ANSWER_CAP_CHARS - 1] + "…")
+    return replace(pair, answer=pair.answer[: answer_cap - 1] + "…")
 
 
 def build_window(
-    history: Sequence[QAPair], budget_tokens: int = WINDOW_TOKEN_BUDGET
+    history: Sequence[QAPair],
+    budget_tokens: int | None = None,
+    model_profile: ModelProfile = DEFAULT_MODEL_PROFILE,
 ) -> tuple[QAPair, ...]:
     """Most recent pairs fitting the budget, in chronological order.
 
@@ -53,12 +52,15 @@ def build_window(
     exceed the budget — a contiguous recent window, no gaps the model
     would misread as continuity.
     """
+    resolved_budget = budget_tokens or model_profile.chat_history_tokens
     window: list[QAPair] = []
     used = 0
     for pair in reversed(history):
-        clipped = _clip_for_seed(pair)
-        cost = clipped.token_estimate
-        if used + cost > budget_tokens:
+        clipped = _clip_for_seed(pair, model_profile)
+        cost = model_profile.estimate_tokens(clipped.question) + model_profile.estimate_tokens(
+            clipped.answer
+        )
+        if used + cost > resolved_budget:
             break
         window.append(clipped)
         used += cost

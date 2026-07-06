@@ -2,7 +2,8 @@
 
 import pytest
 
-from llmwiki.config import SOURCE_READ_BUDGET_CHARS, WikiPaths
+from llmwiki.config import WikiPaths
+from llmwiki.domain.model_profile import qwen3_14b_profile
 from llmwiki.domain.pages import PageMetadata, PathTemplate, WikiPage, WikiStructure
 from llmwiki.store import PageNotFoundError, SourceNotFoundError, WikiStore, WikiStoreError
 from llmwiki.workflows.chat_response_tools import grounded_chat_respond_tool
@@ -44,19 +45,34 @@ class TestRawLayer:
     def test_oversized_source_truncated_with_marker(
         self, paths: WikiPaths, store: WikiStore
     ) -> None:
-        (paths.raw_dir / "big.md").write_text("x" * (SOURCE_READ_BUDGET_CHARS + 100))
+        (paths.raw_dir / "big.md").write_text(
+            "x" * (store.model_profile.raw_source_read_chars + 100)
+        )
         text = store.read_source("big.md")
         assert "[TRUNCATED" in text
-        assert len(text) < SOURCE_READ_BUDGET_CHARS + 200
+        assert len(text) < store.model_profile.raw_source_read_chars + 200
 
     def test_ingest_source_read_is_not_prompt_bounded(
         self, paths: WikiPaths, store: WikiStore
     ) -> None:
-        body = "x" * (SOURCE_READ_BUDGET_CHARS + 100) + " sentinel-at-end"
+        body = "x" * (store.model_profile.raw_source_read_chars + 100) + " sentinel-at-end"
         (paths.raw_dir / "big.md").write_text(body, encoding="utf-8")
 
         assert store.read_source_for_ingest("big.md") == body
         assert "sentinel-at-end" not in store.read_source("big.md")
+
+    def test_source_read_budget_comes_from_model_profile(
+        self, paths: WikiPaths
+    ) -> None:
+        profile = qwen3_14b_profile(8_192)
+        store = WikiStore(paths, model_profile=profile)
+        body = "x" * (profile.raw_source_read_chars + 100)
+        (paths.raw_dir / "small-profile.md").write_text(body, encoding="utf-8")
+
+        text = store.read_source("small-profile.md")
+
+        assert "[TRUNCATED" in text
+        assert len(text) < profile.raw_source_read_chars + 200
 
 
 class TestWikiLayer:

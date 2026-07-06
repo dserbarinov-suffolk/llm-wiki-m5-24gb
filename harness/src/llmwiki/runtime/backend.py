@@ -38,7 +38,7 @@ async def start_backend(config: BackendConfig) -> ActiveBackend:
         backend="llamaserver",
         gguf_path=config.gguf_path,
         budget_mode=BudgetMode.MANUAL,
-        manual_tokens=config.context_tokens,
+        manual_tokens=config.model_profile.context_window_tokens,
         mode="native",
         port=config.port,
     )

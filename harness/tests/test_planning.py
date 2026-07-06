@@ -1,5 +1,6 @@
 """Tests for global ingest planning."""
 
+from llmwiki.domain.model_profile import qwen3_14b_profile
 from llmwiki.domain.objects import ExtractedUnit, PageBodyContract, RawSource, Schema, SourceBundle
 from llmwiki.domain.pages import LOCAL_FLAT_STRUCTURE, PageMetadata, WikiPage, render_page
 from llmwiki.domain.planning import build_markdown_page_plan, build_page_plan
@@ -166,7 +167,40 @@ def test_high_section_pdf_units_group_into_bounded_source_writes() -> None:
     for write in section_writes:
         assert len(write.page_metadata.sources) == len(write.extracted_units)
         if len(write.extracted_units) > 1:
-            assert write.resolved_page_body_contract.required_source_citations == ("raw/book.pdf",)
+            assert write.resolved_page_body_contract.required_source_citations == (
+                "raw/book.pdf",
+            )
+
+
+def test_high_section_source_write_grouping_uses_model_profile_budget() -> None:
+    raw_source = RawSource.from_locator("book.pdf")
+    units = tuple(
+        ExtractedUnit(
+            unit_id=f"unit-{idx:04d}",
+            raw_source=raw_source,
+            locator=f"p.{idx}",
+            heading_path=f"Section {idx}",
+            text=f"Section {idx}. " + ("Source detail. " * 110),
+            extraction_status="ok",
+        )
+        for idx in range(1, 46)
+    )
+
+    plan = build_page_plan(
+        plan_id="test-plan",
+        source_bundle=SourceBundle.one(raw_source),
+        raw_source=raw_source,
+        extracted_units=units,
+        existing_pages={},
+        wiki_structure=LOCAL_FLAT_STRUCTURE,
+        today="2026-06-19",
+        model_profile=qwen3_14b_profile(2_048),
+    )
+
+    section_writes = [
+        write for write in plan.planned_writes if write.page_metadata.page_id != "book"
+    ]
+    assert len(section_writes) == len(units)
 
 
 def test_high_section_pdf_units_coalesce_existing_source_page_targets() -> None:

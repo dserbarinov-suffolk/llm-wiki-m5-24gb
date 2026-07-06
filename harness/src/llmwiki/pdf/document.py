@@ -11,7 +11,7 @@ import json
 import re
 from dataclasses import asdict, dataclass
 
-from llmwiki.domain.source_batching import CHUNK_TOKEN_BUDGET, estimate_tokens
+from llmwiki.domain.model_profile import DEFAULT_MODEL_PROFILE, ModelProfile
 
 
 @dataclass(frozen=True)
@@ -131,8 +131,10 @@ def build_source_sections(model: DocumentModel) -> tuple[SourceSection, ...]:
 def build_source_chunks(
     model: DocumentModel,
     sections: tuple[SourceSection, ...],
-    budget_tokens: int = CHUNK_TOKEN_BUDGET,
+    budget_tokens: int | None = None,
+    model_profile: ModelProfile = DEFAULT_MODEL_PROFILE,
 ) -> tuple[SourceChunk, ...]:
+    resolved_budget = budget_tokens or model_profile.source_chunk_tokens
     chunks: list[SourceChunk] = []
     elements_by_id = {element.element_id: element for element in model.elements}
 
@@ -143,7 +145,7 @@ def build_source_chunks(
             if element_id in elements_by_id
         )
         if not section_elements:
-            _append_chunk(chunks, section, section.text)
+            _append_chunk(chunks, section, section.text, model_profile=model_profile)
             continue
 
         current: list[DocumentElement] = []
@@ -156,7 +158,7 @@ def build_source_chunks(
             text = _join_element_markdown(current)
             if part_no > 1 and not text.lstrip().startswith("#"):
                 text = f"## {flush_section.heading_path}\n\n{text}"
-            _append_chunk(chunks, flush_section, text, current)
+            _append_chunk(chunks, flush_section, text, current, model_profile=model_profile)
             current = []
             part_no += 1
 
@@ -165,7 +167,7 @@ def build_source_chunks(
             if not element_text:
                 continue
             candidate = _join_element_markdown((*current, element))
-            if current and estimate_tokens(candidate) > budget_tokens:
+            if current and model_profile.estimate_tokens(candidate) > resolved_budget:
                 flush(section)
             current.append(element)
         flush(section)
@@ -178,6 +180,8 @@ def _append_chunk(
     section: SourceSection,
     text: str,
     elements: list[DocumentElement] | None = None,
+    *,
+    model_profile: ModelProfile = DEFAULT_MODEL_PROFILE,
 ) -> None:
     page_start, page_end = (
         _element_page_span(elements) if elements else (section.page_start, section.page_end)
@@ -190,7 +194,7 @@ def _append_chunk(
             page_start=page_start,
             page_end=page_end,
             text=text,
-            token_estimate=estimate_tokens(text),
+            token_estimate=model_profile.estimate_tokens(text),
         )
     )
 

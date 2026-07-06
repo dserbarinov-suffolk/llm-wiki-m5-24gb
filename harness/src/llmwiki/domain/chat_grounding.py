@@ -7,10 +7,9 @@ from collections.abc import Mapping
 from dataclasses import dataclass
 from enum import StrEnum
 
-from llmwiki.domain.chatwindow import estimate_tokens
+from llmwiki.domain.model_profile import DEFAULT_MODEL_PROFILE, ModelProfile
 from llmwiki.domain.retrieval import render_context_pack, retrieve_wiki_context
 
-CHAT_GROUNDING_TOKEN_BUDGET = 3500
 CHAT_GROUNDING_HIT_LIMIT = 12
 
 _INDEX_LINK_RE = re.compile(r"\[\[([a-z0-9][a-z0-9-]*)\]\]")
@@ -101,10 +100,12 @@ def build_chat_grounding(
     *,
     index_text: str,
     page_texts: Mapping[str, str],
-    budget_tokens: int = CHAT_GROUNDING_TOKEN_BUDGET,
+    budget_tokens: int | None = None,
     hit_limit: int = CHAT_GROUNDING_HIT_LIMIT,
+    model_profile: ModelProfile = DEFAULT_MODEL_PROFILE,
 ) -> str:
     """A compact catalog excerpt for the opening chat turn."""
+    resolved_budget = budget_tokens or model_profile.chat_grounding_tokens
     pack = retrieve_wiki_context(
         query=question,
         index_text=index_text,
@@ -117,9 +118,9 @@ def build_chat_grounding(
             "No local search hits. Bounded catalog sample follows; "
             "use search_wiki with alternate terms."
         )
-        lines.extend(_fallback_index_lines(index_text, lines, budget_tokens))
+        lines.extend(_fallback_index_lines(index_text, lines, resolved_budget, model_profile))
         return "\n".join(lines)
-    return _trim_to_budget(lines, budget_tokens)
+    return _trim_to_budget(lines, resolved_budget, model_profile)
 
 
 def plan_chat_grounding(question: str, *, grounded: bool, has_window: bool) -> ChatGroundingPlan:
@@ -184,30 +185,37 @@ def render_grounded_user_message(
 
 
 def _fallback_index_lines(
-    index_text: str, existing_lines: list[str], budget_tokens: int
+    index_text: str,
+    existing_lines: list[str],
+    budget_tokens: int,
+    model_profile: ModelProfile,
 ) -> list[str]:
     selected: list[str] = []
     for raw_line in index_text.splitlines():
         line = " ".join(raw_line.split())
         if not _INDEX_LINK_RE.search(line):
             continue
-        if _over_budget((*existing_lines, *selected, line), budget_tokens):
+        if _over_budget((*existing_lines, *selected, line), budget_tokens, model_profile):
             break
         selected.append(line)
     return selected
 
 
-def _trim_to_budget(lines: list[str], budget_tokens: int) -> str:
+def _trim_to_budget(
+    lines: list[str], budget_tokens: int, model_profile: ModelProfile
+) -> str:
     selected: list[str] = []
     for line in lines:
-        if _over_budget((*selected, line), budget_tokens):
+        if _over_budget((*selected, line), budget_tokens, model_profile):
             break
         selected.append(line)
     return "\n".join(selected)
 
 
-def _over_budget(lines: tuple[str, ...], budget_tokens: int) -> bool:
-    return estimate_tokens("\n".join(lines)) > budget_tokens
+def _over_budget(
+    lines: tuple[str, ...], budget_tokens: int, model_profile: ModelProfile
+) -> bool:
+    return model_profile.estimate_tokens("\n".join(lines)) > budget_tokens
 
 
 def _is_catalog_question(question: str) -> bool:

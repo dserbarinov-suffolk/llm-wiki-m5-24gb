@@ -10,7 +10,8 @@ from __future__ import annotations
 
 from dataclasses import dataclass
 
-from llmwiki.domain.source_batching import CHUNK_TOKEN_BUDGET, estimate_tokens
+from llmwiki.domain.model_profile import DEFAULT_MODEL_PROFILE, ModelProfile
+from llmwiki.domain.source_batching import estimate_tokens
 
 
 @dataclass(frozen=True)
@@ -82,7 +83,9 @@ def build_sections(toc: list[TocEntry], page_texts: list[str]) -> list[Section]:
     return [s for s in sections if s.text]
 
 
-def _split_oversized(section: Section, budget_tokens: int) -> list[Section]:
+def _split_oversized(
+    section: Section, budget_tokens: int, model_profile: ModelProfile
+) -> list[Section]:
     """Split one over-budget section at paragraph boundaries."""
     paragraphs = [p for p in section.text.split("\n\n") if p.strip()]
     parts: list[Section] = []
@@ -105,19 +108,24 @@ def _split_oversized(section: Section, budget_tokens: int) -> list[Section]:
 
     for paragraph in paragraphs:
         candidate = "\n\n".join([*current, paragraph])
-        if current and estimate_tokens(candidate) > budget_tokens:
+        if current and estimate_tokens(candidate, model_profile) > budget_tokens:
             flush()
         current.append(paragraph)
     flush()
     return parts
 
 
-def pack_chunks(sections: list[Section], budget_tokens: int = CHUNK_TOKEN_BUDGET) -> list[Chunk]:
+def pack_chunks(
+    sections: list[Section],
+    budget_tokens: int | None = None,
+    model_profile: ModelProfile = DEFAULT_MODEL_PROFILE,
+) -> list[Chunk]:
     """Pack consecutive sections into budget-sized chunks."""
+    resolved_budget = budget_tokens or model_profile.source_chunk_tokens
     sized: list[Section] = []
     for section in sections:
-        if estimate_tokens(section.text) > budget_tokens:
-            sized.extend(_split_oversized(section, budget_tokens))
+        if estimate_tokens(section.text, model_profile) > resolved_budget:
+            sized.extend(_split_oversized(section, resolved_budget, model_profile))
         else:
             sized.append(section)
 
@@ -140,7 +148,7 @@ def pack_chunks(sections: list[Section], budget_tokens: int = CHUNK_TOKEN_BUDGET
 
     for section in sized:
         candidate = "\n\n".join(s.text for s in [*group, section])
-        if group and estimate_tokens(candidate) > budget_tokens:
+        if group and estimate_tokens(candidate, model_profile) > resolved_budget:
             flush()
         group.append(section)
     flush()

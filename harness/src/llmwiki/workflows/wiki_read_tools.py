@@ -11,8 +11,6 @@ from llmwiki.domain.pages import parse_page
 from llmwiki.domain.retrieval import render_context_pack, retrieve_wiki_context
 from llmwiki.store import WikiStore, WikiStoreError
 
-_READ_PAGE_DEFAULT_CHARS = 3_000
-_READ_PAGE_MAX_CHARS = 5_000
 type _FocusKey = tuple[tuple[str, ...], str]
 
 
@@ -60,12 +58,12 @@ class ReadPageParams(BaseModel):
         description="Character offset for chunked reads of large WikiPages.",
     )
     max_chars: int = Field(
-        default=_READ_PAGE_DEFAULT_CHARS,
-        ge=1,
-        le=_READ_PAGE_MAX_CHARS,
+        default=0,
+        ge=0,
         description=(
-            "Maximum characters to return. Keep reads targeted; use offset for additional "
-            "chunks only when the first chunk does not contain enough evidence."
+            "Maximum characters to return. Omit or pass 0 for the model-profile default. "
+            "Keep reads targeted; use offset for additional chunks only when the first "
+            "chunk does not contain enough evidence."
         ),
     )
 
@@ -153,7 +151,7 @@ def inspect_page_tool(
                 missing_focus_reports.add(
                     _missing_focus_label(page_map.sources, params.focus_query)
                 )
-        return render_page_map(page_map)
+        return render_page_map(page_map, max_chars=store.model_profile.page_map_chars)
 
     return ToolDef(
         spec=ToolSpec(
@@ -184,7 +182,13 @@ def read_page_tool(
                 raise WikiStoreError(decision.message)
         if read_tracker is not None:
             read_tracker.add(params.page_id)
-        return _read_page_chunk(params.page_id, text, params.offset, params.max_chars)
+        max_chars = params.max_chars or store.model_profile.read_page_default_chars
+        if max_chars > store.model_profile.read_page_max_chars:
+            raise WikiStoreError(
+                "read_page max_chars exceeds the active model profile limit "
+                f"({store.model_profile.read_page_max_chars})."
+            )
+        return _read_page_chunk(params.page_id, text, params.offset, max_chars)
 
     return ToolDef(
         spec=ToolSpec(

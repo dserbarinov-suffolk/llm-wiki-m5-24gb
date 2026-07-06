@@ -12,6 +12,7 @@ from collections.abc import Callable
 from dataclasses import dataclass
 from pathlib import Path
 
+from llmwiki.domain.model_profile import DEFAULT_MODEL_PROFILE, ModelProfile
 from llmwiki.pdf import ScannedPdfError
 from llmwiki.pdf.classify import PdfKind, classify_pdf
 from llmwiki.pdf.docling_extractor import extract_document_model
@@ -89,6 +90,7 @@ def ensure_extracted(
     recognizer: TextRecognizer,
     reextract: bool = False,
     document_extractor: DocumentExtractFn = extract_document_model,
+    model_profile: ModelProfile = DEFAULT_MODEL_PROFILE,
 ) -> ExtractionResult:
     """Extract + chunk the PDF, or return the cached manifest (resume)."""
     _ = recognizer
@@ -97,12 +99,19 @@ def ensure_extracted(
     manifest_path = cache_dir / _MANIFEST_FILE
 
     if cache_has_current_pdf_artifacts(cache_dir) and not reextract:
+        document_model = read_document_model(cache_dir)
+        if document_model is not None:
+            manifest = from_json(manifest_path.read_text(encoding="utf-8"))
+            return _write_derived_artifacts(
+                cache_dir,
+                source_rel,
+                document_model,
+                previous_manifest=manifest,
+                model_profile=model_profile,
+            )
         manifest = from_json(manifest_path.read_text(encoding="utf-8"))
         if _chunk_files_present(cache_dir, manifest):
             return ExtractionResult(manifest=manifest, cache_dir=cache_dir)
-        document_model = read_document_model(cache_dir)
-        if document_model is not None:
-            return _write_derived_artifacts(cache_dir, source_rel, document_model)
 
     if classify_pdf(read_page_char_counts(pdf_path)) is PdfKind.SCANNED:
         raise ScannedPdfError(
@@ -115,16 +124,23 @@ def ensure_extracted(
     document_model = enrich_document_model_with_tables(
         pdf_path, document_extractor(pdf_path, source_rel, sha)
     )
-    return _write_derived_artifacts(cache_dir, source_rel, document_model)
+    return _write_derived_artifacts(
+        cache_dir, source_rel, document_model, model_profile=model_profile
+    )
 
 
 def _write_derived_artifacts(
     cache_dir: Path,
     source_rel: str,
     document_model: DocumentModel,
+    *,
+    previous_manifest: Manifest | None = None,
+    model_profile: ModelProfile = DEFAULT_MODEL_PROFILE,
 ) -> ExtractionResult:
     source_sections = build_source_sections(document_model)
-    source_chunks = build_source_chunks(document_model, source_sections)
+    source_chunks = build_source_chunks(
+        document_model, source_sections, model_profile=model_profile
+    )
 
     (cache_dir / _DOCUMENT_MODEL_FILE).write_text(
         document_model_to_json(document_model), encoding="utf-8"
@@ -144,7 +160,7 @@ def _write_derived_artifacts(
         source=source_rel,
         sha256=document_model.source_hash,
         extractor_name=document_model.extractor_name,
-        chunks=tuple(_record(c) for c in source_chunks),
+        chunks=tuple(_record(c, previous_manifest) for c in source_chunks),
     )
     result = ExtractionResult(manifest=manifest, cache_dir=cache_dir)
     save_manifest(result)
@@ -155,11 +171,40 @@ def _chunk_files_present(cache_dir: Path, manifest: Manifest) -> bool:
     return all(chunk_file(cache_dir, record.chunk_id).is_file() for record in manifest.chunks)
 
 
-def _record(chunk: SourceChunk) -> ChunkRecord:
-    return ChunkRecord(
+def _record(chunk: SourceChunk, previous_manifest: Manifest | None = None) -> ChunkRecord:
+    base = ChunkRecord(
         chunk_id=chunk.chunk_id,
         heading=chunk.heading_path,
         start_page=chunk.page_start,
         end_page=chunk.page_end,
         token_estimate=chunk.token_estimate,
     )
+    if previous_manifest is None:
+        return base
+    previous = _matching_previous_record(base, previous_manifest)
+    if previous is None:
+        return base
+    return ChunkRecord(
+        chunk_id=base.chunk_id,
+        heading=base.heading,
+        start_page=base.start_page,
+        end_page=base.end_page,
+        token_estimate=base.token_estimate,
+        status=previous.status,
+        notes=previous.notes,
+        pages_written=previous.pages_written,
+    )
+
+
+def _matching_previous_record(
+    record: ChunkRecord, previous_manifest: Manifest
+) -> ChunkRecord | None:
+    for previous in previous_manifest.chunks:
+        if (
+            previous.chunk_id == record.chunk_id
+            and previous.heading == record.heading
+            and previous.start_page == record.start_page
+            and previous.end_page == record.end_page
+        ):
+            return previous
+    return None

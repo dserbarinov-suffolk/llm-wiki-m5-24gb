@@ -10,11 +10,11 @@ from llmwiki.domain.chat_grounding import (
     render_grounded_user_message,
 )
 from llmwiki.domain.chatwindow import (
-    SEED_ANSWER_CAP_CHARS,
     QAPair,
     build_window,
     estimate_tokens,
 )
+from llmwiki.domain.model_profile import DEFAULT_MODEL_PROFILE
 from llmwiki.domain.pages import parse_page
 from llmwiki.domain.search import SearchHit
 from llmwiki.workflows.prompts import CHAT_TEMPLATE
@@ -51,13 +51,14 @@ class TestBuildWindow:
         assert build_window([]) == ()
 
     def test_oversized_answer_clipped_in_seed_only(self) -> None:
-        original = _pair(1, answer_chars=SEED_ANSWER_CAP_CHARS * 3)
+        cap = DEFAULT_MODEL_PROFILE.chat_seed_answer_chars
+        original = _pair(1, answer_chars=cap * 3)
         history = [original]
         window = build_window(history, budget_tokens=10_000)
-        assert len(window[0].answer) == SEED_ANSWER_CAP_CHARS
+        assert len(window[0].answer) == cap
         assert window[0].answer.endswith("…")
         # The stored object is untouched (preservation guarantee).
-        assert len(original.answer) > SEED_ANSWER_CAP_CHARS
+        assert len(original.answer) > cap
 
     def test_window_is_contiguous_no_gaps(self) -> None:
         # One huge old answer must stop the walk, not be skipped over.

@@ -16,6 +16,7 @@ from collections.abc import Iterable
 from dataclasses import asdict, dataclass
 from pathlib import Path
 
+from llmwiki.domain.model_profile import DEFAULT_MODEL_PROFILE, ModelProfile
 from llmwiki.domain.objects import (
     CandidateClaim,
     CandidateEntity,
@@ -64,7 +65,6 @@ _MAX_SOURCE_CHARS_PER_WRITE = 900
 _MAX_SOURCE_SUMMARY_CLAIMS = 5
 _SOURCE_WRITE_GROUPING_THRESHOLD = 40
 _SOURCE_WRITE_GROUP_UNIT_LIMIT = 5
-_SOURCE_WRITE_GROUP_TOKEN_BUDGET = 2_200
 _SOURCE_PAGE_ID_MAX_CHARS = 96
 
 _CLAIM_ELIGIBLE = "eligible"
@@ -280,6 +280,7 @@ def build_page_plan(
     today: str,
     schema: Schema | None = None,
     source_plan_contract_selections: tuple[SourcePlanContractSelection, ...] = (),
+    model_profile: ModelProfile = DEFAULT_MODEL_PROFILE,
 ) -> PagePlan:
     resolved_schema = schema or Schema()
     source_claims = _source_claims(extracted_units, resolved_schema)
@@ -304,6 +305,7 @@ def build_page_plan(
         source_plan_contract_selections=source_plan_contract_selections,
         source_claims=source_claims,
         source_claim_groups=source_claim_groups,
+        model_profile=model_profile,
     )
     return PagePlan(
         plan_id=plan_id,
@@ -332,6 +334,7 @@ def build_markdown_page_plan(
     today: str,
     schema: Schema | None = None,
     source_plan_contract_selections: tuple[SourcePlanContractSelection, ...] = (),
+    model_profile: ModelProfile = DEFAULT_MODEL_PROFILE,
 ) -> PagePlan:
     resolved_schema = schema or Schema()
     title = _document_title(source_text, raw_source.source_locator)
@@ -1401,6 +1404,7 @@ def _planned_writes(
     source_plan_contract_selections: tuple[SourcePlanContractSelection, ...],
     source_claims: tuple[SourceClaim, ...],
     source_claim_groups: tuple[SourceClaimGroup, ...],
+    model_profile: ModelProfile,
 ) -> tuple[PlannedPageWrite, ...]:
     writes: list[PlannedPageWrite] = []
     source_stem = slugify(Path(raw_source.source_locator).stem)
@@ -1410,6 +1414,7 @@ def _planned_writes(
         extracted_units=extracted_units,
         existing_pages=existing_pages,
         matches_by_unit=matches_by_unit,
+        model_profile=model_profile,
     )
     for page_id, target_units in unit_groups:
         first_unit = target_units[0]
@@ -1705,6 +1710,7 @@ def _source_page_unit_groups(
     extracted_units: tuple[ExtractedUnit, ...],
     existing_pages: dict[str, str],
     matches_by_unit: dict[str, tuple[WikiMatch, ...]],
+    model_profile: ModelProfile,
 ) -> tuple[tuple[str, tuple[ExtractedUnit, ...]], ...]:
     if len(extracted_units) <= _SOURCE_WRITE_GROUPING_THRESHOLD:
         return _exact_source_page_unit_groups(extracted_units, existing_pages, matches_by_unit)
@@ -1734,10 +1740,10 @@ def _source_page_unit_groups(
             used_page_ids.add(target_page)
             continue
 
-        unit_tokens = max(1, len(unit.text) // 4)
+        unit_tokens = max(1, model_profile.estimate_tokens(unit.text))
         if current_units and (
             len(current_units) >= _SOURCE_WRITE_GROUP_UNIT_LIMIT
-            or current_tokens + unit_tokens > _SOURCE_WRITE_GROUP_TOKEN_BUDGET
+            or current_tokens + unit_tokens > model_profile.source_write_group_tokens
         ):
             flush()
         current_units.append(unit)

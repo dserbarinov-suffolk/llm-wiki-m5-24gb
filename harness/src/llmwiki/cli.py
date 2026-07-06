@@ -15,7 +15,7 @@ from pathlib import Path
 
 from forge.context import ContextManager, NoCompact
 
-from llmwiki.config import ConfigError, WikiPaths, load_backend_config
+from llmwiki.config import ConfigError, WikiPaths, load_backend_config, load_model_profile
 from llmwiki.domain.citations import SourceInventory
 from llmwiki.domain.claim_support import (
     DEFAULT_CLAIM_SUPPORT_SAMPLE_STRATEGY,
@@ -24,6 +24,7 @@ from llmwiki.domain.claim_support import (
 from llmwiki.domain.claim_support_selection import select_claim_support_candidates
 from llmwiki.domain.evidence_registry_io import registry_from_json
 from llmwiki.domain.graph import build_wiki_graph, graph_status
+from llmwiki.domain.model_profile import ModelProfile
 from llmwiki.pdf import PdfError
 from llmwiki.pdf.pipeline import ExtractionResult, ensure_extracted
 from llmwiki.pdf.vision import AppleVisionRecognizer
@@ -123,7 +124,7 @@ def _build_parser() -> argparse.ArgumentParser:
     return parser
 
 
-def _pdf_extractor(paths: WikiPaths) -> ExtractFn:
+def _pdf_extractor(paths: WikiPaths, model_profile: ModelProfile) -> ExtractFn:
     def extract(pdf_path: Path, source_rel: str, reextract: bool) -> ExtractionResult:
         return ensure_extracted(
             pdf_path,
@@ -131,6 +132,7 @@ def _pdf_extractor(paths: WikiPaths) -> ExtractFn:
             cache_root=paths.cache_dir,
             recognizer=AppleVisionRecognizer(),
             reextract=reextract,
+            model_profile=model_profile,
         )
 
     return extract
@@ -146,17 +148,19 @@ async def _run(args: argparse.Namespace) -> OperationResult:
     if args.op == "graph":
         return _run_graph(args, paths, now.date().isoformat())
 
+    model_profile = load_model_profile()
     if args.op in ("ingest", "synthesize"):
         # Claim-ledger ingest and cross-source synthesis are deterministic
         # projections of the ledgers, not model summaries, so no backend starts.
         session = Session(
-            store=WikiStore(paths),
+            store=WikiStore(paths, model_profile=model_profile),
             client=None,
             context_manager=ContextManager(strategy=NoCompact(), budget_tokens=1),
+            model_profile=model_profile,
             today=now.date().isoformat(),
             runs_dir=paths.runs_dir,
             run_id=now.strftime("%Y-%m-%d-%H%M%S"),
-            extract_pdf=_pdf_extractor(paths),
+            extract_pdf=_pdf_extractor(paths, model_profile),
             on_chunk_note=lambda note: print(note, flush=True),
         )
         if args.op == "synthesize":
@@ -169,13 +173,14 @@ async def _run(args: argparse.Namespace) -> OperationResult:
     backend = await start_backend(backend_config)
     try:
         session = Session(
-            store=WikiStore(paths),
+            store=WikiStore(paths, model_profile=backend_config.model_profile),
             client=backend.client,
             context_manager=backend.context_manager,
+            model_profile=backend_config.model_profile,
             today=now.date().isoformat(),
             runs_dir=paths.runs_dir,
             run_id=now.strftime("%Y-%m-%d-%H%M%S"),
-            extract_pdf=_pdf_extractor(paths),
+            extract_pdf=_pdf_extractor(paths, backend_config.model_profile),
             on_chunk_note=lambda note: print(note, flush=True),
         )
         if args.op == "query":
@@ -205,7 +210,8 @@ def _run_graph(args: argparse.Namespace, paths: WikiPaths, today: str) -> Operat
 async def _run_claim_support(
     paths: WikiPaths, args: argparse.Namespace, now: datetime
 ) -> OperationResult:
-    store = WikiStore(paths)
+    model_profile = load_model_profile()
+    store = WikiStore(paths, model_profile=model_profile)
     source = args.source.removeprefix("raw/")
     registry_json = store.read_evidence_registry_artifact(source)
     if registry_json is None:
@@ -229,10 +235,11 @@ async def _run_claim_support(
             store=store,
             client=None,
             context_manager=ContextManager(strategy=NoCompact(), budget_tokens=1),
+            model_profile=model_profile,
             today=now.date().isoformat(),
             runs_dir=paths.runs_dir,
             run_id=now.strftime("%Y-%m-%d-%H%M%S"),
-            extract_pdf=_pdf_extractor(paths),
+            extract_pdf=_pdf_extractor(paths, model_profile),
             on_chunk_note=lambda note: print(note, flush=True),
         )
         return await session.claim_support(
@@ -247,10 +254,11 @@ async def _run_claim_support(
             store=store,
             client=backend.client,
             context_manager=backend.context_manager,
+            model_profile=backend_config.model_profile,
             today=now.date().isoformat(),
             runs_dir=paths.runs_dir,
             run_id=now.strftime("%Y-%m-%d-%H%M%S"),
-            extract_pdf=_pdf_extractor(paths),
+            extract_pdf=_pdf_extractor(paths, backend_config.model_profile),
             on_chunk_note=lambda note: print(note, flush=True),
         )
         return await session.claim_support(

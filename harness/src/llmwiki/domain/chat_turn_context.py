@@ -12,6 +12,7 @@ from llmwiki.domain.chat_grounding import (
     plan_chat_grounding,
     render_grounded_user_message,
 )
+from llmwiki.domain.model_profile import DEFAULT_MODEL_PROFILE, ModelProfile
 from llmwiki.domain.search import render_hits, search_pages
 from llmwiki.domain.task_evidence import TaskEvidencePack, build_task_evidence_pack
 
@@ -51,6 +52,7 @@ def build_chat_turn_context(
     index_text: str,
     grounded: bool,
     has_window: bool,
+    model_profile: ModelProfile = DEFAULT_MODEL_PROFILE,
 ) -> ChatTurnContext:
     plan = plan_chat_grounding(question, grounded=grounded, has_window=has_window)
     if plan.include_index:
@@ -64,6 +66,7 @@ def build_chat_turn_context(
         page_texts,
         hits,
         task_mode=plan.task_mode,
+        model_profile=model_profile,
     )
     require_execution = task_pack is not None and plan.task_mode is ChatTaskMode.EXECUTE_PROCEDURE
     task_pack_text = (
