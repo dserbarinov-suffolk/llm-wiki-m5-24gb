@@ -9,7 +9,7 @@ domain: javascriptallonge
 category_path: recipes/javascriptallonge
 source_id: javascriptallonge.pdf
 aliases: element-references
-projection_coverage: recipe-javascriptallonge-recipe-element-references@c42d20dfa49c89463e6a7843002a65ab
+projection_coverage: recipe-javascriptallonge-recipe-element-references@59db3d7bcd3348edecb9604eeda351fb
 ---
 
 # element references
@@ -18,20 +18,20 @@ From [[javascriptallonge]].
 
 ## Pattern
 
-- Use the source-backed pattern described in [[javascriptallonge-section-composing-and-decomposing-data-arrays-and-destructuring-arguments-element-references-34797e14]].
+- Use the source-backed pattern described in [[javascriptallonge-section-element-references-3e80b0bf]].
 - Evidence roles: decision, constraint, procedure, example.
 
 ## Applicability And Rationale
 
-- Array elements can be extracted using [ and ] as postfix operators. _(javascriptallonge.pdf (source-range-c98ab3e6-00828))_
-- As we can see, JavaScript Arrays are zero-based 56 . _(javascriptallonge.pdf (source-range-c98ab3e6-00830))_
-- We know that every array is its own unique entity, with its own unique reference. _(javascriptallonge.pdf (source-range-c98ab3e6-00831))_
+- Array elements can be extracted using [ and ] as postfix operators. _(javascriptallonge.pdf (source-range-c98ab3e6-00814))_
+- As we can see, JavaScript Arrays are zero-based 56 . _(javascriptallonge.pdf (source-range-c98ab3e6-00816))_
+- We know that every array is its own unique entity, with its own unique reference. _(javascriptallonge.pdf (source-range-c98ab3e6-00817))_
 
 ## Technical Atoms
 
 ### Atom 1: `code-block`
 
-_Source: javascriptallonge.pdf (source-range-c98ab3e6-00829)_
+_Source: javascriptallonge.pdf (source-range-c98ab3e6-00815)_
 
 ```
 const oneTwoThree = ["one", "two", "three"];
@@ -45,7 +45,7 @@ oneTwoThree[2]
 
 ### Atom 2: `code-block`
 
-_Source: javascriptallonge.pdf (source-range-c98ab3e6-00833)_
+_Source: javascriptallonge.pdf (source-range-c98ab3e6-00819)_
 
 ```
 const x = [],
@@ -57,4 +57,4 @@ a[0] === x
 ## Source Trail
 
 - Source manifest: [[javascriptallonge]]
-- Source section: [[javascriptallonge-section-composing-and-decomposing-data-arrays-and-destructuring-arguments-element-references-34797e14]]
+- Source section: [[javascriptallonge-section-element-references-3e80b0bf]]

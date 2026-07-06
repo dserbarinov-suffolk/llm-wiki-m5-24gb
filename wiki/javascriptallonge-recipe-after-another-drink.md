@@ -9,7 +9,7 @@ domain: javascriptallonge
 category_path: recipes/javascriptallonge
 source_id: javascriptallonge.pdf
 aliases: after-another-drink
-projection_coverage: recipe-javascriptallonge-recipe-after-another-drink@6839d4e63f99fb7cd8cf4f8462152d41
+projection_coverage: recipe-javascriptallonge-recipe-after-another-drink@996f10df88227c1ab8397a8ceac0f99c
 ---
 
 # after another drink
@@ -18,22 +18,22 @@ From [[javascriptallonge]].
 
 ## Pattern
 
-- Use the source-backed pattern described in [[javascriptallonge-section-interlude-the-carpenter-interviews-for-a-job-after-another-drink-fd1fe016]].
+- Use the source-backed pattern described in [[javascriptallonge-section-after-another-drink-7aeb48ed]].
 - Evidence roles: decision, explanation, example.
 
 ## Applicability And Rationale
 
-- A few drinks later, The Carpenter was telling his Thing story and an engineer named Kidu introduced themself. _(javascriptallonge.pdf (source-range-c98ab3e6-01859))_
-- I had a look at the code you left on the whiteboard. _(javascriptallonge.pdf (source-range-c98ab3e6-01861))_
-- Whereas the problem as stated involves a single stream of directions. _(javascriptallonge.pdf (source-range-c98ab3e6-01862))_
-- There's no benefit to constant space if finite space is sufficient. _(javascriptallonge.pdf (source-range-c98ab3e6-01865))_
-- The Carpenter stared at Kidu's solution. _(javascriptallonge.pdf (source-range-c98ab3e6-01867))_
+- A few drinks later, The Carpenter was telling his Thing story and an engineer named Kidu introduced themself. _(javascriptallonge.pdf (source-range-c98ab3e6-01830))_
+- I had a look at the code you left on the whiteboard. _(javascriptallonge.pdf (source-range-c98ab3e6-01832))_
+- Whereas the problem as stated involves a single stream of directions. _(javascriptallonge.pdf (source-range-c98ab3e6-01833))_
+- There's no benefit to constant space if finite space is sufficient. _(javascriptallonge.pdf (source-range-c98ab3e6-01836))_
+- The Carpenter stared at Kidu's solution. _(javascriptallonge.pdf (source-range-c98ab3e6-01838))_
 
 ## Technical Atoms
 
 ### Atom 1: `code-block`
 
-_Source: javascriptallonge.pdf (source-range-c98ab3e6-01864)_
+_Source: javascriptallonge.pdf (source-range-c98ab3e6-01835)_
 
 ```
 // implements Teleporting Tortoise
@@ -59,7 +59,7 @@ return false;
 
 ### Atom 2: `code-block`
 
-_Source: javascriptallonge.pdf (source-range-c98ab3e6-01866)_
+_Source: javascriptallonge.pdf (source-range-c98ab3e6-01837)_
 
 ```
 const hasCycle = (orderedCollection) => {
@@ -77,4 +77,4 @@ return false;
 ## Source Trail
 
 - Source manifest: [[javascriptallonge]]
-- Source section: [[javascriptallonge-section-interlude-the-carpenter-interviews-for-a-job-after-another-drink-fd1fe016]]
+- Source section: [[javascriptallonge-section-after-another-drink-7aeb48ed]]

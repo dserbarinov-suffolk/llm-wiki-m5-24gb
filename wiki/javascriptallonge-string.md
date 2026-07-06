@@ -1,13 +1,13 @@
 ---
 page_id: javascriptallonge-string
 page_kind: concept
-summary: String: 7 statement(s) and 7 atom(s) from raw/javascriptallonge.pdf.
+summary: String: 7 statement(s) and 5 atom(s) from raw/javascriptallonge.pdf.
 page_family: broad-topic
 sources: raw/javascriptallonge.pdf
 updated: 2026-07-06
 domain: javascriptallonge
 category_path: concepts
-projection_coverage: topic-javascriptallonge-string@def870347ddcc235ce855f41d8fe9b88
+projection_coverage: topic-javascriptallonge-string@6847aaed51c1f13b2eda44ea0188570d
 ---
 
 # String
@@ -16,46 +16,46 @@ What [[javascriptallonge]] covers about string:
 
 ## Statements
 
-### Prelude: Values and Expressions over Coffee / values are expressions
+### values are expressions
 
-- First, sometimes, the cups are of different kinds. One is a demitasse, the other a mug. This corresponds to comparing two things in JavaScript that have different types . For example, the string "2" is not the same thing as the number 2 . Strings and numbers are different types, so strings and numbers are never identical: _(javascriptallonge.pdf (source-range-c98ab3e6-00120))_
+- First, sometimes, the cups are of different kinds. One is a demitasse, the other a mug. This corresponds to comparing two things in JavaScript that have different types . For example, the string "2" is not the same thing as the number 2 . Strings and numbers are different types, so strings and numbers are never identical: _(javascriptallonge.pdf (source-range-c98ab3e6-00116))_
 
-### The first sip: Basic Functions / As Little As Possible About Functions, But No Less
+### As Little As Possible About Functions, But No Less
 
-- In JavaScript, functions are values, but they are also much more than simple numbers, strings, or even complex data structures like trees or maps. Functions represent computations to be performed. Like numbers, strings, and arrays, they have a representation. Let's start with the second simplest possible function. 16 In JavaScript, it looks like this: _(javascriptallonge.pdf (source-range-c98ab3e6-00170))_
+- In JavaScript, functions are values, but they are also much more than simple numbers, strings, or even complex data structures like trees or maps. Functions represent computations to be performed. Like numbers, strings, and arrays, they have a representation. Let's start with the second simplest possible function. 16 In JavaScript, it looks like this: _(javascriptallonge.pdf (source-range-c98ab3e6-00162))_
 
-### Or even: / the simplest possible block / undefined
+### undefined
 
-- Like numbers, booleans and strings, JavaScript can print out the value undefined . _(javascriptallonge.pdf (source-range-c98ab3e6-00222))_
+- Like numbers, booleans and strings, JavaScript can print out the value undefined . _(javascriptallonge.pdf (source-range-c98ab3e6-00214))_
 
-### And also: / call by sharing
+### call by sharing
 
-- We said that JavaScript binds names to values, but we didn't say what it means to bind a name to a value. Now we can elaborate: When JavaScript binds a value-type to a name, it makes a copy of the value and places the copy in the environment. As you recall, value types like strings and numbers are identical to each other if they have the same content. So JavaScript can make as many copies of strings, numbers, or booleans as it wishes. _(javascriptallonge.pdf (source-range-c98ab3e6-00317))_
+- We said that JavaScript binds names to values, but we didn't say what it means to bind a name to a value. Now we can elaborate: When JavaScript binds a value-type to a name, it makes a copy of the value and places the copy in the environment. As you recall, value types like strings and numbers are identical to each other if they have the same content. So JavaScript can make as many copies of strings, numbers, or booleans as it wishes. _(javascriptallonge.pdf (source-range-c98ab3e6-00308))_
 
-### Composing and Decomposing Data / Arrays and Destructuring Arguments
+### Arrays and Destructuring Arguments
 
-- While we have mentioned arrays briefly, we haven't had a close look at them. Arrays are JavaScript's 'native' representation of lists. Strings are important because they represent writing. Lists are important because they represent ordered collections of things, and ordered collections are a fundamental abstraction for making sense of reality. _(javascriptallonge.pdf (source-range-c98ab3e6-00812))_
+- While we have mentioned arrays briefly, we haven't had a close look at them. Arrays are JavaScript's 'native' representation of lists. Strings are important because they represent writing. Lists are important because they represent ordered collections of things, and ordered collections are a fundamental abstraction for making sense of reality. _(javascriptallonge.pdf (source-range-c98ab3e6-00798))_
 
 ### A Warm Cup: Basic Strings and Quasi-Literals
 
-- String manipulation is extremely common in programming. Writing is a big part of what makes us human, and strings are how JavaScript and most other languages represent writing. _(javascriptallonge.pdf (source-range-c98ab3e6-01498))_
+- String manipulation is extremely common in programming. Writing is a big part of what makes us human, and strings are how JavaScript and most other languages represent writing. _(javascriptallonge.pdf (source-range-c98ab3e6-01475))_
 
-### A Warm Cup: Basic Strings and Quasi-Literals / quasi-literals
+### quasi-literals
 
-- JavaScript supports quasi-literal strings , a/k/a 'Template Strings' or 'String Interpolation Expressions.' A quasi-literal string is something that looks like a string literal, but is actually an expression. Quasi-literal strings are denoted with back quotes, and most strings that can be expressed as literals have the exact same meaning as quasi-literals, e.g. _(javascriptallonge.pdf (source-range-c98ab3e6-01500))_
+- JavaScript supports quasi-literal strings , a/k/a 'Template Strings' or 'String Interpolation Expressions.' A quasi-literal string is something that looks like a string literal, but is actually an expression. Quasi-literal strings are denoted with back quotes, and most strings that can be expressed as literals have the exact same meaning as quasi-literals, e.g. _(javascriptallonge.pdf (source-range-c98ab3e6-01477))_
 
 
 ## Technical atoms
 
-### Technical frame 1: Prelude: Values and Expressions over Coffee / values are expressions
+### Technical frame 1: values are expressions
 
-**Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-00122))_
+**Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-00118))_
 
 > Second, sometimes, the cups are of the same type-perhaps two espresso cups-but they have different contents. One holds a single, one a double. This corresponds to comparing two JavaScript values that have the same type but different 'content.' For example, the number 5 is not the same thing as the number 2 .
 
-**Atom:** _(javascriptallonge.pdf (source-range-c98ab3e6-00116))_
+**Atom:** _(javascriptallonge.pdf (source-range-c98ab3e6-00112))_
 
-<a id="atom-technical-atom-a1ed3b32e9497902"></a>
+<a id="atom-technical-atom-2ce83e0abe51f9aa"></a>
 ```text
 2 In JavaScript, we test whether two values are identical with the operator, and whether they are === not identical with the operator: !== 2 === 2 //=> true 'hello' !== 'goodbye' //=> true How does work, exactly? Imagine that you’re shown a cup of coffee. And then you’re shown === another cup of coffee. Are the two cups “identical?” In JavaScript, there are four possibilities: First, sometimes, the cups are of different kinds. One is a demitasse, the other a mug. This corresponds to comparing two things in JavaScript that have different types. For example, the string "2" is not the same thing as the number 2. Strings and numbers are different types, so strings and numbers are never identical:
 2 === '2' //=> false true !== 'true' //=> true Second, sometimes, the cups are of the same type–perhaps two espresso cups–but they have different contents. One holds a single, one a double. This corresponds to comparing two JavaScript values that have the same type but different “content.” For example, the number 5 is not the same thing as the number 2. true === false //=> false
@@ -74,15 +74,15 @@ What [[javascriptallonge]] covers about string:
 
 </details>
 
-### Technical frame 2: Prelude: Values and Expressions over Coffee / values are expressions
+### Technical frame 2: values are expressions
 
-**Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-00122))_
+**Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-00118))_
 
 > Second, sometimes, the cups are of the same type-perhaps two espresso cups-but they have different contents. One holds a single, one a double. This corresponds to comparing two JavaScript values that have the same type but different 'content.' For example, the number 5 is not the same thing as the number 2 .
 
-**Atom:** _(javascriptallonge.pdf (source-range-c98ab3e6-00121))_
+**Atom:** _(javascriptallonge.pdf (source-range-c98ab3e6-00117))_
 
-<a id="atom-technical-atom-437c0e1926badb38"></a>
+<a id="atom-technical-atom-583a408c77323f15"></a>
 ```
 2 === '2'
 //=> false
@@ -90,69 +90,42 @@ true !== 'true'
 //=> true
 ```
 
-### Technical frame 3: Prelude: Values and Expressions over Coffee / values are expressions / value types
+### Technical frame 3: As Little As Possible About Functions, But No Less
 
-**Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-00128))_
-
-> Note well what is happening with these examples: Even when we obtain a string, number, or boolean as the result of evaluating an expression, it is identical to another value of the same type with the same 'content.' Strings, numbers, and booleans are examples of what JavaScript calls 'value' or 'primitive' types. We'll use both terms interchangeably.
-
-**Atom:** _(javascriptallonge.pdf (source-range-c98ab3e6-00127))_
-
-<a id="atom-technical-atom-aba84480cae17c3e"></a>
-```
-2 + 2 === 4
-//=> true
-(2 + 2 === 4) === (2 !== 5)
-//=> true
-```
-
-### Technical frame 4: Prelude: Values and Expressions over Coffee / values are expressions / value types
-
-**Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-00131))_
-
-> Cafe Macchiato is also a fine drink, especially when following up on the fortunes of the Azzurri or the standings in the Giro d'Italia
-
-**Atom:** _(javascriptallonge.pdf (source-range-c98ab3e6-00129))_
-
-<a id="atom-technical-atom-1b4966c6229114c2"></a>
-> So even if you have two cups of the same type, and their contents are the same, you can still distinguish between them.
-
-### Technical frame 5: The first sip: Basic Functions / As Little As Possible About Functions, But No Less
-
-**Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-00172))_
+**Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-00164))_
 
 > This is a function that is applied to no values and returns 0 . Let's verify that our function is a value like all others:
 
-**Atom:** _(javascriptallonge.pdf (source-range-c98ab3e6-00171))_
+**Atom:** _(javascriptallonge.pdf (source-range-c98ab3e6-00163))_
 
-<a id="atom-technical-atom-d7b85f929227cd67"></a>
+<a id="atom-technical-atom-55063c246fc08fa6"></a>
 ```
 () => 0
 ```
 
-### Technical frame 6: A Warm Cup: Basic Strings and Quasi-Literals
+### Technical frame 4: A Warm Cup: Basic Strings and Quasi-Literals
 
-**Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01498))_
+**Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01475))_
 
 > String manipulation is extremely common in programming. Writing is a big part of what makes us human, and strings are how JavaScript and most other languages represent writing.
 
-**Atom:** _(javascriptallonge.pdf (source-range-c98ab3e6-01497))_
+**Atom:** _(javascriptallonge.pdf (source-range-c98ab3e6-01474))_
 
-<a id="atom-technical-atom-bedea6670f2fc287"></a>
+<a id="atom-technical-atom-fcacbaa05ba382d2"></a>
 ```
 'fu' + 'bar'
 //=> 'fubar'
 ```
 
-### Technical frame 7: A Warm Cup: Basic Strings and Quasi-Literals / quasi-literals
+### Technical frame 5: quasi-literals
 
-**Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01502))_
+**Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01479))_
 
 > Quasi-literals go much further. A quasi-literal can contain an expression to be evaluated. Old-school lispers call this 'unquoting,' the more contemporary term is 'interpolation.' An unquoted expression is inserted in a quasi-literal with ${expression} . The expression is evaluated, and the result is coerced to a string, then inserted in the quasi-string.
 
-**Atom:** _(javascriptallonge.pdf (source-range-c98ab3e6-01501))_
+**Atom:** _(javascriptallonge.pdf (source-range-c98ab3e6-01478))_
 
-<a id="atom-technical-atom-eb7e93551fb4ae57"></a>
+<a id="atom-technical-atom-852bc8ae09d13507"></a>
 ```
 `foobar`
 //=> 'foobar'
@@ -165,13 +138,12 @@ true !== 'true'
 
 ### Shared technical atoms
 
-- [[javascriptallonge-javascript]] - shared statements and technical atoms: Javascript shares source evidence from Or even: / the simplest possible block / undefined: Like numbers, booleans and strings, JavaScript can print out the value undefined .; Javascript shares technical record from Prelude: Values and Expressions over Coffee / values are expressions: 2 === '2' //=> false true !== 'true' //=> true (1 shared statement(s), 5 shared atom(s))
-- [[javascriptallonge-type]] - shared statements and technical atoms: Type shares source evidence from And also: / call by sharing: We said that JavaScript binds names to values, but we didn't say what it means to bind a name to a value. Now we can elaborate: When JavaScript binds a value-type to ... [truncated]; Type shares technical record from Prelude: Values and Expressions over Coffee / values are expressions: 2 + 2 === 4 //=> true (2 + 2 === 4) === (2 !== 5) //=> true (1 shared statement(s), 3 shared atom(s))
-- [[javascriptallonge-expression]] - shared technical atoms: Expression shares technical record from Prelude: Values and Expressions over Coffee / values are expressions: `foobar` //=> 'foobar' `fizz` + `buzz` //=> 'fizzbuzz' (2 shared atom(s))
-- [[javascriptallonge-literal]] - shared statements and technical atoms: Literal shares source evidence from A Warm Cup: Basic Strings and Quasi-Literals / quasi-literals: JavaScript supports quasi-literal strings , a/k/a 'Template Strings' or 'String Interpolation Expressions.' A quasi-literal string is something that looks like a str ... [truncated]; Literal shares technical record from A Warm Cup: Basic Strings and Quasi-Literals / quasi-literals: `foobar` //=> 'foobar' `fizz` + `buzz` //=> 'fizzbuzz' (1 shared statement(s), 1 shared atom(s))
-- [[javascriptallonge-quasi]] - shared statements and technical atoms: Quasi shares source evidence from A Warm Cup: Basic Strings and Quasi-Literals / quasi-literals: JavaScript supports quasi-literal strings , a/k/a 'Template Strings' or 'String Interpolation Expressions.' A quasi-literal string is something that looks like a str ... [truncated]; Quasi shares technical record from A Warm Cup: Basic Strings and Quasi-Literals / quasi-literals: `foobar` //=> 'foobar' `fizz` + `buzz` //=> 'fizzbuzz' (1 shared statement(s), 1 shared atom(s))
-- [[javascriptallonge-quasi-literal]] - shared statements and technical atoms: Quasi Literal shares source evidence from A Warm Cup: Basic Strings and Quasi-Literals / quasi-literals: JavaScript supports quasi-literal strings , a/k/a 'Template Strings' or 'String Interpolation Expressions.' A quasi-literal string is something that looks like a str ... [truncated]; Quasi Literal shares technical record from A Warm Cup: Basic Strings and Quasi-Literals / quasi-literals: `foobar` //=> 'foobar' `fizz` + `buzz` //=> 'fizzbuzz' (1 shared statement(s), 1 shared atom(s))
-- [[javascriptallonge-coffee]] - shared technical atoms: Coffee shares technical record from Prelude: Values and Expressions over Coffee / values are expressions: 2 In JavaScript, we test whether two values are identical with the operator, and whether they are === not identical with the operator: !== 2 === 2 //=> true 'hello' ... [truncated] (1 shared atom(s))
+- [[javascriptallonge-javascript]] - shared statements and technical atoms: Javascript shares source evidence from undefined: Like numbers, booleans and strings, JavaScript can print out the value undefined .; Javascript shares technical record from values are expressions: 2 === '2' //=> false true !== 'true' //=> true (1 shared statement(s), 3 shared atom(s))
+- [[javascriptallonge-expression]] - shared technical atoms: Expression shares technical record from values are expressions: `foobar` //=> 'foobar' `fizz` + `buzz` //=> 'fizzbuzz' (2 shared atom(s))
+- [[javascriptallonge-literal]] - shared statements and technical atoms: Literal shares source evidence from quasi-literals: JavaScript supports quasi-literal strings , a/k/a 'Template Strings' or 'String Interpolation Expressions.' A quasi-literal string is something that looks like a str ... [truncated]; Literal shares technical record from quasi-literals: `foobar` //=> 'foobar' `fizz` + `buzz` //=> 'fizzbuzz' (1 shared statement(s), 1 shared atom(s))
+- [[javascriptallonge-quasi]] - shared statements and technical atoms: Quasi shares source evidence from quasi-literals: JavaScript supports quasi-literal strings , a/k/a 'Template Strings' or 'String Interpolation Expressions.' A quasi-literal string is something that looks like a str ... [truncated]; Quasi shares technical record from quasi-literals: `foobar` //=> 'foobar' `fizz` + `buzz` //=> 'fizzbuzz' (1 shared statement(s), 1 shared atom(s))
+- [[javascriptallonge-type]] - shared statements and technical atoms: Type shares source evidence from call by sharing: We said that JavaScript binds names to values, but we didn't say what it means to bind a name to a value. Now we can elaborate: When JavaScript binds a value-type to ... [truncated]; Type shares technical record from values are expressions: 2 In JavaScript, we test whether two values are identical with the operator, and whether they are === not identical with the operator: !== 2 === 2 //=> true 'hello' ... [truncated] (1 shared statement(s), 1 shared atom(s))
+- [[javascriptallonge-coffee]] - shared technical atoms: Coffee shares technical record from values are expressions: 2 In JavaScript, we test whether two values are identical with the operator, and whether they are === not identical with the operator: !== 2 === 2 //=> true 'hello' ... [truncated] (1 shared atom(s))
 
 ## Source
 

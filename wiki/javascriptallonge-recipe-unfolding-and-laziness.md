@@ -9,7 +9,7 @@ domain: javascriptallonge
 category_path: recipes/javascriptallonge
 source_id: javascriptallonge.pdf
 aliases: unfolding-and-laziness
-projection_coverage: recipe-javascriptallonge-recipe-unfolding-and-laziness@6408613f23429dcfd36c2528883cc2df
+projection_coverage: recipe-javascriptallonge-recipe-unfolding-and-laziness@97db5a04c3b35405d085ee209d72edf4
 ---
 
 # unfolding and laziness
@@ -18,23 +18,23 @@ From [[javascriptallonge]].
 
 ## Pattern
 
-- Use the source-backed pattern described in [[javascriptallonge-section-copy-on-write-functional-iterators-unfolding-and-laziness-14c51fdd]].
+- Use the source-backed pattern described in [[javascriptallonge-section-unfolding-and-laziness-94f43d99]].
 - Evidence roles: decision, explanation, constraint, example.
 
 ## Applicability And Rationale
 
-- When they iterate over an array or linked list, they are traversing something that is already there. _(javascriptallonge.pdf (source-range-c98ab3e6-01294))_
-- A function that starts with a seed and expands it into a data structure is called an unfold . _(javascriptallonge.pdf (source-range-c98ab3e6-01298))_
-- We can start with take , an easy function that returns an iterator that only returns a fixed number of elements: _(javascriptallonge.pdf (source-range-c98ab3e6-01302))_
-- This business of going on forever has some drawbacks. _(javascriptallonge.pdf (source-range-c98ab3e6-01302))_
-- We'll need an iterator that produces odd numbers. _(javascriptallonge.pdf (source-range-c98ab3e6-01304))_
-- Mapping and filtering iterators allows us to compose the parts we already have, rather than writing a tricky bit of code with ifs and whiles and boundary conditions. _(javascriptallonge.pdf (source-range-c98ab3e6-01309))_
+- When they iterate over an array or linked list, they are traversing something that is already there. _(javascriptallonge.pdf (source-range-c98ab3e6-01274))_
+- A function that starts with a seed and expands it into a data structure is called an unfold . _(javascriptallonge.pdf (source-range-c98ab3e6-01278))_
+- This business of going on forever has some drawbacks. _(javascriptallonge.pdf (source-range-c98ab3e6-01282))_
+- We can start with take , an easy function that returns an iterator that only returns a fixed number of elements: _(javascriptallonge.pdf (source-range-c98ab3e6-01282))_
+- We'll need an iterator that produces odd numbers. _(javascriptallonge.pdf (source-range-c98ab3e6-01284))_
+- Mapping and filtering iterators allows us to compose the parts we already have, rather than writing a tricky bit of code with ifs and whiles and boundary conditions. _(javascriptallonge.pdf (source-range-c98ab3e6-01289))_
 
 ## Technical Atoms
 
 ### Atom 1: `code-block`
 
-_Source: javascriptallonge.pdf (source-range-c98ab3e6-01295)_
+_Source: javascriptallonge.pdf (source-range-c98ab3e6-01275)_
 
 ```
 const NumberIterator = (number = 0) =>
@@ -54,7 +54,7 @@ fromOne().value;
 
 ### Atom 2: `code-block`
 
-_Source: javascriptallonge.pdf (source-range-c98ab3e6-01297)_
+_Source: javascriptallonge.pdf (source-range-c98ab3e6-01277)_
 
 ```
 const FibonacciIterator
@@ -82,7 +82,7 @@ fib().value
 
 ### Atom 3: `code-block`
 
-_Source: javascriptallonge.pdf (source-range-c98ab3e6-01300)_
+_Source: javascriptallonge.pdf (source-range-c98ab3e6-01280)_
 
 ```
 const mapIteratorWith = (fn, iterator) =>
@@ -98,7 +98,7 @@ squares().value
 
 ### Atom 4: `code-block`
 
-_Source: javascriptallonge.pdf (source-range-c98ab3e6-01301)_
+_Source: javascriptallonge.pdf (source-range-c98ab3e6-01281)_
 
 ```
 //=> 4
@@ -108,7 +108,7 @@ squares().value
 
 ### Atom 5: `code-block`
 
-_Source: javascriptallonge.pdf (source-range-c98ab3e6-01303)_
+_Source: javascriptallonge.pdf (source-range-c98ab3e6-01283)_
 
 ```
 const take = (iterator, numberToTake) => {
@@ -137,7 +137,7 @@ toArray(take(squares, 5))
 
 ### Atom 6: `code-block`
 
-_Source: javascriptallonge.pdf (source-range-c98ab3e6-01305)_
+_Source: javascriptallonge.pdf (source-range-c98ab3e6-01285)_
 
 ```
 const odds = () => {
@@ -146,4 +146,4 @@ const odds = () => {
 ## Source Trail
 
 - Source manifest: [[javascriptallonge]]
-- Source section: [[javascriptallonge-section-copy-on-write-functional-iterators-unfolding-and-laziness-14c51fdd]]
+- Source section: [[javascriptallonge-section-unfolding-and-laziness-94f43d99]]

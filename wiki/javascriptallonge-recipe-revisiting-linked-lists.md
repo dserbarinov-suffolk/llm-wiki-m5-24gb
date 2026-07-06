@@ -9,7 +9,7 @@ domain: javascriptallonge
 category_path: recipes/javascriptallonge
 source_id: javascriptallonge.pdf
 aliases: revisiting-linked-lists
-projection_coverage: recipe-javascriptallonge-recipe-revisiting-linked-lists@e6128dbb63096c3da4a4ad259ac7c6c5
+projection_coverage: recipe-javascriptallonge-recipe-revisiting-linked-lists@eb620662a9973fce5bcc6dfa50897cf7
 ---
 
 # revisiting linked lists
@@ -18,23 +18,23 @@ From [[javascriptallonge]].
 
 ## Pattern
 
-- Use the source-backed pattern described in [[javascriptallonge-section-plain-old-javascript-objects-revisiting-linked-lists-9cbb844c]].
-- Evidence roles: decision, procedure, constraint, explanation, example.
+- Use the source-backed pattern described in [[javascriptallonge-section-revisiting-linked-lists-9741196a]].
+- Evidence roles: decision, constraint, procedure, explanation, example.
 
 ## Applicability And Rationale
 
-- In essence, this simple implementation used functions to create an abstraction with named elements. _(javascriptallonge.pdf (source-range-c98ab3e6-01101))_
-- But now that we've looked at objects, we can use an object instead of a two-element array. _(javascriptallonge.pdf (source-range-c98ab3e6-01101))_
-- As we saw above, and discussed in Garbage, Garbage Everywhere, it is fast to iterate forward through a linked list. _(javascriptallonge.pdf (source-range-c98ab3e6-01104))_
-- The problem here is that linked lists are constructed back-to-front, but we iterate over them frontto-back. _(javascriptallonge.pdf (source-range-c98ab3e6-01106))_
-- So to copy a list, we have to save all the bits on the call stack and then construct the list from back-to-front as all the recursive calls return. _(javascriptallonge.pdf (source-range-c98ab3e6-01106))_
-- We could follow the strategy of delaying the work. _(javascriptallonge.pdf (source-range-c98ab3e6-01107))_
+- But now that we've looked at objects, we can use an object instead of a two-element array. _(javascriptallonge.pdf (source-range-c98ab3e6-01085))_
+- In essence, this simple implementation used functions to create an abstraction with named elements. _(javascriptallonge.pdf (source-range-c98ab3e6-01085))_
+- As we saw above, and discussed in Garbage, Garbage Everywhere, it is fast to iterate forward through a linked list. _(javascriptallonge.pdf (source-range-c98ab3e6-01088))_
+- The problem here is that linked lists are constructed back-to-front, but we iterate over them frontto-back. _(javascriptallonge.pdf (source-range-c98ab3e6-01090))_
+- So to copy a list, we have to save all the bits on the call stack and then construct the list from back-to-front as all the recursive calls return. _(javascriptallonge.pdf (source-range-c98ab3e6-01090))_
+- We could follow the strategy of delaying the work. _(javascriptallonge.pdf (source-range-c98ab3e6-01091))_
 
 ## Technical Atoms
 
 ### Atom 1: `code-block`
 
-_Source: javascriptallonge.pdf (source-range-c98ab3e6-01100)_
+_Source: javascriptallonge.pdf (source-range-c98ab3e6-01084)_
 
 ```
 const cons = (a, d) => [a, d],
@@ -46,7 +46,7 @@ cdr
 
 ### Atom 2: `code-block`
 
-_Source: javascriptallonge.pdf (source-range-c98ab3e6-01102)_
+_Source: javascriptallonge.pdf (source-range-c98ab3e6-01086)_
 
 ```
 In that case, a linked list of the numbers 1, 2, and 3 will look like this: { first: 1, rest: { first:
@@ -56,7 +56,7 @@ We can then perform the equivalent of [first, ...rest] with direct property acce
 
 ### Atom 3: `code-block`
 
-_Source: javascriptallonge.pdf (source-range-c98ab3e6-01103)_
+_Source: javascriptallonge.pdf (source-range-c98ab3e6-01087)_
 
 ```
 const EMPTY = {};
@@ -79,7 +79,7 @@ length(OneTwoThree)
 
 ### Atom 4: `code-block`
 
-_Source: javascriptallonge.pdf (source-range-c98ab3e6-01105)_
+_Source: javascriptallonge.pdf (source-range-c98ab3e6-01089)_
 
 ```
 const slowcopy = (node) =>
@@ -92,7 +92,7 @@ slowcopy(OneTwoThree)
 
 ### Atom 5: `code-block`
 
-_Source: javascriptallonge.pdf (source-range-c98ab3e6-01108)_
+_Source: javascriptallonge.pdf (source-range-c98ab3e6-01092)_
 
 ```
 const copy2 = (node, delayed = EMPTY) =>
@@ -105,7 +105,7 @@ copy2(OneTwoThree)
 
 ### Atom 6: `code-block`
 
-_Source: javascriptallonge.pdf (source-range-c98ab3e6-01110)_
+_Source: javascriptallonge.pdf (source-range-c98ab3e6-01094)_
 
 ```
 const reverse = (node, delayed = EMPTY) =>
@@ -135,4 +135,4 @@ mapWith((x) => x * x, OneTwoThree)
 ## Source Trail
 
 - Source manifest: [[javascriptallonge]]
-- Source section: [[javascriptallonge-section-plain-old-javascript-objects-revisiting-linked-lists-9cbb844c]]
+- Source section: [[javascriptallonge-section-revisiting-linked-lists-9741196a]]

@@ -9,7 +9,7 @@ domain: javascriptallonge
 category_path: recipes/javascriptallonge
 source_id: javascriptallonge.pdf
 aliases: left-variadic-destructuring
-projection_coverage: recipe-javascriptallonge-recipe-left-variadic-destructuring@6ca221cc08d6c335057b6c4df923e2be
+projection_coverage: recipe-javascriptallonge-recipe-left-variadic-destructuring@56d93b6336ab3f12237fc6284c4ab461
 ---
 
 # left-variadic destructuring
@@ -18,20 +18,20 @@ From [[javascriptallonge]].
 
 ## Pattern
 
-- Use the source-backed pattern described in [[javascriptallonge-section-recipes-with-basic-functions-left-variadic-functions-left-variadic-destructuring-15603a30]].
+- Use the source-backed pattern described in [[javascriptallonge-section-left-variadic-destructuring-5db72b5e]].
 - Evidence roles: decision, constraint, procedure, example.
 
 ## Applicability And Rationale
 
-- Gathering arguments for functions is one of the ways JavaScript can destructure arrays. _(javascriptallonge.pdf (source-range-c98ab3e6-00736))_
-- But we can write our own left-gathering function utility using the same principles without all the tedium: _(javascriptallonge.pdf (source-range-c98ab3e6-00742))_
-- With leftGather , we have to supply the length of the array we wish to use as the result, and it gathers excess arguments into it from the left, just like leftVariadic gathers excess parameters for a function. _(javascriptallonge.pdf (source-range-c98ab3e6-00744))_
+- Gathering arguments for functions is one of the ways JavaScript can destructure arrays. _(javascriptallonge.pdf (source-range-c98ab3e6-00724))_
+- But we can write our own left-gathering function utility using the same principles without all the tedium: _(javascriptallonge.pdf (source-range-c98ab3e6-00730))_
+- With leftGather , we have to supply the length of the array we wish to use as the result, and it gathers excess arguments into it from the left, just like leftVariadic gathers excess parameters for a function. _(javascriptallonge.pdf (source-range-c98ab3e6-00732))_
 
 ## Technical Atoms
 
 ### Atom 1: `code-block`
 
-_Source: javascriptallonge.pdf (source-range-c98ab3e6-00737)_
+_Source: javascriptallonge.pdf (source-range-c98ab3e6-00725)_
 
 ```
 const [first, ...butFirst] = ['why', 'hello', 'there', 'little', 'droid'];
@@ -43,7 +43,7 @@ butFirst
 
 ### Atom 2: `code-block`
 
-_Source: javascriptallonge.pdf (source-range-c98ab3e6-00739)_
+_Source: javascriptallonge.pdf (source-range-c98ab3e6-00727)_
 
 ```
 const [...butLast, last] = ['why', 'hello', 'there', 'little', 'droid'];
@@ -52,7 +52,7 @@ const [...butLast, last] = ['why', 'hello', 'there', 'little', 'droid'];
 
 ### Atom 3: `code-block`
 
-_Source: javascriptallonge.pdf (source-range-c98ab3e6-00741)_
+_Source: javascriptallonge.pdf (source-range-c98ab3e6-00729)_
 
 ```
 const [butLast, last] = leftVariadic((butLast, last) => [butLast, last])(...['wh\
@@ -65,7 +65,7 @@ last
 
 ### Atom 4: `code-block`
 
-_Source: javascriptallonge.pdf (source-range-c98ab3e6-00743)_
+_Source: javascriptallonge.pdf (source-range-c98ab3e6-00731)_
 
 ```
 const leftGather = (outputArrayLength) => {
@@ -87,4 +87,4 @@ last
 ## Source Trail
 
 - Source manifest: [[javascriptallonge]]
-- Source section: [[javascriptallonge-section-recipes-with-basic-functions-left-variadic-functions-left-variadic-destructuring-15603a30]]
+- Source section: [[javascriptallonge-section-left-variadic-destructuring-5db72b5e]]

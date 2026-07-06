@@ -64,6 +64,7 @@ def segment_chunks(
                 text=text,
                 segment_kind=kind,
                 evidence_ids=(evidence_id,),
+                source_unit_id=chunk.unit_id,
             )
             claims = _claims(kind, text, (evidence_id,), schema)
             inputs.append(SegmentInput(segment=segment, claims=claims))

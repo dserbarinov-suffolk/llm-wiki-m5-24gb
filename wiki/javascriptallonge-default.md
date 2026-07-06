@@ -7,7 +7,7 @@ sources: raw/javascriptallonge.pdf
 updated: 2026-07-06
 domain: javascriptallonge
 category_path: concepts
-projection_coverage: topic-javascriptallonge-default@57245bc55a2a1ff947d69ec1c07f7723
+projection_coverage: topic-javascriptallonge-default@4f78fd1d4632fa0faa850f51502f09ea
 ---
 
 # Default
@@ -16,24 +16,24 @@ What [[javascriptallonge]] covers about default:
 
 ## Statements
 
-### Composing and Decomposing Data / defaults and destructuring
+### defaults and destructuring
 
-- Wesawearlier that destructuring parameters works the same way as destructuring assignment. Now we learn that we can create a default parameter argument. Can we create a default destructuring assignment? _(javascriptallonge.pdf (source-range-c98ab3e6-01006))_
+- Wesawearlier that destructuring parameters works the same way as destructuring assignment. Now we learn that we can create a default parameter argument. Can we create a default destructuring assignment? _(javascriptallonge.pdf (source-range-c98ab3e6-00992))_
 
-- How very useful: defaults can be supplied for destructuring assignments, just like defaults for parameters. _(javascriptallonge.pdf (source-range-c98ab3e6-01008))_
+- How very useful: defaults can be supplied for destructuring assignments, just like defaults for parameters. _(javascriptallonge.pdf (source-range-c98ab3e6-00994))_
 
 
 ## Technical atoms
 
-### Technical frame 1: Composing and Decomposing Data / defaults and destructuring
+### Technical frame 1: defaults and destructuring
 
-**Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01008))_
+**Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-00994))_
 
 > How very useful: defaults can be supplied for destructuring assignments, just like defaults for parameters.
 
-**Atom:** _(javascriptallonge.pdf (source-range-c98ab3e6-01007))_
+**Atom:** _(javascriptallonge.pdf (source-range-c98ab3e6-00993))_
 
-<a id="atom-technical-atom-08a4d8c2f911d51a"></a>
+<a id="atom-technical-atom-a4a5e6bc581b11af"></a>
 ```
 const [first, second = "two"] = ["one"];
 `${first} . ${second}`
@@ -48,7 +48,7 @@ const [first, second = "two"] = ["primus", "secundus"];
 
 ### Shared technical atoms
 
-- [[javascriptallonge-destructuring]] - shared statements and technical atoms: Destructuring shares source evidence from Composing and Decomposing Data / defaults and destructuring: How very useful: defaults can be supplied for destructuring assignments, just like defaults for parameters.; Destructuring shares technical record from Composing and Decomposing Data / defaults and destructuring: const [first, second = "two"] = ["one"]; `${first} . ${second}` //=> "one . two" const [first, second = "two"] = ["primus", "secundus"]; `${first} . ${second}` //=> ... [truncated] (1 shared statement(s), 1 shared atom(s))
+- [[javascriptallonge-destructuring]] - shared statements and technical atoms: Destructuring shares source evidence from defaults and destructuring: How very useful: defaults can be supplied for destructuring assignments, just like defaults for parameters.; Destructuring shares technical record from defaults and destructuring: const [first, second = "two"] = ["one"]; `${first} . ${second}` //=> "one . two" const [first, second = "two"] = ["primus", "secundus"]; `${first} . ${second}` //=> ... [truncated] (1 shared statement(s), 1 shared atom(s))
 
 ## Source
 

@@ -9,7 +9,7 @@ domain: javascriptallonge
 category_path: recipes/javascriptallonge
 source_id: javascriptallonge.pdf
 aliases: once
-projection_coverage: recipe-javascriptallonge-recipe-once@68873dd90103dfc7d52a9d7ff6574d3d
+projection_coverage: recipe-javascriptallonge-recipe-once@69d8ab371f73a62668b38027ea149964
 ---
 
 # Once
@@ -18,21 +18,21 @@ From [[javascriptallonge]].
 
 ## Pattern
 
-- Use the source-backed pattern described in [[javascriptallonge-section-recipes-with-basic-functions-once-b6523716]].
+- Use the source-backed pattern described in [[javascriptallonge-section-once-70058fab]].
 - Evidence roles: decision, constraint, explanation, example.
 
 ## Applicability And Rationale
 
-- It ensures that a function can only be called, well, once . _(javascriptallonge.pdf (source-range-c98ab3e6-00705))_
-- once is an extremely helpful combinator. _(javascriptallonge.pdf (source-range-c98ab3e6-00705))_
-- That function will call your function once, and thereafter will return undefined whenever it is called. _(javascriptallonge.pdf (source-range-c98ab3e6-00707))_
-- (Note: There are some subtleties with decorators like once that involve the intersection of state with methods. _(javascriptallonge.pdf (source-range-c98ab3e6-00710))_
+- once is an extremely helpful combinator. _(javascriptallonge.pdf (source-range-c98ab3e6-00693))_
+- It ensures that a function can only be called, well, once . _(javascriptallonge.pdf (source-range-c98ab3e6-00693))_
+- That function will call your function once, and thereafter will return undefined whenever it is called. _(javascriptallonge.pdf (source-range-c98ab3e6-00695))_
+- (Note: There are some subtleties with decorators like once that involve the intersection of state with methods. _(javascriptallonge.pdf (source-range-c98ab3e6-00698))_
 
 ## Technical Atoms
 
 ### Atom 1: `code-block`
 
-_Source: javascriptallonge.pdf (source-range-c98ab3e6-00706)_
+_Source: javascriptallonge.pdf (source-range-c98ab3e6-00694)_
 
 ```
 const once = (fn) => {
@@ -45,7 +45,7 @@ return done ? void 0 : ((done = true), fn.apply(this, arguments))
 
 ### Atom 2: `code-block`
 
-_Source: javascriptallonge.pdf (source-range-c98ab3e6-00708)_
+_Source: javascriptallonge.pdf (source-range-c98ab3e6-00696)_
 
 ```
 const askedOnBlindDate = once(
@@ -62,4 +62,4 @@ askedOnBlindDate()
 ## Source Trail
 
 - Source manifest: [[javascriptallonge]]
-- Source section: [[javascriptallonge-section-recipes-with-basic-functions-once-b6523716]]
+- Source section: [[javascriptallonge-section-once-70058fab]]

@@ -1,13 +1,13 @@
 ---
 page_id: javascriptallonge-carpenter
 page_kind: concept
-summary: Carpenter: 8 statement(s) and 3 atom(s) from raw/javascriptallonge.pdf.
+summary: Carpenter: 8 statement(s) and 2 atom(s) from raw/javascriptallonge.pdf.
 page_family: topic-concept
 sources: raw/javascriptallonge.pdf
 updated: 2026-07-06
 domain: javascriptallonge
 category_path: concepts
-projection_coverage: topic-javascriptallonge-carpenter@376389d4ec1d7ca2374fdc85b0960015
+projection_coverage: topic-javascriptallonge-carpenter@21aa9219abf5f85ef5786896acd430c2
 ---
 
 # Carpenter
@@ -16,66 +16,42 @@ What [[javascriptallonge]] covers about carpenter:
 
 ## Statements
 
-### Interlude: The Carpenter Interviews for a Job / the problem
+### the problem
 
-- After some small talk, Christine explained that they liked to ask candidates to whiteboard some code. Despite his experience and industry longevity, the Carpenter did not mind being asked to demonstrate that he was, in fact, the person described on the resumé. _(javascriptallonge.pdf (source-range-c98ab3e6-01809))_
+- After some small talk, Christine explained that they liked to ask candidates to whiteboard some code. Despite his experience and industry longevity, the Carpenter did not mind being asked to demonstrate that he was, in fact, the person described on the resumé. _(javascriptallonge.pdf (source-range-c98ab3e6-01783))_
 
-### Interlude: The Carpenter Interviews for a Job / the carpenter's solution
+### the carpenter's solution
 
-- The Carpenter was not surprised at the problem. Bob Plissken was a crafty, almost reptilian recruiter that traded in information and secrets. Whenever Bob sent a candidate to a job interview, he debriefed them afterwards and got them to disclose what questions were asked in the interview. He then coached subsequent candidates to give polished answers to the company's pet technical questions. _(javascriptallonge.pdf (source-range-c98ab3e6-01824))_
+- The Carpenter was not surprised at the problem. Bob Plissken was a crafty, almost reptilian recruiter that traded in information and secrets. Whenever Bob sent a candidate to a job interview, he debriefed them afterwards and got them to disclose what questions were asked in the interview. He then coached subsequent candidates to give polished answers to the company's pet technical questions. _(javascriptallonge.pdf (source-range-c98ab3e6-01797))_
 
-- Bob had, in fact, warned The Carpenter that 'Thing' liked to ask either or both of two questions: Determine how to detect a loop in a linked list, and determine whether the chequerboard game would halt. To save time, The Carpenter had prepared the same answer for both questions. _(javascriptallonge.pdf (source-range-c98ab3e6-01826))_
+- Bob had, in fact, warned The Carpenter that 'Thing' liked to ask either or both of two questions: Determine how to detect a loop in a linked list, and determine whether the chequerboard game would halt. To save time, The Carpenter had prepared the same answer for both questions. _(javascriptallonge.pdf (source-range-c98ab3e6-01799))_
 
-- The Carpenter coughed softly, then began. 'To begin with, I'll transform a game into an iterable that generates arrows, using the 'Starman' notation for generators. I'll refactor a touch to make things clearer, for example I'll extract the board to make it easier to test:' _(javascriptallonge.pdf (source-range-c98ab3e6-01827))_
+- The Carpenter coughed softly, then began. 'To begin with, I'll transform a game into an iterable that generates arrows, using the 'Starman' notation for generators. I'll refactor a touch to make things clearer, for example I'll extract the board to make it easier to test:' _(javascriptallonge.pdf (source-range-c98ab3e6-01800))_
 
-### Interlude: The Carpenter Interviews for a Job / the aftermath
+### the aftermath
 
-- The Carpenter sat down and waited. This type of solution provided an excellent opportunity to explore lazy versus eager evaluation, the performance of iterators versus native iteration, single responsibility design, and many other rich topics. _(javascriptallonge.pdf (source-range-c98ab3e6-01849))_
+- The Carpenter sat down and waited. This type of solution provided an excellent opportunity to explore lazy versus eager evaluation, the performance of iterators versus native iteration, single responsibility design, and many other rich topics. _(javascriptallonge.pdf (source-range-c98ab3e6-01821))_
 
-- The Carpenter was confident that although nobody would write this exact code in production, prospective employers would also recognize that nobody would try to detect whether a chequer game terminates in production, either. It's all just a pretext for kicking off an interesting conversation, right? _(javascriptallonge.pdf (source-range-c98ab3e6-01850))_
+- The Carpenter was confident that although nobody would write this exact code in production, prospective employers would also recognize that nobody would try to detect whether a chequer game terminates in production, either. It's all just a pretext for kicking off an interesting conversation, right? _(javascriptallonge.pdf (source-range-c98ab3e6-01822))_
 
-### Interlude: The Carpenter Interviews for a Job / after another drink
+### after another drink
 
-- A few drinks later, The Carpenter was telling his Thing story and an engineer named Kidu introduced themself. _(javascriptallonge.pdf (source-range-c98ab3e6-01859))_
+- A few drinks later, The Carpenter was telling his Thing story and an engineer named Kidu introduced themself. _(javascriptallonge.pdf (source-range-c98ab3e6-01830))_
 
-- The Carpenter stared at Kidu's solution. 'I guess,' he allowed, 'It isn't always necessary to make a solution so awesome it would please the Ghosts of Mars.' _(javascriptallonge.pdf (source-range-c98ab3e6-01867))_
+- The Carpenter stared at Kidu's solution. 'I guess,' he allowed, 'It isn't always necessary to make a solution so awesome it would please the Ghosts of Mars.' _(javascriptallonge.pdf (source-range-c98ab3e6-01838))_
 
 
 ## Technical atoms
 
-### Technical frame 1: Interlude: The Carpenter Interviews for a Job / the problem
+### Technical frame 1: the carpenter's solution
 
-**Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01817))_
-
-> Christine interrupted. 'To save time, we have written a template of the solution for you in ECMASCript 2015 notation. Fill in the blanks. Your code should not presume anything about the game-board's size or contents, only that it is given an arrow every time though the while loop. You may use babeljs.io 95 , or ES6Fiddle 96 to check your work. '
-
-**Atom:** _(javascriptallonge.pdf (source-range-c98ab3e6-01821))_
-
-<a id="atom-technical-atom-990b7a29a112d471"></a>
-```text
-95 http://babeljs.io
-96 http://www.es6fiddle.net
-```
-
-<details>
-<summary>Parsed table preview (needs review)</summary>
-
-| entry | content |
-| --- | --- |
-| 95 | http://babeljs.io |
-| 96 | http://www.es6fiddle.net |
-
-</details>
-
-### Technical frame 2: Interlude: The Carpenter Interviews for a Job / the carpenter's solution
-
-**Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01830))_
+**Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01803))_
 
 > 'Now that we have an iterable, we can transform the iterable of arrows into an iterable of positions.' The Carpenter sketched quickly. 'We want to take the arrows and convert them to positions. For that, we'll map the Game iterable to positions. A statefulMap is a lazy map that preserves state from iteration to iteration. That's what we need, because we need to know the current position to map each move to the next position.'
 
-**Atom:** _(javascriptallonge.pdf (source-range-c98ab3e6-01828))_
+**Atom:** _(javascriptallonge.pdf (source-range-c98ab3e6-01801))_
 
-<a id="atom-technical-atom-3dd14f9ff8c76a27"></a>
+<a id="atom-technical-atom-5919206f67f12694"></a>
 ```
 const MOVE = {
 "￿": ([x, y]) => [x - 1, y],
@@ -96,15 +72,15 @@ board[i][j] = '￿￿￿￿'[Math.floor(Math.random() * 4)];
 const position = [
 ```
 
-### Technical frame 3: Interlude: The Carpenter Interviews for a Job / the carpenter's solution
+### Technical frame 2: the carpenter's solution
 
-**Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01830))_
+**Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01803))_
 
 > 'Now that we have an iterable, we can transform the iterable of arrows into an iterable of positions.' The Carpenter sketched quickly. 'We want to take the arrows and convert them to positions. For that, we'll map the Game iterable to positions. A statefulMap is a lazy map that preserves state from iteration to iteration. That's what we need, because we need to know the current position to map each move to the next position.'
 
-**Atom:** _(javascriptallonge.pdf (source-range-c98ab3e6-01829))_
+**Atom:** _(javascriptallonge.pdf (source-range-c98ab3e6-01802))_
 
-<a id="atom-technical-atom-bcacef096478d696"></a>
+<a id="atom-technical-atom-2be19a0dd58f33c4"></a>
 ```
 Math.floor(Math.random() * size),
 Math.floor(Math.random() * size)

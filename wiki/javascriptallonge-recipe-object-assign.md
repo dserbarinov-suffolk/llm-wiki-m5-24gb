@@ -9,7 +9,7 @@ domain: javascriptallonge
 category_path: recipes/javascriptallonge
 source_id: javascriptallonge.pdf
 aliases: object-assign
-projection_coverage: recipe-javascriptallonge-recipe-object-assign@5d5c3be535ed4708f172d003969e9e1d
+projection_coverage: recipe-javascriptallonge-recipe-object-assign@ce0d2415d9e4495025f5878916114d5c
 ---
 
 # Object.assign
@@ -18,18 +18,18 @@ From [[javascriptallonge]].
 
 ## Pattern
 
-- Use the source-backed pattern described in [[javascriptallonge-section-recipes-with-data-object-assign-892f42ff]].
+- Use the source-backed pattern described in [[javascriptallonge-section-object-assign-f644e66b]].
 - Evidence roles: decision, constraint, example.
 
 ## Applicability And Rationale
 
-- Both needs can be met with Object.assign , a standard function. _(javascriptallonge.pdf (source-range-c98ab3e6-01472))_
+- Both needs can be met with Object.assign , a standard function. _(javascriptallonge.pdf (source-range-c98ab3e6-01450))_
 
 ## Technical Atoms
 
 ### Atom 1: `code-block`
 
-_Source: javascriptallonge.pdf (source-range-c98ab3e6-01469)_
+_Source: javascriptallonge.pdf (source-range-c98ab3e6-01447)_
 
 ```
 const inventory = {
@@ -42,7 +42,7 @@ inventory.pears = 24;
 
 ### Atom 2: `code-block`
 
-_Source: javascriptallonge.pdf (source-range-c98ab3e6-01471)_
+_Source: javascriptallonge.pdf (source-range-c98ab3e6-01449)_
 
 ```
 for (let fruit in shipment) {
@@ -52,7 +52,7 @@ inventory[fruit] = shipment[fruit]
 
 ### Atom 3: `code-block`
 
-_Source: javascriptallonge.pdf (source-range-c98ab3e6-01473)_
+_Source: javascriptallonge.pdf (source-range-c98ab3e6-01451)_
 
 ```
 Object.assign({}, {
@@ -64,7 +64,7 @@ oranges: 12
 
 ### Atom 4: `code-block`
 
-_Source: javascriptallonge.pdf (source-range-c98ab3e6-01475)_
+_Source: javascriptallonge.pdf (source-range-c98ab3e6-01453)_
 
 ```
 const inventory = {
@@ -80,7 +80,7 @@ Object.assign(inventory, shipment)
 
 ### Atom 5: `code-block`
 
-_Source: javascriptallonge.pdf (source-range-c98ab3e6-01476)_
+_Source: javascriptallonge.pdf (source-range-c98ab3e6-01454)_
 
 ```
 //=> { apples: 12,
@@ -94,7 +94,7 @@ pears: 24 }
 
 ### Atom 6: `code-block`
 
-_Source: javascriptallonge.pdf (source-range-c98ab3e6-01478)_
+_Source: javascriptallonge.pdf (source-range-c98ab3e6-01456)_
 
 ```
 const Queue = function () {
@@ -133,4 +133,4 @@ isEmpty () {
 ## Source Trail
 
 - Source manifest: [[javascriptallonge]]
-- Source section: [[javascriptallonge-section-recipes-with-data-object-assign-892f42ff]]
+- Source section: [[javascriptallonge-section-object-assign-f644e66b]]

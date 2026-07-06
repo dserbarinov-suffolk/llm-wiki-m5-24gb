@@ -9,7 +9,7 @@ domain: javascriptallonge
 category_path: recipes/javascriptallonge
 source_id: javascriptallonge.pdf
 aliases: function-parameters-are-eager
-projection_coverage: recipe-javascriptallonge-recipe-function-parameters-are-eager@2196787c75d31c55f9bba29b5cf2dfe9
+projection_coverage: recipe-javascriptallonge-recipe-function-parameters-are-eager@9316c60685525fff15105381e802c7f9
 ---
 
 # function parameters are eager
@@ -18,20 +18,20 @@ From [[javascriptallonge]].
 
 ## Pattern
 
-- Use the source-backed pattern described in [[javascriptallonge-section-picking-the-bean-choice-and-truthiness-function-parameters-are-eager-a5b28405]].
+- Use the source-backed pattern described in [[javascriptallonge-section-function-parameters-are-eager-a0f9ecc8]].
 - Evidence roles: explanation, decision, constraint, example.
 
 ## Applicability And Rationale
 
-- This leads to the infinite recursion we fear. _(javascriptallonge.pdf (source-range-c98ab3e6-00797))_
-- If we need to have functions with control-flow semantics, we can pass anonymous functions. _(javascriptallonge.pdf (source-range-c98ab3e6-00798))_
-- Here we've passed functions that contain the expressions we want to evaluate, and now we can write our own functions that can delay evaluation. _(javascriptallonge.pdf (source-range-c98ab3e6-00800))_
+- This leads to the infinite recursion we fear. _(javascriptallonge.pdf (source-range-c98ab3e6-00784))_
+- If we need to have functions with control-flow semantics, we can pass anonymous functions. _(javascriptallonge.pdf (source-range-c98ab3e6-00785))_
+- Here we've passed functions that contain the expressions we want to evaluate, and now we can write our own functions that can delay evaluation. _(javascriptallonge.pdf (source-range-c98ab3e6-00787))_
 
 ## Technical Atoms
 
 ### Atom 1: `code-block`
 
-_Source: javascriptallonge.pdf (source-range-c98ab3e6-00796)_
+_Source: javascriptallonge.pdf (source-range-c98ab3e6-00783)_
 
 ```
 const or = (a, b) => a || b
@@ -44,7 +44,7 @@ even(42)
 
 ### Atom 2: `code-block`
 
-_Source: javascriptallonge.pdf (source-range-c98ab3e6-00799)_
+_Source: javascriptallonge.pdf (source-range-c98ab3e6-00786)_
 
 ```
 const or = (a, b) => a() || b()
@@ -58,4 +58,4 @@ even(7)
 ## Source Trail
 
 - Source manifest: [[javascriptallonge]]
-- Source section: [[javascriptallonge-section-picking-the-bean-choice-and-truthiness-function-parameters-are-eager-a5b28405]]
+- Source section: [[javascriptallonge-section-function-parameters-are-eager-a0f9ecc8]]

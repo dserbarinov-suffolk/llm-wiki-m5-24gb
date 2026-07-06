@@ -7,7 +7,7 @@ sources: raw/javascriptallonge.pdf
 updated: 2026-07-06
 domain: javascriptallonge
 category_path: concepts
-projection_coverage: topic-javascriptallonge-destructuring@ab0de441783a13c277cfbfaef549d976
+projection_coverage: topic-javascriptallonge-destructuring@571896fe10e3f8e3a0c0f1e8cf38a79e
 ---
 
 # Destructuring
@@ -16,22 +16,22 @@ What [[javascriptallonge]] covers about destructuring:
 
 ## Statements
 
-### Composing and Decomposing Data / defaults and destructuring
+### defaults and destructuring
 
-- How very useful: defaults can be supplied for destructuring assignments, just like defaults for parameters. _(javascriptallonge.pdf (source-range-c98ab3e6-01008))_
+- How very useful: defaults can be supplied for destructuring assignments, just like defaults for parameters. _(javascriptallonge.pdf (source-range-c98ab3e6-00994))_
 
 
 ## Technical atoms
 
-### Technical frame 1: Composing and Decomposing Data / defaults and destructuring
+### Technical frame 1: defaults and destructuring
 
-**Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01008))_
+**Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-00994))_
 
 > How very useful: defaults can be supplied for destructuring assignments, just like defaults for parameters.
 
-**Atom:** _(javascriptallonge.pdf (source-range-c98ab3e6-01007))_
+**Atom:** _(javascriptallonge.pdf (source-range-c98ab3e6-00993))_
 
-<a id="atom-technical-atom-08a4d8c2f911d51a"></a>
+<a id="atom-technical-atom-a4a5e6bc581b11af"></a>
 ```
 const [first, second = "two"] = ["one"];
 `${first} . ${second}`
@@ -43,13 +43,13 @@ const [first, second = "two"] = ["primus", "secundus"];
 
 ### Technical atom 2
 
-<a id="atom-technical-atom-59a39b6960f40892"></a>
+<a id="atom-technical-atom-7e25061238cfb4ee"></a>
 
-**Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-00865))_
+**Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-00851))_
 
 > Some languages support multiple return values: A function can return several things at once, like a value and an error code. This can easily be emulated in JavaScript with destructuring:
 
-**Atom:** _(javascriptallonge.pdf (source-range-c98ab3e6-00866))_
+**Atom:** _(javascriptallonge.pdf (source-range-c98ab3e6-00852))_
 
 ```
 const description = (nameAndOccupation) => {
@@ -73,8 +73,8 @@ status
 
 ### Shared technical atoms
 
-- [[javascriptallonge-default]] - shared statements and technical atoms: Default shares source evidence from Composing and Decomposing Data / defaults and destructuring: How very useful: defaults can be supplied for destructuring assignments, just like defaults for parameters.; Default shares technical record from Composing and Decomposing Data / defaults and destructuring: const [first, second = "two"] = ["one"]; `${first} . ${second}` //=> "one . two" const [first, second = "two"] = ["primus", "secundus"]; `${first} . ${second}` //=> ... [truncated] (1 shared statement(s), 1 shared atom(s))
-- [[javascriptallonge-return-value]] - shared technical atoms: Return Value shares technical record from Composing and Decomposing Data / Arrays and Destructuring Arguments / destructuring and return values: const description = (nameAndOccupation) => { if (nameAndOccupation.length < 2) { return ["", "occupation missing"] } else { const [[first, last], occupation] = nameA ... [truncated] (1 shared atom(s))
+- [[javascriptallonge-default]] - shared statements and technical atoms: Default shares source evidence from defaults and destructuring: How very useful: defaults can be supplied for destructuring assignments, just like defaults for parameters.; Default shares technical record from defaults and destructuring: const [first, second = "two"] = ["one"]; `${first} . ${second}` //=> "one . two" const [first, second = "two"] = ["primus", "secundus"]; `${first} . ${second}` //=> ... [truncated] (1 shared statement(s), 1 shared atom(s))
+- [[javascriptallonge-return-value]] - shared technical atoms: Return Value shares technical record from destructuring and return values: const description = (nameAndOccupation) => { if (nameAndOccupation.length < 2) { return ["", "occupation missing"] } else { const [[first, last], occupation] = nameA ... [truncated] (1 shared atom(s))
 
 ## Source
 

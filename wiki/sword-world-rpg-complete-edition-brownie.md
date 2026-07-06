@@ -7,7 +7,7 @@ sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-06
 domain: sword-world-rpg-complete-edition
 category_path: concepts
-projection_coverage: topic-sword-world-rpg-complete-edition-brownie@38702d2b639a1048360fe18cb0893d81
+projection_coverage: topic-sword-world-rpg-complete-edition-brownie@45b022bebcb7bfc52eadbf56fdd4a4a4
 ---
 
 # Brownie
@@ -18,23 +18,23 @@ What [[sword-world-rpg-complete-edition]] covers about brownie:
 
 ### 5.1.14 Spirit Magic List / [ Brownie ] (Brownie/Building Spirit)
 
-- Brownies are spirits that live in old houses and castles that were built over 50 years ago. They may clean the house while the family members are sleeping. This spell has the effect of giving a command to a brownie, specifying a chore the caster would like them to do while they're asleep. However, the requested job must be a simple one. If you request something too complicated, it's too much for them and you can't expect a good result. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-02850))_
+- Brownies are spirits that live in old houses and castles that were built over 50 years ago. They may clean the house while the family members are sleeping. This spell has the effect of giving a command to a brownie, specifying a chore the caster would like them to do while they're asleep. However, the requested job must be a simple one. If you request something too complicated, it's too much for them and you can't expect a good result. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-02792))_
 
 
 ## Technical atoms
 
 ### Technical frame 1: 5.1.14 Spirit Magic List / [ Brownie ] (Brownie/Building Spirit)
 
-**Context:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-02850))_
+**Context:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-02792))_
 
 > Brownies are spirits that live in old houses and castles that were built over 50 years ago. They may clean the house while the family members are sleeping. This spell has the effect of giving a command to a brownie, specifying a chore the caster would like them to do while they're asleep. However, the requested job must be a simple one. If you request something too complicated, it's too much for them and you can't expect a good result.
 
-**Atoms:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-02848, source-range-e5870dca-02849))_
+**Atoms:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-02790, source-range-e5870dca-02791))_
 
-<a id="atom-technical-atom-cc56190c9a43c0c6"></a>
+<a id="atom-technical-atom-ade74adf3f685832"></a>
 > Base Mental Power Cost=3 Distance=Inside a building Area=Inside a building Duration=While the caster is asleep Effect=Do chores around the house Type=Expansion=-
 
-<a id="atom-technical-atom-aba1abcd4f965155"></a>
+<a id="atom-technical-atom-9419cc123440b90d"></a>
 > Resist=None
 
 
@@ -42,7 +42,7 @@ What [[sword-world-rpg-complete-edition]] covers about brownie:
 
 ### Source structure
 
-- [[sword-world-rpg-complete-edition-section-13-2-3-youma-brownie-656d261f]] - source section: 13.2.3 Youma / [ Brownie ] shares source evidence from 13.2.3 Youma / [ Brownie ]: Brownie is a spirit that appears in old mansions where people have lived for over 50 years. If the humans living in the mansion disappear or die, the brownie may tur ... [truncated]; 13.2.3 Youma / [ Brownie ] shares technical record from 13.2.3 Youma / [ Brownie ]: Languages=Silent spirit, mansion residents' language (12 shared statement(s), 2 shared atom(s))
+- [[sword-world-rpg-complete-edition-section-brownie-e92b25a2]] - source section: [ Brownie ] shares source evidence from [ Brownie ]: Brownie is a spirit that appears in old mansions where people have lived for over 50 years. If the humans living in the mansion disappear or die, the brownie may tur ... [truncated]; [ Brownie ] shares technical record from [ Brownie ]: Languages=Silent spirit, mansion residents' language (12 shared statement(s), 2 shared atom(s))
 
 ## Source
 

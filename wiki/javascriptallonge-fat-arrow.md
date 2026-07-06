@@ -7,7 +7,7 @@ sources: raw/javascriptallonge.pdf
 updated: 2026-07-06
 domain: javascriptallonge
 category_path: concepts
-projection_coverage: topic-javascriptallonge-fat-arrow@7fb1c58207f0ffa7e240f8e4f550223b
+projection_coverage: topic-javascriptallonge-fat-arrow@93f2ca59023bfe372eed8a2805aa81eb
 ---
 
 # Fat Arrow
@@ -16,26 +16,26 @@ What [[javascriptallonge]] covers about fat arrow:
 
 ## Statements
 
-### And also: / Magic Names / magic names and fat arrows
+### magic names and fat arrows
 
-- But if we use a fat arrow, arguments will be defined in the outer environment, the one defined with function . And thus arguments[0] will refer to "outer" , not to "inner" : _(javascriptallonge.pdf (source-range-c98ab3e6-00617))_
+- But if we use a fat arrow, arguments will be defined in the outer environment, the one defined with function . And thus arguments[0] will refer to "outer" , not to "inner" : _(javascriptallonge.pdf (source-range-c98ab3e6-00607))_
 
-- Although it seems quixotic for the two syntaxes to have different semantics, it makes sense when you consider the design goal: Fat arrow functions are designed to be very lightweight and are often used with constructs like mapping or callbacks to emulate syntax. _(javascriptallonge.pdf (source-range-c98ab3e6-00619))_
+- Although it seems quixotic for the two syntaxes to have different semantics, it makes sense when you consider the design goal: Fat arrow functions are designed to be very lightweight and are often used with constructs like mapping or callbacks to emulate syntax. _(javascriptallonge.pdf (source-range-c98ab3e6-00609))_
 
-- This works just fine, because arguments[0] refers to the 3 we passed to the function row . Our 'fat arrow' function (column) => column * arguments[0] doesn't bind arguments when it's invoked. But if we rewrite row to use the function keyword, it stops working: _(javascriptallonge.pdf (source-range-c98ab3e6-00622))_
+- This works just fine, because arguments[0] refers to the 3 we passed to the function row . Our 'fat arrow' function (column) => column * arguments[0] doesn't bind arguments when it's invoked. But if we rewrite row to use the function keyword, it stops working: _(javascriptallonge.pdf (source-range-c98ab3e6-00612))_
 
 
 ## Technical atoms
 
-### Technical frame 1: And also: / Magic Names / magic names and fat arrows
+### Technical frame 1: magic names and fat arrows
 
-**Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-00619))_
+**Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-00609))_
 
 > Although it seems quixotic for the two syntaxes to have different semantics, it makes sense when you consider the design goal: Fat arrow functions are designed to be very lightweight and are often used with constructs like mapping or callbacks to emulate syntax.
 
-**Atom:** _(javascriptallonge.pdf (source-range-c98ab3e6-00618))_
+**Atom:** _(javascriptallonge.pdf (source-range-c98ab3e6-00608))_
 
-<a id="atom-technical-atom-36489576d7b26541"></a>
+<a id="atom-technical-atom-dea4a7e7ebadedac"></a>
 ```
 (function () {
 return (() => arguments[0])('inner');
@@ -43,15 +43,15 @@ return (() => arguments[0])('inner');
 //=> "outer"
 ```
 
-### Technical frame 2: And also: / Magic Names / magic names and fat arrows
+### Technical frame 2: magic names and fat arrows
 
-**Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-00622))_
+**Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-00612))_
 
 > This works just fine, because arguments[0] refers to the 3 we passed to the function row . Our 'fat arrow' function (column) => column * arguments[0] doesn't bind arguments when it's invoked. But if we rewrite row to use the function keyword, it stops working:
 
-**Atom:** _(javascriptallonge.pdf (source-range-c98ab3e6-00621))_
+**Atom:** _(javascriptallonge.pdf (source-range-c98ab3e6-00611))_
 
-<a id="atom-technical-atom-bb9b8c1dc457608e"></a>
+<a id="atom-technical-atom-29d9d9b76cf52a40"></a>
 ```
 const row = function () {
 return mapWith(
@@ -68,8 +68,8 @@ row(3)
 
 ### Shared technical atoms
 
-- [[javascriptallonge-argument]] - shared statements and technical atoms: Argument shares source evidence from And also: / Magic Names / magic names and fat arrows: This works just fine, because arguments[0] refers to the 3 we passed to the function row . Our 'fat arrow' function (column) => column * arguments[0] doesn't bind ar ... [truncated]; Argument shares technical record from And also: / Magic Names / magic names and fat arrows: (function () { return (() => arguments[0])('inner'); })('outer') //=> "outer" (1 shared statement(s), 2 shared atom(s))
-- [[javascriptallonge-bind]] - shared statements and technical atoms: Bind shares source evidence from And also: / Magic Names / magic names and fat arrows: This works just fine, because arguments[0] refers to the 3 we passed to the function row . Our 'fat arrow' function (column) => column * arguments[0] doesn't bind ar ... [truncated]; Bind shares technical record from And also: / Magic Names / magic names and fat arrows: const row = function () { return mapWith( (column) => column * arguments[0], [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12] ) } row(3) //=> [3,6,9,12,15,18,21,24,27,30,33,36] (1 shared statement(s), 1 shared atom(s))
+- [[javascriptallonge-argument]] - shared statements and technical atoms: Argument shares source evidence from magic names and fat arrows: This works just fine, because arguments[0] refers to the 3 we passed to the function row . Our 'fat arrow' function (column) => column * arguments[0] doesn't bind ar ... [truncated]; Argument shares technical record from magic names and fat arrows: (function () { return (() => arguments[0])('inner'); })('outer') //=> "outer" (1 shared statement(s), 2 shared atom(s))
+- [[javascriptallonge-bind]] - shared statements and technical atoms: Bind shares source evidence from magic names and fat arrows: This works just fine, because arguments[0] refers to the 3 we passed to the function row . Our 'fat arrow' function (column) => column * arguments[0] doesn't bind ar ... [truncated]; Bind shares technical record from magic names and fat arrows: const row = function () { return mapWith( (column) => column * arguments[0], [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12] ) } row(3) //=> [3,6,9,12,15,18,21,24,27,30,33,36] (1 shared statement(s), 1 shared atom(s))
 
 ## Source
 

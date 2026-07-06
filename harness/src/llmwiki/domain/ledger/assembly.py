@@ -113,6 +113,11 @@ def _materialize_atom(seg: SourceSegment, candidate: AtomCandidate) -> Technical
         evidence_ids=candidate.evidence_ids,
         parse_status=parse_status,
         review_reason=candidate.review_reason,
+        source_unit_id=candidate.source_unit_id,
+        source_block_ids=candidate.source_block_ids,
+        source_element_ids=candidate.source_element_ids,
+        source_page_start=candidate.source_page_start,
+        source_page_end=candidate.source_page_end,
     )
 
 

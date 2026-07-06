@@ -9,7 +9,7 @@ domain: javascriptallonge
 category_path: recipes/javascriptallonge
 source_id: javascriptallonge.pdf
 aliases: building-with-mutation
-projection_coverage: recipe-javascriptallonge-recipe-building-with-mutation@768f2939f024c1a328f0b833f9102ad5
+projection_coverage: recipe-javascriptallonge-recipe-building-with-mutation@8bbc4fdf5f1c42dec1e4f1a07058feb3
 ---
 
 # building with mutation
@@ -18,22 +18,22 @@ From [[javascriptallonge]].
 
 ## Pattern
 
-- Use the source-backed pattern described in [[javascriptallonge-section-mutation-building-with-mutation-c75629c7]].
+- Use the source-backed pattern described in [[javascriptallonge-section-building-with-mutation-616d4b06]].
 - Evidence roles: decision, constraint, procedure, example.
 
 ## Applicability And Rationale
 
-- As noted, one pattern is to be more liberal about mutation when building a data structure. _(javascriptallonge.pdf (source-range-c98ab3e6-01148))_
-- If we want to make a copy of a linked list without iterating over it twice and making a copy we discard later, we can use mutation: _(javascriptallonge.pdf (source-range-c98ab3e6-01150))_
-- Adding a node to an existing list is risky, as we saw when considering the fact that OneToFive and ThreeToFive share the same nodes. _(javascriptallonge.pdf (source-range-c98ab3e6-01152))_
-- This algorithm makes copies of nodes as it goes, and mutates the last node in the list so that it can splice the next one on. _(javascriptallonge.pdf (source-range-c98ab3e6-01152))_
-- But when we're in the midst of creating a brand new list, we aren't sharing any nodes with any other lists, and we can afford to be more liberal about using mutation to save space and/or time. _(javascriptallonge.pdf (source-range-c98ab3e6-01152))_
+- As noted, one pattern is to be more liberal about mutation when building a data structure. _(javascriptallonge.pdf (source-range-c98ab3e6-01129))_
+- If we want to make a copy of a linked list without iterating over it twice and making a copy we discard later, we can use mutation: _(javascriptallonge.pdf (source-range-c98ab3e6-01131))_
+- This algorithm makes copies of nodes as it goes, and mutates the last node in the list so that it can splice the next one on. _(javascriptallonge.pdf (source-range-c98ab3e6-01133))_
+- Adding a node to an existing list is risky, as we saw when considering the fact that OneToFive and ThreeToFive share the same nodes. _(javascriptallonge.pdf (source-range-c98ab3e6-01133))_
+- But when we're in the midst of creating a brand new list, we aren't sharing any nodes with any other lists, and we can afford to be more liberal about using mutation to save space and/or time. _(javascriptallonge.pdf (source-range-c98ab3e6-01133))_
 
 ## Technical Atoms
 
 ### Atom 1: `code-block`
 
-_Source: javascriptallonge.pdf (source-range-c98ab3e6-01149)_
+_Source: javascriptallonge.pdf (source-range-c98ab3e6-01130)_
 
 ```
 const reverse = (node, delayed = EMPTY) =>
@@ -45,7 +45,7 @@ const copy = (node) => reverse(reverse(node));
 
 ### Atom 2: `code-block`
 
-_Source: javascriptallonge.pdf (source-range-c98ab3e6-01151)_
+_Source: javascriptallonge.pdf (source-range-c98ab3e6-01132)_
 
 ```
 const copy = (node, head = null, tail = null) => {
@@ -68,7 +68,7 @@ return copy(node.rest, head, newNode);
 
 ### Atom 3: `code-block`
 
-_Source: javascriptallonge.pdf (source-range-c98ab3e6-01154)_
+_Source: javascriptallonge.pdf (source-range-c98ab3e6-01135)_
 
 ```
 const mapWith = (fn, node, head = null, tail = null) => {
@@ -92,7 +92,7 @@ mapWith((x) => 1.0 / x, OneToFive)
 
 ### Atom 4: `code-block`
 
-_Source: javascriptallonge.pdf (source-range-c98ab3e6-01155)_
+_Source: javascriptallonge.pdf (source-range-c98ab3e6-01136)_
 
 ```
 //=> {"first":1,"rest":{"first":0.5,"rest":{"first":0.3333333333333333,"rest":\
@@ -102,4 +102,4 @@ _Source: javascriptallonge.pdf (source-range-c98ab3e6-01155)_
 ## Source Trail
 
 - Source manifest: [[javascriptallonge]]
-- Source section: [[javascriptallonge-section-mutation-building-with-mutation-c75629c7]]
+- Source section: [[javascriptallonge-section-building-with-mutation-616d4b06]]

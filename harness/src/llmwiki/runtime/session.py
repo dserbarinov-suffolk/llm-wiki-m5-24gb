@@ -51,7 +51,7 @@ from llmwiki.domain.planning import (
 from llmwiki.domain.salience import compute_salience
 from llmwiki.domain.source_batching import SourceTextChunk, markdown_source_chunks
 from llmwiki.pdf import PdfError
-from llmwiki.pdf.document import DocumentModel, render_source_unit
+from llmwiki.pdf.document import DocumentModel, SourceUnit, render_source_unit
 from llmwiki.pdf.pipeline import (
     ExtractionResult,
     read_document_model,
@@ -211,6 +211,7 @@ class Session:
             source_locator=source_locator,
             page_plan=page_plan,
             chunks=chunks,
+            source_units=(),
             document_model=None,
             source_text=source_text_record,
             run=self._markdown_ingest_run(source_locator, page_plan),
@@ -254,6 +255,7 @@ class Session:
             source_locator=source_locator,
             page_plan=page_plan,
             chunks=chunks,
+            source_units=read_source_units(result.cache_dir),
             document_model=read_document_model(result.cache_dir),
             source_text=SourceText(
                 source_locator=source_locator,
@@ -270,6 +272,7 @@ class Session:
         source_locator: str,
         page_plan: PagePlan,
         chunks: tuple[ChunkText, ...],
+        source_units: tuple[SourceUnit, ...],
         document_model: DocumentModel | None,
         source_text: SourceText,
         run: IngestRun,
@@ -288,6 +291,7 @@ class Session:
             source_hash=source_text.source_hash,
             evidence_registry_hash=registry_hash,
             chunks=chunks,
+            source_units=source_units,
             document_model=document_model,
             today=self.today,
             schema=self._schema_object(),

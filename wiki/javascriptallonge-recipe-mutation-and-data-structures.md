@@ -9,7 +9,7 @@ domain: javascriptallonge
 category_path: recipes/javascriptallonge
 source_id: javascriptallonge.pdf
 aliases: mutation-and-data-structures
-projection_coverage: recipe-javascriptallonge-recipe-mutation-and-data-structures@cb21ab7e381548038af1162d107022aa
+projection_coverage: recipe-javascriptallonge-recipe-mutation-and-data-structures@67b2b76b016be88fed42d3203c520be3
 ---
 
 # mutation and data structures
@@ -18,23 +18,23 @@ From [[javascriptallonge]].
 
 ## Pattern
 
-- Use the source-backed pattern described in [[javascriptallonge-section-mutation-mutation-and-data-structures-fe09390c]].
+- Use the source-backed pattern described in [[javascriptallonge-section-mutation-and-data-structures-1d32e744]].
 - Evidence roles: decision, constraint, example, structured-state.
 
 ## Applicability And Rationale
 
-- In general, mutation makes some algorithms shorter to write and possibly faster, but harder to reason about. _(javascriptallonge.pdf (source-range-c98ab3e6-01137))_
-- It is possible to compute anything without ever mutating an existing entity. _(javascriptallonge.pdf (source-range-c98ab3e6-01137))_
-- Mutation is a surprisingly complex subject. _(javascriptallonge.pdf (source-range-c98ab3e6-01137))_
-- While we're executing the mapWith function, we're constructing a new linked list. _(javascriptallonge.pdf (source-range-c98ab3e6-01138))_
-- One pattern many people follow is to be liberal with mutation when constructing data, but conservative with mutation when consuming data. _(javascriptallonge.pdf (source-range-c98ab3e6-01138))_
-- By this pattern, we would be happy to use mutation to construct the list while running mapWith . _(javascriptallonge.pdf (source-range-c98ab3e6-01138))_
+- In general, mutation makes some algorithms shorter to write and possibly faster, but harder to reason about. _(javascriptallonge.pdf (source-range-c98ab3e6-01118))_
+- Mutation is a surprisingly complex subject. _(javascriptallonge.pdf (source-range-c98ab3e6-01118))_
+- It is possible to compute anything without ever mutating an existing entity. _(javascriptallonge.pdf (source-range-c98ab3e6-01118))_
+- By this pattern, we would be happy to use mutation to construct the list while running mapWith . _(javascriptallonge.pdf (source-range-c98ab3e6-01119))_
+- One pattern many people follow is to be liberal with mutation when constructing data, but conservative with mutation when consuming data. _(javascriptallonge.pdf (source-range-c98ab3e6-01119))_
+- While we're executing the mapWith function, we're constructing a new linked list. _(javascriptallonge.pdf (source-range-c98ab3e6-01119))_
 
 ## Technical Atoms
 
 ### Atom 1: `worked-example`
 
-_Source: javascriptallonge.pdf (source-range-c98ab3e6-01139)_
+_Source: javascriptallonge.pdf (source-range-c98ab3e6-01120)_
 
 ```
 But after returning the new list, we then become conservative about mutation. This also makes sense: Linked lists often use structure sharing. For example:
@@ -42,7 +42,7 @@ But after returning the new list, we then become conservative about mutation. Th
 
 ### Atom 2: `code-block`
 
-_Source: javascriptallonge.pdf (source-range-c98ab3e6-01141)_
+_Source: javascriptallonge.pdf (source-range-c98ab3e6-01122)_
 
 ```
 const EMPTY = {};
@@ -79,7 +79,7 @@ Structure sharing like this is what makes linked lists so fast for taking everyt
 
 ### Atom 3: `code-block`
 
-_Source: javascriptallonge.pdf (source-range-c98ab3e6-01143)_
+_Source: javascriptallonge.pdf (source-range-c98ab3e6-01124)_
 
 ```
 const OneToFive = [1, 2, 3, 4, 5];
@@ -90,7 +90,7 @@ const [a, b, ...ThreeToFive] = OneToFive;
 
 ### Atom 4: `code-block`
 
-_Source: javascriptallonge.pdf (source-range-c98ab3e6-01144)_
+_Source: javascriptallonge.pdf (source-range-c98ab3e6-01125)_
 
 ```
 OneToFive
@@ -110,4 +110,4 @@ OneToFive
 ## Source Trail
 
 - Source manifest: [[javascriptallonge]]
-- Source section: [[javascriptallonge-section-mutation-mutation-and-data-structures-fe09390c]]
+- Source section: [[javascriptallonge-section-mutation-and-data-structures-1d32e744]]

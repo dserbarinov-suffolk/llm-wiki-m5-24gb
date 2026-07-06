@@ -7,7 +7,7 @@ sources: raw/javascriptallonge.pdf
 updated: 2026-07-06
 domain: javascriptallonge
 category_path: concepts
-projection_coverage: topic-javascriptallonge-mutation@a4886d4940995a2b854de9c234b80141
+projection_coverage: topic-javascriptallonge-mutation@8fb89883c0eed730db631e0f59a59bdf
 ---
 
 # Mutation
@@ -16,24 +16,24 @@ What [[javascriptallonge]] covers about mutation:
 
 ## Statements
 
-### Mutation / mutation and data structures
+### mutation and data structures
 
-- Mutation is a surprisingly complex subject. It is possible to compute anything without ever mutating an existing entity. Languages like Haskell 70 don't permit mutation at all. In general, mutation makes some algorithms shorter to write and possibly faster, but harder to reason about. _(javascriptallonge.pdf (source-range-c98ab3e6-01137))_
+- Mutation is a surprisingly complex subject. It is possible to compute anything without ever mutating an existing entity. Languages like Haskell 70 don't permit mutation at all. In general, mutation makes some algorithms shorter to write and possibly faster, but harder to reason about. _(javascriptallonge.pdf (source-range-c98ab3e6-01118))_
 
-- One pattern many people follow is to be liberal with mutation when constructing data, but conservative with mutation when consuming data. Let's recall linked lists from Plain Old JavaScript Objects. While we're executing the mapWith function, we're constructing a new linked list. By this pattern, we would be happy to use mutation to construct the list while running mapWith . _(javascriptallonge.pdf (source-range-c98ab3e6-01138))_
+- One pattern many people follow is to be liberal with mutation when constructing data, but conservative with mutation when consuming data. Let's recall linked lists from Plain Old JavaScript Objects. While we're executing the mapWith function, we're constructing a new linked list. By this pattern, we would be happy to use mutation to construct the list while running mapWith . _(javascriptallonge.pdf (source-range-c98ab3e6-01119))_
 
 
 ## Technical atoms
 
-### Technical frame 1: Mutation / mutation and data structures
+### Technical frame 1: mutation and data structures
 
-**Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01145))_
+**Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01126))_
 
 > The gathering operation [a, b, ...ThreeToFive] is slower, but 'safer. '
 
-**Atom:** _(javascriptallonge.pdf (source-range-c98ab3e6-01141))_
+**Atom:** _(javascriptallonge.pdf (source-range-c98ab3e6-01122))_
 
-<a id="atom-technical-atom-b6bfc25292976d38"></a>
+<a id="atom-technical-atom-4408b37f838af47d"></a>
 ```
 const EMPTY = {};
 const OneToFive = { first: 1,
@@ -72,11 +72,11 @@ Structure sharing like this is what makes linked lists so fast for taking everyt
 
 ### Source structure
 
-- [[javascriptallonge-section-mutation-70474364]] - source section: Mutation shares source evidence from Mutation: In JavaScript, almost every type of value can mutate . Their identities stay the same, but not their structure. Specifically, arrays and objects can mutate. Recall t ... [truncated]; Mutation shares technical record from Mutation: const oneTwoThree = [1, 2, 3]; oneTwoThree[0] = 'one'; oneTwoThree //=> [ 'one', 2, 3 ] (25 shared statement(s), 15 shared atom(s))
+- [[javascriptallonge-section-mutation-ae8039d8]] - source section: Mutation shares source evidence from Mutation: In JavaScript, almost every type of value can mutate . Their identities stay the same, but not their structure. Specifically, arrays and objects can mutate. Recall t ... [truncated]; Mutation shares technical record from Mutation: const oneTwoThree = [1, 2, 3]; oneTwoThree[0] = 'one'; oneTwoThree //=> [ 'one', 2, 3 ] (12 shared statement(s), 7 shared atom(s))
 
 ### Shared claims
 
-- [[javascriptallonge-pattern]] - shared statements: Pattern shares source evidence from Mutation / mutation and data structures: One pattern many people follow is to be liberal with mutation when constructing data, but conservative with mutation when consuming data. Let's recall linked lists f ... [truncated] (2 shared statement(s))
+- [[javascriptallonge-pattern]] - shared statements: Pattern shares source evidence from mutation and data structures: One pattern many people follow is to be liberal with mutation when constructing data, but conservative with mutation when consuming data. Let's recall linked lists f ... [truncated] (2 shared statement(s))
 
 ## Source
 

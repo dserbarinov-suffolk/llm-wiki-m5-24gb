@@ -9,7 +9,7 @@ domain: javascriptallonge
 category_path: recipes/javascriptallonge
 source_id: javascriptallonge.pdf
 aliases: recursive-iterators
-projection_coverage: recipe-javascriptallonge-recipe-recursive-iterators@3e85dc01085db53787712aed1baecc80
+projection_coverage: recipe-javascriptallonge-recipe-recursive-iterators@2982d9008b9f7a5f376587bb30ea6aa8
 ---
 
 # recursive iterators
@@ -18,23 +18,23 @@ From [[javascriptallonge]].
 
 ## Pattern
 
-- Use the source-backed pattern described in [[javascriptallonge-section-served-by-the-pot-collections-generating-iterables-recursive-iterators-8ff54b71]].
+- Use the source-backed pattern described in [[javascriptallonge-section-recursive-iterators-6eddd213]].
 - Evidence roles: decision, constraint, explanation, procedure, structured-state, example.
 
 ## Applicability And Rationale
 
-- Iterators maintain state, that's what they do. _(javascriptallonge.pdf (source-range-c98ab3e6-01632))_
-- Generators have to manage the exact same amount of state, but sometimes, it's much easier to manage that state in a generator. _(javascriptallonge.pdf (source-range-c98ab3e6-01632))_
-- elements that are not, themselves, iterable. _(javascriptallonge.pdf (source-range-c98ab3e6-01633))_
-- For example, iterating over a tree. _(javascriptallonge.pdf (source-range-c98ab3e6-01633))_
-- If you peel off isIterable and ignore the way that the iteration version uses [Symbol.iterator] and .next , we're left with the fact that the generating version calls itself recursively, and the iteration version maintains an explicit stack. _(javascriptallonge.pdf (source-range-c98ab3e6-01639))_
-- In essence, both the generation and iteration implementations have stacks, but the generation version's stack is implicit , while the iteration version's stack is explicit . _(javascriptallonge.pdf (source-range-c98ab3e6-01639))_
+- Iterators maintain state, that's what they do. _(javascriptallonge.pdf (source-range-c98ab3e6-01606))_
+- Generators have to manage the exact same amount of state, but sometimes, it's much easier to manage that state in a generator. _(javascriptallonge.pdf (source-range-c98ab3e6-01606))_
+- elements that are not, themselves, iterable. _(javascriptallonge.pdf (source-range-c98ab3e6-01607))_
+- For example, iterating over a tree. _(javascriptallonge.pdf (source-range-c98ab3e6-01607))_
+- If you peel off isIterable and ignore the way that the iteration version uses [Symbol.iterator] and .next , we're left with the fact that the generating version calls itself recursively, and the iteration version maintains an explicit stack. _(javascriptallonge.pdf (source-range-c98ab3e6-01613))_
+- In essence, both the generation and iteration implementations have stacks, but the generation version's stack is implicit , while the iteration version's stack is explicit . _(javascriptallonge.pdf (source-range-c98ab3e6-01613))_
 
 ## Technical Atoms
 
 ### Atom 1: `code-block`
 
-_Source: javascriptallonge.pdf (source-range-c98ab3e6-01634)_
+_Source: javascriptallonge.pdf (source-range-c98ab3e6-01608)_
 
 ```
 // Generation
@@ -61,7 +61,7 @@ generate([1, [2, [3, 4], 5]])
 
 ### Atom 2: `code-block`
 
-_Source: javascriptallonge.pdf (source-range-c98ab3e6-01638)_
+_Source: javascriptallonge.pdf (source-range-c98ab3e6-01612)_
 
 ```
 const isIterable = (something) =>
@@ -100,4 +100,4 @@ console.log(n)
 ## Source Trail
 
 - Source manifest: [[javascriptallonge]]
-- Source section: [[javascriptallonge-section-served-by-the-pot-collections-generating-iterables-recursive-iterators-8ff54b71]]
+- Source section: [[javascriptallonge-section-recursive-iterators-6eddd213]]

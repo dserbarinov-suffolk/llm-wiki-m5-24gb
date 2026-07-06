@@ -9,7 +9,7 @@ domain: javascriptallonge
 category_path: recipes/javascriptallonge
 source_id: javascriptallonge.pdf
 aliases: tap
-projection_coverage: recipe-javascriptallonge-recipe-tap@5b56beb7662be5f16ea3c75441cfa3a5
+projection_coverage: recipe-javascriptallonge-recipe-tap@cb21455e2e77daf9128d6d0ee33ab193
 ---
 
 # Tap
@@ -18,21 +18,21 @@ From [[javascriptallonge]].
 
 ## Pattern
 
-- Use the source-backed pattern described in [[javascriptallonge-section-recipes-with-basic-functions-tap-7702e150]].
+- Use the source-backed pattern described in [[javascriptallonge-section-tap-293f95c9]].
 - Evidence roles: decision, constraint, example.
 
 ## Applicability And Rationale
 
-- It has some surprising applications. _(javascriptallonge.pdf (source-range-c98ab3e6-00680))_
-- One is when you want to do something with a value for sideeffects, but keep the value around. _(javascriptallonge.pdf (source-range-c98ab3e6-00680))_
-- tap is a traditional name borrowed from various Unix shell commands. _(javascriptallonge.pdf (source-range-c98ab3e6-00682))_
-- tap can do more than just act as a debugging aid. _(javascriptallonge.pdf (source-range-c98ab3e6-00688))_
+- One is when you want to do something with a value for sideeffects, but keep the value around. _(javascriptallonge.pdf (source-range-c98ab3e6-00668))_
+- It has some surprising applications. _(javascriptallonge.pdf (source-range-c98ab3e6-00668))_
+- tap is a traditional name borrowed from various Unix shell commands. _(javascriptallonge.pdf (source-range-c98ab3e6-00670))_
+- tap can do more than just act as a debugging aid. _(javascriptallonge.pdf (source-range-c98ab3e6-00676))_
 
 ## Technical Atoms
 
 ### Atom 1: `code-block`
 
-_Source: javascriptallonge.pdf (source-range-c98ab3e6-00679)_
+_Source: javascriptallonge.pdf (source-range-c98ab3e6-00667)_
 
 ```
 const K = (x) => (y) => x;
@@ -40,7 +40,7 @@ const K = (x) => (y) => x;
 
 ### Atom 2: `code-block`
 
-_Source: javascriptallonge.pdf (source-range-c98ab3e6-00681)_
+_Source: javascriptallonge.pdf (source-range-c98ab3e6-00669)_
 
 ```
 const tap = (value) =>
@@ -52,7 +52,7 @@ value
 
 ### Atom 3: `code-block`
 
-_Source: javascriptallonge.pdf (source-range-c98ab3e6-00686)_
+_Source: javascriptallonge.pdf (source-range-c98ab3e6-00674)_
 
 ```
 const tap = (value, fn) => {
@@ -81,4 +81,4 @@ console.log(`Our drink is '${it}'`)
 ## Source Trail
 
 - Source manifest: [[javascriptallonge]]
-- Source section: [[javascriptallonge-section-recipes-with-basic-functions-tap-7702e150]]
+- Source section: [[javascriptallonge-section-tap-293f95c9]]

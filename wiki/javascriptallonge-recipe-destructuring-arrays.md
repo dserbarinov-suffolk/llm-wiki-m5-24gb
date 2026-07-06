@@ -9,7 +9,7 @@ domain: javascriptallonge
 category_path: recipes/javascriptallonge
 source_id: javascriptallonge.pdf
 aliases: destructuring-arrays
-projection_coverage: recipe-javascriptallonge-recipe-destructuring-arrays@c19af7161c2cd3ec2d75ff6709904f8a
+projection_coverage: recipe-javascriptallonge-recipe-destructuring-arrays@3738ea9cf70d2a49a692f49196f1f7c5
 ---
 
 # destructuring arrays
@@ -18,21 +18,21 @@ From [[javascriptallonge]].
 
 ## Pattern
 
-- Use the source-backed pattern described in [[javascriptallonge-section-composing-and-decomposing-data-arrays-and-destructuring-arguments-destructuring-arrays-b67cbb65]].
+- Use the source-backed pattern described in [[javascriptallonge-section-destructuring-arrays-70fdfed7]].
 - Evidence roles: decision, explanation, constraint, example.
 
 ## Applicability And Rationale
 
-- There is another way to extract elements from arrays: Destructuring , a feature going back to Common Lisp, if not before. _(javascriptallonge.pdf (source-range-c98ab3e6-00835))_
-- The line const wrapped = [something]; is interesting. _(javascriptallonge.pdf (source-range-c98ab3e6-00838))_
-- The statement const [something] = wrapped; destructures the array represented by wrapped , binding the value of its single element to the name something . _(javascriptallonge.pdf (source-range-c98ab3e6-00841))_
-- We could do the same thing with (name) => name[1] , but destructuring is code that resembles the data it consumes, a valuable coding style. _(javascriptallonge.pdf (source-range-c98ab3e6-00843))_
+- There is another way to extract elements from arrays: Destructuring , a feature going back to Common Lisp, if not before. _(javascriptallonge.pdf (source-range-c98ab3e6-00821))_
+- The line const wrapped = [something]; is interesting. _(javascriptallonge.pdf (source-range-c98ab3e6-00824))_
+- The statement const [something] = wrapped; destructures the array represented by wrapped , binding the value of its single element to the name something . _(javascriptallonge.pdf (source-range-c98ab3e6-00827))_
+- We could do the same thing with (name) => name[1] , but destructuring is code that resembles the data it consumes, a valuable coding style. _(javascriptallonge.pdf (source-range-c98ab3e6-00829))_
 
 ## Technical Atoms
 
 ### Atom 1: `code-block`
 
-_Source: javascriptallonge.pdf (source-range-c98ab3e6-00836)_
+_Source: javascriptallonge.pdf (source-range-c98ab3e6-00822)_
 
 ```
 const wrap = (something) => [something];
@@ -43,7 +43,7 @@ const wrapped = [something];
 
 ### Atom 2: `code-block`
 
-_Source: javascriptallonge.pdf (source-range-c98ab3e6-00837)_
+_Source: javascriptallonge.pdf (source-range-c98ab3e6-00823)_
 
 ```
 const wrap = (something) => {
@@ -56,7 +56,7 @@ wrap("package")
 
 ### Atom 3: `code-block`
 
-_Source: javascriptallonge.pdf (source-range-c98ab3e6-00840)_
+_Source: javascriptallonge.pdf (source-range-c98ab3e6-00826)_
 
 ```
 const unwrap = (wrapped) => {
@@ -69,7 +69,7 @@ unwrap(["present"])
 
 ### Atom 4: `code-block`
 
-_Source: javascriptallonge.pdf (source-range-c98ab3e6-00842)_
+_Source: javascriptallonge.pdf (source-range-c98ab3e6-00828)_
 
 ```
 const surname = (name) => {
@@ -82,7 +82,7 @@ surname(["Reginald", "Braithwaite"])
 
 ### Atom 5: `code-block`
 
-_Source: javascriptallonge.pdf (source-range-c98ab3e6-00845)_
+_Source: javascriptallonge.pdf (source-range-c98ab3e6-00831)_
 
 ```
 const description = (nameAndOccupation) => {
@@ -96,4 +96,4 @@ description([["Reginald", "Braithwaite"], "programmer"])
 ## Source Trail
 
 - Source manifest: [[javascriptallonge]]
-- Source section: [[javascriptallonge-section-composing-and-decomposing-data-arrays-and-destructuring-arguments-destructuring-arrays-b67cbb65]]
+- Source section: [[javascriptallonge-section-destructuring-arrays-70fdfed7]]

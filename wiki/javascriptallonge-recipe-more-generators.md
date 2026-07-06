@@ -9,7 +9,7 @@ domain: javascriptallonge
 category_path: recipes/javascriptallonge
 source_id: javascriptallonge.pdf
 aliases: more-generators
-projection_coverage: recipe-javascriptallonge-recipe-more-generators@c94e5966ff23c4a308b7629da402bebc
+projection_coverage: recipe-javascriptallonge-recipe-more-generators@aa11e4f18c1fad0298d8a901d2a5ad82
 ---
 
 # more generators
@@ -18,20 +18,20 @@ From [[javascriptallonge]].
 
 ## Pattern
 
-- Use the source-backed pattern described in [[javascriptallonge-section-served-by-the-pot-collections-generating-iterables-more-generators-2435cbf2]].
+- Use the source-backed pattern described in [[javascriptallonge-section-more-generators-8710183f]].
 - Evidence roles: decision, procedure, example.
 
 ## Applicability And Rationale
 
-- Our OneTwoThree example used implicit state to output the numbers in sequence. _(javascriptallonge.pdf (source-range-c98ab3e6-01716))_
-- And the generator's syntax allows us to use JavaScript's natural management of state instead of constantly rolling our own. _(javascriptallonge.pdf (source-range-c98ab3e6-01721))_
-- We've writing a function that returns an iterator, but we used a generator to do it. _(javascriptallonge.pdf (source-range-c98ab3e6-01721))_
+- Our OneTwoThree example used implicit state to output the numbers in sequence. _(javascriptallonge.pdf (source-range-c98ab3e6-01690))_
+- And the generator's syntax allows us to use JavaScript's natural management of state instead of constantly rolling our own. _(javascriptallonge.pdf (source-range-c98ab3e6-01695))_
+- We've writing a function that returns an iterator, but we used a generator to do it. _(javascriptallonge.pdf (source-range-c98ab3e6-01695))_
 
 ## Technical Atoms
 
 ### Atom 1: `code-block`
 
-_Source: javascriptallonge.pdf (source-range-c98ab3e6-01714)_
+_Source: javascriptallonge.pdf (source-range-c98ab3e6-01688)_
 
 ```
 const Numbers = {
@@ -58,7 +58,7 @@ console.log(i);
 
 ### Atom 2: `code-block`
 
-_Source: javascriptallonge.pdf (source-range-c98ab3e6-01715)_
+_Source: javascriptallonge.pdf (source-range-c98ab3e6-01689)_
 
 ```
 8
@@ -69,7 +69,7 @@ _Source: javascriptallonge.pdf (source-range-c98ab3e6-01715)_
 
 ### Atom 3: `code-block`
 
-_Source: javascriptallonge.pdf (source-range-c98ab3e6-01717)_
+_Source: javascriptallonge.pdf (source-range-c98ab3e6-01691)_
 
 ```
 const Fibonacci = {
@@ -108,7 +108,7 @@ console.log(n)
 
 ### Atom 4: `code-block`
 
-_Source: javascriptallonge.pdf (source-range-c98ab3e6-01718)_
+_Source: javascriptallonge.pdf (source-range-c98ab3e6-01692)_
 
 ```
 21
@@ -121,7 +121,7 @@ _Source: javascriptallonge.pdf (source-range-c98ab3e6-01718)_
 
 ### Atom 5: `code-block`
 
-_Source: javascriptallonge.pdf (source-range-c98ab3e6-01720)_
+_Source: javascriptallonge.pdf (source-range-c98ab3e6-01694)_
 
 ```
 const Fibonacci = {
@@ -157,7 +157,7 @@ console.log(i);
 
 ### Atom 6: `code-block`
 
-_Source: javascriptallonge.pdf (source-range-c98ab3e6-01723)_
+_Source: javascriptallonge.pdf (source-range-c98ab3e6-01697)_
 
 ```
 function * fibonacci () {
@@ -192,4 +192,4 @@ console.log(i);
 ## Source Trail
 
 - Source manifest: [[javascriptallonge]]
-- Source section: [[javascriptallonge-section-served-by-the-pot-collections-generating-iterables-more-generators-2435cbf2]]
+- Source section: [[javascriptallonge-section-more-generators-8710183f]]

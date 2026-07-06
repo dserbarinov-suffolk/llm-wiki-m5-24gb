@@ -1,7 +1,7 @@
 ---
 page_id: javascriptallonge-recipe-the-function-keyword
 page_kind: recipe
-summary: the function keyword: reusable source-backed pattern with 6 statement(s) and 4 technical atom(s) from raw/javascriptallonge.pdf.
+summary: the function keyword: reusable source-backed pattern with 16 statement(s) and 13 technical atom(s) from raw/javascriptallonge.pdf.
 page_family: recipe-pattern
 sources: raw/javascriptallonge.pdf
 updated: 2026-07-06
@@ -9,7 +9,7 @@ domain: javascriptallonge
 category_path: recipes/javascriptallonge
 source_id: javascriptallonge.pdf
 aliases: the-function-keyword
-projection_coverage: recipe-javascriptallonge-recipe-the-function-keyword@0e6c7191d1d3ba9429be4359da94528b
+projection_coverage: recipe-javascriptallonge-recipe-the-function-keyword@534f38c329cfff33f7ce8ea8742125b8
 ---
 
 # the function keyword
@@ -18,73 +18,76 @@ From [[javascriptallonge]].
 
 ## Pattern
 
-- Use the source-backed pattern described in [[javascriptallonge-section-and-also-magic-names-the-function-keyword-d04ee81a]].
-- Evidence roles: decision, procedure, constraint, example, structured-state.
+- Use the source-backed pattern described in [[javascriptallonge-section-the-function-keyword-46386b24]].
+- Evidence roles: decision, definition, explanation, constraint, procedure, example, structured-state.
 
 ## Applicability And Rationale
 
-- There are two separate rules for these 'magic' names, one for when you invoke a function using the function keyword, and another for functions defined with 'fat arrows.' We'll begin with how things work for functions defined with the function keyword. _(javascriptallonge.pdf (source-range-c98ab3e6-00602))_
-- The first magic name is this , and it is bound to something called the function's context. _(javascriptallonge.pdf (source-range-c98ab3e6-00603))_
-- The second magic name is very interesting, it's called arguments , and the most interesting thing about it is that it contains a list of arguments passed to a function: _(javascriptallonge.pdf (source-range-c98ab3e6-00603))_
-- arguments always contains all of the arguments passed to a function, regardless of how many are declared. _(javascriptallonge.pdf (source-range-c98ab3e6-00607))_
-- The most common use of the arguments binding is to build functions that can take a variable number of arguments. _(javascriptallonge.pdf (source-range-c98ab3e6-00612))_
-- We'll see it used in many of the recipes, starting off with partial application and ellipses. _(javascriptallonge.pdf (source-range-c98ab3e6-00612))_
+- JavaScript does have a syntax for naming a function, we use the function keyword. _(javascriptallonge.pdf (source-range-c98ab3e6-00488))_
+- Until ECMAScript 2015 was created, function was the usual syntax for writing functions. _(javascriptallonge.pdf (source-range-c98ab3e6-00488))_
+- Something else we're about to discuss is optional. _(javascriptallonge.pdf (source-range-c98ab3e6-00495))_
+- We have arguments in parentheses, just like fat arrow functions. _(javascriptallonge.pdf (source-range-c98ab3e6-00496))_
+- We do not have a fat arrow, we go directly to the body. _(javascriptallonge.pdf (source-range-c98ab3e6-00497))_
+- This means that if we want our functions to return a value, we always need to use the return keyword _(javascriptallonge.pdf (source-range-c98ab3e6-00498))_
 
 ## Technical Atoms
 
 ### Atom 1: `code-block`
 
-_Source: javascriptallonge.pdf (source-range-c98ab3e6-00604)_
+_Source: javascriptallonge.pdf (source-range-c98ab3e6-00490)_
 
 ```
-const plus = function (a, b) {
-return arguments[0] + arguments[1];
-}
-plus(2,3)
-//=> 5
+(str) => str + str
 ```
 
 ### Atom 2: `code-block`
 
-_Source: javascriptallonge.pdf (source-range-c98ab3e6-00606)_
+_Source: javascriptallonge.pdf (source-range-c98ab3e6-00492)_
 
 ```
-const args = function (a, b) {
-return arguments;
-}
-args(2,3)
-//=> { '0': 2, '1': 3 }
+function (str) { return str + str }
 ```
 
-### Atom 3: `code-block`
+### Atom 3: `worked-example`
 
-_Source: javascriptallonge.pdf (source-range-c98ab3e6-00609)_
+_Source: javascriptallonge.pdf (source-range-c98ab3e6-00499)_
 
 ```
-const plus = function () {
-return arguments[0] + arguments[1];
-}
-plus(2,3)
-//=> 5
+If we leave out the 'something optional' that comes after the function keyword, we can translate all of the fat arrow functions that we've seen into function keyword functions, e.g.
 ```
 
 ### Atom 4: `code-block`
 
-_Source: javascriptallonge.pdf (source-range-c98ab3e6-00611)_
+_Source: javascriptallonge.pdf (source-range-c98ab3e6-00500)_
 
 ```
-const howMany = function () {
-return arguments['length'];
+(n) => (1.618**n - -1.618**-n) / 2.236
+```
+
+### Atom 5: `code-block`
+
+_Source: javascriptallonge.pdf (source-range-c98ab3e6-00502)_
+
+```
+function (n) {
+return (1.618**n - -1.618**-n) / 2.236;
 }
-howMany()
-//=> 0
-howMany('hello')
-//=> 1
-howMany('sharks', 'are', 'apex', 'predators')
-//=> 4
+```
+
+### Atom 6: `code-block`
+
+_Source: javascriptallonge.pdf (source-range-c98ab3e6-00505)_
+
+```
+const repeat = function repeat (str) {
+return str + str;
+};
+const fib = function fib (n) {
+return (1.618**n - -1.618**-n) / 2.236;
+};
 ```
 
 ## Source Trail
 
 - Source manifest: [[javascriptallonge]]
-- Source section: [[javascriptallonge-section-and-also-magic-names-the-function-keyword-d04ee81a]]
+- Source section: [[javascriptallonge-section-the-function-keyword-46386b24]]

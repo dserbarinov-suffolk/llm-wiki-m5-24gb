@@ -9,7 +9,7 @@ domain: javascriptallonge
 category_path: recipes/javascriptallonge
 source_id: javascriptallonge.pdf
 aliases: self-currying-flip
-projection_coverage: recipe-javascriptallonge-recipe-self-currying-flip@896eb128fe6743c527059ff075cc9766
+projection_coverage: recipe-javascriptallonge-recipe-self-currying-flip@9d7483cf367b6bb49a14d9cd9d8159eb
 ---
 
 # self-currying flip
@@ -18,18 +18,18 @@ From [[javascriptallonge]].
 
 ## Pattern
 
-- Use the source-backed pattern described in [[javascriptallonge-section-recipes-with-data-flip-self-currying-flip-b193f390]].
+- Use the source-backed pattern described in [[javascriptallonge-section-self-currying-flip-afc1011e]].
 - Evidence roles: decision, example, structured-state.
 
 ## Applicability And Rationale
 
-- Sometimes we'll want to flip a function, but retain the flexibility to call it in its curried form (pass one parameter) or non-curried form (pass both). _(javascriptallonge.pdf (source-range-c98ab3e6-01461))_
+- Sometimes we'll want to flip a function, but retain the flexibility to call it in its curried form (pass one parameter) or non-curried form (pass both). _(javascriptallonge.pdf (source-range-c98ab3e6-01439))_
 
 ## Technical Atoms
 
 ### Atom 1: `code-block`
 
-_Source: javascriptallonge.pdf (source-range-c98ab3e6-01462)_
+_Source: javascriptallonge.pdf (source-range-c98ab3e6-01440)_
 
 ```
 const flip = (fn) =>
@@ -48,4 +48,4 @@ return fn(second, first);
 ## Source Trail
 
 - Source manifest: [[javascriptallonge]]
-- Source section: [[javascriptallonge-section-recipes-with-data-flip-self-currying-flip-b193f390]]
+- Source section: [[javascriptallonge-section-self-currying-flip-afc1011e]]

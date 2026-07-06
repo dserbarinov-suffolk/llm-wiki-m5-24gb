@@ -9,7 +9,7 @@ domain: javascriptallonge
 category_path: recipes/javascriptallonge
 source_id: javascriptallonge.pdf
 aliases: it-s-always-the-environment
-projection_coverage: recipe-javascriptallonge-recipe-it-s-always-the-environment@c5ffa1648d6ec5f6d58de4c605d4cdce
+projection_coverage: recipe-javascriptallonge-recipe-it-s-always-the-environment@225ae40d9e2518de900411c7e8a6e17a
 ---
 
 # it's always the environment
@@ -18,23 +18,23 @@ From [[javascriptallonge]].
 
 ## Pattern
 
-- Use the source-backed pattern described in [[javascriptallonge-section-and-also-closures-and-scope-it-s-always-the-environment-3f11c3df]].
+- Use the source-backed pattern described in [[javascriptallonge-section-it-s-always-the-environment-e193eb5b]].
 - Evidence roles: decision, explanation, constraint, structured-state, example.
 
 ## Applicability And Rationale
 
-- As we've said before, all functions are associated with an environment. _(javascriptallonge.pdf (source-range-c98ab3e6-00350))_
-- To understand how closures are evaluated, we need to revisit environments. _(javascriptallonge.pdf (source-range-c98ab3e6-00350))_
-- We also hand-waved something when describing our environment. _(javascriptallonge.pdf (source-range-c98ab3e6-00350))_
-- (x) => x is called the I Combinator, or the Identity Function . _(javascriptallonge.pdf (source-range-c98ab3e6-00353))_
-- Some people get so excited by this that they write entire books about them, some are great a , some-how shall I put this-are interesting b if you use Ruby. _(javascriptallonge.pdf (source-range-c98ab3e6-00353))_
-- (x) => (y) => x is called the K Combinator, or Kestrel . _(javascriptallonge.pdf (source-range-c98ab3e6-00353))_
+- As we've said before, all functions are associated with an environment. _(javascriptallonge.pdf (source-range-c98ab3e6-00340))_
+- To understand how closures are evaluated, we need to revisit environments. _(javascriptallonge.pdf (source-range-c98ab3e6-00340))_
+- We also hand-waved something when describing our environment. _(javascriptallonge.pdf (source-range-c98ab3e6-00340))_
+- Some people get so excited by this that they write entire books about them, some are great a , some-how shall I put this-are interesting b if you use Ruby. _(javascriptallonge.pdf (source-range-c98ab3e6-00343))_
+- (x) => x is called the I Combinator, or the Identity Function . _(javascriptallonge.pdf (source-range-c98ab3e6-00343))_
+- (x) => (y) => x is called the K Combinator, or Kestrel . _(javascriptallonge.pdf (source-range-c98ab3e6-00343))_
 
 ## Technical Atoms
 
 ### Atom 1: `code-block`
 
-_Source: javascriptallonge.pdf (source-range-c98ab3e6-00355)_
+_Source: javascriptallonge.pdf (source-range-c98ab3e6-00345)_
 
 ```
 bh
@@ -42,7 +42,7 @@ bh
 
 ### Atom 2: `code-block`
 
-_Source: javascriptallonge.pdf (source-range-c98ab3e6-00357)_
+_Source: javascriptallonge.pdf (source-range-c98ab3e6-00347)_
 
 ```
 (x) =>
@@ -52,7 +52,7 @@ _Source: javascriptallonge.pdf (source-range-c98ab3e6-00357)_
 
 ### Atom 3: `code-block`
 
-_Source: javascriptallonge.pdf (source-range-c98ab3e6-00359)_
+_Source: javascriptallonge.pdf (source-range-c98ab3e6-00349)_
 
 ```
 (x, y, z) => x + y + z
@@ -60,7 +60,7 @@ _Source: javascriptallonge.pdf (source-range-c98ab3e6-00359)_
 
 ### Atom 4: `code-block`
 
-_Source: javascriptallonge.pdf (source-range-c98ab3e6-00362)_
+_Source: javascriptallonge.pdf (source-range-c98ab3e6-00352)_
 
 ```
 ah
@@ -70,4 +70,4 @@ bh
 ## Source Trail
 
 - Source manifest: [[javascriptallonge]]
-- Source section: [[javascriptallonge-section-and-also-closures-and-scope-it-s-always-the-environment-3f11c3df]]
+- Source section: [[javascriptallonge-section-it-s-always-the-environment-e193eb5b]]

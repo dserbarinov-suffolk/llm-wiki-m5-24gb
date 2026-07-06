@@ -1,0 +1,31 @@
+---
+page_id: sword-world-rpg-complete-edition-section-12-2-2-illnesses-dance-macabre-58bbff24
+page_kind: source
+summary: 12.2.2 Illnesses / [ Dance Macabre ]: 8 source-backed entries and 0 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+page_family: section-reference
+sources: raw/Sword World RPG - Complete Edition.pdf
+updated: 2026-07-06
+domain: sword-world-rpg-complete-edition
+category_path: sources/sword-world-rpg-complete-edition/sections
+source_id: Sword World RPG - Complete Edition.pdf
+projection_coverage: section-sword-world-rpg-complete-edition-section-12-2-2-illnesses-dance-macabre-58bbff24@b9ba5071779e37750aafc96452328060
+---
+
+# 12.2.2 Illnesses / [ Dance Macabre ]
+
+From [[sword-world-rpg-complete-edition]].
+
+## Related pages
+
+### Source order
+
+- [[sword-world-rpg-complete-edition-section-12-2-2-illnesses-stone-skin-ced8c85d]] - previous source section: 12.2.2 Illnesses / [ Stone Skin ]
+- [[sword-world-rpg-complete-edition-section-12-2-2-illnesses-deep-sleep-23dd8a86]] - next source section: 12.2.2 Illnesses / [ Deep Sleep ]
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-12-2-2-illnesses-4d76e464]] - broader source section: 12.2.2 Illnesses
+
+## Statements
+
+- When a person contracts this illness, their body begins to dance on its own, regardless of their consciousness. Since the person him or herself feels festive while suffering from the illness, it's believed that this is an abnormal manifestation of the power of leprechaun, which is a mind spirit. While suffering from this illness, you'll suffer a -4 penalty to your attack power and evasion speed, and you will not be able to cast ancient magic or spirit magic. As the depth of the illness increases, the dancing becomes more intense. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-05658))_

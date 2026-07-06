@@ -10,6 +10,7 @@ disposition and a code block can become its own technical atom.
 from __future__ import annotations
 
 from dataclasses import dataclass
+from typing import Any
 
 SEGMENT_KINDS = (
     "heading",
@@ -35,6 +36,46 @@ class SourceSegment:
     segment_kind: str
     evidence_ids: tuple[str, ...] = ()
     source_element_ids: tuple[str, ...] = ()
+    source_unit_id: str = ""
+    source_block_ids: tuple[str, ...] = ()
+    source_blocks: tuple[Any, ...] = ()
+    block_kind: str = ""
+
+    @property
+    def code_text(self) -> str:
+        return "\n".join(
+            text for block in self.source_blocks if (text := getattr(block, "code_text", ""))
+        )
+
+    @property
+    def table_text(self) -> str:
+        return "\n".join(
+            text for block in self.source_blocks if (text := getattr(block, "table_text", ""))
+        )
+
+    @property
+    def formula_text(self) -> str:
+        return "\n".join(
+            text for block in self.source_blocks if (text := getattr(block, "formula_text", ""))
+        )
+
+    @property
+    def source_page_start(self) -> int:
+        starts = [
+            page
+            for block in self.source_blocks
+            if isinstance(page := getattr(block, "page_start", 0), int) and page > 0
+        ]
+        return min(starts) if starts else 0
+
+    @property
+    def source_page_end(self) -> int:
+        ends = [
+            page
+            for block in self.source_blocks
+            if isinstance(page := getattr(block, "page_end", 0), int) and page > 0
+        ]
+        return max(ends) if ends else 0
 
 
 @dataclass(frozen=True)

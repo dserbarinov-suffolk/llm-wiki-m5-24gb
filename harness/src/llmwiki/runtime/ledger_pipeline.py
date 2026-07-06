@@ -47,8 +47,7 @@ from llmwiki.domain.ledger.staged_flow import (
 from llmwiki.domain.ledger.topics import build_topic_index, plan_source_topic_result
 from llmwiki.domain.objects import Schema
 from llmwiki.domain.pages import WikiPage, slugify
-from llmwiki.pdf.document import DocumentModel
-from llmwiki.runtime.document_model_segmentation import segment_document_model
+from llmwiki.pdf.document import DocumentModel, SourceUnit
 from llmwiki.runtime.ledger_artifact_bundle import build_serialized_artifact_bundle
 from llmwiki.runtime.ledger_linked_pages import build_linked_page_projection
 from llmwiki.runtime.ledger_pages import (
@@ -58,6 +57,7 @@ from llmwiki.runtime.ledger_pages import (
 )
 from llmwiki.runtime.ledger_result import SourceLedgerResult
 from llmwiki.runtime.ledger_segmentation import ChunkText, segment_chunks
+from llmwiki.runtime.source_unit_segmentation import segment_source_units
 
 
 def build_source_ledger(
@@ -66,22 +66,23 @@ def build_source_ledger(
     source_hash: str,
     evidence_registry_hash: str,
     chunks: tuple[ChunkText, ...],
+    source_units: tuple[SourceUnit, ...] = (),
     document_model: DocumentModel | None = None,
     today: str,
     schema: Schema | None = None,
 ) -> SourceLedgerResult:
     resolved_schema = schema or Schema()
     bundle = default_schema_bundle()
-    if document_model is None:
-        inputs, profiles = segment_chunks(
-            chunks, source_locator=source_locator, source_hash=source_hash, schema=resolved_schema
-        )
-    else:
-        inputs, profiles = segment_document_model(
-            document_model,
+    if source_units:
+        inputs, profiles = segment_source_units(
+            source_units,
             source_locator=source_locator,
             source_hash=source_hash,
             schema=resolved_schema,
+        )
+    else:
+        inputs, profiles = segment_chunks(
+            chunks, source_locator=source_locator, source_hash=source_hash, schema=resolved_schema
         )
     built = build_claim_ledger(
         source_locator=source_locator,

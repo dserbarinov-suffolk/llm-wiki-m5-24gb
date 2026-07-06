@@ -34,6 +34,20 @@ _SENTENCE = re.compile(r"(?<=[.!?])\s+")
 
 
 def materialize_code_block(segment: SourceSegment) -> tuple[CodeBlockPayload, str] | None:
+    if segment.code_text.strip():
+        raw_code_text = segment.code_text.rstrip()
+        return (
+            CodeBlockPayload(
+                raw_code_text=raw_code_text,
+                parse_status="parsed",
+                source_locator=segment.source_locator,
+                language_detected=False,
+                code_fence="",
+                line_count=raw_code_text.count("\n") + 1 if raw_code_text else 0,
+                surrounding_explanation_locator=segment.source_range_id,
+            ),
+            "parsed",
+        )
     block = _fenced_block(segment.text)
     if block is None:
         return None
@@ -54,7 +68,8 @@ def materialize_code_block(segment: SourceSegment) -> tuple[CodeBlockPayload, st
 
 
 def materialize_formula(segment: SourceSegment) -> FormulaPayload | None:
-    line = formula_candidate_line(segment.text)
+    raw_formula = segment.formula_text.strip()
+    line = raw_formula or formula_candidate_line(segment.text)
     if line is None:
         return None
     has_equation = "=" in line

@@ -7,7 +7,7 @@ sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-06
 domain: sword-world-rpg-complete-edition
 category_path: concepts
-projection_coverage: topic-sword-world-rpg-complete-edition-failure@86836946b1ae004f1441b7099fc9d4b8
+projection_coverage: topic-sword-world-rpg-complete-edition-failure@1c723627a3d6ff1602a9daba655e8b5b
 ---
 
 # Failure
@@ -18,28 +18,28 @@ What [[sword-world-rpg-complete-edition]] covers about failure:
 
 ### 2.5 Difficulty Checks / 2.5.3 Analogy of Success and Failure
 
-- If a success roll is made for a difficulty check, the success or failure of the action is strictly unknown to the player. That is precisely the reason why we use difficulty checks. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01010))_
+- If a success roll is made for a difficulty check, the success or failure of the action is strictly unknown to the player. That is precisely the reason why we use difficulty checks. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-00985))_
 
-- However, a player is given only one criteria to determine whether the success roll they made for a difficulty check is a success or a failure. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01011))_
+- However, a player is given only one criteria to determine whether the success roll they made for a difficulty check is a success or a failure. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-00986))_
 
-- In particular, when a player rolls either of the two extremes, double sixes or double ones , it means automatic success or automatic failure , so that the player can clearly see whether the success roll is successful or not. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01015))_
+- In particular, when a player rolls either of the two extremes, double sixes or double ones , it means automatic success or automatic failure , so that the player can clearly see whether the success roll is successful or not. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-00990))_
 
-- It has been noted before that double sixes and double ones are automatic successes or failures and do not imply definitive successes or failures. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01018))_
+- It has been noted before that double sixes and double ones are automatic successes or failures and do not imply definitive successes or failures. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-00993))_
 
-- It is especially bad to misinterpret an automatic failure as a definitive failure. For example, if a player is trying to find a trap on a door and has rolled double ones, the game master will of course tell the player you didn't find any traps . When the player hears this, if they reply like the following, it's a prime example of this misinterpretation: Oh, I screwed up big time. Which means I can say for sure 'There are definitely no traps on this door'. And yet I'll carelessly open it and get hit. *laughs* _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01019))_
+- It is especially bad to misinterpret an automatic failure as a definitive failure. For example, if a player is trying to find a trap on a door and has rolled double ones, the game master will of course tell the player you didn't find any traps . When the player hears this, if they reply like the following, it's a prime example of this misinterpretation: Oh, I screwed up big time. Which means I can say for sure 'There are definitely no traps on this door'. And yet I'll carelessly open it and get hit. *laughs* _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-00994))_
 
 
 ## Technical atoms
 
 ### Technical frame 1: 2.5 Difficulty Checks / 2.5.3 Analogy of Success and Failure
 
-**Context:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01014))_
+**Context:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-00989))_
 
 > If the roll is low, such as 3 or 4, then there's a high chance that the success roll has failed. So, even if you examine the door and do not find any traps, you should be skeptical of the results.
 
-**Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01013))_
+**Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-00988))_
 
-<a id="atom-technical-atom-ba4efd87213b4103"></a>
+<a id="atom-technical-atom-8f0d7567777c6b3d"></a>
 > If the roll is as high as 10 or 11, the success roll is considered to have a very high chance of success.
 
 
@@ -47,7 +47,7 @@ What [[sword-world-rpg-complete-edition]] covers about failure:
 
 ### Source structure
 
-- [[sword-world-rpg-complete-edition-section-attacks-from-monsters-against-characters-failure-a13d0267]] - source section: Attacks From Monsters Against Characters / 【 Failure! 】 shares source evidence from Attacks From Monsters Against Characters / 【 Failure! 】: When making a defense roll, if your roll is double ones, that means that you've been hit extremely hard. Maybe the monster's attack hit a gap in your character's arm ... [truncated]; Attacks From Monsters Against Characters / 【 Failure! 】 shares technical record from Attacks From Monsters Against Characters / 【 Failure! 】: When making a defense roll, if your roll is double ones, that means that you've been hit extremely hard. (1 shared statement(s), 1 shared atom(s))
+- [[sword-world-rpg-complete-edition-section-failure-72886e56]] - source section: 【 Failure! 】 shares source evidence from 【 Failure! 】: When making a defense roll, if your roll is double ones, that means that you've been hit extremely hard. Maybe the monster's attack hit a gap in your character's arm ... [truncated]; 【 Failure! 】 shares technical record from 【 Failure! 】: When making a defense roll, if your roll is double ones, that means that you've been hit extremely hard. (1 shared statement(s), 1 shared atom(s))
 
 ## Source
 

@@ -9,7 +9,7 @@ domain: javascriptallonge
 category_path: recipes/javascriptallonge
 source_id: javascriptallonge.pdf
 aliases: floating
-projection_coverage: recipe-javascriptallonge-recipe-floating@44e4e9ae8fcb34a5450109b40306274f
+projection_coverage: recipe-javascriptallonge-recipe-floating@61cfb7ca2c525291b597e87d6c22f6fd
 ---
 
 # floating
@@ -18,23 +18,23 @@ From [[javascriptallonge]].
 
 ## Pattern
 
-- Use the source-backed pattern described in [[javascriptallonge-section-a-rich-aroma-basic-numbers-floating-2c36d279]].
+- Use the source-backed pattern described in [[javascriptallonge-section-floating-3aa92e13]].
 - Evidence roles: decision, constraint, explanation, example, structured-state.
 
 ## Applicability And Rationale
 
-- But we mentioned that numbers are represented internally as floating point, meaning that they need not be just integers. _(javascriptallonge.pdf (source-range-c98ab3e6-00149))_
-- We can, for example, write 1.5 or 33.33 , and JavaScript represents these literals as floating point numbers. _(javascriptallonge.pdf (source-range-c98ab3e6-00149))_
-- Most programmers never encounter the limit on the magnitude of an integer. _(javascriptallonge.pdf (source-range-c98ab3e6-00149))_
-- It's tempting to think we now have everything we need to do things like handle amounts of money, but as the late John Belushi would say, 'Nooooooooooooooooooooo.' A computer's internal representation for a floating point number is binary, while our literal number was in base ten. _(javascriptallonge.pdf (source-range-c98ab3e6-00150))_
-- This makes no meaningful difference for integers, but it does for fractions, because some fractions base 10 do not have exact representations base 2. _(javascriptallonge.pdf (source-range-c98ab3e6-00150))_
-- For example, '$43.21' will nearly always be presented as two numbers: 43 for dollars and 21 for cents, not 43.21 . _(javascriptallonge.pdf (source-range-c98ab3e6-00157))_
+- But we mentioned that numbers are represented internally as floating point, meaning that they need not be just integers. _(javascriptallonge.pdf (source-range-c98ab3e6-00143))_
+- We can, for example, write 1.5 or 33.33 , and JavaScript represents these literals as floating point numbers. _(javascriptallonge.pdf (source-range-c98ab3e6-00143))_
+- Most programmers never encounter the limit on the magnitude of an integer. _(javascriptallonge.pdf (source-range-c98ab3e6-00143))_
+- It's tempting to think we now have everything we need to do things like handle amounts of money, but as the late John Belushi would say, 'Nooooooooooooooooooooo.' A computer's internal representation for a floating point number is binary, while our literal number was in base ten. _(javascriptallonge.pdf (source-range-c98ab3e6-00144))_
+- This makes no meaningful difference for integers, but it does for fractions, because some fractions base 10 do not have exact representations base 2. _(javascriptallonge.pdf (source-range-c98ab3e6-00144))_
+- But as a rule, if you need to work with real numbers, you should have more than a nodding acquaintance with the IEEE Standard for Floating-Point Arithmetic 15 . _(javascriptallonge.pdf (source-range-c98ab3e6-00151))_
 
 ## Technical Atoms
 
 ### Atom 1: `code-block`
 
-_Source: javascriptallonge.pdf (source-range-c98ab3e6-00152)_
+_Source: javascriptallonge.pdf (source-range-c98ab3e6-00146)_
 
 ```
 1.0
@@ -47,7 +47,7 @@ _Source: javascriptallonge.pdf (source-range-c98ab3e6-00152)_
 
 ### Atom 2: `code-block`
 
-_Source: javascriptallonge.pdf (source-range-c98ab3e6-00155)_
+_Source: javascriptallonge.pdf (source-range-c98ab3e6-00149)_
 
 ```
 0.1
@@ -60,7 +60,7 @@ _Source: javascriptallonge.pdf (source-range-c98ab3e6-00155)_
 
 ### Atom 3: `worked-example`
 
-_Source: javascriptallonge.pdf (source-range-c98ab3e6-00156)_
+_Source: javascriptallonge.pdf (source-range-c98ab3e6-00150)_
 
 ```
 This kind of 'inexactitude' can be ignored when performing calculations that have an acceptable deviation. For example, when centering some text on a page, as long as the difference between what you might calculate longhand and JavaScript's calculation is less than a pixel, there is no observable error.
@@ -69,4 +69,4 @@ This kind of 'inexactitude' can be ignored when performing calculations that hav
 ## Source Trail
 
 - Source manifest: [[javascriptallonge]]
-- Source section: [[javascriptallonge-section-a-rich-aroma-basic-numbers-floating-2c36d279]]
+- Source section: [[javascriptallonge-section-floating-3aa92e13]]

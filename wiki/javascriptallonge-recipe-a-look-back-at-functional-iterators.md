@@ -9,7 +9,7 @@ domain: javascriptallonge
 category_path: recipes/javascriptallonge
 source_id: javascriptallonge.pdf
 aliases: a-look-back-at-functional-iterators
-projection_coverage: recipe-javascriptallonge-recipe-a-look-back-at-functional-iterators@e6cdea3b878f2db586b7fa2ffff45421
+projection_coverage: recipe-javascriptallonge-recipe-a-look-back-at-functional-iterators@8d3c5c57a4f64328d11d9f04a09b5b9a
 ---
 
 # a look back at functional iterators
@@ -18,21 +18,21 @@ From [[javascriptallonge]].
 
 ## Pattern
 
-- Use the source-backed pattern described in [[javascriptallonge-section-served-by-the-pot-collections-iteration-and-iterables-a-look-back-at-functional-iterators-1de825aa]].
+- Use the source-backed pattern described in [[javascriptallonge-section-a-look-back-at-functional-iterators-25c41647]].
 - Evidence roles: decision, constraint, procedure, example.
 
 ## Applicability And Rationale
 
-- We can do the same thing for objects. _(javascriptallonge.pdf (source-range-c98ab3e6-01527))_
-- We could save a step and write collectionSum , a function that folds over any object, provided that the object implements an .iterator method: _(javascriptallonge.pdf (source-range-c98ab3e6-01536))_
-- Our functions don't need to know anything about how an object implements iteration, and we get the benefit of lazily traversing our objects. _(javascriptallonge.pdf (source-range-c98ab3e6-01538))_
-- If we write a program with the presumption that 'everything is an object,' we can write maps, folds, and filters that work on objects. _(javascriptallonge.pdf (source-range-c98ab3e6-01538))_
+- We can do the same thing for objects. _(javascriptallonge.pdf (source-range-c98ab3e6-01502))_
+- We could save a step and write collectionSum , a function that folds over any object, provided that the object implements an .iterator method: _(javascriptallonge.pdf (source-range-c98ab3e6-01511))_
+- If we write a program with the presumption that 'everything is an object,' we can write maps, folds, and filters that work on objects. _(javascriptallonge.pdf (source-range-c98ab3e6-01513))_
+- Our functions don't need to know anything about how an object implements iteration, and we get the benefit of lazily traversing our objects. _(javascriptallonge.pdf (source-range-c98ab3e6-01513))_
 
 ## Technical Atoms
 
 ### Atom 1: `code-block`
 
-_Source: javascriptallonge.pdf (source-range-c98ab3e6-01528)_
+_Source: javascriptallonge.pdf (source-range-c98ab3e6-01503)_
 
 ```
 const Stack1 = () =>
@@ -76,7 +76,7 @@ stack.push("you!")
 
 ### Atom 2: `code-block`
 
-_Source: javascriptallonge.pdf (source-range-c98ab3e6-01529)_
+_Source: javascriptallonge.pdf (source-range-c98ab3e6-01504)_
 
 ```
 const iter = stack.iterator();
@@ -88,7 +88,7 @@ iter().value
 
 ### Atom 3: `code-block`
 
-_Source: javascriptallonge.pdf (source-range-c98ab3e6-01531)_
+_Source: javascriptallonge.pdf (source-range-c98ab3e6-01506)_
 
 ```
 The .iterator() method is defined with shorthand equivalent to iterator: function iterator()
@@ -105,7 +105,7 @@ object, even though we call it with iter().
 
 ### Atom 4: `code-block`
 
-_Source: javascriptallonge.pdf (source-range-c98ab3e6-01533)_
+_Source: javascriptallonge.pdf (source-range-c98ab3e6-01508)_
 
 ```
 const iteratorSum = (iterator) => {
@@ -120,7 +120,7 @@ return sum
 
 ### Atom 5: `code-block`
 
-_Source: javascriptallonge.pdf (source-range-c98ab3e6-01535)_
+_Source: javascriptallonge.pdf (source-range-c98ab3e6-01510)_
 
 ```
 const stack = Stack1();
@@ -133,7 +133,7 @@ iteratorSum(stack.iterator())
 
 ### Atom 6: `code-block`
 
-_Source: javascriptallonge.pdf (source-range-c98ab3e6-01537)_
+_Source: javascriptallonge.pdf (source-range-c98ab3e6-01512)_
 
 ```
 const collectionSum = (collection) => {
@@ -152,4 +152,4 @@ collectionSum(stack)
 ## Source Trail
 
 - Source manifest: [[javascriptallonge]]
-- Source section: [[javascriptallonge-section-served-by-the-pot-collections-iteration-and-iterables-a-look-back-at-functional-iterators-1de825aa]]
+- Source section: [[javascriptallonge-section-a-look-back-at-functional-iterators-25c41647]]

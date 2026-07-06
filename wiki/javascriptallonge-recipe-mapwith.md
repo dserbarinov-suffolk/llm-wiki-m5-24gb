@@ -9,7 +9,7 @@ domain: javascriptallonge
 category_path: recipes/javascriptallonge
 source_id: javascriptallonge.pdf
 aliases: mapwith
-projection_coverage: recipe-javascriptallonge-recipe-mapwith@d76aeee51189db65964d7cca27f70169
+projection_coverage: recipe-javascriptallonge-recipe-mapwith@321d36b577550449b39bb6a0b0436e30
 ---
 
 # mapWith
@@ -18,23 +18,23 @@ From [[javascriptallonge]].
 
 ## Pattern
 
-- Use the source-backed pattern described in [[javascriptallonge-section-recipes-with-data-mapwith-ed96bde6]].
+- Use the source-backed pattern described in [[javascriptallonge-section-mapwith-6b5ac121]].
 - Evidence roles: decision, constraint, definition, explanation, procedure, example.
 
 ## Applicability And Rationale
 
-- That means that you can pass a function to mapWith and get back a function that applies that mapping to any array. _(javascriptallonge.pdf (source-range-c98ab3e6-01432))_
-- For example, we might need a function to return the squares of an array. _(javascriptallonge.pdf (source-range-c98ab3e6-01432))_
-- If we were writing a library of functions, we would have to disambiguate the two kinds of mapping functions with special names, namespaces, or modules. _(javascriptallonge.pdf (source-range-c98ab3e6-01435))_
-- But for the purposes of discussing ideas, we can use the same name twice in two different contexts. _(javascriptallonge.pdf (source-range-c98ab3e6-01435))_
-- 82 Yes, we also used the name mapWith for working with ordinary collections elsewhere. _(javascriptallonge.pdf (source-range-c98ab3e6-01435))_
-- It's the same idea, after all. _(javascriptallonge.pdf (source-range-c98ab3e6-01435))_
+- For example, we might need a function to return the squares of an array. _(javascriptallonge.pdf (source-range-c98ab3e6-01410))_
+- That means that you can pass a function to mapWith and get back a function that applies that mapping to any array. _(javascriptallonge.pdf (source-range-c98ab3e6-01410))_
+- If we were writing a library of functions, we would have to disambiguate the two kinds of mapping functions with special names, namespaces, or modules. _(javascriptallonge.pdf (source-range-c98ab3e6-01413))_
+- 82 Yes, we also used the name mapWith for working with ordinary collections elsewhere. _(javascriptallonge.pdf (source-range-c98ab3e6-01413))_
+- But for the purposes of discussing ideas, we can use the same name twice in two different contexts. _(javascriptallonge.pdf (source-range-c98ab3e6-01413))_
+- It's the same idea, after all. _(javascriptallonge.pdf (source-range-c98ab3e6-01413))_
 
 ## Technical Atoms
 
 ### Atom 1: `worked-example`
 
-_Source: javascriptallonge.pdf (source-range-c98ab3e6-01425)_
+_Source: javascriptallonge.pdf (source-range-c98ab3e6-01403)_
 
 ```
 In JavaScript, arrays have a .map method. Map takes a function as an argument, and applies it to each of the elements of the array, then returns the results in another array. For example:
@@ -42,7 +42,7 @@ In JavaScript, arrays have a .map method. Map takes a function as an argument, a
 
 ### Atom 2: `code-block`
 
-_Source: javascriptallonge.pdf (source-range-c98ab3e6-01426)_
+_Source: javascriptallonge.pdf (source-range-c98ab3e6-01404)_
 
 ```
 [1, 2, 3, 4, 5].map(x => x * x)
@@ -51,7 +51,7 @@ _Source: javascriptallonge.pdf (source-range-c98ab3e6-01426)_
 
 ### Atom 3: `code-block`
 
-_Source: javascriptallonge.pdf (source-range-c98ab3e6-01428)_
+_Source: javascriptallonge.pdf (source-range-c98ab3e6-01406)_
 
 ```
 const map = (list, fn) =>
@@ -60,7 +60,7 @@ list.map(fn);
 
 ### Atom 4: `code-block`
 
-_Source: javascriptallonge.pdf (source-range-c98ab3e6-01430)_
+_Source: javascriptallonge.pdf (source-range-c98ab3e6-01408)_
 
 ```
 const mapWith = (fn) => (list) => list.map(fn);
@@ -68,7 +68,7 @@ const mapWith = (fn) => (list) => list.map(fn);
 
 ### Atom 5: `code-block`
 
-_Source: javascriptallonge.pdf (source-range-c98ab3e6-01433)_
+_Source: javascriptallonge.pdf (source-range-c98ab3e6-01411)_
 
 ```
 const squaresOf = (list) =>
@@ -79,7 +79,7 @@ squaresOf([1, 2, 3, 4, 5])
 
 ### Atom 6: `code-block`
 
-_Source: javascriptallonge.pdf (source-range-c98ab3e6-01436)_
+_Source: javascriptallonge.pdf (source-range-c98ab3e6-01414)_
 
 ```
 const squaresOf = mapWith(n => n * n);
@@ -90,4 +90,4 @@ squaresOf([1, 2, 3, 4, 5])
 ## Source Trail
 
 - Source manifest: [[javascriptallonge]]
-- Source section: [[javascriptallonge-section-recipes-with-data-mapwith-ed96bde6]]
+- Source section: [[javascriptallonge-section-mapwith-6b5ac121]]

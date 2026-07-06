@@ -7,7 +7,7 @@ sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-06
 domain: sword-world-rpg-complete-edition
 category_path: concepts
-projection_coverage: topic-sword-world-rpg-complete-edition-automatic-success@eee8d50c7d1513470bd8b1b6d30342a3
+projection_coverage: topic-sword-world-rpg-complete-edition-automatic-success@24e12d920665a2343c4bcf106a57d63d
 ---
 
 # Automatic Success
@@ -16,16 +16,16 @@ What [[sword-world-rpg-complete-edition]] covers about automatic success:
 
 ## Statements
 
-### 2.1 Baseline Scores / Checks / 2.3.1 Automatic Success and Automatic Failure
+### 2.3.1 Automatic Success and Automatic Failure
 
-- Basically, automatic success and automatic failure are not definitive success or definitive failure. It simply means that you succeeded or failed, not that you succeeded very well or failed very badly . _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-00967))_
+- Basically, automatic success and automatic failure are not definitive success or definitive failure. It simply means that you succeeded or failed, not that you succeeded very well or failed very badly . _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-00942))_
 
 
 ## Related pages
 
 ### Shared claims
 
-- [[sword-world-rpg-complete-edition-automatic-failure]] - shared statements: Automatic Failure shares source evidence from 2.1 Baseline Scores / Checks / 2.3.1 Automatic Success and Automatic Failure: Basically, automatic success and automatic failure are not definitive success or definitive failure. It simply means that you succeeded or failed, not that you succe ... [truncated] (1 shared statement(s))
+- [[sword-world-rpg-complete-edition-automatic-failure]] - shared statements: Automatic Failure shares source evidence from 2.3.1 Automatic Success and Automatic Failure: Basically, automatic success and automatic failure are not definitive success or definitive failure. It simply means that you succeeded or failed, not that you succe ... [truncated] (1 shared statement(s))
 
 ## Source
 

@@ -9,7 +9,7 @@ domain: javascriptallonge
 category_path: recipes/javascriptallonge
 source_id: javascriptallonge.pdf
 aliases: and-are-control-flow-operators
-projection_coverage: recipe-javascriptallonge-recipe-and-are-control-flow-operators@300a518ab23a821f4901a524178eee92
+projection_coverage: recipe-javascriptallonge-recipe-and-are-control-flow-operators@b428d945473d18c25db054e7ad6eaee8
 ---
 
 # || and && are control-flow operators
@@ -18,20 +18,20 @@ From [[javascriptallonge]].
 
 ## Pattern
 
-- Use the source-backed pattern described in [[javascriptallonge-section-picking-the-bean-choice-and-truthiness-and-are-control-flow-operators-517bcbb3]].
+- Use the source-backed pattern described in [[javascriptallonge-section-and-are-control-flow-operators-ca841bc9]].
 - Evidence roles: decision, example.
 
 ## Applicability And Rationale
 
-- We've seen the ternary operator: It is a control-flow operator, not a logical operator. _(javascriptallonge.pdf (source-range-c98ab3e6-00787))_
-- This is more than just an optimization. _(javascriptallonge.pdf (source-range-c98ab3e6-00793))_
-- The expression on the left is always evaluated, and its value determines whether the expression on the right is evaluated or not. _(javascriptallonge.pdf (source-range-c98ab3e6-00793))_
+- We've seen the ternary operator: It is a control-flow operator, not a logical operator. _(javascriptallonge.pdf (source-range-c98ab3e6-00774))_
+- The expression on the left is always evaluated, and its value determines whether the expression on the right is evaluated or not. _(javascriptallonge.pdf (source-range-c98ab3e6-00780))_
+- This is more than just an optimization. _(javascriptallonge.pdf (source-range-c98ab3e6-00780))_
 
 ## Technical Atoms
 
 ### Atom 1: `code-block`
 
-_Source: javascriptallonge.pdf (source-range-c98ab3e6-00789)_
+_Source: javascriptallonge.pdf (source-range-c98ab3e6-00776)_
 
 ```
 const even = (n) =>
@@ -43,4 +43,4 @@ even(42)
 ## Source Trail
 
 - Source manifest: [[javascriptallonge]]
-- Source section: [[javascriptallonge-section-picking-the-bean-choice-and-truthiness-and-are-control-flow-operators-517bcbb3]]
+- Source section: [[javascriptallonge-section-and-are-control-flow-operators-ca841bc9]]

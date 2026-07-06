@@ -9,7 +9,7 @@ domain: javascriptallonge
 category_path: recipes/javascriptallonge
 source_id: javascriptallonge.pdf
 aliases: why-const-and-let-were-invented
-projection_coverage: recipe-javascriptallonge-recipe-why-const-and-let-were-invented@514dbfa7338bbbb1bda304eca591cded
+projection_coverage: recipe-javascriptallonge-recipe-why-const-and-let-were-invented@9066807f28f6c52b61cb400f002ca73a
 ---
 
 # why const and let were invented
@@ -18,23 +18,23 @@ From [[javascriptallonge]].
 
 ## Pattern
 
-- Use the source-backed pattern described in [[javascriptallonge-section-reassignment-why-const-and-let-were-invented-5a788884]].
+- Use the source-backed pattern described in [[javascriptallonge-section-why-const-and-let-were-invented-218b7467]].
 - Evidence roles: decision, constraint, example.
 
 ## Applicability And Rationale
 
-- For nearly twenty years, variables were declared with var (not counting parameters and function declarations, of course). _(javascriptallonge.pdf (source-range-c98ab3e6-01197))_
-- However, its functional scope was a problem. _(javascriptallonge.pdf (source-range-c98ab3e6-01197))_
-- We haven't looked at it yet, but JavaScript provides a for loop for your iterating pleasure and convenience. _(javascriptallonge.pdf (source-range-c98ab3e6-01198))_
-- Hopefully, you can think of a faster way to calculate this sum. _(javascriptallonge.pdf (source-range-c98ab3e6-01200))_
-- 72 And perhaps you have noticed that var i = 1 is tucked away instead of being at the top as we prefer. _(javascriptallonge.pdf (source-range-c98ab3e6-01200))_
-- 72 There is a well known story about Karl Friedrich Gauss when he was in elementary school. _(javascriptallonge.pdf (source-range-c98ab3e6-01201))_
+- For nearly twenty years, variables were declared with var (not counting parameters and function declarations, of course). _(javascriptallonge.pdf (source-range-c98ab3e6-01178))_
+- However, its functional scope was a problem. _(javascriptallonge.pdf (source-range-c98ab3e6-01178))_
+- We haven't looked at it yet, but JavaScript provides a for loop for your iterating pleasure and convenience. _(javascriptallonge.pdf (source-range-c98ab3e6-01179))_
+- Hopefully, you can think of a faster way to calculate this sum. _(javascriptallonge.pdf (source-range-c98ab3e6-01181))_
+- 72 And perhaps you have noticed that var i = 1 is tucked away instead of being at the top as we prefer. _(javascriptallonge.pdf (source-range-c98ab3e6-01181))_
+- 72 There is a well known story about Karl Friedrich Gauss when he was in elementary school. _(javascriptallonge.pdf (source-range-c98ab3e6-01182))_
 
 ## Technical Atoms
 
 ### Atom 1: `code-block`
 
-_Source: javascriptallonge.pdf (source-range-c98ab3e6-01199)_
+_Source: javascriptallonge.pdf (source-range-c98ab3e6-01180)_
 
 ```
 var sum = 0;
@@ -48,4 +48,4 @@ sum
 ## Source Trail
 
 - Source manifest: [[javascriptallonge]]
-- Source section: [[javascriptallonge-section-reassignment-why-const-and-let-were-invented-5a788884]]
+- Source section: [[javascriptallonge-section-why-const-and-let-were-invented-218b7467]]

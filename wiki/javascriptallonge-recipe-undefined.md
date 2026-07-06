@@ -9,7 +9,7 @@ domain: javascriptallonge
 category_path: recipes/javascriptallonge
 source_id: javascriptallonge.pdf
 aliases: undefined
-projection_coverage: recipe-javascriptallonge-recipe-undefined@ebbe6481289b7c76aefadbced5bc737b
+projection_coverage: recipe-javascriptallonge-recipe-undefined@5bf100b907ee70f2805d78482b50e1ad
 ---
 
 # undefined
@@ -18,23 +18,23 @@ From [[javascriptallonge]].
 
 ## Pattern
 
-- Use the source-backed pattern described in [[javascriptallonge-section-or-even-the-simplest-possible-block-undefined-32c3615b]].
+- Use the source-backed pattern described in [[javascriptallonge-section-undefined-9b5a2e81]].
 - Evidence roles: decision, definition, explanation, constraint, example.
 
 ## Applicability And Rationale
 
-- In JavaScript, the absence of a value is written undefined , and it means there is no value. _(javascriptallonge.pdf (source-range-c98ab3e6-00219))_
-- It will crop up again. _(javascriptallonge.pdf (source-range-c98ab3e6-00219))_
-- Like numbers, booleans and strings, JavaScript can print out the value undefined . _(javascriptallonge.pdf (source-range-c98ab3e6-00222))_
-- No matter how you evaluate undefined , you get an identical value back. _(javascriptallonge.pdf (source-range-c98ab3e6-00224))_
-- This works because JavaScript has a feature that can infer where the semi-colons should be most of the time. _(javascriptallonge.pdf (source-range-c98ab3e6-00225))_
-- You might think that undefined in JavaScript is equivalent to NULL in SQL. _(javascriptallonge.pdf (source-range-c98ab3e6-00226))_
+- In JavaScript, the absence of a value is written undefined , and it means there is no value. _(javascriptallonge.pdf (source-range-c98ab3e6-00211))_
+- It will crop up again. _(javascriptallonge.pdf (source-range-c98ab3e6-00211))_
+- Like numbers, booleans and strings, JavaScript can print out the value undefined . _(javascriptallonge.pdf (source-range-c98ab3e6-00214))_
+- No matter how you evaluate undefined , you get an identical value back. _(javascriptallonge.pdf (source-range-c98ab3e6-00216))_
+- This works because JavaScript has a feature that can infer where the semi-colons should be most of the time. _(javascriptallonge.pdf (source-range-c98ab3e6-00217))_
+- You might think that undefined in JavaScript is equivalent to NULL in SQL. _(javascriptallonge.pdf (source-range-c98ab3e6-00218))_
 
 ## Technical Atoms
 
 ### Atom 1: `code-block`
 
-_Source: javascriptallonge.pdf (source-range-c98ab3e6-00220)_
+_Source: javascriptallonge.pdf (source-range-c98ab3e6-00212)_
 
 ```
 undefined
@@ -42,7 +42,7 @@ undefined
 
 ### Atom 2: `code-block`
 
-_Source: javascriptallonge.pdf (source-range-c98ab3e6-00221)_
+_Source: javascriptallonge.pdf (source-range-c98ab3e6-00213)_
 
 ```
 //=> undefined
@@ -50,7 +50,7 @@ _Source: javascriptallonge.pdf (source-range-c98ab3e6-00221)_
 
 ### Atom 3: `code-block`
 
-_Source: javascriptallonge.pdf (source-range-c98ab3e6-00223)_
+_Source: javascriptallonge.pdf (source-range-c98ab3e6-00215)_
 
 ```
 undefined === undefined
@@ -64,4 +64,4 @@ undefined === undefined
 ## Source Trail
 
 - Source manifest: [[javascriptallonge]]
-- Source section: [[javascriptallonge-section-or-even-the-simplest-possible-block-undefined-32c3615b]]
+- Source section: [[javascriptallonge-section-undefined-9b5a2e81]]

@@ -9,7 +9,7 @@ domain: javascriptallonge
 category_path: recipes/javascriptallonge
 source_id: javascriptallonge.pdf
 aliases: tortoises-hares-and-teleporting-turtles
-projection_coverage: recipe-javascriptallonge-recipe-tortoises-hares-and-teleporting-turtles@d7610e10393b6a23f6cece787a7b5161
+projection_coverage: recipe-javascriptallonge-recipe-tortoises-hares-and-teleporting-turtles@e620cbe908c1e2f49ee869fe5f48829e
 ---
 
 # Tortoises, Hares, and Teleporting Turtles
@@ -18,23 +18,23 @@ From [[javascriptallonge]].
 
 ## Pattern
 
-- Use the source-backed pattern described in [[javascriptallonge-section-copy-on-write-tortoises-hares-and-teleporting-turtles-86acdc05]].
+- Use the source-backed pattern described in [[javascriptallonge-section-tortoises-hares-and-teleporting-turtles-7eb6eff2]].
 - Evidence roles: decision, explanation, example.
 
 ## Applicability And Rationale
 
-- It was, 'Write an algorithm to detect a loop in a linked list, in constant space.' _(javascriptallonge.pdf (source-range-c98ab3e6-01253))_
-- This is the 'trick answer' to a question about finding a missing integer from a list, so I was trying the old, 'Transform this into a problem you've already solved 74 ' meta-algorithm. _(javascriptallonge.pdf (source-range-c98ab3e6-01255))_
-- Eventually, I came up with something and tried it (In Java!) on my home PC. _(javascriptallonge.pdf (source-range-c98ab3e6-01256))_
-- I then forgot about it for a while. _(javascriptallonge.pdf (source-range-c98ab3e6-01256))_
-- You have two node references, and one traverses the list at twice the speed of the other. _(javascriptallonge.pdf (source-range-c98ab3e6-01260))_
-- No matter how large it is, you will eventually have the fast reference equal to the slow reference, and thus you'll detect the loop. _(javascriptallonge.pdf (source-range-c98ab3e6-01260))_
+- It was, 'Write an algorithm to detect a loop in a linked list, in constant space.' _(javascriptallonge.pdf (source-range-c98ab3e6-01233))_
+- This is the 'trick answer' to a question about finding a missing integer from a list, so I was trying the old, 'Transform this into a problem you've already solved 74 ' meta-algorithm. _(javascriptallonge.pdf (source-range-c98ab3e6-01235))_
+- Eventually, I came up with something and tried it (In Java!) on my home PC. _(javascriptallonge.pdf (source-range-c98ab3e6-01236))_
+- I then forgot about it for a while. _(javascriptallonge.pdf (source-range-c98ab3e6-01236))_
+- No matter how large it is, you will eventually have the fast reference equal to the slow reference, and thus you'll detect the loop. _(javascriptallonge.pdf (source-range-c98ab3e6-01240))_
+- You have two node references, and one traverses the list at twice the speed of the other. _(javascriptallonge.pdf (source-range-c98ab3e6-01240))_
 
 ## Technical Atoms
 
 ### Atom 1: `code-block`
 
-_Source: javascriptallonge.pdf (source-range-c98ab3e6-01257)_
+_Source: javascriptallonge.pdf (source-range-c98ab3e6-01237)_
 
 ```
 const EMPTY = null;
@@ -59,7 +59,7 @@ forceAppend(list1.rest, list2);
 
 ### Atom 2: `code-block`
 
-_Source: javascriptallonge.pdf (source-range-c98ab3e6-01259)_
+_Source: javascriptallonge.pdf (source-range-c98ab3e6-01239)_
 
 ```
 }
@@ -95,7 +95,7 @@ tortoiseAndHare(aList);
 
 ### Atom 3: `code-block`
 
-_Source: javascriptallonge.pdf (source-range-c98ab3e6-01262)_
+_Source: javascriptallonge.pdf (source-range-c98ab3e6-01242)_
 
 ```
 const teleportingTurtle = (list) => {
@@ -128,4 +128,4 @@ teleportingTurtle(aList);
 ## Source Trail
 
 - Source manifest: [[javascriptallonge]]
-- Source section: [[javascriptallonge-section-copy-on-write-tortoises-hares-and-teleporting-turtles-86acdc05]]
+- Source section: [[javascriptallonge-section-tortoises-hares-and-teleporting-turtles-7eb6eff2]]

@@ -9,7 +9,7 @@ domain: javascriptallonge
 category_path: recipes/javascriptallonge
 source_id: javascriptallonge.pdf
 aliases: lazy-collection-operations
-projection_coverage: recipe-javascriptallonge-recipe-lazy-collection-operations@2550df1333e66207d98bd61a21336bd7
+projection_coverage: recipe-javascriptallonge-recipe-lazy-collection-operations@08f983ba915f76962db0715a49aa45ae
 ---
 
 # lazy collection operations
@@ -18,23 +18,23 @@ From [[javascriptallonge]].
 
 ## Pattern
 
-- Use the source-backed pattern described in [[javascriptallonge-section-lazy-and-eager-collections-lazy-collection-operations-fed63222]].
+- Use the source-backed pattern described in [[javascriptallonge-section-lazy-collection-operations-59797802]].
 - Evidence roles: decision, constraint, explanation, example, structured-state.
 
 ## Applicability And Rationale
 
-- But it can be an excellent strategy for efficiency in algorithms. _(javascriptallonge.pdf (source-range-c98ab3e6-01779))_
-- And the array is faster in practice, because it is a built-in data type that performs its work in the engine, while the linked list does its work in JavaScript. _(javascriptallonge.pdf (source-range-c98ab3e6-01782))_
-- Thus, calling .map.filter.reduce produces two temporary arrays that are discarded when .reduce performs its final computation. _(javascriptallonge.pdf (source-range-c98ab3e6-01783))_
-- They produce small iterable objects that refer back to the original iteration. _(javascriptallonge.pdf (source-range-c98ab3e6-01784))_
-- Whereas the .map and .filter methods on Pair work with iterators. _(javascriptallonge.pdf (source-range-c98ab3e6-01784))_
-- It maps to the squares of all 30 numbers, but our code for mapping an iteration returns an iterable that can iterate over the squares of our numbers, not an array or stack of the squares. _(javascriptallonge.pdf (source-range-c98ab3e6-01787))_
+- But it can be an excellent strategy for efficiency in algorithms. _(javascriptallonge.pdf (source-range-c98ab3e6-01753))_
+- And the array is faster in practice, because it is a built-in data type that performs its work in the engine, while the linked list does its work in JavaScript. _(javascriptallonge.pdf (source-range-c98ab3e6-01756))_
+- Thus, calling .map.filter.reduce produces two temporary arrays that are discarded when .reduce performs its final computation. _(javascriptallonge.pdf (source-range-c98ab3e6-01757))_
+- They produce small iterable objects that refer back to the original iteration. _(javascriptallonge.pdf (source-range-c98ab3e6-01758))_
+- Whereas the .map and .filter methods on Pair work with iterators. _(javascriptallonge.pdf (source-range-c98ab3e6-01758))_
+- This expression begins with a stack containing 30 elements. _(javascriptallonge.pdf (source-range-c98ab3e6-01761))_
 
 ## Technical Atoms
 
 ### Atom 1: `code-block`
 
-_Source: javascriptallonge.pdf (source-range-c98ab3e6-01781)_
+_Source: javascriptallonge.pdf (source-range-c98ab3e6-01755)_
 
 ```
 [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
@@ -49,7 +49,7 @@ Pair.from([1, 2, 3, 4, 5, 6, 7, 8, 9, 10])
 
 ### Atom 2: `code-block`
 
-_Source: javascriptallonge.pdf (source-range-c98ab3e6-01786)_
+_Source: javascriptallonge.pdf (source-range-c98ab3e6-01760)_
 
 ```
 Stack.from([ 0,
@@ -71,7 +71,7 @@ Stack.from([ 0,
 
 ### Atom 3: `code-block`
 
-_Source: javascriptallonge.pdf (source-range-c98ab3e6-01790)_
+_Source: javascriptallonge.pdf (source-range-c98ab3e6-01764)_
 
 ```
 Stack.from([ 0,
@@ -105,7 +105,7 @@ filtering 784
 
 ### Atom 4: `code-block`
 
-_Source: javascriptallonge.pdf (source-range-c98ab3e6-01792)_
+_Source: javascriptallonge.pdf (source-range-c98ab3e6-01766)_
 
 ```
 [ 0,
@@ -148,7 +148,7 @@ filtering 841
 
 ### Atom 5: `code-block`
 
-_Source: javascriptallonge.pdf (source-range-c98ab3e6-01795)_
+_Source: javascriptallonge.pdf (source-range-c98ab3e6-01769)_
 
 ```
 const Numbers = Object.assign({
@@ -171,4 +171,4 @@ Numbers
 ## Source Trail
 
 - Source manifest: [[javascriptallonge]]
-- Source section: [[javascriptallonge-section-lazy-and-eager-collections-lazy-collection-operations-fed63222]]
+- Source section: [[javascriptallonge-section-lazy-collection-operations-59797802]]

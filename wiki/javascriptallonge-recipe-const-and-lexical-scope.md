@@ -9,7 +9,7 @@ domain: javascriptallonge
 category_path: recipes/javascriptallonge
 source_id: javascriptallonge.pdf
 aliases: const-and-lexical-scope
-projection_coverage: recipe-javascriptallonge-recipe-const-and-lexical-scope@c1a42a552a19b36efd4d473540e20ea4
+projection_coverage: recipe-javascriptallonge-recipe-const-and-lexical-scope@53aa1ae5590a9ed1b20c8480b9c49dec
 ---
 
 # const and lexical scope
@@ -18,23 +18,23 @@ From [[javascriptallonge]].
 
 ## Pattern
 
-- Use the source-backed pattern described in [[javascriptallonge-section-and-also-that-constant-coffee-craving-const-and-lexical-scope-9bfa660a]].
+- Use the source-backed pattern described in [[javascriptallonge-section-const-and-lexical-scope-47dd57c2]].
 - Evidence roles: decision, constraint, explanation, example.
 
 ## Applicability And Rationale
 
-- This seems very straightforward, but alas, there are some semantics of binding names that we need to understand if we're to place const anywhere we like. _(javascriptallonge.pdf (source-range-c98ab3e6-00443))_
-- It's more than a bit convoluted, but it binds ((PI) => (diameter) => diameter * PI)(3.14159265) to diameter_fn and evaluates the expression that we've elided. _(javascriptallonge.pdf (source-range-c98ab3e6-00447))_
-- We can use any expression in there, and that expression can invoke diameter_fn . _(javascriptallonge.pdf (source-range-c98ab3e6-00447))_
-- We know this from the chapter on closures, but even though PI is not bound when we invoke diameter_fn by evaluating diameter_fn(2) , PI is bound when we evaluated (diameter) => diameter * PI , and thus the expression diameter * PI is able to access values for PI and diameter when we evaluate diameter_fn . _(javascriptallonge.pdf (source-range-c98ab3e6-00449))_
-- We can see that PI is bound in an environment surrounding (diameter) => diameter * PI , we don't need to know where diameter_fn is invoked. _(javascriptallonge.pdf (source-range-c98ab3e6-00450))_
-- Although we have bound 3 to PI in the environment surrounding diameter_fn(2) , the value that counts is 3.14159265 , the value we bound to PI in the environment surrounding (diameter) ⇒ diameter * PI. _(javascriptallonge.pdf (source-range-c98ab3e6-00453))_
+- This seems very straightforward, but alas, there are some semantics of binding names that we need to understand if we're to place const anywhere we like. _(javascriptallonge.pdf (source-range-c98ab3e6-00433))_
+- It's more than a bit convoluted, but it binds ((PI) => (diameter) => diameter * PI)(3.14159265) to diameter_fn and evaluates the expression that we've elided. _(javascriptallonge.pdf (source-range-c98ab3e6-00437))_
+- We can use any expression in there, and that expression can invoke diameter_fn . _(javascriptallonge.pdf (source-range-c98ab3e6-00437))_
+- We know this from the chapter on closures, but even though PI is not bound when we invoke diameter_fn by evaluating diameter_fn(2) , PI is bound when we evaluated (diameter) => diameter * PI , and thus the expression diameter * PI is able to access values for PI and diameter when we evaluate diameter_fn . _(javascriptallonge.pdf (source-range-c98ab3e6-00439))_
+- We can see that PI is bound in an environment surrounding (diameter) => diameter * PI , we don't need to know where diameter_fn is invoked. _(javascriptallonge.pdf (source-range-c98ab3e6-00440))_
+- Although we have bound 3 to PI in the environment surrounding diameter_fn(2) , the value that counts is 3.14159265 , the value we bound to PI in the environment surrounding (diameter) ⇒ diameter * PI. _(javascriptallonge.pdf (source-range-c98ab3e6-00443))_
 
 ## Technical Atoms
 
 ### Atom 1: `code-block`
 
-_Source: javascriptallonge.pdf (source-range-c98ab3e6-00446)_
+_Source: javascriptallonge.pdf (source-range-c98ab3e6-00436)_
 
 ```
 ((diameter_fn) =>
@@ -48,7 +48,7 @@ _Source: javascriptallonge.pdf (source-range-c98ab3e6-00446)_
 
 ### Atom 2: `code-block`
 
-_Source: javascriptallonge.pdf (source-range-c98ab3e6-00448)_
+_Source: javascriptallonge.pdf (source-range-c98ab3e6-00438)_
 
 ```
 ((diameter_fn) =>
@@ -63,7 +63,7 @@ diameter_fn(2)
 
 ### Atom 3: `code-block`
 
-_Source: javascriptallonge.pdf (source-range-c98ab3e6-00452)_
+_Source: javascriptallonge.pdf (source-range-c98ab3e6-00442)_
 
 ```
 ((diameter_fn) =>
@@ -80,7 +80,7 @@ diameter_fn(2)
 
 ### Atom 4: `code-block`
 
-_Source: javascriptallonge.pdf (source-range-c98ab3e6-00456)_
+_Source: javascriptallonge.pdf (source-range-c98ab3e6-00446)_
 
 ```
 ((diameter_fn) => {
@@ -98,4 +98,4 @@ return (diameter) => diameter * PI
 ## Source Trail
 
 - Source manifest: [[javascriptallonge]]
-- Source section: [[javascriptallonge-section-and-also-that-constant-coffee-craving-const-and-lexical-scope-9bfa660a]]
+- Source section: [[javascriptallonge-section-const-and-lexical-scope-47dd57c2]]

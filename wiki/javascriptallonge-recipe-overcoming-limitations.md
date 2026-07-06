@@ -9,7 +9,7 @@ domain: javascriptallonge
 category_path: recipes/javascriptallonge
 source_id: javascriptallonge.pdf
 aliases: overcoming-limitations
-projection_coverage: recipe-javascriptallonge-recipe-overcoming-limitations@590939dd23c0fff04f386aa78547a4b7
+projection_coverage: recipe-javascriptallonge-recipe-overcoming-limitations@20d430b5949328ea52c8557d609af6e6
 ---
 
 # overcoming limitations
@@ -18,19 +18,19 @@ From [[javascriptallonge]].
 
 ## Pattern
 
-- Use the source-backed pattern described in [[javascriptallonge-section-recipes-with-basic-functions-left-variadic-functions-overcoming-limitations-ac492fac]].
+- Use the source-backed pattern described in [[javascriptallonge-section-overcoming-limitations-b5da4c36]].
 - Evidence roles: decision, procedure, example.
 
 ## Applicability And Rationale
 
-- All left-variadic functions have one or more fixed arguments, and the rest are gathered into the leftmost argument. _(javascriptallonge.pdf (source-range-c98ab3e6-00730))_
-- Our leftVariadic function is a decorator that turns any function into a function that gathers parameters from the left , instead of from the right. _(javascriptallonge.pdf (source-range-c98ab3e6-00734))_
+- All left-variadic functions have one or more fixed arguments, and the rest are gathered into the leftmost argument. _(javascriptallonge.pdf (source-range-c98ab3e6-00718))_
+- Our leftVariadic function is a decorator that turns any function into a function that gathers parameters from the left , instead of from the right. _(javascriptallonge.pdf (source-range-c98ab3e6-00722))_
 
 ## Technical Atoms
 
 ### Atom 1: `code-block`
 
-_Source: javascriptallonge.pdf (source-range-c98ab3e6-00729)_
+_Source: javascriptallonge.pdf (source-range-c98ab3e6-00717)_
 
 ```
 const butLastAndLast = (...butLast, last) =>
@@ -39,7 +39,7 @@ const butLastAndLast = (...butLast, last) =>
 
 ### Atom 2: `code-block`
 
-_Source: javascriptallonge.pdf (source-range-c98ab3e6-00732)_
+_Source: javascriptallonge.pdf (source-range-c98ab3e6-00720)_
 
 ```
 const leftVariadic = (fn) => {
@@ -57,7 +57,7 @@ this, [gathered].concat(spread)
 
 ### Atom 3: `code-block`
 
-_Source: javascriptallonge.pdf (source-range-c98ab3e6-00733)_
+_Source: javascriptallonge.pdf (source-range-c98ab3e6-00721)_
 
 ```
 );
@@ -72,4 +72,4 @@ butLastAndLast('why', 'hello', 'there', 'little', 'droid')
 ## Source Trail
 
 - Source manifest: [[javascriptallonge]]
-- Source section: [[javascriptallonge-section-recipes-with-basic-functions-left-variadic-functions-overcoming-limitations-ac492fac]]
+- Source section: [[javascriptallonge-section-overcoming-limitations-b5da4c36]]

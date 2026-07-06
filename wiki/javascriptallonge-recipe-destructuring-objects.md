@@ -9,7 +9,7 @@ domain: javascriptallonge
 category_path: recipes/javascriptallonge
 source_id: javascriptallonge.pdf
 aliases: destructuring-objects
-projection_coverage: recipe-javascriptallonge-recipe-destructuring-objects@4d601d7c19d98b3e0e2e4f36f9a98bdd
+projection_coverage: recipe-javascriptallonge-recipe-destructuring-objects@08199ccd4a0c54f5d587b67031fac9e1
 ---
 
 # destructuring objects
@@ -18,19 +18,19 @@ From [[javascriptallonge]].
 
 ## Pattern
 
-- Use the source-backed pattern described in [[javascriptallonge-section-plain-old-javascript-objects-destructuring-objects-445f4e15]].
+- Use the source-backed pattern described in [[javascriptallonge-section-destructuring-objects-78d4fa14]].
 - Evidence roles: decision, example.
 
 ## Applicability And Rationale
 
-- It is very common to write things like title: title when destructuring objects. _(javascriptallonge.pdf (source-range-c98ab3e6-01095))_
-- When the label is a valid variable name, it's often the most obvious variable name as well. _(javascriptallonge.pdf (source-range-c98ab3e6-01095))_
+- When the label is a valid variable name, it's often the most obvious variable name as well. _(javascriptallonge.pdf (source-range-c98ab3e6-01079))_
+- It is very common to write things like title: title when destructuring objects. _(javascriptallonge.pdf (source-range-c98ab3e6-01079))_
 
 ## Technical Atoms
 
 ### Atom 1: `code-block`
 
-_Source: javascriptallonge.pdf (source-range-c98ab3e6-01091)_
+_Source: javascriptallonge.pdf (source-range-c98ab3e6-01075)_
 
 ```
 const user = {
@@ -59,7 +59,7 @@ title
 
 ### Atom 2: `code-block`
 
-_Source: javascriptallonge.pdf (source-range-c98ab3e6-01093)_
+_Source: javascriptallonge.pdf (source-range-c98ab3e6-01077)_
 
 ```
 } = us\
@@ -67,7 +67,7 @@ _Source: javascriptallonge.pdf (source-range-c98ab3e6-01093)_
 
 ### Atom 3: `code-block`
 
-_Source: javascriptallonge.pdf (source-range-c98ab3e6-01094)_
+_Source: javascriptallonge.pdf (source-range-c98ab3e6-01078)_
 
 ```
 const description = ({name: { first: given }, occupation: { title: title } }) =>
@@ -78,7 +78,7 @@ description(user)
 
 ### Atom 4: `code-block`
 
-_Source: javascriptallonge.pdf (source-range-c98ab3e6-01096)_
+_Source: javascriptallonge.pdf (source-range-c98ab3e6-01080)_
 
 ```
 const description = ({name: { first }, occupation: { title } }) =>
@@ -91,7 +91,7 @@ const abbrev = ({name: { first, last }, occupation: { title } }) => {
 
 ### Atom 5: `code-block`
 
-_Source: javascriptallonge.pdf (source-range-c98ab3e6-01097)_
+_Source: javascriptallonge.pdf (source-range-c98ab3e6-01081)_
 
 ```
 const abbrev = ({name: { first, last }, occupation: { title } }) =>
@@ -104,4 +104,4 @@ abbrev(user)
 ## Source Trail
 
 - Source manifest: [[javascriptallonge]]
-- Source section: [[javascriptallonge-section-plain-old-javascript-objects-destructuring-objects-445f4e15]]
+- Source section: [[javascriptallonge-section-destructuring-objects-78d4fa14]]

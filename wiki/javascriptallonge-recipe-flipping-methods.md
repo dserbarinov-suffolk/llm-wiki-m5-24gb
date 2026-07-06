@@ -9,7 +9,7 @@ domain: javascriptallonge
 category_path: recipes/javascriptallonge
 source_id: javascriptallonge.pdf
 aliases: flipping-methods
-projection_coverage: recipe-javascriptallonge-recipe-flipping-methods@99eba8d9a4007c296d0720cc7dff4a2f
+projection_coverage: recipe-javascriptallonge-recipe-flipping-methods@317bef00537b839dc03581050a6be069
 ---
 
 # flipping methods
@@ -18,18 +18,18 @@ From [[javascriptallonge]].
 
 ## Pattern
 
-- Use the source-backed pattern described in [[javascriptallonge-section-recipes-with-data-flip-flipping-methods-94c63baf]].
+- Use the source-backed pattern described in [[javascriptallonge-section-flipping-methods-bf22c9c8]].
 - Evidence roles: decision, constraint, procedure, example.
 
 ## Applicability And Rationale
 
-- When we learn about context and methods, we'll see that flip throws the current context away, so it can't be used to flip methods. _(javascriptallonge.pdf (source-range-c98ab3e6-01465))_
+- When we learn about context and methods, we'll see that flip throws the current context away, so it can't be used to flip methods. _(javascriptallonge.pdf (source-range-c98ab3e6-01443))_
 
 ## Technical Atoms
 
 ### Atom 1: `code-block`
 
-_Source: javascriptallonge.pdf (source-range-c98ab3e6-01466)_
+_Source: javascriptallonge.pdf (source-range-c98ab3e6-01444)_
 
 ```
 const flipAndCurry = (fn) =>
@@ -57,4 +57,4 @@ return fn.call(this, second, first);
 ## Source Trail
 
 - Source manifest: [[javascriptallonge]]
-- Source section: [[javascriptallonge-section-recipes-with-data-flip-flipping-methods-94c63baf]]
+- Source section: [[javascriptallonge-section-flipping-methods-bf22c9c8]]

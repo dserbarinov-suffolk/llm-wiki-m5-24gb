@@ -1,7 +1,8 @@
+from llmwiki.domain.ledger.atoms import CodeBlockPayload, FormulaPayload, TablePayload
 from llmwiki.domain.ledger.builder import build_claim_ledger, default_schema_bundle
 from llmwiki.domain.objects import Schema
-from llmwiki.pdf.document import DocumentElement, DocumentModel
-from llmwiki.runtime.document_model_segmentation import segment_document_model
+from llmwiki.pdf.document import DocumentElement, DocumentModel, SourceUnit, SourceUnitBlock
+from llmwiki.runtime.source_unit_segmentation import segment_source_units
 
 
 def _element(
@@ -38,6 +39,55 @@ def _model(elements: tuple[DocumentElement, ...]) -> DocumentModel:
     )
 
 
+def _source_units(model: DocumentModel) -> tuple[SourceUnit, ...]:
+    blocks = tuple(_block(element) for element in model.elements if element.body_state == "body")
+    return (
+        SourceUnit(
+            unit_id="unit-0001",
+            source_section_id="section-0001",
+            heading_path=blocks[0].heading_path if blocks else "Document",
+            page_start=min((block.page_start for block in blocks), default=0),
+            page_end=max((block.page_end for block in blocks), default=0),
+            element_ids=tuple(block.element_id for block in blocks),
+            blocks=blocks,
+            token_estimate=0,
+        ),
+    )
+
+
+def _block(element: DocumentElement) -> SourceUnitBlock:
+    text = (element.text or "").strip()
+    return SourceUnitBlock(
+        element_id=element.element_id,
+        block_kind=element.element_kind,
+        heading_path=element.heading_path,
+        page_start=element.page_start,
+        page_end=element.page_end,
+        text=text,
+        code_text=text if element.element_kind == "code_block" else "",
+        table_text=(element.markdown or text).strip() if element.element_kind == "table" else "",
+        formula_text=text if element.element_kind == "formula" else "",
+    )
+
+
+def _segment_model(model: DocumentModel, source_hash: str):
+    return segment_source_units(
+        _source_units(model), source_locator="generic.pdf", source_hash=source_hash, schema=Schema()
+    )
+
+
+def _ledger_for_model(model: DocumentModel, source_hash: str = "k" * 64):
+    inputs, profiles = _segment_model(model, source_hash)
+    return build_claim_ledger(
+        source_locator="generic.pdf",
+        source_hash=source_hash,
+        evidence_registry_hash="registry",
+        segments=inputs,
+        profiles=profiles,
+        schema=default_schema_bundle(),
+    ).ledger
+
+
 def test_document_model_segmentation_groups_heading_scoped_table_rows() -> None:
     model = _model(
         (
@@ -57,9 +107,7 @@ def test_document_model_segmentation_groups_heading_scoped_table_rows() -> None:
         )
     )
 
-    inputs, _profiles = segment_document_model(
-        model, source_locator="generic.pdf", source_hash="b" * 64, schema=Schema()
-    )
+    inputs, _profiles = _segment_model(model, "b" * 64)
 
     kinds = [item.segment.segment_kind for item in inputs]
     assert kinds == ["heading", "heading", "table-block", "heading"]
@@ -83,9 +131,7 @@ def test_document_model_segmentation_groups_inline_enumerated_rows() -> None:
         )
     )
 
-    inputs, _profiles = segment_document_model(
-        model, source_locator="generic.pdf", source_hash="c" * 64, schema=Schema()
-    )
+    inputs, _profiles = _segment_model(model, "c" * 64)
 
     assert [item.segment.segment_kind for item in inputs] == ["heading", "table-block"]
     assert "9 Alpha entry" in inputs[1].segment.text
@@ -103,9 +149,7 @@ def test_document_model_segmentation_preserves_table_section_heading_for_structu
         )
     )
 
-    inputs, profiles = segment_document_model(
-        model, source_locator="generic.pdf", source_hash="g" * 64, schema=Schema()
-    )
+    inputs, profiles = _segment_model(model, "g" * 64)
     result = build_claim_ledger(
         source_locator="generic.pdf",
         source_hash="g" * 64,
@@ -140,9 +184,7 @@ def test_document_model_segmentation_keeps_wrapped_numbered_table_together() -> 
         )
     )
 
-    inputs, _profiles = segment_document_model(
-        model, source_locator="generic.pdf", source_hash="i" * 64, schema=Schema()
-    )
+    inputs, _profiles = _segment_model(model, "i" * 64)
 
     assert [item.segment.segment_kind for item in inputs] == [
         "heading",
@@ -163,9 +205,7 @@ def test_document_model_segmentation_keeps_table_caption_as_atom_text_only() -> 
         )
     )
 
-    inputs, _profiles = segment_document_model(
-        model, source_locator="generic.pdf", source_hash="h" * 64, schema=Schema()
-    )
+    inputs, _profiles = _segment_model(model, "h" * 64)
 
     assert [item.segment.segment_kind for item in inputs] == ["table-block"]
     assert inputs[0].segment.text.startswith("Table- Sample Matrix")
@@ -187,9 +227,7 @@ def test_document_model_segmentation_does_not_cross_heading_path_into_recovered_
         )
     )
 
-    inputs, _profiles = segment_document_model(
-        model, source_locator="generic.pdf", source_hash="j" * 64, schema=Schema()
-    )
+    inputs, _profiles = _segment_model(model, "j" * 64)
 
     assert [item.segment.segment_kind for item in inputs] == [
         "heading",
@@ -213,9 +251,7 @@ def test_document_model_segmentation_groups_range_value_rows() -> None:
         )
     )
 
-    inputs, _profiles = segment_document_model(
-        model, source_locator="generic.pdf", source_hash="f" * 64, schema=Schema()
-    )
+    inputs, _profiles = _segment_model(model, "f" * 64)
 
     assert [item.segment.segment_kind for item in inputs] == ["table-block"]
 
@@ -233,9 +269,7 @@ def test_document_model_segmentation_rejects_incidental_prose_numbers_as_table()
         )
     )
 
-    inputs, _profiles = segment_document_model(
-        model, source_locator="generic.pdf", source_hash="d" * 64, schema=Schema()
-    )
+    inputs, _profiles = _segment_model(model, "d" * 64)
 
     assert [item.segment.segment_kind for item in inputs] == ["paragraph"]
 
@@ -243,10 +277,78 @@ def test_document_model_segmentation_rejects_incidental_prose_numbers_as_table()
 def test_document_model_segmentation_preserves_body_picture_as_figure() -> None:
     model = _model((_element("e1", "picture", "Illustrations", "", page=2),))
 
-    inputs, _profiles = segment_document_model(
-        model, source_locator="generic.pdf", source_hash="e" * 64, schema=Schema()
-    )
+    inputs, _profiles = _segment_model(model, "e" * 64)
 
     assert [item.segment.segment_kind for item in inputs] == ["figure"]
     assert inputs[0].segment.source_element_ids == ("e1",)
     assert inputs[0].segment.text == "[Figure] (p.2)"
+
+
+def test_source_unit_code_block_becomes_one_exact_code_atom() -> None:
+    model = _model(
+        (
+            _element("e1", "paragraph", "Arrays", "Use this example to index an array."),
+            _element(
+                "e2",
+                "code_block",
+                "Arrays",
+                "scores := [3]int{1, 2, 3}\nfmt.Println(scores[0])",
+            ),
+        )
+    )
+
+    ledger = _ledger_for_model(model)
+    atoms = [atom for atom in ledger.technical_atoms if atom.technical_atom_kind == "code-block"]
+
+    assert len(atoms) == 1
+    payload = atoms[0].payload
+    assert isinstance(payload, CodeBlockPayload)
+    assert payload.raw_code_text == "scores := [3]int{1, 2, 3}\nfmt.Println(scores[0])"
+    assert payload.line_count == 2
+    assert atoms[0].source_unit_id == "unit-0001"
+    assert atoms[0].source_block_ids == ("e2",)
+    assert atoms[0].source_element_ids == ("e2",)
+    assert atoms[0].source_page_start == 1
+    assert atoms[0].source_page_end == 1
+    context = next(
+        context
+        for context in ledger.technical_atom_contexts
+        if context.technical_atom_id == atoms[0].technical_atom_id
+    )
+    assert context.context_text == "Use this example to index an array."
+
+
+def test_source_unit_table_block_becomes_one_exact_table_atom() -> None:
+    model = _model(
+        (
+            _element("e1", "paragraph", "Armor", "The following table lists armor statistics."),
+            _element(
+                "e2",
+                "table",
+                "Armor",
+                "| Armor | Strength |\n| --- | --- |\n| Mail | 12 |",
+            ),
+        )
+    )
+
+    ledger = _ledger_for_model(model, "l" * 64)
+    atoms = [atom for atom in ledger.technical_atoms if atom.technical_atom_kind == "table"]
+
+    assert len(atoms) == 1
+    payload = atoms[0].payload
+    assert isinstance(payload, TablePayload)
+    assert payload.raw_table_text == "| Armor | Strength |\n| --- | --- |\n| Mail | 12 |"
+    assert len(payload.cells) == 2
+    assert atoms[0].source_block_ids == ("e2",)
+
+
+def test_source_unit_formula_block_becomes_one_exact_formula_atom() -> None:
+    model = _model((_element("e1", "formula", "Damage", "total = base + modifier"),))
+
+    ledger = _ledger_for_model(model, "m" * 64)
+    atoms = [atom for atom in ledger.technical_atoms if atom.technical_atom_kind == "formula"]
+
+    assert len(atoms) == 1
+    assert isinstance(atoms[0].payload, FormulaPayload)
+    assert atoms[0].payload.raw_formula_text == "total = base + modifier"
+    assert atoms[0].source_block_ids == ("e1",)

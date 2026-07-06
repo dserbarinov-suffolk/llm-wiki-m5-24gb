@@ -1,13 +1,13 @@
 ---
 page_id: javascriptallonge-operation
 page_kind: concept
-summary: Operation: 4 statement(s) and 5 atom(s) from raw/javascriptallonge.pdf.
+summary: Operation: 4 statement(s) and 4 atom(s) from raw/javascriptallonge.pdf.
 page_family: topic-concept
 sources: raw/javascriptallonge.pdf
 updated: 2026-07-06
 domain: javascriptallonge
 category_path: concepts
-projection_coverage: topic-javascriptallonge-operation@1a63624517237e7ab54b7fef7f55f078
+projection_coverage: topic-javascriptallonge-operation@90d651393de0b2e39df694c1814078f3
 ---
 
 # Operation
@@ -16,46 +16,32 @@ What [[javascriptallonge]] covers about operation:
 
 ## Statements
 
-### Recipes with Basic Functions / Maybe
+### Maybe
 
-- If some code ever tries to call model.setSomething with nothing, the operation will be skipped. _(javascriptallonge.pdf (source-range-c98ab3e6-00703))_
+- If some code ever tries to call model.setSomething with nothing, the operation will be skipped. _(javascriptallonge.pdf (source-range-c98ab3e6-00691))_
 
-### Mutation / mutation and data structures
+### mutation and data structures
 
-- The gathering operation [a, b, ...ThreeToFive] is slower, but 'safer. ' _(javascriptallonge.pdf (source-range-c98ab3e6-01145))_
+- The gathering operation [a, b, ...ThreeToFive] is slower, but 'safer. ' _(javascriptallonge.pdf (source-range-c98ab3e6-01126))_
 
-### Served by the Pot: Collections / Iteration and Iterables / operations on ordered collections
+### operations on ordered collections
 
-- Many operations on ordered collections return another ordered collection. They do so by taking care to iterate over a result freshly every time we get an iterator for them. Consider this example for mapWith : _(javascriptallonge.pdf (source-range-c98ab3e6-01586))_
+- Many operations on ordered collections return another ordered collection. They do so by taking care to iterate over a result freshly every time we get an iterator for them. Consider this example for mapWith : _(javascriptallonge.pdf (source-range-c98ab3e6-01561))_
 
-- like our other operations, rest preserves the ordered collection semantics of its argument. _(javascriptallonge.pdf (source-range-c98ab3e6-01604))_
+- like our other operations, rest preserves the ordered collection semantics of its argument. _(javascriptallonge.pdf (source-range-c98ab3e6-01579))_
 
 
 ## Technical atoms
 
-### Technical frame 1: Copy on Write / Functional Iterators / bonus
+### Technical frame 1: operations on ordered collections
 
-**Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01314))_
-
-> This is interesting, because it is lazy: It doesn't apply fn to every element in an iteration, just enough to find the first that passes the test. Whereas if we wrote something like:
-
-**Atom:** _(javascriptallonge.pdf (source-range-c98ab3e6-01313))_
-
-<a id="atom-technical-atom-cabc945d7488f343"></a>
-```
-const firstInIteration = (fn, iterator) =>
-take(filterIteratorWith(fn, iterator), 1);
-```
-
-### Technical frame 2: Served by the Pot: Collections / Iteration and Iterables / operations on ordered collections
-
-**Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01585))_
+**Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01560))_
 
 > This illustrates the general pattern of working with ordered collections: We make them iterables , meaning that they have a [Symbol.iterator] method, that returns an iterator . An iterator is also an object, but with a .next() method that is invoked repeatedly to obtain the elements in order.
 
-**Atom:** _(javascriptallonge.pdf (source-range-c98ab3e6-01584))_
+**Atom:** _(javascriptallonge.pdf (source-range-c98ab3e6-01559))_
 
-<a id="atom-technical-atom-19620cdc755028a4"></a>
+<a id="atom-technical-atom-db03dd1e259d128a"></a>
 ```
 const mapWith = (fn, collection) =>
 ({
@@ -71,15 +57,15 @@ return ({done, value: done ? undefined : fn(value)});
 });
 ```
 
-### Technical frame 3: Served by the Pot: Collections / Iteration and Iterables / operations on ordered collections
+### Technical frame 2: operations on ordered collections
 
-**Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01588))_
+**Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01563))_
 
 > Numbers is an ordered collection. We invoke mapWith((x) => 2 * x, Numbers) and get Evens . Evens works just as if we'd written this:
 
-**Atom:** _(javascriptallonge.pdf (source-range-c98ab3e6-01587))_
+**Atom:** _(javascriptallonge.pdf (source-range-c98ab3e6-01562))_
 
-<a id="atom-technical-atom-86622dd19fa643c9"></a>
+<a id="atom-technical-atom-c1f35f3a09f6c9fd"></a>
 ```
 const Evens = mapWith((x) => 2 * x, Numbers);
 for (const i of Evens) {
@@ -100,15 +86,15 @@ console.log(i)
 ...
 ```
 
-### Technical frame 4: Served by the Pot: Collections / Iteration and Iterables / operations on ordered collections
+### Technical frame 3: operations on ordered collections
 
-**Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01598))_
+**Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01573))_
 
 > Like mapWith , they preserve the ordered collection semantics of whatever you give them.
 
-**Atom:** _(javascriptallonge.pdf (source-range-c98ab3e6-01597))_
+**Atom:** _(javascriptallonge.pdf (source-range-c98ab3e6-01572))_
 
-<a id="atom-technical-atom-61f2d4db64704613"></a>
+<a id="atom-technical-atom-1fc62d987d78a896"></a>
 ```
 const filterWith = (fn, iterable) =>
 ({
@@ -139,15 +125,15 @@ return ({done, value: done ? undefined : value});
 });
 ```
 
-### Technical frame 5: Served by the Pot: Collections / Iteration and Iterables / operations on ordered collections
+### Technical frame 4: operations on ordered collections
 
-**Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01601))_
+**Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01576))_
 
 > As we expect from an ordered collection, each time we iterate over UpTo1000 , we begin at the beginning.
 
-**Atom:** _(javascriptallonge.pdf (source-range-c98ab3e6-01600))_
+**Atom:** _(javascriptallonge.pdf (source-range-c98ab3e6-01575))_
 
-<a id="atom-technical-atom-e2a752f12709e0f1"></a>
+<a id="atom-technical-atom-dbfe25dcdf43f6cb"></a>
 ```
 const Squares = mapWith((x) => x * x, Numbers);
 const EndWithOne = filterWith((x) => x % 10 === 1, Squares);
@@ -165,14 +151,8 @@ const UpTo1000 = untilWith((x) => (x > 1000), EndWithOne);
 
 ### Shared technical atoms
 
-- [[javascriptallonge-collection]] - shared technical atoms: Collection shares technical record from Served by the Pot: Collections / Iteration and Iterables / operations on ordered collections: const mapWith = (fn, collection) => ({ [Symbol.iterator] () { const iterator = collection[Symbol.iterator](); return { next () { const {done, value} = iterator.next( ... [truncated] (4 shared atom(s))
-- [[javascriptallonge-iteration]] - shared technical atoms: Iteration shares technical record from Served by the Pot: Collections / Iteration and Iterables / operations on ordered collections: const mapWith = (fn, collection) => ({ [Symbol.iterator] () { const iterator = collection[Symbol.iterator](); return { next () { const {done, value} = iterator.next( ... [truncated] (4 shared atom(s))
-- [[javascriptallonge-iterator]] - shared technical atoms: Iterator shares technical record from Served by the Pot: Collections / Iteration and Iterables / operations on ordered collections: const mapWith = (fn, collection) => ({ [Symbol.iterator] () { const iterator = collection[Symbol.iterator](); return { next () { const {done, value} = iterator.next( ... [truncated] (2 shared atom(s))
-- [[javascriptallonge-return]] - shared technical atoms: Return shares technical record from Served by the Pot: Collections / Iteration and Iterables / operations on ordered collections: const mapWith = (fn, collection) => ({ [Symbol.iterator] () { const iterator = collection[Symbol.iterator](); return { next () { const {done, value} = iterator.next( ... [truncated] (2 shared atom(s))
-- [[javascriptallonge-copy-write]] - shared technical atoms: Copy on Write shares technical record from Copy on Write / Functional Iterators / bonus: const firstInIteration = (fn, iterator) => take(filterIteratorWith(fn, iterator), 1); (1 shared atom(s))
-- [[javascriptallonge-element]] - shared technical atoms: Element shares technical record from Copy on Write / Functional Iterators / bonus: const firstInIteration = (fn, iterator) => take(filterIteratorWith(fn, iterator), 1); (1 shared atom(s))
-- [[javascriptallonge-functional-iterator]] - shared technical atoms: Functional Iterators shares technical record from Copy on Write / Functional Iterators / bonus: const firstInIteration = (fn, iterator) => take(filterIteratorWith(fn, iterator), 1); (1 shared atom(s))
-- [[javascriptallonge-javascript]] - shared technical atoms: Javascript shares technical record from Copy on Write / Functional Iterators / bonus: const firstInIteration = (fn, iterator) => take(filterIteratorWith(fn, iterator), 1); (1 shared atom(s))
+- [[javascriptallonge-iterator]] - shared technical atoms: Iterator shares technical record from operations on ordered collections: const mapWith = (fn, collection) => ({ [Symbol.iterator] () { const iterator = collection[Symbol.iterator](); return { next () { const {done, value} = iterator.next( ... [truncated] (2 shared atom(s))
+- [[javascriptallonge-return]] - shared technical atoms: Return shares technical record from operations on ordered collections: const mapWith = (fn, collection) => ({ [Symbol.iterator] () { const iterator = collection[Symbol.iterator](); return { next () { const {done, value} = iterator.next( ... [truncated] (2 shared atom(s))
 
 ## Source
 

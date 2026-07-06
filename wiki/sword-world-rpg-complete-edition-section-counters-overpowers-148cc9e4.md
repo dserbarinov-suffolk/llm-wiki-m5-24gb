@@ -1,0 +1,55 @@
+---
+page_id: sword-world-rpg-complete-edition-section-counters-overpowers-148cc9e4
+page_kind: source
+summary: 《 Counters (Overpowers) 》: 22 source-backed entries and 1 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+page_family: section-reference
+sources: raw/Sword World RPG - Complete Edition.pdf
+updated: 2026-07-06
+domain: sword-world-rpg-complete-edition
+category_path: sources/sword-world-rpg-complete-edition/sections
+source_id: Sword World RPG - Complete Edition.pdf
+projection_coverage: section-sword-world-rpg-complete-edition-section-counters-overpowers-148cc9e4@a231cf2f863ab4c08c94d171655e0d35
+---
+
+# 《 Counters (Overpowers) 》
+
+From [[sword-world-rpg-complete-edition]].
+
+## Related pages
+
+### Source order
+
+- [[sword-world-rpg-complete-edition-section-counters-negates-a9403963]] - previous source section: 《 Counters (Negates) 》
+- [[sword-world-rpg-complete-edition-section-mind-efd3f972]] - next source section: 《 Mind 》
+
+## Statements
+
+- When certain magic is cast against other magic, it can cancel the effect of the prior magic but still take its own effect afterwards. This is magic of the counters (overpowers): type. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01718))_
+- For example, the ancient magic Darkness can nullify the effects of the spirit magic Will-O-Wisp and still close the surrounding area in darkness, which means Darkness itself is more effective. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01719))_
+- However, this is often not automatic. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01720))_
+- One, is when the target resists . In the case of magic that does not take effect if resisted, if the target does resist it, the magic will not take its effect, and the effect of the prior magic will continue. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01721))_
+- The other, is when the prior magic has a target score . In this case, according to the definition of magic with a target score , the magic cast after will not take effect unless its final score is greater than or equal to the determined target score . _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01722))_
+- If the magic cast prior has a target score and the magic cast after is resistible , please follow the procedure below to make a check. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01723))_
+- ② Next, the one casting the magic must roll 2D to find their final score (by adding their magic power). _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01725))_
+- ③ Compare target score in ① with fi nal score in ② . If the final score does not reach the target score, the magic will not be cast. This ends here. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01726))_
+- ④ If fi nal score in ② is greater than or equal to target score in ① , the target may attempt to resist . The resist target score equals the fi nal score in ② . _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01727))_
+- ⑤ If the target successfully resisted in ④ , the new magic cast will not take effect. The effect of the prior magic will continue. If the target failed to resist , the new magic cast will take effect and the effect of the prior magic will be negated . _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01728))_
+- Counters (overpowers): magic does not mean that certain magic is definitely stronger than other magic. It's possible for magic A to counter (overpower) magic B, and at the same time for magic B to counter (overpower) magic A. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01729))_
+- Also, all magic counters (overpowers) itself. Therefore, if certain magic takes effect, and you cast that same magic on the same target multiple times, the effect will not be cumulative. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01730))_
+- For example, the ancient magic Darkness can nullify the effects of the spirit magic Will-O-Wisp and still close the surrounding area in darkness, which means Darkness itself is more effective. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01719))_
+- In this case, according to the definition of magic with a target score , the magic cast after will not take effect unless its final score is greater than or equal to the determined target score . _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01722))_
+- If the magic cast prior has a target score and the magic cast after is resistible , please follow the procedure below to make a check. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01723))_
+- Therefore, if certain magic takes effect, and you cast that same magic on the same target multiple times, the effect will not be cumulative. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01730))_
+
+## Technical atoms
+
+### Technical frame 1: 《 Counters (Overpowers) 》
+
+**Context:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01729))_
+
+> Counters (overpowers): magic does not mean that certain magic is definitely stronger than other magic. It's possible for magic A to counter (overpower) magic B, and at the same time for magic B to counter (overpower) magic A.
+
+**Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01728))_
+
+<a id="atom-technical-atom-1a694bc93ae3c20a"></a>
+> ⑤ If the target successfully resisted in ④ , the new magic cast will not take effect.

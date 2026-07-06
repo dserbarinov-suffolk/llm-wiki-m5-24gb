@@ -156,6 +156,11 @@ class TechnicalAtom:
     evidence_ids: tuple[str, ...]
     parse_status: str = "parsed"
     review_reason: ReviewReason | None = None
+    source_unit_id: str = ""
+    source_block_ids: tuple[str, ...] = ()
+    source_element_ids: tuple[str, ...] = ()
+    source_page_start: int = 0
+    source_page_end: int = 0
 
 
 @dataclass(frozen=True)
@@ -171,6 +176,11 @@ class AtomCandidate:
     source_range_id: str
     feature_signal_ids: tuple[str, ...] = ()
     evidence_ids: tuple[str, ...] = ()
+    source_unit_id: str = ""
+    source_block_ids: tuple[str, ...] = ()
+    source_element_ids: tuple[str, ...] = ()
+    source_page_start: int = 0
+    source_page_end: int = 0
     payload: AtomPayload | None = None
     review_reason: ReviewReason | None = None
     validation_status: str = ""

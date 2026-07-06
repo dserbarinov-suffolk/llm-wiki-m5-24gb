@@ -7,7 +7,7 @@ sources: raw/javascriptallonge.pdf
 updated: 2026-07-06
 domain: javascriptallonge
 category_path: concepts
-projection_coverage: topic-javascriptallonge-body@cb0deedfeb4f7e1ee70e5fe00d2283f9
+projection_coverage: topic-javascriptallonge-body@f1f6bc33de5942de05367a7b5754d7d3
 ---
 
 # Body
@@ -16,31 +16,31 @@ What [[javascriptallonge]] covers about body:
 
 ## Statements
 
-### And also: / Summary / Functions
+### Functions
 
-- Function bodies have zero or more statements. _(javascriptallonge.pdf (source-range-c98ab3e6-00638))_
+- Function bodies have zero or more statements. _(javascriptallonge.pdf (source-range-c98ab3e6-00627))_
 
-- Block bodies evaluate to whatever is returned with the return keyword, or to undefined . _(javascriptallonge.pdf (source-range-c98ab3e6-00640))_
+- Block bodies evaluate to whatever is returned with the return keyword, or to undefined . _(javascriptallonge.pdf (source-range-c98ab3e6-00629))_
 
-### Served by the Pot: Collections / Generating Iterables / generators are coroutines
+### generators are coroutines
 
-- When we call interator.next() , the body of our generator begins to be evaluated. _(javascriptallonge.pdf (source-range-c98ab3e6-01678))_
+- When we call interator.next() , the body of our generator begins to be evaluated. _(javascriptallonge.pdf (source-range-c98ab3e6-01652))_
 
-- The body of our generator runs until it returns, ends, or encounters a yield statement, which is yield 1; . _(javascriptallonge.pdf (source-range-c98ab3e6-01679))_
+- The body of our generator runs until it returns, ends, or encounters a yield statement, which is yield 1; . _(javascriptallonge.pdf (source-range-c98ab3e6-01653))_
 
-- The body of our generator runs until it returns, ends, or encounters the next yield statement, which is yield 2; . _(javascriptallonge.pdf (source-range-c98ab3e6-01684))_
+- The body of our generator runs until it returns, ends, or encounters the next yield statement, which is yield 2; . _(javascriptallonge.pdf (source-range-c98ab3e6-01658))_
 
-- The body of our generator runs until it returns, ends, or encounters the next yield statement, which is yield 3; . _(javascriptallonge.pdf (source-range-c98ab3e6-01689))_
+- The body of our generator runs until it returns, ends, or encounters the next yield statement, which is yield 3; . _(javascriptallonge.pdf (source-range-c98ab3e6-01663))_
 
-- The body of our generator runs until it returns, ends, or encounters the next yield statement. There are no more lines of code, so it ends. _(javascriptallonge.pdf (source-range-c98ab3e6-01694))_
+- The body of our generator runs until it returns, ends, or encounters the next yield statement. There are no more lines of code, so it ends. _(javascriptallonge.pdf (source-range-c98ab3e6-01668))_
 
 
 ## Related pages
 
 ### Shared claims
 
-- [[javascriptallonge-return]] - shared statements: Return shares source evidence from Served by the Pot: Collections / Generating Iterables / generators are coroutines: The body of our generator runs until it returns, ends, or encounters a yield statement, which is yield 1; . (4 shared statement(s))
-- [[javascriptallonge-evaluate]] - shared statements: Evaluate shares source evidence from And also: / Summary / Functions: Block bodies evaluate to whatever is returned with the return keyword, or to undefined . (1 shared statement(s))
+- [[javascriptallonge-return]] - shared statements: Return shares source evidence from generators are coroutines: The body of our generator runs until it returns, ends, or encounters a yield statement, which is yield 1; . (4 shared statement(s))
+- [[javascriptallonge-evaluate]] - shared statements: Evaluate shares source evidence from Functions: Block bodies evaluate to whatever is returned with the return keyword, or to undefined . (1 shared statement(s))
 
 ## Source
 

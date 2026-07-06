@@ -9,7 +9,7 @@ domain: javascriptallonge
 category_path: recipes/javascriptallonge
 source_id: javascriptallonge.pdf
 aliases: partial-application
-projection_coverage: recipe-javascriptallonge-recipe-partial-application@74c46c9229cbc1a94f39b7ba6613fcce
+projection_coverage: recipe-javascriptallonge-recipe-partial-application@38d89b41b620bcacae4e134ebe7d7bb0
 ---
 
 # partial application
@@ -18,23 +18,23 @@ From [[javascriptallonge]].
 
 ## Pattern
 
-- Use the source-backed pattern described in [[javascriptallonge-section-and-also-building-blocks-partial-application-1e6ee216]].
+- Use the source-backed pattern described in [[javascriptallonge-section-partial-application-07e1bcae]].
 - Evidence roles: decision, constraint, example, structured-state.
 
 ## Applicability And Rationale
 
-- In that case, we can't get the final value, but we can get a function that represents part of our application. _(javascriptallonge.pdf (source-range-c98ab3e6-00586))_
-- Another basic building block is partial application . _(javascriptallonge.pdf (source-range-c98ab3e6-00586))_
-- Code is easier than words for this. _(javascriptallonge.pdf (source-range-c98ab3e6-00587))_
-- The Underscore 39 library provides a higher-order function called map . _(javascriptallonge.pdf (source-range-c98ab3e6-00587))_
-- We can abstract this one level higher. _(javascriptallonge.pdf (source-range-c98ab3e6-00592))_
-- The resulting functionsquareAll -is still the map function, it's just that we've applied one of its two arguments already. _(javascriptallonge.pdf (source-range-c98ab3e6-00592))_
+- In that case, we can't get the final value, but we can get a function that represents part of our application. _(javascriptallonge.pdf (source-range-c98ab3e6-00576))_
+- Another basic building block is partial application . _(javascriptallonge.pdf (source-range-c98ab3e6-00576))_
+- Code is easier than words for this. _(javascriptallonge.pdf (source-range-c98ab3e6-00577))_
+- The Underscore 39 library provides a higher-order function called map . _(javascriptallonge.pdf (source-range-c98ab3e6-00577))_
+- We can abstract this one level higher. _(javascriptallonge.pdf (source-range-c98ab3e6-00582))_
+- The resulting functionsquareAll -is still the map function, it's just that we've applied one of its two arguments already. _(javascriptallonge.pdf (source-range-c98ab3e6-00582))_
 
 ## Technical Atoms
 
 ### Atom 1: `code-block`
 
-_Source: javascriptallonge.pdf (source-range-c98ab3e6-00588)_
+_Source: javascriptallonge.pdf (source-range-c98ab3e6-00578)_
 
 ```
 _.map([1, 2, 3], (n) => n * n)
@@ -43,7 +43,7 @@ _.map([1, 2, 3], (n) => n * n)
 
 ### Atom 2: `code-block`
 
-_Source: javascriptallonge.pdf (source-range-c98ab3e6-00591)_
+_Source: javascriptallonge.pdf (source-range-c98ab3e6-00581)_
 
 ```
 const squareAll = (array) => map(array,
@@ -52,7 +52,7 @@ const squareAll = (array) => map(array,
 
 ### Atom 3: `code-block`
 
-_Source: javascriptallonge.pdf (source-range-c98ab3e6-00593)_
+_Source: javascriptallonge.pdf (source-range-c98ab3e6-00583)_
 
 ```
 const mapWith = (fn) =>
@@ -64,7 +64,7 @@ squareAll([1, 2, 3])
 
 ### Atom 4: `code-block`
 
-_Source: javascriptallonge.pdf (source-range-c98ab3e6-00596)_
+_Source: javascriptallonge.pdf (source-range-c98ab3e6-00586)_
 
 ```
 const safeSquareAll = mapWith(maybe((n) => n * n));
@@ -72,7 +72,7 @@ const safeSquareAll = mapWith(maybe((n) => n * n));
 
 ### Atom 5: `code-block`
 
-_Source: javascriptallonge.pdf (source-range-c98ab3e6-00597)_
+_Source: javascriptallonge.pdf (source-range-c98ab3e6-00587)_
 
 ```
 safeSquareAll([1, null, 2, 3])
@@ -82,4 +82,4 @@ safeSquareAll([1, null, 2, 3])
 ## Source Trail
 
 - Source manifest: [[javascriptallonge]]
-- Source section: [[javascriptallonge-section-and-also-building-blocks-partial-application-1e6ee216]]
+- Source section: [[javascriptallonge-section-partial-application-07e1bcae]]

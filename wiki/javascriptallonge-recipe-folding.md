@@ -9,7 +9,7 @@ domain: javascriptallonge
 category_path: recipes/javascriptallonge
 source_id: javascriptallonge.pdf
 aliases: folding
-projection_coverage: recipe-javascriptallonge-recipe-folding@b9cc4fd1ce447e6b35aee9edb6d1cd96
+projection_coverage: recipe-javascriptallonge-recipe-folding@32aba837e195dd4aeb6b80506aa1d5f1
 ---
 
 # folding
@@ -18,19 +18,19 @@ From [[javascriptallonge]].
 
 ## Pattern
 
-- Use the source-backed pattern described in [[javascriptallonge-section-composing-and-decomposing-data-self-similarity-folding-27dee83f]].
+- Use the source-backed pattern described in [[javascriptallonge-section-folding-77c06913]].
 - Evidence roles: decision, constraint, example.
 
 ## Applicability And Rationale
 
-- Our foldWith function is a generalization of our mapWith function. _(javascriptallonge.pdf (source-range-c98ab3e6-00939))_
-- And to return to our first example, our version of length can be written as a fold: _(javascriptallonge.pdf (source-range-c98ab3e6-00943))_
+- Our foldWith function is a generalization of our mapWith function. _(javascriptallonge.pdf (source-range-c98ab3e6-00925))_
+- And to return to our first example, our version of length can be written as a fold: _(javascriptallonge.pdf (source-range-c98ab3e6-00929))_
 
 ## Technical Atoms
 
 ### Atom 1: `code-block`
 
-_Source: javascriptallonge.pdf (source-range-c98ab3e6-00931)_
+_Source: javascriptallonge.pdf (source-range-c98ab3e6-00917)_
 
 ```
 const sumSquares = ([first, ...rest]) => first === undefined
@@ -42,7 +42,7 @@ sumSquares([1, 2, 3, 4, 5])
 
 ### Atom 2: `code-block`
 
-_Source: javascriptallonge.pdf (source-range-c98ab3e6-00936)_
+_Source: javascriptallonge.pdf (source-range-c98ab3e6-00922)_
 
 ```
 const foldWith = (fn, terminalValue, [first, ...rest]) =>
@@ -53,7 +53,7 @@ first === undefined
 
 ### Atom 3: `code-block`
 
-_Source: javascriptallonge.pdf (source-range-c98ab3e6-00938)_
+_Source: javascriptallonge.pdf (source-range-c98ab3e6-00924)_
 
 ```
 foldWith((number, rest) => number * number + rest, 0, [1, 2, 3, 4, 5])
@@ -62,7 +62,7 @@ foldWith((number, rest) => number * number + rest, 0, [1, 2, 3, 4, 5])
 
 ### Atom 4: `code-block`
 
-_Source: javascriptallonge.pdf (source-range-c98ab3e6-00940)_
+_Source: javascriptallonge.pdf (source-range-c98ab3e6-00926)_
 
 ```
 const squareAll = (array) => foldWith((first, rest) => [first * first, ...rest],\
@@ -73,7 +73,7 @@ squareAll([1, 2, 3, 4, 5])
 
 ### Atom 5: `code-block`
 
-_Source: javascriptallonge.pdf (source-range-c98ab3e6-00942)_
+_Source: javascriptallonge.pdf (source-range-c98ab3e6-00928)_
 
 ```
 const mapWith = (fn, array) => foldWith((first, rest) => [fn(first), ...rest], [\
@@ -85,7 +85,7 @@ squareAll([1, 2, 3, 4, 5])
 
 ### Atom 6: `code-block`
 
-_Source: javascriptallonge.pdf (source-range-c98ab3e6-00944)_
+_Source: javascriptallonge.pdf (source-range-c98ab3e6-00930)_
 
 ```
 const length = (array) => foldWith((first, rest) => 1 + rest, 0, array);
@@ -96,4 +96,4 @@ length([1, 2, 3, 4, 5])
 ## Source Trail
 
 - Source manifest: [[javascriptallonge]]
-- Source section: [[javascriptallonge-section-composing-and-decomposing-data-self-similarity-folding-27dee83f]]
+- Source section: [[javascriptallonge-section-folding-77c06913]]

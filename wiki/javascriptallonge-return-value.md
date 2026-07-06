@@ -7,7 +7,7 @@ sources: raw/javascriptallonge.pdf
 updated: 2026-07-06
 domain: javascriptallonge
 category_path: concepts
-projection_coverage: topic-javascriptallonge-return-value@5f1d687277b8ecc4608937d2fc6ff9ba
+projection_coverage: topic-javascriptallonge-return-value@592196c329849f2c129715413bf30671
 ---
 
 # Return Value
@@ -21,13 +21,13 @@ What [[javascriptallonge]] covers about return value:
 
 ### Technical atom 1
 
-<a id="atom-technical-atom-59a39b6960f40892"></a>
+<a id="atom-technical-atom-7e25061238cfb4ee"></a>
 
-**Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-00865))_
+**Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-00851))_
 
 > Some languages support multiple return values: A function can return several things at once, like a value and an error code. This can easily be emulated in JavaScript with destructuring:
 
-**Atom:** _(javascriptallonge.pdf (source-range-c98ab3e6-00866))_
+**Atom:** _(javascriptallonge.pdf (source-range-c98ab3e6-00852))_
 
 ```
 const description = (nameAndOccupation) => {
@@ -51,7 +51,7 @@ status
 
 ### Shared technical atoms
 
-- [[javascriptallonge-destructuring]] - shared technical atoms: Destructuring shares technical record from Composing and Decomposing Data / Arrays and Destructuring Arguments / destructuring and return values: const description = (nameAndOccupation) => { if (nameAndOccupation.length < 2) { return ["", "occupation missing"] } else { const [[first, last], occupation] = nameA ... [truncated] (1 shared atom(s))
+- [[javascriptallonge-destructuring]] - shared technical atoms: Destructuring shares technical record from destructuring and return values: const description = (nameAndOccupation) => { if (nameAndOccupation.length < 2) { return ["", "occupation missing"] } else { const [[first, last], occupation] = nameA ... [truncated] (1 shared atom(s))
 
 ## Source
 

@@ -9,7 +9,7 @@ domain: javascriptallonge
 category_path: recipes/javascriptallonge
 source_id: javascriptallonge.pdf
 aliases: generators-are-coroutines
-projection_coverage: recipe-javascriptallonge-recipe-generators-are-coroutines@4a3247a5ef6bf7b686b9b1724c93299b
+projection_coverage: recipe-javascriptallonge-recipe-generators-are-coroutines@c3ba35eecef4f8ceed7339c8ac3a66bc
 ---
 
 # generators are coroutines
@@ -18,23 +18,23 @@ From [[javascriptallonge]].
 
 ## Pattern
 
-- Use the source-backed pattern described in [[javascriptallonge-section-served-by-the-pot-collections-generating-iterables-generators-are-coroutines-ab337115]].
+- Use the source-backed pattern described in [[javascriptallonge-section-generators-are-coroutines-bceb595a]].
 - Evidence roles: decision, explanation, constraint, example.
 
 ## Applicability And Rationale
 
-- This is where generators behave very, very differently from ordinary functions. _(javascriptallonge.pdf (source-range-c98ab3e6-01675))_
-- - The iterator is in a nascent or 'newborn' state. _(javascriptallonge.pdf (source-range-c98ab3e6-01677))_
-- - When we call interator.next() , the body of our generator begins to be evaluated. _(javascriptallonge.pdf (source-range-c98ab3e6-01678))_
-- - The body of our generator runs until it returns, ends, or encounters a yield statement, which is yield 1; . _(javascriptallonge.pdf (source-range-c98ab3e6-01679))_
-- - The rest of the program continues along its way until it makes another call to iterator.next() . _(javascriptallonge.pdf (source-range-c98ab3e6-01682))_
-- - The iterator resumes execution from the point where it yielded the last value. _(javascriptallonge.pdf (source-range-c98ab3e6-01683))_
+- This is where generators behave very, very differently from ordinary functions. _(javascriptallonge.pdf (source-range-c98ab3e6-01649))_
+- The iterator is in a nascent or 'newborn' state. _(javascriptallonge.pdf (source-range-c98ab3e6-01651))_
+- When we call interator.next() , the body of our generator begins to be evaluated. _(javascriptallonge.pdf (source-range-c98ab3e6-01652))_
+- The body of our generator runs until it returns, ends, or encounters a yield statement, which is yield 1; . _(javascriptallonge.pdf (source-range-c98ab3e6-01653))_
+- The rest of the program continues along its way until it makes another call to iterator.next() . _(javascriptallonge.pdf (source-range-c98ab3e6-01656))_
+- The iterator resumes execution from the point where it yielded the last value. _(javascriptallonge.pdf (source-range-c98ab3e6-01657))_
 
 ## Technical Atoms
 
 ### Atom 1: `code-block`
 
-_Source: javascriptallonge.pdf (source-range-c98ab3e6-01674)_
+_Source: javascriptallonge.pdf (source-range-c98ab3e6-01648)_
 
 ```
 const oneTwoThree = function * () {
@@ -68,7 +68,7 @@ iterator.next()
 
 ### Atom 2: `code-block`
 
-_Source: javascriptallonge.pdf (source-range-c98ab3e6-01701)_
+_Source: javascriptallonge.pdf (source-range-c98ab3e6-01675)_
 
 ```
 const oneTwoThree = function () {
@@ -96,4 +96,4 @@ return {done: true};
 ## Source Trail
 
 - Source manifest: [[javascriptallonge]]
-- Source section: [[javascriptallonge-section-served-by-the-pot-collections-generating-iterables-generators-are-coroutines-ab337115]]
+- Source section: [[javascriptallonge-section-generators-are-coroutines-bceb595a]]

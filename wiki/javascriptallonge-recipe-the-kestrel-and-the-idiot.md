@@ -9,7 +9,7 @@ domain: javascriptallonge
 category_path: recipes/javascriptallonge
 source_id: javascriptallonge.pdf
 aliases: the-kestrel-and-the-idiot
-projection_coverage: recipe-javascriptallonge-recipe-the-kestrel-and-the-idiot@5f78134aedf21a5d617e73264631ade4
+projection_coverage: recipe-javascriptallonge-recipe-the-kestrel-and-the-idiot@c4c04d061924917c8f831b8ad357608f
 ---
 
 # the kestrel and the idiot
@@ -18,23 +18,23 @@ From [[javascriptallonge]].
 
 ## Pattern
 
-- Use the source-backed pattern described in [[javascriptallonge-section-copy-on-write-making-data-out-of-functions-the-kestrel-and-the-idiot-b97adf2c]].
+- Use the source-backed pattern described in [[javascriptallonge-section-the-kestrel-and-the-idiot-de84450c]].
 - Evidence roles: decision, explanation, constraint, example.
 
 ## Applicability And Rationale
 
-- The kestrel, or K , is a function that makes constant functions. _(javascriptallonge.pdf (source-range-c98ab3e6-01333))_
-- For example, (x) => 42 is a constant function that always evaluates to 42. _(javascriptallonge.pdf (source-range-c98ab3e6-01333))_
-- A constant function is a function that always returns the same thing, no matter what you give it. _(javascriptallonge.pdf (source-range-c98ab3e6-01333))_
-- You give it a value, and it returns a constant function that gives that value. _(javascriptallonge.pdf (source-range-c98ab3e6-01333))_
-- The identity function is a function that evaluates to whatever parameter you pass it. _(javascriptallonge.pdf (source-range-c98ab3e6-01336))_
-- Given two values, we can say that K always returns the first value: K(x)(y) => x (that's not valid JavaScript, but it's essentially how it works). _(javascriptallonge.pdf (source-range-c98ab3e6-01339))_
+- A constant function is a function that always returns the same thing, no matter what you give it. _(javascriptallonge.pdf (source-range-c98ab3e6-01312))_
+- For example, (x) => 42 is a constant function that always evaluates to 42. _(javascriptallonge.pdf (source-range-c98ab3e6-01312))_
+- The kestrel, or K , is a function that makes constant functions. _(javascriptallonge.pdf (source-range-c98ab3e6-01312))_
+- You give it a value, and it returns a constant function that gives that value. _(javascriptallonge.pdf (source-range-c98ab3e6-01312))_
+- The identity function is a function that evaluates to whatever parameter you pass it. _(javascriptallonge.pdf (source-range-c98ab3e6-01315))_
+- Given two values, we can say that K always returns the first value: K(x)(y) => x (that's not valid JavaScript, but it's essentially how it works). _(javascriptallonge.pdf (source-range-c98ab3e6-01318))_
 
 ## Technical Atoms
 
 ### Atom 1: `code-block`
 
-_Source: javascriptallonge.pdf (source-range-c98ab3e6-01335)_
+_Source: javascriptallonge.pdf (source-range-c98ab3e6-01314)_
 
 ```
 const K = (x) => (y) => x;
@@ -47,7 +47,7 @@ fortyTwo("Hello")
 
 ### Atom 2: `code-block`
 
-_Source: javascriptallonge.pdf (source-range-c98ab3e6-01338)_
+_Source: javascriptallonge.pdf (source-range-c98ab3e6-01317)_
 
 ```
 K(6)(7)
@@ -58,7 +58,7 @@ K(12)(24)
 
 ### Atom 3: `code-block`
 
-_Source: javascriptallonge.pdf (source-range-c98ab3e6-01341)_
+_Source: javascriptallonge.pdf (source-range-c98ab3e6-01320)_
 
 ```
 Therefore, K(I)(x)(y) => y:
@@ -66,7 +66,7 @@ Therefore, K(I)(x)(y) => y:
 
 ### Atom 4: `code-block`
 
-_Source: javascriptallonge.pdf (source-range-c98ab3e6-01342)_
+_Source: javascriptallonge.pdf (source-range-c98ab3e6-01321)_
 
 ```
 K(I)(6)(7)
@@ -77,7 +77,7 @@ K(I)(12)(24)
 
 ### Atom 5: `code-block`
 
-_Source: javascriptallonge.pdf (source-range-c98ab3e6-01344)_
+_Source: javascriptallonge.pdf (source-range-c98ab3e6-01323)_
 
 ```
 K("primus")("secundus")
@@ -88,7 +88,7 @@ K(I)("primus")("secundus")
 
 ### Atom 6: `code-block`
 
-_Source: javascriptallonge.pdf (source-range-c98ab3e6-01346)_
+_Source: javascriptallonge.pdf (source-range-c98ab3e6-01325)_
 
 ```
 const first = K,
@@ -102,4 +102,4 @@ second("primus")("secundus")
 ## Source Trail
 
 - Source manifest: [[javascriptallonge]]
-- Source section: [[javascriptallonge-section-copy-on-write-making-data-out-of-functions-the-kestrel-and-the-idiot-b97adf2c]]
+- Source section: [[javascriptallonge-section-the-kestrel-and-the-idiot-de84450c]]

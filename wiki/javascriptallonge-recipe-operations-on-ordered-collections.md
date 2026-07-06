@@ -9,7 +9,7 @@ domain: javascriptallonge
 category_path: recipes/javascriptallonge
 source_id: javascriptallonge.pdf
 aliases: operations-on-ordered-collections
-projection_coverage: recipe-javascriptallonge-recipe-operations-on-ordered-collections@a9109e91f0d0a984ccb375d7f0ada618
+projection_coverage: recipe-javascriptallonge-recipe-operations-on-ordered-collections@c994c94f8b313f4bff4c4ae54a9968b0
 ---
 
 # operations on ordered collections
@@ -18,23 +18,23 @@ From [[javascriptallonge]].
 
 ## Pattern
 
-- Use the source-backed pattern described in [[javascriptallonge-section-served-by-the-pot-collections-iteration-and-iterables-operations-on-ordered-collections-da2b4aad]].
+- Use the source-backed pattern described in [[javascriptallonge-section-operations-on-ordered-collections-807363b8]].
 - Evidence roles: decision, procedure, constraint, explanation, definition, example, structured-state.
 
 ## Applicability And Rationale
 
-- Here's mapWith , it takes an ordered collection, and returns another ordered collection representing a mapping over the original: 89 _(javascriptallonge.pdf (source-range-c98ab3e6-01582))_
-- 89 Yes, we also used the name mapWith for working with ordinary collections elsewhere. _(javascriptallonge.pdf (source-range-c98ab3e6-01583))_
-- But for the purposes of discussing ideas, we can use the same name twice in two different contexts. _(javascriptallonge.pdf (source-range-c98ab3e6-01583))_
-- If we were writing a library of functions, we would have to disambiguate the two kinds of mapping functions with special names, namespaces, or modules. _(javascriptallonge.pdf (source-range-c98ab3e6-01583))_
-- It's the same idea, after all. _(javascriptallonge.pdf (source-range-c98ab3e6-01583))_
-- An iterator is also an object, but with a .next() method that is invoked repeatedly to obtain the elements in order. _(javascriptallonge.pdf (source-range-c98ab3e6-01585))_
+- Here's mapWith , it takes an ordered collection, and returns another ordered collection representing a mapping over the original: 89 _(javascriptallonge.pdf (source-range-c98ab3e6-01557))_
+- 89 Yes, we also used the name mapWith for working with ordinary collections elsewhere. _(javascriptallonge.pdf (source-range-c98ab3e6-01558))_
+- But for the purposes of discussing ideas, we can use the same name twice in two different contexts. _(javascriptallonge.pdf (source-range-c98ab3e6-01558))_
+- If we were writing a library of functions, we would have to disambiguate the two kinds of mapping functions with special names, namespaces, or modules. _(javascriptallonge.pdf (source-range-c98ab3e6-01558))_
+- It's the same idea, after all. _(javascriptallonge.pdf (source-range-c98ab3e6-01558))_
+- An iterator is also an object, but with a .next() method that is invoked repeatedly to obtain the elements in order. _(javascriptallonge.pdf (source-range-c98ab3e6-01560))_
 
 ## Technical Atoms
 
 ### Atom 1: `code-block`
 
-_Source: javascriptallonge.pdf (source-range-c98ab3e6-01584)_
+_Source: javascriptallonge.pdf (source-range-c98ab3e6-01559)_
 
 ```
 const mapWith = (fn, collection) =>
@@ -53,7 +53,7 @@ return ({done, value: done ? undefined : fn(value)});
 
 ### Atom 2: `code-block`
 
-_Source: javascriptallonge.pdf (source-range-c98ab3e6-01587)_
+_Source: javascriptallonge.pdf (source-range-c98ab3e6-01562)_
 
 ```
 const Evens = mapWith((x) => 2 * x, Numbers);
@@ -77,7 +77,7 @@ console.log(i)
 
 ### Atom 3: `code-block`
 
-_Source: javascriptallonge.pdf (source-range-c98ab3e6-01589)_
+_Source: javascriptallonge.pdf (source-range-c98ab3e6-01564)_
 
 ```
 const Evens =
@@ -96,7 +96,7 @@ return ({done, value: done ? undefined : 2 *value});
 
 ### Atom 4: `code-block`
 
-_Source: javascriptallonge.pdf (source-range-c98ab3e6-01593)_
+_Source: javascriptallonge.pdf (source-range-c98ab3e6-01568)_
 
 ```
 const ZeroesToNines = mapWith((n) => Math.floor(10 * limit), RandomNumbers);
@@ -117,7 +117,7 @@ console.log(i)
 
 ### Atom 5: `code-block`
 
-_Source: javascriptallonge.pdf (source-range-c98ab3e6-01594)_
+_Source: javascriptallonge.pdf (source-range-c98ab3e6-01569)_
 
 ```
 6
@@ -127,7 +127,7 @@ _Source: javascriptallonge.pdf (source-range-c98ab3e6-01594)_
 
 ### Atom 6: `code-block`
 
-_Source: javascriptallonge.pdf (source-range-c98ab3e6-01597)_
+_Source: javascriptallonge.pdf (source-range-c98ab3e6-01572)_
 
 ```
 const filterWith = (fn, iterable) =>
@@ -162,4 +162,4 @@ return ({done, value: done ? undefined : value});
 ## Source Trail
 
 - Source manifest: [[javascriptallonge]]
-- Source section: [[javascriptallonge-section-served-by-the-pot-collections-iteration-and-iterables-operations-on-ordered-collections-da2b4aad]]
+- Source section: [[javascriptallonge-section-operations-on-ordered-collections-807363b8]]

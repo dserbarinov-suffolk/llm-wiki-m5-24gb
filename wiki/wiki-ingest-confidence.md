@@ -9,7 +9,7 @@ updated: 2026-07-06
 
 ## Summary
 
-Run id: 2026-07-06-113449
+Run id: 2026-07-06-122833
 Source: raw/Sword World RPG - Complete Edition.pdf
 Confidence status: passed
 Blockers: 0
@@ -46,7 +46,7 @@ MissingUnitCoverage: 0
 - Status: pass
 - Findings: none
 Source texts: 1
-Source ranges: 1159
+Source ranges: 924
 Evidence records: 12262
 
 ### evidence-locators
@@ -54,7 +54,7 @@ Evidence records: 12262
 - Scope: raw/Sword World RPG - Complete Edition.pdf
 - Status: pass
 - Findings: none
-Locators: 11990
+Locators: 11977
 Invalid locators: 0
 
 ### claim-support

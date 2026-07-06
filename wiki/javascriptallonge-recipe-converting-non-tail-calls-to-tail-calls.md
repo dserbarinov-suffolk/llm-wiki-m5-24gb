@@ -9,7 +9,7 @@ domain: javascriptallonge
 category_path: recipes/javascriptallonge
 source_id: javascriptallonge.pdf
 aliases: converting-non-tail-calls-to-tail-calls
-projection_coverage: recipe-javascriptallonge-recipe-converting-non-tail-calls-to-tail-calls@7961ca43654e91cff39bac56a48ae93a
+projection_coverage: recipe-javascriptallonge-recipe-converting-non-tail-calls-to-tail-calls@a73dc1decbd17e804baf39a063bb634a
 ---
 
 # converting non-tail-calls to tail-calls
@@ -18,22 +18,22 @@ From [[javascriptallonge]].
 
 ## Pattern
 
-- Use the source-backed pattern described in [[javascriptallonge-section-composing-and-decomposing-data-tail-calls-and-default-arguments-converting-non-tail-calls-to-tai-50defdd7]].
+- Use the source-backed pattern described in [[javascriptallonge-section-converting-non-tail-calls-to-tail-calls-88056a4f]].
 - Evidence roles: decision, constraint, procedure, example, structured-state.
 
 ## Applicability And Rationale
 
-- The obvious solution is push the 1 + work into the call to length . _(javascriptallonge.pdf (source-range-c98ab3e6-00972))_
-- Now that we've seen how it works, we can clean up the 0 + numberToBeAdded business. _(javascriptallonge.pdf (source-range-c98ab3e6-00974))_
-- This version of length calls uses lengthDelaysWork , and JavaScript optimizes that not to take up memory proportional to the length of the string. _(javascriptallonge.pdf (source-range-c98ab3e6-00977))_
-- We can map over large arrays without incurring all the memory and performance overhead of non-tail-calls. _(javascriptallonge.pdf (source-range-c98ab3e6-00981))_
-- And this basic transformation from a recursive function that does not make a tail call, into a recursive function that calls itself in tail position, is a bread-and-butter pattern for programmers using a language that incorporates tail-call optimization. _(javascriptallonge.pdf (source-range-c98ab3e6-00981))_
+- The obvious solution is push the 1 + work into the call to length . _(javascriptallonge.pdf (source-range-c98ab3e6-00958))_
+- Now that we've seen how it works, we can clean up the 0 + numberToBeAdded business. _(javascriptallonge.pdf (source-range-c98ab3e6-00960))_
+- This version of length calls uses lengthDelaysWork , and JavaScript optimizes that not to take up memory proportional to the length of the string. _(javascriptallonge.pdf (source-range-c98ab3e6-00963))_
+- We can map over large arrays without incurring all the memory and performance overhead of non-tail-calls. _(javascriptallonge.pdf (source-range-c98ab3e6-00967))_
+- And this basic transformation from a recursive function that does not make a tail call, into a recursive function that calls itself in tail position, is a bread-and-butter pattern for programmers using a language that incorporates tail-call optimization. _(javascriptallonge.pdf (source-range-c98ab3e6-00967))_
 
 ## Technical Atoms
 
 ### Atom 1: `code-block`
 
-_Source: javascriptallonge.pdf (source-range-c98ab3e6-00973)_
+_Source: javascriptallonge.pdf (source-range-c98ab3e6-00959)_
 
 ```
 const lengthDelaysWork = ([first, ...rest], numberToBeAdded) =>
@@ -46,7 +46,7 @@ lengthDelaysWork(["foo", "bar", "baz"], 0)
 
 ### Atom 2: `code-block`
 
-_Source: javascriptallonge.pdf (source-range-c98ab3e6-00975)_
+_Source: javascriptallonge.pdf (source-range-c98ab3e6-00961)_
 
 ```
 const lengthDelaysWork = ([first, ...rest], numberToBeAdded) =>
@@ -59,7 +59,7 @@ lengthDelaysWork(n, 0);
 
 ### Atom 3: `code-block`
 
-_Source: javascriptallonge.pdf (source-range-c98ab3e6-00976)_
+_Source: javascriptallonge.pdf (source-range-c98ab3e6-00962)_
 
 ```
 Or we could use partial application:
@@ -73,7 +73,7 @@ length(["foo", "bar", "baz"])
 
 ### Atom 4: `code-block`
 
-_Source: javascriptallonge.pdf (source-range-c98ab3e6-00978)_
+_Source: javascriptallonge.pdf (source-range-c98ab3e6-00964)_
 
 ```
 const mapWithDelaysWork = (fn, [first, ...rest], prepend) =>
@@ -88,7 +88,7 @@ We can use it with ridiculously large arrays:
 
 ### Atom 5: `code-block`
 
-_Source: javascriptallonge.pdf (source-range-c98ab3e6-00979)_
+_Source: javascriptallonge.pdf (source-range-c98ab3e6-00965)_
 
 ```
 mapWith((x) => x * x, [
@@ -201,4 +201,4 @@ mapWith((x) => x * x, [
 ## Source Trail
 
 - Source manifest: [[javascriptallonge]]
-- Source section: [[javascriptallonge-section-composing-and-decomposing-data-tail-calls-and-default-arguments-converting-non-tail-calls-to-tai-50defdd7]]
+- Source section: [[javascriptallonge-section-converting-non-tail-calls-to-tail-calls-88056a4f]]

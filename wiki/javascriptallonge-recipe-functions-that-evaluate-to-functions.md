@@ -9,7 +9,7 @@ domain: javascriptallonge
 category_path: recipes/javascriptallonge
 source_id: javascriptallonge.pdf
 aliases: functions-that-evaluate-to-functions
-projection_coverage: recipe-javascriptallonge-recipe-functions-that-evaluate-to-functions@3bee0a8380c92dccfa661d023c7c38d2
+projection_coverage: recipe-javascriptallonge-recipe-functions-that-evaluate-to-functions@d0a2f1d41c71ec83797723853804c93d
 ---
 
 # functions that evaluate to functions
@@ -18,21 +18,21 @@ From [[javascriptallonge]].
 
 ## Pattern
 
-- Use the source-backed pattern described in [[javascriptallonge-section-and-also-functions-that-evaluate-to-functions-5d342922]].
+- Use the source-backed pattern described in [[javascriptallonge-section-functions-that-evaluate-to-functions-cfaf4cf7]].
 - Evidence roles: decision, constraint, structured-state, example.
 
 ## Applicability And Rationale
 
-- It's a function that when applied, evaluates to a function that when applied, evaluates to 0 . _(javascriptallonge.pdf (source-range-c98ab3e6-00256))_
-- So we have a function, that returns a function, that returns zero . _(javascriptallonge.pdf (source-range-c98ab3e6-00256))_
-- Diffraction of a crystal is beautiful and interesting in its own right, but you can't blame us for wanting to be shown a practical use for it, like being able to determine the composition of a star millions of light years away. _(javascriptallonge.pdf (source-range-c98ab3e6-00263))_
-- We've been very clever, but so far this all seems very abstract. _(javascriptallonge.pdf (source-range-c98ab3e6-00263))_
+- It's a function that when applied, evaluates to a function that when applied, evaluates to 0 . _(javascriptallonge.pdf (source-range-c98ab3e6-00248))_
+- So we have a function, that returns a function, that returns zero . _(javascriptallonge.pdf (source-range-c98ab3e6-00248))_
+- Diffraction of a crystal is beautiful and interesting in its own right, but you can't blame us for wanting to be shown a practical use for it, like being able to determine the composition of a star millions of light years away. _(javascriptallonge.pdf (source-range-c98ab3e6-00255))_
+- We've been very clever, but so far this all seems very abstract. _(javascriptallonge.pdf (source-range-c98ab3e6-00255))_
 
 ## Technical Atoms
 
 ### Atom 1: `code-block`
 
-_Source: javascriptallonge.pdf (source-range-c98ab3e6-00255)_
+_Source: javascriptallonge.pdf (source-range-c98ab3e6-00247)_
 
 ```
 () => () => 0
@@ -40,7 +40,7 @@ _Source: javascriptallonge.pdf (source-range-c98ab3e6-00255)_
 
 ### Atom 2: `code-block`
 
-_Source: javascriptallonge.pdf (source-range-c98ab3e6-00257)_
+_Source: javascriptallonge.pdf (source-range-c98ab3e6-00249)_
 
 ```
 () => () => true
@@ -48,7 +48,7 @@ _Source: javascriptallonge.pdf (source-range-c98ab3e6-00257)_
 
 ### Atom 3: `code-block`
 
-_Source: javascriptallonge.pdf (source-range-c98ab3e6-00259)_
+_Source: javascriptallonge.pdf (source-range-c98ab3e6-00251)_
 
 ```
 (() => () => true)()()
@@ -57,7 +57,7 @@ _Source: javascriptallonge.pdf (source-range-c98ab3e6-00259)_
 
 ### Atom 4: `code-block`
 
-_Source: javascriptallonge.pdf (source-range-c98ab3e6-00261)_
+_Source: javascriptallonge.pdf (source-range-c98ab3e6-00253)_
 
 ```
 () => () => { return true; }
@@ -66,4 +66,4 @@ _Source: javascriptallonge.pdf (source-range-c98ab3e6-00261)_
 ## Source Trail
 
 - Source manifest: [[javascriptallonge]]
-- Source section: [[javascriptallonge-section-and-also-functions-that-evaluate-to-functions-5d342922]]
+- Source section: [[javascriptallonge-section-functions-that-evaluate-to-functions-cfaf4cf7]]

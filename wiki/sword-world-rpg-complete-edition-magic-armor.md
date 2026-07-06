@@ -7,7 +7,7 @@ sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-06
 domain: sword-world-rpg-complete-edition
 category_path: concepts
-projection_coverage: topic-sword-world-rpg-complete-edition-magic-armor@b899fc796010404d6a53470c0231e27a
+projection_coverage: topic-sword-world-rpg-complete-edition-magic-armor@50b6aeb0870f146644ecc7142e28cbf7
 ---
 
 # 《 Magic Armor (+1) 》
@@ -18,90 +18,90 @@ What [[sword-world-rpg-complete-edition]] covers about 《 magic armor (+1) 》:
 
 ### 1.4 Character Creation / 1.4.7 Restrictions on Weapons and Armor Based on Skill
 
-- The general rule is to choose one whose required strength equals the character's strength , but a character may be substantially limited by the skills they have. For example, if one with the shaman skill wears metal armor, they cannot use spirit magic, which is the primary ability of the shaman skill. In this case, it wouldn't make sense to have the shaman skill. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-00760))_
+- The general rule is to choose one whose required strength equals the character's strength , but a character may be substantially limited by the skills they have. For example, if one with the shaman skill wears metal armor, they cannot use spirit magic, which is the primary ability of the shaman skill. In this case, it wouldn't make sense to have the shaman skill. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-00739))_
 
 ### 4.10 Excellent Weapons and Armor / 4.10.2 Silver Weapons and Armor
 
-- Also, shamans are not normally able to wear metal armor (as metal armor prevents them from using spirit magic), but they can use spirit magic while wearing it, if it's silver armor . _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01475))_
+- Also, shamans are not normally able to wear metal armor (as metal armor prevents them from using spirit magic), but they can use spirit magic while wearing it, if it's silver armor . _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01442))_
 
 ### 4.10 Excellent Weapons and Armor / 4.10.4 Mithril Silver Weapons and Armor
 
-- Mithril silver, like regular silver, is a metal that exists in the spirit world. Therefore, a shaman can wear mithril silver armor and still use spirit magic. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01501))_
+- Mithril silver, like regular silver, is a metal that exists in the spirit world. Therefore, a shaman can wear mithril silver armor and still use spirit magic. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01468))_
 
-### 13.2.6 Mythical Beasts and Magical Beasts / [ Horse ] / 13.6 Handling Monster Special Abilities / 13.6.3 Special Attacks: Other / 《 Iron Corrosion 》
+### 13.6 Handling Monster Special Abilities / 《 Iron Corrosion 》
 
-- Acid or gas that corrodes iron. Life force will not be damaged, but metal weapons and armor will suffer damage, and become worn out and useless after a certain amount of time. Silver and magic weapons and armor are usually not affected. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-08814))_
+- Acid or gas that corrodes iron. Life force will not be damaged, but metal weapons and armor will suffer damage, and become worn out and useless after a certain amount of time. Silver and magic weapons and armor are usually not affected. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-08729))_
 
 ### Chapter 14: / 14.1 Treasure and Rewards in Sword World
 
-- Of course, the ancient kingdom was a land where magic developed, so you'll also find weapons, armor, treasure, _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-08898))_
+- Of course, the ancient kingdom was a land where magic developed, so you'll also find weapons, armor, treasure, _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-08812))_
 
 ### Chapter 14: / 14.4 Magical Item List / 《 Magic Armor (+1) 》
 
-- Similar to weapons, it's recommended to give each piece of magical armor its own name and lore by referencing the descriptions of magical armor that follow, which helps enhance the atmosphere of Alecrast. Here, we provide a price list of non-metallic or ring mail armor with +1 power as a guideline for game masters when rewarding characters. For armor, items that exceed the required strength often see decreased demand, so higher required strength doesn't necessarily mean higher prices. This trend is particularly noticeable in non-metallic or ring mail armor preferred by thieves and rangers, where armor with high required strength tends to be avoided. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-09223))_
+- Similar to weapons, it's recommended to give each piece of magical armor its own name and lore by referencing the descriptions of magical armor that follow, which helps enhance the atmosphere of Alecrast. Here, we provide a price list of non-metallic or ring mail armor with +1 power as a guideline for game masters when rewarding characters. For armor, items that exceed the required strength often see decreased demand, so higher required strength doesn't necessarily mean higher prices. This trend is particularly noticeable in non-metallic or ring mail armor preferred by thieves and rangers, where armor with high required strength tends to be avoided. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-09136))_
 
 ### Chapter 14: / 14.4 Magical Item List / 《 Magic Armor (+1)
 
-- This is a price list for magic metal armor with +1 power. While armor with high required strength tends to be unpopular, when it becomes exceptionally high-end, it suddenly becomes an object of interest for enthusiasts, causing prices to spike dramatically. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-09262))_
+- This is a price list for magic metal armor with +1 power. While armor with high required strength tends to be unpopular, when it becomes exceptionally high-end, it suddenly becomes an object of interest for enthusiasts, causing prices to spike dramatically. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-09175))_
 
 ### Chapter 14: / 14.4 Magical Item List / 《 Magic Armor (+2) 》
 
-- Here is a list of prices of magical metal armor with +2 power. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-09304))_
+- Here is a list of prices of magical metal armor with +2 power. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-09217))_
 
 ### Chapter 14: / 14.4 Magical Item List / 《 Magic Armor (+3) 》
 
-- Here is a list of prices of magical nonmetal or ring mail armor with +3 power. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-09346))_
+- Here is a list of prices of magical nonmetal or ring mail armor with +3 power. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-09259))_
 
-- Chain mail, splint, lamellar, plate armor Rarity=16 Enchanter=Many Form=Metal Armor Required Strength/Base Trade Price=See description Magic Power=+3 to evasion speed and damage reduction _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-09382))_
+- Chain mail, splint, lamellar, plate armor Rarity=16 Enchanter=Many Form=Metal Armor Required Strength/Base Trade Price=See description Magic Power=+3 to evasion speed and damage reduction _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-09295))_
 
-- Here is a list of prices of magical metal armor with +3 power. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-09383))_
+- Here is a list of prices of magical metal armor with +3 power. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-09296))_
 
 
 ## Technical atoms
 
 ### Technical frame 1: Chapter 14: / 14.4 Magical Item List / 《 Magic Armor (+1) 》
 
-**Context:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-09223))_
+**Context:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-09136))_
 
 > Similar to weapons, it's recommended to give each piece of magical armor its own name and lore by referencing the descriptions of magical armor that follow, which helps enhance the atmosphere of Alecrast. Here, we provide a price list of non-metallic or ring mail armor with +1 power as a guideline for game masters when rewarding characters. For armor, items that exceed the required strength often see decreased demand, so higher required strength doesn't necessarily mean higher prices. This trend
 
-**Atoms:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-09218, source-range-e5870dca-09219, source-range-e5870dca-09220, source-range-e5870dca-09221, source-range-e5870dca-09222))_
+**Atoms:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-09131, source-range-e5870dca-09132, source-range-e5870dca-09133, source-range-e5870dca-09134, source-range-e5870dca-09135))_
 
-<a id="atom-technical-atom-6f4b9675dfcae76b"></a>
+<a id="atom-technical-atom-fbceb56acc74cf9a"></a>
 > Rarity=12
 
-<a id="atom-technical-atom-7d54a1bfce7d3a27"></a>
+<a id="atom-technical-atom-b755a73a5bd834a5"></a>
 > Enchanter=Many
 
-<a id="atom-technical-atom-997f80987620a3a0"></a>
+<a id="atom-technical-atom-80e63d90d626d0c5"></a>
 > Form=Non-metal or ring mail armor
 
-<a id="atom-technical-atom-e2f8164ca116aa4d"></a>
+<a id="atom-technical-atom-4b47073941da44db"></a>
 > Required Strength/Base Trade Price=See description
 
-<a id="atom-technical-atom-9e172baadd87c9bc"></a>
+<a id="atom-technical-atom-0f124806c89bbcdb"></a>
 > Powers=+1 to evasion speed and damage reduction
 
 ### Technical frame 2: Chapter 14: / 14.4 Magical Item List / 《 Magic Armor (+1)
 
-**Context:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-09262))_
+**Context:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-09175))_
 
 > This is a price list for magic metal armor with +1 power. While armor with high required strength tends to be unpopular, when it becomes exceptionally high-end, it suddenly becomes an object of interest for enthusiasts, causing prices to spike dramatically.
 
-**Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-09261))_
+**Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-09174))_
 
-<a id="atom-technical-atom-d0c4bbc04c04ee1b"></a>
+<a id="atom-technical-atom-213f7f0ed43a008f"></a>
 > Rarity=12 Enchanter=Many Form=Metal armor Required Strength/Base Trade Price=See description Powers=+1 to evasion speed and damage reduction
 
 ### Technical frame 3: Chapter 14: / 14.4 Magical Item List / 《 Magic Armor (+1)
 
-**Context:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-09262))_
+**Context:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-09175))_
 
 > This is a price list for magic metal armor with +1 power. While armor with high required strength tends to be unpopular, when it becomes exceptionally high-end, it suddenly becomes an object of interest for enthusiasts, causing prices to spike dramatically.
 
-**Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-09263))_
+**Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-09176))_
 
-<a id="atom-technical-atom-f662af325f92c209"></a>
+<a id="atom-technical-atom-63048b9c04627437"></a>
 | exceptionally | column 2 | high-end, it | column 4 | suddenly | Required | column 7 | Price | Required | column 10 | Price | column 12 | column 13 | column 14 | column 15 |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | becomes | an object |  | of interest for |  | Strength |  | (Gamels) | Strength | (Gamels) |  | Required | Price | Required | Price |
@@ -142,24 +142,24 @@ What [[sword-world-rpg-complete-edition]] covers about 《 magic armor (+1) 》:
 
 ### Technical frame 4: Chapter 14: / 14.4 Magical Item List / 《 Magic Armor (+2) 》
 
-**Context:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-09304))_
+**Context:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-09217))_
 
 > Here is a list of prices of magical metal armor with +2 power.
 
-**Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-09303))_
+**Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-09216))_
 
-<a id="atom-technical-atom-70999ac89778b61c"></a>
+<a id="atom-technical-atom-b57e04c2ae12562c"></a>
 > Rarity=14 Enchanter=Many Form=Metal armor Required Strength/Base Trade Price=See description Powers=+2 to evasion speed and damage reduction
 
 ### Technical frame 5: Chapter 14: / 14.4 Magical Item List / 《 Magic Armor (+3) 》
 
-**Context:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-09346))_
+**Context:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-09259))_
 
 > Here is a list of prices of magical nonmetal or ring mail armor with +3 power.
 
-**Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-09344))_
+**Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-09257))_
 
-<a id="atom-technical-atom-da333a36262d2502"></a>
+<a id="atom-technical-atom-927c3aef73892558"></a>
 ```text
 17 18000 Rarity=12 (+1)/14 (+2)/16 (+3) Rarity=16 17 Enchanter=Many Enchanter=Many Form=Shield Form=Non-metal or ring mail armor 《 》 Magic Armor (+2) Required Strength/Base Trade Price=See Required Strength/Base Trade Price=See description description Non-metal or ring mail Magic Power=+3 to evasion speed and Powers=+1~+3 to evasion speed Rarity=14 damage reduction This is a price list for magical shields Enchanter=Many with enchantments. For shields with +2 Here is a list of prices of magical non- Form=Non-metal or ring mail armor metal or ring mail armor with +3 power. or higher enchantment, small shields Required Strength/Base Trade Price=See tend to be more expensive than large description Required Price Required Price shields due to differences in demand. For Powers=+2 to evasion speed and damage Strength (Gamels) Strength (Gamels) the same reason, high-quality large reduction
 1 200000 8 150000 Here is a list of prices of magical non- shields +1/+2 are more expensive than
@@ -179,13 +179,13 @@ What [[sword-world-rpg-complete-edition]] covers about 《 magic armor (+1) 》:
 
 ### Technical frame 6: Chapter 14: / 14.4 Magical Item List / 《 Magic Armor (+3) 》
 
-**Context:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-09346))_
+**Context:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-09259))_
 
 > Here is a list of prices of magical nonmetal or ring mail armor with +3 power.
 
-**Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-09345))_
+**Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-09258))_
 
-<a id="atom-technical-atom-77c63ea7b8004693"></a>
+<a id="atom-technical-atom-0529f596602852a6"></a>
 > Rarity=16 Enchanter=Many Form=Non-metal or ring mail armor Required Strength/Base Trade Price=See description Magic Power=+3 to evasion speed damage reduction
 
 
@@ -193,11 +193,11 @@ What [[sword-world-rpg-complete-edition]] covers about 《 magic armor (+1) 》:
 
 ### Source structure
 
-- [[sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-magic-armor-1-5f889274]] - source section: Chapter 14: / 14.4 Magical Item List / 《 Magic Armor (+1) 》 shares source evidence from Chapter 14: / 14.4 Magical Item List / 《 Magic Armor (+1) 》: Similar to weapons, it's recommended to give each piece of magical armor its own name and lore by referencing the descriptions of magical armor that follow, which he ... [truncated]; Chapter 14: / 14.4 Magical Item List / 《 Magic Armor (+1) 》 shares technical record from Chapter 14: / 14.4 Magical Item List / 《 Magic Armor (+1) 》: Rarity=12 (3 shared statement(s), 5 shared atom(s))
-- [[sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-magic-armor-1-6c384762]] - source section: Chapter 14: / 14.4 Magical Item List / 《 Magic Armor (+1) shares source evidence from Chapter 14: / 14.4 Magical Item List / 《 Magic Armor (+1): This is a price list for magic metal armor with +1 power. While armor with high required strength tends to be unpopular, when it becomes exceptionally high-end, it s ... [truncated]; Chapter 14: / 14.4 Magical Item List / 《 Magic Armor (+1) shares technical record from Chapter 14: / 14.4 Magical Item List / 《 Magic Armor (+1): Rarity=12 Enchanter=Many Form=Metal armor Required Strength/Base Trade Price=See description Powers=+1 to evasion speed and damage reduction (1 shared statement(s), 3 shared atom(s))
-- [[sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-magic-armor-3-0f6fa405]] - source section: Chapter 14: / 14.4 Magical Item List / 《 Magic Armor (+3) 》 shares source evidence from Chapter 14: / 14.4 Magical Item List / 《 Magic Armor (+3) 》: Here is a list of prices of magical nonmetal or ring mail armor with +3 power.; Chapter 14: / 14.4 Magical Item List / 《 Magic Armor (+3) 》 shares technical record from Chapter 14: / 14.4 Magical Item List / 《 Magic Armor (+3) 》: 17 18000 Rarity=12 (+1)/14 (+2)/16 (+3) Rarity=16 17 Enchanter=Many Enchanter=Many Form=Shield Form=Non-metal or ring mail armor 《 》 Magic Armor (+2) Required Streng ... [truncated] (1 shared statement(s), 2 shared atom(s))
-- [[sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-magic-armor-2-bb531e78]] - source section: Chapter 14: / 14.4 Magical Item List / 《 Magic Armor (+2) 》 shares source evidence from Chapter 14: / 14.4 Magical Item List / 《 Magic Armor (+2) 》: Here is a list of prices of magical metal armor with +2 power.; Chapter 14: / 14.4 Magical Item List / 《 Magic Armor (+2) 》 shares technical record from Chapter 14: / 14.4 Magical Item List / 《 Magic Armor (+2) 》: Rarity=14 Enchanter=Many Form=Metal armor Required Strength/Base Trade Price=See description Powers=+2 to evasion speed and damage reduction (1 shared statement(s), 1 shared atom(s))
-- [[sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-magic-armor-3-2dfc2a6a]] - source section: Chapter 14: / 14.4 Magical Item List / 《 Magic Armor (+3) 》 shares source evidence from Chapter 14: / 14.4 Magical Item List / 《 Magic Armor (+3) 》: Chain mail, splint, lamellar, plate armor Rarity=16 Enchanter=Many Form=Metal Armor Required Strength/Base Trade Price=See description Magic Power=+3 to evasion spee ... [truncated] (2 shared statement(s))
+- [[sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-magic-armor-1-541aac38]] - source section: Chapter 14: / 14.4 Magical Item List / 《 Magic Armor (+1) 》 shares source evidence from Chapter 14: / 14.4 Magical Item List / 《 Magic Armor (+1) 》: Similar to weapons, it's recommended to give each piece of magical armor its own name and lore by referencing the descriptions of magical armor that follow, which he ... [truncated]; Chapter 14: / 14.4 Magical Item List / 《 Magic Armor (+1) 》 shares technical record from Chapter 14: / 14.4 Magical Item List / 《 Magic Armor (+1) 》: Rarity=12 (3 shared statement(s), 5 shared atom(s))
+- [[sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-magic-armor-1-bbe98a2e]] - source section: Chapter 14: / 14.4 Magical Item List / 《 Magic Armor (+1) shares source evidence from Chapter 14: / 14.4 Magical Item List / 《 Magic Armor (+1): This is a price list for magic metal armor with +1 power. While armor with high required strength tends to be unpopular, when it becomes exceptionally high-end, it s ... [truncated]; Chapter 14: / 14.4 Magical Item List / 《 Magic Armor (+1) shares technical record from Chapter 14: / 14.4 Magical Item List / 《 Magic Armor (+1): Rarity=12 Enchanter=Many Form=Metal armor Required Strength/Base Trade Price=See description Powers=+1 to evasion speed and damage reduction (1 shared statement(s), 3 shared atom(s))
+- [[sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-magic-armor-3-85ec42d0]] - source section: Chapter 14: / 14.4 Magical Item List / 《 Magic Armor (+3) 》 shares source evidence from Chapter 14: / 14.4 Magical Item List / 《 Magic Armor (+3) 》: Here is a list of prices of magical nonmetal or ring mail armor with +3 power.; Chapter 14: / 14.4 Magical Item List / 《 Magic Armor (+3) 》 shares technical record from Chapter 14: / 14.4 Magical Item List / 《 Magic Armor (+3) 》: 17 18000 Rarity=12 (+1)/14 (+2)/16 (+3) Rarity=16 17 Enchanter=Many Enchanter=Many Form=Shield Form=Non-metal or ring mail armor 《 》 Magic Armor (+2) Required Streng ... [truncated] (1 shared statement(s), 2 shared atom(s))
+- [[sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-magic-armor-2-9c1a7f3d]] - source section: Chapter 14: / 14.4 Magical Item List / 《 Magic Armor (+2) 》 shares source evidence from Chapter 14: / 14.4 Magical Item List / 《 Magic Armor (+2) 》: Here is a list of prices of magical metal armor with +2 power.; Chapter 14: / 14.4 Magical Item List / 《 Magic Armor (+2) 》 shares technical record from Chapter 14: / 14.4 Magical Item List / 《 Magic Armor (+2) 》: Rarity=14 Enchanter=Many Form=Metal armor Required Strength/Base Trade Price=See description Powers=+2 to evasion speed and damage reduction (1 shared statement(s), 1 shared atom(s))
+- [[sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-magic-armor-3-7fd1d10e]] - source section: Chapter 14: / 14.4 Magical Item List / 《 Magic Armor (+3) 》 shares source evidence from Chapter 14: / 14.4 Magical Item List / 《 Magic Armor (+3) 》: Chain mail, splint, lamellar, plate armor Rarity=16 Enchanter=Many Form=Metal Armor Required Strength/Base Trade Price=See description Magic Power=+3 to evasion spee ... [truncated] (2 shared statement(s))
 
 ### Shared claims
 

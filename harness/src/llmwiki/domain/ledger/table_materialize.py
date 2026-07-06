@@ -17,7 +17,7 @@ _SPACED_COLUMN = re.compile(r"\S.*?\s{2,}\S")
 
 
 def materialize_table(segment: SourceSegment) -> tuple[TablePayload, ReviewReason | None]:
-    raw = segment.text
+    raw = segment.table_text or segment.text
     caption = _table_caption(raw)
     columns, rows, cells, status = _parse_pipe_table(raw)
     if status == "parsed":

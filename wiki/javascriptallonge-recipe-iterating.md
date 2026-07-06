@@ -9,7 +9,7 @@ domain: javascriptallonge
 category_path: recipes/javascriptallonge
 source_id: javascriptallonge.pdf
 aliases: iterating
-projection_coverage: recipe-javascriptallonge-recipe-iterating@847b0cb7922dc8bc81c5ecd69378c517
+projection_coverage: recipe-javascriptallonge-recipe-iterating@1fc02d513387b5e30e48df2152fe2d91
 ---
 
 # iterating
@@ -18,23 +18,23 @@ From [[javascriptallonge]].
 
 ## Pattern
 
-- Use the source-backed pattern described in [[javascriptallonge-section-copy-on-write-functional-iterators-iterating-60eb2c86]].
+- Use the source-backed pattern described in [[javascriptallonge-section-iterating-04da792c]].
 - Evidence roles: decision, constraint, explanation, example.
 
 ## Applicability And Rationale
 
-- Folding is a universal operation, and with care we can accomplish any task with folds that could be accomplished with that stalwart of structured programming, the for loop. _(javascriptallonge.pdf (source-range-c98ab3e6-01280))_
-- Nevertheless, there is some value in being able to express some algorithms as iteration. _(javascriptallonge.pdf (source-range-c98ab3e6-01280))_
-- JavaScript has a particularly low-level version of for loop that mimics the semantics of the C language. _(javascriptallonge.pdf (source-range-c98ab3e6-01281))_
-- And worst of all, we're getting really low-level with details like knowing that the elements of an array are indexed with consecutive integers that begin with 0 . _(javascriptallonge.pdf (source-range-c98ab3e6-01283))_
-- We can put those into a POJO (a Plain Old JavaScript Object). _(javascriptallonge.pdf (source-range-c98ab3e6-01286))_
-- Notice that buried inside our loop, we have bound the names done and value . _(javascriptallonge.pdf (source-range-c98ab3e6-01286))_
+- Folding is a universal operation, and with care we can accomplish any task with folds that could be accomplished with that stalwart of structured programming, the for loop. _(javascriptallonge.pdf (source-range-c98ab3e6-01260))_
+- Nevertheless, there is some value in being able to express some algorithms as iteration. _(javascriptallonge.pdf (source-range-c98ab3e6-01260))_
+- JavaScript has a particularly low-level version of for loop that mimics the semantics of the C language. _(javascriptallonge.pdf (source-range-c98ab3e6-01261))_
+- And worst of all, we're getting really low-level with details like knowing that the elements of an array are indexed with consecutive integers that begin with 0 . _(javascriptallonge.pdf (source-range-c98ab3e6-01263))_
+- Notice that buried inside our loop, we have bound the names done and value . _(javascriptallonge.pdf (source-range-c98ab3e6-01266))_
+- We can put those into a POJO (a Plain Old JavaScript Object). _(javascriptallonge.pdf (source-range-c98ab3e6-01266))_
 
 ## Technical Atoms
 
 ### Atom 1: `code-block`
 
-_Source: javascriptallonge.pdf (source-range-c98ab3e6-01282)_
+_Source: javascriptallonge.pdf (source-range-c98ab3e6-01262)_
 
 ```
 const arraySum = (array) => {
@@ -50,7 +50,7 @@ arraySum([1, 4, 9, 16, 25])
 
 ### Atom 2: `code-block`
 
-_Source: javascriptallonge.pdf (source-range-c98ab3e6-01285)_
+_Source: javascriptallonge.pdf (source-range-c98ab3e6-01265)_
 
 ```
 const arraySum = (array) => {
@@ -69,7 +69,7 @@ arraySum([1, 4, 9, 16, 25])
 
 ### Atom 3: `code-block`
 
-_Source: javascriptallonge.pdf (source-range-c98ab3e6-01287)_
+_Source: javascriptallonge.pdf (source-range-c98ab3e6-01267)_
 
 ```
 const arraySum = (array) => {
@@ -110,7 +110,7 @@ while ((eachIteration = iterator(), !eachIteration.done)) {
 
 ### Atom 4: `code-block`
 
-_Source: javascriptallonge.pdf (source-range-c98ab3e6-01288)_
+_Source: javascriptallonge.pdf (source-range-c98ab3e6-01268)_
 
 ```
 sum += eachIteration.value;
@@ -123,7 +123,7 @@ iteratorSum(arrayIterator([1, 4, 9, 16, 25]))
 
 ### Atom 5: `code-block`
 
-_Source: javascriptallonge.pdf (source-range-c98ab3e6-01291)_
+_Source: javascriptallonge.pdf (source-range-c98ab3e6-01271)_
 
 ```
 const EMPTY = null;
@@ -152,7 +152,7 @@ aPair = aPair.rest;
 
 ### Atom 6: `code-block`
 
-_Source: javascriptallonge.pdf (source-range-c98ab3e6-01292)_
+_Source: javascriptallonge.pdf (source-range-c98ab3e6-01272)_
 
 ```
 return { done, value: first }
@@ -174,4 +174,4 @@ iteratorSum(aListIterator)
 ## Source Trail
 
 - Source manifest: [[javascriptallonge]]
-- Source section: [[javascriptallonge-section-copy-on-write-functional-iterators-iterating-60eb2c86]]
+- Source section: [[javascriptallonge-section-iterating-04da792c]]
