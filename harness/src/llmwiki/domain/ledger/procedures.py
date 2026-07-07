@@ -29,6 +29,10 @@ from llmwiki.domain.ledger.procedure_language import (
     is_step_heading,
     step_title,
 )
+from llmwiki.domain.ledger.procedure_shape_admission import (
+    ProcedureShapeAdmission,
+    admit_procedure_shape,
+)
 from llmwiki.domain.ledger.procedure_state_flow import (
     ProcedureStateFlow,
     ProcedureStepEvidence,
@@ -50,6 +54,7 @@ class ProcedureStep:
     title: str
     action_type: str
     heading_action_type: str
+    source_node_id: str
     section_page_id: str
     claims: tuple[LedgerEntry, ...]
     technical_atoms: tuple[TechnicalAtom, ...]
@@ -66,6 +71,7 @@ class ProcedureGuide:
     decision_points: tuple[DecisionPoint, ...]
     technical_atoms: tuple[TechnicalAtom, ...]
     state_flow: ProcedureStateFlow
+    admission: ProcedureShapeAdmission
 
 
 def plan_procedure_guides(
@@ -84,8 +90,8 @@ def plan_procedure_guides(
         node = structure.node(candidate.structure_node_id)
         if node is None:
             continue
-        entries = rollup_entries(structure, grouped_entries, node)
-        atoms = rollup_atoms(structure, grouped_atoms, node)
+        direct_entries = grouped_entries.get(node.structure_node_id, ())
+        direct_atoms = grouped_atoms.get(node.structure_node_id, ())
         children = tuple(child for child in structure.children(node.structure_node_id))
         steps = _steps_for_children(
             structure,
@@ -98,8 +104,15 @@ def plan_procedure_guides(
         if len(steps) < 2:
             continue
         state_flow = _state_flow(steps)
-        if not state_flow.has_state_flow:
+        admission = admit_procedure_shape(candidate, steps, state_flow)
+        if not admission.accepted:
             continue
+        closure_entries = _unique_entries(
+            (*direct_entries, *(claim for step in steps for claim in step.claims))
+        )
+        closure_atoms = _unique_atoms(
+            (*direct_atoms, *(atom for step in steps for atom in step.technical_atoms))
+        )
         guides.append(
             ProcedureGuide(
                 procedure_id=slugify(f"{source_page_id}-procedure-{goal_title(node.heading_text)}"),
@@ -110,9 +123,12 @@ def plan_procedure_guides(
                     source_page_id, structure, node, section_plan
                 ),
                 steps=steps,
-                decision_points=plan_decision_points(entries, atoms, ledger.source_statements),
-                technical_atoms=_relevant_atoms(atoms),
+                decision_points=plan_decision_points(
+                    closure_entries, closure_atoms, ledger.source_statements
+                ),
+                technical_atoms=_relevant_atoms(closure_atoms),
                 state_flow=state_flow,
+                admission=admission,
             )
         )
     guides.sort(key=lambda guide: (-len(guide.steps), guide.source_node.source_order))
@@ -168,6 +184,7 @@ def _steps_for_children(
                 title=step_title(title_heading),
                 action_type=action,
                 heading_action_type=heading_action,
+                source_node_id=evidence_node.structure_node_id,
                 section_page_id=projected_section_page_id(
                     source_page_id, structure, evidence_node, section_plan
                 ),

@@ -1,7 +1,7 @@
 ---
 page_id: sword-world-rpg-complete-edition-procedure-create-character
 page_kind: procedure
-summary: Create Character: 9 ordered step(s), 4 decision point(s), 36 authoritative dependency reference(s), 11 review-only dependency reference(s), projection partial from raw/Sword World RPG - Complete Edition.pdf.
+summary: Create Character: 9 ordered step(s), 4 decision point(s), 33 authoritative dependency reference(s), 9 review-only dependency reference(s), projection partial from raw/Sword World RPG - Complete Edition.pdf.
 page_family: procedure-guide
 sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-07
@@ -9,7 +9,7 @@ domain: sword-world-rpg-complete-edition
 category_path: procedures/sword-world-rpg-complete-edition
 source_id: Sword World RPG - Complete Edition.pdf
 aliases: create-character, character-creation
-projection_coverage: procedure-sword-world-rpg-complete-edition-procedure-create-character@28be88d8e18d20ac1698f7710584d66d
+projection_coverage: procedure-sword-world-rpg-complete-edition-procedure-create-character@99f34f44b955cc97575cc62f323e973b
 ---
 
 # Create Character
@@ -318,9 +318,6 @@ From [[sword-world-rpg-complete-edition]].
 - [[sword-world-rpg-complete-edition-section-1-4-character-creation-1-4-5-character-growth-via-starting-experience-points-7eada9c7]]#atom-technical-atom-9618f8f39fff04c4 For example, if you do not have the ranger skill and you want to acquire 2 levels in ranger at once, you must spend 500 _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-00432))_
 - [[sword-world-rpg-complete-edition-section-1-4-character-creation-1-4-5-character-growth-via-starting-experience-points-7eada9c7]]#atom-technical-atom-e150370b90455af8 If a character has neither the sorcerer nor sage skill, they can acquire 1 level in both the sorcerer and sage skills by _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-00468))_
 - [[sword-world-rpg-complete-edition-section-1-4-character-creation-1-4-5-character-growth-via-starting-experience-points-7eada9c7]]#atom-technical-atom-fcf44136cb366a43 If a character has 1 level in the sage skill (so if they're a human or half-elf, and if merchant/scholar or noble was ro _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-00469))_
-- [[sword-world-rpg-complete-edition-section-1-4-character-creation-23071b21]]#atom-technical-atom-e7fe97a47ee5118a Of course, if you have a twohanded weapon, you cannot hold a shield, which will make your character less capable of defe _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-00617))_
-- [[sword-world-rpg-complete-edition-section-1-4-character-creation-23071b21]]#atom-technical-atom-9fcc2dc0a6e5e68f Throwable weapons are basically used in melee, although they can be thrown when the need arises. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-00620))_
-- [[sword-world-rpg-complete-edition-section-1-4-character-creation-23071b21]]#atom-technical-atom-b7fa232aac683d30 If a character's strength is 13 or greater, a large shield can be chosen. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-00734))_
 - [[sword-world-rpg-complete-edition-section-1-4-character-creation-1-4-9-filling-out-the-character-sheet-3ba78d4e]]#atom-technical-atom-2c838fe257a4bbeb If the character is a human or a halfelf raised by a human, Table 1-5: Backgrounds must be used to determine their origi _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-00874))_
 
 ### Worked-Example
@@ -334,8 +331,6 @@ From [[sword-world-rpg-complete-edition]].
 - `table`: Table 1-6: Starting Experience by Race _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-00357); technical-atom-trust: table-parse-incomplete, table-raw-text-contaminated-by-prose)_
 - `table`: Table 1-7: Experience Points by Skill     Trident (throwable)                  1H      4~16        x10+20 _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-00472); technical-atom-trust: table-parse-incomplete, table-raw-text-contaminated-by-prose)_
 - `table`: Table 1-8: Weapons-1 _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-00477); technical-atom-trust: table-parse-incomplete, table-raw-text-contaminated-by-prose)_
-- `table`: Table 1-8: Weapons-2 _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-00621); technical-atom-trust: table-parse-incomplete, table-raw-text-contaminated-by-prose)_
-- `table`: 10 for 12 _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-00730); technical-atom-trust: table-parse-incomplete)_
 - `table`: Table 1-9: Armor _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-00741); technical-atom-trust: table-header-suspicious)_
 - `table`: 100 pen／ink 5 Quill 100 Thieves' tools 100+ Musical instrument Food _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-00838); technical-atom-trust: table-parse-incomplete)_
 - `table`: 1 night (not including food) _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-00855); technical-atom-trust: table-parse-incomplete)_
@@ -344,8 +339,8 @@ From [[sword-world-rpg-complete-edition]].
 ## Execution Readiness
 
 - Projection status: `partial`.
-- Authoritative dependencies: 36.
-- Review-only dependencies: 11.
+- Authoritative dependencies: 33.
+- Review-only dependencies: 9.
 - Missing dependencies: 0.
 - The procedure is complete when every step output has been recorded or validated.
 

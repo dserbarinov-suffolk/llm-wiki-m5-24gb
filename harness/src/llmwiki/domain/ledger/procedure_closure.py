@@ -166,7 +166,7 @@ def _review_only_dependencies(
             if _relevant_atom(atom)
             and atom.technical_atom_id not in authoritative_ids
             and not atom_is_authoritative(atom)
-            and _atom_in_node_scope(atom, guide.source_node, structure)
+            and _atom_in_admitted_scope(atom, guide, structure)
         )
     )
 
@@ -271,6 +271,22 @@ def _atom_in_node_scope(
         default=None,
     )
     return atom_order >= start and (end is None or atom_order < end)
+
+
+def _atom_in_admitted_scope(
+    atom: TechnicalAtom, guide: ProcedureGuide, structure: DocumentStructure
+) -> bool:
+    direct_step_nodes = tuple(
+        node
+        for step in guide.steps
+        if (node := structure.node(step.source_node_id)) is not None
+    )
+    if any(_atom_in_node_scope(atom, node, structure) for node in direct_step_nodes):
+        return True
+    return _atom_in_node_scope(atom, guide.source_node, structure) and any(
+        atom.source_range_id == candidate.source_range_id
+        for candidate in (guide.source_node, *direct_step_nodes)
+    )
 
 
 def _source_order_from_range_id(source_range_id: str) -> int | None:

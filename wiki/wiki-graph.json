@@ -8383,16 +8383,6 @@
     {
       "resolved": true,
       "source": "sword-world-rpg-complete-edition",
-      "target": "sword-world-rpg-complete-edition-procedure-and-armor"
-    },
-    {
-      "resolved": true,
-      "source": "sword-world-rpg-complete-edition",
-      "target": "sword-world-rpg-complete-edition-procedure-attacks-from-characters-against-characters"
-    },
-    {
-      "resolved": true,
-      "source": "sword-world-rpg-complete-edition",
       "target": "sword-world-rpg-complete-edition-procedure-attacks-from-characters-against-monsters"
     },
     {
@@ -8418,17 +8408,7 @@
     {
       "resolved": true,
       "source": "sword-world-rpg-complete-edition",
-      "target": "sword-world-rpg-complete-edition-procedure-monster-catalog"
-    },
-    {
-      "resolved": true,
-      "source": "sword-world-rpg-complete-edition",
       "target": "sword-world-rpg-complete-edition-procedure-should-you-use-a-target-score-check-or-a-difficulty-check"
-    },
-    {
-      "resolved": true,
-      "source": "sword-world-rpg-complete-edition",
-      "target": "sword-world-rpg-complete-edition-procedure-th-level-dragon-roar-magic-list-summon-lesser-dragon"
     },
     {
       "resolved": true,
@@ -9847,51 +9827,6 @@
     },
     {
       "resolved": true,
-      "source": "sword-world-rpg-complete-edition-procedure-and-armor",
-      "target": "sword-world-rpg-complete-edition"
-    },
-    {
-      "resolved": true,
-      "source": "sword-world-rpg-complete-edition-procedure-and-armor",
-      "target": "sword-world-rpg-complete-edition-section-4-10-excellent-weapons-and-armor-and-armor-4-10-2-silver-weapons-and-armor-f42bd7c9"
-    },
-    {
-      "resolved": true,
-      "source": "sword-world-rpg-complete-edition-procedure-and-armor",
-      "target": "sword-world-rpg-complete-edition-section-4-10-excellent-weapons-and-armor-and-armor-4-10-3-magical-weapons-and-armor-73e21f02"
-    },
-    {
-      "resolved": true,
-      "source": "sword-world-rpg-complete-edition-procedure-and-armor",
-      "target": "sword-world-rpg-complete-edition-section-4-10-excellent-weapons-and-armor-and-armor-4-10-4-mithril-silver-weapons-and-armor-8c9ba243"
-    },
-    {
-      "resolved": true,
-      "source": "sword-world-rpg-complete-edition-procedure-and-armor",
-      "target": "sword-world-rpg-complete-edition-section-4-10-excellent-weapons-and-armor-and-armor-ef848d39"
-    },
-    {
-      "resolved": true,
-      "source": "sword-world-rpg-complete-edition-procedure-attacks-from-characters-against-characters",
-      "target": "sword-world-rpg-complete-edition"
-    },
-    {
-      "resolved": true,
-      "source": "sword-world-rpg-complete-edition-procedure-attacks-from-characters-against-characters",
-      "target": "sword-world-rpg-complete-edition-section-4-7-attacks-from-characters-against-characters-112572a5"
-    },
-    {
-      "resolved": true,
-      "source": "sword-world-rpg-complete-edition-procedure-attacks-from-characters-against-characters",
-      "target": "sword-world-rpg-complete-edition-section-4-7-attacks-from-characters-against-characters-4-7-1-hit-checks-9c205d1f"
-    },
-    {
-      "resolved": true,
-      "source": "sword-world-rpg-complete-edition-procedure-attacks-from-characters-against-characters",
-      "target": "sword-world-rpg-complete-edition-section-4-7-attacks-from-characters-against-characters-4-7-2-damage-checks-dcc87885"
-    },
-    {
-      "resolved": true,
       "source": "sword-world-rpg-complete-edition-procedure-attacks-from-characters-against-monsters",
       "target": "sword-world-rpg-complete-edition"
     },
@@ -10057,66 +9992,6 @@
     },
     {
       "resolved": true,
-      "source": "sword-world-rpg-complete-edition-procedure-monster-catalog",
-      "target": "sword-world-rpg-complete-edition"
-    },
-    {
-      "resolved": true,
-      "source": "sword-world-rpg-complete-edition-procedure-monster-catalog",
-      "target": "sword-world-rpg-complete-edition-section-monster-catalog-13-2-10-magical-creatures-56568f0e"
-    },
-    {
-      "resolved": true,
-      "source": "sword-world-rpg-complete-edition-procedure-monster-catalog",
-      "target": "sword-world-rpg-complete-edition-section-monster-catalog-13-2-11-daemons-underworld-creatures-acef5a51"
-    },
-    {
-      "resolved": true,
-      "source": "sword-world-rpg-complete-edition-procedure-monster-catalog",
-      "target": "sword-world-rpg-complete-edition-section-monster-catalog-13-2-12-humans-c6182bf8"
-    },
-    {
-      "resolved": true,
-      "source": "sword-world-rpg-complete-edition-procedure-monster-catalog",
-      "target": "sword-world-rpg-complete-edition-section-monster-catalog-13-2-13-other-3f55101b"
-    },
-    {
-      "resolved": true,
-      "source": "sword-world-rpg-complete-edition-procedure-monster-catalog",
-      "target": "sword-world-rpg-complete-edition-section-monster-catalog-13-2-2-fae-64100e1e"
-    },
-    {
-      "resolved": true,
-      "source": "sword-world-rpg-complete-edition-procedure-monster-catalog",
-      "target": "sword-world-rpg-complete-edition-section-monster-catalog-13-2-3-youma-1b224e44"
-    },
-    {
-      "resolved": true,
-      "source": "sword-world-rpg-complete-edition-procedure-monster-catalog",
-      "target": "sword-world-rpg-complete-edition-section-monster-catalog-13-2-4-spirits-fc1871d8"
-    },
-    {
-      "resolved": true,
-      "source": "sword-world-rpg-complete-edition-procedure-monster-catalog",
-      "target": "sword-world-rpg-complete-edition-section-monster-catalog-13-2-5-titans-bc0a505c"
-    },
-    {
-      "resolved": true,
-      "source": "sword-world-rpg-complete-edition-procedure-monster-catalog",
-      "target": "sword-world-rpg-complete-edition-section-monster-catalog-13-2-6-mythical-beasts-and-magical-beasts-7977e270"
-    },
-    {
-      "resolved": true,
-      "source": "sword-world-rpg-complete-edition-procedure-monster-catalog",
-      "target": "sword-world-rpg-complete-edition-section-monster-catalog-13-2-7-animals-206d3d45"
-    },
-    {
-      "resolved": true,
-      "source": "sword-world-rpg-complete-edition-procedure-monster-catalog",
-      "target": "sword-world-rpg-complete-edition-section-monster-catalog-4f4b69b4"
-    },
-    {
-      "resolved": true,
       "source": "sword-world-rpg-complete-edition-procedure-should-you-use-a-target-score-check-or-a-difficulty-check",
       "target": "sword-world-rpg-complete-edition"
     },
@@ -10139,26 +10014,6 @@
       "resolved": true,
       "source": "sword-world-rpg-complete-edition-procedure-should-you-use-a-target-score-check-or-a-difficulty-check",
       "target": "sword-world-rpg-complete-edition-section-chapter-9-setting-target-scores-and-difficulties-should-you-use-a-target-score-check-or-a-diffic-bd9a418b"
-    },
-    {
-      "resolved": true,
-      "source": "sword-world-rpg-complete-edition-procedure-th-level-dragon-roar-magic-list-summon-lesser-dragon",
-      "target": "sword-world-rpg-complete-edition"
-    },
-    {
-      "resolved": true,
-      "source": "sword-world-rpg-complete-edition-procedure-th-level-dragon-roar-magic-list-summon-lesser-dragon",
-      "target": "sword-world-rpg-complete-edition-section-chapter-11-notes-on-magic-11-2-dark-magic-10th-level-basic-dark-magic-list-call-god-11-2-3-speci-1f76bc3d"
-    },
-    {
-      "resolved": true,
-      "source": "sword-world-rpg-complete-edition-procedure-th-level-dragon-roar-magic-list-summon-lesser-dragon",
-      "target": "sword-world-rpg-complete-edition-section-chapter-11-notes-on-magic-11-2-dark-magic-10th-level-basic-dark-magic-list-call-god-11-2-3-speci-c4c685a8"
-    },
-    {
-      "resolved": true,
-      "source": "sword-world-rpg-complete-edition-procedure-th-level-dragon-roar-magic-list-summon-lesser-dragon",
-      "target": "sword-world-rpg-complete-edition-section-chapter-11-notes-on-magic-11-2-dark-magic-10th-level-basic-dark-magic-list-call-god-11-2-3-speci-d27d1279"
     },
     {
       "resolved": true,
@@ -23732,16 +23587,12 @@
         "sword-world-rpg-complete-edition-collection-chapter-6-8957a8ca",
         "sword-world-rpg-complete-edition-collection-chapter-6-9794103a",
         "sword-world-rpg-complete-edition-collection-spellsongs-filling-out-the-character-sheet-f222832c",
-        "sword-world-rpg-complete-edition-procedure-and-armor",
-        "sword-world-rpg-complete-edition-procedure-attacks-from-characters-against-characters",
         "sword-world-rpg-complete-edition-procedure-attacks-from-characters-against-monsters",
         "sword-world-rpg-complete-edition-procedure-attacks-from-monsters-against-characters",
         "sword-world-rpg-complete-edition-procedure-combat-in-special-situations",
         "sword-world-rpg-complete-edition-procedure-create-character",
         "sword-world-rpg-complete-edition-procedure-difficulty-checks",
-        "sword-world-rpg-complete-edition-procedure-monster-catalog",
         "sword-world-rpg-complete-edition-procedure-should-you-use-a-target-score-check-or-a-difficulty-check",
-        "sword-world-rpg-complete-edition-procedure-th-level-dragon-roar-magic-list-summon-lesser-dragon",
         "sword-world-rpg-complete-edition-procedure-unconscious-and-death-checks",
         "sword-world-rpg-complete-edition-section-1-2-races-7e38ee04",
         "sword-world-rpg-complete-edition-section-1-4-character-creation-23071b21",
@@ -23784,7 +23635,7 @@
       "sources": [
         "raw/Sword World RPG - Complete Edition.pdf"
       ],
-      "summary": "Claim-ledger projection (rules-reference): 11163 usable entries, 3642 technical atoms, 1091 needs-review, 532 linked page(s); write decision write-with-review-work."
+      "summary": "Claim-ledger projection (rules-reference): 11163 usable entries, 3642 technical atoms, 1091 needs-review, 528 linked page(s); write decision write-with-review-work."
     },
     {
       "category": "concept",
@@ -24843,35 +24694,6 @@
     },
     {
       "category": "procedure",
-      "name": "sword-world-rpg-complete-edition-procedure-and-armor",
-      "outbound_links": [
-        "sword-world-rpg-complete-edition",
-        "sword-world-rpg-complete-edition-section-4-10-excellent-weapons-and-armor-and-armor-4-10-2-silver-weapons-and-armor-f42bd7c9",
-        "sword-world-rpg-complete-edition-section-4-10-excellent-weapons-and-armor-and-armor-4-10-3-magical-weapons-and-armor-73e21f02",
-        "sword-world-rpg-complete-edition-section-4-10-excellent-weapons-and-armor-and-armor-4-10-4-mithril-silver-weapons-and-armor-8c9ba243",
-        "sword-world-rpg-complete-edition-section-4-10-excellent-weapons-and-armor-and-armor-ef848d39"
-      ],
-      "sources": [
-        "raw/Sword World RPG - Complete Edition.pdf"
-      ],
-      "summary": "Complete and Armor: 3 ordered step(s), 60 decision point(s), 1081 authoritative dependency reference(s), 13 review-only dependency reference(s), projection partial from raw/Sword World RPG - Complete Edition.pdf."
-    },
-    {
-      "category": "procedure",
-      "name": "sword-world-rpg-complete-edition-procedure-attacks-from-characters-against-characters",
-      "outbound_links": [
-        "sword-world-rpg-complete-edition",
-        "sword-world-rpg-complete-edition-section-4-7-attacks-from-characters-against-characters-112572a5",
-        "sword-world-rpg-complete-edition-section-4-7-attacks-from-characters-against-characters-4-7-1-hit-checks-9c205d1f",
-        "sword-world-rpg-complete-edition-section-4-7-attacks-from-characters-against-characters-4-7-2-damage-checks-dcc87885"
-      ],
-      "sources": [
-        "raw/Sword World RPG - Complete Edition.pdf"
-      ],
-      "summary": "Complete Attacks From Characters Against Characters: 2 ordered step(s), 3 decision point(s), 10 authoritative dependency reference(s), 1 review-only dependency reference(s), projection partial from raw/Sword World RPG - Complete Edition.pdf."
-    },
-    {
-      "category": "procedure",
       "name": "sword-world-rpg-complete-edition-procedure-attacks-from-characters-against-monsters",
       "outbound_links": [
         "sword-world-rpg-complete-edition",
@@ -24937,7 +24759,7 @@
       "sources": [
         "raw/Sword World RPG - Complete Edition.pdf"
       ],
-      "summary": "Create Character: 9 ordered step(s), 4 decision point(s), 36 authoritative dependency reference(s), 11 review-only dependency reference(s), projection partial from raw/Sword World RPG - Complete Edition.pdf."
+      "summary": "Create Character: 9 ordered step(s), 4 decision point(s), 33 authoritative dependency reference(s), 9 review-only dependency reference(s), projection partial from raw/Sword World RPG - Complete Edition.pdf."
     },
     {
       "category": "procedure",
@@ -24955,28 +24777,6 @@
     },
     {
       "category": "procedure",
-      "name": "sword-world-rpg-complete-edition-procedure-monster-catalog",
-      "outbound_links": [
-        "sword-world-rpg-complete-edition",
-        "sword-world-rpg-complete-edition-section-monster-catalog-13-2-10-magical-creatures-56568f0e",
-        "sword-world-rpg-complete-edition-section-monster-catalog-13-2-11-daemons-underworld-creatures-acef5a51",
-        "sword-world-rpg-complete-edition-section-monster-catalog-13-2-12-humans-c6182bf8",
-        "sword-world-rpg-complete-edition-section-monster-catalog-13-2-13-other-3f55101b",
-        "sword-world-rpg-complete-edition-section-monster-catalog-13-2-2-fae-64100e1e",
-        "sword-world-rpg-complete-edition-section-monster-catalog-13-2-3-youma-1b224e44",
-        "sword-world-rpg-complete-edition-section-monster-catalog-13-2-4-spirits-fc1871d8",
-        "sword-world-rpg-complete-edition-section-monster-catalog-13-2-5-titans-bc0a505c",
-        "sword-world-rpg-complete-edition-section-monster-catalog-13-2-6-mythical-beasts-and-magical-beasts-7977e270",
-        "sword-world-rpg-complete-edition-section-monster-catalog-13-2-7-animals-206d3d45",
-        "sword-world-rpg-complete-edition-section-monster-catalog-4f4b69b4"
-      ],
-      "sources": [
-        "raw/Sword World RPG - Complete Edition.pdf"
-      ],
-      "summary": "Complete Monster Catalog: 11 ordered step(s), 47 decision point(s), 1317 authoritative dependency reference(s), 1 review-only dependency reference(s), projection partial from raw/Sword World RPG - Complete Edition.pdf."
-    },
-    {
-      "category": "procedure",
       "name": "sword-world-rpg-complete-edition-procedure-should-you-use-a-target-score-check-or-a-difficulty-check",
       "outbound_links": [
         "sword-world-rpg-complete-edition",
@@ -24989,20 +24789,6 @@
         "raw/Sword World RPG - Complete Edition.pdf"
       ],
       "summary": "Complete Should You Use a Target Score Check or a Difficulty Check?: 3 ordered step(s), 8 decision point(s), 24 authoritative dependency reference(s), 2 review-only dependency reference(s), projection partial from raw/Sword World RPG - Complete Edition.pdf."
-    },
-    {
-      "category": "procedure",
-      "name": "sword-world-rpg-complete-edition-procedure-th-level-dragon-roar-magic-list-summon-lesser-dragon",
-      "outbound_links": [
-        "sword-world-rpg-complete-edition",
-        "sword-world-rpg-complete-edition-section-chapter-11-notes-on-magic-11-2-dark-magic-10th-level-basic-dark-magic-list-call-god-11-2-3-speci-1f76bc3d",
-        "sword-world-rpg-complete-edition-section-chapter-11-notes-on-magic-11-2-dark-magic-10th-level-basic-dark-magic-list-call-god-11-2-3-speci-c4c685a8",
-        "sword-world-rpg-complete-edition-section-chapter-11-notes-on-magic-11-2-dark-magic-10th-level-basic-dark-magic-list-call-god-11-2-3-speci-d27d1279"
-      ],
-      "sources": [
-        "raw/Sword World RPG - Complete Edition.pdf"
-      ],
-      "summary": "Complete th Level Dragon Roar Magic List [ Summon Lesser Dragon ]: 2 ordered step(s), 4 decision point(s), 10 authoritative dependency reference(s), 0 review-only dependency reference(s), projection ready from raw/Sword World RPG - Complete Edition.pdf."
     },
     {
       "category": "procedure",

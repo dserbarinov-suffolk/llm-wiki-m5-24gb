@@ -1,14 +1,14 @@
 ---
 page_id: sword-world-rpg-complete-edition
 page_kind: source
-summary: Claim-ledger projection (rules-reference): 11163 usable entries, 3642 technical atoms, 1091 needs-review, 532 linked page(s); write decision write-with-review-work.
+summary: Claim-ledger projection (rules-reference): 11163 usable entries, 3642 technical atoms, 1091 needs-review, 528 linked page(s); write decision write-with-review-work.
 page_family: source-manifest
 sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-07
 domain: sword-world-rpg-complete-edition
 category_path: sources
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: projection-coverage-ab9210726f6bb18f@8f9a588fdc1c96f8
+projection_coverage: projection-coverage-ea178bb026836273@21df85b7b80dd797
 ---
 
 # Sword World RPG Complete Edition
@@ -16,29 +16,25 @@ projection_coverage: projection-coverage-ab9210726f6bb18f@8f9a588fdc1c96f8
 ## Source
 
 - Raw source: `raw/Sword World RPG - Complete Edition.pdf`
-- Claim-ledger projection (rules-reference): 11163 usable entries, 3642 technical atoms, 1091 needs-review, 532 linked page(s); write decision write-with-review-work.
+- Claim-ledger projection (rules-reference): 11163 usable entries, 3642 technical atoms, 1091 needs-review, 528 linked page(s); write decision write-with-review-work.
 
 ## Page Families
 
 - broad-topic: 7 page(s) - broad concept overview pages
 - collection-page: 14 page(s) - list and catalog pages
-- procedure-guide: 11 page(s) - ordered task pages
+- procedure-guide: 7 page(s) - ordered task pages
 - section-reference: 415 page(s) - source-order reference pages
 - source-manifest: 1 page(s) - source entry point
 - topic-concept: 85 page(s) - focused concept pages
 
 ## Procedure Guides
 
-- [[sword-world-rpg-complete-edition-procedure-and-armor]] - procedure: Complete and Armor: 3 ordered step(s), 60 decision point(s), 1081 authoritative dependency reference(s), 13 review-only dependency reference(s), projection partial from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-procedure-attacks-from-characters-against-characters]] - procedure: Complete Attacks From Characters Against Characters: 2 ordered step(s), 3 decision point(s), 10 authoritative dependency reference(s), 1 review-only dependency reference(s), projection partial from raw/Sword World RPG - Complete Edition.pdf.
 - [[sword-world-rpg-complete-edition-procedure-attacks-from-characters-against-monsters]] - procedure: Complete Attacks From Characters Against Monsters: 5 ordered step(s), 0 decision point(s), 12 authoritative dependency reference(s), 2 review-only dependency reference(s), projection partial from raw/Sword World RPG - Complete Edition.pdf.
 - [[sword-world-rpg-complete-edition-procedure-attacks-from-monsters-against-characters]] - procedure: Complete Attacks From Monsters Against Characters: 5 ordered step(s), 1 decision point(s), 7 authoritative dependency reference(s), 2 review-only dependency reference(s), projection partial from raw/Sword World RPG - Complete Edition.pdf.
 - [[sword-world-rpg-complete-edition-procedure-combat-in-special-situations]] - procedure: Complete Combat in Special Situations: 3 ordered step(s), 6 decision point(s), 18 authoritative dependency reference(s), 1 review-only dependency reference(s), projection partial from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-procedure-create-character]] - procedure: Create Character: 9 ordered step(s), 4 decision point(s), 36 authoritative dependency reference(s), 11 review-only dependency reference(s), projection partial from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-procedure-create-character]] - procedure: Create Character: 9 ordered step(s), 4 decision point(s), 33 authoritative dependency reference(s), 9 review-only dependency reference(s), projection partial from raw/Sword World RPG - Complete Edition.pdf.
 - [[sword-world-rpg-complete-edition-procedure-difficulty-checks]] - procedure: Complete Difficulty Checks: 3 ordered step(s), 4 decision point(s), 5 authoritative dependency reference(s), 1 review-only dependency reference(s), projection partial from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-procedure-monster-catalog]] - procedure: Complete Monster Catalog: 11 ordered step(s), 47 decision point(s), 1317 authoritative dependency reference(s), 1 review-only dependency reference(s), projection partial from raw/Sword World RPG - Complete Edition.pdf.
 - [[sword-world-rpg-complete-edition-procedure-should-you-use-a-target-score-check-or-a-difficulty-check]] - procedure: Complete Should You Use a Target Score Check or a Difficulty Check?: 3 ordered step(s), 8 decision point(s), 24 authoritative dependency reference(s), 2 review-only dependency reference(s), projection partial from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-procedure-th-level-dragon-roar-magic-list-summon-lesser-dragon]] - procedure: Complete th Level Dragon Roar Magic List [ Summon Lesser Dragon ]: 2 ordered step(s), 4 decision point(s), 10 authoritative dependency reference(s), 0 review-only dependency reference(s), projection ready from raw/Sword World RPG - Complete Edition.pdf.
 - [[sword-world-rpg-complete-edition-procedure-unconscious-and-death-checks]] - procedure: Complete Unconscious and Death Checks: 4 ordered step(s), 6 decision point(s), 9 authoritative dependency reference(s), 0 review-only dependency reference(s), projection ready from raw/Sword World RPG - Complete Edition.pdf.
 
 ## Collections
