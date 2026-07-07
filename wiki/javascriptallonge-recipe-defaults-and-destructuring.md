@@ -9,7 +9,7 @@ domain: javascriptallonge
 category_path: recipes/javascriptallonge
 source_id: javascriptallonge.pdf
 aliases: defaults-and-destructuring
-projection_coverage: recipe-javascriptallonge-recipe-defaults-and-destructuring@c9a9cd2314f07ca8e20588871b1e6f4d
+projection_coverage: recipe-javascriptallonge-recipe-defaults-and-destructuring@027f9b16432c14ef951c624caf6ef287
 ---
 
 # defaults and destructuring
@@ -18,7 +18,7 @@ From [[javascriptallonge]].
 
 ## Pattern
 
-- Use the source-backed pattern described in [[javascriptallonge-section-defaults-and-destructuring-ba72f0fa]].
+- Use the source-backed pattern described in [[javascriptallonge-section-composing-and-decomposing-data-defaults-and-destructuring-960d8813]].
 - Evidence roles: decision, constraint, example.
 
 ## Applicability And Rationale
@@ -44,4 +44,4 @@ const [first, second = "two"] = ["primus", "secundus"];
 ## Source Trail
 
 - Source manifest: [[javascriptallonge]]
-- Source section: [[javascriptallonge-section-defaults-and-destructuring-ba72f0fa]]
+- Source section: [[javascriptallonge-section-composing-and-decomposing-data-defaults-and-destructuring-960d8813]]

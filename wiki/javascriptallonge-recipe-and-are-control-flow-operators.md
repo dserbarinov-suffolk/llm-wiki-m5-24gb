@@ -9,7 +9,7 @@ domain: javascriptallonge
 category_path: recipes/javascriptallonge
 source_id: javascriptallonge.pdf
 aliases: and-are-control-flow-operators
-projection_coverage: recipe-javascriptallonge-recipe-and-are-control-flow-operators@b428d945473d18c25db054e7ad6eaee8
+projection_coverage: recipe-javascriptallonge-recipe-and-are-control-flow-operators@a7f7ce9b79c80a80c1630866f58bcfd9
 ---
 
 # || and && are control-flow operators
@@ -18,7 +18,7 @@ From [[javascriptallonge]].
 
 ## Pattern
 
-- Use the source-backed pattern described in [[javascriptallonge-section-and-are-control-flow-operators-ca841bc9]].
+- Use the source-backed pattern described in [[javascriptallonge-section-picking-the-bean-choice-and-truthiness-and-are-control-flow-operators-c8371217]].
 - Evidence roles: decision, example.
 
 ## Applicability And Rationale
@@ -43,4 +43,4 @@ even(42)
 ## Source Trail
 
 - Source manifest: [[javascriptallonge]]
-- Source section: [[javascriptallonge-section-and-are-control-flow-operators-ca841bc9]]
+- Source section: [[javascriptallonge-section-picking-the-bean-choice-and-truthiness-and-are-control-flow-operators-c8371217]]

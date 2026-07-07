@@ -7,7 +7,7 @@ sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-07
 domain: sword-world-rpg-complete-edition
 category_path: concepts
-projection_coverage: topic-sword-world-rpg-complete-edition-monster-action-announcement@02d329a28fb2c160ce9ba475234ad735
+projection_coverage: topic-sword-world-rpg-complete-edition-monster-action-announcement@f45f47816b7d55655f7cab7df9486690
 ---
 
 # Monster Action Announcement
@@ -16,7 +16,7 @@ What [[sword-world-rpg-complete-edition]] covers about monster action announceme
 
 ## Statements
 
-### 3.1.3 NPC and Monster Action Announcements
+### Chapter 3: / Action Announcements / 3.1.3 NPC and Monster Action Announcements
 
 - When NPCs, monsters, etc. announce their actions, it's done by the game master who manages them. Specific action announcements may not be made at this time. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01045))_
 
@@ -25,7 +25,7 @@ What [[sword-world-rpg-complete-edition]] covers about monster action announceme
 
 ## Technical atoms
 
-### Technical frame 1: 3.1.3 NPC and Monster Action Announcements
+### Technical frame 1: Chapter 3: / Action Announcements / 3.1.3 NPC and Monster Action Announcements
 
 **Context:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01047))_
 
@@ -36,6 +36,13 @@ What [[sword-world-rpg-complete-edition]] covers about monster action announceme
 <a id="atom-technical-atom-ba327b71894b8f63"></a>
 > If it's something the character should know, the game master should tell you when they announce the action.
 
+
+## Related pages
+
+### Shared claims
+
+- [[sword-world-rpg-complete-edition-attack-character-monster]] - shared statements: Attacks From Characters Against Monsters shares source evidence from Chapter 3: / Action Announcements / 3.1.3 NPC and Monster Action Announcements: You may only declare, I'm preparing to cast a spell , and not give out the specific name of the spell. This is the difference in position between the players and the ... [truncated] (1 shared statement(s))
+- [[sword-world-rpg-complete-edition-attack-monster-character]] - shared statements: Attacks From Monsters Against Characters shares source evidence from Chapter 3: / Action Announcements / 3.1.3 NPC and Monster Action Announcements: You may only declare, I'm preparing to cast a spell , and not give out the specific name of the spell. This is the difference in position between the players and the ... [truncated] (1 shared statement(s))
 
 ## Source
 

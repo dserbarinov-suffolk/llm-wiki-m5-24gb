@@ -9,7 +9,7 @@ domain: javascriptallonge
 category_path: recipes/javascriptallonge
 source_id: javascriptallonge.pdf
 aliases: the-problem
-projection_coverage: recipe-javascriptallonge-recipe-the-problem@bda9d311911f067182add1c6210a7f5b
+projection_coverage: recipe-javascriptallonge-recipe-the-problem@9377cc50f535b29ef622b37d8a7b550d
 ---
 
 # the problem
@@ -18,7 +18,7 @@ From [[javascriptallonge]].
 
 ## Pattern
 
-- Use the source-backed pattern described in [[javascriptallonge-section-the-problem-8f674d1c]].
+- Use the source-backed pattern described in [[javascriptallonge-section-interlude-the-carpenter-interviews-for-a-job-the-problem-2249ceea]].
 - Evidence roles: decision, constraint, explanation, structured-state, example.
 
 ## Applicability And Rationale
@@ -71,4 +71,4 @@ const arrow = board[x][y];
 ## Source Trail
 
 - Source manifest: [[javascriptallonge]]
-- Source section: [[javascriptallonge-section-the-problem-8f674d1c]]
+- Source section: [[javascriptallonge-section-interlude-the-carpenter-interviews-for-a-job-the-problem-2249ceea]]

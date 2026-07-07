@@ -9,7 +9,7 @@ domain: javascriptallonge
 category_path: recipes/javascriptallonge
 source_id: javascriptallonge.pdf
 aliases: mapwith
-projection_coverage: recipe-javascriptallonge-recipe-mapwith@321d36b577550449b39bb6a0b0436e30
+projection_coverage: recipe-javascriptallonge-recipe-mapwith@9cdaf2267e861c3e920ffab46fe4d715
 ---
 
 # mapWith
@@ -18,7 +18,7 @@ From [[javascriptallonge]].
 
 ## Pattern
 
-- Use the source-backed pattern described in [[javascriptallonge-section-mapwith-6b5ac121]].
+- Use the source-backed pattern described in [[javascriptallonge-section-recipes-with-data-mapwith-202c0d4f]].
 - Evidence roles: decision, constraint, definition, explanation, procedure, example.
 
 ## Applicability And Rationale
@@ -90,4 +90,4 @@ squaresOf([1, 2, 3, 4, 5])
 ## Source Trail
 
 - Source manifest: [[javascriptallonge]]
-- Source section: [[javascriptallonge-section-mapwith-6b5ac121]]
+- Source section: [[javascriptallonge-section-recipes-with-data-mapwith-202c0d4f]]

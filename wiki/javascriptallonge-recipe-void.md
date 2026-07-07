@@ -9,7 +9,7 @@ domain: javascriptallonge
 category_path: recipes/javascriptallonge
 source_id: javascriptallonge.pdf
 aliases: void
-projection_coverage: recipe-javascriptallonge-recipe-void@31dc3f8c20f6d299028ccf7eb83f2d7e
+projection_coverage: recipe-javascriptallonge-recipe-void@73cb8685ea204e6dd589f2fa7a651307
 ---
 
 # void
@@ -18,7 +18,7 @@ From [[javascriptallonge]].
 
 ## Pattern
 
-- Use the source-backed pattern described in [[javascriptallonge-section-void-c67a822d]].
+- Use the source-backed pattern described in [[javascriptallonge-section-or-even-void-81631fb5]].
 - Evidence roles: decision, example.
 
 ## Applicability And Rationale
@@ -46,4 +46,4 @@ void (2 + 2)
 ## Source Trail
 
 - Source manifest: [[javascriptallonge]]
-- Source section: [[javascriptallonge-section-void-c67a822d]]
+- Source section: [[javascriptallonge-section-or-even-void-81631fb5]]

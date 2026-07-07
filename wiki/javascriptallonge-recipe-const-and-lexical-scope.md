@@ -9,7 +9,7 @@ domain: javascriptallonge
 category_path: recipes/javascriptallonge
 source_id: javascriptallonge.pdf
 aliases: const-and-lexical-scope
-projection_coverage: recipe-javascriptallonge-recipe-const-and-lexical-scope@53aa1ae5590a9ed1b20c8480b9c49dec
+projection_coverage: recipe-javascriptallonge-recipe-const-and-lexical-scope@5f3b9aed190aef842084683e400a29a3
 ---
 
 # const and lexical scope
@@ -18,7 +18,7 @@ From [[javascriptallonge]].
 
 ## Pattern
 
-- Use the source-backed pattern described in [[javascriptallonge-section-const-and-lexical-scope-47dd57c2]].
+- Use the source-backed pattern described in [[javascriptallonge-section-and-also-that-constant-coffee-craving-const-and-lexical-scope-bbfe0b3d]].
 - Evidence roles: decision, constraint, explanation, example.
 
 ## Applicability And Rationale
@@ -98,4 +98,4 @@ return (diameter) => diameter * PI
 ## Source Trail
 
 - Source manifest: [[javascriptallonge]]
-- Source section: [[javascriptallonge-section-const-and-lexical-scope-47dd57c2]]
+- Source section: [[javascriptallonge-section-and-also-that-constant-coffee-craving-const-and-lexical-scope-bbfe0b3d]]

@@ -9,7 +9,7 @@ domain: sword-world-rpg-complete-edition
 category_path: procedures/sword-world-rpg-complete-edition
 source_id: Sword World RPG - Complete Edition.pdf
 aliases: complete-attacks-from-characters-against-characters, attacks-from-characters-against-characters
-projection_coverage: procedure-sword-world-rpg-complete-edition-procedure-attacks-from-characters-against-characters@554bb2ad58c33364d52e3c83b13a10d8
+projection_coverage: procedure-sword-world-rpg-complete-edition-procedure-attacks-from-characters-against-characters@c4378f04f5af73f09774a7b49a9c598d
 ---
 
 # Attacks From Characters Against Characters
@@ -22,11 +22,11 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Procedure Steps
 
-1. **Hit Checks** (`validate`) - evidence section [[sword-world-rpg-complete-edition-section-4-7-attacks-from-characters-against-characters-4-7-1-hit-checks-257e72be]].
+1. **Hit Checks** (`validate`) - evidence section [[sword-world-rpg-complete-edition-section-4-7-attacks-from-characters-against-characters-4-7-1-hit-checks-a7a24296]].
    - The attacker adds their roll to their attack power , and the defender adds their roll to their evasion speed . _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01328))_
    - If there is a tie or the defender's is greater, the attack fails . _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01331))_
    - Ducard II 's attack power is 4 , while Bucky's evasion speed is 5 . _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01336))_
-2. **Damage Checks** (`validate`) - evidence section [[sword-world-rpg-complete-edition-section-4-7-attacks-from-characters-against-characters-4-7-2-damage-checks-1047ed83]].
+2. **Damage Checks** (`validate`) - evidence section [[sword-world-rpg-complete-edition-section-4-7-attacks-from-characters-against-characters-4-7-2-damage-checks-3ea5e6e1]].
    - This procedure is exactly the same for characters as it was during combat with monsters. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01348))_
    - The difference is the damage dealt to the defender. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01351))_
    - Bucky dodges Ducard II's attack, then counterattacks. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01353))_

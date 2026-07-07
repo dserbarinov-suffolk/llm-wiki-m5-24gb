@@ -8,7 +8,7 @@ updated: 2026-07-07
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/collections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: collection-sword-world-rpg-complete-edition-collection-chapter-11-notes-on-magic-2a59f798@57881adc26e905ac9f9e99640c3407aa
+projection_coverage: collection-sword-world-rpg-complete-edition-collection-chapter-11-notes-on-magic-2a59f798@6e994c17d6b0141a107a7c37f3826c29
 ---
 
 # Chapter 11: Notes on Magic
@@ -25,7 +25,7 @@ Broader source section: [[sword-world-rpg-complete-edition-section-chapter-11-no
 
 | Member | Source section | Evidence |
 | --- | --- | --- |
-| Chapter 11: Notes on Magic / 11.2 Dark Magic | [[sword-world-rpg-complete-edition-section-chapter-11-notes-on-magic-11-2-dark-magic-e0a67386]] | 208 statement(s), 308 atom(s) |
-| Chapter 11: Notes on Magic / 11.3 Dragon Roar Magic | [[sword-world-rpg-complete-edition-section-chapter-11-notes-on-magic-11-3-dragon-roar-magic-c5a27f00]] | 116 statement(s), 316 atom(s) |
+| Chapter 11: Notes on Magic / 11.2 Dark Magic | [[sword-world-rpg-complete-edition-section-chapter-11-notes-on-magic-11-2-dark-magic-e0a67386]] | 208 statement(s), 312 atom(s) |
+| Chapter 11: Notes on Magic / 11.3 Dragon Roar Magic | [[sword-world-rpg-complete-edition-section-chapter-11-notes-on-magic-11-3-dragon-roar-magic-c5a27f00]] | 116 statement(s), 321 atom(s) |
 | Chapter 11: Notes on Magic / 11.4 Acquiring Rune Master Skills and Increasing Levels | [[sword-world-rpg-complete-edition-section-chapter-11-notes-on-magic-11-4-acquiring-rune-master-skills-and-increasing-levels-02e86114]] | 31 statement(s), 10 atom(s) |
 | Chapter 11: Notes on Magic / 11.5 Asking NPCs to Use Magic | [[sword-world-rpg-complete-edition-section-chapter-11-notes-on-magic-11-5-asking-npcs-to-use-magic-6657b705]] | 33 statement(s), 39 atom(s) |

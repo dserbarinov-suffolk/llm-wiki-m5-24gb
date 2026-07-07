@@ -7,7 +7,7 @@ sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-07
 domain: sword-world-rpg-complete-edition
 category_path: concepts
-projection_coverage: topic-sword-world-rpg-complete-edition-thieve-guild@77865c5276bf434cb9ed2f54ab5d1645
+projection_coverage: topic-sword-world-rpg-complete-edition-thieve-guild@b0a87fc56d80f48de575a4a882b3753f
 ---
 
 # Thieve Guild
@@ -16,7 +16,7 @@ What [[sword-world-rpg-complete-edition]] covers about thieve guild:
 
 ## Statements
 
-### 18.3 Rules for Destroying Structures / Thieves Guild/Sorcerers' Guild (Academy)
+### 18.3 Rules for Destroying Structures / Organizations and Groups / Thieves Guild/Sorcerers' Guild (Academy)
 
 - Though not official guilds, the Thieves Guild and Sorcerers' Guild (Academy) are essential organizations. Both are global organizations that regularly exchange information between headquarters and branches. Thieves, Sorcerers, and Sages belong to these groups. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-10674))_
 
@@ -27,7 +27,8 @@ What [[sword-world-rpg-complete-edition]] covers about thieve guild:
 
 ### Shared claims
 
-- [[sword-world-rpg-complete-edition-sorcerer-guild-academy]] - shared statements: Sorcerer Guild Academy shares source evidence from 18.3 Rules for Destroying Structures / Thieves Guild/Sorcerers' Guild (Academy): Though not official guilds, the Thieves Guild and Sorcerers' Guild (Academy) are essential organizations. Both are global organizations that regularly exchange infor ... [truncated] (1 shared statement(s))
+- [[sword-world-rpg-complete-edition-organization]] - shared statements: Organization shares source evidence from 18.3 Rules for Destroying Structures / Organizations and Groups / Thieves Guild/Sorcerers' Guild (Academy): Though not official guilds, the Thieves Guild and Sorcerers' Guild (Academy) are essential organizations. Both are global organizations that regularly exchange infor ... [truncated] (1 shared statement(s))
+- [[sword-world-rpg-complete-edition-sorcerer-guild-academy]] - shared statements: Sorcerer Guild Academy shares source evidence from 18.3 Rules for Destroying Structures / Organizations and Groups / Thieves Guild/Sorcerers' Guild (Academy): Though not official guilds, the Thieves Guild and Sorcerers' Guild (Academy) are essential organizations. Both are global organizations that regularly exchange infor ... [truncated] (1 shared statement(s))
 
 ## Source
 

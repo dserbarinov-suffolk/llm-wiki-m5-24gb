@@ -165,7 +165,8 @@ def _block_segment_kind(block: SourceUnitBlock) -> str:
 
 def _block_segment_text(block: SourceUnitBlock, kind: str) -> str:
     if kind == "heading":
-        return f"# {_collapse_spaces(block.text)}".strip()
+        level = max(1, block.heading_level or 1)
+        return f"{'#' * level} {_collapse_spaces(block.text)}".strip()
     if kind == "code-fence":
         code = (block.code_text or block.text).rstrip()
         return f"```\n{code}\n```" if code.strip() else ""

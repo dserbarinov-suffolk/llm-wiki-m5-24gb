@@ -9,7 +9,7 @@ domain: javascriptallonge
 category_path: recipes/javascriptallonge
 source_id: javascriptallonge.pdf
 aliases: literal-object-syntax
-projection_coverage: recipe-javascriptallonge-recipe-literal-object-syntax@143b8adde76f0aa1f2537420632e7863
+projection_coverage: recipe-javascriptallonge-recipe-literal-object-syntax@f2063194e3fc9e452e033f824091e324
 ---
 
 # literal object syntax
@@ -18,7 +18,7 @@ From [[javascriptallonge]].
 
 ## Pattern
 
-- Use the source-backed pattern described in [[javascriptallonge-section-literal-object-syntax-71689c8a]].
+- Use the source-backed pattern described in [[javascriptallonge-section-plain-old-javascript-objects-literal-object-syntax-41ad73a1]].
 - Evidence roles: decision, explanation, constraint, procedure, example.
 
 ## Applicability And Rationale
@@ -99,4 +99,4 @@ _Source: javascriptallonge.pdf (source-range-c98ab3e6-01063)_
 ## Source Trail
 
 - Source manifest: [[javascriptallonge]]
-- Source section: [[javascriptallonge-section-literal-object-syntax-71689c8a]]
+- Source section: [[javascriptallonge-section-plain-old-javascript-objects-literal-object-syntax-41ad73a1]]

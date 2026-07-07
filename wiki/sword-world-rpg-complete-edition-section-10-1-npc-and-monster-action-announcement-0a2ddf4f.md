@@ -1,14 +1,14 @@
 ---
 page_id: sword-world-rpg-complete-edition-section-10-1-npc-and-monster-action-announcement-0a2ddf4f
 page_kind: source
-summary: 10.1 NPC and Monster Action Announcement: 12 source-backed entries and 2 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+summary: 10.1 NPC and Monster Action Announcement: 5 source-backed entries and 2 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: section-reference
 sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-07
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-10-1-npc-and-monster-action-announcement-0a2ddf4f@67ff671e2c63bf832fa5657eba431f65
+projection_coverage: section-sword-world-rpg-complete-edition-section-10-1-npc-and-monster-action-announcement-0a2ddf4f@643d24c0c7e6dc16922beebfad9636b1
 ---
 
 # 10.1 NPC and Monster Action Announcement
@@ -19,27 +19,17 @@ From [[sword-world-rpg-complete-edition]].
 
 ### Source order
 
-- [[sword-world-rpg-complete-edition-section-9-4-automatic-success-restrictions-eca527fd]] - previous source section: 9.4 Automatic Success Restrictions
 - [[sword-world-rpg-complete-edition-section-10-3-surprise-attacks-0022b2da]] - next source section: 10.3 Surprise Attacks
 
 ### Source structure
 
-- [[sword-world-rpg-complete-edition-section-10-1-npc-and-monster-action-announcement-combat-in-special-situations-e7de88a1]] - narrower source section: 10.1 NPC and Monster Action Announcement / Combat in Special Situations
+- [[sword-world-rpg-complete-edition-section-10-1-npc-and-monster-action-announcement-combat-in-special-situations-156b668d]] - narrower source section: 10.1 NPC and Monster Action Announcement / Combat in Special Situations
 
 ## Statements
 
 - However, that does not mean that you can make loose announcements and change them depending on the situation. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-04614))_
 - For example, it's correct to announce the planned action of a hellhound with the ability to breathe fire by saying, I'm about to do something with my mouth wide open… The characters have no way of knowing if the hellhound is about to bite them or breathe fire. However, the game master should decide in advance which actions they are going to take. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-04615))_
 - For example, it's correct to announce the planned action of a hellhound with the ability to breathe fire by saying, I'm about to do something with my mouth wide open… The characters have no way of knowing if the hellhound is about to bite them or breathe fire. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-04615))_
-
-## Statements by subsection
-
-### 10.1 NPC and Monster Action Announcement / Combat in Special Situations
-
-- Combat often occurs in unusual locations, such as in the dark, on poor footing, etc. In such cases, a penalty (sometimes a bonus) is given to an adventurer's attack power or evasion speed, depending on the situation. If the same conditions apply to monsters, the same penalty (bonus) will be given to the monster's attack and evasion points. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-04618))_
-- This penalty will be considered in accordance with 9.3: General Modifiers (see p. 136). _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-04620))_
-- An example is shown in Table 10-1: Attack Power and Evasion Speed Modifiers. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-04621))_
-- Combat often occurs in unusual locations, such as in the dark, on poor footing, etc. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-04618))_
 
 ## Technical atoms
 

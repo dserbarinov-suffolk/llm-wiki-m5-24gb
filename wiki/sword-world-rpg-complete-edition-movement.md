@@ -7,7 +7,7 @@ sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-07
 domain: sword-world-rpg-complete-edition
 category_path: concepts
-projection_coverage: topic-sword-world-rpg-complete-edition-movement@4c72f86a31b77d4a268940fb022bdaaa
+projection_coverage: topic-sword-world-rpg-complete-edition-movement@e8754821585ebf42523c05f981135b98
 ---
 
 # Movement
@@ -16,7 +16,7 @@ What [[sword-world-rpg-complete-edition]] covers about movement:
 
 ## Statements
 
-### Movement and Actions
+### Chapter 3: / Movement and Actions
 
 - Characters have three options for movement: full movement , normal movement , or stand still . Each has different distances that can be traveled and different restrictions on actions that can be taken. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01088))_
 
@@ -27,7 +27,7 @@ What [[sword-world-rpg-complete-edition]] covers about movement:
 
 ## Technical atoms
 
-### Technical frame 1: Movement and Actions
+### Technical frame 1: Chapter 3: / Movement and Actions
 
 **Context:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01088))_
 
@@ -57,8 +57,8 @@ Movement and Actions
 
 ### Shared technical atoms
 
-- [[sword-world-rpg-complete-edition-action]] - shared statements and technical atoms: Action shares source evidence from Movement and Actions: Below are some guidelines on how movement works and which actions can be taken. For any other actions, please use common sense based on the time frame of 1 round = 1 ... [truncated]; Action shares technical record from Movement and Actions: Movement and Actions 3.4 Movement and Actions 1 round lasts 10 seconds . Therefore, a character can also move during this time. However,  when movement is made, acti ... [truncated] (2 shared statement(s), 1 shared atom(s))
-- [[sword-world-rpg-complete-edition-full-movement]] - shared technical atoms: Full Movement shares technical record from Movement and Actions: Movement and Actions 3.4 Movement and Actions 1 round lasts 10 seconds . Therefore, a character can also move during this time. However,  when movement is made, acti ... [truncated] (1 shared atom(s))
+- [[sword-world-rpg-complete-edition-action]] - shared statements and technical atoms: Action shares source evidence from Chapter 3: / Movement and Actions: Below are some guidelines on how movement works and which actions can be taken. For any other actions, please use common sense based on the time frame of 1 round = 1 ... [truncated]; Action shares technical record from Chapter 3: / Movement and Actions: Movement and Actions 3.4 Movement and Actions 1 round lasts 10 seconds . Therefore, a character can also move during this time. However,  when movement is made, acti ... [truncated] (2 shared statement(s), 1 shared atom(s))
+- [[sword-world-rpg-complete-edition-full-movement]] - shared technical atoms: Full Movement shares technical record from Chapter 3: / Movement and Actions: Movement and Actions 3.4 Movement and Actions 1 round lasts 10 seconds . Therefore, a character can also move during this time. However,  when movement is made, acti ... [truncated] (1 shared atom(s))
 
 ## Source
 

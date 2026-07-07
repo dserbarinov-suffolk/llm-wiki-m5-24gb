@@ -15,14 +15,8 @@ from llmwiki.domain.ledger.atoms import TechnicalAtom, atom_raw_text
 from llmwiki.domain.ledger.canonical import content_fingerprint, deterministic_id
 from llmwiki.domain.ledger.entries import LedgerEntry
 from llmwiki.domain.ledger.ledger import ClaimLedger
+from llmwiki.domain.ledger.section_page_atoms import atoms_for_section_entries
 from llmwiki.domain.ledger.structure import DocumentStructure, StructureNode
-from llmwiki.domain.ledger.table_identity import (
-    has_matching_table_name,
-    normalize_table_name,
-    table_forward_target_node_ids_by_atom_id,
-    table_identity_names_by_atom_id,
-    table_structure_node_ids_by_atom_id,
-)
 from llmwiki.domain.ledger.topic_evidence import heading_topic_decision
 from llmwiki.domain.ledger.topic_terms import source_label_terms, topic_matcher, topic_term_role
 
@@ -34,6 +28,9 @@ _GENERIC_TABLE_CUE = re.compile(
     r"\b(?:table below|following table|roll on the table|table above)\b", re.IGNORECASE
 )
 _COORDINATED_LABEL_SPLIT = re.compile(r"\s+(?:and|or)\s+|/+", re.IGNORECASE)
+_DIRECT_EVIDENCE_PAGE_THRESHOLD = 3
+_ROLLUP_EVIDENCE_PAGE_THRESHOLD = 4
+_CHILD_BRANCH_PAGE_THRESHOLD = 2
 
 
 @dataclass(frozen=True)
@@ -66,6 +63,7 @@ class PageTarget:
     entry_ids: tuple[str, ...]
     atom_ids: tuple[str, ...]
     attached_evidence: tuple[AttachedEvidence, ...]
+    page_promoted: bool = True
 
 
 @dataclass(frozen=True)
@@ -156,6 +154,17 @@ def _target_for_node(
     decision = heading_topic_decision(terms, list(entries), atom_ids, matcher)
     if not decision.accepted:
         return None
+    direct_entries = _direct_entries_for_node(ledger, node.structure_node_id)
+    direct_atoms = _direct_atoms_for_node(ledger, node.structure_node_id)
+    child_branch_count = _child_branches_with_evidence(ledger, structure, node)
+    page_promoted = _promote_section_page(
+        node,
+        entries,
+        direct_entries,
+        atoms,
+        direct_atoms,
+        child_branch_count,
+    )
     topic_key = "-".join(terms)
     attached = tuple(evidence for entry in entries for evidence in _entry_evidence(entry)) + tuple(
         _atom_evidence(atom) for atom in atoms
@@ -174,6 +183,7 @@ def _target_for_node(
         entry_ids=tuple(entry.ledger_entry_id for entry in entries),
         atom_ids=tuple(atom.technical_atom_id for atom in atoms),
         attached_evidence=attached,
+        page_promoted=page_promoted,
     )
 
 
@@ -213,26 +223,32 @@ def _entries_for_node(ledger: ClaimLedger, node_id: str) -> tuple[LedgerEntry, .
     )
 
 
+def _direct_entries_for_node(ledger: ClaimLedger, node_id: str) -> tuple[LedgerEntry, ...]:
+    return tuple(
+        entry
+        for entry in ledger.usable_entries
+        if entry.ledger_entry_kind in ("claim", "event", "concept")
+        and entry.structure_node_ids[:1] == (node_id,)
+        and len((entry.normalized_text or entry.source_text).split()) <= 45
+    )
+
+
 def _atoms_for_node(
     ledger: ClaimLedger, structure: DocumentStructure, node: StructureNode
 ) -> tuple[TechnicalAtom, ...]:
     atom_ids = {
+        atom.technical_atom_id
+        for atom in atoms_for_section_entries(
+            ledger, _entries_for_node(ledger, node.structure_node_id), structure, node
+        )
+    }
+    atom_ids.update(
         entry.technical_atom_id
         for entry in ledger.usable_entries
         if entry.ledger_entry_kind == "technical-atom"
         and entry.technical_atom_id
         and node.structure_node_id in entry.structure_node_ids
-    }
-    section_name = normalize_table_name(node.heading_text)
-    if section_name:
-        atom_node_ids = table_structure_node_ids_by_atom_id(ledger)
-        forward_node_ids = table_forward_target_node_ids_by_atom_id(ledger, structure)
-        for atom_id, names in table_identity_names_by_atom_id(ledger, structure).items():
-            valid_nodes = (*atom_node_ids.get(atom_id, ()), *forward_node_ids.get(atom_id, ()))
-            if node.structure_node_id in valid_nodes and has_matching_table_name(
-                section_name, names
-            ):
-                atom_ids.add(atom_id)
+    )
     return tuple(
         atom
         for atom in ledger.technical_atoms
@@ -240,6 +256,57 @@ def _atoms_for_node(
         and atom_raw_text(atom.payload).strip()
         and atom_is_topic_projectable(atom, ledger.source_profile)
     )
+
+
+def _direct_atoms_for_node(ledger: ClaimLedger, node_id: str) -> tuple[TechnicalAtom, ...]:
+    atom_ids = {
+        entry.technical_atom_id
+        for entry in ledger.usable_entries
+        if entry.ledger_entry_kind == "technical-atom"
+        and entry.technical_atom_id
+        and entry.structure_node_ids[:1] == (node_id,)
+    }
+    return tuple(
+        atom
+        for atom in ledger.technical_atoms
+        if atom.technical_atom_id in atom_ids
+        and atom_raw_text(atom.payload).strip()
+        and atom_is_topic_projectable(atom, ledger.source_profile)
+    )
+
+
+def _child_branches_with_evidence(
+    ledger: ClaimLedger, structure: DocumentStructure, node: StructureNode
+) -> int:
+    return sum(
+        1
+        for child in structure.children(node.structure_node_id)
+        if _entries_for_node(ledger, child.structure_node_id)
+        or _atoms_for_node(ledger, structure, child)
+    )
+
+
+def _promote_section_page(
+    node: StructureNode,
+    entries: tuple[LedgerEntry, ...],
+    direct_entries: tuple[LedgerEntry, ...],
+    atoms: tuple[TechnicalAtom, ...],
+    direct_atoms: tuple[TechnicalAtom, ...],
+    child_branch_count: int,
+) -> bool:
+    direct_evidence_count = len(direct_entries) + len(direct_atoms)
+    rollup_evidence_count = len(entries) + len(atoms)
+    if node.depth <= 1 and rollup_evidence_count > 0:
+        return True
+    if direct_atoms:
+        return True
+    if atoms and direct_entries:
+        return True
+    if direct_evidence_count >= _DIRECT_EVIDENCE_PAGE_THRESHOLD:
+        return True
+    if child_branch_count >= _CHILD_BRANCH_PAGE_THRESHOLD and rollup_evidence_count >= 3:
+        return True
+    return node.depth <= 2 and rollup_evidence_count >= _ROLLUP_EVIDENCE_PAGE_THRESHOLD
 
 
 def _entry_evidence(entry: LedgerEntry) -> tuple[AttachedEvidence, ...]:

@@ -9,7 +9,7 @@ domain: javascriptallonge
 category_path: recipes/javascriptallonge
 source_id: javascriptallonge.pdf
 aliases: yielding-iterables
-projection_coverage: recipe-javascriptallonge-recipe-yielding-iterables@b40d93e1723cc0054835da93754f0784
+projection_coverage: recipe-javascriptallonge-recipe-yielding-iterables@c1b0f1a0b8995f1faa3112956148fa04
 ---
 
 # yielding iterables
@@ -18,7 +18,7 @@ From [[javascriptallonge]].
 
 ## Pattern
 
-- Use the source-backed pattern described in [[javascriptallonge-section-yielding-iterables-117bbefd]].
+- Use the source-backed pattern described in [[javascriptallonge-section-served-by-the-pot-collections-generating-iterables-yielding-iterables-89322869]].
 - Evidence roles: decision, constraint, explanation, example, structured-state.
 
 ## Applicability And Rationale
@@ -168,4 +168,4 @@ re
 ## Source Trail
 
 - Source manifest: [[javascriptallonge]]
-- Source section: [[javascriptallonge-section-yielding-iterables-117bbefd]]
+- Source section: [[javascriptallonge-section-served-by-the-pot-collections-generating-iterables-yielding-iterables-89322869]]

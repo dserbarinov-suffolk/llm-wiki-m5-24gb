@@ -7,7 +7,7 @@ sources: raw/javascriptallonge.pdf
 updated: 2026-07-07
 domain: javascriptallonge
 category_path: concepts
-projection_coverage: topic-javascriptallonge-recursion@76adba7909410cee3b31412792ecc937
+projection_coverage: topic-javascriptallonge-recursion@140f6257b01bbce0c6fdff23a598fea5
 ---
 
 # Recursion
@@ -20,15 +20,15 @@ What [[javascriptallonge]] covers about recursion:
 
 - Recursion is the root of computation since it trades description for time.-Alan Perlis, Epigrams in Programming 55 _(javascriptallonge.pdf (source-range-c98ab3e6-00795))_
 
-### Self-Similarity
+### Composing and Decomposing Data / Self-Similarity
 
 - Recursion is the root of computation since it trades description for time.-Alan Perlis, Epigrams in Programming 60 _(javascriptallonge.pdf (source-range-c98ab3e6-00863))_
 
-### mapping
+### Composing and Decomposing Data / Self-Similarity / mapping
 
 - This specific case of linear recursion is called 'mapping,' and it is not necessary to constantly write out the same pattern again and again. Functions can take functions as arguments, so let's 'extract' the thing to do to each element and separate it from the business of taking an array apart, doing the thing, and putting the array back together. _(javascriptallonge.pdf (source-range-c98ab3e6-00910))_
 
-### summary
+### Composing and Decomposing Data / Self-Similarity / summary
 
 - Linear recursion is a basic building block of algorithms. Its basic form parallels the way linear data structures like lists are constructed: This helps make it understandable. Its specialized cases of mapping and folding are especially useful and can be used to build other functions. And finally, while folding is a special case of linear recursion, mapping is a special case of folding. _(javascriptallonge.pdf (source-range-c98ab3e6-00932))_
 

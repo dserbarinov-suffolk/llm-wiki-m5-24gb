@@ -7,7 +7,7 @@ sources: raw/javascriptallonge.pdf
 updated: 2026-07-07
 domain: javascriptallonge
 category_path: concepts
-projection_coverage: topic-javascriptallonge-variable@6cef1f1a69fc0a48f6ea717134ed14ed
+projection_coverage: topic-javascriptallonge-variable@b046f4f16a8274aa8d8eab30117e5e9e
 ---
 
 # Variable
@@ -16,7 +16,7 @@ What [[javascriptallonge]] covers about variable:
 
 ## Statements
 
-### variables and bindings
+### And also: / variables and bindings
 
 - But there's another reason for learning the word antidisestablishmentarianism : We might learn how prefixes and postfixes work in English grammar. It's the same thing with (x) => (y) => x . It has a certain important meaning in its own right, and it's also an excellent excuse to learn about functions that make functions, environments, variables, and more. _(javascriptallonge.pdf (source-range-c98ab3e6-00287))_
 
@@ -27,7 +27,7 @@ What [[javascriptallonge]] covers about variable:
 
 ## Technical atoms
 
-### Technical frame 1: variables and bindings
+### Technical frame 1: And also: / variables and bindings
 
 **Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-00286))_
 
@@ -40,7 +40,7 @@ What [[javascriptallonge]] covers about variable:
 (x) => (y) => x
 ```
 
-### Technical frame 2: variables and bindings
+### Technical frame 2: And also: / variables and bindings
 
 **Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-00300))_
 
@@ -54,7 +54,7 @@ What [[javascriptallonge]] covers about variable:
 //=> 2
 ```
 
-### Technical frame 3: variables and bindings
+### Technical frame 3: And also: / variables and bindings
 
 **Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-00300))_
 
@@ -70,7 +70,7 @@ What [[javascriptallonge]] covers about variable:
 
 ### Shared technical atoms
 
-- [[javascriptallonge-argument]] - shared technical atoms: Argument shares technical record from variables and bindings: (x) => (y) => x (2 shared atom(s))
+- [[javascriptallonge-argument]] - shared technical atoms: Argument shares technical record from And also: / variables and bindings: (x) => (y) => x (2 shared atom(s))
 
 ## Source
 

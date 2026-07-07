@@ -7,7 +7,7 @@ sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-07
 domain: sword-world-rpg-complete-edition
 category_path: concepts
-projection_coverage: topic-sword-world-rpg-complete-edition-halfelve-raised-human@b97711abae131b5f71b45181b03376b0
+projection_coverage: topic-sword-world-rpg-complete-edition-halfelve-raised-human@03c11f887d0c11221d1e56b892a1eef8
 ---
 
 # Halfelve Raised Human
@@ -19,7 +19,7 @@ What [[sword-world-rpg-complete-edition]] covers about halfelve raised human:
 
 ## Technical atoms
 
-### Technical frame 1: 1.4 Character Creation / For Humans and HalfElves Raised by Humans
+### Technical frame 1: 1.4 Character Creation / 1.4.3 Starting Skills and Starting / For Humans and HalfElves Raised by Humans
 
 **Context:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-00356))_
 
@@ -30,6 +30,12 @@ What [[sword-world-rpg-complete-edition]] covers about halfelve raised human:
 <a id="atom-technical-atom-09b6d02718f7aea0"></a>
 > If the player's background is ordinary citizen (roll 7), they must consult with the game master to determine one general skill appropriate for the character and acquire it at 3rd level.
 
+
+## Related pages
+
+### Shared technical atoms
+
+- [[sword-world-rpg-complete-edition-starting]] - shared technical atoms: Starting shares technical record from 1.4 Character Creation / 1.4.3 Starting Skills and Starting / For Humans and HalfElves Raised by Humans: If the player's background is ordinary citizen (roll 7), they must consult with the game master to determine one general skill appropriate for the character and acqu ... [truncated] (1 shared atom(s))
 
 ## Source
 

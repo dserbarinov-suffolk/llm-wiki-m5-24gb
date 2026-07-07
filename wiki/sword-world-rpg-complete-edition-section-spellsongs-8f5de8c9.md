@@ -1,0 +1,104 @@
+---
+page_id: sword-world-rpg-complete-edition-section-spellsongs-8f5de8c9
+page_kind: source
+summary: Spellsongs: 21 source-backed entries and 4 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+page_family: section-reference
+sources: raw/Sword World RPG - Complete Edition.pdf
+updated: 2026-07-07
+domain: sword-world-rpg-complete-edition
+category_path: sources/sword-world-rpg-complete-edition/sections
+source_id: Sword World RPG - Complete Edition.pdf
+projection_coverage: section-sword-world-rpg-complete-edition-section-spellsongs-8f5de8c9@709b8a3fadcdec1b7f3a7ffc0ce6ef40
+---
+
+# Spellsongs
+
+From [[sword-world-rpg-complete-edition]].
+
+## Related pages
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-spellsongs-5-3-1-spellsong-list-f90e65f1]] - narrower source section: Spellsongs / 5.3.1 Spellsong List
+- [[sword-world-rpg-complete-edition-section-spellsongs-filling-out-the-character-sheet-46deb26a]] - narrower source section: Spellsongs / Filling out the Character Sheet
+
+## Statements
+
+- same way as magic. However, instead of magic power, the baseline score is bard skill level + mental power bonus ( not intelligence bonus!) . _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-03847))_
+- However, bards are never called rune masters. This is because compared to the runes used by rune masters, spellsongs are only a superficial imitation. On the other hand, even grassrunners who have no magical background can use spellsongs, because they only need to prepare the superficial form. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-03848))_
+- To use a spellsong, you must play an instrument. This instrument must be unique to each bard, and the spellsong cannot be used when playing another instrument. Furthermore, you must sing the lyrics in high ancient at the same time. However, it doesn't matter if you don't know the meaning, as long as you know the lyrics by heart. Also, if you choose a fl ute as your instrument, you can use the spellsong without having to sing the lyrics. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-03849))_
+- Basically, the spellsong takes effect on everyone who hears the bard's performance. In other words, it affects both friends and enemies. However, it has no effect on those who are unable to hear. Y ou can learn one spellsong per bard level. A bard chooses which spellsong they want to learn. Every time your level goes up, you have to learn a new spellsong. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-03850))_
+- When a bard uses the ability of a spellsong, you resolve the effect in the Using spellsongs does not consume a bard's mental power. Also, the effect of a spellsong cannot be expanded. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-03851))_
+- A spellsong remains in effect as long as the bard sings it. However, once the song is interrupted, the effect disappears. As long as a bard is singing a spellsong, they cannot take any other actions and cannot move more than 3 meters in one round. However, unlike focus , it' s not interrupted by damage dealt to life force or mental power (unless, of course, you fall unconscious as a result of the damage). Resistance rolls against spellsongs are generally made only once at the beginning of the song (depending on the spellsong, they may be on the fourth round). Once you successfully resist, you do not need to make any further resistance rolls and will not suffer from the effect, even if the spellsong continues. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-03852))_
+- Resistance rolls against spellsongs are generally made only once at the beginning of the song (depending on the spellsong, they may be on the fourth round). _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-03852))_
+- However, unlike focus , it' s not interrupted by damage dealt to life force or mental power (unless, of course, you fall unconscious as a result of the damage). _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-03852))_
+
+## Statements by subsection
+
+### Spellsongs / Filling out the Character Sheet
+
+- Characters with the bard skill write the names of the spellsongs they have learned in the designated field ( Spellsongs ) on their character sheet. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-03909))_
+
+## Technical atoms
+
+### Technical frame 1: Spellsongs
+
+**Context:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-03850))_
+
+> Basically, the spellsong takes effect on everyone who hears the bard's performance. In other words, it affects both friends and enemies. However, it has no effect on those who are unable to hear. Y ou can learn one spellsong per bard level. A bard chooses which spellsong they want to learn. Every time your level goes up, you have to learn a new spellsong.
+
+**Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-03849))_
+
+<a id="atom-technical-atom-29f8ef8d3f624823"></a>
+> Also, if you choose a fl ute as your instrument, you can use the spellsong without having to sing the lyrics.
+
+### Technical frame 2: Spellsongs
+
+**Context:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-03851))_
+
+> When a bard uses the ability of a spellsong, you resolve the effect in the Using spellsongs does not consume a bard's mental power. Also, the effect of a spellsong cannot be expanded.
+
+**Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-03852))_
+
+<a id="atom-technical-atom-82b312914e46c4d2"></a>
+> As long as a bard is singing a spellsong, they cannot take any other actions and cannot move more than 3 meters in one round.
+
+### Technical frame 3: Table 5-10: Requiem
+
+**Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-03872))_
+
+<a id="atom-technical-atom-fb62c1b93135c2fe"></a>
+```text
+Table 5-10: Requiem
+ around the bard. It takes about 18 rounds
+                                     2D  Result
+ to gather. If the summoned  small
+```
+
+### Technical frame 4: Table 5-10: Requiem
+
+**Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-03873))_
+
+<a id="atom-technical-atom-a3c690d138538970"></a>
+```text
+Table 5-10: Requiem
+2D Result
+2
+No effect.
+3-4 Movement slows down while the song continues. -1 to attack points and evasion points.
+5
+Movement slows down while the song continues. -2 to attack points and evasion points.
+6
+Movement slows down while the song continues. -3 to attack points and evasion points.
+```
+
+<details>
+<summary>Parsed table preview (needs review)</summary>
+
+| entry | content |
+| --- | --- |
+| 2 | No effect. 3-4 Movement slows down while the song continues. -1 to attack points and evasion points. |
+| 5 | Movement slows down while the song continues. -2 to attack points and evasion points. |
+| 6 | Movement slows down while the song continues. -3 to attack points and evasion points. |
+
+</details>

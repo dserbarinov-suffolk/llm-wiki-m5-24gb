@@ -1,13 +1,13 @@
 ---
 page_id: javascriptallonge-feature
 page_kind: concept
-summary: Feature: 4 statement(s) and 3 atom(s) from raw/javascriptallonge.pdf.
+summary: Feature: 4 statement(s) and 4 atom(s) from raw/javascriptallonge.pdf.
 page_family: topic-concept
 sources: raw/javascriptallonge.pdf
 updated: 2026-07-07
 domain: javascriptallonge
 category_path: concepts
-projection_coverage: topic-javascriptallonge-feature@b2d1381b633036544569b53547886de3
+projection_coverage: topic-javascriptallonge-feature@150d31510205eaa8c59ecae7fb72be59
 ---
 
 # Feature
@@ -16,7 +16,7 @@ What [[javascriptallonge]] covers about feature:
 
 ## Statements
 
-### why the 'six' edition?
+### A Pull of the Lever: Prefaces / About JavaScript Allongé / why the 'six' edition?
 
 - ECMAScript 2015 (formerly called ECMAScript 6 or 'ES6'), is ushering in a very large number of improvements to the way programmers can write small, powerful components and combine them into larger, fully featured programs. Features like destructuring, block-structured variables, iterables, generators, and the class keyword are poised to make JavaScript programming more expressive. _(javascriptallonge.pdf (source-range-c98ab3e6-00021))_
 
@@ -24,14 +24,14 @@ What [[javascriptallonge]] covers about feature:
 
 - And presto, rest collects the rest of the arguments without a lot of malarky involving slicing arguments . Not having to work around these kinds of missing features makes JavaScript Allongé a better book , because it can focus on the why to do something and when to do it, instead of on the how to make it work _(javascriptallonge.pdf (source-range-c98ab3e6-00038))_
 
-### Foreword to the 'Six' edition
+### A Pull of the Lever: Prefaces / Foreword to the 'Six' edition
 
 - A larger upgrade would substantially improve JavaScript, but without being as radical as ECMAScript 4. This upgrade became ECMAScript 6 (some features that were initially discussed will show up later, in upcoming ECMAScript versions). _(javascriptallonge.pdf (source-range-c98ab3e6-00070))_
 
 
 ## Technical atoms
 
-### Technical frame 1: why the 'six' edition?
+### Technical frame 1: A Pull of the Lever: Prefaces / About JavaScript Allongé / why the 'six' edition?
 
 **Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-00036))_
 
@@ -46,7 +46,7 @@ for (let i = 0; i < array.length; ++i) {
 }
 ```
 
-### Technical frame 2: why the 'six' edition?
+### Technical frame 2: A Pull of the Lever: Prefaces / About JavaScript Allongé / why the 'six' edition?
 
 **Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-00038))_
 
@@ -92,14 +92,14 @@ function foo (first, ...rest) {
 
 ### Shared technical atoms
 
-- [[javascriptallonge-javascript]] - shared technical atoms: Javascript shares technical record from why the 'six' edition?: for (let i = 0; i < array.length; ++i) { // ... } (3 shared atom(s))
-- [[javascriptallonge-ecmascript]] - shared statements and technical atoms: Ecmascript shares source evidence from Foreword to the 'Six' edition: A larger upgrade would substantially improve JavaScript, but without being as radical as ECMAScript 4. This upgrade became ECMAScript 6 (some features that were init ... [truncated]; Ecmascript shares technical record from why the 'six' edition?: for (let i = 0; i < array.length; ++i) { // ... } (1 shared statement(s), 2 shared atom(s))
-- [[javascriptallonge-allong]] - shared technical atoms: Allong shares technical record from why the 'six' edition?: function foo (first, ...rest) { // ... } (2 shared atom(s))
-- [[javascriptallonge-edition]] - shared technical atoms: Edition shares technical record from ECMAScript 6 has three major groups of features:: 2 http://www.2ality.com 4 http://exploringjs.com 3 http://ecmanauten.de (1 shared atom(s))
-
-### Shared claims
-
-- [[javascriptallonge-javascript-allong]] - shared statements: About JavaScript Allongé shares source evidence from why the 'six' edition?: And presto, rest collects the rest of the arguments without a lot of malarky involving slicing arguments . Not having to work around these kinds of missing features ... [truncated] (1 shared statement(s))
+- [[javascriptallonge-javascript]] - shared technical atoms: Javascript shares technical record from A Pull of the Lever: Prefaces / About JavaScript Allongé / why the 'six' edition?: for (let i = 0; i < array.length; ++i) { // ... } (4 shared atom(s))
+- [[javascriptallonge-ecmascript]] - shared statements and technical atoms: Ecmascript shares source evidence from A Pull of the Lever: Prefaces / Foreword to the 'Six' edition: A larger upgrade would substantially improve JavaScript, but without being as radical as ECMAScript 4. This upgrade became ECMAScript 6 (some features that were init ... [truncated]; Ecmascript shares technical record from A Pull of the Lever: Prefaces / About JavaScript Allongé / why the 'six' edition?: for (let i = 0; i < array.length; ++i) { // ... } (1 shared statement(s), 3 shared atom(s))
+- [[javascriptallonge-javascript-allong]] - shared statements and technical atoms: About JavaScript Allongé shares source evidence from A Pull of the Lever: Prefaces / About JavaScript Allongé / why the 'six' edition?: ECMAScript 2015 (formerly called ECMAScript 6 or 'ES6'), is ushering in a very large number of improvements to the way programmers can write small, powerful componen ... [truncated]; About JavaScript Allongé shares technical record from A Pull of the Lever: Prefaces / About JavaScript Allongé / why the 'six' edition?: for (let i = 0; i < array.length; ++i) { // ... } (3 shared statement(s), 2 shared atom(s))
+- [[javascriptallonge-allong]] - shared technical atoms: Allong shares technical record from A Pull of the Lever: Prefaces / About JavaScript Allongé / why the 'six' edition?: function foo (first, ...rest) { // ... } (3 shared atom(s))
+- [[javascriptallonge-edition]] - shared technical atoms: Edition shares technical record from ECMAScript 6 has three major groups of features:: 2 http://www.2ality.com 4 http://exploringjs.com 3 http://ecmanauten.de (2 shared atom(s))
+- [[javascriptallonge-functional]] - shared technical atoms: Functional shares technical record from ECMAScript 6 has three major groups of features: / Forewords to the First Edition / matthew knox: matthew knox A different kind of language requires a different kind of book. JavaScript holds surprising depths-its scoping rules are neither strictly lexical nor st ... [truncated] (1 shared atom(s))
+- [[javascriptallonge-object]] - shared technical atoms: Object shares technical record from ECMAScript 6 has three major groups of features: / Forewords to the First Edition / matthew knox: matthew knox A different kind of language requires a different kind of book. JavaScript holds surprising depths-its scoping rules are neither strictly lexical nor st ... [truncated] (1 shared atom(s))
+- [[javascriptallonge-programming]] - shared technical atoms: Programming shares technical record from ECMAScript 6 has three major groups of features: / Forewords to the First Edition / matthew knox: matthew knox A different kind of language requires a different kind of book. JavaScript holds surprising depths-its scoping rules are neither strictly lexical nor st ... [truncated] (1 shared atom(s))
 
 ## Source
 

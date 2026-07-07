@@ -9,7 +9,7 @@ domain: javascriptallonge
 category_path: recipes/javascriptallonge
 source_id: javascriptallonge.pdf
 aliases: recursive-iterators
-projection_coverage: recipe-javascriptallonge-recipe-recursive-iterators@2982d9008b9f7a5f376587bb30ea6aa8
+projection_coverage: recipe-javascriptallonge-recipe-recursive-iterators@fc9fcd81fb15187929190f9afb8c35e5
 ---
 
 # recursive iterators
@@ -18,7 +18,7 @@ From [[javascriptallonge]].
 
 ## Pattern
 
-- Use the source-backed pattern described in [[javascriptallonge-section-recursive-iterators-6eddd213]].
+- Use the source-backed pattern described in [[javascriptallonge-section-served-by-the-pot-collections-generating-iterables-recursive-iterators-6db8d95d]].
 - Evidence roles: decision, constraint, explanation, procedure, structured-state, example.
 
 ## Applicability And Rationale
@@ -100,4 +100,4 @@ console.log(n)
 ## Source Trail
 
 - Source manifest: [[javascriptallonge]]
-- Source section: [[javascriptallonge-section-recursive-iterators-6eddd213]]
+- Source section: [[javascriptallonge-section-served-by-the-pot-collections-generating-iterables-recursive-iterators-6db8d95d]]

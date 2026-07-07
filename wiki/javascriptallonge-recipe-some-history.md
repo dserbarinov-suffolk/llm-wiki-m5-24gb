@@ -9,7 +9,7 @@ domain: javascriptallonge
 category_path: recipes/javascriptallonge
 source_id: javascriptallonge.pdf
 aliases: some-history
-projection_coverage: recipe-javascriptallonge-recipe-some-history@ec828311b54ea6bbf1942e092c9895d3
+projection_coverage: recipe-javascriptallonge-recipe-some-history@81bbc64aa664f90283bf961c98a406e5
 ---
 
 # some history
@@ -18,7 +18,7 @@ From [[javascriptallonge]].
 
 ## Pattern
 
-- Use the source-backed pattern described in [[javascriptallonge-section-some-history-8364a96f]].
+- Use the source-backed pattern described in [[javascriptallonge-section-garbage-garbage-everywhere-some-history-d0580aea]].
 - Evidence roles: decision, constraint, definition, explanation, procedure, structured-state, example.
 
 ## Applicability And Rationale
@@ -95,4 +95,4 @@ cdr(oneToFive)
 ## Source Trail
 
 - Source manifest: [[javascriptallonge]]
-- Source section: [[javascriptallonge-section-some-history-8364a96f]]
+- Source section: [[javascriptallonge-section-garbage-garbage-everywhere-some-history-d0580aea]]

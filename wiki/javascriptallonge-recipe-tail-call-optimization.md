@@ -9,7 +9,7 @@ domain: javascriptallonge
 category_path: recipes/javascriptallonge
 source_id: javascriptallonge.pdf
 aliases: tail-call-optimization
-projection_coverage: recipe-javascriptallonge-recipe-tail-call-optimization@f3898fd6cfc055908acf94a7dee1b9d3
+projection_coverage: recipe-javascriptallonge-recipe-tail-call-optimization@9971de75528b2e9777156f172b15d473
 ---
 
 # tail-call optimization
@@ -18,7 +18,7 @@ From [[javascriptallonge]].
 
 ## Pattern
 
-- Use the source-backed pattern described in [[javascriptallonge-section-tail-call-optimization-d8a69702]].
+- Use the source-backed pattern described in [[javascriptallonge-section-composing-and-decomposing-data-tail-calls-and-default-arguments-tail-call-optimization-52c04968]].
 - Evidence roles: decision, explanation, constraint, example.
 
 ## Applicability And Rationale
@@ -65,4 +65,4 @@ first === undefined
 ## Source Trail
 
 - Source manifest: [[javascriptallonge]]
-- Source section: [[javascriptallonge-section-tail-call-optimization-d8a69702]]
+- Source section: [[javascriptallonge-section-composing-and-decomposing-data-tail-calls-and-default-arguments-tail-call-optimization-52c04968]]

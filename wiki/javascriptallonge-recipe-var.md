@@ -9,7 +9,7 @@ domain: javascriptallonge
 category_path: recipes/javascriptallonge
 source_id: javascriptallonge.pdf
 aliases: var
-projection_coverage: recipe-javascriptallonge-recipe-var@bd3aba55a1783ae129409caac6d3753f
+projection_coverage: recipe-javascriptallonge-recipe-var@c7499c4b71c55e5817193d16cf009dbe
 ---
 
 # var
@@ -18,7 +18,7 @@ From [[javascriptallonge]].
 
 ## Pattern
 
-- Use the source-backed pattern described in [[javascriptallonge-section-var-446841c5]].
+- Use the source-backed pattern described in [[javascriptallonge-section-reassignment-mixing-let-and-const-var-65ff1805]].
 - Evidence roles: decision, constraint, explanation, procedure, example.
 
 ## Applicability And Rationale
@@ -161,4 +161,4 @@ factorial(4)
 ## Source Trail
 
 - Source manifest: [[javascriptallonge]]
-- Source section: [[javascriptallonge-section-var-446841c5]]
+- Source section: [[javascriptallonge-section-reassignment-mixing-let-and-const-var-65ff1805]]

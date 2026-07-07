@@ -9,7 +9,7 @@ domain: javascriptallonge
 category_path: recipes/javascriptallonge
 source_id: javascriptallonge.pdf
 aliases: interactive-generators
-projection_coverage: recipe-javascriptallonge-recipe-interactive-generators@b4a5f95c7ada7eefee5ff92d8a937a21
+projection_coverage: recipe-javascriptallonge-recipe-interactive-generators@abd6482767a735ee0f2b8d01608239a1
 ---
 
 # interactive generators
@@ -18,7 +18,7 @@ From [[javascriptallonge]].
 
 ## Pattern
 
-- Use the source-backed pattern described in [[javascriptallonge-section-interactive-generators-a57b04bb]].
+- Use the source-backed pattern described in [[javascriptallonge-section-interactive-generators-this-seems-familiar-interactive-generators-0e36e551]].
 - Evidence roles: decision, explanation, example.
 
 ## Applicability And Rationale
@@ -66,4 +66,4 @@ break;
 ## Source Trail
 
 - Source manifest: [[javascriptallonge]]
-- Source section: [[javascriptallonge-section-interactive-generators-a57b04bb]]
+- Source section: [[javascriptallonge-section-interactive-generators-this-seems-familiar-interactive-generators-0e36e551]]

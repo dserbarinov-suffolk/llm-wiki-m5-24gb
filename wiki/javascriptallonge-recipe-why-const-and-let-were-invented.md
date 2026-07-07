@@ -9,7 +9,7 @@ domain: javascriptallonge
 category_path: recipes/javascriptallonge
 source_id: javascriptallonge.pdf
 aliases: why-const-and-let-were-invented
-projection_coverage: recipe-javascriptallonge-recipe-why-const-and-let-were-invented@9066807f28f6c52b61cb400f002ca73a
+projection_coverage: recipe-javascriptallonge-recipe-why-const-and-let-were-invented@e6207c00e390423c395c696b872cd55d
 ---
 
 # why const and let were invented
@@ -18,7 +18,7 @@ From [[javascriptallonge]].
 
 ## Pattern
 
-- Use the source-backed pattern described in [[javascriptallonge-section-why-const-and-let-were-invented-218b7467]].
+- Use the source-backed pattern described in [[javascriptallonge-section-reassignment-why-const-and-let-were-invented-cf53c7fd]].
 - Evidence roles: decision, constraint, example.
 
 ## Applicability And Rationale
@@ -48,4 +48,4 @@ sum
 ## Source Trail
 
 - Source manifest: [[javascriptallonge]]
-- Source section: [[javascriptallonge-section-why-const-and-let-were-invented-218b7467]]
+- Source section: [[javascriptallonge-section-reassignment-why-const-and-let-were-invented-cf53c7fd]]

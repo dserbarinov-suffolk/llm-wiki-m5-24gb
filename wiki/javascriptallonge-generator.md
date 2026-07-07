@@ -7,7 +7,7 @@ sources: raw/javascriptallonge.pdf
 updated: 2026-07-07
 domain: javascriptallonge
 category_path: concepts
-projection_coverage: topic-javascriptallonge-generator@18500f8fa8eb6b8e0fc8af3036541496
+projection_coverage: topic-javascriptallonge-generator@d3259539d67d999131d894dec8a3ed9c
 ---
 
 # Generator
@@ -16,7 +16,7 @@ What [[javascriptallonge]] covers about generator:
 
 ## Statements
 
-### generators and iterables
+### Served by the Pot: Collections / Generating Iterables / generators and iterables
 
 - Our generator function oneTwoThree is not an iterator. It's a function that returns an iterator when we invoke it. We write the function to yield values instead of return a single value, and JavaScript takes care of turning this into an object with a .next() function we can call. _(javascriptallonge.pdf (source-range-c98ab3e6-01678))_
 
@@ -29,7 +29,7 @@ What [[javascriptallonge]] covers about generator:
 
 ## Technical atoms
 
-### Technical frame 1: generators and iterables
+### Technical frame 1: Served by the Pot: Collections / Generating Iterables / generators and iterables
 
 **Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01682))_
 
@@ -40,7 +40,7 @@ What [[javascriptallonge]] covers about generator:
 <a id="atom-technical-atom-7ca2d5da0f09f056"></a>
 > If we call our generator function more than once, we get new iterators.
 
-### Technical frame 2: generators and iterables
+### Technical frame 2: Served by the Pot: Collections / Generating Iterables / generators and iterables
 
 **Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01682))_
 
@@ -82,7 +82,7 @@ iterator.next()
 {"done":true}
 ```
 
-### Technical frame 3: generators and iterables
+### Technical frame 3: Served by the Pot: Collections / Generating Iterables / generators and iterables
 
 **Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01682))_
 
@@ -203,7 +203,7 @@ console.log(n)
 
 </details>
 
-### Technical frame 4: generators and iterables
+### Technical frame 4: Served by the Pot: Collections / Generating Iterables / generators and iterables
 
 **Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01684))_
 
@@ -227,17 +227,18 @@ yield 3
 
 ### Source structure
 
-- [[javascriptallonge-section-more-generators-8710183f]] - source section: more generators shares source evidence from more generators: Our OneTwoThree example used implicit state to output the numbers in sequence. Recall that we wrote Fibonacci using explicit state:; more generators shares technical record from more generators: const Numbers = { *[Symbol.iterator] () { let i = 0; while (true) { yield i++; } } }; for (const i of Numbers) { console.log(i); } //=> 0 1 2 3 4 5 6 7 (3 shared statement(s), 6 shared atom(s))
+- [[javascriptallonge-section-served-by-the-pot-collections-generating-iterables-more-generators-30279cb0]] - source section: Served by the Pot: Collections / Generating Iterables / more generators shares source evidence from Served by the Pot: Collections / Generating Iterables / more generators: Our OneTwoThree example used implicit state to output the numbers in sequence. Recall that we wrote Fibonacci using explicit state:; Served by the Pot: Collections / Generating Iterables / more generators shares technical record from Served by the Pot: Collections / Generating Iterables / more generators: const Numbers = { *[Symbol.iterator] () { let i = 0; while (true) { yield i++; } } }; for (const i of Numbers) { console.log(i); } //=> 0 1 2 3 4 5 6 7 (3 shared statement(s), 6 shared atom(s))
 
 ### Shared technical atoms
 
-- [[javascriptallonge-iterator]] - shared technical atoms: Iterator shares technical record from generators and iterables: If we call our generator function more than once, we get new iterators. (4 shared atom(s))
-- [[javascriptallonge-javascript]] - shared technical atoms: Javascript shares technical record from generators and iterables: If we call our generator function more than once, we get new iterators. (2 shared atom(s))
-- [[javascriptallonge-object]] - shared technical atoms: Object shares technical record from generators and iterables: If we call our generator function more than once, we get new iterators. (2 shared atom(s))
-- [[javascriptallonge-pattern]] - shared statements and technical atoms: Pattern shares source evidence from generators and iterables: This pattern is encouraged, so much so that JavaScript provides a concise syntax for writing generator methods for objects:; Pattern shares technical record from generators and iterables: const ThreeNumbers = { *[Symbol.iterator] () { yield 1; yield 2; yield 3 } } (1 shared statement(s), 1 shared atom(s))
-- [[javascriptallonge-iterable]] - shared technical atoms: Iterable shares technical record from generators and iterables: const ThreeNumbers = { *[Symbol.iterator] () { yield 1; yield 2; yield 3 } } (1 shared atom(s))
-- [[javascriptallonge-return]] - shared technical atoms: Return shares technical record from generators and iterables: If we call our generator function more than once, we get new iterators. (1 shared atom(s))
-- [[javascriptallonge-write]] - shared technical atoms: Write shares technical record from generators and iterables: If we call our generator function more than once, we get new iterators. (1 shared atom(s))
+- [[javascriptallonge-iterator]] - shared technical atoms: Iterator shares technical record from Served by the Pot: Collections / Generating Iterables / generators and iterables: If we call our generator function more than once, we get new iterators. (4 shared atom(s))
+- [[javascriptallonge-javascript]] - shared technical atoms: Javascript shares technical record from Served by the Pot: Collections / Generating Iterables / generators and iterables: If we call our generator function more than once, we get new iterators. (2 shared atom(s))
+- [[javascriptallonge-object]] - shared technical atoms: Object shares technical record from Served by the Pot: Collections / Generating Iterables / generators and iterables: If we call our generator function more than once, we get new iterators. (2 shared atom(s))
+- [[javascriptallonge-pattern]] - shared statements and technical atoms: Pattern shares source evidence from Served by the Pot: Collections / Generating Iterables / generators and iterables: This pattern is encouraged, so much so that JavaScript provides a concise syntax for writing generator methods for objects:; Pattern shares technical record from Served by the Pot: Collections / Generating Iterables / generators and iterables: const ThreeNumbers = { *[Symbol.iterator] () { yield 1; yield 2; yield 3 } } (1 shared statement(s), 1 shared atom(s))
+- [[javascriptallonge-collection]] - shared technical atoms: Collection shares technical record from Served by the Pot: Collections / Generating Iterables / generators and iterables: yield 3 } } for (const i of ThreeNumbers) { console.log(i); } //=> 1 2 3 [...ThreeNumbers] //=> [1,2,3] const iterator = ThreeNumbers[Symbol.iterator](); iterator.ne ... [truncated] (1 shared atom(s))
+- [[javascriptallonge-iterable]] - shared technical atoms: Iterable shares technical record from Served by the Pot: Collections / Generating Iterables / generators and iterables: const ThreeNumbers = { *[Symbol.iterator] () { yield 1; yield 2; yield 3 } } (1 shared atom(s))
+- [[javascriptallonge-method]] - shared technical atoms: Method shares technical record from Served by the Pot: Collections / Generating Iterables / generators and iterables: const ThreeNumbers = { *[Symbol.iterator] () { yield 1; yield 2; yield 3 } } (1 shared atom(s))
+- [[javascriptallonge-return]] - shared technical atoms: Return shares technical record from Served by the Pot: Collections / Generating Iterables / generators and iterables: If we call our generator function more than once, we get new iterators. (1 shared atom(s))
 
 ## Source
 

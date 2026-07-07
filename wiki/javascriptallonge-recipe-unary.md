@@ -9,7 +9,7 @@ domain: javascriptallonge
 category_path: recipes/javascriptallonge
 source_id: javascriptallonge.pdf
 aliases: unary
-projection_coverage: recipe-javascriptallonge-recipe-unary@6d8e31cd9a9afc540ba2dd48b2a94095
+projection_coverage: recipe-javascriptallonge-recipe-unary@67ac99e0eb474d0ea1f3e921a8e6201d
 ---
 
 # Unary
@@ -18,7 +18,7 @@ From [[javascriptallonge]].
 
 ## Pattern
 
-- Use the source-backed pattern described in [[javascriptallonge-section-unary-fd792bf9]].
+- Use the source-backed pattern described in [[javascriptallonge-section-recipes-with-basic-functions-unary-d494fe78]].
 - Evidence roles: decision, explanation, definition, constraint, example, structured-state.
 
 ## Applicability And Rationale
@@ -90,4 +90,4 @@ _Source: javascriptallonge.pdf (source-range-c98ab3e6-00663)_
 ## Source Trail
 
 - Source manifest: [[javascriptallonge]]
-- Source section: [[javascriptallonge-section-unary-fd792bf9]]
+- Source section: [[javascriptallonge-section-recipes-with-basic-functions-unary-d494fe78]]

@@ -9,7 +9,7 @@ domain: javascriptallonge
 category_path: recipes/javascriptallonge
 source_id: javascriptallonge.pdf
 aliases: operations-on-numbers
-projection_coverage: recipe-javascriptallonge-recipe-operations-on-numbers@a1a9cc56d4500e8945b6d44f510f7058
+projection_coverage: recipe-javascriptallonge-recipe-operations-on-numbers@28a6dc57b9c476d0842fcab6863d1501
 ---
 
 # operations on numbers
@@ -18,7 +18,7 @@ From [[javascriptallonge]].
 
 ## Pattern
 
-- Use the source-backed pattern described in [[javascriptallonge-section-operations-on-numbers-efa25b73]].
+- Use the source-backed pattern described in [[javascriptallonge-section-a-rich-aroma-basic-numbers-operations-on-numbers-c7608822]].
 - Evidence roles: decision, constraint, example.
 
 ## Applicability And Rationale
@@ -44,4 +44,4 @@ _Source: javascriptallonge.pdf (source-range-c98ab3e6-00155)_
 ## Source Trail
 
 - Source manifest: [[javascriptallonge]]
-- Source section: [[javascriptallonge-section-operations-on-numbers-efa25b73]]
+- Source section: [[javascriptallonge-section-a-rich-aroma-basic-numbers-operations-on-numbers-c7608822]]

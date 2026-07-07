@@ -8,7 +8,7 @@ updated: 2026-07-07
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-5-1-12-ancient-magic-list-lock-85bfb1f6@51886db3fd859c5abe3654fc4690ea54
+projection_coverage: section-sword-world-rpg-complete-edition-section-5-1-12-ancient-magic-list-lock-85bfb1f6@e1705c93d0e157785688e916925442dd
 ---
 
 # 5.1.12 Ancient Magic List / [ Lock ]
@@ -20,11 +20,12 @@ From [[sword-world-rpg-complete-edition]].
 ### Source order
 
 - [[sword-world-rpg-complete-edition-section-5-1-12-ancient-magic-list-light-ebc570b4]] - previous source section: 5.1.12 Ancient Magic List / [ Light ]
-- [[sword-world-rpg-complete-edition-section-5-1-12-ancient-magic-list-2nd-level-ancient-magic-list-oak-6f3490ba]] - next source section: 5.1.12 Ancient Magic List / 2nd Level Ancient Magic List [ Oak ]
+- [[sword-world-rpg-complete-edition-section-5-1-12-ancient-magic-list-sense-enemy-4910a538]] - next source section: 5.1.12 Ancient Magic List / [ Sense Enemy ]
 
 ### Source structure
 
 - [[sword-world-rpg-complete-edition-section-5-1-12-ancient-magic-list-a53ab7f2]] - broader source section: 5.1.12 Ancient Magic List
+- [[sword-world-rpg-complete-edition-section-5-1-12-ancient-magic-list-lock-2nd-level-ancient-magic-list-oak-36a8f72a]] - narrower source section: 5.1.12 Ancient Magic List / [ Lock ] / 2nd Level Ancient Magic List [ Oak ]
 
 ## Statements
 

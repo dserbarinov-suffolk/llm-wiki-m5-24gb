@@ -8,7 +8,7 @@ updated: 2026-07-07
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-4-5-4-monster-defense-points-edddda20@883e1143eebe52903272e7a90eeb4423
+projection_coverage: section-sword-world-rpg-complete-edition-section-4-5-4-monster-defense-points-edddda20@43a61c4d47a914993156639e864b4e95
 ---
 
 # 4.5.4 Monster Defense Points
@@ -19,8 +19,8 @@ From [[sword-world-rpg-complete-edition]].
 
 ### Source order
 
-- [[sword-world-rpg-complete-edition-section-4-5-3-bonus-damage-513462f0]] - previous source section: 4.5.3 Bonus Damage
-- [[sword-world-rpg-complete-edition-section-4-5-5-final-damage-b3dd9b50]] - next source section: 4.5.5 Final Damage
+- [[sword-world-rpg-complete-edition-section-4-5-3-bonus-damage-f203e00b]] - previous source section: 4.5.3 Bonus Damage
+- [[sword-world-rpg-complete-edition-section-4-5-5-final-damage-11fc6c58]] - next source section: 4.5.5 Final Damage
 
 ## Statements
 

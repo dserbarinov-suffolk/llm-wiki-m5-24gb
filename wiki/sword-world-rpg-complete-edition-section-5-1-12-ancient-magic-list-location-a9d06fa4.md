@@ -8,7 +8,7 @@ updated: 2026-07-07
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-5-1-12-ancient-magic-list-location-a9d06fa4@b94632c8be4311810ec5b93fde1bb390
+projection_coverage: section-sword-world-rpg-complete-edition-section-5-1-12-ancient-magic-list-location-a9d06fa4@fcff6e6831c84e373cf1bef1c13a5577
 ---
 
 # 5.1.12 Ancient Magic List / [ Location ]
@@ -20,11 +20,12 @@ From [[sword-world-rpg-complete-edition]].
 ### Source order
 
 - [[sword-world-rpg-complete-edition-section-5-1-12-ancient-magic-list-fireball-40ec09d0]] - previous source section: 5.1.12 Ancient Magic List / [ Fireball ]
-- [[sword-world-rpg-complete-edition-section-5-1-12-ancient-magic-list-5th-level-ancient-magic-list-apport-cfa9f69c]] - next source section: 5.1.12 Ancient Magic List / 5th Level Ancient Magic List [ Apport ]
+- [[sword-world-rpg-complete-edition-section-5-1-12-ancient-magic-list-illusion-2d69a363]] - next source section: 5.1.12 Ancient Magic List / [ Illusion ]
 
 ### Source structure
 
 - [[sword-world-rpg-complete-edition-section-5-1-12-ancient-magic-list-a53ab7f2]] - broader source section: 5.1.12 Ancient Magic List
+- [[sword-world-rpg-complete-edition-section-5-1-12-ancient-magic-list-location-5th-level-ancient-magic-list-apport-9b8a0691]] - narrower source section: 5.1.12 Ancient Magic List / [ Location ] / 5th Level Ancient Magic List [ Apport ]
 
 ## Statements
 

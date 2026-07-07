@@ -9,7 +9,7 @@ domain: javascriptallonge
 category_path: recipes/javascriptallonge
 source_id: javascriptallonge.pdf
 aliases: functions-that-return-values-and-evaluate-expressions
-projection_coverage: recipe-javascriptallonge-recipe-functions-that-return-values-and-evaluate-expressions@a1047c0d7e112951aad555ae3a6fdbad
+projection_coverage: recipe-javascriptallonge-recipe-functions-that-return-values-and-evaluate-expressions@70df477713b3fa31af37164a444f2db7
 ---
 
 # functions that return values and evaluate expressions
@@ -18,7 +18,7 @@ From [[javascriptallonge]].
 
 ## Pattern
 
-- Use the source-backed pattern described in [[javascriptallonge-section-functions-that-return-values-and-evaluate-expressions-6ffa5875]].
+- Use the source-backed pattern described in [[javascriptallonge-section-the-first-sip-basic-functions-as-little-as-possible-about-functions-but-no-less-functions-that-r-a65d460b]].
 - Evidence roles: decision, constraint, explanation, example, structured-state.
 
 ## Applicability And Rationale
@@ -82,4 +82,4 @@ _Source: javascriptallonge.pdf (source-range-c98ab3e6-00192)_
 ## Source Trail
 
 - Source manifest: [[javascriptallonge]]
-- Source section: [[javascriptallonge-section-functions-that-return-values-and-evaluate-expressions-6ffa5875]]
+- Source section: [[javascriptallonge-section-the-first-sip-basic-functions-as-little-as-possible-about-functions-but-no-less-functions-that-r-a65d460b]]

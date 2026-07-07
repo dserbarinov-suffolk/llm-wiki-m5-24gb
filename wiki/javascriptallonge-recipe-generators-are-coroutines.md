@@ -9,7 +9,7 @@ domain: javascriptallonge
 category_path: recipes/javascriptallonge
 source_id: javascriptallonge.pdf
 aliases: generators-are-coroutines
-projection_coverage: recipe-javascriptallonge-recipe-generators-are-coroutines@c3ba35eecef4f8ceed7339c8ac3a66bc
+projection_coverage: recipe-javascriptallonge-recipe-generators-are-coroutines@cc9b9b358d35c0acdc66225e547f3a5e
 ---
 
 # generators are coroutines
@@ -18,7 +18,7 @@ From [[javascriptallonge]].
 
 ## Pattern
 
-- Use the source-backed pattern described in [[javascriptallonge-section-generators-are-coroutines-bceb595a]].
+- Use the source-backed pattern described in [[javascriptallonge-section-served-by-the-pot-collections-generating-iterables-generators-are-coroutines-d0fde127]].
 - Evidence roles: decision, explanation, constraint, example.
 
 ## Applicability And Rationale
@@ -96,4 +96,4 @@ return {done: true};
 ## Source Trail
 
 - Source manifest: [[javascriptallonge]]
-- Source section: [[javascriptallonge-section-generators-are-coroutines-bceb595a]]
+- Source section: [[javascriptallonge-section-served-by-the-pot-collections-generating-iterables-generators-are-coroutines-d0fde127]]

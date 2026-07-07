@@ -8,7 +8,7 @@ updated: 2026-07-07
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-11-notes-on-magic-11-2-dark-magic-3rd-level-basic-dark-magic-list-poison-ee23cb05@1133302ef5e2933e5bfc2fc767e3c7b5
+projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-11-notes-on-magic-11-2-dark-magic-3rd-level-basic-dark-magic-list-poison-ee23cb05@2dc41337a670dc2599cd490014b07f90
 ---
 
 # Chapter 11: Notes on Magic / 11.2 Dark Magic / 3rd Level Basic Dark Magic List [ Poison ]
@@ -19,7 +19,7 @@ From [[sword-world-rpg-complete-edition]].
 
 ### Source order
 
-- [[sword-world-rpg-complete-edition-section-chapter-11-notes-on-magic-11-2-dark-magic-blindness-a94515ab]] - previous source section: Chapter 11: Notes on Magic / 11.2 Dark Magic / Blindness
+- [[sword-world-rpg-complete-edition-section-chapter-11-notes-on-magic-11-2-dark-magic-2nd-level-basic-dark-magic-list-756fcf24]] - previous source section: Chapter 11: Notes on Magic / 11.2 Dark Magic / 2nd Level Basic Dark Magic List
 - [[sword-world-rpg-complete-edition-section-chapter-11-notes-on-magic-11-2-dark-magic-4th-level-basic-dark-magic-list-control-imp-f6bac6fa]] - next source section: Chapter 11: Notes on Magic / 11.2 Dark Magic / 4th Level Basic Dark Magic List [ Control Imp ]
 
 ### Source structure

@@ -9,7 +9,7 @@ domain: javascriptallonge
 category_path: recipes/javascriptallonge
 source_id: javascriptallonge.pdf
 aliases: from
-projection_coverage: recipe-javascriptallonge-recipe-from@d85f9b132eae4e2ed8da338190c612f3
+projection_coverage: recipe-javascriptallonge-recipe-from@a60db96da2b4a57f409c12bf8f3ac297
 ---
 
 # from
@@ -18,7 +18,7 @@ From [[javascriptallonge]].
 
 ## Pattern
 
-- Use the source-backed pattern described in [[javascriptallonge-section-from-88170899]].
+- Use the source-backed pattern described in [[javascriptallonge-section-served-by-the-pot-collections-iteration-and-iterables-98745d63]].
 - Evidence roles: decision, constraint, example.
 
 ## Applicability And Rationale
@@ -76,4 +76,4 @@ Pair1.from(Squares)
 ## Source Trail
 
 - Source manifest: [[javascriptallonge]]
-- Source section: [[javascriptallonge-section-from-88170899]]
+- Source section: [[javascriptallonge-section-served-by-the-pot-collections-iteration-and-iterables-98745d63]]

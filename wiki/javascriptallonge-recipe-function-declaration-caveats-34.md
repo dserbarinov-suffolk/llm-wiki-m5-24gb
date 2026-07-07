@@ -9,7 +9,7 @@ domain: javascriptallonge
 category_path: recipes/javascriptallonge
 source_id: javascriptallonge.pdf
 aliases: function-declaration-caveats-34
-projection_coverage: recipe-javascriptallonge-recipe-function-declaration-caveats-34@6063d7a5826e35725ca3548f25cf4707
+projection_coverage: recipe-javascriptallonge-recipe-function-declaration-caveats-34@f57e08d65a110510ba968dc0a109018c
 ---
 
 # function declaration caveats 34
@@ -18,7 +18,7 @@ From [[javascriptallonge]].
 
 ## Pattern
 
-- Use the source-backed pattern described in [[javascriptallonge-section-function-declaration-caveats-34-62da382e]].
+- Use the source-backed pattern described in [[javascriptallonge-section-and-also-naming-functions-function-declaration-caveats-34-2bc8359c]].
 - Evidence roles: decision, explanation, constraint, procedure, example, structured-state.
 
 ## Applicability And Rationale
@@ -66,4 +66,4 @@ But this is not:
 ## Source Trail
 
 - Source manifest: [[javascriptallonge]]
-- Source section: [[javascriptallonge-section-function-declaration-caveats-34-62da382e]]
+- Source section: [[javascriptallonge-section-and-also-naming-functions-function-declaration-caveats-34-2bc8359c]]

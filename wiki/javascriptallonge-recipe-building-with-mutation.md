@@ -9,7 +9,7 @@ domain: javascriptallonge
 category_path: recipes/javascriptallonge
 source_id: javascriptallonge.pdf
 aliases: building-with-mutation
-projection_coverage: recipe-javascriptallonge-recipe-building-with-mutation@8bbc4fdf5f1c42dec1e4f1a07058feb3
+projection_coverage: recipe-javascriptallonge-recipe-building-with-mutation@37ddb55e6bbcc362ccf26e607ea1b6cd
 ---
 
 # building with mutation
@@ -18,7 +18,7 @@ From [[javascriptallonge]].
 
 ## Pattern
 
-- Use the source-backed pattern described in [[javascriptallonge-section-building-with-mutation-616d4b06]].
+- Use the source-backed pattern described in [[javascriptallonge-section-mutation-building-with-mutation-e30d36e8]].
 - Evidence roles: decision, constraint, procedure, example.
 
 ## Applicability And Rationale
@@ -102,4 +102,4 @@ _Source: javascriptallonge.pdf (source-range-c98ab3e6-01136)_
 ## Source Trail
 
 - Source manifest: [[javascriptallonge]]
-- Source section: [[javascriptallonge-section-building-with-mutation-616d4b06]]
+- Source section: [[javascriptallonge-section-mutation-building-with-mutation-e30d36e8]]

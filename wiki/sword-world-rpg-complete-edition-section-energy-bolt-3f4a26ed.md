@@ -8,7 +8,7 @@ updated: 2026-07-07
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-energy-bolt-3f4a26ed@6d031d967556ec2ca039097c27a6ee7f
+projection_coverage: section-sword-world-rpg-complete-edition-section-energy-bolt-3f4a26ed@48dd316e931f27cfeac4053cd655258c
 ---
 
 # [ Energy Bolt ]
@@ -19,7 +19,7 @@ From [[sword-world-rpg-complete-edition]].
 
 ### Source order
 
-- [[sword-world-rpg-complete-edition-section-1st-level-ancient-magic-list-unlock-aae3f1db]] - previous source section: 1st Level Ancient Magic List [ Unlock ]
+- [[sword-world-rpg-complete-edition-section-sample-magic-details-b20d125b]] - previous source section: [Sample Magic Details]
 - [[sword-world-rpg-complete-edition-section-enchant-weapon-b7b4a1b8]] - next source section: [ Enchant Weapon ]
 
 ## Statements

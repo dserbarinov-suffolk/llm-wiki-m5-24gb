@@ -9,7 +9,7 @@ domain: javascriptallonge
 category_path: recipes/javascriptallonge
 source_id: javascriptallonge.pdf
 aliases: call-by-value
-projection_coverage: recipe-javascriptallonge-recipe-call-by-value@00e6543fa547876c86598983590fefc6
+projection_coverage: recipe-javascriptallonge-recipe-call-by-value@1fb80683618a32f257873512900ed1a1
 ---
 
 # call by value
@@ -18,7 +18,7 @@ From [[javascriptallonge]].
 
 ## Pattern
 
-- Use the source-backed pattern described in [[javascriptallonge-section-call-by-value-71bf7e70]].
+- Use the source-backed pattern described in [[javascriptallonge-section-and-also-ah-i-d-like-to-have-an-argument-please-22-call-by-value-9e24e866]].
 - Evidence roles: decision, definition, explanation, example.
 
 ## Applicability And Rationale
@@ -41,4 +41,4 @@ _Source: javascriptallonge.pdf (source-range-c98ab3e6-00280)_
 ## Source Trail
 
 - Source manifest: [[javascriptallonge]]
-- Source section: [[javascriptallonge-section-call-by-value-71bf7e70]]
+- Source section: [[javascriptallonge-section-and-also-ah-i-d-like-to-have-an-argument-please-22-call-by-value-9e24e866]]

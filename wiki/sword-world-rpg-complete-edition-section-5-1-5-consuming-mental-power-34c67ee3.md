@@ -8,7 +8,7 @@ updated: 2026-07-07
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-5-1-5-consuming-mental-power-34c67ee3@a3552d1bdbd2f18e344d99db4bca73c7
+projection_coverage: section-sword-world-rpg-complete-edition-section-5-1-5-consuming-mental-power-34c67ee3@c65d3b73ca4e517d78c2732be963882b
 ---
 
 # 5.1.5 Consuming Mental Power
@@ -19,7 +19,7 @@ From [[sword-world-rpg-complete-edition]].
 
 ### Source order
 
-- [[sword-world-rpg-complete-edition-section-when-an-adventurer-casts-magic-on-a-mix-of-adventurers-and-monsters-530132be]] - previous source section: When an Adventurer Casts Magic on a Mix of Adventurers and Monsters
+- [[sword-world-rpg-complete-edition-section-4-10-excellent-weapons-and-armor-9f7e82f5]] - previous source section: 4.10 Excellent Weapons and Armor
 
 ## Statements
 

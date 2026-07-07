@@ -7,7 +7,7 @@ sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-07
 domain: sword-world-rpg-complete-edition
 category_path: concepts
-projection_coverage: topic-sword-world-rpg-complete-edition-weapon@3016fbe139800287411d67df761bac0a
+projection_coverage: topic-sword-world-rpg-complete-edition-weapon@626c612a6575c2d36f3bb36986b8d6d4
 ---
 
 # Weapon
@@ -16,14 +16,14 @@ What [[sword-world-rpg-complete-edition]] covers about weapon:
 
 ## Statements
 
-### 3.4.4 Actions You Can Take While Standing Still / Weapon and Armor Restrictions
+### Chapter 3: / 3.4.4 Actions You Can Take While Standing Still / Weapon and Armor Restrictions
 
 - A character's arms are largely divided into weapons, shields, and armor. Required strength should not be added up, but rather considered separately for each of these. In other words, a character with 14 strength can wield a weapon with a required strength of 14, wield a shield with a required strength of 14, and wear armor with a required strength of 14. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01152))_
 
 
 ## Technical atoms
 
-### Technical frame 1: Weapons and Armor That Are Too Heavy
+### Technical frame 1: Chapter 16: / 16.6.2 Two-Handed Attacks / Weapons and Armor That Are Too Heavy
 
 **Context:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-10326))_
 

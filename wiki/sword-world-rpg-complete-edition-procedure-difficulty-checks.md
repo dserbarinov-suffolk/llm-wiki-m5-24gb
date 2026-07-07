@@ -9,7 +9,7 @@ domain: sword-world-rpg-complete-edition
 category_path: procedures/sword-world-rpg-complete-edition
 source_id: Sword World RPG - Complete Edition.pdf
 aliases: complete-difficulty-checks, difficulty-checks
-projection_coverage: procedure-sword-world-rpg-complete-edition-procedure-difficulty-checks@41f16fa036f6bb6e9bcfcee04e1ca09f
+projection_coverage: procedure-sword-world-rpg-complete-edition-procedure-difficulty-checks@629c1a78569440a5d18ad87edeb05735
 ---
 
 # Difficulty Checks
@@ -22,13 +22,13 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Procedure Steps
 
-1. **Difficulty** (`step`) - evidence section [[sword-world-rpg-complete-edition-section-2-5-difficulty-checks-2-5-1-difficulty-af5e5395]].
+1. **Difficulty** (`step`) - evidence section [[sword-world-rpg-complete-edition-section-2-5-difficulty-checks-315d8578]].
    - What makes this different from a target score is that this is not the direct number the player is aiming for. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-00974))_
-2. **How to Make a Difficulty Check** (`validate`) - evidence section [[sword-world-rpg-complete-edition-section-2-5-difficulty-checks-2-5-2-how-to-make-a-difficulty-check-388628e2]].
+2. **How to Make a Difficulty Check** (`validate`) - evidence section [[sword-world-rpg-complete-edition-section-2-5-difficulty-checks-2-5-2-how-to-make-a-difficulty-check-6b624a87]].
    - Whether the base difficulty is revealed or not depends on the situation. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-00976))_
    - To make a difficulty check , the game master also rolls the dice (2D). _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-00976))_
    - This roll is then added to the difficulty and used as the target score. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-00976))_
-3. **Analogy of Success and Failure** (`generate`) - evidence section [[sword-world-rpg-complete-edition-section-2-5-difficulty-checks-2-5-3-analogy-of-success-and-failure-cfbc7b67]].
+3. **Analogy of Success and Failure** (`generate`) - evidence section [[sword-world-rpg-complete-edition-section-2-5-difficulty-checks-2-5-3-analogy-of-success-and-failure-37f17d5e]].
    - That is precisely the reason why we use difficulty checks. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-00985))_
    - If a success roll is made for a difficulty check, the success or failure of the action is strictly unknown to the player. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-00985))_
    - However, a player is given only one criteria to determine whether the success roll they made for a difficulty check is a success or a failure. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-00986))_

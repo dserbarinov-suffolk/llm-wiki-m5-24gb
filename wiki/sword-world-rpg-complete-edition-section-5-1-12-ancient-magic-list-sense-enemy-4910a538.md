@@ -8,7 +8,7 @@ updated: 2026-07-07
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-5-1-12-ancient-magic-list-sense-enemy-4910a538@d17baea61ec1b60f84cb823ff35c16eb
+projection_coverage: section-sword-world-rpg-complete-edition-section-5-1-12-ancient-magic-list-sense-enemy-4910a538@0e3132000c9aab1574f7da830d4f3390
 ---
 
 # 5.1.12 Ancient Magic List / [ Sense Enemy ]
@@ -19,7 +19,7 @@ From [[sword-world-rpg-complete-edition]].
 
 ### Source order
 
-- [[sword-world-rpg-complete-edition-section-5-1-12-ancient-magic-list-2nd-level-ancient-magic-list-oak-6f3490ba]] - previous source section: 5.1.12 Ancient Magic List / 2nd Level Ancient Magic List [ Oak ]
+- [[sword-world-rpg-complete-edition-section-5-1-12-ancient-magic-list-lock-85bfb1f6]] - previous source section: 5.1.12 Ancient Magic List / [ Lock ]
 - [[sword-world-rpg-complete-edition-section-5-1-12-ancient-magic-list-disguise-f5221fe2]] - next source section: 5.1.12 Ancient Magic List / [ Disguise ]
 
 ### Source structure

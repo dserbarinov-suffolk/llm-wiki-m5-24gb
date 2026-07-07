@@ -7,7 +7,7 @@ sources: raw/javascriptallonge.pdf
 updated: 2026-07-07
 domain: javascriptallonge
 category_path: concepts
-projection_coverage: topic-javascriptallonge-return-value@592196c329849f2c129715413bf30671
+projection_coverage: topic-javascriptallonge-return-value@4eac32e38f9a2544f83ae4eaffb2c317
 ---
 
 # Return Value
@@ -51,7 +51,7 @@ status
 
 ### Shared technical atoms
 
-- [[javascriptallonge-destructuring]] - shared technical atoms: Destructuring shares technical record from destructuring and return values: const description = (nameAndOccupation) => { if (nameAndOccupation.length < 2) { return ["", "occupation missing"] } else { const [[first, last], occupation] = nameA ... [truncated] (1 shared atom(s))
+- [[javascriptallonge-destructuring]] - shared technical atoms: Destructuring shares technical record from Composing and Decomposing Data / Arrays and Destructuring Arguments / destructuring and return values: const description = (nameAndOccupation) => { if (nameAndOccupation.length < 2) { return ["", "occupation missing"] } else { const [[first, last], occupation] = nameA ... [truncated] (1 shared atom(s))
 
 ## Source
 

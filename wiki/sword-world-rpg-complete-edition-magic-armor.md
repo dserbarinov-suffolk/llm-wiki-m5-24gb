@@ -7,7 +7,7 @@ sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-07
 domain: sword-world-rpg-complete-edition
 category_path: concepts
-projection_coverage: topic-sword-world-rpg-complete-edition-magic-armor@a2674ff761755e0e5ca0c2cacfd475e9
+projection_coverage: topic-sword-world-rpg-complete-edition-magic-armor@9d05da998c8faf586843df34f8afcf97
 ---
 
 # 《 Magic Armor (+1) 》
@@ -28,7 +28,7 @@ What [[sword-world-rpg-complete-edition]] covers about 《 magic armor (+1) 》:
 
 - Mithril silver, like regular silver, is a metal that exists in the spirit world. Therefore, a shaman can wear mithril silver armor and still use spirit magic. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01468))_
 
-### 13.6 Handling Monster Special Abilities / 《 Iron Corrosion 》
+### 13.2.6 Mythical Beasts and Magical Beasts / [ Horse ] / 13.6 Handling Monster Special Abilities / 13.6.3 Special Attacks: Other / 《 Iron Corrosion 》
 
 - Acid or gas that corrodes iron. Life force will not be damaged, but metal weapons and armor will suffer damage, and become worn out and useless after a certain amount of time. Silver and magic weapons and armor are usually not affected. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-08729))_
 

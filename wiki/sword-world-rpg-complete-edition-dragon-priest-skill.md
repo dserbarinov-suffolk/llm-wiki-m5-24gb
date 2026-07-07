@@ -7,7 +7,7 @@ sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-07
 domain: sword-world-rpg-complete-edition
 category_path: concepts
-projection_coverage: topic-sword-world-rpg-complete-edition-dragon-priest-skill@ed7fa601984e77a76bd09823f101d2c1
+projection_coverage: topic-sword-world-rpg-complete-edition-dragon-priest-skill@308042f00180d09f1c7f69e1347abbab
 ---
 
 # Dragon Priest Skill
@@ -16,15 +16,15 @@ What [[sword-world-rpg-complete-edition]] covers about dragon priest skill:
 
 ## Statements
 
-### 1.3.3 Adventurer Level
+### 1.2 Races / Skills / 1.3.3 Adventurer Level
 
 - In Sword World RPG, a character's capability as an adventurer is determined by their adventurer skill level. The highest level among the adventurer skills that a character has is called that character's adventurer level . For example, a character with priest skill level 1, fighter skill level 4 (these are adventurer skills), sailor skill level 5, and fisher skill level 2 (these are general skills) would be at adventurer level 4 . _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-00219))_
 
-### 【 Rune Master 】
+### 1.2 Races / Skills / 【 Rune Master 】
 
 - The five adventurer skills of sorcerer, shaman, priest, dark priest, and dragon priest are sometimes collectively referred to as rune master skills . This is because these five classes use runes and have the ability to handle magic. Rune masters are viewed with fear by the general public because of their magical abilities. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-00242))_
 
-### 【 Dragon Priest 】
+### 1.2 Races / Skills / 【 Dragon Priest 】
 
 - Players may not choose the dragon priest skill as one of their character's skills. This is because it would be extremely difficult to have a character live the life of a dragon priest, when examining a role-playing game from the role-playing perspective. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-00263))_
 
@@ -36,19 +36,19 @@ What [[sword-world-rpg-complete-edition]] covers about dragon priest skill:
 
 - Fighter is only useful in combat. The sorcerer, shaman, and priest rune master skills are also of little use for anything other than casting magic. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-00913))_
 
-### 5.1.2 Rune Masters and Rune Master Skills
+### 4.10 Excellent Weapons and Armor / 4.10.4 Mithril Silver Weapons and Armor / Basic Rules of Magic / 5.1.2 Rune Masters and Rune Master Skills
 
 - and dragon priest uses dragon roar magic . _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01512))_
 
-### 5.1.3 Learning Magic
+### 4.10 Excellent Weapons and Armor / 4.10.4 Mithril Silver Weapons and Armor / Basic Rules of Magic / 5.1.3 Learning Magic
 
 - Suppose we have an adventurer with priest skill level 1 and shaman skill level 2. This adventurer can use 1st level holy magic and 1st-2nd level spirit magic. He cannot use any ancient magic, nor any holy magic of 2nd level or higher, nor any spirit magic of 3rd level or higher. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01523))_
 
-### 5.1.4 How to Use Magic
+### 4.10 Excellent Weapons and Armor / 4.10.4 Mithril Silver Weapons and Armor / Basic Rules of Magic / 5.1.4 How to Use Magic
 
 - An adventurer with priest skill level 1, shaman skill level 2, and 13 intelligence (+2 bonus) would have a magic power of 3 in holy magic and a magic power of 4 in spirit magic. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01532))_
 
-### 《 Phalaris (Wicked God) 》
+### 《 Marfa 》 / 《 Phalaris (Wicked God) 》
 
 - These teachings are not formal, but express inner thinking. Therefore, players and game masters should use common sense when making judgments, rather than forcefully twisting the doctrine or interpreting it too rigidly. The gods see everything, but they also see from a vast perspective at the same time, so unless it's a very extreme act, they will not abandon a priest. However, this does not mean that everything is forgivable, so game masters should only confiscate the priest skill when the character repeatedly commits unjust acts or shows no remorse. Also, if this happens, don't forget to warn them first. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-03334))_
 
@@ -112,7 +112,7 @@ What [[sword-world-rpg-complete-edition]] covers about dragon priest skill:
 
 - score. The priest's mental power is 14, so it can be expanded by double (final score +1). The money required at this time is 18,000 gamels. If you roll 6 or greater on a success roll, it'll be a success. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-05290))_
 
-### [ Imp ]
+### 13.2.1 《 Humans 》 / [ Imp ]
 
 - The ecology of imps, such as where they live, etc. is not well understood. They are sometimes seen in large cities, and sometimes live in abandoned houses in the suburbs. They may use 1st level dark magic, and may also be the familiars of evil sorcerers (many of whom also have the dark priest skill). _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-05956))_
 
@@ -167,12 +167,12 @@ What [[sword-world-rpg-complete-edition]] covers about dragon priest skill:
 ### Shared claims
 
 - [[sword-world-rpg-complete-edition-11-acquiring-rune-master-skill]] - shared statements: 11 Acquiring Rune Master Skill shares source evidence from Chapter 11: Notes on Magic / 11.4 Acquiring Rune Master Skills and Increasing Levels / 《 Priest Skill 》: To acquire the priest skill, it is necessary to awaken to faith . When you awaken to faith and recognize the existence of the gods, you can acquire the 1st level pri ... [truncated] (5 shared statement(s))
-- [[sword-world-rpg-complete-edition-adventurer-level]] - shared statements: 1.3.3 Adventurer Level shares source evidence from 1.3.3 Adventurer Level: In Sword World RPG, a character's capability as an adventurer is determined by their adventurer skill level. The highest level among the adventurer skills that a cha ... [truncated] (3 shared statement(s))
+- [[sword-world-rpg-complete-edition-adventurer-level]] - shared statements: 1.3.3 Adventurer Level shares source evidence from 1.2 Races / Skills / 1.3.3 Adventurer Level: In Sword World RPG, a character's capability as an adventurer is determined by their adventurer skill level. The highest level among the adventurer skills that a cha ... [truncated] (3 shared statement(s))
 - [[sword-world-rpg-complete-edition-sage-skill]] - shared statements: Sage Skill shares source evidence from Chapter 11: Notes on Magic / 11.3 Dragon Roar Magic / Reptile Check [Intelligence]: Dragon priests have knowledge of dragons, their subspecies such as wyrms, wyverns, etc. and reptiles. For these monsters only, they can identify them with a success ... [truncated] (1 shared statement(s))
 
 ### Topics
 
-- [[sword-world-rpg-complete-edition-priest-skill]] - broader topic: Priest Skill shares source evidence from 1.3.3 Adventurer Level: In Sword World RPG, a character's capability as an adventurer is determined by their adventurer skill level. The highest level among the adventurer skills that a cha ... [truncated] (22 shared statement(s))
+- [[sword-world-rpg-complete-edition-priest-skill]] - broader topic: Priest Skill shares source evidence from 1.2 Races / Skills / 1.3.3 Adventurer Level: In Sword World RPG, a character's capability as an adventurer is determined by their adventurer skill level. The highest level among the adventurer skills that a cha ... [truncated] (22 shared statement(s))
 
 ## Source
 

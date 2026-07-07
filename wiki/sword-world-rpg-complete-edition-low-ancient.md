@@ -7,7 +7,7 @@ sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-07
 domain: sword-world-rpg-complete-edition
 category_path: concepts
-projection_coverage: topic-sword-world-rpg-complete-edition-low-ancient@1f08c15ee710bd352502376bdf5013b3
+projection_coverage: topic-sword-world-rpg-complete-edition-low-ancient@91a18d1b15a6b6c10240951582a5a0ce
 ---
 
 # 《 Low Ancient 》
@@ -16,11 +16,11 @@ What [[sword-world-rpg-complete-edition]] covers about 《 low ancient 》:
 
 ## Statements
 
-### 《 Low Ancient 》
+### [Sample Magic Details] / 《 Low Ancient 》
 
 - This was an everyday language of the ancient kingdom, called low ancient , and was the language used by citizens and slaves. Sorcerers can speak, read and write in this language. Low ancient was used in informal texts in the ancient kingdom. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01819))_
 
-### Sage Skill
+### Chapter 6: / Sage Skill
 
 - There are limitations to learning languages through the sage skill. Characters who cannot read common must fi rst learn how to read common before learning other languages. Then, a character who cannot read low ancient (but has learned common) must learn to read low ancient before learning any other language. If you can read both common and low ancient, you are free to learn subsequent languages. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-04073))_
 
@@ -28,11 +28,11 @@ What [[sword-world-rpg-complete-edition]] covers about 《 low ancient 》:
 
 - Then, you'll be given basic knowledge as a sorcerer, such as speaking and reading in high and low ancient, thus a sorcerer who can use 1st level spells is born. In this case, the rules require 2000 experience points (1500 points if you've acquired the sage skill). Also, although there are no specific restrictions in the rules, a training period of about 3 to 5 years is required. The sorcerer skill is increased by spending experience points. As your sorcerer skill increases, your magic power increases and at the same time you also immediately gain access to higher level spells. Please interpret this as because the sorcerer's spellbook has spells that they cannot handle written down in advance. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-05248))_
 
-### Chapter 12: Various Checks / 12.1 Rules Regarding Language / 《 Common 》
+### Chapter 12: Various Checks / 12.1 Rules Regarding Language / Forcelia / 《 Common 》
 
 - Common is the language most widely used in the world of Sword World . This language was first used during the early new kingdom period, replacing low ancient which had been the normal language of the ancient kingdom. Common was frequently used as a normal language in the great empire that was formed in the early new kingdom period. However, as the great empire fell and many small kingdoms were born in various regions, each region began to develop its own language, and its role as a normal language was lost. However, from that time on, there had been no small number of people who moved back and forth across the kingdom. Language was a major barrier for peddlers without borders, traveling bards, mercenaries and adventurers. Therefore, these people and those who often had contact with them (merchants, innkeepers, kings, nobles, etc.) began to use common as a means of communicating with each other. This custom has continued to this day. Common is the language used by the most people in the world of Forcelia. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-05311))_
 
-### Chapter 12: Various Checks / 12.1 Rules Regarding Language / 《 Low Ancient 》
+### Chapter 12: Various Checks / 12.1 Rules Regarding Language / Forcelia / 《 Low Ancient 》
 
 - Low ancient is the normal language used in the ancient kingdom of Kastuul, which once flourished throughout Alecrast. Although it is now a dead language, its words are still passed down among people and monsters connected to the ancient kingdom. Also, those called sages and sorcerers study low ancient, considering it an almost essential language. This is because you cannot begin to understand the great civilization of the ancient kingdom unless you know low ancient. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-05319))_
 
@@ -50,31 +50,31 @@ What [[sword-world-rpg-complete-edition]] covers about 《 low ancient 》:
 
 - Fire immunity Not affected by poison and illness Sleepless Habitat=Mountains, caves, other Languages=Lizardman, low ancient Perception=Five senses (darkvision) _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-06769))_
 
-### [ Homunculus ]
+### 13.2.6 Mythical Beasts and Magical Beasts / [ Horse ] / 13.2.10 Magical Creatures / [ Homunculus ]
 
 - Monster Level=1 Rarity=14 Agility=14 Movement Speed=4/7 (air) Number=One Frequency=Very rare Intellect=Human Reaction=Neutral Attack Points=Barehanded:8 (1) Strike Points=1 Evasion Points=10 (3) Defense Points=3 Life Points/Resistance=6/8 (1) Mental Points/Resistance=14/9 (2) Special Abilities=None in particular Habitat=Depends on the caster Languages=Low ancient Perception=Five senses _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-07883))_
 
-### [ Gargoyle ]
+### 13.2.6 Mythical Beasts and Magical Beasts / [ Horse ] / 13.2.10 Magical Creatures / [ Gargoyle ]
 
 - [ Sí ] Monster Level=3 Rarity=14 Agility=17 Movement Speed=17 Number=One to several Frequency=Very rare Intellect=Human Reaction=Adversarial Attack Points=Weapon:11 (4) Strike Points=4 Evasion Points=12 (5) Defense Points=5 Life Points/Resistance=4/9 (2) Mental Points/Resistance=14/11 (4) Special Abilities=3rd level ancient magic (Magic intensity/magic power=12/5) Habitat=Ruins Languages=Low ancient _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-08030))_
 
-### Chapter 14: / 14.4 Magical Item List / 《 Twisted Sling 》
+### Chapter 14: / 14.4 Magical Item List / 14.4.2 List of Magical Items / 《 Twisted Sling 》
 
 - This looks like a worn-out sling with strings coming loose all over. Moreover, when used normally, both hit checks and damage will suffer a -1 modifier. However, when used without a bullet and with a low ancient password, it can fire a strike power 10, magic power 8 Energy Bolt . _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-09066))_
 
-### Chapter 14: / 14.4 Magical Item List / 《 Brain Blade 》
+### Chapter 14: / 14.4 Magical Item List / 14.4.2 List of Magical Items / 《 Brain Blade 》
 
 - This sword has knowledge about enemies and speaks to the user's mind, telling him or her the enemy's name and strength in concrete scores. The contents of this knowledge are limited to only what concerns the enemy. Also, the sword's language is low ancient, so a character who cannot speak low ancient cannot obtain this knowledge. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-09099))_
 
-### Chapter 14: / 14.4 Magical Item List / [ Container Bracelet ]
+### Chapter 14: / 14.4 Magical Item List / 《 Accessories 》 [ Earrings of Interpretation ] / [ Container Bracelet ]
 
 - When you bring an object close to the jewel attached to the bracelet and speak the password in low ancient, the object will be absorbed into the jewel. While the object is absorbed, if you speak the password again, you can retrieve the object. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-09420))_
 
-### Chapter 14: / 14.4 Magical Item List / [ Card of Power ]
+### Chapter 14: / 14.4 Magical Item List / 《 Other 》 / [ Card of Power ]
 
 - This item was developed so that even those without the sorcerer skill can use ancient magic. It does not consume mental power when used. To use it, a manual written in low ancient is included in its box, and if you chant a spell name in low ancient while tearing up the card, the magical power previously bestowed on the card will be released. Magic intensity is 15, and the effect cannot be expanded at all. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-09649))_
 
-### Chapter 14: / 14.4 Magical Item List / [ Seal Stone ]
+### Chapter 14: / 14.4 Magical Item List / 《 Other 》 / [ Seal Stone ]
 
 - This stone's magical power will appear when you aim it at an opponent and chant a password in low ancient. Those who fail to resist will have their soul sealed in the stone (resist target score is 18). A body that's lost its soul must faithfully obey the commands of the stone's owner. It has no effect on undead, etc. which do not have souls. Only one person's soul can be sealed in at a time. No memories will remain while the soul is sealed. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-09695))_
 
@@ -97,15 +97,16 @@ What [[sword-world-rpg-complete-edition]] covers about 《 low ancient 》:
 
 ### Source structure
 
-- [[sword-world-rpg-complete-edition-section-chapter-12-various-checks-12-1-rules-regarding-language-low-ancient-c6a34287]] - source section: Chapter 12: Various Checks / 12.1 Rules Regarding Language / 《 Low Ancient 》 shares source evidence from Chapter 12: Various Checks / 12.1 Rules Regarding Language / 《 Low Ancient 》: Low ancient is the normal language used in the ancient kingdom of Kastuul, which once flourished throughout Alecrast. Although it is now a dead language, its words a ... [truncated]; Chapter 12: Various Checks / 12.1 Rules Regarding Language / 《 Low Ancient 》 shares technical record from Chapter 12: Various Checks / 12.1 Rules Regarding Language / 《 Low Ancient 》: This is because you cannot begin to understand the great civilization of the ancient kingdom unless you know low ancient. (3 shared statement(s), 1 shared atom(s))
-- [[sword-world-rpg-complete-edition-section-low-ancient-4589bfa8]] - source section: 《 Low Ancient 》 shares source evidence from 《 Low Ancient 》: This was an everyday language of the ancient kingdom, called low ancient , and was the language used by citizens and slaves. Sorcerers can speak, read and write in t ... [truncated] (2 shared statement(s))
+- [[sword-world-rpg-complete-edition-section-chapter-12-various-checks-12-1-rules-regarding-language-forcelia-low-ancient-93459403]] - source section: Chapter 12: Various Checks / 12.1 Rules Regarding Language / Forcelia / 《 Low Ancient 》 shares source evidence from Chapter 12: Various Checks / 12.1 Rules Regarding Language / Forcelia / 《 Low Ancient 》: Low ancient is the normal language used in the ancient kingdom of Kastuul, which once flourished throughout Alecrast. Although it is now a dead language, its words a ... [truncated]; Chapter 12: Various Checks / 12.1 Rules Regarding Language / Forcelia / 《 Low Ancient 》 shares technical record from Chapter 12: Various Checks / 12.1 Rules Regarding Language / Forcelia / 《 Low Ancient 》: This is because you cannot begin to understand the great civilization of the ancient kingdom unless you know low ancient. (3 shared statement(s), 1 shared atom(s))
 
 ### Shared technical atoms
 
-- [[sword-world-rpg-complete-edition-sage-skill]] - shared statements and technical atoms: Sage Skill shares source evidence from Sage Skill: There are limitations to learning languages through the sage skill. Characters who cannot read common must fi rst learn how to read common before learning other lang ... [truncated]; Sage Skill shares technical record from Chapter 12: Various Checks / 12.1 Rules Regarding Language / Languages: An owner of the sorcerer skill can read low ancient, so acquiring the sage skill will quickly allow you to learn new languages (if you can read common). (3 shared statement(s), 1 shared atom(s))
+- [[sword-world-rpg-complete-edition-sage-skill]] - shared statements and technical atoms: Sage Skill shares source evidence from Chapter 6: / Sage Skill: There are limitations to learning languages through the sage skill. Characters who cannot read common must fi rst learn how to read common before learning other lang ... [truncated]; Sage Skill shares technical record from Chapter 12: Various Checks / 12.1 Rules Regarding Language / Languages: An owner of the sorcerer skill can read low ancient, so acquiring the sage skill will quickly allow you to learn new languages (if you can read common). (3 shared statement(s), 1 shared atom(s))
 
 ### Shared claims
 
+- [[sword-world-rpg-complete-edition-attack-character-monster]] - shared statements: Attacks From Characters Against Monsters shares source evidence from 13.2.6 Mythical Beasts and Magical Beasts / [ Lamia ]: Monster Level=5 Rarity=15 Agility=9 Movement Speed=12 Number=One Frequency=Rare Intellect=Human Reaction=Neutral Attack Points=Strangle:13 (6) Strike Points=11 Evasi ... [truncated] (3 shared statement(s))
+- [[sword-world-rpg-complete-edition-attack-monster-character]] - shared statements: Attacks From Monsters Against Characters shares source evidence from 13.2.6 Mythical Beasts and Magical Beasts / [ Lamia ]: Monster Level=5 Rarity=15 Agility=9 Movement Speed=12 Number=One Frequency=Rare Intellect=Human Reaction=Neutral Attack Points=Strangle:13 (6) Strike Points=11 Evasi ... [truncated] (3 shared statement(s))
 - [[sword-world-rpg-complete-edition-11-acquiring-rune-master-skill]] - shared statements: 11 Acquiring Rune Master Skill shares source evidence from Chapter 11: Notes on Magic / 11.4 Acquiring Rune Master Skills and Increasing Levels / 《 Sorcerer Skill 》: Then, you'll be given basic knowledge as a sorcerer, such as speaking and reading in high and low ancient, thus a sorcerer who can use 1st level spells is born. In t ... [truncated] (1 shared statement(s))
 
 ## Source

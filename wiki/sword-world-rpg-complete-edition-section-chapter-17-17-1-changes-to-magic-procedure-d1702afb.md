@@ -8,7 +8,7 @@ updated: 2026-07-07
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-17-17-1-changes-to-magic-procedure-d1702afb@90bc4ffe8e4ac6900af1e49ca220fa61
+projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-17-17-1-changes-to-magic-procedure-d1702afb@9777f97d8ea2a0a79201cd8d49503896
 ---
 
 # Chapter 17: / 17.1 Changes to Magic Procedure
@@ -20,10 +20,6 @@ From [[sword-world-rpg-complete-edition]].
 ### Source order
 
 - [[sword-world-rpg-complete-edition-section-chapter-17-17-2-lost-spells-fa7fb25e]] - next source section: Chapter 17: / 17.2 Lost Spells
-
-### Source structure
-
-- [[sword-world-rpg-complete-edition-section-chapter-17-e3cea10f]] - broader source section: Chapter 17:
 
 ## Statements
 

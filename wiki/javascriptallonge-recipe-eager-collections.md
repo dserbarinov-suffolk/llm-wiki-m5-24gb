@@ -9,7 +9,7 @@ domain: javascriptallonge
 category_path: recipes/javascriptallonge
 source_id: javascriptallonge.pdf
 aliases: eager-collections
-projection_coverage: recipe-javascriptallonge-recipe-eager-collections@d2a45d63393421441198dcb42fc6d7bc
+projection_coverage: recipe-javascriptallonge-recipe-eager-collections@e72583d36d89e33a4057c9a951087fb8
 ---
 
 # eager collections
@@ -18,7 +18,7 @@ From [[javascriptallonge]].
 
 ## Pattern
 
-- Use the source-backed pattern described in [[javascriptallonge-section-eager-collections-c6092795]].
+- Use the source-backed pattern described in [[javascriptallonge-section-lazy-and-eager-collections-eager-collections-527b72b9]].
 - Evidence roles: decision, constraint, explanation, example.
 
 ## Applicability And Rationale
@@ -194,4 +194,4 @@ _Source: javascriptallonge.pdf (source-range-c98ab3e6-01778)_
 ## Source Trail
 
 - Source manifest: [[javascriptallonge]]
-- Source section: [[javascriptallonge-section-eager-collections-c6092795]]
+- Source section: [[javascriptallonge-section-lazy-and-eager-collections-eager-collections-527b72b9]]

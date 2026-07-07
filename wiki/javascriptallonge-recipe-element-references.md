@@ -9,7 +9,7 @@ domain: javascriptallonge
 category_path: recipes/javascriptallonge
 source_id: javascriptallonge.pdf
 aliases: element-references
-projection_coverage: recipe-javascriptallonge-recipe-element-references@59db3d7bcd3348edecb9604eeda351fb
+projection_coverage: recipe-javascriptallonge-recipe-element-references@1b2f49b9d4c291c2aed60c47f53099b4
 ---
 
 # element references
@@ -18,7 +18,7 @@ From [[javascriptallonge]].
 
 ## Pattern
 
-- Use the source-backed pattern described in [[javascriptallonge-section-element-references-3e80b0bf]].
+- Use the source-backed pattern described in [[javascriptallonge-section-composing-and-decomposing-data-arrays-and-destructuring-arguments-element-references-75756e27]].
 - Evidence roles: decision, constraint, procedure, example.
 
 ## Applicability And Rationale
@@ -57,4 +57,4 @@ a[0] === x
 ## Source Trail
 
 - Source manifest: [[javascriptallonge]]
-- Source section: [[javascriptallonge-section-element-references-3e80b0bf]]
+- Source section: [[javascriptallonge-section-composing-and-decomposing-data-arrays-and-destructuring-arguments-element-references-75756e27]]

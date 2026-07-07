@@ -9,7 +9,7 @@ domain: javascriptallonge
 category_path: recipes/javascriptallonge
 source_id: javascriptallonge.pdf
 aliases: rewriting-iterable-operations
-projection_coverage: recipe-javascriptallonge-recipe-rewriting-iterable-operations@e60b1e3bd01d89b15937c32b12d5a924
+projection_coverage: recipe-javascriptallonge-recipe-rewriting-iterable-operations@16896650368cb7158ed8d3d3b61f4aab
 ---
 
 # rewriting iterable operations
@@ -18,7 +18,7 @@ From [[javascriptallonge]].
 
 ## Pattern
 
-- Use the source-backed pattern described in [[javascriptallonge-section-rewriting-iterable-operations-af476334]].
+- Use the source-backed pattern described in [[javascriptallonge-section-served-by-the-pot-collections-rewriting-iterable-operations-f8a6e431]].
 - Evidence roles: decision, constraint, example.
 
 ## Applicability And Rationale
@@ -109,4 +109,4 @@ yield * iterator;
 ## Source Trail
 
 - Source manifest: [[javascriptallonge]]
-- Source section: [[javascriptallonge-section-rewriting-iterable-operations-af476334]]
+- Source section: [[javascriptallonge-section-served-by-the-pot-collections-rewriting-iterable-operations-f8a6e431]]

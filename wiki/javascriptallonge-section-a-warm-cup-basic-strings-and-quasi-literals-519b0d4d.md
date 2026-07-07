@@ -8,7 +8,7 @@ updated: 2026-07-07
 domain: javascriptallonge
 category_path: sources/javascriptallonge/sections
 source_id: javascriptallonge.pdf
-projection_coverage: section-javascriptallonge-section-a-warm-cup-basic-strings-and-quasi-literals-519b0d4d@20f819c07b3c8343016bfaab31e85c60
+projection_coverage: section-javascriptallonge-section-a-warm-cup-basic-strings-and-quasi-literals-519b0d4d@7a97b3c69657d9542220f98eae7c3896
 ---
 
 # A Warm Cup: Basic Strings and Quasi-Literals
@@ -19,8 +19,13 @@ From [[javascriptallonge]].
 
 ### Source order
 
-- [[javascriptallonge-section-why-ecb965c7]] - previous source section: Why?
-- [[javascriptallonge-section-quasi-literals-e514ae04]] - next source section: quasi-literals
+- [[javascriptallonge-section-recipes-with-data-4b3e2c99]] - previous source section: Recipes with Data
+- [[javascriptallonge-section-served-by-the-pot-collections-e15a3403]] - next source section: Served by the Pot: Collections
+
+### Source structure
+
+- [[javascriptallonge-section-a-warm-cup-basic-strings-and-quasi-literals-evaluation-time-ba7a0853]] - narrower source section: A Warm Cup: Basic Strings and Quasi-Literals / evaluation time
+- [[javascriptallonge-section-a-warm-cup-basic-strings-and-quasi-literals-quasi-literals-4646e272]] - narrower source section: A Warm Cup: Basic Strings and Quasi-Literals / quasi-literals
 
 ## Statements
 

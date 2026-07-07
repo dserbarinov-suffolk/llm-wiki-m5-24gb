@@ -1,13 +1,13 @@
 ---
 page_id: sword-world-rpg-complete-edition-magical-beast
 page_kind: concept
-summary: Magical Beast: 12 statement(s) and 1 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-page_family: topic-concept
+summary: Magical Beast: 14 statement(s) and 1 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+page_family: broad-topic
 sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-07
 domain: sword-world-rpg-complete-edition
 category_path: concepts
-projection_coverage: topic-sword-world-rpg-complete-edition-magical-beast@110414a73aabb8208848ed901fc1f80d
+projection_coverage: topic-sword-world-rpg-complete-edition-magical-beast@530ff7d66723c91f0603f58e61ab1b20
 ---
 
 # Magical Beast
@@ -23,8 +23,6 @@ What [[sword-world-rpg-complete-edition]] covers about magical beast:
 - Medusa, chimera, griffon, etc. are creatures created by sorcerers during the ancient kingdom period. They look like a combination of animals (as well as) humans, and are endowed with very special abilities. These mythical beasts and magical beasts created by such magic have almost no reproductive ability. However, on the other hand, they can survive on very little food. To protect themselves or to show off their power, sorcerers of the ancient kingdom period often gave them various offensive abilities and frenetic personalities, and many of these kinds of mythical and magical beasts are dangerous. Sleep is necessary for the maintenance of normal animals and humans both as individuals and a race, but some mythical beasts and magical beasts are created such that they do not need to sleep. Magic that causes sleep (such as " Sleep Cloud " or " Sleep ") has no effect on such things. Similarly, most poisons, etc. have no effect. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-05784))_
 
 - Creatures that have a beautiful appearance and are neutral or friendly towards humans are called mythical beasts , while those that have an ugly or unpleasant appearance and are harmful to humans are called magical beasts . However, this is rather a result of selfish value judgment by humans, and even if they are called mythical beasts, they do not seem to like interacting with humans. There are also things such as dragons that are called both mythical and magical beasts. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-05785))_
-
-- Examples of mythical beasts include griffons, unicorns, etc. and magical beasts include chimeras, manticores etc. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-05786))_
 
 ### 13.2.6 Mythical Beasts and Magical Beasts / [ Ceiling Hanger ]
 
@@ -50,6 +48,15 @@ What [[sword-world-rpg-complete-edition]] covers about magical beast:
 
 - The sphinx is said to be a mythical beast created by the sorcerers of the ancient kingdom to protect true knowledge, and to prevent lost ancient magic spell books and valuable magical items from falling into the hands of fools. If approached in a friendly manner, the sphinx may play a game of riddles to determine the intelligence of their opponent. The sphinx will only reveal its secrets to those it deems to be truly wise and right-minded. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-06612))_
 
+### 13.2.6 Mythical Beasts and Magical Beasts / [ Horse ] / 13.2.10 Magical Creatures / [ Golem ]
+
+- Golems are generally humanoid, but there are many exceptions to this, and some come in special shapes that resemble animals, magical beasts, or mythical beasts such as dragons, etc. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-08123))_
+
+### 13.2.6 Mythical Beasts and Magical Beasts / [ Horse ] / 13.6 Handling Monster Special Abilities / 《 Not Affected by Poison and Illness 》
+
+- Certain mythical beasts, magical beasts, undead powered by negative life, and pseudo-life forms created by magic, are free from poison and illness. These monsters are not affected by poison and illness. Ancient magic that alters the atmosphere ( XX Cloud ) is also ineffective. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-08783))_
+
+- and magical beasts include chimeras, manticores etc. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-05786))_
 
 ## Technical atoms
 
@@ -69,7 +76,7 @@ What [[sword-world-rpg-complete-edition]] covers about magical beast:
 
 ### Shared technical atoms
 
-- [[sword-world-rpg-complete-edition-13-mythical-beast]] - shared statements and technical atoms: 13 Mythical Beast shares source evidence from 13.2.6 Mythical Beasts and Magical Beasts / [ Lizardman ]: The magic used by noble lizardmen is said to be dragon roar magic. Although the Witch of Orphan Laverna assumed that the lizardman family was closely related to drag ... [truncated]; 13 Mythical Beast shares technical record from 13.2.6 Mythical Beasts and Magical Beasts / [ Lizardman ]: Slaves have low intellect and cannot use magic. (2 shared statement(s), 1 shared atom(s))
+- [[sword-world-rpg-complete-edition-13-mythical-beast]] - shared statements and technical atoms: 13 Mythical Beast shares source evidence from 13.2.6 Mythical Beasts and Magical Beasts / [ Lizardman ]: The magic used by noble lizardmen is said to be dragon roar magic. Although the Witch of Orphan Laverna assumed that the lizardman family was closely related to drag ... [truncated]; 13 Mythical Beast shares technical record from 13.2.6 Mythical Beasts and Magical Beasts / [ Lizardman ]: Slaves have low intellect and cannot use magic. (4 shared statement(s), 1 shared atom(s))
 
 ### Shared claims
 

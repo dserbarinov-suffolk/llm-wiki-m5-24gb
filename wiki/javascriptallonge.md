@@ -1,14 +1,14 @@
 ---
 page_id: javascriptallonge
 page_kind: source
-summary: Claim-ledger projection (coding): 1990 usable entries, 608 technical atoms, 376 needs-review, 394 linked page(s); write decision write-with-review-work.
+summary: Claim-ledger projection (coding): 1990 usable entries, 608 technical atoms, 376 needs-review, 387 linked page(s); write decision write-with-review-work.
 page_family: source-manifest
 sources: raw/javascriptallonge.pdf
 updated: 2026-07-07
 domain: javascriptallonge
 category_path: sources
 source_id: javascriptallonge.pdf
-projection_coverage: projection-coverage-3aebe597cedb3942@c07e5320e4da0799
+projection_coverage: projection-coverage-827156e6658d5fe9@5baeb68be846ca70
 ---
 
 # Javascriptallonge
@@ -16,85 +16,97 @@ projection_coverage: projection-coverage-3aebe597cedb3942@c07e5320e4da0799
 ## Source
 
 - Raw source: `raw/javascriptallonge.pdf`
-- Claim-ledger projection (coding): 1990 usable entries, 608 technical atoms, 376 needs-review, 394 linked page(s); write decision write-with-review-work.
+- Claim-ledger projection (coding): 1990 usable entries, 608 technical atoms, 376 needs-review, 387 linked page(s); write decision write-with-review-work.
 
 ## Page Families
 
-- broad-topic: 20 page(s) - broad concept overview pages
-- recipe-pattern: 130 page(s) - reusable example pattern pages
-- section-reference: 192 page(s) - source-order reference pages
+- broad-topic: 22 page(s) - broad concept overview pages
+- collection-page: 27 page(s) - list and catalog pages
+- recipe-pattern: 106 page(s) - reusable example pattern pages
+- section-reference: 172 page(s) - source-order reference pages
 - source-manifest: 1 page(s) - source entry point
-- topic-concept: 52 page(s) - focused concept pages
+- topic-concept: 60 page(s) - focused concept pages
+
+## Collections
+
+- [[javascriptallonge-collection-the-first-sip-basic-functions-as-little-as-possible-about-functions-but-no-less-a62974a6]] - collection: The first sip: Basic Functions / As Little As Possible About Functions, But No Less: 4 collection member(s) from raw/javascriptallonge.pdf.
+- [[javascriptallonge-collection-or-even-dff7248d]] - collection: Or even:: 3 collection member(s) from raw/javascriptallonge.pdf.
+- [[javascriptallonge-collection-and-also-e19b2ed2]] - collection: And also:: 10 collection member(s) from raw/javascriptallonge.pdf.
+- [[javascriptallonge-collection-and-also-closures-and-scope-77af1b0f]] - collection: And also: / Closures and Scope: 4 collection member(s) from raw/javascriptallonge.pdf.
+- [[javascriptallonge-collection-and-also-that-constant-coffee-craving-614e2fd3]] - collection: And also: / That Constant Coffee Craving: 6 collection member(s) from raw/javascriptallonge.pdf.
+- [[javascriptallonge-collection-and-also-naming-functions-c49aef83]] - collection: And also: / Naming Functions: 3 collection member(s) from raw/javascriptallonge.pdf.
+- [[javascriptallonge-collection-and-also-combinators-and-function-decorators-901f172c]] - collection: And also: / Combinators and Function Decorators: 3 collection member(s) from raw/javascriptallonge.pdf.
+- [[javascriptallonge-collection-recipes-with-basic-functions-d7445960]] - collection: Recipes with Basic Functions: 6 collection member(s) from raw/javascriptallonge.pdf.
+- [[javascriptallonge-collection-recipes-with-basic-functions-left-variadic-functions-574b019e]] - collection: Recipes with Basic Functions / Left-Variadic Functions: 3 collection member(s) from raw/javascriptallonge.pdf.
+- [[javascriptallonge-collection-picking-the-bean-choice-and-truthiness-d2a76f30]] - collection: Picking the Bean: Choice and Truthiness: 4 collection member(s) from raw/javascriptallonge.pdf.
+- [[javascriptallonge-collection-composing-and-decomposing-data-99b4771a]] - collection: Composing and Decomposing Data: 6 collection member(s) from raw/javascriptallonge.pdf.
+- [[javascriptallonge-collection-composing-and-decomposing-data-arrays-and-destructuring-arguments-2a38bfc8]] - collection: Composing and Decomposing Data / Arrays and Destructuring Arguments: 7 collection member(s) from raw/javascriptallonge.pdf.
+- [[javascriptallonge-collection-composing-and-decomposing-data-self-similarity-ea23a471]] - collection: Composing and Decomposing Data / Self-Similarity: 3 collection member(s) from raw/javascriptallonge.pdf.
+- [[javascriptallonge-collection-garbage-garbage-everywhere-8c9764a5]] - collection: Garbage, Garbage Everywhere: 3 collection member(s) from raw/javascriptallonge.pdf.
+- [[javascriptallonge-collection-plain-old-javascript-objects-ae9a88a3]] - collection: Plain Old JavaScript Objects: 3 collection member(s) from raw/javascriptallonge.pdf.
+- [[javascriptallonge-collection-copy-on-write-d081f846]] - collection: Copy on Write: 4 collection member(s) from raw/javascriptallonge.pdf.
+- [[javascriptallonge-collection-copy-on-write-functional-iterators-74724e0a]] - collection: Copy on Write / Functional Iterators: 3 collection member(s) from raw/javascriptallonge.pdf.
+- [[javascriptallonge-collection-copy-on-write-making-data-out-of-functions-182a6c8b]] - collection: Copy on Write / Making Data Out Of Functions: 7 collection member(s) from raw/javascriptallonge.pdf.
+- [[javascriptallonge-collection-recipes-with-data-4b3e2c99]] - collection: Recipes with Data: 4 collection member(s) from raw/javascriptallonge.pdf.
+- [[javascriptallonge-collection-served-by-the-pot-collections-e15a3403]] - collection: Served by the Pot: Collections: 3 collection member(s) from raw/javascriptallonge.pdf.
+- [[javascriptallonge-collection-served-by-the-pot-collections-iteration-and-iterables-98745d63]] - collection: Served by the Pot: Collections / Iteration and Iterables: 7 collection member(s) from raw/javascriptallonge.pdf.
+- [[javascriptallonge-collection-served-by-the-pot-collections-generating-iterables-f68c47a5]] - collection: Served by the Pot: Collections / Generating Iterables: 7 collection member(s) from raw/javascriptallonge.pdf.
+- [[javascriptallonge-collection-lazy-and-eager-collections-7308cac5]] - collection: Lazy and Eager Collections: 3 collection member(s) from raw/javascriptallonge.pdf.
+- [[javascriptallonge-collection-interlude-the-carpenter-interviews-for-a-job-9cc5ffd7]] - collection: Interlude: The Carpenter Interviews for a Job: 3 collection member(s) from raw/javascriptallonge.pdf.
+- [[javascriptallonge-collection-interactive-generators-c6339bc5]] - collection: Interactive Generators: 4 collection member(s) from raw/javascriptallonge.pdf.
+- [[javascriptallonge-collection-interactive-generators-basic-operations-on-iterables-540cf505]] - collection: Interactive Generators / Basic Operations on Iterables: 4 collection member(s) from raw/javascriptallonge.pdf.
+- [[javascriptallonge-collection-the-golden-crema-appendices-and-afterwords-baeb2597]] - collection: The Golden Crema: Appendices and Afterwords: 3 collection member(s) from raw/javascriptallonge.pdf.
 
 ## Concept Entry Points
 
-- [[javascriptallonge-allong]] - concept: Allong: 10 statement(s) and 4 atom(s) from raw/javascriptallonge.pdf.
-- [[javascriptallonge-argument]] - concept: Argument: 15 statement(s) and 31 atom(s) from raw/javascriptallonge.pdf.
-- [[javascriptallonge-bind]] - concept: Bind: 10 statement(s) and 20 atom(s) from raw/javascriptallonge.pdf.
-- [[javascriptallonge-binding]] - concept: Binding: 3 statement(s) and 7 atom(s) from raw/javascriptallonge.pdf.
+- [[javascriptallonge-allong]] - concept: Allong: 10 statement(s) and 6 atom(s) from raw/javascriptallonge.pdf.
+- [[javascriptallonge-argument]] - concept: Argument: 15 statement(s) and 33 atom(s) from raw/javascriptallonge.pdf.
+- [[javascriptallonge-array]] - concept: Array: 14 statement(s) and 14 atom(s) from raw/javascriptallonge.pdf.
+- [[javascriptallonge-bind]] - concept: Bind: 10 statement(s) and 31 atom(s) from raw/javascriptallonge.pdf.
+- [[javascriptallonge-binding]] - concept: Binding: 3 statement(s) and 8 atom(s) from raw/javascriptallonge.pdf.
 - [[javascriptallonge-body]] - concept: Body: 7 statement(s) and 0 atom(s) from raw/javascriptallonge.pdf.
-- [[javascriptallonge-carpenter]] - concept: Carpenter: 8 statement(s) and 2 atom(s) from raw/javascriptallonge.pdf.
-- [[javascriptallonge-coffee]] - concept: Coffee: 5 statement(s) and 4 atom(s) from raw/javascriptallonge.pdf.
-- [[javascriptallonge-collection]] - concept: Collection: 8 statement(s) and 2 atom(s) from raw/javascriptallonge.pdf.
-- [[javascriptallonge-const]] - concept: Const: 4 statement(s) and 3 atom(s) from raw/javascriptallonge.pdf.
-- [[javascriptallonge-copy]] - concept: Copy: 7 statement(s) and 7 atom(s) from raw/javascriptallonge.pdf.
-- [[javascriptallonge-copy-write]] - concept: Copy on Write: 14 statement(s) and 6 atom(s) from raw/javascriptallonge.pdf.
+- [[javascriptallonge-carpenter]] - concept: Carpenter: 8 statement(s) and 3 atom(s) from raw/javascriptallonge.pdf.
+- [[javascriptallonge-closure]] - concept: Closure: 5 statement(s) and 2 atom(s) from raw/javascriptallonge.pdf.
+- [[javascriptallonge-coffee]] - concept: Coffee: 5 statement(s) and 5 atom(s) from raw/javascriptallonge.pdf.
+- [[javascriptallonge-collection]] - concept: Collection: 8 statement(s) and 26 atom(s) from raw/javascriptallonge.pdf.
+- [[javascriptallonge-combinator]] - concept: Combinator: 5 statement(s) and 2 atom(s) from raw/javascriptallonge.pdf.
+- [[javascriptallonge-composing]] - concept: Composing: 1 statement(s) and 0 atom(s) from raw/javascriptallonge.pdf.
+- [[javascriptallonge-const]] - concept: Const: 6 statement(s) and 3 atom(s) from raw/javascriptallonge.pdf.
+- [[javascriptallonge-copy]] - concept: Copy: 7 statement(s) and 9 atom(s) from raw/javascriptallonge.pdf.
+- [[javascriptallonge-copy-write]] - concept: Copy on Write: 120 statement(s) and 63 atom(s) from raw/javascriptallonge.pdf.
 - [[javascriptallonge-cross-stateful-function]] - concept: Cross Stateful Function: 1 statement(s) and 0 atom(s) from raw/javascriptallonge.pdf.
-- [[javascriptallonge-cross-stateless-function]] - concept: Cross Stateless Function: 1 statement(s) and 0 atom(s) from raw/javascriptallonge.pdf.
-- [[javascriptallonge-data]] - concept: Data: 7 statement(s) and 7 atom(s) from raw/javascriptallonge.pdf.
+- [[javascriptallonge-cross-stateless-function]] - concept: Cross Stateless Function: 1 statement(s) and 1 atom(s) from raw/javascriptallonge.pdf.
+- [[javascriptallonge-data]] - concept: Data: 7 statement(s) and 14 atom(s) from raw/javascriptallonge.pdf.
 - [[javascriptallonge-declaration]] - concept: Declaration: 4 statement(s) and 8 atom(s) from raw/javascriptallonge.pdf.
-- [[javascriptallonge-decorator]] - concept: Decorator: 4 statement(s) and 7 atom(s) from raw/javascriptallonge.pdf.
+- [[javascriptallonge-decorator]] - concept: Decorator: 4 statement(s) and 8 atom(s) from raw/javascriptallonge.pdf.
 - [[javascriptallonge-default]] - concept: Default: 2 statement(s) and 1 atom(s) from raw/javascriptallonge.pdf.
 - [[javascriptallonge-destructuring]] - concept: Destructuring: 1 statement(s) and 2 atom(s) from raw/javascriptallonge.pdf.
 - [[javascriptallonge-doesn-t-work-because-parseint]] - concept: Doesn'T Work Because Parseint: 1 statement(s) and 3 atom(s) from raw/javascriptallonge.pdf.
-- [[javascriptallonge-ecmascript]] - concept: Ecmascript: 11 statement(s) and 6 atom(s) from raw/javascriptallonge.pdf.
-- [[javascriptallonge-edition]] - concept: Edition: 4 statement(s) and 1 atom(s) from raw/javascriptallonge.pdf.
-- [[javascriptallonge-element]] - concept: Element: 21 statement(s) and 17 atom(s) from raw/javascriptallonge.pdf.
-- [[javascriptallonge-evaluate]] - concept: Evaluate: 10 statement(s) and 3 atom(s) from raw/javascriptallonge.pdf.
-- [[javascriptallonge-expression]] - concept: Expression: 19 statement(s) and 27 atom(s) from raw/javascriptallonge.pdf.
+- [[javascriptallonge-eager-collection]] - concept: Eager Collection: 1 statement(s) and 3 atom(s) from raw/javascriptallonge.pdf.
 
 ## Source Section Index
 
-- [[javascriptallonge-section-reg-raganwald-braithwaite-87b94ba9]] - top-level-section: Reg 'raganwald' Braithwaite: 2 source-backed entries and 2 atom(s) from raw/javascriptallonge.pdf.
-- [[javascriptallonge-section-about-javascript-allong-0f75b54f]] - top-level-section: About JavaScript Allongé: 7 source-backed entries and 0 atom(s) from raw/javascriptallonge.pdf.
-- [[javascriptallonge-section-why-the-six-edition-b7d1382b]] - top-level-section: why the 'six' edition?: 28 source-backed entries and 0 atom(s) from raw/javascriptallonge.pdf.
-- [[javascriptallonge-section-that-s-nice-is-that-the-only-reason-b79a9269]] - top-level-section: that's nice. is that the only reason?: 14 source-backed entries and 0 atom(s) from raw/javascriptallonge.pdf.
-- [[javascriptallonge-section-what-javascript-allong-is-and-isn-t-dcf7a94f]] - top-level-section: What JavaScript Allongé is. And isn't.: 23 source-backed entries and 0 atom(s) from raw/javascriptallonge.pdf.
-- [[javascriptallonge-section-how-this-book-is-organized-a0f71eda]] - top-level-section: how this book is organized: 4 source-backed entries and 0 atom(s) from raw/javascriptallonge.pdf.
-- [[javascriptallonge-section-foreword-to-the-six-edition-53d78941]] - top-level-section: Foreword to the 'Six' edition: 9 source-backed entries and 0 atom(s) from raw/javascriptallonge.pdf.
-- [[javascriptallonge-section-ecmascript-6-has-three-major-groups-of-features-316fded8]] - top-level-section: ECMAScript 6 has three major groups of features:: 7 source-backed entries and 1 atom(s) from raw/javascriptallonge.pdf.
-- [[javascriptallonge-section-michael-fogus-00774de5]] - top-level-section: michael fogus: 15 source-backed entries and 0 atom(s) from raw/javascriptallonge.pdf.
-- [[javascriptallonge-section-matthew-knox-0feb9bd3]] - top-level-section: matthew knox: 1 source-backed entries and 1 atom(s) from raw/javascriptallonge.pdf.
-- [[javascriptallonge-section-about-the-sample-pdf-d1aca66e]] - top-level-section: About The Sample PDF: 3 source-backed entries and 0 atom(s) from raw/javascriptallonge.pdf.
-- [[javascriptallonge-section-prelude-values-and-expressions-over-coffee-9ed49287]] - top-level-section: Prelude: Values and Expressions over Coffee: 1 source-backed entries and 1 atom(s) from raw/javascriptallonge.pdf.
-- [[javascriptallonge-section-values-are-expressions-608b3ac6]] - top-level-section: values are expressions: 32 source-backed entries and 4 atom(s) from raw/javascriptallonge.pdf.
-- [[javascriptallonge-section-value-types-67ccb447]] - top-level-section: value types: 8 source-backed entries and 2 atom(s) from raw/javascriptallonge.pdf.
-- [[javascriptallonge-section-reference-types-7c7ed5d8]] - top-level-section: reference types: 8 source-backed entries and 0 atom(s) from raw/javascriptallonge.pdf.
-- [[javascriptallonge-section-a-rich-aroma-basic-numbers-7443c717]] - top-level-section: A Rich Aroma: Basic Numbers: 13 source-backed entries and 0 atom(s) from raw/javascriptallonge.pdf.
-- [[javascriptallonge-section-floating-3aa92e13]] - top-level-section: floating: 16 source-backed entries and 1 atom(s) from raw/javascriptallonge.pdf.
-- [[javascriptallonge-section-operations-on-numbers-efa25b73]] - top-level-section: operations on numbers: 5 source-backed entries and 0 atom(s) from raw/javascriptallonge.pdf.
-- [[javascriptallonge-section-as-little-as-possible-about-functions-but-no-less-091e464e]] - top-level-section: As Little As Possible About Functions, But No Less: 11 source-backed entries and 1 atom(s) from raw/javascriptallonge.pdf.
-- [[javascriptallonge-section-functions-and-identities-6c73c07b]] - top-level-section: functions and identities: 5 source-backed entries and 0 atom(s) from raw/javascriptallonge.pdf.
-- [[javascriptallonge-section-applying-functions-09d5f96e]] - top-level-section: applying functions: 6 source-backed entries and 0 atom(s) from raw/javascriptallonge.pdf.
-- [[javascriptallonge-section-functions-that-return-values-and-evaluate-expressions-6ffa5875]] - top-level-section: functions that return values and evaluate expressions: 12 source-backed entries and 2 atom(s) from raw/javascriptallonge.pdf.
-- [[javascriptallonge-section-commas-c347cbd5]] - top-level-section: commas: 5 source-backed entries and 3 atom(s) from raw/javascriptallonge.pdf.
-- [[javascriptallonge-section-or-even-dff7248d]] - top-level-section: Or even:: 1 source-backed entries and 1 atom(s) from raw/javascriptallonge.pdf.
-- [[javascriptallonge-section-the-simplest-possible-block-5da702d2]] - top-level-section: the simplest possible block: 4 source-backed entries and 0 atom(s) from raw/javascriptallonge.pdf.
-- [[javascriptallonge-section-undefined-9b5a2e81]] - top-level-section: undefined: 14 source-backed entries and 3 atom(s) from raw/javascriptallonge.pdf.
-- [[javascriptallonge-section-void-c67a822d]] - top-level-section: void: 5 source-backed entries and 1 atom(s) from raw/javascriptallonge.pdf.
-- [[javascriptallonge-section-back-on-the-block-e8c3dec9]] - top-level-section: back on the block: 10 source-backed entries and 3 atom(s) from raw/javascriptallonge.pdf.
-- [[javascriptallonge-section-and-also-e19b2ed2]] - top-level-section: And also:: 4 source-backed entries and 3 atom(s) from raw/javascriptallonge.pdf.
-- [[javascriptallonge-section-functions-that-evaluate-to-functions-cfaf4cf7]] - top-level-section: functions that evaluate to functions: 9 source-backed entries and 1 atom(s) from raw/javascriptallonge.pdf.
-- [[javascriptallonge-section-ah-i-d-like-to-have-an-argument-please-22-abad5d5f]] - top-level-section: Ah. I'd Like to Have an Argument, Please. 22: 15 source-backed entries and 0 atom(s) from raw/javascriptallonge.pdf.
-- [[javascriptallonge-section-a-quick-summary-of-functions-and-bodies-e825a076]] - top-level-section: a quick summary of functions and bodies: 5 source-backed entries and 0 atom(s) from raw/javascriptallonge.pdf.
-- [[javascriptallonge-section-call-by-value-71bf7e70]] - top-level-section: call by value: 6 source-backed entries and 0 atom(s) from raw/javascriptallonge.pdf.
-- [[javascriptallonge-section-variables-and-bindings-1252f96e]] - top-level-section: variables and bindings: 20 source-backed entries and 0 atom(s) from raw/javascriptallonge.pdf.
-- [[javascriptallonge-section-call-by-sharing-4054593f]] - top-level-section: call by sharing: 15 source-backed entries and 0 atom(s) from raw/javascriptallonge.pdf.
-- [[javascriptallonge-section-closures-and-scope-a674d15d]] - top-level-section: Closures and Scope: 11 source-backed entries and 0 atom(s) from raw/javascriptallonge.pdf.
-- [[javascriptallonge-section-if-functions-without-free-variables-are-pure-are-closures-impure-7e6951b6]] - top-level-section: if functions without free variables are pure, are closures impure?: 26 source-backed entries and 1 atom(s) from raw/javascriptallonge.pdf.
-- [[javascriptallonge-section-it-s-always-the-environment-e193eb5b]] - top-level-section: it's always the environment: 20 source-backed entries and 1 atom(s) from raw/javascriptallonge.pdf.
-- [[javascriptallonge-section-shadowy-variables-from-a-shadowy-planet-55213f04]] - top-level-section: shadowy variables from a shadowy planet: 11 source-backed entries and 0 atom(s) from raw/javascriptallonge.pdf.
-- [[javascriptallonge-section-which-came-first-the-chicken-or-the-egg-a12b4efa]] - top-level-section: which came first, the chicken or the egg?: 5 source-backed entries and 0 atom(s) from raw/javascriptallonge.pdf.
+- [[javascriptallonge-section-a-pull-of-the-lever-prefaces-32c5b90d]] - top-level-section: A Pull of the Lever: Prefaces: 9 source-backed entries and 0 atom(s) from raw/javascriptallonge.pdf.
+- [[javascriptallonge-section-ecmascript-6-has-three-major-groups-of-features-316fded8]] - top-level-section: ECMAScript 6 has three major groups of features:: 10 source-backed entries and 2 atom(s) from raw/javascriptallonge.pdf.
+- [[javascriptallonge-section-prelude-values-and-expressions-over-coffee-9ed49287]] - top-level-section: Prelude: Values and Expressions over Coffee: 1 source-backed entries and 3 atom(s) from raw/javascriptallonge.pdf.
+- [[javascriptallonge-section-a-rich-aroma-basic-numbers-7443c717]] - top-level-section: A Rich Aroma: Basic Numbers: 13 source-backed entries and 1 atom(s) from raw/javascriptallonge.pdf.
+- [[javascriptallonge-section-the-first-sip-basic-functions-8249ef21]] - top-level-section: The first sip: Basic Functions: 0 source-backed entries and 0 atom(s) from raw/javascriptallonge.pdf.
+- [[javascriptallonge-section-recipes-with-basic-functions-d7445960]] - top-level-section: Recipes with Basic Functions: 27 source-backed entries and 7 atom(s) from raw/javascriptallonge.pdf.
+- [[javascriptallonge-section-picking-the-bean-choice-and-truthiness-d2a76f30]] - top-level-section: Picking the Bean: Choice and Truthiness: 9 source-backed entries and 1 atom(s) from raw/javascriptallonge.pdf.
+- [[javascriptallonge-section-composing-and-decomposing-data-99b4771a]] - top-level-section: Composing and Decomposing Data: 1 source-backed entries and 2 atom(s) from raw/javascriptallonge.pdf.
+- [[javascriptallonge-section-garbage-garbage-everywhere-8c9764a5]] - top-level-section: Garbage, Garbage Everywhere: 19 source-backed entries and 1 atom(s) from raw/javascriptallonge.pdf.
+- [[javascriptallonge-section-plain-old-javascript-objects-ae9a88a3]] - top-level-section: Plain Old JavaScript Objects: 14 source-backed entries and 0 atom(s) from raw/javascriptallonge.pdf.
+- [[javascriptallonge-section-mutation-ae8039d8]] - top-level-section: Mutation: 25 source-backed entries and 0 atom(s) from raw/javascriptallonge.pdf.
+- [[javascriptallonge-section-reassignment-c80c0ca4]] - top-level-section: Reassignment: 18 source-backed entries and 1 atom(s) from raw/javascriptallonge.pdf.
+- [[javascriptallonge-section-yes-consider-this-variation-af64fdfd]] - top-level-section: Yes. Consider this variation:: 16 source-backed entries and 0 atom(s) from raw/javascriptallonge.pdf.
+- [[javascriptallonge-section-copy-on-write-d081f846]] - top-level-section: Copy on Write: 11 source-backed entries and 2 atom(s) from raw/javascriptallonge.pdf.
+- [[javascriptallonge-section-recipes-with-data-4b3e2c99]] - top-level-section: Recipes with Data: 14 source-backed entries and 1 atom(s) from raw/javascriptallonge.pdf.
+- [[javascriptallonge-section-a-warm-cup-basic-strings-and-quasi-literals-519b0d4d]] - top-level-section: A Warm Cup: Basic Strings and Quasi-Literals: 6 source-backed entries and 0 atom(s) from raw/javascriptallonge.pdf.
+- [[javascriptallonge-section-served-by-the-pot-collections-e15a3403]] - top-level-section: Served by the Pot: Collections: 4 source-backed entries and 3 atom(s) from raw/javascriptallonge.pdf.
+- [[javascriptallonge-section-lazy-and-eager-collections-7308cac5]] - top-level-section: Lazy and Eager Collections: 12 source-backed entries and 0 atom(s) from raw/javascriptallonge.pdf.
+- [[javascriptallonge-section-interlude-the-carpenter-interviews-for-a-job-9cc5ffd7]] - top-level-section: Interlude: The Carpenter Interviews for a Job: 4 source-backed entries and 1 atom(s) from raw/javascriptallonge.pdf.
+- [[javascriptallonge-section-interactive-generators-c6339bc5]] - top-level-section: Interactive Generators: 8 source-backed entries and 0 atom(s) from raw/javascriptallonge.pdf.
+- [[javascriptallonge-section-the-golden-crema-appendices-and-afterwords-baeb2597]] - top-level-section: The Golden Crema: Appendices and Afterwords: 3 source-backed entries and 5 atom(s) from raw/javascriptallonge.pdf.
 
 ## Source review
 

@@ -16,6 +16,7 @@ from llmwiki.domain.ledger.procedures import (
     plan_procedure_guides,
     procedure_aliases,
 )
+from llmwiki.domain.ledger.section_planning import SectionGroundedPlan
 from llmwiki.domain.ledger.structure import DocumentStructure
 from llmwiki.domain.pages import PageMetadata, WikiPage
 
@@ -29,12 +30,14 @@ def build_procedure_pages(
     source_page_id: str,
     source_locator: str,
     today: str,
+    section_plan: SectionGroundedPlan,
     shape_catalog: KnowledgeShapeCatalog | None = None,
 ) -> tuple[WikiPage, ...]:
     guides = plan_procedure_guides(
         ledger,
         structure,
         source_page_id=source_page_id,
+        section_plan=section_plan,
         shape_catalog=shape_catalog,
     )
     pages: list[WikiPage] = []
@@ -84,12 +87,8 @@ def render_procedure_page(guide: ProcedureGuide, source_page_id: str) -> str:
     if guide.technical_atoms:
         lines.extend(("## Tables And Formulas", ""))
         for atom in guide.technical_atoms[:12]:
-            target = technical_atom_link(
-                guide.source_section_page_id, atom, atom_label(atom)
-            )
-            lines.append(
-                f"- `{atom.technical_atom_kind}`: {target} _({_atom_citation(atom)})_"
-            )
+            target = technical_atom_link(guide.source_section_page_id, atom, atom_label(atom))
+            lines.append(f"- `{atom.technical_atom_kind}`: {target} _({_atom_citation(atom)})_")
         lines.append("")
     lines.extend(
         (

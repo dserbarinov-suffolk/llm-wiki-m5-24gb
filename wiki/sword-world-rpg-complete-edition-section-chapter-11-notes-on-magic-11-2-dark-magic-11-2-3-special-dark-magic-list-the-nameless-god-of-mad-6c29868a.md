@@ -8,7 +8,7 @@ updated: 2026-07-07
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-11-notes-on-magic-11-2-dark-magic-11-2-3-special-dark-magic-list-the-nameless-god-of-mad-6c29868a@e597adb23d5237c4937e44c70a2f0ac5
+projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-11-notes-on-magic-11-2-dark-magic-11-2-3-special-dark-magic-list-the-nameless-god-of-mad-6c29868a@316f95452655bd297d8fcb7d78a9cf81
 ---
 
 # Chapter 11: Notes on Magic / 11.2 Dark Magic / 11.2.3 Special Dark Magic List / The Nameless God of Madness Special Dark Magic List
@@ -20,11 +20,14 @@ From [[sword-world-rpg-complete-edition]].
 ### Source order
 
 - [[sword-world-rpg-complete-edition-section-chapter-11-notes-on-magic-11-2-dark-magic-11-2-3-special-dark-magic-list-phalaris-special-dark-m-803e358e]] - previous source section: Chapter 11: Notes on Magic / 11.2 Dark Magic / 11.2.3 Special Dark Magic List / Phalaris Special Dark Magic List ]
-- [[sword-world-rpg-complete-edition-section-chapter-11-notes-on-magic-11-2-dark-magic-11-2-3-special-dark-magic-list-berserk-spell-level-3-49f5ec64]] - next source section: Chapter 11: Notes on Magic / 11.2 Dark Magic / 11.2.3 Special Dark Magic List / [ Berserk ] (Spell Level=3)
+- [[sword-world-rpg-complete-edition-section-chapter-11-notes-on-magic-11-2-dark-magic-11-2-3-special-dark-magic-list-kardis-special-dark-mag-f9b585ff]] - next source section: Chapter 11: Notes on Magic / 11.2 Dark Magic / 11.2.3 Special Dark Magic List / Kardis Special Dark Magic List
 
 ### Source structure
 
 - [[sword-world-rpg-complete-edition-section-chapter-11-notes-on-magic-11-2-dark-magic-11-2-3-special-dark-magic-list-7602f2b8]] - broader source section: Chapter 11: Notes on Magic / 11.2 Dark Magic / 11.2.3 Special Dark Magic List
+- [[sword-world-rpg-complete-edition-section-chapter-11-notes-on-magic-11-2-dark-magic-11-2-3-special-dark-magic-list-the-nameless-god-of-mad-5a5059c8]] - narrower source section: Chapter 11: Notes on Magic / 11.2 Dark Magic / 11.2.3 Special Dark Magic List / The Nameless God of Madness Special Dark Magic List / [ Lunatic Seed ] (Spell Level=4)
+- [[sword-world-rpg-complete-edition-section-chapter-11-notes-on-magic-11-2-dark-magic-11-2-3-special-dark-magic-list-the-nameless-god-of-mad-919e6f1d]] - narrower source section: Chapter 11: Notes on Magic / 11.2 Dark Magic / 11.2.3 Special Dark Magic List / The Nameless God of Madness Special Dark Magic List / [ Lunatic Dance ] (Spell Level=5)
+- [[sword-world-rpg-complete-edition-section-chapter-11-notes-on-magic-11-2-dark-magic-11-2-3-special-dark-magic-list-the-nameless-god-of-mad-cf288b43]] - narrower source section: Chapter 11: Notes on Magic / 11.2 Dark Magic / 11.2.3 Special Dark Magic List / The Nameless God of Madness Special Dark Magic List / [ Berserk ] (Spell Level=3)
 
 ## Statements
 

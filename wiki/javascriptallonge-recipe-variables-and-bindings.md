@@ -9,7 +9,7 @@ domain: javascriptallonge
 category_path: recipes/javascriptallonge
 source_id: javascriptallonge.pdf
 aliases: variables-and-bindings
-projection_coverage: recipe-javascriptallonge-recipe-variables-and-bindings@f395daf16fe9205786b1b6fb7ac745ca
+projection_coverage: recipe-javascriptallonge-recipe-variables-and-bindings@952c8837c99c154a10c6aeff26010343
 ---
 
 # variables and bindings
@@ -18,7 +18,7 @@ From [[javascriptallonge]].
 
 ## Pattern
 
-- Use the source-backed pattern described in [[javascriptallonge-section-variables-and-bindings-1252f96e]].
+- Use the source-backed pattern described in [[javascriptallonge-section-and-also-variables-and-bindings-cdadc876]].
 - Evidence roles: decision, constraint, explanation, definition, procedure, example, structured-state.
 
 ## Applicability And Rationale
@@ -52,4 +52,4 @@ _Source: javascriptallonge.pdf (source-range-c98ab3e6-00292)_
 ## Source Trail
 
 - Source manifest: [[javascriptallonge]]
-- Source section: [[javascriptallonge-section-variables-and-bindings-1252f96e]]
+- Source section: [[javascriptallonge-section-and-also-variables-and-bindings-cdadc876]]

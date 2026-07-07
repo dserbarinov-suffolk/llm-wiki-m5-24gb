@@ -8,7 +8,7 @@ updated: 2026-07-07
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-11-notes-on-magic-11-3-dragon-roar-magic-summon-5e314d0d@2e926f4ce2000b6eb292b4ae446816be
+projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-11-notes-on-magic-11-3-dragon-roar-magic-summon-5e314d0d@a6e80446849931907b2f02e1ccc7a049
 ---
 
 # Chapter 11: Notes on Magic / 11.3 Dragon Roar Magic / 《 Summon 》
@@ -19,7 +19,6 @@ From [[sword-world-rpg-complete-edition]].
 
 ### Source order
 
-- [[sword-world-rpg-complete-edition-section-chapter-11-notes-on-magic-11-3-dragon-roar-magic-spell-list-f966abf5]] - previous source section: Chapter 11: Notes on Magic / 11.3 Dragon Roar Magic / Spell List
 - [[sword-world-rpg-complete-edition-section-chapter-11-notes-on-magic-11-3-dragon-roar-magic-1st-level-dragon-roar-magic-list-iron-stomach-11099e82]] - next source section: Chapter 11: Notes on Magic / 11.3 Dragon Roar Magic / 1st Level Dragon Roar Magic List [ Iron Stomach ]
 
 ### Source structure

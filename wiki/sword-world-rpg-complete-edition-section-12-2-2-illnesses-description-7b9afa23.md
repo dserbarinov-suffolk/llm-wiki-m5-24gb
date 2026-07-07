@@ -8,7 +8,7 @@ updated: 2026-07-07
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-12-2-2-illnesses-description-7b9afa23@606ba434635679fab7aab4aecaf557dd
+projection_coverage: section-sword-world-rpg-complete-edition-section-12-2-2-illnesses-description-7b9afa23@4c0263f926a8609037e66aa06640c387
 ---
 
 # 12.2.2 Illnesses / 《 Description 》
@@ -20,11 +20,16 @@ From [[sword-world-rpg-complete-edition]].
 ### Source order
 
 - [[sword-world-rpg-complete-edition-section-12-2-2-illnesses-infection-power-757607ab]] - previous source section: 12.2.2 Illnesses / 《 Infection Power 》
-- [[sword-world-rpg-complete-edition-section-12-2-2-illnesses-green-slime-rot-b821bb6b]] - next source section: 12.2.2 Illnesses / [ Green Slime Rot ]
+- [[sword-world-rpg-complete-edition-section-12-2-2-illnesses-bat-fever-2a13262e]] - next source section: 12.2.2 Illnesses / [ Bat Fever ]
 
 ### Source structure
 
 - [[sword-world-rpg-complete-edition-section-12-2-2-illnesses-4d76e464]] - broader source section: 12.2.2 Illnesses
+- [[sword-world-rpg-complete-edition-section-12-2-2-illnesses-description-cotton-weaver-14867aba]] - narrower source section: 12.2.2 Illnesses / 《 Description 》 / [ Cotton Weaver ]
+- [[sword-world-rpg-complete-edition-section-12-2-2-illnesses-description-dance-macabre-abe801c8]] - narrower source section: 12.2.2 Illnesses / 《 Description 》 / [ Dance Macabre ]
+- [[sword-world-rpg-complete-edition-section-12-2-2-illnesses-description-deep-sleep-08be1b6e]] - narrower source section: 12.2.2 Illnesses / 《 Description 》 / [ Deep Sleep ]
+- [[sword-world-rpg-complete-edition-section-12-2-2-illnesses-description-green-slime-rot-dd5a476a]] - narrower source section: 12.2.2 Illnesses / 《 Description 》 / [ Green Slime Rot ]
+- [[sword-world-rpg-complete-edition-section-12-2-2-illnesses-description-stone-skin-621753d1]] - narrower source section: 12.2.2 Illnesses / 《 Description 》 / [ Stone Skin ]
 
 ## Statements
 

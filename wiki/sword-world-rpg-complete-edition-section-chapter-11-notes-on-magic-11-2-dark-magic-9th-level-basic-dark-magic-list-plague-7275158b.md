@@ -8,7 +8,7 @@ updated: 2026-07-07
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-11-notes-on-magic-11-2-dark-magic-9th-level-basic-dark-magic-list-plague-7275158b@7546c3394a1ff6983eaf57c1516fc13a
+projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-11-notes-on-magic-11-2-dark-magic-9th-level-basic-dark-magic-list-plague-7275158b@48c9001ebad38df968078abb3d0bc6ee
 ---
 
 # Chapter 11: Notes on Magic / 11.2 Dark Magic / 9th Level Basic Dark Magic List [ Plague ]
@@ -19,12 +19,13 @@ From [[sword-world-rpg-complete-edition]].
 
 ### Source order
 
-- [[sword-world-rpg-complete-edition-section-chapter-11-notes-on-magic-11-2-dark-magic-summon-servant-1e082468]] - previous source section: Chapter 11: Notes on Magic / 11.2 Dark Magic / [ Summon Servant ]
-- [[sword-world-rpg-complete-edition-section-chapter-11-notes-on-magic-11-2-dark-magic-recall-spirit-81107e47]] - next source section: Chapter 11: Notes on Magic / 11.2 Dark Magic / [ Recall Spirit ]
+- [[sword-world-rpg-complete-edition-section-chapter-11-notes-on-magic-11-2-dark-magic-8th-level-basic-dark-magic-list-cripple-cc8968c8]] - previous source section: Chapter 11: Notes on Magic / 11.2 Dark Magic / 8th Level Basic Dark Magic List [ Cripple ]
+- [[sword-world-rpg-complete-edition-section-chapter-11-notes-on-magic-11-2-dark-magic-10th-level-basic-dark-magic-list-call-god-3304130c]] - next source section: Chapter 11: Notes on Magic / 11.2 Dark Magic / 10th Level Basic Dark Magic List [ Call God ]
 
 ### Source structure
 
 - [[sword-world-rpg-complete-edition-section-chapter-11-notes-on-magic-11-2-dark-magic-e0a67386]] - broader source section: Chapter 11: Notes on Magic / 11.2 Dark Magic
+- [[sword-world-rpg-complete-edition-section-chapter-11-notes-on-magic-11-2-dark-magic-9th-level-basic-dark-magic-list-plague-recall-spirit-0a3dc52b]] - narrower source section: Chapter 11: Notes on Magic / 11.2 Dark Magic / 9th Level Basic Dark Magic List [ Plague ] / [ Recall Spirit ]
 
 ## Statements
 

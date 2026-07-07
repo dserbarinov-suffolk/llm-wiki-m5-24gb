@@ -9,7 +9,7 @@ domain: javascriptallonge
 category_path: recipes/javascriptallonge
 source_id: javascriptallonge.pdf
 aliases: converting-non-tail-calls-to-tail-calls
-projection_coverage: recipe-javascriptallonge-recipe-converting-non-tail-calls-to-tail-calls@a73dc1decbd17e804baf39a063bb634a
+projection_coverage: recipe-javascriptallonge-recipe-converting-non-tail-calls-to-tail-calls@2e764ab7956b98fe0892c896135f6aa1
 ---
 
 # converting non-tail-calls to tail-calls
@@ -18,7 +18,7 @@ From [[javascriptallonge]].
 
 ## Pattern
 
-- Use the source-backed pattern described in [[javascriptallonge-section-converting-non-tail-calls-to-tail-calls-88056a4f]].
+- Use the source-backed pattern described in [[javascriptallonge-section-composing-and-decomposing-data-tail-calls-and-default-arguments-converting-non-tail-calls-to-tai-22a8069d]].
 - Evidence roles: decision, constraint, procedure, example, structured-state.
 
 ## Applicability And Rationale
@@ -201,4 +201,4 @@ mapWith((x) => x * x, [
 ## Source Trail
 
 - Source manifest: [[javascriptallonge]]
-- Source section: [[javascriptallonge-section-converting-non-tail-calls-to-tail-calls-88056a4f]]
+- Source section: [[javascriptallonge-section-composing-and-decomposing-data-tail-calls-and-default-arguments-converting-non-tail-calls-to-tai-22a8069d]]

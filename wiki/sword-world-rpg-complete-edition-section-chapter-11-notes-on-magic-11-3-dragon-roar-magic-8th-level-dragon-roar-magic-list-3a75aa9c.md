@@ -8,7 +8,7 @@ updated: 2026-07-07
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-11-notes-on-magic-11-3-dragon-roar-magic-8th-level-dragon-roar-magic-list-3a75aa9c@8917136eeeea9e99cd9afbec55610586
+projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-11-notes-on-magic-11-3-dragon-roar-magic-8th-level-dragon-roar-magic-list-3a75aa9c@937de3859214aeb77189901facc2aff8
 ---
 
 # Chapter 11: Notes on Magic / 11.3 Dragon Roar Magic / 8th Level Dragon Roar Magic List
@@ -19,7 +19,7 @@ From [[sword-world-rpg-complete-edition]].
 
 ### Source order
 
-- [[sword-world-rpg-complete-edition-section-chapter-11-notes-on-magic-11-3-dragon-roar-magic-shape-change-d24921a8]] - previous source section: Chapter 11: Notes on Magic / 11.3 Dragon Roar Magic / [ Shape Change
+- [[sword-world-rpg-complete-edition-section-chapter-11-notes-on-magic-11-3-dragon-roar-magic-7th-level-dragon-roar-magic-list-summon-wyrm-08ee0397]] - previous source section: Chapter 11: Notes on Magic / 11.3 Dragon Roar Magic / 7th Level Dragon Roar Magic List [ Summon Wyrm ]
 - [[sword-world-rpg-complete-edition-section-chapter-11-notes-on-magic-11-3-dragon-roar-magic-9th-level-dragon-roar-magic-list-summon-lesser-5330f9cd]] - next source section: Chapter 11: Notes on Magic / 11.3 Dragon Roar Magic / 9th Level Dragon Roar Magic List [ Summon Lesser Dragon ]
 
 ### Source structure

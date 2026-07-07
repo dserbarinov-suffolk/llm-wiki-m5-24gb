@@ -9,7 +9,7 @@ domain: javascriptallonge
 category_path: recipes/javascriptallonge
 source_id: javascriptallonge.pdf
 aliases: functions-that-evaluate-to-functions
-projection_coverage: recipe-javascriptallonge-recipe-functions-that-evaluate-to-functions@d0a2f1d41c71ec83797723853804c93d
+projection_coverage: recipe-javascriptallonge-recipe-functions-that-evaluate-to-functions@246eeb3db84e6f842e532e9795238ab6
 ---
 
 # functions that evaluate to functions
@@ -18,7 +18,7 @@ From [[javascriptallonge]].
 
 ## Pattern
 
-- Use the source-backed pattern described in [[javascriptallonge-section-functions-that-evaluate-to-functions-cfaf4cf7]].
+- Use the source-backed pattern described in [[javascriptallonge-section-and-also-functions-that-evaluate-to-functions-e337b1c9]].
 - Evidence roles: decision, constraint, structured-state, example.
 
 ## Applicability And Rationale
@@ -66,4 +66,4 @@ _Source: javascriptallonge.pdf (source-range-c98ab3e6-00253)_
 ## Source Trail
 
 - Source manifest: [[javascriptallonge]]
-- Source section: [[javascriptallonge-section-functions-that-evaluate-to-functions-cfaf4cf7]]
+- Source section: [[javascriptallonge-section-and-also-functions-that-evaluate-to-functions-e337b1c9]]

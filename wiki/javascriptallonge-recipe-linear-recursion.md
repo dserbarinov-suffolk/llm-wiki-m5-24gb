@@ -9,7 +9,7 @@ domain: javascriptallonge
 category_path: recipes/javascriptallonge
 source_id: javascriptallonge.pdf
 aliases: linear-recursion
-projection_coverage: recipe-javascriptallonge-recipe-linear-recursion@45f9a0b9921f3fed53e3d9d50a650d19
+projection_coverage: recipe-javascriptallonge-recipe-linear-recursion@e1cbec186c9d6087013aed0a6a966262
 ---
 
 # linear recursion
@@ -18,7 +18,7 @@ From [[javascriptallonge]].
 
 ## Pattern
 
-- Use the source-backed pattern described in [[javascriptallonge-section-linear-recursion-4fe5f970]].
+- Use the source-backed pattern described in [[javascriptallonge-section-composing-and-decomposing-data-self-similarity-linear-recursion-fad0c717]].
 - Evidence roles: decision, procedure, explanation, definition, constraint, example.
 
 ## Applicability And Rationale
@@ -66,4 +66,4 @@ flatten(["foo", [3, 4, []]])
 ## Source Trail
 
 - Source manifest: [[javascriptallonge]]
-- Source section: [[javascriptallonge-section-linear-recursion-4fe5f970]]
+- Source section: [[javascriptallonge-section-composing-and-decomposing-data-self-similarity-linear-recursion-fad0c717]]

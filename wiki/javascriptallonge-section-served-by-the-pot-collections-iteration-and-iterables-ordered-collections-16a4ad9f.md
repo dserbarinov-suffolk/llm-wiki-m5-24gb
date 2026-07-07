@@ -1,0 +1,101 @@
+---
+page_id: javascriptallonge-section-served-by-the-pot-collections-iteration-and-iterables-ordered-collections-16a4ad9f
+page_kind: source
+summary: Served by the Pot: Collections / Iteration and Iterables / ordered collections: 12 source-backed entries and 2 atom(s) from raw/javascriptallonge.pdf.
+page_family: section-reference
+sources: raw/javascriptallonge.pdf
+updated: 2026-07-07
+domain: javascriptallonge
+category_path: sources/javascriptallonge/sections
+source_id: javascriptallonge.pdf
+projection_coverage: section-javascriptallonge-section-served-by-the-pot-collections-iteration-and-iterables-ordered-collections-16a4ad9f@897e6bebf46b2e229bf26e3e46645678
+---
+
+# Served by the Pot: Collections / Iteration and Iterables / ordered collections
+
+From [[javascriptallonge]].
+
+## Related pages
+
+### Source order
+
+- [[javascriptallonge-section-served-by-the-pot-collections-iteration-and-iterables-iterables-out-to-infinity-ae258dd7]] - previous source section: Served by the Pot: Collections / Iteration and Iterables / iterables out to infinity
+- [[javascriptallonge-section-served-by-the-pot-collections-iteration-and-iterables-operations-on-ordered-collections-ee56851b]] - next source section: Served by the Pot: Collections / Iteration and Iterables / operations on ordered collections
+
+### Source structure
+
+- [[javascriptallonge-section-served-by-the-pot-collections-iteration-and-iterables-98745d63]] - broader source section: Served by the Pot: Collections / Iteration and Iterables
+
+## Statements
+
+- The iterables we're discussing represent ordered collections . One of the semantic properties of an ordered collection is that every time you iterate over it, you get its elements in order, from the beginning. For example: _(javascriptallonge.pdf (source-range-c98ab3e6-01549))_
+- This is accomplished with our own collections by returning a brand new iterator every time we call [Symbol.iterator] , and ensuring that our iterators start at the beginning and work forward. _(javascriptallonge.pdf (source-range-c98ab3e6-01551))_
+- Iterables needn't represent ordered collections. We could make an infinite iterable representing random numbers: _(javascriptallonge.pdf (source-range-c98ab3e6-01552))_
+- Whether you work with the same iterator over and over, or get a fresh iterable every time, you are always going to get fresh random numbers. Therefore, RandomNumbers is not an ordered collection. _(javascriptallonge.pdf (source-range-c98ab3e6-01554))_
+- Right now, we're just looking at ordered collections. To reiterate (hah), an ordered collection represents a (possibly infinite) collection of elements that are in some order. Every time we get an iterator from an ordered collection, we start iterating from the beginning. _(javascriptallonge.pdf (source-range-c98ab3e6-01555))_
+- Therefore, RandomNumbers is not an ordered collection. _(javascriptallonge.pdf (source-range-c98ab3e6-01554))_
+
+## Technical atoms
+
+### Technical frame 1: Served by the Pot: Collections / Iteration and Iterables / ordered collections
+
+**Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01551))_
+
+> This is accomplished with our own collections by returning a brand new iterator every time we call [Symbol.iterator] , and ensuring that our iterators start at the beginning and work forward.
+
+**Atom:** _(javascriptallonge.pdf (source-range-c98ab3e6-01550))_
+
+<a id="atom-technical-atom-93d825a6af6fbea5"></a>
+```
+const abc = ["a", "b", "c"];
+for (const i of abc) {
+console.log(i)
+}
+//=>
+a
+b
+c
+for (const i of abc) {
+console.log(i)
+}
+//=>
+a
+b
+c
+```
+
+### Technical frame 2: Served by the Pot: Collections / Iteration and Iterables / ordered collections
+
+**Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01554))_
+
+> Whether you work with the same iterator over and over, or get a fresh iterable every time, you are always going to get fresh random numbers. Therefore, RandomNumbers is not an ordered collection.
+
+**Atom:** _(javascriptallonge.pdf (source-range-c98ab3e6-01553))_
+
+<a id="atom-technical-atom-0aa94e55c461e8cf"></a>
+```
+const RandomNumbers = {
+[Symbol.iterator]: () =>
+({
+next () {
+return {value: Math.random()};
+}
+})
+}
+for (const i of RandomNumbers) {
+console.log(i)
+}
+//=>
+0.494052127469331
+0.835459444206208
+0.1408337657339871
+...
+for (const i of RandomNumbers) {
+console.log(i)
+}
+//=>
+0.7845381607767195
+0.4956772483419627
+0.20259276474826038
+...
+```

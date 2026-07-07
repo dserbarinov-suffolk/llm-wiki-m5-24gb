@@ -67,6 +67,7 @@ def _block(element: DocumentElement) -> SourceUnitBlock:
         code_text=text if element.element_kind == "code_block" else "",
         table_text=(element.markdown or text).strip() if element.element_kind == "table" else "",
         formula_text=text if element.element_kind == "formula" else "",
+        heading_level=element.heading_level if element.element_kind == "heading" else 0,
     )
 
 
@@ -116,6 +117,19 @@ def test_document_model_segmentation_groups_heading_scoped_table_rows() -> None:
     assert "2 Fractured axle" in table
     assert "Loose wheel" in table
     assert "4 Stable frame" in table
+
+
+def test_source_unit_segmentation_preserves_heading_depth() -> None:
+    model = _model(
+        (
+            _element("e1", "heading", "Parent", "Parent", heading_level=1),
+            _element("e2", "heading", "Parent > Child", "Child", heading_level=2),
+        )
+    )
+
+    inputs, _profiles = _segment_model(model, "d" * 64)
+
+    assert [item.segment.text for item in inputs] == ["# Parent", "## Child"]
 
 
 def test_document_model_segmentation_groups_inline_enumerated_rows() -> None:

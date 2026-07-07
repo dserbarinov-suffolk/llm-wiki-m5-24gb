@@ -9,7 +9,7 @@ domain: javascriptallonge
 category_path: recipes/javascriptallonge
 source_id: javascriptallonge.pdf
 aliases: truthiness-and-the-ternary-operator
-projection_coverage: recipe-javascriptallonge-recipe-truthiness-and-the-ternary-operator@78a9fe4c3c2004ccc49c83cac5af3462
+projection_coverage: recipe-javascriptallonge-recipe-truthiness-and-the-ternary-operator@27224fba8c0e8dbf6d40862656b4683c
 ---
 
 # truthiness and the ternary operator
@@ -18,7 +18,7 @@ From [[javascriptallonge]].
 
 ## Pattern
 
-- Use the source-backed pattern described in [[javascriptallonge-section-truthiness-and-the-ternary-operator-c43fa2cf]].
+- Use the source-backed pattern described in [[javascriptallonge-section-picking-the-bean-choice-and-truthiness-truthiness-and-the-ternary-operator-b715a907]].
 - Evidence roles: decision, explanation, constraint, example, structured-state.
 
 ## Applicability And Rationale
@@ -48,4 +48,4 @@ true ? 'Hello' : 'Good bye'
 ## Source Trail
 
 - Source manifest: [[javascriptallonge]]
-- Source section: [[javascriptallonge-section-truthiness-and-the-ternary-operator-c43fa2cf]]
+- Source section: [[javascriptallonge-section-picking-the-bean-choice-and-truthiness-truthiness-and-the-ternary-operator-b715a907]]

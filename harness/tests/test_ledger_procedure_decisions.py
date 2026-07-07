@@ -9,6 +9,7 @@ from llmwiki.domain.ledger.ledger import (
 )
 from llmwiki.domain.ledger.procedure_pages import render_procedure_page
 from llmwiki.domain.ledger.procedures import plan_procedure_guides
+from llmwiki.domain.ledger.section_planning import PageTarget, SectionGroundedPlan
 from llmwiki.domain.ledger.structure import DocumentStructure, StructureNode
 
 
@@ -130,10 +131,12 @@ def _single_guide(
     atoms: tuple[TechnicalAtom, ...] = (),
     source_statements: tuple[SourceStatement, ...] = (),
 ):
+    structure = _structure()
     guides = plan_procedure_guides(
         _ledger(*entries, atoms=atoms, source_statements=source_statements),
-        _structure(),
+        structure,
         source_page_id="book",
+        section_plan=_section_plan(structure),
     )
     assert len(guides) == 1
     return guides[0]
@@ -165,6 +168,28 @@ def _structure() -> DocumentStructure:
             ),
         ),
     )
+
+
+def _section_plan(structure: DocumentStructure) -> SectionGroundedPlan:
+    targets: list[PageTarget] = []
+    for index, node in enumerate(structure.structure_nodes, start=1):
+        if node.structure_node_kind == "root":
+            continue
+        targets.append(
+            PageTarget(
+                page_target_id=f"target-{index}",
+                topic_key=node.structure_node_id,
+                label=node.heading_text,
+                page_kind="concept",
+                structure_node_id=node.structure_node_id,
+                source_range_id=node.source_range_id,
+                concept_keys=(),
+                entry_ids=(),
+                atom_ids=(),
+                attached_evidence=(),
+            )
+        )
+    return SectionGroundedPlan("plan", "fingerprint", "book.pdf", "hash", tuple(targets), ())
 
 
 def _entry(

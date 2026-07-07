@@ -7,7 +7,7 @@ sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-07
 domain: sword-world-rpg-complete-edition
 category_path: concepts
-projection_coverage: topic-sword-world-rpg-complete-edition-unconscious@bca50fbc334bd052b17966de0ef4c476
+projection_coverage: topic-sword-world-rpg-complete-edition-unconscious@4603f2bdfc902504f9489760a97ddc07
 ---
 
 # Unconscious
@@ -132,6 +132,11 @@ What [[sword-world-rpg-complete-edition]] covers about unconscious:
 ### Shared technical atoms
 
 - [[sword-world-rpg-complete-edition-death-check]] - shared statements and technical atoms: Death Check shares source evidence from 4.9 Unconscious and Death Checks / 4.9.2 Death Checks Every Hour: Characters with 0 or negative life force remain unconscious, even if they successfully survived a death check. If they're given treatment by magic, etc. and have the ... [truncated]; Death Check shares technical record from 4.9 Unconscious and Death Checks / 4.9.1 Adventurer Death Checks: Ducard II, with a life force of -4 , must make a death check . (1 shared statement(s), 2 shared atom(s))
+
+### Shared claims
+
+- [[sword-world-rpg-complete-edition-attack-character-monster]] - shared statements: Attacks From Characters Against Monsters shares source evidence from 4.9 Unconscious and Death Checks: If, as a result of damage (accumulated damage), a character's (monster's) life force (points) becomes 0 or negative , that character (monster) will fall unconscious ... [truncated] (1 shared statement(s))
+- [[sword-world-rpg-complete-edition-attack-monster-character]] - shared statements: Attacks From Monsters Against Characters shares source evidence from 4.9 Unconscious and Death Checks: If, as a result of damage (accumulated damage), a character's (monster's) life force (points) becomes 0 or negative , that character (monster) will fall unconscious ... [truncated] (1 shared statement(s))
 
 ## Source
 

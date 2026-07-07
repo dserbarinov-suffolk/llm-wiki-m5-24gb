@@ -9,7 +9,7 @@ domain: javascriptallonge
 category_path: recipes/javascriptallonge
 source_id: javascriptallonge.pdf
 aliases: destructuring-arrays
-projection_coverage: recipe-javascriptallonge-recipe-destructuring-arrays@3738ea9cf70d2a49a692f49196f1f7c5
+projection_coverage: recipe-javascriptallonge-recipe-destructuring-arrays@da0fc0673102a32403efa2963056a36a
 ---
 
 # destructuring arrays
@@ -18,7 +18,7 @@ From [[javascriptallonge]].
 
 ## Pattern
 
-- Use the source-backed pattern described in [[javascriptallonge-section-destructuring-arrays-70fdfed7]].
+- Use the source-backed pattern described in [[javascriptallonge-section-composing-and-decomposing-data-arrays-and-destructuring-arguments-destructuring-arrays-327f6ba9]].
 - Evidence roles: decision, explanation, constraint, example.
 
 ## Applicability And Rationale
@@ -96,4 +96,4 @@ description([["Reginald", "Braithwaite"], "programmer"])
 ## Source Trail
 
 - Source manifest: [[javascriptallonge]]
-- Source section: [[javascriptallonge-section-destructuring-arrays-70fdfed7]]
+- Source section: [[javascriptallonge-section-composing-and-decomposing-data-arrays-and-destructuring-arguments-destructuring-arrays-327f6ba9]]

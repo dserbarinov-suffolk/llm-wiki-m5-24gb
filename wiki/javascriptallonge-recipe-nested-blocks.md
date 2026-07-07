@@ -9,7 +9,7 @@ domain: javascriptallonge
 category_path: recipes/javascriptallonge
 source_id: javascriptallonge.pdf
 aliases: nested-blocks
-projection_coverage: recipe-javascriptallonge-recipe-nested-blocks@0ad18dc30592d80864c5e7a4ecb28f48
+projection_coverage: recipe-javascriptallonge-recipe-nested-blocks@d1d0a82ee8d3d45628c5fff003e21ae7
 ---
 
 # nested blocks
@@ -18,7 +18,7 @@ From [[javascriptallonge]].
 
 ## Pattern
 
-- Use the source-backed pattern described in [[javascriptallonge-section-nested-blocks-3783cb0b]].
+- Use the source-backed pattern described in [[javascriptallonge-section-and-also-that-constant-coffee-craving-nested-blocks-f1c29f4e]].
 - Evidence roles: decision, explanation, procedure, structured-state, example.
 
 ## Applicability And Rationale
@@ -111,4 +111,4 @@ _Source: javascriptallonge.pdf (source-range-c98ab3e6-00430)_
 ## Source Trail
 
 - Source manifest: [[javascriptallonge]]
-- Source section: [[javascriptallonge-section-nested-blocks-3783cb0b]]
+- Source section: [[javascriptallonge-section-and-also-that-constant-coffee-craving-nested-blocks-f1c29f4e]]

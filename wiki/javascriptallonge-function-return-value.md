@@ -7,7 +7,7 @@ sources: raw/javascriptallonge.pdf
 updated: 2026-07-07
 domain: javascriptallonge
 category_path: concepts
-projection_coverage: topic-javascriptallonge-function-return-value@dd1a3e0c3441336ac39c4634dd95e227
+projection_coverage: topic-javascriptallonge-function-return-value@2e845d706827f8bcff2141dff7a6ca78
 ---
 
 # Function Return Value
@@ -16,14 +16,14 @@ What [[javascriptallonge]] covers about function return value:
 
 ## Statements
 
-### functions that return values and evaluate expressions
+### The first sip: Basic Functions / As Little As Possible About Functions, But No Less / functions that return values and evaluate expressions
 
 - Yes we can! Functions can return the value of evaluating another function. _(javascriptallonge.pdf (source-range-c98ab3e6-00190))_
 
 
 ## Technical atoms
 
-### Technical frame 1: functions that return values and evaluate expressions
+### Technical frame 1: The first sip: Basic Functions / As Little As Possible About Functions, But No Less / functions that return values and evaluate expressions
 
 **Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-00187))_
 
@@ -41,7 +41,7 @@ What [[javascriptallonge]] covers about function return value:
 //=> Infinity
 ```
 
-### Technical frame 2: functions that return values and evaluate expressions
+### Technical frame 2: The first sip: Basic Functions / As Little As Possible About Functions, But No Less / functions that return values and evaluate expressions
 
 **Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-00190))_
 
@@ -57,7 +57,7 @@ What [[javascriptallonge]] covers about function return value:
 
 ### Topics
 
-- [[javascriptallonge-return]] - broader topic: Return shares technical record from functions that return values and evaluate expressions: (() => 1 + 1)() //=> 2 (() => "Hello, " + "JavaScript")() //=> "Hello, JavaScript" (() => Infinity * Infinity)() //=> Infinity (2 shared atom(s))
+- [[javascriptallonge-return]] - broader topic: Return shares technical record from The first sip: Basic Functions / As Little As Possible About Functions, But No Less / functions that return values and evaluate expressions: (() => 1 + 1)() //=> 2 (() => "Hello, " + "JavaScript")() //=> "Hello, JavaScript" (() => Infinity * Infinity)() //=> Infinity (2 shared atom(s))
 
 ## Source
 

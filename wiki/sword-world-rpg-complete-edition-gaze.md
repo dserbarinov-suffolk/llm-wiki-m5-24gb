@@ -7,7 +7,7 @@ sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-07
 domain: sword-world-rpg-complete-edition
 category_path: concepts
-projection_coverage: topic-sword-world-rpg-complete-edition-gaze@e6dcaa6ca57e74d4fef50eee57deabdf
+projection_coverage: topic-sword-world-rpg-complete-edition-gaze@c61c3a7db99800fd9779319b9a7a0a30
 ---
 
 # Gaze
@@ -16,14 +16,14 @@ What [[sword-world-rpg-complete-edition]] covers about gaze:
 
 ## Statements
 
-### 13.6 Handling Monster Special Abilities / 《 Gaze/Ray 》
+### 13.2.6 Mythical Beasts and Magical Beasts / [ Horse ] / 13.6 Handling Monster Special Abilities / 《 Gaze/Ray 》
 
 - In some cases, the gaze or ray can be reflected off a mirror, etc. but if this is not specified, it cannot be reflected. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-08677))_
 
 
 ## Technical atoms
 
-### Technical frame 1: 13.6 Handling Monster Special Abilities / 《 Gaze/Ray 》
+### Technical frame 1: 13.2.6 Mythical Beasts and Magical Beasts / [ Horse ] / 13.6 Handling Monster Special Abilities / 《 Gaze/Ray 》
 
 **Context:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-08676))_
 
@@ -39,7 +39,7 @@ What [[sword-world-rpg-complete-edition]] covers about gaze:
 
 ### Shared technical atoms
 
-- [[sword-world-rpg-complete-edition-ray]] - shared statements and technical atoms: Ray shares source evidence from 13.6 Handling Monster Special Abilities / 《 Gaze/Ray 》: In some cases, the gaze or ray can be reflected off a mirror, etc. but if this is not specified, it cannot be reflected.; Ray shares technical record from 13.6 Handling Monster Special Abilities / 《 Gaze/Ray 》: but if this is not specified, it cannot be reflected. (1 shared statement(s), 1 shared atom(s))
+- [[sword-world-rpg-complete-edition-ray]] - shared statements and technical atoms: Ray shares source evidence from 13.2.6 Mythical Beasts and Magical Beasts / [ Horse ] / 13.6 Handling Monster Special Abilities / 《 Gaze/Ray 》: In some cases, the gaze or ray can be reflected off a mirror, etc. but if this is not specified, it cannot be reflected.; Ray shares technical record from 13.2.6 Mythical Beasts and Magical Beasts / [ Horse ] / 13.6 Handling Monster Special Abilities / 《 Gaze/Ray 》: but if this is not specified, it cannot be reflected. (1 shared statement(s), 1 shared atom(s))
 
 ## Source
 

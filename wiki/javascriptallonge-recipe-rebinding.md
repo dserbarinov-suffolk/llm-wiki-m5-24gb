@@ -9,7 +9,7 @@ domain: javascriptallonge
 category_path: recipes/javascriptallonge
 source_id: javascriptallonge.pdf
 aliases: rebinding
-projection_coverage: recipe-javascriptallonge-recipe-rebinding@44324f76f410e81e2f34ff1986a511a4
+projection_coverage: recipe-javascriptallonge-recipe-rebinding@0161531be70d6db6aad545cfaf5a9fb5
 ---
 
 # rebinding
@@ -18,7 +18,7 @@ From [[javascriptallonge]].
 
 ## Pattern
 
-- Use the source-backed pattern described in [[javascriptallonge-section-rebinding-a5966b8c]].
+- Use the source-backed pattern described in [[javascriptallonge-section-and-also-that-constant-coffee-craving-rebinding-5632ed12]].
 - Evidence roles: decision, constraint, procedure, example.
 
 ## Applicability And Rationale
@@ -72,4 +72,4 @@ return evenStevens(n - 2);
 ## Source Trail
 
 - Source manifest: [[javascriptallonge]]
-- Source section: [[javascriptallonge-section-rebinding-a5966b8c]]
+- Source section: [[javascriptallonge-section-and-also-that-constant-coffee-craving-rebinding-5632ed12]]

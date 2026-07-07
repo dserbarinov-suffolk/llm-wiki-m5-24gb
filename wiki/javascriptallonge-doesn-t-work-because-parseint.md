@@ -7,7 +7,7 @@ sources: raw/javascriptallonge.pdf
 updated: 2026-07-07
 domain: javascriptallonge
 category_path: concepts
-projection_coverage: topic-javascriptallonge-doesn-t-work-because-parseint@96f3a03ede9f7279a1db5efa0113bdb0
+projection_coverage: topic-javascriptallonge-doesn-t-work-because-parseint@852ec2f78c314aad0103f6f8e5505c35
 ---
 
 # Doesn'T Work Because Parseint
@@ -16,14 +16,14 @@ What [[javascriptallonge]] covers about doesn't work because parseint:
 
 ## Statements
 
-### Unary
+### Recipes with Basic Functions / Unary
 
 - This doesn't work because parseInt is defined as parseInt(string[, radix]) . It takes an optional radix argument. And when you call parseInt with map , the index is interpreted as a radix. Not good! What we want is to convert parseInt into a function taking only one argument. _(javascriptallonge.pdf (source-range-c98ab3e6-00659))_
 
 
 ## Technical atoms
 
-### Technical frame 1: Unary
+### Technical frame 1: Recipes with Basic Functions / Unary
 
 **Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-00659))_
 
@@ -34,7 +34,7 @@ What [[javascriptallonge]] covers about doesn't work because parseint:
 <a id="atom-technical-atom-d5fabd01b550e940"></a>
 > If you pass in a function taking only one argument, it simply ignores the additional arguments.
 
-### Technical frame 2: Unary
+### Technical frame 2: Recipes with Basic Functions / Unary
 
 **Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-00659))_
 
@@ -48,7 +48,7 @@ What [[javascriptallonge]] covers about doesn't work because parseint:
 //=> [1, NaN, NaN]
 ```
 
-### Technical frame 3: Unary
+### Technical frame 3: Recipes with Basic Functions / Unary
 
 **Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-00660))_
 
@@ -71,7 +71,7 @@ return fn.call(this, something)
 
 ### Shared technical atoms
 
-- [[javascriptallonge-write]] - shared technical atoms: Write shares technical record from Unary: const unary = (fn) => fn.length === 1 ? fn : function (something) { return fn.call(this, something) } (1 shared atom(s))
+- [[javascriptallonge-write]] - shared technical atoms: Write shares technical record from Recipes with Basic Functions / Unary: const unary = (fn) => fn.length === 1 ? fn : function (something) { return fn.call(this, something) } (1 shared atom(s))
 
 ## Source
 

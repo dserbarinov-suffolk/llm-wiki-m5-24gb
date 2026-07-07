@@ -8,7 +8,7 @@ updated: 2026-07-07
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-12-2-2-illnesses-rarity-21bde3e8@678a2a8faf7535eb69953124da4e504f
+projection_coverage: section-sword-world-rpg-complete-edition-section-12-2-2-illnesses-rarity-21bde3e8@5ee4d18f55fd5d113b44183bf785b2e8
 ---
 
 # 12.2.2 Illnesses / 《 Rarity 》
@@ -19,7 +19,6 @@ From [[sword-world-rpg-complete-edition]].
 
 ### Source order
 
-- [[sword-world-rpg-complete-edition-section-12-2-2-illnesses-symptoms-2ffc2eb4]] - previous source section: 12.2.2 Illnesses / 《 Symptoms 》
 - [[sword-world-rpg-complete-edition-section-12-2-2-illnesses-fatal-depth-5f58d00c]] - next source section: 12.2.2 Illnesses / 《 Fatal Depth 》
 
 ### Source structure

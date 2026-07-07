@@ -9,7 +9,7 @@ domain: sword-world-rpg-complete-edition
 category_path: procedures/sword-world-rpg-complete-edition
 source_id: Sword World RPG - Complete Edition.pdf
 aliases: complete-unconscious-and-death-checks, unconscious-and-death-checks
-projection_coverage: procedure-sword-world-rpg-complete-edition-procedure-unconscious-and-death-checks@80a6b6ef3568ffe9201f19f0d71b1c08
+projection_coverage: procedure-sword-world-rpg-complete-edition-procedure-unconscious-and-death-checks@a87cb9847e84f1adbdf4c5b356004065
 ---
 
 # Unconscious and Death Checks
@@ -26,15 +26,15 @@ From [[sword-world-rpg-complete-edition]].
    - Any adventurer who falls to 0 or negative life force is now at risk of dying . _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01395))_
    - This check is made using a life force resistance roll . _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01396))_
    - The baseline score is life force resistance (adventurer level + life force bonus) and the target score is 7 . _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01396))_
-2. **Death Checks Every Hour** (`validate`) - evidence section [[sword-world-rpg-complete-edition-section-4-9-unconscious-and-death-checks-4-9-2-death-checks-every-hour-70438ffe]].
+2. **Death Checks Every Hour** (`validate`) - evidence section [[sword-world-rpg-complete-edition-section-4-9-unconscious-and-death-checks-4-9-2-death-checks-every-hour-5d28a673]].
    - Characters with 0 or negative life force remain unconscious, even if they successfully survived a death check. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01403))_
    - and have their life force increased by up to at least 1 (positive) point, they will regain consciousness, but if they're left unconscious, they may die. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01403))_
    - The target score is still 7 , and if their life force is still negative , it' s still a penalty . _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01404))_
-3. **Monster Death Check** (`validate`) - evidence section [[sword-world-rpg-complete-edition-section-4-9-unconscious-and-death-checks-4-9-3-monster-death-check-0d0d84ef]].
+3. **Monster Death Check** (`validate`) - evidence section [[sword-world-rpg-complete-edition-section-4-9-unconscious-and-death-checks-4-9-3-monster-death-check-8b48c16b]].
    - Subtract the amount of negative life points, if any, from life point resistance, and if the result is 7 or greater , the monster is alive . _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01412))_
    - If the result is 6 or lower , the monster is dead . _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01412))_
    - A score called the monster's life point resistance is used instead. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01412))_
-4. **Mercy** (`step`) - evidence section [[sword-world-rpg-complete-edition-section-4-9-unconscious-and-death-checks-4-9-4-mercy-e379a5b2]].
+4. **Mercy** (`step`) - evidence section [[sword-world-rpg-complete-edition-section-4-9-unconscious-and-death-checks-4-9-4-mercy-45245b44]].
    - However, even if an item is classified as one of these, if you throw it, you cannot declare mercy. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01417))_
    - However, to do so, their weapon must be a dull weapon (a bludgeoning weapon). _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01417))_
    - On Table 1-8: Weapons, maces , clubs , and staves are classified as dull weapons. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01417))_

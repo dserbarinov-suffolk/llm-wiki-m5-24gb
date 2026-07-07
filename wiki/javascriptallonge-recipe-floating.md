@@ -9,7 +9,7 @@ domain: javascriptallonge
 category_path: recipes/javascriptallonge
 source_id: javascriptallonge.pdf
 aliases: floating
-projection_coverage: recipe-javascriptallonge-recipe-floating@61cfb7ca2c525291b597e87d6c22f6fd
+projection_coverage: recipe-javascriptallonge-recipe-floating@12baa4d55caf35251d8fbd5577057e9c
 ---
 
 # floating
@@ -18,7 +18,7 @@ From [[javascriptallonge]].
 
 ## Pattern
 
-- Use the source-backed pattern described in [[javascriptallonge-section-floating-3aa92e13]].
+- Use the source-backed pattern described in [[javascriptallonge-section-a-rich-aroma-basic-numbers-floating-1170cd1c]].
 - Evidence roles: decision, constraint, explanation, example, structured-state.
 
 ## Applicability And Rationale
@@ -69,4 +69,4 @@ This kind of 'inexactitude' can be ignored when performing calculations that hav
 ## Source Trail
 
 - Source manifest: [[javascriptallonge]]
-- Source section: [[javascriptallonge-section-floating-3aa92e13]]
+- Source section: [[javascriptallonge-section-a-rich-aroma-basic-numbers-floating-1170cd1c]]

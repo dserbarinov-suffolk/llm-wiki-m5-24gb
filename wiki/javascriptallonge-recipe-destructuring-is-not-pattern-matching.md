@@ -9,7 +9,7 @@ domain: javascriptallonge
 category_path: recipes/javascriptallonge
 source_id: javascriptallonge.pdf
 aliases: destructuring-is-not-pattern-matching
-projection_coverage: recipe-javascriptallonge-recipe-destructuring-is-not-pattern-matching@f791a84d6b89f7aa01161fb5f94da4ec
+projection_coverage: recipe-javascriptallonge-recipe-destructuring-is-not-pattern-matching@f19bfd1e829fb5b7adf8d10e058b76da
 ---
 
 # destructuring is not pattern matching
@@ -18,7 +18,7 @@ From [[javascriptallonge]].
 
 ## Pattern
 
-- Use the source-backed pattern described in [[javascriptallonge-section-destructuring-is-not-pattern-matching-385525f3]].
+- Use the source-backed pattern described in [[javascriptallonge-section-composing-and-decomposing-data-arrays-and-destructuring-arguments-destructuring-is-not-pattern-m-27d4b226]].
 - Evidence roles: decision, explanation, constraint, definition, example.
 
 ## Applicability And Rationale
@@ -69,4 +69,4 @@ they
 ## Source Trail
 
 - Source manifest: [[javascriptallonge]]
-- Source section: [[javascriptallonge-section-destructuring-is-not-pattern-matching-385525f3]]
+- Source section: [[javascriptallonge-section-composing-and-decomposing-data-arrays-and-destructuring-arguments-destructuring-is-not-pattern-m-27d4b226]]

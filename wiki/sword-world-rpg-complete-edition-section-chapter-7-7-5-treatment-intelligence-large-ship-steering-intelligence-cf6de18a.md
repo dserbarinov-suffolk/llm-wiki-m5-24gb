@@ -8,7 +8,7 @@ updated: 2026-07-07
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-7-7-5-treatment-intelligence-large-ship-steering-intelligence-cf6de18a@f9ebcb38d61e39c886c80ccd97d9f695
+projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-7-7-5-treatment-intelligence-large-ship-steering-intelligence-cf6de18a@e63de9adda45557af17a4571d35449ae
 ---
 
 # Chapter 7: / 7.5 [ ② Treatment [Intelligence]] / [ ① Large Ship Steering [Intelligence] ]
@@ -19,7 +19,7 @@ From [[sword-world-rpg-complete-edition]].
 
 ### Source order
 
-- [[sword-world-rpg-complete-edition-section-chapter-7-7-5-treatment-intelligence-herbs-intelligence-not-retriable-34a53a59]] - previous source section: Chapter 7: / 7.5 [ ② Treatment [Intelligence]] / [ ③ Herbs [Intelligence] ] (Not retriable)
+- [[sword-world-rpg-complete-edition-section-chapter-7-7-5-treatment-intelligence-hunter-skill-ddaad36a]] - previous source section: Chapter 7: / 7.5 [ ② Treatment [Intelligence]] / Hunter Skill
 
 ### Source structure
 

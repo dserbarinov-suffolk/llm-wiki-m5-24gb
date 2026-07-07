@@ -9,7 +9,7 @@ domain: javascriptallonge
 category_path: recipes/javascriptallonge
 source_id: javascriptallonge.pdf
 aliases: iterables-out-to-infinity
-projection_coverage: recipe-javascriptallonge-recipe-iterables-out-to-infinity@c0786987a4dd89e0e220de00b68c3597
+projection_coverage: recipe-javascriptallonge-recipe-iterables-out-to-infinity@be7d44eb0ffea28b388d964466957107
 ---
 
 # iterables out to infinity
@@ -18,7 +18,7 @@ From [[javascriptallonge]].
 
 ## Pattern
 
-- Use the source-backed pattern described in [[javascriptallonge-section-iterables-out-to-infinity-0fccfc5d]].
+- Use the source-backed pattern described in [[javascriptallonge-section-served-by-the-pot-collections-iteration-and-iterables-iterables-out-to-infinity-ae258dd7]].
 - Evidence roles: decision, constraint, example.
 
 ## Applicability And Rationale
@@ -58,4 +58,4 @@ firstAndSecondElement(...Numbers)
 ## Source Trail
 
 - Source manifest: [[javascriptallonge]]
-- Source section: [[javascriptallonge-section-iterables-out-to-infinity-0fccfc5d]]
+- Source section: [[javascriptallonge-section-served-by-the-pot-collections-iteration-and-iterables-iterables-out-to-infinity-ae258dd7]]

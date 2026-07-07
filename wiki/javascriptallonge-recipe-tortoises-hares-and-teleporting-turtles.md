@@ -9,7 +9,7 @@ domain: javascriptallonge
 category_path: recipes/javascriptallonge
 source_id: javascriptallonge.pdf
 aliases: tortoises-hares-and-teleporting-turtles
-projection_coverage: recipe-javascriptallonge-recipe-tortoises-hares-and-teleporting-turtles@e620cbe908c1e2f49ee869fe5f48829e
+projection_coverage: recipe-javascriptallonge-recipe-tortoises-hares-and-teleporting-turtles@28d5506202b96a3242d4c697faef8208
 ---
 
 # Tortoises, Hares, and Teleporting Turtles
@@ -18,7 +18,7 @@ From [[javascriptallonge]].
 
 ## Pattern
 
-- Use the source-backed pattern described in [[javascriptallonge-section-tortoises-hares-and-teleporting-turtles-7eb6eff2]].
+- Use the source-backed pattern described in [[javascriptallonge-section-copy-on-write-tortoises-hares-and-teleporting-turtles-3a4746f2]].
 - Evidence roles: decision, explanation, example.
 
 ## Applicability And Rationale
@@ -128,4 +128,4 @@ teleportingTurtle(aList);
 ## Source Trail
 
 - Source manifest: [[javascriptallonge]]
-- Source section: [[javascriptallonge-section-tortoises-hares-and-teleporting-turtles-7eb6eff2]]
+- Source section: [[javascriptallonge-section-copy-on-write-tortoises-hares-and-teleporting-turtles-3a4746f2]]

@@ -9,7 +9,7 @@ domain: javascriptallonge
 category_path: recipes/javascriptallonge
 source_id: javascriptallonge.pdf
 aliases: commas
-projection_coverage: recipe-javascriptallonge-recipe-commas@630001f5cc705d33845ecac8f2516505
+projection_coverage: recipe-javascriptallonge-recipe-commas@e26c44b8485dfb5a04a97090df86db69
 ---
 
 # commas
@@ -18,7 +18,7 @@ From [[javascriptallonge]].
 
 ## Pattern
 
-- Use the source-backed pattern described in [[javascriptallonge-section-commas-c347cbd5]].
+- Use the source-backed pattern described in [[javascriptallonge-section-the-first-sip-basic-functions-as-little-as-possible-about-functions-but-no-less-commas-53801ea8]].
 - Evidence roles: decision, example, structured-state.
 
 ## Applicability And Rationale
@@ -57,4 +57,4 @@ _Source: javascriptallonge.pdf (source-range-c98ab3e6-00200)_
 ## Source Trail
 
 - Source manifest: [[javascriptallonge]]
-- Source section: [[javascriptallonge-section-commas-c347cbd5]]
+- Source section: [[javascriptallonge-section-the-first-sip-basic-functions-as-little-as-possible-about-functions-but-no-less-commas-53801ea8]]

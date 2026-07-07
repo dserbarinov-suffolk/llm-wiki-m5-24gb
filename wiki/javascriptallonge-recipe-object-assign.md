@@ -9,7 +9,7 @@ domain: javascriptallonge
 category_path: recipes/javascriptallonge
 source_id: javascriptallonge.pdf
 aliases: object-assign
-projection_coverage: recipe-javascriptallonge-recipe-object-assign@ce0d2415d9e4495025f5878916114d5c
+projection_coverage: recipe-javascriptallonge-recipe-object-assign@b6ac5fa1035fae72fb1361a30c113c21
 ---
 
 # Object.assign
@@ -18,7 +18,7 @@ From [[javascriptallonge]].
 
 ## Pattern
 
-- Use the source-backed pattern described in [[javascriptallonge-section-object-assign-f644e66b]].
+- Use the source-backed pattern described in [[javascriptallonge-section-recipes-with-data-object-assign-8d8e0e13]].
 - Evidence roles: decision, constraint, example.
 
 ## Applicability And Rationale
@@ -133,4 +133,4 @@ isEmpty () {
 ## Source Trail
 
 - Source manifest: [[javascriptallonge]]
-- Source section: [[javascriptallonge-section-object-assign-f644e66b]]
+- Source section: [[javascriptallonge-section-recipes-with-data-object-assign-8d8e0e13]]

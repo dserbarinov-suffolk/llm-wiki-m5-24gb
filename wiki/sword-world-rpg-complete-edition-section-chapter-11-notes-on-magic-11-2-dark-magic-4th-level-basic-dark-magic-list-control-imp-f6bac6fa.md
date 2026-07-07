@@ -8,7 +8,7 @@ updated: 2026-07-07
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-11-notes-on-magic-11-2-dark-magic-4th-level-basic-dark-magic-list-control-imp-f6bac6fa@7acc710c870fbd8a4a07536367f2b826
+projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-11-notes-on-magic-11-2-dark-magic-4th-level-basic-dark-magic-list-control-imp-f6bac6fa@86544005fa42ff1d26bcc14e58726acc
 ---
 
 # Chapter 11: Notes on Magic / 11.2 Dark Magic / 4th Level Basic Dark Magic List [ Control Imp ]
@@ -20,11 +20,12 @@ From [[sword-world-rpg-complete-edition]].
 ### Source order
 
 - [[sword-world-rpg-complete-edition-section-chapter-11-notes-on-magic-11-2-dark-magic-3rd-level-basic-dark-magic-list-poison-ee23cb05]] - previous source section: Chapter 11: Notes on Magic / 11.2 Dark Magic / 3rd Level Basic Dark Magic List [ Poison ]
-- [[sword-world-rpg-complete-edition-section-chapter-11-notes-on-magic-11-2-dark-magic-steal-life-6581a6b4]] - next source section: Chapter 11: Notes on Magic / 11.2 Dark Magic / [ Steal Life ]
+- [[sword-world-rpg-complete-edition-section-chapter-11-notes-on-magic-11-2-dark-magic-5th-level-basic-dark-magic-list-02fad31c]] - next source section: Chapter 11: Notes on Magic / 11.2 Dark Magic / 5th Level Basic Dark Magic List
 
 ### Source structure
 
 - [[sword-world-rpg-complete-edition-section-chapter-11-notes-on-magic-11-2-dark-magic-e0a67386]] - broader source section: Chapter 11: Notes on Magic / 11.2 Dark Magic
+- [[sword-world-rpg-complete-edition-section-chapter-11-notes-on-magic-11-2-dark-magic-4th-level-basic-dark-magic-list-control-imp-steal-life-0c926cab]] - narrower source section: Chapter 11: Notes on Magic / 11.2 Dark Magic / 4th Level Basic Dark Magic List [ Control Imp ] / [ Steal Life ]
 
 ## Statements
 

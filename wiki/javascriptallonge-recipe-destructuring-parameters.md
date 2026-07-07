@@ -9,7 +9,7 @@ domain: javascriptallonge
 category_path: recipes/javascriptallonge
 source_id: javascriptallonge.pdf
 aliases: destructuring-parameters
-projection_coverage: recipe-javascriptallonge-recipe-destructuring-parameters@47126fe9aa4c3980d3bb7bba2402e2b5
+projection_coverage: recipe-javascriptallonge-recipe-destructuring-parameters@bbaefae731e1c002b2a82ee5f97d4a6a
 ---
 
 # destructuring parameters
@@ -18,7 +18,7 @@ From [[javascriptallonge]].
 
 ## Pattern
 
-- Use the source-backed pattern described in [[javascriptallonge-section-destructuring-parameters-e2eab6f1]].
+- Use the source-backed pattern described in [[javascriptallonge-section-composing-and-decomposing-data-arrays-and-destructuring-arguments-destructuring-parameters-1a788a19]].
 - Evidence roles: decision, explanation, example.
 
 ## Applicability And Rationale
@@ -65,4 +65,4 @@ headAndTail(1, 2, 3, 4, 5)
 ## Source Trail
 
 - Source manifest: [[javascriptallonge]]
-- Source section: [[javascriptallonge-section-destructuring-parameters-e2eab6f1]]
+- Source section: [[javascriptallonge-section-composing-and-decomposing-data-arrays-and-destructuring-arguments-destructuring-parameters-1a788a19]]

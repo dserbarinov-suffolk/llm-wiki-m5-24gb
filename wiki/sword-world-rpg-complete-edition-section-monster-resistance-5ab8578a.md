@@ -8,7 +8,7 @@ updated: 2026-07-07
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-monster-resistance-5ab8578a@05eaf8b80bdc47cc2ef2f93d557ef5b5
+projection_coverage: section-sword-world-rpg-complete-edition-section-monster-resistance-5ab8578a@0757783995b427675bf986a8ade61e4e
 ---
 
 # Monster Resistance
@@ -20,7 +20,6 @@ From [[sword-world-rpg-complete-edition]].
 ### Source order
 
 - [[sword-world-rpg-complete-edition-section-monster-magic-power-39540d4b]] - previous source section: Monster Magic Power
-- [[sword-world-rpg-complete-edition-section-1-obtain-spellbooks-or-scrolls-containing-lost-spell-509f8158]] - next source section: 1. Obtain Spellbooks or Scrolls Containing Lost Spell
 
 ## Statements
 

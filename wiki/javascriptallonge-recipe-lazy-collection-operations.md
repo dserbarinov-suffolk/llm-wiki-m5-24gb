@@ -9,7 +9,7 @@ domain: javascriptallonge
 category_path: recipes/javascriptallonge
 source_id: javascriptallonge.pdf
 aliases: lazy-collection-operations
-projection_coverage: recipe-javascriptallonge-recipe-lazy-collection-operations@08f983ba915f76962db0715a49aa45ae
+projection_coverage: recipe-javascriptallonge-recipe-lazy-collection-operations@7dd48484e36c8017da3f9469c0d3f855
 ---
 
 # lazy collection operations
@@ -18,7 +18,7 @@ From [[javascriptallonge]].
 
 ## Pattern
 
-- Use the source-backed pattern described in [[javascriptallonge-section-lazy-collection-operations-59797802]].
+- Use the source-backed pattern described in [[javascriptallonge-section-lazy-and-eager-collections-lazy-collection-operations-0de83c02]].
 - Evidence roles: decision, constraint, explanation, example, structured-state.
 
 ## Applicability And Rationale
@@ -171,4 +171,4 @@ Numbers
 ## Source Trail
 
 - Source manifest: [[javascriptallonge]]
-- Source section: [[javascriptallonge-section-lazy-collection-operations-59797802]]
+- Source section: [[javascriptallonge-section-lazy-and-eager-collections-lazy-collection-operations-0de83c02]]

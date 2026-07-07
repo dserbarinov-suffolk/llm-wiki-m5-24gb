@@ -9,7 +9,7 @@ domain: javascriptallonge
 category_path: recipes/javascriptallonge
 source_id: javascriptallonge.pdf
 aliases: copy-on-read
-projection_coverage: recipe-javascriptallonge-recipe-copy-on-read@24e64f1d53174811eb0f8ece60d16311
+projection_coverage: recipe-javascriptallonge-recipe-copy-on-read@474396c5d104b04af3ca54ecead1cef1
 ---
 
 # copy-on-read
@@ -18,7 +18,7 @@ From [[javascriptallonge]].
 
 ## Pattern
 
-- Use the source-backed pattern described in [[javascriptallonge-section-copy-on-read-aa637179]].
+- Use the source-backed pattern described in [[javascriptallonge-section-copy-on-write-a-few-utilities-copy-on-read-2d301e7a]].
 - Evidence roles: decision, constraint, explanation, example.
 
 ## Applicability And Rationale
@@ -53,4 +53,4 @@ childList
 ## Source Trail
 
 - Source manifest: [[javascriptallonge]]
-- Source section: [[javascriptallonge-section-copy-on-read-aa637179]]
+- Source section: [[javascriptallonge-section-copy-on-write-a-few-utilities-copy-on-read-2d301e7a]]

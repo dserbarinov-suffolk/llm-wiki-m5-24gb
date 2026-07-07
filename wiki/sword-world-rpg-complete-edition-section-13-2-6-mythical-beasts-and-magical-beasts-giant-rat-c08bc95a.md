@@ -8,7 +8,7 @@ updated: 2026-07-07
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-13-2-6-mythical-beasts-and-magical-beasts-giant-rat-c08bc95a@da60daaa0a5925d6090cfc535a40650d
+projection_coverage: section-sword-world-rpg-complete-edition-section-13-2-6-mythical-beasts-and-magical-beasts-giant-rat-c08bc95a@f04e8f1cbede148e64769c1e196493d7
 ---
 
 # 13.2.6 Mythical Beasts and Magical Beasts / [ Giant Rat ]
@@ -24,6 +24,7 @@ From [[sword-world-rpg-complete-edition]].
 ### Source structure
 
 - [[sword-world-rpg-complete-edition-section-13-2-6-mythical-beasts-and-magical-beasts-5b43aa54]] - broader source section: 13.2.6 Mythical Beasts and Magical Beasts
+- [[sword-world-rpg-complete-edition-section-13-2-6-mythical-beasts-and-magical-beasts-giant-rat-13-2-7-animals-69bb2447]] - narrower source section: 13.2.6 Mythical Beasts and Magical Beasts / [ Giant Rat ] / 13.2.7 Animals
 
 ## Statements
 

@@ -9,7 +9,7 @@ domain: javascriptallonge
 category_path: recipes/javascriptallonge
 source_id: javascriptallonge.pdf
 aliases: operations-on-ordered-collections
-projection_coverage: recipe-javascriptallonge-recipe-operations-on-ordered-collections@c994c94f8b313f4bff4c4ae54a9968b0
+projection_coverage: recipe-javascriptallonge-recipe-operations-on-ordered-collections@9ca117075ef90a0de2e9a3476770915b
 ---
 
 # operations on ordered collections
@@ -18,7 +18,7 @@ From [[javascriptallonge]].
 
 ## Pattern
 
-- Use the source-backed pattern described in [[javascriptallonge-section-operations-on-ordered-collections-807363b8]].
+- Use the source-backed pattern described in [[javascriptallonge-section-served-by-the-pot-collections-iteration-and-iterables-operations-on-ordered-collections-ee56851b]].
 - Evidence roles: decision, procedure, constraint, explanation, definition, example, structured-state.
 
 ## Applicability And Rationale
@@ -162,4 +162,4 @@ return ({done, value: done ? undefined : value});
 ## Source Trail
 
 - Source manifest: [[javascriptallonge]]
-- Source section: [[javascriptallonge-section-operations-on-ordered-collections-807363b8]]
+- Source section: [[javascriptallonge-section-served-by-the-pot-collections-iteration-and-iterables-operations-on-ordered-collections-ee56851b]]

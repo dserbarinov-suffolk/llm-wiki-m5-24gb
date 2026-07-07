@@ -8,7 +8,7 @@ updated: 2026-07-07
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-18-3-rules-for-destroying-structures-currency-2f385194@e71d1098e9c6256884203d1f974dacb4
+projection_coverage: section-sword-world-rpg-complete-edition-section-18-3-rules-for-destroying-structures-currency-2f385194@c132e8801af82d0f3c519188d9ec2fad
 ---
 
 # 18.3 Rules for Destroying Structures / Currency
@@ -19,7 +19,7 @@ From [[sword-world-rpg-complete-edition]].
 
 ### Source order
 
-- [[sword-world-rpg-complete-edition-section-18-3-rules-for-destroying-structures-farland-languages-6bd5e0f4]] - previous source section: 18.3 Rules for Destroying Structures / Farland (Languages = ?)
+- [[sword-world-rpg-complete-edition-section-18-3-rules-for-destroying-structures-geography-5910bff4]] - previous source section: 18.3 Rules for Destroying Structures / Geography
 
 ### Source structure
 

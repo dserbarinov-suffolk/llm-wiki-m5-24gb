@@ -8,7 +8,7 @@ updated: 2026-07-07
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-11-notes-on-magic-11-2-dark-magic-1st-level-basic-dark-magic-list-22a43d8d@20bb7580c0d0790db63d54eea327095c
+projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-11-notes-on-magic-11-2-dark-magic-1st-level-basic-dark-magic-list-22a43d8d@515722c98c60e9a0332265e5892a826a
 ---
 
 # Chapter 11: Notes on Magic / 11.2 Dark Magic / 1st Level Basic Dark Magic List
@@ -20,11 +20,12 @@ From [[sword-world-rpg-complete-edition]].
 ### Source order
 
 - [[sword-world-rpg-complete-edition-section-chapter-11-notes-on-magic-11-2-dark-magic-11-2-2-basic-dark-magic-list-66c85323]] - previous source section: Chapter 11: Notes on Magic / 11.2 Dark Magic / 11.2.2 Basic Dark Magic List
-- [[sword-world-rpg-complete-edition-section-chapter-11-notes-on-magic-11-2-dark-magic-mental-attack-6105b115]] - next source section: Chapter 11: Notes on Magic / 11.2 Dark Magic / [ Mental Attack ]
+- [[sword-world-rpg-complete-edition-section-chapter-11-notes-on-magic-11-2-dark-magic-2nd-level-basic-dark-magic-list-756fcf24]] - next source section: Chapter 11: Notes on Magic / 11.2 Dark Magic / 2nd Level Basic Dark Magic List
 
 ### Source structure
 
 - [[sword-world-rpg-complete-edition-section-chapter-11-notes-on-magic-11-2-dark-magic-e0a67386]] - broader source section: Chapter 11: Notes on Magic / 11.2 Dark Magic
+- [[sword-world-rpg-complete-edition-section-chapter-11-notes-on-magic-11-2-dark-magic-1st-level-basic-dark-magic-list-mental-attack-71f8839b]] - narrower source section: Chapter 11: Notes on Magic / 11.2 Dark Magic / 1st Level Basic Dark Magic List / [ Mental Attack ]
 
 ## Statements
 

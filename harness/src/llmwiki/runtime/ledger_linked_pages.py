@@ -74,6 +74,7 @@ def build_linked_page_projection(
     section_pages = build_section_pages(
         ledger,
         structure,
+        section_plan=section_plan,
         source_page_id=page_id,
         source_locator=source_locator,
         today=today,
@@ -86,9 +87,10 @@ def build_linked_page_projection(
         source_page_id=page_id,
         source_locator=source_locator,
         today=today,
+        section_plan=section_plan,
         shape_catalog=shape_catalog,
     )
-    plans = collection_plans(ledger, structure, page_id, shape_catalog)
+    plans = collection_plans(ledger, structure, page_id, shape_catalog, section_plan)
     collection_pages = build_collection_pages(
         ledger,
         structure,
@@ -96,6 +98,7 @@ def build_linked_page_projection(
         source_locator=source_locator,
         today=today,
         shape_catalog=shape_catalog,
+        section_plan=section_plan,
     )
     recipe_pages = build_recipe_pages(
         ledger,
@@ -104,6 +107,7 @@ def build_linked_page_projection(
         source_locator=source_locator,
         today=today,
         shape_catalog=shape_catalog,
+        section_plan=section_plan,
     )
     linked_pages = (
         *topic_pages,

@@ -9,7 +9,7 @@ domain: javascriptallonge
 category_path: recipes/javascriptallonge
 source_id: javascriptallonge.pdf
 aliases: copy-on-write
-projection_coverage: recipe-javascriptallonge-recipe-copy-on-write@b672daa773762ce7465d782e00c3db35
+projection_coverage: recipe-javascriptallonge-recipe-copy-on-write@7fd361edf7c37cd919eec50790aab289
 ---
 
 # copy-on-write
@@ -18,7 +18,7 @@ From [[javascriptallonge]].
 
 ## Pattern
 
-- Use the source-backed pattern described in [[javascriptallonge-section-copy-on-write-3ac31713]].
+- Use the source-backed pattern described in [[javascriptallonge-section-copy-on-write-a-few-utilities-copy-on-write-db9192e0]].
 - Evidence roles: decision, explanation, constraint, example.
 
 ## Applicability And Rationale
@@ -76,4 +76,4 @@ newChildList
 ## Source Trail
 
 - Source manifest: [[javascriptallonge]]
-- Source section: [[javascriptallonge-section-copy-on-write-3ac31713]]
+- Source section: [[javascriptallonge-section-copy-on-write-a-few-utilities-copy-on-write-db9192e0]]

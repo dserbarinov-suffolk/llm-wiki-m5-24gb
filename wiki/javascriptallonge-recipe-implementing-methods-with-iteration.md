@@ -9,7 +9,7 @@ domain: javascriptallonge
 category_path: recipes/javascriptallonge
 source_id: javascriptallonge.pdf
 aliases: implementing-methods-with-iteration
-projection_coverage: recipe-javascriptallonge-recipe-implementing-methods-with-iteration@fe86d897a0e6eefdc93b6f83e4578397
+projection_coverage: recipe-javascriptallonge-recipe-implementing-methods-with-iteration@4fd92cb6954d0dc15db008730db7e240
 ---
 
 # implementing methods with iteration
@@ -18,7 +18,7 @@ From [[javascriptallonge]].
 
 ## Pattern
 
-- Use the source-backed pattern described in [[javascriptallonge-section-implementing-methods-with-iteration-d176c6c9]].
+- Use the source-backed pattern described in [[javascriptallonge-section-lazy-and-eager-collections-implementing-methods-with-iteration-e67a1913]].
 - Evidence roles: decision, constraint, example.
 
 ## Applicability And Rationale
@@ -248,4 +248,4 @@ push: function (value) {
 ## Source Trail
 
 - Source manifest: [[javascriptallonge]]
-- Source section: [[javascriptallonge-section-implementing-methods-with-iteration-d176c6c9]]
+- Source section: [[javascriptallonge-section-lazy-and-eager-collections-implementing-methods-with-iteration-e67a1913]]

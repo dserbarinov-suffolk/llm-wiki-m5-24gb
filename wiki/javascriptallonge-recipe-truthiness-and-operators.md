@@ -9,7 +9,7 @@ domain: javascriptallonge
 category_path: recipes/javascriptallonge
 source_id: javascriptallonge.pdf
 aliases: truthiness-and-operators
-projection_coverage: recipe-javascriptallonge-recipe-truthiness-and-operators@1657fe0bd79fc13d8e00530b0a76d41b
+projection_coverage: recipe-javascriptallonge-recipe-truthiness-and-operators@b4ebf728ab5cf409b43aa5e97a796e8e
 ---
 
 # truthiness and operators
@@ -18,7 +18,7 @@ From [[javascriptallonge]].
 
 ## Pattern
 
-- Use the source-backed pattern described in [[javascriptallonge-section-truthiness-and-operators-8e6eee14]].
+- Use the source-backed pattern described in [[javascriptallonge-section-picking-the-bean-choice-and-truthiness-truthiness-and-operators-44549e80]].
 - Evidence roles: decision, explanation, definition, example, structured-state.
 
 ## Applicability And Rationale
@@ -59,4 +59,4 @@ undefined && null
 ## Source Trail
 
 - Source manifest: [[javascriptallonge]]
-- Source section: [[javascriptallonge-section-truthiness-and-operators-8e6eee14]]
+- Source section: [[javascriptallonge-section-picking-the-bean-choice-and-truthiness-truthiness-and-operators-44549e80]]

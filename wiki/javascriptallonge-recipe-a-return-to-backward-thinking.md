@@ -9,7 +9,7 @@ domain: javascriptallonge
 category_path: recipes/javascriptallonge
 source_id: javascriptallonge.pdf
 aliases: a-return-to-backward-thinking
-projection_coverage: recipe-javascriptallonge-recipe-a-return-to-backward-thinking@c93834060bd9be74b2159af0e0f0e79a
+projection_coverage: recipe-javascriptallonge-recipe-a-return-to-backward-thinking@55136219036bfe166270dba49beb6c79
 ---
 
 # a return to backward thinking
@@ -18,7 +18,7 @@ From [[javascriptallonge]].
 
 ## Pattern
 
-- Use the source-backed pattern described in [[javascriptallonge-section-a-return-to-backward-thinking-51ce8070]].
+- Use the source-backed pattern described in [[javascriptallonge-section-copy-on-write-making-data-out-of-functions-a-return-to-backward-thinking-0d028ef6]].
 - Evidence roles: decision, constraint, explanation, example.
 
 ## Applicability And Rationale
@@ -75,4 +75,4 @@ node === EMPTY
 ## Source Trail
 
 - Source manifest: [[javascriptallonge]]
-- Source section: [[javascriptallonge-section-a-return-to-backward-thinking-51ce8070]]
+- Source section: [[javascriptallonge-section-copy-on-write-making-data-out-of-functions-a-return-to-backward-thinking-0d028ef6]]

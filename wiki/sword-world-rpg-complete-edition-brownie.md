@@ -7,7 +7,7 @@ sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-07
 domain: sword-world-rpg-complete-edition
 category_path: concepts
-projection_coverage: topic-sword-world-rpg-complete-edition-brownie@443c13b24f9ad55d1ea7707daf85be45
+projection_coverage: topic-sword-world-rpg-complete-edition-brownie@8ec10d7a5e358f6f164c66338891379d
 ---
 
 # Brownie
@@ -39,7 +39,7 @@ What [[sword-world-rpg-complete-edition]] covers about brownie:
 
 ### Source structure
 
-- [[sword-world-rpg-complete-edition-section-brownie-e92b25a2]] - source section: [ Brownie ] shares source evidence from [ Brownie ]: Brownie is a spirit that appears in old mansions where people have lived for over 50 years. If the humans living in the mansion disappear or die, the brownie may tur ... [truncated]; [ Brownie ] shares technical record from [ Brownie ]: Perception=Magic (12 shared statement(s), 1 shared atom(s))
+- [[sword-world-rpg-complete-edition-section-13-2-3-youma-brownie-e92b25a2]] - source section: 13.2.3 Youma / [ Brownie ] shares source evidence from 13.2.3 Youma / [ Brownie ]: Brownie is a spirit that appears in old mansions where people have lived for over 50 years. If the humans living in the mansion disappear or die, the brownie may tur ... [truncated]; 13.2.3 Youma / [ Brownie ] shares technical record from 13.2.3 Youma / [ Brownie ]: Perception=Magic (12 shared statement(s), 1 shared atom(s))
 
 ## Source
 

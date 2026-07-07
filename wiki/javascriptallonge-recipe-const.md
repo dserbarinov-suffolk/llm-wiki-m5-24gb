@@ -9,7 +9,7 @@ domain: javascriptallonge
 category_path: recipes/javascriptallonge
 source_id: javascriptallonge.pdf
 aliases: const
-projection_coverage: recipe-javascriptallonge-recipe-const@a47d45788889d3e9e8e85b869b19e899
+projection_coverage: recipe-javascriptallonge-recipe-const@858d0081c0911fac0f5c5c8c90160d17
 ---
 
 # const
@@ -18,7 +18,7 @@ From [[javascriptallonge]].
 
 ## Pattern
 
-- Use the source-backed pattern described in [[javascriptallonge-section-const-96382167]].
+- Use the source-backed pattern described in [[javascriptallonge-section-and-also-that-constant-coffee-craving-const-37801120]].
 - Evidence roles: decision, explanation, constraint, example, structured-state.
 
 ## Applicability And Rationale
@@ -90,4 +90,4 @@ _Source: javascriptallonge.pdf (source-range-c98ab3e6-00412)_
 ## Source Trail
 
 - Source manifest: [[javascriptallonge]]
-- Source section: [[javascriptallonge-section-const-96382167]]
+- Source section: [[javascriptallonge-section-and-also-that-constant-coffee-craving-const-37801120]]

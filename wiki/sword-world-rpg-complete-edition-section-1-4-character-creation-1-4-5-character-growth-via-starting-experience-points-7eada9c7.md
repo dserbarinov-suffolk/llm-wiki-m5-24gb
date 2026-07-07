@@ -8,7 +8,7 @@ updated: 2026-07-07
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-1-4-character-creation-1-4-5-character-growth-via-starting-experience-points-7eada9c7@f329534078e0caf307db26f4303a23d7
+projection_coverage: section-sword-world-rpg-complete-edition-section-1-4-character-creation-1-4-5-character-growth-via-starting-experience-points-7eada9c7@24ee231627fc6dae29fbd3de182e2a0b
 ---
 
 # 1.4 Character Creation / 1.4.5 Character Growth via Starting Experience Points
@@ -19,8 +19,7 @@ From [[sword-world-rpg-complete-edition]].
 
 ### Source order
 
-- [[sword-world-rpg-complete-edition-section-1-4-character-creation-name-c01a66f1]] - previous source section: 1.4 Character Creation / 《 Name 》
-- [[sword-world-rpg-complete-edition-section-1-4-character-creation-1-4-6-purchasing-weapons-and-armor-eeeea2eb]] - next source section: 1.4 Character Creation / 1.4.6 Purchasing Weapons and Armor
+- [[sword-world-rpg-complete-edition-section-1-4-character-creation-1-4-6-purchasing-weapons-and-armor-03e4bdf9]] - next source section: 1.4 Character Creation / 1.4.6 Purchasing Weapons and Armor
 
 ### Source structure
 

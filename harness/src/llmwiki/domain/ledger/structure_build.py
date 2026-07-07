@@ -101,7 +101,7 @@ def _add_heading(
     open_headings: list[_OpenHeading],
     pending_markers: dict[tuple[int, ...], _PendingNumberMarker],
 ) -> None:
-    depth = _heading_depth(segment.text)
+    depth = _heading_depth(segment)
     heading_text = structure_numbers.heading_text(segment.text)
     canonical_label = structure_numbers.canonical_heading_label(heading_text)
     number_path = structure_numbers.heading_number_path(canonical_label)
@@ -120,8 +120,10 @@ def _add_heading(
         open_headings[-1].number_path, number_path
     ):
         open_headings.pop()
-    if open_headings and canonical_label and structure_numbers.same_heading(
-        open_headings[-1].canonical_label, canonical_label
+    if (
+        open_headings
+        and canonical_label
+        and structure_numbers.same_heading(open_headings[-1].canonical_label, canonical_label)
     ):
         node_for_segment[segment.segment_id] = open_headings[-1].node_id
         return
@@ -165,8 +167,12 @@ def _add_heading(
     node_for_segment[segment.segment_id] = node_id
 
 
-def _heading_depth(text: str) -> int:
-    stripped = text.lstrip()
+def _heading_depth(segment: SourceSegment) -> int:
+    for block in segment.source_blocks:
+        level = getattr(block, "heading_level", 0)
+        if isinstance(level, int) and level > 0:
+            return level
+    stripped = segment.text.lstrip()
     depth = len(stripped) - len(stripped.lstrip("#"))
     return depth if depth > 0 else 1
 

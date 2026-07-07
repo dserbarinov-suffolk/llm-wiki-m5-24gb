@@ -9,7 +9,7 @@ domain: javascriptallonge
 category_path: recipes/javascriptallonge
 source_id: javascriptallonge.pdf
 aliases: the-vireo
-projection_coverage: recipe-javascriptallonge-recipe-the-vireo@38ac248fe770d39040c5c852b0585d58
+projection_coverage: recipe-javascriptallonge-recipe-the-vireo@6b8f2523cd4cde80f972e2397b59910e
 ---
 
 # the vireo
@@ -18,7 +18,7 @@ From [[javascriptallonge]].
 
 ## Pattern
 
-- Use the source-backed pattern described in [[javascriptallonge-section-the-vireo-15cde3c9]].
+- Use the source-backed pattern described in [[javascriptallonge-section-copy-on-write-making-data-out-of-functions-the-vireo-1b2dccd1]].
 - Evidence roles: decision, procedure, example, structured-state.
 
 ## Applicability And Rationale
@@ -81,4 +81,4 @@ latin(second)
 ## Source Trail
 
 - Source manifest: [[javascriptallonge]]
-- Source section: [[javascriptallonge-section-the-vireo-15cde3c9]]
+- Source section: [[javascriptallonge-section-copy-on-write-making-data-out-of-functions-the-vireo-1b2dccd1]]

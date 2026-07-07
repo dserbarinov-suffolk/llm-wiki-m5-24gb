@@ -7,7 +7,7 @@ sources: raw/javascriptallonge.pdf
 updated: 2026-07-07
 domain: javascriptallonge
 category_path: concepts
-projection_coverage: topic-javascriptallonge-ternary-operator@b521ada859f79dfafc667cd5fa183785
+projection_coverage: topic-javascriptallonge-ternary-operator@e94a44c8515627ac7459789e96235260
 ---
 
 # Ternary Operator
@@ -16,14 +16,14 @@ What [[javascriptallonge]] covers about ternary operator:
 
 ## Statements
 
-### truthiness and the ternary operator
+### Picking the Bean: Choice and Truthiness / truthiness and the ternary operator
 
 - JavaScript inherited an operator from the C family of languages, the ternary operator. It's the only operator that takes three arguments. It looks like this: first ? second : third . It evaluates first , and if first is 'truthy', it evaluates second and that is its value. If first is not truthy, it evaluates third and that is its value. _(javascriptallonge.pdf (source-range-c98ab3e6-00750))_
 
 
 ## Technical atoms
 
-### Technical frame 1: truthiness and the ternary operator
+### Technical frame 1: Picking the Bean: Choice and Truthiness / truthiness and the ternary operator
 
 **Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-00756))_
 
@@ -41,7 +41,7 @@ true ? 'Hello' : 'Good bye'
 //=> 'Pentatonic'
 ```
 
-### Technical frame 2: truthiness and the ternary operator
+### Technical frame 2: Picking the Bean: Choice and Truthiness / truthiness and the ternary operator
 
 **Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-00750))_
 
@@ -165,11 +165,11 @@ or(() => n === 0, () => and(() => n !== 1, () => even(n - 2)))
 
 ### Shared technical atoms
 
-- [[javascriptallonge-truthiness]] - shared technical atoms: Truthiness shares technical record from truthiness and the ternary operator: true ? 'Hello' : 'Good bye' //=> 'Hello' 0 ? 'Hello' : 'Good bye' //=> 'Good bye' [1, 2, 3, 4, 5].length === 5 ? 'Pentatonic' : 'Quasimodal' //=> 'Pentatonic' (2 shared atom(s))
+- [[javascriptallonge-truthiness]] - shared technical atoms: Truthiness shares technical record from Picking the Bean: Choice and Truthiness / truthiness and the ternary operator: true ? 'Hello' : 'Good bye' //=> 'Hello' 0 ? 'Hello' : 'Good bye' //=> 'Good bye' [1, 2, 3, 4, 5].length === 5 ? 'Pentatonic' : 'Quasimodal' //=> 'Pentatonic' (2 shared atom(s))
 
 ### Shared claims
 
-- [[javascriptallonge-javascript]] - shared statements: Javascript shares source evidence from truthiness and the ternary operator: JavaScript inherited an operator from the C family of languages, the ternary operator. It's the only operator that takes three arguments. It looks like this: first ? ... [truncated] (1 shared statement(s))
+- [[javascriptallonge-javascript]] - shared statements: Javascript shares source evidence from Picking the Bean: Choice and Truthiness / truthiness and the ternary operator: JavaScript inherited an operator from the C family of languages, the ternary operator. It's the only operator that takes three arguments. It looks like this: first ? ... [truncated] (1 shared statement(s))
 
 ## Source
 

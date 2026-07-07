@@ -7,7 +7,7 @@ sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-07
 domain: sword-world-rpg-complete-edition
 category_path: concepts
-projection_coverage: topic-sword-world-rpg-complete-edition-life@264dde7d3fd04c8da2fc6628ffd7b439
+projection_coverage: topic-sword-world-rpg-complete-edition-life@232a603c4d8a9863859b5ad36eec0815
 ---
 
 # Life
@@ -55,6 +55,8 @@ What [[sword-world-rpg-complete-edition]] covers about life:
 ### Shared technical atoms
 
 - [[sword-world-rpg-complete-edition-resistance]] - shared statements and technical atoms: Resistance shares source evidence from 13.2.1 《 Humans 》 / 《 Life Points/Resistance 》: There are two numbers written. The number before the slash (/) is life points, and the number after is life point resistance.; Resistance shares technical record from 13.2.1 《 Humans 》 / 《 Life Points/Resistance 》: When a character casts a spell on a monster, they must make a success roll using their magic power as the baseline score. (7 shared statement(s), 1 shared atom(s))
+- [[sword-world-rpg-complete-edition-attack-character-monster]] - shared statements and technical atoms: Attacks From Characters Against Monsters shares source evidence from 13.2.1 《 Humans 》 / 《 Life Points/Resistance 》: Life points represents the monster's life force. When a monster suffers damage, it will lose life points. As with a character, when a monster's life points fall to 0 ... [truncated]; Attacks From Characters Against Monsters shares technical record from 13.2.1 《 Humans 》 / 《 Life Points/Resistance 》: When a character casts a spell on a monster, they must make a success roll using their magic power as the baseline score. (3 shared statement(s), 1 shared atom(s))
+- [[sword-world-rpg-complete-edition-attack-monster-character]] - shared statements and technical atoms: Attacks From Monsters Against Characters shares source evidence from 13.2.1 《 Humans 》 / 《 Life Points/Resistance 》: Life points represents the monster's life force. When a monster suffers damage, it will lose life points. As with a character, when a monster's life points fall to 0 ... [truncated]; Attacks From Monsters Against Characters shares technical record from 13.2.1 《 Humans 》 / 《 Life Points/Resistance 》: When a character casts a spell on a monster, they must make a success roll using their magic power as the baseline score. (3 shared statement(s), 1 shared atom(s))
 
 ## Source
 

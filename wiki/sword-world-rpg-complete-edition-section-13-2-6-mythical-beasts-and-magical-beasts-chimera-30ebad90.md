@@ -8,7 +8,7 @@ updated: 2026-07-07
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-13-2-6-mythical-beasts-and-magical-beasts-chimera-30ebad90@acd96693bcdaebf46b7c0a99a8e12d21
+projection_coverage: section-sword-world-rpg-complete-edition-section-13-2-6-mythical-beasts-and-magical-beasts-chimera-30ebad90@3cc92ef98b236babc924b815a5b26cc7
 ---
 
 # 13.2.6 Mythical Beasts and Magical Beasts / [ Chimera ]
@@ -19,7 +19,6 @@ From [[sword-world-rpg-complete-edition]].
 
 ### Source order
 
-- [[sword-world-rpg-complete-edition-section-13-2-6-mythical-beasts-and-magical-beasts-scylla-monster-level-4-rarity-13-agility-12-movement-s-371bfe2b]] - previous source section: 13.2.6 Mythical Beasts and Magical Beasts / [ Scylla ] Monster Level=4 Rarity=13 Agility=12 Movement Speed=12/12 (water) Number=One Frequency=Rare Intellect=Human Reaction=Adversarial
 - [[sword-world-rpg-complete-edition-section-13-2-6-mythical-beasts-and-magical-beasts-twintail-cat-4ea45e8b]] - next source section: 13.2.6 Mythical Beasts and Magical Beasts / [ Twintail Cat ]
 
 ### Source structure

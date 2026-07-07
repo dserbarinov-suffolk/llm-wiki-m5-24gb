@@ -1,13 +1,13 @@
 ---
 page_id: sword-world-rpg-complete-edition-13-mythical-beast
 page_kind: concept
-summary: 13 Mythical Beast: 6 statement(s) and 3 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-page_family: topic-concept
+summary: 13 Mythical Beast: 9 statement(s) and 3 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+page_family: broad-topic
 sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-07
 domain: sword-world-rpg-complete-edition
 category_path: concepts
-projection_coverage: topic-sword-world-rpg-complete-edition-13-mythical-beast@10172505da5c7484d2391fa2ed1d977f
+projection_coverage: topic-sword-world-rpg-complete-edition-13-mythical-beast@5d4c6e8e06a29efb55008cbfb7320959
 ---
 
 # 13 Mythical Beast
@@ -39,6 +39,18 @@ What [[sword-world-rpg-complete-edition]] covers about 13 mythical beast:
 ### 13.2.6 Mythical Beasts and Magical Beasts / [ Sphinx ] Monster Level=7 Rarity=12 Agility=14 Movement Speed=18/30 (air) Number=One Frequency=Very Rare Intellect=High Reaction=Neutral Attack Points=Claw:15 (8)/Claw:15 (8) Strike Points=16/16 Evasion Points=14 (7) Defense Points=11 Life Points/Resistance=24/17 (10) Mental Points/Resistance=20/16 (9) Special Abilities=5th level ancient magic (Magic Intensity/Magic Power=15/8) Tell riddles Not affected by poison and illness Sleepless Habitat=Ruins, underground labyrinths Languages=Regional, low ancient
 
 - The sphinx is said to be a mythical beast created by the sorcerers of the ancient kingdom to protect true knowledge, and to prevent lost ancient magic spell books and valuable magical items from falling into the hands of fools. If approached in a friendly manner, the sphinx may play a game of riddles to determine the intelligence of their opponent. The sphinx will only reveal its secrets to those it deems to be truly wise and right-minded. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-06612))_
+
+### 13.2.6 Mythical Beasts and Magical Beasts / [ Horse ] / 13.2.10 Magical Creatures / [ Golem ]
+
+- Golems are generally humanoid, but there are many exceptions to this, and some come in special shapes that resemble animals, magical beasts, or mythical beasts such as dragons, etc. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-08123))_
+
+### 13.2.6 Mythical Beasts and Magical Beasts / [ Horse ] / 13.6 Handling Monster Special Abilities / 《 Not Affected by Poison and Illness 》
+
+- Certain mythical beasts, magical beasts, undead powered by negative life, and pseudo-life forms created by magic, are free from poison and illness. These monsters are not affected by poison and illness. Ancient magic that alters the atmosphere ( XX Cloud ) is also ineffective. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-08783))_
+
+### 13.2.6 Mythical Beasts and Magical Beasts / [ Horse ] / 13.6 Handling Monster Special Abilities / 《 Clairvoyance 》
+
+- The mythical beast lynx has a sharp clairvoyance ability. For this reason, even if a character lurks in a place that's hidden from view, etc. he or she will be discovered instantly. Please note that this ability does not mean it'll be able to see behind it. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-08789))_
 
 
 ## Technical atoms
@@ -81,7 +93,7 @@ What [[sword-world-rpg-complete-edition]] covers about 13 mythical beast:
 
 ### Shared technical atoms
 
-- [[sword-world-rpg-complete-edition-magical-beast]] - shared statements and technical atoms: Magical Beast shares source evidence from 13.2.6 Mythical Beasts and Magical Beasts / [ Lizardman ]: The magic used by noble lizardmen is said to be dragon roar magic. Although the Witch of Orphan Laverna assumed that the lizardman family was closely related to drag ... [truncated]; Magical Beast shares technical record from 13.2.6 Mythical Beasts and Magical Beasts / [ Lizardman ]: Slaves have low intellect and cannot use magic. (2 shared statement(s), 1 shared atom(s))
+- [[sword-world-rpg-complete-edition-magical-beast]] - shared statements and technical atoms: Magical Beast shares source evidence from 13.2.6 Mythical Beasts and Magical Beasts / [ Lizardman ]: The magic used by noble lizardmen is said to be dragon roar magic. Although the Witch of Orphan Laverna assumed that the lizardman family was closely related to drag ... [truncated]; Magical Beast shares technical record from 13.2.6 Mythical Beasts and Magical Beasts / [ Lizardman ]: Slaves have low intellect and cannot use magic. (4 shared statement(s), 1 shared atom(s))
 
 ## Source
 

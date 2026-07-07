@@ -9,7 +9,7 @@ domain: javascriptallonge
 category_path: recipes/javascriptallonge
 source_id: javascriptallonge.pdf
 aliases: evaluation-time
-projection_coverage: recipe-javascriptallonge-recipe-evaluation-time@3ad197e780aef40fe283710e91a44550
+projection_coverage: recipe-javascriptallonge-recipe-evaluation-time@76aa46aea79aaf982619fb118000bd93
 ---
 
 # evaluation time
@@ -18,7 +18,7 @@ From [[javascriptallonge]].
 
 ## Pattern
 
-- Use the source-backed pattern described in [[javascriptallonge-section-evaluation-time-1c881c48]].
+- Use the source-backed pattern described in [[javascriptallonge-section-a-warm-cup-basic-strings-and-quasi-literals-evaluation-time-ba7a0853]].
 - Evidence roles: decision, explanation, example.
 
 ## Applicability And Rationale
@@ -53,4 +53,4 @@ greeting('Arthur Dent')
 ## Source Trail
 
 - Source manifest: [[javascriptallonge]]
-- Source section: [[javascriptallonge-section-evaluation-time-1c881c48]]
+- Source section: [[javascriptallonge-section-a-warm-cup-basic-strings-and-quasi-literals-evaluation-time-ba7a0853]]

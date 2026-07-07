@@ -9,7 +9,7 @@ domain: javascriptallonge
 category_path: recipes/javascriptallonge
 source_id: javascriptallonge.pdf
 aliases: flipping-methods
-projection_coverage: recipe-javascriptallonge-recipe-flipping-methods@317bef00537b839dc03581050a6be069
+projection_coverage: recipe-javascriptallonge-recipe-flipping-methods@79e1ab780e9bed603ca5af80904846f5
 ---
 
 # flipping methods
@@ -18,7 +18,7 @@ From [[javascriptallonge]].
 
 ## Pattern
 
-- Use the source-backed pattern described in [[javascriptallonge-section-flipping-methods-bf22c9c8]].
+- Use the source-backed pattern described in [[javascriptallonge-section-recipes-with-data-flip-flipping-methods-852e9417]].
 - Evidence roles: decision, constraint, procedure, example.
 
 ## Applicability And Rationale
@@ -57,4 +57,4 @@ return fn.call(this, second, first);
 ## Source Trail
 
 - Source manifest: [[javascriptallonge]]
-- Source section: [[javascriptallonge-section-flipping-methods-bf22c9c8]]
+- Source section: [[javascriptallonge-section-recipes-with-data-flip-flipping-methods-852e9417]]

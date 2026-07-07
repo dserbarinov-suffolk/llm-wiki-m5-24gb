@@ -9,7 +9,7 @@ domain: javascriptallonge
 category_path: recipes/javascriptallonge
 source_id: javascriptallonge.pdf
 aliases: self-currying-flip
-projection_coverage: recipe-javascriptallonge-recipe-self-currying-flip@fbeec110f2444d4b7a9b01d4d8b52032
+projection_coverage: recipe-javascriptallonge-recipe-self-currying-flip@6587306966d2aa93abb8924bba8a7d79
 ---
 
 # self-currying flip
@@ -18,7 +18,7 @@ From [[javascriptallonge]].
 
 ## Pattern
 
-- Use the source-backed pattern described in [[javascriptallonge-section-self-currying-flip-afc1011e]].
+- Use the source-backed pattern described in [[javascriptallonge-section-recipes-with-data-flip-self-currying-flip-2cc96222]].
 - Evidence roles: decision, constraint, example.
 
 ## Applicability And Rationale
@@ -49,4 +49,4 @@ return fn(second, first);
 ## Source Trail
 
 - Source manifest: [[javascriptallonge]]
-- Source section: [[javascriptallonge-section-self-currying-flip-afc1011e]]
+- Source section: [[javascriptallonge-section-recipes-with-data-flip-self-currying-flip-2cc96222]]

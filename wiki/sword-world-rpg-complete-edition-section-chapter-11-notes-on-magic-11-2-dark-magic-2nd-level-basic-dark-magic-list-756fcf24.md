@@ -8,7 +8,7 @@ updated: 2026-07-07
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-11-notes-on-magic-11-2-dark-magic-2nd-level-basic-dark-magic-list-756fcf24@8b31374ff9dcc651d98c6107d0afaa23
+projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-11-notes-on-magic-11-2-dark-magic-2nd-level-basic-dark-magic-list-756fcf24@927bb89b330941246132934119359be4
 ---
 
 # Chapter 11: Notes on Magic / 11.2 Dark Magic / 2nd Level Basic Dark Magic List
@@ -19,12 +19,13 @@ From [[sword-world-rpg-complete-edition]].
 
 ### Source order
 
-- [[sword-world-rpg-complete-edition-section-chapter-11-notes-on-magic-11-2-dark-magic-mental-attack-6105b115]] - previous source section: Chapter 11: Notes on Magic / 11.2 Dark Magic / [ Mental Attack ]
-- [[sword-world-rpg-complete-edition-section-chapter-11-notes-on-magic-11-2-dark-magic-blindness-a94515ab]] - next source section: Chapter 11: Notes on Magic / 11.2 Dark Magic / Blindness
+- [[sword-world-rpg-complete-edition-section-chapter-11-notes-on-magic-11-2-dark-magic-1st-level-basic-dark-magic-list-22a43d8d]] - previous source section: Chapter 11: Notes on Magic / 11.2 Dark Magic / 1st Level Basic Dark Magic List
+- [[sword-world-rpg-complete-edition-section-chapter-11-notes-on-magic-11-2-dark-magic-3rd-level-basic-dark-magic-list-poison-ee23cb05]] - next source section: Chapter 11: Notes on Magic / 11.2 Dark Magic / 3rd Level Basic Dark Magic List [ Poison ]
 
 ### Source structure
 
 - [[sword-world-rpg-complete-edition-section-chapter-11-notes-on-magic-11-2-dark-magic-e0a67386]] - broader source section: Chapter 11: Notes on Magic / 11.2 Dark Magic
+- [[sword-world-rpg-complete-edition-section-chapter-11-notes-on-magic-11-2-dark-magic-2nd-level-basic-dark-magic-list-blindness-d0350cd4]] - narrower source section: Chapter 11: Notes on Magic / 11.2 Dark Magic / 2nd Level Basic Dark Magic List / Blindness
 
 ## Statements
 

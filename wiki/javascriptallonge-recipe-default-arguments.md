@@ -9,7 +9,7 @@ domain: javascriptallonge
 category_path: recipes/javascriptallonge
 source_id: javascriptallonge.pdf
 aliases: default-arguments
-projection_coverage: recipe-javascriptallonge-recipe-default-arguments@9d756e3331bbfdc574c0564a4a93a96f
+projection_coverage: recipe-javascriptallonge-recipe-default-arguments@3917efb117fedc59e96dd5f0b55b9e4c
 ---
 
 # default arguments
@@ -18,7 +18,7 @@ From [[javascriptallonge]].
 
 ## Pattern
 
-- Use the source-backed pattern described in [[javascriptallonge-section-default-arguments-53255884]].
+- Use the source-backed pattern described in [[javascriptallonge-section-composing-and-decomposing-data-default-arguments-363804ac]].
 - Evidence roles: decision, example, structured-state.
 
 ## Applicability And Rationale
@@ -83,4 +83,4 @@ mapWith((x) => x * x, [1, 2, 3, 4, 5])
 ## Source Trail
 
 - Source manifest: [[javascriptallonge]]
-- Source section: [[javascriptallonge-section-default-arguments-53255884]]
+- Source section: [[javascriptallonge-section-composing-and-decomposing-data-default-arguments-363804ac]]

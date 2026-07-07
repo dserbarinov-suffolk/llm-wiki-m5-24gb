@@ -9,7 +9,7 @@ domain: javascriptallonge
 category_path: recipes/javascriptallonge
 source_id: javascriptallonge.pdf
 aliases: value-types
-projection_coverage: recipe-javascriptallonge-recipe-value-types@5c421befb4dd43a03f39445e1e33047d
+projection_coverage: recipe-javascriptallonge-recipe-value-types@1ac22c69bba3b69e62d58c88f324ed86
 ---
 
 # value types
@@ -18,7 +18,7 @@ From [[javascriptallonge]].
 
 ## Pattern
 
-- Use the source-backed pattern described in [[javascriptallonge-section-value-types-67ccb447]].
+- Use the source-backed pattern described in [[javascriptallonge-section-prelude-values-and-expressions-over-coffee-values-are-expressions-value-types-cb5b0b74]].
 - Evidence roles: decision, example, structured-state.
 
 ## Applicability And Rationale
@@ -46,4 +46,4 @@ _Source: javascriptallonge.pdf (source-range-c98ab3e6-00123)_
 ## Source Trail
 
 - Source manifest: [[javascriptallonge]]
-- Source section: [[javascriptallonge-section-value-types-67ccb447]]
+- Source section: [[javascriptallonge-section-prelude-values-and-expressions-over-coffee-values-are-expressions-value-types-cb5b0b74]]

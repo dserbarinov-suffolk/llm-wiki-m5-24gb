@@ -1,5 +1,6 @@
 from llmwiki.domain.ledger.segments import SourceSegment
 from llmwiki.domain.ledger.structure_build import build_structure
+from llmwiki.pdf.document import SourceUnitBlock
 
 
 def _segment(order: int, text: str, kind: str = "heading") -> SourceSegment:
@@ -14,6 +15,31 @@ def _segment(order: int, text: str, kind: str = "heading") -> SourceSegment:
         text=text,
         segment_kind=kind,
         evidence_ids=(f"ev-{order}",),
+    )
+
+
+def _structured_heading(order: int, text: str, heading_level: int) -> SourceSegment:
+    block = SourceUnitBlock(
+        element_id=f"element-{order}",
+        block_kind="heading",
+        heading_path=text,
+        page_start=order,
+        page_end=order,
+        text=text,
+        heading_level=heading_level,
+    )
+    return SourceSegment(
+        segment_id=f"seg-{order}",
+        source_range_id=f"range-{order}",
+        source_locator="synthetic.pdf",
+        source_hash="abc",
+        heading_path=text,
+        structure_node_id="",
+        source_order=order,
+        text=f"# {text}",
+        segment_kind="heading",
+        evidence_ids=(f"ev-{order}",),
+        source_blocks=(block,),
     )
 
 
@@ -69,3 +95,22 @@ def test_structure_build_uses_source_numbering_when_heading_depth_is_flat() -> N
     assert first.parent_structure_node_id == parent.structure_node_id
     assert second.parent_structure_node_id == parent.structure_node_id
     assert other.parent_structure_node_id != parent.structure_node_id
+
+
+def test_structure_build_prefers_structured_heading_depth_over_markdown_depth() -> None:
+    plan = build_structure(
+        "abc",
+        "synthetic.pdf",
+        (
+            _structured_heading(1, "Parent", 1),
+            _structured_heading(2, "Child", 2),
+            _segment(3, "Child body", "paragraph"),
+        ),
+    )
+
+    parent = next(node for node in plan.nodes if node.heading_text == "Parent")
+    child = next(node for node in plan.nodes if node.heading_text == "Child")
+
+    assert child.parent_structure_node_id == parent.structure_node_id
+    assert child.depth == 2
+    assert child.structure_node_kind == "section"

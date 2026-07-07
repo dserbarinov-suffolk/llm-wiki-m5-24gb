@@ -197,6 +197,7 @@ class TestTopicPlanning:
         pages = build_section_pages(
             result.ledger,
             result.document_structure,
+            section_plan=build_section_grounded_plan(result.ledger, result.document_structure),
             source_page_id="book",
             source_locator="book.pdf",
             today="2026-06-26",
@@ -230,6 +231,7 @@ class TestTopicPlanning:
         pages = build_section_pages(
             result.ledger,
             result.document_structure,
+            section_plan=build_section_grounded_plan(result.ledger, result.document_structure),
             source_page_id="book",
             source_locator="book.pdf",
             today="2026-06-26",
@@ -265,6 +267,7 @@ class TestTopicPlanning:
         pages = build_section_pages(
             result.ledger,
             result.document_structure,
+            section_plan=build_section_grounded_plan(result.ledger, result.document_structure),
             source_page_id="sample-source",
             source_locator="book.pdf",
             today="2026-06-26",
@@ -370,6 +373,7 @@ class TestTopicRender:
         pages = build_section_pages(
             result.ledger,
             result.document_structure,
+            section_plan=build_section_grounded_plan(result.ledger, result.document_structure),
             source_page_id="book",
             source_locator="book.pdf",
             today="2026-06-26",
@@ -391,6 +395,7 @@ class TestTopicRender:
         pages = build_section_pages(
             result.ledger,
             result.document_structure,
+            section_plan=build_section_grounded_plan(result.ledger, result.document_structure),
             source_page_id="book",
             source_locator="book.pdf",
             today="2026-06-26",

@@ -8,7 +8,7 @@ updated: 2026-07-07
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-5-1-12-ancient-magic-list-dispel-magic-753f77b2@009a8f244a6927e7feed2db688553275
+projection_coverage: section-sword-world-rpg-complete-edition-section-5-1-12-ancient-magic-list-dispel-magic-753f77b2@9fe804d52f0c561a4a4e09b31bb5ffba
 ---
 
 # 5.1.12 Ancient Magic List / [ Dispel Magic ]
@@ -19,7 +19,6 @@ From [[sword-world-rpg-complete-edition]].
 
 ### Source order
 
-- [[sword-world-rpg-complete-edition-section-5-1-12-ancient-magic-list-decrease-weight-base-mental-power-cost-3-distance-10-meters-area-one-o-e5c45908]] - previous source section: 5.1.12 Ancient Magic List / [ Decrease Weight ] Base Mental Power Cost=3 Distance=10 meters Area=One object Duration=18 rounds Effect=Reduce the weight of an object Type=Lost Counters (Negates): Increase Weight Countered (Negated) By: Increase Weight Expansion=Duration, distance, targets, effect (see description)
 - [[sword-world-rpg-complete-edition-section-5-1-12-ancient-magic-list-kindle-efd88360]] - next source section: 5.1.12 Ancient Magic List / [ Kindle ]
 
 ### Source structure

@@ -7,7 +7,7 @@ sources: raw/javascriptallonge.pdf
 updated: 2026-07-07
 domain: javascriptallonge
 category_path: concepts
-projection_coverage: topic-javascriptallonge-solution@92f61c5f3de3bfc1f4d4eefacb660f6f
+projection_coverage: topic-javascriptallonge-solution@c13225eb87f662d94270ff00651836ac
 ---
 
 # Solution
@@ -16,22 +16,22 @@ What [[javascriptallonge]] covers about solution:
 
 ## Statements
 
-### linear recursion
+### Composing and Decomposing Data / Self-Similarity / linear recursion
 
 - Once again, the solution directly displays the important elements: Dividing a problem into subproblems, detecting terminal cases, solving the terminal cases, and composing a solution from the solved portions. _(javascriptallonge.pdf (source-range-c98ab3e6-00903))_
 
-### converting non-tail-calls to tail-calls
+### Composing and Decomposing Data / Tail Calls (and Default Arguments) / converting non-tail-calls to tail-calls
 
 - The obvious solution is push the 1 + work into the call to length . Here's our first cut: _(javascriptallonge.pdf (source-range-c98ab3e6-00958))_
 
-### the aftermath
+### Interlude: The Carpenter Interviews for a Job / the aftermath
 
 - The Carpenter sat down and waited. This type of solution provided an excellent opportunity to explore lazy versus eager evaluation, the performance of iterators versus native iteration, single responsibility design, and many other rich topics. _(javascriptallonge.pdf (source-range-c98ab3e6-01821))_
 
 
 ## Technical atoms
 
-### Technical frame 1: converting non-tail-calls to tail-calls
+### Technical frame 1: Composing and Decomposing Data / Tail Calls (and Default Arguments) / converting non-tail-calls to tail-calls
 
 **Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-00960))_
 
@@ -54,8 +54,9 @@ lengthDelaysWork(["foo", "bar", "baz"], 0)
 
 ### Shared claims
 
-- [[javascriptallonge-element]] - shared statements: Element shares source evidence from linear recursion: Once again, the solution directly displays the important elements: Dividing a problem into subproblems, detecting terminal cases, solving the terminal cases, and com ... [truncated] (1 shared statement(s))
-- [[javascriptallonge-type]] - shared statements: Type shares source evidence from the aftermath: The Carpenter sat down and waited. This type of solution provided an excellent opportunity to explore lazy versus eager evaluation, the performance of iterators vers ... [truncated] (1 shared statement(s))
+- [[javascriptallonge-composing]] - shared statements: Composing shares source evidence from Composing and Decomposing Data / Self-Similarity / linear recursion: Once again, the solution directly displays the important elements: Dividing a problem into subproblems, detecting terminal cases, solving the terminal cases, and com ... [truncated] (1 shared statement(s))
+- [[javascriptallonge-element]] - shared statements: Element shares source evidence from Composing and Decomposing Data / Self-Similarity / linear recursion: Once again, the solution directly displays the important elements: Dividing a problem into subproblems, detecting terminal cases, solving the terminal cases, and com ... [truncated] (1 shared statement(s))
+- [[javascriptallonge-type]] - shared statements: Type shares source evidence from Interlude: The Carpenter Interviews for a Job / the aftermath: The Carpenter sat down and waited. This type of solution provided an excellent opportunity to explore lazy versus eager evaluation, the performance of iterators vers ... [truncated] (1 shared statement(s))
 
 ## Source
 

@@ -8,18 +8,12 @@ updated: 2026-07-07
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-what-is-a-role-playing-game-rpg-4a73a121@dd15c755e433104cdc771425a1a04def
+projection_coverage: section-sword-world-rpg-complete-edition-section-what-is-a-role-playing-game-rpg-4a73a121@78e8e5eb7de8f82fba54ca4c12f567f8
 ---
 
 # What is a Role-Playing Game (RPG)?
 
 From [[sword-world-rpg-complete-edition]].
-
-## Related pages
-
-### Source order
-
-- [[sword-world-rpg-complete-edition-section-the-meaning-of-the-rulebook-454a651d]] - next source section: The Meaning of the Rulebook
 
 ## Statements
 

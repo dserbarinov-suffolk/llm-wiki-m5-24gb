@@ -9,7 +9,7 @@ domain: javascriptallonge
 category_path: recipes/javascriptallonge
 source_id: javascriptallonge.pdf
 aliases: how-to-run-the-examples
-projection_coverage: recipe-javascriptallonge-recipe-how-to-run-the-examples@25314a99c80029b8d90731bf135b3e8a
+projection_coverage: recipe-javascriptallonge-recipe-how-to-run-the-examples@0185a81f0e367693a0e8912508f65ca6
 ---
 
 # How to run the examples
@@ -18,7 +18,7 @@ From [[javascriptallonge]].
 
 ## Pattern
 
-- Use the source-backed pattern described in [[javascriptallonge-section-how-to-run-the-examples-1de273e5]].
+- Use the source-backed pattern described in [[javascriptallonge-section-the-golden-crema-appendices-and-afterwords-how-to-run-the-examples-b92670cf]].
 - Evidence roles: decision, procedure, explanation, constraint, example, structured-state.
 
 ## Applicability And Rationale
@@ -117,4 +117,4 @@ console.log(
 ## Source Trail
 
 - Source manifest: [[javascriptallonge]]
-- Source section: [[javascriptallonge-section-how-to-run-the-examples-1de273e5]]
+- Source section: [[javascriptallonge-section-the-golden-crema-appendices-and-afterwords-how-to-run-the-examples-b92670cf]]

@@ -8,7 +8,7 @@ updated: 2026-07-07
 domain: javascriptallonge
 category_path: sources/javascriptallonge/sections
 source_id: javascriptallonge.pdf
-projection_coverage: section-javascriptallonge-section-reassignment-c80c0ca4@5b231b6454f0b1c6b9aa392905cfcd12
+projection_coverage: section-javascriptallonge-section-reassignment-c80c0ca4@af387482a7ca87be4e75f3affae5c046
 ---
 
 # Reassignment
@@ -19,8 +19,13 @@ From [[javascriptallonge]].
 
 ### Source order
 
-- [[javascriptallonge-section-building-with-mutation-616d4b06]] - previous source section: building with mutation
-- [[javascriptallonge-section-mixing-let-and-const-485aff44]] - next source section: mixing let and const
+- [[javascriptallonge-section-mutation-ae8039d8]] - previous source section: Mutation
+- [[javascriptallonge-section-yes-consider-this-variation-af64fdfd]] - next source section: Yes. Consider this variation:
+
+### Source structure
+
+- [[javascriptallonge-section-reassignment-mixing-let-and-const-0dde966f]] - narrower source section: Reassignment / mixing let and const
+- [[javascriptallonge-section-reassignment-why-const-and-let-were-invented-cf53c7fd]] - narrower source section: Reassignment / why const and let were invented
 
 ## Statements
 

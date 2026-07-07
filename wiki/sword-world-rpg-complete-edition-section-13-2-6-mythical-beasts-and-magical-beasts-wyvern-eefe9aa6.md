@@ -8,7 +8,7 @@ updated: 2026-07-07
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-13-2-6-mythical-beasts-and-magical-beasts-wyvern-eefe9aa6@e7b1d24ffc35fd95290cad01fddb0297
+projection_coverage: section-sword-world-rpg-complete-edition-section-13-2-6-mythical-beasts-and-magical-beasts-wyvern-eefe9aa6@1d3338243c7a33ef3a05190603687ea7
 ---
 
 # 13.2.6 Mythical Beasts and Magical Beasts / [ Wyvern ]
@@ -19,7 +19,6 @@ From [[sword-world-rpg-complete-edition]].
 
 ### Source order
 
-- [[sword-world-rpg-complete-edition-section-13-2-6-mythical-beasts-and-magical-beasts-sphinx-monster-level-7-rarity-12-agility-14-movement-s-574845e1]] - previous source section: 13.2.6 Mythical Beasts and Magical Beasts / [ Sphinx ] Monster Level=7 Rarity=12 Agility=14 Movement Speed=18/30 (air) Number=One Frequency=Very Rare Intellect=High Reaction=Neutral Attack Points=Claw:15 (8)/Claw:15 (8) Strike Points=16/16 Evasion Points=14 (7) Defense Points=11 Life Points/Resistance=24/17 (10) Mental Points/Resistance=20/16 (9) Special Abilities=5th level ancient magic (Magic Intensity/Magic Power=15/8) Tell riddles Not affected by poison and illness Sleepless Habitat=Ruins, underground labyrinths Languages=Regional, low ancient
 - [[sword-world-rpg-complete-edition-section-13-2-6-mythical-beasts-and-magical-beasts-basilisk-c286cdcf]] - next source section: 13.2.6 Mythical Beasts and Magical Beasts / [ Basilisk ]
 
 ### Source structure

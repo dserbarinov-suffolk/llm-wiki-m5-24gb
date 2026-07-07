@@ -8,7 +8,7 @@ updated: 2026-07-07
 domain: javascriptallonge
 category_path: sources/javascriptallonge/sections
 source_id: javascriptallonge.pdf
-projection_coverage: section-javascriptallonge-section-yes-consider-this-variation-af64fdfd@0089a79bd6e4d8f301b7cd0116d9d660
+projection_coverage: section-javascriptallonge-section-yes-consider-this-variation-af64fdfd@946f53cd5ae23942a29fbd6b5eec4c66
 ---
 
 # Yes. Consider this variation:
@@ -19,7 +19,7 @@ From [[javascriptallonge]].
 
 ### Source order
 
-- [[javascriptallonge-section-why-const-and-let-were-invented-218b7467]] - previous source section: why const and let were invented
+- [[javascriptallonge-section-reassignment-c80c0ca4]] - previous source section: Reassignment
 - [[javascriptallonge-section-copy-on-write-d081f846]] - next source section: Copy on Write
 
 ## Statements

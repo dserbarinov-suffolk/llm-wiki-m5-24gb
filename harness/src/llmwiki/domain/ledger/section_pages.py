@@ -29,6 +29,7 @@ from llmwiki.domain.ledger.section_navigation import (
     section_title,
 )
 from llmwiki.domain.ledger.section_page_atoms import atoms_for_section_entries
+from llmwiki.domain.ledger.section_planning import SectionGroundedPlan
 from llmwiki.domain.ledger.structure import DocumentStructure, StructureNode
 from llmwiki.domain.ledger.topic_models import SourceTopic
 from llmwiki.domain.ledger.topic_relations import RelatedTopicLink
@@ -56,13 +57,14 @@ def build_section_pages(
     ledger: ClaimLedger,
     structure: DocumentStructure,
     *,
+    section_plan: SectionGroundedPlan,
     source_page_id: str,
     source_locator: str,
     today: str,
     topics: tuple[SourceTopic, ...] = (),
     projection_context: ProjectionContext | None = None,
 ) -> tuple[WikiPage, ...]:
-    projections = _section_projections(ledger, structure, source_page_id)
+    projections = _section_projections(ledger, structure, source_page_id, section_plan)
     by_node = {projection.node.structure_node_id: projection.page_ref for projection in projections}
     same_topic = nodes_by_topic_key(tuple(projection.node for projection in projections))
     topic_page_ids = {
@@ -138,13 +140,28 @@ def _body(
 
 
 def _section_projections(
-    ledger: ClaimLedger, structure: DocumentStructure, source_page_id: str
+    ledger: ClaimLedger,
+    structure: DocumentStructure,
+    source_page_id: str,
+    section_plan: SectionGroundedPlan,
 ) -> tuple[_SectionProjection, ...]:
     projections: list[_SectionProjection] = []
-    for node in _section_nodes(structure):
-        rollup_entries = _entries_for_node(ledger, node.structure_node_id)
+    promoted_node_ids = tuple(
+        dict.fromkeys(
+            target.structure_node_id for target in section_plan.page_targets if target.page_promoted
+        )
+    )
+    promoted_node_id_set = frozenset(promoted_node_ids)
+    for node in _promoted_section_nodes(structure, promoted_node_ids):
+        rollup_entries = _entries_for_promoted_node(
+            ledger, node.structure_node_id, promoted_node_id_set
+        )
         atoms = atoms_for_section_entries(ledger, rollup_entries, structure, node)
-        if not rollup_entries and not atoms:
+        if (
+            not rollup_entries
+            and not atoms
+            and not _has_promoted_descendant(structure, node, promoted_node_id_set)
+        ):
             continue
         projections.append(
             _SectionProjection(
@@ -159,11 +176,14 @@ def _section_projections(
     return tuple(projections)
 
 
-def _section_nodes(structure: DocumentStructure) -> tuple[StructureNode, ...]:
+def _promoted_section_nodes(
+    structure: DocumentStructure, promoted_node_ids: tuple[str, ...]
+) -> tuple[StructureNode, ...]:
+    promoted = set(promoted_node_ids)
     return tuple(
         node
         for node in sorted(structure.structure_nodes, key=lambda item: item.source_order)
-        if node.structure_node_kind in _SECTION_NODE_KINDS
+        if node.structure_node_kind in _SECTION_NODE_KINDS and node.structure_node_id in promoted
     )
 
 
@@ -259,4 +279,35 @@ def _entries_for_node(ledger: ClaimLedger, node_id: str) -> tuple[LedgerEntry, .
         for entry in ledger.usable_entries
         if node_id in entry.structure_node_ids
         and (entry.normalized_text or entry.source_text or entry.technical_atom_id)
+    )
+
+
+def _entries_for_promoted_node(
+    ledger: ClaimLedger,
+    node_id: str,
+    promoted_node_ids: frozenset[str],
+) -> tuple[LedgerEntry, ...]:
+    return tuple(
+        entry
+        for entry in ledger.usable_entries
+        if _owning_promoted_node_id(entry.structure_node_ids, promoted_node_ids) == node_id
+        and (entry.normalized_text or entry.source_text or entry.technical_atom_id)
+    )
+
+
+def _owning_promoted_node_id(
+    entry_node_ids: tuple[str, ...], promoted_node_ids: frozenset[str]
+) -> str:
+    for candidate in entry_node_ids:
+        if candidate in promoted_node_ids:
+            return candidate
+    return ""
+
+
+def _has_promoted_descendant(
+    structure: DocumentStructure, node: StructureNode, promoted_node_ids: frozenset[str]
+) -> bool:
+    return any(
+        descendant.structure_node_id in promoted_node_ids
+        for descendant in structure.descendants(node.structure_node_id)
     )

@@ -9,7 +9,7 @@ domain: javascriptallonge
 category_path: recipes/javascriptallonge
 source_id: javascriptallonge.pdf
 aliases: javascript-s-generators
-projection_coverage: recipe-javascriptallonge-recipe-javascript-s-generators@8d1cfa923856d2d81820289c1a893004
+projection_coverage: recipe-javascriptallonge-recipe-javascript-s-generators@5b8d30bf0adbfbf9dcdcf8fa1a7e6dff
 ---
 
 # javascript's generators
@@ -18,7 +18,7 @@ From [[javascriptallonge]].
 
 ## Pattern
 
-- Use the source-backed pattern described in [[javascriptallonge-section-javascript-s-generators-34e25b0e]].
+- Use the source-backed pattern described in [[javascriptallonge-section-served-by-the-pot-collections-generating-iterables-javascript-s-generators-60a99d41]].
 - Evidence roles: decision, constraint, explanation, example, structured-state.
 
 ## Applicability And Rationale
@@ -86,4 +86,4 @@ sixteen.next()
 ## Source Trail
 
 - Source manifest: [[javascriptallonge]]
-- Source section: [[javascriptallonge-section-javascript-s-generators-34e25b0e]]
+- Source section: [[javascriptallonge-section-served-by-the-pot-collections-generating-iterables-javascript-s-generators-60a99d41]]

@@ -9,7 +9,7 @@ domain: javascriptallonge
 category_path: recipes/javascriptallonge
 source_id: javascriptallonge.pdf
 aliases: a-look-back-at-functional-iterators
-projection_coverage: recipe-javascriptallonge-recipe-a-look-back-at-functional-iterators@8d3c5c57a4f64328d11d9f04a09b5b9a
+projection_coverage: recipe-javascriptallonge-recipe-a-look-back-at-functional-iterators@4e0929b92b0440f9e919a2cdaa2121c9
 ---
 
 # a look back at functional iterators
@@ -18,7 +18,7 @@ From [[javascriptallonge]].
 
 ## Pattern
 
-- Use the source-backed pattern described in [[javascriptallonge-section-a-look-back-at-functional-iterators-25c41647]].
+- Use the source-backed pattern described in [[javascriptallonge-section-served-by-the-pot-collections-iteration-and-iterables-a-look-back-at-functional-iterators-57a76f01]].
 - Evidence roles: decision, constraint, procedure, example.
 
 ## Applicability And Rationale
@@ -152,4 +152,4 @@ collectionSum(stack)
 ## Source Trail
 
 - Source manifest: [[javascriptallonge]]
-- Source section: [[javascriptallonge-section-a-look-back-at-functional-iterators-25c41647]]
+- Source section: [[javascriptallonge-section-served-by-the-pot-collections-iteration-and-iterables-a-look-back-at-functional-iterators-57a76f01]]

@@ -7,7 +7,7 @@ sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-07
 domain: sword-world-rpg-complete-edition
 category_path: concepts
-projection_coverage: topic-sword-world-rpg-complete-edition-ranger-skill@d1762853993dd7a6ceb706ba9ec8c5c3
+projection_coverage: topic-sword-world-rpg-complete-edition-ranger-skill@ca8e559c6b727f2142180b46472a11d7
 ---
 
 # 【 Ranger Skill 】
@@ -16,7 +16,7 @@ What [[sword-world-rpg-complete-edition]] covers about 【 ranger skill 】:
 
 ## Statements
 
-### 1.4 Character Creation / [ Sage, Bard, Priest ]
+### 1.4 Character Creation / 1.4.7 Restrictions on Weapons and Armor Based on Skill / [ Sage, Bard, Priest ]
 
 - Ducard II has 2 levels in the fighter skill and 1 level in the ranger skill. There are no restrictions on either skill when choosing a weapon. Ranger has an advantage in projectiles, but this is consequently irrelevant because of the higher level of the can use any weapon fighter. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-00798))_
 
@@ -30,7 +30,7 @@ What [[sword-world-rpg-complete-edition]] covers about 【 ranger skill 】:
 
 - Let's say Ducard II is attempting to unlock a door. The two skills he has-fighter and ranger skill --do not have the ability lockpicking . This means that Ducard II does not have a skill associated with picking locks. In this case, his dexterity bonus (+2) has no effect and his baseline score is 0 . _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-00932))_
 
-### 3.4.4 Actions You Can Take While Standing Still / 【 Ranger Skill 】
+### Chapter 3: / 3.4.4 Actions You Can Take While Standing Still / Projectile Restrictions / 【 Ranger Skill 】
 
 - The ranger skill is proficient with projectiles, and only when using a weapon that is designated as suchthrowable , made for throwing , or shooting on Table 1-8: Weapons (see p. 21) - can they fight as well as a fighter when attacking. There is no ability to attack with melee weapons. Weapons that can be used for both melee and throwing, as indicated by throwable on the Weapons table, are useful only when used for throwing, not for melee. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01171))_
 
@@ -38,15 +38,15 @@ What [[sword-world-rpg-complete-edition]] covers about 【 ranger skill 】:
 
 - method, and can only move up to 3 meters in 1 round . _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01173))_
 
-### 3.4.4 Actions You Can Take While Standing Still / 【 Attack Power 】
+### Chapter 3: / 3.4.4 Actions You Can Take While Standing Still / Scores Used in Weapon Combat / 【 Attack Power 】
 
 - If fighter (or thief, ranger) skill level is 0 , then attack power is 0 regardless of the character's dexterity bonus. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01183))_
 
-### 3.4.4 Actions You Can Take While Standing Still / 【 Bonus Damage 】
+### Chapter 3: / 3.4.4 Actions You Can Take While Standing Still / Scores Used in Weapon Combat / 【 Bonus Damage 】
 
 - If fighter (or thief, ranger) skill level is 0 , bonus damage is 0 regardless of the character's strength bonus. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01193))_
 
-### 4.5.1 Hit Checks
+### Chapter 3: / 3.4.4 Actions You Can Take While Standing Still / Attacks From Characters Against Monsters / 4.5.1 Hit Checks
 
 - In other words, you roll 2D and add the result to your attack power (fighter/thief/ranger skill level + dexterity bonus) in order to meet or exceed a certain target score. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01224))_
 
@@ -54,7 +54,7 @@ What [[sword-world-rpg-complete-edition]] covers about 【 ranger skill 】:
 
 - Chain mail made of mithril silver does not inhibit bodily movement as much as that made of steel (but splint armor, lamellar armor, and plate armor still do ). Mithril silver chain mail does not interfere with the thief or ranger skills. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01469))_
 
-### 4.11.2 First-Aid
+### 4.10 Excellent Weapons and Armor / 4.10.4 Mithril Silver Weapons and Armor / Damage Recovery / 4.11.2 First-Aid
 
 - A character with 0 or negative life force will recover up to 1 (positive) point if given treatment by someone with the ranger skill, healer skill, or similar. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01491))_
 
@@ -156,7 +156,7 @@ What [[sword-world-rpg-complete-edition]] covers about 【 ranger skill 】:
 
 ## Technical atoms
 
-### Technical frame 1: 3.4.4 Actions You Can Take While Standing Still / 【 Ranger Skill 】
+### Technical frame 1: Chapter 3: / 3.4.4 Actions You Can Take While Standing Still / Projectile Restrictions / 【 Ranger Skill 】
 
 **Context:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01172))_
 
@@ -276,23 +276,25 @@ Table 10-2: Surprise Attack Check
 ### Source structure
 
 - [[sword-world-rpg-complete-edition-section-chapter-6-6-3-ranger-skill-7ca8676b]] - source section: Chapter 6: / 6.3 Ranger Skill shares source evidence from Chapter 6: / 6.3 Ranger Skill: Owners of the ranger skill demonstrate a variety of abilities in outdoor activities, as explained below.; Chapter 6: / 6.3 Ranger Skill shares technical record from Chapter 6: / 6.3 Ranger Skill / [ ④ Listen [Intelligence] ] (Equipment restriction): For example, when you walk through a ravine and see a pebble fall, you may feel like a landslide is about to occur, or you may feel an arrow flying from the darkness. (48 shared statement(s), 11 shared atom(s))
-- [[sword-world-rpg-complete-edition-section-3-4-4-actions-you-can-take-while-standing-still-ranger-skill-ef85aba2]] - source section: 3.4.4 Actions You Can Take While Standing Still / 【 Ranger Skill 】 shares source evidence from 3.4.4 Actions You Can Take While Standing Still / 【 Ranger Skill 】: The ranger skill is proficient with projectiles, and only when using a weapon that is designated as suchthrowable , made for throwing , or shooting on Table 1-8: Wea ... [truncated]; 3.4.4 Actions You Can Take While Standing Still / 【 Ranger Skill 】 shares technical record from 3.4.4 Actions You Can Take While Standing Still / 【 Ranger Skill 】: Weapons that can be used for both melee and throwing, as indicated by throwable on the Weapons table, are useful only when used for throwing, not for melee. (5 shared statement(s), 1 shared atom(s))
+- [[sword-world-rpg-complete-edition-section-chapter-3-3-4-4-actions-you-can-take-while-standing-still-projectile-restrictions-ranger-skill-0d022727]] - source section: Chapter 3: / 3.4.4 Actions You Can Take While Standing Still / Projectile Restrictions / 【 Ranger Skill 】 shares source evidence from Chapter 3: / 3.4.4 Actions You Can Take While Standing Still / Projectile Restrictions / 【 Ranger Skill 】: The ranger skill is proficient with projectiles, and only when using a weapon that is designated as suchthrowable , made for throwing , or shooting on Table 1-8: Wea ... [truncated]; Chapter 3: / 3.4.4 Actions You Can Take While Standing Still / Projectile Restrictions / 【 Ranger Skill 】 shares technical record from Chapter 3: / 3.4.4 Actions You Can Take While Standing Still / Projectile Restrictions / 【 Ranger Skill 】: Weapons that can be used for both melee and throwing, as indicated by throwable on the Weapons table, are useful only when used for throwing, not for melee. (5 shared statement(s), 1 shared atom(s))
 
 ### Shared technical atoms
 
+- [[sword-world-rpg-complete-edition-attack-character-monster]] - shared statements and technical atoms: Attacks From Characters Against Monsters shares source evidence from Chapter 3: / 3.4.4 Actions You Can Take While Standing Still / Scores Used in Weapon Combat / 【 Attack Power 】: If fighter (or thief, ranger) skill level is 0 , then attack power is 0 regardless of the character's dexterity bonus.; Attacks From Characters Against Monsters shares technical record from Table 10-2: Surprise Attack Check: Table 10-2: Surprise Attack Check included Table 10-2: Surprise Attack Intelligence                                  Monster    Adventurer Check as a reference. The ... [truncated] (4 shared statement(s), 1 shared atom(s))
 - [[sword-world-rpg-complete-edition-listen-intelligence-equipment-restriction]] - shared statements and technical atoms: [ ⑤ Listen [Intelligence] ] (Equipment restriction) shares source evidence from Chapter 6: / 6.3 Ranger Skill / [ ④ Listen [Intelligence] ] (Equipment restriction): Rangers can listen to even the smallest sounds and can choose the sound they want to hear from a wide range of sounds. This is handed the same way as the thief's ability.; [ ⑤ Listen [Intelligence] ] (Equipment restriction) shares technical record from Chapter 6: / 6.3 Ranger Skill / [ ④ Listen [Intelligence] ] (Equipment restriction): For example, when you walk through a ravine and see a pebble fall, you may feel like a landslide is about to occur, or you may feel an arrow flying from the darkness. (4 shared statement(s), 1 shared atom(s))
 - [[sword-world-rpg-complete-edition-adventurer-level]] - shared statements and technical atoms: 1.3.3 Adventurer Level shares source evidence from 10.3 Surprise Attacks: When encountering a monster, one of you may notice the other without them noticing you, allowing you to perform a surprise attack . This should also be determined by ... [truncated]; 1.3.3 Adventurer Level shares technical record from Table 10-2: Surprise Attack Check: Table 10-2: Surprise Attack Check included Table 10-2: Surprise Attack Intelligence                                  Monster    Adventurer Check as a reference. The ... [truncated] (3 shared statement(s), 1 shared atom(s))
+- [[sword-world-rpg-complete-edition-attack-monster-character]] - shared statements and technical atoms: Attacks From Monsters Against Characters shares source evidence from Chapter 3: / 3.4.4 Actions You Can Take While Standing Still / Scores Used in Weapon Combat / 【 Attack Power 】: If fighter (or thief, ranger) skill level is 0 , then attack power is 0 regardless of the character's dexterity bonus.; Attacks From Monsters Against Characters shares technical record from Table 10-2: Surprise Attack Check: Table 10-2: Surprise Attack Check included Table 10-2: Surprise Attack Intelligence                                  Monster    Adventurer Check as a reference. The ... [truncated] (3 shared statement(s), 1 shared atom(s))
 - [[sword-world-rpg-complete-edition-search-intelligence-equipment-restriction-not-retriable]] - shared statements and technical atoms: [ ⑨ Search [Intelligence] ] (No equipment restriction, not retriable) shares source evidence from Chapter 6: / 6.3 Ranger Skill / [ ⑧ Search [Intelligence] ] (No equipment restriction, not retriable): This is the ability to search for hidden things. The game master should determine the difficulty depending on what's hidden. Since it's an ability that relies on fee ... [truncated]; [ ⑨ Search [Intelligence] ] (No equipment restriction, not retriable) shares technical record from Chapter 6: / 6.3 Ranger Skill / [ ⑧ Search [Intelligence] ] (No equipment restriction, not retriable): The game master should determine the difficulty depending on what's hidden. (2 shared statement(s), 1 shared atom(s))
-- [[sword-world-rpg-complete-edition-plant]] - shared technical atoms: Plant shares technical record from Chapter 6: / 6.3 Ranger Skill / [ ⑪ Plant and Animal Check [Intelligence] ] (No equipment restriction, not retriable): In other cases (such as searching for herbs), the game master should determine a target score for the check. (1 shared atom(s))
 
 ### Shared claims
 
-- [[sword-world-rpg-complete-edition-target-score]] - shared statements: Target Scores shares source evidence from 4.5.1 Hit Checks: In other words, you roll 2D and add the result to your attack power (fighter/thief/ranger skill level + dexterity bonus) in order to meet or exceed a certain target score. (9 shared statement(s))
-- [[sword-world-rpg-complete-edition-bonus-damage]] - shared statements: 【 Bonus Damage 】 shares source evidence from 3.4.4 Actions You Can Take While Standing Still / 【 Bonus Damage 】: If fighter (or thief, ranger) skill level is 0 , bonus damage is 0 regardless of the character's strength bonus. (4 shared statement(s))
+- [[sword-world-rpg-complete-edition-thief-skill]] - shared statements: 【 Thief Skill 】 shares source evidence from Chapter 3: / 3.4.4 Actions You Can Take While Standing Still / Scores Used in Weapon Combat / 【 Attack Power 】: If fighter (or thief, ranger) skill level is 0 , then attack power is 0 regardless of the character's dexterity bonus. (13 shared statement(s))
+- [[sword-world-rpg-complete-edition-target-score]] - shared statements: Target Scores shares source evidence from Chapter 3: / 3.4.4 Actions You Can Take While Standing Still / Attacks From Characters Against Monsters / 4.5.1 Hit Checks: In other words, you roll 2D and add the result to your attack power (fighter/thief/ranger skill level + dexterity bonus) in order to meet or exceed a certain target score. (9 shared statement(s))
+- [[sword-world-rpg-complete-edition-bonus-damage]] - shared statements: 【 Bonus Damage 】 shares source evidence from Chapter 3: / 3.4.4 Actions You Can Take While Standing Still / Scores Used in Weapon Combat / 【 Bonus Damage 】: If fighter (or thief, ranger) skill level is 0 , bonus damage is 0 regardless of the character's strength bonus. (4 shared statement(s))
 - [[sword-world-rpg-complete-edition-sage-skill]] - shared statements: Sage Skill shares source evidence from Chapter 6: / 6.3 Ranger Skill / [ ⑭ Surprise Attack [Intelligence]] (No equipment restriction): The sage skill represents a comprehensive understanding and depth of knowledge in all academic fields. Academic fields in Sword World are undifferentiated, and owner ... [truncated] (2 shared statement(s))
 - [[sword-world-rpg-complete-edition-10-mithril-silver-weapon]] - shared statements: 10 Mithril Silver Weapon shares source evidence from 4.10 Excellent Weapons and Armor / 4.10.4 Mithril Silver Weapons and Armor: Chain mail made of mithril silver does not inhibit bodily movement as much as that made of steel (but splint armor, lamellar armor, and plate armor still do ). Mithr ... [truncated] (1 shared statement(s))
 - [[sword-world-rpg-complete-edition-adventurer-skill]] - shared statements: Adventurer Skill shares source evidence from Chapter 7: / 7.1 Notes on General Skills / The Difference Between General Skills and Adventurer Skills: The reason for this is that the hunter skill is a general skill, while the ranger skill is, as precisely called, an adventurer skill. (1 shared statement(s))
-- [[sword-world-rpg-complete-edition-hit-check]] - shared statements: 4.5.1 Hit Checks shares source evidence from 4.5.1 Hit Checks: In other words, you roll 2D and add the result to your attack power (fighter/thief/ranger skill level + dexterity bonus) in order to meet or exceed a certain target score. (1 shared statement(s))
+- [[sword-world-rpg-complete-edition-hit-check]] - shared statements: 4.5.1 Hit Checks shares source evidence from Chapter 3: / 3.4.4 Actions You Can Take While Standing Still / Attacks From Characters Against Monsters / 4.5.1 Hit Checks: In other words, you roll 2D and add the result to your attack power (fighter/thief/ranger skill level + dexterity bonus) in order to meet or exceed a certain target score. (1 shared statement(s))
 
 ## Source
 

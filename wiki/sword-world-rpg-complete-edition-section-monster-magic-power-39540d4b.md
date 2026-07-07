@@ -8,7 +8,7 @@ updated: 2026-07-07
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-monster-magic-power-39540d4b@49261464a18bc28e3b60a40672b468b8
+projection_coverage: section-sword-world-rpg-complete-edition-section-monster-magic-power-39540d4b@db828b1d330b94dbdb56ebf22161c4a8
 ---
 
 # Monster Magic Power
@@ -19,7 +19,6 @@ From [[sword-world-rpg-complete-edition]].
 
 ### Source order
 
-- [[sword-world-rpg-complete-edition-section-chapter-17-e3cea10f]] - previous source section: Chapter 17:
 - [[sword-world-rpg-complete-edition-section-monster-resistance-5ab8578a]] - next source section: Monster Resistance
 
 ## Statements

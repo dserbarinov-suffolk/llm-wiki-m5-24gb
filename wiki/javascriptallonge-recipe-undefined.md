@@ -9,7 +9,7 @@ domain: javascriptallonge
 category_path: recipes/javascriptallonge
 source_id: javascriptallonge.pdf
 aliases: undefined
-projection_coverage: recipe-javascriptallonge-recipe-undefined@5bf100b907ee70f2805d78482b50e1ad
+projection_coverage: recipe-javascriptallonge-recipe-undefined@604c326529af6fe71934be63b5cfc0aa
 ---
 
 # undefined
@@ -18,7 +18,7 @@ From [[javascriptallonge]].
 
 ## Pattern
 
-- Use the source-backed pattern described in [[javascriptallonge-section-undefined-9b5a2e81]].
+- Use the source-backed pattern described in [[javascriptallonge-section-or-even-the-simplest-possible-block-undefined-d76b1338]].
 - Evidence roles: decision, definition, explanation, constraint, example.
 
 ## Applicability And Rationale
@@ -64,4 +64,4 @@ undefined === undefined
 ## Source Trail
 
 - Source manifest: [[javascriptallonge]]
-- Source section: [[javascriptallonge-section-undefined-9b5a2e81]]
+- Source section: [[javascriptallonge-section-or-even-the-simplest-possible-block-undefined-d76b1338]]

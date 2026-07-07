@@ -9,7 +9,7 @@ domain: javascriptallonge
 category_path: recipes/javascriptallonge
 source_id: javascriptallonge.pdf
 aliases: folding
-projection_coverage: recipe-javascriptallonge-recipe-folding@32aba837e195dd4aeb6b80506aa1d5f1
+projection_coverage: recipe-javascriptallonge-recipe-folding@3f5e958325ad4d17fefc3b35d1579f3b
 ---
 
 # folding
@@ -18,7 +18,7 @@ From [[javascriptallonge]].
 
 ## Pattern
 
-- Use the source-backed pattern described in [[javascriptallonge-section-folding-77c06913]].
+- Use the source-backed pattern described in [[javascriptallonge-section-composing-and-decomposing-data-self-similarity-folding-be06a8d2]].
 - Evidence roles: decision, constraint, example.
 
 ## Applicability And Rationale
@@ -96,4 +96,4 @@ length([1, 2, 3, 4, 5])
 ## Source Trail
 
 - Source manifest: [[javascriptallonge]]
-- Source section: [[javascriptallonge-section-folding-77c06913]]
+- Source section: [[javascriptallonge-section-composing-and-decomposing-data-self-similarity-folding-be06a8d2]]

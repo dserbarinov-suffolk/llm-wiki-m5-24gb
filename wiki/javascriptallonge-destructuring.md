@@ -7,7 +7,7 @@ sources: raw/javascriptallonge.pdf
 updated: 2026-07-07
 domain: javascriptallonge
 category_path: concepts
-projection_coverage: topic-javascriptallonge-destructuring@571896fe10e3f8e3a0c0f1e8cf38a79e
+projection_coverage: topic-javascriptallonge-destructuring@cc70ad08568cd7869856ffcaed14876e
 ---
 
 # Destructuring
@@ -16,14 +16,14 @@ What [[javascriptallonge]] covers about destructuring:
 
 ## Statements
 
-### defaults and destructuring
+### Composing and Decomposing Data / defaults and destructuring
 
 - How very useful: defaults can be supplied for destructuring assignments, just like defaults for parameters. _(javascriptallonge.pdf (source-range-c98ab3e6-00994))_
 
 
 ## Technical atoms
 
-### Technical frame 1: defaults and destructuring
+### Technical frame 1: Composing and Decomposing Data / defaults and destructuring
 
 **Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-00994))_
 
@@ -73,8 +73,8 @@ status
 
 ### Shared technical atoms
 
-- [[javascriptallonge-default]] - shared statements and technical atoms: Default shares source evidence from defaults and destructuring: How very useful: defaults can be supplied for destructuring assignments, just like defaults for parameters.; Default shares technical record from defaults and destructuring: const [first, second = "two"] = ["one"]; `${first} . ${second}` //=> "one . two" const [first, second = "two"] = ["primus", "secundus"]; `${first} . ${second}` //=> ... [truncated] (1 shared statement(s), 1 shared atom(s))
-- [[javascriptallonge-return-value]] - shared technical atoms: Return Value shares technical record from destructuring and return values: const description = (nameAndOccupation) => { if (nameAndOccupation.length < 2) { return ["", "occupation missing"] } else { const [[first, last], occupation] = nameA ... [truncated] (1 shared atom(s))
+- [[javascriptallonge-default]] - shared statements and technical atoms: Default shares source evidence from Composing and Decomposing Data / defaults and destructuring: How very useful: defaults can be supplied for destructuring assignments, just like defaults for parameters.; Default shares technical record from Composing and Decomposing Data / defaults and destructuring: const [first, second = "two"] = ["one"]; `${first} . ${second}` //=> "one . two" const [first, second = "two"] = ["primus", "secundus"]; `${first} . ${second}` //=> ... [truncated] (1 shared statement(s), 1 shared atom(s))
+- [[javascriptallonge-return-value]] - shared technical atoms: Return Value shares technical record from Composing and Decomposing Data / Arrays and Destructuring Arguments / destructuring and return values: const description = (nameAndOccupation) => { if (nameAndOccupation.length < 2) { return ["", "occupation missing"] } else { const [[first, last], occupation] = nameA ... [truncated] (1 shared atom(s))
 
 ## Source
 

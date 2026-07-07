@@ -9,7 +9,7 @@ domain: javascriptallonge
 category_path: recipes/javascriptallonge
 source_id: javascriptallonge.pdf
 aliases: array-literals
-projection_coverage: recipe-javascriptallonge-recipe-array-literals@601c52b38b04527c57c2d23a4c9eedec
+projection_coverage: recipe-javascriptallonge-recipe-array-literals@b28c92a1aef3a0adcc12bb1e5305f91c
 ---
 
 # array literals
@@ -18,7 +18,7 @@ From [[javascriptallonge]].
 
 ## Pattern
 
-- Use the source-backed pattern described in [[javascriptallonge-section-array-literals-858acc76]].
+- Use the source-backed pattern described in [[javascriptallonge-section-composing-and-decomposing-data-arrays-and-destructuring-arguments-array-literals-f2f1b6ec]].
 - Evidence roles: decision, definition, procedure, explanation, constraint, example.
 
 ## Applicability And Rationale
@@ -98,4 +98,4 @@ array_of_one() === array_of_one()
 ## Source Trail
 
 - Source manifest: [[javascriptallonge]]
-- Source section: [[javascriptallonge-section-array-literals-858acc76]]
+- Source section: [[javascriptallonge-section-composing-and-decomposing-data-arrays-and-destructuring-arguments-array-literals-f2f1b6ec]]

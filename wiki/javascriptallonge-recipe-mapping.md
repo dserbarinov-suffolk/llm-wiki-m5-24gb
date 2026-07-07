@@ -9,7 +9,7 @@ domain: javascriptallonge
 category_path: recipes/javascriptallonge
 source_id: javascriptallonge.pdf
 aliases: mapping
-projection_coverage: recipe-javascriptallonge-recipe-mapping@ae50ea549507fe7a1ee4c9ba09da65a7
+projection_coverage: recipe-javascriptallonge-recipe-mapping@585cc0a23170335fad42906f074c3240
 ---
 
 # mapping
@@ -18,7 +18,7 @@ From [[javascriptallonge]].
 
 ## Pattern
 
-- Use the source-backed pattern described in [[javascriptallonge-section-mapping-bdbf37f7]].
+- Use the source-backed pattern described in [[javascriptallonge-section-composing-and-decomposing-data-self-similarity-mapping-bf63b383]].
 - Evidence roles: decision, explanation, constraint, example.
 
 ## Applicability And Rationale
@@ -80,4 +80,4 @@ mapWith((x) => !!x, [null, true, 25, false, "foo"])
 ## Source Trail
 
 - Source manifest: [[javascriptallonge]]
-- Source section: [[javascriptallonge-section-mapping-bdbf37f7]]
+- Source section: [[javascriptallonge-section-composing-and-decomposing-data-self-similarity-mapping-bf63b383]]

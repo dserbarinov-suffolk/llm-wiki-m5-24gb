@@ -7,7 +7,7 @@ sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-07
 domain: sword-world-rpg-complete-edition
 category_path: concepts
-projection_coverage: topic-sword-world-rpg-complete-edition-armor@4dfc173d88656128f14b4a415628c35c
+projection_coverage: topic-sword-world-rpg-complete-edition-armor@e2f40a6ed6397a95a716ea6659206c31
 ---
 
 # Armor
@@ -155,8 +155,7 @@ Table 4-5: Guideline for Obtaining High-Quality Weapons and Armor
 
 ### Source structure
 
-- [[sword-world-rpg-complete-edition-section-4-10-excellent-weapons-and-armor-and-armor-008abd2e]] - source section: 4.10 Excellent Weapons and Armor / and Armor shares source evidence from 4.10 Excellent Weapons and Armor / and Armor: There are people in the world who are called master craftsmen, and they sometimes create weapons and armor that are better than normal. These highquality weapons and ... [truncated]; 4.10 Excellent Weapons and Armor / and Armor shares technical record from 4.10 Excellent Weapons and Armor / and Armor: Also, even if you search all over Alecrast, you will usually only find one with a required strength up to 5 lower than usual . (14 shared statement(s), 5 shared atom(s))
-- [[sword-world-rpg-complete-edition-section-1-4-character-creation-armor-2c2f95df]] - source section: 1.4 Character Creation / Armor shares source evidence from 1.4 Character Creation / Armor: The principle of choose one whose required strength equals the character's strength applies to armor as well. There are several types, but choose which one you think ... [truncated] (2 shared statement(s))
+- [[sword-world-rpg-complete-edition-section-4-10-excellent-weapons-and-armor-and-armor-659f9b02]] - source section: 4.10 Excellent Weapons and Armor / and Armor shares source evidence from 4.10 Excellent Weapons and Armor / and Armor: There are people in the world who are called master craftsmen, and they sometimes create weapons and armor that are better than normal. These highquality weapons and ... [truncated]; 4.10 Excellent Weapons and Armor / and Armor shares technical record from 4.10 Excellent Weapons and Armor / and Armor: Also, even if you search all over Alecrast, you will usually only find one with a required strength up to 5 lower than usual . (14 shared statement(s), 5 shared atom(s))
 
 ### Shared technical atoms
 

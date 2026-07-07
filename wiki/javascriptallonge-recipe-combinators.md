@@ -9,7 +9,7 @@ domain: javascriptallonge
 category_path: recipes/javascriptallonge
 source_id: javascriptallonge.pdf
 aliases: combinators
-projection_coverage: recipe-javascriptallonge-recipe-combinators@261684e7b40e6e7decd3aeb5e0ec9caf
+projection_coverage: recipe-javascriptallonge-recipe-combinators@29f6f517d62c499e5dc382c0b6d8fdd5
 ---
 
 # combinators
@@ -18,7 +18,7 @@ From [[javascriptallonge]].
 
 ## Pattern
 
-- Use the source-backed pattern described in [[javascriptallonge-section-combinators-5192630f]].
+- Use the source-backed pattern described in [[javascriptallonge-section-and-also-combinators-and-function-decorators-combinators-96e491bc]].
 - Evidence roles: decision, procedure, explanation, structured-state, example.
 
 ## Applicability And Rationale
@@ -48,4 +48,4 @@ const doubleOfAddOne = compose(doubleOf, addOne);
 ## Source Trail
 
 - Source manifest: [[javascriptallonge]]
-- Source section: [[javascriptallonge-section-combinators-5192630f]]
+- Source section: [[javascriptallonge-section-and-also-combinators-and-function-decorators-combinators-96e491bc]]

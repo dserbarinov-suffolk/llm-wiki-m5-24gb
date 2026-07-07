@@ -9,7 +9,7 @@ domain: javascriptallonge
 category_path: recipes/javascriptallonge
 source_id: javascriptallonge.pdf
 aliases: destructuring-objects
-projection_coverage: recipe-javascriptallonge-recipe-destructuring-objects@08199ccd4a0c54f5d587b67031fac9e1
+projection_coverage: recipe-javascriptallonge-recipe-destructuring-objects@25da957fc46eacdd32d932f045272510
 ---
 
 # destructuring objects
@@ -18,7 +18,7 @@ From [[javascriptallonge]].
 
 ## Pattern
 
-- Use the source-backed pattern described in [[javascriptallonge-section-destructuring-objects-78d4fa14]].
+- Use the source-backed pattern described in [[javascriptallonge-section-plain-old-javascript-objects-destructuring-objects-6546a490]].
 - Evidence roles: decision, example.
 
 ## Applicability And Rationale
@@ -104,4 +104,4 @@ abbrev(user)
 ## Source Trail
 
 - Source manifest: [[javascriptallonge]]
-- Source section: [[javascriptallonge-section-destructuring-objects-78d4fa14]]
+- Source section: [[javascriptallonge-section-plain-old-javascript-objects-destructuring-objects-6546a490]]

@@ -8,7 +8,7 @@ updated: 2026-07-07
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-11-notes-on-magic-11-2-dark-magic-8th-level-basic-dark-magic-list-cripple-cc8968c8@890b332de9c4593bfa8dc1c44eb201d8
+projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-11-notes-on-magic-11-2-dark-magic-8th-level-basic-dark-magic-list-cripple-cc8968c8@256f5a3312d25d68d6682cc22f8dd037
 ---
 
 # Chapter 11: Notes on Magic / 11.2 Dark Magic / 8th Level Basic Dark Magic List [ Cripple ]
@@ -20,11 +20,12 @@ From [[sword-world-rpg-complete-edition]].
 ### Source order
 
 - [[sword-world-rpg-complete-edition-section-chapter-11-notes-on-magic-11-2-dark-magic-7th-level-basic-dark-magic-list-a3059dc8]] - previous source section: Chapter 11: Notes on Magic / 11.2 Dark Magic / 7th Level Basic Dark Magic List
-- [[sword-world-rpg-complete-edition-section-chapter-11-notes-on-magic-11-2-dark-magic-summon-servant-1e082468]] - next source section: Chapter 11: Notes on Magic / 11.2 Dark Magic / [ Summon Servant ]
+- [[sword-world-rpg-complete-edition-section-chapter-11-notes-on-magic-11-2-dark-magic-9th-level-basic-dark-magic-list-plague-7275158b]] - next source section: Chapter 11: Notes on Magic / 11.2 Dark Magic / 9th Level Basic Dark Magic List [ Plague ]
 
 ### Source structure
 
 - [[sword-world-rpg-complete-edition-section-chapter-11-notes-on-magic-11-2-dark-magic-e0a67386]] - broader source section: Chapter 11: Notes on Magic / 11.2 Dark Magic
+- [[sword-world-rpg-complete-edition-section-chapter-11-notes-on-magic-11-2-dark-magic-8th-level-basic-dark-magic-list-cripple-summon-servant-10b60b34]] - narrower source section: Chapter 11: Notes on Magic / 11.2 Dark Magic / 8th Level Basic Dark Magic List [ Cripple ] / [ Summon Servant ]
 
 ## Statements
 

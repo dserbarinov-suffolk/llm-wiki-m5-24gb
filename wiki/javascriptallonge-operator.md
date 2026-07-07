@@ -7,7 +7,7 @@ sources: raw/javascriptallonge.pdf
 updated: 2026-07-07
 domain: javascriptallonge
 category_path: concepts
-projection_coverage: topic-javascriptallonge-operator@483742d4f3f0c33cefa10986b8c594d8
+projection_coverage: topic-javascriptallonge-operator@2097889e6b348e0d95213f56f1df802b
 ---
 
 # Operator
@@ -19,7 +19,7 @@ What [[javascriptallonge]] covers about operator:
 
 ## Technical atoms
 
-### Technical frame 1: truthiness and operators
+### Technical frame 1: Picking the Bean: Choice and Truthiness / truthiness and operators
 
 **Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-00760))_
 
@@ -40,10 +40,10 @@ What [[javascriptallonge]] covers about operator:
 
 ### Shared technical atoms
 
-- [[javascriptallonge-argument]] - shared technical atoms: Argument shares technical record from truthiness and operators: !5 //=> false !undefined //=> true (1 shared atom(s))
-- [[javascriptallonge-javascript]] - shared technical atoms: Javascript shares technical record from truthiness and operators: !5 //=> false !undefined //=> true (1 shared atom(s))
-- [[javascriptallonge-return]] - shared technical atoms: Return shares technical record from truthiness and operators: !5 //=> false !undefined //=> true (1 shared atom(s))
-- [[javascriptallonge-truthiness]] - shared technical atoms: Truthiness shares technical record from truthiness and operators: !5 //=> false !undefined //=> true (1 shared atom(s))
+- [[javascriptallonge-argument]] - shared technical atoms: Argument shares technical record from Picking the Bean: Choice and Truthiness / truthiness and operators: !5 //=> false !undefined //=> true (1 shared atom(s))
+- [[javascriptallonge-javascript]] - shared technical atoms: Javascript shares technical record from Picking the Bean: Choice and Truthiness / truthiness and operators: !5 //=> false !undefined //=> true (1 shared atom(s))
+- [[javascriptallonge-return]] - shared technical atoms: Return shares technical record from Picking the Bean: Choice and Truthiness / truthiness and operators: !5 //=> false !undefined //=> true (1 shared atom(s))
+- [[javascriptallonge-truthiness]] - shared technical atoms: Truthiness shares technical record from Picking the Bean: Choice and Truthiness / truthiness and operators: !5 //=> false !undefined //=> true (1 shared atom(s))
 
 ## Source
 

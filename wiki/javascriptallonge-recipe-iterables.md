@@ -9,7 +9,7 @@ domain: javascriptallonge
 category_path: recipes/javascriptallonge
 source_id: javascriptallonge.pdf
 aliases: iterables
-projection_coverage: recipe-javascriptallonge-recipe-iterables@e13142f6fdecf2a48aa42e12da9cb1e0
+projection_coverage: recipe-javascriptallonge-recipe-iterables@e63e129b82b74a143f80955b1381bb99
 ---
 
 # iterables
@@ -18,7 +18,7 @@ From [[javascriptallonge]].
 
 ## Pattern
 
-- Use the source-backed pattern described in [[javascriptallonge-section-iterables-cb315899]].
+- Use the source-backed pattern described in [[javascriptallonge-section-served-by-the-pot-collections-iteration-and-iterables-iterables-94f83dae]].
 - Evidence roles: decision, procedure, constraint, explanation, example.
 
 ## Applicability And Rationale
@@ -172,4 +172,4 @@ firstAndSecondElement(...stack)
 ## Source Trail
 
 - Source manifest: [[javascriptallonge]]
-- Source section: [[javascriptallonge-section-iterables-cb315899]]
+- Source section: [[javascriptallonge-section-served-by-the-pot-collections-iteration-and-iterables-iterables-94f83dae]]

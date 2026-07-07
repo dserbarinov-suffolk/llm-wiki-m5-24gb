@@ -7,7 +7,7 @@ sources: raw/javascriptallonge.pdf
 updated: 2026-07-07
 domain: javascriptallonge
 category_path: concepts
-projection_coverage: topic-javascriptallonge-mixing@3464a4ba3a3265971879200dca9c824d
+projection_coverage: topic-javascriptallonge-mixing@1cfd9311142bf8c929903b41ab0e5fcb
 ---
 
 # Mixing
@@ -19,7 +19,7 @@ What [[javascriptallonge]] covers about mixing:
 
 ## Technical atoms
 
-### Technical frame 1: mixing let and const
+### Technical frame 1: Reassignment / mixing let and const
 
 **Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01159))_
 
@@ -45,7 +45,7 @@ return age;
 
 ### Shared technical atoms
 
-- [[javascriptallonge-const]] - shared technical atoms: Const shares technical record from mixing let and const: (() => { let age = 49; if (true) { const age = 50; } age = 51; return age; })() //=> 51 (1 shared atom(s))
+- [[javascriptallonge-const]] - shared technical atoms: Const shares technical record from Reassignment / mixing let and const: (() => { let age = 49; if (true) { const age = 50; } age = 51; return age; })() //=> 51 (1 shared atom(s))
 
 ## Source
 

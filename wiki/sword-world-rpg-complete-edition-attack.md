@@ -7,7 +7,7 @@ sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-07
 domain: sword-world-rpg-complete-edition
 category_path: concepts
-projection_coverage: topic-sword-world-rpg-complete-edition-attack@47fb12f51358465f3ff1ad66c22097c8
+projection_coverage: topic-sword-world-rpg-complete-edition-attack@95c8b131fd7c432a6fa99f2dfedfb311
 ---
 
 # Attack
@@ -19,7 +19,7 @@ What [[sword-world-rpg-complete-edition]] covers about attack:
 
 ## Technical atoms
 
-### Technical frame 1: Switch a Weapon's Hands and Attack
+### Technical frame 1: Chapter 3: / Switch a Weapon's Hands and Attack
 
 **Context:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01131))_
 
@@ -39,7 +39,7 @@ What [[sword-world-rpg-complete-edition]] covers about attack:
 
 ### Shared technical atoms
 
-- [[sword-world-rpg-complete-edition-switch-weapon-hand]] - shared technical atoms: Switch Weapon Hand shares technical record from Switch a Weapon's Hands and Attack: If you're holding a weapon in one hand and a shield in the other, and that weapon can be used with both hands, you can drop the shield on the ground and attack with ... [truncated] (1 shared atom(s))
+- [[sword-world-rpg-complete-edition-switch-weapon-hand]] - shared technical atoms: Switch Weapon Hand shares technical record from Chapter 3: / Switch a Weapon's Hands and Attack: If you're holding a weapon in one hand and a shield in the other, and that weapon can be used with both hands, you can drop the shield on the ground and attack with ... [truncated] (1 shared atom(s))
 
 ## Source
 

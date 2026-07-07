@@ -8,7 +8,7 @@ updated: 2026-07-07
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-11-notes-on-magic-11-2-dark-magic-7th-level-basic-dark-magic-list-a3059dc8@6e3f447965b16882a7fffe5867237fe4
+projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-11-notes-on-magic-11-2-dark-magic-7th-level-basic-dark-magic-list-a3059dc8@04c41c3bb2f58d325d32fed9d156345a
 ---
 
 # Chapter 11: Notes on Magic / 11.2 Dark Magic / 7th Level Basic Dark Magic List
@@ -19,7 +19,7 @@ From [[sword-world-rpg-complete-edition]].
 
 ### Source order
 
-- [[sword-world-rpg-complete-edition-section-chapter-11-notes-on-magic-11-2-dark-magic-rot-6da62325]] - previous source section: Chapter 11: Notes on Magic / 11.2 Dark Magic / [ Rot ]
+- [[sword-world-rpg-complete-edition-section-chapter-11-notes-on-magic-11-2-dark-magic-6th-level-basic-dark-magic-list-mesmerize-c19d4374]] - previous source section: Chapter 11: Notes on Magic / 11.2 Dark Magic / 6th Level Basic Dark Magic List [ Mesmerize ]
 - [[sword-world-rpg-complete-edition-section-chapter-11-notes-on-magic-11-2-dark-magic-8th-level-basic-dark-magic-list-cripple-cc8968c8]] - next source section: Chapter 11: Notes on Magic / 11.2 Dark Magic / 8th Level Basic Dark Magic List [ Cripple ]
 
 ### Source structure

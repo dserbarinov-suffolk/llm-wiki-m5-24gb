@@ -9,7 +9,7 @@ domain: javascriptallonge
 category_path: recipes/javascriptallonge
 source_id: javascriptallonge.pdf
 aliases: function-parameters-are-eager
-projection_coverage: recipe-javascriptallonge-recipe-function-parameters-are-eager@9316c60685525fff15105381e802c7f9
+projection_coverage: recipe-javascriptallonge-recipe-function-parameters-are-eager@6a5317491b72aca1f68b24eabcbf2f2a
 ---
 
 # function parameters are eager
@@ -18,7 +18,7 @@ From [[javascriptallonge]].
 
 ## Pattern
 
-- Use the source-backed pattern described in [[javascriptallonge-section-function-parameters-are-eager-a0f9ecc8]].
+- Use the source-backed pattern described in [[javascriptallonge-section-picking-the-bean-choice-and-truthiness-function-parameters-are-eager-699c4c1b]].
 - Evidence roles: explanation, decision, constraint, example.
 
 ## Applicability And Rationale
@@ -58,4 +58,4 @@ even(7)
 ## Source Trail
 
 - Source manifest: [[javascriptallonge]]
-- Source section: [[javascriptallonge-section-function-parameters-are-eager-a0f9ecc8]]
+- Source section: [[javascriptallonge-section-picking-the-bean-choice-and-truthiness-function-parameters-are-eager-699c4c1b]]

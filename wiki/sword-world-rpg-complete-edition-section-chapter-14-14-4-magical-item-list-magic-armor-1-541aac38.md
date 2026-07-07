@@ -8,7 +8,7 @@ updated: 2026-07-07
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-magic-armor-1-541aac38@460cd84208956fff506b41451822a213
+projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-magic-armor-1-541aac38@3e9400590d3aa13423c842950815e6e2
 ---
 
 # Chapter 14: / 14.4 Magical Item List / 《 Magic Armor (+1) 》
@@ -19,7 +19,7 @@ From [[sword-world-rpg-complete-edition]].
 
 ### Source order
 
-- [[sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-roan-ax-b9084f8a]] - previous source section: Chapter 14: / 14.4 Magical Item List / 《 Roan Ax 》
+- [[sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-misty-sword-8735baef]] - previous source section: Chapter 14: / 14.4 Magical Item List / 《 Misty Sword 》
 - [[sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-magic-armor-1-bbe98a2e]] - next source section: Chapter 14: / 14.4 Magical Item List / 《 Magic Armor (+1)
 
 ### Source structure

@@ -34,7 +34,8 @@ from llmwiki.domain.ledger.procedure_state_flow import (
     ProcedureStepEvidence,
     build_procedure_state_flow,
 )
-from llmwiki.domain.ledger.section_navigation import section_page_id
+from llmwiki.domain.ledger.section_navigation import projected_section_page_id
+from llmwiki.domain.ledger.section_planning import SectionGroundedPlan
 from llmwiki.domain.ledger.structure import DocumentStructure, StructureNode
 from llmwiki.domain.pages import slugify
 
@@ -72,6 +73,7 @@ def plan_procedure_guides(
     structure: DocumentStructure,
     *,
     source_page_id: str,
+    section_plan: SectionGroundedPlan,
     shape_catalog: KnowledgeShapeCatalog | None = None,
 ) -> tuple[ProcedureGuide, ...]:
     catalog = shape_catalog or build_knowledge_shape_catalog(ledger, structure)
@@ -91,6 +93,7 @@ def plan_procedure_guides(
             grouped_atoms,
             children,
             source_page_id,
+            section_plan,
         )
         if len(steps) < 2:
             continue
@@ -103,7 +106,9 @@ def plan_procedure_guides(
                 title=goal_title(node.heading_text),
                 goal=goal_sentence(node.heading_text),
                 source_node=node,
-                source_section_page_id=section_page_id(source_page_id, structure, node),
+                source_section_page_id=projected_section_page_id(
+                    source_page_id, structure, node, section_plan
+                ),
                 steps=steps,
                 decision_points=plan_decision_points(entries, atoms, ledger.source_statements),
                 technical_atoms=_relevant_atoms(atoms),
@@ -126,6 +131,7 @@ def _steps_for_children(
     grouped_atoms: dict[str, tuple[TechnicalAtom, ...]],
     children: tuple[StructureNode, ...],
     source_page_id: str,
+    section_plan: SectionGroundedPlan,
 ) -> tuple[ProcedureStep, ...]:
     steps: list[ProcedureStep] = []
     index = 0
@@ -162,7 +168,9 @@ def _steps_for_children(
                 title=step_title(title_heading),
                 action_type=action,
                 heading_action_type=heading_action,
-                section_page_id=section_page_id(source_page_id, structure, evidence_node),
+                section_page_id=projected_section_page_id(
+                    source_page_id, structure, evidence_node, section_plan
+                ),
                 claims=_unique_entries(entries),
                 technical_atoms=_unique_atoms(atoms),
             )

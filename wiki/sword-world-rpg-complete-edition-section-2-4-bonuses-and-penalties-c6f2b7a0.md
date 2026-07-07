@@ -8,7 +8,7 @@ updated: 2026-07-07
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-2-4-bonuses-and-penalties-c6f2b7a0@2bd454ba0f4b6fdbc41f91c4e127bec8
+projection_coverage: section-sword-world-rpg-complete-edition-section-2-4-bonuses-and-penalties-c6f2b7a0@29eddabbadddfdfb83ca14a48483c45a
 ---
 
 # 2.4 Bonuses and Penalties
@@ -19,7 +19,7 @@ From [[sword-world-rpg-complete-edition]].
 
 ### Source order
 
-- [[sword-world-rpg-complete-edition-section-2-3-1-automatic-success-and-automatic-failure-5461ebf0]] - previous source section: 2.3.1 Automatic Success and Automatic Failure
+- [[sword-world-rpg-complete-edition-section-2-1-baseline-scores-9186c8cb]] - previous source section: 2.1 Baseline Scores
 - [[sword-world-rpg-complete-edition-section-2-5-difficulty-checks-315d8578]] - next source section: 2.5 Difficulty Checks
 
 ## Statements

@@ -7,7 +7,7 @@ sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-07
 domain: sword-world-rpg-complete-edition
 category_path: concepts
-projection_coverage: topic-sword-world-rpg-complete-edition-shape-change@4a0b313568c9f745697cb7e434220dd7
+projection_coverage: topic-sword-world-rpg-complete-edition-shape-change@1c46c0fbf1962b7b2c98b0c043de5ebe
 ---
 
 # [ Shape Change
@@ -32,13 +32,13 @@ What [[sword-world-rpg-complete-edition]] covers about [ shape change:
 
 - This spell is invisible around the caster's body, moreover it creates a magical barrier that changes shape with the caster's movement. This barrier works to reduce damage from attacks such as weapons, etc. The damage it can reduce is 30 points. The caster can also add their own damage reduction to this. As a result, most physical attacks should be nullified, but you will be wounded if your defense roll is double ones , or if you receive more than 30 points of damage. Even if you fall from a very high place or a huge piece of rubble falls on you, you will still be wounded if the damage you receive exceeds 30 points. This spell also prevents attacks from magical weapons. However, it cannot prevent damage from pure magic, such as Energy Bolt or Fireball , nor damage from fire, acid, etc. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-02566))_
 
-### Chapter 11: Notes on Magic / 11.3 Dragon Roar Magic / [ Shape Change
+### Chapter 11: Notes on Magic / 11.3 Dragon Roar Magic / 7th Level Dragon Roar Magic List [ Summon Wyrm ] / [ Shape Change
 
 - Transform into a lesser dragon. Life force and mental power will be taken from the caster's current scores ( not their maximum scores), but other details such as attack power and defense power will be the same as a lesser dragon. Even if you suffer damage from magic while _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-05215))_
 
 - While transformed into a lesser dragon, your intelligence also decreases, making you unable to act rationally or use magic. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-05219))_
 
-### 12.2.2 Illnesses / [ Red Cap ]
+### 12.2.2 Illnesses / [ Rat Disease ] / [ Red Cap ]
 
 - When you're exposed to extremely strong fear, such as due to combat, etc. leprechaun, the mind spirit, manifests abnormally and causes this illness. When the illness is at depth 1, symptoms include being unable to move due to being seized by fear and having nightmares every night. When the depth is at 2 or greater, changes will appear in your body shape. You'll become hunched over, your hands abnormally long, your face contorted, and your eyes blazing red. This illness was given its name because the entire body turns red and hair falls out. Patients in this state go berserk and begin to attack things around them at random. Use the details p. 233 when fighting with these patients. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-05711))_
 
@@ -94,7 +94,7 @@ What [[sword-world-rpg-complete-edition]] covers about [ shape change:
 <a id="atom-technical-atom-022fb62387d5c2ec"></a>
 > The caster can cancel the spell's effect at any time, but once it's canceled, you cannot take on that form again unless you cast the spell again.
 
-### Technical frame 4: Chapter 11: Notes on Magic / 11.3 Dragon Roar Magic / [ Shape Change
+### Technical frame 4: Chapter 11: Notes on Magic / 11.3 Dragon Roar Magic / 7th Level Dragon Roar Magic List [ Summon Wyrm ] / [ Shape Change
 
 **Context:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-05215))_
 
@@ -129,7 +129,7 @@ What [[sword-world-rpg-complete-edition]] covers about [ shape change:
 ### Source structure
 
 - [[sword-world-rpg-complete-edition-section-5-1-12-ancient-magic-list-shape-change-0e6207bd]] - source section: 5.1.12 Ancient Magic List / [ Shape Change shares source evidence from 5.1.12 Ancient Magic List / [ Shape Change: This is a spell that allows the caster to change their form into another living creature at will. However, the creatures they can change into are limited to about 10 ... [truncated]; 5.1.12 Ancient Magic List / [ Shape Change shares technical record from 5.1.12 Ancient Magic List / [ Shape Change: Base Mental Power Cost=20 (10 shared statement(s), 7 shared atom(s))
-- [[sword-world-rpg-complete-edition-section-chapter-11-notes-on-magic-11-3-dragon-roar-magic-shape-change-d24921a8]] - source section: Chapter 11: Notes on Magic / 11.3 Dragon Roar Magic / [ Shape Change shares source evidence from Chapter 11: Notes on Magic / 11.3 Dragon Roar Magic / [ Shape Change: Transform into a lesser dragon. Life force and mental power will be taken from the caster's current scores ( not their maximum scores), but other details such as att ... [truncated]; Chapter 11: Notes on Magic / 11.3 Dragon Roar Magic / [ Shape Change shares technical record from Chapter 11: Notes on Magic / 11.3 Dragon Roar Magic / [ Shape Change: Base Mental Power Cost=35 (2 shared statement(s), 7 shared atom(s))
+- [[sword-world-rpg-complete-edition-section-chapter-11-notes-on-magic-11-3-dragon-roar-magic-7th-level-dragon-roar-magic-list-summon-wyrm-sh-d5ba8f28]] - source section: Chapter 11: Notes on Magic / 11.3 Dragon Roar Magic / 7th Level Dragon Roar Magic List [ Summon Wyrm ] / [ Shape Change shares source evidence from Chapter 11: Notes on Magic / 11.3 Dragon Roar Magic / 7th Level Dragon Roar Magic List [ Summon Wyrm ] / [ Shape Change: Transform into a lesser dragon. Life force and mental power will be taken from the caster's current scores ( not their maximum scores), but other details such as att ... [truncated]; Chapter 11: Notes on Magic / 11.3 Dragon Roar Magic / 7th Level Dragon Roar Magic List [ Summon Wyrm ] / [ Shape Change shares technical record from Chapter 11: Notes on Magic / 11.3 Dragon Roar Magic / 7th Level Dragon Roar Magic List [ Summon Wyrm ] / [ Shape Change: Base Mental Power Cost=35 (2 shared statement(s), 7 shared atom(s))
 
 ### Shared claims
 

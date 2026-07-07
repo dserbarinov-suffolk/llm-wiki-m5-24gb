@@ -9,7 +9,7 @@ domain: javascriptallonge
 category_path: recipes/javascriptallonge
 source_id: javascriptallonge.pdf
 aliases: generators-and-iterables
-projection_coverage: recipe-javascriptallonge-recipe-generators-and-iterables@73c639b5f644a916080596b9f3358adb
+projection_coverage: recipe-javascriptallonge-recipe-generators-and-iterables@164d4a74b6a1a6de817d965777a651f9
 ---
 
 # generators and iterables
@@ -18,7 +18,7 @@ From [[javascriptallonge]].
 
 ## Pattern
 
-- Use the source-backed pattern described in [[javascriptallonge-section-generators-and-iterables-7c8b674f]].
+- Use the source-backed pattern described in [[javascriptallonge-section-served-by-the-pot-collections-generating-iterables-generators-and-iterables-adba5c82]].
 - Evidence roles: decision, constraint, procedure, explanation, structured-state, example.
 
 ## Applicability And Rationale
@@ -86,4 +86,4 @@ yield 3
 ## Source Trail
 
 - Source manifest: [[javascriptallonge]]
-- Source section: [[javascriptallonge-section-generators-and-iterables-7c8b674f]]
+- Source section: [[javascriptallonge-section-served-by-the-pot-collections-generating-iterables-generators-and-iterables-adba5c82]]

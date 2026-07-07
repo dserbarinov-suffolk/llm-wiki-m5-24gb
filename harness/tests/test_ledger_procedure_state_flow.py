@@ -9,10 +9,19 @@ from llmwiki.domain.ledger.ledger import (
     SourceProfile,
 )
 from llmwiki.domain.ledger.procedures import plan_procedure_guides
+from llmwiki.domain.ledger.section_planning import PageTarget, SectionGroundedPlan
 from llmwiki.domain.ledger.structure import DocumentStructure, StructureNode
 
 
 def test_ordered_reference_catalog_with_tables_is_not_a_procedure() -> None:
+    structure = _structure(
+        (
+            _section("catalog", "1 Equipment Catalog", 1),
+            _section("normal", "1.1 Normal Equipment", 2, parent="catalog"),
+            _section("special", "1.2 Special Equipment", 3, parent="catalog"),
+            _section("other", "1.3 Other Equipment", 4, parent="catalog"),
+        )
+    )
     guides = plan_procedure_guides(
         _ledger(
             _entry("normal", "normal", "The normal equipment category applies when needed."),
@@ -23,21 +32,22 @@ def test_ordered_reference_catalog_with_tables_is_not_a_procedure() -> None:
                 _formula_atom("special-formula", "special"),
             ),
         ),
-        _structure(
-            (
-                _section("catalog", "1 Equipment Catalog", 1),
-                _section("normal", "1.1 Normal Equipment", 2, parent="catalog"),
-                _section("special", "1.2 Special Equipment", 3, parent="catalog"),
-                _section("other", "1.3 Other Equipment", 4, parent="catalog"),
-            )
-        ),
+        structure,
         source_page_id="book",
+        section_plan=_section_plan(structure),
     )
 
     assert guides == ()
 
 
 def test_formula_sequence_can_depend_on_prior_step_output_without_action_headings() -> None:
+    structure = _structure(
+        (
+            _section("calculation", "1 Calculation Matrix", 1),
+            _section("input", "1.1 Input Value", 2, parent="calculation"),
+            _section("result", "1.2 Derived Result", 3, parent="calculation"),
+        )
+    )
     guides = plan_procedure_guides(
         _ledger(
             _entry("input", "input", "The input value is established by the source formula."),
@@ -47,14 +57,9 @@ def test_formula_sequence_can_depend_on_prior_step_output_without_action_heading
                 _formula_atom("result-formula", "result"),
             ),
         ),
-        _structure(
-            (
-                _section("calculation", "1 Calculation Matrix", 1),
-                _section("input", "1.1 Input Value", 2, parent="calculation"),
-                _section("result", "1.2 Derived Result", 3, parent="calculation"),
-            )
-        ),
+        structure,
         source_page_id="book",
+        section_plan=_section_plan(structure),
     )
 
     assert len(guides) == 1
@@ -62,6 +67,7 @@ def test_formula_sequence_can_depend_on_prior_step_output_without_action_heading
 
 
 def test_claim_output_dependency_can_confirm_taxonomy_headings() -> None:
+    structure = _operation_structure()
     guides = plan_procedure_guides(
         _ledger(
             _entry("first", "first", "Both sides roll dice to resolve the first check."),
@@ -80,8 +86,9 @@ def test_claim_output_dependency_can_confirm_taxonomy_headings() -> None:
                 _atom_context("second-formula", "second"),
             ),
         ),
-        _operation_structure(),
+        structure,
         source_page_id="book",
+        section_plan=_section_plan(structure),
     )
 
     assert len(guides) == 1
@@ -89,6 +96,7 @@ def test_claim_output_dependency_can_confirm_taxonomy_headings() -> None:
 
 
 def test_source_order_places_atoms_under_nearest_section_heading() -> None:
+    structure = _operation_structure(first_order=10, second_order=20)
     guides = plan_procedure_guides(
         _ledger(
             _entry("first", "first", "Both sides roll dice to resolve the first check."),
@@ -104,8 +112,9 @@ def test_source_order_places_atoms_under_nearest_section_heading() -> None:
             ),
             atom_entries=False,
         ),
-        _operation_structure(first_order=10, second_order=20),
+        structure,
         source_page_id="book",
+        section_plan=_section_plan(structure),
     )
 
     assert len(guides) == 1
@@ -140,6 +149,28 @@ def _structure(nodes: tuple[StructureNode, ...]) -> DocumentStructure:
         "root",
         (StructureNode("root", "root", "book.pdf", "root", "book.pdf", 0), *nodes),
     )
+
+
+def _section_plan(structure: DocumentStructure) -> SectionGroundedPlan:
+    targets: list[PageTarget] = []
+    for index, node in enumerate(structure.structure_nodes, start=1):
+        if node.structure_node_kind == "root":
+            continue
+        targets.append(
+            PageTarget(
+                page_target_id=f"target-{index}",
+                topic_key=node.structure_node_id,
+                label=node.heading_text,
+                page_kind="concept",
+                structure_node_id=node.structure_node_id,
+                source_range_id=node.source_range_id,
+                concept_keys=(),
+                entry_ids=(),
+                atom_ids=(),
+                attached_evidence=(),
+            )
+        )
+    return SectionGroundedPlan("plan", "fingerprint", "book.pdf", "hash", tuple(targets), ())
 
 
 def _entry(entry_id: str, node_id: str, text: str) -> LedgerEntry:

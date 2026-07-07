@@ -60,6 +60,7 @@ class SourceUnitBlock:
     code_text: str = ""
     table_text: str = ""
     formula_text: str = ""
+    heading_level: int = 0
 
 
 @dataclass(frozen=True)
@@ -307,13 +308,15 @@ def _source_unit_block(element: DocumentElement) -> SourceUnitBlock:
         code_text=text if element.element_kind == "code_block" else "",
         table_text=(element.markdown or text).strip() if element.element_kind == "table" else "",
         formula_text=text if element.element_kind == "formula" else "",
+        heading_level=element.heading_level if element.element_kind == "heading" else 0,
     )
 
 
 def _render_source_unit_block(block: SourceUnitBlock) -> str:
     if block.block_kind == "heading":
         text = block.text.strip()
-        return f"# {text}" if text else ""
+        level = max(1, block.heading_level or 1)
+        return f"{'#' * level} {text}" if text else ""
     if block.block_kind == "code_block":
         code = (block.code_text or block.text).strip()
         return f"```\n{code.rstrip()}\n```" if code else ""

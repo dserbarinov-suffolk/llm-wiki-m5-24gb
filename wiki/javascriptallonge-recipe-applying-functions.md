@@ -9,7 +9,7 @@ domain: javascriptallonge
 category_path: recipes/javascriptallonge
 source_id: javascriptallonge.pdf
 aliases: applying-functions
-projection_coverage: recipe-javascriptallonge-recipe-applying-functions@fed69bea5fdffdedf30ec184def14e64
+projection_coverage: recipe-javascriptallonge-recipe-applying-functions@6995ad4f15af5625784500b2d5b23a9a
 ---
 
 # applying functions
@@ -18,7 +18,7 @@ From [[javascriptallonge]].
 
 ## Pattern
 
-- Use the source-backed pattern described in [[javascriptallonge-section-applying-functions-09d5f96e]].
+- Use the source-backed pattern described in [[javascriptallonge-section-the-first-sip-basic-functions-as-little-as-possible-about-functions-but-no-less-applying-functio-858c485d]].
 - Evidence roles: decision, explanation, procedure, example.
 
 ## Applicability And Rationale
@@ -50,4 +50,4 @@ _Source: javascriptallonge.pdf (source-range-c98ab3e6-00179)_
 ## Source Trail
 
 - Source manifest: [[javascriptallonge]]
-- Source section: [[javascriptallonge-section-applying-functions-09d5f96e]]
+- Source section: [[javascriptallonge-section-the-first-sip-basic-functions-as-little-as-possible-about-functions-but-no-less-applying-functio-858c485d]]

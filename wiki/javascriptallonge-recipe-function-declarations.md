@@ -9,7 +9,7 @@ domain: javascriptallonge
 category_path: recipes/javascriptallonge
 source_id: javascriptallonge.pdf
 aliases: function-declarations
-projection_coverage: recipe-javascriptallonge-recipe-function-declarations@d64d11ad1300ab8c26f604030a1ec327
+projection_coverage: recipe-javascriptallonge-recipe-function-declarations@1da9ab7d57aba411b1f227f4080e1c3b
 ---
 
 # function declarations
@@ -18,7 +18,7 @@ From [[javascriptallonge]].
 
 ## Pattern
 
-- Use the source-backed pattern described in [[javascriptallonge-section-function-declarations-c6aff434]].
+- Use the source-backed pattern described in [[javascriptallonge-section-and-also-naming-functions-function-declarations-8c0a2df7]].
 - Evidence roles: decision, explanation, example.
 
 ## Applicability And Rationale
@@ -108,4 +108,4 @@ return fizzbuzz();
 ## Source Trail
 
 - Source manifest: [[javascriptallonge]]
-- Source section: [[javascriptallonge-section-function-declarations-c6aff434]]
+- Source section: [[javascriptallonge-section-and-also-naming-functions-function-declarations-8c0a2df7]]

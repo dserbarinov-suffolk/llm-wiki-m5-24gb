@@ -8,7 +8,7 @@ updated: 2026-07-07
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-12-2-2-illnesses-vampire-skin-cbd37cdf@f01b295a2f01fa1c7df26a4d1dff76bf
+projection_coverage: section-sword-world-rpg-complete-edition-section-12-2-2-illnesses-vampire-skin-cbd37cdf@3e61a24ddf3f9b52acc40cbb763b6725
 ---
 
 # 12.2.2 Illnesses / [ Vampire Skin ]
@@ -19,7 +19,7 @@ From [[sword-world-rpg-complete-edition]].
 
 ### Source order
 
-- [[sword-world-rpg-complete-edition-section-12-2-2-illnesses-balloon-burst-5a265567]] - previous source section: 12.2.2 Illnesses / [ Balloon Burst ]
+- [[sword-world-rpg-complete-edition-section-12-2-2-illnesses-bat-fever-2a13262e]] - previous source section: 12.2.2 Illnesses / [ Bat Fever ]
 - [[sword-world-rpg-complete-edition-section-12-2-2-illnesses-humbaba-curse-711c6f9a]] - next source section: 12.2.2 Illnesses / [ Humbaba Curse ]
 
 ### Source structure

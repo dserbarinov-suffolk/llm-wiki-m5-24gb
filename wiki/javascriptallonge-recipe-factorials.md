@@ -9,7 +9,7 @@ domain: javascriptallonge
 category_path: recipes/javascriptallonge
 source_id: javascriptallonge.pdf
 aliases: factorials
-projection_coverage: recipe-javascriptallonge-recipe-factorials@0eb03ab5efaba4a184db4c3f04dcdbde
+projection_coverage: recipe-javascriptallonge-recipe-factorials@bbe11d143299d6c2e395a853aa2f061c
 ---
 
 # factorials
@@ -18,7 +18,7 @@ From [[javascriptallonge]].
 
 ## Pattern
 
-- Use the source-backed pattern described in [[javascriptallonge-section-factorials-92a030b5]].
+- Use the source-backed pattern described in [[javascriptallonge-section-composing-and-decomposing-data-factorials-4b205fe1]].
 - Evidence roles: decision, constraint, procedure, explanation, example.
 
 ## Applicability And Rationale
@@ -92,4 +92,4 @@ factorial(5)
 ## Source Trail
 
 - Source manifest: [[javascriptallonge]]
-- Source section: [[javascriptallonge-section-factorials-92a030b5]]
+- Source section: [[javascriptallonge-section-composing-and-decomposing-data-factorials-4b205fe1]]

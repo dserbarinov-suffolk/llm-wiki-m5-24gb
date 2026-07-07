@@ -8,7 +8,7 @@ updated: 2026-07-07
 domain: javascriptallonge
 category_path: sources/javascriptallonge/sections
 source_id: javascriptallonge.pdf
-projection_coverage: section-javascriptallonge-section-mutation-ae8039d8@e149c2cf40a65b2da0ea4ee5ec4ce634
+projection_coverage: section-javascriptallonge-section-mutation-ae8039d8@066862b5868f318023f14b4508663c54
 ---
 
 # Mutation
@@ -19,8 +19,13 @@ From [[javascriptallonge]].
 
 ### Source order
 
-- [[javascriptallonge-section-revisiting-linked-lists-9741196a]] - previous source section: revisiting linked lists
-- [[javascriptallonge-section-mutation-and-data-structures-1d32e744]] - next source section: mutation and data structures
+- [[javascriptallonge-section-plain-old-javascript-objects-ae9a88a3]] - previous source section: Plain Old JavaScript Objects
+- [[javascriptallonge-section-reassignment-c80c0ca4]] - next source section: Reassignment
+
+### Source structure
+
+- [[javascriptallonge-section-mutation-building-with-mutation-e30d36e8]] - narrower source section: Mutation / building with mutation
+- [[javascriptallonge-section-mutation-mutation-and-data-structures-fe3c8850]] - narrower source section: Mutation / mutation and data structures
 
 ### Topics
 

@@ -8,7 +8,7 @@ updated: 2026-07-07
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-10-5-attacks-against-the-sleeping-hit-checks-7f1d9463@1304d08c520099f3bb8b67d24f8956cc
+projection_coverage: section-sword-world-rpg-complete-edition-section-10-5-attacks-against-the-sleeping-hit-checks-7f1d9463@863e3dbbbcf8a4669617d0c360a1e7ca
 ---
 
 # 10.5 Attacks Against the Sleeping / 《 Hit Checks 》
@@ -19,7 +19,6 @@ From [[sword-world-rpg-complete-edition]].
 
 ### Source order
 
-- [[sword-world-rpg-complete-edition-section-10-5-attacks-against-the-sleeping-combat-between-monsters-7de04518]] - previous source section: 10.5 Attacks Against the Sleeping / Combat Between Monsters
 - [[sword-world-rpg-complete-edition-section-10-5-attacks-against-the-sleeping-damage-137933cd]] - next source section: 10.5 Attacks Against the Sleeping / 《 Damage 》
 
 ### Source structure

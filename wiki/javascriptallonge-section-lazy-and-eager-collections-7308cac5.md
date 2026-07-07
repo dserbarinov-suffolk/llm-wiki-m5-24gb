@@ -8,7 +8,7 @@ updated: 2026-07-07
 domain: javascriptallonge
 category_path: sources/javascriptallonge/sections
 source_id: javascriptallonge.pdf
-projection_coverage: section-javascriptallonge-section-lazy-and-eager-collections-7308cac5@e1fd8ea1b04420c3d66363e84fba92a1
+projection_coverage: section-javascriptallonge-section-lazy-and-eager-collections-7308cac5@3365d76ad54ab547fe9c90d0cc1ca1fa
 ---
 
 # Lazy and Eager Collections
@@ -19,8 +19,14 @@ From [[javascriptallonge]].
 
 ### Source order
 
-- [[javascriptallonge-section-summary-551391b0]] - previous source section: Summary
-- [[javascriptallonge-section-implementing-methods-with-iteration-d176c6c9]] - next source section: implementing methods with iteration
+- [[javascriptallonge-section-served-by-the-pot-collections-e15a3403]] - previous source section: Served by the Pot: Collections
+- [[javascriptallonge-section-interlude-the-carpenter-interviews-for-a-job-9cc5ffd7]] - next source section: Interlude: The Carpenter Interviews for a Job
+
+### Source structure
+
+- [[javascriptallonge-section-lazy-and-eager-collections-eager-collections-527b72b9]] - narrower source section: Lazy and Eager Collections / eager collections
+- [[javascriptallonge-section-lazy-and-eager-collections-implementing-methods-with-iteration-e67a1913]] - narrower source section: Lazy and Eager Collections / implementing methods with iteration
+- [[javascriptallonge-section-lazy-and-eager-collections-lazy-collection-operations-0de83c02]] - narrower source section: Lazy and Eager Collections / lazy collection operations
 
 ## Statements
 

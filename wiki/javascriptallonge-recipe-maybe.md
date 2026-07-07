@@ -9,7 +9,7 @@ domain: javascriptallonge
 category_path: recipes/javascriptallonge
 source_id: javascriptallonge.pdf
 aliases: maybe
-projection_coverage: recipe-javascriptallonge-recipe-maybe@11fec5c40d6469d28090f87396cdc354
+projection_coverage: recipe-javascriptallonge-recipe-maybe@7a11fc0b4358a5fcfb921e003052a4ec
 ---
 
 # Maybe
@@ -18,7 +18,7 @@ From [[javascriptallonge]].
 
 ## Pattern
 
-- Use the source-backed pattern described in [[javascriptallonge-section-maybe-21b793e6]].
+- Use the source-backed pattern described in [[javascriptallonge-section-recipes-with-basic-functions-d7445960]].
 - Evidence roles: decision, constraint, example, structured-state.
 
 ## Applicability And Rationale
@@ -107,4 +107,4 @@ this.something = value;
 ## Source Trail
 
 - Source manifest: [[javascriptallonge]]
-- Source section: [[javascriptallonge-section-maybe-21b793e6]]
+- Source section: [[javascriptallonge-section-recipes-with-basic-functions-d7445960]]

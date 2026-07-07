@@ -9,7 +9,7 @@ domain: javascriptallonge
 category_path: recipes/javascriptallonge
 source_id: javascriptallonge.pdf
 aliases: back-on-the-block
-projection_coverage: recipe-javascriptallonge-recipe-back-on-the-block@eb4efb06f90ddd528c6305bf4e8d0efa
+projection_coverage: recipe-javascriptallonge-recipe-back-on-the-block@2ebb0c52b7f49a19b98f16f76cd3b587
 ---
 
 # back on the block
@@ -18,7 +18,7 @@ From [[javascriptallonge]].
 
 ## Pattern
 
-- Use the source-backed pattern described in [[javascriptallonge-section-back-on-the-block-e8c3dec9]].
+- Use the source-backed pattern described in [[javascriptallonge-section-or-even-back-on-the-block-ffc7c96a]].
 - Evidence roles: decision, constraint, structured-state, example.
 
 ## Applicability And Rationale
@@ -63,4 +63,4 @@ _Source: javascriptallonge.pdf (source-range-c98ab3e6-00236)_
 ## Source Trail
 
 - Source manifest: [[javascriptallonge]]
-- Source section: [[javascriptallonge-section-back-on-the-block-e8c3dec9]]
+- Source section: [[javascriptallonge-section-or-even-back-on-the-block-ffc7c96a]]

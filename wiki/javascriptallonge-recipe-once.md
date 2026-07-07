@@ -9,7 +9,7 @@ domain: javascriptallonge
 category_path: recipes/javascriptallonge
 source_id: javascriptallonge.pdf
 aliases: once
-projection_coverage: recipe-javascriptallonge-recipe-once@69d8ab371f73a62668b38027ea149964
+projection_coverage: recipe-javascriptallonge-recipe-once@2fb66fc61da7fed0d4abae350ca43e7f
 ---
 
 # Once
@@ -18,7 +18,7 @@ From [[javascriptallonge]].
 
 ## Pattern
 
-- Use the source-backed pattern described in [[javascriptallonge-section-once-70058fab]].
+- Use the source-backed pattern described in [[javascriptallonge-section-recipes-with-basic-functions-d7445960]].
 - Evidence roles: decision, constraint, explanation, example.
 
 ## Applicability And Rationale
@@ -62,4 +62,4 @@ askedOnBlindDate()
 ## Source Trail
 
 - Source manifest: [[javascriptallonge]]
-- Source section: [[javascriptallonge-section-once-70058fab]]
+- Source section: [[javascriptallonge-section-recipes-with-basic-functions-d7445960]]

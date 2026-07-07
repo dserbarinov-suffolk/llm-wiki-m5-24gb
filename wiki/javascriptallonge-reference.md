@@ -7,7 +7,7 @@ sources: raw/javascriptallonge.pdf
 updated: 2026-07-07
 domain: javascriptallonge
 category_path: concepts
-projection_coverage: topic-javascriptallonge-reference@053a8ecd2d17a1c2270d3759ffe31cc0
+projection_coverage: topic-javascriptallonge-reference@e330a4bf3a1c833d117cab938b8343f6
 ---
 
 # Reference
@@ -16,26 +16,26 @@ What [[javascriptallonge]] covers about reference:
 
 ## Statements
 
-### functions and identities
+### The first sip: Basic Functions / As Little As Possible About Functions, But No Less / functions and identities
 
 - You recall that we have two types of values with respect to identity: Value types and reference types. Value types share the same identity if they have the same contents. Reference types do not. _(javascriptallonge.pdf (source-range-c98ab3e6-00170))_
 
-### call by sharing
+### And also: / call by sharing
 
 - Whatabout reference types? JavaScript does not place copies of reference values in any environment. JavaScript places references to reference types in environments, and when the value needs to be used, JavaScript uses the reference to obtain the original. _(javascriptallonge.pdf (source-range-c98ab3e6-00310))_
 
-### some history
+### Garbage, Garbage Everywhere / some history
 
 - Again, it's just extracting a reference from a cons cell, it's very fast. In Lisp, it's blazingly fast because it happens in hardware. There's no making copies of arrays, the time to cdr a list with five elements is the same as the time to cdr a list with 5,000 elements, and no temporary arrays are needed. In JavaScript, it's still much, much, much faster to get all the elements except the head from a linked list than from an array. Getting one reference to a structure that already exists is faster than copying a bunch of elements. _(javascriptallonge.pdf (source-range-c98ab3e6-01026))_
 
-### so why arrays
+### Garbage, Garbage Everywhere / so why arrays
 
 - Arrays avoid this problem by pessimistically copying all the references whenever we extract an element or sequence of elements from them (We'll see this explained later in Mutation). _(javascriptallonge.pdf (source-range-c98ab3e6-01036))_
 
 
 ## Technical atoms
 
-### Technical frame 1: call by sharing
+### Technical frame 1: And also: / call by sharing
 
 **Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-00314))_
 
@@ -49,7 +49,7 @@ What [[javascriptallonge]] covers about reference:
 ((ref1, ref2) => ref1 === ref2)(value, value)
 ```
 
-### Technical frame 2: some history
+### Technical frame 2: Garbage, Garbage Everywhere / some history
 
 **Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01021))_
 
@@ -67,7 +67,7 @@ node1 = [1, node2];
 const oneToFive = node1;
 ```
 
-### Technical frame 3: some history
+### Technical frame 3: Garbage, Garbage Everywhere / some history
 
 **Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01023))_
 
@@ -81,7 +81,7 @@ car(oneToFive)
 //=> 1
 ```
 
-### Technical frame 4: some history
+### Technical frame 4: Garbage, Garbage Everywhere / some history
 
 **Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01026))_
 
@@ -100,14 +100,14 @@ cdr(oneToFive)
 
 ### Shared technical atoms
 
-- [[javascriptallonge-list]] - shared technical atoms: List shares technical record from some history: const node5 = [5,null], node4 = [4, node5], node3 = [3, node4], node2 = [2, node3], node1 = [1, node2]; const oneToFive = node1; (3 shared atom(s))
-- [[javascriptallonge-javascript]] - shared statements and technical atoms: Javascript shares source evidence from call by sharing: Whatabout reference types? JavaScript does not place copies of reference values in any environment. JavaScript places references to reference types in environments, ... [truncated]; Javascript shares technical record from some history: const node5 = [5,null], node4 = [4, node5], node3 = [3, node4], node2 = [2, node3], node1 = [1, node2]; const oneToFive = node1; (1 shared statement(s), 2 shared atom(s))
-- [[javascriptallonge-type]] - shared statements and technical atoms: Type shares source evidence from functions and identities: You recall that we have two types of values with respect to identity: Value types and reference types. Value types share the same identity if they have the same cont ... [truncated]; Type shares technical record from call by sharing: (value) => ((ref1, ref2) => ref1 === ref2)(value, value) (2 shared statement(s), 1 shared atom(s))
-- [[javascriptallonge-element]] - shared statements and technical atoms: Element shares source evidence from so why arrays: Arrays avoid this problem by pessimistically copying all the references whenever we extract an element or sequence of elements from them (We'll see this explained la ... [truncated]; Element shares technical record from some history: cdr(oneToFive) //=> [2,[3,[4,[5,null]]]] (1 shared statement(s), 1 shared atom(s))
-- [[javascriptallonge-structure]] - shared statements and technical atoms: Structure shares source evidence from some history: Again, it's just extracting a reference from a cons cell, it's very fast. In Lisp, it's blazingly fast because it happens in hardware. There's no making copies of ar ... [truncated]; Structure shares technical record from some history: cdr(oneToFive) //=> [2,[3,[4,[5,null]]]] (1 shared statement(s), 1 shared atom(s))
-- [[javascriptallonge-argument]] - shared technical atoms: Argument shares technical record from call by sharing: (value) => ((ref1, ref2) => ref1 === ref2)(value, value) (1 shared atom(s))
-- [[javascriptallonge-copy]] - shared technical atoms: Copy shares technical record from some history: cdr(oneToFive) //=> [2,[3,[4,[5,null]]]] (1 shared atom(s))
-- [[javascriptallonge-data]] - shared technical atoms: Data shares technical record from some history: car(oneToFive) //=> 1 (1 shared atom(s))
+- [[javascriptallonge-list]] - shared technical atoms: List shares technical record from Garbage, Garbage Everywhere / some history: const node5 = [5,null], node4 = [4, node5], node3 = [3, node4], node2 = [2, node3], node1 = [1, node2]; const oneToFive = node1; (3 shared atom(s))
+- [[javascriptallonge-javascript]] - shared statements and technical atoms: Javascript shares source evidence from And also: / call by sharing: Whatabout reference types? JavaScript does not place copies of reference values in any environment. JavaScript places references to reference types in environments, ... [truncated]; Javascript shares technical record from Garbage, Garbage Everywhere / some history: const node5 = [5,null], node4 = [4, node5], node3 = [3, node4], node2 = [2, node3], node1 = [1, node2]; const oneToFive = node1; (1 shared statement(s), 2 shared atom(s))
+- [[javascriptallonge-type]] - shared statements and technical atoms: Type shares source evidence from The first sip: Basic Functions / As Little As Possible About Functions, But No Less / functions and identities: You recall that we have two types of values with respect to identity: Value types and reference types. Value types share the same identity if they have the same cont ... [truncated]; Type shares technical record from And also: / call by sharing: (value) => ((ref1, ref2) => ref1 === ref2)(value, value) (2 shared statement(s), 1 shared atom(s))
+- [[javascriptallonge-element]] - shared statements and technical atoms: Element shares source evidence from Garbage, Garbage Everywhere / so why arrays: Arrays avoid this problem by pessimistically copying all the references whenever we extract an element or sequence of elements from them (We'll see this explained la ... [truncated]; Element shares technical record from Garbage, Garbage Everywhere / some history: cdr(oneToFive) //=> [2,[3,[4,[5,null]]]] (1 shared statement(s), 1 shared atom(s))
+- [[javascriptallonge-structure]] - shared statements and technical atoms: Structure shares source evidence from Garbage, Garbage Everywhere / some history: Again, it's just extracting a reference from a cons cell, it's very fast. In Lisp, it's blazingly fast because it happens in hardware. There's no making copies of ar ... [truncated]; Structure shares technical record from Garbage, Garbage Everywhere / some history: cdr(oneToFive) //=> [2,[3,[4,[5,null]]]] (1 shared statement(s), 1 shared atom(s))
+- [[javascriptallonge-argument]] - shared technical atoms: Argument shares technical record from And also: / call by sharing: (value) => ((ref1, ref2) => ref1 === ref2)(value, value) (1 shared atom(s))
+- [[javascriptallonge-copy]] - shared technical atoms: Copy shares technical record from Garbage, Garbage Everywhere / some history: cdr(oneToFive) //=> [2,[3,[4,[5,null]]]] (1 shared atom(s))
+- [[javascriptallonge-data]] - shared technical atoms: Data shares technical record from Garbage, Garbage Everywhere / some history: car(oneToFive) //=> 1 (1 shared atom(s))
 
 ## Source
 

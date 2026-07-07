@@ -8,7 +8,7 @@ updated: 2026-07-07
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-17-5-full-resistance-f21f83bf@c5396ca6aee1595c734a7b2996917e5b
+projection_coverage: section-sword-world-rpg-complete-edition-section-17-5-full-resistance-f21f83bf@e2cf7b3f9ba73603c58d2652070321b9
 ---
 
 # 17.5 Full Resistance
@@ -19,7 +19,6 @@ From [[sword-world-rpg-complete-edition]].
 
 ### Source order
 
-- [[sword-world-rpg-complete-edition-section-17-4-using-magic-without-a-catalyst-c47c0477]] - previous source section: 17.4 Using Magic Without a Catalyst
 - [[sword-world-rpg-complete-edition-section-18-1-rules-for-awarding-greater-experience-points-014f47ef]] - next source section: 18.1 Rules for Awarding Greater Experience Points
 
 ### Topics

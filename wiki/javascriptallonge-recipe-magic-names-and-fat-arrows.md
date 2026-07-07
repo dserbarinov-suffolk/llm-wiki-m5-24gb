@@ -9,7 +9,7 @@ domain: javascriptallonge
 category_path: recipes/javascriptallonge
 source_id: javascriptallonge.pdf
 aliases: magic-names-and-fat-arrows
-projection_coverage: recipe-javascriptallonge-recipe-magic-names-and-fat-arrows@7b803e8c838010225ba29d3ced6f5412
+projection_coverage: recipe-javascriptallonge-recipe-magic-names-and-fat-arrows@18890b87ecc5cf09d2275d05a48d9e6d
 ---
 
 # magic names and fat arrows
@@ -18,7 +18,7 @@ From [[javascriptallonge]].
 
 ## Pattern
 
-- Use the source-backed pattern described in [[javascriptallonge-section-magic-names-and-fat-arrows-c5c32d4e]].
+- Use the source-backed pattern described in [[javascriptallonge-section-and-also-magic-names-magic-names-and-fat-arrows-10e3f519]].
 - Evidence roles: decision, definition, explanation, procedure, constraint, example.
 
 ## Applicability And Rationale
@@ -87,4 +87,4 @@ row(3)
 ## Source Trail
 
 - Source manifest: [[javascriptallonge]]
-- Source section: [[javascriptallonge-section-magic-names-and-fat-arrows-c5c32d4e]]
+- Source section: [[javascriptallonge-section-and-also-magic-names-magic-names-and-fat-arrows-10e3f519]]

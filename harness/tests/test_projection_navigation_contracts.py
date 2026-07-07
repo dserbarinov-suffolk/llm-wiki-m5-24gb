@@ -12,6 +12,7 @@ from llmwiki.domain.ledger.ledger import (
     SourceProfile,
 )
 from llmwiki.domain.ledger.related_link_policy import budget_related_links, group_related_links
+from llmwiki.domain.ledger.section_planning import PageTarget, SectionGroundedPlan
 from llmwiki.domain.ledger.source_manifest_navigation import (
     build_source_navigation_plan,
     render_source_manifest,
@@ -25,9 +26,7 @@ from llmwiki.domain.pages import PageMetadata, WikiPage
 
 
 def test_source_manifest_is_navigation_first_without_source_transcript() -> None:
-    structure = _structure(
-        StructureNode("chapter", "chapter", "1. Vel", "r1", "x.pdf", 1)
-    )
+    structure = _structure(StructureNode("chapter", "chapter", "1. Vel", "r1", "x.pdf", 1))
     linked = (
         _page("x-section-1-vel-aaaa1111", "source", "section-reference"),
         _page("x-procedure-build-vel", "procedure", "procedure-guide"),
@@ -71,7 +70,13 @@ def test_collection_plans_use_repeated_peer_shape_not_domain_nouns() -> None:
     )
     catalog = build_knowledge_shape_catalog(ledger, structure)
 
-    plans = collection_plans(ledger, structure, "x", catalog)
+    plans = collection_plans(
+        ledger,
+        structure,
+        "x",
+        catalog,
+        _section_plan(structure, "parent", "one", "two", "three"),
+    )
 
     assert len(plans) == 1
     assert plans[0].source_node_id == "parent"
@@ -167,6 +172,28 @@ def _page(page_id: str, page_kind: str, page_family: str) -> WikiPage:
 def _structure(*nodes: StructureNode) -> DocumentStructure:
     root = StructureNode("root", "root", "x.pdf", "root", "x.pdf", 0)
     return DocumentStructure("root", (root, *nodes))
+
+
+def _section_plan(structure: DocumentStructure, *node_ids: str) -> SectionGroundedPlan:
+    targets: list[PageTarget] = []
+    for index, node_id in enumerate(node_ids, start=1):
+        node = structure.node(node_id)
+        assert node is not None
+        targets.append(
+            PageTarget(
+                page_target_id=f"target-{index}",
+                topic_key=node_id,
+                label=node.heading_text,
+                page_kind="concept",
+                structure_node_id=node.structure_node_id,
+                source_range_id=node.source_range_id,
+                concept_keys=(),
+                entry_ids=(),
+                atom_ids=(),
+                attached_evidence=(),
+            )
+        )
+    return SectionGroundedPlan("plan", "fingerprint", "x.pdf", "hash", tuple(targets), ())
 
 
 def _entry(entry_id: str, node_id: str, text: str) -> LedgerEntry:

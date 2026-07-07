@@ -9,7 +9,7 @@ domain: javascriptallonge
 category_path: recipes/javascriptallonge
 source_id: javascriptallonge.pdf
 aliases: the-carpenter-s-solution
-projection_coverage: recipe-javascriptallonge-recipe-the-carpenter-s-solution@ff0de5d33357bb1992f83f61e11713a2
+projection_coverage: recipe-javascriptallonge-recipe-the-carpenter-s-solution@1b4227fff7917646da5ae01022823282
 ---
 
 # the carpenter's solution
@@ -18,7 +18,7 @@ From [[javascriptallonge]].
 
 ## Pattern
 
-- Use the source-backed pattern described in [[javascriptallonge-section-the-carpenter-s-solution-1d94eea5]].
+- Use the source-backed pattern described in [[javascriptallonge-section-interlude-the-carpenter-interviews-for-a-job-the-carpenter-s-solution-bad172f9]].
 - Evidence roles: decision, constraint, explanation, procedure, example.
 
 ## Applicability And Rationale
@@ -154,4 +154,4 @@ return false;
 ## Source Trail
 
 - Source manifest: [[javascriptallonge]]
-- Source section: [[javascriptallonge-section-the-carpenter-s-solution-1d94eea5]]
+- Source section: [[javascriptallonge-section-interlude-the-carpenter-interviews-for-a-job-the-carpenter-s-solution-bad172f9]]

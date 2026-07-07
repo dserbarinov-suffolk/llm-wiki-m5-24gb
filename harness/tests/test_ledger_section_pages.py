@@ -15,6 +15,7 @@ from llmwiki.domain.ledger.ledger import (
 )
 from llmwiki.domain.ledger.section_navigation import section_page_id
 from llmwiki.domain.ledger.section_pages import build_section_pages
+from llmwiki.domain.ledger.section_planning import PageTarget, SectionGroundedPlan
 from llmwiki.domain.ledger.segments import SegmentClaim, SourceSegment
 from llmwiki.domain.ledger.structure import DocumentStructure, StructureNode
 from llmwiki.domain.ledger.topic_models import SourceTopic
@@ -55,6 +56,7 @@ def test_section_pages_roll_up_descendants_and_link_source_siblings() -> None:
     pages = build_section_pages(
         ledger,
         structure,
+        section_plan=_section_plan(structure, "chapter", "field-sheet", "lab-sheet"),
         source_page_id="source",
         source_locator="source.pdf",
         today="2026-06-29",
@@ -84,10 +86,11 @@ def test_section_pages_roll_up_descendants_and_link_source_siblings() -> None:
     lab_id = section_page_id("source", structure, lab)
 
     assert "# 1.4 Meter Setup" in by_id[chapter_id]
-    assert "## Statements by subsection" in by_id[chapter_id]
-    assert "### 1.4 Meter Setup / Filling out the Reading Sheet" in by_id[chapter_id]
-    assert "Write field totals on the sheet." in by_id[chapter_id]
-    assert "Write lab fields on the sheet." in by_id[chapter_id]
+    assert "## Statements by subsection" not in by_id[chapter_id]
+    assert "Write field totals on the sheet." not in by_id[chapter_id]
+    assert "Write lab fields on the sheet." not in by_id[chapter_id]
+    assert f"[[{field_id}]] - narrower source section" in by_id[chapter_id]
+    assert f"[[{lab_id}]] - narrower source section" in by_id[chapter_id]
 
     assert "# 1.4 Meter Setup / Filling out the Reading Sheet" in by_id[field_id]
     assert f"[[{chapter_id}]] - broader source section: 1.4 Meter Setup" in by_id[field_id]
@@ -122,20 +125,24 @@ def test_section_pages_do_not_import_same_named_table_from_sibling_branch() -> N
         ]
     )
 
+    first = _node_by_path(result.document_structure, ("First Branch", "Shared Matrix"))
+    second = _node_by_path(result.document_structure, ("Second Branch", "Shared Matrix"))
+    assert first is not None
+    assert second is not None
     pages = build_section_pages(
         result.ledger,
         result.document_structure,
+        section_plan=_section_plan(
+            result.document_structure,
+            first.structure_node_id,
+            second.structure_node_id,
+        ),
         source_page_id="source",
         source_locator="source.pdf",
         today="2026-06-29",
     )
-
-    first = _node_by_path(result.document_structure, ("First Branch", "Shared Matrix"))
-    second = _node_by_path(result.document_structure, ("Second Branch", "Shared Matrix"))
     by_id = {page.page_id: page.page_body for page in pages}
 
-    assert first is not None
-    assert second is not None
     assert (
         "First branch value" in by_id[section_page_id("source", result.document_structure, first)]
     )
@@ -147,6 +154,60 @@ def test_section_pages_do_not_import_same_named_table_from_sibling_branch() -> N
         "## Technical atoms"
         not in by_id[section_page_id("source", result.document_structure, second)]
     )
+
+
+def test_section_pages_roll_unpromoted_leaf_into_promoted_parent_only() -> None:
+    structure = DocumentStructure(
+        "root",
+        (
+            StructureNode("root", "root", "source.pdf", "root", "source.pdf", 0),
+            StructureNode("chapter", "chapter", "Process", "r1", "source.pdf", 1),
+            StructureNode(
+                "thin-step",
+                "heading",
+                "Thin Step",
+                "r2",
+                "source.pdf",
+                2,
+                parent_structure_node_id="chapter",
+            ),
+            StructureNode(
+                "major-step",
+                "section",
+                "Major Step",
+                "r3",
+                "source.pdf",
+                3,
+                parent_structure_node_id="chapter",
+            ),
+        ),
+    )
+    ledger = _ledger(
+        _entry("entry-thin", "thin-step", "The thin step has one supporting statement."),
+        _entry("entry-major", "major-step", "The major step has its own page evidence."),
+    )
+
+    pages = build_section_pages(
+        ledger,
+        structure,
+        section_plan=_section_plan(structure, "chapter", "major-step"),
+        source_page_id="source",
+        source_locator="source.pdf",
+        today="2026-06-29",
+    )
+
+    by_id = {page.page_id: page.page_body for page in pages}
+    chapter = structure.node("chapter")
+    major = structure.node("major-step")
+    assert chapter is not None
+    assert major is not None
+    chapter_body = by_id[section_page_id("source", structure, chapter)]
+    major_body = by_id[section_page_id("source", structure, major)]
+
+    assert "The thin step has one supporting statement." in chapter_body
+    assert "The major step has its own page evidence." not in chapter_body
+    assert "The major step has its own page evidence." in major_body
+    assert all("thin-step" not in page_id for page_id in by_id)
 
 
 def _entry(entry_id: str, node_id: str, text: str) -> LedgerEntry:
@@ -199,6 +260,35 @@ def _ledger(*entries: LedgerEntry) -> ClaimLedger:
         source_statements=(),
         extractor_decisions=(),
         rejected_candidates=(),
+    )
+
+
+def _section_plan(structure: DocumentStructure, *node_ids: str) -> SectionGroundedPlan:
+    targets: list[PageTarget] = []
+    for index, node_id in enumerate(node_ids, start=1):
+        node = structure.node(node_id)
+        assert node is not None
+        targets.append(
+            PageTarget(
+                page_target_id=f"target-{index}",
+                topic_key=node_id,
+                label=node.heading_text,
+                page_kind="concept",
+                structure_node_id=node.structure_node_id,
+                source_range_id=node.source_range_id,
+                concept_keys=(),
+                entry_ids=(),
+                atom_ids=(),
+                attached_evidence=(),
+            )
+        )
+    return SectionGroundedPlan(
+        "section-plan",
+        "fingerprint",
+        "source.pdf",
+        "sourcehash",
+        tuple(targets),
+        (),
     )
 
 

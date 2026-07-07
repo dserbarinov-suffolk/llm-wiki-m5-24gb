@@ -7,7 +7,7 @@ sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-07
 domain: sword-world-rpg-complete-edition
 category_path: concepts
-projection_coverage: topic-sword-world-rpg-complete-edition-13-11-daemon@00bd47bc835bd7aa80cf4b5681339372
+projection_coverage: topic-sword-world-rpg-complete-edition-13-11-daemon@746109a38c33575d55416c1fab2779b7
 ---
 
 # 13 11 Daemon
@@ -16,7 +16,7 @@ What [[sword-world-rpg-complete-edition]] covers about 13 11 daemon:
 
 ## Statements
 
-### 13.2.11 Daemons/Underworld Creatures / [ Lesser Daemon ] Grunel
+### 13.2.6 Mythical Beasts and Magical Beasts / [ Horse ] / 13.2.11 Daemons/Underworld Creatures / [ Lesser Daemon ] Grunel
 
 - A grunel is a humanoid lesser daemon with steel-blue skin. It's characterized by its long tail, which it can manipulate freely like a whip to attack or entangle enemies. If it uses its tail to entangle, treat this as a strangling attack (see p. 236). The target will be unable to move, and the grunel can attack with the weapon in its right hand. They have the ability to use ancient magic. They seem to have been especially proficient at enchanting, and often carry a magical sword. If a grunel has a magic sword, add a bonus of 1 point to both its attack points and strike points. They can also use dark magic. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-08238))_
 
@@ -29,7 +29,7 @@ What [[sword-world-rpg-complete-edition]] covers about 13 11 daemon:
 
 ## Technical atoms
 
-### Technical frame 1: 13.2.11 Daemons/Underworld Creatures / [ Lesser Daemon ] Grunel
+### Technical frame 1: 13.2.6 Mythical Beasts and Magical Beasts / [ Horse ] / 13.2.11 Daemons/Underworld Creatures / [ Lesser Daemon ] Grunel
 
 **Context:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-08238))_
 
@@ -73,7 +73,7 @@ What [[sword-world-rpg-complete-edition]] covers about 13 11 daemon:
 <a id="atom-technical-atom-63987c621efd2329"></a>
 > Special Abilities=3rd level dark magic (magic intensity/magic power=12/5)
 
-### Technical frame 2: 13.2.11 Daemons/Underworld Creatures / [ Lesser Daemon ] Grunel
+### Technical frame 2: 13.2.6 Mythical Beasts and Magical Beasts / [ Horse ] / 13.2.11 Daemons/Underworld Creatures / [ Lesser Daemon ] Grunel
 
 **Context:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-08260))_
 
@@ -111,7 +111,7 @@ What [[sword-world-rpg-complete-edition]] covers about 13 11 daemon:
 <a id="atom-technical-atom-5d72aabf1076d8e7"></a>
 > Special Abilities=Shapeshift
 
-### Technical frame 3: 13.2.11 Daemons/Underworld Creatures / [ Lesser Daemon ] Grunel
+### Technical frame 3: 13.2.6 Mythical Beasts and Magical Beasts / [ Horse ] / 13.2.11 Daemons/Underworld Creatures / [ Lesser Daemon ] Grunel
 
 **Context:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-08278))_
 
@@ -122,7 +122,7 @@ What [[sword-world-rpg-complete-edition]] covers about 13 11 daemon:
 <a id="atom-technical-atom-838de3680013f42d"></a>
 > Perception=Five senses (Darkvision)
 
-### Technical frame 4: 13.2.11 Daemons/Underworld Creatures / [ Lesser Daemon ] Grunel
+### Technical frame 4: 13.2.6 Mythical Beasts and Magical Beasts / [ Horse ] / 13.2.11 Daemons/Underworld Creatures / [ Lesser Daemon ] Grunel
 
 **Context:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-08290))_
 
@@ -159,7 +159,7 @@ What [[sword-world-rpg-complete-edition]] covers about 13 11 daemon:
 
 ### Shared technical atoms
 
-- [[sword-world-rpg-complete-edition-underworld-creature]] - shared statements and technical atoms: Underworld Creature shares source evidence from 13.2.11 Daemons/Underworld Creatures / [ Lesser Daemon ] Grunel: A grunel is a humanoid lesser daemon with steel-blue skin. It's characterized by its long tail, which it can manipulate freely like a whip to attack or entangle enem ... [truncated]; Underworld Creature shares technical record from 13.2.11 Daemons/Underworld Creatures / [ Lesser Daemon ] Grunel: Monster Level=5 (4 shared statement(s), 7 shared atom(s))
+- [[sword-world-rpg-complete-edition-underworld-creature]] - shared statements and technical atoms: Underworld Creature shares source evidence from 13.2.6 Mythical Beasts and Magical Beasts / [ Horse ] / 13.2.11 Daemons/Underworld Creatures / [ Lesser Daemon ] Grunel: A grunel is a humanoid lesser daemon with steel-blue skin. It's characterized by its long tail, which it can manipulate freely like a whip to attack or entangle enem ... [truncated]; Underworld Creature shares technical record from 13.2.6 Mythical Beasts and Magical Beasts / [ Horse ] / 13.2.11 Daemons/Underworld Creatures / [ Lesser Daemon ] Grunel: Monster Level=5 (4 shared statement(s), 7 shared atom(s))
 
 ## Source
 

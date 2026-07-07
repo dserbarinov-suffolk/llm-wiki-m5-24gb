@@ -8,7 +8,7 @@ updated: 2026-07-07
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-11-notes-on-magic-11-2-dark-magic-curse-dfd8d0b7@db7953f9fbbf3acacb36744dcf31a093
+projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-11-notes-on-magic-11-2-dark-magic-curse-dfd8d0b7@d6edaa72a52dc4f9445625e35b984bc7
 ---
 
 # Chapter 11: Notes on Magic / 11.2 Dark Magic / Curse
@@ -19,7 +19,7 @@ From [[sword-world-rpg-complete-edition]].
 
 ### Source order
 
-- [[sword-world-rpg-complete-edition-section-chapter-11-notes-on-magic-11-2-dark-magic-create-zombie-c6add3d3]] - previous source section: Chapter 11: Notes on Magic / 11.2 Dark Magic / [ Create Zombie ]
+- [[sword-world-rpg-complete-edition-section-chapter-11-notes-on-magic-11-2-dark-magic-5th-level-basic-dark-magic-list-02fad31c]] - previous source section: Chapter 11: Notes on Magic / 11.2 Dark Magic / 5th Level Basic Dark Magic List
 - [[sword-world-rpg-complete-edition-section-chapter-11-notes-on-magic-11-2-dark-magic-6th-level-basic-dark-magic-list-mesmerize-c19d4374]] - next source section: Chapter 11: Notes on Magic / 11.2 Dark Magic / 6th Level Basic Dark Magic List [ Mesmerize ]
 
 ### Source structure

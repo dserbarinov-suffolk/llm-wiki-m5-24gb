@@ -9,7 +9,7 @@ domain: javascriptallonge
 category_path: recipes/javascriptallonge
 source_id: javascriptallonge.pdf
 aliases: gathering
-projection_coverage: recipe-javascriptallonge-recipe-gathering@52a4d2a0cd72ae086196e8eb65aee578
+projection_coverage: recipe-javascriptallonge-recipe-gathering@e916a2bfbbc8aa0f1e4b51fffb34ffd3
 ---
 
 # gathering
@@ -18,7 +18,7 @@ From [[javascriptallonge]].
 
 ## Pattern
 
-- Use the source-backed pattern described in [[javascriptallonge-section-gathering-5b2815df]].
+- Use the source-backed pattern described in [[javascriptallonge-section-composing-and-decomposing-data-arrays-and-destructuring-arguments-gathering-1b2d594b]].
 - Evidence roles: decision, explanation, example, structured-state.
 
 ## Applicability And Rationale
@@ -79,4 +79,4 @@ const oneTwoThree = ["one", "two", "
 ## Source Trail
 
 - Source manifest: [[javascriptallonge]]
-- Source section: [[javascriptallonge-section-gathering-5b2815df]]
+- Source section: [[javascriptallonge-section-composing-and-decomposing-data-arrays-and-destructuring-arguments-gathering-1b2d594b]]

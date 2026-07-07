@@ -8,7 +8,7 @@ updated: 2026-07-07
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-4-9-unconscious-and-death-checks-4-9-1-adventurer-death-checks-c2ae675e@1ee7b88b5de94fe40ff5fddff49bc551
+projection_coverage: section-sword-world-rpg-complete-edition-section-4-9-unconscious-and-death-checks-4-9-1-adventurer-death-checks-c2ae675e@b4ca405ada2bb98c6719dd35372682b1
 ---
 
 # 4.9 Unconscious and Death Checks / 4.9.1 Adventurer Death Checks
@@ -19,7 +19,7 @@ From [[sword-world-rpg-complete-edition]].
 
 ### Source order
 
-- [[sword-world-rpg-complete-edition-section-4-9-unconscious-and-death-checks-4-9-2-death-checks-every-hour-70438ffe]] - next source section: 4.9 Unconscious and Death Checks / 4.9.2 Death Checks Every Hour
+- [[sword-world-rpg-complete-edition-section-4-9-unconscious-and-death-checks-4-9-2-death-checks-every-hour-5d28a673]] - next source section: 4.9 Unconscious and Death Checks / 4.9.2 Death Checks Every Hour
 
 ### Source structure
 

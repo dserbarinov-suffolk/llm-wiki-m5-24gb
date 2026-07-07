@@ -8,7 +8,7 @@ updated: 2026-07-07
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-17-3-catalysts-other-than-staves-dc4c1ce1@4d054da9df2501ef3e03e0628e1c3590
+projection_coverage: section-sword-world-rpg-complete-edition-section-17-3-catalysts-other-than-staves-dc4c1ce1@c81af8109ccf39dd67336c58a29fac43
 ---
 
 # 17.3 Catalysts Other Than Staves
@@ -19,8 +19,7 @@ From [[sword-world-rpg-complete-edition]].
 
 ### Source order
 
-- [[sword-world-rpg-complete-edition-section-2-learn-from-a-sorcerer-who-knows-lost-spell-b7783a7b]] - previous source section: 2. Learn From a Sorcerer Who Knows Lost Spell
-- [[sword-world-rpg-complete-edition-section-17-4-using-magic-without-a-catalyst-c47c0477]] - next source section: 17.4 Using Magic Without a Catalyst
+- [[sword-world-rpg-complete-edition-section-2-learn-from-a-sorcerer-who-knows-lost-spell-c9c0d8a6]] - previous source section: 2. Learn From a Sorcerer Who Knows Lost Spell
 
 ## Statements
 

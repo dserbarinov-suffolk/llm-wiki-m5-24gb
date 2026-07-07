@@ -8,7 +8,7 @@ updated: 2026-07-07
 domain: javascriptallonge
 category_path: sources/javascriptallonge/sections
 source_id: javascriptallonge.pdf
-projection_coverage: section-javascriptallonge-section-plain-old-javascript-objects-ae9a88a3@0ed9a729327c68cb9ac34e056ffccd32
+projection_coverage: section-javascriptallonge-section-plain-old-javascript-objects-ae9a88a3@eb01dfc83d6cb62d8e8517948143bbae
 ---
 
 # Plain Old JavaScript Objects
@@ -19,8 +19,14 @@ From [[javascriptallonge]].
 
 ### Source order
 
-- [[javascriptallonge-section-summary-e6caa4ec]] - previous source section: summary
-- [[javascriptallonge-section-literal-object-syntax-71689c8a]] - next source section: literal object syntax
+- [[javascriptallonge-section-garbage-garbage-everywhere-8c9764a5]] - previous source section: Garbage, Garbage Everywhere
+- [[javascriptallonge-section-mutation-ae8039d8]] - next source section: Mutation
+
+### Source structure
+
+- [[javascriptallonge-section-plain-old-javascript-objects-destructuring-objects-6546a490]] - narrower source section: Plain Old JavaScript Objects / destructuring objects
+- [[javascriptallonge-section-plain-old-javascript-objects-literal-object-syntax-41ad73a1]] - narrower source section: Plain Old JavaScript Objects / literal object syntax
+- [[javascriptallonge-section-plain-old-javascript-objects-revisiting-linked-lists-4e16a53d]] - narrower source section: Plain Old JavaScript Objects / revisiting linked lists
 
 ## Statements
 

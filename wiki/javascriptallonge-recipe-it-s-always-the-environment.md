@@ -9,7 +9,7 @@ domain: javascriptallonge
 category_path: recipes/javascriptallonge
 source_id: javascriptallonge.pdf
 aliases: it-s-always-the-environment
-projection_coverage: recipe-javascriptallonge-recipe-it-s-always-the-environment@225ae40d9e2518de900411c7e8a6e17a
+projection_coverage: recipe-javascriptallonge-recipe-it-s-always-the-environment@c0d25e24997b15348571d754b2a0e063
 ---
 
 # it's always the environment
@@ -18,7 +18,7 @@ From [[javascriptallonge]].
 
 ## Pattern
 
-- Use the source-backed pattern described in [[javascriptallonge-section-it-s-always-the-environment-e193eb5b]].
+- Use the source-backed pattern described in [[javascriptallonge-section-and-also-closures-and-scope-it-s-always-the-environment-ff95f958]].
 - Evidence roles: decision, explanation, constraint, structured-state, example.
 
 ## Applicability And Rationale
@@ -70,4 +70,4 @@ bh
 ## Source Trail
 
 - Source manifest: [[javascriptallonge]]
-- Source section: [[javascriptallonge-section-it-s-always-the-environment-e193eb5b]]
+- Source section: [[javascriptallonge-section-and-also-closures-and-scope-it-s-always-the-environment-ff95f958]]

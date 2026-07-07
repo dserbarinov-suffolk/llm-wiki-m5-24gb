@@ -9,7 +9,7 @@ domain: javascriptallonge
 category_path: recipes/javascriptallonge
 source_id: javascriptallonge.pdf
 aliases: functions-and-identities
-projection_coverage: recipe-javascriptallonge-recipe-functions-and-identities@3549b352a2c5a09e9595f1e399008f2b
+projection_coverage: recipe-javascriptallonge-recipe-functions-and-identities@53a9d034405d2630451c7a61b99b40e7
 ---
 
 # functions and identities
@@ -18,7 +18,7 @@ From [[javascriptallonge]].
 
 ## Pattern
 
-- Use the source-backed pattern described in [[javascriptallonge-section-functions-and-identities-6c73c07b]].
+- Use the source-backed pattern described in [[javascriptallonge-section-the-first-sip-basic-functions-as-little-as-possible-about-functions-but-no-less-functions-and-id-456f28c7]].
 - Evidence roles: decision, example.
 
 ## Applicability And Rationale
@@ -42,4 +42,4 @@ _Source: javascriptallonge.pdf (source-range-c98ab3e6-00172)_
 ## Source Trail
 
 - Source manifest: [[javascriptallonge]]
-- Source section: [[javascriptallonge-section-functions-and-identities-6c73c07b]]
+- Source section: [[javascriptallonge-section-the-first-sip-basic-functions-as-little-as-possible-about-functions-but-no-less-functions-and-id-456f28c7]]

@@ -8,7 +8,7 @@ updated: 2026-07-07
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-13-2-6-mythical-beasts-and-magical-beasts-twintail-cat-4ea45e8b@581f32c9d69020419eab16d87b445f1e
+projection_coverage: section-sword-world-rpg-complete-edition-section-13-2-6-mythical-beasts-and-magical-beasts-twintail-cat-4ea45e8b@aeb74c2bfedfbc7f5961c15bb95bba0a
 ---
 
 # 13.2.6 Mythical Beasts and Magical Beasts / [ Twintail Cat ]
@@ -20,7 +20,6 @@ From [[sword-world-rpg-complete-edition]].
 ### Source order
 
 - [[sword-world-rpg-complete-edition-section-13-2-6-mythical-beasts-and-magical-beasts-chimera-30ebad90]] - previous source section: 13.2.6 Mythical Beasts and Magical Beasts / [ Chimera ]
-- [[sword-world-rpg-complete-edition-section-13-2-6-mythical-beasts-and-magical-beasts-telchines-monster-level-5-rarity-14-agility-12-movemen-654cfe7c]] - next source section: 13.2.6 Mythical Beasts and Magical Beasts / [ Telchines ] Monster Level=5 Rarity=14 Agility=12 Movement Speed=10/10 (water) Number=One Frequency=Very Rare Intellect=High Reaction=Neutral Attack Points=Weapon:11 (4)/Tail:12 (5) Strike Points=12/11 Evasion Points=12 (5) Defense Points=8 Life Points/Resistance=16/13 (6) Mental Points/Resistance=20/14 (7) Special Abilities=5th level ancient magic (Magic Intensity/Magic Power=15/8) Water adaptation Habitat=Secluded coasts Languages=Merman, low ancient Perception=Five senses (illumination)
 
 ### Source structure
 

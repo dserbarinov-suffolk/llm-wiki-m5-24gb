@@ -8,7 +8,7 @@ updated: 2026-07-07
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-11-notes-on-magic-11-2-dark-magic-11-2-3-special-dark-magic-list-kardis-special-dark-mag-f9b585ff@17389aab17a92c724adc19175d83b42b
+projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-11-notes-on-magic-11-2-dark-magic-11-2-3-special-dark-magic-list-kardis-special-dark-mag-f9b585ff@dc3b735ac960b96d867b4372203e7d92
 ---
 
 # Chapter 11: Notes on Magic / 11.2 Dark Magic / 11.2.3 Special Dark Magic List / Kardis Special Dark Magic List
@@ -19,7 +19,7 @@ From [[sword-world-rpg-complete-edition]].
 
 ### Source order
 
-- [[sword-world-rpg-complete-edition-section-chapter-11-notes-on-magic-11-2-dark-magic-11-2-3-special-dark-magic-list-lunatic-dance-spell-lev-b7441e10]] - previous source section: Chapter 11: Notes on Magic / 11.2 Dark Magic / 11.2.3 Special Dark Magic List / [ Lunatic Dance ] (Spell Level=5)
+- [[sword-world-rpg-complete-edition-section-chapter-11-notes-on-magic-11-2-dark-magic-11-2-3-special-dark-magic-list-the-nameless-god-of-mad-6c29868a]] - previous source section: Chapter 11: Notes on Magic / 11.2 Dark Magic / 11.2.3 Special Dark Magic List / The Nameless God of Madness Special Dark Magic List
 
 ### Source structure
 

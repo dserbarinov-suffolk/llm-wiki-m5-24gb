@@ -9,7 +9,7 @@ domain: javascriptallonge
 category_path: recipes/javascriptallonge
 source_id: javascriptallonge.pdf
 aliases: overcoming-limitations
-projection_coverage: recipe-javascriptallonge-recipe-overcoming-limitations@20d430b5949328ea52c8557d609af6e6
+projection_coverage: recipe-javascriptallonge-recipe-overcoming-limitations@ed75ceb3fc3b82272ecf7bfa2df6d9d7
 ---
 
 # overcoming limitations
@@ -18,7 +18,7 @@ From [[javascriptallonge]].
 
 ## Pattern
 
-- Use the source-backed pattern described in [[javascriptallonge-section-overcoming-limitations-b5da4c36]].
+- Use the source-backed pattern described in [[javascriptallonge-section-recipes-with-basic-functions-left-variadic-functions-overcoming-limitations-885636ba]].
 - Evidence roles: decision, procedure, example.
 
 ## Applicability And Rationale
@@ -72,4 +72,4 @@ butLastAndLast('why', 'hello', 'there', 'little', 'droid')
 ## Source Trail
 
 - Source manifest: [[javascriptallonge]]
-- Source section: [[javascriptallonge-section-overcoming-limitations-b5da4c36]]
+- Source section: [[javascriptallonge-section-recipes-with-basic-functions-left-variadic-functions-overcoming-limitations-885636ba]]

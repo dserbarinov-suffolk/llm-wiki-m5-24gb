@@ -8,7 +8,7 @@ updated: 2026-07-07
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-13-2-1-humans-frequency-19de7095@97f5ed682d3d7bdb88d2aa5ca517d733
+projection_coverage: section-sword-world-rpg-complete-edition-section-13-2-1-humans-frequency-19de7095@ec2464ac07b3a4b10a31b858c75b04fc
 ---
 
 # 13.2.1 《 Humans 》 / 《 Frequency 》
@@ -19,7 +19,6 @@ From [[sword-world-rpg-complete-edition]].
 
 ### Source order
 
-- [[sword-world-rpg-complete-edition-section-13-2-1-humans-number-a538e7fb]] - previous source section: 13.2.1 《 Humans 》 / 《 Number 》
 - [[sword-world-rpg-complete-edition-section-13-2-1-humans-intellect-2b032c13]] - next source section: 13.2.1 《 Humans 》 / 《 Intellect 》
 
 ### Source structure

@@ -8,7 +8,7 @@ updated: 2026-07-07
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-4-10-excellent-weapons-and-armor-4-10-2-silver-weapons-and-armor-16a6db83@ad3fddee2e9aff0a91961776c0ba2291
+projection_coverage: section-sword-world-rpg-complete-edition-section-4-10-excellent-weapons-and-armor-4-10-2-silver-weapons-and-armor-16a6db83@f8f166deb31ff332069d7380cf5aaec8
 ---
 
 # 4.10 Excellent Weapons and Armor / 4.10.2 Silver Weapons and Armor
@@ -19,7 +19,7 @@ From [[sword-world-rpg-complete-edition]].
 
 ### Source order
 
-- [[sword-world-rpg-complete-edition-section-4-10-excellent-weapons-and-armor-and-armor-008abd2e]] - previous source section: 4.10 Excellent Weapons and Armor / and Armor
+- [[sword-world-rpg-complete-edition-section-4-10-excellent-weapons-and-armor-and-armor-659f9b02]] - previous source section: 4.10 Excellent Weapons and Armor / and Armor
 - [[sword-world-rpg-complete-edition-section-4-10-excellent-weapons-and-armor-4-10-3-magical-weapons-and-armor-2556cd14]] - next source section: 4.10 Excellent Weapons and Armor / 4.10.3 Magical Weapons and Armor
 
 ### Source structure

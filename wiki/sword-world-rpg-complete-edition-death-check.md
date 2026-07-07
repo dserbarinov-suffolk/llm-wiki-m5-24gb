@@ -7,7 +7,7 @@ sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-07
 domain: sword-world-rpg-complete-edition
 category_path: concepts
-projection_coverage: topic-sword-world-rpg-complete-edition-death-check@86f1064a916435245e6222e9c3ed0b16
+projection_coverage: topic-sword-world-rpg-complete-edition-death-check@6b23b1ee0cd06838a661b0e201d6f2ce
 ---
 
 # Death Check
@@ -63,6 +63,11 @@ What [[sword-world-rpg-complete-edition]] covers about death check:
 ### Shared technical atoms
 
 - [[sword-world-rpg-complete-edition-unconscious]] - shared statements and technical atoms: Unconscious shares source evidence from 4.9 Unconscious and Death Checks / 4.9.2 Death Checks Every Hour: Characters with 0 or negative life force remain unconscious, even if they successfully survived a death check. If they're given treatment by magic, etc. and have the ... [truncated]; Unconscious shares technical record from 4.9 Unconscious and Death Checks / 4.9.1 Adventurer Death Checks: Ducard II, with a life force of -4 , must make a death check . (1 shared statement(s), 2 shared atom(s))
+
+### Shared claims
+
+- [[sword-world-rpg-complete-edition-attack-character-monster]] - shared statements: Attacks From Characters Against Monsters shares source evidence from 4.9 Unconscious and Death Checks / 4.9.4 Mercy: A character who falls down with 0 or negative life force due to an attack that was declared to be mercy , will only fail their death check if double ones are rolled. ... [truncated] (1 shared statement(s))
+- [[sword-world-rpg-complete-edition-attack-monster-character]] - shared statements: Attacks From Monsters Against Characters shares source evidence from 4.9 Unconscious and Death Checks / 4.9.4 Mercy: A character who falls down with 0 or negative life force due to an attack that was declared to be mercy , will only fail their death check if double ones are rolled. ... [truncated] (1 shared statement(s))
 
 ## Source
 

@@ -8,7 +8,7 @@ updated: 2026-07-07
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-12-various-checks-12-1-rules-regarding-language-12-1-3-adventurer-languages-d483b8c7@ab6d7241bc5426b2ba1464192af38501
+projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-12-various-checks-12-1-rules-regarding-language-12-1-3-adventurer-languages-d483b8c7@1d0aa90c7f91d6b9acc7db6cb4e9513f
 ---
 
 # Chapter 12: Various Checks / 12.1 Rules Regarding Language / 12.1.3 Adventurer Languages
@@ -19,12 +19,12 @@ From [[sword-world-rpg-complete-edition]].
 
 ### Source order
 
-- [[sword-world-rpg-complete-edition-section-chapter-12-various-checks-12-1-rules-regarding-language-lizardman-e3875220]] - previous source section: Chapter 12: Various Checks / 12.1 Rules Regarding Language / [ Lizardman ]
-- [[sword-world-rpg-complete-edition-section-chapter-12-various-checks-12-1-rules-regarding-language-starting-adventurer-languages-047ff0d9]] - next source section: Chapter 12: Various Checks / 12.1 Rules Regarding Language / Starting Adventurer Languages
+- [[sword-world-rpg-complete-edition-section-chapter-12-various-checks-12-1-rules-regarding-language-forcelia-54fdac38]] - previous source section: Chapter 12: Various Checks / 12.1 Rules Regarding Language / Forcelia
 
 ### Source structure
 
 - [[sword-world-rpg-complete-edition-section-chapter-12-various-checks-12-1-rules-regarding-language-d3a9fe97]] - broader source section: Chapter 12: Various Checks / 12.1 Rules Regarding Language
+- [[sword-world-rpg-complete-edition-section-chapter-12-various-checks-12-1-rules-regarding-language-12-1-3-adventurer-languages-starting-adv-ff6c37e9]] - narrower source section: Chapter 12: Various Checks / 12.1 Rules Regarding Language / 12.1.3 Adventurer Languages / Starting Adventurer Languages
 
 ## Statements
 

@@ -1,13 +1,13 @@
 ---
 page_id: javascriptallonge-coffee
 page_kind: concept
-summary: Coffee: 5 statement(s) and 4 atom(s) from raw/javascriptallonge.pdf.
+summary: Coffee: 5 statement(s) and 5 atom(s) from raw/javascriptallonge.pdf.
 page_family: broad-topic
 sources: raw/javascriptallonge.pdf
 updated: 2026-07-07
 domain: javascriptallonge
 category_path: concepts
-projection_coverage: topic-javascriptallonge-coffee@d48007515cac60717c3ed18d06538f9a
+projection_coverage: topic-javascriptallonge-coffee@6696a1d0a8c1921fd929ecae5c978a1e
 ---
 
 # Coffee
@@ -16,7 +16,7 @@ What [[javascriptallonge]] covers about coffee:
 
 ## Statements
 
-### values are expressions
+### Prelude: Values and Expressions over Coffee / values are expressions
 
 - All values are expressions. Say you hand the barista a café Cubano. Yup, you hand over a cup with some coffee infused through partially caramelized sugar. You say, 'I want one of these.' The barista is no fool, she gives it straight back to you, and you get exactly what you want. Thus, a café Cubano is an expression (you can use it to place an order) and a value (you get it back from the barista). _(javascriptallonge.pdf (source-range-c98ab3e6-00099))_
 
@@ -29,7 +29,7 @@ What [[javascriptallonge]] covers about coffee:
 
 ## Technical atoms
 
-### Technical frame 1: values are expressions
+### Technical frame 1: Prelude: Values and Expressions over Coffee / values are expressions
 
 **Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-00106))_
 
@@ -40,7 +40,31 @@ What [[javascriptallonge]] covers about coffee:
 <a id="atom-technical-atom-fe6c24dbca825fef"></a>
 > And if we hand over the espresso, we get the espresso right back.
 
-### Technical frame 2: values are expressions
+### Technical frame 2: Prelude: Values and Expressions over Coffee / values are expressions
+
+**Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-00118))_
+
+> Second, sometimes, the cups are of the same type-perhaps two espresso cups-but they have different contents. One holds a single, one a double. This corresponds to comparing two JavaScript values that have the same type but different 'content.' For example, the number 5 is not the same thing as the number 2 .
+
+**Atom:** _(javascriptallonge.pdf (source-range-c98ab3e6-00110))_
+
+<a id="atom-technical-atom-c64bb3ece0d1ebd3"></a>
+```text
+10 Technically, it's a representation of a value using Base10 notation, but we needn't worry about that in this book. You and I both understand that this means '42,' and so does the computer.
+11 In some languages, expressions are a kind of value unto themselves and can be manipulated. The grandfather of such languages is Lisp. JavaScript is not such a language, expressions in and of themselves are not values.
+```
+
+<details>
+<summary>Parsed table preview (needs review)</summary>
+
+| entry | content |
+| --- | --- |
+| 10 | Technically, it's a representation of a value using Base10 notation, but we needn't worry about that in this book. You and I both understand that this means '42,' and so does the computer. |
+| 11 | In some languages, expressions are a kind of value unto themselves and can be manipulated. The grandfather of such languages is Lisp. JavaScript is not such a language, expressions in and of themselves are not values. |
+
+</details>
+
+### Technical frame 3: Prelude: Values and Expressions over Coffee / values are expressions
 
 **Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-00118))_
 
@@ -72,10 +96,14 @@ What [[javascriptallonge]] covers about coffee:
 
 ### Shared technical atoms
 
-- [[javascriptallonge-expression]] - shared statements and technical atoms: Expression shares source evidence from A Warm Cup: Basic Strings and Quasi-Literals: Coffee and a Book An expression is any valid unit of code that resolves to a value.-Mozilla Development Network: Expressions and operators 87; Expression shares technical record from Prelude: Values and Expressions over Coffee: Prelude: Values and Expressions over Coffee The following material is extremely basic, however like most stories, the best way to begin is to start at the very begin ... [truncated] (1 shared statement(s), 2 shared atom(s))
-- [[javascriptallonge-javascript]] - shared technical atoms: Javascript shares technical record from values are expressions: 2 In JavaScript, we test whether two values are identical with the operator, and whether they are === not identical with the operator: !== 2 === 2 //=> true 'hello' ... [truncated] (1 shared atom(s))
-- [[javascriptallonge-string]] - shared technical atoms: String shares technical record from values are expressions: 2 In JavaScript, we test whether two values are identical with the operator, and whether they are === not identical with the operator: !== 2 === 2 //=> true 'hello' ... [truncated] (1 shared atom(s))
-- [[javascriptallonge-type]] - shared technical atoms: Type shares technical record from values are expressions: 2 In JavaScript, we test whether two values are identical with the operator, and whether they are === not identical with the operator: !== 2 === 2 //=> true 'hello' ... [truncated] (1 shared atom(s))
+- [[javascriptallonge-expression]] - shared statements and technical atoms: Expression shares source evidence from A Warm Cup: Basic Strings and Quasi-Literals: Coffee and a Book An expression is any valid unit of code that resolves to a value.-Mozilla Development Network: Expressions and operators 87; Expression shares technical record from Prelude: Values and Expressions over Coffee: Prelude: Values and Expressions over Coffee The following material is extremely basic, however like most stories, the best way to begin is to start at the very begin ... [truncated] (1 shared statement(s), 3 shared atom(s))
+- [[javascriptallonge-javascript]] - shared technical atoms: Javascript shares technical record from Prelude: Values and Expressions over Coffee / values are expressions: 10 Technically, it's a representation of a value using Base10 notation, but we needn't worry about that in this book. You and I both understand that this means '42,' ... [truncated] (2 shared atom(s))
+- [[javascriptallonge-string]] - shared technical atoms: String shares technical record from Prelude: Values and Expressions over Coffee / values are expressions: 2 In JavaScript, we test whether two values are identical with the operator, and whether they are === not identical with the operator: !== 2 === 2 //=> true 'hello' ... [truncated] (1 shared atom(s))
+- [[javascriptallonge-type]] - shared technical atoms: Type shares technical record from Prelude: Values and Expressions over Coffee / values are expressions: 2 In JavaScript, we test whether two values are identical with the operator, and whether they are === not identical with the operator: !== 2 === 2 //=> true 'hello' ... [truncated] (1 shared atom(s))
+
+### Topics
+
+- [[javascriptallonge-expression-coffee]] - narrower topic: Expression Coffee shares source evidence from Prelude: Values and Expressions over Coffee / values are expressions: Now the barista gives us back an espresso. And if we hand over the espresso, we get the espresso right back. So, boiling water plus ground coffee is an expression, b ... [truncated]; Expression Coffee shares technical record from Prelude: Values and Expressions over Coffee / values are expressions: And if we hand over the espresso, we get the espresso right back. (2 shared statement(s), 1 shared atom(s))
 
 ## Source
 

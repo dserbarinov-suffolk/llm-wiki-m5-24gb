@@ -8,7 +8,7 @@ updated: 2026-07-07
 domain: javascriptallonge
 category_path: sources/javascriptallonge/sections
 source_id: javascriptallonge.pdf
-projection_coverage: section-javascriptallonge-section-interactive-generators-c6339bc5@915f2b1a3f76f97442a958aa4a64562c
+projection_coverage: section-javascriptallonge-section-interactive-generators-c6339bc5@5499d049079d04260bae71c0e1208789
 ---
 
 # Interactive Generators
@@ -19,8 +19,19 @@ From [[javascriptallonge]].
 
 ### Source order
 
-- [[javascriptallonge-section-after-another-drink-7aeb48ed]] - previous source section: after another drink
-- [[javascriptallonge-section-representing-naughts-and-crosses-as-a-stateless-function-c813b1aa]] - next source section: representing naughts and crosses as a stateless function
+- [[javascriptallonge-section-interlude-the-carpenter-interviews-for-a-job-9cc5ffd7]] - previous source section: Interlude: The Carpenter Interviews for a Job
+- [[javascriptallonge-section-the-golden-crema-appendices-and-afterwords-baeb2597]] - next source section: The Golden Crema: Appendices and Afterwords
+
+### Source structure
+
+- [[javascriptallonge-section-interactive-generators-basic-operations-on-iterables-540cf505]] - narrower source section: Interactive Generators / Basic Operations on Iterables
+- [[javascriptallonge-section-interactive-generators-representing-naughts-and-crosses-as-a-stateful-function-94951f68]] - narrower source section: Interactive Generators / representing naughts and crosses as a stateful function
+- [[javascriptallonge-section-interactive-generators-representing-naughts-and-crosses-as-a-stateless-function-e2c2d97f]] - narrower source section: Interactive Generators / representing naughts and crosses as a stateless function
+- [[javascriptallonge-section-interactive-generators-this-seems-familiar-ca8bdeb5]] - narrower source section: Interactive Generators / this seems familiar
+
+### Topics
+
+- [[javascriptallonge-interactive-generator]] - topic hub: opens the topic page for Interactive Generator
 
 ## Statements
 

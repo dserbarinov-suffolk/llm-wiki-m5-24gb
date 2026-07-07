@@ -16,7 +16,8 @@ from llmwiki.domain.ledger.procedure_evidence_index import (
     rollup_entries,
 )
 from llmwiki.domain.ledger.projection_policy import PAGE_FAMILY_COLLECTION_PAGE
-from llmwiki.domain.ledger.section_navigation import section_page_id, section_title
+from llmwiki.domain.ledger.section_navigation import projected_section_page_id, section_title
+from llmwiki.domain.ledger.section_planning import SectionGroundedPlan
 from llmwiki.domain.ledger.structure import DocumentStructure, StructureNode
 from llmwiki.domain.pages import PageMetadata, WikiPage, slugify
 
@@ -52,10 +53,11 @@ def build_collection_pages(
     source_locator: str,
     today: str,
     shape_catalog: KnowledgeShapeCatalog,
+    section_plan: SectionGroundedPlan,
 ) -> tuple[WikiPage, ...]:
     return tuple(
         _page(plan, source_page_id, source_locator, today)
-        for plan in collection_plans(ledger, structure, source_page_id, shape_catalog)
+        for plan in collection_plans(ledger, structure, source_page_id, shape_catalog, section_plan)
     )
 
 
@@ -64,6 +66,7 @@ def collection_plans(
     structure: DocumentStructure,
     source_page_id: str,
     shape_catalog: KnowledgeShapeCatalog,
+    section_plan: SectionGroundedPlan,
 ) -> tuple[CollectionPlan, ...]:
     shape_by_node = {item.structure_node_id: item.shape_kind for item in shape_catalog.candidates}
     grouped_entries = entries_by_node(ledger)
@@ -80,6 +83,7 @@ def collection_plans(
             source_page_id,
             node,
             shape_by_node,
+            section_plan,
         )
         if len(members) < _MIN_MEMBERS:
             continue
@@ -93,7 +97,9 @@ def collection_plans(
                     f"{source_page_id}-collection-{title}-{short_digest(node.structure_node_id, 8)}"
                 ),
                 title=title,
-                source_section_page_id=section_page_id(source_page_id, structure, node),
+                source_section_page_id=projected_section_page_id(
+                    source_page_id, structure, node, section_plan
+                ),
                 source_node_id=node.structure_node_id,
                 members=members,
                 peer_signal_kinds=signals,
@@ -103,9 +109,7 @@ def collection_plans(
     return tuple(plans)
 
 
-def _page(
-    plan: CollectionPlan, source_page_id: str, source_locator: str, today: str
-) -> WikiPage:
+def _page(plan: CollectionPlan, source_page_id: str, source_locator: str, today: str) -> WikiPage:
     body = _body(plan, source_page_id)
     metadata = PageMetadata(
         page_id=plan.collection_page_id,
@@ -158,6 +162,7 @@ def _members(
     source_page_id: str,
     node: StructureNode,
     shape_by_node: dict[str, str],
+    section_plan: SectionGroundedPlan,
 ) -> tuple[CollectionMember, ...]:
     members: list[CollectionMember] = []
     for child in structure.children(node.structure_node_id):
@@ -171,7 +176,9 @@ def _members(
             CollectionMember(
                 structure_node_id=child.structure_node_id,
                 title=section_title(structure, child),
-                section_page_id=section_page_id(source_page_id, structure, child),
+                section_page_id=projected_section_page_id(
+                    source_page_id, structure, child, section_plan
+                ),
                 entry_count=len(entries),
                 atom_count=len(atoms),
             )

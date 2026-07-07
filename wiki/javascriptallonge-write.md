@@ -1,13 +1,13 @@
 ---
 page_id: javascriptallonge-write
 page_kind: concept
-summary: Write: 9 statement(s) and 8 atom(s) from raw/javascriptallonge.pdf.
+summary: Write: 9 statement(s) and 10 atom(s) from raw/javascriptallonge.pdf.
 page_family: broad-topic
 sources: raw/javascriptallonge.pdf
 updated: 2026-07-07
 domain: javascriptallonge
 category_path: concepts
-projection_coverage: topic-javascriptallonge-write@89927304c4ffde2bf5d7c951e2521473
+projection_coverage: topic-javascriptallonge-write@34087bce89cd0bae66112c1fd61b4b12
 ---
 
 # Write
@@ -16,44 +16,44 @@ What [[javascriptallonge]] covers about write:
 
 ## Statements
 
-### const
+### And also: / That Constant Coffee Craving / const
 
 - Another way to write our 'circumference' function would be to pass PI along with the diameter argument, something like this: _(javascriptallonge.pdf (source-range-c98ab3e6-00400))_
 
-### Unary
+### Recipes with Basic Functions / Unary
 
 - Wecould write ['1', '2', '3'].map((s) => parseInt(s)) , or we could come up with a decorator to do the job for us: _(javascriptallonge.pdf (source-range-c98ab3e6-00660))_
 
-### copy-on-write
+### Copy on Write / a few utilities / copy-on-write
 
 - Copy-on-write is the name given to the policy that whenever a task attempts to make a change to the shared information, it should first create a separate (private) copy of that information to prevent its changes from becoming visible to all the other tasks.Wikipedia 73 _(javascriptallonge.pdf (source-range-c98ab3e6-01228))_
 
 - Looking at the code again, you see that the copy function doesn't copy on write: It follows the pattern that while constructing something, we own it and can be liberal with mutation. Once we're done with it and give it to someone else, we need to be conservative and use a strategy like copy-on-read or copy-on-write. _(javascriptallonge.pdf (source-range-c98ab3e6-01230))_
 
-### self-currying flip
+### Recipes with Data / Flip / self-currying flip
 
 - Nowif we write mapWith = flip(map) , we can call mapWith(fn, list) or mapWith(fn)(list) , our choice. _(javascriptallonge.pdf (source-range-c98ab3e6-01441))_
 
-### a look back at functional iterators
+### Served by the Pot: Collections / Iteration and Iterables / a look back at functional iterators
 
 - If we write a program with the presumption that 'everything is an object,' we can write maps, folds, and filters that work on objects. We just ask the object for an iterator, and work on the iterator. Our functions don't need to know anything about how an object implements iteration, and we get the benefit of lazily traversing our objects. _(javascriptallonge.pdf (source-range-c98ab3e6-01513))_
 
-### iterables
+### Served by the Pot: Collections / Iteration and Iterables / iterables
 
 - So, when a standard way to write iterators was added to the JavaScript language, it didn't make sense to use a method like .iterator() for it: That would conflict with existing code. Instead, the language encourages new code to be written with a different name for the method that a collection object uses to return its iterator. _(javascriptallonge.pdf (source-range-c98ab3e6-01525))_
 
-### We'll keep it simple:
+### Served by the Pot: Collections / Generating Iterables / state machines / We'll keep it simple:
 
 - Again, this is not particularly horrendous, but like the recursive example, we're explicitly greenspunning the natural linear state. In a generator, we write 'do this, then this, then this.' In an iterator, we have to wrap that up and explicitly keep track of what step we're on. _(javascriptallonge.pdf (source-range-c98ab3e6-01628))_
 
-### generators and iterables
+### Served by the Pot: Collections / Generating Iterables / generators and iterables
 
 - Our generator function oneTwoThree is not an iterator. It's a function that returns an iterator when we invoke it. We write the function to yield values instead of return a single value, and JavaScript takes care of turning this into an object with a .next() function we can call. _(javascriptallonge.pdf (source-range-c98ab3e6-01678))_
 
 
 ## Technical atoms
 
-### Technical frame 1: const
+### Technical frame 1: And also: / That Constant Coffee Craving / const
 
 **Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-00404))_
 
@@ -66,7 +66,7 @@ What [[javascriptallonge]] covers about write:
 (diameter, PI) => diameter * PI
 ```
 
-### Technical frame 2: const
+### Technical frame 2: And also: / That Constant Coffee Craving / const
 
 **Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-00415))_
 
@@ -83,7 +83,7 @@ return diameter * PI
 //=> 6.2831853
 ```
 
-### Technical frame 3: partial application
+### Technical frame 3: And also: / Building Blocks / partial application
 
 **Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-00588))_
 
@@ -109,7 +109,7 @@ return diameter * PI
 
 </details>
 
-### Technical frame 4: Partial Application
+### Technical frame 4: Recipes with Basic Functions / Partial Application
 
 **Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-00643))_
 
@@ -134,7 +134,7 @@ In Building Blocks, we discussed partial application, but we didn't write a gene
 
 </details>
 
-### Technical frame 5: Unary
+### Technical frame 5: Recipes with Basic Functions / Unary
 
 **Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-00660))_
 
@@ -152,7 +152,7 @@ return fn.call(this, something)
 }
 ```
 
-### Technical frame 6: Unary
+### Technical frame 6: Recipes with Basic Functions / Unary
 
 **Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-00660))_
 
@@ -166,7 +166,57 @@ return fn.call(this, something)
 //=> [1, 2, 3]
 ```
 
-### Technical frame 7: a look back at functional iterators
+### Technical frame 7: Copy on Write / Making Data Out Of Functions
+
+**Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01305))_
+
+> They established that arbitrary computations could be represented a small set of axiomatic components. For example, we don't need arrays to represent lists, or even POJOs to represent nodes in a linked list. We can model lists just using functions.
+
+**Atom:** _(javascriptallonge.pdf (source-range-c98ab3e6-01309))_
+
+<a id="atom-technical-atom-268f5812c47797c2"></a>
+```text
+76 http://www.amazon.com/gp/product/0192801422/ref=as_li_ss_tl?ie=UTF8&tag=raganwald001-20&linkCode=as2&camp=1789&creative= 390957&creativeASIN=0192801422
+77 http://oscin.es
+```
+
+<details>
+<summary>Parsed table preview (needs review)</summary>
+
+| entry | content |
+| --- | --- |
+| 76 | http://www.amazon.com/gp/product/0192801422/ref=as_li_ss_tl?ie=UTF8&tag=raganwald001-20&linkCode=as2&camp=1789&creative= 390957&creativeASIN=0192801422 |
+| 77 | http://oscin.es |
+
+</details>
+
+### Technical frame 8: Copy on Write / Making Data Out Of Functions / functions are not the real point
+
+**Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01379))_
+
+> Knowing how to make a list out of just functions is a little like knowing that photons are the Gauge Bosons 81 of the electromagnetic force. It's the QED of physics that underpins the Maxwell's Equations of programming. Deeply important, but not practical when you're building a bridge.
+
+**Atom:** _(javascriptallonge.pdf (source-range-c98ab3e6-01380))_
+
+<a id="atom-technical-atom-f2ed9b6962a2b6bc"></a>
+```text
+79 https://en.wikipedia.org/wiki/Church_encoding
+81 https://en.wikipedia.org/wiki/Gauge_boson
+80 https://en.wikipedia.org/wiki/Surreal_number
+```
+
+<details>
+<summary>Parsed table preview (needs review)</summary>
+
+| entry | content |
+| --- | --- |
+| 79 | https://en.wikipedia.org/wiki/Church_encoding |
+| 81 | https://en.wikipedia.org/wiki/Gauge_boson |
+| 80 | https://en.wikipedia.org/wiki/Surreal_number |
+
+</details>
+
+### Technical frame 9: Served by the Pot: Collections / Iteration and Iterables / a look back at functional iterators
 
 **Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01513))_
 
@@ -189,7 +239,7 @@ collectionSum(stack)
 //=> 6
 ```
 
-### Technical frame 8: generators and iterables
+### Technical frame 10: Served by the Pot: Collections / Generating Iterables / generators and iterables
 
 **Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01682))_
 
@@ -205,23 +255,22 @@ collectionSum(stack)
 
 ### Shared technical atoms
 
-- [[javascriptallonge-javascript]] - shared statements and technical atoms: Javascript shares source evidence from generators and iterables: Our generator function oneTwoThree is not an iterator. It's a function that returns an iterator when we invoke it. We write the function to yield values instead of r ... [truncated]; Javascript shares technical record from partial application: If we call our generator function more than once, we get new iterators. (1 shared statement(s), 3 shared atom(s))
-- [[javascriptallonge-partial-application]] - shared technical atoms: partial application shares technical record from partial application: 39 http://underscorejs.org 41 If we don't want to sort out Underscore, we can also write the following: const map = (a, fn) => a.map(fn); , and trust that it works e ... [truncated] (2 shared atom(s))
-- [[javascriptallonge-functional-iterator]] - shared statements and technical atoms: Functional Iterators shares source evidence from a look back at functional iterators: If we write a program with the presumption that 'everything is an object,' we can write maps, folds, and filters that work on objects. We just ask the object for an ... [truncated]; Functional Iterators shares technical record from a look back at functional iterators: const collectionSum = (collection) => { const iterator = collection.iterator(); let eachIteration, sum = 0; while ((eachIteration = iterator(), !eachIteration.done)) ... [truncated] (1 shared statement(s), 1 shared atom(s))
-- [[javascriptallonge-iterator]] - shared statements and technical atoms: Iterator shares source evidence from iterables: So, when a standard way to write iterators was added to the JavaScript language, it didn't make sense to use a method like .iterator() for it: That would conflict wi ... [truncated]; Iterator shares technical record from generators and iterables: If we call our generator function more than once, we get new iterators. (1 shared statement(s), 1 shared atom(s))
-- [[javascriptallonge-object]] - shared statements and technical atoms: Object shares source evidence from generators and iterables: Our generator function oneTwoThree is not an iterator. It's a function that returns an iterator when we invoke it. We write the function to yield values instead of r ... [truncated]; Object shares technical record from generators and iterables: If we call our generator function more than once, we get new iterators. (1 shared statement(s), 1 shared atom(s))
-- [[javascriptallonge-return]] - shared statements and technical atoms: Return shares source evidence from generators and iterables: Our generator function oneTwoThree is not an iterator. It's a function that returns an iterator when we invoke it. We write the function to yield values instead of r ... [truncated]; Return shares technical record from generators and iterables: If we call our generator function more than once, we get new iterators. (1 shared statement(s), 1 shared atom(s))
-- [[javascriptallonge-doesn-t-work-because-parseint]] - shared technical atoms: Doesn'T Work Because Parseint shares technical record from Unary: const unary = (fn) => fn.length === 1 ? fn : function (something) { return fn.call(this, something) } (1 shared atom(s))
-- [[javascriptallonge-functional]] - shared technical atoms: Functional shares technical record from Partial Application: Partial Application In Building Blocks, we discussed partial application, but we didn't write a generalized recipe for it. This is such a common tool that many libra ... [truncated] (1 shared atom(s))
+- [[javascriptallonge-javascript]] - shared statements and technical atoms: Javascript shares source evidence from Served by the Pot: Collections / Generating Iterables / generators and iterables: Our generator function oneTwoThree is not an iterator. It's a function that returns an iterator when we invoke it. We write the function to yield values instead of r ... [truncated]; Javascript shares technical record from And also: / Building Blocks / partial application: If we call our generator function more than once, we get new iterators. (1 shared statement(s), 3 shared atom(s))
+- [[javascriptallonge-copy]] - shared statements and technical atoms: Copy shares source evidence from Copy on Write / a few utilities / copy-on-write: Copy-on-write is the name given to the policy that whenever a task attempts to make a change to the shared information, it should first create a separate (private) c ... [truncated]; Copy shares technical record from Copy on Write / Making Data Out Of Functions: 76 http://www.amazon.com/gp/product/0192801422/ref=as_li_ss_tl?ie=UTF8&tag=raganwald001-20&linkCode=as2&camp=1789&creative= 390957&creativeASIN=0192801422 77 http://oscin.es (2 shared statement(s), 2 shared atom(s))
+- [[javascriptallonge-object]] - shared statements and technical atoms: Object shares source evidence from Served by the Pot: Collections / Generating Iterables / generators and iterables: Our generator function oneTwoThree is not an iterator. It's a function that returns an iterator when we invoke it. We write the function to yield values instead of r ... [truncated]; Object shares technical record from Served by the Pot: Collections / Iteration and Iterables / a look back at functional iterators: const collectionSum = (collection) => { const iterator = collection.iterator(); let eachIteration, sum = 0; while ((eachIteration = iterator(), !eachIteration.done)) ... [truncated] (1 shared statement(s), 2 shared atom(s))
+- [[javascriptallonge-data]] - shared technical atoms: Data shares technical record from Copy on Write / Making Data Out Of Functions: 76 http://www.amazon.com/gp/product/0192801422/ref=as_li_ss_tl?ie=UTF8&tag=raganwald001-20&linkCode=as2&camp=1789&creative= 390957&creativeASIN=0192801422 77 http://oscin.es (2 shared atom(s))
+- [[javascriptallonge-partial-application]] - shared technical atoms: partial application shares technical record from And also: / Building Blocks / partial application: 39 http://underscorejs.org 41 If we don't want to sort out Underscore, we can also write the following: const map = (a, fn) => a.map(fn); , and trust that it works e ... [truncated] (2 shared atom(s))
+- [[javascriptallonge-functional-iterator]] - shared statements and technical atoms: Functional Iterators shares source evidence from Served by the Pot: Collections / Iteration and Iterables / a look back at functional iterators: If we write a program with the presumption that 'everything is an object,' we can write maps, folds, and filters that work on objects. We just ask the object for an ... [truncated]; Functional Iterators shares technical record from Served by the Pot: Collections / Iteration and Iterables / a look back at functional iterators: const collectionSum = (collection) => { const iterator = collection.iterator(); let eachIteration, sum = 0; while ((eachIteration = iterator(), !eachIteration.done)) ... [truncated] (1 shared statement(s), 1 shared atom(s))
+- [[javascriptallonge-iterator]] - shared statements and technical atoms: Iterator shares source evidence from Served by the Pot: Collections / Iteration and Iterables / iterables: So, when a standard way to write iterators was added to the JavaScript language, it didn't make sense to use a method like .iterator() for it: That would conflict wi ... [truncated]; Iterator shares technical record from Served by the Pot: Collections / Generating Iterables / generators and iterables: If we call our generator function more than once, we get new iterators. (1 shared statement(s), 1 shared atom(s))
+- [[javascriptallonge-return]] - shared statements and technical atoms: Return shares source evidence from Served by the Pot: Collections / Generating Iterables / generators and iterables: Our generator function oneTwoThree is not an iterator. It's a function that returns an iterator when we invoke it. We write the function to yield values instead of r ... [truncated]; Return shares technical record from Served by the Pot: Collections / Generating Iterables / generators and iterables: If we call our generator function more than once, we get new iterators. (1 shared statement(s), 1 shared atom(s))
 
 ### Shared claims
 
-- [[javascriptallonge-copy]] - shared statements: Copy shares source evidence from copy-on-write: Copy-on-write is the name given to the policy that whenever a task attempts to make a change to the shared information, it should first create a separate (private) c ... [truncated] (2 shared statement(s))
-- [[javascriptallonge-pattern]] - shared statements: Pattern shares source evidence from copy-on-write: Looking at the code again, you see that the copy function doesn't copy on write: It follows the pattern that while constructing something, we own it and can be liber ... [truncated] (1 shared statement(s))
+- [[javascriptallonge-pattern]] - shared statements: Pattern shares source evidence from Copy on Write / a few utilities / copy-on-write: Looking at the code again, you see that the copy function doesn't copy on write: It follows the pattern that while constructing something, we own it and can be liber ... [truncated] (1 shared statement(s))
 
 ### Topics
 
-- [[javascriptallonge-copy-write]] - narrower topic: Copy on Write shares source evidence from copy-on-write: Copy-on-write is the name given to the policy that whenever a task attempts to make a change to the shared information, it should first create a separate (private) c ... [truncated] (2 shared statement(s))
+- [[javascriptallonge-copy-write]] - narrower topic: Copy on Write shares source evidence from Copy on Write / a few utilities / copy-on-write: Copy-on-write is the name given to the policy that whenever a task attempts to make a change to the shared information, it should first create a separate (private) c ... [truncated]; Copy on Write shares technical record from Copy on Write / Making Data Out Of Functions: 76 http://www.amazon.com/gp/product/0192801422/ref=as_li_ss_tl?ie=UTF8&tag=raganwald001-20&linkCode=as2&camp=1789&creative= 390957&creativeASIN=0192801422 77 http://oscin.es (2 shared statement(s), 2 shared atom(s))
 
 ## Source
 

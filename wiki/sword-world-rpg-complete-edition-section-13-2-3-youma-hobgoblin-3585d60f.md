@@ -8,7 +8,7 @@ updated: 2026-07-07
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-13-2-3-youma-hobgoblin-3585d60f@06462eb368470bb54503c44419d28318
+projection_coverage: section-sword-world-rpg-complete-edition-section-13-2-3-youma-hobgoblin-3585d60f@a9d2a0415c8e0d3add7849e8dd60f3d4
 ---
 
 # 13.2.3 Youma / [ Hobgoblin ]
@@ -19,7 +19,6 @@ From [[sword-world-rpg-complete-edition]].
 
 ### Source order
 
-- [[sword-world-rpg-complete-edition-section-13-2-3-youma-gremlin-monster-level-2-rarity-9-agility-17-movement-speed-6-8-air-number-one-to-se-cad1d5d0]] - previous source section: 13.2.3 Youma / [ Gremlin ] Monster Level=2 Rarity=9 Agility=17 Movement Speed=6/8 (air) Number=One to several Frequency=Rare Intellect=Human Reaction=Adversarial Attack Points=Fangs: 9 (2) Strike Points=3 Evasion Points=11 (4) Defense Points=4 Life Points/Resistance=8/9 (2) Mental Points/Resistance=14/10 (3) Special Abilities=2nd level spirit magic (Magic Intensity/Magic Power=11/4) Habitat=Mountains, highlands Languages=Impish, silent spirit Perception=Five senses (infravision)
 - [[sword-world-rpg-complete-edition-section-13-2-3-youma-goblin-87c88b5e]] - next source section: 13.2.3 Youma / [ Goblin ]
 
 ### Source structure

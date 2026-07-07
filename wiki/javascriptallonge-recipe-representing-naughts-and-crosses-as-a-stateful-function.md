@@ -9,7 +9,7 @@ domain: javascriptallonge
 category_path: recipes/javascriptallonge
 source_id: javascriptallonge.pdf
 aliases: representing-naughts-and-crosses-as-a-stateful-function
-projection_coverage: recipe-javascriptallonge-recipe-representing-naughts-and-crosses-as-a-stateful-function@cbd60413e4803eff08bd46b7fbda5863
+projection_coverage: recipe-javascriptallonge-recipe-representing-naughts-and-crosses-as-a-stateful-function@7df6432f4e3b57a521b04b4e8ce95973
 ---
 
 # representing naughts and crosses as a stateful function
@@ -18,7 +18,7 @@ From [[javascriptallonge]].
 
 ## Pattern
 
-- Use the source-backed pattern described in [[javascriptallonge-section-representing-naughts-and-crosses-as-a-stateful-function-44ba54ff]].
+- Use the source-backed pattern described in [[javascriptallonge-section-interactive-generators-representing-naughts-and-crosses-as-a-stateful-function-94951f68]].
 - Evidence roles: decision, example.
 
 ## Applicability And Rationale
@@ -91,4 +91,4 @@ aNaughtsAndCrossesGame(4)
 ## Source Trail
 
 - Source manifest: [[javascriptallonge]]
-- Source section: [[javascriptallonge-section-representing-naughts-and-crosses-as-a-stateful-function-44ba54ff]]
+- Source section: [[javascriptallonge-section-interactive-generators-representing-naughts-and-crosses-as-a-stateful-function-94951f68]]

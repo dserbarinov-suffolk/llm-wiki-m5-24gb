@@ -9,7 +9,7 @@ domain: javascriptallonge
 category_path: recipes/javascriptallonge
 source_id: javascriptallonge.pdf
 aliases: call-by-sharing
-projection_coverage: recipe-javascriptallonge-recipe-call-by-sharing@2c2f7a02477cf08cdeb028a951258b91
+projection_coverage: recipe-javascriptallonge-recipe-call-by-sharing@9f9dc86686e69d91579da226d3c89bac
 ---
 
 # call by sharing
@@ -18,7 +18,7 @@ From [[javascriptallonge]].
 
 ## Pattern
 
-- Use the source-backed pattern described in [[javascriptallonge-section-call-by-sharing-4054593f]].
+- Use the source-backed pattern described in [[javascriptallonge-section-and-also-call-by-sharing-d6249c17]].
 - Evidence roles: decision, constraint, definition, explanation, procedure, structured-state, example.
 
 ## Applicability And Rationale
@@ -44,4 +44,4 @@ _Source: javascriptallonge.pdf (source-range-c98ab3e6-00313)_
 ## Source Trail
 
 - Source manifest: [[javascriptallonge]]
-- Source section: [[javascriptallonge-section-call-by-sharing-4054593f]]
+- Source section: [[javascriptallonge-section-and-also-call-by-sharing-d6249c17]]

@@ -9,7 +9,7 @@ domain: javascriptallonge
 category_path: recipes/javascriptallonge
 source_id: javascriptallonge.pdf
 aliases: left-variadic-destructuring
-projection_coverage: recipe-javascriptallonge-recipe-left-variadic-destructuring@56d93b6336ab3f12237fc6284c4ab461
+projection_coverage: recipe-javascriptallonge-recipe-left-variadic-destructuring@43c193286b164b370b56daa8e33ac20f
 ---
 
 # left-variadic destructuring
@@ -18,7 +18,7 @@ From [[javascriptallonge]].
 
 ## Pattern
 
-- Use the source-backed pattern described in [[javascriptallonge-section-left-variadic-destructuring-5db72b5e]].
+- Use the source-backed pattern described in [[javascriptallonge-section-recipes-with-basic-functions-left-variadic-functions-left-variadic-destructuring-1d686fdb]].
 - Evidence roles: decision, constraint, procedure, example.
 
 ## Applicability And Rationale
@@ -87,4 +87,4 @@ last
 ## Source Trail
 
 - Source manifest: [[javascriptallonge]]
-- Source section: [[javascriptallonge-section-left-variadic-destructuring-5db72b5e]]
+- Source section: [[javascriptallonge-section-recipes-with-basic-functions-left-variadic-functions-left-variadic-destructuring-1d686fdb]]

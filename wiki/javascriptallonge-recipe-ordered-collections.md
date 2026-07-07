@@ -9,7 +9,7 @@ domain: javascriptallonge
 category_path: recipes/javascriptallonge
 source_id: javascriptallonge.pdf
 aliases: ordered-collections
-projection_coverage: recipe-javascriptallonge-recipe-ordered-collections@6fb98c34bdf56c3c06ab11e7c72c42f8
+projection_coverage: recipe-javascriptallonge-recipe-ordered-collections@61fb34f4f16be0a746c7f14e3d3d9847
 ---
 
 # ordered collections
@@ -18,7 +18,7 @@ From [[javascriptallonge]].
 
 ## Pattern
 
-- Use the source-backed pattern described in [[javascriptallonge-section-ordered-collections-86c13e62]].
+- Use the source-backed pattern described in [[javascriptallonge-section-served-by-the-pot-collections-iteration-and-iterables-ordered-collections-16a4ad9f]].
 - Evidence roles: decision, explanation, example.
 
 ## Applicability And Rationale
@@ -88,4 +88,4 @@ console.log(i)
 ## Source Trail
 
 - Source manifest: [[javascriptallonge]]
-- Source section: [[javascriptallonge-section-ordered-collections-86c13e62]]
+- Source section: [[javascriptallonge-section-served-by-the-pot-collections-iteration-and-iterables-ordered-collections-16a4ad9f]]

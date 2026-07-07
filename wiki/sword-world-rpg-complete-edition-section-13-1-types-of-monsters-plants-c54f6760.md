@@ -8,7 +8,7 @@ updated: 2026-07-07
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-13-1-types-of-monsters-plants-c54f6760@899b1b7a4e2a072cb4a87f41d181a8c3
+projection_coverage: section-sword-world-rpg-complete-edition-section-13-1-types-of-monsters-plants-c54f6760@d914b5cb7c5a79c97a7cc2549219526b
 ---
 
 # 13.1 Types of Monsters / 《 Plants 》
@@ -25,10 +25,6 @@ From [[sword-world-rpg-complete-edition]].
 ### Source structure
 
 - [[sword-world-rpg-complete-edition-section-13-1-types-of-monsters-2236369a]] - broader source section: 13.1 Types of Monsters
-
-### Topics
-
-- [[sword-world-rpg-complete-edition-plant]] - topic hub: opens the topic page for Plant
 
 ## Statements
 

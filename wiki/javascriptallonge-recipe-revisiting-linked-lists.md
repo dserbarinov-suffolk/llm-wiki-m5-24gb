@@ -9,7 +9,7 @@ domain: javascriptallonge
 category_path: recipes/javascriptallonge
 source_id: javascriptallonge.pdf
 aliases: revisiting-linked-lists
-projection_coverage: recipe-javascriptallonge-recipe-revisiting-linked-lists@eb620662a9973fce5bcc6dfa50897cf7
+projection_coverage: recipe-javascriptallonge-recipe-revisiting-linked-lists@7d44cf7c81c811a6f2b089377993ebf8
 ---
 
 # revisiting linked lists
@@ -18,7 +18,7 @@ From [[javascriptallonge]].
 
 ## Pattern
 
-- Use the source-backed pattern described in [[javascriptallonge-section-revisiting-linked-lists-9741196a]].
+- Use the source-backed pattern described in [[javascriptallonge-section-plain-old-javascript-objects-revisiting-linked-lists-4e16a53d]].
 - Evidence roles: decision, constraint, procedure, explanation, example.
 
 ## Applicability And Rationale
@@ -135,4 +135,4 @@ mapWith((x) => x * x, OneTwoThree)
 ## Source Trail
 
 - Source manifest: [[javascriptallonge]]
-- Source section: [[javascriptallonge-section-revisiting-linked-lists-9741196a]]
+- Source section: [[javascriptallonge-section-plain-old-javascript-objects-revisiting-linked-lists-4e16a53d]]

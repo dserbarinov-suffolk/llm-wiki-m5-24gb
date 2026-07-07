@@ -9,7 +9,7 @@ domain: javascriptallonge
 category_path: recipes/javascriptallonge
 source_id: javascriptallonge.pdf
 aliases: quasi-literals
-projection_coverage: recipe-javascriptallonge-recipe-quasi-literals@45d7967f5081ce1aed9f4831d1ffb553
+projection_coverage: recipe-javascriptallonge-recipe-quasi-literals@ef2ee5323f897c0c9b3da33485fe14af
 ---
 
 # quasi-literals
@@ -18,7 +18,7 @@ From [[javascriptallonge]].
 
 ## Pattern
 
-- Use the source-backed pattern described in [[javascriptallonge-section-quasi-literals-e514ae04]].
+- Use the source-backed pattern described in [[javascriptallonge-section-a-warm-cup-basic-strings-and-quasi-literals-quasi-literals-4646e272]].
 - Evidence roles: decision, constraint, explanation, procedure, example.
 
 ## Applicability And Rationale
@@ -73,4 +73,4 @@ _Source: javascriptallonge.pdf (source-range-c98ab3e6-01486)_
 ## Source Trail
 
 - Source manifest: [[javascriptallonge]]
-- Source section: [[javascriptallonge-section-quasi-literals-e514ae04]]
+- Source section: [[javascriptallonge-section-a-warm-cup-basic-strings-and-quasi-literals-quasi-literals-4646e272]]

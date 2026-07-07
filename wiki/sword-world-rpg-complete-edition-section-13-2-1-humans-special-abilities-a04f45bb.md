@@ -8,7 +8,7 @@ updated: 2026-07-07
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-13-2-1-humans-special-abilities-a04f45bb@454ed1dc13655c7d304dec298554db55
+projection_coverage: section-sword-world-rpg-complete-edition-section-13-2-1-humans-special-abilities-a04f45bb@5ba4ebbdf8d3ff5f927c6f1892de5cb0
 ---
 
 # 13.2.1 《 Humans 》 / 《 Special Abilities 》
@@ -20,7 +20,6 @@ From [[sword-world-rpg-complete-edition]].
 ### Source order
 
 - [[sword-world-rpg-complete-edition-section-13-2-1-humans-life-points-resistance-8fb0987b]] - previous source section: 13.2.1 《 Humans 》 / 《 Life Points/Resistance 》
-- [[sword-world-rpg-complete-edition-section-13-2-1-humans-habitat-3827df6d]] - next source section: 13.2.1 《 Humans 》 / 《 Habitat 》
 
 ### Source structure
 

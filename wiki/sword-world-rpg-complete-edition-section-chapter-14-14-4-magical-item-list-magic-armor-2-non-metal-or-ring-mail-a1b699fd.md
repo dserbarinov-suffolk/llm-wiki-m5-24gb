@@ -8,7 +8,7 @@ updated: 2026-07-07
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-magic-armor-2-non-metal-or-ring-mail-a1b699fd@27c6d455e81ea06eadabf8142dd49da8
+projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-magic-armor-2-non-metal-or-ring-mail-a1b699fd@507dfe18354b914b3279abb1373f4dce
 ---
 
 # Chapter 14: / 14.4 Magical Item List / 《 Magic Armor (+2) 》 Non-metal or ring mail
@@ -20,7 +20,6 @@ From [[sword-world-rpg-complete-edition]].
 ### Source order
 
 - [[sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-magic-armor-1-bbe98a2e]] - previous source section: Chapter 14: / 14.4 Magical Item List / 《 Magic Armor (+1)
-- [[sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-magic-armor-2-9c1a7f3d]] - next source section: Chapter 14: / 14.4 Magical Item List / 《 Magic Armor (+2) 》
 
 ### Source structure
 

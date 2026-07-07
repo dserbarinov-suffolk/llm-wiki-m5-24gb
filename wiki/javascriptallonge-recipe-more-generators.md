@@ -9,7 +9,7 @@ domain: javascriptallonge
 category_path: recipes/javascriptallonge
 source_id: javascriptallonge.pdf
 aliases: more-generators
-projection_coverage: recipe-javascriptallonge-recipe-more-generators@aa11e4f18c1fad0298d8a901d2a5ad82
+projection_coverage: recipe-javascriptallonge-recipe-more-generators@f6513abd7f70230d2630ca26312a2066
 ---
 
 # more generators
@@ -18,7 +18,7 @@ From [[javascriptallonge]].
 
 ## Pattern
 
-- Use the source-backed pattern described in [[javascriptallonge-section-more-generators-8710183f]].
+- Use the source-backed pattern described in [[javascriptallonge-section-served-by-the-pot-collections-generating-iterables-more-generators-30279cb0]].
 - Evidence roles: decision, procedure, example.
 
 ## Applicability And Rationale
@@ -192,4 +192,4 @@ console.log(i);
 ## Source Trail
 
 - Source manifest: [[javascriptallonge]]
-- Source section: [[javascriptallonge-section-more-generators-8710183f]]
+- Source section: [[javascriptallonge-section-served-by-the-pot-collections-generating-iterables-more-generators-30279cb0]]

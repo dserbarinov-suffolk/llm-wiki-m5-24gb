@@ -8,7 +8,7 @@ updated: 2026-07-07
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-5-1-12-ancient-magic-list-analyze-enchantment-8f409f82@85b6dbee022da1523ff6e252c8a98c6a
+projection_coverage: section-sword-world-rpg-complete-edition-section-5-1-12-ancient-magic-list-analyze-enchantment-8f409f82@3e8d8770dcb4b6434a53c46f9bc481a4
 ---
 
 # 5.1.12 Ancient Magic List / [ Analyze Enchantment ]
@@ -19,7 +19,7 @@ From [[sword-world-rpg-complete-edition]].
 
 ### Source order
 
-- [[sword-world-rpg-complete-edition-section-5-1-12-ancient-magic-list-6th-level-ancient-magic-list-acid-cloud-fe060749]] - previous source section: 5.1.12 Ancient Magic List / 6th Level Ancient Magic List [ Acid Cloud ]
+- [[sword-world-rpg-complete-edition-section-5-1-12-ancient-magic-list-blizzard-ff9865d2]] - previous source section: 5.1.12 Ancient Magic List / Blizzard ]
 - [[sword-world-rpg-complete-edition-section-5-1-12-ancient-magic-list-geas-04e5a18b]] - next source section: 5.1.12 Ancient Magic List / [ Geas ]
 
 ### Source structure

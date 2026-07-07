@@ -9,11 +9,13 @@ from llmwiki.domain.ledger.ledger import (
 )
 from llmwiki.domain.ledger.procedure_pages import build_procedure_pages
 from llmwiki.domain.ledger.procedures import plan_procedure_guides
+from llmwiki.domain.ledger.section_planning import PageTarget, SectionGroundedPlan
 from llmwiki.domain.ledger.structure import DocumentStructure, StructureNode
 from llmwiki.domain.search import search_pages
 
 
 def test_procedure_guides_surface_ordered_task_sections() -> None:
+    structure = _structure()
     pages = build_procedure_pages(
         _ledger(
             _entry("race", "choose-race", "First, the character's race must be chosen."),
@@ -40,10 +42,20 @@ def test_procedure_guides_surface_ordered_task_sections() -> None:
             ),
             atoms=(_table_atom("background-table", "equipment"),),
         ),
-        _structure(),
+        structure,
         source_page_id="book",
         source_locator="book.pdf",
         today="2026-06-30",
+        section_plan=_section_plan(
+            structure,
+            "creation",
+            "choose-race",
+            "scores",
+            "skills",
+            "skill-detail",
+            "equipment",
+            "equipment-detail",
+        ),
     )
 
     page = next(page for page in pages if page.page_id == "book-procedure-create-character")
@@ -64,16 +76,18 @@ def test_procedure_guides_surface_ordered_task_sections() -> None:
 
 
 def test_sparse_descriptive_sections_do_not_become_procedures() -> None:
+    structure = DocumentStructure(
+        "root",
+        (
+            StructureNode("root", "root", "book.pdf", "root", "book.pdf", 0),
+            StructureNode("lore", "section", "Citadel Lore", "r1", "book.pdf", 1),
+        ),
+    )
     guides = plan_procedure_guides(
         _ledger(_entry("lore", "lore", "The citadel is ancient and weathered.")),
-        DocumentStructure(
-            "root",
-            (
-                StructureNode("root", "root", "book.pdf", "root", "book.pdf", 0),
-                StructureNode("lore", "section", "Citadel Lore", "r1", "book.pdf", 1),
-            ),
-        ),
+        structure,
         source_page_id="book",
+        section_plan=_section_plan(structure, "lore"),
     )
 
     assert guides == ()
@@ -159,6 +173,28 @@ def _structure() -> DocumentStructure:
             ),
         ),
     )
+
+
+def _section_plan(structure: DocumentStructure, *node_ids: str) -> SectionGroundedPlan:
+    targets: list[PageTarget] = []
+    for index, node_id in enumerate(node_ids, start=1):
+        node = structure.node(node_id)
+        assert node is not None
+        targets.append(
+            PageTarget(
+                page_target_id=f"target-{index}",
+                topic_key=node_id,
+                label=node.heading_text,
+                page_kind="concept",
+                structure_node_id=node.structure_node_id,
+                source_range_id=node.source_range_id,
+                concept_keys=(),
+                entry_ids=(),
+                atom_ids=(),
+                attached_evidence=(),
+            )
+        )
+    return SectionGroundedPlan("plan", "fingerprint", "book.pdf", "hash", tuple(targets), ())
 
 
 def _entry(

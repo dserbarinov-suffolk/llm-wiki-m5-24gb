@@ -9,7 +9,7 @@ domain: javascriptallonge
 category_path: recipes/javascriptallonge
 source_id: javascriptallonge.pdf
 aliases: after-another-drink
-projection_coverage: recipe-javascriptallonge-recipe-after-another-drink@996f10df88227c1ab8397a8ceac0f99c
+projection_coverage: recipe-javascriptallonge-recipe-after-another-drink@476981625b2b8566b2de8a71f484d275
 ---
 
 # after another drink
@@ -18,7 +18,7 @@ From [[javascriptallonge]].
 
 ## Pattern
 
-- Use the source-backed pattern described in [[javascriptallonge-section-after-another-drink-7aeb48ed]].
+- Use the source-backed pattern described in [[javascriptallonge-section-interlude-the-carpenter-interviews-for-a-job-after-another-drink-1f3bcf45]].
 - Evidence roles: decision, explanation, example.
 
 ## Applicability And Rationale
@@ -77,4 +77,4 @@ return false;
 ## Source Trail
 
 - Source manifest: [[javascriptallonge]]
-- Source section: [[javascriptallonge-section-after-another-drink-7aeb48ed]]
+- Source section: [[javascriptallonge-section-interlude-the-carpenter-interviews-for-a-job-after-another-drink-1f3bcf45]]

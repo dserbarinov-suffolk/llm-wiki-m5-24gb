@@ -57,6 +57,8 @@ def section_links_by_topic(
 ) -> dict[str, tuple[RelatedTopicLink, ...]]:
     links: dict[str, list[RelatedTopicLink]] = {}
     for target in section_plan.page_targets:
+        if not target.page_promoted:
+            continue
         node = structure.node(target.structure_node_id)
         if node is None or not target.topic_key:
             continue
@@ -70,6 +72,36 @@ def section_links_by_topic(
             )
         )
     return {key: tuple(dict.fromkeys(value)) for key, value in links.items()}
+
+
+def promoted_section_node_ids(section_plan: SectionGroundedPlan) -> frozenset[str]:
+    return frozenset(
+        target.structure_node_id for target in section_plan.page_targets if target.page_promoted
+    )
+
+
+def projected_section_node(
+    structure: DocumentStructure,
+    node: StructureNode,
+    section_plan: SectionGroundedPlan,
+) -> StructureNode | None:
+    promoted = promoted_section_node_ids(section_plan)
+    for node_id in structure.ancestry(node.structure_node_id):
+        if node_id in promoted:
+            return structure.node(node_id)
+    return None
+
+
+def projected_section_page_id(
+    source_page_id: str,
+    structure: DocumentStructure,
+    node: StructureNode,
+    section_plan: SectionGroundedPlan,
+) -> str:
+    projected = projected_section_node(structure, node, section_plan)
+    if projected is None:
+        return source_page_id
+    return section_page_id(source_page_id, structure, projected)
 
 
 def related_section_links(

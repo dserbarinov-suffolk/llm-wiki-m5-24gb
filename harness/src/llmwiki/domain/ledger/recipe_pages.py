@@ -9,7 +9,8 @@ from llmwiki.domain.ledger.canonical import short_digest
 from llmwiki.domain.ledger.entries import LedgerEntry
 from llmwiki.domain.ledger.knowledge_shapes import KnowledgeShapeCatalog
 from llmwiki.domain.ledger.ledger import ClaimLedger
-from llmwiki.domain.ledger.section_navigation import section_page_id
+from llmwiki.domain.ledger.section_navigation import projected_section_page_id
+from llmwiki.domain.ledger.section_planning import SectionGroundedPlan
 from llmwiki.domain.ledger.structure import DocumentStructure, StructureNode
 from llmwiki.domain.pages import PageMetadata, WikiPage, slugify
 
@@ -39,9 +40,12 @@ def build_recipe_pages(
     source_locator: str,
     today: str,
     shape_catalog: KnowledgeShapeCatalog,
+    section_plan: SectionGroundedPlan,
 ) -> tuple[WikiPage, ...]:
     pages: list[WikiPage] = []
-    for pattern in plan_recipe_patterns(ledger, structure, source_page_id, shape_catalog):
+    for pattern in plan_recipe_patterns(
+        ledger, structure, source_page_id, shape_catalog, section_plan
+    ):
         body = render_recipe_page(pattern, source_page_id)
         metadata = PageMetadata(
             page_id=pattern.recipe_id,
@@ -69,6 +73,7 @@ def plan_recipe_patterns(
     structure: DocumentStructure,
     source_page_id: str,
     shape_catalog: KnowledgeShapeCatalog,
+    section_plan: SectionGroundedPlan,
 ) -> tuple[RecipePattern, ...]:
     patterns: list[RecipePattern] = []
     used_page_ids: set[str] = set()
@@ -95,7 +100,9 @@ def plan_recipe_patterns(
                 recipe_id=recipe_id,
                 title=_clean_title(candidate.label),
                 source_node=node,
-                source_section_page_id=section_page_id(source_page_id, structure, node),
+                source_section_page_id=projected_section_page_id(
+                    source_page_id, structure, node, section_plan
+                ),
                 claims=_unique_entries(claims),
                 technical_atoms=_recipe_atoms(_unique_atoms(atoms)),
                 evidence_roles=candidate.evidence_roles,

@@ -7,7 +7,7 @@ sources: raw/javascriptallonge.pdf
 updated: 2026-07-07
 domain: javascriptallonge
 category_path: concepts
-projection_coverage: topic-javascriptallonge-quasi@46d566aab34775e673d40a53d8ac4150
+projection_coverage: topic-javascriptallonge-quasi@8dda7b34e69d7ae9f9b32ea91536f024
 ---
 
 # Quasi
@@ -16,7 +16,7 @@ What [[javascriptallonge]] covers about quasi:
 
 ## Statements
 
-### quasi-literals
+### A Warm Cup: Basic Strings and Quasi-Literals / quasi-literals
 
 - JavaScript supports quasi-literal strings , a/k/a 'Template Strings' or 'String Interpolation Expressions.' A quasi-literal string is something that looks like a string literal, but is actually an expression. Quasi-literal strings are denoted with back quotes, and most strings that can be expressed as literals have the exact same meaning as quasi-literals, e.g. _(javascriptallonge.pdf (source-range-c98ab3e6-01477))_
 
@@ -24,7 +24,7 @@ What [[javascriptallonge]] covers about quasi:
 
 - However, there is a big semantic difference between a quasi-literal and an expression. Quasi-literals are expressions that resemble their result. They're easier to read and it's easier to avid errors like the following: _(javascriptallonge.pdf (source-range-c98ab3e6-01485))_
 
-### evaluation time
+### A Warm Cup: Basic Strings and Quasi-Literals / evaluation time
 
 - Like any other expression, quasi-literals are evaluated late , when that line or lines of code is evaluated. _(javascriptallonge.pdf (source-range-c98ab3e6-01488))_
 
@@ -33,7 +33,7 @@ What [[javascriptallonge]] covers about quasi:
 
 ## Technical atoms
 
-### Technical frame 1: quasi-literals
+### Technical frame 1: A Warm Cup: Basic Strings and Quasi-Literals / quasi-literals
 
 **Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01479))_
 
@@ -49,7 +49,7 @@ What [[javascriptallonge]] covers about quasi:
 //=> 'fizzbuzz'
 ```
 
-### Technical frame 2: quasi-literals
+### Technical frame 2: A Warm Cup: Basic Strings and Quasi-Literals / quasi-literals
 
 **Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01485))_
 
@@ -63,7 +63,7 @@ What [[javascriptallonge]] covers about quasi:
 //=> 'A popular number for nerds is 42'
 ```
 
-### Technical frame 3: quasi-literals
+### Technical frame 3: A Warm Cup: Basic Strings and Quasi-Literals / quasi-literals
 
 **Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01485))_
 
@@ -82,14 +82,18 @@ What [[javascriptallonge]] covers about quasi:
 
 ### Shared technical atoms
 
-- [[javascriptallonge-literal]] - shared statements and technical atoms: Literal shares source evidence from quasi-literals: JavaScript supports quasi-literal strings , a/k/a 'Template Strings' or 'String Interpolation Expressions.' A quasi-literal string is something that looks like a str ... [truncated]; Literal shares technical record from quasi-literals: `foobar` //=> 'foobar' `fizz` + `buzz` //=> 'fizzbuzz' (5 shared statement(s), 3 shared atom(s))
-- [[javascriptallonge-expression]] - shared statements and technical atoms: Expression shares source evidence from evaluation time: Like any other expression, quasi-literals are evaluated late , when that line or lines of code is evaluated.; Expression shares technical record from quasi-literals: `foobar` //=> 'foobar' `fizz` + `buzz` //=> 'fizzbuzz' (1 shared statement(s), 3 shared atom(s))
-- [[javascriptallonge-string]] - shared statements and technical atoms: String shares source evidence from quasi-literals: JavaScript supports quasi-literal strings , a/k/a 'Template Strings' or 'String Interpolation Expressions.' A quasi-literal string is something that looks like a str ... [truncated]; String shares technical record from quasi-literals: `foobar` //=> 'foobar' `fizz` + `buzz` //=> 'fizzbuzz' (1 shared statement(s), 1 shared atom(s))
+- [[javascriptallonge-literal]] - shared statements and technical atoms: Literal shares source evidence from A Warm Cup: Basic Strings and Quasi-Literals / quasi-literals: JavaScript supports quasi-literal strings , a/k/a 'Template Strings' or 'String Interpolation Expressions.' A quasi-literal string is something that looks like a str ... [truncated]; Literal shares technical record from A Warm Cup: Basic Strings and Quasi-Literals / quasi-literals: `foobar` //=> 'foobar' `fizz` + `buzz` //=> 'fizzbuzz' (5 shared statement(s), 3 shared atom(s))
+- [[javascriptallonge-expression]] - shared statements and technical atoms: Expression shares source evidence from A Warm Cup: Basic Strings and Quasi-Literals / evaluation time: Like any other expression, quasi-literals are evaluated late , when that line or lines of code is evaluated.; Expression shares technical record from A Warm Cup: Basic Strings and Quasi-Literals / quasi-literals: `foobar` //=> 'foobar' `fizz` + `buzz` //=> 'fizzbuzz' (1 shared statement(s), 3 shared atom(s))
+- [[javascriptallonge-string]] - shared statements and technical atoms: String shares source evidence from A Warm Cup: Basic Strings and Quasi-Literals / quasi-literals: JavaScript supports quasi-literal strings , a/k/a 'Template Strings' or 'String Interpolation Expressions.' A quasi-literal string is something that looks like a str ... [truncated]; String shares technical record from A Warm Cup: Basic Strings and Quasi-Literals / quasi-literals: `foobar` //=> 'foobar' `fizz` + `buzz` //=> 'fizzbuzz' (1 shared statement(s), 1 shared atom(s))
 
 ### Shared claims
 
-- [[javascriptallonge-evaluate]] - shared statements: Evaluate shares source evidence from evaluation time: JavaScript evaluates the quasi-literal when the function is invoked and the quasi-literal inside the function's body is evaluated. Thus, name is not bound to "Harry" ... [truncated] (1 shared statement(s))
-- [[javascriptallonge-javascript]] - shared statements: Javascript shares source evidence from evaluation time: JavaScript evaluates the quasi-literal when the function is invoked and the quasi-literal inside the function's body is evaluated. Thus, name is not bound to "Harry" ... [truncated] (1 shared statement(s))
+- [[javascriptallonge-evaluate]] - shared statements: Evaluate shares source evidence from A Warm Cup: Basic Strings and Quasi-Literals / evaluation time: JavaScript evaluates the quasi-literal when the function is invoked and the quasi-literal inside the function's body is evaluated. Thus, name is not bound to "Harry" ... [truncated] (1 shared statement(s))
+- [[javascriptallonge-javascript]] - shared statements: Javascript shares source evidence from A Warm Cup: Basic Strings and Quasi-Literals / evaluation time: JavaScript evaluates the quasi-literal when the function is invoked and the quasi-literal inside the function's body is evaluated. Thus, name is not bound to "Harry" ... [truncated] (1 shared statement(s))
+
+### Topics
+
+- [[javascriptallonge-quasi-literal]] - narrower topic: Quasi Literal shares source evidence from A Warm Cup: Basic Strings and Quasi-Literals / quasi-literals: JavaScript supports quasi-literal strings , a/k/a 'Template Strings' or 'String Interpolation Expressions.' A quasi-literal string is something that looks like a str ... [truncated]; Quasi Literal shares technical record from A Warm Cup: Basic Strings and Quasi-Literals / quasi-literals: `foobar` //=> 'foobar' `fizz` + `buzz` //=> 'fizzbuzz' (5 shared statement(s), 3 shared atom(s))
 
 ## Source
 

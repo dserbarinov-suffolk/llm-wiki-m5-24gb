@@ -7,7 +7,7 @@ sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-07
 domain: sword-world-rpg-complete-edition
 category_path: concepts
-projection_coverage: topic-sword-world-rpg-complete-edition-failure@1c723627a3d6ff1602a9daba655e8b5b
+projection_coverage: topic-sword-world-rpg-complete-edition-failure@b3473d7652d0a308615f9c0ced4fa924
 ---
 
 # Failure
@@ -47,7 +47,7 @@ What [[sword-world-rpg-complete-edition]] covers about failure:
 
 ### Source structure
 
-- [[sword-world-rpg-complete-edition-section-failure-72886e56]] - source section: 【 Failure! 】 shares source evidence from 【 Failure! 】: When making a defense roll, if your roll is double ones, that means that you've been hit extremely hard. Maybe the monster's attack hit a gap in your character's arm ... [truncated]; 【 Failure! 】 shares technical record from 【 Failure! 】: When making a defense roll, if your roll is double ones, that means that you've been hit extremely hard. (1 shared statement(s), 1 shared atom(s))
+- [[sword-world-rpg-complete-edition-section-attacks-from-monsters-against-characters-failure-1b6c62a3]] - source section: Attacks From Monsters Against Characters / 【 Failure! 】 shares source evidence from Attacks From Monsters Against Characters / 【 Failure! 】: When making a defense roll, if your roll is double ones, that means that you've been hit extremely hard. Maybe the monster's attack hit a gap in your character's arm ... [truncated]; Attacks From Monsters Against Characters / 【 Failure! 】 shares technical record from Attacks From Monsters Against Characters / 【 Failure! 】: When making a defense roll, if your roll is double ones, that means that you've been hit extremely hard. (1 shared statement(s), 1 shared atom(s))
 
 ## Source
 

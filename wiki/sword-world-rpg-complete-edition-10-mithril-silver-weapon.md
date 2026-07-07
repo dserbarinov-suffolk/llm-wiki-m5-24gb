@@ -7,7 +7,7 @@ sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-07
 domain: sword-world-rpg-complete-edition
 category_path: concepts
-projection_coverage: topic-sword-world-rpg-complete-edition-10-mithril-silver-weapon@29e73a23a96e37a00801c229ec26a371
+projection_coverage: topic-sword-world-rpg-complete-edition-10-mithril-silver-weapon@cad3192994d2ed2105d7ac725a639305
 ---
 
 # 10 Mithril Silver Weapon
@@ -84,6 +84,7 @@ What [[sword-world-rpg-complete-edition]] covers about 10 mithril silver weapon:
 
 - [[sword-world-rpg-complete-edition-magic-armor]] - shared statements: 《 Magic Armor (+1) 》 shares source evidence from 4.10 Excellent Weapons and Armor / 4.10.4 Mithril Silver Weapons and Armor: Mithril silver, like regular silver, is a metal that exists in the spirit world. Therefore, a shaman can wear mithril silver armor and still use spirit magic. (1 shared statement(s))
 - [[sword-world-rpg-complete-edition-ranger-skill]] - shared statements: 【 Ranger Skill 】 shares source evidence from 4.10 Excellent Weapons and Armor / 4.10.4 Mithril Silver Weapons and Armor: Chain mail made of mithril silver does not inhibit bodily movement as much as that made of steel (but splint armor, lamellar armor, and plate armor still do ). Mithr ... [truncated] (1 shared statement(s))
+- [[sword-world-rpg-complete-edition-thief-skill]] - shared statements: 【 Thief Skill 】 shares source evidence from 4.10 Excellent Weapons and Armor / 4.10.4 Mithril Silver Weapons and Armor: Chain mail made of mithril silver does not inhibit bodily movement as much as that made of steel (but splint armor, lamellar armor, and plate armor still do ). Mithr ... [truncated] (1 shared statement(s))
 
 ## Source
 

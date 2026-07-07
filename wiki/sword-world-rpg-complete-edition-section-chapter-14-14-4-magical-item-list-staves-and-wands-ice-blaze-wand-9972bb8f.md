@@ -8,7 +8,7 @@ updated: 2026-07-07
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-staves-and-wands-ice-blaze-wand-9972bb8f@d558b94a6282a4f1dcd40c03e1a18f11
+projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-staves-and-wands-ice-blaze-wand-9972bb8f@412546435f659afbc7f8e70d21ccfce4
 ---
 
 # Chapter 14: / 14.4 Magical Item List / 《 Staves and Wands 》 [ Ice Blaze Wand ]
@@ -19,12 +19,19 @@ From [[sword-world-rpg-complete-edition]].
 
 ### Source order
 
-- [[sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-crystal-66aea087]] - previous source section: Chapter 14: / 14.4 Magical Item List / [ Crystal ]
-- [[sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-staff-of-sorcery-05831516]] - next source section: Chapter 14: / 14.4 Magical Item List / [ Staff of Sorcery ]
+- [[sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-amulets-36651942]] - previous source section: Chapter 14: / 14.4 Magical Item List / 《 Amulets 》
+- [[sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-rings-dddbdd4e]] - next source section: Chapter 14: / 14.4 Magical Item List / 《 Rings 》
 
 ### Source structure
 
 - [[sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-643dc97e]] - broader source section: Chapter 14: / 14.4 Magical Item List
+- [[sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-staves-and-wands-ice-blaze-wand-delay-staff-2c87000c]] - narrower source section: Chapter 14: / 14.4 Magical Item List / 《 Staves and Wands 》 [ Ice Blaze Wand ] / [ Delay Staff ]
+- [[sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-staves-and-wands-ice-blaze-wand-lead-staff-5269e8c5]] - narrower source section: Chapter 14: / 14.4 Magical Item List / 《 Staves and Wands 》 [ Ice Blaze Wand ] / [ Lead Staff ]
+- [[sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-staves-and-wands-ice-blaze-wand-memory-robber-876ae6b5]] - narrower source section: Chapter 14: / 14.4 Magical Item List / 《 Staves and Wands 》 [ Ice Blaze Wand ] / [ Memory Robber ]
+- [[sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-staves-and-wands-ice-blaze-wand-plant-command-wand-fb11ba6c]] - narrower source section: Chapter 14: / 14.4 Magical Item List / 《 Staves and Wands 》 [ Ice Blaze Wand ] / [ Plant Command Wand ]
+- [[sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-staves-and-wands-ice-blaze-wand-power-wand-32033fc1]] - narrower source section: Chapter 14: / 14.4 Magical Item List / 《 Staves and Wands 》 [ Ice Blaze Wand ] / [ Power Wand ]
+- [[sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-staves-and-wands-ice-blaze-wand-sorcerer-staff-41c0765c]] - narrower source section: Chapter 14: / 14.4 Magical Item List / 《 Staves and Wands 》 [ Ice Blaze Wand ] / [ Sorcerer Staff ]
+- [[sword-world-rpg-complete-edition-section-chapter-14-14-4-magical-item-list-staves-and-wands-ice-blaze-wand-staff-of-fire-883eb676]] - narrower source section: Chapter 14: / 14.4 Magical Item List / 《 Staves and Wands 》 [ Ice Blaze Wand ] / [ Staff of Fire ]
 
 ## Statements
 

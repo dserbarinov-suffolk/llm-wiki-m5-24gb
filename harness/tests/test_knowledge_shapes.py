@@ -9,6 +9,7 @@ from llmwiki.domain.ledger.ledger import (
     SourceProfile,
 )
 from llmwiki.domain.ledger.recipe_pages import build_recipe_pages
+from llmwiki.domain.ledger.section_planning import PageTarget, SectionGroundedPlan
 from llmwiki.domain.ledger.structure import DocumentStructure, StructureNode
 
 
@@ -83,6 +84,7 @@ def test_recipe_shape_survives_renamed_domain_nouns() -> None:
         source_locator="x.pdf",
         today="2026-07-01",
         shape_catalog=catalog,
+        section_plan=_section_plan(structure, "parent", "one", "two", "three"),
     )
 
     assert {page.page_kind for page in pages} == {"recipe"}
@@ -148,6 +150,7 @@ def test_flat_shapes_compete_before_recipe_projection() -> None:
         source_locator="x.pdf",
         today="2026-07-01",
         shape_catalog=catalog,
+        section_plan=_section_plan(structure, "parent", "recipe", "field", "catalog", "fragment"),
     )
 
     assert shape_by_node["recipe"] == "recipe"
@@ -160,6 +163,28 @@ def test_flat_shapes_compete_before_recipe_projection() -> None:
 def _structure(*nodes: StructureNode) -> DocumentStructure:
     root = StructureNode("root", "root", "x.pdf", "root", "x.pdf", 0)
     return DocumentStructure("root", (root, *nodes))
+
+
+def _section_plan(structure: DocumentStructure, *node_ids: str) -> SectionGroundedPlan:
+    targets: list[PageTarget] = []
+    for index, node_id in enumerate(node_ids, start=1):
+        node = structure.node(node_id)
+        assert node is not None
+        targets.append(
+            PageTarget(
+                page_target_id=f"target-{index}",
+                topic_key=node_id,
+                label=node.heading_text,
+                page_kind="concept",
+                structure_node_id=node.structure_node_id,
+                source_range_id=node.source_range_id,
+                concept_keys=(),
+                entry_ids=(),
+                atom_ids=(),
+                attached_evidence=(),
+            )
+        )
+    return SectionGroundedPlan("plan", "fingerprint", "x.pdf", "hash", tuple(targets), ())
 
 
 def _entry(

@@ -8,7 +8,7 @@ updated: 2026-07-07
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-12-2-2-illnesses-rat-disease-c1e355ef@acaa3d16c153513f34b71c3fce108d4f
+projection_coverage: section-sword-world-rpg-complete-edition-section-12-2-2-illnesses-rat-disease-c1e355ef@4cba883631231d01f96f238354f02a8b
 ---
 
 # 12.2.2 Illnesses / [ Rat Disease ]
@@ -20,11 +20,14 @@ From [[sword-world-rpg-complete-edition]].
 ### Source order
 
 - [[sword-world-rpg-complete-edition-section-12-2-2-illnesses-lycanthropy-47232ae2]] - previous source section: 12.2.2 Illnesses / [ Lycanthropy ]
-- [[sword-world-rpg-complete-edition-section-12-2-2-illnesses-red-cap-a90d947a]] - next source section: 12.2.2 Illnesses / [ Red Cap ]
+- [[sword-world-rpg-complete-edition-section-12-2-2-illnesses-arnica-ed5a7969]] - next source section: 12.2.2 Illnesses / [ Arnica ]
 
 ### Source structure
 
 - [[sword-world-rpg-complete-edition-section-12-2-2-illnesses-4d76e464]] - broader source section: 12.2.2 Illnesses
+- [[sword-world-rpg-complete-edition-section-12-2-2-illnesses-rat-disease-12-2-3-herbs-841818e6]] - narrower source section: 12.2.2 Illnesses / [ Rat Disease ] / 12.2.3 Herbs
+- [[sword-world-rpg-complete-edition-section-12-2-2-illnesses-rat-disease-lockjaw-534015a3]] - narrower source section: 12.2.2 Illnesses / [ Rat Disease ] / [ Lockjaw ]
+- [[sword-world-rpg-complete-edition-section-12-2-2-illnesses-rat-disease-red-cap-38ddd9b0]] - narrower source section: 12.2.2 Illnesses / [ Rat Disease ] / [ Red Cap ]
 
 ## Statements
 

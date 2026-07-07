@@ -7,7 +7,7 @@ sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-07
 domain: sword-world-rpg-complete-edition
 category_path: concepts
-projection_coverage: topic-sword-world-rpg-complete-edition-full-movement@16b19f7e73ba37da8eaecedc9f52a2ab
+projection_coverage: topic-sword-world-rpg-complete-edition-full-movement@821102bbed2a8473fe5e6a6f0bc23175
 ---
 
 # Full Movement
@@ -16,14 +16,14 @@ What [[sword-world-rpg-complete-edition]] covers about full movement:
 
 ## Statements
 
-### 3.4.2 Actions You Can Take
+### Chapter 3: / 3.4.2 Actions You Can Take
 
 - Full movement means that a character runs without looking aside. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01097))_
 
 
 ## Technical atoms
 
-### Technical frame 1: Movement and Actions
+### Technical frame 1: Chapter 3: / Movement and Actions
 
 **Context:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01088))_
 
@@ -82,8 +82,8 @@ Surprise Attacks
 
 ### Shared technical atoms
 
-- [[sword-world-rpg-complete-edition-action]] - shared technical atoms: Action shares technical record from Movement and Actions: Movement and Actions 3.4 Movement and Actions 1 round lasts 10 seconds . Therefore, a character can also move during this time. However,  when movement is made, acti ... [truncated] (1 shared atom(s))
-- [[sword-world-rpg-complete-edition-movement]] - shared technical atoms: Movement shares technical record from Movement and Actions: Movement and Actions 3.4 Movement and Actions 1 round lasts 10 seconds . Therefore, a character can also move during this time. However,  when movement is made, acti ... [truncated] (1 shared atom(s))
+- [[sword-world-rpg-complete-edition-action]] - shared technical atoms: Action shares technical record from Chapter 3: / Movement and Actions: Movement and Actions 3.4 Movement and Actions 1 round lasts 10 seconds . Therefore, a character can also move during this time. However,  when movement is made, acti ... [truncated] (1 shared atom(s))
+- [[sword-world-rpg-complete-edition-movement]] - shared technical atoms: Movement shares technical record from Chapter 3: / Movement and Actions: Movement and Actions 3.4 Movement and Actions 1 round lasts 10 seconds . Therefore, a character can also move during this time. However,  when movement is made, acti ... [truncated] (1 shared atom(s))
 
 ## Source
 

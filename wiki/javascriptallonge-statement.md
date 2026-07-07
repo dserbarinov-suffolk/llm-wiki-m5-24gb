@@ -7,7 +7,7 @@ sources: raw/javascriptallonge.pdf
 updated: 2026-07-07
 domain: javascriptallonge
 category_path: concepts
-projection_coverage: topic-javascriptallonge-statement@6911d41a297c2fbe3a6c0b68f3097b49
+projection_coverage: topic-javascriptallonge-statement@8bb4194d5f819fd1171211c839868fbd
 ---
 
 # Statement
@@ -16,32 +16,32 @@ What [[javascriptallonge]] covers about statement:
 
 ## Statements
 
-### a quick summary of functions and bodies
+### And also: / Ah. I'd Like to Have an Argument, Please. 22 / a quick summary of functions and bodies
 
 - One of the important possible statements is a return statement. A return statement accepts any valid JavaScript expression. _(javascriptallonge.pdf (source-range-c98ab3e6-00274))_
 
-### nested blocks
+### And also: / That Constant Coffee Craving / nested blocks
 
 - The if statement is a statement, not an expression (an unfortunate design choice), and its clauses are statements or blocks. So we could also write something like: _(javascriptallonge.pdf (source-range-c98ab3e6-00427))_
 
-### are consts also from a shadowy planet?
+### And also: / That Constant Coffee Craving / are consts also from a shadowy planet?
 
 - But const statements can appear inside blocks, and we saw that blocks can appear inside of other blocks, including function bodies. So where are const variables bound? In the function environment? Or in an environment corresponding to the block? _(javascriptallonge.pdf (source-range-c98ab3e6-00450))_
 
 - Parameters are only bound when we invoke a function. That's why we made all these IIFEs. But const statements can appear inside blocks. What happens when we use a const inside of a block? We'll need a gratuitous block. We've seen if statements, what could be more gratuitous than: _(javascriptallonge.pdf (source-range-c98ab3e6-00466))_
 
-### Functions
+### And also: / Summary / Functions
 
 - Blocks also create scopes if const statements are within them. _(javascriptallonge.pdf (source-range-c98ab3e6-00633))_
 
-### destructuring arrays
+### Composing and Decomposing Data / Arrays and Destructuring Arguments / destructuring arrays
 
 - The statement const [something] = wrapped; destructures the array represented by wrapped , binding the value of its single element to the name something . We can do the same thing with more than one element: _(javascriptallonge.pdf (source-range-c98ab3e6-00827))_
 
 
 ## Technical atoms
 
-### Technical frame 1: back on the block
+### Technical frame 1: Or even: / back on the block
 
 **Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-00237))_
 
@@ -166,7 +166,7 @@ Ah. I’d Like to Have an Argument, Please.22
 
 </details>
 
-### Technical frame 2: nested blocks
+### Technical frame 2: And also: / That Constant Coffee Craving / nested blocks
 
 **Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-00427))_
 
@@ -187,7 +187,7 @@ return even(n)
 }
 ```
 
-### Technical frame 3: nested blocks
+### Technical frame 3: And also: / That Constant Coffee Craving / nested blocks
 
 **Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-00431))_
 
@@ -207,7 +207,7 @@ return odd(x - 1);
 }
 ```
 
-### Technical frame 4: nested blocks
+### Technical frame 4: And also: / That Constant Coffee Craving / nested blocks
 
 **Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-00431))_
 
@@ -234,7 +234,7 @@ return even(n)
 })(42)
 ```
 
-### Technical frame 5: nested blocks
+### Technical frame 5: And also: / That Constant Coffee Craving / nested blocks
 
 **Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-00431))_
 
@@ -247,7 +247,7 @@ return even(n)
 //=> true
 ```
 
-### Technical frame 6: are consts also from a shadowy planet?
+### Technical frame 6: And also: / That Constant Coffee Craving / are consts also from a shadowy planet?
 
 **Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-00474))_
 
@@ -277,7 +277,7 @@ const PI = 3;
 return diameter * PI;
 ```
 
-### Technical frame 7: are consts also from a shadowy planet?
+### Technical frame 7: And also: / That Constant Coffee Craving / are consts also from a shadowy planet?
 
 **Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-00474))_
 
@@ -291,7 +291,7 @@ return diameter * PI;
 //=> 6.2831853
 ```
 
-### Technical frame 8: are consts also from a shadowy planet?
+### Technical frame 8: And also: / That Constant Coffee Craving / are consts also from a shadowy planet?
 
 **Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-00474))_
 
@@ -311,7 +311,7 @@ return diameter * PI;
 //=> would return 6 if const had function scope
 ```
 
-### Technical frame 9: are consts also from a shadowy planet?
+### Technical frame 9: And also: / That Constant Coffee Craving / are consts also from a shadowy planet?
 
 **Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-00474))_
 
@@ -330,7 +330,7 @@ return diameter * PI;
 //=> would return 6.2831853 if const had function scope
 ```
 
-### Technical frame 10: destructuring arrays
+### Technical frame 10: Composing and Decomposing Data / Arrays and Destructuring Arguments / destructuring arrays
 
 **Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-00827))_
 
@@ -348,7 +348,7 @@ unwrap(["present"])
 //=> "present"
 ```
 
-### Technical frame 11: destructuring arrays
+### Technical frame 11: Composing and Decomposing Data / Arrays and Destructuring Arguments / destructuring arrays
 
 **Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-00829))_
 
@@ -371,16 +371,13 @@ surname(["Reginald", "Braithwaite"])
 
 ### Shared technical atoms
 
-- [[javascriptallonge-parameter]] - shared technical atoms: Parameter shares technical record from are consts also from a shadowy planet?: if (true) { // an immediately invoked block statement (IIBS) } Let’s try it: ((diameter) => { const PI = 3; if (true) { const PI = 3.14159265; return diameter * PI; ... [truncated] (2 shared atom(s))
-- [[javascriptallonge-evaluate]] - shared technical atoms: Evaluate shares technical record from back on the block: //=> undefined We said that the function returns the result of evaluating a block, and we said that a block is a (possibly empty) list of JavaScript statements separ ... [truncated] (1 shared atom(s))
-- [[javascriptallonge-expression]] - shared technical atoms: Expression shares technical record from back on the block: //=> undefined We said that the function returns the result of evaluating a block, and we said that a block is a (possibly empty) list of JavaScript statements separ ... [truncated] (1 shared atom(s))
-- [[javascriptallonge-javascript]] - shared technical atoms: Javascript shares technical record from back on the block: //=> undefined We said that the function returns the result of evaluating a block, and we said that a block is a (possibly empty) list of JavaScript statements separ ... [truncated] (1 shared atom(s))
-- [[javascriptallonge-list]] - shared technical atoms: List shares technical record from back on the block: //=> undefined We said that the function returns the result of evaluating a block, and we said that a block is a (possibly empty) list of JavaScript statements separ ... [truncated] (1 shared atom(s))
-- [[javascriptallonge-return]] - shared technical atoms: Return shares technical record from back on the block: //=> undefined We said that the function returns the result of evaluating a block, and we said that a block is a (possibly empty) list of JavaScript statements separ ... [truncated] (1 shared atom(s))
-
-### Shared claims
-
-- [[javascriptallonge-scope]] - shared statements: Scope shares source evidence from Functions: Blocks also create scopes if const statements are within them. (1 shared statement(s))
+- [[javascriptallonge-expression]] - shared technical atoms: Expression shares technical record from Or even: / back on the block: (n) => { const even = (x) => { if (x === 0) return true; else { const odd = (y) => !even(y); return odd(x - 1); } (4 shared atom(s))
+- [[javascriptallonge-parameter]] - shared technical atoms: Parameter shares technical record from And also: / That Constant Coffee Craving / are consts also from a shadowy planet?: if (true) { // an immediately invoked block statement (IIBS) } Let’s try it: ((diameter) => { const PI = 3; if (true) { const PI = 3.14159265; return diameter * PI; ... [truncated] (2 shared atom(s))
+- [[javascriptallonge-array]] - shared statements and technical atoms: Array shares source evidence from Composing and Decomposing Data / Arrays and Destructuring Arguments / destructuring arrays: The statement const [something] = wrapped; destructures the array represented by wrapped , binding the value of its single element to the name something . We can do ... [truncated]; Array shares technical record from Composing and Decomposing Data / Arrays and Destructuring Arguments / destructuring arrays: const surname = (name) => { const [first, last] = name; return last; } surname(["Reginald", "Braithwaite"]) //=> "Braithwaite" (1 shared statement(s), 1 shared atom(s))
+- [[javascriptallonge-evaluate]] - shared technical atoms: Evaluate shares technical record from Or even: / back on the block: //=> undefined We said that the function returns the result of evaluating a block, and we said that a block is a (possibly empty) list of JavaScript statements separ ... [truncated] (1 shared atom(s))
+- [[javascriptallonge-javascript]] - shared technical atoms: Javascript shares technical record from Or even: / back on the block: //=> undefined We said that the function returns the result of evaluating a block, and we said that a block is a (possibly empty) list of JavaScript statements separ ... [truncated] (1 shared atom(s))
+- [[javascriptallonge-list]] - shared technical atoms: List shares technical record from Or even: / back on the block: //=> undefined We said that the function returns the result of evaluating a block, and we said that a block is a (possibly empty) list of JavaScript statements separ ... [truncated] (1 shared atom(s))
+- [[javascriptallonge-return]] - shared technical atoms: Return shares technical record from Or even: / back on the block: //=> undefined We said that the function returns the result of evaluating a block, and we said that a block is a (possibly empty) list of JavaScript statements separ ... [truncated] (1 shared atom(s))
 
 ## Source
 

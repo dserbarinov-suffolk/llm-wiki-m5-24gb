@@ -9,7 +9,7 @@ domain: javascriptallonge
 category_path: recipes/javascriptallonge
 source_id: javascriptallonge.pdf
 aliases: iterating
-projection_coverage: recipe-javascriptallonge-recipe-iterating@1fc02d513387b5e30e48df2152fe2d91
+projection_coverage: recipe-javascriptallonge-recipe-iterating@0fcd0643a819e72fdb397251c6ef017c
 ---
 
 # iterating
@@ -18,7 +18,7 @@ From [[javascriptallonge]].
 
 ## Pattern
 
-- Use the source-backed pattern described in [[javascriptallonge-section-iterating-04da792c]].
+- Use the source-backed pattern described in [[javascriptallonge-section-copy-on-write-functional-iterators-iterating-155e14c1]].
 - Evidence roles: decision, constraint, explanation, example.
 
 ## Applicability And Rationale
@@ -174,4 +174,4 @@ iteratorSum(aListIterator)
 ## Source Trail
 
 - Source manifest: [[javascriptallonge]]
-- Source section: [[javascriptallonge-section-iterating-04da792c]]
+- Source section: [[javascriptallonge-section-copy-on-write-functional-iterators-iterating-155e14c1]]

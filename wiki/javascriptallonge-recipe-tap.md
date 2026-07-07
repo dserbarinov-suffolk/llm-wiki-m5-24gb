@@ -9,7 +9,7 @@ domain: javascriptallonge
 category_path: recipes/javascriptallonge
 source_id: javascriptallonge.pdf
 aliases: tap
-projection_coverage: recipe-javascriptallonge-recipe-tap@cb21455e2e77daf9128d6d0ee33ab193
+projection_coverage: recipe-javascriptallonge-recipe-tap@1d488712c77c1610f600d822f2cc21b4
 ---
 
 # Tap
@@ -18,7 +18,7 @@ From [[javascriptallonge]].
 
 ## Pattern
 
-- Use the source-backed pattern described in [[javascriptallonge-section-tap-293f95c9]].
+- Use the source-backed pattern described in [[javascriptallonge-section-recipes-with-basic-functions-tap-51486e75]].
 - Evidence roles: decision, constraint, example.
 
 ## Applicability And Rationale
@@ -81,4 +81,4 @@ console.log(`Our drink is '${it}'`)
 ## Source Trail
 
 - Source manifest: [[javascriptallonge]]
-- Source section: [[javascriptallonge-section-tap-293f95c9]]
+- Source section: [[javascriptallonge-section-recipes-with-basic-functions-tap-51486e75]]

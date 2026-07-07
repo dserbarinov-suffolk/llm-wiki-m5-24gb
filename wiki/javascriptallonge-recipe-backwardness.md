@@ -9,7 +9,7 @@ domain: javascriptallonge
 category_path: recipes/javascriptallonge
 source_id: javascriptallonge.pdf
 aliases: backwardness
-projection_coverage: recipe-javascriptallonge-recipe-backwardness@9204b563449d32dd4f85b426f9a79a7e
+projection_coverage: recipe-javascriptallonge-recipe-backwardness@e4313054c62027cc099729df072f95b1
 ---
 
 # backwardness
@@ -18,7 +18,7 @@ From [[javascriptallonge]].
 
 ## Pattern
 
-- Use the source-backed pattern described in [[javascriptallonge-section-backwardness-6e5a7d1d]].
+- Use the source-backed pattern described in [[javascriptallonge-section-copy-on-write-making-data-out-of-functions-backwardness-05f902ef]].
 - Evidence roles: decision, procedure, example.
 
 ## Applicability And Rationale
@@ -75,4 +75,4 @@ latin(second)
 ## Source Trail
 
 - Source manifest: [[javascriptallonge]]
-- Source section: [[javascriptallonge-section-backwardness-6e5a7d1d]]
+- Source section: [[javascriptallonge-section-copy-on-write-making-data-out-of-functions-backwardness-05f902ef]]
