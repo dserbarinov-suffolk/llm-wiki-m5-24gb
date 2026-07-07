@@ -39788,7 +39788,7 @@
       "sources": [
         "raw/Sword World RPG - Complete Edition.pdf"
       ],
-      "summary": "Complete Attacks From Characters Against Characters: 2 ordered step(s), 3 decision point(s), and 10 table/formula/example reference(s) from raw/Sword World RPG - Complete Edition.pdf."
+      "summary": "Complete Attacks From Characters Against Characters: 2 ordered step(s), 3 decision point(s), 10 authoritative dependency reference(s), 1 review-only dependency reference(s), projection partial from raw/Sword World RPG - Complete Edition.pdf."
     },
     {
       "category": "procedure",
@@ -39805,7 +39805,7 @@
       "sources": [
         "raw/Sword World RPG - Complete Edition.pdf"
       ],
-      "summary": "Complete Attacks From Monsters Against Characters: 5 ordered step(s), 2 decision point(s), and 7 table/formula/example reference(s) from raw/Sword World RPG - Complete Edition.pdf."
+      "summary": "Complete Attacks From Monsters Against Characters: 5 ordered step(s), 1 decision point(s), 7 authoritative dependency reference(s), 2 review-only dependency reference(s), projection partial from raw/Sword World RPG - Complete Edition.pdf."
     },
     {
       "category": "procedure",
@@ -39823,7 +39823,7 @@
       "sources": [
         "raw/Sword World RPG - Complete Edition.pdf"
       ],
-      "summary": "Create Character: 9 ordered step(s), 3 decision point(s), and 36 table/formula/example reference(s) from raw/Sword World RPG - Complete Edition.pdf."
+      "summary": "Create Character: 9 ordered step(s), 4 decision point(s), 36 authoritative dependency reference(s), 11 review-only dependency reference(s), projection partial from raw/Sword World RPG - Complete Edition.pdf."
     },
     {
       "category": "procedure",
@@ -39837,7 +39837,7 @@
       "sources": [
         "raw/Sword World RPG - Complete Edition.pdf"
       ],
-      "summary": "Complete Difficulty Checks: 3 ordered step(s), 4 decision point(s), and 5 table/formula/example reference(s) from raw/Sword World RPG - Complete Edition.pdf."
+      "summary": "Complete Difficulty Checks: 3 ordered step(s), 4 decision point(s), 5 authoritative dependency reference(s), 1 review-only dependency reference(s), projection partial from raw/Sword World RPG - Complete Edition.pdf."
     },
     {
       "category": "procedure",
@@ -39853,7 +39853,7 @@
       "sources": [
         "raw/Sword World RPG - Complete Edition.pdf"
       ],
-      "summary": "Complete Excellent Weapons and Armor: 4 ordered step(s), 10 decision point(s), and 43 table/formula/example reference(s) from raw/Sword World RPG - Complete Edition.pdf."
+      "summary": "Complete Excellent Weapons and Armor: 4 ordered step(s), 9 decision point(s), 43 authoritative dependency reference(s), 1 review-only dependency reference(s), projection partial from raw/Sword World RPG - Complete Edition.pdf."
     },
     {
       "category": "procedure",
@@ -39867,7 +39867,7 @@
       "sources": [
         "raw/Sword World RPG - Complete Edition.pdf"
       ],
-      "summary": "Complete Handling Monster Special Abilities: 2 ordered step(s), 6 decision point(s), and 26 table/formula/example reference(s) from raw/Sword World RPG - Complete Edition.pdf."
+      "summary": "Complete Handling Monster Special Abilities: 2 ordered step(s), 7 decision point(s), 26 authoritative dependency reference(s), 0 review-only dependency reference(s), projection ready from raw/Sword World RPG - Complete Edition.pdf."
     },
     {
       "category": "procedure",
@@ -39883,7 +39883,7 @@
       "sources": [
         "raw/Sword World RPG - Complete Edition.pdf"
       ],
-      "summary": "Complete Unconscious and Death Checks: 4 ordered step(s), 5 decision point(s), and 9 table/formula/example reference(s) from raw/Sword World RPG - Complete Edition.pdf."
+      "summary": "Complete Unconscious and Death Checks: 4 ordered step(s), 6 decision point(s), 9 authoritative dependency reference(s), 0 review-only dependency reference(s), projection ready from raw/Sword World RPG - Complete Edition.pdf."
     },
     {
       "category": "concept",
