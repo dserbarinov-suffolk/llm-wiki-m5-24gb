@@ -808,5 +808,5 @@
 - [[javascriptallonge-recipe-yielding-iterables]] — yielding iterables: reusable source-backed pattern with 6 statement(s) and 7 technical atom(s) from raw/javascriptallonge.pdf.
 
 ## Syntheses
-- [[wiki-health]] — Wiki health report from the latest lint pass (2026-06-30).
+- [[wiki-health]] — Wiki health report from the latest lint pass (2026-07-07).
 - [[wiki-ingest-confidence]] — Latest bounded post-ingest confidence report.

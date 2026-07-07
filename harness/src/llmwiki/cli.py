@@ -168,6 +168,20 @@ async def _run(args: argparse.Namespace) -> OperationResult:
         return await session.ingest(
             args.source, reextract=args.reextract, reintegrate=args.reintegrate
         )
+    if args.op == "lint":
+        session = Session(
+            store=WikiStore(paths, model_profile=model_profile),
+            client=None,
+            context_manager=ContextManager(strategy=NoCompact(), budget_tokens=1),
+            model_profile=model_profile,
+            today=now.date().isoformat(),
+            runs_dir=paths.runs_dir,
+            run_id=now.strftime("%Y-%m-%d-%H%M%S"),
+            extract_pdf=_pdf_extractor(paths, model_profile),
+            on_chunk_note=lambda note: print(note, flush=True),
+        )
+        if not session.lint_needs_model_review():
+            return await session.lint()
 
     backend_config = load_backend_config()
     backend = await start_backend(backend_config)

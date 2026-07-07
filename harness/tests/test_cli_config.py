@@ -88,6 +88,36 @@ class TestGraphCommand:
         assert "Graph export: current" in checked.output
 
 
+class TestLintCommand:
+    async def test_large_lint_set_does_not_start_backend(
+        self, paths: WikiPaths, monkeypatch: pytest.MonkeyPatch
+    ) -> None:
+        store = WikiStore(paths)
+        for index in range(55):
+            store.write_page(
+                WikiPage.from_metadata(
+                    PageMetadata(
+                        f"orphan-{index:02d}",
+                        "concept",
+                        f"Orphan {index}.",
+                    ),
+                    "No inbound links.",
+                )
+            )
+
+        async def fail_start_backend(_config: object) -> None:
+            raise AssertionError("large deterministic lint pass must not start the backend")
+
+        monkeypatch.setattr("llmwiki.cli.start_backend", fail_start_backend)
+        args = _build_parser().parse_args(["--root", str(paths.root), "lint"])
+
+        result = await _run(args)
+
+        assert "Model repair loop skipped" in result.output
+        assert "55 issue(s)" in result.output
+        assert "wiki-health" in store.list_pages()
+
+
 class TestChatInputLoop:
     def test_prompt_restores_default_sigint_handler(self, monkeypatch: pytest.MonkeyPatch) -> None:
         asyncio_handler = object()

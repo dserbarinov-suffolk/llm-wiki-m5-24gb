@@ -104,3 +104,4 @@ def test_compute_findings_returns_lint_run() -> None:
     lint_run = compute_findings({"alpha": "See [[ghost]]."}, index_page_ids={"alpha"})
     assert isinstance(lint_run, LintRun)
     assert lint_run.lint_findings[0].page_id == "alpha"
+    assert "[[links]]" not in lint_run.render()

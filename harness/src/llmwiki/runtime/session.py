@@ -182,9 +182,7 @@ class Session:
         source_text = self.store.read_source_for_ingest(source_locator)
         source_text_record = source_text_from_text(source_locator, source_text)
         title = _markdown_title(source_locator)
-        source_chunks = markdown_source_chunks(
-            source_text, title, model_profile=self.model_profile
-        )
+        source_chunks = markdown_source_chunks(source_text, title, model_profile=self.model_profile)
         extracted_units = self._markdown_extracted_units(
             raw_source,
             source_chunks,
@@ -441,6 +439,18 @@ class Session:
             report,
             transcript,
             self._lint_run(),
+        )
+
+    def lint_needs_model_review(self) -> bool:
+        findings = compute_findings(
+            self.store.page_texts(),
+            self.store.index_page_ids(),
+            exempt_from_orphans=frozenset({HEALTH_PAGE}),
+        )
+        return (
+            bool(self.store.list_pages())
+            and not findings.is_clean
+            and len(findings.lint_findings) <= _LINT_MODEL_MAX_FINDINGS
         )
 
     async def claim_support(

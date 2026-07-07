@@ -539,7 +539,7 @@ class LintRun:
                 for page_id, targets in sorted(self.broken_links.items())
             ]
             sections.append(
-                "Broken [[links]] (target page does not exist):\n"
+                "Broken wiki links (target page does not exist):\n"
                 + _render_limited_lines(lines, max_items_per_section)
             )
         if self.orphan_pages:
