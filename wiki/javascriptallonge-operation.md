@@ -1,13 +1,13 @@
 ---
 page_id: javascriptallonge-operation
 page_kind: concept
-summary: Operation: 4 statement(s) and 5 atom(s) from raw/javascriptallonge.pdf.
+summary: Operation: 4 statement(s) and 4 atom(s) from raw/javascriptallonge.pdf.
 page_family: topic-concept
 sources: raw/javascriptallonge.pdf
 updated: 2026-07-07
 domain: javascriptallonge
 category_path: concepts
-projection_coverage: topic-javascriptallonge-operation@016f2368bc2429d4f10908172c75ea11
+projection_coverage: topic-javascriptallonge-operation@c6f65dbabbf36748a4fccf6a59eea388
 ---
 
 # Operation
@@ -33,21 +33,7 @@ What [[javascriptallonge]] covers about operation:
 
 ## Technical atoms
 
-### Technical frame 1: Copy on Write / Functional Iterators / bonus
-
-**Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01294))_
-
-> This is interesting, because it is lazy: It doesn't apply fn to every element in an iteration, just enough to find the first that passes the test. Whereas if we wrote something like:
-
-**Atom:** _(javascriptallonge.pdf (source-range-c98ab3e6-01293))_
-
-<a id="atom-technical-atom-da3ef04aced8adf4"></a>
-```
-const firstInIteration = (fn, iterator) =>
-take(filterIteratorWith(fn, iterator), 1);
-```
-
-### Technical frame 2: Served by the Pot: Collections / Iteration and Iterables / operations on ordered collections
+### Technical frame 1: Served by the Pot: Collections / Iteration and Iterables / operations on ordered collections
 
 **Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01560))_
 
@@ -71,7 +57,7 @@ return ({done, value: done ? undefined : fn(value)});
 });
 ```
 
-### Technical frame 3: Served by the Pot: Collections / Iteration and Iterables / operations on ordered collections
+### Technical frame 2: Served by the Pot: Collections / Iteration and Iterables / operations on ordered collections
 
 **Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01563))_
 
@@ -100,7 +86,7 @@ console.log(i)
 ...
 ```
 
-### Technical frame 4: Served by the Pot: Collections / Iteration and Iterables / operations on ordered collections
+### Technical frame 3: Served by the Pot: Collections / Iteration and Iterables / operations on ordered collections
 
 **Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01573))_
 
@@ -139,7 +125,7 @@ return ({done, value: done ? undefined : value});
 });
 ```
 
-### Technical frame 5: Served by the Pot: Collections / Iteration and Iterables / operations on ordered collections
+### Technical frame 4: Served by the Pot: Collections / Iteration and Iterables / operations on ordered collections
 
 **Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01576))_
 
@@ -169,10 +155,6 @@ const UpTo1000 = untilWith((x) => (x > 1000), EndWithOne);
 - [[javascriptallonge-iteration]] - shared technical atoms: Iteration shares technical record from Served by the Pot: Collections / Iteration and Iterables / operations on ordered collections: const mapWith = (fn, collection) => ({ [Symbol.iterator] () { const iterator = collection[Symbol.iterator](); return { next () { const {done, value} = iterator.next( ... [truncated] (4 shared atom(s))
 - [[javascriptallonge-iterator]] - shared technical atoms: Iterator shares technical record from Served by the Pot: Collections / Iteration and Iterables / operations on ordered collections: const mapWith = (fn, collection) => ({ [Symbol.iterator] () { const iterator = collection[Symbol.iterator](); return { next () { const {done, value} = iterator.next( ... [truncated] (2 shared atom(s))
 - [[javascriptallonge-return]] - shared technical atoms: Return shares technical record from Served by the Pot: Collections / Iteration and Iterables / operations on ordered collections: const mapWith = (fn, collection) => ({ [Symbol.iterator] () { const iterator = collection[Symbol.iterator](); return { next () { const {done, value} = iterator.next( ... [truncated] (2 shared atom(s))
-- [[javascriptallonge-copy-write]] - shared technical atoms: Copy on Write shares technical record from Copy on Write / Functional Iterators / bonus: const firstInIteration = (fn, iterator) => take(filterIteratorWith(fn, iterator), 1); (1 shared atom(s))
-- [[javascriptallonge-element]] - shared technical atoms: Element shares technical record from Copy on Write / Functional Iterators / bonus: const firstInIteration = (fn, iterator) => take(filterIteratorWith(fn, iterator), 1); (1 shared atom(s))
-- [[javascriptallonge-functional-iterator]] - shared technical atoms: Functional Iterators shares technical record from Copy on Write / Functional Iterators / bonus: const firstInIteration = (fn, iterator) => take(filterIteratorWith(fn, iterator), 1); (1 shared atom(s))
-- [[javascriptallonge-javascript]] - shared technical atoms: Javascript shares technical record from Copy on Write / Functional Iterators / bonus: const firstInIteration = (fn, iterator) => take(filterIteratorWith(fn, iterator), 1); (1 shared atom(s))
 
 ## Source
 

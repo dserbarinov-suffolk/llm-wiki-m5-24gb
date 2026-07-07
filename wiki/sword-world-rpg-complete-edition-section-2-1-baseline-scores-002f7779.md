@@ -8,7 +8,7 @@ updated: 2026-07-07
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-2-1-baseline-scores-002f7779@11267e164add623e4d08cba79a8e2fed
+projection_coverage: section-sword-world-rpg-complete-edition-section-2-1-baseline-scores-002f7779@40f1b3e65f508701491d10bd40d63269
 ---
 
 # 2.1 Baseline Scores
@@ -19,13 +19,8 @@ From [[sword-world-rpg-complete-edition]].
 
 ### Source order
 
-- [[sword-world-rpg-complete-edition-section-1-4-character-creation-23071b21]] - previous source section: 1.4 Character Creation
-- [[sword-world-rpg-complete-edition-section-2-4-bonuses-and-penalties-e2265fd4]] - next source section: 2.4 Bonuses and Penalties
-
-### Source structure
-
-- [[sword-world-rpg-complete-edition-section-2-1-baseline-scores-checks-00dfa735]] - narrower source section: 2.1 Baseline Scores / Checks
-- [[sword-world-rpg-complete-edition-section-2-1-baseline-scores-target-scores-ea2c0fa7]] - narrower source section: 2.1 Baseline Scores / Target Scores
+- [[sword-world-rpg-complete-edition-section-1-4-9-filling-out-the-character-sheet-3ba78d4e]] - previous source section: 1.4.9 Filling Out the Character Sheet
+- [[sword-world-rpg-complete-edition-section-target-scores-ea2c0fa7]] - next source section: Target Scores
 
 ## Statements
 

@@ -7,7 +7,7 @@ sources: raw/javascriptallonge.pdf
 updated: 2026-07-07
 domain: javascriptallonge
 category_path: concepts
-projection_coverage: topic-javascriptallonge-statement@d8515833d21fc3e12ed0f68849951ed7
+projection_coverage: topic-javascriptallonge-statement@5e8bc6a15603f3ca56cf31fe66a39ba3
 ---
 
 # Statement
@@ -20,17 +20,17 @@ What [[javascriptallonge]] covers about statement:
 
 - One of the important possible statements is a return statement. A return statement accepts any valid JavaScript expression. _(javascriptallonge.pdf (source-range-c98ab3e6-00274))_
 
-### And also: / That Constant Coffee Craving / nested blocks
+### That Constant Coffee Craving / nested blocks
 
 - The if statement is a statement, not an expression (an unfortunate design choice), and its clauses are statements or blocks. So we could also write something like: _(javascriptallonge.pdf (source-range-c98ab3e6-00427))_
 
-### And also: / That Constant Coffee Craving / are consts also from a shadowy planet?
+### That Constant Coffee Craving / are consts also from a shadowy planet?
 
 - But const statements can appear inside blocks, and we saw that blocks can appear inside of other blocks, including function bodies. So where are const variables bound? In the function environment? Or in an environment corresponding to the block? _(javascriptallonge.pdf (source-range-c98ab3e6-00450))_
 
 - Parameters are only bound when we invoke a function. That's why we made all these IIFEs. But const statements can appear inside blocks. What happens when we use a const inside of a block? We'll need a gratuitous block. We've seen if statements, what could be more gratuitous than: _(javascriptallonge.pdf (source-range-c98ab3e6-00466))_
 
-### And also: / Summary / Functions
+### Summary / Functions
 
 - Blocks also create scopes if const statements are within them. _(javascriptallonge.pdf (source-range-c98ab3e6-00633))_
 
@@ -41,7 +41,7 @@ What [[javascriptallonge]] covers about statement:
 
 ## Technical atoms
 
-### Technical frame 1: And also: / That Constant Coffee Craving / nested blocks
+### Technical frame 1: That Constant Coffee Craving / nested blocks
 
 **Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-00427))_
 
@@ -62,7 +62,7 @@ return even(n)
 }
 ```
 
-### Technical frame 2: And also: / That Constant Coffee Craving / nested blocks
+### Technical frame 2: That Constant Coffee Craving / nested blocks
 
 **Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-00431))_
 
@@ -82,7 +82,7 @@ return odd(x - 1);
 }
 ```
 
-### Technical frame 3: And also: / That Constant Coffee Craving / nested blocks
+### Technical frame 3: That Constant Coffee Craving / nested blocks
 
 **Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-00431))_
 
@@ -95,7 +95,7 @@ return odd(x - 1);
 //=> true
 ```
 
-### Technical frame 4: And also: / That Constant Coffee Craving / are consts also from a shadowy planet?
+### Technical frame 4: That Constant Coffee Craving / are consts also from a shadowy planet?
 
 **Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-00474))_
 
@@ -109,7 +109,7 @@ return odd(x - 1);
 //=> 6.2831853
 ```
 
-### Technical frame 5: And also: / That Constant Coffee Craving / are consts also from a shadowy planet?
+### Technical frame 5: That Constant Coffee Craving / are consts also from a shadowy planet?
 
 **Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-00474))_
 
@@ -129,7 +129,7 @@ return diameter * PI;
 //=> would return 6 if const had function scope
 ```
 
-### Technical frame 6: And also: / That Constant Coffee Craving / are consts also from a shadowy planet?
+### Technical frame 6: That Constant Coffee Craving / are consts also from a shadowy planet?
 
 **Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-00474))_
 
@@ -189,9 +189,13 @@ surname(["Reginald", "Braithwaite"])
 
 ### Shared technical atoms
 
-- [[javascriptallonge-expression]] - shared technical atoms: Expression shares technical record from And also: / That Constant Coffee Craving / nested blocks: (n) => { const even = (x) => { if (x === 0) return true; else { const odd = (y) => !even(y); return odd(x - 1); } (2 shared atom(s))
+- [[javascriptallonge-expression]] - shared technical atoms: Expression shares technical record from That Constant Coffee Craving / nested blocks: (n) => { const even = (x) => { if (x === 0) return true; else { const odd = (y) => !even(y); return odd(x - 1); } (2 shared atom(s))
 - [[javascriptallonge-array]] - shared statements and technical atoms: Array shares source evidence from Composing and Decomposing Data / Arrays and Destructuring Arguments / destructuring arrays: The statement const [something] = wrapped; destructures the array represented by wrapped , binding the value of its single element to the name something . We can do ... [truncated]; Array shares technical record from Composing and Decomposing Data / Arrays and Destructuring Arguments / destructuring arrays: const surname = (name) => { const [first, last] = name; return last; } surname(["Reginald", "Braithwaite"]) //=> "Braithwaite" (1 shared statement(s), 1 shared atom(s))
-- [[javascriptallonge-parameter]] - shared technical atoms: Parameter shares technical record from And also: / That Constant Coffee Craving / are consts also from a shadowy planet?: })(2) //=> 6.2831853 (1 shared atom(s))
+- [[javascriptallonge-parameter]] - shared technical atoms: Parameter shares technical record from That Constant Coffee Craving / are consts also from a shadowy planet?: })(2) //=> 6.2831853 (1 shared atom(s))
+
+### Shared claims
+
+- [[javascriptallonge-scope]] - shared statements: Scope shares source evidence from Summary / Functions: Blocks also create scopes if const statements are within them. (1 shared statement(s))
 
 ## Source
 

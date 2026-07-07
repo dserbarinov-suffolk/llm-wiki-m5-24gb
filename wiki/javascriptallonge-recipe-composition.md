@@ -9,7 +9,7 @@ domain: javascriptallonge
 category_path: recipes/javascriptallonge
 source_id: javascriptallonge.pdf
 aliases: composition
-projection_coverage: recipe-javascriptallonge-recipe-composition@eaa2077a7ee79b7a183317cff2fbbaf8
+projection_coverage: recipe-javascriptallonge-recipe-composition@199f3e2b3214c728c37170d04ae2e1a2
 ---
 
 # composition
@@ -18,7 +18,7 @@ From [[javascriptallonge]].
 
 ## Pattern
 
-- Use the source-backed pattern described in [[javascriptallonge-section-and-also-building-blocks-composition-ed84a096]].
+- Use the source-backed pattern described in [[javascriptallonge-section-building-blocks-composition-ed84a096]].
 - Evidence roles: decision, constraint, procedure, explanation, example, structured-state.
 
 ## Applicability And Rationale
@@ -62,4 +62,4 @@ const invokeTransfer = once(maybe(actuallyTransfer(...)));
 ## Source Trail
 
 - Source manifest: [[javascriptallonge]]
-- Source section: [[javascriptallonge-section-and-also-building-blocks-composition-ed84a096]]
+- Source section: [[javascriptallonge-section-building-blocks-composition-ed84a096]]

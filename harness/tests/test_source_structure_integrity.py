@@ -1,9 +1,10 @@
 from llmwiki.domain.ledger.source_structure_integrity import (
     HeadingCandidate,
     heading_admission,
+    source_structure_integrity_report,
     structure_node_can_drive_pages,
 )
-from llmwiki.domain.ledger.structure import StructureNode
+from llmwiki.domain.ledger.structure import DocumentStructure, StructureNode
 
 
 def test_heading_admission_accepts_clean_structural_heading() -> None:
@@ -61,3 +62,77 @@ def test_structure_node_with_record_shape_cannot_drive_pages() -> None:
     )
 
     assert not structure_node_can_drive_pages(node)
+
+
+def test_integrity_report_warns_when_numbered_heading_escapes_nearest_numbered_ancestor() -> None:
+    structure = DocumentStructure(
+        "root",
+        (
+            _node("root", "root", "Manual", 0, 0, ""),
+            _node("n1", "heading", "2.3.4 Nested Topic", 3, 1, "root"),
+            _node("n2", "section", "2.4.1 Sibling Topic", 2, 2, "n1"),
+        ),
+    )
+
+    report = source_structure_integrity_report(structure)
+
+    assert any(
+        finding.structure_node_id == "n2"
+        and "number path is not a descendant" in finding.message
+        for finding in report.findings
+    )
+
+
+def test_integrity_report_warns_when_top_level_heading_is_under_numbered_subsection() -> None:
+    structure = DocumentStructure(
+        "root",
+        (
+            _node("root", "root", "Manual", 0, 0, ""),
+            _node("n1", "heading", "2.3.4 Nested Topic", 3, 1, "root"),
+            _node("n2", "chapter", "New Major Topic", 1, 2, "n1"),
+        ),
+    )
+
+    report = source_structure_integrity_report(structure)
+
+    assert any(
+        finding.structure_node_id == "n2"
+        and "Top-level heading" in finding.message
+        for finding in report.findings
+    )
+
+
+def test_integrity_report_accepts_valid_numbered_descendant() -> None:
+    structure = DocumentStructure(
+        "root",
+        (
+            _node("root", "root", "Manual", 0, 0, ""),
+            _node("n1", "heading", "2.3 Parent", 1, 1, "root"),
+            _node("n2", "heading", "2.3.4 Nested Topic", 3, 2, "n1"),
+            _node("n3", "heading", "2.3.4.1 Detail", 4, 3, "n2"),
+        ),
+    )
+
+    report = source_structure_integrity_report(structure)
+
+    assert not report.findings
+
+
+def _node(
+    node_id: str,
+    kind: str,
+    heading: str,
+    depth: int,
+    order: int,
+    parent: str,
+) -> StructureNode:
+    return StructureNode(
+        node_id,
+        kind,
+        heading,
+        f"range-{order}",
+        "synthetic.pdf",
+        order,
+        depth,
+        parent,
+    )

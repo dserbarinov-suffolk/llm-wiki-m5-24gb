@@ -1,13 +1,13 @@
 ---
 page_id: javascriptallonge-ecmascript
 page_kind: concept
-summary: Ecmascript: 11 statement(s) and 5 atom(s) from raw/javascriptallonge.pdf.
+summary: Ecmascript: 11 statement(s) and 4 atom(s) from raw/javascriptallonge.pdf.
 page_family: topic-concept
 sources: raw/javascriptallonge.pdf
 updated: 2026-07-07
 domain: javascriptallonge
 category_path: concepts
-projection_coverage: topic-javascriptallonge-ecmascript@26c9b13df4abd5ae769e3fc14d4ba946
+projection_coverage: topic-javascriptallonge-ecmascript@f93706245cd032355412130825d570eb
 ---
 
 # Ecmascript
@@ -40,7 +40,7 @@ What [[javascriptallonge]] covers about ecmascript:
 
 - With ECMAScript 6, JavaScript has become much larger as a language. JavaScript Allongé, the 'Six' Edition is both a comprehensive tour of its features and a rich collection of techniques for making better use of them. You will learn much about functional programming and object-oriented programming. And you'll do so via ES6 code, handed to you in small, easily digestible pieces. _(javascriptallonge.pdf (source-range-c98ab3e6-00078))_
 
-### And also: / Naming Functions / the function keyword
+### Naming Functions / the function keyword
 
 - JavaScript does have a syntax for naming a function, we use the function keyword. Until ECMAScript 2015 was created, function was the usual syntax for writing functions. _(javascriptallonge.pdf (source-range-c98ab3e6-00488))_
 
@@ -122,49 +122,20 @@ console.log(`squad coached by ${coach}`);
 //=> Unexpected token
 ```
 
-### Technical frame 5: Recipes with Basic Functions / Left-Variadic Functions / a history lesson
-
-**Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-00714))_
-
-> This is a right-variadic function , meaning that it has one or more fixed arguments, and the rest are gathered into the rightmost argument.
-
-**Atom:** _(javascriptallonge.pdf (source-range-c98ab3e6-00709))_
-
-<a id="atom-technical-atom-185649a0505afc33"></a>
-```
-var __slice = Array.prototype.slice;
-function rightVariadic (fn) {
-if (fn.length < 1) return fn;
-return function () {
-var ordinaryArgs = (1 <= arguments.length ?
-__slice.call(arguments, 0, fn.length - 1) : []),
-restOfTheArgsList = __slice.call(arguments, fn.length - 1),
-args = (fn.length <= arguments.length ?
-ordinaryArgs.concat([restOfTheArgsList]) : []);
-return fn.apply(this, args);
-}
-};
-var firstAndButFirst = rightVariadic(function test (first, butFirst) {
-return [first, butFirst]
-});
-firstAndButFirst('why', 'hello', 'there', 'little', 'droid')
-//=> ["why",["hello","there","little","droid"]]
-```
-
 
 ## Related pages
 
 ### Shared technical atoms
 
-- [[javascriptallonge-javascript]] - shared statements and technical atoms: Javascript shares source evidence from A Pull of the Lever: Prefaces / About JavaScript Allongé / why the 'six' edition?: Prior to ECMAScript 2015, JavaScript did not include many features that programmers have discovered are vital to writing great software. For example, JavaScript did ... [truncated]; Javascript shares technical record from A Pull of the Lever: Prefaces / About JavaScript Allongé / why the 'six' edition?: var i; for (i = 0; i < array.length; ++i) { (function (i) { // ... })(i) } (4 shared statement(s), 4 shared atom(s))
 - [[javascriptallonge-javascript-allong]] - shared statements and technical atoms: About JavaScript Allongé shares source evidence from A Pull of the Lever: Prefaces / About JavaScript Allongé / why the 'six' edition?: ECMAScript 2015 (formerly called ECMAScript 6 or 'ES6'), is ushering in a very large number of improvements to the way programmers can write small, powerful componen ... [truncated]; About JavaScript Allongé shares technical record from A Pull of the Lever: Prefaces / About JavaScript Allongé / why the 'six' edition?: var i; for (i = 0; i < array.length; ++i) { (function (i) { // ... })(i) } (5 shared statement(s), 3 shared atom(s))
+- [[javascriptallonge-javascript]] - shared statements and technical atoms: Javascript shares source evidence from A Pull of the Lever: Prefaces / About JavaScript Allongé / why the 'six' edition?: Prior to ECMAScript 2015, JavaScript did not include many features that programmers have discovered are vital to writing great software. For example, JavaScript did ... [truncated]; Javascript shares technical record from A Pull of the Lever: Prefaces / About JavaScript Allongé / why the 'six' edition?: var i; for (i = 0; i < array.length; ++i) { (function (i) { // ... })(i) } (4 shared statement(s), 3 shared atom(s))
 - [[javascriptallonge-feature]] - shared statements and technical atoms: Feature shares source evidence from A Pull of the Lever: Prefaces / Foreword to the 'Six' edition: A larger upgrade would substantially improve JavaScript, but without being as radical as ECMAScript 4. This upgrade became ECMAScript 6 (some features that were init ... [truncated]; Feature shares technical record from A Pull of the Lever: Prefaces / About JavaScript Allongé / why the 'six' edition?: for (let i = 0; i < array.length; ++i) { // ... } (1 shared statement(s), 1 shared atom(s))
-- [[javascriptallonge-parameter]] - shared statements and technical atoms: Parameter shares source evidence from Recipes with Basic Functions / Left-Variadic Functions: ECMAScript 2015 only permits gathering parameters from the end of the parameter list. Not the beginning. What to do?; Parameter shares technical record from Recipes with Basic Functions / Left-Variadic Functions / a history lesson: var __slice = Array.prototype.slice; function rightVariadic (fn) { if (fn.length < 1) return fn; return function () { var ordinaryArgs = (1 <= arguments.length ? __s ... [truncated] (1 shared statement(s), 1 shared atom(s))
 - [[javascriptallonge-programming]] - shared technical atoms: Programming shares technical record from A Pull of the Lever: Prefaces / About JavaScript Allongé / why the 'six' edition?: var i; for (i = 0; i < array.length; ++i) { (function (i) { // ... })(i) } (1 shared atom(s))
 
 ### Shared claims
 
-- [[javascriptallonge-function-keyword]] - shared statements: the function keyword shares source evidence from And also: / Naming Functions / the function keyword: JavaScript does have a syntax for naming a function, we use the function keyword. Until ECMAScript 2015 was created, function was the usual syntax for writing functions. (1 shared statement(s))
+- [[javascriptallonge-function-keyword]] - shared statements: the function keyword shares source evidence from Naming Functions / the function keyword: JavaScript does have a syntax for naming a function, we use the function keyword. Until ECMAScript 2015 was created, function was the usual syntax for writing functions. (1 shared statement(s))
+- [[javascriptallonge-parameter]] - shared statements: Parameter shares source evidence from Recipes with Basic Functions / Left-Variadic Functions: ECMAScript 2015 only permits gathering parameters from the end of the parameter list. Not the beginning. What to do? (1 shared statement(s))
 
 ## Source
 

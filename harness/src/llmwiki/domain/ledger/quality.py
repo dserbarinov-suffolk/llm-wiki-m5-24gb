@@ -20,6 +20,7 @@ from llmwiki.domain.ledger.quality_catalog import (
     QualityCheckCatalog,
     QualityFindingSeverityPolicy,
 )
+from llmwiki.domain.ledger.source_structure_integrity import source_structure_integrity_report
 from llmwiki.domain.ledger.structure import DocumentStructure
 from llmwiki.domain.ledger.table_references import unresolved_table_reference_entry_ids
 from llmwiki.domain.ledger.technical_atom_trust import atom_is_authoritative
@@ -126,6 +127,7 @@ def build_ledger_quality_report(
     finder = FindingCollector("ledger-build", catalog, severity)
     _check_dispositions(finder, ledger, structure)
     _check_decisions(finder, ledger)
+    _check_structure_integrity(finder, structure)
     _check_atoms(finder, ledger)
     _check_entries(finder, ledger)
     _check_named_table_references(finder, ledger, structure)
@@ -217,6 +219,16 @@ def _check_decisions(finder: FindingCollector, ledger: ClaimLedger) -> None:
     for source_range_id, capability_ids in by_range.items():
         if capability_ids != set(EXTRACTOR_CAPABILITY_IDS):
             finder.add("ck-extractor-decision-per-capability", "extracted-unit", source_range_id)
+
+
+def _check_structure_integrity(finder: FindingCollector, structure: DocumentStructure) -> None:
+    for finding in source_structure_integrity_report(structure).findings:
+        finder.add(
+            "ck-source-structure-integrity",
+            "structure-node",
+            finding.structure_node_id,
+            review_reason=ReviewReason(finding.category, finding.message),
+        )
 
 
 def _check_atoms(finder: FindingCollector, ledger: ClaimLedger) -> None:

@@ -7,7 +7,7 @@ sources: raw/javascriptallonge.pdf
 updated: 2026-07-07
 domain: javascriptallonge
 category_path: concepts
-projection_coverage: topic-javascriptallonge-bind@89c304aca7bfe0dbecd6f4ba66d45cab
+projection_coverage: topic-javascriptallonge-bind@dc61152af90088e8830fffa0212d3ab0
 ---
 
 # Bind
@@ -20,25 +20,25 @@ What [[javascriptallonge]] covers about bind:
 
 - We said that JavaScript binds names to values, but we didn't say what it means to bind a name to a value. Now we can elaborate: When JavaScript binds a value-type to a name, it makes a copy of the value and places the copy in the environment. As you recall, value types like strings and numbers are identical to each other if they have the same content. So JavaScript can make as many copies of strings, numbers, or booleans as it wishes. _(javascriptallonge.pdf (source-range-c98ab3e6-00308))_
 
-### And also: / That Constant Coffee Craving
+### That Constant Coffee Craving
 
 - In order to bind 3.14159265 to the name PI , we'll need a function with a parameter of PI applied to an argument of 3.14159265 . If we put our function expression in parentheses, we can apply it to the argument of 3.14159265 : _(javascriptallonge.pdf (source-range-c98ab3e6-00373))_
 
-### And also: / That Constant Coffee Craving / are consts also from a shadowy planet?
+### That Constant Coffee Craving / are consts also from a shadowy planet?
 
 - We can test this by creating another conflict. But instead of binding two different variables to the same name in two different places, we'll bind two different values to the same name, but one environment will be completely enclosed by the other. _(javascriptallonge.pdf (source-range-c98ab3e6-00451))_
 
 - Again, confusing. Typically, we want to bind our names as close to where we need them as possible. This design rule is called the Principle of Least Privilege 32 , and it has both quality and security implications. Being able to bind a name inside of a block means that if the name is only needed in the block, we are not 'leaking' its binding to other parts of the code that do not need to interact with it. _(javascriptallonge.pdf (source-range-c98ab3e6-00474))_
 
-### And also: / Naming Functions
+### Naming Functions
 
 - It doesn't name the function 'repeat' for the same reason that const answer = 42 doesn't name the number 42 . This syntax binds an anonymous function to a name in an environment, but the function itself remains anonymous. _(javascriptallonge.pdf (source-range-c98ab3e6-00486))_
 
-### And also: / Naming Functions / function declarations
+### Naming Functions / function declarations
 
 - In that it binds a name in the environment to a named function. However, there are two important differences. First, function declarations are hoisted to the top of the function in which they occur. _(javascriptallonge.pdf (source-range-c98ab3e6-00525))_
 
-### And also: / Magic Names / magic names and fat arrows
+### Magic Names / magic names and fat arrows
 
 - This works just fine, because arguments[0] refers to the 3 we passed to the function row . Our 'fat arrow' function (column) => column * arguments[0] doesn't bind arguments when it's invoked. But if we rewrite row to use the function keyword, it stops working: _(javascriptallonge.pdf (source-range-c98ab3e6-00612))_
 
@@ -57,7 +57,7 @@ What [[javascriptallonge]] covers about bind:
 
 ## Technical atoms
 
-### Technical frame 1: And also: / That Constant Coffee Craving
+### Technical frame 1: That Constant Coffee Craving
 
 **Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-00377))_
 
@@ -72,7 +72,7 @@ What [[javascriptallonge]] covers about bind:
 )(3.14159265)
 ```
 
-### Technical frame 2: And also: / That Constant Coffee Craving
+### Technical frame 2: That Constant Coffee Craving
 
 **Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-00377))_
 
@@ -87,7 +87,7 @@ What [[javascriptallonge]] covers about bind:
 )(3.14159265)
 ```
 
-### Technical frame 3: And also: / That Constant Coffee Craving / inside-out
+### Technical frame 3: That Constant Coffee Craving / inside-out
 
 **Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-00387))_
 
@@ -102,7 +102,7 @@ What [[javascriptallonge]] covers about bind:
 diameter * PI)(3.14159265)
 ```
 
-### Technical frame 4: And also: / That Constant Coffee Craving / const
+### Technical frame 4: That Constant Coffee Craving / const
 
 **Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-00404))_
 
@@ -116,7 +116,7 @@ diameter * PI)(3.14159265)
 //=> 6.2831853
 ```
 
-### Technical frame 5: And also: / That Constant Coffee Craving / const
+### Technical frame 5: That Constant Coffee Craving / const
 
 **Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-00417))_
 
@@ -135,7 +135,7 @@ return "The circumference is " + calc(d)
 }
 ```
 
-### Technical frame 6: And also: / That Constant Coffee Craving / const
+### Technical frame 6: That Constant Coffee Craving / const
 
 **Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-00418))_
 
@@ -146,7 +146,7 @@ return "The circumference is " + calc(d)
 <a id="atom-technical-atom-cb81c053d3442170"></a>
 > This underscores what we've said: if we have an expression that evaluates to a function, we apply it with () .
 
-### Technical frame 7: And also: / That Constant Coffee Craving / const
+### Technical frame 7: That Constant Coffee Craving / const
 
 **Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-00421))_
 
@@ -164,7 +164,7 @@ return "The circumference is " + calc(d)
 }
 ```
 
-### Technical frame 8: And also: / That Constant Coffee Craving / const and lexical scope
+### Technical frame 8: That Constant Coffee Craving / const and lexical scope
 
 **Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-00439))_
 
@@ -184,7 +184,7 @@ diameter_fn(2)
 //=> 6.2831853
 ```
 
-### Technical frame 9: And also: / That Constant Coffee Craving / are consts also from a shadowy planet?
+### Technical frame 9: That Constant Coffee Craving / are consts also from a shadowy planet?
 
 **Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-00458))_
 
@@ -201,7 +201,7 @@ diameter_fn(2)
 )(3)
 ```
 
-### Technical frame 10: And also: / That Constant Coffee Craving / are consts also from a shadowy planet?
+### Technical frame 10: That Constant Coffee Craving / are consts also from a shadowy planet?
 
 **Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-00460))_
 
@@ -217,7 +217,7 @@ return (diameter) => diameter * PI;
 })(3.14159265)
 ```
 
-### Technical frame 11: And also: / That Constant Coffee Craving / are consts also from a shadowy planet?
+### Technical frame 11: That Constant Coffee Craving / are consts also from a shadowy planet?
 
 **Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-00462))_
 
@@ -234,7 +234,7 @@ return (diameter) => diameter * PI;
 //=> 6.2831853
 ```
 
-### Technical frame 12: And also: / That Constant Coffee Craving / are consts also from a shadowy planet?
+### Technical frame 12: That Constant Coffee Craving / are consts also from a shadowy planet?
 
 **Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-00466))_
 
@@ -254,7 +254,7 @@ return diameter * PI;
 //=> 6.2831853
 ```
 
-### Technical frame 13: And also: / Naming Functions
+### Technical frame 13: Naming Functions
 
 **Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-00486))_
 
@@ -267,7 +267,7 @@ return diameter * PI;
 const repeat = (str) => str + str
 ```
 
-### Technical frame 14: And also: / Naming Functions / the function keyword
+### Technical frame 14: Naming Functions / the function keyword
 
 **Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-00508))_
 
@@ -282,7 +282,7 @@ return str + str;
 }
 ```
 
-### Technical frame 15: And also: / Naming Functions / the function keyword
+### Technical frame 15: Naming Functions / the function keyword
 
 **Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-00518))_
 
@@ -308,7 +308,7 @@ else return !even(n - 1)
 //=> true
 ```
 
-### Technical frame 16: And also: / Naming Functions / the function keyword
+### Technical frame 16: Naming Functions / the function keyword
 
 **Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-00520))_
 
@@ -322,7 +322,7 @@ even
 //=> Can't find variable: even
 ```
 
-### Technical frame 17: And also: / Naming Functions / function declarations
+### Technical frame 17: Naming Functions / function declarations
 
 **Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-00525))_
 
@@ -335,7 +335,7 @@ even
 {
 ```
 
-### Technical frame 18: And also: / Naming Functions / function declarations
+### Technical frame 18: Naming Functions / function declarations
 
 **Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-00528))_
 
@@ -354,7 +354,7 @@ return "Fizz" + "Buzz";
 //=> undefined is not a function (evaluating 'fizzbuzz()')
 ```
 
-### Technical frame 19: And also: / Magic Names / magic names and fat arrows
+### Technical frame 19: Magic Names / magic names and fat arrows
 
 **Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-00612))_
 
@@ -374,7 +374,7 @@ row(3)
 //=> [3,6,9,12,15,18,21,24,27,30,33,36]
 ```
 
-### Technical frame 20: And also: / Magic Names / magic names and fat arrows
+### Technical frame 20: Magic Names / magic names and fat arrows
 
 **Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-00616))_
 
@@ -557,13 +557,13 @@ factorial2(5)
 
 ### Shared technical atoms
 
-- [[javascriptallonge-expression]] - shared technical atoms: Expression shares technical record from And also: / That Constant Coffee Craving: ((PI) => // ???? )(3.14159265) (8 shared atom(s))
+- [[javascriptallonge-expression]] - shared technical atoms: Expression shares technical record from That Constant Coffee Craving: ((PI) => // ???? )(3.14159265) (8 shared atom(s))
 - [[javascriptallonge-javascript]] - shared statements and technical atoms: Javascript shares source evidence from And also: / call by sharing: We said that JavaScript binds names to values, but we didn't say what it means to bind a name to a value. Now we can elaborate: When JavaScript binds a value-type to ... [truncated]; Javascript shares technical record from Composing and Decomposing Data / Arrays and Destructuring Arguments / destructuring is not pattern matching: const [what] = []; (2 shared statement(s), 5 shared atom(s))
-- [[javascriptallonge-binding]] - shared statements and technical atoms: Binding shares source evidence from And also: / That Constant Coffee Craving / are consts also from a shadowy planet?: We can test this by creating another conflict. But instead of binding two different variables to the same name in two different places, we'll bind two different valu ... [truncated]; Binding shares technical record from And also: / That Constant Coffee Craving / are consts also from a shadowy planet?: ((PI) => { ((PI) => {})(3); return (diameter) => diameter * PI; })(3.14159265) (1 shared statement(s), 5 shared atom(s))
-- [[javascriptallonge-argument]] - shared statements and technical atoms: Argument shares source evidence from And also: / Magic Names / magic names and fat arrows: This works just fine, because arguments[0] refers to the 3 we passed to the function row . Our 'fat arrow' function (column) => column * arguments[0] doesn't bind ar ... [truncated]; Argument shares technical record from And also: / Magic Names / magic names and fat arrows: const row = function () { return mapWith( (column) => column * arguments[0], [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12] ) } row(3) //=> [3,6,9,12,15,18,21,24,27,30,33,36] (2 shared statement(s), 3 shared atom(s))
+- [[javascriptallonge-binding]] - shared statements and technical atoms: Binding shares source evidence from That Constant Coffee Craving / are consts also from a shadowy planet?: We can test this by creating another conflict. But instead of binding two different variables to the same name in two different places, we'll bind two different valu ... [truncated]; Binding shares technical record from That Constant Coffee Craving / are consts also from a shadowy planet?: ((PI) => { ((PI) => {})(3); return (diameter) => diameter * PI; })(3.14159265) (1 shared statement(s), 5 shared atom(s))
+- [[javascriptallonge-argument]] - shared statements and technical atoms: Argument shares source evidence from Magic Names / magic names and fat arrows: This works just fine, because arguments[0] refers to the 3 we passed to the function row . Our 'fat arrow' function (column) => column * arguments[0] doesn't bind ar ... [truncated]; Argument shares technical record from Magic Names / magic names and fat arrows: const row = function () { return mapWith( (column) => column * arguments[0], [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12] ) } row(3) //=> [3,6,9,12,15,18,21,24,27,30,33,36] (2 shared statement(s), 3 shared atom(s))
 - [[javascriptallonge-array]] - shared technical atoms: Array shares technical record from Composing and Decomposing Data / Arrays and Destructuring Arguments / destructuring is not pattern matching: const [what] = []; (3 shared atom(s))
-- [[javascriptallonge-function-keyword]] - shared technical atoms: the function keyword shares technical record from And also: / Naming Functions / the function keyword: const double = function repeat (str) { return str + str; } (3 shared atom(s))
-- [[javascriptallonge-fat-arrow]] - shared statements and technical atoms: Fat Arrow shares source evidence from And also: / Magic Names / magic names and fat arrows: This works just fine, because arguments[0] refers to the 3 we passed to the function row . Our 'fat arrow' function (column) => column * arguments[0] doesn't bind ar ... [truncated]; Fat Arrow shares technical record from And also: / Magic Names / magic names and fat arrows: const row = function () { return mapWith( (column) => column * arguments[0], [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12] ) } row(3) //=> [3,6,9,12,15,18,21,24,27,30,33,36] (1 shared statement(s), 1 shared atom(s))
+- [[javascriptallonge-function-keyword]] - shared technical atoms: the function keyword shares technical record from Naming Functions / the function keyword: const double = function repeat (str) { return str + str; } (3 shared atom(s))
+- [[javascriptallonge-fat-arrow]] - shared statements and technical atoms: Fat Arrow shares source evidence from Magic Names / magic names and fat arrows: This works just fine, because arguments[0] refers to the 3 we passed to the function row . Our 'fat arrow' function (column) => column * arguments[0] doesn't bind ar ... [truncated]; Fat Arrow shares technical record from Magic Names / magic names and fat arrows: const row = function () { return mapWith( (column) => column * arguments[0], [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12] ) } row(3) //=> [3,6,9,12,15,18,21,24,27,30,33,36] (1 shared statement(s), 1 shared atom(s))
 - [[javascriptallonge-list]] - shared statements and technical atoms: List shares source evidence from Recipes with Basic Functions / Partial Application: These two recipes are for quickly and simply applying a single argument, either the leftmost or rightmost. 48 If you want to bind more than one argument, or you want ... [truncated]; List shares technical record from Recipes with Basic Functions / Partial Application: const callFirst = (fn, larg) => function (...rest) { return fn.call(this, larg, ...rest); } const callLast = (fn, rarg) => function (...rest) { return fn.call(this, ... [truncated] (1 shared statement(s), 1 shared atom(s))
 
 ## Source

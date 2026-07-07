@@ -1,13 +1,13 @@
 ---
 page_id: javascriptallonge-parameter
 page_kind: concept
-summary: Parameter: 6 statement(s) and 12 atom(s) from raw/javascriptallonge.pdf.
+summary: Parameter: 6 statement(s) and 9 atom(s) from raw/javascriptallonge.pdf.
 page_family: topic-concept
 sources: raw/javascriptallonge.pdf
 updated: 2026-07-07
 domain: javascriptallonge
 category_path: concepts
-projection_coverage: topic-javascriptallonge-parameter@0add5bbbaa704b07da0b3f86371bcad1
+projection_coverage: topic-javascriptallonge-parameter@e7671533a0c46bd6ae69a8e6628dd071
 ---
 
 # Parameter
@@ -16,11 +16,11 @@ What [[javascriptallonge]] covers about parameter:
 
 ## Statements
 
-### And also: / That Constant Coffee Craving / const and lexical scope
+### That Constant Coffee Craving / const and lexical scope
 
 - Yes. Binding values to names with const works just like binding values to names with parameter invocations, it uses lexical scope. _(javascriptallonge.pdf (source-range-c98ab3e6-00447))_
 
-### And also: / That Constant Coffee Craving / are consts also from a shadowy planet?
+### That Constant Coffee Craving / are consts also from a shadowy planet?
 
 - We just saw that values bound with const use lexical scope, just like values bound with parameters. They are looked up in the environment where they are declared. And we know that functions create environments. Parameters are declared when we create functions, so it makes sense that parameters are bound to environments created when we invoke functions. _(javascriptallonge.pdf (source-range-c98ab3e6-00449))_
 
@@ -34,14 +34,14 @@ What [[javascriptallonge]] covers about parameter:
 
 - By writing our parameter list as (n, work = 1) => , we're stating that if a second parameter is not provided, work is to be bound to 1 . We can do similar things with our other tail-recursive functions: _(javascriptallonge.pdf (source-range-c98ab3e6-00988))_
 
-### Copy on Write / Making Data Out Of Functions / the vireo
+### Making Data Out Of Functions / the vireo
 
 - Given that our latin data is represented as the function (selector) => selector("primus")("secundus") , our obvious next step is to make a function that makes data. For arrays, we'd write cons = (first, second) => [first, second] . For objects we'd write: cons = (first, second) => {first, second} . In both cases, we take two parameters, and return the form of the data. _(javascriptallonge.pdf (source-range-c98ab3e6-01338))_
 
 
 ## Technical atoms
 
-### Technical frame 1: And also: / That Constant Coffee Craving / are consts also from a shadowy planet?
+### Technical frame 1: That Constant Coffee Craving / are consts also from a shadowy planet?
 
 **Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-00458))_
 
@@ -56,7 +56,7 @@ What [[javascriptallonge]] covers about parameter:
 )(3.14159265)
 ```
 
-### Technical frame 2: And also: / That Constant Coffee Craving / are consts also from a shadowy planet?
+### Technical frame 2: That Constant Coffee Craving / are consts also from a shadowy planet?
 
 **Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-00466))_
 
@@ -76,7 +76,7 @@ return diameter * PI;
 //=> 6.2831853
 ```
 
-### Technical frame 3: And also: / That Constant Coffee Craving / are consts also from a shadowy planet?
+### Technical frame 3: That Constant Coffee Craving / are consts also from a shadowy planet?
 
 **Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-00474))_
 
@@ -111,76 +111,7 @@ abccc(1, 2, 3, 4, 5)
 [3,4,5]
 ```
 
-### Technical frame 5: Recipes with Basic Functions / Left-Variadic Functions / a history lesson
-
-**Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-00714))_
-
-> This is a right-variadic function , meaning that it has one or more fixed arguments, and the rest are gathered into the rightmost argument.
-
-**Atom:** _(javascriptallonge.pdf (source-range-c98ab3e6-00709))_
-
-<a id="atom-technical-atom-185649a0505afc33"></a>
-```
-var __slice = Array.prototype.slice;
-function rightVariadic (fn) {
-if (fn.length < 1) return fn;
-return function () {
-var ordinaryArgs = (1 <= arguments.length ?
-__slice.call(arguments, 0, fn.length - 1) : []),
-restOfTheArgsList = __slice.call(arguments, fn.length - 1),
-args = (fn.length <= arguments.length ?
-ordinaryArgs.concat([restOfTheArgsList]) : []);
-return fn.apply(this, args);
-}
-};
-var firstAndButFirst = rightVariadic(function test (first, butFirst) {
-return [first, butFirst]
-});
-firstAndButFirst('why', 'hello', 'there', 'little', 'droid')
-//=> ["why",["hello","there","little","droid"]]
-```
-
-### Technical frame 6: Recipes with Basic Functions / Left-Variadic Functions / left-variadic destructuring
-
-**Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-00730))_
-
-> But we can write our own left-gathering function utility using the same principles without all the tedium:
-
-**Atom:** _(javascriptallonge.pdf (source-range-c98ab3e6-00727))_
-
-<a id="atom-technical-atom-258d1986600602c2"></a>
-```
-const [...butLast, last] = ['why', 'hello', 'there', 'little', 'droid'];
-//=> Unexpected token
-```
-
-### Technical frame 7: Recipes with Basic Functions / Left-Variadic Functions / left-variadic destructuring
-
-**Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-00732))_
-
-> With leftGather , we have to supply the length of the array we wish to use as the result, and it gathers excess arguments into it from the left, just like leftVariadic gathers excess parameters for a function.
-
-**Atom:** _(javascriptallonge.pdf (source-range-c98ab3e6-00731))_
-
-<a id="atom-technical-atom-5819888c04351978"></a>
-```
-const leftGather = (outputArrayLength) => {
-return function (inputArray) {
-return [inputArray.slice(0, inputArray.length - outputArrayLength + 1)].conc\
-at(
-inputArray.slice(inputArray.length - outputArrayLength + 1)
-)
-}
-};
-const [butLast, last] = leftGather(2)(['why', 'hello', 'there', 'little', 'droid\
-']);
-butLast
-//=> ['why', 'hello', 'there', 'little']
-last
-//=> 'droid'
-```
-
-### Technical frame 8: Composing and Decomposing Data / Arrays and Destructuring Arguments / destructuring parameters
+### Technical frame 5: Composing and Decomposing Data / Arrays and Destructuring Arguments / destructuring parameters
 
 **Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-00858))_
 
@@ -195,7 +126,7 @@ bar("smaug")
 baz(1, 2, 3)
 ```
 
-### Technical frame 9: Composing and Decomposing Data / Arrays and Destructuring Arguments / destructuring parameters
+### Technical frame 6: Composing and Decomposing Data / Arrays and Destructuring Arguments / destructuring parameters
 
 **Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-00858))_
 
@@ -210,7 +141,7 @@ const bar = (name) => ...
 const baz = (a, b, c) => ...
 ```
 
-### Technical frame 10: Composing and Decomposing Data / default arguments
+### Technical frame 7: Composing and Decomposing Data / default arguments
 
 **Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-00990))_
 
@@ -234,7 +165,7 @@ mapWith((x) => x * x, [1, 2, 3, 4, 5])
 //=> [1,4,9,16,25]
 ```
 
-### Technical frame 11: Copy on Write / Making Data Out Of Functions / the vireo
+### Technical frame 8: Making Data Out Of Functions / the vireo
 
 **Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01341))_
 
@@ -247,7 +178,7 @@ mapWith((x) => x * x, [1, 2, 3, 4, 5])
 (first, second) => (selector) => selector(first)(second)
 ```
 
-### Technical frame 12: Copy on Write / Making Data Out Of Functions / the vireo
+### Technical frame 9: Making Data Out Of Functions / the vireo
 
 **Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01348))_
 
@@ -265,20 +196,20 @@ mapWith((x) => x * x, [1, 2, 3, 4, 5])
 
 ### Shared technical atoms
 
-- [[javascriptallonge-copy-write]] - shared statements and technical atoms: Copy on Write shares source evidence from Copy on Write / Making Data Out Of Functions / the vireo: Given that our latin data is represented as the function (selector) => selector("primus")("secundus") , our obvious next step is to make a function that makes data. ... [truncated]; Copy on Write shares technical record from Copy on Write / Making Data Out Of Functions / the vireo: (first, second) => (selector) => selector(first)(second) (1 shared statement(s), 2 shared atom(s))
-- [[javascriptallonge-binding]] - shared statements and technical atoms: Binding shares source evidence from And also: / That Constant Coffee Craving / const and lexical scope: Yes. Binding values to names with const works just like binding values to names with parameter invocations, it uses lexical scope.; Binding shares technical record from And also: / That Constant Coffee Craving / are consts also from a shadowy planet?: ((diameter) => { const PI = 3.14159265; (() => { const PI = 3; })(); return diameter * PI; })(2) //=> 6.2831853 (1 shared statement(s), 1 shared atom(s))
-- [[javascriptallonge-ecmascript]] - shared statements and technical atoms: Ecmascript shares source evidence from Recipes with Basic Functions / Left-Variadic Functions: ECMAScript 2015 only permits gathering parameters from the end of the parameter list. Not the beginning. What to do?; Ecmascript shares technical record from Recipes with Basic Functions / Left-Variadic Functions / a history lesson: var __slice = Array.prototype.slice; function rightVariadic (fn) { if (fn.length < 1) return fn; return function () { var ordinaryArgs = (1 <= arguments.length ? __s ... [truncated] (1 shared statement(s), 1 shared atom(s))
+- [[javascriptallonge-binding]] - shared statements and technical atoms: Binding shares source evidence from That Constant Coffee Craving / const and lexical scope: Yes. Binding values to names with const works just like binding values to names with parameter invocations, it uses lexical scope.; Binding shares technical record from That Constant Coffee Craving / are consts also from a shadowy planet?: ((diameter) => { const PI = 3.14159265; (() => { const PI = 3; })(); return diameter * PI; })(2) //=> 6.2831853 (1 shared statement(s), 1 shared atom(s))
 - [[javascriptallonge-list]] - shared statements and technical atoms: List shares source evidence from Composing and Decomposing Data / default arguments: By writing our parameter list as (n, work = 1) => , we're stating that if a second parameter is not provided, work is to be bound to 1 . We can do similar things wit ... [truncated]; List shares technical record from Composing and Decomposing Data / default arguments: const length = ([first, ...rest], numberToBeAdded = 0) => first === undefined ? numberToBeAdded : length(rest, 1 + numberToBeAdded) length(["foo", "bar", "baz"]) //= ... [truncated] (1 shared statement(s), 1 shared atom(s))
-- [[javascriptallonge-argument]] - shared technical atoms: Argument shares technical record from Recipes with Basic Functions / Left-Variadic Functions / left-variadic destructuring: const leftGather = (outputArrayLength) => { return function (inputArray) { return [inputArray.slice(0, inputArray.length - outputArrayLength + 1)].conc\ at( inputArr ... [truncated] (1 shared atom(s))
 - [[javascriptallonge-array]] - shared technical atoms: Array shares technical record from Composing and Decomposing Data / Arrays and Destructuring Arguments / destructuring parameters: const foo = () => ... const bar = (name) => ... const baz = (a, b, c) => ... (1 shared atom(s))
-- [[javascriptallonge-bind]] - shared technical atoms: Bind shares technical record from And also: / That Constant Coffee Craving / are consts also from a shadowy planet?: ((diameter) => { const PI = 3.14159265; (() => { const PI = 3; })(); return diameter * PI; })(2) //=> 6.2831853 (1 shared atom(s))
-- [[javascriptallonge-data]] - shared technical atoms: Data shares technical record from Copy on Write / Making Data Out Of Functions / the vireo: (first, second) => (selector) => selector(first)(second) (1 shared atom(s))
+- [[javascriptallonge-bind]] - shared technical atoms: Bind shares technical record from That Constant Coffee Craving / are consts also from a shadowy planet?: ((diameter) => { const PI = 3.14159265; (() => { const PI = 3; })(); return diameter * PI; })(2) //=> 6.2831853 (1 shared atom(s))
+- [[javascriptallonge-data]] - shared technical atoms: Data shares technical record from Making Data Out Of Functions / the vireo: (first, second) => (selector) => selector(first)(second) (1 shared atom(s))
+- [[javascriptallonge-statement]] - shared technical atoms: Statement shares technical record from That Constant Coffee Craving / are consts also from a shadowy planet?: })(2) //=> 6.2831853 (1 shared atom(s))
+- [[javascriptallonge-structure]] - shared technical atoms: Structure shares technical record from Making Data Out Of Functions / the vireo: (first, second) => (selector) => selector(first)(second) (1 shared atom(s))
 
 ### Shared claims
 
-- [[javascriptallonge-const]] - shared statements: Const shares source evidence from And also: / That Constant Coffee Craving / const and lexical scope: Yes. Binding values to names with const works just like binding values to names with parameter invocations, it uses lexical scope. (1 shared statement(s))
-- [[javascriptallonge-lexical-scope]] - shared statements: Lexical Scope shares source evidence from And also: / That Constant Coffee Craving / const and lexical scope: Yes. Binding values to names with const works just like binding values to names with parameter invocations, it uses lexical scope. (1 shared statement(s))
-- [[javascriptallonge-return]] - shared statements: Return shares source evidence from Copy on Write / Making Data Out Of Functions / the vireo: Given that our latin data is represented as the function (selector) => selector("primus")("secundus") , our obvious next step is to make a function that makes data. ... [truncated] (1 shared statement(s))
+- [[javascriptallonge-const]] - shared statements: Const shares source evidence from That Constant Coffee Craving / const and lexical scope: Yes. Binding values to names with const works just like binding values to names with parameter invocations, it uses lexical scope. (1 shared statement(s))
+- [[javascriptallonge-ecmascript]] - shared statements: Ecmascript shares source evidence from Recipes with Basic Functions / Left-Variadic Functions: ECMAScript 2015 only permits gathering parameters from the end of the parameter list. Not the beginning. What to do? (1 shared statement(s))
+- [[javascriptallonge-lexical-scope]] - shared statements: Lexical Scope shares source evidence from That Constant Coffee Craving / const and lexical scope: Yes. Binding values to names with const works just like binding values to names with parameter invocations, it uses lexical scope. (1 shared statement(s))
+- [[javascriptallonge-return]] - shared statements: Return shares source evidence from Making Data Out Of Functions / the vireo: Given that our latin data is represented as the function (selector) => selector("primus")("secundus") , our obvious next step is to make a function that makes data. ... [truncated] (1 shared statement(s))
 
 ## Source
 

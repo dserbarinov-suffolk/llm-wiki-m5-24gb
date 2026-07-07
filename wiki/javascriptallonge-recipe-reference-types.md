@@ -9,7 +9,7 @@ domain: javascriptallonge
 category_path: recipes/javascriptallonge
 source_id: javascriptallonge.pdf
 aliases: reference-types
-projection_coverage: recipe-javascriptallonge-recipe-reference-types@96256ba078ec229bcfddbcd9f58e7f9c
+projection_coverage: recipe-javascriptallonge-recipe-reference-types@6ff0e9d041bbec1681cdd540e4b61b2a
 ---
 
 # reference types
@@ -18,7 +18,7 @@ From [[javascriptallonge]].
 
 ## Pattern
 
-- Use the source-backed pattern described in [[javascriptallonge-section-prelude-values-and-expressions-over-coffee-values-are-expressions-reference-types-11fd4275]].
+- Use the source-backed pattern described in [[javascriptallonge-section-prelude-values-and-expressions-over-coffee-reference-types-11fd4275]].
 - Evidence roles: decision, constraint, example.
 
 ## Applicability And Rationale
@@ -54,4 +54,4 @@ _Source: javascriptallonge.pdf (source-range-c98ab3e6-00132)_
 ## Source Trail
 
 - Source manifest: [[javascriptallonge]]
-- Source section: [[javascriptallonge-section-prelude-values-and-expressions-over-coffee-values-are-expressions-reference-types-11fd4275]]
+- Source section: [[javascriptallonge-section-prelude-values-and-expressions-over-coffee-reference-types-11fd4275]]

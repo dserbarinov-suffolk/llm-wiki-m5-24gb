@@ -7,7 +7,7 @@ sources: raw/javascriptallonge.pdf
 updated: 2026-07-07
 domain: javascriptallonge
 category_path: concepts
-projection_coverage: topic-javascriptallonge-const@68d27a4e1ac157a2ef5a287fc8e6992c
+projection_coverage: topic-javascriptallonge-const@cbb05c4635ffb029acd2a0b3985e19b7
 ---
 
 # Const
@@ -16,7 +16,7 @@ What [[javascriptallonge]] covers about const:
 
 ## Statements
 
-### And also: / That Constant Coffee Craving / const and lexical scope
+### That Constant Coffee Craving / const and lexical scope
 
 - This seems very straightforward, but alas, there are some semantics of binding names that we need to understand if we're to place const anywhere we like. The first thing to ask ourselves is, what happens if we use const to bind two different values to the 'same' name? _(javascriptallonge.pdf (source-range-c98ab3e6-00433))_
 
@@ -35,7 +35,7 @@ What [[javascriptallonge]] covers about const:
 
 ## Technical atoms
 
-### Technical frame 1: And also: / That Constant Coffee Craving / const and lexical scope
+### Technical frame 1: That Constant Coffee Craving / const and lexical scope
 
 **Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-00447))_
 
@@ -104,7 +104,7 @@ return age;
 
 ### Source structure
 
-- [[javascriptallonge-section-and-also-that-constant-coffee-craving-const-37801120]] - source section: And also: / That Constant Coffee Craving / const shares source evidence from And also: / That Constant Coffee Craving / const: Another way to write our 'circumference' function would be to pass PI along with the diameter argument, something like this:; And also: / That Constant Coffee Craving / const shares technical record from And also: / That Constant Coffee Craving / const: (diameter, PI) => diameter * PI (11 shared statement(s), 10 shared atom(s))
+- [[javascriptallonge-section-that-constant-coffee-craving-const-37801120]] - source section: That Constant Coffee Craving / const shares source evidence from That Constant Coffee Craving / const: Another way to write our 'circumference' function would be to pass PI along with the diameter argument, something like this:; That Constant Coffee Craving / const shares technical record from That Constant Coffee Craving / const: (diameter, PI) => diameter * PI (11 shared statement(s), 10 shared atom(s))
 
 ### Shared technical atoms
 
@@ -112,9 +112,9 @@ return age;
 
 ### Shared claims
 
-- [[javascriptallonge-binding]] - shared statements: Binding shares source evidence from And also: / That Constant Coffee Craving / const and lexical scope: Yes. Binding values to names with const works just like binding values to names with parameter invocations, it uses lexical scope. (1 shared statement(s))
-- [[javascriptallonge-lexical-scope]] - shared statements: Lexical Scope shares source evidence from And also: / That Constant Coffee Craving / const and lexical scope: Yes. Binding values to names with const works just like binding values to names with parameter invocations, it uses lexical scope. (1 shared statement(s))
-- [[javascriptallonge-parameter]] - shared statements: Parameter shares source evidence from And also: / That Constant Coffee Craving / const and lexical scope: Yes. Binding values to names with const works just like binding values to names with parameter invocations, it uses lexical scope. (1 shared statement(s))
+- [[javascriptallonge-binding]] - shared statements: Binding shares source evidence from That Constant Coffee Craving / const and lexical scope: Yes. Binding values to names with const works just like binding values to names with parameter invocations, it uses lexical scope. (1 shared statement(s))
+- [[javascriptallonge-lexical-scope]] - shared statements: Lexical Scope shares source evidence from That Constant Coffee Craving / const and lexical scope: Yes. Binding values to names with const works just like binding values to names with parameter invocations, it uses lexical scope. (1 shared statement(s))
+- [[javascriptallonge-parameter]] - shared statements: Parameter shares source evidence from That Constant Coffee Craving / const and lexical scope: Yes. Binding values to names with const works just like binding values to names with parameter invocations, it uses lexical scope. (1 shared statement(s))
 
 ## Source
 

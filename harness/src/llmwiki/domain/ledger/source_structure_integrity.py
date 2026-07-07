@@ -6,6 +6,7 @@ import re
 from collections import Counter
 from dataclasses import dataclass
 
+from llmwiki.domain.ledger import structure_numbers
 from llmwiki.domain.ledger.structure import DocumentStructure, StructureNode
 
 ADMITTED_HEADING_KINDS = frozenset({"trusted-heading", "container-heading"})
@@ -96,7 +97,7 @@ def source_structure_integrity_report(
     structure: DocumentStructure,
 ) -> SourceStructureIntegrityReport:
     dispositions = tuple(_node_disposition(node) for node in structure.structure_nodes)
-    findings = tuple(
+    disposition_findings = tuple(
         StructureIntegrityFinding(
             item.structure_node_id,
             "warning",
@@ -106,7 +107,10 @@ def source_structure_integrity_report(
         for item in dispositions
         if not item.may_drive_pages and item.reason_codes
     )
-    return SourceStructureIntegrityReport(dispositions, findings)
+    hierarchy_findings = _hierarchy_findings(structure)
+    return SourceStructureIntegrityReport(
+        dispositions, (*disposition_findings, *hierarchy_findings)
+    )
 
 
 def structure_node_can_drive_pages(node: StructureNode) -> bool:
@@ -141,6 +145,63 @@ def _node_disposition(node: StructureNode) -> StructureNodeDisposition:
     if node.depth <= 1:
         return StructureNodeDisposition(node.structure_node_id, "container", ())
     return StructureNodeDisposition(node.structure_node_id, "trusted", ())
+
+
+def _hierarchy_findings(structure: DocumentStructure) -> tuple[StructureIntegrityFinding, ...]:
+    findings: list[StructureIntegrityFinding] = []
+    for node in structure.structure_nodes:
+        if node.structure_node_kind == "root":
+            continue
+        nearest = _nearest_numbered_ancestor(structure, node)
+        if nearest is None:
+            continue
+        nearest_node, nearest_path = nearest
+        node_path = _number_path(node)
+        if node_path and not structure_numbers.number_parent(nearest_path, node_path):
+            findings.append(
+                StructureIntegrityFinding(
+                    node.structure_node_id,
+                    "warning",
+                    "source-structure",
+                    (
+                        f"Numbered heading {node.heading_text!r} is under "
+                        f"{nearest_node.heading_text!r}, but its number path is not a descendant."
+                    ),
+                )
+            )
+            continue
+        if not node_path and node.depth <= 1 and nearest_node.depth > 1:
+            findings.append(
+                StructureIntegrityFinding(
+                    node.structure_node_id,
+                    "warning",
+                    "source-structure",
+                    (
+                        f"Top-level heading {node.heading_text!r} is under numbered subsection "
+                        f"{nearest_node.heading_text!r}."
+                    ),
+                )
+            )
+    return tuple(findings)
+
+
+def _nearest_numbered_ancestor(
+    structure: DocumentStructure, node: StructureNode
+) -> tuple[StructureNode, tuple[int, ...]] | None:
+    for ancestor_id in structure.ancestry(node.structure_node_id)[1:]:
+        ancestor = structure.node(ancestor_id)
+        if ancestor is None or ancestor.structure_node_kind == "root":
+            continue
+        path = _number_path(ancestor)
+        if path:
+            return ancestor, path
+    return None
+
+
+def _number_path(node: StructureNode) -> tuple[int, ...]:
+    return structure_numbers.heading_number_path(
+        structure_numbers.canonical_heading_label(node.heading_text)
+    )
 
 
 def _has_heading_signal(candidate: HeadingCandidate) -> bool:

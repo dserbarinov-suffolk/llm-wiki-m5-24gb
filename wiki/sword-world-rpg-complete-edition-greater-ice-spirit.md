@@ -7,7 +7,7 @@ sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-07
 domain: sword-world-rpg-complete-edition
 category_path: concepts
-projection_coverage: topic-sword-world-rpg-complete-edition-greater-ice-spirit@2eaa6bdd5824c6e8f3052d37242e3b74
+projection_coverage: topic-sword-world-rpg-complete-edition-greater-ice-spirit@8f9985c02f64781f855f10efea2b742e
 ---
 
 # Greater Ice Spirit
@@ -16,7 +16,7 @@ What [[sword-world-rpg-complete-edition]] covers about greater ice spirit:
 
 ## Statements
 
-### 4.10 Excellent Weapons and Armor / and Armor / 4.10.4 Mithril Silver Weapons and Armor / Basic Rules of Magic / 5.1.14 Spirit Magic List / 9th Level Spirit Magic List [ Earthquake ] (Behemoth/Greater Earth Spirit) / [ Freeze ] (Fenrir/Greater Ice Spirit)
+### [ Freeze ] (Fenrir/Greater Ice Spirit)
 
 - Base Mental Power Cost=50 Distance=Caster Area=A space within a 100 meter radius from the caster Duration=18 rounds Effect=Appeal to the greater spirits to neutralize spirit power Type=Target score Counters (Overpowers): All magic that uses related spirit power Expansion=Final score, duration, area _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-03275))_
 
@@ -29,7 +29,7 @@ What [[sword-world-rpg-complete-edition]] covers about greater ice spirit:
 
 ## Technical atoms
 
-### Technical frame 1: 4.10 Excellent Weapons and Armor / and Armor / 4.10.4 Mithril Silver Weapons and Armor / Basic Rules of Magic / 5.1.14 Spirit Magic List / 9th Level Spirit Magic List [ Earthquake ] (Behemoth/Greater Earth Spirit) / [ Freeze ] (Fenrir/Greater Ice Spirit)
+### Technical frame 1: [ Freeze ] (Fenrir/Greater Ice Spirit)
 
 **Context:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-03257))_
 
@@ -49,7 +49,7 @@ What [[sword-world-rpg-complete-edition]] covers about greater ice spirit:
 <a id="atom-technical-atom-b5561fcea323ae88"></a>
 > Duration=Instant
 
-### Technical frame 2: 4.10 Excellent Weapons and Armor / and Armor / 4.10.4 Mithril Silver Weapons and Armor / Basic Rules of Magic / 5.1.14 Spirit Magic List / 9th Level Spirit Magic List [ Earthquake ] (Behemoth/Greater Earth Spirit) / [ Freeze ] (Fenrir/Greater Ice Spirit)
+### Technical frame 2: [ Freeze ] (Fenrir/Greater Ice Spirit)
 
 **Context:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-03257))_
 
@@ -60,7 +60,7 @@ What [[sword-world-rpg-complete-edition]] covers about greater ice spirit:
 <a id="atom-technical-atom-dae1b133f8fa2f06"></a>
 > Resist=Negated effect
 
-### Technical frame 3: 4.10 Excellent Weapons and Armor / and Armor / 4.10.4 Mithril Silver Weapons and Armor / Basic Rules of Magic / 5.1.14 Spirit Magic List / 9th Level Spirit Magic List [ Earthquake ] (Behemoth/Greater Earth Spirit) / [ Freeze ] (Fenrir/Greater Ice Spirit)
+### Technical frame 3: [ Freeze ] (Fenrir/Greater Ice Spirit)
 
 **Context:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-03257))_
 
@@ -86,7 +86,7 @@ What [[sword-world-rpg-complete-edition]] covers about greater ice spirit:
 <a id="atom-technical-atom-0d70778f5fe10202"></a>
 > Type=Target score
 
-### Technical frame 4: 4.10 Excellent Weapons and Armor / and Armor / 4.10.4 Mithril Silver Weapons and Armor / Basic Rules of Magic / 5.1.14 Spirit Magic List / 9th Level Spirit Magic List [ Earthquake ] (Behemoth/Greater Earth Spirit) / [ Freeze ] (Fenrir/Greater Ice Spirit)
+### Technical frame 4: [ Freeze ] (Fenrir/Greater Ice Spirit)
 
 **Context:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-03270))_
 
@@ -97,7 +97,7 @@ What [[sword-world-rpg-complete-edition]] covers about greater ice spirit:
 <a id="atom-technical-atom-eb497b17f981b912"></a>
 > Resist=None
 
-### Technical frame 5: 4.10 Excellent Weapons and Armor / and Armor / 4.10.4 Mithril Silver Weapons and Armor / Basic Rules of Magic / 5.1.14 Spirit Magic List / 9th Level Spirit Magic List [ Earthquake ] (Behemoth/Greater Earth Spirit) / [ Freeze ] (Fenrir/Greater Ice Spirit)
+### Technical frame 5: [ Freeze ] (Fenrir/Greater Ice Spirit)
 
 **Context:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-03272))_
 
@@ -108,7 +108,7 @@ What [[sword-world-rpg-complete-edition]] covers about greater ice spirit:
 <a id="atom-technical-atom-3abafde7d85eb194"></a>
 > If a ship is caught in the whirlpool, the person at the helm must make a success roll using the ship steering ability.
 
-### Technical frame 6: 4.10 Excellent Weapons and Armor / and Armor / 4.10.4 Mithril Silver Weapons and Armor / Basic Rules of Magic / 5.1.14 Spirit Magic List / 9th Level Spirit Magic List [ Earthquake ] (Behemoth/Greater Earth Spirit) / [ Freeze ] (Fenrir/Greater Ice Spirit)
+### Technical frame 6: [ Freeze ] (Fenrir/Greater Ice Spirit)
 
 **Context:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-03277))_
 
@@ -119,7 +119,7 @@ What [[sword-world-rpg-complete-edition]] covers about greater ice spirit:
 <a id="atom-technical-atom-78196e287c41e1f6"></a>
 > Resist=None
 
-### Technical frame 7: 4.10 Excellent Weapons and Armor / and Armor / 4.10.4 Mithril Silver Weapons and Armor / Basic Rules of Magic / 5.1.14 Spirit Magic List / 9th Level Spirit Magic List [ Earthquake ] (Behemoth/Greater Earth Spirit) / [ Freeze ] (Fenrir/Greater Ice Spirit)
+### Technical frame 7: [ Freeze ] (Fenrir/Greater Ice Spirit)
 
 **Context:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-03278))_
 

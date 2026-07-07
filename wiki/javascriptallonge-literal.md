@@ -7,7 +7,7 @@ sources: raw/javascriptallonge.pdf
 updated: 2026-07-07
 domain: javascriptallonge
 category_path: concepts
-projection_coverage: topic-javascriptallonge-literal@40d042121bd7e3f590b6ed35ad44f9cf
+projection_coverage: topic-javascriptallonge-literal@8499b4a437da4a6520f6f079cad9996e
 ---
 
 # Literal
@@ -22,7 +22,7 @@ What [[javascriptallonge]] covers about literal:
 
 - JavaScript, like most languages, has a collection of literals. We saw that an expression consisting solely of numbers, like 42 , is a literal. It represents the number forty-two, which is 42 base 10. Not all numbers are base ten. If we start a literal with a zero, it is an octal literal. So the literal 042 is 42 base 8, which is actually 34 base 10. _(javascriptallonge.pdf (source-range-c98ab3e6-00138))_
 
-### And also: / That Constant Coffee Craving / inside-out
+### That Constant Coffee Craving / inside-out
 
 - Which one is better? Well, the first one seems simplest, but a half-century of experience has taught us that names matter. A 'magic literal' like 3.14159265 is anathema to sustainable software development. _(javascriptallonge.pdf (source-range-c98ab3e6-00387))_
 

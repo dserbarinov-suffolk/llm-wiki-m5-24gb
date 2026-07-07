@@ -9,7 +9,7 @@ domain: javascriptallonge
 category_path: recipes/javascriptallonge
 source_id: javascriptallonge.pdf
 aliases: the-function-keyword
-projection_coverage: recipe-javascriptallonge-recipe-the-function-keyword@4ffa3fea5007287d6a161941a3e4a80a
+projection_coverage: recipe-javascriptallonge-recipe-the-function-keyword@ffe9726e7cafd736e7717f2819cb47ab
 ---
 
 # the function keyword
@@ -18,7 +18,7 @@ From [[javascriptallonge]].
 
 ## Pattern
 
-- Use the source-backed pattern described in [[javascriptallonge-section-and-also-magic-names-the-function-keyword-55f3d121]].
+- Use the source-backed pattern described in [[javascriptallonge-section-magic-names-the-function-keyword-55f3d121]].
 - Evidence roles: decision, procedure, constraint, example.
 
 ## Applicability And Rationale
@@ -87,4 +87,4 @@ howMany('sharks', 'are', 'apex', 'predators')
 ## Source Trail
 
 - Source manifest: [[javascriptallonge]]
-- Source section: [[javascriptallonge-section-and-also-magic-names-the-function-keyword-55f3d121]]
+- Source section: [[javascriptallonge-section-magic-names-the-function-keyword-55f3d121]]

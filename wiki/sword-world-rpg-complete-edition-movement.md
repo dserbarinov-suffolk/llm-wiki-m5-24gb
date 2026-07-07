@@ -7,7 +7,7 @@ sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-07
 domain: sword-world-rpg-complete-edition
 category_path: concepts
-projection_coverage: topic-sword-world-rpg-complete-edition-movement@94905a6552797f4bdf5f20cc2ed59dda
+projection_coverage: topic-sword-world-rpg-complete-edition-movement@d656bf4c1a0d407cf03f18800088e8b7
 ---
 
 # Movement
@@ -16,7 +16,7 @@ What [[sword-world-rpg-complete-edition]] covers about movement:
 
 ## Statements
 
-### Chapter 3: / Movement and Actions
+### Movement and Actions
 
 - Characters have three options for movement: full movement , normal movement , or stand still . Each has different distances that can be traveled and different restrictions on actions that can be taken. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01086))_
 
@@ -29,7 +29,7 @@ What [[sword-world-rpg-complete-edition]] covers about movement:
 
 ### Shared claims
 
-- [[sword-world-rpg-complete-edition-action]] - shared statements: Action shares source evidence from Chapter 3: / Movement and Actions: Below are some guidelines on how movement works and which actions can be taken. For any other actions, please use common sense based on the time frame of 1 round = 1 ... [truncated] (2 shared statement(s))
+- [[sword-world-rpg-complete-edition-action]] - shared statements: Action shares source evidence from Movement and Actions: Below are some guidelines on how movement works and which actions can be taken. For any other actions, please use common sense based on the time frame of 1 round = 1 ... [truncated] (2 shared statement(s))
 
 ## Source
 

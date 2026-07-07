@@ -7,7 +7,7 @@ sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-07
 domain: sword-world-rpg-complete-edition
 category_path: concepts
-projection_coverage: topic-sword-world-rpg-complete-edition-10-magical-weapon@8613eccfd04674a59390d9406f39498a
+projection_coverage: topic-sword-world-rpg-complete-edition-10-magical-weapon@9588e06ef7e0a3980440c7290d0c0fb2
 ---
 
 # 10 Magical Weapon
@@ -16,7 +16,7 @@ What [[sword-world-rpg-complete-edition]] covers about 10 magical weapon:
 
 ## Statements
 
-### 4.10 Excellent Weapons and Armor / and Armor / 4.10.3 Magical Weapons and Armor
+### 4.10.3 Magical Weapons and Armor
 
 - In Forcelia, there are magical weapons and armor that were once created during the age of the magical kingdom (Kastuul). These magical weapons and armor are seldom found, and are usually rarely traded. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01429))_
 
@@ -29,7 +29,7 @@ What [[sword-world-rpg-complete-edition]] covers about 10 magical weapon:
 
 ## Technical atoms
 
-### Technical frame 1: 4.10 Excellent Weapons and Armor / and Armor / 4.10.3 Magical Weapons and Armor
+### Technical frame 1: 4.10.3 Magical Weapons and Armor
 
 **Context:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01436))_
 
@@ -45,7 +45,7 @@ What [[sword-world-rpg-complete-edition]] covers about 10 magical weapon:
 
 ### Shared claims
 
-- [[sword-world-rpg-complete-edition-armor]] - shared statements: Armor shares source evidence from 4.10 Excellent Weapons and Armor / and Armor / 4.10.3 Magical Weapons and Armor: In Forcelia, there are magical weapons and armor that were once created during the age of the magical kingdom (Kastuul). These magical weapons and armor are seldom f ... [truncated] (4 shared statement(s))
+- [[sword-world-rpg-complete-edition-armor]] - shared statements: Armor shares source evidence from 4.10.3 Magical Weapons and Armor: In Forcelia, there are magical weapons and armor that were once created during the age of the magical kingdom (Kastuul). These magical weapons and armor are seldom f ... [truncated] (4 shared statement(s))
 
 ## Source
 

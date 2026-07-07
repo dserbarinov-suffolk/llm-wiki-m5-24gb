@@ -7,7 +7,7 @@ sources: raw/javascriptallonge.pdf
 updated: 2026-07-07
 domain: javascriptallonge
 category_path: concepts
-projection_coverage: topic-javascriptallonge-expression@994b1a4e281035a2c02db9e7cd8a3a8f
+projection_coverage: topic-javascriptallonge-expression@3fde5c977d2c452cf432ffe217ecf361
 ---
 
 # Expression
@@ -16,7 +16,7 @@ What [[javascriptallonge]] covers about expression:
 
 ## Statements
 
-### Prelude: Values and Expressions over Coffee / values are expressions / reference types
+### Prelude: Values and Expressions over Coffee / reference types
 
 - They look the same, but if you examine them with === , you see that they are different. Every time you evaluate an expression (including typing something in) to create an array, you're creating a new, distinct value even if it appears to be the same as some other array value. As we'll see, this is true of many other kinds of values, including functions , the main subject of this book. _(javascriptallonge.pdf (source-range-c98ab3e6-00134))_
 
@@ -36,19 +36,19 @@ What [[javascriptallonge]] covers about expression:
 
 - The expression 'x' (the right side of the function) is evaluated within the environment we just created. _(javascriptallonge.pdf (source-range-c98ab3e6-00301))_
 
-### And also: / That Constant Coffee Craving
+### That Constant Coffee Craving
 
 - This expression, when evaluated, returns a function that calculates circumferences. That sounds bad, but when we think about it, (diameter) => diameter * 3.14159265 is also an expression, that when evaluated, returns a function that calculates circumferences. All of our 'functions' are expressions. This one has a few more moving parts, that's all. But we can use it just like (diameter) => diameter * 3.14159265 . _(javascriptallonge.pdf (source-range-c98ab3e6-00377))_
 
-### And also: / Naming Functions / the function keyword
+### Naming Functions / the function keyword
 
 - In this expression, double is the name in the environment, but repeat is the function's actual name. This is a named function expression . That may seem confusing, but think of the binding names as properties of the environment, not of the function. While the name of the function is a property of the function, not of the environment. _(javascriptallonge.pdf (source-range-c98ab3e6-00508))_
 
-### And also: / Naming Functions / function declaration caveats 34
+### Naming Functions / function declaration caveats 34
 
 - Function declarations are not supposed to occur inside of blocks. The big trouble with expressions like this is that they may work just fine in your test environment but work a different way in production. Or it may work one way today and a different way when the JavaScript engine is updated, say with a new optimization. _(javascriptallonge.pdf (source-range-c98ab3e6-00536))_
 
-### And also: / Magic Names / magic names and fat arrows
+### Magic Names / magic names and fat arrows
 
 - For example, when this expression's inner function is defined with function , arguments[0] refers to its only argument, "inner" : _(javascriptallonge.pdf (source-range-c98ab3e6-00605))_
 
@@ -93,7 +93,7 @@ What [[javascriptallonge]] covers about expression:
 
 ## Technical atoms
 
-### Technical frame 1: And also: / That Constant Coffee Craving
+### Technical frame 1: That Constant Coffee Craving
 
 **Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-00377))_
 
@@ -108,7 +108,7 @@ What [[javascriptallonge]] covers about expression:
 )(3.14159265)
 ```
 
-### Technical frame 2: And also: / Naming Functions / function declaration caveats 34
+### Technical frame 2: Naming Functions / function declaration caveats 34
 
 **Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-00536))_
 
@@ -191,18 +191,18 @@ return "Fizz" + "Buzz";
 
 ### Shared technical atoms
 
-- [[javascriptallonge-bind]] - shared technical atoms: Bind shares technical record from And also: / That Constant Coffee Craving: ((PI) => // ???? )(3.14159265) (8 shared atom(s))
+- [[javascriptallonge-bind]] - shared technical atoms: Bind shares technical record from That Constant Coffee Craving: ((PI) => // ???? )(3.14159265) (8 shared atom(s))
 - [[javascriptallonge-literal]] - shared statements and technical atoms: Literal shares source evidence from Composing and Decomposing Data / Self-Similarity: We saw that the basic idea that putting an array together with a literal array expression was the reverse or opposite of taking it apart with a destructuring assignment.; Literal shares technical record from A Warm Cup: Basic Strings and Quasi-Literals / quasi-literals: `foobar` //=> 'foobar' `fizz` + `buzz` //=> 'fizzbuzz' (2 shared statement(s), 4 shared atom(s))
 - [[javascriptallonge-quasi]] - shared statements and technical atoms: Quasi shares source evidence from A Warm Cup: Basic Strings and Quasi-Literals / evaluation time: Like any other expression, quasi-literals are evaluated late , when that line or lines of code is evaluated.; Quasi shares technical record from A Warm Cup: Basic Strings and Quasi-Literals / quasi-literals: `foobar` //=> 'foobar' `fizz` + `buzz` //=> 'fizzbuzz' (1 shared statement(s), 3 shared atom(s))
 - [[javascriptallonge-quasi-literal]] - shared statements and technical atoms: Quasi Literal shares source evidence from A Warm Cup: Basic Strings and Quasi-Literals / evaluation time: Like any other expression, quasi-literals are evaluated late , when that line or lines of code is evaluated.; Quasi Literal shares technical record from A Warm Cup: Basic Strings and Quasi-Literals / quasi-literals: `foobar` //=> 'foobar' `fizz` + `buzz` //=> 'fizzbuzz' (1 shared statement(s), 3 shared atom(s))
-- [[javascriptallonge-function-keyword]] - shared statements and technical atoms: the function keyword shares source evidence from And also: / Naming Functions / the function keyword: In this expression, double is the name in the environment, but repeat is the function's actual name. This is a named function expression . That may seem confusing, b ... [truncated]; the function keyword shares technical record from And also: / Naming Functions / the function keyword: (function even (n) { if (n === 0) { return true } else return !even(n - 1) })(5) //=> false (function even (n) { if (n === 0) { return true } else return !even(n - 1 ... [truncated] (1 shared statement(s), 2 shared atom(s))
+- [[javascriptallonge-function-keyword]] - shared statements and technical atoms: the function keyword shares source evidence from Naming Functions / the function keyword: In this expression, double is the name in the environment, but repeat is the function's actual name. This is a named function expression . That may seem confusing, b ... [truncated]; the function keyword shares technical record from Naming Functions / the function keyword: (function even (n) { if (n === 0) { return true } else return !even(n - 1) })(5) //=> false (function even (n) { if (n === 0) { return true } else return !even(n - 1 ... [truncated] (1 shared statement(s), 2 shared atom(s))
 - [[javascriptallonge-object]] - shared statements and technical atoms: Object shares source evidence from Served by the Pot: Collections / Iteration and Iterables / iterables: The expression Symbol.iterator evaluates to a special symbol representing the name of the method that objects should use if they return an iterator object.; Object shares technical record from Plain Old JavaScript Objects / literal object syntax: const SecretDecoderRing = { encode (plaintext) { return plaintext .split('') .map( char => char.charCodeAt() ) .map( code => code + 1 ) .map( code => String.fromChar ... [truncated] (1 shared statement(s), 2 shared atom(s))
-- [[javascriptallonge-binding]] - shared technical atoms: Binding shares technical record from And also: / That Constant Coffee Craving / are consts also from a shadowy planet?: ((PI) => { ((PI) => {})(3); return (diameter) => diameter * PI; })(3.14159265) (2 shared atom(s))
+- [[javascriptallonge-binding]] - shared technical atoms: Binding shares technical record from That Constant Coffee Craving / are consts also from a shadowy planet?: ((PI) => { ((PI) => {})(3); return (diameter) => diameter * PI; })(3.14159265) (2 shared atom(s))
 - [[javascriptallonge-javascript]] - shared technical atoms: Javascript shares technical record from A Rich Aroma: Basic Numbers / operations on numbers: 2 * 5 + 1 //=> 11 1 + 5 * 2 //=> 11 (2 shared atom(s))
 
 ### Shared claims
 
-- [[javascriptallonge-evaluate]] - shared statements: Evaluate shares source evidence from Prelude: Values and Expressions over Coffee / values are expressions / reference types: They look the same, but if you examine them with === , you see that they are different. Every time you evaluate an expression (including typing something in) to crea ... [truncated] (4 shared statement(s))
+- [[javascriptallonge-evaluate]] - shared statements: Evaluate shares source evidence from Prelude: Values and Expressions over Coffee / reference types: They look the same, but if you examine them with === , you see that they are different. Every time you evaluate an expression (including typing something in) to crea ... [truncated] (4 shared statement(s))
 - [[javascriptallonge-coffee]] - shared statements: Coffee shares source evidence from A Warm Cup: Basic Strings and Quasi-Literals: Coffee and a Book An expression is any valid unit of code that resolves to a value.-Mozilla Development Network: Expressions and operators 87 (1 shared statement(s))
 
 ## Source

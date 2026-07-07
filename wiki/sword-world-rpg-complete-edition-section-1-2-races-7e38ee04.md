@@ -8,7 +8,7 @@ updated: 2026-07-07
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-1-2-races-7e38ee04@545c44c9903ed81265f60e21b1c381aa
+projection_coverage: section-sword-world-rpg-complete-edition-section-1-2-races-7e38ee04@3fb7ee9b78f7f8ca83d449434e787d10
 ---
 
 # 1.2 Races
@@ -20,11 +20,6 @@ From [[sword-world-rpg-complete-edition]].
 ### Source order
 
 - [[sword-world-rpg-complete-edition-section-8-game-master-screen-e0d07881]] - previous source section: 8. Game Master Screen
-- [[sword-world-rpg-complete-edition-section-1-4-character-creation-23071b21]] - next source section: 1.4 Character Creation
-
-### Source structure
-
-- [[sword-world-rpg-complete-edition-section-1-2-races-skills-437de23e]] - narrower source section: 1.2 Races / Skills
 
 ## Statements
 

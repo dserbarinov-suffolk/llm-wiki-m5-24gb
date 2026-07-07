@@ -9,7 +9,7 @@ domain: javascriptallonge
 category_path: recipes/javascriptallonge
 source_id: javascriptallonge.pdf
 aliases: shadowy-variables-from-a-shadowy-planet
-projection_coverage: recipe-javascriptallonge-recipe-shadowy-variables-from-a-shadowy-planet@88349d49efa9fe54a0e953bbf6403631
+projection_coverage: recipe-javascriptallonge-recipe-shadowy-variables-from-a-shadowy-planet@0f32c242caa0225501a5194ff14d8be5
 ---
 
 # shadowy variables from a shadowy planet
@@ -18,7 +18,7 @@ From [[javascriptallonge]].
 
 ## Pattern
 
-- Use the source-backed pattern described in [[javascriptallonge-section-and-also-closures-and-scope-shadowy-variables-from-a-shadowy-planet-ad7f51cc]].
+- Use the source-backed pattern described in [[javascriptallonge-section-shadowy-variables-from-a-shadowy-planet-ad7f51cc]].
 - Evidence roles: decision, explanation, example.
 
 ## Applicability And Rationale
@@ -56,4 +56,4 @@ x + y + z
 ## Source Trail
 
 - Source manifest: [[javascriptallonge]]
-- Source section: [[javascriptallonge-section-and-also-closures-and-scope-shadowy-variables-from-a-shadowy-planet-ad7f51cc]]
+- Source section: [[javascriptallonge-section-shadowy-variables-from-a-shadowy-planet-ad7f51cc]]

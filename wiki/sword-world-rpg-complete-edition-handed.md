@@ -7,7 +7,7 @@ sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-07
 domain: sword-world-rpg-complete-edition
 category_path: concepts
-projection_coverage: topic-sword-world-rpg-complete-edition-handed@cebd8e61466379cc2d0db062d0d6791c
+projection_coverage: topic-sword-world-rpg-complete-edition-handed@04d93bdd8b8695fc7a2e23e13f081159
 ---
 
 # Handed
@@ -16,7 +16,7 @@ What [[sword-world-rpg-complete-edition]] covers about handed:
 
 ## Statements
 
-### 1.4 Character Creation / One-Handed and TwoHanded Weapons
+### One-Handed and TwoHanded Weapons
 
 - A two-handed weapon will deal more damage to an opponent than a onehanded weapon of the same required strength. Of course, if you have a twohanded weapon, you cannot hold a shield, which will make your character less capable of defense. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-00617))_
 
@@ -25,7 +25,7 @@ What [[sword-world-rpg-complete-edition]] covers about handed:
 
 ## Technical atoms
 
-### Technical frame 1: 1.4 Character Creation / One-Handed and TwoHanded Weapons
+### Technical frame 1: One-Handed and TwoHanded Weapons
 
 **Context:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-00618))_
 

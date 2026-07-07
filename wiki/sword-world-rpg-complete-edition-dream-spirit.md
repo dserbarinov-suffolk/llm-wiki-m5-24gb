@@ -7,7 +7,7 @@ sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-07
 domain: sword-world-rpg-complete-edition
 category_path: concepts
-projection_coverage: topic-sword-world-rpg-complete-edition-dream-spirit@d2549855e195d0584dd43a3befab24eb
+projection_coverage: topic-sword-world-rpg-complete-edition-dream-spirit@b0b71d338c27960c3f0ded7c0027c090
 ---
 
 # Dream Spirit
@@ -16,14 +16,14 @@ What [[sword-world-rpg-complete-edition]] covers about dream spirit:
 
 ## Statements
 
-### 4.10 Excellent Weapons and Armor / and Armor / 4.10.4 Mithril Silver Weapons and Armor / Basic Rules of Magic / 5.1.14 Spirit Magic List / 8th Level Spirit Magic List [ Ice Coffin ] / [ Nightmare ] (Incubus, Succubus/Dream Spirit)
+### [ Nightmare ] (Incubus, Succubus/Dream Spirit)
 
 - This is a spell that uses a dream spirit to send nightmares into the target's sleep, cursing your opponent to death. This spell has no distance restrictions, but the target must be someone the caster knows personally. The spell begins when the target goes to sleep, while the caster remains awake and focuses on controlling the dream spirit. Thus, the dream spirit controlled in this way enters the opponent's dreams and causes them to have nightmares. At this time, the contents of the nightmare the opponent sees can be chosen as desired by the caster. This ritual must be performed every night until the target becomes weak and dies. If the ritual is interrupted, even for one night, the spell's effect is completely lost. Also, the ritual must be continued overnight with undivided attention from sunset until dawn. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-03212))_
 
 
 ## Technical atoms
 
-### Technical frame 1: 4.10 Excellent Weapons and Armor / and Armor / 4.10.4 Mithril Silver Weapons and Armor / Basic Rules of Magic / 5.1.14 Spirit Magic List / 8th Level Spirit Magic List [ Ice Coffin ] / [ Nightmare ] (Incubus, Succubus/Dream Spirit)
+### Technical frame 1: [ Nightmare ] (Incubus, Succubus/Dream Spirit)
 
 **Context:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-03212))_
 

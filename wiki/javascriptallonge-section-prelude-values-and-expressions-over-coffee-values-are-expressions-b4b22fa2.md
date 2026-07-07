@@ -8,7 +8,7 @@ updated: 2026-07-07
 domain: javascriptallonge
 category_path: sources/javascriptallonge/sections
 source_id: javascriptallonge.pdf
-projection_coverage: section-javascriptallonge-section-prelude-values-and-expressions-over-coffee-values-are-expressions-b4b22fa2@e1ab33e8ad959e5f3b4b52da2a021e44
+projection_coverage: section-javascriptallonge-section-prelude-values-and-expressions-over-coffee-values-are-expressions-b4b22fa2@690773f061440eb4db6a39b8c6eeb957
 ---
 
 # Prelude: Values and Expressions over Coffee / values are expressions
@@ -17,11 +17,13 @@ From [[javascriptallonge]].
 
 ## Related pages
 
+### Source order
+
+- [[javascriptallonge-section-prelude-values-and-expressions-over-coffee-value-types-cb5b0b74]] - next source section: Prelude: Values and Expressions over Coffee / value types
+
 ### Source structure
 
 - [[javascriptallonge-section-prelude-values-and-expressions-over-coffee-9ed49287]] - broader source section: Prelude: Values and Expressions over Coffee
-- [[javascriptallonge-section-prelude-values-and-expressions-over-coffee-values-are-expressions-reference-types-11fd4275]] - narrower source section: Prelude: Values and Expressions over Coffee / values are expressions / reference types
-- [[javascriptallonge-section-prelude-values-and-expressions-over-coffee-values-are-expressions-value-types-cb5b0b74]] - narrower source section: Prelude: Values and Expressions over Coffee / values are expressions / value types
 
 ## Statements
 

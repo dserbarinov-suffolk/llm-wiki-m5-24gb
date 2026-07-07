@@ -7,7 +7,7 @@ sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-07
 domain: sword-world-rpg-complete-edition
 category_path: concepts
-projection_coverage: topic-sword-world-rpg-complete-edition-remove@dfcf39263639cb4c9eff9c71d0192eab
+projection_coverage: topic-sword-world-rpg-complete-edition-remove@3334a675b6b178d1a151e6fefe920b29
 ---
 
 # Remove
@@ -16,7 +16,7 @@ What [[sword-world-rpg-complete-edition]] covers about remove:
 
 ## Statements
 
-### Chapter 6: / 6.1 Precautions When Using Skills / Thief Skill / [ ⑮ Treasure Appraisal [Intelligence] ] (No equipment restriction, not retriable) / [ ⑰ Remove/Set Trap [Dexterity] ] (Equipment restriction, not retriable)
+### [ ⑰ Remove/Set Trap [Dexterity] ] (Equipment restriction, not retriable)
 
 - You can attempt to remove traps discovered through fi nd . Removal also involves attempting a success roll against the trap's difficulty. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-03954))_
 
@@ -27,7 +27,7 @@ What [[sword-world-rpg-complete-edition]] covers about remove:
 
 ## Technical atoms
 
-### Technical frame 1: Chapter 6: / 6.1 Precautions When Using Skills / Thief Skill / [ ⑮ Treasure Appraisal [Intelligence] ] (No equipment restriction, not retriable) / [ ⑰ Remove/Set Trap [Dexterity] ] (Equipment restriction, not retriable)
+### Technical frame 1: [ ⑰ Remove/Set Trap [Dexterity] ] (Equipment restriction, not retriable)
 
 **Context:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-03956))_
 
@@ -38,7 +38,7 @@ What [[sword-world-rpg-complete-edition]] covers about remove:
 <a id="atom-technical-atom-c7c6ef6a52f31673"></a>
 > If you fail, the trap will be activated if the dice roll was 6 or more beneath the target score.
 
-### Technical frame 2: Chapter 6: / 6.1 Precautions When Using Skills / Thief Skill / [ ⑮ Treasure Appraisal [Intelligence] ] (No equipment restriction, not retriable) / [ ⑰ Remove/Set Trap [Dexterity] ] (Equipment restriction, not retriable)
+### Technical frame 2: [ ⑰ Remove/Set Trap [Dexterity] ] (Equipment restriction, not retriable)
 
 **Context:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-03955))_
 

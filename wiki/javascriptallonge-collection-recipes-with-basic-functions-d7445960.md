@@ -8,7 +8,7 @@ updated: 2026-07-07
 domain: javascriptallonge
 category_path: sources/javascriptallonge/collections
 source_id: javascriptallonge.pdf
-projection_coverage: collection-javascriptallonge-collection-recipes-with-basic-functions-d7445960@9eec8efae8218dd969b400dd3edbf42a
+projection_coverage: collection-javascriptallonge-collection-recipes-with-basic-functions-d7445960@68fd49c459065bb02c572beed8ceff98
 ---
 
 # Recipes with Basic Functions
@@ -30,4 +30,4 @@ Broader source section: [[javascriptallonge-section-recipes-with-basic-functions
 | Recipes with Basic Functions / Tap | [[javascriptallonge-section-recipes-with-basic-functions-tap-51486e75]] | 4 statement(s), 6 atom(s) |
 | Recipes with Basic Functions / Maybe | [[javascriptallonge-section-recipes-with-basic-functions-d7445960]] | 5 statement(s), 16 atom(s) |
 | Recipes with Basic Functions / Once | [[javascriptallonge-section-recipes-with-basic-functions-d7445960]] | 6 statement(s), 10 atom(s) |
-| Recipes with Basic Functions / Left-Variadic Functions | [[javascriptallonge-section-recipes-with-basic-functions-left-variadic-functions-574b019e]] | 14 statement(s), 35 atom(s) |
+| Recipes with Basic Functions / Left-Variadic Functions | [[javascriptallonge-section-recipes-with-basic-functions-left-variadic-functions-574b019e]] | 7 statement(s), 9 atom(s) |

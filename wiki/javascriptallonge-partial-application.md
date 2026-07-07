@@ -7,7 +7,7 @@ sources: raw/javascriptallonge.pdf
 updated: 2026-07-07
 domain: javascriptallonge
 category_path: concepts
-projection_coverage: topic-javascriptallonge-partial-application@9f35610964b9a8866230bc8727c30ce4
+projection_coverage: topic-javascriptallonge-partial-application@76dd8229947f9331d3e43beeede1dd07
 ---
 
 # partial application
@@ -16,7 +16,7 @@ What [[javascriptallonge]] covers about partial application:
 
 ## Statements
 
-### And also: / Building Blocks / partial application
+### Building Blocks / partial application
 
 - Another basic building block is partial application . When a function takes multiple arguments, we 'apply' the function to the arguments by evaluating it with all of the arguments, producing a value. But what if we only supply some of the arguments? In that case, we can't get the final value, but we can get a function that represents part of our application. _(javascriptallonge.pdf (source-range-c98ab3e6-00576))_
 
@@ -39,7 +39,7 @@ What [[javascriptallonge]] covers about partial application:
 
 ## Technical atoms
 
-### Technical frame 1: And also: / Building Blocks / partial application
+### Technical frame 1: Building Blocks / partial application
 
 **Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-00582))_
 
@@ -53,7 +53,7 @@ _.map([1, 2, 3], (n) => n * n)
 //=> [1, 4, 9]
 ```
 
-### Technical frame 2: And also: / Building Blocks / partial application
+### Technical frame 2: Building Blocks / partial application
 
 **Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-00582))_
 
@@ -67,7 +67,7 @@ const squareAll = (array) => map(array,
 (n) => n * n);
 ```
 
-### Technical frame 3: And also: / Building Blocks / partial application
+### Technical frame 3: Building Blocks / partial application
 
 **Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-00584))_
 
@@ -84,7 +84,7 @@ squareAll([1, 2, 3])
 //=> [1, 4, 9]
 ```
 
-### Technical frame 4: And also: / Building Blocks / partial application
+### Technical frame 4: Building Blocks / partial application
 
 **Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-00588))_
 
@@ -97,7 +97,7 @@ squareAll([1, 2, 3])
 const safeSquareAll = mapWith(maybe((n) => n * n));
 ```
 
-### Technical frame 5: And also: / Building Blocks / partial application
+### Technical frame 5: Building Blocks / partial application
 
 **Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-00588))_
 
@@ -162,16 +162,16 @@ fn(...remainingArgs, ...args);
 
 ### Source structure
 
-- [[javascriptallonge-section-and-also-building-blocks-partial-application-68c16436]] - source section: And also: / Building Blocks / partial application shares source evidence from And also: / Building Blocks / partial application: Another basic building block is partial application . When a function takes multiple arguments, we 'apply' the function to the arguments by evaluating it with all of ... [truncated]; And also: / Building Blocks / partial application shares technical record from And also: / Building Blocks / partial application: _.map([1, 2, 3], (n) => n * n) //=> [1, 4, 9] (9 shared statement(s), 5 shared atom(s))
+- [[javascriptallonge-section-building-blocks-partial-application-68c16436]] - source section: Building Blocks / partial application shares source evidence from Building Blocks / partial application: Another basic building block is partial application . When a function takes multiple arguments, we 'apply' the function to the arguments by evaluating it with all of ... [truncated]; Building Blocks / partial application shares technical record from Building Blocks / partial application: _.map([1, 2, 3], (n) => n * n) //=> [1, 4, 9] (9 shared statement(s), 5 shared atom(s))
 - [[javascriptallonge-section-recipes-with-basic-functions-partial-application-70ce84b0]] - source section: Recipes with Basic Functions / Partial Application shares source evidence from Recipes with Basic Functions / Partial Application: These two recipes are for quickly and simply applying a single argument, either the leftmost or rightmost. 48 If you want to bind more than one argument, or you want ... [truncated]; Recipes with Basic Functions / Partial Application shares technical record from Recipes with Basic Functions / Partial Application: const callFirst = (fn, larg) => function (...rest) { return fn.call(this, larg, ...rest); } const callLast = (fn, rarg) => function (...rest) { return fn.call(this, ... [truncated] (5 shared statement(s), 2 shared atom(s))
 
 ### Shared technical atoms
 
-- [[javascriptallonge-argument]] - shared statements and technical atoms: Argument shares source evidence from And also: / Building Blocks / partial application: The resulting functionsquareAll -is still the map function, it's just that we've applied one of its two arguments already. squareAll is nice, but why write one funct ... [truncated]; Argument shares technical record from And also: / Building Blocks / partial application: _.map([1, 2, 3], (n) => n * n) //=> [1, 4, 9] (2 shared statement(s), 5 shared atom(s))
+- [[javascriptallonge-argument]] - shared statements and technical atoms: Argument shares source evidence from Building Blocks / partial application: The resulting functionsquareAll -is still the map function, it's just that we've applied one of its two arguments already. squareAll is nice, but why write one funct ... [truncated]; Argument shares technical record from Building Blocks / partial application: _.map([1, 2, 3], (n) => n * n) //=> [1, 4, 9] (2 shared statement(s), 5 shared atom(s))
 - [[javascriptallonge-bind]] - shared statements and technical atoms: Bind shares source evidence from Recipes with Basic Functions / Partial Application: These two recipes are for quickly and simply applying a single argument, either the leftmost or rightmost. 48 If you want to bind more than one argument, or you want ... [truncated]; Bind shares technical record from Recipes with Basic Functions / Partial Application: const callFirst = (fn, larg) => function (...rest) { return fn.call(this, larg, ...rest); } const callLast = (fn, rarg) => function (...rest) { return fn.call(this, ... [truncated] (1 shared statement(s), 1 shared atom(s))
 - [[javascriptallonge-list]] - shared statements and technical atoms: List shares source evidence from Recipes with Basic Functions / Partial Application: These two recipes are for quickly and simply applying a single argument, either the leftmost or rightmost. 48 If you want to bind more than one argument, or you want ... [truncated]; List shares technical record from Recipes with Basic Functions / Partial Application: const callFirst = (fn, larg) => function (...rest) { return fn.call(this, larg, ...rest); } const callLast = (fn, rarg) => function (...rest) { return fn.call(this, ... [truncated] (1 shared statement(s), 1 shared atom(s))
 - [[javascriptallonge-recipe]] - shared statements and technical atoms: Recipe shares source evidence from Recipes with Basic Functions / Partial Application: These two recipes are for quickly and simply applying a single argument, either the leftmost or rightmost. 48 If you want to bind more than one argument, or you want ... [truncated]; Recipe shares technical record from Recipes with Basic Functions / Partial Application: const callFirst = (fn, larg) => function (...rest) { return fn.call(this, larg, ...rest); } const callLast = (fn, rarg) => function (...rest) { return fn.call(this, ... [truncated] (1 shared statement(s), 1 shared atom(s))
-- [[javascriptallonge-return]] - shared statements and technical atoms: Return shares source evidence from And also: / Building Blocks / partial application: The resulting functionsquareAll -is still the map function, it's just that we've applied one of its two arguments already. squareAll is nice, but why write one funct ... [truncated]; Return shares technical record from And also: / Building Blocks / partial application: const mapWith = (fn) => (array) => map(array, fn); const squareAll = mapWith((n) => n * n); squareAll([1, 2, 3]) //=> [1, 4, 9] (1 shared statement(s), 1 shared atom(s))
+- [[javascriptallonge-return]] - shared statements and technical atoms: Return shares source evidence from Building Blocks / partial application: The resulting functionsquareAll -is still the map function, it's just that we've applied one of its two arguments already. squareAll is nice, but why write one funct ... [truncated]; Return shares technical record from Building Blocks / partial application: const mapWith = (fn) => (array) => map(array, fn); const squareAll = mapWith((n) => n * n); squareAll([1, 2, 3]) //=> [1, 4, 9] (1 shared statement(s), 1 shared atom(s))
 
 ## Source
 

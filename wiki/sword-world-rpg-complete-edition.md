@@ -1,14 +1,14 @@
 ---
 page_id: sword-world-rpg-complete-edition
 page_kind: source
-summary: Claim-ledger projection (rules-reference): 11163 usable entries, 3642 technical atoms, 1091 needs-review, 528 linked page(s); write decision write-with-review-work.
+summary: Claim-ledger projection (rules-reference): 11163 usable entries, 3642 technical atoms, 1091 needs-review, 498 linked page(s); write decision write-with-review-work.
 page_family: source-manifest
 sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-07
 domain: sword-world-rpg-complete-edition
 category_path: sources
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: projection-coverage-ea178bb026836273@21df85b7b80dd797
+projection_coverage: projection-coverage-b798644c763e6bdc@b0addf7b239e88f5
 ---
 
 # Sword World RPG Complete Edition
@@ -16,62 +16,50 @@ projection_coverage: projection-coverage-ea178bb026836273@21df85b7b80dd797
 ## Source
 
 - Raw source: `raw/Sword World RPG - Complete Edition.pdf`
-- Claim-ledger projection (rules-reference): 11163 usable entries, 3642 technical atoms, 1091 needs-review, 528 linked page(s); write decision write-with-review-work.
+- Claim-ledger projection (rules-reference): 11163 usable entries, 3642 technical atoms, 1091 needs-review, 498 linked page(s); write decision write-with-review-work.
 
 ## Page Families
 
-- broad-topic: 7 page(s) - broad concept overview pages
-- collection-page: 14 page(s) - list and catalog pages
-- procedure-guide: 7 page(s) - ordered task pages
-- section-reference: 415 page(s) - source-order reference pages
+- broad-topic: 6 page(s) - broad concept overview pages
+- collection-page: 7 page(s) - list and catalog pages
+- procedure-guide: 3 page(s) - ordered task pages
+- section-reference: 401 page(s) - source-order reference pages
 - source-manifest: 1 page(s) - source entry point
-- topic-concept: 85 page(s) - focused concept pages
+- topic-concept: 81 page(s) - focused concept pages
 
 ## Procedure Guides
 
 - [[sword-world-rpg-complete-edition-procedure-attacks-from-characters-against-monsters]] - procedure: Complete Attacks From Characters Against Monsters: 5 ordered step(s), 0 decision point(s), 12 authoritative dependency reference(s), 2 review-only dependency reference(s), projection partial from raw/Sword World RPG - Complete Edition.pdf.
 - [[sword-world-rpg-complete-edition-procedure-attacks-from-monsters-against-characters]] - procedure: Complete Attacks From Monsters Against Characters: 5 ordered step(s), 1 decision point(s), 7 authoritative dependency reference(s), 2 review-only dependency reference(s), projection partial from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-procedure-combat-in-special-situations]] - procedure: Complete Combat in Special Situations: 3 ordered step(s), 6 decision point(s), 18 authoritative dependency reference(s), 1 review-only dependency reference(s), projection partial from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-procedure-create-character]] - procedure: Create Character: 9 ordered step(s), 4 decision point(s), 33 authoritative dependency reference(s), 9 review-only dependency reference(s), projection partial from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-procedure-difficulty-checks]] - procedure: Complete Difficulty Checks: 3 ordered step(s), 4 decision point(s), 5 authoritative dependency reference(s), 1 review-only dependency reference(s), projection partial from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-procedure-should-you-use-a-target-score-check-or-a-difficulty-check]] - procedure: Complete Should You Use a Target Score Check or a Difficulty Check?: 3 ordered step(s), 8 decision point(s), 24 authoritative dependency reference(s), 2 review-only dependency reference(s), projection partial from raw/Sword World RPG - Complete Edition.pdf.
 - [[sword-world-rpg-complete-edition-procedure-unconscious-and-death-checks]] - procedure: Complete Unconscious and Death Checks: 4 ordered step(s), 6 decision point(s), 9 authoritative dependency reference(s), 0 review-only dependency reference(s), projection ready from raw/Sword World RPG - Complete Edition.pdf.
 
 ## Collections
 
-- [[sword-world-rpg-complete-edition-collection-chapter-3-4193729e]] - collection: Chapter 3:: 10 collection member(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-collection-chapter-3-102ba1d7]] - collection: Chapter 3:: 4 collection member(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-collection-chapter-3-3-4-4-actions-you-can-take-while-standing-still-b5b0aa90]] - collection: Chapter 3: / 3.4.4 Actions You Can Take While Standing Still: 5 collection member(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-collection-3-4-3-102ba1d7]] - collection: 3.4.3: 4 collection member(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-collection-basic-rules-of-magic-1e4574c3]] - collection: Basic Rules of Magic: 16 collection member(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-collection-basic-rules-of-magic-filling-out-the-character-sheet-f0d81142]] - collection: Basic Rules of Magic / Filling out the Character Sheet: 5 collection member(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-collection-basic-rules-of-magic-8th-level-ancient-magic-list-a861be39]] - collection: Basic Rules of Magic / 8th Level Ancient Magic List: 3 collection member(s) from raw/Sword World RPG - Complete Edition.pdf.
 - [[sword-world-rpg-complete-edition-collection-spellsongs-filling-out-the-character-sheet-f222832c]] - collection: Spellsongs / Filling out the Character Sheet: 3 collection member(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-collection-chapter-6-9794103a]] - collection: Chapter 6:: 4 collection member(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-collection-chapter-6-6-1-precautions-when-using-skills-thief-skill-9ee067d9]] - collection: Chapter 6: / 6.1 Precautions When Using Skills / Thief Skill: 11 collection member(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-collection-chapter-6-6-3-ranger-skill-597a89f7]] - collection: Chapter 6: / 6.3 Ranger Skill: 8 collection member(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-collection-chapter-6-8957a8ca]] - collection: Chapter 6:: 3 collection member(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-collection-chapter-12-various-checks-4c2e49b6]] - collection: Chapter 12: Various Checks: 4 collection member(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-collection-chapter-14-3862b6f2]] - collection: Chapter 14:: 3 collection member(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-collection-chapter-14-14-4-magical-item-list-f0014005]] - collection: Chapter 14: / 14.4 Magical Item List: 6 collection member(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-collection-chapter-16-f0f7da75]] - collection: Chapter 16:: 7 collection member(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-collection-chapter-16-16-5-combat-options-8a82f3a8]] - collection: Chapter 16: / 16.5 Combat Options: 8 collection member(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-collection-chapter-16-16-9-special-weapons-679cdda0]] - collection: Chapter 16: / 16.9 Special Weapons: 11 collection member(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-collection-6-5-8957a8ca]] - collection: 6.5: 3 collection member(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-collection-the-nameless-god-of-madness-special-dark-magic-list-a794214f]] - collection: The Nameless God of Madness Special Dark Magic List: 3 collection member(s) from raw/Sword World RPG - Complete Edition.pdf.
 
 ## Concept Entry Points
 
 - [[sword-world-rpg-complete-edition-10-magical-weapon]] - concept: 10 Magical Weapon: 6 statement(s) and 1 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-10-mithril-silver-weapon]] - concept: 10 Mithril Silver Weapon: 21 statement(s) and 2 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-10-mithril-silver-weapon]] - concept: 10 Mithril Silver Weapon: 11 statement(s) and 2 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
 - [[sword-world-rpg-complete-edition-10-silver-weapon]] - concept: 10 Silver Weapon: 3 statement(s) and 0 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
 - [[sword-world-rpg-complete-edition-11-acquiring-rune-master-skill]] - concept: 11 Acquiring Rune Master Skill: 22 statement(s) and 2 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
 - [[sword-world-rpg-complete-edition-13-11-daemon]] - concept: 13 11 Daemon: 4 statement(s) and 7 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
 - [[sword-world-rpg-complete-edition-13-monster-level]] - concept: 13 Monster Level: 4 statement(s) and 1 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
 - [[sword-world-rpg-complete-edition-13-mythical-beast]] - concept: 13 Mythical Beast: 6 statement(s) and 5 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
 - [[sword-world-rpg-complete-edition-14-adventure-treasure]] - concept: 14 Adventure Treasure: 1 statement(s) and 0 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-16-weapon]] - concept: 16 Weapon: 7 statement(s) and 1 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
 - [[sword-world-rpg-complete-edition-action]] - concept: Action: 5 statement(s) and 0 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
 - [[sword-world-rpg-complete-edition-adventurer-cast-magic-mix]] - concept: Adventurer Cast Magic Mix: 6 statement(s) and 2 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
 - [[sword-world-rpg-complete-edition-adventurer-level]] - concept: Adventurer Level: 3 statement(s) and 1 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-adventurer-skill]] - concept: Adventurer Skill: 9 statement(s) and 11 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-adventurer-skill]] - concept: Adventurer Skill: 6 statement(s) and 0 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
 - [[sword-world-rpg-complete-edition-aggressive-intentions]] - concept: Aggressive Intentions: 1 statement(s) and 0 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
 - [[sword-world-rpg-complete-edition-alecrast]] - concept: Alecrast: 2 statement(s) and 0 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-armor]] - concept: Armor: 32 statement(s) and 13 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-armor]] - concept: Armor: 17 statement(s) and 2 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
 - [[sword-world-rpg-complete-edition-armor-based-skill]] - concept: Armor Based Skill: 5 statement(s) and 4 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
 - [[sword-world-rpg-complete-edition-attack]] - concept: Attack: 0 statement(s) and 1 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
 - [[sword-world-rpg-complete-edition-attack-character-monster]] - concept: Attacks From Characters Against Monsters: 45 statement(s) and 13 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
@@ -80,6 +68,7 @@ projection_coverage: projection-coverage-ea178bb026836273@21df85b7b80dd797
 - [[sword-world-rpg-complete-edition-automatic-success]] - concept: Automatic Success: 1 statement(s) and 0 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
 - [[sword-world-rpg-complete-edition-bonuse]] - concept: Bonuse: 1 statement(s) and 1 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
 - [[sword-world-rpg-complete-edition-brownie]] - concept: Brownie: 1 statement(s) and 1 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-charm-dryad]] - concept: Charm Dryad: 1 statement(s) and 0 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
 
 ## Source Section Index
 
@@ -94,32 +83,35 @@ projection_coverage: projection-coverage-ea178bb026836273@21df85b7b80dd797
 - [[sword-world-rpg-complete-edition-section-6-collection-series-b1bebe21]] - top-level-section: 6. Collection Series: 6 source-backed entries and 0 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
 - [[sword-world-rpg-complete-edition-section-8-game-master-screen-e0d07881]] - top-level-section: 8. Game Master Screen: 4 source-backed entries and 0 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
 - [[sword-world-rpg-complete-edition-section-1-2-races-7e38ee04]] - top-level-section: 1.2 Races: 32 source-backed entries and 0 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-section-1-4-character-creation-23071b21]] - top-level-section: 1.4 Character Creation: 12 source-backed entries and 3 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-section-1-3-2-skill-types-4ef42dcd]] - top-level-section: 1.3.2 Skill Types: 15 source-backed entries and 0 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-section-1-3-4-explanation-of-adventurer-skills-e25e82e6]] - top-level-section: 1.3.4 Explanation of Adventurer Skills: 72 source-backed entries and 0 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-section-1-4-character-creation-23071b21]] - top-level-section: 1.4 Character Creation: 5 source-backed entries and 0 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-section-1-4-1-choose-a-race-9bc3c05e]] - top-level-section: 1.4.1 Choose a Race: 26 source-backed entries and 0 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-section-1-4-2-determine-ability-scores-24f5a2c3]] - top-level-section: 1.4.2 Determine Ability Scores: 24 source-backed entries and 1 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-section-1-4-3-starting-skills-and-starting-8d7899ba]] - top-level-section: 1.4.3 Starting Skills and Starting: 0 source-backed entries and 0 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-section-1-4-4-age-gender-name-09c881e7]] - top-level-section: 1.4.4 Age, Gender, Name: 56 source-backed entries and 1 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-section-1-4-5-character-growth-via-starting-experience-points-7eada9c7]] - top-level-section: 1.4.5 Character Growth via Starting Experience Points: 34 source-backed entries and 1 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-section-required-strength-e6ebe59d]] - top-level-section: Required Strength: 12 source-backed entries and 2 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-section-one-handed-and-twohanded-weapons-06cd107c]] - top-level-section: One-Handed and TwoHanded Weapons: 7 source-backed entries and 0 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-section-projectiles-fcb33f09]] - top-level-section: Projectiles: 4 source-backed entries and 0 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-section-shields-704a22d8]] - top-level-section: Shields: 6 source-backed entries and 0 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-section-1-4-7-restrictions-on-weapons-and-armor-based-on-skill-efcf48dc]] - top-level-section: 1.4.7 Restrictions on Weapons and Armor Based on Skill: 52 source-backed entries and 4 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-section-equipment-fa988ff9]] - top-level-section: Equipment: 29 source-backed entries and 1 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-section-1-4-9-filling-out-the-character-sheet-3ba78d4e]] - top-level-section: 1.4.9 Filling Out the Character Sheet: 22 source-backed entries and 0 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
 - [[sword-world-rpg-complete-edition-section-2-1-baseline-scores-002f7779]] - top-level-section: 2.1 Baseline Scores: 6 source-backed entries and 0 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-section-target-scores-ea2c0fa7]] - top-level-section: Target Scores: 6 source-backed entries and 2 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-section-checks-00dfa735]] - top-level-section: Checks: 15 source-backed entries and 0 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-section-2-3-1-automatic-success-and-automatic-failure-9351b854]] - top-level-section: 2.3.1 Automatic Success and Automatic Failure: 6 source-backed entries and 0 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
 - [[sword-world-rpg-complete-edition-section-2-4-bonuses-and-penalties-e2265fd4]] - top-level-section: 2.4 Bonuses and Penalties: 11 source-backed entries and 1 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-section-2-5-difficulty-checks-c9ff695c]] - top-level-section: 2.5 Difficulty Checks: 26 source-backed entries and 0 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-section-2-5-difficulty-checks-c9ff695c]] - top-level-section: 2.5 Difficulty Checks: 25 source-backed entries and 0 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-section-2-5-2-how-to-make-a-difficulty-check-f138ab4d]] - top-level-section: 2.5.2 How to Make a Difficulty Check: 16 source-backed entries and 1 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-section-2-5-3-analogy-of-success-and-failure-3a19226a]] - top-level-section: 2.5.3 Analogy of Success and Failure: 23 source-backed entries and 1 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
 - [[sword-world-rpg-complete-edition-section-2-6-success-rolls-using-adventurer-level-5e467870]] - top-level-section: 2.6 Success Rolls Using Adventurer Level: 2 source-backed entries and 0 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-section-4-7-attacks-from-characters-against-characters-112572a5]] - top-level-section: 4.7 Attacks From Characters Against Characters: 2 source-backed entries and 0 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-section-4-8-applying-damage-57a4ac35]] - top-level-section: 4.8 Applying Damage: 3 source-backed entries and 0 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-section-4-9-unconscious-and-death-checks-351dfe08]] - top-level-section: 4.9 Unconscious and Death Checks: 4 source-backed entries and 0 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-section-4-10-excellent-weapons-and-armor-6f861318]] - top-level-section: 4.10 Excellent Weapons and Armor: 4 source-backed entries and 5 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-section-5-2-common-runes-f0201151]] - top-level-section: 5.2 Common Runes: 16 source-backed entries and 1 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-section-chapter-11-notes-on-magic-e69f4059]] - top-level-section: Chapter 11: Notes on Magic: 0 source-backed entries and 0 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-section-chapter-12-various-checks-4c2e49b6]] - top-level-section: Chapter 12: Various Checks: 0 source-backed entries and 0 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-section-work-requests-to-npcs-228d9b56]] - top-level-section: Work Requests to NPCs: 19 source-backed entries and 0 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-section-monster-catalog-4f4b69b4]] - top-level-section: Monster Catalog: 0 source-backed entries and 0 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-section-13-3-converting-character-data-to-monster-data-22cd9322]] - top-level-section: 13.3 Converting Character Data to Monster Data: 34 source-backed entries and 2 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-section-13-4-representing-special-monsters-with-character-data-8413cc29]] - top-level-section: 13.4 Representing Special Monsters with Character Data: 7 source-backed entries and 1 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-section-13-5-monster-level-and-adventurer-level-94be122a]] - top-level-section: 13.5 Monster Level and Adventurer Level: 14 source-backed entries and 1 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-section-13-6-handling-monster-special-abilities-e84663d8]] - top-level-section: 13.6 Handling Monster Special Abilities: 85 source-backed entries and 0 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-section-15-1-four-types-of-experience-points-f8815705]] - top-level-section: 15.1 Four Types of Experience Points: 7 source-backed entries and 0 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-section-monster-magic-power-a74c98a8]] - top-level-section: Monster Magic Power: 1 source-backed entries and 0 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-section-monster-resistance-1343961f]] - top-level-section: Monster Resistance: 4 source-backed entries and 0 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-section-2-learn-from-a-sorcerer-who-knows-lost-spell-f9b83823]] - top-level-section: 2. Learn From a Sorcerer Who Knows Lost Spell: 12 source-backed entries and 0 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-section-17-3-catalysts-other-than-staves-70751471]] - top-level-section: 17.3 Catalysts Other Than Staves: 4 source-backed entries and 0 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-section-17-5-full-resistance-c93358f4]] - top-level-section: 17.5 Full Resistance: 18 source-backed entries and 1 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-section-18-1-rules-for-awarding-greater-experience-points-c3da84ed]] - top-level-section: 18.1 Rules for Awarding Greater Experience Points: 14 source-backed entries and 0 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
-- [[sword-world-rpg-complete-edition-section-18-3-rules-for-destroying-structures-dc7b2024]] - top-level-section: 18.3 Rules for Destroying Structures: 44 source-backed entries and 14 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-section-resistance-rolls-06071a87]] - top-level-section: Resistance Rolls: 16 source-backed entries and 1 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-section-filling-out-the-character-sheet-e7410e27]] - top-level-section: Filling Out the Character Sheet: 6 source-backed entries and 0 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-section-3-2-action-order-2b58863f]] - top-level-section: 3.2 Action Order: 19 source-backed entries and 1 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-section-3-3-action-canceling-ddc631ba]] - top-level-section: 3.3 Action Canceling: 10 source-backed entries and 0 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+- [[sword-world-rpg-complete-edition-section-3-2-1-delaying-an-action-1e3968d0]] - top-level-section: 3.2.1 Delaying an Action: 12 source-backed entries and 0 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
 
 ## Source review
 

@@ -7,7 +7,7 @@ sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-07
 domain: sword-world-rpg-complete-edition
 category_path: concepts
-projection_coverage: topic-sword-world-rpg-complete-edition-control-spirit-lesser@ef0bd6afeac3d1156dfb047e37bcf1f7
+projection_coverage: topic-sword-world-rpg-complete-edition-control-spirit-lesser@19284462ffc46b9fc557f6c99983caca
 ---
 
 # [ Control Spirit ] (Various lesser spirits)
@@ -16,7 +16,7 @@ What [[sword-world-rpg-complete-edition]] covers about [ control spirit ] (vario
 
 ## Statements
 
-### 4.10 Excellent Weapons and Armor / and Armor / 4.10.4 Mithril Silver Weapons and Armor / Basic Rules of Magic / 5.1.14 Spirit Magic List / 3rd Level Spirit Magic List [ Invisibility ] (Sprite/Mind Spirit) / [ Control Spirit ] (Various lesser spirits)
+### [ Control Spirit ] (Various lesser spirits)
 
 - This is a spell that summons a spirit and lets you control it as your servant (you're free to call it your friend). The only spirits you can summon are those that belong to the lesser spirits (monster level 4 or lower). Of course, it can only be summoned in a place where spirit power is at work, and summoning also requires a three-hour magical ritual. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-02873))_
 
@@ -26,14 +26,14 @@ What [[sword-world-rpg-complete-edition]] covers about [ control spirit ] (vario
 
 - The main spirits that can be controlled are gnome (earth spirits), undine (water spirits), salamander (fire spirits), sylph (wind spirits), brownie (building spirits), leprechaun (mind spirits), sprite (mind spirits), etc. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-02876))_
 
-### 4.10 Excellent Weapons and Armor / and Armor / 4.10.4 Mithril Silver Weapons and Armor / Basic Rules of Magic / 5.1.14 Spirit Magic List / Magic List / [ Full Control Spirit ] (Various lesser spirits)
+### [ Full Control Spirit ] (Various lesser spirits)
 
 - Please note that it is not possible to use both the Control Spirit and Full Control Spirit spells to control different spirits. In this case, the effect of the previously cast spell will vanish. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-03175))_
 
 
 ## Technical atoms
 
-### Technical frame 1: 4.10 Excellent Weapons and Armor / and Armor / 4.10.4 Mithril Silver Weapons and Armor / Basic Rules of Magic / 5.1.14 Spirit Magic List / 3rd Level Spirit Magic List [ Invisibility ] (Sprite/Mind Spirit) / [ Control Spirit ] (Various lesser spirits)
+### Technical frame 1: [ Control Spirit ] (Various lesser spirits)
 
 **Context:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-02873))_
 
@@ -44,7 +44,7 @@ What [[sword-world-rpg-complete-edition]] covers about [ control spirit ] (vario
 <a id="atom-technical-atom-245d0dc0b184a4b5"></a>
 > Resist=None
 
-### Technical frame 2: 4.10 Excellent Weapons and Armor / and Armor / 4.10.4 Mithril Silver Weapons and Armor / Basic Rules of Magic / 5.1.14 Spirit Magic List / Magic List / [ Full Control Spirit ] (Various lesser spirits)
+### Technical frame 2: [ Full Control Spirit ] (Various lesser spirits)
 
 **Context:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-03175))_
 
@@ -66,12 +66,8 @@ What [[sword-world-rpg-complete-edition]] covers about [ control spirit ] (vario
 
 ### Source structure
 
-- [[sword-world-rpg-complete-edition-section-4-10-excellent-weapons-and-armor-and-armor-4-10-4-mithril-silver-weapons-and-armor-basic-rules-o-6067a582]] - source section: 4.10 Excellent Weapons and Armor / and Armor / 4.10.4 Mithril Silver Weapons and Armor / Basic Rules of Magic / 5.1.14 Spirit Magic List / 3rd Level Spirit Magic List [ Invisibility ] (Sprite/Mind Spirit) / [ Control Spirit ] (Various lesser spirits) shares source evidence from 4.10 Excellent Weapons and Armor / and Armor / 4.10.4 Mithril Silver Weapons and Armor / Basic Rules of Magic / 5.1.14 Spirit Magic List / 3rd Level Spirit Magic List [ Invisibility ] (Sprite/Mind Spirit) / [ Control Spirit ] (Various lesser spirits): This is a spell that summons a spirit and lets you control it as your servant (you're free to call it your friend). The only spirits you can summon are those that be ... [truncated]; 4.10 Excellent Weapons and Armor / and Armor / 4.10.4 Mithril Silver Weapons and Armor / Basic Rules of Magic / 5.1.14 Spirit Magic List / 3rd Level Spirit Magic List [ Invisibility ] (Sprite/Mind Spirit) / [ Control Spirit ] (Various lesser spirits) shares technical record from 4.10 Excellent Weapons and Armor / and Armor / 4.10.4 Mithril Silver Weapons and Armor / Basic Rules of Magic / 5.1.14 Spirit Magic List / 3rd Level Spirit Magic List [ Invisibility ] (Sprite/Mind Spirit) / [ Control Spirit ] (Various lesser spirits): Base Mental Power Cost=15 (11 shared statement(s), 7 shared atom(s))
-- [[sword-world-rpg-complete-edition-section-4-10-excellent-weapons-and-armor-and-armor-4-10-4-mithril-silver-weapons-and-armor-basic-rules-o-d2b38f5a]] - source section: 4.10 Excellent Weapons and Armor / and Armor / 4.10.4 Mithril Silver Weapons and Armor / Basic Rules of Magic / 5.1.14 Spirit Magic List / Magic List / [ Full Control Spirit ] (Various lesser spirits) shares source evidence from 4.10 Excellent Weapons and Armor / and Armor / 4.10.4 Mithril Silver Weapons and Armor / Basic Rules of Magic / 5.1.14 Spirit Magic List / Magic List / [ Full Control Spirit ] (Various lesser spirits): Please note that it is not possible to use both the Control Spirit and Full Control Spirit spells to control different spirits. In this case, the effect of the previ ... [truncated]; 4.10 Excellent Weapons and Armor / and Armor / 4.10.4 Mithril Silver Weapons and Armor / Basic Rules of Magic / 5.1.14 Spirit Magic List / Magic List / [ Full Control Spirit ] (Various lesser spirits) shares technical record from 4.10 Excellent Weapons and Armor / and Armor / 4.10.4 Mithril Silver Weapons and Armor / Basic Rules of Magic / 5.1.14 Spirit Magic List / Magic List / [ Full Control Spirit ] (Various lesser spirits): Base Mental Power Cost=35 (2 shared statement(s), 3 shared atom(s))
-
-### Shared claims
-
-- [[sword-world-rpg-complete-edition-mind-spirit]] - shared statements: Mind Spirit shares source evidence from 4.10 Excellent Weapons and Armor / and Armor / 4.10.4 Mithril Silver Weapons and Armor / Basic Rules of Magic / 5.1.14 Spirit Magic List / 3rd Level Spirit Magic List [ Invisibility ] (Sprite/Mind Spirit) / [ Control Spirit ] (Various lesser spirits): The main spirits that can be controlled are gnome (earth spirits), undine (water spirits), salamander (fire spirits), sylph (wind spirits), brownie (building spirits ... [truncated] (1 shared statement(s))
+- [[sword-world-rpg-complete-edition-section-control-spirit-various-lesser-spirits-6067a582]] - source section: [ Control Spirit ] (Various lesser spirits) shares source evidence from [ Control Spirit ] (Various lesser spirits): This is a spell that summons a spirit and lets you control it as your servant (you're free to call it your friend). The only spirits you can summon are those that be ... [truncated]; [ Control Spirit ] (Various lesser spirits) shares technical record from [ Control Spirit ] (Various lesser spirits): Base Mental Power Cost=15 (11 shared statement(s), 7 shared atom(s))
+- [[sword-world-rpg-complete-edition-section-full-control-spirit-various-lesser-spirits-d2b38f5a]] - source section: [ Full Control Spirit ] (Various lesser spirits) shares source evidence from [ Full Control Spirit ] (Various lesser spirits): Please note that it is not possible to use both the Control Spirit and Full Control Spirit spells to control different spirits. In this case, the effect of the previ ... [truncated]; [ Full Control Spirit ] (Various lesser spirits) shares technical record from [ Full Control Spirit ] (Various lesser spirits): Base Mental Power Cost=35 (2 shared statement(s), 3 shared atom(s))
 
 ## Source
 

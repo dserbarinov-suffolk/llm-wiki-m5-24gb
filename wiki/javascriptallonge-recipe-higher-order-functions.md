@@ -9,7 +9,7 @@ domain: javascriptallonge
 category_path: recipes/javascriptallonge
 source_id: javascriptallonge.pdf
 aliases: higher-order-functions
-projection_coverage: recipe-javascriptallonge-recipe-higher-order-functions@60c19fcf0df15500a2814d50db1fbb27
+projection_coverage: recipe-javascriptallonge-recipe-higher-order-functions@ecaa144587cb0e51620dc4e587017908
 ---
 
 # higher-order functions
@@ -18,7 +18,7 @@ From [[javascriptallonge]].
 
 ## Pattern
 
-- Use the source-backed pattern described in [[javascriptallonge-section-and-also-combinators-and-function-decorators-higher-order-functions-c07c644e]].
+- Use the source-backed pattern described in [[javascriptallonge-section-combinators-and-function-decorators-higher-order-functions-c07c644e]].
 - Evidence roles: decision, constraint, explanation, example.
 
 ## Applicability And Rationale
@@ -51,4 +51,4 @@ undefined
 ## Source Trail
 
 - Source manifest: [[javascriptallonge]]
-- Source section: [[javascriptallonge-section-and-also-combinators-and-function-decorators-higher-order-functions-c07c644e]]
+- Source section: [[javascriptallonge-section-combinators-and-function-decorators-higher-order-functions-c07c644e]]

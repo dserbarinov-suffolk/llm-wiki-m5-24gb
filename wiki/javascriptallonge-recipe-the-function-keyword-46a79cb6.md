@@ -9,7 +9,7 @@ domain: javascriptallonge
 category_path: recipes/javascriptallonge
 source_id: javascriptallonge.pdf
 aliases: the-function-keyword
-projection_coverage: recipe-javascriptallonge-recipe-the-function-keyword-46a79cb6@7a3d167637d309bc2b6c98fc4638283d
+projection_coverage: recipe-javascriptallonge-recipe-the-function-keyword-46a79cb6@8999213d066cebc0ec1d824549541806
 ---
 
 # the function keyword
@@ -18,7 +18,7 @@ From [[javascriptallonge]].
 
 ## Pattern
 
-- Use the source-backed pattern described in [[javascriptallonge-section-and-also-naming-functions-the-function-keyword-46a79cb6]].
+- Use the source-backed pattern described in [[javascriptallonge-section-naming-functions-the-function-keyword-46a79cb6]].
 - Evidence roles: decision, definition, explanation, constraint, procedure, example, structured-state.
 
 ## Applicability And Rationale
@@ -90,4 +90,4 @@ return (1.618**n - -1.618**-n) / 2.236;
 ## Source Trail
 
 - Source manifest: [[javascriptallonge]]
-- Source section: [[javascriptallonge-section-and-also-naming-functions-the-function-keyword-46a79cb6]]
+- Source section: [[javascriptallonge-section-naming-functions-the-function-keyword-46a79cb6]]

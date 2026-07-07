@@ -7,7 +7,7 @@ sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-07
 domain: sword-world-rpg-complete-edition
 category_path: concepts
-projection_coverage: topic-sword-world-rpg-complete-edition-11-acquiring-rune-master-skill@78338d5884cdf9ebcf6c8d4633377ad9
+projection_coverage: topic-sword-world-rpg-complete-edition-11-acquiring-rune-master-skill@8dc2b83a22ef8c6e935ef97c17cbf68a
 ---
 
 # 11 Acquiring Rune Master Skill
@@ -16,7 +16,7 @@ What [[sword-world-rpg-complete-edition]] covers about 11 acquiring rune master 
 
 ## Statements
 
-### Chapter 11: Notes on Magic / 11.2 Dark Magic / 10th Level Basic Dark Magic List [ Call God ] / 11.2.3 Special Dark Magic List / [ Create Ghost Ship ] (Spell Level=6) / 11.3 Dragon Roar Magic / 9th Level Dragon Roar Magic List [ Summon Lesser Dragon ] / 11.4 Acquiring Rune Master Skills and Increasing Levels
+### 9th Level Dragon Roar Magic List [ Summon Lesser Dragon ] / 11.4 Acquiring Rune Master Skills and Increasing Levels
 
 - Here is a summary of how to acquire and increase the level of each rune master skill. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-05207))_
 
@@ -41,7 +41,7 @@ What [[sword-world-rpg-complete-edition]] covers about 11 acquiring rune master 
 
 ## Technical atoms
 
-### Technical frame 1: Chapter 11: Notes on Magic / 11.2 Dark Magic / 10th Level Basic Dark Magic List [ Call God ] / 11.2.3 Special Dark Magic List / [ Create Ghost Ship ] (Spell Level=6) / 11.3 Dragon Roar Magic / 9th Level Dragon Roar Magic List [ Summon Lesser Dragon ] / 11.4 Acquiring Rune Master Skills and Increasing Levels
+### Technical frame 1: 9th Level Dragon Roar Magic List [ Summon Lesser Dragon ] / 11.4 Acquiring Rune Master Skills and Increasing Levels
 
 **Context:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-05216))_
 
@@ -52,7 +52,7 @@ What [[sword-world-rpg-complete-edition]] covers about 11 acquiring rune master 
 <a id="atom-technical-atom-ac1da286cef7710e"></a>
 > When you awaken to faith and recognize the existence of the gods, you can acquire the 1st level priest skill.
 
-### Technical frame 2: Chapter 11: Notes on Magic / 11.2 Dark Magic / 10th Level Basic Dark Magic List [ Call God ] / 11.2.3 Special Dark Magic List / [ Create Ghost Ship ] (Spell Level=6) / 11.3 Dragon Roar Magic / 9th Level Dragon Roar Magic List [ Summon Lesser Dragon ] / 11.4 Acquiring Rune Master Skills and Increasing Levels
+### Technical frame 2: 9th Level Dragon Roar Magic List [ Summon Lesser Dragon ] / 11.4 Acquiring Rune Master Skills and Increasing Levels
 
 **Context:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-05220))_
 

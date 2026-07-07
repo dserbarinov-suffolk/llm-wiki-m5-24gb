@@ -9,7 +9,7 @@ domain: javascriptallonge
 category_path: recipes/javascriptallonge
 source_id: javascriptallonge.pdf
 aliases: the-kestrel-and-the-idiot
-projection_coverage: recipe-javascriptallonge-recipe-the-kestrel-and-the-idiot@d81d211f21a5ada36ac93d71b86673bd
+projection_coverage: recipe-javascriptallonge-recipe-the-kestrel-and-the-idiot@7f3918cb79ef5de8440a66d8b9317e35
 ---
 
 # the kestrel and the idiot
@@ -18,7 +18,7 @@ From [[javascriptallonge]].
 
 ## Pattern
 
-- Use the source-backed pattern described in [[javascriptallonge-section-copy-on-write-making-data-out-of-functions-the-kestrel-and-the-idiot-203dea45]].
+- Use the source-backed pattern described in [[javascriptallonge-section-making-data-out-of-functions-the-kestrel-and-the-idiot-203dea45]].
 - Evidence roles: decision, explanation, constraint, example.
 
 ## Applicability And Rationale
@@ -102,4 +102,4 @@ second("primus")("secundus")
 ## Source Trail
 
 - Source manifest: [[javascriptallonge]]
-- Source section: [[javascriptallonge-section-copy-on-write-making-data-out-of-functions-the-kestrel-and-the-idiot-203dea45]]
+- Source section: [[javascriptallonge-section-making-data-out-of-functions-the-kestrel-and-the-idiot-203dea45]]

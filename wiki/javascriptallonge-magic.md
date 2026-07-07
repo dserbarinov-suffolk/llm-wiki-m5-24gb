@@ -7,7 +7,7 @@ sources: raw/javascriptallonge.pdf
 updated: 2026-07-07
 domain: javascriptallonge
 category_path: concepts
-projection_coverage: topic-javascriptallonge-magic@f7f9dd306bfce0f243a44c093a3ba215
+projection_coverage: topic-javascriptallonge-magic@a817348fcc3a3a785d707fe7eefddd42
 ---
 
 # Magic
@@ -16,7 +16,7 @@ What [[javascriptallonge]] covers about magic:
 
 ## Statements
 
-### And also: / Magic Names / magic names and fat arrows
+### Magic Names / magic names and fat arrows
 
 - Having magic variables apply to Big-F functions but not to small-G functions makes it much easier to use small-F functions as syntax, treating them as expressions or blocks that can be passed to functions like mapWith . _(javascriptallonge.pdf (source-range-c98ab3e6-00618))_
 
@@ -25,7 +25,7 @@ What [[javascriptallonge]] covers about magic:
 
 ### Source structure
 
-- [[javascriptallonge-section-and-also-magic-names-0c5d7af9]] - source section: And also: / Magic Names shares source evidence from And also: / Magic Names: When a function is applied to arguments (or 'called'), JavaScript binds the values of arguments to the function's argument names in an environment created for the fu ... [truncated]; And also: / Magic Names shares technical record from And also: / Magic Names / the function keyword: const plus = function (a, b) { return arguments[0] + arguments[1]; } plus(2,3) //=> 5 (23 shared statement(s), 8 shared atom(s))
+- [[javascriptallonge-section-magic-names-0c5d7af9]] - source section: Magic Names shares source evidence from Magic Names: When a function is applied to arguments (or 'called'), JavaScript binds the values of arguments to the function's argument names in an environment created for the fu ... [truncated]; Magic Names shares technical record from Magic Names / the function keyword: const plus = function (a, b) { return arguments[0] + arguments[1]; } plus(2,3) //=> 5 (23 shared statement(s), 8 shared atom(s))
 
 ## Source
 

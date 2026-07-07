@@ -8,7 +8,7 @@ updated: 2026-07-07
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-4-7-attacks-from-characters-against-characters-4-7-1-hit-checks-9c205d1f@66816d58214360214426706598d3e93d
+projection_coverage: section-sword-world-rpg-complete-edition-section-4-7-attacks-from-characters-against-characters-4-7-1-hit-checks-9c205d1f@7a15170808342d3e07ed980708b76387
 ---
 
 # 4.7 Attacks From Characters Against Characters / 4.7.1 Hit Checks
@@ -16,10 +16,6 @@ projection_coverage: section-sword-world-rpg-complete-edition-section-4-7-attack
 From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
-
-### Source order
-
-- [[sword-world-rpg-complete-edition-section-4-7-attacks-from-characters-against-characters-double-sixes-and-double-ones-582ed4b1]] - next source section: 4.7 Attacks From Characters Against Characters / Double Sixes and Double Ones
 
 ### Source structure
 

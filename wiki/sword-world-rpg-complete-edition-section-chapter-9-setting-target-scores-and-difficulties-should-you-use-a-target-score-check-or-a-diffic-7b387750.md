@@ -8,7 +8,7 @@ updated: 2026-07-07
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-9-setting-target-scores-and-difficulties-should-you-use-a-target-score-check-or-a-diffic-7b387750@23bab4e679f446e95c09986a5e2a5ec3
+projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-9-setting-target-scores-and-difficulties-should-you-use-a-target-score-check-or-a-diffic-7b387750@37b1eee4b16cf85eafc4ad5cdb2cf4ae
 ---
 
 # Chapter 9: / Setting Target Scores and Difficulties / Should You Use a Target Score Check or a Difficulty Check? / 9.3 General Modifiers
@@ -16,10 +16,6 @@ projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-9-
 From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
-
-### Source order
-
-- [[sword-world-rpg-complete-edition-section-chapter-9-setting-target-scores-and-difficulties-should-you-use-a-target-score-check-or-a-diffic-8fa86b29]] - next source section: Chapter 9: / Setting Target Scores and Difficulties / Should You Use a Target Score Check or a Difficulty Check? / 9.4 Automatic Success Restrictions
 
 ### Source structure
 

@@ -9,7 +9,7 @@ domain: javascriptallonge
 category_path: recipes/javascriptallonge
 source_id: javascriptallonge.pdf
 aliases: bonus
-projection_coverage: recipe-javascriptallonge-recipe-bonus@b9bf81cb103922f0c3de4af9079615c3
+projection_coverage: recipe-javascriptallonge-recipe-bonus@30d8946b8f1524d8b6591e53ad2aca9f
 ---
 
 # bonus
@@ -18,7 +18,7 @@ From [[javascriptallonge]].
 
 ## Pattern
 
-- Use the source-backed pattern described in [[javascriptallonge-section-copy-on-write-functional-iterators-bonus-e75a0dd9]].
+- Use the source-backed pattern described in [[javascriptallonge-section-bonus-e75a0dd9]].
 - Evidence roles: decision, constraint, explanation, procedure, example.
 
 ## Applicability And Rationale
@@ -53,4 +53,4 @@ array.filter(fn)[0];
 ## Source Trail
 
 - Source manifest: [[javascriptallonge]]
-- Source section: [[javascriptallonge-section-copy-on-write-functional-iterators-bonus-e75a0dd9]]
+- Source section: [[javascriptallonge-section-bonus-e75a0dd9]]

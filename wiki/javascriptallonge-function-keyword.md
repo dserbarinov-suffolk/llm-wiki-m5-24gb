@@ -7,7 +7,7 @@ sources: raw/javascriptallonge.pdf
 updated: 2026-07-07
 domain: javascriptallonge
 category_path: concepts
-projection_coverage: topic-javascriptallonge-function-keyword@0151e47f9c7d0d1a7a0719df379af6ad
+projection_coverage: topic-javascriptallonge-function-keyword@4780135fa81fc87c2e19b24dd731a6fa
 ---
 
 # the function keyword
@@ -16,7 +16,7 @@ What [[javascriptallonge]] covers about the function keyword:
 
 ## Statements
 
-### And also: / Naming Functions / the function keyword
+### Naming Functions / the function keyword
 
 - JavaScript does have a syntax for naming a function, we use the function keyword. Until ECMAScript 2015 was created, function was the usual syntax for writing functions. _(javascriptallonge.pdf (source-range-c98ab3e6-00488))_
 
@@ -40,7 +40,7 @@ What [[javascriptallonge]] covers about the function keyword:
 
 - even is bound within the function itself, but not outside it. This is useful for making recursive functions as we see above, and it speaks to the principle of least privilege: If you don't need to name it anywhere else, you needn't. _(javascriptallonge.pdf (source-range-c98ab3e6-00520))_
 
-### And also: / Magic Names / the function keyword
+### Magic Names / the function keyword
 
 - There are two separate rules for these 'magic' names, one for when you invoke a function using the function keyword, and another for functions defined with 'fat arrows.' We'll begin with how things work for functions defined with the function keyword. _(javascriptallonge.pdf (source-range-c98ab3e6-00592))_
 
@@ -53,7 +53,7 @@ What [[javascriptallonge]] covers about the function keyword:
 
 ## Technical atoms
 
-### Technical frame 1: And also: / Naming Functions / the function keyword
+### Technical frame 1: Naming Functions / the function keyword
 
 **Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-00495))_
 
@@ -66,7 +66,7 @@ What [[javascriptallonge]] covers about the function keyword:
 (str) => str + str
 ```
 
-### Technical frame 2: And also: / Naming Functions / the function keyword
+### Technical frame 2: Naming Functions / the function keyword
 
 **Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-00495))_
 
@@ -79,7 +79,7 @@ What [[javascriptallonge]] covers about the function keyword:
 function (str) { return str + str }
 ```
 
-### Technical frame 3: And also: / Naming Functions / the function keyword
+### Technical frame 3: Naming Functions / the function keyword
 
 **Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-00497))_
 
@@ -90,7 +90,7 @@ function (str) { return str + str }
 <a id="atom-technical-atom-99f6410861836322"></a>
 > We always use a block, we cannot write function (str) str + str .
 
-### Technical frame 4: And also: / Naming Functions / the function keyword
+### Technical frame 4: Naming Functions / the function keyword
 
 **Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-00508))_
 
@@ -103,7 +103,7 @@ function (str) { return str + str }
 (n) => (1.618**n - -1.618**-n) / 2.236
 ```
 
-### Technical frame 5: And also: / Naming Functions / the function keyword
+### Technical frame 5: Naming Functions / the function keyword
 
 **Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-00508))_
 
@@ -118,7 +118,7 @@ return (1.618**n - -1.618**-n) / 2.236;
 }
 ```
 
-### Technical frame 6: And also: / Naming Functions / the function keyword
+### Technical frame 6: Naming Functions / the function keyword
 
 **Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-00508))_
 
@@ -136,7 +136,7 @@ return (1.618**n - -1.618**-n) / 2.236;
 };
 ```
 
-### Technical frame 7: And also: / Naming Functions / the function keyword
+### Technical frame 7: Naming Functions / the function keyword
 
 **Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-00508))_
 
@@ -151,7 +151,7 @@ return str + str;
 }
 ```
 
-### Technical frame 8: And also: / Naming Functions / the function keyword
+### Technical frame 8: Naming Functions / the function keyword
 
 **Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-00512))_
 
@@ -165,7 +165,7 @@ double.name
 //=> 'repeat'
 ```
 
-### Technical frame 9: And also: / Naming Functions / the function keyword
+### Technical frame 9: Naming Functions / the function keyword
 
 **Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-00514))_
 
@@ -180,7 +180,7 @@ someBackboneView.on('click', function clickHandler () {
 });
 ```
 
-### Technical frame 10: And also: / Naming Functions / the function keyword
+### Technical frame 10: Naming Functions / the function keyword
 
 **Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-00516))_
 
@@ -199,7 +199,7 @@ actualName
 //=> ReferenceError: actualName is not defined
 ```
 
-### Technical frame 11: And also: / Naming Functions / the function keyword
+### Technical frame 11: Naming Functions / the function keyword
 
 **Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-00518))_
 
@@ -225,7 +225,7 @@ else return !even(n - 1)
 //=> true
 ```
 
-### Technical frame 12: And also: / Naming Functions / the function keyword
+### Technical frame 12: Naming Functions / the function keyword
 
 **Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-00520))_
 
@@ -239,7 +239,7 @@ even
 //=> Can't find variable: even
 ```
 
-### Technical frame 13: And also: / Magic Names / the function keyword
+### Technical frame 13: Magic Names / the function keyword
 
 **Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-00597))_
 
@@ -256,7 +256,7 @@ plus(2,3)
 //=> 5
 ```
 
-### Technical frame 14: And also: / Magic Names / the function keyword
+### Technical frame 14: Magic Names / the function keyword
 
 **Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-00597))_
 
@@ -273,7 +273,7 @@ args(2,3)
 //=> { '0': 2, '1': 3 }
 ```
 
-### Technical frame 15: And also: / Magic Names / the function keyword
+### Technical frame 15: Magic Names / the function keyword
 
 **Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-00602))_
 
@@ -290,7 +290,7 @@ plus(2,3)
 //=> 5
 ```
 
-### Technical frame 16: And also: / Magic Names / the function keyword
+### Technical frame 16: Magic Names / the function keyword
 
 **Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-00602))_
 
@@ -316,19 +316,19 @@ howMany('sharks', 'are', 'apex', 'predators')
 
 ### Source structure
 
-- [[javascriptallonge-section-and-also-naming-functions-the-function-keyword-46a79cb6]] - source section: And also: / Naming Functions / the function keyword shares source evidence from And also: / Naming Functions / the function keyword: JavaScript does have a syntax for naming a function, we use the function keyword. Until ECMAScript 2015 was created, function was the usual syntax for writing functions.; And also: / Naming Functions / the function keyword shares technical record from And also: / Naming Functions / the function keyword: (str) => str + str (16 shared statement(s), 12 shared atom(s))
-- [[javascriptallonge-section-and-also-magic-names-the-function-keyword-55f3d121]] - source section: And also: / Magic Names / the function keyword shares source evidence from And also: / Magic Names / the function keyword: There are two separate rules for these 'magic' names, one for when you invoke a function using the function keyword, and another for functions defined with 'fat arro ... [truncated]; And also: / Magic Names / the function keyword shares technical record from And also: / Magic Names / the function keyword: const plus = function (a, b) { return arguments[0] + arguments[1]; } plus(2,3) //=> 5 (6 shared statement(s), 4 shared atom(s))
+- [[javascriptallonge-section-naming-functions-the-function-keyword-46a79cb6]] - source section: Naming Functions / the function keyword shares source evidence from Naming Functions / the function keyword: JavaScript does have a syntax for naming a function, we use the function keyword. Until ECMAScript 2015 was created, function was the usual syntax for writing functions.; Naming Functions / the function keyword shares technical record from Naming Functions / the function keyword: (str) => str + str (16 shared statement(s), 12 shared atom(s))
+- [[javascriptallonge-section-magic-names-the-function-keyword-55f3d121]] - source section: Magic Names / the function keyword shares source evidence from Magic Names / the function keyword: There are two separate rules for these 'magic' names, one for when you invoke a function using the function keyword, and another for functions defined with 'fat arro ... [truncated]; Magic Names / the function keyword shares technical record from Magic Names / the function keyword: const plus = function (a, b) { return arguments[0] + arguments[1]; } plus(2,3) //=> 5 (6 shared statement(s), 4 shared atom(s))
 
 ### Shared technical atoms
 
-- [[javascriptallonge-argument]] - shared statements and technical atoms: Argument shares source evidence from And also: / Magic Names / the function keyword: arguments always contains all of the arguments passed to a function, regardless of how many are declared. Therefore, we can write plus like this:; Argument shares technical record from And also: / Magic Names / the function keyword: const plus = function (a, b) { return arguments[0] + arguments[1]; } plus(2,3) //=> 5 (1 shared statement(s), 4 shared atom(s))
-- [[javascriptallonge-bind]] - shared technical atoms: Bind shares technical record from And also: / Naming Functions / the function keyword: const double = function repeat (str) { return str + str; } (3 shared atom(s))
-- [[javascriptallonge-expression]] - shared statements and technical atoms: Expression shares source evidence from And also: / Naming Functions / the function keyword: In this expression, double is the name in the environment, but repeat is the function's actual name. This is a named function expression . That may seem confusing, b ... [truncated]; Expression shares technical record from And also: / Naming Functions / the function keyword: (function even (n) { if (n === 0) { return true } else return !even(n - 1) })(5) //=> false (function even (n) { if (n === 0) { return true } else return !even(n - 1 ... [truncated] (1 shared statement(s), 2 shared atom(s))
-- [[javascriptallonge-javascript]] - shared statements and technical atoms: Javascript shares source evidence from And also: / Naming Functions / the function keyword: JavaScript does have a syntax for naming a function, we use the function keyword. Until ECMAScript 2015 was created, function was the usual syntax for writing functions.; Javascript shares technical record from And also: / Naming Functions / the function keyword: someBackboneView.on('click', function clickHandler () { //... }); (1 shared statement(s), 1 shared atom(s))
+- [[javascriptallonge-argument]] - shared statements and technical atoms: Argument shares source evidence from Magic Names / the function keyword: arguments always contains all of the arguments passed to a function, regardless of how many are declared. Therefore, we can write plus like this:; Argument shares technical record from Magic Names / the function keyword: const plus = function (a, b) { return arguments[0] + arguments[1]; } plus(2,3) //=> 5 (1 shared statement(s), 4 shared atom(s))
+- [[javascriptallonge-bind]] - shared technical atoms: Bind shares technical record from Naming Functions / the function keyword: const double = function repeat (str) { return str + str; } (3 shared atom(s))
+- [[javascriptallonge-expression]] - shared statements and technical atoms: Expression shares source evidence from Naming Functions / the function keyword: In this expression, double is the name in the environment, but repeat is the function's actual name. This is a named function expression . That may seem confusing, b ... [truncated]; Expression shares technical record from Naming Functions / the function keyword: (function even (n) { if (n === 0) { return true } else return !even(n - 1) })(5) //=> false (function even (n) { if (n === 0) { return true } else return !even(n - 1 ... [truncated] (1 shared statement(s), 2 shared atom(s))
+- [[javascriptallonge-javascript]] - shared statements and technical atoms: Javascript shares source evidence from Naming Functions / the function keyword: JavaScript does have a syntax for naming a function, we use the function keyword. Until ECMAScript 2015 was created, function was the usual syntax for writing functions.; Javascript shares technical record from Naming Functions / the function keyword: someBackboneView.on('click', function clickHandler () { //... }); (1 shared statement(s), 1 shared atom(s))
 
 ### Shared claims
 
-- [[javascriptallonge-ecmascript]] - shared statements: Ecmascript shares source evidence from And also: / Naming Functions / the function keyword: JavaScript does have a syntax for naming a function, we use the function keyword. Until ECMAScript 2015 was created, function was the usual syntax for writing functions. (1 shared statement(s))
+- [[javascriptallonge-ecmascript]] - shared statements: Ecmascript shares source evidence from Naming Functions / the function keyword: JavaScript does have a syntax for naming a function, we use the function keyword. Until ECMAScript 2015 was created, function was the usual syntax for writing functions. (1 shared statement(s))
 
 ## Source
 

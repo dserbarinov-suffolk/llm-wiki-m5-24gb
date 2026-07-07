@@ -8,7 +8,7 @@ updated: 2026-07-07
 domain: javascriptallonge
 category_path: sources/javascriptallonge/sections
 source_id: javascriptallonge.pdf
-projection_coverage: section-javascriptallonge-section-recipes-with-data-4b3e2c99@20da65ac88713947e9229fd9977492b4
+projection_coverage: section-javascriptallonge-section-recipes-with-data-4b3e2c99@dc820bc06fc5a5496bf61671b40ac859
 ---
 
 # Recipes with Data
@@ -19,7 +19,7 @@ From [[javascriptallonge]].
 
 ### Source order
 
-- [[javascriptallonge-section-copy-on-write-d081f846]] - previous source section: Copy on Write
+- [[javascriptallonge-section-making-data-out-of-functions-182a6c8b]] - previous source section: Making Data Out Of Functions
 - [[javascriptallonge-section-a-warm-cup-basic-strings-and-quasi-literals-519b0d4d]] - next source section: A Warm Cup: Basic Strings and Quasi-Literals
 
 ### Source structure

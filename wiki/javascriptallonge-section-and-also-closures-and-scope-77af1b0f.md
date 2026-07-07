@@ -8,7 +8,7 @@ updated: 2026-07-07
 domain: javascriptallonge
 category_path: sources/javascriptallonge/sections
 source_id: javascriptallonge.pdf
-projection_coverage: section-javascriptallonge-section-and-also-closures-and-scope-77af1b0f@c827b19e672e38d0513343a83dddd5c0
+projection_coverage: section-javascriptallonge-section-and-also-closures-and-scope-77af1b0f@2ad542d50f4cfef1a55ab9a4c6d95b0e
 ---
 
 # And also: / Closures and Scope
@@ -20,14 +20,6 @@ From [[javascriptallonge]].
 ### Source order
 
 - [[javascriptallonge-section-and-also-call-by-sharing-d6249c17]] - previous source section: And also: / call by sharing
-- [[javascriptallonge-section-and-also-that-constant-coffee-craving-614e2fd3]] - next source section: And also: / That Constant Coffee Craving
-
-### Source structure
-
-- [[javascriptallonge-section-and-also-closures-and-scope-if-functions-without-free-variables-are-pure-are-closures-impure-a8b1b370]] - narrower source section: And also: / Closures and Scope / if functions without free variables are pure, are closures impure?
-- [[javascriptallonge-section-and-also-closures-and-scope-it-s-always-the-environment-ff95f958]] - narrower source section: And also: / Closures and Scope / it's always the environment
-- [[javascriptallonge-section-and-also-closures-and-scope-shadowy-variables-from-a-shadowy-planet-ad7f51cc]] - narrower source section: And also: / Closures and Scope / shadowy variables from a shadowy planet
-- [[javascriptallonge-section-and-also-closures-and-scope-which-came-first-the-chicken-or-the-egg-8e6e66d0]] - narrower source section: And also: / Closures and Scope / which came first, the chicken or the egg?
 
 ## Statements
 

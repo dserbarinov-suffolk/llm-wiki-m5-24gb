@@ -9,7 +9,7 @@ domain: javascriptallonge
 category_path: recipes/javascriptallonge
 source_id: javascriptallonge.pdf
 aliases: unfolding-and-laziness
-projection_coverage: recipe-javascriptallonge-recipe-unfolding-and-laziness@998bac85ca07a59eaf7fb0ff16c08dae
+projection_coverage: recipe-javascriptallonge-recipe-unfolding-and-laziness@f97e44f8cea726b350e2afcda8f0468a
 ---
 
 # unfolding and laziness
@@ -18,7 +18,7 @@ From [[javascriptallonge]].
 
 ## Pattern
 
-- Use the source-backed pattern described in [[javascriptallonge-section-copy-on-write-functional-iterators-unfolding-and-laziness-b92d6532]].
+- Use the source-backed pattern described in [[javascriptallonge-section-unfolding-and-laziness-b92d6532]].
 - Evidence roles: decision, explanation, constraint, example.
 
 ## Applicability And Rationale
@@ -146,4 +146,4 @@ const odds = () => {
 ## Source Trail
 
 - Source manifest: [[javascriptallonge]]
-- Source section: [[javascriptallonge-section-copy-on-write-functional-iterators-unfolding-and-laziness-b92d6532]]
+- Source section: [[javascriptallonge-section-unfolding-and-laziness-b92d6532]]

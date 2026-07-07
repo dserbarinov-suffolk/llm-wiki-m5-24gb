@@ -9,7 +9,7 @@ domain: javascriptallonge
 category_path: recipes/javascriptallonge
 source_id: javascriptallonge.pdf
 aliases: a-history-lesson
-projection_coverage: recipe-javascriptallonge-recipe-a-history-lesson@f6f5a4c2e893379929bdc4350d3c52ac
+projection_coverage: recipe-javascriptallonge-recipe-a-history-lesson@2647c43da713819b11a9fd21fc575a49
 ---
 
 # a history lesson
@@ -18,7 +18,7 @@ From [[javascriptallonge]].
 
 ## Pattern
 
-- Use the source-backed pattern described in [[javascriptallonge-section-recipes-with-basic-functions-left-variadic-functions-a-history-lesson-f921305a]].
+- Use the source-backed pattern described in [[javascriptallonge-section-a-history-lesson-f921305a]].
 - Evidence roles: decision, constraint, example.
 
 ## Applicability And Rationale
@@ -63,4 +63,4 @@ _Source: javascriptallonge.pdf (source-range-c98ab3e6-00713)_
 ## Source Trail
 
 - Source manifest: [[javascriptallonge]]
-- Source section: [[javascriptallonge-section-recipes-with-basic-functions-left-variadic-functions-a-history-lesson-f921305a]]
+- Source section: [[javascriptallonge-section-a-history-lesson-f921305a]]

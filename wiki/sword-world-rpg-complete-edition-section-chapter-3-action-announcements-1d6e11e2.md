@@ -8,7 +8,7 @@ updated: 2026-07-07
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-3-action-announcements-1d6e11e2@fd1536c559db05da47820568fd53b5fe
+projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-3-action-announcements-1d6e11e2@2b27edef3acb1fffc01b9cdfe90534b5
 ---
 
 # Chapter 3: / Action Announcements
@@ -16,10 +16,6 @@ projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-3-
 From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
-
-### Source order
-
-- [[sword-world-rpg-complete-edition-section-chapter-3-3-2-action-order-2b58863f]] - next source section: Chapter 3: / 3.2 Action Order
 
 ### Source structure
 

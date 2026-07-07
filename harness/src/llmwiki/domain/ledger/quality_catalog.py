@@ -126,6 +126,7 @@ _APPLICABILITY = ReasonApplicabilityPolicy(
         "page-hash-invalid": ("wiki-page", "page-body", "projection-coverage-artifact"),
         "review-required": (
             "source-statement",
+            "structure-node",
             "ledger-entry",
             "atom-candidate",
             "technical-atom",
@@ -213,6 +214,12 @@ _CHECKS: tuple[QualityCheckDefinition, ...] = (
         ("technical-atom",),
     ),
     _ck("ck-needs-review-reason", "review-required", ("ledger-build",), ("ledger-entry",)),
+    _ck(
+        "ck-source-structure-integrity",
+        "review-required",
+        ("ledger-build",),
+        ("structure-node",),
+    ),
     _ck(
         "ck-named-table-reference-resolved",
         "coverage-gap",

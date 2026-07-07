@@ -121,6 +121,7 @@ def _add_heading(
     ):
         open_headings.pop()
     _bind_top_level_unnumbered_container(open_headings, number_path)
+    _trim_stack_to_heading_path(open_headings, heading_text, segment.heading_path, depth)
     if (
         open_headings
         and canonical_label
@@ -256,10 +257,60 @@ def _bind_pending_marker(
 ) -> None:
     bound_text = structure_numbers.numbered_title(pending.heading.number_path, heading_text)
     canonical_label = structure_numbers.canonical_heading_label(bound_text)
-    bound = replace(pending.heading, canonical_label=canonical_label, title_bound=True)
+    bound = replace(
+        pending.heading,
+        canonical_label=canonical_label,
+        is_number_marker=False,
+        title_bound=True,
+    )
     _replace_node_heading(nodes, bound.node_id, bound_text, segment.evidence_ids)
     open_headings[:] = [*pending.stack[:-1], bound]
     node_for_segment[segment.segment_id] = bound.node_id
+
+
+def _trim_stack_to_heading_path(
+    open_headings: list[_OpenHeading], heading_text: str, heading_path: str, depth: int
+) -> None:
+    path = _clean_heading_path(heading_path)
+    if not path:
+        return
+    heading_label = structure_numbers.canonical_heading_label(heading_text)
+    if path[-1] and structure_numbers.same_heading(path[-1], heading_label):
+        expected_parent_path = path[:-1]
+    else:
+        if len(path) == 1:
+            return
+        expected_parent_path = path
+    if not expected_parent_path:
+        if depth > 1:
+            return
+        open_headings.clear()
+        return
+    while len(open_headings) > len(expected_parent_path):
+        open_headings.pop()
+    for index, expected in enumerate(expected_parent_path):
+        if index >= len(open_headings):
+            return
+        actual = open_headings[index].canonical_label
+        if actual == expected or structure_numbers.same_heading(actual, expected):
+            continue
+        del open_headings[index:]
+        return
+
+
+def _clean_heading_path(heading_path: str) -> tuple[str, ...]:
+    if not heading_path or " through " in heading_path.casefold():
+        return ()
+    parts = tuple(
+        structure_numbers.canonical_heading_label(part)
+        for part in heading_path.split(">")
+        if part.strip()
+    )
+    if parts == ("document",):
+        return ()
+    if any(not part for part in parts):
+        return ()
+    return parts
 
 
 def _replace_node_heading(

@@ -9,7 +9,7 @@ domain: javascriptallonge
 category_path: recipes/javascriptallonge
 source_id: javascriptallonge.pdf
 aliases: function-decorators
-projection_coverage: recipe-javascriptallonge-recipe-function-decorators@9e1650a63e5cf4e926be6c9e4da6a7c2
+projection_coverage: recipe-javascriptallonge-recipe-function-decorators@3949f799094e260aed7000b2c864fd9c
 ---
 
 # function decorators
@@ -18,7 +18,7 @@ From [[javascriptallonge]].
 
 ## Pattern
 
-- Use the source-backed pattern described in [[javascriptallonge-section-and-also-combinators-and-function-decorators-function-decorators-9d6990ae]].
+- Use the source-backed pattern described in [[javascriptallonge-section-combinators-and-function-decorators-function-decorators-9d6990ae]].
 - Evidence roles: decision, constraint, explanation, structured-state, example.
 
 ## Applicability And Rationale
@@ -64,4 +64,4 @@ const nothing = not(something);
 ## Source Trail
 
 - Source manifest: [[javascriptallonge]]
-- Source section: [[javascriptallonge-section-and-also-combinators-and-function-decorators-function-decorators-9d6990ae]]
+- Source section: [[javascriptallonge-section-combinators-and-function-decorators-function-decorators-9d6990ae]]

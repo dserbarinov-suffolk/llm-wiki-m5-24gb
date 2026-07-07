@@ -8,7 +8,7 @@ updated: 2026-07-07
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-5-2-common-runes-f0201151@dde1de5e713eda535b22b9fc7ff429c7
+projection_coverage: section-sword-world-rpg-complete-edition-section-5-2-common-runes-f0201151@b31ed64bec2e4fb25b4bff7660b31884
 ---
 
 # 5.2 Common Runes
@@ -19,7 +19,7 @@ From [[sword-world-rpg-complete-edition]].
 
 ### Source order
 
-- [[sword-world-rpg-complete-edition-section-4-10-excellent-weapons-and-armor-6f861318]] - previous source section: 4.10 Excellent Weapons and Armor
+- [[sword-world-rpg-complete-edition-section-heat-metal-spell-level-5-f46a3552]] - previous source section: [ Heat Metal ] (Spell Level=5)
 
 ## Statements
 

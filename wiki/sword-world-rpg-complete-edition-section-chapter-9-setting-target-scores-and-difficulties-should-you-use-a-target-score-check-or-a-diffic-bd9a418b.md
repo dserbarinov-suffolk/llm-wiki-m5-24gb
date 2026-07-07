@@ -1,14 +1,14 @@
 ---
 page_id: sword-world-rpg-complete-edition-section-chapter-9-setting-target-scores-and-difficulties-should-you-use-a-target-score-check-or-a-diffic-bd9a418b
 page_kind: source
-summary: Chapter 9: / Setting Target Scores and Difficulties / Should You Use a Target Score Check or a Difficulty Check?: 29 source-backed entries and 4 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+summary: Chapter 9: / Setting Target Scores and Difficulties / Should You Use a Target Score Check or a Difficulty Check?: 29 source-backed entries and 3 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: section-reference
 sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-07
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-9-setting-target-scores-and-difficulties-should-you-use-a-target-score-check-or-a-diffic-bd9a418b@0985f594a977c6a65836ba9c747e5791
+projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-9-setting-target-scores-and-difficulties-should-you-use-a-target-score-check-or-a-diffic-bd9a418b@bcaeda459abb91a1a88a671b77e90837
 ---
 
 # Chapter 9: / Setting Target Scores and Difficulties / Should You Use a Target Score Check or a Difficulty Check?
@@ -20,9 +20,7 @@ From [[sword-world-rpg-complete-edition]].
 ### Source structure
 
 - [[sword-world-rpg-complete-edition-section-chapter-9-setting-target-scores-and-difficulties-f6da6ec7]] - broader source section: Chapter 9: / Setting Target Scores and Difficulties
-- [[sword-world-rpg-complete-edition-section-chapter-9-setting-target-scores-and-difficulties-should-you-use-a-target-score-check-or-a-diffic-6fb1befd]] - narrower source section: Chapter 9: / Setting Target Scores and Difficulties / Should You Use a Target Score Check or a Difficulty Check? / 10.1 NPC and Monster Action Announcement
 - [[sword-world-rpg-complete-edition-section-chapter-9-setting-target-scores-and-difficulties-should-you-use-a-target-score-check-or-a-diffic-7b387750]] - narrower source section: Chapter 9: / Setting Target Scores and Difficulties / Should You Use a Target Score Check or a Difficulty Check? / 9.3 General Modifiers
-- [[sword-world-rpg-complete-edition-section-chapter-9-setting-target-scores-and-difficulties-should-you-use-a-target-score-check-or-a-diffic-8fa86b29]] - narrower source section: Chapter 9: / Setting Target Scores and Difficulties / Should You Use a Target Score Check or a Difficulty Check? / 9.4 Automatic Success Restrictions
 
 ## Statements
 
@@ -90,35 +88,6 @@ General Modifiers
 | --- | --- |
 | Tough but manageable situation | -2 |
 | Slightly disadvantageous situation | -1 |
-```
-
-</details>
-
-### Technical frame 4: Chapter 9: / Setting Target Scores and Difficulties / Should You Use a Target Score Check or a Difficulty Check? / 10.1 NPC and Monster Action Announcement / Combat in Special Situations
-
-**Context:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-04583))_
-
-> An example is shown in Table 10-1: Attack Power and Evasion Speed Modifiers.
-
-**Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-04581))_
-
-<a id="atom-technical-atom-6288376a8952d40a"></a>
-| Full movement (Evasion speed only) | -4 |
-| --- | --- |
-| Can’t see opponent (in the dark, invisible enemy, etc.) However, if alternative senses (smell, hearing, etc.) are developed to some extent If you don't have to rely on vision | -4 -2 None |
-| When footing is bad (Rocks and debris are everywhere, water is up to your waist, etc.) | -2 |
-| Fallen (Same as when trying to stand up because you're in an unstable state) | -2 |
-
-<details>
-<summary>Raw table text</summary>
-
-```text
-Surprise Attacks
-| Full movement (Evasion speed only) | -4 |
-| --- | --- |
-| Can’t see opponent (in the dark, invisible enemy, etc.) However, if alternative senses (smell, hearing, etc.) are developed to some extent If you don't have to rely on vision | -4 -2 None |
-| When footing is bad (Rocks and debris are everywhere, water is up to your waist, etc.) | -2 |
-| Fallen (Same as when trying to stand up because you're in an unstable state) | -2 |
 ```
 
 </details>

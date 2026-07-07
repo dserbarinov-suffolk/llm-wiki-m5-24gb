@@ -9,7 +9,7 @@ domain: javascriptallonge
 category_path: recipes/javascriptallonge
 source_id: javascriptallonge.pdf
 aliases: lists-with-functions-as-data
-projection_coverage: recipe-javascriptallonge-recipe-lists-with-functions-as-data@8bdb2e08aabac2c19b36a76e5fb9f08c
+projection_coverage: recipe-javascriptallonge-recipe-lists-with-functions-as-data@36acc89c8dd6b22d1b851f4d5761dbcc
 ---
 
 # lists with functions as data
@@ -18,7 +18,7 @@ From [[javascriptallonge]].
 
 ## Pattern
 
-- Use the source-backed pattern described in [[javascriptallonge-section-copy-on-write-making-data-out-of-functions-lists-with-functions-as-data-e74e34a2]].
+- Use the source-backed pattern described in [[javascriptallonge-section-making-data-out-of-functions-lists-with-functions-as-data-e74e34a2]].
 - Evidence roles: decision, procedure, constraint, example.
 
 ## Applicability And Rationale
@@ -96,4 +96,4 @@ doubled(rest)(rest)(first)
 ## Source Trail
 
 - Source manifest: [[javascriptallonge]]
-- Source section: [[javascriptallonge-section-copy-on-write-making-data-out-of-functions-lists-with-functions-as-data-e74e34a2]]
+- Source section: [[javascriptallonge-section-making-data-out-of-functions-lists-with-functions-as-data-e74e34a2]]

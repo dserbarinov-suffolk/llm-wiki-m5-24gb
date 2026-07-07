@@ -7,7 +7,7 @@ sources: raw/javascriptallonge.pdf
 updated: 2026-07-07
 domain: javascriptallonge
 category_path: concepts
-projection_coverage: topic-javascriptallonge-functional@a45ee1dd7d2dbaf36b95f182e22d1532
+projection_coverage: topic-javascriptallonge-functional@eda25d114368dfffd7c4bfbc0fbec215
 ---
 
 # Functional
@@ -42,6 +42,7 @@ What [[javascriptallonge]] covers about functional:
 - [[javascriptallonge-programming]] - shared statements: Programming shares source evidence from ECMAScript 6 has three major groups of features: / Forewords to the First Edition / michael fogus: As a staunch advocate of functional programming, much of what Reg has written rings true to me. While not exclusively a book about functional programming, JavaScript ... [truncated] (2 shared statement(s))
 - [[javascriptallonge-allong]] - shared statements: Allong shares source evidence from ECMAScript 6 has three major groups of features: / Forewords to the First Edition / michael fogus: As a staunch advocate of functional programming, much of what Reg has written rings true to me. While not exclusively a book about functional programming, JavaScript ... [truncated] (1 shared statement(s))
 - [[javascriptallonge-javascript]] - shared statements: Javascript shares source evidence from ECMAScript 6 has three major groups of features: / Forewords to the First Edition / michael fogus: As a staunch advocate of functional programming, much of what Reg has written rings true to me. While not exclusively a book about functional programming, JavaScript ... [truncated] (1 shared statement(s))
+- [[javascriptallonge-scope]] - shared statements: Scope shares source evidence from Reassignment / why const and let were invented: const and let are recent additions to JavaScript. For nearly twenty years, variables were declared with var (not counting parameters and function declarations, of co ... [truncated] (1 shared statement(s))
 
 ## Source
 

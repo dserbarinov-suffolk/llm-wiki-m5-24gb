@@ -1,0 +1,28 @@
+---
+page_id: sword-world-rpg-complete-edition-section-4th-level-spirit-magic-list-water-walking-undine-water-spirit-ba97506d
+page_kind: source
+summary: 4th Level Spirit Magic List [ Water Walking ] (Undine/Water Spirit): 9 source-backed entries and 0 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+page_family: section-reference
+sources: raw/Sword World RPG - Complete Edition.pdf
+updated: 2026-07-07
+domain: sword-world-rpg-complete-edition
+category_path: sources/sword-world-rpg-complete-edition/sections
+source_id: Sword World RPG - Complete Edition.pdf
+projection_coverage: section-sword-world-rpg-complete-edition-section-4th-level-spirit-magic-list-water-walking-undine-water-spirit-ba97506d@9711e8130984d46b26d689768bcc6855
+---
+
+# 4th Level Spirit Magic List [ Water Walking ] (Undine/Water Spirit)
+
+From [[sword-world-rpg-complete-edition]].
+
+## Related pages
+
+### Source order
+
+- [[sword-world-rpg-complete-edition-section-mute-sylph-wind-spirit-33caf393]] - previous source section: [ Mute ] (Sylph/Wind Spirit)
+- [[sword-world-rpg-complete-edition-section-sink-undine-water-spirit-c600297c]] - next source section: [ Sink ] (Undine/Water Spirit)
+
+## Statements
+
+- Countered (Negated) By: Sink Expansion=Final score, duration, distance, targets Resist=Negated effect This spell allows you to walk on water. Those who've had this spell cast on them can walk on water as if they were walking on solid ground. Of course, it doesn't matter how heavy their equipment is. However, when transporting someone else, you must always carry that person on your back. This spell is also a counter spell to Sink , so if you cast this spell after Sink has been cast, the effects of both will be negated, just as if they had been removed by a Dispel Magic spell. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-02938))_
+- If you cast this spell on something underwater, it will immediately rise to the surface. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-02939))_

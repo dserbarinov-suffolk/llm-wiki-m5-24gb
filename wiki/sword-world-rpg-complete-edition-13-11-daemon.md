@@ -7,7 +7,7 @@ sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-07
 domain: sword-world-rpg-complete-edition
 category_path: concepts
-projection_coverage: topic-sword-world-rpg-complete-edition-13-11-daemon@251edd5a29d0630855e35025f8d8568a
+projection_coverage: topic-sword-world-rpg-complete-edition-13-11-daemon@1c513595a731f154294b4e571210ec17
 ---
 
 # 13 11 Daemon
@@ -16,7 +16,7 @@ What [[sword-world-rpg-complete-edition]] covers about 13 11 daemon:
 
 ## Statements
 
-### Monster Catalog / 13.2.11 Daemons/Underworld Creatures / [ Lesser Daemon ] Grunel
+### 13.2.11 Daemons/Underworld Creatures / [ Lesser Daemon ] Grunel
 
 - A grunel is a humanoid lesser daemon with steel-blue skin. It's characterized by its long tail, which it can manipulate freely like a whip to attack or entangle enemies. If it uses its tail to entangle, treat this as a strangling attack (see p. 236). The target will be unable to move, and the grunel can attack with the weapon in its right hand. They have the ability to use ancient magic. They seem to have been especially proficient at enchanting, and often carry a magical sword. If a grunel has a magic sword, add a bonus of 1 point to both its attack points and strike points. They can also use dark magic. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-08200))_
 
@@ -29,7 +29,7 @@ What [[sword-world-rpg-complete-edition]] covers about 13 11 daemon:
 
 ## Technical atoms
 
-### Technical frame 1: Monster Catalog / 13.2.11 Daemons/Underworld Creatures / [ Lesser Daemon ] Grunel
+### Technical frame 1: 13.2.11 Daemons/Underworld Creatures / [ Lesser Daemon ] Grunel
 
 **Context:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-08200))_
 
@@ -73,7 +73,7 @@ What [[sword-world-rpg-complete-edition]] covers about 13 11 daemon:
 <a id="atom-technical-atom-2da5b6976f256eeb"></a>
 > Special Abilities=3rd level dark magic (magic intensity/magic power=12/5)
 
-### Technical frame 2: Monster Catalog / 13.2.11 Daemons/Underworld Creatures / [ Lesser Daemon ] Grunel
+### Technical frame 2: 13.2.11 Daemons/Underworld Creatures / [ Lesser Daemon ] Grunel
 
 **Context:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-08222))_
 
@@ -111,7 +111,7 @@ What [[sword-world-rpg-complete-edition]] covers about 13 11 daemon:
 <a id="atom-technical-atom-32ca55e5a21f0cd1"></a>
 > Special Abilities=Shapeshift
 
-### Technical frame 3: Monster Catalog / 13.2.11 Daemons/Underworld Creatures / [ Lesser Daemon ] Grunel
+### Technical frame 3: 13.2.11 Daemons/Underworld Creatures / [ Lesser Daemon ] Grunel
 
 **Context:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-08240))_
 
@@ -122,7 +122,7 @@ What [[sword-world-rpg-complete-edition]] covers about 13 11 daemon:
 <a id="atom-technical-atom-ac245e8d4dde5a4e"></a>
 > Perception=Five senses (Darkvision)
 
-### Technical frame 4: Monster Catalog / 13.2.11 Daemons/Underworld Creatures / [ Lesser Daemon ] Grunel
+### Technical frame 4: 13.2.11 Daemons/Underworld Creatures / [ Lesser Daemon ] Grunel
 
 **Context:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-08252))_
 

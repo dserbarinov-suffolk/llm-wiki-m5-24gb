@@ -7,7 +7,7 @@ sources: raw/javascriptallonge.pdf
 updated: 2026-07-07
 domain: javascriptallonge
 category_path: concepts
-projection_coverage: topic-javascriptallonge-binding@98e55da2db7c0855cc8e90fe311165cd
+projection_coverage: topic-javascriptallonge-binding@59e096475c2753b213af5136d8255788
 ---
 
 # Binding
@@ -16,11 +16,11 @@ What [[javascriptallonge]] covers about binding:
 
 ## Statements
 
-### And also: / That Constant Coffee Craving / const and lexical scope
+### That Constant Coffee Craving / const and lexical scope
 
 - Yes. Binding values to names with const works just like binding values to names with parameter invocations, it uses lexical scope. _(javascriptallonge.pdf (source-range-c98ab3e6-00447))_
 
-### And also: / That Constant Coffee Craving / are consts also from a shadowy planet?
+### That Constant Coffee Craving / are consts also from a shadowy planet?
 
 - We can test this by creating another conflict. But instead of binding two different variables to the same name in two different places, we'll bind two different values to the same name, but one environment will be completely enclosed by the other. _(javascriptallonge.pdf (source-range-c98ab3e6-00451))_
 
@@ -31,7 +31,7 @@ What [[javascriptallonge]] covers about binding:
 
 ## Technical atoms
 
-### Technical frame 1: And also: / That Constant Coffee Craving / are consts also from a shadowy planet?
+### Technical frame 1: That Constant Coffee Craving / are consts also from a shadowy planet?
 
 **Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-00460))_
 
@@ -47,7 +47,7 @@ return (diameter) => diameter * PI;
 })(3.14159265)
 ```
 
-### Technical frame 2: And also: / That Constant Coffee Craving / are consts also from a shadowy planet?
+### Technical frame 2: That Constant Coffee Craving / are consts also from a shadowy planet?
 
 **Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-00462))_
 
@@ -64,7 +64,7 @@ return (diameter) => diameter * PI;
 //=> 6.2831853
 ```
 
-### Technical frame 3: And also: / That Constant Coffee Craving / are consts also from a shadowy planet?
+### Technical frame 3: That Constant Coffee Craving / are consts also from a shadowy planet?
 
 **Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-00466))_
 
@@ -152,15 +152,15 @@ return age;
 
 ### Shared technical atoms
 
-- [[javascriptallonge-bind]] - shared statements and technical atoms: Bind shares source evidence from And also: / That Constant Coffee Craving / are consts also from a shadowy planet?: We can test this by creating another conflict. But instead of binding two different variables to the same name in two different places, we'll bind two different valu ... [truncated]; Bind shares technical record from And also: / That Constant Coffee Craving / are consts also from a shadowy planet?: ((PI) => { ((PI) => {})(3); return (diameter) => diameter * PI; })(3.14159265) (1 shared statement(s), 5 shared atom(s))
-- [[javascriptallonge-expression]] - shared technical atoms: Expression shares technical record from And also: / That Constant Coffee Craving / are consts also from a shadowy planet?: ((PI) => { ((PI) => {})(3); return (diameter) => diameter * PI; })(3.14159265) (2 shared atom(s))
-- [[javascriptallonge-parameter]] - shared statements and technical atoms: Parameter shares source evidence from And also: / That Constant Coffee Craving / const and lexical scope: Yes. Binding values to names with const works just like binding values to names with parameter invocations, it uses lexical scope.; Parameter shares technical record from And also: / That Constant Coffee Craving / are consts also from a shadowy planet?: ((diameter) => { const PI = 3.14159265; (() => { const PI = 3; })(); return diameter * PI; })(2) //=> 6.2831853 (1 shared statement(s), 1 shared atom(s))
+- [[javascriptallonge-bind]] - shared statements and technical atoms: Bind shares source evidence from That Constant Coffee Craving / are consts also from a shadowy planet?: We can test this by creating another conflict. But instead of binding two different variables to the same name in two different places, we'll bind two different valu ... [truncated]; Bind shares technical record from That Constant Coffee Craving / are consts also from a shadowy planet?: ((PI) => { ((PI) => {})(3); return (diameter) => diameter * PI; })(3.14159265) (1 shared statement(s), 5 shared atom(s))
+- [[javascriptallonge-expression]] - shared technical atoms: Expression shares technical record from That Constant Coffee Craving / are consts also from a shadowy planet?: ((PI) => { ((PI) => {})(3); return (diameter) => diameter * PI; })(3.14159265) (2 shared atom(s))
+- [[javascriptallonge-parameter]] - shared statements and technical atoms: Parameter shares source evidence from That Constant Coffee Craving / const and lexical scope: Yes. Binding values to names with const works just like binding values to names with parameter invocations, it uses lexical scope.; Parameter shares technical record from That Constant Coffee Craving / are consts also from a shadowy planet?: ((diameter) => { const PI = 3.14159265; (() => { const PI = 3; })(); return diameter * PI; })(2) //=> 6.2831853 (1 shared statement(s), 1 shared atom(s))
 - [[javascriptallonge-object]] - shared technical atoms: Object shares technical record from Plain Old JavaScript Objects / literal object syntax: const SecretDecoderRing = { encode (plaintext) { return plaintext .split('') .map( char => char.charCodeAt() ) .map( code => code + 1 ) .map( code => String.fromChar ... [truncated] (1 shared atom(s))
 
 ### Shared claims
 
-- [[javascriptallonge-const]] - shared statements: Const shares source evidence from And also: / That Constant Coffee Craving / const and lexical scope: Yes. Binding values to names with const works just like binding values to names with parameter invocations, it uses lexical scope. (1 shared statement(s))
-- [[javascriptallonge-lexical-scope]] - shared statements: Lexical Scope shares source evidence from And also: / That Constant Coffee Craving / const and lexical scope: Yes. Binding values to names with const works just like binding values to names with parameter invocations, it uses lexical scope. (1 shared statement(s))
+- [[javascriptallonge-const]] - shared statements: Const shares source evidence from That Constant Coffee Craving / const and lexical scope: Yes. Binding values to names with const works just like binding values to names with parameter invocations, it uses lexical scope. (1 shared statement(s))
+- [[javascriptallonge-lexical-scope]] - shared statements: Lexical Scope shares source evidence from That Constant Coffee Craving / const and lexical scope: Yes. Binding values to names with const works just like binding values to names with parameter invocations, it uses lexical scope. (1 shared statement(s))
 
 ## Source
 

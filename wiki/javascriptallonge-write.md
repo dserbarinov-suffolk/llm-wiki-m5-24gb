@@ -7,7 +7,7 @@ sources: raw/javascriptallonge.pdf
 updated: 2026-07-07
 domain: javascriptallonge
 category_path: concepts
-projection_coverage: topic-javascriptallonge-write@5bec7121b5036d57e8951bf0ae654ac2
+projection_coverage: topic-javascriptallonge-write@ffc312bf09e649784040d8ca14b1e20f
 ---
 
 # Write
@@ -16,7 +16,7 @@ What [[javascriptallonge]] covers about write:
 
 ## Statements
 
-### And also: / That Constant Coffee Craving / const
+### That Constant Coffee Craving / const
 
 - Another way to write our 'circumference' function would be to pass PI along with the diameter argument, something like this: _(javascriptallonge.pdf (source-range-c98ab3e6-00400))_
 

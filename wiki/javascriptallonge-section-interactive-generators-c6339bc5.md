@@ -1,14 +1,14 @@
 ---
 page_id: javascriptallonge-section-interactive-generators-c6339bc5
 page_kind: source
-summary: Interactive Generators: 8 source-backed entries and 0 atom(s) from raw/javascriptallonge.pdf.
+summary: Interactive Generators: 9 source-backed entries and 0 atom(s) from raw/javascriptallonge.pdf.
 page_family: section-reference
 sources: raw/javascriptallonge.pdf
 updated: 2026-07-07
 domain: javascriptallonge
 category_path: sources/javascriptallonge/sections
 source_id: javascriptallonge.pdf
-projection_coverage: section-javascriptallonge-section-interactive-generators-c6339bc5@5499d049079d04260bae71c0e1208789
+projection_coverage: section-javascriptallonge-section-interactive-generators-c6339bc5@0d1038ae10cfc1ba74b2b37917ac58db
 ---
 
 # Interactive Generators
@@ -20,11 +20,10 @@ From [[javascriptallonge]].
 ### Source order
 
 - [[javascriptallonge-section-interlude-the-carpenter-interviews-for-a-job-9cc5ffd7]] - previous source section: Interlude: The Carpenter Interviews for a Job
-- [[javascriptallonge-section-the-golden-crema-appendices-and-afterwords-baeb2597]] - next source section: The Golden Crema: Appendices and Afterwords
+- [[javascriptallonge-section-operations-that-transform-one-iterable-into-another-9f8c6529]] - next source section: operations that transform one iterable into another
 
 ### Source structure
 
-- [[javascriptallonge-section-interactive-generators-basic-operations-on-iterables-540cf505]] - narrower source section: Interactive Generators / Basic Operations on Iterables
 - [[javascriptallonge-section-interactive-generators-representing-naughts-and-crosses-as-a-stateful-function-94951f68]] - narrower source section: Interactive Generators / representing naughts and crosses as a stateful function
 - [[javascriptallonge-section-interactive-generators-representing-naughts-and-crosses-as-a-stateless-function-e2c2d97f]] - narrower source section: Interactive Generators / representing naughts and crosses as a stateless function
 - [[javascriptallonge-section-interactive-generators-this-seems-familiar-ca8bdeb5]] - narrower source section: Interactive Generators / this seems familiar
@@ -40,3 +39,9 @@ From [[javascriptallonge]].
 - The first player will always be o , and they will always place their chequer in the top-left corner, coincidentally numbered o : _(javascriptallonge.pdf (source-range-c98ab3e6-01844))_
 - x has six possible moves, but they are really just two choices: 3 and anything else: _(javascriptallonge.pdf (source-range-c98ab3e6-01849))_
 - Consider, for example, the moves in a game. _(javascriptallonge.pdf (source-range-c98ab3e6-01842))_
+
+## Statements by subsection
+
+### Interactive Generators / Basic Operations on Iterables
+
+- Here are the operations we've defined on Iterables. As discussed, they preserve the collection semantics of the iterable they are given: _(javascriptallonge.pdf (source-range-c98ab3e6-01900))_

@@ -1,13 +1,13 @@
 ---
 page_id: javascriptallonge-javascript
 page_kind: concept
-summary: Javascript: 75 statement(s) and 64 atom(s) from raw/javascriptallonge.pdf.
+summary: Javascript: 75 statement(s) and 62 atom(s) from raw/javascriptallonge.pdf.
 page_family: broad-topic
 sources: raw/javascriptallonge.pdf
 updated: 2026-07-07
 domain: javascriptallonge
 category_path: concepts
-projection_coverage: topic-javascriptallonge-javascript@584e4e0ab2e45c5fdc6f923c76e09e8f
+projection_coverage: topic-javascriptallonge-javascript@d99a2e20789be3a89727387920cbd267
 ---
 
 # Javascript
@@ -96,43 +96,43 @@ What [[javascriptallonge]] covers about javascript:
 
 - Whatabout reference types? JavaScript does not place copies of reference values in any environment. JavaScript places references to reference types in environments, and when the value needs to be used, JavaScript uses the reference to obtain the original. _(javascriptallonge.pdf (source-range-c98ab3e6-00310))_
 
-### And also: / Closures and Scope / shadowy variables from a shadowy planet
+### shadowy variables from a shadowy planet
 
 - When evaluating x + y + z , JavaScript will find x and y in the great-grandparent scope and z in the parent scope. The x in the great-great-grandparent scope is ignored, as are both w s. When a variable has the same name as an ancestor environment's binding, it is said to shadow the ancestor. _(javascriptallonge.pdf (source-range-c98ab3e6-00360))_
 
-### And also: / Closures and Scope / which came first, the chicken or the egg?
+### which came first, the chicken or the egg?
 
 - JavaScript always has the notion of at least one environment we do not control: A global environment in which many useful things are bound such as libraries full of standard functions. So when you invoke ((x) => x)(1) in the REPL, its full environment is going to look like this: {x: 1, '..': global environment } . _(javascriptallonge.pdf (source-range-c98ab3e6-00365))_
 
-### And also: / That Constant Coffee Craving / inside-out
+### That Constant Coffee Craving / inside-out
 
 - 29 JavaScript programmers regularly use the idea of writing an expression that denotes a function and then immediately applying it to arguments. Explaining the pattern, Ben Alman coined the term [Immediately Invoked Function Expression][iife] for it, often abbreviated 'IIFE.' _(javascriptallonge.pdf (source-range-c98ab3e6-00389))_
 
-### And also: / That Constant Coffee Craving / const
+### That Constant Coffee Craving / const
 
 - JavaScript gives us a way to do that, the const keyword. We'll learn a lot more about const in future chapters, but here's the most important thing we can do with const : _(javascriptallonge.pdf (source-range-c98ab3e6-00405))_
 
-### And also: / That Constant Coffee Craving / rebinding
+### That Constant Coffee Craving / rebinding
 
 - JavaScript does not permit us to rebind a name that has been bound with const . We can shadow it by using const to declare a new binding with a new function or block scope, but we cannot rebind a name that was bound with const in an existing scope. _(javascriptallonge.pdf (source-range-c98ab3e6-00481))_
 
-### And also: / Naming Functions / the function keyword
+### Naming Functions / the function keyword
 
 - JavaScript does have a syntax for naming a function, we use the function keyword. Until ECMAScript 2015 was created, function was the usual syntax for writing functions. _(javascriptallonge.pdf (source-range-c98ab3e6-00488))_
 
-### And also: / Naming Functions / function declaration caveats 34
+### Naming Functions / function declaration caveats 34
 
 - Function declarations are formally only supposed to be made at what we might call the 'top level' of a function. Although some JavaScript environments permit the following code, this example is technically illegal and definitely a bad idea: _(javascriptallonge.pdf (source-range-c98ab3e6-00533))_
 
-### And also: / Combinators and Function Decorators / higher-order functions
+### Combinators and Function Decorators / higher-order functions
 
 - As we've seen, JavaScript functions take values as arguments and return values. JavaScript functions are values, so JavaScript functions can take functions as arguments, return functions, or both. Generally speaking, a function that either takes functions as arguments, or returns a function, or both, is referred to as a 'higher-order' function. _(javascriptallonge.pdf (source-range-c98ab3e6-00542))_
 
-### And also: / Building Blocks
+### Building Blocks
 
 - When you look at functions within functions in JavaScript, there's a bit of a 'spaghetti code' look to it. The strength of JavaScript is that you can do anything. The weakness is that you will. There are ifs, fors, returns, everything thrown higgledy piggledy together. Although you needn't restrict yourself to a small number of simple patterns, it can be helpful to understand the patterns so that you can structure your code around some basic building blocks. _(javascriptallonge.pdf (source-range-c98ab3e6-00565))_
 
-### And also: / Summary / Functions
+### Summary / Functions
 
 - JavaScript uses const to bind values to names within block scope. _(javascriptallonge.pdf (source-range-c98ab3e6-00630))_
 
@@ -261,7 +261,7 @@ undefined
 //=> undefined
 ```
 
-### Technical frame 9: And also: / Closures and Scope / shadowy variables from a shadowy planet
+### Technical frame 9: shadowy variables from a shadowy planet
 
 **Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-00360))_
 
@@ -278,7 +278,7 @@ undefined
 x + y + z
 ```
 
-### Technical frame 10: And also: / Closures and Scope / which came first, the chicken or the egg?
+### Technical frame 10: which came first, the chicken or the egg?
 
 **Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-00365))_
 
@@ -289,7 +289,7 @@ x + y + z
 <a id="atom-technical-atom-6cb62b7189b018dc"></a>
 > If you don't want your code to operate directly within the global environment, what can you do?
 
-### Technical frame 11: And also: / Closures and Scope / which came first, the chicken or the egg?
+### Technical frame 11: which came first, the chicken or the egg?
 
 **Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-00365))_
 
@@ -306,7 +306,7 @@ x + y + z
 // bottom of the file
 ```
 
-### Technical frame 12: And also: / That Constant Coffee Craving / rebinding
+### Technical frame 12: That Constant Coffee Craving / rebinding
 
 **Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-00481))_
 
@@ -340,11 +340,11 @@ evenStevens(42)
 - [[javascriptallonge-allong]] - shared statements and technical atoms: Allong shares source evidence from A Pull of the Lever: Prefaces / About JavaScript Allongé: JavaScript Allongé is a first and foremost, a book about programming with functions . It's written in JavaScript, because JavaScript hits the perfect sweet spot of b ... [truncated]; Allong shares technical record from JavaScript Allongé, the 'Six' Edition / Reg 'raganwald' Braithwaite: function foo (first, ...rest) { // ... } (10 shared statement(s), 3 shared atom(s))
 - [[javascriptallonge-object]] - shared statements and technical atoms: Object shares source evidence from Plain Old JavaScript Objects: In JavaScript, an object is a map from string keys to values.; Object shares technical record from Plain Old JavaScript Objects / literal object syntax: { year: 2012, month: 6, day: 14 } (3 shared statement(s), 5 shared atom(s))
 - [[javascriptallonge-bind]] - shared statements and technical atoms: Bind shares source evidence from And also: / call by sharing: We said that JavaScript binds names to values, but we didn't say what it means to bind a name to a value. Now we can elaborate: When JavaScript binds a value-type to ... [truncated]; Bind shares technical record from Composing and Decomposing Data / Arrays and Destructuring Arguments / destructuring is not pattern matching: const [what] = []; (2 shared statement(s), 5 shared atom(s))
-- [[javascriptallonge-ecmascript]] - shared statements and technical atoms: Ecmascript shares source evidence from A Pull of the Lever: Prefaces / About JavaScript Allongé / why the 'six' edition?: Prior to ECMAScript 2015, JavaScript did not include many features that programmers have discovered are vital to writing great software. For example, JavaScript did ... [truncated]; Ecmascript shares technical record from A Pull of the Lever: Prefaces / About JavaScript Allongé / why the 'six' edition?: var i; for (i = 0; i < array.length; ++i) { (function (i) { // ... })(i) } (4 shared statement(s), 4 shared atom(s))
-- [[javascriptallonge-copy-write]] - shared statements and technical atoms: Copy on Write shares source evidence from Copy on Write / Functional Iterators / iterating: JavaScript has a particularly low-level version of for loop that mimics the semantics of the C language. Summing the elements of an array can be accomplished with:; Copy on Write shares technical record from Copy on Write / Functional Iterators / iterating: const arraySum = (array) => { let sum = 0; for (let i = 0; i < array.length; ++i) { sum += array[i]; } return sum } arraySum([1, 4, 9, 16, 25]) //=> 55 (4 shared statement(s), 3 shared atom(s))
+- [[javascriptallonge-ecmascript]] - shared statements and technical atoms: Ecmascript shares source evidence from A Pull of the Lever: Prefaces / About JavaScript Allongé / why the 'six' edition?: Prior to ECMAScript 2015, JavaScript did not include many features that programmers have discovered are vital to writing great software. For example, JavaScript did ... [truncated]; Ecmascript shares technical record from A Pull of the Lever: Prefaces / About JavaScript Allongé / why the 'six' edition?: var i; for (i = 0; i < array.length; ++i) { (function (i) { // ... })(i) } (4 shared statement(s), 3 shared atom(s))
 - [[javascriptallonge-array]] - shared statements and technical atoms: Array shares source evidence from Composing and Decomposing Data / Arrays and Destructuring Arguments / array literals: JavaScript has a literal syntax for creating an array: The [ and ] characters. We can create an empty array:; Array shares technical record from Composing and Decomposing Data / Arrays and Destructuring Arguments / array literals: [] //=> [] (1 shared statement(s), 4 shared atom(s))
-- [[javascriptallonge-element]] - shared statements and technical atoms: Element shares source evidence from Garbage, Garbage Everywhere / some history: Again, it's just extracting a reference from a cons cell, it's very fast. In Lisp, it's blazingly fast because it happens in hardware. There's no making copies of ar ... [truncated]; Element shares technical record from Garbage, Garbage Everywhere / some history: const cons = (a, d) => [a, d], car = ([a, d]) => a, cdr = ([a, d]) => d; (1 shared statement(s), 4 shared atom(s))
-- [[javascriptallonge-functional-iterator]] - shared statements and technical atoms: Functional Iterators shares source evidence from Copy on Write / Functional Iterators / iterating: JavaScript has a particularly low-level version of for loop that mimics the semantics of the C language. Summing the elements of an array can be accomplished with:; Functional Iterators shares technical record from Copy on Write / Functional Iterators / iterating: const arraySum = (array) => { let sum = 0; for (let i = 0; i < array.length; ++i) { sum += array[i]; } return sum } arraySum([1, 4, 9, 16, 25]) //=> 55 (3 shared statement(s), 3 shared atom(s))
+- [[javascriptallonge-decorator]] - shared statements and technical atoms: Decorator shares source evidence from A Pull of the Lever: Prefaces / About JavaScript Allongé: It also provides recipes for using functions to write software that is simpler, cleaner, and less complicated than alternative approaches that are object-centric or ... [truncated]; Decorator shares technical record from Combinators and Function Decorators / function decorators: const compose = (a, b) => (c) => a(b(c)); const cookAndEat = compose(eat, cook); (1 shared statement(s), 3 shared atom(s))
+- [[javascriptallonge-edition]] - shared statements and technical atoms: Edition shares source evidence from A Pull of the Lever: Prefaces / About JavaScript Allongé / why the 'six' edition?: JavaScript Allongé, The 'Six' Edition packs all the goodness of JavaScript Allongé into a new, updated package that is relevant for programmers working with (or plan ... [truncated]; Edition shares technical record from JavaScript Allongé, the 'Six' Edition / Reg 'raganwald' Braithwaite: Contents | A Pull of the Lever: Prefaces . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . | i | | --- | --- | | About JavaScript Allongé . . . . ... [truncated] (3 shared statement(s), 2 shared atom(s))
+- [[javascriptallonge-element]] - shared statements and technical atoms: Element shares source evidence from Garbage, Garbage Everywhere / some history: Again, it's just extracting a reference from a cons cell, it's very fast. In Lisp, it's blazingly fast because it happens in hardware. There's no making copies of ar ... [truncated]; Element shares technical record from Garbage, Garbage Everywhere / some history: const cons = (a, d) => [a, d], car = ([a, d]) => a, cdr = ([a, d]) => d; (1 shared statement(s), 3 shared atom(s))
 
 ### Shared claims
 

@@ -9,7 +9,7 @@ domain: javascriptallonge
 category_path: recipes/javascriptallonge
 source_id: javascriptallonge.pdf
 aliases: say-please
-projection_coverage: recipe-javascriptallonge-recipe-say-please@bd5936c43d83da0be45f203542cf2de3
+projection_coverage: recipe-javascriptallonge-recipe-say-please@d35a8fff35ef22b542748cd07acecd9b
 ---
 
 # say 'please'
@@ -18,7 +18,7 @@ From [[javascriptallonge]].
 
 ## Pattern
 
-- Use the source-backed pattern described in [[javascriptallonge-section-copy-on-write-making-data-out-of-functions-say-please-f8da9670]].
+- Use the source-backed pattern described in [[javascriptallonge-section-making-data-out-of-functions-say-please-f8da9670]].
 - Evidence roles: decision, procedure, constraint, explanation, example.
 
 ## Applicability And Rationale
@@ -92,4 +92,4 @@ print(mapWith(x => x * x, reverse(l123)))
 ## Source Trail
 
 - Source manifest: [[javascriptallonge]]
-- Source section: [[javascriptallonge-section-copy-on-write-making-data-out-of-functions-say-please-f8da9670]]
+- Source section: [[javascriptallonge-section-making-data-out-of-functions-say-please-f8da9670]]

@@ -8,7 +8,7 @@ updated: 2026-07-07
 domain: javascriptallonge
 category_path: sources/javascriptallonge/sections
 source_id: javascriptallonge.pdf
-projection_coverage: section-javascriptallonge-section-picking-the-bean-choice-and-truthiness-d2a76f30@5c3db7b4ad4b35b79d4f2c695002a47b
+projection_coverage: section-javascriptallonge-section-picking-the-bean-choice-and-truthiness-d2a76f30@bec01ee1134f319a24d032ec4ab8cbf4
 ---
 
 # Picking the Bean: Choice and Truthiness
@@ -19,7 +19,7 @@ From [[javascriptallonge]].
 
 ### Source order
 
-- [[javascriptallonge-section-recipes-with-basic-functions-d7445960]] - previous source section: Recipes with Basic Functions
+- [[javascriptallonge-section-left-variadic-destructuring-1d686fdb]] - previous source section: left-variadic destructuring
 - [[javascriptallonge-section-composing-and-decomposing-data-99b4771a]] - next source section: Composing and Decomposing Data
 
 ### Source structure

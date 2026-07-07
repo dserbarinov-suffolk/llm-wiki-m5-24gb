@@ -1,13 +1,13 @@
 ---
 page_id: javascriptallonge-string
 page_kind: concept
-summary: String: 7 statement(s) and 6 atom(s) from raw/javascriptallonge.pdf.
+summary: String: 7 statement(s) and 4 atom(s) from raw/javascriptallonge.pdf.
 page_family: broad-topic
 sources: raw/javascriptallonge.pdf
 updated: 2026-07-07
 domain: javascriptallonge
 category_path: concepts
-projection_coverage: topic-javascriptallonge-string@11fa88aece5dbf122a1015bcb9f48cde
+projection_coverage: topic-javascriptallonge-string@bbfe3dde02d25d12d1449d10f1e0acdd
 ---
 
 # String
@@ -66,12 +66,15 @@ What [[javascriptallonge]] covers about string:
 
 ### Shared technical atoms
 
-- [[javascriptallonge-javascript]] - shared statements and technical atoms: Javascript shares source evidence from Or even: / the simplest possible block / undefined: Like numbers, booleans and strings, JavaScript can print out the value undefined .; Javascript shares technical record from Prelude: Values and Expressions over Coffee / values are expressions: 2 === '2' //=> false true !== 'true' //=> true (1 shared statement(s), 4 shared atom(s))
-- [[javascriptallonge-type]] - shared statements and technical atoms: Type shares source evidence from And also: / call by sharing: We said that JavaScript binds names to values, but we didn't say what it means to bind a name to a value. Now we can elaborate: When JavaScript binds a value-type to ... [truncated]; Type shares technical record from Prelude: Values and Expressions over Coffee / values are expressions / value types: 2 + 2 === 4 //=> true (2 + 2 === 4) === (2 !== 5) //=> true (1 shared statement(s), 2 shared atom(s))
+- [[javascriptallonge-javascript]] - shared statements and technical atoms: Javascript shares source evidence from Or even: / the simplest possible block / undefined: Like numbers, booleans and strings, JavaScript can print out the value undefined .; Javascript shares technical record from Prelude: Values and Expressions over Coffee / values are expressions: 2 === '2' //=> false true !== 'true' //=> true (1 shared statement(s), 2 shared atom(s))
 - [[javascriptallonge-literal]] - shared statements and technical atoms: Literal shares source evidence from A Warm Cup: Basic Strings and Quasi-Literals / quasi-literals: JavaScript supports quasi-literal strings , a/k/a 'Template Strings' or 'String Interpolation Expressions.' A quasi-literal string is something that looks like a str ... [truncated]; Literal shares technical record from A Warm Cup: Basic Strings and Quasi-Literals / quasi-literals: `foobar` //=> 'foobar' `fizz` + `buzz` //=> 'fizzbuzz' (1 shared statement(s), 1 shared atom(s))
 - [[javascriptallonge-quasi]] - shared statements and technical atoms: Quasi shares source evidence from A Warm Cup: Basic Strings and Quasi-Literals / quasi-literals: JavaScript supports quasi-literal strings , a/k/a 'Template Strings' or 'String Interpolation Expressions.' A quasi-literal string is something that looks like a str ... [truncated]; Quasi shares technical record from A Warm Cup: Basic Strings and Quasi-Literals / quasi-literals: `foobar` //=> 'foobar' `fizz` + `buzz` //=> 'fizzbuzz' (1 shared statement(s), 1 shared atom(s))
 - [[javascriptallonge-quasi-literal]] - shared statements and technical atoms: Quasi Literal shares source evidence from A Warm Cup: Basic Strings and Quasi-Literals / quasi-literals: JavaScript supports quasi-literal strings , a/k/a 'Template Strings' or 'String Interpolation Expressions.' A quasi-literal string is something that looks like a str ... [truncated]; Quasi Literal shares technical record from A Warm Cup: Basic Strings and Quasi-Literals / quasi-literals: `foobar` //=> 'foobar' `fizz` + `buzz` //=> 'fizzbuzz' (1 shared statement(s), 1 shared atom(s))
 - [[javascriptallonge-expression]] - shared technical atoms: Expression shares technical record from A Warm Cup: Basic Strings and Quasi-Literals / quasi-literals: `foobar` //=> 'foobar' `fizz` + `buzz` //=> 'fizzbuzz' (1 shared atom(s))
+
+### Shared claims
+
+- [[javascriptallonge-type]] - shared statements: Type shares source evidence from And also: / call by sharing: We said that JavaScript binds names to values, but we didn't say what it means to bind a name to a value. Now we can elaborate: When JavaScript binds a value-type to ... [truncated] (1 shared statement(s))
 
 ## Source
 

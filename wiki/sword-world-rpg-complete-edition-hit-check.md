@@ -7,7 +7,7 @@ sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-07
 domain: sword-world-rpg-complete-edition
 category_path: concepts
-projection_coverage: topic-sword-world-rpg-complete-edition-hit-check@7898b2331ffb44a05fc4fe9f93c5c76d
+projection_coverage: topic-sword-world-rpg-complete-edition-hit-check@fa33ce8a94cd7228d007007539007942
 ---
 
 # 4.5.1 Hit Checks
@@ -16,7 +16,7 @@ What [[sword-world-rpg-complete-edition]] covers about 4.5.1 hit checks:
 
 ## Statements
 
-### Chapter 3: / 3.4.4 Actions You Can Take While Standing Still / Attacks From Characters Against Monsters / 4.5.1 Hit Checks
+### Attacks From Characters Against Monsters / 4.5.1 Hit Checks
 
 - In other words, you roll 2D and add the result to your attack power (fighter/thief/ranger skill level + dexterity bonus) in order to meet or exceed a certain target score. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01207))_
 
@@ -47,7 +47,7 @@ What [[sword-world-rpg-complete-edition]] covers about 4.5.1 hit checks:
 
 ## Technical atoms
 
-### Technical frame 1: Chapter 3: / 3.4.4 Actions You Can Take While Standing Still / Attacks From Characters Against Monsters / 4.5.1 Hit Checks
+### Technical frame 1: Attacks From Characters Against Monsters / 4.5.1 Hit Checks
 
 **Context:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01207))_
 
@@ -58,7 +58,7 @@ What [[sword-world-rpg-complete-edition]] covers about 4.5.1 hit checks:
 <a id="atom-technical-atom-bdfa8e5b7aaeb6a3"></a>
 > When a character attacks a monster, they must make a success roll hit check, using attack power as the baseline score.
 
-### Technical frame 2: Chapter 3: / 3.4.4 Actions You Can Take While Standing Still / Attacks From Characters Against Monsters / 4.5.1 Hit Checks
+### Technical frame 2: Attacks From Characters Against Monsters / 4.5.1 Hit Checks
 
 **Context:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01210))_
 
@@ -69,7 +69,7 @@ What [[sword-world-rpg-complete-edition]] covers about 4.5.1 hit checks:
 <a id="atom-technical-atom-66ad7b9b1ae8ae23"></a>
 > character's attack power + 2D ≥ monster's evasion points → attack hits
 
-### Technical frame 3: Chapter 3: / 3.4.4 Actions You Can Take While Standing Still / Attacks From Characters Against Monsters / 4.5.1 Hit Checks
+### Technical frame 3: Attacks From Characters Against Monsters / 4.5.1 Hit Checks
 
 **Context:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01214))_
 
@@ -178,11 +178,11 @@ Key Number
 ### Source structure
 
 - [[sword-world-rpg-complete-edition-section-4-7-attacks-from-characters-against-characters-4-7-1-hit-checks-9c205d1f]] - source section: 4.7 Attacks From Characters Against Characters / 4.7.1 Hit Checks shares source evidence from 4.7 Attacks From Characters Against Characters / 4.7.1 Hit Checks: To make a hit check, both sides must roll the dice (2D). The attacker adds their roll to their attack power , and the defender adds their roll to their evasion speed .; 4.7 Attacks From Characters Against Characters / 4.7.1 Hit Checks shares technical record from 4.7 Attacks From Characters Against Characters / 4.7.1 Hit Checks: To make a hit check, both sides must roll the dice (2D). (8 shared statement(s), 4 shared atom(s))
-- [[sword-world-rpg-complete-edition-section-chapter-3-3-4-4-actions-you-can-take-while-standing-still-attacks-from-characters-against-monste-40e2447c]] - source section: Chapter 3: / 3.4.4 Actions You Can Take While Standing Still / Attacks From Characters Against Monsters / 4.5.1 Hit Checks shares source evidence from Chapter 3: / 3.4.4 Actions You Can Take While Standing Still / Attacks From Characters Against Monsters / 4.5.1 Hit Checks: In other words, you roll 2D and add the result to your attack power (fighter/thief/ranger skill level + dexterity bonus) in order to meet or exceed a certain target score.; Chapter 3: / 3.4.4 Actions You Can Take While Standing Still / Attacks From Characters Against Monsters / 4.5.1 Hit Checks shares technical record from Chapter 3: / 3.4.4 Actions You Can Take While Standing Still / Attacks From Characters Against Monsters / 4.5.1 Hit Checks: When a character attacks a monster, they must make a success roll hit check, using attack power as the baseline score. (8 shared statement(s), 3 shared atom(s))
+- [[sword-world-rpg-complete-edition-section-attacks-from-characters-against-monsters-4-5-1-hit-checks-40e2447c]] - source section: Attacks From Characters Against Monsters / 4.5.1 Hit Checks shares source evidence from Attacks From Characters Against Monsters / 4.5.1 Hit Checks: In other words, you roll 2D and add the result to your attack power (fighter/thief/ranger skill level + dexterity bonus) in order to meet or exceed a certain target score.; Attacks From Characters Against Monsters / 4.5.1 Hit Checks shares technical record from Attacks From Characters Against Monsters / 4.5.1 Hit Checks: When a character attacks a monster, they must make a success roll hit check, using attack power as the baseline score. (8 shared statement(s), 3 shared atom(s))
 
 ### Shared technical atoms
 
-- [[sword-world-rpg-complete-edition-attack-character-monster]] - shared statements and technical atoms: Attacks From Characters Against Monsters shares source evidence from Chapter 3: / 3.4.4 Actions You Can Take While Standing Still / Attacks From Characters Against Monsters / 4.5.1 Hit Checks: In other words, you roll 2D and add the result to your attack power (fighter/thief/ranger skill level + dexterity bonus) in order to meet or exceed a certain target score.; Attacks From Characters Against Monsters shares technical record from Chapter 3: / 3.4.4 Actions You Can Take While Standing Still / Attacks From Characters Against Monsters / 4.5.1 Hit Checks: When a character attacks a monster, they must make a success roll hit check, using attack power as the baseline score. (8 shared statement(s), 3 shared atom(s))
+- [[sword-world-rpg-complete-edition-attack-character-monster]] - shared statements and technical atoms: Attacks From Characters Against Monsters shares source evidence from Attacks From Characters Against Monsters / 4.5.1 Hit Checks: In other words, you roll 2D and add the result to your attack power (fighter/thief/ranger skill level + dexterity bonus) in order to meet or exceed a certain target score.; Attacks From Characters Against Monsters shares technical record from Attacks From Characters Against Monsters / 4.5.1 Hit Checks: When a character attacks a monster, they must make a success roll hit check, using attack power as the baseline score. (8 shared statement(s), 3 shared atom(s))
 
 ## Source
 

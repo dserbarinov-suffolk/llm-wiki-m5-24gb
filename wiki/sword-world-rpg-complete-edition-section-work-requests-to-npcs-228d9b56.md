@@ -8,7 +8,7 @@ updated: 2026-07-07
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-work-requests-to-npcs-228d9b56@f091863c976d5b6716858f4a0c56bdfc
+projection_coverage: section-sword-world-rpg-complete-edition-section-work-requests-to-npcs-228d9b56@91224a1fab5fd9a7688dd1fe89e71ccb
 ---
 
 # Work Requests to NPCs
@@ -19,8 +19,7 @@ From [[sword-world-rpg-complete-edition]].
 
 ### Source order
 
-- [[sword-world-rpg-complete-edition-section-chapter-12-various-checks-4c2e49b6]] - previous source section: Chapter 12: Various Checks
-- [[sword-world-rpg-complete-edition-section-monster-catalog-4f4b69b4]] - next source section: Monster Catalog
+- [[sword-world-rpg-complete-edition-section-12-2-3-herbs-47b2af1e]] - previous source section: 12.2.3 Herbs
 
 ### Source structure
 

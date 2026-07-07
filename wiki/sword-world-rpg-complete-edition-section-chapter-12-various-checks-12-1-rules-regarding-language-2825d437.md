@@ -8,7 +8,7 @@ updated: 2026-07-07
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-12-various-checks-12-1-rules-regarding-language-2825d437@802548328045533ed7b9722f60eec9cf
+projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-12-various-checks-12-1-rules-regarding-language-2825d437@ebad11c3b9258058204f1e8324fc86b2
 ---
 
 # Chapter 12: Various Checks / 12.1 Rules Regarding Language
@@ -17,18 +17,9 @@ From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
 
-### Source order
-
-- [[sword-world-rpg-complete-edition-section-chapter-12-various-checks-12-2-1-poisons-f9b71416]] - next source section: Chapter 12: Various Checks / 12.2.1 Poisons
-
 ### Source structure
 
 - [[sword-world-rpg-complete-edition-section-chapter-12-various-checks-4c2e49b6]] - broader source section: Chapter 12: Various Checks
-- [[sword-world-rpg-complete-edition-section-chapter-12-various-checks-12-1-rules-regarding-language-12-1-3-adventurer-languages-bfe6707b]] - narrower source section: Chapter 12: Various Checks / 12.1 Rules Regarding Language / 12.1.3 Adventurer Languages
-- [[sword-world-rpg-complete-edition-section-chapter-12-various-checks-12-1-rules-regarding-language-ability-92cce951]] - narrower source section: Chapter 12: Various Checks / 12.1 Rules Regarding Language / Ability
-- [[sword-world-rpg-complete-edition-section-chapter-12-various-checks-12-1-rules-regarding-language-and-runes-7d0ca594]] - narrower source section: Chapter 12: Various Checks / 12.1 Rules Regarding Language / and Runes
-- [[sword-world-rpg-complete-edition-section-chapter-12-various-checks-12-1-rules-regarding-language-forcelia-dd042416]] - narrower source section: Chapter 12: Various Checks / 12.1 Rules Regarding Language / Forcelia
-- [[sword-world-rpg-complete-edition-section-chapter-12-various-checks-12-1-rules-regarding-language-languages-af56b1cc]] - narrower source section: Chapter 12: Various Checks / 12.1 Rules Regarding Language / Languages
 
 ## Statements
 

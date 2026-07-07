@@ -7,7 +7,7 @@ sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-07
 domain: sword-world-rpg-complete-edition
 category_path: concepts
-projection_coverage: topic-sword-world-rpg-complete-edition-double-sixe@86bcc53f5260276a9cc5487be47b4dbf
+projection_coverage: topic-sword-world-rpg-complete-edition-double-sixe@5716ccd62a657ddb2b0ccaf70172ddff
 ---
 
 # Double Sixe
@@ -16,7 +16,7 @@ What [[sword-world-rpg-complete-edition]] covers about double sixe:
 
 ## Statements
 
-### 4.7 Attacks From Characters Against Characters / Double Sixes and Double Ones
+### Double Sixes and Double Ones
 
 - If a roll comes up double sixes or double ones during combat between characters, the situation is resolved as follows: _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01324))_
 
@@ -27,7 +27,7 @@ What [[sword-world-rpg-complete-edition]] covers about double sixe:
 
 ## Technical atoms
 
-### Technical frame 1: 4.7 Attacks From Characters Against Characters / Double Sixes and Double Ones
+### Technical frame 1: Double Sixes and Double Ones
 
 **Context:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01326))_
 
@@ -43,7 +43,7 @@ What [[sword-world-rpg-complete-edition]] covers about double sixe:
 
 ### Shared technical atoms
 
-- [[sword-world-rpg-complete-edition-double-ones]] - shared statements and technical atoms: Double Ones shares source evidence from 4.7 Attacks From Characters Against Characters / Double Sixes and Double Ones: If a roll comes up double sixes or double ones during combat between characters, the situation is resolved as follows:; Double Ones shares technical record from 4.7 Attacks From Characters Against Characters / Double Sixes and Double Ones: The defender doesn't even have to roll the dice. (1 shared statement(s), 1 shared atom(s))
+- [[sword-world-rpg-complete-edition-double-ones]] - shared statements and technical atoms: Double Ones shares source evidence from Double Sixes and Double Ones: If a roll comes up double sixes or double ones during combat between characters, the situation is resolved as follows:; Double Ones shares technical record from Double Sixes and Double Ones: The defender doesn't even have to roll the dice. (1 shared statement(s), 1 shared atom(s))
 
 ## Source
 

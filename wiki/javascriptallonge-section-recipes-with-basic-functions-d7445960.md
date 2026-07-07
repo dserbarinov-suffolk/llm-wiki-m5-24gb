@@ -8,7 +8,7 @@ updated: 2026-07-07
 domain: javascriptallonge
 category_path: sources/javascriptallonge/sections
 source_id: javascriptallonge.pdf
-projection_coverage: section-javascriptallonge-section-recipes-with-basic-functions-d7445960@cc4fde3ff88ba5961aeaef6050c2335b
+projection_coverage: section-javascriptallonge-section-recipes-with-basic-functions-d7445960@93a543d87830df103773c05d71f0b122
 ---
 
 # Recipes with Basic Functions
@@ -19,7 +19,7 @@ From [[javascriptallonge]].
 
 ### Source order
 
-- [[javascriptallonge-section-picking-the-bean-choice-and-truthiness-d2a76f30]] - next source section: Picking the Bean: Choice and Truthiness
+- [[javascriptallonge-section-a-history-lesson-f921305a]] - next source section: a history lesson
 
 ### Source structure
 

@@ -8,7 +8,7 @@ updated: 2026-07-07
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-12-various-checks-4c2e49b6@4d4411ce1cd0dd5e80130c1a88e03e28
+projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-12-various-checks-4c2e49b6@1f75722d9125a2b2b19323747fd1886a
 ---
 
 # Chapter 12: Various Checks
@@ -19,12 +19,8 @@ From [[sword-world-rpg-complete-edition]].
 
 ### Source order
 
-- [[sword-world-rpg-complete-edition-section-chapter-11-notes-on-magic-e69f4059]] - previous source section: Chapter 11: Notes on Magic
-- [[sword-world-rpg-complete-edition-section-work-requests-to-npcs-228d9b56]] - next source section: Work Requests to NPCs
+- [[sword-world-rpg-complete-edition-section-11-5-asking-npcs-to-use-magic-c4c685a8]] - previous source section: 11.5 Asking NPCs to Use Magic
 
 ### Source structure
 
 - [[sword-world-rpg-complete-edition-section-chapter-12-various-checks-12-1-rules-regarding-language-2825d437]] - narrower source section: Chapter 12: Various Checks / 12.1 Rules Regarding Language
-- [[sword-world-rpg-complete-edition-section-chapter-12-various-checks-12-2-1-poisons-f9b71416]] - narrower source section: Chapter 12: Various Checks / 12.2.1 Poisons
-- [[sword-world-rpg-complete-edition-section-chapter-12-various-checks-12-2-2-illnesses-f56f6d8a]] - narrower source section: Chapter 12: Various Checks / 12.2.2 Illnesses
-- [[sword-world-rpg-complete-edition-section-chapter-12-various-checks-12-2-3-herbs-47b2af1e]] - narrower source section: Chapter 12: Various Checks / 12.2.3 Herbs

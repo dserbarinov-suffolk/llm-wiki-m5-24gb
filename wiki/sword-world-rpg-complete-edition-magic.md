@@ -7,7 +7,7 @@ sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-07
 domain: sword-world-rpg-complete-edition
 category_path: concepts
-projection_coverage: topic-sword-world-rpg-complete-edition-magic@2829e409982331b2f7f4477abba1ee5d
+projection_coverage: topic-sword-world-rpg-complete-edition-magic@a5730246c91fd9805d8fcb5c5bfca895
 ---
 
 # Magic
@@ -16,7 +16,7 @@ What [[sword-world-rpg-complete-edition]] covers about magic:
 
 ## Statements
 
-### Chapter 3: / 3.4.4 Actions You Can Take While Standing Still / Use Magic and Projectiles
+### Use Magic and Projectiles
 
 - Above all, the advantage of standing still is the ability to use magic and attack with projectiles. Conversely, if you are not standing still , you cannot use magic or projectiles. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01138))_
 
@@ -25,7 +25,7 @@ What [[sword-world-rpg-complete-edition]] covers about magic:
 
 ## Technical atoms
 
-### Technical frame 1: Chapter 3: / 3.4.4 Actions You Can Take While Standing Still / Use Magic and Projectiles
+### Technical frame 1: Use Magic and Projectiles
 
 **Context:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01138))_
 
@@ -41,7 +41,7 @@ What [[sword-world-rpg-complete-edition]] covers about magic:
 
 ### Shared technical atoms
 
-- [[sword-world-rpg-complete-edition-projectile]] - shared statements and technical atoms: Projectile shares source evidence from Chapter 3: / 3.4.4 Actions You Can Take While Standing Still / Use Magic and Projectiles: Above all, the advantage of standing still is the ability to use magic and attack with projectiles. Conversely, if you are not standing still , you cannot use magic or projectiles.; Projectile shares technical record from Chapter 3: / 3.4.4 Actions You Can Take While Standing Still / Use Magic and Projectiles: If you want to attack with a projectile, please follow the process of actions you can take during normal movement . (2 shared statement(s), 1 shared atom(s))
+- [[sword-world-rpg-complete-edition-projectile]] - shared statements and technical atoms: Projectile shares source evidence from Use Magic and Projectiles: Above all, the advantage of standing still is the ability to use magic and attack with projectiles. Conversely, if you are not standing still , you cannot use magic or projectiles.; Projectile shares technical record from Use Magic and Projectiles: If you want to attack with a projectile, please follow the process of actions you can take during normal movement . (2 shared statement(s), 1 shared atom(s))
 
 ## Source
 

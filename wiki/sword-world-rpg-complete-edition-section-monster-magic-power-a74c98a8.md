@@ -8,7 +8,7 @@ updated: 2026-07-07
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-monster-magic-power-a74c98a8@2aaaa34c3c3639ba72c63893e3296d5f
+projection_coverage: section-sword-world-rpg-complete-edition-section-monster-magic-power-a74c98a8@74d0d1741076b583dafdb57a9308d038
 ---
 
 # Monster Magic Power
@@ -19,6 +19,7 @@ From [[sword-world-rpg-complete-edition]].
 
 ### Source order
 
+- [[sword-world-rpg-complete-edition-section-17-2-lost-spells-38572f34]] - previous source section: 17.2 Lost Spells
 - [[sword-world-rpg-complete-edition-section-monster-resistance-1343961f]] - next source section: Monster Resistance
 
 ## Statements

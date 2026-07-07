@@ -8,7 +8,7 @@ updated: 2026-07-07
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-2-6-success-rolls-using-adventurer-level-5e467870@d8886b479a63d5c72f3cbd0c581d06fd
+projection_coverage: section-sword-world-rpg-complete-edition-section-2-6-success-rolls-using-adventurer-level-5e467870@a653faaca4cc3da07c60905d24c2e443
 ---
 
 # 2.6 Success Rolls Using Adventurer Level
@@ -19,11 +19,8 @@ From [[sword-world-rpg-complete-edition]].
 
 ### Source order
 
-- [[sword-world-rpg-complete-edition-section-2-5-difficulty-checks-c9ff695c]] - previous source section: 2.5 Difficulty Checks
-
-### Source structure
-
-- [[sword-world-rpg-complete-edition-section-2-6-success-rolls-using-adventurer-level-resistance-rolls-06071a87]] - narrower source section: 2.6 Success Rolls Using Adventurer Level / Resistance Rolls
+- [[sword-world-rpg-complete-edition-section-2-5-3-analogy-of-success-and-failure-3a19226a]] - previous source section: 2.5.3 Analogy of Success and Failure
+- [[sword-world-rpg-complete-edition-section-resistance-rolls-06071a87]] - next source section: Resistance Rolls
 
 ## Statements
 

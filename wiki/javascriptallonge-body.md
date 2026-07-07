@@ -7,7 +7,7 @@ sources: raw/javascriptallonge.pdf
 updated: 2026-07-07
 domain: javascriptallonge
 category_path: concepts
-projection_coverage: topic-javascriptallonge-body@e7c0d9999d5e3d679676120e1b20abd4
+projection_coverage: topic-javascriptallonge-body@ba38afce47d47affbef0fc5bf1495a0c
 ---
 
 # Body
@@ -16,7 +16,7 @@ What [[javascriptallonge]] covers about body:
 
 ## Statements
 
-### And also: / Summary / Functions
+### Summary / Functions
 
 - Function bodies have zero or more statements. _(javascriptallonge.pdf (source-range-c98ab3e6-00627))_
 
@@ -40,7 +40,7 @@ What [[javascriptallonge]] covers about body:
 ### Shared claims
 
 - [[javascriptallonge-return]] - shared statements: Return shares source evidence from Served by the Pot: Collections / Generating Iterables / generators are coroutines: The body of our generator runs until it returns, ends, or encounters a yield statement, which is yield 1; . (4 shared statement(s))
-- [[javascriptallonge-evaluate]] - shared statements: Evaluate shares source evidence from And also: / Summary / Functions: Block bodies evaluate to whatever is returned with the return keyword, or to undefined . (1 shared statement(s))
+- [[javascriptallonge-evaluate]] - shared statements: Evaluate shares source evidence from Summary / Functions: Block bodies evaluate to whatever is returned with the return keyword, or to undefined . (1 shared statement(s))
 
 ## Source
 

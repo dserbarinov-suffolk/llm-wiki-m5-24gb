@@ -7,7 +7,7 @@ sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-07
 domain: sword-world-rpg-complete-edition
 category_path: concepts
-projection_coverage: topic-sword-world-rpg-complete-edition-shoot-arrow-sylph@b21577840375368452e2ea65a91254e1
+projection_coverage: topic-sword-world-rpg-complete-edition-shoot-arrow-sylph@b76e509ce911e9fe39304a4919ce1f48
 ---
 
 # Shoot Arrow Sylph
@@ -16,14 +16,14 @@ What [[sword-world-rpg-complete-edition]] covers about shoot arrow sylph:
 
 ## Statements
 
-### 4.10 Excellent Weapons and Armor / and Armor / 4.10.4 Mithril Silver Weapons and Armor / Basic Rules of Magic / 5.1.14 Spirit Magic List / 5th Level Spirit Magic List [ Control Plant ] / [ Shoot Arrow ] (Sylph/Wind Spirit)
+### [ Shoot Arrow ] (Sylph/Wind Spirit)
 
 - Type=Counters (Negates): Missile Protection Expansion=Distance, targets Resist=None When you cast this spell, the caster's arrow will be carried by a sylph, ensuring that it hits the target. The strike power of the arrow is a uniform 20, the magic power of the caster is used as bonus damage. Also, if you roll 10 or greater on your damage check, a critical will occur. The target cannot resist this spell. However, armor protection is effective. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-03016))_
 
 
 ## Technical atoms
 
-### Technical frame 1: 4.10 Excellent Weapons and Armor / and Armor / 4.10.4 Mithril Silver Weapons and Armor / Basic Rules of Magic / 5.1.14 Spirit Magic List / 5th Level Spirit Magic List [ Control Plant ] / [ Shoot Arrow ] (Sylph/Wind Spirit)
+### Technical frame 1: [ Shoot Arrow ] (Sylph/Wind Spirit)
 
 **Context:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-03017))_
 
@@ -34,12 +34,6 @@ What [[sword-world-rpg-complete-edition]] covers about shoot arrow sylph:
 <a id="atom-technical-atom-a6dc05cd766f4c0b"></a>
 > Note that this spell cannot deal damage to monsters that can only be wounded by silver or magical weapons, such as werewolves, etc.
 
-
-## Related pages
-
-### Shared technical atoms
-
-- [[sword-world-rpg-complete-edition-armor]] - shared technical atoms: Armor shares technical record from 4.10 Excellent Weapons and Armor / and Armor / 4.10.4 Mithril Silver Weapons and Armor / Basic Rules of Magic / 5.1.14 Spirit Magic List / 5th Level Spirit Magic List [ Control Plant ] / [ Shoot Arrow ] (Sylph/Wind Spirit): Note that this spell cannot deal damage to monsters that can only be wounded by silver or magical weapons, such as werewolves, etc. (1 shared atom(s))
 
 ## Source
 

@@ -18,11 +18,14 @@ def _segment(order: int, text: str, kind: str = "heading") -> SourceSegment:
     )
 
 
-def _structured_heading(order: int, text: str, heading_level: int) -> SourceSegment:
+def _structured_heading(
+    order: int, text: str, heading_level: int, *, heading_path: str | None = None
+) -> SourceSegment:
+    path = heading_path or text
     block = SourceUnitBlock(
         element_id=f"element-{order}",
         block_kind="heading",
-        heading_path=text,
+        heading_path=path,
         page_start=order,
         page_end=order,
         text=text,
@@ -33,7 +36,7 @@ def _structured_heading(order: int, text: str, heading_level: int) -> SourceSegm
         source_range_id=f"range-{order}",
         source_locator="synthetic.pdf",
         source_hash="abc",
-        heading_path=text,
+        heading_path=path,
         structure_node_id="",
         source_order=order,
         text=f"# {text}",
@@ -139,3 +142,56 @@ def test_structure_build_prefers_structured_heading_depth_over_markdown_depth() 
     assert child.parent_structure_node_id == parent.structure_node_id
     assert child.depth == 2
     assert child.structure_node_kind == "section"
+
+
+def test_bound_number_marker_does_not_trap_later_top_level_heading() -> None:
+    plan = build_structure(
+        "abc",
+        "synthetic.pdf",
+        (
+            _structured_heading(1, "2.3.4", 3),
+            _structured_heading(2, "Nested Topic", 3, heading_path="2.3.4 Nested Topic"),
+            _segment(3, "Nested body", "paragraph"),
+            _structured_heading(4, "New Major Topic", 1),
+        ),
+    )
+
+    nested = next(node for node in plan.nodes if node.heading_text == "2.3.4 Nested Topic")
+    major = next(node for node in plan.nodes if node.heading_text == "New Major Topic")
+
+    assert major.parent_structure_node_id != nested.structure_node_id
+
+
+def test_clean_top_level_heading_path_resets_stale_nested_stack() -> None:
+    plan = build_structure(
+        "abc",
+        "synthetic.pdf",
+        (
+            _structured_heading(1, "2.3 Parent", 1),
+            _structured_heading(2, "2.3.4 Nested Topic", 3),
+            _structured_heading(3, "New Major Topic", 1, heading_path="New Major Topic"),
+        ),
+    )
+
+    nested = next(node for node in plan.nodes if node.heading_text == "2.3.4 Nested Topic")
+    major = next(node for node in plan.nodes if node.heading_text == "New Major Topic")
+
+    assert major.parent_structure_node_id != nested.structure_node_id
+
+
+def test_numbering_still_preserves_proven_descendants_after_marker_binding() -> None:
+    plan = build_structure(
+        "abc",
+        "synthetic.pdf",
+        (
+            _structured_heading(1, "2.3 Parent", 1),
+            _structured_heading(2, "2.3.4", 3),
+            _structured_heading(3, "Nested Topic", 3, heading_path="2.3.4 Nested Topic"),
+            _structured_heading(4, "2.3.4.1 Detail", 4),
+        ),
+    )
+
+    nested = next(node for node in plan.nodes if node.heading_text == "2.3.4 Nested Topic")
+    detail = next(node for node in plan.nodes if node.heading_text == "2.3.4.1 Detail")
+
+    assert detail.parent_structure_node_id == nested.structure_node_id

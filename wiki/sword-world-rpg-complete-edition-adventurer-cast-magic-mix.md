@@ -7,7 +7,7 @@ sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-07
 domain: sword-world-rpg-complete-edition
 category_path: concepts
-projection_coverage: topic-sword-world-rpg-complete-edition-adventurer-cast-magic-mix@3abfa053865b7626f77ae55d45675aa5
+projection_coverage: topic-sword-world-rpg-complete-edition-adventurer-cast-magic-mix@baa5a97bb0014d7c1ca644b3f9c76425
 ---
 
 # Adventurer Cast Magic Mix
@@ -16,7 +16,7 @@ What [[sword-world-rpg-complete-edition]] covers about adventurer cast magic mix
 
 ## Statements
 
-### 4.10 Excellent Weapons and Armor / and Armor / 4.10.4 Mithril Silver Weapons and Armor / Basic Rules of Magic / Filling out the Character Sheet / When an Adventurer Casts Magic on a Mix of Adventurers and Monsters
+### Basic Rules of Magic / Filling out the Character Sheet / When an Adventurer Casts Magic on a Mix of Adventurers and Monsters
 
 - Sometimes enemies written in the same data format as a character may also be accompanied by monsters. For example, a sorcerer who leads undead monsters to attack villages. Casting magic on such a group is handled the same way as when an adventurer casts magic on (a group of) adventurers, as described above. At this time, the monsters must also roll the dice to make resist checks. Please use the optional rules under 17.1: Changes to Magic Procedure (see p. 273). _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01590))_
 
@@ -27,7 +27,7 @@ What [[sword-world-rpg-complete-edition]] covers about adventurer cast magic mix
 
 ## Technical atoms
 
-### Technical frame 1: 4.10 Excellent Weapons and Armor / and Armor / 4.10.4 Mithril Silver Weapons and Armor / Basic Rules of Magic / Filling out the Character Sheet / When an Adventurer Casts Magic on a Mix of Adventurers and Monsters
+### Technical frame 1: Basic Rules of Magic / Filling out the Character Sheet / When an Adventurer Casts Magic on a Mix of Adventurers and Monsters
 
 **Context:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01592))_
 
@@ -38,7 +38,7 @@ What [[sword-world-rpg-complete-edition]] covers about adventurer cast magic mix
 <a id="atom-technical-atom-b2d14a08b712c1f6"></a>
 > At this time, the monsters must also roll the dice to make resist checks.
 
-### Technical frame 2: 4.10 Excellent Weapons and Armor / and Armor / 4.10.4 Mithril Silver Weapons and Armor / Basic Rules of Magic / Filling out the Character Sheet / When an Adventurer Casts Magic on a Mix of Adventurers and Monsters
+### Technical frame 2: Basic Rules of Magic / Filling out the Character Sheet / When an Adventurer Casts Magic on a Mix of Adventurers and Monsters
 
 **Context:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01592))_
 
@@ -54,7 +54,7 @@ What [[sword-world-rpg-complete-edition]] covers about adventurer cast magic mix
 
 ### Shared technical atoms
 
-- [[sword-world-rpg-complete-edition-filling-character-sheet]] - shared statements and technical atoms: 1.4.9 Filling Out the Character Sheet shares source evidence from 4.10 Excellent Weapons and Armor / and Armor / 4.10.4 Mithril Silver Weapons and Armor / Basic Rules of Magic / Filling out the Character Sheet / When an Adventurer Casts Magic on a Mix of Adventurers and Monsters: Sometimes enemies written in the same data format as a character may also be accompanied by monsters. For example, a sorcerer who leads undead monsters to attack vil ... [truncated]; 1.4.9 Filling Out the Character Sheet shares technical record from 4.10 Excellent Weapons and Armor / and Armor / 4.10.4 Mithril Silver Weapons and Armor / Basic Rules of Magic / Filling out the Character Sheet / When an Adventurer Casts Magic on a Mix of Adventurers and Monsters: At this time, the monsters must also roll the dice to make resist checks. (6 shared statement(s), 2 shared atom(s))
+- [[sword-world-rpg-complete-edition-filling-character-sheet]] - shared statements and technical atoms: 1.4.9 Filling Out the Character Sheet shares source evidence from Basic Rules of Magic / Filling out the Character Sheet / When an Adventurer Casts Magic on a Mix of Adventurers and Monsters: Sometimes enemies written in the same data format as a character may also be accompanied by monsters. For example, a sorcerer who leads undead monsters to attack vil ... [truncated]; 1.4.9 Filling Out the Character Sheet shares technical record from Basic Rules of Magic / Filling out the Character Sheet / When an Adventurer Casts Magic on a Mix of Adventurers and Monsters: At this time, the monsters must also roll the dice to make resist checks. (6 shared statement(s), 2 shared atom(s))
 
 ## Source
 

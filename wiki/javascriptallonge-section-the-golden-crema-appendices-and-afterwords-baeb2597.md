@@ -8,7 +8,7 @@ updated: 2026-07-07
 domain: javascriptallonge
 category_path: sources/javascriptallonge/sections
 source_id: javascriptallonge.pdf
-projection_coverage: section-javascriptallonge-section-the-golden-crema-appendices-and-afterwords-baeb2597@bf202a847d44e9e081f5f249c7039d0e
+projection_coverage: section-javascriptallonge-section-the-golden-crema-appendices-and-afterwords-baeb2597@5fe84a9e854f0b9df92f6d858d55f8c9
 ---
 
 # The Golden Crema: Appendices and Afterwords
@@ -19,7 +19,7 @@ From [[javascriptallonge]].
 
 ### Source order
 
-- [[javascriptallonge-section-interactive-generators-c6339bc5]] - previous source section: Interactive Generators
+- [[javascriptallonge-section-memoizing-an-iterable-3573f62e]] - previous source section: memoizing an iterable
 
 ### Source structure
 

@@ -7,7 +7,7 @@ sources: raw/javascriptallonge.pdf
 updated: 2026-07-07
 domain: javascriptallonge
 category_path: concepts
-projection_coverage: topic-javascriptallonge-evaluate@fee9c4e3f2a962c509c1583e61a862df
+projection_coverage: topic-javascriptallonge-evaluate@b38b531eb19c50cc23538215e63abde3
 ---
 
 # Evaluate
@@ -16,7 +16,7 @@ What [[javascriptallonge]] covers about evaluate:
 
 ## Statements
 
-### Prelude: Values and Expressions over Coffee / values are expressions / reference types
+### Prelude: Values and Expressions over Coffee / reference types
 
 - They look the same, but if you examine them with === , you see that they are different. Every time you evaluate an expression (including typing something in) to create an array, you're creating a new, distinct value even if it appears to be the same as some other array value. As we'll see, this is true of many other kinds of values, including functions , the main subject of this book. _(javascriptallonge.pdf (source-range-c98ab3e6-00134))_
 
@@ -32,11 +32,11 @@ What [[javascriptallonge]] covers about evaluate:
 
 - But no matter how we arrange them, a block with one or more expressions still evaluates to undefined : _(javascriptallonge.pdf (source-range-c98ab3e6-00237))_
 
-### And also: / Closures and Scope / it's always the environment
+### it's always the environment
 
 - The first function is the result of currying a the second function. Calling a curried function with only some of its arguments is sometimes called partial application b . Some programming languages automatically curry and partially evaluate functions without the need to manually nest them. _(javascriptallonge.pdf (source-range-c98ab3e6-00351))_
 
-### And also: / Summary / Functions
+### Summary / Functions
 
 - Block bodies evaluate to whatever is returned with the return keyword, or to undefined . _(javascriptallonge.pdf (source-range-c98ab3e6-00629))_
 
@@ -80,14 +80,13 @@ undefined === undefined
 
 ### Shared technical atoms
 
-- [[javascriptallonge-programming]] - shared statements and technical atoms: Programming shares source evidence from And also: / Closures and Scope / it's always the environment: The first function is the result of currying a the second function. Calling a curried function with only some of its arguments is sometimes called partial applicatio ... [truncated]; Programming shares technical record from And also: / Closures and Scope / it's always the environment: (x, y, z) => x + y + z (1 shared statement(s), 1 shared atom(s))
-- [[javascriptallonge-scope]] - shared technical atoms: Scope shares technical record from And also: / Closures and Scope / it's always the environment: (x, y, z) => x + y + z (1 shared atom(s))
+- [[javascriptallonge-programming]] - shared statements and technical atoms: Programming shares source evidence from it's always the environment: The first function is the result of currying a the second function. Calling a curried function with only some of its arguments is sometimes called partial applicatio ... [truncated]; Programming shares technical record from it's always the environment: (x, y, z) => x + y + z (1 shared statement(s), 1 shared atom(s))
 
 ### Shared claims
 
-- [[javascriptallonge-expression]] - shared statements: Expression shares source evidence from Prelude: Values and Expressions over Coffee / values are expressions / reference types: They look the same, but if you examine them with === , you see that they are different. Every time you evaluate an expression (including typing something in) to crea ... [truncated] (4 shared statement(s))
+- [[javascriptallonge-expression]] - shared statements: Expression shares source evidence from Prelude: Values and Expressions over Coffee / reference types: They look the same, but if you examine them with === , you see that they are different. Every time you evaluate an expression (including typing something in) to crea ... [truncated] (4 shared statement(s))
 - [[javascriptallonge-javascript]] - shared statements: Javascript shares source evidence from Picking the Bean: Choice and Truthiness / truthiness and the ternary operator: Wecertainly don't want JavaScript trying to evaluate deleteRecord(currentRecord) unless isAuthorized(currentUser) returns true . (2 shared statement(s))
-- [[javascriptallonge-body]] - shared statements: Body shares source evidence from And also: / Summary / Functions: Block bodies evaluate to whatever is returned with the return keyword, or to undefined . (1 shared statement(s))
+- [[javascriptallonge-body]] - shared statements: Body shares source evidence from Summary / Functions: Block bodies evaluate to whatever is returned with the return keyword, or to undefined . (1 shared statement(s))
 - [[javascriptallonge-iterator]] - shared statements: Iterator shares source evidence from Served by the Pot: Collections / Iteration and Iterables / iterables: The expression Symbol.iterator evaluates to a special symbol representing the name of the method that objects should use if they return an iterator object. (1 shared statement(s))
 - [[javascriptallonge-literal]] - shared statements: Literal shares source evidence from A Warm Cup: Basic Strings and Quasi-Literals / evaluation time: JavaScript evaluates the quasi-literal when the function is invoked and the quasi-literal inside the function's body is evaluated. Thus, name is not bound to "Harry" ... [truncated] (1 shared statement(s))
 - [[javascriptallonge-method]] - shared statements: Method shares source evidence from Served by the Pot: Collections / Iteration and Iterables / iterables: The expression Symbol.iterator evaluates to a special symbol representing the name of the method that objects should use if they return an iterator object. (1 shared statement(s))

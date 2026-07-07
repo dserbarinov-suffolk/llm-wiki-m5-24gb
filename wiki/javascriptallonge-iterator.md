@@ -7,7 +7,7 @@ sources: raw/javascriptallonge.pdf
 updated: 2026-07-07
 domain: javascriptallonge
 category_path: concepts
-projection_coverage: topic-javascriptallonge-iterator@c25bd92ffc2b4a8d7dea01f4db07af46
+projection_coverage: topic-javascriptallonge-iterator@d497d2eed92b5b7825fdc9eaf913063d
 ---
 
 # Iterator
@@ -16,11 +16,11 @@ What [[javascriptallonge]] covers about iterator:
 
 ## Statements
 
-### Copy on Write / Functional Iterators / unfolding and laziness
+### unfolding and laziness
 
 - Mapping and filtering iterators allows us to compose the parts we already have, rather than writing a tricky bit of code with ifs and whiles and boundary conditions. _(javascriptallonge.pdf (source-range-c98ab3e6-01289))_
 
-### Copy on Write / Functional Iterators / caveat
+### caveat
 
 - For all intents and purposes, once you pass an iterator to a function, you can expect that you no longer 'own' that iterator, and that its state either has changed or will change. _(javascriptallonge.pdf (source-range-c98ab3e6-01299))_
 
@@ -103,7 +103,7 @@ What [[javascriptallonge]] covers about iterator:
 
 ## Technical atoms
 
-### Technical frame 1: Copy on Write / Functional Iterators / unfolding and laziness
+### Technical frame 1: unfolding and laziness
 
 **Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01289))_
 
@@ -116,7 +116,7 @@ What [[javascriptallonge]] covers about iterator:
 const odds = () => {
 ```
 
-### Technical frame 2: Copy on Write / Functional Iterators / unfolding and laziness
+### Technical frame 2: unfolding and laziness
 
 **Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01289))_
 
@@ -138,7 +138,7 @@ toArray(take(squareOf(odds()), 5))
 //=> [1, 9, 25, 49, 81]
 ```
 
-### Technical frame 3: Copy on Write / Functional Iterators / unfolding and laziness
+### Technical frame 3: unfolding and laziness
 
 **Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01289))_
 
@@ -334,7 +334,6 @@ yield * iterator;
 
 ### Shared technical atoms
 
-- [[javascriptallonge-copy-write]] - shared statements and technical atoms: Copy on Write shares source evidence from Copy on Write / Functional Iterators / unfolding and laziness: Mapping and filtering iterators allows us to compose the parts we already have, rather than writing a tricky bit of code with ifs and whiles and boundary conditions.; Copy on Write shares technical record from Copy on Write / Functional Iterators / unfolding and laziness: const NumberIterator = (number = 0) => () => ({ done: false, value: number++ }) fromOne = NumberIterator(1); fromOne().value; //=> 1 fromOne().value; //=> 2 fromOne( ... [truncated] (2 shared statement(s), 7 shared atom(s))
 - [[javascriptallonge-object]] - shared statements and technical atoms: Object shares source evidence from Served by the Pot: Collections / Iteration and Iterables / iterator objects: Fortunately, an iterator object is almost as simple as an iterator function. Instead of having a function that you call to get the next element, you have an object w ... [truncated]; Object shares technical record from Served by the Pot: Collections / Iteration and Iterables / iterables: const Stack3 = () => ({ array: [], index: -1, push (value) { return this.array[this.index += 1] = value; }, pop () { const value = this.array[this.index]; this.array ... [truncated] (5 shared statement(s), 5 shared atom(s))
 - [[javascriptallonge-method]] - shared statements and technical atoms: Method shares source evidence from Served by the Pot: Collections / Iteration and Iterables / iterator objects / Like this:: Now our .iterator() method is returning an iterator object. When working with objects, we do things the object way. But having started by building functional iterato ... [truncated]; Method shares technical record from Served by the Pot: Collections / Iteration and Iterables / iterables: const Stack3 = () => ({ array: [], index: -1, push (value) { return this.array[this.index += 1] = value; }, pop () { const value = this.array[this.index]; this.array ... [truncated] (3 shared statement(s), 5 shared atom(s))
 - [[javascriptallonge-iteration]] - shared technical atoms: Iteration shares technical record from Served by the Pot: Collections / Iteration and Iterables / iterables: const Stack3 = () => ({ array: [], index: -1, push (value) { return this.array[this.index += 1] = value; }, pop () { const value = this.array[this.index]; this.array ... [truncated] (6 shared atom(s))
@@ -342,14 +341,11 @@ yield * iterator;
 - [[javascriptallonge-collection]] - shared technical atoms: Collection shares technical record from Served by the Pot: Collections / Iteration and Iterables / ordered collections: const RandomNumbers = { [Symbol.iterator]: () => ({ next () { return {value: Math.random()}; } }) } for (const i of RandomNumbers) { console.log(i) } //=> 0.49405212 ... [truncated] (5 shared atom(s))
 - [[javascriptallonge-iterable]] - shared statements and technical atoms: Iterable shares source evidence from Served by the Pot: Collections / Iteration and Iterables / ordered collections: Whether you work with the same iterator over and over, or get a fresh iterable every time, you are always going to get fresh random numbers. Therefore, RandomNumbers ... [truncated]; Iterable shares technical record from Served by the Pot: Collections / Iteration and Iterables / iterables: const EMPTY = { isEmpty: () => true }; const isEmpty = (node) => node === EMPTY; const Pair1 = (first, rest = EMPTY) => ({ first, rest, isEmpty () { return false }, ... [truncated] (2 shared statement(s), 3 shared atom(s))
 - [[javascriptallonge-functional]] - shared statements and technical atoms: Functional shares source evidence from Served by the Pot: Collections / Generating Iterables: Let's consider how they work. Whether it's a simple functional iterator, or an iterable object with a .next() method, an iterator is something we call repeatedly unt ... [truncated]; Functional shares technical record from Served by the Pot: Collections / Generating Iterables: Iterators have to arrange its own state such that when you call them, they compute and return the next item. (1 shared statement(s), 3 shared atom(s))
+- [[javascriptallonge-javascript]] - shared statements and technical atoms: Javascript shares source evidence from Served by the Pot: Collections / Iteration and Iterables / summary: Separating concerns with iterators speaks to JavaScript's fundamental nature: It's a language that wants to compose functionality out of small, singe-responsibility ... [truncated]; Javascript shares technical record from Served by the Pot: Collections / Iteration and Iterables / operations on ordered collections: const Evens = { [Symbol.iterator] () { const iterator = Numbers[Symbol.iterator](); return { next () { const {done, value} = iterator.next(); return ({done, value: d ... [truncated] (1 shared statement(s), 3 shared atom(s))
 
 ### Shared claims
 
 - [[javascriptallonge-evaluate]] - shared statements: Evaluate shares source evidence from Served by the Pot: Collections / Iteration and Iterables / iterables: The expression Symbol.iterator evaluates to a special symbol representing the name of the method that objects should use if they return an iterator object. (1 shared statement(s))
-
-### Topics
-
-- [[javascriptallonge-functional-iterator]] - narrower topic: Functional Iterators shares source evidence from Copy on Write / Functional Iterators / unfolding and laziness: Mapping and filtering iterators allows us to compose the parts we already have, rather than writing a tricky bit of code with ifs and whiles and boundary conditions.; Functional Iterators shares technical record from Copy on Write / Functional Iterators / unfolding and laziness: const NumberIterator = (number = 0) => () => ({ done: false, value: number++ }) fromOne = NumberIterator(1); fromOne().value; //=> 1 fromOne().value; //=> 2 fromOne( ... [truncated] (2 shared statement(s), 7 shared atom(s))
 
 ## Source
 

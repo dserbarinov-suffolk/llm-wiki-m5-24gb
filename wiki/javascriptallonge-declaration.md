@@ -7,7 +7,7 @@ sources: raw/javascriptallonge.pdf
 updated: 2026-07-07
 domain: javascriptallonge
 category_path: concepts
-projection_coverage: topic-javascriptallonge-declaration@a1174ea2f0d3842460c45989417e5d43
+projection_coverage: topic-javascriptallonge-declaration@ba9a48eb88f3f51c87ae4154a66606a8
 ---
 
 # Declaration
@@ -16,11 +16,11 @@ What [[javascriptallonge]] covers about declaration:
 
 ## Statements
 
-### And also: / Naming Functions / function declarations
+### Naming Functions / function declarations
 
 - In that it binds a name in the environment to a named function. However, there are two important differences. First, function declarations are hoisted to the top of the function in which they occur. _(javascriptallonge.pdf (source-range-c98ab3e6-00525))_
 
-### And also: / Naming Functions / function declaration caveats 34
+### Naming Functions / function declaration caveats 34
 
 - Function declarations are formally only supposed to be made at what we might call the 'top level' of a function. Although some JavaScript environments permit the following code, this example is technically illegal and definitely a bad idea: _(javascriptallonge.pdf (source-range-c98ab3e6-00533))_
 
@@ -33,7 +33,7 @@ What [[javascriptallonge]] covers about declaration:
 
 ## Technical atoms
 
-### Technical frame 1: And also: / Naming Functions / function declarations
+### Technical frame 1: Naming Functions / function declarations
 
 **Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-00525))_
 
@@ -46,7 +46,7 @@ What [[javascriptallonge]] covers about declaration:
 {
 ```
 
-### Technical frame 2: And also: / Naming Functions / function declarations
+### Technical frame 2: Naming Functions / function declarations
 
 **Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-00531))_
 
@@ -140,7 +140,7 @@ factorial(4)
 ### Shared technical atoms
 
 - [[javascriptallonge-javascript]] - shared technical atoms: Javascript shares technical record from Reassignment / mixing let and const / var: const factorial = (n) => { return innerFactorial(n, 1); function innerFactorial (x, y) { if (x == 1) { return y; } else { return innerFactorial(x-1, x * y); } } } fa ... [truncated] (2 shared atom(s))
-- [[javascriptallonge-bind]] - shared technical atoms: Bind shares technical record from And also: / Naming Functions / function declarations: { (1 shared atom(s))
+- [[javascriptallonge-bind]] - shared technical atoms: Bind shares technical record from Naming Functions / function declarations: { (1 shared atom(s))
 
 ## Source
 

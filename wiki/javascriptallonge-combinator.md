@@ -7,7 +7,7 @@ sources: raw/javascriptallonge.pdf
 updated: 2026-07-07
 domain: javascriptallonge
 category_path: concepts
-projection_coverage: topic-javascriptallonge-combinator@5caa1424fbaa405c58f0d3a8e94e9513
+projection_coverage: topic-javascriptallonge-combinator@e75ca22385e8fcda77368fdd7836b6cf
 ---
 
 # Combinator
@@ -16,24 +16,24 @@ What [[javascriptallonge]] covers about combinator:
 
 ## Statements
 
-### And also: / Combinators and Function Decorators / combinators
+### Combinators and Function Decorators / combinators
 
 - In this book, we will be using a looser definition of 'combinator:' Higher-order pure functions that take only functions as arguments and return a function. We won't be strict about using only previously defined combinators in their construction. _(javascriptallonge.pdf (source-range-c98ab3e6-00548))_
 
 - This is, of course, just one example of many. You'll find lots more perusing the recipes in this book. While some programmers believe 'There Should Only Be One Way To Do It,' having combinators available as well as explicitly writing things out with lots of symbols and keywords has some advantages when used judiciously. _(javascriptallonge.pdf (source-range-c98ab3e6-00551))_
 
-### And also: / Combinators and Function Decorators / a balanced statement about combinators
+### Combinators and Function Decorators / a balanced statement about combinators
 
 - Code that uses a lot of combinators tends to name the verbs and adverbs (like doubleOf , addOne , and compose ) while avoiding language keywords and the names of nouns (like number ). So one perspective is that combinators are useful when you want to emphasize what you're doing and how it fits together, and more explicit code is useful when you want to emphasize what you're working with. _(javascriptallonge.pdf (source-range-c98ab3e6-00553))_
 
-### And also: / Combinators and Function Decorators / function decorators
+### Combinators and Function Decorators / function decorators
 
 - not is a function decorator because it modifies a function while remaining strongly related to the original function's semantics. You'll see other function decorators in the recipes, like once and maybe. Function decorators aren't strict about being pure functions, so there's more latitude for making decorators than combinators. _(javascriptallonge.pdf (source-range-c98ab3e6-00563))_
 
 
 ## Technical atoms
 
-### Technical frame 1: And also: / Combinators and Function Decorators / function decorators
+### Technical frame 1: Combinators and Function Decorators / function decorators
 
 **Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-00563))_
 
@@ -51,12 +51,12 @@ const nothing = not(something);
 
 ### Source structure
 
-- [[javascriptallonge-section-and-also-combinators-and-function-decorators-combinators-96e491bc]] - source section: And also: / Combinators and Function Decorators / combinators shares source evidence from And also: / Combinators and Function Decorators / combinators: In this book, we will be using a looser definition of 'combinator:' Higher-order pure functions that take only functions as arguments and return a function. We won't ... [truncated] (3 shared statement(s))
+- [[javascriptallonge-section-combinators-and-function-decorators-combinators-96e491bc]] - source section: Combinators and Function Decorators / combinators shares source evidence from Combinators and Function Decorators / combinators: In this book, we will be using a looser definition of 'combinator:' Higher-order pure functions that take only functions as arguments and return a function. We won't ... [truncated] (3 shared statement(s))
 
 ### Shared technical atoms
 
-- [[javascriptallonge-decorator]] - shared statements and technical atoms: Decorator shares source evidence from And also: / Combinators and Function Decorators / function decorators: not is a function decorator because it modifies a function while remaining strongly related to the original function's semantics. You'll see other function decorator ... [truncated]; Decorator shares technical record from And also: / Combinators and Function Decorators / function decorators: const nothing = not(something); (1 shared statement(s), 1 shared atom(s))
-- [[javascriptallonge-function-decorator]] - shared statements and technical atoms: Function Decorator shares source evidence from And also: / Combinators and Function Decorators / function decorators: not is a function decorator because it modifies a function while remaining strongly related to the original function's semantics. You'll see other function decorator ... [truncated]; Function Decorator shares technical record from And also: / Combinators and Function Decorators / function decorators: const nothing = not(something); (1 shared statement(s), 1 shared atom(s))
+- [[javascriptallonge-decorator]] - shared statements and technical atoms: Decorator shares source evidence from Combinators and Function Decorators / function decorators: not is a function decorator because it modifies a function while remaining strongly related to the original function's semantics. You'll see other function decorator ... [truncated]; Decorator shares technical record from Combinators and Function Decorators / function decorators: const nothing = not(something); (1 shared statement(s), 1 shared atom(s))
+- [[javascriptallonge-function-decorator]] - shared statements and technical atoms: Function Decorator shares source evidence from Combinators and Function Decorators / function decorators: not is a function decorator because it modifies a function while remaining strongly related to the original function's semantics. You'll see other function decorator ... [truncated]; Function Decorator shares technical record from Combinators and Function Decorators / function decorators: const nothing = not(something); (1 shared statement(s), 1 shared atom(s))
 
 ## Source
 

@@ -9,7 +9,7 @@ domain: javascriptallonge
 category_path: recipes/javascriptallonge
 source_id: javascriptallonge.pdf
 aliases: function-declaration-caveats-34
-projection_coverage: recipe-javascriptallonge-recipe-function-declaration-caveats-34@49a7a121ffac991d8a59385d360db167
+projection_coverage: recipe-javascriptallonge-recipe-function-declaration-caveats-34@6a5c8e193d93e24bab8b5633e497d07f
 ---
 
 # function declaration caveats 34
@@ -18,7 +18,7 @@ From [[javascriptallonge]].
 
 ## Pattern
 
-- Use the source-backed pattern described in [[javascriptallonge-section-and-also-naming-functions-function-declaration-caveats-34-2bc8359c]].
+- Use the source-backed pattern described in [[javascriptallonge-section-naming-functions-function-declaration-caveats-34-2bc8359c]].
 - Evidence roles: decision, explanation, constraint, procedure, example, structured-state.
 
 ## Applicability And Rationale
@@ -56,4 +56,4 @@ return "Fizz" + "Buzz";
 ## Source Trail
 
 - Source manifest: [[javascriptallonge]]
-- Source section: [[javascriptallonge-section-and-also-naming-functions-function-declaration-caveats-34-2bc8359c]]
+- Source section: [[javascriptallonge-section-naming-functions-function-declaration-caveats-34-2bc8359c]]
