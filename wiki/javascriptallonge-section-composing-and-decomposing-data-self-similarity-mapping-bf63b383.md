@@ -8,7 +8,7 @@ updated: 2026-07-07
 domain: javascriptallonge
 category_path: sources/javascriptallonge/sections
 source_id: javascriptallonge.pdf
-projection_coverage: section-javascriptallonge-section-composing-and-decomposing-data-self-similarity-mapping-bf63b383@261818008681d8952586927e9c7f33d7
+projection_coverage: section-javascriptallonge-section-composing-and-decomposing-data-self-similarity-mapping-bf63b383@b2a87c067d49df14c3385a7f25eee1ba
 ---
 
 # Composing and Decomposing Data / Self-Similarity / mapping
@@ -25,6 +25,10 @@ From [[javascriptallonge]].
 ### Source structure
 
 - [[javascriptallonge-section-composing-and-decomposing-data-self-similarity-ea23a471]] - broader source section: Composing and Decomposing Data / Self-Similarity
+
+### Recipes
+
+- [[javascriptallonge-recipe-mapping]] - recipe pattern: mapping
 
 ## Statements
 

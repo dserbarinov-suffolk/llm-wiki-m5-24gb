@@ -8,7 +8,7 @@ updated: 2026-07-07
 domain: javascriptallonge
 category_path: sources/javascriptallonge/sections
 source_id: javascriptallonge.pdf
-projection_coverage: section-javascriptallonge-section-served-by-the-pot-collections-generating-iterables-recursive-iterators-6db8d95d@4901390fe41eae5c20dda62cbc333d90
+projection_coverage: section-javascriptallonge-section-served-by-the-pot-collections-generating-iterables-recursive-iterators-6db8d95d@d1586e74ba7a029a2a52bc32ed27cfa9
 ---
 
 # Served by the Pot: Collections / Generating Iterables / recursive iterators
@@ -24,6 +24,10 @@ From [[javascriptallonge]].
 ### Source structure
 
 - [[javascriptallonge-section-served-by-the-pot-collections-generating-iterables-f68c47a5]] - broader source section: Served by the Pot: Collections / Generating Iterables
+
+### Recipes
+
+- [[javascriptallonge-recipe-recursive-iterators]] - recipe pattern: recursive iterators
 
 ## Statements
 

@@ -8,7 +8,7 @@ updated: 2026-07-07
 domain: javascriptallonge
 category_path: sources/javascriptallonge/sections
 source_id: javascriptallonge.pdf
-projection_coverage: section-javascriptallonge-section-copy-on-write-tortoises-hares-and-teleporting-turtles-3a4746f2@3a363de912bde15aaf264fad8e2e592a
+projection_coverage: section-javascriptallonge-section-copy-on-write-tortoises-hares-and-teleporting-turtles-3a4746f2@a0a750ef3df513406f6f5384e5f4030f
 ---
 
 # Copy on Write / Tortoises, Hares, and Teleporting Turtles
@@ -25,6 +25,10 @@ From [[javascriptallonge]].
 ### Source structure
 
 - [[javascriptallonge-section-copy-on-write-d081f846]] - broader source section: Copy on Write
+
+### Recipes
+
+- [[javascriptallonge-recipe-tortoises-hares-and-teleporting-turtles]] - recipe pattern: Tortoises, Hares, and Teleporting Turtles
 
 ## Statements
 

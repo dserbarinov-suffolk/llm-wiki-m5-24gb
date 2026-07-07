@@ -8,7 +8,7 @@ updated: 2026-07-07
 domain: javascriptallonge
 category_path: sources/javascriptallonge/sections
 source_id: javascriptallonge.pdf
-projection_coverage: section-javascriptallonge-section-recipes-with-data-mapwith-202c0d4f@7c6d70ed31c10ad63ed63bea0455953e
+projection_coverage: section-javascriptallonge-section-recipes-with-data-mapwith-202c0d4f@058909afb3f25f781211ea597a08cc76
 ---
 
 # Recipes with Data / mapWith
@@ -24,6 +24,10 @@ From [[javascriptallonge]].
 ### Source structure
 
 - [[javascriptallonge-section-recipes-with-data-4b3e2c99]] - broader source section: Recipes with Data
+
+### Recipes
+
+- [[javascriptallonge-recipe-mapwith]] - recipe pattern: mapWith
 
 ## Statements
 

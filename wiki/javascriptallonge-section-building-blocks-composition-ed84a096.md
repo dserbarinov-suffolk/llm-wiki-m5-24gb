@@ -8,7 +8,7 @@ updated: 2026-07-07
 domain: javascriptallonge
 category_path: sources/javascriptallonge/sections
 source_id: javascriptallonge.pdf
-projection_coverage: section-javascriptallonge-section-building-blocks-composition-ed84a096@28a92cf74f4f583c7387501eed675e54
+projection_coverage: section-javascriptallonge-section-building-blocks-composition-ed84a096@465c6064bfe2d9f4756c71857c763471
 ---
 
 # Building Blocks / composition
@@ -24,6 +24,10 @@ From [[javascriptallonge]].
 ### Source structure
 
 - [[javascriptallonge-section-building-blocks-fdb3fcfb]] - broader source section: Building Blocks
+
+### Recipes
+
+- [[javascriptallonge-recipe-composition]] - recipe pattern: composition
 
 ## Statements
 

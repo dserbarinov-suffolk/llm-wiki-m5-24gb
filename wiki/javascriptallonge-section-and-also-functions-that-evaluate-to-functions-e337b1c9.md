@@ -8,7 +8,7 @@ updated: 2026-07-07
 domain: javascriptallonge
 category_path: sources/javascriptallonge/sections
 source_id: javascriptallonge.pdf
-projection_coverage: section-javascriptallonge-section-and-also-functions-that-evaluate-to-functions-e337b1c9@6d013276e162c80964d951dfef79b602
+projection_coverage: section-javascriptallonge-section-and-also-functions-that-evaluate-to-functions-e337b1c9@d1f1f710c59475b338846b66250e4ffd
 ---
 
 # And also: / functions that evaluate to functions
@@ -20,6 +20,10 @@ From [[javascriptallonge]].
 ### Source order
 
 - [[javascriptallonge-section-and-also-ah-i-d-like-to-have-an-argument-please-22-97752ddb]] - next source section: And also: / Ah. I'd Like to Have an Argument, Please. 22
+
+### Recipes
+
+- [[javascriptallonge-recipe-functions-that-evaluate-to-functions]] - recipe pattern: functions that evaluate to functions
 
 ## Statements
 

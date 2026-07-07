@@ -8,7 +8,7 @@ updated: 2026-07-07
 domain: javascriptallonge
 category_path: sources/javascriptallonge/sections
 source_id: javascriptallonge.pdf
-projection_coverage: section-javascriptallonge-section-composing-and-decomposing-data-arrays-and-destructuring-arguments-gathering-1b2d594b@b4ad871524763f95727fcfaf0eaa30cf
+projection_coverage: section-javascriptallonge-section-composing-and-decomposing-data-arrays-and-destructuring-arguments-gathering-1b2d594b@c3050c20613293e53cdb9b62b515f950
 ---
 
 # Composing and Decomposing Data / Arrays and Destructuring Arguments / gathering
@@ -25,6 +25,10 @@ From [[javascriptallonge]].
 ### Source structure
 
 - [[javascriptallonge-section-composing-and-decomposing-data-arrays-and-destructuring-arguments-2a38bfc8]] - broader source section: Composing and Decomposing Data / Arrays and Destructuring Arguments
+
+### Recipes
+
+- [[javascriptallonge-recipe-gathering]] - recipe pattern: gathering
 
 ## Statements
 

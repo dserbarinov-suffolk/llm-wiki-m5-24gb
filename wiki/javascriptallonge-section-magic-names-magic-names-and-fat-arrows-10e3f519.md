@@ -8,7 +8,7 @@ updated: 2026-07-07
 domain: javascriptallonge
 category_path: sources/javascriptallonge/sections
 source_id: javascriptallonge.pdf
-projection_coverage: section-javascriptallonge-section-magic-names-magic-names-and-fat-arrows-10e3f519@38d647dd6551f36fc8fc07d1b459705f
+projection_coverage: section-javascriptallonge-section-magic-names-magic-names-and-fat-arrows-10e3f519@f3992d6efe054aeac4de725ed5a18a48
 ---
 
 # Magic Names / magic names and fat arrows
@@ -24,6 +24,10 @@ From [[javascriptallonge]].
 ### Source structure
 
 - [[javascriptallonge-section-magic-names-0c5d7af9]] - broader source section: Magic Names
+
+### Recipes
+
+- [[javascriptallonge-recipe-magic-names-and-fat-arrows]] - recipe pattern: magic names and fat arrows
 
 ## Statements
 

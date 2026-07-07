@@ -8,7 +8,7 @@ updated: 2026-07-07
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-12-2-2-illnesses-f56f6d8a@6ac184ffe123ae04426a3a14dd9a3d96
+projection_coverage: section-sword-world-rpg-complete-edition-section-12-2-2-illnesses-f56f6d8a@c432f304f15e818c4899c056271c49e7
 ---
 
 # 12.2.2 Illnesses
@@ -32,6 +32,10 @@ From [[sword-world-rpg-complete-edition]].
 - [[sword-world-rpg-complete-edition-section-12-2-2-illnesses-deep-sleep-bd7d8133]] - narrower source section: 12.2.2 Illnesses / Deep Sleep
 - [[sword-world-rpg-complete-edition-section-12-2-2-illnesses-green-slime-rot-ca7d84d2]] - narrower source section: 12.2.2 Illnesses / Green Slime Rot
 - [[sword-world-rpg-complete-edition-section-12-2-2-illnesses-humbaba-curse-a499764c]] - narrower source section: 12.2.2 Illnesses / Humbaba Curse
+
+### Collections
+
+- [[sword-world-rpg-complete-edition-collection-12-2-2-illnesses-f56f6d8a]] - collection page: 12.2.2 Illnesses
 
 ### Topics
 

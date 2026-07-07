@@ -8,7 +8,7 @@ updated: 2026-07-07
 domain: javascriptallonge
 category_path: sources/javascriptallonge/sections
 source_id: javascriptallonge.pdf
-projection_coverage: section-javascriptallonge-section-reassignment-mixing-let-and-const-var-65ff1805@5eb636bcc588592e1a0a182eb0780dd3
+projection_coverage: section-javascriptallonge-section-reassignment-mixing-let-and-const-var-65ff1805@2c675e9dbfe66f8dd285a80e2b785209
 ---
 
 # Reassignment / mixing let and const / var
@@ -20,6 +20,10 @@ From [[javascriptallonge]].
 ### Source structure
 
 - [[javascriptallonge-section-reassignment-mixing-let-and-const-0dde966f]] - broader source section: Reassignment / mixing let and const
+
+### Recipes
+
+- [[javascriptallonge-recipe-var]] - recipe pattern: var
 
 ## Statements
 

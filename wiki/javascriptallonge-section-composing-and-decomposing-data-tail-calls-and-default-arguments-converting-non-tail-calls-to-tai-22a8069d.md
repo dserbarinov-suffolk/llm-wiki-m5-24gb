@@ -8,7 +8,7 @@ updated: 2026-07-07
 domain: javascriptallonge
 category_path: sources/javascriptallonge/sections
 source_id: javascriptallonge.pdf
-projection_coverage: section-javascriptallonge-section-composing-and-decomposing-data-tail-calls-and-default-arguments-converting-non-tail-calls-to-tai-22a8069d@9441d853b4fa6ef349aafa8696845e7c
+projection_coverage: section-javascriptallonge-section-composing-and-decomposing-data-tail-calls-and-default-arguments-converting-non-tail-calls-to-tai-22a8069d@9357fb92431ab3bf7c20bfd481098069
 ---
 
 # Composing and Decomposing Data / Tail Calls (and Default Arguments) / converting non-tail-calls to tail-calls
@@ -24,6 +24,10 @@ From [[javascriptallonge]].
 ### Source structure
 
 - [[javascriptallonge-section-composing-and-decomposing-data-tail-calls-and-default-arguments-b4311a56]] - broader source section: Composing and Decomposing Data / Tail Calls (and Default Arguments)
+
+### Recipes
+
+- [[javascriptallonge-recipe-converting-non-tail-calls-to-tail-calls]] - recipe pattern: converting non-tail-calls to tail-calls
 
 ## Statements
 

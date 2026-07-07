@@ -11,6 +11,9 @@ from llmwiki.domain.ledger.ledger import (
     SourceFamilyAssignment,
     SourceProfile,
 )
+from llmwiki.domain.ledger.projection_navigation_closure import (
+    section_backlinks_for_generated_pages,
+)
 from llmwiki.domain.ledger.related_link_policy import budget_related_links, group_related_links
 from llmwiki.domain.ledger.section_planning import PageTarget, SectionGroundedPlan
 from llmwiki.domain.ledger.source_manifest_navigation import (
@@ -48,6 +51,47 @@ def test_source_manifest_is_navigation_first_without_source_transcript() -> None
     assert "[[x-procedure-build-vel]]" in body
     assert "```" not in body
     assert "| --- |" not in body
+
+
+def test_source_manifest_exposes_recipe_page_family_entrypoints() -> None:
+    structure = _structure(StructureNode("chapter", "chapter", "1. Vel", "r1", "x.pdf", 1))
+    linked = (
+        _page("x-section-1-vel-aaaa1111", "source", "section-reference"),
+        _page("x-recipe-rin-pattern", "recipe", "recipe-pattern"),
+    )
+
+    plan = build_source_navigation_plan(
+        source_page_id="x",
+        title="X",
+        source_locator="x.pdf",
+        ledger_summary="Claim-ledger projection.",
+        linked_pages=linked,
+        structure=structure,
+    )
+    body = render_source_manifest(plan)
+
+    assert "recipe-pattern: 1 page(s)" in body
+    assert "## Recipes" in body
+    assert "[[x-recipe-rin-pattern]]" in body
+
+
+def test_generated_projection_refs_create_section_backlinks() -> None:
+    recipe = WikiPage.from_metadata(
+        PageMetadata(
+            page_id="x-recipe-rin-pattern",
+            page_kind="recipe",
+            page_family="recipe-pattern",
+            summary="Rin pattern.",
+            sources=("raw/x.pdf",),
+        ),
+        "# Rin Pattern\n\n## Source Trail\n\n- Source section: [[x-section-rin-aaaa1111]]\n",
+    )
+
+    backlinks = section_backlinks_for_generated_pages((recipe,))
+
+    assert tuple(backlinks) == ("x-section-rin-aaaa1111",)
+    assert backlinks["x-section-rin-aaaa1111"][0].page_id == "x-recipe-rin-pattern"
+    assert backlinks["x-section-rin-aaaa1111"][0].relation == "recipe pattern"
 
 
 def test_collection_plans_use_repeated_peer_shape_not_domain_nouns() -> None:

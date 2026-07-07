@@ -8,7 +8,7 @@ updated: 2026-07-07
 domain: javascriptallonge
 category_path: sources/javascriptallonge/sections
 source_id: javascriptallonge.pdf
-projection_coverage: section-javascriptallonge-section-a-history-lesson-f921305a@ef9e2c6fd12dfa346b4f79927a1921f1
+projection_coverage: section-javascriptallonge-section-a-history-lesson-f921305a@6d60f1c5ba1c7def0f20f87f0a29f22b
 ---
 
 # a history lesson
@@ -21,6 +21,10 @@ From [[javascriptallonge]].
 
 - [[javascriptallonge-section-recipes-with-basic-functions-d7445960]] - previous source section: Recipes with Basic Functions
 - [[javascriptallonge-section-overcoming-limitations-885636ba]] - next source section: overcoming limitations
+
+### Recipes
+
+- [[javascriptallonge-recipe-a-history-lesson]] - recipe pattern: a history lesson
 
 ## Statements
 

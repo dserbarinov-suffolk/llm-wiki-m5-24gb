@@ -14,9 +14,10 @@ _GROUP_ORDER = {
     "source-structure": 1,
     "collection": 2,
     "procedure": 3,
-    "shared-technical-atom": 4,
-    "shared-claim": 5,
-    "topic": 6,
+    "recipe": 4,
+    "shared-technical-atom": 5,
+    "shared-claim": 6,
+    "topic": 7,
     "other": 99,
 }
 
@@ -25,6 +26,7 @@ _GROUP_TITLE = {
     "source-structure": "Source structure",
     "collection": "Collections",
     "procedure": "Procedures",
+    "recipe": "Recipes",
     "shared-technical-atom": "Shared technical atoms",
     "shared-claim": "Shared claims",
     "topic": "Topics",
@@ -86,6 +88,8 @@ def relation_group_kind(relation: str) -> str:
         return "collection"
     if "procedure" in lowered or "step" in lowered:
         return "procedure"
+    if "recipe" in lowered or "pattern" in lowered:
+        return "recipe"
     if "technical atom" in lowered or "technical record" in lowered:
         return "shared-technical-atom"
     if "statement" in lowered or "claim" in lowered:

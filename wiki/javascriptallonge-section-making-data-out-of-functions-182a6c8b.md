@@ -8,7 +8,7 @@ updated: 2026-07-07
 domain: javascriptallonge
 category_path: sources/javascriptallonge/sections
 source_id: javascriptallonge.pdf
-projection_coverage: section-javascriptallonge-section-making-data-out-of-functions-182a6c8b@ad9b574213b98304e5461c3d87719593
+projection_coverage: section-javascriptallonge-section-making-data-out-of-functions-182a6c8b@6e507eeedcd673c98eca8d0419c5d1f5
 ---
 
 # Making Data Out Of Functions
@@ -30,6 +30,10 @@ From [[javascriptallonge]].
 - [[javascriptallonge-section-making-data-out-of-functions-say-please-f8da9670]] - narrower source section: Making Data Out Of Functions / say 'please'
 - [[javascriptallonge-section-making-data-out-of-functions-the-kestrel-and-the-idiot-203dea45]] - narrower source section: Making Data Out Of Functions / the kestrel and the idiot
 - [[javascriptallonge-section-making-data-out-of-functions-the-vireo-1b2dccd1]] - narrower source section: Making Data Out Of Functions / the vireo
+
+### Collections
+
+- [[javascriptallonge-collection-making-data-out-of-functions-182a6c8b]] - collection page: Making Data Out Of Functions
 
 ## Statements
 

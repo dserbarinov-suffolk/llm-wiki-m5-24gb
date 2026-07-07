@@ -8,7 +8,7 @@ updated: 2026-07-07
 domain: javascriptallonge
 category_path: sources/javascriptallonge/sections
 source_id: javascriptallonge.pdf
-projection_coverage: section-javascriptallonge-section-picking-the-bean-choice-and-truthiness-truthiness-and-the-ternary-operator-b715a907@dc55f2b310b17b0fbbea4c7c11854c85
+projection_coverage: section-javascriptallonge-section-picking-the-bean-choice-and-truthiness-truthiness-and-the-ternary-operator-b715a907@c0826a8134c1c422a416cfeb81c31bab
 ---
 
 # Picking the Bean: Choice and Truthiness / truthiness and the ternary operator
@@ -24,6 +24,10 @@ From [[javascriptallonge]].
 ### Source structure
 
 - [[javascriptallonge-section-picking-the-bean-choice-and-truthiness-d2a76f30]] - broader source section: Picking the Bean: Choice and Truthiness
+
+### Recipes
+
+- [[javascriptallonge-recipe-truthiness-and-the-ternary-operator]] - recipe pattern: truthiness and the ternary operator
 
 ## Statements
 

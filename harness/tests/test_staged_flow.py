@@ -58,6 +58,52 @@ def test_staged_pages_block_unplanned_page_family_before_publish() -> None:
     assert accepted_pages(staged, publish_run) == ()
 
 
+def test_staged_pages_block_generated_page_without_inbound_route() -> None:
+    source_plan = build_source_plan(
+        source_locator="src.pdf",
+        source_hash=_HASH,
+        source_page_id="src",
+    )
+    source = _page("src", "source", "source-manifest")
+    recipe = _page("src-recipe-rin", "recipe", "recipe-pattern")
+    staged = build_staged_page_set(source_plan, (source, recipe))
+    lint_run = build_lint_run(
+        source_plan=source_plan,
+        staged_page_set=staged,
+        upstream_write_decision="write-authoritative-page",
+    )
+
+    assert lint_run.status == "blocked"
+    assert any(
+        finding.finding_type == "generated-page-has-no-inbound-route"
+        and finding.page_id == "src-recipe-rin"
+        for finding in lint_run.findings
+    )
+
+
+def test_staged_pages_accept_generated_page_with_inbound_route() -> None:
+    source_plan = build_source_plan(
+        source_locator="src.pdf",
+        source_hash=_HASH,
+        source_page_id="src",
+    )
+    source = _page(
+        "src",
+        "source",
+        "source-manifest",
+        body="# src\n\n## Recipes\n\n- [[src-recipe-rin]] - recipe pattern: Rin.\n",
+    )
+    recipe = _page("src-recipe-rin", "recipe", "recipe-pattern")
+    staged = build_staged_page_set(source_plan, (source, recipe))
+    lint_run = build_lint_run(
+        source_plan=source_plan,
+        staged_page_set=staged,
+        upstream_write_decision="write-authoritative-page",
+    )
+
+    assert lint_run.status == "accepted"
+
+
 def test_source_ledger_persists_stage_artifacts_from_real_pipeline() -> None:
     result = build_source_ledger(
         source_locator="src.pdf",
@@ -95,7 +141,9 @@ def test_source_ledger_persists_stage_artifacts_from_real_pipeline() -> None:
     assert "publish-run-artifact" in member_kinds
 
 
-def _page(page_id: str, page_kind: str, page_family: str) -> WikiPage:
+def _page(
+    page_id: str, page_kind: str, page_family: str, *, body: str | None = None
+) -> WikiPage:
     metadata = PageMetadata(
         page_id=page_id,
         page_kind=page_kind,
@@ -104,4 +152,4 @@ def _page(page_id: str, page_kind: str, page_family: str) -> WikiPage:
         sources=("raw/src.pdf",),
         projection_coverage_pointer=f"{page_id}@abc",
     )
-    return WikiPage.from_metadata(metadata, f"# {page_id}\n")
+    return WikiPage.from_metadata(metadata, body or f"# {page_id}\n")

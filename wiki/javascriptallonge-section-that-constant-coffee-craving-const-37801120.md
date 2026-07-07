@@ -8,7 +8,7 @@ updated: 2026-07-07
 domain: javascriptallonge
 category_path: sources/javascriptallonge/sections
 source_id: javascriptallonge.pdf
-projection_coverage: section-javascriptallonge-section-that-constant-coffee-craving-const-37801120@76a1f7ee5308745c6fdcc55d3d7cc84e
+projection_coverage: section-javascriptallonge-section-that-constant-coffee-craving-const-37801120@98651d66a6f9f999050de18042b4a9ba
 ---
 
 # That Constant Coffee Craving / const
@@ -25,6 +25,10 @@ From [[javascriptallonge]].
 ### Source structure
 
 - [[javascriptallonge-section-that-constant-coffee-craving-614e2fd3]] - broader source section: That Constant Coffee Craving
+
+### Recipes
+
+- [[javascriptallonge-recipe-const]] - recipe pattern: const
 
 ### Topics
 

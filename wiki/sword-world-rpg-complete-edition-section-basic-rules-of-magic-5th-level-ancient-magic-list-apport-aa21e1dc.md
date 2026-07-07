@@ -8,7 +8,7 @@ updated: 2026-07-07
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-basic-rules-of-magic-5th-level-ancient-magic-list-apport-aa21e1dc@10c007f823ca7f2bee516a37ee91f4a1
+projection_coverage: section-sword-world-rpg-complete-edition-section-basic-rules-of-magic-5th-level-ancient-magic-list-apport-aa21e1dc@48d61b3e2d8f46ad8eb91fa829f6439c
 ---
 
 # Basic Rules of Magic / 5th Level Ancient Magic List [ Apport ]
@@ -32,3 +32,7 @@ From [[sword-world-rpg-complete-edition]].
 - [[sword-world-rpg-complete-edition-section-basic-rules-of-magic-5th-level-ancient-magic-list-apport-skeleton-warrior-7055bdd0]] - narrower source section: Basic Rules of Magic / 5th Level Ancient Magic List [ Apport ] / Skeleton Warrior
 - [[sword-world-rpg-complete-edition-section-basic-rules-of-magic-5th-level-ancient-magic-list-apport-suppress-elemental-a5fa7ded]] - narrower source section: Basic Rules of Magic / 5th Level Ancient Magic List [ Apport ] / Suppress Elemental
 - [[sword-world-rpg-complete-edition-section-basic-rules-of-magic-5th-level-ancient-magic-list-apport-translate-a400d545]] - narrower source section: Basic Rules of Magic / 5th Level Ancient Magic List [ Apport ] / Translate
+
+### Collections
+
+- [[sword-world-rpg-complete-edition-collection-basic-rules-of-magic-5th-level-ancient-magic-list-apport-aa21e1dc]] - collection page: Basic Rules of Magic / 5th Level Ancient Magic List [ Apport ]

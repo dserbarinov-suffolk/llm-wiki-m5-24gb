@@ -8,7 +8,7 @@ updated: 2026-07-07
 domain: javascriptallonge
 category_path: sources/javascriptallonge/sections
 source_id: javascriptallonge.pdf
-projection_coverage: section-javascriptallonge-section-served-by-the-pot-collections-rewriting-iterable-operations-f8a6e431@3e4de1b32c5e8b743f2a9ef9eaba6627
+projection_coverage: section-javascriptallonge-section-served-by-the-pot-collections-rewriting-iterable-operations-f8a6e431@062492e7d313807fb91022c2737c5c0b
 ---
 
 # Served by the Pot: Collections / rewriting iterable operations
@@ -24,6 +24,10 @@ From [[javascriptallonge]].
 ### Source structure
 
 - [[javascriptallonge-section-served-by-the-pot-collections-e15a3403]] - broader source section: Served by the Pot: Collections
+
+### Recipes
+
+- [[javascriptallonge-recipe-rewriting-iterable-operations]] - recipe pattern: rewriting iterable operations
 
 ## Statements
 

@@ -8,7 +8,7 @@ updated: 2026-07-07
 domain: javascriptallonge
 category_path: sources/javascriptallonge/sections
 source_id: javascriptallonge.pdf
-projection_coverage: section-javascriptallonge-section-the-first-sip-basic-functions-as-little-as-possible-about-functions-but-no-less-functions-that-r-a65d460b@a0bf4d63c3ff10ec5a1a4a0a36161b33
+projection_coverage: section-javascriptallonge-section-the-first-sip-basic-functions-as-little-as-possible-about-functions-but-no-less-functions-that-r-a65d460b@ccc54d0c3b9d07ba7b1a6b592c751245
 ---
 
 # The first sip: Basic Functions / As Little As Possible About Functions, But No Less / functions that return values and evaluate expressions
@@ -25,6 +25,10 @@ From [[javascriptallonge]].
 ### Source structure
 
 - [[javascriptallonge-section-the-first-sip-basic-functions-as-little-as-possible-about-functions-but-no-less-a62974a6]] - broader source section: The first sip: Basic Functions / As Little As Possible About Functions, But No Less
+
+### Recipes
+
+- [[javascriptallonge-recipe-functions-that-return-values-and-evaluate-expressions]] - recipe pattern: functions that return values and evaluate expressions
 
 ## Statements
 

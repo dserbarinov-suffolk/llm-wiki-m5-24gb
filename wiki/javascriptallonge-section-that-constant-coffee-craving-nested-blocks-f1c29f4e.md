@@ -8,7 +8,7 @@ updated: 2026-07-07
 domain: javascriptallonge
 category_path: sources/javascriptallonge/sections
 source_id: javascriptallonge.pdf
-projection_coverage: section-javascriptallonge-section-that-constant-coffee-craving-nested-blocks-f1c29f4e@760908ec57e4ad2ce5f5e84e4327805b
+projection_coverage: section-javascriptallonge-section-that-constant-coffee-craving-nested-blocks-f1c29f4e@a2057893f7c05cc18c6a28f17058f539
 ---
 
 # That Constant Coffee Craving / nested blocks
@@ -25,6 +25,10 @@ From [[javascriptallonge]].
 ### Source structure
 
 - [[javascriptallonge-section-that-constant-coffee-craving-614e2fd3]] - broader source section: That Constant Coffee Craving
+
+### Recipes
+
+- [[javascriptallonge-recipe-nested-blocks]] - recipe pattern: nested blocks
 
 ## Statements
 

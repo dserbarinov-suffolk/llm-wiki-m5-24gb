@@ -8,7 +8,7 @@ updated: 2026-07-07
 domain: javascriptallonge
 category_path: sources/javascriptallonge/sections
 source_id: javascriptallonge.pdf
-projection_coverage: section-javascriptallonge-section-served-by-the-pot-collections-iteration-and-iterables-a-look-back-at-functional-iterators-57a76f01@bb3dd8b28f849bceb9b76d6ee2347479
+projection_coverage: section-javascriptallonge-section-served-by-the-pot-collections-iteration-and-iterables-a-look-back-at-functional-iterators-57a76f01@507c9ad859bae38a2c276cc127645c45
 ---
 
 # Served by the Pot: Collections / Iteration and Iterables / a look back at functional iterators
@@ -24,6 +24,10 @@ From [[javascriptallonge]].
 ### Source structure
 
 - [[javascriptallonge-section-served-by-the-pot-collections-iteration-and-iterables-98745d63]] - broader source section: Served by the Pot: Collections / Iteration and Iterables
+
+### Recipes
+
+- [[javascriptallonge-recipe-a-look-back-at-functional-iterators]] - recipe pattern: a look back at functional iterators
 
 ### Topics
 

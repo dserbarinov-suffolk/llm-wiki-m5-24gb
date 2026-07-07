@@ -8,7 +8,7 @@ updated: 2026-07-07
 domain: javascriptallonge
 category_path: sources/javascriptallonge/sections
 source_id: javascriptallonge.pdf
-projection_coverage: section-javascriptallonge-section-served-by-the-pot-collections-generating-iterables-generators-are-coroutines-d0fde127@aa457ff241d418cc431454add142a614
+projection_coverage: section-javascriptallonge-section-served-by-the-pot-collections-generating-iterables-generators-are-coroutines-d0fde127@adb1a7d89c1c25849c8c027c1fff9b57
 ---
 
 # Served by the Pot: Collections / Generating Iterables / generators are coroutines
@@ -25,6 +25,10 @@ From [[javascriptallonge]].
 ### Source structure
 
 - [[javascriptallonge-section-served-by-the-pot-collections-generating-iterables-f68c47a5]] - broader source section: Served by the Pot: Collections / Generating Iterables
+
+### Recipes
+
+- [[javascriptallonge-recipe-generators-are-coroutines]] - recipe pattern: generators are coroutines
 
 ## Statements
 

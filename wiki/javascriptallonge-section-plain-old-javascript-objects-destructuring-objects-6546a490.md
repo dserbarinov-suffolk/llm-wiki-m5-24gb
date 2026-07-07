@@ -8,7 +8,7 @@ updated: 2026-07-07
 domain: javascriptallonge
 category_path: sources/javascriptallonge/sections
 source_id: javascriptallonge.pdf
-projection_coverage: section-javascriptallonge-section-plain-old-javascript-objects-destructuring-objects-6546a490@1cb8e537d8ecc9014c73551f00a565a5
+projection_coverage: section-javascriptallonge-section-plain-old-javascript-objects-destructuring-objects-6546a490@5d797b0c522573a8996e1d480c620f2f
 ---
 
 # Plain Old JavaScript Objects / destructuring objects
@@ -25,6 +25,10 @@ From [[javascriptallonge]].
 ### Source structure
 
 - [[javascriptallonge-section-plain-old-javascript-objects-ae9a88a3]] - broader source section: Plain Old JavaScript Objects
+
+### Recipes
+
+- [[javascriptallonge-recipe-destructuring-objects]] - recipe pattern: destructuring objects
 
 ## Statements
 

@@ -8,7 +8,7 @@ updated: 2026-07-07
 domain: javascriptallonge
 category_path: sources/javascriptallonge/sections
 source_id: javascriptallonge.pdf
-projection_coverage: section-javascriptallonge-section-magic-names-the-function-keyword-55f3d121@20865bf288934a81fe83d5fed227c5cd
+projection_coverage: section-javascriptallonge-section-magic-names-the-function-keyword-55f3d121@c974adee10363db729d2280184bccc37
 ---
 
 # Magic Names / the function keyword
@@ -24,6 +24,10 @@ From [[javascriptallonge]].
 ### Source structure
 
 - [[javascriptallonge-section-magic-names-0c5d7af9]] - broader source section: Magic Names
+
+### Recipes
+
+- [[javascriptallonge-recipe-the-function-keyword]] - recipe pattern: the function keyword
 
 ### Topics
 

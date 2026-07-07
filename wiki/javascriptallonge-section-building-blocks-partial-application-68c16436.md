@@ -8,7 +8,7 @@ updated: 2026-07-07
 domain: javascriptallonge
 category_path: sources/javascriptallonge/sections
 source_id: javascriptallonge.pdf
-projection_coverage: section-javascriptallonge-section-building-blocks-partial-application-68c16436@c437ba59926c4fe21d4048e97f5609f4
+projection_coverage: section-javascriptallonge-section-building-blocks-partial-application-68c16436@dcc7f65ffcb48fc0d9dbdc2a4dceba54
 ---
 
 # Building Blocks / partial application
@@ -24,6 +24,10 @@ From [[javascriptallonge]].
 ### Source structure
 
 - [[javascriptallonge-section-building-blocks-fdb3fcfb]] - broader source section: Building Blocks
+
+### Recipes
+
+- [[javascriptallonge-recipe-partial-application-68c16436]] - recipe pattern: partial application
 
 ### Topics
 

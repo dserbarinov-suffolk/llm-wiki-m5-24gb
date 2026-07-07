@@ -8,7 +8,7 @@ updated: 2026-07-07
 domain: javascriptallonge
 category_path: sources/javascriptallonge/sections
 source_id: javascriptallonge.pdf
-projection_coverage: section-javascriptallonge-section-composing-and-decomposing-data-tail-calls-and-default-arguments-tail-call-optimization-52c04968@3ca551fcacd7f7434efdb7a74fa98255
+projection_coverage: section-javascriptallonge-section-composing-and-decomposing-data-tail-calls-and-default-arguments-tail-call-optimization-52c04968@90ce41e6fad17dee6081692a79e577df
 ---
 
 # Composing and Decomposing Data / Tail Calls (and Default Arguments) / tail-call optimization
@@ -24,6 +24,10 @@ From [[javascriptallonge]].
 ### Source structure
 
 - [[javascriptallonge-section-composing-and-decomposing-data-tail-calls-and-default-arguments-b4311a56]] - broader source section: Composing and Decomposing Data / Tail Calls (and Default Arguments)
+
+### Recipes
+
+- [[javascriptallonge-recipe-tail-call-optimization]] - recipe pattern: tail-call optimization
 
 ## Statements
 

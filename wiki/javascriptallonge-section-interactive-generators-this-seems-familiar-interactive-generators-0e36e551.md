@@ -8,7 +8,7 @@ updated: 2026-07-07
 domain: javascriptallonge
 category_path: sources/javascriptallonge/sections
 source_id: javascriptallonge.pdf
-projection_coverage: section-javascriptallonge-section-interactive-generators-this-seems-familiar-interactive-generators-0e36e551@1326fa87b70ed6db65153c79e30452ae
+projection_coverage: section-javascriptallonge-section-interactive-generators-this-seems-familiar-interactive-generators-0e36e551@eac2fe6689f9fe130006ffea510d505c
 ---
 
 # Interactive Generators / this seems familiar / interactive generators
@@ -20,6 +20,10 @@ From [[javascriptallonge]].
 ### Source structure
 
 - [[javascriptallonge-section-interactive-generators-this-seems-familiar-ca8bdeb5]] - broader source section: Interactive Generators / this seems familiar
+
+### Recipes
+
+- [[javascriptallonge-recipe-interactive-generators]] - recipe pattern: interactive generators
 
 ### Topics
 

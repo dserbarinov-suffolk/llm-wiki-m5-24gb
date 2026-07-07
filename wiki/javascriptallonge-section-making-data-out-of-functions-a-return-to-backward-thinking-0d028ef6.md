@@ -8,7 +8,7 @@ updated: 2026-07-07
 domain: javascriptallonge
 category_path: sources/javascriptallonge/sections
 source_id: javascriptallonge.pdf
-projection_coverage: section-javascriptallonge-section-making-data-out-of-functions-a-return-to-backward-thinking-0d028ef6@07bc81c170ee59e2937a3644e5190599
+projection_coverage: section-javascriptallonge-section-making-data-out-of-functions-a-return-to-backward-thinking-0d028ef6@05d6d55b688f88e835904699423913a6
 ---
 
 # Making Data Out Of Functions / a return to backward thinking
@@ -24,6 +24,10 @@ From [[javascriptallonge]].
 ### Source structure
 
 - [[javascriptallonge-section-making-data-out-of-functions-182a6c8b]] - broader source section: Making Data Out Of Functions
+
+### Recipes
+
+- [[javascriptallonge-recipe-a-return-to-backward-thinking]] - recipe pattern: a return to backward thinking
 
 ## Statements
 

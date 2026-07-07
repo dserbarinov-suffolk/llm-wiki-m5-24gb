@@ -8,7 +8,7 @@ updated: 2026-07-07
 domain: javascriptallonge
 category_path: sources/javascriptallonge/sections
 source_id: javascriptallonge.pdf
-projection_coverage: section-javascriptallonge-section-served-by-the-pot-collections-e15a3403@52af8ec94c26ad14d8b4f38167cebd3d
+projection_coverage: section-javascriptallonge-section-served-by-the-pot-collections-e15a3403@e311ec727a0dba77106ae00876d32053
 ---
 
 # Served by the Pot: Collections
@@ -27,6 +27,10 @@ From [[javascriptallonge]].
 - [[javascriptallonge-section-served-by-the-pot-collections-generating-iterables-f68c47a5]] - narrower source section: Served by the Pot: Collections / Generating Iterables
 - [[javascriptallonge-section-served-by-the-pot-collections-iteration-and-iterables-98745d63]] - narrower source section: Served by the Pot: Collections / Iteration and Iterables
 - [[javascriptallonge-section-served-by-the-pot-collections-rewriting-iterable-operations-f8a6e431]] - narrower source section: Served by the Pot: Collections / rewriting iterable operations
+
+### Collections
+
+- [[javascriptallonge-collection-served-by-the-pot-collections-e15a3403]] - collection page: Served by the Pot: Collections
 
 ## Statements by subsection
 

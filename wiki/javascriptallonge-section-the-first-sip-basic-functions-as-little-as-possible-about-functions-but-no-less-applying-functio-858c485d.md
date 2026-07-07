@@ -8,7 +8,7 @@ updated: 2026-07-07
 domain: javascriptallonge
 category_path: sources/javascriptallonge/sections
 source_id: javascriptallonge.pdf
-projection_coverage: section-javascriptallonge-section-the-first-sip-basic-functions-as-little-as-possible-about-functions-but-no-less-applying-functio-858c485d@66a55aada0ae6a2ff4f7d79777f140ca
+projection_coverage: section-javascriptallonge-section-the-first-sip-basic-functions-as-little-as-possible-about-functions-but-no-less-applying-functio-858c485d@dda821c7bc58887f0f2d8a7f831400cb
 ---
 
 # The first sip: Basic Functions / As Little As Possible About Functions, But No Less / applying functions
@@ -25,6 +25,10 @@ From [[javascriptallonge]].
 ### Source structure
 
 - [[javascriptallonge-section-the-first-sip-basic-functions-as-little-as-possible-about-functions-but-no-less-a62974a6]] - broader source section: The first sip: Basic Functions / As Little As Possible About Functions, But No Less
+
+### Recipes
+
+- [[javascriptallonge-recipe-applying-functions]] - recipe pattern: applying functions
 
 ## Statements
 

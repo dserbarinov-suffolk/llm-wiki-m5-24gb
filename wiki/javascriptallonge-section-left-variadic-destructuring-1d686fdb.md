@@ -8,7 +8,7 @@ updated: 2026-07-07
 domain: javascriptallonge
 category_path: sources/javascriptallonge/sections
 source_id: javascriptallonge.pdf
-projection_coverage: section-javascriptallonge-section-left-variadic-destructuring-1d686fdb@3c6b634f37e87b2d3f86d717fad46db6
+projection_coverage: section-javascriptallonge-section-left-variadic-destructuring-1d686fdb@16e19aeed22b4edcfe7284c43b1165b9
 ---
 
 # left-variadic destructuring
@@ -21,6 +21,10 @@ From [[javascriptallonge]].
 
 - [[javascriptallonge-section-overcoming-limitations-885636ba]] - previous source section: overcoming limitations
 - [[javascriptallonge-section-picking-the-bean-choice-and-truthiness-d2a76f30]] - next source section: Picking the Bean: Choice and Truthiness
+
+### Recipes
+
+- [[javascriptallonge-recipe-left-variadic-destructuring]] - recipe pattern: left-variadic destructuring
 
 ## Statements
 

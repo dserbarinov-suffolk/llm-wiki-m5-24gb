@@ -8,7 +8,7 @@ updated: 2026-07-07
 domain: javascriptallonge
 category_path: sources/javascriptallonge/sections
 source_id: javascriptallonge.pdf
-projection_coverage: section-javascriptallonge-section-garbage-garbage-everywhere-8c9764a5@91f1f69a1beee9a27cf4d86839b35ffe
+projection_coverage: section-javascriptallonge-section-garbage-garbage-everywhere-8c9764a5@256f59ed3d24e557bd2c54442c40b6ac
 ---
 
 # Garbage, Garbage Everywhere
@@ -26,6 +26,10 @@ From [[javascriptallonge]].
 
 - [[javascriptallonge-section-garbage-garbage-everywhere-so-why-arrays-35221ee3]] - narrower source section: Garbage, Garbage Everywhere / so why arrays
 - [[javascriptallonge-section-garbage-garbage-everywhere-some-history-d0580aea]] - narrower source section: Garbage, Garbage Everywhere / some history
+
+### Collections
+
+- [[javascriptallonge-collection-garbage-garbage-everywhere-8c9764a5]] - collection page: Garbage, Garbage Everywhere
 
 ## Statements
 

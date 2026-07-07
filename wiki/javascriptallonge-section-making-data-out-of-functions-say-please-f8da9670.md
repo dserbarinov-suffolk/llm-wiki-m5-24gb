@@ -8,7 +8,7 @@ updated: 2026-07-07
 domain: javascriptallonge
 category_path: sources/javascriptallonge/sections
 source_id: javascriptallonge.pdf
-projection_coverage: section-javascriptallonge-section-making-data-out-of-functions-say-please-f8da9670@2219cbbaa3b3b720544b206467292a99
+projection_coverage: section-javascriptallonge-section-making-data-out-of-functions-say-please-f8da9670@26bfc5c94e275c1df9831faad9ee0b40
 ---
 
 # Making Data Out Of Functions / say 'please'
@@ -25,6 +25,10 @@ From [[javascriptallonge]].
 ### Source structure
 
 - [[javascriptallonge-section-making-data-out-of-functions-182a6c8b]] - broader source section: Making Data Out Of Functions
+
+### Recipes
+
+- [[javascriptallonge-recipe-say-please]] - recipe pattern: say 'please'
 
 ## Statements
 

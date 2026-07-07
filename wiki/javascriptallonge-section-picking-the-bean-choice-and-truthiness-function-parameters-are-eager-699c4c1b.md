@@ -8,7 +8,7 @@ updated: 2026-07-07
 domain: javascriptallonge
 category_path: sources/javascriptallonge/sections
 source_id: javascriptallonge.pdf
-projection_coverage: section-javascriptallonge-section-picking-the-bean-choice-and-truthiness-function-parameters-are-eager-699c4c1b@2e2988196a2046d60a6130f62b261e2b
+projection_coverage: section-javascriptallonge-section-picking-the-bean-choice-and-truthiness-function-parameters-are-eager-699c4c1b@d674c8f5a818daac0fbf1194ba477687
 ---
 
 # Picking the Bean: Choice and Truthiness / function parameters are eager
@@ -24,6 +24,10 @@ From [[javascriptallonge]].
 ### Source structure
 
 - [[javascriptallonge-section-picking-the-bean-choice-and-truthiness-d2a76f30]] - broader source section: Picking the Bean: Choice and Truthiness
+
+### Recipes
+
+- [[javascriptallonge-recipe-function-parameters-are-eager]] - recipe pattern: function parameters are eager
 
 ## Statements
 

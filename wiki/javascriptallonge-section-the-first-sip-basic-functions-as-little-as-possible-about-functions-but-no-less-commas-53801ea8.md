@@ -8,7 +8,7 @@ updated: 2026-07-07
 domain: javascriptallonge
 category_path: sources/javascriptallonge/sections
 source_id: javascriptallonge.pdf
-projection_coverage: section-javascriptallonge-section-the-first-sip-basic-functions-as-little-as-possible-about-functions-but-no-less-commas-53801ea8@46cc3d52ca35368de0e48c96fa7f88c7
+projection_coverage: section-javascriptallonge-section-the-first-sip-basic-functions-as-little-as-possible-about-functions-but-no-less-commas-53801ea8@bcc8c3e581d66256aac9bb8cfa44e7a0
 ---
 
 # The first sip: Basic Functions / As Little As Possible About Functions, But No Less / commas
@@ -24,6 +24,10 @@ From [[javascriptallonge]].
 ### Source structure
 
 - [[javascriptallonge-section-the-first-sip-basic-functions-as-little-as-possible-about-functions-but-no-less-a62974a6]] - broader source section: The first sip: Basic Functions / As Little As Possible About Functions, But No Less
+
+### Recipes
+
+- [[javascriptallonge-recipe-commas]] - recipe pattern: commas
 
 ## Statements
 

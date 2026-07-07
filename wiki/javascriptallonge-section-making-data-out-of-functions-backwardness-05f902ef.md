@@ -8,7 +8,7 @@ updated: 2026-07-07
 domain: javascriptallonge
 category_path: sources/javascriptallonge/sections
 source_id: javascriptallonge.pdf
-projection_coverage: section-javascriptallonge-section-making-data-out-of-functions-backwardness-05f902ef@65ea1e7dbabe26b6e6dd457e5647ffac
+projection_coverage: section-javascriptallonge-section-making-data-out-of-functions-backwardness-05f902ef@fa8c5180ff3f094ec1f8abdd20dceb6a
 ---
 
 # Making Data Out Of Functions / backwardness
@@ -25,6 +25,10 @@ From [[javascriptallonge]].
 ### Source structure
 
 - [[javascriptallonge-section-making-data-out-of-functions-182a6c8b]] - broader source section: Making Data Out Of Functions
+
+### Recipes
+
+- [[javascriptallonge-recipe-backwardness]] - recipe pattern: backwardness
 
 ## Statements
 

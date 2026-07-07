@@ -8,7 +8,7 @@ updated: 2026-07-07
 domain: javascriptallonge
 category_path: sources/javascriptallonge/sections
 source_id: javascriptallonge.pdf
-projection_coverage: section-javascriptallonge-section-composing-and-decomposing-data-factorials-4b205fe1@139547a27a39b42f7d7b731045a5341f
+projection_coverage: section-javascriptallonge-section-composing-and-decomposing-data-factorials-4b205fe1@a46bd34a0ccb6f60216596bd6b227f75
 ---
 
 # Composing and Decomposing Data / factorials
@@ -25,6 +25,10 @@ From [[javascriptallonge]].
 ### Source structure
 
 - [[javascriptallonge-section-composing-and-decomposing-data-99b4771a]] - broader source section: Composing and Decomposing Data
+
+### Recipes
+
+- [[javascriptallonge-recipe-factorials]] - recipe pattern: factorials
 
 ## Statements
 

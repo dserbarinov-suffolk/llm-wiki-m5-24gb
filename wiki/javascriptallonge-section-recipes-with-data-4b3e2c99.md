@@ -8,7 +8,7 @@ updated: 2026-07-07
 domain: javascriptallonge
 category_path: sources/javascriptallonge/sections
 source_id: javascriptallonge.pdf
-projection_coverage: section-javascriptallonge-section-recipes-with-data-4b3e2c99@dc820bc06fc5a5496bf61671b40ac859
+projection_coverage: section-javascriptallonge-section-recipes-with-data-4b3e2c99@8105a4adad32a1aca6dd0bc5757497c2
 ---
 
 # Recipes with Data
@@ -27,6 +27,10 @@ From [[javascriptallonge]].
 - [[javascriptallonge-section-recipes-with-data-flip-b1a8ea8d]] - narrower source section: Recipes with Data / Flip
 - [[javascriptallonge-section-recipes-with-data-mapwith-202c0d4f]] - narrower source section: Recipes with Data / mapWith
 - [[javascriptallonge-section-recipes-with-data-object-assign-8d8e0e13]] - narrower source section: Recipes with Data / Object.assign
+
+### Collections
+
+- [[javascriptallonge-collection-recipes-with-data-4b3e2c99]] - collection page: Recipes with Data
 
 ## Statements by subsection
 

@@ -8,7 +8,7 @@ updated: 2026-07-07
 domain: javascriptallonge
 category_path: sources/javascriptallonge/sections
 source_id: javascriptallonge.pdf
-projection_coverage: section-javascriptallonge-section-plain-old-javascript-objects-revisiting-linked-lists-4e16a53d@64d03e9edcb1627279116d6a196993ee
+projection_coverage: section-javascriptallonge-section-plain-old-javascript-objects-revisiting-linked-lists-4e16a53d@df19fdcf6e2d0cc51cdd07d265800454
 ---
 
 # Plain Old JavaScript Objects / revisiting linked lists
@@ -24,6 +24,10 @@ From [[javascriptallonge]].
 ### Source structure
 
 - [[javascriptallonge-section-plain-old-javascript-objects-ae9a88a3]] - broader source section: Plain Old JavaScript Objects
+
+### Recipes
+
+- [[javascriptallonge-recipe-revisiting-linked-lists]] - recipe pattern: revisiting linked lists
 
 ## Statements
 

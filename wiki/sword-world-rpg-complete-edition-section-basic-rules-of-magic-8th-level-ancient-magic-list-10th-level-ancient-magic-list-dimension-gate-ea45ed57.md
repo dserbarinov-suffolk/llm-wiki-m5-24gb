@@ -8,7 +8,7 @@ updated: 2026-07-07
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-basic-rules-of-magic-8th-level-ancient-magic-list-10th-level-ancient-magic-list-dimension-gate-ea45ed57@9d7f302b053c6f05b37bb98081eab099
+projection_coverage: section-sword-world-rpg-complete-edition-section-basic-rules-of-magic-8th-level-ancient-magic-list-10th-level-ancient-magic-list-dimension-gate-ea45ed57@d58de87b3f5ccb8cef35e487309aa4a9
 ---
 
 # Basic Rules of Magic / 8th Level Ancient Magic List / 10th Level Ancient Magic List [ Dimension Gate ]
@@ -29,3 +29,7 @@ From [[sword-world-rpg-complete-edition]].
 - [[sword-world-rpg-complete-edition-section-basic-rules-of-magic-8th-level-ancient-magic-list-10th-level-ancient-magic-list-dimension-gate-d-902cd520]] - narrower source section: Basic Rules of Magic / 8th Level Ancient Magic List / 10th Level Ancient Magic List [ Dimension Gate ] / Death Cloud
 - [[sword-world-rpg-complete-edition-section-basic-rules-of-magic-8th-level-ancient-magic-list-10th-level-ancient-magic-list-dimension-gate-m-7b074297]] - narrower source section: Basic Rules of Magic / 8th Level Ancient Magic List / 10th Level Ancient Magic List [ Dimension Gate ] / Meteor Strike
 - [[sword-world-rpg-complete-edition-section-basic-rules-of-magic-8th-level-ancient-magic-list-10th-level-ancient-magic-list-dimension-gate-p-2da13442]] - narrower source section: Basic Rules of Magic / 8th Level Ancient Magic List / 10th Level Ancient Magic List [ Dimension Gate ] / Perfect Cancellation
+
+### Collections
+
+- [[sword-world-rpg-complete-edition-collection-basic-rules-of-magic-8th-level-ancient-magic-list-10th-level-ancient-magic-list-dimension-gate-ea45ed57]] - collection page: Basic Rules of Magic / 8th Level Ancient Magic List / 10th Level Ancient Magic List [ Dimension Gate ]

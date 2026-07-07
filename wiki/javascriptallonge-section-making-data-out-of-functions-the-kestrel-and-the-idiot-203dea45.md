@@ -8,7 +8,7 @@ updated: 2026-07-07
 domain: javascriptallonge
 category_path: sources/javascriptallonge/sections
 source_id: javascriptallonge.pdf
-projection_coverage: section-javascriptallonge-section-making-data-out-of-functions-the-kestrel-and-the-idiot-203dea45@7e4e35d09a01844ea83e5bbd40ccd9e9
+projection_coverage: section-javascriptallonge-section-making-data-out-of-functions-the-kestrel-and-the-idiot-203dea45@15e617b3bb652d63743ee31f495acb72
 ---
 
 # Making Data Out Of Functions / the kestrel and the idiot
@@ -24,6 +24,10 @@ From [[javascriptallonge]].
 ### Source structure
 
 - [[javascriptallonge-section-making-data-out-of-functions-182a6c8b]] - broader source section: Making Data Out Of Functions
+
+### Recipes
+
+- [[javascriptallonge-recipe-the-kestrel-and-the-idiot]] - recipe pattern: the kestrel and the idiot
 
 ## Statements
 

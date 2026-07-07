@@ -8,7 +8,7 @@ updated: 2026-07-07
 domain: javascriptallonge
 category_path: sources/javascriptallonge/sections
 source_id: javascriptallonge.pdf
-projection_coverage: section-javascriptallonge-section-that-constant-coffee-craving-614e2fd3@aded9e0820b67a7c7aa7912b001feea8
+projection_coverage: section-javascriptallonge-section-that-constant-coffee-craving-614e2fd3@d78227867d1a44a0edc8b0b5ab78a47a
 ---
 
 # That Constant Coffee Craving
@@ -30,6 +30,10 @@ From [[javascriptallonge]].
 - [[javascriptallonge-section-that-constant-coffee-craving-inside-out-6df7936c]] - narrower source section: That Constant Coffee Craving / inside-out
 - [[javascriptallonge-section-that-constant-coffee-craving-nested-blocks-f1c29f4e]] - narrower source section: That Constant Coffee Craving / nested blocks
 - [[javascriptallonge-section-that-constant-coffee-craving-rebinding-5632ed12]] - narrower source section: That Constant Coffee Craving / rebinding
+
+### Collections
+
+- [[javascriptallonge-collection-that-constant-coffee-craving-614e2fd3]] - collection page: That Constant Coffee Craving
 
 ## Statements
 

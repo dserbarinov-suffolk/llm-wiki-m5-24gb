@@ -8,7 +8,7 @@ updated: 2026-07-07
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-4-9-unconscious-and-death-checks-351dfe08@12fcb87d9aa50113b6c59293e4cd6237
+projection_coverage: section-sword-world-rpg-complete-edition-section-4-9-unconscious-and-death-checks-351dfe08@04a33d961a0ee155ddad28e11d9cd1be
 ---
 
 # 4.9 Unconscious and Death Checks
@@ -27,6 +27,10 @@ From [[sword-world-rpg-complete-edition]].
 - [[sword-world-rpg-complete-edition-section-4-9-unconscious-and-death-checks-4-9-2-death-checks-every-hour-523e5511]] - narrower source section: 4.9 Unconscious and Death Checks / 4.9.2 Death Checks Every Hour
 - [[sword-world-rpg-complete-edition-section-4-9-unconscious-and-death-checks-4-9-3-monster-death-check-3690271a]] - narrower source section: 4.9 Unconscious and Death Checks / 4.9.3 Monster Death Check
 - [[sword-world-rpg-complete-edition-section-4-9-unconscious-and-death-checks-4-9-4-mercy-f2205b71]] - narrower source section: 4.9 Unconscious and Death Checks / 4.9.4 Mercy
+
+### Procedures
+
+- [[sword-world-rpg-complete-edition-procedure-unconscious-and-death-checks]] - procedure guide: Unconscious and Death Checks
 
 ## Statements
 

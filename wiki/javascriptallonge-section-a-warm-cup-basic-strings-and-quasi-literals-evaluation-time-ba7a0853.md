@@ -8,7 +8,7 @@ updated: 2026-07-07
 domain: javascriptallonge
 category_path: sources/javascriptallonge/sections
 source_id: javascriptallonge.pdf
-projection_coverage: section-javascriptallonge-section-a-warm-cup-basic-strings-and-quasi-literals-evaluation-time-ba7a0853@9295a5d76d34c9ca50849d697dcbf8dd
+projection_coverage: section-javascriptallonge-section-a-warm-cup-basic-strings-and-quasi-literals-evaluation-time-ba7a0853@d8ad58c28e09a6a7006f91fe3c16b415
 ---
 
 # A Warm Cup: Basic Strings and Quasi-Literals / evaluation time
@@ -24,6 +24,10 @@ From [[javascriptallonge]].
 ### Source structure
 
 - [[javascriptallonge-section-a-warm-cup-basic-strings-and-quasi-literals-519b0d4d]] - broader source section: A Warm Cup: Basic Strings and Quasi-Literals
+
+### Recipes
+
+- [[javascriptallonge-recipe-evaluation-time]] - recipe pattern: evaluation time
 
 ## Statements
 

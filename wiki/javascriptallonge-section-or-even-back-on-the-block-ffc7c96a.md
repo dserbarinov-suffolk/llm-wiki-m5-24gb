@@ -8,7 +8,7 @@ updated: 2026-07-07
 domain: javascriptallonge
 category_path: sources/javascriptallonge/sections
 source_id: javascriptallonge.pdf
-projection_coverage: section-javascriptallonge-section-or-even-back-on-the-block-ffc7c96a@b076672960503b7eb65028ace9cca210
+projection_coverage: section-javascriptallonge-section-or-even-back-on-the-block-ffc7c96a@656530d2209d63dee56d32afc11006f3
 ---
 
 # Or even: / back on the block
@@ -20,6 +20,10 @@ From [[javascriptallonge]].
 ### Source order
 
 - [[javascriptallonge-section-or-even-void-81631fb5]] - previous source section: Or even: / void
+
+### Recipes
+
+- [[javascriptallonge-recipe-back-on-the-block]] - recipe pattern: back on the block
 
 ## Statements
 

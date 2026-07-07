@@ -8,7 +8,7 @@ updated: 2026-07-07
 domain: javascriptallonge
 category_path: sources/javascriptallonge/sections
 source_id: javascriptallonge.pdf
-projection_coverage: section-javascriptallonge-section-that-constant-coffee-craving-rebinding-5632ed12@ddcc23b023b2e00741f85f3d505ab089
+projection_coverage: section-javascriptallonge-section-that-constant-coffee-craving-rebinding-5632ed12@f8c59e42a4427c4251a05be162071129
 ---
 
 # That Constant Coffee Craving / rebinding
@@ -24,6 +24,10 @@ From [[javascriptallonge]].
 ### Source structure
 
 - [[javascriptallonge-section-that-constant-coffee-craving-614e2fd3]] - broader source section: That Constant Coffee Craving
+
+### Recipes
+
+- [[javascriptallonge-recipe-rebinding]] - recipe pattern: rebinding
 
 ## Statements
 

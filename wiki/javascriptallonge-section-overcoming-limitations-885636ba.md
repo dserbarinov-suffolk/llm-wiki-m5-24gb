@@ -8,7 +8,7 @@ updated: 2026-07-07
 domain: javascriptallonge
 category_path: sources/javascriptallonge/sections
 source_id: javascriptallonge.pdf
-projection_coverage: section-javascriptallonge-section-overcoming-limitations-885636ba@82a56022868ef88159aaee4359c233c4
+projection_coverage: section-javascriptallonge-section-overcoming-limitations-885636ba@dc40fd42f61b2261fa2864a553c30617
 ---
 
 # overcoming limitations
@@ -21,6 +21,10 @@ From [[javascriptallonge]].
 
 - [[javascriptallonge-section-a-history-lesson-f921305a]] - previous source section: a history lesson
 - [[javascriptallonge-section-left-variadic-destructuring-1d686fdb]] - next source section: left-variadic destructuring
+
+### Recipes
+
+- [[javascriptallonge-recipe-overcoming-limitations]] - recipe pattern: overcoming limitations
 
 ## Statements
 

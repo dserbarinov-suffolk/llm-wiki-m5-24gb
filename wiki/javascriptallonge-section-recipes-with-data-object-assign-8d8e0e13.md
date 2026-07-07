@@ -8,7 +8,7 @@ updated: 2026-07-07
 domain: javascriptallonge
 category_path: sources/javascriptallonge/sections
 source_id: javascriptallonge.pdf
-projection_coverage: section-javascriptallonge-section-recipes-with-data-object-assign-8d8e0e13@1a906d8fcaf735c24fe745a5dd7d2fdc
+projection_coverage: section-javascriptallonge-section-recipes-with-data-object-assign-8d8e0e13@f54c6c0a34a9b7e5c31350befd3b22c2
 ---
 
 # Recipes with Data / Object.assign
@@ -24,6 +24,10 @@ From [[javascriptallonge]].
 ### Source structure
 
 - [[javascriptallonge-section-recipes-with-data-4b3e2c99]] - broader source section: Recipes with Data
+
+### Recipes
+
+- [[javascriptallonge-recipe-object-assign]] - recipe pattern: Object.assign
 
 ## Statements
 

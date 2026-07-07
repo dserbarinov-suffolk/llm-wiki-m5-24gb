@@ -8,7 +8,7 @@ updated: 2026-07-07
 domain: javascriptallonge
 category_path: sources/javascriptallonge/sections
 source_id: javascriptallonge.pdf
-projection_coverage: section-javascriptallonge-section-copy-on-write-a-few-utilities-copy-on-write-db9192e0@469cd3f6aacb52c4aaadb1561dd8662b
+projection_coverage: section-javascriptallonge-section-copy-on-write-a-few-utilities-copy-on-write-db9192e0@35ee3abc0ab185782bc27fa63ba3aa64
 ---
 
 # Copy on Write / a few utilities / copy-on-write
@@ -24,6 +24,10 @@ From [[javascriptallonge]].
 ### Source structure
 
 - [[javascriptallonge-section-copy-on-write-a-few-utilities-7b82367a]] - broader source section: Copy on Write / a few utilities
+
+### Recipes
+
+- [[javascriptallonge-recipe-copy-on-write]] - recipe pattern: copy-on-write
 
 ### Topics
 

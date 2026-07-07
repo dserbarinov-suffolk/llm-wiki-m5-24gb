@@ -8,7 +8,7 @@ updated: 2026-07-07
 domain: javascriptallonge
 category_path: sources/javascriptallonge/sections
 source_id: javascriptallonge.pdf
-projection_coverage: section-javascriptallonge-section-composing-and-decomposing-data-defaults-and-destructuring-960d8813@d4c5c17a77dd9c367f9a22ea4670b66d
+projection_coverage: section-javascriptallonge-section-composing-and-decomposing-data-defaults-and-destructuring-960d8813@c0391cec83fcf894cff4b433326d5176
 ---
 
 # Composing and Decomposing Data / defaults and destructuring
@@ -24,6 +24,10 @@ From [[javascriptallonge]].
 ### Source structure
 
 - [[javascriptallonge-section-composing-and-decomposing-data-99b4771a]] - broader source section: Composing and Decomposing Data
+
+### Recipes
+
+- [[javascriptallonge-recipe-defaults-and-destructuring]] - recipe pattern: defaults and destructuring
 
 ## Statements
 

@@ -8,7 +8,7 @@ updated: 2026-07-07
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-basic-rules-of-magic-8th-level-ancient-magic-list-a861be39@c62b6bba75b1ba3386d9a650b7944f5b
+projection_coverage: section-sword-world-rpg-complete-edition-section-basic-rules-of-magic-8th-level-ancient-magic-list-a861be39@d46a41eb949ede746ea05750c2c331df
 ---
 
 # Basic Rules of Magic / 8th Level Ancient Magic List
@@ -31,3 +31,7 @@ From [[sword-world-rpg-complete-edition]].
 - [[sword-world-rpg-complete-edition-section-basic-rules-of-magic-8th-level-ancient-magic-list-illusionary-beast-857517ca]] - narrower source section: Basic Rules of Magic / 8th Level Ancient Magic List / Illusionary Beast
 - [[sword-world-rpg-complete-edition-section-basic-rules-of-magic-8th-level-ancient-magic-list-lightning-bind-17e1801e]] - narrower source section: Basic Rules of Magic / 8th Level Ancient Magic List / Lightning Bind
 - [[sword-world-rpg-complete-edition-section-basic-rules-of-magic-8th-level-ancient-magic-list-stun-cloud-3b8885d5]] - narrower source section: Basic Rules of Magic / 8th Level Ancient Magic List / Stun Cloud
+
+### Collections
+
+- [[sword-world-rpg-complete-edition-collection-basic-rules-of-magic-8th-level-ancient-magic-list-a861be39]] - collection page: Basic Rules of Magic / 8th Level Ancient Magic List

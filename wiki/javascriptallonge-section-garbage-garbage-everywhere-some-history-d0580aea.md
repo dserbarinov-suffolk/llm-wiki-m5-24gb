@@ -8,7 +8,7 @@ updated: 2026-07-07
 domain: javascriptallonge
 category_path: sources/javascriptallonge/sections
 source_id: javascriptallonge.pdf
-projection_coverage: section-javascriptallonge-section-garbage-garbage-everywhere-some-history-d0580aea@bffb315d4994293447e2f47770e616c7
+projection_coverage: section-javascriptallonge-section-garbage-garbage-everywhere-some-history-d0580aea@14c48627260ff6c4067dbc9cf0d3bd78
 ---
 
 # Garbage, Garbage Everywhere / some history
@@ -24,6 +24,10 @@ From [[javascriptallonge]].
 ### Source structure
 
 - [[javascriptallonge-section-garbage-garbage-everywhere-8c9764a5]] - broader source section: Garbage, Garbage Everywhere
+
+### Recipes
+
+- [[javascriptallonge-recipe-some-history]] - recipe pattern: some history
 
 ## Statements
 

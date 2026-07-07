@@ -8,7 +8,7 @@ updated: 2026-07-07
 domain: javascriptallonge
 category_path: sources/javascriptallonge/sections
 source_id: javascriptallonge.pdf
-projection_coverage: section-javascriptallonge-section-lazy-and-eager-collections-implementing-methods-with-iteration-e67a1913@104f72c7ff8f725520bdb69129ff3503
+projection_coverage: section-javascriptallonge-section-lazy-and-eager-collections-implementing-methods-with-iteration-e67a1913@6c036be5a4e2f2ef027eb550b4e6dd55
 ---
 
 # Lazy and Eager Collections / implementing methods with iteration
@@ -24,6 +24,10 @@ From [[javascriptallonge]].
 ### Source structure
 
 - [[javascriptallonge-section-lazy-and-eager-collections-7308cac5]] - broader source section: Lazy and Eager Collections
+
+### Recipes
+
+- [[javascriptallonge-recipe-implementing-methods-with-iteration]] - recipe pattern: implementing methods with iteration
 
 ## Statements
 

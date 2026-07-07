@@ -8,7 +8,7 @@ updated: 2026-07-07
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-basic-rules-of-magic-7th-level-ancient-magic-list-dispel-order-d3bc038b@9ed4b78f9f4bc83125ceb45d4711665f
+projection_coverage: section-sword-world-rpg-complete-edition-section-basic-rules-of-magic-7th-level-ancient-magic-list-dispel-order-d3bc038b@25ae5d2714bf951033852e0a61e2d21b
 ---
 
 # Basic Rules of Magic / 7th Level Ancient Magic List [ Dispel Order ]
@@ -32,3 +32,7 @@ From [[sword-world-rpg-complete-edition]].
 - [[sword-world-rpg-complete-edition-section-basic-rules-of-magic-7th-level-ancient-magic-list-dispel-order-magic-reflection-29164b0a]] - narrower source section: Basic Rules of Magic / 7th Level Ancient Magic List [ Dispel Order ] / Magic Reflection
 - [[sword-world-rpg-complete-edition-section-basic-rules-of-magic-7th-level-ancient-magic-list-dispel-order-polymorph-79f56095]] - narrower source section: Basic Rules of Magic / 7th Level Ancient Magic List [ Dispel Order ] / Polymorph
 - [[sword-world-rpg-complete-edition-section-basic-rules-of-magic-7th-level-ancient-magic-list-dispel-order-telekinesis-ad69c0b1]] - narrower source section: Basic Rules of Magic / 7th Level Ancient Magic List [ Dispel Order ] / Telekinesis
+
+### Collections
+
+- [[sword-world-rpg-complete-edition-collection-basic-rules-of-magic-7th-level-ancient-magic-list-dispel-order-d3bc038b]] - collection page: Basic Rules of Magic / 7th Level Ancient Magic List [ Dispel Order ]

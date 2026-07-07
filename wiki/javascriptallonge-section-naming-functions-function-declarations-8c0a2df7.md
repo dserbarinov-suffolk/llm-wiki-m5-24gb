@@ -8,7 +8,7 @@ updated: 2026-07-07
 domain: javascriptallonge
 category_path: sources/javascriptallonge/sections
 source_id: javascriptallonge.pdf
-projection_coverage: section-javascriptallonge-section-naming-functions-function-declarations-8c0a2df7@be4dbe6ec919ec9d0762e6d16447f5b8
+projection_coverage: section-javascriptallonge-section-naming-functions-function-declarations-8c0a2df7@a1579794c7127faa5a37a28d49935bd0
 ---
 
 # Naming Functions / function declarations
@@ -25,6 +25,10 @@ From [[javascriptallonge]].
 ### Source structure
 
 - [[javascriptallonge-section-naming-functions-c49aef83]] - broader source section: Naming Functions
+
+### Recipes
+
+- [[javascriptallonge-recipe-function-declarations]] - recipe pattern: function declarations
 
 ## Statements
 

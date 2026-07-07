@@ -8,7 +8,7 @@ updated: 2026-07-07
 domain: javascriptallonge
 category_path: sources/javascriptallonge/sections
 source_id: javascriptallonge.pdf
-projection_coverage: section-javascriptallonge-section-it-s-always-the-environment-ff95f958@4e0674be7defe035d445656a9e538b7d
+projection_coverage: section-javascriptallonge-section-it-s-always-the-environment-ff95f958@7a6a506e337f14102eb4ddd8346d5402
 ---
 
 # it's always the environment
@@ -21,6 +21,10 @@ From [[javascriptallonge]].
 
 - [[javascriptallonge-section-if-functions-without-free-variables-are-pure-are-closures-impure-a8b1b370]] - previous source section: if functions without free variables are pure, are closures impure?
 - [[javascriptallonge-section-shadowy-variables-from-a-shadowy-planet-ad7f51cc]] - next source section: shadowy variables from a shadowy planet
+
+### Recipes
+
+- [[javascriptallonge-recipe-it-s-always-the-environment]] - recipe pattern: it's always the environment
 
 ## Statements
 

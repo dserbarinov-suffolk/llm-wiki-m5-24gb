@@ -8,7 +8,7 @@ updated: 2026-07-07
 domain: javascriptallonge
 category_path: sources/javascriptallonge/sections
 source_id: javascriptallonge.pdf
-projection_coverage: section-javascriptallonge-section-interactive-generators-representing-naughts-and-crosses-as-a-stateful-function-94951f68@85992f8aca5d8e737541eb771af03123
+projection_coverage: section-javascriptallonge-section-interactive-generators-representing-naughts-and-crosses-as-a-stateful-function-94951f68@bca1419cc877cfdfb3c68f8ba5a0ee1b
 ---
 
 # Interactive Generators / representing naughts and crosses as a stateful function
@@ -25,6 +25,10 @@ From [[javascriptallonge]].
 ### Source structure
 
 - [[javascriptallonge-section-interactive-generators-c6339bc5]] - broader source section: Interactive Generators
+
+### Recipes
+
+- [[javascriptallonge-recipe-representing-naughts-and-crosses-as-a-stateful-function]] - recipe pattern: representing naughts and crosses as a stateful function
 
 ## Statements
 

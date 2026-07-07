@@ -8,7 +8,7 @@ updated: 2026-07-07
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-basic-rules-of-magic-6th-level-ancient-magic-list-acid-cloud-0151ea88@d24365918aa62d422b14e273e3d58834
+projection_coverage: section-sword-world-rpg-complete-edition-section-basic-rules-of-magic-6th-level-ancient-magic-list-acid-cloud-0151ea88@48912b1b3177dbce772f9582e580da54
 ---
 
 # Basic Rules of Magic / 6th Level Ancient Magic List [ Acid Cloud ]
@@ -32,3 +32,7 @@ From [[sword-world-rpg-complete-edition]].
 - [[sword-world-rpg-complete-edition-section-basic-rules-of-magic-6th-level-ancient-magic-list-acid-cloud-haste-8b965b64]] - narrower source section: Basic Rules of Magic / 6th Level Ancient Magic List [ Acid Cloud ] / Haste
 - [[sword-world-rpg-complete-edition-section-basic-rules-of-magic-6th-level-ancient-magic-list-acid-cloud-rune-rope-5a46ba6e]] - narrower source section: Basic Rules of Magic / 6th Level Ancient Magic List [ Acid Cloud ] / Rune Rope
 - [[sword-world-rpg-complete-edition-section-basic-rules-of-magic-6th-level-ancient-magic-list-acid-cloud-seal-enchantment-c6906216]] - narrower source section: Basic Rules of Magic / 6th Level Ancient Magic List [ Acid Cloud ] / Seal Enchantment
+
+### Collections
+
+- [[sword-world-rpg-complete-edition-collection-basic-rules-of-magic-6th-level-ancient-magic-list-acid-cloud-0151ea88]] - collection page: Basic Rules of Magic / 6th Level Ancient Magic List [ Acid Cloud ]

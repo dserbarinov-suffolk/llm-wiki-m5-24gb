@@ -8,7 +8,7 @@ updated: 2026-07-07
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-basic-rules-of-magic-1e4574c3@710dcc6366ba469347a548123f36b121
+projection_coverage: section-sword-world-rpg-complete-edition-section-basic-rules-of-magic-1e4574c3@8c4ba6d40f8d889f12e203cad1d7140f
 ---
 
 # Basic Rules of Magic
@@ -32,3 +32,7 @@ From [[sword-world-rpg-complete-edition]].
 - [[sword-world-rpg-complete-edition-section-basic-rules-of-magic-5-1-2-rune-masters-and-rune-master-skills-a939ecad]] - narrower source section: Basic Rules of Magic / 5.1.2 Rune Masters and Rune Master Skills
 - [[sword-world-rpg-complete-edition-section-basic-rules-of-magic-5-1-3-learning-magic-35f80bbd]] - narrower source section: Basic Rules of Magic / 5.1.3 Learning Magic
 - [[sword-world-rpg-complete-edition-section-basic-rules-of-magic-5-1-4-how-to-use-magic-7773ada3]] - narrower source section: Basic Rules of Magic / 5.1.4 How to Use Magic
+
+### Collections
+
+- [[sword-world-rpg-complete-edition-collection-basic-rules-of-magic-1e4574c3]] - collection page: Basic Rules of Magic

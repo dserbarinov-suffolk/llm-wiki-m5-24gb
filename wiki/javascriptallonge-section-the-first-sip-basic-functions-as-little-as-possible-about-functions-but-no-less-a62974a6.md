@@ -8,7 +8,7 @@ updated: 2026-07-07
 domain: javascriptallonge
 category_path: sources/javascriptallonge/sections
 source_id: javascriptallonge.pdf
-projection_coverage: section-javascriptallonge-section-the-first-sip-basic-functions-as-little-as-possible-about-functions-but-no-less-a62974a6@ddfc3380b5071a5b399d6daf0c053548
+projection_coverage: section-javascriptallonge-section-the-first-sip-basic-functions-as-little-as-possible-about-functions-but-no-less-a62974a6@1246a69b5e2e34bfdfa44cdf72afefea
 ---
 
 # The first sip: Basic Functions / As Little As Possible About Functions, But No Less
@@ -24,6 +24,10 @@ From [[javascriptallonge]].
 - [[javascriptallonge-section-the-first-sip-basic-functions-as-little-as-possible-about-functions-but-no-less-commas-53801ea8]] - narrower source section: The first sip: Basic Functions / As Little As Possible About Functions, But No Less / commas
 - [[javascriptallonge-section-the-first-sip-basic-functions-as-little-as-possible-about-functions-but-no-less-functions-and-id-456f28c7]] - narrower source section: The first sip: Basic Functions / As Little As Possible About Functions, But No Less / functions and identities
 - [[javascriptallonge-section-the-first-sip-basic-functions-as-little-as-possible-about-functions-but-no-less-functions-that-r-a65d460b]] - narrower source section: The first sip: Basic Functions / As Little As Possible About Functions, But No Less / functions that return values and evaluate expressions
+
+### Collections
+
+- [[javascriptallonge-collection-the-first-sip-basic-functions-as-little-as-possible-about-functions-but-no-less-a62974a6]] - collection page: The first sip: Basic Functions / As Little As Possible About Functions, But No Less
 
 ## Statements
 

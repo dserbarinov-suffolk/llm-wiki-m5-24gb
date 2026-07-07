@@ -8,7 +8,7 @@ updated: 2026-07-07
 domain: javascriptallonge
 category_path: sources/javascriptallonge/sections
 source_id: javascriptallonge.pdf
-projection_coverage: section-javascriptallonge-section-recipes-with-basic-functions-tap-51486e75@a4001d362e21223d41f4e01d30990266
+projection_coverage: section-javascriptallonge-section-recipes-with-basic-functions-tap-51486e75@55bb60c85488aee7bae5f31502240b93
 ---
 
 # Recipes with Basic Functions / Tap
@@ -24,6 +24,10 @@ From [[javascriptallonge]].
 ### Source structure
 
 - [[javascriptallonge-section-recipes-with-basic-functions-d7445960]] - broader source section: Recipes with Basic Functions
+
+### Recipes
+
+- [[javascriptallonge-recipe-tap]] - recipe pattern: Tap
 
 ## Statements
 

@@ -8,7 +8,7 @@ updated: 2026-07-07
 domain: javascriptallonge
 category_path: sources/javascriptallonge/sections
 source_id: javascriptallonge.pdf
-projection_coverage: section-javascriptallonge-section-prelude-values-and-expressions-over-coffee-value-types-cb5b0b74@fa14000e7a587568c3a5eb5b16dbec5b
+projection_coverage: section-javascriptallonge-section-prelude-values-and-expressions-over-coffee-value-types-cb5b0b74@60f6dfc4d08ce1fd029fb0d60c570c47
 ---
 
 # Prelude: Values and Expressions over Coffee / value types
@@ -25,6 +25,10 @@ From [[javascriptallonge]].
 ### Source structure
 
 - [[javascriptallonge-section-prelude-values-and-expressions-over-coffee-9ed49287]] - broader source section: Prelude: Values and Expressions over Coffee
+
+### Recipes
+
+- [[javascriptallonge-recipe-value-types]] - recipe pattern: value types
 
 ## Statements
 

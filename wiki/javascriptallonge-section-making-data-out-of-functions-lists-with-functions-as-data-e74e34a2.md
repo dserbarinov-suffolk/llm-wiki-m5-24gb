@@ -8,7 +8,7 @@ updated: 2026-07-07
 domain: javascriptallonge
 category_path: sources/javascriptallonge/sections
 source_id: javascriptallonge.pdf
-projection_coverage: section-javascriptallonge-section-making-data-out-of-functions-lists-with-functions-as-data-e74e34a2@7c46d8e6e41fc38bcb24167f1cc5285d
+projection_coverage: section-javascriptallonge-section-making-data-out-of-functions-lists-with-functions-as-data-e74e34a2@c92ecbec1d28c8ba1f8ed0fb7fef7a51
 ---
 
 # Making Data Out Of Functions / lists with functions as data
@@ -25,6 +25,10 @@ From [[javascriptallonge]].
 ### Source structure
 
 - [[javascriptallonge-section-making-data-out-of-functions-182a6c8b]] - broader source section: Making Data Out Of Functions
+
+### Recipes
+
+- [[javascriptallonge-recipe-lists-with-functions-as-data]] - recipe pattern: lists with functions as data
 
 ## Statements
 

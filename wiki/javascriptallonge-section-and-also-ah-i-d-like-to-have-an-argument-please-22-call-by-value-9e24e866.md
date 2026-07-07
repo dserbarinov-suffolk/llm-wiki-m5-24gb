@@ -8,7 +8,7 @@ updated: 2026-07-07
 domain: javascriptallonge
 category_path: sources/javascriptallonge/sections
 source_id: javascriptallonge.pdf
-projection_coverage: section-javascriptallonge-section-and-also-ah-i-d-like-to-have-an-argument-please-22-call-by-value-9e24e866@ec85abd49c70e3f271d85e80f0290ed9
+projection_coverage: section-javascriptallonge-section-and-also-ah-i-d-like-to-have-an-argument-please-22-call-by-value-9e24e866@0b758cd88cf079682bde254971c2242f
 ---
 
 # And also: / Ah. I'd Like to Have an Argument, Please. 22 / call by value
@@ -20,6 +20,10 @@ From [[javascriptallonge]].
 ### Source structure
 
 - [[javascriptallonge-section-and-also-ah-i-d-like-to-have-an-argument-please-22-97752ddb]] - broader source section: And also: / Ah. I'd Like to Have an Argument, Please. 22
+
+### Recipes
+
+- [[javascriptallonge-recipe-call-by-value]] - recipe pattern: call by value
 
 ## Statements
 

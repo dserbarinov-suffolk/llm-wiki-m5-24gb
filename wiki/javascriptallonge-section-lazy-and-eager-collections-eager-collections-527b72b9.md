@@ -8,7 +8,7 @@ updated: 2026-07-07
 domain: javascriptallonge
 category_path: sources/javascriptallonge/sections
 source_id: javascriptallonge.pdf
-projection_coverage: section-javascriptallonge-section-lazy-and-eager-collections-eager-collections-527b72b9@cfc5aed04d0a76b43c1bd87022c7e6b9
+projection_coverage: section-javascriptallonge-section-lazy-and-eager-collections-eager-collections-527b72b9@e6c502d4c788886e42ab801b5063dc58
 ---
 
 # Lazy and Eager Collections / eager collections
@@ -24,6 +24,10 @@ From [[javascriptallonge]].
 ### Source structure
 
 - [[javascriptallonge-section-lazy-and-eager-collections-7308cac5]] - broader source section: Lazy and Eager Collections
+
+### Recipes
+
+- [[javascriptallonge-recipe-eager-collections]] - recipe pattern: eager collections
 
 ### Topics
 

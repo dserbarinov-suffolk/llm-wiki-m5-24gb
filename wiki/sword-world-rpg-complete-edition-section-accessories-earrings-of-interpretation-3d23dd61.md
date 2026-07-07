@@ -8,7 +8,7 @@ updated: 2026-07-07
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-accessories-earrings-of-interpretation-3d23dd61@c61be410466822b8c59803788b5ef61b
+projection_coverage: section-sword-world-rpg-complete-edition-section-accessories-earrings-of-interpretation-3d23dd61@3297624c25c538244cefc2312ccc2bec
 ---
 
 # 《 Accessories 》 [ Earrings of Interpretation ]
@@ -32,3 +32,7 @@ From [[sword-world-rpg-complete-edition]].
 - [[sword-world-rpg-complete-edition-section-accessories-earrings-of-interpretation-earrings-of-pooka-ff37c2b3]] - narrower source section: 《 Accessories 》 [ Earrings of Interpretation ] / Earrings of Pooka
 - [[sword-world-rpg-complete-edition-section-accessories-earrings-of-interpretation-necklace-of-faith-c1a0efb9]] - narrower source section: 《 Accessories 》 [ Earrings of Interpretation ] / Necklace of Faith
 - [[sword-world-rpg-complete-edition-section-accessories-earrings-of-interpretation-sleepless-pendant-d81e26e5]] - narrower source section: 《 Accessories 》 [ Earrings of Interpretation ] / Sleepless Pendant
+
+### Collections
+
+- [[sword-world-rpg-complete-edition-collection-accessories-earrings-of-interpretation-3d23dd61]] - collection page: 《 Accessories 》 [ Earrings of Interpretation ]

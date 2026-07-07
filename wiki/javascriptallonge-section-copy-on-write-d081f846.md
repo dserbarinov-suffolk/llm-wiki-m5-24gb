@@ -8,7 +8,7 @@ updated: 2026-07-07
 domain: javascriptallonge
 category_path: sources/javascriptallonge/sections
 source_id: javascriptallonge.pdf
-projection_coverage: section-javascriptallonge-section-copy-on-write-d081f846@6286b566940bec6a495f0a5e3defc2cb
+projection_coverage: section-javascriptallonge-section-copy-on-write-d081f846@be5971d3f1bbb9cb2f9107301551205e
 ---
 
 # Copy on Write
@@ -27,6 +27,10 @@ From [[javascriptallonge]].
 - [[javascriptallonge-section-copy-on-write-a-few-utilities-7b82367a]] - narrower source section: Copy on Write / a few utilities
 - [[javascriptallonge-section-copy-on-write-functional-iterators-74724e0a]] - narrower source section: Copy on Write / Functional Iterators
 - [[javascriptallonge-section-copy-on-write-tortoises-hares-and-teleporting-turtles-3a4746f2]] - narrower source section: Copy on Write / Tortoises, Hares, and Teleporting Turtles
+
+### Collections
+
+- [[javascriptallonge-collection-copy-on-write-d081f846]] - collection page: Copy on Write
 
 ### Topics
 

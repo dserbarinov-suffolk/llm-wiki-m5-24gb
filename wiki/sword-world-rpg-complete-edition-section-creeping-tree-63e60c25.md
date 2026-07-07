@@ -8,7 +8,7 @@ updated: 2026-07-07
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-creeping-tree-63e60c25@1d803198923294039757bb46551bdb09
+projection_coverage: section-sword-world-rpg-complete-edition-section-creeping-tree-63e60c25@f279a6efecd56d299babce6d2aebc4db
 ---
 
 # Creeping Tree
@@ -32,6 +32,10 @@ From [[sword-world-rpg-complete-edition]].
 - [[sword-world-rpg-complete-edition-section-creeping-tree-ethnoa-0f1e0245]] - narrower source section: Creeping Tree / Ethnoa
 - [[sword-world-rpg-complete-edition-section-creeping-tree-fungus-5825a861]] - narrower source section: Creeping Tree / Fungus
 - [[sword-world-rpg-complete-edition-section-creeping-tree-ghoul-728ee84c]] - narrower source section: Creeping Tree / Ghoul
+
+### Collections
+
+- [[sword-world-rpg-complete-edition-collection-creeping-tree-63e60c25]] - collection page: Creeping Tree
 
 ## Statements
 

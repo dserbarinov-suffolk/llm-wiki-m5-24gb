@@ -8,7 +8,7 @@ updated: 2026-07-07
 domain: javascriptallonge
 category_path: sources/javascriptallonge/sections
 source_id: javascriptallonge.pdf
-projection_coverage: section-javascriptallonge-section-shadowy-variables-from-a-shadowy-planet-ad7f51cc@d490da46cb81da3bd3b87c4be825cba9
+projection_coverage: section-javascriptallonge-section-shadowy-variables-from-a-shadowy-planet-ad7f51cc@3bed03285a0d7d3f2d05aa568d995684
 ---
 
 # shadowy variables from a shadowy planet
@@ -21,6 +21,10 @@ From [[javascriptallonge]].
 
 - [[javascriptallonge-section-it-s-always-the-environment-ff95f958]] - previous source section: it's always the environment
 - [[javascriptallonge-section-which-came-first-the-chicken-or-the-egg-8e6e66d0]] - next source section: which came first, the chicken or the egg?
+
+### Recipes
+
+- [[javascriptallonge-recipe-shadowy-variables-from-a-shadowy-planet]] - recipe pattern: shadowy variables from a shadowy planet
 
 ## Statements
 

@@ -8,7 +8,7 @@ updated: 2026-07-07
 domain: javascriptallonge
 category_path: sources/javascriptallonge/sections
 source_id: javascriptallonge.pdf
-projection_coverage: section-javascriptallonge-section-composing-and-decomposing-data-arrays-and-destructuring-arguments-2a38bfc8@a97e11467068b5c168cdd9bc7f4d14ef
+projection_coverage: section-javascriptallonge-section-composing-and-decomposing-data-arrays-and-destructuring-arguments-2a38bfc8@b7b835f63d2b828665359f14528dd11d
 ---
 
 # Composing and Decomposing Data / Arrays and Destructuring Arguments
@@ -31,6 +31,10 @@ From [[javascriptallonge]].
 - [[javascriptallonge-section-composing-and-decomposing-data-arrays-and-destructuring-arguments-destructuring-parameters-1a788a19]] - narrower source section: Composing and Decomposing Data / Arrays and Destructuring Arguments / destructuring parameters
 - [[javascriptallonge-section-composing-and-decomposing-data-arrays-and-destructuring-arguments-element-references-75756e27]] - narrower source section: Composing and Decomposing Data / Arrays and Destructuring Arguments / element references
 - [[javascriptallonge-section-composing-and-decomposing-data-arrays-and-destructuring-arguments-gathering-1b2d594b]] - narrower source section: Composing and Decomposing Data / Arrays and Destructuring Arguments / gathering
+
+### Collections
+
+- [[javascriptallonge-collection-composing-and-decomposing-data-arrays-and-destructuring-arguments-2a38bfc8]] - collection page: Composing and Decomposing Data / Arrays and Destructuring Arguments
 
 ## Statements
 

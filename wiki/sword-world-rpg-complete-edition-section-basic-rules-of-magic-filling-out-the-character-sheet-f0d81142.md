@@ -8,7 +8,7 @@ updated: 2026-07-07
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-basic-rules-of-magic-filling-out-the-character-sheet-f0d81142@e2a6bdba7e2255c6c45b9770821b1ab5
+projection_coverage: section-sword-world-rpg-complete-edition-section-basic-rules-of-magic-filling-out-the-character-sheet-f0d81142@c57c2c1a726fc602f77ce638fa6d9bf4
 ---
 
 # Basic Rules of Magic / Filling out the Character Sheet
@@ -29,6 +29,10 @@ From [[sword-world-rpg-complete-edition]].
 - [[sword-world-rpg-complete-edition-section-basic-rules-of-magic-filling-out-the-character-sheet-when-an-adventurer-casts-magic-on-a-mix-of-05c26dbc]] - narrower source section: Basic Rules of Magic / Filling out the Character Sheet / When an Adventurer Casts Magic on a Mix of Adventurers and Monsters
 - [[sword-world-rpg-complete-edition-section-basic-rules-of-magic-filling-out-the-character-sheet-when-an-adventurer-casts-magic-on-adventure-ba6bf7a3]] - narrower source section: Basic Rules of Magic / Filling out the Character Sheet / When an Adventurer Casts Magic on Adventurers
 - [[sword-world-rpg-complete-edition-section-basic-rules-of-magic-filling-out-the-character-sheet-when-an-adventurer-casts-magic-on-monsters-2296d309]] - narrower source section: Basic Rules of Magic / Filling out the Character Sheet / When an Adventurer Casts Magic on Monsters
+
+### Collections
+
+- [[sword-world-rpg-complete-edition-collection-basic-rules-of-magic-filling-out-the-character-sheet-f0d81142]] - collection page: Basic Rules of Magic / Filling out the Character Sheet
 
 ### Topics
 

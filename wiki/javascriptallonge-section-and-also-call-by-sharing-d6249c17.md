@@ -8,7 +8,7 @@ updated: 2026-07-07
 domain: javascriptallonge
 category_path: sources/javascriptallonge/sections
 source_id: javascriptallonge.pdf
-projection_coverage: section-javascriptallonge-section-and-also-call-by-sharing-d6249c17@18f6b7d150c301b570a64ee7b4ba7f64
+projection_coverage: section-javascriptallonge-section-and-also-call-by-sharing-d6249c17@92d020e3acca6667a360ccfa0c9f523f
 ---
 
 # And also: / call by sharing
@@ -21,6 +21,10 @@ From [[javascriptallonge]].
 
 - [[javascriptallonge-section-and-also-variables-and-bindings-cdadc876]] - previous source section: And also: / variables and bindings
 - [[javascriptallonge-section-and-also-closures-and-scope-77af1b0f]] - next source section: And also: / Closures and Scope
+
+### Recipes
+
+- [[javascriptallonge-recipe-call-by-sharing]] - recipe pattern: call by sharing
 
 ## Statements
 

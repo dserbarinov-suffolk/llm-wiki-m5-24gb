@@ -8,7 +8,7 @@ updated: 2026-07-07
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-basic-rules-of-magic-4th-level-ancient-magic-list-counter-sense-27f4fbd7@6d8e23c1e522726274ea6f3c8e6d7b19
+projection_coverage: section-sword-world-rpg-complete-edition-section-basic-rules-of-magic-4th-level-ancient-magic-list-counter-sense-27f4fbd7@17f05325ea87b6163e4b4d5e5fb891c1
 ---
 
 # Basic Rules of Magic / 4th Level Ancient Magic List [ Counter Sense ]
@@ -32,3 +32,7 @@ From [[sword-world-rpg-complete-edition]].
 - [[sword-world-rpg-complete-edition-section-basic-rules-of-magic-4th-level-ancient-magic-list-counter-sense-paralyze-eb11ac4f]] - narrower source section: Basic Rules of Magic / 4th Level Ancient Magic List [ Counter Sense ] / Paralyze
 - [[sword-world-rpg-complete-edition-section-basic-rules-of-magic-4th-level-ancient-magic-list-counter-sense-sense-aura-59837a34]] - narrower source section: Basic Rules of Magic / 4th Level Ancient Magic List [ Counter Sense ] / Sense Aura
 - [[sword-world-rpg-complete-edition-section-basic-rules-of-magic-4th-level-ancient-magic-list-counter-sense-tongue-4a1445c7]] - narrower source section: Basic Rules of Magic / 4th Level Ancient Magic List [ Counter Sense ] / Tongue
+
+### Collections
+
+- [[sword-world-rpg-complete-edition-collection-basic-rules-of-magic-4th-level-ancient-magic-list-counter-sense-27f4fbd7]] - collection page: Basic Rules of Magic / 4th Level Ancient Magic List [ Counter Sense ]

@@ -8,7 +8,7 @@ updated: 2026-07-07
 domain: javascriptallonge
 category_path: sources/javascriptallonge/sections
 source_id: javascriptallonge.pdf
-projection_coverage: section-javascriptallonge-section-composing-and-decomposing-data-default-arguments-363804ac@1608eb2199352b4a50e98c9cee634d28
+projection_coverage: section-javascriptallonge-section-composing-and-decomposing-data-default-arguments-363804ac@8108dcec1249f1c2602464d11f9c8c92
 ---
 
 # Composing and Decomposing Data / default arguments
@@ -25,6 +25,10 @@ From [[javascriptallonge]].
 ### Source structure
 
 - [[javascriptallonge-section-composing-and-decomposing-data-99b4771a]] - broader source section: Composing and Decomposing Data
+
+### Recipes
+
+- [[javascriptallonge-recipe-default-arguments]] - recipe pattern: default arguments
 
 ## Statements
 

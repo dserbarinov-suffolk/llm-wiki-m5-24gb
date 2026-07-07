@@ -2,7 +2,6 @@
 
 from __future__ import annotations
 
-import re
 from dataclasses import replace
 
 from llmwiki.domain.ledger.canonical import artifact_fingerprint, deterministic_id
@@ -17,12 +16,14 @@ from llmwiki.domain.ledger.staged_contracts import (
     StagedWikiPage,
     StagedWikiPageSet,
 )
+from llmwiki.domain.ledger.staged_lint_rules import (
+    body_contract_findings,
+    navigation_closure_findings,
+)
 from llmwiki.domain.ledger.structure import DocumentStructure
 from llmwiki.domain.ledger.vocab import EXTRACTOR_CAPABILITY_IDS, TECHNICAL_ATOM_KINDS
 from llmwiki.domain.pages import WikiPage
 from llmwiki.domain.schema import PAGE_FAMILIES, PAGE_KINDS
-
-_RELATED_LINE = re.compile(r"^\s*-\s+\[\[[a-z0-9-]+]]")
 
 
 def build_source_plan(
@@ -211,6 +212,7 @@ def _lint_findings(
     for page in staged_page_set.pages:
         findings.extend(_page_findings(source_plan, page, seen))
         seen.add(page.page_id)
+    findings.extend(navigation_closure_findings(source_plan, staged_page_set))
     return findings
 
 
@@ -245,38 +247,7 @@ def _page_findings(
                 "missing coverage pointer",
             )
         )
-    findings.extend(_body_contract_findings(page))
-    return tuple(findings)
-
-
-def _body_contract_findings(page: StagedWikiPage) -> tuple[ProjectionLintFinding, ...]:
-    findings: list[ProjectionLintFinding] = []
-    in_related = False
-    lines = page.page.page_body.splitlines()
-    for line in lines:
-        if line == "## Related pages":
-            in_related = True
-            continue
-        if line.startswith("## ") and in_related:
-            in_related = False
-        if in_related and _RELATED_LINE.match(line) and " - " not in line:
-            findings.append(
-                _finding(
-                    "blocking",
-                    "related-link-reason-missing",
-                    page.page_id,
-                    "visible related link has no reason",
-                )
-            )
-    if "**Atom:**" in page.page.page_body and '<a id="atom-' not in page.page.page_body:
-        findings.append(
-            _finding(
-                "blocking",
-                "technical-atom-anchor-missing",
-                page.page_id,
-                "rendered technical atom has no stable anchor",
-            )
-        )
+    findings.extend(body_contract_findings(page))
     return tuple(findings)
 
 

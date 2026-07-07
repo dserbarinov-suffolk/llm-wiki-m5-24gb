@@ -8,7 +8,7 @@ updated: 2026-07-07
 domain: javascriptallonge
 category_path: sources/javascriptallonge/sections
 source_id: javascriptallonge.pdf
-projection_coverage: section-javascriptallonge-section-interlude-the-carpenter-interviews-for-a-job-after-another-drink-1f3bcf45@e1584fb2a654a0096997f6bf2dd013f8
+projection_coverage: section-javascriptallonge-section-interlude-the-carpenter-interviews-for-a-job-after-another-drink-1f3bcf45@13c36276f43fbc50ee7b81c4a1f6a428
 ---
 
 # Interlude: The Carpenter Interviews for a Job / after another drink
@@ -20,6 +20,10 @@ From [[javascriptallonge]].
 ### Source structure
 
 - [[javascriptallonge-section-interlude-the-carpenter-interviews-for-a-job-9cc5ffd7]] - broader source section: Interlude: The Carpenter Interviews for a Job
+
+### Recipes
+
+- [[javascriptallonge-recipe-after-another-drink]] - recipe pattern: after another drink
 
 ## Statements
 

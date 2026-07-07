@@ -8,7 +8,7 @@ updated: 2026-07-07
 domain: javascriptallonge
 category_path: sources/javascriptallonge/sections
 source_id: javascriptallonge.pdf
-projection_coverage: section-javascriptallonge-section-or-even-the-simplest-possible-block-undefined-d76b1338@98877495e425aa6cf60cdefe76404841
+projection_coverage: section-javascriptallonge-section-or-even-the-simplest-possible-block-undefined-d76b1338@e68587eb72ffb06125323f90d85b7cca
 ---
 
 # Or even: / the simplest possible block / undefined
@@ -20,6 +20,10 @@ From [[javascriptallonge]].
 ### Source structure
 
 - [[javascriptallonge-section-or-even-the-simplest-possible-block-e2f3f94d]] - broader source section: Or even: / the simplest possible block
+
+### Recipes
+
+- [[javascriptallonge-recipe-undefined]] - recipe pattern: undefined
 
 ## Statements
 

@@ -8,7 +8,7 @@ updated: 2026-07-07
 domain: javascriptallonge
 category_path: sources/javascriptallonge/sections
 source_id: javascriptallonge.pdf
-projection_coverage: section-javascriptallonge-section-unfolding-and-laziness-b92d6532@2a076f47e6b84305026e22f6dda59a65
+projection_coverage: section-javascriptallonge-section-unfolding-and-laziness-b92d6532@796dbefce810167529db60e7441643bf
 ---
 
 # unfolding and laziness
@@ -21,6 +21,10 @@ From [[javascriptallonge]].
 
 - [[javascriptallonge-section-iterating-155e14c1]] - previous source section: iterating
 - [[javascriptallonge-section-bonus-e75a0dd9]] - next source section: bonus
+
+### Recipes
+
+- [[javascriptallonge-recipe-unfolding-and-laziness]] - recipe pattern: unfolding and laziness
 
 ## Statements
 

@@ -8,7 +8,7 @@ updated: 2026-07-07
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-12-2-1-poisons-f9b71416@c063fc6a3532218eda1e475f3c3114fb
+projection_coverage: section-sword-world-rpg-complete-edition-section-12-2-1-poisons-f9b71416@f781952a7dd4ce4c127304c25623c55e
 ---
 
 # 12.2.1 Poisons
@@ -32,6 +32,10 @@ From [[sword-world-rpg-complete-edition]].
 - [[sword-world-rpg-complete-edition-section-12-2-1-poisons-dark-blade-injected-damage-9251f8a8]] - narrower source section: 12.2.1 Poisons / Dark Blade (Injected/Damage)
 - [[sword-world-rpg-complete-edition-section-12-2-1-poisons-deadly-dust-inhaled-damage-d842a3dd]] - narrower source section: 12.2.1 Poisons / Deadly Dust (Inhaled/Damage)
 - [[sword-world-rpg-complete-edition-section-12-2-1-poisons-deathlike-sleep-dose-92611035]] - narrower source section: 12.2.1 Poisons / Deathlike Sleep (Dose)
+
+### Collections
+
+- [[sword-world-rpg-complete-edition-collection-12-2-1-poisons-f9b71416]] - collection page: 12.2.1 Poisons
 
 ## Statements
 

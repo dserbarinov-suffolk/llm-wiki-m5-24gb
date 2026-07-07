@@ -8,7 +8,7 @@ updated: 2026-07-07
 domain: javascriptallonge
 category_path: sources/javascriptallonge/sections
 source_id: javascriptallonge.pdf
-projection_coverage: section-javascriptallonge-section-recipes-with-basic-functions-left-variadic-functions-574b019e@302881d7466c821c38d9fde856fdb1ca
+projection_coverage: section-javascriptallonge-section-recipes-with-basic-functions-left-variadic-functions-574b019e@7131ae294b041f8424912543adcca39c
 ---
 
 # Recipes with Basic Functions / Left-Variadic Functions
@@ -20,6 +20,10 @@ From [[javascriptallonge]].
 ### Source structure
 
 - [[javascriptallonge-section-recipes-with-basic-functions-d7445960]] - broader source section: Recipes with Basic Functions
+
+### Recipes
+
+- [[javascriptallonge-recipe-left-variadic-functions]] - recipe pattern: Left-Variadic Functions
 
 ## Statements
 

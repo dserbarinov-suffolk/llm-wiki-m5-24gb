@@ -8,7 +8,7 @@ updated: 2026-07-07
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-18-3-2-structure-material-list-8380b7f0@56cdc1c824ba790159cab8dd514bffd7
+projection_coverage: section-sword-world-rpg-complete-edition-section-18-3-2-structure-material-list-8380b7f0@c7fec1ee19ab2d5eb415ae4031ee09a4
 ---
 
 # 18.3.2 Structure Material List
@@ -29,3 +29,7 @@ From [[sword-world-rpg-complete-edition]].
 - [[sword-world-rpg-complete-edition-section-18-3-2-structure-material-list-stone-d47b5f0e]] - narrower source section: 18.3.2 Structure Material List / Stone
 - [[sword-world-rpg-complete-edition-section-18-3-2-structure-material-list-vegetation-0e0156da]] - narrower source section: 18.3.2 Structure Material List / Vegetation
 - [[sword-world-rpg-complete-edition-section-18-3-2-structure-material-list-wood-c9334083]] - narrower source section: 18.3.2 Structure Material List / Wood
+
+### Collections
+
+- [[sword-world-rpg-complete-edition-collection-18-3-2-structure-material-list-8380b7f0]] - collection page: 18.3.2 Structure Material List

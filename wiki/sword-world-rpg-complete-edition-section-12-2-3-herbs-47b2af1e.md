@@ -8,7 +8,7 @@ updated: 2026-07-07
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-12-2-3-herbs-47b2af1e@14e8cb5cdc40721e093324d2421797cb
+projection_coverage: section-sword-world-rpg-complete-edition-section-12-2-3-herbs-47b2af1e@795288c84b380be47dec4a8880c1892c
 ---
 
 # 12.2.3 Herbs
@@ -29,6 +29,10 @@ From [[sword-world-rpg-complete-edition]].
 - [[sword-world-rpg-complete-edition-section-12-2-3-herbs-henruda-8e24b2bb]] - narrower source section: 12.2.3 Herbs / Henruda
 - [[sword-world-rpg-complete-edition-section-12-2-3-herbs-mandrake-bd543f0b]] - narrower source section: 12.2.3 Herbs / Mandrake
 - [[sword-world-rpg-complete-edition-section-12-2-3-herbs-upas-ed5fe245]] - narrower source section: 12.2.3 Herbs / Upas
+
+### Collections
+
+- [[sword-world-rpg-complete-edition-collection-12-2-3-herbs-47b2af1e]] - collection page: 12.2.3 Herbs
 
 ## Statements
 

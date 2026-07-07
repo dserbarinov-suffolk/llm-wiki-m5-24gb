@@ -8,7 +8,7 @@ updated: 2026-07-07
 domain: javascriptallonge
 category_path: sources/javascriptallonge/sections
 source_id: javascriptallonge.pdf
-projection_coverage: section-javascriptallonge-section-iterating-155e14c1@00bd80b0988a11981e41efa268508230
+projection_coverage: section-javascriptallonge-section-iterating-155e14c1@a8db3c64893b954fe94fdcff2c032f13
 ---
 
 # iterating
@@ -21,6 +21,10 @@ From [[javascriptallonge]].
 
 - [[javascriptallonge-section-copy-on-write-d081f846]] - previous source section: Copy on Write
 - [[javascriptallonge-section-unfolding-and-laziness-b92d6532]] - next source section: unfolding and laziness
+
+### Recipes
+
+- [[javascriptallonge-recipe-iterating]] - recipe pattern: iterating
 
 ## Statements
 

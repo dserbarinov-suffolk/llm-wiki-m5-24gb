@@ -8,7 +8,7 @@ updated: 2026-07-07
 domain: javascriptallonge
 category_path: sources/javascriptallonge/sections
 source_id: javascriptallonge.pdf
-projection_coverage: section-javascriptallonge-section-mutation-building-with-mutation-e30d36e8@752bc8baa150d990068f8f3d29622344
+projection_coverage: section-javascriptallonge-section-mutation-building-with-mutation-e30d36e8@763fb5d0e167c3c862bca4382df8be4e
 ---
 
 # Mutation / building with mutation
@@ -24,6 +24,10 @@ From [[javascriptallonge]].
 ### Source structure
 
 - [[javascriptallonge-section-mutation-ae8039d8]] - broader source section: Mutation
+
+### Recipes
+
+- [[javascriptallonge-recipe-building-with-mutation]] - recipe pattern: building with mutation
 
 ## Statements
 

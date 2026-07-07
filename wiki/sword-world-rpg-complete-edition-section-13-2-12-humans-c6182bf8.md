@@ -8,7 +8,7 @@ updated: 2026-07-07
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-13-2-12-humans-c6182bf8@aa2c9cc0b3738b75fc017c32467b9d9c
+projection_coverage: section-sword-world-rpg-complete-edition-section-13-2-12-humans-c6182bf8@b494bfa7b86ddc626c6a1248b36e1487
 ---
 
 # 13.2.12 Humans
@@ -28,3 +28,7 @@ From [[sword-world-rpg-complete-edition]].
 - [[sword-world-rpg-complete-edition-section-13-2-12-humans-dark-priest-warrior-93d8a834]] - narrower source section: 13.2.12 Humans / Dark Priest Warrior
 - [[sword-world-rpg-complete-edition-section-13-2-12-humans-normal-man-f00ff816]] - narrower source section: 13.2.12 Humans / Normal Man
 - [[sword-world-rpg-complete-edition-section-13-2-12-humans-soldier-e2d76b97]] - narrower source section: 13.2.12 Humans / Soldier
+
+### Collections
+
+- [[sword-world-rpg-complete-edition-collection-13-2-12-humans-c6182bf8]] - collection page: 13.2.12 Humans

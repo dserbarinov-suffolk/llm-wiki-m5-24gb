@@ -8,7 +8,7 @@ updated: 2026-07-07
 domain: javascriptallonge
 category_path: sources/javascriptallonge/sections
 source_id: javascriptallonge.pdf
-projection_coverage: section-javascriptallonge-section-recipes-with-data-flip-self-currying-flip-2cc96222@64b22f08dd93d23ec4bc2a1588425d28
+projection_coverage: section-javascriptallonge-section-recipes-with-data-flip-self-currying-flip-2cc96222@00cf3ed1d421610ecbc2113ce6b9a2df
 ---
 
 # Recipes with Data / Flip / self-currying flip
@@ -24,6 +24,10 @@ From [[javascriptallonge]].
 ### Source structure
 
 - [[javascriptallonge-section-recipes-with-data-flip-b1a8ea8d]] - broader source section: Recipes with Data / Flip
+
+### Recipes
+
+- [[javascriptallonge-recipe-self-currying-flip]] - recipe pattern: self-currying flip
 
 ## Statements
 

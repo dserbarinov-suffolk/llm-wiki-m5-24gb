@@ -8,7 +8,7 @@ updated: 2026-07-07
 domain: javascriptallonge
 category_path: sources/javascriptallonge/sections
 source_id: javascriptallonge.pdf
-projection_coverage: section-javascriptallonge-section-recipes-with-data-flip-flipping-methods-852e9417@47946588ee5ce2e2f9d811eaca01140b
+projection_coverage: section-javascriptallonge-section-recipes-with-data-flip-flipping-methods-852e9417@629ab6ff22657a1846545fab124ee35e
 ---
 
 # Recipes with Data / Flip / flipping methods
@@ -24,6 +24,10 @@ From [[javascriptallonge]].
 ### Source structure
 
 - [[javascriptallonge-section-recipes-with-data-flip-b1a8ea8d]] - broader source section: Recipes with Data / Flip
+
+### Recipes
+
+- [[javascriptallonge-recipe-flipping-methods]] - recipe pattern: flipping methods
 
 ## Statements
 

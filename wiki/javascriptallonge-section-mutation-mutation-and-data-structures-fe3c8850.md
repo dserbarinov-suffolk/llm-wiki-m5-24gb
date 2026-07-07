@@ -8,7 +8,7 @@ updated: 2026-07-07
 domain: javascriptallonge
 category_path: sources/javascriptallonge/sections
 source_id: javascriptallonge.pdf
-projection_coverage: section-javascriptallonge-section-mutation-mutation-and-data-structures-fe3c8850@f216b1d21ca52270b9f3766cdb715bb3
+projection_coverage: section-javascriptallonge-section-mutation-mutation-and-data-structures-fe3c8850@eec52bec6b3d86773a78dabbe49f8081
 ---
 
 # Mutation / mutation and data structures
@@ -24,6 +24,10 @@ From [[javascriptallonge]].
 ### Source structure
 
 - [[javascriptallonge-section-mutation-ae8039d8]] - broader source section: Mutation
+
+### Recipes
+
+- [[javascriptallonge-recipe-mutation-and-data-structures]] - recipe pattern: mutation and data structures
 
 ## Statements
 

@@ -8,7 +8,7 @@ updated: 2026-07-07
 domain: javascriptallonge
 category_path: sources/javascriptallonge/sections
 source_id: javascriptallonge.pdf
-projection_coverage: section-javascriptallonge-section-or-even-void-81631fb5@a06e98439531cfb976097edcbbfe4777
+projection_coverage: section-javascriptallonge-section-or-even-void-81631fb5@ba16d84f6bcaa4f063ce9d9f6768540a
 ---
 
 # Or even: / void
@@ -21,6 +21,10 @@ From [[javascriptallonge]].
 
 - [[javascriptallonge-section-or-even-the-simplest-possible-block-e2f3f94d]] - previous source section: Or even: / the simplest possible block
 - [[javascriptallonge-section-or-even-back-on-the-block-ffc7c96a]] - next source section: Or even: / back on the block
+
+### Recipes
+
+- [[javascriptallonge-recipe-void]] - recipe pattern: void
 
 ## Statements
 

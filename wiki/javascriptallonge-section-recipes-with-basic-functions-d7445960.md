@@ -8,7 +8,7 @@ updated: 2026-07-07
 domain: javascriptallonge
 category_path: sources/javascriptallonge/sections
 source_id: javascriptallonge.pdf
-projection_coverage: section-javascriptallonge-section-recipes-with-basic-functions-d7445960@93a543d87830df103773c05d71f0b122
+projection_coverage: section-javascriptallonge-section-recipes-with-basic-functions-d7445960@68e00d0017fee396692f72f7e6309aab
 ---
 
 # Recipes with Basic Functions
@@ -27,6 +27,15 @@ From [[javascriptallonge]].
 - [[javascriptallonge-section-recipes-with-basic-functions-partial-application-70ce84b0]] - narrower source section: Recipes with Basic Functions / Partial Application
 - [[javascriptallonge-section-recipes-with-basic-functions-tap-51486e75]] - narrower source section: Recipes with Basic Functions / Tap
 - [[javascriptallonge-section-recipes-with-basic-functions-unary-d494fe78]] - narrower source section: Recipes with Basic Functions / Unary
+
+### Collections
+
+- [[javascriptallonge-collection-recipes-with-basic-functions-d7445960]] - collection page: Recipes with Basic Functions
+
+### Recipes
+
+- [[javascriptallonge-recipe-maybe]] - recipe pattern: Maybe
+- [[javascriptallonge-recipe-once]] - recipe pattern: Once
 
 ## Statements
 

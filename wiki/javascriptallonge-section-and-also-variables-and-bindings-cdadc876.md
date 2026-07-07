@@ -8,7 +8,7 @@ updated: 2026-07-07
 domain: javascriptallonge
 category_path: sources/javascriptallonge/sections
 source_id: javascriptallonge.pdf
-projection_coverage: section-javascriptallonge-section-and-also-variables-and-bindings-cdadc876@e9455af1c38d68fed3a9e92b43b00311
+projection_coverage: section-javascriptallonge-section-and-also-variables-and-bindings-cdadc876@0eb73ce5804c2862171b1b2a2d63002e
 ---
 
 # And also: / variables and bindings
@@ -21,6 +21,10 @@ From [[javascriptallonge]].
 
 - [[javascriptallonge-section-and-also-ah-i-d-like-to-have-an-argument-please-22-97752ddb]] - previous source section: And also: / Ah. I'd Like to Have an Argument, Please. 22
 - [[javascriptallonge-section-and-also-call-by-sharing-d6249c17]] - next source section: And also: / call by sharing
+
+### Recipes
+
+- [[javascriptallonge-recipe-variables-and-bindings]] - recipe pattern: variables and bindings
 
 ## Statements
 

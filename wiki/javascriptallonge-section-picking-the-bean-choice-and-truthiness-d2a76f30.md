@@ -8,7 +8,7 @@ updated: 2026-07-07
 domain: javascriptallonge
 category_path: sources/javascriptallonge/sections
 source_id: javascriptallonge.pdf
-projection_coverage: section-javascriptallonge-section-picking-the-bean-choice-and-truthiness-d2a76f30@bec01ee1134f319a24d032ec4ab8cbf4
+projection_coverage: section-javascriptallonge-section-picking-the-bean-choice-and-truthiness-d2a76f30@d92d771fe04d9d26c5acfca0abadfc5a
 ---
 
 # Picking the Bean: Choice and Truthiness
@@ -27,6 +27,10 @@ From [[javascriptallonge]].
 - [[javascriptallonge-section-picking-the-bean-choice-and-truthiness-function-parameters-are-eager-699c4c1b]] - narrower source section: Picking the Bean: Choice and Truthiness / function parameters are eager
 - [[javascriptallonge-section-picking-the-bean-choice-and-truthiness-truthiness-and-operators-44549e80]] - narrower source section: Picking the Bean: Choice and Truthiness / truthiness and operators
 - [[javascriptallonge-section-picking-the-bean-choice-and-truthiness-truthiness-and-the-ternary-operator-b715a907]] - narrower source section: Picking the Bean: Choice and Truthiness / truthiness and the ternary operator
+
+### Collections
+
+- [[javascriptallonge-collection-picking-the-bean-choice-and-truthiness-d2a76f30]] - collection page: Picking the Bean: Choice and Truthiness
 
 ## Statements
 

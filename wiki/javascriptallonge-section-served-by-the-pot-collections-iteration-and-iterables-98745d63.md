@@ -8,7 +8,7 @@ updated: 2026-07-07
 domain: javascriptallonge
 category_path: sources/javascriptallonge/sections
 source_id: javascriptallonge.pdf
-projection_coverage: section-javascriptallonge-section-served-by-the-pot-collections-iteration-and-iterables-98745d63@35a3c07184755187c256743ea4921ed9
+projection_coverage: section-javascriptallonge-section-served-by-the-pot-collections-iteration-and-iterables-98745d63@b555dc6b4be1a5267b60606e005bb150
 ---
 
 # Served by the Pot: Collections / Iteration and Iterables
@@ -30,6 +30,14 @@ From [[javascriptallonge]].
 - [[javascriptallonge-section-served-by-the-pot-collections-iteration-and-iterables-iterator-objects-cbbb8baa]] - narrower source section: Served by the Pot: Collections / Iteration and Iterables / iterator objects
 - [[javascriptallonge-section-served-by-the-pot-collections-iteration-and-iterables-operations-on-ordered-collections-ee56851b]] - narrower source section: Served by the Pot: Collections / Iteration and Iterables / operations on ordered collections
 - [[javascriptallonge-section-served-by-the-pot-collections-iteration-and-iterables-ordered-collections-16a4ad9f]] - narrower source section: Served by the Pot: Collections / Iteration and Iterables / ordered collections
+
+### Collections
+
+- [[javascriptallonge-collection-served-by-the-pot-collections-iteration-and-iterables-98745d63]] - collection page: Served by the Pot: Collections / Iteration and Iterables
+
+### Recipes
+
+- [[javascriptallonge-recipe-from]] - recipe pattern: from
 
 ## Statements
 

@@ -8,7 +8,7 @@ updated: 2026-07-07
 domain: javascriptallonge
 category_path: sources/javascriptallonge/sections
 source_id: javascriptallonge.pdf
-projection_coverage: section-javascriptallonge-section-reassignment-why-const-and-let-were-invented-cf53c7fd@27f8b29fee7ad03326a05728ba0b99c7
+projection_coverage: section-javascriptallonge-section-reassignment-why-const-and-let-were-invented-cf53c7fd@30992fd8b7d328d1b7e882ceaf3dd1ea
 ---
 
 # Reassignment / why const and let were invented
@@ -24,6 +24,10 @@ From [[javascriptallonge]].
 ### Source structure
 
 - [[javascriptallonge-section-reassignment-c80c0ca4]] - broader source section: Reassignment
+
+### Recipes
+
+- [[javascriptallonge-recipe-why-const-and-let-were-invented]] - recipe pattern: why const and let were invented
 
 ## Statements
 

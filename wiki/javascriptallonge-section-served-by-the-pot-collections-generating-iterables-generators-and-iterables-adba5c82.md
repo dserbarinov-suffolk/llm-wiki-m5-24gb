@@ -8,7 +8,7 @@ updated: 2026-07-07
 domain: javascriptallonge
 category_path: sources/javascriptallonge/sections
 source_id: javascriptallonge.pdf
-projection_coverage: section-javascriptallonge-section-served-by-the-pot-collections-generating-iterables-generators-and-iterables-adba5c82@bd44b92bf7315f80e9d3e8e0b40336d6
+projection_coverage: section-javascriptallonge-section-served-by-the-pot-collections-generating-iterables-generators-and-iterables-adba5c82@8d5e1840fe61b8052b9282b89d25b972
 ---
 
 # Served by the Pot: Collections / Generating Iterables / generators and iterables
@@ -25,6 +25,10 @@ From [[javascriptallonge]].
 ### Source structure
 
 - [[javascriptallonge-section-served-by-the-pot-collections-generating-iterables-f68c47a5]] - broader source section: Served by the Pot: Collections / Generating Iterables
+
+### Recipes
+
+- [[javascriptallonge-recipe-generators-and-iterables]] - recipe pattern: generators and iterables
 
 ## Statements
 

@@ -8,7 +8,7 @@ updated: 2026-07-07
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-basic-rules-of-magic-1st-level-ancient-magic-list-unlock-5-1-12-ancient-magic-list-5f037903@ee3d0319330b1c0a8a957acbd0d7537b
+projection_coverage: section-sword-world-rpg-complete-edition-section-basic-rules-of-magic-1st-level-ancient-magic-list-unlock-5-1-12-ancient-magic-list-5f037903@3a943472fe3123606b3ac5e7e28f1048
 ---
 
 # Basic Rules of Magic / 1st Level Ancient Magic List [ Unlock ] / 5.1.12 Ancient Magic List
@@ -31,6 +31,10 @@ From [[sword-world-rpg-complete-edition]].
 - [[sword-world-rpg-complete-edition-section-basic-rules-of-magic-1st-level-ancient-magic-list-unlock-5-1-12-ancient-magic-list-dispel-magic-b13dd919]] - narrower source section: Basic Rules of Magic / 1st Level Ancient Magic List [ Unlock ] / 5.1.12 Ancient Magic List / Dispel Magic
 - [[sword-world-rpg-complete-edition-section-basic-rules-of-magic-1st-level-ancient-magic-list-unlock-5-1-12-ancient-magic-list-kindle-1dbadb82]] - narrower source section: Basic Rules of Magic / 1st Level Ancient Magic List [ Unlock ] / 5.1.12 Ancient Magic List / Kindle
 - [[sword-world-rpg-complete-edition-section-basic-rules-of-magic-1st-level-ancient-magic-list-unlock-5-1-12-ancient-magic-list-light-278bcf08]] - narrower source section: Basic Rules of Magic / 1st Level Ancient Magic List [ Unlock ] / 5.1.12 Ancient Magic List / Light
+
+### Collections
+
+- [[sword-world-rpg-complete-edition-collection-basic-rules-of-magic-1st-level-ancient-magic-list-unlock-5-1-12-ancient-magic-list-5f037903]] - collection page: Basic Rules of Magic / 1st Level Ancient Magic List [ Unlock ] / 5.1.12 Ancient Magic List
 
 ## Statements
 

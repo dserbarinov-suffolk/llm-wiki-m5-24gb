@@ -18,6 +18,9 @@ from llmwiki.domain.ledger.pointers import ledger_quality_report_pointer
 from llmwiki.domain.ledger.procedure_pages import build_procedure_pages
 from llmwiki.domain.ledger.projection import ProjectionSourceSupport
 from llmwiki.domain.ledger.projection_context import ProjectionContext
+from llmwiki.domain.ledger.projection_navigation_closure import (
+    section_backlinks_for_generated_pages,
+)
 from llmwiki.domain.ledger.recipe_pages import build_recipe_pages
 from llmwiki.domain.ledger.section_navigation import section_links_for_topics
 from llmwiki.domain.ledger.section_pages import build_section_pages
@@ -73,16 +76,6 @@ def build_linked_page_projection(
         related_pages_by_topic=related,
         projection_context=projection_context,
     )
-    section_pages = build_section_pages(
-        ledger,
-        structure,
-        section_plan=section_plan,
-        source_page_id=page_id,
-        source_locator=source_locator,
-        today=today,
-        topics=topics,
-        projection_context=projection_context,
-    )
     procedure_pages = build_procedure_pages(
         ledger,
         structure,
@@ -111,12 +104,23 @@ def build_linked_page_projection(
         shape_catalog=shape_catalog,
         section_plan=section_plan,
     )
+    derived_pages = (*procedure_pages, *collection_pages, *recipe_pages)
+    section_backlinks = section_backlinks_for_generated_pages(derived_pages)
+    section_pages = build_section_pages(
+        ledger,
+        structure,
+        section_plan=section_plan,
+        source_page_id=page_id,
+        source_locator=source_locator,
+        today=today,
+        topics=topics,
+        projection_context=projection_context,
+        extra_related_links_by_page_id=section_backlinks,
+    )
     linked_pages = (
         *topic_pages,
         *section_pages,
-        *procedure_pages,
-        *collection_pages,
-        *recipe_pages,
+        *derived_pages,
     )
     navigation = build_source_navigation_plan(
         source_page_id=page_id,

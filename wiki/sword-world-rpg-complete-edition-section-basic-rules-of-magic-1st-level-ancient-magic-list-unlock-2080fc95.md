@@ -8,7 +8,7 @@ updated: 2026-07-07
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-basic-rules-of-magic-1st-level-ancient-magic-list-unlock-2080fc95@c826ccd9f7b7ba8dba4d14919c5dd95f
+projection_coverage: section-sword-world-rpg-complete-edition-section-basic-rules-of-magic-1st-level-ancient-magic-list-unlock-2080fc95@cb2fb217acc6dbf9ec57311481fd7093
 ---
 
 # Basic Rules of Magic / 1st Level Ancient Magic List [ Unlock ]
@@ -28,3 +28,7 @@ From [[sword-world-rpg-complete-edition]].
 - [[sword-world-rpg-complete-edition-section-basic-rules-of-magic-1st-level-ancient-magic-list-unlock-enchant-weapon-60ac3823]] - narrower source section: Basic Rules of Magic / 1st Level Ancient Magic List [ Unlock ] / Enchant Weapon
 - [[sword-world-rpg-complete-edition-section-basic-rules-of-magic-1st-level-ancient-magic-list-unlock-energy-bolt-625fc16d]] - narrower source section: Basic Rules of Magic / 1st Level Ancient Magic List [ Unlock ] / Energy Bolt
 - [[sword-world-rpg-complete-edition-section-basic-rules-of-magic-1st-level-ancient-magic-list-unlock-unlock-f550898b]] - narrower source section: Basic Rules of Magic / 1st Level Ancient Magic List [ Unlock ] / Unlock
+
+### Collections
+
+- [[sword-world-rpg-complete-edition-collection-basic-rules-of-magic-1st-level-ancient-magic-list-unlock-2080fc95]] - collection page: Basic Rules of Magic / 1st Level Ancient Magic List [ Unlock ]

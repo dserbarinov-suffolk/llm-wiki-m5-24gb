@@ -8,7 +8,7 @@ updated: 2026-07-07
 domain: javascriptallonge
 category_path: sources/javascriptallonge/sections
 source_id: javascriptallonge.pdf
-projection_coverage: section-javascriptallonge-section-the-golden-crema-appendices-and-afterwords-how-to-run-the-examples-b92670cf@c852733d59fc63323ea8ee8209e4b3ec
+projection_coverage: section-javascriptallonge-section-the-golden-crema-appendices-and-afterwords-how-to-run-the-examples-b92670cf@58afb2cf5c7302c70db0d94c1747cc2e
 ---
 
 # The Golden Crema: Appendices and Afterwords / How to run the examples
@@ -20,6 +20,10 @@ From [[javascriptallonge]].
 ### Source structure
 
 - [[javascriptallonge-section-the-golden-crema-appendices-and-afterwords-baeb2597]] - broader source section: The Golden Crema: Appendices and Afterwords
+
+### Recipes
+
+- [[javascriptallonge-recipe-how-to-run-the-examples]] - recipe pattern: How to run the examples
 
 ## Statements
 

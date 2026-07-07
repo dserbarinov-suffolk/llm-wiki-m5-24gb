@@ -8,7 +8,7 @@ updated: 2026-07-07
 domain: javascriptallonge
 category_path: sources/javascriptallonge/sections
 source_id: javascriptallonge.pdf
-projection_coverage: section-javascriptallonge-section-interlude-the-carpenter-interviews-for-a-job-9cc5ffd7@d5c03be592115faf73a015a8216f78b3
+projection_coverage: section-javascriptallonge-section-interlude-the-carpenter-interviews-for-a-job-9cc5ffd7@41de3c54d9bdf047c5e9828a669b8c29
 ---
 
 # Interlude: The Carpenter Interviews for a Job
@@ -27,6 +27,10 @@ From [[javascriptallonge]].
 - [[javascriptallonge-section-interlude-the-carpenter-interviews-for-a-job-after-another-drink-1f3bcf45]] - narrower source section: Interlude: The Carpenter Interviews for a Job / after another drink
 - [[javascriptallonge-section-interlude-the-carpenter-interviews-for-a-job-the-carpenter-s-solution-bad172f9]] - narrower source section: Interlude: The Carpenter Interviews for a Job / the carpenter's solution
 - [[javascriptallonge-section-interlude-the-carpenter-interviews-for-a-job-the-problem-2249ceea]] - narrower source section: Interlude: The Carpenter Interviews for a Job / the problem
+
+### Collections
+
+- [[javascriptallonge-collection-interlude-the-carpenter-interviews-for-a-job-9cc5ffd7]] - collection page: Interlude: The Carpenter Interviews for a Job
 
 ## Statements by subsection
 

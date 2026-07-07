@@ -8,7 +8,7 @@ updated: 2026-07-07
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-basic-rules-of-magic-3rd-level-ancient-magic-list-95895739@bca609a28ff9b89ae377d9871bb595b7
+projection_coverage: section-sword-world-rpg-complete-edition-section-basic-rules-of-magic-3rd-level-ancient-magic-list-95895739@08616694022be3cf2d3fa2efa55bd718
 ---
 
 # Basic Rules of Magic / 3rd Level Ancient Magic List
@@ -32,3 +32,7 @@ From [[sword-world-rpg-complete-edition]].
 - [[sword-world-rpg-complete-edition-section-basic-rules-of-magic-3rd-level-ancient-magic-list-increase-weight-8126d8d0]] - narrower source section: Basic Rules of Magic / 3rd Level Ancient Magic List / Increase Weight
 - [[sword-world-rpg-complete-edition-section-basic-rules-of-magic-3rd-level-ancient-magic-list-levitation-fa78b20f]] - narrower source section: Basic Rules of Magic / 3rd Level Ancient Magic List / Levitation
 - [[sword-world-rpg-complete-edition-section-basic-rules-of-magic-3rd-level-ancient-magic-list-lightning-47380dff]] - narrower source section: Basic Rules of Magic / 3rd Level Ancient Magic List / Lightning
+
+### Collections
+
+- [[sword-world-rpg-complete-edition-collection-basic-rules-of-magic-3rd-level-ancient-magic-list-95895739]] - collection page: Basic Rules of Magic / 3rd Level Ancient Magic List

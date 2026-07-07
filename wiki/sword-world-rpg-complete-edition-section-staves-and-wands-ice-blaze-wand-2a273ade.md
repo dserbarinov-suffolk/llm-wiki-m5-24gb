@@ -8,7 +8,7 @@ updated: 2026-07-07
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-staves-and-wands-ice-blaze-wand-2a273ade@a6ecba6677a14a14513f2e8ac351d749
+projection_coverage: section-sword-world-rpg-complete-edition-section-staves-and-wands-ice-blaze-wand-2a273ade@f837f5442728eb6fe9d176754975e67d
 ---
 
 # 《 Staves and Wands 》 [ Ice Blaze Wand ]
@@ -32,3 +32,7 @@ From [[sword-world-rpg-complete-edition]].
 - [[sword-world-rpg-complete-edition-section-staves-and-wands-ice-blaze-wand-daemon-hand-9c2d8fd4]] - narrower source section: 《 Staves and Wands 》 [ Ice Blaze Wand ] / Daemon Hand
 - [[sword-world-rpg-complete-edition-section-staves-and-wands-ice-blaze-wand-daemon-jar-53872326]] - narrower source section: 《 Staves and Wands 》 [ Ice Blaze Wand ] / Daemon Jar
 - [[sword-world-rpg-complete-edition-section-staves-and-wands-ice-blaze-wand-delay-staff-1483836d]] - narrower source section: 《 Staves and Wands 》 [ Ice Blaze Wand ] / Delay Staff
+
+### Collections
+
+- [[sword-world-rpg-complete-edition-collection-staves-and-wands-ice-blaze-wand-2a273ade]] - collection page: 《 Staves and Wands 》 [ Ice Blaze Wand ]

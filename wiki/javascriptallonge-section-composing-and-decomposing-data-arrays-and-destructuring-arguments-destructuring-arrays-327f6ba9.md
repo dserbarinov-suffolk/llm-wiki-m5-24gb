@@ -8,7 +8,7 @@ updated: 2026-07-07
 domain: javascriptallonge
 category_path: sources/javascriptallonge/sections
 source_id: javascriptallonge.pdf
-projection_coverage: section-javascriptallonge-section-composing-and-decomposing-data-arrays-and-destructuring-arguments-destructuring-arrays-327f6ba9@fd2146f3b618acf98192edbc59e54a98
+projection_coverage: section-javascriptallonge-section-composing-and-decomposing-data-arrays-and-destructuring-arguments-destructuring-arrays-327f6ba9@db0c91a63da14dc851bc929743707718
 ---
 
 # Composing and Decomposing Data / Arrays and Destructuring Arguments / destructuring arrays
@@ -25,6 +25,10 @@ From [[javascriptallonge]].
 ### Source structure
 
 - [[javascriptallonge-section-composing-and-decomposing-data-arrays-and-destructuring-arguments-2a38bfc8]] - broader source section: Composing and Decomposing Data / Arrays and Destructuring Arguments
+
+### Recipes
+
+- [[javascriptallonge-recipe-destructuring-arrays]] - recipe pattern: destructuring arrays
 
 ## Statements
 

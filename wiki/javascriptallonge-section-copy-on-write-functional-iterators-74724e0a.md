@@ -8,7 +8,7 @@ updated: 2026-07-07
 domain: javascriptallonge
 category_path: sources/javascriptallonge/sections
 source_id: javascriptallonge.pdf
-projection_coverage: section-javascriptallonge-section-copy-on-write-functional-iterators-74724e0a@67501f46698b799bc3b92c19c273931c
+projection_coverage: section-javascriptallonge-section-copy-on-write-functional-iterators-74724e0a@ee371f4b6305c037ed2bc5eac527b10a
 ---
 
 # Copy on Write / Functional Iterators
@@ -24,6 +24,10 @@ From [[javascriptallonge]].
 ### Source structure
 
 - [[javascriptallonge-section-copy-on-write-d081f846]] - broader source section: Copy on Write
+
+### Recipes
+
+- [[javascriptallonge-recipe-functional-iterators]] - recipe pattern: Functional Iterators
 
 ### Topics
 

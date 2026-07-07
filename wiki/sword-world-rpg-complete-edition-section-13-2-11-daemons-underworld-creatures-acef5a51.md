@@ -8,7 +8,7 @@ updated: 2026-07-07
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-13-2-11-daemons-underworld-creatures-acef5a51@29fdad453dcf4ef3372b7340bc7e3433
+projection_coverage: section-sword-world-rpg-complete-edition-section-13-2-11-daemons-underworld-creatures-acef5a51@345ff4808b933e45fb6418a5b4455d5e
 ---
 
 # 13.2.11 Daemons/Underworld Creatures
@@ -29,3 +29,7 @@ From [[sword-world-rpg-complete-edition]].
 - [[sword-world-rpg-complete-edition-section-13-2-11-daemons-underworld-creatures-greater-daemons-doppelganger-c893337b]] - narrower source section: 13.2.11 Daemons/Underworld Creatures / [ Greater Daemons ] Doppelganger
 - [[sword-world-rpg-complete-edition-section-13-2-11-daemons-underworld-creatures-hellhound-012635e2]] - narrower source section: 13.2.11 Daemons/Underworld Creatures / Hellhound
 - [[sword-world-rpg-complete-edition-section-13-2-11-daemons-underworld-creatures-lesser-daemon-grunel-ad0c1ddc]] - narrower source section: 13.2.11 Daemons/Underworld Creatures / [ Lesser Daemon ] Grunel
+
+### Collections
+
+- [[sword-world-rpg-complete-edition-collection-13-2-11-daemons-underworld-creatures-acef5a51]] - collection page: 13.2.11 Daemons/Underworld Creatures

@@ -8,7 +8,7 @@ updated: 2026-07-07
 domain: javascriptallonge
 category_path: sources/javascriptallonge/sections
 source_id: javascriptallonge.pdf
-projection_coverage: section-javascriptallonge-section-a-rich-aroma-basic-numbers-operations-on-numbers-c7608822@34e8655ffb52b2c2d20c840cb5911cfc
+projection_coverage: section-javascriptallonge-section-a-rich-aroma-basic-numbers-operations-on-numbers-c7608822@751bc5d8e9b17835a255ddf0e6f86420
 ---
 
 # A Rich Aroma: Basic Numbers / operations on numbers
@@ -24,6 +24,10 @@ From [[javascriptallonge]].
 ### Source structure
 
 - [[javascriptallonge-section-a-rich-aroma-basic-numbers-7443c717]] - broader source section: A Rich Aroma: Basic Numbers
+
+### Recipes
+
+- [[javascriptallonge-recipe-operations-on-numbers]] - recipe pattern: operations on numbers
 
 ## Statements
 

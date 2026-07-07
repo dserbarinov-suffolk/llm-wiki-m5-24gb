@@ -8,7 +8,7 @@ updated: 2026-07-07
 domain: javascriptallonge
 category_path: sources/javascriptallonge/sections
 source_id: javascriptallonge.pdf
-projection_coverage: section-javascriptallonge-section-composing-and-decomposing-data-99b4771a@fc440ea8c7424fb150c4b3502ecfc918
+projection_coverage: section-javascriptallonge-section-composing-and-decomposing-data-99b4771a@595766b858aab10ebc8b04aff81f886d
 ---
 
 # Composing and Decomposing Data
@@ -30,6 +30,10 @@ From [[javascriptallonge]].
 - [[javascriptallonge-section-composing-and-decomposing-data-factorials-4b205fe1]] - narrower source section: Composing and Decomposing Data / factorials
 - [[javascriptallonge-section-composing-and-decomposing-data-self-similarity-ea23a471]] - narrower source section: Composing and Decomposing Data / Self-Similarity
 - [[javascriptallonge-section-composing-and-decomposing-data-tail-calls-and-default-arguments-b4311a56]] - narrower source section: Composing and Decomposing Data / Tail Calls (and Default Arguments)
+
+### Collections
+
+- [[javascriptallonge-collection-composing-and-decomposing-data-99b4771a]] - collection page: Composing and Decomposing Data
 
 ## Statements
 

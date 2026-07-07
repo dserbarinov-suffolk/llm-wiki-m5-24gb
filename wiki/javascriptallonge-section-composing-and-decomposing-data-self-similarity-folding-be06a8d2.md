@@ -8,7 +8,7 @@ updated: 2026-07-07
 domain: javascriptallonge
 category_path: sources/javascriptallonge/sections
 source_id: javascriptallonge.pdf
-projection_coverage: section-javascriptallonge-section-composing-and-decomposing-data-self-similarity-folding-be06a8d2@8f4de86c2b833b774a0d026d15900254
+projection_coverage: section-javascriptallonge-section-composing-and-decomposing-data-self-similarity-folding-be06a8d2@18606586a03b6344ff82e5e64ed21577
 ---
 
 # Composing and Decomposing Data / Self-Similarity / folding
@@ -24,6 +24,10 @@ From [[javascriptallonge]].
 ### Source structure
 
 - [[javascriptallonge-section-composing-and-decomposing-data-self-similarity-ea23a471]] - broader source section: Composing and Decomposing Data / Self-Similarity
+
+### Recipes
+
+- [[javascriptallonge-recipe-folding]] - recipe pattern: folding
 
 ## Statements
 

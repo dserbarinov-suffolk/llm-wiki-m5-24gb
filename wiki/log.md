@@ -851,3 +851,27 @@ Orphan pages (no inbound links from any other page):
 - ... 138 more
 
 Model repair loop skipped because the deterministic finding set contains 163 issue(s), above the 50-issue interactive repair budget.
+
+## [2026-07-07] ingest | javascriptallonge.pdf
+Claim-ledger ingest of raw/javascriptallonge.pdf (206 source unit(s)).
+Claim-ledger projection (coding): 1901 usable entries, 608 technical atoms, 466 needs-review, 0 linked page(s); write decision write-with-review-work.
+Source page: none (authoritative write blocked — see blocked-write-diagnostic.json); linked pages: 0. Ledger artifacts: /Users/DSerbarinov/llm-wiki/harness/.cache/page-plans/javascriptallonge-5873116c6496/ledger.
+Provenance audit: skipped because authoritative write was blocked.
+Graph export: current; nodes=1213; edges=5209; unresolved=0.
+Ingest confidence: passed. Report filed as [[wiki-ingest-confidence]].
+
+## [2026-07-07] ingest | javascriptallonge.pdf
+Claim-ledger ingest of raw/javascriptallonge.pdf (206 source unit(s)).
+Claim-ledger projection (coding): 1901 usable entries, 608 technical atoms, 466 needs-review, 377 linked page(s); write decision write-with-review-work.
+Source page: [[javascriptallonge]]; linked pages: 377. Ledger artifacts: /Users/DSerbarinov/llm-wiki/harness/.cache/page-plans/javascriptallonge-5873116c6496/ledger.
+Provenance audit: 2035 finding(s), 1434 outside source manifests.
+Graph export: current; nodes=1213; edges=5627; unresolved=0.
+Ingest confidence: passed. Report filed as [[wiki-ingest-confidence]].
+
+## [2026-07-07] ingest | Sword World RPG - Complete Edition.pdf
+Claim-ledger ingest of raw/Sword World RPG - Complete Edition.pdf (669 source unit(s)).
+Claim-ledger projection (rules-reference): 10818 usable entries, 3642 technical atoms, 1436 needs-review, 832 linked page(s); write decision write-with-review-work.
+Source page: [[sword-world-rpg-complete-edition]]; linked pages: 832. Ledger artifacts: /Users/DSerbarinov/llm-wiki/harness/.cache/page-plans/sword-world-rpg-complete-edition-8e67d04d99d8/ledger.
+Provenance audit: 3583 finding(s), 994 outside source manifests.
+Graph export: current; nodes=1213; edges=6395; unresolved=0.
+Ingest confidence: passed. Report filed as [[wiki-ingest-confidence]].

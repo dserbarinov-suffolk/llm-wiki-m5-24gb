@@ -8,7 +8,7 @@ updated: 2026-07-07
 domain: javascriptallonge
 category_path: sources/javascriptallonge/sections
 source_id: javascriptallonge.pdf
-projection_coverage: section-javascriptallonge-section-recipes-with-basic-functions-partial-application-70ce84b0@98225f81520eb196f637d803cd0bbb5c
+projection_coverage: section-javascriptallonge-section-recipes-with-basic-functions-partial-application-70ce84b0@ce8a1dd1cd08601c66204d31358941d8
 ---
 
 # Recipes with Basic Functions / Partial Application
@@ -24,6 +24,10 @@ From [[javascriptallonge]].
 ### Source structure
 
 - [[javascriptallonge-section-recipes-with-basic-functions-d7445960]] - broader source section: Recipes with Basic Functions
+
+### Recipes
+
+- [[javascriptallonge-recipe-partial-application]] - recipe pattern: Partial Application
 
 ### Topics
 

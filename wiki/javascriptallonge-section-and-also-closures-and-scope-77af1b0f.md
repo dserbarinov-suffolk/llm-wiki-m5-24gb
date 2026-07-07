@@ -8,7 +8,7 @@ updated: 2026-07-07
 domain: javascriptallonge
 category_path: sources/javascriptallonge/sections
 source_id: javascriptallonge.pdf
-projection_coverage: section-javascriptallonge-section-and-also-closures-and-scope-77af1b0f@2ad542d50f4cfef1a55ab9a4c6d95b0e
+projection_coverage: section-javascriptallonge-section-and-also-closures-and-scope-77af1b0f@a56d9847fc6e3654662599967de0d467
 ---
 
 # And also: / Closures and Scope
@@ -20,6 +20,10 @@ From [[javascriptallonge]].
 ### Source order
 
 - [[javascriptallonge-section-and-also-call-by-sharing-d6249c17]] - previous source section: And also: / call by sharing
+
+### Recipes
+
+- [[javascriptallonge-recipe-closures-and-scope]] - recipe pattern: Closures and Scope
 
 ## Statements
 

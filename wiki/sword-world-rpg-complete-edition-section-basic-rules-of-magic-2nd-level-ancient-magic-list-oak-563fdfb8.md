@@ -8,7 +8,7 @@ updated: 2026-07-07
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-basic-rules-of-magic-2nd-level-ancient-magic-list-oak-563fdfb8@2c4625150b2b417d77533f0b3b62a315
+projection_coverage: section-sword-world-rpg-complete-edition-section-basic-rules-of-magic-2nd-level-ancient-magic-list-oak-563fdfb8@763fff6cba88151d1f30d268e021ee66
 ---
 
 # Basic Rules of Magic / 2nd Level Ancient Magic List [ Oak ]
@@ -31,3 +31,7 @@ From [[sword-world-rpg-complete-edition]].
 - [[sword-world-rpg-complete-edition-section-basic-rules-of-magic-2nd-level-ancient-magic-list-oak-oak-58ae2498]] - narrower source section: Basic Rules of Magic / 2nd Level Ancient Magic List [ Oak ] / Oak
 - [[sword-world-rpg-complete-edition-section-basic-rules-of-magic-2nd-level-ancient-magic-list-oak-replace-sound-ac59c980]] - narrower source section: Basic Rules of Magic / 2nd Level Ancient Magic List [ Oak ] / Replace Sound
 - [[sword-world-rpg-complete-edition-section-basic-rules-of-magic-2nd-level-ancient-magic-list-oak-sense-enemy-6b2cee4a]] - narrower source section: Basic Rules of Magic / 2nd Level Ancient Magic List [ Oak ] / Sense Enemy
+
+### Collections
+
+- [[sword-world-rpg-complete-edition-collection-basic-rules-of-magic-2nd-level-ancient-magic-list-oak-563fdfb8]] - collection page: Basic Rules of Magic / 2nd Level Ancient Magic List [ Oak ]

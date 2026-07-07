@@ -8,7 +8,7 @@ updated: 2026-07-07
 domain: javascriptallonge
 category_path: sources/javascriptallonge/sections
 source_id: javascriptallonge.pdf
-projection_coverage: section-javascriptallonge-section-that-constant-coffee-craving-inside-out-6df7936c@29bbbee8955db7724b09d36a560a5435
+projection_coverage: section-javascriptallonge-section-that-constant-coffee-craving-inside-out-6df7936c@ab1700560e18e4e0c36c7576b99558dd
 ---
 
 # That Constant Coffee Craving / inside-out
@@ -24,6 +24,10 @@ From [[javascriptallonge]].
 ### Source structure
 
 - [[javascriptallonge-section-that-constant-coffee-craving-614e2fd3]] - broader source section: That Constant Coffee Craving
+
+### Recipes
+
+- [[javascriptallonge-recipe-inside-out]] - recipe pattern: inside-out
 
 ## Statements
 

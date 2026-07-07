@@ -8,7 +8,7 @@ updated: 2026-07-07
 domain: javascriptallonge
 category_path: sources/javascriptallonge/sections
 source_id: javascriptallonge.pdf
-projection_coverage: section-javascriptallonge-section-composing-and-decomposing-data-arrays-and-destructuring-arguments-destructuring-is-not-pattern-m-27d4b226@acfe9acebb352cc3fbd585fc6c16b55e
+projection_coverage: section-javascriptallonge-section-composing-and-decomposing-data-arrays-and-destructuring-arguments-destructuring-is-not-pattern-m-27d4b226@9ca6b0b2e96f8c2d6209a75af3818b58
 ---
 
 # Composing and Decomposing Data / Arrays and Destructuring Arguments / destructuring is not pattern matching
@@ -25,6 +25,10 @@ From [[javascriptallonge]].
 ### Source structure
 
 - [[javascriptallonge-section-composing-and-decomposing-data-arrays-and-destructuring-arguments-2a38bfc8]] - broader source section: Composing and Decomposing Data / Arrays and Destructuring Arguments
+
+### Recipes
+
+- [[javascriptallonge-recipe-destructuring-is-not-pattern-matching]] - recipe pattern: destructuring is not pattern matching
 
 ## Statements
 

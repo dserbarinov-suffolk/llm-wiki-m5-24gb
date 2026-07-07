@@ -8,7 +8,7 @@ updated: 2026-07-07
 domain: javascriptallonge
 category_path: sources/javascriptallonge/sections
 source_id: javascriptallonge.pdf
-projection_coverage: section-javascriptallonge-section-naming-functions-the-function-keyword-46a79cb6@e847fe9ac9329d5753d5dfff3f3bf90d
+projection_coverage: section-javascriptallonge-section-naming-functions-the-function-keyword-46a79cb6@83f1e5f5fbd8aaed10e35fd58c0ee159
 ---
 
 # Naming Functions / the function keyword
@@ -24,6 +24,10 @@ From [[javascriptallonge]].
 ### Source structure
 
 - [[javascriptallonge-section-naming-functions-c49aef83]] - broader source section: Naming Functions
+
+### Recipes
+
+- [[javascriptallonge-recipe-the-function-keyword-46a79cb6]] - recipe pattern: the function keyword
 
 ### Topics
 

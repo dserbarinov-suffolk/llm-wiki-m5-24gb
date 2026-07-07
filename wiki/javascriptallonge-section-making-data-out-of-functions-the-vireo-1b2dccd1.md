@@ -8,7 +8,7 @@ updated: 2026-07-07
 domain: javascriptallonge
 category_path: sources/javascriptallonge/sections
 source_id: javascriptallonge.pdf
-projection_coverage: section-javascriptallonge-section-making-data-out-of-functions-the-vireo-1b2dccd1@e986fdf8b99da95a9361e9580a51d2bc
+projection_coverage: section-javascriptallonge-section-making-data-out-of-functions-the-vireo-1b2dccd1@d7ca2f9472002978f23a5a077a2afecf
 ---
 
 # Making Data Out Of Functions / the vireo
@@ -25,6 +25,10 @@ From [[javascriptallonge]].
 ### Source structure
 
 - [[javascriptallonge-section-making-data-out-of-functions-182a6c8b]] - broader source section: Making Data Out Of Functions
+
+### Recipes
+
+- [[javascriptallonge-recipe-the-vireo]] - recipe pattern: the vireo
 
 ## Statements
 

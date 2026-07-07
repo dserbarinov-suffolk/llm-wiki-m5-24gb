@@ -8,7 +8,7 @@ updated: 2026-07-07
 domain: javascriptallonge
 category_path: sources/javascriptallonge/sections
 source_id: javascriptallonge.pdf
-projection_coverage: section-javascriptallonge-section-interlude-the-carpenter-interviews-for-a-job-the-problem-2249ceea@b583cbb5de9278bb75901c625eb26f83
+projection_coverage: section-javascriptallonge-section-interlude-the-carpenter-interviews-for-a-job-the-problem-2249ceea@1cfcc3c3f1497d472dab0ee061341de2
 ---
 
 # Interlude: The Carpenter Interviews for a Job / the problem
@@ -24,6 +24,10 @@ From [[javascriptallonge]].
 ### Source structure
 
 - [[javascriptallonge-section-interlude-the-carpenter-interviews-for-a-job-9cc5ffd7]] - broader source section: Interlude: The Carpenter Interviews for a Job
+
+### Recipes
+
+- [[javascriptallonge-recipe-the-problem]] - recipe pattern: the problem
 
 ## Statements
 

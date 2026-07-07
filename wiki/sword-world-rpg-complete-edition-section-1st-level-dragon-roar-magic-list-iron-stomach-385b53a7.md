@@ -8,7 +8,7 @@ updated: 2026-07-07
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-1st-level-dragon-roar-magic-list-iron-stomach-385b53a7@0d49e52f09028312c1581ee9bfdd7291
+projection_coverage: section-sword-world-rpg-complete-edition-section-1st-level-dragon-roar-magic-list-iron-stomach-385b53a7@8e7b20f7e08ff6c7318b36942f4f508e
 ---
 
 # 1st Level Dragon Roar Magic List [ Iron Stomach ]
@@ -27,3 +27,7 @@ From [[sword-world-rpg-complete-edition]].
 - [[sword-world-rpg-complete-edition-section-1st-level-dragon-roar-magic-list-iron-stomach-communicate-reptile-c867ebad]] - narrower source section: 1st Level Dragon Roar Magic List [ Iron Stomach ] / Communicate Reptile
 - [[sword-world-rpg-complete-edition-section-1st-level-dragon-roar-magic-list-iron-stomach-heavy-scale-5a859001]] - narrower source section: 1st Level Dragon Roar Magic List [ Iron Stomach ] / Heavy Scale
 - [[sword-world-rpg-complete-edition-section-1st-level-dragon-roar-magic-list-iron-stomach-iron-stomach-27a75c6e]] - narrower source section: 1st Level Dragon Roar Magic List [ Iron Stomach ] / Iron Stomach
+
+### Collections
+
+- [[sword-world-rpg-complete-edition-collection-1st-level-dragon-roar-magic-list-iron-stomach-385b53a7]] - collection page: 1st Level Dragon Roar Magic List [ Iron Stomach ]

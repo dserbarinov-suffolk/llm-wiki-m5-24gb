@@ -8,7 +8,7 @@ updated: 2026-07-07
 domain: javascriptallonge
 category_path: sources/javascriptallonge/sections
 source_id: javascriptallonge.pdf
-projection_coverage: section-javascriptallonge-section-combinators-and-function-decorators-higher-order-functions-c07c644e@eedbae9327ef23c72b9078e64b5a2768
+projection_coverage: section-javascriptallonge-section-combinators-and-function-decorators-higher-order-functions-c07c644e@43a9d28f33653864de9677084207afcb
 ---
 
 # Combinators and Function Decorators / higher-order functions
@@ -24,6 +24,10 @@ From [[javascriptallonge]].
 ### Source structure
 
 - [[javascriptallonge-section-combinators-and-function-decorators-901f172c]] - broader source section: Combinators and Function Decorators
+
+### Recipes
+
+- [[javascriptallonge-recipe-higher-order-functions]] - recipe pattern: higher-order functions
 
 ## Statements
 

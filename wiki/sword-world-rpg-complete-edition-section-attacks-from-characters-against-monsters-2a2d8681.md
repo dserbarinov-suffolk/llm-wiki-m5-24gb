@@ -8,7 +8,7 @@ updated: 2026-07-07
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-attacks-from-characters-against-monsters-2a2d8681@aa2aab68f9558563ea46a9f0b73a9ea5
+projection_coverage: section-sword-world-rpg-complete-edition-section-attacks-from-characters-against-monsters-2a2d8681@16331dfe59788e02c6ede69d926051e2
 ---
 
 # Attacks From Characters Against Monsters
@@ -29,6 +29,10 @@ From [[sword-world-rpg-complete-edition]].
 - [[sword-world-rpg-complete-edition-section-attacks-from-characters-against-monsters-4-5-3-bonus-damage-66d7239b]] - narrower source section: Attacks From Characters Against Monsters / 4.5.3 Bonus Damage
 - [[sword-world-rpg-complete-edition-section-attacks-from-characters-against-monsters-4-5-4-monster-defense-points-c48dcc4c]] - narrower source section: Attacks From Characters Against Monsters / 4.5.4 Monster Defense Points
 - [[sword-world-rpg-complete-edition-section-attacks-from-characters-against-monsters-4-5-5-final-damage-3ad5f07b]] - narrower source section: Attacks From Characters Against Monsters / 4.5.5 Final Damage
+
+### Procedures
+
+- [[sword-world-rpg-complete-edition-procedure-attacks-from-characters-against-monsters]] - procedure guide: Attacks From Characters Against Monsters
 
 ### Topics
 

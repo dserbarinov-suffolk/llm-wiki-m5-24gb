@@ -8,7 +8,7 @@ updated: 2026-07-07
 domain: javascriptallonge
 category_path: sources/javascriptallonge/sections
 source_id: javascriptallonge.pdf
-projection_coverage: section-javascriptallonge-section-bonus-e75a0dd9@fffb0526fe26419dfe04c2ebbbe5dc9e
+projection_coverage: section-javascriptallonge-section-bonus-e75a0dd9@168603f43eecbf05e6aab5103cd31c0a
 ---
 
 # bonus
@@ -20,6 +20,10 @@ From [[javascriptallonge]].
 ### Source order
 
 - [[javascriptallonge-section-unfolding-and-laziness-b92d6532]] - previous source section: unfolding and laziness
+
+### Recipes
+
+- [[javascriptallonge-recipe-bonus]] - recipe pattern: bonus
 
 ## Statements
 

@@ -8,7 +8,7 @@ updated: 2026-07-07
 domain: javascriptallonge
 category_path: sources/javascriptallonge/sections
 source_id: javascriptallonge.pdf
-projection_coverage: section-javascriptallonge-section-naming-functions-function-declaration-caveats-34-2bc8359c@d0b847ffc20b5b750cf9748738463d58
+projection_coverage: section-javascriptallonge-section-naming-functions-function-declaration-caveats-34-2bc8359c@547d088a2bc9626232594bffc6594e84
 ---
 
 # Naming Functions / function declaration caveats 34
@@ -24,6 +24,10 @@ From [[javascriptallonge]].
 ### Source structure
 
 - [[javascriptallonge-section-naming-functions-c49aef83]] - broader source section: Naming Functions
+
+### Recipes
+
+- [[javascriptallonge-recipe-function-declaration-caveats-34]] - recipe pattern: function declaration caveats 34
 
 ## Statements
 

@@ -8,7 +8,7 @@ updated: 2026-07-07
 domain: javascriptallonge
 category_path: sources/javascriptallonge/sections
 source_id: javascriptallonge.pdf
-projection_coverage: section-javascriptallonge-section-combinators-and-function-decorators-function-decorators-9d6990ae@ca6653c84a44fbda5f5b4577c958b3bd
+projection_coverage: section-javascriptallonge-section-combinators-and-function-decorators-function-decorators-9d6990ae@8d110ec3392239c1050f785d402c321d
 ---
 
 # Combinators and Function Decorators / function decorators
@@ -20,6 +20,10 @@ From [[javascriptallonge]].
 ### Source structure
 
 - [[javascriptallonge-section-combinators-and-function-decorators-901f172c]] - broader source section: Combinators and Function Decorators
+
+### Recipes
+
+- [[javascriptallonge-recipe-function-decorators]] - recipe pattern: function decorators
 
 ### Topics
 

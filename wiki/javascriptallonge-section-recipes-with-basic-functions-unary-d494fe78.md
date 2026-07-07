@@ -8,7 +8,7 @@ updated: 2026-07-07
 domain: javascriptallonge
 category_path: sources/javascriptallonge/sections
 source_id: javascriptallonge.pdf
-projection_coverage: section-javascriptallonge-section-recipes-with-basic-functions-unary-d494fe78@5c37261485c9a9d66e71fcc4b15ba8ad
+projection_coverage: section-javascriptallonge-section-recipes-with-basic-functions-unary-d494fe78@52cab39d8f0ab006a110192bf10b2bd5
 ---
 
 # Recipes with Basic Functions / Unary
@@ -25,6 +25,10 @@ From [[javascriptallonge]].
 ### Source structure
 
 - [[javascriptallonge-section-recipes-with-basic-functions-d7445960]] - broader source section: Recipes with Basic Functions
+
+### Recipes
+
+- [[javascriptallonge-recipe-unary]] - recipe pattern: Unary
 
 ## Statements
 

@@ -8,7 +8,7 @@ updated: 2026-07-07
 domain: javascriptallonge
 category_path: sources/javascriptallonge/sections
 source_id: javascriptallonge.pdf
-projection_coverage: section-javascriptallonge-section-served-by-the-pot-collections-iteration-and-iterables-iterables-out-to-infinity-ae258dd7@a170bfb25a072d6942404a5fafec96da
+projection_coverage: section-javascriptallonge-section-served-by-the-pot-collections-iteration-and-iterables-iterables-out-to-infinity-ae258dd7@efacb13d8f6e502f01355f27b479a9fd
 ---
 
 # Served by the Pot: Collections / Iteration and Iterables / iterables out to infinity
@@ -25,6 +25,10 @@ From [[javascriptallonge]].
 ### Source structure
 
 - [[javascriptallonge-section-served-by-the-pot-collections-iteration-and-iterables-98745d63]] - broader source section: Served by the Pot: Collections / Iteration and Iterables
+
+### Recipes
+
+- [[javascriptallonge-recipe-iterables-out-to-infinity]] - recipe pattern: iterables out to infinity
 
 ## Statements
 

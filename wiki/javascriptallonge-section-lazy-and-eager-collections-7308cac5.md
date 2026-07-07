@@ -8,7 +8,7 @@ updated: 2026-07-07
 domain: javascriptallonge
 category_path: sources/javascriptallonge/sections
 source_id: javascriptallonge.pdf
-projection_coverage: section-javascriptallonge-section-lazy-and-eager-collections-7308cac5@3365d76ad54ab547fe9c90d0cc1ca1fa
+projection_coverage: section-javascriptallonge-section-lazy-and-eager-collections-7308cac5@2c254c8804b526438f2648b5976bd819
 ---
 
 # Lazy and Eager Collections
@@ -27,6 +27,10 @@ From [[javascriptallonge]].
 - [[javascriptallonge-section-lazy-and-eager-collections-eager-collections-527b72b9]] - narrower source section: Lazy and Eager Collections / eager collections
 - [[javascriptallonge-section-lazy-and-eager-collections-implementing-methods-with-iteration-e67a1913]] - narrower source section: Lazy and Eager Collections / implementing methods with iteration
 - [[javascriptallonge-section-lazy-and-eager-collections-lazy-collection-operations-0de83c02]] - narrower source section: Lazy and Eager Collections / lazy collection operations
+
+### Collections
+
+- [[javascriptallonge-collection-lazy-and-eager-collections-7308cac5]] - collection page: Lazy and Eager Collections
 
 ## Statements
 

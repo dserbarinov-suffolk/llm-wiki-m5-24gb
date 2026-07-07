@@ -8,7 +8,7 @@ updated: 2026-07-07
 domain: javascriptallonge
 category_path: sources/javascriptallonge/sections
 source_id: javascriptallonge.pdf
-projection_coverage: section-javascriptallonge-section-that-constant-coffee-craving-const-and-lexical-scope-bbfe0b3d@9ecd7f4e258c20405854f14db570b936
+projection_coverage: section-javascriptallonge-section-that-constant-coffee-craving-const-and-lexical-scope-bbfe0b3d@497eb2bdcd7f6443e6a78d8bc78613e1
 ---
 
 # That Constant Coffee Craving / const and lexical scope
@@ -25,6 +25,10 @@ From [[javascriptallonge]].
 ### Source structure
 
 - [[javascriptallonge-section-that-constant-coffee-craving-614e2fd3]] - broader source section: That Constant Coffee Craving
+
+### Recipes
+
+- [[javascriptallonge-recipe-const-and-lexical-scope]] - recipe pattern: const and lexical scope
 
 ## Statements
 

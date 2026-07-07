@@ -8,7 +8,7 @@ updated: 2026-07-07
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-13-2-10-magical-creatures-56568f0e@7881bef7a62791f29bc0b5194803abd0
+projection_coverage: section-sword-world-rpg-complete-edition-section-13-2-10-magical-creatures-56568f0e@868fb0c7ef5f9872fe14b76685e30cb2
 ---
 
 # 13.2.10 Magical Creatures
@@ -32,6 +32,10 @@ From [[sword-world-rpg-complete-edition]].
 - [[sword-world-rpg-complete-edition-section-13-2-10-magical-creatures-obsidian-dog-b4e7b792]] - narrower source section: 13.2.10 Magical Creatures / Obsidian Dog
 - [[sword-world-rpg-complete-edition-section-13-2-10-magical-creatures-puppet-golem-0490ae80]] - narrower source section: 13.2.10 Magical Creatures / Puppet Golem
 - [[sword-world-rpg-complete-edition-section-13-2-10-magical-creatures-stalker-6f05fbbe]] - narrower source section: 13.2.10 Magical Creatures / Stalker
+
+### Collections
+
+- [[sword-world-rpg-complete-edition-collection-13-2-10-magical-creatures-56568f0e]] - collection page: 13.2.10 Magical Creatures
 
 ## Statements by subsection
 

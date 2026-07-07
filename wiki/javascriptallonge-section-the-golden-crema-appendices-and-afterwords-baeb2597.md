@@ -8,7 +8,7 @@ updated: 2026-07-07
 domain: javascriptallonge
 category_path: sources/javascriptallonge/sections
 source_id: javascriptallonge.pdf
-projection_coverage: section-javascriptallonge-section-the-golden-crema-appendices-and-afterwords-baeb2597@a9c84035e1d7694d3f07d85e24e4b2da
+projection_coverage: section-javascriptallonge-section-the-golden-crema-appendices-and-afterwords-baeb2597@29b9d92f520eaeedecdd366393e2cecb
 ---
 
 # The Golden Crema: Appendices and Afterwords
@@ -25,6 +25,10 @@ From [[javascriptallonge]].
 
 - [[javascriptallonge-section-the-golden-crema-appendices-and-afterwords-about-the-author-8fef8412]] - narrower source section: The Golden Crema: Appendices and Afterwords / About The Author
 - [[javascriptallonge-section-the-golden-crema-appendices-and-afterwords-how-to-run-the-examples-b92670cf]] - narrower source section: The Golden Crema: Appendices and Afterwords / How to run the examples
+
+### Collections
+
+- [[javascriptallonge-collection-the-golden-crema-appendices-and-afterwords-baeb2597]] - collection page: The Golden Crema: Appendices and Afterwords
 
 ## Statements by subsection
 

@@ -8,7 +8,7 @@ updated: 2026-07-07
 domain: javascriptallonge
 category_path: sources/javascriptallonge/sections
 source_id: javascriptallonge.pdf
-projection_coverage: section-javascriptallonge-section-composing-and-decomposing-data-self-similarity-linear-recursion-fad0c717@6d2784741fb1f1af3a5fe2e6788b4110
+projection_coverage: section-javascriptallonge-section-composing-and-decomposing-data-self-similarity-linear-recursion-fad0c717@aab1bdcafce654d92818502b99351b9b
 ---
 
 # Composing and Decomposing Data / Self-Similarity / linear recursion
@@ -24,6 +24,10 @@ From [[javascriptallonge]].
 ### Source structure
 
 - [[javascriptallonge-section-composing-and-decomposing-data-self-similarity-ea23a471]] - broader source section: Composing and Decomposing Data / Self-Similarity
+
+### Recipes
+
+- [[javascriptallonge-recipe-linear-recursion]] - recipe pattern: linear recursion
 
 ## Statements
 

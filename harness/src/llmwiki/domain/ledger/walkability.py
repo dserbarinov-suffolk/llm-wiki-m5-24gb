@@ -24,6 +24,9 @@ _STRUCTURAL_RELATIONS = frozenset(
         "next source section",
         "source section",
         "topic hub",
+        "collection page",
+        "procedure guide",
+        "recipe pattern",
     }
 )
 _EXCERPT_LIMIT = 180

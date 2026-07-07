@@ -8,7 +8,7 @@ updated: 2026-07-07
 domain: javascriptallonge
 category_path: sources/javascriptallonge/sections
 source_id: javascriptallonge.pdf
-projection_coverage: section-javascriptallonge-section-plain-old-javascript-objects-literal-object-syntax-41ad73a1@4b7ee346a2444058ee9957d8a107f033
+projection_coverage: section-javascriptallonge-section-plain-old-javascript-objects-literal-object-syntax-41ad73a1@110ae55a2472d3163d00e2bd0af8ecfd
 ---
 
 # Plain Old JavaScript Objects / literal object syntax
@@ -24,6 +24,10 @@ From [[javascriptallonge]].
 ### Source structure
 
 - [[javascriptallonge-section-plain-old-javascript-objects-ae9a88a3]] - broader source section: Plain Old JavaScript Objects
+
+### Recipes
+
+- [[javascriptallonge-recipe-literal-object-syntax]] - recipe pattern: literal object syntax
 
 ## Statements
 

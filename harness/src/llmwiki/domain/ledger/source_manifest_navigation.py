@@ -16,9 +16,6 @@ from llmwiki.domain.ledger.structure import DocumentStructure
 from llmwiki.domain.pages import WikiPage
 
 _MAX_CONCEPT_ENTRY_POINTS = 24
-_MAX_SECTION_ENTRY_POINTS = 40
-
-
 @dataclass(frozen=True)
 class SourceEntryPoint:
     page_id: str
@@ -35,6 +32,12 @@ class PageFamilySummary:
 
 
 @dataclass(frozen=True)
+class SourceEntryPointGroup:
+    heading: str
+    entries: tuple[SourceEntryPoint, ...]
+
+
+@dataclass(frozen=True)
 class SourceNavigationPlan:
     source_page_id: str
     title: str
@@ -45,6 +48,7 @@ class SourceNavigationPlan:
     collections: tuple[SourceEntryPoint, ...]
     concepts: tuple[SourceEntryPoint, ...]
     sections: tuple[SourceEntryPoint, ...]
+    page_family_entry_groups: tuple[SourceEntryPointGroup, ...] = ()
 
 
 def build_source_navigation_plan(
@@ -66,10 +70,9 @@ def build_source_navigation_plan(
         for plan in collection_plans
         if plan.collection_page_id in page_by_id
     )
-    concepts = tuple(_entry(page, "concept") for page in pages if _is_concept(page))[
-        :_MAX_CONCEPT_ENTRY_POINTS
-    ]
-    sections = _top_section_entries(source_page_id, structure, page_by_id)
+    concepts = tuple(_entry(page, "concept") for page in pages if _is_concept(page))
+    sections = _section_entries(source_page_id, structure, page_by_id)
+    page_family_entry_groups = _page_family_entry_groups(pages, collections)
     return SourceNavigationPlan(
         source_page_id=source_page_id,
         title=title,
@@ -78,8 +81,9 @@ def build_source_navigation_plan(
         page_family_summaries=family_summaries,
         procedures=procedures,
         collections=collections,
-        concepts=concepts,
+        concepts=concepts[:_MAX_CONCEPT_ENTRY_POINTS],
         sections=sections,
+        page_family_entry_groups=page_family_entry_groups,
     )
 
 
@@ -97,9 +101,8 @@ def render_source_manifest(plan: SourceNavigationPlan) -> str:
     ]
     for summary in plan.page_family_summaries:
         lines.append(f"- {summary.page_family}: {summary.count} page(s) - {summary.purpose}")
-    _append_group(lines, "Procedure Guides", plan.procedures)
-    _append_group(lines, "Collections", plan.collections)
-    _append_group(lines, "Concept Entry Points", plan.concepts)
+    for group in plan.page_family_entry_groups:
+        _append_group(lines, group.heading, group.entries)
     _append_group(lines, "Source Section Index", plan.sections)
     return "\n".join(lines).strip() + "\n"
 
@@ -140,7 +143,7 @@ def _family_purpose(page_family: str) -> str:
 
 
 def _entry(page: WikiPage, relation_kind: str) -> SourceEntryPoint:
-    label = page.page_id.replace("-", " ").title()
+    label = _page_title(page)
     return SourceEntryPoint(page.page_id, label, relation_kind, page.summary)
 
 
@@ -151,21 +154,23 @@ def _collection_entry(
     return SourceEntryPoint(page.page_id, plan.title, "collection", page.summary)
 
 
-def _top_section_entries(
+def _section_entries(
     source_page_id: str, structure: DocumentStructure, page_by_id: dict[str, WikiPage]
 ) -> tuple[SourceEntryPoint, ...]:
     entries: list[SourceEntryPoint] = []
-    for node in structure.children(structure.root_node_id):
+    for node in sorted(structure.structure_nodes, key=lambda item: item.source_order):
+        if node.structure_node_id == structure.root_node_id:
+            continue
         page_id = section_page_id(source_page_id, structure, node)
         page = page_by_id.get(page_id)
         if page is None:
             continue
         entries.append(
             SourceEntryPoint(
-                page_id, section_title(structure, node), "top-level-section", page.summary
+                page_id, section_title(structure, node), "source section", page.summary
             )
         )
-    return tuple(entries[:_MAX_SECTION_ENTRY_POINTS])
+    return tuple(entries)
 
 
 def _append_group(lines: list[str], heading: str, entries: tuple[SourceEntryPoint, ...]) -> None:
@@ -174,6 +179,62 @@ def _append_group(lines: list[str], heading: str, entries: tuple[SourceEntryPoin
     lines.extend(("", f"## {heading}", ""))
     for entry in entries:
         lines.append(f"- [[{entry.page_id}]] - {entry.relation_kind}: {entry.summary}")
+
+
+def _page_family_entry_groups(
+    pages: tuple[WikiPage, ...], collection_entries: tuple[SourceEntryPoint, ...]
+) -> tuple[SourceEntryPointGroup, ...]:
+    collection_by_page_id = {entry.page_id: entry for entry in collection_entries}
+    grouped: dict[str, list[SourceEntryPoint]] = {}
+    for page in pages:
+        family = page.page_metadata.page_family
+        if family in {"", PAGE_FAMILY_SECTION_REFERENCE, "source-manifest"}:
+            continue
+        if page.page_id in collection_by_page_id:
+            entry = collection_by_page_id[page.page_id]
+        else:
+            entry = _entry(page, _entry_relation(family))
+        grouped.setdefault(family, []).append(entry)
+    return tuple(
+        SourceEntryPointGroup(_family_heading(family), tuple(sorted(entries, key=_entry_sort_key)))
+        for family, entries in sorted(grouped.items(), key=lambda item: _family_order(item[0]))
+    )
+
+
+def _entry_relation(page_family: str) -> str:
+    return page_family.replace("-", " ")
+
+
+def _family_heading(page_family: str) -> str:
+    return {
+        "topic-concept": "Concept Entry Points",
+        "broad-topic": "Broad Topic Pages",
+        PAGE_FAMILY_PROCEDURE_GUIDE: "Procedure Guides",
+        "recipe-pattern": "Recipes",
+        PAGE_FAMILY_COLLECTION_PAGE: "Collections",
+    }.get(page_family, page_family.replace("-", " ").title())
+
+
+def _family_order(page_family: str) -> tuple[int, str]:
+    order = {
+        PAGE_FAMILY_PROCEDURE_GUIDE: 0,
+        "recipe-pattern": 1,
+        PAGE_FAMILY_COLLECTION_PAGE: 2,
+        "topic-concept": 3,
+        "broad-topic": 4,
+    }
+    return (order.get(page_family, 99), page_family)
+
+
+def _entry_sort_key(entry: SourceEntryPoint) -> tuple[str, str]:
+    return (entry.label.casefold(), entry.page_id)
+
+
+def _page_title(page: WikiPage) -> str:
+    for line in page.page_body.splitlines():
+        if line.startswith("# "):
+            return line[2:].strip()
+    return page.page_id.replace("-", " ").title()
 
 
 def _is_procedure(page: WikiPage) -> bool:
