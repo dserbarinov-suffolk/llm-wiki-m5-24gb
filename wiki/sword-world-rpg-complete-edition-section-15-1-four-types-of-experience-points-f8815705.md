@@ -8,7 +8,7 @@ updated: 2026-07-07
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-15-1-four-types-of-experience-points-f8815705@4ec2f559d5db2a2d482371cded0e7f4e
+projection_coverage: section-sword-world-rpg-complete-edition-section-15-1-four-types-of-experience-points-f8815705@f209d339b0f9e584838c721b7b081620
 ---
 
 # 15.1 Four Types of Experience Points
@@ -20,7 +20,6 @@ From [[sword-world-rpg-complete-edition]].
 ### Source order
 
 - [[sword-world-rpg-complete-edition-section-staves-and-wands-ice-blaze-wand-2a273ade]] - previous source section: 《 Staves and Wands 》 [ Ice Blaze Wand ]
-- [[sword-world-rpg-complete-edition-section-accomplishing-missions-6d2459ff]] - next source section: Accomplishing Missions
 
 ## Statements
 

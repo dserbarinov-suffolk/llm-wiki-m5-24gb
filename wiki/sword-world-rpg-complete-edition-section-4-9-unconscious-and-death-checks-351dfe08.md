@@ -8,7 +8,7 @@ updated: 2026-07-07
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-4-9-unconscious-and-death-checks-351dfe08@5fee4abaad557a9f00cfb738e496d884
+projection_coverage: section-sword-world-rpg-complete-edition-section-4-9-unconscious-and-death-checks-351dfe08@12fcb87d9aa50113b6c59293e4cd6237
 ---
 
 # 4.9 Unconscious and Death Checks
@@ -19,7 +19,6 @@ From [[sword-world-rpg-complete-edition]].
 
 ### Source order
 
-- [[sword-world-rpg-complete-edition-section-4-8-applying-damage-57a4ac35]] - previous source section: 4.8 Applying Damage
 - [[sword-world-rpg-complete-edition-section-4-10-excellent-weapons-and-armor-6f861318]] - next source section: 4.10 Excellent Weapons and Armor
 
 ### Source structure

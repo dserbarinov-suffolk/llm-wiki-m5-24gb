@@ -1,14 +1,14 @@
 ---
 page_id: sword-world-rpg-complete-edition-section-4-9-unconscious-and-death-checks-4-9-1-adventurer-death-checks-20a869aa
 page_kind: source
-summary: 4.9 Unconscious and Death Checks / 4.9.1 Adventurer Death Checks: 14 source-backed entries and 2 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+summary: 4.9 Unconscious and Death Checks / 4.9.1 Adventurer Death Checks: 13 source-backed entries and 1 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: section-reference
 sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-07
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-4-9-unconscious-and-death-checks-4-9-1-adventurer-death-checks-20a869aa@227cb5d9c8506b8e6ddcef51e275dd1a
+projection_coverage: section-sword-world-rpg-complete-edition-section-4-9-unconscious-and-death-checks-4-9-1-adventurer-death-checks-20a869aa@42d366ce6166746dbbf47826b93dd7b4
 ---
 
 # 4.9 Unconscious and Death Checks / 4.9.1 Adventurer Death Checks
@@ -46,14 +46,3 @@ From [[sword-world-rpg-complete-edition]].
 
 <a id="atom-technical-atom-a5c8d5b73f3394cb"></a>
 > life force resistance + 2D - (damage applied beyond life force) ≥ 7 → survival
-
-### Technical frame 2: 4.9 Unconscious and Death Checks / 4.9.1 Adventurer Death Checks
-
-**Context:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01384))_
-
-> 5 (life force resistance) + 7 (roll) - 4 (penalty) = 8 , which is greater or equal than 7. Ducard II survives. If the result of this death check had been 6 or lower, Ducard II would have met an untimely end .
-
-**Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01383))_
-
-<a id="atom-technical-atom-68c6fe0a0136f544"></a>
-> Ducard II, with a life force of -4 , must make a death check .

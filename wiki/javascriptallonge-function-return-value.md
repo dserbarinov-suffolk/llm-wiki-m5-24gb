@@ -1,13 +1,13 @@
 ---
 page_id: javascriptallonge-function-return-value
 page_kind: concept
-summary: Function Return Value: 1 statement(s) and 2 atom(s) from raw/javascriptallonge.pdf.
+summary: Function Return Value: 1 statement(s) and 1 atom(s) from raw/javascriptallonge.pdf.
 page_family: topic-concept
 sources: raw/javascriptallonge.pdf
 updated: 2026-07-07
 domain: javascriptallonge
 category_path: concepts
-projection_coverage: topic-javascriptallonge-function-return-value@2e845d706827f8bcff2141dff7a6ca78
+projection_coverage: topic-javascriptallonge-function-return-value@3f51c500a2658c66e378f9645cdfe670
 ---
 
 # Function Return Value
@@ -41,23 +41,16 @@ What [[javascriptallonge]] covers about function return value:
 //=> Infinity
 ```
 
-### Technical frame 2: The first sip: Basic Functions / As Little As Possible About Functions, But No Less / functions that return values and evaluate expressions
-
-**Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-00190))_
-
-> Yes we can! Functions can return the value of evaluating another function.
-
-**Atom:** _(javascriptallonge.pdf (source-range-c98ab3e6-00191))_
-
-<a id="atom-technical-atom-5c40de3ec2a4cb7a"></a>
-> When dealing with expressions that have a lot of the same characters (like parentheses), you may find it helpful to format the code to make things stand out.
-
 
 ## Related pages
 
+### Source structure
+
+- [[javascriptallonge-section-the-first-sip-basic-functions-as-little-as-possible-about-functions-but-no-less-functions-that-r-a65d460b]] - source section: The first sip: Basic Functions / As Little As Possible About Functions, But No Less / functions that return values and evaluate expressions
+
 ### Topics
 
-- [[javascriptallonge-return]] - broader topic: Return shares technical record from The first sip: Basic Functions / As Little As Possible About Functions, But No Less / functions that return values and evaluate expressions: (() => 1 + 1)() //=> 2 (() => "Hello, " + "JavaScript")() //=> "Hello, JavaScript" (() => Infinity * Infinity)() //=> Infinity (2 shared atom(s))
+- [[javascriptallonge-return]] - broader topic: Return shares technical record from The first sip: Basic Functions / As Little As Possible About Functions, But No Less / functions that return values and evaluate expressions: (() => 1 + 1)() //=> 2 (() => "Hello, " + "JavaScript")() //=> "Hello, JavaScript" (() => Infinity * Infinity)() //=> Infinity (1 shared atom(s))
 
 ## Source
 

@@ -1,7 +1,7 @@
 ---
 page_id: sword-world-rpg-complete-edition-section-monster-catalog-13-2-6-mythical-beasts-and-magical-beasts-7977e270
 page_kind: source
-summary: Monster Catalog / 13.2.6 Mythical Beasts and Magical Beasts: 541 source-backed entries and 5 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+summary: Monster Catalog / 13.2.6 Mythical Beasts and Magical Beasts: 540 source-backed entries and 5 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: section-reference
 sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-07

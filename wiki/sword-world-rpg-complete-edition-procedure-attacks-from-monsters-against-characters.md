@@ -1,7 +1,7 @@
 ---
 page_id: sword-world-rpg-complete-edition-procedure-attacks-from-monsters-against-characters
 page_kind: procedure
-summary: Complete Attacks From Monsters Against Characters: 5 ordered step(s), 1 decision point(s), 7 authoritative dependency reference(s), 2 review-only dependency reference(s), projection partial from raw/Sword World RPG - Complete Edition.pdf.
+summary: Complete Attacks From Monsters Against Characters: 5 ordered step(s), 1 decision point(s), 4 authoritative dependency reference(s), 5 review-only dependency reference(s), projection partial from raw/Sword World RPG - Complete Edition.pdf.
 page_family: procedure-guide
 sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-07
@@ -9,7 +9,7 @@ domain: sword-world-rpg-complete-edition
 category_path: procedures/sword-world-rpg-complete-edition
 source_id: Sword World RPG - Complete Edition.pdf
 aliases: complete-attacks-from-monsters-against-characters, attacks-from-monsters-against-characters
-projection_coverage: procedure-sword-world-rpg-complete-edition-procedure-attacks-from-monsters-against-characters@7d0157dacd7c7550c05869c1281f1d3d
+projection_coverage: procedure-sword-world-rpg-complete-edition-procedure-attacks-from-monsters-against-characters@cae03056e6079bbf28d8beb57f28d08d
 ---
 
 # Attacks From Monsters Against Characters
@@ -51,9 +51,6 @@ From [[sword-world-rpg-complete-edition]].
    - Evidence dependencies:
      - `rule`: [[sword-world-rpg-complete-edition-section-attacks-from-monsters-against-characters-4-6-3-defense-rolls-caf97a1f]]#atom-technical-atom-36e2d85a1dff3d90 Characters can reduce the damage they receive from monsters by means of armor. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01283))_
      - `rule`: [[sword-world-rpg-complete-edition-section-attacks-from-monsters-against-characters-4-6-3-defense-rolls-caf97a1f]]#atom-technical-atom-2640ab7439ba915d When making a defense roll, if your roll is double ones, that means that you've been hit extremely hard. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01289))_
-     - `rule`: [[sword-world-rpg-complete-edition-section-attacks-from-monsters-against-characters-4-6-3-defense-rolls-caf97a1f]]#atom-technical-atom-1610cb13d9bf24d5 When making a defense roll, criticals do not occur like they do with a strike roll. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01291))_
-     - `rule`: [[sword-world-rpg-complete-edition-section-attacks-from-monsters-against-characters-4-6-3-defense-rolls-caf97a1f]]#atom-technical-atom-3bc03461bcc56cc8 You cannot roll the dice again to increase this number further. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01293))_
-     - `worked-example`: [[sword-world-rpg-complete-edition-section-attacks-from-monsters-against-characters-4-6-3-defense-rolls-caf97a1f]]#atom-technical-atom-8387a83a05f1b60d Suppose Ducard II's defense roll came up 12 (double sixes!). The number on row 12 under key number column 7 is 6 . Unlik _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01293))_
 4. **Damage Reduction** (`generate`) - evidence section [[sword-world-rpg-complete-edition-section-attacks-from-monsters-against-characters-4-6-4-damage-reduction-42ac6233]].
    - The result of your defense roll plus this damage reduction equals the fi nal amount of damage your character can reduce. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01295))_
    - Characters can also reduce damage using their adventurer level . _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01295))_
@@ -78,23 +75,21 @@ From [[sword-world-rpg-complete-edition]].
 ### Rule
 - [[sword-world-rpg-complete-edition-section-attacks-from-monsters-against-characters-4-6-3-defense-rolls-caf97a1f]]#atom-technical-atom-36e2d85a1dff3d90 Characters can reduce the damage they receive from monsters by means of armor. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01283))_
 - [[sword-world-rpg-complete-edition-section-attacks-from-monsters-against-characters-4-6-3-defense-rolls-caf97a1f]]#atom-technical-atom-2640ab7439ba915d When making a defense roll, if your roll is double ones, that means that you've been hit extremely hard. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01289))_
-- [[sword-world-rpg-complete-edition-section-attacks-from-monsters-against-characters-4-6-3-defense-rolls-caf97a1f]]#atom-technical-atom-1610cb13d9bf24d5 When making a defense roll, criticals do not occur like they do with a strike roll. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01291))_
 - [[sword-world-rpg-complete-edition-section-attacks-from-monsters-against-characters-monsters-8c7835a7]]#atom-technical-atom-9c5043656ae75f0a If a monster's attack hits (or if a character fails to evade), you must look for the base damage dealt by the monster. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01278))_
-- [[sword-world-rpg-complete-edition-section-attacks-from-monsters-against-characters-4-6-3-defense-rolls-caf97a1f]]#atom-technical-atom-3bc03461bcc56cc8 You cannot roll the dice again to increase this number further. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01293))_
-
-### Worked-Example
-- [[sword-world-rpg-complete-edition-section-attacks-from-monsters-against-characters-4-6-3-defense-rolls-caf97a1f]]#atom-technical-atom-8387a83a05f1b60d Suppose Ducard II's defense roll came up 12 (double sixes!). The number on row 12 under key number column 7 is 6 . Unlik _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01293))_
 
 ## Review-Only Dependencies
 
 - `table`: Table 4-3: Rating Table, Key Number _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01284); technical-atom-trust: table-header-suspicious)_
+- `rule`: When making a defense roll, criticals do not occur like they do with a strike roll. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01291); source-unit-ownership: source unit ownership is ambiguous for authoritative atom projection: boundary-adjacent-prose)_
+- `rule`: You cannot roll the dice again to increase this number further. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01293); source-unit-ownership: source unit ownership is ambiguous for authoritative atom projection: boundary-adjacent-prose)_
+- `worked-example`: Suppose Ducard II's defense roll came up 12 (double sixes!). The number on row 12 under key number column 7 is 6 . Unlik _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01293); source-unit-ownership: source unit ownership is ambiguous for authoritative atom projection: boundary-adjacent-prose)_
 - `table`: 7 (goblin's strike points) - {0 (defense roll) +2 (damage reduction)} = 5 _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01302); technical-atom-trust: table-parse-incomplete)_
 
 ## Execution Readiness
 
 - Projection status: `partial`.
-- Authoritative dependencies: 7.
-- Review-only dependencies: 2.
+- Authoritative dependencies: 4.
+- Review-only dependencies: 5.
 - Missing dependencies: 0.
 - The procedure is complete when every step output has been recorded or validated.
 

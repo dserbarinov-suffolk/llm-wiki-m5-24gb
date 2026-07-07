@@ -7,7 +7,7 @@ sources: raw/javascriptallonge.pdf
 updated: 2026-07-07
 domain: javascriptallonge
 category_path: concepts
-projection_coverage: topic-javascriptallonge-copy@55f53d907cd197b4cddcee12b0029c45
+projection_coverage: topic-javascriptallonge-copy@edcda9888e1afdf1dc1785b8d780548e
 ---
 
 # Copy
@@ -129,6 +129,15 @@ newChildList
 
 
 ## Related pages
+
+### Source structure
+
+- [[javascriptallonge-section-copy-on-write-a-few-utilities-7b82367a]] - source section: Copy on Write / a few utilities
+- [[javascriptallonge-section-copy-on-write-a-few-utilities-copy-on-read-2d301e7a]] - source section: Copy on Write / a few utilities / copy-on-read
+- [[javascriptallonge-section-copy-on-write-a-few-utilities-copy-on-write-db9192e0]] - source section: Copy on Write / a few utilities / copy-on-write
+- [[javascriptallonge-section-copy-on-write-d081f846]] - source section: Copy on Write
+- [[javascriptallonge-section-copy-on-write-functional-iterators-74724e0a]] - source section: Copy on Write / Functional Iterators
+- [[javascriptallonge-section-copy-on-write-tortoises-hares-and-teleporting-turtles-3a4746f2]] - source section: Copy on Write / Tortoises, Hares, and Teleporting Turtles
 
 ### Shared technical atoms
 

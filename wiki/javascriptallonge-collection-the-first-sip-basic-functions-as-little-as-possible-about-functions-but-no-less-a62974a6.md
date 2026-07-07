@@ -8,7 +8,7 @@ updated: 2026-07-07
 domain: javascriptallonge
 category_path: sources/javascriptallonge/collections
 source_id: javascriptallonge.pdf
-projection_coverage: collection-javascriptallonge-collection-the-first-sip-basic-functions-as-little-as-possible-about-functions-but-no-less-a62974a6@3e359b61ec4a2b94c17569770b1eb090
+projection_coverage: collection-javascriptallonge-collection-the-first-sip-basic-functions-as-little-as-possible-about-functions-but-no-less-a62974a6@c2482dd1383a0fa853bb967569bf1df1
 ---
 
 # The first sip: Basic Functions / As Little As Possible About Functions, But No Less
@@ -27,5 +27,5 @@ Broader source section: [[javascriptallonge-section-the-first-sip-basic-function
 | --- | --- | --- |
 | The first sip: Basic Functions / As Little As Possible About Functions, But No Less / functions and identities | [[javascriptallonge-section-the-first-sip-basic-functions-as-little-as-possible-about-functions-but-no-less-functions-and-id-456f28c7]] | 4 statement(s), 3 atom(s) |
 | The first sip: Basic Functions / As Little As Possible About Functions, But No Less / applying functions | [[javascriptallonge-section-the-first-sip-basic-functions-as-little-as-possible-about-functions-but-no-less-applying-functio-858c485d]] | 4 statement(s), 11 atom(s) |
-| The first sip: Basic Functions / As Little As Possible About Functions, But No Less / functions that return values and evaluate expressions | [[javascriptallonge-section-the-first-sip-basic-functions-as-little-as-possible-about-functions-but-no-less-functions-that-r-a65d460b]] | 7 statement(s), 12 atom(s) |
-| The first sip: Basic Functions / As Little As Possible About Functions, But No Less / commas | [[javascriptallonge-section-the-first-sip-basic-functions-as-little-as-possible-about-functions-but-no-less-commas-53801ea8]] | 1 statement(s), 10 atom(s) |
+| The first sip: Basic Functions / As Little As Possible About Functions, But No Less / functions that return values and evaluate expressions | [[javascriptallonge-section-the-first-sip-basic-functions-as-little-as-possible-about-functions-but-no-less-functions-that-r-a65d460b]] | 7 statement(s), 9 atom(s) |
+| The first sip: Basic Functions / As Little As Possible About Functions, But No Less / commas | [[javascriptallonge-section-the-first-sip-basic-functions-as-little-as-possible-about-functions-but-no-less-commas-53801ea8]] | 1 statement(s), 8 atom(s) |

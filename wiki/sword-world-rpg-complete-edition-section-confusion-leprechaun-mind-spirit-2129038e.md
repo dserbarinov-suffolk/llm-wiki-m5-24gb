@@ -1,7 +1,7 @@
 ---
 page_id: sword-world-rpg-complete-edition-section-confusion-leprechaun-mind-spirit-2129038e
 page_kind: source
-summary: [ Confusion ] (Leprechaun/Mind Spirit): 17 source-backed entries and 0 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+summary: [ Confusion ] (Leprechaun/Mind Spirit): 14 source-backed entries and 0 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: section-reference
 sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-07

@@ -1,7 +1,7 @@
 ---
 page_id: sword-world-rpg-complete-edition-section-divine-weapon-spell-level-7-f910fafd
 page_kind: source
-summary: [ Divine Weapon ] (Spell Level=7): 11 source-backed entries and 0 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+summary: [ Divine Weapon ] (Spell Level=7): 10 source-backed entries and 0 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: section-reference
 sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-07

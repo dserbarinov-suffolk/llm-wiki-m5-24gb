@@ -1,7 +1,7 @@
 ---
 page_id: sword-world-rpg-complete-edition-section-2-3-1-automatic-success-and-automatic-failure-9351b854
 page_kind: source
-summary: 2.3.1 Automatic Success and Automatic Failure: 6 source-backed entries and 0 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+summary: 2.3.1 Automatic Success and Automatic Failure: 5 source-backed entries and 0 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: section-reference
 sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-07

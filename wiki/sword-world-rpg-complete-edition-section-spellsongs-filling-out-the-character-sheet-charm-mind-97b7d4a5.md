@@ -1,7 +1,7 @@
 ---
 page_id: sword-world-rpg-complete-edition-section-spellsongs-filling-out-the-character-sheet-charm-mind-97b7d4a5
 page_kind: source
-summary: Spellsongs / Filling out the Character Sheet / Charm (Mind): 12 source-backed entries and 0 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+summary: Spellsongs / Filling out the Character Sheet / Charm (Mind): 10 source-backed entries and 0 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: section-reference
 sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-07

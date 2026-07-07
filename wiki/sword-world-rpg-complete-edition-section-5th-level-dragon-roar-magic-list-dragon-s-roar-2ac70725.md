@@ -1,7 +1,7 @@
 ---
 page_id: sword-world-rpg-complete-edition-section-5th-level-dragon-roar-magic-list-dragon-s-roar-2ac70725
 page_kind: source
-summary: 5th Level Dragon Roar Magic List [ Dragon's Roar ]: 28 source-backed entries and 0 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+summary: 5th Level Dragon Roar Magic List [ Dragon's Roar ]: 26 source-backed entries and 0 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: section-reference
 sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-07

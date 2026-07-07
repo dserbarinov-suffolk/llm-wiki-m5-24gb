@@ -8,18 +8,12 @@ updated: 2026-07-07
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-politics-and-class-kings-f3633f3e@9e6de202be73094de1b3ca5143baac25
+projection_coverage: section-sword-world-rpg-complete-edition-section-politics-and-class-kings-f3633f3e@42fbefacd0103e47c4387b3e09c79048
 ---
 
 # Politics and Class / Kings
 
 From [[sword-world-rpg-complete-edition]].
-
-## Related pages
-
-### Source structure
-
-- [[sword-world-rpg-complete-edition-section-politics-and-class-c11cb5ab]] - broader source section: Politics and Class
 
 ## Statements
 

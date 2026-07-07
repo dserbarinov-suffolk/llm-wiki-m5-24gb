@@ -1,7 +1,7 @@
 ---
 page_id: sword-world-rpg-complete-edition-section-basic-rules-of-magic-8th-level-ancient-magic-list-5-1-13-spirit-magic-and-the-shaman-skill-1c668f01
 page_kind: source
-summary: Basic Rules of Magic / 8th Level Ancient Magic List / 5.1.13 Spirit Magic and the Shaman Skill: 39 source-backed entries and 1 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+summary: Basic Rules of Magic / 8th Level Ancient Magic List / 5.1.13 Spirit Magic and the Shaman Skill: 38 source-backed entries and 1 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: section-reference
 sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-07

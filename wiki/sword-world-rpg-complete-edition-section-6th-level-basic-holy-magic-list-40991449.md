@@ -1,7 +1,7 @@
 ---
 page_id: sword-world-rpg-complete-edition-section-6th-level-basic-holy-magic-list-40991449
 page_kind: source
-summary: 6th Level Basic Holy Magic List: 26 source-backed entries and 0 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+summary: 6th Level Basic Holy Magic List: 25 source-backed entries and 0 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: section-reference
 sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-07

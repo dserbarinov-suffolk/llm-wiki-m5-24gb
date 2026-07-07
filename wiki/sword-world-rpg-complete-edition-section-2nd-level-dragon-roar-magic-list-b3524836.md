@@ -1,7 +1,7 @@
 ---
 page_id: sword-world-rpg-complete-edition-section-2nd-level-dragon-roar-magic-list-b3524836
 page_kind: source
-summary: 2nd Level Dragon Roar Magic List: 30 source-backed entries and 0 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+summary: 2nd Level Dragon Roar Magic List: 27 source-backed entries and 0 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: section-reference
 sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-07

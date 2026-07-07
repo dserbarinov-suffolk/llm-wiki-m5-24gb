@@ -7,7 +7,7 @@ sources: raw/javascriptallonge.pdf
 updated: 2026-07-07
 domain: javascriptallonge
 category_path: concepts
-projection_coverage: topic-javascriptallonge-default@2cf3d216c538978c7c163118440b24fb
+projection_coverage: topic-javascriptallonge-default@5f0457ffcdc93a1ff5b9b39da3cf25ea
 ---
 
 # Default
@@ -45,6 +45,14 @@ const [first, second = "two"] = ["primus", "secundus"];
 
 
 ## Related pages
+
+### Source structure
+
+- [[javascriptallonge-section-composing-and-decomposing-data-default-arguments-363804ac]] - source section: Composing and Decomposing Data / default arguments
+- [[javascriptallonge-section-composing-and-decomposing-data-defaults-and-destructuring-960d8813]] - source section: Composing and Decomposing Data / defaults and destructuring
+- [[javascriptallonge-section-composing-and-decomposing-data-tail-calls-and-default-arguments-b4311a56]] - source section: Composing and Decomposing Data / Tail Calls (and Default Arguments)
+- [[javascriptallonge-section-composing-and-decomposing-data-tail-calls-and-default-arguments-converting-non-tail-calls-to-tai-22a8069d]] - source section: Composing and Decomposing Data / Tail Calls (and Default Arguments) / converting non-tail-calls to tail-calls
+- [[javascriptallonge-section-composing-and-decomposing-data-tail-calls-and-default-arguments-tail-call-optimization-52c04968]] - source section: Composing and Decomposing Data / Tail Calls (and Default Arguments) / tail-call optimization
 
 ### Shared technical atoms
 

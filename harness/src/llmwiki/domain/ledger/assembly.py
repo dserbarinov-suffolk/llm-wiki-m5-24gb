@@ -18,6 +18,7 @@ from llmwiki.domain.ledger.atoms import (
     payload_fingerprint,
 )
 from llmwiki.domain.ledger.canonical import deterministic_id
+from llmwiki.domain.ledger.common import ReviewReason
 from llmwiki.domain.ledger.confidence import ConfidencePolicy
 from llmwiki.domain.ledger.entries import LedgerEntry
 from llmwiki.domain.ledger.entry_build import (
@@ -28,7 +29,9 @@ from llmwiki.domain.ledger.entry_build import (
 )
 from llmwiki.domain.ledger.segments import SegmentClaim, SourceSegment
 from llmwiki.domain.ledger.technical_atom_trust import (
+    RAW_REVIEW_ONLY,
     REJECTED,
+    REVIEW_ONLY,
     assess_technical_atom_trust,
 )
 
@@ -45,6 +48,7 @@ def build_segment_entries(
     policy: ConfidencePolicy,
     atoms: list[TechnicalAtom],
     rejected: list[AtomCandidate],
+    ownership_review_reason: ReviewReason | None = None,
 ) -> list[LedgerEntry]:
     produced: list[LedgerEntry] = []
     atom_texts: list[str] = []
@@ -62,6 +66,7 @@ def build_segment_entries(
             if trust.trust_status == REJECTED:
                 rejected.append(replace(candidate, review_reason=trust.review_reason))
                 continue
+            atom = _apply_ownership_review(atom, ownership_review_reason)
             atoms.append(atom)
             atom_texts.append(atom_raw_text(atom.payload))
             produced.append(
@@ -100,6 +105,20 @@ def build_segment_entries(
             build_source_note(segment=seg, statement_id=statement_id, structure_node_ids=node_ids)
         )
     return produced
+
+
+def _apply_ownership_review(
+    atom: TechnicalAtom, review_reason: ReviewReason | None
+) -> TechnicalAtom:
+    if review_reason is None or atom.trust_status == REJECTED:
+        return atom
+    return replace(
+        atom,
+        trust_status=REVIEW_ONLY,
+        trust_reasons=tuple(dict.fromkeys((*atom.trust_reasons, review_reason.reason_kind))),
+        projection_policy=RAW_REVIEW_ONLY,
+        review_reason=review_reason,
+    )
 
 
 def segment_disposition(produced: list[LedgerEntry], candidates: tuple[AtomCandidate, ...]) -> str:

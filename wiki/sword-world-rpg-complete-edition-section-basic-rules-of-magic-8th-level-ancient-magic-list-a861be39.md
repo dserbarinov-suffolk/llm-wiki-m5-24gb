@@ -1,14 +1,14 @@
 ---
 page_id: sword-world-rpg-complete-edition-section-basic-rules-of-magic-8th-level-ancient-magic-list-a861be39
 page_kind: source
-summary: Basic Rules of Magic / 8th Level Ancient Magic List: 73 source-backed entries and 1 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+summary: Basic Rules of Magic / 8th Level Ancient Magic List: 71 source-backed entries and 0 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: section-reference
 sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-07
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-basic-rules-of-magic-8th-level-ancient-magic-list-a861be39@e17b279381652f80cd1803a5da6a8d7b
+projection_coverage: section-sword-world-rpg-complete-edition-section-basic-rules-of-magic-8th-level-ancient-magic-list-a861be39@d353ce54df9cac4c064c74ecd9c29d20
 ---
 
 # Basic Rules of Magic / 8th Level Ancient Magic List
@@ -51,32 +51,3 @@ From [[sword-world-rpg-complete-edition]].
 - In this case, the body becomes nothing more than an empty husk without a soul, so it cannot be brought back to life by any means. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-02555))_
 - A caster who casts this spell will be able to separate their spiritual body from their physical body, allowing only their ethereal body to move around freely. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-02555))_
 - This ethereal body is called a wraith. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-02555))_
-
-## Technical atoms
-
-### Technical frame 1: Basic Rules of Magic / 8th Level Ancient Magic List / 5.1.13 Spirit Magic and the Shaman Skill
-
-**Context:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-02670))_
-
-> The basic rules for casting magic are the same, but the following conditions are required in order to use the shaman skill.
-
-**Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-02668))_
-
-<a id="atom-technical-atom-685723afa61fbbe8"></a>
-```text
-5.1.13 Spirit Magic and the Shaman Skill
-5.1.13 Spirit Magic  and the Shaman Skil
-Silent spirit are runes used to communicate with spirits and draw out the  power  controlled  by  those  spirits. The skill for using spirit magic is called the shaman skill , and those who have this skill  are  called shamans .  The  shaman skill  allows you to use all basic abilities and spirit  magic  up  to  the  caster's  skill level.
-5.1.13.1
-```
-
-<details>
-<summary>Parsed table preview (needs review)</summary>
-
-| entry | content |
-| --- | --- |
-| 5 | 1.13 Spirit Magic and the Shaman Skill |
-| 5 | 1.13 Spirit Magic and the Shaman Skil Silent spirit are runes used to communicate with spirits and draw out the power controlled by those spirits. The skill for using spirit magic is called the shaman skill, and those who have this skill are called shamans. The shaman skill allows you to use all basic abilities and spirit magic up to the caster's skill level. |
-| 5 | 1.13.1 |
-
-</details>

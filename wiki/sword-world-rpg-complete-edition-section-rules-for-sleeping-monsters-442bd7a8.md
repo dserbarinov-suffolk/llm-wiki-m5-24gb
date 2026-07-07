@@ -1,7 +1,7 @@
 ---
 page_id: sword-world-rpg-complete-edition-section-rules-for-sleeping-monsters-442bd7a8
 page_kind: source
-summary: Rules for Sleeping Monsters: 26 source-backed entries and 0 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+summary: Rules for Sleeping Monsters: 24 source-backed entries and 0 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: section-reference
 sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-07

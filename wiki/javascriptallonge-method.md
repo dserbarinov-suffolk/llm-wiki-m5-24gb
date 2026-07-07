@@ -7,7 +7,7 @@ sources: raw/javascriptallonge.pdf
 updated: 2026-07-07
 domain: javascriptallonge
 category_path: concepts
-projection_coverage: topic-javascriptallonge-method@acf891f7eb9a4296d8887250a27995e4
+projection_coverage: topic-javascriptallonge-method@c94a13784166715de91c3e00b777ad88
 ---
 
 # Method
@@ -523,6 +523,11 @@ Pair.from([1, 2, 3, 4, 5]).map(x => x * 2)
 
 
 ## Related pages
+
+### Source structure
+
+- [[javascriptallonge-section-lazy-and-eager-collections-implementing-methods-with-iteration-e67a1913]] - source section: Lazy and Eager Collections / implementing methods with iteration
+- [[javascriptallonge-section-recipes-with-data-flip-flipping-methods-852e9417]] - source section: Recipes with Data / Flip / flipping methods
 
 ### Shared technical atoms
 

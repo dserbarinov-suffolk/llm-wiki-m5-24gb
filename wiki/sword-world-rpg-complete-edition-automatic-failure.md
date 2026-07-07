@@ -7,7 +7,7 @@ sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-07
 domain: sword-world-rpg-complete-edition
 category_path: concepts
-projection_coverage: topic-sword-world-rpg-complete-edition-automatic-failure@07bddc7e3c843ada95d933b62bacec1b
+projection_coverage: topic-sword-world-rpg-complete-edition-automatic-failure@26da9745758637cbcf0d5ee93cd86bba
 ---
 
 # Automatic Failure
@@ -22,6 +22,10 @@ What [[sword-world-rpg-complete-edition]] covers about automatic failure:
 
 
 ## Related pages
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-2-3-1-automatic-success-and-automatic-failure-9351b854]] - source section: 2.3.1 Automatic Success and Automatic Failure
 
 ### Shared claims
 

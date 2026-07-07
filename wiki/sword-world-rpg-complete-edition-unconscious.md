@@ -1,13 +1,13 @@
 ---
 page_id: sword-world-rpg-complete-edition-unconscious
 page_kind: concept
-summary: Unconscious: 3 statement(s) and 9 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+summary: Unconscious: 3 statement(s) and 4 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: topic-concept
 sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-07
 domain: sword-world-rpg-complete-edition
 category_path: concepts
-projection_coverage: topic-sword-world-rpg-complete-edition-unconscious@e4877539330e5a65ee5ab137077806b3
+projection_coverage: topic-sword-world-rpg-complete-edition-unconscious@75846ccacbde367861d6d75f296c61c1
 ---
 
 # Unconscious
@@ -49,18 +49,7 @@ What [[sword-world-rpg-complete-edition]] covers about unconscious:
 <a id="atom-technical-atom-a5c8d5b73f3394cb"></a>
 > life force resistance + 2D - (damage applied beyond life force) ≥ 7 → survival
 
-### Technical frame 3: 4.9 Unconscious and Death Checks / 4.9.1 Adventurer Death Checks
-
-**Context:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01384))_
-
-> 5 (life force resistance) + 7 (roll) - 4 (penalty) = 8 , which is greater or equal than 7. Ducard II survives. If the result of this death check had been 6 or lower, Ducard II would have met an untimely end .
-
-**Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01383))_
-
-<a id="atom-technical-atom-68c6fe0a0136f544"></a>
-> Ducard II, with a life force of -4 , must make a death check .
-
-### Technical frame 4: 4.9 Unconscious and Death Checks / 4.9.2 Death Checks Every Hour
+### Technical frame 3: 4.9 Unconscious and Death Checks / 4.9.2 Death Checks Every Hour
 
 **Context:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01388))_
 
@@ -71,18 +60,7 @@ What [[sword-world-rpg-complete-edition]] covers about unconscious:
 <a id="atom-technical-atom-e3a5d42d5426123f"></a>
 > Characters with 0 or negative life force must make a death check every hour .
 
-### Technical frame 5: 4.9 Unconscious and Death Checks / 4.9.2 Death Checks Every Hour
-
-**Context:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01393))_
-
-> If the result is failure, the character will die.
-
-**Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01392))_
-
-<a id="atom-technical-atom-60caf840338650d8"></a>
-> In one hour , they must make another death check.
-
-### Technical frame 6: 4.9 Unconscious and Death Checks / 4.9.3 Monster Death Check
+### Technical frame 4: 4.9 Unconscious and Death Checks / 4.9.3 Monster Death Check
 
 **Context:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01397))_
 
@@ -93,45 +71,20 @@ What [[sword-world-rpg-complete-edition]] covers about unconscious:
 <a id="atom-technical-atom-eddf10cd6080c6de"></a>
 > Monsters with 0 or negative life points must also make a check to see if they live or die.
 
-### Technical frame 7: 4.9 Unconscious and Death Checks / 4.9.4 Mercy
-
-**Context:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01402))_
-
-> mercy when using a barehanded attack. You must declare mercy before you make a hit check for your attack. It cannot be done after a hit or after damage check.
-
-**Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01400))_
-
-<a id="atom-technical-atom-04a0eaddcefce05c"></a>
-> If a character does not want to kill their opponent, they can declare mercy .
-
-### Technical frame 8: 4.9 Unconscious and Death Checks / 4.9.4 Mercy
-
-**Context:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01403))_
-
-> A character who falls down with 0 or negative life force due to an attack that was declared to be mercy , will only fail their death check if double ones are rolled. On any other roll, the character remains alive .
-
-**Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01402))_
-
-<a id="atom-technical-atom-a7436a2b358339c4"></a>
-> You must declare mercy before you make a hit check for your attack.
-
-### Technical frame 9: 4.9 Unconscious and Death Checks / 4.9.4 Mercy
-
-**Context:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01403))_
-
-> A character who falls down with 0 or negative life force due to an attack that was declared to be mercy , will only fail their death check if double ones are rolled. On any other roll, the character remains alive .
-
-**Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01404))_
-
-<a id="atom-technical-atom-1b6efc39f5e3d37d"></a>
-> If left untreated, they must make another death check after 1 hour , and
-
 
 ## Related pages
 
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-4-9-unconscious-and-death-checks-351dfe08]] - source section: 4.9 Unconscious and Death Checks
+- [[sword-world-rpg-complete-edition-section-4-9-unconscious-and-death-checks-4-9-1-adventurer-death-checks-20a869aa]] - source section: 4.9 Unconscious and Death Checks / 4.9.1 Adventurer Death Checks
+- [[sword-world-rpg-complete-edition-section-4-9-unconscious-and-death-checks-4-9-2-death-checks-every-hour-523e5511]] - source section: 4.9 Unconscious and Death Checks / 4.9.2 Death Checks Every Hour
+- [[sword-world-rpg-complete-edition-section-4-9-unconscious-and-death-checks-4-9-3-monster-death-check-3690271a]] - source section: 4.9 Unconscious and Death Checks / 4.9.3 Monster Death Check
+- [[sword-world-rpg-complete-edition-section-4-9-unconscious-and-death-checks-4-9-4-mercy-f2205b71]] - source section: 4.9 Unconscious and Death Checks / 4.9.4 Mercy
+
 ### Shared technical atoms
 
-- [[sword-world-rpg-complete-edition-death-check]] - shared statements and technical atoms: Death Check shares source evidence from 4.9 Unconscious and Death Checks / 4.9.2 Death Checks Every Hour: Characters with 0 or negative life force remain unconscious, even if they successfully survived a death check. If they're given treatment by magic, etc. and have the ... [truncated]; Death Check shares technical record from 4.9 Unconscious and Death Checks / 4.9.1 Adventurer Death Checks: Ducard II, with a life force of -4 , must make a death check . (1 shared statement(s), 2 shared atom(s))
+- [[sword-world-rpg-complete-edition-death-check]] - shared statements and technical atoms: Death Check shares source evidence from 4.9 Unconscious and Death Checks / 4.9.2 Death Checks Every Hour: Characters with 0 or negative life force remain unconscious, even if they successfully survived a death check. If they're given treatment by magic, etc. and have the ... [truncated]; Death Check shares technical record from 4.9 Unconscious and Death Checks / 4.9.1 Adventurer Death Checks: You must roll the dice to determine if your character survives. (1 shared statement(s), 4 shared atom(s))
 
 ## Source
 

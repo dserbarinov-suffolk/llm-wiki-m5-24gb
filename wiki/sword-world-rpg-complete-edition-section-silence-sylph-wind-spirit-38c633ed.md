@@ -1,7 +1,7 @@
 ---
 page_id: sword-world-rpg-complete-edition-section-silence-sylph-wind-spirit-38c633ed
 page_kind: source
-summary: [ Silence ] (Sylph/Wind Spirit): 14 source-backed entries and 0 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+summary: [ Silence ] (Sylph/Wind Spirit): 13 source-backed entries and 0 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: section-reference
 sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-07

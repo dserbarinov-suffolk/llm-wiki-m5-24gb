@@ -1,7 +1,7 @@
 ---
 page_id: sword-world-rpg-complete-edition-section-sage-skill-bfccee97
 page_kind: source
-summary: Sage Skill: 22 source-backed entries and 0 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+summary: Sage Skill: 21 source-backed entries and 0 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: section-reference
 sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-07

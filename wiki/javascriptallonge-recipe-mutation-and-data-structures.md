@@ -9,7 +9,7 @@ domain: javascriptallonge
 category_path: recipes/javascriptallonge
 source_id: javascriptallonge.pdf
 aliases: mutation-and-data-structures
-projection_coverage: recipe-javascriptallonge-recipe-mutation-and-data-structures@ab9559e6529c12ac1709e5f8826f482a
+projection_coverage: recipe-javascriptallonge-recipe-mutation-and-data-structures@703057ecc6489450a83e67393937832e
 ---
 
 # mutation and data structures
@@ -19,7 +19,7 @@ From [[javascriptallonge]].
 ## Pattern
 
 - Use the source-backed pattern described in [[javascriptallonge-section-mutation-mutation-and-data-structures-fe3c8850]].
-- Evidence roles: decision, constraint, example, structured-state.
+- Evidence roles: decision, constraint, example.
 
 ## Applicability And Rationale
 

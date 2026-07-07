@@ -7,7 +7,7 @@ sources: raw/javascriptallonge.pdf
 updated: 2026-07-07
 domain: javascriptallonge
 category_path: concepts
-projection_coverage: topic-javascriptallonge-array@9ec3b98be567abae182ffbc0e1ba0b03
+projection_coverage: topic-javascriptallonge-array@77d63a825f7967cb856e3c4cbc97b1d4
 ---
 
 # Array
@@ -272,7 +272,14 @@ const baz = (a, b, c) => ...
 
 ### Source structure
 
-- [[javascriptallonge-section-garbage-garbage-everywhere-so-why-arrays-35221ee3]] - source section: Garbage, Garbage Everywhere / so why arrays shares source evidence from Garbage, Garbage Everywhere / so why arrays: Well, linked lists are fast for a few things, like taking the front element off a list, and taking the remainder of a list. But not for iterating over a list: Pointe ... [truncated]; Garbage, Garbage Everywhere / so why arrays shares technical record from Garbage, Garbage Everywhere / so why arrays: And if you want an arbitrary item from a list, you have to iterate through the list element by element, whereas with the indexed array you just fetch it. (5 shared statement(s), 2 shared atom(s))
+- [[javascriptallonge-section-garbage-garbage-everywhere-so-why-arrays-35221ee3]] - source section: Garbage, Garbage Everywhere / so why arrays shares source evidence from Garbage, Garbage Everywhere / so why arrays: Well, linked lists are fast for a few things, like taking the front element off a list, and taking the remainder of a list. But not for iterating over a list: Pointe ... [truncated]; Garbage, Garbage Everywhere / so why arrays shares technical record from Garbage, Garbage Everywhere / so why arrays: And if you want an arbitrary item from a list, you have to iterate through the list element by element, whereas with the indexed array you just fetch it. (5 shared statement(s), 1 shared atom(s))
+- [[javascriptallonge-section-composing-and-decomposing-data-arrays-and-destructuring-arguments-2a38bfc8]] - source section: Composing and Decomposing Data / Arrays and Destructuring Arguments
+- [[javascriptallonge-section-composing-and-decomposing-data-arrays-and-destructuring-arguments-array-literals-f2f1b6ec]] - source section: Composing and Decomposing Data / Arrays and Destructuring Arguments / array literals
+- [[javascriptallonge-section-composing-and-decomposing-data-arrays-and-destructuring-arguments-destructuring-and-return-value-0323454e]] - source section: Composing and Decomposing Data / Arrays and Destructuring Arguments / destructuring and return values
+- [[javascriptallonge-section-composing-and-decomposing-data-arrays-and-destructuring-arguments-destructuring-arrays-327f6ba9]] - source section: Composing and Decomposing Data / Arrays and Destructuring Arguments / destructuring arrays
+- [[javascriptallonge-section-composing-and-decomposing-data-arrays-and-destructuring-arguments-destructuring-is-not-pattern-m-27d4b226]] - source section: Composing and Decomposing Data / Arrays and Destructuring Arguments / destructuring is not pattern matching
+- [[javascriptallonge-section-composing-and-decomposing-data-arrays-and-destructuring-arguments-destructuring-parameters-1a788a19]] - source section: Composing and Decomposing Data / Arrays and Destructuring Arguments / destructuring parameters
+- [[javascriptallonge-section-composing-and-decomposing-data-arrays-and-destructuring-arguments-element-references-75756e27]] - source section: Composing and Decomposing Data / Arrays and Destructuring Arguments / element references
 
 ### Shared technical atoms
 

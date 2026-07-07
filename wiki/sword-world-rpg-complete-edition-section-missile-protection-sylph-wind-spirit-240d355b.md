@@ -1,7 +1,7 @@
 ---
 page_id: sword-world-rpg-complete-edition-section-missile-protection-sylph-wind-spirit-240d355b
 page_kind: source
-summary: [ Missile Protection ] (Sylph/Wind Spirit): 13 source-backed entries and 0 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+summary: [ Missile Protection ] (Sylph/Wind Spirit): 11 source-backed entries and 0 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: section-reference
 sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-07

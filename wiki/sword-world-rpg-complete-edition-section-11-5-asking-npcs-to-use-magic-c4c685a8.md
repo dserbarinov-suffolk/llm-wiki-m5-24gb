@@ -1,14 +1,14 @@
 ---
 page_id: sword-world-rpg-complete-edition-section-11-5-asking-npcs-to-use-magic-c4c685a8
 page_kind: source
-summary: 11.5 Asking NPCs to Use Magic: 40 source-backed entries and 0 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+summary: 11.5 Asking NPCs to Use Magic: 38 source-backed entries and 0 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: section-reference
 sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-07
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-11-5-asking-npcs-to-use-magic-c4c685a8@56de1dbfa125038d915c711d713a8d2a
+projection_coverage: section-sword-world-rpg-complete-edition-section-11-5-asking-npcs-to-use-magic-c4c685a8@3e2ec37bb8d67766865f964f23bf4999
 ---
 
 # 11.5 Asking NPCs to Use Magic
@@ -20,7 +20,6 @@ From [[sword-world-rpg-complete-edition]].
 ### Source order
 
 - [[sword-world-rpg-complete-edition-section-10th-level-dragon-roar-magic-list-reborn-dragon-d68344fa]] - previous source section: 10th Level Dragon Roar Magic List [ Reborn Dragon ]
-- [[sword-world-rpg-complete-edition-section-chapter-12-various-checks-4c2e49b6]] - next source section: Chapter 12: Various Checks
 
 ## Statements
 

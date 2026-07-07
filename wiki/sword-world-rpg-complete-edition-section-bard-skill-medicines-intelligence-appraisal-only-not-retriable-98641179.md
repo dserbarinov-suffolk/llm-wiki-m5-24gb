@@ -1,7 +1,7 @@
 ---
 page_id: sword-world-rpg-complete-edition-section-bard-skill-medicines-intelligence-appraisal-only-not-retriable-98641179
 page_kind: source
-summary: Bard Skill / [ ⑦ Medicines [Intelligence]] ((Appraisal only) Not retriable): 25 source-backed entries and 0 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+summary: Bard Skill / [ ⑦ Medicines [Intelligence]] ((Appraisal only) Not retriable): 24 source-backed entries and 0 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: section-reference
 sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-07

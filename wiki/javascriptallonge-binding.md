@@ -7,7 +7,7 @@ sources: raw/javascriptallonge.pdf
 updated: 2026-07-07
 domain: javascriptallonge
 category_path: concepts
-projection_coverage: topic-javascriptallonge-binding@59e096475c2753b213af5136d8255788
+projection_coverage: topic-javascriptallonge-binding@3b4021a0d07638d1dfd96692337370b0
 ---
 
 # Binding
@@ -149,6 +149,10 @@ return age;
 
 
 ## Related pages
+
+### Source structure
+
+- [[javascriptallonge-section-and-also-variables-and-bindings-cdadc876]] - source section: And also: / variables and bindings
 
 ### Shared technical atoms
 

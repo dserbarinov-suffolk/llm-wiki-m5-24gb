@@ -7,7 +7,7 @@ sources: raw/javascriptallonge.pdf
 updated: 2026-07-07
 domain: javascriptallonge
 category_path: concepts
-projection_coverage: topic-javascriptallonge-truthiness@041052cb391e14517714cdeb8913bdc1
+projection_coverage: topic-javascriptallonge-truthiness@0e851df96fe07fe5657f778eed867092
 ---
 
 # Truthiness
@@ -192,6 +192,13 @@ even(7)
 
 
 ## Related pages
+
+### Source structure
+
+- [[javascriptallonge-section-picking-the-bean-choice-and-truthiness-d2a76f30]] - source section: Picking the Bean: Choice and Truthiness
+- [[javascriptallonge-section-picking-the-bean-choice-and-truthiness-function-parameters-are-eager-699c4c1b]] - source section: Picking the Bean: Choice and Truthiness / function parameters are eager
+- [[javascriptallonge-section-picking-the-bean-choice-and-truthiness-truthiness-and-operators-44549e80]] - source section: Picking the Bean: Choice and Truthiness / truthiness and operators
+- [[javascriptallonge-section-picking-the-bean-choice-and-truthiness-truthiness-and-the-ternary-operator-b715a907]] - source section: Picking the Bean: Choice and Truthiness / truthiness and the ternary operator
 
 ### Shared technical atoms
 

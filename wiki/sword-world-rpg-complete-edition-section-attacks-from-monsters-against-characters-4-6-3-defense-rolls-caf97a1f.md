@@ -1,14 +1,14 @@
 ---
 page_id: sword-world-rpg-complete-edition-section-attacks-from-monsters-against-characters-4-6-3-defense-rolls-caf97a1f
 page_kind: source
-summary: Attacks From Monsters Against Characters / 4.6.3 Defense Rolls: 13 source-backed entries and 3 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+summary: Attacks From Monsters Against Characters / 4.6.3 Defense Rolls: 10 source-backed entries and 2 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: section-reference
 sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-07
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-attacks-from-monsters-against-characters-4-6-3-defense-rolls-caf97a1f@05f5aaf35c676194c4d3c01ff107c86f
+projection_coverage: section-sword-world-rpg-complete-edition-section-attacks-from-monsters-against-characters-4-6-3-defense-rolls-caf97a1f@eae3c46d6df151c2dda0d88ba5c0d841
 ---
 
 # Attacks From Monsters Against Characters / 4.6.3 Defense Rolls
@@ -58,14 +58,3 @@ From [[sword-world-rpg-complete-edition]].
 
 <a id="atom-technical-atom-2640ab7439ba915d"></a>
 > When making a defense roll, if your roll is double ones, that means that you've been hit extremely hard.
-
-### Technical frame 3: Attacks From Monsters Against Characters / 4.6.3 Defense Rolls
-
-**Context:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01289))_
-
-> When making a defense roll, if your roll is double ones, that means that you've been hit extremely hard. Maybe the monster's attack hit a gap in your character's armor, or one of their vital points. In this case, your character cannot reduce the monster's damage (strike points) at all.
-
-**Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01291))_
-
-<a id="atom-technical-atom-1610cb13d9bf24d5"></a>
-> When making a defense roll, criticals do not occur like they do with a strike roll.

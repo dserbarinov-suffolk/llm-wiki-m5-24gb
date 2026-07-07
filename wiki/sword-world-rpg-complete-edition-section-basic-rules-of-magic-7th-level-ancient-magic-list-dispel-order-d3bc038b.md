@@ -1,7 +1,7 @@
 ---
 page_id: sword-world-rpg-complete-edition-section-basic-rules-of-magic-7th-level-ancient-magic-list-dispel-order-d3bc038b
 page_kind: source
-summary: Basic Rules of Magic / 7th Level Ancient Magic List [ Dispel Order ]: 107 source-backed entries and 0 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+summary: Basic Rules of Magic / 7th Level Ancient Magic List [ Dispel Order ]: 106 source-backed entries and 0 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: section-reference
 sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-07

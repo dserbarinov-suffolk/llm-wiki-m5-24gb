@@ -1,14 +1,14 @@
 ---
 page_id: javascriptallonge-section-building-blocks-composition-ed84a096
 page_kind: source
-summary: Building Blocks / composition: 15 source-backed entries and 4 atom(s) from raw/javascriptallonge.pdf.
+summary: Building Blocks / composition: 14 source-backed entries and 3 atom(s) from raw/javascriptallonge.pdf.
 page_family: section-reference
 sources: raw/javascriptallonge.pdf
 updated: 2026-07-07
 domain: javascriptallonge
 category_path: sources/javascriptallonge/sections
 source_id: javascriptallonge.pdf
-projection_coverage: section-javascriptallonge-section-building-blocks-composition-ed84a096@9bff0f71f347208cea146ebc76f659b6
+projection_coverage: section-javascriptallonge-section-building-blocks-composition-ed84a096@28a92cf74f4f583c7387501eed675e54
 ---
 
 # Building Blocks / composition
@@ -73,14 +73,3 @@ const cookAndEat = compose(eat, cook);
 
 <a id="atom-technical-atom-cfaa3155b7ac1dea"></a>
 > The other 80% comes from organizing your code such that you can use it: Writing functions that can be composed in various ways.
-
-### Technical frame 4: Building Blocks / composition
-
-**Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-00572))_
-
-> In the recipes, we'll look at a decorator called once: It ensures that a function can only be executed once. Thereafter, it does nothing. Once is useful for ensuring that certain side effects are not repeated. We'll also look at maybe: It ensures that a function does nothing if it is given nothing (like null or undefined ) as an argument.
-
-**Atom:** _(javascriptallonge.pdf (source-range-c98ab3e6-00573))_
-
-<a id="atom-technical-atom-4f6b1bb5af0460d2"></a>
-> Of course, you needn't use combinators to implement either of these ideas, you can use if statements.

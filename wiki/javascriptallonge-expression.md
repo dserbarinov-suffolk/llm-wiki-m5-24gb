@@ -7,7 +7,7 @@ sources: raw/javascriptallonge.pdf
 updated: 2026-07-07
 domain: javascriptallonge
 category_path: concepts
-projection_coverage: topic-javascriptallonge-expression@3fde5c977d2c452cf432ffe217ecf361
+projection_coverage: topic-javascriptallonge-expression@33dc560553fd018e0dd406503754f2de
 ---
 
 # Expression
@@ -188,6 +188,14 @@ return "Fizz" + "Buzz";
 
 
 ## Related pages
+
+### Source structure
+
+- [[javascriptallonge-section-prelude-values-and-expressions-over-coffee-9ed49287]] - source section: Prelude: Values and Expressions over Coffee
+- [[javascriptallonge-section-prelude-values-and-expressions-over-coffee-reference-types-11fd4275]] - source section: Prelude: Values and Expressions over Coffee / reference types
+- [[javascriptallonge-section-prelude-values-and-expressions-over-coffee-value-types-cb5b0b74]] - source section: Prelude: Values and Expressions over Coffee / value types
+- [[javascriptallonge-section-prelude-values-and-expressions-over-coffee-values-are-expressions-b4b22fa2]] - source section: Prelude: Values and Expressions over Coffee / values are expressions
+- [[javascriptallonge-section-the-first-sip-basic-functions-as-little-as-possible-about-functions-but-no-less-functions-that-r-a65d460b]] - source section: The first sip: Basic Functions / As Little As Possible About Functions, But No Less / functions that return values and evaluate expressions
 
 ### Shared technical atoms
 

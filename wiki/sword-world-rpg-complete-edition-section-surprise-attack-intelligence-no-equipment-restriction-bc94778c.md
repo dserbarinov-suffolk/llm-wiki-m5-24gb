@@ -1,7 +1,7 @@
 ---
 page_id: sword-world-rpg-complete-edition-section-surprise-attack-intelligence-no-equipment-restriction-bc94778c
 page_kind: source
-summary: [ ⑭ Surprise Attack [Intelligence]] (No equipment restriction): 18 source-backed entries and 0 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+summary: [ ⑭ Surprise Attack [Intelligence]] (No equipment restriction): 17 source-backed entries and 0 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: section-reference
 sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-07

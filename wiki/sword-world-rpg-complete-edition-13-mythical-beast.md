@@ -7,7 +7,7 @@ sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-07
 domain: sword-world-rpg-complete-edition
 category_path: concepts
-projection_coverage: topic-sword-world-rpg-complete-edition-13-mythical-beast@fe1799a0dd5acca1d1dc6548abc548fc
+projection_coverage: topic-sword-world-rpg-complete-edition-13-mythical-beast@c3a93e0f4276764c4234897209efabc0
 ---
 
 # 13 Mythical Beast
@@ -90,6 +90,10 @@ What [[sword-world-rpg-complete-edition]] covers about 13 mythical beast:
 
 
 ## Related pages
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-monster-catalog-13-2-6-mythical-beasts-and-magical-beasts-7977e270]] - source section: Monster Catalog / 13.2.6 Mythical Beasts and Magical Beasts
 
 ### Shared technical atoms
 

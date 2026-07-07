@@ -1,7 +1,7 @@
 ---
 page_id: sword-world-rpg-complete-edition-section-purification-undine-water-spirit-2c49cf4c
 page_kind: source
-summary: [ Purification ] (Undine/Water Spirit): 11 source-backed entries and 0 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+summary: [ Purification ] (Undine/Water Spirit): 10 source-backed entries and 0 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: section-reference
 sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-07

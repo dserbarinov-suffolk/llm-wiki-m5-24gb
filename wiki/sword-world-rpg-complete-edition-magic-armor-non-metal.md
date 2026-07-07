@@ -7,7 +7,7 @@ sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-07
 domain: sword-world-rpg-complete-edition
 category_path: concepts
-projection_coverage: topic-sword-world-rpg-complete-edition-magic-armor-non-metal@c0f89c4e00453a74c087e2aa49765671
+projection_coverage: topic-sword-world-rpg-complete-edition-magic-armor-non-metal@b5bcec87a8bb375a691869aac20d2110
 ---
 
 # Magic Armor Non Metal
@@ -158,6 +158,10 @@ What [[sword-world-rpg-complete-edition]] covers about magic armor non metal:
 
 
 ## Related pages
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-magic-armor-2-non-metal-or-ring-mail-9414896b]] - source section: 《 Magic Armor (+2) 》 Non-metal or ring mail
 
 ### Shared technical atoms
 

@@ -1,14 +1,14 @@
 ---
 page_id: javascriptallonge-section-the-first-sip-basic-functions-as-little-as-possible-about-functions-but-no-less-functions-that-r-a65d460b
 page_kind: source
-summary: The first sip: Basic Functions / As Little As Possible About Functions, But No Less / functions that return values and evaluate expressions: 12 source-backed entries and 2 atom(s) from raw/javascriptallonge.pdf.
+summary: The first sip: Basic Functions / As Little As Possible About Functions, But No Less / functions that return values and evaluate expressions: 11 source-backed entries and 1 atom(s) from raw/javascriptallonge.pdf.
 page_family: section-reference
 sources: raw/javascriptallonge.pdf
 updated: 2026-07-07
 domain: javascriptallonge
 category_path: sources/javascriptallonge/sections
 source_id: javascriptallonge.pdf
-projection_coverage: section-javascriptallonge-section-the-first-sip-basic-functions-as-little-as-possible-about-functions-but-no-less-functions-that-r-a65d460b@87a7b33ce0879d668f9fd44a52acc7d1
+projection_coverage: section-javascriptallonge-section-the-first-sip-basic-functions-as-little-as-possible-about-functions-but-no-less-functions-that-r-a65d460b@a0bf4d63c3ff10ec5a1a4a0a36161b33
 ---
 
 # The first sip: Basic Functions / As Little As Possible About Functions, But No Less / functions that return values and evaluate expressions
@@ -53,14 +53,3 @@ From [[javascriptallonge]].
 (() => Infinity * Infinity)()
 //=> Infinity
 ```
-
-### Technical frame 2: The first sip: Basic Functions / As Little As Possible About Functions, But No Less / functions that return values and evaluate expressions
-
-**Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-00190))_
-
-> Yes we can! Functions can return the value of evaluating another function.
-
-**Atom:** _(javascriptallonge.pdf (source-range-c98ab3e6-00191))_
-
-<a id="atom-technical-atom-5c40de3ec2a4cb7a"></a>
-> When dealing with expressions that have a lot of the same characters (like parentheses), you may find it helpful to format the code to make things stand out.

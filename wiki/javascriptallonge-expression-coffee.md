@@ -7,7 +7,7 @@ sources: raw/javascriptallonge.pdf
 updated: 2026-07-07
 domain: javascriptallonge
 category_path: concepts
-projection_coverage: topic-javascriptallonge-expression-coffee@fd775475b14f59357137ea0024adfd60
+projection_coverage: topic-javascriptallonge-expression-coffee@6e63e83497d8a0505da24dbc794c4986
 ---
 
 # Expression Coffee
@@ -36,6 +36,13 @@ What [[javascriptallonge]] covers about expression coffee:
 
 
 ## Related pages
+
+### Source structure
+
+- [[javascriptallonge-section-prelude-values-and-expressions-over-coffee-9ed49287]] - source section: Prelude: Values and Expressions over Coffee
+- [[javascriptallonge-section-prelude-values-and-expressions-over-coffee-reference-types-11fd4275]] - source section: Prelude: Values and Expressions over Coffee / reference types
+- [[javascriptallonge-section-prelude-values-and-expressions-over-coffee-value-types-cb5b0b74]] - source section: Prelude: Values and Expressions over Coffee / value types
+- [[javascriptallonge-section-prelude-values-and-expressions-over-coffee-values-are-expressions-b4b22fa2]] - source section: Prelude: Values and Expressions over Coffee / values are expressions
 
 ### Topics
 

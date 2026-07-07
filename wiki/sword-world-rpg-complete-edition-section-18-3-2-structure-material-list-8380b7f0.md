@@ -1,14 +1,14 @@
 ---
 page_id: sword-world-rpg-complete-edition-section-18-3-2-structure-material-list-8380b7f0
 page_kind: source
-summary: 18.3.2 Structure Material List: 41 source-backed entries and 0 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+summary: 18.3.2 Structure Material List: 40 source-backed entries and 0 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: section-reference
 sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-07
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-18-3-2-structure-material-list-8380b7f0@b6671c5bb2dccc5269c3403739a6f01d
+projection_coverage: section-sword-world-rpg-complete-edition-section-18-3-2-structure-material-list-8380b7f0@104f8e0ea736fe0046399a4460cba486
 ---
 
 # 18.3.2 Structure Material List
@@ -19,7 +19,6 @@ From [[sword-world-rpg-complete-edition]].
 
 ### Source order
 
-- [[sword-world-rpg-complete-edition-section-special-ce37ebf7]] - previous source section: Special
 - [[sword-world-rpg-complete-edition-section-18-3-3-handling-spirit-walls-c702f244]] - next source section: 18.3.3 Handling Spirit Walls
 
 ## Statements

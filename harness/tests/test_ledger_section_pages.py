@@ -13,7 +13,7 @@ from llmwiki.domain.ledger.ledger import (
     SourceFamilyAssignment,
     SourceProfile,
 )
-from llmwiki.domain.ledger.section_navigation import section_page_id
+from llmwiki.domain.ledger.section_navigation import section_links_for_topics, section_page_id
 from llmwiki.domain.ledger.section_pages import build_section_pages
 from llmwiki.domain.ledger.section_planning import PageTarget, SectionGroundedPlan
 from llmwiki.domain.ledger.segments import SegmentClaim, SourceSegment
@@ -208,6 +208,70 @@ def test_section_pages_roll_unpromoted_leaf_into_promoted_parent_only() -> None:
     assert "The major step has its own page evidence." not in chapter_body
     assert "The major step has its own page evidence." in major_body
     assert all("thin-step" not in page_id for page_id in by_id)
+
+
+def test_promoted_parent_does_not_render_promoted_child_table_atom() -> None:
+    result = _build_result(
+        [
+            ("heading", "# Parent Section", []),
+            ("heading", "## Child Matrix", []),
+            (
+                "table-block",
+                "Child Matrix\nValue Meaning\n1 Child-only value\n2 Child-only option",
+                [],
+            ),
+        ]
+    )
+    parent = _node_by_path(result.document_structure, ("Parent Section",))
+    child = _node_by_path(result.document_structure, ("Parent Section", "Child Matrix"))
+    assert parent is not None
+    assert child is not None
+
+    pages = build_section_pages(
+        result.ledger,
+        result.document_structure,
+        section_plan=_section_plan(
+            result.document_structure,
+            parent.structure_node_id,
+            child.structure_node_id,
+        ),
+        source_page_id="source",
+        source_locator="source.pdf",
+        today="2026-06-29",
+    )
+    by_id = {page.page_id: page.page_body for page in pages}
+
+    parent_body = by_id[section_page_id("source", result.document_structure, parent)]
+    child_body = by_id[section_page_id("source", result.document_structure, child)]
+    assert "Child-only value" not in parent_body
+    assert "Child-only value" in child_body
+    assert "narrower source section" in parent_body
+
+
+def test_sparse_topic_links_to_matching_source_section_hub() -> None:
+    structure = DocumentStructure(
+        "root",
+        (
+            StructureNode("root", "root", "source.pdf", "root", "source.pdf", 0),
+            StructureNode("magic", "chapter", "Basic Rules of Magic", "r1", "source.pdf", 1),
+        ),
+    )
+    plan = _section_plan(structure, "magic")
+    topic = SourceTopic(
+        topic_key="magic",
+        label="Magic",
+        page_kind="concept",
+        match_terms=("magic",),
+        entry_ids=("entry-magic",),
+        atom_ids=(),
+        from_heading=False,
+        salience=1.0,
+    )
+
+    links = section_links_for_topics(plan, structure, source_page_id="source", topics=(topic,))
+
+    assert "magic" in links
+    assert any(link.label == "Basic Rules of Magic" for link in links["magic"])
 
 
 def _entry(entry_id: str, node_id: str, text: str) -> LedgerEntry:

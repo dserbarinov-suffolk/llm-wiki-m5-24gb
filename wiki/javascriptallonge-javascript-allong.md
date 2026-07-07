@@ -7,7 +7,7 @@ sources: raw/javascriptallonge.pdf
 updated: 2026-07-07
 domain: javascriptallonge
 category_path: concepts
-projection_coverage: topic-javascriptallonge-javascript-allong@7482c548866c8ce86881c1506023bba1
+projection_coverage: topic-javascriptallonge-javascript-allong@e7b751bf0d761d8e716409883ce50d92
 ---
 
 # About JavaScript Allongé
@@ -90,6 +90,8 @@ for (int i = 0; i < array.length; ++i) {
 
 - [[javascriptallonge-section-a-pull-of-the-lever-prefaces-about-javascript-allong-ff4917bb]] - source section: A Pull of the Lever: Prefaces / About JavaScript Allongé shares source evidence from A Pull of the Lever: Prefaces / About JavaScript Allongé: JavaScript Allongé is a first and foremost, a book about programming with functions . It's written in JavaScript, because JavaScript hits the perfect sweet spot of b ... [truncated]; A Pull of the Lever: Prefaces / About JavaScript Allongé shares technical record from A Pull of the Lever: Prefaces / About JavaScript Allongé: If those terms seem unfamiliar, don't worry: JavaScript Allongé takes great delight in explaining what they mean and why they matter. (29 shared statement(s), 7 shared atom(s))
 - [[javascriptallonge-section-a-pull-of-the-lever-prefaces-what-javascript-allong-is-and-isn-t-5b3666b7]] - source section: A Pull of the Lever: Prefaces / What JavaScript Allongé is. And isn't. shares source evidence from A Pull of the Lever: Prefaces / What JavaScript Allongé is. And isn't.: JavaScript Allongé is a book about programming with functions. From functions flow many ideas, from decorators to methods to delegation to mixins, and onwards in so ... [truncated]; A Pull of the Lever: Prefaces / What JavaScript Allongé is. And isn't. shares technical record from A Pull of the Lever: Prefaces / What JavaScript Allongé is. And isn't.: const mapWith = (iterable, fn) => ({ [Symbol.iterator]: function* () { for (let element of iterable) { yield fn(element); } } }); (20 shared statement(s), 2 shared atom(s))
+- [[javascriptallonge-section-a-pull-of-the-lever-prefaces-about-javascript-allong-why-the-six-edition-64775184]] - source section: A Pull of the Lever: Prefaces / About JavaScript Allongé / why the 'six' edition?
+- [[javascriptallonge-section-javascript-allong-the-six-edition-reg-raganwald-braithwaite-1d8630de]] - source section: JavaScript Allongé, the 'Six' Edition / Reg 'raganwald' Braithwaite
 
 ### Shared technical atoms
 

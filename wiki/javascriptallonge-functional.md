@@ -7,7 +7,7 @@ sources: raw/javascriptallonge.pdf
 updated: 2026-07-07
 domain: javascriptallonge
 category_path: concepts
-projection_coverage: topic-javascriptallonge-functional@eda25d114368dfffd7c4bfbc0fbec215
+projection_coverage: topic-javascriptallonge-functional@b854fb42b58988815eb64196bcdf43ae
 ---
 
 # Functional
@@ -30,6 +30,11 @@ What [[javascriptallonge]] covers about functional:
 
 
 ## Related pages
+
+### Source structure
+
+- [[javascriptallonge-section-copy-on-write-functional-iterators-74724e0a]] - source section: Copy on Write / Functional Iterators
+- [[javascriptallonge-section-served-by-the-pot-collections-iteration-and-iterables-a-look-back-at-functional-iterators-57a76f01]] - source section: Served by the Pot: Collections / Iteration and Iterables / a look back at functional iterators
 
 ### Shared technical atoms
 

@@ -1,7 +1,7 @@
 ---
 page_id: sword-world-rpg-complete-edition-section-one-handed-and-twohanded-weapons-06cd107c
 page_kind: source
-summary: One-Handed and TwoHanded Weapons: 7 source-backed entries and 0 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+summary: One-Handed and TwoHanded Weapons: 6 source-backed entries and 0 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: section-reference
 sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-07

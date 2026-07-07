@@ -1,14 +1,14 @@
 ---
 page_id: sword-world-rpg-complete-edition-section-1-4-4-age-gender-name-09c881e7
 page_kind: source
-summary: 1.4.4 Age, Gender, Name: 56 source-backed entries and 1 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+summary: 1.4.4 Age, Gender, Name: 55 source-backed entries and 0 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: section-reference
 sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-07
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-1-4-4-age-gender-name-09c881e7@1c6ce3c769b5c4d6a564908be7f696a5
+projection_coverage: section-sword-world-rpg-complete-edition-section-1-4-4-age-gender-name-09c881e7@ff0e437522ae9d61db6409ffa78f7083
 ---
 
 # 1.4.4 Age, Gender, Name
@@ -52,34 +52,3 @@ From [[sword-world-rpg-complete-edition]].
 - After all, the names of most people in Alecrast , the setting of Sword World RPG , are like that. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-00418))_
 - In Alecrast , first name, then last name are usually written in that order. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-00419))_
 - Therefore, the age should be a little higher, like around 24. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-00423))_
-
-## Technical atoms
-
-### Technical frame 1: 1.4.4 Age, Gender, Name
-
-**Context:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-00423))_
-
-> Since they're a human, their age will be around 15~30 years old. This character comes from the mercenary background, so being too young is not an option. Therefore, the age should be a little higher, like around 24.
-
-**Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-00420))_
-
-<a id="atom-technical-atom-27967460a6a36226"></a>
-| Attained Level | Sorcerer & Sage at the same time | Sorcerer | Sorcerer (with Sage) | Shaman | Fighter Thief Priest | Ranger Sage Bard |
-| --- | --- | --- | --- | --- | --- | --- |
-| 1 | 2000 | 2000 | 1500 | 1500 | 1000 | 500 |
-| 2 |  |  |  | 2000 | 1500 | 1000 |
-| 3 |  |  |  |  |  | 1500 |
-
-<details>
-<summary>Raw table text</summary>
-
-```text
-1.4.5 Character Growth via Starting Experience Points
-| Attained Level | Sorcerer & Sage at the same time | Sorcerer | Sorcerer (with Sage) | Shaman | Fighter Thief Priest | Ranger Sage Bard |
-| --- | --- | --- | --- | --- | --- | --- |
-| 1 | 2000 | 2000 | 1500 | 1500 | 1000 | 500 |
-| 2 |  |  |  | 2000 | 1500 | 1000 |
-| 3 |  |  |  |  |  | 1500 |
-```
-
-</details>

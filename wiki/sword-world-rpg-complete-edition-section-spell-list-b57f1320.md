@@ -1,7 +1,7 @@
 ---
 page_id: sword-world-rpg-complete-edition-section-spell-list-b57f1320
 page_kind: source
-summary: Spell List: 15 source-backed entries and 1 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+summary: Spell List: 14 source-backed entries and 1 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: section-reference
 sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-07

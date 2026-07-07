@@ -1,7 +1,7 @@
 ---
 page_id: sword-world-rpg-complete-edition-section-13-2-10-magical-creatures-56568f0e
 page_kind: source
-summary: 13.2.10 Magical Creatures: 313 source-backed entries and 0 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+summary: 13.2.10 Magical Creatures: 311 source-backed entries and 0 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: section-reference
 sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-07

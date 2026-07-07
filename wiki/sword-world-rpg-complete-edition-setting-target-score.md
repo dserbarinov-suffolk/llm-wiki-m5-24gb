@@ -7,7 +7,7 @@ sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-07
 domain: sword-world-rpg-complete-edition
 category_path: concepts
-projection_coverage: topic-sword-world-rpg-complete-edition-setting-target-score@ed97322642c7d1c39c728c7d90bb4a81
+projection_coverage: topic-sword-world-rpg-complete-edition-setting-target-score@bc3557ca9b9816df339c20d462b8428e
 ---
 
 # Setting Target Score
@@ -38,6 +38,12 @@ What [[sword-world-rpg-complete-edition]] covers about setting target score:
 
 
 ## Related pages
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-chapter-9-setting-target-scores-and-difficulties-f6da6ec7]] - source section: Chapter 9: / Setting Target Scores and Difficulties
+- [[sword-world-rpg-complete-edition-section-chapter-9-setting-target-scores-and-difficulties-should-you-use-a-target-score-check-or-a-diffic-7b387750]] - source section: Chapter 9: / Setting Target Scores and Difficulties / Should You Use a Target Score Check or a Difficulty Check? / 9.3 General Modifiers
+- [[sword-world-rpg-complete-edition-section-chapter-9-setting-target-scores-and-difficulties-should-you-use-a-target-score-check-or-a-diffic-bd9a418b]] - source section: Chapter 9: / Setting Target Scores and Difficulties / Should You Use a Target Score Check or a Difficulty Check?
 
 ### Shared technical atoms
 

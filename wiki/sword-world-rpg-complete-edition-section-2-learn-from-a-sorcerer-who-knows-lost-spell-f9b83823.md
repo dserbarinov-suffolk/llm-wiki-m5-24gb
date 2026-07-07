@@ -1,7 +1,7 @@
 ---
 page_id: sword-world-rpg-complete-edition-section-2-learn-from-a-sorcerer-who-knows-lost-spell-f9b83823
 page_kind: source
-summary: 2. Learn From a Sorcerer Who Knows Lost Spell: 12 source-backed entries and 0 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+summary: 2. Learn From a Sorcerer Who Knows Lost Spell: 11 source-backed entries and 0 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: section-reference
 sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-07

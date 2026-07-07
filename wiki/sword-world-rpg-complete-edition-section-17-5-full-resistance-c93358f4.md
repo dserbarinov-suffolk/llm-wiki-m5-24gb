@@ -8,18 +8,12 @@ updated: 2026-07-07
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-17-5-full-resistance-c93358f4@9247ff4218a8d2a0df0f8e8dc8f0c109
+projection_coverage: section-sword-world-rpg-complete-edition-section-17-5-full-resistance-c93358f4@d01f2abd2a7a93bd3bcb18f5ef2f160d
 ---
 
 # 17.5 Full Resistance
 
 From [[sword-world-rpg-complete-edition]].
-
-## Related pages
-
-### Source order
-
-- [[sword-world-rpg-complete-edition-section-18-1-rules-for-awarding-greater-experience-points-c3da84ed]] - next source section: 18.1 Rules for Awarding Greater Experience Points
 
 ## Statements
 

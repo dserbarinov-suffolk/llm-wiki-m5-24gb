@@ -7,7 +7,7 @@ sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-07
 domain: sword-world-rpg-complete-edition
 category_path: concepts
-projection_coverage: topic-sword-world-rpg-complete-edition-dream-spirit@b0b71d338c27960c3f0ded7c0027c090
+projection_coverage: topic-sword-world-rpg-complete-edition-dream-spirit@ea3752b9af64b64b83d2f656933b09cd
 ---
 
 # Dream Spirit
@@ -37,6 +37,12 @@ What [[sword-world-rpg-complete-edition]] covers about dream spirit:
 <a id="atom-technical-atom-eef4818da7f3bf91"></a>
 > Resist=Reduced effect
 
+
+## Related pages
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-nightmare-incubus-succubus-dream-spirit-854436be]] - source section: [ Nightmare ] (Incubus, Succubus/Dream Spirit)
 
 ## Source
 

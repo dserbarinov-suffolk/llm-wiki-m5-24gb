@@ -1,14 +1,14 @@
 ---
 page_id: sword-world-rpg-complete-edition-section-13-6-handling-monster-special-abilities-e84663d8
 page_kind: source
-summary: 13.6 Handling Monster Special Abilities: 85 source-backed entries and 0 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+summary: 13.6 Handling Monster Special Abilities: 93 source-backed entries and 0 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: section-reference
 sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-07
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-13-6-handling-monster-special-abilities-e84663d8@76e47582447c3109f45458932f9e3fe5
+projection_coverage: section-sword-world-rpg-complete-edition-section-13-6-handling-monster-special-abilities-e84663d8@c318689a836dc7a2a3c196710f185f07
 ---
 
 # 13.6 Handling Monster Special Abilities
@@ -24,7 +24,6 @@ From [[sword-world-rpg-complete-edition]].
 ### Source structure
 
 - [[sword-world-rpg-complete-edition-section-13-6-handling-monster-special-abilities-13-6-3-special-attacks-other-75806eba]] - narrower source section: 13.6 Handling Monster Special Abilities / 13.6.3 Special Attacks: Other
-- [[sword-world-rpg-complete-edition-section-13-6-handling-monster-special-abilities-13-6-7-special-defense-abilities-weaknesses-35838fa9]] - narrower source section: 13.6 Handling Monster Special Abilities / 13.6.7 Special Defense Abilities: Weaknesses
 
 ## Statements
 
@@ -68,3 +67,14 @@ From [[sword-world-rpg-complete-edition]].
 - Most die as is, but some are special, such as vampires. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-08741))_
 - Monsters with this ability disguise themselves in a particular way, wait for a victim to approach, then strike when he or she is not careful. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-08747))_
 - This completely changes its appearance, so unless something stands out, it cannot be discovered with the sage's knowledge or the ranger's plant and animal check . _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-08749))_
+
+## Statements by subsection
+
+### 13.6 Handling Monster Special Abilities / 13.6.7 Special Defense Abilities: Weaknesses
+
+- Different monsters have different weaknesses against certain kinds of attacks. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-08757))_
+- In order to maintain its life points, a lamia must suck human blood. Otherwise, it'll gradually weaken and die. It' s treated as a weakness, but takes the form of an inconvenient habit. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-08759))_
+- In order to maintain its mental points, a vampire must suck human blood. Otherwise, it'll gradually lose its mental points and eventually perish. It's treated as a weakness, but takes the form of an inconvenient habit. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-08761))_
+- Undead that act with negative life force will suffer damage from healing magic that grants positive life force. They will suffer damage from Cure Wounds , and if Healing or Refresh are cast on them and they fail to resist, their life points will immediately become 0. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-08763))_
+- This is a weakness seen in plant-type monsters, dry monsters, and monsters that live in cold regions. They're weak to fire, so checks are made at +10 to strike power when using fire attacks. In the case of Fire Bolt , make a strike power 20 damage check (10 if the monster successfully resists), and in the case of Fire Weapon , add a +20 strike power bonus to the weapon. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-08765))_
+- In addition, for any other Weak to XX , checks against damage magic are made at +10 to strike power. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-08766))_

@@ -1,7 +1,7 @@
 ---
 page_id: javascriptallonge-section-which-came-first-the-chicken-or-the-egg-8e6e66d0
 page_kind: source
-summary: which came first, the chicken or the egg?: 5 source-backed entries and 0 atom(s) from raw/javascriptallonge.pdf.
+summary: which came first, the chicken or the egg?: 4 source-backed entries and 0 atom(s) from raw/javascriptallonge.pdf.
 page_family: section-reference
 sources: raw/javascriptallonge.pdf
 updated: 2026-07-07

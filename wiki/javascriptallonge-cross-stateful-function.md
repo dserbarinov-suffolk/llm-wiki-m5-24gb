@@ -7,7 +7,7 @@ sources: raw/javascriptallonge.pdf
 updated: 2026-07-07
 domain: javascriptallonge
 category_path: concepts
-projection_coverage: topic-javascriptallonge-cross-stateful-function@11b5f75f78ea220260dca05567ed8b81
+projection_coverage: topic-javascriptallonge-cross-stateful-function@a014ee84c885d900ec8761ac6d93d65b
 ---
 
 # Cross Stateful Function
@@ -22,6 +22,10 @@ What [[javascriptallonge]] covers about cross stateful function:
 
 
 ## Related pages
+
+### Source structure
+
+- [[javascriptallonge-section-interactive-generators-representing-naughts-and-crosses-as-a-stateful-function-94951f68]] - source section: Interactive Generators / representing naughts and crosses as a stateful function
 
 ### Shared claims
 

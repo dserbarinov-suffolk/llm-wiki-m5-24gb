@@ -7,7 +7,7 @@ sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-07
 domain: sword-world-rpg-complete-edition
 category_path: concepts
-projection_coverage: topic-sword-world-rpg-complete-edition-10-magical-weapon@9588e06ef7e0a3980440c7290d0c0fb2
+projection_coverage: topic-sword-world-rpg-complete-edition-10-magical-weapon@df0dfb17893346c51eb78b77444d0ac4
 ---
 
 # 10 Magical Weapon
@@ -42,6 +42,10 @@ What [[sword-world-rpg-complete-edition]] covers about 10 magical weapon:
 
 
 ## Related pages
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-4-10-3-magical-weapons-and-armor-73e21f02]] - source section: 4.10.3 Magical Weapons and Armor
 
 ### Shared claims
 

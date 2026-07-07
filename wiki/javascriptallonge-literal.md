@@ -1,13 +1,13 @@
 ---
 page_id: javascriptallonge-literal
 page_kind: concept
-summary: Literal: 13 statement(s) and 8 atom(s) from raw/javascriptallonge.pdf.
+summary: Literal: 13 statement(s) and 7 atom(s) from raw/javascriptallonge.pdf.
 page_family: broad-topic
 sources: raw/javascriptallonge.pdf
 updated: 2026-07-07
 domain: javascriptallonge
 category_path: concepts
-projection_coverage: topic-javascriptallonge-literal@8499b4a437da4a6520f6f079cad9996e
+projection_coverage: topic-javascriptallonge-literal@7bd1d1b02eac9011bb73423be7ab7e69
 ---
 
 # Literal
@@ -125,6 +125,14 @@ array_of_one() === array_of_one()
 
 ## Related pages
 
+### Source structure
+
+- [[javascriptallonge-section-a-warm-cup-basic-strings-and-quasi-literals-519b0d4d]] - source section: A Warm Cup: Basic Strings and Quasi-Literals
+- [[javascriptallonge-section-a-warm-cup-basic-strings-and-quasi-literals-evaluation-time-ba7a0853]] - source section: A Warm Cup: Basic Strings and Quasi-Literals / evaluation time
+- [[javascriptallonge-section-a-warm-cup-basic-strings-and-quasi-literals-quasi-literals-4646e272]] - source section: A Warm Cup: Basic Strings and Quasi-Literals / quasi-literals
+- [[javascriptallonge-section-composing-and-decomposing-data-arrays-and-destructuring-arguments-array-literals-f2f1b6ec]] - source section: Composing and Decomposing Data / Arrays and Destructuring Arguments / array literals
+- [[javascriptallonge-section-plain-old-javascript-objects-literal-object-syntax-41ad73a1]] - source section: Plain Old JavaScript Objects / literal object syntax
+
 ### Shared technical atoms
 
 - [[javascriptallonge-quasi]] - shared statements and technical atoms: Quasi shares source evidence from A Warm Cup: Basic Strings and Quasi-Literals / quasi-literals: JavaScript supports quasi-literal strings , a/k/a 'Template Strings' or 'String Interpolation Expressions.' A quasi-literal string is something that looks like a str ... [truncated]; Quasi shares technical record from A Warm Cup: Basic Strings and Quasi-Literals / quasi-literals: `foobar` //=> 'foobar' `fizz` + `buzz` //=> 'fizzbuzz' (5 shared statement(s), 3 shared atom(s))
@@ -134,7 +142,6 @@ array_of_one() === array_of_one()
 - [[javascriptallonge-string]] - shared statements and technical atoms: String shares source evidence from A Warm Cup: Basic Strings and Quasi-Literals / quasi-literals: JavaScript supports quasi-literal strings , a/k/a 'Template Strings' or 'String Interpolation Expressions.' A quasi-literal string is something that looks like a str ... [truncated]; String shares technical record from A Warm Cup: Basic Strings and Quasi-Literals / quasi-literals: `foobar` //=> 'foobar' `fizz` + `buzz` //=> 'fizzbuzz' (1 shared statement(s), 1 shared atom(s))
 - [[javascriptallonge-element]] - shared technical atoms: Element shares technical record from Composing and Decomposing Data / Self-Similarity: [] //=> [] ["baz", ...[]] //=> ["baz"] ["bar", ...["baz"]] //=> ["bar","baz"] ["foo", ...["bar", "baz"]] //=> ["foo","bar","baz"] (1 shared atom(s))
 - [[javascriptallonge-list]] - shared technical atoms: List shares technical record from Composing and Decomposing Data / Self-Similarity: [] //=> [] ["baz", ...[]] //=> ["baz"] ["bar", ...["baz"]] //=> ["bar","baz"] ["foo", ...["bar", "baz"]] //=> ["foo","bar","baz"] (1 shared atom(s))
-- [[javascriptallonge-programming]] - shared technical atoms: Programming shares technical record from A Rich Aroma: Basic Numbers: The machine's representation of a number almost never lines up perfectly with our understanding of how a number behaves, and thus there will be places where the comp ... [truncated] (1 shared atom(s))
 
 ### Shared claims
 

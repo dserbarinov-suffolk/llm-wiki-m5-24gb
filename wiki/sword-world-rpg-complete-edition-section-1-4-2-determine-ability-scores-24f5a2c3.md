@@ -1,14 +1,14 @@
 ---
 page_id: sword-world-rpg-complete-edition-section-1-4-2-determine-ability-scores-24f5a2c3
 page_kind: source
-summary: 1.4.2 Determine Ability Scores: 24 source-backed entries and 1 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+summary: 1.4.2 Determine Ability Scores: 23 source-backed entries and 0 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: section-reference
 sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-07
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-1-4-2-determine-ability-scores-24f5a2c3@642c71939037ae617961bee89f17e5ec
+projection_coverage: section-sword-world-rpg-complete-edition-section-1-4-2-determine-ability-scores-24f5a2c3@eecce514dc79ca47e5b8e07526fdd293
 ---
 
 # 1.4.2 Determine Ability Scores
@@ -38,40 +38,3 @@ From [[sword-world-rpg-complete-edition]].
 - Depending on whether a half-elf was raised by humans or elves, the skills they have from the start and the limitations on the skills they can acquire differ. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-00290))_
 - In addition, a notation such as 1D+6 means to roll one dice and add 6 to the result . _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-00322))_
 - This character can be considered fairly mediocre except for the excellent life force bonus. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-00349))_
-
-## Technical atoms
-
-### Technical frame 1: 1.4.2 Determine Ability Scores
-
-**Context:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-00326))_
-
-> Once ability scores are determined, sub-ability scores are never used during the game.
-
-**Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-00324))_
-
-<a id="atom-technical-atom-88a9299d8142bab6"></a>
-| Ability Score | Human | Grassrunner | Dwarf | Elf | Half-Elf |
-| --- | --- | --- | --- | --- | --- |
-| Dexterity | 14 | 20.5 | 15 | 19 | 17 |
-| Agility | 14 | 20.5 | 9.5 | 19 | 17 |
-| Intelligence | 14 | 13 | 11 | 19 | 17 |
-| Strength | 14 | 4 | 17 | 5.5 | 11 |
-| Life Force | 14 | 15 | 20.5 | 9.5 | 13 |
-| Mental Power | 14 | 24 | 22 | 17 | 14.5 |
-
-<details>
-<summary>Raw table text</summary>
-
-```text
-1.4.3 Starting Skills and Starting
-| Ability Score | Human | Grassrunner | Dwarf | Elf | Half-Elf |
-| --- | --- | --- | --- | --- | --- |
-| Dexterity | 14 | 20.5 | 15 | 19 | 17 |
-| Agility | 14 | 20.5 | 9.5 | 19 | 17 |
-| Intelligence | 14 | 13 | 11 | 19 | 17 |
-| Strength | 14 | 4 | 17 | 5.5 | 11 |
-| Life Force | 14 | 15 | 20.5 | 9.5 | 13 |
-| Mental Power | 14 | 24 | 22 | 17 | 14.5 |
-```
-
-</details>

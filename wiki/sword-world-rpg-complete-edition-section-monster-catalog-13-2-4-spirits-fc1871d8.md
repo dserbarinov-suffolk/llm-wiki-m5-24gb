@@ -1,14 +1,14 @@
 ---
 page_id: sword-world-rpg-complete-edition-section-monster-catalog-13-2-4-spirits-fc1871d8
 page_kind: source
-summary: Monster Catalog / 13.2.4 Spirits: 229 source-backed entries and 14 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+summary: Monster Catalog / 13.2.4 Spirits: 227 source-backed entries and 12 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: section-reference
 sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-07
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-monster-catalog-13-2-4-spirits-fc1871d8@4f4a3ddcfd7867aa171aa2cc34831678
+projection_coverage: section-sword-world-rpg-complete-edition-section-monster-catalog-13-2-4-spirits-fc1871d8@3473bc277474a348e2f63ede4e6e92f4
 ---
 
 # Monster Catalog / 13.2.4 Spirits
@@ -266,20 +266,3 @@ From [[sword-world-rpg-complete-edition]].
 
 <a id="atom-technical-atom-f100fe771834c308"></a>
 > Reaction=Adversarial
-
-### Technical frame 12: Monster Catalog / 13.2.4 Spirits
-
-**Context:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-06186))_
-
-> Valkyrie is a mind spirit. It governs the courage of men who fight. Her appearance is that of a human woman clad in shining white armor, and her noble appearance is said to fascinate all men. However, a mad valkyrie is extremely cruel and terrifying. They attack from above, casting the spell Valkyrie Javelin where sword attacks can't reach. They will also cast a Fanaticism spell to provoke you. Casting these spells does not consume spirit points. To harm a valkyrie, you need magical or silver we
-
-**Atoms:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-06183, source-range-e5870dca-06184, source-range-e5870dca-06185))_
-
-<a id="atom-technical-atom-eb0592b641732e7f"></a>
-> Habitat=Anywhere
-
-<a id="atom-technical-atom-bc36b6d935f81fb4"></a>
-> Languages=Silent spirit
-
-<a id="atom-technical-atom-f8ea08f2c55bbbaf"></a>
-> Perception=Magic

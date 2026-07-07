@@ -1,7 +1,7 @@
 ---
 page_id: javascriptallonge-section-a-rich-aroma-basic-numbers-floating-1170cd1c
 page_kind: source
-summary: A Rich Aroma: Basic Numbers / floating: 13 source-backed entries and 0 atom(s) from raw/javascriptallonge.pdf.
+summary: A Rich Aroma: Basic Numbers / floating: 11 source-backed entries and 0 atom(s) from raw/javascriptallonge.pdf.
 page_family: section-reference
 sources: raw/javascriptallonge.pdf
 updated: 2026-07-07

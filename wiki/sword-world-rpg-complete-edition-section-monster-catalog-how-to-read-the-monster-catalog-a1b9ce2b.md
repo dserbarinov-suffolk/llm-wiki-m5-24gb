@@ -1,7 +1,7 @@
 ---
 page_id: sword-world-rpg-complete-edition-section-monster-catalog-how-to-read-the-monster-catalog-a1b9ce2b
 page_kind: source
-summary: Monster Catalog / How to Read the Monster Catalog: 211 source-backed entries and 0 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+summary: Monster Catalog / How to Read the Monster Catalog: 209 source-backed entries and 0 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: section-reference
 sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-07

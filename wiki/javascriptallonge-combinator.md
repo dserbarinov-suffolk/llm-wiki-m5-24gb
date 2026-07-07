@@ -7,7 +7,7 @@ sources: raw/javascriptallonge.pdf
 updated: 2026-07-07
 domain: javascriptallonge
 category_path: concepts
-projection_coverage: topic-javascriptallonge-combinator@e75ca22385e8fcda77368fdd7836b6cf
+projection_coverage: topic-javascriptallonge-combinator@5ee53fa46b93c8e34c3cc15b7b1accda
 ---
 
 # Combinator
@@ -52,6 +52,9 @@ const nothing = not(something);
 ### Source structure
 
 - [[javascriptallonge-section-combinators-and-function-decorators-combinators-96e491bc]] - source section: Combinators and Function Decorators / combinators shares source evidence from Combinators and Function Decorators / combinators: In this book, we will be using a looser definition of 'combinator:' Higher-order pure functions that take only functions as arguments and return a function. We won't ... [truncated] (3 shared statement(s))
+- [[javascriptallonge-section-combinators-and-function-decorators-901f172c]] - source section: Combinators and Function Decorators
+- [[javascriptallonge-section-combinators-and-function-decorators-function-decorators-9d6990ae]] - source section: Combinators and Function Decorators / function decorators
+- [[javascriptallonge-section-combinators-and-function-decorators-higher-order-functions-c07c644e]] - source section: Combinators and Function Decorators / higher-order functions
 
 ### Shared technical atoms
 

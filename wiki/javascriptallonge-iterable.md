@@ -7,7 +7,7 @@ sources: raw/javascriptallonge.pdf
 updated: 2026-07-07
 domain: javascriptallonge
 category_path: concepts
-projection_coverage: topic-javascriptallonge-iterable@394908e0a3fc550d6ae42ef4dd7135bc
+projection_coverage: topic-javascriptallonge-iterable@48f68e282e321ea1407d4543863f13b1
 ---
 
 # Iterable
@@ -332,6 +332,13 @@ yield 3
 ### Source structure
 
 - [[javascriptallonge-section-served-by-the-pot-collections-iteration-and-iterables-iterables-94f83dae]] - source section: Served by the Pot: Collections / Iteration and Iterables / iterables shares source evidence from Served by the Pot: Collections / Iteration and Iterables / iterables: People have been writing iterators since JavaScript was first released in the late 1990s. Since there was no particular standard way to do it, people used all sorts ... [truncated]; Served by the Pot: Collections / Iteration and Iterables / iterables shares technical record from Served by the Pot: Collections / Iteration and Iterables / iterables: const Stack3 = () => ({ array: [], index: -1, push (value) { return this.array[this.index += 1] = value; }, pop () { const value = this.array[this.index]; this.array ... [truncated] (16 shared statement(s), 4 shared atom(s))
+- [[javascriptallonge-section-memoizing-an-iterable-3573f62e]] - source section: memoizing an iterable
+- [[javascriptallonge-section-operations-that-compose-two-or-more-iterables-into-an-iterable-73854237]] - source section: operations that compose two or more iterables into an iterable
+- [[javascriptallonge-section-operations-that-transform-an-iterable-into-a-value-f61dad02]] - source section: operations that transform an iterable into a value
+- [[javascriptallonge-section-operations-that-transform-one-iterable-into-another-9f8c6529]] - source section: operations that transform one iterable into another
+- [[javascriptallonge-section-served-by-the-pot-collections-generating-iterables-f68c47a5]] - source section: Served by the Pot: Collections / Generating Iterables
+- [[javascriptallonge-section-served-by-the-pot-collections-generating-iterables-generators-and-iterables-adba5c82]] - source section: Served by the Pot: Collections / Generating Iterables / generators and iterables
+- [[javascriptallonge-section-served-by-the-pot-collections-generating-iterables-generators-are-coroutines-d0fde127]] - source section: Served by the Pot: Collections / Generating Iterables / generators are coroutines
 
 ### Shared technical atoms
 

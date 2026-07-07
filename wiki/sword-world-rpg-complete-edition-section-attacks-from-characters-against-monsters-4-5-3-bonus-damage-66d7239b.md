@@ -1,7 +1,7 @@
 ---
 page_id: sword-world-rpg-complete-edition-section-attacks-from-characters-against-monsters-4-5-3-bonus-damage-66d7239b
 page_kind: source
-summary: Attacks From Characters Against Monsters / 4.5.3 Bonus Damage: 7 source-backed entries and 0 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+summary: Attacks From Characters Against Monsters / 4.5.3 Bonus Damage: 6 source-backed entries and 0 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: section-reference
 sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-07

@@ -1,14 +1,14 @@
 ---
 page_id: sword-world-rpg-complete-edition-section-basic-rules-of-magic-5-1-7-magic-expansion-09e6979a
 page_kind: source
-summary: Basic Rules of Magic / 5.1.7 Magic Expansion: 56 source-backed entries and 3 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+summary: Basic Rules of Magic / 5.1.7 Magic Expansion: 57 source-backed entries and 4 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: section-reference
 sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-07
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-basic-rules-of-magic-5-1-7-magic-expansion-09e6979a@69b818fc52454524bab553f73175d60f
+projection_coverage: section-sword-world-rpg-complete-edition-section-basic-rules-of-magic-5-1-7-magic-expansion-09e6979a@1226077274e822e6b28c050fb4ac8718
 ---
 
 # Basic Rules of Magic / 5.1.7 Magic Expansion
@@ -63,6 +63,47 @@ From [[sword-world-rpg-complete-edition]].
 
 ### Technical frame 1: Basic Rules of Magic / 5.1.7 Magic Expansion
 
+**Context:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01617))_
+
+> Magic expansion includes the following types.
+
+**Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01613))_
+
+<a id="atom-technical-atom-89d7a741b191c7f7"></a>
+| Expansion Rate | Area Expansion Length | Volume Expansion Length |
+| --- | --- | --- |
+| x 2 | 1.4 | 1.3 |
+| x 3 | 1.7 | 1.4 |
+| x 4 | 2 | 1.6 |
+| x 5 | 2.2 | 1.7 |
+| x 6 | 2.4 | 1.8 |
+| x 7 | 2.6 | 1.9 |
+| x 8 | 2.8 | 2.0 |
+| x 9 | 3.0 | 2.1 |
+| x 10 | 3.2 | 2.2 |
+
+<details>
+<summary>Raw table text</summary>
+
+```text
+5.1.7 Magic Expansion
+| Expansion Rate | Area Expansion Length | Volume Expansion Length |
+| --- | --- | --- |
+| x 2 | 1.4 | 1.3 |
+| x 3 | 1.7 | 1.4 |
+| x 4 | 2 | 1.6 |
+| x 5 | 2.2 | 1.7 |
+| x 6 | 2.4 | 1.8 |
+| x 7 | 2.6 | 1.9 |
+| x 8 | 2.8 | 2.0 |
+| x 9 | 3.0 | 2.1 |
+| x 10 | 3.2 | 2.2 |
+```
+
+</details>
+
+### Technical frame 2: Basic Rules of Magic / 5.1.7 Magic Expansion
+
 **Context:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01620))_
 
 > If it's two or three targets...... the mental power consumed will also be doubled or tripled .......
@@ -72,7 +113,7 @@ From [[sword-world-rpg-complete-edition]].
 <a id="atom-technical-atom-7f4db1b26de382bc"></a>
 > If you expand a spell that affects one enemy (or ally), it can instead affect multiple at the same time.
 
-### Technical frame 2: Basic Rules of Magic / 5.1.7 Magic Expansion
+### Technical frame 3: Basic Rules of Magic / 5.1.7 Magic Expansion
 
 **Context:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01645))_
 
@@ -83,7 +124,7 @@ From [[sword-world-rpg-complete-edition]].
 <a id="atom-technical-atom-1570abe425d8d4ff"></a>
 > Y ou can also increase it by a fraction, such as x1.5, in which case the fraction is rounded up when determining the multiplier for mental power consumed.
 
-### Technical frame 3: Basic Rules of Magic / 5.1.7 Magic Expansion
+### Technical frame 4: Basic Rules of Magic / 5.1.7 Magic Expansion
 
 **Context:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01655))_
 

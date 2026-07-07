@@ -7,7 +7,7 @@ sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-07
 domain: sword-world-rpg-complete-edition
 category_path: concepts
-projection_coverage: topic-sword-world-rpg-complete-edition-hit-check@fa33ce8a94cd7228d007007539007942
+projection_coverage: topic-sword-world-rpg-complete-edition-hit-check@37ff799fa55619ca55f18718bab2519f
 ---
 
 # 4.5.1 Hit Checks
@@ -179,6 +179,7 @@ Key Number
 
 - [[sword-world-rpg-complete-edition-section-4-7-attacks-from-characters-against-characters-4-7-1-hit-checks-9c205d1f]] - source section: 4.7 Attacks From Characters Against Characters / 4.7.1 Hit Checks shares source evidence from 4.7 Attacks From Characters Against Characters / 4.7.1 Hit Checks: To make a hit check, both sides must roll the dice (2D). The attacker adds their roll to their attack power , and the defender adds their roll to their evasion speed .; 4.7 Attacks From Characters Against Characters / 4.7.1 Hit Checks shares technical record from 4.7 Attacks From Characters Against Characters / 4.7.1 Hit Checks: To make a hit check, both sides must roll the dice (2D). (8 shared statement(s), 4 shared atom(s))
 - [[sword-world-rpg-complete-edition-section-attacks-from-characters-against-monsters-4-5-1-hit-checks-40e2447c]] - source section: Attacks From Characters Against Monsters / 4.5.1 Hit Checks shares source evidence from Attacks From Characters Against Monsters / 4.5.1 Hit Checks: In other words, you roll 2D and add the result to your attack power (fighter/thief/ranger skill level + dexterity bonus) in order to meet or exceed a certain target score.; Attacks From Characters Against Monsters / 4.5.1 Hit Checks shares technical record from Attacks From Characters Against Monsters / 4.5.1 Hit Checks: When a character attacks a monster, they must make a success roll hit check, using attack power as the baseline score. (8 shared statement(s), 3 shared atom(s))
+- [[sword-world-rpg-complete-edition-section-attacks-from-monsters-against-characters-4-6-1-hit-evasion-checks-20bd7e57]] - source section: Attacks From Monsters Against Characters / 4.6.1 Hit (Evasion) Checks
 
 ### Shared technical atoms
 

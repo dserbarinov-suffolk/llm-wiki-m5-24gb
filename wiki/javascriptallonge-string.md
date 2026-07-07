@@ -7,7 +7,7 @@ sources: raw/javascriptallonge.pdf
 updated: 2026-07-07
 domain: javascriptallonge
 category_path: concepts
-projection_coverage: topic-javascriptallonge-string@bbfe3dde02d25d12d1449d10f1e0acdd
+projection_coverage: topic-javascriptallonge-string@6427f136ddf26b7e5e3b22b77e483e58
 ---
 
 # String
@@ -63,6 +63,12 @@ What [[javascriptallonge]] covers about string:
 
 
 ## Related pages
+
+### Source structure
+
+- [[javascriptallonge-section-a-warm-cup-basic-strings-and-quasi-literals-519b0d4d]] - source section: A Warm Cup: Basic Strings and Quasi-Literals
+- [[javascriptallonge-section-a-warm-cup-basic-strings-and-quasi-literals-evaluation-time-ba7a0853]] - source section: A Warm Cup: Basic Strings and Quasi-Literals / evaluation time
+- [[javascriptallonge-section-a-warm-cup-basic-strings-and-quasi-literals-quasi-literals-4646e272]] - source section: A Warm Cup: Basic Strings and Quasi-Literals / quasi-literals
 
 ### Shared technical atoms
 

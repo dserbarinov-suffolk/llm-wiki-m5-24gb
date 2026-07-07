@@ -1,13 +1,13 @@
 ---
 page_id: sword-world-rpg-complete-edition-11-acquiring-rune-master-skill
 page_kind: concept
-summary: 11 Acquiring Rune Master Skill: 22 statement(s) and 2 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+summary: 11 Acquiring Rune Master Skill: 22 statement(s) and 1 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: topic-concept
 sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-07
 domain: sword-world-rpg-complete-edition
 category_path: concepts
-projection_coverage: topic-sword-world-rpg-complete-edition-11-acquiring-rune-master-skill@8dc2b83a22ef8c6e935ef97c17cbf68a
+projection_coverage: topic-sword-world-rpg-complete-edition-11-acquiring-rune-master-skill@3e5d586c92432e7fc172934d651c978c
 ---
 
 # 11 Acquiring Rune Master Skill
@@ -52,17 +52,12 @@ What [[sword-world-rpg-complete-edition]] covers about 11 acquiring rune master 
 <a id="atom-technical-atom-ac1da286cef7710e"></a>
 > When you awaken to faith and recognize the existence of the gods, you can acquire the 1st level priest skill.
 
-### Technical frame 2: 9th Level Dragon Roar Magic List [ Summon Lesser Dragon ] / 11.4 Acquiring Rune Master Skills and Increasing Levels
 
-**Context:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-05220))_
+## Related pages
 
-> The method of acquiring and increasing the dark priest skill is almost the same as the priest skill. However, many of the dark gods that dark priests
+### Source structure
 
-**Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-05218))_
-
-<a id="atom-technical-atom-18058312592ec3ca"></a>
-> In rare cases, if a character who had the priest skill believes that their previous teachings are wrong and awakens to the teachings of another god, they may lose any previous priest skill levels they had and acquire 1st level in a new god's priest skill level instead.
-
+- [[sword-world-rpg-complete-edition-section-9th-level-dragon-roar-magic-list-summon-lesser-dragon-11-4-acquiring-rune-master-skills-and-incr-1f76bc3d]] - source section: 9th Level Dragon Roar Magic List [ Summon Lesser Dragon ] / 11.4 Acquiring Rune Master Skills and Increasing Levels
 
 ## Source
 

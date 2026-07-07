@@ -1,25 +1,19 @@
 ---
 page_id: sword-world-rpg-complete-edition-section-5-2-common-runes-f0201151
 page_kind: source
-summary: 5.2 Common Runes: 16 source-backed entries and 1 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+summary: 5.2 Common Runes: 15 source-backed entries and 0 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: section-reference
 sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-07
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-5-2-common-runes-f0201151@b31ed64bec2e4fb25b4bff7660b31884
+projection_coverage: section-sword-world-rpg-complete-edition-section-5-2-common-runes-f0201151@5d87c95fc5dd8b89ca8a243fb5ff60f6
 ---
 
 # 5.2 Common Runes
 
 From [[sword-world-rpg-complete-edition]].
-
-## Related pages
-
-### Source order
-
-- [[sword-world-rpg-complete-edition-section-heat-metal-spell-level-5-f46a3552]] - previous source section: [ Heat Metal ] (Spell Level=5)
 
 ## Statements
 
@@ -33,16 +27,3 @@ From [[sword-world-rpg-complete-edition]].
 - It only appears on the market when a character discovers it, or has already discovered it, through an adventure (which means it is no longer a lost spell). _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-03800))_
 - However, if magic such as Unlock , etc. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-03802))_
 - In such cases, please make sure to make a decision such as The sorcerers' guild would never allow them on the market because they'd bring down the reputation of magic and sorcerers . _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-03806))_
-
-## Technical atoms
-
-### Technical frame 1: 5.2 Common Runes
-
-**Context:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-03805))_
-
-> A spellsong is a song with magical power that was created during the ancient kingdom period. Those with the bard skill can use magic, although weak, by singing these spellsongs.
-
-**Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-03802))_
-
-<a id="atom-technical-atom-58af1e1b5ff4e819"></a>
-> The game master may add other common runes at their discretion.

@@ -1,7 +1,7 @@
 ---
 page_id: sword-world-rpg-complete-edition-section-charm-dryad-plant-spirit-eb0eaa6d
 page_kind: source
-summary: [ Charm ] (Dryad/Plant Spirit): 14 source-backed entries and 0 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+summary: [ Charm ] (Dryad/Plant Spirit): 12 source-backed entries and 0 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: section-reference
 sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-07

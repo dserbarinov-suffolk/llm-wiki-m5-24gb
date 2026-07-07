@@ -7,7 +7,7 @@ sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-07
 domain: sword-world-rpg-complete-edition
 category_path: concepts
-projection_coverage: topic-sword-world-rpg-complete-edition-halfelve-raised-human@9303b1902b70b798fab0995357ce40c3
+projection_coverage: topic-sword-world-rpg-complete-edition-halfelve-raised-human@c3bdfea82d633c4ffb9e986a1befb3ec
 ---
 
 # Halfelve Raised Human
@@ -32,6 +32,10 @@ What [[sword-world-rpg-complete-edition]] covers about halfelve raised human:
 
 
 ## Related pages
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-1-4-3-starting-skills-and-starting-for-humans-and-halfelves-raised-by-humans-8f079db7]] - source section: 1.4.3 Starting Skills and Starting / For Humans and HalfElves Raised by Humans
 
 ### Shared technical atoms
 

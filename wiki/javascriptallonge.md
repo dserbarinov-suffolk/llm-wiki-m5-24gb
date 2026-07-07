@@ -1,14 +1,14 @@
 ---
 page_id: javascriptallonge
 page_kind: source
-summary: Claim-ledger projection (coding): 1916 usable entries, 608 technical atoms, 451 needs-review, 377 linked page(s); write decision write-with-review-work.
+summary: Claim-ledger projection (coding): 1901 usable entries, 608 technical atoms, 466 needs-review, 377 linked page(s); write decision write-with-review-work.
 page_family: source-manifest
 sources: raw/javascriptallonge.pdf
 updated: 2026-07-07
 domain: javascriptallonge
 category_path: sources
 source_id: javascriptallonge.pdf
-projection_coverage: projection-coverage-4b900c3ee827f07a@027a8c89a23d3108
+projection_coverage: projection-coverage-cd52fac517245be3@f3c307b361fef6f1
 ---
 
 # Javascriptallonge
@@ -16,7 +16,7 @@ projection_coverage: projection-coverage-4b900c3ee827f07a@027a8c89a23d3108
 ## Source
 
 - Raw source: `raw/javascriptallonge.pdf`
-- Claim-ledger projection (coding): 1916 usable entries, 608 technical atoms, 451 needs-review, 377 linked page(s); write decision write-with-review-work.
+- Claim-ledger projection (coding): 1901 usable entries, 608 technical atoms, 466 needs-review, 377 linked page(s); write decision write-with-review-work.
 
 ## Page Families
 
@@ -84,15 +84,15 @@ projection_coverage: projection-coverage-4b900c3ee827f07a@027a8c89a23d3108
 
 - [[javascriptallonge-section-a-pull-of-the-lever-prefaces-32c5b90d]] - top-level-section: A Pull of the Lever: Prefaces: 9 source-backed entries and 0 atom(s) from raw/javascriptallonge.pdf.
 - [[javascriptallonge-section-prelude-values-and-expressions-over-coffee-9ed49287]] - top-level-section: Prelude: Values and Expressions over Coffee: 0 source-backed entries and 0 atom(s) from raw/javascriptallonge.pdf.
-- [[javascriptallonge-section-a-rich-aroma-basic-numbers-7443c717]] - top-level-section: A Rich Aroma: Basic Numbers: 13 source-backed entries and 0 atom(s) from raw/javascriptallonge.pdf.
+- [[javascriptallonge-section-a-rich-aroma-basic-numbers-7443c717]] - top-level-section: A Rich Aroma: Basic Numbers: 12 source-backed entries and 0 atom(s) from raw/javascriptallonge.pdf.
 - [[javascriptallonge-section-the-first-sip-basic-functions-8249ef21]] - top-level-section: The first sip: Basic Functions: 0 source-backed entries and 0 atom(s) from raw/javascriptallonge.pdf.
-- [[javascriptallonge-section-if-functions-without-free-variables-are-pure-are-closures-impure-a8b1b370]] - top-level-section: if functions without free variables are pure, are closures impure?: 26 source-backed entries and 1 atom(s) from raw/javascriptallonge.pdf.
+- [[javascriptallonge-section-if-functions-without-free-variables-are-pure-are-closures-impure-a8b1b370]] - top-level-section: if functions without free variables are pure, are closures impure?: 25 source-backed entries and 0 atom(s) from raw/javascriptallonge.pdf.
 - [[javascriptallonge-section-it-s-always-the-environment-ff95f958]] - top-level-section: it's always the environment: 20 source-backed entries and 1 atom(s) from raw/javascriptallonge.pdf.
 - [[javascriptallonge-section-shadowy-variables-from-a-shadowy-planet-ad7f51cc]] - top-level-section: shadowy variables from a shadowy planet: 11 source-backed entries and 0 atom(s) from raw/javascriptallonge.pdf.
-- [[javascriptallonge-section-which-came-first-the-chicken-or-the-egg-8e6e66d0]] - top-level-section: which came first, the chicken or the egg?: 5 source-backed entries and 0 atom(s) from raw/javascriptallonge.pdf.
+- [[javascriptallonge-section-which-came-first-the-chicken-or-the-egg-8e6e66d0]] - top-level-section: which came first, the chicken or the egg?: 4 source-backed entries and 0 atom(s) from raw/javascriptallonge.pdf.
 - [[javascriptallonge-section-that-constant-coffee-craving-614e2fd3]] - top-level-section: That Constant Coffee Craving: 13 source-backed entries and 0 atom(s) from raw/javascriptallonge.pdf.
 - [[javascriptallonge-section-naming-functions-c49aef83]] - top-level-section: Naming Functions: 2 source-backed entries and 0 atom(s) from raw/javascriptallonge.pdf.
-- [[javascriptallonge-section-combinators-and-function-decorators-901f172c]] - top-level-section: Combinators and Function Decorators: 2 source-backed entries and 1 atom(s) from raw/javascriptallonge.pdf.
+- [[javascriptallonge-section-combinators-and-function-decorators-901f172c]] - top-level-section: Combinators and Function Decorators: 2 source-backed entries and 0 atom(s) from raw/javascriptallonge.pdf.
 - [[javascriptallonge-section-building-blocks-fdb3fcfb]] - top-level-section: Building Blocks: 5 source-backed entries and 0 atom(s) from raw/javascriptallonge.pdf.
 - [[javascriptallonge-section-magic-names-0c5d7af9]] - top-level-section: Magic Names: 2 source-backed entries and 0 atom(s) from raw/javascriptallonge.pdf.
 - [[javascriptallonge-section-recipes-with-basic-functions-d7445960]] - top-level-section: Recipes with Basic Functions: 26 source-backed entries and 4 atom(s) from raw/javascriptallonge.pdf.
@@ -121,7 +121,7 @@ projection_coverage: projection-coverage-4b900c3ee827f07a@027a8c89a23d3108
 - [[javascriptallonge-section-operations-that-compose-two-or-more-iterables-into-an-iterable-73854237]] - top-level-section: operations that compose two or more iterables into an iterable: 2 source-backed entries and 0 atom(s) from raw/javascriptallonge.pdf.
 - [[javascriptallonge-section-operations-that-transform-an-iterable-into-a-value-f61dad02]] - top-level-section: operations that transform an iterable into a value: 1 source-backed entries and 0 atom(s) from raw/javascriptallonge.pdf.
 - [[javascriptallonge-section-memoizing-an-iterable-3573f62e]] - top-level-section: memoizing an iterable: 1 source-backed entries and 0 atom(s) from raw/javascriptallonge.pdf.
-- [[javascriptallonge-section-the-golden-crema-appendices-and-afterwords-baeb2597]] - top-level-section: The Golden Crema: Appendices and Afterwords: 3 source-backed entries and 1 atom(s) from raw/javascriptallonge.pdf.
+- [[javascriptallonge-section-the-golden-crema-appendices-and-afterwords-baeb2597]] - top-level-section: The Golden Crema: Appendices and Afterwords: 3 source-backed entries and 0 atom(s) from raw/javascriptallonge.pdf.
 
 ## Source review
 
@@ -167,8 +167,10 @@ Imagine we are visiting our favourite coffee shop. They will make for you just a
 - In JavaScript, we test whether two values are identical with the === operator, and whether they are not identical with the !== operator: — _unextracted: segment carries subject matter but no structured claim was recovered_ _(javascriptallonge.pdf (source-range-c98ab3e6-00113))_
 - And then you're shown another cup of coffee. — _fragmentary: no subject/predicate region recovered_ _(javascriptallonge.pdf (source-range-c98ab3e6-00115))_
 - Well, JavaScript's third and fourth possibilities cover that. — _fragmentary: no subject/predicate region recovered_ _(javascriptallonge.pdf (source-range-c98ab3e6-00120))_
+- So even if you have two cups of the same type, and their contents are the same, you can still distinguish between them. — _source-unit-ownership: source unit ownership is ambiguous for authoritative atom projection: boundary-adjacent-prose_ _(javascriptallonge.pdf (source-range-c98ab3e6-00125))_
 - So what kinds of values might be the same type and have the same contents, but not be considered identical to JavaScript? Let's meet a data structure that is very common in contemporary programming languages, the Array (other languages sometimes call it a List or a Vector). — _unextracted: segment carries subject matter but no structured claim was recovered_ _(javascriptallonge.pdf (source-range-c98ab3e6-00128))_
 - An array looks like this: [1, 2, 3] . — _fragmentary: no subject/predicate region recovered_ _(javascriptallonge.pdf (source-range-c98ab3e6-00129))_
+- The machine's representation of a number almost never lines up perfectly with our understanding of how a number behaves, and thus there will be places where the computer's behaviour surprises us if we don't know a little about what it's doing 'under the hood.' — _source-unit-ownership: source unit ownership is ambiguous for authoritative atom projection: boundary-adjacent-prose_ _(javascriptallonge.pdf (source-range-c98ab3e6-00140))_
 - Most programmers never encounter the limit on the magnitude of an integer. — _fragmentary: no subject/predicate region recovered_ _(javascriptallonge.pdf (source-range-c98ab3e6-00143))_
 - 1.0
 //=> 1
@@ -184,15 +186,20 @@ Imagine we are visiting our favourite coffee shop. They will make for you just a
 //=> 0.2
 0.1 + 0.1 + 0.1
 //=> 0.30000000000000004 — _technical-atom-trust: code-block-contaminated-by-prose_ _(javascriptallonge.pdf (source-range-c98ab3e6-00149))_
+- This kind of 'inexactitude' can be ignored when performing calculations that have an acceptable deviation. For example, when centering some text on a page, as long as the difference between what you might calculate longhand and JavaScript's calculation is less than a pixel, there is no observable er — _source-unit-ownership: source unit ownership is ambiguous for authoritative atom projection: boundary-adjacent-prose_ _(javascriptallonge.pdf (source-range-c98ab3e6-00150))_
+- Professional programmers almost never use floating point numbers to represent monetary amounts. — _source-unit-ownership: source unit ownership is ambiguous for authoritative atom projection: boundary-adjacent-prose_ _(javascriptallonge.pdf (source-range-c98ab3e6-00151))_
 - In a sense, they behave like little functions. — _fragmentary: no subject/predicate region recovered_ _(javascriptallonge.pdf (source-range-c98ab3e6-00156))_
 - There are lots and lots more operators that can be used with numbers, including bitwise operators like | and & that allow you to operate directly on a number's binary representation, and a number of other operators that perform assignment or logical comparison that we will look at later. — _unextracted: segment carries subject matter but no structured claim was recovered_ _(javascriptallonge.pdf (source-range-c98ab3e6-00159))_
+- If you try the same thing in a browser, you may see something else. — _source-unit-ownership: source unit ownership is ambiguous for authoritative atom projection: boundary-adjacent-prose_ _(javascriptallonge.pdf (source-range-c98ab3e6-00166))_
 - 16 The simplest possible function is () => {} , we'll see that later. — _unextracted: segment carries subject matter but no structured claim was recovered_ _(javascriptallonge.pdf (source-range-c98ab3e6-00167))_
 - Which kind are functions? Let's try them out and see. For reasons of appeasing the JavaScript parser, we'll enclose our functions in parentheses: — _unextracted: segment carries subject matter but no structured claim was recovered_ _(javascriptallonge.pdf (source-range-c98ab3e6-00171))_
 - Here's how we apply a function to some values in JavaScript: Let's say that fn_expr is an expression that when evaluated, produces a function. Let's call the arguments args . Here's how to apply a function to some arguments: — _unextracted: segment carries subject matter but no structured claim was recovered_ _(javascriptallonge.pdf (source-range-c98ab3e6-00176))_
 - Since we aren't giving it any arguments, we'll simply write () after the expression. — _fragmentary: no subject/predicate region recovered_ _(javascriptallonge.pdf (source-range-c98ab3e6-00178))_
 - If not… Welcome to the ALGOL family of programming languages! — _fragmentary: no subject/predicate region recovered_ _(javascriptallonge.pdf (source-range-c98ab3e6-00180))_
+- When dealing with expressions that have a lot of the same characters (like parentheses), you may find it helpful to format the code to make things stand out. — _source-unit-ownership: source unit ownership is ambiguous for authoritative atom projection: boundary-adjacent-prose_ _(javascriptallonge.pdf (source-range-c98ab3e6-00191))_
 - It evaluates to the same thing, 0 . — _fragmentary: no subject/predicate region recovered_ _(javascriptallonge.pdf (source-range-c98ab3e6-00193))_
 - It takes two arguments, evaluates them both, and itself evaluates to the value of the right-hand argument. — _fragmentary: no subject/predicate region recovered_ _(javascriptallonge.pdf (source-range-c98ab3e6-00195))_
+- This is useful when trying to do things that might involve side-effects , but we'll get to that later. — _source-unit-ownership: source unit ownership is ambiguous for authoritative atom projection: boundary-adjacent-prose_ _(javascriptallonge.pdf (source-range-c98ab3e6-00199))_
 - So, this is a valid function: — _unextracted: segment carries subject matter but no structured claim was recovered_ _(javascriptallonge.pdf (source-range-c98ab3e6-00205))_
 - By evaluating a function that doesn't return a value (() => {})() , and; — _unextracted: segment carries subject matter but no structured claim was recovered_ _(javascriptallonge.pdf (source-range-c98ab3e6-00221))_
 - There's a third way, with JavaScript's void operator. — _fragmentary: no subject/predicate region recovered_ _(javascriptallonge.pdf (source-range-c98ab3e6-00223))_
@@ -206,6 +213,7 @@ We said that the function returns the result of evaluating a block, and we said 
 (possibly empty) list of JavaScript statements separated by semicolons.21
 Something like: { statement1; statement2; statement3; ... ; statementn }
 We haven’t discussed these statements. W — _technical-atom-trust: table-parse-incomplete, table-raw-text-contaminated-by-prose, table-cells-contaminated-by-prose_ _(javascriptallonge.pdf (source-range-c98ab3e6-00238))_
+- The return statement is the first statement we've seen, and it behaves differently than an expression. For example, you can't use one as the expression in a simple function, because it isn't an expression: — _source-unit-ownership: source unit ownership is ambiguous for authoritative atom projection: boundary-adjacent-prose_ _(javascriptallonge.pdf (source-range-c98ab3e6-00241))_
 - Statements belong inside blocks and only inside blocks. — _fragmentary: no subject/predicate region recovered_ _(javascriptallonge.pdf (source-range-c98ab3e6-00243))_
 - Some languages simplify this by making everything an expression, but JavaScript maintains this distinction, so when learning JavaScript we also learn about statements like function declarations, for loops, if statements, and so forth. — _fragmentary: no subject/predicate region recovered_ _(javascriptallonge.pdf (source-range-c98ab3e6-00243))_
 - We'll see a few more of these later. — _fragmentary: no subject/predicate region recovered_ _(javascriptallonge.pdf (source-range-c98ab3e6-00243))_
@@ -227,12 +235,14 @@ We haven’t discussed these statements. W — _technical-atom-trust: table-pars
 - The environment belonging to the function with signature (x) => ... — _fragmentary: no subject/predicate region recovered_ _(javascriptallonge.pdf (source-range-c98ab3e6-00320))_
 - Now let's enjoy a relaxed Allongé before we continue! — _unextracted: segment carries subject matter but no structured claim was recovered_ _(javascriptallonge.pdf (source-range-c98ab3e6-00327))_
 - has a free variable, but the entire expression refers to (x) => ... — _fragmentary: no subject/predicate region recovered_ _(javascriptallonge.pdf (source-range-c98ab3e6-00334))_
+- If pure functions can contain closures, can a closure contain a pure function? — _source-unit-ownership: source unit ownership is ambiguous for authoritative atom projection: boundary-adjacent-prose_ _(javascriptallonge.pdf (source-range-c98ab3e6-00336))_
 - And now you can guess how we evaluate ((y) => x)(2) in the environment {y: 2, '..': {x: 1, ...}} . The variable x isn't in (y) => ... 's immediate environment, but it is in its parent's environment, so it evaluates to 1 and that's what ((y) => x)(2) returns even though it ended up ignoring its own a — _unextracted: segment carries subject matter but no structured claim was recovered_ _(javascriptallonge.pdf (source-range-c98ab3e6-00342))_
 - Only you call it with (1)(2)(3) instead of (1, 2, 3) . — _fragmentary: no subject/predicate region recovered_ _(javascriptallonge.pdf (source-range-c98ab3e6-00350))_
 - JavaScript always searches for a binding starting with the functions own environment and then each parent in turn until it finds one. — _fragmentary: no subject/predicate region recovered_ _(javascriptallonge.pdf (source-range-c98ab3e6-00358))_
 - But before we do so, there's one final question: Where does the ancestry start? If there's no other code in a file, what is (x) => x 's parent environment? — _unextracted: segment carries subject matter but no structured claim was recovered_ _(javascriptallonge.pdf (source-range-c98ab3e6-00364))_
 - Sometimes, programmers wish to avoid this. — _fragmentary: no subject/predicate region recovered_ _(javascriptallonge.pdf (source-range-c98ab3e6-00366))_
 - Create an environment for them, of course. — _fragmentary: no subject/predicate region recovered_ _(javascriptallonge.pdf (source-range-c98ab3e6-00366))_
+- If you don't want your code to operate directly within the global environment, what can you do? — _source-unit-ownership: source unit ownership is ambiguous for authoritative atom projection: boundary-adjacent-prose_ _(javascriptallonge.pdf (source-range-c98ab3e6-00366))_
 - The effect is to insert a new, empty environment in between the global environment and your own functions: {x: 1, '..': {'..': global environment }} . As we'll see when we discuss mutable state, this helps to prevent programmers from accidentally changing the global state that is shared by all code  — _unextracted: segment carries subject matter but no structured claim was recovered_ _(javascriptallonge.pdf (source-range-c98ab3e6-00368))_
 - (diameter) => diameter * 3.14159265 What is this '3.14159265' number? PI 28 , obviously. We'd like to name it so that we can write something like: (diameter) => diameter * PI — _unextracted: segment carries subject matter but no structured claim was recovered_ _(javascriptallonge.pdf (source-range-c98ab3e6-00372))_
 - What do we put inside our new function that binds 3.14159265 to the name PI when evaluated? Our circumference function, of course: — _unextracted: segment carries subject matter but no structured claim was recovered_ _(javascriptallonge.pdf (source-range-c98ab3e6-00375))_
@@ -287,6 +297,7 @@ const PI = 3;
 return diameter * PI; — _technical-atom-trust: code-block-contaminated-by-prose_ _(javascriptallonge.pdf (source-range-c98ab3e6-00467))_
 - Ah! const statements don't just shadow values bound within the environments created by functions, they shadow values bound within environments created by blocks! — _unextracted: segment carries subject matter but no structured claim was recovered_ _(javascriptallonge.pdf (source-range-c98ab3e6-00469))_
 - This is enormously important. Consider the alternative: What if const could be declared inside of a block, but it always bound the name in the function's scope. In that case, we'd see things like this: — _unextracted: segment carries subject matter but no structured claim was recovered_ _(javascriptallonge.pdf (source-range-c98ab3e6-00470))_
+- If const always bound its value to the name defined in the function's environment, placing a const statement inside of a block would merely rebind the existing name, overwriting its old contents. — _source-unit-ownership: source unit ownership is ambiguous for authoritative atom projection: boundary-adjacent-prose_ _(javascriptallonge.pdf (source-range-c98ab3e6-00472))_
 - Being able to bind a name inside of a block means that if the name is only needed in the block, we are not 'leaking' its binding to other parts of the code that do not need to interact with it. — _fragmentary: no subject/predicate region recovered_ _(javascriptallonge.pdf (source-range-c98ab3e6-00474))_
 - By default, JavaScript permits us to rebind new values to names bound with a parameter. — _fragmentary: no subject/predicate region recovered_ _(javascriptallonge.pdf (source-range-c98ab3e6-00476))_
 - The line n = n -2; rebinds a new value to the name n . — _fragmentary: no subject/predicate region recovered_ _(javascriptallonge.pdf (source-range-c98ab3e6-00479))_
@@ -335,6 +346,7 @@ const doubleOfAddOne = compose(doubleO — _technical-atom-trust: code-block-con
 - You'll find lots more perusing the recipes in this book. — _fragmentary: no subject/predicate region recovered_ _(javascriptallonge.pdf (source-range-c98ab3e6-00551))_
 - You'll see other function decorators in the recipes, like once and maybe. — _fragmentary: no subject/predicate region recovered_ _(javascriptallonge.pdf (source-range-c98ab3e6-00563))_
 - When you look at functions within functions in JavaScript, there's a bit of a 'spaghetti code' look to it. — _fragmentary: no subject/predicate region recovered_ _(javascriptallonge.pdf (source-range-c98ab3e6-00565))_
+- Of course, you needn't use combinators to implement either of these ideas, you can use if statements. — _source-unit-ownership: source unit ownership is ambiguous for authoritative atom projection: boundary-adjacent-prose_ _(javascriptallonge.pdf (source-range-c98ab3e6-00573))_
 - We don't want to fool around writing _. — _fragmentary: no subject/predicate region recovered_ _(javascriptallonge.pdf (source-range-c98ab3e6-00579))_
 - We'll discuss mapWith again. — _fragmentary: no subject/predicate region recovered_ _(javascriptallonge.pdf (source-range-c98ab3e6-00584))_
 - 39 http://underscorejs.org
@@ -641,6 +653,7 @@ Once upon a time, there was a programming language called Lisp 65 , an acronym f
 - Getting back to JavaScript now, when we write [first, ...rest] to gather or spread arrays, we're emulating the semantics of car and cdr , but not the implementation. — _fragmentary: no subject/predicate region recovered_ _(javascriptallonge.pdf (source-range-c98ab3e6-01028))_
 - If [first, ...rest] is so slow, why does JavaScript use arrays instead of making everything a linked list? — _unextracted: segment carries subject matter but no structured claim was recovered_ _(javascriptallonge.pdf (source-range-c98ab3e6-01033))_
 - In addition to the extra fetches to dereference pointers, pointer chasing suffers from cache misses. — _fragmentary: no subject/predicate region recovered_ _(javascriptallonge.pdf (source-range-c98ab3e6-01034))_
+- We have avoided discussing rebinding and mutating values, but if we want to change elements of our lists, the naïve linked list implementation suffers as well: When we take the cdr of a linked list, we are sharing the elements. — _source-unit-ownership: source unit ownership is ambiguous for authoritative atom projection: boundary-adjacent-prose_ _(javascriptallonge.pdf (source-range-c98ab3e6-01035))_
 - const remember = ["the milk", "the coffee beans", "the biscotti"];
 And they can be used to store heterogeneous things in various levels of structure: — _technical-atom-trust: code-block-contaminated-by-prose_ _(javascriptallonge.pdf (source-range-c98ab3e6-01042))_
 - All containers can contain any value, including functions or other containers, like a fat arrow function: — _unextracted: segment carries subject matter but no structured claim was recovered_ _(javascriptallonge.pdf (source-range-c98ab3e6-01064))_
@@ -711,6 +724,7 @@ const ThreeToFive = OneToF — _technical-atom-trust: code-block-contaminated-by
 - of a list: We aren't making a new list, we're using some of the old list. — _fragmentary: no subject/predicate region recovered_ _(javascriptallonge.pdf (source-range-c98ab3e6-01123))_
 - So back to avoiding mutation. — _fragmentary: no subject/predicate region recovered_ _(javascriptallonge.pdf (source-range-c98ab3e6-01127))_
 - In general, it's easier to reason about data that doesn't change. — _fragmentary: no subject/predicate region recovered_ _(javascriptallonge.pdf (source-range-c98ab3e6-01127))_
+- We don't have to remember to use copying operations when we pass it as a value to a function, or extract some data from it. — _source-unit-ownership: source unit ownership is ambiguous for authoritative atom projection: boundary-adjacent-prose_ _(javascriptallonge.pdf (source-range-c98ab3e6-01127))_
 - Consider our copy algorithm. — _fragmentary: no subject/predicate region recovered_ _(javascriptallonge.pdf (source-range-c98ab3e6-01129))_
 - By default, JavaScript permits us to rebind new values to names bound with a parameter. — _fragmentary: no subject/predicate region recovered_ _(javascriptallonge.pdf (source-range-c98ab3e6-01139))_
 - The line n = n -2; rebinds a new value to the name n . — _fragmentary: no subject/predicate region recovered_ _(javascriptallonge.pdf (source-range-c98ab3e6-01141))_
@@ -954,6 +968,7 @@ Served by the Pot: Collections
 ...
 The thing to note here is that our fibonacci generator has three states: generating 0, generating
 1, and generating everything after that. This isn’t a goo — _technical-atom-trust: table-parse-incomplete, table-raw-text-contaminated-by-prose, table-cells-contaminated-by-prose_ _(javascriptallonge.pdf (source-range-c98ab3e6-01622))_
+- Whereas the iteration version must make that state explicit. — _source-unit-ownership: source unit ownership is ambiguous for authoritative atom projection: boundary-adjacent-prose_ _(javascriptallonge.pdf (source-range-c98ab3e6-01629))_
 - Not a fat arrow. — _fragmentary: no subject/predicate region recovered_ _(javascriptallonge.pdf (source-range-c98ab3e6-01633))_
 - We don't return values or output them to console.log . — _fragmentary: no subject/predicate region recovered_ _(javascriptallonge.pdf (source-range-c98ab3e6-01634))_
 - We 'yield' values using the yield keyword. — _fragmentary: no subject/predicate region recovered_ _(javascriptallonge.pdf (source-range-c98ab3e6-01634))_

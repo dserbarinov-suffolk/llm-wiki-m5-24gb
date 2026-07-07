@@ -1,7 +1,7 @@
 ---
 page_id: sword-world-rpg-complete-edition-section-jihad-spell-level-10-13d361be
 page_kind: source
-summary: [ Jihad ] (Spell Level=10): 11 source-backed entries and 0 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+summary: [ Jihad ] (Spell Level=10): 10 source-backed entries and 0 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: section-reference
 sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-07

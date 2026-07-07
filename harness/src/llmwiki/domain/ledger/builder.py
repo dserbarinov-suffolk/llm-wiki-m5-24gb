@@ -36,6 +36,7 @@ from llmwiki.domain.ledger.schemas import (
     default_calibration_policy,
 )
 from llmwiki.domain.ledger.segments import SegmentClaim, SourceSegment
+from llmwiki.domain.ledger.source_unit_ownership import build_source_unit_ownership_plan
 from llmwiki.domain.ledger.structure import (
     DocumentStructure,
     ExtractedUnitDispositionRecord,
@@ -89,6 +90,7 @@ def build_claim_ledger(
     validator = AtomValidator(schema.atom_schema_set)
     plan = build_structure(source_hash, source_locator, tuple(s.segment for s in segments))
     skeleton = DocumentStructure(plan.root_node_id, plan.nodes, structure_relations=plan.relations)
+    ownership_plan = build_source_unit_ownership_plan(tuple(s.segment for s in segments), plan)
 
     entries: list[LedgerEntry] = []
     atoms: list[TechnicalAtom] = []
@@ -99,7 +101,14 @@ def build_claim_ledger(
 
     for item in segments:
         seg = item.segment
-        node_ids = skeleton.ancestry(plan.node_for_segment[seg.segment_id])
+        owner_node_id = ownership_plan.owner_for(
+            seg.segment_id, plan.node_for_segment[seg.segment_id]
+        )
+        node_ids = skeleton.ancestry(owner_node_id)
+        ownership_review = None
+        ownership_decision = ownership_plan.decision_for(seg.segment_id)
+        if ownership_decision is not None:
+            ownership_review = ownership_decision.review_reason(seg.evidence_ids)
         statement_id = deterministic_id("source-statement", source_hash, seg.source_range_id)
         if seg.segment_kind == "blank":
             dispositions.append(_disposition(seg, "non-claim"))
@@ -125,6 +134,7 @@ def build_claim_ledger(
             schema.confidence_policy,
             atoms,
             rejected,
+            ownership_review,
         )
         entries.extend(produced)
         if produced:
@@ -144,6 +154,7 @@ def build_claim_ledger(
         segments=tuple(item.segment for item in segments),
         entries=ordered_entries,
         atoms=tuple(atoms),
+        ownership_plan=ownership_plan,
     )
     source_profile = build_source_profile(
         source_locator=source_locator,

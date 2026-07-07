@@ -1,7 +1,7 @@
 ---
 page_id: javascriptallonge-section-the-first-sip-basic-functions-as-little-as-possible-about-functions-but-no-less-a62974a6
 page_kind: source
-summary: The first sip: Basic Functions / As Little As Possible About Functions, But No Less: 11 source-backed entries and 1 atom(s) from raw/javascriptallonge.pdf.
+summary: The first sip: Basic Functions / As Little As Possible About Functions, But No Less: 10 source-backed entries and 1 atom(s) from raw/javascriptallonge.pdf.
 page_family: section-reference
 sources: raw/javascriptallonge.pdf
 updated: 2026-07-07

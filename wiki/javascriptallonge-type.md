@@ -1,13 +1,13 @@
 ---
 page_id: javascriptallonge-type
 page_kind: concept
-summary: Type: 9 statement(s) and 4 atom(s) from raw/javascriptallonge.pdf.
+summary: Type: 9 statement(s) and 3 atom(s) from raw/javascriptallonge.pdf.
 page_family: broad-topic
 sources: raw/javascriptallonge.pdf
 updated: 2026-07-07
 domain: javascriptallonge
 category_path: concepts
-projection_coverage: topic-javascriptallonge-type@e99b3c95dcbf1364605212fb9b29144a
+projection_coverage: topic-javascriptallonge-type@13aac2ab21e7eaa85fd4fa8dbde01e7d
 ---
 
 # Type
@@ -48,6 +48,11 @@ What [[javascriptallonge]] covers about type:
 
 
 ## Related pages
+
+### Source structure
+
+- [[javascriptallonge-section-prelude-values-and-expressions-over-coffee-reference-types-11fd4275]] - source section: Prelude: Values and Expressions over Coffee / reference types
+- [[javascriptallonge-section-prelude-values-and-expressions-over-coffee-value-types-cb5b0b74]] - source section: Prelude: Values and Expressions over Coffee / value types
 
 ### Shared technical atoms
 

@@ -1,14 +1,14 @@
 ---
 page_id: sword-world-rpg-complete-edition-section-5-1-14-spirit-magic-list-3fc75508
 page_kind: source
-summary: 5.1.14 Spirit Magic List: 15 source-backed entries and 2 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+summary: 5.1.14 Spirit Magic List: 14 source-backed entries and 2 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: section-reference
 sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-07
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-5-1-14-spirit-magic-list-3fc75508@b5bb56001ebf5a4d400083c15b993f58
+projection_coverage: section-sword-world-rpg-complete-edition-section-5-1-14-spirit-magic-list-3fc75508@29b59a1daa60df785154609aabb8db6c
 ---
 
 # 5.1.14 Spirit Magic List
@@ -33,7 +33,7 @@ From [[sword-world-rpg-complete-edition]].
 
 ### Technical frame 1: 5.1.14 Spirit Magic List
 
-**Atoms:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-02708, source-range-e5870dca-02709, source-range-e5870dca-02710, source-range-e5870dca-02711, source-range-e5870dca-02712, source-range-e5870dca-02714, source-range-e5870dca-02716))_
+**Atoms:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-02708, source-range-e5870dca-02709, source-range-e5870dca-02710, source-range-e5870dca-02711, source-range-e5870dca-02712, source-range-e5870dca-02714))_
 
 <a id="atom-technical-atom-88f84c5c5df5aa00"></a>
 > Base Mental Power Cost=3
@@ -52,6 +52,3 @@ From [[sword-world-rpg-complete-edition]].
 
 <a id="atom-technical-atom-23e9f9e2839bae54"></a>
 > Type=Detection
-
-<a id="atom-technical-atom-94cda966bae1feb9"></a>
-> Resist=None

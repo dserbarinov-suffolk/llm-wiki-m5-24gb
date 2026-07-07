@@ -8,7 +8,7 @@ updated: 2026-07-07
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-bard-skill-adfb53cc@69d5a11877eb0d0d70d5f2efba691567
+projection_coverage: section-sword-world-rpg-complete-edition-section-bard-skill-adfb53cc@265d760021d82a44fbb3f089adff37ad
 ---
 
 # Bard Skill
@@ -19,7 +19,6 @@ From [[sword-world-rpg-complete-edition]].
 
 ### Source order
 
-- [[sword-world-rpg-complete-edition-section-treasure-appraisal-intelligence-not-retriable-e115ff15]] - previous source section: [ ⑥ Treasure Appraisal [Intelligence] ] (Not retriable)
 - [[sword-world-rpg-complete-edition-section-common-adventurer-abilities-c4de9b68]] - next source section: Common Adventurer Abilities
 
 ### Source structure

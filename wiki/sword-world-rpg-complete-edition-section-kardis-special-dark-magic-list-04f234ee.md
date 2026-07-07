@@ -1,7 +1,7 @@
 ---
 page_id: sword-world-rpg-complete-edition-section-kardis-special-dark-magic-list-04f234ee
 page_kind: source
-summary: Kardis Special Dark Magic List: 10 source-backed entries and 0 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+summary: Kardis Special Dark Magic List: 9 source-backed entries and 0 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: section-reference
 sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-07

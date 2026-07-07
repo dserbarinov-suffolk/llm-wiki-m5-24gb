@@ -1,7 +1,7 @@
 ---
 page_id: sword-world-rpg-complete-edition-section-basic-rules-of-magic-1st-level-ancient-magic-list-unlock-5-1-12-ancient-magic-list-5f037903
 page_kind: source
-summary: Basic Rules of Magic / 1st Level Ancient Magic List [ Unlock ] / 5.1.12 Ancient Magic List: 121 source-backed entries and 0 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+summary: Basic Rules of Magic / 1st Level Ancient Magic List [ Unlock ] / 5.1.12 Ancient Magic List: 119 source-backed entries and 0 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: section-reference
 sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-07

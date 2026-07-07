@@ -1,7 +1,7 @@
 ---
 page_id: sword-world-rpg-complete-edition-section-the-nameless-god-of-madness-special-dark-magic-list-lunatic-seed-spell-level-4-e263a6e2
 page_kind: source
-summary: The Nameless God of Madness Special Dark Magic List / [ Lunatic Seed ] (Spell Level=4): 15 source-backed entries and 0 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+summary: The Nameless God of Madness Special Dark Magic List / [ Lunatic Seed ] (Spell Level=4): 13 source-backed entries and 0 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: section-reference
 sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-07

@@ -1,13 +1,13 @@
 ---
 page_id: javascriptallonge-javascript
 page_kind: concept
-summary: Javascript: 75 statement(s) and 62 atom(s) from raw/javascriptallonge.pdf.
+summary: Javascript: 75 statement(s) and 60 atom(s) from raw/javascriptallonge.pdf.
 page_family: broad-topic
 sources: raw/javascriptallonge.pdf
 updated: 2026-07-07
 domain: javascriptallonge
 category_path: concepts
-projection_coverage: topic-javascriptallonge-javascript@d99a2e20789be3a89727387920cbd267
+projection_coverage: topic-javascriptallonge-javascript@a3bf7114f1faabec55ccd033b0160b6d
 ---
 
 # Javascript
@@ -284,17 +284,6 @@ x + y + z
 
 > JavaScript always has the notion of at least one environment we do not control: A global environment in which many useful things are bound such as libraries full of standard functions. So when you invoke ((x) => x)(1) in the REPL, its full environment is going to look like this: {x: 1, '..': global environment } .
 
-**Atom:** _(javascriptallonge.pdf (source-range-c98ab3e6-00366))_
-
-<a id="atom-technical-atom-6cb62b7189b018dc"></a>
-> If you don't want your code to operate directly within the global environment, what can you do?
-
-### Technical frame 11: which came first, the chicken or the egg?
-
-**Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-00365))_
-
-> JavaScript always has the notion of at least one environment we do not control: A global environment in which many useful things are bound such as libraries full of standard functions. So when you invoke ((x) => x)(1) in the REPL, its full environment is going to look like this: {x: 1, '..': global environment } .
-
 **Atom:** _(javascriptallonge.pdf (source-range-c98ab3e6-00367))_
 
 <a id="atom-technical-atom-8cdbcf80542c25d7"></a>
@@ -306,7 +295,7 @@ x + y + z
 // bottom of the file
 ```
 
-### Technical frame 12: That Constant Coffee Craving / rebinding
+### Technical frame 11: That Constant Coffee Craving / rebinding
 
 **Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-00481))_
 
@@ -334,6 +323,17 @@ evenStevens(42)
 
 
 ## Related pages
+
+### Source structure
+
+- [[javascriptallonge-section-a-pull-of-the-lever-prefaces-about-javascript-allong-ff4917bb]] - source section: A Pull of the Lever: Prefaces / About JavaScript Allongé
+- [[javascriptallonge-section-a-pull-of-the-lever-prefaces-about-javascript-allong-why-the-six-edition-64775184]] - source section: A Pull of the Lever: Prefaces / About JavaScript Allongé / why the 'six' edition?
+- [[javascriptallonge-section-a-pull-of-the-lever-prefaces-what-javascript-allong-is-and-isn-t-5b3666b7]] - source section: A Pull of the Lever: Prefaces / What JavaScript Allongé is. And isn't.
+- [[javascriptallonge-section-javascript-allong-the-six-edition-reg-raganwald-braithwaite-1d8630de]] - source section: JavaScript Allongé, the 'Six' Edition / Reg 'raganwald' Braithwaite
+- [[javascriptallonge-section-plain-old-javascript-objects-ae9a88a3]] - source section: Plain Old JavaScript Objects
+- [[javascriptallonge-section-plain-old-javascript-objects-destructuring-objects-6546a490]] - source section: Plain Old JavaScript Objects / destructuring objects
+- [[javascriptallonge-section-plain-old-javascript-objects-literal-object-syntax-41ad73a1]] - source section: Plain Old JavaScript Objects / literal object syntax
+- [[javascriptallonge-section-plain-old-javascript-objects-revisiting-linked-lists-4e16a53d]] - source section: Plain Old JavaScript Objects / revisiting linked lists
 
 ### Shared technical atoms
 

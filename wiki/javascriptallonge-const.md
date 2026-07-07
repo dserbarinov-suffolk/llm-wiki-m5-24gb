@@ -7,7 +7,7 @@ sources: raw/javascriptallonge.pdf
 updated: 2026-07-07
 domain: javascriptallonge
 category_path: concepts
-projection_coverage: topic-javascriptallonge-const@cbb05c4635ffb029acd2a0b3985e19b7
+projection_coverage: topic-javascriptallonge-const@1d721a22c2203a1291d984e7defa0979
 ---
 
 # Const
@@ -105,6 +105,11 @@ return age;
 ### Source structure
 
 - [[javascriptallonge-section-that-constant-coffee-craving-const-37801120]] - source section: That Constant Coffee Craving / const shares source evidence from That Constant Coffee Craving / const: Another way to write our 'circumference' function would be to pass PI along with the diameter argument, something like this:; That Constant Coffee Craving / const shares technical record from That Constant Coffee Craving / const: (diameter, PI) => diameter * PI (11 shared statement(s), 10 shared atom(s))
+- [[javascriptallonge-section-reassignment-mixing-let-and-const-0dde966f]] - source section: Reassignment / mixing let and const
+- [[javascriptallonge-section-reassignment-mixing-let-and-const-var-65ff1805]] - source section: Reassignment / mixing let and const / var
+- [[javascriptallonge-section-reassignment-why-const-and-let-were-invented-cf53c7fd]] - source section: Reassignment / why const and let were invented
+- [[javascriptallonge-section-that-constant-coffee-craving-are-consts-also-from-a-shadowy-planet-12b08c07]] - source section: That Constant Coffee Craving / are consts also from a shadowy planet?
+- [[javascriptallonge-section-that-constant-coffee-craving-const-and-lexical-scope-bbfe0b3d]] - source section: That Constant Coffee Craving / const and lexical scope
 
 ### Shared technical atoms
 

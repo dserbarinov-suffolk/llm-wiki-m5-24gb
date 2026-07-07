@@ -1,7 +1,7 @@
 ---
 page_id: sword-world-rpg-complete-edition-section-area-aim-101ea3e8
 page_kind: source
-summary: Area Aim: 25 source-backed entries and 0 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+summary: Area Aim: 24 source-backed entries and 0 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: section-reference
 sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-07

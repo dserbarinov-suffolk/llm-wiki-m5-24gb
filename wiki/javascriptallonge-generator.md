@@ -7,7 +7,7 @@ sources: raw/javascriptallonge.pdf
 updated: 2026-07-07
 domain: javascriptallonge
 category_path: concepts
-projection_coverage: topic-javascriptallonge-generator@d981b82b19cc73936753d2bf5c7513af
+projection_coverage: topic-javascriptallonge-generator@8103d02eab8a4f66044780044c89deb9
 ---
 
 # Generator
@@ -107,6 +107,13 @@ yield 3
 ### Source structure
 
 - [[javascriptallonge-section-served-by-the-pot-collections-generating-iterables-more-generators-30279cb0]] - source section: Served by the Pot: Collections / Generating Iterables / more generators shares source evidence from Served by the Pot: Collections / Generating Iterables / more generators: Our OneTwoThree example used implicit state to output the numbers in sequence. Recall that we wrote Fibonacci using explicit state:; Served by the Pot: Collections / Generating Iterables / more generators shares technical record from Served by the Pot: Collections / Generating Iterables / more generators: const Numbers = { *[Symbol.iterator] () { let i = 0; while (true) { yield i++; } } }; for (const i of Numbers) { console.log(i); } //=> 0 1 2 3 4 5 6 7 (3 shared statement(s), 6 shared atom(s))
+- [[javascriptallonge-section-interactive-generators-c6339bc5]] - source section: Interactive Generators
+- [[javascriptallonge-section-interactive-generators-representing-naughts-and-crosses-as-a-stateful-function-94951f68]] - source section: Interactive Generators / representing naughts and crosses as a stateful function
+- [[javascriptallonge-section-interactive-generators-representing-naughts-and-crosses-as-a-stateless-function-e2c2d97f]] - source section: Interactive Generators / representing naughts and crosses as a stateless function
+- [[javascriptallonge-section-interactive-generators-representing-naughts-and-crosses-as-a-stateless-function-will-be-represen-66494cc9]] - source section: Interactive Generators / representing naughts and crosses as a stateless function / Will be represented as:
+- [[javascriptallonge-section-interactive-generators-this-seems-familiar-ca8bdeb5]] - source section: Interactive Generators / this seems familiar
+- [[javascriptallonge-section-interactive-generators-this-seems-familiar-interactive-generators-0e36e551]] - source section: Interactive Generators / this seems familiar / interactive generators
+- [[javascriptallonge-section-served-by-the-pot-collections-generating-iterables-generators-and-iterables-adba5c82]] - source section: Served by the Pot: Collections / Generating Iterables / generators and iterables
 
 ### Shared technical atoms
 

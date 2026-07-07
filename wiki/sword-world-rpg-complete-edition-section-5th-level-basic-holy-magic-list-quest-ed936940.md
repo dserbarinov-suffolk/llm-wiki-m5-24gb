@@ -1,7 +1,7 @@
 ---
 page_id: sword-world-rpg-complete-edition-section-5th-level-basic-holy-magic-list-quest-ed936940
 page_kind: source
-summary: 5th Level Basic Holy Magic List [ Quest ]: 34 source-backed entries and 0 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+summary: 5th Level Basic Holy Magic List [ Quest ]: 31 source-backed entries and 0 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: section-reference
 sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-07

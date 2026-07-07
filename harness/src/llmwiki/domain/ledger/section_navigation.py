@@ -8,8 +8,9 @@ from dataclasses import dataclass
 from llmwiki.domain.ledger.canonical import short_digest
 from llmwiki.domain.ledger.section_planning import SectionGroundedPlan
 from llmwiki.domain.ledger.structure import DocumentStructure, StructureNode
+from llmwiki.domain.ledger.topic_models import SourceTopic
 from llmwiki.domain.ledger.topic_relations import RelatedTopicLink
-from llmwiki.domain.ledger.topic_terms import source_label_terms
+from llmwiki.domain.ledger.topic_terms import source_label_terms, topic_term_role
 from llmwiki.domain.pages import PageError, slugify
 
 _MARKDOWN_DECORATION = re.compile(r"[*_`]+")
@@ -74,9 +75,66 @@ def section_links_by_topic(
     return {key: tuple(dict.fromkeys(value)) for key, value in links.items()}
 
 
+def section_links_for_topics(
+    section_plan: SectionGroundedPlan,
+    structure: DocumentStructure,
+    *,
+    source_page_id: str,
+    topics: tuple[SourceTopic, ...],
+) -> dict[str, tuple[RelatedTopicLink, ...]]:
+    links = {
+        key: list(value)
+        for key, value in section_links_by_topic(
+            section_plan, structure, source_page_id=source_page_id
+        ).items()
+    }
+    promoted = tuple(target for target in section_plan.page_targets if target.page_promoted)
+    for topic in topics:
+        topic_terms = _meaningful_terms(
+            (
+                *topic.match_terms,
+                *source_label_terms(topic.label),
+                *source_label_terms(topic.topic_key),
+            )
+        )
+        if not topic_terms:
+            continue
+        matches: list[RelatedTopicLink] = []
+        for target in promoted:
+            if target.topic_key == topic.topic_key:
+                continue
+            node = structure.node(target.structure_node_id)
+            if node is None:
+                continue
+            label = section_title(structure, node)
+            section_terms = _meaningful_terms(tuple(source_label_terms(label)))
+            if topic_terms <= section_terms:
+                matches.append(
+                    RelatedTopicLink(
+                        section_page_id(source_page_id, structure, node),
+                        label,
+                        "source section",
+                    )
+                )
+        ordered = sorted(
+            matches,
+            key=lambda link: (len(source_label_terms(link.label)), link.label),
+        )
+        links.setdefault(topic.topic_key, []).extend(ordered)
+    return {key: tuple(dict.fromkeys(value)) for key, value in links.items()}
+
+
 def promoted_section_node_ids(section_plan: SectionGroundedPlan) -> frozenset[str]:
     return frozenset(
         target.structure_node_id for target in section_plan.page_targets if target.page_promoted
+    )
+
+
+def _meaningful_terms(terms: tuple[str, ...]) -> frozenset[str]:
+    return frozenset(
+        term
+        for term in terms
+        if topic_term_role(term) not in ("discourse-container", "structural-container")
     )
 
 

@@ -1,7 +1,7 @@
 ---
 page_id: sword-world-rpg-complete-edition-section-4th-level-dragon-roar-magic-list-e58eab60
 page_kind: source
-summary: 4th Level Dragon Roar Magic List: 23 source-backed entries and 0 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+summary: 4th Level Dragon Roar Magic List: 22 source-backed entries and 0 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: section-reference
 sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-07

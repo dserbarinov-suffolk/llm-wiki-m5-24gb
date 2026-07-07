@@ -8,7 +8,7 @@ updated: 2026-07-07
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-organizations-and-groups-thieves-guild-sorcerers-guild-academy-31dd4892@9dddc8f01bd4e6dc133f10377672a7b5
+projection_coverage: section-sword-world-rpg-complete-edition-section-organizations-and-groups-thieves-guild-sorcerers-guild-academy-31dd4892@df1a4f177b17d7d8b16bab5f697ab2d2
 ---
 
 # Organizations and Groups / Thieves Guild/Sorcerers' Guild (Academy)
@@ -19,12 +19,7 @@ From [[sword-world-rpg-complete-edition]].
 
 ### Source order
 
-- [[sword-world-rpg-complete-edition-section-organizations-and-groups-merchant-s-license-345eae45]] - previous source section: Organizations and Groups / Merchant's License
 - [[sword-world-rpg-complete-edition-section-organizations-and-groups-religious-organizations-4014c2bf]] - next source section: Organizations and Groups / Religious Organizations
-
-### Source structure
-
-- [[sword-world-rpg-complete-edition-section-organizations-and-groups-0970a33e]] - broader source section: Organizations and Groups
 
 ## Statements
 

@@ -7,7 +7,7 @@ sources: raw/javascriptallonge.pdf
 updated: 2026-07-07
 domain: javascriptallonge
 category_path: concepts
-projection_coverage: topic-javascriptallonge-recipe@143606dbfccdb11f11e1896066516da6
+projection_coverage: topic-javascriptallonge-recipe@3b627f7576639807b3af6889357f40b6
 ---
 
 # Recipe
@@ -124,6 +124,17 @@ return fn.apply(this, args)
 
 
 ## Related pages
+
+### Source structure
+
+- [[javascriptallonge-section-recipes-with-basic-functions-d7445960]] - source section: Recipes with Basic Functions
+- [[javascriptallonge-section-recipes-with-basic-functions-left-variadic-functions-574b019e]] - source section: Recipes with Basic Functions / Left-Variadic Functions
+- [[javascriptallonge-section-recipes-with-basic-functions-partial-application-70ce84b0]] - source section: Recipes with Basic Functions / Partial Application
+- [[javascriptallonge-section-recipes-with-basic-functions-tap-51486e75]] - source section: Recipes with Basic Functions / Tap
+- [[javascriptallonge-section-recipes-with-basic-functions-unary-d494fe78]] - source section: Recipes with Basic Functions / Unary
+- [[javascriptallonge-section-recipes-with-data-4b3e2c99]] - source section: Recipes with Data
+- [[javascriptallonge-section-recipes-with-data-flip-b1a8ea8d]] - source section: Recipes with Data / Flip
+- [[javascriptallonge-section-recipes-with-data-flip-flipping-methods-852e9417]] - source section: Recipes with Data / Flip / flipping methods
 
 ### Shared technical atoms
 

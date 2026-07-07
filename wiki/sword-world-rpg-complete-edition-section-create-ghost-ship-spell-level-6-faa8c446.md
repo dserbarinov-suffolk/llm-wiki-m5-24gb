@@ -1,7 +1,7 @@
 ---
 page_id: sword-world-rpg-complete-edition-section-create-ghost-ship-spell-level-6-faa8c446
 page_kind: source
-summary: [ Create Ghost Ship ] (Spell Level=6): 11 source-backed entries and 0 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+summary: [ Create Ghost Ship ] (Spell Level=6): 9 source-backed entries and 0 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: section-reference
 sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-07

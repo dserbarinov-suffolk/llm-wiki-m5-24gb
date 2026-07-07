@@ -7,7 +7,7 @@ sources: raw/javascriptallonge.pdf
 updated: 2026-07-07
 domain: javascriptallonge
 category_path: concepts
-projection_coverage: topic-javascriptallonge-lazy@43ecd184cdb76fd36fd34b8ff134938a
+projection_coverage: topic-javascriptallonge-lazy@687e8b9a0b36c266ac65607d7cc1787d
 ---
 
 # Lazy
@@ -52,6 +52,13 @@ Numbers
 
 
 ## Related pages
+
+### Source structure
+
+- [[javascriptallonge-section-lazy-and-eager-collections-7308cac5]] - source section: Lazy and Eager Collections
+- [[javascriptallonge-section-lazy-and-eager-collections-eager-collections-527b72b9]] - source section: Lazy and Eager Collections / eager collections
+- [[javascriptallonge-section-lazy-and-eager-collections-implementing-methods-with-iteration-e67a1913]] - source section: Lazy and Eager Collections / implementing methods with iteration
+- [[javascriptallonge-section-lazy-and-eager-collections-lazy-collection-operations-0de83c02]] - source section: Lazy and Eager Collections / lazy collection operations
 
 ### Shared technical atoms
 

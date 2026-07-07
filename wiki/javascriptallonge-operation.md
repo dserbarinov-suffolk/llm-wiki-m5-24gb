@@ -7,7 +7,7 @@ sources: raw/javascriptallonge.pdf
 updated: 2026-07-07
 domain: javascriptallonge
 category_path: concepts
-projection_coverage: topic-javascriptallonge-operation@c6f65dbabbf36748a4fccf6a59eea388
+projection_coverage: topic-javascriptallonge-operation@e3fee078b79c9a5ac4aa7f02c37d4fa0
 ---
 
 # Operation
@@ -148,6 +148,16 @@ const UpTo1000 = untilWith((x) => (x > 1000), EndWithOne);
 
 
 ## Related pages
+
+### Source structure
+
+- [[javascriptallonge-section-a-rich-aroma-basic-numbers-operations-on-numbers-c7608822]] - source section: A Rich Aroma: Basic Numbers / operations on numbers
+- [[javascriptallonge-section-lazy-and-eager-collections-lazy-collection-operations-0de83c02]] - source section: Lazy and Eager Collections / lazy collection operations
+- [[javascriptallonge-section-operations-that-compose-two-or-more-iterables-into-an-iterable-73854237]] - source section: operations that compose two or more iterables into an iterable
+- [[javascriptallonge-section-operations-that-transform-an-iterable-into-a-value-f61dad02]] - source section: operations that transform an iterable into a value
+- [[javascriptallonge-section-operations-that-transform-one-iterable-into-another-9f8c6529]] - source section: operations that transform one iterable into another
+- [[javascriptallonge-section-served-by-the-pot-collections-iteration-and-iterables-operations-on-ordered-collections-ee56851b]] - source section: Served by the Pot: Collections / Iteration and Iterables / operations on ordered collections
+- [[javascriptallonge-section-served-by-the-pot-collections-rewriting-iterable-operations-f8a6e431]] - source section: Served by the Pot: Collections / rewriting iterable operations
 
 ### Shared technical atoms
 

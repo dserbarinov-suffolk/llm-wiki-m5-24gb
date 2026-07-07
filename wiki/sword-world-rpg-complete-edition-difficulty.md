@@ -1,13 +1,13 @@
 ---
 page_id: sword-world-rpg-complete-edition-difficulty
 page_kind: concept
-summary: Difficulty: 10 statement(s) and 2 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+summary: Difficulty: 10 statement(s) and 1 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: topic-concept
 sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-07
 domain: sword-world-rpg-complete-edition
 category_path: concepts
-projection_coverage: topic-sword-world-rpg-complete-edition-difficulty@f92b884ef1c83ee8a2c5e32514f5bce5
+projection_coverage: topic-sword-world-rpg-complete-edition-difficulty@561083094824d62b3790fa0da51d3038
 ---
 
 # Difficulty
@@ -46,28 +46,25 @@ What [[sword-world-rpg-complete-edition]] covers about difficulty:
 <a id="atom-technical-atom-302eda61c068a291"></a>
 > The standard for deciding is whether the character can tell if the action succeeded or failed .
 
-### Technical frame 2: Chapter 9: / Setting Target Scores and Difficulties / Should You Use a Target Score Check or a Difficulty Check?
-
-**Context:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-04537))_
-
-> However, this is not possible without knowing the difficulty.
-
-**Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-04536))_
-
-<a id="atom-technical-atom-497e176780454da3"></a>
-> If the difficulty is clear, let's say it's 3, players can infer that they can only fail when the game master rolls an 11 or 12.
-
 
 ## Related pages
 
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-2-5-2-how-to-make-a-difficulty-check-f138ab4d]] - source section: 2.5.2 How to Make a Difficulty Check
+- [[sword-world-rpg-complete-edition-section-2-5-difficulty-checks-c9ff695c]] - source section: 2.5 Difficulty Checks
+- [[sword-world-rpg-complete-edition-section-chapter-9-setting-target-scores-and-difficulties-f6da6ec7]] - source section: Chapter 9: / Setting Target Scores and Difficulties
+- [[sword-world-rpg-complete-edition-section-chapter-9-setting-target-scores-and-difficulties-should-you-use-a-target-score-check-or-a-diffic-7b387750]] - source section: Chapter 9: / Setting Target Scores and Difficulties / Should You Use a Target Score Check or a Difficulty Check? / 9.3 General Modifiers
+- [[sword-world-rpg-complete-edition-section-chapter-9-setting-target-scores-and-difficulties-should-you-use-a-target-score-check-or-a-diffic-bd9a418b]] - source section: Chapter 9: / Setting Target Scores and Difficulties / Should You Use a Target Score Check or a Difficulty Check?
+
 ### Shared technical atoms
 
-- [[sword-world-rpg-complete-edition-should-you-target-score-check]] - shared statements and technical atoms: Should You Target Score Check shares source evidence from Chapter 9: / Setting Target Scores and Difficulties / Should You Use a Target Score Check or a Difficulty Check?: There are two types of success rolls: those that use a target score for the check and those that use a difficulty for the check. The game master must decide which of ... [truncated]; Should You Target Score Check shares technical record from Chapter 9: / Setting Target Scores and Difficulties / Should You Use a Target Score Check or a Difficulty Check?: The standard for deciding is whether the character can tell if the action succeeded or failed . (2 shared statement(s), 2 shared atom(s))
+- [[sword-world-rpg-complete-edition-should-you-target-score-check]] - shared statements and technical atoms: Should You Target Score Check shares source evidence from Chapter 9: / Setting Target Scores and Difficulties / Should You Use a Target Score Check or a Difficulty Check?: There are two types of success rolls: those that use a target score for the check and those that use a difficulty for the check. The game master must decide which of ... [truncated]; Should You Target Score Check shares technical record from Chapter 9: / Setting Target Scores and Difficulties / Should You Use a Target Score Check or a Difficulty Check?: The standard for deciding is whether the character can tell if the action succeeded or failed . (2 shared statement(s), 1 shared atom(s))
 - [[sword-world-rpg-complete-edition-setting-target-score]] - shared statements and technical atoms: Setting Target Score shares source evidence from Chapter 9: / Setting Target Scores and Difficulties / Should You Use a Target Score Check or a Difficulty Check?: There are two types of success rolls: those that use a target score for the check and those that use a difficulty for the check. The game master must decide which of ... [truncated]; Setting Target Score shares technical record from Chapter 9: / Setting Target Scores and Difficulties / Should You Use a Target Score Check or a Difficulty Check?: The standard for deciding is whether the character can tell if the action succeeded or failed . (1 shared statement(s), 1 shared atom(s))
 
 ### Topics
 
-- [[sword-world-rpg-complete-edition-difficulty-check]] - narrower topic: Difficulty Check shares source evidence from Chapter 9: / Setting Target Scores and Difficulties / Should You Use a Target Score Check or a Difficulty Check?: There are two types of success rolls: those that use a target score for the check and those that use a difficulty for the check. The game master must decide which of ... [truncated]; Difficulty Check shares technical record from Chapter 9: / Setting Target Scores and Difficulties / Should You Use a Target Score Check or a Difficulty Check?: The standard for deciding is whether the character can tell if the action succeeded or failed . (3 shared statement(s), 2 shared atom(s))
+- [[sword-world-rpg-complete-edition-difficulty-check]] - narrower topic: Difficulty Check shares source evidence from Chapter 9: / Setting Target Scores and Difficulties / Should You Use a Target Score Check or a Difficulty Check?: There are two types of success rolls: those that use a target score for the check and those that use a difficulty for the check. The game master must decide which of ... [truncated]; Difficulty Check shares technical record from Chapter 9: / Setting Target Scores and Difficulties / Should You Use a Target Score Check or a Difficulty Check?: The standard for deciding is whether the character can tell if the action succeeded or failed . (3 shared statement(s), 1 shared atom(s))
 
 ## Source
 

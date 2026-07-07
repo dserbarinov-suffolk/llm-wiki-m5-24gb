@@ -1,26 +1,19 @@
 ---
 page_id: sword-world-rpg-complete-edition-section-10-3-surprise-attacks-406e0afb
 page_kind: source
-summary: 10.3 Surprise Attacks: 14 source-backed entries and 0 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+summary: 10.3 Surprise Attacks: 14 source-backed entries and 1 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: section-reference
 sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-07
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-10-3-surprise-attacks-406e0afb@1517aeaf4dc144b2671f029341557e93
+projection_coverage: section-sword-world-rpg-complete-edition-section-10-3-surprise-attacks-406e0afb@e497b56d37622743c6062ffd3999af9a
 ---
 
 # 10.3 Surprise Attacks
 
 From [[sword-world-rpg-complete-edition]].
-
-## Related pages
-
-### Source order
-
-- [[sword-world-rpg-complete-edition-section-combat-in-special-situations-2560a803]] - previous source section: Combat in Special Situations
-- [[sword-world-rpg-complete-edition-section-10-4-water-combat-ee3c0dda]] - next source section: 10.4 Water Combat
 
 ## Statements
 
@@ -32,3 +25,34 @@ From [[sword-world-rpg-complete-edition]].
 - On the Surprise Attack Check table, if this score is lower than the one in the monster column, the monster has a chance for a surprise They must not change things based on the circumstances, such as attacking with fangs if the character used the spell Counter Magic to increase their resistance, or breathing fire if the character used the spell Quickness to raise their agility (evasion speed). _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-04587))_
 - Strictly plan your actions, and when telling the players, only tell them things that only the character knows. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-04589))_
 - It's still possible to take actions such as trying to avoid enemy attacks or resisting magic cast on you. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-04608))_
+
+## Technical atoms
+
+### Technical frame 1: 10.3 Surprise Attacks
+
+**Context:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-04587))_
+
+> When encountering a monster, one of you may notice the other without them noticing you, allowing you to perform a surprise attack . This should also be determined by the game master depending on the situation, but we've included Table 10-2: Surprise Attack Check as a reference. The game master must roll 2D and add it to the monster level (the highest one in the case of a group). Next, all adventurers make a success roll using ranger skill level + intelligence bonus as the baseline score. Subtrac
+
+**Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-04581))_
+
+<a id="atom-technical-atom-6288376a8952d40a"></a>
+| Full movement (Evasion speed only) | -4 |
+| --- | --- |
+| Can’t see opponent (in the dark, invisible enemy, etc.) However, if alternative senses (smell, hearing, etc.) are developed to some extent If you don't have to rely on vision | -4 -2 None |
+| When footing is bad (Rocks and debris are everywhere, water is up to your waist, etc.) | -2 |
+| Fallen (Same as when trying to stand up because you're in an unstable state) | -2 |
+
+<details>
+<summary>Raw table text</summary>
+
+```text
+Surprise Attacks
+| Full movement (Evasion speed only) | -4 |
+| --- | --- |
+| Can’t see opponent (in the dark, invisible enemy, etc.) However, if alternative senses (smell, hearing, etc.) are developed to some extent If you don't have to rely on vision | -4 -2 None |
+| When footing is bad (Rocks and debris are everywhere, water is up to your waist, etc.) | -2 |
+| Fallen (Same as when trying to stand up because you're in an unstable state) | -2 |
+```
+
+</details>

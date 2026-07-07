@@ -1,14 +1,14 @@
 ---
 page_id: sword-world-rpg-complete-edition-section-details-sword-world-rpg-complete-edition-rulebook-dc33a8bf
 page_kind: source
-summary: Details / Sword World RPG: Complete Edition Rulebook: 34 source-backed entries and 1 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+summary: Details / Sword World RPG: Complete Edition Rulebook: 33 source-backed entries and 0 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: section-reference
 sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-07
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-details-sword-world-rpg-complete-edition-rulebook-dc33a8bf@fc74c3f4bfccb575a8d1e2f67ca50c35
+projection_coverage: section-sword-world-rpg-complete-edition-section-details-sword-world-rpg-complete-edition-rulebook-dc33a8bf@04204da6b8892bb53a10489f37b712e3
 ---
 
 # Details / Sword World RPG: Complete Edition Rulebook
@@ -39,54 +39,3 @@ From [[sword-world-rpg-complete-edition]].
 - You can't even sell dangerous items because there are no buyers. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-08833))_
 - After a brief introduction of game data, a detailed description of the item is written. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-08838))_
 - For example, for weapons and armor, an entry called Required Strength will appear. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-08841))_
-
-## Technical atoms
-
-### Technical frame 1: Details / Sword World RPG: Complete Edition Rulebook
-
-**Context:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-08821))_
-
-> This is the rulebook for Sword World RPG: Complete Edition . If you read this, you can understand the rules of Sword World RPG: Complete Edition , and you'll be able to enjoy adventures in Alecrast.
-
-**Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-08825))_
-
-<a id="atom-technical-atom-53422ddb34de3a35"></a>
-| Required | Price | Required | Price |
-| --- | --- | --- | --- |
-| Strength | (Gamels) | Strength | (Gamels) |
-| 1 | 2800 | 13 | 6700 |
-| 2 | 3000 | 14 | 8900 |
-| 3 | 3400 | 15 | 11000 |
-| 4 | 3800 | 16 | 13000 |
-| 5 | 4100 | 17 | 15000 |
-| 6 | 4300 | 18 | 17000 |
-| 7 | 4600 | 19 | 19000 |
-| 8 | 4900 | 20 | 22000 |
-| 9 | 5100 | 21 | 24000 |
-| 10 | 5400 | 22 | 26000 |
-| 11 | 5600 | 23 | 29000 |
-| 12 | 5800 | 24 | 32000 |
-
-<details>
-<summary>Raw table text</summary>
-
-```text
-14.4.2 List of Magical Items
-| Required | Price | Required | Price |
-| --- | --- | --- | --- |
-| Strength | (Gamels) | Strength | (Gamels) |
-| 1 | 2800 | 13 | 6700 |
-| 2 | 3000 | 14 | 8900 |
-| 3 | 3400 | 15 | 11000 |
-| 4 | 3800 | 16 | 13000 |
-| 5 | 4100 | 17 | 15000 |
-| 6 | 4300 | 18 | 17000 |
-| 7 | 4600 | 19 | 19000 |
-| 8 | 4900 | 20 | 22000 |
-| 9 | 5100 | 21 | 24000 |
-| 10 | 5400 | 22 | 26000 |
-| 11 | 5600 | 23 | 29000 |
-| 12 | 5800 | 24 | 32000 |
-```
-
-</details>

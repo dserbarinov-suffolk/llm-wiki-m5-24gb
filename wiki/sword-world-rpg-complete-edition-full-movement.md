@@ -7,7 +7,7 @@ sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-07
 domain: sword-world-rpg-complete-edition
 category_path: concepts
-projection_coverage: topic-sword-world-rpg-complete-edition-full-movement@3df09e82595f70bb2b377680d5cd4f26
+projection_coverage: topic-sword-world-rpg-complete-edition-full-movement@48a1ce860bf6e50c8609a6bbd723cb2e
 ---
 
 # Full Movement
@@ -20,6 +20,12 @@ What [[sword-world-rpg-complete-edition]] covers about full movement:
 
 - Full movement means that a character runs without looking aside. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01095))_
 
+
+## Related pages
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-movement-and-actions-9a2835c4]] - source section: Movement and Actions
 
 ## Source
 

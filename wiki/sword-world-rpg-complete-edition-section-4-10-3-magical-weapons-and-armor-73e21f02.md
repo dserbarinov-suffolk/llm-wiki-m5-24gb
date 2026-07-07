@@ -1,7 +1,7 @@
 ---
 page_id: sword-world-rpg-complete-edition-section-4-10-3-magical-weapons-and-armor-73e21f02
 page_kind: source
-summary: 4.10.3 Magical Weapons and Armor: 22 source-backed entries and 1 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+summary: 4.10.3 Magical Weapons and Armor: 21 source-backed entries and 1 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: section-reference
 sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-07

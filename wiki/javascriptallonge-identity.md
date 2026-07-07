@@ -7,7 +7,7 @@ sources: raw/javascriptallonge.pdf
 updated: 2026-07-07
 domain: javascriptallonge
 category_path: concepts
-projection_coverage: topic-javascriptallonge-identity@9c4f6e4241f26ee0f8c8908091052bf9
+projection_coverage: topic-javascriptallonge-identity@990644fab62a26ad50999b7b8ec77622
 ---
 
 # Identity
@@ -39,6 +39,10 @@ What [[javascriptallonge]] covers about identity:
 
 
 ## Related pages
+
+### Source structure
+
+- [[javascriptallonge-section-the-first-sip-basic-functions-as-little-as-possible-about-functions-but-no-less-functions-and-id-456f28c7]] - source section: The first sip: Basic Functions / As Little As Possible About Functions, But No Less / functions and identities
 
 ### Shared technical atoms
 

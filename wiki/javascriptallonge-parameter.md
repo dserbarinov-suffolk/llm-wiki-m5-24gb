@@ -7,7 +7,7 @@ sources: raw/javascriptallonge.pdf
 updated: 2026-07-07
 domain: javascriptallonge
 category_path: concepts
-projection_coverage: topic-javascriptallonge-parameter@e7671533a0c46bd6ae69a8e6628dd071
+projection_coverage: topic-javascriptallonge-parameter@4e5a51d5d4c13b4d3d63b28784892e43
 ---
 
 # Parameter
@@ -193,6 +193,11 @@ mapWith((x) => x * x, [1, 2, 3, 4, 5])
 
 
 ## Related pages
+
+### Source structure
+
+- [[javascriptallonge-section-composing-and-decomposing-data-arrays-and-destructuring-arguments-destructuring-parameters-1a788a19]] - source section: Composing and Decomposing Data / Arrays and Destructuring Arguments / destructuring parameters
+- [[javascriptallonge-section-picking-the-bean-choice-and-truthiness-function-parameters-are-eager-699c4c1b]] - source section: Picking the Bean: Choice and Truthiness / function parameters are eager
 
 ### Shared technical atoms
 

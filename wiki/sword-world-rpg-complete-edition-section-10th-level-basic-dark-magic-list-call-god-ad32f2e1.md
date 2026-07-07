@@ -1,7 +1,7 @@
 ---
 page_id: sword-world-rpg-complete-edition-section-10th-level-basic-dark-magic-list-call-god-ad32f2e1
 page_kind: source
-summary: 10th Level Basic Dark Magic List [ Call God ]: 14 source-backed entries and 0 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+summary: 10th Level Basic Dark Magic List [ Call God ]: 13 source-backed entries and 0 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: section-reference
 sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-07

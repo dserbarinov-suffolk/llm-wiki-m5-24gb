@@ -7,7 +7,7 @@ sources: raw/javascriptallonge.pdf
 updated: 2026-07-07
 domain: javascriptallonge
 category_path: concepts
-projection_coverage: topic-javascriptallonge-iterator@d497d2eed92b5b7825fdc9eaf913063d
+projection_coverage: topic-javascriptallonge-iterator@23c2b286cde761328007337f64765ab7
 ---
 
 # Iterator
@@ -331,6 +331,13 @@ yield * iterator;
 
 
 ## Related pages
+
+### Source structure
+
+- [[javascriptallonge-section-copy-on-write-functional-iterators-74724e0a]] - source section: Copy on Write / Functional Iterators
+- [[javascriptallonge-section-served-by-the-pot-collections-generating-iterables-recursive-iterators-6db8d95d]] - source section: Served by the Pot: Collections / Generating Iterables / recursive iterators
+- [[javascriptallonge-section-served-by-the-pot-collections-iteration-and-iterables-a-look-back-at-functional-iterators-57a76f01]] - source section: Served by the Pot: Collections / Iteration and Iterables / a look back at functional iterators
+- [[javascriptallonge-section-served-by-the-pot-collections-iteration-and-iterables-iterator-objects-cbbb8baa]] - source section: Served by the Pot: Collections / Iteration and Iterables / iterator objects
 
 ### Shared technical atoms
 

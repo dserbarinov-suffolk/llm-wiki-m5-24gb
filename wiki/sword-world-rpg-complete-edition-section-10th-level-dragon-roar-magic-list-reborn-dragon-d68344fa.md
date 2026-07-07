@@ -1,7 +1,7 @@
 ---
 page_id: sword-world-rpg-complete-edition-section-10th-level-dragon-roar-magic-list-reborn-dragon-d68344fa
 page_kind: source
-summary: 10th Level Dragon Roar Magic List [ Reborn Dragon ]: 10 source-backed entries and 0 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+summary: 10th Level Dragon Roar Magic List [ Reborn Dragon ]: 9 source-backed entries and 0 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: section-reference
 sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-07

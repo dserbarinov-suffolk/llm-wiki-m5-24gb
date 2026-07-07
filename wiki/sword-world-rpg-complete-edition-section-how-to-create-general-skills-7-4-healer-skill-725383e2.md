@@ -8,7 +8,7 @@ updated: 2026-07-07
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-how-to-create-general-skills-7-4-healer-skill-725383e2@f03041308d817d3ff046c2e0fe4960b1
+projection_coverage: section-sword-world-rpg-complete-edition-section-how-to-create-general-skills-7-4-healer-skill-725383e2@f8ddf992f2effc7947cd6406dab80b51
 ---
 
 # How to Create General Skills / 7.4 Healer Skill
@@ -19,7 +19,6 @@ From [[sword-world-rpg-complete-edition]].
 
 ### Source order
 
-- [[sword-world-rpg-complete-edition-section-how-to-create-general-skills-7-3-craftsman-skill-fdb787a9]] - previous source section: How to Create General Skills / 7.3 Craftsman Skill
 - [[sword-world-rpg-complete-edition-section-how-to-create-general-skills-7-5-hunter-skill-7e766530]] - next source section: How to Create General Skills / 7.5 Hunter Skill
 
 ### Source structure

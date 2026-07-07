@@ -1,14 +1,14 @@
 ---
 page_id: sword-world-rpg-complete-edition-section-16-6-2-two-handed-attacks-weapons-and-armor-that-are-too-heavy-108e1234
 page_kind: source
-summary: 16.6.2 Two-Handed Attacks / Weapons and Armor That Are Too Heavy: 8 source-backed entries and 1 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+summary: 16.6.2 Two-Handed Attacks / Weapons and Armor That Are Too Heavy: 7 source-backed entries and 1 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: section-reference
 sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-07
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-16-6-2-two-handed-attacks-weapons-and-armor-that-are-too-heavy-108e1234@8db30461c8db02cbd3acb579d8da19f1
+projection_coverage: section-sword-world-rpg-complete-edition-section-16-6-2-two-handed-attacks-weapons-and-armor-that-are-too-heavy-108e1234@f30c42395bddb327609160da95c9c8ca
 ---
 
 # 16.6.2 Two-Handed Attacks / Weapons and Armor That Are Too Heavy
@@ -16,10 +16,6 @@ projection_coverage: section-sword-world-rpg-complete-edition-section-16-6-2-two
 From [[sword-world-rpg-complete-edition]].
 
 ## Related pages
-
-### Source order
-
-- [[sword-world-rpg-complete-edition-section-16-6-2-two-handed-attacks-throwing-multiple-darts-or-daggers-f6e9d209]] - previous source section: 16.6.2 Two-Handed Attacks / Throwing Multiple Darts or Daggers
 
 ### Source structure
 

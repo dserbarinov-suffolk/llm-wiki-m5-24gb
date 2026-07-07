@@ -1,7 +1,7 @@
 ---
 page_id: sword-world-rpg-complete-edition-section-9th-level-dragon-roar-magic-list-summon-lesser-dragon-11-4-acquiring-rune-master-skills-and-incr-1f76bc3d
 page_kind: source
-summary: 9th Level Dragon Roar Magic List [ Summon Lesser Dragon ] / 11.4 Acquiring Rune Master Skills and Increasing Levels: 33 source-backed entries and 0 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+summary: 9th Level Dragon Roar Magic List [ Summon Lesser Dragon ] / 11.4 Acquiring Rune Master Skills and Increasing Levels: 32 source-backed entries and 0 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: section-reference
 sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-07

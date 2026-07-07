@@ -1,7 +1,7 @@
 ---
 page_id: sword-world-rpg-complete-edition-section-mute-sylph-wind-spirit-33caf393
 page_kind: source
-summary: [ Mute ] (Sylph/Wind Spirit): 11 source-backed entries and 0 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+summary: [ Mute ] (Sylph/Wind Spirit): 10 source-backed entries and 0 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: section-reference
 sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-07

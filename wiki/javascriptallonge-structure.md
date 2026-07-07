@@ -7,7 +7,7 @@ sources: raw/javascriptallonge.pdf
 updated: 2026-07-07
 domain: javascriptallonge
 category_path: concepts
-projection_coverage: topic-javascriptallonge-structure@58da36475201a7cc875e3a6e8ad3b4c4
+projection_coverage: topic-javascriptallonge-structure@fc4db7595fdd09588287d0bc25cb1dd6
 ---
 
 # Structure
@@ -68,6 +68,10 @@ cdr(oneToFive)
 
 
 ## Related pages
+
+### Source structure
+
+- [[javascriptallonge-section-mutation-mutation-and-data-structures-fe3c8850]] - source section: Mutation / mutation and data structures
 
 ### Shared technical atoms
 

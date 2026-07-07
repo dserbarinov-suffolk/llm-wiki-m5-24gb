@@ -7,7 +7,7 @@ sources: raw/javascriptallonge.pdf
 updated: 2026-07-07
 domain: javascriptallonge
 category_path: concepts
-projection_coverage: topic-javascriptallonge-operator@e3b129221863afed762c020ade73c609
+projection_coverage: topic-javascriptallonge-operator@ddca7b6dc4dbd7680484fcb67f7ba04f
 ---
 
 # Operator
@@ -41,6 +41,11 @@ What [[javascriptallonge]] covers about operator:
 
 
 ## Related pages
+
+### Source structure
+
+- [[javascriptallonge-section-picking-the-bean-choice-and-truthiness-truthiness-and-operators-44549e80]] - source section: Picking the Bean: Choice and Truthiness / truthiness and operators
+- [[javascriptallonge-section-picking-the-bean-choice-and-truthiness-truthiness-and-the-ternary-operator-b715a907]] - source section: Picking the Bean: Choice and Truthiness / truthiness and the ternary operator
 
 ### Shared technical atoms
 

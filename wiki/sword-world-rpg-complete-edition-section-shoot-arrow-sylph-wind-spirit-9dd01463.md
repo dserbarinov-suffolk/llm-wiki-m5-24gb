@@ -1,7 +1,7 @@
 ---
 page_id: sword-world-rpg-complete-edition-section-shoot-arrow-sylph-wind-spirit-9dd01463
 page_kind: source
-summary: [ Shoot Arrow ] (Sylph/Wind Spirit): 16 source-backed entries and 0 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+summary: [ Shoot Arrow ] (Sylph/Wind Spirit): 15 source-backed entries and 0 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: section-reference
 sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-07

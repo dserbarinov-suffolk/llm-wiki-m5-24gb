@@ -1,14 +1,14 @@
 ---
 page_id: sword-world-rpg-complete-edition-section-spellsongs-filling-out-the-character-sheet-f222832c
 page_kind: source
-summary: Spellsongs / Filling out the Character Sheet: 57 source-backed entries and 0 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+summary: Spellsongs / Filling out the Character Sheet: 60 source-backed entries and 0 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: section-reference
 sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-07
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-spellsongs-filling-out-the-character-sheet-f222832c@1d0ed8d728c0c3b6a8ec04fde85beaea
+projection_coverage: section-sword-world-rpg-complete-edition-section-spellsongs-filling-out-the-character-sheet-f222832c@f22b3c0a8879c5b35a65b5783b00801e
 ---
 
 # Spellsongs / Filling out the Character Sheet
@@ -27,7 +27,6 @@ From [[sword-world-rpg-complete-edition]].
 - [[sword-world-rpg-complete-edition-section-spellsongs-filling-out-the-character-sheet-charm-mind-97b7d4a5]] - narrower source section: Spellsongs / Filling out the Character Sheet / Charm (Mind)
 - [[sword-world-rpg-complete-edition-section-spellsongs-filling-out-the-character-sheet-requiem-488de6af]] - narrower source section: Spellsongs / Filling out the Character Sheet / Requiem
 - [[sword-world-rpg-complete-edition-section-spellsongs-filling-out-the-character-sheet-resistance-462f3ab0]] - narrower source section: Spellsongs / Filling out the Character Sheet / Resistance
-- [[sword-world-rpg-complete-edition-section-spellsongs-filling-out-the-character-sheet-sing-mind-eaf722a9]] - narrower source section: Spellsongs / Filling out the Character Sheet / Sing (Mind)
 
 ### Topics
 
@@ -49,6 +48,10 @@ From [[sword-world-rpg-complete-edition]].
 - This spell has the effect of summoning specific small animals nearby. You can summon any hand-sized mammals or birds (mice, squirrels, small cats, small birds, etc.). When this spellsong begins, all small animals within earshot of the song will gather around the bard. It takes about 18 rounds to gather. If the summoned small animals are attacked, the effect of the spellsong will be broken and they will all run away. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-03826))_
 - The resistance roll is made on the fourth round after the song begins (count the beginning of the song as the first round, and make the roll when the bard's action order occurs on the fourth round). _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-03824))_
 - When this spellsong begins, all small animals within earshot of the song will gather around the bard. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-03826))_
+
+### Spellsongs / Filling out the Character Sheet / Sing (Mind)
+
+- Anyone who hears this spellsong will start singing the same lyrics along with the bard's song. There's no need to remember the lyrics. However, it has no effect on creatures that do not sing. Those affected will not be restricted in their actions, but as long as the spellsong continues, they will also be singing and will not be able to cast magic. Of course, they can't even converse, and they cannot use spellsongs or common runes. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-03828))_
 
 ### Spellsongs / Filling out the Character Sheet / Dance (Mind)
 

@@ -1,7 +1,7 @@
 ---
 page_id: sword-world-rpg-complete-edition-section-binding-dryad-plant-spirit-95fa5484
 page_kind: source
-summary: [ Binding ] (Dryad/Plant Spirit): 12 source-backed entries and 0 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+summary: [ Binding ] (Dryad/Plant Spirit): 10 source-backed entries and 0 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: section-reference
 sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-07

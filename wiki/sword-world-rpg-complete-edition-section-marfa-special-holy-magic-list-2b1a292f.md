@@ -1,7 +1,7 @@
 ---
 page_id: sword-world-rpg-complete-edition-section-marfa-special-holy-magic-list-2b1a292f
 page_kind: source
-summary: Marfa Special Holy Magic List: 11 source-backed entries and 0 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+summary: Marfa Special Holy Magic List: 9 source-backed entries and 0 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: section-reference
 sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-07

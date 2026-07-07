@@ -7,7 +7,7 @@ sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-07
 domain: sword-world-rpg-complete-edition
 category_path: concepts
-projection_coverage: topic-sword-world-rpg-complete-edition-ring-mail@4e3be06a783949b86b3631e783269772
+projection_coverage: topic-sword-world-rpg-complete-edition-ring-mail@3c386e85439939b07669da946f11dc3e
 ---
 
 # Ring Mail
@@ -160,6 +160,10 @@ What [[sword-world-rpg-complete-edition]] covers about ring mail:
 
 
 ## Related pages
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-magic-armor-2-non-metal-or-ring-mail-9414896b]] - source section: 《 Magic Armor (+2) 》 Non-metal or ring mail
 
 ### Shared technical atoms
 

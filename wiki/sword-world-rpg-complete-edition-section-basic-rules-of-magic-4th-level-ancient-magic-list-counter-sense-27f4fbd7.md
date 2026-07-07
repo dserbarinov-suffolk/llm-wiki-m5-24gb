@@ -1,7 +1,7 @@
 ---
 page_id: sword-world-rpg-complete-edition-section-basic-rules-of-magic-4th-level-ancient-magic-list-counter-sense-27f4fbd7
 page_kind: source
-summary: Basic Rules of Magic / 4th Level Ancient Magic List [ Counter Sense ]: 95 source-backed entries and 0 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+summary: Basic Rules of Magic / 4th Level Ancient Magic List [ Counter Sense ]: 94 source-backed entries and 0 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: section-reference
 sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-07

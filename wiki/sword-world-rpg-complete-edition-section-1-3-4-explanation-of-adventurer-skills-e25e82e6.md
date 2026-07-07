@@ -1,7 +1,7 @@
 ---
 page_id: sword-world-rpg-complete-edition-section-1-3-4-explanation-of-adventurer-skills-e25e82e6
 page_kind: source
-summary: 1.3.4 Explanation of Adventurer Skills: 72 source-backed entries and 0 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+summary: 1.3.4 Explanation of Adventurer Skills: 71 source-backed entries and 0 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: section-reference
 sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-07

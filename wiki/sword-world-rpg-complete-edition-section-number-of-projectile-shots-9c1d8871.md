@@ -1,14 +1,14 @@
 ---
 page_id: sword-world-rpg-complete-edition-section-number-of-projectile-shots-9c1d8871
 page_kind: source
-summary: Number of Projectile Shots: 14 source-backed entries and 1 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+summary: Number of Projectile Shots: 12 source-backed entries and 0 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: section-reference
 sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-07
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-number-of-projectile-shots-9c1d8871@d345b3205c56a4b1efceeae3b941723e
+projection_coverage: section-sword-world-rpg-complete-edition-section-number-of-projectile-shots-9c1d8871@99d838729a178d3c01b6502548c6c2df
 ---
 
 # Number of Projectile Shots
@@ -30,32 +30,3 @@ From [[sword-world-rpg-complete-edition]].
 - A crossbow can only shoot every other round due to the time it takes to wind them up. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-10071))_
 - But if not , they'll take one round to prepare and can only be thrown every other round. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-10073))_
 - However, this is only if you have arrows ready in your quiver. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-10074))_
-
-## Technical atoms
-
-### Technical frame 1: Number of Projectile Shots
-
-**Context:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-10071))_
-
-> A crossbow can only shoot every other round due to the time it takes to wind them up. If you set a quarrel in advance, the fi rst shot will not take long. However, if you leave it set for a long time, the string will lose its elasticity, and the quarrel will easily come off if you tip the crossbow.
-
-**Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-10072))_
-
-<a id="atom-technical-atom-6ca3b2eb8cfc6a97"></a>
-| Shield Name | Evasion Speed Mod. | Attack Power Mod. |
-| --- | --- | --- |
-| Small Shields | +1 | ±0 |
-| Large Shields | +2 | -1 |
-
-<details>
-<summary>Raw table text</summary>
-
-```text
-Shield Modifiers
-| Shield Name | Evasion Speed Mod. | Attack Power Mod. |
-| --- | --- | --- |
-| Small Shields | +1 | ±0 |
-| Large Shields | +2 | -1 |
-```
-
-</details>

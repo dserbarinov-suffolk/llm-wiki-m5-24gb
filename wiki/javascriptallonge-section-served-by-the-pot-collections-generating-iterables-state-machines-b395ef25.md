@@ -1,7 +1,7 @@
 ---
 page_id: javascriptallonge-section-served-by-the-pot-collections-generating-iterables-state-machines-b395ef25
 page_kind: source
-summary: Served by the Pot: Collections / Generating Iterables / state machines: 16 source-backed entries and 0 atom(s) from raw/javascriptallonge.pdf.
+summary: Served by the Pot: Collections / Generating Iterables / state machines: 15 source-backed entries and 0 atom(s) from raw/javascriptallonge.pdf.
 page_family: section-reference
 sources: raw/javascriptallonge.pdf
 updated: 2026-07-07

@@ -1,7 +1,7 @@
 ---
 page_id: javascriptallonge-section-mutation-mutation-and-data-structures-fe3c8850
 page_kind: source
-summary: Mutation / mutation and data structures: 12 source-backed entries and 1 atom(s) from raw/javascriptallonge.pdf.
+summary: Mutation / mutation and data structures: 11 source-backed entries and 1 atom(s) from raw/javascriptallonge.pdf.
 page_family: section-reference
 sources: raw/javascriptallonge.pdf
 updated: 2026-07-07

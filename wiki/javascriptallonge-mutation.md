@@ -1,13 +1,13 @@
 ---
 page_id: javascriptallonge-mutation
 page_kind: concept
-summary: Mutation: 4 statement(s) and 3 atom(s) from raw/javascriptallonge.pdf.
+summary: Mutation: 4 statement(s) and 2 atom(s) from raw/javascriptallonge.pdf.
 page_family: topic-concept
 sources: raw/javascriptallonge.pdf
 updated: 2026-07-07
 domain: javascriptallonge
 category_path: concepts
-projection_coverage: topic-javascriptallonge-mutation@1f7c4e49f683c50c6e8b2e0d981faebb
+projection_coverage: topic-javascriptallonge-mutation@a0893cfb4fdfc35b5fe87aee07d6c67e
 ---
 
 # Mutation
@@ -65,23 +65,14 @@ OneToFive
 //=> [1,2,3,4,5]
 ```
 
-### Technical frame 3: Mutation / mutation and data structures
-
-**Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01126))_
-
-> The gathering operation [a, b, ...ThreeToFive] is slower, but 'safer. '
-
-**Atom:** _(javascriptallonge.pdf (source-range-c98ab3e6-01127))_
-
-<a id="atom-technical-atom-3d29236dca19d99c"></a>
-> We don't have to remember to use copying operations when we pass it as a value to a function, or extract some data from it.
-
 
 ## Related pages
 
 ### Source structure
 
-- [[javascriptallonge-section-mutation-ae8039d8]] - source section: Mutation shares source evidence from Mutation: In JavaScript, almost every type of value can mutate . Their identities stay the same, but not their structure. Specifically, arrays and objects can mutate. Recall t ... [truncated]; Mutation shares technical record from Mutation: const oneTwoThree = [1, 2, 3]; oneTwoThree[0] = 'one'; oneTwoThree //=> [ 'one', 2, 3 ] (25 shared statement(s), 14 shared atom(s))
+- [[javascriptallonge-section-mutation-ae8039d8]] - source section: Mutation shares source evidence from Mutation: In JavaScript, almost every type of value can mutate . Their identities stay the same, but not their structure. Specifically, arrays and objects can mutate. Recall t ... [truncated]; Mutation shares technical record from Mutation: const oneTwoThree = [1, 2, 3]; oneTwoThree[0] = 'one'; oneTwoThree //=> [ 'one', 2, 3 ] (25 shared statement(s), 13 shared atom(s))
+- [[javascriptallonge-section-mutation-building-with-mutation-e30d36e8]] - source section: Mutation / building with mutation
+- [[javascriptallonge-section-mutation-mutation-and-data-structures-fe3c8850]] - source section: Mutation / mutation and data structures
 
 ### Shared claims
 

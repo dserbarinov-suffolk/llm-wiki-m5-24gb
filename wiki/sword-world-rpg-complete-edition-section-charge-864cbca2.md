@@ -1,14 +1,14 @@
 ---
 page_id: sword-world-rpg-complete-edition-section-charge-864cbca2
 page_kind: source
-summary: Charge: 20 source-backed entries and 3 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+summary: Charge: 17 source-backed entries and 2 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: section-reference
 sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-07
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-charge-864cbca2@54e61bdcaa6652d343e5c0ae16adf18f
+projection_coverage: section-sword-world-rpg-complete-edition-section-charge-864cbca2@9934dcd80e5ed523c6cff806ebfce777
 ---
 
 # Charge
@@ -58,14 +58,3 @@ From [[sword-world-rpg-complete-edition]].
 
 <a id="atom-technical-atom-53abe97ac1e8c386"></a>
 > If you're attacked by a projectile in the middle of a charge, your evasion against it always suffers a -4 penalty.
-
-### Technical frame 3: Charge
-
-**Context:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-10203))_
-
-> An opponent who's struck by a charge can take a counterattack action in response. Regardless of whether the charge was a hit or a failure, the opponent can attack at the end of the round . If you charged, you'll suffer a -4 penalty to your evasion when dodging this attack. Of course, this is not possible if you're taking a different action, such as casting magic, etc.
-
-**Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-10204))_
-
-<a id="atom-technical-atom-de2c4307a14bf5e2"></a>
-> If your opponent's weapon is a spear, etc., you may both charge each other this includes cases where you're waiting.

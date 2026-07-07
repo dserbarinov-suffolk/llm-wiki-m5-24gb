@@ -1,7 +1,7 @@
 ---
 page_id: sword-world-rpg-complete-edition-section-hold-gnome-earth-spirit-87c3c5ef
 page_kind: source
-summary: [ Hold ] (Gnome/Earth Spirit): 7 source-backed entries and 0 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+summary: [ Hold ] (Gnome/Earth Spirit): 5 source-backed entries and 0 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: section-reference
 sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-07

@@ -7,7 +7,7 @@ sources: raw/javascriptallonge.pdf
 updated: 2026-07-07
 domain: javascriptallonge
 category_path: concepts
-projection_coverage: topic-javascriptallonge-fat-arrow@5dc8bd8082b9ccc017ed3ea26be837b9
+projection_coverage: topic-javascriptallonge-fat-arrow@e7707ce5817c5c1eac5b070e3eebd34d
 ---
 
 # Fat Arrow
@@ -65,6 +65,10 @@ row(3)
 
 
 ## Related pages
+
+### Source structure
+
+- [[javascriptallonge-section-magic-names-magic-names-and-fat-arrows-10e3f519]] - source section: Magic Names / magic names and fat arrows
 
 ### Shared technical atoms
 

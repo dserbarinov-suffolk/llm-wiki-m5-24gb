@@ -7,7 +7,7 @@ sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-07
 domain: sword-world-rpg-complete-edition
 category_path: concepts
-projection_coverage: topic-sword-world-rpg-complete-edition-double-sixe@5716ccd62a657ddb2b0ccaf70172ddff
+projection_coverage: topic-sword-world-rpg-complete-edition-double-sixe@52d9335855b23cb349c79f1cc5d0ef02
 ---
 
 # Double Sixe
@@ -40,6 +40,10 @@ What [[sword-world-rpg-complete-edition]] covers about double sixe:
 
 
 ## Related pages
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-double-sixes-and-double-ones-582ed4b1]] - source section: Double Sixes and Double Ones
 
 ### Shared technical atoms
 

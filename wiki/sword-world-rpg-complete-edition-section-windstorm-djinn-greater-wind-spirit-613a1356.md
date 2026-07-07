@@ -1,7 +1,7 @@
 ---
 page_id: sword-world-rpg-complete-edition-section-windstorm-djinn-greater-wind-spirit-613a1356
 page_kind: source
-summary: [ Windstorm ] (Djinn/Greater Wind Spirit): 17 source-backed entries and 0 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+summary: [ Windstorm ] (Djinn/Greater Wind Spirit): 16 source-backed entries and 0 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: section-reference
 sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-07

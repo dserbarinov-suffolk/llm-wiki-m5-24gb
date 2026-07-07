@@ -7,7 +7,7 @@ sources: raw/javascriptallonge.pdf
 updated: 2026-07-07
 domain: javascriptallonge
 category_path: concepts
-projection_coverage: topic-javascriptallonge-copy-write@5c0a7785e8741ff57a4f49bb1ff80b7f
+projection_coverage: topic-javascriptallonge-copy-write@05c457412d47ca9df2e93419660126c7
 ---
 
 # Copy on Write
@@ -483,6 +483,10 @@ sumFoldable(foldTree([1, [4, [9, 16]], 25]))
 
 - [[javascriptallonge-section-copy-on-write-d081f846]] - source section: Copy on Write shares source evidence from Copy on Write: We've seen how to build lists with arrays and with linked lists. We've touched on an important difference between them:; Copy on Write shares technical record from Copy on Write: The consequence of this is that if you have an array, and you take it's 'rest,' your 'child' array is a copy of the elements of the parent array. (34 shared statement(s), 16 shared atom(s))
 - [[javascriptallonge-section-copy-on-write-a-few-utilities-copy-on-write-db9192e0]] - source section: Copy on Write / a few utilities / copy-on-write shares source evidence from Copy on Write / a few utilities / copy-on-write: But our new parent and child lists are copies that contain the desired modifications, without interfering with each other:; Copy on Write / a few utilities / copy-on-write shares technical record from Copy on Write / a few utilities / copy-on-write: const rest = ({first, rest}) => rest; const set = (index, value, list) => index === 0 ? { first: value, rest: list.rest } : { first: list.first, rest: set(index - 1, ... [truncated] (7 shared statement(s), 3 shared atom(s))
+- [[javascriptallonge-section-copy-on-write-a-few-utilities-7b82367a]] - source section: Copy on Write / a few utilities
+- [[javascriptallonge-section-copy-on-write-a-few-utilities-copy-on-read-2d301e7a]] - source section: Copy on Write / a few utilities / copy-on-read
+- [[javascriptallonge-section-copy-on-write-functional-iterators-74724e0a]] - source section: Copy on Write / Functional Iterators
+- [[javascriptallonge-section-copy-on-write-tortoises-hares-and-teleporting-turtles-3a4746f2]] - source section: Copy on Write / Tortoises, Hares, and Teleporting Turtles
 
 ### Shared technical atoms
 

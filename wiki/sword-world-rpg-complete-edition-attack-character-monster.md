@@ -1,13 +1,13 @@
 ---
 page_id: sword-world-rpg-complete-edition-attack-character-monster
 page_kind: concept
-summary: Attacks From Characters Against Monsters: 45 statement(s) and 13 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+summary: Attacks From Characters Against Monsters: 45 statement(s) and 11 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: broad-topic
 sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-07
 domain: sword-world-rpg-complete-edition
 category_path: concepts
-projection_coverage: topic-sword-world-rpg-complete-edition-attack-character-monster@245ee48e428bff36f54a034df076dd83
+projection_coverage: topic-sword-world-rpg-complete-edition-attack-character-monster@a6ca2f59ba60bbea3099eb2e989b3416
 ---
 
 # Attacks From Characters Against Monsters
@@ -101,35 +101,19 @@ What [[sword-world-rpg-complete-edition]] covers about attacks from characters a
 <a id="atom-technical-atom-9c0b1cb995ef27e2"></a>
 > Once you've determined base damage, you must then add your character's bonus damage.
 
-### Technical frame 5: Attacks From Characters Against Monsters / 4.5.3 Bonus Damage
-
-**Context:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01250))_
-
-> If base damage is 14, the total damage is 14+4= 18 .
-
-**Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01251))_
-
-<a id="atom-technical-atom-3c98fdcb0fd2af52"></a>
-> When determining base damage (strike roll), if you suddenly roll double ones, the damage will always be 0 .
-
-### Technical frame 6: Attacks From Characters Against Monsters
-
-**Context:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-09900))_
-
-> As in the previous section, this is the process for a success roll with monster's evasion points -7 as the difficulty . Therefore, a tie would result in character's attack success = monster's evasion failure . Please remember that the game master should be considered fi rst to roll the dice.
-
-**Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-09899))_
-
-<a id="atom-technical-atom-6eaa85a4f7c29f33"></a>
-> The game master should roll 2D and add it to the number in parenthesis.
-
 
 ## Related pages
 
 ### Source structure
 
-- [[sword-world-rpg-complete-edition-section-attacks-from-characters-against-monsters-2a2d8681]] - source section: Attacks From Characters Against Monsters shares source evidence from Attacks From Characters Against Monsters / 4.5.1 Hit Checks: In other words, you roll 2D and add the result to your attack power (fighter/thief/ranger skill level + dexterity bonus) in order to meet or exceed a certain target score.; Attacks From Characters Against Monsters shares technical record from Attacks From Characters Against Monsters / 4.5.1 Hit Checks: When a character attacks a monster, they must make a success roll hit check, using attack power as the baseline score. (39 shared statement(s), 12 shared atom(s))
-- [[sword-world-rpg-complete-edition-section-attacks-from-characters-against-monsters-0da0781a]] - source section: Attacks From Characters Against Monsters shares source evidence from Attacks From Characters Against Monsters: A score equal to a monster's evasion points - 7 is written next to it in parenthesis. This is used here. The game master should roll 2D and add it to the number in p ... [truncated]; Attacks From Characters Against Monsters shares technical record from Attacks From Characters Against Monsters: The game master should roll 2D and add it to the number in parenthesis. (6 shared statement(s), 1 shared atom(s))
+- [[sword-world-rpg-complete-edition-section-attacks-from-characters-against-monsters-2a2d8681]] - source section: Attacks From Characters Against Monsters shares source evidence from Attacks From Characters Against Monsters / 4.5.1 Hit Checks: In other words, you roll 2D and add the result to your attack power (fighter/thief/ranger skill level + dexterity bonus) in order to meet or exceed a certain target score.; Attacks From Characters Against Monsters shares technical record from Attacks From Characters Against Monsters / 4.5.1 Hit Checks: When a character attacks a monster, they must make a success roll hit check, using attack power as the baseline score. (39 shared statement(s), 11 shared atom(s))
+- [[sword-world-rpg-complete-edition-section-attacks-from-characters-against-monsters-0da0781a]] - source section: Attacks From Characters Against Monsters shares source evidence from Attacks From Characters Against Monsters: A score equal to a monster's evasion points - 7 is written next to it in parenthesis. This is used here. The game master should roll 2D and add it to the number in p ... [truncated] (6 shared statement(s))
+- [[sword-world-rpg-complete-edition-section-attacks-from-characters-against-monsters-4-5-1-hit-checks-40e2447c]] - source section: Attacks From Characters Against Monsters / 4.5.1 Hit Checks
+- [[sword-world-rpg-complete-edition-section-attacks-from-characters-against-monsters-4-5-2-determining-base-damage-strike-roll-08758977]] - source section: Attacks From Characters Against Monsters / 4.5.2 Determining Base Damage (Strike Roll)
+- [[sword-world-rpg-complete-edition-section-attacks-from-characters-against-monsters-4-5-3-bonus-damage-66d7239b]] - source section: Attacks From Characters Against Monsters / 4.5.3 Bonus Damage
+- [[sword-world-rpg-complete-edition-section-attacks-from-characters-against-monsters-4-5-4-monster-defense-points-c48dcc4c]] - source section: Attacks From Characters Against Monsters / 4.5.4 Monster Defense Points
+- [[sword-world-rpg-complete-edition-section-attacks-from-characters-against-monsters-4-5-5-final-damage-3ad5f07b]] - source section: Attacks From Characters Against Monsters / 4.5.5 Final Damage
+- [[sword-world-rpg-complete-edition-section-attacks-from-monsters-against-characters-36abcdc4]] - source section: Attacks From Monsters Against Characters
 
 ### Shared technical atoms
 

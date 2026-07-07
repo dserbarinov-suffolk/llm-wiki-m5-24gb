@@ -1,7 +1,7 @@
 ---
 page_id: sword-world-rpg-complete-edition-section-scores-used-in-weapon-combat-67749e71
 page_kind: source
-summary: Scores Used in Weapon Combat: 50 source-backed entries and 0 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+summary: Scores Used in Weapon Combat: 49 source-backed entries and 0 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: section-reference
 sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-07

@@ -8,7 +8,7 @@ updated: 2026-07-07
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-4-7-2-damage-checks-dcc87885@fc78ae502a43b5e0bee2d0e4d989bc6c
+projection_coverage: section-sword-world-rpg-complete-edition-section-4-7-2-damage-checks-dcc87885@76d675de9bbb6dcd30b1a1a81fd900e3
 ---
 
 # 4.7.2 Damage Checks
@@ -20,7 +20,6 @@ From [[sword-world-rpg-complete-edition]].
 ### Source order
 
 - [[sword-world-rpg-complete-edition-section-double-sixes-and-double-ones-582ed4b1]] - previous source section: Double Sixes and Double Ones
-- [[sword-world-rpg-complete-edition-section-4-8-applying-damage-57a4ac35]] - next source section: 4.8 Applying Damage
 
 ## Statements
 

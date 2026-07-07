@@ -1,14 +1,14 @@
 ---
 page_id: sword-world-rpg-complete-edition-section-14-4-2-list-of-magical-items-81eb966f
 page_kind: source
-summary: 14.4.2 List of Magical Items: 108 source-backed entries and 1 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+summary: 14.4.2 List of Magical Items: 108 source-backed entries and 2 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: section-reference
 sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-07
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-14-4-2-list-of-magical-items-81eb966f@e1d20b2b8672826b4e8cf08c9c470fb4
+projection_coverage: section-sword-world-rpg-complete-edition-section-14-4-2-list-of-magical-items-81eb966f@11d811cbfed15fd84fc0318374830a28
 ---
 
 # 14.4.2 List of Magical Items
@@ -69,6 +69,51 @@ From [[sword-world-rpg-complete-edition]].
 ## Technical atoms
 
 ### Technical frame 1: 14.4.2 List of Magical Items
+
+**Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-08825))_
+
+<a id="atom-technical-atom-53422ddb34de3a35"></a>
+| Required | Price | Required | Price |
+| --- | --- | --- | --- |
+| Strength | (Gamels) | Strength | (Gamels) |
+| 1 | 2800 | 13 | 6700 |
+| 2 | 3000 | 14 | 8900 |
+| 3 | 3400 | 15 | 11000 |
+| 4 | 3800 | 16 | 13000 |
+| 5 | 4100 | 17 | 15000 |
+| 6 | 4300 | 18 | 17000 |
+| 7 | 4600 | 19 | 19000 |
+| 8 | 4900 | 20 | 22000 |
+| 9 | 5100 | 21 | 24000 |
+| 10 | 5400 | 22 | 26000 |
+| 11 | 5600 | 23 | 29000 |
+| 12 | 5800 | 24 | 32000 |
+
+<details>
+<summary>Raw table text</summary>
+
+```text
+14.4.2 List of Magical Items
+| Required | Price | Required | Price |
+| --- | --- | --- | --- |
+| Strength | (Gamels) | Strength | (Gamels) |
+| 1 | 2800 | 13 | 6700 |
+| 2 | 3000 | 14 | 8900 |
+| 3 | 3400 | 15 | 11000 |
+| 4 | 3800 | 16 | 13000 |
+| 5 | 4100 | 17 | 15000 |
+| 6 | 4300 | 18 | 17000 |
+| 7 | 4600 | 19 | 19000 |
+| 8 | 4900 | 20 | 22000 |
+| 9 | 5100 | 21 | 24000 |
+| 10 | 5400 | 22 | 26000 |
+| 11 | 5600 | 23 | 29000 |
+| 12 | 5800 | 24 | 32000 |
+```
+
+</details>
+
+### Technical frame 2: 14.4.2 List of Magical Items
 
 **Context:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-08973))_
 

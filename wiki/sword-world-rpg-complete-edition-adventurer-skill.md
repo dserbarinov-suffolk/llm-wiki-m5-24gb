@@ -7,7 +7,7 @@ sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-07
 domain: sword-world-rpg-complete-edition
 category_path: concepts
-projection_coverage: topic-sword-world-rpg-complete-edition-adventurer-skill@a1c323ae7b12972263b4917884f3bb7e
+projection_coverage: topic-sword-world-rpg-complete-edition-adventurer-skill@8c66164b630ecd7d95ee4f93bd1793ec
 ---
 
 # Adventurer Skill
@@ -28,6 +28,13 @@ What [[sword-world-rpg-complete-edition]] covers about adventurer skill:
 
 - This is a skill related to trade. Merchants are a class with a lot of freedom in Sword World , and often travel for trade purposes. Among them are peddlers who are always traveling and doing business. Merchants are usually issued a merchant's pass by the king as proof of their status. A person holding this is given the right to open a shop in public. Therefore, if some of the adventurers have this skill, they can also sell the items they obtain from their adventures in shops or on the street. A _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-04226))_
 
+
+## Related pages
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-1-3-4-explanation-of-adventurer-skills-e25e82e6]] - source section: 1.3.4 Explanation of Adventurer Skills
+- [[sword-world-rpg-complete-edition-section-the-difference-between-general-skills-and-adventurer-skills-18d63dc8]] - source section: The Difference Between General Skills and Adventurer Skills
 
 ## Source
 

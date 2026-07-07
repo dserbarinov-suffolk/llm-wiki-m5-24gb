@@ -7,7 +7,7 @@ sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-07
 domain: sword-world-rpg-complete-edition
 category_path: concepts
-projection_coverage: topic-sword-world-rpg-complete-edition-armor-based-skill@030e991ef2c465163c2636c796e4c934
+projection_coverage: topic-sword-world-rpg-complete-edition-armor-based-skill@477305ed08a89077f8f8f62141e9a409
 ---
 
 # Armor Based Skill
@@ -75,6 +75,10 @@ What [[sword-world-rpg-complete-edition]] covers about armor based skill:
 
 
 ## Related pages
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-1-4-7-restrictions-on-weapons-and-armor-based-on-skill-efcf48dc]] - source section: 1.4.7 Restrictions on Weapons and Armor Based on Skill
 
 ### Shared technical atoms
 

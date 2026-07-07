@@ -1,7 +1,7 @@
 ---
 page_id: sword-world-rpg-complete-edition-section-sink-undine-water-spirit-c600297c
 page_kind: source
-summary: [ Sink ] (Undine/Water Spirit): 7 source-backed entries and 0 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+summary: [ Sink ] (Undine/Water Spirit): 6 source-backed entries and 0 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: section-reference
 sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-07

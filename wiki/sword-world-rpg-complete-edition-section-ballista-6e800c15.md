@@ -1,14 +1,14 @@
 ---
 page_id: sword-world-rpg-complete-edition-section-ballista-6e800c15
 page_kind: source
-summary: Ballista: 8 source-backed entries and 0 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+summary: Ballista: 7 source-backed entries and 0 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: section-reference
 sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-07
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-ballista-6e800c15@9eff8a5bdee7a250e593eb2cd5e4b2dc
+projection_coverage: section-sword-world-rpg-complete-edition-section-ballista-6e800c15@cb7dbd6997f7185e39c24808df7d8130
 ---
 
 # Ballista
@@ -19,7 +19,6 @@ From [[sword-world-rpg-complete-edition]].
 
 ### Source order
 
-- [[sword-world-rpg-complete-edition-section-cranequin-crossbow-ee8e3303]] - previous source section: Cranequin Crossbow
 - [[sword-world-rpg-complete-edition-section-lance-5299770b]] - next source section: Lance
 
 ## Statements

@@ -1,7 +1,7 @@
 ---
 page_id: sword-world-rpg-complete-edition-section-1st-level-dragon-roar-magic-list-iron-stomach-385b53a7
 page_kind: source
-summary: 1st Level Dragon Roar Magic List [ Iron Stomach ]: 26 source-backed entries and 0 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+summary: 1st Level Dragon Roar Magic List [ Iron Stomach ]: 25 source-backed entries and 0 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: section-reference
 sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-07

@@ -1,13 +1,13 @@
 ---
 page_id: sword-world-rpg-complete-edition-precious-metal
 page_kind: concept
-summary: Precious Metal: 2 statement(s) and 1 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+summary: Precious Metal: 2 statement(s) and 0 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: topic-concept
 sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-07
 domain: sword-world-rpg-complete-edition
 category_path: concepts
-projection_coverage: topic-sword-world-rpg-complete-edition-precious-metal@ee8e3af58a329de40e5079c73eee8091
+projection_coverage: topic-sword-world-rpg-complete-edition-precious-metal@29227b921326f7bb3036b1125e3aaeba
 ---
 
 # Precious Metal
@@ -21,25 +21,15 @@ What [[sword-world-rpg-complete-edition]] covers about precious metal:
 - This refers to wares and handicrafts, etc., made from gems and precious metals. These include crowns, rings, brooches, earrings, necklaces, bracelets, etc., and other accessories that are made with gems or precious metals. This kind of treasure can be judged as treasure or junk by using the thief skill and sage skill's treasure appraisal ability. If you spend enough time, you can determine a specific price. Naturally, merchants who deal with this kind of item can also determine the price. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-08794))_
 
 
-## Technical atoms
-
-### Technical frame 1: Gems and Precious Metals
-
-**Context:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-08795))_
-
-> The lowest value is 10 silver coins, and the highest quality are worth around 10,000 silver coins.
-
-**Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-08794))_
-
-<a id="atom-technical-atom-a6c5d271661fcd9a"></a>
-> If you spend enough time, you can determine a specific price.
-
-
 ## Related pages
 
-### Shared technical atoms
+### Source structure
 
-- [[sword-world-rpg-complete-edition-gems]] - shared statements and technical atoms: Gems shares source evidence from Gems and Precious Metals: This refers to wares and handicrafts, etc., made from gems and precious metals. These include crowns, rings, brooches, earrings, necklaces, bracelets, etc., and othe ... [truncated]; Gems shares technical record from Gems and Precious Metals: If you spend enough time, you can determine a specific price. (2 shared statement(s), 1 shared atom(s))
+- [[sword-world-rpg-complete-edition-section-gems-and-precious-metals-c404e633]] - source section: Gems and Precious Metals
+
+### Shared claims
+
+- [[sword-world-rpg-complete-edition-gems]] - shared statements: Gems shares source evidence from Gems and Precious Metals: This refers to wares and handicrafts, etc., made from gems and precious metals. These include crowns, rings, brooches, earrings, necklaces, bracelets, etc., and othe ... [truncated] (2 shared statement(s))
 
 ## Source
 

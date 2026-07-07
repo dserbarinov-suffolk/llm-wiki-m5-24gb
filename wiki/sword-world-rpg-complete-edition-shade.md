@@ -1,13 +1,13 @@
 ---
 page_id: sword-world-rpg-complete-edition-shade
 page_kind: concept
-summary: Shade: 4 statement(s) and 6 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+summary: Shade: 4 statement(s) and 5 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: topic-concept
 sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-07
 domain: sword-world-rpg-complete-edition
 category_path: concepts
-projection_coverage: topic-sword-world-rpg-complete-edition-shade@7ebc3079ab4149382c2e15e1384c82bc
+projection_coverage: topic-sword-world-rpg-complete-edition-shade@39dbb7a50334a1200c5462aece896f00
 ---
 
 # Shade
@@ -23,19 +23,12 @@ What [[sword-world-rpg-complete-edition]] covers about shade:
 - If a shade itself comes into contact with a will-o-wisp's body or enters the area of effect of the ancient magic Light , it'll vanish without emitting any energy. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-02803))_
 
 
-## Technical atoms
+## Related pages
 
-### Technical frame 1: [ Shade ] (Shade/Dark Spirit)
+### Source structure
 
-**Context:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-02803))_
-
-> If a shade itself comes into contact with a will-o-wisp's body or enters the area of effect of the ancient magic Light , it'll vanish without emitting any energy.
-
-**Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-02802))_
-
-<a id="atom-technical-atom-b840f45b4ac7ce1c"></a>
-> The shade will fly freely in the air according to the caster's commands, but can no longer be controlled if it moves more than 20 meters away from the caster.
-
+- [[sword-world-rpg-complete-edition-section-fear-shade-dark-spirit-62cd44d7]] - source section: [ Fear ] (Shade/Dark Spirit)
+- [[sword-world-rpg-complete-edition-section-shade-shade-dark-spirit-ad660537]] - source section: [ Shade ] (Shade/Dark Spirit)
 
 ## Source
 

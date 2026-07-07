@@ -1,14 +1,14 @@
 ---
 page_id: sword-world-rpg-complete-edition-section-strong-blow-319b5638
 page_kind: source
-summary: Strong Blow: 8 source-backed entries and 2 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+summary: Strong Blow: 6 source-backed entries and 1 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: section-reference
 sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-07
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-strong-blow-319b5638@b93933ea6c11a2d1ab3135413f0683a0
+projection_coverage: section-sword-world-rpg-complete-edition-section-strong-blow-319b5638@92e6805ad2d88a7e490d4eac2c2c3047
 ---
 
 # Strong Blow
@@ -19,7 +19,6 @@ From [[sword-world-rpg-complete-edition]].
 
 ### Source order
 
-- [[sword-world-rpg-complete-edition-section-full-defense-e40a1070]] - previous source section: Full Defense
 - [[sword-world-rpg-complete-edition-section-charge-864cbca2]] - next source section: Charge
 
 ## Statements
@@ -33,22 +32,59 @@ From [[sword-world-rpg-complete-edition]].
 
 ### Technical frame 1: Strong Blow
 
-**Context:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-10196))_
+**Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-10171))_
 
-> When using this optional rule, ignore the critical target -1 when attacking a sleeping or defenseless target rule (see p. 139). This is because it's automatically assumed to be a strong blow. Y ou can choose critical target -1 , or you can choose bonus damage +2 instead.
+<a id="atom-technical-atom-f43d4043f7da20e6"></a>
+| Dagger | 30 |
+| --- | --- |
+| Hand Ax | 20 + Character's Strength |
+| Javelin | 30 + Character's Strength x 3 |
+| Short Spear | 25 + Character's Strength x 2 |
+| Trident | 20 + Character's Strength x 2 |
+| Boomerang | 20 + (Character's Strength - Required Strength) x 2 |
+| Club | 20 + (Character's Strength - Required Strength) x 2 |
+| Shortbow | 100 + Required Strength x 5 |
+| Longbow | 120 + Required Strength x 5 |
+| Light Crossbow | 80 + Required Strength x 5 |
+| Heavy Crossbow | 100 + Required Strength x 5 |
+| Sling | 100 |
+| Staff Sling | 100 |
+| Rock | 20 + (Character's Strength - Required Strength) x 5 |
+| Net | 5 |
+| Bola | 20 + (Character's Strength - Required Strength x 3 |
+| Light Cranequin Crossbow | 80 + Required Strength x 10 |
+| Heavy Cranequin Crossbow | 100 + Required Strength x 10 |
+| Ballista | 150 + Required Strength x 10 |
+| Prod | 100 |
+| Dart | 20 |
 
-**Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-10194))_
+<details>
+<summary>Raw table text</summary>
 
-<a id="atom-technical-atom-0c9c16bfb2c570ec"></a>
-> You cannot declare mercy (of course!).
+```text
+Strong Blow
+| Dagger | 30 |
+| --- | --- |
+| Hand Ax | 20 + Character's Strength |
+| Javelin | 30 + Character's Strength x 3 |
+| Short Spear | 25 + Character's Strength x 2 |
+| Trident | 20 + Character's Strength x 2 |
+| Boomerang | 20 + (Character's Strength - Required Strength) x 2 |
+| Club | 20 + (Character's Strength - Required Strength) x 2 |
+| Shortbow | 100 + Required Strength x 5 |
+| Longbow | 120 + Required Strength x 5 |
+| Light Crossbow | 80 + Required Strength x 5 |
+| Heavy Crossbow | 100 + Required Strength x 5 |
+| Sling | 100 |
+| Staff Sling | 100 |
+| Rock | 20 + (Character's Strength - Required Strength) x 5 |
+| Net | 5 |
+| Bola | 20 + (Character's Strength - Required Strength x 3 |
+| Light Cranequin Crossbow | 80 + Required Strength x 10 |
+| Heavy Cranequin Crossbow | 100 + Required Strength x 10 |
+| Ballista | 150 + Required Strength x 10 |
+| Prod | 100 |
+| Dart | 20 |
+```
 
-### Technical frame 2: Strong Blow
-
-**Context:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-10196))_
-
-> When using this optional rule, ignore the critical target -1 when attacking a sleeping or defenseless target rule (see p. 139). This is because it's automatically assumed to be a strong blow. Y ou can choose critical target -1 , or you can choose bonus damage +2 instead.
-
-**Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-10195))_
-
-<a id="atom-technical-atom-9d828d655a11b191"></a>
-> However, if you're attacked during the round in which you took this action, your evasion speed will be reduced by -4.
+</details>

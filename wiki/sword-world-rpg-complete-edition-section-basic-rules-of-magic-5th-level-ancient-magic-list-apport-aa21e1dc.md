@@ -1,7 +1,7 @@
 ---
 page_id: sword-world-rpg-complete-edition-section-basic-rules-of-magic-5th-level-ancient-magic-list-apport-aa21e1dc
 page_kind: source
-summary: Basic Rules of Magic / 5th Level Ancient Magic List [ Apport ]: 89 source-backed entries and 0 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+summary: Basic Rules of Magic / 5th Level Ancient Magic List [ Apport ]: 88 source-backed entries and 0 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: section-reference
 sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-07

@@ -7,7 +7,7 @@ sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-07
 domain: sword-world-rpg-complete-edition
 category_path: concepts
-projection_coverage: topic-sword-world-rpg-complete-edition-greater-ice-spirit@8f9985c02f64781f855f10efea2b742e
+projection_coverage: topic-sword-world-rpg-complete-edition-greater-ice-spirit@3eb4c0b23e58a696b9bef6a5aac30248
 ---
 
 # Greater Ice Spirit
@@ -130,6 +130,12 @@ What [[sword-world-rpg-complete-edition]] covers about greater ice spirit:
 <a id="atom-technical-atom-a6017071efcb40ff"></a>
 > Even if you expand this spell and use it, you cannot neutralize two or more types of spirit power at the same time.
 
+
+## Related pages
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-freeze-fenrir-greater-ice-spirit-1da8ba25]] - source section: [ Freeze ] (Fenrir/Greater Ice Spirit)
 
 ## Source
 

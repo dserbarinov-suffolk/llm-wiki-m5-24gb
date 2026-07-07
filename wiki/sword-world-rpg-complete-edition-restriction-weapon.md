@@ -7,7 +7,7 @@ sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-07
 domain: sword-world-rpg-complete-edition
 category_path: concepts
-projection_coverage: topic-sword-world-rpg-complete-edition-restriction-weapon@98d22def40b9b6d1844a096d980a051c
+projection_coverage: topic-sword-world-rpg-complete-edition-restriction-weapon@c8f28b758e7071b50238601069353ee2
 ---
 
 # Restriction Weapon
@@ -84,6 +84,10 @@ What [[sword-world-rpg-complete-edition]] covers about restriction weapon:
 
 
 ## Related pages
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-1-4-7-restrictions-on-weapons-and-armor-based-on-skill-efcf48dc]] - source section: 1.4.7 Restrictions on Weapons and Armor Based on Skill
 
 ### Shared technical atoms
 

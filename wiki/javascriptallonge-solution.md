@@ -7,7 +7,7 @@ sources: raw/javascriptallonge.pdf
 updated: 2026-07-07
 domain: javascriptallonge
 category_path: concepts
-projection_coverage: topic-javascriptallonge-solution@c13225eb87f662d94270ff00651836ac
+projection_coverage: topic-javascriptallonge-solution@94dd6ec31ba9c7058a0cbf68734de279
 ---
 
 # Solution
@@ -51,6 +51,10 @@ lengthDelaysWork(["foo", "bar", "baz"], 0)
 
 
 ## Related pages
+
+### Source structure
+
+- [[javascriptallonge-section-interlude-the-carpenter-interviews-for-a-job-the-carpenter-s-solution-bad172f9]] - source section: Interlude: The Carpenter Interviews for a Job / the carpenter's solution
 
 ### Shared claims
 

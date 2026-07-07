@@ -1,14 +1,14 @@
 ---
 page_id: sword-world-rpg-complete-edition-section-lance-5299770b
 page_kind: source
-summary: Lance: 10 source-backed entries and 0 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+summary: Lance: 9 source-backed entries and 0 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: section-reference
 sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-07
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-lance-5299770b@213eecfcd3e8bdc95c0a0baa9a60a0c7
+projection_coverage: section-sword-world-rpg-complete-edition-section-lance-5299770b@c51c5e90fdb1a88005f0ba87c8d55b42
 ---
 
 # Lance
@@ -20,7 +20,6 @@ From [[sword-world-rpg-complete-edition]].
 ### Source order
 
 - [[sword-world-rpg-complete-edition-section-ballista-6e800c15]] - previous source section: Ballista
-- [[sword-world-rpg-complete-edition-section-boomerang-b794e547]] - next source section: Boomerang
 
 ## Statements
 

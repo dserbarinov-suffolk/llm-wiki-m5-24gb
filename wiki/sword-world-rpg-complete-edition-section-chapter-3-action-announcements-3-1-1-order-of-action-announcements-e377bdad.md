@@ -1,7 +1,7 @@
 ---
 page_id: sword-world-rpg-complete-edition-section-chapter-3-action-announcements-3-1-1-order-of-action-announcements-e377bdad
 page_kind: source
-summary: Chapter 3: / Action Announcements / 3.1.1 Order of Action Announcements: 21 source-backed entries and 1 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+summary: Chapter 3: / Action Announcements / 3.1.1 Order of Action Announcements: 19 source-backed entries and 1 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: section-reference
 sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-07

@@ -7,7 +7,7 @@ sources: raw/javascriptallonge.pdf
 updated: 2026-07-07
 domain: javascriptallonge
 category_path: concepts
-projection_coverage: topic-javascriptallonge-decorator@ce337f3fc41f5b25d411638c9cd15aab
+projection_coverage: topic-javascriptallonge-decorator@3e7bb1c75415c050c27b2a06a01c338d
 ---
 
 # Decorator
@@ -137,6 +137,13 @@ return fn.apply(this, args)
 
 
 ## Related pages
+
+### Source structure
+
+- [[javascriptallonge-section-combinators-and-function-decorators-901f172c]] - source section: Combinators and Function Decorators
+- [[javascriptallonge-section-combinators-and-function-decorators-combinators-96e491bc]] - source section: Combinators and Function Decorators / combinators
+- [[javascriptallonge-section-combinators-and-function-decorators-function-decorators-9d6990ae]] - source section: Combinators and Function Decorators / function decorators
+- [[javascriptallonge-section-combinators-and-function-decorators-higher-order-functions-c07c644e]] - source section: Combinators and Function Decorators / higher-order functions
 
 ### Shared technical atoms
 

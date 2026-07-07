@@ -1,7 +1,7 @@
 ---
 page_id: sword-world-rpg-complete-edition-section-guidelines-for-adventurer-age-and-ability-score-changes-e3b9a249
 page_kind: source
-summary: Guidelines for Adventurer Age and Ability Score Changes: 5 source-backed entries and 1 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+summary: Guidelines for Adventurer Age and Ability Score Changes: 4 source-backed entries and 1 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: section-reference
 sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-07

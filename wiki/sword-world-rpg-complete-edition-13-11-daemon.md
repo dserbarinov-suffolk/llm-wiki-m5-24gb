@@ -7,7 +7,7 @@ sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-07
 domain: sword-world-rpg-complete-edition
 category_path: concepts
-projection_coverage: topic-sword-world-rpg-complete-edition-13-11-daemon@1c513595a731f154294b4e571210ec17
+projection_coverage: topic-sword-world-rpg-complete-edition-13-11-daemon@2cb0bc03f96bdc2ca0ed0cbd07d902a7
 ---
 
 # 13 11 Daemon
@@ -154,6 +154,14 @@ What [[sword-world-rpg-complete-edition]] covers about 13 11 daemon:
 <a id="atom-technical-atom-c9ea26a7b8e3177e"></a>
 > Mental Points/Resistance=25/17 (10)
 
+
+## Related pages
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-13-2-11-daemons-underworld-creatures-acef5a51]] - source section: 13.2.11 Daemons/Underworld Creatures
+- [[sword-world-rpg-complete-edition-section-13-2-11-daemons-underworld-creatures-greater-daemons-doppelganger-c893337b]] - source section: 13.2.11 Daemons/Underworld Creatures / [ Greater Daemons ] Doppelganger
+- [[sword-world-rpg-complete-edition-section-13-2-11-daemons-underworld-creatures-lesser-daemon-grunel-ad0c1ddc]] - source section: 13.2.11 Daemons/Underworld Creatures / [ Lesser Daemon ] Grunel
 
 ## Source
 

@@ -1,7 +1,7 @@
 ---
 page_id: sword-world-rpg-complete-edition-section-restore-health-the-unknown-spirit-of-life-7bd2e50e
 page_kind: source
-summary: [ Restore Health ] (The Unknown Spirit of Life): 11 source-backed entries and 0 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+summary: [ Restore Health ] (The Unknown Spirit of Life): 10 source-backed entries and 0 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: section-reference
 sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-07

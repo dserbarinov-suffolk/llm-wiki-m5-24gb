@@ -7,7 +7,7 @@ sources: raw/javascriptallonge.pdf
 updated: 2026-07-07
 domain: javascriptallonge
 category_path: concepts
-projection_coverage: topic-javascriptallonge-object@62a81ad094b527e1ae43a3a3ba460d01
+projection_coverage: topic-javascriptallonge-object@eb794d5ca162a5a281427dcf8584e0fc
 ---
 
 # Object
@@ -165,6 +165,15 @@ yield 3
 
 
 ## Related pages
+
+### Source structure
+
+- [[javascriptallonge-section-plain-old-javascript-objects-ae9a88a3]] - source section: Plain Old JavaScript Objects
+- [[javascriptallonge-section-plain-old-javascript-objects-destructuring-objects-6546a490]] - source section: Plain Old JavaScript Objects / destructuring objects
+- [[javascriptallonge-section-plain-old-javascript-objects-literal-object-syntax-41ad73a1]] - source section: Plain Old JavaScript Objects / literal object syntax
+- [[javascriptallonge-section-plain-old-javascript-objects-revisiting-linked-lists-4e16a53d]] - source section: Plain Old JavaScript Objects / revisiting linked lists
+- [[javascriptallonge-section-recipes-with-data-object-assign-8d8e0e13]] - source section: Recipes with Data / Object.assign
+- [[javascriptallonge-section-served-by-the-pot-collections-iteration-and-iterables-iterator-objects-cbbb8baa]] - source section: Served by the Pot: Collections / Iteration and Iterables / iterator objects
 
 ### Shared technical atoms
 

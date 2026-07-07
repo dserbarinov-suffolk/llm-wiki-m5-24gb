@@ -1,13 +1,13 @@
 ---
 page_id: sword-world-rpg-complete-edition-sword-breaker
 page_kind: concept
-summary: Sword Breaker: 2 statement(s) and 1 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+summary: Sword Breaker: 2 statement(s) and 0 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: topic-concept
 sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-07
 domain: sword-world-rpg-complete-edition
 category_path: concepts
-projection_coverage: topic-sword-world-rpg-complete-edition-sword-breaker@10c6f63310c8096e9a85dcf900c4bd9e
+projection_coverage: topic-sword-world-rpg-complete-edition-sword-breaker@1bd1b847791c86c739af92afa080f454
 ---
 
 # Sword Breaker
@@ -23,25 +23,15 @@ What [[sword-world-rpg-complete-edition]] covers about sword breaker:
 - Main-gauche and sword breaker have the same attack scores as a dagger . When attacking with both hands, you'll still suffer a -2 ／ -4 penalty. Also, if you use it for an attack, you'll lose the evasion bonus. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-10323))_
 
 
-## Technical atoms
-
-### Technical frame 1: Main-gauche/Sword Breaker
-
-**Context:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-10322))_
-
-> A sword breaker is a type of maingauche with serrated blades lined up along the back. It has a similar bonus to evasion speed, and moreover, if used skillfully, can break or drop an opponent's weapon. When you roll 2D for evasion, if you get double sixes , you can break your opponent's weapon. If you roll an 11 , and you evade your opponent's attack, you can make your opponent drop his or her weapon. Of course, your opponent's weapons are limited to daggers , rapiers , and short swords .
-
-**Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-10323))_
-
-<a id="atom-technical-atom-8717015bb7498832"></a>
-> Also, if you use it for an attack, you'll lose the evasion bonus.
-
-
 ## Related pages
 
-### Shared technical atoms
+### Source structure
 
-- [[sword-world-rpg-complete-edition-gauche]] - shared statements and technical atoms: Gauche shares source evidence from Main-gauche/Sword Breaker: Main-gauche and sword breaker have the same attack scores as a dagger . When attacking with both hands, you'll still suffer a -2 ／ -4 penalty. Also, if you use it fo ... [truncated]; Gauche shares technical record from Main-gauche/Sword Breaker: Also, if you use it for an attack, you'll lose the evasion bonus. (1 shared statement(s), 1 shared atom(s))
+- [[sword-world-rpg-complete-edition-section-main-gauche-sword-breaker-e6095cbe]] - source section: Main-gauche/Sword Breaker
+
+### Shared claims
+
+- [[sword-world-rpg-complete-edition-gauche]] - shared statements: Gauche shares source evidence from Main-gauche/Sword Breaker: Main-gauche and sword breaker have the same attack scores as a dagger . When attacking with both hands, you'll still suffer a -2 ／ -4 penalty. Also, if you use it fo ... [truncated] (1 shared statement(s))
 
 ## Source
 

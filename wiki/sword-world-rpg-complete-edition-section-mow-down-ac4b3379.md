@@ -1,7 +1,7 @@
 ---
 page_id: sword-world-rpg-complete-edition-section-mow-down-ac4b3379
 page_kind: source
-summary: Mow Down: 11 source-backed entries and 0 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+summary: Mow Down: 9 source-backed entries and 0 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: section-reference
 sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-07

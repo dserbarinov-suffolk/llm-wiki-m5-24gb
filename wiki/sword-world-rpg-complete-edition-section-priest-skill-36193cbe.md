@@ -8,18 +8,12 @@ updated: 2026-07-07
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-priest-skill-36193cbe@f16b3428ad0034aee860973002b6b3e4
+projection_coverage: section-sword-world-rpg-complete-edition-section-priest-skill-36193cbe@b99e59b72a23b8374fbcc8cfb88b793c
 ---
 
 # Priest Skill
 
 From [[sword-world-rpg-complete-edition]].
-
-## Related pages
-
-### Source order
-
-- [[sword-world-rpg-complete-edition-section-the-nameless-god-of-madness-wicked-god-a1089925]] - next source section: The Nameless God of Madness (Wicked God)
 
 ## Statements
 

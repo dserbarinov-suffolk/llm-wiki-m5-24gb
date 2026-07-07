@@ -7,7 +7,7 @@ sources: raw/javascriptallonge.pdf
 updated: 2026-07-07
 domain: javascriptallonge
 category_path: concepts
-projection_coverage: topic-javascriptallonge-declaration@ba9a48eb88f3f51c87ae4154a66606a8
+projection_coverage: topic-javascriptallonge-declaration@919632582706727320f13a161e260074
 ---
 
 # Declaration
@@ -136,6 +136,11 @@ factorial(4)
 
 
 ## Related pages
+
+### Source structure
+
+- [[javascriptallonge-section-naming-functions-function-declaration-caveats-34-2bc8359c]] - source section: Naming Functions / function declaration caveats 34
+- [[javascriptallonge-section-naming-functions-function-declarations-8c0a2df7]] - source section: Naming Functions / function declarations
 
 ### Shared technical atoms
 

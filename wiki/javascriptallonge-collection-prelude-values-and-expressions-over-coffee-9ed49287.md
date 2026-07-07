@@ -8,7 +8,7 @@ updated: 2026-07-07
 domain: javascriptallonge
 category_path: sources/javascriptallonge/collections
 source_id: javascriptallonge.pdf
-projection_coverage: collection-javascriptallonge-collection-prelude-values-and-expressions-over-coffee-9ed49287@e478cdbcde8c69b5e95042482a406993
+projection_coverage: collection-javascriptallonge-collection-prelude-values-and-expressions-over-coffee-9ed49287@0a90b312baf39aff498bd81aff4ab39a
 ---
 
 # Prelude: Values and Expressions over Coffee
@@ -26,5 +26,5 @@ Broader source section: [[javascriptallonge-section-prelude-values-and-expressio
 | Member | Source section | Evidence |
 | --- | --- | --- |
 | Prelude: Values and Expressions over Coffee / values are expressions | [[javascriptallonge-section-prelude-values-and-expressions-over-coffee-values-are-expressions-b4b22fa2]] | 22 statement(s), 28 atom(s) |
-| Prelude: Values and Expressions over Coffee / value types | [[javascriptallonge-section-prelude-values-and-expressions-over-coffee-value-types-cb5b0b74]] | 6 statement(s), 8 atom(s) |
+| Prelude: Values and Expressions over Coffee / value types | [[javascriptallonge-section-prelude-values-and-expressions-over-coffee-value-types-cb5b0b74]] | 6 statement(s), 4 atom(s) |
 | Prelude: Values and Expressions over Coffee / reference types | [[javascriptallonge-section-prelude-values-and-expressions-over-coffee-reference-types-11fd4275]] | 6 statement(s), 7 atom(s) |

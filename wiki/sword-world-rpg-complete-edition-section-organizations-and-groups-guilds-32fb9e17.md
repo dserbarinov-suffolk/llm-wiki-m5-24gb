@@ -1,29 +1,19 @@
 ---
 page_id: sword-world-rpg-complete-edition-section-organizations-and-groups-guilds-32fb9e17
 page_kind: source
-summary: Organizations and Groups / Guilds: 5 source-backed entries and 0 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+summary: Organizations and Groups / Guilds: 4 source-backed entries and 0 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: section-reference
 sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-07
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-organizations-and-groups-guilds-32fb9e17@8e9cc0c43f129cfeb2aa1937f3271a9a
+projection_coverage: section-sword-world-rpg-complete-edition-section-organizations-and-groups-guilds-32fb9e17@811baecb8025158b2d6a1effc443a8ed
 ---
 
 # Organizations and Groups / Guilds
 
 From [[sword-world-rpg-complete-edition]].
-
-## Related pages
-
-### Source order
-
-- [[sword-world-rpg-complete-edition-section-organizations-and-groups-merchant-s-license-345eae45]] - next source section: Organizations and Groups / Merchant's License
-
-### Source structure
-
-- [[sword-world-rpg-complete-edition-section-organizations-and-groups-0970a33e]] - broader source section: Organizations and Groups
 
 ## Statements
 

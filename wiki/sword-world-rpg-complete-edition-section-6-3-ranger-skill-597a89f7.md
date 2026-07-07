@@ -8,18 +8,12 @@ updated: 2026-07-07
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-6-3-ranger-skill-597a89f7@145bd419b74bc150b3a82351fe0c40a4
+projection_coverage: section-sword-world-rpg-complete-edition-section-6-3-ranger-skill-597a89f7@7b934af66eb32e761bc82910021b170c
 ---
 
 # 6.3 Ranger Skill
 
 From [[sword-world-rpg-complete-edition]].
-
-## Related pages
-
-### Source order
-
-- [[sword-world-rpg-complete-edition-section-remove-set-trap-dexterity-equipment-restriction-not-retriable-84154ed9]] - previous source section: [ ⑰ Remove/Set Trap [Dexterity] ] (Equipment restriction, not retriable)
 
 ## Statements
 

@@ -1,7 +1,7 @@
 ---
 page_id: sword-world-rpg-complete-edition-section-maze-woods-ent-greater-plant-spirit-291444e4
 page_kind: source
-summary: [ Maze Woods ] (Ent/Greater Plant Spirit): 14 source-backed entries and 0 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+summary: [ Maze Woods ] (Ent/Greater Plant Spirit): 12 source-backed entries and 0 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: section-reference
 sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-07

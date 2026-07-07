@@ -1,7 +1,7 @@
 ---
 page_id: sword-world-rpg-complete-edition-section-water-breathing-undine-water-spirit-2ef1e4d0
 page_kind: source
-summary: [ Water Breathing ] (Undine/Water Spirit): 9 source-backed entries and 0 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+summary: [ Water Breathing ] (Undine/Water Spirit): 8 source-backed entries and 0 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: section-reference
 sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-07

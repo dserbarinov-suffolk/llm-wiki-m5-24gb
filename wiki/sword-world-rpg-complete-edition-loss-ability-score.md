@@ -7,7 +7,7 @@ sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-07
 domain: sword-world-rpg-complete-edition
 category_path: concepts
-projection_coverage: topic-sword-world-rpg-complete-edition-loss-ability-score@6dc3f4ee0b9d8d83a9a32f7493a73ed9
+projection_coverage: topic-sword-world-rpg-complete-edition-loss-ability-score@ac0aa42fc494a751767f9380897257c3
 ---
 
 # Loss Ability Score
@@ -36,6 +36,12 @@ What [[sword-world-rpg-complete-edition]] covers about loss ability score:
 <a id="atom-technical-atom-d0e164791aa6dd86"></a>
 > etc.) When a character's ability score increases or decreases, even temporarily, the ability bonus increases or decreases accordingly.
 
+
+## Related pages
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-8-game-master-screen-ability-scores-loss-of-ability-scores-and-its-impact-840f6343]] - source section: 8. Game Master Screen / Ability Scores / Loss of Ability Scores and Its Impact
 
 ## Source
 

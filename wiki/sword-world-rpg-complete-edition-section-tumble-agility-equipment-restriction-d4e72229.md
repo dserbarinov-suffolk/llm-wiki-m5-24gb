@@ -1,25 +1,19 @@
 ---
 page_id: sword-world-rpg-complete-edition-section-tumble-agility-equipment-restriction-d4e72229
 page_kind: source
-summary: [ ① Tumble [Agility] ] (Equipment restriction): 4 source-backed entries and 0 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+summary: [ ① Tumble [Agility] ] (Equipment restriction): 3 source-backed entries and 0 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: section-reference
 sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-07
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-tumble-agility-equipment-restriction-d4e72229@90649e8e57f46658757e19cb49aca453
+projection_coverage: section-sword-world-rpg-complete-edition-section-tumble-agility-equipment-restriction-d4e72229@70a9797eb717cfb50f6ba397495f4a78
 ---
 
 # [ ① Tumble [Agility] ] (Equipment restriction)
 
 From [[sword-world-rpg-complete-edition]].
-
-## Related pages
-
-### Source order
-
-- [[sword-world-rpg-complete-edition-section-lockpicking-dexterity-no-equipment-restriction-not-retriable-5f4016b7]] - next source section: [ ② Lockpicking [Dexterity]] (No equipment restriction, not retriable)
 
 ## Statements
 

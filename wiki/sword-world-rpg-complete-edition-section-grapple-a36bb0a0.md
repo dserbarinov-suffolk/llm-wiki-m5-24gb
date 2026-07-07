@@ -1,7 +1,7 @@
 ---
 page_id: sword-world-rpg-complete-edition-section-grapple-a36bb0a0
 page_kind: source
-summary: Grapple: 30 source-backed entries and 1 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+summary: Grapple: 28 source-backed entries and 1 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: section-reference
 sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-07

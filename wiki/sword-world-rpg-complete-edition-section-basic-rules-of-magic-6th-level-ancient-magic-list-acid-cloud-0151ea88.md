@@ -1,7 +1,7 @@
 ---
 page_id: sword-world-rpg-complete-edition-section-basic-rules-of-magic-6th-level-ancient-magic-list-acid-cloud-0151ea88
 page_kind: source
-summary: Basic Rules of Magic / 6th Level Ancient Magic List [ Acid Cloud ]: 140 source-backed entries and 1 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+summary: Basic Rules of Magic / 6th Level Ancient Magic List [ Acid Cloud ]: 139 source-backed entries and 1 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: section-reference
 sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-07

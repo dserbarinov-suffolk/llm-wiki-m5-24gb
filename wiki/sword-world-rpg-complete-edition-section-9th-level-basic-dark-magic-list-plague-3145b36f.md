@@ -1,7 +1,7 @@
 ---
 page_id: sword-world-rpg-complete-edition-section-9th-level-basic-dark-magic-list-plague-3145b36f
 page_kind: source
-summary: 9th Level Basic Dark Magic List [ Plague ]: 31 source-backed entries and 0 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+summary: 9th Level Basic Dark Magic List [ Plague ]: 30 source-backed entries and 0 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: section-reference
 sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-07

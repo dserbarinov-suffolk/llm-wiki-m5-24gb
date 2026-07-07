@@ -7,7 +7,7 @@ sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-07
 domain: sword-world-rpg-complete-edition
 category_path: concepts
-projection_coverage: topic-sword-world-rpg-complete-edition-magical-beast@844607dd35e6737f0ec0b41d15ae563e
+projection_coverage: topic-sword-world-rpg-complete-edition-magical-beast@916654ed698cbae84e8d60f2326c9007
 ---
 
 # Magical Beast
@@ -57,6 +57,10 @@ What [[sword-world-rpg-complete-edition]] covers about magical beast:
 
 
 ## Related pages
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-monster-catalog-13-2-6-mythical-beasts-and-magical-beasts-7977e270]] - source section: Monster Catalog / 13.2.6 Mythical Beasts and Magical Beasts
 
 ### Shared technical atoms
 

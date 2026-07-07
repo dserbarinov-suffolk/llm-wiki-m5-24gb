@@ -8,7 +8,7 @@ updated: 2026-07-07
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-organizations-and-groups-religious-organizations-4014c2bf@c94f542f59b5290fbb3d28aa16b51011
+projection_coverage: section-sword-world-rpg-complete-edition-section-organizations-and-groups-religious-organizations-4014c2bf@61156ebdfa9abae61101385ade55de6f
 ---
 
 # Organizations and Groups / Religious Organizations
@@ -20,10 +20,6 @@ From [[sword-world-rpg-complete-edition]].
 ### Source order
 
 - [[sword-world-rpg-complete-edition-section-organizations-and-groups-thieves-guild-sorcerers-guild-academy-31dd4892]] - previous source section: Organizations and Groups / Thieves Guild/Sorcerers' Guild (Academy)
-
-### Source structure
-
-- [[sword-world-rpg-complete-edition-section-organizations-and-groups-0970a33e]] - broader source section: Organizations and Groups
 
 ## Statements
 

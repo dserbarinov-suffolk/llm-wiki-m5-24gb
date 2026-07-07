@@ -7,7 +7,7 @@ sources: raw/javascriptallonge.pdf
 updated: 2026-07-07
 domain: javascriptallonge
 category_path: concepts
-projection_coverage: topic-javascriptallonge-reference@e330a4bf3a1c833d117cab938b8343f6
+projection_coverage: topic-javascriptallonge-reference@2ba22a4d24fe1e1c249351ea892e2bbe
 ---
 
 # Reference
@@ -97,6 +97,11 @@ cdr(oneToFive)
 
 
 ## Related pages
+
+### Source structure
+
+- [[javascriptallonge-section-composing-and-decomposing-data-arrays-and-destructuring-arguments-element-references-75756e27]] - source section: Composing and Decomposing Data / Arrays and Destructuring Arguments / element references
+- [[javascriptallonge-section-prelude-values-and-expressions-over-coffee-reference-types-11fd4275]] - source section: Prelude: Values and Expressions over Coffee / reference types
 
 ### Shared technical atoms
 

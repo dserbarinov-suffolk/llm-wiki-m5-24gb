@@ -1,13 +1,13 @@
 ---
 page_id: sword-world-rpg-complete-edition-attack-monster-character
 page_kind: concept
-summary: Attacks From Monsters Against Characters: 33 statement(s) and 7 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+summary: Attacks From Monsters Against Characters: 33 statement(s) and 4 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: broad-topic
 sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-07
 domain: sword-world-rpg-complete-edition
 category_path: concepts
-projection_coverage: topic-sword-world-rpg-complete-edition-attack-monster-character@e8e105daf392c7db15185ce47d8a572f
+projection_coverage: topic-sword-world-rpg-complete-edition-attack-monster-character@f8b490cd985f80ede105c937594c45b8
 ---
 
 # Attacks From Monsters Against Characters
@@ -107,24 +107,19 @@ What [[sword-world-rpg-complete-edition]] covers about attacks from monsters aga
 <a id="atom-technical-atom-2640ab7439ba915d"></a>
 > When making a defense roll, if your roll is double ones, that means that you've been hit extremely hard.
 
-### Technical frame 5: Attacks From Monsters Against Characters
-
-**Context:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-09896))_
-
-> As you can see from the way the dice are rolled, this is the process for a success roll with monster's attack points -7 as the difficulty . Therefore, a tie would result in character's evasion success = monster's attack failure . Also, if the game master rolls double ones or double sixes, that does not automatically result in failure/success (but for a character , it still does ).
-
-**Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-09895))_
-
-<a id="atom-technical-atom-ace0501b308fafff"></a>
-> The game master should roll 2D and add it to the number in parenthesis.
-
 
 ## Related pages
 
 ### Source structure
 
-- [[sword-world-rpg-complete-edition-section-attacks-from-monsters-against-characters-36abcdc4]] - source section: Attacks From Monsters Against Characters shares source evidence from Attacks From Monsters Against Characters / 4.6.1 Hit (Evasion) Checks: This check is also made with a success roll.; Attacks From Monsters Against Characters shares technical record from Attacks From Monsters Against Characters / 4.6.1 Hit (Evasion) Checks: evasion speed + 2D ≥ monster's attack points → evasion success (monster's attack fails) (27 shared statement(s), 6 shared atom(s))
-- [[sword-world-rpg-complete-edition-section-attacks-from-monsters-against-characters-83ff6716]] - source section: Attacks From Monsters Against Characters shares source evidence from Attacks From Monsters Against Characters: A score equal to a monster's attack points - 7 is written next to it in parenthesis. This is used here. The game master should roll 2D and add it to the number in pa ... [truncated]; Attacks From Monsters Against Characters shares technical record from Attacks From Monsters Against Characters: The game master should roll 2D and add it to the number in parenthesis. (6 shared statement(s), 1 shared atom(s))
+- [[sword-world-rpg-complete-edition-section-attacks-from-monsters-against-characters-36abcdc4]] - source section: Attacks From Monsters Against Characters shares source evidence from Attacks From Monsters Against Characters / 4.6.1 Hit (Evasion) Checks: This check is also made with a success roll.; Attacks From Monsters Against Characters shares technical record from Attacks From Monsters Against Characters / 4.6.1 Hit (Evasion) Checks: evasion speed + 2D ≥ monster's attack points → evasion success (monster's attack fails) (27 shared statement(s), 4 shared atom(s))
+- [[sword-world-rpg-complete-edition-section-attacks-from-monsters-against-characters-83ff6716]] - source section: Attacks From Monsters Against Characters shares source evidence from Attacks From Monsters Against Characters: A score equal to a monster's attack points - 7 is written next to it in parenthesis. This is used here. The game master should roll 2D and add it to the number in pa ... [truncated] (6 shared statement(s))
+- [[sword-world-rpg-complete-edition-section-attacks-from-characters-against-monsters-0da0781a]] - source section: Attacks From Characters Against Monsters
+- [[sword-world-rpg-complete-edition-section-attacks-from-characters-against-monsters-2a2d8681]] - source section: Attacks From Characters Against Monsters
+- [[sword-world-rpg-complete-edition-section-attacks-from-characters-against-monsters-4-5-1-hit-checks-40e2447c]] - source section: Attacks From Characters Against Monsters / 4.5.1 Hit Checks
+- [[sword-world-rpg-complete-edition-section-attacks-from-characters-against-monsters-4-5-2-determining-base-damage-strike-roll-08758977]] - source section: Attacks From Characters Against Monsters / 4.5.2 Determining Base Damage (Strike Roll)
+- [[sword-world-rpg-complete-edition-section-attacks-from-characters-against-monsters-4-5-3-bonus-damage-66d7239b]] - source section: Attacks From Characters Against Monsters / 4.5.3 Bonus Damage
+- [[sword-world-rpg-complete-edition-section-attacks-from-characters-against-monsters-4-5-4-monster-defense-points-c48dcc4c]] - source section: Attacks From Characters Against Monsters / 4.5.4 Monster Defense Points
 
 ### Shared claims
 

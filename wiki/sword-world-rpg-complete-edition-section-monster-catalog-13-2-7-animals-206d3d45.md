@@ -1,7 +1,7 @@
 ---
 page_id: sword-world-rpg-complete-edition-section-monster-catalog-13-2-7-animals-206d3d45
 page_kind: source
-summary: Monster Catalog / 13.2.7 Animals: 642 source-backed entries and 12 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+summary: Monster Catalog / 13.2.7 Animals: 640 source-backed entries and 12 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: section-reference
 sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-07

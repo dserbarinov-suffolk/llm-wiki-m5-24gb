@@ -8,18 +8,12 @@ updated: 2026-07-07
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-3-4-4-actions-you-can-take-while-standing-still-b5b0aa90@4cdbeae0792726a4c53f49f8e156470e
+projection_coverage: section-sword-world-rpg-complete-edition-section-3-4-4-actions-you-can-take-while-standing-still-b5b0aa90@b26b6aa3294a6311ebc91c28e1021fc4
 ---
 
 # 3.4.4 Actions You Can Take While Standing Still
 
 From [[sword-world-rpg-complete-edition]].
-
-## Related pages
-
-### Source order
-
-- [[sword-world-rpg-complete-edition-section-use-magic-and-projectiles-565fda06]] - next source section: Use Magic and Projectiles
 
 ## Statements
 

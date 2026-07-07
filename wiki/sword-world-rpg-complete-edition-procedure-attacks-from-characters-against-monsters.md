@@ -1,7 +1,7 @@
 ---
 page_id: sword-world-rpg-complete-edition-procedure-attacks-from-characters-against-monsters
 page_kind: procedure
-summary: Complete Attacks From Characters Against Monsters: 5 ordered step(s), 0 decision point(s), 12 authoritative dependency reference(s), 2 review-only dependency reference(s), projection partial from raw/Sword World RPG - Complete Edition.pdf.
+summary: Complete Attacks From Characters Against Monsters: 5 ordered step(s), 0 decision point(s), 11 authoritative dependency reference(s), 3 review-only dependency reference(s), projection partial from raw/Sword World RPG - Complete Edition.pdf.
 page_family: procedure-guide
 sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-07
@@ -9,7 +9,7 @@ domain: sword-world-rpg-complete-edition
 category_path: procedures/sword-world-rpg-complete-edition
 source_id: Sword World RPG - Complete Edition.pdf
 aliases: complete-attacks-from-characters-against-monsters, attacks-from-characters-against-monsters
-projection_coverage: procedure-sword-world-rpg-complete-edition-procedure-attacks-from-characters-against-monsters@7dfeb585a3ba3c6a40b929013686b24c
+projection_coverage: procedure-sword-world-rpg-complete-edition-procedure-attacks-from-characters-against-monsters@a36c4614089277aa1ac381bec36932b5
 ---
 
 # Attacks From Characters Against Monsters
@@ -72,7 +72,6 @@ From [[sword-world-rpg-complete-edition]].
    - No matter how much bonus damage you have, it means nothing. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01251))_
    - Evidence dependencies:
      - `rule`: [[sword-world-rpg-complete-edition-section-attacks-from-characters-against-monsters-4-5-3-bonus-damage-66d7239b]]#atom-technical-atom-9c0b1cb995ef27e2 Once you've determined base damage, you must then add your character's bonus damage. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01245))_
-     - `rule`: [[sword-world-rpg-complete-edition-section-attacks-from-characters-against-monsters-4-5-3-bonus-damage-66d7239b]]#atom-technical-atom-3c98fdcb0fd2af52 When determining base damage (strike roll), if you suddenly roll double ones, the damage will always be 0 . _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01251))_
 4. **Monster Defense Points** (`record`) - evidence section [[sword-world-rpg-complete-edition-section-attacks-from-characters-against-monsters-4-5-4-monster-defense-points-c48dcc4c]].
    - Monsters can repel and hold off attacks with their thick skins and hard scales. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01254))_
    - This indicates the amount of damage a monster can reduce. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01254))_
@@ -101,18 +100,18 @@ From [[sword-world-rpg-complete-edition]].
 - [[sword-world-rpg-complete-edition-section-attacks-from-characters-against-monsters-4-5-2-determining-base-damage-strike-roll-08758977]]#atom-technical-atom-3d5c986568247838 If a critical occurs, but you roll double ones on the second and subsequent damage checks, 0 is added to the previous re _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01239))_
 - [[sword-world-rpg-complete-edition-section-attacks-from-characters-against-monsters-4-5-2-determining-base-damage-strike-roll-08758977]]#atom-technical-atom-439afe3151657b1b If your hit check is a success and you're able to hit your target, the damage dealt to your opponent can be determined n _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01220))_
 - [[sword-world-rpg-complete-edition-section-attacks-from-characters-against-monsters-4-5-3-bonus-damage-66d7239b]]#atom-technical-atom-9c0b1cb995ef27e2 Once you've determined base damage, you must then add your character's bonus damage. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01245))_
-- [[sword-world-rpg-complete-edition-section-attacks-from-characters-against-monsters-4-5-3-bonus-damage-66d7239b]]#atom-technical-atom-3c98fdcb0fd2af52 When determining base damage (strike roll), if you suddenly roll double ones, the damage will always be 0 . _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01251))_
 
 ## Review-Only Dependencies
 
 - `table`: Table 4-2: Rating Table, Key Number _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01217); technical-atom-trust: table-parse-incomplete, table-raw-text-contaminated-by-prose)_
+- `rule`: When determining base damage (strike roll), if you suddenly roll double ones, the damage will always be 0 . _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01251); source-unit-ownership: source unit ownership is ambiguous for authoritative atom projection: boundary-adjacent-prose)_
 - `table`: 4 (base damage) +4 (bonus damage) -4 (goblin's defense points) = 4 _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01262); technical-atom-trust: table-parse-incomplete)_
 
 ## Execution Readiness
 
 - Projection status: `partial`.
-- Authoritative dependencies: 12.
-- Review-only dependencies: 2.
+- Authoritative dependencies: 11.
+- Review-only dependencies: 3.
 - Missing dependencies: 0.
 - The procedure is complete when every step output has been recorded or validated.
 

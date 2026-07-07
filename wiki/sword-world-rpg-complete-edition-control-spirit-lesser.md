@@ -1,13 +1,13 @@
 ---
 page_id: sword-world-rpg-complete-edition-control-spirit-lesser
 page_kind: concept
-summary: [ Control Spirit ] (Various lesser spirits): 13 statement(s) and 10 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+summary: [ Control Spirit ] (Various lesser spirits): 13 statement(s) and 9 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: topic-concept
 sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-07
 domain: sword-world-rpg-complete-edition
 category_path: concepts
-projection_coverage: topic-sword-world-rpg-complete-edition-control-spirit-lesser@19284462ffc46b9fc557f6c99983caca
+projection_coverage: topic-sword-world-rpg-complete-edition-control-spirit-lesser@74a63837a6c6f3493ea9418ffdcc05bd
 ---
 
 # [ Control Spirit ] (Various lesser spirits)
@@ -50,7 +50,7 @@ What [[sword-world-rpg-complete-edition]] covers about [ control spirit ] (vario
 
 > Please note that it is not possible to use both the Control Spirit and Full Control Spirit spells to control different spirits. In this case, the effect of the previously cast spell will vanish.
 
-**Atoms:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-03171, source-range-e5870dca-03172, source-range-e5870dca-03173))_
+**Atoms:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-03171, source-range-e5870dca-03172))_
 
 <a id="atom-technical-atom-c314dc43b02dc288"></a>
 > Base Mental Power Cost=35
@@ -58,16 +58,13 @@ What [[sword-world-rpg-complete-edition]] covers about [ control spirit ] (vario
 <a id="atom-technical-atom-e7da01cc0ffecc9a"></a>
 > Distance=10 meters
 
-<a id="atom-technical-atom-92f185f04dcb8440"></a>
-> Area=One lesser spirit
-
 
 ## Related pages
 
 ### Source structure
 
 - [[sword-world-rpg-complete-edition-section-control-spirit-various-lesser-spirits-6067a582]] - source section: [ Control Spirit ] (Various lesser spirits) shares source evidence from [ Control Spirit ] (Various lesser spirits): This is a spell that summons a spirit and lets you control it as your servant (you're free to call it your friend). The only spirits you can summon are those that be ... [truncated]; [ Control Spirit ] (Various lesser spirits) shares technical record from [ Control Spirit ] (Various lesser spirits): Base Mental Power Cost=15 (11 shared statement(s), 7 shared atom(s))
-- [[sword-world-rpg-complete-edition-section-full-control-spirit-various-lesser-spirits-d2b38f5a]] - source section: [ Full Control Spirit ] (Various lesser spirits) shares source evidence from [ Full Control Spirit ] (Various lesser spirits): Please note that it is not possible to use both the Control Spirit and Full Control Spirit spells to control different spirits. In this case, the effect of the previ ... [truncated]; [ Full Control Spirit ] (Various lesser spirits) shares technical record from [ Full Control Spirit ] (Various lesser spirits): Base Mental Power Cost=35 (2 shared statement(s), 3 shared atom(s))
+- [[sword-world-rpg-complete-edition-section-full-control-spirit-various-lesser-spirits-d2b38f5a]] - source section: [ Full Control Spirit ] (Various lesser spirits) shares source evidence from [ Full Control Spirit ] (Various lesser spirits): Please note that it is not possible to use both the Control Spirit and Full Control Spirit spells to control different spirits. In this case, the effect of the previ ... [truncated]; [ Full Control Spirit ] (Various lesser spirits) shares technical record from [ Full Control Spirit ] (Various lesser spirits): Base Mental Power Cost=35 (2 shared statement(s), 2 shared atom(s))
 
 ## Source
 

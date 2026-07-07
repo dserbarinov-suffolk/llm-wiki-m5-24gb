@@ -7,7 +7,7 @@ sources: raw/javascriptallonge.pdf
 updated: 2026-07-07
 domain: javascriptallonge
 category_path: concepts
-projection_coverage: topic-javascriptallonge-variable@b046f4f16a8274aa8d8eab30117e5e9e
+projection_coverage: topic-javascriptallonge-variable@1a9b026fac149fb60b22d5de181c86f4
 ---
 
 # Variable
@@ -67,6 +67,12 @@ What [[javascriptallonge]] covers about variable:
 
 
 ## Related pages
+
+### Source structure
+
+- [[javascriptallonge-section-and-also-variables-and-bindings-cdadc876]] - source section: And also: / variables and bindings
+- [[javascriptallonge-section-if-functions-without-free-variables-are-pure-are-closures-impure-a8b1b370]] - source section: if functions without free variables are pure, are closures impure?
+- [[javascriptallonge-section-shadowy-variables-from-a-shadowy-planet-ad7f51cc]] - source section: shadowy variables from a shadowy planet
 
 ### Shared technical atoms
 

@@ -7,7 +7,7 @@ sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-07
 domain: sword-world-rpg-complete-edition
 category_path: concepts
-projection_coverage: topic-sword-world-rpg-complete-edition-failure@60be01de933ae605e70b3dca106821ea
+projection_coverage: topic-sword-world-rpg-complete-edition-failure@d7dc37c2418a5436783ed1380439e835
 ---
 
 # Failure
@@ -42,6 +42,13 @@ What [[sword-world-rpg-complete-edition]] covers about failure:
 <a id="atom-technical-atom-6b8ab689f70465dc"></a>
 > If the roll is as high as 10 or 11, the success roll is considered to have a very high chance of success.
 
+
+## Related pages
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-2-3-1-automatic-success-and-automatic-failure-9351b854]] - source section: 2.3.1 Automatic Success and Automatic Failure
+- [[sword-world-rpg-complete-edition-section-2-5-3-analogy-of-success-and-failure-3a19226a]] - source section: 2.5.3 Analogy of Success and Failure
 
 ## Source
 

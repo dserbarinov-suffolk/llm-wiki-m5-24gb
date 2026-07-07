@@ -1,14 +1,14 @@
 ---
 page_id: sword-world-rpg-complete-edition-section-4-9-unconscious-and-death-checks-4-9-4-mercy-f2205b71
 page_kind: source
-summary: 4.9 Unconscious and Death Checks / 4.9.4 Mercy: 12 source-backed entries and 1 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+summary: 4.9 Unconscious and Death Checks / 4.9.4 Mercy: 9 source-backed entries and 0 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: section-reference
 sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-07
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-4-9-unconscious-and-death-checks-4-9-4-mercy-f2205b71@18137bb561e5d8c497f384582a6fea20
+projection_coverage: section-sword-world-rpg-complete-edition-section-4-9-unconscious-and-death-checks-4-9-4-mercy-f2205b71@838ff185714db1adf0870810f284d5ac
 ---
 
 # 4.9 Unconscious and Death Checks / 4.9.4 Mercy
@@ -32,16 +32,3 @@ From [[sword-world-rpg-complete-edition]].
 - A character who falls down with 0 or negative life force due to an attack that was declared to be mercy , will only fail their death check if double ones are rolled. On any other roll, the character remains alive . _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01403))_
 - It cannot be done after a hit or after damage check. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01402))_
 - A character who falls down with 0 or negative life force due to an attack that was declared to be mercy , will only fail their death check if double ones are rolled. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01403))_
-
-## Technical atoms
-
-### Technical frame 1: 4.9 Unconscious and Death Checks / 4.9.4 Mercy
-
-**Context:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01403))_
-
-> A character who falls down with 0 or negative life force due to an attack that was declared to be mercy , will only fail their death check if double ones are rolled. On any other roll, the character remains alive .
-
-**Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01404))_
-
-<a id="atom-technical-atom-1b6efc39f5e3d37d"></a>
-> If left untreated, they must make another death check after 1 hour , and

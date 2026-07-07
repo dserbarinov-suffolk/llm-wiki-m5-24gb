@@ -1,7 +1,7 @@
 ---
 page_id: sword-world-rpg-complete-edition-section-3rd-level-dragon-roar-magic-list-789c644d
 page_kind: source
-summary: 3rd Level Dragon Roar Magic List: 32 source-backed entries and 0 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+summary: 3rd Level Dragon Roar Magic List: 30 source-backed entries and 0 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: section-reference
 sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-07

@@ -1,7 +1,7 @@
 ---
 page_id: sword-world-rpg-complete-edition-section-basic-rules-of-magic-filling-out-the-character-sheet-when-an-adventurer-casts-magic-on-a-mix-of-05c26dbc
 page_kind: source
-summary: Basic Rules of Magic / Filling out the Character Sheet / When an Adventurer Casts Magic on a Mix of Adventurers and Monsters: 10 source-backed entries and 0 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+summary: Basic Rules of Magic / Filling out the Character Sheet / When an Adventurer Casts Magic on a Mix of Adventurers and Monsters: 9 source-backed entries and 0 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: section-reference
 sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-07

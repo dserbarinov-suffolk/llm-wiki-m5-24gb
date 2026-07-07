@@ -1,7 +1,7 @@
 ---
 page_id: sword-world-rpg-complete-edition-section-17-1-changes-to-magic-procedure-7135e212
 page_kind: source
-summary: 17.1 Changes to Magic Procedure: 8 source-backed entries and 0 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+summary: 17.1 Changes to Magic Procedure: 7 source-backed entries and 0 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: section-reference
 sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-07

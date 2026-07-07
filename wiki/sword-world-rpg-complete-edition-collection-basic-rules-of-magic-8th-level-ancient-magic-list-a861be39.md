@@ -8,7 +8,7 @@ updated: 2026-07-07
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/collections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: collection-sword-world-rpg-complete-edition-collection-basic-rules-of-magic-8th-level-ancient-magic-list-a861be39@8261bf8b51f9695ad0413ee4bb9ec383
+projection_coverage: collection-sword-world-rpg-complete-edition-collection-basic-rules-of-magic-8th-level-ancient-magic-list-a861be39@dab3edc2cad14a70d6ff1e8218a3aead
 ---
 
 # Basic Rules of Magic / 8th Level Ancient Magic List
@@ -27,5 +27,5 @@ Broader source section: [[sword-world-rpg-complete-edition-section-basic-rules-o
 | Member | Source section | Evidence |
 | --- | --- | --- |
 | Basic Rules of Magic / 8th Level Ancient Magic List / 9th Level Ancient Magic List [ Command Golem ] | [[sword-world-rpg-complete-edition-section-basic-rules-of-magic-8th-level-ancient-magic-list-9th-level-ancient-magic-list-command-golem-b86c85dd]] | 47 statement(s), 94 atom(s) |
-| Basic Rules of Magic / 8th Level Ancient Magic List / 10th Level Ancient Magic List [ Dimension Gate ] | [[sword-world-rpg-complete-edition-section-basic-rules-of-magic-8th-level-ancient-magic-list-10th-level-ancient-magic-list-dimension-gate-ea45ed57]] | 18 statement(s), 58 atom(s) |
-| Basic Rules of Magic / 8th Level Ancient Magic List / 5.1.13 Spirit Magic and the Shaman Skill | [[sword-world-rpg-complete-edition-section-basic-rules-of-magic-8th-level-ancient-magic-list-5-1-13-spirit-magic-and-the-shaman-skill-1c668f01]] | 35 statement(s), 12 atom(s) |
+| Basic Rules of Magic / 8th Level Ancient Magic List / 10th Level Ancient Magic List [ Dimension Gate ] | [[sword-world-rpg-complete-edition-section-basic-rules-of-magic-8th-level-ancient-magic-list-10th-level-ancient-magic-list-dimension-gate-ea45ed57]] | 18 statement(s), 56 atom(s) |
+| Basic Rules of Magic / 8th Level Ancient Magic List / 5.1.13 Spirit Magic and the Shaman Skill | [[sword-world-rpg-complete-edition-section-basic-rules-of-magic-8th-level-ancient-magic-list-5-1-13-spirit-magic-and-the-shaman-skill-1c668f01]] | 35 statement(s), 6 atom(s) |

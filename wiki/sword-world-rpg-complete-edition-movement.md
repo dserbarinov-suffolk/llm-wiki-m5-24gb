@@ -7,7 +7,7 @@ sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-07
 domain: sword-world-rpg-complete-edition
 category_path: concepts
-projection_coverage: topic-sword-world-rpg-complete-edition-movement@d656bf4c1a0d407cf03f18800088e8b7
+projection_coverage: topic-sword-world-rpg-complete-edition-movement@fe669ccbf49fe2ea6d513b06d870b5ac
 ---
 
 # Movement
@@ -26,6 +26,10 @@ What [[sword-world-rpg-complete-edition]] covers about movement:
 
 
 ## Related pages
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-movement-and-actions-9a2835c4]] - source section: Movement and Actions
 
 ### Shared claims
 

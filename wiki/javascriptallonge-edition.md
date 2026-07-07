@@ -7,7 +7,7 @@ sources: raw/javascriptallonge.pdf
 updated: 2026-07-07
 domain: javascriptallonge
 category_path: concepts
-projection_coverage: topic-javascriptallonge-edition@64ca53c14e0cd2ed682bde054a04145a
+projection_coverage: topic-javascriptallonge-edition@8009636ad7a60b0f37b1e050dfaa610c
 ---
 
 # Edition
@@ -30,6 +30,11 @@ What [[javascriptallonge]] covers about edition:
 
 
 ## Related pages
+
+### Source structure
+
+- [[javascriptallonge-section-a-pull-of-the-lever-prefaces-about-javascript-allong-why-the-six-edition-64775184]] - source section: A Pull of the Lever: Prefaces / About JavaScript Allongé / why the 'six' edition?
+- [[javascriptallonge-section-javascript-allong-the-six-edition-reg-raganwald-braithwaite-1d8630de]] - source section: JavaScript Allongé, the 'Six' Edition / Reg 'raganwald' Braithwaite
 
 ### Shared technical atoms
 

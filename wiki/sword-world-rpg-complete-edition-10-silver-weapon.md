@@ -7,7 +7,7 @@ sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-07
 domain: sword-world-rpg-complete-edition
 category_path: concepts
-projection_coverage: topic-sword-world-rpg-complete-edition-10-silver-weapon@b3e4eebbefb4e9f1a5a14aa8f21c0dc0
+projection_coverage: topic-sword-world-rpg-complete-edition-10-silver-weapon@6f074c74bcfed87157a022b4a771aadd
 ---
 
 # 10 Silver Weapon
@@ -24,6 +24,11 @@ What [[sword-world-rpg-complete-edition]] covers about 10 silver weapon:
 
 
 ## Related pages
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-4-10-2-silver-weapons-and-armor-f42bd7c9]] - source section: 4.10.2 Silver Weapons and Armor
+- [[sword-world-rpg-complete-edition-section-4-10-4-mithril-silver-weapons-and-armor-8c9ba243]] - source section: 4.10.4 Mithril Silver Weapons and Armor
 
 ### Shared claims
 

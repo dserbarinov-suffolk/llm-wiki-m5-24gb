@@ -1,25 +1,19 @@
 ---
 page_id: sword-world-rpg-complete-edition-section-politics-and-class-adventurers-4b6d2fb7
 page_kind: source
-summary: Politics and Class / Adventurers: 11 source-backed entries and 0 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+summary: Politics and Class / Adventurers: 10 source-backed entries and 0 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: section-reference
 sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-07
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-politics-and-class-adventurers-4b6d2fb7@71b1608e6ceb5595ba9afe803eec5535
+projection_coverage: section-sword-world-rpg-complete-edition-section-politics-and-class-adventurers-4b6d2fb7@c2fcc88972563ab7a1189ecc14568e25
 ---
 
 # Politics and Class / Adventurers
 
 From [[sword-world-rpg-complete-edition]].
-
-## Related pages
-
-### Source structure
-
-- [[sword-world-rpg-complete-edition-section-politics-and-class-c11cb5ab]] - broader source section: Politics and Class
 
 ## Statements
 

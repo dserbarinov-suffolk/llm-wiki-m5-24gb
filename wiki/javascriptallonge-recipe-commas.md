@@ -9,7 +9,7 @@ domain: javascriptallonge
 category_path: recipes/javascriptallonge
 source_id: javascriptallonge.pdf
 aliases: commas
-projection_coverage: recipe-javascriptallonge-recipe-commas@e26c44b8485dfb5a04a97090df86db69
+projection_coverage: recipe-javascriptallonge-recipe-commas@5e86d4f7f293042733100d1379b22880
 ---
 
 # commas
@@ -19,7 +19,7 @@ From [[javascriptallonge]].
 ## Pattern
 
 - Use the source-backed pattern described in [[javascriptallonge-section-the-first-sip-basic-functions-as-little-as-possible-about-functions-but-no-less-commas-53801ea8]].
-- Evidence roles: decision, example, structured-state.
+- Evidence roles: decision, example.
 
 ## Applicability And Rationale
 

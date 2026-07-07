@@ -1,13 +1,13 @@
 ---
 page_id: sword-world-rpg-complete-edition-10-mithril-silver-weapon
 page_kind: concept
-summary: 10 Mithril Silver Weapon: 11 statement(s) and 2 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+summary: 10 Mithril Silver Weapon: 11 statement(s) and 1 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: topic-concept
 sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-07
 domain: sword-world-rpg-complete-edition
 category_path: concepts
-projection_coverage: topic-sword-world-rpg-complete-edition-10-mithril-silver-weapon@facf9b5c195731f18d4d5bd60bb4eeab
+projection_coverage: topic-sword-world-rpg-complete-edition-10-mithril-silver-weapon@6b8edb9d4e30817140bb25d8dde3373f
 ---
 
 # 10 Mithril Silver Weapon
@@ -48,23 +48,16 @@ What [[sword-world-rpg-complete-edition]] covers about 10 mithril silver weapon:
 <a id="atom-technical-atom-c939199d146a433f"></a>
 > Mithril silver weapons can deal damage to monsters that normal weapons cannot harm.
 
-### Technical frame 2: 4.10.4 Mithril Silver Weapons and Armor
-
-**Context:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01454))_
-
-> It should be noted that, although this does not affect the numeric aspects of the game, mithril silver can be made to emit a variety of colors depending on how it's processed, and these colors will never fade.
-
-**Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01453))_
-
-<a id="atom-technical-atom-c4de255d7bd2633c"></a>
-> Mithril silver weapons and armor are never , if ever, placed in shops or traded for money.
-
 
 ## Related pages
 
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-4-10-4-mithril-silver-weapons-and-armor-8c9ba243]] - source section: 4.10.4 Mithril Silver Weapons and Armor
+
 ### Shared technical atoms
 
-- [[sword-world-rpg-complete-edition-armor]] - shared statements and technical atoms: Armor shares source evidence from 4.10.4 Mithril Silver Weapons and Armor: If a character ever sees them, mithril silver weapons and armor are definitely a legacy from the era of the magical kingdom.; Armor shares technical record from 4.10.4 Mithril Silver Weapons and Armor: Mithril silver weapons can deal damage to monsters that normal weapons cannot harm. (4 shared statement(s), 2 shared atom(s))
+- [[sword-world-rpg-complete-edition-armor]] - shared statements and technical atoms: Armor shares source evidence from 4.10.4 Mithril Silver Weapons and Armor: If a character ever sees them, mithril silver weapons and armor are definitely a legacy from the era of the magical kingdom.; Armor shares technical record from 4.10.4 Mithril Silver Weapons and Armor: Mithril silver weapons can deal damage to monsters that normal weapons cannot harm. (4 shared statement(s), 1 shared atom(s))
 
 ## Source
 

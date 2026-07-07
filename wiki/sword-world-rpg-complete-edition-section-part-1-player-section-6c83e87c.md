@@ -1,7 +1,7 @@
 ---
 page_id: sword-world-rpg-complete-edition-section-part-1-player-section-6c83e87c
 page_kind: source
-summary: Part 1 Player Section: 2 source-backed entries and 0 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+summary: Part 1 Player Section: 1 source-backed entries and 0 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: section-reference
 sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-07

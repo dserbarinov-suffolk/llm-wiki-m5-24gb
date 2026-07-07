@@ -7,7 +7,7 @@ sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-07
 domain: sword-world-rpg-complete-edition
 category_path: concepts
-projection_coverage: topic-sword-world-rpg-complete-edition-weapon@7b25fa383c13ebf1506af750aa79a2e5
+projection_coverage: topic-sword-world-rpg-complete-edition-weapon@2761e9b231232904a47c7480ab41dc75
 ---
 
 # Weapon
@@ -20,6 +20,19 @@ What [[sword-world-rpg-complete-edition]] covers about weapon:
 
 - A character's arms are largely divided into weapons, shields, and armor. Required strength should not be added up, but rather considered separately for each of these. In other words, a character with 14 strength can wield a weapon with a required strength of 14, wield a shield with a required strength of 14, and wear armor with a required strength of 14. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01150))_
 
+
+## Related pages
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-1-4-7-restrictions-on-weapons-and-armor-based-on-skill-efcf48dc]] - source section: 1.4.7 Restrictions on Weapons and Armor Based on Skill
+- [[sword-world-rpg-complete-edition-section-16-6-2-two-handed-attacks-weapons-and-armor-that-are-too-heavy-108e1234]] - source section: 16.6.2 Two-Handed Attacks / Weapons and Armor That Are Too Heavy
+- [[sword-world-rpg-complete-edition-section-16-6-holding-weapons-in-both-hands-a8bb9e61]] - source section: 16.6 Holding Weapons in Both Hands
+- [[sword-world-rpg-complete-edition-section-4-10-2-silver-weapons-and-armor-f42bd7c9]] - source section: 4.10.2 Silver Weapons and Armor
+- [[sword-world-rpg-complete-edition-section-4-10-3-magical-weapons-and-armor-73e21f02]] - source section: 4.10.3 Magical Weapons and Armor
+- [[sword-world-rpg-complete-edition-section-4-10-4-mithril-silver-weapons-and-armor-8c9ba243]] - source section: 4.10.4 Mithril Silver Weapons and Armor
+- [[sword-world-rpg-complete-edition-section-4-10-excellent-weapons-and-armor-6f861318]] - source section: 4.10 Excellent Weapons and Armor
+- [[sword-world-rpg-complete-edition-section-divine-weapon-spell-level-7-f910fafd]] - source section: [ Divine Weapon ] (Spell Level=7)
 
 ## Source
 

@@ -1,7 +1,7 @@
 ---
 page_id: sword-world-rpg-complete-edition-section-monster-resistance-1343961f
 page_kind: source
-summary: Monster Resistance: 4 source-backed entries and 0 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+summary: Monster Resistance: 3 source-backed entries and 0 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: section-reference
 sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-07

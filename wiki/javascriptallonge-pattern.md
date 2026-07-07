@@ -1,13 +1,13 @@
 ---
 page_id: javascriptallonge-pattern
 page_kind: concept
-summary: Pattern: 8 statement(s) and 3 atom(s) from raw/javascriptallonge.pdf.
+summary: Pattern: 8 statement(s) and 2 atom(s) from raw/javascriptallonge.pdf.
 page_family: broad-topic
 sources: raw/javascriptallonge.pdf
 updated: 2026-07-07
 domain: javascriptallonge
 category_path: concepts
-projection_coverage: topic-javascriptallonge-pattern@15baddee5ea6a9e8ae8890bb0bf7d0e3
+projection_coverage: topic-javascriptallonge-pattern@3d246c3391ada56761efb6d35cc9abc4
 ---
 
 # Pattern
@@ -46,6 +46,10 @@ What [[javascriptallonge]] covers about pattern:
 
 
 ## Related pages
+
+### Source structure
+
+- [[javascriptallonge-section-composing-and-decomposing-data-arrays-and-destructuring-arguments-destructuring-is-not-pattern-m-27d4b226]] - source section: Composing and Decomposing Data / Arrays and Destructuring Arguments / destructuring is not pattern matching
 
 ### Shared technical atoms
 

@@ -37,16 +37,17 @@ def atoms_for_section_entries(
     section_name = normalize_table_name(node.heading_text)
     if section_name:
         atom_node_ids = table_structure_node_ids_by_atom_id(ledger)
+        atom_owner_node_ids = _technical_atom_owner_node_ids_by_atom_id(ledger)
         forward_node_ids = table_forward_target_node_ids_by_atom_id(ledger, structure)
         section_node_ids = {
             node.structure_node_id,
-            *(
-                descendant.structure_node_id
-                for descendant in structure.descendants(node.structure_node_id)
-            ),
+            *(entry.structure_node_ids[0] for entry in entries if entry.structure_node_ids),
         }
         for atom_id, names in table_identity_names_by_atom_id(ledger, structure).items():
-            valid_nodes = (*atom_node_ids.get(atom_id, ()), *forward_node_ids.get(atom_id, ()))
+            valid_nodes = (
+                *atom_owner_node_ids.get(atom_id, atom_node_ids.get(atom_id, ())),
+                *forward_node_ids.get(atom_id, ()),
+            )
             if not has_matching_table_name(section_name, names):
                 continue
             if section_node_ids.intersection(valid_nodes) or _forward_names_table(
@@ -56,7 +57,8 @@ def atoms_for_section_entries(
     return tuple(
         atom
         for atom in ledger.technical_atoms
-        if atom.technical_atom_id in atom_ids and atom_raw_text(atom.payload).strip()
+        if atom.technical_atom_id in atom_ids
+        and atom_raw_text(atom.payload).strip()
         and (atom.technical_atom_kind != "table" or atom.technical_atom_id in accepted_tables)
     )
 
@@ -106,3 +108,13 @@ def _source_order(structure: DocumentStructure, source_range_id: str) -> int:
         if disposition.source_range_id == source_range_id:
             return disposition.source_order
     return 0
+
+
+def _technical_atom_owner_node_ids_by_atom_id(ledger: ClaimLedger) -> dict[str, tuple[str, ...]]:
+    owners: dict[str, tuple[str, ...]] = {}
+    for entry in ledger.entries:
+        if entry.ledger_entry_kind != "technical-atom" or not entry.technical_atom_id:
+            continue
+        if entry.structure_node_ids:
+            owners[entry.technical_atom_id] = entry.structure_node_ids[:1]
+    return owners

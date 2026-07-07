@@ -1,14 +1,14 @@
 ---
 page_id: sword-world-rpg-complete-edition-section-4-10-4-mithril-silver-weapons-and-armor-8c9ba243
 page_kind: source
-summary: 4.10.4 Mithril Silver Weapons and Armor: 21 source-backed entries and 2 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+summary: 4.10.4 Mithril Silver Weapons and Armor: 20 source-backed entries and 1 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: section-reference
 sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-07
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-4-10-4-mithril-silver-weapons-and-armor-8c9ba243@88ec251cddad9e43f2c4ad15d728306a
+projection_coverage: section-sword-world-rpg-complete-edition-section-4-10-4-mithril-silver-weapons-and-armor-8c9ba243@16a36ea0d6c612c9288e3ee464adbdf9
 ---
 
 # 4.10.4 Mithril Silver Weapons and Armor
@@ -49,14 +49,3 @@ From [[sword-world-rpg-complete-edition]].
 
 <a id="atom-technical-atom-c939199d146a433f"></a>
 > Mithril silver weapons can deal damage to monsters that normal weapons cannot harm.
-
-### Technical frame 2: 4.10.4 Mithril Silver Weapons and Armor
-
-**Context:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01454))_
-
-> It should be noted that, although this does not affect the numeric aspects of the game, mithril silver can be made to emit a variety of colors depending on how it's processed, and these colors will never fade.
-
-**Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01453))_
-
-<a id="atom-technical-atom-c4de255d7bd2633c"></a>
-> Mithril silver weapons and armor are never , if ever, placed in shops or traded for money.

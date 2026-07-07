@@ -1,26 +1,19 @@
 ---
 page_id: sword-world-rpg-complete-edition-section-treasure-appraisal-intelligence-no-equipment-restriction-not-retriable-0559deab
 page_kind: source
-summary: [ ⑮ Treasure Appraisal [Intelligence] ] (No equipment restriction, not retriable): 13 source-backed entries and 0 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+summary: [ ⑮ Treasure Appraisal [Intelligence] ] (No equipment restriction, not retriable): 12 source-backed entries and 0 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: section-reference
 sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-07
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-treasure-appraisal-intelligence-no-equipment-restriction-not-retriable-0559deab@184200936f6217a964fe9ed02e05da92
+projection_coverage: section-sword-world-rpg-complete-edition-section-treasure-appraisal-intelligence-no-equipment-restriction-not-retriable-0559deab@c4d8b177f3016deaec8211ba3595a6f7
 ---
 
 # [ ⑮ Treasure Appraisal [Intelligence] ] (No equipment restriction, not retriable)
 
 From [[sword-world-rpg-complete-edition]].
-
-## Related pages
-
-### Source order
-
-- [[sword-world-rpg-complete-edition-section-disguise-dexterity-no-equipment-restriction-ce84449b]] - previous source section: [ ⑭ Disguise [Dexterity] ] (No equipment restriction)
-- [[sword-world-rpg-complete-edition-section-remove-set-trap-dexterity-equipment-restriction-not-retriable-84154ed9]] - next source section: [ ⑰ Remove/Set Trap [Dexterity] ] (Equipment restriction, not retriable)
 
 ## Statements
 

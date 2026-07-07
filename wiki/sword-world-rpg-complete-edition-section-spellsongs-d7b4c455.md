@@ -1,14 +1,14 @@
 ---
 page_id: sword-world-rpg-complete-edition-section-spellsongs-d7b4c455
 page_kind: source
-summary: Spellsongs: 21 source-backed entries and 2 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+summary: Spellsongs: 20 source-backed entries and 1 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: section-reference
 sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-07
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-spellsongs-d7b4c455@2963fc0856f87dbfef675d1ae07ed71f
+projection_coverage: section-sword-world-rpg-complete-edition-section-spellsongs-d7b4c455@3719f18cc269628a0a0ddc6f328c77f5
 ---
 
 # Spellsongs
@@ -51,14 +51,3 @@ From [[sword-world-rpg-complete-edition]].
 
 <a id="atom-technical-atom-875a5f14f4c33ffc"></a>
 > Also, if you choose a fl ute as your instrument, you can use the spellsong without having to sing the lyrics.
-
-### Technical frame 2: Spellsongs
-
-**Context:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-03813))_
-
-> When a bard uses the ability of a spellsong, you resolve the effect in the Using spellsongs does not consume a bard's mental power. Also, the effect of a spellsong cannot be expanded.
-
-**Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-03814))_
-
-<a id="atom-technical-atom-f890909ee092f2d5"></a>
-> As long as a bard is singing a spellsong, they cannot take any other actions and cannot move more than 3 meters in one round.

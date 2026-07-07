@@ -1,7 +1,7 @@
 ---
 page_id: sword-world-rpg-complete-edition-section-how-to-create-general-skills-7-5-hunter-skill-7e766530
 page_kind: source
-summary: How to Create General Skills / 7.5 Hunter Skill: 13 source-backed entries and 0 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+summary: How to Create General Skills / 7.5 Hunter Skill: 12 source-backed entries and 0 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: section-reference
 sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-07

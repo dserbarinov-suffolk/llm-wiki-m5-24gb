@@ -1,13 +1,13 @@
 ---
 page_id: javascriptallonge-programming
 page_kind: concept
-summary: Programming: 9 statement(s) and 4 atom(s) from raw/javascriptallonge.pdf.
+summary: Programming: 9 statement(s) and 3 atom(s) from raw/javascriptallonge.pdf.
 page_family: topic-concept
 sources: raw/javascriptallonge.pdf
 updated: 2026-07-07
 domain: javascriptallonge
 category_path: concepts
-projection_coverage: topic-javascriptallonge-programming@93f97a79ea645b08fef53c254e51733e
+projection_coverage: topic-javascriptallonge-programming@ca0b5284138f1eda8f85344ec8bb88ab
 ---
 
 # Programming
@@ -80,18 +80,7 @@ def foo (first, *rest)
 end
 ```
 
-### Technical frame 3: A Rich Aroma: Basic Numbers
-
-**Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-00141))_
-
-> For example, the largest integer JavaScript can safely 14 handle is 9007199254740991 , or 2 '53' - 1 . Like most programming languages, JavaScript does not allow us to use commas to separate groups of digits.
-
-**Atom:** _(javascriptallonge.pdf (source-range-c98ab3e6-00140))_
-
-<a id="atom-technical-atom-a505821d708d870c"></a>
-> The machine's representation of a number almost never lines up perfectly with our understanding of how a number behaves, and thus there will be places where the computer's behaviour surprises us if we don't know a little about what it's doing 'under the hood.'
-
-### Technical frame 4: it's always the environment
+### Technical frame 3: it's always the environment
 
 **Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-00350))_
 
@@ -113,7 +102,6 @@ end
 - [[javascriptallonge-javascript]] - shared statements and technical atoms: Javascript shares source evidence from ECMAScript 6 has three major groups of features: / Forewords to the First Edition / michael fogus: As a staunch advocate of functional programming, much of what Reg has written rings true to me. While not exclusively a book about functional programming, JavaScript ... [truncated]; Javascript shares technical record from A Pull of the Lever: Prefaces / About JavaScript Allongé / why the 'six' edition?: var i; for (i = 0; i < array.length; ++i) { (function (i) { // ... })(i) } (2 shared statement(s), 1 shared atom(s))
 - [[javascriptallonge-evaluate]] - shared statements and technical atoms: Evaluate shares source evidence from it's always the environment: The first function is the result of currying a the second function. Calling a curried function with only some of its arguments is sometimes called partial applicatio ... [truncated]; Evaluate shares technical record from it's always the environment: (x, y, z) => x + y + z (1 shared statement(s), 1 shared atom(s))
 - [[javascriptallonge-ecmascript]] - shared technical atoms: Ecmascript shares technical record from A Pull of the Lever: Prefaces / About JavaScript Allongé / why the 'six' edition?: var i; for (i = 0; i < array.length; ++i) { (function (i) { // ... })(i) } (1 shared atom(s))
-- [[javascriptallonge-literal]] - shared technical atoms: Literal shares technical record from A Rich Aroma: Basic Numbers: The machine's representation of a number almost never lines up perfectly with our understanding of how a number behaves, and thus there will be places where the comp ... [truncated] (1 shared atom(s))
 
 ### Shared claims
 

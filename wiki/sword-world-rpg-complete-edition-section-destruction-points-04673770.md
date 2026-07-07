@@ -1,25 +1,19 @@
 ---
 page_id: sword-world-rpg-complete-edition-section-destruction-points-04673770
 page_kind: source
-summary: Destruction Points: 29 source-backed entries and 4 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+summary: Destruction Points: 29 source-backed entries and 5 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: section-reference
 sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-07
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-destruction-points-04673770@1c3e7965f5614b34cf3b5cf9d5272ace
+projection_coverage: section-sword-world-rpg-complete-edition-section-destruction-points-04673770@302d3ed5227f470f4b75abc63926f530
 ---
 
 # Destruction Points
 
 From [[sword-world-rpg-complete-edition]].
-
-## Related pages
-
-### Source order
-
-- [[sword-world-rpg-complete-edition-section-special-ce37ebf7]] - next source section: Special
 
 ## Statements
 
@@ -43,6 +37,47 @@ From [[sword-world-rpg-complete-edition]].
 
 ### Technical frame 1: Destruction Points
 
+**Context:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-10463))_
+
+> As expected, it indicates the strength of the material, and the game master must determine a specific score depending on the thickness. The lowest of this score is called the minimum destruction points . In the case of paper, the score is 1~10, so the minimum destruction points are 1 .
+
+**Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-10459))_
+
+<a id="atom-technical-atom-144d2f597fda4c29"></a>
+| Fire-type | Firebolt, Fireball, Firestorm |
+| --- | --- |
+| Cold-type | Blizzard, Ice Storm |
+| Electric-type | Lightning, Lightning Bind |
+| Stone-type | Stone Blast |
+| Wind cutter-type | Windstorm |
+| Earthquake-type | Crack, Earthquake |
+| Explosion-type | Force, Force Explosion, Meteor Strike |
+| Pure energy-type | Energy Bolt, Will-o-Wisp, Valkyrie Javelin |
+| Poison gas-type | Acid Cloud |
+| Blade-type | Blade Net |
+
+<details>
+<summary>Raw table text</summary>
+
+```text
+Destruction Points
+| Fire-type | Firebolt, Fireball, Firestorm |
+| --- | --- |
+| Cold-type | Blizzard, Ice Storm |
+| Electric-type | Lightning, Lightning Bind |
+| Stone-type | Stone Blast |
+| Wind cutter-type | Windstorm |
+| Earthquake-type | Crack, Earthquake |
+| Explosion-type | Force, Force Explosion, Meteor Strike |
+| Pure energy-type | Energy Bolt, Will-o-Wisp, Valkyrie Javelin |
+| Poison gas-type | Acid Cloud |
+| Blade-type | Blade Net |
+```
+
+</details>
+
+### Technical frame 2: Destruction Points
+
 **Context:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-10464))_
 
 > Defense points and destruction points are used in the basic system for destroying structures.
@@ -52,7 +87,7 @@ From [[sword-world-rpg-complete-edition]].
 <a id="atom-technical-atom-e9d06e64113761dd"></a>
 > As expected, it indicates the strength of the material, and the game master must determine a specific score depending on the thickness.
 
-### Technical frame 2: Destruction Points
+### Technical frame 3: Destruction Points
 
 **Context:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-10467))_
 
@@ -63,7 +98,7 @@ From [[sword-world-rpg-complete-edition]].
 <a id="atom-technical-atom-a8dbbdc3077bdca6"></a>
 > If the result is greater than 1 but less than the destruction points, the defense points are reduced by 1 point.
 
-### Technical frame 3: Destruction Points
+### Technical frame 4: Destruction Points
 
 **Context:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-10472))_
 
@@ -74,7 +109,7 @@ From [[sword-world-rpg-complete-edition]].
 <a id="atom-technical-atom-fb95ad694bd3491d"></a>
 > If the damage is greater than 8 but less than 21 points , the defense points will be reduced by 1 point (if the defense points become 0 , the destruction points will start to decrease .
 
-### Technical frame 4: Destruction Points
+### Technical frame 5: Destruction Points
 
 **Context:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-10494))_
 

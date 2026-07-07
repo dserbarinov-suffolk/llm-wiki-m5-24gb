@@ -8,7 +8,7 @@ updated: 2026-07-07
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-critical-target-variation-b7c6a3fe@8b73fe54f4973e8b4c2d2c517cfcc907
+projection_coverage: section-sword-world-rpg-complete-edition-section-critical-target-variation-b7c6a3fe@9c0d624b2630a14447a02b609d7be93e
 ---
 
 # Critical Target Variation
@@ -19,7 +19,6 @@ From [[sword-world-rpg-complete-edition]].
 
 ### Source order
 
-- [[sword-world-rpg-complete-edition-section-strike-power-modifier-77fc49f2]] - previous source section: Strike Power Modifier
 - [[sword-world-rpg-complete-edition-section-number-of-projectile-shots-9c1d8871]] - next source section: Number of Projectile Shots
 
 ### Topics

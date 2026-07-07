@@ -1,13 +1,13 @@
 ---
 page_id: sword-world-rpg-complete-edition-armor
 page_kind: concept
-summary: Armor: 17 statement(s) and 2 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+summary: Armor: 17 statement(s) and 1 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: topic-concept
 sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-07
 domain: sword-world-rpg-complete-edition
 category_path: concepts
-projection_coverage: topic-sword-world-rpg-complete-edition-armor@64dde12b91448665659d4df47a189d5e
+projection_coverage: topic-sword-world-rpg-complete-edition-armor@350182a1fbf6647012670c838a904b8b
 ---
 
 # Armor
@@ -68,27 +68,23 @@ What [[sword-world-rpg-complete-edition]] covers about armor:
 <a id="atom-technical-atom-c939199d146a433f"></a>
 > Mithril silver weapons can deal damage to monsters that normal weapons cannot harm.
 
-### Technical frame 2: 4.10.4 Mithril Silver Weapons and Armor
-
-**Context:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01454))_
-
-> It should be noted that, although this does not affect the numeric aspects of the game, mithril silver can be made to emit a variety of colors depending on how it's processed, and these colors will never fade.
-
-**Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01453))_
-
-<a id="atom-technical-atom-c4de255d7bd2633c"></a>
-> Mithril silver weapons and armor are never , if ever, placed in shops or traded for money.
-
 
 ## Related pages
 
 ### Source structure
 
-- [[sword-world-rpg-complete-edition-section-and-armor-ef848d39]] - source section: and Armor shares source evidence from and Armor: There are people in the world who are called master craftsmen, and they sometimes create weapons and armor that are better than normal. These highquality weapons and ... [truncated]; and Armor shares technical record from and Armor: Also, even if you search all over Alecrast, you will usually only find one with a required strength up to 5 lower than usual . (14 shared statement(s), 4 shared atom(s))
+- [[sword-world-rpg-complete-edition-section-and-armor-ef848d39]] - source section: and Armor shares source evidence from and Armor: There are people in the world who are called master craftsmen, and they sometimes create weapons and armor that are better than normal. These highquality weapons and ... [truncated]; and Armor shares technical record from and Armor: Also, even if you search all over Alecrast, you will usually only find one with a required strength up to 5 lower than usual . (14 shared statement(s), 2 shared atom(s))
+- [[sword-world-rpg-complete-edition-section-1-4-7-restrictions-on-weapons-and-armor-based-on-skill-efcf48dc]] - source section: 1.4.7 Restrictions on Weapons and Armor Based on Skill
+- [[sword-world-rpg-complete-edition-section-16-6-2-two-handed-attacks-weapons-and-armor-that-are-too-heavy-108e1234]] - source section: 16.6.2 Two-Handed Attacks / Weapons and Armor That Are Too Heavy
+- [[sword-world-rpg-complete-edition-section-4-10-2-silver-weapons-and-armor-f42bd7c9]] - source section: 4.10.2 Silver Weapons and Armor
+- [[sword-world-rpg-complete-edition-section-4-10-3-magical-weapons-and-armor-73e21f02]] - source section: 4.10.3 Magical Weapons and Armor
+- [[sword-world-rpg-complete-edition-section-4-10-4-mithril-silver-weapons-and-armor-8c9ba243]] - source section: 4.10.4 Mithril Silver Weapons and Armor
+- [[sword-world-rpg-complete-edition-section-4-10-excellent-weapons-and-armor-6f861318]] - source section: 4.10 Excellent Weapons and Armor
+- [[sword-world-rpg-complete-edition-section-divine-armor-spell-level-7-6443d355]] - source section: [ Divine Armor ] (Spell Level=7)
 
 ### Shared technical atoms
 
-- [[sword-world-rpg-complete-edition-10-mithril-silver-weapon]] - shared statements and technical atoms: 10 Mithril Silver Weapon shares source evidence from 4.10.4 Mithril Silver Weapons and Armor: If a character ever sees them, mithril silver weapons and armor are definitely a legacy from the era of the magical kingdom.; 10 Mithril Silver Weapon shares technical record from 4.10.4 Mithril Silver Weapons and Armor: Mithril silver weapons can deal damage to monsters that normal weapons cannot harm. (4 shared statement(s), 2 shared atom(s))
+- [[sword-world-rpg-complete-edition-10-mithril-silver-weapon]] - shared statements and technical atoms: 10 Mithril Silver Weapon shares source evidence from 4.10.4 Mithril Silver Weapons and Armor: If a character ever sees them, mithril silver weapons and armor are definitely a legacy from the era of the magical kingdom.; 10 Mithril Silver Weapon shares technical record from 4.10.4 Mithril Silver Weapons and Armor: Mithril silver weapons can deal damage to monsters that normal weapons cannot harm. (4 shared statement(s), 1 shared atom(s))
 
 ### Shared claims
 

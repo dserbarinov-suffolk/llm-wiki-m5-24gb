@@ -7,7 +7,7 @@ sources: raw/javascriptallonge.pdf
 updated: 2026-07-07
 domain: javascriptallonge
 category_path: concepts
-projection_coverage: topic-javascriptallonge-evaluate@b38b531eb19c50cc23538215e63abde3
+projection_coverage: topic-javascriptallonge-evaluate@04d7dffa17e824e4c9e06b12649711fd
 ---
 
 # Evaluate
@@ -77,6 +77,11 @@ undefined === undefined
 
 
 ## Related pages
+
+### Source structure
+
+- [[javascriptallonge-section-and-also-functions-that-evaluate-to-functions-e337b1c9]] - source section: And also: / functions that evaluate to functions
+- [[javascriptallonge-section-the-first-sip-basic-functions-as-little-as-possible-about-functions-but-no-less-functions-that-r-a65d460b]] - source section: The first sip: Basic Functions / As Little As Possible About Functions, But No Less / functions that return values and evaluate expressions
 
 ### Shared technical atoms
 

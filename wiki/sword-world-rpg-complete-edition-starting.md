@@ -1,13 +1,13 @@
 ---
 page_id: sword-world-rpg-complete-edition-starting
 page_kind: concept
-summary: Starting: 2 statement(s) and 2 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+summary: Starting: 2 statement(s) and 3 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: topic-concept
 sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-07
 domain: sword-world-rpg-complete-edition
 category_path: concepts
-projection_coverage: topic-sword-world-rpg-complete-edition-starting@4647b4383f18865faf2d764fdce58d76
+projection_coverage: topic-sword-world-rpg-complete-edition-starting@150ab4b2e67af0d27b02133bb4fa623e
 ---
 
 # Starting
@@ -49,6 +49,15 @@ What [[sword-world-rpg-complete-edition]] covers about starting:
 
 
 ## Related pages
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-1-4-3-starting-skills-and-starting-8d7899ba]] - source section: 1.4.3 Starting Skills and Starting
+- [[sword-world-rpg-complete-edition-section-1-4-3-starting-skills-and-starting-experience-points-e4426311]] - source section: 1.4.3 Starting Skills and Starting / Experience Points
+- [[sword-world-rpg-complete-edition-section-1-4-3-starting-skills-and-starting-for-humans-and-halfelves-raised-by-humans-8f079db7]] - source section: 1.4.3 Starting Skills and Starting / For Humans and HalfElves Raised by Humans
+- [[sword-world-rpg-complete-edition-section-1-4-3-starting-skills-and-starting-for-races-other-than-humans-d276287f]] - source section: 1.4.3 Starting Skills and Starting / For Races Other Than Humans
+- [[sword-world-rpg-complete-edition-section-1-4-5-character-growth-via-starting-experience-points-7eada9c7]] - source section: 1.4.5 Character Growth via Starting Experience Points
+- [[sword-world-rpg-complete-edition-section-12-1-3-adventurer-languages-starting-adventurer-languages-2997fc77]] - source section: 12.1.3 Adventurer Languages / Starting Adventurer Languages
 
 ### Shared technical atoms
 

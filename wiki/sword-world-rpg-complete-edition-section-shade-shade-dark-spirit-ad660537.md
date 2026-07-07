@@ -1,7 +1,7 @@
 ---
 page_id: sword-world-rpg-complete-edition-section-shade-shade-dark-spirit-ad660537
 page_kind: source
-summary: [ Shade ] (Shade/Dark Spirit): 17 source-backed entries and 0 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+summary: [ Shade ] (Shade/Dark Spirit): 16 source-backed entries and 0 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: section-reference
 sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-07

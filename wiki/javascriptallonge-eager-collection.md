@@ -7,7 +7,7 @@ sources: raw/javascriptallonge.pdf
 updated: 2026-07-07
 domain: javascriptallonge
 category_path: concepts
-projection_coverage: topic-javascriptallonge-eager-collection@f9253468bf42cd404a4729deb18bb475
+projection_coverage: topic-javascriptallonge-eager-collection@e6d5b0783de0c5c717f5ebf1822ce587
 ---
 
 # Eager Collection
@@ -148,6 +148,9 @@ yield element;
 ### Source structure
 
 - [[javascriptallonge-section-lazy-and-eager-collections-eager-collections-527b72b9]] - source section: Lazy and Eager Collections / eager collections shares source evidence from Lazy and Eager Collections / eager collections: An eager collection, like an array, returns a collection of its own type from each of the methods. We can make an eager collection out of any collection that is gath ... [truncated]; Lazy and Eager Collections / eager collections shares technical record from Lazy and Eager Collections / eager collections: const extend = function (consumer, ...providers) { for (let i = 0; i < providers.length; ++i) { const provider = providers[i]; for (let key in provider) { if (provid ... [truncated] (4 shared statement(s), 5 shared atom(s))
+- [[javascriptallonge-section-lazy-and-eager-collections-7308cac5]] - source section: Lazy and Eager Collections
+- [[javascriptallonge-section-lazy-and-eager-collections-implementing-methods-with-iteration-e67a1913]] - source section: Lazy and Eager Collections / implementing methods with iteration
+- [[javascriptallonge-section-lazy-and-eager-collections-lazy-collection-operations-0de83c02]] - source section: Lazy and Eager Collections / lazy collection operations
 
 ### Shared technical atoms
 

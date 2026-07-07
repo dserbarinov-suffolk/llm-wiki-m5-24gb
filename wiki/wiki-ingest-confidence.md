@@ -9,7 +9,7 @@ updated: 2026-07-07
 
 ## Summary
 
-Run id: 2026-07-07-131008
+Run id: 2026-07-07-133658
 Source: raw/javascriptallonge.pdf
 Confidence status: passed
 Blockers: 0
@@ -46,7 +46,7 @@ MissingUnitCoverage: 0
 - Status: pass
 - Findings: none
 Source texts: 1
-Source ranges: 168
+Source ranges: 160
 Evidence records: 3059
 
 ### evidence-locators

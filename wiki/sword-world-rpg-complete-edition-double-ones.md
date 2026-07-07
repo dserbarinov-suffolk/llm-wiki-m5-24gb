@@ -1,13 +1,13 @@
 ---
 page_id: sword-world-rpg-complete-edition-double-ones
 page_kind: concept
-summary: Double Ones: 4 statement(s) and 2 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+summary: Double Ones: 4 statement(s) and 1 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: topic-concept
 sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-07
 domain: sword-world-rpg-complete-edition
 category_path: concepts
-projection_coverage: topic-sword-world-rpg-complete-edition-double-ones@d47e1158e312edf08baa37d3b2685255
+projection_coverage: topic-sword-world-rpg-complete-edition-double-ones@d7bff19dce3113f1ac92e36d7a324ffb
 ---
 
 # Double Ones
@@ -38,19 +38,12 @@ What [[sword-world-rpg-complete-edition]] covers about double ones:
 <a id="atom-technical-atom-a71fb6908aeedeb1"></a>
 > The defender doesn't even have to roll the dice.
 
-### Technical frame 2: Double Sixes and Double Ones
-
-**Context:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01329))_
-
-> Please refer to Table 4-4: Attack Checks.
-
-**Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01328))_
-
-<a id="atom-technical-atom-69d6505c34ac6971"></a>
-> If the defender's roll is double sixes , the attack will always fail.
-
 
 ## Related pages
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-double-sixes-and-double-ones-582ed4b1]] - source section: Double Sixes and Double Ones
 
 ### Shared technical atoms
 

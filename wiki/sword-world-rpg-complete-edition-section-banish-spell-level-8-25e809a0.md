@@ -1,7 +1,7 @@
 ---
 page_id: sword-world-rpg-complete-edition-section-banish-spell-level-8-25e809a0
 page_kind: source
-summary: [ Banish ] (Spell Level=8): 6 source-backed entries and 0 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+summary: [ Banish ] (Spell Level=8): 5 source-backed entries and 0 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: section-reference
 sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-07

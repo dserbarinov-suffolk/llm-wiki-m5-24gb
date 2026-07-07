@@ -78,6 +78,10 @@ def _segment_model(model: DocumentModel, source_hash: str):
 
 
 def _ledger_for_model(model: DocumentModel, source_hash: str = "k" * 64):
+    return _result_for_model(model, source_hash).ledger
+
+
+def _result_for_model(model: DocumentModel, source_hash: str = "k" * 64):
     inputs, profiles = _segment_model(model, source_hash)
     return build_claim_ledger(
         source_locator="generic.pdf",
@@ -86,7 +90,7 @@ def _ledger_for_model(model: DocumentModel, source_hash: str = "k" * 64):
         segments=inputs,
         profiles=profiles,
         schema=default_schema_bundle(),
-    ).ledger
+    )
 
 
 def test_document_model_segmentation_groups_heading_scoped_table_rows() -> None:
@@ -354,6 +358,81 @@ def test_source_unit_table_block_becomes_one_exact_table_atom() -> None:
     assert payload.raw_table_text == "| Armor | Strength |\n| --- | --- |\n| Mail | 12 |"
     assert len(payload.cells) == 2
     assert atoms[0].source_block_ids == ("e2",)
+
+
+def test_table_with_internal_section_label_is_owned_by_matching_next_section() -> None:
+    model = _model(
+        (
+            _element("e1", "heading", "Rules", "Rules", heading_level=1),
+            _element("e2", "heading", "Rules > Power", "Power", heading_level=2),
+            _element(
+                "e3",
+                "paragraph",
+                "Rules > Power",
+                "Characters recover power after a full rest.",
+            ),
+            _element(
+                "e4",
+                "table",
+                "Rules > Power",
+                "2.2 Target Matrix\n| Rating | Value |\n| --- | --- |\n| A | 1 |",
+            ),
+            _element(
+                "e5",
+                "heading",
+                "Rules > 2.2 Target Matrix",
+                "2.2 Target Matrix",
+                heading_level=2,
+            ),
+        )
+    )
+
+    result = _result_for_model(model, "n" * 64)
+    table_entry = next(
+        entry for entry in result.ledger.entries if entry.technical_atom_kind == "table"
+    )
+    owner = result.document_structure.node(table_entry.structure_node_ids[0])
+
+    assert owner is not None
+    assert owner.heading_text == "2.2 Target Matrix"
+    assert all(
+        context.technical_atom_id != table_entry.technical_atom_id
+        for context in result.ledger.technical_atom_contexts
+    )
+
+
+def test_boundary_adjacent_prose_atom_is_review_only_before_next_section() -> None:
+    model = _model(
+        (
+            _element("e1", "heading", "Value Handles", "Value Handles", heading_level=2),
+            _element(
+                "e2",
+                "paragraph",
+                "Value Handles",
+                "Values with the same label are treated as the same value.",
+            ),
+            _element(
+                "e3",
+                "paragraph",
+                "Value Handles",
+                "If two references share a label, you can choose either reference.",
+            ),
+            _element("e4", "heading", "Reference Handles", "Reference Handles", heading_level=2),
+        )
+    )
+
+    ledger = _ledger_for_model(model, "o" * 64)
+    atom_entries = [
+        entry for entry in ledger.entries if entry.ledger_entry_kind == "technical-atom"
+    ]
+
+    assert atom_entries
+    assert all(entry.ledger_entry_status == "needs-review" for entry in atom_entries)
+    assert all(
+        entry.review_reason is not None
+        and entry.review_reason.reason_kind == "source-unit-ownership"
+        for entry in atom_entries
+    )
 
 
 def test_source_unit_formula_block_becomes_one_exact_formula_atom() -> None:

@@ -1,14 +1,14 @@
 ---
 page_id: sword-world-rpg-complete-edition-section-shield-attack-cff8f6bb
 page_kind: source
-summary: Shield Attack: 11 source-backed entries and 2 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+summary: Shield Attack: 8 source-backed entries and 0 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: section-reference
 sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-07
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-shield-attack-cff8f6bb@c7aa7ed08be6222f41677fc54cbed0a4
+projection_coverage: section-sword-world-rpg-complete-edition-section-shield-attack-cff8f6bb@f5ad40465d8ae4d45daa5091c31129f6
 ---
 
 # Shield Attack
@@ -20,34 +20,9 @@ From [[sword-world-rpg-complete-edition]].
 ### Source order
 
 - [[sword-world-rpg-complete-edition-section-whip-net-bola-b774b301]] - previous source section: Whip, Net, Bola
-- [[sword-world-rpg-complete-edition-section-cranequin-crossbow-ee8e3303]] - next source section: Cranequin Crossbow
 
 ## Statements
 
 - Adventurers may use shields for attacks. However, in this case, the shield's evasion speed modifier cannot be added to evasion speed. The shield's attack power modifier must be used as is . In other words, a small shield is ±0 and a large shield is -1 . However, large shields with magical power of +1 or greater will no longer have this -1 modifier. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-10336))_
 - The strike power is the same as the shield's required strength (strike power modifier ±0), and the critical target is 12. Since you're probably not holding it in your dominant hand, you'll still suffer a 2/-4 penalty. Even if it's a magic shield, the only bonus damage you get is the usual (fi ghter/thief skill level + strength bonus ). _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-10337))_
 - If you're a fighter , you can also perform a shield attack as a ram . In this case, the adventurer cannot use the weapon in their dominant hand, but there will be no penalty for using the opposite hand. You can use the shield's strike power for a damage check while at the same time making a prone check. Please refer to the process for ram (see p. 266). _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-10338))_
-
-## Technical atoms
-
-### Technical frame 1: Shield Attack
-
-**Context:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-10338))_
-
-> If you're a fighter , you can also perform a shield attack as a ram . In this case, the adventurer cannot use the weapon in their dominant hand, but there will be no penalty for using the opposite hand. You can use the shield's strike power for a damage check while at the same time making a prone check. Please refer to the process for ram (see p. 266).
-
-**Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-10337))_
-
-<a id="atom-technical-atom-6bc542a21038d30b"></a>
-> Even if it's a magic shield, the only bonus damage you get is the usual (fi ghter/thief skill level + strength bonus ).
-
-### Technical frame 2: Shield Attack
-
-**Context:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-10337))_
-
-> The strike power is the same as the shield's required strength (strike power modifier ±0), and the critical target is 12. Since you're probably not holding it in your dominant hand, you'll still suffer a 2/-4 penalty. Even if it's a magic shield, the only bonus damage you get is the usual (fi ghter/thief skill level + strength bonus ).
-
-**Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-10338))_
-
-<a id="atom-technical-atom-deb0542ce6bcd6b9"></a>
-> If you're a fighter , you can also perform a shield attack as a ram .

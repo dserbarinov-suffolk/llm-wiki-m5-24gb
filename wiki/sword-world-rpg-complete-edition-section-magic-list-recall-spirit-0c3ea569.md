@@ -1,7 +1,7 @@
 ---
 page_id: sword-world-rpg-complete-edition-section-magic-list-recall-spirit-0c3ea569
 page_kind: source
-summary: Magic List [ Recall Spirit ]: 40 source-backed entries and 0 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+summary: Magic List [ Recall Spirit ]: 38 source-backed entries and 0 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: section-reference
 sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-07

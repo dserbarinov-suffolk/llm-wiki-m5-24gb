@@ -8,7 +8,7 @@ updated: 2026-07-07
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-2nd-level-spirit-magic-list-will-o-wisp-will-o-wisp-light-spirit-e144ffb9@836558d5b9edaa065f29bb0eaf6e2897
+projection_coverage: section-sword-world-rpg-complete-edition-section-2nd-level-spirit-magic-list-will-o-wisp-will-o-wisp-light-spirit-e144ffb9@e155a0ca5e66315304a8ae9da1fc80ee
 ---
 
 # 2nd Level Spirit Magic List [ Will-O-Wisp ] (Will-O-Wisp/Light Spirit)
@@ -19,7 +19,6 @@ From [[sword-world-rpg-complete-edition]].
 
 ### Source order
 
-- [[sword-world-rpg-complete-edition-section-brownie-brownie-building-spirit-4bf60a3b]] - previous source section: [ Brownie ] (Brownie/Building Spirit)
 - [[sword-world-rpg-complete-edition-section-water-screen-undine-water-spirit-e4277305]] - next source section: [ Water Screen ] (Undine/Water Spirit)
 
 ## Statements

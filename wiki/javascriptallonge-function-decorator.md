@@ -7,7 +7,7 @@ sources: raw/javascriptallonge.pdf
 updated: 2026-07-07
 domain: javascriptallonge
 category_path: concepts
-projection_coverage: topic-javascriptallonge-function-decorator@db3b1894c254d2dfa9f8159d9fcf2a08
+projection_coverage: topic-javascriptallonge-function-decorator@e6f16ee5c30e1ebd9ae755b2ee3cf574
 ---
 
 # Function Decorator
@@ -42,6 +42,9 @@ const nothing = not(something);
 ### Source structure
 
 - [[javascriptallonge-section-combinators-and-function-decorators-function-decorators-9d6990ae]] - source section: Combinators and Function Decorators / function decorators shares source evidence from Combinators and Function Decorators / function decorators: So instead of writing !someFunction(42) , we can write not(someFunction)(42) . Hardly progress. But like compose , we could write either:; Combinators and Function Decorators / function decorators shares technical record from Combinators and Function Decorators / function decorators: function decorators A function decorator is a higher-order function that takes one function as an argument, returns another function, and the returned function is a ... [truncated] (3 shared statement(s), 5 shared atom(s))
+- [[javascriptallonge-section-combinators-and-function-decorators-901f172c]] - source section: Combinators and Function Decorators
+- [[javascriptallonge-section-combinators-and-function-decorators-combinators-96e491bc]] - source section: Combinators and Function Decorators / combinators
+- [[javascriptallonge-section-combinators-and-function-decorators-higher-order-functions-c07c644e]] - source section: Combinators and Function Decorators / higher-order functions
 
 ### Shared technical atoms
 

@@ -1,7 +1,7 @@
 ---
 page_id: sword-world-rpg-complete-edition-section-the-difference-between-general-skills-and-adventurer-skills-18d63dc8
 page_kind: source
-summary: The Difference Between General Skills and Adventurer Skills: 33 source-backed entries and 0 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+summary: The Difference Between General Skills and Adventurer Skills: 32 source-backed entries and 0 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: section-reference
 sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-07

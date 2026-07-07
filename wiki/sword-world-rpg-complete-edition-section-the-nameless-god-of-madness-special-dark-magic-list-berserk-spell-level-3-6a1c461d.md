@@ -1,7 +1,7 @@
 ---
 page_id: sword-world-rpg-complete-edition-section-the-nameless-god-of-madness-special-dark-magic-list-berserk-spell-level-3-6a1c461d
 page_kind: source
-summary: The Nameless God of Madness Special Dark Magic List / [ Berserk ] (Spell Level=3): 10 source-backed entries and 0 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+summary: The Nameless God of Madness Special Dark Magic List / [ Berserk ] (Spell Level=3): 9 source-backed entries and 0 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: section-reference
 sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-07

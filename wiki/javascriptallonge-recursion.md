@@ -7,7 +7,7 @@ sources: raw/javascriptallonge.pdf
 updated: 2026-07-07
 domain: javascriptallonge
 category_path: concepts
-projection_coverage: topic-javascriptallonge-recursion@140f6257b01bbce0c6fdff23a598fea5
+projection_coverage: topic-javascriptallonge-recursion@514948830731e5fb6cd9fb9191288066
 ---
 
 # Recursion
@@ -36,6 +36,12 @@ What [[javascriptallonge]] covers about recursion:
 
 - Key Point : Our [first, ...rest] approach to recursion is slow because that it creates a lot of temporary arrays, and it spends an enormous amount of time copying elements into arrays that end up being discarded. _(javascriptallonge.pdf (source-range-c98ab3e6-01004))_
 
+
+## Related pages
+
+### Source structure
+
+- [[javascriptallonge-section-composing-and-decomposing-data-self-similarity-linear-recursion-fad0c717]] - source section: Composing and Decomposing Data / Self-Similarity / linear recursion
 
 ## Source
 

@@ -7,7 +7,7 @@ sources: raw/javascriptallonge.pdf
 updated: 2026-07-07
 domain: javascriptallonge
 category_path: concepts
-projection_coverage: topic-javascriptallonge-ternary-operator@3cd5e26b15602122818be46e9e9d3e7b
+projection_coverage: topic-javascriptallonge-ternary-operator@2a2f281950e2d7c1bfcddc810a211788
 ---
 
 # Ternary Operator
@@ -43,6 +43,10 @@ true ? 'Hello' : 'Good bye'
 
 
 ## Related pages
+
+### Source structure
+
+- [[javascriptallonge-section-picking-the-bean-choice-and-truthiness-truthiness-and-the-ternary-operator-b715a907]] - source section: Picking the Bean: Choice and Truthiness / truthiness and the ternary operator
 
 ### Shared technical atoms
 

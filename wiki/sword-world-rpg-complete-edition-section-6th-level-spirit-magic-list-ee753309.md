@@ -1,14 +1,14 @@
 ---
 page_id: sword-world-rpg-complete-edition-section-6th-level-spirit-magic-list-ee753309
 page_kind: source
-summary: 6th Level Spirit Magic List: 83 source-backed entries and 0 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+summary: 6th Level Spirit Magic List: 81 source-backed entries and 0 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: section-reference
 sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-07
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-6th-level-spirit-magic-list-ee753309@8c27d7e5cb6af591b98cadfb18d74218
+projection_coverage: section-sword-world-rpg-complete-edition-section-6th-level-spirit-magic-list-ee753309@52eb396cea69b851f7fca1209b12325b
 ---
 
 # 6th Level Spirit Magic List
@@ -20,7 +20,6 @@ From [[sword-world-rpg-complete-edition]].
 ### Source order
 
 - [[sword-world-rpg-complete-edition-section-missile-protection-sylph-wind-spirit-240d355b]] - previous source section: [ Missile Protection ] (Sylph/Wind Spirit)
-- [[sword-world-rpg-complete-edition-section-decrease-water-pressure-undine-water-spirit-461cd616]] - next source section: [ Decrease Water Pressure ] (Undine/Water Spirit)
 
 ## Statements
 

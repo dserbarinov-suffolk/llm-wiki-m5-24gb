@@ -8,18 +8,12 @@ updated: 2026-07-07
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-sheath-a-weapon-etc-b227a05d@c821e0a1e9d2769c1218088d844aa9db
+projection_coverage: section-sword-world-rpg-complete-edition-section-sheath-a-weapon-etc-b227a05d@a98f4d2cf00dd91780cc9052e3e7654f
 ---
 
 # Sheath a Weapon, Etc.
 
 From [[sword-world-rpg-complete-edition]].
-
-## Related pages
-
-### Source order
-
-- [[sword-world-rpg-complete-edition-section-switch-a-weapon-from-hand-to-hand-0ec7d8cf]] - previous source section: Switch a Weapon From Hand to Hand
 
 ## Statements
 

@@ -7,7 +7,7 @@ sources: raw/javascriptallonge.pdf
 updated: 2026-07-07
 domain: javascriptallonge
 category_path: concepts
-projection_coverage: topic-javascriptallonge-mixing@1cfd9311142bf8c929903b41ab0e5fcb
+projection_coverage: topic-javascriptallonge-mixing@a22c6448915d9d22ebda496a1fa3e6c1
 ---
 
 # Mixing
@@ -42,6 +42,11 @@ return age;
 
 
 ## Related pages
+
+### Source structure
+
+- [[javascriptallonge-section-reassignment-mixing-let-and-const-0dde966f]] - source section: Reassignment / mixing let and const
+- [[javascriptallonge-section-reassignment-mixing-let-and-const-var-65ff1805]] - source section: Reassignment / mixing let and const / var
 
 ### Shared technical atoms
 

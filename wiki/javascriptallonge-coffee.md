@@ -7,7 +7,7 @@ sources: raw/javascriptallonge.pdf
 updated: 2026-07-07
 domain: javascriptallonge
 category_path: concepts
-projection_coverage: topic-javascriptallonge-coffee@e86f3804e87f37e4a970758153a9f438
+projection_coverage: topic-javascriptallonge-coffee@b13e4024711d0c8d71e213796c79b920
 ---
 
 # Coffee
@@ -28,6 +28,17 @@ What [[javascriptallonge]] covers about coffee:
 
 
 ## Related pages
+
+### Source structure
+
+- [[javascriptallonge-section-prelude-values-and-expressions-over-coffee-9ed49287]] - source section: Prelude: Values and Expressions over Coffee
+- [[javascriptallonge-section-prelude-values-and-expressions-over-coffee-reference-types-11fd4275]] - source section: Prelude: Values and Expressions over Coffee / reference types
+- [[javascriptallonge-section-prelude-values-and-expressions-over-coffee-value-types-cb5b0b74]] - source section: Prelude: Values and Expressions over Coffee / value types
+- [[javascriptallonge-section-prelude-values-and-expressions-over-coffee-values-are-expressions-b4b22fa2]] - source section: Prelude: Values and Expressions over Coffee / values are expressions
+- [[javascriptallonge-section-that-constant-coffee-craving-614e2fd3]] - source section: That Constant Coffee Craving
+- [[javascriptallonge-section-that-constant-coffee-craving-are-consts-also-from-a-shadowy-planet-12b08c07]] - source section: That Constant Coffee Craving / are consts also from a shadowy planet?
+- [[javascriptallonge-section-that-constant-coffee-craving-const-37801120]] - source section: That Constant Coffee Craving / const
+- [[javascriptallonge-section-that-constant-coffee-craving-const-and-lexical-scope-bbfe0b3d]] - source section: That Constant Coffee Craving / const and lexical scope
 
 ### Shared claims
 

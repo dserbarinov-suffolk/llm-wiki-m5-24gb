@@ -7,7 +7,7 @@ sources: raw/javascriptallonge.pdf
 updated: 2026-07-07
 domain: javascriptallonge
 category_path: concepts
-projection_coverage: topic-javascriptallonge-iteration@9186ec8420c71f07cec6b4f6cf068d26
+projection_coverage: topic-javascriptallonge-iteration@3f3a30d5b3d444593bf561188e3c6499
 ---
 
 # Iteration
@@ -721,6 +721,17 @@ Pair1.from(Squares)
 
 
 ## Related pages
+
+### Source structure
+
+- [[javascriptallonge-section-lazy-and-eager-collections-implementing-methods-with-iteration-e67a1913]] - source section: Lazy and Eager Collections / implementing methods with iteration
+- [[javascriptallonge-section-served-by-the-pot-collections-iteration-and-iterables-98745d63]] - source section: Served by the Pot: Collections / Iteration and Iterables
+- [[javascriptallonge-section-served-by-the-pot-collections-iteration-and-iterables-a-look-back-at-functional-iterators-57a76f01]] - source section: Served by the Pot: Collections / Iteration and Iterables / a look back at functional iterators
+- [[javascriptallonge-section-served-by-the-pot-collections-iteration-and-iterables-iterables-94f83dae]] - source section: Served by the Pot: Collections / Iteration and Iterables / iterables
+- [[javascriptallonge-section-served-by-the-pot-collections-iteration-and-iterables-iterables-out-to-infinity-ae258dd7]] - source section: Served by the Pot: Collections / Iteration and Iterables / iterables out to infinity
+- [[javascriptallonge-section-served-by-the-pot-collections-iteration-and-iterables-iterator-objects-cbbb8baa]] - source section: Served by the Pot: Collections / Iteration and Iterables / iterator objects
+- [[javascriptallonge-section-served-by-the-pot-collections-iteration-and-iterables-operations-on-ordered-collections-ee56851b]] - source section: Served by the Pot: Collections / Iteration and Iterables / operations on ordered collections
+- [[javascriptallonge-section-served-by-the-pot-collections-iteration-and-iterables-ordered-collections-16a4ad9f]] - source section: Served by the Pot: Collections / Iteration and Iterables / ordered collections
 
 ### Shared technical atoms
 

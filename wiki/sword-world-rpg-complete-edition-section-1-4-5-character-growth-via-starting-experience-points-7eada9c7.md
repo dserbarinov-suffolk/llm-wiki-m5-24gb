@@ -1,14 +1,14 @@
 ---
 page_id: sword-world-rpg-complete-edition-section-1-4-5-character-growth-via-starting-experience-points-7eada9c7
 page_kind: source
-summary: 1.4.5 Character Growth via Starting Experience Points: 34 source-backed entries and 1 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+summary: 1.4.5 Character Growth via Starting Experience Points: 35 source-backed entries and 2 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: section-reference
 sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-07
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-1-4-5-character-growth-via-starting-experience-points-7eada9c7@ff42ff9f24a277417f023afc175ff7ad
+projection_coverage: section-sword-world-rpg-complete-edition-section-1-4-5-character-growth-via-starting-experience-points-7eada9c7@811a28b17630d670c4e343af54ba97c0
 ---
 
 # 1.4.5 Character Growth via Starting Experience Points
@@ -46,6 +46,35 @@ From [[sword-world-rpg-complete-edition]].
 ## Technical atoms
 
 ### Technical frame 1: 1.4.5 Character Growth via Starting Experience Points
+
+**Context:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-00427))_
+
+> A character has already acquired certain skills (starting skills) according to Table 1-5: Backgrounds or Table 1-6: Starting Experience by Race. In addition to this, starting experience points can also be used to acquire new skills or increase a character's skills.
+
+**Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-00420))_
+
+<a id="atom-technical-atom-27967460a6a36226"></a>
+| Attained Level | Sorcerer & Sage at the same time | Sorcerer | Sorcerer (with Sage) | Shaman | Fighter Thief Priest | Ranger Sage Bard |
+| --- | --- | --- | --- | --- | --- | --- |
+| 1 | 2000 | 2000 | 1500 | 1500 | 1000 | 500 |
+| 2 |  |  |  | 2000 | 1500 | 1000 |
+| 3 |  |  |  |  |  | 1500 |
+
+<details>
+<summary>Raw table text</summary>
+
+```text
+1.4.5 Character Growth via Starting Experience Points
+| Attained Level | Sorcerer & Sage at the same time | Sorcerer | Sorcerer (with Sage) | Shaman | Fighter Thief Priest | Ranger Sage Bard |
+| --- | --- | --- | --- | --- | --- | --- |
+| 1 | 2000 | 2000 | 1500 | 1500 | 1000 | 500 |
+| 2 |  |  |  | 2000 | 1500 | 1000 |
+| 3 |  |  |  |  |  | 1500 |
+```
+
+</details>
+
+### Technical frame 2: 1.4.5 Character Growth via Starting Experience Points
 
 **Context:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-00434))_
 

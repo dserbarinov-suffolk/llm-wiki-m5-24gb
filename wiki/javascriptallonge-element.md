@@ -1,13 +1,13 @@
 ---
 page_id: javascriptallonge-element
 page_kind: concept
-summary: Element: 21 statement(s) and 19 atom(s) from raw/javascriptallonge.pdf.
+summary: Element: 21 statement(s) and 18 atom(s) from raw/javascriptallonge.pdf.
 page_family: broad-topic
 sources: raw/javascriptallonge.pdf
 updated: 2026-07-07
 domain: javascriptallonge
 category_path: concepts
-projection_coverage: topic-javascriptallonge-element@5bca22886f2201b60033809d47f4fc87
+projection_coverage: topic-javascriptallonge-element@6e2bc385b83f21e15e39ccfef150e2d9
 ---
 
 # Element
@@ -105,18 +105,7 @@ cdr(oneToFive)
 //=> [2,[3,[4,[5,null]]]]
 ```
 
-### Technical frame 2: Garbage, Garbage Everywhere / so why arrays
-
-**Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01036))_
-
-> Arrays avoid this problem by pessimistically copying all the references whenever we extract an element or sequence of elements from them (We'll see this explained later in Mutation).
-
-**Atom:** _(javascriptallonge.pdf (source-range-c98ab3e6-01035))_
-
-<a id="atom-technical-atom-557e4bd3a4b86aac"></a>
-> We have avoided discussing rebinding and mutating values, but if we want to change elements of our lists, the naïve linked list implementation suffers as well: When we take the cdr of a linked list, we are sharing the elements.
-
-### Technical frame 3: Copy on Write
+### Technical frame 2: Copy on Write
 
 **Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01207))_
 
@@ -127,7 +116,7 @@ cdr(oneToFive)
 <a id="atom-technical-atom-b34cb1ee5a282e9c"></a>
 > The consequence of this is that if you have an array, and you take it's 'rest,' your 'child' array is a copy of the elements of the parent array.
 
-### Technical frame 4: Copy on Write
+### Technical frame 3: Copy on Write
 
 **Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01207))_
 
@@ -138,7 +127,7 @@ cdr(oneToFive)
 <a id="atom-technical-atom-575252d5f4b2c744"></a>
 > Whereas if you have a linked list, and you take it's 'rest,' your 'child' list shares its nodes with the 'parent' list.
 
-### Technical frame 5: iterating
+### Technical frame 4: iterating
 
 **Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01263))_
 
@@ -159,7 +148,7 @@ arraySum([1, 4, 9, 16, 25])
 //=> 55
 ```
 
-### Technical frame 6: Served by the Pot: Collections / Iteration and Iterables / iterables
+### Technical frame 5: Served by the Pot: Collections / Iteration and Iterables / iterables
 
 **Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01540))_
 
@@ -173,7 +162,7 @@ arraySum([1, 4, 9, 16, 25])
 //=> ["some squares", 1, 4, 9, 16, 25]
 ```
 
-### Technical frame 7: Served by the Pot: Collections / Iteration and Iterables / iterables
+### Technical frame 6: Served by the Pot: Collections / Iteration and Iterables / iterables
 
 **Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01540))_
 
@@ -192,9 +181,13 @@ firstAndSecondElement(...stack)
 
 ## Related pages
 
+### Source structure
+
+- [[javascriptallonge-section-composing-and-decomposing-data-arrays-and-destructuring-arguments-element-references-75756e27]] - source section: Composing and Decomposing Data / Arrays and Destructuring Arguments / element references
+
 ### Shared technical atoms
 
-- [[javascriptallonge-list]] - shared statements and technical atoms: List shares source evidence from Composing and Decomposing Data / Self-Similarity: Let's convert our rules to array literals. The first rule is simple: [] is a list. How about the second rule? We can express that using a spread. Given an element e ... [truncated]; List shares technical record from Composing and Decomposing Data / Self-Similarity: [] //=> [] ["baz", ...[]] //=> ["baz"] ["bar", ...["baz"]] //=> ["bar","baz"] ["foo", ...["bar", "baz"]] //=> ["foo","bar","baz"] (3 shared statement(s), 6 shared atom(s))
+- [[javascriptallonge-list]] - shared statements and technical atoms: List shares source evidence from Composing and Decomposing Data / Self-Similarity: Let's convert our rules to array literals. The first rule is simple: [] is a list. How about the second rule? We can express that using a spread. Given an element e ... [truncated]; List shares technical record from Composing and Decomposing Data / Self-Similarity: [] //=> [] ["baz", ...[]] //=> ["baz"] ["bar", ...["baz"]] //=> ["bar","baz"] ["foo", ...["bar", "baz"]] //=> ["foo","bar","baz"] (3 shared statement(s), 5 shared atom(s))
 - [[javascriptallonge-iteration]] - shared technical atoms: Iteration shares technical record from Served by the Pot: Collections / Iteration and Iterables / iterables: ['some squares', ...someSquares] //=> ["some squares", 1, 4, 9, 16, 25] (4 shared atom(s))
 - [[javascriptallonge-copy-write]] - shared statements and technical atoms: Copy on Write shares source evidence from Copy on Write: This is remarkably unsafe. If we know that a list doesn't share any elements with another list, we can safely modify it. But how do we keep track of that? Add a bunc ... [truncated]; Copy on Write shares technical record from Copy on Write: The consequence of this is that if you have an array, and you take it's 'rest,' your 'child' array is a copy of the elements of the parent array. (1 shared statement(s), 3 shared atom(s))
 - [[javascriptallonge-iterable]] - shared statements and technical atoms: Iterable shares source evidence from Served by the Pot: Collections / Iteration and Iterables / operations on ordered collections: For completeness, here are two more handy iterable functions. first returns the first element of an iterable (if it has one), and rest returns an iterable that itera ... [truncated]; Iterable shares technical record from Served by the Pot: Collections / Iteration and Iterables / iterables: ['some squares', ...someSquares] //=> ["some squares", 1, 4, 9, 16, 25] (1 shared statement(s), 3 shared atom(s))

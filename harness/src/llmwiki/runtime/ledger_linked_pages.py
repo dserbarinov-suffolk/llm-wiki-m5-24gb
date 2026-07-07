@@ -19,7 +19,7 @@ from llmwiki.domain.ledger.procedure_pages import build_procedure_pages
 from llmwiki.domain.ledger.projection import ProjectionSourceSupport
 from llmwiki.domain.ledger.projection_context import ProjectionContext
 from llmwiki.domain.ledger.recipe_pages import build_recipe_pages
-from llmwiki.domain.ledger.section_navigation import section_links_by_topic
+from llmwiki.domain.ledger.section_navigation import section_links_for_topics
 from llmwiki.domain.ledger.section_pages import build_section_pages
 from llmwiki.domain.ledger.section_planning import SectionGroundedPlan
 from llmwiki.domain.ledger.source_manifest_navigation import (
@@ -61,7 +61,9 @@ def build_linked_page_projection(
     support: ProjectionSourceSupport,
     projection_report_artifact: LedgerQualityReportArtifact,
 ) -> LinkedPageProjection:
-    related = section_links_by_topic(section_plan, structure, source_page_id=page_id)
+    related = section_links_for_topics(
+        section_plan, structure, source_page_id=page_id, topics=topics
+    )
     topic_pages = build_topic_pages(
         topics,
         ledger,

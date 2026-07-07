@@ -8,18 +8,12 @@ updated: 2026-07-07
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-garrote-b5554dd9@aa4cb59375c14c936cacd4575d7f615b
+projection_coverage: section-sword-world-rpg-complete-edition-section-garrote-b5554dd9@4dead59bd5e28f2f65c81dbd6a133879
 ---
 
 # Garrote
 
 From [[sword-world-rpg-complete-edition]].
-
-## Related pages
-
-### Source order
-
-- [[sword-world-rpg-complete-edition-section-sap-blackjack-dce1eefd]] - previous source section: Sap (Blackjack)
 
 ## Statements
 

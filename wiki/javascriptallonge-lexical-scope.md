@@ -7,7 +7,7 @@ sources: raw/javascriptallonge.pdf
 updated: 2026-07-07
 domain: javascriptallonge
 category_path: concepts
-projection_coverage: topic-javascriptallonge-lexical-scope@9f3410a27c6d9d514d712d383b8477d1
+projection_coverage: topic-javascriptallonge-lexical-scope@971211c0498cba61b449bb02b294dabd
 ---
 
 # Lexical Scope
@@ -22,6 +22,10 @@ What [[javascriptallonge]] covers about lexical scope:
 
 
 ## Related pages
+
+### Source structure
+
+- [[javascriptallonge-section-that-constant-coffee-craving-const-and-lexical-scope-bbfe0b3d]] - source section: That Constant Coffee Craving / const and lexical scope
 
 ### Shared claims
 

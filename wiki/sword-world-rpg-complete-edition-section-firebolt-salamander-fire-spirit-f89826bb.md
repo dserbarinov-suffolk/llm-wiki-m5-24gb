@@ -1,14 +1,14 @@
 ---
 page_id: sword-world-rpg-complete-edition-section-firebolt-salamander-fire-spirit-f89826bb
 page_kind: source
-summary: [ Firebolt ] (Salamander/Fire Spirit): 6 source-backed entries and 0 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+summary: [ Firebolt ] (Salamander/Fire Spirit): 5 source-backed entries and 0 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: section-reference
 sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-07
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-firebolt-salamander-fire-spirit-f89826bb@207fb219448f2adad3244938093cc462
+projection_coverage: section-sword-world-rpg-complete-edition-section-firebolt-salamander-fire-spirit-f89826bb@1f47a12a0d0e91e655a51c46a2e2e784
 ---
 
 # [ Firebolt ] (Salamander/Fire Spirit)
@@ -20,7 +20,6 @@ From [[sword-world-rpg-complete-edition]].
 ### Source order
 
 - [[sword-world-rpg-complete-edition-section-purification-undine-water-spirit-2c49cf4c]] - previous source section: [ Purification ] (Undine/Water Spirit)
-- [[sword-world-rpg-complete-edition-section-brownie-brownie-building-spirit-4bf60a3b]] - next source section: [ Brownie ] (Brownie/Building Spirit)
 
 ## Statements
 

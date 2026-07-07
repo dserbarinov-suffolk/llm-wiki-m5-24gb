@@ -1,7 +1,7 @@
 ---
 page_id: sword-world-rpg-complete-edition-section-basic-rules-of-magic-8th-level-ancient-magic-list-10th-level-ancient-magic-list-dimension-gate-ea45ed57
 page_kind: source
-summary: Basic Rules of Magic / 8th Level Ancient Magic List / 10th Level Ancient Magic List [ Dimension Gate ]: 43 source-backed entries and 0 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+summary: Basic Rules of Magic / 8th Level Ancient Magic List / 10th Level Ancient Magic List [ Dimension Gate ]: 42 source-backed entries and 0 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: section-reference
 sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-07

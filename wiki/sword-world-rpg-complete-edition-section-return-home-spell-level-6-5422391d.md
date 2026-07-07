@@ -1,7 +1,7 @@
 ---
 page_id: sword-world-rpg-complete-edition-section-return-home-spell-level-6-5422391d
 page_kind: source
-summary: [ Return Home ] (Spell Level=6): 7 source-backed entries and 0 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+summary: [ Return Home ] (Spell Level=6): 6 source-backed entries and 0 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: section-reference
 sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-07

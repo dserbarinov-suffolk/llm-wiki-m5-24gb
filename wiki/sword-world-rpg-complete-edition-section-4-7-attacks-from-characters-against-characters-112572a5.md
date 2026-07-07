@@ -1,7 +1,7 @@
 ---
 page_id: sword-world-rpg-complete-edition-section-4-7-attacks-from-characters-against-characters-112572a5
 page_kind: source
-summary: 4.7 Attacks From Characters Against Characters: 2 source-backed entries and 0 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+summary: 4.7 Attacks From Characters Against Characters: 1 source-backed entries and 0 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: section-reference
 sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-07

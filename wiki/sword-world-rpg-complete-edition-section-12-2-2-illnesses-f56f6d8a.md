@@ -1,14 +1,14 @@
 ---
 page_id: sword-world-rpg-complete-edition-section-12-2-2-illnesses-f56f6d8a
 page_kind: source
-summary: 12.2.2 Illnesses: 165 source-backed entries and 11 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+summary: 12.2.2 Illnesses: 163 source-backed entries and 11 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: section-reference
 sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-07
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-12-2-2-illnesses-f56f6d8a@ce41a6ff1505555d3680ad469d04867a
+projection_coverage: section-sword-world-rpg-complete-edition-section-12-2-2-illnesses-f56f6d8a@185e5faef40a3859ce2030a330a9d7be
 ---
 
 # 12.2.2 Illnesses
@@ -198,13 +198,7 @@ From [[sword-world-rpg-complete-edition]].
 
 > A wound can greatly disturb the balance of spirit power within the body, and the power of salamander in particular may become stronger. This results in lockjaw, a disease that causes a severe fever. A character will be unable to do much while suffering from lockjaw due to a high fever. It's not very contagious, but if you leave a wound with mud, etc. the chance of infection is fairly high. It is said that this is because undine and gnome create illusions due to the mud.
 
-**Atoms:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-05677, source-range-e5870dca-05679, source-range-e5870dca-05680))_
+**Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-05677))_
 
 <a id="atom-technical-atom-44f5c9eec0683463"></a>
 > Rarity=7
-
-<a id="atom-technical-atom-5f6c0725a3864cbc"></a>
-> Fatal Depth=4
-
-<a id="atom-technical-atom-f501b61b99578708"></a>
-> Infection Power=Very weak

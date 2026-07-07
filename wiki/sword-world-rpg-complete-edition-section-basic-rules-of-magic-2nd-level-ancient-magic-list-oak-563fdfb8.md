@@ -1,7 +1,7 @@
 ---
 page_id: sword-world-rpg-complete-edition-section-basic-rules-of-magic-2nd-level-ancient-magic-list-oak-563fdfb8
 page_kind: source
-summary: Basic Rules of Magic / 2nd Level Ancient Magic List [ Oak ]: 60 source-backed entries and 0 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+summary: Basic Rules of Magic / 2nd Level Ancient Magic List [ Oak ]: 59 source-backed entries and 0 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: section-reference
 sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-07

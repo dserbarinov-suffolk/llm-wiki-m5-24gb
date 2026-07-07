@@ -1,25 +1,19 @@
 ---
 page_id: sword-world-rpg-complete-edition-section-3-2-action-order-2b58863f
 page_kind: source
-summary: 3.2 Action Order: 19 source-backed entries and 1 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+summary: 3.2 Action Order: 17 source-backed entries and 0 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: section-reference
 sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-07
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-3-2-action-order-2b58863f@b7008f621d6f16a13eb5255b9b56a1a9
+projection_coverage: section-sword-world-rpg-complete-edition-section-3-2-action-order-2b58863f@9c55f08735824926cffd23d5ac8efe24
 ---
 
 # 3.2 Action Order
 
 From [[sword-world-rpg-complete-edition]].
-
-## Related pages
-
-### Source order
-
-- [[sword-world-rpg-complete-edition-section-3-3-action-canceling-ddc631ba]] - next source section: 3.3 Action Canceling
 
 ## Statements
 
@@ -36,16 +30,3 @@ From [[sword-world-rpg-complete-edition]].
 - Therefore, it is possible to have a mixture of friends and foes, as in a1 → b1 → a2 ....... _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01052))_
 - If, as a result of the action of someone with higher agility, someone with lower agility is unable to perform their intended action , it means that their action is no longer possible . _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01053))_
 - Ducard II then fails to evade it and falls down with a deep wound. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01059))_
-
-## Technical atoms
-
-### Technical frame 1: 3.2 Action Order
-
-**Context:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01061))_
-
-> Suppose that, as in the first example, IIDash is still hit badly enough to fall down as a result of the goblin's attack check. However, IIDash's action order = agility is the same as the goblin's, so he would've been slashing at the goblin at the same time . In other words,
-
-**Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01060))_
-
-<a id="atom-technical-atom-dd28d7f6ad0a5b12"></a>
-> Suppose that Ducard II has an agility of 13, which is equal to that of a goblin (let's call him IIDash from now on, since he is a bit faster). In this case, both attacks are considered to be carried out simultaneously. During the course of the game, each attack check is made in the order of goblin → IIDash (or vice versa). Otherwise, it would be difficult to progress the game.

@@ -1,7 +1,7 @@
 ---
 page_id: sword-world-rpg-complete-edition-section-the-nameless-god-of-madness-special-dark-magic-list-a794214f
 page_kind: source
-summary: The Nameless God of Madness Special Dark Magic List: 13 source-backed entries and 0 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+summary: The Nameless God of Madness Special Dark Magic List: 12 source-backed entries and 0 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: section-reference
 sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-07

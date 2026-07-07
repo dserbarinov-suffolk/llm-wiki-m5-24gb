@@ -1,14 +1,14 @@
 ---
 page_id: sword-world-rpg-complete-edition-section-2-4-bonuses-and-penalties-e2265fd4
 page_kind: source
-summary: 2.4 Bonuses and Penalties: 11 source-backed entries and 1 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+summary: 2.4 Bonuses and Penalties: 9 source-backed entries and 0 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: section-reference
 sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-07
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-2-4-bonuses-and-penalties-e2265fd4@a41e64e6e2312cddb4719b3177b91295
+projection_coverage: section-sword-world-rpg-complete-edition-section-2-4-bonuses-and-penalties-e2265fd4@64cb01d588643c55a7fa4a2999a9febf
 ---
 
 # 2.4 Bonuses and Penalties
@@ -31,16 +31,3 @@ From [[sword-world-rpg-complete-edition]].
 - For example, if the person you're fighting is falling, their movements will be restricted and your attacks will be easier to land. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-00944))_
 - Things like, +2 because they're falling over , or -4 because it's dark . _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-00946))_
 - A player must also calculate these before making a success roll. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-00947))_
-
-## Technical atoms
-
-### Technical frame 1: 2.4 Bonuses and Penalties
-
-**Context:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-00947))_
-
-> When such bonuses or penalties are applied, the baseline score will go up or down. A player must also calculate these before making a success roll.
-
-**Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-00948))_
-
-<a id="atom-technical-atom-ceb1a6dc554cec9f"></a>
-> final score {baseline score + 2D ± (bonus, penalty)} ≥ target score → action is successful

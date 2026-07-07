@@ -1,14 +1,14 @@
 ---
 page_id: sword-world-rpg-complete-edition-section-chapter-9-setting-target-scores-and-difficulties-should-you-use-a-target-score-check-or-a-diffic-bd9a418b
 page_kind: source
-summary: Chapter 9: / Setting Target Scores and Difficulties / Should You Use a Target Score Check or a Difficulty Check?: 29 source-backed entries and 3 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+summary: Chapter 9: / Setting Target Scores and Difficulties / Should You Use a Target Score Check or a Difficulty Check?: 27 source-backed entries and 1 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: section-reference
 sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-07
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-9-setting-target-scores-and-difficulties-should-you-use-a-target-score-check-or-a-diffic-bd9a418b@bcaeda459abb91a1a88a671b77e90837
+projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-9-setting-target-scores-and-difficulties-should-you-use-a-target-score-check-or-a-diffic-bd9a418b@dcf550c0a49732693717d37f4d492475
 ---
 
 # Chapter 9: / Setting Target Scores and Difficulties / Should You Use a Target Score Check or a Difficulty Check?
@@ -53,41 +53,3 @@ From [[sword-world-rpg-complete-edition]].
 
 <a id="atom-technical-atom-302eda61c068a291"></a>
 > The standard for deciding is whether the character can tell if the action succeeded or failed .
-
-### Technical frame 2: Chapter 9: / Setting Target Scores and Difficulties / Should You Use a Target Score Check or a Difficulty Check?
-
-**Context:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-04537))_
-
-> However, this is not possible without knowing the difficulty.
-
-**Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-04536))_
-
-<a id="atom-technical-atom-497e176780454da3"></a>
-> If the difficulty is clear, let's say it's 3, players can infer that they can only fail when the game master rolls an 11 or 12.
-
-### Technical frame 3: Chapter 9: / Setting Target Scores and Difficulties / Should You Use a Target Score Check or a Difficulty Check? / 9.3 General Modifiers
-
-**Context:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-04549))_
-
-> In this case, instead of the game master looking at the Determining Target Scores or Difficulties table for each , it's easier to deal with it by setting one target score, assuming there is complete light, and applying -4 to the human because they can't see, -2 to the elf (shaman) because they can use infravision, and no modifier to the dwarf because they have full darkvision. Also, since the modifiers are reflected in the final score, the advantage is that you can also see who did the best sear
-
-**Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-04547))_
-
-<a id="atom-technical-atom-91613b258bc2abad"></a>
-| Extremely difficult situation | -4 |
-| --- | --- |
-| Tough but manageable situation | -2 |
-| Slightly disadvantageous situation | -1 |
-
-<details>
-<summary>Raw table text</summary>
-
-```text
-General Modifiers
-| Extremely difficult situation | -4 |
-| --- | --- |
-| Tough but manageable situation | -2 |
-| Slightly disadvantageous situation | -1 |
-```
-
-</details>

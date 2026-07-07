@@ -1,13 +1,13 @@
 ---
 page_id: sword-world-rpg-complete-edition-filling-character-sheet
 page_kind: concept
-summary: 1.4.9 Filling Out the Character Sheet: 154 statement(s) and 41 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+summary: 1.4.9 Filling Out the Character Sheet: 154 statement(s) and 30 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: broad-topic
 sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-07
 domain: sword-world-rpg-complete-edition
 category_path: concepts
-projection_coverage: topic-sword-world-rpg-complete-edition-filling-character-sheet@4c6431f112fefbe7f74490f1daf8c9b5
+projection_coverage: topic-sword-world-rpg-complete-edition-filling-character-sheet@977d26c8c73b26a8238c99a16f37521b
 ---
 
 # 1.4.9 Filling Out the Character Sheet
@@ -227,18 +227,7 @@ What [[sword-world-rpg-complete-edition]] covers about 1.4.9 filling out the cha
 <a id="atom-technical-atom-8aa3aac3eaf3e60b"></a>
 > Each resisting side must then make a mental power resistance roll, using that determined final score as the target score.
 
-### Technical frame 7: Basic Rules of Magic / Filling out the Character Sheet / When an Adventurer Casts Magic on Adventurers
-
-**Context:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01587))_
-
-> The evil sorcerer Gorman (magic power 5) unleashes Lightning on the three adventurers. First, Gorman rolls 2D and adds his own magic power. If we assume his 2D roll is 8 , each of the three adventurers must make a mental power resistance roll, with a target score of 5 (magic power) + 8 (roll) = 13 . Suppose that the baseline score of all three of their mental power resistance rolls is 4 . If their rolls are each 2 (double ones!), 6 , and 9 , then only the last one is able to resist the Lightning
-
-**Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01588))_
-
-<a id="atom-technical-atom-a63d0d9dbcfafdef"></a>
-> If the side casting the magic rolls double sixes, no one can resist, except for those who also roll double sixes.
-
-### Technical frame 8: Basic Rules of Magic / Filling out the Character Sheet / When an Adventurer Casts Magic on a Mix of Adventurers and Monsters
+### Technical frame 7: Basic Rules of Magic / Filling out the Character Sheet / When an Adventurer Casts Magic on a Mix of Adventurers and Monsters
 
 **Context:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01592))_
 
@@ -249,18 +238,7 @@ What [[sword-world-rpg-complete-edition]] covers about 1.4.9 filling out the cha
 <a id="atom-technical-atom-b2d14a08b712c1f6"></a>
 > At this time, the monsters must also roll the dice to make resist checks.
 
-### Technical frame 9: Basic Rules of Magic / Filling out the Character Sheet / When an Adventurer Casts Magic on a Mix of Adventurers and Monsters
-
-**Context:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01592))_
-
-> Some magic can also have secondary effects. For example, the spirit magic Fanaticism increases attack power, but conversely decreases evasion speed. With such magic, the one on whom it is cast can choose whether or not to resist.
-
-**Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01593))_
-
-<a id="atom-technical-atom-7ceff197ed36fbf4"></a>
-> If the one on whom the magic is being cast chooses not to resist the magic, it will definitely take effect so long as the one casting the magic does not roll double ones.
-
-### Technical frame 10: Basic Rules of Magic / Filling out the Character Sheet / 5.1.5 Consuming Mental Power
+### Technical frame 8: Basic Rules of Magic / Filling out the Character Sheet / 5.1.5 Consuming Mental Power
 
 **Context:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01598))_
 
@@ -271,7 +249,7 @@ What [[sword-world-rpg-complete-edition]] covers about 1.4.9 filling out the cha
 <a id="atom-technical-atom-cc808ac25ff6f5d4"></a>
 > Adventurers cannot use magic endlessly.
 
-### Technical frame 11: Spellsongs / Filling out the Character Sheet / Charm (Mind)
+### Technical frame 9: Spellsongs / Filling out the Character Sheet / Charm (Mind)
 
 **Context:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-03833))_
 
@@ -282,7 +260,7 @@ What [[sword-world-rpg-complete-edition]] covers about 1.4.9 filling out the cha
 <a id="atom-technical-atom-98f8819486ddbca0"></a>
 > However, if you suffer physical or mental damage, you can make another resistance roll.
 
-### Technical frame 12: Spellsongs / Filling out the Character Sheet / Charm (Mind)
+### Technical frame 10: Spellsongs / Filling out the Character Sheet / Charm (Mind)
 
 **Context:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-03837))_
 
@@ -293,7 +271,7 @@ What [[sword-world-rpg-complete-edition]] covers about 1.4.9 filling out the cha
 <a id="atom-technical-atom-573f0688cb51650b"></a>
 > With this spellsong, a bard can make those they charm take specific actions.
 
-### Technical frame 13: Spellsongs / Filling out the Character Sheet / Charm (Mind)
+### Technical frame 11: Spellsongs / Filling out the Character Sheet / Charm (Mind)
 
 **Context:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-03837))_
 
@@ -304,7 +282,7 @@ What [[sword-world-rpg-complete-edition]] covers about 1.4.9 filling out the cha
 <a id="atom-technical-atom-dc11226bbbb8bb8a"></a>
 > 7-8
 
-### Technical frame 14: Spellsongs / Filling out the Character Sheet / Charm (Mind)
+### Technical frame 12: Spellsongs / Filling out the Character Sheet / Charm (Mind)
 
 **Context:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-03837))_
 
@@ -315,7 +293,7 @@ What [[sword-world-rpg-complete-edition]] covers about 1.4.9 filling out the cha
 <a id="atom-technical-atom-597c30992b7d4904"></a>
 > If this is not possible, cannot act while the song continues.
 
-### Technical frame 15: Spellsongs / Filling out the Character Sheet / Charm (Mind)
+### Technical frame 13: Spellsongs / Filling out the Character Sheet / Charm (Mind)
 
 **Context:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-03837))_
 
@@ -326,53 +304,23 @@ What [[sword-world-rpg-complete-edition]] covers about 1.4.9 filling out the cha
 <a id="atom-technical-atom-625fa6d221ab8659"></a>
 > 10-11
 
-### Technical frame 16: Spellsongs / Filling out the Character Sheet / Charm (Mind)
-
-**Context:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-03837))_
-
-> Run away. If this is not possible, -3 to attack points and evasion points while the song continues.
-
-**Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-03844))_
-
-<a id="atom-technical-atom-7dc5b172eae2922d"></a>
-> a resistance roll again If the resist is successful, not only does this save you from having to take the action, but also breaks you free from the spellsong's charm effect completely.
-
-### Technical frame 17: Spellsongs / Filling out the Character Sheet / Charm (Mind)
-
-**Context:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-03837))_
-
-> Run away. If this is not possible, -3 to attack points and evasion points while the song continues.
-
-**Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-03845))_
-
-<a id="atom-technical-atom-26613d957986a614"></a>
-> If you are using a flute as your instrument, you can use this spellsong, but you cannot make anyone take any actions.
-
-### Technical frame 18: Spellsongs / Filling out the Character Sheet / Requiem
-
-**Context:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-03861))_
-
-> With a song that mourns the souls of the dead, it has the effect of weakening the undead. The effect begins on the fourth round after starting the spellsong. For undead that fail to resist, roll 2D and look at Table 5-10: Requiem to determine the effect it has on them.
-
-**Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-03862))_
-
-<a id="atom-technical-atom-d85920656784ffc8"></a>
-> If this spellsong is sung to the deceased for over an hour during their funeral, the deceased will never become undead.
-
 
 ## Related pages
 
 ### Source structure
 
-- [[sword-world-rpg-complete-edition-section-basic-rules-of-magic-filling-out-the-character-sheet-f0d81142]] - source section: Basic Rules of Magic / Filling out the Character Sheet shares source evidence from Basic Rules of Magic / Filling out the Character Sheet: On the Character Sheet, there is a magic field. Characters with rune master skills must write their runes , skill level , and magic power in this field.; Basic Rules of Magic / Filling out the Character Sheet shares technical record from Basic Rules of Magic / Filling out the Character Sheet: Magic that is resistible can be rendered ineffective or less effective if the target chooses to resist . (60 shared statement(s), 30 shared atom(s))
-- [[sword-world-rpg-complete-edition-section-spellsongs-filling-out-the-character-sheet-f222832c]] - source section: Spellsongs / Filling out the Character Sheet shares source evidence from Spellsongs / Filling out the Character Sheet: belongs to mind explained under 5.1.9: Magic Types (see p. 63). In other words, each one counters (overpowers): and cannot take an effect at the same time as magic o ... [truncated]; Spellsongs / Filling out the Character Sheet shares technical record from Spellsongs / Filling out the Character Sheet: In other words, each one counters (overpowers): and cannot take an effect at the same time as magic or other spellsongs that also belong to mind . (61 shared statement(s), 10 shared atom(s))
+- [[sword-world-rpg-complete-edition-section-basic-rules-of-magic-filling-out-the-character-sheet-f0d81142]] - source section: Basic Rules of Magic / Filling out the Character Sheet shares source evidence from Basic Rules of Magic / Filling out the Character Sheet: On the Character Sheet, there is a magic field. Characters with rune master skills must write their runes , skill level , and magic power in this field.; Basic Rules of Magic / Filling out the Character Sheet shares technical record from Basic Rules of Magic / Filling out the Character Sheet: Magic that is resistible can be rendered ineffective or less effective if the target chooses to resist . (60 shared statement(s), 24 shared atom(s))
+- [[sword-world-rpg-complete-edition-section-spellsongs-filling-out-the-character-sheet-f222832c]] - source section: Spellsongs / Filling out the Character Sheet shares source evidence from Spellsongs / Filling out the Character Sheet: belongs to mind explained under 5.1.9: Magic Types (see p. 63). In other words, each one counters (overpowers): and cannot take an effect at the same time as magic o ... [truncated]; Spellsongs / Filling out the Character Sheet shares technical record from Spellsongs / Filling out the Character Sheet / Charm (Mind): However, if you suffer physical or mental damage, you can make another resistance roll. (61 shared statement(s), 5 shared atom(s))
 - [[sword-world-rpg-complete-edition-section-1-4-9-filling-out-the-character-sheet-3ba78d4e]] - source section: 1.4.9 Filling Out the Character Sheet shares source evidence from 1.4.9 Filling Out the Character Sheet: The Character Sheet that accompanies this book is designed to record and list various character details. This will help keep the game running smoothly.; 1.4.9 Filling Out the Character Sheet shares technical record from 1.4.9 Filling Out the Character Sheet: If the character is a human or a halfelf raised by a human, Table 1-5: Backgrounds must be used to determine their origin. (20 shared statement(s), 1 shared atom(s))
 - [[sword-world-rpg-complete-edition-section-scores-used-in-weapon-combat-filling-out-the-character-sheet-005e1b87]] - source section: Scores Used in Weapon Combat / Filling out the Character Sheet shares source evidence from Scores Used in Weapon Combat / Filling out the Character Sheet: Please write these scores in the designated fields on the Character Sheet. This will make the game run more smoothly. (7 shared statement(s))
 - [[sword-world-rpg-complete-edition-section-filling-out-the-character-sheet-e7410e27]] - source section: Filling Out the Character Sheet shares source evidence from Filling Out the Character Sheet: The two resistance rolls are frequently performed. Therefore, it' s advisable to make a note of the baseline score ( resistance ) so that it is readily available. Th ... [truncated] (5 shared statement(s))
+- [[sword-world-rpg-complete-edition-section-basic-rules-of-magic-filling-out-the-character-sheet-5-1-5-consuming-mental-power-03cd6d53]] - source section: Basic Rules of Magic / Filling out the Character Sheet / 5.1.5 Consuming Mental Power
+- [[sword-world-rpg-complete-edition-section-basic-rules-of-magic-filling-out-the-character-sheet-when-a-monster-casts-magic-on-adventurers-3c3162dd]] - source section: Basic Rules of Magic / Filling out the Character Sheet / When a Monster Casts Magic on Adventurers
+- [[sword-world-rpg-complete-edition-section-basic-rules-of-magic-filling-out-the-character-sheet-when-an-adventurer-casts-magic-on-a-mix-of-05c26dbc]] - source section: Basic Rules of Magic / Filling out the Character Sheet / When an Adventurer Casts Magic on a Mix of Adventurers and Monsters
 
 ### Shared technical atoms
 
-- [[sword-world-rpg-complete-edition-adventurer-cast-magic-mix]] - shared statements and technical atoms: Adventurer Cast Magic Mix shares source evidence from Basic Rules of Magic / Filling out the Character Sheet / When an Adventurer Casts Magic on a Mix of Adventurers and Monsters: Sometimes enemies written in the same data format as a character may also be accompanied by monsters. For example, a sorcerer who leads undead monsters to attack vil ... [truncated]; Adventurer Cast Magic Mix shares technical record from Basic Rules of Magic / Filling out the Character Sheet / When an Adventurer Casts Magic on a Mix of Adventurers and Monsters: At this time, the monsters must also roll the dice to make resist checks. (6 shared statement(s), 2 shared atom(s))
+- [[sword-world-rpg-complete-edition-adventurer-cast-magic-mix]] - shared statements and technical atoms: Adventurer Cast Magic Mix shares source evidence from Basic Rules of Magic / Filling out the Character Sheet / When an Adventurer Casts Magic on a Mix of Adventurers and Monsters: Sometimes enemies written in the same data format as a character may also be accompanied by monsters. For example, a sorcerer who leads undead monsters to attack vil ... [truncated]; Adventurer Cast Magic Mix shares technical record from Basic Rules of Magic / Filling out the Character Sheet / When an Adventurer Casts Magic on a Mix of Adventurers and Monsters: At this time, the monsters must also roll the dice to make resist checks. (6 shared statement(s), 1 shared atom(s))
 
 ## Source
 

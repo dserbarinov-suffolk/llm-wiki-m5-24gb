@@ -7,7 +7,7 @@ sources: raw/javascriptallonge.pdf
 updated: 2026-07-07
 domain: javascriptallonge
 category_path: concepts
-projection_coverage: topic-javascriptallonge-quasi@8dda7b34e69d7ae9f9b32ea91536f024
+projection_coverage: topic-javascriptallonge-quasi@eea5acd237eb5ecca084a80cf995d89b
 ---
 
 # Quasi
@@ -79,6 +79,12 @@ What [[javascriptallonge]] covers about quasi:
 
 
 ## Related pages
+
+### Source structure
+
+- [[javascriptallonge-section-a-warm-cup-basic-strings-and-quasi-literals-519b0d4d]] - source section: A Warm Cup: Basic Strings and Quasi-Literals
+- [[javascriptallonge-section-a-warm-cup-basic-strings-and-quasi-literals-evaluation-time-ba7a0853]] - source section: A Warm Cup: Basic Strings and Quasi-Literals / evaluation time
+- [[javascriptallonge-section-a-warm-cup-basic-strings-and-quasi-literals-quasi-literals-4646e272]] - source section: A Warm Cup: Basic Strings and Quasi-Literals / quasi-literals
 
 ### Shared technical atoms
 

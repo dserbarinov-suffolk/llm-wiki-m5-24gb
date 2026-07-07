@@ -1,7 +1,7 @@
 ---
 page_id: sword-world-rpg-complete-edition-section-3rd-level-basic-dark-magic-list-poison-fa7197b8
 page_kind: source
-summary: 3rd Level Basic Dark Magic List [ Poison ]: 27 source-backed entries and 0 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+summary: 3rd Level Basic Dark Magic List [ Poison ]: 25 source-backed entries and 0 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: section-reference
 sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-07

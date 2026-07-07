@@ -1,26 +1,19 @@
 ---
 page_id: sword-world-rpg-complete-edition-section-cestus-9a902433
 page_kind: source
-summary: Cestus: 7 source-backed entries and 0 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+summary: Cestus: 6 source-backed entries and 0 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: section-reference
 sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-07
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-cestus-9a902433@113a4a740805d3a9b94ac2802dd7a7a6
+projection_coverage: section-sword-world-rpg-complete-edition-section-cestus-9a902433@93adeb9e9485b3698143a915cd7f5d5c
 ---
 
 # Cestus
 
 From [[sword-world-rpg-complete-edition]].
-
-## Related pages
-
-### Source order
-
-- [[sword-world-rpg-complete-edition-section-shotel-19c62e67]] - previous source section: Shotel
-- [[sword-world-rpg-complete-edition-section-sap-blackjack-dce1eefd]] - next source section: Sap (Blackjack)
 
 ## Statements
 

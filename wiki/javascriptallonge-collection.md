@@ -7,7 +7,7 @@ sources: raw/javascriptallonge.pdf
 updated: 2026-07-07
 domain: javascriptallonge
 category_path: concepts
-projection_coverage: topic-javascriptallonge-collection@9154637934e08aa328ea8863cd66313c
+projection_coverage: topic-javascriptallonge-collection@9dd533a6cb036acf215a51f0230d02cd
 ---
 
 # Collection
@@ -650,6 +650,17 @@ break;
 
 
 ## Related pages
+
+### Source structure
+
+- [[javascriptallonge-section-lazy-and-eager-collections-7308cac5]] - source section: Lazy and Eager Collections
+- [[javascriptallonge-section-lazy-and-eager-collections-eager-collections-527b72b9]] - source section: Lazy and Eager Collections / eager collections
+- [[javascriptallonge-section-lazy-and-eager-collections-implementing-methods-with-iteration-e67a1913]] - source section: Lazy and Eager Collections / implementing methods with iteration
+- [[javascriptallonge-section-lazy-and-eager-collections-lazy-collection-operations-0de83c02]] - source section: Lazy and Eager Collections / lazy collection operations
+- [[javascriptallonge-section-served-by-the-pot-collections-e15a3403]] - source section: Served by the Pot: Collections
+- [[javascriptallonge-section-served-by-the-pot-collections-generating-iterables-f68c47a5]] - source section: Served by the Pot: Collections / Generating Iterables
+- [[javascriptallonge-section-served-by-the-pot-collections-generating-iterables-generators-and-iterables-adba5c82]] - source section: Served by the Pot: Collections / Generating Iterables / generators and iterables
+- [[javascriptallonge-section-served-by-the-pot-collections-generating-iterables-generators-are-coroutines-d0fde127]] - source section: Served by the Pot: Collections / Generating Iterables / generators are coroutines
 
 ### Shared technical atoms
 

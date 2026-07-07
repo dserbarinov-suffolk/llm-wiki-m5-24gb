@@ -14,6 +14,7 @@ from llmwiki.domain.ledger.canonical import deterministic_id
 from llmwiki.domain.ledger.common import ConfidenceBasis
 from llmwiki.domain.ledger.entries import LedgerEntry
 from llmwiki.domain.ledger.segments import SourceSegment
+from llmwiki.domain.ledger.source_unit_ownership import SourceUnitOwnershipPlan
 from llmwiki.domain.ledger.topic_terms import content_terms, topic_field_matches
 
 _CONTEXT_KINDS = {"paragraph", "list"}
@@ -50,6 +51,7 @@ def build_technical_atom_contexts(
     segments: tuple[SourceSegment, ...],
     entries: tuple[LedgerEntry, ...],
     atoms: tuple[TechnicalAtom, ...],
+    ownership_plan: SourceUnitOwnershipPlan | None = None,
 ) -> tuple[TechnicalAtomContext, ...]:
     by_range = {segment.source_range_id: segment for segment in segments}
     index_by_range = {segment.source_range_id: index for index, segment in enumerate(segments)}
@@ -60,7 +62,7 @@ def build_technical_atom_contexts(
         segment_index = index_by_range.get(atom.source_range_id)
         if segment is None or segment_index is None:
             continue
-        context_segments, role = _context_segments(segment_index, segments)
+        context_segments, role = _context_segments(segment_index, segments, ownership_plan)
         if not context_segments:
             continue
         context_text = _context_text(context_segments)
@@ -120,10 +122,12 @@ def best_atom_context(
 
 
 def _context_segments(
-    atom_index: int, segments: tuple[SourceSegment, ...]
+    atom_index: int,
+    segments: tuple[SourceSegment, ...],
+    ownership_plan: SourceUnitOwnershipPlan | None,
 ) -> tuple[tuple[SourceSegment, ...], str]:
-    previous = _previous_context_segments(segments, atom_index)
-    following = _following_context_segments(segments, atom_index)
+    previous = _previous_context_segments(segments, atom_index, ownership_plan)
+    following = _following_context_segments(segments, atom_index, ownership_plan)
     selected = previous + following
     if previous and following:
         return (selected, "introduced-and-explained-by-source-prose")
@@ -135,12 +139,16 @@ def _context_segments(
 
 
 def _previous_context_segments(
-    segments: tuple[SourceSegment, ...], atom_index: int
+    segments: tuple[SourceSegment, ...],
+    atom_index: int,
+    ownership_plan: SourceUnitOwnershipPlan | None,
 ) -> tuple[SourceSegment, ...]:
     selected: list[SourceSegment] = []
     heading_path = segments[atom_index].heading_path
     for segment in reversed(segments[max(0, atom_index - 3) : atom_index]):
         if segment.heading_path != heading_path:
+            break
+        if not _same_owner(segments[atom_index], segment, ownership_plan):
             break
         if segment.segment_kind not in _CONTEXT_KINDS:
             continue
@@ -151,12 +159,16 @@ def _previous_context_segments(
 
 
 def _following_context_segments(
-    segments: tuple[SourceSegment, ...], atom_index: int
+    segments: tuple[SourceSegment, ...],
+    atom_index: int,
+    ownership_plan: SourceUnitOwnershipPlan | None,
 ) -> tuple[SourceSegment, ...]:
     selected: list[SourceSegment] = []
     heading_path = segments[atom_index].heading_path
     for segment in segments[atom_index + 1 : atom_index + 3]:
         if segment.heading_path != heading_path:
+            break
+        if not _same_owner(segments[atom_index], segment, ownership_plan):
             break
         if segment.segment_kind not in _CONTEXT_KINDS:
             continue
@@ -164,6 +176,16 @@ def _following_context_segments(
             selected.append(segment)
             break
     return tuple(selected)
+
+
+def _same_owner(
+    atom_segment: SourceSegment,
+    context_segment: SourceSegment,
+    ownership_plan: SourceUnitOwnershipPlan | None,
+) -> bool:
+    if ownership_plan is None:
+        return True
+    return ownership_plan.same_owner(atom_segment.segment_id, context_segment.segment_id)
 
 
 def _context_text(segments: tuple[SourceSegment, ...]) -> str:

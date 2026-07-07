@@ -7,7 +7,7 @@ sources: raw/javascriptallonge.pdf
 updated: 2026-07-07
 domain: javascriptallonge
 category_path: concepts
-projection_coverage: topic-javascriptallonge-cross-stateless-function@aebbcdac825020a4d41ed86c2953f19a
+projection_coverage: topic-javascriptallonge-cross-stateless-function@1b92ce325eda387444dbafaa690e9f8f
 ---
 
 # Cross Stateless Function
@@ -44,6 +44,11 @@ statelessNaughtsAndCrosses([
 
 
 ## Related pages
+
+### Source structure
+
+- [[javascriptallonge-section-interactive-generators-representing-naughts-and-crosses-as-a-stateless-function-e2c2d97f]] - source section: Interactive Generators / representing naughts and crosses as a stateless function
+- [[javascriptallonge-section-interactive-generators-representing-naughts-and-crosses-as-a-stateless-function-will-be-represen-66494cc9]] - source section: Interactive Generators / representing naughts and crosses as a stateless function / Will be represented as:
 
 ### Shared technical atoms
 

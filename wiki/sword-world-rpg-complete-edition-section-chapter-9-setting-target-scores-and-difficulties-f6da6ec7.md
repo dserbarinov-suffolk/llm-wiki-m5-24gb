@@ -1,14 +1,14 @@
 ---
 page_id: sword-world-rpg-complete-edition-section-chapter-9-setting-target-scores-and-difficulties-f6da6ec7
 page_kind: source
-summary: Chapter 9: / Setting Target Scores and Difficulties: 26 source-backed entries and 1 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+summary: Chapter 9: / Setting Target Scores and Difficulties: 26 source-backed entries and 0 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: section-reference
 sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-07
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-9-setting-target-scores-and-difficulties-f6da6ec7@bf5c5e3071204ae8fc461886ca78851b
+projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-9-setting-target-scores-and-difficulties-f6da6ec7@80742582d6043284d0d76fbedd876ae5
 ---
 
 # Chapter 9: / Setting Target Scores and Difficulties
@@ -45,32 +45,3 @@ From [[sword-world-rpg-complete-edition]].
 - This is a task that will go down in history if successful. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-04526))_
 - If you're a pro in that field, you'll most likely succeed, but if you only have the skill, there's a greater risk of failure. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-04492))_
 - It's possible with a little luck if you're someone who's only dabbled. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-04499))_
-
-## Technical atoms
-
-### Technical frame 1: Chapter 9: / Setting Target Scores and Difficulties / Should You Use a Target Score Check or a Difficulty Check? / 9.3 General Modifiers
-
-**Context:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-04549))_
-
-> In this case, instead of the game master looking at the Determining Target Scores or Difficulties table for each , it's easier to deal with it by setting one target score, assuming there is complete light, and applying -4 to the human because they can't see, -2 to the elf (shaman) because they can use infravision, and no modifier to the dwarf because they have full darkvision. Also, since the modifiers are reflected in the final score, the advantage is that you can also see who did the best sear
-
-**Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-04547))_
-
-<a id="atom-technical-atom-91613b258bc2abad"></a>
-| Extremely difficult situation | -4 |
-| --- | --- |
-| Tough but manageable situation | -2 |
-| Slightly disadvantageous situation | -1 |
-
-<details>
-<summary>Raw table text</summary>
-
-```text
-General Modifiers
-| Extremely difficult situation | -4 |
-| --- | --- |
-| Tough but manageable situation | -2 |
-| Slightly disadvantageous situation | -1 |
-```
-
-</details>

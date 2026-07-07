@@ -7,7 +7,7 @@ sources: raw/javascriptallonge.pdf
 updated: 2026-07-07
 domain: javascriptallonge
 category_path: concepts
-projection_coverage: topic-javascriptallonge-carpenter@c43bf41409cff9758ce1c29ffb8074ff
+projection_coverage: topic-javascriptallonge-carpenter@1080ba10422b4dbadec92494543d4237
 ---
 
 # Carpenter
@@ -102,6 +102,15 @@ yield direction;
 };
 ```
 
+
+## Related pages
+
+### Source structure
+
+- [[javascriptallonge-section-interlude-the-carpenter-interviews-for-a-job-9cc5ffd7]] - source section: Interlude: The Carpenter Interviews for a Job
+- [[javascriptallonge-section-interlude-the-carpenter-interviews-for-a-job-after-another-drink-1f3bcf45]] - source section: Interlude: The Carpenter Interviews for a Job / after another drink
+- [[javascriptallonge-section-interlude-the-carpenter-interviews-for-a-job-the-carpenter-s-solution-bad172f9]] - source section: Interlude: The Carpenter Interviews for a Job / the carpenter's solution
+- [[javascriptallonge-section-interlude-the-carpenter-interviews-for-a-job-the-problem-2249ceea]] - source section: Interlude: The Carpenter Interviews for a Job / the problem
 
 ## Source
 

@@ -1,14 +1,14 @@
 ---
 page_id: sword-world-rpg-complete-edition-section-13-5-monster-level-and-adventurer-level-94be122a
 page_kind: source
-summary: 13.5 Monster Level and Adventurer Level: 14 source-backed entries and 1 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+summary: 13.5 Monster Level and Adventurer Level: 15 source-backed entries and 2 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: section-reference
 sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-07
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-13-5-monster-level-and-adventurer-level-94be122a@a6d50dde9fcecca8694f65a5b580ae45
+projection_coverage: section-sword-world-rpg-complete-edition-section-13-5-monster-level-and-adventurer-level-94be122a@c76c76085816c12a6452c83f1d0586ff
 ---
 
 # 13.5 Monster Level and Adventurer Level
@@ -19,7 +19,6 @@ From [[sword-world-rpg-complete-edition]].
 
 ### Source order
 
-- [[sword-world-rpg-complete-edition-section-13-4-representing-special-monsters-with-character-data-8413cc29]] - previous source section: 13.4 Representing Special Monsters with Character Data
 - [[sword-world-rpg-complete-edition-section-13-6-handling-monster-special-abilities-e84663d8]] - next source section: 13.6 Handling Monster Special Abilities
 
 ## Statements
@@ -36,6 +35,31 @@ From [[sword-world-rpg-complete-edition]].
 ## Technical atoms
 
 ### Technical frame 1: 13.5 Monster Level and Adventurer Level
+
+**Context:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-08561))_
+
+> A monster's monster level is a rough guide to its strength when it appears in a scenario. A monster level's score is basically set so that if it's equal to a character's adventurer level, the character will be stronger. If they're 1-2 levels higher, you'll be evenly matched, and if they're 3 levels higher, they'll be a formidable enemy.
+
+**Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-08555))_
+
+<a id="atom-technical-atom-b832b390974bd9ee"></a>
+| Sub-Ability Score | Featherfolk | Merman | Dark Elf | Noble Lizardman | Centaur |
+| --- | --- | --- | --- | --- | --- |
+| A B C D E F G H | 2D 1D+6 2D 2D 1D+3 2D 1D+2 2D+6 | 2D 1D+6 2D 2D 1/2D 2D 2D 1D+6 | 1D+6 1D+6 1D+6 1D+6 1D 1/2D 1D+4 1D+6 | 2D 1D+3 2D 2D 2D 2D+6 2D 2D | 2D 2D 2D 2D 1D+6 1D+6 1D+6 1D |
+
+<details>
+<summary>Raw table text</summary>
+
+```text
+Monster Level and Adventurer Level
+| Sub-Ability Score | Featherfolk | Merman | Dark Elf | Noble Lizardman | Centaur |
+| --- | --- | --- | --- | --- | --- |
+| A B C D E F G H | 2D 1D+6 2D 2D 1D+3 2D 1D+2 2D+6 | 2D 1D+6 2D 2D 1/2D 2D 2D 1D+6 | 1D+6 1D+6 1D+6 1D+6 1D 1/2D 1D+4 1D+6 | 2D 1D+3 2D 2D 2D 2D+6 2D 2D | 2D 2D 2D 2D 1D+6 1D+6 1D+6 1D |
+```
+
+</details>
+
+### Technical frame 2: 13.5 Monster Level and Adventurer Level
 
 **Context:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-08563))_
 
