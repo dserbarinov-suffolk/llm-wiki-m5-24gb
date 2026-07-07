@@ -120,6 +120,52 @@ def test_topic_projection_groups_ambiguous_claims_by_source_section() -> None:
     )
 
 
+def test_broad_topic_projection_does_not_render_unselected_standalone_claims() -> None:
+    entries = tuple(
+        _claim(
+            f"entry-widget-{index:02d}",
+            f"statement-widget-{index:02d}",
+            f"range-widget-{index:02d}",
+            f"A widget source claim {index:02d}.",
+        )
+        for index in range(50)
+    )
+    statements = tuple(
+        SourceStatement(
+            f"statement-widget-{index:02d}",
+            f"range-widget-{index:02d}",
+            f"A widget source claim {index:02d}.",
+            (f"entry-widget-{index:02d}",),
+        )
+        for index in range(50)
+    )
+    ledger = _ledger(entries=entries, atoms=(), statements=statements)
+    context = build_projection_context(ledger, _structure())
+    topic = SourceTopic(
+        topic_key="widget",
+        label="Widgets",
+        page_kind="concept",
+        match_terms=("widget",),
+        entry_ids=tuple(entry.ledger_entry_id for entry in entries),
+        atom_ids=(),
+        from_heading=True,
+        salience=50,
+    )
+
+    rendered = render_topic_page(
+        topic,
+        ledger,
+        wiki_page_locator="source-widget",
+        source_page_id="source",
+        projection_context=context,
+    )
+
+    assert "A widget source claim 00." in rendered.page_body
+    assert "A widget source claim 02." in rendered.page_body
+    assert "A widget source claim 03." not in rendered.page_body
+    assert "A widget source claim 49." not in rendered.page_body
+
+
 def _structure() -> DocumentStructure:
     return DocumentStructure(
         "root",

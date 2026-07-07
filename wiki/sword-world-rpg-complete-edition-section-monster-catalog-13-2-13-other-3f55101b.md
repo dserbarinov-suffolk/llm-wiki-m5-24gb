@@ -8,7 +8,7 @@ updated: 2026-07-07
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-monster-catalog-13-2-13-other-3f55101b@f7ffbe9702e7114318552d68367b876e
+projection_coverage: section-sword-world-rpg-complete-edition-section-monster-catalog-13-2-13-other-3f55101b@d23ce6786d21b1ad6eb49c7582ab56aa
 ---
 
 # Monster Catalog / 13.2.13 Other
@@ -20,7 +20,6 @@ From [[sword-world-rpg-complete-edition]].
 ### Source order
 
 - [[sword-world-rpg-complete-edition-section-monster-catalog-13-2-12-humans-c6182bf8]] - previous source section: Monster Catalog / 13.2.12 Humans
-- [[sword-world-rpg-complete-edition-section-monster-catalog-13-3-converting-character-data-to-monster-data-22cd9322]] - next source section: Monster Catalog / 13.3 Converting Character Data to Monster Data
 
 ### Source structure
 

@@ -97,6 +97,31 @@ def test_structure_build_uses_source_numbering_when_heading_depth_is_flat() -> N
     assert other.parent_structure_node_id != parent.structure_node_id
 
 
+def test_structure_build_closes_unnumbered_container_from_numbered_child_prefix() -> None:
+    plan = build_structure(
+        "abc",
+        "synthetic.pdf",
+        (
+            _structured_heading(1, "Alpha Procedure", 1),
+            _structured_heading(2, "4.6.1 First Step", 2),
+            _segment(3, "First body", "paragraph"),
+            _structured_heading(4, "4.6.2 Second Step", 2),
+            _segment(5, "Second body", "paragraph"),
+            _structured_heading(6, "4.7 Next Procedure", 3),
+            _segment(7, "Next body", "paragraph"),
+        ),
+    )
+
+    alpha = next(node for node in plan.nodes if node.heading_text == "Alpha Procedure")
+    first = next(node for node in plan.nodes if node.heading_text == "4.6.1 First Step")
+    second = next(node for node in plan.nodes if node.heading_text == "4.6.2 Second Step")
+    next_procedure = next(node for node in plan.nodes if node.heading_text == "4.7 Next Procedure")
+
+    assert first.parent_structure_node_id == alpha.structure_node_id
+    assert second.parent_structure_node_id == alpha.structure_node_id
+    assert next_procedure.parent_structure_node_id != alpha.structure_node_id
+
+
 def test_structure_build_prefers_structured_heading_depth_over_markdown_depth() -> None:
     plan = build_structure(
         "abc",

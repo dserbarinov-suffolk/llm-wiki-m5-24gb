@@ -7,7 +7,7 @@ sources: raw/javascriptallonge.pdf
 updated: 2026-07-07
 domain: javascriptallonge
 category_path: concepts
-projection_coverage: topic-javascriptallonge-literal@d94c3fdd1384d6d1dd65e8114a2126fd
+projection_coverage: topic-javascriptallonge-literal@40d042121bd7e3f590b6ed35ad44f9cf
 ---
 
 # Literal
@@ -50,36 +50,10 @@ What [[javascriptallonge]] covers about literal:
 
 - JavaScript evaluates the quasi-literal when the function is invoked and the quasi-literal inside the function's body is evaluated. Thus, name is not bound to "Harry" , it is bound to 'Arthur Dent' , the value of the parameter when the function is invoked. _(javascriptallonge.pdf (source-range-c98ab3e6-01491))_
 
-- Quasi-literals are expressions that resemble their result. _(javascriptallonge.pdf (source-range-c98ab3e6-01485))_
 
 ## Technical atoms
 
-### Technical frame 1: A Rich Aroma: Basic Numbers
-
-**Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-00141))_
-
-> For example, the largest integer JavaScript can safely 14 handle is 9007199254740991 , or 2 '53' - 1 . Like most programming languages, JavaScript does not allow us to use commas to separate groups of digits.
-
-**Atom:** _(javascriptallonge.pdf (source-range-c98ab3e6-00140))_
-
-<a id="atom-technical-atom-a505821d708d870c"></a>
-> The machine's representation of a number almost never lines up perfectly with our understanding of how a number behaves, and thus there will be places where the computer's behaviour surprises us if we don't know a little about what it's doing 'under the hood.'
-
-### Technical frame 2: Composing and Decomposing Data / Arrays and Destructuring Arguments / array literals
-
-**Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-00808))_
-
-> This is an array with one element that is an array with one element that is an array with one element that is an array with one element that is an empty array. Although that seems like something nobody would ever construct, many students have worked with almost the exact same thing when they explored various means of constructing arithmetic from Set Theory.
-
-**Atom:** _(javascriptallonge.pdf (source-range-c98ab3e6-00801))_
-
-<a id="atom-technical-atom-abf332c98aac0fdf"></a>
-```
-[]
-//=> []
-```
-
-### Technical frame 3: Composing and Decomposing Data / Arrays and Destructuring Arguments / array literals
+### Technical frame 1: Composing and Decomposing Data / Arrays and Destructuring Arguments / array literals
 
 **Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-00811))_
 
@@ -98,7 +72,7 @@ array_of_one() === array_of_one()
 //=> false
 ```
 
-### Technical frame 4: Composing and Decomposing Data / Self-Similarity
+### Technical frame 2: Composing and Decomposing Data / Self-Similarity
 
 **Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-00872))_
 
@@ -118,7 +92,7 @@ array_of_one() === array_of_one()
 //=> ["foo","bar","baz"]
 ```
 
-### Technical frame 5: A Warm Cup: Basic Strings and Quasi-Literals / quasi-literals
+### Technical frame 3: A Warm Cup: Basic Strings and Quasi-Literals / quasi-literals
 
 **Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01479))_
 
@@ -134,7 +108,7 @@ array_of_one() === array_of_one()
 //=> 'fizzbuzz'
 ```
 
-### Technical frame 6: A Warm Cup: Basic Strings and Quasi-Literals / quasi-literals
+### Technical frame 4: A Warm Cup: Basic Strings and Quasi-Literals / quasi-literals
 
 **Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01482))_
 
@@ -146,34 +120,6 @@ array_of_one() === array_of_one()
 ```
 `A popular number for nerds is ${40 + 2}`
 //=> 'A popular number for nerds is 42'
-```
-
-### Technical frame 7: A Warm Cup: Basic Strings and Quasi-Literals / quasi-literals
-
-**Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01485))_
-
-> However, there is a big semantic difference between a quasi-literal and an expression. Quasi-literals are expressions that resemble their result. They're easier to read and it's easier to avid errors like the following:
-
-**Atom:** _(javascriptallonge.pdf (source-range-c98ab3e6-01484))_
-
-<a id="atom-technical-atom-b488782759861923"></a>
-```
-'A popular number for nerds is ' + (40 + 2)
-//=> 'A popular number for nerds is 42'
-```
-
-### Technical frame 8: A Warm Cup: Basic Strings and Quasi-Literals / quasi-literals
-
-**Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01485))_
-
-> However, there is a big semantic difference between a quasi-literal and an expression. Quasi-literals are expressions that resemble their result. They're easier to read and it's easier to avid errors like the following:
-
-**Atom:** _(javascriptallonge.pdf (source-range-c98ab3e6-01486))_
-
-<a id="atom-technical-atom-d77f5a39206ae844"></a>
-```
-'A popular number for nerds is' + (40 + 2)
-//=> 'A popular number for nerds is42'
 ```
 
 

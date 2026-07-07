@@ -7,7 +7,7 @@ sources: raw/javascriptallonge.pdf
 updated: 2026-07-07
 domain: javascriptallonge
 category_path: concepts
-projection_coverage: topic-javascriptallonge-data@9f831981d3ac4479939a50d8a3df6a4a
+projection_coverage: topic-javascriptallonge-data@eeb99b242252aa7a2e7634a6f0959b6c
 ---
 
 # Data
@@ -43,106 +43,7 @@ What [[javascriptallonge]] covers about data:
 
 ## Technical atoms
 
-### Technical frame 1: Garbage, Garbage Everywhere / some history
-
-**Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01023))_
-
-> car is very fast, it simply extracts the first element of the cons cell.
-
-**Atom:** _(javascriptallonge.pdf (source-range-c98ab3e6-01022))_
-
-<a id="atom-technical-atom-8438b73561378983"></a>
-```
-car(oneToFive)
-//=> 1
-```
-
-### Technical frame 2: Copy on Write / Functional Iterators / iterating
-
-**Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01270))_
-
-> We can write a different iterator for a different data structure. Here's one for linked lists:
-
-**Atom:** _(javascriptallonge.pdf (source-range-c98ab3e6-01271))_
-
-<a id="atom-technical-atom-a62bacb3265ebbff"></a>
-```
-const EMPTY = null;
-const isEmpty = (node) => node === EMPTY;
-const pair = (first, rest = EMPTY) => ({first, rest});
-const list = (...elements) => {
-const [first, ...rest] = elements;
-return elements.length === 0
-? EMPTY
-: pair(first, list(...rest))
-}
-const print = (aPair) =>
-isEmpty(aPair)
-? ""
-: `${aPair.first} ${print(aPair.rest)}`
-const listIterator = (aPair) =>
-() => {
-const done = isEmpty(aPair);
-if (done) {
-return {done};
-}
-else {
-const {first, rest} = aPair;
-aPair = aPair.rest;
-```
-
-### Technical frame 3: Copy on Write / Functional Iterators / iterating
-
-**Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01270))_
-
-> We can write a different iterator for a different data structure. Here's one for linked lists:
-
-**Atom:** _(javascriptallonge.pdf (source-range-c98ab3e6-01272))_
-
-<a id="atom-technical-atom-dfff18cf80552c25"></a>
-```
-return { done, value: first }
-}
-}
-const iteratorSum = (iterator) => {
-let eachIteration,
-sum = 0;;
-while ((eachIteration = iterator(), !eachIteration.done)) {
-sum += eachIteration.value;
-}
-return sum
-}
-const aListIterator = listIterator(list(1, 4, 9, 16, 25));
-iteratorSum(aListIterator)
-//=> 55
-```
-
-### Technical frame 4: Copy on Write / Functional Iterators / unfolding and laziness
-
-**Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01278))_
-
-> A function that starts with a seed and expands it into a data structure is called an unfold . It's the opposite of a fold. It's possible to write a generic unfold mechanism, but let's pass on to what we can do with unfolded iterators.
-
-**Atom:** _(javascriptallonge.pdf (source-range-c98ab3e6-01275))_
-
-<a id="atom-technical-atom-673ce6b311a6792f"></a>
-```
-const NumberIterator = (number = 0) =>
-() => ({ done: false, value: number++ })
-fromOne = NumberIterator(1);
-fromOne().value;
-//=> 1
-fromOne().value;
-//=> 2
-fromOne().value;
-//=> 3
-fromOne().value;
-//=> 4
-fromOne().value;
-//=> 5
-```
-
-### Technical frame 5: Copy on Write / Making Data Out Of Functions / backwardness
+### Technical frame 1: Copy on Write / Making Data Out Of Functions / backwardness
 
 **Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01332))_
 
@@ -160,50 +61,6 @@ first(latin)
 second(latin)
 //=> "secundus"
 ```
-
-### Technical frame 6: Copy on Write / Making Data Out Of Functions / the vireo
-
-**Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01341))_
-
-> For consistency with the way combinators are written as functions taking just one parameter, we'll curry 78 the function:
-
-**Atom:** _(javascriptallonge.pdf (source-range-c98ab3e6-01340))_
-
-<a id="atom-technical-atom-590de5a88990b16d"></a>
-```
-(first, second) => (selector) => selector(first)(second)
-```
-
-### Technical frame 7: Copy on Write / Making Data Out Of Functions / the vireo
-
-**Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01348))_
-
-> As an aside, the Vireo is a little like JavaScript's .apply function. It says, 'take these two values and apply them to this function.' There are other, similar combinators that apply values to functions. One notable example is the 'thrush' or T combinator: It takes one value and applies it to a function. It is known to most programmers as .tap .
-
-**Atom:** _(javascriptallonge.pdf (source-range-c98ab3e6-01344))_
-
-<a id="atom-technical-atom-6e9fd7c9270a7ba7"></a>
-```
-const first = K,
-second = K(I),
-pair = (first) => (second) => (selector) => selector(first)(second);
-const latin = pair("primus")("secundus");
-latin(first)
-//=> "primus"
-latin(second)
-//=> "secundus"
-```
-
-### Technical frame 8: Copy on Write / Making Data Out Of Functions / the vireo
-
-**Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01348))_
-
-> As an aside, the Vireo is a little like JavaScript's .apply function. It says, 'take these two values and apply them to this function.' There are other, similar combinators that apply values to functions. One notable example is the 'thrush' or T combinator: It takes one value and applies it to a function. It is known to most programmers as .tap .
-
-**Atom:** _(javascriptallonge.pdf (source-range-c98ab3e6-01345))_
-
-<a id="atom-technical-atom-136eb8fe93527eb9"></a>
-> If we change the names to x , y , and z , we get: (x) => (y) => (z) => z(x)(y) .
 
 
 ## Related pages

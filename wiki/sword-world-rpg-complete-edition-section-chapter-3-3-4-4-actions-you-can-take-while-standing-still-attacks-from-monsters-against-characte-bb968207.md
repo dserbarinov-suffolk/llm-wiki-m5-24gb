@@ -8,7 +8,7 @@ updated: 2026-07-07
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-3-3-4-4-actions-you-can-take-while-standing-still-attacks-from-monsters-against-characte-bb968207@89dc0f06b1f45afde9993b60279eb3cb
+projection_coverage: section-sword-world-rpg-complete-edition-section-chapter-3-3-4-4-actions-you-can-take-while-standing-still-attacks-from-monsters-against-characte-bb968207@56db47ae2e1346ffe9bdb60c0ef4392c
 ---
 
 # Chapter 3: / 3.4.4 Actions You Can Take While Standing Still / Attacks From Monsters Against Characters / 4.6.5 Final Damage
@@ -20,7 +20,6 @@ From [[sword-world-rpg-complete-edition]].
 ### Source order
 
 - [[sword-world-rpg-complete-edition-section-chapter-3-3-4-4-actions-you-can-take-while-standing-still-attacks-from-monsters-against-characte-42ac6233]] - previous source section: Chapter 3: / 3.4.4 Actions You Can Take While Standing Still / Attacks From Monsters Against Characters / 4.6.4 Damage Reduction
-- [[sword-world-rpg-complete-edition-section-chapter-3-3-4-4-actions-you-can-take-while-standing-still-attacks-from-monsters-against-characte-112572a5]] - next source section: Chapter 3: / 3.4.4 Actions You Can Take While Standing Still / Attacks From Monsters Against Characters / 4.7 Attacks From Characters Against Characters
 
 ### Source structure
 

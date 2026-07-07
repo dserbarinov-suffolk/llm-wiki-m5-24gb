@@ -7,7 +7,7 @@ sources: raw/javascriptallonge.pdf
 updated: 2026-07-07
 domain: javascriptallonge
 category_path: concepts
-projection_coverage: topic-javascriptallonge-write@9846a1df6b32c728104336767fbbbf50
+projection_coverage: topic-javascriptallonge-write@5bec7121b5036d57e8951bf0ae654ac2
 ---
 
 # Write
@@ -53,37 +53,7 @@ What [[javascriptallonge]] covers about write:
 
 ## Technical atoms
 
-### Technical frame 1: And also: / That Constant Coffee Craving / const
-
-**Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-00404))_
-
-> This differs from our example above in that there is only one environment, rather than two. We have one binding in the environment representing our regular argument, and another our 'constant.' That's more efficient, and it's almost what we wanted all along: A way to bind 3.14159265 to a readable name.
-
-**Atom:** _(javascriptallonge.pdf (source-range-c98ab3e6-00401))_
-
-<a id="atom-technical-atom-b19930e9eb265ef6"></a>
-```
-(diameter, PI) => diameter * PI
-```
-
-### Technical frame 2: And also: / That Constant Coffee Craving / const
-
-**Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-00415))_
-
-> We can bind any expression. Functions are expressions, so we can bind helper functions:
-
-**Atom:** _(javascriptallonge.pdf (source-range-c98ab3e6-00414))_
-
-<a id="atom-technical-atom-ff09176d1380c783"></a>
-```
-((diameter) => {
-const PI = 3.14159265;
-return diameter * PI
-})(2)
-//=> 6.2831853
-```
-
-### Technical frame 3: Recipes with Basic Functions / Unary
+### Technical frame 1: Recipes with Basic Functions / Unary
 
 **Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-00660))_
 
@@ -101,7 +71,7 @@ return fn.call(this, something)
 }
 ```
 
-### Technical frame 4: Recipes with Basic Functions / Unary
+### Technical frame 2: Recipes with Basic Functions / Unary
 
 **Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-00660))_
 
@@ -115,7 +85,7 @@ return fn.call(this, something)
 //=> [1, 2, 3]
 ```
 
-### Technical frame 5: Served by the Pot: Collections / Iteration and Iterables / a look back at functional iterators
+### Technical frame 3: Served by the Pot: Collections / Iteration and Iterables / a look back at functional iterators
 
 **Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01513))_
 
@@ -137,17 +107,6 @@ return sum
 collectionSum(stack)
 //=> 6
 ```
-
-### Technical frame 6: Served by the Pot: Collections / Generating Iterables / generators and iterables
-
-**Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01682))_
-
-> This pattern is encouraged, so much so that JavaScript provides a concise syntax for writing generator methods for objects:
-
-**Atom:** _(javascriptallonge.pdf (source-range-c98ab3e6-01679))_
-
-<a id="atom-technical-atom-7ca2d5da0f09f056"></a>
-> If we call our generator function more than once, we get new iterators.
 
 
 ## Related pages

@@ -7,7 +7,7 @@ sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-07
 domain: sword-world-rpg-complete-edition
 category_path: concepts
-projection_coverage: topic-sword-world-rpg-complete-edition-preserve-sound-sylph@20fb2e63d79dc874092d1c3e25ee3bb8
+projection_coverage: topic-sword-world-rpg-complete-edition-preserve-sound-sylph@9373ef63c5a279cf92b573441deb6278
 ---
 
 # Preserve Sound Sylph
@@ -16,7 +16,7 @@ What [[sword-world-rpg-complete-edition]] covers about preserve sound sylph:
 
 ## Statements
 
-### 5.1.14 Spirit Magic List / 6th Level Spirit Magic List / [ Preserve Sound ] (Sylph/Wind Spirit)
+### 4.10 Excellent Weapons and Armor / and Armor / 4.10.4 Mithril Silver Weapons and Armor / Basic Rules of Magic / 5.1.14 Spirit Magic List / 6th Level Spirit Magic List / [ Preserve Sound ] (Sylph/Wind Spirit)
 
 - This spell has the effect of recording a sound and transmitting it to a specific location. It secures a sylph in place and allows it to transmit recorded sounds to others. You can optionally determine the person to whom the sound is transmitted to some extent, such as the first person to step into that space. However, in order to specify a specific person, the caster must be familiar with the person's features and appearance. Also, at the same time you cast the spell, you must also generate the sound you want to transmit. It's also not possible to use this to record spells and activate them. Even if Silence is cast later, this spell still takes effect. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-03128))_
 

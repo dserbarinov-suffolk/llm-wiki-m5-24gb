@@ -7,7 +7,7 @@ sources: raw/javascriptallonge.pdf
 updated: 2026-07-07
 domain: javascriptallonge
 category_path: concepts
-projection_coverage: topic-javascriptallonge-return@3e3083931414ad07e41d5bb62a8ea1bc
+projection_coverage: topic-javascriptallonge-return@b88f8fbb9d841e573ecf6bc572fe8eff
 ---
 
 # Return
@@ -80,58 +80,10 @@ What [[javascriptallonge]] covers about return:
 
 - This expression begins with a stack containing 30 elements. The top two are 29 and 28 . It maps to the squares of all 30 numbers, but our code for mapping an iteration returns an iterable that can iterate over the squares of our numbers, not an array or stack of the squares. Same with .filter , we get an iterable that can iterate over the even squares, but not an actual stack or array. _(javascriptallonge.pdf (source-range-c98ab3e6-01761))_
 
-- The body of our generator runs until it returns, ends, or encounters the next yield statement. _(javascriptallonge.pdf (source-range-c98ab3e6-01668))_
 
 ## Technical atoms
 
-### Technical frame 1: The first sip: Basic Functions / As Little As Possible About Functions, But No Less / functions that return values and evaluate expressions
-
-**Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-00185))_
-
-> In the prelude, we looked at expressions. Values like 0 are expressions, as are things like 40 + 2 . Can we put an expression to the right of the arrow?
-
-**Atom:** _(javascriptallonge.pdf (source-range-c98ab3e6-00183))_
-
-<a id="atom-technical-atom-d949071a0e613d96"></a>
-```
-(() => 1)()
-//=> 1
-(() => "Hello, JavaScript")()
-//=> "Hello, JavaScript"
-(() => Infinity)()
-//=> Infinity
-```
-
-### Technical frame 2: The first sip: Basic Functions / As Little As Possible About Functions, But No Less / functions that return values and evaluate expressions
-
-**Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-00187))_
-
-> Yes we can. We can put any expression to the right of the arrow. For example, (() => 0)() is an expression. Can we put it to the right of an arrow, like this: () => (() => 0)() ?
-
-**Atom:** _(javascriptallonge.pdf (source-range-c98ab3e6-00186))_
-
-<a id="atom-technical-atom-865137a5d59a0041"></a>
-```
-(() => 1 + 1)()
-//=> 2
-(() => "Hello, " + "JavaScript")()
-//=> "Hello, JavaScript"
-(() => Infinity * Infinity)()
-//=> Infinity
-```
-
-### Technical frame 3: The first sip: Basic Functions / As Little As Possible About Functions, But No Less / functions that return values and evaluate expressions
-
-**Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-00190))_
-
-> Yes we can! Functions can return the value of evaluating another function.
-
-**Atom:** _(javascriptallonge.pdf (source-range-c98ab3e6-00191))_
-
-<a id="atom-technical-atom-5c40de3ec2a4cb7a"></a>
-> When dealing with expressions that have a lot of the same characters (like parentheses), you may find it helpful to format the code to make things stand out.
-
-### Technical frame 4: Or even: / the simplest possible block
+### Technical frame 1: Or even: / the simplest possible block
 
 **Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-00207))_
 
@@ -144,7 +96,7 @@ What [[javascriptallonge]] covers about return:
 () => {}
 ```
 
-### Technical frame 5: Or even: / the simplest possible block
+### Technical frame 2: Or even: / the simplest possible block
 
 **Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-00207))_
 
@@ -158,66 +110,7 @@ What [[javascriptallonge]] covers about return:
 //=> undefined
 ```
 
-### Technical frame 6: And also: / Combinators and Function Decorators / function decorators
-
-**Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-00563))_
-
-> not is a function decorator because it modifies a function while remaining strongly related to the original function's semantics. You'll see other function decorators in the recipes, like once and maybe. Function decorators aren't strict about being pure functions, so there's more latitude for making decorators than combinators.
-
-**Atom:** _(javascriptallonge.pdf (source-range-c98ab3e6-00555))_
-
-<a id="atom-technical-atom-73d86f3bb2def087"></a>
-```text
-function decorators
-A function decorator is a higher-order function that takes one function as an argument, returns another function, and the returned function is a variation of the argument function. Here's a ridiculously simple decorator: 38
-37 As we'll discuss later, this implementation of the B Combinator is correct in languages like Scheme, but for truly general-purpose use in JavaScript, it needs to correctly manage the function context.
-38 We'll see later why an even more useful version would be written (fn) => (...args) => !fn(...args)
-```
-
-<details>
-<summary>Parsed table preview (needs review)</summary>
-
-| entry | content |
-| --- | --- |
-| 37 | As we'll discuss later, this implementation of the B Combinator is correct in languages like Scheme, but for truly general-purpose use in JavaScript, it needs to correctly manage the function context. |
-| 38 | We'll see later why an even more useful version would be written (fn) => (...args) =>!fn(...args) |
-
-</details>
-
-### Technical frame 7: And also: / Building Blocks / partial application
-
-**Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-00584))_
-
-> We'll discuss mapWith again. The important thing to see is that partial application is orthogonal to composition, and that they both work together nicely:
-
-**Atom:** _(javascriptallonge.pdf (source-range-c98ab3e6-00583))_
-
-<a id="atom-technical-atom-3779e1eb5d7bf49b"></a>
-```
-const mapWith = (fn) =>
-(array) => map(array, fn);
-const squareAll = mapWith((n) => n * n);
-squareAll([1, 2, 3])
-//=> [1, 4, 9]
-```
-
-### Technical frame 8: Picking the Bean: Choice and Truthiness / truthiness and operators
-
-**Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-00760))_
-
-> Programmers often take advantage of this behaviour to observe that !!(someExpression) will always evaluate to true is someExpression is truthy, and to false if it is not. So in JavaScript (and other languages with similar semantics), when you see something like !!currentUser() , this is an idiom that means 'true if currentUser is truthy.' Thus, a function like currentUser() is free to return null , or undefined , or false if there is no current user.
-
-**Atom:** _(javascriptallonge.pdf (source-range-c98ab3e6-00759))_
-
-<a id="atom-technical-atom-cb98425a31f8e87a"></a>
-```
-!5
-//=> false
-!undefined
-//=> true
-```
-
-### Technical frame 9: Composing and Decomposing Data / Self-Similarity / folding
+### Technical frame 3: Composing and Decomposing Data / Self-Similarity / folding
 
 **Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-00929))_
 
@@ -232,109 +125,7 @@ length([1, 2, 3, 4, 5])
 //=> 5
 ```
 
-### Technical frame 10: Served by the Pot: Collections / Iteration and Iterables / operations on ordered collections
-
-**Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01560))_
-
-> This illustrates the general pattern of working with ordered collections: We make them iterables , meaning that they have a [Symbol.iterator] method, that returns an iterator . An iterator is also an object, but with a .next() method that is invoked repeatedly to obtain the elements in order.
-
-**Atom:** _(javascriptallonge.pdf (source-range-c98ab3e6-01559))_
-
-<a id="atom-technical-atom-db03dd1e259d128a"></a>
-```
-const mapWith = (fn, collection) =>
-({
-[Symbol.iterator] () {
-const iterator = collection[Symbol.iterator]();
-return {
-next () {
-const {done, value} = iterator.next();
-return ({done, value: done ? undefined : fn(value)});
-}
-}
-}
-});
-```
-
-### Technical frame 11: Served by the Pot: Collections / Iteration and Iterables / operations on ordered collections
-
-**Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01563))_
-
-> Numbers is an ordered collection. We invoke mapWith((x) => 2 * x, Numbers) and get Evens . Evens works just as if we'd written this:
-
-**Atom:** _(javascriptallonge.pdf (source-range-c98ab3e6-01562))_
-
-<a id="atom-technical-atom-c1f35f3a09f6c9fd"></a>
-```
-const Evens = mapWith((x) => 2 * x, Numbers);
-for (const i of Evens) {
-console.log(i)
-}
-//=>
-0
-2
-4
-...
-for (const i of Evens) {
-console.log(i)
-}
-//=>
-0
-2
-4
-...
-```
-
-### Technical frame 12: Served by the Pot: Collections / Iteration and Iterables / operations on ordered collections
-
-**Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01579))_
-
-> like our other operations, rest preserves the ordered collection semantics of its argument.
-
-**Atom:** _(javascriptallonge.pdf (source-range-c98ab3e6-01578))_
-
-<a id="atom-technical-atom-4b232b3666097328"></a>
-```
-const first = (iterable) =>
-iterable[Symbol.iterator]().next().value;
-const rest = (iterable) =>
-({
-[Symbol.iterator] () {
-const iterator = iterable[Symbol.iterator]();
-iterator.next();
-return iterator;
-}
-});
-```
-
-### Technical frame 13: Served by the Pot: Collections / Generating Iterables / javascript's generators
-
-**Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01637))_
-
-> When we invoke empty , we get an iterator with no elements. This makes sense, because empty never yields anything. We call its .next() method, but it's done immediately.
-
-**Atom:** _(javascriptallonge.pdf (source-range-c98ab3e6-01636))_
-
-<a id="atom-technical-atom-a6c4a93c2084a431"></a>
-```
-function * empty () {};
-empty().next()
-//=>
-{"done":true}
-```
-
-### Technical frame 14: Served by the Pot: Collections / Generating Iterables / javascript's generators
-
-**Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01638))_
-
-> Generator functions can take an argument. Let's use that to illustrate yield :
-
-**Atom:** _(javascriptallonge.pdf (source-range-c98ab3e6-01637))_
-
-<a id="atom-technical-atom-6fec125f97b16504"></a>
-> When we invoke empty , we get an iterator with no elements.
-
-### Technical frame 15: Served by the Pot: Collections / Generating Iterables / javascript's generators
+### Technical frame 4: Served by the Pot: Collections / Generating Iterables / javascript's generators
 
 **Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01641))_
 
@@ -352,18 +143,7 @@ only("the lonely").next()
 {"done":false, value: "the lonely"}
 ```
 
-### Technical frame 16: Served by the Pot: Collections / Generating Iterables / generators and iterables
-
-**Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01682))_
-
-> This pattern is encouraged, so much so that JavaScript provides a concise syntax for writing generator methods for objects:
-
-**Atom:** _(javascriptallonge.pdf (source-range-c98ab3e6-01679))_
-
-<a id="atom-technical-atom-7ca2d5da0f09f056"></a>
-> If we call our generator function more than once, we get new iterators.
-
-### Technical frame 17: Served by the Pot: Collections / Generating Iterables / yielding iterables
+### Technical frame 5: Served by the Pot: Collections / Generating Iterables / yielding iterables
 
 **Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01701))_
 
@@ -400,17 +180,6 @@ console.log(i);
 4
 5
 ```
-
-### Technical frame 18: Served by the Pot: Collections / Generating Iterables / yielding iterables
-
-**Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01705))_
-
-> Wetake advantage of the for...of loop in a plain and direct way: For each element e , if it is iterable, treat it as a tree and iterate over it, yielding each of its elements. If e is not an iterable, yield e .
-
-**Atom:** _(javascriptallonge.pdf (source-range-c98ab3e6-01702))_
-
-<a id="atom-technical-atom-56d4d47f5e80ca55"></a>
-> But if you can write it as a simple generator, write it as a simple generator.
 
 
 ## Related pages

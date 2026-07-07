@@ -7,7 +7,7 @@ sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-07
 domain: sword-world-rpg-complete-edition
 category_path: concepts
-projection_coverage: topic-sword-world-rpg-complete-edition-monster-action-announcement@388ab37d4cb51319f4b787ca2eb429a6
+projection_coverage: topic-sword-world-rpg-complete-edition-monster-action-announcement@76f4250bb469e134b6d66fd8b63c7efa
 ---
 
 # Monster Action Announcement
@@ -36,13 +36,6 @@ What [[sword-world-rpg-complete-edition]] covers about monster action announceme
 <a id="atom-technical-atom-2ac1d226a8d18221"></a>
 > If it's something the character should know, the game master should tell you when they announce the action.
 
-
-## Related pages
-
-### Shared claims
-
-- [[sword-world-rpg-complete-edition-attack-character-monster]] - shared statements: Attacks From Characters Against Monsters shares source evidence from Chapter 3: / Action Announcements / 3.1.3 NPC and Monster Action Announcements: You may only declare, I'm preparing to cast a spell , and not give out the specific name of the spell. This is the difference in position between the players and the ... [truncated] (1 shared statement(s))
-- [[sword-world-rpg-complete-edition-attack-monster-character]] - shared statements: Attacks From Monsters Against Characters shares source evidence from Chapter 3: / Action Announcements / 3.1.3 NPC and Monster Action Announcements: You may only declare, I'm preparing to cast a spell , and not give out the specific name of the spell. This is the difference in position between the players and the ... [truncated] (1 shared statement(s))
 
 ## Source
 

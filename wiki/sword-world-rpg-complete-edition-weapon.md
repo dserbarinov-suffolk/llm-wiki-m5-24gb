@@ -7,7 +7,7 @@ sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-07
 domain: sword-world-rpg-complete-edition
 category_path: concepts
-projection_coverage: topic-sword-world-rpg-complete-edition-weapon@e9065832c4dc242dee6902bc7e6c1146
+projection_coverage: topic-sword-world-rpg-complete-edition-weapon@0c103746faf0236abcd5b200716607fa
 ---
 
 # Weapon
@@ -19,20 +19,6 @@ What [[sword-world-rpg-complete-edition]] covers about weapon:
 ### Chapter 3: / 3.4.4 Actions You Can Take While Standing Still / Weapon and Armor Restrictions
 
 - A character's arms are largely divided into weapons, shields, and armor. Required strength should not be added up, but rather considered separately for each of these. In other words, a character with 14 strength can wield a weapon with a required strength of 14, wield a shield with a required strength of 14, and wear armor with a required strength of 14. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01150))_
-
-
-## Technical atoms
-
-### Technical frame 1: Chapter 16: / 16.6.2 Two-Handed Attacks / Weapons and Armor That Are Too Heavy
-
-**Context:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-10286))_
-
-> For each point of required strength, reduce attack power by -1. If one in one hand is too heavy, you will receive a penalty, but there will be no stacking. For example, if your sword is 3 too heavy in required strength and your shield is 2 too heavy in required strength, your penalty is -3 .
-
-**Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-10285))_
-
-<a id="atom-technical-atom-e67f7ae979f65539"></a>
-> If a Weapon or Shield's Required Strength Exceeds Your Strength
 
 
 ## Source

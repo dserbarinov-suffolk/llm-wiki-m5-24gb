@@ -7,7 +7,7 @@ sources: raw/javascriptallonge.pdf
 updated: 2026-07-07
 domain: javascriptallonge
 category_path: concepts
-projection_coverage: topic-javascriptallonge-edition@6ff9c82d66dbfd973b4cd9889e007b50
+projection_coverage: topic-javascriptallonge-edition@64ca53c14e0cd2ed682bde054a04145a
 ---
 
 # Edition
@@ -39,7 +39,7 @@ What [[javascriptallonge]] covers about edition:
 
 ### Shared claims
 
-- [[javascriptallonge-javascript-allong]] - shared statements: About JavaScript Allongé shares source evidence from A Pull of the Lever: Prefaces / About JavaScript Allongé / why the 'six' edition?: JavaScript Allongé, The 'Six' Edition packs all the goodness of JavaScript Allongé into a new, updated package that is relevant for programmers working with (or plan ... [truncated] (3 shared statement(s))
+- [[javascriptallonge-javascript-allong]] - shared statements: About JavaScript Allongé shares source evidence from A Pull of the Lever: Prefaces / About JavaScript Allongé / why the 'six' edition?: JavaScript Allongé, The 'Six' Edition packs all the goodness of JavaScript Allongé into a new, updated package that is relevant for programmers working with (or plan ... [truncated] (1 shared statement(s))
 
 ## Source
 

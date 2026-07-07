@@ -7,7 +7,7 @@ sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-07
 domain: sword-world-rpg-complete-edition
 category_path: concepts
-projection_coverage: topic-sword-world-rpg-complete-edition-13-monster-level@f540133fb18016c94b0fce5312e43348
+projection_coverage: topic-sword-world-rpg-complete-edition-13-monster-level@e63baba1878f5bd408af7bc07ee33402
 ---
 
 # 13 Monster Level
@@ -16,7 +16,7 @@ What [[sword-world-rpg-complete-edition]] covers about 13 monster level:
 
 ## Statements
 
-### Monster Catalog / 13.5 Monster Level and Adventurer Level
+### 13.5 Monster Level and Adventurer Level
 
 - A monster's monster level is a rough guide to its strength when it appears in a scenario. A monster level's score is basically set so that if it's equal to a character's adventurer level, the character will be stronger. If they're 1-2 levels higher, you'll be evenly matched, and if they're 3 levels higher, they'll be a formidable enemy. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-08561))_
 
@@ -27,7 +27,7 @@ What [[sword-world-rpg-complete-edition]] covers about 13 monster level:
 
 ## Technical atoms
 
-### Technical frame 1: Monster Catalog / 13.5 Monster Level and Adventurer Level
+### Technical frame 1: 13.5 Monster Level and Adventurer Level
 
 **Context:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-08563))_
 
@@ -67,12 +67,7 @@ Monster Level and Adventurer Level
 
 ### Shared technical atoms
 
-- [[sword-world-rpg-complete-edition-adventurer-level]] - shared statements and technical atoms: Adventurer Level shares source evidence from Monster Catalog / 13.5 Monster Level and Adventurer Level: A monster's monster level is a rough guide to its strength when it appears in a scenario. A monster level's score is basically set so that if it's equal to a charact ... [truncated]; Adventurer Level shares technical record from Monster Catalog / 13.5 Monster Level and Adventurer Level: Monster Level and Adventurer Level | Level 1-2 | It's no big deal. Just a small problem in a small village | | --- | --- | | Level 2-4 | A crisis in a small village. ... [truncated] (1 shared statement(s), 1 shared atom(s))
-
-### Shared claims
-
-- [[sword-world-rpg-complete-edition-attack-character-monster]] - shared statements: Attacks From Characters Against Monsters shares source evidence from Monster Catalog / 13.5 Monster Level and Adventurer Level: A monster's monster level is a rough guide to its strength when it appears in a scenario. A monster level's score is basically set so that if it's equal to a charact ... [truncated] (1 shared statement(s))
-- [[sword-world-rpg-complete-edition-attack-monster-character]] - shared statements: Attacks From Monsters Against Characters shares source evidence from Monster Catalog / 13.5 Monster Level and Adventurer Level: A monster's monster level is a rough guide to its strength when it appears in a scenario. A monster level's score is basically set so that if it's equal to a charact ... [truncated] (1 shared statement(s))
+- [[sword-world-rpg-complete-edition-adventurer-level]] - shared statements and technical atoms: Adventurer Level shares source evidence from 13.5 Monster Level and Adventurer Level: A monster's monster level is a rough guide to its strength when it appears in a scenario. A monster level's score is basically set so that if it's equal to a charact ... [truncated]; Adventurer Level shares technical record from 13.5 Monster Level and Adventurer Level: Monster Level and Adventurer Level | Level 1-2 | It's no big deal. Just a small problem in a small village | | --- | --- | | Level 2-4 | A crisis in a small village. ... [truncated] (1 shared statement(s), 1 shared atom(s))
 
 ## Source
 

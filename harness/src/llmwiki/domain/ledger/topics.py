@@ -41,6 +41,9 @@ def build_topic_index(
             representative=_representative(ledger, topic),
             candidate_origin=topic.candidate_origin,
             admission_reason=topic.admission_reason,
+            closure_reason=topic.closure_reason,
+            omitted_entry_count=topic.omitted_entry_count,
+            omitted_atom_count=topic.omitted_atom_count,
         )
         for topic in topics
     )

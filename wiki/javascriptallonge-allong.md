@@ -7,7 +7,7 @@ sources: raw/javascriptallonge.pdf
 updated: 2026-07-07
 domain: javascriptallonge
 category_path: concepts
-projection_coverage: topic-javascriptallonge-allong@d2e1b069f1e259c87511f4e9d1947a90
+projection_coverage: topic-javascriptallonge-allong@02638db7c8c4e7c0efd67ce120d227f1
 ---
 
 # Allong
@@ -85,7 +85,7 @@ function foo (first, ...rest) {
 
 ### Topics
 
-- [[javascriptallonge-javascript-allong]] - narrower topic: About JavaScript Allongé shares source evidence from A Pull of the Lever: Prefaces / About JavaScript Allongé: JavaScript Allongé is a first and foremost, a book about programming with functions . It's written in JavaScript, because JavaScript hits the perfect sweet spot of b ... [truncated]; About JavaScript Allongé shares technical record from A Pull of the Lever: Prefaces / About JavaScript Allongé / why the 'six' edition?: function foo (first, ...rest) { // ... } (10 shared statement(s), 1 shared atom(s))
+- [[javascriptallonge-javascript-allong]] - narrower topic: About JavaScript Allongé shares source evidence from A Pull of the Lever: Prefaces / About JavaScript Allongé: JavaScript Allongé is a first and foremost, a book about programming with functions . It's written in JavaScript, because JavaScript hits the perfect sweet spot of b ... [truncated]; About JavaScript Allongé shares technical record from A Pull of the Lever: Prefaces / About JavaScript Allongé / why the 'six' edition?: function foo (first, ...rest) { // ... } (7 shared statement(s), 1 shared atom(s))
 
 ## Source
 

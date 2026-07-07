@@ -17,6 +17,9 @@ class SourceTopic:
     salience: float
     candidate_origin: str = ""
     admission_reason: str = ""
+    closure_reason: str = ""
+    omitted_entry_count: int = 0
+    omitted_atom_count: int = 0
 
 
 @dataclass(frozen=True)
@@ -46,6 +49,9 @@ class PersistedTopic:
     representative: TopicRepresentative
     candidate_origin: str = ""
     admission_reason: str = ""
+    closure_reason: str = ""
+    omitted_entry_count: int = 0
+    omitted_atom_count: int = 0
 
 
 @dataclass(frozen=True)

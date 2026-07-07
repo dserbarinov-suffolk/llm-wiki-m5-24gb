@@ -7,7 +7,7 @@ sources: raw/javascriptallonge.pdf
 updated: 2026-07-07
 domain: javascriptallonge
 category_path: concepts
-projection_coverage: topic-javascriptallonge-coffee@3a6908a67217a2ed5fb360bd7175f736
+projection_coverage: topic-javascriptallonge-coffee@e86f3804e87f37e4a970758153a9f438
 ---
 
 # Coffee
@@ -25,20 +25,6 @@ What [[javascriptallonge]] covers about coffee:
 ### A Warm Cup: Basic Strings and Quasi-Literals
 
 - Coffee and a Book An expression is any valid unit of code that resolves to a value.-Mozilla Development Network: Expressions and operators 87 _(javascriptallonge.pdf (source-range-c98ab3e6-01471))_
-
-
-## Technical atoms
-
-### Technical frame 1: Prelude: Values and Expressions over Coffee / values are expressions
-
-**Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-00106))_
-
-> Astute readers will realize we're omitting something. Congratulations! Take a sip of espresso. We'll get to that in a moment.
-
-**Atom:** _(javascriptallonge.pdf (source-range-c98ab3e6-00107))_
-
-<a id="atom-technical-atom-fe6c24dbca825fef"></a>
-> And if we hand over the espresso, we get the espresso right back.
 
 
 ## Related pages

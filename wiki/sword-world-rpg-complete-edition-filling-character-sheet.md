@@ -1,13 +1,13 @@
 ---
 page_id: sword-world-rpg-complete-edition-filling-character-sheet
 page_kind: concept
-summary: 1.4.9 Filling Out the Character Sheet: 158 statement(s) and 41 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+summary: 1.4.9 Filling Out the Character Sheet: 154 statement(s) and 41 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
 page_family: broad-topic
 sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-07
 domain: sword-world-rpg-complete-edition
 category_path: concepts
-projection_coverage: topic-sword-world-rpg-complete-edition-filling-character-sheet@592749a0e08a2a8a93a05918d49b682e
+projection_coverage: topic-sword-world-rpg-complete-edition-filling-character-sheet@1be32b6b4c8010cd82a903d291b37ac5
 ---
 
 # 1.4.9 Filling Out the Character Sheet
@@ -15,18 +15,6 @@ projection_coverage: topic-sword-world-rpg-complete-edition-filling-character-sh
 What [[sword-world-rpg-complete-edition]] covers about 1.4.9 filling out the character sheet:
 
 ## Statements
-
-### What You'll Need to Play Sword World RPG
-
-- You will also need Character Sheets. A Character Sheet is used to keep track of a character who acts in a fictional world (Alecrast in the case of Sword World RPG ) as the player's alter ego. These are needed per the number of people. Please copy and use the sheets included in this book. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-00094))_
-
-### 1.4 Character Creation
-
-- A Character Sheet is used to write down various information about a character during the course of the game. It is designed to assist in character creation as well. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-00269))_
-
-### 1.4 Character Creation / 1.4.2 Determine Ability Scores
-
-- Once the ability scores have been determined, also find the ability bonuses and write them down on the Character Sheet. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-00346))_
 
 ### 1.4 Character Creation / 1.4.9 Filling Out the Character Sheet
 
@@ -48,7 +36,7 @@ What [[sword-world-rpg-complete-edition]] covers about 1.4.9 filling out the cha
 
 - Have you learned each of these terms? Now, let's get into the actual description of the combat procedure. Combat consists of two checks: one is made to determine if an attack hits , and if the total result is a hit, another is made to determine the damage dealt by the attack. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01201))_
 
-### Chapter 3: / 3.4.4 Actions You Can Take While Standing Still / Attacks From Monsters Against Characters / 4.10 Excellent Weapons and Armor / and Armor / 4.10.4 Mithril Silver Weapons and Armor / Basic Rules of Magic / Filling out the Character Sheet
+### 4.10 Excellent Weapons and Armor / and Armor / 4.10.4 Mithril Silver Weapons and Armor / Basic Rules of Magic / Filling out the Character Sheet
 
 - On the Character Sheet, there is a magic field. Characters with rune master skills must write their runes , skill level , and magic power in this field. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01517))_
 
@@ -56,7 +44,7 @@ What [[sword-world-rpg-complete-edition]] covers about 1.4.9 filling out the cha
 
 - This distinction will be specified for each spell in the spell lists that follow. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01521))_
 
-### Chapter 3: / 3.4.4 Actions You Can Take While Standing Still / Attacks From Monsters Against Characters / 4.10 Excellent Weapons and Armor / and Armor / 4.10.4 Mithril Silver Weapons and Armor / Basic Rules of Magic / Filling out the Character Sheet / When an Adventurer Casts Magic on Monsters
+### 4.10 Excellent Weapons and Armor / and Armor / 4.10.4 Mithril Silver Weapons and Armor / Basic Rules of Magic / Filling out the Character Sheet / When an Adventurer Casts Magic on Monsters
 
 - Suppose an adventurer with sorcerer skill level 3 and a +2 intelligence bonus (magic power 5) casts the spell Lightning . Lightning is a spell that shoots a bolt of lightning, dealing damage to everything in its path. If there are multiple targets in the path of the lightning bolt, you must make a check for each one's attempt to resist. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01570))_
 
@@ -64,13 +52,13 @@ What [[sword-world-rpg-complete-edition]] covers about 1.4.9 filling out the cha
 
 - If the rolls against the three goblins were 6 , 3 , and 2 (double ones!), and the roll against the goblin lord was 6 , then the result would look like this: _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01572))_
 
-### Chapter 3: / 3.4.4 Actions You Can Take While Standing Still / Attacks From Monsters Against Characters / 4.10 Excellent Weapons and Armor / and Armor / 4.10.4 Mithril Silver Weapons and Armor / Basic Rules of Magic / Filling out the Character Sheet / When a Monster Casts Magic on Adventurers
+### 4.10 Excellent Weapons and Armor / and Armor / 4.10.4 Mithril Silver Weapons and Armor / Basic Rules of Magic / Filling out the Character Sheet / When a Monster Casts Magic on Adventurers
 
 - A centaur and three adventurers get into a fight. This centaur has the ability to use ancient magic and unleashes Lightning . The game master declares that its magic intensity is 13 . _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01581))_
 
 - Each of the three adventurers (the players in control) roll 2D to check if they resist, using their mental power resistance as the baseline score, and 13 (magic intensity) as the target score. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01582))_
 
-### Chapter 3: / 3.4.4 Actions You Can Take While Standing Still / Attacks From Monsters Against Characters / 4.10 Excellent Weapons and Armor / and Armor / 4.10.4 Mithril Silver Weapons and Armor / Basic Rules of Magic / Filling out the Character Sheet / When an Adventurer Casts Magic on Adventurers
+### 4.10 Excellent Weapons and Armor / and Armor / 4.10.4 Mithril Silver Weapons and Armor / Basic Rules of Magic / Filling out the Character Sheet / When an Adventurer Casts Magic on Adventurers
 
 - The following procedure is used to make a check when data created for a character casts magic on adventurers, and vice versa. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01584))_
 
@@ -78,7 +66,7 @@ What [[sword-world-rpg-complete-edition]] covers about 1.4.9 filling out the cha
 
 - The evil sorcerer Gorman (magic power 5) unleashes Lightning on the three adventurers. First, Gorman rolls 2D and adds his own magic power. If we assume his 2D roll is 8 , each of the three adventurers must make a mental power resistance roll, with a target score of 5 (magic power) + 8 (roll) = 13 . Suppose that the baseline score of all three of their mental power resistance rolls is 4 . If their rolls are each 2 (double ones!), 6 , and 9 , then only the last one is able to resist the Lightning . _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01587))_
 
-### Chapter 3: / 3.4.4 Actions You Can Take While Standing Still / Attacks From Monsters Against Characters / 4.10 Excellent Weapons and Armor / and Armor / 4.10.4 Mithril Silver Weapons and Armor / Basic Rules of Magic / Filling out the Character Sheet / When an Adventurer Casts Magic on a Mix of Adventurers and Monsters
+### 4.10 Excellent Weapons and Armor / and Armor / 4.10.4 Mithril Silver Weapons and Armor / Basic Rules of Magic / Filling out the Character Sheet / When an Adventurer Casts Magic on a Mix of Adventurers and Monsters
 
 - Sometimes enemies written in the same data format as a character may also be accompanied by monsters. For example, a sorcerer who leads undead monsters to attack villages. Casting magic on such a group is handled the same way as when an adventurer casts magic on (a group of) adventurers, as described above. At this time, the monsters must also roll the dice to make resist checks. Please use the optional rules under 17.1: Changes to Magic Procedure (see p. 273). _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01590))_
 
@@ -86,7 +74,7 @@ What [[sword-world-rpg-complete-edition]] covers about 1.4.9 filling out the cha
 
 - If the one on whom the magic is being cast chooses not to resist the magic, it will definitely take effect so long as the one casting the magic does not roll double ones. You're also allowed to choose to not resist magic like Fire Bolt , which will definitely result in a loss if it's cast on you....... but that probably won't benefit you in any way. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01593))_
 
-### Chapter 3: / 3.4.4 Actions You Can Take While Standing Still / Attacks From Monsters Against Characters / 4.10 Excellent Weapons and Armor / and Armor / 4.10.4 Mithril Silver Weapons and Armor / Basic Rules of Magic / Filling out the Character Sheet / 5.1.5 Consuming Mental Power
+### 4.10 Excellent Weapons and Armor / and Armor / 4.10.4 Mithril Silver Weapons and Armor / Basic Rules of Magic / Filling out the Character Sheet / 5.1.5 Consuming Mental Power
 
 - Adventurers cannot use magic endlessly. When using magic, an adventurer must temporarily reduce their mental power. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01597))_
 
@@ -154,74 +142,26 @@ What [[sword-world-rpg-complete-edition]] covers about 1.4.9 filling out the cha
 
 - This is a spellsong that puts the listener to sleep. Once it starts, the effect begins on the fourth round (resistance rolls are made at this point), and the spell is complete after 12 rounds. If the performance is interrupted before it is completed, the effect of the spellsong will disappear at that point, but once the spellsong is completed, you will enter a natural state of sleep, so there is no need to play it any further. Of course, if someone wakes you up, such as by shaking your body, etc. you will wake up immediately. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-03859))_
 
-- Once race is chosen, sub-ability scores can be determined. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-00868))_
-- Once ability scores have been calculated, the next step is the ability bonuses. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-00872))_
-- Once it's been decided, write it in the origin field. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-00874))_
-- Please write down starting experience points as determined by Table 1-5: Backgrounds or Table 1-6: Starting Experience by Race in the experience points field. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-00876))_
-- Once the process has been completed up to this point, you should have developed an image of the character. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-00881))_
-- It should now be easier to decide on gender and age, plus the character's name. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-00881))_
-- Starting experience points can be used to acquire new adventurer skills or to increase any skills already acquired (Table 1-7: Experience Points by Skill). _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-00888))_
-- Once you've acquired your final skills (starting skill and growth via starting experience points), you can determine your adventurer level. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-00891))_
-- Adventurer level is equal to the highest adventurer skill level. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-00892))_
-- Write down the items you purchased then rewrite your money, reducing by the amount of money you spent (Table 1-11: Equipment). _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-00894))_
-- However, to fill in anything other than what's explained here, you must understand the rules a bit more in detail. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-00898))_
-- The character sheet is not completely filled out yet. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-00898))_
-- So for now, this is the end of the instructions for filling out the sheet. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-00898))_
-- The other sections will be explained as necessary in the coming rules. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-00899))_
-- These procedures differ when the attacker and defender are character against monster , monster against character , or character against character . _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01202))_
-- The game procedures for using resistible and non-resistible magic are quite different. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01523))_
-- Declare which magic you're using, then roll 2D. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01525))_
-- If it is double ones, then for some reason (the spell was inaccurate, etc.) the magic takes no effect at all. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01526))_
-- Y ou must make a success roll using caster's magic power as the baseline score and the monster's mental point resistance as the target score. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01528))_
-- If the 2D roll comes up double ones , that means there was some mistake and the magic did not work. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01528))_
-- If 2D roll + magic power is greater than or equal to the monster's resistance score, the magic will be cast with its full effect. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01528))_
-- If the resistance score is not met, the magic will not work or will only have a weak effect. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01528))_
-- Even if the magic doesn't normally lose its effect when resisted, in this case it is completely nullified. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01528))_
-- The baseline score is 4 (magic power) and the target score is 9 (goblin's mental point resistance). _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01533))_
-- In other words, if the 2D roll is 5 or mor e, Fire Bolt will take its full effect. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01533))_
-- When a monster casts magic, the procedure is different from when an adventurer casts magic. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01544))_
-- First, in the case of non-resistible magic, a monster can never fail. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01545))_
-- The target score is a score called the monster's magic intensity . _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01545))_
-- If the adventurer's final score is less than the monster's magic intensity, they will receive the full effect of the magic. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01546))_
-- Also, since this is considered a success roll, it'll be an automatic failure if the 2D roll is double ones . _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01547))_
-- Conversely, double sixes is an automatic success , so in this case, regardless of the adventurer's mental power resistance or the monster's magic intensity, that's a successful resist * and the magic will only take an incomplete effect. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01547))_
-- No matter how high the adventurer's mental power resistance or how low the monster's magic intensity, the magic will take its full effect. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01547))_
-- Dark elves have the ability to use spirit magic, with a magic intensity of 13. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01550))_
-- Just like player characters, even those whose data was created for a character may appear as an enemy. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01559))_
-- In other words, you compare the magic power + 2D score of the one casting the magic with the mental power resistance + 2D score of the one on whom the magic is being cast. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01560))_
-- In other words, if the resisting side rolls double sixes, the resist is an unconditional success , otherwise, if the side casting the magic rolls double sixes, the resist is a failure . _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01561))_
-- The resolution of double ones and double sixes is also the same as weapon combat. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01561))_
-- This kind of magic can have multiple targets, and each target must make their own check to resist. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01566))_
-- 2nd goblin: 5 (magic power) + 3 (roll) = 8 < 9 (mental point resistance), incomplete effect. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01574))_
-- Goblin lord: 5 (magic power) + 6 (roll) = 11 < 12 (mental point resistance), incomplete effect. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01576))_
-- If the side casting the magic rolls double ones, the magic has no effect on any targets. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01588))_
-- For example, a character with 5 points of mental power remaining can use magic that costs 5 points of mental power, but cannot use magic that costs 6 or more points of mental power. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01602))_
-- The character cannot regain consciousness unless they recover their mental power to 1 point or more in some way. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01603))_
-- The effect begins on the fourth round after starting the spellsong. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-03861))_
-- For undead that fail to resist, roll 2D and look at Table 5-10: Requiem to determine the effect it has on them. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-03861))_
-- With a song that mourns the souls of the dead, it has the effect of weakening the undead. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-03861))_
+### Spellsongs / Filling out the Character Sheet / Requiem
+
+- With a song that mourns the souls of the dead, it has the effect of weakening the undead. The effect begins on the fourth round after starting the spellsong. For undead that fail to resist, roll 2D and look at Table 5-10: Requiem to determine the effect it has on them. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-03861))_
+
+### Spellsongs / Filling out the Character Sheet / Resistance
+
 - This spellsong activates the listener's physical and mental functions, giving them +1 to life force and mental power, as well as the resistance rolls of each. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-03864))_
-- Every time you listen to this spell for one hour, you can recover 1 point of mental power. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-03866))_
-- If you interrupt the spellsong midway through, there will be no effect. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-03866))_
-- Those who wish to take part in the effect of this spellsong must remain completely relaxed for the duration of the performance. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-03866))_
+
+- Every time you listen to this spell for one hour, you can recover 1 point of mental power. If you interrupt the spellsong midway through, there will be no effect. Those who wish to take part in the effect of this spellsong must remain completely relaxed for the duration of the performance. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-03866))_
+
 - The bard singing the spellsong cannot recover their own mental power. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-03867))_
-- This spell is effective on objects that break due to vibrations, such as thin glass, ceramics, etc. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-03869))_
-- These objects will shatter on the fourth round after the spellsong begins. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-03869))_
+
+### Spellsongs / Filling out the Character Sheet / Vibrato
+
+- This spell is effective on objects that break due to vibrations, such as thin glass, ceramics, etc. These objects will shatter on the fourth round after the spellsong begins. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-03869))_
+
 
 ## Technical atoms
 
-### Technical frame 1: 1.4 Character Creation / 1.4.9 Filling Out the Character Sheet
-
-**Context:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-00876))_
-
-> Please write down starting experience points as determined by Table 1-5: Backgrounds or Table 1-6: Starting Experience by Race in the experience points field.
-
-**Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-00874))_
-
-<a id="atom-technical-atom-2c838fe257a4bbeb"></a>
-> If the character is a human or a halfelf raised by a human, Table 1-5: Backgrounds must be used to determine their origin.
-
-### Technical frame 2: Chapter 3: / 3.4.4 Actions You Can Take While Standing Still / Attacks From Monsters Against Characters / 4.10 Excellent Weapons and Armor / and Armor / 4.10.4 Mithril Silver Weapons and Armor / Basic Rules of Magic / Filling out the Character Sheet
+### Technical frame 1: 4.10 Excellent Weapons and Armor / and Armor / 4.10.4 Mithril Silver Weapons and Armor / Basic Rules of Magic / Filling out the Character Sheet
 
 **Context:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01521))_
 
@@ -232,172 +172,7 @@ What [[sword-world-rpg-complete-edition]] covers about 1.4.9 filling out the cha
 <a id="atom-technical-atom-2555016e40a70fa1"></a>
 > Magic that is resistible can be rendered ineffective or less effective if the target chooses to resist .
 
-### Technical frame 3: Chapter 3: / 3.4.4 Actions You Can Take While Standing Still / Attacks From Monsters Against Characters / 4.10 Excellent Weapons and Armor / and Armor / 4.10.4 Mithril Silver Weapons and Armor / Basic Rules of Magic / Filling out the Character Sheet
-
-**Context:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01528))_
-
-> When attempting to cast resistible magic on a monster, the caster must determine whether their opponent can resist it. Y ou must make a success roll using caster's magic power as the baseline score and the monster's mental point resistance as the target score. If 2D roll + magic power is greater than or equal to the monster's resistance score, the magic will be cast with its full effect. If the resistance score is not met, the magic will not work or will only have a weak effect. If the 2D roll c
-
-**Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01526))_
-
-<a id="atom-technical-atom-5deed1ceb398ed64"></a>
-> If the result is anything other than double ones, the magic takes effect.
-
-### Technical frame 4: Chapter 3: / 3.4.4 Actions You Can Take While Standing Still / Attacks From Monsters Against Characters / 4.10 Excellent Weapons and Armor / and Armor / 4.10.4 Mithril Silver Weapons and Armor / Basic Rules of Magic / Filling out the Character Sheet
-
-**Context:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01529))_
-
-> If the 2D roll comes up double sixes , the magic automatically succeeds and will take its full effect, no matter how high the monster's mental point resistance (except for when the magic itself has no effect on that monster. In this case, there is no need to roll the dice, and the magic does not take effect).
-
-**Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01528))_
-
-<a id="atom-technical-atom-bcbd2d14cdfb2152"></a>
-> When attempting to cast resistible magic on a monster, the caster must determine whether their opponent can resist it.
-
-### Technical frame 5: Chapter 3: / 3.4.4 Actions You Can Take While Standing Still / Attacks From Monsters Against Characters / 4.10 Excellent Weapons and Armor / and Armor / 4.10.4 Mithril Silver Weapons and Armor / Basic Rules of Magic / Filling out the Character Sheet
-
-**Context:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01533))_
-
-> In this case, the adventurer (the player controlling them) must make a success roll. The baseline score is 4 (magic power) and the target score is 9 (goblin's mental point resistance). In other words, if the 2D roll is 5 or mor e, Fire Bolt will take its full effect.
-
-**Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01529))_
-
-<a id="atom-technical-atom-3a65fc9f4593e1b3"></a>
-> If the 2D roll comes up double sixes , the magic automatically succeeds and will take its full effect, no matter how high the monster's mental point resistance (except for when the magic itself has no effect on that monster.
-
-### Technical frame 6: Chapter 3: / 3.4.4 Actions You Can Take While Standing Still / Attacks From Monsters Against Characters / 4.10 Excellent Weapons and Armor / and Armor / 4.10.4 Mithril Silver Weapons and Armor / Basic Rules of Magic / Filling out the Character Sheet
-
-**Context:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01533))_
-
-> In this case, the adventurer (the player controlling them) must make a success roll. The baseline score is 4 (magic power) and the target score is 9 (goblin's mental point resistance). In other words, if the 2D roll is 5 or mor e, Fire Bolt will take its full effect.
-
-**Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01532))_
-
-<a id="atom-technical-atom-8e16a0f219ac7b6d"></a>
-> Fire Bolt is resistible magic, so if it's resisted by the opponent, its effect will be reduced.
-
-### Technical frame 7: Chapter 3: / 3.4.4 Actions You Can Take While Standing Still / Attacks From Monsters Against Characters / 4.10 Excellent Weapons and Armor / and Armor / 4.10.4 Mithril Silver Weapons and Armor / Basic Rules of Magic / Filling out the Character Sheet
-
-**Context:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01529))_
-
-> If the 2D roll comes up double sixes , the magic automatically succeeds and will take its full effect, no matter how high the monster's mental point resistance (except for when the magic itself has no effect on that monster. In this case, there is no need to roll the dice, and the magic does not take effect).
-
-**Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01533))_
-
-<a id="atom-technical-atom-babf748b4792da09"></a>
-> In this case, the adventurer (the player controlling them) must make a success roll.
-
-### Technical frame 8: Chapter 3: / 3.4.4 Actions You Can Take While Standing Still / Attacks From Monsters Against Characters / 4.10 Excellent Weapons and Armor / and Armor / 4.10.4 Mithril Silver Weapons and Armor / Basic Rules of Magic / Filling out the Character Sheet
-
-**Context:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01544))_
-
-> When a monster casts magic, the procedure is different from when an adventurer casts magic.
-
-**Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01538))_
-
-<a id="atom-technical-atom-562f423cefacb762"></a>
-> magic power + 2D ≥ monster's mental point resistance → magic takes
-
-### Technical frame 9: Chapter 3: / 3.4.4 Actions You Can Take While Standing Still / Attacks From Monsters Against Characters / 4.10 Excellent Weapons and Armor / and Armor / 4.10.4 Mithril Silver Weapons and Armor / Basic Rules of Magic / Filling out the Character Sheet
-
-**Context:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01544))_
-
-> When a monster casts magic, the procedure is different from when an adventurer casts magic.
-
-**Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01541))_
-
-<a id="atom-technical-atom-f84ac90bfcb5ab25"></a>
-> When the 2D roll is double sixes , the magic will automatically take its full effect.
-
-### Technical frame 10: Chapter 3: / 3.4.4 Actions You Can Take While Standing Still / Attacks From Monsters Against Characters / 4.10 Excellent Weapons and Armor / and Armor / 4.10.4 Mithril Silver Weapons and Armor / Basic Rules of Magic / Filling out the Character Sheet
-
-**Context:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01544))_
-
-> When a monster casts magic, the procedure is different from when an adventurer casts magic.
-
-**Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01542))_
-
-<a id="atom-technical-atom-abfec2a76ef0e0f2"></a>
-> When the 2D roll is double ones , the magic unconditionally takes no effect at all.
-
-### Technical frame 11: Chapter 3: / 3.4.4 Actions You Can Take While Standing Still / Attacks From Monsters Against Characters / 4.10 Excellent Weapons and Armor / and Armor / 4.10.4 Mithril Silver Weapons and Armor / Basic Rules of Magic / Filling out the Character Sheet
-
-**Context:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01547))_
-
-> Also, since this is considered a success roll, it'll be an automatic failure if the 2D roll is double ones . No matter how high the adventurer's mental power resistance or how low the monster's magic intensity, the magic will take its full effect. Conversely, double sixes is an automatic success , so in this case, regardless of the adventurer's mental power resistance or the monster's magic intensity, that's a successful resist * and the magic will only take an incomplete effect.
-
-**Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01546))_
-
-<a id="atom-technical-atom-e700f4b3d6040b60"></a>
-> If the adventurer's final score ( mental power resistance + 2D ) is equal to or greater than the monster's magic intensity , the monster's magic will only take an incomplete effect (some magic will take no effect at all).
-
-### Technical frame 12: Chapter 3: / 3.4.4 Actions You Can Take While Standing Still / Attacks From Monsters Against Characters / 4.10 Excellent Weapons and Armor / and Armor / 4.10.4 Mithril Silver Weapons and Armor / Basic Rules of Magic / Filling out the Character Sheet
-
-**Context:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01550))_
-
-> Ducard II (mental power resistance 4) is attacked by a dark elf during an adventure. Dark elves have the ability to use spirit magic, with a magic intensity of 13. If the dark elf casts a Fire Bolt on Ducard II, Ducard II must make a mental power resistance roll (baseline score 4, target score 13).
-
-**Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01548))_
-
-<a id="atom-technical-atom-eca2e4bc850a3026"></a>
-> *In this way, when making a resistible magic check, you can also call it a successful resist or failed resist from the perspective of the one being affected by the magic.
-
-### Technical frame 13: Chapter 3: / 3.4.4 Actions You Can Take While Standing Still / Attacks From Monsters Against Characters / 4.10 Excellent Weapons and Armor / and Armor / 4.10.4 Mithril Silver Weapons and Armor / Basic Rules of Magic / Filling out the Character Sheet
-
-**Context:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01547))_
-
-> Also, since this is considered a success roll, it'll be an automatic failure if the 2D roll is double ones . No matter how high the adventurer's mental power resistance or how low the monster's magic intensity, the magic will take its full effect. Conversely, double sixes is an automatic success , so in this case, regardless of the adventurer's mental power resistance or the monster's magic intensity, that's a successful resist * and the magic will only take an incomplete effect.
-
-**Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01550))_
-
-<a id="atom-technical-atom-8c776c9a30382219"></a>
-> If the dark elf casts a Fire Bolt on Ducard II, Ducard II must make a mental power resistance roll (baseline score 4, target score 13).
-
-### Technical frame 14: Chapter 3: / 3.4.4 Actions You Can Take While Standing Still / Attacks From Monsters Against Characters / 4.10 Excellent Weapons and Armor / and Armor / 4.10.4 Mithril Silver Weapons and Armor / Basic Rules of Magic / Filling out the Character Sheet
-
-**Context:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01559))_
-
-> Just like player characters, even those whose data was created for a character may appear as an enemy. If such an enemy casts magic on an adventurer, or if an adventurer casts magic on such an enemy, both sides must roll dice to resolve the situation, just as in weapon combat between adventurers.
-
-**Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01553))_
-
-<a id="atom-technical-atom-6809f3411defc548"></a>
-> mental power resistance + 2D ≥ monster's magic intensity → magic takes an incomplete effect (some take no effect at all)
-
-### Technical frame 15: Chapter 3: / 3.4.4 Actions You Can Take While Standing Still / Attacks From Monsters Against Characters / 4.10 Excellent Weapons and Armor / and Armor / 4.10.4 Mithril Silver Weapons and Armor / Basic Rules of Magic / Filling out the Character Sheet
-
-**Context:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01561))_
-
-> The resolution of double ones and double sixes is also the same as weapon combat. In other words, if the resisting side rolls double sixes, the resist is an unconditional success , otherwise, if the side casting the magic rolls double sixes, the resist is a failure .
-
-**Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01560))_
-
-<a id="atom-technical-atom-2829b73ce041980f"></a>
-> If the score of the one casting the magic is greater, the magic will take full effect, but if there is a tie or if the score of the one on whom the magic is being cast is greater, the magic is resisted and will only take an incomplete effect.
-
-### Technical frame 16: Chapter 3: / 3.4.4 Actions You Can Take While Standing Still / Attacks From Monsters Against Characters / 4.10 Excellent Weapons and Armor / and Armor / 4.10.4 Mithril Silver Weapons and Armor / Basic Rules of Magic / Filling out the Character Sheet
-
-**Context:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01566))_
-
-> This kind of magic can have multiple targets, and each target must make their own check to resist.
-
-**Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01562))_
-
-<a id="atom-technical-atom-275eeed980b17b44"></a>
-> When the one casting the magic rolls double ones , the magic takes no effect at all.
-
-### Technical frame 17: Chapter 3: / 3.4.4 Actions You Can Take While Standing Still / Attacks From Monsters Against Characters / 4.10 Excellent Weapons and Armor / and Armor / 4.10.4 Mithril Silver Weapons and Armor / Basic Rules of Magic / Filling out the Character Sheet
-
-**Context:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01566))_
-
-> This kind of magic can have multiple targets, and each target must make their own check to resist.
-
-**Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01563))_
-
-<a id="atom-technical-atom-68b9e201a0a66301"></a>
-> When the resisting side rolls double ones , the resist fails , unless the side casting the magic also rolls double ones.
-
-### Technical frame 18: Chapter 3: / 3.4.4 Actions You Can Take While Standing Still / Attacks From Monsters Against Characters / 4.10 Excellent Weapons and Armor / and Armor / 4.10.4 Mithril Silver Weapons and Armor / Basic Rules of Magic / Filling out the Character Sheet / When an Adventurer Casts Magic on Monsters
+### Technical frame 2: 4.10 Excellent Weapons and Armor / and Armor / 4.10.4 Mithril Silver Weapons and Armor / Basic Rules of Magic / Filling out the Character Sheet / When an Adventurer Casts Magic on Monsters
 
 **Context:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01570))_
 
@@ -408,7 +183,7 @@ What [[sword-world-rpg-complete-edition]] covers about 1.4.9 filling out the cha
 <a id="atom-technical-atom-a28d18a4d9f687bf"></a>
 > The player must roll the dice and make a check for each monster.
 
-### Technical frame 19: Chapter 3: / 3.4.4 Actions You Can Take While Standing Still / Attacks From Monsters Against Characters / 4.10 Excellent Weapons and Armor / and Armor / 4.10.4 Mithril Silver Weapons and Armor / Basic Rules of Magic / Filling out the Character Sheet / When an Adventurer Casts Magic on Monsters
+### Technical frame 3: 4.10 Excellent Weapons and Armor / and Armor / 4.10.4 Mithril Silver Weapons and Armor / Basic Rules of Magic / Filling out the Character Sheet / When an Adventurer Casts Magic on Monsters
 
 **Context:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01571))_
 
@@ -419,7 +194,7 @@ What [[sword-world-rpg-complete-edition]] covers about 1.4.9 filling out the cha
 <a id="atom-technical-atom-80e1b7afc5b974bd"></a>
 > If there are multiple targets in the path of the lightning bolt, you must make a check for each one's attempt to resist.
 
-### Technical frame 20: Chapter 3: / 3.4.4 Actions You Can Take While Standing Still / Attacks From Monsters Against Characters / 4.10 Excellent Weapons and Armor / and Armor / 4.10.4 Mithril Silver Weapons and Armor / Basic Rules of Magic / Filling out the Character Sheet / When an Adventurer Casts Magic on Monsters
+### Technical frame 4: 4.10 Excellent Weapons and Armor / and Armor / 4.10.4 Mithril Silver Weapons and Armor / Basic Rules of Magic / Filling out the Character Sheet / When an Adventurer Casts Magic on Monsters
 
 **Context:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01572))_
 
@@ -430,29 +205,7 @@ What [[sword-world-rpg-complete-edition]] covers about 1.4.9 filling out the cha
 <a id="atom-technical-atom-9e3539f24a0f778c"></a>
 > The player rolls the dice four times and for each one must determine whether the magic breaks through the resist and takes its full effect.
 
-### Technical frame 21: Chapter 3: / 3.4.4 Actions You Can Take While Standing Still / Attacks From Monsters Against Characters / 4.10 Excellent Weapons and Armor / and Armor / 4.10.4 Mithril Silver Weapons and Armor / Basic Rules of Magic / Filling out the Character Sheet / When an Adventurer Casts Magic on Monsters
-
-**Context:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01574))_
-
-> 2nd goblin: 5 (magic power) + 3 (roll) = 8 < 9 (mental point resistance), incomplete effect.
-
-**Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01573))_
-
-<a id="atom-technical-atom-88da256ab6a71fd3"></a>
-> 1st goblin: 5 (magic power) + 6 (roll) = 11 ≥ 9 (mental point resistance), full effect.
-
-### Technical frame 22: Chapter 3: / 3.4.4 Actions You Can Take While Standing Still / Attacks From Monsters Against Characters / 4.10 Excellent Weapons and Armor / and Armor / 4.10.4 Mithril Silver Weapons and Armor / Basic Rules of Magic / Filling out the Character Sheet / When an Adventurer Casts Magic on Monsters
-
-**Context:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01576))_
-
-> Goblin lord: 5 (magic power) + 6 (roll) = 11 < 12 (mental point resistance), incomplete effect.
-
-**Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01577))_
-
-<a id="atom-technical-atom-b9e1f9e98279a547"></a>
-> When rolling the dice, you must clearly declare which target the dice are meant for before you actually roll.
-
-### Technical frame 23: Chapter 3: / 3.4.4 Actions You Can Take While Standing Still / Attacks From Monsters Against Characters / 4.10 Excellent Weapons and Armor / and Armor / 4.10.4 Mithril Silver Weapons and Armor / Basic Rules of Magic / Filling out the Character Sheet / When a Monster Casts Magic on Adventurers
+### Technical frame 5: 4.10 Excellent Weapons and Armor / and Armor / 4.10.4 Mithril Silver Weapons and Armor / Basic Rules of Magic / Filling out the Character Sheet / When a Monster Casts Magic on Adventurers
 
 **Context:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01581))_
 
@@ -463,7 +216,7 @@ What [[sword-world-rpg-complete-edition]] covers about 1.4.9 filling out the cha
 <a id="atom-technical-atom-f3ca46f267c94b8b"></a>
 > Each player must make a resistance roll using monster's magic intensity as the target score.
 
-### Technical frame 24: Chapter 3: / 3.4.4 Actions You Can Take While Standing Still / Attacks From Monsters Against Characters / 4.10 Excellent Weapons and Armor / and Armor / 4.10.4 Mithril Silver Weapons and Armor / Basic Rules of Magic / Filling out the Character Sheet / When an Adventurer Casts Magic on Adventurers
+### Technical frame 6: 4.10 Excellent Weapons and Armor / and Armor / 4.10.4 Mithril Silver Weapons and Armor / Basic Rules of Magic / Filling out the Character Sheet / When an Adventurer Casts Magic on Adventurers
 
 **Context:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01587))_
 
@@ -474,7 +227,7 @@ What [[sword-world-rpg-complete-edition]] covers about 1.4.9 filling out the cha
 <a id="atom-technical-atom-8aa3aac3eaf3e60b"></a>
 > Each resisting side must then make a mental power resistance roll, using that determined final score as the target score.
 
-### Technical frame 25: Chapter 3: / 3.4.4 Actions You Can Take While Standing Still / Attacks From Monsters Against Characters / 4.10 Excellent Weapons and Armor / and Armor / 4.10.4 Mithril Silver Weapons and Armor / Basic Rules of Magic / Filling out the Character Sheet / When an Adventurer Casts Magic on Adventurers
+### Technical frame 7: 4.10 Excellent Weapons and Armor / and Armor / 4.10.4 Mithril Silver Weapons and Armor / Basic Rules of Magic / Filling out the Character Sheet / When an Adventurer Casts Magic on Adventurers
 
 **Context:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01587))_
 
@@ -485,7 +238,7 @@ What [[sword-world-rpg-complete-edition]] covers about 1.4.9 filling out the cha
 <a id="atom-technical-atom-a63d0d9dbcfafdef"></a>
 > If the side casting the magic rolls double sixes, no one can resist, except for those who also roll double sixes.
 
-### Technical frame 26: Chapter 3: / 3.4.4 Actions You Can Take While Standing Still / Attacks From Monsters Against Characters / 4.10 Excellent Weapons and Armor / and Armor / 4.10.4 Mithril Silver Weapons and Armor / Basic Rules of Magic / Filling out the Character Sheet / When an Adventurer Casts Magic on a Mix of Adventurers and Monsters
+### Technical frame 8: 4.10 Excellent Weapons and Armor / and Armor / 4.10.4 Mithril Silver Weapons and Armor / Basic Rules of Magic / Filling out the Character Sheet / When an Adventurer Casts Magic on a Mix of Adventurers and Monsters
 
 **Context:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01592))_
 
@@ -496,7 +249,7 @@ What [[sword-world-rpg-complete-edition]] covers about 1.4.9 filling out the cha
 <a id="atom-technical-atom-b2d14a08b712c1f6"></a>
 > At this time, the monsters must also roll the dice to make resist checks.
 
-### Technical frame 27: Chapter 3: / 3.4.4 Actions You Can Take While Standing Still / Attacks From Monsters Against Characters / 4.10 Excellent Weapons and Armor / and Armor / 4.10.4 Mithril Silver Weapons and Armor / Basic Rules of Magic / Filling out the Character Sheet / When an Adventurer Casts Magic on a Mix of Adventurers and Monsters
+### Technical frame 9: 4.10 Excellent Weapons and Armor / and Armor / 4.10.4 Mithril Silver Weapons and Armor / Basic Rules of Magic / Filling out the Character Sheet / When an Adventurer Casts Magic on a Mix of Adventurers and Monsters
 
 **Context:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01592))_
 
@@ -507,7 +260,7 @@ What [[sword-world-rpg-complete-edition]] covers about 1.4.9 filling out the cha
 <a id="atom-technical-atom-7ceff197ed36fbf4"></a>
 > If the one on whom the magic is being cast chooses not to resist the magic, it will definitely take effect so long as the one casting the magic does not roll double ones.
 
-### Technical frame 28: Chapter 3: / 3.4.4 Actions You Can Take While Standing Still / Attacks From Monsters Against Characters / 4.10 Excellent Weapons and Armor / and Armor / 4.10.4 Mithril Silver Weapons and Armor / Basic Rules of Magic / Filling out the Character Sheet / 5.1.5 Consuming Mental Power
+### Technical frame 10: 4.10 Excellent Weapons and Armor / and Armor / 4.10.4 Mithril Silver Weapons and Armor / Basic Rules of Magic / Filling out the Character Sheet / 5.1.5 Consuming Mental Power
 
 **Context:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01598))_
 
@@ -518,40 +271,7 @@ What [[sword-world-rpg-complete-edition]] covers about 1.4.9 filling out the cha
 <a id="atom-technical-atom-cc808ac25ff6f5d4"></a>
 > Adventurers cannot use magic endlessly.
 
-### Technical frame 29: Chapter 3: / 3.4.4 Actions You Can Take While Standing Still / Attacks From Monsters Against Characters / 4.10 Excellent Weapons and Armor / and Armor / 4.10.4 Mithril Silver Weapons and Armor / Basic Rules of Magic / Filling out the Character Sheet / 5.1.5 Consuming Mental Power
-
-**Context:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01603))_
-
-> If a character's mental power reaches 0 , they will lose consciousness . The character cannot regain consciousness unless they recover their mental power to 1 point or more in some way.
-
-**Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01602))_
-
-<a id="atom-technical-atom-34c5e6ecc551ac0a"></a>
-> A character can reduce their mental power to 0, but they cannot make it negative.
-
-### Technical frame 30: Chapter 3: / 3.4.4 Actions You Can Take While Standing Still / Attacks From Monsters Against Characters / 4.10 Excellent Weapons and Armor / and Armor / 4.10.4 Mithril Silver Weapons and Armor / Basic Rules of Magic / Filling out the Character Sheet / 5.1.5 Consuming Mental Power
-
-**Context:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01602))_
-
-> A character can reduce their mental power to 0, but they cannot make it negative. For example, a character with 5 points of mental power remaining can use magic that costs 5 points of mental power, but cannot use magic that costs 6 or more points of mental power.
-
-**Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01603))_
-
-<a id="atom-technical-atom-d7f9876ad034f60b"></a>
-> If a character's mental power reaches 0 , they will lose consciousness .
-
-### Technical frame 31: Chapter 3: / 3.4.4 Actions You Can Take While Standing Still / Attacks From Monsters Against Characters / 4.10 Excellent Weapons and Armor / and Armor / 4.10.4 Mithril Silver Weapons and Armor / Basic Rules of Magic / Filling out the Character Sheet / 5.1.5 Consuming Mental Power
-
-**Context:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01603))_
-
-> If a character's mental power reaches 0 , they will lose consciousness . The character cannot regain consciousness unless they recover their mental power to 1 point or more in some way.
-
-**Atom:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01604))_
-
-<a id="atom-technical-atom-3b6fb3860ac6c730"></a>
-> Even if magic fails , such as by rolling double ones or being resisted by the opponent, a character must still consume their mental power, same as if they had actually used the magic.
-
-### Technical frame 32: Spellsongs / Filling out the Character Sheet / Charm (Mind)
+### Technical frame 11: Spellsongs / Filling out the Character Sheet / Charm (Mind)
 
 **Context:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-03833))_
 
@@ -562,7 +282,7 @@ What [[sword-world-rpg-complete-edition]] covers about 1.4.9 filling out the cha
 <a id="atom-technical-atom-98f8819486ddbca0"></a>
 > However, if you suffer physical or mental damage, you can make another resistance roll.
 
-### Technical frame 33: Spellsongs / Filling out the Character Sheet / Charm (Mind)
+### Technical frame 12: Spellsongs / Filling out the Character Sheet / Charm (Mind)
 
 **Context:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-03837))_
 
@@ -573,7 +293,7 @@ What [[sword-world-rpg-complete-edition]] covers about 1.4.9 filling out the cha
 <a id="atom-technical-atom-573f0688cb51650b"></a>
 > With this spellsong, a bard can make those they charm take specific actions.
 
-### Technical frame 34: Spellsongs / Filling out the Character Sheet / Charm (Mind)
+### Technical frame 13: Spellsongs / Filling out the Character Sheet / Charm (Mind)
 
 **Context:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-03837))_
 
@@ -584,7 +304,7 @@ What [[sword-world-rpg-complete-edition]] covers about 1.4.9 filling out the cha
 <a id="atom-technical-atom-dc11226bbbb8bb8a"></a>
 > 7-8
 
-### Technical frame 35: Spellsongs / Filling out the Character Sheet / Charm (Mind)
+### Technical frame 14: Spellsongs / Filling out the Character Sheet / Charm (Mind)
 
 **Context:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-03837))_
 
@@ -595,7 +315,7 @@ What [[sword-world-rpg-complete-edition]] covers about 1.4.9 filling out the cha
 <a id="atom-technical-atom-597c30992b7d4904"></a>
 > If this is not possible, cannot act while the song continues.
 
-### Technical frame 36: Spellsongs / Filling out the Character Sheet / Charm (Mind)
+### Technical frame 15: Spellsongs / Filling out the Character Sheet / Charm (Mind)
 
 **Context:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-03837))_
 
@@ -606,7 +326,7 @@ What [[sword-world-rpg-complete-edition]] covers about 1.4.9 filling out the cha
 <a id="atom-technical-atom-625fa6d221ab8659"></a>
 > 10-11
 
-### Technical frame 37: Spellsongs / Filling out the Character Sheet / Charm (Mind)
+### Technical frame 16: Spellsongs / Filling out the Character Sheet / Charm (Mind)
 
 **Context:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-03837))_
 
@@ -617,7 +337,7 @@ What [[sword-world-rpg-complete-edition]] covers about 1.4.9 filling out the cha
 <a id="atom-technical-atom-7dc5b172eae2922d"></a>
 > a resistance roll again If the resist is successful, not only does this save you from having to take the action, but also breaks you free from the spellsong's charm effect completely.
 
-### Technical frame 38: Spellsongs / Filling out the Character Sheet / Charm (Mind)
+### Technical frame 17: Spellsongs / Filling out the Character Sheet / Charm (Mind)
 
 **Context:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-03837))_
 
@@ -628,7 +348,7 @@ What [[sword-world-rpg-complete-edition]] covers about 1.4.9 filling out the cha
 <a id="atom-technical-atom-26613d957986a614"></a>
 > If you are using a flute as your instrument, you can use this spellsong, but you cannot make anyone take any actions.
 
-### Technical frame 39: Spellsongs / Filling out the Character Sheet / Requiem
+### Technical frame 18: Spellsongs / Filling out the Character Sheet / Requiem
 
 **Context:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-03861))_
 
@@ -644,7 +364,7 @@ What [[sword-world-rpg-complete-edition]] covers about 1.4.9 filling out the cha
 
 ### Source structure
 
-- [[sword-world-rpg-complete-edition-section-chapter-3-3-4-4-actions-you-can-take-while-standing-still-attacks-from-monsters-against-characte-f0d81142]] - source section: Chapter 3: / 3.4.4 Actions You Can Take While Standing Still / Attacks From Monsters Against Characters / 4.10 Excellent Weapons and Armor / and Armor / 4.10.4 Mithril Silver Weapons and Armor / Basic Rules of Magic / Filling out the Character Sheet shares source evidence from Chapter 3: / 3.4.4 Actions You Can Take While Standing Still / Attacks From Monsters Against Characters / 4.10 Excellent Weapons and Armor / and Armor / 4.10.4 Mithril Silver Weapons and Armor / Basic Rules of Magic / Filling out the Character Sheet: On the Character Sheet, there is a magic field. Characters with rune master skills must write their runes , skill level , and magic power in this field.; Chapter 3: / 3.4.4 Actions You Can Take While Standing Still / Attacks From Monsters Against Characters / 4.10 Excellent Weapons and Armor / and Armor / 4.10.4 Mithril Silver Weapons and Armor / Basic Rules of Magic / Filling out the Character Sheet shares technical record from Chapter 3: / 3.4.4 Actions You Can Take While Standing Still / Attacks From Monsters Against Characters / 4.10 Excellent Weapons and Armor / and Armor / 4.10.4 Mithril Silver Weapons and Armor / Basic Rules of Magic / Filling out the Character Sheet: Magic that is resistible can be rendered ineffective or less effective if the target chooses to resist . (60 shared statement(s), 30 shared atom(s))
+- [[sword-world-rpg-complete-edition-section-4-10-excellent-weapons-and-armor-and-armor-4-10-4-mithril-silver-weapons-and-armor-basic-rules-o-f0d81142]] - source section: 4.10 Excellent Weapons and Armor / and Armor / 4.10.4 Mithril Silver Weapons and Armor / Basic Rules of Magic / Filling out the Character Sheet shares source evidence from 4.10 Excellent Weapons and Armor / and Armor / 4.10.4 Mithril Silver Weapons and Armor / Basic Rules of Magic / Filling out the Character Sheet: On the Character Sheet, there is a magic field. Characters with rune master skills must write their runes , skill level , and magic power in this field.; 4.10 Excellent Weapons and Armor / and Armor / 4.10.4 Mithril Silver Weapons and Armor / Basic Rules of Magic / Filling out the Character Sheet shares technical record from 4.10 Excellent Weapons and Armor / and Armor / 4.10.4 Mithril Silver Weapons and Armor / Basic Rules of Magic / Filling out the Character Sheet: Magic that is resistible can be rendered ineffective or less effective if the target chooses to resist . (60 shared statement(s), 30 shared atom(s))
 - [[sword-world-rpg-complete-edition-section-spellsongs-filling-out-the-character-sheet-f222832c]] - source section: Spellsongs / Filling out the Character Sheet shares source evidence from Spellsongs / Filling out the Character Sheet: belongs to mind explained under 5.1.9: Magic Types (see p. 63). In other words, each one counters (overpowers): and cannot take an effect at the same time as magic o ... [truncated]; Spellsongs / Filling out the Character Sheet shares technical record from Spellsongs / Filling out the Character Sheet: In other words, each one counters (overpowers): and cannot take an effect at the same time as magic or other spellsongs that also belong to mind . (61 shared statement(s), 10 shared atom(s))
 - [[sword-world-rpg-complete-edition-section-1-4-character-creation-1-4-9-filling-out-the-character-sheet-3ba78d4e]] - source section: 1.4 Character Creation / 1.4.9 Filling Out the Character Sheet shares source evidence from 1.4 Character Creation / 1.4.9 Filling Out the Character Sheet: The Character Sheet that accompanies this book is designed to record and list various character details. This will help keep the game running smoothly.; 1.4 Character Creation / 1.4.9 Filling Out the Character Sheet shares technical record from 1.4 Character Creation / 1.4.9 Filling Out the Character Sheet: If the character is a human or a halfelf raised by a human, Table 1-5: Backgrounds must be used to determine their origin. (20 shared statement(s), 1 shared atom(s))
 - [[sword-world-rpg-complete-edition-section-chapter-3-3-4-4-actions-you-can-take-while-standing-still-scores-used-in-weapon-combat-filling-o-005e1b87]] - source section: Chapter 3: / 3.4.4 Actions You Can Take While Standing Still / Scores Used in Weapon Combat / Filling out the Character Sheet shares source evidence from Chapter 3: / 3.4.4 Actions You Can Take While Standing Still / Scores Used in Weapon Combat / Filling out the Character Sheet: Please write these scores in the designated fields on the Character Sheet. This will make the game run more smoothly. (7 shared statement(s))
@@ -652,14 +372,7 @@ What [[sword-world-rpg-complete-edition]] covers about 1.4.9 filling out the cha
 
 ### Shared technical atoms
 
-- [[sword-world-rpg-complete-edition-attack-monster-character]] - shared statements and technical atoms: Attacks From Monsters Against Characters shares source evidence from Chapter 3: / 3.4.4 Actions You Can Take While Standing Still / Scores Used in Weapon Combat / Filling out the Character Sheet: These procedures differ when the attacker and defender are character against monster , monster against character , or character against character . There is one othe ... [truncated]; Attacks From Monsters Against Characters shares technical record from Chapter 3: / 3.4.4 Actions You Can Take While Standing Still / Attacks From Monsters Against Characters / 4.10 Excellent Weapons and Armor / and Armor / 4.10.4 Mithril Silver Weapons and Armor / Basic Rules of Magic / Filling out the Character Sheet: Magic that is resistible can be rendered ineffective or less effective if the target chooses to resist . (61 shared statement(s), 30 shared atom(s))
-- [[sword-world-rpg-complete-edition-adventurer-cast-magic-mix]] - shared statements and technical atoms: Adventurer Cast Magic Mix shares source evidence from Chapter 3: / 3.4.4 Actions You Can Take While Standing Still / Attacks From Monsters Against Characters / 4.10 Excellent Weapons and Armor / and Armor / 4.10.4 Mithril Silver Weapons and Armor / Basic Rules of Magic / Filling out the Character Sheet / When an Adventurer Casts Magic on a Mix of Adventurers and Monsters: Sometimes enemies written in the same data format as a character may also be accompanied by monsters. For example, a sorcerer who leads undead monsters to attack vil ... [truncated]; Adventurer Cast Magic Mix shares technical record from Chapter 3: / 3.4.4 Actions You Can Take While Standing Still / Attacks From Monsters Against Characters / 4.10 Excellent Weapons and Armor / and Armor / 4.10.4 Mithril Silver Weapons and Armor / Basic Rules of Magic / Filling out the Character Sheet / When an Adventurer Casts Magic on a Mix of Adventurers and Monsters: At this time, the monsters must also roll the dice to make resist checks. (6 shared statement(s), 2 shared atom(s))
-
-### Shared claims
-
-- [[sword-world-rpg-complete-edition-attack-character-monster]] - shared statements: Attacks From Characters Against Monsters shares source evidence from Chapter 3: / 3.4.4 Actions You Can Take While Standing Still / Scores Used in Weapon Combat / Filling out the Character Sheet: These procedures differ when the attacker and defender are character against monster , monster against character , or character against character . There is one othe ... [truncated] (1 shared statement(s))
-- [[sword-world-rpg-complete-edition-critical-target-variation]] - shared statements: Critical Target Variation shares source evidence from Chapter 3: / 3.4.4 Actions You Can Take While Standing Still / Scores Used in Weapon Combat / Filling out the Character Sheet: The entry fields may seem complicated, but this is to assist you when using Chapter 16: Optional Rules for Combat (see p. 260). Now, don't worry about it too much. I ... [truncated] (1 shared statement(s))
-- [[sword-world-rpg-complete-edition-hit-check]] - shared statements: 4.5.1 Hit Checks shares source evidence from Chapter 3: / 3.4.4 Actions You Can Take While Standing Still / Scores Used in Weapon Combat / Filling out the Character Sheet: Have you learned each of these terms? Now, let's get into the actual description of the combat procedure. Combat consists of two checks: one is made to determine if ... [truncated] (1 shared statement(s))
+- [[sword-world-rpg-complete-edition-adventurer-cast-magic-mix]] - shared statements and technical atoms: Adventurer Cast Magic Mix shares source evidence from 4.10 Excellent Weapons and Armor / and Armor / 4.10.4 Mithril Silver Weapons and Armor / Basic Rules of Magic / Filling out the Character Sheet / When an Adventurer Casts Magic on a Mix of Adventurers and Monsters: Sometimes enemies written in the same data format as a character may also be accompanied by monsters. For example, a sorcerer who leads undead monsters to attack vil ... [truncated]; Adventurer Cast Magic Mix shares technical record from 4.10 Excellent Weapons and Armor / and Armor / 4.10.4 Mithril Silver Weapons and Armor / Basic Rules of Magic / Filling out the Character Sheet / When an Adventurer Casts Magic on a Mix of Adventurers and Monsters: At this time, the monsters must also roll the dice to make resist checks. (6 shared statement(s), 2 shared atom(s))
 
 ## Source
 

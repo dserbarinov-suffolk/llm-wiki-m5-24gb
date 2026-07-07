@@ -8,7 +8,7 @@ updated: 2026-07-07
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/collections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: collection-sword-world-rpg-complete-edition-collection-chapter-3-4193729e@e5483ce8f5b0ce472aa96a0785ee94b7
+projection_coverage: collection-sword-world-rpg-complete-edition-collection-chapter-3-4193729e@4542c87ffcf711220390c43d559ae5dd
 ---
 
 # Chapter 3:
@@ -35,4 +35,4 @@ Broader source section: [[sword-world-rpg-complete-edition]].
 | Chapter 3: / Ready a Sheathed Weapon | [[sword-world-rpg-complete-edition-section-chapter-3-ready-a-sheathed-weapon-3d0a2748]] | 6 statement(s), 7 atom(s) |
 | Chapter 3: / Switch a Weapon From Hand to Hand | [[sword-world-rpg-complete-edition-section-chapter-3-switch-a-weapon-from-hand-to-hand-0ec7d8cf]] | 2 statement(s), 2 atom(s) |
 | Chapter 3: | [[sword-world-rpg-complete-edition]] | 10 statement(s), 22 atom(s) |
-| Chapter 3: / 3.4.4 Actions You Can Take While Standing Still | [[sword-world-rpg-complete-edition-section-chapter-3-3-4-4-actions-you-can-take-while-standing-still-b5b0aa90]] | 1167 statement(s), 5657 atom(s) |
+| Chapter 3: / 3.4.4 Actions You Can Take While Standing Still | [[sword-world-rpg-complete-edition-section-chapter-3-3-4-4-actions-you-can-take-while-standing-still-b5b0aa90]] | 136 statement(s), 186 atom(s) |

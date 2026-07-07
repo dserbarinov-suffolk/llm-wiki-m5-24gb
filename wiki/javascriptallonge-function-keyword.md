@@ -1,13 +1,13 @@
 ---
 page_id: javascriptallonge-function-keyword
 page_kind: concept
-summary: the function keyword: 23 statement(s) and 16 atom(s) from raw/javascriptallonge.pdf.
+summary: the function keyword: 22 statement(s) and 16 atom(s) from raw/javascriptallonge.pdf.
 page_family: topic-concept
 sources: raw/javascriptallonge.pdf
 updated: 2026-07-07
 domain: javascriptallonge
 category_path: concepts
-projection_coverage: topic-javascriptallonge-function-keyword@fe11d232ddf139de5bb32e33e4251525
+projection_coverage: topic-javascriptallonge-function-keyword@0151e47f9c7d0d1a7a0719df379af6ad
 ---
 
 # the function keyword
@@ -49,10 +49,6 @@ What [[javascriptallonge]] covers about the function keyword:
 - arguments always contains all of the arguments passed to a function, regardless of how many are declared. Therefore, we can write plus like this: _(javascriptallonge.pdf (source-range-c98ab3e6-00597))_
 
 - The most common use of the arguments binding is to build functions that can take a variable number of arguments. We'll see it used in many of the recipes, starting off with partial application and ellipses. _(javascriptallonge.pdf (source-range-c98ab3e6-00602))_
-
-### Plain Old JavaScript Objects / literal object syntax
-
-- It is very common to associate named function expressions with keys in objects, and there is a 'compact method syntax' for binding named function expressions to keywords: _(javascriptallonge.pdf (source-range-c98ab3e6-01070))_
 
 
 ## Technical atoms
@@ -333,7 +329,6 @@ howMany('sharks', 'are', 'apex', 'predators')
 ### Shared claims
 
 - [[javascriptallonge-ecmascript]] - shared statements: Ecmascript shares source evidence from And also: / Naming Functions / the function keyword: JavaScript does have a syntax for naming a function, we use the function keyword. Until ECMAScript 2015 was created, function was the usual syntax for writing functions. (1 shared statement(s))
-- [[javascriptallonge-partial-application]] - shared statements: partial application shares source evidence from And also: / Magic Names / the function keyword: The most common use of the arguments binding is to build functions that can take a variable number of arguments. We'll see it used in many of the recipes, starting o ... [truncated] (1 shared statement(s))
 
 ## Source
 

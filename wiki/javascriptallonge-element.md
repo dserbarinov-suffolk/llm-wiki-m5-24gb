@@ -7,7 +7,7 @@ sources: raw/javascriptallonge.pdf
 updated: 2026-07-07
 domain: javascriptallonge
 category_path: concepts
-projection_coverage: topic-javascriptallonge-element@a7ee7906ab28faba3cb300140d229d67
+projection_coverage: topic-javascriptallonge-element@4399bf215ddcf36ad6ace72a57610700
 ---
 
 # Element
@@ -91,80 +91,7 @@ What [[javascriptallonge]] covers about element:
 
 ## Technical atoms
 
-### Technical frame 1: Composing and Decomposing Data / Arrays and Destructuring Arguments / element references
-
-**Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-00816))_
-
-> As we can see, JavaScript Arrays are zero-based 56 .
-
-**Atom:** _(javascriptallonge.pdf (source-range-c98ab3e6-00815))_
-
-<a id="atom-technical-atom-fd4ca2610d355e62"></a>
-```
-const oneTwoThree = ["one", "two", "three"];
-oneTwoThree[0]
-//=> 'one'
-oneTwoThree[1]
-//=> 'two'
-oneTwoThree[2]
-//=> 'three'
-```
-
-### Technical frame 2: Composing and Decomposing Data / Self-Similarity
-
-**Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-00872))_
-
-> Thanks to the parallel between array literals + spreads with destructuring + rests, we can also use the same rules to decompose lists:
-
-**Atom:** _(javascriptallonge.pdf (source-range-c98ab3e6-00871))_
-
-<a id="atom-technical-atom-51aa4003a2265bab"></a>
-```
-[]
-//=> []
-["baz", ...[]]
-//=> ["baz"]
-["bar", ...["baz"]]
-//=> ["bar","baz"]
-["foo", ...["bar", "baz"]]
-//=> ["foo","bar","baz"]
-```
-
-### Technical frame 3: Composing and Decomposing Data / Self-Similarity / mapping
-
-**Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-00910))_
-
-> This specific case of linear recursion is called 'mapping,' and it is not necessary to constantly write out the same pattern again and again. Functions can take functions as arguments, so let's 'extract' the thing to do to each element and separate it from the business of taking an array apart, doing the thing, and putting the array back together.
-
-**Atom:** _(javascriptallonge.pdf (source-range-c98ab3e6-00909))_
-
-<a id="atom-technical-atom-44d7051ae602810d"></a>
-```
-const truthyAll = ([first, ...rest]) => first === undefined
-? []
-: [!!first, ...truthyAll(rest)];
-truthyAll([null, true, 25, false, "foo"])
-//=> [false,true,true,false,true]
-```
-
-### Technical frame 4: Garbage, Garbage Everywhere / some history
-
-**Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01021))_
-
-> This is a Linked List 68 , it's just that those early Lispers used the names car and cdr after the hardware instructions, whereas today we use words like data and reference . But it works the same way: If we want the head of a list, we call car on it:
-
-**Atom:** _(javascriptallonge.pdf (source-range-c98ab3e6-01015))_
-
-<a id="atom-technical-atom-5f9b1798e734d975"></a>
-```
-const cons = (a, d) => [a, d],
-car
-= ([a, d]) => a,
-cdr
-= ([a, d]) => d;
-```
-
-### Technical frame 5: Garbage, Garbage Everywhere / some history
+### Technical frame 1: Garbage, Garbage Everywhere / some history
 
 **Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01026))_
 
@@ -178,7 +105,7 @@ cdr(oneToFive)
 //=> [2,[3,[4,[5,null]]]]
 ```
 
-### Technical frame 6: Garbage, Garbage Everywhere / so why arrays
+### Technical frame 2: Garbage, Garbage Everywhere / so why arrays
 
 **Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01036))_
 
@@ -189,7 +116,7 @@ cdr(oneToFive)
 <a id="atom-technical-atom-557e4bd3a4b86aac"></a>
 > We have avoided discussing rebinding and mutating values, but if we want to change elements of our lists, the naïve linked list implementation suffers as well: When we take the cdr of a linked list, we are sharing the elements.
 
-### Technical frame 7: Copy on Write
+### Technical frame 3: Copy on Write
 
 **Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01207))_
 
@@ -200,7 +127,7 @@ cdr(oneToFive)
 <a id="atom-technical-atom-b34cb1ee5a282e9c"></a>
 > The consequence of this is that if you have an array, and you take it's 'rest,' your 'child' array is a copy of the elements of the parent array.
 
-### Technical frame 8: Copy on Write
+### Technical frame 4: Copy on Write
 
 **Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01207))_
 
@@ -211,25 +138,7 @@ cdr(oneToFive)
 <a id="atom-technical-atom-575252d5f4b2c744"></a>
 > Whereas if you have a linked list, and you take it's 'rest,' your 'child' list shares its nodes with the 'parent' list.
 
-### Technical frame 9: Copy on Write / Functional Iterators
-
-**Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01251))_
-
-> The nice thing about this is that the definition for arraySum mostly concerns itself with summing, and not with traversing over a collection of data. But it still relies on foldArrayWith , so it can only sum arrays.
-
-**Atom:** _(javascriptallonge.pdf (source-range-c98ab3e6-01248))_
-
-<a id="atom-technical-atom-ee8aba9a9f143b13"></a>
-```
-const arraySum = ([first, ...rest], accumulator = 0) =>
-first === undefined
-? accumulator
-: arraySum(rest, first + accumulator)
-arraySum([1, 4, 9, 16, 25])
-//=> 55
-```
-
-### Technical frame 10: Copy on Write / Functional Iterators / iterating
+### Technical frame 5: Copy on Write / Functional Iterators / iterating
 
 **Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01263))_
 
@@ -250,69 +159,7 @@ arraySum([1, 4, 9, 16, 25])
 //=> 55
 ```
 
-### Technical frame 11: Copy on Write / Functional Iterators / unfolding and laziness
-
-**Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01284))_
-
-> How about the squares of the first five odd numbers? We'll need an iterator that produces odd numbers. We can write that directly:
-
-**Atom:** _(javascriptallonge.pdf (source-range-c98ab3e6-01283))_
-
-<a id="atom-technical-atom-08b7194d0deda5eb"></a>
-```
-const take = (iterator, numberToTake) => {
-let count = 0;
-return () => {
-if (++count <= numberToTake) {
-return iterator();
-} else {
-return {done: true};
-}
-};
-};
-const toArray = (iterator) => {
-let eachIteration,
-array = [];
-while ((eachIteration = iterator(), !eachIteration.done)) {
-array.push(eachIteration.value);
-}
-return array;
-}
-toArray(take(FibonacciIterator(), 5))
-//=> [1, 1, 2, 3, 5]
-toArray(take(squares, 5))
-//=> [1, 4, 9, 16, 25]
-```
-
-### Technical frame 12: Copy on Write / Functional Iterators / bonus
-
-**Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01294))_
-
-> This is interesting, because it is lazy: It doesn't apply fn to every element in an iteration, just enough to find the first that passes the test. Whereas if we wrote something like:
-
-**Atom:** _(javascriptallonge.pdf (source-range-c98ab3e6-01293))_
-
-<a id="atom-technical-atom-da3ef04aced8adf4"></a>
-```
-const firstInIteration = (fn, iterator) =>
-take(filterIteratorWith(fn, iterator), 1);
-```
-
-### Technical frame 13: Copy on Write / Functional Iterators / bonus
-
-**Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01296))_
-
-> JavaScript would apply fn to every element. If array was very large, and fn very slow, this would consume a lot of unnecessary time. And if fn had some sort of side-effect, the program could be buggy.
-
-**Atom:** _(javascriptallonge.pdf (source-range-c98ab3e6-01295))_
-
-<a id="atom-technical-atom-305b589bdbaf0a36"></a>
-```
-const firstInArray = (fn, array) =>
-array.filter(fn)[0];
-```
-
-### Technical frame 14: Served by the Pot: Collections / Iteration and Iterables / iterables
+### Technical frame 6: Served by the Pot: Collections / Iteration and Iterables / iterables
 
 **Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01540))_
 
@@ -326,7 +173,7 @@ array.filter(fn)[0];
 //=> ["some squares", 1, 4, 9, 16, 25]
 ```
 
-### Technical frame 15: Served by the Pot: Collections / Iteration and Iterables / iterables
+### Technical frame 7: Served by the Pot: Collections / Iteration and Iterables / iterables
 
 **Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01540))_
 
@@ -340,197 +187,6 @@ const firstAndSecondElement = (first, second) =>
 ({first, second})
 firstAndSecondElement(...stack)
 //=> {"first":5,"second":10}
-```
-
-### Technical frame 16: Served by the Pot: Collections / Iteration and Iterables / ordered collections
-
-**Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01551))_
-
-> This is accomplished with our own collections by returning a brand new iterator every time we call [Symbol.iterator] , and ensuring that our iterators start at the beginning and work forward.
-
-**Atom:** _(javascriptallonge.pdf (source-range-c98ab3e6-01550))_
-
-<a id="atom-technical-atom-93d825a6af6fbea5"></a>
-```
-const abc = ["a", "b", "c"];
-for (const i of abc) {
-console.log(i)
-}
-//=>
-a
-b
-c
-for (const i of abc) {
-console.log(i)
-}
-//=>
-a
-b
-c
-```
-
-### Technical frame 17: Served by the Pot: Collections / Iteration and Iterables / operations on ordered collections
-
-**Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01579))_
-
-> like our other operations, rest preserves the ordered collection semantics of its argument.
-
-**Atom:** _(javascriptallonge.pdf (source-range-c98ab3e6-01578))_
-
-<a id="atom-technical-atom-4b232b3666097328"></a>
-```
-const first = (iterable) =>
-iterable[Symbol.iterator]().next().value;
-const rest = (iterable) =>
-({
-[Symbol.iterator] () {
-const iterator = iterable[Symbol.iterator]();
-iterator.next();
-return iterator;
-}
-});
-```
-
-### Technical frame 18: Served by the Pot: Collections / Generating Iterables / recursive iterators
-
-**Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01613))_
-
-> If you peel off isIterable and ignore the way that the iteration version uses [Symbol.iterator] and .next , we're left with the fact that the generating version calls itself recursively, and the iteration version maintains an explicit stack. In essence, both the generation and iteration implementations have stacks, but the generation version's stack is implicit , while the iteration version's stack is explicit .
-
-**Atom:** _(javascriptallonge.pdf (source-range-c98ab3e6-01608))_
-
-<a id="atom-technical-atom-22441ca6eac743d3"></a>
-```
-// Generation
-const isIterable = (something) =>
-!!something[Symbol.iterator];
-const generate = (iterable) => {
-for (let element of iterable) {
-if (isIterable(element)) {
-generate(element)
-}
-else {
-console.log(element)
-}
-}
-}
-generate([1, [2, [3, 4], 5]])
-//=>
-1
-2
-3
-4
-5
-```
-
-### Technical frame 19: Served by the Pot: Collections / Generating Iterables / yielding iterables
-
-**Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01710))_
-
-> append iterates over a collection of iterables, one element at a time. Things like arrays can be easily catenated, but append iterates lazily, so there's no need to construct intermediary results.
-
-**Atom:** _(javascriptallonge.pdf (source-range-c98ab3e6-01709))_
-
-<a id="atom-technical-atom-cf5f0292f04b4586"></a>
-```
-function * append (...iterables) {
-for (const iterable of iterables) {
-for (const element of iterable) {
-yield element;
-}
-}
-}
-const lyrics = append(["a", "b", "c"], ["one", "two", "three"], ["do", "re", "me\
-"]);
-for (const word of lyrics) {
-console.log(word);
-}
-//=>
-a
-b
-c
-one
-two
-three
-do
-re
-me
-```
-
-### Technical frame 20: Served by the Pot: Collections / Generating Iterables / yielding iterables
-
-**Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01710))_
-
-> append iterates over a collection of iterables, one element at a time. Things like arrays can be easily catenated, but append iterates lazily, so there's no need to construct intermediary results.
-
-**Atom:** _(javascriptallonge.pdf (source-range-c98ab3e6-01712))_
-
-<a id="atom-technical-atom-d77f5e63d004d0aa"></a>
-```
-function * append (...iterables) {
-for (const iterable of iterables) {
-yield * iterable;
-}
-}
-const lyrics = append(["a", "b", "c"], ["one", "two", "three"], ["do", "re", "me\
-"]);
-for (const word of lyrics) {
-console.log(word);
-}
-```
-
-### Technical frame 21: Served by the Pot: Collections / Generating Iterables / yielding iterables
-
-**Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01710))_
-
-> append iterates over a collection of iterables, one element at a time. Things like arrays can be easily catenated, but append iterates lazily, so there's no need to construct intermediary results.
-
-**Atom:** _(javascriptallonge.pdf (source-range-c98ab3e6-01713))_
-
-<a id="atom-technical-atom-4f414c5b2051fa87"></a>
-```
-//=>
-a
-b
-c
-one
-two
-thre
-do
-re
-```
-
-### Technical frame 22: Served by the Pot: Collections / Generating Iterables / yielding iterables
-
-**Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01710))_
-
-> append iterates over a collection of iterables, one element at a time. Things like arrays can be easily catenated, but append iterates lazily, so there's no need to construct intermediary results.
-
-**Atom:** _(javascriptallonge.pdf (source-range-c98ab3e6-01714))_
-
-<a id="atom-technical-atom-61b4cb84b60ebc91"></a>
-```
-const isIterable = (something) =>
-!!something[Symbol.iterator];
-function * tree (iterable) {
-for (const e of iterable) {
-if (isIterable(e)) {
-yield * tree(e);
-}
-else {
-yield e;
-}
-}
-};
-for (const i of tree([1, [2, [3, 4
-console.log(i);
-}
-//=>
-1
-2
-3
-4
-5
 ```
 
 

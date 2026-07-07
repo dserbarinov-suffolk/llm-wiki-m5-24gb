@@ -7,7 +7,7 @@ sources: raw/javascriptallonge.pdf
 updated: 2026-07-07
 domain: javascriptallonge
 category_path: concepts
-projection_coverage: topic-javascriptallonge-method@12528498626f071b3f9474937986cb9f
+projection_coverage: topic-javascriptallonge-method@acf891f7eb9a4296d8887250a27995e4
 ---
 
 # Method
@@ -538,7 +538,6 @@ Pair.from([1, 2, 3, 4, 5]).map(x => x * 2)
 ### Shared claims
 
 - [[javascriptallonge-evaluate]] - shared statements: Evaluate shares source evidence from Served by the Pot: Collections / Iteration and Iterables / iterables: The expression Symbol.iterator evaluates to a special symbol representing the name of the method that objects should use if they return an iterator object. (1 shared statement(s))
-- [[javascriptallonge-functional-iterator]] - shared statements: Functional Iterators shares source evidence from Served by the Pot: Collections / Generating Iterables: Let's consider how they work. Whether it's a simple functional iterator, or an iterable object with a .next() method, an iterator is something we call repeatedly unt ... [truncated] (1 shared statement(s))
 
 ## Source
 

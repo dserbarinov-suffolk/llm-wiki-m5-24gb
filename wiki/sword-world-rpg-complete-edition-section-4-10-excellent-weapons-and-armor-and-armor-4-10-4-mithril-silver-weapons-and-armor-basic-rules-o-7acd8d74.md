@@ -1,0 +1,30 @@
+---
+page_id: sword-world-rpg-complete-edition-section-4-10-excellent-weapons-and-armor-and-armor-4-10-4-mithril-silver-weapons-and-armor-basic-rules-o-7acd8d74
+page_kind: source
+summary: 4.10 Excellent Weapons and Armor / and Armor / 4.10.4 Mithril Silver Weapons and Armor / Basic Rules of Magic / 5.1.17 Special Holy Magic List / Rahda Special Holy Magic List: 0 source-backed entries and 0 atom(s) from raw/Sword World RPG - Complete Edition.pdf.
+page_family: section-reference
+sources: raw/Sword World RPG - Complete Edition.pdf
+updated: 2026-07-07
+domain: sword-world-rpg-complete-edition
+category_path: sources/sword-world-rpg-complete-edition/sections
+source_id: Sword World RPG - Complete Edition.pdf
+projection_coverage: section-sword-world-rpg-complete-edition-section-4-10-excellent-weapons-and-armor-and-armor-4-10-4-mithril-silver-weapons-and-armor-basic-rules-o-7acd8d74@878f7778a3126b25a400f5d1b372d464
+---
+
+# 4.10 Excellent Weapons and Armor / and Armor / 4.10.4 Mithril Silver Weapons and Armor / Basic Rules of Magic / 5.1.17 Special Holy Magic List / Rahda Special Holy Magic List
+
+From [[sword-world-rpg-complete-edition]].
+
+## Related pages
+
+### Source order
+
+- [[sword-world-rpg-complete-edition-section-4-10-excellent-weapons-and-armor-and-armor-4-10-4-mithril-silver-weapons-and-armor-basic-rules-o-f910fafd]] - previous source section: 4.10 Excellent Weapons and Armor / and Armor / 4.10.4 Mithril Silver Weapons and Armor / Basic Rules of Magic / 5.1.17 Special Holy Magic List / [ Divine Weapon ] (Spell Level=7)
+- [[sword-world-rpg-complete-edition-section-4-10-excellent-weapons-and-armor-and-armor-4-10-4-mithril-silver-weapons-and-armor-basic-rules-o-53edd159]] - next source section: 4.10 Excellent Weapons and Armor / and Armor / 4.10.4 Mithril Silver Weapons and Armor / Basic Rules of Magic / 5.1.17 Special Holy Magic List / Cha Za Special Holy Magic List [ Luck ]
+
+### Source structure
+
+- [[sword-world-rpg-complete-edition-section-4-10-excellent-weapons-and-armor-and-armor-4-10-4-mithril-silver-weapons-and-armor-basic-rules-o-3abf6557]] - broader source section: 4.10 Excellent Weapons and Armor / and Armor / 4.10.4 Mithril Silver Weapons and Armor / Basic Rules of Magic / 5.1.17 Special Holy Magic List
+- [[sword-world-rpg-complete-edition-section-4-10-excellent-weapons-and-armor-and-armor-4-10-4-mithril-silver-weapons-and-armor-basic-rules-o-293dc030]] - narrower source section: 4.10 Excellent Weapons and Armor / and Armor / 4.10.4 Mithril Silver Weapons and Armor / Basic Rules of Magic / 5.1.17 Special Holy Magic List / Rahda Special Holy Magic List / [ Legend ] (Spell Level=7)
+- [[sword-world-rpg-complete-edition-section-4-10-excellent-weapons-and-armor-and-armor-4-10-4-mithril-silver-weapons-and-armor-basic-rules-o-8b6ff1e5]] - narrower source section: 4.10 Excellent Weapons and Armor / and Armor / 4.10.4 Mithril Silver Weapons and Armor / Basic Rules of Magic / 5.1.17 Special Holy Magic List / Rahda Special Holy Magic List / [ Inspiration ] (Spell Level=3)
+- [[sword-world-rpg-complete-edition-section-4-10-excellent-weapons-and-armor-and-armor-4-10-4-mithril-silver-weapons-and-armor-basic-rules-o-e6fec175]] - narrower source section: 4.10 Excellent Weapons and Armor / and Armor / 4.10.4 Mithril Silver Weapons and Armor / Basic Rules of Magic / 5.1.17 Special Holy Magic List / Rahda Special Holy Magic List / [ Weak Point ] (Spell Level=3)

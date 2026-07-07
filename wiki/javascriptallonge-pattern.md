@@ -7,7 +7,7 @@ sources: raw/javascriptallonge.pdf
 updated: 2026-07-07
 domain: javascriptallonge
 category_path: concepts
-projection_coverage: topic-javascriptallonge-pattern@5d8356083f4720a39f3167f864b4bf85
+projection_coverage: topic-javascriptallonge-pattern@e69292f87ab29b05eff99d6e17496bf2
 ---
 
 # Pattern
@@ -43,53 +43,6 @@ What [[javascriptallonge]] covers about pattern:
 ### Served by the Pot: Collections / Generating Iterables / generators and iterables
 
 - This pattern is encouraged, so much so that JavaScript provides a concise syntax for writing generator methods for objects: _(javascriptallonge.pdf (source-range-c98ab3e6-01682))_
-
-
-## Technical atoms
-
-### Technical frame 1: And also: / That Constant Coffee Craving / inside-out
-
-**Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-00391))_
-
-> Everything else is encapsulated in its body. That's how it should be, naming PI is its concern, not ours. The other formulation:
-
-**Atom:** _(javascriptallonge.pdf (source-range-c98ab3e6-00390))_
-
-<a id="atom-technical-atom-c7f7381982c5437e"></a>
-```
-(diameter) =>
-// ...
-```
-
-### Technical frame 2: And also: / Building Blocks / composition
-
-**Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-00572))_
-
-> In the recipes, we'll look at a decorator called once: It ensures that a function can only be executed once. Thereafter, it does nothing. Once is useful for ensuring that certain side effects are not repeated. We'll also look at maybe: It ensures that a function does nothing if it is given nothing (like null or undefined ) as an argument.
-
-**Atom:** _(javascriptallonge.pdf (source-range-c98ab3e6-00573))_
-
-<a id="atom-technical-atom-4f6b1bb5af0460d2"></a>
-> Of course, you needn't use combinators to implement either of these ideas, you can use if statements.
-
-### Technical frame 3: Served by the Pot: Collections / Generating Iterables / generators and iterables
-
-**Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01684))_
-
-> This object declares a [Symbol.iterator] function that makes it iterable. Because it's declared *[Symbol.iterator] , it's a generator instead of an iterator.
-
-**Atom:** _(javascriptallonge.pdf (source-range-c98ab3e6-01683))_
-
-<a id="atom-technical-atom-54530c82c657b597"></a>
-```
-const ThreeNumbers = {
-*[Symbol.iterator] () {
-yield 1;
-yield 2;
-yield 3
-}
-}
-```
 
 
 ## Related pages

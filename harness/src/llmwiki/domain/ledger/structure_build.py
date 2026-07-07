@@ -120,6 +120,7 @@ def _add_heading(
         open_headings[-1].number_path, number_path
     ):
         open_headings.pop()
+    _bind_top_level_unnumbered_container(open_headings, number_path)
     if (
         open_headings
         and canonical_label
@@ -165,6 +166,18 @@ def _add_heading(
             source_order=order,
         )
     node_for_segment[segment.segment_id] = node_id
+
+
+def _bind_top_level_unnumbered_container(
+    open_headings: list[_OpenHeading], number_path: tuple[int, ...]
+) -> None:
+    if not open_headings or len(number_path) < 3:
+        return
+    current = open_headings[-1]
+    if current.number_path or current.depth != 1 or current.is_number_marker:
+        return
+    inferred_parent = number_path[:-1]
+    open_headings[-1] = replace(current, number_path=inferred_parent)
 
 
 def _heading_depth(segment: SourceSegment) -> int:

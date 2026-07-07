@@ -56,6 +56,7 @@ def render_topic_page(
 
     body.add("## Statements\n\n")
     rendered_entry_ids: set[str] = set()
+    selected_block_ids: set[str] = set()
     if projection_context is not None:
         current_section_label = ""
         blocks = projection_context.blocks_for_entries(topic.entry_ids)
@@ -70,23 +71,25 @@ def render_topic_page(
                 current_section_label = block.section_label
             span = body.add(f"{evidence_block_line(block)}\n\n")
             rendered_entry_ids.update(selected)
+            selected_block_ids.add(block.evidence_block_id)
             entries.append(
                 _coverage(wiki_page_locator, "projected-evidence-block", span, selected=selected)
             )
-    for entry_id in topic.entry_ids:
-        if entry_id in rendered_entry_ids:
-            continue
-        entry = ledger.entry(entry_id)
-        if entry is None or not (entry.normalized_text or entry.source_text).strip():
-            continue
-        if not entry_can_render_standalone(entry):
-            continue
-        text = clean_statement(entry.normalized_text or entry.source_text)
-        citation = f"{entry.source_locator} ({entry.source_range_id})"
-        span = body.add(f"- {text} _({citation})_\n")
-        entries.append(
-            _coverage(wiki_page_locator, "generated-page-claim", span, selected=(entry_id,))
-        )
+    if not policy.is_broad_topic:
+        for entry_id in topic.entry_ids:
+            if entry_id in rendered_entry_ids:
+                continue
+            entry = ledger.entry(entry_id)
+            if entry is None or not (entry.normalized_text or entry.source_text).strip():
+                continue
+            if not entry_can_render_standalone(entry):
+                continue
+            text = clean_statement(entry.normalized_text or entry.source_text)
+            citation = f"{entry.source_locator} ({entry.source_range_id})"
+            span = body.add(f"- {text} _({citation})_\n")
+            entries.append(
+                _coverage(wiki_page_locator, "generated-page-claim", span, selected=(entry_id,))
+            )
 
     rendered_atom_ids: set[str] = set()
     all_atom_frames = (
@@ -99,16 +102,22 @@ def render_topic_page(
         for frame in all_atom_frames
         if projection_context is not None
         and projection_context.evidence_block(frame.context_block_id) is not None
+        and (not policy.is_broad_topic or frame.context_block_id in selected_block_ids)
     )
     frame_atom_ids = {atom_id for frame in atom_frames for atom_id in frame.atom_ids}
     matcher = topic_matcher(topic.match_terms)
-    rendered_atoms = [
-        atom
-        for atom in (ledger.atom(a) for a in topic.atom_ids)
-        if atom is not None
-        and atom.technical_atom_id not in frame_atom_ids
-        and best_atom_context(ledger.atom_contexts(atom.technical_atom_id), matcher) is not None
-    ]
+    rendered_atoms = (
+        []
+        if policy.is_broad_topic
+        else [
+            atom
+            for atom in (ledger.atom(a) for a in topic.atom_ids)
+            if atom is not None
+            and atom.technical_atom_id not in frame_atom_ids
+            and best_atom_context(ledger.atom_contexts(atom.technical_atom_id), matcher)
+            is not None
+        ]
+    )
     if atom_frames or rendered_atoms:
         body.add("\n## Technical atoms\n\n")
         for index, frame in enumerate(atom_frames, start=1):
@@ -128,13 +137,18 @@ def render_topic_page(
                     atom_id=selected_atoms[0],
                 )
             )
-        rendered_atoms = [
-            atom
-            for atom in (ledger.atom(a) for a in topic.atom_ids)
-            if atom is not None and atom.technical_atom_id not in rendered_atom_ids
-            and best_atom_context(ledger.atom_contexts(atom.technical_atom_id), matcher)
-            is not None
-        ]
+        rendered_atoms = (
+            []
+            if policy.is_broad_topic
+            else [
+                atom
+                for atom in (ledger.atom(a) for a in topic.atom_ids)
+                if atom is not None
+                and atom.technical_atom_id not in rendered_atom_ids
+                and best_atom_context(ledger.atom_contexts(atom.technical_atom_id), matcher)
+                is not None
+            ]
+        )
         for index, atom in enumerate(rendered_atoms, start=len(atom_frames) + 1):
             context = best_atom_context(ledger.atom_contexts(atom.technical_atom_id), matcher)
             if context is None:

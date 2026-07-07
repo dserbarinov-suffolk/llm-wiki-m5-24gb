@@ -7,7 +7,7 @@ sources: raw/javascriptallonge.pdf
 updated: 2026-07-07
 domain: javascriptallonge
 category_path: concepts
-projection_coverage: topic-javascriptallonge-string@8e2f315dcbe81dcf76b48f7f1691d5cf
+projection_coverage: topic-javascriptallonge-string@11fa88aece5dbf122a1015bcb9f48cde
 ---
 
 # String
@@ -47,63 +47,7 @@ What [[javascriptallonge]] covers about string:
 
 ## Technical atoms
 
-### Technical frame 1: Prelude: Values and Expressions over Coffee / values are expressions
-
-**Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-00118))_
-
-> Second, sometimes, the cups are of the same type-perhaps two espresso cups-but they have different contents. One holds a single, one a double. This corresponds to comparing two JavaScript values that have the same type but different 'content.' For example, the number 5 is not the same thing as the number 2 .
-
-**Atom:** _(javascriptallonge.pdf (source-range-c98ab3e6-00117))_
-
-<a id="atom-technical-atom-583a408c77323f15"></a>
-```
-2 === '2'
-//=> false
-true !== 'true'
-//=> true
-```
-
-### Technical frame 2: Prelude: Values and Expressions over Coffee / values are expressions / value types
-
-**Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-00124))_
-
-> Note well what is happening with these examples: Even when we obtain a string, number, or boolean as the result of evaluating an expression, it is identical to another value of the same type with the same 'content.' Strings, numbers, and booleans are examples of what JavaScript calls 'value' or 'primitive' types. We'll use both terms interchangeably.
-
-**Atom:** _(javascriptallonge.pdf (source-range-c98ab3e6-00123))_
-
-<a id="atom-technical-atom-1e1cd89b82275076"></a>
-```
-2 + 2 === 4
-//=> true
-(2 + 2 === 4) === (2 !== 5)
-//=> true
-```
-
-### Technical frame 3: Prelude: Values and Expressions over Coffee / values are expressions / value types
-
-**Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-00126))_
-
-> Cafe Macchiato is also a fine drink, especially when following up on the fortunes of the Azzurri or the standings in the Giro d'Italia
-
-**Atom:** _(javascriptallonge.pdf (source-range-c98ab3e6-00125))_
-
-<a id="atom-technical-atom-63d3491cbf82f2a9"></a>
-> So even if you have two cups of the same type, and their contents are the same, you can still distinguish between them.
-
-### Technical frame 4: The first sip: Basic Functions / As Little As Possible About Functions, But No Less
-
-**Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-00164))_
-
-> This is a function that is applied to no values and returns 0 . Let's verify that our function is a value like all others:
-
-**Atom:** _(javascriptallonge.pdf (source-range-c98ab3e6-00163))_
-
-<a id="atom-technical-atom-55063c246fc08fa6"></a>
-```
-() => 0
-```
-
-### Technical frame 5: A Warm Cup: Basic Strings and Quasi-Literals
+### Technical frame 1: A Warm Cup: Basic Strings and Quasi-Literals
 
 **Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01475))_
 
@@ -115,22 +59,6 @@ true !== 'true'
 ```
 'fu' + 'bar'
 //=> 'fubar'
-```
-
-### Technical frame 6: A Warm Cup: Basic Strings and Quasi-Literals / quasi-literals
-
-**Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01479))_
-
-> Quasi-literals go much further. A quasi-literal can contain an expression to be evaluated. Old-school lispers call this 'unquoting,' the more contemporary term is 'interpolation.' An unquoted expression is inserted in a quasi-literal with ${expression} . The expression is evaluated, and the result is coerced to a string, then inserted in the quasi-string.
-
-**Atom:** _(javascriptallonge.pdf (source-range-c98ab3e6-01478))_
-
-<a id="atom-technical-atom-852bc8ae09d13507"></a>
-```
-`foobar`
-//=> 'foobar'
-`fizz` + `buzz`
-//=> 'fizzbuzz'
 ```
 
 

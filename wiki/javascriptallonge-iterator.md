@@ -7,7 +7,7 @@ sources: raw/javascriptallonge.pdf
 updated: 2026-07-07
 domain: javascriptallonge
 category_path: concepts
-projection_coverage: topic-javascriptallonge-iterator@213d02c29c1d7c34c470c0ed756cc0c1
+projection_coverage: topic-javascriptallonge-iterator@c25bd92ffc2b4a8d7dea01f4db07af46
 ---
 
 # Iterator
@@ -100,108 +100,10 @@ What [[javascriptallonge]] covers about iterator:
 
 - However, our solution inverts the control. We aren't calling our function with moves, it's calling us. With iterators, we wrote a generator function using function * , and then used yield to yield values while maintaining the implicit state of the generator's control flow. _(javascriptallonge.pdf (source-range-c98ab3e6-01887))_
 
-- The iterator resumes execution from the point where it yielded the last value. _(javascriptallonge.pdf (source-range-c98ab3e6-01667))_
-- With an iterator, we can call them the producer and the consumer . _(javascriptallonge.pdf (source-range-c98ab3e6-01672))_
-- The iterator is the producer, and the code that iterates over it is the consumer. _(javascriptallonge.pdf (source-range-c98ab3e6-01672))_
 
 ## Technical atoms
 
 ### Technical frame 1: Copy on Write / Functional Iterators / unfolding and laziness
-
-**Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01278))_
-
-> A function that starts with a seed and expands it into a data structure is called an unfold . It's the opposite of a fold. It's possible to write a generic unfold mechanism, but let's pass on to what we can do with unfolded iterators.
-
-**Atom:** _(javascriptallonge.pdf (source-range-c98ab3e6-01275))_
-
-<a id="atom-technical-atom-673ce6b311a6792f"></a>
-```
-const NumberIterator = (number = 0) =>
-() => ({ done: false, value: number++ })
-fromOne = NumberIterator(1);
-fromOne().value;
-//=> 1
-fromOne().value;
-//=> 2
-fromOne().value;
-//=> 3
-fromOne().value;
-//=> 4
-fromOne().value;
-//=> 5
-```
-
-### Technical frame 2: Copy on Write / Functional Iterators / unfolding and laziness
-
-**Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01282))_
-
-> This business of going on forever has some drawbacks. Let's introduce an idea: A function that takes an iterator and returns another iterator. We can start with take , an easy function that returns an iterator that only returns a fixed number of elements:
-
-**Atom:** _(javascriptallonge.pdf (source-range-c98ab3e6-01280))_
-
-<a id="atom-technical-atom-313ccf3036ff0bee"></a>
-```
-const mapIteratorWith = (fn, iterator) =>
-() => {
-const {done, value} = iterator();
-return ({done, value: done ? undefined : fn(value)});
-}
-const squares = mapIteratorWith((x) => x * x, NumberIterator(1));
-squares().value
-//=> 1
-squares().value
-```
-
-### Technical frame 3: Copy on Write / Functional Iterators / unfolding and laziness
-
-**Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01282))_
-
-> This business of going on forever has some drawbacks. Let's introduce an idea: A function that takes an iterator and returns another iterator. We can start with take , an easy function that returns an iterator that only returns a fixed number of elements:
-
-**Atom:** _(javascriptallonge.pdf (source-range-c98ab3e6-01281))_
-
-<a id="atom-technical-atom-b8970c6b291f5037"></a>
-```
-//=> 4
-squares().value
-//=> 9
-```
-
-### Technical frame 4: Copy on Write / Functional Iterators / unfolding and laziness
-
-**Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01284))_
-
-> How about the squares of the first five odd numbers? We'll need an iterator that produces odd numbers. We can write that directly:
-
-**Atom:** _(javascriptallonge.pdf (source-range-c98ab3e6-01283))_
-
-<a id="atom-technical-atom-08b7194d0deda5eb"></a>
-```
-const take = (iterator, numberToTake) => {
-let count = 0;
-return () => {
-if (++count <= numberToTake) {
-return iterator();
-} else {
-return {done: true};
-}
-};
-};
-const toArray = (iterator) => {
-let eachIteration,
-array = [];
-while ((eachIteration = iterator(), !eachIteration.done)) {
-array.push(eachIteration.value);
-}
-return array;
-}
-toArray(take(FibonacciIterator(), 5))
-//=> [1, 1, 2, 3, 5]
-toArray(take(squares, 5))
-//=> [1, 4, 9, 16, 25]
-```
-
-### Technical frame 5: Copy on Write / Functional Iterators / unfolding and laziness
 
 **Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01289))_
 
@@ -214,7 +116,7 @@ toArray(take(squares, 5))
 const odds = () => {
 ```
 
-### Technical frame 6: Copy on Write / Functional Iterators / unfolding and laziness
+### Technical frame 2: Copy on Write / Functional Iterators / unfolding and laziness
 
 **Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01289))_
 
@@ -236,7 +138,7 @@ toArray(take(squareOf(odds()), 5))
 //=> [1, 9, 25, 49, 81]
 ```
 
-### Technical frame 7: Copy on Write / Functional Iterators / unfolding and laziness
+### Technical frame 3: Copy on Write / Functional Iterators / unfolding and laziness
 
 **Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01289))_
 
@@ -258,101 +160,7 @@ toArray(take(squareOf(oddsOf(NumberIterator(1))), 5))
 //=> [1, 9, 25, 49, 81]
 ```
 
-### Technical frame 8: Served by the Pot: Collections / Iteration and Iterables / iterables
-
-**Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01532))_
-
-> The for...of loop works directly with any object that is iterable , meaning it works with any object that has a Symbol.iterator method that returns an object iterator. Here's another linked list, this one is iterable:
-
-**Atom:** _(javascriptallonge.pdf (source-range-c98ab3e6-01530))_
-
-<a id="atom-technical-atom-9f69b9dd89759b90"></a>
-```
-const Stack3 = () =>
-({
-array: [],
-index: -1,
-push (value) {
-return this.array[this.index += 1] = value;
-},
-pop () {
-const value = this.array[this.index];
-this.array[this.index] = undefined;
-if (this.index >= 0) {
-this.index -= 1
-}
-return value
-},
-isEmpty () {
-return this.index < 0
-},
-[Symbol.iterator] () {
-let iterationIndex = this.index;
-return {
-next () {
-if (iterationIndex > this.index) {
-iterationIndex = this.index;
-}
-if (iterationIndex < 0) {
-return {done: true};
-}
-else {
-return {done: false, value: this.array[iterationIndex--]}
-}
-}
-}
-}
-});
-const stack = Stack3();
-```
-
-### Technical frame 9: Served by the Pot: Collections / Iteration and Iterables / iterables
-
-**Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01534))_
-
-> As we can see, we can use for...of with linked lists just as easily as with stacks. And there's one more thing: You recall that the spread operator ( ... ) can spread the elements of an array in an array literal or as parameters in a function invocation.
-
-**Atom:** _(javascriptallonge.pdf (source-range-c98ab3e6-01533))_
-
-<a id="atom-technical-atom-20470d41caf14e2c"></a>
-```
-const EMPTY = {
-isEmpty: () => true
-};
-const isEmpty = (node) => node === EMPTY;
-const Pair1 = (first, rest = EMPTY) =>
-({
-first,
-rest,
-isEmpty () { return false },
-[Symbol.iterator] () {
-let currentPair = this;
-return {
-next () {
-if (currentPair.isEmpty()) {
-return {done: true}
-}
-else {
-const value = currentPair.first;
-currentPair = currentPair.rest;
-return {done: false, value}
-}
-}
-}
-}
-});
-const list = (...elements) => {
-const [first, ...rest] = elements;
-return elements.length === 0
-? EMPTY
-: Pair1(first, list(...rest))
-}
-const someSquares = list(1, 4, 9, 16, 25);
-iterableSum(someSquares)
-//=> 55
-```
-
-### Technical frame 10: Served by the Pot: Collections / Iteration and Iterables / ordered collections
+### Technical frame 4: Served by the Pot: Collections / Iteration and Iterables / ordered collections
 
 **Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01554))_
 
@@ -388,7 +196,7 @@ console.log(i)
 ...
 ```
 
-### Technical frame 11: Served by the Pot: Collections / Iteration and Iterables / operations on ordered collections
+### Technical frame 5: Served by the Pot: Collections / Iteration and Iterables / operations on ordered collections
 
 **Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01560))_
 
@@ -412,156 +220,7 @@ return ({done, value: done ? undefined : fn(value)});
 });
 ```
 
-### Technical frame 12: Served by the Pot: Collections / Iteration and Iterables / operations on ordered collections
-
-**Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01563))_
-
-> Numbers is an ordered collection. We invoke mapWith((x) => 2 * x, Numbers) and get Evens . Evens works just as if we'd written this:
-
-**Atom:** _(javascriptallonge.pdf (source-range-c98ab3e6-01562))_
-
-<a id="atom-technical-atom-c1f35f3a09f6c9fd"></a>
-```
-const Evens = mapWith((x) => 2 * x, Numbers);
-for (const i of Evens) {
-console.log(i)
-}
-//=>
-0
-2
-4
-...
-for (const i of Evens) {
-console.log(i)
-}
-//=>
-0
-2
-4
-...
-```
-
-### Technical frame 13: Served by the Pot: Collections / Iteration and Iterables / operations on ordered collections
-
-**Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01565))_
-
-> Every time we write for (const i of Evens) , JavaScript calls Evens[Symbol.iterator]() . That in turns means it executes const iterator = Numbers[Symbol.iterator](); every time we write for (const i of Evens) , and that means that iterator starts at the beginning of Numbers .
-
-**Atom:** _(javascriptallonge.pdf (source-range-c98ab3e6-01564))_
-
-<a id="atom-technical-atom-b4aac75a2c3d116b"></a>
-```
-const Evens =
-{
-[Symbol.iterator] () {
-const iterator = Numbers[Symbol.iterator]();
-return {
-next () {
-const {done, value} = iterator.next();
-return ({done, value: done ? undefined : 2 *value});
-}
-}
-}
-};
-```
-
-### Technical frame 14: Served by the Pot: Collections / Generating Iterables
-
-**Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01599))_
-
-> Well, we've written our iterator as a server . It waits until given a request, and then it returns exactly one item. Then it waits for the next request. There is no concept of pushing numbers out from the iterator, just waiting until a number is pulled out of the iterator by whatever code consumes numbers.
-
-**Atom:** _(javascriptallonge.pdf (source-range-c98ab3e6-01596))_
-
-<a id="atom-technical-atom-8ca85058badf52a7"></a>
-> Iterators have to arrange its own state such that when you call them, they compute and return the next item.
-
-### Technical frame 15: Served by the Pot: Collections / Generating Iterables
-
-**Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01599))_
-
-> Well, we've written our iterator as a server . It waits until given a request, and then it returns exactly one item. Then it waits for the next request. There is no concept of pushing numbers out from the iterator, just waiting until a number is pulled out of the iterator by whatever code consumes numbers.
-
-**Atom:** _(javascriptallonge.pdf (source-range-c98ab3e6-01597))_
-
-<a id="atom-technical-atom-4277484b62aea6fa"></a>
-```
-const Numbers = {
-[Symbol.iterator]: () => {
-let n = 0;
-return {
-next: () =>
-({done: false, value: n++})
-}
-}
-};
-```
-
-### Technical frame 16: Served by the Pot: Collections / Generating Iterables
-
-**Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01604))_
-
-> They're of approximately equal complexity. So why bring up generation? Well, there are some collections that are much easier to generate than to iterate over. Let's look at one:
-
-**Atom:** _(javascriptallonge.pdf (source-range-c98ab3e6-01603))_
-
-<a id="atom-technical-atom-1f6966034b0883cb"></a>
-```
-// Iteration
-let n = 0;
-() =>
-({done: false, value: n++})
-// Generation
-let n = 0;
-while (true) {
-console.log(n++)
-}
-```
-
-### Technical frame 17: Served by the Pot: Collections / Generating Iterables / recursive iterators
-
-**Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01613))_
-
-> If you peel off isIterable and ignore the way that the iteration version uses [Symbol.iterator] and .next , we're left with the fact that the generating version calls itself recursively, and the iteration version maintains an explicit stack. In essence, both the generation and iteration implementations have stacks, but the generation version's stack is implicit , while the iteration version's stack is explicit .
-
-**Atom:** _(javascriptallonge.pdf (source-range-c98ab3e6-01612))_
-
-<a id="atom-technical-atom-b81e33caa69d1ec6"></a>
-```
-const isIterable = (something) =>
-!!something[Symbol.iterator];
-const treeIterator = (iterable) => {
-const iterators = [ iterable[Symbol.iterator]() ];
-return () => {
-while (!!iterators[0]) {
-const iterationResult = iterators[0].next();
-if (iterationResult.done) {
-iterators.shift();
-}
-else if (isIterable(iterationResult.value)) {
-iterators.unshift(iterationResult.value[Symbol.iterator]());
-}
-else {
-return iterationResult.value;
-}
-}
-return;
-}
-}
-const i = treeIterator([1, [2, [3, 4], 5]]);
-let n;
-while (n = i()) {
-console.log(n)
-}
-//=>
-1
-2
-3
-4
-5
-```
-
-### Technical frame 18: Served by the Pot: Collections / Generating Iterables / state machines
+### Technical frame 6: Served by the Pot: Collections / Generating Iterables / state machines
 
 **Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01623))_
 
@@ -595,23 +254,7 @@ fibonacci()
 34
 ```
 
-### Technical frame 19: Served by the Pot: Collections / Generating Iterables / javascript's generators
-
-**Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01637))_
-
-> When we invoke empty , we get an iterator with no elements. This makes sense, because empty never yields anything. We call its .next() method, but it's done immediately.
-
-**Atom:** _(javascriptallonge.pdf (source-range-c98ab3e6-01636))_
-
-<a id="atom-technical-atom-a6c4a93c2084a431"></a>
-```
-function * empty () {};
-empty().next()
-//=>
-{"done":true}
-```
-
-### Technical frame 20: Served by the Pot: Collections / Generating Iterables / javascript's generators
+### Technical frame 7: Served by the Pot: Collections / Generating Iterables / javascript's generators
 
 **Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01641))_
 
@@ -629,7 +272,7 @@ only("the lonely").next()
 {"done":false, value: "the lonely"}
 ```
 
-### Technical frame 21: Served by the Pot: Collections / Generating Iterables / javascript's generators
+### Technical frame 8: Served by the Pot: Collections / Generating Iterables / javascript's generators
 
 **Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01641))_
 
@@ -648,60 +291,7 @@ sixteen.next()
 {"done":true}
 ```
 
-### Technical frame 22: Served by the Pot: Collections / Generating Iterables / generators and iterables
-
-**Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01682))_
-
-> This pattern is encouraged, so much so that JavaScript provides a concise syntax for writing generator methods for objects:
-
-**Atom:** _(javascriptallonge.pdf (source-range-c98ab3e6-01679))_
-
-<a id="atom-technical-atom-7ca2d5da0f09f056"></a>
-> If we call our generator function more than once, we get new iterators.
-
-### Technical frame 23: Served by the Pot: Collections / Generating Iterables / generators and iterables
-
-**Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01682))_
-
-> This pattern is encouraged, so much so that JavaScript provides a concise syntax for writing generator methods for objects:
-
-**Atom:** _(javascriptallonge.pdf (source-range-c98ab3e6-01680))_
-
-<a id="atom-technical-atom-36671def13809600"></a>
-```
-const ThreeNumbers = {
-[Symbol.iterator]: function * () {
-yield 1;
-yield 2;
-yield 3
-}
-}
-for (const i of ThreeNumbers) {
-console.log(i);
-}
-//=>
-1
-2
-3
-[...ThreeNumbers]
-//=>
-[1,2,3]
-const iterator = ThreeNumbers[Symbol.iterator]();
-iterator.next()
-//=>
-{"done":false, value: 1}
-iterator.next()
-//=>
-{"done":false, value: 2}
-iterator.next()
-//=>
-{"done":false, value: 3}
-iterator.next()
-//=>
-{"done":true}
-```
-
-### Technical frame 24: Served by the Pot: Collections / Generating Iterables / generators and iterables
+### Technical frame 9: Served by the Pot: Collections / Generating Iterables / generators and iterables
 
 **Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01684))_
 
@@ -720,7 +310,7 @@ yield 3
 }
 ```
 
-### Technical frame 25: Served by the Pot: Collections / rewriting iterable operations
+### Technical frame 10: Served by the Pot: Collections / rewriting iterable operations
 
 **Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01726))_
 
@@ -737,42 +327,6 @@ const iterator = iterable[Symbol.iterator]();
 iterator.next();
 yield * iterator;
 }
-```
-
-### Technical frame 26: Interactive Generators / this seems familiar / interactive generators
-
-**Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-01893))_
-
-> Served by the Pot: Collections 260 } } break ; // ... } } const aNaughtsAndCrossesGame = generatorNaughtsAndCrosses(); We can then get the first move by calling .next() . Thereafter, we call .next(...) and pass in our moves (The very first call has to be .next() without any arguments, because the generator hasn't started yet. If we wanted to pass some state to the generator before it begins, we'd do that with parameters.): aNaughtsAndCrossesGame.next().value //=> 0 aNaughtsAndCrossesGame.next(1)
-
-**Atom:** _(javascriptallonge.pdf (source-range-c98ab3e6-01892))_
-
-<a id="atom-technical-atom-03b137678eb4ca24"></a>
-```
-function* generatorNaughtsAndCrosses () {
-const x1 = yield 0;
-switch (x1) {
-case 1:
-const x2 = yield 6;
-switch (x2) {
-case 2:
-case 4:
-case 5:
-case 7:
-case 8:
-yield 3;
-break;
-case 3:
-const x3 = yield 8;
-switch (x3) {
-case 2:
-case 5:
-case 7:
-yield 4;
-break;
-case 4:
-yield 7;
-break;
 ```
 
 
@@ -795,7 +349,7 @@ break;
 
 ### Topics
 
-- [[javascriptallonge-functional-iterator]] - narrower topic: Functional Iterators shares source evidence from Copy on Write / Functional Iterators / unfolding and laziness: Mapping and filtering iterators allows us to compose the parts we already have, rather than writing a tricky bit of code with ifs and whiles and boundary conditions.; Functional Iterators shares technical record from Copy on Write / Functional Iterators / unfolding and laziness: const NumberIterator = (number = 0) => () => ({ done: false, value: number++ }) fromOne = NumberIterator(1); fromOne().value; //=> 1 fromOne().value; //=> 2 fromOne( ... [truncated] (4 shared statement(s), 7 shared atom(s))
+- [[javascriptallonge-functional-iterator]] - narrower topic: Functional Iterators shares source evidence from Copy on Write / Functional Iterators / unfolding and laziness: Mapping and filtering iterators allows us to compose the parts we already have, rather than writing a tricky bit of code with ifs and whiles and boundary conditions.; Functional Iterators shares technical record from Copy on Write / Functional Iterators / unfolding and laziness: const NumberIterator = (number = 0) => () => ({ done: false, value: number++ }) fromOne = NumberIterator(1); fromOne().value; //=> 1 fromOne().value; //=> 2 fromOne( ... [truncated] (2 shared statement(s), 7 shared atom(s))
 
 ## Source
 

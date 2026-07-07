@@ -7,7 +7,7 @@ sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-07
 domain: sword-world-rpg-complete-edition
 category_path: concepts
-projection_coverage: topic-sword-world-rpg-complete-edition-10-mithril-silver-weapon@26c54abff0ed81cbc75a6b3f480c54b1
+projection_coverage: topic-sword-world-rpg-complete-edition-10-mithril-silver-weapon@0b7ca83dbe527ff76e27aedc227eff13
 ---
 
 # 10 Mithril Silver Weapon
@@ -16,7 +16,7 @@ What [[sword-world-rpg-complete-edition]] covers about 10 mithril silver weapon:
 
 ## Statements
 
-### Chapter 3: / 3.4.4 Actions You Can Take While Standing Still / Attacks From Monsters Against Characters / 4.10 Excellent Weapons and Armor / and Armor / 4.10.4 Mithril Silver Weapons and Armor
+### 4.10 Excellent Weapons and Armor / and Armor / 4.10.4 Mithril Silver Weapons and Armor
 
 - Mithril silver , also known as true silver , is produced in very few places in the world. Mithril silver is itself a mineral imbued with magic, and when processed, it gains power. However, the art of forging mithril silver was lost with the fall of the magical kingdom , so it has not been handed down to the present day. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01444))_
 
@@ -34,7 +34,7 @@ What [[sword-world-rpg-complete-edition]] covers about 10 mithril silver weapon:
 
 - It should be noted that, although this does not affect the numeric aspects of the game, mithril silver can be made to emit a variety of colors depending on how it's processed, and these colors will never fade. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01454))_
 
-### Chapter 3: / 3.4.4 Actions You Can Take While Standing Still / Attacks From Monsters Against Characters / 4.10 Excellent Weapons and Armor / and Armor / 4.10.4 Mithril Silver Weapons and Armor / Forger of Colors
+### 4.10 Excellent Weapons and Armor / and Armor / 4.10.4 Mithril Silver Weapons and Armor / Forger of Colors
 
 - The time of the ancient kingdom was a time of magical civilization far more advanced than today. In those days, people knew how to process mithril silver and draw out its true power. Dwarves in particular excelled in their craft, and powerful and beautiful mithril silver items made by dwarves can still be found in Alecrast even today. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01456))_
 
@@ -48,14 +48,14 @@ What [[sword-world-rpg-complete-edition]] covers about 10 mithril silver weapon:
 
 - Somska was also summoned and given mithril silver. Somska was also the one that the great lord relied on the most. "Somska, you are considered the greatest of your time, and with your skill, you can make all the colors of the world appear in one crown," he said. Somska silently accepted the lump of mithril silver and resigned his seat. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01462))_
 
-### Chapter 3: / 3.4.4 Actions You Can Take While Standing Still / Attacks From Monsters Against Characters / 4.10 Excellent Weapons and Armor / and Armor / 4.10.4 Mithril Silver Weapons and Armor / Basic Rules of Magic / 5.1.9 Magic Types
+### 4.10 Excellent Weapons and Armor / and Armor / 4.10.4 Mithril Silver Weapons and Armor / Basic Rules of Magic / 5.1.9 Magic Types
 
 - Weapons that have been given power by ancient magic, silver weapons, or mithril silver weapons are assumed to already have non-removable (see below) weapon enhancement magic cast on them. Therefore, that power cannot be nullified, so even if you cast new weapon enhancement magic, it'll be useless . _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01724))_
 
 
 ## Technical atoms
 
-### Technical frame 1: Chapter 3: / 3.4.4 Actions You Can Take While Standing Still / Attacks From Monsters Against Characters / 4.10 Excellent Weapons and Armor / and Armor / 4.10.4 Mithril Silver Weapons and Armor
+### Technical frame 1: 4.10 Excellent Weapons and Armor / and Armor / 4.10.4 Mithril Silver Weapons and Armor
 
 **Context:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01451))_
 
@@ -66,7 +66,7 @@ What [[sword-world-rpg-complete-edition]] covers about 10 mithril silver weapon:
 <a id="atom-technical-atom-c939199d146a433f"></a>
 > Mithril silver weapons can deal damage to monsters that normal weapons cannot harm.
 
-### Technical frame 2: Chapter 3: / 3.4.4 Actions You Can Take While Standing Still / Attacks From Monsters Against Characters / 4.10 Excellent Weapons and Armor / and Armor / 4.10.4 Mithril Silver Weapons and Armor
+### Technical frame 2: 4.10 Excellent Weapons and Armor / and Armor / 4.10.4 Mithril Silver Weapons and Armor
 
 **Context:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01454))_
 
@@ -82,8 +82,7 @@ What [[sword-world-rpg-complete-edition]] covers about 10 mithril silver weapon:
 
 ### Shared technical atoms
 
-- [[sword-world-rpg-complete-edition-attack-monster-character]] - shared statements and technical atoms: Attacks From Monsters Against Characters shares source evidence from Chapter 3: / 3.4.4 Actions You Can Take While Standing Still / Attacks From Monsters Against Characters / 4.10 Excellent Weapons and Armor / and Armor / 4.10.4 Mithril Silver Weapons and Armor: Mithril silver , also known as true silver , is produced in very few places in the world. Mithril silver is itself a mineral imbued with magic, and when processed, i ... [truncated]; Attacks From Monsters Against Characters shares technical record from Chapter 3: / 3.4.4 Actions You Can Take While Standing Still / Attacks From Monsters Against Characters / 4.10 Excellent Weapons and Armor / and Armor / 4.10.4 Mithril Silver Weapons and Armor: Mithril silver weapons can deal damage to monsters that normal weapons cannot harm. (21 shared statement(s), 2 shared atom(s))
-- [[sword-world-rpg-complete-edition-armor]] - shared statements and technical atoms: Armor shares source evidence from Chapter 3: / 3.4.4 Actions You Can Take While Standing Still / Attacks From Monsters Against Characters / 4.10 Excellent Weapons and Armor / and Armor / 4.10.4 Mithril Silver Weapons and Armor: If a character ever sees them, mithril silver weapons and armor are definitely a legacy from the era of the magical kingdom.; Armor shares technical record from Chapter 3: / 3.4.4 Actions You Can Take While Standing Still / Attacks From Monsters Against Characters / 4.10 Excellent Weapons and Armor / and Armor / 4.10.4 Mithril Silver Weapons and Armor: Mithril silver weapons can deal damage to monsters that normal weapons cannot harm. (4 shared statement(s), 2 shared atom(s))
+- [[sword-world-rpg-complete-edition-armor]] - shared statements and technical atoms: Armor shares source evidence from 4.10 Excellent Weapons and Armor / and Armor / 4.10.4 Mithril Silver Weapons and Armor: If a character ever sees them, mithril silver weapons and armor are definitely a legacy from the era of the magical kingdom.; Armor shares technical record from 4.10 Excellent Weapons and Armor / and Armor / 4.10.4 Mithril Silver Weapons and Armor: Mithril silver weapons can deal damage to monsters that normal weapons cannot harm. (4 shared statement(s), 2 shared atom(s))
 
 ## Source
 

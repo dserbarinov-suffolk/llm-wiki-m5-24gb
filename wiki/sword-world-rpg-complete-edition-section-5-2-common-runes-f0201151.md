@@ -8,7 +8,7 @@ updated: 2026-07-07
 domain: sword-world-rpg-complete-edition
 category_path: sources/sword-world-rpg-complete-edition/sections
 source_id: Sword World RPG - Complete Edition.pdf
-projection_coverage: section-sword-world-rpg-complete-edition-section-5-2-common-runes-f0201151@39e9a64f3d22a4296ec5e9023b118fae
+projection_coverage: section-sword-world-rpg-complete-edition-section-5-2-common-runes-f0201151@dde1de5e713eda535b22b9fc7ff429c7
 ---
 
 # 5.2 Common Runes
@@ -19,7 +19,7 @@ From [[sword-world-rpg-complete-edition]].
 
 ### Source order
 
-- [[sword-world-rpg-complete-edition-section-5-1-17-special-holy-magic-list-3abf6557]] - previous source section: 5.1.17 Special Holy Magic List
+- [[sword-world-rpg-complete-edition-section-4-10-excellent-weapons-and-armor-6f861318]] - previous source section: 4.10 Excellent Weapons and Armor
 
 ## Statements
 

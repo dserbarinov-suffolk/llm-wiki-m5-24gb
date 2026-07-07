@@ -7,7 +7,7 @@ sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-07
 domain: sword-world-rpg-complete-edition
 category_path: concepts
-projection_coverage: topic-sword-world-rpg-complete-edition-11-acquiring-rune-master-skill@9073544782206becd036e78cac148f07
+projection_coverage: topic-sword-world-rpg-complete-edition-11-acquiring-rune-master-skill@78338d5884cdf9ebcf6c8d4633377ad9
 ---
 
 # 11 Acquiring Rune Master Skill
@@ -63,12 +63,6 @@ What [[sword-world-rpg-complete-edition]] covers about 11 acquiring rune master 
 <a id="atom-technical-atom-18058312592ec3ca"></a>
 > In rare cases, if a character who had the priest skill believes that their previous teachings are wrong and awakens to the teachings of another god, they may lose any previous priest skill levels they had and acquire 1st level in a new god's priest skill level instead.
 
-
-## Related pages
-
-### Shared claims
-
-- [[sword-world-rpg-complete-edition-sage-skill]] - shared statements: Sage Skill shares source evidence from Chapter 11: Notes on Magic / 11.2 Dark Magic / 10th Level Basic Dark Magic List [ Call God ] / 11.2.3 Special Dark Magic List / [ Create Ghost Ship ] (Spell Level=6) / 11.3 Dragon Roar Magic / 9th Level Dragon Roar Magic List [ Summon Lesser Dragon ] / 11.4 Acquiring Rune Master Skills and Increasing Levels: Then, you'll be given basic knowledge as a sorcerer, such as speaking and reading in high and low ancient, thus a sorcerer who can use 1st level spells is born. In t ... [truncated] (1 shared statement(s))
 
 ## Source
 

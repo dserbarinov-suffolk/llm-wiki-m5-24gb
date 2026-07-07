@@ -7,7 +7,7 @@ sources: raw/javascriptallonge.pdf
 updated: 2026-07-07
 domain: javascriptallonge
 category_path: concepts
-projection_coverage: topic-javascriptallonge-collection@f92d8219442d115d769fec655e772d81
+projection_coverage: topic-javascriptallonge-collection@9154637934e08aa328ea8863cd66313c
 ---
 
 # Collection
@@ -665,7 +665,6 @@ break;
 ### Shared claims
 
 - [[javascriptallonge-object]] - shared statements: Object shares source evidence from Served by the Pot: Collections / Iteration and Iterables / iterator objects: In programs involving large collections of objects, it can be handy to implement iterators as objects, rather than functions. The mechanics of iterating can then be ... [truncated] (2 shared statement(s))
-- [[javascriptallonge-functional-iterator]] - shared statements: Functional Iterators shares source evidence from Served by the Pot: Collections / Iteration and Iterables / iterator objects: Iteration for functions and objects has been around for many, many decades. For simple linear collections like arrays, linked lists, stacks, and queues, functional i ... [truncated] (1 shared statement(s))
 
 ### Topics
 

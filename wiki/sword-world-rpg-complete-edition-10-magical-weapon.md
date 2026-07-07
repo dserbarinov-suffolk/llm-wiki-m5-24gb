@@ -7,7 +7,7 @@ sources: raw/Sword World RPG - Complete Edition.pdf
 updated: 2026-07-07
 domain: sword-world-rpg-complete-edition
 category_path: concepts
-projection_coverage: topic-sword-world-rpg-complete-edition-10-magical-weapon@525c3eb4c09df9d1d4b71f7b99461e3f
+projection_coverage: topic-sword-world-rpg-complete-edition-10-magical-weapon@8613eccfd04674a59390d9406f39498a
 ---
 
 # 10 Magical Weapon
@@ -16,7 +16,7 @@ What [[sword-world-rpg-complete-edition]] covers about 10 magical weapon:
 
 ## Statements
 
-### Chapter 3: / 3.4.4 Actions You Can Take While Standing Still / Attacks From Monsters Against Characters / 4.10 Excellent Weapons and Armor / and Armor / 4.10.3 Magical Weapons and Armor
+### 4.10 Excellent Weapons and Armor / and Armor / 4.10.3 Magical Weapons and Armor
 
 - In Forcelia, there are magical weapons and armor that were once created during the age of the magical kingdom (Kastuul). These magical weapons and armor are seldom found, and are usually rarely traded. _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01429))_
 
@@ -29,7 +29,7 @@ What [[sword-world-rpg-complete-edition]] covers about 10 magical weapon:
 
 ## Technical atoms
 
-### Technical frame 1: Chapter 3: / 3.4.4 Actions You Can Take While Standing Still / Attacks From Monsters Against Characters / 4.10 Excellent Weapons and Armor / and Armor / 4.10.3 Magical Weapons and Armor
+### Technical frame 1: 4.10 Excellent Weapons and Armor / and Armor / 4.10.3 Magical Weapons and Armor
 
 **Context:** _(Sword World RPG - Complete Edition.pdf (source-range-e5870dca-01436))_
 
@@ -43,13 +43,9 @@ What [[sword-world-rpg-complete-edition]] covers about 10 magical weapon:
 
 ## Related pages
 
-### Shared technical atoms
-
-- [[sword-world-rpg-complete-edition-attack-monster-character]] - shared statements and technical atoms: Attacks From Monsters Against Characters shares source evidence from Chapter 3: / 3.4.4 Actions You Can Take While Standing Still / Attacks From Monsters Against Characters / 4.10 Excellent Weapons and Armor / and Armor / 4.10.3 Magical Weapons and Armor: In Forcelia, there are magical weapons and armor that were once created during the age of the magical kingdom (Kastuul). These magical weapons and armor are seldom f ... [truncated]; Attacks From Monsters Against Characters shares technical record from Chapter 3: / 3.4.4 Actions You Can Take While Standing Still / Attacks From Monsters Against Characters / 4.10 Excellent Weapons and Armor / and Armor / 4.10.3 Magical Weapons and Armor: Magical weapons can deal damage to monsters that normal weapons cannot harm. (6 shared statement(s), 1 shared atom(s))
-
 ### Shared claims
 
-- [[sword-world-rpg-complete-edition-armor]] - shared statements: Armor shares source evidence from Chapter 3: / 3.4.4 Actions You Can Take While Standing Still / Attacks From Monsters Against Characters / 4.10 Excellent Weapons and Armor / and Armor / 4.10.3 Magical Weapons and Armor: In Forcelia, there are magical weapons and armor that were once created during the age of the magical kingdom (Kastuul). These magical weapons and armor are seldom f ... [truncated] (4 shared statement(s))
+- [[sword-world-rpg-complete-edition-armor]] - shared statements: Armor shares source evidence from 4.10 Excellent Weapons and Armor / and Armor / 4.10.3 Magical Weapons and Armor: In Forcelia, there are magical weapons and armor that were once created during the age of the magical kingdom (Kastuul). These magical weapons and armor are seldom f ... [truncated] (4 shared statement(s))
 
 ## Source
 

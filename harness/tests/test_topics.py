@@ -182,6 +182,44 @@ class TestTopicPlanning:
 
         assert "alpha" not in {topic.topic_key for topic in topics}
 
+    def test_repeated_section_topic_does_not_absorb_source_wide_text_matches(self) -> None:
+        result = _build(
+            [
+                ("heading", "# Array Values", []),
+                (
+                    "paragraph",
+                    "Array values provide the first source-local property.",
+                    ["Array values provide the first source-local property."],
+                ),
+                ("heading", "# Other Topic", []),
+                (
+                    "paragraph",
+                    "Array values appear in unrelated catalog prose.",
+                    ["Array values appear in unrelated catalog prose."],
+                ),
+                ("heading", "# Array Values", []),
+                (
+                    "paragraph",
+                    "Array values provide the second source-local property.",
+                    ["Array values provide the second source-local property."],
+                ),
+            ]
+        )
+        section_plan = build_section_grounded_plan(result.ledger, result.document_structure)
+        topic = next(
+            topic
+            for topic in plan_source_topics(
+                result.ledger, result.document_structure, section_plan=section_plan
+            )
+            if topic.topic_key == "array-value"
+        )
+
+        texts = _topic_texts(result, topic.entry_ids)
+        assert topic.candidate_origin == "section-repeat"
+        assert topic.closure_reason == "section-repeat-structural-closure"
+        assert len(texts) == 2
+        assert not any("unrelated catalog" in text for text in texts)
+
     def test_section_page_includes_only_context_supported_atoms(self) -> None:
         result = _build(
             [

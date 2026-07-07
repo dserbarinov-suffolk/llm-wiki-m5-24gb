@@ -7,7 +7,7 @@ sources: raw/javascriptallonge.pdf
 updated: 2026-07-07
 domain: javascriptallonge
 category_path: concepts
-projection_coverage: topic-javascriptallonge-evaluate@76f25b1c463da66a18633597fa4dba67
+projection_coverage: topic-javascriptallonge-evaluate@fee9c4e3f2a962c509c1583e61a862df
 ---
 
 # Evaluate
@@ -73,19 +73,6 @@ undefined === undefined
 //=> true
 (() => {})() === undefined
 //=> true
-```
-
-### Technical frame 2: And also: / Closures and Scope / it's always the environment
-
-**Context:** _(javascriptallonge.pdf (source-range-c98ab3e6-00350))_
-
-> Only you call it with (1)(2)(3) instead of (1, 2, 3) . The other big difference is that you can call it with (1) and get a function back that you can later call with (2)(3) .
-
-**Atom:** _(javascriptallonge.pdf (source-range-c98ab3e6-00349))_
-
-<a id="atom-technical-atom-6fe6b5fb614bb8b4"></a>
-```
-(x, y, z) => x + y + z
 ```
 
 
